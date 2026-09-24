@@ -5,19 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Histoire Visuelle de l'Art - Collections & Frises</title>
   
-  <!-- Leaflet CSS (Carte sombre) -->
+  <!-- Leaflet CSS -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 
   <style>
     :root {
       --bg-main: #0c0d10;
-      --bg-panel: #14161d;
-      --bg-card: #1c1f2b;
-      --border-color: #2b3042;
-      --gold-accent: #d4af37;
-      --gold-hover: #f3cf65;
-      --text-main: #f0f2f5;
-      --text-muted: #9aa1b2;
+      --bg-panel: #13151b;
+      --bg-card: #1b1e28;
+      --border-color: #2b3040;
+      --gold-accent: #cfa847;
+      --gold-hover: #e5be5a;
+      --parchment: #d9c7a7;
+      --text-main: #edeef2;
+      --text-muted: #9ba2b3;
       --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     }
 
@@ -61,9 +62,9 @@
     .brand span {
       color: var(--gold-accent);
       text-transform: uppercase;
-      font-size: 0.8rem;
+      font-size: 0.78rem;
       border: 1px solid var(--gold-accent);
-      padding: 2px 6px;
+      padding: 2px 7px;
       border-radius: 4px;
     }
 
@@ -74,7 +75,7 @@
     }
 
     .btn-action {
-      background: #1c202e;
+      background: #1c202d;
       color: var(--text-main);
       border: 1px solid var(--border-color);
       padding: 6px 14px;
@@ -101,24 +102,29 @@
       height: calc(100vh - 52px);
     }
 
-    /* ZONE CARTE (HAUT) */
+    /* ZONE CARTE AVEC STYLE PAPIER ANCIEN */
     #map-container {
       height: 52%;
       width: 100%;
-      background: #08090b;
+      background: #1a1714;
       position: relative;
     }
 
     #map {
       height: 100%;
       width: 100%;
-      background: #08090b;
+      background: #181512;
+    }
+
+    /* Filtre appliqué sur les tuiles pour obtenir la teinte parchemin / papier ancien */
+    .vintage-tiles {
+      filter: sepia(0.65) contrast(1.1) brightness(0.85) hue-rotate(-10deg);
     }
 
     /* SÉPARATEUR DE STATUT */
     .timeline-header-bar {
       height: 38px;
-      background: #11131a;
+      background: #101218;
       border-top: 1px solid var(--border-color);
       border-bottom: 1px solid var(--border-color);
       display: flex;
@@ -135,11 +141,11 @@
       font-weight: 600;
     }
 
-    /* ZONE FRISE CHRONOLOGIQUE (BAS) */
+    /* ZONE FRISE CHRONOLOGIQUE */
     #timeline-viewport {
       height: calc(48% - 38px);
       width: 100%;
-      background: #0e1017;
+      background: #0d0f14;
       overflow-x: auto;
       overflow-y: hidden;
       position: relative;
@@ -149,7 +155,7 @@
     #timeline-canvas-wrap {
       position: relative;
       height: 100%;
-      min-width: 5200px;
+      min-width: 5300px;
     }
 
     /* TIROIR NOTICE LATÉRALE */
@@ -165,7 +171,7 @@
       transition: right 0.3s cubic-bezier(0.16, 1, 0.3, 1);
       display: flex;
       flex-direction: column;
-      box-shadow: -10px 0 30px rgba(0, 0, 0, 0.75);
+      box-shadow: -10px 0 30px rgba(0, 0, 0, 0.8);
     }
 
     #detail-drawer.open {
@@ -213,9 +219,9 @@
     }
 
     .badge {
-      background: #1f2333;
-      color: #c4cad8;
-      border: 1px solid #333a52;
+      background: #1e2230;
+      color: #c4cad6;
+      border: 1px solid #31374a;
       padding: 4px 8px;
       border-radius: 4px;
       font-size: 0.75rem;
@@ -273,7 +279,7 @@
 
   <!-- CONTENU PRINCIPAL -->
   <main>
-    <!-- CARTE LEAFLET -->
+    <!-- CARTE STYLE ANCIEN SANS CLÉ API -->
     <div id="map-container">
       <div id="map"></div>
     </div>
@@ -281,7 +287,7 @@
     <!-- BANDEAU TEMPOREL -->
     <div class="timeline-header-bar">
       <div>Période active : <span class="active-epoch-tag" id="current-epoch-label">Antiquité, Asie &amp; Méditerranée</span></div>
-      <div>Molette : Défilement chronologique • Clic : Consulter l'album</div>
+      <div>Molette : Défilement chronologique • Clic : Fiche &amp; Album</div>
     </div>
 
     <!-- FRISE CHRONOLOGIQUE -->
@@ -291,7 +297,7 @@
       </div>
     </div>
 
-    <!-- VOLET NOTICE -->
+    <!-- TIROIR NOTICE -->
     <aside id="detail-drawer">
       <div class="drawer-header">
         <h3 id="drawer-title">Titre de la Collection</h3>
@@ -325,7 +331,7 @@
 
   <script>
     /* ========================================================
-       BASE DE DONNÉES EXTENSIBLE : CIVILISATIONS & ALBUMS
+       BASE DE DONNÉES : CIVILISATIONS & ALBUMS
        ======================================================== */
     const DATA_ALBUMS = [
       // MÉSOPOTAMIE & ASSYRIE
@@ -341,7 +347,7 @@
         lat: 31.3222,
         lng: 45.6361,
         itemsCount: 2,
-        color: "#e2a93b",
+        color: "#d4973b",
         laneIndex: 0,
         desc: "Émergence des premières cités-États, invention de l'écriture cunéiforme proto-alphabétique, grands vases sculptés et ziggurat d'Anu.",
         photosUrl: "https://photos.google.com"
@@ -358,7 +364,7 @@
         lat: 30.9622,
         lng: 46.1031,
         itemsCount: 12,
-        color: "#e2a93b",
+        color: "#d4973b",
         laneIndex: 0,
         desc: "Statuaire votive aux yeux écarquillés en orant, trésors des tombes royales d'Ur, essor des dynasties de Lagash et d'Adab.",
         photosUrl: "https://photos.google.com"
@@ -375,7 +381,7 @@
         lat: 33.3152,
         lng: 44.3661,
         itemsCount: 3,
-        color: "#e2a93b",
+        color: "#d4973b",
         laneIndex: 0,
         desc: "Premier grand empire sémitique unifié par Sargon d'Akkad. Révolution réaliste du masque royal en bronze et stèles de victoire.",
         photosUrl: "https://photos.google.com"
@@ -392,7 +398,7 @@
         lat: 30.9622,
         lng: 46.1031,
         itemsCount: 5,
-        color: "#e2a93b",
+        color: "#d4973b",
         laneIndex: 0,
         desc: "Renaissance sumérienne. Statuaire en diorite noire de Gudea de Lagash et construction des ziggurats monumentales d'Ur-Nammu.",
         photosUrl: "https://photos.google.com"
@@ -409,7 +415,7 @@
         lat: 36.3587,
         lng: 43.1528,
         itemsCount: 21,
-        color: "#d97706",
+        color: "#b45309",
         laneIndex: 0,
         desc: "Hauts-reliefs monumentaux des palais d'Assurbanipal et de Sargon II, génies ailés colossaux (Lamassu) et chasses royales aux lions.",
         photosUrl: "https://photos.google.com"
@@ -426,7 +432,7 @@
         lat: 32.5363,
         lng: 44.4208,
         itemsCount: 6,
-        color: "#e2a93b",
+        color: "#d4973b",
         laneIndex: 0,
         desc: "Porte d'Ishtar en briques glaçurées bleues, voie processionnelle, ziggurat Etemenanki et stèle du Code de Hammurabi.",
         photosUrl: "https://photos.google.com"
@@ -445,7 +451,7 @@
         lat: 40.0197,
         lng: 34.6153,
         itemsCount: 18,
-        color: "#06b6d4",
+        color: "#0284c7",
         laneIndex: 1,
         desc: "Capitale fortifiée de Hattusa, porte des Lions, porte du Sphinx, et bas-reliefs rupestres monumentaux du sanctuaire à ciel ouvert de Yazılıkaya.",
         photosUrl: "https://photos.google.com"
@@ -462,9 +468,9 @@
         lat: 39.6517,
         lng: 31.9844,
         itemsCount: 8,
-        color: "#0891b2",
+        color: "#0369a1",
         laneIndex: 1,
-        desc: "Mobilier en bois marqueté exceptionnellement préservé du grand tumulus du roi Midas, fibules de bronze complexes et céramique peinte géométrique.",
+        desc: "Mobilier en bois marqueté exceptionnellement préservé du grand tumulus du roi Midas, fibules de bronze complexes et céramique géométrique.",
         photosUrl: "https://photos.google.com"
       },
 
@@ -481,7 +487,7 @@
         lat: 25.1000,
         lng: 32.8000,
         itemsCount: 54,
-        color: "#10b981",
+        color: "#15803d",
         laneIndex: 2,
         desc: "Couteaux de prestige cérémoniels, palette de Narmer unifiant la Haute et la Basse-Égypte, nécropoles royales d'Abydos.",
         photosUrl: "https://photos.google.com"
@@ -498,9 +504,9 @@
         lat: 25.7188,
         lng: 32.6573,
         itemsCount: 241,
-        color: "#10b981",
+        color: "#15803d",
         laneIndex: 2,
-        desc: "Apogée des grands pharaons thébains (Hatchepsout, Toutânkhamon, Ramsès II). Statuaire colossale, obélisques et fresques des tombes de la Vallée des Rois.",
+        desc: "Apogée des grands pharaons thébains (Hatchepsout, Toutânkhamon, Ramsès II). Statuaire colossale, obélisques et fresques de la Vallée des Rois.",
         photosUrl: "https://photos.google.com"
       },
 
@@ -517,7 +523,7 @@
         lat: 29.9352,
         lng: 52.8914,
         itemsCount: 22,
-        color: "#f97316",
+        color: "#ea580c",
         laneIndex: 3,
         desc: "L'art impérial des rois des rois (Cyrus le Grand, Darius, Xerxès). Palais de l'Apadana, frise des archers en brique émaillée et cylindre de Cyrus.",
         photosUrl: "https://photos.google.com"
@@ -536,9 +542,9 @@
         lat: 39.7042,
         lng: 8.9922,
         itemsCount: 16,
-        color: "#8b5cf6",
+        color: "#7c3aed",
         laneIndex: 4,
-        desc: "Tours mégalithiques nuragiques, tombes des géants et statuettes votives en bronze (bronzetti sardes) figurant archers, chefs de tribu et animaux sacrés.",
+        desc: "Tours mégalithiques nuragiques, tombes des géants et statuettes votives en bronze (bronzetti sardes) figurant archers, chefs et animaux sacrés.",
         photosUrl: "https://photos.google.com"
       },
       {
@@ -553,7 +559,7 @@
         lat: 37.9715,
         lng: 23.7267,
         itemsCount: 150,
-        color: "#a855f7",
+        color: "#9333ea",
         laneIndex: 4,
         desc: "Canon des proportions, céramique à figures rouges, métopes et frontons des temples doriques et ioniques.",
         photosUrl: "https://photos.google.com"
@@ -570,7 +576,7 @@
         lat: 41.8902,
         lng: 12.4922,
         itemsCount: 280,
-        color: "#ec4899",
+        color: "#db2777",
         laneIndex: 4,
         desc: "Portraits impériaux réalistes, pavements en mosaïque polychrome, bas-reliefs triomphaux et fresques pompéiennes.",
         photosUrl: "https://photos.google.com"
@@ -589,9 +595,9 @@
         lat: 33.5119,
         lng: 36.3067,
         itemsCount: 15,
-        color: "#14b8a6",
+        color: "#0d9488",
         laneIndex: 5,
-        desc: "Fondation des canons visuels islamiques. Mosaïques à fond d'or à motifs végétaux de Damas, fresques et stucs figuratifs des résidences palatiales omeyyades.",
+        desc: "Fondation des canons visuels islamiques. Mosaïques à fond d'or végétalisées de Damas, fresques et stucs des résidences califales omeyyades.",
         photosUrl: "https://photos.google.com"
       },
 
@@ -608,9 +614,9 @@
         lat: 24.8318,
         lng: 79.9199,
         itemsCount: 35,
-        color: "#eab308",
+        color: "#ca8a04",
         laneIndex: 6,
-        desc: "Chefs-d'œuvre de l'architecture Nagara médiévale. Frises d'apsaras, divinités hindoues et scènes érotiques sculptées en haut-relief dans le grès chamois.",
+        desc: "Chefs-d'œuvre de l'architecture Nagara médiévale. Frises d'apsaras, divinités hindoues et scènes érotiques sculptées en haut-relief dans le grès.",
         photosUrl: "https://photos.google.com"
       },
       {
@@ -625,7 +631,7 @@
         lat: 17.0175,
         lng: 99.7038,
         itemsCount: 28,
-        color: "#f59e0b",
+        color: "#d97706",
         laneIndex: 6,
         desc: "Création du Bouddha marchant fluide en bronze de Sukhothaï, têtes couronnées courbées, et temples monumentaux (Prang et Chedi) d'Ayutthaya.",
         photosUrl: "https://photos.google.com"
@@ -633,18 +639,20 @@
     ];
 
     /* ========================================================
-       CARTE LEAFLET
+       CARTE LEAFLET : FOND HISTORIQUE / PAPIER ANCIEN (SANS CLÉ)
        ======================================================== */
     const map = L.map('map', {
       zoomControl: true,
       minZoom: 2,
-      maxZoom: 10
+      maxZoom: 9
     }).setView([30.0, 45.0], 4);
 
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-      attribution: '&copy; CartoDB & OpenStreetMap',
-      subdomains: 'abcd',
-      maxZoom: 19
+    // Esri World Physical : relief géomorphologique sans frontières modernes agressives
+    // Associé à la classe CSS .vintage-tiles pour la patine parchemin antique
+    L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Physical_Map/MapServer/tile/{z}/{y}/{x}', {
+      attribution: 'Esri & Natural Earth',
+      className: 'vintage-tiles',
+      maxZoom: 8
     }).addTo(map);
 
     const markersLayer = L.layerGroup().addTo(map);
@@ -654,12 +662,12 @@
 
       DATA_ALBUMS.forEach(item => {
         const marker = L.circleMarker([item.lat, item.lng], {
-          radius: 7,
+          radius: 8,
           fillColor: item.color,
-          color: '#ffffff',
-          weight: 1.5,
-          opacity: 0.9,
-          fillOpacity: 0.85
+          color: '#241b14',
+          weight: 2,
+          opacity: 1,
+          fillOpacity: 0.9
         });
 
         marker.bindTooltip(`<strong>${item.title}</strong><br>${item.site}`, {
@@ -678,7 +686,7 @@
     populateMapMarkers();
 
     /* ========================================================
-       FRISE CHRONOLOGIQUE (CANVAS DYNAMIQUE)
+       FRISE CHRONOLOGIQUE
        ======================================================== */
     const viewport = document.getElementById('timeline-viewport');
     const canvasWrap = document.getElementById('timeline-canvas-wrap');
@@ -689,7 +697,7 @@
     const YEAR_MAX = 1900;
     const TOTAL_YEARS = YEAR_MAX - YEAR_MIN;
 
-    let canvasWidth = 5200;
+    let canvasWidth = 5300;
     let canvasHeight = viewport.clientHeight;
 
     function resizeCanvas() {
@@ -705,27 +713,26 @@
       return ((year - YEAR_MIN) / TOTAL_YEARS) * (canvasWidth - 140) + 110;
     }
 
-    // Définition des 7 couloirs culturels
     const LANES = [
-      { name: "Mésopotamie & Assyrie", y: 35, height: 38, color: "#e2a93b" },
-      { name: "Anatolie (Hittites, Phrygie)", y: 77, height: 38, color: "#06b6d4" },
-      { name: "Égypte Antique", y: 119, height: 38, color: "#10b981" },
-      { name: "Iran (Achéménides, Perse)", y: 161, height: 38, color: "#f97316" },
-      { name: "Méditerranée (Sardaigne, Grèce, Rome)", y: 203, height: 38, color: "#8b5cf6" },
-      { name: "Monde Islamique (Omeyyades)", y: 245, height: 38, color: "#14b8a6" },
-      { name: "Asie (Chandelas Inde, Thaïlande)", y: 287, height: 38, color: "#eab308" }
+      { name: "Mésopotamie & Assyrie", y: 35, height: 38, color: "#d4973b" },
+      { name: "Anatolie (Hittites, Phrygie)", y: 77, height: 38, color: "#0284c7" },
+      { name: "Égypte Antique", y: 119, height: 38, color: "#15803d" },
+      { name: "Iran (Achéménides, Perse)", y: 161, height: 38, color: "#ea580c" },
+      { name: "Méditerranée (Sardaigne, Grèce, Rome)", y: 203, height: 38, color: "#7c3aed" },
+      { name: "Monde Islamique (Omeyyades)", y: 245, height: 38, color: "#0d9488" },
+      { name: "Asie (Chandelas Inde, Thaïlande)", y: 287, height: 38, color: "#ca8a04" }
     ];
 
     function renderTimeline() {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-      ctx.fillStyle = "#0e1017";
+      ctx.fillStyle = "#0d0f14";
       ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-      // Repères chronologiques (siècles et millénaires)
+      // Repères chronologiques
       for (let y = -3500; y <= 1900; y += 250) {
         const x = yearToX(y);
-        ctx.strokeStyle = (y % 1000 === 0 || y === 0) ? "#374151" : "#1a1f2e";
+        ctx.strokeStyle = (y % 1000 === 0 || y === 0) ? "#33394a" : "#171a24";
         ctx.lineWidth = (y % 1000 === 0 || y === 0) ? 2 : 1;
         
         ctx.beginPath();
@@ -733,31 +740,30 @@
         ctx.lineTo(x, canvas.height);
         ctx.stroke();
 
-        ctx.fillStyle = (y % 1000 === 0 || y === 0) ? "#d4af37" : "#6b7280";
+        ctx.fillStyle = (y % 1000 === 0 || y === 0) ? "#cfa847" : "#6f768a";
         ctx.font = (y % 1000 === 0 || y === 0) ? "bold 11px sans-serif" : "10px sans-serif";
         const label = y < 0 ? `${Math.abs(y)} av. J.-C.` : (y === 0 ? "An 1" : `${y} ap. J.-C.`);
         ctx.fillText(label, x + 6, 20);
       }
 
-      // Dessin des couloirs horizontaux
+      // Couloirs
       LANES.forEach(lane => {
-        ctx.fillStyle = "rgba(255, 255, 255, 0.02)";
+        ctx.fillStyle = "rgba(255, 255, 255, 0.015)";
         ctx.fillRect(0, lane.y, canvas.width, lane.height);
         
-        ctx.strokeStyle = "#1f2433";
+        ctx.strokeStyle = "#1b1f2b";
         ctx.lineWidth = 1;
         ctx.beginPath();
         ctx.moveTo(0, lane.y + lane.height);
         ctx.lineTo(canvas.width, lane.y + lane.height);
         ctx.stroke();
 
-        // Titre du couloir
         ctx.fillStyle = lane.color;
         ctx.font = "bold 11px sans-serif";
         ctx.fillText(lane.name, 10, lane.y + 24);
       });
 
-      // Dessin des blocs d'albums
+      // Blocs d'œuvres
       DATA_ALBUMS.forEach(item => {
         const x1 = yearToX(item.yearStart);
         const x2 = yearToX(item.yearEnd);
@@ -765,16 +771,13 @@
 
         const targetLane = LANES[item.laneIndex] || LANES[0];
 
-        // Fond du bloc
         ctx.fillStyle = item.color + "33";
         ctx.fillRect(x1, targetLane.y + 4, w, targetLane.height - 8);
 
-        // Contour
         ctx.strokeStyle = item.color;
         ctx.lineWidth = 1.5;
         ctx.strokeRect(x1, targetLane.y + 4, w, targetLane.height - 8);
 
-        // Titre
         ctx.fillStyle = "#f3f4f6";
         ctx.font = "10.5px sans-serif";
         const label = `${item.civilisation} : ${item.subpart}`;
@@ -791,7 +794,7 @@
     resizeCanvas();
 
     /* ========================================================
-       GESTION DES CLICS & DU TIROIR LATÉRAL
+       TIROIR LATÉRAL & ACTIONS
        ======================================================== */
     const drawer = document.getElementById('detail-drawer');
     const drawerTitle = document.getElementById('drawer-title');
@@ -821,7 +824,6 @@
       drawer.classList.remove('open');
     });
 
-    // Clic sur un rectangle dans le Canvas
     canvas.addEventListener('click', (e) => {
       const rect = canvas.getBoundingClientRect();
       const clickX = e.clientX - rect.left;
@@ -845,7 +847,6 @@
       }
     });
 
-    // Défilement horizontal avec la molette
     viewport.addEventListener('wheel', (e) => {
       if (e.deltaY !== 0) {
         e.preventDefault();
@@ -853,14 +854,12 @@
       }
     });
 
-    // Réinitialisation de la vue
     document.getElementById('btn-reset-view').addEventListener('click', () => {
       map.setView([30.0, 45.0], 4);
       viewport.scrollLeft = 0;
       drawer.classList.remove('open');
     });
 
-    // Bouton de copie du code
     document.getElementById('btn-copy-code').addEventListener('click', () => {
       navigator.clipboard.writeText(document.documentElement.outerHTML).then(() => {
         const btn = document.getElementById('btn-copy-code');
