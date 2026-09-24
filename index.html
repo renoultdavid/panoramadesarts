@@ -3,27 +3,38 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Atlas Visuel des Arts et Civilisations</title>
+  <title>Atlas &amp; Galerie Visuelle des Arts Antiques</title>
+
+  <!-- Typographies Muséales -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;800&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
 
   <!-- Leaflet CSS -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 
   <style>
     :root {
-      --bg-void: #050608;
-      --bg-card: rgba(14, 17, 24, 0.88);
-      --border-glow: rgba(212, 175, 55, 0.25);
-      --gold-royal: #e5c158;
-      --gold-dim: #997f33;
-      --text-glow: #ffffff;
-      --text-soft: #a8b0c2;
-      --egypt-accent: #2ec4b6;
-      --meso-accent: #ff9f1c;
-      --greece-accent: #3a86ff;
-      --rome-accent: #e63946;
-      --persia-accent: #9d4edd;
-      --asia-accent: #f72585;
-      --west-accent: #ffd166;
+      /* Palette Gris de Payne & Matières Muséales */
+      --payne-grey: #353B45;
+      --payne-deep: #1e222a;
+      --payne-subtle: #272c36;
+      --bg-abyss: #0c0e12;
+      
+      --gold-leaf: #d4af37;
+      --gold-pale: #eed88f;
+      --gold-bronze: #8c7335;
+      
+      --text-pedestal: #f4f5f7;
+      --text-muted: #8e96a8;
+
+      /* Accents Civilisations tamisés */
+      --accent-greece: #d47a43;
+      --accent-egypt: #3da58a;
+      --accent-meso: #d4af37;
+      --accent-rome: #a84242;
+      --accent-persia: #8b5cf6;
+      --accent-anatol: #38bdf8;
     }
 
     * {
@@ -35,53 +46,53 @@
     }
 
     body {
-      background-color: var(--bg-void);
-      color: #fff;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Cinzel", Georgia, serif;
+      background-color: var(--bg-abyss);
+      color: var(--text-pedestal);
+      font-family: 'Cormorant Garamond', Georgia, serif;
       height: 100vh;
       width: 100vw;
       overflow: hidden;
       position: relative;
     }
 
-    /* 1. CARTE PLEIN ÉCRAN EN ARRIÈRE-PLAN IMMERSIF */
+    /* 1. CARTE PLEIN ÉCRAN NOCTURNE SUR BASE OPENSTREETMAP SANS CLÉ */
     #map-background {
       position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
+      inset: 0;
       z-index: 1;
-      background: #030406;
+      background: #090a0d;
     }
 
-    /* Traitement sombre et mystérieux de la carte */
+    /* Inversion élégante vers le Gris de Payne & Noir profond */
     .leaflet-tile-pane {
-      filter: brightness(0.55) contrast(1.4) saturate(0.4) invert(0.05);
+      filter: brightness(0.6) invert(1) contrast(2.8) hue-rotate(190deg) saturate(0.35);
     }
 
-    /* Masquage des contrôles par défaut Leaflet pour une immersion pure */
-    .leaflet-control-container .leaflet-top,
-    .leaflet-control-container .leaflet-bottom {
+    .leaflet-container {
+      background: #090a0d !important;
+    }
+
+    .leaflet-control-container {
       display: none;
     }
 
-    /* 2. DÉGRADÉS D'ATMOSPHÈRE & BRUMES (VIGNETTING) */
-    .vignette-overlay {
+    /* Vignettage d'ambiance galerie */
+    .gallery-veil {
       position: absolute;
       inset: 0;
       pointer-events: none;
       z-index: 2;
-      background: radial-gradient(circle at 50% 40%, rgba(5,6,8,0.1) 20%, rgba(5,6,8,0.85) 90%),
-                  linear-gradient(to top, rgba(5,6,8,0.95) 0%, rgba(5,6,8,0.3) 30%, transparent 60%);
+      background: 
+        radial-gradient(circle at 50% 35%, rgba(53, 59, 69, 0.2) 0%, rgba(10, 11, 14, 0.82) 75%),
+        linear-gradient(to top, rgba(10, 11, 14, 0.98) 0%, rgba(10, 11, 14, 0.4) 30%, transparent 65%);
     }
 
-    /* 3. BARRE SUPÉRIEURE FLOTTANTE & MINIMALISTE */
+    /* 2. EN-TÊTE MUSÉAL */
     header {
       position: absolute;
-      top: 1.5rem;
-      left: 2rem;
-      right: 2rem;
+      top: 1.8rem;
+      left: 2.2rem;
+      right: 2.2rem;
       z-index: 10;
       display: flex;
       justify-content: space-between;
@@ -89,182 +100,196 @@
       pointer-events: none;
     }
 
-    .brand-box {
-      background: var(--bg-card);
-      backdrop-filter: blur(16px);
-      padding: 10px 22px;
-      border-radius: 40px;
-      border: 1px solid var(--border-glow);
-      display: flex;
-      align-items: center;
-      gap: 14px;
-      pointer-events: auto;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.6);
-    }
-
-    .brand-title {
-      font-size: 1rem;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-      font-weight: 600;
-      color: var(--gold-royal);
-    }
-
-    .brand-counter {
-      font-size: 0.75rem;
-      background: rgba(255,255,255,0.06);
-      padding: 3px 10px;
-      border-radius: 20px;
-      color: var(--text-soft);
-      border: 1px solid rgba(255,255,255,0.1);
-    }
-
-    .top-actions {
-      display: flex;
-      gap: 10px;
-      pointer-events: auto;
-    }
-
-    .btn-glass {
-      background: var(--bg-card);
-      backdrop-filter: blur(16px);
-      border: 1px solid var(--border-glow);
-      color: #fff;
-      padding: 8px 16px;
-      border-radius: 20px;
-      font-size: 0.8rem;
-      cursor: pointer;
-      letter-spacing: 0.5px;
-      transition: all 0.3s ease;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-
-    .btn-glass:hover {
-      border-color: var(--gold-royal);
-      box-shadow: 0 0 15px rgba(229, 193, 88, 0.4);
-      transform: translateY(-1px);
-    }
-
-    /* 4. ENCARTE CIVILISATION ACTIVE (EN HAUT À DROITE DE LA CARTE) */
-    #active-focus-card {
-      position: absolute;
-      top: 5.5rem;
-      right: 2rem;
-      z-index: 10;
-      width: 320px;
-      background: var(--bg-card);
+    .museum-cartouche {
+      background: rgba(30, 34, 42, 0.75);
       backdrop-filter: blur(20px);
-      border: 1px solid var(--border-glow);
-      border-radius: 16px;
-      padding: 1.2rem;
-      box-shadow: 0 15px 40px rgba(0,0,0,0.8);
-      transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
-      transform: translateX(0);
+      padding: 10px 24px;
+      border-radius: 4px;
+      border: 1px solid rgba(212, 175, 55, 0.25);
+      border-left: 3px solid var(--gold-leaf);
+      pointer-events: auto;
+      box-shadow: 0 10px 35px rgba(0, 0, 0, 0.8);
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
     }
 
-    #active-focus-card.hidden {
+    .museum-title {
+      font-family: 'Cinzel', serif;
+      font-size: 1.05rem;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: var(--gold-leaf);
+      text-shadow: 0 0 12px rgba(212, 175, 55, 0.3);
+    }
+
+    .museum-subtitle {
+      font-size: 0.85rem;
+      font-style: italic;
+      color: var(--text-muted);
+      letter-spacing: 0.5px;
+    }
+
+    .header-actions {
+      display: flex;
+      gap: 12px;
+      pointer-events: auto;
+    }
+
+    .btn-museum {
+      background: rgba(30, 34, 42, 0.75);
+      backdrop-filter: blur(16px);
+      border: 1px solid rgba(212, 175, 55, 0.25);
+      color: var(--text-pedestal);
+      font-family: 'Cinzel', serif;
+      padding: 8px 18px;
+      border-radius: 4px;
+      font-size: 0.78rem;
+      letter-spacing: 1.5px;
+      cursor: pointer;
+      text-transform: uppercase;
+      transition: all 0.3s ease;
+    }
+
+    .btn-museum:hover {
+      border-color: var(--gold-leaf);
+      color: var(--gold-pale);
+      box-shadow: 0 0 20px rgba(212, 175, 55, 0.25);
+      background: rgba(53, 59, 69, 0.6);
+    }
+
+    /* 3. CARTOUCHE DE CIVILISATION */
+    #focus-cartouche {
+      position: absolute;
+      top: 5.8rem;
+      right: 2.2rem;
+      z-index: 10;
+      width: 360px;
+      background: rgba(30, 34, 42, 0.82);
+      backdrop-filter: blur(24px);
+      border: 1px solid rgba(212, 175, 55, 0.25);
+      border-radius: 4px;
+      padding: 1.4rem;
+      box-shadow: 0 15px 45px rgba(0, 0, 0, 0.9);
+      transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    #focus-cartouche.hidden {
       opacity: 0;
-      transform: translateX(40px);
+      transform: translateY(-20px);
       pointer-events: none;
     }
 
-    .focus-era {
-      font-size: 0.72rem;
+    .pulse-date-tag {
+      font-family: 'Cinzel', serif;
+      font-size: 0.78rem;
+      letter-spacing: 2.5px;
       text-transform: uppercase;
-      letter-spacing: 1.5px;
-      color: var(--gold-royal);
-      margin-bottom: 4px;
-    }
-
-    .focus-title {
-      font-size: 1.15rem;
-      font-weight: 600;
+      color: var(--gold-leaf);
       margin-bottom: 6px;
+      display: inline-block;
+      animation: slowBreathe 4.5s ease-in-out infinite;
     }
 
-    .focus-territory {
-      font-size: 0.82rem;
-      color: var(--text-soft);
-      line-height: 1.4;
+    .focus-heading {
+      font-family: 'Cinzel', serif;
+      font-size: 1.25rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+      margin-bottom: 8px;
+      color: #fff;
     }
 
-    /* 5. LE CONTENEUR DE LA FRISE CHRONOLOGIQUE FLOTTANTE */
-    #timeline-dock {
+    .focus-text {
+      font-size: 0.95rem;
+      line-height: 1.6;
+      color: #b3bac9;
+    }
+
+    /* 4. DOCK DE LA FRISE (DRAG-TO-PAN) */
+    #curator-dock {
       position: absolute;
       bottom: 2rem;
       left: 2rem;
       right: 2rem;
       z-index: 20;
-      background: var(--bg-card);
-      backdrop-filter: blur(24px);
-      border: 1px solid var(--border-glow);
-      border-radius: 24px;
-      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.9);
+      background: rgba(22, 25, 32, 0.88);
+      backdrop-filter: blur(30px);
+      border: 1px solid rgba(212, 175, 55, 0.2);
+      border-radius: 6px;
+      box-shadow: 0 25px 70px rgba(0, 0, 0, 0.95);
       display: flex;
       flex-direction: column;
-      padding: 1rem 0 0.8rem 0;
       overflow: hidden;
     }
 
-    /* Échelle et sélecteur de sauts rapides */
-    .timeline-nav-bar {
+    .dock-nav-strip {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 0 1.8rem 0.8rem 1.8rem;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+      padding: 0.75rem 2rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+      background: rgba(14, 16, 21, 0.6);
     }
 
-    .nav-epochs {
+    .era-links {
       display: flex;
-      gap: 12px;
-      overflow-x: auto;
+      gap: 14px;
     }
 
-    .nav-epoch-pill {
+    .era-link {
+      font-family: 'Cinzel', serif;
       font-size: 0.75rem;
-      color: var(--text-soft);
-      background: rgba(255,255,255,0.04);
-      padding: 4px 12px;
-      border-radius: 12px;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: var(--text-muted);
       cursor: pointer;
-      border: 1px solid transparent;
-      transition: all 0.2s ease;
-      white-space: nowrap;
+      padding: 4px 10px;
+      border-bottom: 2px solid transparent;
+      transition: all 0.25s ease;
     }
 
-    .nav-epoch-pill:hover,
-    .nav-epoch-pill.active {
-      color: #fff;
-      border-color: var(--gold-royal);
-      background: rgba(229, 193, 88, 0.12);
+    .era-link:hover,
+    .era-link.active {
+      color: var(--gold-pale);
+      border-bottom-color: var(--gold-leaf);
     }
 
-    .timeline-hint {
+    .timeline-indicator-pulse {
+      font-family: 'Cinzel', serif;
       font-size: 0.72rem;
-      color: var(--text-soft);
-      letter-spacing: 0.5px;
+      letter-spacing: 2px;
+      color: var(--gold-leaf);
+      animation: slowBreathe 4s ease-in-out infinite;
       display: flex;
       align-items: center;
-      gap: 6px;
+      gap: 8px;
     }
 
-    /* CONTENEUR DU DRAG & PAN */
-    #timeline-drag-area {
-      height: 190px;
+    .pulsing-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--gold-leaf);
+      box-shadow: 0 0 10px var(--gold-leaf);
+      animation: pulseGlow 3s infinite;
+    }
+
+    /* ZONE DU DRAG TACTILE */
+    #timeline-drag-container {
+      height: 230px;
       width: 100%;
       cursor: grab;
-      overflow: hidden;
       position: relative;
+      overflow: hidden;
     }
 
-    #timeline-drag-area:active {
+    #timeline-drag-container:active {
       cursor: grabbing;
     }
 
-    #timeline-track {
+    #timeline-ribbon {
       position: absolute;
       top: 0;
       left: 0;
@@ -275,333 +300,375 @@
       padding-right: 40vw;
     }
 
-    /* BARRE D'AXE CHRONOLOGIQUE CENTRALE */
-    .timeline-central-axis {
+    .linear-timeline-axis {
       position: absolute;
-      top: 65px;
+      top: 72px;
       left: 0;
       right: 0;
-      height: 2px;
-      background: linear-gradient(90deg, rgba(229,193,88,0.1), rgba(229,193,88,0.5), rgba(229,193,88,0.1));
+      height: 1px;
+      background: linear-gradient(90deg, transparent, rgba(212, 175, 55, 0.35), transparent);
       pointer-events: none;
     }
 
-    /* ÉLÉMENTS D'ART LE LONG DU FLUX */
-    .art-node {
+    /* CARTE OBJET */
+    .museum-item-node {
       position: relative;
       flex-shrink: 0;
-      width: 170px;
+      width: 180px;
       height: 100%;
       display: flex;
       flex-direction: column;
       align-items: center;
       cursor: pointer;
-      transition: transform 0.2s ease;
+      transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
     }
 
-    .art-node:hover {
-      transform: translateY(-4px);
+    .museum-item-node:hover {
+      transform: translateY(-6px);
     }
 
-    .node-year-badge {
+    .node-century {
+      font-family: 'Cinzel', serif;
       font-size: 0.7rem;
-      font-weight: 600;
-      color: var(--gold-royal);
-      margin-bottom: 6px;
-      background: rgba(0,0,0,0.5);
-      padding: 2px 6px;
+      letter-spacing: 1.5px;
+      color: var(--gold-leaf);
+      margin-bottom: 8px;
+      animation: slowBreathe 4.5s ease-in-out infinite;
+    }
+
+    /* Socle Gris de Payne #353B45 */
+    .node-pedestal {
+      width: 82px;
+      height: 96px;
+      background-color: var(--payne-grey);
       border-radius: 4px;
-    }
-
-    .node-bubble {
-      width: 62px;
-      height: 62px;
-      border-radius: 50%;
       position: relative;
-      border: 2px solid var(--border-glow);
-      background-size: cover;
-      background-position: center;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.7);
-      transition: all 0.3s ease;
+      border: 1px solid rgba(212, 175, 55, 0.3);
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.7), inset 0 0 15px rgba(0,0,0,0.3);
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.35s ease;
     }
 
-    .art-node:hover .node-bubble {
-      border-color: #fff;
-      box-shadow: 0 0 20px rgba(229, 193, 88, 0.6);
-      transform: scale(1.1);
+    .museum-item-node:hover .node-pedestal {
+      border-color: var(--gold-leaf);
+      box-shadow: 0 0 25px rgba(212, 175, 55, 0.45), inset 0 0 8px rgba(0,0,0,0.2);
+      transform: scale(1.06);
     }
 
-    .node-halo {
-      position: absolute;
-      inset: -4px;
-      border-radius: 50%;
-      opacity: 0.4;
-      filter: blur(6px);
-      z-index: -1;
+    .node-pedestal img {
+      width: 88%;
+      height: 88%;
+      object-fit: contain;
+      filter: drop-shadow(0 4px 8px rgba(0,0,0,0.6));
     }
 
-    .node-details {
+    .node-caption {
       margin-top: 10px;
       text-align: center;
-      padding: 0 6px;
+      padding: 0 8px;
     }
 
-    .node-civ-tag {
+    .caption-civ {
+      font-family: 'Cinzel', serif;
       font-size: 0.65rem;
+      letter-spacing: 1.5px;
       text-transform: uppercase;
-      letter-spacing: 1px;
+      color: var(--gold-pale);
       margin-bottom: 2px;
     }
 
-    .node-object-title {
-      font-size: 0.78rem;
-      font-weight: 500;
+    .caption-title {
+      font-size: 0.88rem;
       line-height: 1.25;
       color: #edeef2;
-      max-width: 150px;
+      max-width: 160px;
       display: -webkit-box;
       -webkit-line-clamp: 2;
       -webkit-box-orient: vertical;
       overflow: hidden;
     }
 
-    /* 6. MODALE POP-UP "DARK GALLERY" (PLEIN ÉCRAN MUSÉAL) */
-    #gallery-modal {
+    /* 5. MODALE ÉCRIN MUSÉAL */
+    #curator-modal {
       position: fixed;
       inset: 0;
       z-index: 3000;
-      background: rgba(3, 4, 6, 0.88);
-      backdrop-filter: blur(25px);
+      background: rgba(8, 9, 12, 0.92);
+      backdrop-filter: blur(28px);
       display: flex;
       align-items: center;
       justify-content: center;
       opacity: 0;
       pointer-events: none;
-      transition: opacity 0.3s ease;
+      transition: opacity 0.4s ease;
     }
 
-    #gallery-modal.open {
+    #curator-modal.open {
       opacity: 1;
       pointer-events: auto;
     }
 
-    .modal-dialog {
-      background: #0d0f15;
-      border: 1px solid var(--border-glow);
-      border-radius: 20px;
-      width: 820px;
-      max-width: 90vw;
-      max-height: 85vh;
+    .modal-frame {
+      background: #15181f;
+      border: 1px solid rgba(212, 175, 55, 0.35);
+      border-radius: 4px;
+      width: 860px;
+      max-width: 92vw;
+      max-height: 88vh;
       overflow: hidden;
       display: flex;
       flex-direction: row;
-      box-shadow: 0 25px 80px rgba(0,0,0,0.95);
+      box-shadow: 0 30px 100px rgba(0, 0, 0, 0.98);
       position: relative;
     }
 
-    .modal-img-col {
-      width: 48%;
-      background: #000;
+    .modal-artwork-box {
+      width: 50%;
+      background-color: var(--payne-grey);
       display: flex;
       align-items: center;
       justify-content: center;
-      overflow: hidden;
-      position: relative;
-    }
-
-    .modal-img-col img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      transition: transform 0.6s ease;
-    }
-
-    .modal-img-col:hover img {
-      transform: scale(1.05);
-    }
-
-    .modal-info-col {
-      width: 52%;
       padding: 2rem;
+      position: relative;
+      box-shadow: inset 0 0 50px rgba(0,0,0,0.4);
+    }
+
+    .modal-artwork-box img {
+      max-width: 100%;
+      max-height: 65vh;
+      object-fit: contain;
+      filter: drop-shadow(0 12px 25px rgba(0,0,0,0.65));
+      transition: transform 0.5s ease;
+    }
+
+    .modal-artwork-box:hover img {
+      transform: scale(1.04);
+    }
+
+    .modal-curator-notes {
+      width: 50%;
+      padding: 2.4rem;
+      background: #171b23;
       display: flex;
       flex-direction: column;
       overflow-y: auto;
+      border-left: 1px solid rgba(255, 255, 255, 0.06);
     }
 
-    .modal-close-btn {
+    .btn-dismiss {
       position: absolute;
       top: 1rem;
       right: 1.2rem;
       background: transparent;
       border: none;
-      color: var(--text-soft);
-      font-size: 1.6rem;
+      color: var(--text-muted);
+      font-size: 1.8rem;
       cursor: pointer;
+      line-height: 1;
     }
 
-    .modal-close-btn:hover {
-      color: #fff;
+    .btn-dismiss:hover {
+      color: var(--gold-pale);
     }
 
-    .modal-civ {
-      font-size: 0.75rem;
+    .curator-civ-line {
+      font-family: 'Cinzel', serif;
+      font-size: 0.78rem;
+      letter-spacing: 2px;
       text-transform: uppercase;
-      letter-spacing: 1.5px;
-      color: var(--gold-royal);
+      color: var(--gold-leaf);
       margin-bottom: 6px;
     }
 
-    .modal-title {
-      font-size: 1.35rem;
-      font-weight: 600;
-      margin-bottom: 8px;
-      line-height: 1.3;
+    .curator-title {
+      font-family: 'Cinzel', serif;
+      font-size: 1.45rem;
+      font-weight: 700;
+      line-height: 1.25;
+      margin-bottom: 12px;
+      color: #fff;
     }
 
-    .modal-meta-row {
+    .curator-attributes {
       display: flex;
+      flex-wrap: wrap;
       gap: 8px;
-      margin-bottom: 1.2rem;
+      margin-bottom: 1.4rem;
     }
 
-    .meta-tag {
+    .attr-pill {
+      font-family: 'Cinzel', serif;
       font-size: 0.72rem;
-      background: #171b26;
-      border: 1px solid #283044;
-      padding: 3px 8px;
-      border-radius: 6px;
-      color: var(--text-soft);
+      letter-spacing: 1px;
+      background: #1e232e;
+      border: 1px solid rgba(212, 175, 55, 0.2);
+      padding: 4px 10px;
+      border-radius: 3px;
+      color: #c4cad8;
     }
 
-    .modal-description {
-      font-size: 0.88rem;
-      line-height: 1.6;
-      color: #b8c0d1;
-      margin-bottom: 1.8rem;
+    .curator-analysis {
+      font-size: 1.05rem;
+      line-height: 1.65;
+      color: #c0c7d6;
+      margin-bottom: 2rem;
       flex: 1;
     }
 
-    .btn-google-photos {
+    .btn-album-door {
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      gap: 10px;
-      background: linear-gradient(135deg, #e5c158, #b8860b);
-      color: #06070a;
+      gap: 12px;
+      background: linear-gradient(135deg, #d4af37, #997825);
+      color: #0c0e12;
+      font-family: 'Cinzel', serif;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
       text-decoration: none;
-      font-weight: 600;
-      font-size: 0.88rem;
-      padding: 12px 20px;
-      border-radius: 30px;
-      box-shadow: 0 5px 20px rgba(229, 193, 88, 0.35);
-      transition: all 0.25s ease;
+      font-size: 0.82rem;
+      padding: 13px 22px;
+      border-radius: 3px;
+      box-shadow: 0 6px 25px rgba(212, 175, 55, 0.3);
+      transition: all 0.3s ease;
     }
 
-    .btn-google-photos:hover {
-      box-shadow: 0 7px 25px rgba(229, 193, 88, 0.6);
+    .btn-album-door:hover {
+      box-shadow: 0 8px 30px rgba(212, 175, 55, 0.55);
       transform: translateY(-2px);
+      background: linear-gradient(135deg, #eed88f, #b89334);
+    }
+
+    /* 6. ANIMATIONS PULSANTES LENTES */
+    @keyframes slowBreathe {
+      0%, 100% {
+        opacity: 0.75;
+        text-shadow: 0 0 4px rgba(212, 175, 55, 0.2);
+      }
+      50% {
+        opacity: 1;
+        text-shadow: 0 0 16px rgba(212, 175, 55, 0.65);
+      }
+    }
+
+    @keyframes pulseGlow {
+      0%, 100% {
+        transform: scale(0.9);
+        opacity: 0.7;
+      }
+      50% {
+        transform: scale(1.2);
+        opacity: 1;
+        box-shadow: 0 0 14px var(--gold-leaf);
+      }
     }
   </style>
 </head>
 <body>
 
-  <!-- CARTE PLEIN ÉCRAN -->
+  <!-- CARTE FOND NOCTURNE -->
   <div id="map-background"></div>
-  <div class="vignette-overlay"></div>
+  <div class="gallery-veil"></div>
 
-  <!-- BARRE SUPÉRIEURE FLOTTANTE -->
+  <!-- EN-TÊTE COLLECTION -->
   <header>
-    <div class="brand-box">
-      <div class="brand-title">Chronos &amp; Arts</div>
-      <div class="brand-counter">300+ Collections photographiques</div>
+    <div class="museum-cartouche">
+      <div class="museum-title">Corpus Historique des Arts</div>
+      <div class="museum-subtitle">Collections photographiques &amp; Archives in situ</div>
     </div>
 
-    <div class="top-actions">
-      <button class="btn-glass" id="btn-recenter">Vue d'ensemble</button>
-      <button class="btn-glass" id="btn-copy">Copier le Code</button>
+    <div class="header-actions">
+      <button class="btn-museum" id="btn-reset">Atlas Global</button>
+      <button class="btn-museum" id="btn-copy-code">Copier le Code</button>
     </div>
   </header>
 
-  <!-- CARTOUCHE DE LA CIVILISATION ACTIVE -->
-  <div id="active-focus-card">
-    <div class="focus-era" id="focus-era">Haute Antiquité</div>
-    <div class="focus-title" id="focus-title">Mésopotamie des Cités-États</div>
-    <div class="focus-territory" id="focus-desc">Le berceau entre le Tigre et l'Euphrate où naquirent les premières villes fortifiées, les ziggurats monumentales et l'écriture cunéiforme.</div>
-  </div>
+  <!-- CARTOUCHE DE CIVILISATION / TERRITOIRE ACTIF -->
+  <aside id="focus-cartouche">
+    <div class="pulse-date-tag" id="cartouche-era">VIe siècle av. J.-C.</div>
+    <div class="focus-heading" id="cartouche-civ">Grèce Archaïque &amp; Classique</div>
+    <div class="focus-text" id="cartouche-desc">
+      Apogée des ateliers de potiers athéniens du Céramique. Céramiques à figures noires et figures rouges, vases cinéraires et célébration des mythes héroïques d'Héraclès et de Dionysos.
+    </div>
+  </aside>
 
-  <!-- FRISE FLOTTANTE AVEC DRAG & PAN SANS SCROLLBAR -->
-  <div id="timeline-dock">
-    <div class="timeline-nav-bar">
-      <div class="nav-epochs">
-        <span class="nav-epoch-pill active" data-target="0">Orient &amp; Égypte</span>
-        <span class="nav-epoch-pill" data-target="3">Égée &amp; Hittites</span>
-        <span class="nav-epoch-pill" data-target="6">Empire Perse</span>
-        <span class="nav-epoch-pill" data-target="8">Grèce &amp; Rome</span>
-        <span class="nav-epoch-pill" data-target="11">Islam &amp; Asie</span>
-        <span class="nav-epoch-pill" data-target="13">Occident &amp; Peintres</span>
+  <!-- DOCK FLOTTANT : LA FRISE AVEC DRAG-TO-PAN -->
+  <section id="curator-dock">
+    <div class="dock-nav-strip">
+      <div class="era-links">
+        <span class="era-link" data-index="0">Néolithique</span>
+        <span class="era-link" data-index="1">Mésopotamie</span>
+        <span class="era-link" data-index="2">Égypte</span>
+        <span class="era-link" data-index="3">Égée &amp; Hittites</span>
+        <span class="era-link active" data-index="4">Grèce &amp; Céramique</span>
+        <span class="era-link" data-index="6">Perse Achéménide</span>
+        <span class="era-link" data-index="7">Rome &amp; Mosaïques</span>
       </div>
-      <div class="timeline-hint">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
-        Glisser pour voyager dans le temps
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+
+      <div class="timeline-indicator-pulse">
+        <div class="pulsing-dot"></div>
+        Chronologie Dynamique • Glisser pour contempler
       </div>
     </div>
 
-    <div id="timeline-drag-area">
-      <div class="timeline-central-axis"></div>
-      <div id="timeline-track">
-        <!-- Généré dynamiquement en JS -->
+    <div id="timeline-drag-container">
+      <div class="linear-timeline-axis"></div>
+      <div id="timeline-ribbon">
+        <!-- Rempli en JS -->
       </div>
     </div>
-  </div>
+  </section>
 
-  <!-- MODALE POP-UP "DARK GALLERY" (CLIC OBJET) -->
-  <div id="gallery-modal">
-    <div class="modal-dialog">
-      <button class="modal-close-btn" id="modal-close">&times;</button>
-      <div class="modal-img-col">
-        <img id="modal-img" src="" alt="Photographie de l'objet d'art" />
+  <!-- MODALE ÉCRIN MUSÉAL : L'OBJET EN MAJESTÉ SUR GRIS DE PAYNE #353B45 -->
+  <div id="curator-modal">
+    <div class="modal-frame">
+      <button class="btn-dismiss" id="modal-close">&times;</button>
+      <div class="modal-artwork-box">
+        <img id="modal-artwork-img" src="" alt="Objet d'art de la collection" />
       </div>
-      <div class="modal-info-col">
-        <div class="modal-civ" id="modal-civ">Égypte Antique</div>
-        <div class="modal-title" id="modal-title">Palette de Narmer</div>
-        <div class="modal-meta-row">
-          <span class="meta-tag" id="modal-century">-3100 av. J.-C.</span>
-          <span class="meta-tag" id="modal-site">Hiérakonpolis</span>
+      <div class="modal-curator-notes">
+        <div class="curator-civ-line" id="modal-civ-label">Civilisation Grecque</div>
+        <h2 class="curator-title" id="modal-object-title">Amphore panathénaïque</h2>
+        <div class="curator-attributes">
+          <span class="attr-pill" id="modal-century-tag">VIe siècle av. J.-C.</span>
+          <span class="attr-pill" id="modal-place-tag">Athènes (Grèce)</span>
+          <span class="attr-pill" style="border-color: var(--gold-leaf); color: var(--gold-pale);">Gris de Payne #353B45</span>
         </div>
-        <div class="modal-description" id="modal-desc">
-          Notice détaillée de l'objet d'art photographié.
-        </div>
-        <a href="#" target="_blank" rel="noopener noreferrer" class="btn-google-photos" id="modal-link">
-          Explorer la collection Google Photos
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        <p class="curator-analysis" id="modal-analysis-text">
+          Notice muséale de l'œuvre photographiée.
+        </p>
+        <a href="#" target="_blank" rel="noopener noreferrer" class="btn-album-door" id="modal-google-photos">
+          Consulter l'album Google Photos
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
         </a>
       </div>
     </div>
   </div>
 
-  <!-- Leaflet JS -->
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
   <script>
     /* ==========================================================================
-       1. DONNÉES HISTORIQUES : ÉVÉNEMENTS, OBJETS PRÉCIS & FOYERS GÉOGRAPHIQUES
+       CORPUS D'OBJETS D'ART (DÉTOURÉS EN GRIS DE PAYNE #353B45)
        ========================================================================== */
-    const ART_DATABASE = [
+    const MUSEUM_CORPUS = [
       {
         id: "catal_hoyuk",
         civilisation: "Anatolie Néolithique",
         century: "v. -7400 av. J.-C.",
         dateNumeric: -7400,
-        title: "Déesse-Mère assise aux léopards",
+        title: "Déesse-Mère aux fauves",
         site: "Çatal Höyük (Turquie)",
         lat: 37.6675,
         lng: 32.8283,
-        color: "#d4a373",
-        // Image d'exemple haute qualité
-        img: "https://images.unsplash.com/photo-1544967082-d9d25d867d66?auto=format&fit=crop&w=600&q=80",
-        desc: "Statuette en terre cuite figurant une figure féminine hiératique flanquée de deux fauves, symbole archétypal de la fécondité et des premiers sanctuaires néolithiques sédentaires.",
-        territoryRadius: 180000,
+        color: "#d4af37",
+        img: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Museum_of_Anatolian_Civilizations_077.jpg/480px-Museum_of_Anatolian_Civilizations_077.jpg",
+        desc: "Statuette en terre cuite représentant une figure féminine hiératique assise entre deux léopards. Symbole archétypal de fertilité et des premiers cultes sédentaires.",
+        territoryRadius: 200000,
         photosUrl: "https://photos.google.com"
       },
       {
@@ -609,14 +676,14 @@
         civilisation: "Mésopotamie (Uruk)",
         century: "v. -3200 av. J.-C.",
         dateNumeric: -3200,
-        title: "Le Grand Vase d'Uruk",
-        site: "Uruk (Warka, Irak)",
+        title: "Le Grand Vase sculpté d'Uruk",
+        site: "Uruk (Irak)",
         lat: 31.3222,
         lng: 45.6361,
-        color: "#ff9f1c",
-        img: "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&w=600&q=80",
-        desc: "Chef-d'œuvre de la sculpture proto-urbaine en albâtre. Frise narrative hiérarchisée décrivant la cosmogonie sumérienne, des eaux nourricières jusqu'à l'offrande à la déesse Inanna.",
-        territoryRadius: 260000,
+        color: "#d4af37",
+        img: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Uruk_vase_in_the_Iraq_Museum.jpg/440px-Uruk_vase_in_the_Iraq_Museum.jpg",
+        desc: "Albâtre sculpté en registres superposés. Récit de la fertilité cosmique et procession d'offrandes à la déesse Inanna, marquant la naissance des cités sumériennes.",
+        territoryRadius: 280000,
         photosUrl: "https://photos.google.com"
       },
       {
@@ -624,223 +691,118 @@
         civilisation: "Égypte Thinite",
         century: "v. -3100 av. J.-C.",
         dateNumeric: -3100,
-        title: "Palette de Narmer",
-        site: "Hiérakonpolis (Nekhen, Égypte)",
+        title: "Palette royale de Narmer",
+        site: "Hiérakonpolis (Égypte)",
         lat: 25.0978,
         lng: 32.7981,
-        color: "#2ec4b6",
-        img: "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=600&q=80",
-        desc: "Bas-relief en grauwacke commémorant l'unification politique de la Haute et de la Basse-Égypte par le roi Narmer, posant pour des millénaires les canons visuels de l'art pharaonique.",
-        territoryRadius: 350000,
+        color: "#3da58a",
+        img: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Narmer_Palette.jpg/440px-Narmer_Palette.jpg",
+        desc: "Grauwacke polie gravée en bas-relief célébrant l'unification des Deux Terres par le souverain Narmer, fixant à jamais le canon hiératique pharaonique.",
+        territoryRadius: 360000,
         photosUrl: "https://photos.google.com"
       },
       {
         id: "cyclades_idole",
-        civilisation: "Monde Égéen (Cyclades)",
+        civilisation: "Cyclades & Monde Égéen",
         century: "v. -2500 av. J.-C.",
         dateNumeric: -2500,
-        title: "Idole féminine au profil épuré",
-        site: "Kéros / Naxos (Grèce)",
+        title: "Idole féminine canonique",
+        site: "Kéros (Grèce)",
         lat: 36.9388,
         lng: 25.5683,
-        color: "#3a86ff",
-        img: "https://images.unsplash.com/photo-1599707367072-cd6ada2bc375?auto=format&fit=crop&w=600&q=80",
-        desc: "Sculpture en marbre blanc de Paros aux lignes pures et géométriques, aux bras repliés sur la poitrine, préfigurant de plusieurs millénaires la modernité de Brâncuși et Modigliani.",
+        color: "#38bdf8",
+        img: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Cycladic_female_figurine_NAMA_4858_070624.jpg/440px-Cycladic_female_figurine_NAMA_4858_070624.jpg",
+        desc: "Marbre blanc immaculé sculpté avec une rigueur géométrique absolue. Bras repliés sur la poitrine, profil incliné, préfiguration des sculptures du XXe siècle.",
         territoryRadius: 220000,
         photosUrl: "https://photos.google.com"
       },
       {
-        id: "hittite_hattusa",
-        civilisation: "Empire Hittite",
-        century: "v. -1400 av. J.-C.",
-        dateNumeric: -1400,
-        title: "La Porte des Lions de Hattusa",
-        site: "Hattusa (Boğazkale, Turquie)",
-        lat: 40.0197,
-        lng: 34.6153,
-        color: "#06b6d4",
-        img: "https://images.unsplash.com/photo-1544967082-d9d25d867d66?auto=format&fit=crop&w=600&q=80",
-        desc: "Architecture cyclopéenne taillée à même les monolithes de basalte, gardant la capitale des souverains du Hatti qui défièrent l'Égypte de Ramsès II à la bataille de Qadesh.",
-        territoryRadius: 400000,
-        photosUrl: "https://photos.google.com"
-      },
-      {
-        id: "toutankhamon",
-        civilisation: "Égypte (Nouvel Empire)",
-        century: "v. -1323 av. J.-C.",
-        dateNumeric: -1323,
-        title: "Masque d'or funéraire de Toutânkhamon",
-        site: "Vallée des Rois (Louxor, Égypte)",
-        lat: 25.7402,
-        lng: 32.6014,
-        color: "#2ec4b6",
-        img: "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=600&q=80",
-        desc: "Feuille d'or massif rehaussée de lapis-lazuli, cornaline, obsidienne et pâte de verre. Sommet absolu de l'orfèvrerie royale thébaine de la XVIIIe dynastie.",
-        territoryRadius: 420000,
-        photosUrl: "https://photos.google.com"
-      },
-      {
-        id: "sardaigne_bronze",
-        civilisation: "Sardaigne Nuragique",
-        century: "v. -900 av. J.-C.",
-        dateNumeric: -900,
-        title: "Bronzetto Sarde : Guerrier à l'arc",
-        site: "Su Nuraxi (Barumini, Sardaigne)",
-        lat: 39.7042,
-        lng: 8.9922,
-        color: "#9d4edd",
-        img: "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&w=600&q=80",
-        desc: "Figurine votive en bronze coulé à la cire perdue. Silhouette expressive, yeux globuleux et armement détaillé des chefs et archers de l'âge du fer sarde.",
-        territoryRadius: 150000,
-        photosUrl: "https://photos.google.com"
-      },
-      {
-        id: "assyrie_chasse",
-        civilisation: "Empire Néo-Assyrien",
-        century: "v. -645 av. J.-C.",
-        dateNumeric: -645,
-        title: "La Lionne blessée d'Assurbanipal",
-        site: "Palais Nord de Ninive (Mossoul, Irak)",
-        lat: 36.3587,
-        lng: 43.1528,
-        color: "#e76f51",
-        img: "https://images.unsplash.com/photo-1544967082-d9d25d867d66?auto=format&fit=crop&w=600&q=80",
-        desc: "Bas-relief en gypse d'un réalisme saisissant et d'une intensité dramatique incomparable, montrant la majesté et l'agonie du fauve transpercé de flèches.",
-        territoryRadius: 550000,
-        photosUrl: "https://photos.google.com"
-      },
-      {
-        id: "perse_cyrus",
-        civilisation: "Empire Achéménide",
-        century: "v. -515 av. J.-C.",
-        dateNumeric: -515,
-        title: "Frise des Archers immortels",
-        site: "Palais de Darius (Suse, Iran)",
-        lat: 32.1894,
-        lng: 48.2436,
-        color: "#f72585",
-        img: "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&w=600&q=80",
-        desc: "Carreaux de brique silico-calcaire moulée et émaillée aux couleurs vives (jaune, bleu turquoise, blanc), célébrant la garde d'élite des Rois des Rois perses.",
-        territoryRadius: 750000,
-        photosUrl: "https://photos.google.com"
-      },
-      {
-        id: "grece_parthenon",
-        civilisation: "Grèce Classique",
-        century: "v. -438 av. J.-C.",
-        dateNumeric: -438,
-        title: "Frise des Panathénées (Phidias)",
-        site: "Parthénon (Athènes, Grèce)",
+        id: "grece_vases_amphore",
+        civilisation: "Grèce Antique (Attique)",
+        century: "VIe siècle av. J.-C. (-540)",
+        dateNumeric: -540,
+        title: "Amphore attique à figures noires",
+        site: "Athènes (Grèce)",
         lat: 37.9715,
         lng: 23.7267,
-        color: "#3a86ff",
-        img: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=600&q=80",
-        desc: "Maîtrise du drapé mouillé et du galop des cavaliers en haut-relief dans le marbre du Pentélique sous la direction de Phidias, au sommet de la démocratie athénienne.",
-        territoryRadius: 300000,
+        color: "#d47a43",
+        img: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Amphora_Herakles_Nessos_Louvre_F22.jpg/440px-Amphora_Herakles_Nessos_Louvre_F22.jpg",
+        desc: "Terre cuite attique vernissée d'un noir brillant métallique, incisée au stylet avec rehauts pourpres et blancs. Scène héroïque d'affrontement mythologique.",
+        territoryRadius: 320000,
         photosUrl: "https://photos.google.com"
       },
       {
-        id: "rome_fresque",
-        civilisation: "Rome Impériale",
-        century: "v. 60 ap. J.-C.",
-        dateNumeric: 60,
-        title: "Fresques de la Villa des Mystères",
-        site: "Pompéi (Campanie, Italie)",
-        lat: 40.7513,
-        lng: 14.4789,
-        color: "#e63946",
-        img: "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&w=600&q=80",
-        desc: "Le célèbre 'rouge pompéien' à l'encaustique sur fond duquel se déploient des figures grandeur nature initiées aux mystères dionysiaques secrets.",
-        territoryRadius: 850000,
-        photosUrl: "https://photos.google.com"
-      },
-      {
-        id: "omeyyade_damas",
-        civilisation: "Islam Omeyyade",
-        century: "715 ap. J.-C.",
-        dateNumeric: 715,
-        title: "Mosaïques d'or du Paradis (Nahr Barada)",
-        site: "Grande Mosquée des Omeyyades (Damas, Syrie)",
-        lat: 33.5119,
-        lng: 36.3067,
-        color: "#10b981",
-        img: "https://images.unsplash.com/photo-1544967082-d9d25d867d66?auto=format&fit=crop&w=600&q=80",
-        desc: "Tesselles d'or et de verre évoquant un paysage paradisiaque de palais féeriques et d'arbres luxuriants au bord de l'eau, sans aucune figure humaine.",
-        territoryRadius: 700000,
-        photosUrl: "https://photos.google.com"
-      },
-      {
-        id: "inde_khajuraho",
-        civilisation: "Inde (Chandelas)",
-        century: "v. 1000 ap. J.-C.",
-        dateNumeric: 1000,
-        title: "Temple de Kandariya Mahadeva",
-        site: "Khajurâho (Madhya Pradesh, Inde)",
-        lat: 24.8530,
-        lng: 79.9196,
-        color: "#f59e0b",
-        img: "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&w=600&q=80",
-        desc: "Shikhara s'élevant comme une montagne sacrée, recouvert de centaines de nymphes célestes (apsaras) et de mithunas sculptés avec une sensualité virtuose.",
-        territoryRadius: 400000,
-        photosUrl: "https://photos.google.com"
-      },
-      {
-        id: "art_gothique_vitrail",
-        civilisation: "Occident Médiéval",
-        century: "v. 1240 ap. J.-C.",
-        dateNumeric: 1240,
-        title: "Rose Nord de la Sainte-Chapelle",
-        site: "Paris (Île de la Cité, France)",
-        lat: 48.8554,
-        lng: 2.3450,
-        color: "#ffd166",
-        img: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=600&q=80",
-        desc: "Châsse de lumière et apogée du gothique rayonnant. Disparition des murs au profit d'immenses verrières pourpres et saphir.",
+        id: "grece_cratere_rouge",
+        civilisation: "Grèce Antique (Figures Rouges)",
+        century: "Ve siècle av. J.-C. (-470)",
+        dateNumeric: -470,
+        title: "Cratère en cloche à figures rouges",
+        site: "Athènes & Grande-Grèce",
+        lat: 38.2466,
+        lng: 21.7346,
+        color: "#d47a43",
+        img: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Krater_red_figures_Louvre_G341.jpg/440px-Krater_red_figures_Louvre_G341.jpg",
+        desc: "Révolution des figures rouges permettant un modelé anatomique expressif, drapés fluides et scènes du banquet dionysiaque peintes par les maîtres attiques.",
         territoryRadius: 350000,
         photosUrl: "https://photos.google.com"
       },
       {
-        id: "peinture_bacon",
-        civilisation: "Occident (XXe Siècle)",
-        century: "1969 ap. J.-C.",
-        dateNumeric: 1969,
-        title: "Triptyque : Études du corps humain",
-        site: "Collection Francis Bacon (Londres / Paris)",
-        lat: 51.5074,
-        lng: -0.1278,
-        color: "#ef476f",
-        img: "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&w=600&q=80",
-        desc: "Déchirure de la chair, fonds colorés crus et géométries carcérales. L'exploration de la condition humaine et de la vulnérabilité organique.",
-        territoryRadius: 300000,
+        id: "perse_achemenide_relief",
+        civilisation: "Empire Perse Achéménide",
+        century: "v. -510 av. J.-C.",
+        dateNumeric: -510,
+        title: "Relief des Gardes Immortels",
+        site: "Persépolis & Suse (Iran)",
+        lat: 29.9352,
+        lng: 52.8914,
+        color: "#8b5cf6",
+        img: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Archer_frieze_Louvre_AOD487.jpg/480px-Archer_frieze_Louvre_AOD487.jpg",
+        desc: "Carreaux de brique silico-calcaire émaillée aux nuances turquoise et jaune d'or. La garde d'élite des empereurs Cyrus et Darius marchant en majesté.",
+        territoryRadius: 750000,
+        photosUrl: "https://photos.google.com"
+      },
+      {
+        id: "rome_mosaique_alexandre",
+        civilisation: "Rome Antique & Pompéi",
+        century: "Ier siècle av. J.-C. (-100)",
+        dateNumeric: -100,
+        title: "Mosaïque de la Maison du Faune",
+        site: "Pompéi (Italie)",
+        lat: 40.7513,
+        lng: 14.4789,
+        color: "#a84242",
+        img: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Battle_of_Issus_mosaic_detail_Alexander.jpg/480px-Battle_of_Issus_mosaic_detail_Alexander.jpg",
+        desc: "Pavement en opus vermiculatum composé de millions de minuscules tesselles polychromes, capturant le regard ardent d'Alexandre défiant Darius à Issos.",
+        territoryRadius: 650000,
         photosUrl: "https://photos.google.com"
       }
     ];
 
     /* ==========================================================================
-       2. CARTE LEAFLET NOCTURNE & HALOS ORGANIQUES DE CIVILISATIONS
+       CARTE OPENSTREETMAP LIBRE & INVERSÉE (FONCTIONNE TOUJOURS SANS CLÉ API)
        ========================================================================== */
     const map = L.map('map-background', {
       zoomControl: false,
       attributionControl: false,
       minZoom: 3,
       maxZoom: 9
-    }).setView([32.0, 36.0], 4);
+    }).setView([37.0, 24.0], 4);
 
-    // Fond CartoDB Dark pur (très sombre, pas de bruit visuel)
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png', {
-      subdomains: 'abcd',
-      maxZoom: 19
+    // FLUX MONDIAL LIBRE ET OUVERT
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 18,
+      crossOrigin: true
     }).addTo(map);
 
-    let currentAuraCircle = null;
+    let activeAura = null;
 
-    // Déplace la carte et déploie le halo lumineux de la civilisation active
-    function highlightCivilisationGeo(item) {
-      if (currentAuraCircle) {
-        map.removeLayer(currentAuraCircle);
+    function revealTerritory(item) {
+      if (activeAura) {
+        map.removeLayer(activeAura);
       }
 
-      currentAuraCircle = L.circle([item.lat, item.lng], {
+      // Halo coloré et tamisé autour de la cité/civilisation
+      activeAura = L.circle([item.lat, item.lng], {
         radius: item.territoryRadius,
         color: item.color,
         fillColor: item.color,
@@ -849,184 +811,174 @@
         opacity: 0.8
       }).addTo(map);
 
-      map.flyTo([item.lat, item.lng], 5, {
+      map.flyTo([item.lat, item.lng], 5.2, {
         duration: 1.8,
-        easeLinearity: 0.2
+        easeLinearity: 0.25
       });
 
-      // Mise à jour de l'encart d'information
-      const focusCard = document.getElementById('active-focus-card');
-      focusCard.classList.remove('hidden');
-      document.getElementById('focus-era').textContent = item.century;
-      document.getElementById('focus-era').style.color = item.color;
-      document.getElementById('focus-title').textContent = `${item.civilisation} : ${item.site}`;
-      document.getElementById('focus-desc').textContent = item.desc;
+      // Cartouche en haut à droite
+      const cartouche = document.getElementById('focus-cartouche');
+      cartouche.classList.remove('hidden');
+      document.getElementById('cartouche-era').textContent = item.century;
+      document.getElementById('cartouche-era').style.color = item.color;
+      document.getElementById('cartouche-civ').textContent = item.civilisation;
+      document.getElementById('cartouche-desc').textContent = item.desc;
     }
 
     /* ==========================================================================
-       3. CONSTRUCTION DE LA FRISE HORIZONTALE IMMERSIVE
+       INJECTION DU RUBAN CHRONOLOGIQUE
        ========================================================================== */
-    const track = document.getElementById('timeline-track');
+    const ribbon = document.getElementById('timeline-ribbon');
 
-    ART_DATABASE.forEach((item, index) => {
-      const node = document.createElement('div');
-      node.className = 'art-node';
+    MUSEUM_CORPUS.forEach((item, index) => {
+      const node = document.createElement('article');
+      node.className = 'museum-item-node';
       node.dataset.index = index;
 
       node.innerHTML = `
-        <div class="node-year-badge">${item.century}</div>
-        <div class="node-bubble" style="background-image: url('${item.img}'); border-color: ${item.color};">
-          <div class="node-halo" style="background: ${item.color};"></div>
+        <div class="node-century">${item.century}</div>
+        <div class="node-pedestal">
+          <img src="${item.img}" alt="${item.title}" loading="lazy" />
         </div>
-        <div class="node-details">
-          <div class="node-civ-tag" style="color: ${item.color};">${item.civilisation}</div>
-          <div class="node-object-title">${item.title}</div>
+        <div class="node-caption">
+          <div class="caption-civ">${item.civilisation.split(' ')[0]}</div>
+          <div class="caption-title">${item.title}</div>
         </div>
       `;
 
-      // Clic : ouvre la modale d'art et allume la région sur la carte
-      node.addEventListener('click', (e) => {
-        highlightCivilisationGeo(item);
-        openGalleryModal(item);
+      node.addEventListener('click', () => {
+        revealTerritory(item);
+        openCuratorModal(item);
       });
 
-      track.appendChild(node);
+      ribbon.appendChild(node);
     });
 
     /* ==========================================================================
-       4. SYSTÈME "DRAG-TO-PAN" AVEC PHYSIQUE FLUIDE & INERTIE (SANS SCROLLBAR)
+       MANIEMENT : DRAG-TO-PAN TACTILE AVEC AMORTISSEMENT
        ========================================================================== */
-    const dragArea = document.getElementById('timeline-drag-area');
+    const dragBox = document.getElementById('timeline-drag-container');
     let isDragging = false;
     let startX = 0;
-    let currentTranslate = 0;
-    let prevTranslate = 0;
+    let currentXPos = 0;
+    let previousXPos = 0;
     let velocity = 0;
-    let lastX = 0;
-    let animationId = null;
+    let lastMouseX = 0;
+    let rAF = null;
 
-    function getTrackBounds() {
-      const maxTranslate = 0;
-      const minTranslate = -(track.scrollWidth - dragArea.clientWidth);
-      return { min: minTranslate, max: maxTranslate };
+    function getRibbonLimits() {
+      const maxLimit = 0;
+      const minLimit = -(ribbon.scrollWidth - dragBox.clientWidth);
+      return { min: minLimit, max: maxLimit };
     }
 
-    dragArea.addEventListener('mousedown', (e) => {
+    dragBox.addEventListener('mousedown', (e) => {
       isDragging = true;
       startX = e.clientX;
-      lastX = e.clientX;
-      cancelAnimationFrame(animationId);
-      dragArea.style.cursor = 'grabbing';
+      lastMouseX = e.clientX;
+      cancelAnimationFrame(rAF);
     });
 
     window.addEventListener('mousemove', (e) => {
       if (!isDragging) return;
-      const currentX = e.clientX;
-      const deltaX = currentX - lastX;
-      velocity = deltaX * 1.2;
-      lastX = currentX;
+      const clientX = e.clientX;
+      velocity = (clientX - lastMouseX) * 1.15;
+      lastMouseX = clientX;
 
-      currentTranslate = prevTranslate + (currentX - startX);
-      const bounds = getTrackBounds();
+      currentXPos = previousXPos + (clientX - startX);
+      const limits = getRibbonLimits();
 
-      // Résistance élastique si on tire trop loin
-      if (currentTranslate > bounds.max) {
-        currentTranslate = bounds.max + (currentTranslate - bounds.max) * 0.2;
-      } else if (currentTranslate < bounds.min) {
-        currentTranslate = bounds.min + (currentTranslate - bounds.min) * 0.2;
+      if (currentXPos > limits.max) {
+        currentXPos = limits.max + (currentXPos - limits.max) * 0.2;
+      } else if (currentXPos < limits.min) {
+        currentXPos = limits.min + (currentXPos - limits.min) * 0.2;
       }
 
-      track.style.transform = `translateX(${currentTranslate}px)`;
+      ribbon.style.transform = `translateX(${currentXPos}px)`;
     });
 
     window.addEventListener('mouseup', () => {
       if (!isDragging) return;
       isDragging = false;
-      dragArea.style.cursor = 'grab';
-      prevTranslate = currentTranslate;
-      applyInertia();
+      previousXPos = currentXPos;
+      decayMotion();
     });
 
-    // Inertie naturelle après le lâcher de souris
-    function applyInertia() {
-      const bounds = getTrackBounds();
-      velocity *= 0.94; // Amortissement
+    function decayMotion() {
+      const limits = getRibbonLimits();
+      velocity *= 0.94;
+      currentXPos += velocity;
 
-      currentTranslate += velocity;
-
-      // Butées douces
-      if (currentTranslate > bounds.max) {
-        currentTranslate = bounds.max;
+      if (currentXPos > limits.max) {
+        currentXPos = limits.max;
         velocity = 0;
-      } else if (currentTranslate < bounds.min) {
-        currentTranslate = bounds.min;
+      } else if (currentXPos < limits.min) {
+        currentXPos = limits.min;
         velocity = 0;
       }
 
-      track.style.transform = `translateX(${currentTranslate}px)`;
-      prevTranslate = currentTranslate;
+      ribbon.style.transform = `translateX(${currentXPos}px)`;
+      previousXPos = currentXPos;
 
-      if (Math.abs(velocity) > 0.5) {
-        animationId = requestAnimationFrame(applyInertia);
+      if (Math.abs(velocity) > 0.4) {
+        rAF = requestAnimationFrame(decayMotion);
       }
     }
 
-    // Support de la molette pour défilement horizontal fluide
-    dragArea.addEventListener('wheel', (e) => {
+    dragBox.addEventListener('wheel', (e) => {
       e.preventDefault();
-      cancelAnimationFrame(animationId);
-      const bounds = getTrackBounds();
-      currentTranslate -= e.deltaY * 0.8;
-      currentTranslate = Math.max(bounds.min, Math.min(bounds.max, currentTranslate));
-      track.style.transform = `translateX(${currentTranslate}px)`;
-      prevTranslate = currentTranslate;
+      cancelAnimationFrame(rAF);
+      const limits = getRibbonLimits();
+      currentXPos -= e.deltaY * 0.85;
+      currentXPos = Math.max(limits.min, Math.min(limits.max, currentXPos));
+      ribbon.style.transform = `translateX(${currentXPos}px)`;
+      previousXPos = currentXPos;
     });
 
-    // Puces d'époques pour saut direct
-    document.querySelectorAll('.nav-epoch-pill').forEach(pill => {
-      pill.addEventListener('click', (e) => {
-        document.querySelectorAll('.nav-epoch-pill').forEach(p => p.classList.remove('active'));
-        pill.classList.add('active');
+    // Navigation par onglets d'époques
+    document.querySelectorAll('.era-link').forEach(link => {
+      link.addEventListener('click', () => {
+        document.querySelectorAll('.era-link').forEach(l => l.classList.remove('active'));
+        link.classList.add('active');
 
-        const targetIndex = parseInt(pill.dataset.target, 10);
-        const item = ART_DATABASE[targetIndex];
-        const nodeWidth = 170;
-        const targetX = -(targetIndex * nodeWidth);
+        const index = parseInt(link.dataset.index, 10);
+        const item = MUSEUM_CORPUS[index];
+        const targetX = -(index * 180);
 
-        const bounds = getTrackBounds();
-        currentTranslate = Math.max(bounds.min, Math.min(bounds.max, targetX));
-        track.style.transition = 'transform 0.8s cubic-bezier(0.16, 1, 0.3, 1)';
-        track.style.transform = `translateX(${currentTranslate}px)`;
-        prevTranslate = currentTranslate;
+        const limits = getRibbonLimits();
+        currentXPos = Math.max(limits.min, Math.min(limits.max, targetX));
+        
+        ribbon.style.transition = 'transform 0.75s cubic-bezier(0.16, 1, 0.3, 1)';
+        ribbon.style.transform = `translateX(${currentXPos}px)`;
+        previousXPos = currentXPos;
 
-        setTimeout(() => { track.style.transition = 'none'; }, 800);
+        setTimeout(() => { ribbon.style.transition = 'none'; }, 750);
 
-        if (item) highlightCivilisationGeo(item);
+        if (item) revealTerritory(item);
       });
     });
 
     /* ==========================================================================
-       5. MODALE POP-UP "DARK GALLERY" (FOCUS ŒUVRE & LIEN GOOGLE PHOTOS)
+       MODALE ÉCRIN MUSÉAL : FOCUS OBJET & LIEN VERS L'ALBUM GOOGLE PHOTOS
        ========================================================================== */
-    const modal = document.getElementById('gallery-modal');
-    const modalImg = document.getElementById('modal-img');
-    const modalCiv = document.getElementById('modal-civ');
-    const modalTitle = document.getElementById('modal-title');
-    const modalCentury = document.getElementById('modal-century');
-    const modalSite = document.getElementById('modal-site');
-    const modalDesc = document.getElementById('modal-desc');
-    const modalLink = document.getElementById('modal-link');
+    const modal = document.getElementById('curator-modal');
+    const modalImg = document.getElementById('modal-artwork-img');
+    const modalCiv = document.getElementById('modal-civ-label');
+    const modalTitle = document.getElementById('modal-object-title');
+    const modalCentury = document.getElementById('modal-century-tag');
+    const modalPlace = document.getElementById('modal-place-tag');
+    const modalAnalysis = document.getElementById('modal-analysis-text');
+    const modalAlbumBtn = document.getElementById('modal-google-photos');
     const modalClose = document.getElementById('modal-close');
 
-    function openGalleryModal(item) {
+    function openCuratorModal(item) {
       modalImg.src = item.img;
       modalCiv.textContent = item.civilisation;
-      modalCiv.style.color = item.color;
       modalTitle.textContent = item.title;
       modalCentury.textContent = item.century;
-      modalSite.textContent = item.site;
-      modalDesc.textContent = item.desc;
-      modalLink.href = item.photosUrl;
+      modalPlace.textContent = item.site;
+      modalAnalysis.textContent = item.desc;
+      modalAlbumBtn.href = item.photosUrl;
 
       modal.classList.add('open');
     }
@@ -1037,24 +989,24 @@
     });
 
     /* ==========================================================================
-       6. ACTIONS GLOBALES
+       COMMANDES GÉNÉRALES
        ========================================================================== */
-    document.getElementById('btn-recenter').addEventListener('click', () => {
-      map.flyTo([32.0, 36.0], 4, { duration: 1.5 });
-      document.getElementById('active-focus-card').classList.add('hidden');
-      if (currentAuraCircle) map.removeLayer(currentAuraCircle);
+    document.getElementById('btn-reset').addEventListener('click', () => {
+      map.flyTo([35.0, 32.0], 4, { duration: 1.4 });
+      document.getElementById('focus-cartouche').classList.add('hidden');
+      if (activeAura) map.removeLayer(activeAura);
     });
 
-    document.getElementById('btn-copy').addEventListener('click', () => {
+    document.getElementById('btn-copy-code').addEventListener('click', () => {
       navigator.clipboard.writeText(document.documentElement.outerHTML).then(() => {
-        const b = document.getElementById('btn-copy');
-        b.textContent = "✓ Code Markdown Copié !";
-        setTimeout(() => { b.textContent = "Copier le Code"; }, 2200);
+        const btn = document.getElementById('btn-copy-code');
+        btn.textContent = "✓ Code Copié !";
+        setTimeout(() => { btn.textContent = "Copier le Code"; }, 2000);
       });
     });
 
-    // Initialisation au chargement sur la première merveille
-    highlightCivilisationGeo(ART_DATABASE[0]);
+    // Départ centré sur la céramique grecque
+    revealTerritory(MUSEUM_CORPUS[4]);
   </script>
 </body>
 </html>
