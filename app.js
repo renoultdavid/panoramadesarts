@@ -13,12 +13,12 @@ const CIVILISATIONS_REGISTRY = [
     sidePos: "pos-left",
     travelingOrigin: "54.6% 43.8%",
     haloId: "halo-chypre",
-    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczNtlhntpxWY6u22Dj77CiZfXJnSfduTP1uXInNNl7THWXS5vseOikfKiRgcTsCjP2iVG-jX924k9zAAUyZQhGX8luuSrh5eXc650LHXXMWEdLAl7o589lo_Rkk6Bo9UJYlo4iFAtBkaj6qhmzuUK5y_w=w2036-h864-s-no-gm?authuser=0",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczNtlhntpxWY6u22Dj77CiZfXJnSfduTP1uXInNNl7THWXS5vseOikfKiRgcTsCjP2iVGO-jX924k9zAAUyZQhGX8luuSrh5eXc650LHXXMWEdLAl7o589lo_Rkk6Bo9UJYlo4iFAtBkaj6qhmzuUK5y_w=w2081-h882-s-no-gm?authuser=0",
     mapOverlayUrl: "https://lh3.googleusercontent.com/d/1QNkcnjOVZ9nSJxO2vXusVWgC04EmaUcO",
     albumUrl: "https://photos.google.com/share/AF1QipORn4Sj9GchtBwLRq4DuZRFxHqmcBvuxx8uA2_VwycbpRi8amqI-iK7UvkQSi6apA?key=ZmJweFhiZEJySU1rUms2REJFWm1jZ1YwQjFMczJ3",
     presentationHtml: `
       <p><strong>Le carrefour de cuivre de la Méditerranée</strong><br>
-      Située au carrefour de l'Égée, de l'Égypte et du Levant, Chypre tire sa richesse de ses gisements de cuivre (cuprum). Dès le début du IIe millénaire, les artisans développent un art hybride d'une étonnante liberté formelle, particulièrement dans la céramique lustrée rouge aux formes zoomorphes incisées.</p>
+      Située au carrefour de l'Égée, de l'Égypte et du Levant, Chypre tire sa prospérité de ses riches gisements de cuivre (cuprum). Dès le début du IIe millénaire, les artisans développent un répertoire d'une grande liberté formelle, particulièrement dans la céramique lustrée rouge aux formes zoomorphes incisées.</p>
       <p><strong>Les déesses-mères et l'esthétique en bec d'oiseau</strong><br>
       Au Bronze récent, l'île forge des représentations féminines singulières en terre cuite : figurines maternelles ou cultuelles aux hanches proéminentes et visages aviformes portant des parures d'oreilles mobiles, marquant la dévotion populaire pour la fécondité.</p>
       <p><strong>L'essor de la coroplastie archaïque</strong><br>
@@ -29,7 +29,6 @@ const CIVILISATIONS_REGISTRY = [
       { name: "Figurine féminine (Bronze récent)", top: "38%", left: "55%", artIdx: 1 },
       { name: "Sanctuaire archaïque (Orant)", top: "46%", left: "52%", artIdx: 2 }
     ],
-    // 3 onglets ordonnés chronologiquement (-2000 -> -1400 -> -650)
     artifacts: [
       {
         id: "vase_zoomorphe",
@@ -303,8 +302,10 @@ CIVILISATIONS_REGISTRY.forEach((civ) => {
     if (!isLockedSidebar) hideCivPreview();
   });
 
+  // CLIC SUR LA FRISE : RÉINITIALISE LA CARTE ET FERME L'ANCIEN TIROIR
   block.addEventListener('click', (e) => {
     e.stopPropagation();
+    closeCivilisationView(); // Nettoie immédiatement l'ancienne région
     lockCivSidebar(civ);
   });
 
@@ -312,7 +313,7 @@ CIVILISATIONS_REGISTRY.forEach((civ) => {
 });
 
 /* ==========================================================================
-   CARTOUCHE LATÉRAL
+   CARTOUCHE LATÉRAL & FERMETURE INTELLIGENTE
    ========================================================================== */
 const hoverSidebar = document.getElementById('hover-sidebar-card');
 const sidebarEra = document.getElementById('sidebar-era');
@@ -375,12 +376,12 @@ btnEnterCiv.addEventListener('click', () => {
 });
 
 /* ==========================================================================
-   DÉPLACEMENT TEMPOREL & FERMETURE AUTO HORS PÉRIODE ACTIVE
+   DÉPLACEMENT SYNCHRONIQUE & AUTO-FERMETURE SI ÉPOQUE VIDE
    ========================================================================== */
 const masterContainer = document.getElementById('master-drag-container');
 let isDragging = false;
 let startX = 0;
-let curRibbonX = -yearToPixel(-1800) + window.innerWidth * 0.35;
+let curRibbonX = -yearToPixel(-600) + window.innerWidth * 0.35;
 let prevRibbonX = curRibbonX;
 
 function updateSynchronousState(screenX) {
@@ -409,7 +410,6 @@ function updateSynchronousState(screenX) {
     }
   });
 
-  // Fermeture automatique si le curseur se déplace dans une zone vide
   if (!foundAnyCiv) {
     isLockedSidebar = false;
     hoverSidebar.classList.remove('visible');
@@ -467,7 +467,7 @@ const subStream = document.getElementById('sub-stream-scroll');
 const drawerCivTag = document.getElementById('drawer-civ-name');
 
 function activateCivilisationView(civ) {
-  // Réinitialisation immédiate pour éviter tout résidu de carte précédente
+  // Réinitialisation immédiate et complète
   civOverlayMap.classList.remove('active');
   beaconContainer.innerHTML = '';
   subStream.innerHTML = '';
@@ -478,7 +478,6 @@ function activateCivilisationView(civ) {
   globalMap.style.transformOrigin = civ.travelingOrigin;
   globalMap.classList.add('traveling');
 
-  // Mise à jour de l'image de la carte
   civMapImg.src = civ.mapOverlayUrl;
   
   if (civ.beacons) {
@@ -529,6 +528,7 @@ function activateCivilisationView(civ) {
   subDrawer.classList.add('open');
 }
 
+// FERMETURE TOTALE DU MODE RÉGIONAL ET RETOUR À LA CARTE MONDE
 function closeCivilisationView() {
   subDrawer.classList.remove('open');
   civOverlayMap.classList.remove('active');
