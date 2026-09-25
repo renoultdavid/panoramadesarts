@@ -1,5 +1,5 @@
 /* ==========================================================================
-   REGISTRE STRICT : CANARIES, AMORRITES, ART CELTE DU BRONZE & ÂGE DU FER
+   REGISTRE STRICT : CANARIES, AMORRITES, CELTES DU BRONZE & CELTES DU FER
    ========================================================================== */
 const CIVILISATIONS_REGISTRY = [
   {
@@ -12,10 +12,10 @@ const CIVILISATIONS_REGISTRY = [
     themeColor: "#2a9d8f",
     sidePos: "pos-left",
     travelingOrigin: "47.8% 38.5%",
-    haloId: "halo-celte",
+    haloId: "halo-celte_fer",
     bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczOTpAuNPMicTn782_1Zjbxrq0HKHRKJG6AVI3MC5QV0sIgRxWd1KE3enIDaZ4vI7QiV5SLQ6pAzbtmog5AkOjGQTGt3u4cnSdiF9sW1VPzeXH1Md2FDvlYQR92Fv7MXvbsr0sYzoNpKZc4GHJfmENYp7w=w2599-h1103-s-no-gm?authuser=0",
     mapOverlayUrl: "https://lh3.googleusercontent.com/d/1ZFqo_BVU5BBUN4mpNGlMeBOm91xXLtZt",
-    albumUrl: "https://photos.google.com",
+    albumUrl: "https://photos.google.com/share/AF1QipN97zbv-suncBTa6iOfDQyMggpdDV-ktXSY4EJ2KenZ4zqHUwifE_nIBb6FYB0Y6g?key=WHlZSlNIb19jTnoyaExjWWN3TFZFUC1xeTB3bmRn",
     presentationHtml: `
       <p><strong>L'aristocratie princière du Hallstatt</strong><br>
       Au premier âge du Fer (v. -800 à -450), le monde celtique s'organise autour de résidences fortifiées dominant de vastes nécropoles à tumulus. Les élites contrôlent les voies commerciales et se font inhumer sur des chars à quatre roues avec de riches vaisselles en bronze importées de Méditerranée.</p>
@@ -25,20 +25,11 @@ const CIVILISATIONS_REGISTRY = [
       À la veille de la guerre des Gaules, la société des oppida voit fleurir une céramique tournée d'une rare élégance (vases balustres) et une sculpture funéraire en pierre (stèles armoricaines en granite) perpétuant la mémoire des lignages aristocratiques.</p>
     `,
     beacons: [
-      { name: "Céramique Cénomane (Le Mans)", top: "35%", left: "44%", artIdx: 0 },
-      { name: "Stèle funéraire (Jublains)", top: "32%", left: "41%", artIdx: 1 }
+      { name: "Stèle funéraire (Jublains)", top: "32%", left: "41%", artIdx: 0 },
+      { name: "Céramique Cénomane (Le Mans)", top: "35%", left: "44%", artIdx: 1 }
     ],
+    // Ordre chronologique strict : IVe s. d'abord, Ier s. ensuite
     artifacts: [
-      {
-        id: "vase_lemans",
-        century: "Ier siècle av. J.-C.",
-        title: "Vase balustre cénomane du Mans",
-        site: "Le Mans (Sarthe)",
-        category: "Céramique",
-        chips: ["Ier siècle av. J.-C.", "Terre cuite grise", "Le Mans (Cénomans)"],
-        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOeA-57KA6AcGKWg1BbtdwWs684LLHV-9n2wCbgreZAG40RdDCxV9blX9eMn5A0rrhERAPUtuciQBnOd8SLX0zlym2AYX1ndJKwGdPu_bijWeHvAAxLcpd94ZsjRn9W9b4LO632wuEulzoBj6jTx22THw=w1814-h2410-s-no-gm?authuser=0",
-        narrative: "Découvert au Mans, ce vase à silhouette élancée et patine grise illustre la maîtrise du tournage chez les potiers cénomans. Structuré par des registres horizontaux alternant canaux incisés et baguettes en relief, il témoigne de la sobriété et de l'élégance de la vaisselle gauloise à la veille de la conquête romaine, servant aux libations domestiques ou aux offrandes funéraires."
-      },
       {
         id: "stele_jublains",
         century: "IVe - IIIe siècle av. J.-C.",
@@ -48,6 +39,16 @@ const CIVILISATIONS_REGISTRY = [
         chips: ["Second âge du Fer", "Monolithe en granite", "Jublains (Diablintes)"],
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNQ8lMq99-7bAoU4NMqEU8OjQrSrsHG8xGzpXtI0ktR3Uji1wDR7JydwrZc2-EntLOHJco7ti5F1QUaiA5kU_IAE3EoeVoRXa_PUj4rhHLk_mczJUW8oMd-e18JVRFZKu0CHtgWkiTL8KpwzTfpOECzIQ=w1607-h2410-s-no-gm?authuser=0",
         narrative: "Ce monolithe oblong en granite taillé est caractéristique des monuments funéraires de l'Ouest de la Gaule et de l'Armorique. Érigée au-dessus de sépultures pour signaler la tombe et honorer la mémoire de défunts de haut rang, cette stèle incarne la permanence du culte des ancêtres et l'affirmation territoriale des élites celtes au cœur du sanctuaire des Diablintes."
+      },
+      {
+        id: "vase_lemans",
+        century: "Ier siècle av. J.-C.",
+        title: "Vase balustre cénomane du Mans",
+        site: "Le Mans (Sarthe)",
+        category: "Céramique",
+        chips: ["Ier siècle av. J.-C.", "Terre cuite grise", "Le Mans (Cénomans)"],
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOeA-57KA6AcGKWg1BbtdwWs684LLHV-9n2wCbgreZAG40RdDCxV9blX9eMn5A0rrhERAPUtuciQBnOd8SLX0zlym2AYX1ndJKwGdPu_bijWeHvAAxLcpd94ZsjRn9W9b4LO632wuEulzoBj6jTx22THw=w1814-h2410-s-no-gm?authuser=0",
+        narrative: "Découvert au Mans, ce vase à silhouette élancée et patine grise illustre la maîtrise du tournage chez les potiers cénomans. Structuré par des registres horizontaux alternant canaux incisés et baguettes en relief, il témoigne de la sobriété et de l'élégance de la vaisselle gauloise à la veille de la conquête romaine, servant aux libations domestiques ou aux offrandes funéraires."
       }
     ]
   },
@@ -61,10 +62,10 @@ const CIVILISATIONS_REGISTRY = [
     themeColor: "#52b788",
     sidePos: "pos-left",
     travelingOrigin: "47.8% 38.5%",
-    haloId: "halo-celte",
+    haloId: "halo-celte_bronze",
     bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczNeGi9CeQnVZ0W8vPbx0jodOMhg6-U-KG1RWY5FKuhdbkyiT-iSkT_XR1V1NGGO9m3Us2LF_p2md8GdF4hAnaTp0Bf05pEXDuSPiBFtHM2FjgA2ZTxIDPJ_96SpfO-bGNnsO44jw8COUI9sW93SROp_kQ=w2599-h1103-s-no-gm?authuser=0",
     mapOverlayUrl: "https://lh3.googleusercontent.com/d/1gX2vOwXzj3jIMMvx2P5DAAQkjfkZ1anc",
-    albumUrl: "https://photos.google.com",
+    albumUrl: "https://photos.google.com/share/AF1QipN2ccGraobqmNhsyQhn1XQYZmas-d6wNnWsUE7X6q_zzAIytbnOH6GGkVB_WU95AQ?key=Mkc1WGhlQmRIY1VpenkzMG1SNzdHczVWcjI4MGZ3",
     presentationHtml: `
       <p><strong>L'éveil métallurgique d'Únětice</strong><br>
       Dès le début du IIe millénaire avant notre ère, l'Europe s'organise autour des échanges de cuivre et d'étain. La culture d'Únětice consacre l'essor de chefs guerriers inhumés avec poignards en bronze et parures d'or.</p>
@@ -251,7 +252,7 @@ CIVILISATIONS_REGISTRY.forEach((civ) => {
 });
 
 /* ==========================================================================
-   CARTOUCHE LATÉRAL & VERROUILLAGE LECTURE
+   CARTOUCHE LATÉRAL & FERMETURE INTELLIGENTE
    ========================================================================== */
 const hoverSidebar = document.getElementById('hover-sidebar-card');
 const sidebarEra = document.getElementById('sidebar-era');
@@ -291,6 +292,7 @@ function hideCivPreview() {
   if (isLockedSidebar) return;
   hoverSidebar.classList.remove('visible');
   document.querySelectorAll('.sync-foyer-halo').forEach(h => h.classList.remove('active'));
+  selectedCiv = null;
 }
 
 function lockCivSidebar(civ) {
@@ -313,7 +315,7 @@ btnEnterCiv.addEventListener('click', () => {
 });
 
 /* ==========================================================================
-   DÉPLACEMENT SYNCHRONIQUE & RECONNAISSANCE DU REPÈRE
+   DÉPLACEMENT SYNCHRONIQUE & AUTO-FERMETURE SI ÉPOQUE VIDE
    ========================================================================== */
 const masterContainer = document.getElementById('master-drag-container');
 let isDragging = false;
@@ -330,17 +332,29 @@ function updateSynchronousState(screenX) {
   syncBubble.textContent = currentYear < 0 ? `${Math.abs(currentYear)} av. J.-C.` : `${currentYear} ap. J.-C.`;
 
   let activeNames = [];
+  let foundAnyCiv = false;
+
   CIVILISATIONS_REGISTRY.forEach(civ => {
     const halo = document.getElementById(civ.haloId);
-    if (halo) {
-      if (currentYear >= civ.yearStart && currentYear <= civ.yearEnd) {
-        halo.classList.add('active');
-        activeNames.push(civ.name);
-      } else if (!isLockedSidebar && selectedCiv !== civ) {
+    const isYearActive = (currentYear >= civ.yearStart && currentYear <= civ.yearEnd);
+
+    if (isYearActive) {
+      foundAnyCiv = true;
+      activeNames.push(civ.name);
+      if (halo) halo.classList.add('active');
+    } else {
+      if (halo && (!isLockedSidebar || selectedCiv !== civ)) {
         halo.classList.remove('active');
       }
     }
   });
+
+  // SI L'ÉPOQUE EST VIDE : FERMETURE AUTOMATIQUE DE LA FICHE LATÉRALE
+  if (!foundAnyCiv) {
+    isLockedSidebar = false;
+    hoverSidebar.classList.remove('visible');
+    document.querySelectorAll('.sync-foyer-halo').forEach(h => h.classList.remove('active'));
+  }
 
   if (activeNames.length > 0) {
     activeMarkerInfo.textContent = `FOYERS SYNCHRONES ACTIFS : ${activeNames.join(' • ')}`;
@@ -478,7 +492,6 @@ const btnModalClose = document.getElementById('btn-modal-close');
 function openArtworkModal(civ, activeIdx = 0) {
   modalTabBar.innerHTML = '';
 
-  // Si la civilisation a plusieurs objets, création d'onglets discrets
   if (civ.artifacts.length > 1) {
     modalTabBar.style.display = 'flex';
     civ.artifacts.forEach((art, idx) => {
