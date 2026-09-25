@@ -1,5 +1,5 @@
 /* ==========================================================================
-   REGISTRE DES CIVILISATIONS & GESTION OPTIMISÉE DES DONNÉES
+   REGISTRE STRICT : CANARIES & AMORRITES
    ========================================================================== */
 const CIVILISATIONS_REGISTRY = [
   {
@@ -92,7 +92,7 @@ const CIVILISATIONS_REGISTRY = [
 ];
 
 /* ==========================================================================
-   CONSTRUCTION DE LA RÈGLE DE GRADUATION & DU RUBAN (4800px)
+   CONSTRUCTION DE LA GRADUATION & RUBAN SYNCHRONIQUE (4800px)
    ========================================================================== */
 const YEAR_MIN = -3500;
 const YEAR_MAX = 1500;
@@ -111,8 +111,9 @@ const masterRibbon = document.getElementById('master-ribbon');
 const rulerTrack = document.getElementById('ruler-ticks-track');
 const syncLine = document.getElementById('sync-cursor-line');
 const syncBubble = document.getElementById('sync-bubble-tag');
+const activeMarkerInfo = document.getElementById('active-marker-info');
 
-// Graduation millimétrée
+// Règle temporelle
 for (let y = -3500; y <= 1500; y += 50) {
   const x = yearToPixel(y);
   const isMillennium = (y % 1000 === 0);
@@ -229,7 +230,7 @@ btnEnterCiv.addEventListener('click', () => {
 });
 
 /* ==========================================================================
-   INTERACTION SYNCHRONIQUE : DÉPLACEMENT COUPE TEMPORELLE
+   DÉPLACEMENT SYNCHRONIQUE & RECONNAISSANCE DU REPÈRE
    ========================================================================== */
 const masterContainer = document.getElementById('master-drag-container');
 let isDragging = false;
@@ -245,16 +246,24 @@ function updateSynchronousState(screenX) {
   syncLine.style.left = `${screenX}px`;
   syncBubble.textContent = currentYear < 0 ? `${Math.abs(currentYear)} av. J.-C.` : `${currentYear} ap. J.-C.`;
 
+  let activeNames = [];
   CIVILISATIONS_REGISTRY.forEach(civ => {
     const halo = document.getElementById(civ.haloId);
     if (halo) {
       if (currentYear >= civ.yearStart && currentYear <= civ.yearEnd) {
         halo.classList.add('active');
+        activeNames.push(civ.name);
       } else if (!isLockedSidebar && selectedCiv !== civ) {
         halo.classList.remove('active');
       }
     }
   });
+
+  if (activeNames.length > 0) {
+    activeMarkerInfo.textContent = `FOYERS SYNCHRONES ACTIFS : ${activeNames.join(' • ')}`;
+  } else {
+    activeMarkerInfo.textContent = `COUPE TEMPORELLE EN DIRECT`;
+  }
 }
 
 masterContainer.addEventListener('mousemove', (e) => {
@@ -290,7 +299,7 @@ setTimeout(() => {
 }, 400);
 
 /* ==========================================================================
-   TRANSITION VERS LA CARTE DÉDIÉE & GESTION LAZY DU DOM
+   TRANSITION VERS LA CARTE DÉDIÉE (LAZY DOM)
    ========================================================================== */
 const globalMap = document.getElementById('global-map-stage');
 const civOverlayMap = document.getElementById('civilisation-map-overlay');
@@ -308,7 +317,6 @@ function activateCivilisationView(civ) {
 
   civOverlayMap.style.backgroundImage = `url('${civ.mapOverlayUrl}')`;
   
-  // Injection à la demande (Lazy DOM)
   beaconContainer.innerHTML = '';
   if (civ.beacons) {
     civ.beacons.forEach(b => {
@@ -360,7 +368,6 @@ function activateCivilisationView(civ) {
   subDrawer.classList.add('open');
 }
 
-// Nettoyage de la mémoire au retour à la carte globale
 function closeCivilisationView() {
   subDrawer.classList.remove('open');
   civOverlayMap.classList.remove('active');
@@ -410,7 +417,7 @@ function openArtifactModal(art, civ) {
 
 btnModalClose.addEventListener('click', () => {
   modal.classList.remove('open');
-  modalImg.src = ''; // Libère immédiatement la mémoire graphique
+  modalImg.src = '';
 });
 
 modal.addEventListener('click', (e) => {
