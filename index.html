@@ -3,1175 +3,132 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Atlas Visuel des Arts et Civilisations Antiques</title>
+  <title>Atlas Visuel &amp; Synchronique des Arts et Civilisations</title>
 
-  <!-- Typographies Muséales -->
+  <!-- Polices Muséales Lapidaires -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;900&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
 
-  <style>
-    :root {
-      /* Signature Gris de Payne & Or Muséal */
-      --payne: #353B45;
-      --payne-dark: #1b1e24;
-      --payne-deep: #0f1116;
-      --gold-pure: #d4af37;
-      --gold-glow: rgba(212, 175, 55, 0.45);
-      --gold-pale: #f3df9b;
-      --text-bright: #f5f6f9;
-      --text-muted: #8c95a6;
-    }
-
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-      user-select: none;
-      -webkit-user-drag: none;
-    }
-
-    body {
-      background: #090b0e;
-      color: var(--text-bright);
-      font-family: 'Cormorant Garamond', Georgia, serif;
-      height: 100vh;
-      width: 100vw;
-      overflow: hidden;
-      position: relative;
-    }
-
-    /* 1. CARTE DU MONDE ANTIQUE VECTORIELLE (SVG INLINE PUR) */
-    #map-wrap {
-      position: absolute;
-      inset: 0;
-      width: 100%;
-      height: 100%;
-      z-index: 1;
-      background: radial-gradient(circle at 50% 40%, #151821 0%, #08090c 85%);
-    }
-
-    #world-map-svg {
-      width: 100%;
-      height: 100%;
-      display: block;
-    }
-
-    /* Style des terres & mers */
-    .land-mass {
-      fill: #1a1e27;
-      stroke: #2a313e;
-      stroke-width: 1.2;
-      stroke-linejoin: round;
-    }
-
-    .sacred-river {
-      fill: none;
-      stroke: #2e3746;
-      stroke-width: 1.5;
-      stroke-linecap: round;
-    }
-
-    /* Cités antiques sur la carte */
-    .map-city-group {
-      opacity: 0;
-      transform: scale(0.6);
-      transition: all 0.7s cubic-bezier(0.16, 1, 0.3, 1);
-      cursor: pointer;
-    }
-
-    .map-city-group.visible {
-      opacity: 1;
-      transform: scale(1);
-    }
-
-    .city-spark {
-      fill: #fff;
-      filter: drop-shadow(0 0 6px var(--gold-pure));
-      animation: cityBlink 2.5s infinite;
-    }
-
-    .city-name-text {
-      font-family: 'Cinzel', serif;
-      font-size: 11px;
-      letter-spacing: 2px;
-      fill: #fff;
-      text-anchor: middle;
-      filter: drop-shadow(0 2px 4px rgba(0,0,0,0.9));
-    }
-
-    /* 2. BRUMES DE FUSION ENTRE CARTE ET FRISE */
-    .fusion-veil {
-      position: absolute;
-      inset: 0;
-      z-index: 2;
-      pointer-events: none;
-      background: 
-        radial-gradient(circle at 50% 88%, rgba(53, 59, 69, 0.7) 0%, rgba(15, 17, 22, 0.95) 55%, transparent 90%),
-        linear-gradient(to top, rgba(9, 11, 14, 0.98) 0%, rgba(27, 30, 36, 0.55) 30%, transparent 65%);
-    }
-
-    /* 3. EN-TÊTE MUSÉAL */
-    header {
-      position: absolute;
-      top: 1.8rem;
-      left: 2.2rem;
-      right: 2.2rem;
-      z-index: 10;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      pointer-events: none;
-    }
-
-    .museum-insignia {
-      display: flex;
-      flex-direction: column;
-      pointer-events: auto;
-      background: rgba(22, 25, 33, 0.75);
-      backdrop-filter: blur(16px);
-      padding: 10px 22px;
-      border-radius: 4px;
-      border-left: 3px solid var(--gold-pure);
-      border-top: 1px solid rgba(212, 175, 55, 0.2);
-      border-right: 1px solid rgba(212, 175, 55, 0.2);
-      border-bottom: 1px solid rgba(212, 175, 55, 0.2);
-      box-shadow: 0 10px 30px rgba(0,0,0,0.8);
-    }
-
-    .insignia-title {
-      font-family: 'Cinzel', serif;
-      font-size: 1.1rem;
-      letter-spacing: 4px;
-      text-transform: uppercase;
-      font-weight: 700;
-      color: var(--gold-pure);
-    }
-
-    .insignia-sub {
-      font-size: 0.82rem;
-      letter-spacing: 1px;
-      color: var(--text-muted);
-      font-style: italic;
-    }
-
-    .top-actions {
-      display: flex;
-      gap: 12px;
-      pointer-events: auto;
-    }
-
-    .btn-relic {
-      background: rgba(27, 30, 38, 0.8);
-      backdrop-filter: blur(16px);
-      border: 1px solid rgba(212, 175, 55, 0.25);
-      color: var(--text-bright);
-      font-family: 'Cinzel', serif;
-      font-size: 0.74rem;
-      letter-spacing: 2px;
-      padding: 8px 18px;
-      border-radius: 3px;
-      cursor: pointer;
-      text-transform: uppercase;
-      transition: all 0.3s ease;
-    }
-
-    .btn-relic:hover {
-      border-color: var(--gold-pure);
-      color: var(--gold-pure);
-      box-shadow: 0 0 18px rgba(212, 175, 55, 0.35);
-      background: var(--payne);
-    }
-
-    /* 4. LE PROJECTEUR / POPOVER FLOTTANT SUR LA RÉGION */
-    #spotlight-popover {
-      position: absolute;
-      z-index: 5;
-      width: 380px;
-      background: rgba(27, 30, 38, 0.85);
-      border: 1px solid rgba(212, 175, 55, 0.35);
-      border-left: 3px solid var(--gold-pure);
-      backdrop-filter: blur(20px);
-      padding: 1.3rem 1.6rem;
-      border-radius: 4px;
-      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.9), inset 0 0 20px rgba(53, 59, 69, 0.4);
-      transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
-      opacity: 0;
-      transform: translateY(20px);
-      pointer-events: auto;
-    }
-
-    #spotlight-popover.visible {
-      opacity: 1;
-      transform: translateY(0);
-    }
-
-    .pop-epoch-pulse {
-      font-family: 'Cinzel', serif;
-      font-size: 0.74rem;
-      letter-spacing: 2.5px;
-      text-transform: uppercase;
-      color: var(--gold-pure);
-      display: inline-block;
-      animation: slowBreathe 4s infinite;
-      margin-bottom: 4px;
-    }
-
-    .pop-civ-title {
-      font-family: 'Cinzel', serif;
-      font-size: 1.3rem;
-      font-weight: 700;
-      color: #fff;
-      margin-bottom: 6px;
-    }
-
-    .pop-civ-context {
-      font-size: 0.95rem;
-      line-height: 1.6;
-      color: #c0c6d4;
-    }
-
-    /* 5. FRISE CHRONOLOGIQUE TACTILE FLOTTANTE */
-    #timeline-sanctuary {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      height: 310px;
-      z-index: 20;
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-end;
-      padding-bottom: 1.8rem;
-    }
-
-    .timeline-nav-epochs {
-      display: flex;
-      justify-content: center;
-      gap: 22px;
-      margin-bottom: 1.2rem;
-      z-index: 21;
-    }
-
-    .epoch-step-tab {
-      font-family: 'Cinzel', serif;
-      font-size: 0.74rem;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-      color: var(--text-muted);
-      cursor: pointer;
-      padding: 4px 10px;
-      border-bottom: 2px solid transparent;
-      transition: all 0.3s ease;
-    }
-
-    .epoch-step-tab:hover,
-    .epoch-step-tab.active {
-      color: #fff;
-      border-bottom-color: var(--gold-pure);
-      text-shadow: 0 0 10px var(--gold-glow);
-    }
-
-    #timeline-drag-stage {
-      width: 100%;
-      height: 220px;
-      cursor: grab;
-      position: relative;
-      overflow: hidden;
-    }
-
-    #timeline-drag-stage:active {
-      cursor: grabbing;
-    }
-
-    #stream-ribbon {
-      position: absolute;
-      top: 0;
-      left: 0;
-      height: 100%;
-      display: flex;
-      will-change: transform;
-      padding-left: 22vw;
-      padding-right: 45vw;
-    }
-
-    .timeline-golden-thread {
-      position: absolute;
-      top: 76px;
-      left: 0;
-      right: 0;
-      height: 1px;
-      background: linear-gradient(90deg, transparent, rgba(212, 175, 55, 0.4) 15%, rgba(212, 175, 55, 0.4) 85%, transparent);
-      animation: slowBreathe 5s infinite;
-      pointer-events: none;
-    }
-
-    /* Nœud d'objet dans la frise */
-    .stream-node {
-      position: relative;
-      flex-shrink: 0;
-      width: 210px;
-      height: 100%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      cursor: pointer;
-      transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
-    }
-
-    .stream-node:hover {
-      transform: translateY(-8px);
-    }
-
-    .stream-date {
-      font-family: 'Cinzel', serif;
-      font-size: 0.72rem;
-      letter-spacing: 2px;
-      color: var(--gold-pure);
-      margin-bottom: 8px;
-      animation: slowBreathe 4.5s ease-in-out infinite;
-    }
-
-    /* Le socle musée détouré sur Gris de Payne pur #353B45 */
-    .stream-pedestal {
-      width: 92px;
-      height: 108px;
-      background-color: var(--payne);
-      border-radius: 4px;
-      position: relative;
-      border: 1px solid rgba(212, 175, 55, 0.3);
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8), inset 0 0 20px rgba(0,0,0,0.35);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      overflow: hidden;
-      transition: all 0.35s ease;
-    }
-
-    .stream-node:hover .stream-pedestal,
-    .stream-node.active .stream-pedestal {
-      border-color: var(--gold-pure);
-      box-shadow: 0 0 30px var(--gold-glow), inset 0 0 12px rgba(0,0,0,0.2);
-      transform: scale(1.08);
-    }
-
-    .stream-pedestal svg {
-      width: 82%;
-      height: 82%;
-      filter: drop-shadow(0 6px 12px rgba(0,0,0,0.7));
-    }
-
-    .stream-meta {
-      margin-top: 10px;
-      text-align: center;
-      padding: 0 10px;
-    }
-
-    .stream-civ {
-      font-family: 'Cinzel', serif;
-      font-size: 0.65rem;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-      color: var(--gold-pure);
-      margin-bottom: 2px;
-    }
-
-    .stream-title {
-      font-size: 0.92rem;
-      line-height: 1.25;
-      color: #edeef2;
-      max-width: 180px;
-      display: -webkit-box;
-      -webkit-line-clamp: 2;
-      -webkit-box-orient: vertical;
-      overflow: hidden;
-    }
-
-    /* 6. MODALE ÉCRIN MUSÉAL : ACCÈS GOOGLE PHOTOS */
-    #sanctuary-modal {
-      position: fixed;
-      inset: 0;
-      z-index: 3000;
-      background: rgba(7, 9, 12, 0.94);
-      backdrop-filter: blur(30px);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      opacity: 0;
-      pointer-events: none;
-      transition: opacity 0.4s ease;
-    }
-
-    #sanctuary-modal.open {
-      opacity: 1;
-      pointer-events: auto;
-    }
-
-    .sanctuary-frame {
-      background: #151820;
-      border: 1px solid rgba(212, 175, 55, 0.35);
-      border-radius: 4px;
-      width: 900px;
-      max-width: 92vw;
-      max-height: 88vh;
-      display: flex;
-      flex-direction: row;
-      box-shadow: 0 30px 100px rgba(0, 0, 0, 0.98);
-      position: relative;
-      overflow: hidden;
-    }
-
-    .modal-pan-img {
-      width: 50%;
-      background-color: var(--payne);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 2.5rem;
-      position: relative;
-      box-shadow: inset 0 0 60px rgba(0,0,0,0.45);
-    }
-
-    .modal-pan-img svg {
-      width: 80%;
-      height: 80%;
-      max-height: 60vh;
-      filter: drop-shadow(0 15px 30px rgba(0,0,0,0.7));
-      transition: transform 0.5s ease;
-    }
-
-    .modal-pan-img:hover svg {
-      transform: scale(1.05);
-    }
-
-    .modal-pan-notes {
-      width: 50%;
-      padding: 2.6rem;
-      background: #171b23;
-      display: flex;
-      flex-direction: column;
-      overflow-y: auto;
-      border-left: 1px solid rgba(255, 255, 255, 0.05);
-    }
-
-    .btn-dismiss {
-      position: absolute;
-      top: 1.2rem;
-      right: 1.4rem;
-      background: transparent;
-      border: none;
-      color: var(--text-muted);
-      font-size: 1.8rem;
-      cursor: pointer;
-    }
-
-    .btn-dismiss:hover {
-      color: var(--gold-pure);
-    }
-
-    .modal-civ-badge {
-      font-family: 'Cinzel', serif;
-      font-size: 0.78rem;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-      color: var(--gold-pure);
-      margin-bottom: 6px;
-    }
-
-    .modal-headline {
-      font-family: 'Cinzel', serif;
-      font-size: 1.45rem;
-      font-weight: 700;
-      line-height: 1.25;
-      color: #fff;
-      margin-bottom: 12px;
-    }
-
-    .modal-attributes {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-      margin-bottom: 1.5rem;
-    }
-
-    .attr-chip {
-      font-family: 'Cinzel', serif;
-      font-size: 0.72rem;
-      letter-spacing: 1px;
-      background: #1e232e;
-      border: 1px solid rgba(212, 175, 55, 0.2);
-      padding: 4px 10px;
-      border-radius: 3px;
-      color: #c4cad8;
-    }
-
-    .modal-narrative {
-      font-size: 1.05rem;
-      line-height: 1.65;
-      color: #c0c7d6;
-      margin-bottom: 2.2rem;
-      flex: 1;
-    }
-
-    .btn-door-album {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      gap: 12px;
-      background: linear-gradient(135deg, #d4af37, #997825);
-      color: #0c0e12;
-      font-family: 'Cinzel', serif;
-      font-weight: 700;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-      text-decoration: none;
-      font-size: 0.82rem;
-      padding: 14px 24px;
-      border-radius: 3px;
-      box-shadow: 0 8px 30px rgba(212, 175, 55, 0.35);
-      transition: all 0.3s ease;
-    }
-
-    .btn-door-album:hover {
-      box-shadow: 0 10px 40px rgba(212, 175, 55, 0.65);
-      transform: translateY(-2px);
-      background: linear-gradient(135deg, #eed88f, #b89334);
-    }
-
-    /* KEYFRAMES */
-    @keyframes slowBreathe {
-      0%, 100% {
-        opacity: 0.75;
-        text-shadow: 0 0 4px rgba(212, 175, 55, 0.2);
-      }
-      50% {
-        opacity: 1;
-        text-shadow: 0 0 18px rgba(212, 175, 55, 0.75);
-      }
-    }
-
-    @keyframes cityBlink {
-      0%, 100% { r: 3.5; opacity: 0.8; }
-      50% { r: 5.5; opacity: 1; }
-    }
-  </style>
+  <!-- Feuille de style externe -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- 1. CARTE DU MONDE ANTIQUE VECTORIELLE PURE (SVG IMMERSIF INTÉGRÉ) -->
-  <div id="map-wrap">
-    <svg id="world-map-svg" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
-      <defs>
-        <!-- Le projecteur théâtral dynamique qui se déplace -->
-        <radialGradient id="spotlight-grad" cx="50%" cy="50%" r="50%">
-          <stop offset="0%" id="spot-stop-0" stop-color="rgba(212,122,67,0.55)" />
-          <stop offset="50%" id="spot-stop-50" stop-color="rgba(53,59,69,0.3)" />
-          <stop offset="100%" stop-color="rgba(9,11,14,0)" />
-        </radialGradient>
-      </defs>
+  <!-- 1. SCÈNE CARTOGRAPHIQUE -->
+  <div id="map-viewport">
+    <div id="map-canvas-frame">
+      <div id="global-map-stage"></div>
+      
+      <!-- Halos synchrones précis et proportionnés -->
+      <div id="synchronous-halos-layer">
+        <!-- Halo Canaries : calé pile au large sur les îles -->
+        <div id="halo-canaries" class="sync-foyer-halo"></div>
+        
+        <!-- Halo Amorrites : Syrie / Proche-Orient -->
+        <div id="halo-amorrite" class="sync-foyer-halo"></div>
+      </div>
 
-      <!-- Faisceau lumineux sur la carte -->
-      <circle id="map-spotlight-beam" cx="880" cy="510" r="320" fill="url(#spotlight-grad)" />
-
-      <!-- CONTOURS CONTINENTAUX RÉELS DE LA MÉDITERRANÉE & ORIENT ANCIEN -->
-      <g id="antique-continents">
-        <!-- Péninsule Ibérique -->
-        <path class="land-mass" d="M 220,380 L 380,360 L 410,480 L 350,560 L 260,550 L 210,490 Z" />
-        <!-- France / Gaule du Sud -->
-        <path class="land-mass" d="M 380,360 L 490,320 L 540,390 L 480,450 L 410,440 Z" />
-        <!-- Italie & Sicile -->
-        <path class="land-mass" d="M 570,360 L 640,430 L 730,520 L 710,550 L 640,470 L 590,400 Z" />
-        <path class="land-mass" d="M 640,545 L 685,550 L 660,580 Z" />
-        <!-- Sardaigne & Corse -->
-        <path class="land-mass" d="M 525,430 L 545,430 L 540,480 L 520,475 Z" />
-        <path class="land-mass" d="M 530,385 L 545,390 L 540,420 L 528,415 Z" />
-        <!-- Balkans & Grèce -->
-        <path class="land-mass" d="M 660,330 L 790,340 L 890,440 L 870,540 L 820,560 L 770,490 L 730,410 Z" />
-        <!-- Péloponnèse & Crète -->
-        <path class="land-mass" d="M 830,550 L 865,545 L 860,590 L 820,580 Z" />
-        <path class="land-mass" d="M 880,630 L 980,635 L 970,650 L 890,645 Z" />
-        <!-- Anatolie (Asie Mineure) -->
-        <path class="land-mass" d="M 910,380 L 1180,390 L 1220,490 L 1150,530 L 970,530 L 930,470 Z" />
-        <!-- Levant (Phénicie, Syrie, Canaan) -->
-        <path class="land-mass" d="M 1150,530 L 1230,520 L 1200,680 L 1140,680 L 1150,580 Z" />
-        <!-- Égypte & Nil -->
-        <path class="land-mass" d="M 960,680 L 1140,680 L 1110,850 L 1020,850 L 950,730 Z" />
-        <!-- Mésopotamie & Plateaux d'Iran (Tigre, Euphrate, Zagros) -->
-        <path class="land-mass" d="M 1220,490 L 1450,480 L 1580,590 L 1500,720 L 1310,670 L 1230,540 Z" />
-      </g>
-
-      <!-- FLEUVES HISTORIQUES -->
-      <g id="rivers">
-        <!-- Nil -->
-        <path class="sacred-river" d="M 1080,680 Q 1075,760 1060,845" />
-        <!-- Euphrate & Tigre -->
-        <path class="sacred-river" d="M 1200,480 Q 1280,550 1370,660" />
-        <path class="sacred-river" d="M 1240,470 Q 1310,540 1390,640" />
-      </g>
-
-      <!-- BALISES DES VILLES ET SANCTUAIRES ACTIFS -->
-      <g id="map-cities-layer">
-        <!-- Injecté dynamiquement en JS -->
-      </g>
-    </svg>
+      <!-- Carte régionale recouvrant l'écran (Amorrite ou Canaries) -->
+      <div id="civilisation-map-overlay">
+        <div id="beacon-container"></div>
+      </div>
+    </div>
   </div>
 
-  <!-- Voile de fusion entre carte et frise -->
-  <div class="fusion-veil"></div>
+  <!-- 2. CARTOUCHE LATÉRAL VERROUILLABLE AVEC BANDEAU VISUEL -->
+  <aside id="hover-sidebar-card" class="pos-left">
+    <button class="btn-close-sidebar" id="btn-close-sidebar" title="Fermer la fiche">&times;</button>
+    <div class="hover-card-era" id="sidebar-era">Époque</div>
+    <div class="hover-card-title" id="sidebar-title">Civilisation</div>
+    
+    <div class="hover-banner-frame" id="sidebar-banner-box">
+      <img id="sidebar-banner-img" src="" alt="Bandeau de la civilisation" loading="lazy" />
+    </div>
 
-  <!-- 2. EN-TÊTE COLLECTION -->
+    <div class="hover-card-desc" id="sidebar-desc">Notice muséographique...</div>
+    
+    <button class="btn-enter-civ-map" id="btn-enter-civ">
+      Explorer la carte régionale ➔
+    </button>
+  </aside>
+
+  <!-- 3. EN-TÊTE ÉPURÉ -->
   <header>
     <div class="museum-insignia">
       <div class="insignia-title">Atlas Visuel des Arts</div>
       <div class="insignia-sub">Collections photographiques &amp; Archives in situ</div>
     </div>
-
-    <div class="top-actions">
-      <button class="btn-relic" id="btn-recenter">Vue d'ensemble</button>
-      <button class="btn-relic" id="btn-copy">Copier le Code</button>
-    </div>
   </header>
 
-  <!-- 3. PROJECTEUR FLOTTANT AU-DESSUS DE LA RÉGION -->
-  <div id="spotlight-popover">
-    <div class="pop-epoch-pulse" id="spot-epoch">VIe siècle av. J.-C.</div>
-    <div class="pop-civ-title" id="spot-title">Grèce Classique &amp; Céramique</div>
-    <div class="pop-civ-context" id="spot-desc">
-      Apogée des ateliers athéniens du Céramique. Figures noires puis figures rouges immortalisent les mythes héroïques d'Héraclès et les banquets dionysiaques.
+  <!-- 4. LES DEUX FRISES SUPERPOSÉES -->
+  <div id="timeline-dock">
+
+    <!-- Étage 2 : Temps ralenti (déplié au-dessus) -->
+    <div id="sub-timeline-drawer">
+      <div class="drawer-info-strip">
+        <span class="drawer-civ-tag" id="drawer-civ-name">CHRONOLOGIE DÉPLOYÉE</span>
+        <button class="btn-close-sub" id="btn-close-drawer">← Revenir à la Carte Globale</button>
+      </div>
+      <div id="sub-stream-scroll"></div>
     </div>
+
+    <!-- Étage 1 : Frise maîtresse synchronique avec graduation millimétrée -->
+    <div id="master-timeline-bar">
+      
+      <!-- Règle temporelle graduée -->
+      <div id="ruler-scale-bar">
+        <div id="ruler-ticks-track"></div>
+      </div>
+
+      <!-- Ligne fine verticale de coupe temporelle synchronique -->
+      <div id="sync-cursor-line">
+        <div id="sync-bubble-tag">-1950 av. J.-C.</div>
+      </div>
+
+      <div id="master-drag-container">
+        <div id="master-ribbon">
+          <!-- Couloir 1 : Atlantique & Canaries -->
+          <div class="timeline-lane" data-lane="atlantique">
+            <span class="lane-label">Canaries &amp; Atlantique</span>
+          </div>
+
+          <!-- Couloir 2 : Levant & Syrie (Amorrites) -->
+          <div class="timeline-lane" data-lane="syrie">
+            <span class="lane-label">Syrie &amp; Levant</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </div>
 
-  <!-- 4. FRISE ORGANIQUE TACTILE -->
-  <section id="timeline-sanctuary">
-    <div class="timeline-nav-epochs">
-      <span class="epoch-step-tab" data-index="0">Néolithique</span>
-      <span class="epoch-step-tab" data-index="1">Mésopotamie</span>
-      <span class="epoch-step-tab" data-index="2">Égypte</span>
-      <span class="epoch-step-tab" data-index="3">Égée</span>
-      <span class="epoch-step-tab active" data-index="4">Grèce Classique</span>
-      <span class="epoch-step-tab" data-index="5">Perse Achéménide</span>
-      <span class="epoch-step-tab" data-index="6">Rome &amp; Pompéi</span>
-    </div>
-
-    <div id="timeline-drag-stage">
-      <div class="timeline-golden-thread"></div>
-      <div id="stream-ribbon">
-        <!-- Généré en JS avec les objets d'art réels en SVG -->
+  <!-- 5. POP-UP D'EXPOSITION MUSÉALE (FOCUS OBJET SUR GRIS DE PAYNE) -->
+  <div id="curator-modal">
+    <div class="curator-frame">
+      <button class="btn-dismiss-modal" id="btn-modal-close">&times;</button>
+      
+      <div class="modal-pedestal-col">
+        <img id="modal-artwork-img" src="" alt="Objet d'art de la collection" loading="lazy" />
       </div>
-    </div>
-  </section>
 
-  <!-- 5. MODALE ÉCRIN MUSÉAL : ACCÈS GOOGLE PHOTOS -->
-  <div id="sanctuary-modal">
-    <div class="sanctuary-frame">
-      <button class="btn-dismiss" id="modal-close">&times;</button>
-      <div class="modal-pan-img" id="modal-svg-box">
-        <!-- SVG haute définition injecté ici -->
-      </div>
-      <div class="modal-pan-notes">
-        <div class="modal-civ-badge" id="modal-civ-tag">Civilisation Grecque</div>
-        <h2 class="modal-headline" id="modal-art-name">Amphore attique</h2>
-        <div class="modal-attributes">
-          <span class="attr-chip" id="modal-century-chip">VIe siècle av. J.-C.</span>
-          <span class="attr-chip" id="modal-site-chip">Athènes</span>
-          <span class="attr-chip" style="border-color: var(--gold-pure); color: var(--gold-pure);">Gris de Payne #353B45</span>
-        </div>
-        <p class="modal-narrative" id="modal-text-desc">
-          Notice détaillée de l'objet d'art photographié.
-        </p>
-        <a href="#" target="_blank" rel="noopener noreferrer" class="btn-door-album" id="modal-link-btn">
-          Consulter l'album Google Photos
+      <div class="modal-notes-col">
+        <div class="modal-civ-line" id="modal-civ-title">Civilisation</div>
+        <h2 class="modal-headline" id="modal-artwork-title">Titre de l'Œuvre</h2>
+        
+        <div class="modal-chips-row" id="modal-chips-container"></div>
+
+        <p class="modal-narrative" id="modal-narrative-text">Notice détaillée...</p>
+
+        <a href="#" target="_blank" rel="noopener noreferrer" class="btn-gold-link" id="modal-album-btn">
+          Explorer l'album complet
           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
         </a>
       </div>
     </div>
   </div>
 
-  <script>
-    /* ==========================================================================
-       DESSINS VECTORIELS DES OBJETS (100% GARANTIS SANS BLOCAGE NI LIEN MORT)
-       ========================================================================== */
-    const ART_SVGS = {
-      // 1. Déesse Mère de Çatal Höyük (Terre cuite ocre)
-      catal_hoyuk: `
-        <svg viewBox="0 0 100 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <ellipse cx="50" cy="22" rx="12" ry="14" fill="#c68a4c"/>
-          <ellipse cx="50" cy="52" rx="26" ry="22" fill="#d99b58"/>
-          <circle cx="37" cy="46" r="10" fill="#bf7e3d"/>
-          <circle cx="63" cy="46" r="10" fill="#bf7e3d"/>
-          <ellipse cx="50" cy="85" rx="30" ry="24" fill="#b87535"/>
-          <path d="M 24 75 Q 16 88 22 105 L 34 105 Z" fill="#995c24"/>
-          <path d="M 76 75 Q 84 88 78 105 L 66 105 Z" fill="#995c24"/>
-          <circle cx="18" cy="80" r="7" fill="#d4af37"/>
-          <circle cx="82" cy="80" r="7" fill="#d4af37"/>
-        </svg>
-      `,
-      // 2. Grand Vase d'Uruk (Albâtre sumérien)
-      uruk_vase: `
-        <svg viewBox="0 0 100 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M 32 15 L 68 15 L 62 105 L 38 105 Z" fill="#e8dec8" stroke="#bda888" stroke-width="2"/>
-          <ellipse cx="50" cy="15" rx="18" ry="4" fill="#f4ebd9"/>
-          <line x1="33" y1="38" x2="67" y2="38" stroke="#a38f72" stroke-width="2"/>
-          <line x1="35" y1="62" x2="65" y2="62" stroke="#a38f72" stroke-width="2"/>
-          <line x1="36" y1="84" x2="64" y2="84" stroke="#a38f72" stroke-width="2"/>
-          <circle cx="50" cy="26" r="5" fill="#c4b093"/>
-          <circle cx="44" cy="50" r="4" fill="#c4b093"/>
-          <circle cx="56" cy="50" r="4" fill="#c4b093"/>
-          <path d="M 30 105 L 70 105 L 66 112 L 34 112 Z" fill="#bda888"/>
-        </svg>
-      `,
-      // 3. Palette de Narmer (Grauwacke vert sombre pharaonique)
-      egypte_narmer: `
-        <svg viewBox="0 0 100 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M 28 15 C 40 10 60 10 72 15 C 80 40 82 85 50 115 C 18 85 20 40 28 15 Z" fill="#2d3d36" stroke="#495f54" stroke-width="2"/>
-          <circle cx="36" cy="22" r="5" fill="#d4af37"/>
-          <circle cx="64" cy="22" r="5" fill="#d4af37"/>
-          <circle cx="50" cy="65" r="14" fill="#1f2c26" stroke="#495f54" stroke-width="2"/>
-          <path d="M 48 38 L 52 38 L 54 52 L 46 52 Z" fill="#c7a75c"/>
-          <path d="M 47 85 L 53 85 L 56 102 L 44 102 Z" fill="#889f93"/>
-        </svg>
-      `,
-      // 4. Idole des Cyclades (Marbre blanc géométrique)
-      cyclades_idole: `
-        <svg viewBox="0 0 100 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <polygon points="50,10 62,34 38,34" fill="#f0ede6" stroke="#d5cfc5" stroke-width="1.5"/>
-          <line x1="50" y1="18" x2="50" y2="28" stroke="#b0a89b" stroke-width="1.5"/>
-          <rect x="46" y="34" width="8" height="12" fill="#e8e4dc"/>
-          <polygon points="30,46 70,46 64,74 36,74" fill="#f0ede6" stroke="#d5cfc5" stroke-width="1.5"/>
-          <line x1="34" y1="62" x2="66" y2="62" stroke="#999083" stroke-width="2"/>
-          <rect x="42" y="74" width="16" height="38" fill="#e4dfd7"/>
-          <line x1="50" y1="74" x2="50" y2="112" stroke="#bbb3a5" stroke-width="1.5"/>
-        </svg>
-      `,
-      // 5. Amphore Attique à figures noires (Terre cuite attique et vernis noir)
-      grece_vases_amphore: `
-        <svg viewBox="0 0 100 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <ellipse cx="50" cy="14" rx="20" ry="4" fill="#1b1d22" stroke="#d47a43" stroke-width="1.5"/>
-          <path d="M 36 14 L 38 30 L 62 30 L 64 14 Z" fill="#1b1d22"/>
-          <!-- Panse de l'amphore -->
-          <path d="M 38 30 C 18 45 18 75 38 98 L 62 98 C 82 75 82 45 62 30 Z" fill="#d46b38" stroke="#1b1d22" stroke-width="2"/>
-          <!-- Anses -->
-          <path d="M 36 28 C 16 32 16 62 30 68" fill="none" stroke="#1b1d22" stroke-width="5" stroke-linecap="round"/>
-          <path d="M 64 28 C 84 32 84 62 70 68" fill="none" stroke="#1b1d22" stroke-width="5" stroke-linecap="round"/>
-          <!-- Scène à figures noires -->
-          <ellipse cx="50" cy="62" rx="18" ry="22" fill="#1b1d22"/>
-          <circle cx="50" cy="52" r="5" fill="#d4af37"/>
-          <path d="M 44 62 L 56 62 L 53 76 L 47 76 Z" fill="#d4af37"/>
-          <!-- Pied -->
-          <path d="M 40 98 L 60 98 L 64 108 L 36 108 Z" fill="#1b1d22"/>
-        </svg>
-      `,
-      // 6. Bas-relief Perse Achéménide (Brique émaillée or et turquoise)
-      perse_achemenide_relief: `
-        <svg viewBox="0 0 100 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <rect x="22" y="10" width="56" height="100" fill="#1a2e3b" stroke="#d4af37" stroke-width="2"/>
-          <circle cx="50" cy="26" r="8" fill="#d4af37"/>
-          <path d="M 42 22 L 58 22 L 54 16 L 46 16 Z" fill="#e76f51"/>
-          <path d="M 36 38 L 64 38 L 60 85 L 40 85 Z" fill="#2a9d8f"/>
-          <line x1="32" y1="20" x2="32" y2="100" stroke="#d4af37" stroke-width="3"/>
-          <polygon points="32,15 28,25 36,25" fill="#e76f51"/>
-          <line x1="42" y1="85" x2="42" y2="104" stroke="#d4af37" stroke-width="3"/>
-          <line x1="58" y1="85" x2="58" y2="104" stroke="#d4af37" stroke-width="3"/>
-        </svg>
-      `,
-      // 7. Mosaïque Romaine d'Alexandre (Polychromie pompéienne)
-      rome_mosaique_alexandre: `
-        <svg viewBox="0 0 100 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <rect x="15" y="15" width="70" height="90" fill="#2b231f" stroke="#a84242" stroke-width="2"/>
-          <circle cx="50" cy="45" r="14" fill="#c97a5b"/>
-          <path d="M 42 34 C 45 28 55 28 58 34 C 62 42 58 50 50 50 Z" fill="#4a3b32"/>
-          <circle cx="52" cy="44" r="2.5" fill="#fff"/>
-          <circle cx="53" cy="44" r="1.2" fill="#000"/>
-          <path d="M 32 64 L 68 64 L 74 95 L 26 95 Z" fill="#a84242" stroke="#d4af37" stroke-width="2"/>
-          <line x1="20" y1="80" x2="80" y2="35" stroke="#d4af37" stroke-width="3"/>
-        </svg>
-      `
-    };
-
-    /* ==========================================================================
-       CORPUS D'OBJETS D'ART & GÉOGRAPHIE DU MONDE ANTIQUE
-       ========================================================================== */
-    const ART_CORPUS = [
-      {
-        id: "catal_hoyuk",
-        svgKey: "catal_hoyuk",
-        civilisation: "Anatolie Néolithique",
-        century: "v. -7400 av. J.-C.",
-        title: "Déesse-Mère aux léopards",
-        site: "Çatal Höyük",
-        mapX: 1040,
-        mapY: 450,
-        spotColor: "rgba(212, 175, 55, 0.6)",
-        cities: [
-          { name: "Çatal Höyük", x: 1040, y: 450, major: true },
-          { name: "Göbekli Tepe", x: 1140, y: 440, major: false },
-          { name: "Hacılar", x: 990, y: 460, major: false }
-        ],
-        desc: "Statuette en terre cuite représentant une figure féminine hiératique assise entre deux léopards. Symbole archétypal de la fécondité et des premiers sanctuaires néolithiques.",
-        photosUrl: "https://photos.google.com"
-      },
-      {
-        id: "uruk_vase",
-        svgKey: "uruk_vase",
-        civilisation: "Mésopotamie (Sumer)",
-        century: "v. -3200 av. J.-C.",
-        title: "Le Grand Vase d'Uruk",
-        site: "Uruk (Warka)",
-        mapX: 1330,
-        mapY: 590,
-        spotColor: "rgba(235, 168, 52, 0.65)",
-        cities: [
-          { name: "Uruk", x: 1330, y: 590, major: true },
-          { name: "Ur", x: 1360, y: 620, major: true },
-          { name: "Nippur", x: 1310, y: 560, major: false },
-          { name: "Lagash", x: 1365, y: 585, major: false }
-        ],
-        desc: "Albâtre sculpté en registres superposés. Récit cosmogonique et procession d'offrandes à la déesse Inanna, berceau de l'écriture cunéiforme.",
-        photosUrl: "https://photos.google.com"
-      },
-      {
-        id: "egypte_narmer",
-        svgKey: "egypte_narmer",
-        civilisation: "Égypte Thinite",
-        century: "v. -3100 av. J.-C.",
-        title: "Palette royale de Narmer",
-        site: "Hiérakonpolis (Nekhen)",
-        mapX: 1060,
-        mapY: 760,
-        spotColor: "rgba(46, 196, 182, 0.6)",
-        cities: [
-          { name: "Hiérakonpolis", x: 1060, y: 760, major: true },
-          { name: "Abydos", x: 1065, y: 730, major: true },
-          { name: "Memphis", x: 1075, y: 660, major: true }
-        ],
-        desc: "Grauwacke polie gravée en bas-relief célébrant l'unification des Deux Terres par Narmer, scellant à jamais le canon monumental pharaonique.",
-        photosUrl: "https://photos.google.com"
-      },
-      {
-        id: "cyclades_idole",
-        svgKey: "cyclades_idole",
-        civilisation: "Monde Égéen (Cyclades)",
-        century: "v. -2500 av. J.-C.",
-        title: "Idole féminine canonique",
-        site: "Kéros (Cyclades)",
-        mapX: 900,
-        mapY: 540,
-        spotColor: "rgba(58, 134, 255, 0.6)",
-        cities: [
-          { name: "Kéros", x: 900, y: 540, major: true },
-          { name: "Cnossos", x: 920, y: 630, major: true },
-          { name: "Santorin", x: 890, y: 565, major: false }
-        ],
-        desc: "Marbre blanc immaculé taillé avec une pureté géométrique absolue. Bras repliés sur la poitrine, profil étiré préfigurant l'art moderne.",
-        photosUrl: "https://photos.google.com"
-      },
-      {
-        id: "grece_vases_amphore",
-        svgKey: "grece_vases_amphore",
-        civilisation: "Grèce Classique & Céramique",
-        century: "VIe siècle av. J.-C. (-540)",
-        title: "Amphore attique à figures noires",
-        site: "Athènes (Le Céramique)",
-        mapX: 845,
-        mapY: 520,
-        spotColor: "rgba(212, 122, 67, 0.65)",
-        cities: [
-          { name: "Athènes", x: 845, y: 520, major: true },
-          { name: "Delphes", x: 815, y: 495, major: false },
-          { name: "Olympie", x: 800, y: 535, major: false },
-          { name: "Corinthe", x: 830, y: 525, major: false }
-        ],
-        desc: "Terre cuite attique vernissée d'un noir brillant métallique, incisée au stylet avec rehauts pourpres. Scène héroïque d'affrontement mythologique.",
-        photosUrl: "https://photos.google.com"
-      },
-      {
-        id: "perse_achemenide_relief",
-        svgKey: "perse_achemenide_relief",
-        civilisation: "Empire Perse Achéménide",
-        century: "v. -510 av. J.-C.",
-        title: "Frise des Gardes Immortels",
-        site: "Persépolis & Suse",
-        mapX: 1470,
-        mapY: 620,
-        spotColor: "rgba(157, 78, 221, 0.6)",
-        cities: [
-          { name: "Persépolis", x: 1520, y: 650, major: true },
-          { name: "Suse", x: 1420, y: 580, major: true },
-          { name: "Pasargades", x: 1500, y: 630, major: false }
-        ],
-        desc: "Carreaux de brique silico-calcaire émaillée aux couleurs vives (turquoise et or). La garde d'élite des empereurs Cyrus et Darius défilant en majesté.",
-        photosUrl: "https://photos.google.com"
-      },
-      {
-        id: "rome_mosaique_alexandre",
-        svgKey: "rome_mosaique_alexandre",
-        civilisation: "Rome Antique & Pompéi",
-        century: "Ier siècle av. J.-C. (-100)",
-        title: "Mosaïque de la Maison du Faune",
-        site: "Pompéi (Campanie)",
-        mapX: 670,
-        mapY: 480,
-        spotColor: "rgba(230, 57, 70, 0.6)",
-        cities: [
-          { name: "Pompéi", x: 670, y: 480, major: true },
-          { name: "Rome", x: 635, y: 440, major: true },
-          { name: "Herculanum", x: 665, y: 475, major: false }
-        ],
-        desc: "Pavement en opus vermiculatum composé de millions de tesselles polychromes, capturant le face-à-face décisif entre Alexandre et Darius à Issos.",
-        photosUrl: "https://photos.google.com"
-      }
-    ];
-
-    /* ==========================================================================
-       CONSTRUCTION DYNAMIQUE DE LA FRISE (DRAG-TO-PAN SUR FOND #353B45)
-       ========================================================================== */
-    const ribbon = document.getElementById('stream-ribbon');
-
-    ART_CORPUS.forEach((item, index) => {
-      const node = document.createElement('article');
-      node.className = `stream-node ${index === 4 ? 'active' : ''}`;
-      node.dataset.index = index;
-
-      node.innerHTML = `
-        <div class="stream-date">${item.century}</div>
-        <div class="stream-pedestal">
-          ${ART_SVGS[item.svgKey]}
-        </div>
-        <div class="stream-meta">
-          <div class="stream-civ">${item.civilisation.split(' ')[0]}</div>
-          <div class="stream-title">${item.title}</div>
-        </div>
-      `;
-
-      node.addEventListener('click', () => {
-        document.querySelectorAll('.stream-node').forEach(n => n.classList.remove('active'));
-        node.classList.add('active');
-
-        projectSpotlight(item);
-        openModal(item);
-      });
-
-      ribbon.appendChild(node);
-    });
-
-    /* ==========================================================================
-       PROJECTEUR CARTE : DÉPLACEMENT DU HALO & CITÉS EN OR
-       ========================================================================== */
-    const beam = document.getElementById('map-spotlight-beam');
-    const stop0 = document.getElementById('spot-stop-0');
-    const citiesLayer = document.getElementById('map-cities-layer');
-    const popover = document.getElementById('spotlight-popover');
-    const spotEpoch = document.getElementById('spot-epoch');
-    const spotTitle = document.getElementById('spot-title');
-    const spotDesc = document.getElementById('spot-desc');
-
-    function projectSpotlight(item) {
-      // 1. Déplacer le projecteur sur les coordonnées exactes du SVG
-      beam.setAttribute('cx', item.mapX);
-      beam.setAttribute('cy', item.mapY);
-      stop0.setAttribute('stop-color', item.spotColor);
-
-      // 2. Faire naître les villes de l'époque
-      citiesLayer.innerHTML = '';
-      item.cities.forEach(city => {
-        const g = document.createElementNS('http://www.w3.org/2000/svg', 'g');
-        g.setAttribute('class', 'map-city-group');
-
-        const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
-        circle.setAttribute('cx', city.x);
-        circle.setAttribute('cy', city.y);
-        circle.setAttribute('r', city.major ? '4.5' : '3');
-        circle.setAttribute('class', 'city-spark');
-
-        const text = document.createElementNS('http://www.w3.org/2000/svg', 'text');
-        text.setAttribute('x', city.x);
-        text.setAttribute('y', city.y - 10);
-        text.setAttribute('class', 'city-name-text');
-        text.textContent = city.name;
-
-        g.appendChild(circle);
-        g.appendChild(text);
-        citiesLayer.appendChild(g);
-
-        setTimeout(() => g.classList.add('visible'), 60);
-      });
-
-      // 3. Positionner le cartouche au-dessus du foyer géographique
-      const svgEl = document.getElementById('world-map-svg');
-      const rect = svgEl.getBoundingClientRect();
-      const scaleX = rect.width / 1920;
-      const scaleY = rect.height / 1080;
-
-      const screenX = rect.left + item.mapX * scaleX;
-      const screenY = rect.top + item.mapY * scaleY;
-
-      let popLeft = Math.max(30, Math.min(window.innerWidth - 410, screenX - 190));
-      let popTop = Math.max(90, screenY - 190);
-
-      popover.style.left = `${popLeft}px`;
-      popover.style.top = `${popTop}px`;
-
-      spotEpoch.textContent = item.century;
-      spotTitle.textContent = item.civilisation;
-      spotDesc.textContent = item.desc;
-      popover.classList.add('visible');
-    }
-
-    /* ==========================================================================
-       MANIEMENT TACTILE FLUIDE (DRAG-TO-PAN AVEC INERTIE)
-       ========================================================================== */
-    const dragStage = document.getElementById('timeline-drag-stage');
-    let isDragging = false;
-    let startMouseX = 0;
-    let currentPanX = -(4 * 210) + 120; // Départ calé sur la Grèce
-    let prevPanX = currentPanX;
-    let velocity = 0;
-    let lastX = 0;
-    let rAF = null;
-
-    function getBounds() {
-      return {
-        max: 0,
-        min: -(ribbon.scrollWidth - dragStage.clientWidth)
-      };
-    }
-
-    ribbon.style.transform = `translateX(${currentPanX}px)`;
-
-    dragStage.addEventListener('mousedown', (e) => {
-      isDragging = true;
-      startMouseX = e.clientX;
-      lastX = e.clientX;
-      cancelAnimationFrame(rAF);
-    });
-
-    window.addEventListener('mousemove', (e) => {
-      if (!isDragging) return;
-      const clientX = e.clientX;
-      velocity = (clientX - lastX) * 1.15;
-      lastX = clientX;
-
-      currentPanX = prevPanX + (clientX - startMouseX);
-      const b = getBounds();
-
-      if (currentPanX > b.max) currentPanX = b.max + (currentPanX - b.max) * 0.2;
-      else if (currentPanX < b.min) currentPanX = b.min + (currentPanX - b.min) * 0.2;
-
-      ribbon.style.transform = `translateX(${currentPanX}px)`;
-    });
-
-    window.addEventListener('mouseup', () => {
-      if (!isDragging) return;
-      isDragging = false;
-      prevPanX = currentPanX;
-      applyInertia();
-    });
-
-    function applyInertia() {
-      const b = getBounds();
-      velocity *= 0.94;
-      currentPanX += velocity;
-
-      if (currentPanX > b.max) { currentPanX = b.max; velocity = 0; }
-      else if (currentPanX < b.min) { currentPanX = b.min; velocity = 0; }
-
-      ribbon.style.transform = `translateX(${currentPanX}px)`;
-      prevPanX = currentPanX;
-
-      if (Math.abs(velocity) > 0.4) {
-        rAF = requestAnimationFrame(applyInertia);
-      }
-    }
-
-    dragStage.addEventListener('wheel', (e) => {
-      e.preventDefault();
-      cancelAnimationFrame(rAF);
-      const b = getBounds();
-      currentPanX -= e.deltaY * 0.85;
-      currentPanX = Math.max(b.min, Math.min(b.max, currentPanX));
-      ribbon.style.transform = `translateX(${currentPanX}px)`;
-      prevPanX = currentPanX;
-    });
-
-    // Onglets d'époques
-    document.querySelectorAll('.epoch-step-tab').forEach(tab => {
-      tab.addEventListener('click', () => {
-        document.querySelectorAll('.epoch-step-tab').forEach(t => t.classList.remove('active'));
-        tab.classList.add('active');
-
-        const index = parseInt(tab.dataset.index, 10);
-        const item = ART_CORPUS[index];
-        const targetX = -(index * 210) + 120;
-
-        const b = getBounds();
-        currentPanX = Math.max(b.min, Math.min(b.max, targetX));
-
-        ribbon.style.transition = 'transform 0.75s cubic-bezier(0.16, 1, 0.3, 1)';
-        ribbon.style.transform = `translateX(${currentPanX}px)`;
-        prevPanX = currentPanX;
-
-        setTimeout(() => { ribbon.style.transition = 'none'; }, 750);
-
-        if (item) {
-          projectSpotlight(item);
-          document.querySelectorAll('.stream-node').forEach(n => n.classList.remove('active'));
-          const nodes = document.querySelectorAll('.stream-node');
-          if (nodes[index]) nodes[index].classList.add('active');
-        }
-      });
-    });
-
-    /* ==========================================================================
-       MODALE ÉCRIN MUSÉAL : ACCÈS GOOGLE PHOTOS
-       ========================================================================== */
-    const modal = document.getElementById('sanctuary-modal');
-    const modalSvgBox = document.getElementById('modal-svg-box');
-    const modalCivTag = document.getElementById('modal-civ-tag');
-    const modalArtName = document.getElementById('modal-art-name');
-    const modalCenturyChip = document.getElementById('modal-century-chip');
-    const modalSiteChip = document.getElementById('modal-site-chip');
-    const modalTextDesc = document.getElementById('modal-text-desc');
-    const modalLinkBtn = document.getElementById('modal-link-btn');
-    const modalClose = document.getElementById('modal-close');
-
-    function openModal(item) {
-      modalSvgBox.innerHTML = ART_SVGS[item.svgKey];
-      modalCivTag.textContent = item.civilisation;
-      modalArtName.textContent = item.title;
-      modalCenturyChip.textContent = item.century;
-      modalSiteChip.textContent = item.site;
-      modalTextDesc.textContent = item.desc;
-      modalLinkBtn.href = item.photosUrl;
-
-      modal.classList.add('open');
-    }
-
-    modalClose.addEventListener('click', () => modal.classList.remove('open'));
-    modal.addEventListener('click', (e) => {
-      if (e.target === modal) modal.classList.remove('open');
-    });
-
-    /* ==========================================================================
-       COMMANDES GÉNÉRALES
-       ========================================================================== */
-    document.getElementById('btn-recenter').addEventListener('click', () => {
-      beam.setAttribute('cx', '960');
-      beam.setAttribute('cy', '540');
-      stop0.setAttribute('stop-color', 'rgba(212, 175, 55, 0.35)');
-      popover.classList.remove('visible');
-      citiesLayer.innerHTML = '';
-    });
-
-    document.getElementById('btn-copy').addEventListener('click', () => {
-      navigator.clipboard.writeText(document.documentElement.outerHTML).then(() => {
-        const btn = document.getElementById('btn-copy');
-        btn.textContent = "✓ Code Copié !";
-        setTimeout(() => { btn.textContent = "Copier le Code"; }, 2000);
-      });
-    });
-
-    // Lancement immédiat sur la céramique grecque
-    projectSpotlight(ART_CORPUS[4]);
-  </script>
+  <!-- Script logique externe -->
+  <script src="app.js"></script>
 </body>
 </html>
