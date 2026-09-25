@@ -5,38 +5,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Atlas Visuel &amp; Synchronique des Arts et Civilisations</title>
 
-  <!-- Polices Muséales Lapidaires -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;900&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
 
-  <!-- Feuille de style externe -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- 1. SCÈNE CARTOGRAPHIQUE -->
+  <!-- SCÈNE CARTOGRAPHIQUE -->
   <div id="map-viewport">
     <div id="map-canvas-frame">
       <div id="global-map-stage"></div>
       
-      <!-- Halos synchrones précis et proportionnés -->
       <div id="synchronous-halos-layer">
-        <!-- Halo Canaries : calé pile au large sur les îles -->
         <div id="halo-canaries" class="sync-foyer-halo"></div>
-        
-        <!-- Halo Amorrites : Syrie / Proche-Orient -->
         <div id="halo-amorrite" class="sync-foyer-halo"></div>
       </div>
 
-      <!-- Carte régionale recouvrant l'écran (Amorrite ou Canaries) -->
       <div id="civilisation-map-overlay">
         <div id="beacon-container"></div>
       </div>
     </div>
   </div>
 
-  <!-- 2. CARTOUCHE LATÉRAL VERROUILLABLE AVEC BANDEAU VISUEL -->
+  <!-- CARTOUCHE LATÉRAL VERROUILLABLE -->
   <aside id="hover-sidebar-card" class="pos-left">
     <button class="btn-close-sidebar" id="btn-close-sidebar" title="Fermer la fiche">&times;</button>
     <div class="hover-card-era" id="sidebar-era">Époque</div>
@@ -53,18 +46,18 @@
     </button>
   </aside>
 
-  <!-- 3. EN-TÊTE ÉPURÉ -->
+  <!-- EN-TÊTE -->
   <header>
     <div class="museum-insignia">
       <div class="insignia-title">Atlas Visuel des Arts</div>
-      <div class="insignia-sub">Collections photographiques &amp; Archives in situ</div>
+      <div class="insignia-sub">Parcours Synchronique &amp; Archives Photographiques in situ</div>
     </div>
   </header>
 
-  <!-- 4. LES DEUX FRISES SUPERPOSÉES -->
+  <!-- FRISES -->
   <div id="timeline-dock">
 
-    <!-- Étage 2 : Temps ralenti (déplié au-dessus) -->
+    <!-- Étage 2 : Temps ralenti -->
     <div id="sub-timeline-drawer">
       <div class="drawer-info-strip">
         <span class="drawer-civ-tag" id="drawer-civ-name">CHRONOLOGIE DÉPLOYÉE</span>
@@ -73,29 +66,44 @@
       <div id="sub-stream-scroll"></div>
     </div>
 
-    <!-- Étage 1 : Frise maîtresse synchronique avec graduation millimétrée -->
+    <!-- Étage 1 : Frise maîtresse à couloirs géographiques -->
     <div id="master-timeline-bar">
       
-      <!-- Règle temporelle graduée -->
+      <!-- Règle de graduation millimétrée -->
       <div id="ruler-scale-bar">
         <div id="ruler-ticks-track"></div>
       </div>
 
-      <!-- Ligne fine verticale de coupe temporelle synchronique -->
+      <div class="master-hint-strip">
+        <span id="active-marker-info">REPÈRE TEMPOREL EN DIRECT</span>
+        <span>◄ -3500 av. J.-C. | +1500 ap. J.-C. ►</span>
+      </div>
+
+      <!-- Ligne de coupe temporelle -->
       <div id="sync-cursor-line">
         <div id="sync-bubble-tag">-1950 av. J.-C.</div>
       </div>
 
+      <!-- Zone défilante 2D (horizontal temporel + vertical régional) -->
       <div id="master-drag-container">
         <div id="master-ribbon">
-          <!-- Couloir 1 : Atlantique & Canaries -->
           <div class="timeline-lane" data-lane="atlantique">
-            <span class="lane-label">Canaries &amp; Atlantique</span>
+            <div class="lane-label">Atlantique &amp; Ibérie</div>
           </div>
-
-          <!-- Couloir 2 : Levant & Syrie (Amorrites) -->
           <div class="timeline-lane" data-lane="syrie">
-            <span class="lane-label">Syrie &amp; Levant</span>
+            <div class="lane-label">Levant &amp; Syrie</div>
+          </div>
+          <div class="timeline-lane" data-lane="egypte">
+            <div class="lane-label">Égypte &amp; Nubie</div>
+          </div>
+          <div class="timeline-lane" data-lane="mesopotamie">
+            <div class="lane-label">Mésopotamie</div>
+          </div>
+          <div class="timeline-lane" data-lane="anatolie">
+            <div class="lane-label">Anatolie &amp; Caucase</div>
+          </div>
+          <div class="timeline-lane" data-lane="egee">
+            <div class="lane-label">Monde Égéen &amp; Grèce</div>
           </div>
         </div>
       </div>
@@ -103,7 +111,7 @@
 
   </div>
 
-  <!-- 5. POP-UP D'EXPOSITION MUSÉALE (FOCUS OBJET SUR GRIS DE PAYNE) -->
+  <!-- MODALE POP-UP EXPOSITION (GRIS DE PAYNE) -->
   <div id="curator-modal">
     <div class="curator-frame">
       <button class="btn-dismiss-modal" id="btn-modal-close">&times;</button>
@@ -115,9 +123,7 @@
       <div class="modal-notes-col">
         <div class="modal-civ-line" id="modal-civ-title">Civilisation</div>
         <h2 class="modal-headline" id="modal-artwork-title">Titre de l'Œuvre</h2>
-        
         <div class="modal-chips-row" id="modal-chips-container"></div>
-
         <p class="modal-narrative" id="modal-narrative-text">Notice détaillée...</p>
 
         <a href="#" target="_blank" rel="noopener noreferrer" class="btn-gold-link" id="modal-album-btn">
@@ -128,7 +134,6 @@
     </div>
   </div>
 
-  <!-- Script logique externe -->
   <script src="app.js"></script>
 </body>
 </html>
