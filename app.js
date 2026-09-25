@@ -1,7 +1,56 @@
 /* ==========================================================================
-   REGISTRE : CANARIES, AMORRITES, CELTES DU BRONZE
+   REGISTRE STRICT : CANARIES, AMORRITES, ART CELTE DU BRONZE & ÂGE DU FER
    ========================================================================== */
 const CIVILISATIONS_REGISTRY = [
+  {
+    id: "celte_fer",
+    name: "Art Celte & Gaulois (Âge du Fer)",
+    epoch: "v. -800 à -50 av. J.-C.",
+    yearStart: -800,
+    yearEnd: -50,
+    lane: "europe_ouest",
+    themeColor: "#2a9d8f",
+    sidePos: "pos-left",
+    travelingOrigin: "47.8% 38.5%",
+    haloId: "halo-celte",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczOTpAuNPMicTn782_1Zjbxrq0HKHRKJG6AVI3MC5QV0sIgRxWd1KE3enIDaZ4vI7QiV5SLQ6pAzbtmog5AkOjGQTGt3u4cnSdiF9sW1VPzeXH1Md2FDvlYQR92Fv7MXvbsr0sYzoNpKZc4GHJfmENYp7w=w2599-h1103-s-no-gm?authuser=0",
+    mapOverlayUrl: "https://lh3.googleusercontent.com/d/1ZFqo_BVU5BBUN4mpNGlMeBOm91xXLtZt",
+    albumUrl: "https://photos.google.com",
+    presentationHtml: `
+      <p><strong>L'aristocratie princière du Hallstatt</strong><br>
+      Au premier âge du Fer (v. -800 à -450), le monde celtique s'organise autour de résidences fortifiées dominant de vastes nécropoles à tumulus. Les élites contrôlent les voies commerciales et se font inhumer sur des chars à quatre roues avec de riches vaisselles en bronze importées de Méditerranée.</p>
+      <p><strong>L'apogée stylistique de La Tène</strong><br>
+      Au second âge du Fer (v. -450 à la conquête romaine), l'art celtique développe son langage curviligne : rinceaux, palmettes déconstruites et masques stylisés ornent l'armement d'apparat (épées, casques) et les parures en or (torques).</p>
+      <p><strong>L'artisanat des cités gauloises et des sanctuaires</strong><br>
+      À la veille de la guerre des Gaules, la société des oppida voit fleurir une céramique tournée d'une rare élégance (vases balustres) et une sculpture funéraire en pierre (stèles armoricaines en granite) perpétuant la mémoire des lignages aristocratiques.</p>
+    `,
+    beacons: [
+      { name: "Céramique Cénomane (Le Mans)", top: "35%", left: "44%", artIdx: 0 },
+      { name: "Stèle funéraire (Jublains)", top: "32%", left: "41%", artIdx: 1 }
+    ],
+    artifacts: [
+      {
+        id: "vase_lemans",
+        century: "Ier siècle av. J.-C.",
+        title: "Vase balustre cénomane du Mans",
+        site: "Le Mans (Sarthe)",
+        category: "Céramique",
+        chips: ["Ier siècle av. J.-C.", "Terre cuite grise", "Le Mans (Cénomans)"],
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOeA-57KA6AcGKWg1BbtdwWs684LLHV-9n2wCbgreZAG40RdDCxV9blX9eMn5A0rrhERAPUtuciQBnOd8SLX0zlym2AYX1ndJKwGdPu_bijWeHvAAxLcpd94ZsjRn9W9b4LO632wuEulzoBj6jTx22THw=w1814-h2410-s-no-gm?authuser=0",
+        narrative: "Découvert au Mans, ce vase à silhouette élancée et patine grise illustre la maîtrise du tournage chez les potiers cénomans. Structuré par des registres horizontaux alternant canaux incisés et baguettes en relief, il témoigne de la sobriété et de l'élégance de la vaisselle gauloise à la veille de la conquête romaine, servant aux libations domestiques ou aux offrandes funéraires."
+      },
+      {
+        id: "stele_jublains",
+        century: "IVe - IIIe siècle av. J.-C.",
+        title: "Stèle funéraire monumentale en granite",
+        site: "Jublains (Mayenne)",
+        category: "Sculpture & Stèle",
+        chips: ["Second âge du Fer", "Monolithe en granite", "Jublains (Diablintes)"],
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNQ8lMq99-7bAoU4NMqEU8OjQrSrsHG8xGzpXtI0ktR3Uji1wDR7JydwrZc2-EntLOHJco7ti5F1QUaiA5kU_IAE3EoeVoRXa_PUj4rhHLk_mczJUW8oMd-e18JVRFZKu0CHtgWkiTL8KpwzTfpOECzIQ=w1607-h2410-s-no-gm?authuser=0",
+        narrative: "Ce monolithe oblong en granite taillé est caractéristique des monuments funéraires de l'Ouest de la Gaule et de l'Armorique. Érigée au-dessus de sépultures pour signaler la tombe et honorer la mémoire de défunts de haut rang, cette stèle incarne la permanence du culte des ancêtres et l'affirmation territoriale des élites celtes au cœur du sanctuaire des Diablintes."
+      }
+    ]
+  },
   {
     id: "celte_bronze",
     name: "Art Celte du Bronze (Europe)",
@@ -9,23 +58,21 @@ const CIVILISATIONS_REGISTRY = [
     yearStart: -2200,
     yearEnd: -800,
     lane: "europe_ouest",
-    themeColor: "#2a9d8f",
+    themeColor: "#52b788",
     sidePos: "pos-left",
     travelingOrigin: "47.8% 38.5%",
-    haloId: "halo-celte_bronze",
+    haloId: "halo-celte",
     bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczNeGi9CeQnVZ0W8vPbx0jodOMhg6-U-KG1RWY5FKuhdbkyiT-iSkT_XR1V1NGGO9m3Us2LF_p2md8GdF4hAnaTp0Bf05pEXDuSPiBFtHM2FjgA2ZTxIDPJ_96SpfO-bGNnsO44jw8COUI9sW93SROp_kQ=w2599-h1103-s-no-gm?authuser=0",
     mapOverlayUrl: "https://lh3.googleusercontent.com/d/1gX2vOwXzj3jIMMvx2P5DAAQkjfkZ1anc",
     albumUrl: "https://photos.google.com",
     presentationHtml: `
-      <p><strong>L'éveil métallurgique et la culture d'Únětice</strong><br>
-      Dès le début du IIe millénaire avant notre ère, l'Europe centrale et occidentale s'organise autour de réseaux d'échanges d'étain et de cuivre. La culture d'Únětice (Bronze ancien) marque l'essor d'élites guerrières et commerçantes, illustré par des poignards triangulaires en bronze, des hallebardes et des pièces d'apparat en or.</p>
-      <p><strong>L'aristocratie de la Culture des Tumulus</strong><br>
-      Au Bronze moyen (v. -1600 à -1300), le rite funéraire s'uniformise sous de vastes tertres funéraires circulaires (tumulus). Les défunts sont inhumés avec leur armement de prestige (premières épées à languette, haches à talon) et des parures complexes (épingles torsadées, bracelets spiralés), témoignant d'une hiérarchie sociale affirmée.</p>
-      <p><strong>Révolution des Champs d'Urnes et pratique des dépôts</strong><br>
-      Au Bronze final (v. -1300 à -800), la rupture spirituelle des Champs d'Urnes (Urnfield) impose la crémation et le recueil des cendres dans des urnes de céramique enfouies en nécropoles denses. Cette ère voit culminer le « phénomène des dépôts » : enfouissements rituels massifs d'outils, d'armes et de lingots dans les cours d'eau, tourbières ou cavités souterraines, entre offrandes votives aux forces telluriques et thésaurisation collective.</p>
+      <p><strong>L'éveil métallurgique d'Únětice</strong><br>
+      Dès le début du IIe millénaire avant notre ère, l'Europe s'organise autour des échanges de cuivre et d'étain. La culture d'Únětice consacre l'essor de chefs guerriers inhumés avec poignards en bronze et parures d'or.</p>
+      <p><strong>La Culture des Tumulus et les Champs d'Urnes</strong><br>
+      Au Bronze moyen, les défunts reposent sous de vastes tertres avec haches à talon et épées. Le Bronze final voit l'avènement de la crémation en urnes et la multiplication des dépôts votifs enfouis dans les tourbières et les cours d'eau.</p>
     `,
     beacons: [
-      { name: "Dépôt de Jublains (Mayenne)", top: "34%", left: "46%", artId: "depot_jublains" }
+      { name: "Dépôt de Jublains (Mayenne)", top: "34%", left: "46%", artIdx: 0 }
     ],
     artifacts: [
       {
@@ -33,7 +80,7 @@ const CIVILISATIONS_REGISTRY = [
         century: "Bronze moyen et final (-1500 à -800)",
         title: "Dépôt de haches à talon et parures de Jublains",
         site: "Musée archéologique départemental de Jublains",
-        section: "Métallurgie & Dépôts votifs",
+        category: "Métallurgie & Dépôt",
         chips: ["Âge du Bronze", "Jublains (Mayenne)", "Alliage cuivreux"],
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMDKuI_TJU5jFc6SYvcfxQYMyLAxo_Er1aGNAFST7fBciWLXuMara_i-InT_5a4JadEykH_U5NohJtceGLLNyrgygDvzoLfxc4d3YuA_LAUxM59s6iLGsMybtdwHkWdmTVQnj3B1RagX4Uu4B20Q3CV6w=w2599-h1733-s-no-gm?authuser=0",
         narrative: "Découvert en Mayenne, cet ensemble exceptionnel d'objets en alliage cuivreux à patine verte témoigne de la maîtrise métallurgique du Bronze moyen et final. Les haches à talon à bélière latérale marquaient une avancée technique pour un emmanchement solide et servaient aussi de réserve prémonétaire. Les parures annulaires ornées de motifs géométriques incisés illustrent le phénomène des dépôts volontaires, enfouis rituellement comme offrandes aux divinités ou réserves d'artisans."
@@ -63,7 +110,7 @@ const CIVILISATIONS_REGISTRY = [
       Dans la statuaire, les sculpteurs amorrites forgent des représentations souveraines d'une présence nouvelle : rois trônant, calotte arrondie et manteau à bourrelet, au regard perçant autrefois rehaussé d'incrustations précieuses.</p>
     `,
     beacons: [
-      { name: "Alalakh (Tell Atchana)", top: "36%", left: "47%", artId: "idrimi" }
+      { name: "Alalakh (Tell Atchana)", top: "36%", left: "47%", artIdx: 0 }
     ],
     artifacts: [
       {
@@ -71,7 +118,7 @@ const CIVILISATIONS_REGISTRY = [
         century: "v. -1500 av. J.-C.",
         title: "Alalakh - roi Idrimi -1500 - Londres",
         site: "Tell Atchana (Alalakh)",
-        section: "Statuaire royale autobiographique",
+        category: "Sculpture & Statuaire",
         chips: ["v. -1500 av. J.-C.", "Tell Atchana (Alalakh)", "British Museum (Londres)"],
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczN6NQEToJ97f-c9qg-7W7Rt1ImmBuXkLUYQQalWO4iiVc7usyBS_ELROgGtpIudXZ0cVIjbk4-F1mo45heZCYaqpyiADyeZUZhe5HrztmoWoXq_qIWOTT0m981iqD3yMBajZAiUIHQQ4E0zNJYGg-K-fw=w613-h919-s-no-gm?authuser=0",
         narrative: "Découverte en 1939 par Leonard Woolley à Tell Atchana (l’antique Alalakh), cette statue en magnésite blanche représente Idrimi, roi d'Alalakh, siégeant sur un trône de basalte.<br><br>L'œuvre est remarquable par la longue inscription cunéiforme autobiographique gravée sur la robe du roi, relatant son exil, sa reconquête du pouvoir et son alliance avec le Mittani. Ses grands yeux incrustés confèrent à la statue une puissance hiératique unique dans l'art du Proche-Orient ancien."
@@ -101,8 +148,8 @@ const CIVILISATIONS_REGISTRY = [
       La statuaire en terre cuite et en tuf volcanique, aux formes féminines très épurées (Idole de Tara), témoigne d'un culte profond de la fécondité et des ancêtres, au sein de sociétés encadrées par les rois autochtones (Guanartemes) et les chefs religieux (Faycanes).</p>
     `,
     beacons: [
-      { name: "Cueva Pintada (Gáldar)", top: "54%", left: "45%", artId: "cueva_pintada" },
-      { name: "Zonzamas (Teguise)", top: "42%", left: "68%", artId: "statuettes_galdar" }
+      { name: "Cueva Pintada (Gáldar)", top: "54%", left: "45%", artIdx: 0 },
+      { name: "Zonzamas (Teguise)", top: "42%", left: "68%", artIdx: 1 }
     ],
     artifacts: [
       {
@@ -110,7 +157,7 @@ const CIVILISATIONS_REGISTRY = [
         century: "XIe - XVe siècle",
         title: "Frise géométrique de la Cueva Pintada",
         site: "Gáldar (Gran Canaria)",
-        section: "Peinture murale troglodytique",
+        category: "Peinture murale",
         chips: ["XIe - XVe siècle", "Gáldar (Gran Canaria)", "Musée Cueva Pintada"],
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczO2RC5ehxxblZ2K44QwidcBib5SOlN7sC3keWPoJXodG5zXzkt-ne7X-aHxE4Q6cEGoZElrQwEogHTkdgtDt1y5pklLo1M4FimTD1Wr7TWfvm9xSRDumxgklGc3Lf6mBgR8sZEQEvMjsDPhYo5uy0eGgg=w1351-h755-s-no-gm?authuser=0",
         narrative: "Découverte au cœur du complexe troglodytique de Gáldar, cette frise exceptionnelle orne les parois taillées dans le tuf volcanique. Réalisée à l'aide d'ocres rouges et de terres blanches, sa trame géométrique de carrés et de triangles emboîtés est considérée comme un calendrier astral ou un manifeste cosmologique lié aux solstices."
@@ -120,7 +167,7 @@ const CIVILISATIONS_REGISTRY = [
         century: "XIe - XVe siècle",
         title: "Idoles et statuettes de Gáldar",
         site: "Gáldar (Gran Canaria)",
-        section: "Terre cuite modelée rituelle",
+        category: "Terre cuite & Modelage",
         chips: ["XIe - XVe siècle", "Résidence royale des Guanartemes", "Gáldar (Gran Canaria)"],
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPI_BBE8wJBjmpcxnbTRKtwv2fCVdy0bQNK6y06rPElbUcFUDfo17OXR0zEVc4AjHr6wnyPi95NRVawjLZy1q5FKUUQPKP2QZn9SWnnA5foXe4u-IyzMErXbQqY6mO1KK4SKwl0LDpQK55RxUDru-XtaQ=w2268-h1512-s-no-gm?authuser=0",
         narrative: "Découvertes lors des fouilles du complexe troglodytique de la Cueva Pintada, ces statuettes en terre cuite datent principalement de la période comprise entre le XIe et le XVe siècle. Le site de Gáldar était alors l'un des centres politiques et rituels les plus importants de l'île, servant de résidence aux Guanartemes (rois autochtones)."
@@ -271,7 +318,7 @@ btnEnterCiv.addEventListener('click', () => {
 const masterContainer = document.getElementById('master-drag-container');
 let isDragging = false;
 let startX = 0;
-let curRibbonX = -yearToPixel(-1800) + window.innerWidth * 0.35;
+let curRibbonX = -yearToPixel(-600) + window.innerWidth * 0.35;
 let prevRibbonX = curRibbonX;
 
 function updateSynchronousState(screenX) {
@@ -365,7 +412,7 @@ function activateCivilisationView(civ) {
         <div class="beacon-label">${b.name}</div>
       `;
       marker.addEventListener('click', () => {
-        openCivilisationGallery(civ);
+        openArtworkModal(civ, b.artIdx || 0);
       });
       beaconContainer.appendChild(marker);
     });
@@ -393,7 +440,7 @@ function activateCivilisationView(civ) {
       card.addEventListener('click', () => {
         document.querySelectorAll('.sub-node-card').forEach(c => c.classList.remove('active'));
         card.classList.add('active');
-        openCivilisationGallery(civ);
+        openArtworkModal(civ, aIdx);
       });
 
       subStream.appendChild(card);
@@ -415,51 +462,76 @@ function closeCivilisationView() {
 document.getElementById('btn-close-drawer').addEventListener('click', closeCivilisationView);
 
 /* ==========================================================================
-   POP-UP D'EXPOSITION MUSÉALE (DIPTYQUE OU UNIQUE)
+   POP-UP D'EXPOSITION MUSÉALE : FORMAT HORIZONTAL GARANTI
    ========================================================================== */
 const modal = document.getElementById('curator-modal');
-const modalDynamicContent = document.getElementById('modal-dynamic-content');
+const modalTabBar = document.getElementById('modal-tab-bar');
+const modalCategoryBadge = document.getElementById('modal-category-badge');
+const modalImg = document.getElementById('modal-artwork-img');
+const modalCivTitle = document.getElementById('modal-civ-title');
+const modalArtworkTitle = document.getElementById('modal-artwork-title');
+const modalChips = document.getElementById('modal-chips-container');
+const modalNarrative = document.getElementById('modal-narrative-text');
+const modalAlbumBtn = document.getElementById('modal-album-btn');
 const btnModalClose = document.getElementById('btn-modal-close');
 
-function openCivilisationGallery(civ) {
-  modalDynamicContent.innerHTML = '';
+function openArtworkModal(civ, activeIdx = 0) {
+  modalTabBar.innerHTML = '';
 
-  civ.artifacts.forEach(art => {
-    const pane = document.createElement('div');
-    pane.className = 'diptych-pane';
+  // Si la civilisation a plusieurs objets, création d'onglets discrets
+  if (civ.artifacts.length > 1) {
+    modalTabBar.style.display = 'flex';
+    civ.artifacts.forEach((art, idx) => {
+      const tab = document.createElement('button');
+      tab.className = `modal-tab-btn ${idx === activeIdx ? 'active' : ''}`;
+      tab.textContent = art.category || art.title;
+      tab.addEventListener('click', () => {
+        document.querySelectorAll('.modal-tab-btn').forEach(t => t.classList.remove('active'));
+        tab.classList.add('active');
+        renderArtworkContent(civ, idx);
+      });
+      modalTabBar.appendChild(tab);
+    });
+  } else {
+    modalTabBar.style.display = 'none';
+  }
 
-    const chipsHtml = art.chips.map(c => `<span class="attr-chip">${c}</span>`).join('');
+  renderArtworkContent(civ, activeIdx);
+  modal.classList.add('open');
+}
 
-    pane.innerHTML = `
-      <div class="diptych-pedestal">
-        <img src="${art.imgSrc}" alt="${art.title}" loading="lazy" />
-      </div>
-      <div class="diptych-notes">
-        <div class="modal-civ-line">${civ.name} • ${art.section}</div>
-        <h2 class="modal-headline">${art.title}</h2>
-        <div class="modal-chips-row">${chipsHtml}</div>
-        <p class="modal-narrative">${art.narrative}</p>
-        <a href="${civ.albumUrl}" target="_blank" rel="noopener noreferrer" class="btn-gold-link">
-          Explorer l'album complet
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-        </a>
-      </div>
-    `;
-
-    modalDynamicContent.appendChild(pane);
+function renderArtworkContent(civ, idx) {
+  const art = civ.artifacts[idx];
+  modalCategoryBadge.textContent = art.category || 'ŒUVRE D\'ART';
+  modalImg.src = art.imgSrc;
+  modalImg.alt = art.title;
+  modalCivTitle.textContent = civ.name;
+  modalArtworkTitle.textContent = art.title;
+  
+  modalChips.innerHTML = '';
+  art.chips.forEach(chip => {
+    const span = document.createElement('span');
+    span.className = 'attr-chip';
+    span.textContent = chip;
+    modalChips.appendChild(span);
   });
 
-  modal.classList.add('open');
+  modalNarrative.innerHTML = art.narrative;
+  modalAlbumBtn.href = civ.albumUrl;
+  modalAlbumBtn.innerHTML = `
+    Explorer l'album complet : ${civ.name}
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+  `;
 }
 
 btnModalClose.addEventListener('click', () => {
   modal.classList.remove('open');
-  modalDynamicContent.innerHTML = '';
+  modalImg.src = '';
 });
 
 modal.addEventListener('click', (e) => {
   if (e.target === modal) {
     modal.classList.remove('open');
-    modalDynamicContent.innerHTML = '';
+    modalImg.src = '';
   }
 });
