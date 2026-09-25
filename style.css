@@ -1,0 +1,857 @@
+:root {
+  /* Signature Gris de Payne & Or Lapidaire */
+  --payne: #353B45;
+  --payne-dark: #1f232b;
+  --abyss: #050608;
+  --abyss-surface: #0e1117;
+  
+  --gold-pure: #d4af37;
+  --gold-glow: rgba(212, 175, 55, 0.45);
+  --gold-pale: #f2e3af;
+  
+  --text-bright: #f5f6f9;
+  --text-muted: #8c95a6;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  -webkit-user-drag: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  background: var(--abyss);
+  color: var(--text-bright);
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  position: relative;
+}
+
+/* =========================================================
+   1. SCÈNE CARTOGRAPHIQUE
+   ========================================================= */
+#map-viewport {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 210px;
+  z-index: 1;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #020305;
+}
+
+#map-canvas-frame {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  max-width: 100vw;
+  max-height: calc(100vh - 210px);
+}
+
+#global-map-stage {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://lh3.googleusercontent.com/d/1QyvVo3lL18FPcqzLgR9qvyaHY5F63Spk');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  transform-origin: 50% 50%;
+  transition: transform 1.4s cubic-bezier(0.22, 1, 0.36, 1), filter 1.4s ease, opacity 1.4s ease;
+}
+
+#global-map-stage.traveling {
+  transform: scale(1.65);
+  filter: blur(14px) brightness(0.32) contrast(1.15);
+  opacity: 0.4;
+}
+
+/* Halos ciblés et précis */
+#synchronous-halos-layer {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.sync-foyer-halo {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%) scale(0.6);
+  opacity: 0;
+  transition: opacity 0.5s ease, transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  pointer-events: none;
+}
+
+/* Halo Canaries : calé précisément sur l'archipel au large */
+#halo-canaries {
+  left: 44.8%;
+  top: 48.6%;
+  background: radial-gradient(circle, rgba(231,111,81,0.9) 0%, rgba(231,111,81,0.35) 50%, transparent 75%);
+}
+
+/* Halo Amorrites : calé en Syrie */
+#halo-amorrite {
+  left: 55.8%;
+  top: 44.2%;
+  background: radial-gradient(circle, rgba(212,163,115,0.9) 0%, rgba(212,163,115,0.35) 50%, transparent 75%);
+}
+
+.sync-foyer-halo.active {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+  animation: precisePulse 2.4s infinite;
+}
+
+/* Carte régionale dédiée */
+#civilisation-map-overlay {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0;
+  pointer-events: none;
+  transform: scale(0.97);
+  transition: opacity 1s cubic-bezier(0.16, 1, 0.3, 1), transform 1.2s cubic-bezier(0.22, 1, 0.36, 1);
+  z-index: 3;
+}
+
+#civilisation-map-overlay.active {
+  opacity: 1;
+  transform: scale(1);
+  pointer-events: auto;
+}
+
+.map-beacon-marker {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  z-index: 4;
+  transition: transform 0.3s ease;
+}
+
+.map-beacon-marker:hover {
+  transform: translate(-50%, -50%) scale(1.15);
+}
+
+.beacon-sparkle {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #ffffff 30%, var(--gold-pure) 70%);
+  box-shadow: 0 0 16px var(--gold-pure), 0 0 32px var(--gold-pure);
+  animation: pulseSparkle 2.5s infinite;
+}
+
+.beacon-label {
+  margin-top: 6px;
+  font-family: 'Cinzel', serif;
+  font-size: 0.74rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fff;
+  background: rgba(10, 12, 16, 0.88);
+  border: 1px solid rgba(212, 175, 55, 0.45);
+  padding: 4px 12px;
+  border-radius: 3px;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.9);
+  white-space: nowrap;
+}
+
+/* =========================================================
+   2. CARTOUCHE LATÉRAL & BANDEAU PANORAMIQUE REHAUSSÉ
+   ========================================================= */
+#hover-sidebar-card {
+  position: absolute;
+  top: 5.5rem;
+  z-index: 25;
+  width: 470px;
+  max-width: 38vw;
+  max-height: 68vh;
+  overflow-y: auto;
+  background: rgba(14, 17, 24, 0.96);
+  backdrop-filter: blur(25px);
+  border: 1px solid rgba(212, 175, 55, 0.35);
+  border-radius: 4px;
+  padding: 1.4rem 1.6rem;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.95);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s ease, transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+#hover-sidebar-card.pos-left {
+  left: 2.2rem;
+  right: auto;
+  border-left: 3px solid var(--gold-pure);
+  transform: translateX(-30px);
+}
+
+#hover-sidebar-card.pos-right {
+  right: 2.2rem;
+  left: auto;
+  border-right: 3px solid var(--gold-pure);
+  transform: translateX(30px);
+}
+
+#hover-sidebar-card.visible {
+  opacity: 1;
+  transform: translateX(0);
+  pointer-events: auto;
+}
+
+.btn-close-sidebar {
+  position: absolute;
+  top: 1rem;
+  right: 1.2rem;
+  background: transparent;
+  border: none;
+  color: var(--text-muted);
+  font-size: 1.4rem;
+  cursor: pointer;
+  line-height: 1;
+  transition: color 0.2s ease;
+}
+
+.btn-close-sidebar:hover {
+  color: var(--gold-pure);
+}
+
+.hover-card-era {
+  font-family: 'Cinzel', serif;
+  font-size: 0.72rem;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: var(--gold-pure);
+  margin-bottom: 4px;
+}
+
+.hover-card-title {
+  font-family: 'Cinzel', serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 12px;
+  letter-spacing: 1px;
+}
+
+/* Bandeau visuel rehaussé (hauteur augmentée à 145px) */
+.hover-banner-frame {
+  width: 100%;
+  height: 145px;
+  border-radius: 4px;
+  border: 1px solid rgba(212, 175, 55, 0.35);
+  overflow: hidden;
+  margin-bottom: 14px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.8), inset 0 0 15px rgba(0,0,0,0.4);
+}
+
+.hover-banner-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 30%;
+  filter: contrast(1.05) brightness(0.95);
+}
+
+.hover-card-desc {
+  font-size: 0.96rem;
+  line-height: 1.6;
+  color: #c4cad8;
+}
+
+.hover-card-desc p {
+  margin-bottom: 8px;
+}
+
+.hover-card-desc strong {
+  color: var(--gold-pale);
+  font-family: 'Cinzel', serif;
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+}
+
+.btn-enter-civ-map {
+  margin-top: 14px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: linear-gradient(135deg, #d4af37, #997825);
+  color: #000;
+  font-family: 'Cinzel', serif;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding: 10px 18px;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);
+}
+
+.btn-enter-civ-map:hover {
+  background: linear-gradient(135deg, #eed88f, #b89334);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(212, 175, 55, 0.5);
+}
+
+/* =========================================================
+   3. EN-TÊTE ÉPURÉ
+   ========================================================= */
+header {
+  position: absolute;
+  top: 1.6rem;
+  left: 2.2rem;
+  right: 2.2rem;
+  z-index: 50;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  pointer-events: none;
+}
+
+.museum-insignia {
+  display: flex;
+  flex-direction: column;
+  pointer-events: auto;
+  background: rgba(18, 21, 28, 0.85);
+  backdrop-filter: blur(20px);
+  padding: 8px 22px;
+  border-radius: 4px;
+  border-left: 3px solid var(--gold-pure);
+  border-top: 1px solid rgba(212, 175, 55, 0.25);
+  border-right: 1px solid rgba(212, 175, 55, 0.25);
+  border-bottom: 1px solid rgba(212, 175, 55, 0.25);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.85);
+}
+
+.insignia-title {
+  font-family: 'Cinzel', serif;
+  font-size: 1.05rem;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--gold-pure);
+}
+
+.insignia-sub {
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+/* =========================================================
+   4. LES DEUX FRISES SUPERPOSÉES & GRADUATION TEMPORELLE
+   ========================================================= */
+#timeline-dock {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 30;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  pointer-events: none;
+}
+
+#sub-timeline-drawer {
+  height: 0;
+  overflow: hidden;
+  background: rgba(12, 15, 21, 0.97);
+  backdrop-filter: blur(25px);
+  border-top: 2px solid var(--gold-pure);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  transition: height 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  display: flex;
+  flex-direction: column;
+  pointer-events: auto;
+  box-shadow: 0 -15px 40px rgba(0, 0, 0, 0.95);
+}
+
+#sub-timeline-drawer.open {
+  height: 220px;
+}
+
+.drawer-info-strip {
+  padding: 0.5rem 2rem;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.drawer-civ-tag {
+  font-family: 'Cinzel', serif;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--gold-pale);
+  font-weight: 700;
+}
+
+.btn-close-sub {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: var(--text-muted);
+  font-family: 'Cinzel', serif;
+  font-size: 0.68rem;
+  letter-spacing: 1.5px;
+  padding: 3px 14px;
+  border-radius: 3px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all 0.25s ease;
+}
+
+.btn-close-sub:hover {
+  border-color: var(--gold-pure);
+  color: #fff;
+}
+
+#sub-stream-scroll {
+  flex: 1;
+  overflow-x: auto;
+  overflow-y: hidden;
+  display: flex;
+  align-items: center;
+  padding: 0 2rem;
+  gap: 20px;
+  -webkit-overflow-scrolling: touch;
+}
+
+.sub-node-card {
+  width: 210px;
+  flex-shrink: 0;
+  background: rgba(22, 26, 36, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 4px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.sub-node-card:hover, .sub-node-card.active {
+  border-color: var(--gold-pure);
+  background: rgba(35, 42, 56, 0.95);
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.85);
+}
+
+.sub-node-date {
+  font-family: 'Cinzel', serif;
+  font-size: 0.68rem;
+  letter-spacing: 1.5px;
+  color: var(--gold-pure);
+  margin-bottom: 6px;
+}
+
+.sub-node-pedestal {
+  width: 82px;
+  height: 92px;
+  background-color: var(--payne);
+  border-radius: 4px;
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  box-shadow: 
+    inset 0 10px 15px rgba(255,255,255,0.08), 
+    inset 0 -12px 18px rgba(0,0,0,0.5),
+    0 8px 18px rgba(0,0,0,0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.sub-node-card:hover .sub-node-pedestal {
+  transform: scale(1.06);
+  border-color: var(--gold-pure);
+  box-shadow: 0 0 20px var(--gold-glow);
+}
+
+.sub-node-pedestal img {
+  width: 90%;
+  height: 90%;
+  object-fit: contain;
+  filter: drop-shadow(0 4px 8px rgba(0,0,0,0.7));
+}
+
+.sub-node-title {
+  font-family: 'Cinzel', serif;
+  font-size: 0.86rem;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  line-height: 1.25;
+  margin-bottom: 4px;
+}
+
+.sub-node-subtitle {
+  font-size: 0.74rem;
+  color: var(--text-muted);
+  text-align: center;
+  line-height: 1.25;
+}
+
+/* Frise maîtresse synchronique */
+#master-timeline-bar {
+  height: 210px;
+  background: linear-gradient(to top, rgba(4, 5, 7, 0.98) 0%, rgba(14, 17, 24, 0.94) 100%);
+  border-top: 1px solid rgba(212, 175, 55, 0.2);
+  display: flex;
+  flex-direction: column;
+  pointer-events: auto;
+  position: relative;
+}
+
+#ruler-scale-bar {
+  height: 28px;
+  border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+  position: relative;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+#ruler-ticks-track {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 4800px;
+  will-change: transform;
+}
+
+.ruler-tick {
+  position: absolute;
+  bottom: 0;
+  width: 1px;
+  background: rgba(212, 175, 55, 0.35);
+}
+
+.ruler-tick.major {
+  height: 14px;
+  background: var(--gold-pure);
+}
+
+.ruler-tick.medium {
+  height: 8px;
+  background: rgba(212, 175, 55, 0.5);
+}
+
+.ruler-tick.minor {
+  height: 4px;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.ruler-label {
+  position: absolute;
+  top: 2px;
+  transform: translateX(-50%);
+  font-family: 'Cinzel', serif;
+  font-size: 0.65rem;
+  letter-spacing: 1px;
+  color: var(--gold-pale);
+  white-space: nowrap;
+}
+
+#master-drag-container {
+  flex: 1;
+  cursor: grab;
+  position: relative;
+  overflow: hidden;
+  touch-action: pan-y;
+}
+
+#master-drag-container:active {
+  cursor: grabbing;
+}
+
+#master-ribbon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 4800px;
+  will-change: transform;
+}
+
+.timeline-lane {
+  position: relative;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(212, 175, 55, 0.12);
+}
+
+.lane-label {
+  position: sticky;
+  left: 10px;
+  font-family: 'Cinzel', serif;
+  font-size: 0.66rem;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--gold-pale);
+  width: 180px;
+  z-index: 5;
+  text-shadow: 0 2px 4px #000;
+}
+
+.civ-timespan-block {
+  position: absolute;
+  height: 30px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  padding: 0 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.civ-timespan-block:hover, .civ-timespan-block.active {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px var(--gold-glow);
+  border-color: #fff;
+  z-index: 8;
+}
+
+.civ-block-title {
+  font-family: 'Cinzel', serif;
+  font-size: 0.74rem;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.9);
+}
+
+#sync-cursor-line {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 1.5px;
+  background: linear-gradient(to bottom, var(--gold-pure), rgba(212, 175, 55, 0.25));
+  pointer-events: none;
+  z-index: 15;
+  left: 35%;
+  box-shadow: 0 0 12px var(--gold-pure);
+  transition: left 0.08s ease-out;
+}
+
+#sync-bubble-tag {
+  position: absolute;
+  top: 2px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--abyss-surface);
+  border: 1px solid var(--gold-pure);
+  border-radius: 12px;
+  padding: 2px 10px;
+  font-family: 'Cinzel', serif;
+  font-size: 0.65rem;
+  letter-spacing: 1px;
+  color: var(--gold-pure);
+  white-space: nowrap;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.9);
+}
+
+/* =========================================================
+   5. POP-UP D'EXPOSITION MUSÉALE
+   ========================================================= */
+#curator-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  background: rgba(4, 5, 8, 0.95);
+  backdrop-filter: blur(30px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s ease;
+}
+
+#curator-modal.open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.curator-frame {
+  background: var(--abyss-surface);
+  border: 1px solid rgba(212, 175, 55, 0.35);
+  border-radius: 4px;
+  width: 980px;
+  max-width: 92vw;
+  max-height: 88vh;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0 30px 100px rgba(0, 0, 0, 0.98);
+  position: relative;
+  overflow: hidden;
+}
+
+.modal-pedestal-col {
+  width: 48%;
+  background-color: var(--payne);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2.5rem;
+  position: relative;
+  box-shadow: 
+    inset 0 30px 50px rgba(255, 255, 255, 0.08),
+    inset 0 -30px 60px rgba(0, 0, 0, 0.55);
+}
+
+.modal-pedestal-col img {
+  max-width: 100%;
+  max-height: 65vh;
+  object-fit: contain;
+  filter: drop-shadow(0 20px 40px rgba(0,0,0,0.85));
+  transition: transform 0.5s ease;
+}
+
+.modal-pedestal-col:hover img {
+  transform: scale(1.04);
+}
+
+.modal-notes-col {
+  width: 52%;
+  padding: 2.8rem;
+  background: #141720;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  border-left: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.btn-dismiss-modal {
+  position: absolute;
+  top: 1.2rem;
+  right: 1.4rem;
+  background: transparent;
+  border: none;
+  color: var(--text-muted);
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+.btn-dismiss-modal:hover {
+  color: var(--gold-pure);
+}
+
+.modal-civ-line {
+  font-family: 'Cinzel', serif;
+  font-size: 0.78rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--gold-pure);
+  margin-bottom: 6px;
+}
+
+.modal-headline {
+  font-family: 'Cinzel', serif;
+  font-size: 1.45rem;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #fff;
+  margin-bottom: 12px;
+}
+
+.modal-chips-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 1.4rem;
+}
+
+.attr-chip {
+  font-family: 'Cinzel', serif;
+  font-size: 0.72rem;
+  letter-spacing: 1px;
+  background: #1c202a;
+  border: 1px solid rgba(212, 175, 55, 0.25);
+  padding: 4px 10px;
+  border-radius: 3px;
+  color: #c4cad8;
+}
+
+.modal-narrative {
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: #c0c7d6;
+  margin-bottom: 2rem;
+  flex: 1;
+}
+
+.btn-gold-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  background: linear-gradient(135deg, #d4af37, #997825);
+  color: #07080b;
+  font-family: 'Cinzel', serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 0.8rem;
+  padding: 14px 22px;
+  border-radius: 3px;
+  box-shadow: 0 6px 25px rgba(212, 175, 55, 0.35);
+  transition: all 0.3s ease;
+}
+
+.btn-gold-link:hover {
+  box-shadow: 0 8px 35px rgba(212, 175, 55, 0.65);
+  transform: translateY(-2px);
+  background: linear-gradient(135deg, #eed88f, #b89334);
+}
+
+@keyframes precisePulse {
+  0%, 100% {
+    transform: translate(-50%, -50%) scale(0.9);
+    box-shadow: 0 0 15px rgba(212, 175, 55, 0.65);
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.18);
+    box-shadow: 0 0 28px rgba(212, 175, 55, 0.95);
+  }
+}
+
+@keyframes pulseSparkle {
+  0%, 100% { transform: scale(0.9); opacity: 0.85; box-shadow: 0 0 14px var(--gold-pure); }
+  50% { transform: scale(1.25); opacity: 1; box-shadow: 0 0 28px #fff, 0 0 45px var(--gold-pure); }
+}
