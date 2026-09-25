@@ -23,29 +23,35 @@
         <div id="halo-amorrite" class="sync-foyer-halo"></div>
         <div id="halo-celte_bronze" class="sync-foyer-halo"></div>
         <div id="halo-celte_fer" class="sync-foyer-halo"></div>
+        <div id="halo-chypre" class="sync-foyer-halo"></div>
       </div>
 
       <div id="civilisation-map-overlay">
+        <img id="civilisation-map-img" src="" alt="Carte régionale" />
         <div id="beacon-container"></div>
       </div>
     </div>
   </div>
 
-  <!-- CARTOUCHE LATÉRAL VERROUILLABLE -->
+  <!-- CARTOUCHE LATÉRAL VERROUILLABLE AVEC DÉFILEMENT GARANTI -->
   <aside id="hover-sidebar-card" class="pos-left">
     <button class="btn-close-sidebar" id="btn-close-sidebar" title="Fermer la fiche">&times;</button>
-    <div class="hover-card-era" id="sidebar-era">Époque</div>
-    <div class="hover-card-title" id="sidebar-title">Civilisation</div>
-    
-    <div class="hover-banner-frame" id="sidebar-banner-box">
-      <img id="sidebar-banner-img" src="" alt="Bandeau de la civilisation" loading="lazy" />
-    </div>
+    <div class="sidebar-scrollable-body">
+      <div class="hover-card-era" id="sidebar-era">Époque</div>
+      <div class="hover-card-title" id="sidebar-title">Civilisation</div>
+      
+      <div class="hover-banner-frame" id="sidebar-banner-box">
+        <img id="sidebar-banner-img" src="" alt="Bandeau de la civilisation" loading="lazy" />
+      </div>
 
-    <div class="hover-card-desc" id="sidebar-desc">Notice muséographique...</div>
+      <div class="hover-card-desc" id="sidebar-desc">Notice muséographique...</div>
+    </div>
     
-    <button class="btn-enter-civ-map" id="btn-enter-civ">
-      Explorer la carte régionale ➔
-    </button>
+    <div class="sidebar-footer-action">
+      <button class="btn-enter-civ-map" id="btn-enter-civ">
+        Explorer la carte régionale ➔
+      </button>
+    </div>
   </aside>
 
   <!-- EN-TÊTE -->
@@ -92,6 +98,9 @@
           <div class="timeline-lane" data-lane="atlantique">
             <div class="lane-label">Atlantique &amp; Canaries</div>
           </div>
+          <div class="timeline-lane" data-lane="chypre">
+            <div class="lane-label">Chypre &amp; Méditerranée or.</div>
+          </div>
           <div class="timeline-lane" data-lane="syrie">
             <div class="lane-label">Levant &amp; Syrie</div>
           </div>
@@ -118,10 +127,8 @@
     <div class="curator-frame">
       <button class="btn-dismiss-modal" id="btn-modal-close">&times;</button>
 
-      <!-- Barre d'onglets pour basculer entre sections -->
       <div id="modal-tab-bar" class="modal-tab-bar"></div>
 
-      <!-- Disposition horizontale 50/50 stricte -->
       <div class="modal-h-layout">
         <div class="modal-pedestal-col">
           <div class="category-badge-chip" id="modal-category-badge">CATÉGORIE</div>
