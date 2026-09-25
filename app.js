@@ -11,7 +11,7 @@ const CIVILISATIONS_REGISTRY = [
     lane: "egee",
     themeColor: "#3a86ff",
     sidePos: "pos-left",
-    travelingOrigin: "52.4% 43.2%",
+    travelingOrigin: "53.2% 45.4%",
     haloId: "halo-crete",
     bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
     mapOverlayUrl: "https://lh3.googleusercontent.com/d/1-RyywCVU5Ct2McoKupe9Z2OnXrnDSJ9r",
@@ -61,7 +61,7 @@ const CIVILISATIONS_REGISTRY = [
     lane: "chypre",
     themeColor: "#e9c46a",
     sidePos: "pos-left",
-    travelingOrigin: "54.6% 43.8%",
+    travelingOrigin: "55.4% 45.6%",
     haloId: "halo-chypre",
     bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczNtlhntpxWY6u22Dj77CiZfXJnSfduTP1uXInNNl7THWXS5vseOikfKiRgcTsCjP2iVGO-jX924k9zAAUyZQhGX8luuSrh5eXc650LHXXMWEdLAl7o589lo_Rkk6Bo9UJYlo4iFAtBkaj6qhmzuUK5y_w=w2081-h882-s-no-gm?authuser=0",
     mapOverlayUrl: "https://lh3.googleusercontent.com/d/1QNkcnjOVZ9nSJxO2vXusVWgC04EmaUcO",
@@ -344,6 +344,7 @@ CIVILISATIONS_REGISTRY.forEach((civ) => {
 
   block.innerHTML = `<span class="civ-block-title" style="color: ${civ.themeColor}">${civ.name}</span>`;
 
+  // Survol : aperçu sans verrouillage
   block.addEventListener('mouseenter', () => {
     if (!isLockedSidebar) showCivPreview(civ);
   });
@@ -352,10 +353,10 @@ CIVILISATIONS_REGISTRY.forEach((civ) => {
     if (!isLockedSidebar) hideCivPreview();
   });
 
-  // CLIC SUR LA FRISE : RÉINITIALISE LA CARTE ET FERME L'ANCIEN TIROIR
+  // CLIC : FERMETURE DE TOUTE CARTE ACTIVE ET VERROUILLAGE SÉCURISÉ DE LA FICHE
   block.addEventListener('click', (e) => {
     e.stopPropagation();
-    closeCivilisationView(); // Réinitialise immédiatement l'ancienne région
+    closeCivilisationView(); // Ferme toute carte régionale ouverte
     lockCivSidebar(civ);
   });
 
@@ -363,7 +364,7 @@ CIVILISATIONS_REGISTRY.forEach((civ) => {
 });
 
 /* ==========================================================================
-   CARTOUCHE LATÉRAL & FERMETURE INTELLIGENTE
+   CARTOUCHE LATÉRAL & VERROUILLAGE ROBUSTE
    ========================================================================== */
 const hoverSidebar = document.getElementById('hover-sidebar-card');
 const sidebarEra = document.getElementById('sidebar-era');
@@ -400,7 +401,7 @@ function showCivPreview(civ) {
 }
 
 function hideCivPreview() {
-  if (isLockedSidebar) return;
+  if (isLockedSidebar) return; // Verrouillage inviolable si ouvert par clic
   hoverSidebar.classList.remove('visible');
   document.querySelectorAll('.sync-foyer-halo').forEach(h => h.classList.remove('active'));
   selectedCiv = null;
@@ -411,6 +412,7 @@ function lockCivSidebar(civ) {
   showCivPreview(civ);
 }
 
+// Seule la croix manuelle permet de fermer quand c'est verrouillé
 btnCloseSidebar.addEventListener('click', (e) => {
   e.stopPropagation();
   isLockedSidebar = false;
@@ -426,7 +428,7 @@ btnEnterCiv.addEventListener('click', () => {
 });
 
 /* ==========================================================================
-   DÉPLACEMENT SYNCHRONIQUE & AUTO-FERMETURE SI ÉPOQUE VIDE
+   DÉPLACEMENT SYNCHRONIQUE (PROTÉGÉ CONTRE LES FERMETURES PARASITES)
    ========================================================================== */
 const masterContainer = document.getElementById('master-drag-container');
 let isDragging = false;
@@ -443,14 +445,12 @@ function updateSynchronousState(screenX) {
   syncBubble.textContent = currentYear < 0 ? `${Math.abs(currentYear)} av. J.-C.` : `${currentYear} ap. J.-C.`;
 
   let activeNames = [];
-  let foundAnyCiv = false;
 
   CIVILISATIONS_REGISTRY.forEach(civ => {
     const halo = document.getElementById(civ.haloId);
     const isYearActive = (currentYear >= civ.yearStart && currentYear <= civ.yearEnd);
 
     if (isYearActive) {
-      foundAnyCiv = true;
       activeNames.push(civ.name);
       if (halo) halo.classList.add('active');
     } else {
@@ -460,11 +460,9 @@ function updateSynchronousState(screenX) {
     }
   });
 
-  // SI L'ÉPOQUE EST VIDE : FERMETURE AUTOMATIQUE DE LA FICHE LATÉRALE ET DE TOUTE CARTE ACTIVE
-  if (!foundAnyCiv) {
-    isLockedSidebar = false;
+  // Ne ferme JAMAIS une fiche verrouillée par un clic !
+  if (!isLockedSidebar && activeNames.length === 0) {
     hoverSidebar.classList.remove('visible');
-    document.querySelectorAll('.sync-foyer-halo').forEach(h => h.classList.remove('active'));
   }
 
   if (activeNames.length > 0) {
@@ -507,7 +505,7 @@ setTimeout(() => {
 }, 400);
 
 /* ==========================================================================
-   TRANSITION NETTE VERS LA CARTE DÉDIÉE SANS FOND RÉSIDUEL
+   CARTE DÉDIÉE : INITIALISATION NETTE ET IMMÉDIATE
    ========================================================================== */
 const globalMapImg = document.getElementById('global-map-img');
 const civOverlayMap = document.getElementById('civilisation-map-overlay');
@@ -518,7 +516,7 @@ const subStream = document.getElementById('sub-stream-scroll');
 const drawerCivTag = document.getElementById('drawer-civ-name');
 
 function activateCivilisationView(civ) {
-  // Réinitialisation immédiate et complète
+  // Vidage complet immédiat
   civOverlayMap.classList.remove('active');
   civMapImg.src = '';
   beaconContainer.innerHTML = '';
@@ -551,7 +549,7 @@ function activateCivilisationView(civ) {
 
   setTimeout(() => {
     civOverlayMap.classList.add('active');
-  }, 200);
+  }, 180);
 
   if (civ.artifacts) {
     civ.artifacts.forEach((art, aIdx) => {
@@ -580,7 +578,6 @@ function activateCivilisationView(civ) {
   subDrawer.classList.add('open');
 }
 
-// FERMETURE TOTALE DU MODE RÉGIONAL ET RETOUR À LA CARTE MONDE
 function closeCivilisationView() {
   subDrawer.classList.remove('open');
   civOverlayMap.classList.remove('active');
