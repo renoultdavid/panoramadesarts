@@ -1,5 +1,5 @@
 /* ==========================================================================
-   REGISTRE COMPLET DES CIVILISATIONS (AVEC ART MYCÉNIEN)
+   REGISTRE COMPLET : CANARIES, AMORRITES, CELTES, CHYPRE, CRÈTE, CYCLADES, MYCÈNES
    ========================================================================== */
 const CIVILISATIONS_REGISTRY = [
   {
@@ -96,8 +96,6 @@ const CIVILISATIONS_REGISTRY = [
       Au IIIe millénaire avant notre ère, l'archipel des Cyclades développe un art lapidaire unique au monde. Façonnées dans le marbre blanc de Paros ou de Naxos et polies à l'émeri, les célèbres idoles féminines au nez pyramidal et aux bras croisés incarnent un idéal de pureté géométrique d'une modernité absolue.</p>
       <p><strong>L'éveil de la fresque figurative à Phylakopi</strong><br>
       À la charnière du Bronze moyen, la cité fortifiée de Phylakopi sur l'île de Milos devient un carrefour maritime majeur. La peinture murale s'émancipe de la statuaire austère pour peindre avec dynamisme la vie marine, comme l'illustre la célèbre fresque des poissons-volants.</p>
-      <p><strong>Les récipients rituels d'offrandes collectives</strong><br>
-      La céramique insulaire atteint une virtuosité architecturale dans la création d'objets cérémoniels complexes, tel le kernos circulaire de Mélos supportant une couronne de coupelles pour la présentation simultanée des prémices (grains, huiles, vin, miel).</p>
     `,
     artifacts: [
       {
@@ -149,8 +147,6 @@ const CIVILISATIONS_REGISTRY = [
     presentationHtml: `
       <p><strong>L'âge des premiers et seconds palais</strong><br>
       Au cœur de la mer Égée, la civilisation minoenne édifie autour de Cnossos, Phaistos et Malia un modèle palatial raffiné sans équivalent. Privilégiant l'harmonie avec la nature, l'architecture ouverte s'illumine de fresques fluides où triomphent la faune marine et les joutes avec les taureaux.</p>
-      <p><strong>Le culte du taureau et la régénération marine</strong><br>
-      Le rhyton taurin incarne la force sacrée liée à la double hache (labrys), tandis que les larnakès funéraires ornées de pieuvres célèbrent le voyage du défunt vers l'au-delà.</p>
     `,
     artifacts: [
       {
@@ -381,11 +377,11 @@ const TOTAL_YEARS = YEAR_MAX - YEAR_MIN;
 const RIBBON_WIDTH = 4800;
 
 function yearToPixel(year) {
-  return ((year - YEAR_MIN) / TOTAL_YEARS) * (RIBBON_WIDTH - 600) + 200;
+  return ((year - YEAR_MIN) / TOTAL_YEARS) * (RIBBON_WIDTH - 600) + 100;
 }
 
 function pixelToYear(px) {
-  return Math.round(YEAR_MIN + ((px - 200) / (RIBBON_WIDTH - 600)) * TOTAL_YEARS);
+  return Math.round(YEAR_MIN + ((px - 100) / (RIBBON_WIDTH - 600)) * TOTAL_YEARS);
 }
 
 const masterRibbon = document.getElementById('master-ribbon');
@@ -461,7 +457,6 @@ const btnEnterCiv = document.getElementById('btn-enter-civ');
 const btnCloseSidebar = document.getElementById('btn-close-sidebar');
 const btnFullscreen = document.getElementById('btn-fullscreen-toggle');
 
-// Bouton Plein Écran
 btnFullscreen.addEventListener('click', () => {
   if (!document.fullscreenElement) {
     document.documentElement.requestFullscreen().catch(() => {});
@@ -600,7 +595,7 @@ setTimeout(() => {
 }, 400);
 
 /* ==========================================================================
-   CARTE DÉDIÉE : AFFICHAGE IMMÉDIAT SANS PASTILLES (PLAN B ROBUSTE)
+   CARTE DÉDIÉE : AFFICHAGE IMMÉDIAT SANS PASTILLES
    ========================================================================== */
 const globalMapImg = document.getElementById('global-map-img');
 const civOverlayMap = document.getElementById('civilisation-map-overlay');
@@ -610,7 +605,6 @@ const subStream = document.getElementById('sub-stream-scroll');
 const drawerCivTag = document.getElementById('drawer-civ-name');
 
 function activateCivilisationView(civ) {
-  // 1. Réinitialisation complète
   civOverlayMap.classList.remove('active');
   civMapImg.src = '';
   subStream.innerHTML = '';
@@ -627,7 +621,6 @@ function activateCivilisationView(civ) {
     civOverlayMap.classList.add('active');
   }, 150);
 
-  // 2. Remplissage des vignettes de la sous-frise
   if (civ.artifacts) {
     civ.artifacts.forEach((art, aIdx) => {
       const card = document.createElement('div');
@@ -668,7 +661,7 @@ function closeCivilisationView() {
 document.getElementById('btn-close-drawer').addEventListener('click', closeCivilisationView);
 
 /* ==========================================================================
-   POP-UP D'EXPOSITION MUSÉALE : FORMAT HORIZONTAL GARANTI
+   POP-UP D'EXPOSITION MUSÉALE : FORMAT HORIZONTAL AGRANDI
    ========================================================================== */
 const modal = document.getElementById('curator-modal');
 const modalTabBar = document.getElementById('modal-tab-bar');
