@@ -66,6 +66,9 @@
       </div>
 
       <div class="hover-card-desc" id="sidebar-desc">Notice muséographique...</div>
+
+      <!-- Grille transversale d'albums (spécifique aux collections denses) -->
+      <div id="sidebar-album-grid" class="sidebar-album-grid"></div>
     </div>
     
     <div class="sidebar-footer-action">
@@ -75,7 +78,7 @@
     </div>
   </aside>
 
-  <!-- FRISES AU BAS DE L'ÉCRAN (HAUTEUR CONFORTABLE 300PX) -->
+  <!-- FRISES AU BAS DE L'ÉCRAN (HAUTEUR 300PX) -->
   <footer id="timeline-dock">
 
     <!-- Étage 2 : Sous-frise d'objets -->
@@ -94,8 +97,9 @@
         <div id="ruler-ticks-track"></div>
       </div>
 
+      <!-- Barre d'info épurée (sans liste à rallonge pour éviter tout tremblement) -->
       <div class="master-hint-strip">
-        <span id="active-marker-info">REPÈRE TEMPOREL EN DIRECT</span>
+        <span id="active-marker-info">REPÈRE TEMPOREL SYNCHRONIQUE</span>
         <span>◄ -3500 av. J.-C. | +1500 ap. J.-C. ►</span>
       </div>
 
@@ -134,10 +138,16 @@
 
   </footer>
 
-  <!-- MODALE D'EXPOSITION AGRANDIE (1350PX DE LARGEUR POUR METTRE EN VALEUR LES ŒUVRES) -->
+  <!-- MODALE D'EXPOSITION AGRANDIE (1350PX AVEC BANDEAU DE DÉPARTEMENT) -->
   <div id="curator-modal">
     <div class="curator-frame">
       <button class="btn-dismiss-modal" id="btn-modal-close">&times;</button>
+      
+      <!-- Bandeau thématique de section au sommet de l'exposition -->
+      <div id="modal-dept-banner-box" class="modal-dept-banner-box">
+        <img id="modal-dept-banner-img" src="" alt="Bandeau de département" />
+      </div>
+
       <div id="modal-tab-bar" class="modal-tab-bar"></div>
 
       <div class="modal-h-layout">
