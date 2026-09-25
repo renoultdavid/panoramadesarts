@@ -1,7 +1,82 @@
 /* ==========================================================================
-   REGISTRE COMPLET : CANARIES, AMORRITES, CELTES (BRONZE & FER), CHYPRE, CRÈTE, CYCLADES
+   REGISTRE COMPLET DES CIVILISATIONS (AVEC ART MYCÉNIEN)
    ========================================================================== */
 const CIVILISATIONS_REGISTRY = [
+  {
+    id: "mycenes",
+    name: "Art Mycénien (Grèce)",
+    epoch: "v. -1600 à -1100 av. J.-C.",
+    yearStart: -1600,
+    yearEnd: -1100,
+    lane: "egee",
+    themeColor: "#f4a261",
+    sidePos: "pos-left",
+    travelingOrigin: "52.2% 42.6%",
+    haloId: "halo-mycenes",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczPGPVemkhHQo3zxMthmyW5DikiQpTTsrv0U4LJ6UISDDrZFy45mQdZos6Gg-E4RKWIGenvHZ5uO_yxvfo1sBV0PTvktEP3l9BvBL1sJZAsYp0aet3LLJGPtq0F7QuWv4QGE5UTOKuwIeuLwFZ-IOW6bFg=w1980-h841-s-no-gm?authuser=0",
+    mapOverlayUrl: "https://lh3.googleusercontent.com/d/10gH81IQljJs7i2rFEQK_O6hqRJlt5y4j",
+    albumUrl: "https://photos.google.com/share/AF1QipMnn_CMAHk2s1w8_h2RauhjNNCt21MFWbRDPmz1Iwj3H9ZqQAAsXTaBKylKpOq-lg?key=SHZuTHVkNW9YZ2xleTl3bTZickotQWVsSnpSZkF3",
+    presentationHtml: `
+      <p><strong>La splendeur des citadelles guerrières</strong><br>
+      Érigée derrière de colossaux remparts cyclopéens (la Porte des Lionnes), Mycènes domine la Grèce continentale à l'âge du Bronze récent. Héritiers des raffinements crétois, les seigneurs mycéniens développent un art de cour martial et monumental, affirmant la toute-puissance des rois (wanax) à travers des tombes à fosse d'une opulence légendaire.</p>
+      <p><strong>L'or immortel et l'orfèvrerie des tombes à fosse</strong><br>
+      Le Cercle des tombes A de Mycènes a livré des trésors d'apparat sans égal, dont le célèbre masque funéraire dit d'Agamemnon martelé dans une feuille d'or au repoussé, destiné à préserver les traits héroïques du souverain défunt pour l'éternité.</p>
+      <p><strong>La koinè égéenne et le grand commerce</strong><br>
+      De la fresque de la Dame de Mycènes aux céramiques exportées jusqu'à Ougarit en Syrie, les ateliers palatiaux ont forgé un langage artistique standardisé, où la ferveur religieuse s'exprime dans des figurines féminines kourotrophes et des rhytons de prestige.</p>
+    `,
+    artifacts: [
+      {
+        id: "masque_agamemnon",
+        century: "v. -1550 à -1500 av. J.-C.",
+        title: "Masque funéraire en or dit « d'Agamemnon »",
+        site: "Mycènes (Cercle des tombes A)",
+        category: "Orfèvrerie",
+        chips: ["Helladique Récent I", "Feuille d'or au repoussé", "Musée d'Athènes"],
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOX6_L1RpUEunGm8YyrUo9ZQzDC90rr2xuMb2gJHiwrLtQAF34EvXnMey2ZoDh22NxKU1jrqQzN2S6jU8CJUSECSj_Du-BfMxjvHrXcj69AVM9LB3id3w-sPR_-MA_wKPTwunhvneWq8cqoqx1Z8fV51A=w1980-h1319-s-no-gm?authuser=0",
+        narrative: "Découvert par Schliemann en 1876, ce masque en or massif martelé par l'arrière (technique du repoussé) recouvrait le visage d'un chef de guerre mycénien. Précédant de trois siècles les événements de la guerre de Troie, il frappe par l'individualisation des traits : yeux en amande, nez aquilin, lèvres serrées et moustache ciselée, incarnant le prestige et le statut divin des élites de l'âge du Bronze."
+      },
+      {
+        id: "kourotrophos_mycenes",
+        century: "v. -1400 av. J.-C. (Helladique Récent III A)",
+        title: "Figurine de déesse ou mère trônante (Kourotrophos)",
+        site: "Citadelle de Mycènes",
+        category: "Religion & Offrandes",
+        chips: ["XIVe s. av. J.-C.", "Terre cuite peinte", "Culte de la fertilité"],
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPe878Jdmn8CaZxH9IDpg5PndjidBegb12pOxmS6F6zeS5vT3tYvd-o6ARs58onX5VGpsZDHaiEFGOhS5Yjzk6PT-OVs-nGnLEA5K89KPFZk4DeKkNEyEgPcPJXSYmOZsghguY55rSW27v27QxyGLsRIQ=w1814-h2410-s-no-gm?authuser=0",
+        narrative: "Cette statuette schématique en terre cuite représente une figure féminine assise sur un trône tenant un enfant sur ses genoux. Le corps fusionne avec le siège sous des lignes peintes au vernis brun-noir. Symbole maternel et protecteur, cet ex-voto était déposé dans les tombes ou sanctuaires pour solliciter la protection de la déesse de la fécondité."
+      },
+      {
+        id: "rhyton_sanglier",
+        century: "v. -1350 av. J.-C. (Helladique Récent III)",
+        title: "Rhyton zoomorphe en forme de tête de sanglier",
+        site: "Ras Shamra (Ougarit / Levant)",
+        category: "Céramique rituelle",
+        chips: ["XIIIe s. av. J.-C.", "Terre cuite peinte", "Koinè méditerranéenne"],
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMyJRm3TsTCyB6bjlmPiCmXbJXH5jnzXFFvBBicXSQKrlc3wDAsgmA7RHgdKB5Yll-y9ONkQq2RDt4sSrvuA2yGjvwvwRLHIotqfTKO3FIKHLcIFu0SlnfEt2uQLjMTRJaMyWjlq9ShokV7Rke_EWHsbQ=w1814-h2410-s-no-gm?authuser=0",
+        narrative: "Modelé avec un grand réalisme morphologique, ce vase à libations en forme de tête de sanglier permettait de verser les liquides rituels par le groin percé. Orné d'un décor peint dense de palmettes et chevrons à l'ocre rouge, il a été mis au jour dans l'antique cité d'Ougarit (Syrie), témoignant des exportations de prestige mycéniennes à travers toute la Méditerranée orientale."
+      },
+      {
+        id: "dame_mycenes",
+        century: "v. -1300 av. J.-C. (Helladique Récent III B)",
+        title: "Fresque monumentale de « La Dame de Mycènes »",
+        site: "Centre cultuel de Mycènes",
+        category: "Peinture murale",
+        chips: ["Vers -1300", "Fresque véritable", "Musée d'Athènes"],
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMbgjkIe11IPZke23inAsNsxTWRLL9nqwJugVL6lzs9TMqA1M6498DpViAPRaJySmkeNbp0h3-OtnTgnT5H45KYJkF4FlBopt4vt2DUAGfBfCe6gnPKi2mOgkd-It9hSy3jHDe9XbxzmsJ9ChwJvpSanQ=w1980-h1319-s-no-gm?authuser=0",
+        narrative: "Découverte dans le sanctuaire de la citadelle de Mycènes, cette fresque représente une prêtresse ou divinité de profil tenant un collier avec solennité. Vêtue du corsage ouvert traditionnel et coiffée de mèches complexes sous des bandeaux rouges, elle illustre la maîtrise du bleu égyptien et la transition entre la grâce crétoise et la rigueur formelle des cours mycéniennes."
+      },
+      {
+        id: "mobilier_tombe_mycenes",
+        century: "XIIIe siècle av. J.-C.",
+        title: "Mobilier funéraire et offrandes d'une tombe mycénienne",
+        site: "Mycènes",
+        category: "Matériel funéraire",
+        chips: ["Céramiques à poulpe", "Bijoux en pâte de verre", "Figurines de bovidés"],
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNan0d3LuWn21yqygTW6VJrAR0UVqN0rbGUdie2unjxrBnAwSwzqVbCl3l2utR493JlNnJeyVUud2SSxpPL9I1m-T5X9tKllazLih4Vbbffit3CXIAFfn_igh18Qm2OCtbFOE62Pv20LSQf9vxAl_0CtQ=w1980-h1319-s-no-gm?authuser=0",
+        narrative: "Cet ensemble funéraire complet réunit des céramiques à décor marin (alabastres à poulpes), des cruches à libations, des pyxides de toilette, ainsi que des colliers de perles en pâte de verre bleue. Des figurines votives d'animaux miniatures complétaient le dépôt, assurant la continuité des rituels et affirmant le rang social du défunt dans l'au-delà."
+      }
+    ]
+  },
   {
     id: "cyclades",
     name: "Art Cycladique (Mer Égée)",
@@ -24,12 +99,6 @@ const CIVILISATIONS_REGISTRY = [
       <p><strong>Les récipients rituels d'offrandes collectives</strong><br>
       La céramique insulaire atteint une virtuosité architecturale dans la création d'objets cérémoniels complexes, tel le kernos circulaire de Mélos supportant une couronne de coupelles pour la présentation simultanée des prémices (grains, huiles, vin, miel).</p>
     `,
-    beacons: [
-      { name: "Mélos / Phylakopi", top: "45%", left: "48%", artIdx: 1 },
-      { name: "Kéros (Sanctuaire)", top: "40%", left: "58%", artIdx: 0 },
-      { name: "Amorgos (Nécropoles)", top: "42%", left: "64%", artIdx: 2 }
-    ],
-    // 3 onglets ordonnés rigoureusement du plus ancien au plus récent (-2800 -> -2500 -> -2000)
     artifacts: [
       {
         id: "statue_cycladique",
@@ -39,7 +108,7 @@ const CIVILISATIONS_REGISTRY = [
         category: "Sculpture en marbre",
         chips: ["Bronze Ancien II", "Marbre blanc poli", "Type canonique de Spedos"],
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczN9iP7Fcc8FrBL9usiPRWeijaLndwYYacpAiifNY8ybz4htaHhgrTMfzRcaCrzV6fXGr2BJQopM4NP5Byn4UAsG0GLQnhaxXuOA1hdq5iXKuoivviypjT2Y4oAyByf65ZZC7HVIE-YNCXw_95yQP4iH1A=w1607-h2410-s-no-gm?authuser=0",
-        narrative: "Haute de 1,5 mètre, cette œuvre monumentale sculptée dans le marbre blanc de Paros constitue l'un des sommets de la statuaire cycladique du Bronze ancien. Appartenant au type canonique de Spedos, elle se caractérise par sa tête en lyre au nez pyramidal, ses bras repliés sous la poitrine et son profil étiré d'une rigueur géométrique saisissante. Initialement rehaussée de pigments rouges et bleus, cette idole d'apparat était liée aux croyances funéraires ou au culte de la fertilité insulaire."
+        narrative: "Haute de 1,5 mètre, cette œuvre monumentale sculptée dans le marbre blanc de Paros constitue l'un des sommets de la statuaire cycladique du Bronze ancien. Appartenant au type canonique de Spedos, elle se caractérise par sa tête en lyre au nez pyramidal, ses bras repliés sous la poitrine et son profil étiré d'une rigueur géométrique saisissante."
       },
       {
         id: "fresque_poissons",
@@ -49,7 +118,7 @@ const CIVILISATIONS_REGISTRY = [
         category: "Peinture murale",
         chips: ["Phylakopi (Milos)", "Buon fresco", "Monde marin stylisé"],
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMCSFC84J3F7c8R8R6BSE5aedpr10b9xQ-9yb9gfJJxpnaZEqFmyCRhVjo-05Q-dpxczRkosUOqnYRl2dvdqFq4gveJxcNJpPDfm8eTJfqRv9wQKaDDZ7Ceiyj3FyLv6I9IBkw_G49yhAV_2i5PZh8umg=w2209-h1472-s-no-gm?authuser=0",
-        narrative: "Découverte sur le site portuaire de Phylakopi à Milos, cette fresque sur enduit de chaux est l'un des plus anciens chefs-d'œuvre picturaux du monde égéen. Elle met en scène un banc de poissons-volants aux corps effilés bleus et jaunes, déployant leurs ailes au-dessus des flots. L'œuvre marque le passage d'une statuaire géométrique austère à une expression naturaliste et fluide, célébrant l'intimité des peuples cycladiques avec la mer Égée."
+        narrative: "Découverte sur le site portuaire de Phylakopi à Milos, cette fresque sur enduit de chaux est l'un des plus anciens chefs-d'œuvre picturaux du monde égéen. Elle met en scène un banc de poissons-volants aux corps effilés bleus et jaunes, déployant leurs ailes au-dessus des flots."
       },
       {
         id: "kernos_melos",
@@ -59,7 +128,7 @@ const CIVILISATIONS_REGISTRY = [
         category: "Céramique rituelle",
         chips: ["Transition Bronze Ancien/Moyen", "Terre cuite peinte", "Vase à libations multiples"],
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNJMFw-kw6kydCM4NDoX6CPNsA0shUV6LK7h2y-M-H5qSnShSuK9QYtX8BxYz4mtPrzEcIkgnmyZAorfZ2xLWOhDlHeDgaBh0ehUgZFMy_9egsnk1Px1SKhKHFo08n64-d4Kp2P4Mvu0rG5Pfb9YgCNAA=w1814-h2410-s-no-gm?authuser=0",
-        narrative: "Ce kernos en terre cuite sur pied tronconique supporte une couronne circulaire d'une douzaine de coupelles reliées par des ponts d'argile. Orné au vernis sombre de chevrons et damiers géométriques méticuleux, cet objet cérémoniel permettait d'offrir simultanément plusieurs prémices de la terre (grains, huiles, miel, vin). Sa structure en anneau clos symbolise le cycle de la nature et la communion religieuse des cités des Cyclades."
+        narrative: "Ce kernos en terre cuite sur pied tronconique supporte une couronne circulaire d'une douzaine de coupelles reliées par des ponts d'argile. Orné au vernis sombre de chevrons et damiers géométriques méticuleux, cet objet cérémoniel permettait d'offrir simultanément plusieurs prémices de la terre (grains, huiles, miel, vin)."
       }
     ]
   },
@@ -79,17 +148,10 @@ const CIVILISATIONS_REGISTRY = [
     albumUrl: "https://photos.google.com/share/AF1QipMlW4TQJ8A9qGbcmVyMNAsLLD3a9pwHTBsx-qcnMuuYdqlbjXgrrncpHaXoLLK0LA?key=LTdfMHQ4VHdhNmJ4WEI2bFRtU2xTaHpCeHM2bEZR",
     presentationHtml: `
       <p><strong>L'âge des premiers et seconds palais</strong><br>
-      Au cœur de la mer Égée, la civilisation minoenne édifie autour de Cnossos, Phaistos et Malia un modèle palatial raffiné sans équivalent. Privilégiant l'harmonie avec la nature, l'architecture ouverte s'illumine de fresques fluides où triomphent la faune marine, la flore printanière et les célèbres joutes acrobatiques avec les taureaux (taurokathapsia).</p>
-      <p><strong>Le culte de la nature et le sacré du taureau</strong><br>
-      Vase de libation par excellence, le rhyton taurin incarne la force tellurique et la puissance religieuse liée à la Grande Déesse et au symbole protecteur de la double hache (labrys).</p>
-      <p><strong>La mémoire des défunts et le passage vers l'au-delà</strong><br>
-      Au Minoen récent, les larnakès (sarcophages en terre cuite) s'ornent de pieuvres ondulantes et de papyrus, transformant l'argile funéraire en un manifeste symbolique de régénération éternelle par les eaux cosmiques.</p>
+      Au cœur de la mer Égée, la civilisation minoenne édifie autour de Cnossos, Phaistos et Malia un modèle palatial raffiné sans équivalent. Privilégiant l'harmonie avec la nature, l'architecture ouverte s'illumine de fresques fluides où triomphent la faune marine et les joutes avec les taureaux.</p>
+      <p><strong>Le culte du taureau et la régénération marine</strong><br>
+      Le rhyton taurin incarne la force sacrée liée à la double hache (labrys), tandis que les larnakès funéraires ornées de pieuvres célèbrent le voyage du défunt vers l'au-delà.</p>
     `,
-    beacons: [
-      { name: "Cnossos (Palais)", top: "38%", left: "54%", artIdx: 0 },
-      { name: "Ligortynos (Nécropole)", top: "52%", left: "56%", artIdx: 1 },
-      { name: "Phaistos (Palais)", top: "56%", left: "44%", artIdx: 0 }
-    ],
     artifacts: [
       {
         id: "rhyton_taureau",
@@ -99,7 +161,7 @@ const CIVILISATIONS_REGISTRY = [
         category: "Céramique rituelle",
         chips: ["Bronze récent", "Terre cuite peinte", "Double hache (Labrys)"],
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPnUuU-MK0sDhtORjZeb_6whI6M33RtfIsbTkuuC6TjPIS8ppTuXw7T6kz2TtxYtoxJ21EI3qjAzNB-zxU3qXd76rMvXNBD85NjTnUlss-WsvMcoZwQc84ExK_TVdXRD2OV_8eIvWE_yeUf_t778xEaRQ=w1814-h2410-s-no-gm?authuser=0",
-        narrative: "Ce rhyton de libation adopte la silhouette puissante d'une tête de taureau, motif religieux central de la Crète minoenne. Conçu pour verser les liquides sacrés par le museau lors des cérémonies palatiales, il est orné sur le front de la double hache sacrée (labrys), entourée de chevrons et de cercles concentriques accentuant la force expressive et hypnotique de l'animal sacré."
+        narrative: "Ce rhyton de libation adopte la silhouette d'une tête de taureau, motif religieux central de la Crète minoenne, orné sur le front de la double hache sacrée (labrys)."
       },
       {
         id: "larnax_ligortynos",
@@ -109,7 +171,7 @@ const CIVILISATIONS_REGISTRY = [
         category: "Mobilier funéraire",
         chips: ["Minoen Récent III A/B", "Sarcophage en terre cuite", "Style marin & Papyrus"],
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczO47qJMkhp20Z27X3Gv78fr_pQMc_lTVDiqHyXNV9Wkoi9k7k2Jlb0KWokDNT4Y3Ki6QKgzzv3mNsgaAse57mjhd3X308PEYYy2V48cZXNeWdHXJQmkvO70BlilA-TyNrBlNajowmlDC7f0sM_uLQtcVw=w2081-h1566-s-no-gm?authuser=0",
-        narrative: "Découverte dans une tombe de Ligortynos, cette larnax (coffre funéraire en bâtière) témoigne du prestige des rituels d'inhumation crétois. Recouvertes d'un décor peint brun-noir, ses parois figurent des pieuvres ondulantes, des poissons et des tiges de papyrus. L'omniprésence du monde aquatique et végétal évoquait le voyage du défunt et sa régénération symbolique dans l'au-delà."
+        narrative: "Découverte à Ligortynos, cette larnax funéraire figure des pieuvres et des tiges de papyrus, évoquant le voyage du défunt et sa régénération dans l'au-delà."
       }
     ]
   },
@@ -129,17 +191,8 @@ const CIVILISATIONS_REGISTRY = [
     albumUrl: "https://photos.google.com/share/AF1QipORn4Sj9GchtBwLRq4DuZRFxHqmcBvuxx8uA2_VwycbpRi8amqI-iK7UvkQSi6apA?key=ZmJweFhiZEJySU1rUms2REJFWm1jZ1YwQjFMczJ3",
     presentationHtml: `
       <p><strong>Le carrefour de cuivre de la Méditerranée</strong><br>
-      Située au carrefour de l'Égée, de l'Égypte et du Levant, Chypre tire sa prospérité de ses riches gisements de cuivre (cuprum). Dès le début du IIe millénaire, les artisans développent un répertoire d'une grande liberté formelle, particulièrement dans la céramique lustrée rouge aux formes zoomorphes incisées.</p>
-      <p><strong>Les déesses-mères et l'esthétique en bec d'oiseau</strong><br>
-      Au Bronze récent, l'île forge des représentations féminines singulières en terre cuite : figurines maternelles ou cultuelles aux hanches proéminentes et visages aviformes portant des parures d'oreilles mobiles, marquant la dévotion populaire pour la fécondité.</p>
-      <p><strong>L'essor de la coroplastie archaïque</strong><br>
-      À l'époque archaïque (VIIe - VIe s. av. J.-C.), les sanctuaires à ciel ouvert se couvrent de centaines de statuettes votives hiératiques en terre cuite, mêlant influences orientales et sourire archaïque pour incarner la dévotion éternelle des fidèles.</p>
+      Située au carrefour de l'Égée, de l'Égypte et du Levant, Chypre développe un répertoire d'une grande liberté formelle, particulièrement dans la céramique lustrée rouge aux formes zoomorphes incisées.</p>
     `,
-    beacons: [
-      { name: "Céramique zoomorphe (Bronze moyen)", top: "42%", left: "48%", artIdx: 0 },
-      { name: "Figurine féminine (Bronze récent)", top: "38%", left: "55%", artIdx: 1 },
-      { name: "Sanctuaire archaïque (Orant)", top: "46%", left: "52%", artIdx: 2 }
-    ],
     artifacts: [
       {
         id: "vase_zoomorphe",
@@ -149,7 +202,7 @@ const CIVILISATIONS_REGISTRY = [
         category: "Céramique",
         chips: ["Bronze moyen", "Terre cuite rouge lustrée", "Incisions blanches"],
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMwaWZj9ZJS2rx_hwQzKXMrX8T-dW4KCyKq_as5_5nanYRBp8H68Piwtsg-C3BSAS-3ySv-e2v2Jem2O_e-x_iRkqIa8i3-TeAZXdbsc8USM5CIYq7hClkqpkUvMzjv1YvWtGSe71r8y_G-Xx27lGlerw=w1814-h2410-s-no-gm?authuser=0",
-        narrative: "Ce vase zoomorphe représente un quadrupède sauvage dont le corps globulaire sert de panse et le cou de goulot verseur. Recouvert d'un engobe rouge lustré typiquement chypriote, il est orné de fines incisions géométriques et végétales comblées de pâte de chaux blanche. Utilisé lors de cérémonies rituelles ou déposé dans les tombes, il illustre l'équilibre entre la fonction de récipient et la sculpture animalière au début du IIe millénaire."
+        narrative: "Ce vase zoomorphe représente un quadrupède sauvage dont le corps globulaire sert de panse et le cou de goulot verseur, orné de motifs géométriques et végétaux incisés."
       },
       {
         id: "figurine_oiseau",
@@ -159,7 +212,7 @@ const CIVILISATIONS_REGISTRY = [
         category: "Figurines",
         chips: ["Bronze récent II", "Terre cuite modelée", "Culte de la fertilité"],
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNlIMCn6dNtiSEPjGOxlDcId82zdoYB821DgEpx6gw_uy_MdMfp_UdXaP1q19x5YipUAlKZRh6BbLCh0ThaKqm6gHKBHiHs1qf5MZiLvrwwjInRNeNVNg31Si6eK9CZREMi9bMFbXXPiRC79RjmUndK4w=w1814-h2410-s-no-gm?authuser=0",
-        narrative: "Cette statuette féminine stylisée aux larges hanches porte un jeune enfant contre son flanc gauche. Son visage singulier en bec d'oiseau, avec yeux en pastilles d'argile et oreilles percées pour des boucles mobiles, est emblématique de l'iconographie religieuse chypriote du Bronze récent. Déposé comme ex-voto dans les tombes et sanctuaires, ce talisman assurait la continuité de la vie et la protection de la lignée."
+        narrative: "Statuette féminine stylisée aux larges hanches portant un enfant contre son flanc gauche, au visage en bec d'oiseau emblématique des croyances de fécondité chypriotes."
       },
       {
         id: "sculpture_terre_cuite",
@@ -169,7 +222,7 @@ const CIVILISATIONS_REGISTRY = [
         category: "Sculpture terre cuite",
         chips: ["VIIe - VIe s. av. J.-C.", "Coroplastie archaïque", "Terre cuite peinte"],
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP2W_m_RjvYnvtw9edrmROsxlhf-9sLrQkidZ9x59w35cbRpPCZ7h-_hUC_xBh5BFTh1MDSaE-4rNJSOYT5HK64ij5AETYrmBW2j0laeXXpGwDS3bQYXkQq0kOpbzTfc4P1yIjbfSKEzjDZx_xbS8uptw=w1814-h2410-s-no-gm?authuser=0",
-        narrative: "Témoignage de l'apogée de la coroplastie chypriote archaïque, cette statuette debout adopte une posture hiératique solennelle. Le visage aux yeux en amande et au léger sourire intérieur a été façonné au moule, tandis que le corps cylindrique porte les vestiges d'un décor peint imitant les riches tuniques de l'époque. Déposée dans un sanctuaire, elle servait de substitut votif éternel devant la divinité."
+        narrative: "Témoignage de la coroplastie chypriote archaïque, cette statuette debout adopte une posture hiératique solennelle avec yeux en amande et traces de pigments peints."
       }
     ]
   },
@@ -188,17 +241,9 @@ const CIVILISATIONS_REGISTRY = [
     mapOverlayUrl: "https://lh3.googleusercontent.com/d/1ZFqo_BVU5BBUN4mpNGlMeBOm91xXLtZt",
     albumUrl: "https://photos.google.com/share/AF1QipN97zbv-suncBTa6iOfDQyMggpdDV-ktXSY4EJ2KenZ4zqHUwifE_nIBb6FYB0Y6g?key=WHlZSlNIb19jTnoyaExjWWN3TFZFUC1xeTB3bmRn",
     presentationHtml: `
-      <p><strong>L'aristocratie princière du Hallstatt</strong><br>
-      Au premier âge du Fer (v. -800 à -450), le monde celtique s'organise autour de résidences fortifiées dominant de vastes nécropoles à tumulus. Les élites contrôlent les voies commerciales et se font inhumer sur des chars à quatre roues avec de riches vaisselles en bronze importées de Méditerranée.</p>
-      <p><strong>L'apogée stylistique de La Tène</strong><br>
-      Au second âge du Fer (v. -450 à la conquête romaine), l'art celtique développe son langage curviligne : rinceaux, palmettes déconstruites et masques stylisés ornent l'armement d'apparat (épées, casques) et les parures en or (torques).</p>
-      <p><strong>L'artisanat des cités gauloises et des sanctuaires</strong><br>
-      À la veille de la guerre des Gaules, la société des oppida voit fleurir une céramique tournée d'une rare élégance (vases balustres) et une sculpture funéraire en pierre (stèles armoricaines en granite) perpétuant la mémoire des lignages aristocratiques.</p>
+      <p><strong>L'aristocratie princière et l'apogée de La Tène</strong><br>
+      De Hallstatt à la société des oppida, l'art celtique développe son langage curviligne d'entrelacs et d'orfèvrerie d'apparat, complété par la vaisselle tournée et les stèles funéraires monumentales.</p>
     `,
-    beacons: [
-      { name: "Stèle funéraire (Jublains)", top: "32%", left: "41%", artIdx: 0 },
-      { name: "Céramique Cénomane (Le Mans)", top: "35%", left: "44%", artIdx: 1 }
-    ],
     artifacts: [
       {
         id: "stele_jublains",
@@ -208,7 +253,7 @@ const CIVILISATIONS_REGISTRY = [
         category: "Sculpture & Stèle",
         chips: ["Second âge du Fer", "Monolithe en granite", "Jublains (Diablintes)"],
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNQ8lMq99-7bAoU4NMqEU8OjQrSrsHG8xGzpXtI0ktR3Uji1wDR7JydwrZc2-EntLOHJco7ti5F1QUaiA5kU_IAE3EoeVoRXa_PUj4rhHLk_mczJUW8oMd-e18JVRFZKu0CHtgWkiTL8KpwzTfpOECzIQ=w1607-h2410-s-no-gm?authuser=0",
-        narrative: "Ce monolithe oblong en granite taillé est caractéristique des monuments funéraires de l'Ouest de la Gaule et de l'Armorique. Érigée au-dessus de sépultures pour signaler la tombe et honorer la mémoire de défunts de haut rang, cette stèle incarne la permanence du culte des ancêtres et l'affirmation territoriale des élites celtes au cœur du sanctuaire des Diablintes."
+        narrative: "Monolithe oblong en granite marquant l'emplacement d'une sépulture aristocratique et le culte des ancêtres au cœur de l'Armorique antique."
       },
       {
         id: "vase_lemans",
@@ -218,7 +263,7 @@ const CIVILISATIONS_REGISTRY = [
         category: "Céramique",
         chips: ["Ier siècle av. J.-C.", "Terre cuite grise", "Le Mans (Cénomans)"],
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOeA-57KA6AcGKWg1BbtdwWs684LLHV-9n2wCbgreZAG40RdDCxV9blX9eMn5A0rrhERAPUtuciQBnOd8SLX0zlym2AYX1ndJKwGdPu_bijWeHvAAxLcpd94ZsjRn9W9b4LO632wuEulzoBj6jTx22THw=w1814-h2410-s-no-gm?authuser=0",
-        narrative: "Découvert au Mans, ce vase à silhouette élancée et patine grise illustre la maîtrise du tournage chez les potiers cénomans. Structuré par des registres horizontaux alternant canaux incisés et baguettes en relief, il témoigne de la sobriété et de l'élégance de la vaisselle gauloise à la veille de la conquête romaine, servant aux libations domestiques ou aux offrandes funéraires."
+        narrative: "Vase balustre cénomane élancé à surface grise lustrée, structuré de canaux incisés et de fines baguettes en relief."
       }
     ]
   },
@@ -237,14 +282,9 @@ const CIVILISATIONS_REGISTRY = [
     mapOverlayUrl: "https://lh3.googleusercontent.com/d/1gX2vOwXzj3jIMMvx2P5DAAQkjfkZ1anc",
     albumUrl: "https://photos.google.com/share/AF1QipN2ccGraobqmNhsyQhn1XQYZmas-d6wNnWsUE7X6q_zzAIytbnOH6GGkVB_WU95AQ?key=Mkc1WGhlQmRIY1VpenkzMG1SNzdHczVWcjI4MGZ3",
     presentationHtml: `
-      <p><strong>L'éveil métallurgique d'Únětice</strong><br>
-      Dès le début du IIe millénaire avant notre ère, l'Europe s'organise autour des échanges de cuivre et d'étain. La culture d'Únětice consacre l'essor de chefs guerriers inhumés avec poignards en bronze et parures d'or.</p>
-      <p><strong>La Culture des Tumulus et les Champs d'Urnes</strong><br>
-      Au Bronze moyen, les défunts reposent sous de vastes tertres avec haches à talon et épées. Le Bronze final voit l'avènement de la crémation en urnes et la multiplication des dépôts votifs enfouis dans les tourbières et les cours d'eau.</p>
+      <p><strong>L'éveil métallurgique et les dépôts votifs</strong><br>
+      D'Únětice aux Champs d'Urnes, l'âge du Bronze européen s'illustre par la diffusion des armes d'apparat et des parures enfouies rituellement.</p>
     `,
-    beacons: [
-      { name: "Dépôt de Jublains (Mayenne)", top: "34%", left: "46%", artIdx: 0 }
-    ],
     artifacts: [
       {
         id: "depot_jublains",
@@ -254,7 +294,7 @@ const CIVILISATIONS_REGISTRY = [
         category: "Métallurgie & Dépôt",
         chips: ["Âge du Bronze", "Jublains (Mayenne)", "Alliage cuivreux"],
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMDKuI_TJU5jFc6SYvcfxQYMyLAxo_Er1aGNAFST7fBciWLXuMara_i-InT_5a4JadEykH_U5NohJtceGLLNyrgygDvzoLfxc4d3YuA_LAUxM59s6iLGsMybtdwHkWdmTVQnj3B1RagX4Uu4B20Q3CV6w=w2599-h1733-s-no-gm?authuser=0",
-        narrative: "Découvert en Mayenne, cet ensemble exceptionnel d'objets en alliage cuivreux à patine verte témoigne de la maîtrise métallurgique du Bronze moyen et final. Les haches à talon à bélière latérale marquaient une avancée technique pour un emmanchement solide et servaient aussi de réserve prémonétaire. Les parures annulaires ornées de motifs géométriques incisés illustrent le phénomène des dépôts volontaires, enfouis rituellement comme offrandes aux divinités ou réserves d'artisans."
+        narrative: "Dépôt d'alliage cuivreux à patine verte associant haches à talon et parures annulaires incisées."
       }
     ]
   },
@@ -273,16 +313,9 @@ const CIVILISATIONS_REGISTRY = [
     mapOverlayUrl: "https://lh3.googleusercontent.com/d/1O9GXVfPkuswX5DorBUgBxfZc-209aoh8",
     albumUrl: "https://photos.google.com/share/AF1QipPVAXqBqZTRYy0G2k4dekN1B26P4qiDwAk_6z_C-Kx6eIyhtxN2miXjHY6tXfzPIw?pli=1&key=cW1TT0ZhWXFGeDBmU1F2SGl1VEw0d0FOMjR6MVVn",
     presentationHtml: `
-      <p><strong>Le souffle des dynasties pastorales</strong><br>
-      Originaires des confins steppiques de Syrie, les Amorrites bouleversent les équilibres du Proche-Orient antique au début du IIe millénaire avant notre ère. Fondateurs de royaumes puissants — de Mari sur l'Euphrate à Yamhad (Alep), en passant par Qatna et Alalakh —, ils s'emparent également des trônes de Mésopotamie du Sud, donnant naissance à la prestigieuse première dynastie de Babylone et au règne de Hammurabi.</p>
-      <p><strong>Une esthétique du pouvoir et du sacré</strong><br>
-      L'art amorrite réalise une synthèse magistrale entre les traditions suméro-akkadiennes et une sensibilité propre aux cités syriennes. Il s'exprime dans une architecture palatiale monumentale, dont le Palais royal de Mari avec ses cours d'apparat et ses célèbres fresques murales constitue le sommet.</p>
-      <p><strong>La puissance de l'effigie royale</strong><br>
-      Dans la statuaire, les sculpteurs amorrites forgent des représentations souveraines d'une présence nouvelle : rois trônant, calotte arrondie et manteau à bourrelet, au regard perçant autrefois rehaussé d'incrustations précieuses.</p>
+      <p><strong>L'esthétique palatiale et la statuaire royale</strong><br>
+      De Mari à Alalakh, les cours amorrites forgent des représentations souveraines d'une majesté nouvelle.</p>
     `,
-    beacons: [
-      { name: "Alalakh (Tell Atchana)", top: "36%", left: "47%", artIdx: 0 }
-    ],
     artifacts: [
       {
         id: "idrimi",
@@ -292,7 +325,7 @@ const CIVILISATIONS_REGISTRY = [
         category: "Sculpture & Statuaire",
         chips: ["v. -1500 av. J.-C.", "Tell Atchana (Alalakh)", "British Museum (Londres)"],
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczN6NQEToJ97f-c9qg-7W7Rt1ImmBuXkLUYQQalWO4iiVc7usyBS_ELROgGtpIudXZ0cVIjbk4-F1mo45heZCYaqpyiADyeZUZhe5HrztmoWoXq_qIWOTT0m981iqD3yMBajZAiUIHQQ4E0zNJYGg-K-fw=w613-h919-s-no-gm?authuser=0",
-        narrative: "Découverte en 1939 par Leonard Woolley à Tell Atchana (l’antique Alalakh), cette statue en magnésite blanche représente Idrimi, roi d'Alalakh, siégeant sur un trône de basalte.<br><br>L'œuvre est remarquable par la longue inscription cunéiforme autobiographique gravée sur la robe du roi, relatant son exil, sa reconquête du pouvoir et son alliance avec le Mittani. Ses grands yeux incrustés confèrent à la statue une puissance hiératique unique dans l'art du Proche-Orient ancien."
+        narrative: "Statue en magnésite blanche gravée de la célèbre autobiographie cunéiforme d'Idrimi siégeant sur son trône de basalte."
       }
     ]
   },
@@ -311,17 +344,9 @@ const CIVILISATIONS_REGISTRY = [
     mapOverlayUrl: "https://lh3.googleusercontent.com/d/1ziawwYwQzmU4SOv1gjkHRXMT9-F7VkVU",
     albumUrl: "https://photos.google.com/share/AF1QipOwPyxi1kZR99upRbCwV7EqcTxAKq16-jOtDDeEeuI_blfV8DNa1ggU6u3127sf3g?key=ck5BSW5yQlgtazlDZXB2b0Ftd0NMYUpiTWJZSGR3",
     presentationHtml: `
-      <p><strong>L'art des peuples insulaires isolés</strong><br>
-      Peuplé dès le milieu du Ier millénaire avant notre ère par des navigateurs berbères venus d'Afrique du Nord (Guanches à Tenerife, Canariens à Gran Canaria, Bimbaches à El Hierro), l'archipel des Canaries développe une culture matérielle remarquable, vécue dans un isolement insulaire de près de deux millénaires jusqu'à l'achèvement de la conquête espagnole en 1496.</p>
-      <p><strong>Un univers graphique et sacré minéral</strong><br>
-      Privés de minerai métallique, les artistes autochtones subliment la terre cuite, la pierre basaltique, l'os et le bois. Leur art s'illustre par un foisonnement de gravures rupestres géométriques et par la spectaculaire Cueva Pintada de Gáldar, véritable sanctuaire troglodytique orné de fresques polychromes de carrés et chevrons.</p>
-      <p><strong>Les idoles de fertilité</strong><br>
-      La statuaire en terre cuite et en tuf volcanique, aux formes féminines très épurées (Idole de Tara), témoigne d'un culte profond de la fécondité et des ancêtres, au sein de sociétés encadrées par les rois autochtones (Guanartemes) et les chefs religieux (Faycanes).</p>
+      <p><strong>L'art minéral et sacré des peuples insulaires</strong><br>
+      Dans un isolement de deux millénaires, les populations autochtones subliment la terre cuite et le tuf volcanique de la Cueva Pintada.</p>
     `,
-    beacons: [
-      { name: "Cueva Pintada (Gáldar)", top: "54%", left: "45%", artIdx: 0 },
-      { name: "Zonzamas (Teguise)", top: "42%", left: "68%", artIdx: 1 }
-    ],
     artifacts: [
       {
         id: "cueva_pintada",
@@ -331,7 +356,7 @@ const CIVILISATIONS_REGISTRY = [
         category: "Peinture murale",
         chips: ["XIe - XVe siècle", "Gáldar (Gran Canaria)", "Musée Cueva Pintada"],
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczO2RC5ehxxblZ2K44QwidcBib5SOlN7sC3keWPoJXodG5zXzkt-ne7X-aHxE4Q6cEGoZElrQwEogHTkdgtDt1y5pklLo1M4FimTD1Wr7TWfvm9xSRDumxgklGc3Lf6mBgR8sZEQEvMjsDPhYo5uy0eGgg=w1351-h755-s-no-gm?authuser=0",
-        narrative: "Découverte au cœur du complexe troglodytique de Gáldar, cette frise exceptionnelle orne les parois taillées dans le tuf volcanique. Réalisée à l'aide d'ocres rouges et de terres blanches, sa trame géométrique de carrés et de triangles emboîtés est considérée comme un calendrier astral ou un manifeste cosmologique lié aux solstices."
+        narrative: "Frise géométrique de carrés et triangles emboîtés peints à l'ocre rouge et terre blanche sur le tuf volcanique de Gáldar."
       },
       {
         id: "statuettes_galdar",
@@ -341,14 +366,14 @@ const CIVILISATIONS_REGISTRY = [
         category: "Terre cuite & Modelage",
         chips: ["XIe - XVe siècle", "Résidence royale des Guanartemes", "Gáldar (Gran Canaria)"],
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPI_BBE8wJBjmpcxnbTRKtwv2fCVdy0bQNK6y06rPElbUcFUDfo17OXR0zEVc4AjHr6wnyPi95NRVawjLZy1q5FKUUQPKP2QZn9SWnnA5foXe4u-IyzMErXbQqY6mO1KK4SKwl0LDpQK55RxUDru-XtaQ=w2268-h1512-s-no-gm?authuser=0",
-        narrative: "Découvertes lors des fouilles du complexe troglodytique de la Cueva Pintada, ces statuettes en terre cuite datent principalement de la période comprise entre le XIe et le XVe siècle. Le site de Gáldar était alors l'un des centres politiques et rituels les plus importants de l'île, servant de résidence aux Guanartemes (rois autochtones)."
+        narrative: "Statuettes votives anthropomorphes stylisées en terre cuite modelée liées au culte de fécondité des Guanartemes."
       }
     ]
   }
 ];
 
 /* ==========================================================================
-   GRADUATION MILLIMÉTRÉE & RUBAN SYNCHRONIQUE (4800px)
+   GRADUATION & RUBAN SYNCHRONIQUE (4800px)
    ========================================================================== */
 const YEAR_MIN = -3500;
 const YEAR_MAX = 1500;
@@ -413,10 +438,10 @@ CIVILISATIONS_REGISTRY.forEach((civ) => {
     if (!isLockedSidebar) hideCivPreview();
   });
 
-  // CLIC SUR LA FRISE : RÉINITIALISE ENTIÈREMENT LA CARTE ET FERME L'ANCIEN TIROIR
+  // CLIC : FERMETURE OBLIGATOIRE DE TOUTE CARTE RÉGIONALE POUR RETOURNER À LA CARTE MONDE
   block.addEventListener('click', (e) => {
     e.stopPropagation();
-    closeCivilisationView(); // Ferme toute carte régionale pour revenir à la carte neutre
+    closeCivilisationView();
     lockCivSidebar(civ);
   });
 
@@ -424,7 +449,7 @@ CIVILISATIONS_REGISTRY.forEach((civ) => {
 });
 
 /* ==========================================================================
-   CARTOUCHE LATÉRAL & FERMETURE INTELLIGENTE
+   CARTOUCHE LATÉRAL & CONTRÔLE PLEIN ÉCRAN
    ========================================================================== */
 const hoverSidebar = document.getElementById('hover-sidebar-card');
 const sidebarEra = document.getElementById('sidebar-era');
@@ -434,6 +459,18 @@ const sidebarBannerBox = document.getElementById('sidebar-banner-box');
 const sidebarBannerImg = document.getElementById('sidebar-banner-img');
 const btnEnterCiv = document.getElementById('btn-enter-civ');
 const btnCloseSidebar = document.getElementById('btn-close-sidebar');
+const btnFullscreen = document.getElementById('btn-fullscreen-toggle');
+
+// Bouton Plein Écran
+btnFullscreen.addEventListener('click', () => {
+  if (!document.fullscreenElement) {
+    document.documentElement.requestFullscreen().catch(() => {});
+    btnFullscreen.querySelector('span').textContent = 'Quitter Plein Écran';
+  } else {
+    document.exitFullscreen().catch(() => {});
+    btnFullscreen.querySelector('span').textContent = 'Plein Écran';
+  }
+});
 
 let isLockedSidebar = false;
 let selectedCiv = null;
@@ -487,12 +524,12 @@ btnEnterCiv.addEventListener('click', () => {
 });
 
 /* ==========================================================================
-   DÉPLACEMENT SYNCHRONIQUE & AUTO-FERMETURE SI ÉPOQUE VIDE
+   DÉPLACEMENT SYNCHRONIQUE
    ========================================================================== */
 const masterContainer = document.getElementById('master-drag-container');
 let isDragging = false;
 let startX = 0;
-let curRibbonX = -yearToPixel(-2500) + window.innerWidth * 0.35;
+let curRibbonX = -yearToPixel(-1500) + window.innerWidth * 0.35;
 let prevRibbonX = curRibbonX;
 
 function updateSynchronousState(screenX) {
@@ -504,14 +541,12 @@ function updateSynchronousState(screenX) {
   syncBubble.textContent = currentYear < 0 ? `${Math.abs(currentYear)} av. J.-C.` : `${currentYear} ap. J.-C.`;
 
   let activeNames = [];
-  let foundAnyCiv = false;
 
   CIVILISATIONS_REGISTRY.forEach(civ => {
     const halo = document.getElementById(civ.haloId);
     const isYearActive = (currentYear >= civ.yearStart && currentYear <= civ.yearEnd);
 
     if (isYearActive) {
-      foundAnyCiv = true;
       activeNames.push(civ.name);
       if (halo) halo.classList.add('active');
     } else {
@@ -521,7 +556,7 @@ function updateSynchronousState(screenX) {
     }
   });
 
-  if (!isLockedSidebar && !foundAnyCiv) {
+  if (!isLockedSidebar && activeNames.length === 0) {
     hoverSidebar.classList.remove('visible');
   }
 
@@ -565,21 +600,19 @@ setTimeout(() => {
 }, 400);
 
 /* ==========================================================================
-   CARTE DÉDIÉE : INITIALISATION NETTE SANS RÉSIDU
+   CARTE DÉDIÉE : AFFICHAGE IMMÉDIAT SANS PASTILLES (PLAN B ROBUSTE)
    ========================================================================== */
 const globalMapImg = document.getElementById('global-map-img');
 const civOverlayMap = document.getElementById('civilisation-map-overlay');
 const civMapImg = document.getElementById('civilisation-map-img');
-const beaconContainer = document.getElementById('beacon-container');
 const subDrawer = document.getElementById('sub-timeline-drawer');
 const subStream = document.getElementById('sub-stream-scroll');
 const drawerCivTag = document.getElementById('drawer-civ-name');
 
 function activateCivilisationView(civ) {
-  // Vidage complet immédiat
+  // 1. Réinitialisation complète
   civOverlayMap.classList.remove('active');
   civMapImg.src = '';
-  beaconContainer.innerHTML = '';
   subStream.innerHTML = '';
 
   document.documentElement.style.setProperty('--civ-theme', civ.themeColor);
@@ -590,27 +623,11 @@ function activateCivilisationView(civ) {
 
   civMapImg.src = civ.mapOverlayUrl;
   
-  if (civ.beacons) {
-    civ.beacons.forEach(b => {
-      const marker = document.createElement('div');
-      marker.className = 'map-beacon-marker';
-      marker.style.top = b.top;
-      marker.style.left = b.left;
-      marker.innerHTML = `
-        <div class="beacon-sparkle"></div>
-        <div class="beacon-label">${b.name}</div>
-      `;
-      marker.addEventListener('click', () => {
-        openArtworkModal(civ, b.artIdx || 0);
-      });
-      beaconContainer.appendChild(marker);
-    });
-  }
-
   setTimeout(() => {
     civOverlayMap.classList.add('active');
-  }, 180);
+  }, 150);
 
+  // 2. Remplissage des vignettes de la sous-frise
   if (civ.artifacts) {
     civ.artifacts.forEach((art, aIdx) => {
       const card = document.createElement('div');
@@ -638,13 +655,12 @@ function activateCivilisationView(civ) {
   subDrawer.classList.add('open');
 }
 
-// FERMETURE TOTALE DU MODE RÉGIONAL ET RETOUR À LA CARTE MONDE
+// FERMETURE DU MODE RÉGIONAL ET RETOUR À LA CARTE DU MONDE NEUTRE
 function closeCivilisationView() {
   subDrawer.classList.remove('open');
   civOverlayMap.classList.remove('active');
   civMapImg.src = '';
   globalMapImg.classList.remove('traveling');
-  beaconContainer.innerHTML = '';
   subStream.innerHTML = '';
   hideCivPreview();
 }
