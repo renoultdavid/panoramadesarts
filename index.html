@@ -13,7 +13,7 @@
 </head>
 <body>
 
-  <!-- SCÈNE CARTOGRAPHIQUE RESPONSIVE SANS ROGNAGE -->
+  <!-- SCÈNE CARTOGRAPHIQUE RESPONSIVE -->
   <div id="map-viewport">
     <div id="map-canvas-frame">
       <div id="global-map-stage"></div>
@@ -33,7 +33,7 @@
     </div>
   </div>
 
-  <!-- CARTOUCHE LATÉRAL VERROUILLABLE AVEC DÉFILEMENT GARANTI -->
+  <!-- CARTOUCHE LATÉRAL VERROUILLABLE AVEC ASCENSEUR ET BOUTON ANCRÉ -->
   <aside id="hover-sidebar-card" class="pos-left">
     <button class="btn-close-sidebar" id="btn-close-sidebar" title="Fermer la fiche">&times;</button>
     <div class="sidebar-scrollable-body">
@@ -65,7 +65,7 @@
   <!-- FRISES -->
   <div id="timeline-dock">
 
-    <!-- Étage 2 : Temps ralenti -->
+    <!-- Étage 2 : Sous-frise avec cartes d'objets non tronquées -->
     <div id="sub-timeline-drawer">
       <div class="drawer-info-strip">
         <span class="drawer-civ-tag" id="drawer-civ-name">CHRONOLOGIE DÉPLOYÉE</span>
@@ -122,11 +122,10 @@
 
   </div>
 
-  <!-- MODALE D'EXPOSITION (IMAGE À GAUCHE / TEXTE À DROITE) -->
+  <!-- MODALE D'EXPOSITION (50% IMAGE GAUCHE / 50% TEXTE DROITE) -->
   <div id="curator-modal">
     <div class="curator-frame">
       <button class="btn-dismiss-modal" id="btn-modal-close">&times;</button>
-
       <div id="modal-tab-bar" class="modal-tab-bar"></div>
 
       <div class="modal-h-layout">
