@@ -1,7 +1,68 @@
 /* ==========================================================================
-   REGISTRE STRICT : CANARIES, AMORRITES, CELTES DU BRONZE & CELTES DU FER
+   REGISTRE COMPLET : CANARIES, AMORRITES, CELTES (BRONZE & FER), CHYPRE
    ========================================================================== */
 const CIVILISATIONS_REGISTRY = [
+  {
+    id: "chypre",
+    name: "Art Chypriote Antique",
+    epoch: "v. -2000 à -500 av. J.-C.",
+    yearStart: -2000,
+    yearEnd: -500,
+    lane: "chypre",
+    themeColor: "#e9c46a",
+    sidePos: "pos-left",
+    travelingOrigin: "54.6% 43.8%",
+    haloId: "halo-chypre",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczNtlhntpxWY6u22Dj77CiZfXJnSfduTP1uXInNNl7THWXS5vseOikfKiRgcTsCjP2iVG-jX924k9zAAUyZQhGX8luuSrh5eXc650LHXXMWEdLAl7o589lo_Rkk6Bo9UJYlo4iFAtBkaj6qhmzuUK5y_w=w2036-h864-s-no-gm?authuser=0",
+    mapOverlayUrl: "https://lh3.googleusercontent.com/d/1QNkcnjOVZ9nSJxO2vXusVWgC04EmaUcO",
+    albumUrl: "https://photos.google.com/share/AF1QipORn4Sj9GchtBwLRq4DuZRFxHqmcBvuxx8uA2_VwycbpRi8amqI-iK7UvkQSi6apA?key=ZmJweFhiZEJySU1rUms2REJFWm1jZ1YwQjFMczJ3",
+    presentationHtml: `
+      <p><strong>Le carrefour de cuivre de la Méditerranée</strong><br>
+      Située au carrefour de l'Égée, de l'Égypte et du Levant, Chypre tire sa richesse de ses gisements de cuivre (cuprum). Dès le début du IIe millénaire, les artisans développent un art hybride d'une étonnante liberté formelle, particulièrement dans la céramique lustrée rouge aux formes zoomorphes incisées.</p>
+      <p><strong>Les déesses-mères et l'esthétique en bec d'oiseau</strong><br>
+      Au Bronze récent, l'île forge des représentations féminines singulières en terre cuite : figurines maternelles ou cultuelles aux hanches proéminentes et visages aviformes portant des parures d'oreilles mobiles, marquant la dévotion populaire pour la fécondité.</p>
+      <p><strong>L'essor de la coroplastie archaïque</strong><br>
+      À l'époque archaïque (VIIe - VIe s. av. J.-C.), les sanctuaires à ciel ouvert se couvrent de centaines de statuettes votives hiératiques en terre cuite, mêlant influences orientales et sourire archaïque pour incarner la dévotion éternelle des fidèles.</p>
+    `,
+    beacons: [
+      { name: "Céramique zoomorphe (Bronze moyen)", top: "42%", left: "48%", artIdx: 0 },
+      { name: "Figurine féminine (Bronze récent)", top: "38%", left: "55%", artIdx: 1 },
+      { name: "Sanctuaire archaïque (Orant)", top: "46%", left: "52%", artIdx: 2 }
+    ],
+    // 3 onglets ordonnés chronologiquement (-2000 -> -1400 -> -650)
+    artifacts: [
+      {
+        id: "vase_zoomorphe",
+        century: "v. -2000 av. J.-C. (Bronze moyen)",
+        title: "Vase zoomorphe en terre cuite polie",
+        site: "Chypre (Chypriote moyen)",
+        category: "Céramique",
+        chips: ["Bronze moyen", "Terre cuite rouge lustrée", "Incisions blanches"],
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMwaWZj9ZJS2rx_hwQzKXMrX8T-dW4KCyKq_as5_5nanYRBp8H68Piwtsg-C3BSAS-3ySv-e2v2Jem2O_e-x_iRkqIa8i3-TeAZXdbsc8USM5CIYq7hClkqpkUvMzjv1YvWtGSe71r8y_G-Xx27lGlerw=w1814-h2410-s-no-gm?authuser=0",
+        narrative: "Ce vase zoomorphe représente un quadrupède sauvage dont le corps globulaire sert de panse et le cou de goulot verseur. Recouvert d'un engobe rouge lustré typiquement chypriote, il est orné de fines incisions géométriques et végétales comblées de pâte de chaux blanche. Utilisé lors de cérémonies rituelles ou déposé dans les tombes, il illustre l'équilibre entre la fonction de récipient et la sculpture animalière au début du IIe millénaire."
+      },
+      {
+        id: "figurine_oiseau",
+        century: "v. -1400 av. J.-C. (Bronze récent II)",
+        title: "Figurine féminine maternelle en bec d'oiseau",
+        site: "Chypre (Chypriote récent)",
+        category: "Figurines",
+        chips: ["Bronze récent II", "Terre cuite modelée", "Culte de la fertilité"],
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNlIMCn6dNtiSEPjGOxlDcId82zdoYB821DgEpx6gw_uy_MdMfp_UdXaP1q19x5YipUAlKZRh6BbLCh0ThaKqm6gHKBHiHs1qf5MZiLvrwwjInRNeNVNg31Si6eK9CZREMi9bMFbXXPiRC79RjmUndK4w=w1814-h2410-s-no-gm?authuser=0",
+        narrative: "Cette statuette féminine stylisée aux larges hanches porte un jeune enfant contre son flanc gauche. Son visage singulier en bec d'oiseau, avec yeux en pastilles d'argile et oreilles percées pour des boucles mobiles, est emblématique de l'iconographie religieuse chypriote du Bronze récent. Déposé comme ex-voto dans les tombes et sanctuaires, ce talisman assurait la continuité de la vie et la protection de la lignée."
+      },
+      {
+        id: "sculpture_terre_cuite",
+        century: "v. -650 à -550 av. J.-C. (Époque archaïque)",
+        title: "Statuette d'orant ou dignitaire en terre cuite",
+        site: "Sanctuaire chypriote",
+        category: "Sculpture terre cuite",
+        chips: ["VIIe - VIe s. av. J.-C.", "Coroplastie archaïque", "Terre cuite peinte"],
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP2W_m_RjvYnvtw9edrmROsxlhf-9sLrQkidZ9x59w35cbRpPCZ7h-_hUC_xBh5BFTh1MDSaE-4rNJSOYT5HK64ij5AETYrmBW2j0laeXXpGwDS3bQYXkQq0kOpbzTfc4P1yIjbfSKEzjDZx_xbS8uptw=w1814-h2410-s-no-gm?authuser=0",
+        narrative: "Témoignage de l'apogée de la coroplastie chypriote archaïque, cette statuette debout adopte une posture hiératique solennelle. Le visage aux yeux en amande et au léger sourire intérieur a été façonné au moule, tandis que le corps cylindrique porte les vestiges d'un décor peint imitant les riches tuniques de l'époque. Déposée dans un sanctuaire, elle servait de substitut votif éternel devant la divinité."
+      }
+    ]
+  },
   {
     id: "celte_fer",
     name: "Art Celte & Gaulois (Âge du Fer)",
@@ -28,7 +89,6 @@ const CIVILISATIONS_REGISTRY = [
       { name: "Stèle funéraire (Jublains)", top: "32%", left: "41%", artIdx: 0 },
       { name: "Céramique Cénomane (Le Mans)", top: "35%", left: "44%", artIdx: 1 }
     ],
-    // Ordre chronologique strict : IVe s. d'abord, Ier s. ensuite
     artifacts: [
       {
         id: "stele_jublains",
@@ -178,7 +238,7 @@ const CIVILISATIONS_REGISTRY = [
 ];
 
 /* ==========================================================================
-   CONSTRUCTION DE LA GRADUATION & RUBAN SYNCHRONIQUE (4800px)
+   GRADUATION MILLIMÉTRÉE & RUBAN SYNCHRONIQUE (4800px)
    ========================================================================== */
 const YEAR_MIN = -3500;
 const YEAR_MAX = 1500;
@@ -252,7 +312,7 @@ CIVILISATIONS_REGISTRY.forEach((civ) => {
 });
 
 /* ==========================================================================
-   CARTOUCHE LATÉRAL & FERMETURE INTELLIGENTE
+   CARTOUCHE LATÉRAL
    ========================================================================== */
 const hoverSidebar = document.getElementById('hover-sidebar-card');
 const sidebarEra = document.getElementById('sidebar-era');
@@ -315,12 +375,12 @@ btnEnterCiv.addEventListener('click', () => {
 });
 
 /* ==========================================================================
-   DÉPLACEMENT SYNCHRONIQUE & AUTO-FERMETURE SI ÉPOQUE VIDE
+   DÉPLACEMENT TEMPOREL & FERMETURE AUTO HORS PÉRIODE ACTIVE
    ========================================================================== */
 const masterContainer = document.getElementById('master-drag-container');
 let isDragging = false;
 let startX = 0;
-let curRibbonX = -yearToPixel(-600) + window.innerWidth * 0.35;
+let curRibbonX = -yearToPixel(-1800) + window.innerWidth * 0.35;
 let prevRibbonX = curRibbonX;
 
 function updateSynchronousState(screenX) {
@@ -349,7 +409,7 @@ function updateSynchronousState(screenX) {
     }
   });
 
-  // SI L'ÉPOQUE EST VIDE : FERMETURE AUTOMATIQUE DE LA FICHE LATÉRALE
+  // Fermeture automatique si le curseur se déplace dans une zone vide
   if (!foundAnyCiv) {
     isLockedSidebar = false;
     hoverSidebar.classList.remove('visible');
@@ -396,25 +456,31 @@ setTimeout(() => {
 }, 400);
 
 /* ==========================================================================
-   TRANSITION VERS LA CARTE DÉDIÉE (LAZY DOM)
+   TRANSITION NETTE VERS LA CARTE DÉDIÉE SANS FOND RÉSIDUEL
    ========================================================================== */
 const globalMap = document.getElementById('global-map-stage');
 const civOverlayMap = document.getElementById('civilisation-map-overlay');
+const civMapImg = document.getElementById('civilisation-map-img');
 const beaconContainer = document.getElementById('beacon-container');
 const subDrawer = document.getElementById('sub-timeline-drawer');
 const subStream = document.getElementById('sub-stream-scroll');
 const drawerCivTag = document.getElementById('drawer-civ-name');
 
 function activateCivilisationView(civ) {
+  // Réinitialisation immédiate pour éviter tout résidu de carte précédente
+  civOverlayMap.classList.remove('active');
+  beaconContainer.innerHTML = '';
+  subStream.innerHTML = '';
+
   document.documentElement.style.setProperty('--civ-theme', civ.themeColor);
   drawerCivTag.textContent = `${civ.name.toUpperCase()} • CHRONOLOGIE DÉPLOYÉE`;
 
   globalMap.style.transformOrigin = civ.travelingOrigin;
   globalMap.classList.add('traveling');
 
-  civOverlayMap.style.backgroundImage = `url('${civ.mapOverlayUrl}')`;
+  // Mise à jour de l'image de la carte
+  civMapImg.src = civ.mapOverlayUrl;
   
-  beaconContainer.innerHTML = '';
   if (civ.beacons) {
     civ.beacons.forEach(b => {
       const marker = document.createElement('div');
@@ -434,9 +500,8 @@ function activateCivilisationView(civ) {
 
   setTimeout(() => {
     civOverlayMap.classList.add('active');
-  }, 350);
+  }, 250);
 
-  subStream.innerHTML = '';
   if (civ.artifacts) {
     civ.artifacts.forEach((art, aIdx) => {
       const card = document.createElement('div');
@@ -467,6 +532,7 @@ function activateCivilisationView(civ) {
 function closeCivilisationView() {
   subDrawer.classList.remove('open');
   civOverlayMap.classList.remove('active');
+  civMapImg.src = '';
   globalMap.classList.remove('traveling');
   beaconContainer.innerHTML = '';
   subStream.innerHTML = '';
