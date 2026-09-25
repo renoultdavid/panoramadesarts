@@ -1,7 +1,68 @@
 /* ==========================================================================
-   REGISTRE COMPLET : CANARIES, AMORRITES, CELTES (BRONZE & FER), CHYPRE, CRÈTE
+   REGISTRE COMPLET : CANARIES, AMORRITES, CELTES (BRONZE & FER), CHYPRE, CRÈTE, CYCLADES
    ========================================================================== */
 const CIVILISATIONS_REGISTRY = [
+  {
+    id: "cyclades",
+    name: "Art Cycladique (Mer Égée)",
+    epoch: "v. -3200 à -1900 av. J.-C.",
+    yearStart: -3200,
+    yearEnd: -1900,
+    lane: "egee",
+    themeColor: "#8ecae6",
+    sidePos: "pos-left",
+    travelingOrigin: "53.0% 43.8%",
+    haloId: "halo-cyclades",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczNMZRgR759mlxzzO63gKtVg2u437kEFSbomGP9HGmk8DelG-gh8gB9JNXi9bKBgrqsDkalszZLTbKwC5t0GJdWrMoEmqyl9V6L6d0f5GhGwYfTg6AqqP-C2stcjrj5Vn5Ba1SstoTv7f5_pyIccZFQq4g=w2209-h938-s-no-gm?authuser=0",
+    mapOverlayUrl: "https://lh3.googleusercontent.com/d/11cdGX8oS_6Q_8BZaQ5gGjiREIFlKukA2",
+    albumUrl: "https://photos.google.com/share/AF1QipNJXU5aih6CKBSCrN4pP6P5l0AplswBz64lNNpyoV_8FhUrBnY4DVaQKdDXOysWHQ?key=cXFoM2gzaHZ1RnlyV3lVendpbmdFZ1RSYXRSTWtn",
+    presentationHtml: `
+      <p><strong>L'abstraction pure du marbre insulaire</strong><br>
+      Au IIIe millénaire avant notre ère, l'archipel des Cyclades développe un art lapidaire unique au monde. Façonnées dans le marbre blanc de Paros ou de Naxos et polies à l'émeri, les célèbres idoles féminines au nez pyramidal et aux bras croisés incarnent un idéal de pureté géométrique d'une modernité absolue.</p>
+      <p><strong>L'éveil de la fresque figurative à Phylakopi</strong><br>
+      À la charnière du Bronze moyen, la cité fortifiée de Phylakopi sur l'île de Milos devient un carrefour maritime majeur. La peinture murale s'émancipe de la statuaire austère pour peindre avec dynamisme la vie marine, comme l'illustre la célèbre fresque des poissons-volants.</p>
+      <p><strong>Les récipients rituels d'offrandes collectives</strong><br>
+      La céramique insulaire atteint une virtuosité architecturale dans la création d'objets cérémoniels complexes, tel le kernos circulaire de Mélos supportant une couronne de coupelles pour la présentation simultanée des prémices (grains, huiles, vin, miel).</p>
+    `,
+    beacons: [
+      { name: "Mélos / Phylakopi", top: "45%", left: "48%", artIdx: 1 },
+      { name: "Kéros (Sanctuaire)", top: "40%", left: "58%", artIdx: 0 },
+      { name: "Amorgos (Nécropoles)", top: "42%", left: "64%", artIdx: 2 }
+    ],
+    // 3 onglets ordonnés rigoureusement du plus ancien au plus récent (-2800 -> -2500 -> -2000)
+    artifacts: [
+      {
+        id: "statue_cycladique",
+        century: "v. -2800 av. J.-C. (Bronze Ancien II)",
+        title: "Grande statue féminine monumentale de 1,5 mètre",
+        site: "Archipel des Cyclades (Musée National d'Athènes)",
+        category: "Sculpture en marbre",
+        chips: ["Bronze Ancien II", "Marbre blanc poli", "Type canonique de Spedos"],
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczN9iP7Fcc8FrBL9usiPRWeijaLndwYYacpAiifNY8ybz4htaHhgrTMfzRcaCrzV6fXGr2BJQopM4NP5Byn4UAsG0GLQnhaxXuOA1hdq5iXKuoivviypjT2Y4oAyByf65ZZC7HVIE-YNCXw_95yQP4iH1A=w1607-h2410-s-no-gm?authuser=0",
+        narrative: "Haute de 1,5 mètre, cette œuvre monumentale sculptée dans le marbre blanc de Paros constitue l'un des sommets de la statuaire cycladique du Bronze ancien. Appartenant au type canonique de Spedos, elle se caractérise par sa tête en lyre au nez pyramidal, ses bras repliés sous la poitrine et son profil étiré d'une rigueur géométrique saisissante. Initialement rehaussée de pigments rouges et bleus, cette idole d'apparat était liée aux croyances funéraires ou au culte de la fertilité insulaire."
+      },
+      {
+        id: "fresque_poissons",
+        century: "v. -2500 av. J.-C. (Bronze Ancien / Moyen)",
+        title: "Fresque figurative des poissons-volants de Phylakopi",
+        site: "Phylakopi (Île de Milos)",
+        category: "Peinture murale",
+        chips: ["Phylakopi (Milos)", "Buon fresco", "Monde marin stylisé"],
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMCSFC84J3F7c8R8R6BSE5aedpr10b9xQ-9yb9gfJJxpnaZEqFmyCRhVjo-05Q-dpxczRkosUOqnYRl2dvdqFq4gveJxcNJpPDfm8eTJfqRv9wQKaDDZ7Ceiyj3FyLv6I9IBkw_G49yhAV_2i5PZh8umg=w2209-h1472-s-no-gm?authuser=0",
+        narrative: "Découverte sur le site portuaire de Phylakopi à Milos, cette fresque sur enduit de chaux est l'un des plus anciens chefs-d'œuvre picturaux du monde égéen. Elle met en scène un banc de poissons-volants aux corps effilés bleus et jaunes, déployant leurs ailes au-dessus des flots. L'œuvre marque le passage d'une statuaire géométrique austère à une expression naturaliste et fluide, célébrant l'intimité des peuples cycladiques avec la mer Égée."
+      },
+      {
+        id: "kernos_melos",
+        century: "v. -2000 av. J.-C. (Bronze Moyen)",
+        title: "Kernos rituel à coupelles multiples de Mélos",
+        site: "Île de Mélos (Milos)",
+        category: "Céramique rituelle",
+        chips: ["Transition Bronze Ancien/Moyen", "Terre cuite peinte", "Vase à libations multiples"],
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNJMFw-kw6kydCM4NDoX6CPNsA0shUV6LK7h2y-M-H5qSnShSuK9QYtX8BxYz4mtPrzEcIkgnmyZAorfZ2xLWOhDlHeDgaBh0ehUgZFMy_9egsnk1Px1SKhKHFo08n64-d4Kp2P4Mvu0rG5Pfb9YgCNAA=w1814-h2410-s-no-gm?authuser=0",
+        narrative: "Ce kernos en terre cuite sur pied tronconique supporte une couronne circulaire d'une douzaine de coupelles reliées par des ponts d'argile. Orné au vernis sombre de chevrons et damiers géométriques méticuleux, cet objet cérémoniel permettait d'offrir simultanément plusieurs prémices de la terre (grains, huiles, miel, vin). Sa structure en anneau clos symbolise le cycle de la nature et la communion religieuse des cités des Cyclades."
+      }
+    ]
+  },
   {
     id: "crete",
     name: "Art Minoen (Crète)",
@@ -344,7 +405,6 @@ CIVILISATIONS_REGISTRY.forEach((civ) => {
 
   block.innerHTML = `<span class="civ-block-title" style="color: ${civ.themeColor}">${civ.name}</span>`;
 
-  // Survol : aperçu sans verrouillage
   block.addEventListener('mouseenter', () => {
     if (!isLockedSidebar) showCivPreview(civ);
   });
@@ -353,10 +413,10 @@ CIVILISATIONS_REGISTRY.forEach((civ) => {
     if (!isLockedSidebar) hideCivPreview();
   });
 
-  // CLIC : FERMETURE DE TOUTE CARTE ACTIVE ET VERROUILLAGE SÉCURISÉ DE LA FICHE
+  // CLIC SUR LA FRISE : RÉINITIALISE ENTIÈREMENT LA CARTE ET FERME L'ANCIEN TIROIR
   block.addEventListener('click', (e) => {
     e.stopPropagation();
-    closeCivilisationView(); // Ferme toute carte régionale ouverte
+    closeCivilisationView(); // Ferme toute carte régionale pour revenir à la carte neutre
     lockCivSidebar(civ);
   });
 
@@ -364,7 +424,7 @@ CIVILISATIONS_REGISTRY.forEach((civ) => {
 });
 
 /* ==========================================================================
-   CARTOUCHE LATÉRAL & VERROUILLAGE ROBUSTE
+   CARTOUCHE LATÉRAL & FERMETURE INTELLIGENTE
    ========================================================================== */
 const hoverSidebar = document.getElementById('hover-sidebar-card');
 const sidebarEra = document.getElementById('sidebar-era');
@@ -401,7 +461,7 @@ function showCivPreview(civ) {
 }
 
 function hideCivPreview() {
-  if (isLockedSidebar) return; // Verrouillage inviolable si ouvert par clic
+  if (isLockedSidebar) return;
   hoverSidebar.classList.remove('visible');
   document.querySelectorAll('.sync-foyer-halo').forEach(h => h.classList.remove('active'));
   selectedCiv = null;
@@ -412,7 +472,6 @@ function lockCivSidebar(civ) {
   showCivPreview(civ);
 }
 
-// Seule la croix manuelle permet de fermer quand c'est verrouillé
 btnCloseSidebar.addEventListener('click', (e) => {
   e.stopPropagation();
   isLockedSidebar = false;
@@ -428,12 +487,12 @@ btnEnterCiv.addEventListener('click', () => {
 });
 
 /* ==========================================================================
-   DÉPLACEMENT SYNCHRONIQUE (PROTÉGÉ CONTRE LES FERMETURES PARASITES)
+   DÉPLACEMENT SYNCHRONIQUE & AUTO-FERMETURE SI ÉPOQUE VIDE
    ========================================================================== */
 const masterContainer = document.getElementById('master-drag-container');
 let isDragging = false;
 let startX = 0;
-let curRibbonX = -yearToPixel(-600) + window.innerWidth * 0.35;
+let curRibbonX = -yearToPixel(-2500) + window.innerWidth * 0.35;
 let prevRibbonX = curRibbonX;
 
 function updateSynchronousState(screenX) {
@@ -445,12 +504,14 @@ function updateSynchronousState(screenX) {
   syncBubble.textContent = currentYear < 0 ? `${Math.abs(currentYear)} av. J.-C.` : `${currentYear} ap. J.-C.`;
 
   let activeNames = [];
+  let foundAnyCiv = false;
 
   CIVILISATIONS_REGISTRY.forEach(civ => {
     const halo = document.getElementById(civ.haloId);
     const isYearActive = (currentYear >= civ.yearStart && currentYear <= civ.yearEnd);
 
     if (isYearActive) {
+      foundAnyCiv = true;
       activeNames.push(civ.name);
       if (halo) halo.classList.add('active');
     } else {
@@ -460,8 +521,7 @@ function updateSynchronousState(screenX) {
     }
   });
 
-  // Ne ferme JAMAIS une fiche verrouillée par un clic !
-  if (!isLockedSidebar && activeNames.length === 0) {
+  if (!isLockedSidebar && !foundAnyCiv) {
     hoverSidebar.classList.remove('visible');
   }
 
@@ -505,7 +565,7 @@ setTimeout(() => {
 }, 400);
 
 /* ==========================================================================
-   CARTE DÉDIÉE : INITIALISATION NETTE ET IMMÉDIATE
+   CARTE DÉDIÉE : INITIALISATION NETTE SANS RÉSIDU
    ========================================================================== */
 const globalMapImg = document.getElementById('global-map-img');
 const civOverlayMap = document.getElementById('civilisation-map-overlay');
@@ -578,6 +638,7 @@ function activateCivilisationView(civ) {
   subDrawer.classList.add('open');
 }
 
+// FERMETURE TOTALE DU MODE RÉGIONAL ET RETOUR À LA CARTE MONDE
 function closeCivilisationView() {
   subDrawer.classList.remove('open');
   civOverlayMap.classList.remove('active');
