@@ -1,5 +1,5 @@
 /* ==========================================================================
-   REGISTRE STRICT : CANARIES, AMORRITES, CELTES (BRONZE & FER), CHYPRE, CRÈTE
+   REGISTRE COMPLET : CANARIES, AMORRITES, CELTES (BRONZE & FER), CHYPRE, CRÈTE
    ========================================================================== */
 const CIVILISATIONS_REGISTRY = [
   {
@@ -352,10 +352,10 @@ CIVILISATIONS_REGISTRY.forEach((civ) => {
     if (!isLockedSidebar) hideCivPreview();
   });
 
-  // CLIC SUR LA FRISE : RÉINITIALISATION STRICTE DE LA CARTE RÉGIONALE PRÉCÉDENTE
+  // CLIC SUR LA FRISE : RÉINITIALISE LA CARTE ET FERME L'ANCIEN TIROIR
   block.addEventListener('click', (e) => {
     e.stopPropagation();
-    closeCivilisationView(); // Ferme impérativement tout fond régional et tiroir résiduel
+    closeCivilisationView(); // Réinitialise immédiatement l'ancienne région
     lockCivSidebar(civ);
   });
 
@@ -460,7 +460,7 @@ function updateSynchronousState(screenX) {
     }
   });
 
-  // Fermeture automatique si on navigue dans une zone sans civilisation
+  // SI L'ÉPOQUE EST VIDE : FERMETURE AUTOMATIQUE DE LA FICHE LATÉRALE ET DE TOUTE CARTE ACTIVE
   if (!foundAnyCiv) {
     isLockedSidebar = false;
     hoverSidebar.classList.remove('visible');
@@ -509,7 +509,7 @@ setTimeout(() => {
 /* ==========================================================================
    TRANSITION NETTE VERS LA CARTE DÉDIÉE SANS FOND RÉSIDUEL
    ========================================================================== */
-const globalMap = document.getElementById('global-map-stage');
+const globalMapImg = document.getElementById('global-map-img');
 const civOverlayMap = document.getElementById('civilisation-map-overlay');
 const civMapImg = document.getElementById('civilisation-map-img');
 const beaconContainer = document.getElementById('beacon-container');
@@ -518,7 +518,7 @@ const subStream = document.getElementById('sub-stream-scroll');
 const drawerCivTag = document.getElementById('drawer-civ-name');
 
 function activateCivilisationView(civ) {
-  // 1. Fermeture et vidage préalable impératif
+  // Réinitialisation immédiate et complète
   civOverlayMap.classList.remove('active');
   civMapImg.src = '';
   beaconContainer.innerHTML = '';
@@ -527,8 +527,8 @@ function activateCivilisationView(civ) {
   document.documentElement.style.setProperty('--civ-theme', civ.themeColor);
   drawerCivTag.textContent = `${civ.name.toUpperCase()} • CHRONOLOGIE DÉPLOYÉE`;
 
-  globalMap.style.transformOrigin = civ.travelingOrigin;
-  globalMap.classList.add('traveling');
+  globalMapImg.style.transformOrigin = civ.travelingOrigin;
+  globalMapImg.classList.add('traveling');
 
   civMapImg.src = civ.mapOverlayUrl;
   
@@ -580,12 +580,12 @@ function activateCivilisationView(civ) {
   subDrawer.classList.add('open');
 }
 
-// FERMETURE TOTALE DU MODE RÉGIONAL ET RETOUR À LA CARTE MONDE NEUTRE
+// FERMETURE TOTALE DU MODE RÉGIONAL ET RETOUR À LA CARTE MONDE
 function closeCivilisationView() {
   subDrawer.classList.remove('open');
   civOverlayMap.classList.remove('active');
   civMapImg.src = '';
-  globalMap.classList.remove('traveling');
+  globalMapImg.classList.remove('traveling');
   beaconContainer.innerHTML = '';
   subStream.innerHTML = '';
   hideCivPreview();
