@@ -13,13 +13,11 @@
 </head>
 <body>
 
-  <!-- SCÈNE CARTOGRAPHIQUE AU RATIO GÉOMÉTRIQUE STRICT -->
+  <!-- SCÈNE CARTOGRAPHIQUE AU RATIO FIXE SANS DÉBORDEMENT -->
   <div id="map-viewport">
     <div id="map-canvas-frame">
-      <!-- 1. Carte du Monde -->
       <img id="global-map-img" src="https://lh3.googleusercontent.com/d/1QyvVo3lL18FPcqzLgR9qvyaHY5F63Spk" alt="Carte du Monde" />
       
-      <!-- Halos synchrones sur le monde -->
       <div id="synchronous-halos-layer">
         <div id="halo-canaries" class="sync-foyer-halo"></div>
         <div id="halo-amorrite" class="sync-foyer-halo"></div>
@@ -29,7 +27,6 @@
         <div id="halo-crete" class="sync-foyer-halo"></div>
       </div>
 
-      <!-- 2. Carte Régionale Dédiée (verrouillée sur le même cadre) -->
       <div id="civilisation-map-overlay">
         <img id="civilisation-map-img" src="" alt="Carte régionale" />
         <div id="beacon-container"></div>
@@ -37,7 +34,7 @@
     </div>
   </div>
 
-  <!-- CARTOUCHE LATÉRAL -->
+  <!-- CARTOUCHE LATÉRAL VERROUILLABLE SANS DISPARITION INTEMPESTIVE -->
   <aside id="hover-sidebar-card" class="pos-left">
     <button class="btn-close-sidebar" id="btn-close-sidebar" title="Fermer la fiche">&times;</button>
     <div class="sidebar-scrollable-body">
@@ -69,7 +66,7 @@
   <!-- FRISES -->
   <div id="timeline-dock">
 
-    <!-- Étage 2 : Sous-frise d'objets (hauteur confortable 265px) -->
+    <!-- Étage 2 : Sous-frise avec hauteur 265px -->
     <div id="sub-timeline-drawer">
       <div class="drawer-info-strip">
         <span class="drawer-civ-tag" id="drawer-civ-name">CHRONOLOGIE DÉPLOYÉE</span>
@@ -126,7 +123,7 @@
 
   </div>
 
-  <!-- MODALE HORIZONTALE 50/50 -->
+  <!-- MODALE D'EXPOSITION (IMAGE À GAUCHE / TEXTE À DROITE) -->
   <div id="curator-modal">
     <div class="curator-frame">
       <button class="btn-dismiss-modal" id="btn-modal-close">&times;</button>
