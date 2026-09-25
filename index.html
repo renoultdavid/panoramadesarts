@@ -13,7 +13,7 @@
 </head>
 <body>
 
-  <!-- SCÈNE CARTOGRAPHIQUE RESPONSIVE -->
+  <!-- SCÈNE CARTOGRAPHIQUE AU RATIO FIXE IMPERMÉABLE AUX ÉTIREMENTS -->
   <div id="map-viewport">
     <div id="map-canvas-frame">
       <div id="global-map-stage"></div>
@@ -24,6 +24,7 @@
         <div id="halo-celte_bronze" class="sync-foyer-halo"></div>
         <div id="halo-celte_fer" class="sync-foyer-halo"></div>
         <div id="halo-chypre" class="sync-foyer-halo"></div>
+        <div id="halo-crete" class="sync-foyer-halo"></div>
       </div>
 
       <div id="civilisation-map-overlay">
@@ -33,7 +34,7 @@
     </div>
   </div>
 
-  <!-- CARTOUCHE LATÉRAL VERROUILLABLE AVEC ASCENSEUR ET BOUTON ANCRÉ -->
+  <!-- CARTOUCHE LATÉRAL VERROUILLABLE AVEC ASCENSEUR ET BOUTON FIXÉ -->
   <aside id="hover-sidebar-card" class="pos-left">
     <button class="btn-close-sidebar" id="btn-close-sidebar" title="Fermer la fiche">&times;</button>
     <div class="sidebar-scrollable-body">
@@ -65,7 +66,7 @@
   <!-- FRISES -->
   <div id="timeline-dock">
 
-    <!-- Étage 2 : Sous-frise avec cartes d'objets non tronquées -->
+    <!-- Étage 2 : Temps ralenti (265px de hauteur pour des vignettes non tronquées) -->
     <div id="sub-timeline-drawer">
       <div class="drawer-info-strip">
         <span class="drawer-civ-tag" id="drawer-civ-name">CHRONOLOGIE DÉPLOYÉE</span>
@@ -98,6 +99,9 @@
           <div class="timeline-lane" data-lane="atlantique">
             <div class="lane-label">Atlantique &amp; Canaries</div>
           </div>
+          <div class="timeline-lane" data-lane="egee">
+            <div class="lane-label">Monde Égéen &amp; Grèce</div>
+          </div>
           <div class="timeline-lane" data-lane="chypre">
             <div class="lane-label">Chypre &amp; Méditerranée or.</div>
           </div>
@@ -113,16 +117,13 @@
           <div class="timeline-lane" data-lane="anatolie">
             <div class="lane-label">Anatolie &amp; Caucase</div>
           </div>
-          <div class="timeline-lane" data-lane="egee">
-            <div class="lane-label">Monde Égéen &amp; Grèce</div>
-          </div>
         </div>
       </div>
     </div>
 
   </div>
 
-  <!-- MODALE D'EXPOSITION (50% IMAGE GAUCHE / 50% TEXTE DROITE) -->
+  <!-- MODALE D'EXPOSITION (IMAGE À GAUCHE / TEXTE À DROITE) -->
   <div id="curator-modal">
     <div class="curator-frame">
       <button class="btn-dismiss-modal" id="btn-modal-close">&times;</button>
