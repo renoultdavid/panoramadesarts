@@ -28,29 +28,65 @@ body {
   height: 100vh;
   width: 100vw;
   overflow: hidden;
-  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
-/* ZONE CARTOGRAPHIQUE AU RATIO GÉOMÉTRIQUE STRICT (16/9) */
+/* =========================================================
+   1. EN-TÊTE FIXE DÉGAGÉ DE LA SCÈNE (ÉVITE TOUT CHEVAUCHEMENT)
+   ========================================================= */
+#main-header {
+  height: 56px;
+  padding: 8px 2rem;
+  display: flex;
+  align-items: center;
+  z-index: 50;
+  background: linear-gradient(to bottom, rgba(5,6,8,0.98), rgba(5,6,8,0.85));
+  border-bottom: 1px solid rgba(212, 175, 55, 0.15);
+  flex-shrink: 0;
+}
+
+.museum-insignia {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+}
+
+.insignia-title {
+  font-family: 'Cinzel', serif;
+  font-size: 1rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--gold-pure);
+}
+
+.insignia-sub {
+  font-size: 0.78rem;
+  letter-spacing: 1px;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+/* =========================================================
+   2. SCÈNE CARTOGRAPHIQUE AU MILIEU (FLUX STRICT SANS DÉBORDEMENT)
+   ========================================================= */
 #map-viewport {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 230px;
-  z-index: 1;
+  flex: 1;
+  position: relative;
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
   background: #020305;
-  padding: 10px;
+  padding: 8px;
 }
 
 #map-canvas-frame {
   position: relative;
-  width: min(100vw, calc((100vh - 240px) * 16 / 9));
-  height: min(calc(100vh - 240px), calc(100vw * 9 / 16));
+  max-width: 100%;
+  max-height: 100%;
+  aspect-ratio: 16 / 9;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -107,18 +143,23 @@ body {
   background: radial-gradient(circle, rgba(42,157,143,0.95) 0%, rgba(42,157,143,0.35) 50%, transparent 75%);
 }
 
-/* CHYPRE : DESCENDU PLEIN SUD DANS LE BASSIN LÉVANTIN */
 #halo-chypre {
   left: 55.4%;
   top: 45.6%;
   background: radial-gradient(circle, rgba(233,196,106,0.95) 0%, rgba(233,196,106,0.35) 50%, transparent 75%);
 }
 
-/* CRÈTE : DESCENDU ET DÉCALÉ AU SUD DE LA GRÈCE DANS LA MER DE CRÈTE */
 #halo-crete {
   left: 53.2%;
   top: 45.4%;
   background: radial-gradient(circle, rgba(58,134,255,0.95) 0%, rgba(58,134,255,0.35) 50%, transparent 75%);
+}
+
+/* CYCLADES : AU CŒUR DE LA MER ÉGÉE */
+#halo-cyclades {
+  left: 53.0%;
+  top: 43.8%;
+  background: radial-gradient(circle, rgba(142,202,230,0.95) 0%, rgba(142,202,230,0.35) 50%, transparent 75%);
 }
 
 .sync-foyer-halo.active {
@@ -135,7 +176,7 @@ body {
   opacity: 0;
   pointer-events: none;
   transform: scale(0.98);
-  transition: opacity 0.6s ease, transform 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+  transition: opacity 0.5s ease, transform 0.8s cubic-bezier(0.22, 1, 0.36, 1);
   z-index: 3;
 }
 
@@ -197,15 +238,15 @@ body {
   white-space: nowrap;
 }
 
-/* CARTOUCHE LATÉRAL STRUCTURÉ */
+/* CARTOUCHE LATÉRAL */
 #hover-sidebar-card {
   position: absolute;
-  top: 5rem;
+  top: 4.5rem;
   z-index: 25;
   width: 480px;
   max-width: 38vw;
-  height: 72vh;
-  max-height: 640px;
+  height: 68vh;
+  max-height: 620px;
   background: rgba(14, 17, 24, 0.96);
   backdrop-filter: blur(25px);
   border: 1px solid rgba(212, 175, 55, 0.35);
@@ -219,14 +260,14 @@ body {
 }
 
 #hover-sidebar-card.pos-left {
-  left: 2.2rem;
+  left: 2rem;
   right: auto;
   border-left: 3px solid var(--gold-pure);
   transform: translateX(-30px);
 }
 
 #hover-sidebar-card.pos-right {
-  right: 2.2rem;
+  right: 2rem;
   left: auto;
   border-right: 3px solid var(--gold-pure);
   transform: translateX(30px);
@@ -358,61 +399,14 @@ body {
   box-shadow: 0 6px 20px rgba(212, 175, 55, 0.5);
 }
 
-/* EN-TÊTE */
-header {
-  position: absolute;
-  top: 1.6rem;
-  left: 2.2rem;
-  right: 2.2rem;
-  z-index: 50;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  pointer-events: none;
-}
-
-.museum-insignia {
-  display: flex;
-  flex-direction: column;
-  pointer-events: auto;
-  background: rgba(18, 21, 28, 0.85);
-  backdrop-filter: blur(20px);
-  padding: 8px 22px;
-  border-radius: 4px;
-  border-left: 3px solid var(--gold-pure);
-  border-top: 1px solid rgba(212, 175, 55, 0.25);
-  border-right: 1px solid rgba(212, 175, 55, 0.25);
-  border-bottom: 1px solid rgba(212, 175, 55, 0.25);
-  box-shadow: 0 10px 30px rgba(0,0,0,0.85);
-}
-
-.insignia-title {
-  font-family: 'Cinzel', serif;
-  font-size: 1.05rem;
-  letter-spacing: 4px;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: var(--gold-pure);
-}
-
-.insignia-sub {
-  font-size: 0.8rem;
-  letter-spacing: 1px;
-  color: var(--text-muted);
-  font-style: italic;
-}
-
-/* FRISES ET DOCK */
+/* =========================================================
+   3. FRISES AU BAS DE L'ÉCRAN
+   ========================================================= */
 #timeline-dock {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 30;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  pointer-events: none;
+  flex-shrink: 0;
+  z-index: 30;
 }
 
 #sub-timeline-drawer {
@@ -425,7 +419,6 @@ header {
   transition: height 0.6s cubic-bezier(0.16, 1, 0.3, 1);
   display: flex;
   flex-direction: column;
-  pointer-events: auto;
   box-shadow: 0 -15px 40px rgba(0, 0, 0, 0.95);
 }
 
@@ -563,12 +556,11 @@ header {
 
 /* FRISE MAÎTRESSE */
 #master-timeline-bar {
-  height: 230px;
+  height: 220px;
   background: linear-gradient(to top, rgba(4, 5, 7, 0.98) 0%, rgba(14, 17, 24, 0.94) 100%);
   border-top: 1px solid rgba(212, 175, 55, 0.2);
   display: flex;
   flex-direction: column;
-  pointer-events: auto;
   position: relative;
 }
 
