@@ -187,10 +187,10 @@ body {
   background: radial-gradient(circle, rgba(244,162,97,0.95) 0%, rgba(244,162,97,0.35) 50%, transparent 75%);
 }
 
-/* Égypte (Memphis / Basse-Égypte) */
+/* Égypte (Memphis / Basse-Égypte) : recalé plein Sud */
 #halo-egypte_ancien {
-  left: 55.2%;
-  top: 47.0%;
+  left: 54.8%;
+  top: 48.8%;
   background: radial-gradient(circle, rgba(46,196,182,0.95) 0%, rgba(46,196,182,0.35) 50%, transparent 75%);
 }
 
