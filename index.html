@@ -13,19 +13,27 @@
 </head>
 <body>
 
-  <!-- EN-TÊTE FIXÉ EN HAUT HORS DE L'ESPACE CARTOGRAPHIQUE -->
+  <!-- EN-TÊTE AVEC BOUTON PLEIN ÉCRAN D'IMMERSION TOTALE -->
   <header id="main-header">
     <div class="museum-insignia">
       <div class="insignia-title">Atlas Visuel des Arts</div>
       <div class="insignia-sub">Parcours Synchronique &amp; Archives Photographiques in situ</div>
     </div>
+    
+    <button id="btn-fullscreen-toggle" class="btn-header-fullscreen" title="Basculer en plein écran">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/>
+      </svg>
+      <span>Plein Écran</span>
+    </button>
   </header>
 
-  <!-- SCÈNE CARTOGRAPHIQUE CENTRALE INDÉPENDANTE -->
+  <!-- SCÈNE CARTOGRAPHIQUE CENTRALE FIXÉE (AUCUNE PASTILLE MOBILE DÉRIVANTE) -->
   <main id="map-viewport">
     <div id="map-canvas-frame">
       <img id="global-map-img" src="https://lh3.googleusercontent.com/d/1QyvVo3lL18FPcqzLgR9qvyaHY5F63Spk" alt="Carte du Monde" />
       
+      <!-- Halos synchrones sur la carte du monde -->
       <div id="synchronous-halos-layer">
         <div id="halo-canaries" class="sync-foyer-halo"></div>
         <div id="halo-amorrite" class="sync-foyer-halo"></div>
@@ -34,11 +42,13 @@
         <div id="halo-chypre" class="sync-foyer-halo"></div>
         <div id="halo-crete" class="sync-foyer-halo"></div>
         <div id="halo-cyclades" class="sync-foyer-halo"></div>
+        <div id="halo-mycenes" class="sync-foyer-halo"></div>
       </div>
 
+      <!-- Carte Régionale Dédiée : Image pure, fixe et centrée avec cadre atmosphérique -->
       <div id="civilisation-map-overlay">
         <img id="civilisation-map-img" src="" alt="Carte régionale" />
-        <div id="beacon-container"></div>
+        <div class="map-atmospheric-glow"></div>
       </div>
     </div>
   </main>
@@ -64,10 +74,10 @@
     </div>
   </aside>
 
-  <!-- FRISES AU PIED DE PAGE -->
+  <!-- FRISES AU BAS DE L'ÉCRAN -->
   <footer id="timeline-dock">
 
-    <!-- Étage 2 : Sous-frise avec hauteur 265px -->
+    <!-- Étage 2 : Sous-frise d'objets (hauteur 265px) -->
     <div id="sub-timeline-drawer">
       <div class="drawer-info-strip">
         <span class="drawer-civ-tag" id="drawer-civ-name">CHRONOLOGIE DÉPLOYÉE</span>
@@ -89,7 +99,7 @@
       </div>
 
       <div id="sync-cursor-line">
-        <div id="sync-bubble-tag">-2500 av. J.-C.</div>
+        <div id="sync-bubble-tag">-1500 av. J.-C.</div>
       </div>
 
       <div id="master-drag-container">
@@ -124,7 +134,7 @@
 
   </footer>
 
-  <!-- MODALE D'EXPOSITION (IMAGE À GAUCHE / TEXTE À DROITE) -->
+  <!-- MODALE HORIZONTALE 50/50 -->
   <div id="curator-modal">
     <div class="curator-frame">
       <button class="btn-dismiss-modal" id="btn-modal-close">&times;</button>
