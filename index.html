@@ -21,7 +21,7 @@
       <div id="synchronous-halos-layer">
         <div id="halo-canaries" class="sync-foyer-halo"></div>
         <div id="halo-amorrite" class="sync-foyer-halo"></div>
-        <div id="halo-celte_bronze" class="sync-foyer-halo"></div>
+        <div id="halo-celte" class="sync-foyer-halo"></div>
       </div>
 
       <div id="civilisation-map-overlay">
@@ -80,13 +80,13 @@
       </div>
 
       <div id="sync-cursor-line">
-        <div id="sync-bubble-tag">-1950 av. J.-C.</div>
+        <div id="sync-bubble-tag">-500 av. J.-C.</div>
       </div>
 
       <div id="master-drag-container">
         <div id="master-ribbon">
           <div class="timeline-lane" data-lane="europe_ouest">
-            <div class="lane-label">Europe &amp; Monde Celte</div>
+            <div class="lane-label">Gaule &amp; Europe Celte</div>
           </div>
           <div class="timeline-lane" data-lane="atlantique">
             <div class="lane-label">Atlantique &amp; Canaries</div>
@@ -94,29 +94,41 @@
           <div class="timeline-lane" data-lane="syrie">
             <div class="lane-label">Levant &amp; Syrie</div>
           </div>
-          <div class="timeline-lane" data-lane="egypte">
-            <div class="lane-label">Égypte &amp; Nubie</div>
-          </div>
-          <div class="timeline-lane" data-lane="mesopotamie">
-            <div class="lane-label">Mésopotamie</div>
-          </div>
-          <div class="timeline-lane" data-lane="anatolie">
-            <div class="lane-label">Anatolie &amp; Caucase</div>
-          </div>
-          <div class="timeline-lane" data-lane="egee">
-            <div class="lane-label">Monde Égéen &amp; Grèce</div>
-          </div>
         </div>
       </div>
     </div>
 
   </div>
 
-  <!-- MODALE DIPTYQUE D'EXPOSITION (GRIS DE PAYNE) -->
+  <!-- MODALE D'EXPOSITION (IMAGE À GAUCHE / TEXTE À DROITE) -->
   <div id="curator-modal">
-    <div class="curator-frame" id="modal-container-frame">
+    <div class="curator-frame">
       <button class="btn-dismiss-modal" id="btn-modal-close">&times;</button>
-      <div id="modal-dynamic-content" class="modal-multi-body"></div>
+
+      <!-- Barre d'onglets pour naviguer entre sections d'une même civilisation -->
+      <div id="modal-tab-bar" class="modal-tab-bar"></div>
+
+      <!-- Conteneur 50/50 horizontal -->
+      <div class="modal-h-layout">
+        <!-- Colonne gauche : Socle Gris de Payne avec badge de catégorie -->
+        <div class="modal-pedestal-col">
+          <div class="category-badge-chip" id="modal-category-badge">CATÉGORIE</div>
+          <img id="modal-artwork-img" src="" alt="Objet d'art de la collection" loading="lazy" />
+        </div>
+
+        <!-- Colonne droite : Notice muséale et lien album -->
+        <div class="modal-notes-col">
+          <div class="modal-civ-line" id="modal-civ-title">Civilisation</div>
+          <h2 class="modal-headline" id="modal-artwork-title">Titre de l'Œuvre</h2>
+          <div class="modal-chips-row" id="modal-chips-container"></div>
+          <div class="modal-narrative" id="modal-narrative-text">Notice détaillée...</div>
+
+          <a href="#" target="_blank" rel="noopener noreferrer" class="btn-gold-link" id="modal-album-btn">
+            Explorer l'album complet
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+      </div>
     </div>
   </div>
 
