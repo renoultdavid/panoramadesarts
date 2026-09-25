@@ -1,5 +1,5 @@
 /* ==========================================================================
-   REGISTRE STRICT : CANARIES, AMORRITES, ART CELTE DU BRONZE
+   REGISTRE : CANARIES, AMORRITES, CELTES DU BRONZE
    ========================================================================== */
 const CIVILISATIONS_REGISTRY = [
   {
@@ -11,10 +11,10 @@ const CIVILISATIONS_REGISTRY = [
     lane: "europe_ouest",
     themeColor: "#2a9d8f",
     sidePos: "pos-left",
-    travelingOrigin: "49.5% 36.8%",
+    travelingOrigin: "47.8% 38.5%",
     haloId: "halo-celte_bronze",
     bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczNeGi9CeQnVZ0W8vPbx0jodOMhg6-U-KG1RWY5FKuhdbkyiT-iSkT_XR1V1NGGO9m3Us2LF_p2md8GdF4hAnaTp0Bf05pEXDuSPiBFtHM2FjgA2ZTxIDPJ_96SpfO-bGNnsO44jw8COUI9sW93SROp_kQ=w2599-h1103-s-no-gm?authuser=0",
-    mapOverlayUrl: "https://lh3.googleusercontent.com/d/1yefzYZ2Bba87SlkjoIM8Cv-1QclchGdN",
+    mapOverlayUrl: "https://lh3.googleusercontent.com/d/1gX2vOwXzj3jIMMvx2P5DAAQkjfkZ1anc",
     albumUrl: "https://photos.google.com",
     presentationHtml: `
       <p><strong>L'éveil métallurgique et la culture d'Únětice</strong><br>
@@ -33,10 +33,10 @@ const CIVILISATIONS_REGISTRY = [
         century: "Bronze moyen et final (-1500 à -800)",
         title: "Dépôt de haches à talon et parures de Jublains",
         site: "Musée archéologique départemental de Jublains",
-        subpart: "Ensemble votif en alliage cuivreux à patine verte",
-        chips: ["Âge du Bronze", "Jublains (Mayenne)", "Haches à talon & Parures annulaires"],
+        section: "Métallurgie & Dépôts votifs",
+        chips: ["Âge du Bronze", "Jublains (Mayenne)", "Alliage cuivreux"],
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMDKuI_TJU5jFc6SYvcfxQYMyLAxo_Er1aGNAFST7fBciWLXuMara_i-InT_5a4JadEykH_U5NohJtceGLLNyrgygDvzoLfxc4d3YuA_LAUxM59s6iLGsMybtdwHkWdmTVQnj3B1RagX4Uu4B20Q3CV6w=w2599-h1733-s-no-gm?authuser=0",
-        narrative: "Découvert en Mayenne, cet ensemble de pièces en alliage cuivreux à patine verte illustre le savoir-faire métallurgique du Bronze moyen et final. Les haches à talon perfectionnent l'emmanchement coudé grâce à leur bélière latérale, servant à la fois d'outils, d'armes et de réserves prémonétaires. À leurs côtés, des anneaux et bracelets de bras décorés d'incisions géométriques témoignent de la pratique délibérée des dépôts enfouis, interprétés comme des offrandes rituelles aux divinités ou des réserves d'artisans fondeurs."
+        narrative: "Découvert en Mayenne, cet ensemble exceptionnel d'objets en alliage cuivreux à patine verte témoigne de la maîtrise métallurgique du Bronze moyen et final. Les haches à talon à bélière latérale marquaient une avancée technique pour un emmanchement solide et servaient aussi de réserve prémonétaire. Les parures annulaires ornées de motifs géométriques incisés illustrent le phénomène des dépôts volontaires, enfouis rituellement comme offrandes aux divinités ou réserves d'artisans."
       }
     ]
   },
@@ -52,7 +52,7 @@ const CIVILISATIONS_REGISTRY = [
     travelingOrigin: "55.8% 44.2%",
     haloId: "halo-amorrite",
     bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczPHGkCZm47O1gOL4Ui6nLL0Q0omROV3pafBxYT6WkYFLnvfgyA9yAFCMg-GL6KLpqobLqfxmnJGBF0ph464anxAlRWeZAsc5daaMrcP4s9FK1oijdIqs4hZQ1WP-EtZnYfMwWvkfacKZQ5JF6diThA3RA=w1620-h688-s-no-gm?authuser=0",
-    mapOverlayUrl: "https://lh3.googleusercontent.com/d/1KDwasoHL7djxOpKVfFHDDTfz_9RdFKZI",
+    mapOverlayUrl: "https://lh3.googleusercontent.com/d/1O9GXVfPkuswX5DorBUgBxfZc-209aoh8",
     albumUrl: "https://photos.google.com/share/AF1QipPVAXqBqZTRYy0G2k4dekN1B26P4qiDwAk_6z_C-Kx6eIyhtxN2miXjHY6tXfzPIw?pli=1&key=cW1TT0ZhWXFGeDBmU1F2SGl1VEw0d0FOMjR6MVVn",
     presentationHtml: `
       <p><strong>Le souffle des dynasties pastorales</strong><br>
@@ -71,7 +71,7 @@ const CIVILISATIONS_REGISTRY = [
         century: "v. -1500 av. J.-C.",
         title: "Alalakh - roi Idrimi -1500 - Londres",
         site: "Tell Atchana (Alalakh)",
-        subpart: "Statuaire royale autobiographique",
+        section: "Statuaire royale autobiographique",
         chips: ["v. -1500 av. J.-C.", "Tell Atchana (Alalakh)", "British Museum (Londres)"],
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczN6NQEToJ97f-c9qg-7W7Rt1ImmBuXkLUYQQalWO4iiVc7usyBS_ELROgGtpIudXZ0cVIjbk4-F1mo45heZCYaqpyiADyeZUZhe5HrztmoWoXq_qIWOTT0m981iqD3yMBajZAiUIHQQ4E0zNJYGg-K-fw=w613-h919-s-no-gm?authuser=0",
         narrative: "Découverte en 1939 par Leonard Woolley à Tell Atchana (l’antique Alalakh), cette statue en magnésite blanche représente Idrimi, roi d'Alalakh, siégeant sur un trône de basalte.<br><br>L'œuvre est remarquable par la longue inscription cunéiforme autobiographique gravée sur la robe du roi, relatant son exil, sa reconquête du pouvoir et son alliance avec le Mittani. Ses grands yeux incrustés confèrent à la statue une puissance hiératique unique dans l'art du Proche-Orient ancien."
@@ -90,7 +90,7 @@ const CIVILISATIONS_REGISTRY = [
     travelingOrigin: "43.8% 48.6%",
     haloId: "halo-canaries",
     bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczPMXQ5bdaPOWzGPKgmojy9gQSYDzQr93TrgXTQ3ulBClSb_4u-eo9o5d2eP27CZmeHhdd9nZHufR4NJsEJSzsCi50xpKQ0NV5ZbYrY2LJhEuIy6xtlDgObVak0xLhEDHgifE9G46BrjnehXFBFJLHHxQg=w1620-h688-s-no-gm?authuser=0",
-    mapOverlayUrl: "https://lh3.googleusercontent.com/d/1y_aYNocIAiQu9aI2Q7mg0ZvTVJt2tiwF",
+    mapOverlayUrl: "https://lh3.googleusercontent.com/d/1ziawwYwQzmU4SOv1gjkHRXMT9-F7VkVU",
     albumUrl: "https://photos.google.com/share/AF1QipOwPyxi1kZR99upRbCwV7EqcTxAKq16-jOtDDeEeuI_blfV8DNa1ggU6u3127sf3g?key=ck5BSW5yQlgtazlDZXB2b0Ftd0NMYUpiTWJZSGR3",
     presentationHtml: `
       <p><strong>L'art des peuples insulaires isolés</strong><br>
@@ -110,8 +110,8 @@ const CIVILISATIONS_REGISTRY = [
         century: "XIe - XVe siècle",
         title: "Frise géométrique de la Cueva Pintada",
         site: "Gáldar (Gran Canaria)",
-        subpart: "Peinture murale troglodytique polychrome",
-        chips: ["XIe - XVe siècle", "Gáldar (Gran Canaria)", "Musée & Parc Archéologique Cueva Pintada"],
+        section: "Peinture murale troglodytique",
+        chips: ["XIe - XVe siècle", "Gáldar (Gran Canaria)", "Musée Cueva Pintada"],
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczO2RC5ehxxblZ2K44QwidcBib5SOlN7sC3keWPoJXodG5zXzkt-ne7X-aHxE4Q6cEGoZElrQwEogHTkdgtDt1y5pklLo1M4FimTD1Wr7TWfvm9xSRDumxgklGc3Lf6mBgR8sZEQEvMjsDPhYo5uy0eGgg=w1351-h755-s-no-gm?authuser=0",
         narrative: "Découverte au cœur du complexe troglodytique de Gáldar, cette frise exceptionnelle orne les parois taillées dans le tuf volcanique. Réalisée à l'aide d'ocres rouges et de terres blanches, sa trame géométrique de carrés et de triangles emboîtés est considérée comme un calendrier astral ou un manifeste cosmologique lié aux solstices."
       },
@@ -120,10 +120,10 @@ const CIVILISATIONS_REGISTRY = [
         century: "XIe - XVe siècle",
         title: "Idoles et statuettes de Gáldar",
         site: "Gáldar (Gran Canaria)",
-        subpart: "Terre cuite modelée rituelle",
+        section: "Terre cuite modelée rituelle",
         chips: ["XIe - XVe siècle", "Résidence royale des Guanartemes", "Gáldar (Gran Canaria)"],
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPI_BBE8wJBjmpcxnbTRKtwv2fCVdy0bQNK6y06rPElbUcFUDfo17OXR0zEVc4AjHr6wnyPi95NRVawjLZy1q5FKUUQPKP2QZn9SWnnA5foXe4u-IyzMErXbQqY6mO1KK4SKwl0LDpQK55RxUDru-XtaQ=w2268-h1512-s-no-gm?authuser=0",
-        narrative: "Découvertes lors des fouilles du complexe troglodytique de la Cueva Pintada, ces statuettes en terre cuite datent principalement de la période comprise entre le XIe et le XVe siècle. Le site de Gáldar était alors l'un des centres politiques et rituels les plus importants de l'île, servant de résidence aux Guanartemes (rois autochtones). Ces figures anthropomorphes stylisées incarnent les divinités protectrices et les symboles de fécondité du monde aborigène canarien."
+        narrative: "Découvertes lors des fouilles du complexe troglodytique de la Cueva Pintada, ces statuettes en terre cuite datent principalement de la période comprise entre le XIe et le XVe siècle. Le site de Gáldar était alors l'un des centres politiques et rituels les plus importants de l'île, servant de résidence aux Guanartemes (rois autochtones)."
       }
     ]
   }
@@ -266,7 +266,7 @@ btnEnterCiv.addEventListener('click', () => {
 });
 
 /* ==========================================================================
-   INTERACTION SYNCHRONIQUE : DÉPLACEMENT COUPE TEMPORELLE
+   DÉPLACEMENT SYNCHRONIQUE & RECONNAISSANCE DU REPÈRE
    ========================================================================== */
 const masterContainer = document.getElementById('master-drag-container');
 let isDragging = false;
@@ -365,8 +365,7 @@ function activateCivilisationView(civ) {
         <div class="beacon-label">${b.name}</div>
       `;
       marker.addEventListener('click', () => {
-        const art = civ.artifacts.find(a => a.id === b.artId) || civ.artifacts[0];
-        openArtifactModal(art, civ);
+        openCivilisationGallery(civ);
       });
       beaconContainer.appendChild(marker);
     });
@@ -394,7 +393,7 @@ function activateCivilisationView(civ) {
       card.addEventListener('click', () => {
         document.querySelectorAll('.sub-node-card').forEach(c => c.classList.remove('active'));
         card.classList.add('active');
-        openArtifactModal(art, civ);
+        openCivilisationGallery(civ);
       });
 
       subStream.appendChild(card);
@@ -416,49 +415,51 @@ function closeCivilisationView() {
 document.getElementById('btn-close-drawer').addEventListener('click', closeCivilisationView);
 
 /* ==========================================================================
-   POP-UP D'EXPOSITION MUSÉALE
+   POP-UP D'EXPOSITION MUSÉALE (DIPTYQUE OU UNIQUE)
    ========================================================================== */
 const modal = document.getElementById('curator-modal');
-const modalImg = document.getElementById('modal-artwork-img');
-const modalCivTitle = document.getElementById('modal-civ-title');
-const modalArtworkTitle = document.getElementById('modal-artwork-title');
-const modalChips = document.getElementById('modal-chips-container');
-const modalNarrative = document.getElementById('modal-narrative-text');
-const modalAlbumBtn = document.getElementById('modal-album-btn');
+const modalDynamicContent = document.getElementById('modal-dynamic-content');
 const btnModalClose = document.getElementById('btn-modal-close');
 
-function openArtifactModal(art, civ) {
-  modalImg.src = art.imgSrc;
-  modalImg.alt = art.title;
-  modalCivTitle.textContent = civ.name;
-  modalArtworkTitle.textContent = art.title;
-  
-  modalChips.innerHTML = '';
-  art.chips.forEach(chip => {
-    const span = document.createElement('span');
-    span.className = 'attr-chip';
-    span.textContent = chip;
-    modalChips.appendChild(span);
-  });
+function openCivilisationGallery(civ) {
+  modalDynamicContent.innerHTML = '';
 
-  modalNarrative.innerHTML = art.narrative;
-  modalAlbumBtn.href = civ.albumUrl;
-  modalAlbumBtn.innerHTML = `
-    Explorer l'album complet : ${civ.name}
-    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-  `;
+  civ.artifacts.forEach(art => {
+    const pane = document.createElement('div');
+    pane.className = 'diptych-pane';
+
+    const chipsHtml = art.chips.map(c => `<span class="attr-chip">${c}</span>`).join('');
+
+    pane.innerHTML = `
+      <div class="diptych-pedestal">
+        <img src="${art.imgSrc}" alt="${art.title}" loading="lazy" />
+      </div>
+      <div class="diptych-notes">
+        <div class="modal-civ-line">${civ.name} • ${art.section}</div>
+        <h2 class="modal-headline">${art.title}</h2>
+        <div class="modal-chips-row">${chipsHtml}</div>
+        <p class="modal-narrative">${art.narrative}</p>
+        <a href="${civ.albumUrl}" target="_blank" rel="noopener noreferrer" class="btn-gold-link">
+          Explorer l'album complet
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+    `;
+
+    modalDynamicContent.appendChild(pane);
+  });
 
   modal.classList.add('open');
 }
 
 btnModalClose.addEventListener('click', () => {
   modal.classList.remove('open');
-  modalImg.src = '';
+  modalDynamicContent.innerHTML = '';
 });
 
 modal.addEventListener('click', (e) => {
   if (e.target === modal) {
     modal.classList.remove('open');
-    modalImg.src = '';
+    modalDynamicContent.innerHTML = '';
   }
 });
