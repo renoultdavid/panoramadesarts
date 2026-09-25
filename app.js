@@ -1,5 +1,5 @@
 /* ==========================================================================
-   REGISTRE COMPLET : AVEC ÉGYPTE (ÉPOQUE THINITE & ANCIEN EMPIRE)
+   REGISTRE COMPLET DES CIVILISATIONS & NOTICES STRUCTURÉES
    ========================================================================== */
 const CIVILISATIONS_REGISTRY = [
   {
@@ -11,19 +11,24 @@ const CIVILISATIONS_REGISTRY = [
     lane: "egypte",
     themeColor: "#2ec4b6",
     sidePos: "pos-left",
-    travelingOrigin: "55.2% 47.0%",
+    travelingOrigin: "54.8% 48.8%",
     haloId: "halo-egypte_ancien",
     bannerImg: "https://lh3.googleusercontent.com/d/1564-Uow3YDKT2Bu7pkKvjlUbMhoJYue_",
     mapOverlayUrl: "https://lh3.googleusercontent.com/d/1ziTqdTOIWmuthiEJmt735P207kfaB075",
     albumUrl: "https://photos.google.com/share/AF1QipN3eyH-IXfJ5tzHs153uMFgtbiZ-T1UONLzfSVpPLodOXWcNGXYMeojYCDX7skI5w?key=dEpRSmZnTkVLb2FuOHJCbjRqZDhDZ1ZDNDhOVkhn",
     presentationHtml: `
-      <p><strong>L'unification des Deux Terres et l'âge des pyramides</strong><br>
-      De la Palette de Narmer fondant la Ire dynastie thinite jusqu'aux splendides mastabas de la VIe dynastie à Saqqarah, l'Ancien Empire pose les canons immuables de la civilisation pharaonique. Autour de Memphis, l'architecture colossale de pierre s'élève avec Imhotep à Saqqarah puis culmine sur le plateau de Gizeh.</p>
-      <p><strong>La quête d'éternité et le réalisme du Ka</strong><br>
-      La statuaire de cour invente des chefs-d'œuvre de sérénité divine (Khéphren protégé par Horus) tout en atteignant un réalisme vibrant dans les effigies de dignitaires destinées aux serdabs funéraires (Le Scribe accroupi, Kaaper Cheikh el-Beled, les couples de notables).</p>
-      <p><strong>Explorez les collections thématiques complètes :</strong></p>
+      <p><strong>L'unification des Deux Terres et l'art d'État</strong><br>
+      À l’aube du IIIe millénaire avant notre ère, l’unification de l’Égypte forge un art d’État. Dès l’époque thinite, la palette de Narmer fixe le canon égyptien et la marche du souverain, tandis que la période archaïque voit naître la stèle funéraire, à l’image de celle du roi Serpent à Abydos.</p>
+      
+      <p><strong>L'âge d'or des bâtisseurs de pyramides</strong><br>
+      Avec l’Ancien Empire s’ouvre un âge d’or architectural sous l’impulsion des bâtisseurs divins. À Saqqarah, Imhotep invente la pierre de taille et érige la pyramide à degrés de Djéser. La IVe dynastie porte cette quête d’éternité à son apogée sur le plateau de Gizeh : les tombeaux géants de Khéops, Khéphren et Mykérinos dominent l’horizon memphite, tandis que le Grand Sphinx veille sur le complexe, mêlant puissance royale et force léonine.</p>
+
+      <p><strong>Majesté royale et réalisme du Ka</strong><br>
+      La sculpture en ronde-bosse magnifie la majesté royale dans des pierres dures et sombres : Khéphren trône sous la protection du faucon Horus sculpté dans la diorite anorthosite, et les triades de Mykérinos dans le schiste traduisent une impeccable rigueur formelle. Parallèlement, la statuaire privée recherche la présence vive et le réalisme des traits : le calcaire peint donne vie au célèbre Scribe accroupi aux yeux incrustés de cristal, aux figures de Rahotep et Nofret, ainsi qu'au bois expressif du Cheik el-Beled (Kaaper).</p>
+
+      <p><strong>Les mastabas et la survie éternelle</strong><br>
+      Autour du monarque, les courtisans se font inhumer dans de massifs mastabas de calcaire. Les chapelles funéraires se couvrent de bas-reliefs peints figurant la vie quotidienne du Nil : agriculture, élevage, chasse dans les marais de papyrus et banquets rituels. Cet art rigoureux obéit à la règle sacrée de l'aspective afin d'assurer magiquement la subsistance éternelle du Ka du défunt.</p>
     `,
-    // Liens vers tes 6 grands albums thématiques
     themeAlbums: [
       { label: "🏺 Céramiques", url: "https://photos.google.com/share/AF1QipMNQ5eY261NXOzCFawVXiW-1pbb7VG4opgoBxJ-TEVNd2BxJp52VopMR2q7kVBtHw?key=SHplem9jdFE2RnhCaXJIR1o4al9UMTI1UHhCc3NB" },
       { label: "📜 Gravures & Parois", url: "https://photos.google.com/share/AF1QipNlo80I8xbcNGWKMI7dnnm5aPtALq8jpsRKJGGdAmNT2TnbEIrd0Y2isWehnlLwbg?key=S0kzelN6N1pyaTlZc21PeWtiOUN0bHZyckVMaGZB" },
@@ -32,7 +37,6 @@ const CIVILISATIONS_REGISTRY = [
       { label: "🪦 Parois des Tombes", url: "https://photos.google.com/album/AF1QipMvAReo-M_8VZNBNi0XN9cnCCA3GdgpYxIN2gpd" },
       { label: "⚰️ Funéraire & Momies", url: "https://photos.google.com/share/AF1QipMPZVPxixftA0xlCWDph7xd49UFkPFHE1yI8RvwsVn_IoUoWO5COMeS__ajWSqZeQ?key=N3RLMkZ0aEtYcFhUb3FLLTl6aXJicDBZM0JRSkJR" }
     ],
-    // 7 œuvres ordonnées chronologiquement du plus ancien au plus récent
     artifacts: [
       {
         id: "coupe_nagada",
@@ -40,6 +44,7 @@ const CIVILISATIONS_REGISTRY = [
         title: "Coupe aux animaux (Gazelles & Girafe) de Basse-Nubie",
         site: "Groupe A (Contemporain de Nagada) - Assouan",
         category: "Céramique & Vases",
+        themeLink: "https://photos.google.com/share/AF1QipMNQ5eY261NXOzCFawVXiW-1pbb7VG4opgoBxJ-TEVNd2BxJp52VopMR2q7kVBtHw?key=SHplem9jdFE2RnhCaXJIR1o4al9UMTI1UHhCc3NB",
         chips: ["Prédynastique / Nagada", "Poterie coquille d'œuf", "Musée de la Nubie (Assouan)"],
         deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczMye-6h_mO7c1IxOVHC6F_onIdMdNCW0ClLSIDdtvJ1x0aiRuMzxKt30uiRVitgdtrCaG05N3b2aSvJvw2G4XSjbzyKEepd413xwlolFNTiHCiZejJ9FG6txJ_l7Jw4PNZwFRXMkMh1LIgaN9NEESMw-g=w1649-h700-s-no-gm?authuser=0",
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMM_50L25yn1FudTooPXRpLY4HiFSoiX3CCtY4xJfZz3eWR4qFoCq2qidmdFkwACVVhKoCpRCoz-QdixsJOspxEr6f-ls1YuW05n0ksHPibOrJNex59vRg1D_Bja6uK7VUNenNu2YYIQ3Pd6NKksFAo3Q=w1649-h1100-s-no-gm?authuser=0",
@@ -51,6 +56,7 @@ const CIVILISATIONS_REGISTRY = [
         title: "La Palette de Narmer (Unification de l'Égypte)",
         site: "Hiérakonpolis (Nekhen)",
         category: "Sculpture & Religion",
+        themeLink: "https://photos.google.com/share/AF1QipMKktAFeuQsVU48UZp-wCDw5qGNUszsvzh_QBac1XDBLcttt82Xt143oxv743tnBQ?key=R1Rsa3V2THo5V0J2cUdZaUFLS20teEdvdXlZa1p3",
         chips: ["Ire Dynastie", "Grauwacke sculptée", "Musée Égyptien du Caire"],
         deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczOQFe-d_JT4988UAwQPPzTbwfyOfMAuwOlFWCjEcn5hHfp7dbOYeXhWPUMcvomgxrDbH0c_NpBYFNdw7nMxe0i48N9cwUAynrrRbH41C0YNONIGhfBpdRIF-NWQpz8q28pbJmBHii9tFSG5yJA_wsAwoA=w1649-h700-s-no-gm?authuser=0",
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNicB1AcSFTTRnI7NSSG3b-G_THRXiLJnlpFcfZpVHtZZwrioDwOPkSvhZ2mc9yQWk5s3yiss8N56WJS-_lZThkbX_hUAcaIq5chFEvYydsT5Cr8MPbLHowfMVTvNm1zMiim7PYYdX0GdmDnYhMiV7BBg=w1607-h2412-s-no-gm?authuser=0",
@@ -62,6 +68,7 @@ const CIVILISATIONS_REGISTRY = [
         title: "Le Scribe accroupi de Saqqarah",
         site: "Nécropole de Saqqarah",
         category: "Statuaire & Dignitaires",
+        themeLink: "https://photos.google.com/share/AF1QipN3eyH-IXfJ5tzHs153uMFgtbiZ-T1UONLzfSVpPLodOXWcNGXYMeojYCDX7skI5w?key=dEpRSmZnTkVLb2FuOHJCbjRqZDhDZ1ZDNDhOVkhn",
         chips: ["IVe-Ve Dynastie", "Calcaire peint & Yeux incrustés", "Musée du Louvre (Paris)"],
         deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO8qJ9X0EbRPQwscIwqRQ7qhHKFuIShIpHCnkgDOrlDhzkMaCikMa0w9FILsuc5tAZ-IWaE9qllZEWwIzzDZbeSjQjh5IibmJDU6ycWvWpMiAnZ6BLpdVvNv-BAnPU-5_tcFcndUrfxL9yLT0soFPSQrQ=w1649-h700-s-no-gm?authuser=0",
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOLXBqZ8wDTWRT74bAjKYENOSQ_ZZ7xvxJvow7jJrXpSLZRUI3N9dMh12MBYkeA-q6XINhTuaYOME2Q1HHqoUJ85beYF_okEtstxmW8CVvNAX6TW7AwZnks45wHO7VUVvoWn1AvIIB-kF36UQFwoX4bJA=w1200-h1600-s-no-gm?authuser=0",
@@ -73,6 +80,7 @@ const CIVILISATIONS_REGISTRY = [
         title: "Khéphren assis sous la protection d'Horus",
         site: "Temple de la Vallée de Khéphren (Gizeh)",
         category: "Sculpture Royale",
+        themeLink: "https://photos.google.com/share/AF1QipN3eyH-IXfJ5tzHs153uMFgtbiZ-T1UONLzfSVpPLodOXWcNGXYMeojYCDX7skI5w?key=dEpRSmZnTkVLb2FuOHJCbjRqZDhDZ1ZDNDhOVkhn",
         chips: ["IVe Dynastie", "Diorite (anorthosite gneiss)", "Musée Égyptien du Caire"],
         deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNYTW5sAtoEIJbW13Sd4VuY6g3Nzw-HdepPHPblCHV2ZN6c-JRhaCMhMXPfEu-29P-pf2fR9t6HC5RMfiZEFkNx2RpGZlf4TvFeZxmQjiekeTtV5e-DGkag-bG4cR07YRE5D-FzrDmHCxrSORtTZoTjJA=w1584-h672-s-no-gm?authuser=0",
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPfy6tE5gJfzkd2cczUq7IqhIsMoEjyd3O5rAaPeoHxDfY1MBF83o98oTx7J4vbIuQ85SBFKnvndC-BL-D0E2vvZFgNFexx6m503n4DNmEjaKnpEZGBvu4Cyd7wsjuHEfq1YOXCGENUareMOhGlK05z6Q=w1607-h2412-s-no-gm?authuser=0",
@@ -84,8 +92,9 @@ const CIVILISATIONS_REGISTRY = [
         title: "Statue en bois de Kaaper (Cheikh el-Beled)",
         site: "Mastaba de Kaaper (Saqqarah)",
         category: "Statuaire en bois",
+        themeLink: "https://photos.google.com/share/AF1QipN3eyH-IXfJ5tzHs153uMFgtbiZ-T1UONLzfSVpPLodOXWcNGXYMeojYCDX7skI5w?key=dEpRSmZnTkVLb2FuOHJCbjRqZDhDZ1ZDNDhOVkhn",
         chips: ["Ve Dynastie", "Bois de sycomore & Yeux incrustés", "Musée Égyptien du Caire"],
-        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO8qJ9X0EbRPQwscIwqRQ7qhHKFuIShIpHCnkgDOrlDhzkMaCikMa0w9FILsuc5tAZ-IWaE9qllZEWwIzzDZbeSjQjh5IibmJDU6ycWvWpMiAnZ6BLpdVvNv-BAnPU-5_tcFcndUrfxL9yLT0soFPSQrQ=w1649-h700-s-no-gm?authuser=0",
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNYTW5sAtoEIJbW13Sd4VuY6g3Nzw-HdepPHPblCHV2ZN6c-JRhaCMhMXPfEu-29P-pf2fR9t6HC5RMfiZEFkNx2RpGZlf4TvFeZxmQjiekeTtV5e-DGkag-bG4cR07YRE5D-FzrDmHCxrSORtTZoTjJA=w1584-h672-s-no-gm?authuser=0",
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczORFqzVMHsM75AE3fdEJ87u-BAq8j8KdBPilurDsJ3PGp5IaN2XpSvPxskv5oA5oRGvKN5ImVslpNURkv63AqXQ4TVJcX-n19xBI4ktIPvsK9XEXwC7aGIURhM4rbv7XIAPbizJn3oAbdhfrcL_Uf67dQ=w1607-h2412-s-no-gm?authuser=0",
         narrative: "Sculptée dans du bois de sycomore, cette effigie du prêtre-lecteur Kaaper est célèbre pour son réalisme et ses yeux incrustés de quartz et cristal de roche cerclés de cuivre. Surnommée « Cheikh el-Beled » (le maire du village) par les ouvriers de Mariette en raison de sa ressemblance troublante avec leur édile, cette statue de serdab fixait pour l'éternité les traits prospères d'un haut dignitaire de l'Ancien Empire."
       },
@@ -95,6 +104,7 @@ const CIVILISATIONS_REGISTRY = [
         title: "Groupe statuaire d'un couple de hauts dignitaires",
         site: "Nécropole memphite (Saqqarah)",
         category: "Statuaire privée",
+        themeLink: "https://photos.google.com/share/AF1QipN3eyH-IXfJ5tzHs153uMFgtbiZ-T1UONLzfSVpPLodOXWcNGXYMeojYCDX7skI5w?key=dEpRSmZnTkVLb2FuOHJCbjRqZDhDZ1ZDNDhOVkhn",
         chips: ["Ve Dynastie", "Calcaire peint polychrome", "Serdab de mastaba"],
         deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNYTW5sAtoEIJbW13Sd4VuY6g3Nzw-HdepPHPblCHV2ZN6c-JRhaCMhMXPfEu-29P-pf2fR9t6HC5RMfiZEFkNx2RpGZlf4TvFeZxmQjiekeTtV5e-DGkag-bG4cR07YRE5D-FzrDmHCxrSORtTZoTjJA=w1584-h672-s-no-gm?authuser=0",
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOLCdzNwAXr084c0pxnmKjAE4TtFjKxrDIjneJ0zCLD2aichfmzlQTJDe79jonsyYp9Om9B2j4ckbEGQ_OtzUNRWP0b6ZkE_-hsYl-hNVG5MdB0mcM7SsTghkQPkL39shleQzjSfIavMi9gy26KpGl41A=w1649-h2191-s-no-gm?authuser=0",
@@ -106,8 +116,9 @@ const CIVILISATIONS_REGISTRY = [
         title: "Fausse porte et scènes pastorales du vizir Mererouka",
         site: "Saqqarah Nord (Règne de Téti)",
         category: "Bas-reliefs & Tombes",
+        themeLink: "https://photos.google.com/album/AF1QipMvAReo-M_8VZNBNi0XN9cnCCA3GdgpYxIN2gpd",
         chips: ["VIe Dynastie", "Calcaire gravé et peint", "Mastaba de Mererouka"],
-        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEmmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w1649-h700-s-no-gm?authuser=0",
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEmmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w3020-h1282-s-no-gm?authuser=0",
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMIsusTWlnfYdbwaQLQiaMOjpnaS03z7JxD9vLdM5eb6brCCq3DOd89FL7fRDIlHoCsx6ZvuvGfDV6YEapLcwjmpf_vOMuDqZtO1ER23u6VspZjyKXl8OmFAkzYYTS5AMaqJKyGShXwtXKhOeY0cOalLQ=w1649-h1100-s-no-gm?authuser=0",
         narrative: "Élément spirituel central de l'un des plus vastes mastabas de Saqqarah, la fausse porte permettait au Ka du vizir Mererouka de franchir le mur pour recevoir les offrandes des vivants. Les parois de la chapelle sont couvertes de bas-reliefs polychromes d'une virtuosité exceptionnelle, dépeignant le gavage et les soins apportés aux bovins et hyènes domestiquées, assurant la subsistance magique éternelle du dignitaire."
       }
@@ -128,8 +139,14 @@ const CIVILISATIONS_REGISTRY = [
     mapOverlayUrl: "https://lh3.googleusercontent.com/d/10gH81IQljJs7i2rFEQK_O6hqRJlt5y4j",
     albumUrl: "https://photos.google.com/share/AF1QipMnn_CMAHk2s1w8_h2RauhjNNCt21MFWbRDPmz1Iwj3H9ZqQAAsXTaBKylKpOq-lg?key=SHZuTHVkNW9YZ2xleTl3bTZickotQWVsSnpSZkF3",
     presentationHtml: `
-      <p><strong>La splendeur des citadelles guerrières</strong><br>
-      Érigée derrière de colossaux remparts cyclopéens (la Porte des Lionnes), Mycènes domine la Grèce continentale à l'âge du Bronze récent. Héritiers des raffinements crétois, les seigneurs mycéniens développent un art de cour martial et monumental, affirmant la toute-puissance des rois (wanax) à travers des tombes à fosse d'une opulence légendaire.</p>
+      <p><strong>Puissance martiale et architecture cyclopéenne</strong><br>
+      Épanouie en Grèce continentale au cours du second millénaire avant notre ère, la civilisation mycénienne marque l’âge du bronze récent d’une empreinte martiale. Son art se déploie d’abord dans une architecture monumentale caractérisée par de puissantes forteresses aux murs cyclopéens (Mycènes, Tirynthe) abritant le mégaron, cœur du pouvoir palatial, tandis que la célèbre porte des Lionnes affirme la force symbolique des souverains.</p>
+
+      <p><strong>L'or des tombes royales et l'armement d'apparat</strong><br>
+      Le monde funéraire témoigne d’une maîtrise exceptionnelle du travail des métaux, révélée par les tombes à fosse et les grands tombeaux circulaires à coupole (tholos). Les princes mycéniens y étaient inhumés vêtus de masques d’or battu au repoussé, dont le magistral masque attribué à tort par Schliemann à Agamemnon. L’armement d’apparat illustre un raffinement inouï par l’incrustation de niellure sur des lames de poignards en bronze figurant des chasses au lion.</p>
+
+      <p><strong>Fresques héroïques et céramique standardisée</strong><br>
+      Héritiers de l’art minoen, les Mycéniens ornent leurs palais de fresques colorées privilégiant les défilés de guerriers, les chars de combat et les processions solennelles (La Dame de Mycènes). La céramique, abondamment exportée à travers toute la Méditerranée orientale, évolue vers des motifs stylisés, accompagnée de petites figurines votives en terre cuite aux formes de lettres grecques (idoles en phi ou psi). Cet art aristocratique posera les bases des mythes épiques de l’époque classique.</p>
     `,
     artifacts: [
       {
@@ -159,8 +176,14 @@ const CIVILISATIONS_REGISTRY = [
     mapOverlayUrl: "https://lh3.googleusercontent.com/d/11cdGX8oS_6Q_8BZaQ5gGjiREIFlKukA2",
     albumUrl: "https://photos.google.com/share/AF1QipNJXU5aih6CKBSCrN4pP6P5l0AplswBz64lNNpyoV_8FhUrBnY4DVaQKdDXOysWHQ?key=cXFoM2gzaHZ1RnlyV3lVendpbmdFZ1RSYXRSTWtn",
     presentationHtml: `
-      <p><strong>L'abstraction pure du marbre insulaire</strong><br>
-      Au IIIe millénaire avant notre ère, l'archipel des Cyclades développe un art lapidaire unique au monde. Façonnées dans le marbre blanc de Paros ou de Naxos et polies à l'émeri, les célèbres idoles féminines au nez pyramidal et aux bras croisés incarnent un idéal de pureté géométrique d'une modernité absolue.</p>
+      <p><strong>L'abstraction géométrique du marbre insulaire</strong><br>
+      Né au cœur de la mer Égée durant le IIIe millénaire avant notre ère, l’art cycladique s’est épanoui au sein de l’archipel grec des Cyclades. Cette culture de l’âge du bronze ancien est avant tout célèbre pour son marbre d’une blancheur éclatante extrait de Naxos et Paros. Au centre de cette production figurent les fameuses statuettes anthropomorphes féminines aux proportions harmonieuses : bras repliés sur le ventre, tête rejetée en arrière sur un cou cylindrique, et visage ovale où seul émerge un nez triangulaire en relief.</p>
+
+      <p><strong>Polychromie originelle et vaisselle cérémonielle</strong><br>
+      À l'origine, ces figures épurées étaient rehaussées de vives couleurs minérales : des pigments rouges et bleus soulignaient les yeux, les mèches de cheveux et des motifs faciaux rituels. Aux côtés de ces idoles figurent de rares représentations masculines de musiciens (joueurs de lyre de Kéros), une vaisselle raffinée en pierre polie, et d’énigmatiques récipients rituels en terre cuite ornés de spirales marines et de navires (les « poêles à frire »).</p>
+
+      <p><strong>Une résonance moderne</strong><br>
+      Déposées principalement au sein des tombes pour remplir un rôle spirituel et votif, ces pièces d'une étonnante pureté formelle ont profondément marqué l'art du XXe siècle, inspirant des maîtres modernes comme Constantin Brancusi et Alberto Giacometti.</p>
     `,
     artifacts: [
       {
@@ -171,7 +194,7 @@ const CIVILISATIONS_REGISTRY = [
         category: "Sculpture en marbre",
         chips: ["Bronze Ancien II", "Marbre blanc poli", "Type canonique de Spedos"],
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczN9iP7Fcc8FrBL9usiPRWeijaLndwYYacpAiifNY8ybz4htaHhgrTMfzRcaCrzV6fXGr2BJQopM4NP5Byn4UAsG0GLQnhaxXuOA1hdq5iXKuoivviypjT2Y4oAyByf65ZZC7HVIE-YNCXw_95yQP4iH1A=w1607-h2410-s-no-gm?authuser=0",
-        narrative: "Haute de 1,5 mètre, cette œuvre monumentale sculptée dans le marbre blanc de Paros constitue l'un des sommets de la statuaire cycladique du Bronze ancien."
+        narrative: "Haute de 1,5 mètre, cette œuvre monumentale sculptée dans le marbre blanc de Paros constitue l'un des sommets de la statuaire cycladique du Bronze ancien. Appartenant au type canonique de Spedos, elle se caractérise par sa tête en lyre au nez pyramidal, ses bras repliés sous la poitrine et son profil étiré d'une rigueur géométrique saisissante."
       }
     ]
   },
@@ -190,8 +213,14 @@ const CIVILISATIONS_REGISTRY = [
     mapOverlayUrl: "https://lh3.googleusercontent.com/d/1-RyywCVU5Ct2McoKupe9Z2OnXrnDSJ9r",
     albumUrl: "https://photos.google.com/share/AF1QipMlW4TQJ8A9qGbcmVyMNAsLLD3a9pwHTBsx-qcnMuuYdqlbjXgrrncpHaXoLLK0LA?key=LTdfMHQ4VHdhNmJ4WEI2bFRtU2xTaHpCeHM2bEZR",
     presentationHtml: `
-      <p><strong>L'âge des premiers et seconds palais</strong><br>
-      Au cœur de la mer Égée, la civilisation minoenne édifie autour de Cnossos, Phaistos et Malia un modèle palatial raffiné sans équivalent.</p>
+      <p><strong>Vitalité du mouvement et célébration de la nature</strong><br>
+      L'art crétois minoen se distingue par une liberté de formes unique dans l'Antiquité. Contrairement à la solennité hiératique d'Égypte ou de Mésopotamie, l'esthétique minoenne privilégie le dynamisme, la souplesse et une communion profonde avec le vivant. Les fresques des palais de Cnossos et Phaistos font éclater des couleurs vives illustrant la faune marine, la flore printanière et les rituels spectaculaires du saut au-dessus du taureau (taurokathapsia).</p>
+
+      <p><strong>Céramique animée et orfèvrerie virtuose</strong><br>
+      Dans la céramique, l'ingéniosité crétoise passe de la polychromie complexe du « style de Kamarès » au célèbre « style marin », où les vases semblent palpiter sous les tentacules des pieuvres et les rochers sous-marins. Les artisans excellent également dans les arts précieux (bijoux en or filigrané, sceaux en cristal de roche et stéatite taillée), démontrant une compréhension magistrale du volume organique.</p>
+
+      <p><strong>L'architecture du palais-labyrinthe</strong><br>
+      Conçus autour de vastes cours centrales aérées de colonnes inversées en bois peint, les palais crétois intègrent une riche symbolique sacrée dominée par la double hache (labrys) et les cornes de consécration. En refusant la monotonie au profit de l'harmonie entre l'homme et son milieu, l'art minoen a posé les bases de la recherche esthétique grecque.</p>
     `,
     artifacts: [
       {
@@ -202,7 +231,7 @@ const CIVILISATIONS_REGISTRY = [
         category: "Céramique rituelle",
         chips: ["Bronze récent", "Terre cuite peinte", "Double hache (Labrys)"],
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPnUuU-MK0sDhtORjZeb_6whI6M33RtfIsbTkuuC6TjPIS8ppTuXw7T6kz2TtxYtoxJ21EI3qjAzNB-zxU3qXd76rMvXNBD85NjTnUlss-WsvMcoZwQc84ExK_TVdXRD2OV_8eIvWE_yeUf_t778xEaRQ=w1814-h2410-s-no-gm?authuser=0",
-        narrative: "Ce rhyton de libation adopte la silhouette d'une tête de taureau, motif religieux central de la Crète minoenne."
+        narrative: "Ce rhyton de libation adopte la silhouette d'une tête de taureau, motif religieux central de la Crète minoenne, orné sur le front de la double hache sacrée (labrys)."
       }
     ]
   },
@@ -221,8 +250,14 @@ const CIVILISATIONS_REGISTRY = [
     mapOverlayUrl: "https://lh3.googleusercontent.com/d/1QNkcnjOVZ9nSJxO2vXusVWgC04EmaUcO",
     albumUrl: "https://photos.google.com/share/AF1QipORn4Sj9GchtBwLRq4DuZRFxHqmcBvuxx8uA2_VwycbpRi8amqI-iK7UvkQSi6apA?key=ZmJweFhiZEJySU1rUms2REJFWm1jZ1YwQjFMczJ3",
     presentationHtml: `
-      <p><strong>Le carrefour de cuivre de la Méditerranée</strong><br>
-      Située au carrefour de l'Égée, de l'Égypte et du Levant, Chypre développe un répertoire d'une grande liberté formelle.</p>
+      <p><strong>Un carrefour méditerranéen de synthèse et de liberté</strong><br>
+      Façonné par sa position charnière entre le monde égéen, le Levant et l'Égypte, l'art chypriote absorbe les influences extérieures pour les fondre dans un langage esthétique profondément autonome, caractérisé par une étonnante liberté formelle et une prédilection pour le décoratif.</p>
+
+      <p><strong>La terre du cuivre et l'essor de la céramique</strong><br>
+      Dès le IIIe millénaire avec ses idoles cruciformes en picrolite, puis au Bronze récent grâce à l'exploitation intensive de ses mines de cuivre (lingots en peau de bœuf), l'île s'impose comme une plaque tournante de l'artisanat de luxe. Les ateliers créent des formes céramiques originales (vases zoomorphes lustrés rouges) et des figurines féminines cultuelles en bec d'oiseau marquant la dévotion populaire.</p>
+
+      <p><strong>L'apogée archaïque et le style franc</strong><br>
+      Aux VIIe et VIe siècles av. J.-C., l'artisanat chypriote culmine avec la céramique « Bichrome » et le « style franc » (free-field), libérant les oiseaux et fleurs de lotus sur la panse des vases sans carcan géométrique. Dans la statuaire de calcaire et de terre cuite, les visages aux yeux en amande adoptent un sourire archaïque d'inspiration grecque tout en conservant la solennité ornementale du Proche-Orient.</p>
     `,
     artifacts: [
       {
@@ -233,7 +268,7 @@ const CIVILISATIONS_REGISTRY = [
         category: "Céramique",
         chips: ["Bronze moyen", "Terre cuite rouge lustrée", "Incisions blanches"],
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMwaWZj9ZJS2rx_hwQzKXMrX8T-dW4KCyKq_as5_5nanYRBp8H68Piwtsg-C3BSAS-3ySv-e2v2Jem2O_e-x_iRkqIa8i3-TeAZXdbsc8USM5CIYq7hClkqpkUvMzjv1YvWtGSe71r8y_G-Xx27lGlerw=w1814-h2410-s-no-gm?authuser=0",
-        narrative: "Ce vase zoomorphe représente un quadrupède sauvage dont le corps globulaire sert de panse et le cou de goulot verseur."
+        narrative: "Ce vase zoomorphe représente un quadrupède sauvage dont le corps globulaire sert de panse et le cou de goulot verseur, orné de motifs géométriques et végétaux incisés."
       }
     ]
   },
@@ -252,8 +287,14 @@ const CIVILISATIONS_REGISTRY = [
     mapOverlayUrl: "https://lh3.googleusercontent.com/d/1ZFqo_BVU5BBUN4mpNGlMeBOm91xXLtZt",
     albumUrl: "https://photos.google.com/share/AF1QipN97zbv-suncBTa6iOfDQyMggpdDV-ktXSY4EJ2KenZ4zqHUwifE_nIBb6FYB0Y6g?key=WHlZSlNIb19jTnoyaExjWWN3TFZFUC1xeTB3bmRn",
     presentationHtml: `
-      <p><strong>L'aristocratie princière et l'apogée de La Tène</strong><br>
-      De Hallstatt à la société des oppida, l'art celtique développe son langage curviligne d'entrelacs et d'orfèvrerie d'apparat.</p>
+      <p><strong>L'art métamorphique et le refus du réalisme</strong><br>
+      L'art celtique du second âge du Fer (La Tène) rompt délibérément avec le naturalisme méditerranéen pour capturer les forces sacrées de la nature. Maîtres du compas, les artistes celtes créent un langage visuel d'une virtuosité absolue fondé sur la courbe, l'entrelacs de rinceaux, de lyres et de palmettes déconstruites, dissimulant des masques humains et animaux au sein d'une trame en perpétuelle métamorphose.</p>
+
+      <p><strong>La céramique tournée et la cuisson réductrice</strong><br>
+      La poterie gauloise connaît une véritable révolution technique avec l'adoption du tour rapide. En pratiquant une cuisson en atmosphère réductrice (privée d'oxygène), les artisans obtiennent des surfaces anthracites ou noires métallisées d'une grande élégance. Les vases balustres et formes carénées sont sculptés de cannelures régulières, de peignages et de lissages lustrés.</p>
+
+      <p><strong>Sculpture funéraire et virtuosité des métaux</strong><br>
+      Dans l'Ouest armoricain, les stèles monumentales en granite dressées au-dessus des sépultures affirment la puissance des lignages et la présence des ancêtres. Cet univers plastique culmine dans le travail de l'or et du bronze (torques, casques d'apparat, épées gravées), où le repoussé, la fonte à la cire perdue et les émaux rouges ajoutent éclat et relief aux attributs des élites guerrières.</p>
     `,
     artifacts: [
       {
@@ -264,7 +305,7 @@ const CIVILISATIONS_REGISTRY = [
         category: "Sculpture & Stèle",
         chips: ["Second âge du Fer", "Monolithe en granite", "Jublains (Diablintes)"],
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNQ8lMq99-7bAoU4NMqEU8OjQrSrsHG8xGzpXtI0ktR3Uji1wDR7JydwrZc2-EntLOHJco7ti5F1QUaiA5kU_IAE3EoeVoRXa_PUj4rhHLk_mczJUW8oMd-e18JVRFZKu0CHtgWkiTL8KpwzTfpOECzIQ=w1607-h2410-s-no-gm?authuser=0",
-        narrative: "Monolithe oblong en granite marquant l'emplacement d'une sépulture aristocratique."
+        narrative: "Monolithe oblong en granite marquant l'emplacement d'une sépulture aristocratique et le culte des ancêtres au cœur de l'Armorique antique."
       }
     ]
   },
@@ -283,8 +324,14 @@ const CIVILISATIONS_REGISTRY = [
     mapOverlayUrl: "https://lh3.googleusercontent.com/d/1gX2vOwXzj3jIMMvx2P5DAAQkjfkZ1anc",
     albumUrl: "https://photos.google.com/share/AF1QipN2ccGraobqmNhsyQhn1XQYZmas-d6wNnWsUE7X6q_zzAIytbnOH6GGkVB_WU95AQ?key=Mkc1WGhlQmRIY1VpenkzMG1SNzdHczVWcjI4MGZ3",
     presentationHtml: `
-      <p><strong>L'éveil métallurgique et les dépôts votifs</strong><br>
-      D'Únětice aux Champs d'Urnes, l'âge du Bronze européen s'illustre par la diffusion des armes d'apparat et des parures.</p>
+      <p><strong>L'éveil métallurgique et les origines du monde celtique</strong><br>
+      L'art de l'âge du Bronze en Europe occidentale pose les jalons esthétiques et techniques de l'expression celtique historique. Dès le début du IIe millénaire avant notre ère, l'essor des réseaux d'échanges d'étain et de cuivre permet l'émergence, au sein des communautés proto-celtiques, d'un langage plastique fondé sur la maîtrise virtuose de la métallurgie.</p>
+
+      <p><strong>Le culte solaire et la rigueur géométrique</strong><br>
+      Cet univers visuel privilégie une abstraction rigoureuse et une symbolique marquée par le culte solaire : cercles concentriques, spirales, chevrons, ainsi que des représentations stylisées de barques et d'oiseaux aquatiques ornent la vaisselle de bronze martelée, les armes de prestige et les riches parures en or (lunules, torques, brassards).</p>
+
+      <p><strong>L'aristocratie des Tumulus et les dépôts sacrés</strong><br>
+      De la culture d'Únětice aux nécropoles sous tertres de la culture des Tumulus, puis aux crémations en urnes des Champs d'Urnes, la pratique de l'enfouissement volontaire de dépôts votifs dans les cours d'eau, tourbières ou cavités souterraines devient le rituel emblématique de l'affirmation sociale et de la dévotion aux forces telluriques.</p>
     `,
     artifacts: [
       {
@@ -314,8 +361,14 @@ const CIVILISATIONS_REGISTRY = [
     mapOverlayUrl: "https://lh3.googleusercontent.com/d/1O9GXVfPkuswX5DorBUgBxfZc-209aoh8",
     albumUrl: "https://photos.google.com/share/AF1QipPVAXqBqZTRYy0G2k4dekN1B26P4qiDwAk_6z_C-Kx6eIyhtxN2miXjHY6tXfzPIw?pli=1&key=cW1TT0ZhWXFGeDBmU1F2SGl1VEw0d0FOMjR6MVVn",
     presentationHtml: `
-      <p><strong>L'esthétique palatiale et la statuaire royale</strong><br>
-      De Mari à Alalakh, les cours amorrites forgent des représentations souveraines d'une majesté nouvelle.</p>
+      <p><strong>Une synthèse monumentale au Proche-Orient</strong><br>
+      L'art amorrite représente une phase de transition et de synthèse majeure dans l'histoire de la Syrie et de la Mésopotamie (v. 2000 à 1500 av. J.-C.). Peuple sémite d'origine pastorale, les Amorrites fondent de puissantes dynasties sédentaires (Mari, Yamhad, Babylone) qui favorisent l'émergence d'un style royal affirmé, magnifié par l'immense Palais de Mari sous le règne de Zimri-Lim et ses fresques d'apparat.</p>
+
+      <p><strong>La statuaire souveraine et l'effigie du pouvoir</strong><br>
+      La statuaire évolue vers des formes massives taillées dans le basalte ou le calcaire local. Les rois sont représentés avec des insignes spécifiques : le bonnet arrondi à large bord et le manteau à bordure épaisse (le bourrelet syrien), illustrés sur les statues de Mari ou celle d'Idrimi à Alalakh. Les visages conservent de grands yeux incrustés, mais les traits s'individualisent avec une solennité nouvelle.</p>
+
+      <p><strong>Fresques de cour et orfèvrerie cosmopolite</strong><br>
+      La peinture murale atteint des sommets avec la célèbre « Fresque de l'Investiture » de Mari, affirmant l'origine divine de la royauté au milieu de sphinx et de griffons. Parallèlement, l'essor de la glyptique et de l'orfèvrerie témoigne d'échanges constants avec l'Égypte, les Hittites et le monde égéen, préfigurant le cosmopolitisme du Levant à l'âge du Bronze.</p>
     `,
     artifacts: [
       {
@@ -345,8 +398,14 @@ const CIVILISATIONS_REGISTRY = [
     mapOverlayUrl: "https://lh3.googleusercontent.com/d/1ziawwYwQzmU4SOv1gjkHRXMT9-F7VkVU",
     albumUrl: "https://photos.google.com/share/AF1QipOwPyxi1kZR99upRbCwV7EqcTxAKq16-jOtDDeEeuI_blfV8DNa1ggU6u3127sf3g?key=ck5BSW5yQlgtazlDZXB2b0Ftd0NMYUpiTWJZSGR3",
     presentationHtml: `
-      <p><strong>L'art minéral et sacré des peuples insulaires</strong><br>
-      Dans un isolement de deux millénaires, les populations autochtones subliment la terre cuite et le tuf volcanique.</p>
+      <p><strong>Un univers esthétique insulaire et préhistorique</strong><br>
+      Développé en isolation du continent africain pendant plus d'un millénaire jusqu'à la conquête espagnole de 1496, l’art des anciens Canariens (Guanches, Canariens, Bimbaches) se caractérise par une maîtrise exceptionnelle de la terre cuite, de la pierre volcanique et des pigments naturels, sans jamais avoir connu l'usage du métal ni du tour de potier.</p>
+
+      <p><strong>Idoles de fertilité et sceaux géométriques</strong><br>
+      La production céramique se distingue par deux créations symboliques majeures : les idoles anthropomorphes stylisées aux formes féminines exagérées liées à la fécondité (Idole de Tara), et les pintaderas, sceaux en terre cuite aux motifs géométriques complexes (triangles, damiers, cercles) servant aux parures corporelles ou au marquage des silos collectifs.</p>
+
+      <p><strong>Fresques rupestres et sanctuaire troglodytique</strong><br>
+      L'art s'ancre directement dans la roche : la spectaculaire Cueva Pintada de Gáldar dévoile des parois taillées dans le tuf ornées de frises géométriques polychromes (ocres et terres blanches), interprétées comme un calendrier astral ou un manifeste cosmologique, complété par de nombreuses gravures rupestres et inscriptions libyco-berbères.</p>
     `,
     artifacts: [
       {
@@ -428,7 +487,6 @@ CIVILISATIONS_REGISTRY.forEach((civ) => {
     if (!isLockedSidebar) hideCivPreview();
   });
 
-  // CLIC : FERMETURE OBLIGATOIRE DE TOUTE CARTE RÉGIONALE POUR RETOURNER À LA CARTE MONDE
   block.addEventListener('click', (e) => {
     e.stopPropagation();
     closeCivilisationView();
@@ -478,7 +536,6 @@ function showCivPreview(civ) {
     sidebarBannerBox.style.display = 'none';
   }
 
-  // Grille transversale d'albums (ex: Égypte)
   sidebarAlbumGrid.innerHTML = '';
   if (civ.themeAlbums && civ.themeAlbums.length > 0) {
     civ.themeAlbums.forEach(item => {
@@ -598,7 +655,7 @@ setTimeout(() => {
 }, 400);
 
 /* ==========================================================================
-   CARTE DÉDIÉE : AFFICHAGE IMMÉDIAT SANS PASTILLES
+   CARTE DÉDIÉE : AFFICHAGE FIXE SANS PASTILLES
    ========================================================================== */
 const globalMapImg = document.getElementById('global-map-img');
 const civOverlayMap = document.getElementById('civilisation-map-overlay');
@@ -663,7 +720,7 @@ function closeCivilisationView() {
 document.getElementById('btn-close-drawer').addEventListener('click', closeCivilisationView);
 
 /* ==========================================================================
-   POP-UP D'EXPOSITION MUSÉALE : BANDEAU THÉMATIQUE & NAVIGATION
+   POP-UP D'EXPOSITION MUSÉALE : FORMAT HORIZONTAL AGRANDI & DÉPARTEMENT
    ========================================================================== */
 const modal = document.getElementById('curator-modal');
 const modalDeptBannerBox = document.getElementById('modal-dept-banner-box');
@@ -705,7 +762,6 @@ function openArtworkModal(civ, activeIdx = 0) {
 function renderArtworkContent(civ, idx) {
   const art = civ.artifacts[idx];
   
-  // Affichage du bandeau de département s'il existe pour l'œuvre
   if (art.deptBanner) {
     modalDeptBannerImg.src = art.deptBanner;
     modalDeptBannerBox.style.display = 'block';
@@ -728,9 +784,11 @@ function renderArtworkContent(civ, idx) {
   });
 
   modalNarrative.innerHTML = art.narrative;
-  modalAlbumBtn.href = civ.albumUrl;
+  
+  modalAlbumBtn.href = art.themeLink || civ.albumUrl;
+  const labelCat = art.category ? `la collection : ${art.category}` : `la collection complète`;
   modalAlbumBtn.innerHTML = `
-    Explorer l'album complet : ${civ.name}
+    Explorer ${labelCat}
     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
   `;
 }
