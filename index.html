@@ -112,26 +112,11 @@
 
   </div>
 
-  <!-- MODALE POP-UP EXPOSITION (GRIS DE PAYNE) -->
+  <!-- MODALE DIPTYQUE D'EXPOSITION (GRIS DE PAYNE) -->
   <div id="curator-modal">
-    <div class="curator-frame">
+    <div class="curator-frame" id="modal-container-frame">
       <button class="btn-dismiss-modal" id="btn-modal-close">&times;</button>
-      
-      <div class="modal-pedestal-col">
-        <img id="modal-artwork-img" src="" alt="Objet d'art de la collection" loading="lazy" />
-      </div>
-
-      <div class="modal-notes-col">
-        <div class="modal-civ-line" id="modal-civ-title">Civilisation</div>
-        <h2 class="modal-headline" id="modal-artwork-title">Titre de l'Œuvre</h2>
-        <div class="modal-chips-row" id="modal-chips-container"></div>
-        <p class="modal-narrative" id="modal-narrative-text">Notice détaillée...</p>
-
-        <a href="#" target="_blank" rel="noopener noreferrer" class="btn-gold-link" id="modal-album-btn">
-          Explorer l'album complet
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-        </a>
-      </div>
+      <div id="modal-dynamic-content" class="modal-multi-body"></div>
     </div>
   </div>
 
