@@ -1,7 +1,45 @@
 /* ==========================================================================
-   REGISTRE STRICT : CANARIES & AMORRITES
+   REGISTRE STRICT : CANARIES, AMORRITES, ART CELTE DU BRONZE
    ========================================================================== */
 const CIVILISATIONS_REGISTRY = [
+  {
+    id: "celte_bronze",
+    name: "Art Celte du Bronze (Europe)",
+    epoch: "v. -2200 à -800 av. J.-C.",
+    yearStart: -2200,
+    yearEnd: -800,
+    lane: "europe_ouest",
+    themeColor: "#2a9d8f",
+    sidePos: "pos-left",
+    travelingOrigin: "49.5% 36.8%",
+    haloId: "halo-celte_bronze",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczNeGi9CeQnVZ0W8vPbx0jodOMhg6-U-KG1RWY5FKuhdbkyiT-iSkT_XR1V1NGGO9m3Us2LF_p2md8GdF4hAnaTp0Bf05pEXDuSPiBFtHM2FjgA2ZTxIDPJ_96SpfO-bGNnsO44jw8COUI9sW93SROp_kQ=w2599-h1103-s-no-gm?authuser=0",
+    mapOverlayUrl: "https://lh3.googleusercontent.com/d/1yefzYZ2Bba87SlkjoIM8Cv-1QclchGdN",
+    albumUrl: "https://photos.google.com",
+    presentationHtml: `
+      <p><strong>L'éveil métallurgique et la culture d'Únětice</strong><br>
+      Dès le début du IIe millénaire avant notre ère, l'Europe centrale et occidentale s'organise autour de réseaux d'échanges d'étain et de cuivre. La culture d'Únětice (Bronze ancien) marque l'essor d'élites guerrières et commerçantes, illustré par des poignards triangulaires en bronze, des hallebardes et des pièces d'apparat en or.</p>
+      <p><strong>L'aristocratie de la Culture des Tumulus</strong><br>
+      Au Bronze moyen (v. -1600 à -1300), le rite funéraire s'uniformise sous de vastes tertres funéraires circulaires (tumulus). Les défunts sont inhumés avec leur armement de prestige (premières épées à languette, haches à talon) et des parures complexes (épingles torsadées, bracelets spiralés), témoignant d'une hiérarchie sociale affirmée.</p>
+      <p><strong>Révolution des Champs d'Urnes et pratique des dépôts</strong><br>
+      Au Bronze final (v. -1300 à -800), la rupture spirituelle des Champs d'Urnes (Urnfield) impose la crémation et le recueil des cendres dans des urnes de céramique enfouies en nécropoles denses. Cette ère voit culminer le « phénomène des dépôts » : enfouissements rituels massifs d'outils, d'armes et de lingots dans les cours d'eau, tourbières ou cavités souterraines, entre offrandes votives aux forces telluriques et thésaurisation collective.</p>
+    `,
+    beacons: [
+      { name: "Dépôt de Jublains (Mayenne)", top: "34%", left: "46%", artId: "depot_jublains" }
+    ],
+    artifacts: [
+      {
+        id: "depot_jublains",
+        century: "Bronze moyen et final (-1500 à -800)",
+        title: "Dépôt de haches à talon et parures de Jublains",
+        site: "Musée archéologique départemental de Jublains",
+        subpart: "Ensemble votif en alliage cuivreux à patine verte",
+        chips: ["Âge du Bronze", "Jublains (Mayenne)", "Haches à talon & Parures annulaires"],
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMDKuI_TJU5jFc6SYvcfxQYMyLAxo_Er1aGNAFST7fBciWLXuMara_i-InT_5a4JadEykH_U5NohJtceGLLNyrgygDvzoLfxc4d3YuA_LAUxM59s6iLGsMybtdwHkWdmTVQnj3B1RagX4Uu4B20Q3CV6w=w2599-h1733-s-no-gm?authuser=0",
+        narrative: "Découvert en Mayenne, cet ensemble de pièces en alliage cuivreux à patine verte illustre le savoir-faire métallurgique du Bronze moyen et final. Les haches à talon perfectionnent l'emmanchement coudé grâce à leur bélière latérale, servant à la fois d'outils, d'armes et de réserves prémonétaires. À leurs côtés, des anneaux et bracelets de bras décorés d'incisions géométriques témoignent de la pratique délibérée des dépôts enfouis, interprétés comme des offrandes rituelles aux divinités ou des réserves d'artisans fondeurs."
+      }
+    ]
+  },
   {
     id: "amorrite",
     name: "Art Amorrite (Syrie)",
@@ -49,7 +87,7 @@ const CIVILISATIONS_REGISTRY = [
     lane: "atlantique",
     themeColor: "#e76f51",
     sidePos: "pos-right",
-    travelingOrigin: "44.8% 48.6%",
+    travelingOrigin: "43.8% 48.6%",
     haloId: "halo-canaries",
     bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczPMXQ5bdaPOWzGPKgmojy9gQSYDzQr93TrgXTQ3ulBClSb_4u-eo9o5d2eP27CZmeHhdd9nZHufR4NJsEJSzsCi50xpKQ0NV5ZbYrY2LJhEuIy6xtlDgObVak0xLhEDHgifE9G46BrjnehXFBFJLHHxQg=w1620-h688-s-no-gm?authuser=0",
     mapOverlayUrl: "https://lh3.googleusercontent.com/d/1y_aYNocIAiQu9aI2Q7mg0ZvTVJt2tiwF",
@@ -113,7 +151,6 @@ const syncLine = document.getElementById('sync-cursor-line');
 const syncBubble = document.getElementById('sync-bubble-tag');
 const activeMarkerInfo = document.getElementById('active-marker-info');
 
-// Règle temporelle
 for (let y = -3500; y <= 1500; y += 50) {
   const x = yearToPixel(y);
   const isMillennium = (y % 1000 === 0);
@@ -133,7 +170,6 @@ for (let y = -3500; y <= 1500; y += 50) {
   }
 }
 
-// Injection des blocs
 CIVILISATIONS_REGISTRY.forEach((civ) => {
   const laneEl = document.querySelector(`.timeline-lane[data-lane="${civ.lane}"]`);
   if (!laneEl) return;
@@ -230,7 +266,7 @@ btnEnterCiv.addEventListener('click', () => {
 });
 
 /* ==========================================================================
-   DÉPLACEMENT SYNCHRONIQUE & RECONNAISSANCE DU REPÈRE
+   INTERACTION SYNCHRONIQUE : DÉPLACEMENT COUPE TEMPORELLE
    ========================================================================== */
 const masterContainer = document.getElementById('master-drag-container');
 let isDragging = false;
