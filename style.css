@@ -1,5 +1,4 @@
 :root {
-  /* Signature Gris de Payne & Or Lapidaire */
   --payne: #353B45;
   --payne-dark: #1f232b;
   --abyss: #050608;
@@ -32,15 +31,13 @@ body {
   position: relative;
 }
 
-/* =========================================================
-   1. SCÈNE CARTOGRAPHIQUE
-   ========================================================= */
+/* CARTE */
 #map-viewport {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
-  bottom: 210px;
+  bottom: 230px;
   z-index: 1;
   overflow: hidden;
   display: flex;
@@ -54,7 +51,7 @@ body {
   width: 100%;
   height: 100%;
   max-width: 100vw;
-  max-height: calc(100vh - 210px);
+  max-height: calc(100vh - 230px);
 }
 
 #global-map-stage {
@@ -76,7 +73,6 @@ body {
   opacity: 0.4;
 }
 
-/* Halos ciblés et précis */
 #synchronous-halos-layer {
   position: absolute;
   inset: 0;
@@ -86,8 +82,8 @@ body {
 
 .sync-foyer-halo {
   position: absolute;
-  width: 60px;
-  height: 60px;
+  width: 55px;
+  height: 55px;
   border-radius: 50%;
   transform: translate(-50%, -50%) scale(0.6);
   opacity: 0;
@@ -95,18 +91,16 @@ body {
   pointer-events: none;
 }
 
-/* Halo Canaries : calé précisément sur l'archipel au large */
 #halo-canaries {
   left: 44.8%;
   top: 48.6%;
-  background: radial-gradient(circle, rgba(231,111,81,0.9) 0%, rgba(231,111,81,0.35) 50%, transparent 75%);
+  background: radial-gradient(circle, rgba(231,111,81,0.95) 0%, rgba(231,111,81,0.35) 50%, transparent 75%);
 }
 
-/* Halo Amorrites : calé en Syrie */
 #halo-amorrite {
   left: 55.8%;
   top: 44.2%;
-  background: radial-gradient(circle, rgba(212,163,115,0.9) 0%, rgba(212,163,115,0.35) 50%, transparent 75%);
+  background: radial-gradient(circle, rgba(212,163,115,0.95) 0%, rgba(212,163,115,0.35) 50%, transparent 75%);
 }
 
 .sync-foyer-halo.active {
@@ -115,7 +109,6 @@ body {
   animation: precisePulse 2.4s infinite;
 }
 
-/* Carte régionale dédiée */
 #civilisation-map-overlay {
   position: absolute;
   inset: 0;
@@ -176,9 +169,7 @@ body {
   white-space: nowrap;
 }
 
-/* =========================================================
-   2. CARTOUCHE LATÉRAL & BANDEAU PANORAMIQUE REHAUSSÉ
-   ========================================================= */
+/* CARTOUCHE LATÉRAL */
 #hover-sidebar-card {
   position: absolute;
   top: 5.5rem;
@@ -253,7 +244,6 @@ body {
   letter-spacing: 1px;
 }
 
-/* Bandeau visuel rehaussé (hauteur augmentée à 145px) */
 .hover-banner-frame {
   width: 100%;
   height: 145px;
@@ -315,9 +305,7 @@ body {
   box-shadow: 0 6px 20px rgba(212, 175, 55, 0.5);
 }
 
-/* =========================================================
-   3. EN-TÊTE ÉPURÉ
-   ========================================================= */
+/* EN-TÊTE */
 header {
   position: absolute;
   top: 1.6rem;
@@ -361,9 +349,7 @@ header {
   font-style: italic;
 }
 
-/* =========================================================
-   4. LES DEUX FRISES SUPERPOSÉES & GRADUATION TEMPORELLE
-   ========================================================= */
+/* FRISES ET DOCK */
 #timeline-dock {
   position: absolute;
   bottom: 0;
@@ -519,9 +505,9 @@ header {
   line-height: 1.25;
 }
 
-/* Frise maîtresse synchronique */
+/* FRISE MAÎTRESSE COULOIRS */
 #master-timeline-bar {
-  height: 210px;
+  height: 230px;
   background: linear-gradient(to top, rgba(4, 5, 7, 0.98) 0%, rgba(14, 17, 24, 0.94) 100%);
   border-top: 1px solid rgba(212, 175, 55, 0.2);
   display: flex;
@@ -531,11 +517,12 @@ header {
 }
 
 #ruler-scale-bar {
-  height: 28px;
+  height: 26px;
   border-bottom: 1px solid rgba(212, 175, 55, 0.2);
   position: relative;
   overflow: hidden;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.5);
+  flex-shrink: 0;
 }
 
 #ruler-ticks-track {
@@ -574,18 +561,45 @@ header {
   top: 2px;
   transform: translateX(-50%);
   font-family: 'Cinzel', serif;
-  font-size: 0.65rem;
+  font-size: 0.62rem;
   letter-spacing: 1px;
   color: var(--gold-pale);
   white-space: nowrap;
 }
 
+.master-hint-strip {
+  padding: 4px 2rem;
+  font-family: 'Cinzel', serif;
+  font-size: 0.66rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--gold-pure);
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+  background: rgba(0,0,0,0.3);
+  flex-shrink: 0;
+  z-index: 10;
+}
+
+/* Défilement vertical et horizontal fluide */
 #master-drag-container {
   flex: 1;
   cursor: grab;
   position: relative;
-  overflow: hidden;
-  touch-action: pan-y;
+  overflow-x: hidden;
+  overflow-y: auto;
+  touch-action: pan-x pan-y;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(212, 175, 55, 0.3) transparent;
+}
+
+#master-drag-container::-webkit-scrollbar {
+  width: 5px;
+}
+#master-drag-container::-webkit-scrollbar-thumb {
+  background: rgba(212, 175, 55, 0.3);
+  border-radius: 3px;
 }
 
 #master-drag-container:active {
@@ -596,38 +610,44 @@ header {
   position: absolute;
   top: 0;
   left: 0;
-  height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
   width: 4800px;
   will-change: transform;
 }
 
+/* Couloirs fins avec libellés collés à gauche */
 .timeline-lane {
   position: relative;
-  height: 42px;
+  height: 38px;
   display: flex;
   align-items: center;
-  border-bottom: 1px solid rgba(212, 175, 55, 0.12);
+  border-bottom: 1px solid rgba(212, 175, 55, 0.08);
 }
 
 .lane-label {
   position: sticky;
-  left: 10px;
+  left: 0;
   font-family: 'Cinzel', serif;
   font-size: 0.66rem;
   letter-spacing: 1.5px;
   text-transform: uppercase;
   color: var(--gold-pale);
-  width: 180px;
-  z-index: 5;
+  width: 190px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 14px;
+  z-index: 12;
+  background: linear-gradient(90deg, rgba(8, 10, 14, 0.98) 75%, transparent 100%);
+  border-left: 2px solid var(--gold-pure);
   text-shadow: 0 2px 4px #000;
+  pointer-events: none;
 }
 
 .civ-timespan-block {
   position: absolute;
-  height: 30px;
+  height: 26px;
   border-radius: 3px;
   display: flex;
   align-items: center;
@@ -649,7 +669,7 @@ header {
 
 .civ-block-title {
   font-family: 'Cinzel', serif;
-  font-size: 0.74rem;
+  font-size: 0.72rem;
   font-weight: 700;
   color: #fff;
   text-shadow: 0 1px 3px rgba(0,0,0,0.9);
@@ -662,7 +682,7 @@ header {
   width: 1.5px;
   background: linear-gradient(to bottom, var(--gold-pure), rgba(212, 175, 55, 0.25));
   pointer-events: none;
-  z-index: 15;
+  z-index: 20;
   left: 35%;
   box-shadow: 0 0 12px var(--gold-pure);
   transition: left 0.08s ease-out;
@@ -685,9 +705,7 @@ header {
   box-shadow: 0 4px 15px rgba(0,0,0,0.9);
 }
 
-/* =========================================================
-   5. POP-UP D'EXPOSITION MUSÉALE
-   ========================================================= */
+/* POP-UP EXPOSITION */
 #curator-modal {
   position: fixed;
   inset: 0;
