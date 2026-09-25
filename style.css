@@ -31,7 +31,9 @@ body {
   position: relative;
 }
 
-/* ZONE CARTOGRAPHIQUE AU RATIO FIXE SANS AUCUN DÉPLACEMENT INTEMPESTIF */
+/* =========================================================
+   SCÈNE CARTOGRAPHIQUE : CADRAGE ABSOLU ET PROPORTIONS FIXES
+   ========================================================= */
 #map-viewport {
   position: absolute;
   top: 0;
@@ -44,35 +46,33 @@ body {
   align-items: center;
   justify-content: center;
   background: #020305;
+  padding: 10px;
 }
 
+/* Le cadre prend exactement les proportions de la carte, centrée sans marge flottante */
 #map-canvas-frame {
   position: relative;
-  /* Verrouillage strict au ratio 16/9 : ne change jamais de proportion */
-  width: min(100vw, calc((100vh - 230px) * 16 / 9));
-  height: min(calc(100vh - 230px), calc(100vw * 9 / 16));
+  max-width: 100%;
+  max-height: 100%;
+  aspect-ratio: 16 / 9;
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.9);
 }
 
-#global-map-stage {
-  position: absolute;
-  inset: 0;
+#global-map-img {
   width: 100%;
   height: 100%;
-  background-image: url('https://lh3.googleusercontent.com/d/1QyvVo3lL18FPcqzLgR9qvyaHY5F63Spk');
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  transform-origin: 50% 50%;
+  object-fit: contain;
+  display: block;
   transition: transform 1.2s cubic-bezier(0.22, 1, 0.36, 1), filter 1.2s ease, opacity 1.2s ease;
 }
 
-#global-map-stage.traveling {
-  transform: scale(1.45);
-  filter: blur(14px) brightness(0.3) contrast(1.15);
-  opacity: 0.35;
+#global-map-img.traveling {
+  transform: scale(1.35);
+  filter: blur(12px) brightness(0.25) contrast(1.1);
+  opacity: 0.3;
 }
 
 #synchronous-halos-layer {
@@ -84,12 +84,12 @@ body {
 
 .sync-foyer-halo {
   position: absolute;
-  width: 55px;
-  height: 55px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   transform: translate(-50%, -50%) scale(0.6);
   opacity: 0;
-  transition: opacity 0.5s ease, transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: opacity 0.4s ease, transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
   pointer-events: none;
 }
 
@@ -129,19 +129,16 @@ body {
   animation: precisePulse 2.4s infinite;
 }
 
-/* Carte régionale : contrainte stricte sur le cadre 16/9 */
+/* Carte régionale : Verrouillée au pixel près sur le cadre */
 #civilisation-map-overlay {
   position: absolute;
   inset: 0;
   width: 100%;
   height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   opacity: 0;
   pointer-events: none;
   transform: scale(0.98);
-  transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.9s cubic-bezier(0.22, 1, 0.36, 1);
+  transition: opacity 0.6s ease, transform 0.8s cubic-bezier(0.22, 1, 0.36, 1);
   z-index: 3;
 }
 
@@ -155,7 +152,13 @@ body {
   width: 100%;
   height: 100%;
   object-fit: contain;
-  filter: drop-shadow(0 15px 40px rgba(0,0,0,0.95));
+  display: block;
+}
+
+#beacon-container {
+  position: absolute;
+  inset: 0;
+  pointer-events: auto;
 }
 
 .map-beacon-marker {
@@ -197,7 +200,7 @@ body {
   white-space: nowrap;
 }
 
-/* CARTOUCHE LATÉRAL STRUCTURÉ */
+/* CARTOUCHE LATÉRAL */
 #hover-sidebar-card {
   position: absolute;
   top: 5rem;
@@ -415,7 +418,6 @@ header {
   pointer-events: none;
 }
 
-/* Sous-frise rehaussée à 265px */
 #sub-timeline-drawer {
   height: 0;
   overflow: hidden;
@@ -760,7 +762,7 @@ header {
   box-shadow: 0 4px 15px rgba(0,0,0,0.9);
 }
 
-/* MODALE D'EXPOSITION MUSÉALE HORIZONTALE STRICTE */
+/* MODALE 50/50 STRICTEMENT HORIZONTALE */
 #curator-modal {
   position: fixed;
   inset: 0;
