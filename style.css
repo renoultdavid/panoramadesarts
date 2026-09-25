@@ -31,9 +31,7 @@ body {
   position: relative;
 }
 
-/* =========================================================
-   SCÈNE CARTOGRAPHIQUE : CADRAGE ABSOLU ET PROPORTIONS FIXES
-   ========================================================= */
+/* ZONE CARTOGRAPHIQUE AU RATIO GÉOMÉTRIQUE STRICT (16/9) */
 #map-viewport {
   position: absolute;
   top: 0;
@@ -49,12 +47,10 @@ body {
   padding: 10px;
 }
 
-/* Le cadre prend exactement les proportions de la carte, centrée sans marge flottante */
 #map-canvas-frame {
   position: relative;
-  max-width: 100%;
-  max-height: 100%;
-  aspect-ratio: 16 / 9;
+  width: min(100vw, calc((100vh - 240px) * 16 / 9));
+  height: min(calc(100vh - 240px), calc(100vw * 9 / 16));
   display: flex;
   align-items: center;
   justify-content: center;
@@ -84,8 +80,8 @@ body {
 
 .sync-foyer-halo {
   position: absolute;
-  width: 50px;
-  height: 50px;
+  width: 48px;
+  height: 48px;
   border-radius: 50%;
   transform: translate(-50%, -50%) scale(0.6);
   opacity: 0;
@@ -111,15 +107,17 @@ body {
   background: radial-gradient(circle, rgba(42,157,143,0.95) 0%, rgba(42,157,143,0.35) 50%, transparent 75%);
 }
 
+/* CHYPRE : DESCENDU PLEIN SUD DANS LE BASSIN LÉVANTIN */
 #halo-chypre {
-  left: 54.6%;
-  top: 43.8%;
+  left: 55.4%;
+  top: 45.6%;
   background: radial-gradient(circle, rgba(233,196,106,0.95) 0%, rgba(233,196,106,0.35) 50%, transparent 75%);
 }
 
+/* CRÈTE : DESCENDU ET DÉCALÉ AU SUD DE LA GRÈCE DANS LA MER DE CRÈTE */
 #halo-crete {
-  left: 52.4%;
-  top: 43.2%;
+  left: 53.2%;
+  top: 45.4%;
   background: radial-gradient(circle, rgba(58,134,255,0.95) 0%, rgba(58,134,255,0.35) 50%, transparent 75%);
 }
 
@@ -129,7 +127,6 @@ body {
   animation: precisePulse 2.4s infinite;
 }
 
-/* Carte régionale : Verrouillée au pixel près sur le cadre */
 #civilisation-map-overlay {
   position: absolute;
   inset: 0;
@@ -200,7 +197,7 @@ body {
   white-space: nowrap;
 }
 
-/* CARTOUCHE LATÉRAL */
+/* CARTOUCHE LATÉRAL STRUCTURÉ */
 #hover-sidebar-card {
   position: absolute;
   top: 5rem;
@@ -216,7 +213,7 @@ body {
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.95);
   opacity: 0;
   pointer-events: none;
-  transition: opacity 0.4s ease, transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: opacity 0.3s ease, transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
   display: flex;
   flex-direction: column;
 }
