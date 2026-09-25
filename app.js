@@ -1,7 +1,57 @@
 /* ==========================================================================
-   REGISTRE COMPLET : CANARIES, AMORRITES, CELTES (BRONZE & FER), CHYPRE
+   REGISTRE STRICT : CANARIES, AMORRITES, CELTES (BRONZE & FER), CHYPRE, CRÈTE
    ========================================================================== */
 const CIVILISATIONS_REGISTRY = [
+  {
+    id: "crete",
+    name: "Art Minoen (Crète)",
+    epoch: "v. -2000 à -1200 av. J.-C.",
+    yearStart: -2000,
+    yearEnd: -1200,
+    lane: "egee",
+    themeColor: "#3a86ff",
+    sidePos: "pos-left",
+    travelingOrigin: "52.4% 43.2%",
+    haloId: "halo-crete",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    mapOverlayUrl: "https://lh3.googleusercontent.com/d/1-RyywCVU5Ct2McoKupe9Z2OnXrnDSJ9r",
+    albumUrl: "https://photos.google.com/share/AF1QipMlW4TQJ8A9qGbcmVyMNAsLLD3a9pwHTBsx-qcnMuuYdqlbjXgrrncpHaXoLLK0LA?key=LTdfMHQ4VHdhNmJ4WEI2bFRtU2xTaHpCeHM2bEZR",
+    presentationHtml: `
+      <p><strong>L'âge des premiers et seconds palais</strong><br>
+      Au cœur de la mer Égée, la civilisation minoenne édifie autour de Cnossos, Phaistos et Malia un modèle palatial raffiné sans équivalent. Privilégiant l'harmonie avec la nature, l'architecture ouverte s'illumine de fresques fluides où triomphent la faune marine, la flore printanière et les célèbres joutes acrobatiques avec les taureaux (taurokathapsia).</p>
+      <p><strong>Le culte de la nature et le sacré du taureau</strong><br>
+      Vase de libation par excellence, le rhyton taurin incarne la force tellurique et la puissance religieuse liée à la Grande Déesse et au symbole protecteur de la double hache (labrys).</p>
+      <p><strong>La mémoire des défunts et le passage vers l'au-delà</strong><br>
+      Au Minoen récent, les larnakès (sarcophages en terre cuite) s'ornent de pieuvres ondulantes et de papyrus, transformant l'argile funéraire en un manifeste symbolique de régénération éternelle par les eaux cosmiques.</p>
+    `,
+    beacons: [
+      { name: "Cnossos (Palais)", top: "38%", left: "54%", artIdx: 0 },
+      { name: "Ligortynos (Nécropole)", top: "52%", left: "56%", artIdx: 1 },
+      { name: "Phaistos (Palais)", top: "56%", left: "44%", artIdx: 0 }
+    ],
+    artifacts: [
+      {
+        id: "rhyton_taureau",
+        century: "v. -1400 av. J.-C. (Minoen Récent)",
+        title: "Rhyton en terre cuite en forme de tête de taureau",
+        site: "Crète minoenne",
+        category: "Céramique rituelle",
+        chips: ["Bronze récent", "Terre cuite peinte", "Double hache (Labrys)"],
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPnUuU-MK0sDhtORjZeb_6whI6M33RtfIsbTkuuC6TjPIS8ppTuXw7T6kz2TtxYtoxJ21EI3qjAzNB-zxU3qXd76rMvXNBD85NjTnUlss-WsvMcoZwQc84ExK_TVdXRD2OV_8eIvWE_yeUf_t778xEaRQ=w1814-h2410-s-no-gm?authuser=0",
+        narrative: "Ce rhyton de libation adopte la silhouette puissante d'une tête de taureau, motif religieux central de la Crète minoenne. Conçu pour verser les liquides sacrés par le museau lors des cérémonies palatiales, il est orné sur le front de la double hache sacrée (labrys), entourée de chevrons et de cercles concentriques accentuant la force expressive et hypnotique de l'animal sacré."
+      },
+      {
+        id: "larnax_ligortynos",
+        century: "v. -1370 à -1200 av. J.-C. (Minoen Récent III)",
+        title: "Larnax funéraire peinte de Ligortynos",
+        site: "Ligortynos (Crète)",
+        category: "Mobilier funéraire",
+        chips: ["Minoen Récent III A/B", "Sarcophage en terre cuite", "Style marin & Papyrus"],
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczO47qJMkhp20Z27X3Gv78fr_pQMc_lTVDiqHyXNV9Wkoi9k7k2Jlb0KWokDNT4Y3Ki6QKgzzv3mNsgaAse57mjhd3X308PEYYy2V48cZXNeWdHXJQmkvO70BlilA-TyNrBlNajowmlDC7f0sM_uLQtcVw=w2081-h1566-s-no-gm?authuser=0",
+        narrative: "Découverte dans une tombe de Ligortynos, cette larnax (coffre funéraire en bâtière) témoigne du prestige des rituels d'inhumation crétois. Recouvertes d'un décor peint brun-noir, ses parois figurent des pieuvres ondulantes, des poissons et des tiges de papyrus. L'omniprésence du monde aquatique et végétal évoquait le voyage du défunt et sa régénération symbolique dans l'au-delà."
+      }
+    ]
+  },
   {
     id: "chypre",
     name: "Art Chypriote Antique",
@@ -302,10 +352,10 @@ CIVILISATIONS_REGISTRY.forEach((civ) => {
     if (!isLockedSidebar) hideCivPreview();
   });
 
-  // CLIC SUR LA FRISE : RÉINITIALISE LA CARTE ET FERME L'ANCIEN TIROIR
+  // CLIC SUR LA FRISE : RÉINITIALISATION STRICTE DE LA CARTE RÉGIONALE PRÉCÉDENTE
   block.addEventListener('click', (e) => {
     e.stopPropagation();
-    closeCivilisationView(); // Nettoie immédiatement l'ancienne région
+    closeCivilisationView(); // Ferme impérativement tout fond régional et tiroir résiduel
     lockCivSidebar(civ);
   });
 
@@ -410,6 +460,7 @@ function updateSynchronousState(screenX) {
     }
   });
 
+  // Fermeture automatique si on navigue dans une zone sans civilisation
   if (!foundAnyCiv) {
     isLockedSidebar = false;
     hoverSidebar.classList.remove('visible');
@@ -467,8 +518,9 @@ const subStream = document.getElementById('sub-stream-scroll');
 const drawerCivTag = document.getElementById('drawer-civ-name');
 
 function activateCivilisationView(civ) {
-  // Réinitialisation immédiate et complète
+  // 1. Fermeture et vidage préalable impératif
   civOverlayMap.classList.remove('active');
+  civMapImg.src = '';
   beaconContainer.innerHTML = '';
   subStream.innerHTML = '';
 
@@ -499,7 +551,7 @@ function activateCivilisationView(civ) {
 
   setTimeout(() => {
     civOverlayMap.classList.add('active');
-  }, 250);
+  }, 200);
 
   if (civ.artifacts) {
     civ.artifacts.forEach((art, aIdx) => {
@@ -528,7 +580,7 @@ function activateCivilisationView(civ) {
   subDrawer.classList.add('open');
 }
 
-// FERMETURE TOTALE DU MODE RÉGIONAL ET RETOUR À LA CARTE MONDE
+// FERMETURE TOTALE DU MODE RÉGIONAL ET RETOUR À LA CARTE MONDE NEUTRE
 function closeCivilisationView() {
   subDrawer.classList.remove('open');
   civOverlayMap.classList.remove('active');
