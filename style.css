@@ -125,7 +125,6 @@ body {
   animation: precisePulse 2.4s infinite;
 }
 
-/* Carte régionale : contrainte stricte en largeur et hauteur pour ne jamais déborder */
 #civilisation-map-overlay {
   position: absolute;
   inset: 0;
@@ -193,15 +192,15 @@ body {
   white-space: nowrap;
 }
 
-/* CARTOUCHE LATÉRAL STRUCTURÉ AVEC ASCENSEUR ET BOUTON FIXÉ */
+/* CARTOUCHE LATÉRAL */
 #hover-sidebar-card {
   position: absolute;
   top: 5rem;
   z-index: 25;
   width: 480px;
   max-width: 38vw;
-  height: 70vh;
-  max-height: 620px;
+  height: 72vh;
+  max-height: 640px;
   background: rgba(14, 17, 24, 0.96);
   backdrop-filter: blur(25px);
   border: 1px solid rgba(212, 175, 55, 0.35);
@@ -252,7 +251,6 @@ body {
   color: var(--gold-pure);
 }
 
-/* Corps déroulant de la fiche */
 .sidebar-scrollable-body {
   flex: 1;
   overflow-y: auto;
@@ -322,7 +320,6 @@ body {
   letter-spacing: 1px;
 }
 
-/* Pied de fiche avec bouton ancré */
 .sidebar-footer-action {
   padding: 0.8rem 1.6rem 1.2rem 1.6rem;
   background: rgba(10, 12, 17, 0.95);
@@ -413,10 +410,11 @@ header {
   pointer-events: none;
 }
 
+/* Tiroir sous-frise rehaussé à 265px pour éviter toute découpe */
 #sub-timeline-drawer {
   height: 0;
   overflow: hidden;
-  background: rgba(12, 15, 21, 0.97);
+  background: rgba(12, 15, 21, 0.98);
   backdrop-filter: blur(25px);
   border-top: 2px solid var(--gold-pure);
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
@@ -428,21 +426,22 @@ header {
 }
 
 #sub-timeline-drawer.open {
-  height: 220px;
+  height: 265px;
 }
 
 .drawer-info-strip {
-  padding: 0.5rem 2rem;
-  background: rgba(0, 0, 0, 0.5);
+  padding: 0.6rem 2rem;
+  background: rgba(0, 0, 0, 0.6);
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  flex-shrink: 0;
 }
 
 .drawer-civ-tag {
   font-family: 'Cinzel', serif;
-  font-size: 0.8rem;
+  font-size: 0.82rem;
   letter-spacing: 2px;
   text-transform: uppercase;
   color: var(--gold-pale);
@@ -474,21 +473,24 @@ header {
   overflow-y: hidden;
   display: flex;
   align-items: center;
-  padding: 0 2rem;
-  gap: 20px;
+  padding: 0.6rem 2rem;
+  gap: 24px;
   -webkit-overflow-scrolling: touch;
 }
 
+/* Carte d'objet bien proportionnée */
 .sub-node-card {
-  width: 220px;
+  width: 230px;
+  height: 200px;
   flex-shrink: 0;
   background: rgba(22, 26, 36, 0.7);
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 4px;
-  padding: 10px;
+  padding: 10px 12px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
   cursor: pointer;
   transition: all 0.3s ease;
 }
@@ -496,7 +498,7 @@ header {
 .sub-node-card:hover, .sub-node-card.active {
   border-color: var(--gold-pure);
   background: rgba(35, 42, 56, 0.95);
-  transform: translateY(-5px);
+  transform: translateY(-4px);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.85);
 }
 
@@ -505,12 +507,13 @@ header {
   font-size: 0.68rem;
   letter-spacing: 1.5px;
   color: var(--gold-pure);
-  margin-bottom: 6px;
+  text-align: center;
+  line-height: 1.2;
 }
 
 .sub-node-pedestal {
-  width: 82px;
-  height: 92px;
+  width: 90px;
+  height: 95px;
   background-color: var(--payne);
   border-radius: 4px;
   border: 1px solid rgba(212, 175, 55, 0.3);
@@ -521,13 +524,13 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 8px;
+  margin: 4px 0;
   overflow: hidden;
   transition: all 0.3s ease;
 }
 
 .sub-node-card:hover .sub-node-pedestal {
-  transform: scale(1.06);
+  transform: scale(1.05);
   border-color: var(--gold-pure);
   box-shadow: 0 0 20px var(--gold-glow);
 }
@@ -541,19 +544,18 @@ header {
 
 .sub-node-title {
   font-family: 'Cinzel', serif;
-  font-size: 0.84rem;
+  font-size: 0.82rem;
   font-weight: 700;
   color: #fff;
   text-align: center;
   line-height: 1.25;
-  margin-bottom: 4px;
 }
 
 .sub-node-subtitle {
-  font-size: 0.74rem;
+  font-size: 0.72rem;
   color: var(--text-muted);
   text-align: center;
-  line-height: 1.25;
+  line-height: 1.2;
 }
 
 /* FRISE MAÎTRESSE */
