@@ -219,81 +219,33 @@ body {
 /* =========================================================
    CARTOUCHES LATÉRAUX REDéFINIS À 380PX AVEC ASCENSEUR PROPRE
    ========================================================= */
-/* On dissocie complètement le volet de gauche pour lui donner une hauteur fixe calculée par rapport à l'écran */
-#concurrent-sidebar-card {
-  position: absolute;
+CARTOUCHES LATÉRAUX REDéFINIS À 380PX AVEC ASCENSEUR PROPRE
+   ========================================================= */
+#hover-sidebar-card, #concurrent-sidebar-card {
+  position: absolute !important;
   top: 60px;
-  bottom: 300px;
-  left: 2rem;
-  right: auto;
+  bottom: 315px;
   z-index: 25;
-  width: 400px;
-  max-width: 38vw;
-  background: rgba(14, 17, 24, 0.98);
+  width: 380px;
+  max-width: 35vw;
+  background: rgba(14, 17, 24, 0.96);
   backdrop-filter: blur(25px);
-  border: 1px solid rgba(243, 156, 18, 0.35);
-  border-left: 3px solid var(--c-gold);
+  border: 1px solid rgba(212, 175, 55, 0.35);
   border-radius: 4px;
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.95);
   opacity: 0;
   pointer-events: none;
-  transform: translateX(-30px);
   transition: opacity 0.3s ease, transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
   display: flex;
   flex-direction: column;
   overflow: hidden;
 }
 
-#concurrent-sidebar-card.visible {
-  opacity: 1;
-  transform: translateX(0);
-  pointer-events: auto;
-}
-
-/* Le corps défilant prend tout l'espace disponible et force l'ascenseur natif */
-#concurrent-sidebar-card .sidebar-scrollable-body {
-  flex: 1 1 auto;
-  overflow-y: scroll !important;
-  max-height: none !important;
-  padding: 1.4rem 1.8rem;
-  scrollbar-width: thin;
-  scrollbar-color: rgba(243, 156, 18, 0.4) transparent;
-}
-
-#concurrent-sidebar-card .sidebar-scrollable-body::-webkit-scrollbar {
-  width: 6px;
-}
-
-#concurrent-sidebar-card .sidebar-scrollable-body::-webkit-scrollbar-thumb {
-  background: rgba(243, 156, 18, 0.6);
-  border-radius: 3px;
-}
 #hover-sidebar-card.pos-left {
   left: 2rem;
   right: auto;
   border-left: 3px solid var(--gold-pure);
   transform: translateX(-30px);
-}
-
-/* VOLET DE GAUCHE / DROIT AVEC ASCENSEUR PROPRE */
-#hover-sidebar-card .sidebar-scrollable-body,
-#concurrent-sidebar-card .sidebar-scrollable-body {
-  flex: 1;
-  overflow-y: auto;
-  max-height: 100%;
-  scrollbar-width: thin;
-  scrollbar-color: rgba(212, 175, 55, 0.4) transparent;
-}
-
-#hover-sidebar-card .sidebar-scrollable-body::-webkit-scrollbar,
-#concurrent-sidebar-card .sidebar-scrollable-body::-webkit-scrollbar {
-  width: 5px;
-}
-
-#hover-sidebar-card .sidebar-scrollable-body::-webkit-scrollbar-thumb,
-#concurrent-sidebar-card .sidebar-scrollable-body::-webkit-scrollbar-thumb {
-  background: rgba(212, 175, 55, 0.4);
-  border-radius: 3px;
 }
 
 #hover-sidebar-card.pos-right {
@@ -303,14 +255,13 @@ body {
   transform: translateX(30px);
 }
 
-#hover-sidebar-card.visible,
-#concurrent-sidebar-card.visible {
+#hover-sidebar-card.visible {
   opacity: 1;
   transform: translateX(0);
   pointer-events: auto;
 }
 
-/* Volet de droite "Et pendant ce temps-là..." */
+/* Volet de gauche "Et pendant ce temps-là..." */
 #concurrent-sidebar-card {
   left: 2rem;
   right: auto;
@@ -342,9 +293,10 @@ body {
   color: var(--gold-pure);
 }
 
+/* Ascenseur propre pour les deux volets */
 .sidebar-scrollable-body {
-  flex: 1;
-  overflow-y: auto;
+  flex: 1 1 auto;
+  overflow-y: auto !important;
   max-height: 100%;
   padding: 1.4rem 1.8rem;
   scrollbar-width: thin;
