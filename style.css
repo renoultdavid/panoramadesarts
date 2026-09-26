@@ -193,6 +193,7 @@ body {
   background: radial-gradient(circle, rgba(244,162,97,0.95) 0%, rgba(244,162,97,0.35) 50%, transparent 75%);
 }
 
+/* Égypte : Halos recadrés exactement sur la vallée fluviale du Nil */
 #halo-egypte_ancien {
   left: 54.8%;
   top: 48.8%;
@@ -200,15 +201,21 @@ body {
 }
 
 #halo-egypte_moyen {
-  left: 55.4%;
-  top: 50.8%;
+  left: 54.9%;
+  top: 49.6%;
   background: radial-gradient(circle, rgba(32,201,151,0.95) 0%, rgba(32,201,151,0.35) 50%, transparent 75%);
 }
 
 #halo-egypte_nouvel {
-  left: 55.6%;
-  top: 51.5%;
+  left: 55.1%;
+  top: 50.4%;
   background: radial-gradient(circle, rgba(16,185,129,0.95) 0%, rgba(16,185,129,0.35) 50%, transparent 75%);
+}
+
+#halo-egypte_tardif {
+  left: 54.5%;
+  top: 48.0%;
+  background: radial-gradient(circle, rgba(217,119,6,0.95) 0%, rgba(217,119,6,0.35) 50%, transparent 75%);
 }
 
 .sync-foyer-halo.active {
@@ -559,7 +566,6 @@ body {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.85);
 }
 
-/* Badge amarnien distinctif */
 .sub-node-card.is-amarna {
   border-color: #f39c12;
   box-shadow: inset 0 0 12px rgba(243, 156, 18, 0.15);
@@ -948,7 +954,7 @@ body {
 }
 
 /* =========================================================
-   MODALE D'EXPOSITION AGRANDIE AVEC BANDEAU DE DÉPARTEMENT
+   MODALE D'EXPOSITION AGRANDIE AVEC TEXTE MUSÉAL COMPLET
    ========================================================= */
 #curator-modal {
   position: fixed;
@@ -1046,7 +1052,7 @@ body {
 }
 
 .modal-pedestal-col {
-  width: 52%;
+  width: 50%;
   background-color: var(--payne);
   display: flex;
   align-items: center;
@@ -1093,8 +1099,8 @@ body {
 }
 
 .modal-notes-col {
-  width: 48%;
-  padding: 2.2rem 2.5rem;
+  width: 50%;
+  padding: 2rem 2.4rem;
   background: #141720;
   display: flex;
   flex-direction: column;
@@ -1137,11 +1143,11 @@ body {
 
 .modal-headline {
   font-family: 'Cinzel', serif;
-  font-size: 1.4rem;
+  font-size: 1.35rem;
   font-weight: 700;
   line-height: 1.25;
   color: #fff;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 .modal-chips-row {
@@ -1163,11 +1169,15 @@ body {
 }
 
 .modal-narrative {
-  font-size: 1.02rem;
+  font-size: 0.98rem;
   line-height: 1.65;
   color: #c0c7d6;
   margin-bottom: 1.8rem;
   flex: 1;
+}
+
+.modal-narrative p {
+  margin-bottom: 12px;
 }
 
 .btn-gold-link {
