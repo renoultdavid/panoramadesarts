@@ -33,7 +33,7 @@
     <div id="map-canvas-frame">
       <img id="global-map-img" src="https://lh3.googleusercontent.com/d/1QyvVo3lL18FPcqzLgR9qvyaHY5F63Spk" alt="Carte du Monde" />
       
-      <!-- Halos synchrones mondiaux repositionnés sur le Nil -->
+      <!-- Halos synchrones mondiaux -->
       <div id="synchronous-halos-layer">
         <div id="halo-canaries" class="sync-foyer-halo"></div>
         <div id="halo-amorrite" class="sync-foyer-halo"></div>
@@ -49,42 +49,48 @@
         <div id="halo-egypte_tardif" class="sync-foyer-halo"></div>
       </div>
 
-      <!-- Carte Régionale Dédiée (Image pure, fixe et centrée) -->
+      <!-- Carte Régionale Dédiée (Adaptative en cas de redimensionnement) -->
       <div id="civilisation-map-overlay">
         <img id="civilisation-map-img" src="" alt="Carte régionale" />
         <div class="map-atmospheric-glow"></div>
       </div>
     </div>
+
+    <!-- CARTOUCHE LATÉRAL RESPONSIVE (DANS LE VIEWPORT) -->
+    <aside id="hover-sidebar-card" class="pos-left">
+      <button class="btn-close-sidebar" id="btn-close-sidebar" title="Fermer la fiche">&times;</button>
+      <div class="sidebar-scrollable-body">
+        <div class="hover-card-era" id="sidebar-era">Époque</div>
+        <div class="hover-card-title" id="sidebar-title">Civilisation</div>
+        
+        <div class="hover-banner-frame" id="sidebar-banner-box">
+          <img id="sidebar-banner-img" src="" alt="Bandeau de la civilisation" loading="lazy" />
+        </div>
+
+        <div class="hover-card-desc" id="sidebar-desc">Notice muséographique...</div>
+
+        <div id="sidebar-album-grid" class="sidebar-album-grid"></div>
+      </div>
+      
+      <div class="sidebar-footer-action">
+        <button class="btn-enter-civ-map" id="btn-enter-civ">
+          Explorer la carte régionale ➔
+        </button>
+      </div>
+    </aside>
+
+    <!-- VOLET LATÉRAL DE DROITE : ET PENDANT CE TEMPS-LÀ... (DANS LE VIEWPORT) -->
+    <aside id="concurrent-sidebar-card">
+      <div class="sidebar-scrollable-body">
+        <div class="hover-card-era">Contexte Mondial Synchrone</div>
+        <div class="hover-card-title">Et pendant ce temps-là...</div>
+        <div class="hover-card-desc" id="concurrent-desc">Chargement du contexte mondial...</div>
+      </div>
+    </aside>
   </main>
 
-  <!-- CARTOUCHE LATÉRAL RESPONSIVE OCCUPANT TOUT L'ESPACE JUSQU'À LA FRISE -->
-  <aside id="hover-sidebar-card" class="pos-left">
-    <button class="btn-close-sidebar" id="btn-close-sidebar" title="Fermer la fiche">&times;</button>
-    <div class="sidebar-scrollable-body">
-      <div class="hover-card-era" id="sidebar-era">Époque</div>
-      <div class="hover-card-title" id="sidebar-title">Civilisation</div>
-      
-      <div class="hover-banner-frame" id="sidebar-banner-box">
-        <img id="sidebar-banner-img" src="" alt="Bandeau de la civilisation" loading="lazy" />
-      </div>
-
-      <div class="hover-card-desc" id="sidebar-desc">Notice muséographique...</div>
-
-      <!-- Grille transversale d'accès direct aux albums -->
-      <div id="sidebar-album-grid" class="sidebar-album-grid"></div>
-    </div>
-    
-    <div class="sidebar-footer-action">
-      <button class="btn-enter-civ-map" id="btn-enter-civ">
-        Explorer la carte régionale ➔
-      </button>
-    </div>
-  </aside>
-
-  <!-- FRISES AU BAS DE L'ÉCRAN (300PX DE HAUTEUR) -->
+  <!-- FRISES AU BAS DE L'ÉCRAN -->
   <footer id="timeline-dock">
-
-    <!-- Étage 2 : Sous-frise d'objets -->
     <div id="sub-timeline-drawer">
       <div class="drawer-info-strip">
         <span class="drawer-civ-tag" id="drawer-civ-name">CHRONOLOGIE DÉPLOYÉE</span>
@@ -93,16 +99,12 @@
       <div id="sub-stream-scroll"></div>
     </div>
 
-    <!-- Étage 1 : Frise maîtresse synchronique -->
     <div id="master-timeline-bar">
-      
       <div id="ruler-scale-bar">
         <div id="ruler-ticks-track"></div>
-        <!-- Conteneur des diamants d'événements majeurs -->
         <div id="ruler-events-layer"></div>
       </div>
 
-      <!-- Bandeau épuré avec légende des diamants -->
       <div class="master-hint-strip">
         <div class="milestones-legend">
           <span class="legend-chip"><span class="legend-dot dot-gold"></span> Chantier / Politique</span>
@@ -118,7 +120,6 @@
       </div>
 
       <div id="timeline-split-wrapper">
-        <!-- COLONNE LATÉRALE 100% FIGÉE -->
         <div id="timeline-labels-column">
           <div class="lane-fixed-label" data-lane="europe_ouest">Gaule &amp; Europe Celte</div>
           <div class="lane-fixed-label" data-lane="atlantique">Atlantique &amp; Canaries</div>
@@ -130,7 +131,6 @@
           <div class="lane-fixed-label" data-lane="anatolie">Anatolie &amp; Caucase</div>
         </div>
 
-        <!-- ZONE HORIZONTALE DÉFILANTE -->
         <div id="master-drag-container">
           <div id="master-ribbon">
             <div class="timeline-lane" data-lane="europe_ouest"></div>
@@ -145,41 +145,32 @@
         </div>
       </div>
     </div>
-
   </footer>
 
-  <!-- INFOBULLE D'ÉVÉNEMENT MAJEUR -->
   <div id="milestone-tooltip" class="milestone-tooltip">
     <div class="milestone-badge" id="milestone-type">REPÈRE HISTORIQUE</div>
     <div class="milestone-year" id="milestone-year">-2560 av. J.-C.</div>
     <div class="milestone-title" id="milestone-title">Titre de l'Événement</div>
-    <div class="milestone-desc" id="milestone-desc">Description concise de l'impact historique...</div>
+    <div class="milestone-desc" id="milestone-desc">Description...</div>
   </div>
 
-  <!-- MODALE D'EXPOSITION (1350PX AVEC BANDEAU DÉPARTEMENTAL) -->
   <div id="curator-modal">
     <div class="curator-frame">
       <button class="btn-dismiss-modal" id="btn-modal-close">&times;</button>
-      
-      <!-- Bandeau thématique au sommet de l'exposition -->
       <div id="modal-dept-banner-box" class="modal-dept-banner-box">
         <img id="modal-dept-banner-img" src="" alt="Bandeau de département" />
       </div>
-
       <div id="modal-tab-bar" class="modal-tab-bar"></div>
-
       <div class="modal-h-layout">
         <div class="modal-pedestal-col">
           <div class="category-badge-chip" id="modal-category-badge">CATÉGORIE</div>
-          <img id="modal-artwork-img" src="" alt="Objet d'art de la collection" loading="lazy" />
+          <img id="modal-artwork-img" src="" alt="Objet d'art" loading="lazy" />
         </div>
-
         <div class="modal-notes-col">
           <div class="modal-civ-line" id="modal-civ-title">Civilisation</div>
           <h2 class="modal-headline" id="modal-artwork-title">Titre de l'Œuvre</h2>
           <div class="modal-chips-row" id="modal-chips-container"></div>
           <div class="modal-narrative" id="modal-narrative-text">Notice détaillée...</div>
-
           <a href="#" target="_blank" rel="noopener noreferrer" class="btn-gold-link" id="modal-album-btn">
             Explorer la collection
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
