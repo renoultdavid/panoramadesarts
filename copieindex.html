@@ -13,7 +13,7 @@
 </head>
 <body>
 
-  <!-- EN-TÊTE FIXE -->
+  <!-- EN-TÊTE FIXE AVEC BOUTON PLEIN ÉCRAN -->
   <header id="main-header">
     <div class="museum-insignia">
       <div class="insignia-title">Atlas Visuel des Arts</div>
@@ -33,7 +33,7 @@
     <div id="map-canvas-frame">
       <img id="global-map-img" src="https://lh3.googleusercontent.com/d/1QyvVo3lL18FPcqzLgR9qvyaHY5F63Spk" alt="Carte du Monde" />
       
-      <!-- Halos synchrones mondiaux -->
+      <!-- Halos synchrones mondiaux repositionnés sur le Nil -->
       <div id="synchronous-halos-layer">
         <div id="halo-canaries" class="sync-foyer-halo"></div>
         <div id="halo-amorrite" class="sync-foyer-halo"></div>
@@ -44,9 +44,12 @@
         <div id="halo-cyclades" class="sync-foyer-halo"></div>
         <div id="halo-mycenes" class="sync-foyer-halo"></div>
         <div id="halo-egypte_ancien" class="sync-foyer-halo"></div>
+        <div id="halo-egypte_moyen" class="sync-foyer-halo"></div>
+        <div id="halo-egypte_nouvel" class="sync-foyer-halo"></div>
+        <div id="halo-egypte_tardif" class="sync-foyer-halo"></div>
       </div>
 
-      <!-- Carte Régionale Dédiée (Image pure sans pastille dérivante) -->
+      <!-- Carte Régionale Dédiée (Image pure, fixe et centrée) -->
       <div id="civilisation-map-overlay">
         <img id="civilisation-map-img" src="" alt="Carte régionale" />
         <div class="map-atmospheric-glow"></div>
@@ -54,7 +57,7 @@
     </div>
   </main>
 
-  <!-- CARTOUCHE LATÉRAL -->
+  <!-- CARTOUCHE LATÉRAL RESPONSIVE OCCUPANT TOUT L'ESPACE JUSQU'À LA FRISE -->
   <aside id="hover-sidebar-card" class="pos-left">
     <button class="btn-close-sidebar" id="btn-close-sidebar" title="Fermer la fiche">&times;</button>
     <div class="sidebar-scrollable-body">
@@ -67,7 +70,7 @@
 
       <div class="hover-card-desc" id="sidebar-desc">Notice muséographique...</div>
 
-      <!-- Grille transversale d'albums (spécifique aux collections denses) -->
+      <!-- Grille transversale d'accès direct aux albums -->
       <div id="sidebar-album-grid" class="sidebar-album-grid"></div>
     </div>
     
@@ -78,7 +81,7 @@
     </div>
   </aside>
 
-  <!-- FRISES AU BAS DE L'ÉCRAN (HAUTEUR 300PX) -->
+  <!-- FRISES AU BAS DE L'ÉCRAN (300PX DE HAUTEUR) -->
   <footer id="timeline-dock">
 
     <!-- Étage 2 : Sous-frise d'objets -->
@@ -95,20 +98,27 @@
       
       <div id="ruler-scale-bar">
         <div id="ruler-ticks-track"></div>
+        <!-- Conteneur des diamants d'événements majeurs -->
+        <div id="ruler-events-layer"></div>
       </div>
 
-      <!-- Barre d'info épurée (sans liste à rallonge pour éviter tout tremblement) -->
+      <!-- Bandeau épuré avec légende des diamants -->
       <div class="master-hint-strip">
-        <span id="active-marker-info">REPÈRE TEMPOREL SYNCHRONIQUE</span>
+        <div class="milestones-legend">
+          <span class="legend-chip"><span class="legend-dot dot-gold"></span> Chantier / Politique</span>
+          <span class="legend-chip"><span class="legend-dot dot-tech"></span> Invention / Technique</span>
+          <span class="legend-chip"><span class="legend-dot dot-war"></span> Conquête / Bataille</span>
+          <span class="legend-chip"><span class="legend-dot dot-disaster"></span> Cataclysme</span>
+        </div>
         <span>◄ -3500 av. J.-C. | +1500 ap. J.-C. ►</span>
       </div>
 
       <div id="sync-cursor-line">
-        <div id="sync-bubble-tag">-2500 av. J.-C.</div>
+        <div id="sync-bubble-tag">-300 av. J.-C.</div>
       </div>
 
       <div id="timeline-split-wrapper">
-        <!-- COLONNE LATÉRALE FIGÉE COMME SUR GOOGLE SHEETS -->
+        <!-- COLONNE LATÉRALE 100% FIGÉE -->
         <div id="timeline-labels-column">
           <div class="lane-fixed-label" data-lane="europe_ouest">Gaule &amp; Europe Celte</div>
           <div class="lane-fixed-label" data-lane="atlantique">Atlantique &amp; Canaries</div>
@@ -120,7 +130,7 @@
           <div class="lane-fixed-label" data-lane="anatolie">Anatolie &amp; Caucase</div>
         </div>
 
-        <!-- ZONE DÉFILANTE HORIZONTALE -->
+        <!-- ZONE HORIZONTALE DÉFILANTE -->
         <div id="master-drag-container">
           <div id="master-ribbon">
             <div class="timeline-lane" data-lane="europe_ouest"></div>
@@ -138,12 +148,20 @@
 
   </footer>
 
-  <!-- MODALE D'EXPOSITION AGRANDIE (1350PX AVEC BANDEAU DE DÉPARTEMENT) -->
+  <!-- INFOBULLE D'ÉVÉNEMENT MAJEUR -->
+  <div id="milestone-tooltip" class="milestone-tooltip">
+    <div class="milestone-badge" id="milestone-type">REPÈRE HISTORIQUE</div>
+    <div class="milestone-year" id="milestone-year">-2560 av. J.-C.</div>
+    <div class="milestone-title" id="milestone-title">Titre de l'Événement</div>
+    <div class="milestone-desc" id="milestone-desc">Description concise de l'impact historique...</div>
+  </div>
+
+  <!-- MODALE D'EXPOSITION (1350PX AVEC BANDEAU DÉPARTEMENTAL) -->
   <div id="curator-modal">
     <div class="curator-frame">
       <button class="btn-dismiss-modal" id="btn-modal-close">&times;</button>
       
-      <!-- Bandeau thématique de section au sommet de l'exposition -->
+      <!-- Bandeau thématique au sommet de l'exposition -->
       <div id="modal-dept-banner-box" class="modal-dept-banner-box">
         <img id="modal-dept-banner-img" src="" alt="Bandeau de département" />
       </div>
@@ -163,7 +181,7 @@
           <div class="modal-narrative" id="modal-narrative-text">Notice détaillée...</div>
 
           <a href="#" target="_blank" rel="noopener noreferrer" class="btn-gold-link" id="modal-album-btn">
-            Explorer l'album complet
+            Explorer la collection
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
           </a>
         </div>
