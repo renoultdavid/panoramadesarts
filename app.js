@@ -884,7 +884,7 @@ CIVILISATIONS_REGISTRY.push(
     travelingOrigin: "55.4% 45.6%",
     haloId: "halo-chypre",
     bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczNtlhntpxWY6u22Dj77CiZfXJnSfduTP1uXInNNl7THWXS5vseOikfKiRgcTsCjP2iVGO-jX924k9zAAUyZQhGX8luuSrh5eXc650LHXXMWEdLAl7o589lo_Rkk6Bo9UJYlo4iFAtBkaj6qhmzuUK5y_w=w2111-h896-s-no-gm?authuser=0",
-    mapOverlayUrl: "https://drive.google.com/file/d/1QNkcnjOVZ9nSJxO2vXusVWgC04EmaUcO/view?usp=drive_link",
+    mapOverlayUrl: "https://lh3.googleusercontent.com/d/1-RyywCVU5Ct2McoKupe9Z2OnXrnDSJ9r",
     albumUrl: "https://photos.google.com",
     presentationHtml: `
       <p><strong>L'île du cuivre au carrefour des mondes antiques</strong><br>
@@ -963,7 +963,7 @@ CIVILISATIONS_REGISTRY.push(
     travelingOrigin: "47.8% 38.5%",
     haloId: "halo-celte_fer",
     bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczOTpAuNPMicTn782_1Zjbxrq0HKHRKJG6AVI3MC5QV0sIgRxWd1KE3enIDaZ4vI7QiV5SLQ6pAzbtmog5AkOjGQTGt3u4cnSdiF9sW1VPzeXH1Md2FDvlYQR92Fv7MXvbsr0sYzoNpKZc4GHJfmENYp7w=w2111-h896-s-no-gm?authuser=0",
-    mapOverlayUrl: "https://lh3.googleusercontent.com/d/1vA5Ww4o5Z6m0PqQvB4U7e-9r8n6Y3u8v",
+    mapOverlayUrl: "https://lh3.googleusercontent.com/d/1ZFqo_BVU5BBUN4mpNGlMeBOm91xXLtZt",
     albumUrl: "https://photos.google.com",
     presentationHtml: `
       <p><strong>L'abstraction curviligne et la virtuosité guerrière</strong><br>
