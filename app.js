@@ -107,7 +107,7 @@ const CIVILISATIONS_REGISTRY = [
     travelingOrigin: "54.8% 48.8%",
     haloId: "halo-egypte_ancien",
     bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
-    mapOverlayUrl: "https://lh3.googleusercontent.com/d/1Z_u8l5xO0r0y2L_x8v9b6Nm0PqQvB4U7",
+    mapOverlayUrl: "https://lh3.googleusercontent.com/d/1ziTqdTOIWmuthiEJmt735P207kfaB075",
     albumUrl: "https://photos.google.com",
     presentationHtml: `
       <p><strong>L'aube de l'art pharaonique et l'âge des pyramides</strong><br>
@@ -143,7 +143,7 @@ const CIVILISATIONS_REGISTRY = [
         themeLink: "https://photos.google.com",
         chips: ["Groupe A nubien", "Poterie coquille d'œuf", "Basse-Nubie"],
         deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
-        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNzr0yA9p1Q-9r8n6Y3u8v...",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMM_50L25yn1FudTooPXRpLY4HiFSoiX3CCtY4xJfZz3eWR4qFoCq2qidmdFkwACVVhKoCpRCoz-QdixsJOspxEr6f-ls1YuW05n0ksHPibOrJNex59vRg1D_Bja6uK7VUNenNu2YYIQ3Pd6NKksFAo3Q=w2000-h1334-s-no-gm?authuser=0",
         narrative: `<p>Cette coupe en céramique peinte appartient à la culture du Groupe A, qui s'est épanouie en Basse-Nubie entre 3800 et 3100 avant notre ère. Contemporaine des périodes de Nagada en Égypte, cette production témoigne du haut degré de maîtrise technique et artistique des populations nubiennes, notamment dans l'art de la "poterie coquille d'œuf" (eggshell pottery), caractérisée par des parois d'une extrême finesse.</p>
         <p>Le décor intérieur, réalisé au trait sombre sur un engobe clair, offre une vision naturaliste et gracieuse de la faune sauvage de la vallée du Nil. On y distingue trois animaux disposés selon une rotation qui épouse la courbure du récipient : deux gazelles ou oryx aux cornes élégamment recourbées et, de manière plus singulière, une girafe reconnaissable à son long cou et à son pelage moucheté. Contrairement aux scènes de chasse plus narratives, cette composition semble célébrer la figure animale en tant que telle, utilisant des lignes épurées pour suggérer le mouvement et la vie.</p>
         <p>Cette pièce illustre l'importance de l'iconographie animale dans les rites funéraires nubiens, où ces objets étaient déposés dans les tombes pour accompagner les défunts. La présence de la girafe, animal alors présent dans les savanes du Sud, souligne l'étendue de l'horizon géographique et symbolique de cette culture. Par la délicatesse de son trait et la simplicité de sa mise en page, cette coupe constitue un chef-d’œuvre de l'art préhistorique africain, révélant une sensibilité esthétique déjà parfaitement aboutie avant l'émergence des premières dynasties pharaoniques.</p>`
@@ -157,7 +157,7 @@ const CIVILISATIONS_REGISTRY = [
         themeLink: "https://photos.google.com",
         chips: ["Ière dynastie", "Grauwacke", "Unification royale"],
         deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
-        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNarmer...",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNicB1AcSFTTRnI7NSSG3b-G_THRXiLJnlpFcfZpVHtZZwrioDwOPkSvhZ2mc9yQWk5s3yiss8N56WJS-_lZThkbX_hUAcaIq5chFEvYydsT5Cr8MPbLHowfMVTvNm1zMiim7PYYdX0GdmDnYhMiV7BBg=w1611-h2416-s-no-gm?authuser=0",
         narrative: `<p>Cette plaque de grauwacke sombre, haute de 64 cm, est connue sous le nom de Palette de Narmer. Découverte à Hiérakonpolis en 1898, elle date de la période de l'unification de l'Égypte (vers 3000 av. J.-C.). Bien que sa forme dérive des palettes à fard utilisées pour broyer les pigments cosmétiques, ses dimensions et sa richesse décorative indiquent qu'il s'agit d'un objet votif offert à un temple pour commémorer une victoire royale et la naissance de l'État égyptien.</p>
         <p>La face présentée montre le roi Narmer, identifié par les hiéroglyphes placés entre les deux têtes de la déesse-vache Bat (ou Hathor) au sommet. Le souverain, vêtu de la couronne blanche de Haute-Égypte et d'un pagne orné d'une queue de taureau, est représenté dans une posture iconique qui restera la norme pendant 3000 ans : il brandit une massue pour frapper un ennemi agenouillé, symbolisant le triomphe de l'ordre sur le chaos. Derrière lui, un porte-sandales de plus petite taille souligne son rang divin, tandis qu'au-dessus de la victime, le dieu faucon Horus tient une tête humaine émergeant de racines de papyrus, illustrant la conquête de la Basse-Égypte (le Delta).</p>
         <p>Au registre inférieur, deux ennemis vaincus s'enfuient ou gisent au sol.</p>`
@@ -171,7 +171,7 @@ const CIVILISATIONS_REGISTRY = [
         themeLink: "https://photos.google.com",
         chips: ["Ancien Empire", "Calcaire peint & Cristal de roche", "Musée du Louvre"],
         deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
-        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczScribe...",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOLXBqZ8wDTWRT74bAjKYENOSQ_ZZ7xvxJvow7jJrXpSLZRUI3N9dMh12MBYkeA-q6XINhTuaYOME2Q1HHqoUJ85beYF_okEtstxmW8CVvNAX6TW7AwZnks45wHO7VUVvoWn1AvIIB-kF36UQFwoX4bJA=w1200-h1600-s-no-gm?authuser=0",
         narrative: `<p>Découverte par Auguste Mariette à Saqqarah en 1850, cette statue en calcaire peint date de la IVe ou de la Ve dynastie (environ 2600-2350 avant notre ère), période faste de l'Ancien Empire. Elle représente un haut fonctionnaire de l'administration royale dans l'exercice de ses fonctions, assis en tailleur, prêt à noter les paroles de son maître ou à enregistrer des biens.</p>
         <p>Le réalisme de l'œuvre est saisissant et tranche avec l'idéalisme habituel des statues royales. Le corps présente des marques de sédentarité, avec des plis de graisse sur l'abdomen soulignant le statut social élevé du personnage : celui d'un homme qui ne pratique pas de travail physique et mange à sa faim. Ses mains sont positionnées pour tenir un calame et un rouleau de papyrus, aujourd'hui disparus, tandis que ses doigts sont sculptés avec une finesse qui laisse deviner la tension de l'écriture.</p>
         <p>Le regard est l'élément le plus fascinant de la sculpture. Les yeux sont réalisés par une technique d'incrustation complexe : un bloc de magnésite blanche contient un iris en cristal de roche poli, le tout serti dans des paupières en cuivre. Cette méthode confère au scribe une présence presque vivante et une profondeur de regard qui semble suivre le visiteur. L'usage de la peinture rouge pour la peau et noire pour les cheveux et les sourcils a été remarquablement préservé, conservant à l'œuvre son éclat d'origine.</p>
@@ -186,7 +186,7 @@ const CIVILISATIONS_REGISTRY = [
         themeLink: "https://photos.google.com",
         chips: ["IVe dynastie", "Diorite (anorthosite gneiss)", "Musée du Caire"],
         deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
-        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczKhephren...",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPfy6tE5gJfzkd2cczUq7IqhIsMoEjyd3O5rAaPeoHxDfY1MBF83o98oTx7J4vbIuQ85SBFKnvndC-BL-D0E2vvZFgNFexx6m503n4DNmEjaKnpEZGBvu4Cyd7wsjuHEfq1YOXCGENUareMOhGlK05z6Q=w1611-h2416-s-no-gm?authuser=0",
         narrative: `<p>Cette statue de Khéphren assis, chef-d'œuvre de la IVe dynastie (vers 2520 av. J.-C.), est l'une des pièces les plus emblématiques du Musée égyptien du Caire. Taillée dans une pièce massive de diorite (ou anorthosite gneiss), une pierre extrêmement dure venue des carrières du sud du pays, elle fut découverte en 1860 par Auguste Mariette dans un puits du temple de la Vallée de sa pyramide à Gizeh. Ce matériau précieux, qui prend un éclat lumineux et strié une fois poli, n'était pas peint afin de laisser transparaître la qualité divine et éternelle de la pierre.</p>
         <p>L'œuvre présente une composition d'une puissance symbolique rare, où le roi et le divin ne font qu'un. Le dieu faucon Horus est perché à l'arrière du trône, enveloppant la tête du pharaon de ses ailes déployées dans un geste de protection totale. Depuis l'avant, le dieu est presque invisible, suggérant que le monarque est l'incarnation terrestre de la divinité. Khéphren porte le némès orné de l'uræus, la barbe postiche et le pagne court chendjyt, affichant un visage aux traits idéalisés et une expression d'une sérénité immuable qui transcende le temps.</p>
         <p>Le trône lui-même est un manifeste politique de l'unité égyptienne. Ses pieds prennent la forme de pattes de lion, tandis que ses flancs sont gravés du motif du Séma-taouy. Ce symbole représente l'union de la Haute et de la Basse-Égypte par l'entrelacement du lotus et du papyrus autour du signe hiéroglyphique de la trachée, signifiant l'unification des « Deux Terres » sous l'autorité unique du souverain. Par sa compacité et sa rigidité frontale, cette sculpture assure la survie éternelle du ka (l'essence vitale) du roi au sein de son complexe funéraire.</p>`
@@ -200,7 +200,7 @@ const CIVILISATIONS_REGISTRY = [
         themeLink: "https://photos.google.com",
         chips: ["Ve dynastie", "Bois de sycomore & Cristal", "Musée du Caire"],
         deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
-        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczKaaper...",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczORFqzVMHsM75AE3fdEJ87u-BAq8j8KdBPilurDsJ3PGp5IaN2XpSvPxskv5oA5oRGvKN5ImVslpNURkv63AqXQ4TVJcX-n19xBI4ktIPvsK9XEXwC7aGIURhM4rbv7XIAPbizJn3oAbdhfrcL_Uf67dQ=w1611-h2416-s-no-gm?authuser=0",
         narrative: `<p>Cette statue de Kaaper, découverte dans son mastaba à Saqqarah et datée d'environ 2465 av. J.-C., constitue l'un des sommets de l'art de l'Ancien Empire égyptien. Sculptée dans du bois de sycomore, elle frappe par son réalisme saisissant, loin des canons idéalisés de la statuaire royale. Kaaper, qui occupait les fonctions de prêtre-lecteur et de gouverneur militaire, y est représenté avec une silhouette opulente, signe de sa réussite sociale et de son autorité.</p>
         <p>Le rendu des chairs et la posture de marche, le bras gauche tenant autrefois un bâton de fonction, témoignent d'une maîtrise exceptionnelle de la sculpture sur bois. La fascination qu'exerce cette œuvre provient essentiellement de son regard, rendu "vivant" par une technique d'incrustation complexe : les yeux sont composés de quartz blanc et de cristal de roche, sertis dans des paupières de cuivre. Lors de sa découverte par les ouvriers de l'archéologue Auguste Mariette, sa ressemblance avec le maire de leur propre village fut telle qu'ils la surnommèrent "Cheikh el-Beled" (le maire du village), nom sous lequel elle est encore mondialement connue aujourd'hui.</p>
         <p>Placée à l'origine dans le serdab de la tombe, cette effigie n'était pas destinée aux regards des vivants mais servait de support éternel au Ka, l'énergie vitale du défunt. Elle incarne la croyance égyptienne en la survie de l'identité individuelle par-delà la mort, fixant pour l'éternité les traits d'un haut dignitaire au faîte de sa puissance administrative.</p>`
@@ -214,7 +214,7 @@ const CIVILISATIONS_REGISTRY = [
         themeLink: "https://photos.google.com",
         chips: ["Ve dynastie", "Calcaire peint", "Serdab funéraire"],
         deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
-        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczCouple...",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOLCdzNwAXr084c0pxnmKjAE4TtFjKxrDIjneJ0zCLD2aichfmzlQTJDe79jonsyYp9Om9B2j4ckbEGQ_OtzUNRWP0b6ZkE_-hsYl-hNVG5MdB0mcM7SsTghkQPkL39shleQzjSfIavMi9gy26KpGl41A=w1818-h2416-s-no-gm?authuser=0",
         narrative: `<p>Ce groupe statuaire en calcaire peint, datant de la Ve dynastie, représente un couple de hauts dignitaires dans une attitude d'affection et de protection mutuelle. L'homme est figuré debout, le pied gauche en avant dans la posture traditionnelle de la marche, tandis que son épouse se tient à sa gauche, l'enlaçant tendrement par l'épaule et le bras. Cette composition souligne l'importance de l'unité familiale et du couple dans la société de l'Ancien Empire, garantissant au défunt la présence de ses proches dans l'au-delà.</p>
         <p>La polychromie, exceptionnellement bien conservée par endroits, respecte les codes esthétiques de l'époque : une peau ocre rouge pour l'homme, symbolisant ses activités à l'extérieur, et une peau jaune pâle ou blanche pour la femme, reflétant une vie plus protégée. L'homme porte un pagne court plissé et une perruque imposante à boucles étagées qui dégage le visage. La femme est vêtue d'une robe fourreau blanche moulante, mettant en valeur sa silhouette, et porte une perruque longue et lisse qui retombe sur sa poitrine.</p>
         <p>Les traits des visages sont traités avec un certain idéalisme, bien que le modelé des corps témoigne d'une observation attentive de l'anatomie. Les yeux, autrefois rehaussés de peinture noire, conservent une fixité qui exprime la sérénité éternelle. La base de la statue comporte des inscriptions hiéroglyphiques incisées, identifiant les titres et les noms des défunts, indispensables pour que le Ka puisse reconnaître son support matériel. Cette œuvre, destinée au serdab d'un mastaba, constitue un exemple majeur de la statuaire privée de la Ve dynastie, alliant rigueur formelle et sensibilité humaine.</p>`
@@ -228,7 +228,7 @@ const CIVILISATIONS_REGISTRY = [
         themeLink: "https://photos.google.com",
         chips: ["VIe dynastie", "Calcaire sculpté", "Règne de Téti"],
         deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
-        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMererouka...",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMIsusTWlnfYdbwaQLQiaMOjpnaS03z7JxD9vLdM5eb6brCCq3DOd89FL7fRDIlHoCsx6ZvuvGfDV6YEapLcwjmpf_vOMuDqZtO1ER23u6VspZjyKXl8OmFAkzYYTS5AMaqJKyGShXwtXKhOeY0cOalLQ=w2000-h1334-s-no-gm?authuser=0",
         narrative: `<p>Cette œuvre est une fausse porte monumentale issue du mastaba de Mererouka, situé à Saqqarah Nord, en Égypte. Datant de la VIe dynastie, sous le règne du pharaon Téti (vers 2300 avant J.-C.), elle constitue l'élément spirituel central du complexe funéraire de ce haut dignitaire. Mererouka cumulait des fonctions prestigieuses, étant à la fois vizir, gendre du roi et gardien de la pyramide, ce qui explique l'ampleur et la richesse exceptionnelle de sa sépulture, l'une des plus vastes de l'Ancien Empire.</p>
         <p>La fausse porte est conçue comme une interface symbolique entre le monde des vivants et celui des morts. Selon les croyances égyptiennes, le ka (l'énergie vitale) du défunt pouvait franchir cette paroi de calcaire pour venir consommer les offrandes déposées par les prêtres ou la famille dans la chapelle de culte. L'architecture de la stèle imite la façade d'un palais ou d'une habitation, avec ses montants verticaux et son linteau, créant l'illusion d'un passage réel vers l'au-delà.</p>
         <p>Les surfaces sont entièrement recouvertes de bas-reliefs d'une grande finesse, conservant par endroits des traces de pigments ocre et rouge. Les colonnes de hiéroglyphes détaillent les nombreux titres de Mererouka et les formules d'offrandes rituelles destinées à assurer sa subsistance éternelle. Au pied de la stèle, des représentations du défunt en marche, sculptées en léger relief, semblent émerger de la pierre pour accueillir les visiteurs et participer au banquet funéraire.</p>
@@ -239,114 +239,125 @@ const CIVILISATIONS_REGISTRY = [
   {
     id: "egypte_moyen",
     name: "Égypte : Moyen Empire & Périodes Intermédiaires",
-    epoch: "v. -2160 à -1550 av. J.-C.",
-    yearStart: -2160,
+    epoch: "v. -2050 à -1550 av. J.-C.",
+    yearStart: -2050,
     yearEnd: -1550,
     lane: "egypte",
     themeColor: "#20c997",
     sidePos: "pos-left",
     travelingOrigin: "54.9% 49.6%",
     haloId: "halo-egypte_moyen",
-    bannerImg: "https://lh3.googleusercontent.com/d/1Q2cKc6JRPGuKwLc4bvIw1S-qEDg5U6Tq",
-    mapOverlayUrl: "https://lh3.googleusercontent.com/d/156Ms6-I_hZFV20g8jtGYjhw_Pd7yUTf0",
-    albumUrl: "https://photos.google.com/share/AF1QipN3eyH-IXfJ5tzHs153uMFgtbiZ-T1UONLzfSVpPLodOXWcNGXYMeojYCDX7skI5w?key=dEpRSmZnTkVLb2FuOHJCbjRqZDhDZ1ZDNDhOVkhn",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    mapOverlayUrl: "https://lh3.googleusercontent.com/d/1Z_u8l5xO0r0y2L_x8v9b6Nm0PqQvB4U7",
+    albumUrl: "https://photos.google.com",
     presentationHtml: `
-      <p><strong>L'âge classique et l'humanisation du souverain</strong><br>
-      Le Moyen Empire (v. 2033-1710 av. J.-C., XIe-XIIIe dynasties) marque un âge classique et introspectif dans l'art égyptien, né de la réunification du pays par Mentouhotep II après les troubles de la Première Période intermédiaire. Rompant avec l'assurance triomphale et immuable de l'Ancien Empire, la statuaire royale innove par une humanisation sans précédent des souverains, visible sous les règnes de Sésostris III et d'Amenemhat III. Les visages pharaoniques se creusent de traits soucieux, d'orbites profondes et de paupières lourdes, incarnant la responsabilité écrasante du souverain pasteur et protecteur de son peuple.</p>
-
-      <p><strong>Démocratisation funéraire et modèles réduits de tombes</strong><br>
-      Parallèlement, la statuaire privée se démocratise : les dignitaires locaux et particuliers commandent désormais de remarquables effigies en bois stuqué ou en pierre, et l'on voit émerger la forme compacte de la « statue-cube ». Dans les arts funéraires, le mobilier témoigne d'une extrême minutie à travers les sarcophages rectangulaires peints, décorés à l'intérieur des Textes des sarcophages et de minutieuses frises d'objets du quotidien. Les modèles réduits en bois polychrome — scènes de brasserie, de tissage, de greniers ou de défilés de serviteurs — remplacent temporairement les grands bas-reliefs pour garantir la survie matérielle du défunt.</p>
-
-      <p><strong>L'essor de Thèbes et l'orfèvrerie de cour</strong><br>
-      L'architecture religieuse et funéraire se réinvente, alliant terrasses à portiques (Deir el-Bahari) et chapelles en calcaire fin gravées de reliefs d'une élégance graphique inégalée, comme la Chapelle blanche de Sésostris Ier à Karnak. L'orfèvrerie de cour atteint son apogée à Dahchour et El-Lahoun, où pectoraux ajourés, couronnes et parures royales déclinent l'or, le lapis-lazuli, la cornaline et la turquoise avec une maîtrise technique absolue du cloisonné. L'art du Moyen Empire s'affirme ainsi comme une période de grande maturité plastique, où la rigueur géométrique s'associe à une profondeur psychologique et spirituelle inédite.</p>
+      <p><strong>L'âge classique des lettres et l'humanisation du divin</strong><br>
+      Après les tumultes de la Première Période Intermédiaire, Montouhotep II refonde l'unité égyptienne depuis Thèbes. Le Moyen Empire inaugure une ère de maturité artistique sans précédent, caractérisée par une profondeur psychologique inédite dans les portraits royaux et l'essor d'un art funéraire provincial raffiné.</p>
     `,
     concurrentHtml: `
       <p><strong>Le contexte mondial au IIe millénaire av. J.-C.</strong></p>
-      <p>En Mésopotamie, l'Empire babylonien émerge sous le règne de Hammurabi, unifiant le pays et élevant le célèbre monument juridique de la stèle des lois. En Anatolie, l'Empire hittite se structure avec une architecture monumentale en blocs cyclopéens.</p>
-      <p>Dans la mer Égée, la civilisation minoenne en Crète érige ses premiers grands palais labyrinthiques (Knossos, Phaistos) couverts de fresques naturalistes et développe l'écriture hiéroglyphique puis le linéaire A.</p>
+      <p>Pendant que l'Égypte du Moyen Empire s'épanouit dans cet art classique et introspectif, les autres grands foyers civilisationnels du globe traversent des mutations historiques et culturelles majeures au cours du IIe millénaire av. J.-C.</p>
+      <p><strong>Mésopotamie : Hammurabi et Babylone</strong><br>
+      En Mésopotamie, après la chute de la troisième dynastie d'Ur, la région se fragilise avant de voir l'émergence de l'Empire babylonien sous le règne de Hammurabi, célèbre pour son code de lois unifié gravé dans la pierre et l'essor de la diplomatie internationale.</p>
+      <p><strong>Vallée de l'Indus : transition urbaine</strong><br>
+      Dans la vallée de l'Indus, la civilisation harappienne commence sa lente transition et son déclin progressif, marqué par l'abandon des grandes métropoles urbaines et la mutation des réseaux d'échanges à longue distance vers l'Asie centrale.</p>
+      <p><strong>Chine : les bronzes rituels Shang</strong><br>
+      En Chine, la transition s'opère entre la fin de la culture de Longshan et l'affirmation des premières structures étatiques de la dynastie Shang, qui développent la coulée du bronze rituel et les premiers systèmes d'écriture divinatoire.</p>
+      <p><strong>Monde Égéen : l'âge d'or des palais crétois</strong><br>
+      Enfin, en mer Égée, la civilisation minoenne atteint son apogée palatial en Crète (premier et second âges des palais), développant le système d'écriture linéaire A, une thalassocratie maritime dominante et une production artistique foisonnante centrée sur les cultes de la nature.</p>
     `,
     themeAlbums: [
-      { label: "🏺 Céramiques", url: "https://photos.google.com/share/AF1QipMNQ5eY261NXOzCFawVXiW-1pbb7VG4opgoBxJ-TEVNd2BxJp52VopMR2q7kVBtHw?key=SHplem9jdFE2RnhCaXJIR1o4al9UMTI1UHhCc3NB" },
-      { label: "📜 Gravures & Reliefs", url: "https://photos.google.com/share/AF1QipNlo80I8xbcNGWKMI7dnnm5aPtALq8jpsRKJGGdAmNT2TnbEIrd0Y2isWehnlLwbg?key=S0kzelN6N1pyaTlZc21PeWtiOUN0bHZyckVMaGZB" },
-      { label: "🎨 Peintures", url: "https://photos.google.com/share/AF1QipMzaxBxEP6dd76u3_Ldl7cRgR0YQ5fFNegi5HUNy5E8VHUVEF7pPnAqhXLKYkbJ9w?key=V0kwcUlEVXFXQ0FLVFp5dXJEWklVMjhvWHFrUjZB" },
-      { label: "🏛️ Obélisques & Temples", url: "https://photos.google.com/share/AF1QipMD9gTlrGuj9Ng3NopZQQkswrc49JfmHJESKRZWFkm7AQaA5mCjFLZDXTDRQG-cVQ?key=SzhBc0ZNQzJIbFhCYWhkLThmU2FySURxaU11dWpB" },
-      { label: "🗿 Statuaire Royale", url: "https://photos.google.com/share/AF1QipN3eyH-IXfJ5tzHs153uMFgtbiZ-T1UONLzfSVpPLodOXWcNGXYMeojYCDX7skI5w?key=dEpRSmZnTkVLb2FuOHJCbjRqZDhDZ1ZDNDhOVkhn" },
-      { label: "🪦 Parois des Tombes", url: "https://photos.google.com/album/AF1QipMvAReo-M_8VZNBNi0XN9cnCCA3GdgpYxIN2gpd" },
-      { label: "💍 Bijoux & Quotidien", url: "https://photos.google.com/share/AF1QipMPvGsbKG1P6Ly3nEAZsXXysQgJw7e60mYpU3GLEzPTCykMr0iCgV31qU_k8JEt6g?key=dUlsQnlQdTh5elVReGU2T0ZaUEtsc0ljS3NZZjZB" },
-      { label: "⚰️ Funéraire & Momies", url: "https://photos.google.com/share/AF1QipMPZVPxixftA0xlCWDph7xd49UFkPFHE1yI8RvwsVn_IoUoWO5COMeS__ajWSqZeQ?key=N3RLMkZ0aEtYcFhUb3FLLTl6aXJicDBZM0JRSkJR" }
+      { label: "👑 Statuaire royale", url: "https://photos.google.com" },
+      { label: "🗿 Statuaire privée", url: "https://photos.google.com" },
+      { label: "⚱️ Mobilier funéraire", url: "https://photos.google.com" },
+      { label: "🏛️ Chambres & Tombes", url: "https://photos.google.com" }
     ],
     artifacts: [
       {
-        id: "deshri_saqqarah",
-        century: "v. -2100 av. J.-C. (Première Période Intermédiaire)",
-        title: "Reliefs peints de la chambre funéraire de Deshri",
-        site: "Saqqarah Nord (Musée Égyptien du Caire)",
-        category: "Peinture & Parois",
-        themeLink: "https://photos.google.com/share/AF1QipMzaxBxEP6dd76u3_Ldl7cRgR0YQ5fFNegi5HUNy5E8VHUVEF7pPnAqhXLKYkbJ9w?key=V0kwcUlEVXFXQ0FLVFp5dXJEWklVMjhvWHFrUjZB",
-        chips: ["Transition Xe - XIe dynastie", "Calcaire peint polychrome", "Saqqarah"],
-        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO-oIaGstfUOdgYBAOgtj8VCCM6hCeXJEWmjLkcI-CcQp9aZq2bZ96H8tHBGkmBsQk3Q6LzpD5mhZbN5zFCr2aqncoFfdWAD3UDDiHmjAAV5DrXBVFBAdSNgvfCinLQ2uR8Mb4MIpgCmPcj94dUfjVw1A=w1584-h672-s-no-gm?authuser=0",
-        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOYtgr7DCVP6fjrKrJM1VDH0-_mGoYXEpXgK-ekIonRT3s0EN_fZJmZoaaiquwPBExBIVCKudY66Ay0UAJQwzQEmoiBenpMd2jIObKKdDHgZlWDr_syjf_WZv3x_B0MVpOLjeO1dClbaIbknW0_-_Bohw=w1733-h1156-s-no-gm?authuser=0",
-        narrative: `<p>Cette chambre funéraire appartenait à Deshri, un haut dignitaire portant le titre de « Chef de l'État », et fut mise au jour dans la nécropole de Saqqarah. Datée d'environ -2100 (Première Période Intermédiaire), cette structure témoigne d'une époque de transition où, malgré l'instabilité politique, les traditions artistiques et religieuses de l'Ancien Empire perdurent tout en s'adaptant à des contextes plus provinciaux. L'ensemble est aujourd'hui conservé et reconstitué au Musée égyptien du Caire.</p>`
+        id: "chambre_funeraire_deshri",
+        century: "v. -2100 av. J.-C. (XXIe s. av. J.-C.)",
+        title: "Chambre funéraire peinte de Deshri",
+        site: "Saqqarah (conservée au Musée du Caire)",
+        category: "Architecture funéraire & Peinture",
+        themeLink: "https://photos.google.com",
+        chips: ["Première Période Intermédiaire", "Fresque sur enduit", "Musée du Caire"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczDeshri...",
+        narrative: `<p>Cette chambre funéraire appartenait à Deshri, un haut dignitaire portant le titre de « Chef de l'État », et fut mise au jour dans la nécropole de Saqqarah. Datée d'environ -2100 (Première Période Intermédiaire), cette structure témoigne d'une époque de transition où, malgré l'instabilité politique, les traditions artistiques et religieuses de l'Ancien Empire perdurent tout en s'adaptant à des contextes plus provinciaux. L'ensemble est aujourd'hui conservé et reconstitué au Musée égyptien du Caire.</p>
+        <p>Les parois de la chambre sont ornées de reliefs peints d'une grande précision, agissant comme un substitut éternel aux rituels quotidiens. Le décor se concentre sur l'accumulation de provisions nécessaires à la survie du défunt dans l'au-delà : on y distingue de nombreuses jarres de vin et de bière, des pains, des pièces de viande et des paniers de fruits. Ces listes d'offrandes, accompagnées de formules hiéroglyphiques, garantissaient magiquement que Deshri ne manquerait de rien, même si les offrandes physiques réelles venaient à cesser.</p>
+        <p>L'organisation des registres suit les codes classiques de la représentation égyptienne, avec une juxtaposition d'objets soigneusement détaillés. On peut observer, outre la nourriture, des éléments du mobilier funéraire et des parures, comme des colliers et des étoffes. La polychromie, bien que plus sobre que dans certaines tombes royales, utilise des pigments naturels (ocre rouge, jaune et noir) pour différencier les matières et donner de la lisibilité à l'inventaire sacré.</p>
+        <p>Contrairement aux vastes chapelles des mastabas de l'Ancien Empire, cette chambre est plus exiguë, ce qui est caractéristique des sépultures de cette période. Elle illustre parfaitement le concept de la « tombe-coffre », où le décor se rapproche physiquement du corps du défunt pour créer un environnement protecteur et nourricier immédiat. Cette pièce constitue l'un des "joyaux cachés" du musée, offrant une vision intime de la vie quotidienne et des aspirations spirituelles des nobles égyptiens il y a 4000 ans.</p>`
       },
       {
-        id: "montouhotep_ii",
-        century: "v. -2030 av. J.-C. (XIe dynastie)",
-        title: "Statue osirienne du roi Montouhotep II (Nebhepetrê)",
-        site: "Temple funéraire de Deir el-Bahari (Thèbes)",
-        category: "Statuaire Royale",
-        themeLink: "https://photos.google.com/share/AF1QipN3eyH-IXfJ5tzHs153uMFgtbiZ-T1UONLzfSVpPLodOXWcNGXYMeojYCDX7skI5w?key=dEpRSmZnTkVLb2FuOHJCbjRqZDhDZ1ZDNDhOVkhn",
-        chips: ["XIe dynastie", "Grès peint noir & Fête-Sed", "Musée Égyptien du Caire"],
-        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNYTW5sAtoEIJbW13Sd4VuY6g3Nzw-HdepPHPblCHV2ZN6c-JRhaCMhMXPfEu-29P-pf2fR9t6HC5RMfiZEFkNx2RpGZlf4TvFeZxmQjiekeTtV5e-DGkag-bG4cR07YRE5D-FzrDmHCxrSORtTZoTjJA=w1584-h672-s-no-gm?authuser=0",
-        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMS2mP1FL2PhpmAIB95iFAIHpV_ffOkImMgwLThuu-n_YVh3YfhIATiLEYzzjSOFkmFUGDXt9iuNzoExG-pM9LDL-mkw2KuwmlY-hoo-37CvuY6Yn1RK3l2yoZ5zgUtz5Ul4lgwvCBON718dn9zPny83A=w1607-h2412-s-no-gm?authuser=0",
-        narrative: `<p>Cette statue monumentale en grès peint représente le roi Montouhotep II (Nebhepetrê), le souverain qui a réunifié l'Égypte après la Première Période Intermédiaire, fondant ainsi le Moyen Empire (vers 2030 av. J.-C.). Elle a été découverte par hasard en 1900 par Howard Carter dans une chambre funéraire cachée (le Bab el-Housan) située sous la cour de son temple funéraire à Deir el-Bahari.</p>`
+        id: "statue_montouhotep_ii",
+        century: "v. -2030 av. J.-C. (XXIe s. av. J.-C.)",
+        title: "Statue osirienne du roi Montouhotep II",
+        site: "Deir el-Bahari (Bab el-Housan)",
+        category: "Statuaire royale",
+        themeLink: "https://photos.google.com",
+        chips: ["XIe dynastie", "Grès peint & Fête-Sed", "Musée du Caire"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMontouhotep...",
+        narrative: `<p>Cette statue monumentale en grès peint représente le roi Montouhotep II (Nebhepetrê), le souverain qui a réunifié l'Égypte après la Première Période Intermédiaire, fondant ainsi le Moyen Empire (vers 2030 av. J.-C.). Elle a été découverte par hasard en 1900 par Howard Carter dans une chambre funéraire cachée (le Bab el-Housan) située sous la cour de son temple funéraire à Deir el-Bahari. La statue a été trouvée enveloppée dans du lin fin, telle une momie, ce qui souligne sa fonction rituelle de substitut pour le ka (l'essence vitale) du roi.</p>
+        <p>L'aspect de l'œuvre est frappant par son archaïsme volontaire et sa puissance symbolique. Le roi est représenté assis sur un trône cubique sans dossier, portant le manteau blanc étroit de la fête-Sed, symbole de régénération du pouvoir royal. Ses chairs sont peintes d'un noir profond, une couleur qui, pour les Égyptiens, n'évoquait pas la mort mais la terre fertile du Nil et, par extension, la résurrection, l'identifiant ainsi directement au dieu Osiris. Ce contraste chromatique est accentué par le rouge vif de la couronne Decheret (couronne de la Basse-Égypte) et le blanc immaculé de son vêtement.</p>
+        <p>Le style sculptural se caractérise par des formes massives et vigoureuses : les jambes et les pieds sont particulièrement lourds, symbolisant la stabilité retrouvée du royaume sous son règne. Le visage, encadré par une barbe postiche recourbée, dégage une force tranquille et une autorité absolue. Cette statue n'est pas seulement un portrait royal ; elle est l'incarnation de la renaissance de l'État égyptien après des décennies de chaos. Elle témoigne de la volonté de Montouhotep II de se présenter comme le nouveau fondateur, celui qui redonne vie aux traditions de l'Ancien Empire tout en instaurant une esthétique thébaine nouvelle et puissante.</p>`
       },
       {
-        id: "masque_senu",
-        century: "v. -1900 av. J.-C. (XIIe dynastie)",
-        title: "Masque funéraire polychrome du prêtre Senu",
-        site: "Nécropole de Saqqarah (Musée Imhotep)",
+        id: "masque_pretre_senu",
+        century: "v. -1900 av. J.-C. (XIXe s. av. J.-C.)",
+        title: "Masque funéraire en cartonnage du prêtre Senu",
+        site: "Saqqarah (Musée Imhotep)",
         category: "Mobilier funéraire",
-        themeLink: "https://photos.google.com/share/AF1QipMPZVPxixftA0xlCWDph7xd49UFkPFHE1yI8RvwsVn_IoUoWO5COMeS__ajWSqZeQ?key=N3RLMkZ0aEtYcFhUb3FLLTl6aXJicDBZM0JRSkJR",
-        chips: ["XIIe dynastie", "Cartonnage stuqué et peint", "Musée Imhotep (Saqqarah)"],
-        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO8qJ9X0EbRPQwscIwqRQ7qhHKFuIShIpHCnkgDOrlDhzkMaCikMa0w9FILsuc5tAZ-IWaE9qllZEWwIzzDZbeSjQjh5IibmJDU6ycWvWpMiAnZ6BLpdVvNv-BAnPU-5_tcFcndUrfxL9yLT0soFPSQrQ=w1649-h700-s-no-gm?authuser=0",
-        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMmjP7RbmOU3HzMXCdXuHm1WN5hpTwkX0NI6VvzjEuy0CBTz4ry75JeEr3wdcIr-XNu6t5Pg2t0V8EslZMe9UzPoFhwG9YfjLvb3J2Zo1U4vknI5K41RiwfBmsW5cS4a7KutPhtQfhNpo221D2TTDYa8w=w1607-h2412-s-no-gm?authuser=0",
-        narrative: `<p>Ce masque funéraire saisissant appartient au prêtre Senu (également orthographié Sny) et constitue l'une des pièces maîtresses du musée Imhotep à Saqqarah. Datant du Moyen Empire, vers 1900 av. J.-C. (XIIe dynastie), il témoigne du raffinement des techniques de momification et d'ornementation funéraire de cette période charnière.</p>`
+        themeLink: "https://photos.google.com",
+        chips: ["XIIe dynastie", "Cartonnage stuqué & peint", "Musée Imhotep"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczSenu...",
+        narrative: `<p>Ce masque funéraire saisissant appartient au prêtre Senu (également orthographié Sny) et constitue l'une des pièces maîtresses du musée Imhotep à Saqqarah. Datant du Moyen Empire, vers 1900 av. J.-C. (XIIe dynastie), il témoigne du raffinement des techniques de momification et d'ornementation funéraire de cette période charnière.</p>
+        <p>L'œuvre est réalisée en cartonnage, une technique consistant à superposer des couches de lin ou de papyrus encollées, recouvertes d'une fine couche de plâtre (stuc) pour être ensuite peintes. Ce matériau permettait de modeler avec précision les traits du défunt tout en offrant un support idéal pour une polychromie éclatante qui a conservé ici une intensité remarquable, notamment dans les nuances de bleu et d'ocre.</p>
+        <p>Le prêtre est représenté avec une perruque bleue imposante, dont la couleur symbolise la chevelure divine en lapis-lazuli et évoque la renaissance éternelle. Son visage aux traits idéalisés arbore une expression de sérénité absolue, avec des yeux soulignés de fard noir pour intensifier le regard, censé permettre au défunt de voir dans l'au-delà. Il porte la barbe postiche, attribut de divinisation montrant que Senu a rejoint le rang des « morts justifiés » assimilés à Osiris.</p>
+        <p>Sur la poitrine, un large collier ousekh richement décoré de motifs géométriques et floraux est peint avec une grande minutie. Ce masque ne servait pas seulement de protection physique pour la tête de la momie, mais servait de substitut magique au visage du défunt, garantissant que son âme (le Ba) puisse reconnaître son corps et s'y réincarner chaque jour.</p>`
       },
       {
-        id: "porteuse_assiout",
-        century: "v. -1900 av. J.-C. (XIIe dynastie)",
+        id: "statuette_feminine_henen",
+        century: "XIIe dynastie (XXe - XIXe s. av. J.-C.)",
         title: "Statuette féminine en bois de la tombe de Nakhti",
-        site: "Assiout (Tombe 7 du chancelier Nakhti)",
-        category: "Statuaire en bois",
-        themeLink: "https://photos.google.com/share/AF1QipN3eyH-IXfJ5tzHs153uMFgtbiZ-T1UONLzfSVpPLodOXWcNGXYMeojYCDX7skI5w?key=dEpRSmZnTkVLb2FuOHJCbjRqZDhDZ1ZDNDhOVkhn",
-        chips: ["XIIe dynastie", "Bois polychrome", "Musée du Louvre (Paris)"],
-        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNYTW5sAtoEIJbW13Sd4VuY6g3Nzw-HdepPHPblCHV2ZN6c-JRhaCMhMXPfEu-29P-pf2fR9t6HC5RMfiZEFkNx2RpGZlf4TvFeZxmQjiekeTtV5e-DGkag-bG4cR07YRE5D-FzrDmHCxrSORtTZoTjJA=w1584-h672-s-no-gm?authuser=0",
-        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMBEVTzlfcy5B1rAIF9YPnkhEyUy638zRehdKoi_8XmNCoG_EJDV4dWNeYZwLSI82hoqPAjtpF4p31S04bUB3ai4GNxGgQkYnnKDQg0cgOoxvd03lCiqESUt5o5qg9FZVVjbkLzlLQiY_kcw3nqZOnF5g=w1733-h2302-s-no-gm?authuser=0",
-        narrative: `<p>Cette statuette féminine en bois, attribuée à Hénen et provenant de la tombe du chancelier Nakhti à Assiout, est un exemple remarquable de la plastique du début du Moyen Empire. Représentée nue, dans une attitude de marche avec les bras le long du corps, elle se distingue par l'élégance de ses proportions et la finesse de son exécution.</p>`
+        site: "Assiout (Tombe 7)",
+        category: "Statuaire privée en bois",
+        themeLink: "https://photos.google.com",
+        chips: ["XIIe dynastie", "Bois polychrome", "Musée du Louvre"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczHenen...",
+        narrative: `<p>Cette statuette féminine en bois, attribuée à Hénen et provenant de la tombe du chancelier Nakhti à Assiout, est un exemple remarquable de la plastique du début du Moyen Empire. Représentée nue, dans une attitude de marche avec les bras le long du corps, elle se distingue par l'élégance de ses proportions et la finesse de son exécution. Contrairement aux grandes statues de Nakhti trouvées dans le même complexe, cette pièce de plus petite taille conserve une part importante de sa polychromie d'origine, notamment sur la perruque noire et les détails des bijoux peints aux poignets et aux chevilles.</p>
+        <p>Le traitement du corps privilégie une silhouette svelte et allongée, typique de la XIIe dynastie, où les formes sont suggérées avec une douceur qui n'exclut pas une certaine rigueur géométrique. Le visage, encadré par une perruque longue dont les mèches sont soigneusement dessinées, présente des yeux soulignés de fard noir qui lui confèrent un regard profond et éternel. Ces statuettes féminines, souvent appelées "concubines du mort" dans l'ancienne égyptologie, sont aujourd'hui interprétées plus largement comme des symboles de régénération et de fertilité, destinées à assurer la renaissance du défunt Nakhti dans l'au-delà.</p>
+        <p>La technique du bois ajouré permet une liberté de mouvement que la pierre ne permettait pas, rendant la posture de marche plus naturelle. La statuette repose sur un socle en bois peint imitant le granit ou une roche sombre, ancrant le personnage dans la réalité matérielle de la chapelle funéraire. En tant qu'objet de la tombe 7 d'Assiout, elle témoigne du raffinement des ateliers provinciaux qui, tout en suivant les codes de la cour royale, conservaient une originalité propre dans le rendu des expressions et des détails anatomiques.</p>`
       },
       {
-        id: "sphinx_amenemhat3",
-        century: "v. -1860 av. J.-C. (XIIe dynastie)",
-        title: "Sphinx en granit rose du pharaon Amenemhat III",
-        site: "Hawara (Oasis du Fayoum)",
-        category: "Sculpture Royale",
-        themeLink: "https://photos.google.com/share/AF1QipN3eyH-IXfJ5tzHs153uMFgtbiZ-T1UONLzfSVpPLodOXWcNGXYMeojYCDX7skI5w?key=dEpRSmZnTkVLb2FuOHJCbjRqZDhDZ1ZDNDhOVkhn",
-        chips: ["XIIe dynastie", "Granit rose poli", "Musée Égyptien du Caire"],
-        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNYTW5sAtoEIJbW13Sd4VuY6g3Nzw-HdepPHPblCHV2ZN6c-JRhaCMhMXPfEu-29P-pf2fR9t6HC5RMfiZEFkNx2RpGZlf4TvFeZxmQjiekeTtV5e-DGkag-bG4cR07YRE5D-FzrDmHCxrSORtTZoTjJA=w1584-h672-s-no-gm?authuser=0",
-        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPp89DFr93lsOr2oktxm2U7AtuoN-n-aYpoVfWpTRBrtLfu1q6ByWJRrp6N-3Z-p11ilZtPtvzqhFu97D6E8CiyVm7EmJKkH8xgXMbtgD1MSApTpUnzW7W9lsnnBuSzT1yH2f0fNW0JPDk371pzjeAvgQ=w1607-h2412-s-no-gm?authuser=0",
-        narrative: `<p>Cette statue en granit rose représente le pharaon Amenemhat III, l'un des souverains les plus marquants de la XIIe dynastie (vers 1860-1814 av. J.-C.). Elle a été découverte à Hawara, dans le Fayoum, à proximité de sa pyramide et de son célèbre « Labyrinthe ». Le roi est ici figuré sous la forme d'un sphinx, une créature hybride alliant la force du lion à l'intelligence humaine du monarque.</p>`
+        id: "sphinx_amenemhat_iii",
+        century: "v. -1860 à -1814 av. J.-C. (XIXe s. av. J.-C.)",
+        title: "Sphinx en granit rose d'Amenemhat III",
+        site: "Hawara (Fayoum)",
+        category: "Statuaire royale",
+        themeLink: "https://photos.google.com",
+        chips: ["XIIe dynastie", "Granit rose poli", "Style psychologique"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczAmenemhat...",
+        narrative: `<p>Cette statue en granit rose représente le pharaon Amenemhat III, l'un des souverains les plus marquants de la XIIe dynastie (vers 1860-1814 av. J.-C.). Elle a été découverte à Hawara, dans le Fayoum, à proximité de sa pyramide et de son célèbre "Labyrinthe". Le roi est ici figuré sous la forme d'un sphinx, une créature hybride alliant la force du lion à l'intelligence humaine du monarque. Il porte le némès, la coiffe royale plissée, surmonté de l'uræus (le cobra protecteur), ainsi que la barbe postiche traditionnelle.</p>
+        <p>Le visage est un exemple magistral du style réaliste et "psychologique" propre à la fin de la XIIe dynastie. Contrairement aux portraits idéalisés et juvéniles de l'Ancien Empire, celui d'Amenemhat III montre des traits marqués par l'âge et les responsabilités du pouvoir : les paupières sont lourdes, les pommettes saillantes et les commissures des lèvres s'abaissent légèrement. Cette esthétique singulière cherche à dépeindre le pharaon non plus comme un dieu lointain, mais comme un souverain vigilant, un "bon pasteur" soucieux de la gestion de son pays et de la crue du Nil, dont il a d'ailleurs largement développé l'irrigation dans la région du Fayoum.</p>
+        <p>La statue est sculptée dans un granit rose dont le polissage parfait met en valeur la puissance du corps léonin. Les pattes avant, dont les griffes sont discrètement suggérées, reposent sur une base massive. L'expression de la face, à la fois sévère et sereine, dégage une impression de force tranquille et d'autorité absolue. En tant qu'image de protection placée à l'entrée d'un temple, ce sphinx servait à repousser les forces du chaos tout en perpétuant pour l'éternité l'image d'un roi bâtisseur qui a su mener l'Égypte vers un sommet de prospérité économique et artistique.</p>`
       },
       {
-        id: "seqenenre_taa",
-        century: "v. -1580 av. J.-C. (XVIIe dynastie)",
+        id: "statue_seqenenre_taa",
+        century: "v. -1560 av. J.-C. (XVIe s. av. J.-C.)",
         title: "Statuette royale de Séqenenrê Djéhouty-Âa",
         site: "Thèbes Ouest / Abydos",
-        category: "Statuaire Royale",
-        themeLink: "https://photos.google.com/share/AF1QipN3eyH-IXfJ5tzHs153uMFgtbiZ-T1UONLzfSVpPLodOXWcNGXYMeojYCDX7skI5w?key=dEpRSmZnTkVLb2FuOHJCbjRqZDhDZ1ZDNDhOVkhn",
+        category: "Statuaire royale",
+        themeLink: "https://photos.google.com",
         chips: ["XVIIe dynastie", "Calcaire sculpté", "Deuxième Période Intermédiaire"],
-        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNYTW5sAtoEIJbW13Sd4VuY6g3Nzw-HdepPHPblCHV2ZN6c-JRhaCMhMXPfEu-29P-pf2fR9t6HC5RMfiZEFkNx2RpGZlf4TvFeZxmQjiekeTtV5e-DGkag-bG4cR07YRE5D-FzrDmHCxrSORtTZoTjJA=w1584-h672-s-no-gm?authuser=0",
-        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOKk1OEjeYDQKK89GCEpq4kpFha_SEZesIJ0FCZue6yMd6qZ4KZk9Lm-d5IHC2uDMWHLIpNqQunzW0UfYvxymQ4_hFecpECkajLW_3O8tTU65UX82BjSSsMGx_QGQv87VZ-PDBFCDivdjsxR81xVBdV6A=w1733-h2302-s-no-gm?authuser=0",
-        narrative: `<p>Cette statuette fragmentaire en calcaire représente le roi Séqenenrê Djéhouty-Âa, l'un des derniers souverains de la XVIIe dynastie. Elle constitue un témoignage historique et artistique crucial de la période de transition entre la Deuxième Période intermédiaire et le Nouvel Empire.</p>`
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczSeqenenre...",
+        narrative: `<p>Cette statuette fragmentaire en calcaire représente le roi Séqenenrê Djéhouty-Âa, l'un des derniers souverains de la XVIIe dynastie. Elle constitue un témoignage historique et artistique crucial de la période de transition entre la Deuxième Période intermédiaire et le Nouvel Empire. Le roi est figuré assis, vêtu d'un pagne court et coiffé d'une perruque courte et bouclée, une iconographie qui souligne la vigueur et la détermination de ce monarque connu pour avoir initié la guerre de libération contre les Hyksôs.</p>
+        <p>Le style de la sculpture conserve une certaine sobriété héritée des époques précédentes, mais annonce déjà le renouveau artistique thébain. Le visage, bien que marqué par l'érosion, laisse deviner des traits fermes : des yeux en amande, un nez droit et une bouche aux commissures serrées. Le modelé du torse est simple mais puissant, reflétant l'image d'un roi guerrier. Les inscriptions hiéroglyphiques gravées sur le socle et les côtés du siège confirment l'identité du souverain et ses titres, reliant son autorité à la protection des dieux de la région thébaine.</p>
+        <p>Provenant probablement de Thèbes Ouest ou d'Abydos, des sites hautement symboliques pour la légitimité de la dynastie, cette statue servait de support au culte royal. Séqenenrê Djéhouty-Âa, dont la momie porte les traces de blessures de guerre, est resté dans la mémoire égyptienne comme un héros national. Cette représentation, par sa rareté et sa force tranquille, permet d'apprécier l'art d'une époque de reconquête où la statuaire royale redevient un outil de propagande et d'affirmation de la souveraineté égyptienne retrouvée.</p>`
       }
     ]
   },
