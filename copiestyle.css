@@ -11,7 +11,6 @@
   --text-bright: #f5f6f9;
   --text-muted: #8c95a6;
 
-  /* Couleurs des diamants thématiques */
   --c-gold: #f39c12;
   --c-tech: #00b4d8;
   --c-war: #e63946;
@@ -151,72 +150,17 @@ body {
   pointer-events: none;
 }
 
-#halo-canaries {
-  left: 43.8%;
-  top: 48.6%;
-  background: radial-gradient(circle, rgba(231,111,81,0.95) 0%, rgba(231,111,81,0.35) 50%, transparent 75%);
-}
-
-#halo-amorrite {
-  left: 55.8%;
-  top: 44.2%;
-  background: radial-gradient(circle, rgba(212,163,115,0.95) 0%, rgba(212,163,115,0.35) 50%, transparent 75%);
-}
-
-#halo-celte_bronze, #halo-celte_fer {
-  left: 47.8%;
-  top: 38.5%;
-  background: radial-gradient(circle, rgba(42,157,143,0.95) 0%, rgba(42,157,143,0.35) 50%, transparent 75%);
-}
-
-#halo-chypre {
-  left: 55.4%;
-  top: 45.6%;
-  background: radial-gradient(circle, rgba(233,196,106,0.95) 0%, rgba(233,196,106,0.35) 50%, transparent 75%);
-}
-
-#halo-crete {
-  left: 53.2%;
-  top: 45.4%;
-  background: radial-gradient(circle, rgba(58,134,255,0.95) 0%, rgba(58,134,255,0.35) 50%, transparent 75%);
-}
-
-#halo-cyclades {
-  left: 53.0%;
-  top: 43.8%;
-  background: radial-gradient(circle, rgba(142,202,230,0.95) 0%, rgba(142,202,230,0.35) 50%, transparent 75%);
-}
-
-#halo-mycenes {
-  left: 52.2%;
-  top: 42.6%;
-  background: radial-gradient(circle, rgba(244,162,97,0.95) 0%, rgba(244,162,97,0.35) 50%, transparent 75%);
-}
-
-/* Égypte : Halos recadrés exactement sur la vallée fluviale du Nil */
-#halo-egypte_ancien {
-  left: 54.8%;
-  top: 48.8%;
-  background: radial-gradient(circle, rgba(46,196,182,0.95) 0%, rgba(46,196,182,0.35) 50%, transparent 75%);
-}
-
-#halo-egypte_moyen {
-  left: 54.9%;
-  top: 49.6%;
-  background: radial-gradient(circle, rgba(32,201,151,0.95) 0%, rgba(32,201,151,0.35) 50%, transparent 75%);
-}
-
-#halo-egypte_nouvel {
-  left: 55.1%;
-  top: 50.4%;
-  background: radial-gradient(circle, rgba(16,185,129,0.95) 0%, rgba(16,185,129,0.35) 50%, transparent 75%);
-}
-
-#halo-egypte_tardif {
-  left: 54.5%;
-  top: 48.0%;
-  background: radial-gradient(circle, rgba(217,119,6,0.95) 0%, rgba(217,119,6,0.35) 50%, transparent 75%);
-}
+#halo-canaries { left: 43.8%; top: 48.6%; background: radial-gradient(circle, rgba(231,111,81,0.95) 0%, rgba(231,111,81,0.35) 50%, transparent 75%); }
+#halo-amorrite { left: 55.8%; top: 44.2%; background: radial-gradient(circle, rgba(212,163,115,0.95) 0%, rgba(212,163,115,0.35) 50%, transparent 75%); }
+#halo-celte_bronze, #halo-celte_fer { left: 47.8%; top: 38.5%; background: radial-gradient(circle, rgba(42,157,143,0.95) 0%, rgba(42,157,143,0.35) 50%, transparent 75%); }
+#halo-chypre { left: 55.4%; top: 45.6%; background: radial-gradient(circle, rgba(233,196,106,0.95) 0%, rgba(233,196,106,0.35) 50%, transparent 75%); }
+#halo-crete { left: 53.2%; top: 45.4%; background: radial-gradient(circle, rgba(58,134,255,0.95) 0%, rgba(58,134,255,0.35) 50%, transparent 75%); }
+#halo-cyclades { left: 53.0%; top: 43.8%; background: radial-gradient(circle, rgba(142,202,230,0.95) 0%, rgba(142,202,230,0.35) 50%, transparent 75%); }
+#halo-mycenes { left: 52.2%; top: 42.6%; background: radial-gradient(circle, rgba(244,162,97,0.95) 0%, rgba(244,162,97,0.35) 50%, transparent 75%); }
+#halo-egypte_ancien { left: 54.8%; top: 48.8%; background: radial-gradient(circle, rgba(46,196,182,0.95) 0%, rgba(46,196,182,0.35) 50%, transparent 75%); }
+#halo-egypte_moyen { left: 54.9%; top: 49.6%; background: radial-gradient(circle, rgba(32,201,151,0.95) 0%, rgba(32,201,151,0.35) 50%, transparent 75%); }
+#halo-egypte_nouvel { left: 55.1%; top: 50.4%; background: radial-gradient(circle, rgba(16,185,129,0.95) 0%, rgba(16,185,129,0.35) 50%, transparent 75%); }
+#halo-egypte_tardif { left: 54.5%; top: 48.0%; background: radial-gradient(circle, rgba(217,119,6,0.95) 0%, rgba(217,119,6,0.35) 50%, transparent 75%); }
 
 .sync-foyer-halo.active {
   opacity: 1;
@@ -245,15 +189,14 @@ body {
   pointer-events: auto;
 }
 
+/* LA CARTE RÉGIONALE REMPLIT EXACTEMENT L'ESPACE SANS DISPARAÎTRE */
 #civilisation-map-img {
-  max-width: 100%;
-  max-height: 100%;
-  width: auto;
-  height: auto;
+  width: 100%;
+  height: 100%;
   object-fit: contain;
   display: block;
   border-radius: 4px;
-  box-shadow: 0 0 35px rgba(0, 0, 0, 0.85);
+  box-shadow: 0 0 45px rgba(0, 0, 0, 0.9);
 }
 
 .map-atmospheric-glow {
@@ -271,16 +214,18 @@ body {
 }
 
 /* =========================================================
-   CARTOUCHE LATÉRAL RESPONSIVE (JUSQU'À LA FRISE)
+   CARTOUCHES LATÉRAUX PROPORTIONNELS ET CALÉS AU-DESSUS DE LA FRISE
    ========================================================= */
-#hover-sidebar-card {
-  position: absolute;
-  top: 60px;
-  bottom: 315px;
+#hover-sidebar-card, #concurrent-sidebar-card {
+  position: absolute !important;
+  top: 1.5rem !important;
+  bottom: auto !important;
+  height: calc(100vh - 380px) !important;
+  max-height: 580px !important;
+  min-height: 320px !important;
   z-index: 25;
-  width: 500px;
-  max-width: 40vw;
-  height: auto;
+  width: 380px;
+  max-width: 35vw;
   background: rgba(14, 17, 24, 0.96);
   backdrop-filter: blur(25px);
   border: 1px solid rgba(212, 175, 55, 0.35);
@@ -291,6 +236,7 @@ body {
   transition: opacity 0.3s ease, transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 
 #hover-sidebar-card.pos-left {
@@ -308,6 +254,20 @@ body {
 }
 
 #hover-sidebar-card.visible {
+  opacity: 1;
+  transform: translateX(0);
+  pointer-events: auto;
+}
+
+/* Volet de gauche "Et pendant ce temps-là..." */
+#concurrent-sidebar-card {
+  left: 2rem;
+  right: auto;
+  border-left: 3px solid var(--c-gold);
+  transform: translateX(-30px);
+}
+
+#concurrent-sidebar-card.visible {
   opacity: 1;
   transform: translateX(0);
   pointer-events: auto;
@@ -331,10 +291,12 @@ body {
   color: var(--gold-pure);
 }
 
+/* Ascenseur propre pour les deux volets */
 .sidebar-scrollable-body {
-  flex: 1;
-  overflow-y: auto;
-  padding: 1.4rem 1.8rem 0.6rem 1.8rem;
+  flex: 1 1 auto;
+  overflow-y: auto !important;
+  max-height: 100%;
+  padding: 1.4rem 1.8rem;
   scrollbar-width: thin;
   scrollbar-color: rgba(212, 175, 55, 0.4) transparent;
 }
@@ -367,7 +329,7 @@ body {
 
 .hover-banner-frame {
   width: 100%;
-  height: 165px;
+  height: 155px;
   border-radius: 4px;
   border: 1px solid rgba(212, 175, 55, 0.35);
   overflow: hidden;
@@ -439,6 +401,7 @@ body {
   padding: 0.8rem 1.8rem 1rem 1.8rem;
   background: rgba(10, 12, 17, 0.95);
   border-top: 1px solid rgba(255, 255, 255, 0.05);
+  flex-shrink: 0;
 }
 
 .btn-enter-civ-map {
@@ -468,7 +431,7 @@ body {
 }
 
 /* =========================================================
-   FRISES REHAUSSÉES À 300PX AVEC DIAMANTS & LÉGENDE
+   FRISES REHAUSSÉES À 300PX
    ========================================================= */
 #timeline-dock {
   display: flex;
@@ -662,20 +625,9 @@ body {
   background: rgba(212, 175, 55, 0.35);
 }
 
-.ruler-tick.major {
-  height: 14px;
-  background: var(--gold-pure);
-}
-
-.ruler-tick.medium {
-  height: 8px;
-  background: rgba(212, 175, 55, 0.5);
-}
-
-.ruler-tick.minor {
-  height: 4px;
-  background: rgba(255, 255, 255, 0.15);
-}
+.ruler-tick.major { height: 14px; background: var(--gold-pure); }
+.ruler-tick.medium { height: 8px; background: rgba(212, 175, 55, 0.5); }
+.ruler-tick.minor { height: 4px; background: rgba(255, 255, 255, 0.15); }
 
 .ruler-label {
   position: absolute;
@@ -688,7 +640,6 @@ body {
   white-space: nowrap;
 }
 
-/* DIAMANTS D'ÉVÉNEMENTS MAJEURS */
 .ruler-event-spark {
   position: absolute;
   top: 6px;
@@ -702,25 +653,10 @@ body {
   animation: sparkPulse 2.5s infinite;
 }
 
-.ruler-event-spark.spark-gold {
-  background: var(--c-gold);
-  box-shadow: 0 0 10px var(--c-gold);
-}
-
-.ruler-event-spark.spark-tech {
-  background: var(--c-tech);
-  box-shadow: 0 0 10px var(--c-tech);
-}
-
-.ruler-event-spark.spark-war {
-  background: var(--c-war);
-  box-shadow: 0 0 10px var(--c-war);
-}
-
-.ruler-event-spark.spark-disaster {
-  background: var(--c-disaster);
-  box-shadow: 0 0 10px var(--c-disaster);
-}
+.ruler-event-spark.spark-gold { background: var(--c-gold); box-shadow: 0 0 10px var(--c-gold); }
+.ruler-event-spark.spark-tech { background: var(--c-tech); box-shadow: 0 0 10px var(--c-tech); }
+.ruler-event-spark.spark-war { background: var(--c-war); box-shadow: 0 0 10px var(--c-war); }
+.ruler-event-spark.spark-disaster { background: var(--c-disaster); box-shadow: 0 0 10px var(--c-disaster); }
 
 .ruler-event-spark:hover {
   transform: translateX(-50%) rotate(45deg) scale(1.4);
@@ -732,7 +668,6 @@ body {
   50% { opacity: 1; transform: translateX(-50%) rotate(45deg) scale(1.15); filter: drop-shadow(0 0 6px #fff); }
 }
 
-/* BANDEAU HISTORIQUE & LÉGENDE DES COULEURS */
 .master-hint-strip {
   padding: 4px 2rem;
   font-family: 'Cinzel', serif;
@@ -774,7 +709,6 @@ body {
 .dot-war { background: var(--c-war); box-shadow: 0 0 6px var(--c-war); }
 .dot-disaster { background: var(--c-disaster); box-shadow: 0 0 6px var(--c-disaster); }
 
-/* STRUCTURE EN COLONNE FIGÉE INDÉPENDANTE */
 #timeline-split-wrapper {
   flex: 1;
   display: flex;
@@ -818,9 +752,7 @@ body {
   touch-action: pan-x;
 }
 
-#master-drag-container:active {
-  cursor: grabbing;
-}
+#master-drag-container:active { cursor: grabbing; }
 
 #master-ribbon {
   position: absolute;
@@ -900,7 +832,6 @@ body {
   box-shadow: 0 4px 15px rgba(0,0,0,0.9);
 }
 
-/* INFOBULLE ÉVÉNEMENT MAJEUR */
 .milestone-tooltip {
   position: absolute;
   z-index: 60;
@@ -954,7 +885,7 @@ body {
 }
 
 /* =========================================================
-   MODALE D'EXPOSITION AGRANDIE AVEC TEXTE MUSÉAL COMPLET
+   MODALE D'EXPOSITION
    ========================================================= */
 #curator-modal {
   position: fixed;
@@ -1176,9 +1107,7 @@ body {
   flex: 1;
 }
 
-.modal-narrative p {
-  margin-bottom: 12px;
-}
+.modal-narrative p { margin-bottom: 12px; }
 
 .btn-gold-link {
   display: inline-flex;
