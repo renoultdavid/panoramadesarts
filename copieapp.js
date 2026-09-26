@@ -2,87 +2,97 @@
    REGISTRE COMPLET DES GRANDES DATES & ÉVÉNEMENTS HISTORIQUES
    ========================================================================== */
 const HISTORICAL_MILESTONES = [
-  {
-    year: -3300,
-    category: "tech",
-    type: "Révolution technique",
-    title: "Invention de l'écriture cunéiforme",
-    desc: "Apparition des premières tablettes d'argile à Uruk en Mésopotamie, scellant la naissance de l'histoire et de la mémoire écrite."
-  },
-  {
-    year: -3000,
-    category: "gold",
-    type: "Fondation politique",
-    title: "Unification de l'Égypte sous Narmer",
-    desc: "Fondation de la Ire dynastie thinite, réunissant la Haute et la Basse-Égypte sous l'autorité d'un souverain unique."
-  },
-  {
-    year: -2560,
-    category: "gold",
-    type: "Chantier colossal",
-    title: "Chantier de la Grande Pyramide de Khéops",
-    desc: "Édification de la plus colossale des sept merveilles du monde antique sur le plateau calcaire de Gizeh."
-  },
-  {
-    year: -2200,
-    category: "disaster",
-    type: "Rupture climatique",
-    title: "Événement aride de 4,2 ka",
-    desc: "Crise de sécheresse majeure qui déstabilise l'Ancien Empire en Égypte et l'Empire d'Akkad en Mésopotamie, ouvrant des périodes de fragmentation politique."
-  },
-  {
-    year: -2000,
-    category: "tech",
-    type: "Innovation artisanale",
-    title: "Généralisation du tour de potier rapide",
-    desc: "Diffusion du tour rapide dans le monde égéen et le Levant, permettant l'épanouissement de céramiques aux parois fines et aux formes profilées."
-  },
-  {
-    year: -1750,
-    category: "gold",
-    type: "Monument juridique",
-    title: "Promulgation du Code d'Hammurabi",
-    desc: "Gravure de la célèbre stèle de basalte de Babylone, synthèse magistrale de droit et de propagande royale sous le regard du dieu Shamash."
-  },
-  {
-    year: -1600,
-    category: "disaster",
-    type: "Cataclysme naturel",
-    title: "Éruption minoenne de Santorin (Théra)",
-    desc: "Explosion volcanique colossale dans l'archipel des Cyclades, provoquant des tsunamis et bouleversant les équilibres maritimes de la Crète minoenne."
-  },
-  {
-    year: -1274,
-    category: "war",
-    type: "Bataille décisive",
-    title: "Bataille de Qadesh (Ramsès II vs Muwatalli II)",
-    desc: "Choc de chars colossal entre l'Égypte et les Hittites sur l'Oronte, immortalisé en bas-reliefs héroïques sur les pylônes de Louxor et d'Abou Simbel."
-  },
-  {
-    year: -1200,
-    category: "tech",
-    type: "Révolution métallurgique",
-    title: "Diffusion de la métallurgie du fer",
-    desc: "Effondrement de l'âge du Bronze et adoption généralisée du fer au Proche-Orient et en Méditerranée, transformant l'armement et l'outillage."
-  },
-  {
-    year: -539,
-    category: "war",
-    type: "Conquête impériale",
-    title: "Prise de Babylone par Cyrus le Grand",
-    desc: "Chute du Nouvel Empire babylonien et apogée de l'Empire perse achéménide, intégrant la Mésopotamie, le Levant et l'Égypte sous un même sceptre."
-  },
-  {
-    year: -52,
-    category: "war",
-    type: "Conquête militaire",
-    title: "Siège d'Alésia & Reddition de Vercingétorix",
-    desc: "Victoire de Jules César marquant la fin de la guerre des Gaules et l'intégration progressive des peuples celtes dans l'orbite romaine."
-  }
+  { year: -3300, category: "tech", type: "Révolution technique", title: "Invention de l'écriture cunéiforme", desc: "Apparition des premières tablettes d'argile à Uruk en Mésopotamie, scellant la naissance de l'histoire et de la mémoire écrite." },
+  { year: -3000, category: "gold", type: "Fondation politique", title: "Unification de l'Égypte sous Narmer", desc: "Fondation de la Ire dynastie thinite, réunissant la Haute et la Basse-Égypte sous l'autorité d'un souverain unique." },
+  { year: -2560, category: "gold", type: "Chantier colossal", title: "Chantier de la Grande Pyramide de Khéops", desc: "Édification de la plus colossale des sept merveilles du monde antique sur le plateau calcaire de Gizeh." },
+  { year: -2200, category: "disaster", type: "Rupture climatique", title: "Événement aride de 4,2 ka", desc: "Crise de sécheresse majeure qui déstabilise l'Ancien Empire en Égypte et l'Empire d'Akkad en Mésopotamie, ouvrant des périodes de fragmentation politique." },
+  { year: -2000, category: "tech", type: "Innovation artisanale", title: "Généralisation du tour de potier rapide", desc: "Diffusion du tour rapide dans le monde égéen et le Levant, permettant l'épanouissement de céramiques aux parois fines et aux formes profilées." },
+  { year: -1750, category: "gold", type: "Monument juridique", title: "Promulgation du Code d'Hammurabi", desc: "Gravure de la célèbre stèle de basalte de Babylone, synthèse magistrale de droit et de propagande royale sous le regard du dieu Shamash." },
+  { year: -1600, category: "disaster", type: "Cataclysme naturel", title: "Éruption minoenne de Santorin (Théra)", desc: "Explosion volcanique colossale dans l'archipel des Cyclades, provoquant des tsunamis et bouleversant les équilibres maritimes de la Crète minoenne." },
+  { year: -1274, category: "war", type: "Bataille décisive", title: "Bataille de Qadesh (Ramsès II vs Muwatalli II)", desc: "Choc de chars colossal entre l'Égypte et les Hittites sur l'Oronte, immortalisé en bas-reliefs héroïques sur les pylônes de Louxor et d'Abou Simbel." },
+  { year: -1200, category: "tech", type: "Révolution métallurgique", title: "Diffusion de la métallurgie du fer", desc: "Effondrement de l'âge du Bronze et adoption généralisée du fer au Proche-Orient et en Méditerranée, transformant l'outillage et l'armement." },
+  { year: -539, category: "war", type: "Conquête impériale", title: "Prise de Babylone par Cyrus le Grand", desc: "Chute du Nouvel Empire babylonien et apogée de l'Empire perse achéménide, intégrant la Mésopotamie, le Levant et l'Égypte sous un même sceptre." },
+  { year: -52, category: "war", type: "Conquête militaire", title: "Siège d'Alésia & Reddition de Vercingétorix", desc: "Victoire de Jules César marquant la fin de la guerre des Gaules et l'intégration progressive des peuples celtes dans l'orbite romaine." }
 ];
 
 /* ==========================================================================
-   REGISTRE COMPLET DE TOUTES LES CIVILISATIONS ET OBJETS DU MONDE
+   MOTEUR DE LA FRISE & INTERACTION (4800px)
+   ========================================================================== */
+const YEAR_MIN = -3500;
+const YEAR_MAX = 1500;
+const TOTAL_YEARS = YEAR_MAX - YEAR_MIN;
+const RIBBON_WIDTH = 4800;
+
+function yearToPixel(year) {
+  return ((year - YEAR_MIN) / TOTAL_YEARS) * (RIBBON_WIDTH - 600) + 100;
+}
+
+function pixelToYear(px) {
+  return Math.round(YEAR_MIN + ((px - 100) / (RIBBON_WIDTH - 600)) * TOTAL_YEARS);
+}
+
+const masterRibbon = document.getElementById('master-ribbon');
+const rulerTrack = document.getElementById('ruler-ticks-track');
+const rulerEventsLayer = document.getElementById('ruler-events-layer');
+const syncLine = document.getElementById('sync-cursor-line');
+const syncBubble = document.getElementById('sync-bubble-tag');
+const milestoneTooltip = document.getElementById('milestone-tooltip');
+const mType = document.getElementById('milestone-type');
+const mYear = document.getElementById('milestone-year');
+const mTitle = document.getElementById('milestone-title');
+const mDesc = document.getElementById('milestone-desc');
+
+for (let y = -3500; y <= 1500; y += 50) {
+  const x = yearToPixel(y);
+  const isMillennium = (y % 1000 === 0);
+  const isCentury = (y % 250 === 0);
+
+  const tick = document.createElement('div');
+  tick.className = `ruler-tick ${isMillennium ? 'major' : (isCentury ? 'medium' : 'minor')}`;
+  tick.style.left = `${x}px`;
+  rulerTrack.appendChild(tick);
+
+  if (isMillennium || isCentury) {
+    const label = document.createElement('div');
+    label.className = 'ruler-label';
+    label.style.left = `${x}px`;
+    label.textContent = y < 0 ? `${y}` : (y === 0 ? "1" : `+${y}`);
+    rulerTrack.appendChild(label);
+  }
+}
+
+HISTORICAL_MILESTONES.forEach(m => {
+  const x = yearToPixel(m.year);
+  const spark = document.createElement('div');
+  spark.className = `ruler-event-spark spark-${m.category}`;
+  spark.style.left = `${x}px`;
+  spark.title = `${m.year < 0 ? Math.abs(m.year) + ' av. J.-C.' : m.year} : ${m.title}`;
+
+  spark.addEventListener('mouseenter', () => {
+    mType.textContent = m.type.toUpperCase();
+    mYear.textContent = m.year < 0 ? `${Math.abs(m.year)} av. J.-C.` : `${m.year} ap. J.-C.`;
+    mTitle.textContent = m.title;
+    mDesc.textContent = m.desc;
+
+    const rect = spark.getBoundingClientRect();
+    const tooltipWidth = 310;
+    let leftPos = rect.left - 135;
+    if (leftPos + tooltipWidth > window.innerWidth - 20) {
+      leftPos = window.innerWidth - tooltipWidth - 25;
+    }
+    milestoneTooltip.style.left = `${Math.max(10, leftPos)}px`;
+    milestoneTooltip.style.top = `${rect.top - 130}px`;
+    milestoneTooltip.classList.add('visible');
+  });
+
+  spark.addEventListener('mouseleave', () => {
+    milestoneTooltip.classList.remove('visible');
+  });
+
+  rulerEventsLayer.appendChild(spark);
+});
+/* ==========================================================================
+   REGISTRE INTÉGRAL DE TOUTES LES CIVILISATIONS (PARTIE 1 : ÉGYPTE)
    ========================================================================== */
 const CIVILISATIONS_REGISTRY = [
   {
@@ -111,6 +121,12 @@ const CIVILISATIONS_REGISTRY = [
 
       <p><strong>Les mastabas et la survie éternelle</strong><br>
       Autour du monarque, les courtisans se font inhumer dans de massifs mastabas de calcaire. Les chapelles funéraires se couvrent de bas-reliefs peints figurant la vie quotidienne du Nil : agriculture, élevage, chasse dans les marais de papyrus et banquets rituels. Cet art rigoureux obéit à la règle sacrée de l'aspective afin d'assurer magiquement la subsistance éternelle du Ka du défunt.</p>
+    `,
+    concurrentHtml: `
+      <p><strong>Le contexte mondial au IIIe millénaire av. J.-C.</strong></p>
+      <p>Pendant que l'Égypte bâtit ses pyramides et unifie les Deux Terres, les autres grands foyers civilisationnels du globe connaissent des transformations historiques et culturelles majeures.</p>
+      <p>En Mésopotamie, la civilisation sumérienne atteint son apogée avec les cités-États d'Uruk, Ur et Lagash, voyant l'essor de l'architecture monumentale des ziggurats et la codification de l'écriture cunéiforme sur tablettes d'argile. L'Empire d'Akkad unifie ensuite brièvement la région sous Sargon.</p>
+      <p>Dans la vallée de l'Indus, la civilisation Harappéenne développe des cités urbaines au plan orthogonal rigoureux dotées de systèmes d'égouts sophistiqués, tandis qu'en Chine, les cultures néolithiques tardives amorcent les bases de l'âge du Bronze.</p>
     `,
     themeAlbums: [
       { label: "🏺 Céramiques", url: "https://photos.google.com/share/AF1QipMNQ5eY261NXOzCFawVXiW-1pbb7VG4opgoBxJ-TEVNd2BxJp52VopMR2q7kVBtHw?key=SHplem9jdFE2RnhCaXJIR1o4al9UMTI1UHhCc3NB" },
@@ -236,6 +252,11 @@ const CIVILISATIONS_REGISTRY = [
       <p><strong>L'essor de Thèbes et l'orfèvrerie de cour</strong><br>
       L'architecture religieuse et funéraire se réinvente, alliant terrasses à portiques (Deir el-Bahari) et chapelles en calcaire fin gravées de reliefs d'une élégance graphique inégalée, comme la Chapelle blanche de Sésostris Ier à Karnak. L'orfèvrerie de cour atteint son apogée à Dahchour et El-Lahoun, où pectoraux ajourés, couronnes et parures royales déclinent l'or, le lapis-lazuli, la cornaline et la turquoise avec une maîtrise technique absolue du cloisonné. L'art du Moyen Empire s'affirme ainsi comme une période de grande maturité plastique, où la rigueur géométrique s'associe à une profondeur psychologique et spirituelle inédite.</p>
     `,
+    concurrentHtml: `
+      <p><strong>Le contexte mondial au IIe millénaire av. J.-C.</strong></p>
+      <p>En Mésopotamie, l'Empire babylonien émerge sous le règne de Hammurabi, unifiant le pays et élevant le célèbre monument juridique de la stèle des lois. En Anatolie, l'Empire hittite se structure avec une architecture monumentale en blocs cyclopéens.</p>
+      <p>Dans la mer Égée, la civilisation minoenne en Crète érige ses premiers grands palais labyrinthiques (Knossos, Phaistos) couverts de fresques naturalistes et développe l'écriture hiéroglyphique puis le linéaire A.</p>
+    `,
     themeAlbums: [
       { label: "🏺 Céramiques", url: "https://photos.google.com/share/AF1QipMNQ5eY261NXOzCFawVXiW-1pbb7VG4opgoBxJ-TEVNd2BxJp52VopMR2q7kVBtHw?key=SHplem9jdFE2RnhCaXJIR1o4al9UMTI1UHhCc3NB" },
       { label: "📜 Gravures & Reliefs", url: "https://photos.google.com/share/AF1QipNlo80I8xbcNGWKMI7dnnm5aPtALq8jpsRKJGGdAmNT2TnbEIrd0Y2isWehnlLwbg?key=S0kzelN6N1pyaTlZc21PeWtiOUN0bHZyckVMaGZB" },
@@ -339,6 +360,11 @@ const CIVILISATIONS_REGISTRY = [
       <p><strong>L'Âge d'or impérial et le gigantisme thébain</strong><br>
       Le Nouvel Empire (v. 1550-1069 av. J.-C., XVIIIe-XXe dynasties) représente l'âge d'or et l'apogée monumental de la civilisation égyptienne. Portée par les conquêtes militaires vers le Levant et la Nubie après l'expulsion des Hyksôs, la monarchie accumule d'immenses richesses qui nourrissent un essor artistique et architectural sans précédent. L'architecture religieuse bascule dans le gigantisme pour magnifier la triade thébaine et le culte d'Amon-Rê.</p>
     `,
+    concurrentHtml: `
+      <p><strong>Le contexte mondial au IIe millénaire av. J.-C.</strong></p>
+      <p>Au Proche-Orient, les Hittites et les Kassites se partagent les zones d'influence, tandis que l'Empire assyrien s'affirme dans le nord de la Mésopotamie.</p>
+      <p>En mer Égée, la civilisation mycénienne érige ses redoutables citadelles fortifiées de pierre cyclopéenne (Mycènes, Tirynthe) avant d'entrer en collision avec le monde hittite et les peuples de la Méditerranée.</p>
+    `,
     themeAlbums: [
       { label: "🏺 Céramiques", url: "https://photos.google.com/share/AF1QipMNQ5eY261NXOzCFawVXiW-1pbb7VG4opgoBxJ-TEVNd2BxJp52VopMR2q7kVBtHw?key=SHplem9jdFE2RnhCaXJIR1o4al9UMTI1UHhCc3NB" },
       { label: "📜 Gravures & Reliefs", url: "https://photos.google.com/share/AF1QipNlo80I8xbcNGWKMI7dnnm5aPtALq8jpsRKJGGdAmNT2TnbEIrd0Y2isWehnlLwbg?key=S0kzelN6N1pyaTlZc21PeWtiOUN0bHZyckVMaGZB" },
@@ -432,7 +458,7 @@ const CIVILISATIONS_REGISTRY = [
         category: "Mobilier funéraire",
         themeLink: "https://photos.google.com/share/AF1QipMPZVPxixftA0xlCWDph7xd49UFkPFHE1yI8RvwsVn_IoUoWO5COMeS__ajWSqZeQ?key=N3RLMkZ0aEtYcFhUb3FLLTl6aXJicDBZM0JRSkJR",
         chips: ["XVIIIe dynastie", "Calcite (albâtre oriental)", "Musée Égyptien du Caire"],
-        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO8qJ9X0EbRPQwscIwqRQ7qhHKFuIShIpHCnkgDOrlDhzkMaCikMa0w9FILsuc5tAZ-IWaE9qllZEWwIzzDZbeSjQjh5IibmJDU6ycWvWpMiAnZ6BLpdVvNv-BAnPU-5_tcFcndUrfxL9yLT0soFPSQrQ=w1649-h700-s-no-gm?authuser=0",
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO8qJ9X0EbRPQwscIwqRQ7qhHKFuIShIpHCnkgDOrlDhzkMaCikMa0w9FILsuc5tAZ-IWaE9qllZEWwIzzDZbeSjQjh5IzzDZbeSjQjjIe=w1649-h700-s-no-gm?authuser=0",
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMo0kZVEdsYCFWaDn10RBFTrE3H0G9zRTfuH5F0FPAiIwyU3982K9W0wv_secpL7ud8X_rZvKUzRfEHV_bNcMKMpEmlZQRZIPxO9cxbExSVW-55liRZSPJuhao2OzAhzk9c1xYnjYNQpeeInQFfbiVgLQ=w1933-h1289-s-no-gm?authuser=0",
         narrative: `<p>Cette pièce d'une finesse exceptionnelle est l'un des quatre couvercles sculptés du coffre à canopes en albâtre de Toutânkhamon.</p>`
       },
@@ -557,6 +583,11 @@ const CIVILISATIONS_REGISTRY = [
 
       <p><strong>La fusion gréco-romaine et les visages d'éternité du Fayoum</strong><br>
       Sous la domination romaine, après la défaite de Cléopâtre VII en 30 av. J.-C., l'empereur assume à son tour l'habit rituel de pharaon sur les parois des temples. Mais la fusion artistique s'exprime surtout dans les rites funéraires privés de l'élite gréco-romaine : les bandelettes et sarcophages de tradition égyptienne intègrent désormais des masques en stuc italianisants ou les célèbres portraits du Fayoum, peints à l'encaustique ou à la détrempe, saisissants de vérité optique et d'expression vivante.</p>
+    `,
+    concurrentHtml: `
+      <p><strong>Le contexte mondial antique</strong></p>
+      <p>En Méditerranée, la République puis l'Empire romain unifient l'ensemble du bassin sous une même hégémonie, connectant les routes commerciales de l'Atlantique à l'océan Indien.</p>
+      <p>En Chine, la dynastie Han consolide l'unité impériale, structure la Route de la Soie et développe une production artistique raffinée en bronze, en jade et en céramique vernissée.</p>
     `,
     themeAlbums: [
       { label: "🏺 Céramiques", url: "https://photos.google.com/share/AF1QipMNQ5eY261NXOzCFawVXiW-1pbb7VG4opgoBxJ-TEVNd2BxJp52VopMR2q7kVBtHw?key=SHplem9jdFE2RnhCaXJIR1o4al9UMTI1UHhCc3NB" },
@@ -690,7 +721,12 @@ const CIVILISATIONS_REGISTRY = [
         narrative: `<p>Cette perspective en contre-plongée souligne la dimension céleste du pronaos du temple de Khnoum à Esna, mettant en lumière la relation directe entre les colonnes-monde et la voûte astronomique.</p>`
       }
     ]
-  },
+  }
+];
+/* ==========================================================================
+   REGISTRE INTÉGRAL DE TOUTES LES CIVILISATIONS (PARTIE 2 : GRÈCE, EUROPE, PROCHE-ORIENT & ATLANTIQUE)
+   ========================================================================== */
+CIVILISATIONS_REGISTRY.push(
   {
     id: "mycenes",
     name: "Art Mycénien (Grèce)",
@@ -707,7 +743,11 @@ const CIVILISATIONS_REGISTRY = [
     albumUrl: "https://photos.google.com/share/AF1QipMnn_CMAHk2s1w8_h2RauhjNNCt21MFWbRDPmz1Iwj3H9ZqQAAsXTaBKylKpOq-lg?key=SHZuTHVkNW9YZ2xleTl3bTZickotQWVsSnpSZkF3",
     presentationHtml: `
       <p><strong>Puissance martiale et architecture cyclopéenne</strong><br>
-      Épanouie en Grèce continentale au cours du second millénaire avant notre ère, la civilisation mycénienne marque l’âge du bronze récent d’une empreinte martiale.</p>
+      Épanouie en Grèce continentale au cours du second millénaire avant notre ère, la civilisation mycénienne marque l’âge du bronze récent d’une empreinte martiale. Les citadelles de Mycènes, Tirynthe et Pylos s'érigent en hauteurs derrière de colossaux remparts de blocs mégalithiques dits « cyclopéens », symboles d'une aristocratie de guerriers et de seigneurs châtelains. L'art mycénien se nourrit des influences crétoises tout en leur insufflant une monumentalité hiératique et belliqueuse, visible dès les cercles royaux de tombes à fosses par la profusion d'armes damascées, de coupes d'or et de masques funéraires au modelé expressif.</p>
+    `,
+    concurrentHtml: `
+      <p><strong>Le contexte mondial au IIe millénaire av. J.-C.</strong></p>
+      <p>Pendant que la Grèce mycénienne dresse ses citadelles cyclopéennes, le Nouvel Empire égyptien atteint son apogée militaire et monumental sous les pharaons de la XVIIIe dynastie, étendant son influence de la Nubie jusqu'à l'Euphrate.</p>
     `,
     themeAlbums: [
       { label: "🏛️ Architecture", url: "https://photos.google.com/share/AF1QipMnn_CMAHk2s1w8_h2RauhjNNCt21MFWbRDPmz1Iwj3H9ZqQAAsXTaBKylKpOq-lg?key=SHZuTHVkNW9YZ2xleTl3bTZickotQWVsSnpSZkF3" }
@@ -719,7 +759,9 @@ const CIVILISATIONS_REGISTRY = [
         title: "Masque funéraire en or dit « d'Agamemnon »",
         site: "Mycènes (Cercle des tombes A)",
         category: "Orfèvrerie",
+        themeLink: "https://photos.google.com/share/AF1QipMnn_CMAHk2s1w8_h2RauhjNNCt21MFWbRDPmz1Iwj3H9ZqQAAsXTaBKylKpOq-lg?key=SHZuTHVkNW9YZ2xleTl3bTZickotQWVsSnpSZkF3",
         chips: ["Helladique Récent I", "Feuille d'or au repoussé", "Musée d'Athènes"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczPGPVemkhHQo3zxMthmyW5DikiQpTTsrv0U4LJ6UISDDrZFy45mQdZos6Gg-E4RKWIGenvHZ5uO_yxvfo1sBV0PTvktEP3l9BvBL1sJZAsYp0aet3LLJGPtq0F7QuWv4QGE5UTOKuwIeuLwFZ-IOW6bFg=w1980-h841-s-no-gm?authuser=0",
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOX6_L1RpUEunGm8YyrUo9ZQzDC90rr2xuMb2gJHiwrLtQAF34EvXnMey2ZoDh22NxKU1jrqQzN2S6jU8CJUSECSj_Du-BfMxjvHrXcj69AVM9LB3id3w-sPR_-MA_wKPTwunhvneWq8cqoqx1Z8fV51A=w1980-h1319-s-no-gm?authuser=0",
         narrative: `<p>Découvert par Schliemann en 1876, ce masque en or massif recouvrait le visage d'un chef de guerre mycénien.</p>`
       }
@@ -741,7 +783,11 @@ const CIVILISATIONS_REGISTRY = [
     albumUrl: "https://photos.google.com/share/AF1QipNJXU5aih6CKBSCrN4pP6P5l0AplswBz64lNNpyoV_8FhUrBnY4DVaQKdDXOysWHQ?key=cXFoM2gzaHZ1RnlyV3lVendpbmdFZ1RSYXRSTWtn",
     presentationHtml: `
       <p><strong>L'abstraction géométrique du marbre insulaire</strong><br>
-      Né au cœur de la mer Égée durant le IIIe millénaire avant notre ère, l’art cycladique s’est épanoui au sein de l’archipel grec des Cyclades.</p>
+      Né au cœur de la mer Égée durant le IIIe millénaire avant notre ère, l’art cycladique s’est épanoui au sein de l’archipel grec des Cyclades. Célébré pour ses idoles féminines en marbre blanc aux lignes épurées et géométriques, il témoigne d'une quête d'harmonie formelle intemporelle.</p>
+    `,
+    concurrentHtml: `
+      <p><strong>Le contexte mondial au IIIe millénaire av. J.-C.</strong></p>
+      <p>Pendant que les sculpteurs des Cyclades taillent leurs idoles de marbre, l'Égypte de l'Ancien Empire érige les pyramides de Gizeh.</p>
     `,
     themeAlbums: [
       { label: "🗿 Statuaire", url: "https://photos.google.com/share/AF1QipNJXU5aih6CKBSCrN4pP6P5l0AplswBz64lNNpyoV_8FhUrBnY4DVaQKdDXOysWHQ?key=cXFoM2gzaHZ1RnlyV3lVendpbmdFZ1RSYXRSTWtn" }
@@ -753,7 +799,9 @@ const CIVILISATIONS_REGISTRY = [
         title: "Grande statue féminine monumentale de 1,5 mètre",
         site: "Archipel des Cyclades (Musée National d'Athènes)",
         category: "Sculpture en marbre",
+        themeLink: "https://photos.google.com/share/AF1QipNJXU5aih6CKBSCrN4pP6P5l0AplswBz64lNNpyoV_8FhUrBnY4DVaQKdDXOysWHQ?key=cXFoM2gzaHZ1RnlyV3lVendpbmdFZ1RSYXRSTWtn",
         chips: ["Bronze Ancien II", "Marbre blanc poli", "Type canonique de Spedos"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNMZRgR759mlxzzO63gKtVg2u437kEFSbomGP9HGmk8DelG-gh8gB9JNXi9bKBgrqsDkalszZLTbKwC5t0GJdWrMoEmqyl9V6L6d0f5GhGwYfTg6AqqP-C2stcjrj5Vn5Ba1SstoTv7f5_pyIccZFQq4g=w2209-h938-s-no-gm?authuser=0",
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczN9iP7Fcc8FrBL9usiPRWeijaLndwYYacpAiifNY8ybz4htaHhgrTMfzRcaCrzV6fXGr2BJQopM4NP5Byn4UAsG0GLQnhaxXuOA1hdq5iXKuoivviypjT2Y4oAyByf65ZZC7HVIE-YNCXw_95yQP4iH1A=w1607-h2410-s-no-gm?authuser=0",
         narrative: `<p>Haute de 1,5 mètre, cette œuvre monumentale sculptée dans le marbre blanc de Paros constitue l'un des sommets de la statuaire cycladique.</p>`
       }
@@ -775,7 +823,11 @@ const CIVILISATIONS_REGISTRY = [
     albumUrl: "https://photos.google.com/share/AF1QipMlW4TQJ8A9qGbcmVyMNAsLLD3a9pwHTBsx-qcnMuuYdqlbjXgrrncpHaXoLLK0LA?key=LTdfMHQ4VHdhNmJ4WEI2bFRtU2xTaHpCeHM2bEZR",
     presentationHtml: `
       <p><strong>Vitalité du mouvement et célébration de la nature</strong><br>
-      L'art crétois minoen se distingue par une liberté de formes unique dans l'Antiquité.</p>
+      L'art crétois minoen se distingue par une liberté de formes unique dans l'Antiquité, magnifiant la faune marine, la flore et le mouvement dans des palais ouverts et colorés.</p>
+    `,
+    concurrentHtml: `
+      <p><strong>Le contexte mondial au IIe millénaire av. J.-C.</strong></p>
+      <p>Pendant que la Crète minoenne déploie ses palais, l'Égypte du Moyen Empire puis du Nouvel Empire domine le bassin oriental.</p>
     `,
     themeAlbums: [
       { label: "🏺 Céramiques", url: "https://photos.google.com/share/AF1QipMlW4TQJ8A9qGbcmVyMNAsLLD3a9pwHTBsx-qcnMuuYdqlbjXgrrncpHaXoLLK0LA?key=LTdfMHQ4VHdhNmJ4WEI2bFRtU2xTaHpCeHM2bEZR" }
@@ -787,7 +839,9 @@ const CIVILISATIONS_REGISTRY = [
         title: "Rhyton en terre cuite en forme de tête de taureau",
         site: "Crète minoenne",
         category: "Céramique rituelle",
+        themeLink: "https://photos.google.com/share/AF1QipMlW4TQJ8A9qGbcmVyMNAsLLD3a9pwHTBsx-qcnMuuYdqlbjXgrrncpHaXoLLK0LA?key=LTdfMHQ4VHdhNmJ4WEI2bFRtU2xTaHpCeHM2bEZR",
         chips: ["Bronze récent", "Terre cuite peinte", "Double hache (Labrys)"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPnUuU-MK0sDhtORjZeb_6whI6M33RtfIsbTkuuC6TjPIS8ppTuXw7T6kz2TtxYtoxJ21EI3qjAzNB-zxU3qXd76rMvXNBD85NjTnUlss-WsvMcoZwQc84ExK_TVdXRD2OV_8eIvWE_yeUf_t778xEaRQ=w1814-h2410-s-no-gm?authuser=0",
         narrative: `<p>Ce rhyton de libation adopte la silhouette d'une tête de taureau, motif religieux central de la Crète minoenne.</p>`
       }
@@ -809,7 +863,11 @@ const CIVILISATIONS_REGISTRY = [
     albumUrl: "https://photos.google.com/share/AF1QipORn4Sj9GchtBwLRq4DuZRFxHqmcBvuxx8uA2_VwycbpRi8amqI-iK7UvkQSi6apA?key=ZmJweFhiZEJySU1rUms2REJFWm1jZ1YwQjFMczJ3",
     presentationHtml: `
       <p><strong>Un carrefour méditerranéen de synthèse et de liberté</strong><br>
-      Façonné par sa position charnière entre le monde égéen, le Levant et l'Égypte.</p>
+      Façonné par sa position charnière entre le monde égéen, le Levant et l'Égypte, l'art chypriote antique fusionne les influences orientales et occidentales dans la ronde-bosse et la céramique.</p>
+    `,
+    concurrentHtml: `
+      <p><strong>Le contexte mondial au IIe millénaire av. J.-C.</strong></p>
+      <p>Pendant que l'île de Chypre exploite ses mines de cuivre et rayonne en Méditerranée, les grands empires du Proche-Orient se font face.</p>
     `,
     themeAlbums: [
       { label: "🏺 Céramiques", url: "https://photos.google.com/share/AF1QipORn4Sj9GchtBwLRq4DuZRFxHqmcBvuxx8uA2_VwycbpRi8amqI-iK7UvkQSi6apA?key=ZmJweFhiZEJySU1rUms2REJFWm1jZ1YwQjFMczJ3" }
@@ -821,7 +879,9 @@ const CIVILISATIONS_REGISTRY = [
         title: "Vase zoomorphe en terre cuite polie",
         site: "Chypre (Chypriote moyen)",
         category: "Céramique",
+        themeLink: "https://photos.google.com/share/AF1QipORn4Sj9GchtBwLRq4DuZRFxHqmcBvuxx8uA2_VwycbpRi8amqI-iK7UvkQSi6apA?key=ZmJweFhiZEJySU1rUms2REJFWm1jZ1YwQjFMczJ3",
         chips: ["Bronze moyen", "Terre cuite rouge lustrée", "Incisions blanches"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNtlhntpxWY6u22Dj77CiZfXJnSfduTP1uXInNNl7THWXS5vseOikfKiRgcTsCjP2iVGO-jX924k9zAAUyZQhGX8luuSrh5eXc650LHXXMWEdLAl7o589lo_Rkk6Bo9UJYlo4iFAtBkaj6qhmzuUK5y_w=w2081-h882-s-no-gm?authuser=0",
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMwaWZj9ZJS2rx_hwQzKXMrX8T-dW4KCyKq_as5_5nanYRBp8H68Piwtsg-C3BSAS-3ySv-e2v2Jem2O_e-x_iRkqIa8i3-TeAZXdbsc8USM5CIYq7hClkqpkUvMzjv1YvWtGSe71r8y_G-Xx27lGlerw=w1814-h2410-s-no-gm?authuser=0",
         narrative: `<p>Ce vase zoomorphe représente un quadrupède sauvage dont le corps globulaire sert de panse et le cou de goulot verseur.</p>`
       }
@@ -843,7 +903,11 @@ const CIVILISATIONS_REGISTRY = [
     albumUrl: "https://photos.google.com/share/AF1QipN97zbv-suncBTa6iOfDQyMggpdDV-ktXSY4EJ2KenZ4zqHUwifE_nIBb6FYB0Y6g?key=WHlZSlNIb19jTnoyaExjWWN3TFZFUC1xeTB3bmRn",
     presentationHtml: `
       <p><strong>L'art métamorphique et le refus du réalisme</strong><br>
-      L'art celtique du second âge du Fer (La Tène) rompt délibérément avec le naturalisme méditerranéen.</p>
+      L'art celtique du second âge du Fer (La Tène) rompt délibérément avec le naturalisme méditerranéen pour privilégier l'abstraction curviligne, les entrelacs géométriques et le symbolisme animalier.</p>
+    `,
+    concurrentHtml: `
+      <p><strong>Le contexte mondial antique</strong></p>
+      <p>Tandis que le monde celtique façonne ses torques et stèles, la Méditerranée antique voit l'apogée de la Grèce classique et la fulgurante expansion de l'Empire romain.</p>
     `,
     themeAlbums: [
       { label: "🗿 Sculptures", url: "https://photos.google.com/share/AF1QipN97zbv-suncBTa6iOfDQyMggpdDV-ktXSY4EJ2KenZ4zqHUwifE_nIBb6FYB0Y6g?key=WHlZSlNIb19jTnoyaExjWWN3TFZFUC1xeTB3bmRn" }
@@ -855,7 +919,9 @@ const CIVILISATIONS_REGISTRY = [
         title: "Stèle funéraire monumentale en granite",
         site: "Jublains (Mayenne)",
         category: "Sculpture & Stèle",
+        themeLink: "https://photos.google.com/share/AF1QipN97zbv-suncBTa6iOfDQyMggpdDV-ktXSY4EJ2KenZ4zqHUwifE_nIBb6FYB0Y6g?key=WHlZSlNIb19jTnoyaExjWWN3TFZFUC1xeTB3bmRn",
         chips: ["Second âge du Fer", "Monolithe en granite", "Jublains (Diablintes)"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczOTpAuNPMicTn782_1Zjbxrq0HKHRKJG6AVI3MC5QV0sIgRxWd1KE3enIDaZ4vI7QiV5SLQ6pAzbtmog5AkOjGQTGt3u4cnSdiF9sW1VPzeXH1Md2FDvlYQR92Fv7MXvbsr0sYzoNpKZc4GHJfmENYp7w=w2599-h1103-s-no-gm?authuser=0",
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNQ8lMq99-7bAoU4NMqEU8OjQrSrsHG8xGzpXtI0ktR3Uji1wDR7JydwrZc2-EntLOHJco7ti5F1QUaiA5kU_IAE3EoeVoRXa_PUj4rhHLk_mczJUW8oMd-e18JVRFZKu0CHtgWkiTL8KpwzTfpOECzIQ=w1607-h2410-s-no-gm?authuser=0",
         narrative: `<p>Monolithe oblong en granite marquant l'emplacement d'une sépulture aristocratique et le culte des ancêtres.</p>`
       }
@@ -876,8 +942,25 @@ const CIVILISATIONS_REGISTRY = [
     mapOverlayUrl: "https://lh3.googleusercontent.com/d/1gX2vOwXzj3jIMMvx2P5DAAQkjfkZ1anc",
     albumUrl: "https://photos.google.com/share/AF1QipN2ccGraobqmNhsyQhn1XQYZmas-d6wNnWsUE7X6q_zzAIytbnOH6GGkVB_WU95AQ?key=Mkc1WGhlQmRIY1VpenkzMG1SNzdHczVWcjI4MGZ3",
     presentationHtml: `
-      <p><strong>L'éveil métallurgique et les origines du monde celtique</strong><br>
-      L'art de l'âge du Bronze en Europe occidentale pose les jalons esthétiques et techniques de l'expression celtique historique.</p>
+      <p><strong>L'éveil métallurgique et la société guerrière</strong><br>
+      L'art celte de l'âge du Bronze (v. 2300-800 av. J.-C.) en Europe occidentale se caractérise par la maîtrise progressive de la métallurgie du cuivre, puis du bronze, marquant une transition majeure vers une société aristocratique et guerrière.</p>
+
+      <p><strong>Armes d'apparat et orfèvrerie atlantique</strong><br>
+      Les forgerons et artisans de cette période excellent dans la confection d'armes sophistiquées — épées à languette, lances et poignards — dont la pureté des lignes fonctionnelles traduit déjà une recherche esthétique très poussée. L'orfèvrerie atteint des sommets de raffinement avec la création de parures d'apparat en or natif ou en tôle de bronze repoussé, telles que les spectaculaires torques, les bracelets massifs et les colliers lunules caractéristiques de l'Europe atlantique.</p>
+
+      <p><strong>Symbolique cosmique et chaudrons rituels</strong><br>
+      Les objets du quotidien et les services rituels se parent de décors géométriques incisés, de lignes brisées, de chevrons et de motifs solaires ou concentriques, témoignant d'une symbolique cosmique profondément ancrée dans les rituels agraires et funéraires. L'art celte du Bronze se distingue également par la création des fameux « chaudrons » en bronze assemblés par rivets et des urnes cinéraires richement ornées, illustrant le rôle central de la vaisselle métallique dans les banquets funéraires des élites.</p>
+
+      <p><strong>Les fondations de Hallstatt et La Tène</strong><br>
+      Cette esthétique du métal précieux et de l'abstraction géométrique pose les bases stylistiques qui s'épanouiront pleinement à l'âge du Fer lors du développement des cultures de Hallstatt et de La Tène.</p>
+    `,
+    concurrentHtml: `
+      <p><strong>Le contexte mondial au IIe millénaire av. J.-C.</strong></p>
+      <p>Pendant que l'Europe atlantique et continentale développe sa métallurgie du bronze, les grands foyers civilisationnels de la planète connaissent des mutations historiques et culturelles profondes au cours du IIe millénaire av. J.-C.</p>
+      <p>Au Proche-Orient, la période est marquée par l'essor et la chute de grands empires rivaux : l'Empire hittite en Anatolie, qui introduit le fer et l'usage des chars de combat légers, la Babylonie sous le code de Hammurabi, et le Nouvel Empire égyptien qui étend son hégémonie jusqu'à l'Euphrate.</p>
+      <p>En Égée, la civilisation mycénienne succède aux Minoens, érigeant de puissantes citadelles fortifiées (Mycènes, Tirynthe) ornées de fresques guerrières et développant l'écriture linéaire B, avant de s'effondrer mystérieusement vers 1200 av. J.-C. lors des bouleversements des Peuples de la mer.</p>
+      <p>En Asie du Sud, la brillante civilisation de l'Indus s'éteint progressivement, supplantée par l'arrivée graduelle des populations indo-aryennes qui composent les premiers textes védiques et structurent la société en traditions orales et religieuses fondatrices.</p>
+      <p>En Chine, la dynastie Shang consolide son pouvoir dans la vallée du Fleuve Jaune, perfectionnant à l'extrême la fonte du bronze rituel pour le culte des ancêtres, inventant un système d'écriture logographique sur os oraculaires et érigeant de vastes capitales fortifiées.</p>
     `,
     themeAlbums: [
       { label: "🛠️ Métallurgie", url: "https://photos.google.com/share/AF1QipN2ccGraobqmNhsyQhn1XQYZmas-d6wNnWsUE7X6q_zzAIytbnOH6GGkVB_WU95AQ?key=Mkc1WGhlQmRIY1VpenkzMG1SNzdHczVWcjI4MGZ3" }
@@ -889,9 +972,19 @@ const CIVILISATIONS_REGISTRY = [
         title: "Dépôt de haches à talon et parures de Jublains",
         site: "Musée archéologique départemental de Jublains",
         category: "Métallurgie & Dépôt",
+        themeLink: "https://photos.google.com/share/AF1QipN2ccGraobqmNhsyQhn1XQYZmas-d6wNnWsUE7X6q_zzAIytbnOH6GGkVB_WU95AQ?key=Mkc1WGhlQmRIY1VpenkzMG1SNzdHczVWcjI4MGZ3",
         chips: ["Âge du Bronze", "Jublains (Mayenne)", "Alliage cuivreux"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNeGi9CeQnVZ0W8vPbx0jodOMhg6-U-KG1RWY5FKuhdbkyiT-iSkT_XR1V1NGGO9m3Us2LF_p2md8GdF4hAnaTp0Bf05pEXDuSPiBFtHM2FjgA2ZTxIDPJ_96SpfO-bGNnsO44jw8COUI9sW93SROp_kQ=w2599-h1103-s-no-gm?authuser=0",
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMDKuI_TJU5jFc6SYvcfxQYMyLAxo_Er1aGNAFST7fBciWLXuMara_i-InT_5a4JadEykH_U5NohJtceGLLNyrgygDvzoLfxc4d3YuA_LAUxM59s6iLGsMybtdwHkWdmTVQnj3B1RagX4Uu4B20Q3CV6w=w2599-h1733-s-no-gm?authuser=0",
-        narrative: `<p>Dépôt d'alliage cuivreux à patine verte associant haches à talon et parures annulaires.</p>`
+        narrative: `
+          <p>Cette vitrine du Musée archéologique départemental de Jublains présente un ensemble exceptionnel d’objets en alliage cuivreux rattachables à l’âge du Bronze, période s’étendant approximativement de 2200 à 800 avant notre ère. Ces artefacts, principalement des haches à talon et des parures annulaires, témoignent de la maîtrise de la métallurgie et de la complexité des structures sociales de l’époque. La patine verte caractéristique qui recouvre ces pièces est le résultat de l’oxydation naturelle du bronze au fil des millénaires dans le sol, soulignant l’ancienneté de ce dépôt archéologique.</p>
+
+          <p>Les haches à talon constituent l’élément le plus représenté dans cet ensemble. Ce type d'outil, caractéristique du Bronze moyen et final, marque une évolution technique par rapport aux haches plates plus anciennes. Le talon, partie située à l’arrière de la lame, permettait une fixation plus solide sur un manche en bois coudé, souvent renforcée par des ligatures passant par un petit anneau latéral appelé bélière. Bien que ces objets puissent servir d'outils de charpenterie ou d'armes, leur découverte en nombre au sein de dépôts groupés suggère également une fonction de réserve de métal ou une valeur symbolique et monétaire dans les échanges prémonétaires.</p>
+
+          <p>Les parures, représentées ici par plusieurs bracelets ou anneaux de bras, illustrent le raffinement de l'artisanat du Bronze moyen. Ces objets massifs présentent des décors géométriques incisés, composés de lignes parallèles, de chevrons ou de motifs pointillés. La présence de ces parures dans un dépôt aux côtés d'outils renforce l'idée du "phénomène des dépôts", une pratique consistant à enfouir volontairement des objets de valeur dans le sol, des grottes ou des zones humides. Cette démarche, loin d'être accidentelle, est interprétée par les archéologues soit comme une cachette de fondeur destinée à être récupérée, soit comme un acte rituel d'offrande aux divinités ou de marquage territorial.</p>
+
+          <p>L’étude de ce mobilier archéologique permet de situer la région de Jublains et plus largement le département de la Mayenne au sein des réseaux de circulation du métal à l'échelle européenne. La composition du bronze, alliant cuivre et étain, nécessitait des approvisionnements parfois lointains, confirmant l'existence de routes commerciales structurées. Ce dépôt de Bais, dont sont issus plusieurs de ces objets, demeure un témoignage précieux des savoir-faire techniques et des croyances spirituelles des populations qui occupaient le territoire bien avant l'installation de la cité gallo-romaine de Noviodunum.</p>
+        `
       }
     ]
   },
@@ -910,8 +1003,22 @@ const CIVILISATIONS_REGISTRY = [
     mapOverlayUrl: "https://lh3.googleusercontent.com/d/1O9GXVfPkuswX5DorBUgBxfZc-209aoh8",
     albumUrl: "https://photos.google.com/share/AF1QipPVAXqBqZTRYy0G2k4dekN1B26P4qiDwAk_6z_C-Kx6eIyhtxN2miXjHY6tXfzPIw?pli=1&key=cW1TT0ZhWXFGeDBmU1F2SGl1VEw0d0FOMjR6MVVn",
     presentationHtml: `
-      <p><strong>Une synthèse monumentale au Proche-Orient</strong><br>
-      L'art amorrite représente une phase de transition et de synthèse majeure dans l'histoire de la Syrie et de la Mésopotamie.</p>
+      <p><strong>L'épanouissement des dynasties sémites occidentales</strong><br>
+      L'art de la période amorrite et paléo-babylonienne (début du IIe millénaire av. J.-C., v. 2000-1600 av. J.-C.) en Mésopotamie s'épanouit à travers l'essor de dynasties sémites occidentales qui unifient la région autour de grands centres urbains comme Babylone, Mari ou Larsa.</p>
+      
+      <p><strong>Dévotion intime et stèle monumentale</strong><br>
+      Dans la statuaire et les reliefs, l'art amorrite privilégie les scènes de dévotion intime et de communication avec le divin, illustrées par les nombreuses plaques votives en terre cuite moulée représentant des divinités nues, des musiciens ou des cavaliers. La pièce maîtresse de cette époque reste la célèbre stèle du Code de Hammurabi, sculptée dans un bloc de basalte noir : elle représente au sommet le roi recevant les lois des mains du dieu Shamash, associant avec rigueur le pouvoir politique à la légitimité sacrée.</p>
+
+      <p><strong>Raffinement palatial et glyptique</strong><br>
+      L'architecture palatiale atteint un sommet de raffinement avec le palais royal de Mari, vaste complexe labyrinthique de plus de deux cent soixante pièces, dont les cours et les salles d'apparat abritaient des peintures murales polychromes exceptionnelles célébrant l'investiture royale. La glyptique (sceaux-cylindres) se renouvelle profondément en popularisant la « scène de présentation », où un dieu protecteur introduit un mortel divinisé ou un dignitaire auprès d'une divinité majeure, reflétant une piété personnelle accrue.</p>
+    `,
+    concurrentHtml: `
+      <p><strong>Le contexte mondial au IIe millénaire av. J.-C.</strong></p>
+      <p>Pendant que le monde amorrite érige ses palais peints et codifie ses lois en Mésopotamie, les autres grands foyers civilisationnels du globe connaissent des mutations historiques et majeures au cours du IIe millénaire av. J.-C.</p>
+      <p>En Égypte, le Moyen Empire s'affirme comme un âge d'or classique, marqué par une statuaire royale introspective aux visages soucieux, un renouveau littéraire et la maîtrise absolue de l'orfèvrerie cloisonnée de Dahchour.</p>
+      <p>En Anatolie, l'Empire hittite se structure peu à peu en une grande puissance militaire redoutable, s'appuyant sur l'essor de la métallurgie du fer et le contrôle des routes stratégiques du Taurus pour rivaliser avec ses voisins.</p>
+      <p>En Crète, la civilisation minoenne déploie son premier âge des palais (Knossos, Phaistos), caractérisé par l'écriture linéaire A, un art maritime naturaliste et une architecture palatiale ouverte et sophistiquée.</p>
+      <p>En Chine, la dynastie Shang s'établit durablement dans la vallée du Fleuve Jaune, perfectionnant l'art de la fonte rituelle des bronzes et institutionnalisant l'écriture divinatoire sur os oraculaires pour légitimer le pouvoir royal.</p>
     `,
     themeAlbums: [
       { label: "🗿 Statuaire", url: "https://photos.google.com/share/AF1QipPVAXqBqZTRYy0G2k4dekN1B26P4qiDwAk_6z_C-Kx6eIyhtxN2miXjHY6tXfzPIw?pli=1&key=cW1TT0ZhWXFGeDBmU1F2SGl1VEw0d0FOMjR6MVVn" }
@@ -923,9 +1030,19 @@ const CIVILISATIONS_REGISTRY = [
         title: "Alalakh - roi Idrimi -1500 - Londres",
         site: "Tell Atchana (Alalakh)",
         category: "Sculpture & Statuaire",
+        themeLink: "https://photos.google.com/share/AF1QipPVAXqBqZTRYy0G2k4dekN1B26P4qiDwAk_6z_C-Kx6eIyhtxN2miXjHY6tXfzPIw?pli=1&key=cW1TT0ZhWXFGeDBmU1F2SGl1VEw0d0FOMjR6MVVn",
         chips: ["v. -1500 av. J.-C.", "Tell Atchana (Alalakh)", "British Museum (Londres)"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczPHGkCZm47O1gOL4Ui6nLL0Q0omROV3pafBxYT6WkYFLnvfgyA9yAFCMg-GL6KLpqobLqfxmnJGBF0ph464anxAlRWeZAsc5daaMrcP4s9FK1oijdIqs4hZQ1WP-EtZnYfMwWvkfacKZQ5JF6diThA3RA=w1620-h688-s-no-gm?authuser=0",
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczN6NQEToJ97f-c9qg-7W7Rt1ImmBuXkLUYQQalWO4iiVc7usyBS_ELROgGtpIudXZ0cVIjbk4-F1mo45heZCYaqpyiADyeZUZhe5HrztmoWoXq_qIWOTT0m981iqD3yMBajZAiUIHQQ4E0zNJYGg-K-fw=w613-h919-s-no-gm?authuser=0",
-        narrative: `<p>Statue en magnésite blanche gravée de la célèbre autobiographie cunéiforme d'Idrimi.</p>`
+        narrative: `
+          <p>Découverte en 1939 par Leonard Woolley à Tell Atchana (l’antique Alalakh), cette statue en magnésite blanche représente Idrimi, roi d'Alalakh, siégeant sur un trône de basalte. L'œuvre est d'une importance historique inégalée, non pas seulement pour ses qualités esthétiques, mais surtout pour l'inscription autobiographique monumentale qui recouvre presque toute la surface du corps du souverain. Idrimi y raconte son exil après la chute de sa famille à Alep, ses sept années passées parmi les guerriers nomades Hapirou, sa reconquête du trône avec l'appui de son suzerain, le roi du Mittani, et ses campagnes militaires victorieuses. C'est l'un des rares témoignages directs d'un souverain de l'âge du bronze racontant son propre destin avec une telle précision narrative.</p>
+
+          <p>D'un point de vue stylistique, la statue témoigne d'un art provincial syrien qui s'éloigne des canons classiques mésopotamiens pour adopter une esthétique plus schématique et robuste. Idrimi est représenté portant une tiare royale archaïque et une longue robe bordée d'un épais bourrelet, caractéristique du costume syrien de l'époque. Son visage est marqué par de grands yeux circulaires dont les pupilles étaient autrefois incrustées de verre ou de pierres sombres, conférant au roi une expression de vigilance éternelle. Ses mains sont posées sur ses genoux et sa poitrine, dans une attitude de dévotion ou d'affirmation de son autorité retrouvée. La barbe est figurée par un simple relief lisse au menton, prolongeant la ligne du visage de manière géométrique.</p>
+
+          <p>L'inscription, gravée en cunéiforme akkadien sur trente lignes, est l'élément le plus saisissant. Elle a été rédigée par le scribe Sharruwa, qui a signé son œuvre à la fin du texte. Les signes parcourent les bras, le torse et les jambes du roi, transformant littéralement le corps du souverain en un support de mémoire et de légitimité. Le texte se termine par des bénédictions pour ceux qui respecteront la statue et des malédictions terrifiantes pour ceux qui oseraient la déplacer ou effacer le nom d'Idrimi. La statue n'était pas un simple portrait, mais une présence vivante destinée à recevoir des offrandes funéraires et à assurer la pérennité du nom du roi après sa mort.</p>
+
+          <p>Le trône, bien que plus rudimentaire dans sa sculpture, présente des traces de lions stylisés sur les côtés, symbole classique de la royauté au Proche-Orient. La statue a été retrouvée rituellement "enterrée" dans une fosse sous le temple d'Alalakh, ce qui suggère qu'elle a été mise à l'abri lors d'une destruction de la ville ou qu'elle a bénéficié d'un traitement funéraire particulier après que le culte du roi eut cessé. Elle demeure aujourd'hui l'une des pièces maîtresses du British Museum pour comprendre les rapports de pouvoir entre les petits royaumes syriens et les grands empires de l'époque.</p>
+        `
       }
     ]
   },
@@ -945,7 +1062,20 @@ const CIVILISATIONS_REGISTRY = [
     albumUrl: "https://photos.google.com/share/AF1QipOwPyxi1kZR99upRbCwV7EqcTxAKq16-jOtDDeEeuI_blfV8DNa1ggU6u3127sf3g?key=ck5BSW5yQlgtazlDZXB2b0Ftd0NMYUpiTWJZSGR3",
     presentationHtml: `
       <p><strong>Un univers esthétique insulaire et préhistorique</strong><br>
-      Développé en isolation du continent africain pendant plus d'un millénaire jusqu'à la conquête espagnole de 1496.</p>
+      L'art préhispanique des îles Canaries (créé par les peuples aborigènes, souvent englobés sous le nom de Guanches, du Ier millénaire av. J.-C. jusqu'à la conquête espagnole au XVe siècle) se caractérise par une expression visuelle insulaire, géométrique et profondément symbolique.</p>
+      
+      <p><strong>Art rupestre et géométrie pariétale</strong><br>
+      L'art rupestre abonde dans tout l'archipel sous forme de gravures et de peintures pariétales, particulièrement visibles dans des grottes sanctuaires comme la Cueva Pintada de Gáldar à Grande Canarie, où se déployaient des compositions murales de carrés, de triangles et de damiers polychromes énigmatiques.</p>
+
+      <p><strong>Pintaderas et céramique aborigène</strong><br>
+      L'élément le plus emblématique de cette culture matérielle réside dans les pintaderas, des cachets ou tampons en argile cuite, en pierre ou en bois, munis d'une poignée et gravés de motifs géométriques extrêmement rigoureux (lignes brisées, chevrons, alvéoles). Ces matrices servaient à l'origine à appliquer des pigments naturels pour le marquage corporel (tatouages rituels), la parure des peaux ou l'identification des biens collectifs au sein d'une société agropastorale hiérarchisée. La céramique aborigène, modelée à la main sans l'usage du tour puis cuite à l'air libre, se distingue par des formes fonctionnelles épurées, parfois rehaussées d'incisions géométriques ou de mamelons plastiques.</p>
+    `,
+    concurrentHtml: `
+      <p><strong>Le contexte mondial à l'époque moderne</strong></p>
+      <p>Pendant que les peuples aborigènes des Canaries façonnent leurs céramiques et leurs cachets géométriques dans l'isolement de l'Atlantique, le reste du monde est le théâtre de la fin du Moyen Âge et de l'aube des grandes explorations maritimes européennes.</p>
+      <p>En Europe occidentale, c'est la période de la Renaissance triomphante, marquée par l'effervescence artistique en Italie, les débuts de l'imprimerie et les expéditions navales ibériques qui ouvrent la voie au contact direct avec les mondes lointains.</p>
+      <p>En Amérique, les grands empires précolombiens atteignent leur zénith : l'Empire aztèque domine la vallée du Mexique depuis Tenochtitlan avec une architecture monumentale et un art sacrificiel saisissant, tandis que l'Empire inca structure les Andes à travers ses citadelles de pierre et ses réseaux de pistes.</p>
+      <p>En Asie, la Chine des Ming consolide sa puissance après l'expulsion des Mongols, érigeant la majeure partie de la Grande Muraille actuelle et envoyant les flottes géantes de l'amiral Zheng He explorer l'océan Indien.</p>
     `,
     themeAlbums: [
       { label: "🎨 Peintures", url: "https://photos.google.com/share/AF1QipOwPyxi1kZR99upRbCwV7EqcTxAKq16-jOtDDeEeuI_blfV8DNa1ggU6u3127sf3g?key=ck5BSW5yQlgtazlDZXB2b0Ftd0NMYUpiTWJZSGR3" }
@@ -957,94 +1087,42 @@ const CIVILISATIONS_REGISTRY = [
         title: "Frise géométrique de la Cueva Pintada",
         site: "Gáldar (Gran Canaria)",
         category: "Peinture murale",
+        themeLink: "https://photos.google.com/share/AF1QipOwPyxi1kZR99upRbCwV7EqcTxAKq16-jOtDDeEeuI_blfV8DNa1ggU6u3127sf3g?key=ck5BSW5yQlgtazlDZXB2b0Ftd0NMYUpiTWJZSGR3",
         chips: ["XIe - XVe siècle", "Gáldar (Gran Canaria)", "Musée Cueva Pintada"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczPMXQ5bdaPOWzGPKgmojy9gQSYDzQr93TrgXTQ3ulBClSb_4u-eo9o5d2eP27CZmeHhdd9nZHufR4NJsEJSzsCi50xpKQ0NV5ZbYrY2LJhEuIy6xtlDgObVak0xLhEDHgifE9G46BrjnehXFBFJLHHxQg=w1620-h688-s-no-gm?authuser=0",
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczO2RC5ehxxblZ2K44QwidcBib5SOlN7sC3keWPoJXodG5zXzkt-ne7X-aHxE4Q6cEGoZElrQwEogHTkdgtDt1y5pklLo1M4FimTD1Wr7TWfvm9xSRDumxgklGc3Lf6mBgR8sZEQEvMjsDPhYo5uy0eGgg=w1351-h755-s-no-gm?authuser=0",
-        narrative: `<p>Frise géométrique de carrés et triangles emboîtés peints à l'ocre rouge et terre blanche sur le tuf volcanique.</p>`
+        narrative: `
+          <p>Cette frise décorative, datée principalement du XIIe au XIVe siècle, orne les parois d'une chambre excavée dans le tuf volcanique. Contrairement à de nombreuses expressions artistiques rupestres fondées sur le figuratif, cet ensemble se distingue par une abstraction géométrique rigoureuse. Les motifs se composent de séries de carrés, de triangles et de cercles, organisés selon une symétrie méticuleuse qui témoigne d'une pensée symbolique hautement structurée.</p>
+
+          <p>La technique utilisée repose sur l'application de pigments naturels minéraux. Le rouge provient d'ocres ou de terres ferrugineuses, tandis que le blanc est extrait de calcaires ou de plâtres locaux. Ces couleurs sont appliquées directement sur la roche préalablement lissée. La répétition des motifs géométriques n'est pas simplement ornementale ; de nombreux chercheurs y voient une fonction cosmogonique, peut-être liée à un calendrier lunaire ou solaire, ou à la représentation de l'organisation sociale et territoriale des clans de l'île.</p>
+
+          <p>La conservation de ces peintures est miraculeuse, le site ayant été protégé par des couches de sédiments pendant des siècles avant sa redécouverte à la fin du XIXe siècle. Aujourd'hui, elles représentent le témoignage le plus direct de l'identité visuelle des anciens Canariens, faisant de Gáldar (l'ancienne Agáldar) le centre spirituel et politique majeur de la culture précoloniale avant l'arrivée des Européens au XVe siècle.</p>
+        `
+      },
+      {
+        id: "statuettes_galdar",
+        century: "XIe - XVe siècle",
+        title: "Idoles et statuettes de Gáldar",
+        site: "Gáldar (Gran Canaria)",
+        category: "Terre cuite & Modelage",
+        themeLink: "https://photos.google.com/share/AF1QipOwPyxi1kZR99upRbCwV7EqcTxAKq16-jOtDDeEeuI_blfV8DNa1ggU6u3127sf3g?key=ck5BSW5yQlgtazlDZXB2b0Ftd0NMYUpiTWJZSGR3",
+        chips: ["XIe - XVe siècle", "Gáldar (Gran Canaria)"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczPMXQ5bdaPOWzGPKgmojy9gQSYDzQr93TrgXTQ3ulBClSb_4u-eo9o5d2eP27CZmeHhdd9nZHufR4NJsEJSzsCi50xpKQ0NV5ZbYrY2LJhEuIy6xtlDgObVak0xLhEDHgifE9G46BrjnehXFBFJLHHxQg=w1620-h688-s-no-gm?authuser=0",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPI_BBE8wJBjmpcxnbTRKtwv2fCVdy0bQNK6y06rPElbUcFUDfo17OXR0zEVc4AjHr6wnyPi95NRVawjLZy1q5FKUUQPKP2QZn9SWnnA5foXe4u-IyzMErXbQqY6mO1KK4SKwl0LDpQK55RxUDru-XtaQ=w2268-h1512-s-no-gm?authuser=0",
+        narrative: `
+          <p>Découvertes lors des fouilles du complexe troglodytique de la Cueva Pintada, ces statuettes en terre cuite datent principalement de la période comprise entre le XIe et le XVe siècle. Le site de Gáldar était alors l'un des centres politiques et rituels les plus importants de l'île, servant de résidence aux Guanartemes (rois autochtones).</p>
+
+          <p>La morphologie de ces objets, souvent qualifiés d'« idoles », est caractéristique de l'esthétique de Grande Canarie. On observe des corps robustes et stylisés, où l'accent est mis sur le tronc et le ventre, souvent interprétés comme des symboles de fertilité ou de maternité. Les visages sont sommaires, avec des yeux et une bouche marqués par de simples perforations, tandis que les membres sont parfois réduits à des moignons ou intégrés à la masse du corps.</p>
+
+          <p>Fabriquées sans l'aide d'un tour, ces figurines résutent d'un modelage manuel direct de l'argile ferrugineuse locale. Leur surface granuleuse et leur teinte ocre-rouge témoignent d'une cuisson artisanale à basse température. Au-delà de leur aspect artistique, elles jouaient un rôle prépondérant dans l'espace domestique ou sacré, servant probablement d'objets de médiation spirituelle ou de protection votive au sein des habitations circulaires en pierre du village.</p>
+        `
       }
     ]
-  }
-];
+  });
 
 /* ==========================================================================
-   GRADUATION & RUBAN SYNCHRONIQUE (4800px)
+   GÉNÉRATION DE LA FRISE ET INTERACTIONS
    ========================================================================== */
-const YEAR_MIN = -3500;
-const YEAR_MAX = 1500;
-const TOTAL_YEARS = YEAR_MAX - YEAR_MIN;
-const RIBBON_WIDTH = 4800;
-
-function yearToPixel(year) {
-  return ((year - YEAR_MIN) / TOTAL_YEARS) * (RIBBON_WIDTH - 600) + 100;
-}
-
-function pixelToYear(px) {
-  return Math.round(YEAR_MIN + ((px - 100) / (RIBBON_WIDTH - 600)) * TOTAL_YEARS);
-}
-
-const masterRibbon = document.getElementById('master-ribbon');
-const rulerTrack = document.getElementById('ruler-ticks-track');
-const rulerEventsLayer = document.getElementById('ruler-events-layer');
-const syncLine = document.getElementById('sync-cursor-line');
-const syncBubble = document.getElementById('sync-bubble-tag');
-const milestoneTooltip = document.getElementById('milestone-tooltip');
-const mType = document.getElementById('milestone-type');
-const mYear = document.getElementById('milestone-year');
-const mTitle = document.getElementById('milestone-title');
-const mDesc = document.getElementById('milestone-desc');
-
-for (let y = -3500; y <= 1500; y += 50) {
-  const x = yearToPixel(y);
-  const isMillennium = (y % 1000 === 0);
-  const isCentury = (y % 250 === 0);
-
-  const tick = document.createElement('div');
-  tick.className = `ruler-tick ${isMillennium ? 'major' : (isCentury ? 'medium' : 'minor')}`;
-  tick.style.left = `${x}px`;
-  rulerTrack.appendChild(tick);
-
-  if (isMillennium || isCentury) {
-    const label = document.createElement('div');
-    label.className = 'ruler-label';
-    label.style.left = `${x}px`;
-    label.textContent = y < 0 ? `${y}` : (y === 0 ? "1" : `+${y}`);
-    rulerTrack.appendChild(label);
-  }
-}
-
-// INJECTION DES DIAMANTS D'ÉVÉNEMENTS MAJEURS DANS LA RÈGLE
-HISTORICAL_MILESTONES.forEach(m => {
-  const x = yearToPixel(m.year);
-  const spark = document.createElement('div');
-  spark.className = `ruler-event-spark spark-${m.category}`;
-  spark.style.left = `${x}px`;
-  spark.title = `${m.year < 0 ? Math.abs(m.year) + ' av. J.-C.' : m.year} : ${m.title}`;
-
-  spark.addEventListener('mouseenter', () => {
-    mType.textContent = m.type.toUpperCase();
-    mYear.textContent = m.year < 0 ? `${Math.abs(m.year)} av. J.-C.` : `${m.year} ap. J.-C.`;
-    mTitle.textContent = m.title;
-    mDesc.textContent = m.desc;
-
-    const rect = spark.getBoundingClientRect();
-    const tooltipWidth = 310;
-    let leftPos = rect.left - 135;
-    
-    if (leftPos + tooltipWidth > window.innerWidth - 20) {
-      leftPos = window.innerWidth - tooltipWidth - 25;
-    }
-    
-    milestoneTooltip.style.left = `${Math.max(10, leftPos)}px`;
-    milestoneTooltip.style.top = `${rect.top - 130}px`;
-    milestoneTooltip.classList.add('visible');
-  });
-
-  spark.addEventListener('mouseleave', () => {
-    milestoneTooltip.classList.remove('visible');
-  });
-
-  rulerEventsLayer.appendChild(spark);
-});
-
 CIVILISATIONS_REGISTRY.forEach((civ) => {
   const laneEl = document.querySelector(`.timeline-lane[data-lane="${civ.lane}"]`);
   if (!laneEl) return;
@@ -1080,9 +1158,11 @@ CIVILISATIONS_REGISTRY.forEach((civ) => {
 });
 
 /* ==========================================================================
-   CARTOUCHE LATÉRAL & CONTRÔLE PLEIN ÉCRAN
+   CARTOUCHES LATÉRAUX & CONTRÔLE PLEIN ÉCRAN
    ========================================================================== */
 const hoverSidebar = document.getElementById('hover-sidebar-card');
+const concurrentSidebar = document.getElementById('concurrent-sidebar-card');
+const concurrentDesc = document.getElementById('concurrent-desc');
 const sidebarEra = document.getElementById('sidebar-era');
 const sidebarTitle = document.getElementById('sidebar-title');
 const sidebarDesc = document.getElementById('sidebar-desc');
@@ -1240,7 +1320,7 @@ setTimeout(() => {
 }, 400);
 
 /* ==========================================================================
-   CARTE DÉDIÉE : AFFICHAGE FIXE SANS PASTILLES
+   CARTE DÉDIÉE & VOLET DE CONTEXTE DROIT
    ========================================================================== */
 const globalMapImg = document.getElementById('global-map-img');
 const civOverlayMap = document.getElementById('civilisation-map-overlay');
@@ -1265,6 +1345,13 @@ function activateCivilisationView(civ) {
   setTimeout(() => {
     civOverlayMap.classList.add('active');
   }, 150);
+
+  if (civ.concurrentHtml) {
+    concurrentDesc.innerHTML = civ.concurrentHtml;
+    concurrentSidebar.classList.add('visible');
+  } else {
+    concurrentSidebar.classList.remove('visible');
+  }
 
   if (civ.artifacts) {
     civ.artifacts.forEach((art, aIdx) => {
@@ -1295,6 +1382,7 @@ function activateCivilisationView(civ) {
 
 function closeCivilisationView() {
   subDrawer.classList.remove('open');
+  concurrentSidebar.classList.remove('visible');
   civOverlayMap.classList.remove('active');
   civMapImg.src = '';
   globalMapImg.classList.remove('traveling');
@@ -1305,7 +1393,7 @@ function closeCivilisationView() {
 document.getElementById('btn-close-drawer').addEventListener('click', closeCivilisationView);
 
 /* ==========================================================================
-   POP-UP D'EXPOSITION MUSÉALE : FORMAT HORIZONTAL AGRANDI & DÉPARTEMENT
+   POP-UP D'EXPOSITION MUSÉALE
    ========================================================================== */
 const modal = document.getElementById('curator-modal');
 const modalDeptBannerBox = document.getElementById('modal-dept-banner-box');
@@ -1347,7 +1435,6 @@ function openArtworkModal(civ, activeIdx = 0) {
 function renderArtworkContent(civ, idx) {
   const art = civ.artifacts[idx];
   
-  // Si l'œuvre a un bandeau spécifique, on l'utilise, sinon on met un bandeau de secours magnifique par défaut
   if (art.deptBanner) {
     modalDeptBannerImg.src = art.deptBanner;
     modalDeptBannerBox.style.display = 'block';
