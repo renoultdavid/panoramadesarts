@@ -49,7 +49,7 @@
         <div id="halo-egypte_tardif" class="sync-foyer-halo"></div>
       </div>
 
-      <!-- Carte Régionale Dédiée -->
+      <!-- Carte Régionale Dédiée (Adaptative en cas de redimensionnement) -->
       <div id="civilisation-map-overlay">
         <img id="civilisation-map-img" src="" alt="Carte régionale" />
         <div class="map-atmospheric-glow"></div>
@@ -57,16 +57,7 @@
     </div>
   </main>
 
-  <!-- NOUVEAU VOLET GAUCHE : "ET PENDANT CE TEMPS-LÀ..." -->
-  <aside id="concurrent-sidebar-card">
-    <div class="sidebar-scrollable-body">
-      <div class="hover-card-era">Contexte Mondial Synchrone</div>
-      <div class="hover-card-title">Et pendant ce temps-là...</div>
-      <div class="hover-card-desc" id="concurrent-desc">Chargement du contexte géopolitique...</div>
-    </div>
-  </aside>
-
-  <!-- CARTOUCHE LATÉRAL DROIT (FICHES CIVILISATIONS) -->
+  <!-- CARTOUCHE LATÉRAL RESPONSIVE -->
   <aside id="hover-sidebar-card" class="pos-left">
     <button class="btn-close-sidebar" id="btn-close-sidebar" title="Fermer la fiche">&times;</button>
     <div class="sidebar-scrollable-body">
@@ -86,6 +77,15 @@
       <button class="btn-enter-civ-map" id="btn-enter-civ">
         Explorer la carte régionale ➔
       </button>
+    </div>
+  </aside>
+
+  <!-- VOLET LATÉRAL DE DROITE : ET PENDANT CE TEMPS-LÀ... (AVEC ASCENSEUR PROPRE) -->
+  <aside id="concurrent-sidebar-card">
+    <div class="sidebar-scrollable-body">
+      <div class="hover-card-era">Contexte Mondial Synchrone</div>
+      <div class="hover-card-title">Et pendant ce temps-là...</div>
+      <div class="hover-card-desc" id="concurrent-desc">Chargement du contexte mondial...</div>
     </div>
   </aside>
 
@@ -116,7 +116,7 @@
       </div>
 
       <div id="sync-cursor-line">
-        <div id="sync-bubble-tag">-1500 av. J.-C.</div>
+        <div id="sync-bubble-tag">-300 av. J.-C.</div>
       </div>
 
       <div id="timeline-split-wrapper">
@@ -151,32 +151,26 @@
     <div class="milestone-badge" id="milestone-type">REPÈRE HISTORIQUE</div>
     <div class="milestone-year" id="milestone-year">-2560 av. J.-C.</div>
     <div class="milestone-title" id="milestone-title">Titre de l'Événement</div>
-    <div class="milestone-desc" id="milestone-desc">Description concise...</div>
+    <div class="milestone-desc" id="milestone-desc">Description...</div>
   </div>
 
-  <!-- MODALE D'EXPOSITION -->
   <div id="curator-modal">
     <div class="curator-frame">
       <button class="btn-dismiss-modal" id="btn-modal-close">&times;</button>
-      
       <div id="modal-dept-banner-box" class="modal-dept-banner-box">
         <img id="modal-dept-banner-img" src="" alt="Bandeau de département" />
       </div>
-
       <div id="modal-tab-bar" class="modal-tab-bar"></div>
-
       <div class="modal-h-layout">
         <div class="modal-pedestal-col">
           <div class="category-badge-chip" id="modal-category-badge">CATÉGORIE</div>
-          <img id="modal-artwork-img" src="" alt="Objet d'art de la collection" loading="lazy" />
+          <img id="modal-artwork-img" src="" alt="Objet d'art" loading="lazy" />
         </div>
-
         <div class="modal-notes-col">
           <div class="modal-civ-line" id="modal-civ-title">Civilisation</div>
           <h2 class="modal-headline" id="modal-artwork-title">Titre de l'Œuvre</h2>
           <div class="modal-chips-row" id="modal-chips-container"></div>
           <div class="modal-narrative" id="modal-narrative-text">Notice détaillée...</div>
-
           <a href="#" target="_blank" rel="noopener noreferrer" class="btn-gold-link" id="modal-album-btn">
             Explorer la collection
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
