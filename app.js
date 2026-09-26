@@ -4,33 +4,80 @@
 const HISTORICAL_MILESTONES = [
   {
     year: -3300,
-    type: "Rupture technique",
+    category: "tech",
+    type: "Révolution technique",
     title: "Invention de l'écriture cunéiforme",
     desc: "Apparition des premières tablettes d'argile à Uruk en Mésopotamie, scellant la naissance de l'histoire et de la mémoire écrite."
   },
   {
     year: -3000,
+    category: "gold",
     type: "Fondation politique",
     title: "Unification de l'Égypte sous Narmer",
     desc: "Fondation de la Ire dynastie thinite, réunissant la Haute et la Basse-Égypte sous l'autorité d'un souverain unique."
   },
   {
     year: -2560,
+    category: "gold",
     type: "Chantier colossal",
     title: "Chantier de la Grande Pyramide de Khéops",
     desc: "Édification de la plus colossale des sept merveilles du monde antique sur le plateau calcaire de Gizeh."
   },
   {
+    year: -2200,
+    category: "disaster",
+    type: "Rupture climatique",
+    title: "Événement aride de 4,2 ka",
+    desc: "Crise de sécheresse majeure qui déstabilise l'Ancien Empire en Égypte et l'Empire d'Akkad en Mésopotamie, ouvrant des périodes de fragmentation politique."
+  },
+  {
+    year: -2000,
+    category: "tech",
+    type: "Innovation artisanale",
+    title: "Généralisation du tour de potier rapide",
+    desc: "Diffusion du tour rapide dans le monde égéen et le Levant, permettant l'épanouissement de céramiques aux parois fines et aux formes profilées."
+  },
+  {
+    year: -1750,
+    category: "gold",
+    type: "Monument juridique",
+    title: "Promulgation du Code d'Hammurabi",
+    desc: "Gravure de la célèbre stèle de basalte de Babylone, synthèse magistrale de droit et de propagande royale sous le regard du dieu Shamash."
+  },
+  {
     year: -1600,
+    category: "disaster",
     type: "Cataclysme naturel",
     title: "Éruption minoenne de Santorin (Théra)",
-    desc: "Explosion volcanique majeure dans les Cyclades, provoquant des tsunamis et bouleversant les équilibres maritimes de la Crète minoenne."
+    desc: "Explosion volcanique colossale dans l'archipel des Cyclades, provoquant des tsunamis et bouleversant les équilibres maritimes de la Crète minoenne."
   },
   {
     year: -1274,
+    category: "war",
     type: "Bataille décisive",
     title: "Bataille de Qadesh (Ramsès II vs Muwatalli II)",
-    desc: "Le plus célèbre choc de chars de l'Antiquité sur l'Oronte, immortalisé en bas-reliefs héroïques sur les pylônes de Louxor et d'Abou Simbel."
+    desc: "Choc de chars colossal entre l'Égypte et les Hittites sur l'Oronte, immortalisé en bas-reliefs héroïques sur les pylônes de Louxor et d'Abou Simbel."
+  },
+  {
+    year: -1200,
+    category: "tech",
+    type: "Révolution métallurgique",
+    title: "Diffusion de la métallurgie du fer",
+    desc: "Effondrement de l'âge du Bronze et adoption généralisée du fer au Proche-Orient et en Méditerranée, transformant l'armement et l'outillage."
+  },
+  {
+    year: -539,
+    category: "war",
+    type: "Conquête impériale",
+    title: "Prise de Babylone par Cyrus le Grand",
+    desc: "Chute du Nouvel Empire babylonien et apogée de l'Empire perse achéménide, intégrant la Mésopotamie, le Levant et l'Égypte sous un même sceptre."
+  },
+  {
+    year: -52,
+    category: "war",
+    type: "Conquête militaire",
+    title: "Siège d'Alésia & Reddition de Vercingétorix",
+    desc: "Victoire de Jules César marquant la fin de la guerre des Gaules et l'intégration progressive des peuples celtes dans l'orbite romaine."
   }
 ];
 
@@ -515,7 +562,7 @@ const CIVILISATIONS_REGISTRY = [
         category: "Sculpture & Statuaire",
         chips: ["v. -1500 av. J.-C.", "Tell Atchana (Alalakh)", "British Museum (Londres)"],
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczN6NQEToJ97f-c9qg-7W7Rt1ImmBuXkLUYQQalWO4iiVc7usyBS_ELROgGtpIudXZ0cVIjbk4-F1mo45heZCYaqpyiADyeZUZhe5HrztmoWoXq_qIWOTT0m981iqD3yMBajZAiUIHQQ4E0zNJYGg-K-fw=w613-h919-s-no-gm?authuser=0",
-        narrative: "Découverte en 1939 par Leonard Woolley à Tell Atchana (l’antique Alalakh), cette statue en magnésite blanche représente Idrimi, roi d'Alalakh, siégeant sur un trône de basalte.<br><br>L'œuvre est remarquable par la longue inscription cunéiforme autobiographique gravée sur la robe du roi, relatant son exil, sa reconquête du pouvoir et son alliance avec le Mittani. Ses grands yeux incrustés confèrent à la statue une puissance hiératique unique dans l'art du Proche-Orient ancien."
+        narrative: "Statue en magnésite blanche gravée de la célèbre autobiographie cunéiforme d'Idrimi siégeant sur son trône de basalte.<br><br>L'œuvre est remarquable par la longue inscription cunéiforme autobiographique gravée sur la robe du roi, relatant son exil, sa reconquête du pouvoir et son alliance avec le Mittani. Ses grands yeux incrustés confèrent à la statue une puissance hiératique unique dans l'art du Proche-Orient ancien."
       }
     ]
   },
@@ -614,23 +661,23 @@ for (let y = -3500; y <= 1500; y += 50) {
   }
 }
 
-// INJECTION DES BALISES D'ÉVÉNEMENTS MAJEURS DANS LA RÈGLE
+// INJECTION DES DIAMANTS D'ÉVÉNEMENTS MAJEURS DANS LA RÈGLE
 HISTORICAL_MILESTONES.forEach(m => {
   const x = yearToPixel(m.year);
   const spark = document.createElement('div');
-  spark.className = 'ruler-event-spark';
+  spark.className = `ruler-event-spark spark-${m.category}`;
   spark.style.left = `${x}px`;
   spark.title = `${m.year < 0 ? Math.abs(m.year) + ' av. J.-C.' : m.year} : ${m.title}`;
 
-  spark.addEventListener('mouseenter', (e) => {
+  spark.addEventListener('mouseenter', () => {
     mType.textContent = m.type.toUpperCase();
     mYear.textContent = m.year < 0 ? `${Math.abs(m.year)} av. J.-C.` : `${m.year} ap. J.-C.`;
     mTitle.textContent = m.title;
     mDesc.textContent = m.desc;
 
     const rect = spark.getBoundingClientRect();
-    milestoneTooltip.style.left = `${Math.min(window.innerWidth - 300, Math.max(10, rect.left - 130))}px`;
-    milestoneTooltip.style.top = `${rect.top - 120}px`;
+    milestoneTooltip.style.left = `${Math.min(window.innerWidth - 310, Math.max(10, rect.left - 135))}px`;
+    milestoneTooltip.style.top = `${rect.top - 130}px`;
     milestoneTooltip.classList.add('visible');
   });
 
