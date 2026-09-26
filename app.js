@@ -111,7 +111,19 @@ const CIVILISATIONS_REGISTRY = [
     albumUrl: "https://photos.google.com",
     presentationHtml: `
       <p><strong>L'aube de l'art pharaonique et l'âge des pyramides</strong><br>
-      De l'unification des Deux Terres par Narmer jusqu'à la fin de la VIe dynastie, l'Ancien Empire pose les canons immuables de l'art égyptien : rigueur monumentale, hiératisme royal, et architecture de pierre défiant l'éternité sous l'égide d'un pharaon dieu-vivant.</p>
+      L’Ancien Empire égyptien (v. 2700-2200 av. J.-C., IIIe-VIe dynasties), souvent qualifié d'« âge des pyramides », s'impose comme une période d'apogée politique, artistique et théologique où s'affirme la puissance absolue du pharaon, considéré comme un dieu vivant garant de l'ordre cosmique (la Maât).
+
+Dans le domaine architectural, cette époque inaugure le passage monumental de la pierre avec la construction des complexes funéraires royaux, depuis la pyramide à degrés de Djéser à Saqqarah imaginée par Imhotep jusqu'aux chefs-d'œuvre géométriques parfaits du plateau de Gizeh (Khéops, Khéphren, Mykérinos).
+
+Ces complexes associent temples hauts, temples de vallée et chaussées montantes, symbolisant l'ascension solaire du souverain défunt et incarnant la maîtrise absolue d'une main-d'œuvre centralisée et organisée.
+
+La statuaire royale et aristocratique de l'Ancien Empire se caractérise par une hiératisme majestueux, une géométrie rigoureuse et une recherche de l'éternité, façonnée dans des roches dures et résistantes comme le diorite, le schiste ou le calcaire peint.
+
+Les figures royales trônent avec une impassibilité sereine, tandis que la statuaire privée — illustrée par des chefs-d'œuvre comme le Scribe accroupi ou le couple de Rahhotep et Nofret — introduit un réalisme saisissant et individualisé, notamment à travers l'incrustation de pierres et de cristal pour les yeux.
+
+Les parois des mastabas et des tombes de dignitaires se couvrent de bas-reliefs et de peintures d'une finesse exquise, célébrant la vie quotidienne, la faune, la flore et les offrandes agricoles pour nourrir éternellement le Ka du défunt.
+
+L'art de l'Ancien Empire fixe ainsi les canons fondamentaux de la plastique égyptienne pour les trois millénaires suivants, alliant la rigueur proportionnelle du quadrillage à une spiritualité profondément ancrée dans l'immortalité.</p>
     `,
     concurrentHtml: `
       <p><strong>Le contexte mondial au IIIe millénaire av. J.-C.</strong></p>
@@ -240,7 +252,7 @@ const CIVILISATIONS_REGISTRY = [
     id: "egypte_moyen",
     name: "Égypte : Moyen Empire & Périodes Intermédiaires",
     epoch: "v. -2050 à -1550 av. J.-C.",
-    yearStart: -2050,
+    yearStart: -2200,
     yearEnd: -1550,
     lane: "egypte",
     themeColor: "#20c997",
