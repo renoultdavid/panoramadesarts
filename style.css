@@ -222,12 +222,14 @@ body {
 #hover-sidebar-card, #concurrent-sidebar-card {
   position: absolute;
   top: 60px;
-  bottom: 315px;
+  /* On s'arrête nettement au-dessus de la frise du bas pour laisser de la marge */
+  bottom: 330px; 
   z-index: 25;
-  width: 380px;
-  max-width: 35vw;
+  width: 400px;
+  max-width: 38vw;
+  /* On force une hauteur calculée pour que l'ascenseur fonctionne à l'intérieur */
   height: auto;
-  background: rgba(14, 17, 24, 0.96);
+  background: rgba(14, 17, 24, 0.98);
   backdrop-filter: blur(25px);
   border: 1px solid rgba(212, 175, 55, 0.35);
   border-radius: 4px;
@@ -240,6 +242,21 @@ body {
   overflow: hidden;
 }
 
+/* On s'assure que le contenu intérieur gère bien le défilement vertical */
+#concurrent-sidebar-card.visible {
+  opacity: 1;
+  transform: translateX(0);
+  pointer-events: auto;
+}
+
+#concurrent-sidebar-card .sidebar-scrollable-body {
+  flex: 1;
+  overflow-y: auto;
+  height: 100%;
+  max-height: calc(100vh - 420px);
+  scrollbar-width: thin;
+  scrollbar-color: rgba(243, 156, 18, 0.4) transparent;
+}
 #hover-sidebar-card.pos-left {
   left: 2rem;
   right: auto;
