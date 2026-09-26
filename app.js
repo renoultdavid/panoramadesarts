@@ -822,20 +822,29 @@ CIVILISATIONS_REGISTRY.push(
     mapOverlayUrl: "https://lh3.googleusercontent.com/d/1-RyywCVU5Ct2McoKupe9Z2OnXrnDSJ9r",
     albumUrl: "https://photos.google.com/share/AF1QipMlW4TQJ8A9qGbcmVyMNAsLLD3a9pwHTBsx-qcnMuuYdqlbjXgrrncpHaXoLLK0LA?key=LTdfMHQ4VHdhNmJ4WEI2bFRtU2xTaHpCeHM2bEZR",
     presentationHtml: `
-      <p><strong>Vitalité du mouvement et célébration de la nature</strong><br>
-      L'art crétois minoen se distingue par une liberté de formes unique dans l'Antiquité, magnifiant la faune marine, la flore et le mouvement dans des palais ouverts et colorés.</p>
+      <p><strong>L’art de la Crète minoenne (v. 2600-1450 av. J.-C.)</strong><br>
+      L’art de la Crète minoenne (v. 2600-1450 av. J.-C.) s'épanouit au cœur de la mer Égée dans une esthétique de la grâce, du mouvement et de la communion avec la nature, loin de la monumentalité austère des empires continentaux.</p>
+      <p>L'architecture palatiale — illustrée par Cnossos, Phaistos ou Mallia — orchestre des complexes labyrinthiques ouverts, sans fortifications, articulés autour de vastes cours centrales et dotés de systèmes sophistiqués d'éclairage, de ventilation et d'adduction d'eau.</p>
+      <p>La peinture murale minoenne privilégie la fresque vibrante et naturaliste, où des figures élancées et gracieuses évoluent au milieu de paysages aquatiques et végétaux foisonnants, célébrant la faune marine, les jeux taurins et les processions rituelles.</p>
+      <p>La céramique évolue du style de Kamares, aux somptueux décors floraux polychromes sur fond noir, vers le style marin où poulpes, dauphins et coquillages enserrent les vases avec un dynamisme naturaliste saisissant.</p>
+      <p>La glyptique et la petite plastique en faïence ou en ivoire atteignent une virtuosité exceptionnelle, incarnée par les célèbres figurines de déesses aux serpents, traduisant une spiritualité profondément ancrée dans le culte de la nature et de la fertilité.</p>
     `,
     concurrentHtml: `
-      <p><strong>Le contexte mondial au IIe millénaire av. J.-C.</strong></p>
-      <p>Pendant que la Crète minoenne déploie ses palais, l'Égypte du Moyen Empire puis du Nouvel Empire domine le bassin oriental.</p>
+      <p><strong>Le contexte mondial au milieu du IIe millénaire av. J.-C.</strong></p>
+      <p>Pendant que la Crète minoenne déploie son art palatial et maritime, les autres grands foyers civilisationnels du globe connaissent des mutations historiques et culturelles majeures au milieu du IIe millénaire av. J.-C.</p>
+      <p>En Égypte, le Nouvel Empire atteint son apogée sous les XVIIIe et XIXe dynasties, menant une politique d'expansion militaire agressive vers le Proche-Orient et édifiant les immenses complexes de Karnak, Louxor et la Vallée des Rois.</p>
+      <p>En Mésopotamie, le paysage politique est dominé par la rivalité entre les Kassites à Babylone, les Assyriens dans le nord et les Mitanniens, favorisant l'essor d'une diplomatie internationale documentée par les archives d'Amarna.</p>
+      <p>En Anatolie, l'Empire hittite s'affirme comme une grande puissance militaire redoutable, rivalisant avec l'Égypte pour le contrôle de la Syrie et innovant par l'utilisation intensive du char de combat et de la métallurgie du fer.</p>
+      <p>En Chine, la dynastie Shang consolide son hégémonie dans la vallée du Fleuve Jaune, perfectionnant le système d'écriture sur os oraculaires et érigeant de puissantes traditions artistiques fondées sur le bronze rituel et le chamanisme ancestral.</p>
     `,
     themeAlbums: [
-      { label: "🏺 Céramiques", url: "https://photos.google.com/share/AF1QipMlW4TQJ8A9qGbcmVyMNAsLLD3a9pwHTBsx-qcnMuuYdqlbjXgrrncpHaXoLLK0LA?key=LTdfMHQ4VHdhNmJ4WEI2bFRtU2xTaHpCeHM2bEZR" }
+      { label: "🏺 Céramiques", url: "https://photos.google.com/share/AF1QipMlW4TQJ8A9qGbcmVyMNAsLLD3a9pwHTBsx-qcnMuuYdqlbjXgrrncpHaXoLLK0LA?key=LTdfMHQ4VHdhNmJ4WEI2bFRtU2xTaHpCeHM2bEZR" },
+      { label: "🏛️ Mobilier funéraire", url: "https://photos.google.com/share/AF1QipMlW4TQJ8A9qGbcmVyMNAsLLD3a9pwHTBsx-qcnMuuYdqlbjXgrrncpHaXoLLK0LA?key=LTdfMHQ4VHdhNmJ4WEI2bFRtU2xTaHpCeHM2bEZR" }
     ],
     artifacts: [
       {
         id: "rhyton_taureau",
-        century: "v. -1400 av. J.-C. (Minoen Récent)",
+        century: "v. -1400 av. J.-C. (XIVe s. av. J.-C.)",
         title: "Rhyton en terre cuite en forme de tête de taureau",
         site: "Crète minoenne",
         category: "Céramique rituelle",
@@ -843,7 +852,23 @@ CIVILISATIONS_REGISTRY.push(
         chips: ["Bronze récent", "Terre cuite peinte", "Double hache (Labrys)"],
         deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPnUuU-MK0sDhtORjZeb_6whI6M33RtfIsbTkuuC6TjPIS8ppTuXw7T6kz2TtxYtoxJ21EI3qjAzNB-zxU3qXd76rMvXNBD85NjTnUlss-WsvMcoZwQc84ExK_TVdXRD2OV_8eIvWE_yeUf_t778xEaRQ=w1814-h2410-s-no-gm?authuser=0",
-        narrative: `<p>Ce rhyton de libation adopte la silhouette d'une tête de taureau, motif religieux central de la Crète minoenne.</p>`
+        narrative: `<p>Ce rhyton en terre cuite affecte la forme d'une tête de taureau, un motif iconographique central et récurrent dans l'art Minoen de la Crète de l'âge du Bronze. L'objet est un vase rituel destiné aux libations, caractérisé par une ouverture de remplissage située sur la nuque de l'animal et un orifice d'écoulement percé à l'extrémité du museau. Cette conception technique permettait de verser des liquides, probablement du vin ou du sang sacrificiel, lors de cérémonies religieuses. La tête est modelée avec un grand souci du naturalisme, capturant la puissance de l'animal à travers le modelé des naseaux, des yeux proéminents et la courbure vigoureuse des cornes qui s'élèvent vers le haut.</p>
+        <p>Le décor peint en brun-noir sur le fond clair de l'argile est organisé en motifs géométriques et symboliques qui recouvrent l'intégralité de la surface. Le front de l'animal est orné d'une grande double hache (labrys) stylisée, un symbole religieux majeur de la civilisation minoenne associé à la divinité féminine et au pouvoir palatial. De part et d'autre, le pelage est suggéré par des semis de points et des lignes ondulées, tandis que le cou est rythmé par des bandes horizontales et des chevrons hachurés. Les yeux sont soulignés par des cercles concentriques qui accentuent l'expression intense et presque hypnotique du taureau.</p>
+        <p>La fabrication de tels objets à une échelle monumentale ou en matériaux précieux (comme le stéatite ou l'or) témoigne du rôle central du taureau dans l'idéologie et les rituels crétois, notamment les célèbres jeux de taurokathapsia (saut au-dessus du taureau). Ce rhyton en terre cuite, bien que moins luxueux, n'en demeure pas moins un objet de prestige, probablement utilisé dans un sanctuaire ou lors de banquets d'État. La schématisation des motifs géométriques par rapport aux exemples plus anciens annonce la transition vers le style mycénien tardif, où le naturalisme s'efface au profit d'une plus grande formalisation décorative.</p>`
+      },
+      {
+        id: "larnax_ligortynos",
+        century: "v. -1350 à -1250 av. J.-C. (XIVe - XIIIe s. av. J.-C.)",
+        title: "Larnax à décor marin et végétal",
+        site: "Ligortynos (Crète)",
+        category: "Mobilier funéraire",
+        themeLink: "https://photos.google.com/share/AF1QipMlW4TQJ8A9qGbcmVyMNAsLLD3a9pwHTBsx-qcnMuuYdqlbjXgrrncpHaXoLLK0LA?key=LTdfMHQ4VHdhNmJ4WEI2bFRtU2xTaHpCeHM2bEZR",
+        chips: ["Minoen Récent III", "Terre cuite peinte", "Style marin"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczO47qJMkhp20Z27X3Gv78fr_pQMc_lTVDiqHyXNV9Wkoi9k7k2Jlb0KWokDNT4Y3Ki6QKgzzv3mNsgaAse57mjhd3X308PEYYy2V48cZXNeWdHXJQmkvO70BlilA-TyNrBlNajowmlDC7f0sM_uLQtcVw=w2111-h1589-s-no-gm?authuser=0",
+        narrative: `<p>Cette larnax, ou sarcophage en terre cuite, est un exemple majeur du mobilier funéraire crétois de la période du Minoen Récent III. Elle se présente sous la forme d'un coffre rectangulaire massif reposant sur quatre pieds courts et épais, une structure inspirée des coffres domestiques en bois de l'époque. Le couvercle, de forme raboutée ou en bâtière (semblable à un toit à deux versants), permettait de clore hermétiquement le réceptacle. La technique de fabrication, utilisant des plaques d'argile épaisses et une cuisson à haute température, assure à l'objet une grande durabilité, essentielle pour sa fonction de protection de la dépouille.</p>
+        <p>Le décor peint au vernis sombre sur le fond d'argile clair recouvre l'intégralité des parois extérieures, transformant le sarcophage en un véritable support narratif et symbolique. Les panneaux principaux sont ornés de motifs marins et végétaux d'une grande richesse : on y observe des pieuvres aux tentacules sinueux qui semblent flotter dans un espace fluide, entourées de poissons, de rochers stylisés et de papyrus. Cette iconographie marine, héritée du "style marin" minoen plus ancien, est ici réinterprétée avec une certaine schématisation. Le couvercle et les bordures du coffre sont soulignés par des frises géométriques, notamment des zigzags, des tresses et des damiers, qui structurent la composition et renforcent l'aspect architectural de l'objet.</p>
+        <p>La présence de tels motifs sur une pièce funéraire à Ligortynos n'est pas purement décorative. L'omniprésence du thème de l'eau et de la régénération (le papyrus) évoque le voyage du défunt vers l'au-delà et sa survie symbolique. Le mélange entre la faune sauvage (comme sur le cratère aux bouquetins que nous avons vu) et le monde aquatique témoigne de la vision globale de la nature propre aux Crétois de cette époque. Cette larnax illustre parfaitement le prestige des rites funéraires en Crète au XIVe siècle avant J.-C., où l'art servait de pont entre le monde des vivants et celui des morts.</p>`
       }
     ]
   },
@@ -859,7 +884,7 @@ CIVILISATIONS_REGISTRY.push(
     travelingOrigin: "55.4% 45.6%",
     haloId: "halo-chypre",
     bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczNtlhntpxWY6u22Dj77CiZfXJnSfduTP1uXInNNl7THWXS5vseOikfKiRgcTsCjP2iVGO-jX924k9zAAUyZQhGX8luuSrh5eXc650LHXXMWEdLAl7o589lo_Rkk6Bo9UJYlo4iFAtBkaj6qhmzuUK5y_w=w2111-h896-s-no-gm?authuser=0",
-    mapOverlayUrl: "https://lh3.googleusercontent.com/d/1QyvVo3lL18FPcqzLgR9qvyaHY5F63Spk",
+    mapOverlayUrl: "https://drive.google.com/file/d/1QNkcnjOVZ9nSJxO2vXusVWgC04EmaUcO/view?usp=drive_link",
     albumUrl: "https://photos.google.com",
     presentationHtml: `
       <p><strong>L'île du cuivre au carrefour des mondes antiques</strong><br>
@@ -938,7 +963,7 @@ CIVILISATIONS_REGISTRY.push(
     travelingOrigin: "47.8% 38.5%",
     haloId: "halo-celte_fer",
     bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczOTpAuNPMicTn782_1Zjbxrq0HKHRKJG6AVI3MC5QV0sIgRxWd1KE3enIDaZ4vI7QiV5SLQ6pAzbtmog5AkOjGQTGt3u4cnSdiF9sW1VPzeXH1Md2FDvlYQR92Fv7MXvbsr0sYzoNpKZc4GHJfmENYp7w=w2111-h896-s-no-gm?authuser=0",
-    mapOverlayUrl: "https://lh3.googleusercontent.com/d/1QyvVo3lL18FPcqzLgR9qvyaHY5F63Spk",
+    mapOverlayUrl: "https://lh3.googleusercontent.com/d/1vA5Ww4o5Z6m0PqQvB4U7e-9r8n6Y3u8v",
     albumUrl: "https://photos.google.com",
     presentationHtml: `
       <p><strong>L'abstraction curviligne et la virtuosité guerrière</strong><br>
