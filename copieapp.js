@@ -97,248 +97,279 @@ HISTORICAL_MILESTONES.forEach(m => {
 const CIVILISATIONS_REGISTRY = [
   {
     id: "egypte_ancien",
-    name: "Égypte : Thinite & Ancien Empire",
-    epoch: "v. -3100 à -2160 av. J.-C.",
+    name: "Égypte : Ancien Empire & Époque Thinite",
+    epoch: "v. -3100 à -2200 av. J.-C.",
     yearStart: -3100,
-    yearEnd: -2160,
+    yearEnd: -2200,
     lane: "egypte",
     themeColor: "#2ec4b6",
     sidePos: "pos-left",
     travelingOrigin: "54.8% 48.8%",
     haloId: "halo-egypte_ancien",
-    bannerImg: "https://lh3.googleusercontent.com/d/1564-Uow3YDKT2Bu7pkKvjlUbMhoJYue_",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
     mapOverlayUrl: "https://lh3.googleusercontent.com/d/1ziTqdTOIWmuthiEJmt735P207kfaB075",
-    albumUrl: "https://photos.google.com/share/AF1QipN3eyH-IXfJ5tzHs153uMFgtbiZ-T1UONLzfSVpPLodOXWcNGXYMeojYCDX7skI5w?key=dEpRSmZnTkVLb2FuOHJCbjRqZDhDZ1ZDNDhOVkhn",
+    albumUrl: "https://photos.google.com",
     presentationHtml: `
-      <p><strong>L'unification des Deux Terres et l'art d'État</strong><br>
-      À l’aube du IIIe millénaire avant notre ère, l’unification de l’Égypte forge un art d’État. Dès l’époque thinite, la palette de Narmer fixe le canon égyptien et la marche du souverain, tandis que la période archaïque voit naître la stèle funéraire, à l’image de celle du roi Serpent à Abydos.</p>
-      
-      <p><strong>L'âge d'or des bâtisseurs de pyramides</strong><br>
-      Avec l’Ancien Empire s’ouvre un âge d’or architectural sous l’impulsion des bâtisseurs divins. À Saqqarah, Imhotep invente la pierre de taille et érige la pyramide à degrés de Djéser. La IVe dynastie porte cette quête d’éternité à son apogée sur le plateau de Gizeh : les tombeaux géants de Khéops, Khéphren et Mykérinos dominent l’horizon memphite, tandis que le Grand Sphinx veille sur le complexe, mêlant puissance royale et force léonine.</p>
+      <p><strong>L'aube de l'art pharaonique et l'âge des pyramides</strong><br>
+      L’Ancien Empire égyptien (v. 2700-2200 av. J.-C., IIIe-VIe dynasties), souvent qualifié d'« âge des pyramides », s'impose comme une période d'apogée politique, artistique et théologique où s'affirme la puissance absolue du pharaon, considéré comme un dieu vivant garant de l'ordre cosmique (la Maât).
 
-      <p><strong>Majesté royale et réalisme du Ka</strong><br>
-      La sculpture en ronde-bosse magnifie la majesté royale dans des pierres dures et sombres : Khéphren trône sous la protection du faucon Horus sculpté dans la diorite anorthosite, et les triades de Mykérinos dans le schiste traduisent une impeccable rigueur formelle. Parallèlement, la statuaire privée recherche la présence vive et le réalisme des traits : le calcaire peint donne vie au célèbre Scribe accroupi aux yeux incrustés de cristal, aux figures de Rahotep et Nofret, ainsi qu'au bois expressif du Cheik el-Beled (Kaaper).</p>
+Dans le domaine architectural, cette époque inaugure le passage monumental de la pierre avec la construction des complexes funéraires royaux, depuis la pyramide à degrés de Djéser à Saqqarah imaginée par Imhotep jusqu'aux chefs-d'œuvre géométriques parfaits du plateau de Gizeh (Khéops, Khéphren, Mykérinos).
 
-      <p><strong>Les mastabas et la survie éternelle</strong><br>
-      Autour du monarque, les courtisans se font inhumer dans de massifs mastabas de calcaire. Les chapelles funéraires se couvrent de bas-reliefs peints figurant la vie quotidienne du Nil : agriculture, élevage, chasse dans les marais de papyrus et banquets rituels. Cet art rigoureux obéit à la règle sacrée de l'aspective afin d'assurer magiquement la subsistance éternelle du Ka du défunt.</p>
+Ces complexes associent temples hauts, temples de vallée et chaussées montantes, symbolisant l'ascension solaire du souverain défunt et incarnant la maîtrise absolue d'une main-d'œuvre centralisée et organisée.
+
+La statuaire royale et aristocratique de l'Ancien Empire se caractérise par une hiératisme majestueux, une géométrie rigoureuse et une recherche de l'éternité, façonnée dans des roches dures et résistantes comme le diorite, le schiste ou le calcaire peint.
+
+Les figures royales trônent avec une impassibilité sereine, tandis que la statuaire privée — illustrée par des chefs-d'œuvre comme le Scribe accroupi ou le couple de Rahhotep et Nofret — introduit un réalisme saisissant et individualisé, notamment à travers l'incrustation de pierres et de cristal pour les yeux.
+
+Les parois des mastabas et des tombes de dignitaires se couvrent de bas-reliefs et de peintures d'une finesse exquise, célébrant la vie quotidienne, la faune, la flore et les offrandes agricoles pour nourrir éternellement le Ka du défunt.
+
+L'art de l'Ancien Empire fixe ainsi les canons fondamentaux de la plastique égyptienne pour les trois millénaires suivants, alliant la rigueur proportionnelle du quadrillage à une spiritualité profondément ancrée dans l'immortalité.</p>
     `,
     concurrentHtml: `
       <p><strong>Le contexte mondial au IIIe millénaire av. J.-C.</strong></p>
-      <p>Pendant que l'Égypte bâtit ses pyramides et unifie les Deux Terres, les autres grands foyers civilisationnels du globe connaissent des transformations historiques et culturelles majeures.</p>
-      <p>En Mésopotamie, la civilisation sumérienne atteint son apogée avec les cités-États d'Uruk, Ur et Lagash, voyant l'essor de l'architecture monumentale des ziggurats et la codification de l'écriture cunéiforme sur tablettes d'argile. L'Empire d'Akkad unifie ensuite brièvement la région sous Sargon.</p>
-      <p>Dans la vallée de l'Indus, la civilisation Harappéenne développe des cités urbaines au plan orthogonal rigoureux dotées de systèmes d'égouts sophistiqués, tandis qu'en Chine, les cultures néolithiques tardives amorcent les bases de l'âge du Bronze.</p>
+      <p>Pendant que l'Égypte bâtit ses pyramides, les autres grands foyers civilisationnels du globe connaissent des transformations historiques et culturelles majeures au cours du IIIe millénaire av. J.-C.</p>
+      <p><strong>Mésopotamie : cités-États et ziggurats</strong><br>
+      En Mésopotamie, la période des dynasties archaïques voit s'épanouir les cités-États sumériennes rivales (Ur, Uruk, Lagash), berceau de l'écriture cunéiforme sur tablettes d'argile, de l'épopée de Gilgamesh et de l'architecture monumentale des ziggurats dédiées aux dieux tutélaires.</p>
+      <p><strong>Renaissance sumérienne : l'empire d'Ur III</strong><br>
+      Cette effervescence sumérienne culmine avec la Renaissance d'Ur (Ur III) vers la fin du millénaire, instaurant une administration centralisée et un renouveau littéraire et artistique remarquable.</p>
+      <p><strong>Vallée de l'Indus : l'urbanisme harappien</strong><br>
+      Dans la vallée de l'Indus, l'âge du bronze voit les prémices puis l'épanouissement de la civilisation harappienne, caractérisée par une planification urbaine novatrice, des systèmes d'évacuation d'eau et un commerce fluvial intense avec le Golfe persique.</p>
+      <p><strong>Chine néolithique : la culture de Longshan</strong><br>
+      En Chine, les cultures néolithiques tardives de Longshan se structurent autour de chefferies de plus en plus hiérarchisées, développant une céramique noire ultra-fine et jetant les bases des techniques métallurgiques qui aboutiront aux premières dynasties.</p>
+      <p><strong>Mer Égée : Cyclades et Crète minoenne</strong><br>
+      Enfin, dans la mer Égée, les civilisations cycladique et minoenne amorcent leurs premiers grands réseaux commerciaux maritimes et développent une culture métallurgique et artistique originale qui commence à structurer le bassin égéen.</p>
     `,
     themeAlbums: [
-      { label: "🏺 Céramiques", url: "https://photos.google.com/share/AF1QipMNQ5eY261NXOzCFawVXiW-1pbb7VG4opgoBxJ-TEVNd2BxJp52VopMR2q7kVBtHw?key=SHplem9jdFE2RnhCaXJIR1o4al9UMTI1UHhCc3NB" },
-      { label: "📜 Gravures & Reliefs", url: "https://photos.google.com/share/AF1QipNlo80I8xbcNGWKMI7dnnm5aPtALq8jpsRKJGGdAmNT2TnbEIrd0Y2isWehnlLwbg?key=S0kzelN6N1pyaTlZc21PeWtiOUN0bHZyckVMaGZB" },
-      { label: "🎨 Peintures", url: "https://photos.google.com/share/AF1QipMzaxBxEP6dd76u3_Ldl7cRgR0YQ5fFNegi5HUNy5E8VHUVEF7pPnAqhXLKYkbJ9w?key=V0kwcUlEVXFXQ0FLVFp5dXJEWklVMjhvWHFrUjZB" },
-      { label: "🏛️ Obélisques & Temples", url: "https://photos.google.com/share/AF1QipMD9gTlrGuj9Ng3NopZQQkswrc49JfmHJESKRZWFkm7AQaA5mCjFLZDXTDRQG-cVQ?key=SzhBc0ZNQzJIbFhCYWhkLThmU2FySURxaU11dWpB" },
-      { label: "🗿 Statuaire Royale", url: "https://photos.google.com/share/AF1QipN3eyH-IXfJ5tzHs153uMFgtbiZ-T1UONLzfSVpPLodOXWcNGXYMeojYCDX7skI5w?key=dEpRSmZnTkVLb2FuOHJCbjRqZDhDZ1ZDNDhOVkhn" },
-      { label: "🪦 Parois des Tombes", url: "https://photos.google.com/album/AF1QipMvAReo-M_8VZNBNi0XN9cnCCA3GdgpYxIN2gpd" },
-      { label: "💍 Bijoux & Quotidien", url: "https://photos.google.com/share/AF1QipMPvGsbKG1P6Ly3nEAZsXXysQgJw7e60mYpU3GLEzPTCykMr0iCgV31qU_k8JEt6g?key=dUlsQnlQdTh5elVReGU2T0ZaUEtsc0ljS3NZZjZB" },
-      { label: "⚰️ Funéraire & Momies", url: "https://photos.google.com/share/AF1QipMPZVPxixftA0xlCWDph7xd49UFkPFHE1yI8RvwsVn_IoUoWO5COMeS__ajWSqZeQ?key=N3RLMkZ0aEtYcFhUb3FLLTl6aXJicDBZM0JRSkJR" }
+      { label: "👑 Statuaire royale", url: "https://photos.google.com" },
+      { label: "🗿 Statuaire privée", url: "https://photos.google.com" },
+      { label: "🏛️ Bas-reliefs & Tombes", url: "https://photos.google.com" },
+      { label: "🏺 Arts du quotidien", url: "https://photos.google.com" }
     ],
     artifacts: [
       {
-        id: "coupe_nagada",
-        century: "v. -3500 à -3100 av. J.-C.",
-        title: "Coupe aux animaux (Gazelles & Girafe) de Basse-Nubie",
-        site: "Groupe A (Contemporain de Nagada) - Assouan",
-        category: "Céramique & Vases",
-        themeLink: "https://photos.google.com/share/AF1QipMNQ5eY261NXOzCFawVXiW-1pbb7VG4opgoBxJ-TEVNd2BxJp52VopMR2q7kVBtHw?key=SHplem9jdFE2RnhCaXJIR1o4al9UMTI1UHhCc3NB",
-        chips: ["Prédynastique / Nagada", "Poterie coquille d'œuf", "Musée de la Nubie (Assouan)"],
-        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczMye-6h_mO7c1IxOVHC6F_onIdMdNCW0ClLSIDdtvJ1x0aiRuMzxKt30uiRVitgdtrCaG05N3b2aSvJvw2G4XSjbzyKEepd413xwlolFNTiHCiZejJ9FG6txJ_l7Jw4PNZwFRXMkMh1LIgaN9NEESMw-g=w1649-h700-s-no-gm?authuser=0",
-        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMM_50L25yn1FudTooPXRpLY4HiFSoiX3CCtY4xJfZz3eWR4qFoCq2qidmdFkwACVVhKoCpRCoz-QdixsJOspxEr6f-ls1YuW05n0ksHPibOrJNex59vRg1D_Bja6uK7VUNenNu2YYIQ3Pd6NKksFAo3Q=w1649-h1100-s-no-gm?authuser=0",
-        narrative: `<p>Cette coupe en céramique peinte appartient à la culture du Groupe A, qui s'est épanouie en Basse-Nubie entre 3800 et 3100 avant notre ère. Contemporaine des périodes de Nagada en Égypte, cette production témoigne du haut degré de maîtrise technique et artistique des populations nubiennes, notamment dans l'art de la « poterie coquille d'œuf » (eggshell pottery), caractérisée par des parois d'une extrême finesse.</p>
-        <p>Le décor intérieur, réalisé au trait sombre sur un engobe clair, offre une vision naturaliste et gracieuse de la faune sauvage de la vallée du Nil. On y distingue trois animaux disposés selon une rotation qui épouse la courbure du récipient : deux gazelles ou oryx aux cornes élégamment recourbées et, de manière plus singulière, une girafe reconnaissable à son long cou et à son pelage moucheté. Contrairement aux scènes de chasse plus narratives, cette composition semble célébrer la figure animale en tant que telle, utilisant des lignes épurées pour suggérer le mouvement et la vie.</p>`
+        id: "plat_animaux_assouan",
+        century: "v. -3500 av. J.-C. (Groupe A nubien / Nagada)",
+        title: "Coupe peinte à décor animalier (girafes et gazelles)",
+        site: "Assouan (Basse-Nubie)",
+        category: "Céramique fine",
+        themeLink: "https://photos.google.com",
+        chips: ["Groupe A nubien", "Poterie coquille d'œuf", "Basse-Nubie"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMM_50L25yn1FudTooPXRpLY4HiFSoiX3CCtY4xJfZz3eWR4qFoCq2qidmdFkwACVVhKoCpRCoz-QdixsJOspxEr6f-ls1YuW05n0ksHPibOrJNex59vRg1D_Bja6uK7VUNenNu2YYIQ3Pd6NKksFAo3Q=w2000-h1334-s-no-gm?authuser=0",
+        narrative: `<p>Cette coupe en céramique peinte appartient à la culture du Groupe A, qui s'est épanouie en Basse-Nubie entre 3800 et 3100 avant notre ère. Contemporaine des périodes de Nagada en Égypte, cette production témoigne du haut degré de maîtrise technique et artistique des populations nubiennes, notamment dans l'art de la "poterie coquille d'œuf" (eggshell pottery), caractérisée par des parois d'une extrême finesse.</p>
+        <p>Le décor intérieur, réalisé au trait sombre sur un engobe clair, offre une vision naturaliste et gracieuse de la faune sauvage de la vallée du Nil. On y distingue trois animaux disposés selon une rotation qui épouse la courbure du récipient : deux gazelles ou oryx aux cornes élégamment recourbées et, de manière plus singulière, une girafe reconnaissable à son long cou et à son pelage moucheté. Contrairement aux scènes de chasse plus narratives, cette composition semble célébrer la figure animale en tant que telle, utilisant des lignes épurées pour suggérer le mouvement et la vie.</p>
+        <p>Cette pièce illustre l'importance de l'iconographie animale dans les rites funéraires nubiens, où ces objets étaient déposés dans les tombes pour accompagner les défunts. La présence de la girafe, animal alors présent dans les savanes du Sud, souligne l'étendue de l'horizon géographique et symbolique de cette culture. Par la délicatesse de son trait et la simplicité de sa mise en page, cette coupe constitue un chef-d’œuvre de l'art préhistorique africain, révélant une sensibilité esthétique déjà parfaitement aboutie avant l'émergence des premières dynasties pharaoniques.</p>`
       },
       {
         id: "palette_narmer",
-        century: "v. -3000 av. J.-C. (Ire Dynastie)",
-        title: "La Palette de Narmer (Unification de l'Égypte)",
-        site: "Hiérakonpolis (Nekhen)",
-        category: "Sculpture & Religion",
-        themeLink: "https://photos.google.com/share/AF1QipMKktAFeuQsVU48UZp-wCDw5qGNUszsvzh_QBac1XDBLcttt82Xt143oxv743tnBQ?key=R1Rsa3V2THo5V0J2cUdZaUFLS20teEdvdXlZa1p3",
-        chips: ["Ire Dynastie", "Grauwacke sculptée", "Musée Égyptien du Caire"],
-        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczOQFe-d_JT4988UAwQPPzTbwfyOfMAuwOlFWCjEcn5hHfp7dbOYeXhWPUMcvomgxrDbH0c_NpBYFNdw7nMxe0i48N9cwUAynrrRbH41C0YNONIGhfBpdRIF-NWQpz8q28pbJmBHii9tFSG5yJA_wsAwoA=w1649-h700-s-no-gm?authuser=0",
-        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNicB1AcSFTTRnI7NSSG3b-G_THRXiLJnlpFcfZpVHtZZwrioDwOPkSvhZ2mc9yQWk5s3yiss8N56WJS-_lZThkbX_hUAcaIq5chFEvYydsT5Cr8MPbLHowfMVTvNm1zMiim7PYYdX0GdmDnYhMiV7BBg=w1607-h2412-s-no-gm?authuser=0",
+        century: "v. -3000 av. J.-C. (Ière dynastie)",
+        title: "Palette commémorative du roi Narmer",
+        site: "Hiérakonpolis",
+        category: "Bas-relief votif",
+        themeLink: "https://photos.google.com",
+        chips: ["Ière dynastie", "Grauwacke", "Unification royale"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNicB1AcSFTTRnI7NSSG3b-G_THRXiLJnlpFcfZpVHtZZwrioDwOPkSvhZ2mc9yQWk5s3yiss8N56WJS-_lZThkbX_hUAcaIq5chFEvYydsT5Cr8MPbLHowfMVTvNm1zMiim7PYYdX0GdmDnYhMiV7BBg=w1611-h2416-s-no-gm?authuser=0",
         narrative: `<p>Cette plaque de grauwacke sombre, haute de 64 cm, est connue sous le nom de Palette de Narmer. Découverte à Hiérakonpolis en 1898, elle date de la période de l'unification de l'Égypte (vers 3000 av. J.-C.). Bien que sa forme dérive des palettes à fard utilisées pour broyer les pigments cosmétiques, ses dimensions et sa richesse décorative indiquent qu'il s'agit d'un objet votif offert à un temple pour commémorer une victoire royale et la naissance de l'État égyptien.</p>
-        <p>La face présentée montre le roi Narmer, identifié par les hiéroglyphes placés entre les deux têtes de la déesse-vache Bat (ou Hathor) au sommet. Le souverain, vêtu de la couronne blanche de Haute-Égypte et d'un pagne orné d'une queue de taureau, est représenté dans une posture iconique qui restera la norme pendant 3000 ans : il brandit une massue pour frapper un ennemi agenouillé, symbolisant le triomphe de l'ordre sur le chaos.</p>`
+        <p>La face présentée montre le roi Narmer, identifié par les hiéroglyphes placés entre les deux têtes de la déesse-vache Bat (ou Hathor) au sommet. Le souverain, vêtu de la couronne blanche de Haute-Égypte et d'un pagne orné d'une queue de taureau, est représenté dans une posture iconique qui restera la norme pendant 3000 ans : il brandit une massue pour frapper un ennemi agenouillé, symbolisant le triomphe de l'ordre sur le chaos. Derrière lui, un porte-sandales de plus petite taille souligne son rang divin, tandis qu'au-dessus de la victime, le dieu faucon Horus tient une tête humaine émergeant de racines de papyrus, illustrant la conquête de la Basse-Égypte (le Delta).</p>
+        <p>Au registre inférieur, deux ennemis vaincus s'enfuient ou gisent au sol.</p>`
       },
       {
         id: "scribe_accroupi",
-        century: "v. -2600 à -2350 av. J.-C. (IVe ou Ve Dynastie)",
-        title: "Le Scribe accroupi de Saqqarah",
-        site: "Nécropole de Saqqarah",
-        category: "Statuaire & Dignitaires",
-        themeLink: "https://photos.google.com/share/AF1QipN3eyH-IXfJ5tzHs153uMFgtbiZ-T1UONLzfSVpPLodOXWcNGXYMeojYCDX7skI5w?key=dEpRSmZnTkVLb2FuOHJCbjRqZDhDZ1ZDNDhOVkhn",
-        chips: ["IVe-Ve Dynastie", "Calcaire peint & Yeux incrustés", "Musée du Louvre (Paris)"],
-        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNYTW5sAtoEIJbW13Sd4VuY6g3Nzw-HdepPHPblCHV2ZN6c-JRhaCMhMXPfEu-29P-pf2fR9t6HC5RMfiZEFkNx2RpGZlf4TvFeZxmQjiekeTtV5e-DGkag-bG4cR07YRE5D-FzrDmHCxrSORtTZoTjJA=w1584-h672-s-no-gm?authuser=0",
+        century: "v. -2600 à -2350 av. J.-C. (IVe ou Ve dynastie)",
+        title: "Statue du Scribe accroupi",
+        site: "Saqqarah",
+        category: "Statuaire privée",
+        themeLink: "https://photos.google.com",
+        chips: ["Ancien Empire", "Calcaire peint & Cristal de roche", "Musée du Louvre"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOLXBqZ8wDTWRT74bAjKYENOSQ_ZZ7xvxJvow7jJrXpSLZRUI3N9dMh12MBYkeA-q6XINhTuaYOME2Q1HHqoUJ85beYF_okEtstxmW8CVvNAX6TW7AwZnks45wHO7VUVvoWn1AvIIB-kF36UQFwoX4bJA=w1200-h1600-s-no-gm?authuser=0",
         narrative: `<p>Découverte par Auguste Mariette à Saqqarah en 1850, cette statue en calcaire peint date de la IVe ou de la Ve dynastie (environ 2600-2350 avant notre ère), période faste de l'Ancien Empire. Elle représente un haut fonctionnaire de l'administration royale dans l'exercice de ses fonctions, assis en tailleur, prêt à noter les paroles de son maître ou à enregistrer des biens.</p>
-        <p>Le réalisme de l'œuvre est saisissant et tranche avec l'idéalisme habituel des statues royales. Le corps présente des marques de sédentarité, avec des plis de graisse sur l'abdomen soulignant le statut social élevé du personnage : celui d'un homme qui ne pratique pas de travail physique et mange à sa faim.</p>`
+        <p>Le réalisme de l'œuvre est saisissant et tranche avec l'idéalisme habituel des statues royales. Le corps présente des marques de sédentarité, avec des plis de graisse sur l'abdomen soulignant le statut social élevé du personnage : celui d'un homme qui ne pratique pas de travail physique et mange à sa faim. Ses mains sont positionnées pour tenir un calame et un rouleau de papyrus, aujourd'hui disparus, tandis que ses doigts sont sculptés avec une finesse qui laisse deviner la tension de l'écriture.</p>
+        <p>Le regard est l'élément le plus fascinant de la sculpture. Les yeux sont réalisés par une technique d'incrustation complexe : un bloc de magnésite blanche contient un iris en cristal de roche poli, le tout serti dans des paupières en cuivre. Cette méthode confère au scribe une présence presque vivante et une profondeur de regard qui semble suivre le visiteur. L'usage de la peinture rouge pour la peau et noire pour les cheveux et les sourcils a été remarquablement préservé, conservant à l'œuvre son éclat d'origine.</p>
+        <p>Bien que son nom exact ne nous soit pas parvenu — la base sur laquelle il reposait ayant été perdue —, la qualité exceptionnelle de la taille suggère qu'il s'agissait d'un personnage de premier plan, peut-être un membre de la famille royale ou un vizir. Cette statue n'était pas destinée à être vue du public, mais placée dans une chapelle funéraire pour servir de réceptacle au "ka" (l'énergie vitale) du défunt, lui permettant ainsi de continuer son travail administratif pour l'éternité.</p>`
       },
       {
-        id: "khephren_horus",
-        century: "v. -2520 av. J.-C. (IVe Dynastie)",
-        title: "Khéphren assis sous la protection d'Horus",
-        site: "Temple de la Vallée de Khéphren (Gizeh)",
-        category: "Sculpture Royale",
-        themeLink: "https://photos.google.com/share/AF1QipN3eyH-IXfJ5tzHs153uMFgtbiZ-T1UONLzfSVpPLodOXWcNGXYMeojYCDX7skI5w?key=dEpRSmZnTkVLb2FuOHJCbjRqZDhDZ1ZDNDhOVkhn",
-        chips: ["IVe Dynastie", "Diorite (anorthosite gneiss)", "Musée Égyptien du Caire"],
-        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNYTW5sAtoEIJbW13Sd4VuY6g3Nzw-HdepPHPblCHV2ZN6c-JRhaCMhMXPfEu-29P-pf2fR9t6HC5RMfiZEFkNx2RpGZlf4TvFeZxmQjiekeTtV5e-DGkag-bG4cR07YRE5D-FzrDmHCxrSORtTZoTjJA=w1584-h672-s-no-gm?authuser=0",
-        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPfy6tE5gJfzkd2cczUq7IqhIsMoEjyd3O5rAaPeoHxDfY1MBF83o98oTx7J4vbIuQ85SBFKnvndC-BL-D0E2vvZFgNFexx6m503n4DNmEjaKnpEZGBvu4Cyd7wsjuHEfq1YOXCGENUareMOhGlK05z6Q=w1607-h2412-s-no-gm?authuser=0",
-        narrative: `<p>Taillée dans un bloc de diorite d'une dureté exceptionnelle, cette statue trônante montre Khéphren dont la tête est enveloppée par les ailes déployées du dieu faucon Horus. Les flancs du trône sont ornés du Séma-taouy, symbole de l'union sacrée de la Haute et de la Basse-Égypte par le lotus et le papyrus. L'œuvre incarne la nature divine et la puissance éternelle du constructeur de la deuxième pyramide de Gizeh.</p>`
+        id: "khephren_assis",
+        century: "v. -2520 av. J.-C. (IVe dynastie)",
+        title: "Statue de Khéphren assis sous la protection d'Horus",
+        site: "Gizeh (Temple de la Vallée)",
+        category: "Statuaire royale",
+        themeLink: "https://photos.google.com",
+        chips: ["IVe dynastie", "Diorite (anorthosite gneiss)", "Musée du Caire"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPfy6tE5gJfzkd2cczUq7IqhIsMoEjyd3O5rAaPeoHxDfY1MBF83o98oTx7J4vbIuQ85SBFKnvndC-BL-D0E2vvZFgNFexx6m503n4DNmEjaKnpEZGBvu4Cyd7wsjuHEfq1YOXCGENUareMOhGlK05z6Q=w1611-h2416-s-no-gm?authuser=0",
+        narrative: `<p>Cette statue de Khéphren assis, chef-d'œuvre de la IVe dynastie (vers 2520 av. J.-C.), est l'une des pièces les plus emblématiques du Musée égyptien du Caire. Taillée dans une pièce massive de diorite (ou anorthosite gneiss), une pierre extrêmement dure venue des carrières du sud du pays, elle fut découverte en 1860 par Auguste Mariette dans un puits du temple de la Vallée de sa pyramide à Gizeh. Ce matériau précieux, qui prend un éclat lumineux et strié une fois poli, n'était pas peint afin de laisser transparaître la qualité divine et éternelle de la pierre.</p>
+        <p>L'œuvre présente une composition d'une puissance symbolique rare, où le roi et le divin ne font qu'un. Le dieu faucon Horus est perché à l'arrière du trône, enveloppant la tête du pharaon de ses ailes déployées dans un geste de protection totale. Depuis l'avant, le dieu est presque invisible, suggérant que le monarque est l'incarnation terrestre de la divinité. Khéphren porte le némès orné de l'uræus, la barbe postiche et le pagne court chendjyt, affichant un visage aux traits idéalisés et une expression d'une sérénité immuable qui transcende le temps.</p>
+        <p>Le trône lui-même est un manifeste politique de l'unité égyptienne. Ses pieds prennent la forme de pattes de lion, tandis que ses flancs sont gravés du motif du Séma-taouy. Ce symbole représente l'union de la Haute et de la Basse-Égypte par l'entrelacement du lotus et du papyrus autour du signe hiéroglyphique de la trachée, signifiant l'unification des « Deux Terres » sous l'autorité unique du souverain. Par sa compacité et sa rigidité frontale, cette sculpture assure la survie éternelle du ka (l'essence vitale) du roi au sein de son complexe funéraire.</p>`
       },
       {
-        id: "kaaper_bois",
-        century: "v. -2465 av. J.-C. (Ve Dynastie)",
+        id: "kaaper_cheikh_el_beled",
+        century: "v. -2465 av. J.-C. (Ve dynastie)",
         title: "Statue en bois de Kaaper (Cheikh el-Beled)",
-        site: "Mastaba de Kaaper (Saqqarah)",
-        category: "Statuaire en bois",
-        themeLink: "https://photos.google.com/share/AF1QipN3eyH-IXfJ5tzHs153uMFgtbiZ-T1UONLzfSVpPLodOXWcNGXYMeojYCDX7skI5w?key=dEpRSmZnTkVLb2FuOHJCbjRqZDhDZ1ZDNDhOVkhn",
-        chips: ["Ve Dynastie", "Bois de sycomore & Yeux incrustés", "Musée Égyptien du Caire"],
-        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNYTW5sAtoEIJbW13Sd4VuY6g3Nzw-HdepPHPblCHV2ZN6c-JRhaCMhMXPfEu-29P-pf2fR9t6HC5RMfiZEFkNx2RpGZlf4TvFeZxmQjiekeTtV5e-DGkag-bG4cR07YRE5D-FzrDmHCxrSORtTZoTjJA=w1584-h672-s-no-gm?authuser=0",
-        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczORFqzVMHsM75AE3fdEJ87u-BAq8j8KdBPilurDsJ3PGp5IaN2XpSvPxskv5oA5oRGvKN5ImVslpNURkv63AqXQ4TVJcX-n19xBI4ktIPvsK9XEXwC7aGIURhM4rbv7XIAPbizJn3oAbdhfrcL_Uf67dQ=w1607-h2412-s-no-gm?authuser=0",
-        narrative: `<p>Sculptée dans du bois de sycomore, cette effigie du prêtre-lecteur Kaaper est célèbre pour son réalisme et ses yeux incrustés de quartz et cristal de roche cerclés de cuivre. Surnommée « Cheikh el-Beled » (le maire du village) par les ouvriers de Mariette en raison de sa ressemblance troublante avec leur édile, cette statue de serdab fixait pour l'éternité les traits prospères d'un haut dignitaire de l'Ancien Empire.</p>`
-      },
-      {
-        id: "couple_dignitaires",
-        century: "v. -2450 av. J.-C. (Ve Dynastie)",
-        title: "Groupe statuaire d'un couple de hauts dignitaires",
-        site: "Nécropole memphite (Saqqarah)",
+        site: "Saqqarah",
         category: "Statuaire privée",
-        themeLink: "https://photos.google.com/share/AF1QipN3eyH-IXfJ5tzHs153uMFgtbiZ-T1UONLzfSVpPLodOXWcNGXYMeojYCDX7skI5w?key=dEpRSmZnTkVLb2FuOHJCbjRqZDhDZ1ZDNDhOVkhn",
-        chips: ["Ve Dynastie", "Calcaire peint polychrome", "Serdab de mastaba"],
-        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNYTW5sAtoEIJbW13Sd4VuY6g3Nzw-HdepPHPblCHV2ZN6c-JRhaCMhMXPfEu-29P-pf2fR9t6HC5RMfiZEFkNx2RpGZlf4TvFeZxmQjiekeTtV5e-DGkag-bG4cR07YRE5D-FzrDmHCxrSORtTZoTjJA=w1584-h672-s-no-gm?authuser=0",
-        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOLCdzNwAXr084c0pxnmKjAE4TtFjKxrDIjneJ0zCLD2aichfmzlQTJDe79jonsyYp9Om9B2j4ckbEGQ_OtzUNRWP0b6ZkE_-hsYl-hNVG5MdB0mcM7SsTghkQPkL39shleQzjSfIavMi9gy26KpGl41A=w1649-h2191-s-no-gm?authuser=0",
-        narrative: `<p>Ce groupe en calcaire peint illustre l'idéal conjugal de l'aristocratie memphite : l'homme avance dans l'attitude de la marche tandis que son épouse l'enlace tendrement par l'épaule. La polychromie respecte les codes esthétiques égyptiens, contrastant la peau ocre-rouge de l'époux avec le teint clair de la femme en robe fourreau blanche, garantissant la réunion du couple dans l'éternité du tombeau.</p>`
+        themeLink: "https://photos.google.com",
+        chips: ["Ve dynastie", "Bois de sycomore & Cristal", "Musée du Caire"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczORFqzVMHsM75AE3fdEJ87u-BAq8j8KdBPilurDsJ3PGp5IaN2XpSvPxskv5oA5oRGvKN5ImVslpNURkv63AqXQ4TVJcX-n19xBI4ktIPvsK9XEXwC7aGIURhM4rbv7XIAPbizJn3oAbdhfrcL_Uf67dQ=w1611-h2416-s-no-gm?authuser=0",
+        narrative: `<p>Cette statue de Kaaper, découverte dans son mastaba à Saqqarah et datée d'environ 2465 av. J.-C., constitue l'un des sommets de l'art de l'Ancien Empire égyptien. Sculptée dans du bois de sycomore, elle frappe par son réalisme saisissant, loin des canons idéalisés de la statuaire royale. Kaaper, qui occupait les fonctions de prêtre-lecteur et de gouverneur militaire, y est représenté avec une silhouette opulente, signe de sa réussite sociale et de son autorité.</p>
+        <p>Le rendu des chairs et la posture de marche, le bras gauche tenant autrefois un bâton de fonction, témoignent d'une maîtrise exceptionnelle de la sculpture sur bois. La fascination qu'exerce cette œuvre provient essentiellement de son regard, rendu "vivant" par une technique d'incrustation complexe : les yeux sont composés de quartz blanc et de cristal de roche, sertis dans des paupières de cuivre. Lors de sa découverte par les ouvriers de l'archéologue Auguste Mariette, sa ressemblance avec le maire de leur propre village fut telle qu'ils la surnommèrent "Cheikh el-Beled" (le maire du village), nom sous lequel elle est encore mondialement connue aujourd'hui.</p>
+        <p>Placée à l'origine dans le serdab de la tombe, cette effigie n'était pas destinée aux regards des vivants mais servait de support éternel au Ka, l'énergie vitale du défunt. Elle incarne la croyance égyptienne en la survie de l'identité individuelle par-delà la mort, fixant pour l'éternité les traits d'un haut dignitaire au faîte de sa puissance administrative.</p>`
       },
       {
-        id: "mastaba_mererouka",
-        century: "v. -2300 av. J.-C. (VIe Dynastie)",
-        title: "Fausse porte et scènes pastorales du vizir Mererouka",
-        site: "Saqqarah Nord (Règne de Téti)",
-        category: "Bas-reliefs & Tombes",
-        themeLink: "https://photos.google.com/album/AF1QipMvAReo-M_8VZNBNi0XN9cnCCA3GdgpYxIN2gpd",
-        chips: ["VIe Dynastie", "Calcaire gravé et peint", "Mastaba de Mererouka"],
-        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEmmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2911-h1235-s-no-gm?authuser=0",
-        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMIsusTWlnfYdbwaQLQiaMOjpnaS03z7JxD9vLdM5eb6brCCq3DOd89FL7fRDIlHoCsx6ZvuvGfDV6YEapLcwjmpf_vOMuDqZtO1ER23u6VspZjyKXl8OmFAkzYYTS5AMaqJKyGShXwtXKhOeY0cOalLQ=w1649-h1100-s-no-gm?authuser=0",
-        narrative: `<p>Élément spirituel central de l'un des plus vastes mastabas de Saqqarah, la fausse porte permettait au Ka du vizir Mererouka de franchir le mur pour recevoir les offrandes des vivants. Les parois de la chapelle sont couvertes de bas-reliefs polychromes d'une virtuosité exceptionnelle, dépeignant le gavage et les soins apportés aux bovins et hyènes domestiquées, assurant la subsistance magique éternelle du dignitaire.</p>`
+        id: "couple_dignitaires_ve",
+        century: "Ve dynastie (XXVe s. av. J.-C.)",
+        title: "Groupe statuaire d'un couple de dignitaires",
+        site: "Gizeh / Saqqarah",
+        category: "Statuaire privée",
+        themeLink: "https://photos.google.com",
+        chips: ["Ve dynastie", "Calcaire peint", "Serdab funéraire"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOLCdzNwAXr084c0pxnmKjAE4TtFjKxrDIjneJ0zCLD2aichfmzlQTJDe79jonsyYp9Om9B2j4ckbEGQ_OtzUNRWP0b6ZkE_-hsYl-hNVG5MdB0mcM7SsTghkQPkL39shleQzjSfIavMi9gy26KpGl41A=w1818-h2416-s-no-gm?authuser=0",
+        narrative: `<p>Ce groupe statuaire en calcaire peint, datant de la Ve dynastie, représente un couple de hauts dignitaires dans une attitude d'affection et de protection mutuelle. L'homme est figuré debout, le pied gauche en avant dans la posture traditionnelle de la marche, tandis que son épouse se tient à sa gauche, l'enlaçant tendrement par l'épaule et le bras. Cette composition souligne l'importance de l'unité familiale et du couple dans la société de l'Ancien Empire, garantissant au défunt la présence de ses proches dans l'au-delà.</p>
+        <p>La polychromie, exceptionnellement bien conservée par endroits, respecte les codes esthétiques de l'époque : une peau ocre rouge pour l'homme, symbolisant ses activités à l'extérieur, et une peau jaune pâle ou blanche pour la femme, reflétant une vie plus protégée. L'homme porte un pagne court plissé et une perruque imposante à boucles étagées qui dégage le visage. La femme est vêtue d'une robe fourreau blanche moulante, mettant en valeur sa silhouette, et porte une perruque longue et lisse qui retombe sur sa poitrine.</p>
+        <p>Les traits des visages sont traités avec un certain idéalisme, bien que le modelé des corps témoigne d'une observation attentive de l'anatomie. Les yeux, autrefois rehaussés de peinture noire, conservent une fixité qui exprime la sérénité éternelle. La base de la statue comporte des inscriptions hiéroglyphiques incisées, identifiant les titres et les noms des défunts, indispensables pour que le Ka puisse reconnaître son support matériel. Cette œuvre, destinée au serdab d'un mastaba, constitue un exemple majeur de la statuaire privée de la Ve dynastie, alliant rigueur formelle et sensibilité humaine.</p>`
+      },
+      {
+        id: "fausse_porte_mererouka",
+        century: "v. -2300 av. J.-C. (VIe dynastie)",
+        title: "Fausse porte monumentale de Mererouka",
+        site: "Saqqarah Nord (Mastaba de Mererouka)",
+        category: "Bas-relief & Architecture funéraire",
+        themeLink: "https://photos.google.com",
+        chips: ["VIe dynastie", "Calcaire sculpté", "Règne de Téti"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMIsusTWlnfYdbwaQLQiaMOjpnaS03z7JxD9vLdM5eb6brCCq3DOd89FL7fRDIlHoCsx6ZvuvGfDV6YEapLcwjmpf_vOMuDqZtO1ER23u6VspZjyKXl8OmFAkzYYTS5AMaqJKyGShXwtXKhOeY0cOalLQ=w2000-h1334-s-no-gm?authuser=0",
+        narrative: `<p>Cette œuvre est une fausse porte monumentale issue du mastaba de Mererouka, situé à Saqqarah Nord, en Égypte. Datant de la VIe dynastie, sous le règne du pharaon Téti (vers 2300 avant J.-C.), elle constitue l'élément spirituel central du complexe funéraire de ce haut dignitaire. Mererouka cumulait des fonctions prestigieuses, étant à la fois vizir, gendre du roi et gardien de la pyramide, ce qui explique l'ampleur et la richesse exceptionnelle de sa sépulture, l'une des plus vastes de l'Ancien Empire.</p>
+        <p>La fausse porte est conçue comme une interface symbolique entre le monde des vivants et celui des morts. Selon les croyances égyptiennes, le ka (l'énergie vitale) du défunt pouvait franchir cette paroi de calcaire pour venir consommer les offrandes déposées par les prêtres ou la famille dans la chapelle de culte. L'architecture de la stèle imite la façade d'un palais ou d'une habitation, avec ses montants verticaux et son linteau, créant l'illusion d'un passage réel vers l'au-delà.</p>
+        <p>Les surfaces sont entièrement recouvertes de bas-reliefs d'une grande finesse, conservant par endroits des traces de pigments ocre et rouge. Les colonnes de hiéroglyphes détaillent les nombreux titres de Mererouka et les formules d'offrandes rituelles destinées à assurer sa subsistance éternelle. Au pied de la stèle, des représentations du défunt en marche, sculptées en léger relief, semblent émerger de la pierre pour accueillir les visiteurs et participer au banquet funéraire.</p>
+        <p>L'esthétique de cette pièce témoigne de l'apogée de l'art memphite de la VIe dynastie. La précision des gravures et la maîtrise des proportions reflètent le rang social élevé du propriétaire. Au-delà de sa fonction religieuse, cette fausse porte est un document historique majeur qui illustre la puissance de l'administration provinciale et la sophistication des rites funéraires égyptiens visant à défier le temps et l'oubli.</p>`
       }
     ]
   },
   {
     id: "egypte_moyen",
     name: "Égypte : Moyen Empire & Périodes Intermédiaires",
-    epoch: "v. -2160 à -1550 av. J.-C.",
-    yearStart: -2160,
+    epoch: "v. -2050 à -1550 av. J.-C.",
+    yearStart: -2200,
     yearEnd: -1550,
     lane: "egypte",
     themeColor: "#20c997",
     sidePos: "pos-left",
     travelingOrigin: "54.9% 49.6%",
     haloId: "halo-egypte_moyen",
-    bannerImg: "https://lh3.googleusercontent.com/d/1Q2cKc6JRPGuKwLc4bvIw1S-qEDg5U6Tq",
-    mapOverlayUrl: "https://lh3.googleusercontent.com/d/156Ms6-I_hZFV20g8jtGYjhw_Pd7yUTf0",
-    albumUrl: "https://photos.google.com/share/AF1QipN3eyH-IXfJ5tzHs153uMFgtbiZ-T1UONLzfSVpPLodOXWcNGXYMeojYCDX7skI5w?key=dEpRSmZnTkVLb2FuOHJCbjRqZDhDZ1ZDNDhOVkhn",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    mapOverlayUrl: "https://lh3.googleusercontent.com/d/1Z_u8l5xO0r0y2L_x8v9b6Nm0PqQvB4U7",
+    albumUrl: "https://photos.google.com",
     presentationHtml: `
-      <p><strong>L'âge classique et l'humanisation du souverain</strong><br>
-      Le Moyen Empire (v. 2033-1710 av. J.-C., XIe-XIIIe dynasties) marque un âge classique et introspectif dans l'art égyptien, né de la réunification du pays par Mentouhotep II après les troubles de la Première Période intermédiaire. Rompant avec l'assurance triomphale et immuable de l'Ancien Empire, la statuaire royale innove par une humanisation sans précédent des souverains, visible sous les règnes de Sésostris III et d'Amenemhat III. Les visages pharaoniques se creusent de traits soucieux, d'orbites profondes et de paupières lourdes, incarnant la responsabilité écrasante du souverain pasteur et protecteur de son peuple.</p>
-
-      <p><strong>Démocratisation funéraire et modèles réduits de tombes</strong><br>
-      Parallèlement, la statuaire privée se démocratise : les dignitaires locaux et particuliers commandent désormais de remarquables effigies en bois stuqué ou en pierre, et l'on voit émerger la forme compacte de la « statue-cube ». Dans les arts funéraires, le mobilier témoigne d'une extrême minutie à travers les sarcophages rectangulaires peints, décorés à l'intérieur des Textes des sarcophages et de minutieuses frises d'objets du quotidien. Les modèles réduits en bois polychrome — scènes de brasserie, de tissage, de greniers ou de défilés de serviteurs — remplacent temporairement les grands bas-reliefs pour garantir la survie matérielle du défunt.</p>
-
-      <p><strong>L'essor de Thèbes et l'orfèvrerie de cour</strong><br>
-      L'architecture religieuse et funéraire se réinvente, alliant terrasses à portiques (Deir el-Bahari) et chapelles en calcaire fin gravées de reliefs d'une élégance graphique inégalée, comme la Chapelle blanche de Sésostris Ier à Karnak. L'orfèvrerie de cour atteint son apogée à Dahchour et El-Lahoun, où pectoraux ajourés, couronnes et parures royales déclinent l'or, le lapis-lazuli, la cornaline et la turquoise avec une maîtrise technique absolue du cloisonné. L'art du Moyen Empire s'affirme ainsi comme une période de grande maturité plastique, où la rigueur géométrique s'associe à une profondeur psychologique et spirituelle inédite.</p>
+      <p><strong>L'âge classique des lettres et l'humanisation du divin</strong><br>
+      Après les tumultes de la Première Période Intermédiaire, Montouhotep II refonde l'unité égyptienne depuis Thèbes. Le Moyen Empire inaugure une ère de maturité artistique sans précédent, caractérisée par une profondeur psychologique inédite dans les portraits royaux et l'essor d'un art funéraire provincial raffiné.</p>
     `,
     concurrentHtml: `
       <p><strong>Le contexte mondial au IIe millénaire av. J.-C.</strong></p>
-      <p>En Mésopotamie, l'Empire babylonien émerge sous le règne de Hammurabi, unifiant le pays et élevant le célèbre monument juridique de la stèle des lois. En Anatolie, l'Empire hittite se structure avec une architecture monumentale en blocs cyclopéens.</p>
-      <p>Dans la mer Égée, la civilisation minoenne en Crète érige ses premiers grands palais labyrinthiques (Knossos, Phaistos) couverts de fresques naturalistes et développe l'écriture hiéroglyphique puis le linéaire A.</p>
+      <p>Pendant que l'Égypte du Moyen Empire s'épanouit dans cet art classique et introspectif, les autres grands foyers civilisationnels du globe traversent des mutations historiques et culturelles majeures au cours du IIe millénaire av. J.-C.</p>
+      <p><strong>Mésopotamie : Hammurabi et Babylone</strong><br>
+      En Mésopotamie, après la chute de la troisième dynastie d'Ur, la région se fragilise avant de voir l'émergence de l'Empire babylonien sous le règne de Hammurabi, célèbre pour son code de lois unifié gravé dans la pierre et l'essor de la diplomatie internationale.</p>
+      <p><strong>Vallée de l'Indus : transition urbaine</strong><br>
+      Dans la vallée de l'Indus, la civilisation harappienne commence sa lente transition et son déclin progressif, marqué par l'abandon des grandes métropoles urbaines et la mutation des réseaux d'échanges à longue distance vers l'Asie centrale.</p>
+      <p><strong>Chine : les bronzes rituels Shang</strong><br>
+      En Chine, la transition s'opère entre la fin de la culture de Longshan et l'affirmation des premières structures étatiques de la dynastie Shang, qui développent la coulée du bronze rituel et les premiers systèmes d'écriture divinatoire.</p>
+      <p><strong>Monde Égéen : l'âge d'or des palais crétois</strong><br>
+      Enfin, en mer Égée, la civilisation minoenne atteint son apogée palatial en Crète (premier et second âges des palais), développant le système d'écriture linéaire A, une thalassocratie maritime dominante et une production artistique foisonnante centrée sur les cultes de la nature.</p>
     `,
     themeAlbums: [
-      { label: "🏺 Céramiques", url: "https://photos.google.com/share/AF1QipMNQ5eY261NXOzCFawVXiW-1pbb7VG4opgoBxJ-TEVNd2BxJp52VopMR2q7kVBtHw?key=SHplem9jdFE2RnhCaXJIR1o4al9UMTI1UHhCc3NB" },
-      { label: "📜 Gravures & Reliefs", url: "https://photos.google.com/share/AF1QipNlo80I8xbcNGWKMI7dnnm5aPtALq8jpsRKJGGdAmNT2TnbEIrd0Y2isWehnlLwbg?key=S0kzelN6N1pyaTlZc21PeWtiOUN0bHZyckVMaGZB" },
-      { label: "🎨 Peintures", url: "https://photos.google.com/share/AF1QipMzaxBxEP6dd76u3_Ldl7cRgR0YQ5fFNegi5HUNy5E8VHUVEF7pPnAqhXLKYkbJ9w?key=V0kwcUlEVXFXQ0FLVFp5dXJEWklVMjhvWHFrUjZB" },
-      { label: "🏛️ Obélisques & Temples", url: "https://photos.google.com/share/AF1QipMD9gTlrGuj9Ng3NopZQQkswrc49JfmHJESKRZWFkm7AQaA5mCjFLZDXTDRQG-cVQ?key=SzhBc0ZNQzJIbFhCYWhkLThmU2FySURxaU11dWpB" },
-      { label: "🗿 Statuaire Royale", url: "https://photos.google.com/share/AF1QipN3eyH-IXfJ5tzHs153uMFgtbiZ-T1UONLzfSVpPLodOXWcNGXYMeojYCDX7skI5w?key=dEpRSmZnTkVLb2FuOHJCbjRqZDhDZ1ZDNDhOVkhn" },
-      { label: "🪦 Parois des Tombes", url: "https://photos.google.com/album/AF1QipMvAReo-M_8VZNBNi0XN9cnCCA3GdgpYxIN2gpd" },
-      { label: "💍 Bijoux & Quotidien", url: "https://photos.google.com/share/AF1QipMPvGsbKG1P6Ly3nEAZsXXysQgJw7e60mYpU3GLEzPTCykMr0iCgV31qU_k8JEt6g?key=dUlsQnlQdTh5elVReGU2T0ZaUEtsc0ljS3NZZjZB" },
-      { label: "⚰️ Funéraire & Momies", url: "https://photos.google.com/share/AF1QipMPZVPxixftA0xlCWDph7xd49UFkPFHE1yI8RvwsVn_IoUoWO5COMeS__ajWSqZeQ?key=N3RLMkZ0aEtYcFhUb3FLLTl6aXJicDBZM0JRSkJR" }
+      { label: "👑 Statuaire royale", url: "https://photos.google.com" },
+      { label: "🗿 Statuaire privée", url: "https://photos.google.com" },
+      { label: "⚱️ Mobilier funéraire", url: "https://photos.google.com" },
+      { label: "🏛️ Chambres & Tombes", url: "https://photos.google.com" }
     ],
     artifacts: [
       {
-        id: "deshri_saqqarah",
-        century: "v. -2100 av. J.-C. (Première Période Intermédiaire)",
-        title: "Reliefs peints de la chambre funéraire de Deshri",
-        site: "Saqqarah Nord (Musée Égyptien du Caire)",
-        category: "Peinture & Parois",
-        themeLink: "https://photos.google.com/share/AF1QipMzaxBxEP6dd76u3_Ldl7cRgR0YQ5fFNegi5HUNy5E8VHUVEF7pPnAqhXLKYkbJ9w?key=V0kwcUlEVXFXQ0FLVFp5dXJEWklVMjhvWHFrUjZB",
-        chips: ["Transition Xe - XIe dynastie", "Calcaire peint polychrome", "Saqqarah"],
-        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO-oIaGstfUOdgYBAOgtj8VCCM6hCeXJEWmjLkcI-CcQp9aZq2bZ96H8tHBGkmBsQk3Q6LzpD5mhZbN5zFCr2aqncoFfdWAD3UDDiHmjAAV5DrXBVFBAdSNgvfCinLQ2uR8Mb4MIpgCmPcj94dUfjVw1A=w1584-h672-s-no-gm?authuser=0",
-        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOYtgr7DCVP6fjrKrJM1VDH0-_mGoYXEpXgK-ekIonRT3s0EN_fZJmZoaaiquwPBExBIVCKudY66Ay0UAJQwzQEmoiBenpMd2jIObKKdDHgZlWDr_syjf_WZv3x_B0MVpOLjeO1dClbaIbknW0_-_Bohw=w1733-h1156-s-no-gm?authuser=0",
-        narrative: `<p>Cette chambre funéraire appartenait à Deshri, un haut dignitaire portant le titre de « Chef de l'État », et fut mise au jour dans la nécropole de Saqqarah. Datée d'environ -2100 (Première Période Intermédiaire), cette structure témoigne d'une époque de transition où, malgré l'instabilité politique, les traditions artistiques et religieuses de l'Ancien Empire perdurent tout en s'adaptant à des contextes plus provinciaux. L'ensemble est aujourd'hui conservé et reconstitué au Musée égyptien du Caire.</p>`
+        id: "chambre_funeraire_deshri",
+        century: "v. -2100 av. J.-C. (XXIe s. av. J.-C.)",
+        title: "Chambre funéraire peinte de Deshri",
+        site: "Saqqarah (conservée au Musée du Caire)",
+        category: "Architecture funéraire & Peinture",
+        themeLink: "https://photos.google.com",
+        chips: ["Première Période Intermédiaire", "Fresque sur enduit", "Musée du Caire"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczDeshri...",
+        narrative: `<p>Cette chambre funéraire appartenait à Deshri, un haut dignitaire portant le titre de « Chef de l'État », et fut mise au jour dans la nécropole de Saqqarah. Datée d'environ -2100 (Première Période Intermédiaire), cette structure témoigne d'une époque de transition où, malgré l'instabilité politique, les traditions artistiques et religieuses de l'Ancien Empire perdurent tout en s'adaptant à des contextes plus provinciaux. L'ensemble est aujourd'hui conservé et reconstitué au Musée égyptien du Caire.</p>
+        <p>Les parois de la chambre sont ornées de reliefs peints d'une grande précision, agissant comme un substitut éternel aux rituels quotidiens. Le décor se concentre sur l'accumulation de provisions nécessaires à la survie du défunt dans l'au-delà : on y distingue de nombreuses jarres de vin et de bière, des pains, des pièces de viande et des paniers de fruits. Ces listes d'offrandes, accompagnées de formules hiéroglyphiques, garantissaient magiquement que Deshri ne manquerait de rien, même si les offrandes physiques réelles venaient à cesser.</p>
+        <p>L'organisation des registres suit les codes classiques de la représentation égyptienne, avec une juxtaposition d'objets soigneusement détaillés. On peut observer, outre la nourriture, des éléments du mobilier funéraire et des parures, comme des colliers et des étoffes. La polychromie, bien que plus sobre que dans certaines tombes royales, utilise des pigments naturels (ocre rouge, jaune et noir) pour différencier les matières et donner de la lisibilité à l'inventaire sacré.</p>
+        <p>Contrairement aux vastes chapelles des mastabas de l'Ancien Empire, cette chambre est plus exiguë, ce qui est caractéristique des sépultures de cette période. Elle illustre parfaitement le concept de la « tombe-coffre », où le décor se rapproche physiquement du corps du défunt pour créer un environnement protecteur et nourricier immédiat. Cette pièce constitue l'un des "joyaux cachés" du musée, offrant une vision intime de la vie quotidienne et des aspirations spirituelles des nobles égyptiens il y a 4000 ans.</p>`
       },
       {
-        id: "montouhotep_ii",
-        century: "v. -2030 av. J.-C. (XIe dynastie)",
-        title: "Statue osirienne du roi Montouhotep II (Nebhepetrê)",
-        site: "Temple funéraire de Deir el-Bahari (Thèbes)",
-        category: "Statuaire Royale",
-        themeLink: "https://photos.google.com/share/AF1QipN3eyH-IXfJ5tzHs153uMFgtbiZ-T1UONLzfSVpPLodOXWcNGXYMeojYCDX7skI5w?key=dEpRSmZnTkVLb2FuOHJCbjRqZDhDZ1ZDNDhOVkhn",
-        chips: ["XIe dynastie", "Grès peint noir & Fête-Sed", "Musée Égyptien du Caire"],
-        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNYTW5sAtoEIJbW13Sd4VuY6g3Nzw-HdepPHPblCHV2ZN6c-JRhaCMhMXPfEu-29P-pf2fR9t6HC5RMfiZEFkNx2RpGZlf4TvFeZxmQjiekeTtV5e-DGkag-bG4cR07YRE5D-FzrDmHCxrSORtTZoTjJA=w1584-h672-s-no-gm?authuser=0",
-        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMS2mP1FL2PhpmAIB95iFAIHpV_ffOkImMgwLThuu-n_YVh3YfhIATiLEYzzjSOFkmFUGDXt9iuNzoExG-pM9LDL-mkw2KuwmlY-hoo-37CvuY6Yn1RK3l2yoZ5zgUtz5Ul4lgwvCBON718dn9zPny83A=w1607-h2412-s-no-gm?authuser=0",
-        narrative: `<p>Cette statue monumentale en grès peint représente le roi Montouhotep II (Nebhepetrê), le souverain qui a réunifié l'Égypte après la Première Période Intermédiaire, fondant ainsi le Moyen Empire (vers 2030 av. J.-C.). Elle a été découverte par hasard en 1900 par Howard Carter dans une chambre funéraire cachée (le Bab el-Housan) située sous la cour de son temple funéraire à Deir el-Bahari.</p>`
+        id: "statue_montouhotep_ii",
+        century: "v. -2030 av. J.-C. (XXIe s. av. J.-C.)",
+        title: "Statue osirienne du roi Montouhotep II",
+        site: "Deir el-Bahari (Bab el-Housan)",
+        category: "Statuaire royale",
+        themeLink: "https://photos.google.com",
+        chips: ["XIe dynastie", "Grès peint & Fête-Sed", "Musée du Caire"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMontouhotep...",
+        narrative: `<p>Cette statue monumentale en grès peint représente le roi Montouhotep II (Nebhepetrê), le souverain qui a réunifié l'Égypte après la Première Période Intermédiaire, fondant ainsi le Moyen Empire (vers 2030 av. J.-C.). Elle a été découverte par hasard en 1900 par Howard Carter dans une chambre funéraire cachée (le Bab el-Housan) située sous la cour de son temple funéraire à Deir el-Bahari. La statue a été trouvée enveloppée dans du lin fin, telle une momie, ce qui souligne sa fonction rituelle de substitut pour le ka (l'essence vitale) du roi.</p>
+        <p>L'aspect de l'œuvre est frappant par son archaïsme volontaire et sa puissance symbolique. Le roi est représenté assis sur un trône cubique sans dossier, portant le manteau blanc étroit de la fête-Sed, symbole de régénération du pouvoir royal. Ses chairs sont peintes d'un noir profond, une couleur qui, pour les Égyptiens, n'évoquait pas la mort mais la terre fertile du Nil et, par extension, la résurrection, l'identifiant ainsi directement au dieu Osiris. Ce contraste chromatique est accentué par le rouge vif de la couronne Decheret (couronne de la Basse-Égypte) et le blanc immaculé de son vêtement.</p>
+        <p>Le style sculptural se caractérise par des formes massives et vigoureuses : les jambes et les pieds sont particulièrement lourds, symbolisant la stabilité retrouvée du royaume sous son règne. Le visage, encadré par une barbe postiche recourbée, dégage une force tranquille et une autorité absolue. Cette statue n'est pas seulement un portrait royal ; elle est l'incarnation de la renaissance de l'État égyptien après des décennies de chaos. Elle témoigne de la volonté de Montouhotep II de se présenter comme le nouveau fondateur, celui qui redonne vie aux traditions de l'Ancien Empire tout en instaurant une esthétique thébaine nouvelle et puissante.</p>`
       },
       {
-        id: "masque_senu",
-        century: "v. -1900 av. J.-C. (XIIe dynastie)",
-        title: "Masque funéraire polychrome du prêtre Senu",
-        site: "Nécropole de Saqqarah (Musée Imhotep)",
+        id: "masque_pretre_senu",
+        century: "v. -1900 av. J.-C. (XIXe s. av. J.-C.)",
+        title: "Masque funéraire en cartonnage du prêtre Senu",
+        site: "Saqqarah (Musée Imhotep)",
         category: "Mobilier funéraire",
-        themeLink: "https://photos.google.com/share/AF1QipMPZVPxixftA0xlCWDph7xd49UFkPFHE1yI8RvwsVn_IoUoWO5COMeS__ajWSqZeQ?key=N3RLMkZ0aEtYcFhUb3FLLTl6aXJicDBZM0JRSkJR",
-        chips: ["XIIe dynastie", "Cartonnage stuqué et peint", "Musée Imhotep (Saqqarah)"],
-        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO8qJ9X0EbRPQwscIwqRQ7qhHKFuIShIpHCnkgDOrlDhzkMaCikMa0w9FILsuc5tAZ-IWaE9qllZEWwIzzDZbeSjQjh5IibmJDU6ycWvWpMiAnZ6BLpdVvNv-BAnPU-5_tcFcndUrfxL9yLT0soFPSQrQ=w1649-h700-s-no-gm?authuser=0",
-        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMmjP7RbmOU3HzMXCdXuHm1WN5hpTwkX0NI6VvzjEuy0CBTz4ry75JeEr3wdcIr-XNu6t5Pg2t0V8EslZMe9UzPoFhwG9YfjLvb3J2Zo1U4vknI5K41RiwfBmsW5cS4a7KutPhtQfhNpo221D2TTDYa8w=w1607-h2412-s-no-gm?authuser=0",
-        narrative: `<p>Ce masque funéraire saisissant appartient au prêtre Senu (également orthographié Sny) et constitue l'une des pièces maîtresses du musée Imhotep à Saqqarah. Datant du Moyen Empire, vers 1900 av. J.-C. (XIIe dynastie), il témoigne du raffinement des techniques de momification et d'ornementation funéraire de cette période charnière.</p>`
+        themeLink: "https://photos.google.com",
+        chips: ["XIIe dynastie", "Cartonnage stuqué & peint", "Musée Imhotep"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczSenu...",
+        narrative: `<p>Ce masque funéraire saisissant appartient au prêtre Senu (également orthographié Sny) et constitue l'une des pièces maîtresses du musée Imhotep à Saqqarah. Datant du Moyen Empire, vers 1900 av. J.-C. (XIIe dynastie), il témoigne du raffinement des techniques de momification et d'ornementation funéraire de cette période charnière.</p>
+        <p>L'œuvre est réalisée en cartonnage, une technique consistant à superposer des couches de lin ou de papyrus encollées, recouvertes d'une fine couche de plâtre (stuc) pour être ensuite peintes. Ce matériau permettait de modeler avec précision les traits du défunt tout en offrant un support idéal pour une polychromie éclatante qui a conservé ici une intensité remarquable, notamment dans les nuances de bleu et d'ocre.</p>
+        <p>Le prêtre est représenté avec une perruque bleue imposante, dont la couleur symbolise la chevelure divine en lapis-lazuli et évoque la renaissance éternelle. Son visage aux traits idéalisés arbore une expression de sérénité absolue, avec des yeux soulignés de fard noir pour intensifier le regard, censé permettre au défunt de voir dans l'au-delà. Il porte la barbe postiche, attribut de divinisation montrant que Senu a rejoint le rang des « morts justifiés » assimilés à Osiris.</p>
+        <p>Sur la poitrine, un large collier ousekh richement décoré de motifs géométriques et floraux est peint avec une grande minutie. Ce masque ne servait pas seulement de protection physique pour la tête de la momie, mais servait de substitut magique au visage du défunt, garantissant que son âme (le Ba) puisse reconnaître son corps et s'y réincarner chaque jour.</p>`
       },
       {
-        id: "porteuse_assiout",
-        century: "v. -1900 av. J.-C. (XIIe dynastie)",
+        id: "statuette_feminine_henen",
+        century: "XIIe dynastie (XXe - XIXe s. av. J.-C.)",
         title: "Statuette féminine en bois de la tombe de Nakhti",
-        site: "Assiout (Tombe 7 du chancelier Nakhti)",
-        category: "Statuaire en bois",
-        themeLink: "https://photos.google.com/share/AF1QipN3eyH-IXfJ5tzHs153uMFgtbiZ-T1UONLzfSVpPLodOXWcNGXYMeojYCDX7skI5w?key=dEpRSmZnTkVLb2FuOHJCbjRqZDhDZ1ZDNDhOVkhn",
-        chips: ["XIIe dynastie", "Bois polychrome", "Musée du Louvre (Paris)"],
-        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNYTW5sAtoEIJbW13Sd4VuY6g3Nzw-HdepPHPblCHV2ZN6c-JRhaCMhMXPfEu-29P-pf2fR9t6HC5RMfiZEFkNx2RpGZlf4TvFeZxmQjiekeTtV5e-DGkag-bG4cR07YRE5D-FzrDmHCxrSORtTZoTjJA=w1584-h672-s-no-gm?authuser=0",
-        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMBEVTzlfcy5B1rAIF9YPnkhEyUy638zRehdKoi_8XmNCoG_EJDV4dWNeYZwLSI82hoqPAjtpF4p31S04bUB3ai4GNxGgQkYnnKDQg0cgOoxvd03lCiqESUt5o5qg9FZVVjbkLzlLQiY_kcw3nqZOnF5g=w1733-h2302-s-no-gm?authuser=0",
-        narrative: `<p>Cette statuette féminine en bois, attribuée à Hénen et provenant de la tombe du chancelier Nakhti à Assiout, est un exemple remarquable de la plastique du début du Moyen Empire. Représentée nue, dans une attitude de marche avec les bras le long du corps, elle se distingue par l'élégance de ses proportions et la finesse de son exécution.</p>`
+        site: "Assiout (Tombe 7)",
+        category: "Statuaire privée en bois",
+        themeLink: "https://photos.google.com",
+        chips: ["XIIe dynastie", "Bois polychrome", "Musée du Louvre"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczHenen...",
+        narrative: `<p>Cette statuette féminine en bois, attribuée à Hénen et provenant de la tombe du chancelier Nakhti à Assiout, est un exemple remarquable de la plastique du début du Moyen Empire. Représentée nue, dans une attitude de marche avec les bras le long du corps, elle se distingue par l'élégance de ses proportions et la finesse de son exécution. Contrairement aux grandes statues de Nakhti trouvées dans le même complexe, cette pièce de plus petite taille conserve une part importante de sa polychromie d'origine, notamment sur la perruque noire et les détails des bijoux peints aux poignets et aux chevilles.</p>
+        <p>Le traitement du corps privilégie une silhouette svelte et allongée, typique de la XIIe dynastie, où les formes sont suggérées avec une douceur qui n'exclut pas une certaine rigueur géométrique. Le visage, encadré par une perruque longue dont les mèches sont soigneusement dessinées, présente des yeux soulignés de fard noir qui lui confèrent un regard profond et éternel. Ces statuettes féminines, souvent appelées "concubines du mort" dans l'ancienne égyptologie, sont aujourd'hui interprétées plus largement comme des symboles de régénération et de fertilité, destinées à assurer la renaissance du défunt Nakhti dans l'au-delà.</p>
+        <p>La technique du bois ajouré permet une liberté de mouvement que la pierre ne permettait pas, rendant la posture de marche plus naturelle. La statuette repose sur un socle en bois peint imitant le granit ou une roche sombre, ancrant le personnage dans la réalité matérielle de la chapelle funéraire. En tant qu'objet de la tombe 7 d'Assiout, elle témoigne du raffinement des ateliers provinciaux qui, tout en suivant les codes de la cour royale, conservaient une originalité propre dans le rendu des expressions et des détails anatomiques.</p>`
       },
       {
-        id: "sphinx_amenemhat3",
-        century: "v. -1860 av. J.-C. (XIIe dynastie)",
-        title: "Sphinx en granit rose du pharaon Amenemhat III",
-        site: "Hawara (Oasis du Fayoum)",
-        category: "Sculpture Royale",
-        themeLink: "https://photos.google.com/share/AF1QipN3eyH-IXfJ5tzHs153uMFgtbiZ-T1UONLzfSVpPLodOXWcNGXYMeojYCDX7skI5w?key=dEpRSmZnTkVLb2FuOHJCbjRqZDhDZ1ZDNDhOVkhn",
-        chips: ["XIIe dynastie", "Granit rose poli", "Musée Égyptien du Caire"],
-        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNYTW5sAtoEIJbW13Sd4VuY6g3Nzw-HdepPHPblCHV2ZN6c-JRhaCMhMXPfEu-29P-pf2fR9t6HC5RMfiZEFkNx2RpGZlf4TvFeZxmQjiekeTtV5e-DGkag-bG4cR07YRE5D-FzrDmHCxrSORtTZoTjJA=w1584-h672-s-no-gm?authuser=0",
-        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPp89DFr93lsOr2oktxm2U7AtuoN-n-aYpoVfWpTRBrtLfu1q6ByWJRrp6N-3Z-p11ilZtPtvzqhFu97D6E8CiyVm7EmJKkH8xgXMbtgD1MSApTpUnzW7W9lsnnBuSzT1yH2f0fNW0JPDk371pzjeAvgQ=w1607-h2412-s-no-gm?authuser=0",
-        narrative: `<p>Cette statue en granit rose représente le pharaon Amenemhat III, l'un des souverains les plus marquants de la XIIe dynastie (vers 1860-1814 av. J.-C.). Elle a été découverte à Hawara, dans le Fayoum, à proximité de sa pyramide et de son célèbre « Labyrinthe ». Le roi est ici figuré sous la forme d'un sphinx, une créature hybride alliant la force du lion à l'intelligence humaine du monarque.</p>`
+        id: "sphinx_amenemhat_iii",
+        century: "v. -1860 à -1814 av. J.-C. (XIXe s. av. J.-C.)",
+        title: "Sphinx en granit rose d'Amenemhat III",
+        site: "Hawara (Fayoum)",
+        category: "Statuaire royale",
+        themeLink: "https://photos.google.com",
+        chips: ["XIIe dynastie", "Granit rose poli", "Style psychologique"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczAmenemhat...",
+        narrative: `<p>Cette statue en granit rose représente le pharaon Amenemhat III, l'un des souverains les plus marquants de la XIIe dynastie (vers 1860-1814 av. J.-C.). Elle a été découverte à Hawara, dans le Fayoum, à proximité de sa pyramide et de son célèbre "Labyrinthe". Le roi est ici figuré sous la forme d'un sphinx, une créature hybride alliant la force du lion à l'intelligence humaine du monarque. Il porte le némès, la coiffe royale plissée, surmonté de l'uræus (le cobra protecteur), ainsi que la barbe postiche traditionnelle.</p>
+        <p>Le visage est un exemple magistral du style réaliste et "psychologique" propre à la fin de la XIIe dynastie. Contrairement aux portraits idéalisés et juvéniles de l'Ancien Empire, celui d'Amenemhat III montre des traits marqués par l'âge et les responsabilités du pouvoir : les paupières sont lourdes, les pommettes saillantes et les commissures des lèvres s'abaissent légèrement. Cette esthétique singulière cherche à dépeindre le pharaon non plus comme un dieu lointain, mais comme un souverain vigilant, un "bon pasteur" soucieux de la gestion de son pays et de la crue du Nil, dont il a d'ailleurs largement développé l'irrigation dans la région du Fayoum.</p>
+        <p>La statue est sculptée dans un granit rose dont le polissage parfait met en valeur la puissance du corps léonin. Les pattes avant, dont les griffes sont discrètement suggérées, reposent sur une base massive. L'expression de la face, à la fois sévère et sereine, dégage une impression de force tranquille et d'autorité absolue. En tant qu'image de protection placée à l'entrée d'un temple, ce sphinx servait à repousser les forces du chaos tout en perpétuant pour l'éternité l'image d'un roi bâtisseur qui a su mener l'Égypte vers un sommet de prospérité économique et artistique.</p>`
       },
       {
-        id: "seqenenre_taa",
-        century: "v. -1580 av. J.-C. (XVIIe dynastie)",
+        id: "statue_seqenenre_taa",
+        century: "v. -1560 av. J.-C. (XVIe s. av. J.-C.)",
         title: "Statuette royale de Séqenenrê Djéhouty-Âa",
         site: "Thèbes Ouest / Abydos",
-        category: "Statuaire Royale",
-        themeLink: "https://photos.google.com/share/AF1QipN3eyH-IXfJ5tzHs153uMFgtbiZ-T1UONLzfSVpPLodOXWcNGXYMeojYCDX7skI5w?key=dEpRSmZnTkVLb2FuOHJCbjRqZDhDZ1ZDNDhOVkhn",
+        category: "Statuaire royale",
+        themeLink: "https://photos.google.com",
         chips: ["XVIIe dynastie", "Calcaire sculpté", "Deuxième Période Intermédiaire"],
-        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNYTW5sAtoEIJbW13Sd4VuY6g3Nzw-HdepPHPblCHV2ZN6c-JRhaCMhMXPfEu-29P-pf2fR9t6HC5RMfiZEFkNx2RpGZlf4TvFeZxmQjiekeTtV5e-DGkag-bG4cR07YRE5D-FzrDmHCxrSORtTZoTjJA=w1584-h672-s-no-gm?authuser=0",
-        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOKk1OEjeYDQKK89GCEpq4kpFha_SEZesIJ0FCZue6yMd6qZ4KZk9Lm-d5IHC2uDMWHLIpNqQunzW0UfYvxymQ4_hFecpECkajLW_3O8tTU65UX82BjSSsMGx_QGQv87VZ-PDBFCDivdjsxR81xVBdV6A=w1733-h2302-s-no-gm?authuser=0",
-        narrative: `<p>Cette statuette fragmentaire en calcaire représente le roi Séqenenrê Djéhouty-Âa, l'un des derniers souverains de la XVIIe dynastie. Elle constitue un témoignage historique et artistique crucial de la période de transition entre la Deuxième Période intermédiaire et le Nouvel Empire.</p>`
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczSeqenenre...",
+        narrative: `<p>Cette statuette fragmentaire en calcaire représente le roi Séqenenrê Djéhouty-Âa, l'un des derniers souverains de la XVIIe dynastie. Elle constitue un témoignage historique et artistique crucial de la période de transition entre la Deuxième Période intermédiaire et le Nouvel Empire. Le roi est figuré assis, vêtu d'un pagne court et coiffé d'une perruque courte et bouclée, une iconographie qui souligne la vigueur et la détermination de ce monarque connu pour avoir initié la guerre de libération contre les Hyksôs.</p>
+        <p>Le style de la sculpture conserve une certaine sobriété héritée des époques précédentes, mais annonce déjà le renouveau artistique thébain. Le visage, bien que marqué par l'érosion, laisse deviner des traits fermes : des yeux en amande, un nez droit et une bouche aux commissures serrées. Le modelé du torse est simple mais puissant, reflétant l'image d'un roi guerrier. Les inscriptions hiéroglyphiques gravées sur le socle et les côtés du siège confirment l'identité du souverain et ses titres, reliant son autorité à la protection des dieux de la région thébaine.</p>
+        <p>Provenant probablement de Thèbes Ouest ou d'Abydos, des sites hautement symboliques pour la légitimité de la dynastie, cette statue servait de support au culte royal. Séqenenrê Djéhouty-Âa, dont la momie porte les traces de blessures de guerre, est resté dans la mémoire égyptienne comme un héros national. Cette représentation, par sa rareté et sa force tranquille, permet d'apprécier l'art d'une époque de reconquête où la statuaire royale redevient un outil de propagande et d'affirmation de la souveraineté égyptienne retrouvée.</p>`
       }
     ]
   },
@@ -743,27 +774,117 @@ CIVILISATIONS_REGISTRY.push(
     albumUrl: "https://photos.google.com/share/AF1QipMnn_CMAHk2s1w8_h2RauhjNNCt21MFWbRDPmz1Iwj3H9ZqQAAsXTaBKylKpOq-lg?key=SHZuTHVkNW9YZ2xleTl3bTZickotQWVsSnpSZkF3",
     presentationHtml: `
       <p><strong>Puissance martiale et architecture cyclopéenne</strong><br>
-      Épanouie en Grèce continentale au cours du second millénaire avant notre ère, la civilisation mycénienne marque l’âge du bronze récent d’une empreinte martiale. Les citadelles de Mycènes, Tirynthe et Pylos s'érigent en hauteurs derrière de colossaux remparts de blocs mégalithiques dits « cyclopéens », symboles d'une aristocratie de guerriers et de seigneurs châtelains. L'art mycénien se nourrit des influences crétoises tout en leur insufflant une monumentalité hiératique et belliqueuse, visible dès les cercles royaux de tombes à fosses par la profusion d'armes damascées, de coupes d'or et de masques funéraires au modelé expressif.</p>
+      L’art mycénien (v. 1600–1100 av. J.-C.) s'épanouit en Grèce continentale durant l'âge du Bronze récent, se caractérisant par une esthétique monumentale, guerrière et opulente, fortement influencée au début par la culture minoenne.</p>
+      <p>L'architecture civile et militaire s'impose par sa puissance cyclopéenne : les citadelles fortifiées de Mycènes, de Tirynthe et de Pylos dressent d'immenses murailles de blocs mégalithiques, percées de la célèbre Porte des Lionnes et abritant de vastes palais centrés sur la salle du trône ou mégaron.</p>
+      <p>L'architecture funéraire érige les impressionnantes tholos (ou « tombes à tholos »), vastes chambres souterraines couvertes d'une fausse voûte en encorbellement, dont le plus célèbre exemple est le monumental Trésor d'Atrée.</p>
+      <p>L'orfèvrerie et la dinanderie atteignent un faste exceptionnel, illustrées par les masques funéraires en or battu découverts dans les cercles de tombes, ainsi que par les magnifiques poignards damasquinés en bronze incrustés d'or, d'argent et de niellé représentant des scènes de chasse au lion.</p>
+      <p>La céramique évolue vers des formes robustes et stylisées, notamment les célèbres « vases à étrier » et les cratères de guerriers, qui témoignent d'un répertoire iconographique dominé par les chars de combat, les défilés militaires et les processions.</p>
     `,
     concurrentHtml: `
       <p><strong>Le contexte mondial au IIe millénaire av. J.-C.</strong></p>
-      <p>Pendant que la Grèce mycénienne dresse ses citadelles cyclopéennes, le Nouvel Empire égyptien atteint son apogée militaire et monumental sous les pharaons de la XVIIIe dynastie, étendant son influence de la Nubie jusqu'à l'Euphrate.</p>
+      <p>Pendant que la Grèce mycénienne dresse ses citadelles cyclopéennes et ses tombes en tholos, les autres grands foyers civilisationnels du globe connaissent des mutations historiques et culturelles majeures au cours du IIe millénaire av. J.-C.</p>
+      <p><strong>Égypte pharaonique : l'apogée impérial</strong><br>
+      En Égypte, le Nouvel Empire atteint son apogée impérial sous les XVIIIe et XIXe dynasties, menant une politique d'expansion militaire agressive et érigeant les sanctuaires monumentaux de Karnak, Louxor et les hypogées de la Vallée des Rois.</p>
+      <p><strong>Proche-Orient & Mésopotamie : l'âge diplomatique</strong><br>
+      En Mésopotamie et au Proche-Orient, la période voit s'affronter et prospérer de grands empires rivaux — l'Empire hittite en Anatolie, les Kassites à Babylone et le royaume médio-assyrien —, connectés par un vaste réseau diplomatique scellé par les archives d'Amarna.</p>
+      <p><strong>Méditerranée orientale : Chypre et le cuivre</strong><br>
+      À Chypre, l'île s'affirme comme le carrefour incontournable du commerce méditerranéen du cuivre, développant une brillante civilisation urbaine portuaire et des productions céramiques originales.</p>
+      <p><strong>Asie orientale : l'âge du bronze des Shang</strong><br>
+      En Chine, la dynastie Shang consolide son pouvoir dans la vallée du Fleuve Jaune, perfectionnant à l'extrême la fonte des bronzes rituels et instaurant un système d'écriture logographique sur os oraculaires pour le culte des ancêtres.</p>
     `,
     themeAlbums: [
-      { label: "🏛️ Architecture", url: "https://photos.google.com/share/AF1QipMnn_CMAHk2s1w8_h2RauhjNNCt21MFWbRDPmz1Iwj3H9ZqQAAsXTaBKylKpOq-lg?key=SHZuTHVkNW9YZ2xleTl3bTZickotQWVsSnpSZkF3" }
+      { label: "👑 Orfèvrerie & Trésors", url: "https://photos.google.com/share/AF1QipMnn_CMAHk2s1w8_h2RauhjNNCt21MFWbRDPmz1Iwj3H9ZqQAAsXTaBKylKpOq-lg?key=SHZuTHVkNW9YZ2xleTl3bTZickotQWVsSnpSZkF3" },
+      { label: "🏺 Céramiques & Rhytons", url: "https://photos.google.com/share/AF1QipMnn_CMAHk2s1w8_h2RauhjNNCt21MFWbRDPmz1Iwj3H9ZqQAAsXTaBKylKpOq-lg?key=SHZuTHVkNW9YZ2xleTl3bTZickotQWVsSnpSZkF3" },
+      { label: "⚱️ Mobilier funéraire", url: "https://photos.google.com/share/AF1QipMnn_CMAHk2s1w8_h2RauhjNNCt21MFWbRDPmz1Iwj3H9ZqQAAsXTaBKylKpOq-lg?key=SHZuTHVkNW9YZ2xleTl3bTZickotQWVsSnpSZkF3" },
+      { label: "🎨 Fresques & Peintures", url: "https://photos.google.com/share/AF1QipMnn_CMAHk2s1w8_h2RauhjNNCt21MFWbRDPmz1Iwj3H9ZqQAAsXTaBKylKpOq-lg?key=SHZuTHVkNW9YZ2xleTl3bTZickotQWVsSnpSZkF3" },
+      { label: "🕊️ Ex-voto & Figurines", url: "https://photos.google.com/share/AF1QipMnn_CMAHk2s1w8_h2RauhjNNCt21MFWbRDPmz1Iwj3H9ZqQAAsXTaBKylKpOq-lg?key=SHZuTHVkNW9YZ2xleTl3bTZickotQWVsSnpSZkF3" }
     ],
     artifacts: [
       {
         id: "masque_agamemnon",
-        century: "v. -1550 à -1500 av. J.-C.",
+        century: "v. -1550 à -1500 av. J.-C. (XVIe s. av. J.-C.)",
         title: "Masque funéraire en or dit « d'Agamemnon »",
         site: "Mycènes (Cercle des tombes A)",
-        category: "Orfèvrerie",
+        category: "Orfèvrerie funéraire",
         themeLink: "https://photos.google.com/share/AF1QipMnn_CMAHk2s1w8_h2RauhjNNCt21MFWbRDPmz1Iwj3H9ZqQAAsXTaBKylKpOq-lg?key=SHZuTHVkNW9YZ2xleTl3bTZickotQWVsSnpSZkF3",
-        chips: ["Helladique Récent I", "Feuille d'or au repoussé", "Musée d'Athènes"],
+        chips: ["Helladique Récent I", "Or repoussé", "Musée d'Athènes"],
         deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczPGPVemkhHQo3zxMthmyW5DikiQpTTsrv0U4LJ6UISDDrZFy45mQdZos6Gg-E4RKWIGenvHZ5uO_yxvfo1sBV0PTvktEP3l9BvBL1sJZAsYp0aet3LLJGPtq0F7QuWv4QGE5UTOKuwIeuLwFZ-IOW6bFg=w1980-h841-s-no-gm?authuser=0",
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOX6_L1RpUEunGm8YyrUo9ZQzDC90rr2xuMb2gJHiwrLtQAF34EvXnMey2ZoDh22NxKU1jrqQzN2S6jU8CJUSECSj_Du-BfMxjvHrXcj69AVM9LB3id3w-sPR_-MA_wKPTwunhvneWq8cqoqx1Z8fV51A=w1980-h1319-s-no-gm?authuser=0",
-        narrative: `<p>Découvert par Schliemann en 1876, ce masque en or massif recouvrait le visage d'un chef de guerre mycénien.</p>`
+        narrative: `<p>Le masque funéraire dit d'Agamemnon, conservé au Musée national archéologique d'Athènes, représente l'un des artefacts les plus emblématiques de la civilisation mycénienne. Découvert en 1876 par l'archéologue Heinrich Schliemann dans le Cercle des tombes A de Mycènes, cet objet d'apparat en or massif date environ de 1550 à 1500 avant notre ère. Bien que Schliemann ait cru identifier le visage du célèbre roi homérique de la guerre de Troie, les recherches modernes ont démontré que le masque appartient à une époque antérieure de trois siècles aux événements supposés de l'Iliade. Il reste néanmoins le témoignage le plus frappant de la richesse des élites guerrières de l'âge du Bronze en Grèce continentale.</p>
+        <p>L'objet a été façonné selon la technique du repoussé, consistant à marteler une fine feuille d'or par l'arrière pour faire apparaître les traits du visage en relief. Contrairement aux autres masques trouvés sur le même site, celui-ci se distingue par une individualisation marquée des traits qui suggère une volonté de portrait. On y observe des yeux clos en amande, un nez aquilin et une bouche aux lèvres serrées soulignée par une moustache aux pointes relevées. La présence d'une barbe finement ciselée et de sourcils épais confère au défunt une expression de majesté et de puissance, destinée à traverser l'éternité.</p>
+        <p>Ce masque n'était pas seulement une marque de prestige, mais remplissait une fonction rituelle précise en recouvrant le visage du souverain décédé pour préserver son identité dans l'au-delà. L'utilisation généreuse de l'or, métal inaltérable, symbolisait le statut divin ou héroïque du chef mycénien. Aujourd'hui encore, cette pièce demeure le symbole d'une Grèce archaïque à la fois brutale et raffinée, marquant le passage de la préhistoire à l'histoire européenne.</p>`
+      },
+      {
+        id: "rhyton_sanglier_ougarit",
+        century: "v. -1400 à -1300 av. J.-C. (XIVe s. av. J.-C.)",
+        title: "Rhyton zoomorphe en tête de sanglier",
+        site: "Ras Shamra (Ougarit)",
+        category: "Céramique rituelle",
+        themeLink: "https://photos.google.com/share/AF1QipMnn_CMAHk2s1w8_h2RauhjNNCt21MFWbRDPmz1Iwj3H9ZqQAAsXTaBKylKpOq-lg?key=SHZuTHVkNW9YZ2xleTl3bTZickotQWVsSnpSZkF3",
+        chips: ["Helladique Récent III", "Terre cuite peinte", "Exportation levantine"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczPGPVemkhHQo3zxMthmyW5DikiQpTTsrv0U4LJ6UISDDrZFy45mQdZos6Gg-E4RKWIGenvHZ5uO_yxvfo1sBV0PTvktEP3l9BvBL1sJZAsYp0aet3LLJGPtq0F7QuWv4QGE5UTOKuwIeuLwFZ-IOW6bFg=w1980-h841-s-no-gm?authuser=0",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMyJRm3TsTCyB6bjlmPiCmXbJXH5jnzXFFvBBicXSQKrlc3wDAsgmA7RHgdKB5Yll-y9ONkQq2RDt4sSrvuA2yGjvwvwRLHIotqfTKO3FIKHLcIFu0SlnfEt2uQLjMTRJaMyWjlq9ShokV7Rke_EWHsbQ=w1818-h2416-s-no-gm?authuser=0",
+        narrative: `<p>Cette pièce exceptionnelle est un rhyton zoomorphe, un vase à libation caractéristique des productions céramiques de l'âge du Bronze récent. Modelé en terre cuite, il prend la forme d'une tête de sanglier dont le réalisme morphologique est frappant. L'animal est représenté avec un groin allongé, des oreilles dressées vers l'arrière et des yeux figurés par de légers reliefs circulaires. La structure même de l'objet répond à une fonction rituelle précise : le liquide était versé par une ouverture située sur le sommet de la tête ou à l'arrière, pour être ensuite libéré par le groin percé lors des cérémonies de l'élite mycénienne ou des populations locales influencées par leurs codes esthétiques.</p>
+        <p>Le décor peint à l'ocre rouge sur un fond crème témoigne de la virtuosité des peintres de cette période. Plutôt que de chercher à reproduire le pelage de l'animal de manière naturaliste, l'artiste a recouvert la surface de motifs géométriques et floraux stylisés. On y distingue des chevrons, des pointillés et surtout des motifs de palmettes et de volutes qui épousent les courbes de la tête. Cette décoration dense, presque hypnotique, souligne les volumes de la pièce tout en lui conférant un aspect précieux. Ce style iconographique est typique du Helladique Récent III, période durant laquelle les modèles mycéniens s'exportaient largement à travers le bassin méditerranéen, notamment vers les grands ports de commerce comme Ougarit.</p>
+        <p>Découvert à Ras Shamra, l'ancienne Ougarit située sur la côte syrienne, cet objet illustre parfaitement l'intensité des échanges culturels et commerciaux entre le monde égéen et le Levant à la fin du IIe millénaire avant notre ère. Bien que de facture mycénienne, sa présence dans une tombe ou dans les quartiers de la ville basse de Ras Shamra suggère que les élites locales avaient adopté certains usages de table ou de culte grecs, ou appréciaient tout simplement l'exotisme et la qualité de ces importations. Ce rhyton est un témoin majeur de la koinè méditerranéenne, ce mélange de styles et de traditions qui caractérise l'apogée des civilisations de l'âge du Bronze.</p>`
+      },
+      {
+        id: "mobilier_funeraire_mycenes",
+        century: "v. -1250 av. J.-C. (XIIIe s. av. J.-C.)",
+        title: "Mobilier funéraire et parures d'une tombe mycénienne",
+        site: "Mycènes",
+        category: "Mobilier funéraire",
+        themeLink: "https://photos.google.com/share/AF1QipMnn_CMAHk2s1w8_h2RauhjNNCt21MFWbRDPmz1Iwj3H9ZqQAAsXTaBKylKpOq-lg?key=SHZuTHVkNW9YZ2xleTl3bTZickotQWVsSnpSZkF3",
+        chips: ["XIIIe s. av. J.-C.", "Pâte de verre", "Céramiques & Ex-voto"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczPGPVemkhHQo3zxMthmyW5DikiQpTTsrv0U4LJ6UISDDrZFy45mQdZos6Gg-E4RKWIGenvHZ5uO_yxvfo1sBV0PTvktEP3l9BvBL1sJZAsYp0aet3LLJGPtq0F7QuWv4QGE5UTOKuwIeuLwFZ-IOW6bFg=w1980-h841-s-no-gm?authuser=0",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNan0d3LuWn21yqygTW6VJrAR0UVqN0rbGUdie2unjxrBnAwSwzqVbCl3l2utR493JlNnJeyVUud2SSxpPL9I1m-T5X9tKllazLih4Vbbffit3CXIAFfn_igh18Qm2OCtbFOE62Pv20LSQf9vxAl_0CtQ=w2158-h1438-s-no-gm?authuser=0",
+        narrative: `<p>Cette vitrine offre un aperçu éloquent du mobilier funéraire mycénien, regroupant des objets destinés à accompagner le défunt dans l'au-delà et à témoigner de son rang social ainsi que de ses croyances. L'ensemble est dominé par une sélection de poteries aux formes variées, allant du grand alabastre plat décoré de motifs de poulpes stylisés à la cruche à bec verseur ornée de bandes géométriques, illustrant la maîtrise des ateliers de céramique du XIIIe siècle avant notre ère. Ces récipients contenaient vraisemblablement des offrandes alimentaires ou des huiles parfumées, essentielles aux rituels de passage et à l'entretien de la mémoire du mort.</p>
+        <p>Le dépôt funéraire comprend également une collection de parures personnelles, notamment des colliers de perles en pâte de verre bleutée et blanche, ainsi que de petits pendentifs. Ces bijoux, par leur finesse et leur matériau, soulignent l'insertion de l'élite mycénienne dans les réseaux d'échanges à longue distance de la Méditerranée orientale. La présence de petits contenants de toilette, comme des pyxides à parois décorées de motifs ondulés, complète cet ensemble dédié au soin du corps, une préoccupation qui persistait symboliquement au-delà de la mort.</p>
+        <p>Au premier plan, une série de figurines animales miniatures, principalement des bovidés à cornes proéminentes et aux corps zébrés de peinture, témoigne de la dimension symbolique du sacrifice et de la richesse pastorale. Ces statuettes, bien que similaires à celles trouvées dans les sanctuaires, acquièrent ici une fonction de protection ou de représentation des possessions du défunt. La composition rigoureuse de ce mobilier, mêlant objets du quotidien et pièces de prestige, reflète la volonté de la société mycénienne de maintenir une continuité entre le monde terrestre et la sphère funéraire à travers des rituels immuables.</p>`
+      },
+      {
+        id: "rhyton_taureau_argent",
+        century: "v. -1600 av. J.-C. (XVIe s. av. J.-C.)",
+        title: "Rhyton en argent en forme de tête de taureau",
+        site: "Mycènes (Cercle funéraire A)",
+        category: "Orfèvrerie & Toreutique",
+        themeLink: "https://photos.google.com/share/AF1QipMnn_CMAHk2s1w8_h2RauhjNNCt21MFWbRDPmz1Iwj3H9ZqQAAsXTaBKylKpOq-lg?key=SHZuTHVkNW9YZ2xleTl3bTZickotQWVsSnpSZkF3",
+        chips: ["XVIe s. av. J.-C.", "Argent martelé & Or", "Cercle A"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczPGPVemkhHQo3zxMthmyW5DikiQpTTsrv0U4LJ6UISDDrZFy45mQdZos6Gg-E4RKWIGenvHZ5uO_yxvfo1sBV0PTvktEP3l9BvBL1sJZAsYp0aet3LLJGPtq0F7QuWv4QGE5UTOKuwIeuLwFZ-IOW6bFg=w1980-h841-s-no-gm?authuser=0",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNC48vyDTWFqo6tHn6s40MiBoLhVkmdRTd2-LZd3Ib350RaKpBtQd776St6h5n3iEW-FsCscSFfWtuXeePFu5g7u8oj02Vbbwty4R3Y6QE6aKtNCRSr8SM-A05UZNBJ5ANtul0n4c0DNDKmBWAefcIL0w=w2749-h1832-s-no-gm?authuser=0",
+        narrative: `<p>Ce rhyton en forme de tête de taureau, daté d'environ 1600 avant notre ère, est l'un des objets rituels les plus emblématiques exhumés du cercle funéraire A de Mycènes par Heinrich Schliemann. Ce vase à libations témoigne de l'influence esthétique et religieuse considérable de la civilisation minoenne de Crète sur les élites mycéniennes du continent. Fabriqué à partir d'une feuille d'argent martelée pour le museau et le crâne, il est rehaussé de cornes en bois plaquées d'or, créant un contraste de matériaux particulièrement luxueux. Une rosette en or, symbole solaire ou floral fréquent dans l'iconographie de l'époque, orne le front de l'animal, soulignant son caractère sacré et royal.</p>
+        <p>En tant que rhyton, cet objet n'était pas un simple récipient décoratif, mais un instrument liturgique utilisé lors de cérémonies religieuses ou de banquets funéraires. Le liquide, probablement du vin ou de l'huile, était versé par une ouverture située sur la nuque du taureau et s'écoulait par un petit orifice percé dans le museau. Ce mouvement rituel symbolisait peut-être le sacrifice de l'animal ou la transmission de sa force vitale. Le taureau, figure centrale du panthéon égéen, incarne ici la puissance brute, la fertilité et l'autorité, des thèmes chers aux chefs guerriers enterrés à Mycènes qui cherchaient à s'approprier les codes de prestige crétois.</p>
+        <p>L'exécution artistique de la pièce révèle un sens aigu de l'observation naturaliste, malgré l'utilisation de métaux précieux. Le rendu du museau doré et les détails des oreilles et des yeux confèrent à l'objet une présence presque vivante. Bien que l'argent se soit oxydé avec le temps, prenant une teinte sombre, l'éclat originel du métal associé à la brillance de l'or devait produire un effet saisissant à la lumière des torches. La présence d'un tel objet dans une tombe à fosse confirme non seulement la richesse des défunts, mais aussi l'existence de réseaux d'échanges sophistiqués à travers la mer Égée, où les artisans fusionnaient les styles pour répondre aux commandes de la nouvelle aristocratie mycénienne.</p>
+        <p>Exposé au Musée national archéologique d'Athènes, ce rhyton demeure une pièce clé pour l'étude des pratiques de libation et du symbolisme animalier à l'âge du Bronze. Il illustre la transition culturelle majeure où Mycènes, tout en forgeant sa propre identité de guerrière, adopte et adapte les raffinements artistiques de la Crète palatiale. Sa conservation exceptionnelle permet d'apprécier la maîtrise de la toreutique (l'art de travailler le métal) et la place prépondérante du taureau dans l'imaginaire collectif pré-hellénique, faisant de cet objet un lien direct avec les mythes fondateurs de la Grèce antique.</p>`
+      },
+      {
+        id: "dame_de_mycenes",
+        century: "v. -1300 av. J.-C. (XIIIe s. av. J.-C.)",
+        title: "Fresque de la « Dame de Mycènes »",
+        site: "Mycènes (Centre cultuel de l'Acropole)",
+        category: "Peinture murale",
+        themeLink: "https://photos.google.com/share/AF1QipMnn_CMAHk2s1w8_h2RauhjNNCt21MFWbRDPmz1Iwj3H9ZqQAAsXTaBKylKpOq-lg?key=SHZuTHVkNW9YZ2xleTl3bTZickotQWVsSnpSZkF3",
+        chips: ["Helladique Récent III B", "Fresque sur enduit", "Musée d'Athènes"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczPGPVemkhHQo3zxMthmyW5DikiQpTTsrv0U4LJ6UISDDrZFy45mQdZos6Gg-E4RKWIGenvHZ5uO_yxvfo1sBV0PTvktEP3l9BvBL1sJZAsYp0aet3LLJGPtq0F7QuWv4QGE5UTOKuwIeuLwFZ-IOW6bFg=w1980-h841-s-no-gm?authuser=0",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMbgjkIe11IPZke23inAsNsxTWRLL9nqwJugVL6lzs9TMqA1M6498DpViAPRaJySmkeNbp0h3-OtnTgnT5H45KYJkF4FlBopt4vt2DUAGfBfCe6gnPKi2mOgkd-It9hSy3jHDe9XbxzmsJ9ChwJvpSanQ=w2158-h1438-s-no-gm?authuser=0",
+        narrative: `<p>Cette fresque monumentale, communément appelée la Dame de Mycènes, constitue l'un des chefs-d'œuvre les plus emblématiques de la peinture murale mycénienne de la période de l'Helladique Récent III B, aux alentours de 1300 avant notre ère. Découverte dans le centre cultuel de la citadelle de Mycènes, cette œuvre fut réalisée selon la technique de la fresque véritable, où les pigments sont appliqués sur un enduit de chaux encore humide, permettant une conservation exceptionnelle de la vivacité des couleurs malgré les siècles. Elle est aujourd'hui conservée et exposée au Musée National Archéologique d'Athènes, témoignant du raffinement esthétique et de la complexité sociale de cette civilisation palatiale.</p>
+        <p>La figure féminine est représentée de profil, arborant une physionomie caractéristique de l'art égéen avec un œil dessiné de face et des traits finement soulignés. Sa coiffure élaborée, composée de mèches ondulées maintenues par des bandeaux rouges, retombe en boucles complexes sur ses épaules, tandis que ses bijoux — colliers de perles et bracelets — soulignent son rang élevé ou sa fonction sacrée. Elle porte le costume traditionnel mycénien, dérivé de la mode minoenne, comprenant un corsage ajusté à manches courtes qui laisse la poitrine apparente, typique des représentations de divinités ou de hautes prêtresses de cette époque.</p>
+        <p>L'attitude de la dame, tenant avec une grâce solennelle un collier ou un diadème dans sa main droite, suggère qu'elle participe à un rituel d'offrande ou qu'elle incarne une déesse recevant des hommages. Le choix des pigments, notamment l'ocre jaune pour la peau, le rouge pour les détails vestimentaires et le bleu égyptien pour le fond, répond à des conventions artistiques strictes visant à créer un contraste saisissant et une lisibilité immédiate de la scène. La précision du trait noir qui détourre la silhouette confère à l'ensemble une élégance et une autorité qui devaient impressionner les visiteurs du sanctuaire original.</p>
+        <p>Au-delà de sa valeur esthétique, cette fresque offre un aperçu inestimable sur la continuité culturelle entre la Crète minoenne et la Grèce continentale mycénienne. Bien que les Mycéniens aient adopté de nombreux codes artistiques crétois, la rigidité relative de la pose et la stylisation des motifs trahissent une sensibilité propre au continent, plus formelle et structurée. La Dame de Mycènes demeure ainsi le symbole d'une ère de splendeur où l'art mural servait de lien entre le monde des hommes, le pouvoir royal et le divin, avant l'effondrement de la civilisation palatiale à la fin de l'Âge du Bronze.</p>`
+      },
+      {
+        id: "kourotrophos_mycenes",
+        century: "v. -1350 av. J.-C. (XIVe s. av. J.-C.)",
+        title: "Figurine de kourotrophos assise sur un trône",
+        site: "Mycènes",
+        category: "Ex-voto & Terre cuite",
+        themeLink: "https://photos.google.com/share/AF1QipMnn_CMAHk2s1w8_h2RauhjNNCt21MFWbRDPmz1Iwj3H9ZqQAAsXTaBKylKpOq-lg?key=SHZuTHVkNW9YZ2xleTl3bTZickotQWVsSnpSZkF3",
+        chips: ["Helladique Récent III A", "Terre cuite peinte", "Kourotrophos"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczPGPVemkhHQo3zxMthmyW5DikiQpTTsrv0U4LJ6UISDDrZFy45mQdZos6Gg-E4RKWIGenvHZ5uO_yxvfo1sBV0PTvktEP3l9BvBL1sJZAsYp0aet3LLJGPtq0F7QuWv4QGE5UTOKuwIeuLwFZ-IOW6bFg=w1980-h841-s-no-gm?authuser=0",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPe878Jdmn8CaZxH9IDpg5PndjidBegb12pOxmS6F6zeS5vT3tYvd-o6ARs58onX5VGpsZDHaiEFGOhS5Yjzk6PT-OVs-nGnLEA5K89KPFZk4DeKkNEyEgPcPJXSYmOZsghguY55rSW27v27QxyGLsRIQ=w1818-h2416-s-no-gm?authuser=0",
+        narrative: `<p>Cette figurine en terre cuite représente une figure féminine assise sur un trône à dossier haut, tenant un enfant sur ses genoux. Ce type iconographique, dit de la kourotrophos (nourrice ou mère), est caractéristique de la production coroplastique mycénienne du XIVe siècle avant J.-C. La statuette est modelée selon un style schématique où le corps de la femme et le siège fusionnent presque en une seule unité structurelle. La tête, de forme discoïde, présente des traits sommaires avec des yeux indiqués par de larges cercles peints, tandis que les bras, réduits à des formes tubulaires, entourent l'enfant dans un geste protecteur.</p>
+        <p>Le décor est réalisé à l'aide d'un vernis brun-noir appliqué sur l'argile claire, selon une syntaxe typique de la période de l'Helladique Récent III A. Des lignes horizontales et verticales recouvrent le buste et le dossier du trône, soulignant les volumes de manière graphique plutôt que réaliste. Les seins sont indiqués par deux petites protubérances modelées en relief, accentuant l'identité nourricière de la figure. L'enfant est lui-même traité de façon extrêmement simplifiée, se distinguant à peine du corps de la mère, ce qui renforce l'aspect symbolique de la maternité ou de la fertilité divine.</p>
+        <p>Retrouvée à Mycènes, cette figurine appartenait vraisemblablement au mobilier d'un sanctuaire ou d'une tombe, servant d'ex-voto ou d'objet protecteur. Elle témoigne de la ferveur religieuse populaire au sein de la civilisation mycénienne, où les représentations féminines trônantes occupaient une place centrale, probablement liées à une divinité majeure de la fécondité. La schématisation poussée et l'usage de la polychromie font de cet objet un témoin précieux de la standardisation des ateliers de potiers mycéniens, capables de produire en série des objets à forte charge spirituelle.</p>`
       }
     ]
   },
@@ -782,28 +903,71 @@ CIVILISATIONS_REGISTRY.push(
     mapOverlayUrl: "https://lh3.googleusercontent.com/d/11cdGX8oS_6Q_8BZaQ5gGjiREIFlKukA2",
     albumUrl: "https://photos.google.com/share/AF1QipNJXU5aih6CKBSCrN4pP6P5l0AplswBz64lNNpyoV_8FhUrBnY4DVaQKdDXOysWHQ?key=cXFoM2gzaHZ1RnlyV3lVendpbmdFZ1RSYXRSTWtn",
     presentationHtml: `
-      <p><strong>L'abstraction géométrique du marbre insulaire</strong><br>
-      Né au cœur de la mer Égée durant le IIIe millénaire avant notre ère, l’art cycladique s’est épanoui au sein de l’archipel grec des Cyclades. Célébré pour ses idoles féminines en marbre blanc aux lignes épurées et géométriques, il témoigne d'une quête d'harmonie formelle intemporelle.</p>
+      <p><strong>L’épure formelle et le modernisme abstrait des Cyclades</strong><br>
+      L’art cycladique s'épanouit au cœur de la mer Égée durant l'âge du Bronze ancien (v. 3200–2000 av. J.-C.), avant de subir l'influence croissante de la civilisation minoenne. Né de l'isolement maritime de cet archipel, il se distingue par une épure formelle et un modernisme abstrait qui fascinent encore aujourd'hui.</p>
+      <p>Le sommet de cette production artistique réside incontestable­ment dans la statuaire en marbre insulaire — les célèbres idoles cycladiques. Façonnées à partir de ce marbre blanc de Paros ou de Naxos abondant dans la région, ces figurines féminines stylisées, aux bras croisés sur le ventre et au profil effilé, réduisent le corps humain à des volumes géométriques purs, faits de triangles, de cylindres et de cercles.</p>
+      <p>À l'origine, ces sculptures n'étaient pas d'un blanc immaculé : elles étaient rehaussées de couleurs vives à base de pigments minéraux (azurite et cinabre), servant à dessiner les yeux, les colliers ou des motifs tribaux qui animaient leurs visages lisses et énigmatiques, souvent réduits à un simple appendice nasal.</p>
+      <p>Si la grande majorité de ces figurines représente des femmes enceintes ou stylisées, associées à des cultes de la fertilité ou à des rites funéraires, on trouve également des figures masculines plus rares, telles que des joueurs de harpe ou de flûte.</p>
+      <p>Aux côtés de cette statuaire, l'artisanat cycladique brille par sa maîtrise du travail de la pierre dure, illustrée par de superbes vases et palettes en marbre poli, ainsi que par une production de céramique originale, notamment les « poêles à frire » ornées de décors incisés de spirales et d'étoiles.</p>
+      <p>L'art cycladique s'impose ainsi comme l'une des expressions les plus épurées de l'art préhistorique méditerranéen, dont la radicalité plastique influencera profondément les sculpteurs modernes du XXe siècle comme Brancusi ou Modigliani.</p>
     `,
     concurrentHtml: `
-      <p><strong>Le contexte mondial au IIIe millénaire av. J.-C.</strong></p>
-      <p>Pendant que les sculpteurs des Cyclades taillent leurs idoles de marbre, l'Égypte de l'Ancien Empire érige les pyramides de Gizeh.</p>
+      <p><strong>Le contexte mondial aux IIIe et IIe millénaires av. J.-C.</strong></p>
+      <p>Durant l’âge du Bronze ancien et moyen (correspondant pour l'essentiel aux IIIe et IIe millénaires av. J.-C.), les grands foyers de civilisation mondiale connaissent des mutations majeures, façonnées par l'essor de l'urbanisation et la maîtrise de la métallurgie.</p>
+      <p>En Mésopotamie, après la période des cités-États sumériennes, Sargon d'Akkad fonde vers 2300 av. J.-C. le premier empire unifié de l'histoire, instaurant un modèle politique centralisé qui stimule le commerce à longue distance et l'écriture cunéiforme.</p>
+      <p>Plus à l'est, dans la vallée de l'Indus, s'épanouit entre 2600 et 1900 av. J.-C. la civilisation harappienne (villes de Harappa et Mohenjo-Daro), remarquable pour son urbanisme géométrique strict, ses réseaux d'égouts sophistiqués et son vaste réseau d'échanges marchands.</p>
+      <p>En Chine, la transition vers l'âge du bronze voit l'émergence des premières cultures étatiques de la vallée du fleuve Jaune, notamment la dynastie légendaire des Xia puis celle des Shang, caractérisées par le développement de rituels chamaniques et la maîtrise de la fonte du bronze.</p>
+      <p>Enfin, en Méditerranée orientale, la civilisation minoenne prend son essor en Crète dès la fin du IIIe millénaire, érigeant de grands palais labyrinthiques (Knossos, Phaistos) et développant une thalassocratie dynamique qui connecte les réseaux égéens, proche-orientaux et égyptiens.</p>
     `,
     themeAlbums: [
-      { label: "🗿 Statuaire", url: "https://photos.google.com/share/AF1QipNJXU5aih6CKBSCrN4pP6P5l0AplswBz64lNNpyoV_8FhUrBnY4DVaQKdDXOysWHQ?key=cXFoM2gzaHZ1RnlyV3lVendpbmdFZ1RSYXRSTWtn" }
+      { label: "🗿 Statuaire & Marbre", url: "https://photos.google.com/share/AF1QipNJXU5aih6CKBSCrN4pP6P5l0AplswBz64lNNpyoV_8FhUrBnY4DVaQKdDXOysWHQ?key=cXFoM2gzaHZ1RnlyV3lVendpbmdFZ1RSYXRSTWtn" },
+      { label: "🎨 Fresques & Peintures", url: "https://photos.google.com/share/AF1QipNJXU5aih6CKBSCrN4pP6P5l0AplswBz64lNNpyoV_8FhUrBnY4DVaQKdDXOysWHQ?key=cXFoM2gzaHZ1RnlyV3lVendpbmdFZ1RSYXRSTWtn" },
+      { label: "🏺 Céramiques & Rituels", url: "https://photos.google.com/share/AF1QipNJXU5aih6CKBSCrN4pP6P5l0AplswBz64lNNpyoV_8FhUrBnY4DVaQKdDXOysWHQ?key=cXFoM2gzaHZ1RnlyV3lVendpbmdFZ1RSYXRSTWtn" }
     ],
     artifacts: [
       {
         id: "statue_cycladique",
-        century: "v. -2800 av. J.-C. (Bronze Ancien II)",
+        century: "v. -2800 av. J.-C. (XXVIIIe s. av. J.-C.)",
         title: "Grande statue féminine monumentale de 1,5 mètre",
         site: "Archipel des Cyclades (Musée National d'Athènes)",
         category: "Sculpture en marbre",
         themeLink: "https://photos.google.com/share/AF1QipNJXU5aih6CKBSCrN4pP6P5l0AplswBz64lNNpyoV_8FhUrBnY4DVaQKdDXOysWHQ?key=cXFoM2gzaHZ1RnlyV3lVendpbmdFZ1RSYXRSTWtn",
-        chips: ["Bronze Ancien II", "Marbre blanc poli", "Type canonique de Spedos"],
+        chips: ["Bronze Ancien II", "Marbre blanc de Paros", "Type Spedos"],
         deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNMZRgR759mlxzzO63gKtVg2u437kEFSbomGP9HGmk8DelG-gh8gB9JNXi9bKBgrqsDkalszZLTbKwC5t0GJdWrMoEmqyl9V6L6d0f5GhGwYfTg6AqqP-C2stcjrj5Vn5Ba1SstoTv7f5_pyIccZFQq4g=w2209-h938-s-no-gm?authuser=0",
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczN9iP7Fcc8FrBL9usiPRWeijaLndwYYacpAiifNY8ybz4htaHhgrTMfzRcaCrzV6fXGr2BJQopM4NP5Byn4UAsG0GLQnhaxXuOA1hdq5iXKuoivviypjT2Y4oAyByf65ZZC7HVIE-YNCXw_95yQP4iH1A=w1607-h2410-s-no-gm?authuser=0",
-        narrative: `<p>Haute de 1,5 mètre, cette œuvre monumentale sculptée dans le marbre blanc de Paros constitue l'un des sommets de la statuaire cycladique.</p>`
+        narrative: `<p>Cette œuvre monumentale, datée d'environ 2800 avant notre ère, constitue un témoignage exceptionnel de la culture cycladique du Bronze ancien. Haute de 1,5 mètre, cette figure féminine sculptée dans le marbre blanc appartient au type dit canonique, caractérisé par une stylisation géométrique rigoureuse qui a profondément marqué l'art moderne. Bien que découverte ou conservée à Athènes, sa silhouette allongée et ses formes épurées sont originaires de l'archipel des Cyclades, où de telles idoles étaient produites pour des contextes funéraires ou rituels encore partiellement mystérieux.</p>
+        <p>La morphologie de la statue suit des conventions artistiques précises propres à la période de Spedos. Le visage, d'une grande sobriété, présente un nez en relief en forme de pyramide allongée sur une tête en forme de lyre, dépourvue d'autres traits faciaux. Le cou est long et cylindrique, supportant un torse où les bras sont repliés sous la poitrine, l'avant-bras gauche reposant généralement sur le droit. Les seins sont discrètement indiqués en relief, tandis que l'abdomen est marqué par une légère incision délimitant le pubis, soulignant le caractère anthropomorphe et la symbolique liée à la fertilité ou à la protection.</p>
+        <p>La structure inférieure de la sculpture présente des jambes jointes, séparées par une profonde rainure verticale, avec des genoux légèrement fléchis et des pieds orientés vers le bas. Cette posture suggère que la statue n'était pas conçue pour tenir debout sans support, mais peut-être pour être déposée à plat dans une tombe ou portée lors de cérémonies. La monumentalité de cet exemplaire, dépassant largement la taille habituelle des figurines de cette époque, suggère qu'il s'agissait d'une commande prestigieuse destinée à un personnage de haut rang ou à un sanctuaire d'importance majeure.</p>
+        <p>L'état de conservation de la pièce permet d'apprécier la maîtrise technique des sculpteurs antiques qui travaillaient sans outils de fer, utilisant l'émeri pour polir la surface du marbre jusqu'à obtenir cet aspect lisse et translucide. Malgré son apparente blancheur actuelle, il est probable que des détails tels que les yeux ou des ornements corporels aient été initialement rehaussés par des pigments minéraux rouges et bleus, ajoutant une dimension polychrome vibrante à cette icône de l'art égéen préhistorique.</p>`
+      },
+      {
+        id: "fresque_poissons_phylakopi",
+        century: "v. -2500 av. J.-C. (XXVe s. av. J.-C.)",
+        title: "Fresque des poissons-volants de Phylakopi",
+        site: "Phylakopi (Milos)",
+        category: "Peinture murale",
+        themeLink: "https://photos.google.com/share/AF1QipNJXU5aih6CKBSCrN4pP6P5l0AplswBz64lNNpyoV_8FhUrBnY4DVaQKdDXOysWHQ?key=cXFoM2gzaHZ1RnlyV3lVendpbmdFZ1RSYXRSTWtn",
+        chips: ["Bronze Moyen I", "Buon fresco", "Thématique marine"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNMZRgR759mlxzzO63gKtVg2u437kEFSbomGP9HGmk8DelG-gh8gB9JNXi9bKBgrqsDkalszZLTbKwC5t0GJdWrMoEmqyl9V6L6d0f5GhGwYfTg6AqqP-C2stcjrj5Vn5Ba1SstoTv7f5_pyIccZFQq4g=w2209-h938-s-no-gm?authuser=0",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMCSFC84J3F7c8R8R6BSE5aedpr10b9xQ-9yb9gfJJxpnaZEqFmyCRhVjo-05Q-dpxczRkosUOqnYRl2dvdqFq4gveJxcNJpPDfm8eTJfqRv9wQKaDDZ7Ceiyj3FyLv6I9IBkw_G49yhAV_2i5PZh8umg=w1616-h1078-s-no-gm?authuser=0",
+        narrative: `<p>Cette peinture murale fragmentaire, datée d'environ 2500 avant notre ère et provenant du site de Phylakopi sur l'île de Milos, constitue l'un des plus anciens exemples de fresque figurative dans le monde égéen. Conservée au Musée national archéologique d'Athènes, elle illustre un banc de poissons-volants évoluant dans un milieu marin stylisé. Cette œuvre marque une étape cruciale dans l'art cycladique, passant de la statuaire de marbre austère à une expression picturale dynamique, riche en couleurs et centrée sur l'observation de la nature.</p>
+        <p>Le style de la fresque se caractérise par une fluidité de ligne qui contraste avec la rigidité géométrique des idoles contemporaines. Les poissons sont représentés avec un naturalisme frappant pour l'époque : les corps effilés, teintés de bleu et de jaune, sont dotés d'ailes pectorales déployées qui suggèrent le mouvement de vol au-dessus de l'eau. Le fond est parsemé de motifs décoratifs évoquant des rochers marins ou de l'écume, créant une composition rythmée qui préfigure les grandes fresques naturalistes de la civilisation minoenne en Crète.</p>
+        <p>La technique employée est celle de la "vraie fresque" (buon fresco), où les pigments minéraux sont appliqués sur un enduit de chaux encore humide, permettant aux couleurs de s'intégrer durablement au support. Cette maîtrise technique indique une société organisée capable de décorer ses espaces domestiques ou religieux avec un raffinement certain. L'utilisation du bleu, pigment précieux souvent obtenu à partir de lapis-lazuli ou de silicates de cuivre, souligne l'importance de Phylakopi en tant que centre commercial majeur de l'âge du Bronze.</p>
+        <p>La thématique marine de cette œuvre reflète l'identité profonde des populations cycladiques, dont la vie était intimement liée à la mer Égée. Au-delà de sa valeur esthétique, la fresque des poissons-volants témoigne d'une sensibilité artistique nouvelle, où l'environnement naturel devient une source d'inspiration majeure. Elle illustre parfaitement la transition culturelle vers le Bronze moyen, où les échanges entre les Cyclades, la Crète et le continent grec ont favorisé l'émergence d'un langage artistique commun marqué par la grâce et la vitalité.</p>`
+      },
+      {
+        id: "kernos_melos",
+        century: "v. -2000 av. J.-C. (XXIe s. av. J.-C.)",
+        title: "Kernos rituel en terre cuite à coupelles multiples",
+        site: "Mélos (Cyclades)",
+        category: "Céramique rituelle",
+        themeLink: "https://photos.google.com/share/AF1QipNJXU5aih6CKBSCrN4pP6P5l0AplswBz64lNNpyoV_8FhUrBnY4DVaQKdDXOysWHQ?key=cXFoM2gzaHZ1RnlyV3lVendpbmdFZ1RSYXRSTWtn",
+        chips: ["Bronze Moyen", "Mélos", "Vase à libations"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNMZRgR759mlxzzO63gKtVg2u437kEFSbomGP9HGmk8DelG-gh8gB9JNXi9bKBgrqsDkalszZLTbKwC5t0GJdWrMoEmqyl9V6L6d0f5GhGwYfTg6AqqP-C2stcjrj5Vn5Ba1SstoTv7f5_pyIccZFQq4g=w2209-h938-s-no-gm?authuser=0",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNJMFw-kw6kydCM4NDoX6CPNsA0shUV6LK7h2y-M-H5qSnShSuK9QYtX8BxYz4mtPrzEcIkgnmyZAorfZ2xLWOhDlHeDgaBh0ehUgZFMy_9egsnk1Px1SKhKHFo08n64-d4Kp2P4Mvu0rG5Pfb9YgCNAA=w1616-h2147-s-no-gm?authuser=0",
+        narrative: `<p>Ce kernos en terre cuite constitue un exemple exceptionnel de la complexité des objets rituels cycladiques à la charnière entre le Bronze Ancien et le Bronze Moyen. L'objet se compose d'un pied central évasé, de forme tronconique, sur lequel repose une couronne circulaire supportant une douzaine de petits réceptacles ou coupelles individuelles. Ces coupelles sont reliées entre elles par des ponts d'argile, formant un anneau solidaire autour d'un espace central vide. Cette structure architecturale sophistiquée témoigne d'une grande maîtrise technique des potiers de Mélos vers 2000 avant J.-C., capable de concevoir un objet multifonctionnel d'une grande stabilité.</p>
+        <p>Le décor peint au vernis sombre sur l'argile de couleur chamois est organisé de manière méticuleuse sur chaque coupelle. On y observe une alternance de motifs géométriques variés : des treillis de losanges, des damiers, des lignes brisées (zigzags) et des chevrons. Cette diversité décorative sur un même objet pourrait suggérer une fonction symbolique, chaque coupelle pouvant être destinée à une offrande différente. Le pied central, bien que plus sobre, ancre visuellement la pièce et souligne sa verticalité cérémonielle. La précision des tracés géométriques préfigure déjà la rigueur des styles cycladiques ultérieurs rencontrés à Phylakopi.</p>
+        <p>L'usage du kernos est intrinsèquement lié au domaine religieux et aux rites d'offrandes collectives. Il permettait de présenter simultanément plusieurs types de prémices (grains, huiles, vin, miel) lors de cérémonies de libations ou de sacrifices non sanglants. Retrouvé sur l'île de Mélos, cet exemplaire illustre la richesse de la vie spirituelle des communautés insulaires, où le partage et la multiplication des offrandes jouaient un rôle central dans la cohésion sociale et la propitiation des divinités de la fertilité. Sa forme en couronne est une évocation puissante du cycle de la nature et de l'abondance.</p>`
       }
     ]
   },
@@ -822,20 +986,29 @@ CIVILISATIONS_REGISTRY.push(
     mapOverlayUrl: "https://lh3.googleusercontent.com/d/1-RyywCVU5Ct2McoKupe9Z2OnXrnDSJ9r",
     albumUrl: "https://photos.google.com/share/AF1QipMlW4TQJ8A9qGbcmVyMNAsLLD3a9pwHTBsx-qcnMuuYdqlbjXgrrncpHaXoLLK0LA?key=LTdfMHQ4VHdhNmJ4WEI2bFRtU2xTaHpCeHM2bEZR",
     presentationHtml: `
-      <p><strong>Vitalité du mouvement et célébration de la nature</strong><br>
-      L'art crétois minoen se distingue par une liberté de formes unique dans l'Antiquité, magnifiant la faune marine, la flore et le mouvement dans des palais ouverts et colorés.</p>
+      <p><strong>L’art de la Crète minoenne (v. 2600-1450 av. J.-C.)</strong><br>
+      L’art de la Crète minoenne (v. 2600-1450 av. J.-C.) s'épanouit au cœur de la mer Égée dans une esthétique de la grâce, du mouvement et de la communion avec la nature, loin de la monumentalité austère des empires continentaux.</p>
+      <p>L'architecture palatiale — illustrée par Cnossos, Phaistos ou Mallia — orchestre des complexes labyrinthiques ouverts, sans fortifications, articulés autour de vastes cours centrales et dotés de systèmes sophistiqués d'éclairage, de ventilation et d'adduction d'eau.</p>
+      <p>La peinture murale minoenne privilégie la fresque vibrante et naturaliste, où des figures élancées et gracieuses évoluent au milieu de paysages aquatiques et végétaux foisonnants, célébrant la faune marine, les jeux taurins et les processions rituelles.</p>
+      <p>La céramique évolue du style de Kamares, aux somptueux décors floraux polychromes sur fond noir, vers le style marin où poulpes, dauphins et coquillages enserrent les vases avec un dynamisme naturaliste saisissant.</p>
+      <p>La glyptique et la petite plastique en faïence ou en ivoire atteignent une virtuosité exceptionnelle, incarnée par les célèbres figurines de déesses aux serpents, traduisant une spiritualité profondément ancrée dans le culte de la nature et de la fertilité.</p>
     `,
     concurrentHtml: `
-      <p><strong>Le contexte mondial au IIe millénaire av. J.-C.</strong></p>
-      <p>Pendant que la Crète minoenne déploie ses palais, l'Égypte du Moyen Empire puis du Nouvel Empire domine le bassin oriental.</p>
+      <p><strong>Le contexte mondial au milieu du IIe millénaire av. J.-C.</strong></p>
+      <p>Pendant que la Crète minoenne déploie son art palatial et maritime, les autres grands foyers civilisationnels du globe connaissent des mutations historiques et culturelles majeures au milieu du IIe millénaire av. J.-C.</p>
+      <p>En Égypte, le Nouvel Empire atteint son apogée sous les XVIIIe et XIXe dynasties, menant une politique d'expansion militaire agressive vers le Proche-Orient et édifiant les immenses complexes de Karnak, Louxor et la Vallée des Rois.</p>
+      <p>En Mésopotamie, le paysage politique est dominé par la rivalité entre les Kassites à Babylone, les Assyriens dans le nord et les Mitanniens, favorisant l'essor d'une diplomatie internationale documentée par les archives d'Amarna.</p>
+      <p>En Anatolie, l'Empire hittite s'affirme comme une grande puissance militaire redoutable, rivalisant avec l'Égypte pour le contrôle de la Syrie et innovant par l'utilisation intensive du char de combat et de la métallurgie du fer.</p>
+      <p>En Chine, la dynastie Shang consolide son hégémonie dans la vallée du Fleuve Jaune, perfectionnant le système d'écriture sur os oraculaires et érigeant de puissantes traditions artistiques fondées sur le bronze rituel et le chamanisme ancestral.</p>
     `,
     themeAlbums: [
-      { label: "🏺 Céramiques", url: "https://photos.google.com/share/AF1QipMlW4TQJ8A9qGbcmVyMNAsLLD3a9pwHTBsx-qcnMuuYdqlbjXgrrncpHaXoLLK0LA?key=LTdfMHQ4VHdhNmJ4WEI2bFRtU2xTaHpCeHM2bEZR" }
+      { label: "🏺 Céramiques", url: "https://photos.google.com/share/AF1QipMlW4TQJ8A9qGbcmVyMNAsLLD3a9pwHTBsx-qcnMuuYdqlbjXgrrncpHaXoLLK0LA?key=LTdfMHQ4VHdhNmJ4WEI2bFRtU2xTaHpCeHM2bEZR" },
+      { label: "🏛️ Mobilier funéraire", url: "https://photos.google.com/share/AF1QipMlW4TQJ8A9qGbcmVyMNAsLLD3a9pwHTBsx-qcnMuuYdqlbjXgrrncpHaXoLLK0LA?key=LTdfMHQ4VHdhNmJ4WEI2bFRtU2xTaHpCeHM2bEZR" }
     ],
     artifacts: [
       {
         id: "rhyton_taureau",
-        century: "v. -1400 av. J.-C. (Minoen Récent)",
+        century: "v. -1400 av. J.-C. (XIVe s. av. J.-C.)",
         title: "Rhyton en terre cuite en forme de tête de taureau",
         site: "Crète minoenne",
         category: "Céramique rituelle",
@@ -843,47 +1016,102 @@ CIVILISATIONS_REGISTRY.push(
         chips: ["Bronze récent", "Terre cuite peinte", "Double hache (Labrys)"],
         deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPnUuU-MK0sDhtORjZeb_6whI6M33RtfIsbTkuuC6TjPIS8ppTuXw7T6kz2TtxYtoxJ21EI3qjAzNB-zxU3qXd76rMvXNBD85NjTnUlss-WsvMcoZwQc84ExK_TVdXRD2OV_8eIvWE_yeUf_t778xEaRQ=w1814-h2410-s-no-gm?authuser=0",
-        narrative: `<p>Ce rhyton de libation adopte la silhouette d'une tête de taureau, motif religieux central de la Crète minoenne.</p>`
+        narrative: `<p>Ce rhyton en terre cuite affecte la forme d'une tête de taureau, un motif iconographique central et récurrent dans l'art Minoen de la Crète de l'âge du Bronze. L'objet est un vase rituel destiné aux libations, caractérisé par une ouverture de remplissage située sur la nuque de l'animal et un orifice d'écoulement percé à l'extrémité du museau. Cette conception technique permettait de verser des liquides, probablement du vin ou du sang sacrificiel, lors de cérémonies religieuses. La tête est modelée avec un grand souci du naturalisme, capturant la puissance de l'animal à travers le modelé des naseaux, des yeux proéminents et la courbure vigoureuse des cornes qui s'élèvent vers le haut.</p>
+        <p>Le décor peint en brun-noir sur le fond clair de l'argile est organisé en motifs géométriques et symboliques qui recouvrent l'intégralité de la surface. Le front de l'animal est orné d'une grande double hache (labrys) stylisée, un symbole religieux majeur de la civilisation minoenne associé à la divinité féminine et au pouvoir palatial. De part et d'autre, le pelage est suggéré par des semis de points et des lignes ondulées, tandis que le cou est rythmé par des bandes horizontales et des chevrons hachurés. Les yeux sont soulignés par des cercles concentriques qui accentuent l'expression intense et presque hypnotique du taureau.</p>
+        <p>La fabrication de tels objets à une échelle monumentale ou en matériaux précieux (comme le stéatite ou l'or) témoigne du rôle central du taureau dans l'idéologie et les rituels crétois, notamment les célèbres jeux de taurokathapsia (saut au-dessus du taureau). Ce rhyton en terre cuite, bien que moins luxueux, n'en demeure pas moins un objet de prestige, probablement utilisé dans un sanctuaire ou lors de banquets d'État. La schématisation des motifs géométriques par rapport aux exemples plus anciens annonce la transition vers le style mycénien tardif, où le naturalisme s'efface au profit d'une plus grande formalisation décorative.</p>`
+      },
+      {
+        id: "larnax_ligortynos",
+        century: "v. -1350 à -1250 av. J.-C. (XIVe - XIIIe s. av. J.-C.)",
+        title: "Larnax à décor marin et végétal",
+        site: "Ligortynos (Crète)",
+        category: "Mobilier funéraire",
+        themeLink: "https://photos.google.com/share/AF1QipMlW4TQJ8A9qGbcmVyMNAsLLD3a9pwHTBsx-qcnMuuYdqlbjXgrrncpHaXoLLK0LA?key=LTdfMHQ4VHdhNmJ4WEI2bFRtU2xTaHpCeHM2bEZR",
+        chips: ["Minoen Récent III", "Terre cuite peinte", "Style marin"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczO47qJMkhp20Z27X3Gv78fr_pQMc_lTVDiqHyXNV9Wkoi9k7k2Jlb0KWokDNT4Y3Ki6QKgzzv3mNsgaAse57mjhd3X308PEYYy2V48cZXNeWdHXJQmkvO70BlilA-TyNrBlNajowmlDC7f0sM_uLQtcVw=w2111-h1589-s-no-gm?authuser=0",
+        narrative: `<p>Cette larnax, ou sarcophage en terre cuite, est un exemple majeur du mobilier funéraire crétois de la période du Minoen Récent III. Elle se présente sous la forme d'un coffre rectangulaire massif reposant sur quatre pieds courts et épais, une structure inspirée des coffres domestiques en bois de l'époque. Le couvercle, de forme raboutée ou en bâtière (semblable à un toit à deux versants), permettait de clore hermétiquement le réceptacle. La technique de fabrication, utilisant des plaques d'argile épaisses et une cuisson à haute température, assure à l'objet une grande durabilité, essentielle pour sa fonction de protection de la dépouille.</p>
+        <p>Le décor peint au vernis sombre sur le fond d'argile clair recouvre l'intégralité des parois extérieures, transformant le sarcophage en un véritable support narratif et symbolique. Les panneaux principaux sont ornés de motifs marins et végétaux d'une grande richesse : on y observe des pieuvres aux tentacules sinueux qui semblent flotter dans un espace fluide, entourées de poissons, de rochers stylisés et de papyrus. Cette iconographie marine, héritée du "style marin" minoen plus ancien, est ici réinterprétée avec une certaine schématisation. Le couvercle et les bordures du coffre sont soulignés par des frises géométriques, notamment des zigzags, des tresses et des damiers, qui structurent la composition et renforcent l'aspect architectural de l'objet.</p>
+        <p>La présence de tels motifs sur une pièce funéraire à Ligortynos n'est pas purement décorative. L'omniprésence du thème de l'eau et de la régénération (le papyrus) évoque le voyage du défunt vers l'au-delà et sa survie symbolique. Le mélange entre la faune sauvage (comme sur le cratère aux bouquetins que nous avons vu) et le monde aquatique témoigne de la vision globale de la nature propre aux Crétois de cette époque. Cette larnax illustre parfaitement le prestige des rites funéraires en Crète au XIVe siècle avant J.-C., où l'art servait de pont entre le monde des vivants et celui des morts.</p>`
       }
     ]
   },
   {
-    id: "chypre",
-    name: "Art Chypriote Antique",
-    epoch: "v. -2000 à -500 av. J.-C.",
-    yearStart: -2000,
+    id: "chypre_bronze",
+    name: "Art Chypriote (Âge du Bronze & Archaïque)",
+    epoch: "v. -2500 à -500 av. J.-C.",
+    yearStart: -2500,
     yearEnd: -500,
     lane: "chypre",
     themeColor: "#e9c46a",
     sidePos: "pos-left",
     travelingOrigin: "55.4% 45.6%",
     haloId: "halo-chypre",
-    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczNtlhntpxWY6u22Dj77CiZfXJnSfduTP1uXInNNl7THWXS5vseOikfKiRgcTsCjP2iVGO-jX924k9zAAUyZQhGX8luuSrh5eXc650LHXXMWEdLAl7o589lo_Rkk6Bo9UJYlo4iFAtBkaj6qhmzuUK5y_w=w2081-h882-s-no-gm?authuser=0",
-    mapOverlayUrl: "https://lh3.googleusercontent.com/d/1QNkcnjOVZ9nSJxO2vXusVWgC04EmaUcO",
-    albumUrl: "https://photos.google.com/share/AF1QipORn4Sj9GchtBwLRq4DuZRFxHqmcBvuxx8uA2_VwycbpRi8amqI-iK7UvkQSi6apA?key=ZmJweFhiZEJySU1rUms2REJFWm1jZ1YwQjFMczJ3",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczNtlhntpxWY6u22Dj77CiZfXJnSfduTP1uXInNNl7THWXS5vseOikfKiRgcTsCjP2iVGO-jX924k9zAAUyZQhGX8luuSrh5eXc650LHXXMWEdLAl7o589lo_Rkk6Bo9UJYlo4iFAtBkaj6qhmzuUK5y_w=w2111-h896-s-no-gm?authuser=0",
+    mapOverlayUrl: "https://lh3.googleusercontent.com/d/1-RyywCVU5Ct2McoKupe9Z2OnXrnDSJ9r",
+    albumUrl: "https://photos.google.com",
     presentationHtml: `
-      <p><strong>Un carrefour méditerranéen de synthèse et de liberté</strong><br>
-      Façonné par sa position charnière entre le monde égéen, le Levant et l'Égypte, l'art chypriote antique fusionne les influences orientales et occidentales dans la ronde-bosse et la céramique.</p>
+      <p><strong>L'île du cuivre au carrefour des mondes antiques</strong><br>
+      L’art chypriote de l'âge du Bronze (v. 2500–1050 av. J.-C.) s'épanouit au carrefour des influences méditerranéennes, profitant de la position stratégique de l'île et de ses immenses ressources en cuivre pour développer une esthétique originale et cosmopolite.</p>
+      <p>La céramique chypriote se distingue par des formes audacieuses et des techniques singulières, allant des vases zoomorphes et anthropomorphes de la période philaire jusqu'aux superbes décors géométriques et peints du style « Base-Ring » et « White Slip ».</p>
+      <p>L'orfèvrerie et le travail du bronze atteignent un sommet remarquable, illustrés par des poignards damasquinés, des lingots de cuivre en forme de peau de bœuf et des bijoux en or ouvragés qui témoignent d'un artisanat hautement qualifié.</p>
+      <p>La statuaire et les terres cuites locales, souvent associées à des rituels funéraires ou votifs, adoptent une stylisation épurée, mêlant des traditions égéennes, syriennes et anatoliennes.</p>
+      <p>L'architecture s'urbanise progressivement avec l'édification de centres portuaires et de cités-États fortifiées, comme Enkomi ou Kition, dotées d'imposantes constructions en pierre de taille et de sanctuaires dédiés au dieu du cuivre.</p>
     `,
     concurrentHtml: `
       <p><strong>Le contexte mondial au IIe millénaire av. J.-C.</strong></p>
-      <p>Pendant que l'île de Chypre exploite ses mines de cuivre et rayonne en Méditerranée, les grands empires du Proche-Orient se font face.</p>
+      <p>Pendant que l'île de Chypre façonne son art du cuivre au carrefour des routes maritimes, les autres grands foyers civilisationnels du globe traversent des mutations historiques et culturelles majeures au cours du IIe millénaire av. J.-C.</p>
+      <p>En Égypte, le Nouvel Empire atteint son apogée impérial sous les XVIIIe et XIXe dynasties, étendant son influence de la Nubie jusqu'à l'Euphrate et bâtissant les sanctuaires monumentaux de Karnak, Louxor et les hypogées de la Vallée des Rois.</p>
+      <p>En Mésopotamie et au Proche-Orient, la période voit s'affronter et prospérer de grands empires rivaux — l'Empire hittite en Anatolie, les Kassites à Babylone et le royaume médio-assyrien —, connectés par un vaste réseau diplomatique scellé par les tablettes d'Amarna.</p>
+      <p>En mer Égée, la civilisation mycénienne succède aux Minoens, érigeant de puissantes citadelles fortifiées sur le continent grec (Mycènes, Tirynthe) avant de s'effondrer mystérieusement lors des bouleversements méditerranéens de la fin du millénaire.</p>
+      <p>En Chine, la dynastie Shang consolide son pouvoir dans la vallée du Fleuve Jaune, perfectionnant la fonte des grands bronzes rituels et instaurant un système d'écriture logographique sur os oraculaires pour le culte des ancêtres.</p>
     `,
     themeAlbums: [
-      { label: "🏺 Céramiques", url: "https://photos.google.com/share/AF1QipORn4Sj9GchtBwLRq4DuZRFxHqmcBvuxx8uA2_VwycbpRi8amqI-iK7UvkQSi6apA?key=ZmJweFhiZEJySU1rUms2REJFWm1jZ1YwQjFMczJ3" }
+      { label: "🏺 Céramiques", url: "https://photos.google.com" },
+      { label: "🗿 Terres cuites", url: "https://photos.google.com" }
     ],
     artifacts: [
       {
-        id: "vase_zoomorphe",
-        century: "v. -2000 av. J.-C. (Bronze moyen)",
-        title: "Vase zoomorphe en terre cuite polie",
+        id: "vase_zoomorphe_chypre",
+        century: "v. -1900 av. J.-C. (XXe - XIXe s. av. J.-C.)",
+        title: "Vase zoomorphe lustré",
         site: "Chypre (Chypriote moyen)",
-        category: "Céramique",
-        themeLink: "https://photos.google.com/share/AF1QipORn4Sj9GchtBwLRq4DuZRFxHqmcBvuxx8uA2_VwycbpRi8amqI-iK7UvkQSi6apA?key=ZmJweFhiZEJySU1rUms2REJFWm1jZ1YwQjFMczJ3",
-        chips: ["Bronze moyen", "Terre cuite rouge lustrée", "Incisions blanches"],
-        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNtlhntpxWY6u22Dj77CiZfXJnSfduTP1uXInNNl7THWXS5vseOikfKiRgcTsCjP2iVGO-jX924k9zAAUyZQhGX8luuSrh5eXc650LHXXMWEdLAl7o589lo_Rkk6Bo9UJYlo4iFAtBkaj6qhmzuUK5y_w=w2081-h882-s-no-gm?authuser=0",
-        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMwaWZj9ZJS2rx_hwQzKXMrX8T-dW4KCyKq_as5_5nanYRBp8H68Piwtsg-C3BSAS-3ySv-e2v2Jem2O_e-x_iRkqIa8i3-TeAZXdbsc8USM5CIYq7hClkqpkUvMzjv1YvWtGSe71r8y_G-Xx27lGlerw=w1814-h2410-s-no-gm?authuser=0",
-        narrative: `<p>Ce vase zoomorphe représente un quadrupède sauvage dont le corps globulaire sert de panse et le cou de goulot verseur.</p>`
+        category: "Céramique rituelle",
+        themeLink: "https://photos.google.com",
+        chips: ["Bronze Moyen", "Engobe rouge lustré", "Incisions à la chaux"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNtlhntpxWY6u22Dj77CiZfXJnSfduTP1uXInNNl7THWXS5vseOikfKiRgcTsCjP2iVGO-jX924k9zAAUyZQhGX8luuSrh5eXc650LHXXMWEdLAl7o589lo_Rkk6Bo9UJYlo4iFAtBkaj6qhmzuUK5y_w=w2111-h896-s-no-gm?authuser=0",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMwaWZj9ZJS2rx_hwQzKXMrX8T-dW4KCyKq_as5_5nanYRBp8H68Piwtsg-C3BSAS-3ySv-e2v2Jem2O_e-x_iRkqIa8i3-TeAZXdbsc8USM5CIYq7hClkqpkUvMzjv1YvWtGSe71r8y_G-Xx27lGlerw=w1818-h2416-s-no-gm?authuser=0",
+        narrative: `<p>Ce vase zoomorphe en terre cuite polie, datant de l'Âge du Bronze moyen (Chypriote moyen), illustre la grande inventivité des potiers de l'île dans la création de récipients aux formes organiques. L'objet représente un quadrupède, probablement un cerf ou un capridé, dont le corps globulaire fait office de panse pour le liquide. Le long cou de l'animal sert de goulot verseur, tandis que la tête, aux oreilles pointues et au museau effilé, est traitée avec une stylisation expressive qui capture l'essence de l'animal sauvage. Un petit anneau de suspension, situé sur le dos de la créature, permettait de transporter ou d'accrocher le vase à l'aide d'une cordelette.</p>
+        <p>La surface de la pièce est recouverte d'un engobe rouge lustré, caractéristique des productions chypriotes de cette époque. Le décor est constitué d'incisions géométriques méticuleuses remplies d'une matière blanche (pâte de chaux), créant un contraste saisissant avec la couleur profonde de l'argile. Sur les flancs de l'animal, des motifs en forme de branches ou d'épis de blé s'organisent verticalement, alternant avec des bandes hachurées qui soulignent la rondeur du corps. Ces motifs végétaux ou schématiques pourraient faire référence à l'environnement naturel de l'animal ou à des symboles de fertilité liés au contenu du vase.</p>
+        <p>Ce type de récipient, à la fois utilitaire et symbolique, était souvent utilisé lors de cérémonies rituelles ou déposé dans des contextes funéraires comme offrande. Il démontre une transition vers des formes plus dynamiques et naturalistes par rapport aux époques précédentes, tout en conservant une rigueur géométrique dans l'ornementation. L'équilibre entre la fonctionnalité du vase et sa dimension sculpturale fait de cette œuvre un témoignage précieux de l'art de vivre et des croyances de la société chypriote du début du IIe millénaire avant notre ère.</p>`
+      },
+      {
+        id: "figurine_base_ring_kourotrophos",
+        century: "v. -1450 av. J.-C. (XVe s. av. J.-C.)",
+        title: "Figurine féminine kourotrophos",
+        site: "Tyr (production chypriote)",
+        category: "Terre cuite & Dévotion",
+        themeLink: "https://photos.google.com",
+        chips: ["Base Ring II", "Bronze Récent", "Kourotrophos"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNtlhntpxWY6u22Dj77CiZfXJnSfduTP1uXInNNl7THWXS5vseOikfKiRgcTsCjP2iVGO-jX924k9zAAUyZQhGX8luuSrh5eXc650LHXXMWEdLAl7o589lo_Rkk6Bo9UJYlo4iFAtBkaj6qhmzuUK5y_w=w2111-h896-s-no-gm?authuser=0",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNufxOapnwqIR5eRwmyNhF8HBWd4Q_q4QugRWMjWQzcUz2IYBKi1u0QUIfRCM9WGX28x-rQiwj8lL4vmOJAvGnXMPQQ3xExGxLPF2b24gyNwBWQV4uW1AES3jShvmIAfTe07SWzo-w-UhOcGKoJlcX-UQ=w1818-h2416-s-no-gm?authuser=0",
+        narrative: `<p>Cette figurine anthropomorphe en terre cuite, appartenant à la catégorie technique de la « Base Ring II », est un exemplaire exceptionnel de la statuaire chypriote du Bronze récent. Elle représente une femme debout portant un nourrisson contre son sein gauche, une iconographie désignée sous le terme de kourotrophos. Bien que découverte à Tyr, sur la côte levantine, son style et sa fabrication confirment son origine chypriote, illustrant l'intensité des échanges culturels et commerciaux en Méditerranée orientale à cette époque. La silhouette est caractérisée par des hanches larges et un modelé creux, une innovation technique permettant une cuisson plus homogène de l'argile.</p>
+        <p>Le traitement du visage est particulièrement singulier : le nez est fortement busqué, s'apparentant à un « bec d'oiseau », tandis que les oreilles, larges et stylisées, présentent des perforations multiples destinées à recevoir des anneaux de métal ou de terre cuite, aujourd'hui disparus. Le corps est orné de motifs incisés qui soulignent les parures et les caractères sexuels. On distingue nettement un collier composé de plusieurs rangs autour du cou et une ceinture marquant la taille. Le triangle pubien est mis en évidence par de profondes incisions en chevrons, un trait caractéristique lié aux cultes de la fertilité et de la régénération.</p>
+        <p>La présence de cette figurine dans un contexte phénicien souligne son rôle potentiel d'objet de dévotion personnelle ou funéraire. En tenant son enfant avec ses deux bras, la figure maternelle incarne la protection et la continuité de la lignée. Les incisions géométriques sur le pubis et l'abdomen renforcent cette lecture symbolique de la fécondité. Ce type d'objet servait probablement de médiateur entre le fidèle et une divinité féminine protectrice, ancêtre de la grande déesse chypriote, garantissant la survie des nouveau-nés et la prospérité du foyer.</p>`
+      },
+      {
+        id: "orant_chypriote_archaique",
+        century: "v. -650 av. J.-C. (VIIe - VIe s. av. J.-C.)",
+        title: "Statuette d'orant ou dignitaire",
+        site: "Sanctuaire de Chypre",
+        category: "Coroplastie & Sculpture votive",
+        themeLink: "https://photos.google.com",
+        chips: ["Époque Archaïque", "Terre cuite peinte", "Coroplastie"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNtlhntpxWY6u22Dj77CiZfXJnSfduTP1uXInNNl7THWXS5vseOikfKiRgcTsCjP2iVGO-jX924k9zAAUyZQhGX8luuSrh5eXc650LHXXMWEdLAl7o589lo_Rkk6Bo9UJYlo4iFAtBkaj6qhmzuUK5y_w=w2111-h896-s-no-gm?authuser=0",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP2W_m_RjvYnvtw9edrmROsxlhf-9sLrQkidZ9x59w35cbRpPCZ7h-_hUC_xBh5BFTh1MDSaE-4rNJSOYT5HK64ij5AETYrmBW2j0laeXXpGwDS3bQYXkQq0kOpbzTfc4P1yIjbfSKEzjDZx_xbS8uptw=w1818-h2416-s-no-gm?authuser=0",
+        narrative: `<p>Cette statuette en terre cuite illustre l'apogée de la sculpture coroplastique chypriote, une tradition qui a pris un essor considérable à partir du milieu du VIIe siècle av. J.-C. Le personnage est représenté debout, dans une attitude hiératique qui souligne la solennité de sa fonction, probablement celle d'un orant ou d'un dignitaire lié à un sanctuaire. Le travail de la terre cuite combine ici des techniques de modelage à la main pour le corps et l'utilisation probable d'un moule pour les traits du visage, permettant d'obtenir une expression d'une grande finesse. La silhouette est cylindrique et stylisée, une caractéristique propre aux grandes figurines de cette période, où l'artiste privilégie la présence symbolique sur le réalisme anatomique.</p>
+        <p>Le visage présente des traits archaïques typiques, avec des yeux en amande largement ouverts et un léger sourire qui confère à la figure une vitalité intérieure. La coiffe ou la chevelure est traitée avec soin, encadrant le front et retombant sur les épaules, ce qui accentue la verticalité de la composition. Le vêtement, une longue tunique lisse, sert de support à une décoration peinte dont on devine encore les traces sombres. Ces motifs géométriques ou floraux permettaient de simuler la richesse des textiles de l'époque, ajoutant une dimension de prestige au personnage représenté. Les bras, légèrement décollés du buste, suggèrent un geste d'offrande ou de prière aujourd'hui partiellement perdu.</p>
+        <p>L'importance de cette statuette réside dans son rôle de témoignage des échanges culturels intenses en Méditerranée orientale. Si la technique et le style s'inscrivent dans une tradition locale forte, on y perçoit également des influences venues du Levant et de l'Égypte, réinterprétées avec l'esthétique propre à Chypre. Ces objets, déposés par centaines dans les sanctuaires de l'île, servaient de substituts éternels aux fidèles, assurant leur présence continue devant la divinité. La conservation des pigments et la douceur du modelage font de cette pièce un exemple remarquable de la dévotion populaire et de l'artisanat de luxe au cœur de l'époque archaïque.</p>`
       }
     ]
   },
@@ -898,32 +1126,56 @@ CIVILISATIONS_REGISTRY.push(
     sidePos: "pos-left",
     travelingOrigin: "47.8% 38.5%",
     haloId: "halo-celte_fer",
-    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczOTpAuNPMicTn782_1Zjbxrq0HKHRKJG6AVI3MC5QV0sIgRxWd1KE3enIDaZ4vI7QiV5SLQ6pAzbtmog5AkOjGQTGt3u4cnSdiF9sW1VPzeXH1Md2FDvlYQR92Fv7MXvbsr0sYzoNpKZc4GHJfmENYp7w=w2599-h1103-s-no-gm?authuser=0",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczOTpAuNPMicTn782_1Zjbxrq0HKHRKJG6AVI3MC5QV0sIgRxWd1KE3enIDaZ4vI7QiV5SLQ6pAzbtmog5AkOjGQTGt3u4cnSdiF9sW1VPzeXH1Md2FDvlYQR92Fv7MXvbsr0sYzoNpKZc4GHJfmENYp7w=w2111-h896-s-no-gm?authuser=0",
     mapOverlayUrl: "https://lh3.googleusercontent.com/d/1ZFqo_BVU5BBUN4mpNGlMeBOm91xXLtZt",
-    albumUrl: "https://photos.google.com/share/AF1QipN97zbv-suncBTa6iOfDQyMggpdDV-ktXSY4EJ2KenZ4zqHUwifE_nIBb6FYB0Y6g?key=WHlZSlNIb19jTnoyaExjWWN3TFZFUC1xeTB3bmRn",
+    albumUrl: "https://photos.google.com",
     presentationHtml: `
-      <p><strong>L'art métamorphique et le refus du réalisme</strong><br>
-      L'art celtique du second âge du Fer (La Tène) rompt délibérément avec le naturalisme méditerranéen pour privilégier l'abstraction curviligne, les entrelacs géométriques et le symbolisme animalier.</p>
+      <p><strong>L'abstraction curviligne et la virtuosité guerrière</strong><br>
+      L'art celte de l'âge du Fer (v. 800–1er siècle av. J.-C., divisé entre les cultures de Hallstatt et de La Tène) s'affranchit des traditions géométriques pour donner naissance à un art abstrait, curviligne et hautement sophistiqué, porté par une aristocratie guerrière nomade et commerçante.</p>
+      <p>Durant la période de Hallstatt, l'art se structure autour de riches tombes princières où le travail du fer s'allie au bronze et à l'or, produisant des parures spectaculaires et de grandes situles en tôle rivetée ornées de frises animalières et de scènes de banquets.</p>
+      <p>Avec l'épanouissement de la civilisation de La Tène, l'art celte explose dans une esthétique exubérante marquée par le style végétal continu, les entrelacs serpentins, les motifs en « S » et les figures énigmatiques ou grimaçantes inspirées parfois du monde méditerranéen ou oriental.</p>
+      <p>L'orfèvrerie et l'armurerie atteignent un sommet absolu de virtuosité avec les torques en or massif ajouré, les fourreaux d'épées ciselés de fines gravures et les superbes casques d'apparat en bronze repoussé.</p>
     `,
     concurrentHtml: `
-      <p><strong>Le contexte mondial antique</strong></p>
-      <p>Tandis que le monde celtique façonne ses torques et stèles, la Méditerranée antique voit l'apogée de la Grèce classique et la fulgurante expansion de l'Empire romain.</p>
+      <p><strong>Le contexte mondial au Ier millénaire av. J.-C.</strong></p>
+      <p>Tandis que le monde celtique façonne ses somptueux parures et armes en fer à travers l'Europe tempérée, le reste du monde antique est le théâtre d'immenses bouleversements politiques et culturels.</p>
+      <p>En Méditerranée, la Grèce classique et hellénistique érige les chefs-d'œuvre de l'Acropole d'Athènes, invente le théâtre dramatique et voit les conquêtes fulgurantes d'Alexandre le Grand projeter la culture grecque jusqu'aux portes de l'Inde.</p>
+      <p>En Perse, l'immense Empire achéménide déploie sa puissance architecturale à Persépolis, avant de s'effondrer face aux phalanges macédoniennes, laissant place aux dynasties hellénistiques des Séleucides.</p>
+      <p>En Chine, la période tumultueuse des Royaumes combattants s'achève par l'unification impériale violente de la dynastie Qin, qui érige la première Grande Muraille et dote sa capitale souterraine de la célèbre armée de terre cuite de Xi'an.</p>
     `,
     themeAlbums: [
-      { label: "🗿 Sculptures", url: "https://photos.google.com/share/AF1QipN97zbv-suncBTa6iOfDQyMggpdDV-ktXSY4EJ2KenZ4zqHUwifE_nIBb6FYB0Y6g?key=WHlZSlNIb19jTnoyaExjWWN3TFZFUC1xeTB3bmRn" }
+      { label: "🗿 Sculptures & Stèles", url: "https://photos.google.com" },
+      { label: "🏺 Céramiques", url: "https://photos.google.com" }
     ],
     artifacts: [
       {
         id: "stele_jublains",
         century: "IVe - IIIe siècle av. J.-C.",
-        title: "Stèle funéraire monumentale en granite",
+        title: "Stèle funéraire gauloise en granite",
         site: "Jublains (Mayenne)",
-        category: "Sculpture & Stèle",
-        themeLink: "https://photos.google.com/share/AF1QipN97zbv-suncBTa6iOfDQyMggpdDV-ktXSY4EJ2KenZ4zqHUwifE_nIBb6FYB0Y6g?key=WHlZSlNIb19jTnoyaExjWWN3TFZFUC1xeTB3bmRn",
-        chips: ["Second âge du Fer", "Monolithe en granite", "Jublains (Diablintes)"],
-        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczOTpAuNPMicTn782_1Zjbxrq0HKHRKJG6AVI3MC5QV0sIgRxWd1KE3enIDaZ4vI7QiV5SLQ6pAzbtmog5AkOjGQTGt3u4cnSdiF9sW1VPzeXH1Md2FDvlYQR92Fv7MXvbsr0sYzoNpKZc4GHJfmENYp7w=w2599-h1103-s-no-gm?authuser=0",
-        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNQ8lMq99-7bAoU4NMqEU8OjQrSrsHG8xGzpXtI0ktR3Uji1wDR7JydwrZc2-EntLOHJco7ti5F1QUaiA5kU_IAE3EoeVoRXa_PUj4rhHLk_mczJUW8oMd-e18JVRFZKu0CHtgWkiTL8KpwzTfpOECzIQ=w1607-h2410-s-no-gm?authuser=0",
-        narrative: `<p>Monolithe oblong en granite marquant l'emplacement d'une sépulture aristocratique et le culte des ancêtres.</p>`
+        category: "Sculpture & Monument funéraire",
+        themeLink: "https://photos.google.com",
+        chips: ["La Tène", "Granite taillé", "Gaule armoricaine"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczOTpAuNPMicTn782_1Zjbxrq0HKHRKJG6AVI3MC5QV0sIgRxWd1KE3enIDaZ4vI7QiV5SLQ6pAzbtmog5AkOjGQTGt3u4cnSdiF9sW1VPzeXH1Md2FDvlYQR92Fv7MXvbsr0sYzoNpKZc4GHJfmENYp7w=w2111-h896-s-no-gm?authuser=0",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNQ8lMq99-7bAoU4NMqEU8OjQrSrsHG8xGzpXtI0ktR3Uji1wDR7JydwrZc2-EntLOHJco7ti5F1QUaiA5kU_IAE3EoeVoRXa_PUj4rhHLk_mczJUW8oMd-e18JVRFZKu0CHtgWkiTL8KpwzTfpOECzIQ=w1611-h2416-s-no-gm?authuser=0",
+        narrative: `<p>Cette stèle en granite, située à l'extérieur près du Musée archéologique de Jublains, est un monument funéraire remarquable datant du 4ème ou 3ème siècle avant notre ère. Ce monolithe appartient à la culture du Second âge du Fer, correspondant à la véritable civilisation gauloise. Sa forme oblongue et sa taille soignée en font un exemple typique des stèles monumentales de l'Ouest de la Gaule, destinées à signaler une tombe ou l'emplacement d'un cimetière.</p>
+        <p>Sur le plan archéologique, ces pierres sont révélatrices des pratiques funéraires des peuples celtes de la région. On dénombre environ une vingtaine de stèles de ce type dans le nord du département de la Mayenne. Leur fréquence augmente significativement à mesure que l'on progresse vers l'ouest et la Bretagne, marquant une spécificité culturelle forte des populations armoricaines. Ces monuments étaient initialement érigés au-dessus de sépultures à incinération ou à inhumation pour honorer la mémoire des défunts de haut rang.</p>
+        <p>L'histoire de cette stèle particulière est également liée à l'évolution religieuse du territoire. Découverte en 1878 contre un mur de l'église, elle illustre le phénomène de christianisation des monuments païens au Moyen Âge. À cette époque, de nombreuses stèles gauloises ont été déplacées et réutilisées près des édifices chrétiens, soit pour sanctifier d'anciens lieux de culte, soit simplement par opportunisme architectural, les considérant comme des blocs de pierre de construction déjà taillés.</p>
+        <p>Aujourd'hui, ce monument dépouillé de toute inscription — les Gaulois privilégiant la tradition orale — contraste avec les bornes milliaires romaines bavardes. Il reste l'un des rares témoins visibles de la cité des Diablintes avant l'arrivée des Romains et la fondation de Noviodunum. Sa sobriété et sa masse imposante rappellent la pérennité des traditions locales qui ont perduré bien après l'intégration de la région dans l'Empire romain.</p>`
+      },
+      {
+        id: "vase_balustre_lemans",
+        century: "Ier siècle av. J.-C.",
+        title: "Vase balustre cénoman",
+        site: "Le Mans",
+        category: "Céramique gauloise",
+        themeLink: "https://photos.google.com",
+        chips: ["Ier siècle av. J.-C.", "Le Mans", "Terre cuite grise", "Cénomans"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczOTpAuNPMicTn782_1Zjbxrq0HKHRKJG6AVI3MC5QV0sIgRxWd1KE3enIDaZ4vI7QiV5SLQ6pAzbtmog5AkOjGQTGt3u4cnSdiF9sW1VPzeXH1Md2FDvlYQR92Fv7MXvbsr0sYzoNpKZc4GHJfmENYp7w=w2111-h896-s-no-gm?authuser=0",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOeA-57KA6AcGKWg1BbtdwWs684LLHV-9n2wCbgreZAG40RdDCxV9blX9eMn5A0rrhERAPUtuciQBnOd8SLX0zlym2AYX1ndJKwGdPu_bijWeHvAAxLcpd94ZsjRn9W9b4LO632wuEulzoBj6jTx22THw=w1818-h2416-s-no-gm?authuser=0",
+        narrative: `<p>Ce vase en terre cuite, de forme « balustre », constitue une pièce remarquable de l'artisanat céramique gaulois, daté du Ier siècle avant notre ère. Découvert au Mans, il témoigne du savoir-faire des potiers cénomans et de la vitalité des échanges culturels au sein de la Gaule celtique. Sa silhouette élégante et élancée se caractérise par une base étroite s'évasant gracieusement vers un corps pançu, surmonté d'un col haut et d'une lèvre évasée. La surface de l'objet, à la patine grise et mate caractéristique des poteries régionales de cette période, porte les stigmates du temps, avec un réseau complexe de fractures témoignant d'une restauration soignée à partir de nombreux fragments, sans altérer la lisibilité de son décor.</p>
+        <p>L'ornementation de ce vase est d'une sobriété élégante, mettant en valeur la fluidité de sa forme. Le décor se compose principalement de motifs horizontaux répétitifs qui structurent la surface de l'objet. On y retrouve des canaux, des rainures creusées avec précision, alternant avec des baguettes, fines nervures en relief qui soulignent la circonférence du vase. Ces canaux sont disposés sur la partie supérieure du corps et sur le col, créant un rythme visuel discret mais efficace. La régularité de l'exécution de ces motifs témoigne de la maîtrise du tournage et de la finition, caractéristiques de la production potière cénomante de la fin de l'époque gauloise.</p>
+        <p>La fonction de ce type de vase, moins fréquente que celle des écuelles ou des pots globulaires plus classiques, s'inscrivait probablement dans un contexte domestique ou funéraire, servant potentiellement à la consommation de liquides ou à la présentation d'offrandes. Sa présence au Mans illustre la diversité du répertoire morphologique de la céramique de la Tène finale et l'esthétique sobre et structurée des productions cénomantes à la veille de la conquête romaine. Ce vase balustre constitue ainsi un témoignage précieux de l'habileté des potiers locaux et de leur sens de l'esthétique, incarnant une tradition céramique originale et vivante.</p>`
       }
     ]
   },
