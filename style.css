@@ -214,12 +214,15 @@ body {
 }
 
 /* =========================================================
-   CARTOUCHES LATÉRAUX POSÉS CONTRE LA FRISE (BAS ANCRÉ)
+   CARTOUCHES LATÉRAUX FLOTTANTS PARFAITEMENT CALÉS
    ========================================================= */
 #hover-sidebar-card, #concurrent-sidebar-card {
   position: absolute !important;
-  top: 15px;
-  bottom: 15px;
+  top: 10px !important;
+  bottom: 10px !important;
+  height: auto !important;
+  max-height: none !important;
+  min-height: 0 !important;
   z-index: 25;
   width: 380px;
   max-width: 35vw;
