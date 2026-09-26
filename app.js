@@ -82,7 +82,7 @@ const HISTORICAL_MILESTONES = [
 ];
 
 /* ==========================================================================
-   REGISTRE COMPLET DES CIVILISATIONS (AVEC MOYEN EMPIRE ÉGYPTIEN)
+   REGISTRE COMPLET DES CIVILISATIONS (AVEC NOUVEL EMPIRE ÉGYPTIEN)
    ========================================================================== */
 const CIVILISATIONS_REGISTRY = [
   {
@@ -212,8 +212,8 @@ const CIVILISATIONS_REGISTRY = [
   {
     id: "egypte_moyen",
     name: "Égypte : Moyen Empire & Périodes Intermédiaires",
-    epoch: "v. -2055 à -1550 av. J.-C.",
-    yearStart: -2055,
+    epoch: "v. -2160 à -1550 av. J.-C.",
+    yearStart: -2160,
     yearEnd: -1550,
     lane: "egypte",
     themeColor: "#20c997",
@@ -315,6 +315,225 @@ const CIVILISATIONS_REGISTRY = [
         deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNYTW5sAtoEIJbW13Sd4VuY6g3Nzw-HdepPHPblCHV2ZN6c-JRhaCMhMXPfEu-29P-pf2fR9t6HC5RMfiZEFkNx2RpGZlf4TvFeZxmQjiekeTtV5e-DGkag-bG4cR07YRE5D-FzrDmHCxrSORtTZoTjJA=w1584-h672-s-no-gm?authuser=0",
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOKk1OEjeYDQKK89GCEpq4kpFha_SEZesIJ0FCZue6yMd6qZ4KZk9Lm-d5IHC2uDMWHLIpNqQunzW0UfYvxymQ4_hFecpECkajLW_3O8tTU65UX82BjSSsMGx_QGQv87VZ-PDBFCDivdjsxR81xVBdV6A=w1733-h2302-s-no-gm?authuser=0",
         narrative: "Témoignage capital de la Deuxième Période Intermédiaire, cette effigie représente le pharaon thébain Séqenenrê Taâ, initiateur héroïque de la guerre de libération contre l'occupant Hyksôs. Le souverain assis affiche un modelé puissant et sobre, marquant la reconquête de l'autorité royale qui aboutira, sous ses fils Kamosé et Ahmôsis, à l'avènement glorieux du Nouvel Empire."
+      }
+    ]
+  },
+  {
+    id: "egypte_nouvel",
+    name: "Égypte : Nouvel Empire",
+    epoch: "v. -1550 à -1069 av. J.-C.",
+    yearStart: -1550,
+    yearEnd: -1069,
+    lane: "egypte",
+    themeColor: "#10b981",
+    sidePos: "pos-left",
+    travelingOrigin: "55.6% 51.5%",
+    haloId: "halo-egypte_nouvel",
+    bannerImg: "https://lh3.googleusercontent.com/d/11hLJFFN1McLmLPGw1pf73r-LVI6VfhMp",
+    mapOverlayUrl: "https://lh3.googleusercontent.com/d/1dr_LjQHujm-KXcT7uAuDrFnl9T13Zxu5",
+    albumUrl: "https://photos.google.com/share/AF1QipN3eyH-IXfJ5tzHs153uMFgtbiZ-T1UONLzfSVpPLodOXWcNGXYMeojYCDX7skI5w?key=dEpRSmZnTkVLb2FuOHJCbjRqZDhDZ1ZDNDhOVkhn",
+    presentationHtml: `
+      <p><strong>L'Âge d'or impérial et le gigantisme thébain</strong><br>
+      Le Nouvel Empire (v. 1550-1069 av. J.-C., XVIIIe-XXe dynasties) représente l'âge d'or et l'apogée monumental de la civilisation égyptienne. Portée par les conquêtes militaires vers le Levant et la Nubie après l'expulsion des Hyksôs, la monarchie accumule d'immenses richesses qui nourrissent un essor artistique et architectural sans précédent. L'architecture religieuse bascule dans le gigantisme pour magnifier la triade thébaine et le culte d'Amon-Rê. Les sanctuaires de Karnak et Louxor développent la structure canonique du grand temple : pylônes massifs, cours à portiques, salles hypostyles aux forêts de colonnes papyriformes et sanctuaires retirés.</p>
+
+      <p><strong>La Vallée des Rois et les temples de millions d'années</strong><br>
+      Parallèlement, la coupure physique entre la tombe et le temple funéraire s'impose : les rois creusent désormais leurs hypogées labyrinthiques dans le secret de la Vallée des Rois, ornés des grands livres de l'au-delà peints à fresque, tandis que les temples de millions d'années s'alignent le long de la rive ouest, d'Hatchepsout à Deir el-Bahari jusqu'aux colosses du Ramesséum et de Medinet Habou.</p>
+
+      <p><strong>Raffinement classique et rupture amarnienne</strong><br>
+      La statuaire royale et privée atteint une grâce et un raffinement extrêmes sous Amenhotep III, avant la rupture iconographique et religieuse de l'épisode amarnien sous Akhenaton. La période d'Amarna introduit un expressionnisme inédit — corps allongés, crânes dolichocéphales, scènes intimes de la famille royale baignée des rayons d'Aton —, dont l'héritage assouplira durablement le canon égyptien après le retour à l'orthodoxie. Les arts décoratifs célèbrent le luxe : le mobilier en bois précieux incrusté, les fresques des tombes de nobles à Thèbes et l'orfèvrerie en or massif (trésor de Toutânkhamon) incarnent la virtuosité technique absolue de cette époque impériale.</p>
+    `,
+    themeAlbums: [
+      { label: "🏺 Céramiques", url: "https://photos.google.com/share/AF1QipMNQ5eY261NXOzCFawVXiW-1pbb7VG4opgoBxJ-TEVNd2BxJp52VopMR2q7kVBtHw?key=SHplem9jdFE2RnhCaXJIR1o4al9UMTI1UHhCc3NB" },
+      { label: "📜 Gravures & Reliefs", url: "https://photos.google.com/share/AF1QipNlo80I8xbcNGWKMI7dnnm5aPtALq8jpsRKJGGdAmNT2TnbEIrd0Y2isWehnlLwbg?key=S0kzelN6N1pyaTlZc21PeWtiOUN0bHZyckVMaGZB" },
+      { label: "🎨 Peintures", url: "https://photos.google.com/share/AF1QipMzaxBxEP6dd76u3_Ldl7cRgR0YQ5fFNegi5HUNy5E8VHUVEF7pPnAqhXLKYkbJ9w?key=V0kwcUlEVXFXQ0FLVFp5dXJEWklVMjhvWHFrUjZB" },
+      { label: "🏛️ Obélisques & Temples", url: "https://photos.google.com/share/AF1QipMD9gTlrGuj9Ng3NopZQQkswrc49JfmHJESKRZWFkm7AQaA5mCjFLZDXTDRQG-cVQ?key=SzhBc0ZNQzJIbFhCYWhkLThmU2FySURxaU11dWpB" },
+      { label: "🗿 Statuaire Royale", url: "https://photos.google.com/share/AF1QipN3eyH-IXfJ5tzHs153uMFgtbiZ-T1UONLzfSVpPLodOXWcNGXYMeojYCDX7skI5w?key=dEpRSmZnTkVLb2FuOHJCbjRqZDhDZ1ZDNDhOVkhn" },
+      { label: "🪦 Parois des Tombes", url: "https://photos.google.com/album/AF1QipMvAReo-M_8VZNBNi0XN9cnCCA3GdgpYxIN2gpd" },
+      { label: "💍 Bijoux & Quotidien", url: "https://photos.google.com/share/AF1QipMPvGsbKG1P6Ly3nEAZsXXysQgJw7e60mYpU3GLEzPTCykMr0iCgV31qU_k8JEt6g?key=dUlsQnlQdTh5elVReGU2T0ZaUEtsc0ljS3NZZjZB" },
+      { label: "⚰️ Funéraire & Momies", url: "https://photos.google.com/share/AF1QipMPZVPxixftA0xlCWDph7xd49UFkPFHE1yI8RvwsVn_IoUoWO5COMeS__ajWSqZeQ?key=N3RLMkZ0aEtYcFhUb3FLLTl6aXJicDBZM0JRSkJR" }
+    ],
+    artifacts: [
+      {
+        id: "vase_bouquetin",
+        century: "XVIIIe dynastie",
+        title: "Vase plastique en terre cuite en forme de bouquetin couché",
+        site: "Dra Aboul el-Naga (Thèbes-Ouest)",
+        category: "Céramique & Vases",
+        themeLink: "https://photos.google.com/share/AF1QipMNQ5eY261NXOzCFawVXiW-1pbb7VG4opgoBxJ-TEVNd2BxJp52VopMR2q7kVBtHw?key=SHplem9jdFE2RnhCaXJIR1o4al9UMTI1UHhCc3NB",
+        chips: ["XVIIIe dynastie", "Terre cuite peinte", "Vase à parfum plastique"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczMye-6h_mO7c1IxOVHC6F_onIdMdNCW0ClLSIDdtvJ1x0aiRuMzxKt30uiRVitgdtrCaG05N3b2aSvJvw2G4XSjbzyKEepd413xwlolFNTiHCiZejJ9FG6txJ_l7Jw4PNZwFRXMkMh1LIgaN9NEESMw-g=w1649-h700-s-no-gm?authuser=0",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNxnQN06KMcGHwPqxHCEhoQSFrJ2rJ3Qn7UJXaqsxequGijgy_tCV1Ot_p6SI2gwMdQYPntrD88A11pCMIRDTD8PyoEKsoIMhKCNCaS2tzZYO1ZnJ5NYVV4PSBpD945uAlw14wLeOZO7FmQpySywN9bUg=w1816-h2412-s-no-gm?authuser=0",
+        narrative: "Ce vase plastique modelé sous la forme d'un bouquetin couché allie fonction utilitaire de flacon à parfum et puissance symbolique du monde désertique. Les cornes recourbées forment une anse naturelle tandis que le museau sert de goulot verseur précis, illustrant le goût des élites thébaines pour les formes mobilières sophistiquées."
+      },
+      {
+        id: "pleureuses_ramose",
+        century: "v. -1360 av. J.-C. (XVIIIe dynastie)",
+        title: "Les pleureuses de la tombe du vizir Ramose",
+        site: "Cheikh Abd el-Gourna (Thèbes, TT55)",
+        category: "Peinture murale",
+        themeLink: "https://photos.google.com/share/AF1QipMzaxBxEP6dd76u3_Ldl7cRgR0YQ5fFNegi5HUNy5E8VHUVEF7pPnAqhXLKYkbJ9w?key=V0kwcUlEVXFXQ0FLVFp5dXJEWklVMjhvWHFrUjZB",
+        chips: ["Règne d'Amenhotep III", "Fresque sur enduit", "Nécropole thébaine"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO-oIaGstfUOdgYBAOgtj8VCCM6hCeXJEWmjLkcI-CcQp9aZq2bZ96H8tHBGkmBsQk3Q6LzpD5mhZbN5zFCr2aqncoFfdWAD3UDDiHmjAAV5DrXBVFBAdSNgvfCinLQ2uR8Mb4MIpgCmPcj94dUfjVw1A=w1584-h672-s-no-gm?authuser=0",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNQqtk1j0pAutwpakZZL4djOl-kLWjjqfTUMia3Ku1md7WH05O2P1RMv3536bfeGoZbahTbil34Qk2ktl9G7WeGooksR2wBJLpNrar05PTVkJcNOkgakDyvLWHqsK7X85BeMRHXa1MxSRXdhfUhr3RE1g=w1933-h1289-s-no-gm?authuser=0",
+        narrative: "Chef-d'œuvre poignant de la nécropole thébaine, cette scène dépeint le deuil rituel d'un groupe de pleureuses professionnelles. Le chevauchement des silhouettes vêtues de lin blanc transparent, les larmes coulant sur les joues et le mouvement des bras levés marquent la transition entre le classicisme sous Amenhotep III et l'émotion expressive de l'art amarnien naissant."
+      },
+      {
+        id: "cuiller_nageuse",
+        century: "v. -1370 av. J.-C. (XVIIIe dynastie)",
+        title: "Cuiller à fard cosmétique à la nageuse et au canard",
+        site: "Thèbes (Règne d'Amenhotep III)",
+        category: "Bijoux & Quotidien",
+        themeLink: "https://photos.google.com/share/AF1QipMPvGsbKG1P6Ly3nEAZsXXysQgJw7e60mYpU3GLEzPTCykMr0iCgV31qU_k8JEt6g?key=dUlsQnlQdTh5elVReGU2T0ZaUEtsc0ljS3NZZjZB",
+        chips: ["XVIIIe dynastie", "Bois sculpté", "Musée du Louvre (Paris)"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczPQ7Fyr_QK45EhIbCaQK9DSWVLY8YHrbs0LBfsb8M0FU1kyOITmZRLXyVTOMPfWBk3RMNbX85O9P-x-c6fx2dJr_8GEV9VIWayQSAGPiQUDK6dIiaa3w9EOTtnmiqNCSHBIJhaf8easnLItku9XBVFzrg=w1649-h700-s-no-gm?authuser=0",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPI89y_1-4c6yp44AASxK7i8nUyIER91bWNzO3f0FmSJXyWnv5rgQsl6J0ph_cu34-yB5XiMOj_KkPiFSlOnx2K1BL-cwVad5JL9fbojQefLkzkhFJzw-oyzKONv7Bz0c8SwKbdyqi-3MYQdXe94tgCEA=w1933-h1456-s-no-gm?authuser=0",
+        narrative: "Objet d'art mobilier par excellence, cette cuiller à fard sculptée en bois représente une jeune femme nue nageant et tenant devant elle un canard dont les ailes pivotantes forment le couvercle du récipient à onguents. L'univers aquatique des marais était intimement lié aux thèmes de fertilité et de régénération éternelle dans la cour raffinée d'Amenhotep III."
+      },
+      {
+        id: "colosse_akhenaton",
+        century: "v. -1351 av. J.-C. (XVIIIe dynastie)",
+        title: "Colosse osiriaque d'Amenhotep IV - Akhenaton",
+        site: "Temple d'Aton à l'Est de Karnak",
+        category: "Rupture Amarnienne",
+        isAmarna: true,
+        themeLink: "https://photos.google.com/share/AF1QipN3eyH-IXfJ5tzHs153uMFgtbiZ-T1UONLzfSVpPLodOXWcNGXYMeojYCDX7skI5w?key=dEpRSmZnTkVLb2FuOHJCbjRqZDhDZ1ZDNDhOVkhn",
+        chips: ["Période d'Amarna", "Grès sculpté", "Révolution religieuse d'Aton"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNYTW5sAtoEIJbW13Sd4VuY6g3Nzw-HdepPHPblCHV2ZN6c-JRhaCMhMXPfEu-29P-pf2fR9t6HC5RMfiZEFkNx2RpGZlf4TvFeZxmQjiekeTtV5e-DGkag-bG4cR07YRE5D-FzrDmHCxrSORtTZoTjJA=w1584-h672-s-no-gm?authuser=0",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNcDrTnkin_or1HR9k2XGuIHJF_EZsAXH2lvQzPyE24CWOpDO8NiethbdOeUWVgNtHrrXBUprJnIiWQOalYEysxUm7p8qppyQWmTBWncOLNscRiIgFARVvDcpA2C1b0u2RTmZrs299AdLUCYz_iacy7ZA=w1607-h2412-s-no-gm?authuser=0",
+        narrative: "Symbole de la rupture esthétique et théologique du monothéisme d'Aton, ce colosse rompt avec tous les canons antérieurs : visage étiré, lèvres lippues, ventre relâché et hanches androgynes incarnant le créateur universel, à la fois père et mère de la Création. Retrouvé dans les remblais de Karnak après le martelage de la mémoire d'Akhenaton, il témoigne de la plus audacieuse révolution artistique d'Égypte."
+      },
+      {
+        id: "princesse_amarna",
+        century: "v. -1345 av. J.-C. (XVIIIe dynastie)",
+        title: "Tête de princesse royale amarnienne",
+        site: "Tell el-Amarna (Akhetaton)",
+        category: "Rupture Amarnienne",
+        isAmarna: true,
+        themeLink: "https://photos.google.com/share/AF1QipN3eyH-IXfJ5tzHs153uMFgtbiZ-T1UONLzfSVpPLodOXWcNGXYMeojYCDX7skI5w?key=dEpRSmZnTkVLb2FuOHJCbjRqZDhDZ1ZDNDhOVkhn",
+        chips: ["Style amarnien", "Calcaire peint polychrome", "Tell el-Amarna"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNYTW5sAtoEIJbW13Sd4VuY6g3Nzw-HdepPHPblCHV2ZN6c-JRhaCMhMXPfEu-29P-pf2fR9t6HC5RMfiZEFkNx2RpGZlf4TvFeZxmQjiekeTtV5e-DGkag-bG4cR07YRE5D-FzrDmHCxrSORtTZoTjJA=w1584-h672-s-no-gm?authuser=0",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNJf4FNbogA03WFKUunqWlJBOxITBo6DiwcIf1l9fg7HENAd3FTIYDfRRFSq4lleBpaS-Djm4Ii-stxF4ToNLRMFQqvQMCrv_ZNLdW8iD_hCYZH9H0TYVFmRfkEApXqhLSieEUCF9k6yRKbFArUFMjXMw=w1816-h2412-s-no-gm?authuser=0",
+        narrative: "Cette tête en calcaire peint capture la douceur expressive et la stylisation raffinée de l'atelier royal d'Amarna. Le crâne allongé vers l'arrière, les yeux en amande maquillés et la perruque courte nubienne révèlent la grâce intime de la cour du disque solaire avant le retour à l'orthodoxie thébaine."
+      },
+      {
+        id: "masque_toutankhamon",
+        century: "v. -1323 av. J.-C. (XVIIIe dynastie)",
+        title: "Masque funéraire en or massif de Toutânkhamon",
+        site: "Vallée des Rois (Tombeau KV62, Thèbes)",
+        category: "Orfèvrerie & Trésor",
+        themeLink: "https://photos.google.com/share/AF1QipMPZVPxixftA0xlCWDph7xd49UFkPFHE1yI8RvwsVn_IoUoWO5COMeS__ajWSqZeQ?key=N3RLMkZ0aEtYcFhUb3FLLTl6aXJicDBZM0JRSkJR",
+        chips: ["XVIIIe dynastie", "Or massif, lapis-lazuli, cornaline", "Musée Égyptien du Caire"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO8qJ9X0EbRPQwscIwqRQ7qhHKFuIShIpHCnkgDOrlDhzkMaCikMa0w9FILsuc5tAZ-IWaE9qllZEWwIzzDZbeSjQjh5IibmJDU6ycWvWpMiAnZ6BLpdVvNv-BAnPU-5_tcFcndUrfxL9yLT0soFPSQrQ=w1649-h700-s-no-gm?authuser=0",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMAT50JMxUk9wZrLgtZzzmgLYblBV2omlc2kfnrISwvRrOXzPwb0zhlDEl46cUOnWQ0vkg-dQarHFX3L98jzvHvD-tekEWVlF5SOnJ7Em7czgXoWQkAD7stVTM4K1SxFets3MbY-cgsZ8dG1eL5kZb4xw=w1008-h1344-s-no-gm?authuser=0",
+        narrative: "Pesant plus de dix kilos d'or pur ciselé, le masque funéraire de Toutânkhamon est le chef-d'œuvre absolu de l'art métallurgique égyptien. Incrusté de pâte de verre lapis-lazuli, cornaline et obsidienne, orné du cobra Ouadjet et du vautour Nekhbet, il porte au revers la formule 151 du Livre des Morts protégeant chaque parcelle de chair divine pour l'éternité."
+      },
+      {
+        id: "canopes_toutankhamon",
+        century: "v. -1323 av. J.-C. (XVIIIe dynastie)",
+        title: "Tête en calcite du coffre à canopes de Toutânkhamon",
+        site: "Chambre du Trésor (Tombe KV62, Thèbes)",
+        category: "Mobilier funéraire",
+        themeLink: "https://photos.google.com/share/AF1QipMPZVPxixftA0xlCWDph7xd49UFkPFHE1yI8RvwsVn_IoUoWO5COMeS__ajWSqZeQ?key=N3RLMkZ0aEtYcFhUb3FLLTl6aXJicDBZM0JRSkJR",
+        chips: ["XVIIIe dynastie", "Calcite (albâtre oriental)", "Musée Égyptien du Caire"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO8qJ9X0EbRPQwscIwqRQ7qhHKFuIShIpHCnkgDOrlDhzkMaCikMa0w9FILsuc5tAZ-IWaE9qllZEWwIzzDZbeSjQjh5IibmJDU6ycWvWpMiAnZ6BLpdVvNv-BAnPU-5_tcFcndUrfxL9yLT0soFPSQrQ=w1649-h700-s-no-gm?authuser=0",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMo0kZVEdsYCFWaDn10RBFTrE3H0G9zRTfuH5F0FPAiIwyU3982K9W0wv_secpL7ud8X_rZvKUzRfEHV_bNcMKMpEmlZQRZIPxO9cxbExSVW-55liRZSPJuhao2OzAhzk9c1xYnjYNQpeeInQFfbiVgLQ=w1933-h1289-s-no-gm?authuser=0",
+        narrative: "Ce bouchon sculpté fermant les compartiments du coffre à canopes représente le jeune souverain coiffé du némès. L'usage de l'albâtre translucide captait la lumière pour favoriser la renaissance spirituelle des organes vitaux momifiés, placés sous la protection des quatre déesses tutélaires."
+      },
+      {
+        id: "couple_bois_xviii",
+        century: "Fin XVIIIe dynastie (v. -1310 av. J.-C.)",
+        title: "Groupe statuaire d'un couple assis en bois sculpté",
+        site: "Nécropole de Thèbes",
+        category: "Statuaire privée",
+        themeLink: "https://photos.google.com/share/AF1QipN3eyH-IXfJ5tzHs153uMFgtbiZ-T1UONLzfSVpPLodOXWcNGXYMeojYCDX7skI5w?key=dEpRSmZnTkVLb2FuOHJCbjRqZDhDZ1ZDNDhOVkhn",
+        chips: ["Fin XVIIIe dynastie", "Bois sculpté & Plissé", "Art de cour post-amarnien"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNYTW5sAtoEIJbW13Sd4VuY6g3Nzw-HdepPHPblCHV2ZN6c-JRhaCMhMXPfEu-29P-pf2fR9t6HC5RMfiZEFkNx2RpGZlf4TvFeZxmQjiekeTtV5e-DGkag-bG4cR07YRE5D-FzrDmHCxrSORtTZoTjJA=w1584-h672-s-no-gm?authuser=0",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP_ipvIbFwRAH4ck-xfgYMfTKElBdSjhmh8MWigb_mAwprdTWXA8fg9j7VPi8S3InaYxsnaioIwqf-hYt-qALXjFogOV11MlVoUrkYGYJQRbc6olQN3xR_pNZdf3Y64Tw5nYzizgPtvR_sR-yN5VxgEFg=w1816-h2412-s-no-gm?authuser=0",
+        narrative: "Témoignage de l'humanisme stylistique post-amarnien, cette statuette montre un couple assis dans une attitude de tendresse partagée. La minutie des plis du pagne et des tresses de la perruque féminine illustre la virtuosité des sculpteurs sur bois travaillant pour l'aristocratie thébaine."
+      },
+      {
+        id: "obelisque_louxor",
+        century: "v. -1250 av. J.-C. (XIXe dynastie)",
+        title: "Hiéroglyphes en creux de l'obélisque de Louxor",
+        site: "Temple d'Amon à Louxor (Règne de Ramsès II)",
+        category: "Obélisques & Temples",
+        themeLink: "https://photos.google.com/share/AF1QipMD9gTlrGuj9Ng3NopZQQkswrc49JfmHJESKRZWFkm7AQaA5mCjFLZDXTDRQG-cVQ?key=SzhBc0ZNQzJIbFhCYWhkLThmU2FySURxaU11dWpB",
+        chips: ["XIXe dynastie", "Granit rose d'Assouan", "Relief en creux"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczPTCUJ66WPNKgfampzCzitE7KG8DG74qJCbhecnilFC8ll17T8-wyCDNBVXYkDXVgRCFMjc8lHf04asSrTaYIbhYN2MBgyBt1t-OCpcs6VsFIB7atgFFjFZcCqat-WmR3yx4ueSPwMeIJUzmO243BGyAA=w1649-h700-s-no-gm?authuser=0",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPVaRZw-mk7G8zzYUueNk-souBirCVffEel_qRFIw1bnAUIvYpjAoR1-v_zbfQXRox7FT1QCybccdZmYz95rHDcQ2FeEL9dYh0j4oRU6BTKJ8ZZfnHKPmogcQfaCsa8CyKPiQ5qxurHL8WTQoq8keHUNw=w1607-h2412-s-no-gm?authuser=0",
+        narrative: "Taillés avec une précision millimétrique dans le granit rose d'Assouan, les hiéroglyphes en creux de l'obélisque de Louxor proclament les titres de Ramsès II et sa dévotion à Amon-Rê. Le relief en creux capte les ombres du soleil zénithal, transformant ce monolithe en un phare de pierre pétrifié de la lumière solaire."
+      },
+      {
+        id: "abou_simbel_facade",
+        century: "v. -1264 av. J.-C. (XIXe dynastie)",
+        title: "Façade colossale du Grand Temple d'Abou Simbel",
+        site: "Abou Simbel (Haute-Égypte / Nubie)",
+        category: "Architecture & Temples",
+        themeLink: "https://photos.google.com/share/AF1QipMKktAFeuQsVU48UZp-wCDw5qGNUszsvzh_QBac1XDBLcttt82Xt143oxv743tnBQ?key=R1Rsa3V2THo5V0J2cUdZaUFLS20teEdvdXlZa1p3",
+        chips: ["XIXe dynastie", "Spéos taillé dans le grès", "Patrimoine mondial UNESCO"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczOQFe-d_JT4988UAwQPPzTbwfyOfMAuwOlFWCjEcn5hHfp7dbOYeXhWPUMcvomgxrDbH0c_NpBYFNdw7nMxe0i48N9cwUAynrrRbH41C0YNONIGhfBpdRIF-NWQpz8q28pbJmBHii9tFSG5yJA_wsAwoA=w1649-h700-s-no-gm?authuser=0",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP0EjgKth3Nt4qbq59k7NGbwT3La7gZ6Is4jLjiy2ToeFeoSXD3Mude1_CzFGOeDa0oSiC4wbek4T4_aa_zWeg_SpdFIRCITAMA3daM4OpKXTgjUyeKJ2aTFLLtuXGHmT_w7u2IfU5KAKyl5DveDxwrXA=w1933-h1289-s-no-gm?authuser=0",
+        narrative: "Hémi-spéos colossal de 33 mètres de haut sculpté à même la falaise de grès nubienne, la façade d'Abou Simbel magnifie quatre statues géantes de Ramsès II assis. Véritable manifeste politique et solaire face à la Nubie, le temple est conçu selon un axe précis où le soleil pénètre au cœur du sanctuaire lors des solstices."
+      },
+      {
+        id: "bataille_qadesh_relief",
+        century: "v. -1274 av. J.-C. (XIXe dynastie)",
+        title: "Ramsès II sur son char à la bataille de Qadesh",
+        site: "Salle hypostyle du Grand Temple d'Abou Simbel",
+        category: "Reliefs de batailles",
+        themeLink: "https://photos.google.com/share/AF1QipMKktAFeuQsVU48UZp-wCDw5qGNUszsvzh_QBac1XDBLcttt82Xt143oxv743tnBQ?key=R1Rsa3V2THo5V0J2cUdZaUFLS20teEdvdXlZa1p3",
+        chips: ["XIXe dynastie", "Grès nubien en creux", "Cycle de la bataille de Qadesh"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczOQFe-d_JT4988UAwQPPzTbwfyOfMAuwOlFWCjEcn5hHfp7dbOYeXhWPUMcvomgxrDbH0c_NpBYFNdw7nMxe0i48N9cwUAynrrRbH41C0YNONIGhfBpdRIF-NWQpz8q28pbJmBHii9tFSG5yJA_wsAwoA=w1649-h700-s-no-gm?authuser=0",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOG0N4NCKCU-2GK_HQK1bwmJWd8WsIxsPo7V1VObWuGt8H2yLWY18MA9uPFdnJ_3NyfIzvqPkkX_6Ut9rdJM6i8KrWTG-g1CRSnafDy82nztJBnJJmtaLoc1lwwEpm4tC2MM3T0rHU_jtiKJrRzMZBrEw=w1933-h1289-s-no-gm?authuser=0",
+        narrative: "Scène héroïque immortalisant le choc contre l'Empire hittite : Ramsès II, les rênes nouées autour de la taille, bande son arc sur son char au galop tandis que les ennemis sont piétinés sous les sabots des chevaux. Ce relief dynamique en creux constitue l'un des sommets narratifs de la propagande royale ramesside."
+      },
+      {
+        id: "anubis_amenakht",
+        century: "XIXe dynastie (v. -1250 av. J.-C.)",
+        title: "Anubis veillant sur la momie (Tombe d'Amennakht)",
+        site: "Deir el-Médineh (Nécropole thébaine, TT218)",
+        category: "Peinture murale",
+        themeLink: "https://photos.google.com/share/AF1QipMzaxBxEP6dd76u3_Ldl7cRgR0YQ5fFNegi5HUNy5E8VHUVEF7pPnAqhXLKYkbJ9w?key=V0kwcUlEVXFXQ0FLVFp5dXJEWklVMjhvWHFrUjZB",
+        chips: ["XIXe dynastie", "Deir el-Médineh", "Livre des Morts sur fond or"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO-oIaGstfUOdgYBAOgtj8VCCM6hCeXJEWmjLkcI-CcQp9aZq2bZ96H8tHBGkmBsQk3Q6LzpD5mhZbN5zFCr2aqncoFfdWAD3UDDiHmjAAV5DrXBVFBAdSNgvfCinLQ2uR8Mb4MIpgCmPcj94dUfjVw1A=w1584-h672-s-no-gm?authuser=0",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPAUby_792covb4IV1Qod9Mp3pIHSp4xYhcIdO9hMLT_OICz6aucsrFYqCjfmb1Zu_5k2fGthrKGZXGhxZauMBh08r6s2K6QydoN86faUOBAnsCI3e1kvUkQeh08Lwe6V8Yiqp0n9J_2x6kJ6aXteW28A=w1933-h1289-s-no-gm?authuser=0",
+        narrative: "Peinte dans la chapelle familiale d'un artisan d'élite de Deir el-Médineh, cette scène montre le dieu Anubis à tête de chacal consacrant la momie allongée sur un lit léonin. Sur un fond jaune d'or étincelant, les formules hiéroglyphiques protègent le corps pour son grand voyage vers la régénération osirienne."
+      },
+      {
+        id: "statue_cube_thot",
+        century: "XIXe dynastie",
+        title: "Statue-cube naophore dédiée au dieu Thot",
+        site: "Cour d'un temple thébain",
+        category: "Statuaire privée",
+        themeLink: "https://photos.google.com/share/AF1QipN3eyH-IXfJ5tzHs153uMFgtbiZ-T1UONLzfSVpPLodOXWcNGXYMeojYCDX7skI5w?key=dEpRSmZnTkVLb2FuOHJCbjRqZDhDZ1ZDNDhOVkhn",
+        chips: ["XIXe dynastie", "Calcaire clair", "Statue-cube naophore"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNYTW5sAtoEIJbW13Sd4VuY6g3Nzw-HdepPHPblCHV2ZN6c-JRhaCMhMXPfEu-29P-pf2fR9t6HC5RMfiZEFkNx2RpGZlf4TvFeZxmQjiekeTtV5e-DGkag-bG4cR07YRE5D-FzrDmHCxrSORtTZoTjJA=w1584-h672-s-no-gm?authuser=0",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMowqS9d1r8454IZTMiakGTboODxUQS0WO81aacIPTuQx78iS_1-cUNTNEQazNubq1DM_rvUToLmFeyCoBGblMP05gBxBDJDCUJvy94B-sji0ggRlngk3OvidLZI6r0zK1VZooIvaDnyvqVtYrMHEgJxQ=w1816-h2412-s-no-gm?authuser=0",
+        narrative: "Typique de la piété personnelle ramesside, cette statue-cube présente un corps stylisé en bloc compact abritant un naos contenant le babouin sacré du dieu Thot surmonté du disque lunaire. Placée dans un temple, elle assurait au haut fonctionnaire le bénéfice éternel des prières et des offrandes liturgiques."
+      },
+      {
+        id: "medinet_habou_inscriptions",
+        century: "Début XIIe siècle av. J.-C. (XXe dynastie)",
+        title: "Hiéroglyphes monumentaux du temple de Médinet Habou",
+        site: "Temple funéraire de Ramsès III (Thèbes-Ouest)",
+        category: "Gravures & Textes",
+        themeLink: "https://photos.google.com/share/AF1QipNlo80I8xbcNGWKMI7dnnm5aPtALq8jpsRKJGGdAmNT2TnbEIrd0Y2isWehnlLwbg?key=S0kzelN6N1pyaTlZc21PeWtiOUN0bHZyckVMaGZB",
+        chips: ["XXe dynastie", "Relief en creux profond", "Guerres contre les Peuples de la Mer"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEmmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2911-h1235-s-no-gm?authuser=0",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMEmCsm2RAJAzeP5xVcVrxfVjf_HVr6OJ_pEqZf4d4hVVEXa_hSfFF4x8R-K4WFIT5O-2dxziSc4ycJTldukuxmUg3c8E3-sU8mt6-fkyje_1gVqgtBAspLsSM8frDPUkuzdR9WNsAH_ESSCpmmfBCyAw=w1933-h1289-s-no-gm?authuser=0",
+        narrative: "Gravés profondément dans le calcaire pour défier le soleil et le temps, ces hiéroglyphes monumentaux consignent les victoires militaires de Ramsès III contre les invasions des Peuples de la Mer. Les cartouches royaux répétés sacralisent le triomphe de l'ordre sur le chaos aux frontières de l'Empire."
+      },
+      {
+        id: "medinet_habou_salle",
+        century: "XXe dynastie",
+        title: "Colonnes et reliefs rituels de Médinet Habou",
+        site: "Salle hypostyle de Médinet Habou (Thèbes-Ouest)",
+        category: "Architecture & Temples",
+        themeLink: "https://photos.google.com/share/AF1QipMKktAFeuQsVU48UZp-wCDw5qGNUszsvzh_QBac1XDBLcttt82Xt143oxv743tnBQ?key=R1Rsa3V2THo5V0J2cUdZaUFLS20teEdvdXlZa1p3",
+        chips: ["XXe dynastie", "Forteresse d'éternité", "Temple de Ramsès III"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczOQFe-d_JT4988UAwQPPzTbwfyOfMAuwOlFWCjEcn5hHfp7dbOYeXhWPUMcvomgxrDbH0c_NpBYFNdw7nMxe0i48N9cwUAynrrRbH41C0YNONIGhfBpdRIF-NWQpz8q28pbJmBHii9tFSG5yJA_wsAwoA=w1649-h700-s-no-gm?authuser=0",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMhmlBZ2Dq1vxyJZ4OaV_Jp8GHE9A03Y8vUSdb-KtibJiIZTsGZT82oohVOnRQK7jAmranxVsKAceA39ZcF8g50rI6eNj7g5dHzeCP0kn60v3owmQAPGb0Cp8zTd_LsaCpSQ9zqWI3Be5DBFZD-4UQG4g=w1933-h1289-s-no-gm?authuser=0",
+        narrative: "Perspective majestueuse sur la salle hypostyle de Médinet Habou montrant les colonnes papyriformes et les reliefs où Ramsès III officie devant les dieux créateurs Ptah, Mout et Amon. Les gravures en creux profond gardent par endroits les pigments colorés d'origine de cette véritable forteresse sacrée."
       }
     ]
   },
@@ -790,7 +1009,6 @@ HISTORICAL_MILESTONES.forEach(m => {
     const tooltipWidth = 310;
     let leftPos = rect.left - 135;
     
-    // Sécurité stricte pour empêcher tout débordement à droite
     if (leftPos + tooltipWidth > window.innerWidth - 20) {
       leftPos = window.innerWidth - tooltipWidth - 25;
     }
@@ -938,7 +1156,7 @@ btnEnterCiv.addEventListener('click', () => {
 const masterContainer = document.getElementById('master-drag-container');
 let isDragging = false;
 let startX = 0;
-let curRibbonX = -yearToPixel(-2050) + window.innerWidth * 0.35;
+let curRibbonX = -yearToPixel(-1500) + window.innerWidth * 0.35;
 let prevRibbonX = curRibbonX;
 
 function updateSynchronousState(screenX) {
@@ -1031,7 +1249,7 @@ function activateCivilisationView(civ) {
   if (civ.artifacts) {
     civ.artifacts.forEach((art, aIdx) => {
       const card = document.createElement('div');
-      card.className = `sub-node-card ${aIdx === 0 ? 'active' : ''}`;
+      card.className = `sub-node-card ${aIdx === 0 ? 'active' : ''} ${art.isAmarna ? 'is-amarna' : ''}`;
 
       card.innerHTML = `
         <div class="sub-node-date">${art.century}</div>
@@ -1089,7 +1307,7 @@ function openArtworkModal(civ, activeIdx = 0) {
     modalTabBar.style.display = 'flex';
     civ.artifacts.forEach((art, idx) => {
       const tab = document.createElement('button');
-      tab.className = `modal-tab-btn ${idx === activeIdx ? 'active' : ''}`;
+      tab.className = `modal-tab-btn ${idx === activeIdx ? 'active' : ''} ${art.isAmarna ? 'is-amarna-tab' : ''}`;
       tab.textContent = art.category || art.title;
       tab.addEventListener('click', () => {
         document.querySelectorAll('.modal-tab-btn').forEach(t => t.classList.remove('active'));
@@ -1117,6 +1335,12 @@ function renderArtworkContent(civ, idx) {
   }
 
   modalCategoryBadge.textContent = art.category || 'ŒUVRE D\'ART';
+  if (art.isAmarna) {
+    modalCategoryBadge.classList.add('badge-amarna');
+  } else {
+    modalCategoryBadge.classList.remove('badge-amarna');
+  }
+
   modalImg.src = art.imgSrc;
   modalImg.alt = art.title;
   modalCivTitle.textContent = civ.name;
