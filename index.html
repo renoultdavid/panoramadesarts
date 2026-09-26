@@ -54,7 +54,7 @@
     </div>
   </main>
 
-  <!-- CARTOUCHE LATÉRAL -->
+  <!-- CARTOUCHE LATÉRAL RESPONSIVE OCCUPANT TOUT L'ESPACE JUSQU'À LA FRISE -->
   <aside id="hover-sidebar-card" class="pos-left">
     <button class="btn-close-sidebar" id="btn-close-sidebar" title="Fermer la fiche">&times;</button>
     <div class="sidebar-scrollable-body">
@@ -95,13 +95,18 @@
       
       <div id="ruler-scale-bar">
         <div id="ruler-ticks-track"></div>
-        <!-- Conteneur des balises événements majeurs -->
+        <!-- Conteneur des diamants d'événements majeurs -->
         <div id="ruler-events-layer"></div>
       </div>
 
-      <!-- Bandeau épuré et stable -->
+      <!-- Bandeau épuré avec légende des diamants -->
       <div class="master-hint-strip">
-        <span id="active-marker-info">REPÈRE TEMPOREL SYNCHRONIQUE</span>
+        <div class="milestones-legend">
+          <span class="legend-chip"><span class="legend-dot dot-gold"></span> Chantier / Politique</span>
+          <span class="legend-chip"><span class="legend-dot dot-tech"></span> Invention / Technique</span>
+          <span class="legend-chip"><span class="legend-dot dot-war"></span> Conquête / Bataille</span>
+          <span class="legend-chip"><span class="legend-dot dot-disaster"></span> Cataclysme</span>
+        </div>
         <span>◄ -3500 av. J.-C. | +1500 ap. J.-C. ►</span>
       </div>
 
