@@ -853,24 +853,24 @@ CIVILISATIONS_REGISTRY.push(
   yearStart: -2500,
   yearEnd: -500,
   color: "#e9c46a",
-  title: "Art Chypriote de l'Âge du Bronze & Archaïque",
-  mapSrc: "https://lh3.googleusercontent.com/d/...", // URL de la carte régionale de Chypre
+  name: "Art Chypriote de l'Âge du Bronze & Archaïque",
+  era: "v. 2500 – 500 av. J.-C.",
+  mapSrc: "https://lh3.googleusercontent.com/d/...",
+  banner: "https://lh3.googleusercontent.com/pw/AP1GczP2W_m_RjvYnvtw9edrmROsxlhf-9sLrQkidZ9x59w35cbRpPCZ7h-_hUC_xBh5BFTh1MDSaE-4rNJSOYT5HK64ij5AETYrmBW2j0laeXXpGwDS3bQYXkQq0kOpbzTfc4P1yIjbfSKEzjDZx_xbS8uptw=w1818-h2416-s-no-gm?authuser=0",
   bannerSrc: "https://lh3.googleusercontent.com/pw/AP1GczP2W_m_RjvYnvtw9edrmROsxlhf-9sLrQkidZ9x59w35cbRpPCZ7h-_hUC_xBh5BFTh1MDSaE-4rNJSOYT5HK64ij5AETYrmBW2j0laeXXpGwDS3bQYXkQq0kOpbzTfc4P1yIjbfSKEzjDZx_xbS8uptw=w1818-h2416-s-no-gm?authuser=0",
 
-  /* Textes des volets latéraux */
-  intro: `L’art chypriote de l'âge du Bronze (v. 2500–1050 av. J.-C.) s'épanouit au carrefour des influences méditerranéennes, profitant de la position stratégique de l'île et de ses immenses ressources en cuivre pour développer une esthétique originale et cosmopolite.
+  desc: `L’art chypriote de l'âge du Bronze (v. 2500–1050 av. J.-C.) s'épanouit au carrefour des influences méditerranéennes, profitant de la position stratégique de l'île et de ses immenses ressources en cuivre pour développer une esthétique originale et cosmopolite.
 <p>La céramique chypriote se distingue par des formes audacieuses et des techniques singulières, allant des vases zoomorphes et anthropomorphes de la période philaire jusqu'aux superbes décors géométriques et peints du style « Base-Ring » et « White Slip ».</p>
 <p>L'orfèvrerie et le travail du bronze atteignent un sommet remarquable, illustrés par des poignards damasquinés, des lingots de cuivre en forme de peau de bœuf et des bijoux en or ouvragés qui témoignent d'un artisanat hautement qualifié.</p>
 <p>La statuaire et les terres cuites locales, souvent associées à des rituels funéraires ou votifs, adoptent une stylisation épurée, mêlant des traditions égéennes, syriennes et anatoliennes.</p>
 <p>L'architecture s'urbanise progressivement avec l'édification de centres portuaires et de cités-États fortifiées, comme Enkomi ou Kition, dotées d'imposantes constructions en pierre de taille et de sanctuaires dédiés au dieu du cuivre.</p>`,
 
-  concurrentContext: `Pendant que l'île de Chypre façonne son art du cuivre au carrefour des routes maritimes, les autres grands foyers civilisationnels du globe traversent des mutations historiques et culturelles majeures au cours du IIe millénaire av. J.-C.
+  concurrent: `Pendant que l'île de Chypre façonne son art du cuivre au carrefour des routes maritimes, les autres grands foyers civilisationnels du globe traversent des mutations historiques et culturelles majeures au cours du IIe millénaire av. J.-C.
 <p>En Égypte, le Nouvel Empire atteint son apogée impérial sous les XVIIIe et XIXe dynasties, étendant son influence de la Nubie jusqu'à l'Euphrate et bâtissant les sanctuaires monumentaux de Karnak, Louxor et les hypogées de la Vallée des Rois.</p>
 <p>En Mésopotamie et au Proche-Orient, la période voit s'affronter et prospérer de grands empires rivaux — l'Empire hittite en Anatolie, les Kassites à Babylone et le royaume médio-assyrien —, connectés par un vaste réseau diplomatique scellé par les tablettes d'Amarna.</p>
 <p>En mer Égée, la civilisation mycénienne succède aux Minoens, érigeant de puissantes citadelles fortifiées sur le continent grec (Mycènes, Tirynthe) avant de s'effondrer mystérieusement lors des bouleversements méditerranéens de la fin du millénaire.</p>
 <p>En Chine, la dynastie Shang consolide son pouvoir dans la vallée du Fleuve Jaune, perfectionnant la fonte des grands bronzes rituels et instaurant un système d'écriture logographique sur os oraculaires pour le culte des ancêtres.</p>`,
 
-  /* Cartouches albums / types d'art au bas du volet de présentation */
   themeAlbums: [
     { label: "Céramique & Vases", url: "https://photos.app.goo.gl/..." },
     { label: "Terres cuites & Figurines", url: "https://photos.app.goo.gl/..." },
@@ -878,7 +878,6 @@ CIVILISATIONS_REGISTRY.push(
     { label: "Statuaire & Sculptures", url: "https://photos.app.goo.gl/..." }
   ],
 
-  /* Objets de la frise déployée et de la modale */
   nodes: [
     {
       id: "vase_zoomorphe_chypre",
@@ -887,7 +886,7 @@ CIVILISATIONS_REGISTRY.push(
       title: "Vase zoomorphe lustré",
       subtitle: "Chypre (Chypriote moyen)",
       category: "Céramique & Récipient rituel",
-      imgSrc: "https://lh3.googleusercontent.com/d/...", // URL de la photo du vase zoomorphe
+      imgSrc: "https://lh3.googleusercontent.com/d/...",
       chips: ["XXe - XIXe siècle av. J.-C.", "Chypre", "Engobe rouge lustré", "Incisions à la chaux"],
       deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczP2W_m_RjvYnvtw9edrmROsxlhf-9sLrQkidZ9x59w35cbRpPCZ7h-_hUC_xBh5BFTh1MDSaE-4rNJSOYT5HK64ij5AETYrmBW2j0laeXXpGwDS3bQYXkQq0kOpbzTfc4P1yIjbfSKEzjDZx_xbS8uptw=w1818-h2416-s-no-gm?authuser=0",
       collectionUrl: "https://photos.app.goo.gl/...",
@@ -933,22 +932,22 @@ CIVILISATIONS_REGISTRY.push(
   yearStart: -800,
   yearEnd: -50,
   color: "#2a9d8f",
-  title: "Art Celte & Gaulois (Âge du Fer)",
-  mapSrc: "https://lh3.googleusercontent.com/d/1vA5Ww4o5Z6m0PqQvB4U7e-9r8n6Y3u8v", // Adapte l'URL de ta carte régionale si besoin
-  bannerSrc: "https://lh3.googleusercontent.com/d/1s0bWn_r9qF1vA7m0PqQvB4U7e-9r8n6Y", // Même bandeau conservé
+  name: "Art Celte & Gaulois (Âge du Fer)",
+  era: "v. 800 – 50 av. J.-C.",
+  mapSrc: "https://lh3.googleusercontent.com/d/1vA5Ww4o5Z6m0PqQvB4U7e-9r8n6Y3u8v",
+  banner: "https://lh3.googleusercontent.com/d/1s0bWn_r9qF1vA7m0PqQvB4U7e-9r8n6Y",
+  bannerSrc: "https://lh3.googleusercontent.com/d/1s0bWn_r9qF1vA7m0PqQvB4U7e-9r8n6Y",
 
-  /* Textes des volets latéraux */
-  intro: `L'art celte de l'âge du Fer (v. 800–1er siècle av. J.-C., divisé entre les cultures de Hallstatt et de La Tène) s'affranchit des traditions géométriques pour donner naissance à un art abstrait, curviligne et hautement sophistiqué, porté par une aristocratie guerrière nomade et commerçante.
+  desc: `L'art celte de l'âge du Fer (v. 800–1er siècle av. J.-C., divisé entre les cultures de Hallstatt et de La Tène) s'affranchit des traditions géométriques pour donner naissance à un art abstrait, curviligne et hautement sophistiqué, porté par une aristocratie guerrière nomade et commerçante.
 <p>Durant la période de Hallstatt, l'art se structure autour de riches tombes princières où le travail du fer s'allie au bronze et à l'or, produisant des parures spectaculaires et de grandes situles en tôle rivetée ornées de frises animalières et de scènes de banquets.</p>
 <p>Avec l'épanouissement de la civilisation de La Tène, l'art celte explose dans une esthétique exubérante marquée par le style végétal continu, les entrelacs serpentins, les motifs en « S » et les figures énigmatiques ou grimaçantes inspirées parfois du monde méditerranéen ou oriental.</p>
 <p>L'orfèvrerie et l'armurerie atteignent un sommet absolu de virtuosité avec les torques en or massif ajouré, les fourreaux d'épées ciselés de fines gravures et les superbes casques d'apparat en bronze repoussé.</p>`,
 
-  concurrentContext: `Tandis que le monde celtique façonne ses somptueux parures et armes en fer à travers l'Europe tempérée, le reste du monde antique est le théâtre d'immenses bouleversements politiques et culturels.
+  concurrent: `Tandis que le monde celtique façonne ses somptueux parures et armes en fer à travers l'Europe tempérée, le reste du monde antique est le théâtre d'immenses bouleversements politiques et culturels.
 <p>En Méditerranée, la Grèce classique et hellénistique érige les chefs-d'œuvre de l'Acropole d'Athènes, invente le théâtre dramatique et voit les conquêtes fulgurantes d'Alexandre le Grand projeter la culture grecque jusqu'aux portes de l'Inde.</p>
 <p>En Perse, l'immense Empire achéménide déploie sa puissance architecturale à Persépolis, avant de s'effondrer face aux phalanges macédoniennes, laissant place aux dynasties hellénistiques des Séleucides.</p>
 <p>En Chine, la période tumultueuse des Royaumes combattants s'achève par l'unification impériale violente de la dynastie Qin, qui érige la première Grande Muraille et dote sa capitale souterraine de la célèbre armée de terre cuite de Xi'an.</p>`,
 
-  /* Cartouches albums / types d'art au bas du volet de présentation */
   themeAlbums: [
     { label: "Sculptures & Stèles", url: "https://photos.app.goo.gl/..." },
     { label: "Céramiques", url: "https://photos.app.goo.gl/..." },
@@ -956,7 +955,6 @@ CIVILISATIONS_REGISTRY.push(
     { label: "Orfèvrerie & Parures", url: "https://photos.app.goo.gl/..." }
   ],
 
-  /* Objets de la frise déployée et de la modale */
   nodes: [
     {
       id: "stele_jublains",
@@ -965,7 +963,7 @@ CIVILISATIONS_REGISTRY.push(
       title: "Stèle gauloise de Jublains",
       subtitle: "Musée archéologique de Jublains (Mayenne)",
       category: "Sculpture & Monument funéraire",
-      imgSrc: "https://lh3.googleusercontent.com/d/...", // URL de la photo de la stèle
+      imgSrc: "https://lh3.googleusercontent.com/d/...",
       chips: ["IVe - IIIe siècle av. J.-C.", "Jublains", "Granite", "La Tène"],
       deptBanner: "https://lh3.googleusercontent.com/d/1s0bWn_r9qF1vA7m0PqQvB4U7e-9r8n6Y",
       collectionUrl: "https://photos.app.goo.gl/...",
