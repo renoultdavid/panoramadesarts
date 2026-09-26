@@ -187,7 +187,6 @@ body {
   background: radial-gradient(circle, rgba(244,162,97,0.95) 0%, rgba(244,162,97,0.35) 50%, transparent 75%);
 }
 
-/* Égypte (Memphis / Basse-Égypte) : recalé plein Sud */
 #halo-egypte_ancien {
   left: 54.8%;
   top: 48.8%;
@@ -375,7 +374,6 @@ body {
   letter-spacing: 1px;
 }
 
-/* Grille de boutons vers les albums thématiques */
 .sidebar-album-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -443,7 +441,7 @@ body {
 }
 
 /* =========================================================
-   FRISES REHAUSSÉES À 300PX AVEC COLONNE D'ÉTIQUETTES FIGÉE
+   FRISES REHAUSSÉES À 300PX AVEC BALISES ÉVÉNEMENTS MAJEURS
    ========================================================= */
 #timeline-dock {
   display: flex;
@@ -616,7 +614,7 @@ body {
   flex-shrink: 0;
 }
 
-#ruler-ticks-track {
+#ruler-ticks-track, #ruler-events-layer {
   position: absolute;
   top: 0;
   left: 200px;
@@ -656,6 +654,32 @@ body {
   letter-spacing: 1px;
   color: var(--gold-pale);
   white-space: nowrap;
+}
+
+/* ÉTINCELLES ÉVÉNEMENTS MAJEURS */
+.ruler-event-spark {
+  position: absolute;
+  top: 6px;
+  width: 12px;
+  height: 12px;
+  transform: translateX(-50%) rotate(45deg);
+  background: var(--gold-pure);
+  border: 1px solid #fff;
+  box-shadow: 0 0 10px var(--gold-pure);
+  cursor: pointer;
+  z-index: 15;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  animation: sparkPulse 2.5s infinite;
+}
+
+.ruler-event-spark:hover {
+  transform: translateX(-50%) rotate(45deg) scale(1.35);
+  box-shadow: 0 0 18px #fff, 0 0 25px var(--gold-pure);
+}
+
+@keyframes sparkPulse {
+  0%, 100% { opacity: 0.8; }
+  50% { opacity: 1; filter: drop-shadow(0 0 6px #fff); }
 }
 
 .master-hint-strip {
@@ -799,6 +823,59 @@ body {
   box-shadow: 0 4px 15px rgba(0,0,0,0.9);
 }
 
+/* INFOBULLE ÉVÉNEMENT MAJEUR */
+.milestone-tooltip {
+  position: absolute;
+  z-index: 60;
+  background: rgba(12, 15, 22, 0.96);
+  border: 1px solid var(--gold-pure);
+  border-radius: 4px;
+  padding: 10px 14px;
+  width: 280px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.9);
+  pointer-events: none;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.milestone-tooltip.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.milestone-badge {
+  font-family: 'Cinzel', serif;
+  font-size: 0.6rem;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--gold-pure);
+  margin-bottom: 2px;
+}
+
+.milestone-year {
+  font-family: 'Cinzel', serif;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 4px;
+}
+
+.milestone-title {
+  font-family: 'Cinzel', serif;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--gold-pale);
+  line-height: 1.25;
+  margin-bottom: 6px;
+}
+
+.milestone-desc {
+  font-size: 0.84rem;
+  line-height: 1.45;
+  color: #c4cad8;
+}
+
 /* =========================================================
    MODALE D'EXPOSITION AGRANDIE AVEC BANDEAU DE DÉPARTEMENT
    ========================================================= */
@@ -836,7 +913,6 @@ body {
   flex-direction: column;
 }
 
-/* Bandeau de département au sommet de la modale */
 .modal-dept-banner-box {
   width: 100%;
   height: 110px;
