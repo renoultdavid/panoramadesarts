@@ -82,7 +82,7 @@ const HISTORICAL_MILESTONES = [
 ];
 
 /* ==========================================================================
-   REGISTRE COMPLET DES CIVILISATIONS (TOUS OBJETS & ONGLETS INCLUS)
+   REGISTRE COMPLET DES CIVILISATIONS (AVEC MOYEN EMPIRE ÉGYPTIEN)
    ========================================================================== */
 const CIVILISATIONS_REGISTRY = [
   {
@@ -114,10 +114,12 @@ const CIVILISATIONS_REGISTRY = [
     `,
     themeAlbums: [
       { label: "🏺 Céramiques", url: "https://photos.google.com/share/AF1QipMNQ5eY261NXOzCFawVXiW-1pbb7VG4opgoBxJ-TEVNd2BxJp52VopMR2q7kVBtHw?key=SHplem9jdFE2RnhCaXJIR1o4al9UMTI1UHhCc3NB" },
-      { label: "📜 Gravures & Parois", url: "https://photos.google.com/share/AF1QipNlo80I8xbcNGWKMI7dnnm5aPtALq8jpsRKJGGdAmNT2TnbEIrd0Y2isWehnlLwbg?key=S0kzelN6N1pyaTlZc21PeWtiOUN0bHZyckVMaGZB" },
-      { label: "🏛️ Temples & Reliefs", url: "https://photos.google.com/share/AF1QipMKktAFeuQsVU48UZp-wCDw5qGNUszsvzh_QBac1XDBLcttt82Xt143oxv743tnBQ?key=R1Rsa3V2THo5V0J2cUdZaUFLS20teEdvdXlZa1p3" },
+      { label: "📜 Gravures & Reliefs", url: "https://photos.google.com/share/AF1QipNlo80I8xbcNGWKMI7dnnm5aPtALq8jpsRKJGGdAmNT2TnbEIrd0Y2isWehnlLwbg?key=S0kzelN6N1pyaTlZc21PeWtiOUN0bHZyckVMaGZB" },
+      { label: "🎨 Peintures", url: "https://photos.google.com/share/AF1QipMzaxBxEP6dd76u3_Ldl7cRgR0YQ5fFNegi5HUNy5E8VHUVEF7pPnAqhXLKYkbJ9w?key=V0kwcUlEVXFXQ0FLVFp5dXJEWklVMjhvWHFrUjZB" },
+      { label: "🏛️ Obélisques & Temples", url: "https://photos.google.com/share/AF1QipMD9gTlrGuj9Ng3NopZQQkswrc49JfmHJESKRZWFkm7AQaA5mCjFLZDXTDRQG-cVQ?key=SzhBc0ZNQzJIbFhCYWhkLThmU2FySURxaU11dWpB" },
       { label: "🗿 Statuaire Royale", url: "https://photos.google.com/share/AF1QipN3eyH-IXfJ5tzHs153uMFgtbiZ-T1UONLzfSVpPLodOXWcNGXYMeojYCDX7skI5w?key=dEpRSmZnTkVLb2FuOHJCbjRqZDhDZ1ZDNDhOVkhn" },
       { label: "🪦 Parois des Tombes", url: "https://photos.google.com/album/AF1QipMvAReo-M_8VZNBNi0XN9cnCCA3GdgpYxIN2gpd" },
+      { label: "💍 Bijoux & Quotidien", url: "https://photos.google.com/share/AF1QipMPvGsbKG1P6Ly3nEAZsXXysQgJw7e60mYpU3GLEzPTCykMr0iCgV31qU_k8JEt6g?key=dUlsQnlQdTh5elVReGU2T0ZaUEtsc0ljS3NZZjZB" },
       { label: "⚰️ Funéraire & Momies", url: "https://photos.google.com/share/AF1QipMPZVPxixftA0xlCWDph7xd49UFkPFHE1yI8RvwsVn_IoUoWO5COMeS__ajWSqZeQ?key=N3RLMkZ0aEtYcFhUb3FLLTl6aXJicDBZM0JRSkJR" }
     ],
     artifacts: [
@@ -208,6 +210,115 @@ const CIVILISATIONS_REGISTRY = [
     ]
   },
   {
+    id: "egypte_moyen",
+    name: "Égypte : Moyen Empire & Périodes Intermédiaires",
+    epoch: "v. -2055 à -1550 av. J.-C.",
+    yearStart: -2055,
+    yearEnd: -1550,
+    lane: "egypte",
+    themeColor: "#20c997",
+    sidePos: "pos-left",
+    travelingOrigin: "55.4% 50.8%",
+    haloId: "halo-egypte_moyen",
+    bannerImg: "https://lh3.googleusercontent.com/d/1Q2cKc6JRPGuKwLc4bvIw1S-qEDg5U6Tq",
+    mapOverlayUrl: "https://lh3.googleusercontent.com/d/156Ms6-I_hZFV20g8jtGYjhw_Pd7yUTf0",
+    albumUrl: "https://photos.google.com/share/AF1QipN3eyH-IXfJ5tzHs153uMFgtbiZ-T1UONLzfSVpPLodOXWcNGXYMeojYCDX7skI5w?key=dEpRSmZnTkVLb2FuOHJCbjRqZDhDZ1ZDNDhOVkhn",
+    presentationHtml: `
+      <p><strong>L'âge classique et l'humanisation du souverain</strong><br>
+      Le Moyen Empire (v. 2033-1710 av. J.-C., XIe-XIIIe dynasties) marque un âge classique et introspectif dans l'art égyptien, né de la réunification du pays par Mentouhotep II après les troubles de la Première Période intermédiaire. Rompant avec l'assurance triomphale et immuable de l'Ancien Empire, la statuaire royale innove par une humanisation sans précédent des souverains, visible sous les règnes de Sésostris III et d'Amenemhat III. Les visages pharaoniques se creusent de traits soucieux, d'orbites profondes et de paupières lourdes, incarnant la responsabilité écrasante du souverain pasteur et protecteur de son peuple.</p>
+
+      <p><strong>Démocratisation funéraire et modèles réduits de tombes</strong><br>
+      Parallèlement, la statuaire privée se démocratise : les dignitaires locaux et particuliers commandent désormais de remarquables effigies en bois stuqué ou en pierre, et l'on voit émerger la forme compacte de la « statue-cube ». Dans les arts funéraires, le mobilier témoigne d'une extrême minutie à travers les sarcophages rectangulaires peints, décorés à l'intérieur des Textes des sarcophages et de minutieuses frises d'objets du quotidien. Les modèles réduits en bois polychrome — scènes de brasserie, de tissage, de greniers ou de défilés de serviteurs — remplacent temporairement les grands bas-reliefs pour garantir la survie matérielle du défunt.</p>
+
+      <p><strong>L'essor de Thèbes et l'orfèvrerie de cour</strong><br>
+      L'architecture religieuse et funéraire se réinvente, alliant terrasses à portiques (Deir el-Bahari) et chapelles en calcaire fin gravées de reliefs d'une élégance graphique inégalée, comme la Chapelle blanche de Sésostris Ier à Karnak. L'orfèvrerie de cour atteint son apogée à Dahchour et El-Lahoun, où pectoraux ajourés, couronnes et parures royales déclinent l'or, le lapis-lazuli, la cornaline et la turquoise avec une maîtrise technique absolue du cloisonné. L'art du Moyen Empire s'affirme ainsi comme une période de grande maturité plastique, où la rigueur géométrique s'associe à une profondeur psychologique et spirituelle inédite.</p>
+    `,
+    themeAlbums: [
+      { label: "🏺 Céramiques", url: "https://photos.google.com/share/AF1QipMNQ5eY261NXOzCFawVXiW-1pbb7VG4opgoBxJ-TEVNd2BxJp52VopMR2q7kVBtHw?key=SHplem9jdFE2RnhCaXJIR1o4al9UMTI1UHhCc3NB" },
+      { label: "📜 Gravures & Reliefs", url: "https://photos.google.com/share/AF1QipNlo80I8xbcNGWKMI7dnnm5aPtALq8jpsRKJGGdAmNT2TnbEIrd0Y2isWehnlLwbg?key=S0kzelN6N1pyaTlZc21PeWtiOUN0bHZyckVMaGZB" },
+      { label: "🎨 Peintures", url: "https://photos.google.com/share/AF1QipMzaxBxEP6dd76u3_Ldl7cRgR0YQ5fFNegi5HUNy5E8VHUVEF7pPnAqhXLKYkbJ9w?key=V0kwcUlEVXFXQ0FLVFp5dXJEWklVMjhvWHFrUjZB" },
+      { label: "🏛️ Obélisques & Temples", url: "https://photos.google.com/share/AF1QipMD9gTlrGuj9Ng3NopZQQkswrc49JfmHJESKRZWFkm7AQaA5mCjFLZDXTDRQG-cVQ?key=SzhBc0ZNQzJIbFhCYWhkLThmU2FySURxaU11dWpB" },
+      { label: "🗿 Statuaire Royale", url: "https://photos.google.com/share/AF1QipN3eyH-IXfJ5tzHs153uMFgtbiZ-T1UONLzfSVpPLodOXWcNGXYMeojYCDX7skI5w?key=dEpRSmZnTkVLb2FuOHJCbjRqZDhDZ1ZDNDhOVkhn" },
+      { label: "🪦 Parois des Tombes", url: "https://photos.google.com/album/AF1QipMvAReo-M_8VZNBNi0XN9cnCCA3GdgpYxIN2gpd" },
+      { label: "💍 Bijoux & Quotidien", url: "https://photos.google.com/share/AF1QipMPvGsbKG1P6Ly3nEAZsXXysQgJw7e60mYpU3GLEzPTCykMr0iCgV31qU_k8JEt6g?key=dUlsQnlQdTh5elVReGU2T0ZaUEtsc0ljS3NZZjZB" },
+      { label: "⚰️ Funéraire & Momies", url: "https://photos.google.com/share/AF1QipMPZVPxixftA0xlCWDph7xd49UFkPFHE1yI8RvwsVn_IoUoWO5COMeS__ajWSqZeQ?key=N3RLMkZ0aEtYcFhUb3FLLTl6aXJicDBZM0JRSkJR" }
+    ],
+    artifacts: [
+      {
+        id: "deshri_saqqarah",
+        century: "v. -2100 av. J.-C. (Première Période Intermédiaire)",
+        title: "Reliefs peints de la chambre funéraire de Deshri",
+        site: "Saqqarah Nord (Musée Égyptien du Caire)",
+        category: "Peinture & Parois",
+        themeLink: "https://photos.google.com/share/AF1QipMzaxBxEP6dd76u3_Ldl7cRgR0YQ5fFNegi5HUNy5E8VHUVEF7pPnAqhXLKYkbJ9w?key=V0kwcUlEVXFXQ0FLVFp5dXJEWklVMjhvWHFrUjZB",
+        chips: ["Transition Xe - XIe dynastie", "Calcaire peint polychrome", "Saqqarah"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO-oIaGstfUOdgYBAOgtj8VCCM6hCeXJEWmjLkcI-CcQp9aZq2bZ96H8tHBGkmBsQk3Q6LzpD5mhZbN5zFCr2aqncoFfdWAD3UDDiHmjAAV5DrXBVFBAdSNgvfCinLQ2uR8Mb4MIpgCmPcj94dUfjVw1A=w1584-h672-s-no-gm?authuser=0",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOYtgr7DCVP6fjrKrJM1VDH0-_mGoYXEpXgK-ekIonRT3s0EN_fZJmZoaaiquwPBExBIVCKudY66Ay0UAJQwzQEmoiBenpMd2jIObKKdDHgZlWDr_syjf_WZv3x_B0MVpOLjeO1dClbaIbknW0_-_Bohw=w1733-h1156-s-no-gm?authuser=0",
+        narrative: "Découverte à Saqqarah, cette chambre funéraire étroite de type « tombe-coffre » appartenait à Deshri, haut dignitaire portant le titre de Chef de l'État. Ses parois peintes accumulent avec une extrême précision l'inventaire sacré des offrandes (jarres de vin, bières, viandes, étoffes et colliers) assurant magiquement la subsistance du défunt dans l'au-delà durant les temps troublés de la Première Période Intermédiaire."
+      },
+      {
+        id: "montouhotep_ii",
+        century: "v. -2030 av. J.-C. (XIe dynastie)",
+        title: "Statue osirienne du roi Montouhotep II (Nebhepetrê)",
+        site: "Temple funéraire de Deir el-Bahari (Thèbes)",
+        category: "Statuaire Royale",
+        themeLink: "https://photos.google.com/share/AF1QipN3eyH-IXfJ5tzHs153uMFgtbiZ-T1UONLzfSVpPLodOXWcNGXYMeojYCDX7skI5w?key=dEpRSmZnTkVLb2FuOHJCbjRqZDhDZ1ZDNDhOVkhn",
+        chips: ["XIe dynastie", "Grès peint noir & Fête-Sed", "Musée Égyptien du Caire"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNYTW5sAtoEIJbW13Sd4VuY6g3Nzw-HdepPHPblCHV2ZN6c-JRhaCMhMXPfEu-29P-pf2fR9t6HC5RMfiZEFkNx2RpGZlf4TvFeZxmQjiekeTtV5e-DGkag-bG4cR07YRE5D-FzrDmHCxrSORtTZoTjJA=w1584-h672-s-no-gm?authuser=0",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMS2mP1FL2PhpmAIB95iFAIHpV_ffOkImMgwLThuu-n_YVh3YfhIATiLEYzzjSOFkmFUGDXt9iuNzoExG-pM9LDL-mkw2KuwmlY-hoo-37CvuY6Yn1RK3l2yoZ5zgUtz5Ul4lgwvCBON718dn9zPny83A=w1607-h2412-s-no-gm?authuser=0",
+        narrative: "Découverte par Howard Carter dans le cénotaphe souterrain de Deir el-Bahari (Bab el-Housan), cette statue monumentale figure le réunificateur de l'Égypte et fondateur du Moyen Empire. Représenté assis dans le manteau blanc étroit de la fête-Sed et coiffé de la couronne rouge, le roi a les chairs peintes d'un noir profond, symbole de terre fertile et de résurrection osirienne."
+      },
+      {
+        id: "masque_senu",
+        century: "v. -1900 av. J.-C. (XIIe dynastie)",
+        title: "Masque funéraire polychrome du prêtre Senu",
+        site: "Nécropole de Saqqarah (Musée Imhotep)",
+        category: "Mobilier funéraire",
+        themeLink: "https://photos.google.com/share/AF1QipMPZVPxixftA0xlCWDph7xd49UFkPFHE1yI8RvwsVn_IoUoWO5COMeS__ajWSqZeQ?key=N3RLMkZ0aEtYcFhUb3FLLTl6aXJicDBZM0JRSkJR",
+        chips: ["XIIe dynastie", "Cartonnage stuqué et peint", "Musée Imhotep (Saqqarah)"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO8qJ9X0EbRPQwscIwqRQ7qhHKFuIShIpHCnkgDOrlDhzkMaCikMa0w9FILsuc5tAZ-IWaE9qllZEWwIzzDZbeSjQjh5IibmJDU6ycWvWpMiAnZ6BLpdVvNv-BAnPU-5_tcFcndUrfxL9yLT0soFPSQrQ=w1649-h700-s-no-gm?authuser=0",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMmjP7RbmOU3HzMXCdXuHm1WN5hpTwkX0NI6VvzjEuy0CBTz4ry75JeEr3wdcIr-XNu6t5Pg2t0V8EslZMe9UzPoFhwG9YfjLvb3J2Zo1U4vknI5K41RiwfBmsW5cS4a7KutPhtQfhNpo221D2TTDYa8w=w1607-h2412-s-no-gm?authuser=0",
+        narrative: "Façonné en cartonnage de lin stuqué et peint, ce masque protégeait la tête de la momie du prêtre Senu tout en servant de substitut magique pour que son âme (le Ba) reconnaisse son corps. Les chairs d'ocre doré, les yeux cernés de fard noir, l'imposante perruque bleue lapis-lazuli et le collier ousekh minutieusement peint incarnent l'assimilation du défunt au dieu Osiris régénéré."
+      },
+      {
+        id: "porteuse_assiout",
+        century: "v. -1900 av. J.-C. (XIIe dynastie)",
+        title: "Statuette féminine en bois de la tombe de Nakhti",
+        site: "Assiout (Tombe 7 du chancelier Nakhti)",
+        category: "Statuaire en bois",
+        themeLink: "https://photos.google.com/share/AF1QipN3eyH-IXfJ5tzHs153uMFgtbiZ-T1UONLzfSVpPLodOXWcNGXYMeojYCDX7skI5w?key=dEpRSmZnTkVLb2FuOHJCbjRqZDhDZ1ZDNDhOVkhn",
+        chips: ["XIIe dynastie", "Bois polychrome", "Musée du Louvre (Paris)"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNYTW5sAtoEIJbW13Sd4VuY6g3Nzw-HdepPHPblCHV2ZN6c-JRhaCMhMXPfEu-29P-pf2fR9t6HC5RMfiZEFkNx2RpGZlf4TvFeZxmQjiekeTtV5e-DGkag-bG4cR07YRE5D-FzrDmHCxrSORtTZoTjJA=w1584-h672-s-no-gm?authuser=0",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMBEVTzlfcy5B1rAIF9YPnkhEyUy638zRehdKoi_8XmNCoG_EJDV4dWNeYZwLSI82hoqPAjtpF4p31S04bUB3ai4GNxGgQkYnnKDQg0cgOoxvd03lCiqESUt5o5qg9FZVVjbkLzlLQiY_kcw3nqZOnF5g=w1733-h2302-s-no-gm?authuser=0",
+        narrative: "Attribuée à Hénen et mise au jour dans la tombe du chancelier provincial Nakhti à Assiout, cette statuette en bois sculpté privilégie la silhouette svelte et élancée propre à la statuaire féminine du Moyen Empire. Conservant sa perruque noire et ses parures peintes, elle symbolisait la fertilité, la renaissance éternelle et la présentation perpétuelle des offrandes dans la chapelle funéraire."
+      },
+      {
+        id: "sphinx_amenemhat3",
+        century: "v. -1860 av. J.-C. (XIIe dynastie)",
+        title: "Sphinx en granit rose du pharaon Amenemhat III",
+        site: "Hawara (Oasis du Fayoum)",
+        category: "Sculpture Royale",
+        themeLink: "https://photos.google.com/share/AF1QipN3eyH-IXfJ5tzHs153uMFgtbiZ-T1UONLzfSVpPLodOXWcNGXYMeojYCDX7skI5w?key=dEpRSmZnTkVLb2FuOHJCbjRqZDhDZ1ZDNDhOVkhn",
+        chips: ["XIIe dynastie", "Granit rose poli", "Musée Égyptien du Caire"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNYTW5sAtoEIJbW13Sd4VuY6g3Nzw-HdepPHPblCHV2ZN6c-JRhaCMhMXPfEu-29P-pf2fR9t6HC5RMfiZEFkNx2RpGZlf4TvFeZxmQjiekeTtV5e-DGkag-bG4cR07YRE5D-FzrDmHCxrSORtTZoTjJA=w1584-h672-s-no-gm?authuser=0",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPp89DFr93lsOr2oktxm2U7AtuoN-n-aYpoVfWpTRBrtLfu1q6ByWJRrp6N-3Z-p11ilZtPtvzqhFu97D6E8CiyVm7EmJKkH8xgXMbtgD1MSApTpUnzW7W9lsnnBuSzT1yH2f0fNW0JPDk371pzjeAvgQ=w1607-h2412-s-no-gm?authuser=0",
+        narrative: "Découvert à Hawara près de son célèbre labyrinthe funéraire, ce sphinx en granit rose illustre le style psychologique et introspectif de la fin de la XIIe dynastie. Loin de l'idéalisation sereine de l'Ancien Empire, les traits d'Amenemhat III révèlent la maturité et les responsabilités du pouvoir : paupières lourdes, pommettes saillantes et commissures fermes, incarnant le souverain bon pasteur veillant sur son peuple."
+      },
+      {
+        id: "seqenenre_taa",
+        century: "v. -1580 av. J.-C. (XVIIe dynastie)",
+        title: "Statuette royale de Séqenenrê Djéhouty-Âa",
+        site: "Thèbes Ouest / Abydos",
+        category: "Statuaire Royale",
+        themeLink: "https://photos.google.com/share/AF1QipN3eyH-IXfJ5tzHs153uMFgtbiZ-T1UONLzfSVpPLodOXWcNGXYMeojYCDX7skI5w?key=dEpRSmZnTkVLb2FuOHJCbjRqZDhDZ1ZDNDhOVkhn",
+        chips: ["XVIIe dynastie", "Calcaire sculpté", "Deuxième Période Intermédiaire"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNYTW5sAtoEIJbW13Sd4VuY6g3Nzw-HdepPHPblCHV2ZN6c-JRhaCMhMXPfEu-29P-pf2fR9t6HC5RMfiZEFkNx2RpGZlf4TvFeZxmQjiekeTtV5e-DGkag-bG4cR07YRE5D-FzrDmHCxrSORtTZoTjJA=w1584-h672-s-no-gm?authuser=0",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOKk1OEjeYDQKK89GCEpq4kpFha_SEZesIJ0FCZue6yMd6qZ4KZk9Lm-d5IHC2uDMWHLIpNqQunzW0UfYvxymQ4_hFecpECkajLW_3O8tTU65UX82BjSSsMGx_QGQv87VZ-PDBFCDivdjsxR81xVBdV6A=w1733-h2302-s-no-gm?authuser=0",
+        narrative: "Témoignage capital de la Deuxième Période Intermédiaire, cette effigie représente le pharaon thébain Séqenenrê Taâ, initiateur héroïque de la guerre de libération contre l'occupant Hyksôs. Le souverain assis affiche un modelé puissant et sobre, marquant la reconquête de l'autorité royale qui aboutira, sous ses fils Kamosé et Ahmôsis, à l'avènement glorieux du Nouvel Empire."
+      }
+    ]
+  },
+  {
     id: "mycenes",
     name: "Art Mycénien (Grèce)",
     epoch: "v. -1600 à -1100 av. J.-C.",
@@ -240,7 +351,7 @@ const CIVILISATIONS_REGISTRY = [
         category: "Orfèvrerie",
         chips: ["Helladique Récent I", "Feuille d'or au repoussé", "Musée d'Athènes"],
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOX6_L1RpUEunGm8YyrUo9ZQzDC90rr2xuMb2gJHiwrLtQAF34EvXnMey2ZoDh22NxKU1jrqQzN2S6jU8CJUSECSj_Du-BfMxjvHrXcj69AVM9LB3id3w-sPR_-MA_wKPTwunhvneWq8cqoqx1Z8fV51A=w1980-h1319-s-no-gm?authuser=0",
-        narrative: "Découvert par Schliemann en 1876, ce masque en or massif martelé par l'arrière (technique du repoussé) recouvrait le visage d'un chef de guerre mycénien. Précédant de trois siècles les événements de la guerre de Troie, il frappe par l'individualisation des traits : yeux en amande, nez aquilin, lèvres serrées et moustache ciselée, incarnant le prestige et le statut divin des élites de l'âge du Bronze."
+        narrative: "Découvert par Schliemann en 1876, ce masque en or massif martelé par l'arrière (technique du repoussé) recouvrait le visage d'un chef de guerre mycénien."
       },
       {
         id: "kourotrophos_mycenes",
@@ -676,7 +787,15 @@ HISTORICAL_MILESTONES.forEach(m => {
     mDesc.textContent = m.desc;
 
     const rect = spark.getBoundingClientRect();
-    milestoneTooltip.style.left = `${Math.min(window.innerWidth - 310, Math.max(10, rect.left - 135))}px`;
+    const tooltipWidth = 310;
+    let leftPos = rect.left - 135;
+    
+    // Sécurité stricte pour empêcher tout débordement à droite
+    if (leftPos + tooltipWidth > window.innerWidth - 20) {
+      leftPos = window.innerWidth - tooltipWidth - 25;
+    }
+    
+    milestoneTooltip.style.left = `${Math.max(10, leftPos)}px`;
     milestoneTooltip.style.top = `${rect.top - 130}px`;
     milestoneTooltip.classList.add('visible');
   });
@@ -819,7 +938,7 @@ btnEnterCiv.addEventListener('click', () => {
 const masterContainer = document.getElementById('master-drag-container');
 let isDragging = false;
 let startX = 0;
-let curRibbonX = -yearToPixel(-2500) + window.innerWidth * 0.35;
+let curRibbonX = -yearToPixel(-2050) + window.innerWidth * 0.35;
 let prevRibbonX = curRibbonX;
 
 function updateSynchronousState(screenX) {
