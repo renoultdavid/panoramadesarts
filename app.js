@@ -942,12 +942,25 @@ CIVILISATIONS_REGISTRY.push(
     mapOverlayUrl: "https://lh3.googleusercontent.com/d/1gX2vOwXzj3jIMMvx2P5DAAQkjfkZ1anc",
     albumUrl: "https://photos.google.com/share/AF1QipN2ccGraobqmNhsyQhn1XQYZmas-d6wNnWsUE7X6q_zzAIytbnOH6GGkVB_WU95AQ?key=Mkc1WGhlQmRIY1VpenkzMG1SNzdHczVWcjI4MGZ3",
     presentationHtml: `
-      <p><strong>L'éveil métallurgique et les origines du monde celtique</strong><br>
-      L'art de l'âge du Bronze en Europe occidentale pose les jalons esthétiques et techniques de l'expression celtique historique, à travers le travail du bronze et de l'or.</p>
+      <p><strong>L'éveil métallurgique et la société guerrière</strong><br>
+      L'art celte de l'âge du Bronze (v. 2300-800 av. J.-C.) en Europe occidentale se caractérise par la maîtrise progressive de la métallurgie du cuivre, puis du bronze, marquant une transition majeure vers une société aristocratique et guerrière.</p>
+
+      <p><strong>Armes d'apparat et orfèvrerie atlantique</strong><br>
+      Les forgerons et artisans de cette période excellent dans la confection d'armes sophistiquées — épées à languette, lances et poignards — dont la pureté des lignes fonctionnelles traduit déjà une recherche esthétique très poussée. L'orfèvrerie atteint des sommets de raffinement avec la création de parures d'apparat en or natif ou en tôle de bronze repoussé, telles que les spectaculaires torques, les bracelets massifs et les colliers lunules caractéristiques de l'Europe atlantique.</p>
+
+      <p><strong>Symbolique cosmique et chaudrons rituels</strong><br>
+      Les objets du quotidien et les services rituels se parent de décors géométriques incisés, de lignes brisées, de chevrons et de motifs solaires ou concentriques, témoignant d'une symbolique cosmique profondément ancrée dans les rituels agraires et funéraires. L'art celte du Bronze se distingue également par la création des fameux « chaudrons » en bronze assemblés par rivets et des urnes cinéraires richement ornées, illustrant le rôle central de la vaisselle métallique dans les banquets funéraires des élites.</p>
+
+      <p><strong>Les fondations de Hallstatt et La Tène</strong><br>
+      Cette esthétique du métal précieux et de l'abstraction géométrique pose les bases stylistiques qui s'épanouiront pleinement à l'âge du Fer lors du développement des cultures de Hallstatt et de La Tène.</p>
     `,
     concurrentHtml: `
       <p><strong>Le contexte mondial au IIe millénaire av. J.-C.</strong></p>
-      <p>Au Proche-Orient, la période est marquée par l'essor des empires rivaux et les grandes mutations de l'âge du Bronze final.</p>
+      <p>Pendant que l'Europe atlantique et continentale développe sa métallurgie du bronze, les grands foyers civilisationnels de la planète connaissent des mutations historiques et culturelles profondes au cours du IIe millénaire av. J.-C.</p>
+      <p>Au Proche-Orient, la période est marquée par l'essor et la chute de grands empires rivaux : l'Empire hittite en Anatolie, qui introduit le fer et l'usage des chars de combat légers, la Babylonie sous le code de Hammurabi, et le Nouvel Empire égyptien qui étend son hégémonie jusqu'à l'Euphrate.</p>
+      <p>En Égée, la civilisation mycénienne succède aux Minoens, érigeant de puissantes citadelles fortifiées (Mycènes, Tirynthe) ornées de fresques guerrières et développant l'écriture linéaire B, avant de s'effondrer mystérieusement vers 1200 av. J.-C. lors des bouleversements des Peuples de la mer.</p>
+      <p>En Asie du Sud, la brillante civilisation de l'Indus s'éteint progressivement, supplantée par l'arrivée graduelle des populations indo-aryennes qui composent les premiers textes védiques et structurent la société en traditions orales et religieuses fondatrices.</p>
+      <p>En Chine, la dynastie Shang consolide son pouvoir dans la vallée du Fleuve Jaune, perfectionnant à l'extrême la fonte du bronze rituel pour le culte des ancêtres, inventant un système d'écriture logographique sur os oraculaires et érigeant de vastes capitales fortifiées.</p>
     `,
     themeAlbums: [
       { label: "🛠️ Métallurgie", url: "https://photos.google.com/share/AF1QipN2ccGraobqmNhsyQhn1XQYZmas-d6wNnWsUE7X6q_zzAIytbnOH6GGkVB_WU95AQ?key=Mkc1WGhlQmRIY1VpenkzMG1SNzdHczVWcjI4MGZ3" }
@@ -963,7 +976,15 @@ CIVILISATIONS_REGISTRY.push(
         chips: ["Âge du Bronze", "Jublains (Mayenne)", "Alliage cuivreux"],
         deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNeGi9CeQnVZ0W8vPbx0jodOMhg6-U-KG1RWY5FKuhdbkyiT-iSkT_XR1V1NGGO9m3Us2LF_p2md8GdF4hAnaTp0Bf05pEXDuSPiBFtHM2FjgA2ZTxIDPJ_96SpfO-bGNnsO44jw8COUI9sW93SROp_kQ=w2599-h1103-s-no-gm?authuser=0",
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMDKuI_TJU5jFc6SYvcfxQYMyLAxo_Er1aGNAFST7fBciWLXuMara_i-InT_5a4JadEykH_U5NohJtceGLLNyrgygDvzoLfxc4d3YuA_LAUxM59s6iLGsMybtdwHkWdmTVQnj3B1RagX4Uu4B20Q3CV6w=w2599-h1733-s-no-gm?authuser=0",
-        narrative: `<p>Dépôt d'alliage cuivreux à patine verte associant haches à talon et parures annulaires.</p>`
+        narrative: `
+          <p>Cette vitrine du Musée archéologique départemental de Jublains présente un ensemble exceptionnel d’objets en alliage cuivreux rattachables à l’âge du Bronze, période s’étendant approximativement de 2200 à 800 avant notre ère. Ces artefacts, principalement des haches à talon et des parures annulaires, témoignent de la maîtrise de la métallurgie et de la complexité des structures sociales de l’époque. La patine verte caractéristique qui recouvre ces pièces est le résultat de l’oxydation naturelle du bronze au fil des millénaires dans le sol, soulignant l’ancienneté de ce dépôt archéologique.</p>
+
+          <p>Les haches à talon constituent l’élément le plus représenté dans cet ensemble. Ce type d'outil, caractéristique du Bronze moyen et final, marque une évolution technique par rapport aux haches plates plus anciennes. Le talon, partie située à l’arrière de la lame, permettait une fixation plus solide sur un manche en bois coudé, souvent renforcée par des ligatures passant par un petit anneau latéral appelé bélière. Bien que ces objets puissent servir d'outils de charpenterie ou d'armes, leur découverte en nombre au sein de dépôts groupés suggère également une fonction de réserve de métal ou une valeur symbolique et monétaire dans les échanges prémonétaires.</p>
+
+          <p>Les parures, représentées ici par plusieurs bracelets ou anneaux de bras, illustrent le raffinement de l'artisanat du Bronze moyen. Ces objets massifs présentent des décors géométriques incisés, composés de lignes parallèles, de chevrons ou de motifs pointillés. La présence de ces parures dans un dépôt aux côtés d'outils renforce l'idée du "phénomène des dépôts", une pratique consistant à enfouir volontairement des objets de valeur dans le sol, des grottes ou des zones humides. Cette démarche, loin d'être accidentelle, est interprétée par les archéologues soit comme une cachette de fondeur destinée à être récupérée, soit comme un acte rituel d'offrande aux divinités ou de marquage territorial.</p>
+
+          <p>L’étude de ce mobilier archéologique permet de situer la région de Jublains et plus largement le département de la Mayenne au sein des réseaux de circulation du métal à l'échelle européenne. La composition du bronze, alliant cuivre et étain, nécessitait des approvisionnements parfois lointains, confirmant l'existence de routes commerciales structurées. Ce dépôt de Bais, dont sont issus plusieurs de ces objets, demeure un témoignage précieux des savoir-faire techniques et des croyances spirituelles des populations qui occupaient le territoire bien avant l'installation de la cité gallo-romaine de Noviodunum.</p>
+        `
       }
     ]
   },
