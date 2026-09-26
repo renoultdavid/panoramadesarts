@@ -199,6 +199,12 @@ body {
   background: radial-gradient(circle, rgba(46,196,182,0.95) 0%, rgba(46,196,182,0.35) 50%, transparent 75%);
 }
 
+#halo-egypte_moyen {
+  left: 55.4%;
+  top: 50.8%;
+  background: radial-gradient(circle, rgba(32,201,151,0.95) 0%, rgba(32,201,151,0.35) 50%, transparent 75%);
+}
+
 .sync-foyer-halo.active {
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
@@ -252,12 +258,12 @@ body {
 }
 
 /* =========================================================
-   CARTOUCHE LATÉRAL RESPONSIVE (ÉPOUSE DE L'EN-TÊTE À LA FRISE)
+   CARTOUCHE LATÉRAL RESPONSIVE
    ========================================================= */
 #hover-sidebar-card {
   position: absolute;
   top: 60px;
-  bottom: 315px; /* S'arrête pile au ras de la frise maîtresse */
+  bottom: 315px;
   z-index: 25;
   width: 500px;
   max-width: 40vw;
