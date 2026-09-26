@@ -260,8 +260,7 @@ const CIVILISATIONS_REGISTRY = [
         <p>Provenant probablement de Thèbes Ouest ou d'Abydos, des sites hautement symboliques pour la légitimité de la dynastie, cette statue servait de support au culte royal. Séqenenrê Djéhouty-Âa, dont la momie porte les traces de blessures de guerre, est resté dans la mémoire égyptienne comme un héros national. Cette représentation, par sa rareté et sa force tranquille, permet d'apprécier l'art d'une époque de reconquête où la statuaire royale redevient un outil de propagande et d'affirmation de la souveraineté égyptienne retrouvée.</p>`
       }
     ]
-  }
-];
+  },
 {
     id: "egypte_nouvel",
     name : "Égypte : Nouvel Empire",
