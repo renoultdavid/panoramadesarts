@@ -55,39 +55,39 @@
         <div class="map-atmospheric-glow"></div>
       </div>
     </div>
-  </main>
 
-  <!-- CARTOUCHE LATÉRAL RESPONSIVE -->
-  <aside id="hover-sidebar-card" class="pos-left">
-    <button class="btn-close-sidebar" id="btn-close-sidebar" title="Fermer la fiche">&times;</button>
-    <div class="sidebar-scrollable-body">
-      <div class="hover-card-era" id="sidebar-era">Époque</div>
-      <div class="hover-card-title" id="sidebar-title">Civilisation</div>
-      
-      <div class="hover-banner-frame" id="sidebar-banner-box">
-        <img id="sidebar-banner-img" src="" alt="Bandeau de la civilisation" loading="lazy" />
+    <!-- CARTOUCHE LATÉRAL RESPONSIVE (DANS LE VIEWPORT) -->
+    <aside id="hover-sidebar-card" class="pos-left">
+      <button class="btn-close-sidebar" id="btn-close-sidebar" title="Fermer la fiche">&times;</button>
+      <div class="sidebar-scrollable-body">
+        <div class="hover-card-era" id="sidebar-era">Époque</div>
+        <div class="hover-card-title" id="sidebar-title">Civilisation</div>
+        
+        <div class="hover-banner-frame" id="sidebar-banner-box">
+          <img id="sidebar-banner-img" src="" alt="Bandeau de la civilisation" loading="lazy" />
+        </div>
+
+        <div class="hover-card-desc" id="sidebar-desc">Notice muséographique...</div>
+
+        <div id="sidebar-album-grid" class="sidebar-album-grid"></div>
       </div>
+      
+      <div class="sidebar-footer-action">
+        <button class="btn-enter-civ-map" id="btn-enter-civ">
+          Explorer la carte régionale ➔
+        </button>
+      </div>
+    </aside>
 
-      <div class="hover-card-desc" id="sidebar-desc">Notice muséographique...</div>
-
-      <div id="sidebar-album-grid" class="sidebar-album-grid"></div>
-    </div>
-    
-    <div class="sidebar-footer-action">
-      <button class="btn-enter-civ-map" id="btn-enter-civ">
-        Explorer la carte régionale ➔
-      </button>
-    </div>
-  </aside>
-
-  <!-- VOLET LATÉRAL DE DROITE : ET PENDANT CE TEMPS-LÀ... (AVEC ASCENSEUR PROPRE) -->
-  <aside id="concurrent-sidebar-card">
-    <div class="sidebar-scrollable-body">
-      <div class="hover-card-era">Contexte Mondial Synchrone</div>
-      <div class="hover-card-title">Et pendant ce temps-là...</div>
-      <div class="hover-card-desc" id="concurrent-desc">Chargement du contexte mondial...</div>
-    </div>
-  </aside>
+    <!-- VOLET LATÉRAL DE DROITE : ET PENDANT CE TEMPS-LÀ... (DANS LE VIEWPORT) -->
+    <aside id="concurrent-sidebar-card">
+      <div class="sidebar-scrollable-body">
+        <div class="hover-card-era">Contexte Mondial Synchrone</div>
+        <div class="hover-card-title">Et pendant ce temps-là...</div>
+        <div class="hover-card-desc" id="concurrent-desc">Chargement du contexte mondial...</div>
+      </div>
+    </aside>
+  </main>
 
   <!-- FRISES AU BAS DE L'ÉCRAN -->
   <footer id="timeline-dock">
