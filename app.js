@@ -1097,7 +1097,7 @@ CIVILISATIONS_REGISTRY.push(
         `
       }
     ]
-  };
+  });
 
 /* ==========================================================================
    GÉNÉRATION DE LA FRISE ET INTERACTIONS
