@@ -982,12 +982,22 @@ CIVILISATIONS_REGISTRY.push(
     mapOverlayUrl: "https://lh3.googleusercontent.com/d/1O9GXVfPkuswX5DorBUgBxfZc-209aoh8",
     albumUrl: "https://photos.google.com/share/AF1QipPVAXqBqZTRYy0G2k4dekN1B26P4qiDwAk_6z_C-Kx6eIyhtxN2miXjHY6tXfzPIw?pli=1&key=cW1TT0ZhWXFGeDBmU1F2SGl1VEw0d0FOMjR6MVVn",
     presentationHtml: `
-      <p><strong>Une synthèse monumentale au Proche-Orient</strong><br>
-      L'art amorrite représente une phase de transition et de synthèse majeure dans l'histoire de la Syrie et de la Mésopotamie, associant traditions sémites et influences paléo-babyloniennes.</p>
+      <p><strong>L'épanouissement des dynasties sémites occidentales</strong><br>
+      L'art de la période amorrite et paléo-babylonienne (début du IIe millénaire av. J.-C., v. 2000-1600 av. J.-C.) en Mésopotamie s'épanouit à travers l'essor de dynasties sémites occidentales qui unifient la région autour de grands centres urbains comme Babylone, Mari ou Larsa.</p>
+      
+      <p><strong>Dévotion intime et stèle monumentale</strong><br>
+      Dans la statuaire et les reliefs, l'art amorrite privilégie les scènes de dévotion intime et de communication avec le divin, illustrées par les nombreuses plaques votives en terre cuite moulée représentant des divinités nues, des musiciens ou des cavaliers. La pièce maîtresse de cette époque reste la célèbre stèle du Code de Hammurabi, sculptée dans un bloc de basalte noir : elle représente au sommet le roi recevant les lois des mains du dieu Shamash, associant avec rigueur le pouvoir politique à la légitimité sacrée.</p>
+
+      <p><strong>Raffinement palatial et glyptique</strong><br>
+      L'architecture palatiale atteint un sommet de raffinement avec le palais royal de Mari, vaste complexe labyrinthique de plus de deux cent soixante pièces, dont les cours et les salles d'apparat abritaient des peintures murales polychromes exceptionnelles célébrant l'investiture royale. La glyptique (sceaux-cylindres) se renouvelle profondément en popularisant la « scène de présentation », où un dieu protecteur introduit un mortel divinisé ou un dignitaire auprès d'une divinité majeure, reflétant une piété personnelle accrue.</p>
     `,
     concurrentHtml: `
       <p><strong>Le contexte mondial au IIe millénaire av. J.-C.</strong></p>
-      <p>Pendant que le monde amorrite érige ses palais peints, l'Égypte du Moyen Empire s'affirme comme un âge d'or classique.</p>
+      <p>Pendant que le monde amorrite érige ses palais peints et codifie ses lois en Mésopotamie, les autres grands foyers civilisationnels du globe connaissent des mutations historiques et majeures au cours du IIe millénaire av. J.-C.</p>
+      <p>En Égypte, le Moyen Empire s'affirme comme un âge d'or classique, marqué par une statuaire royale introspective aux visages soucieux, un renouveau littéraire et la maîtrise absolue de l'orfèvrerie cloisonnée de Dahchour.</p>
+      <p>En Anatolie, l'Empire hittite se structure peu à peu en une grande puissance militaire redoutable, s'appuyant sur l'essor de la métallurgie du fer et le contrôle des routes stratégiques du Taurus pour rivaliser avec ses voisins.</p>
+      <p>En Crète, la civilisation minoenne déploie son premier âge des palais (Knossos, Phaistos), caractérisé par l'écriture linéaire A, un art maritime naturaliste et une architecture palatiale ouverte et sophistiquée.</p>
+      <p>En Chine, la dynastie Shang s'établit durablement dans la vallée du Fleuve Jaune, perfectionnant l'art de la fonte rituelle des bronzes et institutionnalisant l'écriture divinatoire sur os oraculaires pour légitimer le pouvoir royal.</p>
     `,
     themeAlbums: [
       { label: "🗿 Statuaire", url: "https://photos.google.com/share/AF1QipPVAXqBqZTRYy0G2k4dekN1B26P4qiDwAk_6z_C-Kx6eIyhtxN2miXjHY6tXfzPIw?pli=1&key=cW1TT0ZhWXFGeDBmU1F2SGl1VEw0d0FOMjR6MVVn" }
@@ -1003,7 +1013,15 @@ CIVILISATIONS_REGISTRY.push(
         chips: ["v. -1500 av. J.-C.", "Tell Atchana (Alalakh)", "British Museum (Londres)"],
         deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczPHGkCZm47O1gOL4Ui6nLL0Q0omROV3pafBxYT6WkYFLnvfgyA9yAFCMg-GL6KLpqobLqfxmnJGBF0ph464anxAlRWeZAsc5daaMrcP4s9FK1oijdIqs4hZQ1WP-EtZnYfMwWvkfacKZQ5JF6diThA3RA=w1620-h688-s-no-gm?authuser=0",
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczN6NQEToJ97f-c9qg-7W7Rt1ImmBuXkLUYQQalWO4iiVc7usyBS_ELROgGtpIudXZ0cVIjbk4-F1mo45heZCYaqpyiADyeZUZhe5HrztmoWoXq_qIWOTT0m981iqD3yMBajZAiUIHQQ4E0zNJYGg-K-fw=w613-h919-s-no-gm?authuser=0",
-        narrative: `<p>Statue en magnésite blanche gravée de la célèbre autobiographie cunéiforme d'Idrimi.</p>`
+        narrative: `
+          <p>Découverte en 1939 par Leonard Woolley à Tell Atchana (l’antique Alalakh), cette statue en magnésite blanche représente Idrimi, roi d'Alalakh, siégeant sur un trône de basalte. L'œuvre est d'une importance historique inégalée, non pas seulement pour ses qualités esthétiques, mais surtout pour l'inscription autobiographique monumentale qui recouvre presque toute la surface du corps du souverain. Idrimi y raconte son exil après la chute de sa famille à Alep, ses sept années passées parmi les guerriers nomades Hapirou, sa reconquête du trône avec l'appui de son suzerain, le roi du Mittani, et ses campagnes militaires victorieuses. C'est l'un des rares témoignages directs d'un souverain de l'âge du bronze racontant son propre destin avec une telle précision narrative.</p>
+
+          <p>D'un point de vue stylistique, la statue témoigne d'un art provincial syrien qui s'éloigne des canons classiques mésopotamiens pour adopter une esthétique plus schématique et robuste. Idrimi est représenté portant une tiare royale archaïque et une longue robe bordée d'un épais bourrelet, caractéristique du costume syrien de l'époque. Son visage est marqué par de grands yeux circulaires dont les pupilles étaient autrefois incrustées de verre ou de pierres sombres, conférant au roi une expression de vigilance éternelle. Ses mains sont posées sur ses genoux et sa poitrine, dans une attitude de dévotion ou d'affirmation de son autorité retrouvée. La barbe est figurée par un simple relief lisse au menton, prolongeant la ligne du visage de manière géométrique.</p>
+
+          <p>L'inscription, gravée en cunéiforme akkadien sur trente lignes, est l'élément le plus saisissant. Elle a été rédigée par le scribe Sharruwa, qui a signé son œuvre à la fin du texte. Les signes parcourent les bras, le torse et les jambes du roi, transformant littéralement le corps du souverain en un support de mémoire et de légitimité. Le texte se termine par des bénédictions pour ceux qui respecteront la statue et des malédictions terrifiantes pour ceux qui oseraient la déplacer ou effacer le nom d'Idrimi. La statue n'était pas un simple portrait, mais une présence vivante destinée à recevoir des offrandes funéraires et à assurer la pérennité du nom du roi après sa mort.</p>
+
+          <p>Le trône, bien que plus rudimentaire dans sa sculpture, présente des traces de lions stylisés sur les côtés, symbole classique de la royauté au Proche-Orient. La statue a été retrouvée rituellement "enterrée" dans une fosse sous le temple d'Alalakh, ce qui suggère qu'elle a été mise à l'abri lors d'une destruction de la ville ou qu'elle a bénéficié d'un traitement funéraire particulier après que le culte du roi eut cessé. Elle demeure aujourd'hui l'une des pièces maîtresses du British Museum pour comprendre les rapports de pouvoir entre les petits royaumes syriens et les grands empires de l'époque.</p>
+        `
       }
     ]
   },
