@@ -181,8 +181,6 @@ body {
   transform: scale(0.98);
   transition: opacity 0.5s ease, transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
   z-index: 3;
-  padding: 10px;
-  box-sizing: border-box;
 }
 
 #civilisation-map-overlay.active {
@@ -191,12 +189,10 @@ body {
   pointer-events: auto;
 }
 
-/* CARTE RÉGIONALE CALQUÉE SUR LA CARTE GLOBALE */
+/* LA CARTE RÉGIONALE REMPLIT EXACTEMENT L'ESPACE SANS DISPARAÎTRE */
 #civilisation-map-img {
-  max-width: 100%;
-  max-height: 100%;
-  width: auto;
-  height: auto;
+  width: 100%;
+  height: 100%;
   object-fit: contain;
   display: block;
   border-radius: 4px;
@@ -218,15 +214,12 @@ body {
 }
 
 /* =========================================================
-   CARTOUCHES LATÉRAUX REDÉFINIS À 380PX AVEC ASCENSEUR PROPRE
+   CARTOUCHES LATÉRAUX POSÉS CONTRE LA FRISE (BAS ANCRÉ)
    ========================================================= */
 #hover-sidebar-card, #concurrent-sidebar-card {
   position: absolute !important;
-  top: 60px;
-  /* Hauteur calculée pour rester au-dessus du tiroir déplié */
-  height: calc(100vh - 610px) !important;
-  max-height: 520px;
-  min-height: 220px;
+  top: 15px;
+  bottom: 15px;
   z-index: 25;
   width: 380px;
   max-width: 35vw;
