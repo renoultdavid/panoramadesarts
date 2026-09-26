@@ -214,15 +214,15 @@ body {
 }
 
 /* =========================================================
-   CARTOUCHES LATÉRAUX FLOTTANTS PARFAITEMENT CALÉS
+   CARTOUCHES LATÉRAUX PROPORTIONNELS ET CALÉS AU-DESSUS DE LA FRISE
    ========================================================= */
 #hover-sidebar-card, #concurrent-sidebar-card {
   position: absolute !important;
-  top: 10px !important;
-  bottom: 10px !important;
-  height: auto !important;
-  max-height: none !important;
-  min-height: 0 !important;
+  top: 1.5rem !important;
+  bottom: auto !important;
+  height: calc(100vh - 380px) !important;
+  max-height: 580px !important;
+  min-height: 320px !important;
   z-index: 25;
   width: 380px;
   max-width: 35vw;
