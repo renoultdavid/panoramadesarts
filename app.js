@@ -264,7 +264,7 @@ const CIVILISATIONS_REGISTRY = [
 ];
 {
     id: "egypte_nouvel",
-    name: "Égypte : Nouvel Empire",
+    name : "Égypte : Nouvel Empire",
     epoch: "v. -1550 à -1069 av. J.-C.",
     yearStart: -1550, yearEnd: -1069,
     lane: "egypte", themeColor: "#10b981", sidePos: "pos-left", travelingOrigin: "55.1% 50.4%", haloId: "halo-egypte_nouvel",
