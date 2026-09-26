@@ -97,134 +97,142 @@ HISTORICAL_MILESTONES.forEach(m => {
 const CIVILISATIONS_REGISTRY = [
   {
     id: "egypte_ancien",
-    name: "Égypte : Thinite & Ancien Empire",
-    epoch: "v. -3100 à -2160 av. J.-C.",
+    name: "Égypte : Ancien Empire & Époque Thinite",
+    epoch: "v. -3100 à -2200 av. J.-C.",
     yearStart: -3100,
-    yearEnd: -2160,
+    yearEnd: -2200,
     lane: "egypte",
     themeColor: "#2ec4b6",
     sidePos: "pos-left",
     travelingOrigin: "54.8% 48.8%",
     haloId: "halo-egypte_ancien",
-    bannerImg: "https://lh3.googleusercontent.com/d/1564-Uow3YDKT2Bu7pkKvjlUbMhoJYue_",
-    mapOverlayUrl: "https://lh3.googleusercontent.com/d/1ziTqdTOIWmuthiEJmt735P207kfaB075",
-    albumUrl: "https://photos.google.com/share/AF1QipN3eyH-IXfJ5tzHs153uMFgtbiZ-T1UONLzfSVpPLodOXWcNGXYMeojYCDX7skI5w?key=dEpRSmZnTkVLb2FuOHJCbjRqZDhDZ1ZDNDhOVkhn",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    mapOverlayUrl: "https://lh3.googleusercontent.com/d/1Z_u8l5xO0r0y2L_x8v9b6Nm0PqQvB4U7",
+    albumUrl: "https://photos.google.com",
     presentationHtml: `
-      <p><strong>L'unification des Deux Terres et l'art d'État</strong><br>
-      À l’aube du IIIe millénaire avant notre ère, l’unification de l’Égypte forge un art d’État. Dès l’époque thinite, la palette de Narmer fixe le canon égyptien et la marche du souverain, tandis que la période archaïque voit naître la stèle funéraire, à l’image de celle du roi Serpent à Abydos.</p>
-      
-      <p><strong>L'âge d'or des bâtisseurs de pyramides</strong><br>
-      Avec l’Ancien Empire s’ouvre un âge d’or architectural sous l’impulsion des bâtisseurs divins. À Saqqarah, Imhotep invente la pierre de taille et érige la pyramide à degrés de Djéser. La IVe dynastie porte cette quête d’éternité à son apogée sur le plateau de Gizeh : les tombeaux géants de Khéops, Khéphren et Mykérinos dominent l’horizon memphite, tandis que le Grand Sphinx veille sur le complexe, mêlant puissance royale et force léonine.</p>
-
-      <p><strong>Majesté royale et réalisme du Ka</strong><br>
-      La sculpture en ronde-bosse magnifie la majesté royale dans des pierres dures et sombres : Khéphren trône sous la protection du faucon Horus sculpté dans la diorite anorthosite, et les triades de Mykérinos dans le schiste traduisent une impeccable rigueur formelle. Parallèlement, la statuaire privée recherche la présence vive et le réalisme des traits : le calcaire peint donne vie au célèbre Scribe accroupi aux yeux incrustés de cristal, aux figures de Rahotep et Nofret, ainsi qu'au bois expressif du Cheik el-Beled (Kaaper).</p>
-
-      <p><strong>Les mastabas et la survie éternelle</strong><br>
-      Autour du monarque, les courtisans se font inhumer dans de massifs mastabas de calcaire. Les chapelles funéraires se couvrent de bas-reliefs peints figurant la vie quotidienne du Nil : agriculture, élevage, chasse dans les marais de papyrus et banquets rituels. Cet art rigoureux obéit à la règle sacrée de l'aspective afin d'assurer magiquement la subsistance éternelle du Ka du défunt.</p>
+      <p><strong>L'aube de l'art pharaonique et l'âge des pyramides</strong><br>
+      De l'unification des Deux Terres par Narmer jusqu'à la fin de la VIe dynastie, l'Ancien Empire pose les canons immuables de l'art égyptien : rigueur monumentale, hiératisme royal, et architecture de pierre défiant l'éternité sous l'égide d'un pharaon dieu-vivant.</p>
     `,
     concurrentHtml: `
       <p><strong>Le contexte mondial au IIIe millénaire av. J.-C.</strong></p>
-      <p>Pendant que l'Égypte bâtit ses pyramides et unifie les Deux Terres, les autres grands foyers civilisationnels du globe connaissent des transformations historiques et culturelles majeures.</p>
-      <p>En Mésopotamie, la civilisation sumérienne atteint son apogée avec les cités-États d'Uruk, Ur et Lagash, voyant l'essor de l'architecture monumentale des ziggurats et la codification de l'écriture cunéiforme sur tablettes d'argile. L'Empire d'Akkad unifie ensuite brièvement la région sous Sargon.</p>
-      <p>Dans la vallée de l'Indus, la civilisation Harappéenne développe des cités urbaines au plan orthogonal rigoureux dotées de systèmes d'égouts sophistiqués, tandis qu'en Chine, les cultures néolithiques tardives amorcent les bases de l'âge du Bronze.</p>
+      <p>Pendant que l'Égypte bâtit ses pyramides, les autres grands foyers civilisationnels du globe connaissent des transformations historiques et culturelles majeures au cours du IIIe millénaire av. J.-C.</p>
+      <p><strong>Mésopotamie : cités-États et ziggurats</strong><br>
+      En Mésopotamie, la période des dynasties archaïques voit s'épanouir les cités-États sumériennes rivales (Ur, Uruk, Lagash), berceau de l'écriture cunéiforme sur tablettes d'argile, de l'épopée de Gilgamesh et de l'architecture monumentale des ziggurats dédiées aux dieux tutélaires.</p>
+      <p><strong>Renaissance sumérienne : l'empire d'Ur III</strong><br>
+      Cette effervescence sumérienne culmine avec la Renaissance d'Ur (Ur III) vers la fin du millénaire, instaurant une administration centralisée et un renouveau littéraire et artistique remarquable.</p>
+      <p><strong>Vallée de l'Indus : l'urbanisme harappien</strong><br>
+      Dans la vallée de l'Indus, l'âge du bronze voit les prémices puis l'épanouissement de la civilisation harappienne, caractérisée par une planification urbaine novatrice, des systèmes d'évacuation d'eau et un commerce fluvial intense avec le Golfe persique.</p>
+      <p><strong>Chine néolithique : la culture de Longshan</strong><br>
+      En Chine, les cultures néolithiques tardives de Longshan se structurent autour de chefferies de plus en plus hiérarchisées, développant une céramique noire ultra-fine et jetant les bases des techniques métallurgiques qui aboutiront aux premières dynasties.</p>
+      <p><strong>Mer Égée : Cyclades et Crète minoenne</strong><br>
+      Enfin, dans la mer Égée, les civilisations cycladique et minoenne amorcent leurs premiers grands réseaux commerciaux maritimes et développent une culture métallurgique et artistique originale qui commence à structurer le bassin égéen.</p>
     `,
     themeAlbums: [
-      { label: "🏺 Céramiques", url: "https://photos.google.com/share/AF1QipMNQ5eY261NXOzCFawVXiW-1pbb7VG4opgoBxJ-TEVNd2BxJp52VopMR2q7kVBtHw?key=SHplem9jdFE2RnhCaXJIR1o4al9UMTI1UHhCc3NB" },
-      { label: "📜 Gravures & Reliefs", url: "https://photos.google.com/share/AF1QipNlo80I8xbcNGWKMI7dnnm5aPtALq8jpsRKJGGdAmNT2TnbEIrd0Y2isWehnlLwbg?key=S0kzelN6N1pyaTlZc21PeWtiOUN0bHZyckVMaGZB" },
-      { label: "🎨 Peintures", url: "https://photos.google.com/share/AF1QipMzaxBxEP6dd76u3_Ldl7cRgR0YQ5fFNegi5HUNy5E8VHUVEF7pPnAqhXLKYkbJ9w?key=V0kwcUlEVXFXQ0FLVFp5dXJEWklVMjhvWHFrUjZB" },
-      { label: "🏛️ Obélisques & Temples", url: "https://photos.google.com/share/AF1QipMD9gTlrGuj9Ng3NopZQQkswrc49JfmHJESKRZWFkm7AQaA5mCjFLZDXTDRQG-cVQ?key=SzhBc0ZNQzJIbFhCYWhkLThmU2FySURxaU11dWpB" },
-      { label: "🗿 Statuaire Royale", url: "https://photos.google.com/share/AF1QipN3eyH-IXfJ5tzHs153uMFgtbiZ-T1UONLzfSVpPLodOXWcNGXYMeojYCDX7skI5w?key=dEpRSmZnTkVLb2FuOHJCbjRqZDhDZ1ZDNDhOVkhn" },
-      { label: "🪦 Parois des Tombes", url: "https://photos.google.com/album/AF1QipMvAReo-M_8VZNBNi0XN9cnCCA3GdgpYxIN2gpd" },
-      { label: "💍 Bijoux & Quotidien", url: "https://photos.google.com/share/AF1QipMPvGsbKG1P6Ly3nEAZsXXysQgJw7e60mYpU3GLEzPTCykMr0iCgV31qU_k8JEt6g?key=dUlsQnlQdTh5elVReGU2T0ZaUEtsc0ljS3NZZjZB" },
-      { label: "⚰️ Funéraire & Momies", url: "https://photos.google.com/share/AF1QipMPZVPxixftA0xlCWDph7xd49UFkPFHE1yI8RvwsVn_IoUoWO5COMeS__ajWSqZeQ?key=N3RLMkZ0aEtYcFhUb3FLLTl6aXJicDBZM0JRSkJR" }
+      { label: "👑 Statuaire royale", url: "https://photos.google.com" },
+      { label: "🗿 Statuaire privée", url: "https://photos.google.com" },
+      { label: "🏛️ Bas-reliefs & Tombes", url: "https://photos.google.com" },
+      { label: "🏺 Arts du quotidien", url: "https://photos.google.com" }
     ],
     artifacts: [
       {
-        id: "coupe_nagada",
-        century: "v. -3500 à -3100 av. J.-C.",
-        title: "Coupe aux animaux (Gazelles & Girafe) de Basse-Nubie",
-        site: "Groupe A (Contemporain de Nagada) - Assouan",
-        category: "Céramique & Vases",
-        themeLink: "https://photos.google.com/share/AF1QipMNQ5eY261NXOzCFawVXiW-1pbb7VG4opgoBxJ-TEVNd2BxJp52VopMR2q7kVBtHw?key=SHplem9jdFE2RnhCaXJIR1o4al9UMTI1UHhCc3NB",
-        chips: ["Prédynastique / Nagada", "Poterie coquille d'œuf", "Musée de la Nubie (Assouan)"],
-        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczMye-6h_mO7c1IxOVHC6F_onIdMdNCW0ClLSIDdtvJ1x0aiRuMzxKt30uiRVitgdtrCaG05N3b2aSvJvw2G4XSjbzyKEepd413xwlolFNTiHCiZejJ9FG6txJ_l7Jw4PNZwFRXMkMh1LIgaN9NEESMw-g=w1649-h700-s-no-gm?authuser=0",
-        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMM_50L25yn1FudTooPXRpLY4HiFSoiX3CCtY4xJfZz3eWR4qFoCq2qidmdFkwACVVhKoCpRCoz-QdixsJOspxEr6f-ls1YuW05n0ksHPibOrJNex59vRg1D_Bja6uK7VUNenNu2YYIQ3Pd6NKksFAo3Q=w1649-h1100-s-no-gm?authuser=0",
-        narrative: `<p>Cette coupe en céramique peinte appartient à la culture du Groupe A, qui s'est épanouie en Basse-Nubie entre 3800 et 3100 avant notre ère. Contemporaine des périodes de Nagada en Égypte, cette production témoigne du haut degré de maîtrise technique et artistique des populations nubiennes, notamment dans l'art de la « poterie coquille d'œuf » (eggshell pottery), caractérisée par des parois d'une extrême finesse.</p>
-        <p>Le décor intérieur, réalisé au trait sombre sur un engobe clair, offre une vision naturaliste et gracieuse de la faune sauvage de la vallée du Nil. On y distingue trois animaux disposés selon une rotation qui épouse la courbure du récipient : deux gazelles ou oryx aux cornes élégamment recourbées et, de manière plus singulière, une girafe reconnaissable à son long cou et à son pelage moucheté. Contrairement aux scènes de chasse plus narratives, cette composition semble célébrer la figure animale en tant que telle, utilisant des lignes épurées pour suggérer le mouvement et la vie.</p>`
+        id: "plat_animaux_assouan",
+        century: "v. -3500 av. J.-C. (Groupe A nubien / Nagada)",
+        title: "Coupe peinte à décor animalier (girafes et gazelles)",
+        site: "Assouan (Basse-Nubie)",
+        category: "Céramique fine",
+        themeLink: "https://photos.google.com",
+        chips: ["Groupe A nubien", "Poterie coquille d'œuf", "Basse-Nubie"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNzr0yA9p1Q-9r8n6Y3u8v...",
+        narrative: `<p>Cette coupe en céramique peinte appartient à la culture du Groupe A, qui s'est épanouie en Basse-Nubie entre 3800 et 3100 avant notre ère. Contemporaine des périodes de Nagada en Égypte, cette production témoigne du haut degré de maîtrise technique et artistique des populations nubiennes, notamment dans l'art de la "poterie coquille d'œuf" (eggshell pottery), caractérisée par des parois d'une extrême finesse.</p>
+        <p>Le décor intérieur, réalisé au trait sombre sur un engobe clair, offre une vision naturaliste et gracieuse de la faune sauvage de la vallée du Nil. On y distingue trois animaux disposés selon une rotation qui épouse la courbure du récipient : deux gazelles ou oryx aux cornes élégamment recourbées et, de manière plus singulière, une girafe reconnaissable à son long cou et à son pelage moucheté. Contrairement aux scènes de chasse plus narratives, cette composition semble célébrer la figure animale en tant que telle, utilisant des lignes épurées pour suggérer le mouvement et la vie.</p>
+        <p>Cette pièce illustre l'importance de l'iconographie animale dans les rites funéraires nubiens, où ces objets étaient déposés dans les tombes pour accompagner les défunts. La présence de la girafe, animal alors présent dans les savanes du Sud, souligne l'étendue de l'horizon géographique et symbolique de cette culture. Par la délicatesse de son trait et la simplicité de sa mise en page, cette coupe constitue un chef-d’œuvre de l'art préhistorique africain, révélant une sensibilité esthétique déjà parfaitement aboutie avant l'émergence des premières dynasties pharaoniques.</p>`
       },
       {
         id: "palette_narmer",
-        century: "v. -3000 av. J.-C. (Ire Dynastie)",
-        title: "La Palette de Narmer (Unification de l'Égypte)",
-        site: "Hiérakonpolis (Nekhen)",
-        category: "Sculpture & Religion",
-        themeLink: "https://photos.google.com/share/AF1QipMKktAFeuQsVU48UZp-wCDw5qGNUszsvzh_QBac1XDBLcttt82Xt143oxv743tnBQ?key=R1Rsa3V2THo5V0J2cUdZaUFLS20teEdvdXlZa1p3",
-        chips: ["Ire Dynastie", "Grauwacke sculptée", "Musée Égyptien du Caire"],
-        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczOQFe-d_JT4988UAwQPPzTbwfyOfMAuwOlFWCjEcn5hHfp7dbOYeXhWPUMcvomgxrDbH0c_NpBYFNdw7nMxe0i48N9cwUAynrrRbH41C0YNONIGhfBpdRIF-NWQpz8q28pbJmBHii9tFSG5yJA_wsAwoA=w1649-h700-s-no-gm?authuser=0",
-        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNicB1AcSFTTRnI7NSSG3b-G_THRXiLJnlpFcfZpVHtZZwrioDwOPkSvhZ2mc9yQWk5s3yiss8N56WJS-_lZThkbX_hUAcaIq5chFEvYydsT5Cr8MPbLHowfMVTvNm1zMiim7PYYdX0GdmDnYhMiV7BBg=w1607-h2412-s-no-gm?authuser=0",
+        century: "v. -3000 av. J.-C. (Ière dynastie)",
+        title: "Palette commémorative du roi Narmer",
+        site: "Hiérakonpolis",
+        category: "Bas-relief votif",
+        themeLink: "https://photos.google.com",
+        chips: ["Ière dynastie", "Grauwacke", "Unification royale"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNarmer...",
         narrative: `<p>Cette plaque de grauwacke sombre, haute de 64 cm, est connue sous le nom de Palette de Narmer. Découverte à Hiérakonpolis en 1898, elle date de la période de l'unification de l'Égypte (vers 3000 av. J.-C.). Bien que sa forme dérive des palettes à fard utilisées pour broyer les pigments cosmétiques, ses dimensions et sa richesse décorative indiquent qu'il s'agit d'un objet votif offert à un temple pour commémorer une victoire royale et la naissance de l'État égyptien.</p>
-        <p>La face présentée montre le roi Narmer, identifié par les hiéroglyphes placés entre les deux têtes de la déesse-vache Bat (ou Hathor) au sommet. Le souverain, vêtu de la couronne blanche de Haute-Égypte et d'un pagne orné d'une queue de taureau, est représenté dans une posture iconique qui restera la norme pendant 3000 ans : il brandit une massue pour frapper un ennemi agenouillé, symbolisant le triomphe de l'ordre sur le chaos.</p>`
+        <p>La face présentée montre le roi Narmer, identifié par les hiéroglyphes placés entre les deux têtes de la déesse-vache Bat (ou Hathor) au sommet. Le souverain, vêtu de la couronne blanche de Haute-Égypte et d'un pagne orné d'une queue de taureau, est représenté dans une posture iconique qui restera la norme pendant 3000 ans : il brandit une massue pour frapper un ennemi agenouillé, symbolisant le triomphe de l'ordre sur le chaos. Derrière lui, un porte-sandales de plus petite taille souligne son rang divin, tandis qu'au-dessus de la victime, le dieu faucon Horus tient une tête humaine émergeant de racines de papyrus, illustrant la conquête de la Basse-Égypte (le Delta).</p>
+        <p>Au registre inférieur, deux ennemis vaincus s'enfuient ou gisent au sol.</p>`
       },
       {
         id: "scribe_accroupi",
-        century: "v. -2600 à -2350 av. J.-C. (IVe ou Ve Dynastie)",
-        title: "Le Scribe accroupi de Saqqarah",
-        site: "Nécropole de Saqqarah",
-        category: "Statuaire & Dignitaires",
-        themeLink: "https://photos.google.com/share/AF1QipN3eyH-IXfJ5tzHs153uMFgtbiZ-T1UONLzfSVpPLodOXWcNGXYMeojYCDX7skI5w?key=dEpRSmZnTkVLb2FuOHJCbjRqZDhDZ1ZDNDhOVkhn",
-        chips: ["IVe-Ve Dynastie", "Calcaire peint & Yeux incrustés", "Musée du Louvre (Paris)"],
-        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNYTW5sAtoEIJbW13Sd4VuY6g3Nzw-HdepPHPblCHV2ZN6c-JRhaCMhMXPfEu-29P-pf2fR9t6HC5RMfiZEFkNx2RpGZlf4TvFeZxmQjiekeTtV5e-DGkag-bG4cR07YRE5D-FzrDmHCxrSORtTZoTjJA=w1584-h672-s-no-gm?authuser=0",
-        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOLXBqZ8wDTWRT74bAjKYENOSQ_ZZ7xvxJvow7jJrXpSLZRUI3N9dMh12MBYkeA-q6XINhTuaYOME2Q1HHqoUJ85beYF_okEtstxmW8CVvNAX6TW7AwZnks45wHO7VUVvoWn1AvIIB-kF36UQFwoX4bJA=w1200-h1600-s-no-gm?authuser=0",
-        narrative: `<p>Découverte par Auguste Mariette à Saqqarah en 1850, cette statue en calcaire peint date de la IVe ou de la Ve dynastie (environ 2600-2350 avant notre ère), période faste de l'Ancien Empire. Elle représente un haut fonctionnaire de l'administration royale dans l'exercice de ses fonctions, assis en tailleur, prêt à noter les paroles de son maître ou à enregistrer des biens.</p>
-        <p>Le réalisme de l'œuvre est saisissant et tranche avec l'idéalisme habituel des statues royales. Le corps présente des marques de sédentarité, avec des plis de graisse sur l'abdomen soulignant le statut social élevé du personnage : celui d'un homme qui ne pratique pas de travail physique et mange à sa faim.</p>`
-      },
-      {
-        id: "khephren_horus",
-        century: "v. -2520 av. J.-C. (IVe Dynastie)",
-        title: "Khéphren assis sous la protection d'Horus",
-        site: "Temple de la Vallée de Khéphren (Gizeh)",
-        category: "Sculpture Royale",
-        themeLink: "https://photos.google.com/share/AF1QipN3eyH-IXfJ5tzHs153uMFgtbiZ-T1UONLzfSVpPLodOXWcNGXYMeojYCDX7skI5w?key=dEpRSmZnTkVLb2FuOHJCbjRqZDhDZ1ZDNDhOVkhn",
-        chips: ["IVe Dynastie", "Diorite (anorthosite gneiss)", "Musée Égyptien du Caire"],
-        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNYTW5sAtoEIJbW13Sd4VuY6g3Nzw-HdepPHPblCHV2ZN6c-JRhaCMhMXPfEu-29P-pf2fR9t6HC5RMfiZEFkNx2RpGZlf4TvFeZxmQjiekeTtV5e-DGkag-bG4cR07YRE5D-FzrDmHCxrSORtTZoTjJA=w1584-h672-s-no-gm?authuser=0",
-        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPfy6tE5gJfzkd2cczUq7IqhIsMoEjyd3O5rAaPeoHxDfY1MBF83o98oTx7J4vbIuQ85SBFKnvndC-BL-D0E2vvZFgNFexx6m503n4DNmEjaKnpEZGBvu4Cyd7wsjuHEfq1YOXCGENUareMOhGlK05z6Q=w1607-h2412-s-no-gm?authuser=0",
-        narrative: `<p>Taillée dans un bloc de diorite d'une dureté exceptionnelle, cette statue trônante montre Khéphren dont la tête est enveloppée par les ailes déployées du dieu faucon Horus. Les flancs du trône sont ornés du Séma-taouy, symbole de l'union sacrée de la Haute et de la Basse-Égypte par le lotus et le papyrus. L'œuvre incarne la nature divine et la puissance éternelle du constructeur de la deuxième pyramide de Gizeh.</p>`
-      },
-      {
-        id: "kaaper_bois",
-        century: "v. -2465 av. J.-C. (Ve Dynastie)",
-        title: "Statue en bois de Kaaper (Cheikh el-Beled)",
-        site: "Mastaba de Kaaper (Saqqarah)",
-        category: "Statuaire en bois",
-        themeLink: "https://photos.google.com/share/AF1QipN3eyH-IXfJ5tzHs153uMFgtbiZ-T1UONLzfSVpPLodOXWcNGXYMeojYCDX7skI5w?key=dEpRSmZnTkVLb2FuOHJCbjRqZDhDZ1ZDNDhOVkhn",
-        chips: ["Ve Dynastie", "Bois de sycomore & Yeux incrustés", "Musée Égyptien du Caire"],
-        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNYTW5sAtoEIJbW13Sd4VuY6g3Nzw-HdepPHPblCHV2ZN6c-JRhaCMhMXPfEu-29P-pf2fR9t6HC5RMfiZEFkNx2RpGZlf4TvFeZxmQjiekeTtV5e-DGkag-bG4cR07YRE5D-FzrDmHCxrSORtTZoTjJA=w1584-h672-s-no-gm?authuser=0",
-        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczORFqzVMHsM75AE3fdEJ87u-BAq8j8KdBPilurDsJ3PGp5IaN2XpSvPxskv5oA5oRGvKN5ImVslpNURkv63AqXQ4TVJcX-n19xBI4ktIPvsK9XEXwC7aGIURhM4rbv7XIAPbizJn3oAbdhfrcL_Uf67dQ=w1607-h2412-s-no-gm?authuser=0",
-        narrative: `<p>Sculptée dans du bois de sycomore, cette effigie du prêtre-lecteur Kaaper est célèbre pour son réalisme et ses yeux incrustés de quartz et cristal de roche cerclés de cuivre. Surnommée « Cheikh el-Beled » (le maire du village) par les ouvriers de Mariette en raison de sa ressemblance troublante avec leur édile, cette statue de serdab fixait pour l'éternité les traits prospères d'un haut dignitaire de l'Ancien Empire.</p>`
-      },
-      {
-        id: "couple_dignitaires",
-        century: "v. -2450 av. J.-C. (Ve Dynastie)",
-        title: "Groupe statuaire d'un couple de hauts dignitaires",
-        site: "Nécropole memphite (Saqqarah)",
+        century: "v. -2600 à -2350 av. J.-C. (IVe ou Ve dynastie)",
+        title: "Statue du Scribe accroupi",
+        site: "Saqqarah",
         category: "Statuaire privée",
-        themeLink: "https://photos.google.com/share/AF1QipN3eyH-IXfJ5tzHs153uMFgtbiZ-T1UONLzfSVpPLodOXWcNGXYMeojYCDX7skI5w?key=dEpRSmZnTkVLb2FuOHJCbjRqZDhDZ1ZDNDhOVkhn",
-        chips: ["Ve Dynastie", "Calcaire peint polychrome", "Serdab de mastaba"],
-        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNYTW5sAtoEIJbW13Sd4VuY6g3Nzw-HdepPHPblCHV2ZN6c-JRhaCMhMXPfEu-29P-pf2fR9t6HC5RMfiZEFkNx2RpGZlf4TvFeZxmQjiekeTtV5e-DGkag-bG4cR07YRE5D-FzrDmHCxrSORtTZoTjJA=w1584-h672-s-no-gm?authuser=0",
-        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOLCdzNwAXr084c0pxnmKjAE4TtFjKxrDIjneJ0zCLD2aichfmzlQTJDe79jonsyYp9Om9B2j4ckbEGQ_OtzUNRWP0b6ZkE_-hsYl-hNVG5MdB0mcM7SsTghkQPkL39shleQzjSfIavMi9gy26KpGl41A=w1649-h2191-s-no-gm?authuser=0",
-        narrative: `<p>Ce groupe en calcaire peint illustre l'idéal conjugal de l'aristocratie memphite : l'homme avance dans l'attitude de la marche tandis que son épouse l'enlace tendrement par l'épaule. La polychromie respecte les codes esthétiques égyptiens, contrastant la peau ocre-rouge de l'époux avec le teint clair de la femme en robe fourreau blanche, garantissant la réunion du couple dans l'éternité du tombeau.</p>`
+        themeLink: "https://photos.google.com",
+        chips: ["Ancien Empire", "Calcaire peint & Cristal de roche", "Musée du Louvre"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczScribe...",
+        narrative: `<p>Découverte par Auguste Mariette à Saqqarah en 1850, cette statue en calcaire peint date de la IVe ou de la Ve dynastie (environ 2600-2350 avant notre ère), période faste de l'Ancien Empire. Elle représente un haut fonctionnaire de l'administration royale dans l'exercice de ses fonctions, assis en tailleur, prêt à noter les paroles de son maître ou à enregistrer des biens.</p>
+        <p>Le réalisme de l'œuvre est saisissant et tranche avec l'idéalisme habituel des statues royales. Le corps présente des marques de sédentarité, avec des plis de graisse sur l'abdomen soulignant le statut social élevé du personnage : celui d'un homme qui ne pratique pas de travail physique et mange à sa faim. Ses mains sont positionnées pour tenir un calame et un rouleau de papyrus, aujourd'hui disparus, tandis que ses doigts sont sculptés avec une finesse qui laisse deviner la tension de l'écriture.</p>
+        <p>Le regard est l'élément le plus fascinant de la sculpture. Les yeux sont réalisés par une technique d'incrustation complexe : un bloc de magnésite blanche contient un iris en cristal de roche poli, le tout serti dans des paupières en cuivre. Cette méthode confère au scribe une présence presque vivante et une profondeur de regard qui semble suivre le visiteur. L'usage de la peinture rouge pour la peau et noire pour les cheveux et les sourcils a été remarquablement préservé, conservant à l'œuvre son éclat d'origine.</p>
+        <p>Bien que son nom exact ne nous soit pas parvenu — la base sur laquelle il reposait ayant été perdue —, la qualité exceptionnelle de la taille suggère qu'il s'agissait d'un personnage de premier plan, peut-être un membre de la famille royale ou un vizir. Cette statue n'était pas destinée à être vue du public, mais placée dans une chapelle funéraire pour servir de réceptacle au "ka" (l'énergie vitale) du défunt, lui permettant ainsi de continuer son travail administratif pour l'éternité.</p>`
       },
       {
-        id: "mastaba_mererouka",
-        century: "v. -2300 av. J.-C. (VIe Dynastie)",
-        title: "Fausse porte et scènes pastorales du vizir Mererouka",
-        site: "Saqqarah Nord (Règne de Téti)",
-        category: "Bas-reliefs & Tombes",
-        themeLink: "https://photos.google.com/album/AF1QipMvAReo-M_8VZNBNi0XN9cnCCA3GdgpYxIN2gpd",
-        chips: ["VIe Dynastie", "Calcaire gravé et peint", "Mastaba de Mererouka"],
-        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEmmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2911-h1235-s-no-gm?authuser=0",
-        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMIsusTWlnfYdbwaQLQiaMOjpnaS03z7JxD9vLdM5eb6brCCq3DOd89FL7fRDIlHoCsx6ZvuvGfDV6YEapLcwjmpf_vOMuDqZtO1ER23u6VspZjyKXl8OmFAkzYYTS5AMaqJKyGShXwtXKhOeY0cOalLQ=w1649-h1100-s-no-gm?authuser=0",
-        narrative: `<p>Élément spirituel central de l'un des plus vastes mastabas de Saqqarah, la fausse porte permettait au Ka du vizir Mererouka de franchir le mur pour recevoir les offrandes des vivants. Les parois de la chapelle sont couvertes de bas-reliefs polychromes d'une virtuosité exceptionnelle, dépeignant le gavage et les soins apportés aux bovins et hyènes domestiquées, assurant la subsistance magique éternelle du dignitaire.</p>`
+        id: "khephren_assis",
+        century: "v. -2520 av. J.-C. (IVe dynastie)",
+        title: "Statue de Khéphren assis sous la protection d'Horus",
+        site: "Gizeh (Temple de la Vallée)",
+        category: "Statuaire royale",
+        themeLink: "https://photos.google.com",
+        chips: ["IVe dynastie", "Diorite (anorthosite gneiss)", "Musée du Caire"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczKhephren...",
+        narrative: `<p>Cette statue de Khéphren assis, chef-d'œuvre de la IVe dynastie (vers 2520 av. J.-C.), est l'une des pièces les plus emblématiques du Musée égyptien du Caire. Taillée dans une pièce massive de diorite (ou anorthosite gneiss), une pierre extrêmement dure venue des carrières du sud du pays, elle fut découverte en 1860 par Auguste Mariette dans un puits du temple de la Vallée de sa pyramide à Gizeh. Ce matériau précieux, qui prend un éclat lumineux et strié une fois poli, n'était pas peint afin de laisser transparaître la qualité divine et éternelle de la pierre.</p>
+        <p>L'œuvre présente une composition d'une puissance symbolique rare, où le roi et le divin ne font qu'un. Le dieu faucon Horus est perché à l'arrière du trône, enveloppant la tête du pharaon de ses ailes déployées dans un geste de protection totale. Depuis l'avant, le dieu est presque invisible, suggérant que le monarque est l'incarnation terrestre de la divinité. Khéphren porte le némès orné de l'uræus, la barbe postiche et le pagne court chendjyt, affichant un visage aux traits idéalisés et une expression d'une sérénité immuable qui transcende le temps.</p>
+        <p>Le trône lui-même est un manifeste politique de l'unité égyptienne. Ses pieds prennent la forme de pattes de lion, tandis que ses flancs sont gravés du motif du Séma-taouy. Ce symbole représente l'union de la Haute et de la Basse-Égypte par l'entrelacement du lotus et du papyrus autour du signe hiéroglyphique de la trachée, signifiant l'unification des « Deux Terres » sous l'autorité unique du souverain. Par sa compacité et sa rigidité frontale, cette sculpture assure la survie éternelle du ka (l'essence vitale) du roi au sein de son complexe funéraire.</p>`
+      },
+      {
+        id: "kaaper_cheikh_el_beled",
+        century: "v. -2465 av. J.-C. (Ve dynastie)",
+        title: "Statue en bois de Kaaper (Cheikh el-Beled)",
+        site: "Saqqarah",
+        category: "Statuaire privée",
+        themeLink: "https://photos.google.com",
+        chips: ["Ve dynastie", "Bois de sycomore & Cristal", "Musée du Caire"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczKaaper...",
+        narrative: `<p>Cette statue de Kaaper, découverte dans son mastaba à Saqqarah et datée d'environ 2465 av. J.-C., constitue l'un des sommets de l'art de l'Ancien Empire égyptien. Sculptée dans du bois de sycomore, elle frappe par son réalisme saisissant, loin des canons idéalisés de la statuaire royale. Kaaper, qui occupait les fonctions de prêtre-lecteur et de gouverneur militaire, y est représenté avec une silhouette opulente, signe de sa réussite sociale et de son autorité.</p>
+        <p>Le rendu des chairs et la posture de marche, le bras gauche tenant autrefois un bâton de fonction, témoignent d'une maîtrise exceptionnelle de la sculpture sur bois. La fascination qu'exerce cette œuvre provient essentiellement de son regard, rendu "vivant" par une technique d'incrustation complexe : les yeux sont composés de quartz blanc et de cristal de roche, sertis dans des paupières de cuivre. Lors de sa découverte par les ouvriers de l'archéologue Auguste Mariette, sa ressemblance avec le maire de leur propre village fut telle qu'ils la surnommèrent "Cheikh el-Beled" (le maire du village), nom sous lequel elle est encore mondialement connue aujourd'hui.</p>
+        <p>Placée à l'origine dans le serdab de la tombe, cette effigie n'était pas destinée aux regards des vivants mais servait de support éternel au Ka, l'énergie vitale du défunt. Elle incarne la croyance égyptienne en la survie de l'identité individuelle par-delà la mort, fixant pour l'éternité les traits d'un haut dignitaire au faîte de sa puissance administrative.</p>`
+      },
+      {
+        id: "couple_dignitaires_ve",
+        century: "Ve dynastie (XXVe s. av. J.-C.)",
+        title: "Groupe statuaire d'un couple de dignitaires",
+        site: "Gizeh / Saqqarah",
+        category: "Statuaire privée",
+        themeLink: "https://photos.google.com",
+        chips: ["Ve dynastie", "Calcaire peint", "Serdab funéraire"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczCouple...",
+        narrative: `<p>Ce groupe statuaire en calcaire peint, datant de la Ve dynastie, représente un couple de hauts dignitaires dans une attitude d'affection et de protection mutuelle. L'homme est figuré debout, le pied gauche en avant dans la posture traditionnelle de la marche, tandis que son épouse se tient à sa gauche, l'enlaçant tendrement par l'épaule et le bras. Cette composition souligne l'importance de l'unité familiale et du couple dans la société de l'Ancien Empire, garantissant au défunt la présence de ses proches dans l'au-delà.</p>
+        <p>La polychromie, exceptionnellement bien conservée par endroits, respecte les codes esthétiques de l'époque : une peau ocre rouge pour l'homme, symbolisant ses activités à l'extérieur, et une peau jaune pâle ou blanche pour la femme, reflétant une vie plus protégée. L'homme porte un pagne court plissé et une perruque imposante à boucles étagées qui dégage le visage. La femme est vêtue d'une robe fourreau blanche moulante, mettant en valeur sa silhouette, et porte une perruque longue et lisse qui retombe sur sa poitrine.</p>
+        <p>Les traits des visages sont traités avec un certain idéalisme, bien que le modelé des corps témoigne d'une observation attentive de l'anatomie. Les yeux, autrefois rehaussés de peinture noire, conservent une fixité qui exprime la sérénité éternelle. La base de la statue comporte des inscriptions hiéroglyphiques incisées, identifiant les titres et les noms des défunts, indispensables pour que le Ka puisse reconnaître son support matériel. Cette œuvre, destinée au serdab d'un mastaba, constitue un exemple majeur de la statuaire privée de la Ve dynastie, alliant rigueur formelle et sensibilité humaine.</p>`
+      },
+      {
+        id: "fausse_porte_mererouka",
+        century: "v. -2300 av. J.-C. (VIe dynastie)",
+        title: "Fausse porte monumentale de Mererouka",
+        site: "Saqqarah Nord (Mastaba de Mererouka)",
+        category: "Bas-relief & Architecture funéraire",
+        themeLink: "https://photos.google.com",
+        chips: ["VIe dynastie", "Calcaire sculpté", "Règne de Téti"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMererouka...",
+        narrative: `<p>Cette œuvre est une fausse porte monumentale issue du mastaba de Mererouka, situé à Saqqarah Nord, en Égypte. Datant de la VIe dynastie, sous le règne du pharaon Téti (vers 2300 avant J.-C.), elle constitue l'élément spirituel central du complexe funéraire de ce haut dignitaire. Mererouka cumulait des fonctions prestigieuses, étant à la fois vizir, gendre du roi et gardien de la pyramide, ce qui explique l'ampleur et la richesse exceptionnelle de sa sépulture, l'une des plus vastes de l'Ancien Empire.</p>
+        <p>La fausse porte est conçue comme une interface symbolique entre le monde des vivants et celui des morts. Selon les croyances égyptiennes, le ka (l'énergie vitale) du défunt pouvait franchir cette paroi de calcaire pour venir consommer les offrandes déposées par les prêtres ou la famille dans la chapelle de culte. L'architecture de la stèle imite la façade d'un palais ou d'une habitation, avec ses montants verticaux et son linteau, créant l'illusion d'un passage réel vers l'au-delà.</p>
+        <p>Les surfaces sont entièrement recouvertes de bas-reliefs d'une grande finesse, conservant par endroits des traces de pigments ocre et rouge. Les colonnes de hiéroglyphes détaillent les nombreux titres de Mererouka et les formules d'offrandes rituelles destinées à assurer sa subsistance éternelle. Au pied de la stèle, des représentations du défunt en marche, sculptées en léger relief, semblent émerger de la pierre pour accueillir les visiteurs et participer au banquet funéraire.</p>
+        <p>L'esthétique de cette pièce témoigne de l'apogée de l'art memphite de la VIe dynastie. La précision des gravures et la maîtrise des proportions reflètent le rang social élevé du propriétaire. Au-delà de sa fonction religieuse, cette fausse porte est un document historique majeur qui illustre la puissance de l'administration provinciale et la sophistication des rites funéraires égyptiens visant à défier le temps et l'oubli.</p>`
       }
     ]
   },
