@@ -1,5 +1,41 @@
 /* ==========================================================================
-   REGISTRE COMPLET DES CIVILISATIONS & NOTICES STRUCTURÉES
+   REGISTRE COMPLET DES GRANDES DATES & ÉVÉNEMENTS HISTORIQUES
+   ========================================================================== */
+const HISTORICAL_MILESTONES = [
+  {
+    year: -3300,
+    type: "Rupture technique",
+    title: "Invention de l'écriture cunéiforme",
+    desc: "Apparition des premières tablettes d'argile à Uruk en Mésopotamie, scellant la naissance de l'histoire et de la mémoire écrite."
+  },
+  {
+    year: -3000,
+    type: "Fondation politique",
+    title: "Unification de l'Égypte sous Narmer",
+    desc: "Fondation de la Ire dynastie thinite, réunissant la Haute et la Basse-Égypte sous l'autorité d'un souverain unique."
+  },
+  {
+    year: -2560,
+    type: "Chantier colossal",
+    title: "Chantier de la Grande Pyramide de Khéops",
+    desc: "Édification de la plus colossale des sept merveilles du monde antique sur le plateau calcaire de Gizeh."
+  },
+  {
+    year: -1600,
+    type: "Cataclysme naturel",
+    title: "Éruption minoenne de Santorin (Théra)",
+    desc: "Explosion volcanique majeure dans les Cyclades, provoquant des tsunamis et bouleversant les équilibres maritimes de la Crète minoenne."
+  },
+  {
+    year: -1274,
+    type: "Bataille décisive",
+    title: "Bataille de Qadesh (Ramsès II vs Muwatalli II)",
+    desc: "Le plus célèbre choc de chars de l'Antiquité sur l'Oronte, immortalisé en bas-reliefs héroïques sur les pylônes de Louxor et d'Abou Simbel."
+  }
+];
+
+/* ==========================================================================
+   REGISTRE COMPLET DES CIVILISATIONS (TOUS OBJETS & ONGLETS INCLUS)
    ========================================================================== */
 const CIVILISATIONS_REGISTRY = [
   {
@@ -70,7 +106,7 @@ const CIVILISATIONS_REGISTRY = [
         category: "Statuaire & Dignitaires",
         themeLink: "https://photos.google.com/share/AF1QipN3eyH-IXfJ5tzHs153uMFgtbiZ-T1UONLzfSVpPLodOXWcNGXYMeojYCDX7skI5w?key=dEpRSmZnTkVLb2FuOHJCbjRqZDhDZ1ZDNDhOVkhn",
         chips: ["IVe-Ve Dynastie", "Calcaire peint & Yeux incrustés", "Musée du Louvre (Paris)"],
-        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO8qJ9X0EbRPQwscIwqRQ7qhHKFuIShIpHCnkgDOrlDhzkMaCikMa0w9FILsuc5tAZ-IWaE9qllZEWwIzzDZbeSjQjh5IibmJDU6ycWvWpMiAnZ6BLpdVvNv-BAnPU-5_tcFcndUrfxL9yLT0soFPSQrQ=w1649-h700-s-no-gm?authuser=0",
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNYTW5sAtoEIJbW13Sd4VuY6g3Nzw-HdepPHPblCHV2ZN6c-JRhaCMhMXPfEu-29P-pf2fR9t6HC5RMfiZEFkNx2RpGZlf4TvFeZxmQjiekeTtV5e-DGkag-bG4cR07YRE5D-FzrDmHCxrSORtTZoTjJA=w1584-h672-s-no-gm?authuser=0",
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOLXBqZ8wDTWRT74bAjKYENOSQ_ZZ7xvxJvow7jJrXpSLZRUI3N9dMh12MBYkeA-q6XINhTuaYOME2Q1HHqoUJ85beYF_okEtstxmW8CVvNAX6TW7AwZnks45wHO7VUVvoWn1AvIIB-kF36UQFwoX4bJA=w1200-h1600-s-no-gm?authuser=0",
         narrative: "Découvert par Auguste Mariette, ce chef-d'œuvre en calcaire peint représente un haut dignitaire royal prêt à écrire sur son rouleau de papyrus. Son regard d'une présence presque vivante est obtenu par l'incrustation de magnésite blanche et de cristal de roche poli dans des paupières de cuivre. Placée dans une chapelle funéraire, l'effigie servait de réceptacle éternel au Ka du scribe pour perpétuer sa charge dans l'au-delà."
       },
@@ -118,7 +154,7 @@ const CIVILISATIONS_REGISTRY = [
         category: "Bas-reliefs & Tombes",
         themeLink: "https://photos.google.com/album/AF1QipMvAReo-M_8VZNBNi0XN9cnCCA3GdgpYxIN2gpd",
         chips: ["VIe Dynastie", "Calcaire gravé et peint", "Mastaba de Mererouka"],
-        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEmmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w3020-h1282-s-no-gm?authuser=0",
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEmmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2911-h1235-s-no-gm?authuser=0",
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMIsusTWlnfYdbwaQLQiaMOjpnaS03z7JxD9vLdM5eb6brCCq3DOd89FL7fRDIlHoCsx6ZvuvGfDV6YEapLcwjmpf_vOMuDqZtO1ER23u6VspZjyKXl8OmFAkzYYTS5AMaqJKyGShXwtXKhOeY0cOalLQ=w1649-h1100-s-no-gm?authuser=0",
         narrative: "Élément spirituel central de l'un des plus vastes mastabas de Saqqarah, la fausse porte permettait au Ka du vizir Mererouka de franchir le mur pour recevoir les offrandes des vivants. Les parois de la chapelle sont couvertes de bas-reliefs polychromes d'une virtuosité exceptionnelle, dépeignant le gavage et les soins apportés aux bovins et hyènes domestiquées, assurant la subsistance magique éternelle du dignitaire."
       }
@@ -157,7 +193,47 @@ const CIVILISATIONS_REGISTRY = [
         category: "Orfèvrerie",
         chips: ["Helladique Récent I", "Feuille d'or au repoussé", "Musée d'Athènes"],
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOX6_L1RpUEunGm8YyrUo9ZQzDC90rr2xuMb2gJHiwrLtQAF34EvXnMey2ZoDh22NxKU1jrqQzN2S6jU8CJUSECSj_Du-BfMxjvHrXcj69AVM9LB3id3w-sPR_-MA_wKPTwunhvneWq8cqoqx1Z8fV51A=w1980-h1319-s-no-gm?authuser=0",
-        narrative: "Découvert par Schliemann en 1876, ce masque en or massif martelé par l'arrière (technique du repoussé) recouvrait le visage d'un chef de guerre mycénien."
+        narrative: "Découvert par Schliemann en 1876, ce masque en or massif martelé par l'arrière (technique du repoussé) recouvrait le visage d'un chef de guerre mycénien. Précédant de trois siècles les événements de la guerre de Troie, il frappe par l'individualisation des traits : yeux en amande, nez aquilin, lèvres serrées et moustache ciselée, incarnant le prestige et le statut divin des élites de l'âge du Bronze."
+      },
+      {
+        id: "kourotrophos_mycenes",
+        century: "v. -1400 av. J.-C. (Helladique Récent III A)",
+        title: "Figurine de déesse ou mère trônante (Kourotrophos)",
+        site: "Citadelle de Mycènes",
+        category: "Religion & Offrandes",
+        chips: ["XIVe s. av. J.-C.", "Terre cuite peinte", "Culte de la fertilité"],
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPe878Jdmn8CaZxH9IDpg5PndjidBegb12pOxmS6F6zeS5vT3tYvd-o6ARs58onX5VGpsZDHaiEFGOhS5Yjzk6PT-OVs-nGnLEA5K89KPFZk4DeKkNEyEgPcPJXSYmOZsghguY55rSW27v27QxyGLsRIQ=w1814-h2410-s-no-gm?authuser=0",
+        narrative: "Cette statuette schématique en terre cuite représente une figure féminine assise sur un trône tenant un enfant sur ses genoux. Le corps fusionne avec le siège sous des lignes peintes au vernis brun-noir. Symbole maternel et protecteur, cet ex-voto était déposé dans les tombes ou sanctuaires pour solliciter la protection de la déesse de la fécondité."
+      },
+      {
+        id: "rhyton_sanglier",
+        century: "v. -1350 av. J.-C. (Helladique Récent III)",
+        title: "Rhyton zoomorphe en forme de tête de sanglier",
+        site: "Ras Shamra (Ougarit / Levant)",
+        category: "Céramique rituelle",
+        chips: ["XIIIe s. av. J.-C.", "Terre cuite peinte", "Koinè méditerranéenne"],
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMyJRm3TsTCyB6bjlmPiCmXbJXH5jnzXFFvBBicXSQKrlc3wDAsgmA7RHgdKB5Yll-y9ONkQq2RDt4sSrvuA2yGjvwvwRLHIotqfTKO3FIKHLcIFu0SlnfEt2uQLjMTRJaMyWjlq9ShokV7Rke_EWHsbQ=w1814-h2410-s-no-gm?authuser=0",
+        narrative: "Modelé avec un grand réalisme morphologique, ce vase à libations en forme de tête de sanglier permettait de verser les liquides rituels par le groin percé. Orné d'un décor peint dense de palmettes et chevrons à l'ocre rouge, il a été mis au jour dans l'antique cité d'Ougarit (Syrie), témoignant des exportations de prestige mycéniennes à travers toute la Méditerranée orientale."
+      },
+      {
+        id: "dame_mycenes",
+        century: "v. -1300 av. J.-C. (Helladique Récent III B)",
+        title: "Fresque monumentale de « La Dame de Mycènes »",
+        site: "Centre cultuel de Mycènes",
+        category: "Peinture murale",
+        chips: ["Vers -1300", "Fresque véritable", "Musée d'Athènes"],
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMbgjkIe11IPZke23inAsNsxTWRLL9nqwJugVL6lzs9TMqA1M6498DpViAPRaJySmkeNbp0h3-OtnTgnT5H45KYJkF4FlBopt4vt2DUAGfBfCe6gnPKi2mOgkd-It9hSy3jHDe9XbxzmsJ9ChwJvpSanQ=w1980-h1319-s-no-gm?authuser=0",
+        narrative: "Découverte dans le sanctuaire de la citadelle de Mycènes, cette fresque représente une prêtresse ou divinité de profil tenant un collier avec solennité. Vêtue du corsage ouvert traditionnel et coiffée de mèches complexes sous des bandeaux rouges, elle illustre la maîtrise du bleu égyptien et la transition entre la grâce crétoise et la rigueur formelle des cours mycéniennes."
+      },
+      {
+        id: "mobilier_tombe_mycenes",
+        century: "XIIIe siècle av. J.-C.",
+        title: "Mobilier funéraire et offrandes d'une tombe mycénienne",
+        site: "Mycènes",
+        category: "Matériel funéraire",
+        chips: ["Céramiques à poulpe", "Bijoux en pâte de verre", "Figurines de bovidés"],
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNan0d3LuWn21yqygTW6VJrAR0UVqN0rbGUdie2unjxrBnAwSwzqVbCl3l2utR493JlNnJeyVUud2SSxpPL9I1m-T5X9tKllazLih4Vbbffit3CXIAFfn_igh18Qm2OCtbFOE62Pv20LSQf9vxAl_0CtQ=w1980-h1319-s-no-gm?authuser=0",
+        narrative: "Cet ensemble funéraire complet réunit des céramiques à décor marin (alabastres à poulpes), des cruches à libations, des pyxides de toilette, ainsi que des colliers de perles en pâte de verre bleue. Des figurines votives d'animaux miniatures complétaient le dépôt, assurant la continuité des rituels et affirmant le rang social du défunt dans l'au-delà."
       }
     ]
   },
@@ -194,7 +270,27 @@ const CIVILISATIONS_REGISTRY = [
         category: "Sculpture en marbre",
         chips: ["Bronze Ancien II", "Marbre blanc poli", "Type canonique de Spedos"],
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczN9iP7Fcc8FrBL9usiPRWeijaLndwYYacpAiifNY8ybz4htaHhgrTMfzRcaCrzV6fXGr2BJQopM4NP5Byn4UAsG0GLQnhaxXuOA1hdq5iXKuoivviypjT2Y4oAyByf65ZZC7HVIE-YNCXw_95yQP4iH1A=w1607-h2410-s-no-gm?authuser=0",
-        narrative: "Haute de 1,5 mètre, cette œuvre monumentale sculptée dans le marbre blanc de Paros constitue l'un des sommets de la statuaire cycladique du Bronze ancien. Appartenant au type canonique de Spedos, elle se caractérise par sa tête en lyre au nez pyramidal, ses bras repliés sous la poitrine et son profil étiré d'une rigueur géométrique saisissante."
+        narrative: "Haute de 1,5 mètre, cette œuvre monumentale sculptée dans le marbre blanc de Paros constitue l'un des sommets de la statuaire cycladique du Bronze ancien. Appartenant au type canonique de Spedos, elle se caractérise par sa tête en lyre au nez pyramidal, ses bras repliés sous la poitrine et son profil étiré d'une rigueur géométrique saisissante. Initialement rehaussée de pigments rouges et bleus, cette idole d'apparat était liée aux croyances funéraires ou au culte de la fertilité insulaire."
+      },
+      {
+        id: "fresque_poissons",
+        century: "v. -2500 av. J.-C. (Bronze Ancien / Moyen)",
+        title: "Fresque figurative des poissons-volants de Phylakopi",
+        site: "Phylakopi (Île de Milos)",
+        category: "Peinture murale",
+        chips: ["Phylakopi (Milos)", "Buon fresco", "Monde marin stylisé"],
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMCSFC84J3F7c8R8R6BSE5aedpr10b9xQ-9yb9gfJJxpnaZEqFmyCRhVjo-05Q-dpxczRkosUOqnYRl2dvdqFq4gveJxcNJpPDfm8eTJfqRv9wQKaDDZ7Ceiyj3FyLv6I9IBkw_G49yhAV_2i5PZh8umg=w2209-h1472-s-no-gm?authuser=0",
+        narrative: "Découverte sur le site portuaire de Phylakopi à Milos, cette fresque sur enduit de chaux est l'un des plus anciens chefs-d'œuvre picturaux du monde égéen. Elle met en scène un banc de poissons-volants aux corps effilés bleus et jaunes, déployant leurs ailes au-dessus des flots. L'œuvre marque le passage d'une statuaire géométrique austère à une expression naturaliste et fluide, célébrant l'intimité des peuples cycladiques avec la mer Égée."
+      },
+      {
+        id: "kernos_melos",
+        century: "v. -2000 av. J.-C. (Bronze Moyen)",
+        title: "Kernos rituel à coupelles multiples de Mélos",
+        site: "Île de Mélos (Milos)",
+        category: "Céramique rituelle",
+        chips: ["Transition Bronze Ancien/Moyen", "Terre cuite peinte", "Vase à libations multiples"],
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNJMFw-kw6kydCM4NDoX6CPNsA0shUV6LK7h2y-M-H5qSnShSuK9QYtX8BxYz4mtPrzEcIkgnmyZAorfZ2xLWOhDlHeDgaBh0ehUgZFMy_9egsnk1Px1SKhKHFo08n64-d4Kp2P4Mvu0rG5Pfb9YgCNAA=w1814-h2410-s-no-gm?authuser=0",
+        narrative: "Ce kernos en terre cuite sur pied tronconique supporte une couronne circulaire d'une douzaine de coupelles reliées par des ponts d'argile. Orné au vernis sombre de chevrons et damiers géométriques méticuleux, cet objet cérémoniel permettait d'offrir simultanément plusieurs prémices de la terre (grains, huiles, miel, vin). Sa structure en anneau clos symbolise le cycle de la nature et la communion religieuse des cités des Cyclades."
       }
     ]
   },
@@ -232,6 +328,16 @@ const CIVILISATIONS_REGISTRY = [
         chips: ["Bronze récent", "Terre cuite peinte", "Double hache (Labrys)"],
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPnUuU-MK0sDhtORjZeb_6whI6M33RtfIsbTkuuC6TjPIS8ppTuXw7T6kz2TtxYtoxJ21EI3qjAzNB-zxU3qXd76rMvXNBD85NjTnUlss-WsvMcoZwQc84ExK_TVdXRD2OV_8eIvWE_yeUf_t778xEaRQ=w1814-h2410-s-no-gm?authuser=0",
         narrative: "Ce rhyton de libation adopte la silhouette d'une tête de taureau, motif religieux central de la Crète minoenne, orné sur le front de la double hache sacrée (labrys)."
+      },
+      {
+        id: "larnax_ligortynos",
+        century: "v. -1370 à -1200 av. J.-C. (Minoen Récent III)",
+        title: "Larnax funéraire peinte de Ligortynos",
+        site: "Ligortynos (Crète)",
+        category: "Mobilier funéraire",
+        chips: ["Minoen Récent III A/B", "Sarcophage en terre cuite", "Style marin & Papyrus"],
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczO47qJMkhp20Z27X3Gv78fr_pQMc_lTVDiqHyXNV9Wkoi9k7k2Jlb0KWokDNT4Y3Ki6QKgzzv3mNsgaAse57mjhd3X308PEYYy2V48cZXNeWdHXJQmkvO70BlilA-TyNrBlNajowmlDC7f0sM_uLQtcVw=w2081-h1566-s-no-gm?authuser=0",
+        narrative: "Découverte dans une tombe de Ligortynos, cette larnax (coffre funéraire en bâtière) témoigne du prestige des rituels d'inhumation crétois. Recouvertes d'un décor peint brun-noir, ses parois figurent des pieuvres ondulantes, des poissons et des tiges de papyrus. L'omniprésence du monde aquatique et végétal évoquait le voyage du défunt et sa régénération symbolique dans l'au-delà."
       }
     ]
   },
@@ -269,6 +375,26 @@ const CIVILISATIONS_REGISTRY = [
         chips: ["Bronze moyen", "Terre cuite rouge lustrée", "Incisions blanches"],
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMwaWZj9ZJS2rx_hwQzKXMrX8T-dW4KCyKq_as5_5nanYRBp8H68Piwtsg-C3BSAS-3ySv-e2v2Jem2O_e-x_iRkqIa8i3-TeAZXdbsc8USM5CIYq7hClkqpkUvMzjv1YvWtGSe71r8y_G-Xx27lGlerw=w1814-h2410-s-no-gm?authuser=0",
         narrative: "Ce vase zoomorphe représente un quadrupède sauvage dont le corps globulaire sert de panse et le cou de goulot verseur, orné de motifs géométriques et végétaux incisés."
+      },
+      {
+        id: "figurine_oiseau",
+        century: "v. -1400 av. J.-C. (Bronze récent II)",
+        title: "Figurine féminine maternelle en bec d'oiseau",
+        site: "Chypre (Chypriote récent)",
+        category: "Figurines",
+        chips: ["Bronze récent II", "Terre cuite modelée", "Culte de la fertilité"],
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNlIMCn6dNtiSEPjGOxlDcId82zdoYB821DgEpx6gw_uy_MdMfp_UdXaP1q19x5YipUAlKZRh6BbLCh0ThaKqm6gHKBHiHs1qf5MZiLvrwwjInRNeNVNg31Si6eK9CZREMi9bMFbXXPiRC79RjmUndK4w=w1814-h2410-s-no-gm?authuser=0",
+        narrative: "Cette statuette féminine stylisée aux larges hanches porte un jeune enfant contre son flanc gauche. Son visage singulier en bec d'oiseau, avec yeux en pastilles d'argile et oreilles percées pour des boucles mobiles, est emblématique de l'iconographie religieuse chypriote du Bronze récent. Déposé comme ex-voto dans les tombes et sanctuaires, ce talisman assurait la continuité de la vie et la protection de la lignée."
+      },
+      {
+        id: "sculpture_terre_cuite",
+        century: "v. -650 à -550 av. J.-C. (Époque archaïque)",
+        title: "Statuette d'orant ou dignitaire en terre cuite",
+        site: "Sanctuaire chypriote",
+        category: "Sculpture terre cuite",
+        chips: ["VIIe - VIe s. av. J.-C.", "Coroplastie archaïque", "Terre cuite peinte"],
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP2W_m_RjvYnvtw9edrmROsxlhf-9sLrQkidZ9x59w35cbRpPCZ7h-_hUC_xBh5BFTh1MDSaE-4rNJSOYT5HK64ij5AETYrmBW2j0laeXXpGwDS3bQYXkQq0kOpbzTfc4P1yIjbfSKEzjDZx_xbS8uptw=w1814-h2410-s-no-gm?authuser=0",
+        narrative: "Témoignage de l'apogée de la coroplastie chypriote archaïque, cette statuette debout adopte une posture hiératique solennelle avec yeux en amande et traces de pigments peints."
       }
     ]
   },
@@ -305,7 +431,17 @@ const CIVILISATIONS_REGISTRY = [
         category: "Sculpture & Stèle",
         chips: ["Second âge du Fer", "Monolithe en granite", "Jublains (Diablintes)"],
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNQ8lMq99-7bAoU4NMqEU8OjQrSrsHG8xGzpXtI0ktR3Uji1wDR7JydwrZc2-EntLOHJco7ti5F1QUaiA5kU_IAE3EoeVoRXa_PUj4rhHLk_mczJUW8oMd-e18JVRFZKu0CHtgWkiTL8KpwzTfpOECzIQ=w1607-h2410-s-no-gm?authuser=0",
-        narrative: "Monolithe oblong en granite marquant l'emplacement d'une sépulture aristocratique et le culte des ancêtres au cœur de l'Armorique antique."
+        narrative: "Ce monolithe oblong en granite taillé est caractéristique des monuments funéraires de l'Ouest de la Gaule et de l'Armorique. Érigée au-dessus de sépultures pour signaler la tombe et honorer la mémoire de défunts de haut rang, cette stèle incarne la permanence du culte des ancêtres et l'affirmation territoriale des élites celtes au cœur du sanctuaire des Diablintes."
+      },
+      {
+        id: "vase_lemans",
+        century: "Ier siècle av. J.-C.",
+        title: "Vase balustre cénomane du Mans",
+        site: "Le Mans (Sarthe)",
+        category: "Céramique",
+        chips: ["Ier siècle av. J.-C.", "Terre cuite grise", "Le Mans (Cénomans)"],
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOeA-57KA6AcGKWg1BbtdwWs684LLHV-9n2wCbgreZAG40RdDCxV9blX9eMn5A0rrhERAPUtuciQBnOd8SLX0zlym2AYX1ndJKwGdPu_bijWeHvAAxLcpd94ZsjRn9W9b4LO632wuEulzoBj6jTx22THw=w1814-h2410-s-no-gm?authuser=0",
+        narrative: "Découvert au Mans, ce vase à silhouette élancée et patine grise illustre la maîtrise du tournage chez les potiers cénomans. Structuré par des registres horizontaux alternant canaux incisés et baguettes en relief, il témoigne de la sobriété et de l'élégance de la vaisselle gauloise à la veille de la conquête romaine, servant aux libations domestiques ou aux offrandes funéraires."
       }
     ]
   },
@@ -342,7 +478,7 @@ const CIVILISATIONS_REGISTRY = [
         category: "Métallurgie & Dépôt",
         chips: ["Âge du Bronze", "Jublains (Mayenne)", "Alliage cuivreux"],
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMDKuI_TJU5jFc6SYvcfxQYMyLAxo_Er1aGNAFST7fBciWLXuMara_i-InT_5a4JadEykH_U5NohJtceGLLNyrgygDvzoLfxc4d3YuA_LAUxM59s6iLGsMybtdwHkWdmTVQnj3B1RagX4Uu4B20Q3CV6w=w2599-h1733-s-no-gm?authuser=0",
-        narrative: "Dépôt d'alliage cuivreux à patine verte associant haches à talon et parures annulaires."
+        narrative: "Découvert en Mayenne, cet ensemble exceptionnel d'objets en alliage cuivreux à patine verte témoigne de la maîtrise métallurgique du Bronze moyen et final. Les haches à talon à bélière latérale marquaient une avancée technique pour un emmanchement solide et servaient aussi de réserve prémonétaire. Les parures annulaires ornées de motifs géométriques incisés illustrent le phénomène des dépôts volontaires, enfouis rituellement comme offrandes aux divinités ou réserves d'artisans."
       }
     ]
   },
@@ -379,7 +515,7 @@ const CIVILISATIONS_REGISTRY = [
         category: "Sculpture & Statuaire",
         chips: ["v. -1500 av. J.-C.", "Tell Atchana (Alalakh)", "British Museum (Londres)"],
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczN6NQEToJ97f-c9qg-7W7Rt1ImmBuXkLUYQQalWO4iiVc7usyBS_ELROgGtpIudXZ0cVIjbk4-F1mo45heZCYaqpyiADyeZUZhe5HrztmoWoXq_qIWOTT0m981iqD3yMBajZAiUIHQQ4E0zNJYGg-K-fw=w613-h919-s-no-gm?authuser=0",
-        narrative: "Statue en magnésite blanche gravée de la célèbre autobiographie cunéiforme d'Idrimi."
+        narrative: "Découverte en 1939 par Leonard Woolley à Tell Atchana (l’antique Alalakh), cette statue en magnésite blanche représente Idrimi, roi d'Alalakh, siégeant sur un trône de basalte.<br><br>L'œuvre est remarquable par la longue inscription cunéiforme autobiographique gravée sur la robe du roi, relatant son exil, sa reconquête du pouvoir et son alliance avec le Mittani. Ses grands yeux incrustés confèrent à la statue une puissance hiératique unique dans l'art du Proche-Orient ancien."
       }
     ]
   },
@@ -416,7 +552,17 @@ const CIVILISATIONS_REGISTRY = [
         category: "Peinture murale",
         chips: ["XIe - XVe siècle", "Gáldar (Gran Canaria)", "Musée Cueva Pintada"],
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczO2RC5ehxxblZ2K44QwidcBib5SOlN7sC3keWPoJXodG5zXzkt-ne7X-aHxE4Q6cEGoZElrQwEogHTkdgtDt1y5pklLo1M4FimTD1Wr7TWfvm9xSRDumxgklGc3Lf6mBgR8sZEQEvMjsDPhYo5uy0eGgg=w1351-h755-s-no-gm?authuser=0",
-        narrative: "Frise géométrique de carrés et triangles emboîtés peints à l'ocre rouge et terre blanche sur le tuf volcanique."
+        narrative: "Découverte au cœur du complexe troglodytique de Gáldar, cette frise exceptionnelle orne les parois taillées dans le tuf volcanique. Réalisée à l'aide d'ocres rouges et de terres blanches, sa trame géométrique de carrés et de triangles emboîtés est considérée comme un calendrier astral ou un manifeste cosmologique lié aux solstices."
+      },
+      {
+        id: "statuettes_galdar",
+        century: "XIe - XVe siècle",
+        title: "Idoles et statuettes de Gáldar",
+        site: "Gáldar (Gran Canaria)",
+        category: "Terre cuite & Modelage",
+        chips: ["XIe - XVe siècle", "Résidence royale des Guanartemes", "Gáldar (Gran Canaria)"],
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPI_BBE8wJBjmpcxnbTRKtwv2fCVdy0bQNK6y06rPElbUcFUDfo17OXR0zEVc4AjHr6wnyPi95NRVawjLZy1q5FKUUQPKP2QZn9SWnnA5foXe4u-IyzMErXbQqY6mO1KK4SKwl0LDpQK55RxUDru-XtaQ=w2268-h1512-s-no-gm?authuser=0",
+        narrative: "Découvertes lors des fouilles du complexe troglodytique de la Cueva Pintada, ces statuettes en terre cuite datent principalement de la période comprise entre le XIe et le XVe siècle. Le site de Gáldar était alors l'un des centres politiques et rituels les plus importants de l'île, servant de résidence aux Guanartemes (rois autochtones)."
       }
     ]
   }
@@ -440,8 +586,14 @@ function pixelToYear(px) {
 
 const masterRibbon = document.getElementById('master-ribbon');
 const rulerTrack = document.getElementById('ruler-ticks-track');
+const rulerEventsLayer = document.getElementById('ruler-events-layer');
 const syncLine = document.getElementById('sync-cursor-line');
 const syncBubble = document.getElementById('sync-bubble-tag');
+const milestoneTooltip = document.getElementById('milestone-tooltip');
+const mType = document.getElementById('milestone-type');
+const mYear = document.getElementById('milestone-year');
+const mTitle = document.getElementById('milestone-title');
+const mDesc = document.getElementById('milestone-desc');
 
 for (let y = -3500; y <= 1500; y += 50) {
   const x = yearToPixel(y);
@@ -461,6 +613,33 @@ for (let y = -3500; y <= 1500; y += 50) {
     rulerTrack.appendChild(label);
   }
 }
+
+// INJECTION DES BALISES D'ÉVÉNEMENTS MAJEURS DANS LA RÈGLE
+HISTORICAL_MILESTONES.forEach(m => {
+  const x = yearToPixel(m.year);
+  const spark = document.createElement('div');
+  spark.className = 'ruler-event-spark';
+  spark.style.left = `${x}px`;
+  spark.title = `${m.year < 0 ? Math.abs(m.year) + ' av. J.-C.' : m.year} : ${m.title}`;
+
+  spark.addEventListener('mouseenter', (e) => {
+    mType.textContent = m.type.toUpperCase();
+    mYear.textContent = m.year < 0 ? `${Math.abs(m.year)} av. J.-C.` : `${m.year} ap. J.-C.`;
+    mTitle.textContent = m.title;
+    mDesc.textContent = m.desc;
+
+    const rect = spark.getBoundingClientRect();
+    milestoneTooltip.style.left = `${Math.min(window.innerWidth - 300, Math.max(10, rect.left - 130))}px`;
+    milestoneTooltip.style.top = `${rect.top - 120}px`;
+    milestoneTooltip.classList.add('visible');
+  });
+
+  spark.addEventListener('mouseleave', () => {
+    milestoneTooltip.classList.remove('visible');
+  });
+
+  rulerEventsLayer.appendChild(spark);
+});
 
 CIVILISATIONS_REGISTRY.forEach((civ) => {
   const laneEl = document.querySelector(`.timeline-lane[data-lane="${civ.lane}"]`);
@@ -639,6 +818,7 @@ window.addEventListener('mousemove', (e) => {
   
   masterRibbon.style.transform = `translateX(${curRibbonX}px)`;
   rulerTrack.style.transform = `translateX(${curRibbonX}px)`;
+  rulerEventsLayer.style.transform = `translateX(${curRibbonX}px)`;
 });
 
 window.addEventListener('mouseup', () => {
@@ -649,6 +829,7 @@ window.addEventListener('mouseup', () => {
 
 masterRibbon.style.transform = `translateX(${curRibbonX}px)`;
 rulerTrack.style.transform = `translateX(${curRibbonX}px)`;
+rulerEventsLayer.style.transform = `translateX(${curRibbonX}px)`;
 
 setTimeout(() => {
   updateSynchronousState(window.innerWidth * 0.35);
