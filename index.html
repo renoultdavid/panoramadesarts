@@ -95,9 +95,11 @@
       
       <div id="ruler-scale-bar">
         <div id="ruler-ticks-track"></div>
+        <!-- Conteneur des balises événements majeurs -->
+        <div id="ruler-events-layer"></div>
       </div>
 
-      <!-- Bandeau épuré et stable (sans tremblement) -->
+      <!-- Bandeau épuré et stable -->
       <div class="master-hint-strip">
         <span id="active-marker-info">REPÈRE TEMPOREL SYNCHRONIQUE</span>
         <span>◄ -3500 av. J.-C. | +1500 ap. J.-C. ►</span>
@@ -137,6 +139,14 @@
     </div>
 
   </footer>
+
+  <!-- INFOBULLE D'ÉVÉNEMENT MAJEUR -->
+  <div id="milestone-tooltip" class="milestone-tooltip">
+    <div class="milestone-badge" id="milestone-type">REPÈRE HISTORIQUE</div>
+    <div class="milestone-year" id="milestone-year">-2560 av. J.-C.</div>
+    <div class="milestone-title" id="milestone-title">Titre de l'Événement</div>
+    <div class="milestone-desc" id="milestone-desc">Description concise de l'impact historique...</div>
+  </div>
 
   <!-- MODALE D'EXPOSITION (1350PX AVEC BANDEAU DÉPARTEMENTAL) -->
   <div id="curator-modal">
