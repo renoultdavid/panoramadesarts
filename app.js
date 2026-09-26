@@ -848,85 +848,149 @@ CIVILISATIONS_REGISTRY.push(
     ]
   },
   {
-    id: "chypre",
-    name: "Art Chypriote Antique",
-    epoch: "v. -2000 à -500 av. J.-C.",
-    yearStart: -2000,
-    yearEnd: -500,
-    lane: "chypre",
-    themeColor: "#e9c46a",
-    sidePos: "pos-left",
-    travelingOrigin: "55.4% 45.6%",
-    haloId: "halo-chypre",
-    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczNtlhntpxWY6u22Dj77CiZfXJnSfduTP1uXInNNl7THWXS5vseOikfKiRgcTsCjP2iVGO-jX924k9zAAUyZQhGX8luuSrh5eXc650LHXXMWEdLAl7o589lo_Rkk6Bo9UJYlo4iFAtBkaj6qhmzuUK5y_w=w2081-h882-s-no-gm?authuser=0",
-    mapOverlayUrl: "https://lh3.googleusercontent.com/d/1QNkcnjOVZ9nSJxO2vXusVWgC04EmaUcO",
-    albumUrl: "https://photos.google.com/share/AF1QipORn4Sj9GchtBwLRq4DuZRFxHqmcBvuxx8uA2_VwycbpRi8amqI-iK7UvkQSi6apA?key=ZmJweFhiZEJySU1rUms2REJFWm1jZ1YwQjFMczJ3",
-    presentationHtml: `
-      <p><strong>Un carrefour méditerranéen de synthèse et de liberté</strong><br>
-      Façonné par sa position charnière entre le monde égéen, le Levant et l'Égypte, l'art chypriote antique fusionne les influences orientales et occidentales dans la ronde-bosse et la céramique.</p>
-    `,
-    concurrentHtml: `
-      <p><strong>Le contexte mondial au IIe millénaire av. J.-C.</strong></p>
-      <p>Pendant que l'île de Chypre exploite ses mines de cuivre et rayonne en Méditerranée, les grands empires du Proche-Orient se font face.</p>
-    `,
-    themeAlbums: [
-      { label: "🏺 Céramiques", url: "https://photos.google.com/share/AF1QipORn4Sj9GchtBwLRq4DuZRFxHqmcBvuxx8uA2_VwycbpRi8amqI-iK7UvkQSi6apA?key=ZmJweFhiZEJySU1rUms2REJFWm1jZ1YwQjFMczJ3" }
-    ],
-    artifacts: [
-      {
-        id: "vase_zoomorphe",
-        century: "v. -2000 av. J.-C. (Bronze moyen)",
-        title: "Vase zoomorphe en terre cuite polie",
-        site: "Chypre (Chypriote moyen)",
-        category: "Céramique",
-        themeLink: "https://photos.google.com/share/AF1QipORn4Sj9GchtBwLRq4DuZRFxHqmcBvuxx8uA2_VwycbpRi8amqI-iK7UvkQSi6apA?key=ZmJweFhiZEJySU1rUms2REJFWm1jZ1YwQjFMczJ3",
-        chips: ["Bronze moyen", "Terre cuite rouge lustrée", "Incisions blanches"],
-        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNtlhntpxWY6u22Dj77CiZfXJnSfduTP1uXInNNl7THWXS5vseOikfKiRgcTsCjP2iVGO-jX924k9zAAUyZQhGX8luuSrh5eXc650LHXXMWEdLAl7o589lo_Rkk6Bo9UJYlo4iFAtBkaj6qhmzuUK5y_w=w2081-h882-s-no-gm?authuser=0",
-        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMwaWZj9ZJS2rx_hwQzKXMrX8T-dW4KCyKq_as5_5nanYRBp8H68Piwtsg-C3BSAS-3ySv-e2v2Jem2O_e-x_iRkqIa8i3-TeAZXdbsc8USM5CIYq7hClkqpkUvMzjv1YvWtGSe71r8y_G-Xx27lGlerw=w1814-h2410-s-no-gm?authuser=0",
-        narrative: `<p>Ce vase zoomorphe représente un quadrupède sauvage dont le corps globulaire sert de panse et le cou de goulot verseur.</p>`
-      }
-    ]
-  },
+  id: "chypre_bronze",
+  lane: "chypre",
+  yearStart: -2500,
+  yearEnd: -500,
+  color: "#e9c46a",
+  title: "Art Chypriote de l'Âge du Bronze & Archaïque",
+  mapSrc: "https://lh3.googleusercontent.com/d/...", // URL de la carte régionale de Chypre
+  bannerSrc: "https://lh3.googleusercontent.com/pw/AP1GczP2W_m_RjvYnvtw9edrmROsxlhf-9sLrQkidZ9x59w35cbRpPCZ7h-_hUC_xBh5BFTh1MDSaE-4rNJSOYT5HK64ij5AETYrmBW2j0laeXXpGwDS3bQYXkQq0kOpbzTfc4P1yIjbfSKEzjDZx_xbS8uptw=w1818-h2416-s-no-gm?authuser=0",
+
+  /* Textes des volets latéraux */
+  intro: `L’art chypriote de l'âge du Bronze (v. 2500–1050 av. J.-C.) s'épanouit au carrefour des influences méditerranéennes, profitant de la position stratégique de l'île et de ses immenses ressources en cuivre pour développer une esthétique originale et cosmopolite.
+<p>La céramique chypriote se distingue par des formes audacieuses et des techniques singulières, allant des vases zoomorphes et anthropomorphes de la période philaire jusqu'aux superbes décors géométriques et peints du style « Base-Ring » et « White Slip ».</p>
+<p>L'orfèvrerie et le travail du bronze atteignent un sommet remarquable, illustrés par des poignards damasquinés, des lingots de cuivre en forme de peau de bœuf et des bijoux en or ouvragés qui témoignent d'un artisanat hautement qualifié.</p>
+<p>La statuaire et les terres cuites locales, souvent associées à des rituels funéraires ou votifs, adoptent une stylisation épurée, mêlant des traditions égéennes, syriennes et anatoliennes.</p>
+<p>L'architecture s'urbanise progressivement avec l'édification de centres portuaires et de cités-États fortifiées, comme Enkomi ou Kition, dotées d'imposantes constructions en pierre de taille et de sanctuaires dédiés au dieu du cuivre.</p>`,
+
+  concurrentContext: `Pendant que l'île de Chypre façonne son art du cuivre au carrefour des routes maritimes, les autres grands foyers civilisationnels du globe traversent des mutations historiques et culturelles majeures au cours du IIe millénaire av. J.-C.
+<p>En Égypte, le Nouvel Empire atteint son apogée impérial sous les XVIIIe et XIXe dynasties, étendant son influence de la Nubie jusqu'à l'Euphrate et bâtissant les sanctuaires monumentaux de Karnak, Louxor et les hypogées de la Vallée des Rois.</p>
+<p>En Mésopotamie et au Proche-Orient, la période voit s'affronter et prospérer de grands empires rivaux — l'Empire hittite en Anatolie, les Kassites à Babylone et le royaume médio-assyrien —, connectés par un vaste réseau diplomatique scellé par les tablettes d'Amarna.</p>
+<p>En mer Égée, la civilisation mycénienne succède aux Minoens, érigeant de puissantes citadelles fortifiées sur le continent grec (Mycènes, Tirynthe) avant de s'effondrer mystérieusement lors des bouleversements méditerranéens de la fin du millénaire.</p>
+<p>En Chine, la dynastie Shang consolide son pouvoir dans la vallée du Fleuve Jaune, perfectionnant la fonte des grands bronzes rituels et instaurant un système d'écriture logographique sur os oraculaires pour le culte des ancêtres.</p>`,
+
+  /* Cartouches albums / types d'art au bas du volet de présentation */
+  themeAlbums: [
+    { label: "Céramique & Vases", url: "https://photos.app.goo.gl/..." },
+    { label: "Terres cuites & Figurines", url: "https://photos.app.goo.gl/..." },
+    { label: "Bronze & Métallurgie", url: "https://photos.app.goo.gl/..." },
+    { label: "Statuaire & Sculptures", url: "https://photos.app.goo.gl/..." }
+  ],
+
+  /* Objets de la frise déployée et de la modale */
+  nodes: [
+    {
+      id: "vase_zoomorphe_chypre",
+      year: -1900,
+      century: "XXe - XIXe siècle av. J.-C.",
+      title: "Vase zoomorphe lustré",
+      subtitle: "Chypre (Chypriote moyen)",
+      category: "Céramique & Récipient rituel",
+      imgSrc: "https://lh3.googleusercontent.com/d/...", // URL de la photo du vase zoomorphe
+      chips: ["XXe - XIXe siècle av. J.-C.", "Chypre", "Engobe rouge lustré", "Incisions à la chaux"],
+      deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczP2W_m_RjvYnvtw9edrmROsxlhf-9sLrQkidZ9x59w35cbRpPCZ7h-_hUC_xBh5BFTh1MDSaE-4rNJSOYT5HK64ij5AETYrmBW2j0laeXXpGwDS3bQYXkQq0kOpbzTfc4P1yIjbfSKEzjDZx_xbS8uptw=w1818-h2416-s-no-gm?authuser=0",
+      collectionUrl: "https://photos.app.goo.gl/...",
+      narrative: `<p>Ce vase zoomorphe en terre cuite polie, datant de l'Âge du Bronze moyen (Chypriote moyen), illustre la grande inventivité des potiers de l'île dans la création de récipients aux formes organiques. L'objet représente un quadrupède, probablement un cerf ou un capridé, dont le corps globulaire fait office de panse pour le liquide. Le long cou de l'animal sert de goulot verseur, tandis que la tête, aux oreilles pointues et au museau effilé, est traitée avec une stylisation expressive qui capture l'essence de l'animal sauvage. Un petit anneau de suspension, situé sur le dos de la créature, permettait de transporter ou d'accrocher le vase à l'aide d'une cordelette.</p>
+<p>La surface de la pièce est recouverte d'un engobe rouge lustré, caractéristique des productions chypriotes de cette époque. Le décor est constitué d'incisions géométriques méticuleuses remplies d'une matière blanche (pâte de chaux), créant un contraste saisissant avec la couleur profonde de l'argile. Sur les flancs de l'animal, des motifs en forme de branches ou d'épis de blé s'organisent verticalement, alternant avec des bandes hachurées qui soulignent la rondeur du corps. Ces motifs végétaux ou schématiques pourraient faire référence à l'environnement naturel de l'animal ou à des symboles de fertilité liés au contenu du vase.</p>
+<p>Ce type de récipient, à la fois utilitaire et symbolique, était souvent utilisé lors de cérémonies rituelles ou déposé dans des contextes funéraires comme offrande. Il démontre une transition vers des formes plus dynamiques et naturalistes par rapport aux époques précédentes, tout en conservant une rigueur géométrique dans l'ornementation. L'équilibre entre la fonctionnalité du vase et sa dimension sculpturale fait de cette œuvre un témoignage précieux de l'art de vivre et des croyances de la société chypriote du début du IIe millénaire avant notre ère.</p>`
+    },
+    {
+      id: "figurine_base_ring_kourotrophos",
+      year: -1450,
+      century: "XVe siècle av. J.-C.",
+      title: "Figurine féminine kourotrophos",
+      subtitle: "Trouvée à Tyr (production chypriote)",
+      category: "Terre cuite & Dévotion",
+      imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNufxOapnwqIR5eRwmyNhF8HBWd4Q_q4QugRWMjWQzcUz2IYBKi1u0QUIfRCM9WGX28x-rQiwj8lL4vmOJAvGnXMPQQ3xExGxLPF2b24gyNwBWQV4uW1AES3jShvmIAfTe07SWzo-w-UhOcGKoJlcX-UQ=w1818-h2416-s-no-gm?authuser=0",
+      chips: ["XVe siècle av. J.-C.", "Chypre / Tyr", "Style Base Ring II", "Kourotrophos"],
+      deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczP2W_m_RjvYnvtw9edrmROsxlhf-9sLrQkidZ9x59w35cbRpPCZ7h-_hUC_xBh5BFTh1MDSaE-4rNJSOYT5HK64ij5AETYrmBW2j0laeXXpGwDS3bQYXkQq0kOpbzTfc4P1yIjbfSKEzjDZx_xbS8uptw=w1818-h2416-s-no-gm?authuser=0",
+      collectionUrl: "https://photos.app.goo.gl/...",
+      narrative: `<p>Cette figurine anthropomorphe en terre cuite, appartenant à la catégorie technique de la « Base Ring II », est un exemplaire exceptionnel de la statuaire chypriote du Bronze récent. Elle représente une femme debout portant un nourrisson contre son sein gauche, une iconographie désignée sous le terme de kourotrophos. Bien que découverte à Tyr, sur la côte levantine, son style et sa fabrication confirment son origine chypriote, illustrant l'intensité des échanges culturels et commerciaux en Méditerranée orientale à cette époque. La silhouette est caractérisée par des hanches larges et un modelé creux, une innovation technique permettant une cuisson plus homogène de l'argile.</p>
+<p>Le traitement du visage est particulièrement singulier : le nez est fortement busqué, s'apparentant à un « bec d'oiseau », tandis que les oreilles, larges et stylisées, présentent des perforations multiples destinées à recevoir des anneaux de métal ou de terre cuite, aujourd'hui disparus. Le corps est orné de motifs incisés qui soulignent les parures et les caractères sexuels. On distingue nettement un collier composé de plusieurs rangs autour du cou et une ceinture marquant la taille. Le triangle pubien est mis en évidence par de profondes incisions en chevrons, un trait caractéristique lié aux cultes de la fertilité et de la régénération.</p>
+<p>La présence de cette figurine dans un contexte phénicien souligne son rôle potentiel d'objet de dévotion personnelle ou funéraire. En tenant son enfant avec ses deux bras, la figure maternelle incarne la protection et la continuité de la lignée. Les incisions géométriques sur le pubis et l'abdomen renforcent cette lecture symbolique de la fécondité. Ce type d'objet servait probablement de médiateur entre le fidèle et une divinité féminine protectrice, ancêtre de la grande déesse chypriote, garantissant la survie des nouveau-nés et la prospérité du foyer.</p>`
+    },
+    {
+      id: "orant_chypriote_archaique",
+      year: -650,
+      century: "VIIe - VIe siècle av. J.-C.",
+      title: "Statuette d'orant ou dignitaire",
+      subtitle: "Sanctuaire de Chypre",
+      category: "Coroplastie & Sculpture votive",
+      imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP2W_m_RjvYnvtw9edrmROsxlhf-9sLrQkidZ9x59w35cbRpPCZ7h-_hUC_xBh5BFTh1MDSaE-4rNJSOYT5HK64ij5AETYrmBW2j0laeXXpGwDS3bQYXkQq0kOpbzTfc4P1yIjbfSKEzjDZx_xbS8uptw=w1818-h2416-s-no-gm?authuser=0",
+      chips: ["VIIe - VIe siècle av. J.-C.", "Chypre", "Terre cuite peinte", "Époque archaïque"],
+      deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczP2W_m_RjvYnvtw9edrmROsxlhf-9sLrQkidZ9x59w35cbRpPCZ7h-_hUC_xBh5BFTh1MDSaE-4rNJSOYT5HK64ij5AETYrmBW2j0laeXXpGwDS3bQYXkQq0kOpbzTfc4P1yIjbfSKEzjDZx_xbS8uptw=w1818-h2416-s-no-gm?authuser=0",
+      collectionUrl: "https://photos.app.goo.gl/...",
+      narrative: `<p>Cette statuette en terre cuite illustre l'apogée de la sculpture coroplastique chypriote, une tradition qui a pris un essor considérable à partir du milieu du VIIe siècle av. J.-C. Le personnage est représenté debout, dans une attitude hiératique qui souligne la solennité de sa fonction, probablement celle d'un orant ou d'un dignitaire lié à un sanctuaire. Le travail de la terre cuite combine ici des techniques de modelage à la main pour le corps et l'utilisation probable d'un moule pour les traits du visage, permettant d'obtenir une expression d'une grande finesse. La silhouette est cylindrique et stylisée, une caractéristique propre aux grandes figurines de cette période, où l'artiste privilégie la présence symbolique sur le réalisme anatomique.</p>
+<p>Le visage présente des traits archaïques typiques, avec des yeux en amande largement ouverts et un léger sourire qui confère à la figure une vitalité intérieure. La coiffe ou la chevelure est traitée avec soin, encadrant le front et retombant sur les épaules, ce qui accentue la verticalité de la composition. Le vêtement, une longue tunique lisse, sert de support à une décoration peinte dont on devine encore les traces sombres. Ces motifs géométriques ou floraux permettaient de simuler la richesse des textiles de l'époque, ajoutant une dimension de prestige au personnage représenté. Les bras, légèrement décollés du buste, suggèrent un geste d'offrande ou de prière aujourd'hui partiellement perdu.</p>
+<p>L'importance de cette statuette réside dans son rôle de témoignage des échanges culturels intenses en Méditerranée orientale. Si la technique et le style s'inscrivent dans une tradition locale forte, on y perçoit également des influences venues du Levant et de l'Égypte, réinterprétées avec l'esthétique propre à Chypre. Ces objets, déposés par centaines dans les sanctuaires de l'île, servaient de substituts éternels aux fidèles, assurant leur présence continue devant la divinité. La conservation des pigments et la douceur du modelage font de cette pièce un exemple remarquable de la dévotion populaire et de l'artisanat de luxe au cœur de l'époque archaïque.</p>`
+    }
+  ]
+},
   {
-    id: "celte_fer",
-    name: "Art Celte & Gaulois (Âge du Fer)",
-    epoch: "v. -800 à -50 av. J.-C.",
-    yearStart: -800,
-    yearEnd: -50,
-    lane: "europe_ouest",
-    themeColor: "#2a9d8f",
-    sidePos: "pos-left",
-    travelingOrigin: "47.8% 38.5%",
-    haloId: "halo-celte_fer",
-    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczOTpAuNPMicTn782_1Zjbxrq0HKHRKJG6AVI3MC5QV0sIgRxWd1KE3enIDaZ4vI7QiV5SLQ6pAzbtmog5AkOjGQTGt3u4cnSdiF9sW1VPzeXH1Md2FDvlYQR92Fv7MXvbsr0sYzoNpKZc4GHJfmENYp7w=w2599-h1103-s-no-gm?authuser=0",
-    mapOverlayUrl: "https://lh3.googleusercontent.com/d/1ZFqo_BVU5BBUN4mpNGlMeBOm91xXLtZt",
-    albumUrl: "https://photos.google.com/share/AF1QipN97zbv-suncBTa6iOfDQyMggpdDV-ktXSY4EJ2KenZ4zqHUwifE_nIBb6FYB0Y6g?key=WHlZSlNIb19jTnoyaExjWWN3TFZFUC1xeTB3bmRn",
-    presentationHtml: `
-      <p><strong>L'art métamorphique et le refus du réalisme</strong><br>
-      L'art celtique du second âge du Fer (La Tène) rompt délibérément avec le naturalisme méditerranéen pour privilégier l'abstraction curviligne, les entrelacs géométriques et le symbolisme animalier.</p>
-    `,
-    concurrentHtml: `
-      <p><strong>Le contexte mondial antique</strong></p>
-      <p>Tandis que le monde celtique façonne ses torques et stèles, la Méditerranée antique voit l'apogée de la Grèce classique et la fulgurante expansion de l'Empire romain.</p>
-    `,
-    themeAlbums: [
-      { label: "🗿 Sculptures", url: "https://photos.google.com/share/AF1QipN97zbv-suncBTa6iOfDQyMggpdDV-ktXSY4EJ2KenZ4zqHUwifE_nIBb6FYB0Y6g?key=WHlZSlNIb19jTnoyaExjWWN3TFZFUC1xeTB3bmRn" }
-    ],
-    artifacts: [
-      {
-        id: "stele_jublains",
-        century: "IVe - IIIe siècle av. J.-C.",
-        title: "Stèle funéraire monumentale en granite",
-        site: "Jublains (Mayenne)",
-        category: "Sculpture & Stèle",
-        themeLink: "https://photos.google.com/share/AF1QipN97zbv-suncBTa6iOfDQyMggpdDV-ktXSY4EJ2KenZ4zqHUwifE_nIBb6FYB0Y6g?key=WHlZSlNIb19jTnoyaExjWWN3TFZFUC1xeTB3bmRn",
-        chips: ["Second âge du Fer", "Monolithe en granite", "Jublains (Diablintes)"],
-        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczOTpAuNPMicTn782_1Zjbxrq0HKHRKJG6AVI3MC5QV0sIgRxWd1KE3enIDaZ4vI7QiV5SLQ6pAzbtmog5AkOjGQTGt3u4cnSdiF9sW1VPzeXH1Md2FDvlYQR92Fv7MXvbsr0sYzoNpKZc4GHJfmENYp7w=w2599-h1103-s-no-gm?authuser=0",
-        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNQ8lMq99-7bAoU4NMqEU8OjQrSrsHG8xGzpXtI0ktR3Uji1wDR7JydwrZc2-EntLOHJco7ti5F1QUaiA5kU_IAE3EoeVoRXa_PUj4rhHLk_mczJUW8oMd-e18JVRFZKu0CHtgWkiTL8KpwzTfpOECzIQ=w1607-h2410-s-no-gm?authuser=0",
-        narrative: `<p>Monolithe oblong en granite marquant l'emplacement d'une sépulture aristocratique et le culte des ancêtres.</p>`
-      }
-    ]
-  },
+  id: "celte_fer",
+  lane: "europe_ouest",
+  yearStart: -800,
+  yearEnd: -50,
+  color: "#2a9d8f",
+  title: "Art Celte & Gaulois (Âge du Fer)",
+  mapSrc: "https://lh3.googleusercontent.com/d/1vA5Ww4o5Z6m0PqQvB4U7e-9r8n6Y3u8v", // Adapte l'URL de ta carte régionale si besoin
+  bannerSrc: "https://lh3.googleusercontent.com/d/1s0bWn_r9qF1vA7m0PqQvB4U7e-9r8n6Y", // Même bandeau conservé
+
+  /* Textes des volets latéraux */
+  intro: `L'art celte de l'âge du Fer (v. 800–1er siècle av. J.-C., divisé entre les cultures de Hallstatt et de La Tène) s'affranchit des traditions géométriques pour donner naissance à un art abstrait, curviligne et hautement sophistiqué, porté par une aristocratie guerrière nomade et commerçante.
+<p>Durant la période de Hallstatt, l'art se structure autour de riches tombes princières où le travail du fer s'allie au bronze et à l'or, produisant des parures spectaculaires et de grandes situles en tôle rivetée ornées de frises animalières et de scènes de banquets.</p>
+<p>Avec l'épanouissement de la civilisation de La Tène, l'art celte explose dans une esthétique exubérante marquée par le style végétal continu, les entrelacs serpentins, les motifs en « S » et les figures énigmatiques ou grimaçantes inspirées parfois du monde méditerranéen ou oriental.</p>
+<p>L'orfèvrerie et l'armurerie atteignent un sommet absolu de virtuosité avec les torques en or massif ajouré, les fourreaux d'épées ciselés de fines gravures et les superbes casques d'apparat en bronze repoussé.</p>`,
+
+  concurrentContext: `Tandis que le monde celtique façonne ses somptueux parures et armes en fer à travers l'Europe tempérée, le reste du monde antique est le théâtre d'immenses bouleversements politiques et culturels.
+<p>En Méditerranée, la Grèce classique et hellénistique érige les chefs-d'œuvre de l'Acropole d'Athènes, invente le théâtre dramatique et voit les conquêtes fulgurantes d'Alexandre le Grand projeter la culture grecque jusqu'aux portes de l'Inde.</p>
+<p>En Perse, l'immense Empire achéménide déploie sa puissance architecturale à Persépolis, avant de s'effondrer face aux phalanges macédoniennes, laissant place aux dynasties hellénistiques des Séleucides.</p>
+<p>En Chine, la période tumultueuse des Royaumes combattants s'achève par l'unification impériale violente de la dynastie Qin, qui érige la première Grande Muraille et dote sa capitale souterraine de la célèbre armée de terre cuite de Xi'an.</p>`,
+
+  /* Cartouches albums / types d'art au bas du volet de présentation */
+  themeAlbums: [
+    { label: "Sculptures & Stèles", url: "https://photos.app.goo.gl/..." },
+    { label: "Céramiques", url: "https://photos.app.goo.gl/..." },
+    { label: "Armurerie & Fer", url: "https://photos.app.goo.gl/..." },
+    { label: "Orfèvrerie & Parures", url: "https://photos.app.goo.gl/..." }
+  ],
+
+  /* Objets de la frise déployée et de la modale */
+  nodes: [
+    {
+      id: "stele_jublains",
+      year: -350,
+      century: "IVe - IIIe siècle av. J.-C.",
+      title: "Stèle gauloise de Jublains",
+      subtitle: "Musée archéologique de Jublains (Mayenne)",
+      category: "Sculpture & Monument funéraire",
+      imgSrc: "https://lh3.googleusercontent.com/d/...", // URL de la photo de la stèle
+      chips: ["IVe - IIIe siècle av. J.-C.", "Jublains", "Granite", "La Tène"],
+      deptBanner: "https://lh3.googleusercontent.com/d/1s0bWn_r9qF1vA7m0PqQvB4U7e-9r8n6Y",
+      collectionUrl: "https://photos.app.goo.gl/...",
+      narrative: `<p>Cette stèle en granite, située à l'extérieur près du Musée archéologique de Jublains, est un monument funéraire remarquable datant du 4ème ou 3ème siècle avant notre ère. Ce monolithe appartient à la culture du Second âge du Fer, correspondant à la véritable civilisation gauloise. Sa forme oblongue et sa taille soignée en font un exemple typique des stèles monumentales de l'Ouest de la Gaule, destinées à signaler une tombe ou l'emplacement d'un cimetière.</p>
+<p>Sur le plan archéologique, ces pierres sont révélatrices des pratiques funéraires des peuples celtes de la région. On dénombre environ une vingtaine de stèles de ce type dans le nord du département de la Mayenne. Leur fréquence augmente significativement à mesure que l'on progresse vers l'ouest et la Bretagne, marquant une spécificité culturelle forte des populations armoricaines. Ces monuments étaient initialement érigés au-dessus de sépultures à incinération ou à inhumation pour honorer la mémoire des défunts de haut rang.</p>
+<p>L'histoire de cette stèle particulière est également liée à l'évolution religieuse du territoire. Découverte en 1878 contre un mur de l'église, elle illustre le phénomène de christianisation des monuments païens au Moyen Âge. À cette époque, de nombreuses stèles gauloises ont été déplacées et réutilisées près des édifices chrétiens, soit pour sanctifier d'anciens lieux de culte, soit simplement par opportunisme architectural, les considérant comme des blocs de pierre de construction déjà taillés.</p>
+<p>Aujourd'hui, ce monument dépouillé de toute inscription — les Gaulois privilégiant la tradition orale — contraste avec les bornes milliaires romaines bavardes. Il reste l'un des rares témoins visibles de la cité des Diablintes avant l'arrivée des Romains et la fondation de Noviodunum. Sa sobriété et sa masse imposante rappellent la pérennité des traditions locales qui ont perduré bien après l'intégration de la région dans l'Empire romain.</p>`
+    },
+    {
+      id: "vase_balustre_lemans",
+      year: -50,
+      century: "Ier siècle av. J.-C.",
+      title: "Vase balustre cénoman",
+      subtitle: "Le Mans",
+      category: "Céramique & Modelage",
+      imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOeA-57KA6AcGKWg1BbtdwWs684LLHV-9n2wCbgreZAG40RdDCxV9blX9eMn5A0rrhERAPUtuciQBnOd8SLX0zlym2AYX1ndJKwGdPu_bijWeHvAAxLcpd94ZsjRn9W9b4LO632wuEulzoBj6jTx22THw=w1818-h2416-s-no-gm?authuser=0",
+      chips: ["Ier siècle av. J.-C.", "Le Mans", "Terre cuite", "Cénomans"],
+      deptBanner: "https://lh3.googleusercontent.com/d/1s0bWn_r9qF1vA7m0PqQvB4U7e-9r8n6Y",
+      collectionUrl: "https://photos.app.goo.gl/...",
+      narrative: `<p>Ce vase en terre cuite, de forme « balustre », constitue une pièce remarquable de l'artisanat céramique gaulois, daté du Ier siècle avant notre ère. Découvert au Mans, il témoigne du savoir-faire des potiers cénomans et de la vitalité des échanges culturels au sein de la Gaule celtique. Sa silhouette élégante et élancée se caractérise par une base étroite s'évasant gracieusement vers un corps pançu, surmonté d'un col haut et d'une lèvre évasée. La surface de l'objet, à la patine grise et mate caractéristique des poteries régionales de cette période, porte les stigmates du temps, avec un réseau complexe de fractures témoignant d'une restauration soignée à partir de nombreux fragments, sans altérer la lisibilité de son décor.</p>
+<p>L'ornementation de ce vase est d'une sobriété élégante, mettant en valeur la fluidité de sa forme. Le décor se compose principalement de motifs horizontaux répétitifs qui structurent la surface de l'objet. On y retrouve des canaux, des rainures creusées avec précision, alternant avec des baguettes, fines nervures en relief qui soulignent la circonférence du vase. Ces canaux sont disposés sur la partie supérieure du corps et sur le col, créant un rythme visuel discret mais efficace. La régularité de l'exécution de ces motifs témoigne de la maîtrise du tournage et de la finition, caractéristiques de la production potière cénomante de la fin de l'époque gauloise.</p>
+<p>La fonction de ce type de vase, moins fréquente que celle des écuelles ou des pots globulaires plus classiques, s'inscrivait probablement dans un contexte domestique ou funéraire, servant potentiellement à la consommation de liquides ou à la présentation d'offrandes. Sa présence au Mans illustre la diversité du répertoire morphologique de la céramique de la Tène finale et l'esthétique sobre et structurée des productions cénomantes à la veille de la conquête romaine. Ce vase balustre constitue ainsi un témoignage précieux de l'habileté des potiers locaux et de leur sens de l'esthétique, incarnant une tradition céramique originale et vivante.</p>`
+    }
+  ]
+},
   {
     id: "celte_bronze",
     name: "Art Celte du Bronze (Europe)",
