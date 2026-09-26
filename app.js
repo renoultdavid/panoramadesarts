@@ -782,28 +782,71 @@ CIVILISATIONS_REGISTRY.push(
     mapOverlayUrl: "https://lh3.googleusercontent.com/d/11cdGX8oS_6Q_8BZaQ5gGjiREIFlKukA2",
     albumUrl: "https://photos.google.com/share/AF1QipNJXU5aih6CKBSCrN4pP6P5l0AplswBz64lNNpyoV_8FhUrBnY4DVaQKdDXOysWHQ?key=cXFoM2gzaHZ1RnlyV3lVendpbmdFZ1RSYXRSTWtn",
     presentationHtml: `
-      <p><strong>L'abstraction géométrique du marbre insulaire</strong><br>
-      Né au cœur de la mer Égée durant le IIIe millénaire avant notre ère, l’art cycladique s’est épanoui au sein de l’archipel grec des Cyclades. Célébré pour ses idoles féminines en marbre blanc aux lignes épurées et géométriques, il témoigne d'une quête d'harmonie formelle intemporelle.</p>
+      <p><strong>L’épure formelle et le modernisme abstrait des Cyclades</strong><br>
+      L’art cycladique s'épanouit au cœur de la mer Égée durant l'âge du Bronze ancien (v. 3200–2000 av. J.-C.), avant de subir l'influence croissante de la civilisation minoenne. Né de l'isolement maritime de cet archipel, il se distingue par une épure formelle et un modernisme abstrait qui fascinent encore aujourd'hui.</p>
+      <p>Le sommet de cette production artistique réside incontestable­ment dans la statuaire en marbre insulaire — les célèbres idoles cycladiques. Façonnées à partir de ce marbre blanc de Paros ou de Naxos abondant dans la région, ces figurines féminines stylisées, aux bras croisés sur le ventre et au profil effilé, réduisent le corps humain à des volumes géométriques purs, faits de triangles, de cylindres et de cercles.</p>
+      <p>À l'origine, ces sculptures n'étaient pas d'un blanc immaculé : elles étaient rehaussées de couleurs vives à base de pigments minéraux (azurite et cinabre), servant à dessiner les yeux, les colliers ou des motifs tribaux qui animaient leurs visages lisses et énigmatiques, souvent réduits à un simple appendice nasal.</p>
+      <p>Si la grande majorité de ces figurines représente des femmes enceintes ou stylisées, associées à des cultes de la fertilité ou à des rites funéraires, on trouve également des figures masculines plus rares, telles que des joueurs de harpe ou de flûte.</p>
+      <p>Aux côtés de cette statuaire, l'artisanat cycladique brille par sa maîtrise du travail de la pierre dure, illustrée par de superbes vases et palettes en marbre poli, ainsi que par une production de céramique originale, notamment les « poêles à frire » ornées de décors incisés de spirales et d'étoiles.</p>
+      <p>L'art cycladique s'impose ainsi comme l'une des expressions les plus épurées de l'art préhistorique méditerranéen, dont la radicalité plastique influencera profondément les sculpteurs modernes du XXe siècle comme Brancusi ou Modigliani.</p>
     `,
     concurrentHtml: `
-      <p><strong>Le contexte mondial au IIIe millénaire av. J.-C.</strong></p>
-      <p>Pendant que les sculpteurs des Cyclades taillent leurs idoles de marbre, l'Égypte de l'Ancien Empire érige les pyramides de Gizeh.</p>
+      <p><strong>Le contexte mondial aux IIIe et IIe millénaires av. J.-C.</strong></p>
+      <p>Durant l’âge du Bronze ancien et moyen (correspondant pour l'essentiel aux IIIe et IIe millénaires av. J.-C.), les grands foyers de civilisation mondiale connaissent des mutations majeures, façonnées par l'essor de l'urbanisation et la maîtrise de la métallurgie.</p>
+      <p>En Mésopotamie, après la période des cités-États sumériennes, Sargon d'Akkad fonde vers 2300 av. J.-C. le premier empire unifié de l'histoire, instaurant un modèle politique centralisé qui stimule le commerce à longue distance et l'écriture cunéiforme.</p>
+      <p>Plus à l'est, dans la vallée de l'Indus, s'épanouit entre 2600 et 1900 av. J.-C. la civilisation harappienne (villes de Harappa et Mohenjo-Daro), remarquable pour son urbanisme géométrique strict, ses réseaux d'égouts sophistiqués et son vaste réseau d'échanges marchands.</p>
+      <p>En Chine, la transition vers l'âge du bronze voit l'émergence des premières cultures étatiques de la vallée du fleuve Jaune, notamment la dynastie légendaire des Xia puis celle des Shang, caractérisées par le développement de rituels chamaniques et la maîtrise de la fonte du bronze.</p>
+      <p>Enfin, en Méditerranée orientale, la civilisation minoenne prend son essor en Crète dès la fin du IIIe millénaire, érigeant de grands palais labyrinthiques (Knossos, Phaistos) et développant une thalassocratie dynamique qui connecte les réseaux égéens, proche-orientaux et égyptiens.</p>
     `,
     themeAlbums: [
-      { label: "🗿 Statuaire", url: "https://photos.google.com/share/AF1QipNJXU5aih6CKBSCrN4pP6P5l0AplswBz64lNNpyoV_8FhUrBnY4DVaQKdDXOysWHQ?key=cXFoM2gzaHZ1RnlyV3lVendpbmdFZ1RSYXRSTWtn" }
+      { label: "🗿 Statuaire & Marbre", url: "https://photos.google.com/share/AF1QipNJXU5aih6CKBSCrN4pP6P5l0AplswBz64lNNpyoV_8FhUrBnY4DVaQKdDXOysWHQ?key=cXFoM2gzaHZ1RnlyV3lVendpbmdFZ1RSYXRSTWtn" },
+      { label: "🎨 Fresques & Peintures", url: "https://photos.google.com/share/AF1QipNJXU5aih6CKBSCrN4pP6P5l0AplswBz64lNNpyoV_8FhUrBnY4DVaQKdDXOysWHQ?key=cXFoM2gzaHZ1RnlyV3lVendpbmdFZ1RSYXRSTWtn" },
+      { label: "🏺 Céramiques & Rituels", url: "https://photos.google.com/share/AF1QipNJXU5aih6CKBSCrN4pP6P5l0AplswBz64lNNpyoV_8FhUrBnY4DVaQKdDXOysWHQ?key=cXFoM2gzaHZ1RnlyV3lVendpbmdFZ1RSYXRSTWtn" }
     ],
     artifacts: [
       {
         id: "statue_cycladique",
-        century: "v. -2800 av. J.-C. (Bronze Ancien II)",
+        century: "v. -2800 av. J.-C. (XXVIIIe s. av. J.-C.)",
         title: "Grande statue féminine monumentale de 1,5 mètre",
         site: "Archipel des Cyclades (Musée National d'Athènes)",
         category: "Sculpture en marbre",
         themeLink: "https://photos.google.com/share/AF1QipNJXU5aih6CKBSCrN4pP6P5l0AplswBz64lNNpyoV_8FhUrBnY4DVaQKdDXOysWHQ?key=cXFoM2gzaHZ1RnlyV3lVendpbmdFZ1RSYXRSTWtn",
-        chips: ["Bronze Ancien II", "Marbre blanc poli", "Type canonique de Spedos"],
+        chips: ["Bronze Ancien II", "Marbre blanc de Paros", "Type Spedos"],
         deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNMZRgR759mlxzzO63gKtVg2u437kEFSbomGP9HGmk8DelG-gh8gB9JNXi9bKBgrqsDkalszZLTbKwC5t0GJdWrMoEmqyl9V6L6d0f5GhGwYfTg6AqqP-C2stcjrj5Vn5Ba1SstoTv7f5_pyIccZFQq4g=w2209-h938-s-no-gm?authuser=0",
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczN9iP7Fcc8FrBL9usiPRWeijaLndwYYacpAiifNY8ybz4htaHhgrTMfzRcaCrzV6fXGr2BJQopM4NP5Byn4UAsG0GLQnhaxXuOA1hdq5iXKuoivviypjT2Y4oAyByf65ZZC7HVIE-YNCXw_95yQP4iH1A=w1607-h2410-s-no-gm?authuser=0",
-        narrative: `<p>Haute de 1,5 mètre, cette œuvre monumentale sculptée dans le marbre blanc de Paros constitue l'un des sommets de la statuaire cycladique.</p>`
+        narrative: `<p>Cette œuvre monumentale, datée d'environ 2800 avant notre ère, constitue un témoignage exceptionnel de la culture cycladique du Bronze ancien. Haute de 1,5 mètre, cette figure féminine sculptée dans le marbre blanc appartient au type dit canonique, caractérisé par une stylisation géométrique rigoureuse qui a profondément marqué l'art moderne. Bien que découverte ou conservée à Athènes, sa silhouette allongée et ses formes épurées sont originaires de l'archipel des Cyclades, où de telles idoles étaient produites pour des contextes funéraires ou rituels encore partiellement mystérieux.</p>
+        <p>La morphologie de la statue suit des conventions artistiques précises propres à la période de Spedos. Le visage, d'une grande sobriété, présente un nez en relief en forme de pyramide allongée sur une tête en forme de lyre, dépourvue d'autres traits faciaux. Le cou est long et cylindrique, supportant un torse où les bras sont repliés sous la poitrine, l'avant-bras gauche reposant généralement sur le droit. Les seins sont discrètement indiqués en relief, tandis que l'abdomen est marqué par une légère incision délimitant le pubis, soulignant le caractère anthropomorphe et la symbolique liée à la fertilité ou à la protection.</p>
+        <p>La structure inférieure de la sculpture présente des jambes jointes, séparées par une profonde rainure verticale, avec des genoux légèrement fléchis et des pieds orientés vers le bas. Cette posture suggère que la statue n'était pas conçue pour tenir debout sans support, mais peut-être pour être déposée à plat dans une tombe ou portée lors de cérémonies. La monumentalité de cet exemplaire, dépassant largement la taille habituelle des figurines de cette époque, suggère qu'il s'agissait d'une commande prestigieuse destinée à un personnage de haut rang ou à un sanctuaire d'importance majeure.</p>
+        <p>L'état de conservation de la pièce permet d'apprécier la maîtrise technique des sculpteurs antiques qui travaillaient sans outils de fer, utilisant l'émeri pour polir la surface du marbre jusqu'à obtenir cet aspect lisse et translucide. Malgré son apparente blancheur actuelle, il est probable que des détails tels que les yeux ou des ornements corporels aient été initialement rehaussés par des pigments minéraux rouges et bleus, ajoutant une dimension polychrome vibrante à cette icône de l'art égéen préhistorique.</p>`
+      },
+      {
+        id: "fresque_poissons_phylakopi",
+        century: "v. -2500 av. J.-C. (XXVe s. av. J.-C.)",
+        title: "Fresque des poissons-volants de Phylakopi",
+        site: "Phylakopi (Milos)",
+        category: "Peinture murale",
+        themeLink: "https://photos.google.com/share/AF1QipNJXU5aih6CKBSCrN4pP6P5l0AplswBz64lNNpyoV_8FhUrBnY4DVaQKdDXOysWHQ?key=cXFoM2gzaHZ1RnlyV3lVendpbmdFZ1RSYXRSTWtn",
+        chips: ["Bronze Moyen I", "Buon fresco", "Thématique marine"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNMZRgR759mlxzzO63gKtVg2u437kEFSbomGP9HGmk8DelG-gh8gB9JNXi9bKBgrqsDkalszZLTbKwC5t0GJdWrMoEmqyl9V6L6d0f5GhGwYfTg6AqqP-C2stcjrj5Vn5Ba1SstoTv7f5_pyIccZFQq4g=w2209-h938-s-no-gm?authuser=0",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMCSFC84J3F7c8R8R6BSE5aedpr10b9xQ-9yb9gfJJxpnaZEqFmyCRhVjo-05Q-dpxczRkosUOqnYRl2dvdqFq4gveJxcNJpPDfm8eTJfqRv9wQKaDDZ7Ceiyj3FyLv6I9IBkw_G49yhAV_2i5PZh8umg=w1616-h1078-s-no-gm?authuser=0",
+        narrative: `<p>Cette peinture murale fragmentaire, datée d'environ 2500 avant notre ère et provenant du site de Phylakopi sur l'île de Milos, constitue l'un des plus anciens exemples de fresque figurative dans le monde égéen. Conservée au Musée national archéologique d'Athènes, elle illustre un banc de poissons-volants évoluant dans un milieu marin stylisé. Cette œuvre marque une étape cruciale dans l'art cycladique, passant de la statuaire de marbre austère à une expression picturale dynamique, riche en couleurs et centrée sur l'observation de la nature.</p>
+        <p>Le style de la fresque se caractérise par une fluidité de ligne qui contraste avec la rigidité géométrique des idoles contemporaines. Les poissons sont représentés avec un naturalisme frappant pour l'époque : les corps effilés, teintés de bleu et de jaune, sont dotés d'ailes pectorales déployées qui suggèrent le mouvement de vol au-dessus de l'eau. Le fond est parsemé de motifs décoratifs évoquant des rochers marins ou de l'écume, créant une composition rythmée qui préfigure les grandes fresques naturalistes de la civilisation minoenne en Crète.</p>
+        <p>La technique employée est celle de la "vraie fresque" (buon fresco), où les pigments minéraux sont appliqués sur un enduit de chaux encore humide, permettant aux couleurs de s'intégrer durablement au support. Cette maîtrise technique indique une société organisée capable de décorer ses espaces domestiques ou religieux avec un raffinement certain. L'utilisation du bleu, pigment précieux souvent obtenu à partir de lapis-lazuli ou de silicates de cuivre, souligne l'importance de Phylakopi en tant que centre commercial majeur de l'âge du Bronze.</p>
+        <p>La thématique marine de cette œuvre reflète l'identité profonde des populations cycladiques, dont la vie était intimement liée à la mer Égée. Au-delà de sa valeur esthétique, la fresque des poissons-volants témoigne d'une sensibilité artistique nouvelle, où l'environnement naturel devient une source d'inspiration majeure. Elle illustre parfaitement la transition culturelle vers le Bronze moyen, où les échanges entre les Cyclades, la Crète et le continent grec ont favorisé l'émergence d'un langage artistique commun marqué par la grâce et la vitalité.</p>`
+      },
+      {
+        id: "kernos_melos",
+        century: "v. -2000 av. J.-C. (XXIe s. av. J.-C.)",
+        title: "Kernos rituel en terre cuite à coupelles multiples",
+        site: "Mélos (Cyclades)",
+        category: "Céramique rituelle",
+        themeLink: "https://photos.google.com/share/AF1QipNJXU5aih6CKBSCrN4pP6P5l0AplswBz64lNNpyoV_8FhUrBnY4DVaQKdDXOysWHQ?key=cXFoM2gzaHZ1RnlyV3lVendpbmdFZ1RSYXRSTWtn",
+        chips: ["Bronze Moyen", "Mélos", "Vase à libations"],
+        deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNMZRgR759mlxzzO63gKtVg2u437kEFSbomGP9HGmk8DelG-gh8gB9JNXi9bKBgrqsDkalszZLTbKwC5t0GJdWrMoEmqyl9V6L6d0f5GhGwYfTg6AqqP-C2stcjrj5Vn5Ba1SstoTv7f5_pyIccZFQq4g=w2209-h938-s-no-gm?authuser=0",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNJMFw-kw6kydCM4NDoX6CPNsA0shUV6LK7h2y-M-H5qSnShSuK9QYtX8BxYz4mtPrzEcIkgnmyZAorfZ2xLWOhDlHeDgaBh0ehUgZFMy_9egsnk1Px1SKhKHFo08n64-d4Kp2P4Mvu0rG5Pfb9YgCNAA=w1616-h2147-s-no-gm?authuser=0",
+        narrative: `<p>Ce kernos en terre cuite constitue un exemple exceptionnel de la complexité des objets rituels cycladiques à la charnière entre le Bronze Ancien et le Bronze Moyen. L'objet se compose d'un pied central évasé, de forme tronconique, sur lequel repose une couronne circulaire supportant une douzaine de petits réceptacles ou coupelles individuelles. Ces coupelles sont reliées entre elles par des ponts d'argile, formant un anneau solidaire autour d'un espace central vide. Cette structure architecturale sophistiquée témoigne d'une grande maîtrise technique des potiers de Mélos vers 2000 avant J.-C., capable de concevoir un objet multifonctionnel d'une grande stabilité.</p>
+        <p>Le décor peint au vernis sombre sur l'argile de couleur chamois est organisé de manière méticuleuse sur chaque coupelle. On y observe une alternance de motifs géométriques variés : des treillis de losanges, des damiers, des lignes brisées (zigzags) et des chevrons. Cette diversité décorative sur un même objet pourrait suggérer une fonction symbolique, chaque coupelle pouvant être destinée à une offrande différente. Le pied central, bien que plus sobre, ancre visuellement la pièce et souligne sa verticalité cérémonielle. La précision des tracés géométriques préfigure déjà la rigueur des styles cycladiques ultérieurs rencontrés à Phylakopi.</p>
+        <p>L'usage du kernos est intrinsèquement lié au domaine religieux et aux rites d'offrandes collectives. Il permettait de présenter simultanément plusieurs types de prémices (grains, huiles, vin, miel) lors de cérémonies de libations ou de sacrifices non sanglants. Retrouvé sur l'île de Mélos, cet exemplaire illustre la richesse de la vie spirituelle des communautés insulaires, où le partage et la multiplication des offrandes jouaient un rôle central dans la cohésion sociale et la propitiation des divinités de la fertilité. Sa forme en couronne est une évocation puissante du cycle de la nature et de l'abondance.</p>`
       }
     ]
   },
