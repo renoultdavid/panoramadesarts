@@ -1687,9 +1687,13 @@ const subStream = document.getElementById('sub-stream-scroll');
 const drawerCivTag = document.getElementById('drawer-civ-name');
 
 function activateCivilisationView(civ) {
+  isLockedSidebar = false;
+  hideCivPreview();
+
   civOverlayMap.classList.remove('active');
   civMapImg.src = '';
   subStream.innerHTML = '';
+
 
   document.documentElement.style.setProperty('--civ-theme', civ.themeColor);
   drawerCivTag.textContent = `${civ.name.toUpperCase()} • CHRONOLOGIE DÉPLOYÉE`;
