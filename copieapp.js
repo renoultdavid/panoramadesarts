@@ -1125,7 +1125,8 @@ CIVILISATIONS_REGISTRY.push(
     travelingOrigin: "55.4% 45.6%",
     haloId: "halo-chypre",
     bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczNtlhntpxWY6u22Dj77CiZfXJnSfduTP1uXInNNl7THWXS5vseOikfKiRgcTsCjP2iVGO-jX924k9zAAUyZQhGX8luuSrh5eXc650LHXXMWEdLAl7o589lo_Rkk6Bo9UJYlo4iFAtBkaj6qhmzuUK5y_w=w2111-h896-s-no-gm?authuser=0",
-    mapOverlayUrl: "https://lh3.googleusercontent.com/d/1-RyywCVU5Ct2McoKupe9Z2OnXrnDSJ9r",
+    mapOverlayUrl: "https://lh3.googleusercontent.com/d/1QNkcnjOVZ9nSJxO2vXusVWgC04EmaUcO",
+
     albumUrl: "https://photos.google.com",
     presentationHtml: `
       <p><strong>L'île du cuivre au carrefour des mondes antiques</strong><br>
