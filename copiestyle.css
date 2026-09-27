@@ -40,6 +40,7 @@ body {
 /* EN-TÊTE FIXE */
 #main-header {
   height: 48px;
+  min-height: 48px;
   padding: 4px 1.5rem;
   display: flex;
   align-items: center;
@@ -47,8 +48,9 @@ body {
   z-index: 50;
   background: #050608;
   border-bottom: 1px solid rgba(212, 175, 55, 0.15);
-  flex-shrink: 0;
+  flex-shrink: 0 !important; /* Empêche le header de s'écraser */
 }
+
 
 .museum-insignia {
   display: flex;
