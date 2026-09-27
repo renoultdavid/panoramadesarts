@@ -1660,11 +1660,13 @@ window.addEventListener('touchmove', (e) => {
   const deltaX = Math.abs(touchX - startX);
   const deltaY = Math.abs(touchY - startTouchY);
 
-  // Si le geste est vertical, on laisse l'ascenseur faire défiler les lignes
+    // Si le geste est vertical, on annule le drag horizontal et on laisse le scroll natif opérer
   if (!isHorizontalDrag && deltaY > deltaX) {
+    isDragging = false;
     return;
   }
   isHorizontalDrag = true;
+
 
   curRibbonX = prevRibbonX + (touchX - startX);
   const minX = -(RIBBON_WIDTH - masterContainer.clientWidth);
