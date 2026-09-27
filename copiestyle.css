@@ -31,6 +31,7 @@ body {
   color: var(--text-bright);
   font-family: 'Cormorant Garamond', Georgia, serif;
   height: 100vh;
+  height: 100dvh; /* S'adapte exactement à la hauteur utile avec la barre d'onglets Safari */
   width: 100vw;
   overflow: hidden;
   display: flex;
@@ -1174,10 +1175,13 @@ body {
    OPTIMISATION RESPONSIVE SPÉCIFIQUE IPAD & TABLETTES (Ratio 4/3 & écrans < 900px)
    ========================================================================== */
 @media (max-height: 850px) {
-  #main-header {
+    #main-header {
     height: 42px;
+    min-height: 42px;
     padding: 2px 1rem;
+    flex-shrink: 0 !important;
   }
+
   
   /* Laisse respirer la carte en haut */
   #map-viewport {
