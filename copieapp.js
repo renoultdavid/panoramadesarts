@@ -1641,14 +1641,16 @@ window.addEventListener('mouseup', () => {
 });
 /* Support tactile optimisé avec scroll vertical (iPad / Tablettes) */
 let startTouchY = 0;
+let isDeterminedGesture = false;
 let isHorizontalDrag = false;
 
 masterContainer.addEventListener('touchstart', (e) => {
   if (e.touches.length === 1) {
     isDragging = true;
+    isDeterminedGesture = false;
+    isHorizontalDrag = false;
     startX = e.touches[0].clientX;
     startTouchY = e.touches[0].clientY;
-    isHorizontalDrag = false;
     updateSynchronousState(e.touches[0].clientX);
   }
 }, { passive: true });
@@ -1660,13 +1662,23 @@ window.addEventListener('touchmove', (e) => {
   const deltaX = Math.abs(touchX - startX);
   const deltaY = Math.abs(touchY - startTouchY);
 
-    // Si le geste est vertical, on annule le drag horizontal et on laisse le scroll natif opérer
-  if (!isHorizontalDrag && deltaY > deltaX) {
-    isDragging = false;
-    return;
+  // Détermine la direction du geste au début
+  if (!isDeterminedGesture) {
+    if (deltaX > 8 || deltaY > 8) {
+      isDeterminedGesture = true;
+      if (deltaY > deltaX) {
+        // Geste vertical : on libère le glisser horizontal pour laisser Safari faire le scroll
+        isDragging = false;
+        return;
+      } else {
+        isHorizontalDrag = true;
+      }
+    } else {
+      return;
+    }
   }
-  isHorizontalDrag = true;
 
+  if (!isHorizontalDrag) return;
 
   curRibbonX = prevRibbonX + (touchX - startX);
   const minX = -(RIBBON_WIDTH - masterContainer.clientWidth);
@@ -1683,6 +1695,7 @@ window.addEventListener('touchend', () => {
   isDragging = false;
   prevRibbonX = curRibbonX;
 });
+
 
 
 
