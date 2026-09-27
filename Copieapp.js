@@ -1639,6 +1639,34 @@ window.addEventListener('mouseup', () => {
   isDragging = false;
   prevRibbonX = curRibbonX;
 });
+/* Support tactile (iPad / Tablettes / Smartphones) */
+masterContainer.addEventListener('touchstart', (e) => {
+  if (e.touches.length === 1) {
+    isDragging = true;
+    startX = e.touches[0].clientX;
+    updateSynchronousState(e.touches[0].clientX);
+  }
+}, { passive: true });
+
+window.addEventListener('touchmove', (e) => {
+  if (!isDragging || e.touches.length !== 1) return;
+  const touchX = e.touches[0].clientX;
+  curRibbonX = prevRibbonX + (touchX - startX);
+  const minX = -(RIBBON_WIDTH - masterContainer.clientWidth);
+  curRibbonX = Math.max(minX, Math.min(0, curRibbonX));
+  
+  masterRibbon.style.transform = `translateX(${curRibbonX}px)`;
+  rulerTrack.style.transform = `translateX(${curRibbonX}px)`;
+  rulerEventsLayer.style.transform = `translateX(${curRibbonX}px)`;
+  updateSynchronousState(touchX);
+}, { passive: true });
+
+window.addEventListener('touchend', () => {
+  if (!isDragging) return;
+  isDragging = false;
+  prevRibbonX = curRibbonX;
+});
+
 
 masterRibbon.style.transform = `translateX(${curRibbonX}px)`;
 rulerTrack.style.transform = `translateX(${curRibbonX}px)`;
