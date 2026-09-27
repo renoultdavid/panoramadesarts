@@ -1145,3 +1145,43 @@ body {
     box-shadow: 0 0 28px rgba(212, 175, 55, 0.95);
   }
 }
+/* ==========================================================================
+   AJUSTEMENTS IPAD & ÉCRANS COMPACTS (Tablettes paysage & petits écrans)
+   ========================================================================== */
+@media (max-height: 850px) {
+  /* Réduit la hauteur du tiroir déplié pour laisser respirer la carte et les volets */
+  #sub-timeline-drawer {
+    height: 38vh !important;
+    max-height: 340px !important;
+  }
+
+  /* Réduit la hauteur des cartes d'artefacts dans le tiroir */
+  .sub-node-card {
+    min-height: auto !important;
+    padding: 8px !important;
+  }
+
+  .sub-node-pedestal {
+    height: 120px !important;
+  }
+
+  .sub-node-pedestal img {
+    max-height: 110px !important;
+  }
+
+  .sub-node-title {
+    font-size: 0.82rem !important;
+  }
+
+  .sub-node-subtitle {
+    font-size: 0.72rem !important;
+  }
+
+  /* Assure que le volet 'Et pendant ce temps-là' reste bien au premier plan et lisible */
+  #concurrent-sidebar-card {
+    max-height: 48vh !important;
+    overflow-y: auto !important;
+    z-index: 99 !important;
+  }
+}
+
