@@ -1125,7 +1125,8 @@ CIVILISATIONS_REGISTRY.push(
     travelingOrigin: "55.4% 45.6%",
     haloId: "halo-chypre",
     bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczNtlhntpxWY6u22Dj77CiZfXJnSfduTP1uXInNNl7THWXS5vseOikfKiRgcTsCjP2iVGO-jX924k9zAAUyZQhGX8luuSrh5eXc650LHXXMWEdLAl7o589lo_Rkk6Bo9UJYlo4iFAtBkaj6qhmzuUK5y_w=w2111-h896-s-no-gm?authuser=0",
-    mapOverlayUrl: "https://lh3.googleusercontent.com/d/1-RyywCVU5Ct2McoKupe9Z2OnXrnDSJ9r",
+    mapOverlayUrl: "https://lh3.googleusercontent.com/d/1QNkcnjOVZ9nSJxO2vXusVWgC04EmaUcO",
+
     albumUrl: "https://photos.google.com",
     presentationHtml: `
       <p><strong>L'île du cuivre au carrefour des mondes antiques</strong><br>
@@ -1639,6 +1640,65 @@ window.addEventListener('mouseup', () => {
   isDragging = false;
   prevRibbonX = curRibbonX;
 });
+/* Support tactile optimisé avec scroll vertical (iPad / Tablettes) */
+let startTouchY = 0;
+let isDeterminedGesture = false;
+let isHorizontalDrag = false;
+
+masterContainer.addEventListener('touchstart', (e) => {
+  if (e.touches.length === 1) {
+    isDragging = true;
+    isDeterminedGesture = false;
+    isHorizontalDrag = false;
+    startX = e.touches[0].clientX;
+    startTouchY = e.touches[0].clientY;
+    updateSynchronousState(e.touches[0].clientX);
+  }
+}, { passive: true });
+
+window.addEventListener('touchmove', (e) => {
+  if (!isDragging || e.touches.length !== 1) return;
+  const touchX = e.touches[0].clientX;
+  const touchY = e.touches[0].clientY;
+  const deltaX = Math.abs(touchX - startX);
+  const deltaY = Math.abs(touchY - startTouchY);
+
+  // Détermine la direction du geste au début
+  if (!isDeterminedGesture) {
+    if (deltaX > 8 || deltaY > 8) {
+      isDeterminedGesture = true;
+      if (deltaY > deltaX) {
+        // Geste vertical : on libère le glisser horizontal pour laisser Safari faire le scroll
+        isDragging = false;
+        return;
+      } else {
+        isHorizontalDrag = true;
+      }
+    } else {
+      return;
+    }
+  }
+
+  if (!isHorizontalDrag) return;
+
+  curRibbonX = prevRibbonX + (touchX - startX);
+  const minX = -(RIBBON_WIDTH - masterContainer.clientWidth);
+  curRibbonX = Math.max(minX, Math.min(0, curRibbonX));
+  
+  masterRibbon.style.transform = `translateX(${curRibbonX}px)`;
+  rulerTrack.style.transform = `translateX(${curRibbonX}px)`;
+  rulerEventsLayer.style.transform = `translateX(${curRibbonX}px)`;
+  updateSynchronousState(touchX);
+}, { passive: true });
+
+window.addEventListener('touchend', () => {
+  if (!isDragging) return;
+  isDragging = false;
+  prevRibbonX = curRibbonX;
+});
+
+
+
 
 masterRibbon.style.transform = `translateX(${curRibbonX}px)`;
 rulerTrack.style.transform = `translateX(${curRibbonX}px)`;
@@ -1659,9 +1719,13 @@ const subStream = document.getElementById('sub-stream-scroll');
 const drawerCivTag = document.getElementById('drawer-civ-name');
 
 function activateCivilisationView(civ) {
+  isLockedSidebar = false;
+  hideCivPreview();
+
   civOverlayMap.classList.remove('active');
   civMapImg.src = '';
   subStream.innerHTML = '';
+
 
   document.documentElement.style.setProperty('--civ-theme', civ.themeColor);
   drawerCivTag.textContent = `${civ.name.toUpperCase()} • CHRONOLOGIE DÉPLOYÉE`;
