@@ -1639,11 +1639,16 @@ window.addEventListener('mouseup', () => {
   isDragging = false;
   prevRibbonX = curRibbonX;
 });
-/* Support tactile (iPad / Tablettes / Smartphones) */
+/* Support tactile optimisé avec scroll vertical (iPad / Tablettes) */
+let startTouchY = 0;
+let isHorizontalDrag = false;
+
 masterContainer.addEventListener('touchstart', (e) => {
   if (e.touches.length === 1) {
     isDragging = true;
     startX = e.touches[0].clientX;
+    startTouchY = e.touches[0].clientY;
+    isHorizontalDrag = false;
     updateSynchronousState(e.touches[0].clientX);
   }
 }, { passive: true });
@@ -1651,6 +1656,16 @@ masterContainer.addEventListener('touchstart', (e) => {
 window.addEventListener('touchmove', (e) => {
   if (!isDragging || e.touches.length !== 1) return;
   const touchX = e.touches[0].clientX;
+  const touchY = e.touches[0].clientY;
+  const deltaX = Math.abs(touchX - startX);
+  const deltaY = Math.abs(touchY - startTouchY);
+
+  // Si le geste est vertical, on laisse l'ascenseur faire défiler les lignes
+  if (!isHorizontalDrag && deltaY > deltaX) {
+    return;
+  }
+  isHorizontalDrag = true;
+
   curRibbonX = prevRibbonX + (touchX - startX);
   const minX = -(RIBBON_WIDTH - masterContainer.clientWidth);
   curRibbonX = Math.max(minX, Math.min(0, curRibbonX));
@@ -1666,6 +1681,7 @@ window.addEventListener('touchend', () => {
   isDragging = false;
   prevRibbonX = curRibbonX;
 });
+
 
 
 masterRibbon.style.transform = `translateX(${curRibbonX}px)`;
