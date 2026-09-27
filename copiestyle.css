@@ -708,8 +708,23 @@ body {
 #timeline-split-wrapper {
   flex: 1;
   display: flex;
-  overflow: hidden;
   position: relative;
+  overflow-x: hidden;
+  overflow-y: auto !important; /* Active l'ascenseur vertical */
+  scrollbar-width: thin;
+  scrollbar-color: var(--gold-pure) rgba(10, 12, 17, 0.8);
+}
+
+/* Style de la barre de défilement dorée */
+#timeline-split-wrapper::-webkit-scrollbar {
+  width: 6px;
+}
+#timeline-split-wrapper::-webkit-scrollbar-track {
+  background: rgba(8, 10, 14, 0.8);
+}
+#timeline-split-wrapper::-webkit-scrollbar-thumb {
+  background: var(--gold-pure);
+  border-radius: 3px;
 }
 
 #timeline-labels-column {
@@ -744,9 +759,10 @@ body {
   cursor: grab;
   position: relative;
   overflow-x: hidden;
-  overflow-y: hidden;
-  touch-action: pan-x;
+  overflow-y: visible; /* Laisse le parent gérer le défilement vertical */
+  touch-action: pan-y; /* Permet le glissement vertical au doigt sur iPad */
 }
+
 
 #master-drag-container:active { cursor: grabbing; }
 
