@@ -737,7 +737,12 @@ const modalArtworkTitle = document.getElementById('modal-artwork-title');
 const modalChips = document.getElementById('modal-chips-container');
 const modalNarrative = document.getElementById('modal-narrative-text');
 const btnModalClose = document.getElementById('btn-modal-close');
+const btnModalPrev = document.getElementById('btn-modal-prev');
+const btnModalNext = document.getElementById('btn-modal-next');
+const totalObjectsCount = document.getElementById('total-objects-count');
 
+let activeContextList = [];
+let currentArtIndex = 0;
 // Lightbox zoom plein écran
 const artworkLightbox = document.getElementById('artwork-lightbox-zoom');
 const artworkLightboxImg = document.getElementById('artwork-lightbox-img');
@@ -757,18 +762,28 @@ artworkLightbox.addEventListener('click', () => {
 });
 
 function openCuratorModal(art, siblingsList = []) {
-  modalTabBar.innerHTML = '';
+  activeContextList = siblingsList.length > 0 ? siblingsList : (window.ART_OBJECTS || []);
+  currentArtIndex = activeContextList.findIndex(item => item.id === art.id);
+  if (currentArtIndex === -1) currentArtIndex = 0;
 
-  if (siblingsList.length > 1) {
+  renderModalCurrentArt();
+  modal.classList.add('open');
+}
+
+function renderModalCurrentArt() {
+  const currentArt = activeContextList[currentArtIndex];
+  if (!currentArt) return;
+
+  modalTabBar.innerHTML = '';
+  if (activeContextList.length > 1 && activeContextList.length <= 12) {
     modalTabBar.style.display = 'flex';
-    siblingsList.forEach((sibling) => {
+    activeContextList.forEach((sibling, sIdx) => {
       const tab = document.createElement('button');
-      tab.className = `modal-tab-btn ${sibling.id === art.id ? 'active' : ''} ${sibling.isAmarna ? 'is-amarna-tab' : ''}`;
+      tab.className = `modal-tab-btn ${sIdx === currentArtIndex ? 'active' : ''} ${sibling.isAmarna ? 'is-amarna-tab' : ''}`;
       tab.textContent = sibling.category || sibling.title;
       tab.addEventListener('click', () => {
-        document.querySelectorAll('.modal-tab-btn').forEach(t => t.classList.remove('active'));
-        tab.classList.add('active');
-        populateModalData(sibling);
+        currentArtIndex = sIdx;
+        renderModalCurrentArt();
       });
       modalTabBar.appendChild(tab);
     });
@@ -776,9 +791,35 @@ function openCuratorModal(art, siblingsList = []) {
     modalTabBar.style.display = 'none';
   }
 
-  populateModalData(art);
-  modal.classList.add('open');
+  populateModalData(currentArt);
 }
+
+// Écouteurs pour les flèches Précédent / Suivant
+if (btnModalPrev) {
+  btnModalPrev.addEventListener('click', (e) => {
+    e.stopPropagation();
+    if (!activeContextList || activeContextList.length === 0) return;
+    currentArtIndex = (currentArtIndex - 1 + activeContextList.length) % activeContextList.length;
+    renderModalCurrentArt();
+  });
+}
+
+if (btnModalNext) {
+  btnModalNext.addEventListener('click', (e) => {
+    e.stopPropagation();
+    if (!activeContextList || activeContextList.length === 0) return;
+    currentArtIndex = (currentArtIndex + 1) % activeContextList.length;
+    renderModalCurrentArt();
+  });
+}
+
+// Navigation au clavier avec flèches gauche et droite
+window.addEventListener('keydown', (e) => {
+  if (!modal || !modal.classList.contains('open')) return;
+  if (e.key === 'ArrowLeft' && btnModalPrev) btnModalPrev.click();
+  if (e.key === 'ArrowRight' && btnModalNext) btnModalNext.click();
+  if (e.key === 'Escape' && btnModalClose) btnModalClose.click();
+});
 
 function populateModalData(art) {
   if (art.deptBanner) {
@@ -901,6 +942,9 @@ function renderSearchGallery() {
   }
 
   searchCount.textContent = filtered.length;
+  if (totalObjectsCount) {
+    totalObjectsCount.textContent = (window.ART_OBJECTS || []).length;
+  }
   galleryGrid.innerHTML = '';
 
   filtered.forEach(art => {
@@ -922,7 +966,7 @@ function renderSearchGallery() {
     `;
 
     card.addEventListener('click', () => {
-      openCuratorModal(art, [art]);
+      openCuratorModal(art, filtered);
     });
 
     galleryGrid.appendChild(card);
