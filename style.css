@@ -1622,3 +1622,52 @@ body {
     line-height: 1.45 !important;
   }
 }
+/* Curseur loupe sur l'image de la modale */
+.modal-pedestal-col img {
+  cursor: zoom-in;
+}
+
+/* Lightbox plein écran dédiée à l'image */
+.artwork-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 150;
+  background: rgba(3, 4, 6, 0.98);
+  backdrop-filter: blur(25px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: zoom-out;
+  padding: 1.5rem;
+}
+
+.artwork-lightbox[hidden] {
+  display: none !important;
+}
+
+.artwork-lightbox img {
+  max-width: 96vw;
+  max-height: 94vh;
+  object-fit: contain;
+  filter: drop-shadow(0 20px 50px rgba(0, 0, 0, 0.95));
+  transition: transform 0.25s ease;
+}
+
+.artwork-lightbox img:hover {
+  transform: scale(1.01);
+}
+
+.lightbox-hint {
+  position: absolute;
+  bottom: 1.5rem;
+  font-family: 'Cinzel', serif;
+  font-size: 0.72rem;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--gold-pale);
+  background: rgba(14, 17, 24, 0.85);
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  padding: 6px 16px;
+  border-radius: 20px;
+  pointer-events: none;
+}
