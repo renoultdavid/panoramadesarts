@@ -394,11 +394,11 @@ const CIVILISATIONS_REGISTRY = [
   }
 ];
 
-// Liaison automatique des objets de data-objets.js dans la frise
+// Liaison sélective : seuls les objets phares (isHighlight) vont dans la frise
 window.addEventListener('DOMContentLoaded', () => {
   if (window.ART_OBJECTS && window.ART_OBJECTS.length > 0) {
     CIVILISATIONS_REGISTRY.forEach(civ => {
-      civ.artifacts = window.ART_OBJECTS.filter(obj => obj.civId === civ.id);
+      civ.artifacts = window.ART_OBJECTS.filter(obj => obj.civId === civ.id && obj.isHighlight === true);
     });
   }
   buildTimelineBlocks();
