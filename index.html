@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Atlas Visuel &amp; Synchronique des Arts et Civilisations</title>
+  <title>Atlas Visuel & Synchronique des Arts et Civilisations</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;900&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="copiestyle.css">
+  <link rel="stylesheet" href="style.css">
 
   <!-- Icônes pour l'application mobile et tablette -->
   <link rel="icon" type="image/jpeg" sizes="512x512" href="icon-512.jpeg">
@@ -22,11 +22,15 @@
 </head>
 <body>
 
-  <!-- EN-TÊTE FIXE AVEC BOUTON PLEIN ÉCRAN -->
+  <!-- EN-TÊTE GLOBAL FIXE -->
   <header id="main-header">
     <div class="museum-insignia">
+      <button id="btn-back-hub" class="btn-header-nav" title="Retour au portail" hidden>
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+        <span>Accueil</span>
+      </button>
       <div class="insignia-title">Atlas Visuel des Arts</div>
-      <div class="insignia-sub">Parcours Synchronique &amp; Archives Photographiques in situ</div>
+      <div class="insignia-sub" id="insignia-subtitle">Portail & Archives Photographiques</div>
     </div>
     
     <button id="btn-fullscreen-toggle" class="btn-header-fullscreen" title="Basculer en plein écran">
@@ -37,125 +41,210 @@
     </button>
   </header>
 
-  <!-- SCÈNE CARTOGRAPHIQUE CENTRALE FIXÉE -->
-  <main id="map-viewport">
-    <div id="map-canvas-frame">
-      <img id="global-map-img" src="https://lh3.googleusercontent.com/d/1QyvVo3lL18FPcqzLgR9qvyaHY5F63Spk" alt="Carte du Monde" />
-      
-      <!-- Halos synchrones mondiaux -->
-      <div id="synchronous-halos-layer">
-        <div id="halo-canaries" class="sync-foyer-halo"></div>
-        <div id="halo-amorrite" class="sync-foyer-halo"></div>
-        <div id="halo-celte_bronze" class="sync-foyer-halo"></div>
-        <div id="halo-celte_fer" class="sync-foyer-halo"></div>
-        <div id="halo-chypre" class="sync-foyer-halo"></div>
-        <div id="halo-crete" class="sync-foyer-halo"></div>
-        <div id="halo-cyclades" class="sync-foyer-halo"></div>
-        <div id="halo-mycenes" class="sync-foyer-halo"></div>
-        <div id="halo-egypte_ancien" class="sync-foyer-halo"></div>
-        <div id="halo-egypte_moyen" class="sync-foyer-halo"></div>
-        <div id="halo-egypte_nouvel" class="sync-foyer-halo"></div>
-        <div id="halo-egypte_tardif" class="sync-foyer-halo"></div>
-      </div>
-
-      <!-- Carte Régionale Dédiée (Adaptative en cas de redimensionnement) -->
-      <div id="civilisation-map-overlay">
-        <img id="civilisation-map-img" src="" alt="Carte régionale" />
-        <div class="map-atmospheric-glow"></div>
-      </div>
-    </div>
-
-    <!-- CARTOUCHE LATÉRAL RESPONSIVE (DANS LE VIEWPORT) -->
-    <aside id="hover-sidebar-card" class="pos-left">
-      <button class="btn-close-sidebar" id="btn-close-sidebar" title="Fermer la fiche">&times;</button>
-      <div class="sidebar-scrollable-body">
-        <div class="hover-card-era" id="sidebar-era">Époque</div>
-        <div class="hover-card-title" id="sidebar-title">Civilisation</div>
-        
-        <div class="hover-banner-frame" id="sidebar-banner-box">
-          <img id="sidebar-banner-img" src="" alt="Bandeau de la civilisation" loading="lazy" />
-        </div>
-
-        <div class="hover-card-desc" id="sidebar-desc">Notice muséographique...</div>
-
-        <div id="sidebar-album-grid" class="sidebar-album-grid"></div>
-      </div>
-      
-      <div class="sidebar-footer-action">
-        <button class="btn-enter-civ-map" id="btn-enter-civ">
-          Explorer la carte régionale ➔
+  <!-- =========================================================================
+       VUE 1 : LE HUB D'ACCUEIL À 2 VOLETS (PORTAIL PRINCIPAL)
+       ========================================================================= -->
+  <section id="view-hub" class="spa-view active">
+    <!-- Volet Gauche : Moteur de Recherche -->
+    <div class="portal-panel panel-search" data-open-view="view-search">
+      <div class="portal-panel-bg bg-search"></div>
+      <div class="portal-panel-content">
+        <span class="portal-badge">MODULE 01</span>
+        <h2 class="portal-title">Moteur & Galerie d'Objets</h2>
+        <p class="portal-desc">Explorer par filtres multicritères : civilisation, siècle, typologie et recherche textuelle de l'ensemble des collections photographiées.</p>
+        <button class="portal-cta-btn">
+          <span>Ouvrir l'explorateur</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
         </button>
       </div>
-    </aside>
-
-    <!-- VOLET LATÉRAL DE DROITE : ET PENDANT CE TEMPS-LÀ... (DANS LE VIEWPORT) -->
-    <aside id="concurrent-sidebar-card">
-      <div class="sidebar-scrollable-body">
-        <div class="hover-card-era">Contexte Mondial Synchrone</div>
-        <div class="hover-card-title">Et pendant ce temps-là...</div>
-        <div class="hover-card-desc" id="concurrent-desc">Chargement du contexte mondial...</div>
-      </div>
-    </aside>
-  </main>
-
-  <!-- FRISES AU BAS DE L'ÉCRAN -->
-  <footer id="timeline-dock">
-    <div id="sub-timeline-drawer">
-      <div class="drawer-info-strip">
-        <span class="drawer-civ-tag" id="drawer-civ-name">CHRONOLOGIE DÉPLOYÉE</span>
-        <button class="btn-close-sub" id="btn-close-drawer">← Revenir à la Carte Globale</button>
-      </div>
-      <div id="sub-stream-scroll"></div>
     </div>
 
-    <div id="master-timeline-bar">
-      <div id="ruler-scale-bar">
-        <div id="ruler-ticks-track"></div>
-        <div id="ruler-events-layer"></div>
+    <!-- Volet Droit : Atlas & Frise Synchronique -->
+    <div class="portal-panel panel-timeline" data-open-view="view-timeline">
+      <div class="portal-panel-bg bg-timeline"></div>
+      <div class="portal-panel-content">
+        <span class="portal-badge">MODULE 02</span>
+        <h2 class="portal-title">Atlas & Frise Chronologique</h2>
+        <p class="portal-desc">Navigation spatio-temporelle interactive : cartographie mondiale, synchronisme mondial et déploiement chronologique des foyers d'art.</p>
+        <button class="portal-cta-btn">
+          <span>Accéder à la frise</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </button>
       </div>
+    </div>
+  </section>
 
-      <div class="master-hint-strip">
-        <div class="milestones-legend">
-          <span class="legend-chip"><span class="legend-dot dot-gold"></span> Chantier / Politique</span>
-          <span class="legend-chip"><span class="legend-dot dot-tech"></span> Invention / Technique</span>
-          <span class="legend-chip"><span class="legend-dot dot-war"></span> Conquête / Bataille</span>
-          <span class="legend-chip"><span class="legend-dot dot-disaster"></span> Cataclysme</span>
-        </div>
-        <span>◄ -3500 av. J.-C. | +1500 ap. J.-C. ►</span>
-      </div>
-
-      <div id="sync-cursor-line">
-        <div id="sync-bubble-tag">-300 av. J.-C.</div>
-      </div>
-
-      <div id="timeline-split-wrapper">
-        <div id="timeline-labels-column">
-          <div class="lane-fixed-label" data-lane="europe_ouest">Gaule &amp; Europe Celte</div>
-          <div class="lane-fixed-label" data-lane="atlantique">Atlantique &amp; Canaries</div>
-          <div class="lane-fixed-label" data-lane="egee">Monde Égéen &amp; Grèce</div>
-          <div class="lane-fixed-label" data-lane="chypre">Chypre &amp; Méditerranée or.</div>
-          <div class="lane-fixed-label" data-lane="syrie">Levant &amp; Syrie</div>
-          <div class="lane-fixed-label" data-lane="egypte">Égypte &amp; Nubie</div>
-          <div class="lane-fixed-label" data-lane="mesopotamie">Mésopotamie</div>
-          <div class="lane-fixed-label" data-lane="anatolie">Anatolie &amp; Caucase</div>
+  <!-- =========================================================================
+       VUE 2 : MOTEUR DE RECHERCHE & GALERIE (VOLET GAUCHE DÉPLOYÉ)
+       ========================================================================= -->
+  <section id="view-search" class="spa-view" hidden>
+    <div class="search-engine-bar">
+      <div class="filter-controls-grid">
+        <div class="filter-field">
+          <label for="filter-civ">🌍 Civilisation</label>
+          <select id="filter-civ">
+            <option value="">Toutes les civilisations</option>
+          </select>
         </div>
 
-        <div id="master-drag-container">
-          <div id="master-ribbon">
-            <div class="timeline-lane" data-lane="europe_ouest"></div>
-            <div class="timeline-lane" data-lane="atlantique"></div>
-            <div class="timeline-lane" data-lane="egee"></div>
-            <div class="timeline-lane" data-lane="chypre"></div>
-            <div class="timeline-lane" data-lane="syrie"></div>
-            <div class="timeline-lane" data-lane="egypte"></div>
-            <div class="timeline-lane" data-lane="mesopotamie"></div>
-            <div class="timeline-lane" data-lane="anatolie"></div>
+        <div class="filter-field">
+          <label for="filter-siecle">⏳ Siècle / Époque</label>
+          <select id="filter-siecle">
+            <option value="">Tous les siècles</option>
+          </select>
+        </div>
+
+        <div class="filter-field">
+          <label for="filter-cat">🏺 Type d'objet</label>
+          <select id="filter-cat">
+            <option value="">Toutes les catégories</option>
+          </select>
+        </div>
+
+        <div class="filter-field">
+          <label for="filter-text">🔍 Mot-clé</label>
+          <input type="text" id="filter-text" placeholder="Titre, matière, lieu...">
+        </div>
+      </div>
+
+      <div class="filter-status-row">
+        <div class="results-counter">
+          Résultats trouvés : <strong id="search-count">0</strong> objet(s)
+        </div>
+        <button id="btn-reset-filters" class="btn-filter-reset">Réinitialiser les filtres</button>
+      </div>
+    </div>
+
+    <!-- Mosaïque des vignettes -->
+    <div id="search-gallery-scroll" class="search-gallery-container">
+      <div id="search-gallery-grid" class="search-gallery-grid"></div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       VUE 3 : ATLAS ET FRISE SYNCHRONIQUE (TON MOTEUR EXISTANT)
+       ========================================================================= -->
+  <section id="view-timeline" class="spa-view" hidden>
+    <!-- SCÈNE CARTOGRAPHIQUE CENTRALE FIXÉE -->
+    <main id="map-viewport">
+      <div id="map-canvas-frame">
+        <img id="global-map-img" src="https://lh3.googleusercontent.com/d/1QyvVo3lL18FPcqzLgR9qvyaHY5F63Spk" alt="Carte du Monde" />
+        
+        <!-- Halos synchrones mondiaux -->
+        <div id="synchronous-halos-layer">
+          <div id="halo-canaries" class="sync-foyer-halo"></div>
+          <div id="halo-amorrite" class="sync-foyer-halo"></div>
+          <div id="halo-celte_bronze" class="sync-foyer-halo"></div>
+          <div id="halo-celte_fer" class="sync-foyer-halo"></div>
+          <div id="halo-chypre" class="sync-foyer-halo"></div>
+          <div id="halo-crete" class="sync-foyer-halo"></div>
+          <div id="halo-cyclades" class="sync-foyer-halo"></div>
+          <div id="halo-mycenes" class="sync-foyer-halo"></div>
+          <div id="halo-egypte_ancien" class="sync-foyer-halo"></div>
+          <div id="halo-egypte_moyen" class="sync-foyer-halo"></div>
+          <div id="halo-egypte_nouvel" class="sync-foyer-halo"></div>
+          <div id="halo-egypte_tardif" class="sync-foyer-halo"></div>
+        </div>
+
+        <!-- Carte Régionale Dédiée -->
+        <div id="civilisation-map-overlay">
+          <img id="civilisation-map-img" src="" alt="Carte régionale" />
+          <div class="map-atmospheric-glow"></div>
+        </div>
+      </div>
+
+      <!-- CARTOUCHE LATÉRAL GAUCHE -->
+      <aside id="hover-sidebar-card" class="pos-left">
+        <button class="btn-close-sidebar" id="btn-close-sidebar" title="Fermer la fiche">&times;</button>
+        <div class="sidebar-scrollable-body">
+          <div class="hover-card-era" id="sidebar-era">Époque</div>
+          <div class="hover-card-title" id="sidebar-title">Civilisation</div>
+          
+          <div class="hover-banner-frame" id="sidebar-banner-box">
+            <img id="sidebar-banner-img" src="" alt="Bandeau de la civilisation" loading="lazy" />
+          </div>
+
+          <div class="hover-card-desc" id="sidebar-desc">Notice muséographique...</div>
+          <div id="sidebar-album-grid" class="sidebar-album-grid"></div>
+        </div>
+        
+        <div class="sidebar-footer-action">
+          <button class="btn-enter-civ-map" id="btn-enter-civ">
+            Explorer la carte régionale ➔
+          </button>
+        </div>
+      </aside>
+
+      <!-- CARTOUCHE LATÉRAL DROIT : ET PENDANT CE TEMPS-LÀ... -->
+      <aside id="concurrent-sidebar-card">
+        <div class="sidebar-scrollable-body">
+          <div class="hover-card-era">Contexte Mondial Synchrone</div>
+          <div class="hover-card-title">Et pendant ce temps-là...</div>
+          <div class="hover-card-desc" id="concurrent-desc">Chargement du contexte mondial...</div>
+        </div>
+      </aside>
+    </main>
+
+    <!-- FRISES AU BAS DE L'ÉCRAN -->
+    <footer id="timeline-dock">
+      <div id="sub-timeline-drawer">
+        <div class="drawer-info-strip">
+          <span class="drawer-civ-tag" id="drawer-civ-name">CHRONOLOGIE DÉPLOYÉE</span>
+          <button class="btn-close-sub" id="btn-close-drawer">← Revenir à la Carte Globale</button>
+        </div>
+        <div id="sub-stream-scroll"></div>
+      </div>
+
+      <div id="master-timeline-bar">
+        <div id="ruler-scale-bar">
+          <div id="ruler-ticks-track"></div>
+          <div id="ruler-events-layer"></div>
+        </div>
+
+        <div class="master-hint-strip">
+          <div class="milestones-legend">
+            <span class="legend-chip"><span class="legend-dot dot-gold"></span> Chantier / Politique</span>
+            <span class="legend-chip"><span class="legend-dot dot-tech"></span> Invention / Technique</span>
+            <span class="legend-chip"><span class="legend-dot dot-war"></span> Conquête / Bataille</span>
+            <span class="legend-chip"><span class="legend-dot dot-disaster"></span> Cataclysme</span>
+          </div>
+          <span>◄ -3500 av. J.-C. | +1500 ap. J.-C. ►</span>
+        </div>
+
+        <div id="sync-cursor-line">
+          <div id="sync-bubble-tag">-300 av. J.-C.</div>
+        </div>
+
+        <div id="timeline-split-wrapper">
+          <div id="timeline-labels-column">
+            <div class="lane-fixed-label" data-lane="europe_ouest">Gaule &amp; Europe Celte</div>
+            <div class="lane-fixed-label" data-lane="atlantique">Atlantique &amp; Canaries</div>
+            <div class="lane-fixed-label" data-lane="egee">Monde Égéen &amp; Grèce</div>
+            <div class="lane-fixed-label" data-lane="chypre">Chypre &amp; Méditerranée or.</div>
+            <div class="lane-fixed-label" data-lane="syrie">Levant &amp; Syrie</div>
+            <div class="lane-fixed-label" data-lane="egypte">Égypte &amp; Nubie</div>
+            <div class="lane-fixed-label" data-lane="mesopotamie">Mésopotamie</div>
+            <div class="lane-fixed-label" data-lane="anatolie">Anatolie &amp; Caucase</div>
+          </div>
+
+          <div id="master-drag-container">
+            <div id="master-ribbon">
+              <div class="timeline-lane" data-lane="europe_ouest"></div>
+              <div class="timeline-lane" data-lane="atlantique"></div>
+              <div class="timeline-lane" data-lane="egee"></div>
+              <div class="timeline-lane" data-lane="chypre"></div>
+              <div class="timeline-lane" data-lane="syrie"></div>
+              <div class="timeline-lane" data-lane="egypte"></div>
+              <div class="timeline-lane" data-lane="mesopotamie"></div>
+              <div class="timeline-lane" data-lane="anatolie"></div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </footer>
+    </footer>
+  </section>
 
+  <!-- INFO-BULLE DES ÉVÉNEMENTS HISTORIQUES -->
   <div id="milestone-tooltip" class="milestone-tooltip">
     <div class="milestone-badge" id="milestone-type">REPÈRE HISTORIQUE</div>
     <div class="milestone-year" id="milestone-year">-2560 av. J.-C.</div>
@@ -163,6 +252,7 @@
     <div class="milestone-desc" id="milestone-desc">Description...</div>
   </div>
 
+  <!-- MODALE UNIFIÉE D'EXPOSITION MUSÉALE (UTILISÉE PAR LA FRISE ET LE MOTEUR) -->
   <div id="curator-modal">
     <div class="curator-frame">
       <button class="btn-dismiss-modal" id="btn-modal-close">&times;</button>
@@ -189,6 +279,11 @@
     </div>
   </div>
 
-  <script src="copieapp.js"></script>
+  <!-- CHARGEMENT DES DONNÉES AU KILOMÈTRE (AJOUTE DATA-OBJETS2.JS QUAND TU VEUX) -->
+  <script src="data/data-objets.js"></script>
+  <!-- <script src="data/data-objets2.js"></script> -->
+
+  <!-- SCRIPT MAÎTRE -->
+  <script src="app.js"></script>
 </body>
 </html>
