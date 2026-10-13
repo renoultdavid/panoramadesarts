@@ -126,7 +126,10 @@
 
       <div class="filter-status-row">
         <div class="results-counter">
-          Résultats trouvés : <strong id="search-count">0</strong> objet(s)
+          Résultats filtrés : <strong id="search-count">0</strong>
+        </div>
+        <div class="total-collection-counter">
+          TOTAL COLLECTION : <strong id="total-objects-count">0</strong> OBJETS
         </div>
         <button id="btn-reset-filters" class="btn-filter-reset">Réinitialiser les filtres</button>
       </div>
@@ -271,6 +274,14 @@
 
   <!-- MODALE UNIFIÉE D'EXPOSITION MUSÉALE (UTILISÉE PAR LA FRISE ET LE MOTEUR) -->
   <div id="curator-modal">
+    <!-- Flèches de navigation Précédent / Suivant -->
+    <button class="modal-nav-arrow arrow-prev" id="btn-modal-prev" title="Objet précédent">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
+    </button>
+    <button class="modal-nav-arrow arrow-next" id="btn-modal-next" title="Objet suivant">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+    </button>
+
     <div class="curator-frame">
       <button class="btn-dismiss-modal" id="btn-modal-close">&times;</button>
       <div id="modal-dept-banner-box" class="modal-dept-banner-box">
