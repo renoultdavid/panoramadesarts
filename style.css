@@ -31,7 +31,7 @@ body {
   color: var(--text-bright);
   font-family: 'Cormorant Garamond', Georgia, serif;
   height: 100vh;
-  height: 100dvh; /* S'adapte exactement à la hauteur utile avec la barre d'onglets Safari */
+  height: 100dvh;
   width: 100vw;
   overflow: hidden;
   display: flex;
@@ -49,14 +49,36 @@ body {
   z-index: 50;
   background: #050608;
   border-bottom: 1px solid rgba(212, 175, 55, 0.15);
-  flex-shrink: 0 !important; /* Empêche le header de s'écraser */
+  flex-shrink: 0 !important;
 }
-
 
 .museum-insignia {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   gap: 16px;
+}
+
+.btn-header-nav {
+  background: rgba(18, 22, 30, 0.9);
+  border: 1px solid rgba(212, 175, 55, 0.4);
+  color: var(--gold-pale);
+  font-family: 'Cinzel', serif;
+  font-size: 0.68rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.25s ease;
+}
+
+.btn-header-nav:hover {
+  background: rgba(212, 175, 55, 0.2);
+  color: #fff;
+  border-color: var(--gold-pure);
 }
 
 .insignia-title {
@@ -98,7 +120,341 @@ body {
   color: #fff;
 }
 
-/* SCÈNE CARTOGRAPHIQUE CENTRALE */
+/* =========================================================
+   ROUTAGE SPA : VUES D'ÉCRAN
+   ========================================================= */
+.spa-view {
+  flex: 1;
+  width: 100%;
+  height: calc(100vh - 48px);
+  height: calc(100dvh - 48px);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+.spa-view[hidden] {
+  display: none !important;
+}
+
+/* =========================================================
+   VUE 1 : PORTAIL À 2 VOLETS (STYLE NATURE)
+   ========================================================= */
+#view-hub {
+  display: flex;
+  flex-direction: row;
+}
+
+.portal-panel {
+  flex: 1;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  padding: 3rem 2.5rem;
+  transition: flex 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+  border-right: 1px solid rgba(212, 175, 55, 0.2);
+}
+
+.portal-panel:last-child {
+  border-right: none;
+}
+
+.portal-panel:hover {
+  flex: 1.15;
+}
+
+.portal-panel-bg {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.4) contrast(1.1);
+  transition: transform 0.8s cubic-bezier(0.22, 1, 0.36, 1), filter 0.8s ease;
+  z-index: 1;
+}
+
+.bg-search {
+  background-image: radial-gradient(circle at center, rgba(14, 17, 24, 0.3) 0%, rgba(5, 6, 8, 0.95) 90%), url('https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0');
+}
+
+.bg-timeline {
+  background-image: radial-gradient(circle at center, rgba(14, 17, 24, 0.3) 0%, rgba(5, 6, 8, 0.95) 90%), url('https://lh3.googleusercontent.com/d/1QyvVo3lL18FPcqzLgR9qvyaHY5F63Spk');
+}
+
+.portal-panel:hover .portal-panel-bg {
+  transform: scale(1.05);
+  filter: brightness(0.65) contrast(1.15);
+}
+
+.portal-panel-content {
+  position: relative;
+  z-index: 2;
+  max-width: 480px;
+  background: rgba(10, 13, 18, 0.82);
+  backdrop-filter: blur(20px);
+  padding: 1.8rem;
+  border-radius: 4px;
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.9);
+  transition: transform 0.4s ease, border-color 0.4s ease;
+}
+
+.portal-panel:hover .portal-panel-content {
+  border-color: var(--gold-pure);
+  transform: translateY(-4px);
+  box-shadow: 0 25px 60px rgba(0,0,0,0.95), 0 0 25px rgba(212, 175, 55, 0.2);
+}
+
+.portal-badge {
+  font-family: 'Cinzel', serif;
+  font-size: 0.65rem;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: var(--gold-pure);
+  display: block;
+  margin-bottom: 6px;
+}
+
+.portal-title {
+  font-family: 'Cinzel', serif;
+  font-size: 1.6rem;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+.portal-desc {
+  font-size: 0.92rem;
+  line-height: 1.55;
+  color: #c4cad8;
+  margin-bottom: 18px;
+}
+
+.portal-cta-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: linear-gradient(135deg, #d4af37, #997825);
+  color: #000;
+  font-family: 'Cinzel', serif;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding: 9px 18px;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+}
+
+/* =========================================================
+   VUE 2 : MOTEUR DE RECHERCHE & GALERIE (VOLET GAUCHE)
+   ========================================================= */
+.search-engine-bar {
+  background: rgba(14, 17, 24, 0.98);
+  border-bottom: 1px solid rgba(212, 175, 55, 0.25);
+  padding: 1rem 2rem;
+  flex-shrink: 0;
+  z-index: 10;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.8);
+}
+
+.filter-controls-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  margin-bottom: 12px;
+}
+
+.filter-field {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.filter-field label {
+  font-family: 'Cinzel', serif;
+  font-size: 0.65rem;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--gold-pale);
+}
+
+.filter-field select,
+.filter-field input {
+  background: #090c12;
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  color: var(--text-bright);
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 0.95rem;
+  padding: 6px 12px;
+  border-radius: 3px;
+  outline: none;
+  transition: all 0.25s ease;
+}
+
+.filter-field select:focus,
+.filter-field input:focus {
+  border-color: var(--gold-pure);
+  box-shadow: 0 0 10px rgba(212, 175, 55, 0.3);
+}
+
+.filter-status-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 8px;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.results-counter {
+  font-family: 'Cinzel', serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  color: var(--text-muted);
+}
+
+.results-counter strong {
+  color: var(--gold-pure);
+  font-size: 1rem;
+}
+
+.btn-filter-reset {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: var(--text-muted);
+  font-family: 'Cinzel', serif;
+  font-size: 0.66rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 4px 12px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.btn-filter-reset:hover {
+  border-color: var(--gold-pure);
+  color: #fff;
+}
+
+.search-gallery-container {
+  flex: 1;
+  overflow-y: auto;
+  padding: 1.5rem 2rem 3rem 2rem;
+  scrollbar-width: thin;
+  scrollbar-color: var(--gold-pure) rgba(10, 12, 17, 0.8);
+}
+
+.search-gallery-container::-webkit-scrollbar {
+  width: 6px;
+}
+.search-gallery-container::-webkit-scrollbar-thumb {
+  background: var(--gold-pure);
+  border-radius: 3px;
+}
+
+.search-gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  gap: 20px;
+}
+
+.gallery-card {
+  background: rgba(22, 26, 36, 0.8);
+  border: 1px solid rgba(212, 175, 55, 0.25);
+  border-radius: 4px;
+  overflow: hidden;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.7);
+}
+
+.gallery-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--gold-pure);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.9), 0 0 15px rgba(212, 175, 55, 0.25);
+}
+
+.gallery-card-pedestal {
+  width: 100%;
+  height: 180px;
+  background-color: var(--payne);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  box-shadow: inset 0 10px 20px rgba(0,0,0,0.5);
+}
+
+.gallery-card-pedestal img {
+  max-width: 86%;
+  max-height: 86%;
+  object-fit: contain;
+  filter: drop-shadow(0 6px 12px rgba(0,0,0,0.85));
+  transition: transform 0.4s ease;
+}
+
+.gallery-card:hover .gallery-card-pedestal img {
+  transform: scale(1.06);
+}
+
+.gallery-card-tag {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background: rgba(8, 10, 14, 0.85);
+  border: 1px solid var(--gold-pure);
+  color: var(--gold-pale);
+  font-family: 'Cinzel', serif;
+  font-size: 0.6rem;
+  letter-spacing: 1px;
+  padding: 2px 8px;
+  border-radius: 2px;
+}
+
+.gallery-card-body {
+  padding: 10px 12px 14px 12px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.gallery-card-civ {
+  font-family: 'Cinzel', serif;
+  font-size: 0.65rem;
+  color: var(--gold-pure);
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  margin-bottom: 2px;
+}
+
+.gallery-card-title {
+  font-family: 'Cinzel', serif;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.25;
+  margin-bottom: 6px;
+}
+
+.gallery-card-century {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+/* =========================================================
+   SCÈNE CARTOGRAPHIQUE CENTRALE (VUE TIMELINE)
+   ========================================================= */
 #map-viewport {
   flex: 1;
   min-height: 180px;
@@ -713,7 +1069,7 @@ body {
   display: flex;
   position: relative;
   overflow-x: hidden;
-  overflow-y: auto !important; /* L'unique ascenseur vertical pour tout le monde */
+  overflow-y: auto !important;
   scrollbar-width: thin;
   scrollbar-color: var(--gold-pure) rgba(10, 12, 17, 0.8);
   -webkit-overflow-scrolling: touch;
@@ -742,7 +1098,6 @@ body {
   padding-bottom: 12px;
 }
 
-
 .lane-fixed-label {
   height: 31px;
   min-height: 31px;
@@ -765,7 +1120,7 @@ body {
   flex: 1;
   cursor: grab;
   position: relative;
-  overflow: hidden; /* Récupère le confinement indispensable */
+  overflow: hidden;
   touch-action: pan-y;
 }
 
@@ -784,7 +1139,6 @@ body {
   padding-bottom: 12px;
 }
 
-
 .timeline-lane {
   position: relative;
   height: 31px;
@@ -794,8 +1148,6 @@ body {
   align-items: center;
   border-bottom: 1px solid rgba(212, 175, 55, 0.08);
 }
-
-
 
 .civ-timespan-block {
   position: absolute;
@@ -909,9 +1261,7 @@ body {
   color: #c4cad8;
 }
 
-/* =========================================================
-   MODALE D'EXPOSITION
-   ========================================================= */
+/* MODALE D'EXPOSITION */
 #curator-modal {
   position: fixed;
   inset: 0;
@@ -1171,29 +1521,41 @@ body {
   }
 }
 
-/* ==========================================================================
-   OPTIMISATION RESPONSIVE SPÉCIFIQUE IPAD & TABLETTES (Ratio 4/3 & écrans < 900px)
-   ========================================================================== */
+/* =========================================================
+   RESPONSIVE IPAD & PETITS ÉCRANS (< 850px)
+   ========================================================= */
 @media (max-height: 850px) {
-    #main-header {
+  #main-header {
     height: 42px;
     min-height: 42px;
     padding: 2px 1rem;
-    flex-shrink: 0 !important;
   }
 
-  
-  /* Laisse respirer la carte en haut */
+  .spa-view {
+    height: calc(100vh - 42px);
+    height: calc(100dvh - 42px);
+  }
+
+  .portal-panel {
+    padding: 1.5rem;
+  }
+
+  .portal-panel-content {
+    padding: 1.2rem;
+  }
+
+  .portal-title {
+    font-size: 1.25rem;
+  }
+
   #map-viewport {
     flex: 1 1 50% !important;
     min-height: 250px !important;
   }
 
-    /* Hauteur de la frise maîtresse ajustée pour caler les lignes sans coupure */
   #master-timeline-bar {
     height: 245px !important;
   }
-
 
   .lane-fixed-label, .timeline-lane {
     height: 24px !important;
@@ -1207,7 +1569,6 @@ body {
     font-size: 0.6rem !important;
   }
 
-  /* Tiroir déployé équilibré (ne compresse plus la carte) */
   #sub-timeline-drawer.open {
     height: 180px !important;
   }
@@ -1240,7 +1601,6 @@ body {
     font-size: 0.62rem !important;
   }
 
-  /* Cartouches latéraux adaptés à la hauteur utile */
   #hover-sidebar-card, #concurrent-sidebar-card {
     width: 320px !important;
     max-height: calc(100% - 1rem) !important;
