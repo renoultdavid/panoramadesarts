@@ -136,10 +136,18 @@
     </div>
 
     <!-- Mosaïque des vignettes -->
-    <div id="search-gallery-scroll" class="search-gallery-container">
-      <div id="search-gallery-grid" class="search-gallery-grid"></div>
-    </div>
-  </section>
+<div id="search-gallery-scroll" class="search-gallery-container">
+  <div id="search-gallery-grid" class="search-gallery-grid"></div>
+  
+  <!-- Bouton Pagination 60 par 60 -->
+  <div class="load-more-container" id="load-more-container" hidden>
+    <button id="btn-load-more" class="btn-load-more">
+      <span>Voir les œuvres suivantes</span>
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+    </button>
+  </div>
+</div>
+</section>
 
   <!-- =========================================================================
        VUE 3 : ATLAS ET FRISE SYNCHRONIQUE (TON MOTEUR EXISTANT)
