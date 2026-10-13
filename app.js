@@ -979,7 +979,7 @@ const modalNarrative = document.getElementById('modal-narrative-text');
 const btnModalClose = document.getElementById('btn-modal-close');
 const btnModalPrev = document.getElementById('btn-modal-prev');
 const btnModalNext = document.getElementById('btn-modal-next');
-const totalObjectsCount = document.getElementById('total-objects-count');
+
 
 let activeContextList = [];
 let currentArtIndex = 0;
