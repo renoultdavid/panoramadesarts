@@ -1678,3 +1678,61 @@ body {
   border-radius: 20px;
   pointer-events: none;
 }
+/* Grand compteur total */
+.total-collection-counter {
+  font-family: 'Cinzel', serif;
+  font-size: 0.85rem;
+  letter-spacing: 2px;
+  color: var(--text-muted);
+}
+
+.total-collection-counter strong {
+  font-size: 1.25rem;
+  color: var(--gold-pure);
+  font-weight: 900;
+  margin-left: 4px;
+}
+
+/* Flèches de navigation dans le pop-up */
+.modal-nav-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(14, 17, 24, 0.9);
+  border: 1px solid var(--gold-pure);
+  color: var(--gold-pale);
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 120;
+  transition: all 0.25s ease;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.8);
+}
+
+.modal-nav-arrow:hover {
+  background: rgba(212, 175, 55, 0.25);
+  color: #fff;
+  transform: translateY(-50%) scale(1.1);
+  box-shadow: 0 0 20px var(--gold-glow);
+}
+
+.modal-nav-arrow.arrow-prev {
+  left: 2rem;
+}
+
+.modal-nav-arrow.arrow-next {
+  right: 2rem;
+}
+
+@media (max-width: 900px) {
+  .modal-nav-arrow {
+    width: 38px;
+    height: 38px;
+  }
+  .modal-nav-arrow.arrow-prev { left: 0.5rem; }
+  .modal-nav-arrow.arrow-next { right: 0.5rem; }
+}
