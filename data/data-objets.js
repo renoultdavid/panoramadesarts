@@ -4,9 +4,24 @@
 window.ART_OBJECTS = window.ART_OBJECTS || [];
 
 window.ART_OBJECTS.push(
-  /* --------------------------------------------------------------------------
-     ÉGYPTE : ANCIEN EMPIRE & ÉPOQUE THINITE
-     -------------------------------------------------------------------------- */
+
+{
+    id: "figurines_caserones_canaries",
+    civId: "canaries",
+    civName: "Art Canarien (Autochtone)",
+    century: "IXe - XVe siècle",
+    title: "Figurines anthropomorphes de Caserones",
+    site: "Caserones (La Aldea de San Nicolás, Gran Canaria)",
+    category: "Terre cuite & Modelage",
+    themeLink: "https://photos.google.com/share/AF1QipOwPyxi1kZR99upRbCwV7EqcTxAKq16-jOtDDeEeuI_blfV8DNa1ggU6u3127sf3g?key=ck5BSW5yQlgtazlDZXB2b0Ftd0NMYUpiTWJZSGR3",
+    chips: ["IXe - XVe siècle", "Caserones", "Grande Canarie", "Modelage en argile"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczPMXQ5bdaPOWzGPKgmojy9gQSYDzQr93TrgXTQ3ulBClSb_4u-eo9o5d2eP27CZmeHhdd9nZHufR4NJsEJSzsCi50xpKQ0NV5ZbYrY2LJhEuIy6xtlDgObVak0xLhEDHgifE9G46BrjnehXFBFJLHHxQg=w1620-h688-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOA-wZImOeQBPE-bDiSYzw9SXg-00Ni9jkEYpkuv9iq43WjMU2n_PLu0aVyI_PkRB2nKabzchUxEyn6Ip8LDz0PIwk4bAB_j4tNkq2g0Lc9xyjOswdWYsTFpW3sGmRez0aeb6hxRyBHmEp3mcvL0RUWWQ=w1753-h1168-s-no-gm?authuser=0",
+    narrative: `<p>Cette notice présente deux figurines anthropomorphes en terre cuite issues du site archéologique de Caserones, situé à La Aldea de San Nicolás sur l'île de Grande Canarie. Ces pièces constituent des témoignages exceptionnels de la culture des anciens Canariens, les populations autochtones d'origine berbère qui occupaient l'archipel avant la conquête espagnole du XVe siècle. Le site de Caserones lui-même est l'un des établissements précoloniaux les plus vastes et complexes de l'île, caractérisé par ses structures circulaires en pierre sèche et sa riche production matérielle.</p>
+    <p>La première figurine, à gauche, se distingue par une forme cylindrique stylisée servant de corps, surmontée d'une tête aux traits marqués. Le visage présente des orbites oculaires et une bouche réalisées par de petites incisions circulaires ou des perforations, une technique typique de l'artisanat canarien qui privilégie l'expressivité à la précision anatomique. La seconde figurine, à droite, affiche une silhouette plus volumineuse et organique, évoquant peut-être la fertilité par l'accentuation des formes du tronc. La surface de la terre cuite présente une teinte rougeâtre naturelle, obtenue par la cuisson de l'argile locale riche en fer, sans trace apparente de glaçure ou de décorations peintes complexes.</p>
+    <p>D'un point de vue symbolique, ces objets, souvent qualifiés d'idoles dans la littérature archéologique, jouaient un rôle central dans la vie rituelle et spirituelle de la société. Bien que leur fonction exacte demeure sujette à interprétation, elles sont généralement associées à des cultes de la fécondité, à la protection du foyer ou à la représentation d'ancêtres divinisés. La diversité des formes observées à Caserones souligne une tradition artistique codifiée mais capable de variations individuelles, reflétant l'importance de la figurine en tant qu'objet de médiation entre le monde terrestre et le sacré.</p>`
+  },
+   
   {
     id: "plat_animaux_assouan",
     civId: "egypte_ancien",
