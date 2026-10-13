@@ -177,11 +177,13 @@ body {
 }
 
 .bg-search {
-  background-image: radial-gradient(circle at center, rgba(14, 17, 24, 0.2) 0%, rgba(5, 6, 8, 0.9) 90%), url('https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0');
+  background-image: radial-gradient(circle at center, rgba(14, 17, 24, 0.25) 0%, rgba(5, 6, 8, 0.92) 90%), url('https://lh3.googleusercontent.com/pw/AP1GczMAT50JMxUk9wZrLgtZzzmgLYblBV2omlc2kfnrISwvRrOXzPwb0zhlDEl46cUOnWQ0vkg-dQarHFX3L98jzvHvD-tekEWVlF5SOnJ7Em7czgXoWQkAD7stVTM4K1SxFets3MbY-cgsZ8dG1eL5kZb4xw=w1008-h1344-s-no-gm?authuser=0');
+  background-position: center 25%;
 }
 
 .bg-timeline {
-  background-image: radial-gradient(circle at center, rgba(14, 17, 24, 0.2) 0%, rgba(5, 6, 8, 0.9) 90%), url('https://lh3.googleusercontent.com/d/1QyvVo3lL18FPcqzLgR9qvyaHY5F63Spk');
+  background-image: radial-gradient(circle at center, rgba(14, 17, 24, 0.25) 0%, rgba(5, 6, 8, 0.92) 90%), url('https://lh3.googleusercontent.com/d/17yL13LMthgpe8R3Uuzx9kHevgMU6Oloj');
+  background-position: center center;
 }
 
 .portal-panel:hover .portal-panel-bg {
