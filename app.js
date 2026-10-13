@@ -1118,6 +1118,12 @@ const filterSort = document.getElementById('filter-sort');
 const btnReset = document.getElementById('btn-reset-filters');
 const searchCount = document.getElementById('search-count');
 const galleryGrid = document.getElementById('search-gallery-grid');
+const totalObjectsCount = document.getElementById('total-objects-count');
+const btnLoadMore = document.getElementById('btn-load-more');
+const loadMoreBox = document.getElementById('load-more-container');
+
+let currentRenderLimit = 60;
+const PAGE_CHUNK = 60;
 
 function initSearchEngine() {
   const catalog = window.ART_OBJECTS || [];
@@ -1127,11 +1133,11 @@ function initSearchEngine() {
   populateSelect(filterSiecle, [...new Set(catalog.map(o => o.century))].filter(Boolean));
   populateSelect(filterCat, [...new Set(catalog.map(o => o.category))].filter(Boolean));
 
-  filterCiv.addEventListener('change', renderSearchGallery);
-  filterSiecle.addEventListener('change', renderSearchGallery);
-  filterCat.addEventListener('change', renderSearchGallery);
-  filterText.addEventListener('input', renderSearchGallery);
-  if (filterSort) filterSort.addEventListener('change', renderSearchGallery);
+  filterCiv.addEventListener('change', () => { currentRenderLimit = PAGE_CHUNK; renderSearchGallery(); });
+  filterSiecle.addEventListener('change', () => { currentRenderLimit = PAGE_CHUNK; renderSearchGallery(); });
+  filterCat.addEventListener('change', () => { currentRenderLimit = PAGE_CHUNK; renderSearchGallery(); });
+  filterText.addEventListener('input', () => { currentRenderLimit = PAGE_CHUNK; renderSearchGallery(); });
+  if (filterSort) filterSort.addEventListener('change', () => { currentRenderLimit = PAGE_CHUNK; renderSearchGallery(); });
 
   btnReset.addEventListener('click', () => {
     filterCiv.value = '';
@@ -1139,11 +1145,20 @@ function initSearchEngine() {
     filterCat.value = '';
     filterText.value = '';
     if (filterSort) filterSort.value = 'recent';
+    currentRenderLimit = PAGE_CHUNK;
     renderSearchGallery();
   });
+
+  if (btnLoadMore) {
+    btnLoadMore.addEventListener('click', () => {
+      currentRenderLimit += PAGE_CHUNK;
+      renderSearchGallery();
+    });
+  }
 }
 
 function populateSelect(selectEl, valuesArray) {
+  if (!selectEl) return;
   valuesArray.sort((a, b) => a.localeCompare(b, 'fr', { numeric: true }));
   valuesArray.forEach(val => {
     const opt = document.createElement('option');
@@ -1160,7 +1175,8 @@ function renderSearchGallery() {
   const selectedCat = filterCat.value;
   const query = filterText.value.toLowerCase().trim();
 
-  const filtered = catalog.filter(item => {
+  // Index d'origine conservé : l'objet collé tout en haut a l'index 0
+  let filtered = catalog.map((item, idx) => ({ ...item, _idx: idx })).filter(item => {
     const matchCiv = !selectedCiv || item.civName === selectedCiv;
     const matchSiecle = !selectedSiecle || item.century === selectedSiecle;
     const matchCat = !selectedCat || item.category === selectedCat;
@@ -1177,17 +1193,21 @@ function renderSearchGallery() {
   } else if (sortMode === 'alpha-desc') {
     filtered.sort((a, b) => (b.title || '').localeCompare(a.title || '', 'fr'));
   } else if (sortMode === 'recent') {
-    // Ordre inverse d'insertion (le dernier poussé dans data-objets apparaît en premier)
-    filtered.reverse();
+    // Le premier objet déclaré dans le fichier apparaît en tête de liste
+    filtered.sort((a, b) => a._idx - b._idx);
   }
 
-  searchCount.textContent = filtered.length;
+  if (searchCount) searchCount.textContent = filtered.length;
   if (totalObjectsCount) {
-    totalObjectsCount.textContent = (window.ART_OBJECTS || []).length;
+    totalObjectsCount.textContent = catalog.length;
   }
+  if (!galleryGrid) return;
   galleryGrid.innerHTML = '';
 
-  filtered.forEach(art => {
+  // Découpage par tranche de 60
+  const itemsToDisplay = filtered.slice(0, currentRenderLimit);
+
+  itemsToDisplay.forEach(art => {
     const card = document.createElement('div');
     card.className = 'gallery-card';
 
@@ -1211,4 +1231,9 @@ function renderSearchGallery() {
 
     galleryGrid.appendChild(card);
   });
+
+  // Affichage du bouton Voir plus si le total dépasse la limite actuelle
+  if (loadMoreBox) {
+    loadMoreBox.hidden = currentRenderLimit >= filtered.length;
+  }
 }
