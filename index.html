@@ -25,10 +25,18 @@
   <!-- EN-TÊTE GLOBAL FIXE -->
   <header id="main-header">
     <div class="museum-insignia">
-      <button id="btn-back-hub" class="btn-header-nav" title="Retour au portail" hidden>
+      <!-- Accueil général du site -->
+      <a href="https://renoultdavid.github.io/accueil/" class="btn-header-nav" title="Accueil général du site">
         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
-        <span>Accueil</span>
+        <span>Portail</span>
+      </a>
+
+      <!-- Accueil interne (menu des 2 volets) -->
+      <button id="btn-back-hub" class="btn-header-nav" title="Retour au menu des deux volets" hidden>
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="3" width="7" height="18" rx="1"/><rect x="14" y="3" width="7" height="18" rx="1"/></svg>
+        <span>Hub</span>
       </button>
+
       <div class="insignia-title">Atlas Visuel des Arts</div>
       <div class="insignia-sub" id="insignia-subtitle">Portail & Archives Photographiques</div>
     </div>
@@ -279,13 +287,15 @@
           <h2 class="modal-headline" id="modal-artwork-title">Titre de l'Œuvre</h2>
           <div class="modal-chips-row" id="modal-chips-container"></div>
           <div class="modal-narrative" id="modal-narrative-text">Notice détaillée...</div>
-          <a href="#" target="_blank" rel="noopener noreferrer" class="btn-gold-link" id="modal-album-btn">
-            Explorer la collection
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-          </a>
         </div>
       </div>
     </div>
+  </div>
+
+  <!-- LIGHTBOX PLEIN ÉCRAN POUR L'IMAGE SEULE -->
+  <div id="artwork-lightbox-zoom" class="artwork-lightbox" hidden>
+    <img id="artwork-lightbox-img" src="" alt="Agrandissement de l'œuvre" />
+    <div class="lightbox-hint">Cliquez sur l'image pour revenir à la fiche</div>
   </div>
 
   <!-- CHARGEMENT DES DONNÉES AU KILOMÈTRE (AJOUTE DATA-OBJETS2.JS QUAND TU VEUX) -->
