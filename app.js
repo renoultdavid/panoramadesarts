@@ -823,6 +823,7 @@ const filterCiv = document.getElementById('filter-civ');
 const filterSiecle = document.getElementById('filter-siecle');
 const filterCat = document.getElementById('filter-cat');
 const filterText = document.getElementById('filter-text');
+const filterSort = document.getElementById('filter-sort');
 const btnReset = document.getElementById('btn-reset-filters');
 const searchCount = document.getElementById('search-count');
 const galleryGrid = document.getElementById('search-gallery-grid');
@@ -839,12 +840,14 @@ function initSearchEngine() {
   filterSiecle.addEventListener('change', renderSearchGallery);
   filterCat.addEventListener('change', renderSearchGallery);
   filterText.addEventListener('input', renderSearchGallery);
+  if (filterSort) filterSort.addEventListener('change', renderSearchGallery);
 
   btnReset.addEventListener('click', () => {
     filterCiv.value = '';
     filterSiecle.value = '';
     filterCat.value = '';
     filterText.value = '';
+    if (filterSort) filterSort.value = 'recent';
     renderSearchGallery();
   });
 }
@@ -876,6 +879,16 @@ function renderSearchGallery() {
       (item.chips && item.chips.some(c => c.toLowerCase().includes(query)));
     return matchCiv && matchSiecle && matchCat && matchText;
   });
+
+  const sortMode = filterSort ? filterSort.value : 'recent';
+  if (sortMode === 'alpha-asc') {
+    filtered.sort((a, b) => (a.title || '').localeCompare(b.title || '', 'fr'));
+  } else if (sortMode === 'alpha-desc') {
+    filtered.sort((a, b) => (b.title || '').localeCompare(a.title || '', 'fr'));
+  } else if (sortMode === 'recent') {
+    // Ordre inverse d'insertion (le dernier poussé dans data-objets apparaît en premier)
+    filtered.reverse();
+  }
 
   searchCount.textContent = filtered.length;
   galleryGrid.innerHTML = '';
