@@ -156,7 +156,7 @@ HISTORICAL_MILESTONES.forEach(m => {
 });
 
 /* ==========================================================================
-   REGISTRE INTÉGRAL DE TOUTES LES CIVILISATIONS (FRISES SYNCHRONES)
+   REGISTRE INTÉGRAL DES CIVILISATIONS (TEXTES COMPLETS & CONTEXTES MONDIAUX)
    ========================================================================== */
 const CIVILISATIONS_REGISTRY = [
   {
@@ -173,8 +173,30 @@ const CIVILISATIONS_REGISTRY = [
     bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
     mapOverlayUrl: "https://lh3.googleusercontent.com/d/1ziTqdTOIWmuthiEJmt735P207kfaB075",
     albumUrl: "https://photos.google.com",
-    presentationHtml: `<p><strong>L'aube de l'art pharaonique et l'âge des pyramides</strong><br>L’Ancien Empire égyptien (v. 2700-2200 av. J.-C., IIIe-VIe dynasties) s'impose comme une période d'apogée politique, artistique et théologique où s'affirme la puissance absolue du pharaon.</p>`,
-    concurrentHtml: `<p><strong>Le contexte mondial au IIIe millénaire av. J.-C.</strong><br>En Mésopotamie, la période des dynasties archaïques voit s'épanouir les cités-États sumériennes rivales (Ur, Uruk, Lagash).</p>`,
+    presentationHtml: `
+      <p><strong>L'aube de l'art pharaonique et l'âge des pyramides</strong><br>
+      L’Ancien Empire égyptien (v. 2700-2200 av. J.-C., IIIe-VIe dynasties), souvent qualifié d'« âge des pyramides », s'impose comme une période d'apogée politique, artistique et théologique où s'affirme la puissance absolue du pharaon, considéré comme un dieu vivant garant de l'ordre cosmique (la Maât).</p>
+      <p>Dans le domaine architectural, cette époque inaugure le passage monumental de la pierre avec la construction des complexes funéraires royaux, depuis la pyramide à degrés de Djéser à Saqqarah imaginée par Imhotep jusqu'aux chefs-d'œuvre géométriques parfaits du plateau de Gizeh (Khéops, Khéphren, Mykérinos).</p>
+      <p>Ces complexes associent temples hauts, temples de vallée et chaussées montantes, symbolisant l'ascension solaire du souverain défunt et incarnant la maîtrise absolue d'une main-d'œuvre centralisée et organisée.</p>
+      <p>La statuaire royale et aristocratique de l'Ancien Empire se caractérise par une hiératisme majestueux, une géométrie rigoureuse et une recherche de l'éternité, façonnée dans des roches dures et résistantes comme le diorite, le schiste ou le calcaire peint.</p>
+      <p>Les figures royales trônent avec une impassibilité sereine, tandis que la statuaire privée — illustrée par des chefs-d'œuvre comme le Scribe accroupi ou le couple de Rahhotep et Nofret — introduit un réalisme saisissant et individualisé, notamment à travers l'incrustation de pierres et de cristal pour les yeux.</p>
+      <p>Les parois des mastabas et des tombes de dignitaires se couvrent de bas-reliefs et de peintures d'une finesse exquise, célébrant la vie quotidienne, la faune, la flore et les offrandes agricoles pour nourrir éternellement le Ka du défunt.</p>
+      <p>L'art de l'Ancien Empire fixe ainsi les canons fondamentaux de la plastique égyptienne pour les trois millénaires suivants, alliant la rigueur proportionnelle du quadrillage à une spiritualité profondément ancrée dans l'immortalité.</p>
+    `,
+    concurrentHtml: `
+      <p><strong>Le contexte mondial au IIIe millénaire av. J.-C.</strong></p>
+      <p>Pendant que l'Égypte bâtit ses pyramides, les autres grands foyers civilisationnels du globe connaissent des transformations historiques et culturelles majeures au cours du IIIe millénaire av. J.-C.</p>
+      <p><strong>Mésopotamie : cités-États et ziggurats</strong><br>
+      En Mésopotamie, la période des dynasties archaïques voit s'épanouir les cités-États sumériennes rivales (Ur, Uruk, Lagash), berceau de l'écriture cunéiforme sur tablettes d'argile, de l'épopée de Gilgamesh et de l'architecture monumentale des ziggurats dédiées aux dieux tutélaires.</p>
+      <p><strong>Renaissance sumérienne : l'empire d'Ur III</strong><br>
+      Cette effervescence sumérienne culmine avec la Renaissance d'Ur (Ur III) vers la fin du millénaire, instaurant une administration centralisée et un renouveau littéraire et artistique remarquable.</p>
+      <p><strong>Vallée de l'Indus : l'urbanisme harappien</strong><br>
+      Dans la vallée de l'Indus, l'âge du bronze voit les prémices puis l'épanouissement de la civilisation harappienne, caractérisée par une planification urbaine novatrice, des systèmes d'évacuation d'eau et un commerce fluvial intense avec le Golfe persique.</p>
+      <p><strong>Chine néolithique : la culture de Longshan</strong><br>
+      En Chine, les cultures néolithiques tardives de Longshan se structurent autour de chefferies de plus en plus hiérarchisées, développant une céramique noire ultra-fine et jetant les bases des techniques métallurgiques qui aboutiront aux premières dynasties.</p>
+      <p><strong>Mer Égée : Cyclades et Crète minoenne</strong><br>
+      Enfin, dans la mer Égée, les civilisations cycladique et minoenne amorcent leurs premiers grands réseaux commerciaux maritimes et développent une culture métallurgique et artistique originale qui commence à structurer le bassin égéen.</p>
+    `,
     themeAlbums: [
       { label: "👑 Statuaire royale", url: "https://photos.google.com" },
       { label: "🗿 Statuaire privée", url: "https://photos.google.com" },
@@ -197,9 +219,34 @@ const CIVILISATIONS_REGISTRY = [
     bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
     mapOverlayUrl: "https://lh3.googleusercontent.com/d/156Ms6-I_hZFV20g8jtGYjhw_Pd7yUTf0",
     albumUrl: "https://photos.google.com",
-    presentationHtml: `<p><strong>Le classicisme et l'art introspectif</strong><br>Le Moyen Empire s'affirme par une sensibilité psychologique nouvelle dans la statuaire royale.</p>`,
-    concurrentHtml: `<p><strong>Le contexte mondial au IIe millénaire av. J.-C.</strong><br>En Mésopotamie, essor de l'Empire babylonien sous le règne de Hammurabi.</p>`,
-    themeAlbums: [],
+    presentationHtml: `
+      <p><strong>L'Ancien Empire égyptien : l'âge des pyramides</strong><br>
+      L’Ancien Empire égyptien (v. 2700-2200 av. J.-C., IIIe-VIe dynasties), souvent qualifié d'« âge des pyramides », s'impose comme une période d'apogée politique, artistique et théologique où s'affirme la puissance absolue du pharaon, considéré comme un dieu vivant garant de l'ordre cosmique (la Maât).</p>
+      <p>Dans le domaine architectural, cette époque inaugure le passage monumental de la pierre avec la construction des complexes funéraires royaux, depuis la pyramide à degrés de Djéser à Saqqarah imaginée par Imhotep jusqu'aux chefs-d'œuvre géométriques parfaits du plateau de Gizeh (Khéops, Khéphren, Mykérinos).</p>
+      <p>Ces complexes associent temples hauts, temples de vallée et chaussées montantes, symbolisant l'ascension solaire du souverain défunt et incarnant la maîtrise absolue d'une main-d'œuvre centralisée et organisée.</p>
+      <p>La statuaire royale et aristocratique de l'Ancien Empire se caractérise par une hiératisme majestueux, une géométrie rigoureuse et une recherche de l'éternité, façonnée dans des roches dures et résistantes comme le diorite, le schiste ou le calcaire peint.</p>
+      <p>Les figures royales trônent avec une impassibilité sereine, tandis que la statuaire privée — illustrée par des chefs-d'œuvre comme le Scribe accroupi ou le couple de Rahhotep et Nofret — introduit un réalisme saisissant et individualisé, notamment à travers l'incrustation de pierres et de cristal pour les yeux.</p>
+      <p>Les parois des mastabas et des tombes de dignitaires se couvrent de bas-reliefs et de peintures d'une finesse exquise, célébrant la vie quotidienne, la faune, la flore et les offrandes agricoles pour nourrir éternellement le Ka du défunt.</p>
+      <p>L'art de l'Ancien Empire fixe ainsi les canons fondamentaux de la plastique égyptienne pour les trois millénaires suivants, alliant la rigueur proportionnelle du quadrillage à une spiritualité profondément ancrée dans l'immortalité.</p>
+    `,
+    concurrentHtml: `
+      <p><strong>Le contexte mondial au IIe millénaire av. J.-C.</strong></p>
+      <p>Pendant que l'Égypte du Moyen Empire s'épanouit dans cet art classique et introspectif, les autres grands foyers civilisationnels du globe traversent des mutations historiques et culturelles majeures au cours du IIe millénaire av. J.-C.</p>
+      <p><strong>Mésopotamie : Hammurabi et Babylone</strong><br>
+      En Mésopotamie, après la chute de la troisième dynastie d'Ur, la région se fragilise avant de voir l'émergence de l'Empire babylonien sous le règne de Hammurabi, célèbre pour son code de lois unifié gravé dans la pierre et l'essor de la diplomatie internationale.</p>
+      <p><strong>Vallée de l'Indus : transition urbaine</strong><br>
+      Dans la vallée de l'Indus, la civilisation harappienne commence sa lente transition et son déclin progressif, marqué par l'abandon des grandes métropoles urbaines et la mutation des réseaux d'échanges à longue distance vers l'Asie centrale.</p>
+      <p><strong>Chine : les bronzes rituels Shang</strong><br>
+      En Chine, la transition s'opère entre la fin de la culture de Longshan et l'affirmation des premières structures étatiques de la dynastie Shang, qui développent la coulée du bronze rituel et les premiers systèmes d'écriture divinatoire.</p>
+      <p><strong>Monde Égéen : l'âge d'or des palais crétois</strong><br>
+      Enfin, en mer Égée, la civilisation minoenne atteint son apogée palatial en Crète (premier et second âges des palais), développant le système d'écriture linéaire A, une thalassocratie maritime dominante et une production artistique foisonnante centrée sur les cultes de la nature.</p>
+    `,
+    themeAlbums: [
+      { label: "👑 Statuaire royale", url: "https://photos.google.com" },
+      { label: "🗿 Statuaire privée", url: "https://photos.google.com" },
+      { label: "⚱️ Mobilier funéraire", url: "https://photos.google.com" },
+      { label: "🏛️ Chambres & Tombes", url: "https://photos.google.com" }
+    ],
     artifacts: []
   },
   {
@@ -215,10 +262,37 @@ const CIVILISATIONS_REGISTRY = [
     haloId: "halo-egypte_nouvel",
     bannerImg: "https://lh3.googleusercontent.com/d/11hLJFFN1McLmLPGw1pf73r-LVI6VfhMp",
     mapOverlayUrl: "https://lh3.googleusercontent.com/d/1dr_LjQHujm-KXcT7uAuDrFnl9T13Zxu5",
-    albumUrl: "https://photos.google.com",
-    presentationHtml: `<p><strong>L'apogée impérial et la démesure monumentale</strong><br>L’art du Nouvel Empire consacre la gloire d'Amon-Rê à Louxor et Karnak.</p>`,
-    concurrentHtml: `<p>En Égée, l'hégémonie mycénienne s'impose fermement depuis ses citadelles fortifiées.</p>`,
-    themeAlbums: [],
+    albumUrl: "https://photos.google.com/share/AF1QipN3eyH-IXfJ5tzHs153uMFgtbiZ-T1UONLzfSVpPLodOXWcNGXYMeojYCDX7skI5w?key=dEpRSmZnTkVLb2FuOHJCbjRqZDhDZ1ZDNDhOVkhn",
+    presentationHtml: `
+      <p><strong>L'apogée impérial et la démesure monumentale</strong><br>
+      L’art du Nouvel Empire (v. 1550-1069 av. J.-C., XVIIIe-XXe dynasties) consacre l'apogée impérial et la démesure monumentale de la civilisation égyptienne, nourri par les dépouilles des conquêtes en Asie et en Nubie.</p>
+      <p><strong>Architecture religieuse et hypogées royaux</strong><br>
+      L'architecture religieuse se déploie à travers des sanctuaires colossaux comme Karnak et Louxor, dressant des forêts de colonnes papyriformes et des pylônes massifs pour glorifier Amon-Rê, tandis que les pharaons creusent leurs hypogées secrets dans la Vallée des Rois.</p>
+      <p><strong>Statuaire thébaine et rupture amarnienne</strong><br>
+      La statuaire royale et privée atteint une perfection plastique inouïe, bousculée par l'audace naturaliste de la parenthèse amarnienne d'Akhenaton, qui impose des silhouettes étirées et une sensibilité intimiste inédite.</p>
+      <p><strong>Arts funéraires et faste des cours</strong><br>
+      Les arts funéraires et somptuaires célèbrent le luxe absolu de l'élite à travers les fresques vibrantes des tombes thébaines et le mobilier en or massif et verre polychrome du trésor de Toutânkhamon.</p>
+    `,
+    concurrentHtml: `
+      <p><strong>Le contexte mondial au IIe millénaire av. J.-C.</strong></p>
+      <p>Tandis que Pharaon fait résonner la puissance thébaine sur les rives du Nil, les autres grandes puissances mondiales se livrent à une intense diplomatie et à des luttes d'influence au tournant du IIe millénaire av. J.-C.</p>
+      <p><strong>Proche-Orient : empires rivaux et lettres d'Amarna</strong><br>
+      Au Proche-Orient, les Hittites d'Anatolie, les Kassites babyloniens et les Mitanniens se partagent les zones d'influence syriennes, consignant leurs alliances dans les fameuses tablettes d'argile d'Amarna.</p>
+      <p><strong>Mer Égée : hégémonie mycénienne</strong><br>
+      Dans le bassin égéen, le monde mycénien domine fermement le continent grec depuis ses citadelles fortifiées, tout en s'emparant des réseaux commerciaux maritimes laissés vacants par le déclin progressif des palais crétois.</p>
+      <p><strong>Chine : cités fortifiées et bronzes des Shang</strong><br>
+      En Asie orientale, la dynastie chinoise des Shang érige de puissantes cités fortifiées le long du fleuve Jaune, où les bronziers maîtrisent à la perfection la fonte rituelle et confient le destin de l'État aux oracles tracés sur des carapaces de tortues.</p>
+    `,
+    themeAlbums: [
+      { label: "🏺 Céramiques", url: "https://photos.google.com/share/AF1QipMNQ5eY261NXOzCFawVXiW-1pbb7VG4opgoBxJ-TEVNd2BxJp52VopMR2q7kVBtHw?key=SHplem9jdFE2RnhCaXJIR1o4al9UMTI1UHhCc3NB" },
+      { label: "📜 Gravures & Reliefs", url: "https://photos.google.com/share/AF1QipNlo80I8xbcNGWKMI7dnnm5aPtALq8jpsRKJGGdAmNT2TnbEIrd0Y2isWehnlLwbg?key=S0kzelN6N1pyaTlZc21PeWtiOUN0bHZyckVMaGZB" },
+      { label: "🎨 Peintures", url: "https://photos.google.com/share/AF1QipMzaxBxEP6dd76u3_Ldl7cRgR0YQ5fFNegi5HUNy5E8VHUVEF7pPnAqhXLKYkbJ9w?key=V0kwcUlEVXFXQ0FLVFp5dXJEWklVMjhvWHFrUjZB" },
+      { label: "🏛️ Obélisques & Temples", url: "https://photos.google.com/share/AF1QipMD9gTlrGuj9Ng3NopZQQkswrc49JfmHJESKRZWFkm7AQaA5mCjFLZDXTDRQG-cVQ?key=SzhBc0ZNQzJIbFhCYWhkLThmU2FySURxaU11dWpB" },
+      { label: "🗿 Statuaire Royale", url: "https://photos.google.com/share/AF1QipN3eyH-IXfJ5tzHs153uMFgtbiZ-T1UONLzfSVpPLodOXWcNGXYMeojYCDX7skI5w?key=dEpRSmZnTkVLb2FuOHJCbjRqZDhDZ1ZDNDhOVkhn" },
+      { label: "🪦 Parois des Tombes", url: "https://photos.google.com/album/AF1QipMvAReo-M_8VZNBNi0XN9cnCCA3GdgpYxIN2gpd" },
+      { label: "💍 Bijoux & Quotidien", url: "https://photos.google.com/share/AF1QipMPvGsbKG1P6Ly3nEAZsXXysQgJw7e60mYpU3GLEzPTCykMr0iCgV31qU_k8JEt6g?key=dUlsQnlQdTh5elVReGU2T0ZaUEtsc0ljS3NZZjZB" },
+      { label: "⚰️ Funéraire & Momies", url: "https://photos.google.com/share/AF1QipMPZVPxixftA0xlCWDph7xd49UFkPFHE1yI8RvwsVn_IoUoWO5COMeS__ajWSqZeQ?key=N3RLMkZ0aEtYcFhUb3FLLTl6aXJicDBZM0JRSkJR" }
+    ],
     artifacts: []
   },
   {
@@ -234,10 +308,35 @@ const CIVILISATIONS_REGISTRY = [
     haloId: "halo-egypte_tardif",
     bannerImg: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
     mapOverlayUrl: "https://lh3.googleusercontent.com/d/1EjnwS0_C2N95iY8FGNrH7N7lHnEDPG57",
-    albumUrl: "https://photos.google.com",
-    presentationHtml: `<p><strong>L'ultime éclat millénaire</strong><br>Rencontre entre archaïsme saïte et cosmopolitisme alexandrin.</p>`,
-    concurrentHtml: `<p>L'Empire romain unifie l'ensemble du bassin méditerranéen.</p>`,
-    themeAlbums: [],
+    albumUrl: "https://photos.google.com/share/AF1QipN3eyH-IXfJ5tzHs153uMFgtbiZ-T1UONLzfSVpPLodOXWcNGXYMeojYCDX7skI5w?key=dEpRSmZnTkVLb2FuOHJCbjRqZDhDZ1ZDNDhOVkhn",
+    presentationHtml: `
+      <p><strong>L'ultime éclat millénaire et l'archaïsme saïte</strong><br>
+      L’Égypte tardive, ptolémaïque et romaine (v. 664 av. J.-C. – IVe siècle apr. J.-C.) clôt l'histoire millénaire des pharaons par une fascinante rencontre entre conservatisme sacré et hybridations culturelles, au fil des dominations perse, grecque puis romaine. La Basse Époque, initiée par la renaissance saïte (XXVIe dynastie), réagit aux fragmentations passées par un archaïsme délibéré. Sculpteurs et scribes réactivent les canons de l'Ancien et du Moyen Empire, sculptant des pierres dures (basalte, grauwacke) avec une perfection technique stupéfiante, tout en innovant à travers le « réalisme saïte » qui marque l'âge des défunts sur leurs portraits privés. L'essor spectaculaire des cultes d'animaux sacrés popularise également une production massive et raffinée de petits bronzes votifs.</p>
+      <p><strong>Le cosmopolitisme lagide et les grands chantiers du Sud</strong><br>
+      Avec l'avènement des Lagides (période ptolémaïque), deux univers visuels coexistent. Dans la capitale cosmopolite d'Alexandrie, le style hellénistique triomphe. Pourtant, dans la vallée du Nil, les monarques grecs se font couronner et représenter selon les codes pharaoniques traditionnels. C'est l'époque de chantiers monumentaux majeurs — Edfou, Denderah, Philæ, Kôm Ombo — où l'architecture religieuse déploie des colonnes aux chapiteaux composites foisonnants, des murs d'entrecolonnement et une profusion de reliefs gravés jusqu'aux plafonds astronomiques.</p>
+      <p><strong>La fusion gréco-romaine et les visages d'éternité du Fayoum</strong><br>
+      Sous la domination romaine, après la défaite de Cléopâtre VII en 30 av. J.-C., l'empereur assume à son tour l'habit rituel de pharaon sur les parois des temples. Mais la fusion artistique s'exprime surtout dans les rites funéraires privés de l'élite gréco-romaine : les bandelettes et sarcophages de tradition égyptienne intègrent désormais des masques en stuc italianisants ou les célèbres portraits du Fayoum, peints à l'encaustique ou à la détrempe, saisissants de vérité optique et d'expression vivante.</p>
+    `,
+    concurrentHtml: `
+      <p><strong>Le contexte mondial sous l'Empire romain</strong></p>
+      <p>Pendant que l'Égypte pharaonique livre ses derniers chefs-d'œuvre architecturaux sous le regard de Rome et des Ptolémées, le monde antique est le théâtre d'immenses basculements géopolitiques et culturels.</p>
+      <p><strong>Bassin méditerranéen : l'hégémonie de Rome</strong><br>
+      En Méditerranée, la République puis l'Empire romain unifient l'ensemble du bassin sous une même hégémonie, diffusant un art officiel classique, des réseaux routiers monumentaux et des structures urbaines standardisées de l'Hispanie jusqu'au Levant.</p>
+      <p><strong>Asie orientale : unification Qin et essor des Han</strong><br>
+      En Asie, la Chine est unifiée sous la poigne de fer de la dynastie Qin puis de la brillante dynastie Han, qui consolident la Grande Muraille, déploient la route de la soie vers l'Occident et développent une production artistique raffinée en jade, en laque et en céramique.</p>
+      <p><strong>Inde antique : l'ère des Mauryas et des Kouchans</strong><br>
+      En Inde, la période voit s'épanouir l'Empire maurya puis l'Empire kouchan, favorisant l'expansion du bouddhisme, l'érection des premiers stupas monumentaux richement sculptés (Sanchi) et l'émergence de l'art gréco-bouddhique du Gandhâra.</p>
+    `,
+    themeAlbums: [
+      { label: "🏺 Céramiques", url: "https://photos.google.com/share/AF1QipMNQ5eY261NXOzCFawVXiW-1pbb7VG4opgoBxJ-TEVNd2BxJp52VopMR2q7kVBtHw?key=SHplem9jdFE2RnhCaXJIR1o4al9UMTI1UHhCc3NB" },
+      { label: "📜 Gravures & Reliefs", url: "https://photos.google.com/share/AF1QipNlo80I8xbcNGWKMI7dnnm5aPtALq8jpsRKJGGdAmNT2TnbEIrd0Y2isWehnlLwbg?key=S0kzelN6N1pyaTlZc21PeWtiOUN0bHZyckVMaGZB" },
+      { label: "🎨 Peintures", url: "https://photos.google.com/share/AF1QipMzaxBxEP6dd76u3_Ldl7cRgR0YQ5fFNegi5HUNy5E8VHUVEF7pPnAqhXLKYkbJ9w?key=V0kwcUlEVXFXQ0FLVFp5dXJEWklVMjhvWHFrUjZB" },
+      { label: "🏛️ Obélisques & Temples", url: "https://photos.google.com/share/AF1QipMD9gTlrGuj9Ng3NopZQQkswrc49JfmHJESKRZWFkm7AQaA5mCjFLZDXTDRQG-cVQ?key=SzhBc0ZNQzJIbFhCYWhkLThmU2FySURxaU11dWpB" },
+      { label: "🗿 Statuaire Royale", url: "https://photos.google.com/share/AF1QipN3eyH-IXfJ5tzHs153uMFgtbiZ-T1UONLzfSVpPLodOXWcNGXYMeojYCDX7skI5w?key=dEpRSmZnTkVLb2FuOHJCbjRqZDhDZ1ZDNDhOVkhn" },
+      { label: "🪦 Parois des Tombes", url: "https://photos.google.com/album/AF1QipMvAReo-M_8VZNBNi0XN9cnCCA3GdgpYxIN2gpd" },
+      { label: "💍 Bijoux & Quotidien", url: "https://photos.google.com/share/AF1QipMPvGsbKG1P6Ly3nEAZsXXysQgJw7e60mYpU3GLEzPTCykMr0iCgV31qU_k8JEt6g?key=dUlsQnlQdTh5elVReGU2T0ZaUEtsc0ljS3NZZjZB" },
+      { label: "⚰️ Funéraire & Momies", url: "https://photos.google.com/share/AF1QipMPZVPxixftA0xlCWDph7xd49UFkPFHE1yI8RvwsVn_IoUoWO5COMeS__ajWSqZeQ?key=N3RLMkZ0aEtYcFhUb3FLLTl6aXJicDBZM0JRSkJR" }
+    ],
     artifacts: []
   },
   {
@@ -253,10 +352,34 @@ const CIVILISATIONS_REGISTRY = [
     haloId: "halo-mycenes",
     bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczPGPVemkhHQo3zxMthmyW5DikiQpTTsrv0U4LJ6UISDDrZFy45mQdZos6Gg-E4RKWIGenvHZ5uO_yxvfo1sBV0PTvktEP3l9BvBL1sJZAsYp0aet3LLJGPtq0F7QuWv4QGE5UTOKuwIeuLwFZ-IOW6bFg=w1980-h841-s-no-gm?authuser=0",
     mapOverlayUrl: "https://lh3.googleusercontent.com/d/10gH81IQljJs7i2rFEQK_O6hqRJlt5y4j",
-    albumUrl: "https://photos.google.com",
-    presentationHtml: `<p><strong>Puissance martiale et architecture cyclopéenne</strong><br>L’art des citadelles fortifiées et du Trésor d'Atrée.</p>`,
-    concurrentHtml: `<p>En Chine, les bronzes Shang structurent le pouvoir de la dynastie.</p>`,
-    themeAlbums: [],
+    albumUrl: "https://photos.google.com/share/AF1QipMnn_CMAHk2s1w8_h2RauhjNNCt21MFWbRDPmz1Iwj3H9ZqQAAsXTaBKylKpOq-lg?key=SHZuTHVkNW9YZ2xleTl3bTZickotQWVsSnpSZkF3",
+    presentationHtml: `
+      <p><strong>Puissance martiale et architecture cyclopéenne</strong><br>
+      L’art mycénien (v. 1600–1100 av. J.-C.) s'épanouit en Grèce continentale durant l'âge du Bronze récent, se caractérisant par une esthétique monumentale, guerrière et opulente, fortement influencée au début par la culture minoenne.</p>
+      <p>L'architecture civile et militaire s'impose par sa puissance cyclopéenne : les citadelles fortifiées de Mycènes, de Tirynthe et de Pylos dressent d'immenses murailles de blocs mégalithiques, percées de la célèbre Porte des Lionnes et abritant de vastes palais centrés sur la salle du trône ou mégaron.</p>
+      <p>L'architecture funéraire érige les impressionnantes tholos (ou « tombes à tholos »), vastes chambres souterraines couvertes d'une fausse voûte en encorbellement, dont le plus célèbre exemple est le monumental Trésor d'Atrée.</p>
+      <p>L'orfèvrerie et la dinanderie atteignent un faste exceptionnel, illustrées par les masques funéraires en or battu découverts dans les cercles de tombes, ainsi que par les magnifiques poignards damasquinés en bronze incrustés d'or, d'argent et de niellé représentant des scènes de chasse au lion.</p>
+      <p>La céramique évolue vers des formes robustes et stylisées, notamment les célèbres « vases à étrier » et les cratères de guerriers, qui témoignent d'un répertoire iconographique dominé par les chars de combat, les défilés militaires et les processions.</p>
+    `,
+    concurrentHtml: `
+      <p><strong>Le contexte mondial au IIe millénaire av. J.-C.</strong></p>
+      <p>Pendant que la Grèce mycénienne dresse ses citadelles cyclopéennes et ses tombes en tholos, les autres grands foyers civilisationnels du globe connaissent des mutations historiques et culturelles majeures au cours du IIe millénaire av. J.-C.</p>
+      <p><strong>Égypte pharaonique : l'apogée impérial</strong><br>
+      En Égypte, le Nouvel Empire atteint son apogée impérial sous les XVIIIe et XIXe dynasties, menant une politique d'expansion militaire agressive et érigeant les sanctuaires monumentaux de Karnak, Louxor et les hypogées de la Vallée des Rois.</p>
+      <p><strong>Proche-Orient & Mésopotamie : l'âge diplomatique</strong><br>
+      En Mésopotamie et au Proche-Orient, la période voit s'affronter et prospérer de grands empires rivaux — l'Empire hittite en Anatolie, les Kassites à Babylone et le royaume médio-assyrien —, connectés par un vaste réseau diplomatique scellé par les archives d'Amarna.</p>
+      <p><strong>Méditerranée orientale : Chypre et le cuivre</strong><br>
+      À Chypre, l'île s'affirme comme le carrefour incontournable du commerce méditerranéen du cuivre, développant une brillante civilisation urbaine portuaire et des productions céramiques originales.</p>
+      <p><strong>Asie orientale : l'âge du bronze des Shang</strong><br>
+      En Chine, la dynastie Shang consolide son pouvoir dans la vallée du Fleuve Jaune, perfectionnant à l'extrême la fonte des bronzes rituels et instaurant un système d'écriture logographique sur os oraculaires pour le culte des ancêtres.</p>
+    `,
+    themeAlbums: [
+      { label: "👑 Orfèvrerie & Trésors", url: "https://photos.google.com/share/AF1QipMnn_CMAHk2s1w8_h2RauhjNNCt21MFWbRDPmz1Iwj3H9ZqQAAsXTaBKylKpOq-lg?key=SHZuTHVkNW9YZ2xleTl3bTZickotQWVsSnpSZkF3" },
+      { label: "🏺 Céramiques & Rhytons", url: "https://photos.google.com/share/AF1QipMnn_CMAHk2s1w8_h2RauhjNNCt21MFWbRDPmz1Iwj3H9ZqQAAsXTaBKylKpOq-lg?key=SHZuTHVkNW9YZ2xleTl3bTZickotQWVsSnpSZkF3" },
+      { label: "⚱️ Mobilier funéraire", url: "https://photos.google.com/share/AF1QipMnn_CMAHk2s1w8_h2RauhjNNCt21MFWbRDPmz1Iwj3H9ZqQAAsXTaBKylKpOq-lg?key=SHZuTHVkNW9YZ2xleTl3bTZickotQWVsSnpSZkF3" },
+      { label: "🎨 Fresques & Peintures", url: "https://photos.google.com/share/AF1QipMnn_CMAHk2s1w8_h2RauhjNNCt21MFWbRDPmz1Iwj3H9ZqQAAsXTaBKylKpOq-lg?key=SHZuTHVkNW9YZ2xleTl3bTZickotQWVsSnpSZkF3" },
+      { label: "🕊️ Ex-voto & Figurines", url: "https://photos.google.com/share/AF1QipMnn_CMAHk2s1w8_h2RauhjNNCt21MFWbRDPmz1Iwj3H9ZqQAAsXTaBKylKpOq-lg?key=SHZuTHVkNW9YZ2xleTl3bTZickotQWVsSnpSZkF3" }
+    ],
     artifacts: []
   },
   {
@@ -272,10 +395,29 @@ const CIVILISATIONS_REGISTRY = [
     haloId: "halo-cyclades",
     bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczNMZRgR759mlxzzO63gKtVg2u437kEFSbomGP9HGmk8DelG-gh8gB9JNXi9bKBgrqsDkalszZLTbKwC5t0GJdWrMoEmqyl9V6L6d0f5GhGwYfTg6AqqP-C2stcjrj5Vn5Ba1SstoTv7f5_pyIccZFQq4g=w2209-h938-s-no-gm?authuser=0",
     mapOverlayUrl: "https://lh3.googleusercontent.com/d/11cdGX8oS_6Q_8BZaQ5gGjiREIFlKukA2",
-    albumUrl: "https://photos.google.com",
-    presentationHtml: `<p><strong>L’épure formelle et le marbre insulaire</strong><br>Idoles canoniques aux lignes modernes et géométriques.</p>`,
-    concurrentHtml: `<p>L'urbanisme harappien s'épanouit dans la vallée de l'Indus.</p>`,
-    themeAlbums: [],
+    albumUrl: "https://photos.google.com/share/AF1QipNJXU5aih6CKBSCrN4pP6P5l0AplswBz64lNNpyoV_8FhUrBnY4DVaQKdDXOysWHQ?key=cXFoM2gzaHZ1RnlyV3lVendpbmdFZ1RSYXRSTWtn",
+    presentationHtml: `
+      <p><strong>L’épure formelle et le modernisme abstrait des Cyclades</strong><br>
+      L’art cycladique s'épanouit au cœur de la mer Égée durant l'âge du Bronze ancien (v. 3200–2000 av. J.-C.), avant de subir l'influence croissante de la civilisation minoenne. Né de l'isolement maritime de cet archipel, il se distingue par une épure formelle et un modernisme abstrait qui fascinent encore aujourd'hui.</p>
+      <p>Le sommet de cette production artistique réside incontestable­ment dans la statuaire en marbre insulaire — les célèbres idoles cycladiques. Façonnées à partir de ce marbre blanc de Paros ou de Naxos abondant dans la région, ces figurines féminines stylisées, aux bras croisés sur le ventre et au profil effilé, réduisent le corps humain à des volumes géométriques purs, faits de triangles, de cylindres et de cercles.</p>
+      <p>À l'origine, ces sculptures n'étaient pas d'un blanc immaculé : elles étaient rehaussées de couleurs vives à base de pigments minéraux (azurite et cinabre), servant à dessiner les yeux, les colliers ou des motifs tribaux qui animaient leurs visages lisses et énigmatiques, souvent réduits à un simple appendice nasal.</p>
+      <p>Si la grande majorité de ces figurines représente des femmes enceintes ou stylisées, associées à des cultes de la fertilité ou à des rites funéraires, on trouve également des figures masculines plus rares, telles que des joueurs de harpe ou de flûte.</p>
+      <p>Aux côtés de cette statuaire, l'artisanat cycladique brille par sa maîtrise du travail de la pierre dure, illustrée par de superbes vases et palettes en marbre poli, ainsi que par une production de céramique originale, notamment les « poêles à frire » ornées de décors incisés de spirales et d'étoiles.</p>
+      <p>L'art cycladique s'impose ainsi comme l'une des expressions les plus épurées de l'art préhistorique méditerranéen, dont la radicalité plastique influencera profondément les sculpteurs modernes du XXe siècle comme Brancusi ou Modigliani.</p>
+    `,
+    concurrentHtml: `
+      <p><strong>Le contexte mondial aux IIIe et IIe millénaires av. J.-C.</strong></p>
+      <p>Durant l’âge du Bronze ancien et moyen (correspondant pour l'essentiel aux IIIe et IIe millénaires av. J.-C.), les grands foyers de civilisation mondiale connaissent des mutations majeures, façonnées par l'essor de l'urbanisation et la maîtrise de la métallurgie.</p>
+      <p>En Mésopotamie, après la période des cités-États sumériennes, Sargon d'Akkad fonde vers 2300 av. J.-C. le premier empire unifié de l'histoire, instaurant un modèle politique centralisé qui stimule le commerce à longue distance et l'écriture cunéiforme.</p>
+      <p>Plus à l'est, dans la vallée de l'Indus, s'épanouit entre 2600 et 1900 av. J.-C. la civilisation harappienne (villes de Harappa et Mohenjo-Daro), remarquable pour son urbanisme géométrique strict, ses réseaux d'égouts sophistiqués et son vaste réseau d'échanges marchands.</p>
+      <p>En Chine, la transition vers l'âge du bronze voit l'émergence des premières cultures étatiques de la vallée du fleuve Jaune, notamment la dynastie légendaire des Xia puis celle des Shang, caractérisées par le développement de rituels chamaniques et la maîtrise de la fonte du bronze.</p>
+      <p>Enfin, en Méditerranée orientale, la civilisation minoenne prend son essor en Crète dès la fin du IIIe millénaire, érigeant de grands palais labyrinthiques (Knossos, Phaistos) et développant une thalassocratie dynamique qui connecte les réseaux égéens, proche-orientaux et égyptiens.</p>
+    `,
+    themeAlbums: [
+      { label: "🗿 Statuaire & Marbre", url: "https://photos.google.com/share/AF1QipNJXU5aih6CKBSCrN4pP6P5l0AplswBz64lNNpyoV_8FhUrBnY4DVaQKdDXOysWHQ?key=cXFoM2gzaHZ1RnlyV3lVendpbmdFZ1RSYXRSTWtn" },
+      { label: "🎨 Fresques & Peintures", url: "https://photos.google.com/share/AF1QipNJXU5aih6CKBSCrN4pP6P5l0AplswBz64lNNpyoV_8FhUrBnY4DVaQKdDXOysWHQ?key=cXFoM2gzaHZ1RnlyV3lVendpbmdFZ1RSYXRSTWtn" },
+      { label: "🏺 Céramiques & Rituels", url: "https://photos.google.com/share/AF1QipNJXU5aih6CKBSCrN4pP6P5l0AplswBz64lNNpyoV_8FhUrBnY4DVaQKdDXOysWHQ?key=cXFoM2gzaHZ1RnlyV3lVendpbmdFZ1RSYXRSTWtn" }
+    ],
     artifacts: []
   },
   {
@@ -291,10 +433,27 @@ const CIVILISATIONS_REGISTRY = [
     haloId: "halo-crete",
     bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
     mapOverlayUrl: "https://lh3.googleusercontent.com/d/1-RyywCVU5Ct2McoKupe9Z2OnXrnDSJ9r",
-    albumUrl: "https://photos.google.com",
-    presentationHtml: `<p><strong>L’art de la grâce et du mouvement marin</strong><br>Palais ouverts de Knossos, style marin et déesses aux serpents.</p>`,
-    concurrentHtml: `<p>Les Hittites développent leur empire au cœur de l'Anatolie.</p>`,
-    themeAlbums: [],
+    albumUrl: "https://photos.google.com/share/AF1QipMlW4TQJ8A9qGbcmVyMNAsLLD3a9pwHTBsx-qcnMuuYdqlbjXgrrncpHaXoLLK0LA?key=LTdfMHQ4VHdhNmJ4WEI2bFRtU2xTaHpCeHM2bEZR",
+    presentationHtml: `
+      <p><strong>L’art de la Crète minoenne (v. 2600-1450 av. J.-C.)</strong><br>
+      L’art de la Crète minoenne (v. 2600-1450 av. J.-C.) s'épanouit au cœur de la mer Égée dans une esthétique de la grâce, du mouvement et de la communion avec la nature, loin de la monumentalité austère des empires continentaux.</p>
+      <p>L'architecture palatiale — illustrée par Cnossos, Phaistos ou Mallia — orchestre des complexes labyrinthiques ouverts, sans fortifications, articulés autour de vastes cours centrales et dotés de systèmes sophistiqués d'éclairage, de ventilation et d'adduction d'eau.</p>
+      <p>La peinture murale minoenne privilégie la fresque vibrante et naturaliste, où des figures élancées et gracieuses évoluent au milieu de paysages aquatiques et végétaux foisonnants, célébrant la faune marine, les jeux taurins et les processions rituelles.</p>
+      <p>La céramique évolue du style de Kamares, aux somptueux décors floraux polychromes sur fond noir, vers le style marin où poulpes, dauphins et coquillages enserrent les vases avec un dynamisme naturaliste saisissant.</p>
+      <p>La glyptique et la petite plastique en faïence ou en ivoire atteignent une virtuosité exceptionnelle, incarnée par les célèbres figurines de déesses aux serpents, traduisant une spiritualité profondément ancrée dans le culte de la nature et de la fertilité.</p>
+    `,
+    concurrentHtml: `
+      <p><strong>Le contexte mondial au milieu du IIe millénaire av. J.-C.</strong></p>
+      <p>Pendant que la Crète minoenne déploie son art palatial et maritime, les autres grands foyers civilisationnels du globe connaissent des mutations historiques et culturelles majeures au milieu du IIe millénaire av. J.-C.</p>
+      <p>En Égypte, le Nouvel Empire atteint son apogée sous les XVIIIe et XIXe dynasties, menant une politique d'expansion militaire agressive vers le Proche-Orient et édifiant les immenses complexes de Karnak, Louxor et la Vallée des Rois.</p>
+      <p>En Mésopotamie, le paysage politique est dominé par la rivalité entre les Kassites à Babylone, les Assyriens dans le nord et les Mitanniens, favorisant l'essor d'une diplomatie internationale documentée par les archives d'Amarna.</p>
+      <p>En Anatolie, l'Empire hittite s'affirme comme une grande puissance militaire redoutable, rivalisant avec l'Égypte pour le contrôle de la Syrie et innovant par l'utilisation intensive du char de combat et de la métallurgie du fer.</p>
+      <p>En Chine, la dynastie Shang consolide son hégémonie dans la vallée du Fleuve Jaune, perfectionnant le système d'écriture sur os oraculaires et érigeant de puissantes traditions artistiques fondées sur le bronze rituel et le chamanisme ancestral.</p>
+    `,
+    themeAlbums: [
+      { label: "🏺 Céramiques", url: "https://photos.google.com/share/AF1QipMlW4TQJ8A9qGbcmVyMNAsLLD3a9pwHTBsx-qcnMuuYdqlbjXgrrncpHaXoLLK0LA?key=LTdfMHQ4VHdhNmJ4WEI2bFRtU2xTaHpCeHM2bEZR" },
+      { label: "🏛️ Mobilier funéraire", url: "https://photos.google.com/share/AF1QipMlW4TQJ8A9qGbcmVyMNAsLLD3a9pwHTBsx-qcnMuuYdqlbjXgrrncpHaXoLLK0LA?key=LTdfMHQ4VHdhNmJ4WEI2bFRtU2xTaHpCeHM2bEZR" }
+    ],
     artifacts: []
   },
   {
@@ -311,9 +470,26 @@ const CIVILISATIONS_REGISTRY = [
     bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczNtlhntpxWY6u22Dj77CiZfXJnSfduTP1uXInNNl7THWXS5vseOikfKiRgcTsCjP2iVGO-jX924k9zAAUyZQhGX8luuSrh5eXc650LHXXMWEdLAl7o589lo_Rkk6Bo9UJYlo4iFAtBkaj6qhmzuUK5y_w=w2111-h896-s-no-gm?authuser=0",
     mapOverlayUrl: "https://lh3.googleusercontent.com/d/1QNkcnjOVZ9nSJxO2vXusVWgC04EmaUcO",
     albumUrl: "https://photos.google.com",
-    presentationHtml: `<p><strong>L'île du cuivre au carrefour méditerranéen</strong><br>Céramiques lustrées, vases zoomorphes et statuaire votive.</p>`,
-    concurrentHtml: `<p>Le Nouvel Empire égyptien commerce intensément avec les ports chypriotes.</p>`,
-    themeAlbums: [],
+    presentationHtml: `
+      <p><strong>L'île du cuivre au carrefour des mondes antiques</strong><br>
+      L’art chypriote de l'âge du Bronze (v. 2500–1050 av. J.-C.) s'épanouit au carrefour des influences méditerranéennes, profitant de la position stratégique de l'île et de ses immenses ressources en cuivre pour développer une esthétique originale et cosmopolite.</p>
+      <p>La céramique chypriote se distingue par des formes audacieuses et des techniques singulières, allant des vases zoomorphes et anthropomorphes de la période philaire jusqu'aux superbes décors géométriques et peints du style « Base-Ring » et « White Slip ».</p>
+      <p>L'orfèvrerie et le travail du bronze atteignent un sommet remarquable, illustrés par des poignards damasquinés, des lingots de cuivre en forme de peau de bœuf et des bijoux en or ouvragés qui témoignent d'un artisanat hautement qualifié.</p>
+      <p>La statuaire et les terres cuites locales, souvent associées à des rituels funéraires ou votifs, adoptent une stylisation épurée, mêlant des traditions égéennes, syriennes et anatoliennes.</p>
+      <p>L'architecture s'urbanise progressivement avec l'édification de centres portuaires et de cités-États fortifiées, comme Enkomi ou Kition, dotées d'imposantes constructions en pierre de taille et de sanctuaires dédiés au dieu du cuivre.</p>
+    `,
+    concurrentHtml: `
+      <p><strong>Le contexte mondial au IIe millénaire av. J.-C.</strong></p>
+      <p>Pendant que l'île de Chypre façonne son art du cuivre au carrefour des routes maritimes, les autres grands foyers civilisationnels du globe traversent des mutations historiques et culturelles majeures au cours du IIe millénaire av. J.-C.</p>
+      <p>En Égypte, le Nouvel Empire atteint son apogée impérial sous les XVIIIe et XIXe dynasties, étendant son influence de la Nubie jusqu'à l'Euphrate et bâtissant les sanctuaires monumentaux de Karnak, Louxor et les hypogées de la Vallée des Rois.</p>
+      <p>En Mésopotamie et au Proche-Orient, la période voit s'affronter et prospérer de grands empires rivaux — l'Empire hittite en Anatolie, les Kassites à Babylone et le royaume médio-assyrien —, connectés par un vaste réseau diplomatique scellé par les tablettes d'Amarna.</p>
+      <p>En mer Égée, la civilisation mycénienne succède aux Minoens, érigeant de puissantes citadelles fortifiées sur le continent grec (Mycènes, Tirynthe) avant de s'effondrer mystérieusement lors des bouleversements méditerranéens de la fin du millénaire.</p>
+      <p>En Chine, la dynastie Shang consolide son pouvoir dans la vallée du Fleuve Jaune, perfectionnant la fonte des grands bronzes rituels et instaurant un système d'écriture logographique sur os oraculaires pour le culte des ancêtres.</p>
+    `,
+    themeAlbums: [
+      { label: "🏺 Céramiques", url: "https://photos.google.com" },
+      { label: "🗿 Terres cuites", url: "https://photos.google.com" }
+    ],
     artifacts: []
   },
   {
@@ -330,9 +506,24 @@ const CIVILISATIONS_REGISTRY = [
     bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczOTpAuNPMicTn782_1Zjbxrq0HKHRKJG6AVI3MC5QV0sIgRxWd1KE3enIDaZ4vI7QiV5SLQ6pAzbtmog5AkOjGQTGt3u4cnSdiF9sW1VPzeXH1Md2FDvlYQR92Fv7MXvbsr0sYzoNpKZc4GHJfmENYp7w=w2111-h896-s-no-gm?authuser=0",
     mapOverlayUrl: "https://lh3.googleusercontent.com/d/1ZFqo_BVU5BBUN4mpNGlMeBOm91xXLtZt",
     albumUrl: "https://photos.google.com",
-    presentationHtml: `<p><strong>L'abstraction curviligne de La Tène</strong><br>Torques d'or, stèles armoricaines et céramiques cénomanes.</p>`,
-    concurrentHtml: `<p>En Grèce classique, construction du Parthénon à Athènes.</p>`,
-    themeAlbums: [],
+    presentationHtml: `
+      <p><strong>L'abstraction curviligne et la virtuosité guerrière</strong><br>
+      L'art celte de l'âge du Fer (v. 800–1er siècle av. J.-C., divisé entre les cultures de Hallstatt et de La Tène) s'affranchit des traditions géométriques pour donner naissance à un art abstrait, curviligne et hautement sophistiqué, porté par une aristocratie guerrière nomade et commerçante.</p>
+      <p>Durant la période de Hallstatt, l'art se structure autour de riches tombes princières où le travail du fer s'allie au bronze et à l'or, produisant des parures spectaculaires et de grandes situles en tôle rivetée ornées de frises animalières et de scènes de banquets.</p>
+      <p>Avec l'épanouissement de la civilisation de La Tène, l'art celte explose dans une esthétique exubérante marquée par le style végétal continu, les entrelacs serpentins, les motifs en « S » et les figures énigmatiques ou grimaçantes inspirées parfois du monde méditerranéen ou oriental.</p>
+      <p>L'orfèvrerie et l'armurerie atteignent un sommet absolu de virtuosité avec les torques en or massif ajouré, les fourreaux d'épées ciselés de fines gravures et les superbes casques d'apparat en bronze repoussé.</p>
+    `,
+    concurrentHtml: `
+      <p><strong>Le contexte mondial au Ier millénaire av. J.-C.</strong></p>
+      <p>Tandis que le monde celtique façonne ses somptueux parures et armes en fer à travers l'Europe tempérée, le reste du monde antique est le théâtre d'immenses bouleversements politiques et culturels.</p>
+      <p>En Méditerranée, la Grèce classique et hellénistique érige les chefs-d'œuvre de l'Acropole d'Athènes, invente le théâtre dramatique et voit les conquêtes fulgurantes d'Alexandre le Grand projeter la culture grecque jusqu'aux portes de l'Inde.</p>
+      <p>En Perse, l'immense Empire achéménide déploie sa puissance architecturale à Persépolis, avant de s'effondrer face aux phalanges macédoniennes, laissant place aux dynasties hellénistiques des Séleucides.</p>
+      <p>En Chine, la période tumultueuse des Royaumes combattants s'achève par l'unification impériale violente de la dynastie Qin, qui érige la première Grande Muraille et dote sa capitale souterraine de la célèbre armée de terre cuite de Xi'an.</p>
+    `,
+    themeAlbums: [
+      { label: "🗿 Sculptures & Stèles", url: "https://photos.google.com" },
+      { label: "🏺 Céramiques", url: "https://photos.google.com" }
+    ],
     artifacts: []
   },
   {
@@ -348,10 +539,28 @@ const CIVILISATIONS_REGISTRY = [
     haloId: "halo-celte_bronze",
     bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczNeGi9CeQnVZ0W8vPbx0jodOMhg6-U-KG1RWY5FKuhdbkyiT-iSkT_XR1V1NGGO9m3Us2LF_p2md8GdF4hAnaTp0Bf05pEXDuSPiBFtHM2FjgA2ZTxIDPJ_96SpfO-bGNnsO44jw8COUI9sW93SROp_kQ=w2599-h1103-s-no-gm?authuser=0",
     mapOverlayUrl: "https://lh3.googleusercontent.com/d/1gX2vOwXzj3jIMMvx2P5DAAQkjfkZ1anc",
-    albumUrl: "https://photos.google.com",
-    presentationHtml: `<p><strong>L'éveil métallurgique atlantique</strong><br>Dépôts de haches à talon, parures annulaires et chaudrons rituels.</p>`,
-    concurrentHtml: `<p>Épanouissement des citadelles de Mycènes et de Tirynthe en Grèce.</p>`,
-    themeAlbums: [],
+    albumUrl: "https://photos.google.com/share/AF1QipN2ccGraobqmNhsyQhn1XQYZmas-d6wNnWsUE7X6q_zzAIytbnOH6GGkVB_WU95AQ?key=Mkc1WGhlQmRIY1VpenkzMG1SNzdHczVWcjI4MGZ3",
+    presentationHtml: `
+      <p><strong>L'éveil métallurgique et la société guerrière</strong><br>
+      L'art celte de l'âge du Bronze (v. 2300-800 av. J.-C.) en Europe occidentale se caractérise par la maîtrise progressive de la métallurgie du cuivre, puis du bronze, marquant une transition majeure vers une société aristocratique et guerrière.</p>
+      <p><strong>Armes d'apparat et orfèvrerie atlantique</strong><br>
+      Les forgerons et artisans de cette période excellent dans la confection d'armes sophistiquées — épées à languette, lances et poignards — dont la pureté des lignes fonctionnelles traduit déjà une recherche esthétique très poussée. L'orfèvrerie atteint des sommets de raffinement avec la création de parures d'apparat en or natif ou en tôle de bronze repoussé, telles que les spectaculaires torques, les bracelets massifs et les colliers lunules caractéristiques de l'Europe atlantique.</p>
+      <p><strong>Symbolique cosmique et chaudrons rituels</strong><br>
+      Les objets du quotidien et les services rituels se parent de décors géométriques incisés, de lignes brisées, de chevrons et de motifs solaires ou concentriques, témoignant d'une symbolique cosmique profondément ancrée dans les rituels agraires et funéraires. L'art celte du Bronze se distingue également par la création des fameux « chaudrons » en bronze assemblés par rivets et des urnes cinéraires richement ornées, illustrant le rôle central de la vaisselle métallique dans les banquets funéraires des élites.</p>
+      <p><strong>Les fondations de Hallstatt et La Tène</strong><br>
+      Cette esthétique du métal précieux et de l'abstraction géométrique pose les bases stylistiques qui s'épanouiront pleinement à l'âge du Fer lors du développement des cultures de Hallstatt et de La Tène.</p>
+    `,
+    concurrentHtml: `
+      <p><strong>Le contexte mondial au IIe millénaire av. J.-C.</strong></p>
+      <p>Pendant que l'Europe atlantique et continentale développe sa métallurgie du bronze, les grands foyers civilisationnels de la planète connaissent des mutations historiques et culturelles profondes au cours du IIe millénaire av. J.-C.</p>
+      <p>Au Proche-Orient, la période est marquée par l'essor et la chute de grands empires rivaux : l'Empire hittite en Anatolie, qui introduit le fer et l'usage des chars de combat légers, la Babylonie sous le code de Hammurabi, et le Nouvel Empire égyptien qui étend son hégémonie jusqu'à l'Euphrate.</p>
+      <p>En Égée, la civilisation mycénienne succède aux Minoens, érigeant de puissantes citadelles fortifiées (Mycènes, Tirynthe) ornées de fresques guerrières et développant l'écriture linéaire B, avant de s'effondrer mystérieusement vers 1200 av. J.-C. lors des bouleversements des Peuples de la mer.</p>
+      <p>En Asie du Sud, la brillante civilisation de l'Indus s'éteint progressivement, supplantée par l'arrivée graduelle des populations indo-aryennes qui composent les premiers textes védiques et structurent la société en traditions orales et religieuses fondatrices.</p>
+      <p>En Chine, la dynastie Shang consolide son pouvoir dans la vallée du Fleuve Jaune, perfectionnant à l'extrême la fonte du bronze rituel pour le culte des ancêtres, inventant un système d'écriture logographique sur os oraculaires et érigeant de vastes capitales fortifiées.</p>
+    `,
+    themeAlbums: [
+      { label: "🛠️ Métallurgie", url: "https://photos.google.com/share/AF1QipN2ccGraobqmNhsyQhn1XQYZmas-d6wNnWsUE7X6q_zzAIytbnOH6GGkVB_WU95AQ?key=Mkc1WGhlQmRIY1VpenkzMG1SNzdHczVWcjI4MGZ3" }
+    ],
     artifacts: []
   },
   {
@@ -367,16 +576,32 @@ const CIVILISATIONS_REGISTRY = [
     haloId: "halo-amorrite",
     bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczPHGkCZm47O1gOL4Ui6nLL0Q0omROV3pafBxYT6WkYFLnvfgyA9yAFCMg-GL6KLpqobLqfxmnJGBF0ph464anxAlRWeZAsc5daaMrcP4s9FK1oijdIqs4hZQ1WP-EtZnYfMwWvkfacKZQ5JF6diThA3RA=w1620-h688-s-no-gm?authuser=0",
     mapOverlayUrl: "https://lh3.googleusercontent.com/d/1O9GXVfPkuswX5DorBUgBxfZc-209aoh8",
-    albumUrl: "https://photos.google.com",
-    presentationHtml: `<p><strong>Les dynasties sémites occidentales</strong><br>Palais royal de Mari, stèle du code d'Hammurabi et roi Idrimi.</p>`,
-    concurrentHtml: `<p>En Égypte, période classique du Moyen Empire.</p>`,
-    themeAlbums: [],
+    albumUrl: "https://photos.google.com/share/AF1QipPVAXqBqZTRYy0G2k4dekN1B26P4qiDwAk_6z_C-Kx6eIyhtxN2miXjHY6tXfzPIw?pli=1&key=cW1TT0ZhWXFGeDBmU1F2SGl1VEw0d0FOMjR6MVVn",
+    presentationHtml: `
+      <p><strong>L'épanouissement des dynasties sémites occidentales</strong><br>
+      L'art de la période amorrite et paléo-babylonienne (début du IIe millénaire av. J.-C., v. 2000-1600 av. J.-C.) en Mésopotamie s'épanouit à travers l'essor de dynasties sémites occidentales qui unifient la région autour de grands centres urbains comme Babylone, Mari ou Larsa.</p>
+      <p><strong>Dévotion intime et stèle monumentale</strong><br>
+      Dans la statuaire et les reliefs, l'art amorrite privilégie les scènes de dévotion intime et de communication avec le divin, illustrées par les nombreuses plaques votives en terre cuite moulée représentant des divinités nues, des musiciens ou des cavaliers. La pièce maîtresse de cette époque reste la célèbre stèle du Code de Hammurabi, sculptée dans un bloc de basalte noir : elle représente au sommet le roi recevant les lois des mains du dieu Shamash, associant avec rigueur le pouvoir politique à la légitimité sacrée.</p>
+      <p><strong>Raffinement palatial et glyptique</strong><br>
+      L'architecture palatiale atteint un sommet de raffinement avec le palais royal de Mari, vaste complexe labyrinthique de plus de deux cent soixante pièces, dont les cours et les salles d'apparat abritaient des peintures murales polychromes exceptionnelles célébrant l'investiture royale. La glyptique (sceaux-cylindres) se renouvelle profondément en popularisant la « scène de présentation », où un dieu protecteur introduit un mortel divinisé ou un dignitaire auprès d'une divinité majeure, reflétant une piété personnelle accrue.</p>
+    `,
+    concurrentHtml: `
+      <p><strong>Le contexte mondial au IIe millénaire av. J.-C.</strong></p>
+      <p>Pendant que le monde amorrite érige ses palais peints et codifie ses lois en Mésopotamie, les autres grands foyers civilisationnels du globe connaissent des mutations historiques et majeures au cours du IIe millénaire av. J.-C.</p>
+      <p>En Égypte, le Moyen Empire s'affirme comme un âge d'or classique, marqué par une statuaire royale introspective aux visages soucieux, un renouveau littéraire et la maîtrise absolue de l'orfèvrerie cloisonnée de Dahchour.</p>
+      <p>En Anatolie, l'Empire hittite se structure peu à peu en une grande puissance militaire redoutable, s'appuyant sur l'essor de la métallurgie du fer et le contrôle des routes stratégiques du Taurus pour rivaliser avec ses voisins.</p>
+      <p>En Crète, la civilisation minoenne déploie son premier âge des palais (Knossos, Phaistos), caractérisé par l'écriture linéaire A, un art maritime naturaliste et une architecture palatiale ouverte et sophistiquée.</p>
+      <p>En Chine, la dynastie Shang s'établit durablement dans la vallée du Fleuve Jaune, perfectionnant l'art de la fonte rituelle des bronzes et institutionnalisant l'écriture divinatoire sur os oraculaires pour légitimer le pouvoir royal.</p>
+    `,
+    themeAlbums: [
+      { label: "🗿 Statuaire", url: "https://photos.google.com/share/AF1QipPVAXqBqZTRYy0G2k4dekN1B26P4qiDwAk_6z_C-Kx6eIyhtxN2miXjHY6tXfzPIw?pli=1&key=cW1TT0ZhWXFGeDBmU1F2SGl1VEw0d0FOMjR6MVVn" }
+    ],
     artifacts: []
   },
   {
     id: "canaries",
     name: "Art Canarien (Autochtone)",
-    epoch: "v. -500 av. J.-C. - 1496 ap. J.-C.",
+    epoch: "v. Ve s. av. J.-C. - 1496 ap. J.-C.",
     yearStart: -500,
     yearEnd: 1496,
     lane: "atlantique",
@@ -386,10 +611,25 @@ const CIVILISATIONS_REGISTRY = [
     haloId: "halo-canaries",
     bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczPMXQ5bdaPOWzGPKgmojy9gQSYDzQr93TrgXTQ3ulBClSb_4u-eo9o5d2eP27CZmeHhdd9nZHufR4NJsEJSzsCi50xpKQ0NV5ZbYrY2LJhEuIy6xtlDgObVak0xLhEDHgifE9G46BrjnehXFBFJLHHxQg=w1620-h688-s-no-gm?authuser=0",
     mapOverlayUrl: "https://lh3.googleusercontent.com/d/1ziawwYwQzmU4SOv1gjkHRXMT9-F7VkVU",
-    albumUrl: "https://photos.google.com",
-    presentationHtml: `<p><strong>Abstraction géométrique insulaire</strong><br>Fresques de la Cueva Pintada de Gáldar et pintaderas aborigènes.</p>`,
-    concurrentHtml: `<p>En Europe, fin du Moyen Âge et prémices des grandes navigations maritimes.</p>`,
-    themeAlbums: [],
+    albumUrl: "https://photos.google.com/share/AF1QipOwPyxi1kZR99upRbCwV7EqcTxAKq16-jOtDDeEeuI_blfV8DNa1ggU6u3127sf3g?key=ck5BSW5yQlgtazlDZXB2b0Ftd0NMYUpiTWJZSGR3",
+    presentationHtml: `
+      <p><strong>Un univers esthétique insulaire et préhistorique</strong><br>
+      L'art préhispanique des îles Canaries (créé par les peuples aborigènes, souvent englobés sous le nom de Guanches, du Ier millénaire av. J.-C. jusqu'à la conquête espagnole au XVe siècle) se caractérise par une expression visuelle insulaire, géométrique et profondément symbolique.</p>
+      <p><strong>Art rupestre et géométrie pariétale</strong><br>
+      L'art rupestre abonde dans tout l'archipel sous forme de gravures et de peintures pariétales, particulièrement visibles dans des grottes sanctuaires comme la Cueva Pintada de Gáldar à Grande Canarie, où se déployaient des compositions murales de carrés, de triangles et de damiers polychromes énigmatiques.</p>
+      <p><strong>Pintaderas et céramique aborigène</strong><br>
+      L'élément le plus emblématique de cette culture matérielle réside dans les pintaderas, des cachets ou tampons en argile cuite, en pierre ou en bois, munis d'une poignée et gravés de motifs géométriques extrêmement rigoureux (lignes brisées, chevrons, alvéoles). Ces matrices servaient à l'origine à appliquer des pigments naturels pour le marquage corporel (tatouages rituels), la parure des peaux ou l'identification des biens collectifs au sein d'une société agropastorale hiérarchisée. La céramique aborigène, modelée à la main sans l'usage du tour puis cuite à l'air libre, se distingue par des formes fonctionnelles épurées, parfois rehaussées d'incisions géométriques ou de mamelons plastiques.</p>
+    `,
+    concurrentHtml: `
+      <p><strong>Le contexte mondial à l'époque moderne</strong></p>
+      <p>Pendant que les peuples aborigènes des Canaries façonnent leurs céramiques et leurs cachets géométriques dans l'isolement de l'Atlantique, le reste du monde est le théâtre de la fin du Moyen Âge et de l'aube des grandes explorations maritimes européennes.</p>
+      <p>En Europe occidentale, c'est la période de la Renaissance triomphante, marquée par l'effervescence artistique en Italie, les débuts de l'imprimerie et les expéditions navales ibériques qui ouvrent la voie au contact direct avec les mondes lointains.</p>
+      <p>En Amérique, les grands empires précolombiens atteignent leur zénith : l'Empire aztèque domine la vallée du Mexique depuis Tenochtitlan avec une architecture monumentale et un art sacrificiel saisissant, tandis que l'Empire inca structure les Andes à travers ses citadelles de pierre et ses réseaux de pistes.</p>
+      <p>En Asie, la Chine des Ming consolide sa puissance après l'expulsion des Mongols, érigeant la majeure partie de la Grande Muraille actuelle et envoyant les flottes géantes de l'amiral Zheng He explorer l'océan Indien.</p>
+    `,
+    themeAlbums: [
+      { label: "🎨 Peintures", url: "https://photos.google.com/share/AF1QipOwPyxi1kZR99upRbCwV7EqcTxAKq16-jOtDDeEeuI_blfV8DNa1ggU6u3127sf3g?key=ck5BSW5yQlgtazlDZXB2b0Ftd0NMYUpiTWJZSGR3" }
+    ],
     artifacts: []
   }
 ];
