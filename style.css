@@ -1773,3 +1773,31 @@ body {
   .modal-nav-arrow.arrow-prev { left: 0.5rem; }
   .modal-nav-arrow.arrow-next { right: 0.5rem; }
 }
+/* Agrandissement de la typographie de la notice (pop-up) */
+#modal-narrative-text,
+#modal-narrative-text p {
+  font-size: 1.12rem !important;
+  line-height: 1.75 !important;
+  color: #e2e8f0 !important;
+  letter-spacing: 0.3px;
+}
+
+#modal-narrative-text p {
+  margin-bottom: 1.25rem !important;
+}
+
+/* Titres et étiquettes dans le pop-up */
+#modal-artwork-title {
+  font-size: 1.75rem !important;
+  line-height: 1.25 !important;
+}
+
+#modal-civ-title {
+  font-size: 0.85rem !important;
+  letter-spacing: 2px !important;
+}
+
+.attr-chip {
+  font-size: 0.78rem !important;
+  padding: 4px 10px !important;
+}
