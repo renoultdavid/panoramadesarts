@@ -909,15 +909,15 @@ function renderSearchGallery() {
 
     card.innerHTML = `
       <div class="gallery-card-pedestal">
-        <span class="gallery-card-tag">${art.category || 'ART'}</span>
         <img src="${art.imgSrc}" alt="${art.title}" loading="lazy" />
       </div>
       <div class="gallery-card-body">
-        <div>
-          <div class="gallery-card-civ">${art.civName}</div>
-          <div class="gallery-card-title">${art.title}</div>
+        <div class="gallery-card-meta-top">
+          <span class="gallery-card-tag">${art.category || 'ART'}</span>
+          <span class="gallery-card-civ">${art.civName || ''}</span>
         </div>
-        <div class="gallery-card-century">${art.century}</div>
+        <div class="gallery-card-title">${art.title}</div>
+        <div class="gallery-card-century">${art.century || ''}</div>
       </div>
     `;
 
