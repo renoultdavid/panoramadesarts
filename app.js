@@ -736,8 +736,25 @@ const modalCivTitle = document.getElementById('modal-civ-title');
 const modalArtworkTitle = document.getElementById('modal-artwork-title');
 const modalChips = document.getElementById('modal-chips-container');
 const modalNarrative = document.getElementById('modal-narrative-text');
-const modalAlbumBtn = document.getElementById('modal-album-btn');
 const btnModalClose = document.getElementById('btn-modal-close');
+
+// Lightbox zoom plein écran
+const artworkLightbox = document.getElementById('artwork-lightbox-zoom');
+const artworkLightboxImg = document.getElementById('artwork-lightbox-img');
+
+// Clic sur l'image dans la modale -> Agrandir en plein écran
+modalImg.addEventListener('click', () => {
+  if (modalImg.src) {
+    artworkLightboxImg.src = modalImg.src;
+    artworkLightbox.hidden = false;
+  }
+});
+
+// Clic sur l'image agrandie (ou le fond) -> Revenir à la modale
+artworkLightbox.addEventListener('click', () => {
+  artworkLightbox.hidden = true;
+  artworkLightboxImg.src = '';
+});
 
 function openCuratorModal(art, siblingsList = []) {
   modalTabBar.innerHTML = '';
@@ -795,13 +812,6 @@ function populateModalData(art) {
   }
 
   modalNarrative.innerHTML = art.narrative || '';
-  
-  modalAlbumBtn.href = art.themeLink || '#';
-  const labelCat = art.category ? `la collection : ${art.category}` : `la collection complète`;
-  modalAlbumBtn.innerHTML = `
-    Explorer ${labelCat}
-    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-  `;
 }
 
 btnModalClose.addEventListener('click', () => {
