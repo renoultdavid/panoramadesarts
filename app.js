@@ -941,7 +941,7 @@ function activateCivilisationView(civ) {
       card.addEventListener('click', () => {
         document.querySelectorAll('.sub-node-card').forEach(c => c.classList.remove('active'));
         card.classList.add('active');
-        openCuratorModal(art, civ.artifacts);
+        openCuratorModal(art, civ.artifacts, true);
       });
 
       subStream.appendChild(card);
@@ -1018,21 +1018,29 @@ function renderModalCurrentArt() {
   if (!currentArt) return;
 
   modalTabBar.innerHTML = '';
-  // La barre d'onglets est STRICTEMENT réservée à la frise chronologique
-  if (isTimelineModalMode && activeContextList.length > 1 && activeContextList.length <= 12) {
-    modalTabBar.style.display = 'flex';
-    activeContextList.forEach((sibling, sIdx) => {
-      const tab = document.createElement('button');
-      tab.className = `modal-tab-btn ${sIdx === currentArtIndex ? 'active' : ''} ${sibling.isAmarna ? 'is-amarna-tab' : ''}`;
-      tab.textContent = sibling.category || sibling.title;
-      tab.addEventListener('click', () => {
-        currentArtIndex = sIdx;
-        renderModalCurrentArt();
+  if (isTimelineModalMode) {
+    modal.classList.add('mode-timeline');
+    if (modalDeptBannerBox) modalDeptBannerBox.style.display = 'block';
+
+    if (activeContextList.length > 1) {
+      modalTabBar.style.display = 'flex';
+      activeContextList.forEach((sibling, sIdx) => {
+        const tab = document.createElement('button');
+        tab.className = `modal-tab-btn ${sIdx === currentArtIndex ? 'active' : ''} ${sibling.isAmarna ? 'is-amarna-tab' : ''}`;
+        tab.textContent = sibling.category || sibling.title;
+        tab.addEventListener('click', () => {
+          currentArtIndex = sIdx;
+          renderModalCurrentArt();
+        });
+        modalTabBar.appendChild(tab);
       });
-      modalTabBar.appendChild(tab);
-    });
+    } else {
+      modalTabBar.style.display = 'none';
+    }
   } else {
+    modal.classList.remove('mode-timeline');
     modalTabBar.style.display = 'none';
+    if (modalDeptBannerBox) modalDeptBannerBox.style.display = 'none';
   }
 
   populateModalData(currentArt);
