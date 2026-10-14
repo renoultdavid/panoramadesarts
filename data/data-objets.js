@@ -79,7 +79,7 @@ window.ART_OBJECTS.push(
     <p>Le décor est dominé par une interprétation magistrale du style marin, avec une pieuvre stylisée qui déploie ses tentacules de manière symétrique sur l'épaule du vase. Le corps de l'animal est centré, présentant deux grands yeux circulaires aux pupilles marquées qui fixent le spectateur, une caractéristique qui confère à l'objet une présence presque hypnotique. Les tentacules s'étirent en larges courbes sinueuses, épousant la convexité de la panse et remplissant l'espace avec un dynamisme fluide. Ce motif, bien que plus schématique que les modèles minoens classiques, conserve une énergie organique remarquable, soulignée par des lignes de contour précises.</p>
     <p>Le col est orné d'une frise de larges ondes ou de chevrons horizontaux, créant une transition visuelle entre l'ouverture et le corps décoré. La partie inférieure de la panse et le pied sont soulignés par des bandes circulaires de différentes épaisseurs, une syntaxe décorative mycénienne qui vient structurer et "fermer" la composition. Ce cratère illustre parfaitement la fusion des répertoires iconographiques : la pieuvre, symbole ancestral de la puissance marine de la Crète, est ici réinterprétée selon les codes esthétiques plus rigoureux de l'époque du Bronze Récent, témoignant du raffinement des élites locales.</p>
     <p><strong>Siècle :</strong> XIVe siècle av. J.-C. | <strong>Civilisation :</strong> Monde égéen (Crète minoenne) | <strong>Sous-partie :</strong> Céramiques.</p>`
-  }
+  },
    {
     id: "oenochoe_bichrome_oiseau_louvre",
     civId: "chypre",
