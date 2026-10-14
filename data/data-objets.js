@@ -6,6 +6,179 @@ window.ART_OBJECTS = window.ART_OBJECTS || [];
 window.ART_OBJECTS.push(
 
 {
+    id: "idole_cycladique_purete_lyre_louvre",
+    civId: "egee",
+    periodId: "cyclades",
+    civName: "Art Cycladique (Mer Égée)",
+    century: "v. -2700 à -2300 av. J.-C. (Cycladique Ancien II)",
+    centuryDisplay: "v. -2500 av. J.-C.",
+    centuryNumeric: -2500,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire royale & divine (ronde-bosse)",
+    title: "Idole féminine stylisée à tête lyciforme en marbre",
+    site: "Musée du Louvre (Paris / prov. Cyclades)",
+    originSite: "Archipel des Cyclades",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre (Paris)",
+    category: "Sculpture en marbre",
+    isHighlight: false,
+    chips: ["Cycladique Ancien II", "Marbre blanc", "Tête lyciforme", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNMZRgR759mlxzzO63gKtVg2u437kEFSbomGP9HGmk8DelG-gh8gB9JNXi9bKBgrqsDkalszZLTbKwC5t0GJdWrMoEmqyl9V6L6d0f5GhGwYfTg6AqqP-C2stcjrj5Vn5Ba1SstoTv7f5_pyIccZFQq4g=w2209-h938-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPxMwpG07pclSV0VL713vYpy7Ie_odlWKClGk_vxutcSnFI_exTF8Iry0cwhnjft3PjKaWWDhYvw1huuVjgk1gQ7FrIzs1RttDmVNA89S7EBmzFPMrRb4hQ28M74cj9IPywbJj6123fZFkAm_wsXCg4og=w1588-h2108-s-no-gm?authuser=0",
+    narrative: `<p>Cette œuvre sculptée représente une figure féminine stylisée, emblématique de l'art produit dans l'archipel des Cyclades durant le IIIe millénaire avant notre ère. Taillée dans un marbre blanc local à grain fin, la statuette se distingue par une économie de moyens et une pureté de lignes qui préfigurent une forme d'abstraction moderne. La conservation globale de l'objet permet d'apprécier la maîtrise technique des artisans de l'âge du bronze, qui utilisaient des outils en émeri ou en obsidienne pour polir la pierre jusqu'à obtenir une surface lisse et lumineuse.</p>
+    <p>La description anatomique de la pièce révèle un traitement géométrique rigoureux du corps humain. La tête, de forme lyre ou piriforme, est dépourvue de traits faciaux à l'exception d'un nez proéminent sculpté en relief, tandis que le reste du visage restait lisse, autrefois probablement rehaussé de détails peints à l'azurite ou à l'hématite. Le cou est long et cylindrique, assurant la transition vers des épaules larges et tombantes. Le tronc est marqué par une poitrine discrète et des bras dont on devine l'amorce, bien que la silhouette générale privilégie ici une verticalité ininterrompue. Les hanches s'élargissent légèrement pour donner une assise visuelle à la figure, se prolongeant par des membres inférieurs fusionnés, seulement séparés par une profonde incision verticale qui souligne la symétrie de la composition.</p>
+    <p>Ces objets, retrouvés majoritairement dans des contextes funéraires, témoignent des croyances spirituelles des populations égéennes primitives. Bien que leur fonction exacte demeure sujette à interprétation, leur lien avec la fertilité ou le cycle de la vie et de la mort est souvent mis en avant par les archéologues. La statuette présentée ici, par sa posture hiératique et son épuration formelle, illustre parfaitement la transition entre le néolithique final et l'apogée de la culture cycladique ancienne, constituant un jalon essentiel de l'histoire de la statuaire pré-hellénique.</p>
+    <p><strong>Siècle :</strong> XXVe siècle av. J.-C. (-2500) | <strong>Civilisation :</strong> Monde égéen (Art Cycladique) | <strong>Sous-partie :</strong> Statuaire & Marbre.</p>`
+  },
+  {
+    id: "idole_cycladique_mne1044_louvre",
+    civId: "egee",
+    periodId: "cyclades",
+    civName: "Art Cycladique (Mer Égée)",
+    century: "v. -2700 à -2300 av. J.-C. (Cycladique Ancien II)",
+    centuryDisplay: "v. -2500 av. J.-C.",
+    centuryNumeric: -2500,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire royale & divine (ronde-bosse)",
+    title: "Idole féminine épurée à bras croisés (MNE 1044)",
+    site: "Musée du Louvre (Paris / prov. Cyclades)",
+    originSite: "Archipel des Cyclades",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre (Paris)",
+    category: "Sculpture en marbre",
+    isHighlight: false,
+    chips: ["Cycladique Ancien II", "MNE 1044", "Canonique épuré", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNMZRgR759mlxzzO63gKtVg2u437kEFSbomGP9HGmk8DelG-gh8gB9JNXi9bKBgrqsDkalszZLTbKwC5t0GJdWrMoEmqyl9V6L6d0f5GhGwYfTg6AqqP-C2stcjrj5Vn5Ba1SstoTv7f5_pyIccZFQq4g=w2209-h938-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMmLksDivjekO4R8mlT0MmVijQfc25BsHNwYEz7Rfc-_HlDhiA6eGmkVkKyfdduQx-SWH6NLrEwXyhF-Z9h-9Y1PnxfBwAg4eOplXkjNEbaAEDfKIV_MFHW9YLD7WtDFfLTBcNuWPHlaShrNTkDSezEzQ=w1588-h2108-s-no-gm?authuser=0",
+    narrative: `<p>Cette statuette en marbre blanc est une idole féminine caractéristique de la culture cycladique du Bronze Ancien, plus précisément du IIIe millénaire avant J.-C. L'œuvre s'inscrit dans le type dit "canonique" ou à bras croisés, bien que sa facture ici soit particulièrement épurée et stylisée. La tête, de forme lyre ou ovale, présente un visage lisse où seul le nez est sculpté en relief, formant une arête verticale prononcée. Le sommet du crâne est légèrement incliné vers l'arrière, une convention esthétique récurrente qui confère à la figure une impression de recueillement ou de projection vers le ciel.</p>
+    <p>Le corps est traité avec une économie de moyens qui confine à l'abstraction moderne. Les épaules sont larges et marquées, d'où part un buste plat qui s'évase légèrement vers les hanches. Bien que l'érosion et le temps aient estompé certains détails, on devine la structure classique où les bras étaient repliés horizontalement sur le ventre, l'un au-dessus de l'autre. La partie inférieure se termine par un bloc monolithique où les jambes sont à peine différenciées, reposant sur une base étroite. Cette recherche de pureté géométrique et de symétrie axiale est le reflet d'une pensée artistique hautement sophistiquée, capable de réduire la forme humaine à ses lignes essentielles.</p>
+    <p>Ces statuettes, retrouvées majoritairement dans des contextes funéraires dans les Cyclades, continuent de fasciner par leur mystère. S'agissait-il de représentations de divinités de la fertilité, de substituts du défunt ou d'objets rituels destinés à accompagner l'âme ? La blancheur du marbre, aujourd'hui nue, était à l'origine rehaussée de peinture (yeux, bijoux, tatouages) qui rendait ces figures beaucoup plus expressives. Ce spécimen (MNE 1044), par sa présence massive et sa silhouette intemporelle, demeure l'un des symboles les plus puissants de l'art préhistorique égéen, ayant profondément influencé les sculpteurs du XXe siècle.</p>
+    <p><strong>Siècle :</strong> XXVe siècle av. J.-C. (-2500) | <strong>Civilisation :</strong> Monde égéen (Art Cycladique) | <strong>Sous-partie :</strong> Statuaire & Marbre.</p>`
+  },
+  {
+    id: "tete_cycladique_syros_louvre",
+    civId: "egee",
+    periodId: "cyclades",
+    civName: "Art Cycladique (Mer Égée)",
+    century: "v. -2700 à -2300 av. J.-C. (Cycladique Ancien II)",
+    centuryDisplay: "v. -2500 av. J.-C.",
+    centuryNumeric: -2500,
+    domain: "sculpture_statuaire",
+    artifactType: "Décor architectural (fronton, frise, métope, chapiteau)",
+    title: "Tête en marbre d'idole féminine (Groupe de Syros)",
+    site: "Musée du Louvre (Paris / prov. Cyclades)",
+    originSite: "Archipel des Cyclades (Syros ou Amorgos)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre (Paris)",
+    category: "Sculpture en marbre",
+    isHighlight: false,
+    chips: ["Cycladique Ancien II", "Groupe de Syros", "Tête lyciforme", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNMZRgR759mlxzzO63gKtVg2u437kEFSbomGP9HGmk8DelG-gh8gB9JNXi9bKBgrqsDkalszZLTbKwC5t0GJdWrMoEmqyl9V6L6d0f5GhGwYfTg6AqqP-C2stcjrj5Vn5Ba1SstoTv7f5_pyIccZFQq4g=w2209-h938-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNdpVwkQ7_HqZg2TgrCvvM2lfe9UhQaGJwExZWRW3W1CmIi90MTks4A8UE7A6y0f9XZRuocO0FNyWPFV756ZuoU-3FC8OS2EEJ11fH14A3ERXKKHLeLXNBDDriQ_9S22Ny3EUhNVXK4toFoLD00Fh-UXQ=w1588-h2108-s-no-gm?authuser=0",
+    narrative: `<p>Cette tête en marbre appartient à une idole féminine du groupe de Syros, l'une des phases les plus abouties de la sculpture cycladique du Bronze Ancien II. Elle se distingue par une forme lyre (ou bouclier) très pure, s'élargissant vers le sommet du crâne avant de s'arrondir délicatement vers le menton. Le visage est un plan lisse et légèrement convexe, où seule l'arête du nez est sculptée en relief, créant une ligne de force verticale qui structure toute la composition. Cette recherche d'épurement radical confère à l'œuvre une dimension intemporelle et un caractère presque abstrait qui a profondément marqué l'art moderne.</p>
+    <p>La surface du marbre, bien que marquée par le temps, conserve la trace d'un travail de polissage extrêmement soigné. À l'origine, cette tête n'était pas cette forme blanche et nue que nous voyons aujourd'hui ; elle recevait un décor peint dont les pigments (souvent rouges ou bleus) servaient à indiquer les yeux, la bouche, ainsi que des détails de parure ou de tatouages faciaux. La légère inclinaison vers l'arrière, typique du groupe de Syros, suggère que la figurine complète ne pouvait pas tenir debout seule et était probablement conçue pour être déposée à plat dans une tombe, accompagnant le défunt dans l'au-delà.</p>
+    <p><strong>Siècle :</strong> XXVe siècle av. J.-C. (-2500) | <strong>Civilisation :</strong> Monde égéen (Art Cycladique) | <strong>Sous-partie :</strong> Statuaire & Marbre.</p>`
+  },
+  {
+    id: "tete_idole_canonique_louvre",
+    civId: "egee",
+    periodId: "cyclades",
+    civName: "Art Cycladique (Mer Égée)",
+    century: "v. -2700 à -2300 av. J.-C. (Cycladique Ancien II)",
+    centuryDisplay: "v. -2500 av. J.-C.",
+    centuryNumeric: -2500,
+    domain: "sculpture_statuaire",
+    artifactType: "Décor architectural (fronton, frise, métope, chapiteau)",
+    title: "Tête en marbre d'idole aux bras croisés",
+    site: "Musée du Louvre (Paris / prov. Cyclades)",
+    originSite: "Archipel des Cyclades",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre (Paris)",
+    category: "Sculpture en marbre",
+    isHighlight: false,
+    chips: ["Cycladique Ancien II", "Type canonique", "Marbre sculpté", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNMZRgR759mlxzzO63gKtVg2u437kEFSbomGP9HGmk8DelG-gh8gB9JNXi9bKBgrqsDkalszZLTbKwC5t0GJdWrMoEmqyl9V6L6d0f5GhGwYfTg6AqqP-C2stcjrj5Vn5Ba1SstoTv7f5_pyIccZFQq4g=w2209-h938-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNVALH3q0RYQ-cj6SBizztd4_PeaQ-WRKOCPN9ZT0gMmgfUH5w7QDanZXdRTvzLHIueCzKIIZ6g5GtFLJjO-2p1UggMBx33cjHGiusL56kn8ium-E61xhxKVrur6bufVxm6dWLof0--9XWjsZT1bXb1_Q=w1588-h2108-s-no-gm?authuser=0",
+    narrative: `<p>Cette œuvre sculptée représente l'un des exemples les plus emblématiques de l'art cycladique, plus précisément une tête appartenant à une statuette anthropomorphe du type « aux bras croisés ». Sa forme épurée, qui tend vers une abstraction presque moderne, témoigne de la maîtrise technique et esthétique des sculpteurs des Cyclades durant le IIIe millénaire avant notre ère. La pièce se distingue par sa silhouette en forme de lyre ou de bouclier, une caractéristique propre aux productions artistiques de cette période de transition vers une maturité stylistique.</p>
+    <p>Le travail du marbre, matériau de prédilection des îles grecques, est ici poussé à un haut degré de finition malgré l'érosion du temps. Le visage, dépourvu de bouche et d'yeux sculptés, est dominé par un nez en relief, fin et allongé, qui constitue le seul élément saillant de la composition. Cette absence de traits faciaux détaillés n'indique pas un manque de savoir-faire, mais répondait initialement à un code artistique précis où les détails, tels que les yeux ou les marques rituelles, étaient souvent ajoutés à la peinture rouge ou bleue, aujourd'hui disparue. Le sommet du crâne est légèrement aplati, tandis que la base du cou suggère une insertion harmonieuse sur un corps aujourd'hui perdu.</p>
+    <p><strong>Siècle :</strong> XXVe siècle av. J.-C. (-2500) | <strong>Civilisation :</strong> Monde égéen (Art Cycladique) | <strong>Sous-partie :</strong> Statuaire & Marbre.</p>`
+  },
+  {
+    id: "idole_violon_hybride_louvre",
+    civId: "egee",
+    periodId: "cyclades",
+    civName: "Art Cycladique (Mer Égée)",
+    century: "v. -2800 à -2300 av. J.-C. (Cycladique Ancien I / II)",
+    centuryDisplay: "v. -2600 av. J.-C.",
+    centuryNumeric: -2600,
+    domain: "sculpture_statuaire",
+    artifactType: "Figurine votive / Ex-voto",
+    title: "Idole en forme de violon à traits anatomiques en marbre",
+    site: "Musée du Louvre (Paris / prov. Cyclades)",
+    originSite: "Archipel des Cyclades",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre (Paris)",
+    category: "Sculpture schématique",
+    isHighlight: false,
+    chips: ["Cycladique Ancien", "Forme violon", "Ex-voto féminin", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNMZRgR759mlxzzO63gKtVg2u437kEFSbomGP9HGmk8DelG-gh8gB9JNXi9bKBgrqsDkalszZLTbKwC5t0GJdWrMoEmqyl9V6L6d0f5GhGwYfTg6AqqP-C2stcjrj5Vn5Ba1SstoTv7f5_pyIccZFQq4g=w2209-h938-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPzMuwIBjbFxsDwRJ9T0PZyQfm2PqL32oF8sZYQh6Df2WrqT3cjvBznqY4YrEBsFgUvvHcl6EPtKqpAIcVRAxe94CK2brDWGyEpK32hGW6khu4px8hA6apJQOSFzoIs5RPtQa77xkjyXgUWBBC-4laJZw=w1588-h2108-s-no-gm?authuser=0",
+    narrative: `<p>Cette statuette en marbre appartient au type "en forme de violon" (ou hybride), une catégorie d'idoles cycladiques schématiques du Bronze Ancien. Contrairement aux modèles les plus abstraits, celle-ci conserve des indices anatomiques plus marqués, notamment au niveau du buste. Elle se caractérise par une tête massive et rectangulaire qui s'évase pour former des épaules en pointe, créant une silhouette en sablier. La base est de forme ovoïde, suggérant la partie inférieure du corps sans en détailler les membres.</p>
+    <p>Malgré son aspect brut, on distingue de petites protubérances en relief indiquant les seins, ce qui confirme l'identité féminine de la figurine. Des lignes d'incision horizontales marquent la séparation entre le cou et le buste, ainsi qu'au niveau du bassin, structurant la figure en trois segments distincts. Cette géométrisation du corps témoigne d'une recherche de codification symbolique où la fonction de l'objet — probablement un ex-voto lié à la fertilité — prime sur la ressemblance physique.</p>
+    <p>Ce type de statuette illustre la phase de transition et la diversité des ateliers insulaires au IIIe millénaire avant J.-C. (vers -2800 / -2300). Alors que certaines îles développent le "canon" aux bras croisés très lisse, d'autres conservent ces formes plus charnues et schématiques, souvent sculptées dans des marbres plus grenus ou moins fins. Elle représente le lien esthétique entre les premières figurines néolithiques et la grande sculpture canonique des Cyclades.</p>
+    <p><strong>Siècle :</strong> XXVIe siècle av. J.-C. (-2600) | <strong>Civilisation :</strong> Monde égéen (Art Cycladique) | <strong>Sous-partie :</strong> Statuaire & Marbre.</p>`
+  },
+  {
+    id: "idole_violon_schematique_louvre",
+    civId: "egee",
+    periodId: "cyclades",
+    civName: "Art Cycladique (Mer Égée)",
+    century: "v. -2800 à -2300 av. J.-C. (Cycladique Ancien I / II)",
+    centuryDisplay: "v. -2600 av. J.-C.",
+    centuryNumeric: -2600,
+    domain: "sculpture_statuaire",
+    artifactType: "Figurine votive / Ex-voto",
+    title: "Idole plate schématique en violon en marbre",
+    site: "Musée du Louvre (Paris / prov. Cyclades)",
+    originSite: "Archipel des Cyclades",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre (Paris)",
+    category: "Sculpture schématique",
+    isHighlight: false,
+    chips: ["Cycladique Ancien", "Abstraction pure", "Idole en violon", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNMZRgR759mlxzzO63gKtVg2u437kEFSbomGP9HGmk8DelG-gh8gB9JNXi9bKBgrqsDkalszZLTbKwC5t0GJdWrMoEmqyl9V6L6d0f5GhGwYfTg6AqqP-C2stcjrj5Vn5Ba1SstoTv7f5_pyIccZFQq4g=w2209-h938-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczM13KCJG5BObN17BCC7aXGrY9t3CAWq5C1td52CvHzhAsv20Z3f76M7pvODZxHlSjZR3jJG19NlkJMwKWYULbkSXZffg7fKcQvgYQdYDvCgCoXkNjGV86mN8A0ocdBALtA1xgu5DxGaNWt8PraspcFm6Q=w1588-h2108-s-no-gm?authuser=0",
+    narrative: `<p>Cette statuette en marbre appartient à une catégorie d'objets cycladiques dits "schématiques", coexistant avec les idoles plus naturalistes au cours du IIIe millénaire avant J.-C. Elle se distingue par un degré d'abstraction extrême, où la figure humaine est réduite à ses contours essentiels. La partie supérieure évoque une tête et un cou fusionnés en un bloc rectangulaire aux angles arrondis, dépourvu de traits faciaux sculptés. Le corps s'évase ensuite pour former deux pointes latérales suggérant les bras ou les épaules, avant de se terminer par une base oblongue et massive.</p>
+    <p>Cette forme, souvent qualifiée de "violon" ou de "guitare" par les archéologues en raison de son profil échancré, témoigne d'une volonté de représentation symbolique plutôt que figurative. L'absence de détails anatomiques permettait une production plus rapide tout en conservant la charge spirituelle de l'objet. Il est probable que ces statuettes étaient destinées à être portées sur soi ou déposées dans de petites niches funéraires, agissant comme des talismans ou des représentations simplifiées d'une divinité de la fertilité.</p>
+    <p>L'économie de moyens de cette sculpture illustre la diversité des styles au sein des Cyclades. Alors que certaines idoles cherchaient à capturer la verticalité et le volume du corps, celle-ci privilégie la planéité et le contour. Ce type d'œuvre est essentiel pour comprendre que l'art cycladique n'était pas unifié, mais composé de multiples courants allant de la figuration canonique à l'abstraction pure, une liberté créative qui continue d'étonner par son aspect visionnaire.</p>
+    <p><strong>Siècle :</strong> XXVIe siècle av. J.-C. (-2600) | <strong>Civilisation :</strong> Monde égéen (Art Cycladique) | <strong>Sous-partie :</strong> Statuaire & Marbre.</p>`
+  },
+  {
+    id: "harpiste_de_keros_athenes",
+    civId: "egee",
+    periodId: "cyclades",
+    civName: "Art Cycladique (Mer Égée)",
+    century: "v. -2700 à -2300 av. J.-C. (Cycladique Ancien II)",
+    centuryDisplay: "v. -2700 av. J.-C.",
+    centuryNumeric: -2700,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire royale & divine (ronde-bosse)",
+    title: "Le Harpiste assis de Kéros jouant de la lyre à cadre",
+    site: "Musée National Archéologique d'Athènes (prov. Kéros)",
+    originSite: "Kéros (Cyclades)",
+    locationType: "museum",
+    currentLocation: "Musée National Archéologique d'Athènes",
+    category: "Sculpture en marbre",
+    isHighlight: false,
+    chips: ["Cycladique Ancien II", "Île de Kéros", "Harpiste", "Musée d'Athènes"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNMZRgR759mlxzzO63gKtVg2u437kEFSbomGP9HGmk8DelG-gh8gB9JNXi9bKBgrqsDkalszZLTbKwC5t0GJdWrMoEmqyl9V6L6d0f5GhGwYfTg6AqqP-C2stcjrj5Vn5Ba1SstoTv7f5_pyIccZFQq4g=w2209-h938-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczODOCsUQhwC3Bpv5riR_8JbpAyR-T7NqvicoYuRwLHaSu6hEQGHU3k7C55gxVBvnai0iFsFbsDEL9JMsA-00WYexltu5IBKEEJlXaI3-GrQd3_81hP3sJf2kscSGvviJ_tYOCZmrBQwOjVLi_n5emYgNg=w1588-h1058-s-no-gm?authuser=0",
+    narrative: `<p>Cette statuette en marbre, connue sous le nom de Harpiste de Kéros, représente l'un des sommets de la création artistique de la culture cycladique, datant approximativement de 2700 à 2300 avant notre ère. Découverte sur l'île de Kéros et conservée au Musée national archéologique d'Athènes, cette œuvre témoigne d'une complexité technique rare pour l'époque, délaissant les figures bidimensionnelles habituelles pour une composition tridimensionnelle audacieuse. Le musicien est représenté assis sur un siège élaboré, tenant une harpe ou une lyre à cadre sur sa cuisse droite, illustrant ainsi l'importance de la musique et du rituel dans les sociétés égéennes du Bronze ancien.</p>
+    <p>La structure de la sculpture se distingue par son élégance géométrique et l'équilibre des volumes. La tête du musicien, légèrement rejetée vers l'arrière, semble capturée dans un instant d'inspiration ou de chant, prolongeant la ligne du cou robuste qui s'intègre au corps stylisé. Les bras, dégagés du torse pour manipuler l'instrument, créent un jeu de vides et de pleins qui rompt avec la compacité traditionnelle des idoles féminines. La harpe elle-même, avec son montant terminé par une tête d'oiseau stylisée, montre une attention particulière portée aux détails symboliques et fonctionnels.</p>
+    <p>L'aspect technique de l'œuvre révèle la maîtrise des sculpteurs qui, à l'aide d'outils simples en pierre et de poudres abrasives, ont réussi à évider le marbre pour sculpter les pieds du siège et l'espace entre le musicien et son instrument. Ce travail de précision confère à la statuette une légèreté et une dynamique qui contrastent avec la rigidité des figures contemporaines. Bien que les traits du visage soient aujourd'hui effacés, la posture globale exprime une solennité profonde, suggérant que le harpiste pourrait représenter un barde célébrant des épopées ou participant à des cérémonies religieuses.</p>
+    <p><strong>Siècle :</strong> XXVIIe siècle av. J.-C. (-2700) | <strong>Civilisation :</strong> Monde égéen (Art Cycladique) | <strong>Sous-partie :</strong> Statuaire & Marbre.</p>`
+  },
+   {
     id: "idole_cycladique_syros_volume_louvre",
     civId: "egee",
     periodId: "cyclades",
