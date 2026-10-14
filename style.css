@@ -2060,57 +2060,64 @@ body {
   padding: 22px 28px 16px 28px;
 }
 
-/* Notice biographique : taille élégante avec ascenseur discret si texte long */
+/* Notice biographique : texte complet, naturel et SANS AUCUN ascenseur */
 .artist-hero-bio {
   font-family: 'Cormorant Garamond', Georgia, serif;
-  font-size: 1.12rem;
-  line-height: 1.6;
+  font-size: 1.18rem;
+  line-height: 1.7;
   color: #e5e7eb;
-  max-height: 155px; /* Hauteur calibrée pour laisser voir les toiles en dessous */
-  overflow-y: auto;
-  padding-right: 12px;
-  margin-bottom: 10px;
+  padding-bottom: 16px;
+  margin-bottom: 16px;
   border-bottom: 1px solid rgba(212, 175, 55, 0.25);
-}
-
-.artist-hero-bio::-webkit-scrollbar {
-  width: 6px;
-}
-
-.artist-hero-bio::-webkit-scrollbar-track {
-  background: rgba(10, 13, 18, 0.6);
-  border-radius: 3px;
-}
-
-.artist-hero-bio::-webkit-scrollbar-thumb {
-  background: var(--gold-pure);
-  border-radius: 3px;
+  max-height: none !important;
+  overflow: visible !important;
 }
 
 .artist-hero-bio strong {
   color: var(--gold-pure);
   font-family: 'Cinzel', serif;
-  font-size: 0.92rem;
+  font-size: 0.95rem;
   letter-spacing: 0.5px;
   display: inline-block;
-  margin-top: 4px;
+  margin-top: 6px;
 }
 
 .artist-hero-bio p {
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 
 .artist-hero-collection-title {
   font-family: 'Cinzel', serif;
-  font-size: 0.78rem;
+  font-size: 0.82rem;
   font-weight: 700;
   letter-spacing: 2px;
   color: var(--gold-pure);
+  margin-bottom: 6px;
 }
 
-/* Galerie générale : défilement naturel libre, zéro ascenseur interne étriqué */
+/* Ascenseur vertical doré sur la zone des œuvres */
 .search-gallery-container {
+  flex: 1;
+  overflow-y: auto !important;
   max-height: none !important;
-  overflow: visible !important;
-  padding-right: 0 !important;
+  padding: 16px 24px 60px 24px;
+}
+
+.search-gallery-container::-webkit-scrollbar {
+  width: 9px;
+}
+
+.search-gallery-container::-webkit-scrollbar-track {
+  background: rgba(10, 13, 18, 0.85);
+  border-radius: 4px;
+}
+
+.search-gallery-container::-webkit-scrollbar-thumb {
+  background: rgba(212, 175, 55, 0.45);
+  border-radius: 4px;
+  border: 1px solid rgba(212, 175, 55, 0.7);
+}
+
+.search-gallery-container::-webkit-scrollbar-thumb:hover {
+  background: var(--gold-pure);
 }
