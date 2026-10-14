@@ -1495,7 +1495,7 @@ function initSearchEngine() {
         if (filterText) filterText.value = art.name;
         if (filterCiv) filterCiv.value = 'all';
         if (filterDomain) filterDomain.value = 'all';
-        if (sortSelect) sortSelect.value = 'chrono_asc'; // Classement chronologique direct
+        if (filterSort) filterSort.value = 'chrono-asc';
         updatePeriodDropdown();
         updateTypeDropdown();
 
@@ -1534,7 +1534,10 @@ function initSearchEngine() {
         // 4. Rendu de la galerie verrouillée sur ses toiles
         currentRenderLimit = PAGE_CHUNK;
         renderSearchGallery();
-        window.scrollTo({ top: 280, behavior: 'smooth' });
+        
+        if (artistHero) {
+          artistHero.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
       });
 
       drawerList.appendChild(chip);
