@@ -1801,3 +1801,154 @@ body {
   font-size: 0.78rem !important;
   padding: 4px 10px !important;
 }
+/* =========================================================
+   BARRE ALPHABÉTIQUE DES PEINTRES (A-Z) & TIROIR
+   ========================================================= */
+.artists-alphabet-bar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: rgba(10, 13, 18, 0.9);
+  border: 1px solid rgba(212, 175, 55, 0.25);
+  border-radius: 4px;
+  padding: 8px 14px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+
+.alphabet-title {
+  font-family: 'Cinzel', serif;
+  font-size: 0.68rem;
+  letter-spacing: 1.5px;
+  color: var(--gold-pure);
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.alphabet-letters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.btn-alpha-letter {
+  background: rgba(22, 26, 36, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: var(--gold-pale);
+  font-family: 'Cinzel', serif;
+  font-size: 0.72rem;
+  font-weight: 700;
+  width: 26px;
+  height: 26px;
+  border-radius: 3px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-alpha-letter:hover,
+.btn-alpha-letter.active {
+  background: var(--gold-pure);
+  color: #000;
+  border-color: var(--gold-pure);
+  transform: translateY(-1px);
+}
+
+.btn-alpha-letter.disabled {
+  opacity: 0.25;
+  cursor: default;
+  pointer-events: none;
+}
+
+/* Tiroir déroulant sous la rangée de lettres */
+.artists-drawer {
+  background: rgba(14, 17, 24, 0.98);
+  border: 1px solid var(--gold-pure);
+  border-radius: 4px;
+  padding: 12px 16px;
+  margin-bottom: 14px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.9);
+  animation: fadeInDrawer 0.25s ease-out;
+}
+
+.artists-drawer[hidden] {
+  display: none !important;
+}
+
+@keyframes fadeInDrawer {
+  from { opacity: 0; transform: translateY(-6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.artists-drawer-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+}
+
+.drawer-letter-badge {
+  font-family: 'Cinzel', serif;
+  font-size: 1.1rem;
+  font-weight: 900;
+  color: var(--gold-pure);
+}
+
+.drawer-letter-count {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  font-style: italic;
+  flex: 1;
+}
+
+.btn-close-drawer-letter {
+  background: transparent;
+  border: none;
+  color: var(--text-muted);
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 2px 6px;
+  line-height: 1;
+  transition: color 0.2s;
+}
+
+.btn-close-drawer-letter:hover {
+  color: #fff;
+}
+
+.artists-drawer-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.artist-drawer-chip {
+  background: rgba(22, 26, 36, 0.9);
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  color: #fff;
+  font-family: 'Cinzel', serif;
+  font-size: 0.75rem;
+  padding: 6px 12px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.artist-drawer-chip:hover {
+  background: rgba(212, 175, 55, 0.25);
+  border-color: var(--gold-pure);
+  transform: translateY(-1px);
+}
+
+.artist-drawer-chip .chip-count {
+  font-size: 0.65rem;
+  color: var(--gold-pale);
+  opacity: 0.8;
+}
