@@ -1475,7 +1475,7 @@ function initSearchEngine() {
         if (filterText) {
           filterText.value = art.name;
         }
-        // 2. Réinitialise les autres filtres pour ne pas masquer ses toiles
+        // 2. Réinitialise les autres filtres pour afficher toutes ses toiles
         if (filterCiv) filterCiv.value = 'all';
         if (filterDomain) filterDomain.value = 'all';
         updatePeriodDropdown();
@@ -1485,21 +1485,27 @@ function initSearchEngine() {
         artistsDrawer.hidden = true;
         document.querySelectorAll('.btn-alpha-letter').forEach(b => b.classList.remove('active'));
 
-        // 4. Lance le rendu de la galerie verrouillée sur ses œuvres
+        // 4. Filtre la galerie en arrière-plan
         currentRenderLimit = PAGE_CHUNK;
         renderSearchGallery();
 
-        // 5. Ouvre un pop-up d'introduction du peintre si une notice ou biographie existe
-        if (art.artistBio) {
+        // 5. Cherche la monographie dans data-artistes.js et ouvre la fiche peintre
+        const registry = window.ARTISTS_REGISTRY || {};
+        const artistRecord = Object.values(registry).find(
+          a => a.name.toLowerCase().trim() === art.name.toLowerCase().trim()
+        );
+
+        if (artistRecord) {
           openCuratorModal({
-            id: `bio_${art.name.toLowerCase().replace(/\s+/g, '_')}`,
-            civName: art.artistMovement || 'Peinture Occidentale',
-            title: art.name,
-            centuryDisplay: art.artistDates || '',
+            id: `bio_${artistRecord.id}`,
+            civName: artistRecord.movement || 'Peinture Occidentale',
+            title: artistRecord.name,
+            centuryDisplay: artistRecord.dates || '',
             category: 'MONOGRAPHIE PEINTRE',
-            chips: [art.name, art.artistMovement, `${art.count} œuvres au catalogue`].filter(Boolean),
-            narrative: art.artistBio,
-            imgSrc: 'https://lh3.googleusercontent.com/d/1564-Uow3YDKT2Bu7pkKvjlUbMhoJYue_'
+            chips: [artistRecord.nationality, artistRecord.movement, `${art.count} œuvre(s) au catalogue`].filter(Boolean),
+            narrative: artistRecord.bio,
+            deptBanner: artistRecord.bannerImg,
+            imgSrc: artistRecord.portraitImg || artistRecord.bannerImg
           });
         }
       });
