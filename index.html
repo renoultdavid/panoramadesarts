@@ -345,18 +345,26 @@
 
     <div class="curator-frame">
       <button class="btn-dismiss-modal" id="btn-modal-close">&times;</button>
-      <div id="modal-dept-banner-box" class="modal-dept-banner-box">
-        <img id="modal-dept-banner-img" src="" alt="Bandeau de département" />
+      
+      <!-- Ancien bandeau image conservé masqué pour la compatibilité JS -->
+      <div id="modal-dept-banner-box" style="display: none;"><img id="modal-dept-banner-img" src="" alt="" /></div>
+      
+      <!-- Nouveau Bandeau Titre supérieur pleine largeur -->
+      <div class="modal-title-bandeau">
+        <div class="modal-civ-line" id="modal-civ-title">Civilisation</div>
+        <h2 class="modal-headline" id="modal-artwork-title">Titre de l'Œuvre</h2>
+        <div class="modal-gold-fade-line"></div>
       </div>
+
       <div id="modal-tab-bar" class="modal-tab-bar"></div>
+
       <div class="modal-h-layout">
         <div class="modal-pedestal-col">
           <div class="category-badge-chip" id="modal-category-badge">CATÉGORIE</div>
           <img id="modal-artwork-img" src="" alt="Objet d'art" loading="lazy" />
         </div>
         <div class="modal-notes-col">
-          <div class="modal-civ-line" id="modal-civ-title">Civilisation</div>
-          <h2 class="modal-headline" id="modal-artwork-title">Titre de l'Œuvre</h2>
+          <!-- À droite : uniquement les étiquettes et le texte -->
           <div class="modal-chips-row" id="modal-chips-container"></div>
           <div class="modal-narrative" id="modal-narrative-text">Notice détaillée...</div>
         </div>
