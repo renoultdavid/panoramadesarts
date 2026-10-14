@@ -1108,46 +1108,344 @@ modal.addEventListener('click', (e) => {
 });
 
 /* ==========================================================================
-   MOTEUR DE RECHERCHE & FILTRAGE DYNAMIQUE ILLIMITÉ
+   TAXONOMIE OFFICIELLE DU MUSÉE & MOTEUR EN CASCADE
    ========================================================================== */
-const filterCiv = document.getElementById('filter-civ');
-const filterSiecle = document.getElementById('filter-siecle');
-const filterCat = document.getElementById('filter-cat');
-const filterText = document.getElementById('filter-text');
-const filterSort = document.getElementById('filter-sort');
-const btnReset = document.getElementById('btn-reset-filters');
-const searchCount = document.getElementById('search-count');
-const galleryGrid = document.getElementById('search-gallery-grid');
-const totalObjectsCount = document.getElementById('total-objects-count');
-const btnLoadMore = document.getElementById('btn-load-more');
-const loadMoreBox = document.getElementById('load-more-container');
 
+// 1. Référentiel des civilisations et de leurs périodes spécifiques
+const TAXONOMY_CIVILISATIONS = {
+  "egypte": {
+    name: "Égypte antique & Nubie",
+    periods: [
+      { id: "egypte_ancien", label: "Époque thinite & Ancien Empire (-3100 à -2200)" },
+      { id: "egypte_moyen", label: "Moyen Empire & Périodes intermédiaires (-2200 à -1550)" },
+      { id: "egypte_nouvel", label: "Nouvel Empire (-1550 à -1069)" },
+      { id: "egypte_tardive", label: "Basse Époque & Époque saïte (-1069 à -332)" },
+      { id: "egypte_ptolemaique", label: "Époque ptolémaïque / Lagide (-332 à -30)" },
+      { id: "egypte_romaine", label: "Égypte romaine & Portraits du Fayoum (-30 à +395)" }
+    ]
+  },
+  "mesopotamie": {
+    name: "Mésopotamie",
+    periods: [
+      { id: "meso_uruk", label: "Période d'Uruk (-4000 à -3100)" },
+      { id: "meso_dyn_archaiques", label: "Dynasties archaïques (Ur, Lagash, Mari) (-2900 à -2340)" },
+      { id: "meso_akkad", label: "Empire d'Akkad (-2340 à -2150)" },
+      { id: "meso_neo_sumer", label: "Renaissance néo-sumérienne (Ur III) (-2150 à -2000)" },
+      { id: "meso_paleo_babylone", label: "Période amorrite & Paléo-babylonienne (-2000 à -1595)" },
+      { id: "meso_assyrie", label: "Empire assyrien (Nimrud, Ninive) (-1365 à -609)" },
+      { id: "meso_neo_babylone", label: "Empire néo-babylonien (-626 à -539)" }
+    ]
+  },
+  "iran_perse": {
+    name: "Élam & Perse antique",
+    periods: [
+      { id: "iran_suse_proto", label: "Suse I & Proto-élamite (-4000 à -2700)" },
+      { id: "iran_elam", label: "Royaume élamite (-2700 à -1100)" },
+      { id: "iran_fer", label: "Âge du Fer & Bronzes du Luristan (-1000 à -550)" },
+      { id: "iran_achemenide", label: "Empire perse achéménide (-550 à -330)" },
+      { id: "iran_parthe", label: "Empire parthe arsacide (-247 à +224)" }
+    ]
+  },
+  "egee": {
+    name: "Monde égéen (Cyclades, Crète, Mycènes)",
+    periods: [
+      { id: "cyclades", label: "Art cycladique ancien (-3200 à -1900)" },
+      { id: "crete", label: "Art minoen de Crète (-2700 à -1200)" },
+      { id: "mycenes", label: "Art mycénien de Grèce (-1600 à -1100)" }
+    ]
+  },
+  "grece": {
+    name: "Grèce antique",
+    periods: [
+      { id: "grece_geometrique", label: "Époque géométrique (-900 à -700)" },
+      { id: "grece_archaique", label: "Époque archaïque (-700 à -480)" },
+      { id: "grece_classique", label: "Époque classique (-480 à -323)" },
+      { id: "grece_hellenistique", label: "Époque hellénistique (-323 à -31)" }
+    ]
+  },
+  "italie_etrusque": {
+    name: "Italie préromaine & Étrurie",
+    periods: [
+      { id: "etrusque", label: "Civilisation étrusque (-900 à -100)" },
+      { id: "italie_grande_grece", label: "Grande-Grèce (Apulie, Lucanie, Campanie) (-500 à -200)" },
+      { id: "italie_peuples", label: "Peuples italiques (Falisques, Samnium) (-600 à -200)" }
+    ]
+  },
+  "rome": {
+    name: "Rome antique",
+    periods: [
+      { id: "rome_republique", label: "République romaine (-509 à -27)" },
+      { id: "rome_haut_empire", label: "Haut-Empire romain (-27 à +284)" },
+      { id: "rome_bas_empire", label: "Bas-Empire & Antiquité tardive (+284 à +476)" }
+    ]
+  },
+  "chypre": {
+    name: "Chypre antique",
+    periods: [
+      { id: "chypre_bronze", label: "Âge du Bronze chypriote (-2500 à -1050)" },
+      { id: "chypre_archaique", label: "Époque géométrique & archaïque (-1050 à -480)" },
+      { id: "chypre_classique", label: "Époques classique & ptolémaïque (-480 à -30)" }
+    ]
+  },
+  "levant_phenicie": {
+    name: "Levant, Phénicie & Syrie antique",
+    periods: [
+      { id: "amorrite", label: "Bronze levantin & Amorrites (Alalakh, Mari) (-2000 à -1200)" },
+      { id: "phenicie_fer", label: "Cités phéniciennes (Tyr, Byblos, Sidon) (-1200 à -332)" },
+      { id: "lycie_anatolie", label: "Royaume de Lycie & Anatolie (-600 à -300)" }
+    ]
+  },
+  "celte_europe": {
+    name: "Europe celtique & Mégalithes",
+    periods: [
+      { id: "neolithique_megalithes", label: "Néolithique & Mégalithes (-4500 à -2000)" },
+      { id: "celte_bronze", label: "Âge du Bronze européen (-2200 à -800)" },
+      { id: "celte_hallstatt", label: "Premier âge du Fer (Hallstatt) (-800 à -450)" },
+      { id: "celte_fer", label: "Second âge du Fer (La Tène & Gaule) (-450 à -50)" }
+    ]
+  },
+  "islam": {
+    name: "Arts de l'Islam",
+    periods: [
+      { id: "islam_omeyyade", label: "Califat omeyyade (661 - 750)" },
+      { id: "islam_abbasside_aghlabide", label: "Périodes abbasside & aghlabide (750 - 1258)" },
+      { id: "islam_fatimide", label: "Califat fatimide (909 - 1171)" },
+      { id: "islam_ottoman", label: "Empire ottoman (1299 - 1922)" }
+    ]
+  },
+  "occident": {
+    name: "Occident chrétien & moderne",
+    periods: [
+      { id: "occ_medieval_paleo", label: "Paléochrétien & Mérovingien (Ve - VIIIe s.)" },
+      { id: "occ_roman", label: "Art roman (Xe - XIIe s.)" },
+      { id: "occ_gothique", label: "Art gothique (XIIe - XVe s.)" },
+      { id: "occ_renaissance", label: "Renaissance (XVe - XVIe s.)" },
+      { id: "occ_baroque_classique", label: "Âge baroque & Classicisme (XVIIe s.)" },
+      { id: "occ_xviiie", label: "XVIIIe siècle & Siècle des Lumières" },
+      { id: "occ_xixe", label: "XIXe siècle (Romantisme, Réalisme, Symbolisme)" },
+      { id: "occ_xxe_moderne", label: "XXe siècle & Art contemporain / conceptuel" }
+    ]
+  },
+  "canaries": {
+    name: "Mondes insulaires & Canaries",
+    periods: [
+      { id: "canaries", label: "Anciens Canariens (Guanches) (Ve s. av. J.-C. - XVe s.)" },
+      { id: "rapa_nui", label: "Culture de Rapa Nui (Île de Pâques) (XIe - XVIIe s.)" }
+    ]
+  }
+};
+
+// 2. Référentiel des domaines techniques et typologies d'artefacts
+const TAXONOMY_DOMAINS = {
+  "ceramique": {
+    label: "Céramique, Terres cuites & Vases",
+    types: [
+      "Amphore", "Cratère", "Hydrie", "Kylix / Coupe", "Lécythe", "Oenochoé",
+      "Rhyton", "Kernos", "Pithos / Jarre", "Vase plastique / Zoomorphe",
+      "Vase balustre", "Lampe à huile", "Plat & Céramique fine", "Antéfixe / Plaque architecturale"
+    ]
+  },
+  "sculpture_statuaire": {
+    label: "Sculpture & Statuaire",
+    types: [
+      "Statuaire royale & divine (ronde-bosse)", "Statuaire privée & portraits",
+      "Figurine votive / Ex-voto", "Bas-relief & Relief en creux",
+      "Décor architectural (fronton, frise, métope, chapiteau)",
+      "Frise en briques émaillées", "Monolithe / Stèle sculptée",
+      "Sculpture monumentale extérieure (fontaine, calvaire, moaï)"
+    ]
+  },
+  "espace_sacre": {
+    label: "Espace sacré, Architecture & Décor religieux",
+    types: [
+      "Nef d'église / cathédrale", "Plafond & Voûte peinte / astronomique",
+      "Cloître", "Portail & Tympan d'église", "Retable & Chaire",
+      "Vitrail", "Enclos sacré / Temple"
+    ]
+  },
+  "funeraire": {
+    label: "Arts funéraires & Momification",
+    types: [
+      "Sarcophage humain (cuve, bois, pierre)", "Sarcophage & Momie animale",
+      "Masque funéraire & Cartonnage", "Portrait du Fayoum",
+      "Coffre & Vases canopes", "Larnax", "Figurine funéraire / Ouchebti",
+      "Chambre funéraire / Hypogée", "Fausse porte", "Monument / Tombeau rupestre"
+    ]
+  },
+  "peinture_mosaique": {
+    label: "Peinture murale, Tableaux & Mosaïque",
+    types: [
+      "Peinture murale / Fresque", "Peinture pariétale rupestre",
+      "Peinture sur panneau de bois", "Peinture sur toile (chevalet)",
+      "Mosaïque de pavement / murale"
+    ]
+  },
+  "parures_metaux": {
+    label: "Orfèvrerie, Armes & Métallurgie",
+    types: [
+      "Parure en or / Argent / Bronze", "Torque & Bracelet",
+      "Armement d'apparat (épée, poignard, casque)",
+      "Dépôt métallurgique & Haches", "Numismatique (monnaie)", "Glyptique (sceau-cylindre, intaille)"
+    ]
+  },
+  "vie_quotidienne": {
+    label: "Vie quotidienne, Sciences, Usages & Écriture",
+    types: [
+      "Tablette cunéiforme / Document écrit", "Stèle administrative / Décret",
+      "Mobilier domestique & Apparat", "Cosmétique, Toilette & Beauté",
+      "Sciences & Instruments (astrolabe, mesure)", "Verrerie profane",
+      "Jeux, Théâtre & Musique"
+    ]
+  }
+};
+
+/* ==========================================================================
+   INITIALISATION DU MOTEUR EN CASCADE
+   ========================================================================== */
 let currentRenderLimit = 60;
 const PAGE_CHUNK = 60;
 
 function initSearchEngine() {
-  const catalog = window.ART_OBJECTS || [];
+  const filterCiv = document.getElementById('filter-civ');
+  const filterPeriod = document.getElementById('filter-period');
+  const filterDomain = document.getElementById('filter-domain');
+  const filterType = document.getElementById('filter-type');
+  const filterText = document.getElementById('filter-text');
+  const filterSort = document.getElementById('filter-sort');
+  const btnReset = document.getElementById('btn-reset-filters');
+  const btnLoadMore = document.getElementById('btn-load-more');
 
-  // Remplissage dynamique des menus déroulants sans doublons
-  populateSelect(filterCiv, [...new Set(catalog.map(o => o.civName))].filter(Boolean));
-  populateSelect(filterSiecle, [...new Set(catalog.map(o => o.century))].filter(Boolean));
-  populateSelect(filterCat, [...new Set(catalog.map(o => o.category))].filter(Boolean));
+  // 1. Remplissage des menus mères (Civilisations & Domaines)
+  if (filterCiv) {
+    filterCiv.innerHTML = '<option value="all">Toutes les civilisations</option>';
+    Object.keys(TAXONOMY_CIVILISATIONS).forEach(k => {
+      const opt = document.createElement('option');
+      opt.value = k;
+      opt.textContent = TAXONOMY_CIVILISATIONS[k].name;
+      filterCiv.appendChild(opt);
+    });
+  }
 
-  filterCiv.addEventListener('change', () => { currentRenderLimit = PAGE_CHUNK; renderSearchGallery(); });
-  filterSiecle.addEventListener('change', () => { currentRenderLimit = PAGE_CHUNK; renderSearchGallery(); });
-  filterCat.addEventListener('change', () => { currentRenderLimit = PAGE_CHUNK; renderSearchGallery(); });
-  filterText.addEventListener('input', () => { currentRenderLimit = PAGE_CHUNK; renderSearchGallery(); });
-  if (filterSort) filterSort.addEventListener('change', () => { currentRenderLimit = PAGE_CHUNK; renderSearchGallery(); });
+  if (filterDomain) {
+    filterDomain.innerHTML = '<option value="all">Tous les domaines</option>';
+    Object.keys(TAXONOMY_DOMAINS).forEach(k => {
+      const opt = document.createElement('option');
+      opt.value = k;
+      opt.textContent = TAXONOMY_DOMAINS[k].label;
+      filterDomain.appendChild(opt);
+    });
+  }
 
-  btnReset.addEventListener('click', () => {
-    filterCiv.value = '';
-    filterSiecle.value = '';
-    filterCat.value = '';
-    filterText.value = '';
-    if (filterSort) filterSort.value = 'recent';
-    currentRenderLimit = PAGE_CHUNK;
-    renderSearchGallery();
-  });
+  // 2. Cascade : Civilisation -> Périodes autorisées
+  function updatePeriodDropdown() {
+    if (!filterPeriod) return;
+    const selectedCiv = filterCiv ? filterCiv.value : 'all';
+    filterPeriod.innerHTML = '<option value="all">Toutes les périodes</option>';
+
+    if (selectedCiv === 'all') {
+      Object.keys(TAXONOMY_CIVILISATIONS).forEach(ck => {
+        TAXONOMY_CIVILISATIONS[ck].periods.forEach(p => {
+          const opt = document.createElement('option');
+          opt.value = p.id;
+          opt.textContent = `${TAXONOMY_CIVILISATIONS[ck].name} : ${p.label}`;
+          filterPeriod.appendChild(opt);
+        });
+      });
+    } else if (TAXONOMY_CIVILISATIONS[selectedCiv]) {
+      TAXONOMY_CIVILISATIONS[selectedCiv].periods.forEach(p => {
+        const opt = document.createElement('option');
+        opt.value = p.id;
+        opt.textContent = p.label;
+        filterPeriod.appendChild(opt);
+      });
+    }
+  }
+
+  // 3. Cascade : Domaine -> Typologies autorisées
+  function updateTypeDropdown() {
+    if (!filterType) return;
+    const selectedDom = filterDomain ? filterDomain.value : 'all';
+    filterType.innerHTML = '<option value="all">Toutes les formes / typologies</option>';
+
+    if (selectedDom === 'all') {
+      const allTypes = new Set();
+      Object.values(TAXONOMY_DOMAINS).forEach(d => d.types.forEach(t => allTypes.add(t)));
+      Array.from(allTypes).sort((a,b) => a.localeCompare(b, 'fr')).forEach(t => {
+        const opt = document.createElement('option');
+        opt.value = t;
+        opt.textContent = t;
+        filterType.appendChild(opt);
+      });
+    } else if (TAXONOMY_DOMAINS[selectedDom]) {
+      TAXONOMY_DOMAINS[selectedDom].types.forEach(t => {
+        const opt = document.createElement('option');
+        opt.value = t;
+        opt.textContent = t;
+        filterType.appendChild(opt);
+      });
+    }
+  }
+
+  updatePeriodDropdown();
+  updateTypeDropdown();
+
+  // Écouteurs de changement
+  if (filterCiv) {
+    filterCiv.addEventListener('change', () => {
+      updatePeriodDropdown();
+      currentRenderLimit = PAGE_CHUNK;
+      renderSearchGallery();
+    });
+  }
+
+  if (filterPeriod) {
+    filterPeriod.addEventListener('change', () => {
+      currentRenderLimit = PAGE_CHUNK;
+      renderSearchGallery();
+    });
+  }
+
+  if (filterDomain) {
+    filterDomain.addEventListener('change', () => {
+      updateTypeDropdown();
+      currentRenderLimit = PAGE_CHUNK;
+      renderSearchGallery();
+    });
+  }
+
+  if (filterType) {
+    filterType.addEventListener('change', () => {
+      currentRenderLimit = PAGE_CHUNK;
+      renderSearchGallery();
+    });
+  }
+
+  if (filterText) {
+    filterText.addEventListener('input', () => {
+      currentRenderLimit = PAGE_CHUNK;
+      renderSearchGallery();
+    });
+  }
+
+  if (filterSort) {
+    filterSort.addEventListener('change', () => {
+      currentRenderLimit = PAGE_CHUNK;
+      renderSearchGallery();
+    });
+  }
+
+  if (btnReset) {
+    btnReset.addEventListener('click', () => {
+      if (filterCiv) filterCiv.value = 'all';
+      if (filterDomain) filterDomain.value = 'all';
+      updatePeriodDropdown();
+      updateTypeDropdown();
+      if (filterText) filterText.value = '';
+      if (filterSort) filterSort.value = 'recent';
+      currentRenderLimit = PAGE_CHUNK;
+      renderSearchGallery();
+    });
+  }
 
   if (btnLoadMore) {
     btnLoadMore.addEventListener('click', () => {
@@ -1155,56 +1453,109 @@ function initSearchEngine() {
       renderSearchGallery();
     });
   }
+
+  renderSearchGallery();
 }
 
-function populateSelect(selectEl, valuesArray) {
-  if (!selectEl) return;
-  valuesArray.sort((a, b) => a.localeCompare(b, 'fr', { numeric: true }));
-  valuesArray.forEach(val => {
-    const opt = document.createElement('option');
-    opt.value = val;
-    opt.textContent = val;
-    selectEl.appendChild(opt);
-  });
-}
-
+/* ==========================================================================
+   RENDU DE LA GALERIE AVEC DOUBLE COMPATIBILITÉ (ANCIEN & NOUVEAU SCHÉMA)
+   ========================================================================== */
 function renderSearchGallery() {
   const catalog = window.ART_OBJECTS || [];
-  const selectedCiv = filterCiv.value;
-  const selectedSiecle = filterSiecle.value;
-  const selectedCat = filterCat.value;
-  const query = filterText.value.toLowerCase().trim();
+  const filterCiv = document.getElementById('filter-civ');
+  const filterPeriod = document.getElementById('filter-period');
+  const filterDomain = document.getElementById('filter-domain');
+  const filterType = document.getElementById('filter-type');
+  const filterText = document.getElementById('filter-text');
+  const filterSort = document.getElementById('filter-sort');
+  const searchCount = document.getElementById('search-count');
+  const galleryGrid = document.getElementById('search-gallery-grid');
+  const loadMoreBox = document.getElementById('load-more-container');
+  const totalObjCount = document.getElementById('total-objects-count');
 
-  // Index d'origine conservé : l'objet collé tout en haut a l'index 0
+  const selectedCiv = filterCiv ? filterCiv.value : 'all';
+  const selectedPeriod = filterPeriod ? filterPeriod.value : 'all';
+  const selectedDomain = filterDomain ? filterDomain.value : 'all';
+  const selectedType = filterType ? filterType.value : 'all';
+  const query = filterText ? filterText.value.toLowerCase().trim() : '';
+
   let filtered = catalog.map((item, idx) => ({ ...item, _idx: idx })).filter(item => {
-    const matchCiv = !selectedCiv || item.civName === selectedCiv;
-    const matchSiecle = !selectedSiecle || item.century === selectedSiecle;
-    const matchCat = !selectedCat || item.category === selectedCat;
-    const matchText = !query || 
-      (item.title && item.title.toLowerCase().includes(query)) ||
-      (item.site && item.site.toLowerCase().includes(query)) ||
-      (item.chips && item.chips.some(c => c.toLowerCase().includes(query)));
-    return matchCiv && matchSiecle && matchCat && matchText;
+    // 1. Filtre Civilisation (compatible civId "egypte_ancien" et civId "egypte")
+    if (selectedCiv !== 'all') {
+      const cId = item.civId || '';
+      if (selectedCiv === 'egypte' && !cId.startsWith('egypte')) return false;
+      else if (selectedCiv === 'egee' && !['cyclades', 'crete', 'mycenes'].includes(cId)) return false;
+      else if (selectedCiv === 'chypre' && !cId.startsWith('chypre')) return false;
+      else if (selectedCiv === 'celte_europe' && !cId.startsWith('celte')) return false;
+      else if (selectedCiv === 'levant_phenicie' && !['amorrite', 'syrie_bronze', 'phenicie_fer'].includes(cId)) return false;
+      else if (selectedCiv === 'canaries' && cId !== 'canaries') return false;
+      else if (!['egypte', 'egee', 'chypre', 'celte_europe', 'levant_phenicie', 'canaries'].includes(selectedCiv)) {
+        if (!cId.startsWith(selectedCiv)) return false;
+      }
+    }
+
+    // 2. Filtre Période (stricte égalité, élimine le bug XVIe / VIe)
+    if (selectedPeriod !== 'all') {
+      const pId = item.periodId || item.civId;
+      if (pId !== selectedPeriod) return false;
+    }
+
+    // 3. Filtre Domaine technique
+    if (selectedDomain !== 'all') {
+      if (item.domain) {
+        if (item.domain !== selectedDomain) return false;
+      } else {
+        // Déduction de secours pour les fiches non encore migrées
+        const cat = (item.category || '').toLowerCase();
+        if (selectedDomain === 'ceramique' && !cat.includes('céramique') && !cat.includes('vase')) return false;
+        if (selectedDomain === 'sculpture_statuaire' && !cat.includes('statue') && !cat.includes('sculpture') && !cat.includes('bas-relief') && !cat.includes('relief')) return false;
+        if (selectedDomain === 'funeraire' && !cat.includes('funéraire') && !cat.includes('canope') && !cat.includes('larnax') && !cat.includes('momie')) return false;
+        if (selectedDomain === 'peinture_mosaique' && !cat.includes('peinture') && !cat.includes('fresque')) return false;
+        if (selectedDomain === 'parures_metaux' && !cat.includes('orfèvrerie') && !cat.includes('métallurgie') && !cat.includes('dépôt')) return false;
+      }
+    }
+
+    // 4. Filtre Typologie
+    if (selectedType !== 'all') {
+      const target = selectedType.toLowerCase();
+      const aType = (item.artifactType || '').toLowerCase();
+      const cat = (item.category || '').toLowerCase();
+      const tit = (item.title || '').toLowerCase();
+      if (!aType.includes(target) && !cat.includes(target) && !tit.includes(target)) return false;
+    }
+
+    // 5. Recherche libre (artiste, lieu, matière, titre)
+    if (query) {
+      const matchTitle = item.title && item.title.toLowerCase().includes(query);
+      const matchSite = item.site && item.site.toLowerCase().includes(query);
+      const matchNarrative = item.narrative && item.narrative.toLowerCase().includes(query);
+      const matchChips = item.chips && item.chips.some(c => c.toLowerCase().includes(query));
+      const matchArtist = item.artist && item.artist.toLowerCase().includes(query);
+      if (!matchTitle && !matchSite && !matchNarrative && !matchChips && !matchArtist) return false;
+    }
+
+    return true;
   });
 
+  // Tri
   const sortMode = filterSort ? filterSort.value : 'recent';
   if (sortMode === 'alpha-asc') {
     filtered.sort((a, b) => (a.title || '').localeCompare(b.title || '', 'fr'));
   } else if (sortMode === 'alpha-desc') {
     filtered.sort((a, b) => (b.title || '').localeCompare(a.title || '', 'fr'));
+  } else if (sortMode === 'chrono-asc') {
+    filtered.sort((a, b) => (a.centuryNumeric || 0) - (b.centuryNumeric || 0));
+  } else if (sortMode === 'chrono-desc') {
+    filtered.sort((a, b) => (b.centuryNumeric || 0) - (a.centuryNumeric || 0));
   } else if (sortMode === 'recent') {
-    // Le premier objet déclaré dans le fichier apparaît en tête de liste
     filtered.sort((a, b) => a._idx - b._idx);
   }
 
   if (searchCount) searchCount.textContent = filtered.length;
-  if (totalObjectsCount) {
-    totalObjectsCount.textContent = catalog.length;
-  }
+  if (totalObjCount) totalObjCount.textContent = catalog.length;
   if (!galleryGrid) return;
   galleryGrid.innerHTML = '';
 
-  // Découpage par tranche de 60
   const itemsToDisplay = filtered.slice(0, currentRenderLimit);
 
   itemsToDisplay.forEach(art => {
@@ -1217,11 +1568,11 @@ function renderSearchGallery() {
       </div>
       <div class="gallery-card-body">
         <div class="gallery-card-meta-top">
-          <span class="gallery-card-tag">${art.category || 'ART'}</span>
+          <span class="gallery-card-tag">${art.artifactType || art.category || 'ART'}</span>
           <span class="gallery-card-civ">${art.civName || ''}</span>
         </div>
         <div class="gallery-card-title">${art.title}</div>
-        <div class="gallery-card-century">${art.century || ''}</div>
+        <div class="gallery-card-century">${art.centuryDisplay || art.century || ''}</div>
       </div>
     `;
 
@@ -1232,7 +1583,6 @@ function renderSearchGallery() {
     galleryGrid.appendChild(card);
   });
 
-  // Affichage du bouton Voir plus si le total dépasse la limite actuelle
   if (loadMoreBox) {
     loadMoreBox.hidden = currentRenderLimit >= filtered.length;
   }
