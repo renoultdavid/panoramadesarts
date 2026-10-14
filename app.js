@@ -1650,7 +1650,8 @@ function renderSearchGallery() {
     if (selectedCiv !== 'all') {
       const cId = item.civId || '';
       if (selectedCiv === 'egypte' && !cId.startsWith('egypte')) return false;
-      else if (selectedCiv === 'egee' && !['cyclades', 'crete', 'mycenes'].includes(cId)) return false;
+      // NOUVELLE LIGNE :
+else if (selectedCiv === 'egee' && cId !== 'egee' && !['cyclades', 'crete', 'mycenes'].includes(cId)) return false;
       else if (selectedCiv === 'chypre' && !cId.startsWith('chypre')) return false;
       else if (selectedCiv === 'celte_europe' && !cId.startsWith('celte')) return false;
       else if (selectedCiv === 'levant_phenicie' && !['amorrite', 'syrie_bronze', 'phenicie_fer'].includes(cId)) return false;
