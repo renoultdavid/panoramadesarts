@@ -2121,6 +2121,11 @@ body {
 .search-gallery-container::-webkit-scrollbar-thumb:hover {
   background: var(--gold-pure);
 }
+/* Suppression définitive du grand bandeau image dans la modale d'objet */
+#modal-dept-banner-box,
+.modal-dept-banner-box {
+  display: none !important;
+}
 /* =========================================================
    NOUVEAU BANDEAU TITRE SUPÉRIEUR (MODALE D'EXPOSITION)
    ========================================================= */
