@@ -638,7 +638,7 @@ const CIVILISATIONS_REGISTRY = [
 window.addEventListener('DOMContentLoaded', () => {
   if (window.ART_OBJECTS && window.ART_OBJECTS.length > 0) {
     CIVILISATIONS_REGISTRY.forEach(civ => {
-      civ.artifacts = window.ART_OBJECTS.filter(obj => obj.civId === civ.id && obj.isHighlight === true);
+      civ.artifacts = window.ART_OBJECTS.filter(obj => (obj.civId === civ.id || obj.periodId === civ.id) && obj.isHighlight === true);
     });
   }
   buildTimelineBlocks();
