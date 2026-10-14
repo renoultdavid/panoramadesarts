@@ -139,6 +139,21 @@
         </div>
       </div>
 
+      <!-- Index alphabétique A-Z pour les peintres -->
+      <div class="artists-alphabet-bar" id="artists-alphabet-bar">
+        <span class="alphabet-title">🎨 PEINTRES (A-Z) :</span>
+        <div class="alphabet-letters" id="alphabet-letters"></div>
+      </div>
+      <!-- Tiroir déroulant affichant les artistes de la lettre cliquée -->
+      <div class="artists-drawer" id="artists-drawer" hidden>
+        <div class="artists-drawer-header">
+          <span id="artists-drawer-letter" class="drawer-letter-badge">A</span>
+          <span class="drawer-letter-count" id="artists-drawer-count">0 peintre</span>
+          <button class="btn-close-drawer-letter" id="btn-close-artists-drawer" title="Fermer">✕</button>
+        </div>
+        <div class="artists-drawer-list" id="artists-drawer-list"></div>
+      </div>
+
       <div class="filter-status-row">
         <div class="results-counter">
           Résultats filtrés : <strong id="search-count">0</strong>
