@@ -6,6 +6,231 @@ window.ART_OBJECTS = window.ART_OBJECTS || [];
 window.ART_OBJECTS.push(
 
 {
+    id: "rhyton_conique_thebes_louvre",
+    civId: "egee",
+    periodId: "mycenes",
+    civName: "Art Mycénien (Grèce)",
+    century: "XVe siècle av. J.-C. (Helladique Récent I / II)",
+    centuryDisplay: "XVe s. av. J.-C.",
+    centuryNumeric: -1450,
+    domain: "ceramique",
+    artifactType: "Rhyton",
+    title: "Rhyton conique à décor de hachures et de chevrons",
+    site: "Musée du Louvre (Paris / prov. Thèbes, Béotie)",
+    originSite: "Thèbes (Béotie, Grèce)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre (Paris)",
+    category: "Vase à libation",
+    isHighlight: false,
+    chips: ["Helladique Récent I", "Thèbes", "Rhyton conique", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczO9y7J4Fs9NQ8vJdsyKoshR0t6OeaOgLmMKDFI1B7IUSiL8aZQm0J4FH_xpcem6jkVd67K3bKUdQuIwTQahJYklZL8DV2QAN3rFZokdevlColFGD8D5K-6gMCdxrJcnyANUtksDrupCJpePjBz3fAdXIA=w1818-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Ce rhyton présente une forme conique allongée et effilée, caractéristique des vases à libations utilisés dans le monde mycénien à l'aube de son expansion. L'objet est doté d'une embouchure large avec un rebord annulaire épais et saillant, tandis que sa pointe inférieure est percée d'un orifice étroit permettant l'écoulement rituel du liquide. Cette morphologie, héritée des modèles minoens, témoigne de la transmission des usages religieux crétois vers le continent grec au cours de la phase de l'Helladique Récent I. Sa structure élancée suggère une manipulation cérémonielle précise, le liquide étant versé par le haut avant d'être libéré goutte à goutte sur un autel ou dans une fosse sacrée.</p>
+    <p>Le décor pictural est organisé en registres horizontaux qui rythment la hauteur du vase, alternant des zones claires et des bandes sombres. La panse est divisée en plusieurs panneaux verticaux décorés de motifs de hachures ou de lignes parallèles ondulées, évoquant peut-être des éléments végétaux stylisés ou des motifs textiles. Des bandes de vernis brun-noir plus larges soulignent les articulations de l'objet, notamment sous le rebord et dans la partie médiane, créant un contraste vigoureux avec la teinte crème de l'argile. Cette syntaxe décorative, encore imprégnée de l'influence cycladique et minoenne, montre déjà la rigueur structurelle propre aux ateliers de Thèbes.</p>
+    <p>La provenance thébaine de ce rhyton est significative, car elle confirme que la cité de Béotie était déjà un centre de pouvoir et de production artistique majeur dès le XVe siècle avant J.-C. L'objet reflète une période où l'élite mycénienne adopte les codes de prestige de l'époque, mêlant fonctionnalité rituelle et recherche esthétique. La schématisation des motifs hachurés annonce l'évolution vers le style "style du Palais" continental, où la géométrisation du décor va progressivement l'emporter sur le dynamisme naturaliste des siècles précédents.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. | <strong>Civilisation :</strong> Monde égéen (Art Mycénien) | <strong>Sous-partie :</strong> Céramiques.</p>`
+  },
+  {
+    id: "rhyton_conique_pieuvre_camiros_louvre",
+    civId: "egee",
+    periodId: "mycenes",
+    civName: "Art Mycénien (Grèce)",
+    century: "v. -1300 av. J.-C. (Helladique Récent III A2)",
+    centuryDisplay: "v. -1300 av. J.-C.",
+    centuryNumeric: -1300,
+    domain: "ceramique",
+    artifactType: "Rhyton",
+    title: "Rhyton conique à décor de pieuvre stylisée",
+    site: "Musée du Louvre (Paris / prov. Camiros, Rhodes)",
+    originSite: "Camiros (Rhodes, Grèce)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre (Paris)",
+    category: "Vase à libation",
+    isHighlight: false,
+    chips: ["Helladique Récent III A", "Camiros (Rhodes)", "Motif marin", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPXHDT-Y3eGy37zILyDTUJRx0vCHFVDFYoAqV-KevLmBC0HJASdP3u15G4nd31zLvp-yidjkNp98S8JOKD6EEBr4uZJQlLazHNC6Y5R620YjT9iR47OgNuudjI1TwGcv-2rTk4FmemCD-LJwb163ATHvQ=w1818-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Ce rhyton se présente sous une forme conique allongée et effilée, caractéristique des vases à libations de la période mycénienne. L'objet, réalisé en terre cuite fine, est doté d'une embouchure large avec un rebord plat et évasé, tandis que la pointe inférieure est percée pour permettre l'écoulement contrôlé des liquides lors de rituels religieux. La structure est élégante, offrant une silhouette élancée qui servait aussi bien à la manipulation cérémonielle qu'à l'exposition de la richesse de son propriétaire.</p>
+    <p>Le décor peint en brun-noir sur le fond clair de l'argile est dominé par un motif stylisé de pieuvre ou de mollusque marin, typique du répertoire "style du Palais" tardif ou des phases de transition vers le mycénien récent. L'animal est simplifié à l'extrême : un corps central piriforme d'où s'élèvent deux grands yeux circulaires, surmontés de tentacules qui s'étirent verticalement en épousant la forme évasée du vase. Ces lignes courbes et fluides créent un dynamisme visuel, tandis que des volutes et des spirales secondaires viennent combler les espaces vides sur les côtés.</p>
+    <p>La base du vase est ornée d'une série de bandes horizontales parallèles, de plus en plus serrées vers la pointe, qui contrastent avec la liberté organique du motif marin supérieur. Ce jeu de géométrie apporte une stabilité visuelle à la pièce. L'usage de tels objets en Argolide, exportés jusqu'à Rhodes comme en témoigne la découverte à Camiros, souligne l'homogénéité culturelle et commerciale du monde mycénien au XIVe siècle avant J.-C., où les thèmes naturalistes marins hérités de la Crète minoenne sont réinterprétés avec une rigueur plus formelle.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1300) | <strong>Civilisation :</strong> Monde égéen (Art Mycénien) | <strong>Sous-partie :</strong> Céramiques.</p>`
+  },
+  {
+    id: "rhyton_sanglier_ougarit_louvre",
+    civId: "egee",
+    periodId: "mycenes",
+    civName: "Art Mycénien (Grèce)",
+    century: "v. -1400 av. J.-C. (Helladique Récent III A1)",
+    centuryDisplay: "v. -1400 av. J.-C.",
+    centuryNumeric: -1400,
+    domain: "ceramique",
+    artifactType: "Rhyton",
+    title: "Rhyton zoomorphe en tête de sanglier",
+    site: "Musée du Louvre (Paris / prov. Ras Shamra - Ougarit)",
+    originSite: "Ras Shamra / Ougarit (Levant)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre (Paris)",
+    category: "Céramique zoomorphe",
+    isHighlight: false,
+    chips: ["Helladique Récent III", "Importation égéenne", "Tête de sanglier", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMd3EyYEW_CiofxsnQsMGGprWJL6KvzCKG6Z8ZZidIfHgAn1GQFkE5y5-k6JfcUtktCDdcm8kO32z4rKjxutTuEs9viQ1dDlNl-519qCl1xLLqD5hdnTmsc_jCyAa5xnndhU0WX6aZ7n0TGPTSyTSC9PQ=w1818-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Ce second rhyton zoomorphe, également façonné en terre cuite, représente une tête de sanglier avec une économie de moyens et une stylisation qui diffèrent légèrement de l'exemplaire précédent. La forme générale de l'animal est immédiatement identifiable grâce à son groin cylindrique et massif, qui fait office de déversoir pour les libations. L'objet présente une structure robuste, avec des parois assez épaisses, et une morphologie qui privilégie la fonctionnalité rituelle. On devine encore l'amorce des oreilles sur la partie supérieure, bien que l'usure du temps ait quelque peu émoussé les reliefs les plus saillants.</p>
+    <p>Le décor de ce rhyton se distingue par une approche iconographique plus sobre et structurée. Au lieu d'une couverture ornementale dense, l'artiste a ici opté pour des motifs géométriques isolés, peints dans des tons bruns et ocre. On observe sur les flancs de la tête des cartouches ou des motifs en forme de boucliers contenant des demi-cercles concentriques et des lignes courbes. Ces éléments décoratifs, bien que moins profus, sont caractéristiques du répertoire stylistique mycénien exporté au Levant. Ils témoignent d'une recherche d'équilibre entre les surfaces nues de l'argile claire et les zones peintes, mettant l'accent sur la clarté de la composition.</p>
+    <p>Issu du site de Ras Shamra (Ougarit), cet objet souligne une nouvelle fois l'adoption des coutumes de prestige égéennes par les sociétés syro-palestiniennes de l'âge du Bronze récent. L'usage de tels récipients zoomorphes lors de banquets ou de cérémonies religieuses montre une certaine homogénéisation des pratiques sociales au sein des cours royales de l'époque. Ce rhyton n'est pas seulement un vase, mais un marqueur de statut social et un témoin des connexions maritimes et culturelles qui unissaient la Grèce mycénienne et les royaumes du Proche-Orient.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1400) | <strong>Civilisation :</strong> Monde égéen (Art Mycénien) | <strong>Sous-partie :</strong> Céramiques.</p>`
+  },
+  {
+    id: "vase_zoomorphe_poisson_minet_louvre",
+    civId: "egee",
+    periodId: "mycenes",
+    civName: "Art Mycénien (Grèce)",
+    century: "XIVe siècle av. J.-C. (Helladique Récent III A)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1350,
+    domain: "ceramique",
+    artifactType: "Vase plastique / Zoomorphe",
+    title: "Vase plastique zoomorphe en forme de poisson marin",
+    site: "Musée du Louvre (Paris / prov. Minet el-Beida - Ougarit)",
+    originSite: "Minet el-Beida (Ougarit, Levant)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre (Paris)",
+    category: "Vase d'apparat",
+    isHighlight: false,
+    chips: ["Helladique Récent III A", "Minet el-Beida", "Vase poisson", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNQyaBuAFu_mqZKONfWOeyRxtsFj2xkorh3gGPvxajtw9jX107AudwaPw-P-nGDrPCpjdWgymWP6rx7AqTQXT51M9gl3fEUwMR9m6kwqRyObI-kFMc2xzuutIiWIpQoCKob2gumReOgw7PYEkIMhjGsDA=w1818-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Ce vase plastique zoomorphe, façonné en terre cuite, prend la forme d'un poisson dont la silhouette hydrodynamique témoigne d'une observation attentive de la faune marine. L'objet repose de manière stable sur ses nageoires inférieures, transformées ici en supports pour permettre au récipient de tenir debout de manière autonome. La structure est ingénieusement conçue pour allier figuration animale et utilité : le corps du poisson forme la panse destinée à contenir un liquide, tandis qu'un goulot vertical surmonté d'une anse se dresse sur le dos de l'animal. Ce dispositif permettait de remplir le vase et d'en verser le contenu avec précision, faisant de cet objet une pièce de vaisselle d'apparat sophistiquée.</p>
+    <p>Le décor peint sur l'engobe clair de l'argile renforce le réalisme stylisé de la pièce. De fines lignes verticales et légèrement ondulées recouvrent les flancs, suggérant à la fois la texture des écailles et les reflets de l'eau sur le corps de l'animal. L'œil est marqué par un large cerne sombre, donnant une expression vive à la tête pointue. Les nageoires, traitées avec une grande rigueur géométrique, sont soulignées par des bandes parallèles qui contrastent avec la fluidité des lignes du corps. Cette esthétique, qui privilégie les thèmes aquatiques, est caractéristique du répertoire décoratif mycénien du Bronze récent, où la mer constitue une source d'inspiration inépuisable pour les artisans.</p>
+    <p>Mis au jour dans la prestigieuse tombe V de Minet el-Beida, le port de l'ancienne cité d'Ougarit, ce vase illustre la richesse des échanges en Méditerranée orientale. Sa présence dans un contexte funéraire de haut rang indique qu'il s'agissait d'un bien de luxe, probablement utilisé lors de rituels de libation ou pour conserver des substances précieuses comme des huiles parfumées. En tant qu'importation mycénienne sur la côte levantine, ce vase en forme de poisson symbolise la fusion des savoir-faire artistiques grecs et des circuits commerciaux qui reliaient les grandes puissances de l'âge du Bronze.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. | <strong>Civilisation :</strong> Monde égéen (Art Mycénien) | <strong>Sous-partie :</strong> Céramiques.</p>`
+  },
+  {
+    id: "rhyton_poisson_minet_el_beida_louvre",
+    civId: "egee",
+    periodId: "mycenes",
+    civName: "Art Mycénien (Grèce)",
+    century: "XIVe siècle av. J.-C. (Helladique Récent III A)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1350,
+    domain: "ceramique",
+    artifactType: "Rhyton",
+    title: "Rhyton zoomorphe en poisson à décor géométrique",
+    site: "Musée du Louvre (Paris / prov. Minet el-Beida - Ougarit)",
+    originSite: "Minet el-Beida (Ougarit, Levant)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre (Paris)",
+    category: "Vase à libation",
+    isHighlight: false,
+    chips: ["Helladique Récent III A", "Minet el-Beida", "Rhyton poisson", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMPrjAVv0lvdSBisuP2JjNGCCP_Kn0jkAxH2xmPXAnCz2qlFbZad3hcCdxiZXe-BNWj_Vx5jabIp8jAbFRbfLALs2rWSm29C_Ue2aBwDpXN3aTUgs4_C1I3RBp-CL6amfXqKaL_1dr6Jt1H4fnQEqlPFA=w2158-h1625-s-no-gm?authuser=0",
+    narrative: `<p>Ce remarquable vase à libation, désigné sous le terme de rhyton, se distingue par sa silhouette zoomorphe naturaliste figurant un poisson. Façonné en terre cuite, l'objet présente un corps fuselé dont les détails anatomiques, tels que les yeux globuleux et les nageoires, sont suggérés par le modelage et rehaussés par un décor peint. La partie supérieure du dos est surmontée d'un goulot vertical évasé, flanqué d'une anse unique en ruban facilitant la préhension lors des rituels. La surface de la céramique est animée par des motifs géométriques et circulaires tracés à l'ocre, typiques du répertoire ornemental de l'époque, qui soulignent la structure de l'animal tout en lui conférant une dimension stylisée propre aux productions de la fin de l'âge du Bronze.</p>
+    <p>Découvert sur le site de Minet el-Beida, l'ancien port de la cité-état d'Ougarit, ce rhyton témoigne des échanges culturels et commerciaux intenses qui caractérisaient le Levant Nord. Sa facture révèle une influence mycénienne manifeste, illustrant la circulation des modèles esthétiques et des techniques céramiques entre le monde égéen et les côtes syro-palestiniennes. L'usage de tels récipients dans un contexte portuaire suggère des pratiques rituelles liées à la mer ou des offrandes funéraires déposées dans les nécropoles environnantes pour garantir la protection des défunts ou le succès des expéditions maritimes.</p>
+    <p>L'état de conservation de la pièce permet d'apprécier la finesse du travail de l'argile, malgré les cassures anciennes qui ont été soigneusement restaurées. Les motifs peints, bien que partiellement érodés par le temps, conservent une lisibilité suffisante pour identifier les spirales et les réseaux de lignes qui recouvrent les flancs du poisson. Ce type d'objet, à la fois utilitaire et symbolique, constitue un précieux témoin de l'art de vivre et des croyances religieuses des populations ougaritiques, à la croisée des chemins entre les grandes puissances de la Méditerranée orientale.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. | <strong>Civilisation :</strong> Monde égéen (Art Mycénien) | <strong>Sous-partie :</strong> Céramiques.</p>`
+  },
+  {
+    id: "vase_etrier_spirales_louvre",
+    civId: "egee",
+    periodId: "mycenes",
+    civName: "Art Mycénien (Grèce)",
+    century: "XIVe - XIe siècle av. J.-C. (Helladique Récent III)",
+    centuryDisplay: "XIVe - XIe s. av. J.-C.",
+    centuryNumeric: -1250,
+    domain: "ceramique",
+    artifactType: "Amphore",
+    title: "Vase à étrier globulaire à décor de spirales courantes",
+    site: "Musée du Louvre (Paris / prov. Grèce égéenne)",
+    originSite: "Grèce continentale ou Rhodes",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre (Paris)",
+    category: "Vase de transport",
+    isHighlight: false,
+    chips: ["Helladique Récent III", "Vase à étrier", "Spirales courantes", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNlvg-SJ9tW8Co1nKYMsf9dy8tXAfDfHKO8R6LteMVh5Cs9A454MFnRrQ3QcSLYP88jh9-mqcmGaqWA89ZbVMzWy-PlbKih85EwpsuHdkjBUUhLITefq916peCq1crFVjS4BFcMY0adZbK5ee-55YJuPw=w1818-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Ce vase à étrier présente une forme globulaire compacte, emblématique de la production céramique mycénienne destinée au transport et au stockage de denrées précieuses, comme les huiles parfumées ou le vin. Sa morphologie se caractérise par un faux col central fermé, surmonté d'un disque plat, auquel sont rattachées deux anses verticales en forme d'étrier. Le véritable goulot de versement est déporté sur l'épaule du vase, une innovation technique permettant un versement précis et un bouchage aisé, illustrant le génie fonctionnel des artisans du Helladique Récent.</p>
+    <p>Le décor pictural, réalisé dans une teinte sombre sur l'argile claire, s'articule autour de motifs de spirales courantes qui recouvrent l'essentiel de la panse. Ces spirales, héritées des traditions décoratives minoennes, sont ici traitées avec une répétition vigoureuse. L'espace entre les spirales est comblé par un semis de points et de petits traits, créant un effet de remplissage texturé qui donne au vase une densité visuelle particulière. Le goulot et les anses sont soulignés par des bandes horizontales et des chevrons, accentuant les articulations de l'objet.</p>
+    <p>La diffusion de ce type de vase, fabriqué en Grèce continentale ou dans les îles comme Rhodes, témoigne de l'importance des réseaux commerciaux mycéniens en Méditerranée orientale. La forme à étrier est si efficace qu'elle restera en usage pendant plusieurs siècles, devenant l'un des "fossiles directeurs" les plus fiables pour les archéologues étudiant cette période. Ce spécimen, par la qualité de son exécution et la saturation de son décor, reflète une esthétique où le motif géométrique commence à prendre le pas sur le naturalisme des époques précédentes.</p>
+    <p><strong>Siècle :</strong> XIVe - XIe siècle av. J.-C. | <strong>Civilisation :</strong> Monde égéen (Art Mycénien) | <strong>Sous-partie :</strong> Céramiques.</p>`
+  },
+  {
+    id: "vase_etrier_aplati_san_cosimo_louvre",
+    civId: "egee",
+    periodId: "mycenes",
+    civName: "Art Mycénien (Grèce)",
+    century: "XIVe siècle av. J.-C. (Helladique Récent III A)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1350,
+    domain: "ceramique",
+    artifactType: "Amphore",
+    title: "Vase à étrier aplati à décor de chevrons et bandes d'ocre",
+    site: "Musée du Louvre (Paris / prov. San Cosimo)",
+    originSite: "San Cosimo (Italie du Sud / Grande-Grèce)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre (Paris)",
+    category: "Vase à étrier",
+    isHighlight: false,
+    chips: ["Helladique Récent III A", "Commerce occidental", "Vase à étrier", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMSVa2whVRFz1GoS41r1KwtgztBM1UlcZGNyTlPNPeskaURW2uC_pZMzctihV4IwDqi-yzyOwcSG-4EeChiImbyWNHeaV7Lh055TPWU-gRfl7e1MxEY7Yu5W7QkRy6xSKjpAl-z60vlpDUZ11dEABc0ng=w1818-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Ce vase à étrier présente une panse globulaire aplatie, une forme particulièrement stable et compacte très répandue dans le monde mycénien pour le transport de produits de luxe. Sa structure se définit par un faux col central plein, surmonté d'un disque plat décoré de cercles concentriques, relié à deux anses verticales évoquant un étrier. Le véritable goulot de versement, court et évasé, est disposé de manière asymétrique sur l'épaule. Cette ingénierie céramique permettait un bouchage hermétique, facilitant ainsi l'exportation maritime d'huiles parfumées ou d'onguents sans risque de fuite.</p>
+    <p>Le décor est réalisé dans un ton ocre rouge vibrant sur une argile claire, avec une organisation spatiale rigoureuse. La partie supérieure du vase, autour des cols, accueille des motifs de chevrons et d'arcs de cercles emboîtés qui soulignent la courbure de l'épaule. La panse est quant à elle rythmée par une série de bandes horizontales de largeurs variées, créant un effet de stabilité visuelle. Ce style décoratif, bien que schématique, conserve une finesse d'exécution qui témoigne du haut degré de technicité atteint par les ateliers de l'Helladique Récent III A.</p>
+    <p>La présence de cet objet sur le site de San Cosimo (probablement en Italie du Sud ou en Sicile, zones de commerce mycénien intense) illustre l'importance des réseaux d'échanges en Méditerranée au XIVe siècle avant J.-C. Les vases à étrier étaient les "conteneurs standardisés" de l'époque, transportant l'art de vivre mycénien bien au-delà des frontières de la Grèce continentale. La qualité de la couverte et la précision des tracés circulaires suggèrent une provenance d'un centre de production majeur, peut-être en Argolide, exporté vers les comptoirs occidentaux.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. | <strong>Civilisation :</strong> Monde égéen (Art Mycénien) | <strong>Sous-partie :</strong> Céramiques.</p>`
+  },
+  {
+    id: "alabastre_fond_plat_rochers_louvre",
+    civId: "egee",
+    periodId: "mycenes",
+    civName: "Art Mycénien (Grèce)",
+    century: "XIVe siècle av. J.-C. (Helladique Récent III A)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1350,
+    domain: "ceramique",
+    artifactType: "Vase balustre",
+    title: "Alabastre à fond plat à décor de rochers marins stylisés",
+    site: "Musée du Louvre (Paris / prov. Grèce)",
+    originSite: "Argolide (Grèce)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre (Paris)",
+    category: "Vase à onguents",
+    isHighlight: false,
+    chips: ["Helladique Récent III A", "Argolide", "Alabastre", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOKqmdHQFcL94w6icaTVJ60cbN_aCaMlAjRIbb_r991YzWO7rZe51GIokNYjQGn48VJZxu42tqh9hrtDL8EcQOiWVGDYAIGR8-MZnerKWhuRKsgTJSCBAW2_xbJs_bmRgXYr38AzCdiWQ621qIsnlzlSQ=w1818-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Ce vase est un alabastre à fond plat, une forme céramique mycénienne distinctive du XIVe siècle avant J.-C., caractérisée par un corps large et très bas se terminant par une base plate, et surmonté d'un col étroit à lèvre évasée. Sa silhouette évoque un disque épais ou un coussin écrasé. Ce type de vase était principalement destiné à contenir des huiles parfumées ou des onguents précieux, la petitesse de son ouverture permettant de limiter l'évaporation et de verser le liquide goutte à goutte. Il s'agit d'un objet de luxe, souvent retrouvé dans des contextes funéraires riches.</p>
+    <p>Le décor peint en brun-noir sur le fond clair de l'argile est dominé par un motif répétitif de rochers stylisés, traité de manière graphique et simplifiée sur l'épaule bombée du vase. Ces formes organiques et sombres sont complétées par de fines lignes ondulées imitant des algues ou des filaments marins. Ce style, dérivé du naturalisme minoen, s'en détache ici par une plus grande schématisation et une tendance à l'abstraction, caractéristiques de l'esthétique mycénienne en pleine maturité. L'espace décoratif est saturé selon un principe d' horror vacui (peur du vide) typique de cette phase.</p>
+    <p>La base plate du vase est elle aussi entièrement ornée, souvent de motifs concentriques ou en croix, ce qui suggère que l'alabastre était aussi fait pour être vu par le dessous, lorsqu'il était suspendu ou renversé pour l'onction. Le traitement de la surface, brillant par endroits, indique l'utilisation d'une couverte (vernis argileux) de qualité. Ce vase témoigne non seulement d'un savoir-faire artisanal maîtrisé en Argolide, principal centre de production, mais aussi d'un mode de vie aristocratique où la toilette, le soin du corps et les rituels funéraires utilisaient des objets d'une grande sophistication esthétique.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. | <strong>Civilisation :</strong> Monde égéen (Art Mycénien) | <strong>Sous-partie :</strong> Céramiques.</p>`
+  },
+  {
+    id: "jarre_piriforme_trois_anses_louvre",
+    civId: "egee",
+    periodId: "mycenes",
+    civName: "Art Mycénien (Grèce)",
+    century: "XIVe - XIIIe siècle av. J.-C. (Helladique Récent III A / B)",
+    centuryDisplay: "XIVe - XIIIe s. av. J.-C.",
+    centuryNumeric: -1300,
+    domain: "ceramique",
+    artifactType: "Pithos / Jarre",
+    title: "Jarre piriforme monumentale à trois anses",
+    site: "Musée du Louvre (Paris / prov. Mer Égée)",
+    originSite: "Argolide ou Rhodes",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre (Paris)",
+    category: "Jarre de transport",
+    isHighlight: false,
+    chips: ["Helladique Récent III", "Jarre piriforme", "Trois anses", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczO0wihQkkRvMk0k3PTNOj3agxxZUbynAq5X4YUgmPOPFUZ-9fZJR2sEmFcfKMgJPpRJ_9ccsQJhmgbQEjVkOtTcsZfbBWHa5XKZX2uOeT9L6NOhyQYO3UWQsQ7GLmudsneAvN6G2YMoUHSB_MrHaJ1Xdg=w1818-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Cette jarre à trois anses, de forme piriforme, est un spécimen remarquable de la céramique mycénienne à grande échelle. Elle présente une panse large et arrondie qui s'effile vers une base plus étroite, avec un col court et une lèvre évasée. Les trois anses verticales disposées symétriquement sur l'épaule permettaient non seulement de manipuler le récipient mais aussi de le suspendre ou de le fixer solidement lors du transport maritime. Ce type de vase était essentiel pour l'exportation de produits en vrac, tels que l'huile ou le vin, à travers toute la Méditerranée.</p>
+    <p>Le décor peint, dans des tons ocres et brunâtres, est organisé en registres horizontaux qui structurent visuellement le volume du vase. Sur l'épaule, le motif principal est une interprétation très stylisée du monde marin, où l'on distingue des formes évoquant des oiseaux de mer ou des pieuvres simplifiées, caractéristiques du style mycénien tardif. Ces figures sont accompagnées de lignes sinueuses et de spirales qui occupent la partie inférieure de la panse, créant un sentiment de mouvement fluide rappelant les vagues. Le col et la base sont soulignés par de larges bandes horizontales, apportant une rigueur géométrique à l'ensemble.</p>
+    <p>L'aspect légèrement érodé de la surface laisse transparaître la qualité de l'argile et la maîtrise de la cuisson, tandis que les lignes de fracture restaurées témoignent de l'histoire matérielle de l'objet. Ce vase illustre parfaitement la transition entre le naturalisme vivant de l'époque minoenne et la schématisation plus rigide préférée par les ateliers mycéniens d'Argolide ou des îles. Par sa taille et son décor, il servait autant de contenant utilitaire que de support d'expression artistique, diffusant les codes esthétiques mycéniens jusqu'aux côtes de Rhodes ou du Levant.</p>
+    <p><strong>Siècle :</strong> XIVe - XIIIe siècle av. J.-C. | <strong>Civilisation :</strong> Monde égéen (Art Mycénien) | <strong>Sous-partie :</strong> Céramiques.</p>`
+  },
+   {
     id: "idole_cycladique_purete_lyre_louvre",
     civId: "egee",
     periodId: "cyclades",
