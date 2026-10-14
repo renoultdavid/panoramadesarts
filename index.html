@@ -144,6 +144,7 @@
         <span class="alphabet-title">🎨 PEINTRES (A-Z) :</span>
         <div class="alphabet-letters" id="alphabet-letters"></div>
       </div>
+
       <!-- Tiroir déroulant affichant les artistes de la lettre cliquée -->
       <div class="artists-drawer" id="artists-drawer" hidden>
         <div class="artists-drawer-header">
@@ -154,29 +155,7 @@
         <div class="artists-drawer-list" id="artists-drawer-list"></div>
       </div>
 
-      <!-- Fiche Monographique Peintre (s'affiche au clic sur un peintre) -->
-      <div class="artist-monograph-hero" id="artist-monograph-hero" hidden>
-        <div class="artist-hero-banner" id="artist-hero-banner">
-          <button class="btn-close-artist-hero" id="btn-close-artist-hero" title="Fermer la fiche peintre">✕ Fermer la fiche</button>
-          
-          <!-- Cartouche élégant intégré en bas du bandeau panoramique -->
-          <div class="artist-hero-overlay-cartouche">
-            <div class="artist-hero-header">
-              <h2 class="artist-hero-name" id="artist-hero-name"></h2>
-              <span class="artist-hero-dates" id="artist-hero-dates"></span>
-            </div>
-            <div class="artist-hero-tags" id="artist-hero-tags"></div>
-          </div>
-        </div>
-
-        <div class="artist-hero-content">
-          <div class="artist-hero-bio" id="artist-hero-bio"></div>
-          <div class="artist-hero-collection-title">
-            <span>🎨 ŒUVRES AU CATALOGUE CLASSÉES PAR ORDRE CHRONOLOGIQUE</span>
-          </div>
-        </div>
-      </div>
-
+      <!-- Ligne d'état & Compteurs UNIQUE -->
       <div class="filter-status-row">
         <div class="results-counter">
           Résultats filtrés : <strong id="search-count">0</strong>
@@ -186,10 +165,32 @@
         </div>
         <button id="btn-reset-filters" class="btn-filter-reset">Réinitialiser les filtres</button>
       </div>
+    </div>
 
-    <!-- Mosaïque des vignettes -->
-<div id="search-gallery-scroll" class="search-gallery-container">
-  <div id="search-gallery-grid" class="search-gallery-grid"></div>
+    <!-- Zone de défilement des œuvres avec ascenseur -->
+    <div id="search-gallery-scroll" class="search-gallery-container">
+      
+      <!-- Fiche Monographique Peintre (déroulée en tête des œuvres) -->
+      <div class="artist-monograph-hero" id="artist-monograph-hero" hidden>
+        <div class="artist-hero-banner" id="artist-hero-banner">
+          <button class="btn-close-artist-hero" id="btn-close-artist-hero" title="Fermer la fiche peintre">✕ Fermer la fiche</button>
+          <div class="artist-hero-overlay-cartouche">
+            <div class="artist-hero-header">
+              <h2 class="artist-hero-name" id="artist-hero-name"></h2>
+              <span class="artist-hero-dates" id="artist-hero-dates"></span>
+            </div>
+            <div class="artist-hero-tags" id="artist-hero-tags"></div>
+          </div>
+        </div>
+        <div class="artist-hero-content">
+          <div class="artist-hero-bio" id="artist-hero-bio"></div>
+          <div class="artist-hero-collection-title">
+            <span>🎨 ŒUVRES AU CATALOGUE CLASSÉES PAR ORDRE CHRONOLOGIQUE</span>
+          </div>
+        </div>
+      </div>
+
+      <div id="search-gallery-grid" class="search-gallery-grid"></div>
   
   <!-- Bouton Pagination 60 par 60 -->
   <div class="load-more-container" id="load-more-container" hidden>
