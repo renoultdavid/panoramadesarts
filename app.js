@@ -1075,10 +1075,8 @@ window.addEventListener('keydown', (e) => {
 function populateModalData(art) {
   if (art.deptBanner) {
     modalDeptBannerImg.src = art.deptBanner;
-    modalDeptBannerBox.style.display = 'block';
   } else {
     modalDeptBannerImg.src = "https://lh3.googleusercontent.com/d/1564-Uow3YDKT2Bu7pkKvjlUbMhoJYue_";
-    modalDeptBannerBox.style.display = 'block';
   }
 
   modalCategoryBadge.textContent = art.category || 'ŒUVRE D\'ART';
