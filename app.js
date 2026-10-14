@@ -1456,6 +1456,26 @@ function initSearchEngine() {
     });
   }
 
+  /* ==========================================================================
+     GESTION DE LA FICHE MONOGRAPHIQUE DU PEINTRE EN HAUT DE GALERIE
+     ========================================================================== */
+  const artistHero = document.getElementById('artist-monograph-hero');
+  const artistHeroBanner = document.getElementById('artist-hero-banner');
+  const artistHeroName = document.getElementById('artist-hero-name');
+  const artistHeroDates = document.getElementById('artist-hero-dates');
+  const artistHeroTags = document.getElementById('artist-hero-tags');
+  const artistHeroBio = document.getElementById('artist-hero-bio');
+  const btnCloseArtistHero = document.getElementById('btn-close-artist-hero');
+
+  if (btnCloseArtistHero) {
+    btnCloseArtistHero.addEventListener('click', () => {
+      if (artistHero) artistHero.hidden = true;
+      if (filterText) filterText.value = '';
+      currentRenderLimit = PAGE_CHUNK;
+      renderSearchGallery();
+    });
+  }
+
   function openArtistsDrawer(letter, artistsMap) {
     if (!artistsDrawer || !drawerList) return;
     drawerLetterBadge.textContent = letter;
@@ -1471,43 +1491,50 @@ function initSearchEngine() {
       chip.innerHTML = `<span>${art.name}</span> <span class="chip-count">(${art.count})</span>`;
 
       chip.addEventListener('click', () => {
-        // 1. Remplit la recherche libre avec le nom de l'artiste
-        if (filterText) {
-          filterText.value = art.name;
-        }
-        // 2. Réinitialise les autres filtres pour afficher toutes ses toiles
+        // 1. Filtrer les œuvres de l'artiste
+        if (filterText) filterText.value = art.name;
         if (filterCiv) filterCiv.value = 'all';
         if (filterDomain) filterDomain.value = 'all';
+        if (sortSelect) sortSelect.value = 'chrono_asc'; // Classement chronologique direct
         updatePeriodDropdown();
         updateTypeDropdown();
 
-        // 3. Ferme le tiroir alphabétique
+        // 2. Fermer le tiroir alphabétique
         artistsDrawer.hidden = true;
         document.querySelectorAll('.btn-alpha-letter').forEach(b => b.classList.remove('active'));
 
-        // 4. Filtre la galerie en arrière-plan
-        currentRenderLimit = PAGE_CHUNK;
-        renderSearchGallery();
-
-        // 5. Cherche la monographie dans data-artistes.js et ouvre la fiche peintre
+        // 3. Déployer la Fiche Peintre en haut de page avec son bandeau panoramique
         const registry = window.ARTISTS_REGISTRY || {};
         const artistRecord = Object.values(registry).find(
           a => a.name.toLowerCase().trim() === art.name.toLowerCase().trim()
         );
 
-        if (artistRecord) {
-          openCuratorModal({
-            id: `bio_${artistRecord.id}`,
-            civName: artistRecord.movement || 'Peinture Occidentale',
-            title: artistRecord.name,
-            centuryDisplay: artistRecord.dates || '',
-            category: 'MONOGRAPHIE PEINTRE',
-            chips: [artistRecord.nationality, artistRecord.movement, `${art.count} œuvre(s) au catalogue`].filter(Boolean),
-            narrative: artistRecord.bio,
-            deptBanner: artistRecord.bannerImg,
-            imgSrc: artistRecord.portraitImg || artistRecord.bannerImg
-          });
+        if (artistRecord && artistHero) {
+          if (artistHeroBanner) {
+            artistHeroBanner.style.backgroundImage = `url('${artistRecord.bannerImg}')`;
+          }
+          if (artistHeroName) artistHeroName.textContent = artistRecord.name;
+          if (artistHeroDates) artistHeroDates.textContent = artistRecord.dates ? `(${artistRecord.dates})` : '';
+
+          if (artistHeroTags) {
+            artistHeroTags.innerHTML = '';
+            const tags = [artistRecord.nationality, artistRecord.movement, artistRecord.techniques].filter(Boolean);
+            tags.forEach(t => {
+              const tagEl = document.createElement('span');
+              tagEl.className = 'artist-hero-tag';
+              tagEl.textContent = t;
+              artistHeroTags.appendChild(tagEl);
+            });
+          }
+
+          if (artistHeroBio) artistHeroBio.innerHTML = artistRecord.bio || '';
+          artistHero.hidden = false;
         }
+
+        // 4. Rendu de la galerie verrouillée sur ses toiles
+        currentRenderLimit = PAGE_CHUNK;
+        renderSearchGallery();
+        window.scrollTo({ top: 280, behavior: 'smooth' });
       });
 
       drawerList.appendChild(chip);
