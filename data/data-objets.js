@@ -6,6 +6,81 @@ window.ART_OBJECTS = window.ART_OBJECTS || [];
 window.ART_OBJECTS.push(
 
 {
+    id: "cratere_hachures_ligortynos_louvre",
+    civId: "egee",
+    periodId: "crete",
+    civName: "Art Minoen (Crète)",
+    century: "XIVe siècle av. J.-C. (Minoen Récent III)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1350,
+    domain: "ceramique",
+    artifactType: "Cratère",
+    title: "Cratère à décor d'éventails et de hachures courbes",
+    site: "Musée du Louvre (Paris / prov. Ligortynos, Crète)",
+    originSite: "Ligortynos (Messara, Crète)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre (Paris)",
+    category: "Céramique fine",
+    isHighlight: false,
+    chips: ["Minoen Récent III", "Ligortynos", "Cratère à anses", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNeM7QTnPzJN-ongVBgub0ejgS_QmROq2Ds5gMXvM2U1h5YUJVsZb2-Bm9yHl9Lr9k0N-_OOkHcVn9JlaPx05PLwYpK5vjom5iMJdHKCD9s28EYjpdRBCS1yEU1Go-ekjCEJCJU_Hccvf5YXp3tDmzo_A=w1588-h2108-s-no-gm?authuser=0",
+    narrative: `<p>Ce cratère à deux anses est un exemple remarquable de la production céramique minoenne tardive, contemporaine de la présence mycénienne en Crète. Sa silhouette robuste présente une panse globulaire généreuse qui s'évase à partir d'un pied court, surmontée d'un col large et d'une lèvre marquée. Les deux anses verticales relient l'épaule au rebord, une structure robuste conçue pour le mélange et le service du vin lors des banquets. Ce vase illustre la persistance des formes monumentales crétoises dans un contexte d'échanges accrus avec le continent.</p>
+    <p>Le décor peint en ocre rouge sur le fond clair de l'argile est dominé par un motif de hachures courbes et d'éventails, traitant la surface avec une grande liberté graphique. On distingue sur le col une frise de motifs de feuilles ou de chevrons horizontaux, tandis que la panse accueille de grands arcs de cercles remplis de lignes parallèles. Ce style décoratif, bien que moins naturaliste que celui des périodes minoennes plus anciennes, conserve une fluidité et une dynamique curviligne typiques de l'esthétique insulaire, contrastant avec la rigueur géométrique plus sévère des productions continentales.</p>
+    <p>La base du vase est soulignée par de larges bandes horizontales qui ancrent visuellement la composition. La provenance de Ligortynos, un site important de la Messara, souligne l'importance des ateliers régionaux crétois dans la diffusion de ces modèles de prestige. Ce cratère témoigne d'un moment de synthèse culturelle où les traditions artistiques minoennes se réinventent pour s'adapter aux goûts de l'élite de l'Helladique Récent, tout en gardant une identité visuelle propre liée à la faune et à la flore de l'île.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. | <strong>Civilisation :</strong> Monde égéen (Crète minoenne) | <strong>Sous-partie :</strong> Céramiques.</p>`
+  },
+  {
+    id: "cratere_bouquetins_palmier_louvre",
+    civId: "egee",
+    periodId: "crete",
+    civName: "Art Minoen (Crète)",
+    century: "XIVe - XIIIe siècle av. J.-C. (Minoen Récent III)",
+    centuryDisplay: "XIVe - XIIIe s. av. J.-C.",
+    centuryNumeric: -1300,
+    domain: "ceramique",
+    artifactType: "Cratère",
+    title: "Cratère aux bouquetins bondissants et au palmier",
+    site: "Musée du Louvre (Paris / prov. Ligortynos, Crète)",
+    originSite: "Ligortynos (Messara, Crète)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre (Paris)",
+    category: "Céramique de banquet",
+    isHighlight: false,
+    chips: ["Minoen Récent III", "Agrimia (bouquetins)", "Palmier stylisé", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczM0hzH7-1eF1YQbSXrSySYImJjk3wOK3_t5hzIYQfpUma8vbR5bjzxF6oWTXHIsFOT3We-rIvmDSGSzxdZ7YhK_CBy872fkGJDcddsLNCu_l2ULM9tjnEIjUkX6hKfECtqBm8TzkM7DUHTKLSj2nvX-Gg=w1588-h2108-s-no-gm?authuser=0",
+    narrative: `<p>Ce cratère à deux anses constitue un exemple exceptionnel de la peinture de vase crétoise au cours de la période de transition entre les styles minoen et mycénien. La forme du récipient, avec sa panse globulaire s'élargissant vers une épaule haute et son pied court en trompette, est conçue pour la stabilité et le service des boissons lors de cérémonies. Le col large est souligné par une lèvre plate et évasée, tandis que deux anses massives en ruban assurent une prise ferme, révélant une adaptation fonctionnelle aux besoins des élites de la fin de l'âge du Bronze.</p>
+    <p>Le décor pictural, réalisé dans une teinte ocre rouge sur un fond d'argile clair, déploie une scène naturaliste d'une grande vivacité sur la panse. Deux bouquetins (ou chèvres sauvages de Crète, les agrimia) sont représentés de part et d'autre d'un palmier stylisé, dont les palmes s'épanouissent en courbes souples. Les animaux sont saisis dans un mouvement dynamique, presque bondissant, leurs cornes recourbées vers l'arrière épousant la forme de l'épaule du vase. Sous les figures animales, des motifs de vagues ou de terrain rocheux ancrent la scène dans un paysage, tandis qu'une frise de larges ondes décore le col, rappelant l'omniprésence du thème marin.</p>
+    <p>Cette œuvre témoigne de la persistance du naturalisme minoen au XIVe et XIIIe siècles avant J.-C., même si le traitement des formes commence à montrer une certaine schématisation. Le palmier et le bouquetin sont des symboles forts du répertoire crétois, souvent associés à des contextes religieux ou à la puissance de la nature. La composition symétrique, héritée des influences mycéniennes, s'allie ici à la fluidité du trait insulaire, créant un équilibre visuel parfait entre rigueur structurelle et liberté organique. La présence de tels objets dans les contextes de Ligortynos ou de sites similaires souligne le rayonnement des ateliers crétois qui continuaient de produire des pièces de luxe pour les marchés locaux et méditerranéens.</p>
+    <p><strong>Siècle :</strong> XIVe - XIIIe siècle av. J.-C. | <strong>Civilisation :</strong> Monde égéen (Crète minoenne) | <strong>Sous-partie :</strong> Céramiques.</p>`
+  },
+  {
+    id: "cratere_pieuvre_style_marin_louvre",
+    civId: "egee",
+    periodId: "crete",
+    civName: "Art Minoen (Crète)",
+    century: "XIVe siècle av. J.-C. (Minoen Récent III A)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1350,
+    domain: "ceramique",
+    artifactType: "Cratère",
+    title: "Cratère piriforme à la pieuvre stylisée",
+    site: "Musée du Louvre (Paris / prov. Ligortynos, Crète)",
+    originSite: "Ligortynos (Messara, Crète)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre (Paris)",
+    category: "Style marin",
+    isHighlight: false,
+    chips: ["Minoen Récent III A", "Style marin", "Pieuvre stylisée", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMPBX2WdrLC4eak7LXqfz4NJLohpL0asx9u3KBAgUhFeLZ0wGCkMX-NEFk3Vjs3WkoLyuvpsH2VcGVgBJP9WsvMWI1Ap_bljyF6e9zv6oYsnIqJph6uLkEOGalEXG965cTdkSCBzbY4x7PVp5tiF2PYOQ=w1588-h2108-s-no-gm?authuser=0",
+    narrative: `<p>Ce cratère à deux anses constitue un témoignage exceptionnel de la production céramique crétoise sous influence mycénienne, provenant de la nécropole de Ligortynos. Sa forme, caractérisée par une panse piriforme volumineuse et un col court s'évasant vers une lèvre plate, est typique des vases de prestige utilisés pour le mélange du vin. La structure repose sur un pied court en trompette qui assure la stabilité de l'ensemble. La surface de l'argile, de teinte claire, sert de support à un décor peint d'une grande expressivité, réalisé à l'aide d'un vernis sombre dont les nuances varient du brun au rouge selon la cuisson.</p>
+    <p>Le décor est dominé par une interprétation magistrale du style marin, avec une pieuvre stylisée qui déploie ses tentacules de manière symétrique sur l'épaule du vase. Le corps de l'animal est centré, présentant deux grands yeux circulaires aux pupilles marquées qui fixent le spectateur, une caractéristique qui confère à l'objet une présence presque hypnotique. Les tentacules s'étirent en larges courbes sinueuses, épousant la convexité de la panse et remplissant l'espace avec un dynamisme fluide. Ce motif, bien que plus schématique que les modèles minoens classiques, conserve une énergie organique remarquable, soulignée par des lignes de contour précises.</p>
+    <p>Le col est orné d'une frise de larges ondes ou de chevrons horizontaux, créant une transition visuelle entre l'ouverture et le corps décoré. La partie inférieure de la panse et le pied sont soulignés par des bandes circulaires de différentes épaisseurs, une syntaxe décorative mycénienne qui vient structurer et "fermer" la composition. Ce cratère illustre parfaitement la fusion des répertoires iconographiques : la pieuvre, symbole ancestral de la puissance marine de la Crète, est ici réinterprétée selon les codes esthétiques plus rigoureux de l'époque du Bronze Récent, témoignant du raffinement des élites locales.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. | <strong>Civilisation :</strong> Monde égéen (Crète minoenne) | <strong>Sous-partie :</strong> Céramiques.</p>`
+  }
+   {
     id: "oenochoe_bichrome_oiseau_louvre",
     civId: "chypre",
     periodId: "chypre_fer",
