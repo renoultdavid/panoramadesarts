@@ -983,6 +983,8 @@ const btnModalNext = document.getElementById('btn-modal-next');
 
 let activeContextList = [];
 let currentArtIndex = 0;
+let isTimelineModalMode = false; // Indique si l'ouverture vient de la frise ou de la galerie
+
 // Lightbox zoom plein écran
 const artworkLightbox = document.getElementById('artwork-lightbox-zoom');
 const artworkLightboxImg = document.getElementById('artwork-lightbox-img');
@@ -1001,7 +1003,8 @@ artworkLightbox.addEventListener('click', () => {
   artworkLightboxImg.src = '';
 });
 
-function openCuratorModal(art, siblingsList = []) {
+function openCuratorModal(art, siblingsList = [], fromTimeline = false) {
+  isTimelineModalMode = fromTimeline;
   activeContextList = siblingsList.length > 0 ? siblingsList : (window.ART_OBJECTS || []);
   currentArtIndex = activeContextList.findIndex(item => item.id === art.id);
   if (currentArtIndex === -1) currentArtIndex = 0;
@@ -1015,7 +1018,8 @@ function renderModalCurrentArt() {
   if (!currentArt) return;
 
   modalTabBar.innerHTML = '';
-  if (activeContextList.length > 1 && activeContextList.length <= 12) {
+  // La barre d'onglets est STRICTEMENT réservée à la frise chronologique
+  if (isTimelineModalMode && activeContextList.length > 1 && activeContextList.length <= 12) {
     modalTabBar.style.display = 'flex';
     activeContextList.forEach((sibling, sIdx) => {
       const tab = document.createElement('button');
@@ -1033,7 +1037,6 @@ function renderModalCurrentArt() {
 
   populateModalData(currentArt);
 }
-
 // Écouteurs pour les flèches Précédent / Suivant
 if (btnModalPrev) {
   btnModalPrev.addEventListener('click', (e) => {
