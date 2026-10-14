@@ -6,6 +6,208 @@ window.ART_OBJECTS = window.ART_OBJECTS || [];
 window.ART_OBJECTS.push(
 
 {
+    id: "idole_cycladique_syros_volume_louvre",
+    civId: "egee",
+    periodId: "cyclades",
+    civName: "Art Cycladique (Mer Égée)",
+    century: "v. -2700 à -2300 av. J.-C. (Cycladique Ancien II)",
+    centuryDisplay: "v. -2500 av. J.-C.",
+    centuryNumeric: -2500,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire royale & divine (ronde-bosse)",
+    title: "Idole féminine à bras croisés aux contours arrondis (Groupe de Syros)",
+    site: "Musée du Louvre (Paris / prov. Cyclades)",
+    originSite: "Archipel des Cyclades (Syros ou Naxos)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre (Paris)",
+    category: "Sculpture en marbre",
+    isHighlight: false,
+    chips: ["Cycladique Ancien II", "Groupe de Syros", "Marbre blanc", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNMZRgR759mlxzzO63gKtVg2u437kEFSbomGP9HGmk8DelG-gh8gB9JNXi9bKBgrqsDkalszZLTbKwC5t0GJdWrMoEmqyl9V6L6d0f5GhGwYfTg6AqqP-C2stcjrj5Vn5Ba1SstoTv7f5_pyIccZFQq4g=w2209-h938-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOSqlsOtruRjg04aV_jsB-8TkzhZyoaBaebuwuRKf8yvNwkSQozacaAWkJtWfUGObjx1L7J2xSh2fENcDKUp_hm66NAg-Wnjkv1CXZdOc2MiTHiV9ZNc9QxKFYQT9zzrKOF-Fid5sC6GBlc3Iq3NTPtNw=w1588-h2108-s-no-gm?authuser=0",
+    narrative: `<p>Cette statuette en marbre appartient au groupe dit de "Syros", qui représente l'apogée de la sculpture cycladique du Bronze Ancien II. Elle illustre parfaitement le type des "idoles à bras croisés", caractérisé par une recherche d'équilibre et une codification plus rigoureuse de la figure humaine. Contrairement aux modèles plus archaïques, cette pièce présente un volume plus affirmé et une silhouette aux contours légèrement plus arrondis, témoignant d'une évolution vers un naturalisme schématique très maîtrisé.</p>
+    <p>La description physique de l'objet montre une tête en forme de bouclier, légèrement inclinée vers l'arrière, avec un nez sculpté en relief qui constitue le seul relief facial. Le cou est robuste et soutient des épaules larges. Le trait distinctif de ce groupe est la position des bras : ils sont repliés sur l'abdomen, le bras gauche étant traditionnellement placé au-dessus du droit. Les mains et les doigts sont suggérés par de légères incisions. On observe également un rendu subtil de la poitrine et une ligne abdominale qui marque la séparation avec le bas du corps.</p>
+    <p>La partie inférieure de la statuette est marquée par des hanches larges et des jambes séparées par une incision profonde. Un détail notable de ce type de Syros est la légère flexion des genoux et le traitement des pieds, dont les orteils sont ici finement marqués, suggérant que la figure est représentée debout, bien que la pointe des pieds vers le bas évoque souvent une position allongée pour le repos éternel. Le marbre conserve des traces de patine naturelle, et la surface, autrefois parfaitement polie, laisse deviner le soin apporté à la finition de cette pièce de prestige.</p>
+    <p><strong>Siècle :</strong> XXVe siècle av. J.-C. (-2500) | <strong>Civilisation :</strong> Monde égéen (Art Cycladique) | <strong>Sous-partie :</strong> Statuaire & Marbre.</p>`
+  },
+  {
+    id: "idole_cycladique_syros_verticale_louvre",
+    civId: "egee",
+    periodId: "cyclades",
+    civName: "Art Cycladique (Mer Égée)",
+    century: "v. -2700 à -2300 av. J.-C. (Cycladique Ancien II)",
+    centuryDisplay: "v. -2500 av. J.-C.",
+    centuryNumeric: -2500,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire royale & divine (ronde-bosse)",
+    title: "Idole féminine canonique fuselée (Groupe de Syros)",
+    site: "Musée du Louvre (Paris / prov. Cyclades)",
+    originSite: "Archipel des Cyclades",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre (Paris)",
+    category: "Sculpture en marbre",
+    isHighlight: false,
+    chips: ["Cycladique Ancien II", "Groupe de Syros", "Figure canonique", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNMZRgR759mlxzzO63gKtVg2u437kEFSbomGP9HGmk8DelG-gh8gB9JNXi9bKBgrqsDkalszZLTbKwC5t0GJdWrMoEmqyl9V6L6d0f5GhGwYfTg6AqqP-C2stcjrj5Vn5Ba1SstoTv7f5_pyIccZFQq4g=w2209-h938-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPX0l1YamwS3w8qsvUfG8vhacFlKgRlrORcqKmC_6sguWGTQ4m8UAH1gwHWrGlL1Xu1LSVPXoJOu1LSi8Amyc0s95gbOzh2cXNzfv0hdcyRPsb_0axpvF_Gt-G7iR_nEwpRJUFKLnEWL8T8rKIQr-7JHg=w1588-h2108-s-no-gm?authuser=0",
+    narrative: `<p>Cette statuette en marbre est une expression remarquable de la culture cycladique durant sa phase de maturité. Elle appartient au type des "idoles à bras croisés" (canoniques), dont le groupe de Syros constitue l'une des déclinaisons les plus sophistiquées. L'objet se distingue par une texture de pierre plus granuleuse et érodée, ce qui lui confère une présence organique malgré la rigueur de sa géométrisation. Cette pièce incarne la transition vers des formes où la silhouette s'affine, privilégiant une élégance verticale et un équilibre des proportions qui ont fasciné les sculpteurs du début du XXe siècle.</p>
+    <p>L'analyse descriptive révèle une tête de forme ovoïde, étirée vers le haut, dont le visage est marqué par un nez en relief long et fin. Le cou est particulièrement élancé, agissant comme un piédestal pour la tête et se fondant harmonieusement dans une ligne d'épaules droite et ferme. La poitrine est signifiée par deux petits reliefs coniques, tandis que les bras sont repliés horizontalement sous les seins. Le sculpteur a ici marqué la séparation des bras par des incisions parallèles nettes, respectant la convention stylistique où l'avant-bras gauche repose sur l'avant-bras droit.</p>
+    <p>Le bas du corps est traité avec une grande économie de détails, convergeant vers une forme fuselée. Le triangle pubien est délimité par une légère incision, et les jambes sont jointes, séparées par une rainure médiane qui s'amincit vers les pieds (ici partiellement manquants). L'aspect général de la statuette, bien que stylisé, dégage une puissance symbolique forte, probablement liée à des fonctions rituelles de protection ou de représentation d'une divinité tutélaire accompagnant les défunts dans l'au-delà.</p>
+    <p><strong>Siècle :</strong> XXVe siècle av. J.-C. (-2500) | <strong>Civilisation :</strong> Monde égéen (Art Cycladique) | <strong>Sous-partie :</strong> Statuaire & Marbre.</p>`
+  },
+  {
+    id: "idole_cycladique_paros_spedos_louvre",
+    civId: "egee",
+    periodId: "cyclades",
+    civName: "Art Cycladique (Mer Égée)",
+    century: "v. -2700 à -2300 av. J.-C. (Cycladique Ancien II)",
+    centuryDisplay: "v. -2500 av. J.-C.",
+    centuryNumeric: -2500,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire royale & divine (ronde-bosse)",
+    title: "Idole en marbre de Paros (Variété de Spedos)",
+    site: "Musée du Louvre (Paris / prov. Paros)",
+    originSite: "Paros (Cyclades)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre (Paris)",
+    category: "Sculpture en marbre",
+    isHighlight: false,
+    chips: ["Cycladique Ancien II", "Île de Paros", "Variété de Spedos", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNMZRgR759mlxzzO63gKtVg2u437kEFSbomGP9HGmk8DelG-gh8gB9JNXi9bKBgrqsDkalszZLTbKwC5t0GJdWrMoEmqyl9V6L6d0f5GhGwYfTg6AqqP-C2stcjrj5Vn5Ba1SstoTv7f5_pyIccZFQq4g=w2209-h938-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMB5_QK9MkLSRoO3LNVg2JABS6EJ1Ljxs6QBLgyuKk15a9S8D4yj4xk8LjFuDl31gx1HOcLOtb8QszM9eAlEsYXmZqmS4z2elnzPF70mu5Onq5vncfUtO03vsLZ3zdKcwuojRjHfxUSZBUXDuhtn8Wrsw=w1588-h2108-s-no-gm?authuser=0",
+    narrative: `<p>Cette idole en marbre, découverte sur l'île de Paros, constitue un exemple caractéristique de la production artistique du Bronze Ancien II dans les Cyclades. Elle s'inscrit dans la variété de Spedos, la plus représentée au sein du groupe de Syros, qui se définit par une codification rigoureuse de la posture et une recherche de géométrisation du corps humain. La surface de la pierre présente un aspect granuleux dû à l'érosion temporelle, mais laisse encore deviner la précision des incisions originelles et la fluidité des volumes qui caractérisent ce style canonique.</p>
+    <p>L'étude descriptive de la pièce met en évidence une tête de forme lyre, légèrement inclinée vers l'arrière, avec un nez sculpté en relief long et étroit. Le cou, particulièrement long et cylindrique, assure une transition élégante vers un buste dont les épaules sont droites et marquées. Les bras sont repliés horizontalement sur l'abdomen, respectant la convention stylistique rigide de l'époque où le bras gauche est systématiquement placé au-dessus du bras droit. La poitrine est suggérée par deux légers reliefs coniques, apportant une touche de naturalisme à cette silhouette par ailleurs très abstraite.</p>
+    <p>Le bas du corps est marqué par des hanches larges qui s'affinent progressivement vers les jambes. Celles-ci sont séparées par une incision verticale profonde qui parcourt toute la longueur du membre inférieur. On distingue également des incisions horizontales au niveau des genoux et des chevilles, une particularité technique visant à souligner les articulations malgré la fusion des membres. Les pieds, bien que schématiques, sont orientés vers le bas, suggérant que l'idole n'était pas conçue pour tenir debout seule, renforçant l'hypothèse d'un usage funéraire où la figurine était déposée à plat aux côtés du défunt.</p>
+    <p><strong>Siècle :</strong> XXVe siècle av. J.-C. (-2500) | <strong>Civilisation :</strong> Monde égéen (Art Cycladique) | <strong>Sous-partie :</strong> Statuaire & Marbre.</p>`
+  },
+  {
+    id: "idole_cycladique_transition_ii_iii_louvre",
+    civId: "egee",
+    periodId: "cyclades",
+    civName: "Art Cycladique (Mer Égée)",
+    century: "v. -2400 à -2100 av. J.-C. (Cycladique Ancien II / III)",
+    centuryDisplay: "v. -2300 av. J.-C.",
+    centuryNumeric: -2300,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire royale & divine (ronde-bosse)",
+    title: "Idole féminine stylisée en coin (Transition Cycladique II-III)",
+    site: "Musée du Louvre (Paris / prov. Cyclades)",
+    originSite: "Archipel des Cyclades",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre (Paris)",
+    category: "Sculpture en marbre",
+    isHighlight: false,
+    chips: ["Cycladique Ancien II-III", "Groupe de Syros", "Forme en coin", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNMZRgR759mlxzzO63gKtVg2u437kEFSbomGP9HGmk8DelG-gh8gB9JNXi9bKBgrqsDkalszZLTbKwC5t0GJdWrMoEmqyl9V6L6d0f5GhGwYfTg6AqqP-C2stcjrj5Vn5Ba1SstoTv7f5_pyIccZFQq4g=w2209-h938-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMCckaftUYtbKdkZEN5T5WmmmOeKhRl76-TSXGng19mqnCri42t49iZ0UFN76N_nWA2e5Rcaa3iI7lKZhxoRMm0oA8AGoB_dbytd1IwjQsxgQmz3lJQrEmPH7AAIgvyj9VlKVz0ys-sBX6vROIufwueEw=w1588-h2108-s-no-gm?authuser=0",
+    narrative: `<p>Cette idole féminine en marbre, sculptée avec une précision géométrique remarquable, constitue un témoignage majeur de la phase de transition entre le Cycladique Ancien II et III. L'œuvre s'inscrit dans la lignée du groupe de Syros, caractérisé par une silhouette en forme de coin et un traitement extrêmement stylisé de l'anatomie humaine. La tête, de forme lyciforme et légèrement inclinée vers l'arrière, présente un nez en relief proéminent qui constitue le seul trait facial sculpté, tandis que le reste du visage était originellement rehaussé de peinture rouge ou noire pour figurer les yeux et d'éventuels ornements rituels.</p>
+    <p>Le buste est marqué par des épaules larges et tombantes, avec des bras pliés horizontalement sur l'abdomen, le bras gauche étant systématiquement placé au-dessus du droit selon les conventions iconographiques de l'époque. On observe une légère protubérance des seins et une incision nette marquant le triangle pubien, soulignant la symbolique de la fertilité souvent associée à ces objets. Les membres inférieurs sont joints, seulement séparés par un profond sillon vertical, et se terminent par des pieds dont les orteils sont parfois suggérés par de fines rainures.</p>
+    <p>La fonction de ces statuettes, retrouvées majoritairement dans des sépultures, demeure un sujet de débat archéologique. Elles pourraient représenter des divinités de la fécondité, des substituts de compagnes pour le défunt ou des figures protectrices guidant l'âme dans l'au-delà. La pureté des lignes et l'équilibre des proportions témoignent d'une maîtrise technique exceptionnelle du travail du marbre insulaire, faisant de cette pièce un archétype de la statuaire cycladique préclassique.</p>
+    <p><strong>Siècle :</strong> XXIIIe siècle av. J.-C. (-2300) | <strong>Civilisation :</strong> Monde égéen (Art Cycladique) | <strong>Sous-partie :</strong> Statuaire & Marbre.</p>`
+  },
+  {
+    id: "torse_cycladique_syros_louvre",
+    civId: "egee",
+    periodId: "cyclades",
+    civName: "Art Cycladique (Mer Égée)",
+    century: "v. -2700 à -2300 av. J.-C. (Cycladique Ancien II)",
+    centuryDisplay: "v. -2500 av. J.-C.",
+    centuryNumeric: -2500,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire royale & divine (ronde-bosse)",
+    title: "Torse féminin fragmentaire en marbre (Groupe de Syros)",
+    site: "Musée du Louvre (Paris / prov. Cyclades)",
+    originSite: "Archipel des Cyclades",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre (Paris)",
+    category: "Sculpture en marbre",
+    isHighlight: false,
+    chips: ["Cycladique Ancien II", "Groupe de Syros", "Torse fragmentaire", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNMZRgR759mlxzzO63gKtVg2u437kEFSbomGP9HGmk8DelG-gh8gB9JNXi9bKBgrqsDkalszZLTbKwC5t0GJdWrMoEmqyl9V6L6d0f5GhGwYfTg6AqqP-C2stcjrj5Vn5Ba1SstoTv7f5_pyIccZFQq4g=w2209-h938-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczM9ZMX4VqVaCUJySc3bvE5_SNlZzxMD4d7zRmnFGxTdErXvJ5HAWbcQIZNCb2lfTMg1dP1oW7a4-BKZ0BDFhuWDuZ2WzO5UaNqu5VpWEAB9sfVNTatrmB-OEM4rS2tle-h5lE__VDYgqO76s0hbIfIsBw=w1588-h2108-s-no-gm?authuser=0",
+    narrative: `<p>Ce torse fragmentaire en marbre est une œuvre caractéristique du groupe de Syros, représentant l'apogée de la sculpture cycladique du IIIe millénaire avant notre ère. Malgré l'absence de la tête et de la partie inférieure des jambes, la pièce conserve toute la puissance de son canon esthétique. Le travail du sculpteur se concentre sur une épuration des formes, où le corps est réduit à des volumes essentiels et des lignes incisives. Les épaules sont larges et nettement marquées, encadrant un buste où les seins sont discrètement suggérés en léger relief.</p>
+    <p>La position des bras est le trait le plus distinctif de ce style : ils sont repliés sur l'abdomen, le bras gauche surmontant le bras droit dans une horizontalité parfaite. Cette posture, rigoureusement respectée par les artisans des Cyclades, confère à la statuette une impression de repli et de solennité. Au bas du buste, le triangle pubien est délimité par une incision profonde, un détail anatomique crucial lié aux fonctions rituelles de fécondité et de régénération souvent attribuées à ces idoles.</p>
+    <p>Le traitement de la surface, bien que corrodé par le temps, laisse deviner le soin apporté au polissage du marbre, qui devait originellement offrir un aspect lisse et lumineux. Ces objets, souvent déposés dans des tombes, témoignent d'une société insulaire aux codes religieux et artistiques très structurés, capable de transformer la pierre en figures hautement symboliques.</p>
+    <p><strong>Siècle :</strong> XXVe siècle av. J.-C. (-2500) | <strong>Civilisation :</strong> Monde égéen (Art Cycladique) | <strong>Sous-partie :</strong> Statuaire & Marbre.</p>`
+  },
+  {
+    id: "idole_cycladique_gravide_athenes",
+    civId: "egee",
+    periodId: "cyclades",
+    civName: "Art Cycladique (Mer Égée)",
+    century: "v. -2700 à -2300 av. J.-C. (Cycladique Ancien II)",
+    centuryDisplay: "v. -2500 av. J.-C.",
+    centuryNumeric: -2500,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire royale & divine (ronde-bosse)",
+    title: "Statuette féminine gravide au ventre bombé (Variété de Spedos)",
+    site: "Musée National Archéologique d'Athènes (prov. Cyclades)",
+    originSite: "Archipel des Cyclades (Naxos ou Amorgos)",
+    locationType: "museum",
+    currentLocation: "Musée National Archéologique d'Athènes",
+    category: "Sculpture en marbre",
+    isHighlight: false,
+    chips: ["Cycladique Ancien II", "Variété de Spedos", "Figure gravide", "Musée d'Athènes"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNMZRgR759mlxzzO63gKtVg2u437kEFSbomGP9HGmk8DelG-gh8gB9JNXi9bKBgrqsDkalszZLTbKwC5t0GJdWrMoEmqyl9V6L6d0f5GhGwYfTg6AqqP-C2stcjrj5Vn5Ba1SstoTv7f5_pyIccZFQq4g=w2209-h938-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOG_TnmouUlqcuxtozDAdt-9i2yeaas3R_BWopeSYVtYvy0OuLP7T667je8-_c5OgHSGsCYlumOs7I2oIKQU2rf2f88J1yUOnKrq9hJ7psefloHsv9HBq2ZAyLB2IBVCc5QI79hzm4Zz_gIo7pE9RH8nw=w1588-h1058-s-no-gm?authuser=0",
+    narrative: `<p>Cette statuette féminine en marbre, conservée au Musée national archéologique d'Athènes, illustre une variante fascinante du type canonique de l'art cycladique. Contrairement à la silhouette longiligne de la grande idole de 1,5 mètre, cet exemplaire présente un abdomen nettement bombé, une caractéristique que les archéologues interprètent souvent comme une représentation de la grossesse. Cette particularité renforce l'hypothèse selon laquelle ces objets étaient liés à des cultes de la fécondité ou à la protection du cycle de la vie, servant d'intercesseurs entre le monde des vivants et celui des morts.</p>
+    <p>Le traitement stylistique conserve les codes de la période de Spedos, avec une tête en forme de lyre et un nez en relief marqué, portés par un cou particulièrement élancé. Les bras sont repliés sous la poitrine selon la convention habituelle, mais ils soulignent ici la rondeur du ventre, créant un équilibre visuel entre la rigueur géométrique du haut du corps et les courbes plus douces de la partie centrale. Les jambes sont courtes et jointes, terminées par des pieds suggérant une position allongée plutôt qu'une station debout autonome.</p>
+    <p>À ses côtés, d'autres fragments comme le torse acéphale témoignent de la diversité des textures et de l'érosion subie par le marbre au fil des millénaires. Alors que la statuette principale conserve une surface lisse et polie, le fragment voisin révèle la granulation naturelle de la pierre, rappelant que chaque œuvre est le résultat d'un travail d'abrasion minutieux. Ces objets, bien que de dimensions plus modestes que les grandes idoles monumentales, n'en demeurent pas moins des pièces maîtresses de la statuaire préhistorique par leur capacité à exprimer des concepts biologiques et spirituels complexes à travers une économie de moyens remarquable.</p>
+    <p>L'étude de ces variations morphologiques permet de mieux comprendre l'évolution des ateliers de sculpteurs dans les Cyclades et la circulation de ces objets précieux à travers la mer Égée. Chaque détail, de l'inclinaison de la tête à la cambrure du dos, témoigne d'une intention artistique précise qui dépasse la simple fabrication artisanale pour atteindre une dimension symbolique universelle.</p>
+    <p><strong>Siècle :</strong> XXVe siècle av. J.-C. (-2500) | <strong>Civilisation :</strong> Monde égéen (Art Cycladique) | <strong>Sous-partie :</strong> Statuaire & Marbre.</p>`
+  },
+  {
+    id: "idole_cycladique_paros_spedos_detail_louvre",
+    civId: "egee",
+    periodId: "cyclades",
+    civName: "Art Cycladique (Mer Égée)",
+    century: "v. -2700 à -2300 av. J.-C. (Cycladique Ancien II)",
+    centuryDisplay: "v. -2500 av. J.-C.",
+    centuryNumeric: -2500,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire royale & divine (ronde-bosse)",
+    title: "Statuette en marbre de Paros aux articulations incisées (Variété de Spedos)",
+    site: "Musée du Louvre (Paris / prov. Paros)",
+    originSite: "Paros (Cyclades)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre (Paris)",
+    category: "Sculpture en marbre",
+    isHighlight: false,
+    chips: ["Cycladique Ancien II", "Paros", "Variété de Spedos", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNMZRgR759mlxzzO63gKtVg2u437kEFSbomGP9HGmk8DelG-gh8gB9JNXi9bKBgrqsDkalszZLTbKwC5t0GJdWrMoEmqyl9V6L6d0f5GhGwYfTg6AqqP-C2stcjrj5Vn5Ba1SstoTv7f5_pyIccZFQq4g=w2209-h938-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPtzEyKdNMtIZuGpTGUSpVpEbHmeLUnMS2KLRovDy72ISCUad1Ii8Y1w6kiQtZVD76EYlVEQ7RdSGyesUle5cAkOQzHTZryjPppiLYccukLlQK_T1iVp-ts2CdhaCWD-QoQDgf_3NhRrA20eEnKJAuxwg=w1588-h1195-s-no-gm?authuser=0",
+    narrative: `<p>Cette idole en marbre, découverte sur l'île de Paros, constitue un exemple caractéristique de la production artistique du Bronze Ancien II dans les Cyclades. Elle s'inscrit dans la variété de Spedos, la plus représentée au sein du groupe de Syros, qui se définit par une codification rigoureuse de la posture et une recherche de géométrisation du corps humain. La surface de la pierre présente un aspect granuleux dû à l'érosion temporelle, mais laisse encore deviner la précision des incisions originelles et la fluidité des volumes qui caractérisent ce style canonique.</p>
+    <p>L'étude descriptive de la pièce met en évidence une tête de forme lyre, légèrement inclinée vers l'arrière, avec un nez sculpté en relief long et étroit. Le cou, particulièrement long et cylindrique, assure une transition élégante vers un buste dont les épaules sont droites et marquées. Les bras sont repliés horizontalement sur l'abdomen, respectant la convention stylistique rigide de l'époque où le bras gauche est systématiquement placé au-dessus du bras droit. La poitrine est suggérée par deux légers reliefs coniques, apportant une touche de naturalisme à cette silhouette par ailleurs très abstraite.</p>
+    <p>Le bas du corps est marqué par des hanches larges qui s'affinent progressivement vers les jambes. Celles-ci sont séparées par une incision verticale profonde qui parcourt toute la longueur du membre inférieur. On distingue également des incisions horizontales au niveau des genoux et des chevilles, une particularité technique visant à souligner les articulations malgré la fusion des membres. Les pieds, bien que schématiques, sont orientés vers le bas, suggérant que l'idole n'était pas conçue pour tenir debout seule, renforçant l'hypothèse d'un usage funéraire où la figurine était déposée à plat aux côtés du défunt.</p>
+    <p><strong>Siècle :</strong> XXVe siècle av. J.-C. (-2500) | <strong>Civilisation :</strong> Monde égéen (Art Cycladique) | <strong>Sous-partie :</strong> Statuaire & Marbre.</p>`
+  },
+  {
+    id: "idoles_cycladiques_dokathismata_athenes",
+    civId: "egee",
+    periodId: "cyclades",
+    civName: "Art Cycladique (Mer Égée)",
+    century: "v. -2400 à -2200 av. J.-C. (Cycladique Ancien II)",
+    centuryDisplay: "v. -2300 av. J.-C.",
+    centuryNumeric: -2300,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire royale & divine (ronde-bosse)",
+    title: "Ensemble d'idoles féminines triangulaires (Variété de Dokathismata)",
+    site: "Musée National Archéologique d'Athènes (prov. Amorgos)",
+    originSite: "Amorgos (Cyclades)",
+    locationType: "museum",
+    currentLocation: "Musée National Archéologique d'Athènes",
+    category: "Sculpture en marbre",
+    isHighlight: false,
+    chips: ["Cycladique Ancien II", "Dokathismata", "Forme triangulaire", "Musée d'Athènes"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNMZRgR759mlxzzO63gKtVg2u437kEFSbomGP9HGmk8DelG-gh8gB9JNXi9bKBgrqsDkalszZLTbKwC5t0GJdWrMoEmqyl9V6L6d0f5GhGwYfTg6AqqP-C2stcjrj5Vn5Ba1SstoTv7f5_pyIccZFQq4g=w2209-h938-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOXZR4U-pqfVC2u1F-ejUv9EegkRpqnP1VM8YyOXkNju-P-ulh9_4iR2x8Tk3EUPi5ZDb4BfgUEPEIW3CjFNsEUX4bwLG98VGFvNK-WHSy0QsJSA3fhBUGcICxa2fxhtUW_CrKl26Tr1z2itfK1IxgUaA=w1588-h2381-s-no-gm?authuser=0",
+    narrative: `<p>Ces statuettes féminines en marbre, dont la silhouette en triangle inversé est emblématique de la variété stylistique des Cyclades, appartiennent principalement au type de Dokathismata. Ce style se distingue par une géométrisation extrême et une élégance linéaire où les épaules sont larges et anguleuses, contrastant avec un corps qui s'affine progressivement vers les pieds. Ces œuvres illustrent l'apogée de la schématisation dans la statuaire cycladique, où chaque détail anatomique est réduit à sa forme géométrique la plus pure, créant une esthétique qui semble anticiper de plusieurs millénaires les recherches de la sculpture moderne.</p>
+    <p>Le traitement de la tête est particulièrement caractéristique : elle adopte une forme triangulaire très plate, avec un menton pointu et un nez étroit et proéminent, incliné vers l'arrière dans un mouvement qui accentue la verticalité de la pièce. Le buste présente des épaules horizontales et saillantes, tandis que les bras sont repliés sous la poitrine selon la convention canonique, mais avec une finesse qui souligne la fragilité de la silhouette. La transition vers les hanches est étroite, et les jambes, jointes et fuselées, se terminent par des pieds minuscules, renforçant l'aspect immatériel et spirituel de la figure.</p>
+    <p>L'exemplaire central se démarque par la précision de ses incisions, marquant nettement la ligne du bassin et le triangle pubien, tout en conservant une surface de marbre polie qui capte la lumière. À ses côtés, des modèles plus petits montrent comment ces mêmes canons esthétiques étaient adaptés à différentes échelles, allant de la statuette de poche à l'objet de culte plus imposant. Cette répétition de formes identiques à travers diverses tailles suggère une production codifiée par des ateliers spécialisés, répondant à des besoins rituels précis au sein des communautés insulaires.</p>
+    <p>L'examen de ces pièces révèle également des traces d'érosion et de concrétions calcaires qui témoignent de leur long séjour sous terre, souvent dans des tombes à ciste. Ces statuettes n'étaient pas conçues pour être admirées de profil, mais pour être vues de face ou déposées aux côtés du défunt, agissant comme des symboles de renaissance ou des compagnes éternelles. Leur présence dans les musées d'Athènes permet aujourd'hui de mesurer l'incroyable cohérence artistique de la civilisation cycladique, capable de transformer un bloc de marbre brut en une icône de grâce absolue.</p>
+    <p><strong>Siècle :</strong> XXIIIe siècle av. J.-C. (-2300) | <strong>Civilisation :</strong> Monde égéen (Art Cycladique) | <strong>Sous-partie :</strong> Statuaire & Marbre.</p>`
+  },
+   {
     id: "rhyton_ours_cycladique_athenes",
     civId: "egee",
     periodId: "cyclades",
