@@ -6,6 +6,157 @@ window.ART_OBJECTS = window.ART_OBJECTS || [];
 window.ART_OBJECTS.push(
 
 {
+    id: "rhyton_ours_cycladique_athenes",
+    civId: "egee",
+    periodId: "cyclades",
+    civName: "Art Cycladique (Mer Égée)",
+    century: "v. -2800 av. J.-C. (Cycladique Ancien I / II)",
+    centuryDisplay: "v. -2800 av. J.-C.",
+    centuryNumeric: -2800,
+    domain: "ceramique",
+    artifactType: "Rhyton",
+    title: "Rhyton zoomorphe en forme d'ours assis tenant une coupelle",
+    site: "Musée National Archéologique d'Athènes (prov. Cyclades)",
+    originSite: "Archipel des Cyclades (Syros ou Paros)",
+    locationType: "museum",
+    currentLocation: "Musée National Archéologique d'Athènes",
+    category: "Céramique zoomorphe",
+    isHighlight: false,
+    chips: ["Cycladique Ancien", "Vase zoomorphe", "Terre cuite peinte", "Musée d'Athènes"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNMZRgR759mlxzzO63gKtVg2u437kEFSbomGP9HGmk8DelG-gh8gB9JNXi9bKBgrqsDkalszZLTbKwC5t0GJdWrMoEmqyl9V6L6d0f5GhGwYfTg6AqqP-C2stcjrj5Vn5Ba1SstoTv7f5_pyIccZFQq4g=w2209-h938-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNHTFSf3kbXObc0-J9KI-tFna1yYaoN1gk72-MwipAxcOUJisUCdANbuo4dBzhT6fvyj4wvallXlatti6-5nTMZKqGzQmX_zbldQHMxMq9dg8i1IDaFrobOSqs55pHycFFhMS3K1LSTjLRRAYCuKyJcig=w1588-h1058-s-no-gm?authuser=0",
+    narrative: `<p>Ce rhyton en terre cuite, daté d'environ 2800 avant notre ère et conservé au Musée national archéologique d'Athènes, représente l'un des exemples les plus charmants et originaux de la céramique cycladique ancienne. Cette pièce prend la forme d'un ours assis, tenant entre ses pattes un large bol ou une coupelle, créant une scène d'un grand naturel qui contraste avec la sévérité habituelle des idoles en marbre. Ce type de vase à libation, utilisé pour verser des liquides lors de cérémonies rituelles, témoigne de la créativité des artisans des Cyclades qui savaient infuser de la vie et de l'humour dans des objets utilitaires ou sacrés.</p>
+    <p>La morphologie de l'animal est rendue avec une économie de moyens très efficace, caractéristique de l'esthétique de l'âge du Bronze. Le corps trapu de l'ours et son museau pointu lui donnent une allure expressive, tandis que sa posture assise, stable sur son arrière-train, assure la fonctionnalité de l'objet. La décoration peinte joue un rôle essentiel dans la définition de la figure : des bandes horizontales et des motifs de quadrillage au pigment sombre soulignent les volumes du corps et suggèrent peut-être la texture de la fourrure ou des parures rituelles.</p>
+    <p>Contrairement à la statuaire monumentale en marbre, cette œuvre en terre cuite permettait une plus grande liberté de mouvement et de mise en scène. L'intégration du récipient dans les bras de l'animal crée une interaction directe entre la figure et sa fonction, suggérant que l'ours lui-même participe à l'acte de l'offrande ou de la consommation. Cette thématique animale, bien que moins fréquente que les représentations féminines, souligne la richesse du bestiaire cycladique et le lien étroit que ces populations entretenaient avec la faune locale.</p>
+    <p>La conservation de cette pièce est remarquable, nous permettant d'apprécier la finesse de la poterie et la survie des décors peints qui s'effacent souvent sur d'autres supports. Elle illustre parfaitement la diversité de la production artistique d'Athènes et des îles, où le travail de l'argile complétait celui du marbre pour répondre aux besoins spirituels et domestiques d'une société en pleine expansion. Ce rhyton demeure une œuvre emblématique qui humanise notre vision de la préhistoire égéenne par sa tendresse et sa simplicité.</p>
+    <p><strong>Siècle :</strong> XXVIIIe siècle av. J.-C. (-2800) | <strong>Civilisation :</strong> Monde égéen (Art Cycladique) | <strong>Sous-partie :</strong> Céramiques & Rituels.</p>`
+  },
+  {
+    id: "cruche_phylakopi_col_retroverse_louvre",
+    civId: "egee",
+    periodId: "cyclades",
+    civName: "Art Cycladique (Mer Égée)",
+    century: "XIXe siècle av. J.-C. (Cycladique Moyen / Phylakopi II)",
+    centuryDisplay: "XIXe s. av. J.-C.",
+    centuryNumeric: -1850,
+    domain: "ceramique",
+    artifactType: "Amphore",
+    title: "Cruche à col rétroversé à décor géométrique bicolore",
+    site: "Musée du Louvre (Paris / prov. Phylakopi, Milos)",
+    originSite: "Phylakopi (Milos, Cyclades)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre (Paris)",
+    category: "Céramique peinte",
+    isHighlight: false,
+    chips: ["Cycladique Moyen", "Phylakopi II", "Style bicolore", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNMZRgR759mlxzzO63gKtVg2u437kEFSbomGP9HGmk8DelG-gh8gB9JNXi9bKBgrqsDkalszZLTbKwC5t0GJdWrMoEmqyl9V6L6d0f5GhGwYfTg6AqqP-C2stcjrj5Vn5Ba1SstoTv7f5_pyIccZFQq4g=w2209-h938-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOFGRK1xEkOAtAhMGrCDyDeInQGLxsnSLK1S3XJEjJnZAX7Ww6Np1Z38FF1-vPr3LmK9C65jNj1WqE2bd_G0lFsulpLRZiIeUOot8D6KqU490BWFQttjBU8ohlOqCc3rbVAZoYBsb8gvKzCbntBuJyBJw=w1588-h2108-s-no-gm?authuser=0",
+    narrative: `<p>Cette cruche à col inversé constitue un témoignage fascinant de la transition vers le Bronze Moyen dans les Cyclades, spécifiquement sur l'île de Milos. Sa morphologie est audacieuse : elle présente une panse globulaire ramassée d'où s'élance un col long et étroit, dont l'extrémité se courbe vers l'arrière, créant une silhouette organique et asymétrique. Cette inclinaison du bec permettait probablement de servir des liquides précieux avec une grande délicatesse tout en évitant les dépôts. L'anse unique, attachée à la base du col, souligne la verticalité de l'objet et sa maniabilité.</p>
+    <p>Le décor pictural est particulièrement intéressant car il utilise une palette bicolore (noir et rouge ocre) sur l'argile de couleur crème, une innovation du style de Phylakopi II. La panse est organisée en larges panneaux rectangulaires délimités par des lignes verticales sombres. À l'intérieur de ces cadres, de grands aplats de peinture rouge-orangé créent un contraste visuel fort avec la base et le col. Le col lui-même est rythmé par une série de bandes horizontales noires parallèles qui accentuent sa forme allongée et courbe, tandis que la lèvre est marquée d'un trait sombre.</p>
+    <p>Cette pièce illustre l'inventivité technique des ateliers de Phylakopi, le centre urbain majeur de Milos à cette époque. Le traitement géométrique rigoureux des panneaux sur la panse, associé à la liberté presque sculpturale du col, montre une recherche d'équilibre entre la forme utilitaire et l'expression artistique. Utilisée vraisemblablement dans le cadre de banquets ou de rituels domestiques raffinés, cette cruche témoigne de la prospérité des réseaux commerciaux entre les îles Cyclades et la Crète, tout en affirmant une identité stylistique mélienne très forte.</p>
+    <p><strong>Siècle :</strong> XIXe siècle av. J.-C. | <strong>Civilisation :</strong> Monde égéen (Art Cycladique) | <strong>Sous-partie :</strong> Céramiques & Rituels.</p>`
+  },
+  {
+    id: "oenochoes_bec_releve_thera_louvre",
+    civId: "egee",
+    periodId: "cyclades",
+    civName: "Art Cycladique (Mer Égée)",
+    century: "XVIIIe siècle av. J.-C. (Cycladique Moyen)",
+    centuryDisplay: "XVIIIe s. av. J.-C.",
+    centuryNumeric: -1750,
+    domain: "ceramique",
+    artifactType: "Oenochoé",
+    title: "Œnochoés piriformes à bec relevé et motifs de spirales",
+    site: "Musée du Louvre (Paris / prov. Théra - Santorin)",
+    originSite: "Théra / Santorin (Cyclades)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre (Paris)",
+    category: "Céramique fine",
+    isHighlight: false,
+    chips: ["Cycladique Moyen", "Théra (Santorin)", "Bec relevé", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNMZRgR759mlxzzO63gKtVg2u437kEFSbomGP9HGmk8DelG-gh8gB9JNXi9bKBgrqsDkalszZLTbKwC5t0GJdWrMoEmqyl9V6L6d0f5GhGwYfTg6AqqP-C2stcjrj5Vn5Ba1SstoTv7f5_pyIccZFQq4g=w2209-h938-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOMMbVuIhxJz8sT9Me_8BO_GdXxkAotQ_ruyZUpbnK7BuAFYiMO5OwrfedSFya9tkBwGNsH0iNWGyd1s0zIxQ62S4SxW9hDDooBUSEuHrUD0xOQbwio-X51BFqpnsRmq1KejIIrCmPD6XglnnkFovDKsA=w1588-h2108-s-no-gm?authuser=0",
+    narrative: `<p>Ces oenochoés (vases à verser) en terre cuite illustrent parfaitement la finesse de la production céramique cycladique au cours de la période du Bronze Moyen (Cycladique Moyen). Elles se distinguent par une silhouette élégante et élancée, dotée d'une panse piriforme (en forme de poire) s'affinant vers un col étroit et un bec verseur très relevé, presque vertical. Cette forme de goulot, typique de l'art de Santorin avant l'éruption, permettait un versement précis et contrôlé des liquides. L'anse rubanée, reliant le col à l'épaule, offre une prise équilibrée, soulignant l'aspect fonctionnel et esthétique de l'objet.</p>
+    <p>Le décor est d'une grande sobriété, caractéristique du style cycladique qui privilégie la clarté du champ visuel. Sur l'argile de couleur crème, des motifs peints au vernis sombre (brun ou noir) se détachent avec netteté. On observe sur la panse des motifs isolés et symboliques : des spirales enchaînées formant un "S" ou des motifs foliacés (feuilles ou yeux stylisés), entourés de semis de petits points (rosettes simplifiées). Des bandes horizontales simples ceignent le col et la base du vase, structurant le volume sans le surcharger. Cette économie de moyens crée une élégance graphique très moderne.</p>
+    <p>L'usage de ces oenochoés à Théra était multiple, servant aussi bien dans le cadre domestique pour le service de l'eau ou du vin que lors de rituels funéraires ou religieux. La découverte de tels exemplaires à Santorin témoigne d'une société prospère, ouverte aux influences minoennes de Crète tout en conservant une identité artistique propre, faite de lignes fluides et d'une schématisation poétique de la nature. Ces vases sont les ancêtres directs des productions plus chargées du XVIe siècle av. J.-C. retrouvées sur le site d'Akrotiri.</p>
+    <p><strong>Siècle :</strong> XVIIIe siècle av. J.-C. | <strong>Civilisation :</strong> Monde égéen (Art Cycladique) | <strong>Sous-partie :</strong> Céramiques & Rituels.</p>`
+  },
+  {
+    id: "pithos_spirales_thera_louvre",
+    civId: "egee",
+    periodId: "cyclades",
+    civName: "Art Cycladique (Mer Égée)",
+    century: "XVIe siècle av. J.-C. (Cycladique Récent I)",
+    centuryDisplay: "XVIe s. av. J.-C.",
+    centuryNumeric: -1550,
+    domain: "ceramique",
+    artifactType: "Pithos / Jarre",
+    title: "Grand pithos de stockage à décor de spirales courantes",
+    site: "Musée du Louvre (Paris / prov. Théra - Santorin)",
+    originSite: "Théra / Santorin (Cyclades)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre (Paris)",
+    category: "Jarre de stockage",
+    isHighlight: false,
+    chips: ["Cycladique Récent I", "Théra (Santorin)", "Spirales courantes", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNMZRgR759mlxzzO63gKtVg2u437kEFSbomGP9HGmk8DelG-gh8gB9JNXi9bKBgrqsDkalszZLTbKwC5t0GJdWrMoEmqyl9V6L6d0f5GhGwYfTg6AqqP-C2stcjrj5Vn5Ba1SstoTv7f5_pyIccZFQq4g=w2209-h938-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNjerzquCBUQdD6kmwedOTGVD8OzBFC2mLnHD__W0QcO3ftLnntqpR2FmatfsLg9-8iojOlJsyShzMd-DIdVfF49pa_GkjlEtmYr28WzBVDw3PEhSOTbyCvLVPbEJM2jAZ3ZmIwBtrcEbObysWGDqqj7g=w1588-h2108-s-no-gm?authuser=0",
+    narrative: `<p>Ce pithos est un exemplaire magistral de la céramique cycladique de la période de transition entre le Bronze Moyen et le Bronze Récent. Le pithos est une jarre de stockage de grandes dimensions, caractérisée par une panse ovoïde puissante qui s'évase à partir d'un pied étroit pour atteindre son diamètre maximal au niveau de l'épaule. L'ouverture est large, munie d'un rebord plat et épais, et le vase possède de petites anses horizontales sur l'épaule, facilitant sa manipulation ou le passage de cordes pour l'arrimer. Ce type de récipient était essentiel à l'économie palatiale et domestique de Santorin pour la conservation des grains, de l'huile ou du vin.</p>
+    <p>Le décor est d'une vitalité exceptionnelle, typique de l'esthétique de Théra avant l'éruption volcanique. Il est dominé par de grandes spirales courantes peintes dans un ton sombre (brun-noir) sur l'argile claire. Ces spirales ne sont pas de simples motifs géométriques rigides ; elles sont traitées avec une souplesse organique, s'enroulant et se rejoignant par de larges courbes qui épousent parfaitement le volume bombé de la jarre. Ce mouvement tourbillonnant évoque irrésistiblement les courants marins ou la croissance végétale, des thèmes récurrents dans l'art des Cyclades qui privilégie la fluidité et le dynamisme visuel.</p>
+    <p>La partie inférieure du vase est rythmée par des bandes horizontales simples, tandis que le col et le rebord sont souvent soulignés par un vernis uni. La technique de peinture montre une grande liberté de trait, caractéristique des ateliers de Santorin (comme ceux d'Akrotiri), où l'influence minoenne est forte mais réinterprétée avec une spontanéité propre aux insulaires. Ce pithos n'est pas seulement un objet utilitaire ; par l'élégance de sa silhouette et la force de son décor, il témoigne de la prospérité et du raffinement artistique de la civilisation cycladique au milieu du IIe millénaire avant J.-C.</p>
+    <p><strong>Siècle :</strong> XVIe siècle av. J.-C. | <strong>Civilisation :</strong> Monde égéen (Art Cycladique) | <strong>Sous-partie :</strong> Céramiques & Rituels.</p>`
+  },
+  {
+    id: "idole_cycladique_spedos_elancee_louvre",
+    civId: "egee",
+    periodId: "cyclades",
+    civName: "Art Cycladique (Mer Égée)",
+    century: "v. -2700 à -2300 av. J.-C. (Cycladique Ancien II)",
+    centuryDisplay: "v. -2500 av. J.-C.",
+    centuryNumeric: -2500,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire royale & divine (ronde-bosse)",
+    title: "Idole féminine élancée en marbre (Variété de Spedos)",
+    site: "Musée du Louvre (Paris / prov. Cyclades)",
+    originSite: "Archipel des Cyclades (Naxos ou Kéros)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre (Paris)",
+    category: "Sculpture en marbre",
+    isHighlight: false,
+    chips: ["Cycladique Ancien II", "Variété de Spedos", "Marbre blanc", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNMZRgR759mlxzzO63gKtVg2u437kEFSbomGP9HGmk8DelG-gh8gB9JNXi9bKBgrqsDkalszZLTbKwC5t0GJdWrMoEmqyl9V6L6d0f5GhGwYfTg6AqqP-C2stcjrj5Vn5Ba1SstoTv7f5_pyIccZFQq4g=w2209-h938-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczN3fLKYUU3ZmWQEZQs6yL8VJUVZQpff5u60wRnCtIJzRvR6jGEQFfXqDK5MfRFsRvaAa6ExrQJY0_Oa1TJk0S2NIfktscU2zPbqmyCC3uf5kI5rUpX66aKMXcCi1g-dltwTb_saJxkWfWL85GOrcgM5mw=w1588-h2108-s-no-gm?authuser=0",
+    narrative: `<p>Cette statuette cycladique en marbre blanc illustre avec une grande pureté le canon stylistique de la période de Spedos. Elle se distingue par une verticalité particulièrement accentuée et une économie de volumes qui renforcent son aspect hiératique. La surface de la pierre porte les marques du temps, notamment des zones d'érosion plus prononcées sur le côté gauche du buste et de la tête, mais la silhouette générale conserve une lisibilité parfaite, témoignant de la rigueur géométrique propre aux sculpteurs des Cyclades durant le Bronze Ancien II.</p>
+    <p>La description détaillée de l'objet révèle une tête de forme allongée, presque rectangulaire avec un sommet plat, dominée par un nez en relief long et fin qui occupe la majeure partie du plan facial. Le cou est exceptionnellement élancé et cylindrique, créant une distance élégante entre la tête et le buste. Les épaules sont traitées de manière quasi horizontale, amorçant un torse rectiligne. Les seins sont suggérés avec une grande discrétion, le sein droit étant encore visible en léger relief. Conformément au style canonique, les bras sont repliés horizontalement sur l'abdomen, le bras gauche reposant sur le droit, bien que l'usure de la pierre ait partiellement estompé le détail des mains.</p>
+    <p>La partie inférieure de la figurine est séparée du tronc par une ligne de taille marquée. Le triangle pubien est délimité par des incisions nettes, pointant vers une rainure verticale profonde qui sépare les membres inférieurs. Les jambes, bien que fusionnées, conservent un modelé subtil avant de se terminer par des pieds schématiques dirigés vers le bas. Cette statuette, par sa finesse et son allongement, représente l'un des types les plus sophistiqués de la statuaire cycladique, où chaque détail anatomique est réduit à sa plus simple expression géométrique pour atteindre une forme d'universalité symbolique.</p>
+    <p><strong>Siècle :</strong> XXVe siècle av. J.-C. (-2500) | <strong>Civilisation :</strong> Monde égéen (Art Cycladique) | <strong>Sous-partie :</strong> Statuaire & Marbre.</p>`
+  },
+  {
+    id: "idole_canonique_syros_louvre",
+    civId: "egee",
+    periodId: "cyclades",
+    civName: "Art Cycladique (Mer Égée)",
+    century: "v. -2700 à -2300 av. J.-C. (Cycladique Ancien II)",
+    centuryDisplay: "v. -2500 av. J.-C.",
+    centuryNumeric: -2500,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire royale & divine (ronde-bosse)",
+    title: "Idole féminine à bras croisés en marbre (Groupe de Syros)",
+    site: "Musée du Louvre (Paris / prov. Cyclades)",
+    originSite: "Archipel des Cyclades (Syros ou Kéros)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre (Paris)",
+    category: "Sculpture en marbre",
+    isHighlight: false,
+    chips: ["Cycladique Ancien II", "Groupe de Syros", "Figure à bras croisés", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNMZRgR759mlxzzO63gKtVg2u437kEFSbomGP9HGmk8DelG-gh8gB9JNXi9bKBgrqsDkalszZLTbKwC5t0GJdWrMoEmqyl9V6L6d0f5GhGwYfTg6AqqP-C2stcjrj5Vn5Ba1SstoTv7f5_pyIccZFQq4g=w2209-h938-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMQXRTV0RVXLsAt3Tld6zWdmURxRz7gLdGnXTcPVjDIfF-JMG1lL-_OhX-eZkTAELIUEkq8E_9jxnnJHnZ4OZTOz3htKxNxgLHja8isS1PAWppO7ShDOGKOgVXt3WKWcaIKlycFFtxKwvpTKq8LhMyEFA=w1588-h2108-s-no-gm?authuser=0",
+    narrative: `<p>Cette statuette en marbre blanc appartient au type dit « canonique » ou « à bras croisés », le plus représentatif de la sculpture cycladique du Bronze Ancien II (environ 2700-2300 avant J.-C.). L'œuvre illustre parfaitement la phase de maturité de cet art, caractérisée par une recherche de pureté et d'équilibre. La tête est sculptée en forme de lyre, inclinée vers l'arrière, avec pour seul relief un nez en arête pointu qui structure le visage. La silhouette est élancée, avec des épaules larges et un buste plat se rétrécissant vers la taille avant de s'évaser pour les hanches. Les bras sont repliés horizontalement sur le ventre, l'un au-dessus de l'autre, une convention posturale rigoureuse et presque universelle pour ces figurines.</p>
+    <p>Les jambes sont sculptées dans un bloc monolithique, mais sont nettement séparées par une incision profonde, accentuant la verticalité de la pose. De légères encoches marquent les genoux et les chevilles, tandis que les pieds sont pointés vers le bas, suggérant que la statuette n'était pas conçue pour tenir debout seule, mais pour être déposée à plat dans une tombe. La surface du marbre est lisse et polie, le résultat d'un long travail d'abrasion à l'émeri ou au sable. Bien qu'aujourd'hui disparue, la polychromie d'origine (yeux, bouche, détails de vêtements ou tatouages peints en rouge ou bleu) apportait une vivacité insoupçonnée à ces formes épurées.</p>
+    <p>Retrouvée dans les Cyclades (et rattachable stylistiquement au groupe de Syros par ses proportions équilibrées et sa tête en lyre), cette idole féminine demeure l'un des plus grands mystères de l'art préhistorique égéen. Représentait-elle une divinité de la fertilité, un substitut du défunt ou une accompagnatrice rituelle ? Sa blancheur immatérielle et sa géométrie intemporelle ont profondément marqué les sculpteurs du début du XXe siècle, de Brancusi à Modigliani, faisant d'elle un trait d'union fascinant entre la préhistoire et la modernité.</p>
+    <p><strong>Siècle :</strong> XXVe siècle av. J.-C. (-2500) | <strong>Civilisation :</strong> Monde égéen (Art Cycladique) | <strong>Sous-partie :</strong> Statuaire & Marbre.</p>`
+  },
+   {
     id: "cratere_hachures_ligortynos_louvre",
     civId: "egee",
     periodId: "crete",
