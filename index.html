@@ -88,36 +88,51 @@
   <section id="view-search" class="spa-view" hidden>
     <div class="search-engine-bar">
       <div class="filter-controls-grid">
+        <!-- 1. Civilisation -->
         <div class="filter-field">
           <label for="filter-civ">🌍 Civilisation</label>
           <select id="filter-civ">
-            <option value="">Toutes les civilisations</option>
+            <option value="all">Toutes les civilisations</option>
           </select>
         </div>
 
+        <!-- 2. Période / Époque (dépend de la civilisation) -->
         <div class="filter-field">
-          <label for="filter-siecle">⏳ Siècle / Époque</label>
-          <select id="filter-siecle">
-            <option value="">Tous les siècles</option>
+          <label for="filter-period">⏳ Période / Époque</label>
+          <select id="filter-period">
+            <option value="all">Toutes les périodes</option>
           </select>
         </div>
 
+        <!-- 3. Domaine technique -->
         <div class="filter-field">
-          <label for="filter-cat">🏺 Type d'objet</label>
-          <select id="filter-cat">
-            <option value="">Toutes les catégories</option>
+          <label for="filter-domain">🏺 Domaine technique</label>
+          <select id="filter-domain">
+            <option value="all">Tous les domaines</option>
           </select>
         </div>
 
+        <!-- 4. Forme / Typologie (dépend du domaine) -->
         <div class="filter-field">
-          <label for="filter-text">🔍 Mot-clé</label>
-          <input type="text" id="filter-text" placeholder="Titre, matière, lieu...">
+          <label for="filter-type">🔍 Forme / Typologie</label>
+          <select id="filter-type">
+            <option value="all">Toutes les formes</option>
+          </select>
         </div>
 
+        <!-- 5. Recherche libre : artiste, lieu, matière, titre -->
+        <div class="filter-field">
+          <label for="filter-text">🔎 Recherche libre</label>
+          <input type="text" id="filter-text" placeholder="Peintre, matériau, site, titre...">
+        </div>
+
+        <!-- 6. Tri -->
         <div class="filter-field">
           <label for="filter-sort">↕️ Trier par</label>
           <select id="filter-sort">
             <option value="recent">Derniers ajouts</option>
+            <option value="chrono-asc">Chronologique (du + ancien)</option>
+            <option value="chrono-desc">Chronologique (du + récent)</option>
             <option value="alpha-asc">Ordre alphabétique (A-Z)</option>
             <option value="alpha-desc">Ordre alphabétique inversé (Z-A)</option>
           </select>
