@@ -6,6 +6,34 @@ window.ART_OBJECTS = window.ART_OBJECTS || [];
 window.ART_OBJECTS.push(
 
 {
+    id: "altdorfer_bataille_issus",
+    artistId: "altdorfer",
+    artist: "Albrecht Altdorfer",
+    artistSort: "Altdorfer",
+    title: "La Bataille d'Alexandre à Issus",
+    civId: "occident",
+    periodId: "occ_renaissance",
+    civName: "Occident chrétien & moderne",
+    century: "1529 (XVIe siècle)",
+    centuryDisplay: "1529",
+    centuryNumeric: 1529,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture sur panneau de bois",
+    site: "Alte Pinakothek (Munich)",
+    originSite: "Munich (commande du duc Guillaume IV de Bavière)",
+    locationType: "museum",
+    currentLocation: "Alte Pinakothek (Munich)",
+    category: "Peinture de chevalet",
+    isHighlight: true,
+    chips: ["1529", "Alte Pinakothek (Munich)", "École du Danube", "Huile sur panneau de tilleul"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczMUjXbd-Ybcvu_sZr5_X3xjASuIiFcmJHkD5HsuYwNkH8pRX_2ArLP5NhreCVQtFJTxtl270W1fxmOmmHUvycvdney1U5B3J0tlGr7YC4j0IzCTEV5UAnHZ_WQYMQk4npx0Qz6swBeW7J2ccoFMmF84QQ=w1908-h810-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPUTbR_PYd3sU1m2bX5madxYFUEwidREOm72pEbhc8UVW3IhZTBGr_RTBILsUIRsM02fJgzLn50KimhdfQx8-ZTQvmDQ9jJTS5NYu5ab4TosHjbczUKoCfzLxzBVT_1dFt_3_ddUoEG2AtJLGZ3Xn33xQ=w1879-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Chef-d'œuvre absolu de l'école du Danube et l'un des tableaux les plus célèbres de l'Alte Pinakothek de Munich, La Bataille d'Alexandre à Issus est une œuvre d'une ambition démesurée. Peinte en 1529 sur commande du duc Guillaume IV de Bavière, elle illustre la victoire décisive d'Alexandre le Grand sur le roi perse Darius III en 333 avant J.-C. Cependant, Altdorfer dépasse largement le cadre du récit historique pour livrer une vision cosmologique du monde, où le destin des empires se joue à l'échelle de l'univers tout entier.</p>
+    <p>La composition est révolutionnaire par son point de vue en "vol d'oiseau" qui embrasse un paysage d'une étendue vertigineuse. Au premier plan, une multitude grouillante de milliers de soldats en armures contemporaines du XVIe siècle s'affronte dans un chaos organisé, rendant le choc des armées presque palpable. L'œil est ensuite projeté vers un arrière-plan fantastique où la géographie devient symbolique : on y reconnaît la Méditerranée, l'île de Chypre, le delta du Nil et les sommets enneigés des Alpes. Cette perspective démesurée place l'événement humain sous le regard de l'éternité.</p>
+    <p>Techniquement, la précision d'Altdorfer est proprement stupéfiante, chaque détail étant traité avec une minutie de miniaturiste malgré l'ampleur de la scène. Mais c'est surtout le traitement du ciel qui frappe le spectateur : un combat céleste entre le soleil couchant et la lune montante fait écho à la bataille terrestre. Le soleil, astre d'Alexandre, triomphe des ténèbres associées à Darius, tandis que des nuages tourmentés et enflammés créent une atmosphère d'apocalypse. La lumière n'est plus simplement physique, elle devient une force métaphysique qui baigne l'ensemble du paysage.</p>
+    <p>L'importance de cette œuvre réside dans sa fusion parfaite entre l'histoire ancienne et les préoccupations de l'époque de la Renaissance, notamment la menace ottomane que ressentait alors l'Europe. Le cartouche suspendu dans le ciel, qui détaille les pertes humaines en latin, rappelle la vanité des conquêtes et la fragilité du pouvoir. Par sa capacité à lier le détail infime à l'immensité cosmique, Altdorfer a créé avec ce tableau l'un des premiers et des plus puissants "paysages du monde", influençant durablement l'art européen par sa démesure visionnaire.</p>`
+  },
+   {
     id: "figurines_caserones_canaries",
     civId: "canaries",
     periodId: "canaries",
