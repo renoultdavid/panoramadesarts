@@ -1389,6 +1389,133 @@ function initSearchEngine() {
   updatePeriodDropdown();
   updateTypeDropdown();
 
+  /* ==========================================================================
+     INDEX ALPHABÉTIQUE DES ARTISTES (A-Z) & TIROIR DÉROULANT
+     ========================================================================== */
+  const alphabetContainer = document.getElementById('alphabet-letters');
+  const artistsDrawer = document.getElementById('artists-drawer');
+  const drawerLetterBadge = document.getElementById('artists-drawer-letter');
+  const drawerCount = document.getElementById('artists-drawer-count');
+  const drawerList = document.getElementById('artists-drawer-list');
+  const btnCloseDrawer = document.getElementById('btn-close-artists-drawer');
+
+  // Construit l'annuaire des artistes à partir des œuvres du catalogue
+  function getArtistsDirectory() {
+    const catalog = window.ART_OBJECTS || [];
+    const directory = {};
+
+    catalog.forEach(item => {
+      if (!item.artist) return;
+      const artName = item.artist.trim();
+      // On extrait la lettre de tri (soit le nom de famille s'il est spécifié, soit la première lettre)
+      let sortKey = (item.artistSort || artName).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toUpperCase();
+      let firstChar = sortKey.charAt(0);
+      if (!/[A-Z]/.test(firstChar)) firstChar = '#';
+
+      if (!directory[firstChar]) directory[firstChar] = {};
+      if (!directory[firstChar][artName]) {
+        directory[firstChar][artName] = {
+          name: artName,
+          count: 0,
+          artistBio: item.artistBio || '',
+          artistDates: item.artistDates || '',
+          artistMovement: item.artistMovement || ''
+        };
+      }
+      directory[firstChar][artName].count++;
+    });
+
+    return directory;
+  }
+
+  function renderAlphabetBar() {
+    if (!alphabetContainer) return;
+    alphabetContainer.innerHTML = '';
+    const directory = getArtistsDirectory();
+    const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+
+    alphabet.forEach(letter => {
+      const btn = document.createElement('button');
+      btn.className = 'btn-alpha-letter';
+      btn.textContent = letter;
+
+      const hasArtists = directory[letter] && Object.keys(directory[letter]).length > 0;
+      if (!hasArtists) {
+        btn.classList.add('disabled');
+      } else {
+        btn.addEventListener('click', () => {
+          document.querySelectorAll('.btn-alpha-letter').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          openArtistsDrawer(letter, directory[letter]);
+        });
+      }
+      alphabetContainer.appendChild(btn);
+    });
+  }
+
+  function openArtistsDrawer(letter, artistsMap) {
+    if (!artistsDrawer || !drawerList) return;
+    drawerLetterBadge.textContent = letter;
+    drawerList.innerHTML = '';
+
+    const artists = Object.values(artistsMap || {}).sort((a, b) => a.name.localeCompare(b.name, 'fr'));
+    const total = artists.length;
+    drawerCount.textContent = `${total} peintre${total > 1 ? 's' : ''}`;
+
+    artists.forEach(art => {
+      const chip = document.createElement('button');
+      chip.className = 'artist-drawer-chip';
+      chip.innerHTML = `<span>${art.name}</span> <span class="chip-count">(${art.count})</span>`;
+
+      chip.addEventListener('click', () => {
+        // 1. Remplit la recherche libre avec le nom de l'artiste
+        if (filterText) {
+          filterText.value = art.name;
+        }
+        // 2. Réinitialise les autres filtres pour ne pas masquer ses toiles
+        if (filterCiv) filterCiv.value = 'all';
+        if (filterDomain) filterDomain.value = 'all';
+        updatePeriodDropdown();
+        updateTypeDropdown();
+
+        // 3. Ferme le tiroir alphabétique
+        artistsDrawer.hidden = true;
+        document.querySelectorAll('.btn-alpha-letter').forEach(b => b.classList.remove('active'));
+
+        // 4. Lance le rendu de la galerie verrouillée sur ses œuvres
+        currentRenderLimit = PAGE_CHUNK;
+        renderSearchGallery();
+
+        // 5. Ouvre un pop-up d'introduction du peintre si une notice ou biographie existe
+        if (art.artistBio) {
+          openCuratorModal({
+            id: `bio_${art.name.toLowerCase().replace(/\s+/g, '_')}`,
+            civName: art.artistMovement || 'Peinture Occidentale',
+            title: art.name,
+            centuryDisplay: art.artistDates || '',
+            category: 'MONOGRAPHIE PEINTRE',
+            chips: [art.name, art.artistMovement, `${art.count} œuvres au catalogue`].filter(Boolean),
+            narrative: art.artistBio,
+            imgSrc: 'https://lh3.googleusercontent.com/d/1564-Uow3YDKT2Bu7pkKvjlUbMhoJYue_'
+          });
+        }
+      });
+
+      drawerList.appendChild(chip);
+    });
+
+    artistsDrawer.hidden = false;
+  }
+
+  if (btnCloseDrawer) {
+    btnCloseDrawer.addEventListener('click', () => {
+      if (artistsDrawer) artistsDrawer.hidden = true;
+      document.querySelectorAll('.btn-alpha-letter').forEach(b => b.classList.remove('active'));
+    });
+  }
+
+  renderAlphabetBar();
+
   // Écouteurs de changement
   if (filterCiv) {
     filterCiv.addEventListener('change', () => {
