@@ -1528,4 +1528,5 @@ window.ART_OBJECTS.push(
     narrative: `<p>Découvertes lors des fouilles du complexe troglodytique de la Cueva Pintada, ces statuettes en terre cuite datent principalement de la période comprise entre le XIe et le XVe siècle. Le site de Gáldar était alors l'un des centres politiques et rituels les plus importants de l'île, servant de résidence aux Guanartemes (rois autochtones).</p>
     <p>La morphologie de ces objets, souvent qualifiés d'« idoles », est caractéristique de l'esthétique de Grande Canarie. On observe des corps robustes et stylisés, où l'accent est mis sur le tronc et le ventre, souvent interprétés comme des symboles de fertilité ou de maternité. Les visages sont sommaires, avec des yeux et une bouche marqués par de simples perforations, tandis que les membres sont parfois réduits à des moignons ou intégrés à la masse du corps.</p>
     <p>Fabriquées sans l'aide d'un tour, ces figurines résutent d'un modelage manuel direct de l'argile ferrugineuse locale. Leur surface granuleuse et leur teinte ocre-rouge témoignent d'une cuisson artisanale à basse température. Au-delà de leur aspect artistique, elles jouaient un rôle prépondérant dans l'espace domestique ou sacré, servant probablement d'objets de médiation spirituelle ou de protection votive au sein des habitations circulaires en pierre du village.</p>`
-  },
+  }
+   );
