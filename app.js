@@ -1249,7 +1249,7 @@ const TAXONOMY_DOMAINS = {
   "ceramique": {
     label: "Céramique, Terres cuites & Vases",
     types: [
-      "Amphore", "Cratère", "Hydrie", "Kylix / Coupe", "Lécythe", "Oenochoé",
+      "Vase","Amphore", "Cratère", "Hydrie", "Kylix / Coupe", "Lécythe", "Oenochoé",
       "Rhyton", "Kernos", "Pithos / Jarre", "Vase plastique / Zoomorphe",
       "Vase balustre", "Lampe à huile", "Plat & Céramique fine", "Antéfixe / Plaque architecturale"
     ]
