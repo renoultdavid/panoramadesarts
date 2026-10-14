@@ -1952,3 +1952,121 @@ body {
   color: var(--gold-pale);
   opacity: 0.8;
 }
+/* =========================================================
+   FICHE MONOGRAPHIQUE PEINTRE (EN HAUT DE GALERIE)
+   ========================================================= */
+.artist-monograph-hero {
+  background: rgba(14, 17, 24, 0.98);
+  border: 1px solid var(--gold-pure);
+  border-radius: 6px;
+  overflow: hidden;
+  margin-bottom: 25px;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.85);
+  animation: fadeInDrawer 0.3s ease-out;
+}
+
+.artist-monograph-hero[hidden] {
+  display: none !important;
+}
+
+.artist-hero-banner {
+  position: relative;
+  width: 100%;
+  height: 220px;
+  background-size: cover;
+  background-position: center;
+  border-bottom: 2px solid var(--gold-pure);
+}
+
+.artist-hero-banner::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(10, 13, 18, 0.2), rgba(10, 13, 18, 0.85));
+}
+
+.btn-close-artist-hero {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  z-index: 5;
+  background: rgba(10, 13, 18, 0.85);
+  border: 1px solid var(--gold-pure);
+  color: var(--gold-pure);
+  padding: 6px 14px;
+  font-family: 'Cinzel', serif;
+  font-size: 0.75rem;
+  font-weight: 700;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-close-artist-hero:hover {
+  background: var(--gold-pure);
+  color: #000;
+}
+
+.artist-hero-content {
+  padding: 20px 26px;
+}
+
+.artist-hero-header {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+.artist-hero-name {
+  font-family: 'Cinzel', serif;
+  font-size: 1.6rem;
+  color: var(--gold-pure);
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.artist-hero-dates {
+  font-size: 0.95rem;
+  color: var(--gold-pale);
+  font-style: italic;
+}
+
+.artist-hero-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.artist-hero-tag {
+  background: rgba(22, 26, 36, 0.85);
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  color: var(--gold-pale);
+  font-size: 0.75rem;
+  padding: 4px 10px;
+  border-radius: 3px;
+  font-family: 'Cinzel', serif;
+}
+
+.artist-hero-bio {
+  color: #d1d5db;
+  font-size: 0.92rem;
+  line-height: 1.7;
+  border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+  padding-bottom: 18px;
+  margin-bottom: 18px;
+}
+
+.artist-hero-bio p {
+  margin-bottom: 10px;
+}
+
+.artist-hero-collection-title {
+  font-family: 'Cinzel', serif;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: var(--gold-pure);
+}
