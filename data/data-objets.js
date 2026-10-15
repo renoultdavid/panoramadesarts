@@ -6,6 +6,132 @@ window.ART_OBJECTS = window.ART_OBJECTS || [];
 window.ART_OBJECTS.push(
 
   {
+    id: "stele_dame_taperet_re_horakhty_louvre_e52",
+    civId: "egypte",
+    periodId: "troisieme_periode_intermediaire",
+    civName: "Égypte : Troisième Période intermédiaire",
+    century: "XXIIe dynastie (vers 945 – 715 av. J.-C.)",
+    centuryDisplay: "Xe - VIIIe s. av. J.-C.",
+    centuryNumeric: -945,
+    domain: "funeraire",
+    artifactType: "Stèle",
+    title: "Stèle funéraire de la dame Tapéret adorant Rê-Horakhty",
+    site: "Nécropole thébaine (Thèbes)",
+    originSite: "Thèbes",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes, E 52 / N 3663)",
+    category: "Stèle funéraire en bois peint",
+    isHighlight: true,
+    chips: ["XXIIe dynastie", "Dame Tapéret", "Rê-Horakhty", "Rayons de lotus", "Bois peint", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOpO3e8MIAZkOvuDV2xBtgu-3WVCNZ41t2g7CnCDH4atPfagMAj-1hlFAGar8PQ-ejh8acPx_no0C-mJzyaLVynjzmS7ZSqFsBtv5_NC2Zq4PFOlyUgzJUiE59DH0haOyiUZE2NP6yYVqY63z7QcHxVqg=w1818-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Cette stèle funéraire cintrée, au sommet arrondi, témoigne du grand raffinement de l'art de la Troisième Période intermédiaire. Elle est bordée dans sa partie supérieure par le signe du ciel (pet) peint en bleu, soutenu de chaque côté par des sceptres ouas et des colonnes végétales très stylisées. Au sommet du cintre, le disque solaire rouge, encadré par deux cobras protecteurs (uræus) portant le signe de vie ânkh, trône sous la protection bienveillante des deux yeux fards oudjat. En bas à gauche et à droite, aux extrémités de la scène, deux petites têtes humaines de profil émergent à la base des piliers, une touche iconographique rare.</p>
+    <p>La scène principale met en présence, à gauche, le dieu solaire Rê-Horakhty et, à droite, la défunte, la dame Tapéret. Le dieu, doté d'une tête de faucon et d'une chair bleu sombre évoquant le domaine céleste et divin, est coiffé d'un imposant disque solaire rouge ceint d'un cobra. Vêtu d'un corselet à écailles vertes et d'un pagne court, il tient dans ses mains un grand sceptre de puissance ouas, un signe de vie ânkh, ainsi que les insignes royaux d'Osiris (le crochet et le flagellum), symbolisant le passage de la vie terrestre à la renaissance éternelle.</p>
+    <p>Face à lui, la dame Tapéret est représentée debout, les mains levées dans un geste d'adoration, vêtue d'une élégante et ample robe plissée jaune et transparente, typique de la mode égyptienne. Sa perruque noire, longue et soignée, est surmontée d'un cône d'onguent parfumé posé sur une petite couronne végétale. Entre elle et la divinité s'élève une haute table d'offrandes richement garnie de pains, de vases et de fleurs, au pied de laquelle se trouve une jarre entourée d'une tige de lotus.</p>
+    <p>Le détail le plus saisissant et poétique de cette œuvre réside dans le traitement de la lumière divine : le disque solaire qui surmonte la tête de Rê-Horakhty projette directement vers le visage et les mains de Tapéret une multitude de rayons qui s'achèvent par de petites fleurs de lotus multicolores (bleues, rouges et blanches). Cette pluie de fleurs célestes symbolise la lumière vivifiante et la renaissance continue que le dieu accorde à la défunte. Quatre colonnes d'écriture hiéroglyphique sur fond jaune rappellent le nom de Tapéret et formulent les souhaits d'offrandes pour son voyage dans l'au-delà.</p>
+    <p><strong>Siècle :</strong> Xe - VIIIe siècle av. J.-C. (-945) | <strong>Civilisation :</strong> Égypte antique (Troisième Période intermédiaire) | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "stele_adoration_re_horakhty_homme_plisse_louvre_xxii",
+    civId: "egypte",
+    periodId: "troisieme_periode_intermediaire",
+    civName: "Égypte : Troisième Période intermédiaire",
+    century: "XXIIe dynastie (vers 945 – 715 av. J.-C.)",
+    centuryDisplay: "Xe - VIIIe s. av. J.-C.",
+    centuryNumeric: -945,
+    domain: "funeraire",
+    artifactType: "Stèle",
+    title: "Stèle funéraire d'un dignitaire en adoration devant Rê-Horakhty trônant",
+    site: "Nécropole thébaine (Thèbes)",
+    originSite: "Thèbes",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes)",
+    category: "Stèle funéraire en bois peint",
+    isHighlight: false,
+    chips: ["XXIIe dynastie", "Rê-Horakhty", "Perruque en poches", "Disque solaire ailé", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczN2t-RAFk1Hg6KWLhhZNjj16gELP0NchzqYp1Agy3Thd7TIHdAqugj01e87ctKvOAuRk8rVbKFWe_bpg1Ul7rRkXItKs1mhcM4pdOTAgc2kSGqvpOSkuE9RL-yUxIGWQUi2CNR_weCSkI_zSzxuZrBsCQ=w1818-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Cette stèle funéraire en bois peint, typique de la XXIIe dynastie, illustre parfaitement la persistance des traditions religieuses et artistiques thébaines.</p>
+    <p>La scène principale montre un défunt masculin en position d'adoration devant la divinité solaire Rê-Horakhty. L'homme est représenté avec une grande élégance, portant les attributs distinctifs des hautes classes sociales de cette période : un long pagne plissé complété par une chemise aux manches amples également plissées, ainsi qu'une perruque dite « en poches ». Il arbore une fine barbiche et un cône de parfum sur la tête, signe de sa régénération et de son statut purifié. Ses mains sont levées dans un geste de prière traditionnel face au dieu.</p>
+    <p>Rê-Horakhty, à gauche, est figuré avec une tête de faucon et siège sur un trône archaïque. Il est coiffé du disque solaire ceint d'un uræus et tient les insignes du pouvoir, le sceptre héqa et le flagellum. Entre le dieu et le défunt, une table d'offrandes simplifiée supporte un vase à libation nébride, symbolisant les rituels nécessaires à la vie dans l'au-delà. Le cintre de la stèle est occupé par le disque solaire ailé, symbole de protection céleste, tandis qu'une frise de signes prophylactiques (nœuds d'Isis, piliers djed et signes de vie) souligne la base de la composition pour garantir la sécurité éternelle du propriétaire de l'objet.</p>
+    <p><strong>Siècle :</strong> Xe - VIIIe siècle av. J.-C. (-945) | <strong>Civilisation :</strong> Égypte antique (Troisième Période intermédiaire) | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "stele_offrande_encens_re_horakhty_momiforme_louvre_xxii",
+    civId: "egypte",
+    periodId: "troisieme_periode_intermediaire",
+    civName: "Égypte : Troisième Période intermédiaire",
+    century: "XXIIe dynastie (vers 945 – 715 av. J.-C.)",
+    centuryDisplay: "Xe - VIIIe s. av. J.-C.",
+    centuryNumeric: -945,
+    domain: "funeraire",
+    artifactType: "Stèle",
+    title: "Stèle funéraire de l'offrande de l'encens à Rê-Horakhty momiforme",
+    site: "Nécropole thébaine (Thèbes)",
+    originSite: "Thèbes",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes)",
+    category: "Stèle funéraire en bois peint",
+    isHighlight: false,
+    chips: ["XXIIe dynastie", "Offrande d'encens", "Rê-Horakhty momiforme", "Yeux Oudjat", "Piliers du ciel", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOOfRQzgxYOJmSb6Bg3BdJtbkxRyLcigOssq4KIQ4V_0OAHR-UVxgn42-FHpHhzIYWZCrBh0gaZnNdHRfZFRpQIzsRW-xWuvprAgBXHhLQrjMOaF0UMKSxSn7PXgoAGmnvBR79lMzm6Y8HBwfgbEDmYNA=w1818-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Cette stèle funéraire en bois peint illustre l'acte solennel de l'offrande de l'encens, rituel purificateur essentiel pour le passage dans l'au-delà.</p>
+    <p>La scène principale met en présence un homme au crâne rasé, signe de sa pureté rituelle, vêtu d'un pagne et d'une chemise à manches plissées d'une grande finesse. Il se tient debout, présentant de la main droite une coupe d'encens fumant vers la divinité, tandis que sa main gauche est levée en signe d'adoration. Face à lui, le dieu Rê-Horakhty est représenté assis sur un trône, enveloppé dans un linceul divin qui souligne son aspect osirien et funéraire. À sa tête de faucon surmontée du disque solaire répondent les insignes du pouvoir royal et divin qu'il serre contre sa poitrine : le sceptre héqa et le flagellum.</p>
+    <p>Entre les deux protagonistes, une table d'offrandes chargée d'un pain et de fleurs de lotus est flanquée de signes néfer, symbolisant la beauté et la perfection de l'offrande. Le registre supérieur, dans le cintre de la stèle, déploie une protection magique puissante : un disque solaire ailé muni d'uraeus surmonte deux grands yeux oudjat, garants de l'intégrité physique du défunt. L'espace est encadré par des piliers symboliques représentant les limites du monde : le signe de l'Occident et celui de l'Orient soutenant le hiéroglyphe de la voûte céleste.</p>
+    <p><strong>Siècle :</strong> Xe - VIIIe siècle av. J.-C. (-945) | <strong>Civilisation :</strong> Égypte antique (Troisième Période intermédiaire) | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "stele_accueil_defunte_thot_atoum_louvre_xxii",
+    civId: "egypte",
+    periodId: "troisieme_periode_intermediaire",
+    civName: "Égypte : Troisième Période intermédiaire",
+    century: "XXIIe dynastie (vers 945 – 715 av. J.-C.)",
+    centuryDisplay: "Xe - VIIIe s. av. J.-C.",
+    centuryNumeric: -945,
+    domain: "funeraire",
+    artifactType: "Stèle",
+    title: "Stèle d'accueil de la défunte par Thot devant le dieu Atoum trônant",
+    site: "Nécropole thébaine (Thèbes)",
+    originSite: "Thèbes",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes)",
+    category: "Stèle funéraire en bois peint",
+    isHighlight: false,
+    chips: ["XXIIe dynastie", "Thot scribe", "Atoum", "Couronne Deshret", "Guirlande d'ânkh et djed", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNz907EGlATwTRXCoxwPHTbsRcWmopXOw7fJZmTwDA0at8R-dpGsHbdpjFS2jHP8CZ_658YlPE0xL-JdgcZ_aM9chzDkZp2_MEuFoyYWmLlw2cchHs-XAdeNnK9JVJ0OyMc3cHMHQCMZsGXIFTAUgQccg=w1818-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Cette stèle en bois peint illustre la scène solennelle de l'accueil de la défunte dans le royaume de l'au-delà, un thème central de l'iconographie funéraire thébaine.</p>
+    <p>À droite, la femme est représentée dans une attitude de déférence, parée d'une robe de lin plissée et d'une perruque enveloppante surmontée d'un cône de parfum. Elle porte à ses narines le signe ânkh, symbole de vie éternelle, que lui présente le dieu Thot. Ce dernier, reconnaissable à sa tête d'ibis, fait office de médiateur et d'introducteur ; il porte son écharpe rituelle en bandoulière et tient sa palette de scribe, prêt à enregistrer le passage de la défunte vers l'éternité.</p>
+    <p>À gauche, le dieu Atoum trône en majesté, incarnant le soleil couchant et le créateur. Il est coiffé de la couronne rouge de Basse-Égypte (deshret) et arbore la fausse barbe enroulée caractéristique des divinités. Enveloppé dans un linceul à motif de résille, il tient fermement les insignes du pouvoir : le sceptre héqa, le sceptre ouas et le flagellum. Un élément graphique remarquable unit les protagonistes : une frise de signes de vie (ânkh) et de piliers djed, suspendue telle une guirlande, relie physiquement le dieu Atoum à la défunte, symbolisant la transmission directe du souffle vital et de la stabilité dans le monde des morts.</p>
+    <p><strong>Siècle :</strong> Xe - VIIIe siècle av. J.-C. (-945) | <strong>Civilisation :</strong> Égypte antique (Troisième Période intermédiaire) | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "stele_adoration_defunte_re_horakhty_piliers_ouas_louvre_xxii",
+    civId: "egypte",
+    periodId: "troisieme_periode_intermediaire",
+    civName: "Égypte : Troisième Période intermédiaire",
+    century: "XXIIe dynastie (vers 945 – 715 av. J.-C.)",
+    centuryDisplay: "Xe - VIIIe s. av. J.-C.",
+    centuryNumeric: -945,
+    domain: "funeraire",
+    artifactType: "Stèle",
+    title: "Stèle funéraire d'une dame thébaine en adoration devant Rê-Horakhty",
+    site: "Nécropole thébaine (Thèbes)",
+    originSite: "Thèbes",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes)",
+    category: "Stèle funéraire en bois peint",
+    isHighlight: false,
+    chips: ["XXIIe dynastie", "Défunte thébaine", "Rê-Horakhty", "Piliers Ouas", "Signes chen", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMitPnnIuSl4xNcDveT8jnm2bm8ZnLBHUBDIjjhewPklYI4zaDG5YGU1QrO9RW3SZT1eu55yhPUJOTOeBeXu_KfrYPpqPH4eipA4lvh08GMScRpbN9ZecgJq24fwwgkbQ9WHasvSFa9ipdoECchjTZ7Xw=w1818-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Cette stèle funéraire en bois peint présente une scène d'adoration classique, où une défunte sollicite la bienveillance divine pour son voyage dans l'au-delà.</p>
+    <p>La femme est figurée debout, vêtue d'une robe de lin plissée transparente révélant une silhouette élégante. Elle est parée d'un large collier ousekh et porte sur sa perruque le cône de parfum traditionnel, symbole de fraîcheur et de régénération. Face à elle, le dieu Rê-Horakhty siège en majesté. Son aspect funéraire est souligné par le linceul qui enveloppe son corps, tandis que sa nature solaire est rappelée par le disque à uræus sur sa tête de faucon. Il tient les attributs du pouvoir et de la direction, le sceptre héqa et le flagellum.</p>
+    <p>La composition spatiale est riche en symbolisme cosmogonique. Entre les deux personnages, une table d'offrandes élancée supporte un bouquet de fleurs de lotus, promesse de renaissance. La scène est encadrée par deux sceptres ouas qui font office de piliers du ciel, soutenant le signe hiéroglyphique de la voûte céleste qui délimite le registre supérieur. Dans le cintre de la stèle, un disque solaire à uræus rayonne au-dessus d'un groupe de signes protecteurs : le signe de l'eau, garant de la libation éternelle, est flanqué de deux signes chen, symbolisant l'infinité et la protection magique entourant le nom et l'âme de la défunte.</p>
+    <p><strong>Siècle :</strong> Xe - VIIIe siècle av. J.-C. (-945) | <strong>Civilisation :</strong> Égypte antique (Troisième Période intermédiaire) | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+   {
     id: "peinture_chambre_funeraire_voute_livres_jour_nuit_ramses_v_vi_kv9",
     civId: "egypte",
     periodId: "nouvel_empire",
