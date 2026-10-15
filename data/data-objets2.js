@@ -1,7 +1,7 @@
 /* ==========================================================================
    REGISTRE COMPLET DES NOTICES D'ŒUVRES D'ART - VOLUME 2
    ========================================================================== */
-window.ART_OBJECTS = (window.ART_OBJECTS || []).concat([
+window.ART_OBJECTS = [
   {
     id: "sculpture_facade_six_colosses_temple_nefertari_hathor_abou_simbel",
     civId: "egypte",
@@ -478,7 +478,7 @@ window.ART_OBJECTS = (window.ART_OBJECTS || []).concat([
     <p>La lumière artificielle rasante révèle la fermeté de l'incision lithique et la vigueur du modelé ramesside, qui transforme le sanctuaire souterrain en une assemblée éternelle où Ramsès II s'impose face aux dieux comme le régulateur suprême du cosmos nubien.</p>
     <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1264) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
   },
-   {
+  {
     id: "sculpture_facade_sud_quatre_colosses_abou_simbel",
     civId: "egypte",
     periodId: "nouvel_empire",
@@ -528,4 +528,4 @@ window.ART_OBJECTS = (window.ART_OBJECTS || []).concat([
     <p>Les statues, bien que plus petites que les colosses de la façade, conservent une aura de puissance grâce à leur style rigide et frontal. Ramsès II est figuré au centre, portant la coiffe royale, partageant la même stature et les mêmes attributs que les dieux qui l'entourent, ce qui légitime son pouvoir absolu. Les murs du sanctuaire sont recouverts de reliefs délicats montrant le roi faisant des offrandes et pratiquant des rituels devant la barque sacrée, renforçant le rôle de ce lieu comme point de contact entre le monde terrestre et l'éternité divine.</p>
     <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1264) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
   }
-]);
+].concat(window.ART_OBJECTS || []);
