@@ -6,6 +6,331 @@ window.ART_OBJECTS = window.ART_OBJECTS || [];
 window.ART_OBJECTS.push(
 
   {
+    id: "peinture_ptah_dais_amenkhepeshef_qv55",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (v. -1150 av. J.-C. / règne de Ramsès III)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1150,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Le dieu Ptah sous son naos recevant l'hommage rituel (Tombe QV55)",
+    site: "Tombe d'Amenherkhépeshef - QV55 (Vallée des Reines, Thèbes)",
+    originSite: "Vallée des Reines (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe QV55, Vallée des Reines)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XXe dynastie", "QV55 Amenherkhépeshef", "Ptah", "Naos", "Sceptre composite"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPWZD3NmZrFxw4V4dMnKHlPe5bqUCyncg6_Vb6HZNoJGgtrj2k-HUpXHnkR61Yn4fxnEDJHWvdzogsjm14DyWw_FeL8flD7w452UxSFKt_4CZgdhF1clvRsbWRlh5-1_VTmpgJLl9VJ1jpmiWT5jvCNmw=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette peinture murale issue de la tombe du prince Amenherkhopshef (QV55) dans la Vallée des Reines à Thèbes représente le dieu Ptah, l'une des divinités majeures du panthéon égyptien, recevant l'hommage du prince et de son père Ramsès III vers 1150 avant J.-C.</p>
+    <p>Le dieu est figuré avec sa peau bleue caractéristique, symbole de renaissance et de fertilité, enfermé dans un linceul de momie blanc qui souligne sa nature immuable et éternelle. Il porte la calotte bleue serrée et la barbe postiche droite des divinités, tandis que ses mains, émergeant du vêtement, tiennent le sceptre composite réunissant les symboles de la vie (ânkh), de la stabilité (djed) et de la puissance (ouas). Ptah se tient sous un édicule ou dais richement orné, dont la structure est soutenue par des colonnettes polychromes imitant le roseau et surmontées de chapiteaux en forme de lotus.</p>
+    <p>À gauche du dieu, un cartouche royal aux couleurs vives identifie le pharaon régnant, tandis que les colonnes de hiéroglyphes à l'intérieur du naos proclament les épithètes du dieu, le désignant comme le maître de la vérité et le créateur des formes. La technique de bas-relief peint utilisée ici permet de donner un relief subtil aux contours, notamment sur le profil serein du dieu et les détails minutieux du large collier ousekh qui orne sa poitrine. La conservation exceptionnelle des pigments permet d'apprécier la palette ramesside classique où dominent le bleu égyptien, l'ocre jaune et le rouge brique.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1150) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture murale, Tableaux & Mosaïque.</p>`
+  },
+  {
+    id: "peinture_ramses_iii_introduction_amenkhepeshef_qv55",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (v. -1160 av. J.-C. / règne de Ramsès III)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1160,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Ramsès III introduisant le prince Amenherkhépeshef devant la divinité (Tombe QV55)",
+    site: "Tombe d'Amenherkhépeshef - QV55 (Vallée des Reines, Thèbes)",
+    originSite: "Vallée des Reines (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe QV55, Vallée des Reines)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XXe dynastie", "QV55 Amenherkhépeshef", "Ramsès III", "Khépresh", "Mèche de l'enfance"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMPSQjYA3Jnlq99aZQLUqpP8284Fawz1G7Kuiss8yUxV3hbj0_bvs9KZKipckpVEEOYpQLuc6uwI3CFCTc0p_CD82B5amNgWTPsXI5fBe_Y0Q0EjdjNCYxLsjZnShMvwJusI_0vbanHQWerg9lV2HzpZg=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette notice présente une scène murale issue de la tombe princière d'Amenherkhepshef, répertoriée sous la nomenclature QV55 dans la Vallée des Reines, à Thèbes-Ouest, datant de la XXe dynastie du Nouvel Empire, plus précisément sous le règne de Ramsès III vers 1160 avant notre ère.</p>
+    <p>L'œuvre, réalisée selon la technique du bas-relief peint sur un enduit de stuc, illustre une composition rituelle majeure où le pharaon Ramsès III introduit son fils, le prince Amenherkhepshef, devant une divinité dont seule l'extrémité du bras bleu est ici visible, suggérant une rencontre avec une entité céleste ou funéraire telle que Ptah ou un génie gardien. Le souverain est représenté au centre, arborant la couronne dekhresh ou couronne bleue ornée de l'uraeus protecteur, vêtu d'un large collier ousekh et d'un pagne plissé complexe à devanteau trapézoïdal caractéristique de l'apparat royal de l'époque ramesside.</p>
+    <p>Derrière lui, à une échelle légèrement réduite marquant sa subordination hiérarchique, le jeune prince est identifiable à la mèche de l'enfance qui retombe sur le côté de son visage, un attribut iconographique des fils royaux n'ayant pas encore accédé au trône. Il porte un costume richement décoré et tient dans sa main droite un éventail à plume unique, insigne de sa fonction de porte-éventail à la droite du roi. Les hiéroglyphes polychromes disposés en colonnes détaillent les titres protocolaires et les cartouches du roi, tout en formulant des paroles de bienvenue et des promesses de vie éternelle.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1160) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture murale, Tableaux & Mosaïque.</p>`
+  },
+  {
+    id: "peinture_ramses_iii_hathor_face_a_face_qv55",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (v. -1160 av. J.-C. / règne de Ramsès III)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1160,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Ramsès III en salutation rituelle face à la déesse Hathor (Tombe QV55)",
+    site: "Tombe d'Amenherkhépeshef - QV55 (Vallée des Reines, Thèbes)",
+    originSite: "Vallée des Reines (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe QV55, Vallée des Reines)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XXe dynastie", "QV55 Amenherkhépeshef", "Ramsès III", "Hathor", "Cartouches royaux"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOkxQtwcRuVA-JUggwjmA9c1RmWyr3RKg5nFJn-0NWRA8At2NnL5xcZvPKdQWai1277rVMswV12L9ECkjdXaqpg7X6wwU6NVc_HFvjnKARcXm6PrkDZ0pR-KHvdhDXHh-UgMLsmasgrEKFlN3ZGnY6p_A=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Panneau mural exceptionnel provenant de la tombe d'Amenherkhepshef (QV55), située dans la Vallée des Reines à Thèbes, datant de la XXe dynastie sous le règne de Ramsès III aux alentours de 1160 avant notre ère.</p>
+    <p>La scène, exécutée en bas-relief peint sur un enduit de plâtre fin, représente le pharaon Ramsès III faisant face à la déesse Hathor, protectrice de la nécropole thébaine, dans une interaction rituelle de salutation et d'hommage. Le roi, à gauche, arbore le casque de guerre khepresh paré d'un uraeus frontal et porte une tunique de lin transparente aux motifs géométriques complexes par-dessus un collier ousekh polychrome, soulignant la richesse du costume royal ramesside.</p>
+    <p>Face à lui, Hathor est représentée avec un visage d'un jaune doré éclatant symbolisant la chair divine, coiffée de sa dépouille de vautour surmontée du disque solaire enserré entre les cornes lyres. Les deux personnages lèvent les mains dans un geste d'adoration et de réciprocité spirituelle, créant une composition symétrique de part et d'autre des cartouches royaux centraux. Les inscriptions hiéroglyphiques situées entre les deux visages identifient formellement le souverain par ses noms de couronnement et de naissance, tout en invoquant la protection de la déesse « Maîtresse de Thèbes ».</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1160) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture murale, Tableaux & Mosaïque.</p>`
+  },
+  {
+    id: "peinture_genie_bovide_gardien_amenkhepeshef_qv55",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (v. -1150 av. J.-C. / règne de Ramsès III)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1150,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Génie protecteur à tête de bovidé gardien de l'au-delà (Tombe QV55)",
+    site: "Tombe d'Amenherkhépeshef - QV55 (Vallée des Reines, Thèbes)",
+    originSite: "Vallée des Reines (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe QV55, Vallée des Reines)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XXe dynastie", "QV55 Amenherkhépeshef", "Génie bovidé", "Gardien des portes", "Cornes lyres"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMLiGWVKSj2hcRjcQSlD_orhRLnQ35SDLeRgNXENvg41teBnMFnKNoP5zeEZnmeYTBEXzyQtp-tiYmIB7BN88grgH7uYcZVaQb6G39hbWYXZIIog7lZVKFhe2ZPEKuPazmT-lNmi_EeZ_HjZpQJrg94mA=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Voici une peinture murale extraite de la sépulture princière d'Amenherkhépeshef, répertoriée sous la nomenclature QV55 au sein de la Vallée des Reines, sur la rive occidentale de Thèbes, datant de la XXe dynastie du Nouvel Empire égyptien sous le règne de Ramsès III vers 1150 avant notre ère.</p>
+    <p>L'œuvre représente une divinité protectrice anthropomorphe à tête de bovidé, possiblement l'un des génies gardiens des portes du monde souterrain décrits dans le Livre des Morts ou le Livre des Portes, coiffé d'une perruque tripartite d'un bleu égyptien profond surmontée de cornes lyres enserrant un disque solaire partiel. Le sujet est figuré de profil selon les conventions du canon de proportion égyptien, arborant un large collier ousekh richement détaillé et des brassards assortis sur une musculature soulignée par des pigments ocre rouge.</p>
+    <p>À gauche du personnage se déploient trois colonnes verticales de hiéroglyphes polychromes délimitées par des filets bleus, présentant des formules d'offrandes et des invocations magiques destinées à assurer la survie du ka du jeune prince héritier dans l'au-delà. On y distingue des signes animaliers finement exécutés comme le lièvre, la chouette et le serpent, ainsi que des symboles de protection et de régénération qui témoignent du statut royal du défunt.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1150) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture murale, Tableaux & Mosaïque.</p>`
+  },
+  {
+    id: "peinture_amenkhepeshef_nemes_adoration_qv55",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (v. -1150 av. J.-C. / règne de Ramsès III)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1150,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Le prince Amenherkhépeshef coiffé du némès en adoration (Tombe QV55)",
+    site: "Tombe d'Amenherkhépeshef - QV55 (Vallée des Reines, Thèbes)",
+    originSite: "Vallée des Reines (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe QV55, Vallée des Reines)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XXe dynastie", "QV55 Amenherkhépeshef", "Némès", "Mèche de l'enfance", "Adoration"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczM9CM8FIpDtWIi-1LtAyZ5v3PQ4rP7EBVoIL8ib_6iJHWdv96QmXLi5kuYjnlaqaz9H3iQVmdXdS_txKbCpzXON2FcmdaFy9OfnE1mcVTmyH8fudDF0uZm66Co81QjgmyTuXYtf_KQc-xiCoWYaIb3soA=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Peinture murale en bas-relief située dans la tombe du prince Amenherkhépeshef (QV55), fils de Ramsès III, localisée dans la Vallée des Reines à Thèbes et datée de la XXe dynastie du Nouvel Empire, aux environs de 1150 avant notre ère.</p>
+    <p>L'œuvre représente le jeune prince héritier dans une posture d'adoration, les mains levées vers l'avant en signe de respect et de prière face à une divinité non visible sur ce cadrage, illustrant son introduction dans le royaume d'Osiris sous la conduite de son père. Le prince est figuré avec les attributs de la jeunesse royale, notamment la mèche de l'enfance tombant sur le côté de son visage, et porte le némès, la coiffe royale plissée bleue et or, ornée de l'uraeus protecteur sur le front.</p>
+    <p>Son visage présente des traits fins et idéalisés, avec un œil fardé de noir s'étirant vers la tempe et un sourire serein, caractéristiques de l'esthétique raffinée de l'époque ramesside. Il arbore un large collier ousekh et des bracelets de bras bleus, tandis que sa peau est peinte d'un ocre rouge vibrant, contrastant avec le fond gris clair de la paroi en calcaire enduit. En haut à droite se détachent deux cartouches royaux sur fond jaune liant le destin du prince à Ramsès III.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1150) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture murale, Tableaux & Mosaïque.</p>`
+  },
+  {
+    id: "peinture_thot_couteaux_amenkhepeshef_qv55",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (v. -1150 av. J.-C. / règne de Ramsès III)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1150,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Le dieu Thot aux couteaux protecteurs introduisant le prince Amenherkhépeshef (Tombe QV55)",
+    site: "Tombe d'Amenherkhépeshef - QV55 (Vallée des Reines, Thèbes)",
+    originSite: "Vallée des Reines (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe QV55, Vallée des Reines)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XXe dynastie", "QV55 Amenherkhépeshef", "Thot ibis", "Couteaux de silex", "Protection rituelle"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOW7i8_pII_foTes4hpHWzfWTcn788tOCzPUaM_CqHfG5AdhRHuwXb6hfcTs0xJk7lUS7T9jn7Xhabfd0VyK1OA30vzy0so9Hul0qwKLjziEb00UpwXrx9yRKAfsUOsSquNgd8NkZxqVUb8-VPZPO_PJw=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette œuvre intitulée Thot et le prince Amonherkhépshef est une peinture murale extraite de la tombe QV55 située dans la Vallée des Reines à Thèbes Ouest en Égypte datant de la XXe dynastie du Nouvel Empire sous le règne de Ramsès III vers 1150 avant notre ère et réalisée selon la technique du relief levé sur enduit de stuc peint.</p>
+    <p>La scène représente le jeune prince Amonherkhépshef fils de Ramsès III et héritier présomptif décédé prématurément reconnaissable à sa mèche de l'enfance tombant sur l'épaule droite et à son vêtement de lin plissé transparent orné d'un large collier ousekh et de bracelets de bras en or et lapis-lazuli. Le prince adopte une posture de respect et de prière les mains levées face au dieu Thot qui le précède et l'introduit auprès des divinités de l'au-delà.</p>
+    <p>Thot le dieu de la sagesse et des scribes est figuré avec une tête d'ibis surmontée d'une perruque tripartite bleue profonde et porte un pagne complexe à écailles jaunes et bleues agrémenté d'une ceinture royale d'où pend une queue de taureau symbolisant la force. La divinité tient dans ses mains deux couteaux de silex rituels destinés à protéger le défunt contre les forces chaotiques et les ennemis durant son voyage vers le royaume d'Osiris.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1150) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture murale, Tableaux & Mosaïque.</p>`
+  },
+  {
+    id: "peinture_khnoum_couteaux_amenkhepeshef_qv55",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (v. -1150 av. J.-C. / règne de Ramsès III)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1150,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Le prince Amenherkhépeshef face au dieu bélier Khnoum armé de couteaux (Tombe QV55)",
+    site: "Tombe d'Amenherkhépeshef - QV55 (Vallée des Reines, Thèbes)",
+    originSite: "Vallée des Reines (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe QV55, Vallée des Reines)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XXe dynastie", "QV55 Amenherkhépeshef", "Khnoum", "Couteaux rituels", "Porte-éventail"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMOqYJRb15JaB6yd7Jmg00yJsQFPcrYHo3FEiXnfIqfEMIkCqmjgO-BMwGt6zLQeHAGVYKMJ6Wn-P6euH_i1cdu2Yn_ROmSDun6aXAEdn8u0MPML35iShplRKdX4u6ChnOAuew7sFCMNasi9SsDQS_3Kg=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette œuvre murale intitulée Le prince Amonherkhépshef devant Khnoum est située dans la sépulture QV55 de la Vallée des Reines à Thèbes et date de la XXe dynastie du Nouvel Empire vers 1150 avant notre ère sous le règne du pharaon Ramsès III.</p>
+    <p>La peinture réalisée en bas-relief sur enduit de stuc représente le jeune prince Amonherkhépshef fils royal décédé durant son adolescence comme l'indique la mèche de l'enfance descendant sur le côté de son visage et sa silhouette svelte. Il porte un pagne de lin blanc plissé transparent retenu par une ceinture bleue et rouge ainsi qu'un large collier ousekh richement coloré tout en tenant dans sa main gauche un éventail à plume unique symbole de son rang de porte-éventail à la droite du roi.</p>
+    <p>Face à lui se dresse le dieu Khnoum divinité créatrice à tête de bélier reconnaissable à ses cornes horizontales torsadées et sa peau peinte d'un vert bleuâtre évoquant la fertilité et le limon du Nil. Le dieu est vêtu d'un pagne à écailles dorées et bleues avec une ceinture ornée d'un fermoir de type nœud de Tit et brandit deux couteaux de silex rituels destinés à trancher les obstacles et protéger le prince lors de son passage dans les régions obscures de la Douat.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1150) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture murale, Tableaux & Mosaïque.</p>`
+  },
+  {
+    id: "peinture_double_osiris_trone_khaemwaset_qv44",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (v. -1160 av. J.-C. / règne de Ramsès III)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1160,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Double figuration d'Osiris trônant et fleurs de lotus (Tombe QV44)",
+    site: "Tombe de Khaemwaset - QV44 (Vallée des Reines, Thèbes)",
+    originSite: "Vallée des Reines (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe QV44, Vallée des Reines)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XXe dynastie", "QV44 Khaemwaset", "Osiris", "Couronne Atef", "Trône Maât"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczORg4ixXtGGDlADjMHY4_Jz-GPLxtbuu2Mnhe8qph8JUGCTUR-JV-9qh_psItl-A9r_rFJr_sSJl-H34pAQM1ZFV-67hJ4gOtVlGkXgYlCPlLbiJ6zobvGn4-aNOKQ1cxkvzG_FYjMz1COvhsWFwljkog=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette peinture murale exceptionnelle provient de la tombe thébaine numérotée QV44 appartenant au prince Khaemwaset, l'un des fils aînés du pharaon Ramsès III, située dans la Vallée des Reines sur la rive ouest de Louxor et datant de la XXe dynastie du Nouvel Empire, vers 1160 avant notre ère.</p>
+    <p>L'œuvre représente une double figuration d'Osiris, dieu souverain de l'au-delà et juge des morts, assis sur un trône archaïque à dossier bas orné de motifs géométriques colorés évoquant le signe hiéroglyphique de la justice et de l'équilibre Maât. Le dieu est dépeint sous sa forme classique de momie enserrée dans un suaire blanc, les mains émergeant du vêtement pour croiser sur sa poitrine les insignes de la royauté que sont le sceptre héqa et le flagellum nekhakha. Son visage est surmonté de la couronne atef composée de la mitre blanche de Haute-Égypte flanquée de deux plumes d'autruche et d'un disque solaire à la base.</p>
+    <p>La composition symétrique s'articule autour d'une colonne centrale de hiéroglyphes sur fond jaune d'or détaillant les titres et épithètes de la divinité, garantissant au défunt la protection éternelle. De chaque côté du socle, des fleurs de lotus stylisées s'épanouissent, symbolisant la renaissance quotidienne et le cycle de la vie.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1160) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture murale, Tableaux & Mosaïque.</p>`
+  },
+  {
+    id: "peinture_douamoutef_kebehsenouf_khaemwaset_qv44",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (v. -1150 av. J.-C. / règne de Ramsès III)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1150,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Procession des fils d'Horus : Douamoutef et Kébehsénouf (Tombe QV44)",
+    site: "Tombe de Khaemwaset - QV44 (Vallée des Reines, Thèbes)",
+    originSite: "Vallée des Reines (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe QV44, Vallée des Reines)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XXe dynastie", "QV44 Khaemwaset", "Fils d'Horus", "Douamoutef", "Kébehsénouf"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMso_5jEyDUgq_E4Gr4lmmV-9ZUaaPtTsIlGRy2zePEcYu3aWMIz8wWxkuwBDC4FxmlTkUaRFemKwPaNOwDb83FlDjPwyABmeTmSDw9otSBKeCbebx04welb44INibNvrtSZROsUEf5_1hcAOY8sA6xYg=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette peinture murale provient de la tombe QV44 située dans la Vallée des Reines à Thèbes, demeure éternelle du prince Khaemwaset, fils de Ramsès III, exécutée durant la XXe dynastie du Nouvel Empire vers le milieu du XIIe siècle avant notre ère.</p>
+    <p>La scène présente une procession de divinités protectrices dont Douamoutef, l'un des quatre fils d'Horus, reconnaissable à sa tête de chacal noire et aux motifs géométriques complexes qui ornent son visage, suivi de près par Kébehsénouf à tête de faucon. Douamoutef est représenté avec un corps humain à la musculature longiligne peinte en ocre rouge, vêtu d'un corselet à écailles dorées et de bretelles richement décorées, portant la perruque tripartite bleue striée qui souligne son caractère divin.</p>
+    <p>À sa droite, Kébehsénouf apparaît avec son visage de rapace blanc et noir, portant également une perruque bleue et un large collier ousekh composé de rangées de perles multicolores. Les deux génies funéraires sont surmontés de colonnes de hiéroglyphes sur fond jaune vif encadrées de bleu, identifiant précisément chaque divinité et les paroles qu'elles prononcent pour assurer l'intégrité physique et spirituelle du défunt dans l'au-delà.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1150) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture murale, Tableaux & Mosaïque.</p>`
+  },
+  {
+    id: "peinture_khaemwaset_adoration_genie_douat_qv44",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (v. -1150 av. J.-C. / règne de Ramsès III)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1150,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Le prince Khaemwaset en adoration devant un génie gardien du Douat (Tombe QV44)",
+    site: "Tombe de Khaemwaset - QV44 (Vallée des Reines, Thèbes)",
+    originSite: "Vallée des Reines (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe QV44, Vallée des Reines)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XXe dynastie", "QV44 Khaemwaset", "Mèche de l'enfance", "Gardien du Douat", "Adoration"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP88RGc5uzf58nmlX_rGc1HzWrb7mSRXqZwxaG-dfG1B2iEok4Qoog0_Y5yWxK4J8-O6SVmoNOXG-OBTd4NL_6t7RotJXgsXpWclTTzEk8dHDGVHjzbrwvU8Y1777mNBjbIZHQIMnGZfT4SlbpEy0ojBg=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette œuvre murale extraite de la tombe de Khâemouaset, répertoriée sous la nomenclature QV44 dans la Vallée des Reines à Thèbes-Ouest, constitue un témoignage exceptionnel de l'art funéraire de la XXe dynastie, sous le règne de Ramsès III.</p>
+    <p>La scène, réalisée selon une technique de bas-relief peint sur enduit de stuc, illustre le prince Khâemouaset, fils du pharaon, dans une posture d'adoration rituelle face à une divinité protectrice du monde souterrain. Le prince est représenté à gauche avec les attributs caractéristiques de la jeunesse royale, notamment la mèche de l'enfance qui retombe sur le côté de son visage et un large collier ousekh richement polychrome. Son vêtement de lin blanc, finement plissé, témoigne de la haute virtuosité des artisans thébains de l'époque ramesside dans le rendu des transparences.</p>
+    <p>À sa droite se tient une figure anthropozoocéphale, probablement l'un des génies gardiens des portes du Douat, arborant une tête de canidé ou de félin stylisé coiffée d'une perruque tripartite bleue. La divinité porte un corselet à écailles dorées et des brassards coordonnés, soulignant son rang céleste et sa fonction défensive. Entre les deux figures, une colonne de hiéroglyphes sur fond jaune d'or détaille les titres du prince et les formules d'offrandes nécessaires à sa survie dans l'au-delà.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1150) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture murale, Tableaux & Mosaïque.</p>`
+  },
+  {
+    id: "peinture_khaemwaset_encensoir_hes_kv5",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (v. -1250 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1250,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Le prince Khâemouaset officiant à l'encensoir et au vase hes (Tombe KV5)",
+    site: "Tombe des fils de Ramsès II - KV5 (Vallée des Rois, Thèbes)",
+    originSite: "Vallée des Rois (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe KV5, Vallée des Rois)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "KV5 Khâemouaset", "Ramsès II", "Encensoir", "Vase hes", "Grand prêtre de Ptah"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMS7je6nJtn9MlBiBUBKSuwBtUnfvTQtFHdWhfXyJ7AYu8t2NSKnvwUA_GEmD2YvibE7WsjDKUOP1BDlwcUit0tEG2dL49Ms5q0bYwEwWfN5kKqagOytYm5gfH3MqxG5rRaiFT1bLiNn34OChpsUxTNUw=w689-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette peinture murale exceptionnelle provient de la tombe thébaine (KV5) située dans la Vallée des Rois et représente le prince Khâemouaset, l'un des fils les plus célèbres du pharaon Ramsès II, officiant lors d'une cérémonie rituelle durant le Nouvel Empire, plus précisément sous la XIXe dynastie.</p>
+    <p>Le défunt est figuré de profil selon les canons de l'art égyptien classique, arborant la tresse de l'enfance qui retombe sur son épaule droite, symbole de son statut princier malgré son âge adulte, et porte une courte barbe postiche ainsi qu'une coiffe élaborée ornée d'un uræus frontal. Sa parure est d'une grande richesse, composée d'un large collier ousekh à plusieurs rangs de perles tubulaires et de bracelets de bras assortis qui contrastent avec la finesse de sa tunique transparente plissée et son pagne richement brodé de motifs géométriques et de plumes.</p>
+    <p>Dans sa main droite étendue, il tient un encensoir à manche en forme de bras se terminant par une main ouverte qui soutient une coupelle où brûle l'encens, tandis que sa main gauche abaissée semble verser une libation à partir d'un vase hes. L'espace environnant est saturé de hiéroglyphes polychromes d'une grande finesse, notamment deux cartouches royaux surmontés de plumes de Maât qui identifient la lignée ramesside, ainsi que des symboles de protection et de vie comme le signe Ankh et le pilier Djed.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1250) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture murale, Tableaux & Mosaïque.</p>`
+  },
+  {
+    id: "peinture_khaemwaset_khepresh_porte_eventail_qv44",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (v. -1150 av. J.-C. / règne de Ramsès III)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1150,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Le prince Khaemwaset au khepresh suivi du dignitaire au grand éventail (Tombe QV44)",
+    site: "Tombe de Khaemwaset - QV44 (Vallée des Reines, Thèbes)",
+    originSite: "Vallée des Reines (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe QV44, Vallée des Reines)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XXe dynastie", "QV44 Khaemwaset", "Khépresh", "Éventail de cérémonie", "Cartouches"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczO0LKkGszzEoZKDfBjX52HxycgF7zPahsHOv3hJ_JBxk7aOefhVq-a5SLrMz865vJcjIkVjZAVcHmgTKYjw_78J1ZxLUeUG-fiPybjeSa-knN-btA8rmu6ClL8bny59aSxt8XTwEPBuGVpmDT0IHgYq-Q=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette peinture murale en bas-relief polychrome, située dans la tombe QV44 de la Vallée des Reines à Thèbes, illustre une scène de dévotion religieuse caractéristique de la XXe dynastie, sous le règne de Ramsès III.</p>
+    <p>Elle met en scène le prince Khâemouaset, fils du roi, reconnaissable à sa silhouette élancée et son profil juvénile, portant la couronne khepresh bleue ornée d'un uræus et le large collier ousekh. Le prince lève les mains dans un geste rituel d'adoration face à une divinité non visible sur ce cadrage, tandis qu'il est suivi de près par un serviteur ou un dignitaire de rang inférieur, représenté à une échelle plus petite conformément à la perspective hiérarchique égyptienne.</p>
+    <p>Ce second personnage soutient un grand éventail cérémoniel en plumes d'autruche richement colorées de bleu, rouge et blanc, un insigne de prestige soulignant la haute lignée du prince. La finesse du trait est particulièrement remarquable dans le rendu des détails vestimentaires, notamment les plissés délicats du pagne de lin blanc et les motifs complexes de la ceinture royale. Au-dessus du prince, deux cartouches surmontés de plumes de Maât renferment les noms de Ramsès III, liant ainsi le destin funéraire du fils à la puissance divine de son père.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1150) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture murale, Tableaux & Mosaïque.</p>`
+  },
+  {
+    id: "peinture_offrande_osiris_hathor_khaemwaset_qv44",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (v. -1150 av. J.-C. / règne de Ramsès III)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1150,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Scène d'offrande à Osiris et aux déesses protectrices (Tombe QV44)",
+    site: "Tombe de Khaemwaset - QV44 (Vallée des Reines, Thèbes)",
+    originSite: "Vallée des Reines (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe QV44, Vallée des Reines)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XXe dynastie", "QV44 Khaemwaset", "Osiris trônant", "Isis et Nephthys", "Khékerous"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOD_ZvoHJHpPMkhC8GwGvA_PCKHvbLX-2UL5X8_hrKIML6GRw58Rs48ROOyZp5dr6_9bzqEbgh9kOX3HTtiPQszjhNVGSA10__gWejabXTkFRJq_xtRe--5VoM-PpOKw1flk1fuJJ9pPGmo3eYd-bnVaQ=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette œuvre magistrale, intitulée Scène d'offrande à Osiris et Hathor, provient de la tombe de Khaemouaset (QV 44) située dans la Vallée des Reines à Thèbes-Ouest et remonte à la XXe dynastie du Nouvel Empire, plus précisément sous le règne de Ramsès III vers 1150 avant notre ère.</p>
+    <p>La peinture murale, réalisée selon la technique de la détrempe sur un enduit de limon recouvert d'un stuc fin, illustre parfaitement le style artistique ramesside caractérisé par des couleurs vives dominées par un jaune d'ocre éclatant symbolisant la chair divine et l'éternité. La composition présente une répétition rituelle où le prince Khaemouaset, fils de Ramsès III, est introduit auprès des divinités funéraires par son père pour assurer son passage vers l'au-delà.</p>
+    <p>Sur le registre central, on observe deux représentations d'Osiris, dieu des morts, trônant sur un siège cubique archaïque orné de motifs de nattes colorées. Osiris porte la couronne Atef flanquée de plumes d'autruche, tient le sceptre Héqa et le fléau Nekhakha, et arbore une peau d'un bleu-vert profond rappelant la régénération et la fertilité du limon du Nil. Face à lui, les figures féminines représentent les déesses Isis et Nephthys ou parfois Hathor, reconnaissables à leurs coiffes distinctives et à leurs robes de lin fin, tendant la main en signe de protection et de bienvenue.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1150) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture murale, Tableaux & Mosaïque.</p>`
+  },
+   {
     id: "peinture_procession_divinites_tyti_qv52",
     civId: "egypte",
     periodId: "nouvel_empire",
