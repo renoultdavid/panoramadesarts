@@ -6,6 +6,84 @@ window.ART_OBJECTS = window.ART_OBJECTS || [];
 window.ART_OBJECTS.push(
 
   {
+    id: "sculpture_obelisque_debout_hatshepsout_karnak",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1450 av. J.-C. / règne d'Hatshepsout)",
+    centuryDisplay: "XVe s. av. J.-C.",
+    centuryNumeric: -1450,
+    domain: "sculpture_statuaire",
+    artifactType: "Monolithe / Stèle sculptée",
+    title: "Obélisque dressé d'Hatshepsout entre les IVe et Ve pylônes (Karnak)",
+    site: "Complexe religieux de Karnak - Domaine d'Amon-Rê (Thèbes)",
+    originSite: "Carrières de granit d'Assouan",
+    locationType: "site",
+    currentLocation: "In situ (Temple d'Amon-Rê, Karnak)",
+    category: "Monolithe monumental en granit rose",
+    isHighlight: true,
+    chips: ["XVIIIe dynastie", "Hatshepsout", "Karnak", "Amon-Rê", "Granit rose", "Obélisque"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOlhVyJ8tNzXJtFKQQxENkdS0CQSjN_wQC7VjlZwh4KPDB_iZIf3T4swyPYnftX6eGXIewlehEh1UZ0udFspYAUzu-75qxiDXxxFZ9BLcO8liGDs1BEOSE4wY_8AKcLwuVzrfR94errTPe7XtSw_Fv0UA=w2158-h1438-s-no-gm?authuser=0",
+    narrative: `<p>Érigé au cœur de l'enceinte d'Amon-Rê, entre les IVe et Ve pylônes, ce monolithe de granit rose d'Assouan s'élève à près de 30 mètres de hauteur, ce qui en fait le plus grand obélisque encore debout en Égypte. Son érection, réalisée en seulement sept mois selon les inscriptions, constitue l'un des plus grands exploits de l'ingénierie antique.</p>
+    <p>La verticalité parfaite de l'obélisque contraste avec l'horizontalité des murs gravés de hiéroglyphes et les colonnes massives qui l'entourent. Ces colonnes, dont on aperçoit les fûts imposants et les chapiteaux papyriformes, appartenaient à la salle hypostyle ou aux structures adjacentes du temple, créant une forêt de pierre destinée à symboliser le marais primordial d'où surgit la vie. L'obélisque, identifié au rayon de soleil pétrifié, servait de lien sacré entre le sol du sanctuaire et le domaine céleste du dieu solaire Amon-Rê.</p>
+    <p>Les inscriptions gravées sur ses quatre faces célèbrent non seulement la piété de la reine Hatshepsout envers son « père » Amon, mais affirment également la légitimité de son pouvoir dans un contexte où une femme accédant au trône de pharaon restait une exception. À l'origine, le pyramidion situé au sommet était recouvert d'électrum, un mélange d'or et d'argent, afin de capter et de refléter les premiers rayons du soleil, brillant ainsi comme un phare visible à des kilomètres. Les reliefs environnants, que l'on voit sur les parois du temple, détaillent les rituels religieux et les offrandes royales, complétant ce discours de glorification divine.</p>
+    <p>Au fil des siècles, le monument a survécu aux tentatives de son successeur, Thoutmosis III, de le masquer par un mur de pierre, une décision qui, paradoxalement, a protégé les inscriptions de l'érosion. Aujourd'hui, se tenant seul face au ciel azur de Louxor, l'obélisque d'Hatshepsout demeure le témoignage le plus éclatant de l'ambition d'une reine qui a marqué l'histoire de l'Égypte par son goût pour l'architecture colossale et sa dévotion aux dieux de Thèbes.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1450) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_fragment_pyramidion_obelisque_hatshepsout_karnak",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1450 av. J.-C. / règne d'Hatshepsout)",
+    centuryDisplay: "XVe s. av. J.-C.",
+    centuryNumeric: -1450,
+    domain: "sculpture_statuaire",
+    artifactType: "Monolithe / Stèle sculptée",
+    title: "Sommet et pyramidion abattus du second obélisque d'Hatshepsout (Karnak)",
+    site: "Complexe religieux de Karnak - Secteur du Lac Sacré (Thèbes)",
+    originSite: "Carrières de granit d'Assouan",
+    locationType: "site",
+    currentLocation: "In situ (Près du Lac Sacré, Karnak)",
+    category: "Monolithe monumental en granit rose",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Hatshepsout", "Pyramidion", "Lac Sacré", "Amon-Rê", "Granit rose"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNiOWw4FCrezOcjNBagEvwyTQKTfqMmT8y66K2-LlkS7NaFZsJeL8nEcEUcnm_pS8ok6l6d0pB0Y7X__SCmwnIo1c0_6h7tplGD0MxPntotthOh66z5Awx68DUg34-gGcdgNQSWkP7ImCiCgpjzqn1tJQ=w1611-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Ce fragment colossal, désormais déposé à proximité du lac sacré, offre une occasion rare d'observer de près la précision des reliefs et la qualité exceptionnelle du granit rose d'Assouan avant que le monolithe ne soit dressé vers le ciel. Bien que tronqué, ce vestige conserve la majesté de l'œuvre originale qui, complète, s'élevait à près de 30 mètres de hauteur.</p>
+    <p>Le décor du pyramidion et de la partie haute du fût illustre la relation privilégiée entre la souveraine et la divinité suprême. On y voit des scènes de rituels où Hatshepsout, représentée avec les attributs pharaoniques, reçoit la bénédiction d'Amon-Rê. La finesse des gravures, réalisée dans une pierre d'une dureté extrême, témoigne de la maîtrise technique des artisans égyptiens qui utilisaient des outils de dolérite et des poudres abrasives pour polir la surface jusqu'à un éclat miroitant. À l'origine, cette pointe était recouverte d'électrum, un alliage d'or et d'argent, destiné à capter les premiers rayons du soleil pour transformer le monument en un véritable phare spirituel.</p>
+    <p>La base du fragment présente une coloration plus rouge, vestige possible des sédiments ou d'une exposition différente au fil des millénaires. Les hiéroglyphes, disposés en colonnes rigoureuses, proclament la gloire de la reine et les circonstances de l'érection de ces monolithes, précisant qu'ils furent extraits des carrières d'Assouan, transportés par le Nil et polis en un temps record pour célébrer un jubilé royal. En arrière-plan, les ruines des pylônes et les colonnes massives du temple rappellent l'échelle démesurée du complexe religieux de Thèbes.</p>
+    <p>L'histoire de ce fragment est indissociable des bouleversements politiques de l'Égypte ancienne. Après la mort d'Hatshepsout, son successeur Thoutmosis III tenta de masquer ces obélisques par un mur de pierre, une entreprise de « damnatio memoriae » qui eut paradoxalement pour effet de préserver les couleurs et les reliefs de l'érosion. Ce bloc tronqué, échoué au sol, permet aujourd'hui aux visiteurs de prendre conscience de la masse physique et de la splendeur iconographique de ces « rayons de soleil pétrifiés » qui continuent de dominer le paysage archéologique de Karnak.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1450) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_pylone_obelisque_colosses_ramses_ii_louxor",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (v. -1250 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1250,
+    domain: "sculpture_statuaire",
+    artifactType: "Monolithe / Stèle sculptée",
+    title: "Pylône d'entrée, colosses trônant et obélisque de Ramsès II (Temple de Louxor)",
+    site: "Temple d'Amon de Louxor (Thèbes)",
+    originSite: "Carrières de granit d'Assouan",
+    locationType: "site",
+    currentLocation: "In situ (Entrée nord du Temple de Louxor)",
+    category: "Ensemble monumental : Obélisque et colosses",
+    isHighlight: true,
+    chips: ["XIXe dynastie", "Ramsès II", "Temple de Louxor", "Obélisque", "Pylône", "Bataille de Qadesh"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczO7XEoEdt_m8C_dVwvrltujocQEUI0ZUhJNEfXkVH-RtkADyR6zO-4jFyAE5JSs5ofRM5YbcD6v0UArIX1gbsmF8m0-xvIUFd-HAP5lJJOTBoqAM2taaCWCJJcb_8MZ30eUcEKFq0ge5vDeVntJ-fTs1w=w2158-h1438-s-no-gm?authuser=0",
+    narrative: `<p>Édifié principalement sous le règne de Ramsès II (XIXe dynastie, vers 1250 av. J.-C.), ce pylône marquait l'accès principal au sanctuaire et servait de support à un programme iconographique et architectural dédié à la gloire du pharaon et à sa relation privilégiée avec la divinité.</p>
+    <p>L'élément le plus élancé de cette façade est l'obélisque de granit rose, un monolithe de plus de 25 mètres de hauteur. À l'origine, deux obélisques identiques encadraient l'entrée du temple. Ces « rayons de soleil pétrifiés » symbolisaient la présence divine et le lien entre le monde terrestre et le ciel. Le second obélisque, qui se trouvait à droite de l'entrée, a été offert à la France par Méhémet Ali au XIXe siècle et se dresse aujourd'hui sur la place de la Concorde à Paris. Les quatre faces de l'obélisque resté à Louxor sont gravées de colonnes de hiéroglyphes célébrant les titres et les victoires de Ramsès II.</p>
+    <p>Le pylône lui-même, massif de maçonnerie aux murs inclinés, servait de gigantesque panneau publicitaire pour la propagande royale. Ses parois sont ornées de reliefs illustrant la célèbre bataille de Qadesh contre les Hittites. Au pied de ce mur colossal, le pharaon a fait ériger des statues monumentales à son effigie. On distingue plusieurs colosses assis, dont le souverain porte la double couronne (le Pschent), et des statues debout, toutes destinées à impressionner le visiteur par leur démesure et à rappeler la nature divine de la fonction royale.</p>
+    <p>L'entrée du temple était autrefois complétée par de grands mâts en bois de cèdre, dont on devine encore les rainures verticales dans la pierre du pylône, où flottaient des bannières colorées. L'ensemble, baigné par la lumière du soleil couchant, créait une mise en scène théâtrale pour les grandes processions religieuses, notamment la fête d'Opet. Aujourd'hui, ce site demeure l'un des témoignages les plus impressionnants de la maîtrise technique et artistique des anciens Égyptiens, alliant l'élégance verticale de l'obélisque à la puissance horizontale de l'architecture sacrée.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1250) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+   {
     id: "peinture_oiseau_ba_alexandrie_ptolemaique",
     civId: "egypte",
     periodId: "epoque_ptolemaique",
