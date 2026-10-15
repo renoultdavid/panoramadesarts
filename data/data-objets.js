@@ -6,6 +6,281 @@ window.ART_OBJECTS = window.ART_OBJECTS || [];
 window.ART_OBJECTS.push(
 
   {
+    id: "sculpture_amon_min_ithyphallique_laitues_lotus_louxor",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1290 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1290,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Le dieu Amon-Min ithyphallique, bouquets de lotus et laitues sacrées de fertilité (Temple de Louxor)",
+    site: "Temple d'Amon de Louxor (Thèbes)",
+    originSite: "Thèbes",
+    locationType: "site",
+    currentLocation: "In situ (Parois du Temple de Louxor)",
+    category: "Relief en creux sur grès",
+    isHighlight: true,
+    chips: ["XIXe dynastie", "Temple de Louxor", "Amon-Min", "Ithyphallique", "Laitues de Min", "Fertilité"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP-KlDmfuPSQDbzFveSCmuYLv_jcrGwcGGDt1GbkyZpx9ogqaSCMqAGwlPRHclADYqO5Pa-sPL3eTQ7WIuFJG-7Sn2a02AZm2yzjt6OouA0xYh-FPjlRT3MI-2LtpNZ78iDStApXJYOGkkXJ7bnSSRbCQ=w1611-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Ce relief en creux, exécuté vers 1290 avant notre ère au sein du temple d'Amon à Louxor, offre une représentation rare et symboliquement puissante du dieu Amon-Min. Fusion de deux divinités majeures, il combine Amon, le roi des dieux, et Min, le dieu de la fertilité et de la régénération. Cette iconographie est immédiatement reconnaissable à la posture ithyphallique de la divinité et à son bras levé derrière la tête, un geste rituel associé à la protection et à la transmission de la force vitale.</p>
+    <p>Le dieu est figuré avec une barbe postiche recourbée et un bandeau serrant son front, éléments classiques du costume divin ramesside. Contrairement aux représentations d'Amon drapé, il apparaît ici dans la nudité rituelle de Min, soulignant son rôle de fertilisateur de la terre et du cosmos. La finesse du profil, avec son œil étiré et son nez droit, témoigne de la maîtrise artistique de la XIXe dynastie, capable de concilier une anatomie stylisée avec une présence spirituelle imposante.</p>
+    <p>Sur la partie droite du relief, on devine des colonnes de textes hiéroglyphiques et des éléments d'offrandes. On y distingue notamment des fleurs de lotus et des laitues romaines, plantes sacrées de Min réputées pour leurs vertus aphrodisiaques et régénératrices. Ces symboles végétaux renforcent le sens de la scène : le maintien du cycle de la vie et la garantie, par le dieu, de la descendance royale et de l'abondance des récoltes en Égypte.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1290) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_pharaon_theocratie_guerriere_amon_re_karnak",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1290 av. J.-C. / règne de Séthi Ier ou Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1290,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Le pharaon en dévotion devant Amon-Rê et maintien de la Maât (Temple de Karnak)",
+    site: "Complexe religieux de Karnak (Thèbes)",
+    originSite: "Thèbes",
+    locationType: "site",
+    currentLocation: "In situ (Parois du Temple d'Amon-Rê, Karnak)",
+    category: "Relief en creux sur grès",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Karnak", "Amon-Rê", "Théocratie guerrière", "Maât", "Cartouches royaux"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNmEB7BukuUQWJsOpwi75I9xG-LPaIRPp3OEn3RCqmvLFrD4f9odd5khZepxQ26xaNgdA18w06qiYGY_a3RWztRtDsOtdL5RTbBWjRiuUe3Q1JVY9y6JBo0joJZLuLqbGN6rOZPyTILEBkVoFoF1MWxzw=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette scène gravée en relief dans le complexe monumental du temple de Karnak illustre la puissance théocratique et guerrière du pharaon. On y voit le souverain, identifiable par sa haute stature et sa coiffe royale, debout devant une divinité, probablement le dieu Amon-Rê ou l’une de ses émanations locales. La composition suit les codes de l'art égyptien où la taille des personnages est proportionnelle à leur importance hiérarchique, plaçant ainsi le roi et le dieu au centre de l'action sacrée.</p>
+    <p>Le travail de sculpture exploite la technique du relief en creux, particulièrement adaptée aux parois extérieures des temples pour que les ombres portées par le soleil soulignent la vigueur du trait. Le roi est représenté dans une attitude de dévotion ou d'offrande, tenant un sceptre ou un vase à libation, symbolisant son rôle de médiateur unique entre le monde des hommes et celui des dieux pour maintenir l'équilibre cosmique (Maât).</p>
+    <p>De nombreux hiéroglyphes entourent les figures, servant de légende aux scènes représentées et précisant les titres royaux contenus dans des cartouches. La partie inférieure du mur présente des registres secondaires où figurent des files de porteurs d'offrandes ou des scènes de batailles dynamiques, formant une archive de pierre indestructible.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1290) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_porte_monumentale_registres_triade_thebaine_karnak",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1290 av. J.-C. / règne de Séthi Ier)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1290,
+    domain: "sculpture_statuaire",
+    artifactType: "Décor architectural (fronton, frise, métope, chapiteau)",
+    title: "Passage monumental à registres superposés : Dialogues rituels et accueil de la triade thébaine (Karnak)",
+    site: "Complexe religieux de Karnak - Pylônes (Thèbes)",
+    originSite: "Thèbes",
+    locationType: "site",
+    currentLocation: "In situ (Passage de porte monumentale, Karnak)",
+    category: "Décor architectural sur grès",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Karnak", "Porte monumentale", "Amon-Rê", "Mout", "Khonsou", "Ânkh", "Ouas"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOOiWOaMMD1CzY7bgILCSGjEZMUKP8cCqyHotn1hbhsN-nmw_TSvZIgYvGoi5eTST7bUZcEXutVNrTfwv-J6jMR0CioMyJ5GdmSrkRLBDHQ97DVYh8cni3a7y6ndpw5w2_XAHhhk2fUPpwF8KemomsEtg=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette photographie montre l'intérieur du passage d'une porte monumentale au sein du complexe de Karnak, dont les parois latérales (les montants) sont couvertes de registres superposés illustrant des scènes rituelles. Ces reliefs, particulièrement bien conservés, célèbrent le lien sacré entre le pharaon et les divinités thébaines, principalement Amon-Rê.</p>
+    <p>Chaque registre présente une scène d'interaction divine où le roi, identifiable par ses différentes couronnes (comme la couronne blanche de Haute-Égypte ou le diadème atef), fait face à une divinité. Le souverain est représenté accomplissant des rites fondamentaux : il présente des offrandes de nourriture, de vin ou de fleurs, et effectue des gestes de purification et d'adoration. En retour, les dieux, tels qu'Amon-Rê, Mout ou Khonsou, étendent leurs mains vers le roi pour lui accorder la vie (ânkh), la force (ouas) et la stabilité (djed), légitimant ainsi son pouvoir.</p>
+    <p>L'ouverture vers le ciel bleu au centre de l'image met en évidence l'architecture massive des pylônes de grès qui servaient de seuils symboliques entre le monde profane et le cœur sacré du sanctuaire, conçus pour être franchis lors des grandes processions de la fête d'Opet.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1290) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_montants_pylone_portails_procession_karnak",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1290 av. J.-C. / règne de Séthi Ier)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1290,
+    domain: "sculpture_statuaire",
+    artifactType: "Décor architectural (fronton, frise, métope, chapiteau)",
+    title: "Montants verticaux d'un portail de pylône : Offrandes rituelles et légitimation royale (Karnak)",
+    site: "Complexe religieux de Karnak - Pylônes (Thèbes)",
+    originSite: "Thèbes",
+    locationType: "site",
+    currentLocation: "In situ (Montants de porte de pylône, Karnak)",
+    category: "Décor architectural sur grès",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Karnak", "Pylône", "Montants de porte", "Seuil sacré", "Hiéroglyphes"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNJGm5Zp68f4Z38qwzmhtV8qlWM_ullaXVOLD1r47smPlB0XoUT6msCyt8XImqENj0FgPX4pLN-fn7INmkYXUznEfFJ1rtxmDcvOgXIPi0pGYuzbuaYs7RS6hvqvLgB57maTwaNmelSTdyYj9I8yNwhVg=w1611-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Cette vue documente l'intérieur du passage d'une porte monumentale au sein du complexe de Karnak, dont les parois latérales sont couvertes de registres superposés illustrant des scènes rituelles. Ces reliefs célèbrent le lien sacré entre le pharaon et les divinités thébaines à travers une organisation rigoureuse en colonnes de textes hiéroglyphiques encadrant les protagonistes.</p>
+    <p>Chaque registre présente une scène d'interaction divine où le roi, identifiable par ses différentes couronnes, fait face à une divinité. Le souverain est représenté accomplissant des rites fondamentaux, tels que la présentation d'offrandes ou des gestes d'adoration, tandis que les dieux étendent leurs mains pour lui accorder la vie et la puissance terrestre.</p>
+    <p>La verticalité de la structure et l'ouverture vers le ciel mettent en évidence l'architecture massive des pylônes de grès qui servaient de seuils symboliques. Ces passages étaient conçus pour être franchis lors des grandes processions religieuses, transformant ces parois en tableaux théologiques vibrants de lumière.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1290) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_salle_hypostyle_chapiteaux_ouverts_seshat_arbre_sacre_karnak",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1290 av. J.-C. / règnes Séthi Ier - Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1290,
+    domain: "sculpture_statuaire",
+    artifactType: "Décor architectural (fronton, frise, métope, chapiteau)",
+    title: "Grande Salle Hypostyle : Colonnes à chapiteaux papyriformes ouverts et inscription des jubilés par Seshat (Karnak)",
+    site: "Complexe religieux de Karnak - Grande Salle Hypostyle (Thèbes)",
+    originSite: "Thèbes",
+    locationType: "site",
+    currentLocation: "In situ (Grande Salle Hypostyle, Karnak)",
+    category: "Décor architectural sur grès polychrome",
+    isHighlight: true,
+    chips: ["XIXe dynastie", "Karnak", "Salle hypostyle", "Chapiteaux ouverts", "Déesse Seshat", "Arbre sacré"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMTjjkckgwfsJ-otqYcJgUK3NIxBVcuOdiYkQWvw9WmikxWHBtSwCmiYtH0IQQ_YY1YyILQmY9P5ssdXrfvUgUcaGU5tQwcBTshqLMMKlWhc28Ws3ifZP2aEMnWj6GW_y8Oage9iVxqOVG8O93ZYkt5KA=w1611-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Cette section du complexe de Karnak nous plonge au cœur de la Grande Salle Hypostyle, l'une des structures les plus impressionnantes de l'architecture pharaonique. Les imposantes colonnes en grès, dont certaines conservent leurs chapiteaux papyriformes ouverts, soutenaient autrefois un toit massif, créant une forêt de pierre symbolisant le marais primordial d'où émergea la vie. Les parois et les fûts des colonnes sont entièrement recouverts de reliefs polychromes, témoignant de l'ampleur des chantiers entrepris principalement sous les règnes de Séthi Ier et de Ramsès II (XIXe dynastie).</p>
+    <p>Les registres sculptés sur les montants des portes et les colonnes illustrent la fonction rituelle de cet espace : le pharaon y est représenté en interaction constante avec les dieux. Sur les piliers verticaux, on observe des scènes de couronnement et de bénédiction, où des divinités comme Amon-Rê ou la déesse Seshat inscrivent le nom du roi sur les feuilles de l'arbre sacré pour garantir l'éternité de ses jubilés.</p>
+    <p>La conservation de certains pigments d'origine, notamment les rouges et les jaunes, offre un aperçu saisissant de la splendeur passée du monument, où l'obscurité seulement rompue par des faisceaux lumineux zénithaux conférait une majesté incomparable aux rites.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1290) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_salle_hypostyle_nef_centrale_polychromie_claustras_karnak",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1290 av. J.-C. / règnes Séthi Ier - Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1290,
+    domain: "sculpture_statuaire",
+    artifactType: "Décor architectural (fronton, frise, métope, chapiteau)",
+    title: "Nef centrale de la Salle Hypostyle : Colonnes colossales peintes et fenêtres à claustras (Karnak)",
+    site: "Complexe religieux de Karnak - Grande Salle Hypostyle (Thèbes)",
+    originSite: "Thèbes",
+    locationType: "site",
+    currentLocation: "In situ (Grande Salle Hypostyle, Karnak)",
+    category: "Décor architectural sur grès polychrome",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Karnak", "Salle hypostyle", "Nef centrale", "Claustras", "Polychromie originelle"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPz6XZnXDGPErnWoSrTBsCXDHCBNZSjNR93Q0-rYdVqwGRvvI2eN8Zz4JilVzji6YIziwml1wpWBYH_qqd2IArQjRw1-aVBnPT3WQlcFe0IkBxEj0pwGzVyyCWcbzKYjbNF6H28KH4UFsTAarzulzZ2ew=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette perspective offre une vue plongeante sur le cœur de la grande salle hypostyle, où les fûts des colonnes conservent encore d'exceptionnels vestiges de leur polychromie d'origine. Contrairement aux murs extérieurs, ces reliefs bénéficiaient d'une protection relative contre les intempéries, permettant aux pigments ocre, rouge et bleu de traverser les millénaires. Les colonnes centrales, aux proportions colossales, sont ornées de scènes où le roi reçoit la vie et la puissance des mains des dieux.</p>
+    <p>Le fût des colonnes est divisé en plusieurs registres horizontaux, chacun racontant un épisode précis du dialogue liturgique : le pharaon, portant la coiffe némès ou le khéprech, tend des coupes d'encens ou de vin vers les divinités. Les hiéroglyphes qui comblent les espaces vides constituent une litanie ininterrompue de titres et de prières.</p>
+    <p>L'éclairage zénithal, qui s'infiltre par les hautes fenêtres à claustras, crée un jeu de lumière dramatique sur les surfaces gravées, symbolisant le passage de la lumière créatrice primordiale dans le chaos originel.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1290) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_transition_pylone_foret_colonnes_ankh_karnak",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1290 av. J.-C. / règnes Séthi Ier - Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1290,
+    domain: "sculpture_statuaire",
+    artifactType: "Décor architectural (fronton, frise, métope, chapiteau)",
+    title: "Transition monumentale : Du passage des pylônes à la forêt de colonnes papyriformes (Karnak)",
+    site: "Complexe religieux de Karnak (Thèbes)",
+    originSite: "Thèbes",
+    locationType: "site",
+    currentLocation: "In situ (Axe central, Karnak)",
+    category: "Décor architectural sur grès",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Karnak", "Pylônes", "Forêt de colonnes", "Passage rituel", "Souffle vital"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczO4t-Ob5uR3UQ6NiMOjjiCt-tTgoWnQ3DjlvzG3WwWaS2cd6HFxpOyzHw4KX_R_tLsa_ZGUUvw9VwNov0ndZWIu8RBReoV6LLPlBb_1lwiF9XCC3KC83MjyeBgsuLmOI8PYkzXR-Qg2ukjKQsgFY_euWg=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette vue d'ensemble du temple de Karnak met en lumière la transition monumentale entre les pylônes et la forêt de colonnes de la salle hypostyle. Les parois des passages, sculptées de bas en haut, présentent une répétition rythmée de scènes rituelles où le roi est accueilli par le panthéon thébain. La lumière du jour souligne la profondeur des gravures et la persistance des couleurs sur les colonnes colossales dont les chapiteaux s'élancent vers le ciel azur.</p>
+    <p>Les scènes figurées sur les montants des portes montrent le souverain en mouvement, franchissant les seuils successifs du temple pour recevoir le signe de vie Ânkh porté à ses narines par des divinités protectrices. Chaque registre est encadré de colonnes de textes hiéroglyphiques qui agissent comme une partition religieuse.</p>
+    <p>Sur les fûts des colonnes, le travail des artistes du Nouvel Empire atteint une précision remarquable dans le rendu des détails vestimentaires et des attributs divins, soutenant des architraves de plusieurs dizaines de tonnes.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1290) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_kheprech_offrande_table_amon_belier_karnak",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1290 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1290,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Offrande royale au khéprech devant la table de victuailles et le dieu Amon bélier criocéphale (Karnak)",
+    site: "Complexe religieux de Karnak (Thèbes)",
+    originSite: "Thèbes",
+    locationType: "site",
+    currentLocation: "In situ (Parois du Temple d'Amon-Rê, Karnak)",
+    category: "Relief en creux sur grès",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Karnak", "Khéprech", "Amon bélier", "Table d'offrandes", "Criocéphale"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPIdZVLKn9E__tYWdo8G7SQKoduDZlGu_sottRqyQzpnJQnhOrMu6zDRV9UkrmysO9Et5dRopFjr34_Gd81NXaM1JFsrcLhgkrMTrHhLhJKe0Y59t6xzdU5KFRj07lotJzLLBnCD6G4_Nh9XbBf6Eyptg=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce bas-relief en creux, situé sur l'une des parois du complexe de Karnak, illustre une scène d'offrande rituelle d'une grande finesse, caractéristique de l'art du Nouvel Empire. Le pharaon est représenté de profil, portant la couronne bleue khéprech ornée de l'uraeus protecteur. Son geste est solennel : il tend les mains vers une table d'offrandes richement garnie, surmontée d'une représentation divine du dieu Amon-Rê sous sa forme de bélier coiffé du disque solaire.</p>
+    <p>La précision des détails anatomiques et vestimentaires est remarquable, notamment le rendu du pagne plissé et le modelé délicat du torse royal. Derrière le roi, une colonne de hiéroglyphes détaille ses titres officiels et les paroles rituelles prononcées pour activer l'offrande, tandis que subsistent des restes de polychromie rouge sur la peau du souverain.</p>
+    <p>La table d'offrandes regorge de victuailles symboliques : pains, fleurs de lotus et pièces de viande, destinées à nourrir spirituellement la divinité et à garantir, en retour, la prospérité de l'Égypte.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1290) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_salle_hypostyle_parties_hautes_claustra_architraves_karnak",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1290 av. J.-C. / règnes Séthi Ier - Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1290,
+    domain: "sculpture_statuaire",
+    artifactType: "Décor architectural (fronton, frise, métope, chapiteau)",
+    title: "Système d'éclairage des parties hautes de la Salle Hypostyle : Fenêtres à claustra et architraves cyclopéennes (Karnak)",
+    site: "Complexe religieux de Karnak - Grande Salle Hypostyle (Thèbes)",
+    originSite: "Thèbes",
+    locationType: "site",
+    currentLocation: "In situ (Parties hautes de la Salle Hypostyle, Karnak)",
+    category: "Décor architectural sur grès",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Karnak", "Salle hypostyle", "Fenêtre à claustra", "Architraves", "Génie civil pharaonique"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMkwEPnaOampCy25JY1Kt_PT1wEnUC5yOWl4-4s2888LEncN8zQOAm2L79YGN8-_1fgPMuypRyblXSVq5L_mKC-ksRYcdW46jgrMw4XZr9oXBkwliTLGVtcMZTRwBnhwJ4cqIjbndEOoL9-fWRRxxubtA=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette perspective offre une vue saisissante sur les parties hautes de la Grande Salle Hypostyle, mettant en lumière le système d'éclairage et de ventilation conçu par les architectes de la XIXe dynastie. Au second plan, on distingue nettement une fenêtre à claustra en grès, composée de fentes verticales, qui permettait de diffuser une lumière tamisée tout en assurant la circulation de l'air.</p>
+    <p>Ce dispositif créait un contraste volontaire entre la nef centrale lumineuse et les nefs latérales laissées dans une pénombre mystique, propice aux rituels secrets des prêtres. Les colonnes au premier plan frappent par la conservation exceptionnelle de leurs reliefs : le fût présente des registres où le pharaon, vêtu de la couronne rouge de Basse-Égypte, effectue des libations devant les dieux.</p>
+    <p>La structure massive des architraves horizontales reliant les colonnes souligne la prouesse technique des bâtisseurs capables de manipuler des blocs de grès pesant plusieurs dizaines de tonnes pour supporter un plafond autrefois constellé d'étoiles.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1290) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_purification_royale_horus_thot_ankh_ouas_karnak",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1290 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1290,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Le baptême de Pharaon : Purification lustration par Horus et Thot aux ruissellements d'Ânkh et d'Ouas (Karnak)",
+    site: "Complexe religieux de Karnak (Thèbes)",
+    originSite: "Thèbes",
+    locationType: "site",
+    currentLocation: "In situ (Murs extérieurs du Temple de Karnak)",
+    category: "Relief en creux sur grès",
+    isHighlight: true,
+    chips: ["XIXe dynastie", "Karnak", "Purification royale", "Horus faucon", "Thot ibis", "Signes Ânkh et Ouas"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczN6wOohDuHBPcAax7S5U2yTKXE8peQRtfgXSUTfrn9qYGLYTYd88PXpzQ5Goo_5PhEhfaG_di9V1qNwCHf0zl9UJpOqimGd6x__uOLlwcGnAno38MALA7_YUJcvGxeWNxXY8fX5_v-rCPn3JUQR3rhMeg=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce relief sur le mur extérieur du temple de Karnak illustre un moment crucial de l'idéologie royale : la purification et le couronnement du pharaon. La scène centrale présente le souverain encadré par deux divinités majeures, Horus à tête de faucon et Thot à tête d'ibis, qui versent sur lui des vases rituels. Les filets d'eau qui s'en échappent ne sont pas de simples lignes, mais une succession de signes ânkh (vie) et ouas (puissance), symbolisant le transfert de l'essence divine au monarque pour le préparer à ses fonctions sacrées.</p>
+    <p>À droite de cette scène de purification, une autre séquence montre le roi devant un dieu assis recevant les insignes de la royauté. La technique utilisée est le relief en creux, qui protège les contours de l'érosion tout en créant un contraste vigoureux sous le soleil égyptien.</p>
+    <p>Ce mur constitue une véritable interface entre l'intérieur sacré du temple et le monde extérieur, proclamant à tous la légitimité du pharaon comme fils élu d'Amon-Rê et garant de l'équilibre du monde.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1290) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_salle_fetes_akh_menou_colonnes_tentes_jardin_botanique_karnak",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1450 av. J.-C. / règne de Thoutmôsis III)",
+    centuryDisplay: "XVe s. av. J.-C.",
+    centuryNumeric: -1450,
+    domain: "sculpture_statuaire",
+    artifactType: "Décor architectural (fronton, frise, métope, chapiteau)",
+    title: "Salle des Fêtes Akh-Menou : Colonnes en piquets de tente militaire et reliefs du jubilé Heb-Sed (Karnak)",
+    site: "Complexe religieux de Karnak - Akh-Menou (Thèbes)",
+    originSite: "Thèbes",
+    locationType: "site",
+    currentLocation: "In situ (Salle des Fêtes de Thoutmôsis III, Karnak)",
+    category: "Décor architectural sur grès et calcaire",
+    isHighlight: true,
+    chips: ["XVIIIe dynastie", "Thoutmôsis III", "Karnak", "Akh-Menou", "Colonnes piquets de tente", "Heb-Sed", "Jardin botanique"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMdPUx3XNfv_KyPXokIjOOKVVzfPG27kiWp57jDmEuIqnrsZbYUXkKr4b6JvbEAA2hTakF9X4TfH5aE2_njAZZe65NyfLWcuxDj2QxftTclS_CKFHz0VWqRyGHUVUy_7IpN8FnwBdYNs-i-NVr7S75pfQ=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>La salle des Fêtes de Thoutmôsis III, connue sous le nom antique d’Akh-Menou (« l’Éclat des Monuments »), constitue l’une des structures les plus singulières et raffinées du complexe de Karnak. Érigée durant la XVIIIe dynastie pour commémorer le jubilé (Heb-Sed) du pharaon, elle se distingue par son architecture atypique : contrairement aux colonnes papyriformes classiques, celles de la nef centrale imitent des piquets de tente en bois inversés, rappelant les campements militaires royaux lors des campagnes victorieuses en Asie.</p>
+    <p>Les parois de l'Akh-Menou sont ornées de reliefs d'une précision remarquable illustrant le souverain dans ses fonctions sacerdotales les plus hautes devant une multitude de divinités. Un secteur célèbre de cette salle, surnommé le « Jardin botanique », présente des reliefs uniques montrant des espèces de fleurs et d'animaux exotiques rapportés de Syrie et du Levant par Thoutmôsis III, témoignant d'une curiosité naturaliste exceptionnelle.</p>
+    <p>Les piliers et architraves portent encore d'importantes traces de pigments bleus et rouges qui animaient autrefois les figures divines, faisant de l'Akh-Menou un chef-d'œuvre de l'apogée du Nouvel Empire.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1450) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+   {
     id: "sculpture_sethi_ier_fleau_nekhakha_amon_min_gourna",
     civId: "egypte",
     periodId: "nouvel_empire",
