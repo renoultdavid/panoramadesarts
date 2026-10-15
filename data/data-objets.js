@@ -6,6 +6,177 @@ window.ART_OBJECTS = window.ART_OBJECTS || [];
 window.ART_OBJECTS.push(
 
   {
+    id: "peinture_presentation_parures_sennefer_tt96",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1420 av. J.-C. / règne d'Amenhotep II)",
+    centuryDisplay: "XVe s. av. J.-C.",
+    centuryNumeric: -1420,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Présentation des parures royales, collier ousekh et collier de mouches (Tombe TT96)",
+    site: "Tombe de Sennefer - TT96 (Cheikh Abd el-Gourna, Thèbes)",
+    originSite: "Cheikh Abd el-Gourna (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe TT96, Gourna)",
+    category: "Peinture murale thébaine",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Amenhotep II", "TT96 Sennefer", "Collier de mouches"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNofWOsdvyZ_iFPc7MN-fqfXwEu4olwumreJq1BDjmmW_22Yolz7l6OXUMpBVXj8yGSPKnO9SNbgeU3iMKLfIeR90ja8swcrCb_2u8d9GyRYloWBPkKTWCTtncJbJBE0OEBgZXuWniSS3JZfw9u_3zQvQ=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette peinture murale, située dans la chambre funéraire de Sennefer (TT96) à Cheikh Abd el-Gourna, illustre une scène rituelle de présentation d'objets précieux, témoignant du faste de la cour sous Amenhotep II. Le décor met en scène une procession de serviteurs ou de membres de la famille apportant au défunt les parures et attributs nécessaires à sa vie éternelle. À gauche, un porteur soulève avec déférence un plateau supportant un large collier ousekh en or massif, tandis qu'à sa suite, un second personnage présente un collier similaire de type "collier de mouches" (distinction honorifique militaire ou civile) accompagné de deux lotus stylisés suspendus. Chaque détail, de la courbure des bijoux à la finesse des attaches, est rendu avec une précision qui souligne le rang exceptionnel de Sennefer en tant que maire de la capitale.</p>
+    <p>Les figures masculines arborent une silhouette élancée et un pagne de lin blanc immaculé qui se détachent vigoureusement sur l'enduit gris clair de la paroi. À l'extrême gauche, on aperçoit le bras du défunt tenant le sceptre sekhem, signe de son pouvoir retrouvé dans l'au-delà, ainsi qu'une table d'offrandes chargée de récipients dorés et d'un autre collier. Les colonnes de hiéroglyphes à l'encre noire, séparées par des lignes rouges, assurent la récitation perpétuelle des formules d'offrandes nécessaires à la survie du Ka. Cette scène, par sa clarté compositionnelle et la vivacité de ses pigments — notamment l'ocre jaune imitant l'éclat de l'or — est un exemple magistral du style classique de la XVIIIe dynastie, où l'art funéraire sert de vitrine à la réussite sociale terrestre tout en préparant la divinisation du mort. La maîtrise du trait et l'harmonie des couleurs confirment la réputation de cette sépulture comme l'une des mieux préservées et des plus raffinées de la nécropole thébaine.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1420) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+  {
+    id: "peinture_meryt_sistre_sennefer_tt96",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1420 av. J.-C. / règne d'Amenhotep II)",
+    centuryDisplay: "XVe s. av. J.-C.",
+    centuryNumeric: -1420,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Sennefer et son épouse Meryt au sistre hathorique (Tombe TT96)",
+    site: "Tombe de Sennefer - TT96 (Cheikh Abd el-Gourna, Thèbes)",
+    originSite: "Cheikh Abd el-Gourna (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe TT96, Gourna)",
+    category: "Peinture murale thébaine",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Amenhotep II", "TT96 Sennefer", "Sistre d'Hathor"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPXnw1P0E3IEepvUBabY9XUH0L96S3JXivfUgEIH13XUIdI_meV3jDTz50MTj0AvzYfNeaWF7Geav4EZWGz2gFn74j5--e1ER6e3s0u1UjHmXbNcKN7YahWCWRKS0MIrdWzUUhM6dy8AS6HsHycjP5Y-g=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette peinture murale fragmentaire provient de la sépulture de Sennefer, maire de Thèbes sous le règne d'Amenhotep II, située dans la nécropole de Cheikh Abd el-Gourna (TT96). L'œuvre illustre parfaitement les sommets esthétiques de la XVIIIe dynastie égyptienne, période de raffinement extrême du Nouvel Empire. La scène présente Sennefer accompagné de son épouse, Meryt, dans une composition régie par les canons stricts de l'art égyptien : le profil dominant pour les visages, combiné à une vue frontale de l'œil et du buste. Les personnages portent les perruques noires imposantes caractéristiques de l'époque, encadrant des visages aux traits idéalisés et soulignés d'un trait de khôl étiré.</p>
+    <p>Meryt tient dans sa main droite un sistre, instrument de musique sacré associé au culte de la déesse Hathor, soulignant son rôle de chanteuse d'Amon et la dimension religieuse du décor funéraire destiné à assurer la renaissance du couple dans l'au-delà. Le chromatisme est typique de la palette égyptienne, utilisant des pigments minéraux où les ocres jaune et rouge contrastent avec le blanc des vêtements en lin fin. Les détails de la parure, notamment les larges colliers ousekh et les bracelets, témoignent du rang social élevé des défunts. Au-dessus des figures, des colonnes de hiéroglyphes tracées avec une grande précision cursive identifient les protagonistes et formulent des vœux d'offrandes. Malgré les lacunes de l'enduit visibles sur la partie droite, la fraîcheur des couleurs et la sûreté du trait témoignent de la main d'un maître artisan de l'école thébaine, capable d'insuffler une élégance naturelle à une représentation pourtant strictement codifiée.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1420) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+  {
+    id: "peinture_portrait_sennefer_baton_tt96",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1420 av. J.-C. / règne d'Amenhotep II)",
+    centuryDisplay: "XVe s. av. J.-C.",
+    centuryNumeric: -1420,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Portrait officiel de Sennefer au bâton de commandement et double pendentif (TT96)",
+    site: "Tombe de Sennefer - TT96 (Cheikh Abd el-Gourna, Thèbes)",
+    originSite: "Cheikh Abd el-Gourna (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe TT96, Gourna)",
+    category: "Peinture murale thébaine",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Amenhotep II", "TT96 Sennefer", "Bâton d'autorité"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMvfHlXJ7Ur-k-rxJI6Ikd4lF1XmNZIFBg7aD5OSRJHd_AM3JRaCb4KOx9NHAKIyjdH-wsDNvYOhC79WckY4sVuoKrSrOHYzgxGyfy-ZFagTrkiv8XRXJOh0FgwQQE2Bys1jP8IG5EKYShMow0pQie6SQ=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette peinture murale, extraite de la tombe de Sennefer (TT96) à Thèbes, constitue un témoignage exceptionnel de l'art funéraire sous le règne d'Amenhotep II durant la XVIIIe dynastie. Elle représente Sennefer, "Maire de la Cité du Sud" (Louxor), dans une posture de dignité et de piété caractéristique de la haute administration thébaine du Nouvel Empire. Le défunt est figuré avec les attributs de son rang, arborant une perruque noire courte et soignée ainsi qu'une barbe postiche effilée, signes de son statut officiel. Il porte un imposant collier ousekh composé de rangs de perles multicolores et, de manière plus spécifique à son iconographie personnelle, deux pendentifs en forme de cœur ou de vases à onguents suspendus par un cordon doré sur sa poitrine. Son bras gauche est orné d'un brassard et d'un bracelet d'or, tandis qu'il tient fermement un long bâton de marche ou de commandement, symbole de son autorité civile.</p>
+    <p>L'exécution technique révèle la maîtrise des artistes de l'époque : le rendu des yeux, avec le sourcil et le trait de fard étirés vers la tempe, apporte une intensité au regard tourné vers l'éternité. Les inscriptions hiéroglyphiques encadrées par des colonnes rouges au-dessus de lui déclinent ses titres et son nom, assurant ainsi la pérennité de son identité dans l'au-delà. La palette chromatique reste fidèle aux conventions de l'époque, utilisant des fonds blancs pour faire ressortir la chaleur des carnations brunes et l'éclat des bijoux jaunes imitant l'or. La finesse du trait et la précision des détails, malgré l'usure naturelle de l'enduit et quelques écaillages, soulignent le luxe de cette sépulture, célèbre pour son plafond décoré de vignes et surnommée à juste titre la "tombe aux vignes".</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1420) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+  {
+    id: "peinture_lustration_pretre_sem_sennefer_tt96",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1420 av. J.-C. / règne d'Amenhotep II)",
+    centuryDisplay: "XVe s. av. J.-C.",
+    centuryNumeric: -1420,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Rituel de purification et libation par le prêtre-sem (Tombe de Sennefer, TT96)",
+    site: "Tombe de Sennefer - TT96 (Cheikh Abd el-Gourna, Thèbes)",
+    originSite: "Cheikh Abd el-Gourna (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe TT96, Gourna)",
+    category: "Peinture murale thébaine",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Amenhotep II", "TT96 Sennefer", "Prêtre-sem & Lustration"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOEji7yRUIsKE1t_CiYwIvcIvXAJ0E1qgZB4785Lgnd-Qme7QDbmFIZ_1QkMBhx2eHuBEgRt2nToPdhqrjI9qGmTYjUurJRO1pAakg7d8SMe8PbYK_Cn78rj3c7o68xCPaI3XFr39YGLKBpIz9DZTAoHw=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette scène murale peinte, située dans la tombe thébaine de Sennefer (TT96) datant de la XVIIIe dynastie, illustre un moment clé des rituels funéraires du Nouvel Empire égyptien. Le registre montre Sennefer, le "Maire de la Cité du Sud", recevant une purification ou une offrande de la part d'un officiant, souvent identifié comme un membre de sa famille ou un prêtre-sem. Le personnage de gauche, vêtu de la peau de léopard caractéristique des fonctions sacerdotales, présente un vase globulaire doré d'où s'écoule un mince filet d'eau purificatrice, symbolisé par une ligne bleue en dents de scie qui vient baigner le défunt.</p>
+    <p>Sennefer est représenté à droite avec une grande noblesse, portant une perruque noire soigneusement taillée, une courte barbe rituelle et son célèbre double collier de l'or de la récompense. Il tient fermement un long bâton de fonction, rappelant son autorité terrestre alors qu'il s'apprête à entrer dans le monde d'Osiris. L'arrière-plan est saturé de colonnes de hiéroglyphes tracés à l'encre noire, séparés par des lignes rouges, qui détaillent les formules d'offrandes et les titres prestigieux du défunt. La technique picturale est remarquable par la vivacité de ses pigments, notamment l'ocre rouge profond utilisé pour la peau masculine et le jaune lumineux évoquant l'or des bijoux et des vases. La précision du trait, visible dans le détail du pelage de la peau de léopard et dans la finesse des yeux en amande, témoigne du savoir-faire des artisans de Deir el-Médineh travaillant pour l'élite thébaine. Cette composition, alliant texte et image, vise à garantir magiquement la pureté et la subsistance éternelle de Sennefer dans l'au-delà.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1420) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+  {
+    id: "peinture_chacals_anubis_linteau_sennefer_tt96",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1420 av. J.-C. / règne d'Amenhotep II)",
+    centuryDisplay: "XVe s. av. J.-C.",
+    centuryNumeric: -1420,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Chacals d'Anubis affrontés sur chapelles et couple Sennefer-Senetnay (TT96)",
+    site: "Tombe de Sennefer - TT96 (Cheikh Abd el-Gourna, Thèbes)",
+    originSite: "Cheikh Abd el-Gourna (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe TT96, Gourna)",
+    category: "Peinture murale thébaine",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Amenhotep II", "TT96 Sennefer", "Anubis chacals"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOQg4VOk9efHrhXIX5oXIXB4KSlEYAcf0bVKUcqHZT9v6z5xdyv08dgHqHDsdLXY0NmVTft-L_Y1TgDs-CmFSMIDhtmps-hptTkobgHyvjgGXNeQk9lv39ZdqEhto-IcZR5rpDvTIS5Cw6BnpRHof9rUA=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette peinture murale exceptionnelle provient de la tombe de Sennefer (TT96), située dans la nécropole de Cheikh Abd el-Gourna à Thèbes, et date de la XVIIIe dynastie, sous le règne d’Amenhotep II, vers 1420 avant notre ère. Sennefer occupait la fonction prestigieuse de Maire de la Cité du Sud (Thèbes) et d'Intendant des jardins d'Amon, une influence qui se reflète dans la richesse décorative de sa sépulture, surnommée à juste titre la tombe aux vignes en raison du plafond imitant une treille chargée de grappes de raisin. La scène ici représentée sur l'un des parois d'accès au caveau illustre la transition sacrée vers l'au-delà et la protection divine du défunt.</p>
+    <p>Au centre de la composition, au-dessus du linteau de passage, deux chacals noirs faisant face l'un à l'autre reposent sur des socles en forme de chapelles stylisées. Ces figures incarnent le dieu Anubis, gardien des nécropoles et maître de l'embaumement, veillant sur l'entrée de la demeure d'éternité. Entre eux s'élève un bouquet de papyrus lié, symbole de renaissance et de vitalité. Sur la droite, une scène plus intime montre Sennefer lui-même, vêtu d'un pagne blanc plissé et paré d'un large collier ousekh, accompagné de son épouse Senetnay. Celle-ci arbore une robe fourreau blanche, une perruque tripartite et un lotus frontal, signe de régénération. Le couple est représenté dans le style classique du Nouvel Empire, caractérisé par une élégance des lignes, une palette chromatique vive où dominent l'ocre, le bleu et le noir, et une attention particulière portée aux détails des bijoux.</p>
+    <p>L'ensemble est encadré par des colonnes de hiéroglyphes finement tracés sur un fond clair, récitant des formules d'offrandes et les titres du défunt pour assurer sa subsistance spirituelle. Le plafond, visible en partie supérieure, déploie des motifs géométriques complexes et des entrelacs de vigne qui confèrent à l'espace une atmosphère de jardin céleste. La préservation remarquable des pigments naturels et la maîtrise de la composition font de cette paroi un témoignage majeur de l'art thébain, illustrant la fusion entre la fonction administrative du dignitaire et ses aspirations métaphysiques à la vie éternelle sous la protection d'Anubis.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1420) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+  {
+    id: "peinture_navigation_abydos_sennefer_tt96",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1420 av. J.-C. / règne d'Amenhotep II)",
+    centuryDisplay: "XVe s. av. J.-C.",
+    centuryNumeric: -1420,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Navigation sacrée vers Abydos de Sennefer et Senetnay (Tombe TT96)",
+    site: "Tombe de Sennefer - TT96 (Cheikh Abd el-Gourna, Thèbes)",
+    originSite: "Cheikh Abd el-Gourna (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe TT96, Gourna)",
+    category: "Peinture murale thébaine",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Amenhotep II", "TT96 Sennefer", "Pèlerinage d'Abydos"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczM1jckH504JadPZ72cJc4eT-ZzfCvGZ8k3iikzIEVrFdabOvcg4qd0TYWdb1CL2MK0gjlGv-ruebghgzXB691LO6GaUQpeU90l3OqiWV47qGVudi8sFwyci3lBZKNiwvfJ4ylXVEIsHnnQB3A8kcVwFjA=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette peinture murale, extraite du cycle iconographique de la tombe de Sennefer (TT96) à Thèbes, illustre une étape cruciale du voyage funéraire durant la XVIIIe dynastie égyptienne. La scène représente le pèlerinage sacré vers Abydos, cité d'Osiris, ou le trajet symbolique vers la nécropole occidentale. Le défunt, Sennefer, maire de Thèbes, est assis aux côtés de son épouse Senetnay sous un baldaquin léger installé sur une barque papyriforme. Tous deux sont représentés dans une attitude de dignité sereine : Sennefer porte le pagne long et un collier de prix, tandis que son épouse, vêtue d'une robe fourreau blanche, pose affectueusement la main sur son épaule, témoignant de l'union éternelle du couple dans l'au-delà.</p>
+    <p>La barque, élément central de la navigation vers l'éternité, glisse sur un registre d'eau figuré par des lignes brisées en zigzag. À la proue, un officiant debout présente des offrandes rituelles devant un guéridon chargé de pains et de victuailles, tout en versant une libation à l'aide d'un vase hes. À la poupe, un timonier dirige les deux grands avirons-gouvernails, assurant la direction de l'embarcation vers son destin divin. L'œil oudjat, peint sur la coque, protège la traversée en repoussant les forces du chaos. Au-dessus de la scène, la voûte est ornée du motif caractéristique de la vigne aux grappes noires, rappelant les jardins d'Amon dont Sennefer avait la charge et symbolisant la régénération constante de la vie.</p>
+    <p>Le style artistique est d'une grande finesse, typique de l'âge d'or du Nouvel Empire sous Amenhotep II. Les hiéroglyphes qui entourent les personnages ne sont pas de simples ornements, mais des textes rituels identifiant le couple et sollicitant pour eux les offrandes funéraires nécessaires à la survie du Ka. La palette de couleurs, restée vibrante malgré les millénaires, utilise des pigments naturels minéraux tels que l'ocre rouge, le jaune, le bleu de lapis-lazuli et le noir de carbone, appliqués sur un enduit de plâtre blanc. Cette œuvre témoigne de la haute position sociale de Sennefer et de sa volonté d'inscrire son passage vers l'éternité dans une esthétique de l'abondance et de la piété.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1420) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+  {
+    id: "peinture_couple_sennefer_meryt_lotus_tt96",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1420 av. J.-C. / règne d'Amenhotep II)",
+    centuryDisplay: "XVe s. av. J.-C.",
+    centuryNumeric: -1420,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Double portrait de Sennefer et Meryt au lotus bleu et boucle d'oreille (TT96)",
+    site: "Tombe de Sennefer - TT96 (Cheikh Abd el-Gourna, Thèbes)",
+    originSite: "Cheikh Abd el-Gourna (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe TT96, Gourna)",
+    category: "Peinture murale thébaine",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Amenhotep II", "TT96 Sennefer", "Lotus bleu"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOzgyyikO7iuXnaTN7iXacRDAxqccwgpzHPgtSln4Sr3gNZCWRj3cUTp-wuUSYP1mLqP16gDC4K3puUsEG_WIo-U7gYZYCP8XmySNDftcHQFLT4ngKWHk6nNz_G9MQ6M1_nbES7ce2tyfUKo4HtvRy2gw=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette peinture murale exceptionnelle provient de la tombe thébaine TT96, appartenant à Sennefer, maire de Thèbes sous le règne d'Amenhotep II durant la XVIIIe dynastie du Nouvel Empire. Surnommée la « Tombe aux Vignes » en raison des motifs de treilles qui ornent son plafond, cette sépulture est l’un des exemples les plus aboutis et les mieux préservés de l’art funéraire égyptien de cette période. La scène présente Sennefer accompagné de son épouse principale, Meryt, dans une composition qui célèbre à la fois leur statut social élevé et leur union éternelle dans l’au-delà.</p>
+    <p>Le style artistique se distingue par une palette de couleurs d’une fraîcheur remarquable, où dominent les pigments d’ocre rouge, de bleu égyptien et de jaune, appliqués sur un fond gris-blanc qui magnifie les détails. Sennefer est représenté avec une peau d’un brun profond, arborant une perruque soigneusement bouclée et des bijoux raffinés, notamment des colliers ousekh et de larges anneaux d’oreille en or, caractéristiques de la mode du règne d’Amenhotep II. Meryt, dont la peau est traditionnellement rendue dans un ton jaune plus clair, porte une robe en lin blanc translucide d’une grande finesse et une parure de tête ornée d’un lotus bleu, symbole de renaissance. Elle pose une main affectueuse sur l’épaule de son mari, un geste d'une grande tendresse qui souligne le rôle crucial de l'épouse dans le voyage spirituel du défunt.</p>
+    <p>La scène est surmontée d’une frise de khakérous et de rangées de motifs géométriques, tandis que les colonnes de hiéroglyphes tracées au-dessus des personnages consignent leurs noms, leurs titres et des formules d'offrandes destinées à assurer leur subsistance éternelle. L’œuvre illustre parfaitement le passage d'un art rigide vers une recherche de volume et de fluidité, témoignant de l'opulence de l'administration thébaine à l'apogée de l'Empire.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1420) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+   {
     id: "peinture_comptage_betail_ouserhat_tt56",
     civId: "egypte",
     periodId: "nouvel_empire",
