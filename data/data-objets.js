@@ -6,6 +6,32 @@ window.ART_OBJECTS = window.ART_OBJECTS || [];
 window.ART_OBJECTS.push(
 
 {
+    id: "fausse_porte_mererouka_saqqarah",
+    civId: "egypte",
+    periodId: "ancien_empire",
+    civName: "Égypte : Ancien Empire",
+    century: "VIe dynastie (v. -2300 av. J.-C.)",
+    centuryDisplay: "XXIIIe s. av. J.-C.",
+    centuryNumeric: -2300,
+    domain: "funeraire",
+    artifactType: "Fausse porte",
+    title: "Fausse porte monumentale du vizir Mererouka",
+    site: "Mastaba de Mererouka (Saqqarah Nord, Égypte)",
+    originSite: "Nécropole de Saqqarah (Memphis)",
+    locationType: "site",
+    currentLocation: "In situ (Mastaba de Mererouka, Saqqarah)",
+    category: "Architecture funéraire",
+    isHighlight: false,
+    chips: ["VIe dynastie", "Mastaba de Mererouka", "Fausse porte", "Saqqarah"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMIsusTWlnfYdbwaQLQiaMOjpnaS03z7JxD9vLdM5eb6brCCq3DOd89FL7fRDIlHoCsx6ZvuvGfDV6YEapLcwjmpf_vOMuDqZtO1ER23u6VspZjyKXl8OmFAkzYYTS5AMaqJKyGShXwtXKhOeY0cOalLQ=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette œuvre est une fausse porte monumentale issue du mastaba de Mererouka, situé à Saqqarah Nord, en Égypte. Datant de la VIe dynastie, sous le règne du pharaon Téti (vers 2300 avant J.-C.), elle constitue l'élément spirituel central du complexe funéraire de ce haut dignitaire. Mererouka cumulait des fonctions prestigieuses, étant à la fois vizir, gendre du roi et gardien de la pyramide, ce qui explique l'ampleur et la richesse exceptionnelle de sa sépulture, l'une des plus vastes de l'Ancien Empire.</p>
+    <p>La fausse porte est conçue comme une interface symbolique entre le monde des vivants et celui des morts. Selon les croyances égyptiennes, le ka (l'énergie vitale) du défunt pouvait franchir cette paroi de calcaire pour venir consommer les offrandes déposées par les prêtres ou la famille dans la chapelle de culte. L'architecture de la stèle imite la façade d'un palais ou d'une habitation, avec ses montants verticaux et son linteau, créant l'illusion d'un passage réel vers l'au-delà.</p>
+    <p>Les surfaces sont entièrement recouvertes de bas-reliefs d'une grande finesse, conservant par endroits des traces de pigments ocre et rouge. Les colonnes de hiéroglyphes détaillent les nombreux titres de Mererouka et les formules d'offrandes rituelles destinées à assurer sa subsistance éternelle. Au pied de la stèle, des représentations du défunt en marche, sculptées en léger relief, semblent émerger de la pierre pour accueillir les visiteurs et participer au banquet funéraire.</p>
+    <p>L'esthétique de cette pièce témoigne de l'apogée de l'art memphite de la VIe dynastie. La précision des gravures et la maîtrise des proportions reflètent le rang social élevé du propriétaire. Au-delà de sa fonction religieuse, cette fausse porte est un document historique majeur qui illustre la puissance de l'administration provinciale et la sophistication des rites funéraires égyptiens visant à défier le temps et l'oubli.</p>
+    <p><strong>Siècle :</strong> XXIIIe siècle av. J.-C. (-2300) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Tombes & Rituels.</p>`
+  },
+   {
     id: "plat_chasse_nagada_assouan",
     civId: "egypte",
     periodId: "predynastique",
