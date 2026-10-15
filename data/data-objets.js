@@ -1114,7 +1114,7 @@ window.ART_OBJECTS.push(
     <p>L'emplacement actuel du Sphinx, à l'entrée de la collection égyptienne, souligne son rôle de gardien du temple. La surface de la pierre a conservé un lustre magnifique qui accroche la lumière, mettant en relief les volumes simplifiés mais puissants de la sculpture.</p>
     <p><strong>Siècle :</strong> XXVIe siècle av. J.-C. (-2600) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
   },
-  {
+    {
     id: "sculpture_triade_mykerinos_hathor_personnification_nome_gizeh_caire",
     civId: "egypte",
     periodId: "ancien_empire",
@@ -1134,11 +1134,54 @@ window.ART_OBJECTS.push(
     chips: ["IVe dynastie", "Mykérinos", "Gizeh", "Grauwacke", "Déesse Hathor", "Personnification de nome", "Musée du Caire"],
     deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
     imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPlVQPX3UHQIW61gyGJ6IsvJrvPHU8NgELIovO8CWBO271kC8QHPLMMHwGZtC1mrYW0xlbyFTyMARPABOC3BroZ0nebDzxvE251tbI5SOiBJ1wTmuy4Owh4bgFvODTHXO_QIJMlGszhBG6ooIwFG6dHng=w1611-h2416-s-no-gm?authuser=0",
+    hotspots: [
+      {
+        x: 52,
+        y: 15,
+        radius: 14,
+        tag: "POINT 1 / 5 • SOUVERAINETÉ ROYALE",
+        title: "La couronne blanche Hedjet et le visage royal",
+        desc: "Mykérinos est coiffé de la haute couronne de Haute-Égypte et porte la barbe postiche cérémonielle. Le canon de la IVe dynastie allie la vigueur athlétique du souverain à un visage impassible, empreint de sérénité divine."
+      },
+      {
+        x: 24,
+        y: 26,
+        radius: 15,
+        tag: "POINT 2 / 5 • FILIATION DIVINE",
+        title: "Hathor, Dame du Sycomore",
+        desc: "À la droite d'honneur du roi, la déesse Hathor est reconnaissable à ses cornes lyres enserrant le disque solaire. Mère céleste et protectrice dynastique, elle garantit la régénération perpétuelle du souverain."
+      },
+      {
+        x: 39,
+        y: 56,
+        radius: 12,
+        tag: "POINT 3 / 5 • INTIMITÉ MYSTIQUE",
+        title: "L'enlacement des mains sacrées",
+        desc: "Détail d'une audace remarquable : la déesse tient tendrement la main du roi. Ce contact direct au niveau de la taille scelle l'alliance charnelle et spirituelle entre le monde divin et le souverain terrestre."
+      },
+      {
+        x: 77,
+        y: 25,
+        radius: 14,
+        tag: "POINT 4 / 5 • GÉOGRAPHIE DU ROYAUME",
+        title: "L'étendard du Nome du Lièvre (Hermopolis)",
+        desc: "La figure féminine de gauche personnifie le 15e nome de Haute-Égypte. Elle apporte au roi les ressources territoriales et agricoles de sa province pour alimenter éternellement le culte funéraire de la pyramide."
+      },
+      {
+        x: 50,
+        y: 86,
+        radius: 16,
+        tag: "POINT 5 / 5 • MATÉRIAU & GRAVURE",
+        title: "La marche athlétique et la grauwacke polie",
+        desc: "Le souverain avance la jambe gauche selon le canon viril égyptien. La base en grauwacke sombre (pierre extrêmement résistante extraite du Ouadi Hammamat) porte les cartouches de Mykérinos, assurant sa gloire pour l'éternité."
+      }
+    ],
     narrative: `<p>Cette triade monumentale en grauwacke (une pierre sombre et très dure) représente le roi Mykérinos, flanqué de deux figures féminines divines. Datant de la IVe dynastie (vers 2490 av. J.-C.), elle a été découverte par George Reisner en 1908 dans le temple de la vallée de la pyramide de Mykérinos à Gizeh. Le roi occupe la position centrale, coiffé de la couronne blanche de Haute-Égypte et portant la barbe postiche cérémonielle. Sa posture est celle de la marche athlétique, le pied gauche en avant, exprimant une vigueur et une jeunesse éternelles propres à la fonction royale.</p>
     <p>À la droite du souverain se tient la déesse Hathor, reconnaissable à sa coiffe composée de cornes de vache entourant un disque solaire. Elle tient tendrement la main du roi, symbolisant la protection divine et la filiation spirituelle qui lie le monarque aux dieux. À sa gauche se trouve une personnification d'un nome (une province d'Égypte), identifiée par l'emblème sculpté au-dessus de sa tête. Ce groupe statuaire faisait partie d'une série de triades représentant le roi avec Hathor et les différentes provinces du pays, affirmant ainsi que toutes les ressources de l'Égypte étaient dévouées au culte funéraire du pharaon.</p>
     <p>L'exécution technique est d'une finesse incomparable, le sculpteur ayant réussi à rendre la souplesse des corps et la musculature sous la pierre pourtant extrêmement résistante. Le contraste entre la puissance virile du roi et la douceur élégante des silhouettes féminines, vêtues de robes fourreaux moulantes presque invisibles, souligne l'harmonie du cosmos (la Maât). Les inscriptions hiéroglyphiques gravées sur la base énumèrent les titres du roi et les offrandes promises, garantissant ainsi que Mykérinos restera pour l'éternité un « aimé des dieux » au cœur du complexe sacré de Gizeh.</p>
     <p><strong>Siècle :</strong> XXVe siècle av. J.-C. (-2490) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
   },
+
   {
     id: "sculpture_tete_userkaf_decheret_abou_gorab_caire",
     civId: "egypte",
