@@ -6,6 +6,635 @@ window.ART_OBJECTS = window.ART_OBJECTS || [];
 window.ART_OBJECTS.push(
 
   {
+    id: "sculpture_relief_khaemhat_lin_perruque_etagee_tt57",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1370 av. J.-C. / règne d'Amenhotep III)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1370,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Profil du scribe royal Khaemhat paré du lin plissé et de la perruque étagée (Tombe TT57)",
+    site: "Tombe de Khaemhat - TT57 (Cheikh Abd el-Gourna / Assassif, Thèbes)",
+    originSite: "Thèbes-Ouest",
+    locationType: "site",
+    currentLocation: "In situ (Tombe TT57, Nécropole thébaine)",
+    category: "Bas-relief en calcaire fin",
+    isHighlight: true,
+    chips: ["XVIIIe dynastie", "Khaemhat", "Amenhotep III", "Tombe TT57", "Scribe royal", "Lin plissé", "Art thébain"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMm_GdxzsAly4PLK2BBvWjs9Tv11LBaaCH5ap_jLdKEpqokdwLbMnn583cGew7mma-zFYydMYdRelSQ5pN9TcILkXp_FTWl5JSUBjuU4rdbrm7Y2nZEfA5mPqRXP-NBZfq_TX_mIT3_xjHRfE-JUcwD3Q=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce relief exceptionnel provient de la tombe de Khaemhat (TT57), située dans la nécropole thébaine de l'Assassif. Khaemhat occupait la fonction de scribe royal et d'inspecteur des greniers royaux sous le règne d'Amenhotep III, l'une des périodes les plus prospères et artistiquement raffinées de la XVIIIe dynastie (Nouvel Empire). Ce fragment témoigne de la perfection formelle atteinte par les sculpteurs de cette époque, juste avant la révolution amarnienne.</p>
+    <p>L'œuvre illustre la virtuosité du relief en creux, technique qui permet de jouer avec la lumière et les ombres pour donner du volume aux figures. Le personnage est représenté avec une finesse extrême : les plis de son vêtement en lin fin, le détail complexe de sa perruque étagée et les traits délicats de son visage sont caractéristiques de l'esthétique sophistiquée du règne d'Amenhotep III. Khaemhat est souvent montré dans sa tombe supervisant le travail des champs ou recevant des honneurs, soulignant son rôle crucial dans l'administration agricole du pays.</p>
+    <p>La tombe de Khaemhat est renommée pour la qualité de ses décors qui ne sont pas peints mais sculptés dans un calcaire fin, ce qui leur donne une dimension tactile et une élégance rare. Les scènes qu'elle renferme célèbrent non seulement la carrière du défunt mais aussi le cycle de la nature et l'abondance, sous la protection du dieu agraire Rénénoutet, souvent représenté dans ce monument. Ce fragment est un parfait exemple du « style international » de la XVIIIe dynastie, où l'élégance des lignes rencontre une observation précise de la réalité.</p>
+    <p>Cette pièce permet d'apprécier la transition vers un art plus naturaliste qui allait bientôt influencer le style d'Akhenaton. La précision du rendu des textiles et la douceur des contours font de ce relief l'un des sommets de l'art de cour égyptien.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1370) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_groupe_familial_niches_rupestres_khaemhat_tt57",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1370 av. J.-C. / règne d'Amenhotep III)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1370,
+    domain: "sculpture_statuaire",
+    artifactType: "Statue en ronde-bosse",
+    title: "Groupes familiaux des niches rupestres : Khaemhat assis aux côtés de son père Imhotep et de son épouse Tiyi (Tombe TT57)",
+    site: "Tombe de Khaemhat - TT57 (Nécropole thébaine)",
+    originSite: "Thèbes-Ouest",
+    locationType: "site",
+    currentLocation: "In situ (Chapelle funéraire de la tombe TT57, Thèbes)",
+    category: "Statuaire rupestre en calcaire",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Khaemhat", "Amenhotep III", "Tombe TT57", "Statuaire rupestre", "Culte du Ka", "Groupe familial"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNsX5zPGx5eFQUnUwtNKrmkIeJ2WuzpVjA7b7TMZ73zb8WjJ8IrX4KvKisU4ReZ55my4eIJIQjeMV_XOigt6_GE79qJUwaOwupByzFycXE7bEDRcZhh658EYBfDqjiMkwq6xjY2tRia-x7vP_I2ATD75w=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ces groupes sculptés sont situés dans les niches de la chapelle funéraire de Khaemhat (TT57) à Thèbes. Ils appartiennent à la XVIIIe dynastie, sous le règne d'Amenhotep III (vers 1390-1352 av. J.-C.), une époque marquée par un raffinement artistique extrême avant la période amarnienne. Ces statues rupestres, taillées directement dans la paroi rocheuse de la dernière salle, représentent le défunt entouré des membres de sa famille pour l'éternité.</p>
+    <p>La niche centrale présente Khaemhat aux côtés de son père, Imhotep. Les deux hommes sont représentés assis sur un large banc, vêtus du long pagne civil plissé et coiffés de perruques imposantes caractéristiques des hauts fonctionnaires de l'époque. Entre les deux figures masculines, une petite silhouette féminine debout est souvent sculptée en bas-relief : il s'agit de Tiyi, l'épouse de Khaemhat, associée ainsi au culte rendu aux ancêtres.</p>
+    <p>D'autres niches accueillent des statues de Khaemhat accompagné de sa femme. Bien que le temps et les martelages de l'époque d'Akhenaton aient parfois endommagé les visages, on devine encore la douceur des traits et le modelé souple des corps qui font la renommée de cette tombe. La présence de ces statues de groupe servait de réceptacle au « Ka » (l'énergie vitale) des défunts, leur permettant de recevoir les offrandes et de participer aux rituels célébrés dans la chapelle.</p>
+    <p>Ces ensembles sculptés complètent les célèbres reliefs muraux de la tombe, créant un espace sacré où le monde des morts et celui des vivants se rejoignent au cœur de la montagne thébaine.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1370) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_tete_deesse_sekhmet_disque_solaire_granodiorite_louxor",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1370 av. J.-C. / règne d'Amenhotep III)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1370,
+    domain: "sculpture_statuaire",
+    artifactType: "Statue en ronde-bosse",
+    title: "Tête colossale de la déesse lionne Sekhmet au disque solaire et uræus en granodiorite (Musée de Louxor)",
+    site: "Temple funéraire d'Amenhotep III (Kom el-Hettan) ou Temple de Mout (Karnak)",
+    originSite: "Thèbes",
+    locationType: "museum",
+    currentLocation: "Musée de Louxor (J. 138)",
+    category: "Ronde-bosse en granodiorite polie",
+    isHighlight: true,
+    chips: ["XVIIIe dynastie", "Sekhmet", "Amenhotep III", "Granodiorite", "Disque solaire", "Uræus", "Musée de Louxor"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPb2j58c78xvjA43N7tirUlxAnNj1S9c8IwNEE8O2NCY3pdwChzQaLz0rIY5Z77Eg0Bjz9Qyq8ygFXgPILhYA5Y1bXCm6T-pAIcCg0pLktKijiVmGEwY4l6g2uI-6r2wLN0nnkUdOd-VObIS1RS95nLlA=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette magnifique tête de la déesse lionne Sekhmet, sculptée dans la granodiorite (ou granit noir), est une œuvre emblématique de la XVIIIe dynastie, sous le règne du pharaon Amenhotep III. Elle provient initialement de l'immense série de statues que le souverain fit ériger pour son temple funéraire à Kom el-Hettan ou pour le temple de la déesse Mout à Karnak, où des centaines de représentations similaires ont été découvertes. Ces statues, commandées en nombre prodigieux, avaient pour fonction rituelle de protéger le pharaon et le royaume contre les maladies et les forces du chaos.</p>
+    <p>La déesse est représentée sous sa forme zoomorphe classique, arborant une tête de lionne aux traits puissants et stylisés. Son visage est encadré par une perruque striée surmontée d'un imposant disque solaire orné d'un uraeus, le cobra protecteur, soulignant son statut de fille du dieu Rê et de « L'Œil de Rê ». La précision des détails, notamment les moustaches finement gravées et les lignes du museau, témoigne de la virtuosité des sculpteurs royaux de cette époque.</p>
+    <p>Aujourd'hui conservée au Musée de Louxor, cette pièce illustre parfaitement le concept de la « Puissante » (traduction littérale de Sekhmet). Bien qu'il s'agisse ici d'un fragment, la statue complète la représentait généralement assise sur un trône, tenant le signe de vie ankh, ou debout avec un sceptre de papyrus. Sa présence majestueuse au musée rappelle l'apogée artistique du règne d'Amenhotep III et l'importance capitale du culte lionnin dans la région thébaine.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1370) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_buste_colossal_akhenaton_gem_pa_aton_louxor",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1350 av. J.-C. / règne d'Akhenaton)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1350,
+    domain: "sculpture_statuaire",
+    artifactType: "Statue en ronde-bosse",
+    title: "Buste colossal d'Akhenaton au Pschent et sceptres croisés (Gem-pa-Aton de Karnak, Musée de Louxor)",
+    site: "Temple d'Aton à Karnak - Gem-pa-Aton (Thèbes)",
+    originSite: "Karnak",
+    locationType: "museum",
+    currentLocation: "Musée de Louxor (J. 53)",
+    category: "Statuaire colossale en grès",
+    isHighlight: true,
+    chips: ["XVIIIe dynastie", "Akhenaton", "Gem-pa-Aton", "Karnak", "Style amarnien", "Couronne Pschent", "Musée de Louxor"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMdsW--YeY3QYpHmJQejh5KoAqhNmZfHJl_EIbWgMKCo4LM07lm3vcIc74Ll07t8MJeedzyFtriTI4P1hjUGqk9hoxbCx7L0PE54cac8WiQF-E3jh0SM4PbCyYsxqaxSr450iguR8MAnz6fn-7nfvy1eg=w1611-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Ce buste colossal en grès représente le pharaon Akhenaton (initialement Amenhotep IV), l'une des figures les plus singulières de l'Égypte ancienne. Découverte à l'est de l'enceinte du temple de Karnak, cette œuvre faisait partie d'une série de colosses qui ornaient autrefois la cour du temple dédié au disque solaire Aton, le Gem-pa-Aton, construit au début de son règne vers 1353-1336 av. J.-C. Elle illustre le moment de rupture où l'art égyptien bascule vers le style révolutionnaire d'Amarna.</p>
+    <p>Le souverain est figuré avec les attributs classiques de la royauté, mais traités selon un canon esthétique radicalement nouveau. Il porte ici la coiffe khat ou le némès, surmontée de la double couronne (le pschent), ainsi que l'uraeus protecteur au front. Ses mains croisées sur la poitrine tenaient autrefois les sceptres héqa et nekhakha (le crochet et le fléau), symboles de son autorité suprême. Les traits du visage — yeux en amande, lèvres charnues et menton allongé — soulignent une volonté de se distinguer des représentations idéalisées de ses prédécesseurs.</p>
+    <p>Exposée aujourd'hui au Musée de Louxor sous le numéro d'inventaire J. 53, cette tête de colosse témoigne de l'ambition monumentale du roi « hérétique » avant qu'il ne déplace sa capitale vers Tell el-Amarna. La sculpture, bien que fragmentaire, conserve une puissance d'expression fascinante, rappelant la période de bouleversements religieux et artistiques qui a marqué la XVIIIe dynastie.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1350) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_buste_colossal_akhenaton_style_amarnien_karnak",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1350 av. J.-C. / règne d'Akhenaton)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1350,
+    domain: "sculpture_statuaire",
+    artifactType: "Statue en ronde-bosse",
+    title: "Pilier colossal d'Akhenaton : Visage androgyne allongé et attributs de souveraineté du Gem-pa-Aton",
+    site: "Temple d'Aton à Karnak - Gem-pa-Aton (Thèbes)",
+    originSite: "Karnak",
+    locationType: "museum",
+    currentLocation: "Musée égyptien du Caire / Musée de Louxor",
+    category: "Statuaire colossale en grès",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Akhenaton", "Gem-pa-Aton", "Style amarnien", "Visage allongé", "Héqa et Nekhekh", "Théologie solaire"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPCOoZvCnPD9m5_EqNDWGnn1dsDyguFMkGBFrbELS32oESEnuOAKXBncxN6KG7OuzkimQ3eAk9bKYBe_eQ22h993lCruzwPOdbspl6vlaUGApwn7ck8LIzIC1Q4ydKNUEaodmN0BPgXM1YahBhEhw-FOA=w1818-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Ce buste colossal en grès est l'une des représentations les plus emblématiques d'Amenhotep IV, plus connu sous le nom d'Akhénaton. Provenant du temple d'Aton à Karnak (le Gem-pa-Aton), cette œuvre illustre la rupture esthétique radicale, appelée « style amarnien », qui a accompagné la réforme religieuse du pharaon. À l'opposé du classicisme idéalisé des règnes précédents, ce portrait privilégie un expressionnisme saisissant et des formes androgynes, visant à traduire la nature unique du roi en tant qu'intermédiaire exclusif du disque solaire Aton.</p>
+    <p>Le visage est caractérisé par un étirement vertical prononcé : un menton long et lourd, des lèvres charnues et sinueuses, ainsi que des yeux en amande étirés vers les tempes sous des paupières lourdes. Le nez est fin et droit, tandis que les oreilles, dont les lobes sont percés, témoignent d'une mode nouvelle. Akhénaton porte ici la double couronne (le Pschent) posée sur une perruque, ainsi que la barbe postiche rubannée, symboles de sa souveraineté sur la Haute et la Basse-Égypte. Ses bras sont croisés sur la poitrine, tenant les insignes royaux, le crochet héqa et le fouet nekhekh.</p>
+    <p>Ce gigantisme et ces déformations anatomiques ne sont pas les reflets d'une pathologie réelle, mais une construction théologique délibérée. En fusionnant des attributs masculins et féminins, Akhénaton se présente comme le dieu créateur « père et mère » de l'humanité, l'image vivante d'Aton sur terre.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1350) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_tete_inachevee_nefertiti_quartzite_brun_amarna_caire",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1350 à -1334 av. J.-C. / règne d'Akhenaton)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1345,
+    domain: "sculpture_statuaire",
+    artifactType: "Statue en ronde-bosse",
+    title: "Tête inachevée de la reine Néfertiti en quartzite brun (Atelier du sculpteur Thoutmôsis à Amarna)",
+    site: "Atelier du sculpteur Thoutmôsis (Tell el-Amarna / Akhetaton)",
+    originSite: "Tell el-Amarna",
+    locationType: "museum",
+    currentLocation: "Musée égyptien du Caire (JE 44801)",
+    category: "Ronde-bosse inachevée en quartzite brun",
+    isHighlight: true,
+    chips: ["XVIIIe dynastie", "Néfertiti", "Amarna", "Thoutmôsis", "Quartzite brun", "Statue composite", "Musée du Caire"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOaPNB-LLg6EzCBfLMxUYyLBPfMAcvkKwbxDn8LVzQjRMKo7c8sL_03OLryLCH-LpdzpmZPUczqjlxTrfxfLrPHIr2-jDFLqg2xZwrx0U1cDyTu6QxnDi7_v2qmx_SpZOH-WWfBOZkusa9-gfJfELs8cQ=w1611-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Cette tête de la reine Néfertiti, épouse royale d'Akhenaton, est un chef-d'œuvre de la période amarnienne (vers 1351-1334 av. J.-C.). Elle a été découverte dans l'atelier du sculpteur Thoutmôsis à Akhetaton (El-Amarna). Contrairement au célèbre buste polychrome conservé à Berlin, cette œuvre est une tête en quartzite brun, restée inachevée. L'absence de peinture permet d'apprécier la virtuosité incroyable du sculpteur dans le modelé de la pierre : la finesse des pommettes, la courbe délicate du cou et le réalisme des lèvres charnues témoignent d'une rupture avec les canons rigides des époques précédentes pour privilégier une élégance fluide et une beauté presque naturelle.</p>
+    <p>Le visage de la reine affiche les caractéristiques typiques de l'esthétique d'Amarna : un visage allongé, des yeux en amande et des sourcils hauts. On distingue encore sur les yeux des traits à l'encre noire, probablement des repères tracés par l'artiste pour guider le travail final d'incrustation ou de polissage. La tête est surmontée d'une coiffe cylindrique plate, typique de l'iconographie de Néfertiti, qui servait de base à sa grande couronne bleue. Ce portrait n'était pas destiné à être une statue isolée, mais servait vraisemblablement de modèle pour les apprentis ou de tête à insérer dans une statue composite faite de différents matériaux.</p>
+    <p>Néfertiti occupait une place politique et religieuse sans précédent, apparaissant souvent comme l'égale du roi dans les rituels dédiés au disque solaire Aton. Sa beauté, dont le nom signifie d'ailleurs « La Belle est venue », est ici immortalisée dans une pierre dont la couleur rappelle celle du sable sous le soleil.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1345) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_statuette_akhenaton_assis_nemes_heqa_amarna_louvre",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1350 à -1334 av. J.-C. / règne d'Akhenaton)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1345,
+    domain: "sculpture_statuaire",
+    artifactType: "Statue en ronde-bosse",
+    title: "Statuette de dévotion privée d'Akhenaton assis au némès et sceptre héqa (Musée du Louvre)",
+    site: "Tell el-Amarna (Akhetaton)",
+    originSite: "Tell el-Amarna",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes, E 25408)",
+    category: "Statuette en ronde-bosse en stéatite",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Akhenaton", "Amarna", "Statuette assise", "Némès", "Sceptre Héqa", "Dévotion privée", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPuYRKRos_A_IWRs05s9kRwIs1XRXXX1pDU_Kg5r-AlOpdBq5TlA6O3sRvqKg8-h2vC5LjnooZRk70_TB7CL-NGfEKck1TWgKid-j1cFEGtCA_zG0CTQm6kGXdptIcs4AHp_XIQptzArH2sqiwY9hgNBw=w1818-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Cette statuette représente un souverain de l'époque amarnienne, une période de rupture majeure dans l'histoire et l'art égyptiens sous le règne d'Akhénaton. Contrairement aux représentations colossales et souvent distordues retrouvées à Karnak, cette petite sculpture assise offre une vision plus apaisée et raffinée du monarque. Le souverain est figuré assis sur un siège cubique simple, portant le némès, la coiffe royale plissée surmontée de l'uraeus, ainsi qu'un pagne finement plissé qui laisse apparaître un ventre légèrement proéminent, trait caractéristique du naturalisme amarnien.</p>
+    <p>L'œuvre se distingue par la douceur de son modelé et la précision des détails anatomiques, notamment au niveau des mains et du visage. Le roi tient dans sa main droite le sceptre héqa, insigne du bon pasteur, appuyé contre son épaule. Les traits du visage, bien que conservant les yeux en amande et les lèvres pleines propres au style de l'époque, sont traités avec une sérénité qui suggère la fonction protectrice et nourricière du pharaon. La matière a été polie pour donner un aspect soyeux à la peau royale.</p>
+    <p>Cette statuette servait probablement d'objet de culte privé ou de dévotion dans une chapelle domestique. Elle illustre parfaitement comment l'idéologie d'Akhénaton a imprégné tous les formats de l'art, transformant l'image royale en une figure plus humaine et accessible, tout en restant le seul intermédiaire entre le peuple et le disque solaire Aton.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1345) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_buste_akhenaton_couronne_hedjet_calcaire_louvre",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1350 à -1334 av. J.-C. / règne d'Akhenaton)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1345,
+    domain: "sculpture_statuaire",
+    artifactType: "Statue en ronde-bosse",
+    title: "Buste royal d'Akhenaton à la couronne blanche Hedjet en calcaire (Musée du Louvre)",
+    site: "Tell el-Amarna ou Karnak",
+    originSite: "Moyenne-Égypte",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes, E 11076)",
+    category: "Ronde-bosse en calcaire fin",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Akhenaton", "Couronne Hedjet", "Calcaire", "Modèle d'atelier", "Style amarnien adouci", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPYLFJLFAypsCL82G1vKw5WSC6HPQZ-LpNQ6rq2XW-Pg4wBJ-tHLr5COT6VepTvAUkuTCi-DK72CX6V5h50B-kBQiAgLAOFYu9OFJdgT7wgtBEJYLrgdOe7zwZVPP4oORibtql23JJgxmO8zAfxKIja8w=w1818-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Ce buste en calcaire représente le pharaon Akhénaton coiffé de la couronne blanche de Haute-Égypte (le Hedjet). Issue des ateliers d’Amarna ou de Karnak, cette œuvre illustre la phase de transition du style amarnien, où les traits caractéristiques du roi commencent à s'adoucir tout en conservant une structure faciale allongée et une expression introspective propre à cette période révolutionnaire du Nouvel Empire.</p>
+    <p>La tête se distingue par un traitement tout en finesse des traits du visage, malgré l'érosion du matériau. On y retrouve les yeux en amande étirés, les lèvres pleines et le menton marqué qui définissent l'iconographie du « pharaon hérétique ». La couronne blanche, sculptée avec une grande sobriété, souligne la verticalité de la composition et renforce l'aspect solennel du souverain. Le modelé des épaules, bien que fragmentaire, suggère une silhouette gracile, en accord avec les nouveaux canons esthétiques qui privilégiaient une représentation moins athlétique et plus spirituelle de la fonction royale.</p>
+    <p>Ce type de buste servait souvent de modèle d'atelier ou de statue de dévotion. Il permet d'apprécier la virtuosité des sculpteurs d'Akhénaton qui, en travaillant le calcaire, ont su insuffler une certaine douceur et une humanité nouvelle au portrait royal. L'œuvre témoigne de la volonté du roi de se présenter non plus seulement comme un conquérant, mais comme l'unique prophète et le reflet terrestre du disque solaire Aton.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1345) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_torse_princesse_nefertiti_quartzite_rouge_amarna_louvre",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1350 à -1334 av. J.-C. / règne d'Akhenaton)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1345,
+    domain: "sculpture_statuaire",
+    artifactType: "Statue en ronde-bosse",
+    title: "Torse de princesse ou de reine en robe plissée diaphane en quartzite rouge (Tell el-Amarna, Musée du Louvre)",
+    site: "Tell el-Amarna (Akhetaton)",
+    originSite: "Tell el-Amarna",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes, E 25409)",
+    category: "Ronde-bosse fragmentaire en quartzite rouge poli",
+    isHighlight: true,
+    chips: ["XVIIIe dynastie", "Amarna", "Princesse amarnienne", "Néfertiti", "Quartzite rouge", "Draperie mouillée", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczN_egbqep69KvulwckCuNTjqmqMoDWYd7dsS6BVqU_HA0yt0nFpK6xNwlXnBHOVBsjWJS7YRP5h8SF9M_NF4QiGt2e6HpZ5ZSPJztE5YQ2Qvb8bVpQTmRnSfPf1Kcg_DMdVqDQbuloNhrFyfiTgpAxq4g=w1818-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Ce torse de statuette en quartzite rouge, provenant probablement de Tell el-Amarna, est l'un des exemples les plus sensuels et fascinants de l'époque amarnienne. Il représente une femme de la famille royale, peut-être l'une des filles d'Akhénaton ou la reine Néfertiti elle-même. L'œuvre incarne la révolution esthétique de cette période, où le corps humain est célébré avec un naturalisme exacerbé, rompant avec les proportions rigides du canon traditionnel égyptien.</p>
+    <p>Le travail du sculpteur sur le quartzite, une pierre particulièrement dure et difficile à tailler, est d'une virtuosité époustouflante. Le vêtement de lin fin, d'une transparence presque impalpable, est rendu par une multitude de plis rayonnants qui convergent vers un nœud situé sous le sein droit. Cette technique de « draperie mouillée » souligne chaque courbe anatomique : la cambrure délicate du dos, le modelé du fessier et surtout le ventre arrondi et bas, caractéristique saillante de l'iconographie amarnienne qui symbolise la fécondité et le souffle vital.</p>
+    <p>Malgré l'absence de la tête et des membres, la statuette dégage une présence vibrante. Le contraste entre la dureté de la pierre rouge et la douceur suggérée de la peau témoigne d'une maîtrise technique au service d'une nouvelle idéologie religieuse et artistique. Dans cette vision, le corps royal n'est plus une entité figée et éternelle, mais un organisme vivant, gracile et complexe, baigné dans la lumière du dieu Aton.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1345) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_dieu_amon_traits_toutankhamon_quartzite_karnak_louxor",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1336 à -1327 av. J.-C. / règne de Toutânkhamon)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1330,
+    domain: "sculpture_statuaire",
+    artifactType: "Statue en ronde-bosse",
+    title: "Statue du dieu Amon sous les traits de Toutânkhamon réinscrite par Horemheb (Musée de Louxor)",
+    site: "Complexe religieux de Karnak (Thèbes)",
+    originSite: "Thèbes",
+    locationType: "museum",
+    currentLocation: "Musée de Louxor (J. 198)",
+    category: "Statue en ronde-bosse en quartzite",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Amon", "Toutânkhamon", "Horemheb", "Restauration thébaine", "Karnak", "Quartzite", "Musée de Louxor"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP3WdqMhSLfD43ah5DiW23fG_4SW1al1DPA0lyL_-4uHxbYHjE7huqe7a_OjXWAcWNryUrZcGYl4fPdg_a6_bggtSnXRiODLDO07ORmWWxkDROb3O6DICRFcBW47gD0I2UoCz6l71genuN9vQ55yfC37w=w1611-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Cette statue majestueuse, conservée au musée de Louxor, représente le dieu Amoun (Amon) et incarne le retour à l'orthodoxie religieuse après la période amarnienne. Datant de la fin de la XVIIIe dynastie, vers 1335 av. J.-C., elle a été découverte dans l'enceinte du temple de Karnak, centre névralgique du culte impérial de Thèbes.</p>
+    <p>L'œuvre est sculptée dans un bloc de quartzite, dont la finesse permet un rendu très précis de l'anatomie. Le dieu est représenté sous une forme humaine, debout, portant le pagne royal plissé et un large collier ousekh. Sa coiffe caractéristique consistait à l'origine en un mortier surmonté de deux hautes plumes, aujourd'hui disparues sur ce fragment.</p>
+    <p>Les traits du visage sont particulièrement significatifs : ils empruntent les caractéristiques physiques du jeune pharaon Toutânkhamon. Cette fusion iconographique entre le dieu et le roi servait à légitimer le pouvoir du souverain, le présentant comme l'image vivante d'Amoun sur terre après les bouleversements d'Akhenaton.</p>
+    <p>Une particularité historique de cette statue est son usurpation ultérieure : le nom de Toutânkhamon a souvent été martelé ou remplacé par celui de son successeur Horemheb, qui souhaitait s'approprier les monuments du jeune roi pour effacer son souvenir tout en honorant le dieu restauré.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1330) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_statue_colossale_amon_re_traits_toutankhamon_vie_pylone_karnak",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1336 à -1327 av. J.-C. / règne de Toutânkhamon)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1330,
+    domain: "sculpture_statuaire",
+    artifactType: "Statue en ronde-bosse",
+    title: "Statue colossale d'Amon-Rê sous les traits de Toutânkhamon de la dyade d'Amonet (VIe pylône de Karnak)",
+    site: "Complexe religieux de Karnak - Cour du VIe pylône (Thèbes)",
+    originSite: "Thèbes",
+    locationType: "site",
+    currentLocation: "In situ (Cour du VIe pylône, Karnak)",
+    category: "Statuaire colossale en grès rouge",
+    isHighlight: true,
+    chips: ["XVIIIe dynastie", "Toutânkhamon", "Amon-Rê", "Karnak", "VIe pylône", "Dyade divine", "Restauration thébaine"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMTwdJbeU13DyHlSNB0iLw6a2CBz3oUALr5QW-SW9dWh_9B919ALkVlwds0BmOnu16yFikZKGMjkiPFoFqsSh3DBT0aKcLhs0TgXezfGeMVuROcLwWMqXeIWZOFYPeQInRWYopIkhdj1Vv3q3VmG4B2oA=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette statue colossale en grès rouge, située dans la cour du VIe pylône du temple de Karnak, représente le dieu Amon-Rê sous les traits physiques du pharaon Toutânkhamon. Elle appartient à la XVIIIe dynastie du Nouvel Empire, marquant la période de restauration des cultes traditionnels après l'épisode amarnien.</p>
+    <p>Le visage du dieu est une illustration parfaite des canons esthétiques de la fin de la XVIIIe dynastie : des yeux en amande, des pommettes hautes et une bouche charnue aux contours nets, caractéristiques du jeune roi. Amon porte ici son attribut principal, la couronne surmontée de deux hautes plumes (dont seules les bases sont ici visibles), ainsi que la barbe postiche tressée des divinités.</p>
+    <p>Cette œuvre faisait initialement partie d'une dyade (un groupe de deux statues) représentant Amon et sa parèdre, la déesse Amonet. Amonet, dont la statue se trouve juste à côté, présente quant à elle les traits de la reine Ankhésenamon, l'épouse de Toutânkhamon. Ensemble, ils symbolisent le renouveau de la monarchie thébaine et la réconciliation du pouvoir royal avec le clergé d'Amon.</p>
+    <p>L'utilisation du grès rouge (ou quartzite) n'est pas fortuite ; cette pierre dure était associée au cycle solaire et à l'éternité. Malgré les mutilations subies au fil des siècles et l'usurpation ultérieure par le roi Horemheb, la statue demeure l'un des témoignages les plus émouvants de l'art post-amarnien à Karnak.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1330) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_deux_colosses_pschent_osirien_chendjit_cachette_karnak",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1400 à -1300 av. J.-C.)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1350,
+    domain: "sculpture_statuaire",
+    artifactType: "Statue en ronde-bosse",
+    title: "Deux colosses au Pschent de la cour de la Cachette : Figure osirienne mummiforme et souverain marchant au chendjit (Karnak)",
+    site: "Complexe religieux de Karnak - Cour de la Cachette (Thèbes)",
+    originSite: "Thèbes",
+    locationType: "site",
+    currentLocation: "In situ (Cour de la Cachette, Karnak)",
+    category: "Statuaire colossale en grès rosâtre",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Karnak", "Cour de la Cachette", "Statue osirienne", "Couronne Pschent", "Chendjit", "Grès rosâtre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPOxC0bt1VtzA6txxDQGCDKvBwmHqU-fW4IfmTU0RWb1NmI_B7HqaBhxD-quYs-twunhCCEYwgvy3OUoTVOi_QBqUxedWX0XQRsItC9UN0I_E5L8BP_-ODWTvDwVLNXradUlyeMMqwcbfd3QW955d5onA=w1611-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Cette photographie présente deux statues colossales situées dans la « cour de la Cachette » du complexe de Karnak, illustrant deux iconographies royales distinctes. À gauche, le souverain est représenté sous une forme osirienne, le corps enserré dans un linceul mummiforme, les bras croisés sur la poitrine tenant les signes de vie ânkh. À droite, le pharaon est figuré dans une posture classique de marche apparente, vêtu du simple pagne plissé, le chendjit, mettant en avant la vitalité et la force physique du monarque régnant.</p>
+    <p>Les deux sculptures portent la double couronne, le Pschent, symbolisant l'unification de la Haute et de la Basse-Égypte. Ces œuvres sont caractéristiques du Nouvel Empire, période durant laquelle les rois multipliaient les effigies d'eux-mêmes pour marquer leur présence éternelle auprès d'Amon-Rê. La statue de droite est particulièrement remarquable par la finesse de son exécution dans un grès rosâtre, soulignant la musculature du torse et les détails de la barbe postiche, attribut indispensable de la fonction royale.</p>
+    <p>L'arrière-plan révèle un mur de soutènement richement sculpté de registres de hiéroglyphes et de représentations de prisonniers étrangers ligotés, une thématique récurrente destinée à proclamer la domination du pharaon sur le chaos extérieur.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1350) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_colosses_osiriaques_piliers_cour_karnak",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1450 à -1400 av. J.-C. / règne de Thoutmôsis III)",
+    centuryDisplay: "XVe s. av. J.-C.",
+    centuryNumeric: -1425,
+    domain: "sculpture_statuaire",
+    artifactType: "Statue en ronde-bosse",
+    title: "Piliers osiriaques colossaux du complexe de Karnak : Pharaons momiformes aux signes Ânkh",
+    site: "Complexe religieux de Karnak - Cours intérieures (Thèbes)",
+    originSite: "Thèbes",
+    locationType: "site",
+    currentLocation: "In situ (Piliers osiriaques, Karnak)",
+    category: "Statuaire colossale sur piliers de grès",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Karnak", "Colosses osiriaques", "Forme mummiforme", "Croix Ânkh", "Culte royal", "Piliers de grès"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOc3gRipOc3kB9OuMKWClDY-g6kKjBbTT_M8iypTbpNaWFwm3DLXgcp6dWNIt2K_GSRopFi8FEaj3QDHgY7Dibw5n5h0jMrg7ukwXHcSf9Ri6RsE_uoybh4UDlJEe2qCTvPdtPjWrHvs3aqYL6iJNEftQ=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Voici un ensemble de statues osiriaques situées au sein du complexe monumental du Temple de Karnak, à Thèbes (l'actuelle Louxor), en Égypte. Ces colosses, sculptés dans le grès local, datent principalement du Nouvel Empire, une période de faste architectural sans précédent sous les règnes de souverains tels que Thoutmôsis III ou ses successeurs.</p>
+    <p>Les figures représentées adoptent la posture iconographique du dieu Osiris, maître du royaume des morts et symbole de la régénération éternelle. Les souverains sont ici figurés momiformes, les bras croisés sur la poitrine, tenant les insignes de la royauté. On distingue nettement sur leurs épaules et leurs avant-bras le signe Ânkh, symbole de vie, soulignant le rôle du pharaon comme garant de l'ordre cosmique et lien vivant entre le divin et l'humain.</p>
+    <p>L'œuvre témoigne de la statuaire colossale égyptienne dont la fonction n'était pas seulement décorative mais profondément religieuse et politique. Adossés à des piliers dans les cours ou les salles hypostyles, ces colosses servaient de réceptacles au « Ka » royal, permettant au pharaon de participer éternellement aux rituels célébrés en l'honneur d'Amon-Rê. L'érosion visible des visages et de la pierre ajoute une dimension temporelle à l'immuabilité de ces géants de pierre.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1425) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_colosses_osiriaques_terrasse_superieure_hatchepsout_deir_el_bahari",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1470 av. J.-C. / règne d'Hatchepsout)",
+    centuryDisplay: "XVe s. av. J.-C.",
+    centuryNumeric: -1470,
+    domain: "sculpture_statuaire",
+    artifactType: "Statue en ronde-bosse",
+    title: "Piliers osiriaques d'Hatchepsout au Pschent et sceptres royaux (Portique supérieur de Deir el-Bahari)",
+    site: "Temple funéraire d'Hatchepsout - Terrasse supérieure (Deir el-Bahari, Thèbes)",
+    originSite: "Deir el-Bahari (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Terrasse supérieure de Deir el-Bahari)",
+    category: "Statuaire monumentale sur piliers en calcaire",
+    isHighlight: true,
+    chips: ["XVIIIe dynastie", "Hatchepsout", "Deir el-Bahari", "Piliers osiriaques", "Couronne Pschent", "Héqa et Nekhekh", "Sénènmout"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMxIEmstC-rBajKO5RzYilWY-tWhTGSR4cqwf0XEHFAuRMxf7NmbP79C_2m32Iy6VTLOT9WriejpXc4uQzHwqi-oVwkv6AtJppfX_i4xuy7Hwu6sGn98bM-F1pIqxFnXlyVsWeaqGeVAB_cxwv3DkXOTw=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ces impressionnantes statues proviennent du temple funéraire de la reine-pharaon Hatchepsout, situé à Deir el-Bahari sur la rive ouest de Louxor. Érigées durant la XVIIIe dynastie, vers 1470 avant notre ère, elles ornent le portique de la terrasse supérieure de cet édifice monumental conçu par l’architecte Sénènmout. Taillées directement dans le calcaire fin de la région, ces figures représentent la souveraine sous les traits du dieu Osiris, le maître du royaume des morts, marquant ainsi son statut de monarque défunt et divinisé.</p>
+    <p>L’iconographie choisie par Hatchepsout est un puissant outil de légitimation politique et religieuse. Bien qu'elle soit une femme, elle est représentée avec les attributs masculins du pouvoir pharaonique, notamment la barbe postiche et la double couronne, le Pschent, symbolisant l'union de la Haute et de la Basse-Égypte. Les bras croisés sur la poitrine, elle tient le crochet Héka et le fléau Nekhekh, insignes royaux par excellence. La présence de pigments rouges encore visibles sur les visages témoigne de la polychromie originelle qui animait autrefois ces structures de pierre.</p>
+    <p>Le temple d'Hatchepsout, appelé « Le Saint des Saints », se distingue par son architecture en terrasses qui s'intègre harmonieusement dans les falaises abruptes de la montagne thébaine. Ces colosses osiriaques faisaient partie intégrante d'un complexe rituel dédié au culte solaire d'Amon-Rê.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1470) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_sphinx_calcaire_polychrome_hatchepsout_deir_el_bahari",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1470 av. J.-C. / règne d'Hatchepsout)",
+    centuryDisplay: "XVe s. av. J.-C.",
+    centuryNumeric: -1470,
+    domain: "sculpture_statuaire",
+    artifactType: "Statue en ronde-bosse",
+    title: "Sphinx colossal en calcaire peint d'Hatchepsout au némès polychrome (Allée de Deir el-Bahari)",
+    site: "Temple funéraire d'Hatchepsout - Allée processionnelle (Deir el-Bahari, Thèbes)",
+    originSite: "Deir el-Bahari (Thèbes-Ouest)",
+    locationType: "museum",
+    currentLocation: "Musée égyptien du Caire / Metropolitan Museum of Art",
+    category: "Statue en ronde-bosse en calcaire peint",
+    isHighlight: true,
+    chips: ["XVIIIe dynastie", "Hatchepsout", "Deir el-Bahari", "Sphinx polychrome", "Némès bleu et jaune", "Allée processionnelle", "Barbe postiche"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczM89UhSvvRiulNQa9KbMISWKFue2GpruZGjdDzXYLDXdFRqWAKijbGcZQyfsV7vzUM4-CTthiK_Eyms04vkPv8OtJb4QNeebK7OsPOpNKcQzHtZ0_5-rWAfHpKYkPPDfWolJp2JGQXM1_eZ8y-EkzGagQ=w1611-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Ce sphinx colossal en calcaire peint représente la reine-pharaon Hatchepsout et provient de son temple funéraire de Deir el-Bahari, situé dans l'amphithéâtre naturel des falaises de la rive ouest de Thèbes. Il appartient à la XVIIIe dynastie, période charnière du Nouvel Empire où l'art atteint un équilibre remarquable entre puissance royale et élégance naturelle. Hatchepsout est ici figurée sous la forme d'un lion couché au visage humain, une image traditionnelle du souverain fusionnant la force physique du fauve avec l'intelligence divine du monarque.</p>
+    <p>Le visage de la reine conserve une partie de sa polychromie d'origine, notamment les bandes jaunes et bleues alternées sur le némès, la coiffe royale plissée. Les traits sont caractéristiques du style de l'époque : des yeux en amande soulignés d'un trait de fard, un nez fin et un léger sourire empreint de sérénité. Elle porte la barbe postiche, attribut indispensable du pouvoir pharaonique, soulignant son statut de souverain de plein droit malgré son identité féminine.</p>
+    <p>Ces sphinx bordaient autrefois la grande allée processionnelle menant au temple, créant une garde d'honneur monumentale pour les barques sacrées lors des fêtes religieuses. Nombre d'entre eux ont été délibérément brisés et enterrés dans des fosses peu après la mort de la reine, lors de la campagne de proscription menée sous le règne de son successeur Thoutmôsis III.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1470) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_tete_colossale_osiriaque_hatchepsout_pschent_deir_el_bahari",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1470 av. J.-C. / règne d'Hatchepsout)",
+    centuryDisplay: "XVe s. av. J.-C.",
+    centuryNumeric: -1470,
+    domain: "sculpture_statuaire",
+    artifactType: "Statue en ronde-bosse",
+    title: "Tête colossale de pilier osiriaque d'Hatchepsout au Pschent et carnation rouge ocre (Deir el-Bahari)",
+    site: "Temple funéraire d'Hatchepsout - Piliers des terrasses (Deir el-Bahari, Thèbes)",
+    originSite: "Deir el-Bahari (Thèbes-Ouest)",
+    locationType: "museum",
+    currentLocation: "Metropolitan Museum of Art / Musée égyptien du Caire",
+    category: "Statuaire colossale en calcaire peint",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Hatchepsout", "Deir el-Bahari", "Pilier osiriaque", "Carnation ocre rouge", "Couronne Pschent", "Portrait royal"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMcttDMC3XBIltQedVrC391Ov4v_sFAEkgm0ozUOdLl0dHAkSuKwsunbBaYIbFt6RvXZ8xOW__J105rfMebGvGYXe5dueaNmrAFXmxp9dnf3r-qWcoerYnZFzSdHVv_5MXgp8uE27iAngarx-wJzknsgw=w1611-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Cette tête colossale en calcaire peint représente la reine Hatchepsout, souveraine emblématique de la XVIIIe dynastie (vers 1473-1458 av. J.-C.). Elle provient de son temple funéraire à Deir el-Bahari, où elle faisait partie de l'un des nombreux piliers osiriaques qui ornaient les terrasses monumentales de l'édifice. Bien que le corps soit manquant, ce fragment illustre parfaitement l'esthétique raffinée du début du Nouvel Empire, caractérisée par une élégance sereine et une exécution d'une grande précision.</p>
+    <p>Le visage conserve une partie de sa polychromie d'origine, notamment le rouge ocre de la peau, une couleur traditionnellement réservée aux représentations masculines en Égypte ancienne. Ce choix chromatique, associé à la présence de la barbe postiche dont on voit l'attache sous le menton, souligne la volonté de la reine d'être représentée avec tous les attributs officiels du pharaon. Les yeux en amande, aux paupières finement soulignées, et le léger sourire qui étire les lèvres donnent à la souveraine une expression de bienveillance majestueuse, typique des portraits royaux de cette période.</p>
+    <p>La tête est surmontée d'un fragment de la double couronne, le Pschent, symbolisant son autorité sur les Deux Terres. Après la mort d'Hatchepsout, nombre de ses statues furent systématiquement démantelées lors de la proscription ordonnée sous Thoutmôsis III, faisant de ce chef-d'œuvre rescapé un document exceptionnel.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1470) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_chapiteau_hathorique_sistre_calcaire_chapelle_hathor_deir_el_bahari",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1470 av. J.-C. / règne d'Hatchepsout)",
+    centuryDisplay: "XVe s. av. J.-C.",
+    centuryNumeric: -1470,
+    domain: "sculpture_statuaire",
+    artifactType: "Décor architectural (fronton, frise, métope, chapiteau)",
+    title: "Chapiteau hathorique monumental en sistre de la chapelle d'Hathor (Deir el-Bahari)",
+    site: "Temple funéraire d'Hatchepsout - Chapelle d'Hathor (Deir el-Bahari, Thèbes)",
+    originSite: "Deir el-Bahari (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Chapelle d'Hathor, Deir el-Bahari)",
+    category: "Décor architectural en calcaire sculpté",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Hatchepsout", "Deir el-Bahari", "Chapelle d'Hathor", "Chapiteau hathorique", "Oreilles de vache", "Sistre sacré"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNLu0G9pgIN1h8oHZxuxWCEHEf_z7BxAjiS781LKMIAQHyXpnBQ1sxX1C8WbhkyNmHa8kh5qgXVDAfSevUH8ePxdzsSTikcNFhw9WAWCeY9IlA1E287bFXCv9EcseCXCe5BqO7ifEwGsmb9CzFUWhl8Fg=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce chapiteau monumental, sculpté dans le calcaire, provient de la chapelle dédiée à la déesse Hathor, située sur la terrasse médiane du temple funéraire d'Hatchepsout à Deir el-Bahari. Datant du Nouvel Empire (XVIIIe dynastie), cet élément architectural est un exemple remarquable de colonne « hathorique ». Il présente le visage de la divinité aux traits féminins stylisés, caractérisée par ses larges oreilles de vache, symbole de sa nature nourricière et protectrice. La déesse est ici coiffée d'une imposante perruque gravée de fines stries verticales, surmontée d'un abaque prenant la forme d'un sistre, un instrument de musique sacré utilisé lors des rituels pour apaiser les dieux.</p>
+    <p>La présence d'Hathor dans le complexe funéraire de la reine n'est pas fortuite. En tant que « Dame de la Montagne », elle était la gardienne de la nécropole thébaine et la protectrice de la royauté. Dans cette chapelle spécifique, elle est représentée accueillant et allaitant la reine, renforçant ainsi la dimension divine du pouvoir d'Hatchepsout. Les détails encore visibles, tels que les colliers ousekh gravés à la base du cou et les traces de pigments, suggèrent la splendeur originelle de ces colonnes qui soutenaient autrefois le plafond de la salle hypostyle.</p>
+    <p>Sur la partie supérieure du chapiteau, au-dessus du visage, on distingue de petites figures sculptées en relief dans des niches représentant des cobras protecteurs (uræus) et d'autres symboles solaires, rappelant le lien étroit entre Hathor et le cycle de Rê.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1470) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_vache_hathor_protectrice_nemty_mes_saqqarah",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "Fin XVIIIe - début XIXe dynastie (vers -1320 à -1290 av. J.-C.)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1300,
+    domain: "sculpture_statuaire",
+    artifactType: "Statue en ronde-bosse",
+    title: "La vache sacrée d'Hathor protégeant le surveillant des chanteurs d'Amon Nemty-mes (Saqqarah)",
+    site: "Chapelle funéraire de Nemty-mes (Nécropole de Saqqarah)",
+    originSite: "Saqqarah",
+    locationType: "site",
+    currentLocation: "In situ (Chapelle de Nemty-mes, Saqqarah)",
+    category: "Statuaire rupestre en calcaire peint",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Nemty-mes", "Hathor vache", "Saqqarah", "Chanteurs d'Amon", "Protection maternelle", "Polychromie"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczN-Wy8LVrXzLHOhuG0vIkydQdoh2d8fOY3hoKr8wdUl7kVa9Fpykki5EdvcRWpy5j5mJy6hxMKVfupZM6HYU76uC4VyI3_w1qGpPstucGurpaPnXcyKBwpqMNloXHQ6f71ByhtA5z5oq7v0o_JUTY2j6g=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>La chapelle funéraire de Nemty-mes, découverte à Saqqarah, constitue un témoignage exceptionnel de l'art funéraire de la fin de la XVIIIe dynastie ou du début de la XIXe dynastie. Nemty-mes, haut fonctionnaire portant le titre de « surveillant des chanteurs d'Amon », a fait ériger ce monument au cœur de la nécropole memphite. La pièce maîtresse de la chapelle est une imposante statue de la déesse Hathor représentée sous les traits d'une vache sacrée protégeant le défunt, une iconographie qui souligne la transition spirituelle vers l'au-delà.</p>
+    <p>La déesse Hathor émerge de la paroi rocheuse, coiffée de ses attributs divins : le disque solaire encadré de hautes plumes et de cornes lyres. Entre ses pattes avant se tient une petite figure humaine, Nemty-mes lui-même, bénéficiant de la protection maternelle de la divinité. Cette composition, sculptée dans le calcaire et richement peinte à l'origine, illustre le concept de renaissance, la vache céleste accueillant le mort dans le monde souterrain pour lui offrir une vie éternelle.</p>
+    <p>Les parois de la chambre funéraire sont ornées de reliefs et de peintures d'une grande finesse, caractéristiques de l'esthétique post-amarnienne. On y voit Nemty-mes et son épouse devant des tables d'offrandes, ou participant à des rites sacrés. L'œuvre demeure l'un des exemples les plus touchants de la piété privée et de la dévotion à la déesse de l'Occident à Saqqarah.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1300) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_statue_bloc_amon_mes_vice_roi_koush_musee_nubie",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1350 à -1300 av. J.-C.)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1320,
+    domain: "sculpture_statuaire",
+    artifactType: "Statue en ronde-bosse",
+    title: "Statue-bloc d'Amon-Mes, Fils royal de Koush et gouverneur de Nubie (Musée de la Nubie à Assouan)",
+    site: "Assouan ou Haute-Égypte",
+    originSite: "Assouan",
+    locationType: "museum",
+    currentLocation: "Musée de la Nubie, Assouan",
+    category: "Statue-bloc en pierre sombre",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Amon-Mes", "Fils royal de Koush", "Vice-roi de Nubie", "Statue-bloc", "Musée de la Nubie"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNtA_WOFK9MViyK0_lZKPD4rFRATzZZEMJN3RI_TP83CqO3JGN5kE_urUa0S_V7K4sbVnMd2qPakm4lmDnRD-gvKM4qkSj2ZcAdHrqMPmnafFY1o8ET0xZUr29KD0YgKK2pPvQNiGf3yXG14JUla7JKoQ=w1611-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Cette statue-bloc, exposée au Musée de la Nubie à Assouan, représente le haut dignitaire Amon-Mes (ou Amenmes), qui occupait la fonction prestigieuse de Fils royal de Koush (Vice-roi de Koush). Ce titre n'indiquait pas une filiation biologique avec le pharaon, mais désignait le gouverneur de la Nubie, responsable de l'administration, de la collecte de l'or et du maintien de l'ordre dans les territoires du Sud au nom de la couronne égyptienne.</p>
+    <p>L'œuvre appartient à la XVIIIe dynastie (Nouvel Empire), une période où la forme de la statue-bloc est très prisée par l'élite. L'individu est représenté assis au sol, les genoux ramenés contre la poitrine, enveloppé dans un manteau dont n'émergent que la tête et les mains. Cette forme géométrique simple offre de larges surfaces planes idéales pour graver de longs textes hiéroglyphiques, comme on le voit ici sur le devant de la robe.</p>
+    <p>Les inscriptions gravées en façade sont essentielles pour la survie du nom du défunt et détaillent ses titres administratifs et religieux. Amon-Mes y affirme son dévouement envers le souverain et les divinités locales, garantissant ainsi son statut dans l'éternité. Le visage, encadré par une perruque lisse caractéristique de cette époque, affiche un léger sourire et de larges yeux en amande, reflétant l'idéal de jeunesse et de sérénité de l'art du Nouvel Empire.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1320) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_tete_salt_homme_crane_rase_gres_peint_louvre",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1330 av. J.-C. / période post-amarnienne)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1330,
+    domain: "sculpture_statuaire",
+    artifactType: "Statue en ronde-bosse",
+    title: "La « Tête Salt » : Portrait d'un dignitaire au crâne rasé en grès peint (Musée du Louvre)",
+    site: "Nécropole thébaine ou memphite",
+    originSite: "Thèbes ou Memphis",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes, N 2289)",
+    category: "Ronde-bosse en grès peint",
+    isHighlight: true,
+    chips: ["XVIIIe dynastie", "Tête Salt", "Post-amarnien", "Grès peint", "Crâne rasé", "Polychromie ocre", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPJoqI_V2zC7UmnPGvZz8a7QrHPWkagATwMbW1HAEIXuIFPLGxQMkVGcoXc5pqQzR4N1sfWwhCrAMKzDDQNswMlhGzvL52GjIwJBfTu-bXMcG7e6m69Ox0JdkdYIlkI86DsRzeJMNgHPVItD6urCm4vxg=w1818-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Cette tête d'homme en grès peint, connue sous le nom de Tête Salt (du nom du collectionneur Henry Salt qui l'acquit au XIXe siècle), est l'un des portraits les plus saisissants de la fin de la XVIIIe dynastie. Bien que son identité précise demeure inconnue, son style permet de la situer dans la période charnière suivant immédiatement l'époque amarnienne. L'œuvre frappe par son naturalisme psychologique, s'éloignant des canons rigides de la statuaire royale pour explorer l'individualité d'un dignitaire de haut rang avec une sensibilité presque moderne.</p>
+    <p>Le modelé du visage est d'une finesse exceptionnelle. On y observe un crâne rasé avec soin, révélant une structure osseuse précise, et des oreilles dont le détail anatomique, incluant le perçage du lobe, est rendu avec un réalisme rare. Le regard, souligné par des sourcils et des traits de fard sculptés en léger relief, dégage une expression de sérénité mélancolique. La conservation remarquable de la polychromie ocre rouge pour la peau et noire pour les yeux donne à ce buste une présence humaine vibrante, comme si le souffle de vie s'était figé dans la pierre.</p>
+    <p>Cette pièce illustre la persistance de l'influence artistique d'Akhenaton, qui prônait une vérité des formes, tout en réintégrant la dignité et l'équilibre du classicisme thébain. Elle appartenait probablement à une statue de taille réelle placée dans une chapelle funéraire, servant de réceptacle à l'esprit du défunt.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1330) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_dame_touy_bois_caroubier_gourob_louvre",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1350 à -1330 av. J.-C. / fin XVIIIe dynastie)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1340,
+    domain: "sculpture_statuaire",
+    artifactType: "Statue en ronde-bosse",
+    title: "Statuette de la dame d'atour Touy en bois de caroubier précieux (Gourob, Musée du Louvre)",
+    site: "Nécropole de Gourob (Fayoum)",
+    originSite: "Gourob",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes, E 10655)",
+    category: "Petite plastique en bois de caroubier",
+    isHighlight: true,
+    chips: ["XVIIIe dynastie", "Dame Touy", "Gourob", "Bois de caroubier", "Amarnien", "Draperie plissée", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPLQDucx_ODm6nr8ddAcOHat8N2d7dKylShOLCsXjvXYHLbS4i6VsB7PwTyFbB6vplwQF8FhcOdadzfQTmfDoPukZLibsBmmmINCkC3E_l8bMSSuf_aZ4KrEfzhMtx96F6c5T-YNQnJm0WEUpfrgFenaw=w1818-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Cette statuette en bois de caroubier, provenant du site de Gourob, est l'un des portraits les plus raffinés et les plus célèbres de l'époque amarnienne. Elle représente une femme de la haute société, identifiée grâce aux inscriptions sur son socle comme la « dame d'atour » Touy. L'œuvre témoigne de la rupture stylistique majeure opérée sous le règne d'Akhenaton, où la recherche d'un réalisme sensible et d'une certaine sensualité remplace la raideur des époques précédentes.</p>
+    <p>Le corps de Touy est sculpté avec une souplesse remarquable, accentuée par la fluidité de sa robe de lin plissée qui épouse ses formes avec une grande délicatesse. Le bras gauche ramené sous la poitrine et la main droite le long du corps créent un mouvement naturel et élégant. Son visage, empreint d'une douce mélancolie, est encadré par une perruque imposante aux boucles finement ciselées, caractéristique de la mode sophistiquée de la fin de la XVIIIe dynastie. Le travail du bois, matériau précieux et rare en Égypte, permet d'atteindre une précision dans les détails que la pierre ne permettrait pas toujours.</p>
+    <p>Initialement, cette statuette était rehaussée de parures réelles : on distingue encore les traces de colliers et de bracelets qui étaient autrefois incrustés ou peints. Déposée dans une tombe, elle servait de substitut éternel à la défunte pour recevoir les prières et les offrandes.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1340) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_colosse_assis_ramses_ii_facade_abou_simbel",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1264 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1264,
+    domain: "sculpture_statuaire",
+    artifactType: "Statue en ronde-bosse",
+    title: "Colosse assis de Ramsès II au Pschent et némès flanqué des princesses royales (Façade du Grand Temple d'Abou Simbel)",
+    site: "Grand Temple d'Abou Simbel - Façade (Nubie)",
+    originSite: "Abou Simbel",
+    locationType: "site",
+    currentLocation: "In situ (Façade du Grand Temple, Abou Simbel)",
+    category: "Statuaire colossale rupestre sur grès",
+    isHighlight: true,
+    chips: ["XIXe dynastie", "Ramsès II", "Abou Simbel", "Façade rupestre", "Colosse assis", "Pschent", "Néfertari", "Spéos"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPwQW4cpg7kNi9d7yA6qyRe_bJ4VJUdzSn5FdSO1BhdyXezaMgK0IL2JjgIRupS9D0ZWWczUJxevOAxpEmqffbmLVSrhk-JM-ZFH2YRQTGnAEhbx7K1mY3i8nRKlmYOX7wJhdJuffFqr_88LgP24WXcCg=w1611-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Cette statue monumentale représente le pharaon Ramsès II, souverain de la XIXe dynastie, et constitue l'un des quatre colosses assis qui flanquent l'entrée du Grand Temple d'Abou Simbel. Sculptée directement dans la falaise de grès, cette œuvre illustre les proportions démesurées de l'art ramesside, visant à affirmer la nature divine du roi. Le pharaon est représenté portant le némès, la coiffe royale plissée, surmonté de la double couronne de Haute et de Basse-Égypte, symbolisant son autorité unifiée sur les Deux Terres.</p>
+    <p>Le visage de la statue, d'une sérénité imposante, présente les traits caractéristiques de l'iconographie de Ramsès II : des yeux en amande, un nez légèrement aquilin et un sourire énigmatique. Il porte la barbe postiche, attribut traditionnel de la fonction royale et de l'immortalité. Sur ses épaules et ses bras sont gravés des cartouches contenant ses noms de couronnement et de naissance, scellant ainsi l'identité du monument pour l'éternité face aux terres de Nubie.</p>
+    <p>Au pied du colosse, entre ses jambes et contre ses piliers, se trouvent des figures de plus petite taille représentant des membres de la famille royale. Ces sculptures, bien que massives à l'échelle humaine, paraissent minuscules comparées au pharaon, respectant la hiérarchie sociale et spirituelle de l'Égypte antique. On y reconnaît notamment la grande épouse royale Néfertari ainsi que la reine mère Mouttouya, soulignant l'importance de la lignée et du soutien familial dans le dogme de la royauté.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1264) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_statue_nefertari_pieds_colosse_abou_simbel",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1264 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1264,
+    domain: "sculpture_statuaire",
+    artifactType: "Statue en ronde-bosse",
+    title: "Statue de la reine Néfertari debout au mortier aux pieds du colosse de Ramsès II (Abou Simbel)",
+    site: "Grand Temple d'Abou Simbel - Façade (Nubie)",
+    originSite: "Abou Simbel",
+    locationType: "site",
+    currentLocation: "In situ (Façade du Grand Temple, Abou Simbel)",
+    category: "Statuaire rupestre en grès",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Néfertari", "Ramsès II", "Abou Simbel", "Grande Épouse Royale", "Mortier", "Façade rupestre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMat7SohRnGe6YmrjGeaHdgNXiIPKCUa5wqpU3JZQbR-eazoCIzHx5Acq43FG2k766EDdgwoeDFqgRjtj-r0ZOYkzatJf6etVrsvZJGTei4_eklcODYaBTJ3Q7tiZ6nY0qx5nguj0Iw7m2qrH6OCt4R5w=w1611-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Cette statue de dimensions réduites, située aux pieds de l'un des colosses de Ramsès II, représente la reine Néfertari, la Grande Épouse Royale. Bien que sa taille semble modeste par rapport aux vingt mètres du souverain, elle dépasse la stature humaine réelle, ce qui souligne son rang exceptionnel au sein de la cour et de la religion d'État. Elle est figurée debout, dans une attitude de marche apparente, vêtue d'une robe de lin fin moulante qui laisse deviner les formes de son corps, un trait caractéristique du raffinement artistique de la XIXe dynastie.</p>
+    <p>La reine porte une perruque tripartite complexe surmontée du mortier, une coiffe cylindrique souvent ornée d'uraeus ou de plumes, symbolisant son lien privilégié avec les divinités féminines comme Hathor. Ses traits, bien que marqués par l'érosion du grès, conservent une élégance qui reflète l'idéal de beauté de l'époque. La présence de la reine à cet emplacement n'est pas seulement décorative ; elle agit comme un soutien symbolique au pouvoir du pharaon, l'accompagnant dans son rôle de garant de l'équilibre cosmique face aux contrées du sud.</p>
+    <p>Sur les surfaces adjacentes à la statue, des inscriptions hiéroglyphiques gravées en creux précisent ses titres, la nommant « celle pour qui le soleil se lève ». On observe également des graffitis historiques, certains datant du XIXe siècle, qui témoignent du passage des premiers explorateurs européens avant le sauvetage du site.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1264) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_piliers_osiriaques_dix_metres_salle_hypostyle_abou_simbel",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1264 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1264,
+    domain: "sculpture_statuaire",
+    artifactType: "Décor architectural (fronton, frise, métope, chapiteau)",
+    title: "Allée des colosses osiriaques de dix mètres de la première salle hypostyle (Grand Temple d'Abou Simbel)",
+    site: "Grand Temple d'Abou Simbel - Première salle hypostyle (Nubie)",
+    originSite: "Abou Simbel",
+    locationType: "site",
+    currentLocation: "In situ (Première salle hypostyle, Abou Simbel)",
+    category: "Piliers osiriaques rupestres en grès",
+    isHighlight: true,
+    chips: ["XIXe dynastie", "Ramsès II", "Abou Simbel", "Piliers osiriaques", "Héqa et Nekhekh", "Couronne Pschent", "Salle hypostyle"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczM962e0WPcujxCA8__R7PWE-_5PZ63Y5V1ejNi8OkmvTDfT2m-uNzolEzbf3Jf0nxGK6hiyuWVmeoeiqMcJQAg0XAH05gZmAXa22iLb_-_-iv3QYSHjGY9r2dD-mUAqPeUwnQ3ivx4UyqZYQY7q2AjgBw=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ces piliers massifs, situés dans la première salle hypostyle du Grand Temple d'Abou Simbel, sont sculptés en forme de colosses osiriens représentant Ramsès II. Chaque statue, haute de dix mètres, dépeint le pharaon dans l'attitude du dieu Osiris, les bras croisés sur la poitrine et tenant les insignes de la royauté, le crochet et le fléau. Le souverain porte la double couronne des Deux Terres sur le côté nord de la salle et la couronne de Haute-Égypte sur le côté sud, illustrant son rôle de garant de l'unité et de la stabilité du pays.</p>
+    <p>L'exécution artistique de ces statues intérieures témoigne d'une maîtrise technique remarquable, car elles font corps avec les piliers de grès qui soutiennent le plafond du temple. Contrairement aux colosses extérieurs soumis à l'érosion, ces figures conservent des détails plus fins sur leurs visages et leurs parures, malgré les traces de dégradations anciennes et de graffitis historiques laissés par les explorateurs. La musculature du torse et la précision des drapés du pagne royal soulignent la force et la pérennité du monarque divinisé.</p>
+    <p>Le plafond au-dessus de ces statues est orné de peintures astronomiques et de représentations de la déesse vautour Nekhbet, étendant ses ailes protectrices sur le passage royal. Les parois des piliers sont quant à elles couvertes de reliefs et de hiéroglyphes détaillant les victoires militaires de Ramsès II et ses offrandes aux dieux, créant un espace où le politique et le sacré fusionnent.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1264) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_pilier_osiriaque_detail_torse_heqa_nekhekh_abou_simbel",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1264 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1264,
+    domain: "sculpture_statuaire",
+    artifactType: "Statue en ronde-bosse",
+    title: "Pilier osiriaque de Ramsès II : Détail du torse héroïque, barbe tressée et insignes Héqa et Nekhekh (Abou Simbel)",
+    site: "Grand Temple d'Abou Simbel - Première salle hypostyle (Nubie)",
+    originSite: "Abou Simbel",
+    locationType: "site",
+    currentLocation: "In situ (Première salle hypostyle, Abou Simbel)",
+    category: "Piliers osiriaques rupestres en grès",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Ramsès II", "Abou Simbel", "Pilier osiriaque", "Crochet Héqa", "Fléau Nekhekh", "Grès nubien"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMlD5LAbTz9uK4UokEL4H6mJZwIkkrzqudh_VcqbJScoiKkZK-_feQkqg-w4U7bVlVWmA3j-h_c1zIWqKLada9F1HD70Ua4tyLSCe0o7D1TrBaOi1hGhgqPSCpl7nj-wsTrGiPbfpl1uE-siQyLd4d5qw=w1611-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Ce plan rapproché sur l'un des piliers osiriaques de la grande salle hypostyle d'Abou Simbel met en valeur la puissance du modelé et la monumentalité du portrait royal sous la XIXe dynastie. Ramsès II y est figuré en dieu Osiris souverain, les bras croisés sur le poitrail dans l'attitude rituelle des défunts divinisés, serrant fermement dans ses poings fermés les insignes du pouvoir suprême : le crochet héqa (le bâton de pasteur) et le fléau nekhakha.</p>
+    <p>La sculpture, directement taillée dans la masse du grès nubien, frappe par la vigueur anatomique du torse athlétique et l'élégance sobre de ses proportions colossales. Sous un menton rehaussé de la longue barbe postiche divine délicatement striée, le large collier ousekh est discrètement suggéré, tandis que le fût arrière du pilier conserve des colonnes de textes hiéroglyphiques proclamant les titres royaux et la filiation solaire de Ramsès II.</p>
+    <p>Cette effigie monumentale servait de support physique au Ka royal au cœur de la montagne consacrée, transformant le spéos en une forteresse spirituelle où le souverain défie l'usure des siècles dans une majesté immuable.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1264) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+   {
     id: "sculpture_tete_royale_transition_xi_xii_amenemhat_ier_louvre",
     civId: "egypte",
     periodId: "moyen_empire",
