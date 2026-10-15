@@ -6,6 +6,212 @@ window.ART_OBJECTS = window.ART_OBJECTS || [];
 window.ART_OBJECTS.push(
 
   {
+    id: "peinture_recolte_chars_nebamun_british",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1350 av. J.-C. / règne d'Amenhotep III)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1350,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Inspection des récoltes, travail aux champs et attelage de chars (Chapelle de Nebamoun)",
+    site: "British Museum (Londres / prov. Thèbes)",
+    originSite: "Chapelle funéraire de Nebamoun (Dra Abou el-Naga, Thèbes)",
+    locationType: "museum",
+    currentLocation: "British Museum (Londres)",
+    category: "Peinture murale thébaine",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Nebamoun", "Chars et chevaux", "British Museum"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMtpvV0L9eAxPfPFgTXTljKUafgvbuIqqQa_ydoygPofB8oeUw-yOx_WBOZFVEcgsXIgLMJMDycVexVqJWUDdbTFlhoXoBTmQ9ULSNPb6FuATsq7spHfMCwOWLuMk3VNK5yMu9z2EjP5sMLfG6gGV1umw=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette peinture murale exceptionnelle provient de la chapelle funéraire de Nebamun, un scribe et comptable du grain au temple d'Amon à Thèbes, datée du Nouvel Empire vers 1350 avant notre ère. Aujourd'hui conservée au British Museum à Londres, cette fresque à sec sur enduit de limon et de plâtre illustre la richesse et la précision de l'art funéraire égyptien sous la XVIIIe dynastie. Le fragment présenté ici dépeint une scène de gestion agricole où le défunt, dans son rôle de superviseur, veille à l'exactitude des récoltes futures, assurant ainsi sa subsistance éternelle dans l'au-delà tout en témoignant de son statut social élevé durant sa vie terrestre.</p>
+    <p>La composition se divise en plusieurs registres qui organisent la lecture du travail aux champs. Sur la partie gauche, un homme debout, probablement un paysan ou un assistant de Nebamun, est représenté de profil avec une musculature marquée et une peau brunie par le soleil. Il se tient devant un champ de céréales mûres, symbolisé par des lignes verticales denses. Son attitude est celle de l'observation ou du respect, tandis qu'au-dessus de lui, des colonnes de hiéroglyphes détaillent l'inventaire ou le dialogue lié à la récolte. La finesse du trait permet de distinguer les détails de son pagne blanc et la courbure de son corps en plein effort ou en pleine réflexion.</p>
+    <p>Le centre et la droite de l'image sont dominés par la représentation de chars et de chevaux, introduisant un dynamisme rare dans l'art égyptien. Dans le registre supérieur, un char léger à deux roues est conduit par un personnage aux cheveux courts, attelé à un cheval sombre au harnachement rouge vif, dont la queue et les membres suggèrent un mouvement de marche. Juste en dessous, un second char est tiré par une paire de chevaux plus clairs, dont les têtes superposées créent un effet de profondeur. On remarque également la présence d'un arbre stylisé sur le bord droit, aux feuilles représentées par des touches de peinture verte et des formes ovales, apportant une note végétale qui cadre la scène de plein air.</p>
+    <p>L'aspect technique de l'œuvre révèle une maîtrise remarquable des pigments naturels. Les ocres rouges pour la peau et les structures des chars contrastent avec le blanc des vêtements et le noir utilisé pour les crinières et les contours. Malgré les lacunes et les cassures de l'enduit visibles sur les bords du fragment, la vivacité des couleurs demeure frappante. Cette scène n'est pas qu'une simple représentation du quotidien ; elle est une construction idéalisée de l'ordre et de l'abondance, où chaque geste est codifié pour servir la mémoire du scribe Nebamun.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1350) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+  {
+    id: "peinture_etang_jardin_nebamun_british",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1350 av. J.-C. / règne d'Amenhotep III)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1350,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "L'étang dans un jardin d'agrément (Chapelle de Nebamoun)",
+    site: "British Museum (Londres / prov. Thèbes)",
+    originSite: "Chapelle funéraire de Nebamoun (Dra Abou el-Naga, Thèbes)",
+    locationType: "museum",
+    currentLocation: "British Museum (Londres)",
+    category: "Peinture murale thébaine",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Nebamoun", "Bassin aux lotus", "Perspective rabattue"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPki6NKhbwV6oBpeXQwQ3wFIv2r7xBDpvMs3uFrNCOcEZmomUK8Pqura69V97JqPnyqGf92zYT-BVAtijWpfi9axBnuy8fUpbh59p0W2RpbOQL9X30iFvj2AAZkMkmuJ8vVKz1h8VwdjFb0StMkmQIgvg=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette peinture murale, sans doute l'une des plus célèbres de la chapelle funéraire de Nebamun à Thèbes, représente un jardin d'agrément centré autour d'un bassin rectangulaire. Datant d'environ 1350 avant notre ère et conservée au British Museum, l'œuvre illustre la vision égyptienne du paradis : un lieu de fraîcheur, d'ordre et de vie foisonnante. La composition utilise une perspective rabattue typique, où l'étang est vu du dessus tandis que les arbres, les fleurs et les animaux sont représentés de profil, permettant une lecture exhaustive de la richesse biologique du lieu.</p>
+    <p>L'étang central occupe le cœur de la scène, rempli d'une eau bleue striée de lignes sombres pour suggérer le mouvement. On y distingue une faune aquatique variée, notamment des tilapias du Nil et d'autres poissons nageant parmi des fleurs de lotus en pleine éclosion. À la surface, un couple de canards et leurs canetons évoluent avec grâce, symbolisant la fertilité. Les détails des écailles des poissons et du plumage des oiseaux témoignent d'un sens de l'observation naturaliste extrêmement poussé, caractéristique de l'art thébain du Nouvel Empire.</p>
+    <p>Tout autour de la pièce d'eau, une bordure de végétation dense forme un écrin protecteur. Des rangées d'arbres fruitiers, incluant des sycomores chargés de figues, des palmiers dattiers et des palmiers doums aux grappes de fruits caractéristiques, sont disposées de manière symétrique. Chaque espèce est rendue avec une précision botanique permettant de l'identifier. Entre les troncs, des buissons de fleurs et des plantes d'ornement complètent ce paysage idéal qui devait, dans les croyances de l'époque, offrir au défunt un cadre de repos éternel et de régénération.</p>
+    <p>La technique de la peinture à la détrempe sur enduit sec permet ici une palette chromatique vibrante, où les verts profonds de la végétation contrastent avec les jaunes chauds des fruits et le bleu azur de l'eau. Bien que le fragment soit amputé sur sa droite, la cohérence de l'ensemble reste intacte, offrant un témoignage précieux sur l'horticulture antique et la symbolique religieuse de l'eau. Ce jardin n'est pas seulement un décor domestique, c'est un microcosme sacré où le chaos de la nature est apprivoisé par l'ordre divin.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1350) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+  {
+    id: "peinture_chasse_marais_chat_nebamun_british",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1350 av. J.-C. / règne d'Amenhotep III)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1350,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Chasse aux oiseaux dans les marais avec chat prédateur (Chapelle de Nebamoun)",
+    site: "British Museum (Londres / prov. Thèbes)",
+    originSite: "Chapelle funéraire de Nebamoun (Dra Abou el-Naga, Thèbes)",
+    locationType: "museum",
+    currentLocation: "British Museum (Londres)",
+    category: "Peinture murale thébaine",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Nebamoun", "Chasse dans les marais", "Chat chasseur"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczN4IovMIClAG83axtXgQNbss9RHI8sFnKIAKwNJdK2QhFXGLKPfzX81hCK9Mqa3ar6lGVY1XrT7zhC2A_PR6Z_G_Jj8F0OrlZmaT4c8NWpHJTzbcQMlh_DpIvdwOnD-ROwdGoV0e1MiEmBqFamVbrWbiA=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Réalisée vers 1350 avant notre ère et conservée au British Museum de Londres, cette œuvre de la XVIIIe dynastie capture l'idéal de la vie éternelle où le défunt, scribe et comptable du grain, domine les forces de la nature sauvage. La scène est d'une vivacité exceptionnelle, mêlant une symbolique religieuse profonde à un naturalisme d'une grande finesse technique.</p>
+    <p>Nebamun occupe le centre de la composition, debout sur une frêle embarcation de papyrus. Représenté selon les canons de la perspective hiérarchique, il est bien plus grand que son épouse Hatchepsout, debout derrière lui, et sa jeune fille, assise à ses pieds entre ses jambes. D'un geste vigoureux, il brandit un bâton de jet en forme de serpent, s'apprêtant à frapper une nuée d'oiseaux qui s'envolent d'un fourré de papyrus stylisé sur la gauche. Son corps athlétique, paré de bijoux et d'un pagne blanc plissé, incarne la vigueur et la jeunesse éternelles promises par la renaissance dans l'au-delà.</p>
+    <p>La richesse de la faune et de la flore représentées est remarquable. Un chat roux, auxiliaire de chasse de Nebamun, bondit parmi les tiges de papyrus et saisit simultanément trois oiseaux avec ses griffes et sa gueule, illustrant la maîtrise de l'ordre sur le chaos. Des papillons aux ailes tachetées voltigent dans l'espace, tandis que des poissons nagent dans l'eau sous le bateau. La précision des détails, des plumes irisées des oiseaux aux écailles des poissons, témoigne de la virtuosité des peintres thébains qui utilisaient des pigments minéraux sur un enduit sec pour obtenir cette intensité de couleurs.</p>
+    <p>Au-delà de l'aspect récréatif, cette chasse possède une dimension sacrée : elle symbolise le triomphe du défunt sur les forces désordonnées du monde, garantissant ainsi l'équilibre cosmique, ou Maât. Les fleurs de lotus tenues par sa femme et sa fille renvoient à la régénération et à la naissance du soleil. Cette fresque n'est pas seulement le portrait d'un homme en activité, c'est une évocation poétique et puissante du cycle de la vie et de la survie de l'âme dans les champs d'Ialou.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1350) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+  {
+    id: "peinture_comptage_troupeaux_oies_nebamun_british",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1350 av. J.-C. / règne d'Amenhotep III)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1350,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Le comptage et l'inspection des troupeaux d'oies et de bovins (Chapelle de Nebamoun)",
+    site: "British Museum (Londres / prov. Thèbes)",
+    originSite: "Chapelle funéraire de Nebamoun (Dra Abou el-Naga, Thèbes)",
+    locationType: "museum",
+    currentLocation: "British Museum (Londres)",
+    category: "Peinture murale thébaine",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Nebamoun", "Troupeaux d'oies", "Bovins tachetés"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNZOcgPPTEQtSNvDrgBFhlisjJDEAYglvQ52btkmpfRrUnaknr4wZ37xR7T6t7wua3lOp5lDy6uL1-f1mw09HhdDLXrSYN692lF0xIrKrU-nXw9l7YaaVkS8mrzhTGl37yAyHrGWQVb0d6RTZqhiDKUSQ=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette célèbre peinture murale issue de la chapelle de Nebamun illustre l'inspection méticuleuse des troupeaux par les scribes du domaine d'Amon. Divisée en plusieurs registres d'une étonnante vitalité, elle dépeint l'abondance pastorale garantie au défunt par l'exercice scrupuleux de sa charge administrative.</p>
+    <p>Le registre supérieur présente un groupe d'oies du Nil caquetant en désordre, rendues avec une variété de plumage et de mouvements qui déjoue l'ordonnancement hiératique habituel. Des gardiens et des bergers s'inclinent en signe de respect ou s'activent à guider les volailles vers les cages de vannerie, tandis que des scribes notent scrupuleusement les chiffres sur leurs rouleaux de papyrus.</p>
+    <p>Dans les registres inférieurs, des bovins à la robe tachetée avancent en procession serrée. Les postures des bêtes, qui tournent la tête, se chevauchent ou s'ébrouent, démontrent le sens aigu de l'observation animalière des peintres thébains de la XVIIIe dynastie. La finesse des traits de contour et le modelé subtil des corps confèrent à l'ensemble une atmosphère sonore et vivante, transformant la reddition de comptes en une célébration de la prospérité rurale.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1350) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+  {
+    id: "peinture_chasse_lievres_gazelle_nebamun_british",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1350 av. J.-C. / règne d'Amenhotep III)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1350,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Porteurs de gibier du désert, lièvres vivants et gazelle (Chapelle de Nebamoun)",
+    site: "British Museum (Londres / prov. Thèbes)",
+    originSite: "Chapelle funéraire de Nebamoun (Dra Abou el-Naga, Thèbes)",
+    locationType: "museum",
+    currentLocation: "British Museum (Londres)",
+    category: "Peinture murale thébaine",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Nebamoun", "Lièvres du désert", "Gazelle"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOxhLKhe7aasXOfJ62VeXITiUoxVu55bFuRVtzXbuPa0QV_7iAwu612RvbhIsbKlASCQsqNUfPbClGvffT51Q8dSukFoBHt86AdHsRcgmipV0wgm9NcaFwZ3Y8YpZluWjqdZDIKccolY0jr4pc9zDP16w=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>La composition met en scène trois personnages masculins marchant vers la droite, portant les tributs du désert et des champs. Au centre, un homme tient par les oreilles deux lièvres du désert vivants, dont les longues oreilles dressées et le pelage moucheté sont rendus avec une précision remarquable. À sa gauche, un autre serviteur porte une gazelle sur ses épaules, un gibier prisé dont les cornes et la silhouette gracieuse sont encore parfaitement lisibles malgré l'usure de l'enduit. Le troisième homme, à droite, transporte des gerbes de céréales et des tiges de lin, rappelant les fonctions administratives de Nebamun liées à la gestion des récoltes.</p>
+    <p>La gestuelle des personnages est fluide et rythmée, créant une impression de marche continue. Chaque serviteur est vêtu du traditionnel pagne de lin blanc, contrastant avec la couleur ocre-rouge de leur peau, typique des représentations masculines égyptiennes. Les détails des mains saisissant les proies ou les végétaux révèlent une attention particulière portée à l'anatomie et à l'action. Le fond neutre de la fresque permet de détacher les silhouettes et de mettre l'accent sur la diversité des offrandes, symbolisant l'abondance dont jouira le scribe dans l'au-delà.</p>
+    <p>Sur le plan technique, l'utilisation de pigments naturels sur un enduit de plâtre sec a permis de conserver une grande chaleur de tons. Bien que le fragment présente des lacunes sur les bords supérieurs et inférieurs, la finesse des traits de contour et les nuances de peinture suggérant la fourrure des lièvres sont des exemples frappants de la virtuosité des ateliers thébains. Cette scène n'est pas qu'un simple témoignage de la faune locale ; elle est une affirmation rituelle de la domination de l'ordre sur la vie sauvage et une garantie de pérennité pour l'âme du défunt.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1350) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+  {
+    id: "peinture_banquet_invites_parfums_nebamun_british",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1350 av. J.-C. / règne d'Amenhotep III)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1350,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Le banquet aristocratique, dames parfumées et servantes (Chapelle de Nebamoun)",
+    site: "British Museum (Londres / prov. Thèbes)",
+    originSite: "Chapelle funéraire de Nebamoun (Dra Abou el-Naga, Thèbes)",
+    locationType: "museum",
+    currentLocation: "British Museum (Londres)",
+    category: "Peinture murale thébaine",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Nebamoun", "Banquet aristocratique", "Cônes d'onguent"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNfj-Z1U_mU7Rdm2bQi2gT4OfeCUHAUbSBwkPOrbjiTxdZcCOyEQ5kSIn_xve_O1kdSbDmdlYG-agcLzC5vg4YnIa2UsJ1w6-yIfnybYDVzBQm1sK-iE9SlKDYMeNmlvfpuj6z9My6KrZ51DbQsZ-65Rg=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette fresque magistrale, l'une des pièces les plus emblématiques de la chapelle funéraire de Nebamun à Thèbes, illustre la luxuriance des réceptions mondaines sous la XVIIIe dynastie, vers 1350 avant notre ère. Aujourd'hui exposée au British Museum, cette peinture murale offre une vision idéalisée du banquet funéraire, où les vivants et les morts se rejoignent dans une atmosphère de fête, de musique et de régénération. La composition, d'une densité exceptionnelle, est un témoignage précieux sur les coutumes sociales, la mode et l'esthétique raffinée du Nouvel Empire à son apogée.</p>
+    <p>La scène est organisée en deux registres superposés montrant les invités de rang élevé. Dans le registre supérieur, des couples d'hommes et de femmes sont assis sur des chaises élégantes à pieds en forme de pattes de lion, tandis que le registre inférieur semble davantage dévolu aux femmes. Les invités sont parés de leurs plus beaux atours : des robes de lin fin, plissées et transparentes, ainsi que de larges colliers ousekh richement colorés. Sur leurs perruques noires élaborées, ils portent des cônes d'onguent parfumés qui, en fondant lentement, embaument leurs cheveux et leurs vêtements. Des servantes presque nues, vêtues seulement de fines ceintures de hanches et de bijoux, circulent entre les convives pour leur offrir des fleurs de lotus, des coupes de vin ou ajuster leurs parures.</p>
+    <p>Le raffinement des détails est frappant, notamment dans le rendu des visages de profil aux grands yeux soulignés de fard noir et les mains aux doigts longs et graciles tenant des fleurs de lotus, symbole de renaissance. Sur la gauche de chaque registre, on distingue des tables d'offrandes croulant sous les victuailles : pains, grappes de raisins, fruits et jarres de vin scellées, garantissant la satiété éternelle de Nebamun et de ses proches. L'artiste a su capturer l'élégance et la sensualité de l'instant, faisant de ce banquet une célébration de la vie qui doit se poursuivre dans l'au-delà.</p>
+    <p>D'un point de vue technique, cette fresque démontre la virtuosité des peintres thébains dans l'utilisation de la couleur et de la ligne. Les nuances de rouge, d'ocre et de bleu sont appliquées avec une grande précision sur l'enduit sec, et les effets de transparence du lin sont rendus par des glacis subtils. Malgré les fissures naturelles du temps et les lacunes sur les bords du fragment, l'œuvre conserve une vitalité extraordinaire. Elle n'est pas seulement une représentation d'un événement mondain, mais un acte rituel visant à réactiver les sens du défunt pour l'éternité par le plaisir des yeux, de l'odorat et du goût.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1350) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+  {
+    id: "peinture_danseuses_musiciennes_face_nebamun_british",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1350 av. J.-C. / règne d'Amenhotep III)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1350,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Musiciennes représentées de face et danseuses acrobatiques (Chapelle de Nebamoun)",
+    site: "British Museum (Londres / prov. Thèbes)",
+    originSite: "Chapelle funéraire de Nebamoun (Dra Abou el-Naga, Thèbes)",
+    locationType: "museum",
+    currentLocation: "British Museum (Londres)",
+    category: "Peinture murale thébaine",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Nebamoun", "Visages de face", "Danseuses thébaines"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPgJ_-1KrKbh6NeStk2nyFjpn2A6h10ZYEmcXQ-1wWs55miUZE4714QVyGpvcYqr--3XKac46Silm-CaC-HM7bCvmuRe0CtTNCRpzoPJzu8Cc7AmXnkPrRJuDqHNSC4jtXX_P4SmkoVt0WbqTIgllWcSw=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette fresque vibrante, fragment majeur de la chapelle funéraire de Nebamun à Thèbes (vers 1350 avant notre ère), constitue l'une des représentations les plus dynamiques et innovantes de l'art de la XVIIIe dynastie. Conservée au British Museum, elle dépeint une scène de divertissement lors d'un banquet funéraire, où la musique et la danse ne sont pas seulement des plaisirs terrestres, mais des instruments rituels destinés à réveiller les sens du défunt pour sa vie dans l'au-delà. Cette œuvre rompt avec la rigidité traditionnelle égyptienne par l'introduction de poses complexes et de visages représentés de face, une rareté absolue dans le canon artistique de l'époque.</p>
+    <p>La partie gauche du fragment montre un groupe de musiciennes assises, parées de perruques volumineuses et de larges colliers ousekh. L'une d'elles joue d'une double flûte, tandis que les autres marquent le rythme en frappant des mains. Fait exceptionnel, deux de ces musiciennes sont représentées de face, le regard tourné vers le spectateur, ce qui confère à la scène une humanité et une proximité inhabituelles. Leurs robes de lin fin et les cônes d'onguent parfumés posés sur leurs têtes complètent cette image de raffinement sensoriel. La précision du trait permet de distinguer les détails des doigts sur l'instrument et les ondulations des cheveux, témoignant d'une maîtrise technique au sommet de l'art thébain.</p>
+    <p>À droite, le mouvement s'intensifie avec deux jeunes danseuses presque nues, vêtues de simples ceintures de hanches. Leurs corps s'entrelacent dans une chorégraphie fluide, créant un jeu de jambes et de bras qui suggère une rotation rapide. L'artiste a utilisé des lignes courbes et des chevauchements pour rendre l'énergie de la danse, contrastant avec la pose statique des convives voisins. Sur le bord droit, de grandes jarres de vin ornées de guirlandes de fleurs rappellent l'abondance des festivités. Les hiéroglyphes surmontant la scène retranscrivent probablement les paroles des chants, liant la musique à la louange du dieu Amon ou du défunt lui-même.</p>
+    <p>L'utilisation des pigments reste d'une fraîcheur éclatante, avec des contrastes marqués entre l'ocre rouge des peaux des danseuses, le noir profond des perruques et les rehauts de blanc et de jaune des parures. Bien que le temps ait causé des craquelures et des pertes d'enduit, notamment sur la partie supérieure des hiéroglyphes, la force expressive de cette scène demeure intacte. Elle capture l'essence même de la fête égyptienne : un mélange de sensualité, de joie et de ferveur religieuse, offrant à Nebamun une éternité bercée par les sons et les rythmes les plus harmonieux de son temps.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1350) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+  {
+    id: "peinture_portrait_nebamun_assis_british",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1350 av. J.-C. / règne d'Amenhotep III)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1350,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Portrait officiel de Nebamoun assis recevant les offrandes (Chapelle funéraire)",
+    site: "British Museum (Londres / prov. Thèbes)",
+    originSite: "Chapelle funéraire de Nebamoun (Dra Abou el-Naga, Thèbes)",
+    locationType: "museum",
+    currentLocation: "British Museum (Londres)",
+    category: "Peinture murale thébaine",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Nebamoun", "Portrait officiel", "British Museum"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPcrqFkywoncOznnYLCDHx1TMpXupfo3Su4hvfIpuGQVisQNwu-wBLNfMOssLzZk2ZQeyt-vYLKV7UcX9-kIzD1ysjTgyT50CXmbCv_yiZkRKKbV4n2Ekq_8Ui-mYKVOc-272bhVQnyxHTq9rMvjiJO0Q=w613-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce portrait fragmentaire, cœur symbolique de la chapelle funéraire de Nebamun à Thèbes, représente le défunt lui-même dans une posture de dignité et d'autorité. Datée d'environ 1350 avant notre ère et conservée au British Museum, cette peinture murale illustre la splendeur de l'élite administrative sous la XVIIIe dynastie. Nebamun, scribe et comptable du grain au temple d'Amon, est ici figuré recevant les offrandes ou supervisant les activités destinées à son culte funéraire, garantissant ainsi son statut et son confort dans l'au-delà.</p>
+    <p>Le défunt est représenté assis sur un siège élaboré dont on devine le dossier et les détails décoratifs sur la partie inférieure. Il arbore les attributs de son rang : une perruque noire soigneusement taillée, un large collier ousekh composé de plusieurs rangs de perles colorées et des bracelets aux poignets. Son visage, dessiné selon les canons classiques avec un œil en amande souligné de fard, dégage une sérénité imperturbable. Il tient dans ses mains les insignes de sa fonction et de son prestige, notamment un long bâton et une fleur de lotus, symbole de renaissance et de pureté, dont les pétales sont rendus par des traits fins de pigment vert et blanc.</p>
+    <p>Le traitement du corps de Nebamun est caractéristique de l'élégance du Nouvel Empire. Sa peau est peinte d'un ocre rouge vif, contrastant avec la finesse de son pagne en lin blanc plissé. L'artiste a apporté un soin particulier aux détails anatomiques, comme la courbure de l'oreille et la précision des doigts. Derrière lui, un cartouche ou une colonne de texte hiéroglyphique, bien que partiellement érodé, identifie le défunt et énonce les formules rituelles nécessaires à sa survie spirituelle. L'équilibre de la pose, à la fois rigide par convention et fluide par la qualité du trait, incarne la perfection de l'art thébain à son apogée.</p>
+    <p>Malgré les pertes importantes de l'enduit sur les pourtours du fragment, qui révèlent la couche de limon sous-jacente, la section centrale du portrait a conservé une fraîcheur de coloris remarquable. Les pigments minéraux ont résisté au temps, permettant d'apprécier les nuances de bleu et de jaune du collier. Cette effigie n'est pas qu'un simple portrait biographique ; elle constitue le réceptacle de l'âme de Nebamun, lui permettant de jouir éternellement des biens accumulés durant sa carrière au service du temple d'Amon.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1350) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+   {
     id: "peinture_vue_angulaire_treille_sennefer_tt96",
     civId: "egypte",
     periodId: "nouvel_empire",
