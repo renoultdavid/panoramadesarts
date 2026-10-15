@@ -6,6 +6,208 @@ window.ART_OBJECTS = window.ART_OBJECTS || [];
 window.ART_OBJECTS.push(
 
   {
+    id: "sculpture_angle_mural_litanie_visuelle_procession_edfou",
+    civId: "egypte",
+    periodId: "ptolemaique",
+    civName: "Égypte : Époque ptolémaïque",
+    century: "Époque ptolémaïque (vers -150 av. J.-C. / dynastie lagide)",
+    centuryDisplay: "IIe s. av. J.-C.",
+    centuryNumeric: -150,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Continuité narrative en angle droit et litanie visuelle des offrandes (Temple d'Horus à Edfou)",
+    site: "Temple d'Horus - Salles intérieures (Edfou)",
+    originSite: "Edfou",
+    locationType: "site",
+    currentLocation: "In situ (Salles intérieures du Temple d'Edfou)",
+    category: "Relief en creux sur grès",
+    isHighlight: false,
+    chips: ["Époque ptolémaïque", "Edfou", "Horus", "Hathor", "Horror vacui", "Angle architectural", "Grès"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczO70C6XfTthga1eDHCd2GADrkd_Pyk73Kf1Spv-di0-MlGOq6V-F0eBZG1CDIv8EDC_bDMYuPOG6wM2B7U1nKi3K8NT-EPpoIDseyMFtrGqFvCGcYmWELu7egQ8HJew1IcDfhH572Pj6AKEHnE_fZMJzQ=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>L'architecture se caractérise par des angles droits parfaits où les registres de bas-reliefs se rejoignent, créant une continuité narrative qui enveloppe littéralement le visiteur dans un cocon de textes et d'images sacrés. Cette structure en « livre ouvert » sur la pierre permettait aux prêtres de suivre les étapes précises des rituels en se déplaçant d'une paroi à l'autre.</p>
+    <p>Le décor est marqué par une saturation de l'espace, ou horror vacui, typique de la période ptolémaïque, où chaque centimètre carré de grès est investi par le ciseau du sculpteur. On y observe des scènes de procession où les divinités, telles que les différentes formes d'Horus ou la déesse Hathor, reçoivent des offrandes variées de la part du pharaon. La répétition rythmique des personnages, séparés par de denses colonnes de hiéroglyphes, confère à l'ensemble une allure de litanie visuelle, destinée à rendre les rites efficaces pour l'éternité.</p>
+    <p>La technique du relief creux utilisée ici est particulièrement profonde, ce qui permet aux figures de conserver leur lisibilité malgré la pénombre des salles intérieures. Les détails des couronnes, comme les doubles plumes ou le disque solaire, ainsi que les sceptres tenus par les dieux, sont rendus avec une précision chirurgicale qui souligne la fonction royale et protectrice des divinités. Ces murs ne sont pas de simples parois de soutènement, mais des supports vibrants de la puissance divine, agissant comme des intercesseurs permanents pour le maintien de l'ordre cosmique.</p>
+    <p>L'état de préservation des surfaces permet d'apprécier la qualité du grès local et la maîtrise des bâtisseurs égyptiens dans l'assemblage de blocs massifs dont les joints disparaissent sous le foisonnement iconographique.</p>
+    <p><strong>Siècle :</strong> IIe siècle av. J.-C. (-150) | <strong>Civilisation :</strong> Égypte ptolémaïque | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_colonne_ptolemee_decheret_haroeris_kom_ombo",
+    civId: "egypte",
+    periodId: "ptolemaique",
+    civName: "Égypte : Époque ptolémaïque",
+    century: "Époque ptolémaïque (Ier s. av. J.-C. / règne de Ptolémée XII)",
+    centuryDisplay: "Ier s. av. J.-C.",
+    centuryNumeric: -50,
+    domain: "sculpture_statuaire",
+    artifactType: "Décor architectural (fronton, frise, métope, chapiteau)",
+    title: "Registre sur colonne : Offrande royale à la couronne rouge Decheret et protection d'Haroëris (Kom Ombo)",
+    site: "Temple de Kom Ombo - Salle hypostyle (Kom Ombo)",
+    originSite: "Kom Ombo",
+    locationType: "site",
+    currentLocation: "In situ (Salle hypostyle du Temple de Kom Ombo)",
+    category: "Décor architectural sur grès polychrome",
+    isHighlight: false,
+    chips: ["Époque ptolémaïque", "Kom Ombo", "Ptolémée XII", "Couronne Decheret", "Haroëris", "Nekhbet", "Colonne papyriforme"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNr7tzjF-QzCue8qRzBBNHsMI4lSdYcLQ25sLvRs5Wtj28LBzLOLc0X0q-IrGU_vyU8rYM6ehplVYkYRhUGFsqarFb3FKDffML3HRNVyRwurBj-8hqHciW-OeFmV8ZO0z8nzYkQFiWs6s-i6dDI_Zpf3w=w1611-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Cette œuvre est un détail sculpté sur l'un des fûts de colonnes monumentales de la salle hypostyle du Temple de Kom Ombo. Édifiée principalement sous le règne de Ptolémée XII Néos Dionysos au Ier siècle av. J.-C., cette structure se distingue par ses colonnes papyriformes aux chapiteaux floraux complexes, dont les registres superposés racontent les interactions entre le pouvoir temporel et le monde divin.</p>
+    <p>La scène présente un souverain ptolémaïque, probablement Ptolémée XII ou Ptolémée VIII Évergète II, effectuant des offrandes rituelles. Il porte la couronne de Basse-Égypte, la couronne rouge Decheret, et fait face à des divinités dont les noms sont inscrits dans les colonnes de hiéroglyphes adjacentes. La présence de cartouches royaux souligne le rôle du pharaon comme intermédiaire unique, chargé de maintenir l'ordre cosmique par ses dons aux dieux.</p>
+    <p>Au-dessus de la scène principale, une frise montre des divinités protectrices, notamment le dieu-faucon Haroëris (Horus l'Ancien) et le vautour Nekhbet, symboles de la royauté et de la protection du ciel. Ces bas-reliefs étaient autrefois entièrement rehaussés de couleurs vives, comme en témoignent les traces de pigments bleus, rouges et ocres encore visibles sur le grès, permettant de distinguer les détails des parures et des attributs divins.</p>
+    <p>Les inscriptions hiéroglyphiques entourant les figures sont des formules d'offrande et des listes de titres garantissant la prospérité du royaume. La répétition de ces motifs sur l'ensemble des colonnes crée un espace sacré où le temps semble suspendu.</p>
+    <p><strong>Siècle :</strong> Ier siècle av. J.-C. (-50) | <strong>Civilisation :</strong> Égypte ptolémaïque | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_couronnement_ptolemee_nekhbet_ouadjet_sobek_kom_ombo",
+    civId: "egypte",
+    periodId: "ptolemaique",
+    civName: "Égypte : Époque ptolémaïque",
+    century: "Époque ptolémaïque (IIe-Ier s. av. J.-C. / dynastie lagide)",
+    centuryDisplay: "IIe s. av. J.-C.",
+    centuryNumeric: -150,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Couronnement du pharaon par Nekhbet et Ouadjet devant le dieu crocodile Sobek trônant (Kom Ombo)",
+    site: "Temple de Kom Ombo - Parois (Kom Ombo)",
+    originSite: "Kom Ombo",
+    locationType: "site",
+    currentLocation: "In situ (Parois du Temple de Kom Ombo)",
+    category: "Relief en creux sur grès",
+    isHighlight: true,
+    chips: ["Époque ptolémaïque", "Kom Ombo", "Dieu Sobek", "Crocodile", "Couronne Hemhem", "Nekhbet", "Ouadjet", "Couronnement"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOqTwyUwjTaOW374PbaO_YIxjGltvLUVpizI3kgzRw0V9WB3voNOaV3_P6jS20jOhoeE6Wm-sZ_eTKbnlHqQIByBzVQQKfc32zCgIVIsA8q3lFKj_6HXaREZtx1XjJs8ETEiW1c8QP1HJBgZd3x40TRVg=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce bas-relief en creux, situé sur les parois du Temple de Kom Ombo, illustre une scène fondamentale du protocole royal ptolémaïque : le couronnement ou la purification du souverain par les divinités. À droite de la composition, le pharaon est entouré de deux déesses, probablement Nekhbet et Ouadjet, symbolisant la Haute et la Basse-Égypte. Elles posent leurs mains sur sa couronne, un geste rituel qui légitime son pouvoir terrestre et lui confère une protection divine sur l'ensemble des Deux Terres.</p>
+    <p>Au centre de la scène trône le dieu Sobek, la divinité tutélaire du temple, représenté sous sa forme humaine avec une tête de crocodile. Il porte la complexe couronne hemhem, composée de roseaux, de cornes de bélier et de disques solaires, affirmant sa suprématie sur les eaux et la fertilité. Sa présence imposante au cœur du relief rappelle que tout pouvoir royal émane du divin et que le pharaon règne sous la surveillance directe du seigneur du Nil.</p>
+    <p>L'œuvre se distingue par l'élégance de ses lignes et la profondeur de sa gravure, typiques de l'art de l'époque gréco-romaine. Les personnages présentent des proportions harmonieuses et des détails vestimentaires soignés, notamment les plumes finement incisées des coiffes divines et les bijoux pectoraux. L'encadrement par une baguette torse accentue l'effet de tableau sacré, tandis que les colonnes de hiéroglyphes détaillent les paroles prononcées par les dieux pour assurer au roi une vie éternelle et une victoire constante sur ses ennemis.</p>
+    <p><strong>Siècle :</strong> IIe siècle av. J.-C. (-150) | <strong>Civilisation :</strong> Égypte ptolémaïque | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_fondation_temple_ptolemee_pschent_triade_haroeris_kom_ombo",
+    civId: "egypte",
+    periodId: "ptolemaique",
+    civName: "Égypte : Époque ptolémaïque",
+    century: "Époque ptolémaïque (IIe-Ier s. av. J.-C. / dynastie lagide)",
+    centuryDisplay: "IIe s. av. J.-C.",
+    centuryNumeric: -150,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Cérémonie de fondation du temple : Le pharaon au Pschent face à Haroëris et sa parèdre (Kom Ombo)",
+    site: "Temple de Kom Ombo - Parois (Kom Ombo)",
+    originSite: "Kom Ombo",
+    locationType: "site",
+    currentLocation: "In situ (Parois du Temple de Kom Ombo)",
+    category: "Bas-relief en calcaire",
+    isHighlight: false,
+    chips: ["Époque ptolémaïque", "Kom Ombo", "Haroëris", "Couronne Pschent", "Cérémonie de fondation", "Triade divine"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMOMUxw-2jVhDSQeCz2QTJiryqeS6pL1puWFrUgaQO8ioFoNV9fF8R1bYsH_w3TUw3-gXsUrMu3-qsAum2T-mGzuUwQNdlRb_ayeMaDG1_bjyvEqVC8eSTID3pkAIJRT7jbcBpDcebH-CACPzhWBsLQUQ=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette scène sculptée en bas-relief provient du temple de Kom Ombo, un sanctuaire unique situé sur les rives du Nil en Haute-Égypte. Édifié durant la période ptolémaïque et achevé sous l'époque romaine, ce temple présente la particularité d'être dédié à deux divinités distinctes : Sobek, le dieu-crocodile associé à la fertilité, et Haroëris, le Grand Horus ou Horus l'Ancien. La symétrie parfaite de l'architecture se retrouve dans les reliefs, où les souverains grecs, adoptant les codes iconographiques égyptiens, se font représenter en train de rendre hommage aux puissances divines pour légitimer leur pouvoir sur le trône des Pharaons.</p>
+    <p>Le relief illustre une cérémonie de présentation ou de fondation, un thème classique de l'art temporel égyptien. On y observe un pharaon ptolémaïque, reconnaissable à sa double couronne (le Pschent) et à son pagne traditionnel, faisant face à une triade divine. Le roi est représenté dans une posture dynamique, tenant des instruments rituels qui symbolisent son rôle de bâtisseur et de garant de l'ordre cosmique, la Maât. Sa silhouette respecte strictement le canon de proportion égyptien, alliant un torse de face à un visage et des membres de profil.</p>
+    <p>Au centre de la composition trône une figure solaire ailée ou une divinité à tête de faucon, probablement Haroëris, coiffé du disque solaire, accompagné de sa parèdre qui lève la main en signe de bénédiction. Le travail de la pierre témoigne du raffinement de la sculpture ptolémaïque, caractérisée par des formes plus charnues et un modelé plus doux que celui des périodes antérieures.</p>
+    <p><strong>Siècle :</strong> IIe siècle av. J.-C. (-150) | <strong>Civilisation :</strong> Égypte ptolémaïque | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_dualisme_divin_haroeris_sobek_re_kom_ombo",
+    civId: "egypte",
+    periodId: "ptolemaique",
+    civName: "Égypte : Époque ptolémaïque",
+    century: "Époque ptolémaïque (IIe-Ier s. av. J.-C. / dynastie lagide)",
+    centuryDisplay: "IIe s. av. J.-C.",
+    centuryNumeric: -150,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Le temple double : Marche conjointe d'Horus l'Ancien (Haroëris) et du dieu crocodile Sobek-Rê (Kom Ombo)",
+    site: "Temple de Kom Ombo - Enceinte sacrée (Kom Ombo)",
+    originSite: "Kom Ombo",
+    locationType: "site",
+    currentLocation: "In situ (Enceinte sacrée du Temple de Kom Ombo)",
+    category: "Bas-relief en grès",
+    isHighlight: true,
+    chips: ["Époque ptolémaïque", "Kom Ombo", "Haroëris", "Sobek-Rê", "Temple double", "Sceptre Ouas", "Signe Ânkh", "Couronne Atef"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczM7qFFJT6bgyj2hECdGV7USENxIfz54fmc3r-5502LzAaAQQ3nAg5Ngpdam56vpdwp9qrNqK-d5JXu9rVUyuFL4J_tzDy2AdDuIxOCaDcrADCW-jsyWiwsnT5MWE8mWRYDY3n1wc4VhJS18XwObFJO88w=w1611-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Ce bas-relief provient de l'enceinte sacrée du temple de Kom Ombo, un monument emblématique de l'époque ptolémaïque qui surplombe le Nil. La scène illustre parfaitement la dualité du sanctuaire, conçu comme un temple double où chaque moitié est consacrée à une divinité majeure. Sur ce registre particulier, nous voyons les deux maîtres des lieux marchant côte à côte dans une attitude de protection mutuelle : Horus l'Ancien (Haroëris), le dieu faucon, et Sobek, le puissant dieu à tête de crocodile. Cette cohabitation divine sur un même panneau souligne l'équilibre théologique recherché par les prêtres égyptiens de cette période tardive.</p>
+    <p>Les deux divinités sont représentées selon les codes classiques de la stature divine, tenant fermement le sceptre Ouas, symbole de puissance, et la croix de vie Ânkh. Horus, à gauche, porte la double couronne Pschent, affirmant sa souveraineté sur la Haute et la Basse-Égypte. Sobek, à sa droite, est coiffé de la couronne Atef ou d'une variante ornée de plumes et d'un disque solaire, rappelant ses liens étroits avec Rê sous la forme de Sobek-Rê. La finesse des détails, notamment dans le rendu des écailles de la tête du crocodile et des muscles des corps masculins, témoigne de la maîtrise technique des artisans locaux.</p>
+    <p>Le registre inférieur présente une scène de purification ou de bénédiction impliquant des figures royales et divines féminines. En figurant Sobek et Horus ensemble, le temple de Kom Ombo réconcilie deux forces cosmiques majeures : la puissance fertile des eaux nilotiques et la protection solaire souveraine.</p>
+    <p><strong>Siècle :</strong> IIe siècle av. J.-C. (-150) | <strong>Civilisation :</strong> Égypte ptolémaïque | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_instruments_chirurgicaux_medecine_haroeris_kom_ombo",
+    civId: "egypte",
+    periodId: "ptolemaique",
+    civName: "Égypte : Époque ptolémaïque",
+    century: "Époque gréco-romaine (vers -100 av. J.-C. / Ier s. ap. J.-C.)",
+    centuryDisplay: "Ier s. av. J.-C.",
+    centuryNumeric: -100,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Trousse d'instruments chirurgicaux antiques et chaises d'accouchement (Mur extérieur de Kom Ombo)",
+    site: "Temple de Kom Ombo - Mur d'enceinte extérieur (Kom Ombo)",
+    originSite: "Kom Ombo",
+    locationType: "site",
+    currentLocation: "In situ (Mur d'enceinte du Temple de Kom Ombo)",
+    category: "Relief en creux sur grès",
+    isHighlight: true,
+    chips: ["Époque ptolémaïque", "Kom Ombo", "Médecine antique", "Instruments chirurgicaux", "Scalpels", "Haroëris médecin", "Obstétrique"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMky3aW5CdexFOoNaQtAO9PO9wLjyES0PjlkWirU_U0TjqM0wJEliqmdlpQ7NQyP8vldDaOFIKBPqhZXXBrOuCjam39d8-wID1bA8slXXiJRUtVXwib1I4qOYljysm3HQZlGeU6yAL6T4HYBavC0o7QxA=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce bas-relief exceptionnel se situe sur le mur d'enceinte extérieur du temple de Kom Ombo, une zone célèbre pour ses représentations uniques dans l'art égyptien. Ce panneau particulier est mondialement connu des historiens de la médecine car il est interprété comme l'une des plus anciennes représentations d'un ensemble d'instruments chirurgicaux et médicaux. Gravé à l'époque ptolémaïque ou romaine, il témoigne de l'avancée des connaissances scientifiques de l'Égypte ancienne, où le temple ne servait pas seulement de centre religieux, mais aussi de lieu de guérison sous la protection du dieu Haroëris, le « Grand Médecin ».</p>
+    <p>Le registre central détaille une panoplie d'outils techniques disposés avec une précision surprenante : scalpels, ciseaux, aiguilles de suture, écarteurs, ventouses et même une balance destinée à peser les ingrédients des remèdes. Ces instruments sont encadrés par des divinités assises sur des chaises d'accouchement, soulignant le lien entre la chirurgie, la pharmacopée et l'obstétrique. L'organisation rigoureuse de la paroi suggère un véritable traité médical gravé dans la pierre pour les praticiens initiés.</p>
+    <p>À gauche de la scène, deux figures féminines sont représentées assises, dans une posture liée à la naissance ou à la convalescence. La technique du relief en creux permet aux formes des instruments de se détacher nettement sous le soleil égyptien, illustrant la synthèse fondamentale entre science chirurgicale et protection divine.</p>
+    <p><strong>Siècle :</strong> Ier siècle av. J.-C. (-100) | <strong>Civilisation :</strong> Égypte ptolémaïque | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "funeraire_stele_sobek_crocodile_pharaon_hedjet_musee_kom_ombo",
+    civId: "egypte",
+    periodId: "ptolemaique",
+    civName: "Égypte : Époque ptolémaïque",
+    century: "Époque ptolémaïque (vers -150 av. J.-C. / dynastie lagide)",
+    centuryDisplay: "IIe s. av. J.-C.",
+    centuryNumeric: -150,
+    domain: "funeraire",
+    artifactType: "Stèle",
+    title: "Stèle cultuelle du dieu crocodile Sobek-Rê et du pharaon à la couronne Hedjet (Musée de Kom Ombo)",
+    site: "Temple de Kom Ombo (Kom Ombo)",
+    originSite: "Kom Ombo",
+    locationType: "museum",
+    currentLocation: "Musée du Crocodile, Kom Ombo (Égypte)",
+    category: "Stèle en haut-relief sur calcaire",
+    isHighlight: false,
+    chips: ["Époque ptolémaïque", "Kom Ombo", "Musée du Crocodile", "Dieu Sobek", "Couronne Hedjet", "Stèle votive", "Gorge égyptienne"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOvfFoYXP60VRVql5XBO73HPDdk3_bpcT4vSTj3h11j8k4dNiRQS7x0LnpeNU2KHWL_AK5J0B2ZFSpiMWCNtwrddBK5xZLW4JqYleIAz8PGAU_kY7PlcuTHcQX-oylCErJJGNaBlImn_CtbpmD72xZbjA=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette stèle sculptée en haut-relief est l'une des pièces maîtresses exposées au Musée du Crocodile, situé à proximité immédiate du temple de Kom Ombo. Contrairement aux vastes fresques murales du sanctuaire extérieur, cette œuvre offre une vision plus intime et condensée de la dévotion royale. Elle met en scène une rencontre solennelle entre un souverain et le dieu Sobek, le seigneur des eaux, représenté ici sous sa forme anthropomorphe avec une tête de crocodile. Le style vigoureux et les proportions robustes des personnages sont caractéristiques de l'art de la période ptolémaïque.</p>
+    <p>Le dieu Sobek occupe la partie droite de la composition, identifié par ses attributs de souveraineté divine : il porte une couronne complexe ornée de plumes et du disque solaire, soulignant sa nature solaire en tant que Sobek-Rê, et tient le sceptre Ouas de domination. Face à lui, le pharaon adopte une attitude de respect et d'offrande, coiffé de la couronne blanche de Haute-Égypte (Hedjet) ornée de l'uraeus protecteur. Cette interaction scelle le contrat sacré garantissant la crue bienfaisante et la fertilité du sol.</p>
+    <p>La stèle est surmontée d'une corniche à gorge ornée d'une frise d'uræus dressés, un motif architectural protecteur qui délimite l'espace sacré de la scène. Le travail du sculpteur joue sur les contrastes de profondeur pour donner du relief aux muscles et aux parures, créant une œuvre compacte de haute théologie votive.</p>
+    <p><strong>Siècle :</strong> IIe siècle av. J.-C. (-150) | <strong>Civilisation :</strong> Égypte ptolémaïque | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "sculpture_ptolemee_iv_offrandes_hathor_maat_deir_el_medineh",
+    civId: "egypte",
+    periodId: "ptolemaique",
+    civName: "Égypte : Époque ptolémaïque",
+    century: "Époque ptolémaïque (vers -210 av. J.-C. / règne de Ptolémée IV)",
+    centuryDisplay: "IIIe s. av. J.-C.",
+    centuryNumeric: -210,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Ptolémée IV Philopator officiant devant Hathor, Maât et Amon-Rê (Temple ptolémaïque de Deir el-Médineh)",
+    site: "Temple d'Hathor et de Maât (Deir el-Médineh, Thèbes)",
+    originSite: "Thèbes-Ouest",
+    locationType: "site",
+    currentLocation: "In situ (Sanctuaire central du Temple de Deir el-Médineh)",
+    category: "Bas-relief sur grès polychrome",
+    isHighlight: true,
+    chips: ["Époque ptolémaïque", "Deir el-Médineh", "Ptolémée IV", "Déesse Hathor", "Déesse Maât", "Polychromie thébaine", "Sanctuaire intime"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczM6ApovccdTTBp40TOsGhRXXSIRFPgNuap7iucveO03N_sX62wcQY_QygZWdCvn31LMyzv3u4Y3ZtdmD1VkAx9W3NlzohUsbfyG8cBmbcfVYIv5EhfuGMEkxGkt4LxBVVW2rVVdSoAPKnICEEZol_56VQ=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce bas-relief polychrome, situé dans le temple d'Hathor et de Maât à Deir el-Médineh, illustre la finesse de l'art ptolémaïque (vers 210-204 av. J.-C.). Contrairement aux scènes de guerre monumentales, ce décor se concentre sur l'intimité du dialogue entre le souverain et les puissances divines. La conservation remarquable des pigments — bleus, rouges et ocres — permet d'apprécier la richesse visuelle qui caractérisait autrefois l'ensemble des sanctuaires thébains.</p>
+    <p>La composition s'articule en deux registres superposés où le pharaon Ptolémée IV Philopator accomplit des rites d'offrande. Dans le registre supérieur, le roi est représenté faisant face à une assemblée de divinités trônant, dont Hathor, maîtresse des lieux, et Amon-Rê. Le roi présente des vases d'onguent ou d'encens, des gestes destinés à apaiser les dieux et à garantir l'harmonie cosmique (la Maât) sur la terre d'Égypte. Chaque figure divine est identifiée par des colonnes de hiéroglyphes détaillant ses titres et les bénéfices accordés au souverain, tels que la vie, la force et la santé.</p>
+    <p>Le registre inférieur poursuit cette thématique liturgique avec une procession de divinités protectrices, parmi lesquelles on reconnaît des formes d'Horus et de Thot. La précision des coiffes, des sceptres Ouas et des croix Ankh souligne le caractère sacré de cet espace, situé dans l'un des trois sanctuaires du fond du temple. Ce monument, bâti au cœur de l'ancien village des artisans de la nécropole, témoigne d'une ferveur religieuse intacte sous les premiers Ptolémées.</p>
+    <p><strong>Siècle :</strong> IIIe siècle av. J.-C. (-210) | <strong>Civilisation :</strong> Égypte ptolémaïque | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+   {
     id: "sculpture_ramses_iii_decheret_procession_divinites_medinet_habou",
     civId: "egypte",
     periodId: "nouvel_empire",
