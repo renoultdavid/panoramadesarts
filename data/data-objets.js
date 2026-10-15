@@ -5,8 +5,32 @@ window.ART_OBJECTS = window.ART_OBJECTS || [];
 
 window.ART_OBJECTS.push(
 
-
   {
+    id: "relief_hieroglyphes_sethi_ier_gournah",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (v. -1290 av. J.-C. / règne de Séthi Ier)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1290,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Bloc monumental en grès aux colonnes de hiéroglyphes en creux (Temple de Séthi Ier)",
+    site: "Temple funéraire de Séthi Ier (Gournah, Thèbes)",
+    originSite: "Château de millions d'années de Séthi Ier (Gournah, Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Temple de Séthi Ier, Gournah)",
+    category: "Bas-relief épigraphique",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Séthi Ier", "Gournah", "Relief en creux"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMDqfSUqkuQckjO0uzGDPlFBsCL9TzyNllJ98Dy_nTmeAFNtkHi6kxAp6nOxog-9vVEEd9ZGoyUVpSH1NoNWnpHRoVOHVZ0K2I4p_64N9iZ7U3UQ16j-gtxABqKQdl4GvmBaWLGmvI-eC33ZHzMaL-L7w=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette pièce archéologique est un fragment de relief monumental provenant du temple funéraire de Séthi Ier, situé à Gournah sur la rive ouest de Thèbes. Datant du début de la XIXe dynastie, aux alentours de 1290 avant J.-C., ce bloc de grès témoigne de la finesse de l’art ramesside. Les hiéroglyphes y sont gravés en creux avec une précision remarquable, une technique privilégiée pour les parois extérieures ou les zones fortement exposées à la lumière du soleil afin d'accentuer les contrastes par le jeu des ombres portées.</p>
+    <p>Le décor s'organise en colonnes verticales délimitées par de fines lignes de partage, une structure classique pour les textes rituels ou les listes d'offrandes. On y distingue des signes animaliers et symboliques d'une grande élégance, tels que le canard, le roseau ou le siège, qui conservent malgré l'érosion une lisibilité frappante. Ces inscriptions font probablement partie d’une dédicace royale ou d’une litanie adressée aux divinités thébaines, soulignant le rôle du pharaon comme intermédiaire sacré assurant l'équilibre cosmique.</p>
+    <p>L'état fragmentaire de l'œuvre rappelle l'histoire mouvementée des complexes funéraires de la nécropole thébaine, souvent utilisés comme carrières après la fin de l'époque pharaonique. La patine dorée du grès et la profondeur de la gravure illustrent le haut degré de maîtrise des artisans de Séthi Ier, dont le règne est considéré comme un âge d'or pour la sculpture égyptienne. Ce bloc demeure un vestige précieux de la piété royale et de la splendeur architecturale qui caractérisait autrefois le "Château de millions d'années" du souverain.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1290) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Architecture & Temples.</p>`
+  },
+   {
     id: "paroi_chambre_mererouka_saqqarah",
     civId: "egypte",
     periodId: "ancien_empire",
