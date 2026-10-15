@@ -6,6 +6,281 @@ window.ART_OBJECTS = window.ART_OBJECTS || [];
 window.ART_OBJECTS.push(
 
   {
+    id: "peinture_procession_divinites_tyti_qv52",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (v. -1150 av. J.-C. / règne de Ramsès III)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1150,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Procession d'Anubis et des divinités protectrices de l'inframonde (Tombe QV52)",
+    site: "Tombe de la reine Tyti - QV52 (Vallée des Reines, Thèbes)",
+    originSite: "Vallée des Reines (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe QV52, Vallée des Reines)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XXe dynastie", "QV52 Reine Tyti", "Vallée des Reines", "Anubis", "Génies protecteurs"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMdjBnaOOidxdYNC959EE_BKwCMTiJ2IJ0EqRWP0nX_4L4GAbktfhhn5Irebc2BvXDbKH6M5o1ecsDE6zeGKOPJNFNaH_sUMJYwWh78CQNOCEfBisJKyoCrcseevn6YFuglX9VqldjSeCMLoQ4yj8FObA=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette peinture murale à la détrempe sur enduit, datée de la XXe dynastie (vers 1150 avant J.-C.), orne les parois de la tombe QV52 appartenant à la reine Tyti, possible épouse de Ramsès III ou fille de Ramsès IV, située dans la Vallée des Reines à Thèbes. L'œuvre illustre une procession de divinités protectrices issues du panthéon funéraire égyptien, figurées ici avec une élégance caractéristique de l'époque ramesside tardive.</p>
+    <p>À gauche, le dieu Anubis à tête de canidé, gardien des nécropoles et maître de l'embaumement, ouvre la marche revêtu d'un pagne court et de la perruque tripartite bleue, suivi par une divinité ophidienne à tête de serpent et une troisième figure léontocéphale ou canine dont le visage a subi les outrages du temps. Ces entités, tournées vers l'intérieur de la sépulture, ont pour mission d'escorter le ka de la reine et de repousser les forces du chaos lors de son voyage dans l'inframonde.</p>
+    <p>La palette chromatique repose sur des contrastes vifs entre l'ocre rouge des corps, le bleu profond des coiffes et le jaune lumineux des bijoux, le tout étant souligné par un cerne noir vigoureux qui définit les silhouettes sur un fond gris clair. Le registre supérieur présente une frise de hiéroglyphes polychromes détaillant les titres prestigieux de la défunte, notamment ceux de Fille du Roi, Sœur du Roi et Grande Épouse Royale, inscrits sur un bandeau horizontal qui délimite l'espace sacré de la scène. Bien que l'enduit de plâtre présente des lacunes importantes dues à l'effritement naturel de la roche calcaire, la finesse des colliers ousekh et la précision des mains effilées témoignent du savoir-faire des peintres de Deir el-Médineh.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1150) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture murale, Tableaux & Mosaïque.</p>`
+  },
+  {
+    id: "peinture_reine_tyti_offrande_qv52",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (v. -1150 av. J.-C. / règne de Ramsès III)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1150,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "La reine Tyti parée de la dépouille de vautour en geste d'offrande (Tombe QV52)",
+    site: "Tombe de la reine Tyti - QV52 (Vallée des Reines, Thèbes)",
+    originSite: "Vallée des Reines (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe QV52, Vallée des Reines)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XXe dynastie", "QV52 Reine Tyti", "Vallée des Reines", "Grande Épouse Royale", "Dépouille de vautour"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPfnnMD4VRH3yDM5giXrUcG5_x6eIgEXpGJ_xNvptuk6utlgtrB1JZBR5-319SJeQegNFd6jmhqmurBbqRR4wGjJxeYLMU4SPJrHNkiWudcMUhliBIcSM1UQJIlPZF71_Dj0m8arRlYdH2QfiU4pv8VwA=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette peinture murale exécutée à la détrempe sur un enduit de plâtre, datant de la XXe dynastie (vers 1150 avant J.-C.), provient de la tombe QV52 de la reine Tyti située dans la Vallée des Reines à Thèbes. L'œuvre représente la reine elle-même dans une posture rituelle d'offrande, identifiable à ses attributs de Grande Épouse Royale et à son profil délicat caractéristique de l'esthétique ramesside.</p>
+    <p>Elle porte une perruque courte bleue surmontée d'un bandeau doré avec l'uraeus protecteur au front, complétée par une dépouille de vautour dont on distingue les ailes stylisées, symbole de la déesse Mout et insigne du pouvoir des reines. La souveraine est vêtue d'une robe de lin fin jaune ornée de motifs pointillés blancs, évoquant la richesse des textiles de cour, et tient devant elle un vase à onguent ou un brûle-parfum dont les pigments jaunes imitent l'or.</p>
+    <p>Son visage, peint selon les conventions de l'ocre rouge, présente un œil étiré au trait noir précis et un léger sourire, témoignant de la sérénité attendue dans l'au-delà. Des fragments de hiéroglyphes sur fond jaune entourent la figure, mentionnant ses titres sacrés et scellant son identité pour l'éternité dans la chambre funéraire. Malgré les pertes de matière sur la partie inférieure du visage et le buste, la vivacité du bleu égyptien et la finesse du dessin soulignent le prestige de Tyti.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1150) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture murale, Tableaux & Mosaïque.</p>`
+  },
+  {
+    id: "relief_anubis_chacal_socle_tyti_qv52",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (v. -1150 av. J.-C. / règne de Ramsès III)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1150,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Anubis canidé couché sur l'édicule sacré (Tombe QV52)",
+    site: "Tombe de la reine Tyti - QV52 (Vallée des Reines, Thèbes)",
+    originSite: "Vallée des Reines (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe QV52, Vallée des Reines)",
+    category: "Relief peint ramesside",
+    isHighlight: false,
+    chips: ["XXe dynastie", "QV52 Reine Tyti", "Vallée des Reines", "Anubis canidé", "Relief en creux"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMQKmdJaqoe0qhxRaPxjbLQeBk8PYt27Zpr_Qt3cHBhqJ8VTk1hGmwHTRpzoHPqm3mYqMQML7Ie88MmvA3_wG_y0aKjWdPKcPVkWGcNXQHpRP4SkdirVEL90brgWvUUOxWmKDE78yFpRCEERYTJc9XK4A=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette notice muséale détaille un relief peint provenant de la tombe de la reine Tyti (QV52), située dans la Vallée des Reines sur la rive ouest de Thèbes, datant de la XXe dynastie du Nouvel Empire, plus précisément du règne de Ramsès III. L'œuvre représente le dieu Anubis sous sa forme canine caractéristique, le chacal noir ici stylisé par des contours bleus et des rehauts de pigments rouges sur les oreilles, se détachant sur un fond jaune ocre symbolisant la dimension solaire et éternelle.</p>
+    <p>Le dieu est figuré de profil, assis sur un édicule ou un socle sacré en forme de pylône, arborant ses oreilles pointues et dressées ainsi qu'un collier décoratif, illustrant son rôle de gardien de la nécropole et de protecteur des défunts. Les hiéroglyphes polychromes qui entourent la divinité complètent la scène par des formules d'offrandes et des épithètes rituelles, utilisant des signes tels que le pain, le siège ou l'eau pour assurer la subsistance spirituelle de la reine dans l'au-delà.</p>
+    <p>La technique utilisée est celle du bas-relief creux sur un enduit de plâtre fin, typique de l'art ramesside, où la vivacité des couleurs primaires subsiste malgré l'érosion naturelle de la roche calcaire et les stigmates du temps visibles par les lacunes de matière. Cette représentation souligne l'importance du culte funéraire thébain et le statut exceptionnel de la reine Tyti, bénéficiant d'une iconographie religieuse d'une grande finesse d'exécution.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1150) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "relief_barque_solaire_oudjat_tyti_qv52",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (v. -1150 av. J.-C. / règne de Ramsès III)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1150,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Barque solaire sacrée et œil Oudjat protecteur (Tombe QV52)",
+    site: "Tombe de la reine Tyti - QV52 (Vallée des Reines, Thèbes)",
+    originSite: "Vallée des Reines (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe QV52, Vallée des Reines)",
+    category: "Relief peint ramesside",
+    isHighlight: false,
+    chips: ["XXe dynastie", "QV52 Reine Tyti", "Vallée des Reines", "Barque solaire", "Oudjat", "Relief en creux"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczN0UG5K7hS2I0EE1BiHMqso8zDojf_my1gHAMSKe26m2yzE6F6K8Vmoc9yEKEG_G9QKLMPRIpksMu_1ZdGkzItxOyQ9sueWCLBiJy3vRz-Hhryij_MM8E7rsObdG2CFDXdW2tqF1292ESFsd0pLzFHjNg=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce relief peint en creux issu de la paroi de la tombe de la reine Tyti (QV52), localisée dans la Vallée des Reines à Thèbes et datée de la XXe dynastie, représente une barque solaire sacrée naviguant vers l'au-delà sur un fond jaune ocre symbolisant la lumière divine.</p>
+    <p>L'embarcation, aux lignes élégantes soulignées de bleu et de rouge, porte en son centre une structure cultuelle ou un naos fermé, encadré par des éléments symboliques puissants dont un œil Oudjat protecteur, garant de l'intégrité physique et de la renaissance de la défunte. À la proue et à la poupe, on distingue des rames-gouvernails et des insignes rituels qui permettent au navire de traverser les régions nocturnes du Douat pour atteindre le lever du jour éternel.</p>
+    <p>La polychromie, bien que marquée par des pertes de matière calcaire, conserve des pigments d'une grande vivacité, notamment le bleu égyptien et les oxydes de fer, appliqués avec une précision caractéristique des ateliers royaux de l'époque ramesside. Cette scène iconographique s'inscrit dans le programme décoratif complexe de la sépulture, visant à assurer le voyage céleste de la reine Tyti auprès des divinités solaires et à confirmer son passage réussi vers l'immortalité.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1150) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "peinture_double_offrande_tyti_qv52",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (v. -1150 av. J.-C. / règne de Ramsès III)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1150,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Scène dédoublée d'adoration et tables d'offrandes de la reine Tyti (Tombe QV52)",
+    site: "Tombe de la reine Tyti - QV52 (Vallée des Reines, Thèbes)",
+    originSite: "Vallée des Reines (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe QV52, Vallée des Reines)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XXe dynastie", "QV52 Reine Tyti", "Vallée des Reines", "Offrandes funéraires", "Fleurs de lotus"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPWMXC7x4W9ABLPxGD1ALP4rGDkmccM4Ha_s7gvp-KQuS1jrztDxMvWxHAriQo--MDqrducejtu0Zbsn9kHw9XWjw1csk8gNlVRWy1f46fdt8QPrNkEsqAsPDWJhorWCm5VmDfN6lrEVjRDzJyDLaj4aA=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette peinture murale, extraite de la tombe répertoriée sous l'index QV52 dans la Vallée des Reines à Thèbes-Ouest, remonte à la XXe dynastie du Nouvel Empire égyptien, sous le règne de Ramsès III, et illustre avec une finesse remarquable les rites funéraires dédiés à la reine Tyti, personnage de haut rang portant les titres de Fille du Roi, Sœur du Roi, Épouse du Roi et Mère du Roi.</p>
+    <p>L'œuvre, exécutée selon la technique de la détrempe sur un enduit de plâtre tapissant les parois de calcaire, dépeint une scène d'offrandes rituelles où la défunte est représentée de manière dupliquée, agenouillée en signe d'adoration ou de réception devant des tables de victuailles richement garnies de pains, de fruits et de fleurs de lotus symbolisant la renaissance. La palette chromatique reste vive malgré les affres du temps, privilégiant le jaune d'ocre pour les fonds hiéroglyphiques et les chairs divines, le bleu égyptien pour les perruques tripartites et les détails ornementaux, ainsi que le rouge brique pour les contours.</p>
+    <p>Les colonnes de hiéroglyphes sur fond jaune qui surmontent la scène détaillent les formules d'offrandes invocatoires et les titres prestigieux de la reine, assurant ainsi la pérennité de son nom et de son culte dans l'au-delà. Le style artistique est caractéristique de l'époque ramesside, marqué par des profils graciles, des yeux étirés soulignés de fard et une certaine souplesse dans le traitement des drapés blancs translucides.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1150) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture murale, Tableaux & Mosaïque.</p>`
+  },
+  {
+    id: "peinture_tyti_agenouillee_gueridons_qv52",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (v. -1150 av. J.-C. / règne de Ramsès III)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1150,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "La reine Tyti agenouillée devant les guéridons d'offrandes et vases à libation (Tombe QV52)",
+    site: "Tombe de la reine Tyti - QV52 (Vallée des Reines, Thèbes)",
+    originSite: "Vallée des Reines (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe QV52, Vallée des Reines)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XXe dynastie", "QV52 Reine Tyti", "Vallée des Reines", "Libations", "Pains et lotus"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPPuJR26tV7o0NndQenKhs-7_jOqiOLHEh4EuIx7fAXILTVbpJ-sTZi0kS_-L5NZgnXJvShUhCuEYBEfYV1r_26kiokQ4f840JcO3k4h4CTmtGkCzhigKqon8rtM9t1xLBwJAI0Be8OZf9wM4G7epyaEA=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette scène murale, située dans la sépulture de la reine Tyti (QV52) au sein de la nécropole de la Vallée des Reines à Thèbes, illustre une séquence rituelle du Nouvel Empire datant de la XXe dynastie, période durant laquelle l'art ramesside atteint une maturité stylistique alliant rigueur canonique et fluidité des lignes.</p>
+    <p>La composition présente la souveraine dans une posture d'humilité et de dévotion, agenouillée sur un tapis devant des guéridons d'offrandes chargés de pains circulaires et surmontés de bouquets de lotus, symboles fondamentaux de régénération et de vie éternelle dans l'eschatologie égyptienne. La technique employée est celle de la peinture à la détrempe sur un enduit de plâtre fin, où l'artiste a utilisé une palette de pigments naturels incluant l'ocre jaune pour les fonds de textes, le bleu de lapis-lazuli synthétique pour les détails de la coiffe et le rouge terreux pour les éléments de structure.</p>
+    <p>On observe sur cette paroi la présence de vases globulaires posés au sol, destinés aux libations d'eau ou de vin, complétant le dispositif nécessaire à la survie du Ka de la défunte dans l'au-delà. Les inscriptions hiéroglyphiques encadrées par des filets bleus déclinent l'identité et la titulature prestigieuse de Tyti, notamment son statut de « Grande Épouse Royale » et de « Mère du Dieu », tout en formulant les prières traditionnelles pour que lui soient accordées les « douces brises du nord ».</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1150) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture murale, Tableaux & Mosaïque.</p>`
+  },
+  {
+    id: "peinture_procession_princes_divinites_tyti_qv52",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (v. -1150 av. J.-C. / règne de Ramsès III)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1150,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Procession des fils royaux ou divinités protectrices (Tombe QV52)",
+    site: "Tombe de la reine Tyti - QV52 (Vallée des Reines, Thèbes)",
+    originSite: "Vallée des Reines (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe QV52, Vallée des Reines)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XXe dynastie", "QV52 Reine Tyti", "Vallée des Reines", "Fils royaux", "Procession"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNBUyovAyxIp0cDIQKX0a66-ikQ7tgpxzwVwPDLt33b1NtEnqQxkL2-AVtCRuMGLG_Ytk7OMGFZredB_xPTbX5znhnwVxQQMCstGaYvmCl9UKi7ng6Y7wn-yEV7IjrZDFkMowu_k7AcaC-TD6h-_OqgnA=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette peinture murale, extraite du programme iconographique de la tombe de la reine Tyti (QV52) située dans la Vallée des Reines à Thèbes-Ouest, date de la XXe dynastie, plus précisément du règne de Ramsès III vers 1150 avant notre ère. L'œuvre représente une procession de divinités protectrices ou de fils royaux, caractérisée par une palette chromatique vive où dominent le bleu égyptien, l’ocre rouge et le jaune d’or, sur un fond de stuc blanc aujourd'hui partiellement dégradé.</p>
+    <p>Les personnages masculins sont figurés selon le canon de proportion égyptien, marchant de profil avec un torse de face, vêtus de pagnes courts plissés et de corselets de cérémonie maintenus par des bretelles. Ils portent des perruques bleues tripartites surmontées de bandeaux et sont parés de larges colliers ousekh ainsi que de bracelets de bras et de poignets. La finesse du trait souligne des visages aux nez aquilins et aux yeux fardés de noir, typiques de l'esthétique ramesside tardive.</p>
+    <p>Des colonnes de hiéroglyphes peints accompagnent les figures, précisant leur identité et les formules rituelles destinées à assurer la survie de la défunte dans l'au-delà. Bien que la couche picturale présente des lacunes importantes dues à l'humidité et au temps, l'œuvre témoigne de la haute qualité des ateliers royaux de Deir el-Médineh, capables de transcrire la complexité théologique du Livre des Morts à travers une élégance graphique remarquable.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1150) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture murale, Tableaux & Mosaïque.</p>`
+  },
+  {
+    id: "peinture_angle_libation_sem_tyti_qv52",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (v. -1150 av. J.-C. / règne de Ramsès III)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1150,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Scène d'angle : Libation au vase nemset par le prêtre-sem et reine Tyti (Tombe QV52)",
+    site: "Tombe de la reine Tyti - QV52 (Vallée des Reines, Thèbes)",
+    originSite: "Vallée des Reines (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe QV52, Vallée des Reines)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XXe dynastie", "QV52 Reine Tyti", "Vallée des Reines", "Prêtre-sem", "Libation", "Vase nemset"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMn6Blp_Mh-daOmsH6gdzYh6USwZdZVajoK_9sieIkVoTftR4b1pSOh2j5t-ONrbN3Sst1sLR6-gFpflexbM0rMOuDFJ0wcJDOJVtnmyG13KeyayX0lHXaAJU2ATifPezlhZTL1h8ZWqOmfgW7iGi3L4Q=w613-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette peinture murale située à l'angle d'une chambre funéraire dans la tombe de la reine Tyti (QV52) au sein de la Vallée des Reines illustre un moment clé du rituel funéraire royal de la XXe dynastie, vers 1150 avant notre ère. Sur le mur de droite, un prince royal ou une divinité juvénile est représenté debout, vêtu d'une peau de panthère stylisée parsemée de rosettes blanches, attribut caractéristique du prêtre-sem ou d'un officiant de haut rang.</p>
+    <p>Il procède à une libation à l'aide d'un vase nemset d'où s'écoule un filet d'eau purificatrice symbolisé par des lignes ondulées bleues. À sa gauche, sur le mur perpendiculaire, la reine Tyti elle-même ou une divinité féminine protectrice est figurée dans une attitude d'adoration, portant la dépouille de vautour sur sa perruque bleue, insigne de la dignité de Grande Épouse Royale, ainsi qu'une robe de lin fin presque transparente dont le plissé est suggéré par des traits rouges délicats.</p>
+    <p>L'esthétique de cette scène reflète parfaitement le style ramesside avec ses silhouettes élancées, ses visages aux traits fins et l'utilisation de couleurs saturées telles que le jaune de l'or, le rouge de la terre et le bleu lapis-lazuli, le tout encadré par une frise de khakherou et des inscriptions hiéroglyphiques. Cette composition d'angle crée un espace sacré dynamique où le geste rituel de la libation semble se prolonger physiquement vers la figure royale.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1150) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture murale, Tableaux & Mosaïque.</p>`
+  },
+  {
+    id: "peinture_anubis_horus_escorte_tyti_qv52",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (v. -1150 av. J.-C. / règne de Ramsès III)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1150,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Anubis et Horus escortant la reine Tyti vers le royaume souterrain (Tombe QV52)",
+    site: "Tombe de la reine Tyti - QV52 (Vallée des Reines, Thèbes)",
+    originSite: "Vallée des Reines (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe QV52, Vallée des Reines)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XXe dynastie", "QV52 Reine Tyti", "Vallée des Reines", "Anubis", "Horus"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOf7loqDLKBkcNmjHHWmOwK6uOJYNNIGHt9d6uOFON9-K3q0I20mM_YmsgwTueFHVlNlQukSkCAZHRRv92g_MuqmNfoq-Omo0bkS2XwfW4WtxN1h5DZvA9CCqBjxg392Ml28HJN2yVlWInUcXbmp7qX7w=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette peinture murale, extraite du programme décoratif de la tombe QV52 située dans la Vallée des Reines à Thèbes-Ouest, remonte à la XXe dynastie du Nouvel Empire, vers 1150 avant notre ère, et représente la reine Tyti, possible épouse de Ramsès III, entourée de divinités protectrices du monde souterrain.</p>
+    <p>L’œuvre dépeint ici une scène de présentation rituelle où deux divinités majeures du panthéon égyptien guident ou protègent la défunte dans son voyage vers l'au-delà, à savoir le dieu Anubis à tête de canidé, patron des embaumeurs et gardien des nécropoles, et le dieu Horus à tête de faucon, symbole de la légitimité royale et de la protection solaire. La technique utilisée est celle de la peinture à la détrempe sur un enduit de plâtre lissé, typique des sépultures ramessides, où les pigments naturels comme l'ocre rouge pour la peau, le bleu égyptien pour les perruques et les vêtements, et le jaune pour les bijoux conservent une vivacité remarquable.</p>
+    <p>Le style se caractérise par des silhouettes élancées, des épaules larges et des tailles fines, soulignant une élégance formelle propre à la fin de l'époque ramesside, tandis que les détails des larges colliers ousekh et des pagnes plissés témoignent du soin apporté à la parure divine. Les hiéroglyphes surmontant les figures servaient initialement à identifier les divinités et à énoncer les formules de protection magique garantissant la survie spirituelle de la reine dans le Douat.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1150) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture murale, Tableaux & Mosaïque.</p>`
+  },
+  {
+    id: "relief_ramses_iii_amenkhepeshef_hathor_qv55",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (v. -1150 av. J.-C. / règne de Ramsès III)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1150,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Ramsès III présentant le jeune prince Amenherkhépeshef à Hathor (Tombe QV55)",
+    site: "Tombe d'Amenherkhépeshef - QV55 (Vallée des Reines, Thèbes)",
+    originSite: "Vallée des Reines (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe QV55, Vallée des Reines)",
+    category: "Relief peint ramesside",
+    isHighlight: true,
+    chips: ["XXe dynastie", "QV55 Amenherkhépeshef", "Ramsès III", "Hathor", "Méplat peint"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczORVenUQ3C5jQ6B3CoVFk-nRcIuxUtHLqzxBBZQuZB_SaTOvho1V3uf0Zr431orag8Rx2pDBF07cfU3d6CQebWkmNTn0J69hvd96x22Cn0pcwr1VfO0_cy_gKAXR60N0LH0T-jSK0Ne57Tk9bRkcjojtg=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette peinture murale en méplat sculpté, située dans la tombe QV55 de la Vallée des Reines à Thèbes-Ouest, appartient au règne de Ramsès III durant la XXe dynastie et illustre l'introduction du jeune prince Amenherkhépeshef dans le monde divin.</p>
+    <p>La scène montre Ramsès III, coiffé du casque de guerre khepresh et paré d'un large collier ousekh, présentant son fils à la déesse Hathor, « Maîtresse de l'Occident », reconnaissable à sa coiffe composée de cornes lyres enserrant le disque solaire posé sur une base modius. Le prince héritier, représenté à une échelle plus petite derrière son père, porte la mèche de l'enfance sur le côté du crâne, signe de son jeune âge, et tient un éventail en plumes d'autruche, symbole de son rang princier.</p>
+    <p>L'exécution technique témoigne de l'apogée de l'art ramesside avec un relief en méplat délicatement sculpté dans un enduit de stuc blanc, rehaussé de pigments d'une fraîcheur exceptionnelle où dominent le bleu égyptien, le jaune ocre et le rouge brique. Les colonnes de hiéroglyphes surmontant les personnages identifient précisément le roi par ses cartouches, ainsi que la déesse Hathor qui accueille le défunt dans le royaume des morts. La composition est marquée par une grande tendresse iconographique dans le geste protecteur du souverain.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1150) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "peinture_amenkhepeshef_encensoir_kheprech_qv55",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (v. -1150 av. J.-C. / règne de Ramsès III)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1150,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Le prince Amenherkhépeshef au Khépresh officiant avec l'encensoir à bras (Tombe QV55)",
+    site: "Tombe d'Amenherkhépeshef - QV55 (Vallée des Reines, Thèbes)",
+    originSite: "Vallée des Reines (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe QV55, Vallée des Reines)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XXe dynastie", "QV55 Amenherkhépeshef", "Mèche de l'enfance", "Khépresh", "Encensoir"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPyflyPAhq3_nrvYONz5USJXUP02o5gfY0WQ7G4apyJADWtI2VjoctVNdWNeVUErhlaVJNvFK9Qs3xuLeoPr48G9VG-hjvuBm4j2VAyoFeInjH_Qhtcblrc54FTiAVU4lvSsHys7c3r7UXnodI_oKZHPg=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette œuvre murale extraite de la tombe du prince Amenherkhopshef (QV55) située dans la Vallée des Reines à Thèbes-Ouest date de la XXe dynastie, sous le règne de Ramsès III vers 1150 avant J.-C., et illustre une scène rituelle de haute facture artistique caractéristique du Nouvel Empire.</p>
+    <p>La composition présente le jeune prince Amenherkhopshef, fils de Ramsès III, reconnaissable à sa mèche de l'enfance tombant sur le côté du visage, bien qu'il porte ici les attributs d'un adulte de sang royal incluant le casque bleu khépresh orné de l'uraeus protecteur et un large collier ousekh. Le prince est figuré dans une posture d'offrande dynamique, tenant d'une main un encensoir à bras long terminé par une main de faucon supportant une coupelle de résine brûlante, tandis que son autre main est levée dans un geste d'adoration envers une divinité située hors champ.</p>
+    <p>Le traitement pictural témoigne d'une maîtrise exceptionnelle de la ligne et de la couleur, utilisant des pigments naturels comme l'ocre rouge pour la carnation, le lapis-lazuli pour les détails des parures et le blanc de chaux pour le pagne plissé, le tout sur un fond d'enduit clair qui exalte la vivacité des scènes. Les hiéroglyphes disposés en colonnes au-dessus et devant le prince précisent son identité et ses titres, s'intégrant harmonieusement à la scène pour former un ensemble théologique cohérent.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1150) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture murale, Tableaux & Mosaïque.</p>`
+  },
+   {
     id: "peinture_tympan_osiris_oudjat_sennedjem_tt1",
     civId: "egypte",
     periodId: "nouvel_empire",
