@@ -6,6 +6,306 @@ window.ART_OBJECTS = window.ART_OBJECTS || [];
 window.ART_OBJECTS.push(
 
   {
+    id: "sculpture_ramses_ii_char_bataille_qadesh_ramesseum",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1260 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1260,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Ramsès II sur son char de guerre bandant l'arc à la bataille de Qadesh (Ramesseum)",
+    site: "Ramesseum - Temple des millions d'années de Ramsès II (Gourna, Thèbes)",
+    originSite: "Thèbes-Ouest",
+    locationType: "site",
+    currentLocation: "In situ (Murs du Ramesseum, Thèbes)",
+    category: "Relief en creux sur grès",
+    isHighlight: true,
+    chips: ["XIXe dynastie", "Ramsès II", "Ramesseum", "Bataille de Qadesh", "Char de guerre", "Hittites", "Maât contre Isfet"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOKDV63JwlUTIkJgbB5bUGRRkNGME67R1fPizfWjw7ddAyTULxx3VIJSAIVk1aM0KAUTAGB3Dcgj41YiZHl2BcGyrfHEI9CDvD7OY8GQC6HQ0hY-yfDIPqxKv0ULlQlqcoShmukFWXZfjVjqYLXzUjKhg=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce relief dynamique, sculpté sur l'un des murs en grès du Ramesseum à Thèbes-Ouest, illustre l'un des épisodes les plus célèbres du règne de Ramsès II : la bataille de Qadesh. Le pharaon y est représenté en pleine action, debout sur son char de guerre lancé au galop, les rênes nouées autour de la taille pour libérer ses mains et bander son arc. Cette iconographie royale, emblématique de la XIXe dynastie, souligne la bravoure et la force surhumaine du souverain qui, selon les récits officiels, aurait repoussé seul l'ennemi hittite alors que ses troupes faiblissaient.</p>
+    <p>Le réalisme du mouvement est frappant dans le rendu des chevaux, dont les membres antérieurs cabrés et les panaches élégants accentuent l'effet de vitesse et de puissance. Sous les sabots des montures royales et les roues du char à six rayons, le sculpteur a représenté les ennemis vaincus, piétinés et renversés, créant un contraste saisissant entre l'ordre parfait incarné par Pharaon et le chaos de la déroute adverse. Les inscriptions hiéroglyphiques surmontant la scène servent de commentaire épique, glorifiant les exploits de Ramsès, « celui qui terrasse les pays étrangers ».</p>
+    <p>L'utilisation du relief en creux profond permet à la scène de rester lisible malgré l'immensité de la surface murale et les variations de l'ensoleillement sur la rive thébaine. Cette composition ne se contente pas de relater un fait historique, elle remplit une fonction magique et religieuse en affirmant la victoire éternelle du principe de Maât (l'ordre) sur l'Isfet (le désordre). Les cartouches de Ramsès II, visibles au-dessus de son arc, scellent cette déclaration de triomphe pour l'éternité.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1260) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_deesse_neith_couronne_rouge_colonne_ramesseum",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1260 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1260,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "La déesse Neith à la couronne rouge Deshret tendant l'Ânkh sur une colonne (Ramesseum)",
+    site: "Ramesseum - Temple des millions d'années de Ramsès II (Gourna, Thèbes)",
+    originSite: "Thèbes-Ouest",
+    locationType: "site",
+    currentLocation: "In situ (Salle hypostyle du Ramesseum, Thèbes)",
+    category: "Relief en creux sur grès",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Ramsès II", "Ramesseum", "Déesse Neith", "Couronne Deshret", "Signe Ânkh", "Colonne hypostyle"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMiUeD55vMY_qes_L8VI00dwp6lb6EW8HGt9s_Ekx5zb89G-VwzZbBvphANbF5LvMAcjIy398Wex8zuwPUAVbELEQWXwxggG1YLd5tvJ8QX3ukHpgtjqj91nzagzjm3HI0yr2-779FrJrZnMRfvtj7kSg=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce relief en creux, situé sur une colonne de la salle hypostyle du Ramesseum, représente la déesse Neith, reconnaissable à la couronne rouge de Basse-Égypte qu'elle porte avec élégance. Elle est figurée de profil, vêtue de la robe fourreau traditionnelle, tenant dans sa main gauche le signe ânkh de la vie. Sa silhouette élancée et le raffinement de son profil illustrent la maturité de l'art ramesside, où la puissance de la gravure s'allie à une douceur des traits pour incarner les divinités protectrices de la monarchie égyptienne sur la rive ouest de Thèbes.</p>
+    <p>Le contexte iconographique montre Neith intégrée à une procession de divinités venant bénir le pharaon Ramsès II. À sa droite, on distingue la silhouette de la déesse Mout ou Sekhmet, créant un dialogue visuel entre les différentes forces théologiques qui légitiment le pouvoir royal. Les hiéroglyphes situés au-dessus de la déesse confirment son identité et les dons de prospérité qu'elle accorde au « Seigneur des Deux Terres ». Ce type de décor répétitif sur les fûts des colonnes monumentales permettait au souverain de s'entourer symboliquement d'une garde divine éternelle dans l'enceinte de son château de millions d'années.</p>
+    <p>La technique du relief en creux profond, typique de cette époque, est ici parfaitement maîtrisée pour jouer avec les contrastes d'ombre et de lumière naturelle qui pénètre dans le temple. On note encore des traces de pigments dans les creux de la gravure, suggérant que l'ensemble du programme décoratif était autrefois polychrome et vibrant.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1260) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_investiture_divine_ramses_ii_kheprech_amon_sekhmet_ramesseum",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1260 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1260,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Investiture divine de Ramsès II au khépresh par Amon-Rê trônant et protection de Sekhmet (Ramesseum)",
+    site: "Ramesseum - Temple des millions d'années de Ramsès II (Gourna, Thèbes)",
+    originSite: "Thèbes-Ouest",
+    locationType: "site",
+    currentLocation: "In situ (Murs intérieurs du Ramesseum, Thèbes)",
+    category: "Bas-relief en grès polychrome",
+    isHighlight: true,
+    chips: ["XIXe dynastie", "Ramsès II", "Ramesseum", "Investiture divine", "Amon-Rê", "Déesse Sekhmet", "Khépresh"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczO3T6TLIF6XX53Z6907lBH5Q-OBcmD0o8w8hnbi1Oke1FbsM_1_nKaLM4eJ0OJhELdbj8ptsX0_cTXWXX6MIYb8tkworWMubN3bDHH9taMp03ZMC5TrlOyxTFJ_s2gTykpvFHE4eMNOFKIPP8X8KuEL4g=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette scène magistrale, sculptée sur les murs intérieurs du Ramesseum, illustre le cœur de la théologie royale de la XIXe dynastie : l’investiture divine de Ramsès II. Au centre, le pharaon, coiffé du casque de guerre khépresh, reçoit les attributs de son pouvoir directement des mains des dieux. À gauche, le dieu Amon-Rê, roi des dieux et protecteur de la monarchie thébaine, est assis sur son trône, coiffé de ses deux hautes plumes caractéristiques. Il tend vers les narines du souverain le signe ânkh, lui insufflant ainsi la vie éternelle et la force nécessaire pour gouverner l'Égypte.</p>
+    <p>Derrière le roi, la déesse léontocéphale Sekhmet ou Mout-Sekhmet, coiffée du disque solaire, pose une main protectrice sur son épaule. Ce geste d'accompagnement souligne le rôle de la divinité comme « Mère protectrice » du roi, veillant sur son intégrité physique et spirituelle. Les inscriptions hiéroglyphiques qui surmontent la scène détaillent les paroles de bienvenue des dieux et les titres de Ramsès II, enfermé dans des cartouches royaux qui ponctuent le décor, affirmant ainsi sa légitimité incontestée sur le trône d'Horus.</p>
+    <p>Le relief se distingue par une exécution d'une grande finesse, où les proportions du corps humain et les détails des parures divines atteignent un sommet de l'art ramesside. On observe encore des traces de pigments bleus sur le corps d'Amon, rappelant que l'ensemble du temple était autrefois une explosion de couleurs symboliques. Cette composition statique et sereine offre un contraste saisissant avec les scènes de bataille extérieures.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1260) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_procession_pretres_barque_sacree_naos_ramesseum",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1260 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1260,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Procession liturgique des prêtres portant la barque sacrée et son naos (Ramesseum)",
+    site: "Ramesseum - Temple des millions d'années de Ramsès II (Gourna, Thèbes)",
+    originSite: "Thèbes-Ouest",
+    locationType: "site",
+    currentLocation: "In situ (Parois du Ramesseum, Thèbes)",
+    category: "Relief en creux sur grès",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Ramsès II", "Ramesseum", "Barque sacrée", "Prêtres porteurs", "Belle Fête de la Vallée", "Naos"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMg1nhTp86o39B3N5cu57M30FMbYCHsAXuxTCdef6iuSel1GSuKDcLWTxWIIXBfNE_jRzwlEdAF4e2cUXd_X53TEYwyUZVcGOe30jmz9IVUdH0vz-R7mmdPj1n5WH5fw2qDsAXj3Yf1MFxN9uEeGeMuHw=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette scène sculptée en relief dans le temple du Ramesseum illustre la dimension rituelle et processionnelle du culte thébain sous Ramsès II. Elle représente des prêtres porteurs, reconnaissables à leur crâne rasé et à leurs pagnes longs plissés, transportant sur leurs épaules les brancards d'une barque sacrée. Ce navire rituel, abritant le naos (sanctuaire) qui renfermait la statue de la divinité lors des grandes sorties hors du Saint des Saints, constitue le point focal de la dévotion lors des fêtes religieuses comme la Belle Fête de la Vallée ou la fête d'Opet.</p>
+    <p>Le détail de la barque est particulièrement soigné, laissant apparaître des éléments symboliques tels que des étendards surmontés de figures divines et de petites silhouettes de prêtres accomplissant des rites à bord du vaisseau. La précision du relief en creux permet de distinguer la structure des brancards et la tension des corps, rendant compte du poids de l'objet sacré. Cette iconographie souligne l'importance de la médiation humaine, par l'intermédiaire du clergé, dans le maintien du lien entre le pharaon, son peuple et les puissances divines.</p>
+    <p>Sur le registre supérieur, on aperçoit des figures agenouillées et des symboles royaux qui encadrent la procession. L'œuvre assure, par sa présence physique sur la pierre, la répétition éternelle du rite et garantit ainsi la circulation continue de l'énergie divine dans le royaume.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1260) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_ramses_ii_kheprech_offrande_re_horakhty_pylone_ramesseum",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1260 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1260,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Ramsès II au khépresh et cartouche Ousermaâtrê devant le dieu solaire Rê-Horakhty (Ramesseum)",
+    site: "Ramesseum - Temple des millions d'années de Ramsès II (Gourna, Thèbes)",
+    originSite: "Thèbes-Ouest",
+    locationType: "site",
+    currentLocation: "In situ (Parties hautes ou pylône du Ramesseum, Thèbes)",
+    category: "Relief en creux sur grès",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Ramsès II", "Ramesseum", "Khépresh", "Rê-Horakhty", "Ousermaâtrê Setepenrê", "Table d'offrandes"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczO69sm4hOo3F42Wyl0W6AXtQfI7mbsKVxEzdY7a18W1H6VkqF4JgoC1dkFW1JKC7E_ukVQnlFoHSVZqTsSHt-wzSplg-N281SUTx57Uw5JZCO69wkUV2ez1sZl2BCrQuG6Zrwu9uWiogoIEFSQmi2fDHg=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette scène en relief, située dans les parties hautes ou sur un pylône du Ramesseum, illustre la piété filiale et royale de Ramsès II envers les grandes divinités de l'Empire. À gauche, le pharaon est représenté coiffé du casque khépresh, élevant une offrande ou accomplissant un geste d'adoration face à une divinité solaire. On distingue sur le visage du roi des restes de pigments rouges, rappelant que ces bas-reliefs étaient autrefois entièrement peints pour donner vie aux rituels de pierre.</p>
+    <p>À droite, le dieu Rê-Horakhty, forme solaire d'Horus, est identifiable à sa tête de faucon surmontée du disque solaire ceint de l'uraeus. Il tient dans ses mains le sceptre ouas et le signe ânkh, symboles de puissance et de vie qu'il s'apprête à octroyer au souverain. Entre les deux figures, une table d'offrandes richement garnie de pains, de viandes et de fleurs de lotus sert de pont entre le monde des hommes et celui des dieux, assurant le maintien de l'ordre cosmique par le sacrifice royal.</p>
+    <p>Les inscriptions hiéroglyphiques encadrant la scène sont particulièrement bien conservées et présentent les cartouches officiels de Ramsès II, notamment son nom de couronnement Ousermaâtrê Setepenrê (« Puissante est la Justice de Rê, l'Élu de Rê »). La clarté de la gravure, détachée sur le bleu intense du ciel thébain, souligne la majesté de l'art ramesside.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1260) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_sethi_ier_prince_ramses_capture_taureau_sauvage_abydos",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1290 av. J.-C. / règne de Séthi Ier)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1290,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Capture rituelle du taureau sauvage par Séthi Ier et le jeune prince Ramsès (Temple d'Abydos)",
+    site: "Temple funéraire de Séthi Ier - Couloir du Taureau (Abydos)",
+    originSite: "Abydos",
+    locationType: "site",
+    currentLocation: "In situ (Couloir du Taureau, Temple de Séthi Ier, Abydos)",
+    category: "Bas-relief en calcaire fin",
+    isHighlight: true,
+    chips: ["XIXe dynastie", "Séthi Ier", "Ramsès II", "Abydos", "Capture du taureau", "Lasso rituel", "Maât contre le chaos"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczN5xh5hfIJhvVuzXwIxWF2cp7W5-B7NGK1dNeyT7TR9h7EQ_l893tD_ttPXryEA-_9KZhLRT-2gdl3F7bmJIEXcZASzUIgm5xGElQNjzBr9DHuBHRSlcodpw-m57s-jP4HDdeORAQkeR7cqtmo32iuiYA=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette scène est un bas-relief en calcaire situé dans le Temple funéraire de Séthi Ier à Abydos, chef-d’œuvre de la XIXe dynastie du Nouvel Empire. Elle se trouve plus précisément dans le passage dit « du Taureau », qui relie la deuxième salle hypostyle à l'abattoir rituel du temple. La finesse de l'exécution, caractéristique du style de Séthi Ier, témoigne de l'apogée de l'art classique égyptien, mêlant élégance des lignes et précision anatomique.</p>
+    <p>Le relief illustre une scène rituelle dynamique où le pharaon, accompagné de son fils le prince héritier Ramsès (futur Ramsès II), participe à la capture d'un taureau sauvage destiné au sacrifice. On y voit le jeune prince tenant fermement la queue de l'animal pour le déséquilibrer, tandis que le roi l'attrape au lasso. Cette épreuve de force symbolise la victoire de l'ordre, la Maât, sur les forces du chaos représentées par l'animal indompté, et sert également de rite d'initiation pour le futur souverain.</p>
+    <p>L'œuvre se distingue par son sens du mouvement, assez rare dans la statuaire rigide égyptienne. Les corps sont élancés, les musculatures discrètes mais fermes, et le taureau est représenté avec une vivacité remarquable. Les hiéroglyphes qui surplombent la scène commentent l'action et invoquent les divinités d'Abydos, notamment Osiris, soulignant que chaque geste royal est une offrande garantissant la stabilité du monde.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1290) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_sethi_ier_encensoir_amshat_vase_hes_re_horakhty_abydos",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1290 av. J.-C. / règne de Séthi Ier)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1290,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Séthi Ier à l'encensoir amshat et vase hés face à Rê-Horakhty au trône sema-taouy (Temple d'Abydos)",
+    site: "Temple funéraire de Séthi Ier - Chapelles divines (Abydos)",
+    originSite: "Abydos",
+    locationType: "site",
+    currentLocation: "In situ (Chapelles axiales, Temple de Séthi Ier, Abydos)",
+    category: "Bas-relief en calcaire fin",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Séthi Ier", "Abydos", "Rê-Horakhty", "Encensoir amshat", "Vase hés", "Sema-Taouy"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP7TrzYb5ZUC4nwPloYMRQoBYh3LF_Rtzg7DG9-ARic2Ov34GGZZVWWhUVsvCMjvhsq76vEL0PBlC3cBUcDb_aGfJeFoSZ6DUztiA_oHHetOUsKGa7h9-KZ2AhhncrfeH9j0XwKZMH2ZmWFh3e6CuNi3Q=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce bas-relief exceptionnel provient également du Temple funéraire de Séthi Ier à Abydos, situé dans l'une des sept chapelles dédiées aux grandes divinités de l'Égypte. Réalisée sous la XIXe dynastie, cette œuvre illustre le sommet de l'art du relief en creux, où la douceur des modelés et la précision des détails — comme les plis du pagne royal ou la texture du trône — témoignent d'une maîtrise technique inégalée dans la vallée du Nil.</p>
+    <p>La scène dépeint un échange sacré entre le pharaon Séthi Ier et le dieu Rê-Horakhty, reconnaissable à sa tête de faucon surmontée du disque solaire. Le souverain, debout dans une posture de dévotion, présente au dieu un encensoir à long manche (appelé amshat) et verse une libation d'eau pure à l'aide d'un vase hés. En retour, la divinité, assise sur un trône archaïque orné du motif sema-taouy (symbole de l'union des Deux Terres), tend au roi le signe ânkh, lui insufflant ainsi la vie éternelle et la protection divine nécessaire à son règne.</p>
+    <p>Au-dessus des protagonistes, une frise de hiéroglyphes finement gravés détaille les titres royaux et les paroles de la divinité, confirmant le don de « toute vie, stabilité et pouvoir » au pharaon. La présence de la déesse protectrice sous forme de vautour déployant ses ailes dans le registre supérieur renforce cette sauvegarde céleste.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1290) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_sethi_ier_encens_amon_re_min_amon_laitues_abydos",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1290 av. J.-C. / règne de Séthi Ier)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1290,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Séthi Ier offrant l'encens devant Amon-Rê et Min-Amon au jardin de laitues sacrées (Temple d'Abydos)",
+    site: "Temple funéraire de Séthi Ier - Chapelles axiales (Abydos)",
+    originSite: "Abydos",
+    locationType: "site",
+    currentLocation: "In situ (Chapelles axiales, Temple de Séthi Ier, Abydos)",
+    category: "Bas-relief en calcaire polychrome",
+    isHighlight: true,
+    chips: ["XIXe dynastie", "Séthi Ier", "Abydos", "Amon-Rê", "Min-Amon", "Laitues de Min", "Polychromie vive"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMUvu59VSkzFbmbUGBTGDxLopkZzvUnd6VUc9A4wo0zvUzmrUzcCWDZSL2HGYgKrlF0grY4L37ApcMphMyICtAqb8ucxkQhCu8Qo5qPPzMDmlpXJkAhmqp_cuuAXTBW_SyorkF2GCk7iFHwPQMgBuhQTQ=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce registre vibrant de couleurs appartient au cycle décoratif des sept chapelles axiales du Temple de Séthi Ier à Abydos. Contrairement à de nombreux sites où les pigments ont disparu, cette section préserve l'éclat originel de la XIXe dynastie, illustrant la technique égyptienne où la sculpture en bas-relief n'était que la première étape avant l'application d'une riche polychromie à base de pigments minéraux.</p>
+    <p>La scène centrale montre le pharaon Séthi Ier réalisant une offrande complexe devant deux formes de la divinité solaire et créatrice. À gauche, il fait face au dieu Amon-Rê, reconnaissable à sa haute couronne à deux plumes, tandis qu'à droite, il honore Min-Amon, forme ithyphallique du dieu associée à la fertilité, debout devant son jardin de laitues rituelles. Le roi présente un encensoir enflammé, dont la fumée s'élève vers les narines divines, symbolisant la communication entre le monde terrestre et le plan céleste.</p>
+    <p>L'usage des couleurs suit un code théologique strict : la peau rouge brique du pharaon souligne sa vitalité et son rôle actif d'officiant, tandis que les teintes jaunes du fond évoquent l'éclat solaire éternel du temple. Chaque détail, des colliers ousekh multicolores aux fleurs de lotus tenues par le souverain, est une métaphore de la renaissance et de la croissance.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1290) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_sethi_ier_onction_investiture_barque_sacree_abydos",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1290 av. J.-C. / règne de Séthi Ier)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1290,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Onction, liturgie royale et présence de la barque sacrée dans les chapelles divines (Temple d'Abydos)",
+    site: "Temple funéraire de Séthi Ier - Chapelles divines (Abydos)",
+    originSite: "Abydos",
+    locationType: "site",
+    currentLocation: "In situ (Chapelles axiales, Temple de Séthi Ier, Abydos)",
+    category: "Bas-relief en calcaire polychrome",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Séthi Ier", "Abydos", "Onction", "Amon-Rê", "Barque sacrée", "Bleu égyptien"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP3lfKzMXTyLkqE253zuublpAHCq5wjU5LmmH6VVSI7dlQgC3ujd_lNu9giBdRVCuclVJlxSplJ0ysnkl-PeeBsuuJbxPv7B3IWF0_QxeyhFPlDqxb5zi-XuWM5rkE5V9HWHtAdsnyzIGytPTpHVgJ7ow=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette paroi murale imposante se trouve dans le Temple funéraire de Séthi Ier à Abydos, au sein d'une des chapelles dédiées aux divinités majeures du panthéon égyptien. Ce registre polychrome illustre la continuité des rites quotidiens où le pharaon, en tant que grand prêtre suprême, sert d'intermédiaire unique entre le monde des hommes et celui des dieux. L'état de conservation des couleurs, notamment le bleu égyptien et les ocres rouges, permet d'admirer la richesse visuelle originale des sanctuaires du Nouvel Empire.</p>
+    <p>La scène présente une succession d'actes rituels où le roi Séthi Ier interagit avec plusieurs formes du dieu Amon-Rê. À gauche, le souverain est représenté recevant l'onction ou l'investiture divine, tandis que sur la droite, il procède à des offrandes spécifiques. Chaque interaction est rythmée par des colonnes de textes hiéroglyphiques qui consignent les paroles sacrées. Au registre supérieur, on devine la présence de la barque sacrée, utilisée lors des processions pour transporter la statue de la divinité hors du Saint des Saints.</p>
+    <p>L'aspect le plus frappant de ce mur est la répétition de la figure royale, créant une narration cinématographique de la liturgie. Le contraste entre la peau rouge du roi et la peau bleue de certaines formes d'Amon symbolise la dualité entre le monde terrestre charnel et la nature céleste ou cachée de la divinité.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1290) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_perspective_chapelle_sacree_sethi_ier_kheprech_abydos",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1290 av. J.-C. / règne de Séthi Ier)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1290,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Perspective axiale d'une des sept chapelles sacrées : Liturgie quotidienne et paroi du fond (Temple d'Abydos)",
+    site: "Temple funéraire de Séthi Ier - Chapelles axiales (Abydos)",
+    originSite: "Abydos",
+    locationType: "site",
+    currentLocation: "In situ (Chapelles axiales, Temple de Séthi Ier, Abydos)",
+    category: "Décor architectural en calcaire polychrome",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Séthi Ier", "Abydos", "Chapelles axiales", "Sanctuaire intime", "Polychromie memphite"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNQg6sCAE9Eneec5lCFltzbXI7U-O1gPKSDiXaMyH4CBDAbQDRBUJteuScE4goSmWuAYdJSiFYG6gnZGJjUOvNoL84PxZwhXp838JpRdMjkh0cMtuVlAJ3VquufUXSvAKOayOjEPf4fVcWirOrBPSVGmQ=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette vue immersive nous plonge au cœur de l'une des sept chapelles sacrées du Temple de Séthi Ier à Abydos, un espace architectural conçu pour abriter la barque rituelle et la statue d'une divinité majeure. Contrairement aux grandes salles ouvertes, ces sanctuaires étroits et profonds étaient réservés aux plus hauts dignitaires et au roi. Le programme iconographique couvre l'intégralité des parois, créant un environnement saturé de symboles où chaque geste du pharaon assure le maintien du cycle cosmique et la satisfaction des dieux.</p>
+    <p>Sur la paroi du fond, le point focal de la chapelle, le pharaon Séthi Ier est représenté face à une divinité assise, probablement Horus ou Osiris, soulignant le lien de filiation et de légitimité divine. Le roi, coiffé de la couronne bleue khépresh, présente des offrandes de nourriture ou d'onguents précieux, tandis que la divinité lui tend les symboles de vie et de souveraineté. La composition symétrique et le cadre hiéroglyphique qui entoure la scène principale transforment le mur en une porte symbolique vers le royaume céleste.</p>
+    <p>Les murs latéraux exposent les différentes étapes de la liturgie quotidienne : l'ouverture de l'autel, la purification par l'eau et l'encens, et l'habillage de la statue divine. L'utilisation magistrale de la polychromie, où le bleu profond des perruques divines répond au rouge éclatant de la peau royale, guide l'œil à travers cette bande dessinée théologique.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1290) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_sethi_ier_kheprech_encensoir_dieu_hieracocephale_abydos",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1290 av. J.-C. / règne de Séthi Ier)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1290,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Encensement rituel par Séthi Ier au khépresh devant le dieu hiéracocéphale trônant (Temple d'Abydos)",
+    site: "Temple funéraire de Séthi Ier - Chapelles divines (Abydos)",
+    originSite: "Abydos",
+    locationType: "site",
+    currentLocation: "In situ (Chapelles axiales, Temple de Séthi Ier, Abydos)",
+    category: "Bas-relief en calcaire polychrome",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Séthi Ier", "Abydos", "Khépresh", "Dieu hiéracocéphale", "Encensement", "Table aux lotus"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOJ5_B5i4aEd1ZY1fh27HGqEmDrLZCiEXDH1F28CxNdvTjZMSUoNum3S1Ol9J4wccj0lX45CxMTkcQylwobqO9WfZJqpgmwnvqbxLXP0_woPvVu1nZtpoc8kOtjwD75WjvRlafepf40suFzFYocXdGb5Q=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce registre coloré, situé sur le mur d'une des sept chapelles du Temple de Séthi Ier à Abydos, illustre l'un des moments les plus solennels de la liturgie quotidienne. Ce relief peint du Nouvel Empire met en scène le dialogue sacré entre le monde des hommes et celui des dieux, où le pharaon agit comme garant de l'équilibre cosmique. La préservation exceptionnelle des pigments permet d'apprécier la symbolique des couleurs, notamment le rouge vibrant de la chair royale et le bleu turquoise des parures divines.</p>
+    <p>Au centre de la composition, le roi Séthi Ier, coiffé de la couronne bleue khépresh, accomplit un rite d'offrande face à une divinité hiéracocéphale (à tête de faucon), probablement Horus ou Rê-Horakhty. Le souverain tient d'une main un encensoir à long manche, libérant une fumée purificatrice, tandis qu'il semble manipuler des instruments rituels ou des onguents précieux. En réponse, le dieu, assis sur un trône archaïque, tient le sceptre ouas et le signe de vie ânkh, symbolisant la transmission de la puissance et de la vitalité éternelle au monarque.</p>
+    <p>Entre les deux protagonistes se dresse une table d'offrandes stylisée, surmontée de fleurs de lotus épanouies, emblèmes de la renaissance. Les colonnes de hiéroglyphes surplombant la scène ne sont pas de simples légendes, mais des formules magiques qui activent le relief, transformant cette représentation en un acte religieux permanent.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1290) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_bloc_paroi_titulature_serekh_horus_ramses_ii_louvre",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1279 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1279,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Bloc de paroi aux serekhs royaux de Ramsès II : Taureau puissant et faucon Horus au Pschent",
+    site: "Temple funéraire de Ramsès II (Abydos)",
+    originSite: "Abydos",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes, B 1 - D 38)",
+    category: "Bas-relief en calcaire peint",
+    isHighlight: true,
+    chips: ["XIXe dynastie", "Ramsès II", "Abydos", "Serekh", "Nom d'Horus", "Taureau puissant", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOZB6c99J9fF4URt9rykjelNPbg5Aw4Uykpzq1zqSrmtfXAZN-wNjjJRY3T4F9wJB6udJdTk_SQXsh0DHKctXV6Reo42Y-NHQqBYKSZglqYbq4W7MMLxxmoDufontWCMrlJ7Q52Y2Q74ORInQxkqFlXMQ=w1818-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Ce bloc de paroi en calcaire peint provient du temple funéraire de Ramsès II à Abydos. Il témoigne de la virtuosité des ateliers royaux au début du règne, conservant une polychromie remarquable qui permet d'apprécier la symbolique complexe des titres pharaoniques.</p>
+    <p>La décoration est organisée en deux registres verticaux quasi identiques, présentant des éléments de la titulature royale. En haut, le faucon Horus, coiffé de la double couronne (pschent) et surmonté du disque solaire protecteur, plane au-dessus du nom d'Horus du roi. Ce nom est inscrit à l'intérieur d'un serekh, une représentation stylisée de la façade du palais royal, dans lequel on distingue un taureau puissant, symbole de la force physique et de la détermination du souverain.</p>
+    <p>Sous chaque serekh, on retrouve des signes hiéroglyphiques fondamentaux comme la croix ânkh (la vie), le sceptre ouas (la puissance) et le signe de la fête heb, signifiant que ces attributs sont souhaités au roi pour l'éternité. La répétition de ces motifs n'est pas purement décorative ; elle vise à renforcer magiquement la présence et la légitimité du pharaon dans l'enceinte sacrée du temple d'Abydos, ville sainte du dieu Osiris. La technique du relief joue sur les contrastes entre le fond clair et les pigments ocre, rouges et bleus pour donner vie à ces symboles de pouvoir.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1279) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+   {
     id: "sculpture_ramses_ii_massacre_ennemis_pschent_abou_simbel",
     civId: "egypte",
     periodId: "nouvel_empire",
