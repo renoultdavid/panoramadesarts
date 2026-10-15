@@ -6,6 +6,31 @@ window.ART_OBJECTS = window.ART_OBJECTS || [];
 window.ART_OBJECTS.push(
 
   {
+    id: "paroi_polychrome_tombe_amenherkhepshef_qv55",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (v. -1180 av. J.-C. / règne de Ramsès III)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1180,
+    domain: "funeraire",
+    artifactType: "Chambre funéraire / Hypogée",
+    title: "Paroi épigraphique polychrome au bleu turquoise (Tombe d'Amenherkhepshef, QV55)",
+    site: "Tombe d'Amenherkhepshef - QV55 (Vallée des Reines, Thèbes)",
+    originSite: "Vallée des Reines (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe QV55, Thèbes-Ouest)",
+    category: "Bas-relief polychrome funéraire",
+    isHighlight: false,
+    chips: ["XXe dynastie", "Ramsès III", "Tombe QV55", "Bleu turquoise"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP89sF0NrQTroupXuauVKLSLRCSnrB7pabRFUb2Cf7deWNSGHV8nVxfoAqncalYEpcZPEhbN1yj20XKrzFR44TlXNnx8jVIr6vDYwoSPwxz4tTEuLqLgw50Fzbj_AG4I_-J04WI6FDUWezKtp8S8FmpcA=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce relief polychrome appartient au décor de la sépulture d'Amenherkhepshef, l'un des fils du pharaon Ramsès III, membre de la XXe dynastie au XIIe siècle avant notre ère. Contrairement aux reliefs du temple de Médinet Habou, cette œuvre est située dans un hypogée (tombe souterraine), ce qui a permis de préserver une fraîcheur de coloris exceptionnelle. Les hiéroglyphes sont ici exécutés en relief saillant et peints avec une palette vibrante où domine un bleu turquoise profond et inhabituel, caractéristique de ce monument.</p>
+    <p>Le texte, organisé en colonnes séparées par des lignes de couleur bleue, provient principalement d'extraits du Livre des Morts. Ces formules sacrées sont destinées à guider le prince défunt dans son voyage vers l'au-delà. Chaque signe est traité avec une attention méticuleuse au détail : les oiseaux (phonogrammes) et les figures humaines sont colorés de manière conventionnelle — ocre rouge pour la peau masculine, jaune ou bleu pour les plumages — créant une véritable tapisserie graphique qui allie écriture et art pictural.</p>
+    <p>L'esthétique de cette tombe témoigne de l'apogée de l'art ramesside, où la recherche de finesse et de délicatesse l'emporte sur la monumentalité. Le prince y est souvent représenté sous les traits d'un adolescent, portant la tresse de l'enfance, guidé par son père devant les divinités funéraires comme Osiris ou Hathor. Ce décor constitue un témoignage précieux sur le statut des enfants royaux et sur la maîtrise des scribes-peintres de la nécropole thébaine, capables de transformer une paroi rocheuse en un passage éternel vers le divin.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1180) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Tombes & Rituels.</p>`
+  },
+   {
     id: "stele_thouerid_isis_hathor_louvre",
     civId: "egypte",
     periodId: "nouvel_empire",
