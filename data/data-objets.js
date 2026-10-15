@@ -6,6 +6,131 @@ window.ART_OBJECTS = window.ART_OBJECTS || [];
 window.ART_OBJECTS.push(
 
   {
+    id: "sculpture_sethi_ier_kheprech_autel_offrande_gourna",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1290 av. J.-C. / règne de Séthi Ier)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1290,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Séthi Ier au khépresh présentant l'autel à l'emblème sacré (Temple de Gourna)",
+    site: "Temple funéraire de Séthi Ier (Gourna, Thèbes)",
+    originSite: "Thèbes-Ouest",
+    locationType: "site",
+    currentLocation: "In situ (Chapelles latérales, Temple de Séthi Ier, Gourna)",
+    category: "Relief en creux sur grès",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Séthi Ier", "Gourna", "Khépresh", "Relief en creux", "Autel liturgique"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPCOlaW9av4q-ttRL7uQvqsIQWhsBdmAuEhmpiCg6CXXEJo_IsXRCNDE8vLjXxDW2lqlf6y7gGG87wV5UcU-u33yHbDRdgMmDxKsdnnRN8zyFG6D7SveF8g1lnG43OleFiH9ur4Ugv16IfZO8MU604n1Q=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette œuvre est un relief sculpté situé sur les parois du temple funéraire de Séthi Ier à Gourna, datant de la XIXe dynastie, vers 1290 av. J.-C. Le temple, bien qu'en partie ruiné, conserve des scènes d'une finesse d'exécution remarquable qui témoignent du renouveau artistique sous le règne de ce pharaon. Ce relief s'inscrit dans le programme iconographique des chapelles latérales, destinées à célébrer le lien privilégié entre le souverain et les grandes divinités du panthéon égyptien.</p>
+    <p>La scène représente le pharaon Séthi Ier, à droite, coiffé du khépresh (la couronne bleue de cérémonie), présentant une offrande complexe à une divinité assise sur un trône. Le roi tend un petit autel surmonté d'un emblème sacré, geste symbolique visant à maintenir l'harmonie universelle et à s'assurer la protection divine pour son voyage vers l'au-delà. Les hiéroglyphes entourant les personnages détaillent les paroles rituelles prononcées et les titres royaux, confirmant le statut de Séthi comme intermédiaire unique entre les hommes et les dieux.</p>
+    <p>Techniquement, le relief est exécuté en « relief en creux », une méthode particulièrement adaptée aux surfaces extérieures ou fortement éclairées, où les ombres portées accentuent la vigueur du trait. On observe la précision du profil royal, caractéristique du style de l'époque : un nez aquilin, des lèvres charnues et un œil en amande étiré, le tout d'une grande élégance. Ce fragment illustre la transition entre la rigueur de l'époque amarnienne et le classicisme majestueux des premiers ramessides.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1290) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_sethi_ier_re_horakhty_colonnes_fasciculees_gourna",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1290 av. J.-C. / règne de Séthi Ier)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1290,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Tableaux liturgiques devant Rê-Horakhty et colonnes papyriformes fasciculées (Temple de Gourna)",
+    site: "Temple funéraire de Séthi Ier (Gourna, Thèbes)",
+    originSite: "Thèbes-Ouest",
+    locationType: "site",
+    currentLocation: "In situ (Salles hypostyles, Temple de Séthi Ier, Gourna)",
+    category: "Bas-relief sur grès",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Séthi Ier", "Gourna", "Rê-Horakhty", "Colonnes papyriformes", "Divinités du Nil"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPzgRwo4MQWpXelYF8CwtCvbjoXxBlHGEfTbrCsq3LGocMapFqv862KZMj2xLgqTejNz3-chGq_86v41TVyIb6lRYjBdfnZNfhEp8gvr2Ygs2CwsVyMJST4PfK9-JUwy4PQ2JFhYLxdceJic90EBbm7Qw=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette scène monumentale, gravée sur les parois du temple funéraire de Séthi Ier à Gourna vers 1290 av. J.-C., illustre la fonction première de cet édifice : la célébration de la lignée royale et du culte divin. Le relief présente le pharaon Séthi Ier accomplissant des rites sacrés devant les divinités thébaines, entouré d'imposantes colonnes papyriformes fasciculées. Ces colonnes, dont les chapiteaux imitent des boutons de papyrus fermés, soutiennent des architraves massives gravées au nom du roi, symbolisant la forêt primordiale d'où émergea la vie selon la cosmogonie égyptienne.</p>
+    <p>Le registre central montre une succession de tableaux liturgiques où le roi interagit avec des dieux tels que le dieu solaire Rê-Horakhty, reconnaissable à sa tête de faucon surmontée du disque solaire. La précision du relief, typique de la XIXe dynastie, souligne la musculature élégante des personnages et le détail des parures royales. En multipliant ces représentations sur les murs du temple, Séthi Ier affirme la légitimité de la dynastie des Ramessides et assure la pérennité de son propre « Ka » (énergie vitale).</p>
+    <p>La partie inférieure des murs est ornée de files de porteurs d'offrandes et de divinités du Nil, personnifiant l'abondance des nomes d'Égypte qui convergent vers le temple pour le nourrir. Cet ensemble architectural et décoratif transforme le temple en un microcosme où le ciel et la terre se rejoignent sous l'égide du pharaon.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1290) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_sethi_ier_offrande_vegetaux_sacres_gourna",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1290 av. J.-C. / règne de Séthi Ier)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1290,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Offrande solennelle des végétaux sacrés de papyrus et de lotus par Séthi Ier (Temple de Gourna)",
+    site: "Temple funéraire de Séthi Ier (Gourna, Thèbes)",
+    originSite: "Thèbes-Ouest",
+    locationType: "site",
+    currentLocation: "In situ (Parois du Temple de Séthi Ier, Gourna)",
+    category: "Relief en creux sur grès",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Séthi Ier", "Gourna", "Bouquets sacrés", "Papyrus et lotus", "Uræus ailé"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPodA68__aBXONP8n8wORJLOR3Fi-Jg-bdrHaFW86ZpIwVXQ6tmxybHl3N7vAtYmBJoTF2mkTC3iS6jDAXwdJ1rFT9ysnQqMUrp1FOBAKb7X2Gbz-NylaxKD3J_82seD0LqWklHYg3aYg1VcxDyJu_YLw=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette scène rituelle, sculptée vers 1290 av. J.-C. sur les parois du temple de Séthi Ier à Thèbes, illustre un moment solennel de communion entre le monde terrestre et le divin. Le relief représente le pharaon Séthi Ier accomplissant une offrande de végétaux sacrés, probablement des bouquets de papyrus et de lotus liés, devant une divinité dont il ne subsiste qu'une partie de la silhouette à gauche. Ce geste symbolise l'apport de la vie et de la fertilité renouvelée à la divinité, assurant en retour la prospérité de l'Égypte sous le règne du monarque.</p>
+    <p>L'exécution artistique est caractéristique de la « Renaissance » de la XIXe dynastie : le trait est d'une souplesse exceptionnelle, soulignant la finesse des membres et le détail minutieux des vêtements plissés du roi. Séthi Ier est représenté avec une grande noblesse, portant un pagne court plissé et une perruque élaborée. Au-dessus de la scène, des cartouches richement gravés renferment les noms de couronnement et de naissance du souverain, encadrés par des signes de protection tels que l'uraeus ailé.</p>
+    <p>Le fond du relief est saturé d'inscriptions hiéroglyphiques qui agissent comme une partition rituelle, décrivant précisément la nature de l'offrande et les paroles prononcées par le roi. Malgré l'érosion naturelle de la pierre, la profondeur du relief en creux conserve toute sa force dramatique, jouant avec la lumière rasante pour donner vie aux personnages.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1290) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_cartouches_menmaatre_ankh_uraeus_gourna",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1290 av. J.-C. / règne de Séthi Ier)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1290,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Cartouches royaux de Séthi Ier Menmaâtrê, signe Ânkh et uræus protecteur (Temple de Gourna)",
+    site: "Temple funéraire de Séthi Ier (Gourna, Thèbes)",
+    originSite: "Thèbes-Ouest",
+    locationType: "site",
+    currentLocation: "In situ (Parois du Temple de Séthi Ier, Gourna)",
+    category: "Épigraphie monumentale sur grès",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Séthi Ier", "Gourna", "Menmaâtrê", "Cartouche royal", "Signe Ânkh", "Uræus"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczM0MYMIeImZUitM7zanPg-QzN9CiFZur4R-W6wNcECD1Kl7v-PJ-j8QXVpOMduPg-oc8AWQGP-yGK8s7h5wgFfR07dmVVS4W_tOD7oUZFDJCc8AwtmKXaaiKGqLDTZ3vfmeu-k1oiMAtKMJFj9y9ePmEg=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette œuvre est un détail épigraphique et symbolique sculpté en relief dans le temple funéraire de Séthi Ier à Gourna, datant de la XIXe dynastie, vers 1290 av. J.-C. Ce gros plan permet d'apprécier la maîtrise des scribes et des sculpteurs royaux qui ont immortalisé les noms et la puissance du pharaon sur le grès du sanctuaire. Chaque signe hiéroglyphique n'est pas seulement une unité d'écriture, mais une image sacrée censée s'animer par la magie du verbe et assurer la survie éternelle du roi.</p>
+    <p>Le détail présente deux cartouches royaux surmontés de disques solaires. Le cartouche est l'ovale sacré qui enserre le nom du pharaon, symbolisant tout ce que le soleil entoure et protégeant le nom contre les forces du chaos. On y distingue notamment le nom de couronnement de Séthi Ier, Menmaâtrê (« La justice de Rê est stable »), reconnaissable au signe de la déesse Maât assise. À gauche des cartouches, on observe le signe Ânkh, symbole de vie, ainsi qu'une représentation de l'uraeus, le cobra femelle protecteur qui foudroie les ennemis du souverain.</p>
+    <p>La qualité de la gravure, malgré les millénaires et l'érosion de la pierre, témoigne du style raffiné propre au règne de Séthi Ier. Les contours sont nets, les volumes subtilement suggérés, et la disposition des signes respecte une harmonie esthétique rigoureuse propre à l'art thébain.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1290) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "peinture_sethi_ier_barque_processionnelle_amon_naos_gourna",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1290 av. J.-C. / règne de Séthi Ier)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1290,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "La barque processionnelle d'Amon-Rê criocéphale et son naos sacré (Temple de Gourna)",
+    site: "Temple funéraire de Séthi Ier (Gourna, Thèbes)",
+    originSite: "Thèbes-Ouest",
+    locationType: "site",
+    currentLocation: "In situ (Sanctuaires intérieurs, Temple de Séthi Ier, Gourna)",
+    category: "Peinture murale et relief levé",
+    isHighlight: true,
+    chips: ["XIXe dynastie", "Séthi Ier", "Gourna", "Barque d'Amon", "Bélier criocéphale", "Naos", "Belle Fête de la Vallée"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNuTKCd-S0-2U-lQUWUmIJywrmKTzs0nijGvvd7Qh3rONAQc85okHkYoJvz9BWuupQanN6yWuIzB6YJL2Q9_gP2_O4hasVRJlcnLjh-SdCE6b5Qp6XDcMxkf-RfNavRL9U29JqJ4wnmvcBoqzxCC3i4eA=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette peinture murale, située à l'intérieur du temple funéraire de Séthi Ier à Gourna et datant de la XIXe dynastie (vers 1290 av. J.-C.), représente l'une des scènes les plus sacrées du rituel thébain : le transport de la barque processionnelle d'Amon. Contrairement aux reliefs extérieurs sculptés en creux pour jouer avec la lumière du soleil, les décors intérieurs du temple conservent souvent des traces de pigments et une exécution en relief levé d'une grande finesse, permettant de détailler les objets liturgiques les plus complexes.</p>
+    <p>La scène montre la barque sacrée, posée sur un socle ou transportée lors d'une fête religieuse, telle que la Belle Fête de la Vallée. La barque est reconnaissable à sa proue et sa poupe ornées d'une tête de bélier, symbole du dieu Amon, surmontée du disque solaire et de l'atef. Au centre de l'embarcation se trouve le naos (saint des saints) qui abritait la statue divine lors de ses sorties du temple. Des parasols de cérémonie et des enseignes royales entourent la structure, soulignant la présence protectrice du roi lors de ces événements où le divin venait à la rencontre du peuple.</p>
+    <p>Sous la barque, on distingue des tables d'offrandes chargées de pains, de viandes et de fleurs de lotus, ainsi que des supports pour brûler l'encens. La précision du dessin permet de voir les détails de la coque et des rames-gouvernails, transformant cette représentation en un document précieux sur la navigation sacrée et la logistique des fêtes thébaines. Par ce décor, Séthi Ier immortalisait sa participation aux rites les plus prestigieux de l'Égypte.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1290) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture murale, Tableaux & Mosaïque.</p>`
+  },
+   {
     id: "relief_maia_table_offrandes_lotus_libation_saqqarah",
     civId: "egypte",
     periodId: "nouvel_empire",
