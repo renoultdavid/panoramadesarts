@@ -6,6 +6,460 @@ window.ART_OBJECTS = window.ART_OBJECTS || [];
 window.ART_OBJECTS.push(
 
   {
+    id: "sculpture_tete_royale_transition_xi_xii_amenemhat_ier_louvre",
+    civId: "egypte",
+    periodId: "moyen_empire",
+    civName: "Égypte : Moyen Empire",
+    century: "Transition XIe - XIIe dynastie (vers -1990 av. J.-C. / règne d'Amenemhat Ier)",
+    centuryDisplay: "XXe s. av. J.-C.",
+    centuryNumeric: -1990,
+    domain: "sculpture_statuaire",
+    artifactType: "Statue en ronde-bosse",
+    title: "Tête royale au némès et yeux incrustés attribuée à Amenemhat Ier (Musée du Louvre)",
+    site: "Région thébaine ou memphite",
+    originSite: "Thèbes ou Memphis",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes, E 11195)",
+    category: "Ronde-bosse en pierre sombre et yeux incrustés",
+    isHighlight: true,
+    chips: ["Moyen Empire", "Amenemhat Ier", "Transition XIe-XIIe", "Némès", "Yeux incrustés", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNgEklW9_Gp1GaoyppEAl5TufjOS25yQYGw6zcdVC5-8C9jNsoJHP6cxPQELutDjVDMUTv7Md0L8iqPYHQ7b_ApWG4kosX8vJiNrCCk_Dk6WA_OWpmA0Vl0gi_4n6_l0UK0B4wq4QREOlCIOJsmuXH_VQ=w1818-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Cette tête sculptée en pierre sombre, identifiée comme un portrait royal de la transition entre la fin de la XIe dynastie et le début de la XIIe dynastie, est une œuvre d'une intensité rare. Elle représente un souverain, probablement Amenemhat Ier, portant le némès, la coiffe rayée emblématique de la royauté égyptienne. Bien que fragmentaire, le visage conserve des éléments de polychromie et des yeux incrustés en calcaire et pierre noire qui lui confèrent un regard d'une présence presque hypnotique. Le modelé du visage, avec ses pommettes hautes et son sourire esquissé, témoigne d'un renouveau artistique marquant la réunification et la stabilisation du pays après la Première Période intermédiaire.</p>
+    <p>Le style de cette tête est caractéristique de l'époque d'Amenemhat Ier, où l'on observe une volonté de renouer avec la tradition monumentale de l'Ancien Empire tout en y insufflant une humanité nouvelle. Les sourcils et les lignes de fard sont travaillés en relief plat, une technique qui souligne la structure vigoureuse du visage. L'uraeus, le cobra protecteur qui devait orner le front, est ici partiellement brisé, mais sa présence confirme le rang divin du personnage. Le choix d'une roche dure et sombre pour cette sculpture n'est pas seulement esthétique ; il symbolise l'éternité et la force immuable du pouvoir royal restauré.</p>
+    <p>Cette pièce est un jalon historique majeur, illustrant le passage de l'art thébain de la XIe dynastie vers le style plus classique et raffiné de la XIIe dynastie. Elle servait probablement d'objet de culte dans un temple ou au sein d'un complexe funéraire royal, agissant comme un support pour le « ka » du pharaon afin qu'il puisse continuer à régner sur l'Égypte depuis l'au-delà.</p>
+    <p><strong>Siècle :</strong> XXe siècle av. J.-C. (-1990) | <strong>Civilisation :</strong> Égypte antique (Moyen Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_sphinx_criniere_lion_amenemhat_iii_tanis_caire",
+    civId: "egypte",
+    periodId: "moyen_empire",
+    civName: "Égypte : Moyen Empire",
+    century: "XIIe dynastie (vers -1850 av. J.-C. / règne d'Amenemhat III)",
+    centuryDisplay: "XIXe s. av. J.-C.",
+    centuryNumeric: -1850,
+    domain: "sculpture_statuaire",
+    artifactType: "Statue en ronde-bosse",
+    title: "Sphinx à crinière léonine d'Amenemhat III réinscrit par les Hyksôs et Ramessides (Tanis)",
+    site: "Temple d'Amon (Tanis)",
+    originSite: "Tanis",
+    locationType: "museum",
+    currentLocation: "Musée égyptien du Caire (CG 393 / JE 15210)",
+    category: "Statue en ronde-bosse en granit gris-noir",
+    isHighlight: true,
+    chips: ["Moyen Empire", "Amenemhat III", "Tanis", "Sphinx léonin", "Granit gris-noir", "Réalisme psychologique", "Palimpseste royal", "Musée du Caire"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMGeD_mnDtGFh_89zackqQutH68lyVHCT-ug_FsfmkPds6VbMNIxLxD5f4xaMyHh0UofHBzvltvFtD9GuXplaBVbf698El2S4fjtdTUuNmUcSehotaqS5CU2_12485LFpvWi-YvQSgT248yqSrKGZhvew=w1611-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Ce sphinx au visage humain encadré d'une épaisse crinière de lion est l'un des sept exemplaires découverts à Tanis, dans le delta du Nil, par Auguste Mariette en 1861. Réalisée en granit gris-noir, cette œuvre date de la XIIe dynastie (Moyen Empire, vers 1850 av. J.-C.). Elle rompt avec l'iconographie traditionnelle du sphinx égyptien, où le visage royal est habituellement entouré du némès. Ici, le sculpteur a fusionné de manière plus organique les traits humains et l'animalité puissante du lion : les oreilles sont celles du félin et une crinière volumineuse remplace la coiffe royale habituelle, soulignant une force brute et une autorité farouche.</p>
+    <p>Le visage est caractéristique du style de la fin de la XIIe dynastie, particulièrement sous le règne d'Amenemhat III. Contrairement à l'idéalisme serein de l'Ancien Empire, les portraits de cette époque affichent un réalisme psychologique marquant. Les pommettes sont saillantes, les paupières lourdes et les commissures des lèvres abaissées, donnant au souverain une expression de sévérité, de lassitude ou de vigilance extrême. Ce style exprime la responsabilité écrasante du pharaon, perçu comme le « pasteur » de son peuple, veillant sur l'unité du pays après des périodes de troubles.</p>
+    <p>L'histoire de cette statue est aussi riche que son esthétique. Bien qu'elle ait été sculptée pour Amenemhat III, elle porte les traces de réappropriations successives par des souverains plus tardifs. On y trouve gravés les cartouches de rois Hyksôs (XVe dynastie), puis ceux de Ramsès II et de Mérenptah (XIXe dynastie), et enfin celui de Pousennès Ier (XXIe dynastie), faisant de ce sphinx un palimpseste politique traversant les millénaires.</p>
+    <p><strong>Siècle :</strong> XIXe siècle av. J.-C. (-1850) | <strong>Civilisation :</strong> Égypte antique (Moyen Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_amenemhat_iii_debout_marche_granit_noir_cachette_karnak_louxor",
+    civId: "egypte",
+    periodId: "moyen_empire",
+    civName: "Égypte : Moyen Empire",
+    century: "XIIe dynastie (vers -1841 av. J.-C. / règne d'Amenemhat III)",
+    centuryDisplay: "XIXe s. av. J.-C.",
+    centuryNumeric: -1841,
+    domain: "sculpture_statuaire",
+    artifactType: "Statue en ronde-bosse",
+    title: "Statue marchante d'Amenemhat III au némès et chendjit en granit noir (Cachette de Karnak)",
+    site: "Complexe religieux de Karnak - Cour de la Cachette (Thèbes)",
+    originSite: "Thèbes",
+    locationType: "museum",
+    currentLocation: "Musée de Louxor (J. 31 / CG 42014)",
+    category: "Statue en ronde-bosse en granit noir poli",
+    isHighlight: true,
+    chips: ["Moyen Empire", "Amenemhat III", "Karnak", "Cachette de Karnak", "Granit noir", "Némès", "Chendjit", "Musée de Louxor"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczN3879cbv3H88kpugodCoO6zW-hBTrPYlxpZza8qA77e2A2Q4n8-BGerZAk_uu0iLQTqq-bN1toM0vTrf3KCEAan3WjpyScipEt0tLwKdnPPg8B28PYR6NQ3De4Zx-UR2Q6GHhkQGtw7m9Pq44PqohJ_A=w1611-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Cette effigie royale en ronde-bosse représente le pharaon Amenemhat III, l'un des plus grands souverains de la XIIe dynastie du Moyen Empire, vers 1841 av. J.-C. Elle a été découverte en avril 1904 par Georges Legrain dans la célèbre « Cachette » du temple de Karnak, où elle avait été pieusement enfouie avec d'autres effigies royales.</p>
+    <p>L'œuvre est sculptée dans du granit noir (ou grauwacke selon les analyses), une pierre sombre et dense qui permet un poli d'une extrême précision. Le roi est représenté dans l'attitude de la marche, le pied gauche en avant, les bras le long du corps et les mains serrées, une pose traditionnelle symbolisant la puissance et la détermination du monarque.</p>
+    <p>Le pharaon porte les attributs classiques de sa fonction : le némès (coiffe plissée) orné d'un uraeus au front, et un pagne chendjit court et plissé. Le visage est caractéristique du style de la fin du Moyen Empire, avec des traits plus réalistes et individualisés que les modèles idéalisés de l'Ancien Empire : on y observe des pommettes marquées et un regard sérieux, reflétant la maturité et la responsabilité du souverain.</p>
+    <p>Cette statue servait de réceptacle au culte du roi dans l'enceinte sacrée d'Amon-Rê à Karnak. Elle témoigne de la maîtrise exceptionnelle des artisans de la XIIe dynastie dans le travail des pierres dures et illustre la solidité du pouvoir royal sous le règne d'Amenemhat III.</p>
+    <p><strong>Siècle :</strong> XIXe siècle av. J.-C. (-1841) | <strong>Civilisation :</strong> Égypte antique (Moyen Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_sphinx_tanis_granit_rose_vue_profil_louvre",
+    civId: "egypte",
+    periodId: "moyen_empire",
+    civName: "Égypte : Moyen Empire",
+    century: "XIIe dynastie (vers -1900 av. J.-C. / réinscriptions postérieures)",
+    centuryDisplay: "XIXe s. av. J.-C.",
+    centuryNumeric: -1900,
+    domain: "sculpture_statuaire",
+    artifactType: "Statue en ronde-bosse",
+    title: "Le Grand Sphinx royal de Tanis : Vue de profil et corps léonin en granit rose (Musée du Louvre)",
+    site: "Temple d'Amon (Tanis)",
+    originSite: "Assouan (carrières) / Tanis",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes, A 23)",
+    category: "Sculpture monolithique en granit rose poli",
+    isHighlight: false,
+    chips: ["Moyen Empire", "Tanis", "Sphinx de Tanis", "Musée du Louvre", "Granit rose", "Barbe postiche", "Némès"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPfQ6rOuO5YsBnaYgf-iLuFPKghXJR5zDf2Acp07_GcCJX_jX3ZBDBHi7ybxGohac61OLRiujXiYWcVFGcnXI1WOcdGjJkmZeOEe0zqJ9BfFpUSepwBxRhKtPwbIwg1M-QilOPV2hkpOgmpyMHlx-xnMg=w1818-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Cette sculpture monumentale représente le Sphinx de Tanis, l'une des pièces les plus emblématiques du département des Antiquités égyptiennes du musée du Louvre. Taillée dans un bloc monolithique de granit rose d'Assouan, elle incarne la puissance royale à travers une créature hybride possédant le corps d'un lion couché et le visage d'un souverain. Les détails anatomiques du lion, notamment la musculature des pattes et la tension du corps, témoignent d'une maîtrise exceptionnelle de la sculpture sur pierre dure.</p>
+    <p>Le visage du sphinx est encadré par le némès, la coiffe royale plissée, et arbore la barbe postiche, symboles de l'autorité pharaonique. Bien que les inscriptions gravées sur la base et la poitrine mentionnent des rois ultérieurs comme Amenemhat II, Merenptah ou Chéchonq Ier, les historiens de l'art s'accordent généralement pour dater le style de la sculpture du Moyen Empire. Le modelé précis du visage et la sévérité des traits sont caractéristiques de cette période, malgré les réappropriations successives par les pharaons des dynasties suivantes.</p>
+    <p>Découverte parmi les ruines du temple d'Amon à Tanis en 1825, cette statue impressionne par ses dimensions et son état de conservation. Le sphinx servait de gardien sacré, protégeant l'entrée des complexes religieux et manifestant la force solaire du roi.</p>
+    <p><strong>Siècle :</strong> XIXe siècle av. J.-C. (-1900) | <strong>Civilisation :</strong> Égypte antique (Moyen Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_dignitaire_gres_brun_pagne_hieroglyphes_amenemhat_iii_louvre",
+    civId: "egypte",
+    periodId: "moyen_empire",
+    civName: "Égypte : Moyen Empire",
+    century: "XIIe dynastie (vers -1820 av. J.-C. / règne d'Amenemhat III)",
+    centuryDisplay: "XIXe s. av. J.-C.",
+    centuryNumeric: -1820,
+    domain: "sculpture_statuaire",
+    artifactType: "Statue en ronde-bosse",
+    title: "Statue marchante d'un dignitaire en grès brun au pagne inscrit (Musée du Louvre)",
+    site: "Origine inconnue (Moyen Empire)",
+    originSite: "Moyenne ou Haute-Égypte",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes, E 11573)",
+    category: "Statue en ronde-bosse en grès brun",
+    isHighlight: false,
+    chips: ["Moyen Empire", "XIIe dynastie", "Amenemhat III", "Dignitaire", "Grès brun", "Perruque évasée", "Colonne hiéroglyphique", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOEU8G9Srep9GSyHymIA6ZH7XA_P0nkXcbV9YWEumXpf0IdK462I9TjPj9R0MOum0dN0B0QAmv1MhdpZVZvA-oFdw5kpndKxcSE-YezlLcOinWuuEsJWVWRnyJPJfTtL1nRPsL5yjSybxhc047Gq9PDTg=w1818-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Cette statue masculine en grès brun, datant du règne d'Amenemhat III, est un chef-d'œuvre de la statuaire de la XIIe dynastie. Elle représente un dignitaire, probablement un haut fonctionnaire de la cour, dans une attitude de marche conventionnelle, le pied gauche avancé. Le personnage porte une perruque évasée aux mèches horizontales soigneusement gravées, qui dégage les oreilles, une caractéristique stylistique fréquente sous le Moyen Empire. Ses traits de visage, bien que marqués par une certaine idéalisation, reflètent la sévérité et la force de caractère propres aux portraits de l'époque d'Amenemhat III, période durant laquelle l'art royal et privé atteint un haut degré de réalisme psychologique.</p>
+    <p>Le corps est traité avec une musculature sobre mais puissante, les bras le long du corps et les mains fermées sur de petits cylindres, symboles d'autorité. Le dignitaire est vêtu d'un pagne long, s'arrêtant à mi-mollet, dont la finesse du rendu suggère la transparence du lin. Une colonne de hiéroglyphes est gravée avec une grande précision au centre du pagne, dévalant entre les jambes du personnage. Cette inscription n'est pas seulement décorative ; elle contient le nom et les titres du défunt, ainsi que des formules d'offrandes invoquant les divinités pour assurer sa subsistance dans l'au-delà.</p>
+    <p>La statue repose sur un socle rectangulaire intégré, élément essentiel pour la stabilité de l'œuvre et le maintien magique du « ka » du propriétaire. Le choix du grès, pierre plus rugueuse que le calcaire mais très résistante, confère à l'objet une présence imposante.</p>
+    <p><strong>Siècle :</strong> XIXe siècle av. J.-C. (-1820) | <strong>Civilisation :</strong> Égypte antique (Moyen Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_deux_statuettes_feminines_ivoire_perruque_hathorique_louvre",
+    civId: "egypte",
+    periodId: "moyen_empire",
+    civName: "Égypte : Moyen Empire",
+    century: "XIIe dynastie (vers -1900 à -1800 av. J.-C.)",
+    centuryDisplay: "XIXe s. av. J.-C.",
+    centuryNumeric: -1850,
+    domain: "sculpture_statuaire",
+    artifactType: "Statue en ronde-bosse",
+    title: "Deux statuettes féminines de fécondité en ivoire à la coiffure hathorique (Musée du Louvre)",
+    site: "Nécropole thébaine ou memphite",
+    originSite: "Thèbes ou Haute-Égypte",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes, N 1494)",
+    category: "Petite plastique en ivoire d'éléphant",
+    isHighlight: false,
+    chips: ["Moyen Empire", "XIIe dynastie", "Ivoire", "Coiffure hathorique", "Symboles de fertilité", "Régénération", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczObKz4_L9aRF9hyKQoFhecSJHCh4yOqRw_QRRsD3ve3cgEXdpN1aqeokIjZW7b6EntBDrOpD464xmwctzmJxv0hJPvR1BA0GqRtLVA_jW__n5JO-qDfgZvZjKRwXmaOhPYcP_-t8Ns9t0B4iYFRCvxOSQ=w1818-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Ces deux statuettes féminines en ivoire constituent des exemples précieux de la petite plastique de la XIIe dynastie. Représentées debout, les bras le long du corps, elles illustrent l'idéal de beauté féminine du Moyen Empire : une silhouette gracile, des hanches marquées et une poitrine menue. L'utilisation de l'ivoire, matériau rare et précieux importé du Sud (Nubie ou Pays de Pount), indique que ces objets appartenaient à une élite sociale élevée. La statuette de gauche est vêtue d'une robe fourreau moulante s'arrêtant aux chevilles, tandis que celle de droite est représentée nue, avec les détails anatomiques et le triangle pubien discrètement soulignés.</p>
+    <p>Le travail de la perruque est particulièrement caractéristique de cette période. Les personnages portent la coiffure dite « hathorique », avec deux larges nattes qui s'enroulent sur la poitrine, évoquant la chevelure de la déesse Hathor, divinité de la joie, de l'amour et de la beauté. Ce lien iconographique n'est pas fortuit : dans le contexte funéraire, ces figurines ne sont pas de simples portraits, mais des vecteurs de régénération. La nudité de l'une et les attributs hathoriques de l'autre soulignent leur rôle de symboles de fertilité, destinés à aider le défunt à renaître dans l'au-delà en activant ses forces vitales.</p>
+    <p>Bien que de petite taille, ces pièces font preuve d'un raffinement extrême dans le modelé des visages et la précision des traits. Elles étaient souvent déposées dans les tombes de femmes ou de dignitaires, parfois au sein de boîtes à cosmétiques ou de dépôts rituels.</p>
+    <p><strong>Siècle :</strong> XIXe siècle av. J.-C. (-1850) | <strong>Civilisation :</strong> Égypte antique (Moyen Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_thoutmosis_iii_grauwacke_cachette_karnak_louxor",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1490 à -1450 av. J.-C. / règne de Thoutmôsis III)",
+    centuryDisplay: "XVe s. av. J.-C.",
+    centuryNumeric: -1470,
+    domain: "sculpture_statuaire",
+    artifactType: "Statue en ronde-bosse",
+    title: "Statue triomphale de Thoutmôsis III en grauwacke polie (Cachette de Karnak)",
+    site: "Complexe religieux de Karnak - Cour de la Cachette (Thèbes)",
+    originSite: "Thèbes",
+    locationType: "museum",
+    currentLocation: "Musée de Louxor (J. 2 / CG 42053)",
+    category: "Statue en ronde-bosse en grauwacke polie",
+    isHighlight: true,
+    chips: ["XVIIIe dynastie", "Thoutmôsis III", "Karnak", "Cachette de Karnak", "Grauwacke", "Némès", "Barbe postiche", "Musée de Louxor"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNg2wladpzjx4JK4XtkSwzmNz0Kjivk1DRqonYOGbeDaApPzBzdNju-CW2X79r4jgVyCttrnppiUlbXhAlsM-PsCg_VmDRrwT5_OH-TC169bhic6SqJ2I1qbhLQ6RtEFRdEmEE0gV7FRzLYPVVB-ehkOw=w1611-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Cette statue a été découverte en 1904 par l'archéologue Georges Legrain dans la célèbre « Cachette » du temple de Karnak, où des centaines de statues avaient été pieusement enterrées durant l'Antiquité.</p>
+    <p>L'œuvre est sculptée dans de la grauwacke (souvent identifiée comme du schiste vert ou du granit noir), une pierre sombre et très dure qui permet un poli d'une finesse extrême. Ce matériau précieux souligne la musculature athlétique et idéale du souverain, représenté ici dans l'attitude de la marche, le pied gauche en avant, les bras le long du corps et les mains serrées sur des cylindres, symboles de son autorité.</p>
+    <p>Le pharaon porte les attributs classiques de la royauté : le némès (coiffe de lin plissée) surmonté de l'uræus protecteur, ainsi qu'une barbe postiche finement tressée attachée par une jugulaire visible. Le visage est d'une symétrie parfaite, avec des yeux en amande étirés vers les tempes et un léger sourire qui confère au roi une expression de sérénité divine et de jeunesse éternelle.</p>
+    <p>Cette statue est considérée comme un chef-d'œuvre de la statuaire du Nouvel Empire en raison de l'équilibre exceptionnel entre la puissance physique du pharaon et la douceur raffinée de ses traits. Elle servait de support au culte du roi dans l'enceinte sacrée d'Amon, garantissant sa présence et son action protectrice sur l'Égypte pour l'éternité.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1470) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_thoutmosis_iii_assis_granit_montant_karnak",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1450 av. J.-C. / règne de Thoutmôsis III)",
+    centuryDisplay: "XVe s. av. J.-C.",
+    centuryNumeric: -1450,
+    domain: "sculpture_statuaire",
+    artifactType: "Statue en ronde-bosse",
+    title: "Statue royale de Thoutmôsis III assis au némès adossée à un montant épigraphique (Karnak)",
+    site: "Complexe religieux de Karnak (Thèbes)",
+    originSite: "Thèbes",
+    locationType: "site",
+    currentLocation: "In situ (Enceinte d'Amon-Rê, Karnak)",
+    category: "Statue en ronde-bosse en granit noir",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Thoutmôsis III", "Karnak", "Granit", "Némès", "Trône royal", "Montant en grès"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMNxwysBC2mrvroEYHspGWFQAm2flWeAIQs9o1UnGFJF9bLm_0Qhv1kmutS8XYNYI3OOemSPfnzfauAWKJIFz8gknDVtEE7uRs1MdrjESkBncoZZ5o29eYdk-2HZ9vQY49fWg5v8fGMcPA_6X23oT30Ng=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette statue de granit, située au sein du complexe de Karnak, représente le pharaon Thoutmôsis III, l'un des plus grands conquérants et bâtisseurs du Nouvel Empire. Appartenant à la XVIIIe dynastie, l'œuvre illustre la maturité de la statuaire royale de cette période, caractérisée par une recherche de perfection dans les proportions et une idéalisation sereine des traits du visage.</p>
+    <p>Le souverain est figuré dans une posture classique de majesté, assis sur un trône à dossier bas. Il est coiffé du Némès, la coiffe de lin plissée réservée à la royauté, ornée de l'uraeus protecteur sur le front. Ses mains sont posées à plat sur ses cuisses, un geste qui symbolise à la fois la stabilité du pouvoir et la piété du roi envers la divinité Amon.</p>
+    <p>La statue est placée contre un montant en grès richement gravé de hiéroglyphes, témoignant de l'intégration étroite entre la statuaire et l'architecture au temple de Karnak. Le contraste entre le poli du granit sombre et la texture du grès environnant souligne l'importance rituelle de l'image royale, conçue pour durer une éternité et servir de substitut physique au roi dans l'espace sacré.</p>
+    <p>Ce type de représentation servait à réaffirmer la légitimité du pharaon en tant qu'intermédiaire privilégié entre les dieux et les hommes, ancrant la présence du souverain au cœur du domaine d'Amon-Rê.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1450) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_buste_albatre_thoutmosis_iii_deir_el_bahari_caire",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1469 av. J.-C. / règne de Thoutmôsis III)",
+    centuryDisplay: "XVe s. av. J.-C.",
+    centuryNumeric: -1469,
+    domain: "sculpture_statuaire",
+    artifactType: "Statue en ronde-bosse",
+    title: "Buste en albâtre calcite peint de Thoutmôsis III au némès polychrome (Deir el-Bahari)",
+    site: "Temple d'Amon-Rê à Deir el-Bahari (Thèbes)",
+    originSite: "Deir el-Bahari (Thèbes-Ouest)",
+    locationType: "museum",
+    currentLocation: "Musée égyptien du Caire (JE 52364)",
+    category: "Ronde-bosse en albâtre calcite peint",
+    isHighlight: true,
+    chips: ["XVIIIe dynastie", "Thoutmôsis III", "Deir el-Bahari", "Albâtre calcite", "Némès peint", "Portrait royal", "Musée du Caire"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOLf9oZihG8dCguLE8d2NoD9S61bEPrVJxSt0yT1wL0IDTSVqZSZ2Vl6RWZ8rK4fmAcPWb_sSrWjM6zfxszBVKysqZJIpftt3WuXeO-XsJ_WfefZYT3efgMpAa6_5ICDgB34lHPrYI4QmuAXo1bYgC__w=w1611-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Ce buste en albâtre (calcite) peint représente le pharaon Thoutmôsis III, l'un des plus grands conquérants de la XVIIIe dynastie (vers 1479-1425 av. J.-C.). Découverte à Deir el-Bahari, dans l'enceinte du temple d'Amon-Rê, cette œuvre illustre l'apogée de l'art statuaire du début du Nouvel Empire. Le roi est figuré portant le némès, la coiffe royale plissée, dont les rayures conservent des traces de pigments bleus et jaunes alternés. L'usage de l'albâtre, une pierre translucide et lumineuse, confère au portrait une dimension divine, la chair du roi semblant irradier une lumière intérieure.</p>
+    <p>Le visage de Thoutmôsis III est traité avec un mélange de réalisme et d'idéalisation sereine. On y reconnaît les traits caractéristiques de la lignée thoutmoside : un nez légèrement aquilin, des yeux en amande très étirés et des lèvres charnues esquissant un sourire bienveillant. La finesse du modelé, visible dans le passage délicat des pommettes aux commissures des lèvres, témoigne de la virtuosité des ateliers royaux de Thèbes. Le roi porte également la barbe postiche, dont l'attache est subtilement sculptée le long de la mâchoire, affirmant son autorité souveraine et sa piété.</p>
+    <p>Bien que fragmentaire, ce buste dégage une impression de jeunesse éternelle et de puissance contenue. Il faisait partie d'une statue plus grande, probablement en position assise ou agenouillée, destinée à recevoir les offrandes dans le temple.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1469) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_statuette_steatite_emaillee_reine_tiy_amenhotep_iii_louvre",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1370 av. J.-C. / règne d'Amenhotep III)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1370,
+    domain: "sculpture_statuaire",
+    artifactType: "Statue en ronde-bosse",
+    title: "Statuette en stéatite émaillée bleu-vert de la reine Tiy parée du plumage d'Isis (Musée du Louvre)",
+    site: "Thèbes ou Haute-Égypte",
+    originSite: "Thèbes",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes, E 25493)",
+    category: "Micro-sculpture en stéatite émaillée",
+    isHighlight: true,
+    chips: ["XVIIIe dynastie", "Reine Tiy", "Amenhotep III", "Stéatite émaillée", "Bleu-vert", "Plumes de vautour", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPfn96_3STMCetIxPle6MtdZpdg3EChmGFrI3sI83UWYDEpHKMBWQKsadgFFJvLaI1dDoDTJic8PI-O2KlhI8C2Cjl5oNn6qytre2gCZN5TOXH70fd8Iyh-2uYw52lDiYDaguT7CPdFrLUmZ_XpyTv4XA=w1818-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Cette statuette d'une finesse exceptionnelle, sculptée dans la stéatite émaillée d'un bleu-vert vibrant, représente le couple royal emblématique de la XVIIIe dynastie : le pharaon Amenhotep III et la grande épouse royale Tiy. Bien que fragmentaire, l'œuvre conserve une densité de détails remarquable, illustrant l'apogée du luxe et du raffinement artistique du Nouvel Empire avant la transition amarnienne. La reine Tiy est ici figurée dans une attitude de dévotion ou d'accompagnement rituel, parée d'attributs qui soulignent son rôle politique et religieux sans précédent.</p>
+    <p>Le décor et les parures sont d'une précision chirurgicale pour un objet de cette dimension. La reine porte une perruque tripartite complexe, surmontée d'un mortier supportant deux hautes plumes de vautour, symbole de sa proximité avec les divinités féminines protectrices. Sa robe fourreau, très ajustée, est gravée de motifs de plumes imbriquées imitant le plumage des déesses ailées, tandis que son bras gauche replié sur la poitrine semble tenir un sceptre ou un attribut floral. Le poli de la stéatite et l'éclat de l'émail confèrent à la pierre une qualité presque textile, capturant la lumière pour magnifier la divinité du couple.</p>
+    <p>Cette pièce ne servait pas seulement de portrait, mais d'objet de culte ou de don royal destiné à un temple ou à une chapelle privée. Elle témoigne de l'importance croissante de la figure de la reine Tiy, qui apparaît ici comme une véritable partenaire du pouvoir souverain.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1370) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_colosses_assis_quartzite_viiie_pylone_karnak",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1500 à -1370 av. J.-C. / règnes Thoutmôsis III - Amenhotep III)",
+    centuryDisplay: "XVe s. av. J.-C.",
+    centuryNumeric: -1450,
+    domain: "sculpture_statuaire",
+    artifactType: "Statue en ronde-bosse",
+    title: "Colosses royaux assis en quartzite rouge du pylône sud de l'axe processionnel (Karnak)",
+    site: "Complexe religieux de Karnak - Pylônes de l'axe sud (Thèbes)",
+    originSite: "Thèbes",
+    locationType: "site",
+    currentLocation: "In situ (Face sud des pylônes de l'axe sud, Karnak)",
+    category: "Statuaire colossale en quartzite rouge",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Karnak", "Axe processionnel sud", "Quartzite rouge", "Colosses assis", "Amenhotep III", "Massacre des ennemis"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP5CMwLnqMxLZ_A7MykRqrvZZdFIKv_OAeDM40M44vgm3geZGOtShbYJH7NkM9M6T0gab-kbe_cmYWVh12KfdCimTIiELwt0_nVLYsLa8joLo2ePRvKMPkQdvFkJpxmjiPHkaQrNm3HncNzCAe2EHNjbg=w1813-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Voici les statues colossales assises situées devant la face sud du VIIe ou VIIIe pylône au sein du complexe de Karnak. Ces colosses, bien que très érodés, représentent des souverains de la XVIIIe dynastie, période faste du Nouvel Empire. Ils flanquent l'axe processionnel sud du temple, une voie majeure qui reliait autrefois le domaine d'Amon-Rê au temple de Mout et, plus loin, au temple de Louxor.</p>
+    <p>L'œuvre de droite, sculptée dans un quartzite rouge, est la mieux préservée de l'ensemble. Le pharaon y est représenté assis sur son trône, les mains posées à plat sur les cuisses, portant le némès et la barbe postiche. Bien que certaines de ces statues aient été réinscrites par des souverains ultérieurs, elles sont initialement attribuées à des rois tels qu'Amenhotep Ier, Thoutmôsis III ou Amenhotep II. La statue de quartzite est particulièrement associée à l'esthétique d'Amenhotep III, le « Pharaon-Soleil », en raison de l'utilisation de cette pierre aux reflets solaires et de la douceur des traits du visage encore perceptibles.</p>
+    <p>Le mur situé derrière les colosses constitue l'un des môles du pylône, décoré de scènes rituelles de grande envergure où le roi en taille héroïque saisit les prisonniers par les cheveux pour les abattre devant Amon, affirmant la protection absolue du pays face au chaos.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1450) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_colosses_debout_quartzite_porte_nord_kom_el_hettan_thebes",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1370 av. J.-C. / règne d'Amenhotep III)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1370,
+    domain: "sculpture_statuaire",
+    artifactType: "Statue en ronde-bosse",
+    title: "Colosses marchants d'Amenemhat III à la couronne Hedjet de la porte nord (Kom el-Hettan)",
+    site: "Temple des millions d'années d'Amenhotep III - Porte nord (Kom el-Hettan, Thèbes)",
+    originSite: "Thèbes-Ouest",
+    locationType: "site",
+    currentLocation: "In situ (Kom el-Hettan, Thèbes)",
+    category: "Statuaire colossale en quartzite",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Amenhotep III", "Kom el-Hettan", "Colosses debout", "Couronne Hedjet", "Quartzite", "Mission Sourouzian"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPZ_0kG5W2te4UXhAR9J01VvijY6UWtH8Qm4o1cvndk42KdDkBcy9-jEe1pH9iLXbZhvoWEWQ7ZndgjZ2Vqv1IfuPnNyjbwI-h2B05RVYmcNehPXA45dqpeWPsE6SxzFOn5SivHNP31mhaVb3sHPO90vA=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ces deux statues colossales de quartzite représentent le pharaon Amenhotep III et se dressent sur le site de Kom el-Hettan, sur la rive ouest de Thèbes. Elles marquent l'emplacement de la porte nord de l'enceinte de son temple des millions d'années, autrefois le plus vaste complexe funéraire d'Égypte, dépassant en superficie celui de Karnak ou le Ramesseum. Bien que moins célèbres que les colosses de Memnon qui gardent l'entrée principale, ces géants témoignent du raffinement artistique exceptionnel du règne de la XVIIIe dynastie.</p>
+    <p>Le souverain est représenté ici debout, dans une attitude de marche, le pied gauche en avant, coiffé de la couronne blanche de Haute-Égypte (Hedjet). Le travail du quartzite, une pierre extrêmement dure transportée depuis les carrières du Gebel el-Ahmar près du Caire, illustre la maîtrise technique des artisans royaux. Les traits du visage, caractéristiques du style d'Amenhotep III, affichent une sérénité divine avec des yeux en amande et un léger sourire, soulignant son statut de dieu vivant sur terre.</p>
+    <p>Ces colosses ont été redécouverts et patiemment redressés par la mission archéologique dirigée par Hourig Sourouzian depuis la fin des années 1990. Symboliquement, l'implantation du temple sur une zone inondable évoquait le tertre primordial (le Benben) émergeant du Noun lors de la crue annuelle du Nil.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1370) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_colosse_de_memnon_nord_sema_taouy_hapy_thebes",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1370 av. J.-C. / règne d'Amenhotep III)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1370,
+    domain: "sculpture_statuaire",
+    artifactType: "Statue en ronde-bosse",
+    title: "Colosse de Memnon : Trône monolithique au motif du Séma-Taouy et statues de la reine Tiy et Moutemouia (Thèbes)",
+    site: "Temple des millions d'années d'Amenhotep III - Premier pylône (Kom el-Hettan, Thèbes)",
+    originSite: "Thèbes-Ouest",
+    locationType: "site",
+    currentLocation: "In situ (Colosses de Memnon, Thèbes)",
+    category: "Statuaire colossale monolithique en quartzite",
+    isHighlight: true,
+    chips: ["XVIIIe dynastie", "Amenhotep III", "Colosses de Memnon", "Quartzite", "Séma-Taouy", "Reine Tiy", "Statue chantante"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP7NCFH6LGr52nE7JJHIYSD36w9DusxbRRZ3JCc9RgUua3aqt-LV6ii4t09svap6qJriNZcj7TE4IlzHE2Y_vjCJEnTJ94xSM_GpKWyGFRh36gW4v-C9qiohMiT6FvjPxUVbhotWZUCwTugu-541Wrxsw=w1611-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Ce colosse de Memnon, situé sur la rive ouest de Thèbes, est l'une des deux statues de quartzite monumentales qui gardaient l'entrée du temple funéraire d'Amenhotep III. Bien que le temple lui-même ait presque totalement disparu, ces géants assis sur leur trône continuent de dominer la plaine thébaine. Taillée dans un bloc monolithique, la statue représente le pharaon les mains posées sur les cuisses, dans une attitude de majesté sereine, fixant l'horizon vers l'est et le lever du soleil.</p>
+    <p>Le socle et les côtés du trône sont ornés de bas-reliefs d'une grande importance symbolique, comme on peut le voir sur ce flanc de la statue. On y distingue le motif du Séma-Taouy, l'union des Deux Terres, représenté par les dieux du Nil, les Hâpy, liant le lotus et le papyrus autour du signe hiéroglyphique de l'unité. À côté des jambes du roi, de plus petites silhouettes féminines représentent la reine Tiyi et la mère du roi, Moutemouia, soulignant l'importance de la lignée royale et du soutien divin féminin.</p>
+    <p>L'aspect érodé et fragmentaire de la pierre résulte de siècles d'exposition aux éléments et surtout d'un séisme dévastateur en 27 av. J.-C. Cette catastrophe a rendu l'une des statues célèbre dans l'Antiquité pour son « chant » au lever du jour. Les nombreuses traces de restaurations visibles datent de l'époque romaine sous Septime Sévère, qui fit réparer la statue, faisant ainsi cesser le phénomène acoustique.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1370) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_sobek_hemhem_amenhotep_iii_albatre_dahmasha_louxor",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1403 à -1365 av. J.-C. / règne d'Amenhotep III)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1380,
+    domain: "sculpture_statuaire",
+    artifactType: "Statue en ronde-bosse",
+    title: "Le dieu crocodile Sobek à la couronne Hemhem transmettant l'Ânkh à Amenhotep III (Musée de Louxor)",
+    site: "Temple de Sobek (Dahmasha, près d'Armant)",
+    originSite: "Dahmasha (Haute-Égypte)",
+    locationType: "museum",
+    currentLocation: "Musée de Louxor (J. 155)",
+    category: "Groupe statuaire en albâtre calcite",
+    isHighlight: true,
+    chips: ["XVIIIe dynastie", "Sobek", "Amenhotep III", "Dahmasha", "Albâtre calcite", "Couronne Hemhem", "Signe Ânkh", "Musée de Louxor"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPeMX08kvjyPFde65CIR3Vkfz3am1YW-04PEaY5d2IvkiYTJxrEqT5o0nLNNSUbNSo8vwSce5wBbn0w58vfoxr7eLM6fMmOx0fWErbkwIfDBTfaAZMhk0Ns07LTBgKfZ4CBXI5RNUGaqYcMhPhtA7bJQQ=w1611-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Cette magnifique statue en albâtre calcite représente le dieu crocodile Sobek aux côtés du pharaon Amenhotep III. Découverte en 1967 dans une cachette au sein du temple de Sobek à Dahmasha, près d'Armant, elle constitue l'un des chefs-d'œuvre les plus emblématiques du Musée de Louxor. L'œuvre témoigne de la maîtrise artistique exceptionnelle de la XVIIIe dynastie, vers 1403-1365 avant J.-C., illustrant le lien sacré unissant le souverain terrestre à la divinité.</p>
+    <p>Sobek, divinité associée à la puissance du Nil et à la fertilité, est figuré ici avec un corps d'homme et une tête de crocodile. Il porte la couronne hemhem, un emblème complexe surmonté de cornes et de plumes, soulignant son aspect solaire et protecteur. D'un geste bienveillant, il tend le signe de vie ankh vers le visage du roi, symbolisant la transmission de la vitalité divine et la légitimation du pouvoir royal par les dieux.</p>
+    <p>À sa gauche, le roi Amenhotep III est représenté dans la force de sa jeunesse. Il porte le némès, la coiffe royale plissée ornée de l'uraeus, ainsi que le pagne shendyt. Malgré la différence de taille entre le dieu et le monarque, une profonde harmonie se dégage de leur posture assise côte à côte. La douceur des traits du visage royal et le poli impeccable de la pierre calcaire confèrent à l'ensemble une aura de sérénité et d'éternité caractéristique de l'art du « Pharaon Magnifique ».</p>
+    <p>Cette sculpture servait initialement d'objet de culte, renforçant la présence spirituelle du roi dans le temple de la divinité crocodile.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1380) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_bloc_offrande_deux_crocodiles_sobek_nebnefer_kom_ombo",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1391 à -1353 av. J.-C. / règne d'Amenhotep III)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1370,
+    domain: "sculpture_statuaire",
+    artifactType: "Statue en ronde-bosse",
+    title: "Bloc d'offrande votif aux deux crocodiles gémeaux de Sobek dédié par le prêtre Nebnefer (Kom Ombo)",
+    site: "Temple de Kom Ombo (Kom Ombo)",
+    originSite: "Kom Ombo",
+    locationType: "museum",
+    currentLocation: "Musée du Crocodile, Kom Ombo",
+    category: "Sculpture en ronde-bosse et bloc inscrit en granit noir",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Amenhotep III", "Sobek", "Kom Ombo", "Granit noir", "Deux crocodiles", "Prêtre Nebnefer", "Musée de Kom Ombo"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMX0SogIgDDVEvxxjBv5cm3i7iUkS2V3vKXhUV6gwTlVbZaOuYU6xz2WXEXWfBaQw9W6sYWMRRJdw0dkxi1bh4uHNFgJTF12MtVwL61cgpEWou1XouD4Awj8jwsu8wCsTco0PeX0N3a4GhnjNLOFWpYmQ=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette pièce exceptionnelle exposée au Musée du Crocodile de Kom Ombo est un bloc de granite noir servant d'offrande, surmonté de deux crocodiles sculptés. Cet objet a été dédié au dieu Sobek par un prêtre nommé Nebnefer. Contrairement à la majorité des structures du temple voisin qui datent de l'époque gréco-romaine, cette œuvre remonte au Nouvel Empire, plus précisément au règne d'Amenhotep III (XVIIIe dynastie, env. 1391-1353 av. J.-C.).</p>
+    <p>La partie supérieure de l'objet met en scène deux crocodiles du Nil se reposant côte à côte sur une base rectangulaire. Cette représentation gémellaire symbolise la puissance protectrice et fertile de Sobek, le « Seigneur des Eaux ». La précision de la sculpture dans le granite noir, une pierre particulièrement difficile à travailler, souligne le statut élevé du donateur et l'importance du culte rendu à la divinité dans la région.</p>
+    <p>Les quatre faces du bloc sont richement gravées de registres de hiéroglyphes et de scènes figuratives. On y voit le prêtre Nebnefer en adoration devant Sobek, ainsi que des mentions répétées du nom de couronnement du pharaon Amenhotep III, Nebmaâtrê. Les inscriptions fonctionnent parfois comme un rébus visuel pour magnifier le nom du roi, liant ainsi le pouvoir terrestre du pharaon à la force sauvage et divine du dieu crocodile.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1370) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_tete_colossale_amenhotep_iii_hedjet_granit_rose_qourna_louxor",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1390 à -1353 av. J.-C. / règne d'Amenhotep III)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1370,
+    domain: "sculpture_statuaire",
+    artifactType: "Statue en ronde-bosse",
+    title: "Tête colossale d'Amenhotep III à la couronne blanche Hedjet en granit rose (Qourna)",
+    site: "Nécropole thébaine (Qourna, Thèbes)",
+    originSite: "Thèbes-Ouest",
+    locationType: "museum",
+    currentLocation: "Musée de Louxor (J. 131)",
+    category: "Statuaire colossale en granit rose poli",
+    isHighlight: true,
+    chips: ["XVIIIe dynastie", "Amenhotep III", "Qourna", "Granit rose", "Couronne Hedjet", "Sourire solaire", "Musée de Louxor"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMOJeFdMyePsQacV0KjnEnTfyxIX49pm0UegYJAUTg9iB-QtWYNe4pg4NpRBslZOJOEMt6hRgXqx9WCf1sgBaPbP9bxVI6prC30zvz2dnzRUdLdftE3B78eSjEB_gSrkupnulfPGibgwLvYbyyAlDZsxg=w1611-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Cette tête colossale, fleuron du musée de Louxor, représente le pharaon Amenhotep III (ou Aménophis III), qui a régné durant la XVIIIe dynastie du Nouvel Empire, vers 1390-1353 av. J.-C. Découverte à al-Qurna (Qourna), sur la rive ouest de Thèbes, elle appartenait à une statue monumentale érigée dans le cadre des vastes programmes de construction du souverain.</p>
+    <p>L'œuvre est sculptée dans un granit rose d'Assouan particulièrement dur, dont le poli exceptionnel souligne la perfection des traits royaux. Le pharaon porte la couronne blanche de Haute-Égypte (hedjet), ornée au front d'un uraeus (cobra protecteur) dont le corps ondule sur le sommet de la coiffe. Le visage, marqué par des joues pleines et des yeux en amande étirés par un fard sculpté, affiche le sourire serein et quasi bouddhique caractéristique de la fin de son règne.</p>
+    <p>Cette stylisation élégante, qui mêle majesté et douceur, est souvent considérée par les égyptologues comme une transition annonçant l'art révolutionnaire dit « amarnien » de son fils, Akhenaton. Le pharaon est ici représenté avec une barbe postiche tressée, symbole de sa nature divine. À cette époque, Amenhotep III était déjà vénéré comme un dieu vivant, et cette sculpture monumentale servait de support physique à son culte éternel dans la nécropole thébaine.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1370) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_tete_amenhotep_iii_kheprech_granodiorite_louvre",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1370 av. J.-C. / règne d'Amenhotep III)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1370,
+    domain: "sculpture_statuaire",
+    artifactType: "Statue en ronde-bosse",
+    title: "Tête royale d'Amenhotep III au casque bleu Khépresh en granodiorite (Musée du Louvre)",
+    site: "Thèbes ou Memphis",
+    originSite: "Thèbes",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes, A 25)",
+    category: "Ronde-bosse en granodiorite polie",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Amenhotep III", "Khépresh", "Granodiorite", "Pharaon-Soleil", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOD3mFc9mu_S2incP7JRLG4p4CYMwexsKhRPPdNx_unfY4Hu8J9sssZAeatLLclHqYEmlO2qsg45JXNioV-F4VSEPIsbLT3YujaVWBrcONIO6jLQ7p8pmQwnCV4sxZSFefEhrkeqmuItT_n4eSPqZIhcQ=w1818-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Cette tête royale, sculptée dans la granodiorite (une pierre sombre et dure), est une représentation magistrale du pharaon Amenhotep III. Elle illustre l'apogée artistique de la XVIIIe dynastie, une période où le portrait royal atteint un équilibre parfait entre autorité divine et élégance humaine. Le souverain est coiffé du khépresh, la couronne bleue de célébration ou de victoire, ornée sur le front de l'uraeus, le cobra protecteur prêt à foudroyer les ennemis du roi.</p>
+    <p>Le visage d'Amenhotep III reflète les canons esthétiques de son long règne : les yeux sont larges, en amande, et soulignés par de longs traits de fard qui s'étirent vers les tempes. Les sourcils sont tracés avec une courbure parfaite, et les lèvres, charnues et bien dessinées, esquissent une expression de sérénité souveraine. La granodiorite a été polie pour donner au visage un aspect soyeux, capturant la lumière pour magnifier la présence du « Pharaon-Soleil ».</p>
+    <p>Le khépresh, avec son décor de petites pastilles circulaires, symbolise ici le rôle dynamique du roi, tant dans ses fonctions militaires que religieuses. Ce portrait, probablement issu d'une statue de taille réelle, servait à perpétuer l'image du monarque dans un temple ou un palais.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1370) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_scribe_nebmertouf_accroupi_dieu_thot_babouin_louvre",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1370 av. J.-C. / règne d'Amenhotep III)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1370,
+    domain: "sculpture_statuaire",
+    artifactType: "Statue en ronde-bosse",
+    title: "Le scribe Nebmertouf accroupi déroulant son papyrus sous la protection de Thot babouin (Musée du Louvre)",
+    site: "Hermopolis Magna ou Tell el-Amarna",
+    originSite: "Hermopolis Magna (Moyenne-Égypte)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes, E 11153)",
+    category: "Groupe statuaire en stéatite sombre",
+    isHighlight: true,
+    chips: ["XVIIIe dynastie", "Amenhotep III", "Nebmertouf", "Scribe accroupi", "Dieu Thot", "Babouin", "Papyrus", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMsgOXs9boJ7p5G_2MvkeWn8ed-zgow401TnKypPgN-0rtVrve6SOt-tKNtx-7p4tfuX2-6HK5o9hyFg16dppuvFuUIaZ25zjSdPt5myRbDAOoPR8CwZDC_p7kFIOt4DpBeH6ostH3toFAyOo-_ryvgnQ=w1998-h1505-s-no-gm?authuser=0",
+    narrative: `<p>Cette statuette en stéatite sombre (ou schiste) représente un scribe accroupi devant le dieu Thot, figuré sous la forme d'un babouin. Œuvre magistrale du règne d'Amenhotep III, elle illustre parfaitement la piété des hauts fonctionnaires de la XVIIIe dynastie. Le scribe, dont le nom est souvent identifié comme Nebmertouf, est représenté dans l'attitude traditionnelle de sa fonction : assis en tailleur, il déroule sur ses genoux un papyrus sur lequel il s'apprête à écrire, le regard humblement baissé devant sa divinité tutélaire.</p>
+    <p>Le dieu Thot, patron des scribes, des lettres et de la sagesse, trône sur un piédestal élevé à la droite du fidèle. Sous sa forme de babouin hamadryas, il porte une crinière épaisse et soignée, et son expression dégage une autorité protectrice. La composition crée un dialogue spirituel intense entre le lettré et la source du savoir. Le travail de la pierre est d'une finesse extrême, permettant de détailler les plis de la peau du singe, la texture de la perruque du scribe ainsi que les colonnes de hiéroglyphes qui couvrent la base et le papyrus, mentionnant des prières et les titres du défunt.</p>
+    <p>Bien que le lieu exact de provenance reste discuté entre Hermopolis Magna (ville sainte de Thot) et d'autres sites comme Tell el-Amarna, le style de la pièce — mélange de classicisme thébain et d'un naturalisme annonçant les réformes à venir — confirme la datation du milieu du XIVe siècle av. J.-C. Cette statuette est un témoin de la place centrale de l'écrit et de la transmission du savoir dans la civilisation égyptienne.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1370) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+   {
     id: "sculpture_grand_sphinx_tanis_granit_rose_louvre",
     civId: "egypte",
     periodId: "ancien_empire",
