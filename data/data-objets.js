@@ -6,6 +6,393 @@ window.ART_OBJECTS = window.ART_OBJECTS || [];
 window.ART_OBJECTS.push(
 
   {
+    id: "relief_mererouka_jambes_colossales_procession_serviteurs_saqqarah",
+    civId: "egypte",
+    periodId: "ancien_empire",
+    civName: "Égypte : Ancien Empire",
+    century: "VIe dynastie (v. -2300 av. J.-C. / règne de Téti)",
+    centuryDisplay: "XXIIIe s. av. J.-C.",
+    centuryNumeric: -2300,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Le vizir Mererouka colossal dominant la procession des porteurs de mobilier funéraire",
+    site: "Mastaba de Mererouka (Saqqarah)",
+    originSite: "Saqqarah",
+    locationType: "site",
+    currentLocation: "In situ (Mastaba de Mererouka, Saqqarah)",
+    category: "Bas-relief en calcaire polychrome",
+    isHighlight: false,
+    chips: ["VIe dynastie", "Mererouka", "Téti", "Saqqarah", "Mobilier funéraire", "Perspective hiérarchique"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPC4MFwdfZq9WS6_eg0imK3X4uwt7TikN_iIsFwXoxlNrvpG99nxqbQl_PumhgUW284dJMbiBrd1YgL_ViPH7Hc3bWshizIrYRFieRKjLygYtzt9OATyPOU_nybhgSaKXh_SCYz3n9dw-pDTBFsJCqsZQ=w2158-h1438-s-no-gm?authuser=0",
+    narrative: `<p>Ce bas-relief en calcaire, extrait des parois du mastaba de Mererouka à Saqqarah, date de la VIe dynastie (v. 2300 av. J.-C.), sous le règne du pharaon Téti. La scène illustre la stature imposante du vizir Mererouka, dont seuls le bas du pagne plissé et les jambes puissantes sont ici visibles, dominant l'espace de sa taille surhumaine. Cette disproportion volontaire souligne son autorité suprême et son statut de gendre royal au sein de la cour.</p>
+    <p>Derrière la figure imposante du maître se déploie une procession de serviteurs organisée en trois registres superposés. Chaque groupe d'hommes est représenté avec une régularité mathématique, marchant au même pas, ce qui crée un effet de rythme et de multitude. Cette répétition est une convention artistique visant à démontrer l'abondance des ressources et le nombre de dépendants attachés au service du grand officier dans l'au-delà.</p>
+    <p>Les serviteurs sont chargés de transporter le mobilier funéraire et les offrandes nécessaires à la survie du ka du défunt. Sur les registres inférieurs, certains portent des coffres ou des objets de prestige sur leurs épaules. La préservation partielle des pigments ocre rouge sur la peau des personnages et sur la base du mur permet d'imaginer la vivacité originelle de cette chapelle funéraire, où la couleur jouait un rôle essentiel dans l'animation magique des scènes.</p>
+    <p>L'exécution technique révèle le très haut niveau des ateliers de Saqqarah à la fin de l'Ancien Empire. Le modelé des jambes du vizir montre une observation précise des volumes musculaires, tandis que le relief, bien que plat, parvient à suggérer la profondeur par la superposition des silhouettes des porteurs.</p>
+    <p><strong>Siècle :</strong> XXIIIe siècle av. J.-C. (-2300) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "relief_mererouka_justice_reddition_comptes_paysans_saqqarah",
+    civId: "egypte",
+    periodId: "ancien_empire",
+    civName: "Égypte : Ancien Empire",
+    century: "VIe dynastie (v. -2300 av. J.-C. / règne de Téti)",
+    centuryDisplay: "XXIIIe s. av. J.-C.",
+    centuryNumeric: -2300,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Scène de justice administrative : Reddition des comptes et paysans soumis (Mastaba de Mererouka)",
+    site: "Mastaba de Mererouka (Saqqarah)",
+    originSite: "Saqqarah",
+    locationType: "site",
+    currentLocation: "In situ (Mastaba de Mererouka, Saqqarah)",
+    category: "Bas-relief en calcaire polychrome",
+    isHighlight: false,
+    chips: ["VIe dynastie", "Mererouka", "Téti", "Saqqarah", "Justice administrative", "Scribes"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMocTANAZDnWAFUARLtZhP2w7b2DMnR-_l3VTvTl54HE3vOZ6p8i2ZZgVDdnST90JJMK3d8VLHB0Vx7wSRUxOh3Bnnj3G1MsYcfcY0fVMe9UioY4chCGvlFYAYIB4J6CKkBprXW7Lv1JZZ7P7BmmT8log=w2158-h1438-s-no-gm?authuser=0",
+    narrative: `<p>Ce relief sculpté en calcaire provient du célèbre mastaba de Mererouka à Saqqarah, une sépulture monumentale édifiée durant la VIe dynastie (v. 2300 av. J.-C.) sous le règne du roi Téti. Il illustre une scène de justice ou de reddition de comptes, un thème récurrent dans les tombes des hauts fonctionnaires de l'Ancien Empire qui supervisaient l'administration des domaines et la collecte des impôts.</p>
+    <p>La composition met en scène des subalternes ou des paysans conduits devant les scribes et les intendants de Mererouka. Au centre, deux personnages sont représentés dans une posture de soumission caractéristique, le buste fortement incliné vers l'avant. L'un d'eux est maintenu fermement par la nuque par un garde ou un officier, soulignant la rigueur de la discipline administrative égyptienne et l'autorité du vizir sur son territoire.</p>
+    <p>À droite de la scène, un homme debout semble consigner des informations ou diriger l'interrogatoire, tandis que des colonnes de hiéroglyphes surmontent les personnages pour identifier les acteurs et le contexte de l'action. La finesse des détails, des muscles des bras aux expressions concentrées des visages, témoigne de la qualité exceptionnelle des sculpteurs qui travaillaient pour la famille royale et sa parenté directe.</p>
+    <p>La partie inférieure du relief conserve des traces de la polychromie d'origine, notamment l'ocre rouge utilisé pour la peau masculine et les soubassements des murs. Ce réalisme narratif visait à perpétuer éternellement l'ordre et la prospérité du domaine de Mererouka.</p>
+    <p><strong>Siècle :</strong> XXIIIe siècle av. J.-C. (-2300) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "relief_mererouka_peche_filet_traine_faune_nil_saqqarah",
+    civId: "egypte",
+    periodId: "ancien_empire",
+    civName: "Égypte : Ancien Empire",
+    century: "VIe dynastie (v. -2300 av. J.-C. / règne de Téti)",
+    centuryDisplay: "XXIIIe s. av. J.-C.",
+    centuryNumeric: -2300,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Pêche collective au filet de traîne et foisonnement de la faune aquatique nilotique (Mastaba de Mererouka)",
+    site: "Mastaba de Mererouka (Saqqarah)",
+    originSite: "Saqqarah",
+    locationType: "site",
+    currentLocation: "In situ (Mastaba de Mererouka, Saqqarah)",
+    category: "Bas-relief en calcaire polychrome",
+    isHighlight: false,
+    chips: ["VIe dynastie", "Mererouka", "Téti", "Saqqarah", "Pêche au filet", "Tilapias", "Silures"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczO2BD9qgFvPDYeGj7pfVr5-v4LmXXNKD9SlHM1YO2GbuhbdCFlfqsMyecMOp30ws2KqrdZXO8ljvvuJVuzTa65HO6hRwA57y4X2lruCc1oXp_iHN03ZbcX9QPirON1MF9No_zBk0l0XO7NxOM8EflTepQ=w2158-h1438-s-no-gm?authuser=0",
+    narrative: `<p>Ce bas-relief en calcaire polychrome est une pièce maîtresse du décor du mastaba de Mererouka à Saqqarah, datant de la VIe dynastie (v. 2300 av. J.-C.) sous le règne du roi Téti. Il illustre une scène de pêche collective à la traîne, un thème classique de l'Ancien Empire qui symbolise la domination de l'ordre sur le chaos et assure au défunt une subsistance éternelle.</p>
+    <p>La composition est organisée en registres horizontaux d'une grande précision narrative. Au centre, une file de pêcheurs vigoureux déploie un effort physique intense pour tirer un large filet. Les artistes ont rendu le mouvement avec un dynamisme remarquable : les corps sont penchés, les muscles des bras et des jambes sont tendus, et la répétition des postures crée un rythme visuel qui évoque la coordination nécessaire à cette tâche laborieuse.</p>
+    <p>Sous les pieds des pêcheurs, le registre inférieur représente une eau bouillonnante de vie. On y observe une grande variété de poissons du Nil, tels que des tilapias ou des poissons-chats, sculptés avec un souci du détail naturaliste propre aux ateliers royaux de Saqqarah. Chaque espèce est reconnaissable par la finesse de ses écailles et la forme de ses nageoires, témoignant d'une observation directe de la nature par les sculpteurs égyptiens.</p>
+    <p>Au-dessus des pêcheurs, des scènes de navigation sur des barques de papyrus complètent le tableau, montrant d'autres membres du domaine en pleine activité. La préservation exceptionnelle des pigments ocre rouge sur la peau des hommes permet d'apprécier la chaleur et la vitalité originelles de cette paroi.</p>
+    <p><strong>Siècle :</strong> XXIIIe siècle av. J.-C. (-2300) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "relief_mererouka_gavage_capture_oies_basse_cour_saqqarah",
+    civId: "egypte",
+    periodId: "ancien_empire",
+    civName: "Égypte : Ancien Empire",
+    century: "VIe dynastie (v. -2300 av. J.-C. / règne de Téti)",
+    centuryDisplay: "XXIIIe s. av. J.-C.",
+    centuryNumeric: -2300,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Scène de basse-cour : Capture et contention des oies grasses (Mastaba de Mererouka)",
+    site: "Mastaba de Mererouka (Saqqarah)",
+    originSite: "Saqqarah",
+    locationType: "site",
+    currentLocation: "In situ (Mastaba de Mererouka, Saqqarah)",
+    category: "Bas-relief en calcaire",
+    isHighlight: false,
+    chips: ["VIe dynastie", "Mererouka", "Téti", "Saqqarah", "Oies", "Basse-cour", "Scène pastorale"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOnBGCspXun2Xgo-l8S2AtjxY_o_m_VjR4eTFAJgoMF490l2KeRc6nfFugfnaBrEtJjXIf0huGrBS16fD2ECuAmRfKfekl-8xIyX-3j2ZilWGCPeKgzHRyWTpIHuRU9UwdUnHJaNfHCRMXOx2KamrZEQQ=w2158-h1438-s-no-gm?authuser=0",
+    narrative: `<p>Ce bas-relief en calcaire, situé dans le mastaba de Mererouka à Saqqarah, date de la VIe dynastie (v. 2300 av. J.-C.) sous le règne du pharaon Téti. La scène représente une activité de basse-cour essentielle à l'économie d'un grand domaine : le gavage ou la capture des oies. Deux serviteurs, coiffés de la perruque courte habituelle, sont montrés en pleine action, manipulant avec assurance de grands oiseaux aquatiques dont le cou est maintenu avec fermeté.</p>
+    <p>L'artiste a capturé avec un grand réalisme la résistance des oies, dont les ailes sont déployées et les plumes de la queue détaillées avec précision. Cette scène de genre témoigne de l'importance de la volaille dans l'alimentation de l'élite égyptienne et dans la constitution des stocks destinés aux offrandes funéraires. La répétition des gestes des deux hommes souligne l'organisation méthodique du travail dans les propriétés du vizir.</p>
+    <p>Les inscriptions hiéroglyphiques situées au-dessus des personnages servent de légendes, décrivant probablement l'action en cours ou identifiant les types d'oiseaux. La gravure est d'une grande finesse, typique du style de l'Ancien Empire, où chaque ligne est pensée pour donner vie à la scène tout en respectant les conventions de la représentation de profil.</p>
+    <p>La préservation de la pierre permet d'observer la musculature des bras des serviteurs, tendus par l'effort, ce qui ajoute une dimension dynamique à la composition. Comme pour les autres reliefs du mastaba, cette image avait une fonction magique : elle assurait à Mererouka un approvisionnement éternel en oies grasses dans le monde des morts.</p>
+    <p><strong>Siècle :</strong> XXIIIe siècle av. J.-C. (-2300) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "relief_mererouka_assis_siege_pattes_lion_hommages_saqqarah",
+    civId: "egypte",
+    periodId: "ancien_empire",
+    civName: "Égypte : Ancien Empire",
+    century: "VIe dynastie (v. -2300 av. J.-C. / règne de Téti)",
+    centuryDisplay: "XXIIIe s. av. J.-C.",
+    centuryNumeric: -2300,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Le vizir Mererouka siégeant au fauteuil à pattes de lion recevant l'hommage de ses serviteurs",
+    site: "Mastaba de Mererouka (Saqqarah)",
+    originSite: "Saqqarah",
+    locationType: "site",
+    currentLocation: "In situ (Mastaba de Mererouka, Saqqarah)",
+    category: "Bas-relief en calcaire polychrome",
+    isHighlight: false,
+    chips: ["VIe dynastie", "Mererouka", "Téti", "Saqqarah", "Siège à pattes de lion", "Ocre rouge"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczME7l-uIUk09YIuRKQk3zSdhnGD3lgIYsoF9dCgr53_aGKY2xFNd1z574hrMeGiqGCuovVFpbValm_WvA3URPT1HNsRok-YQ2_nGMI0OP4VXcO__dLE4gSOM5iiQaJri-T4IY0bOgw1oouwYU2D6qTNiw=w2158-h1438-s-no-gm?authuser=0",
+    narrative: `<p>Ce relief en calcaire peint provient de la chapelle funéraire du mastaba de Mererouka à Saqqarah, datant de la VIe dynastie (v. 2300 av. J.-C.). Il représente le vizir Mererouka assis sur un siège à dossier bas, dont les pieds se terminent par des pattes de lion. Cette posture assise est une variante des représentations officielles du défunt, soulignant ici son autorité tranquille et son statut de haut dignitaire recevant les hommages de ses subordonnés.</p>
+    <p>Mererouka est figuré avec une peau ocre rouge intense, une convention de l'art égyptien pour représenter la vitalité masculine. Il porte une perruque courte, un large collier et un pagne dont le devant est redressé de manière rigide, caractéristique de la mode de l'Ancien Empire. De sa main gauche, il tient un long bâton de marche incliné, tandis que sa main droite repose sur sa cuisse, serrant un pli de tissu ou un sceptre court, symboles de sa fonction de juge et de gouverneur.</p>
+    <p>Derrière lui, le mur est divisé en plusieurs registres horizontaux peuplés d'une multitude de serviteurs. Ces personnages, représentés à une échelle bien plus petite pour marquer leur infériorité hiérarchique, sont disposés en rangs serrés. Certains sont debout, d'autres semblent s'incliner ou porter des objets, créant une impression de mouvement perpétuel et de service continu autour de la figure centrale du maître.</p>
+    <p>La conservation des couleurs est ici remarquable, permettant de distinguer nettement le contraste entre le blanc des pagnes et le rouge des corps. À droite de Mererouka, une colonne de hiéroglyphes commence à décliner ses titres, ancrant la scène dans une réalité administrative et religieuse précise.</p>
+    <p><strong>Siècle :</strong> XXIIIe siècle av. J.-C. (-2300) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "relief_mererouka_procession_porteurs_echarpes_croisees_saqqarah",
+    civId: "egypte",
+    periodId: "ancien_empire",
+    civName: "Égypte : Ancien Empire",
+    century: "VIe dynastie (v. -2300 av. J.-C. / règne de Téti)",
+    centuryDisplay: "XXIIIe s. av. J.-C.",
+    centuryNumeric: -2300,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Procession solennelle des serviteurs aux écharpes croisées convergeant vers le vizir",
+    site: "Mastaba de Mererouka (Saqqarah)",
+    originSite: "Saqqarah",
+    locationType: "site",
+    currentLocation: "In situ (Mastaba de Mererouka, Saqqarah)",
+    category: "Bas-relief en calcaire polychrome",
+    isHighlight: false,
+    chips: ["VIe dynastie", "Mererouka", "Téti", "Saqqarah", "Porteurs d'offrandes", "Écharpes rituelles"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczO1m2AZErugyuLn8mkjNd8VB7-ypgpS8UxfnMpssKkx6J3n_DeOvC_WHInHprzInBF9GA9UY3vFAL-r9QyhGU2t-mYpmvrSKyF1lmY4SrRl8cUV_wmaZnmJ2xvSjcuLh8utqn0zZuMQvwUHup1TC2Basg=w2158-h1438-s-no-gm?authuser=0",
+    narrative: `<p>Ce bas-relief en calcaire polychrome, issu du mastaba de Mererouka à Saqqarah (VIe dynastie, v. 2300 av. J.-C.), illustre une procession de porteurs d'offrandes et de serviteurs. Les personnages sont organisés en registres superposés d'une grande rigueur géométrique, une composition qui souligne l'abondance des biens destinés à accompagner le vizir dans l'au-delà. Le rythme des silhouettes identiques crée une sensation de mouvement continu et de richesse inépuisable.</p>
+    <p>Le souci du détail est particulièrement visible dans le rendu des carnations et des costumes. Les hommes sont représentés avec la peau ocre rouge traditionnelle, contrastant avec la blancheur de leurs pagnes courts. Certains portent des écharpes ou des bandes de tissu croisées sur la poitrine, indiquant leur rang ou leur fonction spécifique au sein du domaine. La répétition des postures, bras repliés ou mains portées au visage en signe de respect, renforce la solennité de la marche.</p>
+    <p>À l'extrémité de la paroi, la silhouette monumentale de Mererouka apparaît partiellement, servant de point de convergence à toute cette activité. Les serviteurs s'avancent vers lui dans une attitude de déférence absolue. Cette mise en scène de la hiérarchie sociale garantissait magiquement au défunt qu'il conserverait son autorité et ses privilèges dans le royaume d'Osiris, entouré de son personnel dévoué.</p>
+    <p>L'état de conservation des pigments permet d'apprécier la maîtrise des peintres-sculpteurs de l'époque de Téti. Les contours sont gravés d'un trait sûr, tandis que la couleur apporte le relief et la vie nécessaire à l'efficacité rituelle de l'image.</p>
+    <p><strong>Siècle :</strong> XXIIIe siècle av. J.-C. (-2300) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "relief_mererouka_porteurs_offrandes_textes_hieroglyphes_saqqarah",
+    civId: "egypte",
+    periodId: "ancien_empire",
+    civName: "Égypte : Ancien Empire",
+    century: "VIe dynastie (v. -2300 av. J.-C. / règne de Téti)",
+    centuryDisplay: "XXIIIe s. av. J.-C.",
+    centuryNumeric: -2300,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "File de porteurs d'offrandes et colonnes de légendes hiéroglyphiques (Mastaba de Mererouka)",
+    site: "Mastaba de Mererouka (Saqqarah)",
+    originSite: "Saqqarah",
+    locationType: "site",
+    currentLocation: "In situ (Mastaba de Mererouka, Saqqarah)",
+    category: "Bas-relief en calcaire polychrome",
+    isHighlight: false,
+    chips: ["VIe dynastie", "Mererouka", "Téti", "Saqqarah", "Porteurs d'offrandes", "Légendes rituelles"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczM0VbcBOrg9PWCN8X1rFRH5RUgeKoheVZOZstlYa8g6eH1JvEKwlWSz7TTcx2cVpIc5PBha-Y7dZKQ6p2GNACo9o8-okeFgyJ9j355-50s60Hxy7lQ_TBZet3nnyaHXi2KPMyoMfIyb0c7VxalblDUZPA=w2158-h1438-s-no-gm?authuser=0",
+    narrative: `<p>Ce bas-relief en calcaire, situé au cœur du mastaba de Mererouka à Saqqarah, date de la VIe dynastie (v. 2300 av. J.-C.) sous le règne du pharaon Téti. La scène offre une plongée fascinante dans la vie quotidienne des bords du Nil, illustrant une rangée de porteurs d'offrandes ou de serviteurs en marche. Le dynamisme de la composition est accentué par la répétition des silhouettes, une convention artistique destinée à suggérer l'abondance et le mouvement perpétuel vers le défunt.</p>
+    <p>Chaque personnage est représenté avec une grande précision anatomique, les muscles des jambes et des bras étant délicatement modelés pour traduire l'effort physique. Les hommes portent le pagne court traditionnel et sont coiffés de perruques étagées. La préservation de l'ocre rouge sur les corps, contrastant avec le fond clair de la pierre, témoigne de la richesse chromatique originelle du monument, où chaque couleur possédait une valeur symbolique et rituelle.</p>
+    <p>Au-dessus et entre les figures, des colonnes de hiéroglyphes finement gravées servent de légendes, nommant les produits transportés ou les titres des fonctionnaires chargés de la gestion du domaine. Cette intégration parfaite du texte et de l'image est caractéristique de l'esthétique de l'Ancien Empire, où l'écriture n'est pas seulement informative mais participe pleinement à l'équilibre visuel de la scène.</p>
+    <p>Cette paroi n'avait pas qu'une fonction décorative ; elle constituait une garantie magique pour Mererouka. En fixant éternellement dans la pierre ces files de serviteurs apportant les richesses de ses terres, le vizir s'assurait que son ka ne manquerait de rien dans l'au-delà.</p>
+    <p><strong>Siècle :</strong> XXIIIe siècle av. J.-C. (-2300) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_statue_mererouka_niche_fausse_porte_saqqarah",
+    civId: "egypte",
+    periodId: "ancien_empire",
+    civName: "Égypte : Ancien Empire",
+    century: "VIe dynastie (v. -2300 av. J.-C. / règne de Téti)",
+    centuryDisplay: "XXIIIe s. av. J.-C.",
+    centuryNumeric: -2300,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire privée & portraits",
+    title: "Statue monumentale du vizir Mererouka émergeant de sa niche cultuelle",
+    site: "Mastaba de Mererouka (Saqqarah)",
+    originSite: "Saqqarah",
+    locationType: "site",
+    currentLocation: "In situ (Chambre cultuelle du Mastaba de Mererouka, Saqqarah)",
+    category: "Statue en haut-relief et niche cultuelle",
+    isHighlight: true,
+    chips: ["VIe dynastie", "Mererouka", "Téti", "Saqqarah", "Statue en niche", "Table d'offrandes", "Ka"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPRl0R6P8GqhrkO5SAPo6TTsSpot91OjzOz337d7KtUUDP8vcr6PEF1JH3AJWcMViO7QjMatQcLYHGSPXB-A4q7mLHLNqvZimTq_NzUpGjJFbMSPft9cpIYYYGDYnAEUE_B471Y67pEgV2ePA-ZAVrIvg=w1998-h1499-s-no-gm?authuser=0",
+    narrative: `<p>Cette œuvre se situe au cœur du mastaba de Mererouka, l’un des monuments funéraires les plus vastes et les plus sophistiqués de la nécropole de Saqqarah, datant de la VIe dynastie de l'Ancien Empire égyptien. Mererouka occupait les fonctions prestigieuses de vizir et de gendre du pharaon Téti, ce qui explique l’ampleur exceptionnelle de sa sépulture. La pièce centrale présentée ici est une statue monumentale du défunt émergeant d’une niche, un dispositif architectural conçu pour permettre à son esprit de recevoir les offrandes.</p>
+    <p>La statue représente Mererouka dans une attitude de marche, le pied gauche en avant, vêtu d’un pagne plissé rigide et paré d’une perruque imposante. Cette posture symbolise la force et la vitalité éternelle du haut fonctionnaire dans l’au-delà. Contrairement aux statues isolées, celle-ci est intégrée à la paroi, créant un lien physique entre le monde des morts et celui des vivants. Elle fait face à une table d'offrandes où les prêtres funéraires déposaient quotidiennement de la nourriture pour nourrir le « Ka », l'énergie vitale du défunt.</p>
+    <p>Les parois entourant la niche sont ornées de bas-reliefs d'une finesse remarquable, conservant par endroits leurs pigments d'origine, notamment l'ocre rouge pour la peau masculine. Ces gravures représentent Mererouka à différentes échelles, entouré de scènes de la vie quotidienne et de textes hiéroglyphiques détaillant ses nombreux titres. L'ensemble témoigne de l'apogée de l'art de l'Ancien Empire, caractérisé par un équilibre parfait entre la puissance des formes et le réalisme des détails.</p>
+    <p><strong>Siècle :</strong> XXIIIe siècle av. J.-C. (-2300) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "relief_mererouka_chantier_barques_papyrus_saqqarah",
+    civId: "egypte",
+    periodId: "ancien_empire",
+    civName: "Égypte : Ancien Empire",
+    century: "VIe dynastie (v. -2300 av. J.-C. / règne de Téti)",
+    centuryDisplay: "XXIIIe s. av. J.-C.",
+    centuryNumeric: -2300,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Chantier naval et manœuvre des barques de papyrus par les mariniers (Mastaba de Mererouka)",
+    site: "Mastaba de Mererouka (Saqqarah)",
+    originSite: "Saqqarah",
+    locationType: "site",
+    currentLocation: "In situ (Mastaba de Mererouka, Saqqarah)",
+    category: "Bas-relief en calcaire",
+    isHighlight: false,
+    chips: ["VIe dynastie", "Mererouka", "Téti", "Saqqarah", "Barques de papyrus", "Mariniers", "Scène technique"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPd67rMIfU6BMBPUZ4kleFe1ACTMOeffLRmYoeFuWNbk6yqTt0h448jqwcbpUOVGYB6nT69_7ZaW_H20Nwov1UKyMRGWFChZEAc_Y-emO25RxUyAh5WH3ggvz7Dlxzjtin_M28CYVdWyehwUHL4MtogXw=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce bas-relief provient également des parois du mastaba de Mererouka à Saqqarah et illustre la maîtrise exceptionnelle des artistes de l'Ancien Empire dans la représentation du mouvement et de la vie quotidienne. La scène dépeint avec un réalisme saisissant le travail de mariniers ou de constructeurs de bateaux en papyrus, une activité vitale dans l'Égypte antique. L'enchevêtrement des corps et des perches crée une dynamique visuelle complexe qui rompt avec la rigidité habituelle des représentations officielles.</p>
+    <p>L'œuvre se distingue par sa composition pyramidale, où les ouvriers s'activent à différentes hauteurs pour manipuler de longues rames ou des éléments de structure. On observe une attention particulière portée à l'effort physique : les muscles sont tendus, les postures sont variées et les gestes semblent coordonnés pour une tâche collective exigeante. Cette précision anatomique, bien que stylisée selon les canons de l'époque, témoigne d'une observation fine du monde laborieux par les scribes dessinateurs.</p>
+    <p>Au-delà de l'aspect technique, cette scène possède une dimension symbolique profonde. Dans le contexte funéraire, la navigation sur le Nil ou la construction de barques garantit au défunt, Mererouka, la possibilité de voyager éternellement dans l'au-delà, que ce soit pour suivre le cycle du soleil ou pour accéder aux champs d'Ialou. La conservation du relief permet d'apprécier la délicatesse du trait incisé directement dans le calcaire fin.</p>
+    <p><strong>Siècle :</strong> XXIIIe siècle av. J.-C. (-2300) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "relief_mererouka_soins_veterinaires_gavage_hyenes_bovins_saqqarah",
+    civId: "egypte",
+    periodId: "ancien_empire",
+    civName: "Égypte : Ancien Empire",
+    century: "VIe dynastie (v. -2300 av. J.-C. / règne de Téti)",
+    centuryDisplay: "XXIIIe s. av. J.-C.",
+    centuryNumeric: -2300,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Activités vétérinaires pastorales : Contention et gavage des hyènes et bovins (Mastaba de Mererouka)",
+    site: "Mastaba de Mererouka (Saqqarah)",
+    originSite: "Saqqarah",
+    locationType: "site",
+    currentLocation: "In situ (Mastaba de Mererouka, Saqqarah)",
+    category: "Bas-relief en calcaire polychrome",
+    isHighlight: false,
+    chips: ["VIe dynastie", "Mererouka", "Téti", "Saqqarah", "Gavage des hyènes", "Élevage", "Vétérinaire"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPGoYFD76YnHqELDGRheDsS3oHFP8Qv1h0uj05IP363P5O8qcdEyj7jDuqcAiR-Zdq28YtdPH8KeuGFmrloYj2ei9B87TrBCQyIK97C_upLr47b6itVJbWXwRG2PjjCPYKmFR5-n4PmdDl5ekvsJISgCA=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce registre sculpté, extrait des parois du mastaba de Mererouka, offre une immersion fascinante dans les activités pastorales et vétérinaires de l'Ancien Empire. La scène principale illustre avec une précision remarquable le gavage des animaux ou leur contention pour des soins, une pratique courante pour engraisser le bétail destiné aux offrandes funéraires. On y observe des hommes s'activant autour de bovins et de ce qui semble être des hyènes, ces dernières ayant été domestiquées et engraissées à des fins rituelles durant cette période précoce de l'histoire égyptienne.</p>
+    <p>L'artiste a capturé une grande variété de postures humaines, soulignant l'effort et la technicité des gestes. À droite, un homme se penche avec force pour maintenir la tête d'un animal, tandis qu'au centre, un autre personnage guide ou stabilise la bête. La répétition des figures et la superposition partielle des corps créent une profondeur de champ et un rythme narratif qui rendent la scène particulièrement vivante.</p>
+    <p>La conservation des couleurs est ici exceptionnelle, permettant d'apprécier le contraste entre l'ocre rouge intense utilisé pour la peau des travailleurs et les teintes plus claires des animaux. Ce code chromatique permet de détacher nettement les silhouettes sur le fond neutre du calcaire. Au-dessus du registre principal, on devine les pattes d'un troupeau en marche, suggérant l'immensité des richesses possédées par le vizir Mererouka.</p>
+    <p><strong>Siècle :</strong> XXIIIe siècle av. J.-C. (-2300) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "relief_mererouka_registres_porteurs_volailles_viande_paniers_saqqarah",
+    civId: "egypte",
+    periodId: "ancien_empire",
+    civName: "Égypte : Ancien Empire",
+    century: "VIe dynastie (v. -2300 av. J.-C. / règne de Téti)",
+    centuryDisplay: "XXIIIe s. av. J.-C.",
+    centuryNumeric: -2300,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Registres superposés de porteurs d'offrandes : Volailles vivantes, viandes et corbeilles",
+    site: "Mastaba de Mererouka (Saqqarah)",
+    originSite: "Saqqarah",
+    locationType: "site",
+    currentLocation: "In situ (Mastaba de Mererouka, Saqqarah)",
+    category: "Bas-relief en calcaire polychrome",
+    isHighlight: false,
+    chips: ["VIe dynastie", "Mererouka", "Téti", "Saqqarah", "Porteurs d'offrandes", "Canards et oies", "Ka"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMofvYc5_WRq6k75UZMFJm3AT_u2-XS7qgzrw9vpJYV86r6fMygVER71rgaNBrP6gNgfraoQ7wOGaAZmvSpCpQPkFuKGqspHC4XQWTW_ZmoU1KubKChley75J2nO4tJ7ZK0heoY2ooUZBpZh1ftt8fs4w=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce registre sculpté, provenant des murs du mastaba de Mererouka à Saqqarah, illustre avec une précision remarquable la thématique des porteurs d'offrandes, essentielle pour assurer la subsistance du défunt dans l'au-delà. La scène se déploie sur plusieurs registres superposés où une procession d'hommes avance avec régularité, transportant les richesses des domaines du vizir. On y voit une variété impressionnante de denrées : des volailles vivantes tenues par les ailes, des paniers chargés de fruits ou de pains, et même des pièces de viande fraîchement découpées.</p>
+    <p>La composition de l'œuvre souligne l'ordre et l'abondance qui régnaient sur les terres de Mererouka durant la VIe dynastie. Chaque personnage est représenté selon les canons classiques de l'art égyptien, avec le buste de face et les membres de profil, créant une impression de mouvement continu et solennel. La répétition des silhouettes, loin d'être monotone, sert à amplifier visuellement la quantité illimitée de ressources destinées au « Ka » (l'énergie vitale) du haut fonctionnaire.</p>
+    <p>Le travail de relief est d'une grande finesse, permettant de distinguer les différentes espèces d'oiseaux, comme des oies et des canards, ainsi que les textures des paniers tressés. Quelques traces de pigments ocre rouge subsistent sur la peau des personnages, rappelant que ces murs étaient autrefois entièrement peints de couleurs vives. Les détails anatomiques, tels que la musculature des jambes et le rendu des pagnes, témoignent du haut degré de savoir-faire des artisans royaux.</p>
+    <p>Cette fresque possède une fonction liturgique fondamentale : en fixant ces offrandes dans la pierre, les artistes les rendaient éternellement disponibles pour le défunt par la magie de l'image et du verbe.</p>
+    <p><strong>Siècle :</strong> XXIIIe siècle av. J.-C. (-2300) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "relief_kagemni_traversee_marais_barque_papyrus_betail_saqqarah",
+    civId: "egypte",
+    periodId: "ancien_empire",
+    civName: "Égypte : Ancien Empire",
+    century: "VIe dynastie (v. -2300 av. J.-C. / règne de Téti)",
+    centuryDisplay: "XXIIIe s. av. J.-C.",
+    centuryNumeric: -2300,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Traversée des marais du Nil : Bergers en barque de papyrus guidant le bétail (Mastaba de Kagemni)",
+    site: "Mastaba de Kagemni (Saqqarah)",
+    originSite: "Saqqarah",
+    locationType: "site",
+    currentLocation: "In situ (Mastaba de Kagemni, Saqqarah)",
+    category: "Bas-relief en calcaire fin",
+    isHighlight: false,
+    chips: ["VIe dynastie", "Kagemni", "Téti", "Saqqarah", "Traversée des marais", "Barque de papyrus", "Faune aquatique"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMlH0S2kehQEI_Rq-N6mjMyaUpvua9JymOGr8cWaa1D9pzDiI9SDZ0rkuU_1kvHbpdWqDwUhjGq4M8ZJI3T5MZrzaxgVQUYSB7LEv9Cut38GsNrv_7ze3mkujZ7tMQIdp49GSiaCNiDUlUTLBewKvV8Iw=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette œuvre est un bas-relief sculpté sur les parois de calcaire fin du mastaba de Kagemni, situé dans la nécropole royale de Saqqarah. Datant du début de la VIe dynastie, sous le règne du pharaon Téti (v. 2300 av. J.-C.), cette sépulture est l’une des plus vastes et des mieux conservées de l'Ancien Empire. Kagemni occupait la fonction prestigieuse de vizir, faisant de lui le personnage le plus puissant de l'État après le roi, ce qui explique la finesse exceptionnelle de l'exécution et le luxe des détails de sa « demeure d'éternité ».</p>
+    <p>La scène illustre une activité quotidienne et symbolique des marais du Nil : la traversée d'un bétail par des bergers à bord d'une embarcation de papyrus. Les sculpteurs égyptiens ont ici fait preuve d'un sens aigu de l'observation naturaliste, saisissant avec précision les postures des hommes en plein effort. La composition est rythmée par la répétition des lignes verticales symbolisant les fourrés de papyrus en arrière-plan, créant un cadre structuré pour l'action qui se déroule au premier plan.</p>
+    <p>La partie inférieure de la paroi offre une vision fascinante de la faune aquatique, où des poissons de diverses espèces, dont des tilapias et des silures, sont représentés avec une exactitude quasi scientifique. On y voit également des veaux que les bergers guident à l'aide de cordes, ainsi que des hippopotames et des crocodiles tapis sous la surface de l'eau. Ces animaux représentent les forces du chaos que le défunt doit maîtriser pour assurer son passage vers l'au-delà et garantir l'ordre cosmique (Maât).</p>
+    <p>L'aspect technique de ce relief est remarquable par la douceur de son modelé, illustrant la maîtrise des ateliers de Saqqarah.</p>
+    <p><strong>Siècle :</strong> XXIIIe siècle av. J.-C. (-2300) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "relief_kagemni_crocodile_lotus_passage_gue_saqqarah",
+    civId: "egypte",
+    periodId: "ancien_empire",
+    civName: "Égypte : Ancien Empire",
+    century: "VIe dynastie (v. -2300 av. J.-C. / règne de Téti)",
+    centuryDisplay: "XXIIIe s. av. J.-C.",
+    centuryNumeric: -2300,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Le crocodile aux aguets, fleurs de lotus et passage du gué par les veaux (Mastaba de Kagemni)",
+    site: "Mastaba de Kagemni (Saqqarah)",
+    originSite: "Saqqarah",
+    locationType: "site",
+    currentLocation: "In situ (Mastaba de Kagemni, Saqqarah)",
+    category: "Bas-relief en calcaire fin",
+    isHighlight: false,
+    chips: ["VIe dynastie", "Kagemni", "Téti", "Saqqarah", "Crocodile", "Passage du gué", "Fleurs de lotus"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPQjnylgu6_QjiF8oZiNJe6Ys0gDI20fGQVwlVOTtuqliVGm9sDaywiv4b7Y00lFCE_z4X4iLhRr_LFVfHRUwvf9lrjaPRNfS3HGfU2d0HVQdNFovj-w_sw22MUDXn-hp3jzo1ZI9jQ3EbsVC4ypJryrA=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce détail provient de la même paroi du mastaba de Kagemni à Saqqarah, offrant une vue rapprochée sur la partie inférieure du registre de la traversée des marais. Ce bas-relief en calcaire, exécuté avec une précision chirurgicale, illustre la faune sauvage et domestique qui peuple les rives du Nil à l'Ancien Empire. L'artiste a ici privilégié une narration visuelle dense, où la vie animale est représentée dans toute sa diversité, soulignant l'abondance des ressources et la complexité de l'écosystème égyptien.</p>
+    <p>Au centre de la composition, un crocodile est figuré gueule béante, prêt à saisir un poisson ou à menacer le bétail qui traverse. La finesse des écailles et la dynamique de l'attaque témoignent d'une connaissance intime de la nature par les sculpteurs de la cour de Téti. Juste au-dessus, des fleurs de lotus en boutons et en pleine floraison flottent à la surface, ajoutant une touche de délicatesse végétale qui contraste avec la rudesse de la scène de prédation.</p>
+    <p>À droite de l'image, un groupe de bovins, dont un veau, avance avec précaution dans les eaux peu profondes. La silhouette des animaux est gravée avec une grande économie de moyens, mais une justesse anatomique parfaite. Cette scène de « passage du gué » était cruciale dans l'iconographie funéraire, car elle symbolisait le passage périlleux du défunt vers l'autre monde, protégé par la vigilance des bergers et la maîtrise de l'environnement sauvage.</p>
+    <p>L'œuvre révèle également l'usage subtil du relief pour créer de la profondeur malgré l'absence de perspective au sens moderne. Ce souci du détail fait de la tombe de Kagemni un chef-d'œuvre du réalisme égyptien.</p>
+    <p><strong>Siècle :</strong> XXIIIe siècle av. J.-C. (-2300) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "relief_kagemni_franchissement_gue_troupeau_bovins_cornes_lyres_saqqarah",
+    civId: "egypte",
+    periodId: "ancien_empire",
+    civName: "Égypte : Ancien Empire",
+    century: "VIe dynastie (v. -2300 av. J.-C. / règne de Téti)",
+    centuryDisplay: "XXIIIe s. av. J.-C.",
+    centuryNumeric: -2300,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Franchissement du gué par le troupeau aux cornes lyres et vache à la langue pendante (Mastaba de Kagemni)",
+    site: "Mastaba de Kagemni (Saqqarah)",
+    originSite: "Saqqarah",
+    locationType: "site",
+    currentLocation: "In situ (Mastaba de Kagemni, Saqqarah)",
+    category: "Bas-relief en calcaire fin",
+    isHighlight: false,
+    chips: ["VIe dynastie", "Kagemni", "Téti", "Saqqarah", "Bovins cornes lyres", "Passage du gué", "Naturalisme"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNXXSVcdaAYoAb9rOESvfiaw2Z75NQflnXcWiHt3PzL13Lsk4k6mSdiC02RNCY-raa4mbcTnM4B_8arRTs1Z-PwVzgDDhkLfbny51IaGpgS9x-jYyjkZsZp8Ulsf0xWGNZC-YBSGqz79bbDNAxZwparpw=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce bas-relief exceptionnel, situé dans le mastaba de Kagemni à Saqqarah (v. 2300 av. J.-C.), illustre l'un des thèmes les plus célèbres de l'Ancien Empire : le franchissement d'un gué par un troupeau. Cette scène, d'un réalisme saisissant, montre une file de bovins s'avanzant dans les eaux du Nil. L'artiste a utilisé une technique de superposition ingénieuse pour suggérer la profondeur et le nombre, alignant les têtes de vaches dont les cornes lyres s'entrecroisent avec une régularité presque géométrique, créant un rythme visuel fascinant.</p>
+    <p>Le détail du bétail révèle une observation naturaliste poussée, caractéristique de l'art de la VIe dynastie. On remarque notamment un veau porté ou guidé, ainsi que l'expression de stress ou de fatigue chez certains animaux, comme cette vache à la langue pendante en tête de file. Cette précision anatomique n'est pas uniquement esthétique ; elle sert à rendre la scène vivante pour que, par la magie de l'image, le défunt puisse disposer éternellement de ces troupeaux dans l'au-delà.</p>
+    <p>Sous la ligne de flottaison, le monde aquatique fourmille de vie et de dangers. On y distingue des poissons tels que des tilapias et des silures, mais surtout la présence menaçante de prédateurs. Un crocodile, gueule entrouverte, est tapi près du bétail, tandis que des hippopotames sont également suggérés dans les registres voisins. La coexistence des fleurs de lotus, symboles de renaissance, et des prédateurs souligne la dualité du Nil.</p>
+    <p>L'inscription hiéroglyphique surmontant la scène agit comme une légende, identifiant les actions ou les paroles des bergers. Dans cette demeure d'éternité, chaque détail concourt à la recréation parfaite d'un univers où le chaos de la nature sauvage est domestiqué par l'homme.</p>
+    <p><strong>Siècle :</strong> XXIIIe siècle av. J.-C. (-2300) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "relief_kagemni_traite_vache_veau_corde_saqqarah",
+    civId: "egypte",
+    periodId: "ancien_empire",
+    civName: "Égypte : Ancien Empire",
+    century: "VIe dynastie (v. -2300 av. J.-C. / règne de Téti)",
+    centuryDisplay: "XXIIIe s. av. J.-C.",
+    centuryNumeric: -2300,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Scène pastorale de traite : Vacher accroupi, veau docile et contention de la vache (Mastaba de Kagemni)",
+    site: "Mastaba de Kagemni (Saqqarah)",
+    originSite: "Saqqarah",
+    locationType: "site",
+    currentLocation: "In situ (Mastaba de Kagemni, Saqqarah)",
+    category: "Bas-relief en calcaire polychrome",
+    isHighlight: false,
+    chips: ["VIe dynastie", "Kagemni", "Téti", "Saqqarah", "Traite de la vache", "Veau", "Pastorale", "Ocre rouge"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNJ0HwCjVVt0ODeI9WF9dfSZy9E-EpjZ6qbjsJ222FHarJ40sIp-WtfH7-ddbrJzJrddZ-XIuL2YGvYS16HZIz3emfeW-XjKIZbHn0zycnlHAT0RCAdKsh-0dPkeHo2D2nNHXvRJYqzGGs6Brx4w-p_jA=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce bas-relief exceptionnel provient du mastaba de Kagemni à Saqqarah, une sépulture de la VIe dynastie (v. 2300 av. J.-C.) renommée pour la vivacité de ses scènes de genre. L'œuvre illustre avec une tendresse et un réalisme rares une scène de traite dans une exploitation agricole de l'Ancien Empire. On y observe un vacher accroupi en train de traire une vache, tandis qu'un second homme se tient debout à l'arrière, maintenant fermement l'animal à l'aide d'une corde pour assurer la tranquillité de l'opération.</p>
+    <p>La dimension émotionnelle de la scène est renforcée par la présence d'un jeune veau, représenté à une échelle réduite près des pattes de sa mère. La vache, la langue légèrement pendante, semble manifester une forme de docilité ou de fatigue, un détail naturaliste typique du style de cette époque qui cherche à rompre avec la rigidité formelle des périodes précédentes. La composition est complétée par des colonnes de hiéroglyphes finement gravées qui agissent comme une légende.</p>
+    <p>Techniquement, l'œuvre conserve des traces significatives de sa polychromie d'origine, notamment l'ocre rouge utilisé pour la peau des personnages masculins, conformément aux conventions artistiques égyptiennes. Le relief est d'une grande finesse, permettant de distinguer les détails de la musculature des hommes et la texture de la corde. Ce type de représentation avait une fonction magique essentielle : garantir au vizir Kagemni un approvisionnement éternel en lait et en produits frais dans la vie après la mort.</p>
+    <p>L'harmonie entre le texte et l'image témoigne du haut degré de sophistication des ateliers royaux de Saqqarah sous le règne de Téti. Ce panneau est considéré comme l'un des plus beaux exemples de l'art pastoral égyptien.</p>
+    <p><strong>Siècle :</strong> XXIIIe siècle av. J.-C. (-2300) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+   {
     id: "relief_ptahhotep_supervision_domaines_elevage_saqqarah",
     civId: "egypte",
     periodId: "ancien_empire",
