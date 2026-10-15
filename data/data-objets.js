@@ -6,6 +6,331 @@ window.ART_OBJECTS = window.ART_OBJECTS || [];
 window.ART_OBJECTS.push(
 
 {
+    id: "plat_chasse_nagada_assouan",
+    civId: "egypte",
+    periodId: "predynastique",
+    civName: "Égypte Prédynastique & Thinite",
+    century: "v. -3800 à -3500 av. J.-C. (Nagada I / II)",
+    centuryDisplay: "v. -3800 av. J.-C.",
+    centuryNumeric: -3800,
+    domain: "ceramique",
+    artifactType: "Plat",
+    title: "Plat peint à la scène de chasse, chiens et autruche",
+    site: "Musée de la Nubie (Assouan / prov. région d'Assouan)",
+    originSite: "Région d'Assouan (Haute-Égypte)",
+    locationType: "museum",
+    currentLocation: "Musée de la Nubie (Assouan)",
+    category: "Céramique peinte",
+    isHighlight: false,
+    chips: ["Nagada I-II", "Scène de chasse", "Lévriers tesem", "Musée de la Nubie"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMi-BvXFAODbjMkBvY-7Fv1pgQsHLY_whUnHcCeEFD6dSCzV8chvfeZpNz-KZfICCX1gs2nj1MS1Fiis-Wh_Rjs6PZ93_bBSZpiQcbSm4mClIEq_MY_j8qFehXb9PlMrFh-0NSDjstzsqUvf5NssasLsA=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette coupe en terre cuite peinte, datant de la période prédynastique (culture de Nagada I ou II, environ 3800-3500 av. J.-C.), est un témoignage exceptionnel de l'art rupestre transposé sur support céramique. Découverte dans une sépulture de la région d'Assouan, elle illustre les préoccupations et l'environnement des premières sociétés nilotiques, bien avant l'unification de l'Égypte par les Pharaons.</p>
+    <p>Le décor intérieur, réalisé à l'aide de pigments sombres et ocres sur un fond clair, met en scène une chasse organisée. Au centre, la figure humaine est stylisée : le chasseur, debout, tient un arc bandé et semble diriger la traque. Il est accompagné de plusieurs chiens domestiques à la queue enroulée, ancêtres probables du Basenji ou du lévrier tesem, qui participent activement à la poursuite du gibier. On distingue nettement une autruche sur la gauche et une gazelle ou un lièvre sur la droite, capturant ainsi la biodiversité de la savane africaine qui bordait alors la vallée du Nil.</p>
+    <p>La disposition circulaire des motifs exploite parfaitement la forme du récipient, créant une sensation de mouvement et d'encerclement de la proie. Ce type d'objet n'avait pas seulement une fonction utilitaire ou décorative ; il revêtait souvent une dimension magique ou rituelle, visant à assurer le succès de la chasse dans le monde réel ou à garantir la subsistance du défunt dans l'au-delà. Par son style graphique épuré et sa narration vive, ce plat constitue l'un des premiers exemples de l'art figuratif nubien et égyptien, préfigurant les grandes scènes de chasse royales des millénaires suivants.</p>
+    <p><strong>Siècle :</strong> XXXVIIIe siècle av. J.-C. (-3800) | <strong>Civilisation :</strong> Égypte antique (Prédynastique) | <strong>Sous-partie :</strong> Céramiques.</p>`
+  },
+  {
+    id: "vase_black_topped_nagada_louvre",
+    civId: "egypte",
+    periodId: "predynastique",
+    civName: "Égypte Prédynastique & Thinite",
+    century: "v. -3800 à -3500 av. J.-C. (Nagada I / II)",
+    centuryDisplay: "v. -3800 av. J.-C.",
+    centuryNumeric: -3800,
+    domain: "ceramique",
+    artifactType: "Vase",
+    title: "Vase bicolore à bord noirci (Black-topped ware)",
+    site: "Musée du Louvre (Paris / prov. Haute-Égypte)",
+    originSite: "Haute-Égypte",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre (Paris)",
+    category: "Céramique à bord noir",
+    isHighlight: false,
+    chips: ["Nagada I-II", "Black-topped", "Polissage au galet", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczM_zuwKXQwBvdWf1qb6LqvojTg2Vd-L94_xyR1FVG7QmOm8OT18HrxaeB-bvVV9lPtI301EgQbHvonFhCByA98qV3xTWo0dHGnoxEBB60t4wvtaFG7JyE2LKNJOunJ2qA6_6P-5cMptEFkXfQ1F-CgR5g=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette vaisselle emblématique de la période prédynastique égyptienne, plus précisément de la phase Nagada I et II, témoigne d'une maîtrise technique exceptionnelle bien avant l'unification du pays par les premiers pharaons. Ces céramiques, souvent retrouvées dans un contexte funéraire, se distinguent par leur silhouette élégante et leur paroi fine, polie à l'aide d'un galet pour obtenir cet éclat satiné caractéristique qui reflète la lumière malgré l'absence de glaçure.</p>
+    <p>La particularité visuelle de ces vases réside dans leur bicoloration contrastée. Le corps de l'objet présente une teinte rouge brique ou ocre, obtenue par l'utilisation d'une argile riche en oxyde de fer. La partie supérieure, quant à elle, arbore une bande noire profonde qui semble s'être écoulée de manière organique sur la panse. Cette finition n'est pas le résultat d'une peinture appliquée après cuisson, mais d'une manipulation précise du processus de combustion : le vase était retourné et enfoncé dans les braises ou les cendres à la fin de la cuisson, provoquant une réduction d'oxygène qui carbonisait la matière et transformait le fer rouge en magnétite noire.</p>
+    <p>Au-delà de leur fonction utilitaire probable pour contenir des liquides ou des denrées précieuses, ces poteries revêtaient une dimension symbolique forte. Leur présence systématique dans les tombes de la haute société de Nagada suggère qu'elles servaient de viatique pour le défunt, assurant son prestige et sa subsistance dans l'au-delà. La forme ovoïde et la base souvent étroite de ces récipients les rendaient adaptés à une utilisation sur des sols meubles ou des supports spécifiques, marquant ainsi le raffinement de la culture matérielle du IVe millénaire avant notre ère.</p>
+    <p><strong>Siècle :</strong> XXXVIIIe siècle av. J.-C. (-3800) | <strong>Civilisation :</strong> Égypte antique (Prédynastique) | <strong>Sous-partie :</strong> Céramiques.</p>`
+  },
+  {
+    id: "vase_spirales_nagada_ii_louvre",
+    civId: "egypte",
+    periodId: "predynastique",
+    civName: "Égypte Prédynastique & Thinite",
+    century: "v. -3500 à -3300 av. J.-C. (Nagada II / Gerzéen)",
+    centuryDisplay: "v. -3400 av. J.-C.",
+    centuryNumeric: -3400,
+    domain: "ceramique",
+    artifactType: "Vase",
+    title: "Vase à anses tubulaires à décor peint de spirales aquatiques",
+    site: "Musée du Louvre (Paris / prov. Haute-Égypte)",
+    originSite: "Haute-Égypte",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre (Paris)",
+    category: "Céramique marneuse peinte",
+    isHighlight: false,
+    chips: ["Nagada II", "Argile marneuse", "Spirales aquatiques", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNdqjuyAe-NUTfkNaWzdi45hI0D7dDfjuk9RuaE2LS96B22UiWd8931xoX151WOixoDPF1qNrLZQhVd1zxQyiLbLXclNjFphdEkOdNT8Kw0lt-e1t06arzDaNym9ZoxSvfNmcpbXYHMRNst_WjhA6Nb5A=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette poterie typique de la période Nagada II, également appelée Gerezéen, marque une évolution majeure dans l'art céramique de l'Égypte prédynastique. Contrairement aux vases à bord noir de l'époque précédente, ces récipients sont façonnés dans une argile marneuse de couleur claire, souvent beige ou chamois, dont la surface lisse et mate sert de support à un riche répertoire décoratif peint.</p>
+    <p>Le décor de ce vase est dominé par des motifs de spirales brunes, appliqués avec un pigment à base d'oxyde de fer. Ces spirales, disposées de manière régulière sur la panse globulaire, sont interprétées par de nombreux spécialistes comme des représentations stylisées de l'eau, du mouvement ou du renouvellement. Elles s'accompagnent ici de lignes ondulées à la base, renforçant cette évocation du milieu aquatique, un élément central pour une civilisation naissante sur les rives du Nil.</p>
+    <p>Sur le plan technique, l'objet présente deux petites anses tubulaires percées, situées sur l'épaulement. Ces oreilles ne servaient pas seulement à la manipulation, mais permettaient surtout de suspendre le vase à l'aide de cordelettes, facilitant son transport ou son entreposage dans les habitations et les structures funéraires. Le passage d'une décoration basée sur la technique de cuisson à une décoration peinte témoigne d'une complexification des codes visuels et d'une volonté d'illustrer l'environnement naturel et spirituel des populations de la vallée du Nil.</p>
+    <p><strong>Siècle :</strong> XXXIVe siècle av. J.-C. (-3400) | <strong>Civilisation :</strong> Égypte antique (Prédynastique) | <strong>Sous-partie :</strong> Céramiques.</p>`
+  },
+  {
+    id: "vase_chevrons_nagada_ii_louvre",
+    civId: "egypte",
+    periodId: "predynastique",
+    civName: "Égypte Prédynastique & Thinite",
+    century: "v. -3500 à -3300 av. J.-C. (Nagada II / Gerzéen)",
+    centuryDisplay: "v. -3400 av. J.-C.",
+    centuryNumeric: -3400,
+    domain: "ceramique",
+    artifactType: "Vase",
+    title: "Vase à suspension à décor géométrique de chevrons",
+    site: "Musée du Louvre (Paris / prov. Haute-Égypte)",
+    originSite: "Haute-Égypte",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre (Paris)",
+    category: "Céramique marneuse peinte",
+    isHighlight: false,
+    chips: ["Nagada II", "Style Decorated", "Bandes de chevrons", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPmJJVjKD9vHdEAdDAN6WxN5gJ77on_3JrZYX_DCtN5jiwDuPI_sbRNaMlyVL2BAM7M6gTGsRJVFcTDBPuMUbTjGVkyyz6GLbDe-w_EopGT9simBka-Zu6a7-wvz_UiZNeW3B3AAzuBu0g7MVujcKYRNw=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce vase à décor géométrique appartient à la phase Nagada II de l'Égypte prédynastique. À cette époque, l'art de la poterie connaît une transformation profonde avec l'utilisation de l'argile marneuse, recueillie dans les carrières du désert plutôt que dans le limon du Nil. Ce matériau permet d'obtenir une surface claire et résistante, idéale pour la décoration peinte à l'ocre rouge, qui devient le support d'un langage visuel complexe reflétant l'organisation croissante de la société.</p>
+    <p>Le décor de cette pièce se structure en bandes verticales remplies de motifs en chevrons ou lignes brisées ondulées. Ces tracés répétitifs sont caractéristiques du style "Decorated" et évoquent souvent les ondulations de l'eau ou le mouvement des dunes. Contrairement aux scènes figuratives montrant des bateaux ou des animaux, ce type de décor géométrique met l'accent sur la symétrie et le rythme, soulignant la forme galbée de la panse et témoignant d'une esthétique déjà très codifiée.</p>
+    <p>La présence d'anses tubulaires percées de chaque côté de l'épaulement confirme la fonction pratique et symbolique de l'objet. Ces éléments permettaient de passer des liens pour suspendre le vase, le protégeant ainsi des rongeurs au sol tout en le présentant comme un objet de valeur dans les demeures ou les complexes funéraires. Ces vases n'étaient pas de simples récipients utilitaires, mais des marqueurs de statut social destinés à accompagner le défunt, illustrant la maîtrise technique et artistique des communautés de la Haute-Égypte avant l'avènement des dynasties pharaoniques.</p>
+    <p><strong>Siècle :</strong> XXXIVe siècle av. J.-C. (-3400) | <strong>Civilisation :</strong> Égypte antique (Prédynastique) | <strong>Sous-partie :</strong> Céramiques.</p>`
+  },
+  {
+    id: "vase_lignes_ondulees_nagada_ii_louvre",
+    civId: "egypte",
+    periodId: "predynastique",
+    civName: "Égypte Prédynastique & Thinite",
+    century: "v. -3500 à -3300 av. J.-C. (Nagada II / Gerzéen)",
+    centuryDisplay: "v. -3400 av. J.-C.",
+    centuryNumeric: -3400,
+    domain: "ceramique",
+    artifactType: "Vase",
+    title: "Vase globulaire à registres de lignes ondulées horizontales",
+    site: "Musée du Louvre (Paris / prov. Haute-Égypte)",
+    originSite: "Haute-Égypte",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre (Paris)",
+    category: "Céramique marneuse peinte",
+    isHighlight: false,
+    chips: ["Nagada II", "Lignes ondulées", "Vagues du Nil", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMBDu8abR8G_4OhgvSPC_ZDeVxA2gyprDJdFrhSnHwe0g91qGfPMvckggZy_6QQ5C93GXzi7eb5nOIs883E7DABkpZPfB71S1m5KTRwMAgw9BPp562EUj2US2gynNyguqtcBeeUuNsUSF-AbOIcRvd7VQ=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette poterie globulaire illustre la continuité stylistique de la période Nagada II, où la maîtrise de l'argile marneuse permet la création de récipients aux parois robustes et aux surfaces lisses. Ce matériau, d'un ton crème ou ocre clair, offre un contraste idéal pour les pigments de terre rouge utilisés pour la décoration. Ces objets, bien que de dimensions modestes, témoignent d'une standardisation croissante de la production artisanale, signe d'une société de plus en plus hiérarchisée et organisée autour de centres de production spécialisés.</p>
+    <p>Le décor de ces vases est structuré par des registres de lignes ondulées horizontales, disposées en bandes parallèles sur la partie supérieure et médiane de la panse. Ces ondulations, exécutées avec une grande régularité, sont une évocation stylisée de l'eau du Nil, source de vie et axe central de la cosmogonie égyptienne primitive. La disposition des motifs souligne la rondeur de l'objet, créant un effet visuel de mouvement continu. Contrairement aux spirales isolées, ce motif de "vagues" suggère une immersion dans l'environnement fluvial, omniprésent dans le quotidien des populations prédynastiques.</p>
+    <p>Sur le plan morphologique, on observe la présence constante d'anses latérales percées ou de bords évasés, facilitant la suspension ou la fermeture par une membrane de cuir ou de tissu. Ces contenants étaient destinés à conserver des produits de valeur, comme des onguents, des huiles ou des pigments, souvent déposés dans les sépultures pour accompagner le défunt. Par leur esthétique et leur technicité, ces pièces forment une transition vers les formes plus épurées de l'époque thinite, marquant l'aboutissement de plusieurs siècles de traditions céramiques dans la vallée du Nil.</p>
+    <p><strong>Siècle :</strong> XXXIVe siècle av. J.-C. (-3400) | <strong>Civilisation :</strong> Égypte antique (Prédynastique) | <strong>Sous-partie :</strong> Céramiques.</p>`
+  },
+  {
+    id: "vase_pointu_lignes_verticales_nagada_ii_louvre",
+    civId: "egypte",
+    periodId: "predynastique",
+    civName: "Égypte Prédynastique & Thinite",
+    century: "v. -3500 à -3300 av. J.-C. (Nagada II / Gerzéen)",
+    centuryDisplay: "v. -3400 av. J.-C.",
+    centuryNumeric: -3400,
+    domain: "ceramique",
+    artifactType: "Vase",
+    title: "Vase ovoïde à base arrondie et faisceaux d'ondulations verticales",
+    site: "Musée du Louvre (Paris / prov. Haute-Égypte)",
+    originSite: "Haute-Égypte",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre (Paris)",
+    category: "Céramique marneuse peinte",
+    isHighlight: false,
+    chips: ["Nagada II", "Base arrondie", "Lignes verticales", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNrd-zjFS9edru-Mmr-dgcUo8jwVQzlERKJknUCQRAbKBkBz8WlUHLY_oVKqHgtOqCDQmHDEHTECgILg75IM_545FQ1w-RJnQ2juF5qgls1okk7jpVxvRdZLCBW99ktXHLyP0h0AkpftOtbmn7qWTj8YQ=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ces vases globulaires à fond pointu ou arrondi représentent l'une des formes les plus sophistiquées de la production céramique de la période Nagada II. Contrairement aux argiles limoneuses du Nil, ces objets sont façonnés dans une argile marneuse de haute qualité, offrant une texture plus dense et une teinte beige rosée naturelle. Cette base claire permet aux artisans de l'époque d'utiliser la surface comme un véritable canevas pour une expression artistique qui s'éloigne de l'utilitaire pur pour toucher au symbolique.</p>
+    <p>Le décor est ici caractérisé par des groupes de lignes verticales ondulées ou brisées, peintes à l'ocre rouge. Cette disposition en registres verticaux, qui semble couler depuis l'ouverture du vase vers sa base, crée un rythme visuel qui souligne la verticalité de l'objet tout en évoquant de manière abstraite l'élément liquide. Dans l'iconographie prédynastique, ces motifs répétitifs sont étroitement liés à la représentation de l'eau et de la fertilité, des thèmes cruciaux pour ces premières communautés sédentaires dépendantes des crues du fleuve.</p>
+    <p>D'un point de vue fonctionnel, l'absence de base plate indique que ces vases étaient conçus pour être posés dans le sable ou sur des supports en vannerie. Les lèvres bien marquées et évasées suggèrent qu'ils pouvaient être fermés hermétiquement par une peau ou un bouchon d'argile, protégeant ainsi des contenus précieux tels que des huiles parfumées ou des onguents. Retrouvées majoritairement dans des sépultures, ces pièces témoignent du soin apporté au mobilier funéraire, reflet d'une croyance déjà ancrée dans une vie après la mort où le défunt doit disposer des meilleurs produits de l'artisanat terrestre.</p>
+    <p><strong>Siècle :</strong> XXXIVe siècle av. J.-C. (-3400) | <strong>Civilisation :</strong> Égypte antique (Prédynastique) | <strong>Sous-partie :</strong> Céramiques.</p>`
+  },
+  {
+    id: "coupe_faience_poissons_lotus_louvre",
+    civId: "egypte",
+    periodId: "moyen_empire",
+    civName: "Égypte : Moyen Empire & Deuxième Période Intermédiaire",
+    century: "XVIIe - début XVIIIe siècle av. J.-C. (Deuxième Période Intermédiaire / Nouvel Empire)",
+    centuryDisplay: "v. -1600 av. J.-C.",
+    centuryNumeric: -1600,
+    domain: "ceramique",
+    artifactType: "Plat",
+    title: "Coupe en faïence bleue aux tilapias et fleurs de lotus",
+    site: "Musée du Louvre (Paris / prov. prob. Qous)",
+    originSite: "Qous (Haute-Égypte)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre (Paris)",
+    category: "Faïence siliceuse",
+    isHighlight: false,
+    chips: ["XVIIe-XVIIIe dynastie", "Faïence bleue", "Tilapia du Nil", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczO3jR36XAazPxORmNAxT_FT3Uzp4OEa3lV_wbzwaO2l61RA5O-ta5GmVHKkqcmubqpVvswi-uk0zwcwkrpVMyTk4GPIqCl0k3gvZ1HETcGgQoWwNBIBJ0mqAaHv3csAqhALdtE0FyvM69r2DrYBfIcIDA=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette coupe en faïence bleue à décor peint en noir est un exemple exceptionnel de la production céramique de luxe de la fin du Moyen Empire ou de la Deuxième Période intermédiaire. Sa forme hémisphérique simple sert de support à un décor naturaliste d'une grande vivacité, typique de l'esthétique nilotique. À l'intérieur du bol, l'artiste a représenté un microcosme aquatique où évoluent trois poissons stylisés, identifiables comme des tilapias (le poisson Lates niloticus ou Tilapia nilotica), entourés de fleurs de lotus et de boutons en train de s'ouvrir. Ces motifs sont finement tracés au trait noir, probablement à l'aide d'un oxyde de manganèse, sur le fond bleu turquoise éclatant de la faïence.</p>
+    <p>La symbolique de cet objet est intrinsèquement liée aux thèmes de la fertilité et de la régénération éternelle. Le poisson tilapia, qui protège ses œufs en les gardant dans sa bouche avant de les "libérer", était pour les Égyptiens un puissant symbole de renaissance et d'auto-génération. Associé au lotus, qui émerge chaque matin des eaux sombres pour s'épanouir à la lumière, ce décor transforme la coupe en un réceptacle de vie. Sur le bord intérieur, une frise de traits verticaux encadre la scène, tandis que des oiseaux en plein vol sont représentés sur les parois, renforçant l'image d'un jardin édenique sur les rives du Nil.</p>
+    <p>Sur le plan technique, la maîtrise de la faïence siliceuse à cette époque permet d'obtenir une brillance quasi vitreuse qui imite les pierres précieuses comme la turquoise. La provenance supposée de Qous, en Haute-Égypte, situe l'objet dans une région où les traditions artisanales du Moyen Empire ont persisté avec raffinement malgré les troubles politiques de la Deuxième Période intermédiaire. Que cette coupe ait été utilisée lors de banquets rituels ou déposée dans une tombe, sa fonction première était d'invoquer les forces de la nature pour garantir la victoire de la vie sur la stagnation et la mort.</p>
+    <p><strong>Siècle :</strong> XVIe siècle av. J.-C. (-1600) | <strong>Civilisation :</strong> Égypte antique (Moyen Empire / DPI) | <strong>Sous-partie :</strong> Céramiques.</p>`
+  },
+  {
+    id: "jarre_bleu_amarnien_lotus_louvre",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1400 à -1330 av. J.-C.)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1350,
+    domain: "ceramique",
+    artifactType: "Pithos / Jarre",
+    title: "Jarre peinte à décor floral et guirlandes de lotus",
+    site: "Musée du Louvre (Paris / prov. Thèbes)",
+    originSite: "Thèbes (Haute-Égypte)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre (Paris)",
+    category: "Céramique de banquet",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Bleu cobalt", "Guirlandes de lotus", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMKr5LWx9cunD8fJePAbZWOzYqGMdm78KAg4TW4onpVtvDn3mdGfAU4UhrZ2N7YnkAye4iGr1xpz212T4LzoSufqOr_AokWsPQdTw6yMJY9ZPZkxWl1AKYbTklkaPlciw-x35Sf19M77TArmUWc8tP7yg=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette jarre en terre cuite peinte est un exemple caractéristique de la poterie de luxe du Nouvel Empire, plus précisément de la XVIIIe dynastie. Sa forme ovoïde s'évase progressivement vers une épaule marquée avant de se resserrer sur un col court terminé par une lèvre ourlée. Ce type de récipient n'était pas seulement utilitaire ; il servait souvent lors de banquets festifs ou était déposé dans les tombes pour contenir du vin, de l'huile ou de l'eau, assurant ainsi le ravitaillement du défunt. La finesse de sa paroi et la qualité de son décor témoignent du savoir-faire des artisans potiers qui travaillaient alors dans les ateliers royaux ou thébains.</p>
+    <p>Le décor est organisé en registres horizontaux, une composition typique de l'esthétique égyptienne qui privilégie l'ordre et la clarté. Sur le col et l'épaule, on observe des motifs géométriques et floraux stylisés, notamment des pétales de lotus retombants, peints en bleu, rouge et noir. L'utilisation du bleu de cobalt, souvent appelé "bleu amarnien" bien qu'il apparaisse dès le règne d'Amenhotep III, apporte une vivacité particulière à la pièce. Ces bandes décoratives imitent parfois les guirlandes de fleurs fraîches que l'on attachait réellement autour du col des jarres lors des célébrations.</p>
+    <p>Au-delà de sa fonction de contenant, cette jarre possède une dimension symbolique forte. Le lotus, motif prédominant ici, est un symbole de renaissance et de régénération, car la fleur se ferme la nuit pour s'ouvrir à l'aube. En plaçant une telle jarre dans un contexte funéraire, on invoquait la capacité du défunt à renaître chaque jour, à l'image du soleil et de la nature. La conservation exceptionnelle de la peinture nous permet aujourd'hui d'apprécier la richesse chromatique qui ornait le quotidien et l'au-delà des Égyptiens du XVe siècle avant notre ère.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Céramiques.</p>`
+  },
+  {
+    id: "bouteille_piédestal_thoutmosside_louvre",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1450 à -1400 av. J.-C.)",
+    centuryDisplay: "XVe s. av. J.-C.",
+    centuryNumeric: -1420,
+    domain: "ceramique",
+    artifactType: "Vase",
+    title: "Bouteille à piédestal à décor floral de lotus retombants",
+    site: "Musée du Louvre (Paris / prov. Thèbes)",
+    originSite: "Thèbes (Haute-Égypte)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre (Paris)",
+    category: "Vase d'apparat",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Pied haut", "Pétales de lotus", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczN_saoruRmmj9hRiX1sqgMo_NYoiVsanxpi91NtmmgJlGtW2HH9fa1ioXHPASNwO6RsPDz2x5DkQbQN5QJfdS_8BTHXkafjmLcX2QOFvtRVag6nIeROzAaqIpYa2_WFWgYqzf9Ie-X2o4-DX0IEyCO80w=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce vase élancé à pied haut, souvent qualifié de "bouteille" ou de "vase à pied", est un exemplaire remarquable de la production céramique de luxe sous la XVIIIe dynastie. Sa silhouette, caractérisée par un corps ovoïde étiré, un col court muni d'une lèvre évasée et une base en forme de piédestal, témoigne d'une recherche esthétique propre au Nouvel Empire. Contrairement aux poteries purement utilitaires en terre cuite brute, ce type de vase était destiné à contenir des liquides précieux — huiles parfumées ou vins — lors des cérémonies de cour ou des banquets funéraires des élites.</p>
+    <p>Le décor peint, qui subsiste avec une belle intensité, est organisé en registres horizontaux rigoureux. Sur l'épaule, une large bande est ornée de motifs géométriques et de pétales de lotus stylisés retombants, soulignés par des filets de couleur ocre rouge et noire. Ces motifs végétaux, omniprésents dans l'art égyptien, rappellent le cycle de la régénération et la renaissance du soleil. La partie médiane du corps est également ponctuée de frises décoratives qui rompent la verticalité du vase et soulignent son galbe. Cette polychromie, bien que plus sobre que celle des céramiques bleues amarniennes, démontre une maîtrise parfaite des pigments minéraux.</p>
+    <p>D'un point de vue technique, ce vase a été façonné sur un tour de potier, comme l'indiquent la régularité des parois et les fines stries circulaires visibles à l'intérieur. Après le façonnage, une fine couche d'engobe clair a été appliquée sur la surface pour recevoir les motifs peints avant la cuisson. Ce type d'objet, alliant élégance structurelle et symbolique religieuse, servait de lien entre le monde des vivants et celui des morts. Dans la tombe, il garantissait au défunt l'accès éternel aux offrandes de qualité, tout en témoignant de son statut social élevé au sein de l'administration royale thoutmosside.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Céramiques.</p>`
+  },
+  {
+    id: "jarre_globulaire_bleu_amarnien_louvre",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1380 à -1330 av. J.-C.)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1350,
+    domain: "ceramique",
+    artifactType: "Pithos / Jarre",
+    title: "Jarre globulaire peinte au bleu de cobalt et pétales de lotus",
+    site: "Musée du Louvre (Paris / prov. Thèbes)",
+    originSite: "Thèbes ou Amarna (Égypte)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre (Paris)",
+    category: "Céramique de banquet",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Bleu de cobalt", "Amarna", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNZVnG-2P2WJVMx0PkCGt_rP-SltujTCwX8VLsNk3oRsx1ilLQW-b8nF_LSddsImyVaqEW-gjU4BHrqqUSJN3kAQciZt7nZVGvdVlLAC0TzHUcrGv5TPXqmLFsW47sXia_X3I2NEcddbkjdv0qXrqz8iw=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette jarre en terre cuite à col large et corps globulaire est un exemple raffiné de la céramique peinte produite sous la XVIIIe dynastie. Sa silhouette se distingue par un épaulement marqué qui s'évase vers une embouchure large, une forme souvent associée au stockage ou au service de boissons lors de cérémonies. Ce type de vase illustre l'évolution technique des potiers égyptiens qui, à cette période, commencent à utiliser plus fréquemment le tour de potier perfectionné et des pigments variés pour transformer un objet quotidien en une véritable pièce d'apparat funéraire.</p>
+    <p>Le décor est particulièrement remarquable par l'utilisation prédominante du bleu de cobalt, une innovation majeure de cette époque qui a révolutionné la palette chromatique de la céramique. La jarre est ornée de larges bandes horizontales alternant avec des motifs de pétales de lotus stylisés et des lignes géométriques. Ces motifs floraux ne sont pas purement décoratifs ; le lotus, qui s'ouvre chaque matin au soleil, symbolisait pour les Égyptiens la renaissance et le renouveau perpétuel. En déposant de tels récipients dans les tombes, on assurait symboliquement au défunt une source de régénération continue.</p>
+    <p>L'aspect bleuté de la surface, qui imite parfois l'apparence de la faïence ou des matières précieuses comme le lapis-lazuli, témoigne du luxe qui entourait les élites du Nouvel Empire. Les pigments étaient appliqués après une première cuisson, puis l'objet subissait parfois une seconde cuisson à basse température pour fixer les couleurs. La conservation de ces teintes, malgré les millénaires, permet d'apprécier la maîtrise esthétique des ateliers thébains qui cherchaient à harmoniser la fonction utilitaire de l'objet avec une symbolique religieuse profonde liée au cycle de la vie.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Céramiques.</p>`
+  },
+  {
+    id: "vase_plastique_bouquetin_dra_aboul_louvre",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1550 à -1295 av. J.-C.)",
+    centuryDisplay: "XVe s. av. J.-C.",
+    centuryNumeric: -1450,
+    domain: "ceramique",
+    artifactType: "Vase plastique / Zoomorphe",
+    title: "Vase plastique zoomorphe en forme de bouquetin couché",
+    site: "Musée du Louvre (Paris / prov. Dra Aboul el-Naga)",
+    originSite: "Dra Aboul el-Naga (Thèbes-Ouest, Égypte)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre (Paris)",
+    category: "Vase à onguents zoomorphe",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Dra Aboul el-Naga", "Bouquetin", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNxnQN06KMcGHwPqxHCEhoQSFrJ2rJ3Qn7UJXaqsxequGijgy_tCV1Ot_p6SI2gwMdQYPntrD88A11pCMIRDTD8PyoEKsoIMhKCNCaS2tzZYO1ZnJ5NYVV4PSBpD945uAlw14wLeOZO7FmQpySywN9bUg=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce vase plastique en terre cuite, provenant de la nécropole de Dra Aboul el-Naga, est un exemple remarquable de l'ingéniosité des potiers du Nouvel Empire. Contrairement aux récipients classiques, un vase "plastique" est modelé en tout ou partie sous une forme figurative, ici celle d'un bouquetin ou d'une gazelle couchée. Cet objet allie la fonction utilitaire de contenant, probablement pour des huiles ou des essences parfumées, à une dimension sculpturale et symbolique forte liée au monde animal du désert.</p>
+    <p>L'animal est représenté avec un naturalisme stylisé typique de la XVIIIe dynastie. Les membres sont repliés sous le corps dans une pose de repos, tandis que la tête est redressée, les cornes imposantes se rejoignant vers l'arrière pour former une sorte d'anse naturelle. Le museau de l'animal est transformé en goulot circulaire, permettant de verser le liquide de manière précise. Le décor peint, utilisant des pigments noirs pour souligner les détails anatomiques comme les yeux, les oreilles et les sabots, rehausse la teinte ocre de l'argile et donne une vie saisissante à cette petite pièce d'art mobilier.</p>
+    <p>Ce type d'objet n'était pas un simple ustensile domestique, mais faisait souvent partie du mobilier funéraire de l'élite. Le bouquetin, animal associé au dieu Seth mais aussi symbole de renouveau et de vitalité dans les steppes désertiques, portait une charge magique destinée à accompagner le défunt. La découverte de tels vases dans les tombes de Thèbes-Ouest souligne le goût des Égyptiens du Nouvel Empire pour les formes fantaisistes et sophistiquées, transformant chaque geste du quotidien ou du rituel en une expérience esthétique et spirituelle.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Céramiques.</p>`
+  },
+  {
+    id: "vase_femme_enfant_xviii_louvre",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1550 à -1450 av. J.-C.)",
+    centuryDisplay: "XVIe - XVe s. av. J.-C.",
+    centuryNumeric: -1500,
+    domain: "ceramique",
+    artifactType: "Vase plastique / Zoomorphe",
+    title: "Vase plastique anthropomorphe à la femme tenant un enfant",
+    site: "Musée du Louvre (Paris / prov. Thèbes)",
+    originSite: "Thèbes (Haute-Égypte)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre (Paris)",
+    category: "Vase à onguents anthropomorphe",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Maternité", "Vase plastique", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOKjSRiL0oLvqxvHY8qdg-pbpuncCSZ3xnqeTEYgFB0mWFnvZezwMTxQyY9oec5RBcFBNpr0jRJiHhVDS7oE-WO9G-7n9lrPLmjGkcmAMBV0-ALEyMcn3NGjM3dSRSzMaKfEAnE0WDlmyUBdzAKjzDQWg=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce vase plastique en terre cuite, datant du début de la XVIIIe dynastie, représente une femme agenouillée tenant un enfant ou une petite silhouette contre elle. Il s'agit d'un exemple fascinant de la poterie anthropomorphe du Nouvel Empire, où l'objet utilitaire devient une véritable petite sculpture de dévotion ou de vie quotidienne. La femme est représentée dans une attitude protectrice et maternelle, une thématique qui se développe avec une sensibilité nouvelle au début de cette période.</p>
+    <p>La silhouette est modelée avec une certaine économie de moyens qui n'exclut pas une grande force expressive. La tête de la femme est surmontée d'un goulot évasé qui permettait de remplir et de vider le vase, tandis que son corps creux servait de réservoir. Son visage est encadré par une perruque sombre et massive, dont les détails sont soulignés par une peinture noire contrastant avec la teinte ocre de l'argile. Les bras, modelés en léger relief, entourent la petite figure qu'elle porte, créant un lien physique et symbolique fort entre les deux personnages.</p>
+    <p>Ces vases étaient souvent utilisés pour contenir des liquides précieux, comme du lait ou des huiles médicinales, renforçant le lien métaphorique entre le contenu et la forme nourricière du récipient. Découverts fréquemment dans des contextes domestiques ou funéraires, ils témoignent d'une piété populaire centrée sur la famille et la protection de l'enfance. Cette pièce illustre parfaitement la capacité des artisans égyptiens à insuffler une âme et une tendresse humaine aux objets les plus simples du quotidien.</p>
+    <p><strong>Siècle :</strong> XVIe - XVe siècle av. J.-C. | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Céramiques.</p>`
+  },
+  {
+    id: "amphore_bouteille_ramessides_louvre",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (v. -1295 à -1186 av. J.-C.)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1250,
+    domain: "ceramique",
+    artifactType: "Amphore",
+    title: "Amphore à inscription hiéroglyphique et bouteille florale ramessides",
+    site: "Musée du Louvre (Paris / prov. Thèbes)",
+    originSite: "Thèbes ou Deir el-Médineh (Égypte)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre (Paris)",
+    category: "Céramique de prestige",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Époque ramesside", "Hiéroglyphes peints", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNzfTfPm-V-t0rFu6fwX7I-CquoPXOIaP38J-at_FDsQftYH8FjO7Fg18vHaNwDo0J0JWWSUTgVfUG0e8eRZRcz5GduWztyZwG8-GwuLFf_-CC2gC-Y2zRA7a_SMFo3NJaaVHJ3UbnYGJTv6fkKI0o5-w=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ces vases en terre cuite peinte, typiques de l'époque ramesside, témoignent du raffinement des arts du feu et de la décoration à la fin du Nouvel Empire. À cette période, la vaisselle de prestige ne se contente plus de formes utilitaires simples, mais se pare de motifs complexes et de polychromies vives, utilisant souvent des pigments bleus, rouges et noirs sur un fond clair. Ces objets étaient destinés à contenir des denrées précieuses, comme des huiles parfumées, du vin ou des onguents, et accompagnaient souvent le défunt dans sa tombe pour assurer son confort dans l'au-delà.</p>
+    <p>L'amphore à gauche présente une silhouette élégante avec une panse globulaire et un col haut s'évasant vers l'ouverture. Son décor est structuré par des registres horizontaux sur le col, alternant des motifs géométriques en dents de scie et des bandes colorées. Sur la panse, des lignes rouges soulignent la structure du vase, encadrant une colonne d'inscriptions hiéroglyphiques peintes en noir qui précisent probablement le contenu ou le propriétaire de l'objet. Ce type de décor, associant texte et géométrie, est caractéristique des ateliers de poterie royaux ou de haute noblesse de l'époque.</p>
+    <p>La bouteille (ou jarre à col étroit) située à droite se distingue par un décor floral plus naturaliste et foisonnant. On y devine des motifs de pétales de lotus et de guirlandes végétales qui semblent envelopper le corps du vase, imitant peut-être les véritables colliers de fleurs dont on ornait les récipients lors des banquets festifs. La richesse des détails et la variété des teintes utilisées montrent une volonté d'imiter des matériaux plus coûteux, comme le verre ou la faïence, rendant ces céramiques particulièrement prisées pour leur valeur esthétique et symbolique.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Céramiques.</p>`
+  },
+   {
     id: "ensemble_funeraire_zounis_olympie",
     civId: "egee",
     periodId: "mycenes",
