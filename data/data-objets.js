@@ -257,31 +257,6 @@ window.ART_OBJECTS.push(
     <p><strong>Siècle :</strong> XIVe siècle av. J.-C. | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Céramiques.</p>`
   },
   {
-    id: "vase_plastique_bouquetin_dra_aboul_louvre",
-    civId: "egypte",
-    periodId: "nouvel_empire",
-    civName: "Égypte : Nouvel Empire",
-    century: "XVIIIe dynastie (v. -1550 à -1295 av. J.-C.)",
-    centuryDisplay: "XVe s. av. J.-C.",
-    centuryNumeric: -1450,
-    domain: "ceramique",
-    artifactType: "Vase plastique / Zoomorphe",
-    title: "Vase plastique zoomorphe en forme de bouquetin couché",
-    site: "Musée du Louvre (Paris / prov. Dra Aboul el-Naga)",
-    originSite: "Dra Aboul el-Naga (Thèbes-Ouest, Égypte)",
-    locationType: "museum",
-    currentLocation: "Musée du Louvre (Paris)",
-    category: "Vase à onguents zoomorphe",
-    isHighlight: false,
-    chips: ["XVIIIe dynastie", "Dra Aboul el-Naga", "Bouquetin", "Musée du Louvre"],
-    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
-    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNxnQN06KMcGHwPqxHCEhoQSFrJ2rJ3Qn7UJXaqsxequGijgy_tCV1Ot_p6SI2gwMdQYPntrD88A11pCMIRDTD8PyoEKsoIMhKCNCaS2tzZYO1ZnJ5NYVV4PSBpD945uAlw14wLeOZO7FmQpySywN9bUg=w692-h919-s-no-gm?authuser=0",
-    narrative: `<p>Ce vase plastique en terre cuite, provenant de la nécropole de Dra Aboul el-Naga, est un exemple remarquable de l'ingéniosité des potiers du Nouvel Empire. Contrairement aux récipients classiques, un vase "plastique" est modelé en tout ou partie sous une forme figurative, ici celle d'un bouquetin ou d'une gazelle couchée. Cet objet allie la fonction utilitaire de contenant, probablement pour des huiles ou des essences parfumées, à une dimension sculpturale et symbolique forte liée au monde animal du désert.</p>
-    <p>L'animal est représenté avec un naturalisme stylisé typique de la XVIIIe dynastie. Les membres sont repliés sous le corps dans une pose de repos, tandis que la tête est redressée, les cornes imposantes se rejoignant vers l'arrière pour former une sorte d'anse naturelle. Le museau de l'animal est transformé en goulot circulaire, permettant de verser le liquide de manière précise. Le décor peint, utilisant des pigments noirs pour souligner les détails anatomiques comme les yeux, les oreilles et les sabots, rehausse la teinte ocre de l'argile et donne une vie saisissante à cette petite pièce d'art mobilier.</p>
-    <p>Ce type d'objet n'était pas un simple ustensile domestique, mais faisait souvent partie du mobilier funéraire de l'élite. Le bouquetin, animal associé au dieu Seth mais aussi symbole de renouveau et de vitalité dans les steppes désertiques, portait une charge magique destinée à accompagner le défunt. La découverte de tels vases dans les tombes de Thèbes-Ouest souligne le goût des Égyptiens du Nouvel Empire pour les formes fantaisistes et sophistiquées, transformant chaque geste du quotidien ou du rituel en une expérience esthétique et spirituelle.</p>
-    <p><strong>Siècle :</strong> XVe siècle av. J.-C. | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Céramiques.</p>`
-  },
-  {
     id: "vase_femme_enfant_xviii_louvre",
     civId: "egypte",
     periodId: "nouvel_empire",
