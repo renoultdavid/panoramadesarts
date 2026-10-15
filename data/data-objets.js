@@ -6,6 +6,231 @@ window.ART_OBJECTS = window.ART_OBJECTS || [];
 window.ART_OBJECTS.push(
 
   {
+    id: "peinture_ramses_iii_vases_nou_khaemwaset_qv44",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (v. -1150 av. J.-C. / règne de Ramsès III)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1150,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Ramsès III offrant les vases Nou aux divinités (Tombe QV44)",
+    site: "Tombe de Khaemwaset - QV44 (Vallée des Reines, Thèbes)",
+    originSite: "Vallée des Reines (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe QV44, Vallée des Reines)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XXe dynastie", "QV44 Khaemwaset", "Ramsès III", "Vases Nou", "Offrande royale"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNLcj1PdHuNSnJo9MOYof-z-U4-ayaJU4bJBE9G1c7k0KGS-VEpfEoeBtUF5V1LKNx8vuVs8TbKcl7q7yUoa4MWPg5Kfx80sD2drAv1AWx36HAp5vFZP8Ci075-bylbnIdSHqI0cGqcM6rUL21l8aH00A=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette œuvre intitulée Ramsès III offrant les vases Nou aux divinités est un détail de la décoration murale de la tombe de Khaemouaset (QV 44), située dans la Vallée des Reines à Thèbes, datant de la XXe dynastie du Nouvel Empire sous le règne de Ramsès III vers 1150 avant notre ère.</p>
+    <p>Cette peinture à la détrempe sur enduit montre le pharaon Ramsès III, père du défunt, agissant comme intermédiaire rituel pour son fils en présentant deux vases globulaires nommés vases Nou, traditionnellement utilisés pour l'offrande du vin ou du lait afin de solliciter la bienveillance divine. Le roi est représenté avec les attributs classiques de la royauté ramesside, portant le némès à rayures bleues et or surmonté de l'uraeus protecteur, ainsi qu'un large collier ousekh et des bracelets coordonnés.</p>
+    <p>Son profil suit les canons de l'époque avec un nez aquilin prononcé et un œil allongé par le fard, tandis que son corps est peint dans un rouge brique conventionnel contrastant avec le fond jaune ocre caractéristique des tombes royales de cette période. Au-dessus de lui, deux cartouches royaux en bleu turquoise identifient le souverain par son nom de couronnement Usermaatre Meryamun et son nom de naissance Rameses Heqaiunu. La finesse du trait et la conservation vibrante des pigments témoignent du talent exceptionnel des artistes de Deir el-Médineh.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1150) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture murale, Tableaux & Mosaïque.</p>`
+  },
+  {
+    id: "peinture_khaemwaset_introduction_double_osiris_qv44",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (v. -1180 av. J.-C. / règne de Ramsès III)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1180,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Le prince Khâemouaset introduit devant le double Osiris et les fils d'Horus sur lotus (Tombe QV44)",
+    site: "Tombe de Khaemwaset - QV44 (Vallée des Reines, Thèbes)",
+    originSite: "Vallée des Reines (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe QV44, Vallée des Reines)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XXe dynastie", "QV44 Khaemwaset", "Osiris", "Fils d'Horus", "Fleur de lotus"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOpmZ_GhDU6eqRT1hECh-ckqL4rMwZGF0A0D7I1VkeNnkxHJ3I_r9M6WdOPclfTWU2xa5lsamSH77tGny6oFBi4hrAhFUQGw1zlZhT54f45pGOVd7yvO8cVU-lu1HT8cGnOWXPCP_WaB96zstPdqL3WLA=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette peinture murale exceptionnelle provient de la tombe thébaine de Khâemouaset (QV 44), située dans la Vallée des Reines sur la rive ouest de Louxor, et date de la XXe dynastie, plus précisément du règne de Ramsès III vers 1180 avant notre ère.</p>
+    <p>L’œuvre représente le jeune prince Khâemouaset, l’un des fils préférés du pharaon, introduit par son père devant la figure souveraine d'Osiris, dieu des morts et de la régénération, qui apparaît ici en double occurrence pour marquer son omniscience sur le royaume de l'au-delà. Le prince est figuré à gauche avec la mèche de l'enfance caractéristique de son rang royal, vêtu d'un pagne de lin fin et d'une parure de perles, levant la main en signe d'adoration et de respect. Osiris est assis sur son trône cubique richement orné de motifs géométriques, portant la couronne atef et tenant les insignes du pouvoir, le crochet héqa et le fléau nekhakha.</p>
+    <p>Entre les personnages se dresse un bouquet de lotus épanouis, symbole de la vie renaissante, surmonté des quatre fils d'Horus émergeant de la fleur, chargés de protéger les organes internes du défunt. La palette chromatique est d'une vivacité remarquable, dominée par un fond jaune d'or qui baigne la scène d'une lumière divine et solaire, contrastant avec les bleus lapis-lazuli et les rouges terreux des vêtements.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1180) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture murale, Tableaux & Mosaïque.</p>`
+  },
+  {
+    id: "peinture_nekhbet_ailes_ployees_voute_ramses_iv_kv2",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (v. -1150 av. J.-C. / règne de Ramsès IV)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1150,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "La déesse vautour Nekhbet aux ailes déployées sur la voûte céleste (Tombe KV2)",
+    site: "Tombe de Ramsès IV - KV2 (Vallée des Rois, Thèbes)",
+    originSite: "Vallée des Rois (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe KV2, Vallée des Rois)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XXe dynastie", "KV2 Ramsès IV", "Nekhbet", "Voûte céleste", "Anneau chen"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPZJdoBlFtFo6OG_AQ_47SfqmsgnrDyPR-SygcTpSomX59DrVTmaHgtXLBz0qtjo-M2nq3ShJYqnOqrN8bt6B-TlsVqUlEzq65GPPNUR6lJGlTKUsl3-9xlFi5O0z-LLwn6HYtWUCVcPAfOBRoin1vnzg=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Fragment du programme iconographique de la voûte céleste de la tombe de Ramsès IV (KV 2), située dans la Vallée des Rois à Thèbes-Ouest et datant de la XXe dynastie du Nouvel Empire égyptien, vers 1150 avant notre ère.</p>
+    <p>L'œuvre, réalisée en bas-relief peint sur un enduit de stuc recouvrant le calcaire local, illustre la maîtrise de la polychromie ramesside où dominent le jaune ocre, le bleu lapis-lazuli et le rouge brique, couleurs symbolisant respectivement l'éternité solaire, le cosmos divin et la force vitale. La composition s'articule autour de registres horizontaux rigoureusement délimités par des bandes bleues figurant le ciel, au centre desquels se déploie la déesse vautour Nekhbet, protectrice de la Haute-Égypte, dont les ailes étendues embrassent la largeur du passage pour assurer la transition magique du défunt vers l'au-delà.</p>
+    <p>La divinité tient entre ses serres le signe « chen », anneau d'éternité, tandis que son corps est flanqué de cartouches royaux inscrits au nom de couronnement de Ramsès IV, « Héqa-Maât-Rê ». On observe également la répétition de formules titulaires désignant le pharaon comme le « Fils de Rê », ainsi que le signe de vie « ânkh » et le sceptre « ouas », garantissant au souverain la vitalité perpétuelle dans le royaume d'Osiris.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1150) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture murale, Tableaux & Mosaïque.</p>`
+  },
+  {
+    id: "peinture_nekhbet_sceptres_ouas_khekerou_ramses_iv_kv2",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (v. -1150 av. J.-C. / règne de Ramsès IV)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1150,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Nekhbet déployée sur fond jaune et frise de khékerous (Tombe KV2)",
+    site: "Tombe de Ramsès IV - KV2 (Vallée des Rois, Thèbes)",
+    originSite: "Vallée des Rois (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe KV2, Vallée des Rois)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XXe dynastie", "KV2 Ramsès IV", "Nekhbet", "Khékerou", "Sceptres Ouas"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPolmdloctDDTlgTiCRb96f07TNccKJSBt_yk27mnQXCOiqFHJq4r-VwXNhpgwWkQR701U2GELQhUDOtfjbHZ15DOcjcBos1b1lb7SeXqkvp_L38or8fDgdYYHzJqygirqvRKv3sNIm3_DBDGGlomlQGg=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Panneau peint provenant de la tombe de Ramsès IV (KV 2) dans la Vallée des Rois, datant de la XXe dynastie du Nouvel Empire, et illustrant un motif central de la protection divine pharaonique.</p>
+    <p>L’œuvre représente la déesse vautour Nekhbet, tutélaire de la Haute-Égypte, figurée ailes déployées sur un fond jaune ocre vibrant qui évoque la lumière solaire et le domaine des dieux. La déesse est exécutée selon les conventions de la peinture égyptienne sur enduit, utilisant une palette contrastée de bleu lapis-lazuli pour les pennes alaires, de rouge ocre pour le corps et de blanc pour le plumage inférieur. Dans ses serres, elle maintient l’anneau « chen », symbole d'éternité et de protection magique circulaire, lequel est ici flanqué de deux sceptres « ouas » horizontaux terminés par des plumes de Maât.</p>
+    <p>On remarque en bordure inférieure une frise de type « khékerou » stylisée, élément architectural traditionnel servant de transition visuelle entre les scènes pariétales et le plafond. Cette iconographie répétée le long des couloirs de la tombe vise à placer le passage du roi sous une garde céleste constante, assurant ainsi l'intégrité de son « ka » lors de son voyage vers l'horizon.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1150) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture murale, Tableaux & Mosaïque.</p>`
+  },
+  {
+    id: "peinture_livre_cavernes_anubis_graffitis_ramses_iv_kv2",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (v. -1150 av. J.-C. / règne de Ramsès IV)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1150,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Le Livre des Cavernes : Cavernes de régénération et gardiens momiformes (Tombe KV2)",
+    site: "Tombe de Ramsès IV - KV2 (Vallée des Rois, Thèbes)",
+    originSite: "Vallée des Rois (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe KV2, Vallée des Rois)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XXe dynastie", "KV2 Ramsès IV", "Livre des Cavernes", "Anubis", "Graffitis antiques"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMcx5a9YnJioxqoGTIpwoFm4szSVZeA-ARF4I1FjeN3MglYpmeUMPJfytNFhZ57uEE_6lDsRad41oFlQDl2giILouNekZNnAA3k9WXfZCr5hU32Ob9S1uy_dWQL1fVZJW0NgYHYJXwpRdO4MzP8wj9y5A=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>L'œuvre présente un registre complexe issu du Livre des Portes ou du Livre des Quererts (Livre des Cavernes), illustrant le voyage nocturne du dieu solaire Rê à travers les régions de l'Inframonde.</p>
+    <p>La composition s'articule autour d'une procession de divinités momiformes et anthropomorphes, dont certaines sont enfermées dans des ovales protecteurs symbolisant des cavernes ou des zones de régénération magique. On distingue notamment des figures à têtes d'animaux, dont Anubis reconnaissable à son profil de canidé, qui veillent sur le passage de la barque solaire. La partie supérieure affiche une frise de hiéroglyphes monumentaux détaillant les litanies de protection, tandis que le registre inférieur est saturé de colonnes de textes rituels.</p>
+    <p>L'état de conservation permet d'observer la technique du relief en creux rehaussé de peinture ainsi que la présence de graffitis historiques en grec et en démotique sur la bande de séparation horizontale, témoins du passage de visiteurs dès l'Antiquité tardive. Cette scène n'est pas qu'une simple décoration mais une machine théologique destinée à assurer la transfiguration du pharaon défunt.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1150) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture murale, Tableaux & Mosaïque.</p>`
+  },
+  {
+    id: "peinture_livre_cavernes_ovales_gestation_ramses_iv_kv2",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (v. -1150 av. J.-C. / règne de Ramsès IV)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1150,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Livre des Cavernes : Figures en gestation mystique et serpents gardiens (Tombe KV2)",
+    site: "Tombe de Ramsès IV - KV2 (Vallée des Rois, Thèbes)",
+    originSite: "Vallée des Rois (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe KV2, Vallée des Rois)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XXe dynastie", "KV2 Ramsès IV", "Livre des Cavernes", "Gestation mystique", "Ciel étoilé"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPRIIjE-MUDjUUe3R0BXk49ppK4RD8QTRO7SjCdimFPqSVdXaT6nNQS7FiKDuoIV4lVqVFQZT1_a-CCCq7odziDKi_T8a1lWf-GyLr_ovGu7YkZCXjCA8MT6osOuJQHLSiOvUUt8MbB2xeAdWAmX-s8tA=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce détail pariétal issu de la paroi sud du corridor B de la tombe de Ramsès IV (KV 2) dans la Vallée des Rois illustre une section particulièrement énigmatique du Livre des Cavernes (Livre des Quererts), une composition funéraire de la XXe dynastie dédiée à la régénération du soleil et du roi défunt dans les profondeurs de l'Amdouat.</p>
+    <p>La scène présente un agencement symbolique rigoureux où l'on observe, sur le registre supérieur, une série de serpents protecteurs et de cobras dressés (uraei) dont le rôle est de cracher le feu contre les ennemis du dieu Rê afin de sécuriser le passage de la barque solaire. Au centre, six figures humaines sont représentées allongées à l'intérieur d'ovales jaunes évoquant des sarcophages ou des chambres utérines de la terre, symbolisant les formes du dieu solaire ou des défunts bienheureux en pleine phase de gestation mystique avant leur résurrection.</p>
+    <p>Le registre inférieur laisse apparaître les têtes d'une procession de divinités ou d'âmes dont les visages, peints avec une alternance de rouge et de jaune, témoignent de la vitalité retrouvée. L'exécution technique rehaussée d'une polychromie ocre jaune contraste avec le plafond étoilé visible au sommet représentant la voûte céleste.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1150) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture murale, Tableaux & Mosaïque.</p>`
+  },
+  {
+    id: "peinture_livres_funeraires_registres_ramses_iv_kv2",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (v. -1150 av. J.-C. / règne de Ramsès IV)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1150,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Registres liturgiques et procession des divinités de l'Amdouat (Tombe KV2)",
+    site: "Tombe de Ramsès IV - KV2 (Vallée des Rois, Thèbes)",
+    originSite: "Vallée des Rois (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe KV2, Vallée des Rois)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XXe dynastie", "KV2 Ramsès IV", "Livre des Portes", "Litanies funéraires", "Procession divine"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMiT8CxiZdRzPr5zehNMTithv0EPY2GIRzblZ4hVmdheK0HQ685_gChAMJg7ciX6ABfKiiaD2YfWJxS91HycFV3p7EUqmqOL3_fV5k583geRBnQun-QBPVkWKQjdHdBR8FSSZ0Ox6NOAg7xR17QOXLhGg=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>La scène est structurée en registres superposés séparés par des bandes de couleur terre de Sienne, illustrant des extraits des livres funéraires royaux (Livre des Portes ou Livre des Cavernes), dont la fonction est de guider le souverain défunt à travers les périls du monde souterrain.</p>
+    <p>Le registre central expose une série de colonnes de hiéroglyphes polychromes d'une finesse remarquable, où chaque signe conserve sa valeur figurative et symbolique, détaillant les incantations nécessaires au passage des heures de la nuit. Au-dessus, une rangée de figures momiformes allongées évoque les défunts régénérés ou les gardiens des douats, tandis qu'au registre inférieur, une procession de divinités anthropomorphes à têtes de faucons ou de béliers avance dans une posture hiératique.</p>
+    <p>L'état de conservation révèle des lacunes au niveau des enduits laissant apparaître la roche calcaire, mais témoigne de la maîtrise des scribes-dessinateurs de Deir el-Médineh qui maniaient le calame avec une précision rituelle pour assurer la fusion de Ramsès IV avec Rê et Osiris.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1150) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture murale, Tableaux & Mosaïque.</p>`
+  },
+  {
+    id: "peinture_livre_nout_voute_astronomique_ramses_iv_kv2",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (v. -1150 av. J.-C. / règne de Ramsès IV)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1150,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Le Livre de Nout et la voûte céleste astronomique (Tombe KV2)",
+    site: "Tombe de Ramsès IV - KV2 (Vallée des Rois, Thèbes)",
+    originSite: "Vallée des Rois (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe KV2, Vallée des Rois)",
+    category: "Peinture murale ramesside",
+    isHighlight: true,
+    chips: ["XXe dynastie", "KV2 Ramsès IV", "Livre de Nout", "Voûte astronomique", "Chou", "Décans"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczO6SrvExaJ_JUZg49hP8bji11BtRgVmPHtQbrlUv1Qsj79i2_h84ZsTjb7JIWaiFqIIeov8aG3eff_7IR2REk83DloyRw36usmercnkgDJs3F1azK7P3txbSFTEE8ri_eEgdX_yYOhDaKwT3_ZcQ538KQ=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>L'œuvre représente une version monumentale du Livre de Nout, la déesse du ciel, dont le corps immense et stylisé peint en ocre jaune s'étire sur toute la largeur de la voûte pour symboliser la voûte céleste.</p>
+    <p>La déesse est ici représentée de manière double, face à face, ses mains et ses pieds touchant les horizons opposés, soutenue par le dieu de l'air Chou qui maintient l'équilibre entre le monde terrestre et le cosmos. Le fond bleu azur profond, obtenu à partir de pigments de lapis-lazuli synthétique ou de fritte de cuivre, est parsemé de constellations, de décans et d'étoiles à cinq branches disposées de manière géométrique.</p>
+    <p>Les textes hiéroglyphiques qui accompagnent les figures décrivent le cycle quotidien du soleil, lequel est avalé par la déesse au crépuscule pour renaître de son giron à l'aube, garantissant ainsi la résurrection éternelle du pharaon défunt assimilé à l'astre solaire. Cette composition témoigne de la sophistication théologique ramesside, transformant le caveau en un microcosme où le temps cyclique assure la survie de l'âme royale.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1150) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture murale, Tableaux & Mosaïque.</p>`
+  },
+  {
+    id: "peinture_livre_cavernes_grand_serpent_ramses_iv_kv2",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (v. -1150 av. J.-C. / règne de Ramsès IV)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1150,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Le grand serpent dressé de la Douat et divinités féminines (Tombe KV2)",
+    site: "Tombe de Ramsès IV - KV2 (Vallée des Rois, Thèbes)",
+    originSite: "Vallée des Rois (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe KV2, Vallée des Rois)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XXe dynastie", "KV2 Ramsès IV", "Livre des Cavernes", "Grand serpent", "Douat"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP_lLVAx5_8cz2xlMEgQ36rOCjX1QB3VGyj5hpg-iu0ijoC_rJDSeRjV8tc8caB1li275wLuO6KYkHXxeKGz54sHANmR2YEdrRREE_U1c5HUZT4JdPndOeGjE0x1U7WtN0_gpijWrGfkGLwLTDyAzRJ8A=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Scène du Livre des Cavernes, composition théologique majeure de la XXe dynastie du Nouvel Empire.</p>
+    <p>L'œuvre présente une iconographie complexe sur fond ocre jaune intense, où une série de divinités anthropomorphes féminines, coiffées de perruques tripartites et vêtues de fourreaux traditionnels, progressent sur un plan incliné symbolisant les buttes de la Douat ou monde souterrain. Au centre de la composition, un serpent monumental aux anneaux sinueux et dressés semble émerger d'une structure rectangulaire, figurant une entité protectrice ou un obstacle que le dieu solaire Rê doit franchir lors de son périple nocturne.</p>
+    <p>La partie supérieure est surmontée d'une frise de colonnes de hiéroglyphes polychromes finement tracés qui détaillent les litanies nécessaires à la régénération du souverain défunt. Le registre inférieur offre une répétition symétrique de textes sacrés encadrant la scène narrative pour assurer le triomphe de la lumière sur les ténèbres.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1150) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture murale, Tableaux & Mosaïque.</p>`
+  },
+   {
     id: "peinture_ptah_dais_amenkhepeshef_qv55",
     civId: "egypte",
     periodId: "nouvel_empire",
