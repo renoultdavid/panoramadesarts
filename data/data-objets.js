@@ -6,6 +6,481 @@ window.ART_OBJECTS = window.ART_OBJECTS || [];
 window.ART_OBJECTS.push(
 
   {
+    id: "sculpture_sethi_ier_fleau_nekhakha_amon_min_gourna",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1290 av. J.-C. / règne de Séthi Ier)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1290,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Séthi Ier brandissant le fléau nekhakha face à la divinité aux deux plumes (Temple de Gourna)",
+    site: "Temple funéraire de Séthi Ier (Gourna, Thèbes)",
+    originSite: "Thèbes-Ouest",
+    locationType: "site",
+    currentLocation: "In situ (Parois du Temple de Séthi Ier, Gourna)",
+    category: "Relief en creux sur grès",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Séthi Ier", "Gourna", "Fléau nekhakha", "Amon-Min", "Disque solaire ailé"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczM6ODEZbGoLa5yFAqMnDnjGboNIclNG9ydFS3o85Ao2R66aaXn6j-2H1NOpr-ZyBtLpZc5_Dco_hsv3SAzf4BwwGuDNxFTH01q2cGHp8qOqik1Li7iQkSRhaG_ljBIlNC2fLYUDZP6_4Kw0obMO_yyWrA=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce relief exceptionnel, sculpté vers 1290 av. J.-C. sur les parois du temple funéraire de Séthi Ier à Thèbes, illustre un moment crucial du rituel de régénération royale. La scène représente le pharaon Séthi Ier, à gauche, brandissant le fléau nekhakha, un attribut de souveraineté lié au dieu Osiris. Face à lui se tient une divinité, probablement Amon ou Min, dont la haute coiffe à deux plumes caractérise la puissance génératrice et céleste. Ce face-à-face souligne la transmission de la force divine au monarque, garant de la survie de l'Égypte.</p>
+    <p>Le style de cette gravure est un témoignage précieux de la haute qualité artistique de la XIXe dynastie. On y observe une recherche de réalisme dans le rendu du profil de Séthi Ier, avec son nez aquilin et ses traits fins, contrastant avec la stature imposante et hiératique du dieu. Le relief en creux, particulièrement profond ici, permet de conserver la lisibilité des détails malgré l'érosion du grès. Au-dessus des personnages, des registres de hiéroglyphes minutieusement exécutés consignent les formules rituelles et les promesses de « millions d'années » de règne offertes par les dieux au souverain.</p>
+    <p>La composition est rythmée par des symboles de protection, comme le disque solaire ailé qui survole la scène, étendant ses ailes pour envelopper l'action sacrée. Chaque relief fonctionne comme une prière pétrifiée, assurant que le lien entre Séthi Ier et les forces divines reste actif pour l'éternité.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1290) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_sethi_ier_kheprech_encensoir_dieu_tronant_gourna",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1290 av. J.-C. / règne de Séthi Ier)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1290,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Séthi Ier au khépresh présentant l'encensoir devant le dieu trônant (Temple de Gourna)",
+    site: "Temple funéraire de Séthi Ier (Gourna, Thèbes)",
+    originSite: "Thèbes-Ouest",
+    locationType: "site",
+    currentLocation: "In situ (Sanctuaire intérieur, Temple de Séthi Ier, Gourna)",
+    category: "Bas-relief sur grès polychrome",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Séthi Ier", "Gourna", "Khépresh", "Encensement", "Amon-Rê trônant"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOkyiGbyduiCx0y_txu9gRfWmtBCGO9qNUM7A0Fu-PhhpNX_xDKfNjiz-3P3FYzpaMsP-k8onTMCgjdfd0QNjEf1CYMf7fIu5rwI5uETh7nC6T_rk89DZ05_N8CxC4yT8o02DQAy1-UWuzlr1VLOmm5uQ=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Le temple, conçu comme une demeure d'éternité pour le roi et son père Ramsès Ier, abrite des reliefs qui comptent parmi les plus aboutis de l'art thébain. Cette scène spécifique dépeint le dialogue sacré entre le monde des hommes, représenté par le pharaon, et le panthéon divin, au cœur des espaces les plus protégés du sanctuaire.</p>
+    <p>Le relief représente le pharaon Séthi Ier, à gauche, faisant face à une divinité masculine trônant, probablement Amon-Rê ou Osiris. Le roi est figuré dans une posture d'humilité et de dévotion, présentant un encensoir d'une main tout en élevant l'autre en signe d'adoration. Il porte le casque de guerre khépresh et un pagne plissé d'une grande finesse. Entre les deux figures, des colonnes de hiéroglyphes détaillent les paroles rituelles et les bienfaits accordés au souverain, tels que la force, la santé et un règne éternel.</p>
+    <p>La technique du relief, combinant le relief levé à l'intérieur des salles et le relief en creux pour les zones plus exposées, permet une modulation subtile de la lumière qui donne vie aux silhouettes. On note la présence de traces de polychromie originelle, notamment sur les visages et les offrandes, rappelant que l'ensemble du temple était autrefois un éclatant déploiement de couleurs. Ce tableau constitue un acte magique permanent garantissant la présence réelle de la divinité et la survie du Ka royal.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1290) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_sethi_ier_piete_filiale_ramses_ier_divinise_gourna",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1290 av. J.-C. / règne de Séthi Ier)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1290,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Piété filiale : Séthi Ier officiant devant son père divinisé Ramsès Ier trônant (Temple de Gourna)",
+    site: "Temple funéraire de Séthi Ier (Gourna, Thèbes)",
+    originSite: "Thèbes-Ouest",
+    locationType: "site",
+    currentLocation: "In situ (Chapelle de Ramsès Ier, Temple de Séthi Ier, Gourna)",
+    category: "Bas-relief en calcaire fin",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Séthi Ier", "Ramsès Ier", "Gourna", "Piété filiale", "Jubilés éternels"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNgunX9EhX3QDCiTzlUJRyb8EO5E1rmhMn8oCpPVgtw9sgQOkwvaOtDCTM8ZlnMHBlBG623cG_Km8V5wQThyv8Q22PEg9i5_dt2oYwQtTG4cTT38aqTgzgPAvLLUhuxBpJzQnz_dpmNoe2IweGHZnBe_Q=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce relief illustre la piété filiale et royale au cœur de la XIXe dynastie. La scène dépeint le pharaon Séthi Ier, à droite, faisant face à une divinité masculine trônant, probablement le dieu Amon-Rê ou son propre père divinisé, Ramsès Ier, à qui une chapelle du temple est dédiée. Le roi est représenté dans une posture d'offrande rituelle, élevant ses mains pour présenter un objet sacré ou de la nourriture, assurant ainsi la pérennité du culte et l'harmonie entre les mondes.</p>
+    <p>Le style du relief est exemplaire de la « période de transition » ramesside, où la souplesse des lignes de l'époque amarnienne se mêle à une nouvelle rigueur monumentale. On observe la précision des détails anatomiques, comme la finesse du profil royal et la musculature légère des bras, caractéristiques du raffinement des ateliers de Séthi Ier. Les hiéroglyphes gravés entre les personnages agissent comme un dialogue figé dans la pierre, où le dieu accorde en retour au souverain des « millions d'années de jubilés » et une force vitale inépuisable.</p>
+    <p>Les traces de relief levé visibles ici montrent que ces scènes étaient destinées à être contemplées dans la pénombre des salles intérieures, où la lumière des lampes à huile donnait une profondeur vibrante aux figures, garantissant la protection divine sur le royaume.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1290) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_sethi_ier_hedjet_vases_re_horakhty_gourna",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1290 av. J.-C. / règne de Séthi Ier)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1290,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Offrande de deux vases par Séthi Ier à la couronne blanche Hedjet devant Rê-Horakhty (Temple de Gourna)",
+    site: "Temple funéraire de Séthi Ier (Gourna, Thèbes)",
+    originSite: "Thèbes-Ouest",
+    locationType: "site",
+    currentLocation: "In situ (Parois du Temple de Séthi Ier, Gourna)",
+    category: "Bas-relief en calcaire fin",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Séthi Ier", "Gourna", "Couronne Hedjet", "Rê-Horakhty", "Signe Ânkh"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP91Jg4HgWIyqQWmuqGY8YYdCwuVwNoeoaWd49wBCrHmxDYViGhD4Q0x0tGalSZNndVkO3xkPWezn1rGK85ZSnCaU-Kvba8JY93Hj9AYydkKRd8NEx20rtLY4x4nQP8IP3lqI5qbdAIndN7IEq7jZdKHQ=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette scène s'inscrit dans les rites de présentation d'offrandes, essentiels pour maintenir l'harmonie entre le souverain et les forces divines.</p>
+    <p>Le relief représente le pharaon Séthi Ier, à droite, portant la couronne blanche de Haute-Égypte (hedjet). Il est figuré dans une posture rituelle, les mains levées pour présenter deux petits récipients contenant probablement du vin ou du lait, ou peut-être des onguents sacrés. Face à lui, à gauche, se tient une divinité à tête de faucon surmontée du disque solaire, identifiée comme Rê-Horakhty, l'une des formes les plus puissantes du dieu solaire. Le dieu tient dans sa main le signe Ânkh, symbole de vie, qu'il semble offrir en retour au souverain.</p>
+    <p>Techniquement, l'œuvre utilise le relief levé, une méthode qui permet de suggérer des volumes délicats et des détails précis, tels que le plissé du pagne royal ou les traits fins du visage du pharaon. Entre les deux figures, plusieurs colonnes de textes hiéroglyphiques consignent les noms de Séthi Ier à l'intérieur de cartouches royaux et précisent la nature de l'échange spirituel en cours, fixant pour l'éternité l'image du roi comme garant de l'équilibre du monde.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1290) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_sethi_ier_purification_couronnement_deux_terres_gourna",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1290 av. J.-C. / règne de Séthi Ier)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1290,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Registres superposés de purification et transmission du souffle vital Ânkh à Séthi Ier (Temple de Gourna)",
+    site: "Temple funéraire de Séthi Ier (Gourna, Thèbes)",
+    originSite: "Thèbes-Ouest",
+    locationType: "site",
+    currentLocation: "In situ (Parois du Temple de Séthi Ier, Gourna)",
+    category: "Bas-relief en calcaire fin",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Séthi Ier", "Gourna", "Purification", "Couronnement", "Deux Terres", "Souffle vital"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOMKPvn9FCHwS9GvYOA-TQJb4BatTo8MZiq-zOniu3uazuZGEDxR60hQkAMu0UuTnB9eS5N6ffbYFipsyusDGtBVlLyvKl8co33oCsppLv2SDA6iXLOwAafe6kXX95tAAvfw09yhvDkq0QN5WsDDolmlg=w1611-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Cette scène illustre la complexité des rituels de purification et de couronnement. Le relief se divise en deux registres superposés, montrant le pharaon Séthi Ier en interaction avec diverses divinités. Dans le registre supérieur, le roi est accueilli par des dieux protecteurs, tandis que le registre inférieur dépeint une scène d'offrande dynamique, où le souverain, en mouvement, présente des vases à libation à une divinité assise, confirmant son rôle actif dans le maintien du culte divin.</p>
+    <p>L'esthétique de ce panneau est typique de la finesse ramesside, avec une attention particulière portée aux détails des parures et des coiffes. Le pharaon est représenté portant alternativement la couronne rouge de Basse-Égypte et la couronne blanche de Haute-Égypte, symbolisant son autorité sur les Deux Terres. Les divinités qui lui font face tendent le signe de vie Ânkh vers les narines du roi, un geste sacré transmettant le souffle vital nécessaire à la pérennité de son règne.</p>
+    <p>Les parois sont saturées de colonnes de hiéroglyphes qui encadrent chaque personnage, créant une structure narrative rigoureuse où les cartouches répétés agissent comme des sceaux d'authenticité et de protection éternelle.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1290) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_sethi_ier_pschent_vases_globulaires_amon_re_gourna",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1290 av. J.-C. / règne de Séthi Ier)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1290,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Offrande de vases rituels par Séthi Ier au Pschent devant le dieu Amon-Rê (Temple de Gourna)",
+    site: "Temple funéraire de Séthi Ier (Gourna, Thèbes)",
+    originSite: "Thèbes-Ouest",
+    locationType: "site",
+    currentLocation: "In situ (Parois du Temple de Séthi Ier, Gourna)",
+    category: "Bas-relief en calcaire fin",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Séthi Ier", "Gourna", "Couronne Pschent", "Amon-Rê", "Sceptre Ouas", "Menmaâtrê"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMaBO3wOrmifK2DO3vrxf25_Amhag32skEQq73Z_f_P6kmdFtnS66_Hrp_0hhQD5I3duxkhWMx2tJy9BhrA_C7VcPcmrnTo0hw4BinryEnK3R8d6dOszl98O_IIyuDlArUoiI9qJ8-yPAq0vbC8ReHTmg=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>La scène illustre la piété royale et la légitimité du souverain à travers un rituel d'offrande. Le roi Séthi Ier est représenté à gauche, reconnaissable à la finesse de ses traits caractéristiques de l'art ramesside précoce, qui conserve une part de l'élégance héritée de la période amarnienne tout en revenant aux canons classiques de l'Ancien Empire.</p>
+    <p>Le pharaon porte la double couronne Pschent, symbolisant son autorité sur la Haute et la Basse-Égypte. Il lève les bras pour présenter deux vases globulaires, probablement remplis de vin ou de lait, en signe de dévotion. Face à lui se tient une divinité, vraisemblablement le dieu Amon-Rê, coiffé de ses deux hautes plumes caractéristiques. Le dieu tient dans sa main droite le signe de vie Ankh et dans sa main gauche le sceptre Ouas, signifiant qu'il accorde au roi la vitalité et la domination sur le monde terrestre en échange de ses offrandes.</p>
+    <p>Les colonnes de hiéroglyphes qui encadrent les personnages fournissent l'identité précise des protagonistes, avec le cartouche de couronnement Menmaâtrê (« Stable est la justice de Rê »). La précision de la taille dans le calcaire témoigne de la maîtrise exceptionnelle des sculpteurs thébains, capables de rendre la souplesse des étoffes du pagne royal et la noblesse des profils.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1290) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "peinture_sethi_ier_plafond_vautours_nekhbet_anneaux_chen_gourna",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1290 av. J.-C. / règne de Séthi Ier)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1290,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Plafond des vautours déployés de Nekhbet tenant les anneaux Chen au-dessus des cartouches royaux (Temple de Gourna)",
+    site: "Temple funéraire de Séthi Ier (Gourna, Thèbes)",
+    originSite: "Thèbes-Ouest",
+    locationType: "site",
+    currentLocation: "In situ (Plafonds du Temple de Séthi Ier, Gourna)",
+    category: "Peinture sur enduit et plafond sacré",
+    isHighlight: true,
+    chips: ["XIXe dynastie", "Séthi Ier", "Gourna", "Déesse Nekhbet", "Vautour ailé", "Anneau Chen", "Bleu égyptien"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMS_ndlwWceWqdmJtb72xM1ZfDBF2dOKs0TUeGJ9DGLRC7hY6hFQBtxmjAaYN6SMaDki7Annb-a9fgo88AbqiCCgzAXfRmutpfVYLL_YT1mRS8lmUrGy7tkizTTyuoMAihiEG4Acgg9IALn9KRXIgsnng=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce plafond peint, situé dans le temple funéraire de Séthi Ier à Gourna (Thèbes-Ouest), constitue un exemple remarquable de la décoration des structures horizontales sous la XIXe dynastie, vers 1290 avant notre ère. Contrairement aux plafonds astronomiques plus complexes, cette section privilégie une symbolique de protection royale répétitive et symétrique. Elle est conçue pour sanctifier l'espace de passage et rappeler la nature divine du pharaon ainsi que la protection constante que lui offrent les divinités célestes.</p>
+    <p>Le motif central est dominé par la figure de Nekhbet, la déesse vautour de Haute-Égypte, représentée les ailes déployées. Ce déploiement alaire n'est pas seulement un choix esthétique, mais un geste de protection active au-dessus du souverain lorsqu'il circulait dans ces salles. Entre ses serres, la déesse tient l'anneau Chen, symbole d'éternité. La répétition de ce motif sur les différentes dalles crée un baldaquin symbolique imitant le ciel protecteur sous lequel le roi évolue.</p>
+    <p>L'œuvre se distingue par la présence centrale des cartouches de Séthi Ier, intégrés directement sous les ailes des vautours, entourés de pigments de bleu égyptien symbolisant le cosmos et la voûte céleste.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1290) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture murale, Tableaux & Mosaïque.</p>`
+  },
+  {
+    id: "sculpture_sethi_ier_litanie_visuelle_purification_cartouches_sa_re_gourna",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1290 av. J.-C. / règne de Séthi Ier)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1290,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Litanie pariétale d'encensement et cartouches solaires de Sa-Rê (Temple de Gourna)",
+    site: "Temple funéraire de Séthi Ier (Gourna, Thèbes)",
+    originSite: "Thèbes-Ouest",
+    locationType: "site",
+    currentLocation: "In situ (Parois du Temple de Séthi Ier, Gourna)",
+    category: "Bas-relief en calcaire",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Séthi Ier", "Gourna", "Litanie visuelle", "Cartouches Sa-Rê", "Horus faucon"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOmABkD1S1tq3l0gZkWnNeZ4ln3SgWn1_Tcbu004Y5vgDmQvqpZZK6N47bOftD84C4qxfXTWJcoJRrEjvJyh4tkJVsOLgOGKZG2ECGDXWfCc4tlIiFjmO1rBp5AEKnu9aRkf7dYB3pBvZ2SbRh9I8TWOw=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce relief mural, sculpté dans le calcaire du temple funéraire de Séthi Ier à Gourna vers 1290 avant notre ère, présente une structure narrative dense organisée en registres superposés. Cette composition est typique de l'art de la XIXe dynastie, où l'image et le texte s'entrelacent pour documenter les rites quotidiens du temple. Le pharaon y est représenté à plusieurs reprises dans des postures de dévotion, soulignant son rôle d'intercesseur unique entre le peuple d'Égypte et les divinités.</p>
+    <p>Dans le registre supérieur, on observe le roi Séthi Ier faisant face à des divinités assises sur des trônes archaïques pour procéder à des rituels de purification ou d'encensement. Chaque scène est méticuleusement légendée par des colonnes de hiéroglyphes décrivant les paroles prononcées par le roi et les promesses de « millions d'années de règne » accordées en retour par les dieux.</p>
+    <p>Le registre inférieur met en évidence une série de cartouches royaux protégés par des emblèmes de puissance et des symboles solaires, dont son nom de Sa-Rê (« Fils de Rê »), sous le regard bienveillant d'Horus et de Rê-Horakhty. Par ces gravures, Séthi Ier assure l'activation magique perpétuelle du temple de Gourna.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1290) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_colonne_hypostyle_souffle_ankh_re_horakhty_karnak",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1290 av. J.-C. / règne de Séthi Ier)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1290,
+    domain: "sculpture_statuaire",
+    artifactType: "Décor architectural (fronton, frise, métope, chapiteau)",
+    title: "Colonne papyriforme de la Salle Hypostyle : Rê-Horakhty insufflant le souffle vital Ânkh au pharaon (Karnak)",
+    site: "Complexe religieux de Karnak - Grande Salle Hypostyle (Thèbes)",
+    originSite: "Thèbes",
+    locationType: "site",
+    currentLocation: "In situ (Grande Salle Hypostyle, Karnak)",
+    category: "Décor architectural sur grès",
+    isHighlight: true,
+    chips: ["XIXe dynastie", "Séthi Ier", "Karnak", "Salle hypostyle", "Colonne papyriforme", "Rê-Horakhty", "Souffle vital Ânkh"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOFGtaNGp1VGfi_TJEzsunxc2-VET9ttWZEaaWIsUGMcT6Pz8GWv2eK4wB-SEIOtSL68IQ8fUbDdHrq7rPfB5AmG2o5xqU3b8oeTH1QUneGclYrtCh1BC6QfjtRGMji8m08_dBQZsNrCY4UNWCZbriZyw=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette œuvre monumentale consiste en une colonne massive en grès sculptée en bas-relief, située au cœur de la Grande Salle Hypostyle du temple d’Amon-Rê à Karnak. Édifiée principalement sous le règne de Séthi Ier et achevée par son fils Ramsès II vers 1290-1224 avant J.-C., elle témoigne de l'apogée de l'art ramesside. La structure imite la forme d'un papyrus fermé, symbole de la renaissance et de la fertilité des terres du Nil.</p>
+    <p>Le relief central représente le pharaon en interaction directe avec le divin : à droite, une divinité à tête de faucon, Rê-Horakhty, couronnée du disque solaire à uræus, tend le signe de vie Ânkh vers les narines du souverain, lui insufflant le souffle vital nécessaire pour gouverner l'Égypte et maintenir l'ordre cosmique (Maât).</p>
+    <p>La gravure est réalisée en creux pour faire jouer les ombres portées sous la lumière égyptienne. La forêt de 134 colonnes dont fait partie cet exemplaire reproduisait le marais primordial d'où la vie a émergé selon la cosmogonie thébaine, constituant un manifeste de pierre grandiose.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1290) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_pharaon_deshret_vautour_nekhbet_louxor",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1290 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1290,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Le pharaon à la couronne Deshret protégé par le vautour Nekhbet devant la divinité trônant (Temple de Louxor)",
+    site: "Temple d'Amon de Louxor (Thèbes)",
+    originSite: "Thèbes",
+    locationType: "site",
+    currentLocation: "In situ (Parois du Temple de Louxor)",
+    category: "Relief en creux sur grès",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Ramsès II", "Temple de Louxor", "Couronne Deshret", "Déesse Nekhbet", "Ronde-bosse"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOAEeFLQHIaFRfbaPfEIBgDC0NmFcbHfLteRua8sB7INicbnoXP09izXZUjJTM3SeigNdPTQS7ZjX3NiHpZbl4yh1VaolStpyY-XLxMbQeSt-Ov82ptYmTa1HWw48ekoo4PnzBg0DgivhXVv1BRDYJ2Wg=w1611-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Ce relief monumental, sculpté sur l'un des murs du temple d'Amon-Rê à Louxor, s'inscrit dans la continuité architecturale de la XIXe dynastie, vers 1290 avant J.-C. Il met en scène le pharaon, coiffé de la couronne de Basse-Égypte (le Deshret), dans une posture de dévotion active. La finesse des traits du visage et la précision des parures royales soulignent la maîtrise des artisans du Nouvel Empire.</p>
+    <p>La scène illustre un rite d'offrande ou de consécration devant une divinité trônant, dont seule la silhouette est partiellement conservée. Au-dessus du souverain, un riche ensemble de hiéroglyphes détaille ses titres et ses noms officiels, surmontés par la protection symbolique de la déesse vautour Nekhbet aux ailes déployées. Ce registre textuel et iconographique réaffirme le rôle du roi comme intermédiaire unique entre le monde des hommes et celui des dieux.</p>
+    <p>Au premier plan, une statue fragmentaire en ronde-bosse contraste avec le relief mural, offrant une perspective saisissante sur la superposition des techniques de sculpture dans le complexe de Louxor.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1290) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_procession_cour_dignitaires_polychromie_louxor",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1290 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1290,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Procession rituelle de dignitaires et porteurs d'offrandes avec traces de polychromie (Temple de Louxor)",
+    site: "Temple d'Amon de Louxor (Thèbes)",
+    originSite: "Thèbes",
+    locationType: "site",
+    currentLocation: "In situ (Parois du Temple de Louxor)",
+    category: "Bas-relief sur grès polychrome",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Ramsès II", "Temple de Louxor", "Procession royale", "Bleu égyptien", "Dignitaires"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczN85wIrtfgtFfMy9aiZyUedcvYh0oKz-28e7rXJRfGNiv8nzj0RikVGHJLBYhhd2Gxq8Rosh76T1fZTJggISUUBfCbgCdZkm5IZ5bIT4T6Jqd3dFwwd8dvgCx_ZamoONIYgaYF54xQ6DTpk7Au5f0Bjhw=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette scène murale en bas-relief, sculptée vers 1290 avant J.-C. au début de la XIXe dynastie, orne les structures monumentales du temple d'Amon à Louxor. Elle illustre la maîtrise de l'art ramesside, caractérisé par une volonté de narration dynamique et une occupation dense de l'espace. Le registre central dépeint une procession rituelle ou une scène de cour de grande envergure, où les pigments d'origine, notamment le bleu égyptien et les ocres rouges, subsistent par endroits, témoignant de la vivacité chromatique qui recouvrait autrefois l'ensemble de l'édifice.</p>
+    <p>La composition s'articule autour de la figure royale, entourée de dignitaires et de porteurs d'offrandes. Les hiéroglyphes qui surmontent les personnages agissent comme des légendes précises, détaillant les titres, les noms et les paroles rituelles prononcées lors des cérémonies. La finesse du relief levé permet de jouer avec la lumière naturelle du temple, créant un modelé qui donne vie aux étoffes plissées et aux détails anatomiques des protagonistes.</p>
+    <p>Ce mur constitue une archive historique précieuse sur les costumes, les insignes de pouvoir et les codes cérémoniels du Nouvel Empire sous la bénédiction d'Amon-Rê.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1290) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_ramses_ii_offrande_lotus_dieu_tronant_louxor",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1290 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1290,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Offrande du bouquet de lotus par Ramsès II à la divinité trônant (Temple de Louxor)",
+    site: "Temple d'Amon de Louxor (Thèbes)",
+    originSite: "Thèbes",
+    locationType: "site",
+    currentLocation: "In situ (Parois du Temple de Louxor)",
+    category: "Bas-relief sur grès polychrome",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Ramsès II", "Temple de Louxor", "Bouquet de lotus", "Bleu égyptien", "Régénération"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMZdwB6Td98oWsxyWppBVvQpDynW3Ojw9M-EsuUoJbAHs69CMK6HkFDA5TmDnomw5tPOdUZHV9ElQMn5xnlCKPEUpZBhoyoCVcrzg6Gr4m84lgNL8rod0hBioBFOxg9VpZzy6ZjoM0pmtOsrxPnkdMFWg=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce bas-relief en relief levé, réalisé vers 1290 avant J.-C. (XIXe dynastie), appartient au programme décoratif monumental du temple d'Amon à Louxor. Il représente une scène d'offrande rituelle, pilier de l'iconographie royale égyptienne, où le pharaon Ramsès II interagit directement avec la sphère divine. Le roi, debout à droite, est reconnaissable à sa silhouette athlétique et à ses parures rituelles ; il tend un généreux bouquet de fleurs de lotus vers une divinité assise sur un trône à gauche.</p>
+    <p>L'offrande du lotus symbolise la renaissance et la régénération perpétuelle, liées au cycle solaire et à la crue du Nil. Les colonnes de hiéroglyphes gravées entre les deux protagonistes servent de protocole liturgique, énumérant les épithètes divines et les promesses de « millions d'années » de règne accordées au souverain.</p>
+    <p>Sur le plan technique, l'œuvre conserve des traces remarquables de bleu égyptien sur les fleurs de lotus et de brun-rouge sur les chairs, attestant de l'éclat originel des ateliers royaux de Louxor.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1290) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_ramses_ii_puissance_guerriere_captifs_lies_louxor",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1290 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1290,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Registres guerriers et cultuels : Offrandes royales et soumission des captifs liés (Temple de Louxor)",
+    site: "Temple d'Amon de Louxor (Thèbes)",
+    originSite: "Thèbes",
+    locationType: "site",
+    currentLocation: "In situ (Parois du Temple de Louxor)",
+    category: "Bas-relief sur grès polychrome",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Ramsès II", "Temple de Louxor", "Puissance guerrière", "Captifs liés", "Maât"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPuLJI9R1nf5y26iLW0qeDhkMRFqaXKRos1gcikl2OR_qi-yawTmnh_IjGzBbe5zqXPQSc4gNA-Ii6J3G0jJy772K3V2AzgFuj02WOWnWEOdNd9_JawPhngP77VtKDEh5S_NmB2KNYAeUeaCxLyChllXA=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette portion murale, datée d'environ 1290 avant J.-C. (XIXe dynastie), illustre la quintessence du discours idéologique et religieux du règne de Ramsès II au sein du temple d'Amon à Louxor. Ces registres superposés combinent la célébration de la puissance guerrière et l'accomplissement des rites sacrés, assurant ainsi le maintien de la Maât, l'ordre cosmique.</p>
+    <p>Le registre supérieur met en scène le pharaon dans une posture dynamique, présentant des offrandes de bouquets de lotus et d'aliments sacrés sur des tables d'autel richement garnies. Les hiéroglyphes, gravés en colonnes denses, agissent comme une trame narrative liant chaque geste royal à une promesse divine de victoire et de longévité.</p>
+    <p>Dans la partie inférieure, les reliefs dépeignent des scènes de triomphe où les ennemis du royaume sont figurés sous forme de prisonniers liés, un motif apotropaïque destiné à protéger magiquement le temple contre les forces du chaos. La polychromie conserve des tons ocre rouge et bleu égyptien d'une belle intensité.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1290) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_hecatombe_bovides_ligotes_gazelles_louxor",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1290 av. J.-C. / règne de Séthi Ier ou Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1290,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Hécatombe sacrificielle : Accumulation de bœufs ligotés et gazelles du désert (Temple de Louxor)",
+    site: "Temple d'Amon de Louxor (Thèbes)",
+    originSite: "Thèbes",
+    locationType: "site",
+    currentLocation: "In situ (Parois du Temple de Louxor)",
+    category: "Relief en creux sur grès",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Temple de Louxor", "Bœufs ligotés", "Gazelles", "Hécatombe", "Sacrifice rituel"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczM5_ubL8wAlpqhUcxQsR8zoNosuyQJvpa_PcpIo7BmPaldOXZNux7Q5Qs6Htw9QEWUW66f2Oj6IWY2JSSLki-AAprPcKwnFrRJdJgwwGbYfOR73F9P3zMKotxzzAu113k3KzE-EAKYQJmbHyNfDlbSMFA=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette scène gravée en relief dans le creux orne les parois du temple d’Amon-Rê à Louxor, l'un des sanctuaires les plus prestigieux de l’Égypte antique. Datant d'environ 1290 avant notre ère, elle appartient au début de la XIXe dynastie, période marquée par le renouveau de l'art impérial après la parenthèse amarnienne.</p>
+    <p>L’œuvre représente un pharaon, coiffé de la couronne blanche de Haute-Égypte, présidant une cérémonie d'offrandes d'une ampleur exceptionnelle. Devant lui, le registre se déploie en plusieurs niveaux présentant une accumulation de gibier et de bétail sacrifiés : on distingue nettement des bœufs ligotés, les membres entravés selon le rituel, ainsi que des gazelles et des antilopes dont les formes sont rendues avec un naturalisme saisissant.</p>
+    <p>Les hiéroglyphes qui encadrent les figures énumèrent les denrées offertes et les titres divins du roi, symbolisant la générosité du souverain envers les dieux pour garantir le maintien de la Maât et la prospérité continue de l'Égypte.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1290) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_fete_opet_barque_sacree_naos_pretres_louxor",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1290 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1290,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Célébration de la fête d'Opet : Navigation de la barque sacrée d'Amon et porteurs d'offrandes (Temple de Louxor)",
+    site: "Temple d'Amon de Louxor (Thèbes)",
+    originSite: "Thèbes",
+    locationType: "site",
+    currentLocation: "In situ (Colonnade ou cours du Temple de Louxor)",
+    category: "Relief en creux sur grès",
+    isHighlight: true,
+    chips: ["XIXe dynastie", "Ramsès II", "Temple de Louxor", "Fête d'Opet", "Barque sacrée", "Naos", "Amon-Rê"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczN1hK7FRPXmWat5NYSw96IquQ67DAXS1MtYVLEi5X1kPTGN2LxWFC3Tp7WXMQBtXgo0m5lgjMM8raRM798E4TlTNjhJ-zvaGX6AfFHEjFi02ABIbJsG4qMAgbn_e9TVGCFihd1XpWHoKeq61sXRUbrvbA=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce bas-relief en creux, sculpté vers 1290 avant notre ère au temple d’Amon à Louxor, illustre l'un des moments les plus spectaculaires du calendrier religieux thébain : la fête d'Opet. Durant cette célébration annuelle, les barques sacrées de la triade thébaine quittaient le temple de Karnak pour rejoindre celui de Louxor dans une procession fluviale et terrestre majestueuse.</p>
+    <p>Le registre central est dominé par la représentation de la barque sacrée portant le naos abritant la statue divine, avec une grande précision dans le rendu de la courbure de la coque et des têtes de divinités à la proue et à la poupe. À gauche, des prêtres aux crânes rasés soulèvent des plateaux d'offrandes et de fleurs de lotus, accompagnés de denses colonnes de hiéroglyphes.</p>
+    <p>Cette mise en scène grandiose visait à régénérer le Ka royal et à sceller l'union intime entre le pharaon régnant et son père Amon-Rê pour assurer l'harmonie du monde.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1290) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_rencontre_sacree_mout_horus_ankh_louxor",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1290 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1290,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Transmission de l'Ânkh par Horus et offrande royale à la déesse Mout (Temple de Louxor)",
+    site: "Temple d'Amon de Louxor (Thèbes)",
+    originSite: "Thèbes",
+    locationType: "site",
+    currentLocation: "In situ (Parois du Temple de Louxor)",
+    category: "Relief en creux sur grès",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Ramsès II", "Temple de Louxor", "Déesse Mout", "Horus faucon", "Signe Ânkh"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPwH9uULzUdR9B5qIq1q2P97Lnz6nD0sJ1BY5ex0i_FaG7O7ejDjwp606cmn31L7qypnAK_-hTJ8Oazz22pDzte-hvoaS3m7n9OOINKboRUyyvSzfuDUQrG56BcAbwi8DeCismAGWD6pIMPtxH5LarFKA=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce relief monumental du temple de Louxor, sculpté durant la XIXe dynastie aux alentours de 1290 avant notre ère, illustre la rencontre sacrée entre le monde terrestre et le panthéon divin. La scène met en présence le pharaon face à des divinités majeures, dans un style caractéristique du début de l'époque ramesside où la finesse du détail s'allie à une rigueur théologique stricte.</p>
+    <p>À gauche, le roi apparaît coiffé de la couronne blanche, présentant des offrandes rituelles à une divinité féminine, probablement Mout ou Hathor. À droite, il fait face à une divinité à tête de faucon, Horus ou Rê-Horakhty, qui lui tend le signe de vie Ânkh. Ce face-à-face exprime la transmission de la puissance divine au souverain, légitimant son autorité par un échange direct de dons et de bénédictions au cœur du sanctuaire.</p>
+    <p>Les colonnes de hiéroglyphes qui séparent et surmontent les figures déploient des promesses de stabilité et d'éternité pour le trône d'Égypte, magnifiées par le jeu de lumière rasante sur le grès thébain.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1290) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_registre_panoramique_amon_re_mout_louxor",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1290 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1290,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Frise liturgique panoramique : Hommages royaux répétés devant Amon-Rê et Mout (Temple de Louxor)",
+    site: "Temple d'Amon de Louxor (Thèbes)",
+    originSite: "Thèbes",
+    locationType: "site",
+    currentLocation: "In situ (Parois du Temple de Louxor)",
+    category: "Relief en creux sur grès",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Ramsès II", "Temple de Louxor", "Frise liturgique", "Amon-Rê", "Déesse Mout"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPGpHOBptY0z9aDoeKHbYjChynakft7BSgih0EOPbfD9dMsAh6Y68Q3MMjptmsMSTM30tM3twEtCLte8tHtgcXQG-SlpcSwNrzBR8-DgUTy2w4fZR6rY2EtA3m8cACLj3CNb_GEgGqlSf3_OFDz9nSJMw=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce registre monumental, sculpté sur les parois du temple de Louxor vers 1290 avant notre ère (XIXe dynastie), offre une vision panoramique de la piété royale et des rituels de fondation. La composition se lit comme une succession de tableaux sacrés où le pharaon, dans une posture d'humilité et de dévotion, interagit avec les grandes puissances du panthéon thébain.</p>
+    <p>Le panneau central met en scène une répétition du souverain face aux dieux, illustrant la multiplicité de ses devoirs liturgiques. On y voit le roi effectuer des gestes de consécration, élevant les mains pour offrir l'encens ou la nourriture sacrée à Amon-Rê, reconnaissable à ses hautes plumes, et à la déesse Mout coiffée du pschent. Des tables d'offrandes minutieusement détaillées, chargées de pains, de fleurs et de vases de libation, séparent les scènes.</p>
+    <p>L'ensemble de la paroi est couronné d'une frise de symboles protecteurs et de cartouches royaux qui scellent l'alliance entre le ciel et la terre, transformant la pierre en un livre ouvert sur la théologie de la régénération.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1290) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_entrelacement_volailles_gibier_plumes_louxor",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1290 av. J.-C. / règne de Séthi Ier ou Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1290,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Offrande de gibier à plumes : Entrelacement de canards et d'oies sacrées (Temple de Louxor)",
+    site: "Temple d'Amon de Louxor (Thèbes)",
+    originSite: "Thèbes",
+    locationType: "site",
+    currentLocation: "In situ (Parois du Temple de Louxor)",
+    category: "Relief en creux sur grès",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Temple de Louxor", "Gibier à plumes", "Canards et oies", "Naturalisme", "Œil Oudjat"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMy9ziTf5UUqcgP90JSHAiK8kj-MtW5CrAhzApCJn-b9MtKy_v-7w0_S7Cd9oIjrZq6PQFWkTf0_QOmsAtnA08CN7lPnnnDBqAuVoRlIUM5rq3dO7zPcGFm47Yl6vK_fqwM9tDmFLYr95ldtGIoeOW1iQ=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette œuvre est un relief en creux sculpté sur les parois du temple d'Amon-Rê à Louxor, datant du début de la XIXe dynastie, vers 1290 avant notre ère. À cette époque, sous les règnes de Séthi Ier ou du jeune Ramsès II, l'art égyptien atteint un sommet de virtuosité technique dans le travail du grès.</p>
+    <p>La scène dépeint une offrande de gibier à plumes, symbolisant le triomphe de l'ordre sur le chaos des marais. On y observe un amoncellement de volailles sacrées (canards et oies) dont les longs cous s'entrelacent dans une composition rythmée et dynamique. Les détails anatomiques, comme la texture du plumage et la cambrure des becs, témoignent de l'observation naturaliste rigoureuse des artistes thébains.</p>
+    <p>À droite de la composition, des colonnes de hiéroglyphes finement ciselées accompagnent l'image pour expliciter le rite et sacraliser l'acte du souverain qui nourrit les dieux pour maintenir la fertilité du pays.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1290) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_deesse_leontocephale_sekhmet_sceptre_papyrus_louxor",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1290 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1290,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "La déesse léontocéphale Sekhmet au disque solaire et sceptre papyriforme (Temple de Louxor)",
+    site: "Temple d'Amon de Louxor (Thèbes)",
+    originSite: "Thèbes",
+    locationType: "site",
+    currentLocation: "In situ (Parois du Temple de Louxor)",
+    category: "Relief en creux sur grès",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Ramsès II", "Temple de Louxor", "Déesse Sekhmet", "Léontocéphale", "Sceptre papyriforme", "Uræus"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMHszhgtqilueTnllwbW15EipKdTw1u_lcvD6neGsvxxb8XdKqaFyMU98kFSQMPZ9v5MysMTUYhHPuzyeeTq0RHo3YquQsnug--bVwXhl9pzZPScHP48X73S2dVUrVmmUghzvqUfL_lJSsy_QEL4cyDbQ=w1611-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Ce relief en creux, sculpté vers 1290 avant notre ère dans le grès du temple d'Amon à Louxor, appartient à l'iconographie triomphante de la XIXe dynastie. Il représente une divinité léontocéphale, très probablement la déesse Sekhmet ou Mout-Sekhmet, figure majeure du panthéon thébain. La déesse est coiffée du disque solaire orné de l'uraeus, le cobra protecteur, soulignant son rôle de « Fille de Rê » et sa puissance dévastatrice mise au service de la protection du pharaon et du sanctuaire.</p>
+    <p>La silhouette féminine est traitée avec l'élégance caractéristique de l'époque ramesside, vêtue d'une robe fourreau moulante dont les bretelles sont suggérées par de fines incisions. Dans sa main gauche, elle tient le sceptre papyriforme, symbole de jeunesse et de vigueur, tandis que sa posture hiératique dégage une impression de sérénité redoutable. Le modelé du visage de la lionne conserve une finesse remarquable dans le tracé de l'œil et de la crinière stylisée.</p>
+    <p>Le registre entourant la divinité comporte des éléments de textes hiéroglyphiques monumentaux qui en fixent le sens sacré et pérennisent la protection divine sur la royauté.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1290) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+   {
     id: "sculpture_sethi_ier_kheprech_autel_offrande_gourna",
     civId: "egypte",
     periodId: "nouvel_empire",
