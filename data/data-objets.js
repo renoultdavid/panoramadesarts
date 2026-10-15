@@ -6,6 +6,81 @@ window.ART_OBJECTS = window.ART_OBJECTS || [];
 window.ART_OBJECTS.push(
 
   {
+    id: "relief_hatchepsout_allaitement_vache_hathor_deir_el_bahari",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1470 av. J.-C. / règne d'Hatchepsout)",
+    centuryDisplay: "XVe s. av. J.-C.",
+    centuryNumeric: -1470,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Allaitement divin d'Hatchepsout par la déesse Hathor sous forme de vache sacrée",
+    site: "Temple funéraire d'Hatchepsout - Chapelle d'Hathor (Deir el-Bahari, Thèbes)",
+    originSite: "Deir el-Bahari (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Temple d'Hatchepsout, Deir el-Bahari)",
+    category: "Bas-relief en calcaire",
+    isHighlight: true,
+    chips: ["XVIIIe dynastie", "Hatchepsout", "Deir el-Bahari", "Vache Hathor", "Allaitement divin", "Cornes lyres"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNgxTqrPHW0yLqCs-Qs4XoGJWP_Wk4WyUQDx9Tv575D4iYhj7x2FOpxB4uLIYtA7JRXG8rVV-rYiXACkmf9IdmxACgU5B5b74GW99NjIJSIr42_J1XZ6F-2uM7hVZFeG6avAg9De-GqOEPRYa1BVBtSNw=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce bas-relief sculpté sur l'un des murs extérieurs du temple funéraire d'Hatchepsout à Deir el-Bahari illustre l'un des mythes fondateurs les plus puissants de la souveraine : son allaitement divin par la déesse Hathor. La déesse est représentée sous sa forme animale de vache sacrée, coiffée du disque solaire enserré entre de hautes cornes lyres. Ce motif iconographique, d'une grande douceur malgré la rigueur de la pierre, souligne la filiation divine d'Hatchepsout et la protection maternelle que lui accorde la « Dame de Dendérah », garante de la fertilité et de la régénération.</p>
+    <p>Sous le ventre de la vache protectrice, la petite figure d'Hatchepsout est représentée agenouillée, buvant le lait divin qui lui transmet l'essence des dieux et la force nécessaire pour régner sur l'Égypte. Bien que les visages aient été altérés par le temps et les martelages historiques, la fluidité des lignes du corps de l'animal et la précision des détails, comme l'œil de la vache ou les attaches de ses parures, témoignent de l'excellence de la sculpture thébaine.</p>
+    <p>À l'arrière-plan, une figure humaine de plus petite taille semble accompagner la scène, complétant ce tableau de dévotion. Le jeu d'ombre et de lumière sur le calcaire doré accentue le relief et donne une dimension monumentale à cette rencontre entre le monde animal sacré et la royauté humaine, rappelant que la légitimité d'Hatchepsout provient d'une source divine nourricière immuable.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1470) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "peinture_hatchepsout_terrasse_mediane_expedition_pount_soldats_arbres_myrrhe",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1470 av. J.-C. / règne d'Hatchepsout)",
+    centuryDisplay: "XVe s. av. J.-C.",
+    centuryNumeric: -1470,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Le retour de l'expédition de Pount : Soldats en marche et transport des arbres à encens (Deir el-Bahari)",
+    site: "Temple funéraire d'Hatchepsout - Terrasse médiane (Deir el-Bahari, Thèbes)",
+    originSite: "Deir el-Bahari (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Portique de Pount, Deir el-Bahari)",
+    category: "Peinture murale thébaine",
+    isHighlight: true,
+    chips: ["XVIIIe dynastie", "Hatchepsout", "Deir el-Bahari", "Pays de Pount", "Arbres à myrrhe", "Soldats", "Expédition maritime"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPRtH5Oo1VzKJvTjUYjB6oi_P07YxnfE6JTq3n5dg2jIIdhFdVPJzNkU6_VsJxnjFYbqWBXE8fVwAV8mVQ5Li-vjithJiwF4ygyw-iI8LXVxZJlWdzXXX5Z9tB7qOxZR-IhgV4nm-pdCnjbIeDyJKfD6A=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette peinture murale, située sur la terrasse médiane du temple funéraire d'Hatchepsout à Deir el-Bahari, relate l'un des événements les plus célèbres du règne de la souveraine : l'expédition maritime vers le pays de Pount. Ce registre historique, d'une richesse documentaire exceptionnelle, illustre le retour des troupes égyptiennes transportant les produits exotiques acquis sur les côtes de la mer Rouge.</p>
+    <p>On y observe une file de soldats ou de porteurs, représentés selon les canons de la XVIIIe dynastie avec une peau ocre rouge intense et des perruques courtes et bouclées, marchant en cadence pour ramener les trésors vers la vallée du Nil. L'œuvre détaille avec une précision quasi ethnographique la nature du tribut rapporté : les porteurs portent sur leurs épaules des branches d'arbres à encens (myrrhe), dont les racines étaient parfois transportées dans des paniers pour être replantées dans le jardin d'Amon à Thèbes.</p>
+    <p>Au-dessus des soldats, un registre fragmentaire laisse deviner d'autres richesses comme des sacs d'or, des peaux de panthère ou des bois précieux, tandis que des inscriptions hiéroglyphiques consignent les détails de cette réussite logistique et commerciale sans précédent. Les couleurs conservent des traces de jaune et de vert pour la flore, contrastant avec le rouge des corps et le blanc des pagnes.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1470) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture murale, Tableaux & Mosaïque.</p>`
+  },
+  {
+    id: "sculpture_entree_monumentale_chapelle_hatchepsout_deir_el_bahari",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1470 av. J.-C. / règne d'Hatchepsout)",
+    centuryDisplay: "XVe s. av. J.-C.",
+    centuryNumeric: -1470,
+    domain: "sculpture_statuaire",
+    artifactType: "Décor architectural (fronton, frise, métope, chapiteau)",
+    title: "Porte monumentale de la chapelle d'Hatchepsout : Linteau au disque ailé et cartouches rouges",
+    site: "Temple funéraire d'Hatchepsout - Chapelle principale (Deir el-Bahari, Thèbes)",
+    originSite: "Deir el-Bahari (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Chapelle principale, Deir el-Bahari)",
+    category: "Décor architectural en calcaire polychrome",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Hatchepsout", "Deir el-Bahari", "Disque solaire ailé", "Cartouches rouges", "Plafond étoilé"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMlwkUTwK9El0VSTcyX8ALutBr_f6OKd1etUO_hz6S8Z2z9sHX5Zl4JbiRpVUQIg33RU6k83tJVx0IyP88erGGbLFA8V9Tch7CBd7DquOx-qfDf36MsSm7YQ45RL-f0Q0wf7_w_XWy-3A25YbhWftEUHw=w1611-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Cette vue d'ensemble présente l'entrée monumentale de la chapelle d'Hatchepsout, située au cœur du temple funéraire de Deir el-Bahari. Ce passage charnière, menant vers les salles les plus sacrées du sanctuaire, illustre la perfection de l'intégration entre l'architecture de pierre et le décor polychrome du Nouvel Empire. La structure est encadrée par des montants massifs et un linteau entièrement recouverts de textes et d'images qui proclament la gloire de la reine et sa dévotion au dieu Amon-Rê.</p>
+    <p>Le linteau supérieur est particulièrement remarquable pour sa composition symétrique centrée sur le disque solaire ailé, symbole de protection céleste. En dessous, on distingue plusieurs cartouches royaux au fond rouge vif, dont certains ont survécu aux martelages systématiques visant à effacer le nom d'Hatchepsout. Ces cartouches sont flanqués de signes de vie (Ankh) et de puissance (Ouas), créant une barrière magique qui sanctifie le passage de quiconque pénètre dans la chapelle.</p>
+    <p>Le plafond reprend le motif des étoiles jaunes sur fond bleu sombre, transformant le couloir en une reproduction miniature de la voûte céleste. Sur les parois latérales, les registres superposés montrent la souveraine recevant la bénédiction des divinités thébaines, faisant de cette porte un véritable manifeste politique et religieux gravé dans la falaise calcaire.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1470) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+   {
     id: "relief_ramose_procession_porteurs_corbeilles_tt55",
     civId: "egypte",
     periodId: "nouvel_empire",
