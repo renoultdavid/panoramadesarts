@@ -6,6 +6,106 @@ window.ART_OBJECTS = window.ART_OBJECTS || [];
 window.ART_OBJECTS.push(
 
   {
+    id: "peinture_tympan_osiris_oudjat_sennedjem_tt1",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (v. -1280 av. J.-C. / règnes Séthi Ier - Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1280,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Tympan d'Osiris trônant, yeux Oudjat et fétiches Imi-out (Tombe TT1)",
+    site: "Tombe de Sennedjem - TT1 (Deir el-Médineh, Thèbes)",
+    originSite: "Deir el-Médineh (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe TT1, Deir el-Médineh)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "TT1 Sennedjem", "Deir el-Médineh", "Osiris", "Oudjat", "Imi-out"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOyTs9iZDO3Qw8-JaW9pXRlCk59atgowiYi3R1g8CEFlzY5BsQ3kF27Vx-S3ELXDoIr_2WU1DOw6vYMm1bq1GIX1UVEoVaMHjPdXYF4bxHxl4R_Q92mdW7dNdXRDjCyUxoIhHM3-nXpeDpoI6IjTZS1Cg=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette notice muséale décrit une fresque située sur le tympan de la paroi est de la chambre funéraire de Sennedjem, au sein de la tombe TT1 à Deir el-Médineh, datant du règne de Séthi Ier ou Ramsès II durant la XIXe dynastie. L’œuvre met en scène la figure centrale d'Osiris, souverain de l'Au-delà et dieu de la régénération, représenté sous une forme momiforme avec une peau d'un vert intense symbolisant la renaissance végétale et la fertilité du Nil.</p>
+    <p>Le dieu porte la couronne Atef, composée de la mitre blanche de Haute-Égypte flanquée de plumes d'autruche colorées, et tient sur sa poitrine les insignes de la royauté, le crochet Héka et le fléau Nekhekh. De part et d'autre de sa tête se déploient deux yeux Oudjat monumentaux, symboles de protection, de plénitude et d'intégrité physique retrouvée, dont les lignes de fard et les éléments de faucon sont tracés avec une précision calligraphique.</p>
+    <p>La scène est encadrée par deux colonnes papyriformes surmontées de fleurs de lotus épanouies, tandis que deux fétiches Imi-out, constitués d'une peau de bête sans tête suspendue à un poteau fiché dans un pot, flanquent le dieu pour assurer sa protection magique et la purification du lieu. Le registre supérieur est souligné par une frise de khékerou, motif ornemental stylisé, et l'ensemble de la composition repose sur un fond blanc lumineux qui fait ressortir la polychromie éclatante des pigments bleu lapis-lazuli, ocre rouge et jaune d'or. La présence de textes hiéroglyphiques sur les marges jaunes latérales confirme l'appartenance de Sennedjem à la communauté des artisans d'élite.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1280) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+  {
+    id: "relief_sethi_ier_rituel_encensement_abydos",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (v. -1280 av. J.-C. / règne de Séthi Ier)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1280,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Séthi Ier recevant l'encensement et les libations (Grand Temple d'Abydos)",
+    site: "Grand Temple de Séthi Ier (Abydos)",
+    originSite: "Abydos",
+    locationType: "site",
+    currentLocation: "In situ (Temple de Séthi Ier, Abydos)",
+    category: "Relief peint ramesside",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Séthi Ier", "Abydos", "Rituel d'encensement", "Bas-relief"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPVbpuQ8CpJXmI2FheNXNw1FkkmCcfeHywf-6cjxPHAfRVnS-ZOEl2J9PiwzNtmkKJud9BjS6SVk-ovzDSPHRzlbB8uzuVpReJZ8IJviwLAaEJg1WoIJVUVmCU-8GlQkdq_Q0kGk67MjBBvqvVJYeQmmw=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Relief peint situé dans l'une des niches ou chapelles secondaires du Grand Temple de Séthi Ier à Abydos, un chef-d'œuvre de la XIXe dynastie du Nouvel Empire égyptien, vers 1280 avant notre ère. La scène centrale dépeint le pharaon Séthi Ier assis sur un trône à dossier bas, arborant la coiffe Hemhem composée de cornes de bélier, de cobras et de plumes, symbolisant sa puissance divine et son rôle de protecteur de l'ordre cosmique.</p>
+    <p>Face à lui se tient une figure sacerdotale, vraisemblablement son fils le futur Ramsès II ou un prêtre de haut rang, procédant au rituel de l'encensement et des libations. Le souverain tient dans ses mains les insignes de la royauté tandis que la figure de droite présente un encensoir à bras long, une gestuelle typique du culte quotidien rendu aux divinités et aux ancêtres royaux divinisés. Les parois latérales de la cavité prolongent cette iconographie avec des représentations symétriques du roi recevant les bénédictions de dieux protecteurs, créant un espace clos où le temps semble suspendu pour l'éternité.</p>
+    <p>La technique utilisée est celle du relief en creux très léger, caractéristique de l'école d'Abydos, réputée pour la finesse extrême de ses traits et la douceur des modelés anatomiques. Malgré les stigmates du temps et les dégradations visibles sur le registre médian, la polychromie d'origine subsiste partiellement, révélant des pigments de rouge ocre pour les carnations masculines et des touches de jaune et de bleu sur les parures et les hiéroglyphes. Les cartouches royaux surmontant la scène identifient formellement Séthi Ier par son nom de couronnement Menmaâtrê. Ce décor illustre parfaitement la fonction théologique du temple d'Abydos, conçu comme un mémorial dynastique reliant le pharaon régnant au dieu des morts Osiris, assurant ainsi la pérennité de la lignée royale à travers les rituels sacrés.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1280) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "relief_sethi_ier_kheprech_offrande_amon_abydos",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (v. -1280 av. J.-C. / règne de Séthi Ier)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1280,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Séthi Ier au Khépresh offrant la libation à Amon-Rê (Grand Temple d'Abydos)",
+    site: "Grand Temple de Séthi Ier (Abydos)",
+    originSite: "Abydos",
+    locationType: "site",
+    currentLocation: "In situ (Temple de Séthi Ier, Abydos)",
+    category: "Relief peint ramesside",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Séthi Ier", "Abydos", "Khépresh", "Amon-Rê", "Bas-relief"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOBSK2KHC4lt1HxPdKkhjb4uVufQIXoMqTezFFvHeydxEgbqokL5VUGB7YcUZy3eE6goMjR5LsRFr0RLlNamLgbd9JgbmXoYaOVg28k0AqRDJcPIsU_rM_TZ3af36SZ27RTevdiO3iiwJffr195txYzvA=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>La scène principale, d'une grande finesse d'exécution, représente le pharaon Séthi Ier debout sur la gauche, coiffé du casque de guerre bleu (le khépresh), offrant un vase de libation ou un onguent sacré à une divinité assise. Le dieu, identifiable à sa haute couronne de plumes et à sa peau bleue symbolisant la régénération, est une manifestation d'Amon-Rê ou de Min-Amon, trônant sur un siège archaïque richement orné de motifs géométriques et du signe « smataouy » symbolisant l'union des Deux Terres.</p>
+    <p>Le souverain porte un pagne plissé complexe et un large collier ousekh, tandis que ses gestes témoignent de la piété royale nécessaire au maintien de la Maât, l'équilibre cosmique. Au-dessus des protagonistes, les cartouches royaux déclinent les noms de Séthi Ier, protégés par le disque solaire ailé et des uraeus, soulignant la légitimité divine du monarque. Les parois latérales présentent des scènes de transition où le roi est accueilli par des divinités protectrices, notamment une figure féminine à tête de lionne ou de déesse solaire sur la gauche, créant une continuité narrative dans cet espace restreint dédié aux offrandes quotidiennes.</p>
+    <p>Le style artistique se distingue par un relief dans lequel les volumes musculaires et les détails vestimentaires sont rendus avec une précision quasi sculpturale, typique de l'apogée de l'art ramesside précoce. La conservation exceptionnelle des pigments permet d'admirer le contraste entre le rouge ocre de la peau royale, le bleu lapis-lazuli des parures et le blanc immaculé du fond calcaire, offrant un témoignage vibrant de la splendeur originelle des appartements privés des dieux dans le temple d'Abydos. L'ensemble de la composition est encadré par des frises de khékerou au sommet et des colonnes de hiéroglyphes décrivant les paroles divines garantissant au roi « vie, force et santé » pour l'éternité.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1280) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "relief_sethi_ier_hathor_collier_menat_kv17_louvre",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (v. -1290 av. J.-C. / règne de Séthi Ier)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1290,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Séthi Ier recevant le collier ménat de la déesse Hathor (Tombe KV17)",
+    site: "Vallée des Rois - Tombe de Séthi Ier (KV17)",
+    originSite: "Vallée des Rois (Thèbes-Ouest)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (France) — Département des Antiquités égyptiennes (B 7, E 12964)",
+    category: "Relief peint ramesside",
+    isHighlight: true,
+    chips: ["XIXe dynastie", "KV17 Séthi Ier", "Hathor", "Collier Ménat", "Musée du Louvre", "Bas-relief"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPF38Pqa8zlxy16--dL2EcOeeJo3R0v9l2RVK-F7P0ZZHtk4boAj5p5c897oHnuvtP3kPxKfO0RNZximSvJ-eu77L5uNPMzSM6StWkbNz3Jh3uxs0h8ytQUH_YGboVSk-x8FtU630o-xOj4pPMCLr2pmQ=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce panneau en calcaire peint, provenant de la paroi de la tombe KV 17 dans la Vallée des Rois et aujourd'hui conservé au Musée du Louvre, constitue l'un des sommets de l'art du Nouvel Empire par la finesse de son exécution et la vivacité de ses couleurs originelles. La scène illustre une rencontre sacrée entre le pharaon Séthi Ier et la déesse Hathor, soulignant la relation privilégiée entre le souverain et le divin dans le passage vers l'au-delà.</p>
+    <p>La déesse, coiffée de ses cornes enserrant le disque solaire, présente au roi le collier ménat, un instrument rituel puissant symbolisant la joie, la fertilité et surtout la renaissance éternelle. Le roi est figuré avec une élégance caractéristique de la XIXe dynastie, arborant une perruque courte soigneusement travaillée et un large collier ousekh qui témoigne du prestige de sa fonction. Leurs mains se rejoignent dans un geste de contact rituel, marquant la transmission de la vie et de la protection divine au défunt royal.</p>
+    <p>Les inscriptions hiéroglyphiques entourant les profils précisent les noms et titres de Séthi Ier, ainsi que les paroles de bienvenue prononcées par Hathor, désignée ici comme la régente de la nécropole thébaine. L'œuvre se distingue par un relief dit « dans le creux » ou en méplat d'une grande douceur, où les contours sont modelés avec une précision chirurgicale pour donner du volume aux visages sans briser l'harmonie de la surface calcaire. Ce type de décor, initialement destiné à l'obscurité des couloirs funéraires, visait à assurer magiquement la survie du roi en pérennisant ses interactions avec les dieux.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1290) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+   {
     id: "peinture_re_horakhty_barque_mehen_sennedjem_tt1",
     civId: "egypte",
     periodId: "nouvel_empire",
