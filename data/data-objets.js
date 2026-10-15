@@ -6,6 +6,57 @@ window.ART_OBJECTS = window.ART_OBJECTS || [];
 window.ART_OBJECTS.push(
 
   {
+    id: "relief_famine_bedouins_ounas_saqqarah_imhotep",
+    civId: "egypte",
+    periodId: "ancien_empire",
+    civName: "Égypte : Ancien Empire",
+    century: "Ve dynastie (vers -2350 av. J.-C. / règne d'Ounas)",
+    centuryDisplay: "XXIVe s. av. J.-C.",
+    centuryNumeric: -2350,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Relief des nomades affamés dits « Bédouins de la famine » (Chaussée d'Ounas)",
+    site: "Complexe funéraire d'Ounas (Saqqarah)",
+    originSite: "Saqqarah",
+    locationType: "museum",
+    currentLocation: "Musée Imhotep, Saqqarah (Égypte)",
+    category: "Bas-relief en calcaire",
+    isHighlight: true,
+    chips: ["Ve dynastie", "Ounas", "Saqqarah", "Famine", "Bédouins", "Musée Imhotep"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNDCgBOGeTmeO1qTAoyP1GN0ab--MYG0EgBrT5JiPWOLbtbfazIn9bYeJgYqd4751SYKmwU9Zz125eiJW17TTlD-7alT2Jw2SzUxIhihykG-RkppCyb4M6kaVeGrfW3TPOnsvBwTWcabIaRjHOdlmceaA=w2158-h1438-s-no-gm?authuser=0",
+    narrative: `<p>Ce fragment de bas-relief en calcaire, autrefois polychrome, est une œuvre atypique et saisissante de l'Ancien Empire. Il représente des populations nomades, souvent identifiées comme des Bédouins des confins du désert, dans un état de dénuement extrême. Le sculpteur a employé un réalisme brutal, presque clinique, pour figurer les effets de la famine : les corps sont réduits à « la peau et les os », les côtes sont saillantes, les visages sont émaciés et les clavicules décharnées.</p>
+    <p>Longtemps interprétée comme le récit d'une famine réelle survenue sous le règne d'Ounas, cette scène est aujourd'hui réévaluée par les archéologues. La découverte d'un relief similaire et plus ancien sur la chaussée du roi Sahourê suggère qu'il pourrait s'agir d'un thème iconographique traditionnel visant à magnifier le rôle du pharaon en tant que garant de l'ordre et nourricier de son peuple face aux fléaux extérieurs. Ces individus pourraient ainsi être des prisonniers ou des populations étrangères implorant la protection de l'Égypte.</p>
+    <p>Un fragment majeur de cet ensemble est aujourd'hui conservé au Musée Imhotep à Saqqarah, tandis qu'un autre morceau célèbre se trouve au Musée du Louvre.</p>
+    <p><strong>Siècle :</strong> XXIVe siècle av. J.-C. (-2350) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "funeraire_fausse_porte_tepemankh_ii_saqqarah_le_caire",
+    civId: "egypte",
+    periodId: "ancien_empire",
+    civName: "Égypte : Ancien Empire",
+    century: "Ve dynastie (vers -2458 av. J.-C. / règne d'Ouserkaf)",
+    centuryDisplay: "XXVe s. av. J.-C.",
+    centuryNumeric: -2458,
+    domain: "funeraire",
+    artifactType: "Fausse porte",
+    title: "Stèle fausse porte peinte du dignitaire Tepemankh II (Mastaba de Saqqarah)",
+    site: "Mastaba de Tepemankh II (Saqqarah)",
+    originSite: "Saqqarah",
+    locationType: "museum",
+    currentLocation: "Musée égyptien du Caire (Égypte)",
+    category: "Stèle fausse porte en calcaire peint",
+    isHighlight: true,
+    chips: ["Ve dynastie", "Tepemankh II", "Ouserkaf", "Fausse porte", "Saqqarah", "Musée du Caire"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP0AJ-Q6_zee1FOgwe14jofxyH9FvOA_gCsZU7rfYuYis1MV68nEAABJTgJ-poxnRsESNXYsWG-cWAU0NotkozFxJQNaiVChQE3ThFpMwkQbGCU_CGQTNzaf_lH301xDdy9t7wilEykxbg9aUfjgRGfbg=w1611-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Cette stèle monumentale en calcaire peint, connue sous le nom de fausse porte, provient du mastaba de Tepemankh II situé dans la nécropole de Saqqarah. Datée précisément de l'an 2458 avant notre ère, sous le règne du pharaon Ouserkaf au début de la Ve dynastie, elle constitue l'élément central du culte funéraire. La fausse porte n’était pas un passage physique pour les vivants, mais un seuil symbolique et magique permettant au ka, l'énergie vitale du défunt, de circuler librement entre le monde des morts et celui des vivants pour venir consommer les offrandes déposées devant elle.</p>
+    <p>L'œuvre se distingue par la finesse de ses reliefs et la remarquable conservation de sa polychromie d'origine. On y voit Tepemankh représenté deux fois de manière symétrique, vêtu du pagne plissé traditionnel et d'un large collier ousekh. Il tient un long bâton de marche et un sceptre de pouvoir, symboles de son rang élevé à la cour. À ses pieds, de petites figures représentent probablement ses fils, illustrant la continuité de la lignée. La niche centrale, volontairement étroite, simule l'entrée scellée vers l'au-delà, surmontée d'un rouleau de pierre imitant une natte de roseaux enroulée.</p>
+    <p>Le décor est saturé d'inscriptions hiéroglyphiques gravées avec une grande précision. Le linteau supérieur et les montants énumèrent les titres prestigieux de Tepemankh, qui occupait d'importantes fonctions administratives et religieuses. Les textes reprennent également les formules d'offrandes rituelles, invoquant les dieux Anubis et Osiris pour garantir au défunt une subsistance éternelle composée de pain, de bière, de viande et de tissus. L'ensemble de la composition, par sa rigueur géométrique et son équilibre, témoigne de l'apogée de l'art memphite sous la Ve dynastie.</p>
+    <p>Aujourd'hui conservée au Musée égyptien du Caire, cette pièce offre un témoignage précieux sur les croyances égyptiennes relatives à l'immortalité et sur l'importance de la mémoire individuelle. La présence des couleurs originales, notamment le rouge brun pour la peau masculine et le jaune pour les fonds, permet d'apprécier la vivacité esthétique qui régnait autrefois à l'intérieur des chapelles funéraires sombres. Elle demeure l'un des exemples les plus aboutis de l'architecture symbolique de l'Ancien Empire.</p>
+    <p><strong>Siècle :</strong> XXVe siècle av. J.-C. (-2458) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+   {
     id: "sculpture_frise_cobras_djoser_saqqarah_imhotep",
     civId: "egypte",
     periodId: "ancien_empire",
