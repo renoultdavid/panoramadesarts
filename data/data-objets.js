@@ -6,6 +6,331 @@ window.ART_OBJECTS = window.ART_OBJECTS || [];
 window.ART_OBJECTS.push(
 
   {
+    id: "sculpture_ramses_iii_decheret_procession_divinites_medinet_habou",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (vers -1180 av. J.-C. / règne de Ramsès III)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1180,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Offrandes rituelles de Ramsès III à la couronne rouge Decheret devant les divinités thébaines (Médinet Habou)",
+    site: "Temple funéraire de Ramsès III (Médinet Habou, Thèbes)",
+    originSite: "Thèbes-Ouest",
+    locationType: "site",
+    currentLocation: "In situ (Parois du Temple de Médinet Habou, Thèbes)",
+    category: "Relief en creux sur grès polychrome",
+    isHighlight: false,
+    chips: ["XXe dynastie", "Ramsès III", "Médinet Habou", "Couronne Decheret", "Sceptre Ouas", "Signe Ânkh", "Liturgie royale"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOxvGbPbdMz53KQ7Jj2xVQX-YirjZcxCA_Ot2wKWINHh9cd0Red7YZVOjnrjRzpVej4d1nu2cpIxt6jwGdh9Ja3sa7mKoFPN5sj0CocfWz6FPjdgG62lcDhFQSOkPjV-oAmZ10OuIx7b8d3A3IxFcrX-A=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette scène en bas-relief polychrome provient du temple funéraire de Ramsès III à Médinet Habou, situé sur la rive ouest de l’ancienne Thèbes. Édifié durant la XXe dynastie du Nouvel Empire, ce complexe monumental est l'un des mieux préservés d’Égypte, célèbre pour la profondeur exceptionnelle de ses gravures « en creux », une technique choisie pour résister aux outrages du temps et à l'érosion. La palette chromatique, encore partiellement visible, témoigne de la vivacité originelle des pigments minéraux utilisés par les artisans royaux, où les ocres rouges des chairs contrastent avec le bleu lapis-lazuli des parures divines.</p>
+    <p>La composition illustre un moment solennel de liturgie royale où le pharaon Ramsès III, reconnaissable à sa stature imposante à gauche, officie devant une procession de divinités. Le roi porte la couronne Decheret de Basse-Égypte et présente des offrandes rituelles, symbolisant son rôle d'intermédiaire unique entre le monde des hommes et celui des dieux. Face à lui, les divinités se succèdent dans une attitude hiératique, tenant les sceptres Ouas de la puissance et le signe Ankh de la vie, garantissant ainsi au souverain la légitimité de son règne et sa protection éternelle.</p>
+    <p>L'arrière-plan et les registres inférieurs sont saturés de colonnes de hiéroglyphes d'une grande finesse exécutive. Ces textes ne sont pas de simples ornements, mais des formules rituelles et des titulatures royales qui « activent » la scène de manière magique. On y retrouve les cartouches du pharaon répétant ses noms de couronnement et de naissance, tandis que les inscriptions supérieures identifient chaque divinité et détaillent les paroles qu’elles adressent au roi, promettant généralement des millions d'années de jubilés et la victoire sur ses ennemis.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1180) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_ramses_iii_char_combat_atef_peuples_mer_medinet_habou",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (vers -1180 av. J.-C. / règne de Ramsès III)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1180,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Triomphe militaire de Ramsès III sur son char de combat et déroute des Peuples de la Mer (Médinet Habou)",
+    site: "Temple funéraire de Ramsès III - Second pylône (Médinet Habou, Thèbes)",
+    originSite: "Thèbes-Ouest",
+    locationType: "site",
+    currentLocation: "In situ (Second pylône de Médinet Habou, Thèbes)",
+    category: "Relief monumental en creux sur grès",
+    isHighlight: true,
+    chips: ["XXe dynastie", "Ramsès III", "Médinet Habou", "Char de combat", "Couronne Atef", "Peuples de la Mer", "Libyens"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMdtIkoPXjvuC41Izmn9ABgq-jD3j-A9kH0g6lIPWQ9E0NKZEVg5qrhrtBQ0FJjb3AblpS9mqVeoQpG39wd3Bg04vJC77W3MNjVqTs1k7YNfHcFAGQfTI5IFdHrwSrhLU5KtuwtEncjGY6bIZpjQH_dDg=w1611-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Cette scène murale, capturée dans le second pylône du temple de Médinet Habou, illustre la fonction guerrière et protectrice de Ramsès III, garant de l'équilibre du monde face au chaos. Contrairement aux scènes de pure dévotion, ce registre met en scène le triomphe militaire du souverain, un thème central de l'iconographie ramesside. Le pharaon y apparaît dans une posture dynamique, dominant la composition de sa stature héroïque, tandis que le détail des couleurs subsistantes permet de distinguer la finesse des pagnes plissés et la richesse des parures royales.</p>
+    <p>Au centre de l'image, Ramsès III est représenté tenant fermement les rênes de son char de combat, bien que la partie inférieure du véhicule soit partiellement érodée. Derrière lui, une suite de dignitaires et de porte-enseignes en habit de fête l'accompagne, soulignant la dimension triomphale de l'événement. Le souverain porte la couronne Atef ou une variante complexe surmontée de plumes, symbolisant sa puissance divine et son autorité suprême sur les terres étrangères.</p>
+    <p>La partie inférieure et le registre de droite révèlent un entremêlement complexe de corps : il s'agit des ennemis vaincus, probablement les Peuples de la Mer ou des Libyens, dont les corps sont jetés dans la confusion sous les sabots des chevaux royaux. Cette figuration du désordre, traitée avec un réalisme brutal, contraste volontairement avec l'ordre parfait et la sérénité qui émanent de la figure du roi. Chaque ennemi est sculpté avec des traits ethniques distinctifs, permettant aux scribes de l'époque de documenter précisément les victoires impériales.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1180) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_pilier_offrande_maat_ptah_investiture_khonsou_medinet_habou",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (vers -1180 av. J.-C. / règne de Ramsès III)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1180,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Pilier liturgique : Offrande de la statuette de Maât à Ptah et investiture divine par Khonsou (Médinet Habou)",
+    site: "Temple funéraire de Ramsès III - Piliers de la cour (Médinet Habou, Thèbes)",
+    originSite: "Thèbes-Ouest",
+    locationType: "site",
+    currentLocation: "In situ (Piliers de la cour de Médinet Habou, Thèbes)",
+    category: "Bas-relief sur grès polychrome",
+    isHighlight: false,
+    chips: ["XXe dynastie", "Ramsès III", "Médinet Habou", "Dieu Ptah", "Dieu Khonsou", "Statuette de Maât", "Couronne Pschent"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOpJJQAWUKtkC2H3wmMEdrnXqZz-eRbp5q5SVn1ktnG3ZpKsJKpu5urD4rJqwqE16eNyRt16SNm6jBNzkX8svn0R0jgtXG9pUVmoRKPQ4BJpK-mTrWydB6Cpl7MP3pa4_Hs9xPVZzzPto8VT7H3QN2eyg=w1611-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Ce bas-relief sur pilier illustre la relation privilégiée et réciproque entre Ramsès III et le panthéon thébain, structurée selon une hiérarchie verticale rigoureuse. Le registre supérieur montre le pharaon dans une posture d'humilité et de dévotion, agenouillé devant le dieu Ptah, le créateur assis sur son trône. Le roi présente une petite statuette de Maât, la vérité-justice, symbolisant que son gouvernement est en parfait accord avec l'ordre cosmique. Cette offrande est la plus précieuse qu'un souverain puisse faire, car elle justifie son droit à régner aux yeux des dieux.</p>
+    <p>Dans le registre inférieur, la dynamique change pour exprimer l'investiture divine. Le roi, debout et coiffé de la couronne Pschent symbolisant l'union des Deux Terres, fait face au dieu Khonsou, reconnaissable au disque lunaire sur sa tête. Les mains se tendent dans un geste de reconnaissance mutuelle. Les colonnes de hiéroglyphes situées entre les figures font office de cartels éternels, précisant les noms de couronnement du roi et les bénédictions accordées par les divinités, telles que la force, la santé et la pérennité du trône.</p>
+    <p>La conservation des pigments sur ce pilier est remarquable, notamment les tons ocre de la peau et les touches de bleu égyptien qui soulignent les coiffes et les hiéroglyphes. L'exécution technique en relief dans la masse permet de jouer avec l'ombre et la lumière naturelle de la cour, donnant vie aux silhouettes.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1180) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_retour_triomphal_char_captifs_ligotes_medinet_habou",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (vers -1180 av. J.-C. / règne de Ramsès III)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1180,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Retour triomphal de campagne militaire : Ramsès III sur son char et défilé des captifs ligotés (Médinet Habou)",
+    site: "Temple funéraire de Ramsès III - Parois extérieures (Médinet Habou, Thèbes)",
+    originSite: "Thèbes-Ouest",
+    locationType: "site",
+    currentLocation: "In situ (Parois extérieures de Médinet Habou, Thèbes)",
+    category: "Relief monumental en creux sur grès",
+    isHighlight: false,
+    chips: ["XXe dynastie", "Ramsès III", "Médinet Habou", "Char royal", "Chevaux empanachés", "Captifs ligotés", "Comptabilisation du butin"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOBcQchnWv5VgXOwXk0j1MleovjjfoxHlVuWHxnD5tMsH1Xp7DnjIueacoV84B_KIHeE-zm23DG62a_MHXe5CU18Eqd04d7s2Z1k7O2_xS7QGOkyzEecxjT5cr9NvszXDgjYwZV5NwM5uFvw18VBHYYVQ=w1611-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Cette scène murale, conservée in situ sur les parois du temple funéraire de Ramsès III à Médinet Habou, sur la rive ouest de Thèbes, constitue un témoignage exceptionnel de l'art de la XXe dynastie, vers 1180 avant J.-C. Elle illustre la puissance guerrière du pharaon à travers un relief « en creux », une technique particulièrement adaptée à la lumière crue de l'Égypte qui accentue les contrastes et la lisibilité des détails. La composition est structurée en registres superposés, mêlant une écriture hiéroglyphique narrative à une iconographie royale codifiée, où le souverain est représenté dans une échelle héroïque dépassant celle de ses sujets.</p>
+    <p>Le panneau central met en scène le retour triomphal après une campagne militaire, probablement contre les Peuples de la Mer ou les Libyens. On y distingue le pharaon montant son char de guerre, dont les chevaux sont parés de panaches de plumes sophistiqués, symboles de la force impétueuse du roi. Sous les sabots des chevaux et à l'arrière du char, des prisonniers ennemis sont représentés ligotés, les bras entravés dans des positions d'humiliation qui soulignent la victoire totale de l'ordre égyptien sur le chaos extérieur. Les traces de pigments rouges et ocres encore visibles témoignent de la vivacité originelle de cette fresque de pierre.</p>
+    <p>Les registres supérieurs et latéraux détaillent le défilé des troupes et des fonctionnaires royaux, portant des enseignes ou comptabilisant le butin de guerre. La précision du trait permet d'identifier les différents types d'armements et les particularités ethniques des captifs, faisant de cette paroi une véritable archive historique autant qu'une œuvre religieuse.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1180) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_mammisi_harsomtous_ptolemee_viii_edfou",
+    civId: "egypte",
+    periodId: "ptolemaique",
+    civName: "Égypte : Époque ptolémaïque",
+    century: "Époque ptolémaïque (IIe-Ier s. av. J.-C. / Ptolémée VIII - Ptolémée IX)",
+    centuryDisplay: "IIe s. av. J.-C.",
+    centuryNumeric: -140,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Naissance divine d'Harsomtous et rites d'offrandes royales (Mammisi du Temple d'Edfou)",
+    site: "Temple d'Horus - Mammisi (Edfou)",
+    originSite: "Edfou",
+    locationType: "site",
+    currentLocation: "In situ (Mammisi du Temple d'Edfou)",
+    category: "Bas-relief sur grès polychrome",
+    isHighlight: false,
+    chips: ["Époque ptolémaïque", "Edfou", "Mammisi", "Harsomtous", "Ptolémée VIII", "Léontocéphale", "Naissance divine"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOIoNG9SK1DqWJGdfg1q_FfwvHgrcl9swSy8ML6bKhw6DDwlhaPiswXqFU8Y2HAT4BZQtf-H--H-LyLpuay_6o47bKtt901PXEtfmOcZaGf_2GxXq4mjZIA1lDD0bswK7HfHY96aK752uC9tlUPfNXVNw=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette scène gravée en bas-relief orne les parois du mammisi du temple d'Horus à Edfou, une structure édifiée principalement sous le règne de Ptolémée VIII Évergète II et achevée sous Ptolémée IX Sôter II. Le terme mammisi, signifiant « lieu de naissance », désigne l'édifice sacré où était célébrée la naissance divine du jeune dieu Harsomtous, fils d'Horus d'Edfou et de la déesse Hathor de Dendérah.</p>
+    <p>L'œuvre présente une succession de registres où le pharaon, garant de l'ordre cosmique, interagit avec les divinités. On y observe le souverain accomplissant des rites d'offrandes devant des figures assises, incluant des divinités léontocéphales et des formes juvéniles du dieu solaire. La finesse du relief, caractéristique de l'époque ptolémaïque, se manifeste par des modelés charnus et une profusion de détails dans les parures et les coiffes hiératiques.</p>
+    <p>La polychromie résiduelle, visible à travers les pigments ocres, rouges et bleus, permet d'imaginer la splendeur originelle de ces parois. Les colonnes à chapiteaux composites et les murs d'entrecolonnement qui entourent cette scène créent un espace intime et mystique, protégeant le secret de la gestation et de l'accouchement divin qui légitime, par extension, le pouvoir sacré du pharaon sur terre.</p>
+    <p><strong>Siècle :</strong> IIe siècle av. J.-C. (-140) | <strong>Civilisation :</strong> Égypte ptolémaïque | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_pylone_massacre_ennemis_ptolemee_xii_edfou",
+    civId: "egypte",
+    periodId: "ptolemaique",
+    civName: "Égypte : Époque ptolémaïque",
+    century: "Époque ptolémaïque (vers -57 av. J.-C. / règne de Ptolémée XII)",
+    centuryDisplay: "Ier s. av. J.-C.",
+    centuryNumeric: -57,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Massacre colossal des ennemis par Ptolémée XII devant Horus de Behdet et Hathor (Grand Pylône d'Edfou)",
+    site: "Temple d'Horus - Grand Pylône (Edfou)",
+    originSite: "Edfou",
+    locationType: "site",
+    currentLocation: "In situ (Façade du Grand Pylône d'Edfou)",
+    category: "Relief colossal en creux sur grès",
+    isHighlight: true,
+    chips: ["Époque ptolémaïque", "Edfou", "Ptolémée XII", "Grand Pylône", "Massacre des ennemis", "Horus de Behdet", "Rainures d'oriflammes"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOcSCQHx__So9rn5B8AKXNUPX5d1CoSyKSkDu2ddrQqb9APZBLeo8fpWaGvTLt856yAQ8DJeoAQqgBIyjuvZOwJbHwk4AmVtrtDY1u4M6LOHsc_7O8hWzJ4Ba7lgohIy7oOKl6RvmVDA9jpgKMz6Z3Spg=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce relief colossal orne la façade du grand pylône du temple d'Horus, une structure massive de 36 mètres de haut qui constitue l'un des exemples les plus achevés de l'architecture sacrée égyptienne. Ce môle monumental a été achevé sous le règne de Ptolémée XII Néos Dionysos, vers 57 avant J.-C., marquant la phase finale de la décoration du temple. La scène représente le pharaon dans l'acte rituel et politique du « massacre des ennemis », un thème iconographique traditionnel de la royauté égyptienne destiné à affirmer le triomphe de l'ordre sur le chaos.</p>
+    <p>Le souverain est représenté à une échelle héroïque, brandissant une massue pour frapper un groupe de prisonniers qu'il maintient par la chevelure. Devant lui se tiennent les divinités tutélaires du temple, le dieu faucon Horus de Behdet et la déesse Hathor, qui accueillent cet acte comme une offrande garantissant la protection du pays. La puissance du relief, avec ses volumes vigoureux, témoigne de la maîtrise des sculpteurs ptolémaïques qui ont su adapter les canons anciens aux dimensions exceptionnelles des murs d'enceinte.</p>
+    <p>On observe sur la surface du grès des encoches verticales qui accueillaient autrefois de gigantesques mâts porte-oriflammes en bois, dont les pointes étaient recouvertes de métal brillant. Ce mur ne servait pas seulement de barrière défensive symbolique, mais agissait comme une page d'histoire monumentale, proclamant la légitimité du roi lagide devant les dieux égyptiens.</p>
+    <p><strong>Siècle :</strong> Ier siècle av. J.-C. (-57) | <strong>Civilisation :</strong> Égypte ptolémaïque | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_pylone_edfou_statue_faucon_granite_noir_ptolemee_xii",
+    civId: "egypte",
+    periodId: "ptolemaique",
+    civName: "Égypte : Époque ptolémaïque",
+    century: "Époque ptolémaïque (vers -57 av. J.-C. / règne de Ptolémée XII)",
+    centuryDisplay: "Ier s. av. J.-C.",
+    centuryNumeric: -57,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire divine & culte",
+    title: "Le colosse d'Horus faucon au Pschent en granit noir et façade du Grand Pylône (Edfou)",
+    site: "Temple d'Horus - Parvis du Grand Pylône (Edfou)",
+    originSite: "Edfou",
+    locationType: "site",
+    currentLocation: "In situ (Entrée principale du Temple d'Edfou)",
+    category: "Statue en ronde-bosse de granit noir et relief sur grès",
+    isHighlight: true,
+    chips: ["Époque ptolémaïque", "Edfou", "Horus faucon", "Granit noir", "Couronne Pschent", "Ptolémée XII", "Grand Pylône"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPNDhkyqG9KobH1Qxd9IJmzZWW-Kq6jjezZwJZMdW-7qmOxzFHag1DqyRl8l54EycLIWOhNKqfnIyv6shV4pIL99iLNTXaAWwhcwzgnCGPkOsThy9IZzQ0_HzsVs_eTtBpnZ4y8N8sXMtdW6j1-V-pPXg=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce relief colossal, gravé sur la face extérieure du pylône d'Edfou, constitue l'une des compositions les plus imposantes de l'art ptolémaïque, achevée sous le règne de Ptolémée XII Néos Dionysos. La scène reprend le thème millénaire du « massacre des ennemis », où le pharaon, coiffé de la double couronne, brandit une massue pour terrasser les forces du chaos représentées par des prisonniers saisis par les cheveux. Devant lui, le dieu Horus de Behdet et la déesse Hathor observent ce geste rituel qui assure la stabilité de l'Égypte et la protection du sanctuaire.</p>
+    <p>Au pied de ces murs cyclopéens se dresse l'une des statues monumentales d'Horus, sculptée dans un granit noir d'une grande dureté. Représenté sous sa forme de faucon pur, le dieu porte la double couronne (pschent), symbolisant sa souveraineté sur la Haute et la Basse-Égypte. Ces statues, qui flanquent l'entrée principale, servaient de gardiens spirituels et de points de focalisation pour la dévotion populaire, marquant la transition entre le monde profane et l'espace sacré de la cour à colonnades.</p>
+    <p>L'architecture du pylône intègre des détails fonctionnels et symboliques, comme les hautes rainures verticales destinées à maintenir les mâts de cèdre où flottaient les oriflammes du temple. L'ensemble frappe par son état de conservation exceptionnel, où la statuaire en ronde-bosse et le bas-relief monumental se complètent pour impressionner le visiteur dès son arrivée sur le parvis.</p>
+    <p><strong>Siècle :</strong> Ier siècle av. J.-C. (-57) | <strong>Civilisation :</strong> Égypte ptolémaïque | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_registres_procession_divinites_ptolemee_pschent_edfou",
+    civId: "egypte",
+    periodId: "ptolemaique",
+    civName: "Égypte : Époque ptolémaïque",
+    century: "Époque ptolémaïque (vers -150 av. J.-C. / dynastie lagide)",
+    centuryDisplay: "IIe s. av. J.-C.",
+    centuryNumeric: -150,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Registres superposés de divinités assises et adoration royale au Pschent (Parois intérieures d'Edfou)",
+    site: "Temple d'Horus - Parois intérieures (Edfou)",
+    originSite: "Edfou",
+    locationType: "site",
+    currentLocation: "In situ (Couloirs et parois intérieures du Temple d'Edfou)",
+    category: "Relief en creux sur grès",
+    isHighlight: false,
+    chips: ["Époque ptolémaïque", "Edfou", "Horus de Behdet", "Hathor", "Khonsou", "Couronne Pschent", "Relief ptolémaïque"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczO4Hj7uRsFZh1_DBXWq0WN5M8qmul9ohSmF8T5Y28jehSlnkg74KQ4hjAOHbZ_ase59Xkl6aAXRdncBWg5StvDZpT3mjkT0lowVix7EAMgUDR37Wjd6TcImIo7LLk0bN5aXoLhkB4R-Y-yG2DESVez_gQ=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette notice présente un bas-relief monumental situé sur les parois intérieures du temple d'Edfou, l'un des sanctuaires les mieux préservés de l'Égypte ancienne. Édifié durant la période ptolémaïque, entre 237 et 57 avant J.-C., ce temple est entièrement dédié au dieu faucon Horus. L'œuvre témoigne de la persistance des canons esthétiques pharaoniques sous le règne des souverains grecs, illustrant la volonté de ces derniers de s'inscrire dans la continuité de la tradition religieuse et politique égyptienne.</p>
+    <p>La composition se déploie en registres superposés où se succèdent des divinités assises recevant les hommages du pharaon. On y distingue une procession de figures divines, chacune identifiable par ses attributs spécifiques et sa couronne complexe, telles que les formes locales d'Horus, d'Hathor ou de Khonsou. La précision de la taille, réalisée en relief creux pour capter les jeux d'ombre et de lumière du soleil égyptien, souligne la musculature stylisée des corps et la finesse des parures rituelles.</p>
+    <p>Le souverain est représenté debout à droite de chaque registre, dans une posture d'adoration active. Il porte la double couronne (Pschent) symbolisant son autorité sur la Haute et la Basse-Égypte, tout en tendant les mains dans un geste d'offrande destiné à maintenir l'ordre cosmique, la Maât. Les colonnes de hiéroglyphes qui entourent les personnages consignent les formules liturgiques et les généalogies divines, transformant le mur en un véritable livre de pierre.</p>
+    <p><strong>Siècle :</strong> IIe siècle av. J.-C. (-150) | <strong>Civilisation :</strong> Égypte ptolémaïque | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_salle_hypostyle_chapiteaux_composites_foret_pierre_edfou",
+    civId: "egypte",
+    periodId: "ptolemaique",
+    civName: "Égypte : Époque ptolémaïque",
+    century: "Époque ptolémaïque (IIIe-IIe s. av. J.-C. / Ptolémée III - Ptolémée VIII)",
+    centuryDisplay: "IIe s. av. J.-C.",
+    centuryNumeric: -180,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Salle hypostyle d'Edfou : Forêt de colonnes primordiales et chapiteaux composites palmiformes",
+    site: "Temple d'Horus - Salle hypostyle (Edfou)",
+    originSite: "Edfou",
+    locationType: "site",
+    currentLocation: "In situ (Salle hypostyle du Temple d'Edfou)",
+    category: "Décor architectural sur grès",
+    isHighlight: true,
+    chips: ["Époque ptolémaïque", "Edfou", "Salle hypostyle", "Chapiteaux composites", "Palmiformes", "Marécage primordial", "Noun"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMXsdTKfmFSaaBhqLy-hGfYXvOPYBrlR9tnEfhd8YID5QsEw3lgibFA1s251D7qneXB3qTJHYY1qos-haAieDJ4f5ThzQr7C6LNw6lIiU1TwuIMNlFsExOLqlN0kbMJ3v5ikxMx8LuhZf2ggBLgaiZJIA=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette photographie nous transporte au cœur de la salle hypostyle du temple d'Edfou, un espace sacré conçu comme une forêt de pierre s'élevant vers le ciel. Les colonnes massives que l'on observe ici ne sont pas de simples supports structurels, mais des éléments symboliques représentant les plantes primordiales émergeant du marécage originel lors de la création du monde. L'obscurité relative de cette salle, contrastant avec la lumière vive de la cour extérieure, était destinée à instaurer une atmosphère de mystère et de respect à mesure que l'on progressait vers le saint des saints.</p>
+    <p>Les chapiteaux de ces colonnes présentent une diversité remarquable, caractéristique de l'architecture ptolémaïque tardive. On y distingue des formes « composites » ou « palmiformes » qui imitent avec une grande finesse les feuilles de palmier ou les ombelles de papyrus épanouies. Cette variété décorative rompt avec l'uniformité des époques plus anciennes et témoigne de l'inventivité des architectes de l'époque gréco-romaine, cherchant à magnifier la demeure terrestre du dieu Horus par une richesse ornementale sans précédent.</p>
+    <p>Chaque fût de colonne est entièrement recouvert de reliefs organisés en registres horizontaux, transformant la pierre en un support narratif dense. À la base des colonnes, on peut observer des motifs de plantes aquatiques qui renforcent l'image du temple comme une île de création surgissant des eaux du Nil, soutenant des architraves colossales sous une voûte céleste d'éternité.</p>
+    <p><strong>Siècle :</strong> IIe siècle av. J.-C. (-180) | <strong>Civilisation :</strong> Égypte ptolémaïque | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_libation_vase_hes_filets_eau_hathor_edfou",
+    civId: "egypte",
+    periodId: "ptolemaique",
+    civName: "Égypte : Époque ptolémaïque",
+    century: "Époque ptolémaïque (vers -150 av. J.-C. / dynastie lagide)",
+    centuryDisplay: "IIe s. av. J.-C.",
+    centuryNumeric: -150,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Libation royale au vase hès : Ondulations de l'eau sacrée devant la divinité à la tiare de plumes (Edfou)",
+    site: "Temple d'Horus - Parois intérieures (Edfou)",
+    originSite: "Edfou",
+    locationType: "site",
+    currentLocation: "In situ (Parois intérieures du Temple d'Edfou)",
+    category: "Relief en creux sur grès",
+    isHighlight: false,
+    chips: ["Époque ptolémaïque", "Edfou", "Vase hès", "Libation purificatrice", "Déesse Hathor", "Tiare à plumes"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMUbZSNZGPrmp_ApibP-DcRcrvhp0bBlan_Hkbh15vZBjZqxRkpcMQNll77a1rkt7vHVYY2tm-pduZlu57AKQvkd4d35JroE_4AGkVW7s8WBdR6BIGMYT7Xfg1tjTLf0FrYPae5-53GSOzCxQF4zOrckw=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce bas-relief finement sculpté provient d'une paroi intérieure du temple d'Edfou et illustre une scène de libation, un rituel de purification essentiel à la liturgie égyptienne. À droite, le pharaon, coiffé d'une couronne simplifiée, verse l'eau sacrée d'un vase « hès » sur un autel. Ce geste symbolise le rafraîchissement des divinités et la régénération de la vie, l'eau étant ici représentée par trois filets ondulés qui s'écoulent avec une symétrie parfaite vers une table d'offrandes.</p>
+    <p>Face au souverain, les divinités accueillent l'hommage avec une sérénité majestueuse. On reconnaît notamment une figure divine portant les sceptres du pouvoir et de la stabilité, coiffée d'une tiare complexe à plumes, emblématique des grandes puissances cosmiques honorées dans le sanctuaire. Derrière elle, une déesse, probablement Hathor ou Isis, lève la main dans un geste de bénédiction et de protection, assurant au roi la pérennité de son règne en échange de sa piété.</p>
+    <p>La technique du relief creux, particulièrement maîtrisée durant la période ptolémaïque, donne aux personnages un modelé charnu et des silhouettes élégantes qui se détachent avec force sur la surface de la pierre. Les colonnes de hiéroglyphes qui encadrent la scène détaillent précisément la nature de l'offrande et les paroles prononcées par le souverain, transformant ce bas-relief en une partition d'éternité.</p>
+    <p><strong>Siècle :</strong> IIe siècle av. J.-C. (-150) | <strong>Civilisation :</strong> Égypte ptolémaïque | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_offrande_barque_miniature_horus_faucon_hathor_edfou",
+    civId: "egypte",
+    periodId: "ptolemaique",
+    civName: "Égypte : Époque ptolémaïque",
+    century: "Époque ptolémaïque (vers -150 av. J.-C. / dynastie lagide)",
+    centuryDisplay: "IIe s. av. J.-C.",
+    centuryNumeric: -150,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Présentation de l'offrande sacrée par le pharaon devant Horus hiéracocéphale et Hathor (Edfou)",
+    site: "Temple d'Horus - Murs intérieurs (Edfou)",
+    originSite: "Edfou",
+    locationType: "site",
+    currentLocation: "In situ (Murs de grès du Temple d'Edfou)",
+    category: "Relief en creux sur grès",
+    isHighlight: false,
+    chips: ["Époque ptolémaïque", "Edfou", "Horus faucon", "Déesse Hathor", "Barque miniature", "Triade divine", "Théologie du temple"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNf-_qnztDKMiPFCA7-Bjda6YQ9WR2iFijwd4FIqFOiVMbN5Uk1t0Mjhh03rtiLvSjEDy6y7Z-jZm2inQGhAth9Aia5VpSs7Sp02-PlOph6Ef-345LUUNe2R2POpCmyxR71lNSHIhl2Oy-c6BJ4vyFzmA=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce bas-relief captivant, sculpté sur les murs de grès du temple d'Horus à Edfou, illustre une scène fondamentale du culte ptolémaïque : la présentation de l'offrande par le pharaon aux divinités. Le souverain, situé au centre droit, est représenté dans une posture d'humilité et de dévotion, soulevant un objet sacré — peut-être une barque miniature ou une effigie divine — vers le dieu Horus. Cette action n'est pas seulement un geste religieux, mais une réaffirmation politique du rôle du roi en tant qu'unique intermédiaire entre le monde des hommes et celui des dieux.</p>
+    <p>À gauche, le dieu Horus est reconnaissable à sa tête de faucon surmontée d'une couronne complexe. Il tend la main vers le souverain en signe d'acceptation, un geste qui légitime le pouvoir royal et garantit la prospérité de l'Égypte. Derrière lui, une divinité féminine, vraisemblablement Hathor, la « Dame de Dendérah » et épouse symbolique d'Horus à Edfou, accompagne la scène. Sa présence souligne l'importance des triades divines dans la théologie de l'époque, où l'équilibre entre les principes masculin et féminin est essentiel.</p>
+    <p>La scène est entourée d'une densité exceptionnelle de textes hiéroglyphiques qui remplissent chaque espace disponible. Ces inscriptions sont des hymnes et des descriptions précises des rituels accomplis. Le style graphique est typique de la période, avec des formes généreuses et un relief profond qui crée un contraste saisissant sous la lumière rasante.</p>
+    <p><strong>Siècle :</strong> IIe siècle av. J.-C. (-150) | <strong>Civilisation :</strong> Égypte ptolémaïque | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_angle_interieur_densite_cryptographique_figure_priere_edfou",
+    civId: "egypte",
+    periodId: "ptolemaique",
+    civName: "Égypte : Époque ptolémaïque",
+    century: "Époque ptolémaïque (vers -150 av. J.-C. / dynastie lagide)",
+    centuryDisplay: "IIe s. av. J.-C.",
+    centuryNumeric: -150,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Angle de chapelle intérieure : Saturation cryptographique et figure féminine en adoration (Edfou)",
+    site: "Temple d'Horus - Angle intérieur (Edfou)",
+    originSite: "Edfou",
+    locationType: "site",
+    currentLocation: "In situ (Chapelles intérieures du Temple d'Edfou)",
+    category: "Relief en creux sur grès",
+    isHighlight: false,
+    chips: ["Époque ptolémaïque", "Edfou", "Densité épigraphique", "Cryptographie", "Adoration", "Textes liturgiques"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPgDB6F4NEU5saIzsF7nTlmQ1hhEs_5yFRso2hlPj-CJtxB-97p3eTXeWW2Jk8oWqc7Wkoo4p1By9DYclq5nYR3M2EozXipK_2spNNF7SPKFCUgw31tgxiB43yKsFjYbDbJDZtamGrWeOrzvaGT5QX2zw=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette vue d'un angle intérieur du temple d'Edfou met en lumière l'extraordinaire densité épigraphique et iconographique qui caractérise ce monument de l'époque ptolémaïque. Les parois de grès sont ici entièrement saturées de registres de textes hiéroglyphiques et de scènes figuratives, créant un continuum visuel où l'écriture et l'image fusionnent pour consigner les secrets de la théologie d'Horus. Cette accumulation de textes, parfois qualifiée de « cryptographie » par les égyptologues, visait à protéger les rituels les plus sacrés en les rendant accessibles uniquement aux initiés.</p>
+    <p>Sur le mur de droite, une figure féminine imposante se détache, représentée debout dans une attitude de prière ou d'offrande, les bras levés. La finesse de sa silhouette et le modelé de ses membres témoignent du style ptolémaïque tardif, qui privilégie des formes plus douces et arrondies que les canons du Nouvel Empire. Les multiples colonnes de textes qui l'entourent agissent comme un écran protecteur et informatif, détaillant les louanges adressées à la divinité et les bénéfices attendus pour le souverain et le pays.</p>
+    <p>L'omniprésence des textes sur cette section spécifique suggère qu'il pourrait s'agir d'une zone de passage ou d'une chapelle latérale dédiée à un aspect particulier du culte. La répétition rythmique des signes hiéroglyphiques crée une texture visuelle unique, presque vibratoire, transformant l'architecture en un immense manuscrit lithique.</p>
+    <p><strong>Siècle :</strong> IIe siècle av. J.-C. (-150) | <strong>Civilisation :</strong> Égypte ptolémaïque | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_manifestations_horus_faucon_hathor_procession_edfou",
+    civId: "egypte",
+    periodId: "ptolemaique",
+    civName: "Égypte : Époque ptolémaïque",
+    century: "Époque ptolémaïque (vers -150 av. J.-C. / dynastie lagide)",
+    centuryDisplay: "IIe s. av. J.-C.",
+    centuryNumeric: -150,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Procession divine des manifestations d'Horus faucon (Hautes plumes et Pschent) et déesse Hathor (Edfou)",
+    site: "Temple d'Horus - Salles profondes (Edfou)",
+    originSite: "Edfou",
+    locationType: "site",
+    currentLocation: "In situ (Sanctuaires profonds du Temple d'Edfou)",
+    category: "Relief en creux sur grès",
+    isHighlight: false,
+    chips: ["Époque ptolémaïque", "Edfou", "Horus faucon", "Hautes plumes", "Pschent", "Déesse Hathor", "Théologie tardive"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOxSwa_CGkHHAwuL7Lt831ct8uDX33cP5uuB2g74vq18cu-NkhEQBYtJdThkmAnY_OhHXXc5FDs_Nbs64Js8Vkc4uYv58Shhvd82jAi5VRAfhcfsuqp5isvVv11UZXAmHNUMr2u5aCTAaHrA9Sjuvgk4A=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette scène murale, extraite des profondeurs du temple d'Edfou, offre un aperçu fascinant de l'iconographie divine ptolémaïque, centrée sur la figure d'Horus et de ses multiples manifestations. Le bas-relief présente deux formes distinctes du dieu faucon, chacune identifiable par sa couronne spécifique : l'une portant les deux hautes plumes et l'autre la double couronne de l'Égypte unifiée (le Pschent). Ces représentations soulignent la complexité de la théologie locale, où le dieu n'est pas une entité unique mais un ensemble de fonctions protectrices et royales garantissant la stabilité du pays.</p>
+    <p>À droite de la composition, une divinité féminine, vraisemblablement la déesse Hathor ou Isis, ferme la marche, coiffée du disque solaire enserré entre des cornes lyres. Son profil délicat et la finesse de sa robe fourreau contrastent avec la puissance athlétique des corps masculins, illustrant l'harmonie des genres nécessaire à l'équilibre cosmique. Les personnages sont disposés dans une procession éternelle vers le sanctuaire, leurs mains tenant des sceptres qui symbolisent la force et la domination.</p>
+    <p>Le travail de la pierre sur ce panneau témoigne des outrages du temps, avec une patine sombre et granuleuse qui suggère l'exposition prolongée aux fumées de lampes à huile ou à l'humidité avant les restaurations modernes. Malgré cette érosion, la précision du trait reste saisissante, notamment dans le rendu des visages d'oiseaux de proie et le détail des parures pectorales.</p>
+    <p><strong>Siècle :</strong> IIe siècle av. J.-C. (-150) | <strong>Civilisation :</strong> Égypte ptolémaïque | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+   {
     id: "sculpture_thot_seshat_arbre_ished_ramses_iii_medinet_habou",
     civId: "egypte",
     periodId: "nouvel_empire",
