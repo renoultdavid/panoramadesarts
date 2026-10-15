@@ -6,6 +6,181 @@ window.ART_OBJECTS = window.ART_OBJECTS || [];
 window.ART_OBJECTS.push(
 
   {
+    id: "peinture_re_horakhty_barque_mehen_sennedjem_tt1",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (v. -1280 av. J.-C. / règnes Séthi Ier - Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1280,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Rê-Horakhty sur la barque sacrée ceinte par le serpent Méhen (Tombe TT1)",
+    site: "Tombe de Sennedjem - TT1 (Deir el-Médineh, Thèbes)",
+    originSite: "Deir el-Médineh (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe TT1, Deir el-Médineh)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "TT1 Sennedjem", "Deir el-Médineh", "Rê-Horakhty", "Méhen"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNF1tNVEobR0nIDkotTrV18N9f2lQY5qjQQp062kaJFtzXfYtaBoCF8h0RQG2Eyd6TPxVFtLKL9BcL97wbzSHo3CncUzimWphABH09UEHuVBeboLe7Rf39XrLZUrc6Fzetks-B0aQA3UC7A2gEwANkMtg=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Voici une scène murale issue de la chambre funéraire de Sennedjem, artisan d’élite ayant œuvré à la Vallée des Rois sous les règnes de Séthi Ier et Ramsès II, située dans la nécropole de Deir el-Médineh (tombe TT1). L'œuvre, datant de la XIXe dynastie du Nouvel Empire, s'inscrit dans un programme iconographique d'une fraîcheur chromatique exceptionnelle, préservé par l'obscurité et le scellement de la tombe jusqu'à sa découverte en 1886.</p>
+    <p>La composition centrale illustre le voyage nocturne et solaire à travers la figure de Rê-Horakhty, syncrétisme du dieu solaire Rê et d'Horus de l'Horizon, représenté ici sous les traits d'un faucon hiéracocéphale momiforme. Le dieu est assis sur une barque sacrée dont la proue et la poupe sont ornées de nattes de roseaux, naviguant sur les eaux de l'Infini ou du monde souterrain. Une immense sphère rouge symbolisant le disque solaire domine la figure divine, encerclée par le serpent protecteur Méhen qui s'enroule autour de l'astre pour repousser les forces du chaos et l'ennemi Apophis lors du passage dans la Douat.</p>
+    <p>Dans ses mains, la divinité tient les attributs de la vie et de la souveraineté, notamment le signe Ankh, tandis qu'un oiseau Benou, préfiguration du phénix liée à la résurrection et au lever du soleil, est perché à l'avant de l'embarcation. Les parois jaunes saturées, caractéristiques du style de l'époque ramesside, sont couvertes de colonnes de hiéroglyphes cursifs détaillant des formules issues du Livre des Morts, destinées à assurer la régénération du défunt et son assimilation au cycle éternel de l'astre. Cette scène ne se contente pas d'illustrer un dogme religieux ; elle témoigne de la virtuosité des « Serviteurs dans la Place de Vérité » qui ont atteint un sommet de l'art funéraire égyptien alliant précision théologique et maîtrise des pigments naturels.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1280) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+  {
+    id: "peinture_deesse_arbre_sycomore_sennedjem_tt1",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (v. -1280 av. J.-C. / règnes Séthi Ier - Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1280,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "La déesse du sycomore abreuvant Sennedjem et son épouse Lyneferti (Tombe TT1)",
+    site: "Tombe de Sennedjem - TT1 (Deir el-Médineh, Thèbes)",
+    originSite: "Deir el-Médineh (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe TT1, Deir el-Médineh)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "TT1 Sennedjem", "Deir el-Médineh", "Déesse de l'arbre", "Lyneferti"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNlc-b3kJKdoMMiECLF9eP7V92BrKuXWapP1AlfT9q9XeshHqDsSxriEAdpK55NyUtjyjb2bvit5MDKZq5M_dxTIOXEuHNFuCm8L8slYVsVZPPG4xL8K_xTTkJ_5QaO6oZWQsJPF_CbLWcfH7ew04WtLA=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette scène murale, extraite de la paroi est de la chambre funéraire de Sennedjem à Deir el-Médineh (tombe TT1), illustre un moment crucial de la vie dans l'au-delà selon les croyances de la XIXe dynastie : l'épisode de la déesse de l'arbre, généralement identifiée à Nout ou Hathor, dispensant la vie éternelle.</p>
+    <p>Le défunt Sennedjem et son épouse Lyneferti sont représentés agenouillés, vêtus de leurs plus beaux atours de fête en lin blanc plissé, portant sur leurs perruques noires élaborées des cônes d'onguent parfumé et des fleurs de lotus, symboles de renaissance. La déesse émerge du tronc d'un sycomore sacré pour leur offrir de l'eau fraîche contenue dans une aiguière et des pains ronds disposés sur un plateau, une nourriture céleste destinée à désaltérer et nourrir les ba (âmes) du couple pour l'éternité.</p>
+    <p>L'exécution artistique témoigne du style ramesside vibrant, où le fond jaune d'or unifie la composition tandis que les détails des mains tendues et des visages de profil expriment une profonde dévotion et gratitude. Le sycomore est rendu avec une grande minutie, ses feuilles vertes et ses fruits rouges (figues de sycomore) symbolisant la fertilité et la protection maternelle de la divinité sur les morts. Ce tableau souligne l'importance des besoins physiologiques persistants dans l'au-delà et la dépendance des défunts envers les puissances divines pour franchir les étapes de la régénération.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1280) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+  {
+    id: "peinture_adoration_disque_solaire_lyneferty_sennedjem_tt1",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (v. -1280 av. J.-C. / règnes Séthi Ier - Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1280,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Adoration du disque solaire par Sennedjem et Lyneferty devant les divinités momiformes (Tombe TT1)",
+    site: "Tombe de Sennedjem - TT1 (Deir el-Médineh, Thèbes)",
+    originSite: "Deir el-Médineh (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe TT1, Deir el-Médineh)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "TT1 Sennedjem", "Deir el-Médineh", "Disque solaire", "Ciel étoilé"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNg0FMy3edviqYD9hAXDDl2DLSH8jgMjbepdVRvqyPgGqrKMJQ5QcH8uU2oLoak73od69v7O3WekSroJm8duo4CDTE1Fcfli4mTfw2awC9XcYYF-VL9L1vt82B9LFJmxtc_z20F4WuJwVg-e3_3X-G8lg=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette peinture murale exceptionnelle provient de la tombe de Sennedjem (TT1), située dans la nécropole de Deir el-Médineh sur la rive ouest de Thèbes, et date de la XIXe dynastie sous les règnes de Séthi Ier ou de Ramsès II, vers 1280 avant notre ère. Sennedjem était un artisan de haut rang portant le titre de Serviteur dans la Place de Vérité, œuvrant à la construction des sépultures royales de la Vallée des Rois.</p>
+    <p>La scène illustre un moment crucial du voyage nocturne et de la renaissance solaire, où le défunt, vêtu d'un pagne de lin blanc plissé finement détaillé, se tient en adoration devant le disque solaire rougeoyant suspendu dans un ciel d'un bleu profond parsemé d'étoiles jaunes schématiques. À ses côtés, son épouse Lyneferty participe au rituel de louange, symbolisant l'union éternelle du couple dans l'au-delà.</p>
+    <p>Face à eux, quatre divinités momiformes émergent de motifs ondulés évoquant les collines de l'horizon ou les eaux primordiales, arborant des teints de peau alternant entre le rouge ocre et le vert sombre, ce dernier évoquant la régénération osirienne. L'utilisation de pigments naturels tels que l'ocre pour les carnations, le lapis-lazuli synthétique (bleu égyptien) pour le firmament et l'orpiment pour les inscriptions hiéroglyphiques crée un contraste chromatique saisissant qui caractérise le style raffiné et vibrant de l'époque ramesside.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1280) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+  {
+    id: "peinture_barque_solaire_benou_sennedjem_tt1",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (v. -1280 av. J.-C. / règnes Séthi Ier - Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1280,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Voyage céleste de Sennedjem dans la barque solaire de Rê-Horakhty et oiseau Bénou (Tombe TT1)",
+    site: "Tombe de Sennedjem - TT1 (Deir el-Médineh, Thèbes)",
+    originSite: "Deir el-Médineh (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe TT1, Deir el-Médineh)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "TT1 Sennedjem", "Deir el-Médineh", "Oiseau Bénou", "Barque solaire"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOuuHuO53jzwz2yMWgI9dLldPhiVNDHLuEuTbQGWz6QcHhF8wOc3UwPC3VcqUNTHJsMRajy1A9pmUW3tE_U9PNTUc92Vph2LcKCnSZGgKeRn4Kwjl7CynJo4OYJxC2voNm6loDfiR-Y7j1msZ_HZ2h3kw=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette peinture murale exceptionnelle provient également de la chambre funéraire de Sennedjem (TT1) à Deir el-Médineh, datant de la XIXe dynastie (v. 1280 av. J.-C.), et illustre avec une précision remarquable le voyage céleste du défunt au sein de la barque solaire.</p>
+    <p>Au centre de la composition, la figure dominante de Rê-Horakhty, dieu solaire à tête de faucon surmontée du disque rouge ceint d'un uræus, guide l'embarcation divine à travers le ciel nocturne ou souterrain. Il est immédiatement suivi par trois représentations de Sennedjem lui-même, figuré avec une barbe postiche et un pagne plissé, symbolisant sa fusion avec les entités divines ou ses ancêtres justifiés participant à la navigation éternelle.</p>
+    <p>À la proue de la barque, dont les extrémités se terminent en fleurs de papyrus stylisées, se tient l'oiseau Bénou, le héron cendré sacré associé à la création et à la résurrection, portant la couronne Atef complexe composée de cornes, de plumes et du disque solaire. Le fond d'un jaune ocre éclatant symbolise la lumière divine et l'or de la chair des dieux, tandis que les colonnes de hiéroglyphes encadrant la scène fournissent les formules liturgiques nécessaires à la protection du voyageur. Cette scène souligne l'aspiration suprême du serviteur Sennedjem : quitter la condition humaine pour rejoindre le cycle immuable du soleil, garant de la vie éternelle et du triomphe sur les ténèbres.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1280) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+  {
+    id: "peinture_tympan_anubis_fetiche_abydos_sennedjem_tt1",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (v. -1280 av. J.-C. / règnes Séthi Ier - Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1280,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Tympan peint aux deux Anubis affrontés et fétiche d'Abydos (Tombe TT1)",
+    site: "Tombe de Sennedjem - TT1 (Deir el-Médineh, Thèbes)",
+    originSite: "Deir el-Médineh (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe TT1, Deir el-Médineh)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "TT1 Sennedjem", "Deir el-Médineh", "Anubis", "Fétiche d'Abydos", "Oudjat"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPsKyofjAS6DnMgHN4mYlrVytHJlq5nUeFUoeymKay7fTehBtBPZCyUMfr7W6ZLpBHN6sgzd3kqd1y0lFQJVG08qyOCGlpyQGOrb5Zib03x0Nc0RzKNHC_ny7yOAjdvy9RgbQjwqwgjWNRkfHqllSFjAA=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette œuvre magistrale, datée de la XIXe dynastie sous les règnes de Séthi Ier ou de Ramsès II, constitue le tympan d'une des parois de la chambre funéraire de Sennedjem, artisan de haut rang résidant à Deir el-Médineh et portant le titre de serviteur dans la Place de Vérité.</p>
+    <p>La composition centrale s'articule autour d'une symétrie rigoureuse où deux figures canines d'Anubis, peintes dans un bleu lapis-lazuli profond et portant des écharpes rouges rituelles, sont représentées en position de sphinx sur des autels en forme de pylônes. Entre ces deux gardiens du passage vers l'au-delà se dresse un fétiche d'Abydos, symbole du dieu Osiris, surmonté du signe de l'horizon Akhet qui accueille le disque solaire naissant, signifiant ainsi la régénération cyclique de l'âme du défunt.</p>
+    <p>La partie supérieure est dominée par les yeux Oudjat, vecteurs de protection et d'intégrité physique, flanquant une coupe de libation et des fleurs de lotus liées évoquant la renaissance. Le registre cintré est bordé d'une frise de hiéroglyphes cursifs détaillant des formules d'offrandes et des invocations protectrices destinées à assurer la survie spirituelle de Sennedjem. L'utilisation de pigments naturels éclatants sur un fond jaune ocre vibrant, caractéristique de l'esthétique du Nouvel Empire, confère à cette scène une dimension solaire et sacrée particulièrement saisissante.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1280) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+  {
+    id: "peinture_adoration_thot_triade_sennedjem_tt1",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (v. -1280 av. J.-C. / règnes Séthi Ier - Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1280,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Sennedjem en adoration devant Thot et les divinités assises (Tombe TT1)",
+    site: "Tombe de Sennedjem - TT1 (Deir el-Médineh, Thèbes)",
+    originSite: "Deir el-Médineh (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe TT1, Deir el-Médineh)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "TT1 Sennedjem", "Deir el-Médineh", "Thot", "Divinités assises"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPsIDXFdqjAKpLFO16xDVe_EfHYzRDgTxoBwL_5iXtvhBSj8e7TXdqdZsWV3kgPY8emvcDGg2N-nkwkIfJeqia6uOhP2BvLX4wlw_vjuGsOE6UKc7vX_qoToKkX0TOcEluDEZgPHUdoppLzpGL18cVqGQ=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette peinture murale exceptionnelle provient de la tombe de Sennedjem (TT1), artisan de la XIXe dynastie résidant à Deir el-Médineh, et illustre une scène de vénération cruciale pour le passage dans l'au-delà. À gauche, le défunt Sennedjem est représenté debout, vêtu d'un pagne de lin blanc plissé finement détaillé et arborant une perruque noire élaborée, les mains levées dans un geste rituel d'adoration et de prière.</p>
+    <p>Il fait face à une triade de divinités assises, dont la première figure est le dieu Thot, reconnaissable à sa tête d'ibis, scribe divin et garant de l'équilibre lors du jugement de l'âme. Les divinités suivantes, représentées avec la peau rouge brique et verte, évoquent respectivement la vitalité et la régénération osirienne, toutes deux parées de larges colliers ousekh et de perruques tripartites bleues.</p>
+    <p>La scène est surmontée de colonnes de hiéroglyphes tracés à l'encre noire sur un fond ocre jaune vibrant, identifiant les protagonistes et récitant des formules de protection issues du Livre des Morts. L'artiste a utilisé une palette chromatique riche et saturée, typique de l'école de peinture de la Place de Vérité, où la précision du trait souligne la musculature légère du torse et l'expressivité du profil. Cette œuvre témoigne de la piété personnelle des bâtisseurs de tombes royales, transposant les codes de l'art officiel dans un espace privé pour garantir une éternité prospère.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1280) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+  {
+    id: "peinture_gardiens_douamoutef_serpent_sennedjem_tt1",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (v. -1280 av. J.-C. / règnes Séthi Ier - Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1280,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Sennedjem agenouillé devant les gardiens de l'au-delà, Douamoutef et le grand serpent (Tombe TT1)",
+    site: "Tombe de Sennedjem - TT1 (Deir el-Médineh, Thèbes)",
+    originSite: "Deir el-Médineh (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe TT1, Deir el-Médineh)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "TT1 Sennedjem", "Deir el-Médineh", "Douamoutef", "Gardiens de la Douat"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNR0zBcEHoKCPNm-tFd0q67pm_ve5PvzA2zPyoTKePx6GHpQRln1IkK4x5JNGus-NQ_SBzy1nRkRH-d5ihwXk2I0zOEv79XWXZd4jgwWJmc10HOmsSHb-ZuWTmnXFWyuVTipgpqH2ifAxTgTHZpFqxggA=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette notice muséale détaille une scène de peinture murale issue de la tombe de Sennedjem, référencée sous la nomenclature TT1, située dans la nécropole de Deir el-Médineh sur la rive ouest de Thèbes et datant de la XIXe dynastie du Nouvel Empire égyptien. L’œuvre représente une séquence rituelle du Livre des Morts où le défunt, identifié comme Sennedjem, serviteur dans la Place de Vérité, est figuré en adoration devant une série de divinités protectrices et d'entités du monde souterrain.</p>
+    <p>À gauche, Sennedjem est agenouillé, vêtu d'un pagne de lin blanc plissé et portant une perruque courte, les mains levées dans un geste de vénération face à un registre complexe de figures mythologiques. La composition se divise verticalement et horizontalement pour présenter des gardiens des portes ou des étapes du voyage dans l'Au-delà, incluant une figure à tête de canidé évoquant Douamoutef, l'un des quatre fils d'Horus, ainsi qu'une figure humaine féminine, probablement une représentation de l'âme ou d'une divinité tutélaire.</p>
+    <p>À droite, la scène est dominée par la présence d'un serpent ondulant, symbole de régénération mais aussi de menace potentielle que le défunt doit maîtriser par la connaissance des formules magiques inscrites en hiéroglyphes cursifs sur le fond jaune ocre caractéristique de cette tombe. Dans le registre supérieur droit, on aperçoit le profil d'une divinité à la peau verte, couleur associée à la résurrection et à Osiris, émergeant d'un tertre ou d'un hiéroglyphe symbolique. La palette chromatique est exceptionnelle de conservation, utilisant des pigments naturels tels que l'ocre jaune, le rouge terreux, le bleu égyptien et le noir de charbon.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1280) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+   {
     id: "peinture_barque_solaire_nebenmaat_tt219",
     civId: "egypte",
     periodId: "nouvel_empire",
