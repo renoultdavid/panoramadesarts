@@ -6,6 +6,56 @@ window.ART_OBJECTS = window.ART_OBJECTS || [];
 window.ART_OBJECTS.push(
 
   {
+    id: "peinture_oiseau_ba_alexandrie_ptolemaique",
+    civId: "egypte",
+    periodId: "epoque_ptolemaique",
+    civName: "Égypte : Époque ptolémaïque",
+    century: "Époque ptolémaïque tardive (vers -50 av. J.-C.)",
+    centuryDisplay: "Ier s. av. J.-C.",
+    centuryNumeric: -50,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "L'oiseau-Ba à traits hellénistiques et candélabre rituel",
+    site: "Nécropole d'Alexandrie (Alexandrie)",
+    originSite: "Alexandrie",
+    locationType: "museum",
+    currentLocation: "Musée gréco-romain d'Alexandrie (Égypte)",
+    category: "Peinture murale gréco-égyptienne",
+    isHighlight: true,
+    chips: ["Époque ptolémaïque", "Alexandrie", "Oiseau-Ba", "Syncrétisme", "Musée gréco-romain"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczN_I6a8EysZdTQcRWsVqEhCpDrHJpgTLDZ61Si0FDJTtodJq_1fug64GYNdLg9mrhbLyWtZiuoN7R-ZJggYKqxq1l2PfkvXhc4tR_PaA4Ra0_LFRtytG0EN4K6l8nMZdyBu23hLOqiGKyKpdCT2-FgfUA=w2158-h1438-s-no-gm?authuser=0",
+    narrative: `<p>Cette peinture murale datant de l'époque ptolémaïque tardive, vers 50 avant J.-C., est une pièce maîtresse du Musée gréco-romain d'Alexandrie qui illustre parfaitement le syncrétisme religieux et artistique propre à l'Égypte de cette période. Elle représente le Ba, l'une des composantes spirituelles de l'être humain dans la cosmogonie égyptienne, figuré ici sous les traits d'un oiseau à tête humaine dont les traits de profil conservent une influence hellénistique marquée par un réalisme physionomique absent de l'art pharaonique traditionnel.</p>
+    <p>La créature est juchée sur une structure architecturale légère décorée de festons rouges tandis qu'à sa droite se dresse un candélabre monumental ou brûle-parfum élaboré, orné de motifs serpentiformes évoquant peut-être les agathodémons protecteurs. L'iconographie du Ba symbolisait la capacité de l'âme du défunt à se déplacer librement entre le monde des morts et celui des vivants, assurant ainsi la pérennité de l'existence posthume.</p>
+    <p>La palette chromatique utilise des pigments naturels de terre d'ombre, d'ocre jaune et de rouge de fer sur un enduit de stuc clair, une technique qui témoigne de la décoration soignée des complexes funéraires alexandrins de la fin de la dynastie lagide. L'œuvre souligne la persistance des croyances ancestrales sur la survie de l'âme tout en les intégrant dans un cadre formel méditerranéen où les drapés de l'oiseau et la structure du mobilier reflètent les goûts esthétiques de l'élite grecque installée sur les rives du Nil.</p>
+    <p><strong>Siècle :</strong> Ier siècle av. J.-C. (-50) | <strong>Civilisation :</strong> Égypte antique (Époque ptolémaïque) | <strong>Sous-partie :</strong> Peinture murale, Tableaux & Mosaïque.</p>`
+  },
+  {
+    id: "stele_cintree_bois_peint_ptolemaique",
+    civId: "egypte",
+    periodId: "epoque_ptolemaique",
+    civName: "Égypte : Époque ptolémaïque",
+    century: "Époque ptolémaïque (vers -305 à -30 av. J.-C.)",
+    centuryDisplay: "IIIe - Ier s. av. J.-C.",
+    centuryNumeric: -200,
+    domain: "funeraire",
+    artifactType: "Stèle",
+    title: "Stèle funéraire cintrée à la barque solaire et présentation devant Osiris",
+    site: "Égypte",
+    originSite: "Égypte",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes)",
+    category: "Stèle funéraire en bois peint",
+    isHighlight: false,
+    chips: ["Époque ptolémaïque", "Stèle cintrée", "Barque solaire", "Osiris", "Fils d'Horus", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczN2AdAExT0jnH4b6vf6aDWSXdewd446m2S3OnADmG__h-d-04oHFhlvWm_jhPb7crLYQuRtkr8xWigeSDX0SsOm2LVMF3Qj7WJLdV-LxLbIbdULTBejLMiQpAB1u4yeFGO4Hi6ILZK6VrChZqGgS2Pg3g=w1818-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Stèle cintrée en bois peint, un exemple remarquable de l'art funéraire de l'époque ptolémaïque alliant tradition iconographique et vivacité chromatique. La partie supérieure, le cintre, est occupée par le disque solaire ailé protecteur flanqué de deux uræus, sous lequel est représenté un scarabée Khépri encadré par deux chacals couchés, symbolisant Anubis, le gardien des nécropoles.</p>
+    <p>Le premier registre présente la barque solaire transportant les divinités, accueillie par le défunt en adoration devant un autel, illustrant le voyage céleste et le cycle de la renaissance. Le second registre, cœur de la composition, montre une scène de présentation rituelle. Le défunt, vêtu d'un long pagne blanc, se tient debout devant Osiris, dieu des morts, assis sur son trône. Entre eux, une série de divinités protectrices et intercesseuses, dont les quatre fils d'Horus et les déesses Isis et Nephthys, participent à la cérémonie.</p>
+    <p>La partie inférieure de la stèle est dévolue à plusieurs lignes de texte hiéroglyphique horizontal, contenant des formules d'offrandes funéraires et l'identité du commanditaire. L'usage de couleurs contrastées comme le rouge, le vert et le jaune sur un fond clair permet de structurer la lecture symbolique de l'objet, destiné à assurer au défunt une subsistance éternelle et une place parmi les bienheureux.</p>
+    <p><strong>Siècle :</strong> IIIe - Ier siècle av. J.-C. (-200) | <strong>Civilisation :</strong> Égypte antique (Époque ptolémaïque) | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+   {
     id: "stele_dame_taperet_re_horakhty_louvre_e52",
     civId: "egypte",
     periodId: "troisieme_periode_intermediaire",
