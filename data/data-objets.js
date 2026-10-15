@@ -6,6 +6,388 @@ window.ART_OBJECTS = window.ART_OBJECTS || [];
 window.ART_OBJECTS.push(
 
 
+  {
+    id: "paroi_chambre_mererouka_saqqarah",
+    civId: "egypte",
+    periodId: "ancien_empire",
+    civName: "Égypte : Ancien Empire",
+    century: "VIe dynastie (v. -2300 av. J.-C.)",
+    centuryDisplay: "XXIIIe s. av. J.-C.",
+    centuryNumeric: -2300,
+    domain: "funeraire",
+    artifactType: "Fausse porte",
+    title: "Paroi gravée et scènes de dévotion du mastaba de Mererouka",
+    site: "Mastaba de Mererouka (Saqqarah Nord, Égypte)",
+    originSite: "Nécropole de Saqqarah (Memphis)",
+    locationType: "site",
+    currentLocation: "In situ (Mastaba de Mererouka, Saqqarah)",
+    category: "Bas-relief funéraire",
+    isHighlight: false,
+    chips: ["VIe dynastie", "Mastaba de Mererouka", "Saqqarah", "Reliefs peints"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOEmSh_BgMev6w_BlFbGc3DrNsqKJgc1IG6HZYWJ143Y-JIODJKdzW73oktlyXyfBOIg3AcU-Nr949xmhAj3fLLedQ4DbatyGFYLc5PFju81M3c9vdIwcGq3Jgi6zxJWlS-h4WvnK37_GSXaYn8-tvxbA=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette vue intérieure montre l'une des salles richement ornées du mastaba de Mererouka à Saqqarah Nord, l'un des monuments funéraires les plus vastes et les plus spectaculaires de la VIe dynastie égyptienne. Édifié sous le règne du pharaon Téti (vers 2300 avant notre ère), ce complexe compte plus de trente pièces destinées à Mererouka, son épouse Ouatetkhethor et son fils Meritéti. Les parois de calcaire fin sont intégralement revêtues de bas-reliefs d'une remarquable maîtrise technique, célébrant la puissance terrestre du dignitaire et organisant sa survie éternelle par la répétition des rites d'offrandes.</p>
+    <p>Le registre inférieur et les montants sculptés mettent en scène des porteurs d'offrandes avançant en procession solennelle, chargés de victuailles, de volatiles, de pièces de viande et de jarres de vin destinées au culte funéraire du vizir. Ces représentations minutieuses ne constituent pas une simple chronique sociale : par le pouvoir magique attribué à l'image gravée, elles garantissaient la régénération perpétuelle du ka du défunt au cœur de sa demeure d'éternité.</p>
+    <p>La finesse du relief en méplat, les proportions élancées des silhouettes et le soin apporté aux détails vestimentaires et anatomiques illustrent l'apogée de l'école de sculpture memphite de la fin de l'Ancien Empire. Cet ensemble monumental demeure un document inestimable pour appréhender le fonctionnement d'une cour de haut rang, l'organisation du clergé funéraire et la splendeur visuelle des grandes nécropoles royales entourant la pyramide de Téti.</p>
+    <p><strong>Siècle :</strong> XXIIIe siècle av. J.-C. (-2300) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Tombes & Rituels.</p>`
+  },
+  {
+    id: "fausse_porte_mehou_saqqarah",
+    civId: "egypte",
+    periodId: "ancien_empire",
+    civName: "Égypte : Ancien Empire",
+    century: "VIe dynastie (v. -2300 av. J.-C.)",
+    centuryDisplay: "XXIIIe s. av. J.-C.",
+    centuryNumeric: -2300,
+    domain: "funeraire",
+    artifactType: "Fausse porte",
+    title: "Stèle fausse porte polychrome du vizir Mehou",
+    site: "Tombe de Mehou (Saqqarah, Égypte)",
+    originSite: "Nécropole de Saqqarah",
+    locationType: "site",
+    currentLocation: "In situ (Tombe de Mehou, Saqqarah)",
+    category: "Architecture funéraire",
+    isHighlight: false,
+    chips: ["VIe dynastie", "Tombe de Mehou", "Polychromie rouge", "Saqqarah"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPVzd2YNj5PHcnbX0iFgvYnDx4EVw-3XozgEO03wx6GvJQ5U7aZ57nIsAH_FuLQ4Mut5aoui8TwzWhk0q7R5erYitK_7ITkc0k8zRuhB5zwK7Nq-x6sDVRZ5rW9HTmjlNg01p4C7_ZH6PM8OPjelMoziQ=w613-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette stèle monumentale, connue sous le nom de fausse porte, provient de la tombe de Mehou, un haut dignitaire ayant vécu au début de la VIe dynastie égyptienne, vers 2300 avant notre ère. Découverte dans sa sépulture à Saqqarah, non loin de la pyramide d'Ounas, elle constitue le point de contact sacré entre le monde des vivants et celui des morts. Le calcaire finement sculpté conserve encore une partie de sa polychromie d’origine, dominée par un ocre rouge profond qui souligne la noblesse et la vitalité du défunt dans l'au-delà.</p>
+    <p>L’architecture de la pièce imite une véritable porte à plusieurs montants, bien qu'elle soit physiquement close. Au centre, une étroite fente verticale symbolise le passage par lequel le ka, l'énergie vitale de Mehou, pouvait circuler pour recevoir les offrandes déposées par sa famille ou les prêtres funéraires. Le linteau supérieur présente une scène classique de repas funéraire : le défunt y est représenté assis devant une table chargée de pains stylisés, garantissant ainsi sa subsistance éternelle par la simple magie de l'image.</p>
+    <p>Les inscriptions hiéroglyphiques qui recouvrent les montants et les linteaux détaillent les nombreux titres prestigieux de Mehou, témoignant de son importance politique sous les règnes de Téti et Pépi Ier. Il y est notamment désigné comme « Vizir » et « Gardien de la Haute-Égypte », les plus hautes fonctions de l’administration pharaonique. Ces textes ne sont pas seulement biographiques mais agissent comme des formules de prière invoquant le dieu Anubis afin d'assurer au défunt une sépulture paisible dans la nécropole occidentale.</p>
+    <p>Cette œuvre illustre parfaitement l'art de l'Ancien Empire par la précision de ses reliefs et la rigueur de sa composition symétrique. La fausse porte de Mehou demeure l'un des exemples les plus impressionnants de la statuaire funéraire de Saqqarah, reflétant à la fois la puissance temporelle de l'aristocratie égyptienne et la profondeur de ses croyances en l'immortalité de l'âme à travers le rite et l'écriture.</p>
+    <p><strong>Siècle :</strong> XXIIIe siècle av. J.-C. (-2300) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Tombes & Rituels.</p>`
+  },
+  {
+    id: "fausse_porte_ptahshepses_british",
+    civId: "egypte",
+    periodId: "ancien_empire",
+    civName: "Égypte : Ancien Empire",
+    century: "v. -2200 av. J.-C. (VIe dynastie)",
+    centuryDisplay: "v. -2200 av. J.-C.",
+    centuryNumeric: -2200,
+    domain: "funeraire",
+    artifactType: "Fausse porte",
+    title: "Fausse porte monumentale du Grand Prêtre de Ptah Ptahshepses",
+    site: "British Museum (Londres / prov. Saqqarah)",
+    originSite: "Saqqarah (Memphis, Égypte)",
+    locationType: "museum",
+    currentLocation: "British Museum (Londres)",
+    category: "Architecture funéraire",
+    isHighlight: false,
+    chips: ["VIe dynastie", "Ptahshepses", "Grand Prêtre de Ptah", "British Museum"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNNyDwqSyQkrq9YLEmSCUGFKP_tM53oG1xoYkRhxT7g0uu2nFamAjTN4NT4ZGdXArlKP8yEwBFUtNilPR87gajegHFF1kS4rPN2EA04HewAdN6xQ3fxr1xs7tVxguDg9hT4uh65SIf8swWbBuHFXXRKYA=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cet imposant élément architectural en calcaire peint constitue la fausse porte provenant de la tombe de Ptahshepses, un haut dignitaire de l'Ancien Empire qui exerça notamment les fonctions de Grand Prêtre de Ptah à Memphis. Structure centrale du mastaba, la fausse porte agissait comme un seuil symbolique et métaphysique, permettant au Ka (l'énergie vitale) du défunt de circuler librement entre le monde des morts et celui des vivants afin de recevoir les offrandes déposées par sa famille ou les prêtres funéraires. L'œuvre se distingue par sa monumentalité et la complexité de son organisation décorative, typique des sépultures de l'élite de la IVe et Ve dynastie.</p>
+    <p>La surface est structurée par une série de montants et de linteaux imbriqués, créant une perspective en retrait qui simule une véritable ouverture. L'ensemble est recouvert de colonnes de hiéroglyphes gravés avec une précision remarquable, conservant par endroits des pigments rouges et ocre vibrants qui témoignent de la richesse originelle de la tombe. Ces inscriptions détaillent les nombreux titres honorifiques de Ptahshepses, soulignant sa proximité avec le souverain et son prestige social. La calligraphie monumentale de l'Ancien Empire se déploie ici avec une grande clarté, chaque signe étant sculpté avec un souci du détail naturaliste, qu'il s'agisse des oiseaux, des bras humains ou des objets rituels.</p>
+    <p>Au centre du dispositif, une étroite niche simule le passage proprement dit. Au-dessus de celle-ci, un linteau représente souvent le défunt assis devant une table d'offrandes, bien que le cadrage actuel mette surtout en lumière la répétition des formules rituelles et les noms du dignitaire. Les montants extérieurs de la porte font office de piliers biographiques et spirituels, garantissant par l'écriture la subsistance éternelle du Grand Prêtre. Cette pièce, aujourd'hui conservée au British Museum, demeure l'un des exemples les plus aboutis de l'art funéraire memphite, illustrant la maîtrise des proportions et l'importance cruciale de l'architecture "magique" dans la conception égyptienne de l'au-delà.</p>
+    <p><strong>Siècle :</strong> XXIIe siècle av. J.-C. (-2200) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Tombes & Rituels.</p>`
+  },
+  {
+    id: "fausse_porte_corniche_gorge_louvre",
+    civId: "egypte",
+    periodId: "ancien_empire",
+    civName: "Égypte : Ancien Empire",
+    century: "VIe dynastie (v. -2300 à -2200 av. J.-C.)",
+    centuryDisplay: "XXIIIe s. av. J.-C.",
+    centuryNumeric: -2250,
+    domain: "funeraire",
+    artifactType: "Fausse porte",
+    title: "Stèle fausse porte à corniche à gorge et représentations pédestres",
+    site: "Musée du Louvre (Paris / prov. Saqqarah)",
+    originSite: "Nécropole de Saqqarah",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre (Paris)",
+    category: "Architecture funéraire",
+    isHighlight: false,
+    chips: ["VIe dynastie", "Corniche à gorge", "Formules invocatoires", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNsjuAjmm4oPvvLAmVlSKVVyt286rVQCRj57mvwisSB_3ISwOgmb1HlnAdl9cK8LUG1nzRBLoKgbPK3fx5RQchvxk7YYqklA3PSu0oYJKxSBgEjo0V8Ui0u1pZkn2okWfsjjBMytF2NgG-M8g8RniU42w=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette stèle fausse-porte en calcaire, datant de la VIe dynastie, constitue l'élément architectural et spirituel central du mastaba, servant de point de contact entre le monde des vivants et celui des morts. La structure imite une porte réelle avec ses montants, son linteau et son rouleau de menuiserie, mais elle est physiquement close pour ne laisser passer que le Ka (l'énergie vitale) du défunt. L'ensemble est encadré par une moulure en tore et surmonté d'une corniche à gorge, éléments classiques de l'architecture funéraire memphite.</p>
+    <p>Le décor est organisé avec une grande rigueur géométrique. Au centre, le panneau supérieur représente le défunt assis devant une table chargée de pains, recevant les offrandes nécessaires à sa subsistance éternelle. Autour de cette scène centrale, les montants et les linteaux sont couverts d'inscriptions hiéroglyphiques gravées en creux avec une précision remarquable. Ces textes énoncent les formules d'offrandes invocatoires adressées à Osiris et Anubis, détaillant les listes de denrées (bière, bœuf, volaille, tissus) et énumérant les titres administratifs et religieux du propriétaire de la tombe.</p>
+    <p>À la base de la stèle, quatre représentations du défunt en bas-relief, deux de chaque côté de l'ouverture simulée, le montrent debout, tenant une canne et un sceptre, symboles de son autorité. La finesse de la gravure, particulièrement visible dans le détail des hiéroglyphes et le modelé des figures, témoigne de la qualité artistique de la fin de l'Ancien Empire. En tant qu'objet funéraire, cette fausse-porte n'est pas seulement un monument commémoratif, mais une interface rituelle active où les vivants déposaient les offrandes réelles pour que le nom du mort "vive" éternellement.</p>
+    <p><strong>Siècle :</strong> XXIIIe siècle av. J.-C. (-2250) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Tombes & Rituels.</p>`
+  },
+  {
+    id: "paroi_textes_pyramides_teti_saqqarah",
+    civId: "egypte",
+    periodId: "ancien_empire",
+    civName: "Égypte : Ancien Empire",
+    century: "VIe dynastie (v. -2330 av. J.-C.)",
+    centuryDisplay: "XXIVe s. av. J.-C.",
+    centuryNumeric: -2330,
+    domain: "espace_sacre",
+    artifactType: "Enclos sacré / Temple",
+    title: "Paroi gravée des Textes des Pyramides (Chambre funéraire de Téti)",
+    site: "Pyramide de Téti (Saqqarah, Égypte)",
+    originSite: "Nécropole royale de Saqqarah",
+    locationType: "site",
+    currentLocation: "In situ (Pyramide de Téti, Saqqarah)",
+    category: "Épigraphie sacrée",
+    isHighlight: false,
+    chips: ["VIe dynastie", "Pyramide de Téti", "Textes des Pyramides", "Saqqarah"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMm7ETuuaxMCk7p7vf2YQBtKuDpA_Giv11xat_GZPz6PCf3s1XSB_1a2IQXDEPKL2SUxjhrMj_b4-WlWO6Ofe2VoPw61cZUu-8USYpQgu4sywmj4EwxbtUJkw7oXVBmycyhR6FwNRnKTXmFT5UdvYpQ7w=w613-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette œuvre représente une paroi de la chambre funéraire de la pyramide de Téti, située à Saqqarah. Premier souverain de la VIe dynastie (vers 2330 avant J.-C.), Téti a fait graver sur les murs de son caveau les célèbres Textes des Pyramides. Ce monument est l'un des rares exemples où ces inscriptions sacrées, initialement réservées à la pyramide d'Ounas, sont déployées avec une telle densité, recouvrant presque chaque centimètre de calcaire de fines colonnes de hiéroglyphes.</p>
+    <p>Les textes ici visibles ne sont pas de simples décorations, mais un puissant corpus de formules magiques et religieuses destinées à protéger le roi dans l'au-delà. Ils garantissent son ascension vers les étoiles et sa transformation en un être divin éternel. La gravure, d'une régularité remarquable, était à l'origine souvent rehaussée de bleu, évoquant la dimension céleste du passage du souverain vers le royaume d'Osiris.</p>
+    <p>L'image souligne l'échelle humaine face à cette littérature monumentale. Le passage étroit, où l'on aperçoit des visiteurs, mène au cœur même de la structure funéraire, là où reposait autrefois le sarcophage en basalte du roi. Cette proximité avec les écrits sacrés permet de saisir l'importance de la parole écrite comme vecteur d'immortalité dans la pensée égyptienne de l'Ancien Empire, transformant la pierre en une prière perpétuelle.</p>
+    <p>Contrairement aux mastabas des hauts dignitaires de la même époque, comme celui de Mererouka situé à proximité, le décor de la pyramide royale exclut toute scène de la vie quotidienne. Ici, l'espace est entièrement dévolu au divin et au rituel métaphysique. La rigueur des alignements de hiéroglyphes témoigne d'une maîtrise technique exceptionnelle des scribes et sculpteurs royaux, mettant l'art au service d'une survie défiant les millénaires.</p>
+    <p><strong>Siècle :</strong> XXIVe siècle av. J.-C. (-2330) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Architecture & Temples.</p>`
+  },
+  {
+    id: "couloir_cartouches_textes_pyramides_teti",
+    civId: "egypte",
+    periodId: "ancien_empire",
+    civName: "Égypte : Ancien Empire",
+    century: "VIe dynastie (v. -2330 av. J.-C.)",
+    centuryDisplay: "XXIVe s. av. J.-C.",
+    centuryNumeric: -2330,
+    domain: "espace_sacre",
+    artifactType: "Enclos sacré / Temple",
+    title: "Couloir et vestibule aux cartouches royaux de la pyramide de Téti",
+    site: "Pyramide de Téti (Saqqarah, Égypte)",
+    originSite: "Nécropole royale de Saqqarah",
+    locationType: "site",
+    currentLocation: "In situ (Pyramide de Téti, Saqqarah)",
+    category: "Épigraphie sacrée",
+    isHighlight: false,
+    chips: ["VIe dynastie", "Pyramide de Téti", "Cartouches royaux", "Saqqarah"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOIQNlV6fIxMom_oJna83p-hygRZ6nSP32cNjCuiqB1PqeGJUKR28TXj_hIMPfCx189ZEwpbYbDx-uOm9vLx6qxW6uXVtancnwWZT9a4TA2waA5Q5bQGxUe0TPD0UlhjnryluAMJdkmW4jnOyYTcM80Ww=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette nouvelle perspective de la pyramide de Téti met en lumière l'ampleur monumentale du programme épigraphique déployé au cœur du monument funéraire. Les parois de calcaire blanc sont intégralement sculptées de colonnes serrées de hiéroglyphes, formant un manteau de textes protecteurs qui enveloppait autrefois le corps du roi. Ces inscriptions constituent l'un des plus anciens corpus religieux de l'humanité, dont la fonction était d'assurer la survie métaphysique du souverain par la seule force de la parole gravée.</p>
+    <p>Le détail des hiéroglyphes révèle une exécution d'une précision chirurgicale, caractéristique du style de la VIe dynastie. On y distingue nettement de nombreux cartouches, ces cadres ovales entourant le nom de Téti, qui servaient à identifier le destinataire des formules et à protéger son identité pour l'éternité. Les signes, représentant des oiseaux, des bras, des outils ou des symboles abstraits, sont agencés selon une syntaxe rigoureuse qui transforme chaque mur en une partition rituelle complexe.</p>
+    <p>La vue d'ensemble avec les visiteurs permet de réaliser le contraste saisissant entre l'exiguïté des passages et l'immensité du savoir religieux gravé sur les murs. L'ouverture basse, par laquelle on accède aux différentes chambres, souligne le caractère secret et inviolable de cet espace. Dans l'obscurité originelle de la pyramide, ces textes n'étaient pas destinés à être lus par les vivants, mais à agir comme des agents actifs, réveillant le roi de son sommeil léthargique pour le guider vers le ciel.</p>
+    <p>L'état de conservation de ces parois est exceptionnel, malgré les millénaires et les dégradations subies par la structure externe de la pyramide. Les gravures conservent leur relief tranchant, témoignant de la qualité du calcaire choisi et du soin apporté par les artisans royaux. Cette œuvre est un témoignage fondamental de la "révolution" religieuse de la fin de l'Ancien Empire, où le salut éternel du pharaon passe désormais par l'omniprésence de l'écrit sacré au plus profond de sa demeure d'éternité.</p>
+    <p><strong>Siècle :</strong> XXIVe siècle av. J.-C. (-2330) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Architecture & Temples.</p>`
+  },
+  {
+    id: "plafond_etoile_pyramide_teti_saqqarah",
+    civId: "egypte",
+    periodId: "ancien_empire",
+    civName: "Égypte : Ancien Empire",
+    century: "VIe dynastie (v. -2330 av. J.-C.)",
+    centuryDisplay: "XXIVe s. av. J.-C.",
+    centuryNumeric: -2330,
+    domain: "espace_sacre",
+    artifactType: "Plafond & Voûte peinte / astronomique",
+    title: "Plafond voûté à décor astronomique étoilé (Pyramide de Téti)",
+    site: "Pyramide de Téti (Saqqarah, Égypte)",
+    originSite: "Nécropole royale de Saqqarah",
+    locationType: "site",
+    currentLocation: "In situ (Pyramide de Téti, Saqqarah)",
+    category: "Plafond astronomique",
+    isHighlight: false,
+    chips: ["VIe dynastie", "Pyramide de Téti", "Plafond étoilé", "Cosmologie"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMlx7cpSuc-ATBUbAuhovur4Y73i3aqbLLZxD3Mil7G6NN11GOIsJ6PDa_S0feTpHc8Wjpepa9931j1dZ25Wm3eo5F-I7XILDNEyofujBmk9wWjdqW6j6rYXOJchT7-Nu1Z-jhx6OLNTwPpoHTsX_6jcg=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette œuvre présente un détail du plafond de la chambre funéraire de la pyramide de Téti à Saqqarah, datant de la VIe dynastie. Ce décor étoilé constitue une composante essentielle de l'architecture sacrée de l'Ancien Empire, transformant symboliquement le caveau royal en une image du ciel nocturne. Le roi défunt, protégé par les textes gravés sur les parois verticales, est ainsi placé sous une voûte céleste éternelle, marquant sa destination finale parmi les "étoiles impérissables".</p>
+    <p>Les étoiles sont sculptées en léger relief sur des dalles de calcaire et réparties selon un quadrillage rigoureux, dont les lignes de préparation rousses sont encore visibles par endroits. Chaque astre est représenté sous une forme stylisée à cinq branches, un signe hiéroglyphique standard utilisé pour désigner les étoiles ou le monde Douat. Ce motif répétitif crée une texture vibrante qui contraste avec la densité des colonnes de textes situées juste en dessous dans la chambre funéraire.</p>
+    <p>Sur le plan technique, on observe des traces d'un fond sombre, probablement du bleu sombre ou du noir, qui servait à évoquer la profondeur de l'espace cosmique. Bien que le temps ait effacé une partie de la polychromie originelle, la précision de la taille des étoiles témoigne du soin extrême apporté à la demeure d'éternité du souverain. Cette voûte étoilée agit comme un catalyseur magique, facilitant la transition du roi Téti de son sarcophage terrestre vers sa nouvelle existence de divinité céleste.</p>
+    <p>L'ensemble du plafond participe à la sacralisation de l'espace, transformant une structure de pierre massive en un cosmos miniature. Cette vision du ciel, associée aux Textes des Pyramides, forme un dispositif rituel complet visant à vaincre la mort. Aujourd'hui, ces étoiles millénaires offrent aux visiteurs un aperçu fascinant de la sophistication spirituelle et artistique des premiers bâtisseurs de l'Égypte pharaonique.</p>
+    <p><strong>Siècle :</strong> XXIVe siècle av. J.-C. (-2330) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Architecture & Temples.</p>`
+  },
+  {
+    id: "vestibule_entree_textes_teti_saqqarah",
+    civId: "egypte",
+    periodId: "ancien_empire",
+    civName: "Égypte : Ancien Empire",
+    century: "VIe dynastie (v. -2330 av. J.-C.)",
+    centuryDisplay: "XXIVe s. av. J.-C.",
+    centuryNumeric: -2330,
+    domain: "espace_sacre",
+    artifactType: "Enclos sacré / Temple",
+    title: "Chambre des herses et parois épigraphiques de la pyramide de Téti",
+    site: "Pyramide de Téti (Saqqarah, Égypte)",
+    originSite: "Nécropole royale de Saqqarah",
+    locationType: "site",
+    currentLocation: "In situ (Pyramide de Téti, Saqqarah)",
+    category: "Épigraphie sacrée",
+    isHighlight: false,
+    chips: ["VIe dynastie", "Pyramide de Téti", "Passage des herses", "Saqqarah"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPFwTjs2B8BF0ur9Xq_xH3y6y9bKMN9Q5yQ1sklc_2I6wr2b726qKIO6G2lK04CubdbjxofPLfKtnRBhnO47SHJPi7GEibageIhbeGoHKBsn1k2_t_vsmw7w0MEj5y1ekswVkvMb4wI-pse6xXJJoy10w=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette vue documente le couloir d'accès et la chambre de transition au sein des appartements funéraires souterrains de la pyramide de Téti à Saqqarah. Premier édifice royal de la VIe dynastie à perpétuer la tradition des Textes des Pyramides inaugurée sous Ounas, le monument présente une articulation spatiale où la pierre monumentale sertie d'inscriptions forme un véritable bouclier théologique protégeant l'accès au caveau royal.</p>
+    <p>Les blocs massifs de calcaire qui forment les jambages et les linteaux des passages sont recouverts de colonnes verticales de formules sacrées gravées avec une régularité calligraphique exceptionnelle. Contrairement aux couloirs des nécropoles privées contemporaines, aucun élément profane ou décoratif n'est admis : chaque signe gravé participe de la transfiguration du pharaon en esprit divin (Akh), capable de surmonter les obstacles du monde souterrain et de rejoindre le collège des dieux cosmiques.</p>
+    <p>La photographie met en évidence les dispositifs architecturaux de sécurité, notamment les fentes et logements des herses de granit destinées à sceller à jamais le tombeau après l'inhumation royale. L'interaction entre la rigueur géométrique de l'architecture mégalithique et la finesse d'incision des hiéroglyphes témoigne de la virtuosité technique des maîtres carriers et sculpteurs memphites au XXIVe siècle avant notre ère.</p>
+    <p><strong>Siècle :</strong> XXIVe siècle av. J.-C. (-2330) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Architecture & Temples.</p>`
+  },
+  {
+    id: "relief_thoutmosis_iii_deir_el_bahari_louxor",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1490 av. J.-C.)",
+    centuryDisplay: "XVe s. av. J.-C.",
+    centuryNumeric: -1490,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Bloc de calcaire peint aux cartouches de Thoutmosis III (Menkheperré)",
+    site: "Musée de Louxor (prov. Deir el-Bahari)",
+    originSite: "Temple de Thoutmosis III (Deir el-Bahari, Thèbes)",
+    locationType: "museum",
+    currentLocation: "Musée de Louxor",
+    category: "Bas-relief peint",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Thoutmosis III", "Deir el-Bahari", "Musée de Louxor"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNBLKfSPLnXAgT3NSg5-BJSzJEFKyr1a5eh1BYaXAB4NN8p5iE-e6pTo-MkFh_9OYzPI55UYK7E7LkVqHS1R9_9uJ-PixNEgddyZnrV17-N_MJ_HPa_odP__P9actCDDhb9oFmLKGyFm9iYY3FPjN3XpA=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce fragment de relief en calcaire peint provient du temple funéraire de Thoutmosis III, édifié sur le site de Deir el-Bahari à Thèbes. Datée de la XVIIIe dynastie, vers 1490 avant J.-C., cette œuvre est aujourd'hui conservée au musée de Louxor. Contrairement aux gravures monochromes, ce bloc se distingue par la conservation exceptionnelle de sa polychromie d'origine, où les pigments jaunes, rouges et bleus soulignent la vitalité des symboles royaux et divins.</p>
+    <p>Le décor présente deux cartouches royaux inscrits sur un fond ocre jaune vibrant, encadrés par des colonnes de textes. À gauche, le nom de couronnement du souverain, Menkheperré, est clairement visible avec le disque solaire, le signe de la stabilité et le scarabée. L'exécution en relief levé est d'une finesse caractéristique de l'apogée du Nouvel Empire, mêlant une précision anatomique rigoureuse — comme en témoignent l'ibis et la chouette — à une stylisation élégante propre à l'art thébain de cette période.</p>
+    <p>Au-dessus des cartouches, les restes des titres royaux, notamment l'abeille et le jonc symbolisant la Haute et la Basse-Égypte, rappellent la double nature du pouvoir pharaonique. La présence de ce fragment au musée de Louxor permet d'apprécier la richesse décorative des édifices qui jouxtaient le célèbre temple d'Hatchepsout. Chaque signe est traité comme une œuvre d'art miniature, participant à la glorification éternelle de Thoutmosis III, le "Napoléon de l'Égypte", dans son enceinte sacrée.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1490) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Architecture & Temples.</p>`
+  },
+  {
+    id: "liste_offrandes_temple_amon_louxor",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1380 av. J.-C.)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1380,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Tableau liturgique et liste d'offrandes du temple d'Amon-Min à Louxor",
+    site: "Temple de Louxor (Thèbes, Égypte)",
+    originSite: "Enceinte du temple d'Amon à Louxor",
+    locationType: "site",
+    currentLocation: "In situ (Temple de Louxor)",
+    category: "Bas-relief liturgique",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Temple de Louxor", "Liste d'offrandes", "Amon-Min"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMNJwTk3oJJGV0rgqBqQQStsFVcRbZsBKQmApjjPFmetnsc7D1Mpn7Xbcv9PiiwqDhG2qqWoat4lKR4MghG5E_7K80hLjtYsZtmov-6ojeqDMNN5Qxy7lkW4MTIS3fY0SrWjTuLvGZfvogHjuvXwyhj2g=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette œuvre est un fragment de bas-relief en calcaire situé dans l'enceinte du temple d'Amon-Min à Louxor, datant principalement du Nouvel Empire. Elle présente une section d'une liste d'offrandes, un élément liturgique essentiel des parois des sanctuaires égyptiens. La surface est divisée par un quadrillage rigoureux, créant des registres et des colonnes qui organisent méticuleusement les différents produits destinés au dieu.</p>
+    <p>Chaque case de ce tableau constitue une unité sémantique précise. On y distingue des hiéroglyphes représentant des denrées variées, telles que des pains de formes diverses, des vases contenant du vin ou de la bière, ainsi que des pièces de viande. Sous chaque symbole, de petits traits verticaux ou des signes numériques indiquent les quantités offertes, garantissant ainsi par la magie de l'image la subsistance éternelle de la divinité.</p>
+    <p>Le style de la gravure est caractéristique de la statuaire monumentale thébaine, avec un relief en creux d'une grande finesse malgré l'érosion du temps. On remarque notamment la précision du dessin des oiseaux et des récipients, qui témoigne de la maîtrise des scribes-concepteurs. Ce type de paroi servait de « menu » perpétuel lors des rituels quotidiens pratiqués par le pharaon ou les prêtres dans le cœur du temple.</p>
+    <p>L'état de conservation actuel laisse apparaître une patine ocre et quelques traces de concrétions salines, stigmates de l'exposition séculaire aux éléments. Ce document est capital pour comprendre l'économie du temple et la complexité des rites d'offrandes, où chaque objet présenté possédait une valeur symbolique propre visant à maintenir l'ordre cosmique, la Maât.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Architecture & Temples.</p>`
+  },
+  {
+    id: "titulature_royale_granite_rose_karnak",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1450 av. J.-C.)",
+    centuryDisplay: "XVe s. av. J.-C.",
+    centuryNumeric: -1450,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Bloc de granite rose à la titulature Sa-Rê et Nesout-Bity",
+    site: "Complexe de Karnak (Thèbes, Égypte)",
+    originSite: "Enceinte d'Amon-Rê (Karnak)",
+    locationType: "site",
+    currentLocation: "In situ (Karnak, Louxor)",
+    category: "Épigraphie monumentale",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Karnak", "Granite rose", "Titulature royale"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPcg6K9h-RRBqT_YwaKEViJS5srUegWm4p07rdMGE67YPFLO5m-9Q9wNpJCiQCB78M4K3Z4y8eF2mYKkLAiu-t7tl-80AQUI10IvAGis4hOT0J7qn-LtmVDWChzH8J1lBlHyvMOMqShW0TqCffp5S1ozw=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette œuvre est un fragment de bas-relief sculpté dans le granite rose, provenant du complexe religieux de Karnak, à Louxor. Elle illustre avec une grande finesse la maîtrise de la taille de pierre sous le Nouvel Empire égyptien. Le décor est organisé en registres séparés par de fines lignes verticales, mettant en scène des signes hiéroglyphiques monumentaux destinés à être lus par les dieux autant que par les hommes.</p>
+    <p>La partie gauche du relief présente le groupe hiéroglyphique composé du disque solaire et d'un canard pilet. En translittération, cet ensemble se lit « Sa-Rê », ce qui signifie littéralement « Fils de Rê ». Il s'agit de l'un des titres les plus importants de la titulature royale égyptienne, introduisant traditionnellement le nom de naissance du pharaon. Le canard est ici rendu avec un naturalisme saisissant, soulignant la courbe du cou et le profil de l'oiseau.</p>
+    <p>À droite, on observe l'abeille associée à une plante de jonc, bien que cette dernière soit partiellement tronquée. Ce groupe forme le titre « Nesout-Bity », traduit par « Celui qui appartient au Jonc et à l'Abeille », symbolisant la souveraineté du roi sur la Haute et la Basse-Égypte. L'abeille est sculptée avec une attention particulière portée aux détails anatomiques des ailes et de l'abdomen, témoignant de l'importance symbolique de cet insecte dans l'iconographie du pouvoir pharaonique.</p>
+    <p>L'ensemble de ces inscriptions constitue un protocole royal visant à affirmer la légitimité divine du souverain régnant au sein du temple d'Amon-Rê. La profondeur de la gravure et la dureté du support suggèrent que ce bloc appartenait initialement à un obélisque ou à un montant de porte monumental. La précision des contours, restée intacte malgré les millénaires, permet d'apprécier la fonction de l'écriture égyptienne comme un art total, où l'esthétique est indissociable du message politique et religieux.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Architecture & Temples.</p>`
+  },
+  {
+    id: "paroi_grave_khaemhat_tt57_gourna",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1380 av. J.-C. / règne d'Amenhotep III)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1380,
+    domain: "funeraire",
+    artifactType: "Chambre funéraire / Hypogée",
+    title: "Bas-relief en calcaire et colonnes votives de la tombe de Khaemhat (TT57)",
+    site: "Tombe de Khaemhat - TT57 (Gourna, Thèbes)",
+    originSite: "Cheikh Abd el-Gourna (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe TT57, Gourna)",
+    category: "Bas-relief thébain",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Amenhotep III", "TT57 Khaemhat", "Gourna"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOfm2OoUbTKKYQSpEo8Naw3upEJxwrI-ZyiMBAnu32RTHPE3DGRki6Pq18YV3106wsdFfJ1haEbOZwxubg1Vs4g4SAd7Yd0m2I8zSBo3RjSW9wEv0JzIxNhj11tUzN5dyjrT5-2zb3vE5cHmRf1WfdT0w=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette œuvre est un bas-relief sculpté sur calcaire provenant de la sépulture monumentale de Khaemhat, également répertoriée sous le nom de TT57, située dans la nécropole thébaine de Cheikh Abd el-Gourna. Khaemhat occupait la fonction prestigieuse de « Scribe royal » et de « Superintendant des greniers royaux » sous le règne d’Amenhotep III, durant la XVIIIe dynastie du Nouvel Empire. Cette période, considérée comme l'apogée de l'art égyptien, se distingue par une finesse d'exécution exceptionnelle et un souci du détail qui transparaît ici dans la précision des gravures.</p>
+    <p>La paroi présente une série de colonnes verticales de hiéroglyphes finement incisés, séparées par de fines lignes de démarcation. L’écriture hiéroglyphique utilisée ici n’est pas seulement un système de notation, mais une forme d’art sacré où chaque signe — qu’il représente un oiseau, un outil ou une figure humaine — est traité avec un réalisme saisissant. On y distingue notamment des représentations de divinités et des formules d’offrandes destinées à assurer la subsistance éternelle du défunt dans l’au-delà.</p>
+    <p>Le style artistique de la tombe de Khaemhat est célèbre pour son élégance maniériste et la fluidité de ses lignes. Bien que la polychromie d’origine ait en grande partie disparu, laissant place à la teinte chaude naturelle de la pierre, la qualité du modelé reste intacte. Ce relief témoigne du haut rang social du commanditaire, capable de mobiliser les meilleurs artisans de la cour thébaine pour décorer sa « demeure d'éternité » avec une sophistication technique égalant les projets royaux contemporains de Louxor.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Tombes & Rituels.</p>`
+  },
+  {
+    id: "litanie_sacree_texte_khaemhat_tt57",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1380 av. J.-C. / règne d'Amenhotep III)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1380,
+    domain: "funeraire",
+    artifactType: "Chambre funéraire / Hypogée",
+    title: "Litanie rituelle et colonnes épigraphiques de la tombe de Khaemhat",
+    site: "Tombe de Khaemhat - TT57 (Gourna, Thèbes)",
+    originSite: "Cheikh Abd el-Gourna (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe TT57, Gourna)",
+    category: "Bas-relief thébain",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Amenhotep III", "Épigraphie funéraire", "Gourna"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMOZjtFOLp3o86pVprXng-koROwXDZFbETpvfJjc4YegN9-UcRsY3_up8s9lmQasyXwCX_iJ72iWM-DqKhoIbHMmsWyL9RzxzdiFVSQXoqWowZ8slEq3nqJj_1wdxyyxg4trzQTVAq-ei7WbKrU7GAXbg=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette section de la paroi appartient au même ensemble décoratif de la sépulture de Khaemhat (TT57) et illustre la répétition rituelle des textes funéraires. Contrairement aux scènes narratives, ces colonnes de texte constituent une litanie sacrée destinée à activer les fonctions vitales du défunt. La densité des hiéroglyphes crée un rythme visuel serré, presque hypnotique, où la répétition de certains signes comme le roseau (signe pour "i") ou le hibou (signe pour "m") suggère une incantation continue gravée dans la pierre pour l'éternité.</p>
+    <p>L'état de conservation de ce fragment permet d'observer les traces de pigments sombres qui soulignaient autrefois le contour des signes, facilitant ainsi leur lecture sur le fond clair du calcaire. On remarque également les stigmates du temps, avec des zones d'érosion et des lacunes dans l'enduit, qui témoignent de l'histoire complexe de la conservation des tombes thébaines. Ces dommages révèlent parfois la technique de préparation du support, où une fine couche de plâtre était appliquée pour corriger les irrégularités de la roche avant la gravure.</p>
+    <p>La régularité du tracé confirme que Khaemhat, en tant que scribe de haut rang, a bénéficié du savoir-faire des meilleurs calligraphes de l'administration royale d'Amenhotep III. Le texte, bien que fragmentaire, suit une structure rigoureuse de colonnes se lisant de haut en bas et, dans ce cas précis, de la droite vers la gauche, comme l'indique l'orientation des signes animés qui font face au début de la ligne. Cette paroi n'est pas qu'une simple décoration, elle est le moteur textuel assurant la survie du nom de Khaemhat dans l'au-delà.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Tombes & Rituels.</p>`
+  },
+  {
+    id: "stele_cintree_quatre_registres_louvre",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "fin XVIIIe dynastie (v. -1330 à -1295 av. J.-C.)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1320,
+    domain: "sculpture_statuaire",
+    artifactType: "Monolithe / Stèle sculptée",
+    title: "Stèle funéraire cintrée à quatre registres d'hommage à Osiris et Thot",
+    site: "Musée du Louvre (Paris / prov. Thèbes)",
+    originSite: "Région thébaine (Haute-Égypte)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre (Paris)",
+    category: "Stèle funéraire",
+    isHighlight: false,
+    chips: ["fin XVIIIe dynastie", "Quatre registres", "Osiris & Thot", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMUczoSLfY2pad7xG5SWOLFHo4r4YJvnrv4nJ7NzFMciss3VDbp_uRbRHG5i02nGfoDEdwbikcdQsMASPBhsbIQ16yBrRbke2stP8MAcHBRAcWNI5uJ4gkpqcTwi15SZu0U9qiulxSQ4yajfhy-WnUyQA=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette stèle cintrée à quatre registres est un exemple remarquable de l'art funéraire de la fin de la XVIIIe dynastie. Sa structure rigoureuse permet de mettre en scène la piété de la famille défunte envers les grandes divinités de l'au-delà, tout en assurant la pérennité des rites nécessaires à la survie dans le monde d'Osiris. Le cintre de la stèle, espace symbolique céleste, est protégé par deux canidés couchés, flanquant le signe chen de l'éternité et les yeux oudjat, garantissant ainsi l'intégrité physique et spirituelle du défunt.</p>
+    <p>Le premier registre, le plus prestigieux, est consacré au dieu Osiris. Le souverain des morts est représenté assis sur son siège cubique caractéristique, paré de la couronne atef et tenant les insignes du pouvoir, le sceptre héqa et le fouet. Il est accompagné de la déesse de l'Occident, Imentet. Face à eux, une procession familiale s'avance : un homme au crâne rasé présente des offrandes rituelles (vase hes, canard, bouquet), suivi d'un second homme portant une perruque à pans triangulaires étagés. Des femmes portant des cônes de parfum et un enfant complètent cette scène de dévotion solennelle.</p>
+    <p>Le deuxième registre introduit une dimension plus intellectuelle et éthique avec la présence de Thot, le dieu à tête d'ibis, scribe des dieux, et de Maât, l'incarnation de la justice et de l'équilibre cosmique. Les membres de la famille continuent d'offrir de l'encens, des papyrus et même un veau, soulignant l'abondance nécessaire à la vie éternelle. La présence d'un petit singe apporte une touche de vie quotidienne souvent présente dans l'iconographie de cette période de transition vers l'époque ramesside.</p>
+    <p>Les deux derniers registres se concentrent sur le culte des ancêtres et les rites de lustration. Le troisième registre montre le défunt et son épouse recevant les hommages d'un officiant pratiquant l'encensement et la lustration (purification par l'eau). Le quatrième registre clôt l'ensemble avec une scène similaire impliquant un couple assis et quatre hommes debout. Cette répétition des rites d'encensement et d'offrandes à travers les registres assure au bénéficiaire de la stèle une protection divine continue et la satisfaction de tous ses besoins vitaux dans l'au-delà.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Tombes & Rituels.</p>`
+  },
+  {
+    id: "stele_autobiographique_nakhtmin_louvre",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "fin XVIIIe dynastie (règne d'Aÿ, v. -1325 av. J.-C.)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1325,
+    domain: "sculpture_statuaire",
+    artifactType: "Monolithe / Stèle sculptée",
+    title: "Stèle autobiographique du haut dignitaire Nakhtmin sous le règne d'Aÿ",
+    site: "Musée du Louvre (Paris / prov. Akhmîm)",
+    originSite: "Akhmîm (Moyenne-Égypte)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre (Paris)",
+    category: "Stèle autobiographique",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Règne d'Aÿ", "Nakhtmin", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNN-A-XfbFP_FXB7_74aFFu1Rp2HWJTkeoyMnBE9wkZjHHXFfzs19Tl2Ry_pNJL07EfioMX324q7y-JOStPu3RW16UAABwqFnfn4CiqpZKP5y2OLxE--cbAOK0AvO6kpMS4R3sWBB6x3lAh4FAW1u4cBg=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette stèle cintrée est un document historique et religieux majeur datant du règne du pharaon Aÿ, successeur direct de Toutânkhamon. Commandée par le haut dignitaire Nakhtmin, elle témoigne de la transition artistique et politique à la fin de la XVIIIe dynastie. La partie supérieure, ou cintre, présente un décor protecteur classique avec deux canidés (le dieu Oupouaout sous ses formes du Sud et du Nord) encadrant des symboles d'éternité, tandis que le corps de la stèle est couvert de colonnes de textes hiéroglyphiques d'une grande finesse, caractéristiques du style post-amarnien.</p>
+    <p>Le texte gravé est une autobiographie idéale doublée d'une formule d'offrande. Nakhtmin y énumère ses titres prestigieux, notamment celui de Premier prophète de Min et d'Isis et de directeur des travaux pour le temple funéraire d'Aÿ. Au-delà de ses fonctions administratives et religieuses à Akhmîm, Nakhtmin utilise ce support pour proclamer sa vertu morale et son respect de la Maât (l'ordre et la justice). Il affirme avoir nourri l'affamé et rassasié l'indigent, des actes de charité qui, selon la croyance égyptienne, lui assurent un jugement favorable devant le tribunal d'Osiris.</p>
+    <p>La stèle exprime également les aspirations du défunt pour l'éternité : pouvoir sortir de sa tombe au grand jour, se rafraîchir à l'ombre des arbres de son jardin et boire l'eau de son propre canal. Ces souhaits soulignent l'importance du paysage funéraire comme un reflet idéalisé de la vie terrestre. Un détail historique poignant est le martelage des cartouches d'Osiris et du nom du roi, stigmates probables de la damnatio memoriae qui a frappé les derniers souverains de la période amarnienne sous la XIXe dynastie, cherchant à effacer toute trace de cette lignée jugée hérétique ou illégitime.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1325) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Textes & Littérature.</p>`
+  },
    {
     id: "plat_chasse_nagada_assouan",
     civId: "egypte",
