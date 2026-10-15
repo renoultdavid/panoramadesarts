@@ -6,6 +6,383 @@ window.ART_OBJECTS = window.ART_OBJECTS || [];
 window.ART_OBJECTS.push(
 
   {
+    id: "peinture_anubis_pylone_pleureuses_pashedu_tt3",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (v. -1280 av. J.-C. / Séthi Ier - Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1280,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Anubis veillant sur le socle-pylône et cortège de pleureuses (Tombe TT3)",
+    site: "Tombe de Pashedu - TT3 (Deir el-Médineh, Thèbes)",
+    originSite: "Deir el-Médineh (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe TT3, Deir el-Médineh)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "TT3 Pashedu", "Anubis sur pylône", "Pleureuses"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPB41ps--cPyM7tOuweT0xU-LfaJ2mTn67ghY88hTmBXTjqz5ePhQcycoLpQ_g9ODIS7rw-4dWN7mKU9xWK_h1RE5HR_DXJzewhAG1pAEWbL8P5k1CnK9SQiHv9Jcmtf_ZjU-ylD7bowrH_YjdE9Cpltw=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette notice présente une fresque murale située dans la tombe de Pashedou (TT3), artisan de la "Place de Vérité" ayant œuvré sous les règnes de Séthi Ier et de Ramsès II durant la XIXe dynastie. Découverte dans la nécropole de Deir el-Médineh à Thèbes-Ouest, cette œuvre témoigne de la ferveur religieuse et de l’excellence artistique des bâtisseurs des tombes royales. La composition, structurée par des registres verticaux et des parois cintrées, met en scène une iconographie funéraire classique centrée sur la protection du défunt et l'hommage à la divinité.</p>
+    <p>Sur la paroi de gauche, la figure dominante est celle d'Anubis, le dieu chacal, représenté sous sa forme animale allongée sur un socle en forme de pylône, symbole de la porte du tombeau ou du temple. Revêtu d'un collier rituel et d'une écharpe rouge, il veille sur l'entrée de la chambre funéraire, assurant son rôle de gardien de la nécropole et de protecteur des mystères de l'embaumement. Derrière lui, le décor est orné de motifs géométriques et de semis de points rappelant le ciel étoilé ou des étoffes précieuses. À droite, la paroi présente une file de pleureuses et de membres de la famille du défunt, vêtus de robes en lin blanc finement plissées, les bras levés dans le geste rituel de l'adoration ou du deuil. Leurs perruques noires contrastent vivement avec l'ocre jaune du fond de la paroi, une couleur symbolisant l'or et l'éternité divine.</p>
+    <p>Les inscriptions hiéroglyphiques qui encadrent les scènes précisent les titres de Pashedou et invoquent les dieux pour assurer sa survie dans l'au-delà. L'emploi de pigments naturels tels que l'ocre rouge, le jaune, le noir de charbon et le bleu égyptien, appliqué sur un enduit de limon et de chaux, conserve une fraîcheur exceptionnelle malgré les siècles. Cette œuvre illustre parfaitement l'art de l'époque ramesside, caractérisé par une élégance des lignes et une palette de couleurs chaleureuses qui visent à transformer la demeure d'éternité en un espace de transition serein vers le domaine d'Osiris.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1280) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+  {
+    id: "peinture_osiris_nout_soleil_amennakht_tt218",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (v. -1250 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1250,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Osiris trônant, déesse Nout et mise au monde du disque solaire (Tombe TT218)",
+    site: "Tombe d'Amennakht - TT218 (Deir el-Médineh, Thèbes)",
+    originSite: "Deir el-Médineh (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe TT218, Deir el-Médineh)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "TT218 Amennakht", "Osiris & Nout", "Disque solaire"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNKqOaz5ifa9igaOlx72keijsxUYBsK337bMfQNcQdmVJe12tdyOy9t_7jxX7ao6SthwtBTk7Uwoaig30uZW26se_Vsc60oNUfBZ6yIU1hNi7sllqmf8FzSMiUFu0kFUxwT17HOsM0JW0A5hFRH7ZQjIA=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette notice descriptive concerne l’un des décors pariétaux les plus emblématiques de la tombe d’Amennakht, répertoriée sous la cote TT218, située dans la nécropole de Deir el-Médineh sur la rive ouest de Thèbes. Datant de la XIXe dynastie, sous le règne de Ramsès II, cette peinture à la détrempe illustre la maîtrise artistique des artisans du Village Royal, dont Amennakht lui-même faisait partie en tant que serviteur dans la Place de Vérité. L'œuvre occupe la paroi du fond d'un caveau voûté, caractéristique des sépultures de cette période, où l'ocre jaune prédominant symbolise la lumière divine et l'éternité dorée.</p>
+    <p>La composition centrale s’articule autour de la figure imposante d’Osiris, seigneur de l’au-delà, représenté trônant dans une attitude hiératique. Le dieu est enveloppé dans un linceul blanc, portant la couronne atef flanquée de plumes d'autruche, et tenant les attributs de la royauté, le crochet héka et le fléau nekhakha. Face à lui, sur la gauche, se déploie une scène cosmogonique saisissante : la déesse Nout, personnification de la voûte céleste, courbe son corps pour soutenir ou donner naissance au disque solaire rouge flamboyant. Cette iconographie souligne le cycle perpétuel de la renaissance, où le soleil meurt chaque soir pour renaître à l'aube, un processus auquel le défunt aspire à s'identifier pour l'éternité.</p>
+    <p>Sous le disque solaire, une figure léonine ou hybride semble émerger des reliefs rosâtres évoquant les montagnes de l'Occident, le domaine des morts. Sur la paroi latérale droite, une procession de divinités momiformes et de génies protecteurs, tenant des signes ankh de vie, accompagne le passage de l'âme. La partie inférieure de la scène présente des registres de textes hiéroglyphiques denses, tracés en colonnes sur fond jaune, reprenant des formules extraites du Livre des Morts destinées à assurer la protection d'Amennakht contre les dangers du monde souterrain.</p>
+    <p>L'esthétique de cette peinture se distingue par la vivacité de sa palette, utilisant des pigments naturels tels que l'oxyde de fer pour les rouges et les bruns, le lapis-lazuli ou la fritte de cuivre pour les bleus, et le carbone pour les noirs profonds. Le style est typique de l'école de Deir el-Médineh, caractérisé par une certaine liberté de trait alliée à une rigueur théologique absolue. Malgré les outrages du temps et quelques lacunes dans l'enduit, l'œuvre demeure un témoignage exceptionnel de la piété religieuse et du talent technique des bâtisseurs de tombes royales, transformant une étroite chambre funéraire en un microcosme vibrant de la mythologie égyptienne.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1250) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+  {
+    id: "peinture_deesses_momiformes_ankh_amennakht_tt218",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (v. -1250 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1250,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Frise des déesses tutélaires momiformes tenant le signe Ânkh (Tombe TT218)",
+    site: "Tombe d'Amennakht - TT218 (Deir el-Médineh, Thèbes)",
+    originSite: "Deir el-Médineh (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe TT218, Deir el-Médineh)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "TT218 Amennakht", "Isis & Nephtys", "Signe Ânkh"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMQes8l5twcnffsTp_KYVQTtOJrxiN4Wg3Fk1gNkQVg394-F9dGvuIkQ5qbfftMFytfQscrMlRHVZ1ZIqKM2e8_uuF323cI7ZOhr87HddK7PatAaYUEDFwEhcPYezgtemtVjLuebUWI1ikL36glpr3AQg=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Détail de la paroi latérale du caveau d'Amennakht (TT218), artisan de la XIXe dynastie ayant œuvré sous les règnes de Séthy Ier et de Ramsès II. Typique du style ramesside de Deir el-Médineh, cette section de la voûte présente une frise de divinités protectrices se détachant sur le fond ocre jaune caractéristique des tombes polychromes de ce village d'artisans.</p>
+    <p>La composition illustre une procession hiératique de figures féminines momiformes, dont les silhouettes sont drapées dans des suaires blancs maintenus par des bandelettes rouges croisées sur la poitrine. Chaque divinité est coiffée d'une perruque tripartite d'un bleu profond, surmontée d'un emblème spécifique permettant son identification théologique. La figure centrale porte sur la tête le signe hiéroglyphique d'un siège ou d'un trône, l'identifiant probablement à la déesse Isis, tandis que ses compagnes pourraient représenter d'autres gardiennes du cycle osirien, telles que Nephtys ou Selket.</p>
+    <p>Chaque déesse tient fermement devant elle, à deux mains, le signe ankh, symbole de vie éternelle et de souffle divin, soulignant leur rôle actif dans la régénération du défunt. Les visages sont traités avec la finesse propre aux peintres de la Place de Vérité, affichant de grands yeux en amande soulignés de fard noir et des sourires empreints de sérénité. Au-dessus des figures, des colonnes de hiéroglyphes tracés à l'encre noire précisent les formules d'incantation issues de la littérature funéraire, comme le Livre des Morts ou l'Amdouat, destinées à accompagner Amennakht dans sa traversée nocturne.</p>
+    <p>La partie supérieure de la scène est bordée par une frise céleste et des éléments de décor géométrique qui encadrent la voûte, créant un espace sacré saturé de symboles. Le contraste saisissant entre le blanc éclatant des vêtements, le bleu lapis des perruques et l'éclat du fond jaune témoigne de la conservation exceptionnelle des pigments naturels utilisés par les artisans thébains. Cette œuvre manifeste l'aspiration du simple artisan à bénéficier, par l'image et le verbe, de la même protection divine que celle accordée aux souverains qu'il servait.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1250) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+  {
+    id: "peinture_tympan_anubis_palmier_doum_amennakht_tt218",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (v. -1250 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1250,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Tympan cintré d'Anubis veillant et rafraîchissement au palmier doum (Tombe TT218)",
+    site: "Tombe d'Amennakht - TT218 (Deir el-Médineh, Thèbes)",
+    originSite: "Deir el-Médineh (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe TT218, Deir el-Médineh)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "TT218 Amennakht", "Anubis sur édicule", "Palmier doum"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczO3nPxJw-HrtkqmPj16wMCEZr5olqVBKikaOW-hBlYcc9gPi2hqg37-Z97gptKnZt0i56vbElT2MY9Gi4Q7Dnmp_OmzrVTJxXX8zdQu9jtyoCzPdMPBA9hbMnfcysoBQdt-AgfzEn5xJpHiC_s486mgxA=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette œuvre murale d’une finesse exceptionnelle provient de la tombe de l’artisan Amennakht, répertoriée sous le matricule TT218, située dans la nécropole de Deir el-Médineh sur la rive ouest de Thèbes. Datant de la XIXe dynastie, sous le règne de Ramsès II vers 1250 avant notre ère, cette peinture à la détrempe illustre la maîtrise stylistique des « serviteurs dans la Place de Vérité » qui décoraient les sépultures royales et leurs propres demeures d’éternité. La composition s’articule autour d’un tympan cintré surmontant l’étroit passage de la chambre funéraire, créant une harmonie architecturale où l’iconographie et la structure se répondent.</p>
+    <p>Sur le registre supérieur, le dieu Anubis, protecteur des nécropoles, est représenté sous sa forme de canidé noir couché sur un édicule, veillant sur l’entrée du monde souterrain alors que le défunt lui adresse ses prières. La partie inférieure de la paroi présente une scène d’une grande piété, emblématique du Livre des Morts, où Amennakht apparaît agenouillé au bord d'un bassin d’eau fraîche irrigué par un palmier doum stylisé. Cette image illustre la quête de rafraîchissement et de régénération dans l’au-delà, le défunt puisant l’eau de vie à l’ombre de l’arbre sacré, symbole de subsistance éternelle.</p>
+    <p>La technique picturale se distingue par l’utilisation de fonds ocre jaune saturés, évoquant l’éclat de l’or et de la divinité, sur lesquels se détachent des figures aux contours précis et aux couleurs contrastées. Les pigments naturels, notamment le bleu égyptien, le rouge brique et le blanc de chaux, conservent ici une fraîcheur remarquable. Les inscriptions hiéroglyphiques, disposées en colonnes régulières autour des personnages, ne sont pas de simples légendes mais des formules actives garantissant la survie du Ka du défunt. La finesse des traits, particulièrement dans le rendu des fruits du palmier et des détails des parures d’Amennakht, témoigne d'un art qui, bien que codifié, laisse transparaître une sensibilité naturaliste profonde. Ce cycle décoratif constitue un témoignage précieux sur les croyances religieuses et le quotidien spirituel des élites artisanales thébaines, illustrant le passage de l’ombre du tombeau vers la lumière des champs d'Ialou.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1250) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+  {
+    id: "peinture_abreuvement_bassin_doum_amennakht_tt218",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (v. -1250 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1250,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Amennakht puisant l'eau vive du bassin au pied du palmier doum (Tombe TT218)",
+    site: "Tombe d'Amennakht - TT218 (Deir el-Médineh, Thèbes)",
+    originSite: "Deir el-Médineh (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe TT218, Deir el-Médineh)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "TT218 Amennakht", "Eau vive du bassin", "Palmier doum"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPbJ64EiD_P_TBHAKm6gcHaogySJc6JVg49jz9YQSMUvYNydTaSUKOeeZEk8dEjhVJY4ZjPpURw9XWvdmahoOLohvOhERn-VnuUqlP8ZDX64CBRA6iNPnWadz0NjcquhMO_gmdkW-vQKfAXIoaxHlkIyA=w613-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette notice muséale se concentre sur le détail de la paroi latérale de la chapelle funéraire d'Amennakht (TT218) à Deir el-Médineh, datant de la XIXe dynastie ramesside. Cette section spécifique met en lumière l'une des scènes les plus intimes et symboliques de l'art funéraire thébain : le rafraîchissement du défunt dans l'au-delà. Au centre de la composition, le propriétaire de la tombe, Amennakht, est représenté dans une posture d'humilité totale, agenouillé et penché vers un bassin d'eau d'un bleu azur profond dont la surface est animée de motifs en zigzags évoquant le mouvement du liquide. Derrière lui, sa compagne se tient debout dans une attitude de prière et de respect, vêtue d'une robe en lin blanc finement plissée qui souligne le savoir-faire des peintres de la Place de Vérité dans le rendu des transparences et des textures.</p>
+    <p>L'élément végétal dominant est un palmier doum magistralement exécuté, dont le tronc écailleux s'élève pour supporter des grappes de fruits rouges orangés et des palmes disposées en éventail. Cet arbre n'est pas qu'un simple élément de décor ; il incarne la protection de la déesse du sycomore ou de la déesse Nout, offrant nourriture et ombre salvatrice au défunt. Le fond de la scène est baigné dans cet ocre jaune caractéristique du style de Deir el-Médineh, créant une atmosphère lumineuse et sacrée. Des colonnes de hiéroglyphes tracés à l'encre noire et soulignés de rouge encadrent les personnages, récitant les formules nécessaires pour que le défunt puisse boire l'eau du fleuve céleste.</p>
+    <p>Sur la paroi adjacente à gauche, on aperçoit d'autres membres de la famille participant à ce banquet éternel, créant une continuité narrative dans l'espace restreint de la chambre voûtée. L'état de conservation exceptionnel des pigments permet d'apprécier la précision des détails, comme les bijoux en perles bleues et rouges et la finesse des traits du visage, témoignant de l'aspiration d'Amennakht à une paix éternelle dans un jardin fertile et irrigué.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1250) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+  {
+    id: "peinture_herons_benou_oudjat_amennakht_tt218",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (v. -1250 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1250,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Métamorphose en héron Bénou solaire et œil Oudjat protecteur (Tombe TT218)",
+    site: "Tombe d'Amennakht - TT218 (Deir el-Médineh, Thèbes)",
+    originSite: "Deir el-Médineh (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe TT218, Deir el-Médineh)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "TT218 Amennakht", "Oiseau Bénou", "Œil Oudjat"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPGwuEJ4khoLdKqlf6erGx9a5rCG6aaSxWhy9IdJPjGd3IVCnh2xOzrChb5VJlV9dfwIkZdBPZGh-nDOflYwuChiqblbpxCyvcWWlci4raRscTkKimH8uz-0vJi-xihMN4NG30n4kfffhCX4PRBGoFYRQ=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette peinture murale exceptionnelle provient du caveau funéraire d'Amennakht à Deir el-Médineh, datant de la XIXe dynastie ramesside. L’œuvre illustre avec une finesse remarquable un passage du Livre des Morts consacré aux métamorphoses sacrées, mettant en scène la transformation du défunt en héron cendré, le bénou, oiseau primordial associé à la création et à la régénération solaire.</p>
+    <p>La composition est dominée par trois silhouettes aviaires stylisées aux longs cous graciles et au plumage moucheté de bleu et de gris, symbolisant la capacité de l'âme à se manifester sous différentes formes pour voyager librement entre le monde des vivants et celui des morts. Au centre de ce groupe, une figure humaine à tête d'oiseau émerge, soulignant l'union mystique entre l'essence divine et l'identité de l'artisan thébain. À droite de la scène trône un majestueux œil Oudjat, symbole de complétude, de protection et de guérison, dont les lignes graphiques sombres contrastent vivement avec le fond jaune ocre saturé, couleur de l'éternité et de la chair des dieux.</p>
+    <p>L'ensemble de la paroi est structuré par des registres de hiéroglyphes cursifs et des motifs stellaires, créant un cadre cosmogonique où le défunt participe au cycle éternel du soleil. La technique de la détrempe sur enduit de limon, malgré les stigmates du temps et les lacunes visibles, conserve une vivacité chromatique saisissante, témoignant de la maîtrise des peintres thébains de la Place de Vérité qui parvenaient à insuffler un dynamisme presque éthéré à des sujets profondément théologiques. Cette représentation agit comme un véhicule magique permettant à l'âme de s'élever au-dessus de sa condition mortelle pour rejoindre le cortège de Rê.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1250) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+  {
+    id: "peinture_faucon_ba_fléau_amennakht_tt218",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (v. -1250 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1250,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Le faucon sacré de l'âme Ba au fléau Nekhakha (Tombe TT218)",
+    site: "Tombe d'Amennakht - TT218 (Deir el-Médineh, Thèbes)",
+    originSite: "Deir el-Médineh (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe TT218, Deir el-Médineh)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "TT218 Amennakht", "Faucon Ba", "Fléau Nekhakha"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczO4thwB-VPy4kRkOlE3gpzFjzbquvV5C1m1e5tcPG0Jxq3fSi4W1MFm_iYLURliP38wFfanPwkIwODfPYAHMuNxU_px2o-loAVsilrNguFKtnywWkux4im363f4oKAP4S1sIbiGPGDM8eUa_Lo8-EFiiw=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette scène polychrome saisissante, issue du complexe funéraire familial d'Amennakht à Deir el-Médineh (XIXe dynastie), illustre l'un des chapitres les plus puissants du Livre des Morts consacré aux transformations post-mortem. Le registre est dominé par la figure imposante d'un faucon sacré, représentation de l'âme "Ba" ou du défunt transfiguré en divinité solaire, se tenant fièrement sur un socle invisible devant un rideau de textes sacrés.</p>
+    <p>Le rapace est rendu avec une précision naturaliste et symbolique remarquable : sa tête blanche est soulignée par le dessin caractéristique des plumes noires autour de l'œil, tandis que son dos et ses ailes arborent un bleu égyptien profond imitant le lapis-lazuli, dont les plumes sont individuellement détaillées par des incisions et des rehauts de peinture. Derrière lui, le flagellum "nekhakha", insigne de puissance et de protection royale et divine, semble flotter verticalement, affirmant le statut d'Osiris du défunt.</p>
+    <p>Le fond de la scène est saturé d'un jaune d'or vibrant, évoquant la chair des dieux et l'éclat éternel du jour, sur lequel se détachent des colonnes de hiéroglyphes cursifs tracés à l'encre noire et délimitées par des filets rouges. Ces textes constituent des formules prophylactiques destinées à permettre au défunt de circuler librement entre le monde souterrain et la lumière du jour. L'équilibre parfait entre la rigueur calligraphique des textes et la fluidité plastique du faucon témoigne de l'excellence artistique des artisans de la "Place de Vérité", qui ont su transformer une paroi de calcaire en un manifeste théologique sur la survie de l'âme. La conservation de la couche picturale permet encore d'apprécier la fraîcheur des pigments minéraux et la vitalité d'un art qui ne visait rien de moins que l'immortalité.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1250) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+  {
+    id: "peinture_champs_ialou_labour_sennedjem_tt1",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (v. -1280 av. J.-C. / Séthi Ier - Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1280,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Les champs d'Ialou, labour à l'araire et vergers célestes (Tombe de Sennedjem, TT1)",
+    site: "Tombe de Sennedjem - TT1 (Deir el-Médineh, Thèbes)",
+    originSite: "Deir el-Médineh (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe TT1, Deir el-Médineh)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "TT1 Sennedjem", "Champs d'Ialou", "Labour à l'araire"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMMlsfaZ--gzbdQuDNrFA5vDcIolc65Zi4tuHjL6wPMqx3YgS9evWC44gXkvTc8k9aO9HGWKlddAa2tf4-wiHhn2Gx31TUyRUJH6NuFWuqxCq7_fc0dr6JrJxb2ekixTAOU8xlpoEBUzN2DhOmL6hubYQ=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette peinture murale exceptionnelle provient de la tombe thébaine TT1 appartenant à Sennedjem (complexe familial lié à la concession de Deir el-Médineh), artisan de la XIXe dynastie sous les règnes de Séthi Ier et de Ramsès II. L’œuvre illustre un passage crucial du Livre des Morts, représentant les champs d'Ialou, le paradis égyptien où le défunt et son épouse, vêtus de lin blanc immaculé, perpétuent éternellement les travaux agricoles dans un au-delà fertile et harmonieux.</p>
+    <p>La composition s'articule sur plusieurs registres séparés par des bandes de motifs géométriques et des cours d'eau stylisés en zigzag, témoignant de l'irrigation parfaite de ces terres divines. Au centre de la scène, on observe le défunt guidant une charrue tirée par un bœuf vigoureux au pelage tacheté, un motif classique symbolisant la régénération et l’abondance alimentaire nécessaire à la survie de l’âme. Les détails botaniques dans la partie inférieure, montrant des palmiers doums et des sycomores chargés de fruits alternant avec des buissons de lin, soulignent la richesse de cette flore céleste.</p>
+    <p>L’utilisation de pigments naturels, dominés par un jaune d’ocre éclatant pour le fond et des touches de bleu égyptien et de rouge terreux, confère à l’ensemble une vivacité remarquable malgré les outrages du temps et les zones d'érosion visibles. Les colonnes de hiéroglyphes flanquant la scène principale rapportent des prières et des formules d'offrandes, assurant magiquement au couple la possession de ces terres et la paix éternelle. Cette fresque constitue un témoignage précieux de la piété populaire et du talent artistique des ouvriers d'élite qui bâtirent les tombes de la Vallée des Rois, projetant leurs propres aspirations à une vie après la mort empreinte de labeur serein et de prospérité.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1280) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+  {
+    id: "peinture_navigation_sekhet_hetepet_sennedjem_tt1",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (v. -1280 av. J.-C. / Séthi Ier - Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1280,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Navigation sacrée sur les canaux du Champ des Offrandes (Tombe TT1)",
+    site: "Tombe de Sennedjem - TT1 (Deir el-Médineh, Thèbes)",
+    originSite: "Deir el-Médineh (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe TT1, Deir el-Médineh)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "TT1 Sennedjem", "Sekhet-Hetepet", "Navigation céleste"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNg7IDXPkY3gi4ayeHgAPB5NcahnW1gDIWVLsbUGydWMxF5otlv8gR3V78WPzrcaR3DxxzhJvkmOWywBcJi8d4_pRycuK-BokRuWepmygAJZKYJcqClf1d8R0w-c2LNGF1IXplXXm1YpyUhkjDbXBhyyw=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette peinture murale, située dans le registre supérieur de la paroi est de la tombe thébaine TT1 à Deir el-Médineh, date de l'époque ramesside (XIXe dynastie). Elle représente une scène symbolique forte extraite du chapitre 110 du Livre des Morts, où le défunt navigue sur les eaux du Sekhet-Hetepet, ou "Champ des Offrandes". Sennedjem apparaît ici agenouillé dans une barque de papyrus à la proue et à la poupe recourbées, tenant une rame-gouvernail pour diriger son embarcation sur un canal d'eau vive, rendu par des lignes brisées en zigzag.</p>
+    <p>Le fond d'un jaune d'or éclatant symbolise la lumière divine et l'éternité, tandis que la finesse des détails, comme le plissé du pagne de lin blanc ou les colonnes de textes hiéroglyphiques entourant le personnage, témoigne du savoir-faire exceptionnel des "Serviteurs dans la Place de Vérité". Les inscriptions identifient le défunt et invoquent les dieux pour lui assurer le passage et la subsistance dans cet au-delà idéal.</p>
+    <p>La scène est encadrée par des frises d'eau et des motifs géométriques qui structurent la vision cosmologique de l'Égypte ancienne, où la navigation est l'allégorie ultime du voyage de l'âme vers la régénération. L'état de conservation des pigments naturels est remarquable, offrant une immersion directe dans la spiritualité et l'esthétique des artisans de la Vallée des Rois.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1280) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+  {
+    id: "peinture_embaumement_anubis_isis_nebenmaat_tt219",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (v. -1250 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1250,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Rituel de la momification par Anubis et déesse ailée dans le tympan (Tombe TT219)",
+    site: "Tombe de Nebenmâat - TT219 (Deir el-Médineh, Thèbes)",
+    originSite: "Deir el-Médineh (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe TT219, Deir el-Médineh)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "TT219 Nebenmâat", "Anubis embaumeur", "Déesse ailée"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP1wQK5F8it2CYJGcJqZmocGo170EQM01AHXcELaTw6qJarczRrRQEx6TiNcika0pLvkwEESjhty08cbC2xaiV4rrZkNA0olSK_G1AizEt5zAfNQj6gXiVrWOot_AM0vNAdwaAGdq4lepUIV1ygkeR99Q=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette notice muséale traite de la décoration pariétale de la chambre funéraire de la tombe thébaine TT 219 appartenant à Nebenmâat, serviteur dans la Place de Vérité durant l'époque ramesside, située dans la nécropole de Deir el-Médineh sur la rive ouest de Louxor. L’œuvre présente une exécution stylistique caractéristique de la XIXe ou XXe dynastie, se distinguant par l’usage prédominant de pigments jaunes ocre sur un fond blanc éclatant, une palette monochrome rehaussée de traits noirs calligraphiques et de rehauts de rouge brique.</p>
+    <p>La scène centrale du mur du fond illustre le rituel de la momification et de la protection divine où le dieu Anubis, à tête de chacal, se penche sur le défunt étendu sur un lit funéraire aux pieds en forme de pattes de lion, tandis que des vases canopes et des offrandes sont disposés sous la couche. Au-dessus de cette composition, dans le tympan de la voûte, la déesse ailée Isis ou Nephthys déploie ses bras protecteurs pour assurer la renaissance du défunt dans l'au-delà, surmontée de registres de textes hiéroglyphiques denses tirés du Livre des Morts.</p>
+    <p>Les parois latérales prolongent ce programme iconographique avec des représentations de pleureuses professionnelles et de membres de la famille du défunt exprimant leur deuil, soulignant l'importance de la piété familiale et de la continuité du culte funéraire. La précision du trait et la vivacité des expressions témoignent du savoir-faire exceptionnel des artisans du village royal qui travaillaient parallèlement sur les tombes des pharaons dans la Vallée des Rois. La conservation de ces fresques permet d'apprécier la transition entre l'art naturaliste du début du Nouvel Empire et une stylisation plus graphique, presque schématique, privilégiant la lisibilité théologique et la force symbolique des couleurs sacrées.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1250) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+  {
+    id: "peinture_babouin_thot_oudjat_nebenmaat_tt219",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (v. -1250 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1250,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Le babouin sacré de Thot présentant l'œil Oudjat solaire (Tombe TT219)",
+    site: "Tombe de Nebenmâat - TT219 (Deir el-Médineh, Thèbes)",
+    originSite: "Deir el-Médineh (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe TT219, Deir el-Médineh)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "TT219 Nebenmâat", "Babouin de Thot", "Œil Oudjat"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOKxJzDfebPlYe9MpZpdtitZZJ7DWuJRfqLfUYmdWPjl6f19RMZ9MqRQqhVATpD3jdz7U1j1eLXBXOaX_iqwLxbSWck1H-H0T8IIXR_RIVy9Xa0y74cAmUZVFvz1R-LdG_QDVXfNf0QXEbwDn32O5x6MQ=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette notice muséale décrit un détail de la décoration murale de la tombe TT 219 de Nebenmâat à Deir el-Médineh, illustrant une scène de vénération cosmique et religieuse typique de l'art ramesside du Nouvel Empire. L’image met en lumière la figure d'un babouin cynocéphale, manifestation du dieu Thot ou représentation de l'animal sacré saluant le lever du soleil, coiffé d'un disque solaire jaune et présentant l'œil Oudjat, symbole puissant de complétude et de protection magique.</p>
+    <p>Le traitement artistique privilégie une palette de jaunes intenses et de rouges terreux sur un fond blanc, avec des contours noirs marqués qui délimitent des colonnes de textes hiéroglyphiques organisées avec une rigueur géométrique. La finesse du détail dans le pelage de l'animal et la calligraphie des signes témoignent de la haute technicité des scribes et dessinateurs de la Place de Vérité, capables de condenser des concepts théologiques complexes en images d'une grande clarté visuelle.</p>
+    <p>Sur la gauche, une partie du défunt Nebenmâat est visible, vêtu d'un pagne rayé jaune et noir, le corps peint dans une teinte ocre vive, soulignant son interaction directe avec les divinités dans l'espace sacré de la chapelle funéraire. Cette composition souligne le rôle du savoir et de la vue mystique dans le voyage vers l'au-delà, où chaque élément graphique, du disque lunaire ou solaire aux oiseaux hiéroglyphiques, participe à la survie éternelle du propriétaire de la tombe.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1250) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+  {
+    id: "peinture_pleureuses_anubis_pylone_nebenmaat_tt219",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (v. -1250 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1250,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Deux pleureuses en adoration et Anubis canidé sur édicule (Tombe TT219)",
+    site: "Tombe de Nebenmâat - TT219 (Deir el-Médineh, Thèbes)",
+    originSite: "Deir el-Médineh (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe TT219, Deir el-Médineh)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "TT219 Nebenmâat", "Pleureuses en blanc", "Anubis sur pylône"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczN1clJGhUZFsmXEJvyepzkJM8iKCZ9bZwU9em97kNYSRHXibT2qFt5xTGxfauEl-a4Rhm0H37GjTvTHBjhV9iUPmhiJuskMmhisFDShBGA3bD55l6ONLYwDJA4M0Aujo46IM01wi1oYJNga2-y1n5dTcQ=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette peinture murale provient de la sépulture thébaine de Nebenmaat, un serviteur dans la Place de Vérité ayant vécu sous le règne de Ramsès II durant la XIXe dynastie, située dans la nécropole de Deir el-Médineh. L’œuvre s'inscrit dans un programme iconographique complexe destiné à assurer le passage du défunt vers l'au-delà et sa survie éternelle. Sur un fond jaune d'or symbolisant la chair des dieux et l'éclat solaire, la scène dépeint deux pleureuses vêtues de longues robes de lin blanc translucide, le buste légèrement incliné et les bras levés dans un geste rituel d'adoration ou de lamentation funèbre.</p>
+    <p>Leurs chevelures noires imposantes et leurs profils graciles respectent les canons esthétiques de l'époque ramesside, caractérisés par une élégance calligraphique et une certaine souplesse des formes. À gauche de la composition, la figure protectrice d'Anubis, représentée sous sa forme de canidé noir couché sur un édicule en forme de pylône, veille sur le repos du mort. Cette divinité psychopompe, gardienne des nécropoles et maître de l'embaumement, arbore un collier rouge et se tient devant un éventail ou un sceptre symbolique.</p>
+    <p>La partie supérieure de la voûte est ornée d'une grille de textes hiéroglyphiques tracés à l'encre noire, probablement des extraits du Livre des Morts destinés à guider l'âme de Nebenmaat à travers les épreuves du monde souterrain. Malgré les outrages du temps et les lacunes visibles dans l'enduit, la vivacité des pigments naturels et la sûreté du trait témoignent du haut degré de maîtrise technique des artisans qui résidaient dans ce village de bâtisseurs de tombes royales. L'ensemble constitue un témoignage précieux sur les croyances eschatologiques égyptiennes, où l'image peinte n'est pas seulement décorative mais possède une fonction magique active et pérenne.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1250) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+  {
+    id: "peinture_nebenmaat_barque_sacree_eventail_tt219",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (v. -1250 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1250,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Nebenmâat naviguant dans la barque sacrée à l'éventail d'autruche (Tombe TT219)",
+    site: "Tombe de Nebenmâat - TT219 (Deir el-Médineh, Thèbes)",
+    originSite: "Deir el-Médineh (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe TT219, Deir el-Médineh)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "TT219 Nebenmâat", "Barque sacrée", "Éventail d'autruche"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOrbU3O7fxY8U-418F4IcqPCEPaodTqIToz6wAQVTp5xqFsM6qQxQqhhCojC8U7xjp0cIduQxAeAd2I-ieX7m1kpuvXJyDIH1hs1BGkQKl3khCDFKXODahsvFJs1K3KqW5ZL_2cG6Ot55cV43jUmj8IMA=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette peinture murale, extraite du décor de la tombe thébaine (TT219) de Nebenmaat à Deir el-Médineh, illustre une étape cruciale du voyage funéraire durant la XIXe dynastie, sous le règne de Ramsès II. La scène, exécutée sur un fond jaune vif évoquant la lumière divine et l'immortalité, montre le défunt Nebenmaat, identifié par les inscriptions hiéroglyphiques environnantes, assis à bord d'une barque sacrée naviguant vers l'au-delà. Vêtu d'un pagne de lin blanc plissé d'une grande finesse et paré d'un large collier ousekh polychrome, il tient dans ses mains les attributs de son rang et de sa dévotion, tandis que la proue de l'embarcation est ornée d'un éventail en plumes d'autruche, symbole de l'air vital et de la fraîcheur.</p>
+    <p>À la droite du personnage, une paroi est recouverte d'un texte sacré méticuleusement calligraphié en colonnes, composé de formules rituelles destinées à lui permettre de franchir les portes du royaume d'Osiris et de s'agréger au cycle solaire. L'artiste a employé une palette chromatique caractéristique des artisans de la Place de Vérité, utilisant des pigments naturels tels que l'ocre jaune, le bleu égyptien et le rouge brique, tout en jouant sur la transparence des vêtements pour suggérer le relief.</p>
+    <p>La composition est structurée par des registres horizontaux et des bordures décoratives visibles en haut et en bas, témoignant de la rigueur géométrique propre à l'art ramesside. Malgré les dégradations naturelles de l'enduit et les fissures qui parcourent la roche, l'œuvre conserve une intensité spirituelle remarquable, visant à assurer par l'image la présence éternelle du "Serviteur dans la Place de Vérité" au sein de la barque de Rê.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1250) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+  {
+    id: "peinture_nebenmaat_adoration_lion_aker_tt219",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (v. -1250 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1250,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Nebenmâat en adoration devant le lion de l'horizon Aker et le disque solaire (TT219)",
+    site: "Tombe de Nebenmâat - TT219 (Deir el-Médineh, Thèbes)",
+    originSite: "Deir el-Médineh (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe TT219, Deir el-Médineh)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "TT219 Nebenmâat", "Lion Aker", "Disque solaire sur Ânkh"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNR3Ci3D1-QMbfjdb2-qqGf-iany5V_F1c-CyaqRrnBuKVyUz4zxBdbkAglTQZhkdxo1OVeIdgvHNx473y4ppy1ycoyD_VOKUM5itqKO3F9aPG9LmfxEgslu0FMMEnffMs2q6Scj68-yAuu5JMd4Q_SBw=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette scène murale remarquable provient de la tombe thébaine (TT 219) de Nebenmaat, un serviteur de la Place de Vérité ayant vécu sous le règne de Ramsès II durant la XIXe dynastie. Située dans la nécropole de Deir el-Médineh, cette œuvre illustre un passage crucial du Livre des Morts où le défunt, vêtu d'une robe de lin blanc plissée et d'une perruque noire soigneusement détaillée, adopte une posture d'adoration face à une divinité léontocéphale.</p>
+    <p>Le lion, représenté avec une crinière imposante et un pelage moucheté, incarne vraisemblablement Aker, la divinité de l'horizon, ou une forme solaire protectrice veillant sur le passage entre le monde des vivants et celui des morts. À l'extrême gauche, un large disque solaire rouge repose sur un socle orné du signe Ânkh, symbole de vie éternelle, soulignant la régénération quotidienne de l'astre à laquelle le défunt souhaite s'associer.</p>
+    <p>La composition se distingue par l'utilisation de pigments naturels vibrants, notamment l'ocre jaune du fond qui baigne la scène d'une lumière divine, tandis que les hiéroglyphes noirs au sommet de la paroi précisent l'identité et les titres de Nebenmaat. La finesse du trait, caractéristique du style artistique des artisans de Deir el-Médineh, se manifeste dans le rendu anatomique du lion et l'expression de dévotion sur le visage de l'occupant de la tombe. Cette iconographie souligne la profonde piété personnelle des ouvriers de la vallée et leur maîtrise technique exceptionnelle dans l'aménagement de leurs propres demeures d'éternité.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1250) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+  {
+    id: "peinture_famille_nebenmaat_banquet_offrandes_tt219",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (v. -1250 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1250,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Le banquet familial éternel, femmes parfumées et libation rituelle (Tombe TT219)",
+    site: "Tombe de Nebenmâat - TT219 (Deir el-Médineh, Thèbes)",
+    originSite: "Deir el-Médineh (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe TT219, Deir el-Médineh)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "TT219 Nebenmâat", "Banquet familial", "Libation rituelle"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPrwsIwb5DPcjQJuW1QvUtu_ndi5InwwO0NO0mr9wsOicRXDeXrGN609OYorMEyJQxxYoz3zxQPoctxB6zgKaDYG_0n7XJOG7FIjwpqltIOqsaaFEl3SDtAWmbX2Lcc6XTfIhZk7zgTPMDxsmlQ9eLNHg=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette scène murale, extraite des parois de la tombe de Nebenmaat (TT 219) à Deir el-Médineh, illustre l'intimité et la piété de la sphère familiale de ce "Serviteur dans la Place de Vérité" sous la XIXe dynastie. Le registre central met en lumière un groupe de femmes et d'enfants, probablement les membres de la famille du défunt, représentés avec le raffinement esthétique propre aux artistes-artisans de la communauté thébaine.</p>
+    <p>Les deux femmes assises sur des sièges à pieds de lion portent des robes de lin blanc plissé d'une grande finesse, leurs chevelures noires étant ornées de cônes d'onguent, tandis que les enfants sont figurés nus ou avec la mèche de l'enfance, tenant des fleurs de lotus ou des oiseaux, symboles de renaissance et de pureté. À droite, un homme, sans doute un fils ou un parent de Nebenmaat, officie en versant une libation ou en présentant des offrandes sur un guéridon chargé de pains et de denrées, assurant ainsi la subsistance éternelle des convives dans l'au-delà.</p>
+    <p>Le fond ocre jaune unifie la composition et fait ressortir la vivacité des pigments noirs, blancs et rouges, caractéristiques du style polychrome de l'époque ramesside. La partie supérieure est saturée de colonnes de textes hiéroglyphiques sur fond jaune, détaillant les généalogies et les formules d'offrandes funéraires invoquant les divinités protectrices de la nécropole. L'ensemble témoigne de la volonté de Nebenmaat de transposer la cohésion de son foyer terrestre dans le domaine d'Osiris, garantissant la pérennité de son nom et de sa lignée à travers les siècles.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1250) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+   {
     id: "peinture_tympan_osiris_pashedu_tt3",
     civId: "egypte",
     periodId: "nouvel_empire",
