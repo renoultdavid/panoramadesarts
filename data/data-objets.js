@@ -6,6 +6,58 @@ window.ART_OBJECTS = window.ART_OBJECTS || [];
 window.ART_OBJECTS.push(
 
   {
+    id: "registres_hieroglyphes_temple_kom_ombo",
+    civId: "egypte",
+    periodId: "greco_romaine",
+    civName: "Égypte : Époque Ptolémaïque & Romaine",
+    century: "IIe - Ier siècle av. J.-C. (Époque ptolémaïque)",
+    centuryDisplay: "IIe s. av. J.-C.",
+    centuryNumeric: -150,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Registres d'inscriptions théologiques et médicales du temple de Kom Ombo",
+    site: "Temple de Sobek et Haroëris (Kom Ombo, Égypte)",
+    originSite: "Kom Ombo (Haute-Égypte)",
+    locationType: "site",
+    currentLocation: "In situ (Temple de Kom Ombo)",
+    category: "Épigraphie monumentale ptolémaïque",
+    isHighlight: false,
+    chips: ["Époque ptolémaïque", "Kom Ombo", "Sobek & Haroëris", "Inscriptions tardives"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMs5HqYaaZfNh-8OVawEVJC5nOetRP9rNtTYXAvycbNqvtlSZW9XV9Iufuh7LYsmelihM9O7nn2SJQ2pzctSC_-LHskLAFUo8CiSwPE3qiNNaGGJb0nyF6J9VXGH8G0gqwP_mq2O1Gub2E8eq5tL0aNlA=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette œuvre est un registre de textes hiéroglyphiques gravés en colonnes sur un mur de grès du temple de Kom Ombo, situé en Haute-Égypte. Contrairement à la rigueur classique des époques plus anciennes, ce relief illustre la densité et la complexité de l'écriture durant la période gréco-romaine. Les colonnes de texte sont serrées et présentent une profusion de signes, caractéristique des inscriptions tardives où le temple devient un véritable conservatoire du savoir sacré et de la culture pharaonique.</p>
+    <p>Le style de ces gravures est indissociable de la dynastie ptolémaïque (ou Lagide), qui a régné sur l'Égypte de 323 à 30 av. J.-C. La majeure partie de la structure actuelle du temple, y compris ces bas-reliefs, a été édifiée à partir du règne de Ptolémée VI au IIe siècle av. J.-C. et s'est poursuivie jusqu'au règne de Ptolémée XIII, avant d'être complétée par des éléments d'époque romaine.</p>
+    <p>Le temple de Kom Ombo possède une organisation unique en Égypte, étant dédié conjointement à deux divinités : Sobek, le dieu crocodile associé à la fertilité, et Haroëris (Horus l'Ancien), le dieu faucon représentant la lumière et la guérison. Cette dualité se reflète dans l'architecture symétrique du bâtiment et dans les inscriptions, qui célèbrent à parts égales les deux triades divines.</p>
+    <p>Ces textes ne sont pas seulement religieux ; ils témoignent également du rôle du temple comme centre de connaissances avancées. On y trouve notamment des représentations d'instruments médicaux et chirurgicaux, ainsi que des calendriers nilotiques servant à suivre les crues du Nil. La finesse de l'exécution, malgré l'érosion subie par le site en raison de sa proximité avec le fleuve, montre l'excellence artistique maintenue par les sculpteurs sous l'influence hellénistique.</p>
+    <p><strong>Siècle :</strong> IIe siècle av. J.-C. (-150) | <strong>Civilisation :</strong> Égypte antique (Époque ptolémaïque) | <strong>Sous-partie :</strong> Architecture & Temples.</p>`
+  },
+  {
+    id: "decret_de_canope_le_caire",
+    civId: "egypte",
+    periodId: "greco_romaine",
+    civName: "Égypte : Époque Ptolémaïque & Romaine",
+    century: "IIIe siècle av. J.-C. (-238 av. J.-C. / règne de Ptolémée III)",
+    centuryDisplay: "IIIe s. av. J.-C.",
+    centuryNumeric: -238,
+    domain: "vie_quotidienne",
+    artifactType: "Stèle administrative / Décret",
+    title: "Le Décret de Canope (Stèle trilingue de Ptolémée III Évergète)",
+    site: "Musée égyptien de la place Tahrir (Le Caire / prov. Tanis)",
+    originSite: "Canope / synode sacerdotal (Basse-Égypte)",
+    locationType: "museum",
+    currentLocation: "Musée égyptien du Caire",
+    category: "Stèle administrative trilingue",
+    isHighlight: false,
+    chips: ["-238 av. J.-C.", "Ptolémée III", "Texte trilingue", "Musée du Caire"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNorDRqf9iXHoDg2JEYKbK415Jqe0oFb_DAvV-2c7OIgMjfP9eQeeA6WbVkdqPChLOtlaV9alHrjTx0sHfDJVPDXmP6n-PicUsTmt7cQTyp0LlPkhj5FqTZtLDbgWtQdKR5s9nuqEmWy8etsbO9WmfIDw=w613-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette stèle, conservée au Musée égyptien du Caire, est l'un des exemplaires les plus célèbres du décret de Canope. Datée de l'an 9 du règne de Ptolémée III Évergète, soit en 238 av. J.-C., elle appartient à la dynastie lagide (ou ptolémaïque). Ce document est une pièce maîtresse de l'époque gréco-romaine, illustrant la fusion des cultures égyptienne et grecque sous le Nouvel Empire tardif.</p>
+    <p>L'œuvre se présente sous la forme d'une grande stèle en calcaire ou granodiorite à sommet cintré. Son registre supérieur, ou lunette, est orné d'un disque solaire ailé encadré d'uraeus, symbolisant la protection divine sur le souverain. En dessous, une scène de dévotion montre le roi et la reine face à une rangée de divinités, affirmant le caractère sacré du décret et le rôle du pharaon comme intermédiaire entre les dieux et les hommes.</p>
+    <p>Le corps de la stèle comporte un texte trilingue gravé en trois écritures : les hiéroglyphes (langue sacrée), le démotique (écriture administrative) et le grec ancien. Ce système de rédaction multiple, identique à celui de la pierre de Rosette, a été crucial pour les égyptologues dans le déchiffrement des hiéroglyphes, car il offre un texte long et répétitif permettant des comparaisons linguistiques précises.</p>
+    <p>Le texte lui-même rapporte les décisions prises par une assemblée de prêtres réunis à Canope pour honorer Ptolémée III et son épouse Bérénice II. Le décret mentionne leurs succès militaires, leurs actions contre la famine et, de manière révolutionnaire, l'instauration d'un calendrier solaire incluant un jour bissextile tous les quatre ans. Il établit également le culte de leur fille, la princesse Bérénice, décédée subitement pendant le synode.</p>
+    <p><strong>Siècle :</strong> IIIe siècle av. J.-C. (-238) | <strong>Civilisation :</strong> Égypte antique (Époque ptolémaïque) | <strong>Sous-partie :</strong> Textes & Littérature.</p>`
+  },
+   {
     id: "paroi_livre_portes_ramses_iv_kv2",
     civId: "egypte",
     periodId: "nouvel_empire",
