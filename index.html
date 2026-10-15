@@ -386,8 +386,88 @@
     <img id="artwork-lightbox-img" src="" alt="Agrandissement de l'œuvre" />
     <div class="lightbox-hint">Cliquez sur l'image pour revenir à la fiche</div>
   </div>
+   <!-- MODULE FOCUS PLEIN ÉCRAN INTERACTIF -->
+  <div id="focus-lightbox">
+    <div class="focus-top-bar">
+      <div class="top-bar-title" id="focusTopTitle">Découverte Guidée</div>
+      <div class="top-bar-buttons">
+        <button class="btn-top-bar" id="btnFocusResetOverview">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/></svg>
+          Tous les points
+        </button>
+        <button class="btn-top-bar btn-close-lightbox" id="btnFocusClose">
+          ✕ Fermer
+        </button>
+      </div>
+    </div>
 
- <!-- CHARGEMENT DES DONNÉES AU KILOMÈTRE -->
+    <div class="focus-viewport" id="focusViewport">
+      <div class="image-stage-box" id="focusStageBox">
+        <img class="img-fullscreen" id="focusMainImg" src="" alt="Œuvre Focus">
+        <div class="darkness-veil" id="focusDarkVeil"></div>
+        <div class="spotlight-lens" id="focusSpotLens">
+          <img id="focusSpotImg" src="" alt="Spot">
+        </div>
+        <div id="focusBubblesContainer"></div>
+      </div>
+    </div>
+
+    <div class="focus-popup-card" id="focusPopupCard">
+      <div class="popup-badge-row">
+        <span class="popup-step-tag" id="focusPopupTag">POINT 1</span>
+        <button class="btn-popup-all" id="btnFocusPopupAll">Vue d'ensemble</button>
+      </div>
+      <h3 class="popup-title" id="focusPopupTitle">Titre de la zone</h3>
+      <p class="popup-desc" id="focusPopupDesc">Description...</p>
+      
+      <div class="popup-nav-row">
+        <button class="btn-popup-nav" id="btnFocusPrevPoint">❮ Précédent</button>
+        <button class="btn-popup-nav" id="btnFocusNextPoint">Suivant ❯</button>
+      </div>
+    </div>
+  </div>
+  <!-- MODULE FOCUS PLEIN ÉCRAN INTERACTIF -->
+  <div id="focus-lightbox">
+    <div class="focus-top-bar">
+      <div class="top-bar-title" id="focusTopTitle">Découverte Guidée</div>
+      <div class="top-bar-buttons">
+        <button class="btn-top-bar" id="btnFocusResetOverview">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/></svg>
+          Tous les points
+        </button>
+        <button class="btn-top-bar btn-close-lightbox" id="btnFocusClose">
+          ✕ Fermer
+        </button>
+      </div>
+    </div>
+
+    <div class="focus-viewport" id="focusViewport">
+      <div class="image-stage-box" id="focusStageBox">
+        <img class="img-fullscreen" id="focusMainImg" src="" alt="Œuvre Focus">
+        <div class="darkness-veil" id="focusDarkVeil"></div>
+        <div class="spotlight-lens" id="focusSpotLens">
+          <img id="focusSpotImg" src="" alt="Spot">
+        </div>
+        <div id="focusBubblesContainer"></div>
+      </div>
+    </div>
+
+    <div class="focus-popup-card" id="focusPopupCard">
+      <div class="popup-badge-row">
+        <span class="popup-step-tag" id="focusPopupTag">POINT 1</span>
+        <button class="btn-popup-all" id="btnFocusPopupAll">Vue d'ensemble</button>
+      </div>
+      <h3 class="popup-title" id="focusPopupTitle">Titre de la zone</h3>
+      <p class="popup-desc" id="focusPopupDesc">Description...</p>
+      
+      <div class="popup-nav-row">
+        <button class="btn-popup-nav" id="btnFocusPrevPoint">❮ Précédent</button>
+        <button class="btn-popup-nav" id="btnFocusNextPoint">Suivant ❯</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- CHARGEMENT DES DONNÉES AU KILOMÈTRE -->
   <script src="data/data-artistes.js"></script>
   <script src="data/data-objets.js"></script>
   <script src="data/data-objets2.js"></script>
@@ -396,3 +476,5 @@
   <script src="app.js"></script>
 </body>
 </html>
+
+
