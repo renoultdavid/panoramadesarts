@@ -6,6 +6,337 @@ window.ART_OBJECTS = window.ART_OBJECTS || [];
 window.ART_OBJECTS.push(
 
   {
+    id: "sculpture_ptolemee_iv_registres_offrandes_hathor_thot_deir_el_medineh",
+    civId: "egypte",
+    periodId: "ptolemaique",
+    civName: "Égypte : Époque ptolémaïque",
+    century: "Époque ptolémaïque (vers -210 av. J.-C. / règne de Ptolémée IV)",
+    centuryDisplay: "IIIe s. av. J.-C.",
+    centuryNumeric: -210,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Double registre liturgique : Ptolémée IV offrant l'encens à Hathor et cortège d'Horus et Thot (Deir el-Médineh)",
+    site: "Temple d'Hathor et de Maât (Deir el-Médineh, Thèbes)",
+    originSite: "Thèbes-Ouest",
+    locationType: "site",
+    currentLocation: "In situ (Sanctuaires du fond du Temple de Deir el-Médineh)",
+    category: "Bas-relief sur grès polychrome",
+    isHighlight: false,
+    chips: ["Époque ptolémaïque", "Deir el-Médineh", "Ptolémée IV", "Déesse Hathor", "Amon-Rê", "Dieu Thot", "Polychromie thébaine"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMFrQFC-EcgF3JpRoBBhgl5ZQrvVJ6q6oxs9SItdHshOb3dNc92fQXuP3tLtp5du3x3gAFLqHpV-1-8SXcePrbL-5vOwxNqqF4hxUIrHOI_eDaylgjERBLQyrIVBtcWXVJlJWgwWbgEzhTEnLFYDOUrtw=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce bas-relief polychrome, situé dans le temple d'Hathor et de Maât à Deir el-Médineh, illustre la finesse de l'art ptolémaïque vers 210-204 avant J.-C. Contrairement aux scènes de guerre monumentales, ce décor se concentre sur l'intimité du dialogue entre le souverain et les puissances divines. La conservation remarquable des pigments — bleus, rouges et ocres — permet d'apprécier la richesse visuelle qui caractérisait autrefois l'ensemble des sanctuaires thébains.</p>
+    <p>La composition s'articule en deux registres superposés où le pharaon Ptolémée IV Philopator accomplit des rites d'offrande. Dans le registre supérieur, le roi est représenté faisant face à une assemblée de divinités trônant, dont Hathor, maîtresse des lieux, et Amon-Rê. Le roi présente des vases d'onguent ou d'encens, des gestes destinés à apaiser les dieux et à garantir l'harmonie cosmique sur la terre d'Égypte. Chaque figure divine est identifiée par des colonnes de hiéroglyphes détaillant ses titres et les bénéfices accordés au souverain, tels que la vie, la force et la santé.</p>
+    <p>Le registre inférieur poursuit cette thématique liturgique avec une procession de divinités protectrices, parmi lesquelles on reconnaît des formes d'Horus et de Thot. La précision des coiffes, des sceptres Ouas et des croix Ankh souligne le caractère sacré de cet espace, situé dans l'un des trois sanctuaires du fond du temple. Ce monument, construit par les artisans qui avaient eux-mêmes bâti les tombes de la Vallée des Rois, témoigne d'une ferveur religieuse particulière pour Hathor, protectrice de la nécropole.</p>
+    <p><strong>Siècle :</strong> IIIe siècle av. J.-C. (-210) | <strong>Civilisation :</strong> Égypte ptolémaïque | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_triade_anubis_pschent_hathor_horus_deir_el_medineh",
+    civId: "egypte",
+    periodId: "ptolemaique",
+    civName: "Égypte : Époque ptolémaïque",
+    century: "Époque ptolémaïque (vers -210 av. J.-C. / règne de Ptolémée IV)",
+    centuryDisplay: "IIIe s. av. J.-C.",
+    centuryNumeric: -210,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Triade divine assise : Anubis au Pschent, Hathor et Horus hiéracocéphale (Salle des juges, Deir el-Médineh)",
+    site: "Temple d'Hathor et de Maât - Salle des juges (Deir el-Médineh, Thèbes)",
+    originSite: "Thèbes-Ouest",
+    locationType: "site",
+    currentLocation: "In situ (Salle des juges, Temple de Deir el-Médineh)",
+    category: "Bas-relief sur grès polychrome",
+    isHighlight: false,
+    chips: ["Époque ptolémaïque", "Deir el-Médineh", "Anubis au Pschent", "Déesse Hathor", "Horus faucon", "Salle des juges", "Bleu lapis-lazuli"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMOPQu3dLj0ILpd3qJLhRflTq92sBfHR6HftWkt3Wkd5jdvv5Bh3iiGLLa4c-o_28wcfBp961xqRtMDoMA96syfiO_X5zc_0LCU1DhUepxtzM8NoWq23tOJhiPZaMwVAIiBtImpzAEiYym5bS684UJk_g=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette œuvre est un relief peint issu du temple ptolémaïque de Deir el-Médineh, situé sur la rive ouest de Thèbes. Ce temple, dédié principalement à la déesse Hathor, fut édifié sous le règne de Ptolémée IV et achevé par ses successeurs. La scène illustre la maîtrise de l'art égyptien tardif, caractérisé par une conservation exceptionnelle des pigments naturels et une élégance particulière dans les proportions des figures divines.</p>
+    <p>La composition présente une triade de divinités assises, identifiables à leurs attributs iconographiques distinctifs. À gauche, le dieu Anubis à tête de canidé porte la double couronne (le Pschent), symbolisant sa souveraineté. Au centre siège une déesse, probablement Hathor ou Isis, arborant une coiffe spécifique surmontée d'un mortier. À droite, un dieu à tête de faucon, tel qu'Horus ou Rê-Horakhty, complète cette assemblée sacrée. Chaque divinité tient d'une main le sceptre Ouas, signe de puissance, et de l'autre la croix Ankh, symbole de vie éternelle.</p>
+    <p>Le registre supérieur est occupé par des colonnes de hiéroglyphes finement gravés et colorés, qui servent de légendes aux divinités et précisent la teneur des rituels ou des offrandes associés à cette paroi. Les couleurs utilisées, notamment le bleu de lapis-lazuli, l'ocre rouge et le jaune safran, témoignent de la richesse symbolique de la palette égyptienne, où chaque teinte portait une signification religieuse profonde liée à la régénération et au divin.</p>
+    <p>Ce relief s'inscrit dans le programme iconographique de la salle des juges du temple, un lieu où la pesée du cœur et le passage vers l'au-delà sont des thèmes centraux.</p>
+    <p><strong>Siècle :</strong> IIIe siècle av. J.-C. (-210) | <strong>Civilisation :</strong> Égypte ptolémaïque | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_deesses_isis_hathor_sceptre_papyrus_ankh_deir_el_medineh",
+    civId: "egypte",
+    periodId: "ptolemaique",
+    civName: "Égypte : Époque ptolémaïque",
+    century: "Époque ptolémaïque (vers -210 av. J.-C. / règne de Ptolémée IV)",
+    centuryDisplay: "IIIe s. av. J.-C.",
+    centuryNumeric: -210,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Deux divinités féminines assises à la carnation d'or : Isis aux hautes plumes et Hathor au disque solaire (Deir el-Médineh)",
+    site: "Temple d'Hathor et de Maât (Deir el-Médineh, Thèbes)",
+    originSite: "Thèbes-Ouest",
+    locationType: "site",
+    currentLocation: "In situ (Parois du Temple de Deir el-Médineh)",
+    category: "Bas-relief sur grès polychrome",
+    isHighlight: false,
+    chips: ["Époque ptolémaïque", "Deir el-Médineh", "Déesse Isis", "Déesse Hathor", "Carnation dorée", "Sceptre de papyrus", "Croix Ânkh"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNAIgUf2gf0nMsSFyqc5Me5A8MMX96aeD94T7dUL4BZQVPe1IWYIQmrlEnodNmO3Cyqc4g-MNcGul0oinLYSWhtkseov7mb811XAbkDDpxgMskNXqfJzcI51d5v7ZdvW1ah7q5Pz6tDkV0bwSp-2IdDGg=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette scène en relief peint provient également du temple de Hathor à Deir el-Médineh, joyau de l'époque ptolémaïque situé dans la nécropole thébaine. Ce sanctuaire est renommé pour ses représentations religieuses d'une grande finesse, illustrant la piété des souverains lagides envers le panthéon égyptien traditionnel. Les figures ici présentes s'inscrivent dans une suite de divinités participant au cycle du jugement et de la protection du défunt dans l'au-delà.</p>
+    <p>Le relief met en lumière deux divinités féminines assises, représentées avec une élégance caractéristique de l'art tardif. À gauche, la déesse porte une coiffe complexe composée du disque solaire enserré entre deux hautes plumes d'autruche, un attribut souvent associé à Isis ou à des formes spécifiques d'Hathor. À sa droite, la seconde figure divine arbore le disque solaire encadré par des cornes lyres surmontant une dépouille de vautour, confirmant son statut de grande déesse protectrice et nourricière.</p>
+    <p>Toutes deux tiennent fermement le sceptre de papyrus, symbole de fraîcheur et de jeunesse éternelle, ainsi que la croix de vie, l'ânkh, posée sur leurs genoux. Leurs parures, comprenant de larges colliers ousekh et des bracelets colorés, sont rendues avec une précision qui souligne le caractère sacré et précieux de leur apparition. La carnation dorée de leur peau rappelle la croyance égyptienne selon laquelle la chair des dieux était faite d'or pur.</p>
+    <p>Les colonnes de textes hiéroglyphiques surmontant les déesses fournissent les formules liturgiques nécessaires à l'activation spirituelle de la scène.</p>
+    <p><strong>Siècle :</strong> IIIe siècle av. J.-C. (-210) | <strong>Civilisation :</strong> Égypte ptolémaïque | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_souverain_lagide_pschent_offrande_hathor_isis_deir_el_medineh",
+    civId: "egypte",
+    periodId: "ptolemaique",
+    civName: "Égypte : Époque ptolémaïque",
+    century: "Époque ptolémaïque (vers -210 av. J.-C. / règne de Ptolémée IV)",
+    centuryDisplay: "IIIe s. av. J.-C.",
+    centuryNumeric: -210,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Offrande du souverain lagide au Pschent devant l'assemblée d'Hathor et d'Isis (Deir el-Médineh)",
+    site: "Temple d'Hathor et de Maât (Deir el-Médineh, Thèbes)",
+    originSite: "Thèbes-Ouest",
+    locationType: "site",
+    currentLocation: "In situ (Parois du Temple de Deir el-Médineh)",
+    category: "Bas-relief sur grès polychrome",
+    isHighlight: false,
+    chips: ["Époque ptolémaïque", "Deir el-Médineh", "Souverain lagide", "Couronne Pschent", "Déesse Hathor", "Fleur de lotus", "Polychromie thébaine"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczM9_rofEa8QdSLZ0PgOZFs-jSxQbZZq3rW9y2mh7NubS-K9fIxOgPbW93i8O7htZ0C6aEtAJZJ5KWhXWs0yx600Iko6NszfbdpTzwTtXbqis6CkG3RxdphAp1XRM6ewceF9o1s59-VXMJGhlZD-7j6TrA=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette œuvre est un haut-relief peint situé dans le petit temple ptolémaïque de Deir el-Médineh, situé sur la rive ouest de Thèbes. Consacré principalement à la déesse Hathor et à Maât, ce sanctuaire se distingue par la finesse de son exécution et l’état de conservation remarquable de ses pigments naturels. La scène présentée ici s'inscrit dans un programme iconographique complexe où la dévotion royale rencontre les divinités protectrices de la nécropole thébaine.</p>
+    <p>La composition centrale illustre un souverain lagide, coiffé de la couronne de Haute et Basse-Égypte, effectuant une offrande rituelle devant une assemblée de divinités assises. On reconnaît notamment des figures féminines arborant le disque solaire enserré entre des cornes de bovidé, attributs caractéristiques d'Hathor ou d'Isis. Les hiéroglyphes qui surmontent les personnages servent à la fois de décor et de texte sacré, détaillant les formules d'offrandes et les titres royaux destinés à maintenir l'ordre cosmique.</p>
+    <p>Sur le plan technique, les artistes ont utilisé la méthode du bas-relief en creux pour les contours, permettant aux jeux d'ombre et de lumière de souligner la silhouette des dieux. La palette chromatique est typique de l'époque, privilégiant les ocres rouges pour les chairs masculines, le jaune pour les peaux féminines et le bleu de lapis-lazuli pour les perruques divines. Ces couleurs, extraites de minéraux broyés, ont conservé une vibrance qui témoigne du savoir-faire exceptionnel des artisans qui vivaient autrefois dans le village voisin.</p>
+    <p>L'œuvre remplit une fonction liturgique essentielle : elle pérennise par l'image le dialogue entre le monde des hommes et celui des dieux.</p>
+    <p><strong>Siècle :</strong> IIIe siècle av. J.-C. (-210) | <strong>Civilisation :</strong> Égypte ptolémaïque | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_barque_sacree_naos_gouvernail_procession_deir_el_medineh",
+    civId: "egypte",
+    periodId: "ptolemaique",
+    civName: "Égypte : Époque ptolémaïque",
+    century: "Époque ptolémaïque (vers -210 av. J.-C. / règne de Ptolémée IV)",
+    centuryDisplay: "IIIe s. av. J.-C.",
+    centuryNumeric: -210,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "La barque sacrée thébaine au naos fermé et gouvernail d'apparat en procession (Deir el-Médineh)",
+    site: "Temple d'Hathor et de Maât (Deir el-Médineh, Thèbes)",
+    originSite: "Thèbes-Ouest",
+    locationType: "site",
+    currentLocation: "In situ (Parois du Temple de Deir el-Médineh)",
+    category: "Bas-relief sur grès",
+    isHighlight: false,
+    chips: ["Époque ptolémaïque", "Deir el-Médineh", "Barque sacrée", "Naos", "Gouvernail rituel", "Mobilier liturgique", "Procession"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNKSVxomsZqRH5xfkAB05xjXEHkVo9AC2UulivPLTP4OWv4qCzXjeC9eKFmExHaEYB2sUc0JIsldLiPft6dHv6Yc-LCDOPf0E9cqad7FtoJ35kvx-GIUbcDB0Q4dGQBGvJOq0DM5BGzsmWefGGEFuRvCw=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce bas-relief peint, situé dans le temple de Deir el-Médineh, représente un moment clé de la liturgie thébaine : le transport de la barque sacrée lors d'une procession religieuse. Au centre de la composition, l'embarcation divine repose sur un socle ou est portée par des brancards invisibles, abritant en son milieu un naos (sanctuaire) protégé par des voiles et des structures en bois. Cette barque n'est pas un simple moyen de transport, mais le véhicule terrestre de la divinité, permettant à l'idole cachée de quitter le saint des saints pour aller à la rencontre du peuple lors des grandes fêtes annuelles.</p>
+    <p>L'iconographie détaille avec précision les accessoires rituels qui accompagnent cette sortie solennelle. On observe des enseignes sacrées surmontées de symboles divins, ainsi que des personnages de taille réduite, probablement des prêtres ou des porteurs, représentés dans une attitude de marche et de soutien. À l'arrière de la barque, le gouvernail massif et les rames sont visibles, symbolisant la navigation céleste du dieu à travers les heures du jour et de la nuit. La présence de hiéroglyphes et de signes de vie, comme l'ânkh, renforce le caractère vitalisant de cette scène pour l'équilibre du monde.</p>
+    <p>L'exécution technique témoigne de la transition stylistique de l'époque ptolémaïque, où le relief se fait plus charnu et les volumes plus arrondis que sous le Nouvel Empire. Les pigments utilisés, bien que patinés par le temps, laissent deviner une prédominance de tons ocre et terreux, autrefois rehaussés de couleurs vives.</p>
+    <p><strong>Siècle :</strong> IIIe siècle av. J.-C. (-210) | <strong>Civilisation :</strong> Égypte ptolémaïque | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_psychostasie_pesee_coeur_thot_ammout_deir_el_medineh",
+    civId: "egypte",
+    periodId: "ptolemaique",
+    civName: "Égypte : Époque ptolémaïque",
+    century: "Époque ptolémaïque (vers -210 av. J.-C. / règne de Ptolémée IV)",
+    centuryDisplay: "IIIe s. av. J.-C.",
+    centuryNumeric: -210,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Le jugement d'Osiris : Psychostasie, Thot au calame et la dévoreuse Ammout (Deir el-Médineh)",
+    site: "Temple d'Hathor et de Maât - Salle du jugement (Deir el-Médineh, Thèbes)",
+    originSite: "Thèbes-Ouest",
+    locationType: "site",
+    currentLocation: "In situ (Salle du jugement, Temple de Deir el-Médineh)",
+    category: "Bas-relief sur grès polychrome",
+    isHighlight: true,
+    chips: ["Époque ptolémaïque", "Deir el-Médineh", "Psychostasie", "Pesée du cœur", "Dieu Thot", "Dévoreuse Ammout", "Tribunal d'Osiris"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPVGEyq1i88DQjU2vS8VjvnXRSjbcTYZepvsktYzZSZSklOA3DGaX7HpuUeqSA0wdHpz7xyW4Q14XQTQd95LWixoTaEp_BEDv144YZg3a4wb_MDIyuvpsDhbk4btx867iDB_mpRh_uSx6_QfVQ8dLb4DQ=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce bas-relief peint du temple de Deir el-Médineh illustre l'un des moments les plus solennels de la mythologie égyptienne : le passage devant le tribunal d'Osiris, plus précisément la pesée du cœur ou psychostasie. À gauche, le dieu Thot à tête d'ibis, scribe des dieux et maître du temps, se tient debout pour consigner scrupuleusement le résultat du jugement sur son calame. Il est chargé de noter si le cœur du défunt est en équilibre avec Maât, la vérité et la justice, représentée ici par une balance dont on devine l'extrémité sur le bord gauche de la paroi.</p>
+    <p>Au centre de la scène, une figure assise sur un signe hiéroglyphique incurvé observe la pesée. Il s'agit d'une représentation de l'un des quarante-deux juges du tribunal divin, ou peut-être du défunt lui-même dans un état de transformation, participant au rituel qui déterminera son accès à la vie éternelle. La finesse des détails, comme le collier ousekh et la coiffe, souligne l'importance du personnage dans ce processus judiciaire céleste où chaque action terrestre est pesée avec une précision absolue.</p>
+    <p>Juste devant lui se trouve la « Grande Dévoreuse », Ammout, un monstre hybride à corps de lion et d'hippopotame avec une tête de crocodile. Elle attend patiemment au pied du tribunal pour dévorer les cœurs chargés de péchés qui échoueraient à l'examen de la balance, condamnant ainsi l'âme à une errance éternelle. Cette figure terrifiante, rendue ici avec un réalisme saisissant, servait de rappel théologique sur l'importance de mener une vie juste en accord avec les lois divines.</p>
+    <p>L'ensemble de la composition est surmonté de colonnes de textes hiéroglyphiques qui détaillent les formules de la confession négative, où le défunt proclame son innocence. La conservation des pigments jaunes et des contours ocres permet d'apprécier la fluidité du trait caractéristique des artistes de l'époque ptolémaïque.</p>
+    <p><strong>Siècle :</strong> IIIe siècle av. J.-C. (-210) | <strong>Civilisation :</strong> Égypte ptolémaïque | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_vache_hathor_montagne_thebaine_ailes_soleil_deir_el_medineh",
+    civId: "egypte",
+    periodId: "ptolemaique",
+    civName: "Égypte : Époque ptolémaïque",
+    century: "Époque ptolémaïque (vers -210 av. J.-C. / règne de Ptolémée IV)",
+    centuryDisplay: "IIIe s. av. J.-C.",
+    centuryNumeric: -210,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "La vache sacrée d'Hathor émergeant de la montagne thébaine sous la protection solaire ailée (Deir el-Médineh)",
+    site: "Temple d'Hathor et de Maât (Deir el-Médineh, Thèbes)",
+    originSite: "Thèbes-Ouest",
+    locationType: "site",
+    currentLocation: "In situ (Parois du Temple de Deir el-Médineh)",
+    category: "Bas-relief sur grès polychrome",
+    isHighlight: true,
+    chips: ["Époque ptolémaïque", "Deir el-Médineh", "Vache Hathor", "Mehet-Oueret", "Montagne thébaine", "Soleil ailé", "Régénération"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPZ30s16xBXs5Rowgep1bS3YjBO2htjZ_MKoqZ9YLXb_tNT5WhcCqjelaLmbaYE49XZbq30IqS4bGsgi749bb0uzP9eGfFjGJJfQZJtxhWUE2NSPBOpxTX30ZyJQDUtHUbF2Uhy_dQEN3hW2FazYw-4YA=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce relief peint provenant du temple de Deir el-Médineh met en scène une figure centrale de la mythologie égyptienne : la vache sacrée, manifestation de la déesse Hathor ou de Mehet-Oueret, émergeant de la montagne thébaine. Cette image symbolise la naissance du soleil et la régénération perpétuelle de la vie. La déesse est représentée avec un corps puissant peint en ocre jaune, portant entre ses cornes le disque solaire orné d'un uræus, et surmonté de plumes de vautour, signes de sa protection maternelle et royale sur le pays.</p>
+    <p>Sur son dos est posée une structure ailée complexe qui évoque le faucon Horus ou le soleil levant déployant ses ailes pour illuminer le monde. À gauche de la scène, une déesse debout, probablement Isis ou une personnification de l'Occident, lève les mains en signe d'adoration et d'accueil face à la divinité protectrice. À droite, une figure masculine agenouillée, tenant le signe de vie Ânkh, reçoit les bienfaits émanant de cette apparition divine, soulignant le lien indéfectible entre les dieux et les fidèles qui ont bâti ce sanctuaire.</p>
+    <p>La technique du relief, caractéristique de l'époque ptolémaïque, joue sur des volumes arrondis et une polychromie encore vibrante par endroits, notamment le bleu profond des perruques et le rouge du disque solaire. Les hiéroglyphes qui encadrent les personnages ne sont pas de simples légendes mais des vecteurs de puissance magique, activant la scène pour l'éternité. La montagne, stylisée à l'extrême droite par des motifs ondulés, rappelle que ce temple est ancré dans le paysage sacré de la rive ouest de Louxor, là où le soleil se couche pour mieux renaître.</p>
+    <p>Cette œuvre témoigne de la dévotion particulière des artisans de Deir el-Médineh envers les divinités féminines nourricières et funéraires.</p>
+    <p><strong>Siècle :</strong> IIIe siècle av. J.-C. (-210) | <strong>Civilisation :</strong> Égypte ptolémaïque | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_etendards_chacals_proue_barque_sacree_deir_el_medineh",
+    civId: "egypte",
+    periodId: "ptolemaique",
+    civName: "Égypte : Époque ptolémaïque",
+    century: "Époque ptolémaïque (vers -210 av. J.-C. / règne de Ptolémée IV)",
+    centuryDisplay: "IIIe s. av. J.-C.",
+    centuryNumeric: -210,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Étendards sacrés d'Anubis et Oupouaout ouvrant la voie à la proue de la barque divine (Deir el-Médineh)",
+    site: "Temple d'Hathor et de Maât (Deir el-Médineh, Thèbes)",
+    originSite: "Thèbes-Ouest",
+    locationType: "site",
+    currentLocation: "In situ (Parois du Temple de Deir el-Médineh)",
+    category: "Bas-relief sur grès polychrome",
+    isHighlight: false,
+    chips: ["Époque ptolémaïque", "Deir el-Médineh", "Étendards rituels", "Chacal Anubis", "Oupouaout", "Barque sacrée", "Oryx"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPPVzW_tCHqVweu5RrDtV52HZG1tWzvrwxoSBs-ERcshOgZA8Q0R5D3KHznf_JY8viGGL0OLY3YAvsR3uWAiPJC-9Xe55Zjre7PwE7UGYVgmNS_Mngz9JXL5lGHI-XQGuA8OHb9GXOdtyqpBQqGI3nFCw=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce bas-relief peint du temple de Deir el-Médineh offre une vue détaillée des enseignes sacrées et de la proue de la barque divine lors d'une procession. À droite de la scène, on distingue des étendards rituels portés sur de hautes perches, surmontés de figures de chacals (Anubis ou Oupouaout) et d'un faucon perché sur un socle papyriforme. Ces enseignes, véritables emblèmes de pouvoir et de protection, ouvrent la voie à la divinité et rappellent le rôle de gardiens des chemins dévolu à ces créatures dans la cosmogonie thébaine.</p>
+    <p>La partie gauche de l'image présente l'extrémité de la barque sacrée, dont le bois est sculpté avec une grande finesse pour figurer des éléments architecturaux et symboliques. On y voit une série de têtes de divinités ou d'uraeus stylisés qui bordent le pont, tandis que des têtes d'oryx ou de gazelles semblent orner la proue. Ce décor complexe n'est pas uniquement esthétique ; il transforme l'embarcation en un microcosme sacré capable de naviguer entre le monde des hommes et celui des dieux, sous la protection des entités représentées sur les étendards.</p>
+    <p>Les couleurs, bien que partiellement érodées, conservent une richesse remarquable avec des contrastes entre le jaune d'or du bois de la barque et le vert turquoise des colonnettes papyriformes. Les hiéroglyphes inscrits dans des cartouches et des colonnes au-dessus des figures servent de légendes sacrées, identifiant les puissances en mouvement et assurant, par la magie du verbe, la pérennité de la fête religieuse.</p>
+    <p><strong>Siècle :</strong> IIIe siècle av. J.-C. (-210) | <strong>Civilisation :</strong> Égypte ptolémaïque | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_encensement_royal_anubis_disque_solaire_deir_el_medineh",
+    civId: "egypte",
+    periodId: "ptolemaique",
+    civName: "Égypte : Époque ptolémaïque",
+    century: "Époque ptolémaïque (vers -210 av. J.-C. / règne de Ptolémée IV)",
+    centuryDisplay: "IIIe s. av. J.-C.",
+    centuryNumeric: -210,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Encensement royal et Anubis brandissant le disque solaire protecteur (Deir el-Médineh)",
+    site: "Temple d'Hathor et de Maât (Deir el-Médineh, Thèbes)",
+    originSite: "Thèbes-Ouest",
+    locationType: "site",
+    currentLocation: "In situ (Parois du Temple de Deir el-Médineh)",
+    category: "Bas-relief sur grès polychrome",
+    isHighlight: false,
+    chips: ["Époque ptolémaïque", "Deir el-Médineh", "Dieu Anubis", "Encensement", "Disque solaire", "Miroir rituel", "Cultes osiriens"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNDe-4DzeN8eGX-41YfFyy_8ujnLl4LY8KwSAy8GllmfVmKK7l3213ucyUfMaUxbnI-96HAeOlFDpV5X55xGnoaOdTC5myxBLgbTFJ6SeKqyEGZ3iyoinhEQ6Dg1E7IhToiWujUceP_utg_FntATf3kYg=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce relief peint, situé sur les parois du temple de Deir el-Médineh, illustre un échange sacré entre le pharaon et le dieu Anubis, le maître des nécropoles. Le souverain, à droite, est représenté dans une attitude de dévotion active, tendant un brûle-parfum (ou brasier d'encens) vers la divinité. Il porte une coiffe complexe ornée de l'uræus et des vêtements de lin finement plissés, caractéristiques de l'apparat royal ptolémaïque. Ce geste de fumigation vise à purifier l'espace sacré et à attirer la bienveillance du dieu pour assurer la protection des défunts.</p>
+    <p>Face à lui, Anubis est représenté avec sa tête de canidé emblématique sur un corps humain, bien que vêtu d'une longue robe archaïque qui souligne sa fonction de gardien des secrets de l'embaumement. Il tient entre ses mains un grand disque solaire ou un miroir rituel, captant symboliquement la lumière pour éclairer le chemin du défunt dans l'au-delà. La posture des deux protagonistes crée un équilibre dynamique, où le don de l'encens répond à la protection lumineuse du dieu, scellant ainsi l'alliance entre le monde temporel et les puissances de l'invisible.</p>
+    <p>Le travail de sculpture en bas-relief se distingue par sa profondeur et la douceur de ses modelés, typiques de l'art tardif égyptien. On remarque une attention particulière portée aux détails anatomiques et aux parures, comme les bracelets et les colliers, qui conservent des traces de pigments rouges et ocres.</p>
+    <p><strong>Siècle :</strong> IIIe siècle av. J.-C. (-210) | <strong>Civilisation :</strong> Égypte ptolémaïque | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_pharaon_pschent_triade_hathor_horus_edfou_denderah",
+    civId: "egypte",
+    periodId: "ptolemaique",
+    civName: "Égypte : Époque ptolémaïque",
+    century: "Époque ptolémaïque (vers -100 av. J.-C. / Ier s. av. J.-C.)",
+    centuryDisplay: "Ier s. av. J.-C.",
+    centuryNumeric: -100,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Le pharaon au Pschent offrant le sceptre à la triade d'Hathor et Horus d'Edfou (Dendérah)",
+    site: "Temple d'Hathor - Murs extérieurs (Dendérah)",
+    originSite: "Dendérah",
+    locationType: "site",
+    currentLocation: "In situ (Murs extérieurs du Temple de Dendérah)",
+    category: "Relief en creux sur grès",
+    isHighlight: false,
+    chips: ["Époque ptolémaïque", "Dendérah", "Déesse Hathor", "Horus d'Edfou", "Couronne Pschent", "Couronne Hemhem", "Triade divine"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMqhJNGf5ddJsSPM0m2xkzQqeDThJH6f1ecgp85fMQEFALpCRnNf9gnV9g9HSRZ-MpIcUjT6QNfX1bbBUl2O6b2vDWskPeZr2pDUdtRxue8oVxq2PaB1Hfa06yCabZBEyZsvXl-XNQ2YKb5h7-kzHd8Qg=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette scène gravée en bas-relief orne les parois extérieures du temple d'Hathor à Dendérah, l'un des sanctuaires les mieux préservés de la période ptolémaïque en Haute-Égypte. La composition met en scène le pharaon, à gauche, effectuant une offrande rituelle face à une triade divine dominée par la déesse Hathor et le dieu Horus d'Edfou. L'exécution technique témoigne de l'esthétique tardive de l'art égyptien, caractérisée par des formes charnues, des modelés arrondis et une profusion de détails dans les parures et les textes hiéroglyphiques qui encadrent les figures.</p>
+    <p>Le souverain est représenté portant la Double Couronne, la pschent, symbolisant son autorité sur la Haute et la Basse-Égypte. Son attitude est dynamique, le bras tendu vers les divinités pour présenter un objet sacré, probablement un sceptre ou une offrande de nourriture, marquant ainsi son rôle d'intercesseur unique entre le monde des hommes et celui des dieux. Les cartouches situés au-dessus de lui identifient précisément le monarque, souvent associé dans ce temple aux derniers Ptolémées ou aux premiers empereurs romains comme Auguste ou Tibère.</p>
+    <p>Au centre de la triade se tient la déesse Hathor, maîtresse des lieux, identifiable à sa coiffe composée de cornes de vache enserrant le disque solaire. Elle incarne ici la féminité protectrice et la régularité cosmique, tenant dans ses mains le sceptre papyriforme et le signe de vie, l'ânkh. À sa droite, Horus, le dieu à tête de faucon, porte la couronne composite hemhem ou une variante complexe de la double couronne, affirmant sa puissance royale et guerrière.</p>
+    <p>L'ensemble de la paroi est saturé de colonnes de hiéroglyphes qui ne sont pas de simples décorations, mais des textes liturgiques et des formules de bénédiction.</p>
+    <p><strong>Siècle :</strong> Ier siècle av. J.-C. (-100) | <strong>Civilisation :</strong> Égypte ptolémaïque | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_mammisi_niche_ihy_offrande_sistres_denderah",
+    civId: "egypte",
+    periodId: "ptolemaique",
+    civName: "Égypte : Époque ptolémaïque",
+    century: "Époque ptolémaïque (vers -100 av. J.-C. / Ier s. av. J.-C.)",
+    centuryDisplay: "Ier s. av. J.-C.",
+    centuryNumeric: -100,
+    domain: "sculpture_statuaire",
+    artifactType: "Décor architectural (fronton, frise, métope, chapiteau)",
+    title: "Niche axiale du Mammisi : Célébration de la naissance divine d'Ihy et offrande des sistres sacrés (Dendérah)",
+    site: "Temple d'Hathor - Mammisi (Dendérah)",
+    originSite: "Dendérah",
+    locationType: "site",
+    currentLocation: "In situ (Parois intérieures du Mammisi de Dendérah)",
+    category: "Décor architectural et bas-relief sur grès",
+    isHighlight: true,
+    chips: ["Époque ptolémaïque", "Dendérah", "Mammisi", "Enfant-dieu Ihy", "Déesse Hathor", "Sistre sacré", "Théogamie"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOjdTpLGkmcfY_mKL-vUg3FReNS-abUYP7JrI33Ajc_yj506xbemIzTJejuYD_duniqjrQDchkxQXGRo4VwlGmchgUkYwcWsoq47_ojHmmFBA7l7NrrQgNmr6HYb2uluWaKJa-49XGs7saPMtnADo4o8g=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette scène se situe à l’intérieur du Mammisi (ou « maison de naissance ») du complexe de Dendérah, un édifice consacré à la célébration de la naissance divine de l’enfant-dieu Ihy, fils d’Hathor et d’Horus. Les parois intérieures, d'une grande richesse iconographique, illustrent le mystère de la théogamie et de l'enfantement royal. Chaque registre détaille avec précision les étapes rituelles par lesquelles le souverain légitime son pouvoir en s'assimilant au fils de la déesse, garantissant ainsi la pérennité de la dynastie à travers une protection divine directe.</p>
+    <p>L'architecture interne est conçue pour magnifier la présence de la divinité, comme en témoigne la niche centrale qui servait de réceptacle à la statue de culte lors des cérémonies. Les reliefs qui l'entourent montrent le pharaon offrant des présents symboliques, tels que des sistres (instruments sacrés d'Hathor) ou de la nourriture, afin d'apaiser la déesse et d'assurer sa bienveillance. La finesse des gravures ptolémaïques est ici remarquable, avec des visages aux traits doux et des corps aux proportions généreuses qui caractérisent le style de cette époque tardive.</p>
+    <p>Les registres superposés fonctionnent comme une narration liturgique continue où les dieux et les déesses de l'Égypte entière sont convoqués pour assister et protéger la naissance sainte. Malgré l'altération naturelle des surfaces et les traces de suie anciennes, la précision des détails ornementaux demeure exceptionnelle.</p>
+    <p><strong>Siècle :</strong> Ier siècle av. J.-C. (-100) | <strong>Civilisation :</strong> Égypte ptolémaïque | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_mammisi_allaitement_divin_lit_parade_leonin_denderah",
+    civId: "egypte",
+    periodId: "ptolemaique",
+    civName: "Égypte : Époque ptolémaïque",
+    century: "Époque gréco-romaine (Ier s. av. J.-C. / Ier s. ap. J.-C.)",
+    centuryDisplay: "Ier s. av. J.-C.",
+    centuryNumeric: -50,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Allaitement divin de l'enfant-dieu Ihy sur le lit de parade léonin (Mammisi de Dendérah)",
+    site: "Temple d'Hathor - Mammisi (Dendérah)",
+    originSite: "Dendérah",
+    locationType: "site",
+    currentLocation: "In situ (Parois du Mammisi de Dendérah)",
+    category: "Bas-relief sur grès",
+    isHighlight: false,
+    chips: ["Époque ptolémaïque", "Dendérah", "Mammisi", "Allaitement divin", "Lit léonin", "Enfant-dieu Ihy", "Collier ousekh"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPfhJreByB5Xi9dFhnWP1bJ9X7QXr31bc242dv1EDdAXcE-TSiAVWnY-a-iAccXzdkSF9MFH1s50h2ktSSlXiVZwHzLbIkFLlVQtB9q9309A5VUyEoTCBRMix88FttUA3IJgh5WtWQo8fufcyxqSxmx3A=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette paroi du Mammisi de Dendérah offre une illustration remarquable du cycle de la naissance divine, thème central de cet édifice. Le relief détaille les soins prodigués à l'enfant-dieu, souvent identifié à Ihy, par une assemblée de divinités infirmières et protectrices. On y voit notamment la déesse allaitant le jeune dieu sur un lit de parade aux pieds léonins, une iconographie spécifique qui souligne la transmission de la substance divine et de la légitimité royale au nouveau-né.</p>
+    <p>La composition s'organise selon une structure narrative rigoureuse, typique de l'époque gréco-romaine, où les figures sont disposées sur des banquettes rituelles ornées. L'attention portée aux détails anatomiques et aux parures, comme les couronnes complexes et les colliers ousekh, témoigne de la virtuosité des artisans de l'époque. Chaque personnage est entouré de colonnes de hiéroglyphes qui consignent les paroles prononcées lors du rituel, transformant la pierre en une liturgie vivante destinée à protéger la croissance de l'héritier divin.</p>
+    <p>Au-delà de l'aspect religieux, cette scène possède une forte dimension politique, car elle servait à confirmer l'origine divine du pharaon régnant. En se faisant représenter dans les mêmes attitudes que le jeune Ihy, le souverain affirmait qu'il était lui-même le fils d'Hathor, nourri et reconnu par les dieux.</p>
+    <p><strong>Siècle :</strong> Ier siècle av. J.-C. (-50) | <strong>Civilisation :</strong> Égypte ptolémaïque | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_mammisi_romain_faucon_horus_papyrus_vanneau_denderah",
+    civId: "egypte",
+    periodId: "romaine",
+    civName: "Égypte : Époque romaine",
+    century: "Époque romaine (Ier s. av. J.-C. - Ier s. ap. J.-C. / règne d'Auguste)",
+    centuryDisplay: "Ier s. ap. J.-C.",
+    centuryNumeric: 10,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Le faucon Horus solaire sur ombelle de papyrus et oiseau limicole sacré (Mammisi romain d'Auguste à Dendérah)",
+    site: "Temple d'Hathor - Mammisi romain (Dendérah)",
+    originSite: "Dendérah",
+    locationType: "site",
+    currentLocation: "In situ (Parois extérieures du Mammisi romain, Dendérah)",
+    category: "Bas-relief sur grès",
+    isHighlight: false,
+    chips: ["Époque romaine", "Dendérah", "Mammisi romain", "Auguste", "Horus faucon", "Vanneau", "Ombelle de papyrus"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczO6Z6x_mbV_8dKEuvCxoIgr8PbonIIns7etaOBVECN14edXZ0QbrmZyKJhgIR1Qw7TCk42j_qmYAZFDjK5PheCYV4Qpsm7aPD6bEbRvhI1aZ_iCKGuCU1JebSB52AhQ6TMscVNDFBlFUhlUpq5tq6i81g=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette notice détaille un bas-relief situé sur les parois extérieures du mammisi romain du complexe de Dendérah, dédié à la déesse Hathor. Cette structure, construite sous le règne d'Auguste, servait de lieu de célébration pour la naissance divine de l'enfant-dieu Ihy, réaffirmant ainsi le lien sacré entre le pharaon et les puissances célestes. La finesse de la taille dans le grès témoigne de la persistance des canons esthétiques égyptiens durant la période gréco-romaine.</p>
+    <p>L'œuvre met en scène une rencontre hautement symbolique entre deux formes aviaires de la divinité. À droite, un faucon aux ailes déployées, coiffé du disque solaire, représente Horus de Behdet ou une forme solaire d'Ihy. Il repose sur un bouquet de papyrus en pleine floraison, symbolisant la fertilité des marais primordiaux d'où émerge la vie. Face à lui, sur la gauche, se tient un oiseau au plumage distinct, probablement un vanneau ou une autre espèce limicole, juché sur une structure architecturale schématisée évoquant un édicule sacré.</p>
+    <p>La composition souligne l'harmonie entre la Haute et la Basse-Égypte par l'utilisation de motifs végétaux tels que le papyrus, tout en illustrant la protection divine entourant le lieu de naissance. La précision des détails, notamment dans le rendu des plumes et des tiges de plantes, démontre la maîtrise technique des artisans de Dendérah sous le principat d'Auguste.</p>
+    <p><strong>Siècle :</strong> Ier siècle ap. J.-C. (10) | <strong>Civilisation :</strong> Égypte gréco-romaine | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+   {
     id: "sculpture_angle_mural_litanie_visuelle_procession_edfou",
     civId: "egypte",
     periodId: "ptolemaique",
