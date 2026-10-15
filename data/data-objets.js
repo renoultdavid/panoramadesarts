@@ -6,6 +6,58 @@ window.ART_OBJECTS = window.ART_OBJECTS || [];
 window.ART_OBJECTS.push(
 
   {
+    id: "stele_ramses_ii_min_amon_louvre",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (v. -1250 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1250,
+    domain: "sculpture_statuaire",
+    artifactType: "Monolithe / Stèle sculptée",
+    title: "Stèle cintrée de Ramsès II en adoration devant Min-Amon",
+    site: "Musée du Louvre (Paris / prov. Égypte)",
+    originSite: "Thèbes ou Haute-Égypte",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre (Paris)",
+    category: "Stèle votive royale & privée",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Ramsès II", "Min-Amon ithyphallique", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNW6mtraFBrPgQpJZLE-XZlGgbZcWMmc8dVV5HuA1vx7rUPUThw8CMcuVdmubT5lPVWI2KFk0J1dAjE30a_DWUVgMynA-5s9DVSNuTVp3cfT3-8FJWsM7eScyLAMB5FsCjfAGDWalgNsRUOySCRKud9sA=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette stèle cintrée en calcaire, structurée en deux registres distincts, offre un témoignage précieux de la piété royale et privée sous le règne de Ramsès II. L'organisation de la pierre permet de lier le monde des dieux et du souverain à celui des hauts fonctionnaires chargés de leur culte.</p>
+    <p>Dans le registre supérieur, la scène principale illustre le pharaon Ramsès II (à droite), reconnaissable à son profil et à sa couronne, rendant hommage au dieu Min-Amon (à gauche). Le dieu est représenté sous sa forme ithyphallique traditionnelle, debout sur un socle, le bras levé tenant un fléau et coiffé de deux hautes plumes. Entre eux se trouve une table d'offrandes richement garnie, surmontée de vases à libation et de fleurs de lotus. Les cartouches royaux surmontent la scène, légitimant l'action du roi comme intermédiaire privilégié entre les hommes et les dieux.</p>
+    <p>Le registre inférieur est consacré au dédicant de la stèle, probablement un scribe ou un dignitaire de haut rang, agenouillé en signe d'adoration. Il fait face à plusieurs colonnes de textes hiéroglyphiques qui détaillent ses titres et ses prières. Cette partie de la stèle sert à assurer au défunt ou au vivant une participation éternelle aux offrandes présentées sur le registre supérieur. Le style est caractéristique de la période ramesside, avec des reliefs incisés profonds qui privilégient la clarté du message religieux et la lisibilité des symboles de pouvoir.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1250) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Tombes & Rituels.</p>`
+  },
+  {
+    id: "stele_irynefer_tt290_deir_el_medina_louvre",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (v. -1250 av. J.-C. / époque ramesside)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1250,
+    domain: "sculpture_statuaire",
+    artifactType: "Monolithe / Stèle sculptée",
+    title: "Stèle cintrée à trois registres d'Irynefer (TT 290)",
+    site: "Musée du Louvre (Paris / prov. Deir el-Médineh)",
+    originSite: "Tombe d'Irynefer - TT 290 (Deir el-Médineh, Thèbes-Ouest)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre (Paris)",
+    category: "Stèle funéraire de dévotion",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Deir el-Médineh", "Irynefer (TT 290)", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMyThQmsREHmujPS5sZau9kiAEQ0nKA49iDHml7EcPp_zMawMwW3-2-8tlI8XOUdmnzFtWYjduz2UzmpKxxjJYhRMQShuDtcmRMp2Ro2iLaXsvkPoX5wS254vXapERvWv5cqR4FC1yj1xM5eHBXobed2Q=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette stèle cintrée à trois registres est un monument funéraire typique de la XIXe dynastie, provenant de la tombe d'Irynefer (TT 290) à Deir el-Medina. Sa forme arrondie en haut symbolise la course du soleil et la voûte céleste, assurant la protection divine sur l'ensemble du monument.</p>
+    <p>Le registre supérieur, ou cintre, présente deux yeux Oudjat entourant un signe "chen" (l'éternité), encadrés par deux chacals représentant le dieu Anubis, gardien de la nécropole. Ce niveau assure la protection magique du défunt.</p>
+    <p>Le registre médian est la scène principale de dévotion. On y voit Irynefer et sa famille en adoration devant des divinités majeures. À gauche, le dieu Ptah est représenté dans son naos, tandis qu'à droite, Osiris et probablement Isis reçoivent les hommages. Les personnages sont vêtus de la robe plissée ramesside et portent des cônes d'onguent sur leurs perruques, signes de fête et de régénération.</p>
+    <p>Le registre inférieur montre les membres de la famille d'Irynefer assis devant une table d'offrandes richement garnie de pains, de fruits et de fleurs de lotus. Les textes hiéroglyphiques qui séparent les personnages précisent leurs noms et leurs titres, souvent liés aux travaux de la "Place de Vérité" (la Vallée des Rois).</p>
+    <p>Placée dans la chapelle de la tombe, cette stèle servait de point de contact entre le monde des vivants et celui des morts, permettant à la famille de réciter les formules d'offrandes pour nourrir l'esprit du défunt.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1250) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Tombes & Rituels.</p>`
+  },
+   {
     id: "cartouche_ramses_ii_relief_creux_louxor",
     civId: "egypte",
     periodId: "nouvel_empire",
