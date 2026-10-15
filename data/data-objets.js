@@ -6,6 +6,135 @@ window.ART_OBJECTS = window.ART_OBJECTS || [];
 window.ART_OBJECTS.push(
 
   {
+    id: "relief_mehu_tableau_offrandes_procession_scribes_saqqarah",
+    civId: "egypte",
+    periodId: "ancien_empire",
+    civName: "Égypte : Ancien Empire",
+    century: "VIe dynastie (v. -2300 av. J.-C. / règne de Téti)",
+    centuryDisplay: "XXIIIe s. av. J.-C.",
+    centuryNumeric: -2300,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Tableau compartimenté des offrandes sacrées et procession des scribes (Mastaba de Mehu)",
+    site: "Mastaba de Mehu (Saqqarah)",
+    originSite: "Saqqarah",
+    locationType: "site",
+    currentLocation: "In situ (Mastaba de Mehu, Saqqarah)",
+    category: "Bas-relief en calcaire polychrome",
+    isHighlight: false,
+    chips: ["VIe dynastie", "Mehu", "Téti", "Saqqarah", "Tableau d'offrandes", "Scribes", "Fond gris-bleu"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPHE3bcfOQqnbMEE7Nn7k1d6gpElrEQyyNFJjh95Caa63HRbIhLEJeFr26Ar5Y26bXK1ndSb3dxZQUj9DViUsBUCLgc4YrjYPY0BMIix1a0fUtYabhw0fApegyYVea9kbShCJn373SkkSWBERyDOYDFdg=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette scène murale provient de la sépulture de Mehu, un haut dignitaire ayant servi sous les premiers rois de la VIe dynastie, notamment Téti. Situé dans la nécropole de Saqqarah, ce mastaba est renommé pour la vivacité exceptionnelle de ses couleurs et la finesse de ses reliefs. Mehu portait le titre prestigieux de vizir, faisant de lui l'un des personnages les plus puissants de l'Ancien Empire, ce qui justifie l'ampleur et la qualité artistique de sa dernière demeure.</p>
+    <p>Le registre supérieur présente une liste d'offrandes méticuleusement organisée sous forme de tableau. Chaque compartiment contient le nom d'un produit, souvent des huiles sacrées, des étoffes ou des denrées alimentaires, surmontant une représentation miniature de personnages agenouillés présentant des bols. Ce dispositif rituel visait à garantir magiquement la subsistance éternelle du défunt dans l'au-delà, même si les offrandes physiques réelles venaient à manquer.</p>
+    <p>Sous ce répertoire administratif du sacré, la composition s'anime avec une scène de procession. Des porteurs d'offrandes et des scribes sont représentés avec le canon typique de l'art égyptien : les visages de profil mais l'œil de face, et les épaules larges. On remarque la précision des détails, notamment dans le rendu des pagnes blancs plissés et la musculature des bras. La couleur ocre rouge de la peau des hommes contraste avec le fond gris bleuté, créant un dynamisme visuel remarquable.</p>
+    <p>L'état de conservation de cette paroi permet d'apprécier la technique du relief en creux et la superposition des pigments minéraux. Les hiéroglyphes qui ponctuent la scène identifient les acteurs et les objets, liant indissociablement l'image et le verbe.</p>
+    <p><strong>Siècle :</strong> XXIIIe siècle av. J.-C. (-2300) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "relief_mehu_empilement_offrandes_porteurs_palmipedes_saqqarah",
+    civId: "egypte",
+    periodId: "ancien_empire",
+    civName: "Égypte : Ancien Empire",
+    century: "VIe dynastie (v. -2300 av. J.-C. / règne de Téti)",
+    centuryDisplay: "XXIIIe s. av. J.-C.",
+    centuryNumeric: -2300,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Accumulation monumentale des victuailles et porteurs de palmipèdes vivants (Mastaba de Mehu)",
+    site: "Mastaba de Mehu (Saqqarah)",
+    originSite: "Saqqarah",
+    locationType: "site",
+    currentLocation: "In situ (Mastaba de Mehu, Saqqarah)",
+    category: "Bas-relief en calcaire polychrome",
+    isHighlight: false,
+    chips: ["VIe dynastie", "Mehu", "Téti", "Saqqarah", "Perspective d'aspect", "Victuailles", "Oies et canards"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOHSYxh7RkM69a-qB4GUiCndgQzxcd1qdIglQkZ6az1hZZ26nlrMkehM_3I7ocO5saGnhtk5d1AlajpCYlKSOKfyxNbzCpJcioDwXFPamOpwGyHuAKtj2R9XTYKKwwqCGgwy602uOf9iS4Y4QMhukqbWw=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette extension de la paroi décorée dans le mastaba de Mehu à Saqqarah offre une vue d'ensemble sur l'accumulation monumentale des biens destinés au défunt. La composition juxtapose des registres de listes canoniques à de grandes zones d'empilement d'offrandes, créant un effet d'abondance visuelle. Ces scènes, situées dans la chapelle funéraire, servaient d'interface entre le monde des vivants et celui des morts, permettant au Ka du vizir de se nourrir éternellement par la simple évocation graphique des produits.</p>
+    <p>La partie gauche de l'image présente des étals chargés de victuailles représentées avec un grand réalisme chromatique. On y distingue des quartiers de viande, des volailles plumées, des pains de formes variées et des vases scellés contenant probablement du vin ou de la bière. La disposition verticale de ces objets ne reflète pas une pyramide physique, mais suit la convention de la perspective d'aspect égyptienne, où les éléments sont empilés les uns sur les autres pour que chaque pièce soit parfaitement identifiable et « utilisable » dans l'au-delà.</p>
+    <p>En bas de la paroi, une scène de porteurs de gibier d'eau illustre l'apport actif des richesses issues des domaines de Mehu. Les serviteurs transportent des oies et des canards vivants, capturés dans les marais du Nil, soulignant le rôle du vizir en tant que grand propriétaire terrien. Le mouvement des personnages, orienté vers le centre de la chapelle, crée une dynamique de procession qui guide l'énergie vitale vers la fausse-porte.</p>
+    <p>La préservation des pigments naturels est ici saisissante, notamment les ocres rouges pour la chair masculine, le bleu égyptien pour certains détails et les jaunes terreux pour les produits céréaliers.</p>
+    <p><strong>Siècle :</strong> XXIIIe siècle av. J.-C. (-2300) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "relief_mehu_repas_funeraire_degustation_table_pains_saqqarah",
+    civId: "egypte",
+    periodId: "ancien_empire",
+    civName: "Égypte : Ancien Empire",
+    century: "VIe dynastie (v. -2300 av. J.-C. / règne de Téti)",
+    centuryDisplay: "XXIIIe s. av. J.-C.",
+    centuryNumeric: -2300,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Le banquet éternel du vizir Mehu : Repas rituel assis devant la table aux tranches de pain",
+    site: "Mastaba de Mehu (Saqqarah)",
+    originSite: "Saqqarah",
+    locationType: "site",
+    currentLocation: "In situ (Mastaba de Mehu, Saqqarah)",
+    category: "Bas-relief en calcaire polychrome",
+    isHighlight: true,
+    chips: ["VIe dynastie", "Mehu", "Téti", "Saqqarah", "Repas funéraire", "Siège à pattes de lion", "Table aux pains", "Ka"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP8Vwj_OQFwzczlG2CUP-4AkXe1AbZftS7Bb-Ami6w4PVXCn8XeKNZNEEwlXj_zodq6BUC1HN7U-Dp-xdkDgbGFvAzRyo46-9kmaKjAp7A_3B0GaK29sMqaFRTSlFZLu86z_r7nFJTsJzmnQubM8cMx8A=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette section magistrale du mastaba de Mehu illustre le moment culminant du rituel funéraire : le repas éternel du défunt. Le vizir est représenté à une échelle héroïque, assis sur un siège à pieds de lion, portant une perruque soigneusement détaillée et un large collier ousekh. Sa main est portée à son visage dans un geste de dégustation, tandis que l'autre repose près d'une table d'offrandes monumentale. Cette table est surmontée de hautes tranches de pain stylisées, dont la répétition verticale crée un rythme visuel puissant au centre de la composition.</p>
+    <p>Autour de la figure centrale de Mehu, l'espace est saturé d'images de nourriture et de boissons destinées à nourrir son Ka. On observe des empilements de jarres de vin scellées, des pièces de viande de boucherie et des volailles préparées. La technique utilisée est celle du relief plat, rehaussée par une polychromie dont la fraîcheur est exceptionnelle pour une œuvre de la VIe dynastie. Le contraste entre le rouge sombre de la peau du vizir et les teintes variées des victuailles souligne son statut de bénéficiaire de ces richesses terrestres transformées en offrandes spirituelles.</p>
+    <p>Dans les registres adjacents, des porteurs d'offrandes de plus petite taille s'activent pour maintenir l'abondance. Certains transportent des plateaux chargés de pains, d'autres mènent des oiseaux par les ailes. Une attention particulière est portée aux détails des récipients et des paniers tressés, témoignant de l'habileté des artisans de Saqqarah à rendre la texture des matériaux. L'ensemble forme un tableau complexe où l'écriture hiéroglyphique et l'image fusionnent pour assurer la subsistance post-mortem du maître.</p>
+    <p><strong>Siècle :</strong> XXIIIe siècle av. J.-C. (-2300) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "funeraire_fausse_porte_chapelle_mehu_saqqarah",
+    civId: "egypte",
+    periodId: "ancien_empire",
+    civName: "Égypte : Ancien Empire",
+    century: "VIe dynastie (v. -2300 av. J.-C. / règne de Téti)",
+    centuryDisplay: "XXIIIe s. av. J.-C.",
+    centuryNumeric: -2300,
+    domain: "funeraire",
+    artifactType: "Fausse porte",
+    title: "Stèle fausse-porte imitant le granit rouge et perspective du couloir cultuel (Mastaba de Mehu)",
+    site: "Mastaba de Mehu (Saqqarah)",
+    originSite: "Saqqarah",
+    locationType: "site",
+    currentLocation: "In situ (Chapelle cultuelle du Mastaba de Mehu, Saqqarah)",
+    category: "Stèle fausse-porte en calcaire peint",
+    isHighlight: true,
+    chips: ["VIe dynastie", "Mehu", "Téti", "Saqqarah", "Fausse porte", "Imitation granit rouge", "Ka"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczM1ihx1qLfuvjDSGqsVt0TEdSVdoj_aWqrIdkXwQl40j2uJZWq45BO4l3LmTI3M5jIYY0IM18-LmvPPxv-OPLMOnXgvGS01jVbqInqjnlS-A6ermct94Yu_4rGnOcyYuYy1XNXPeXOByioRT6PLPMpdlw=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette perspective architecturale nous place au cœur de la chapelle de culte de Mehu, face à l'élément le plus sacré du mastaba : la fausse-porte. Ce monument de pierre calcaire, peint pour imiter le granit rouge précieux, servait de passage symbolique entre le royaume des morts et celui des vivants. C'est par cette ouverture spirituelle que le Ka (l'énergie vitale) du vizir pouvait émerger pour consommer les offrandes déposées sur la table devant lui, assurant ainsi sa survie dans l'au-delà.</p>
+    <p>Le linteau et les montants de la fausse-porte sont recouverts de colonnes de hiéroglyphes finement gravées, déclinant les titres officiels et les privilèges de Mehu. On y retrouve des formules d'offrandes invoquant les dieux Anubis et Osiris. Au centre, une scène miniature représente le défunt assis devant une table chargée de pains verticaux, une iconographie classique de l'Ancien Empire qui résume l'essence même du rituel funéraire : le repas éternel du dignitaire.</p>
+    <p>Les parois latérales de ce couloir étroit créent une impression de mouvement perpétuel vers la fausse-porte. Des registres superposés montrent de longues processions de porteurs d'offrandes, chacun apportant les produits des domaines agricoles du vizir. La répétition de ces silhouettes, portant des corbeilles de fruits, des vases et du bétail, symbolise un flux ininterrompu de richesses. L'utilisation du fond sombre sur ces murs latéraux fait ressortir la blancheur des pagnes et l'ocre rouge des corps, accentuant la profondeur de la chapelle.</p>
+    <p>Cette mise en scène magistrale de la VIe dynastie à Saqqarah illustre comment l'art et l'architecture s'unissaient pour vaincre la mort et garantir au vizir une place pérenne dans la mémoire des hommes.</p>
+    <p><strong>Siècle :</strong> XXIIIe siècle av. J.-C. (-2300) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "relief_ramose_banquet_funeraire_meplat_calcaire_blanc_tt55",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1360 av. J.-C. / règnes Amenhotep III - Amenhotep IV)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1360,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Relief en méplat du banquet funéraire et rituels de purification (Tombe de Ramose TT55)",
+    site: "Tombe de Ramose - TT55 (Cheikh Abd el-Gourna, Thèbes)",
+    originSite: "Cheikh Abd el-Gourna (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe de Ramose TT55, Thèbes)",
+    category: "Bas-relief en calcaire fin non peint",
+    isHighlight: true,
+    chips: ["XVIIIe dynastie", "Ramose TT55", "Amenhotep III", "Cheikh Abd el-Gourna", "Méplat classique", "Calcaire blanc"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPLx7bpMTgNX5PBT6iZoi2ABHbEhZ6YAUc8VMVNYSSqXNhr76hpS60ha1HBOBisSiGtmjzpSeO0ChyzDnS9VBI17Z4lA2Ug1PRrR7prWWW7SGOE-BGwaKiAa2DUs_sVFvJiyAavWQAiGTLmKJkPC9CG0A=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce relief exceptionnel provient de la tombe de Ramose (TT55), située dans la nécropole thébaine à Cheikh Abd el-Gourna. Ramose occupait la fonction prestigieuse de Gouverneur de Thèbes et Vizir sous les règnes d'Amenhotep III et d'Amenhotep IV (le futur Akhenaton). Cette œuvre est mondialement célèbre pour représenter l'apogée du style classique de la XVIIIe dynastie, juste avant la rupture artistique imposée par la période amarnienne, offrant un mélange fascinant de perfection traditionnelle et de prémices de naturalisme.</p>
+    <p>La scène, sculptée dans un calcaire fin et d'une blancheur éclatante, se distingue par une technique de relief en méplat d'une subtilité rare. Contrairement aux gravures profondes des temples plus tardifs, les volumes sont ici suggérés par des incisions d'une précision chirurgicale et des modulations de surface quasi imperceptibles. Le personnage central est représenté avec une élégance souveraine, arborant une perruque aux boucles minutieusement détaillées, des yeux en amande soulignés par un trait de fard et des bijoux raffinés qui témoignent de son rang social élevé.</p>
+    <p>L'iconographie du relief illustre le banquet funéraire ou les rites de purification indispensables au passage vers l'au-delà. On y voit des porteurs d'offrandes et des proches de Ramose accomplissant des gestes rituels, comme l'aspersion d'eau lustrale ou la présentation de fleurs de lotus. La fluidité des lignes, notamment dans le rendu des mains et des profils, confère à l'ensemble une atmosphère de sérénité et de dignité spirituelle. L'absence de peinture sur cette paroi accentue la pureté du dessin et permet d'apprécier la virtuosité des sculpteurs royaux de l'époque.</p>
+    <p>La tombe de Ramose est un document historique unique car elle est restée inachevée suite au départ de la cour vers Amarna. Elle offre ainsi aux archéologues différents stades de travail, allant de l'esquisse au pinceau au relief parfaitement poli. Ce fragment de paroi demeure l'un des plus beaux exemples de l'esthétique du « Nouvel Empire », où l'art égyptien atteint un équilibre parfait entre l'idéalisation divine et la sensibilité humaine.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1360) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+   {
     id: "relief_kagemni_fourre_papyrus_oiseaux_envol_saqqarah",
     civId: "egypte",
     periodId: "ancien_empire",
