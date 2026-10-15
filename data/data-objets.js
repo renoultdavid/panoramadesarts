@@ -6,6 +6,406 @@ window.ART_OBJECTS = window.ART_OBJECTS || [];
 window.ART_OBJECTS.push(
 
   {
+    id: "relief_ramose_procession_porteurs_corbeilles_tt55",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1360 av. J.-C. / règne d'Amenhotep III)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1360,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Procession individualisée des porteurs d'offrandes et corbeilles de fruits (Tombe de Ramose TT55)",
+    site: "Tombe de Ramose - TT55 (Cheikh Abd el-Gourna, Thèbes)",
+    originSite: "Cheikh Abd el-Gourna (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe de Ramose TT55, Thèbes)",
+    category: "Bas-relief en calcaire fin non peint",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Ramose TT55", "Amenhotep III", "Méplat classique", "Porteurs d'offrandes", "Calcaire blanc"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczM8RLX4fSe8YZH-mTvkNE9mMbLPBz1Oc4DAbiu9JbD7xgsScF7YYsU7Qu37yrbeSdzgg_OZ3S6IshQ4Xieq4Oby5tRT28ZNlQqituAlyvAZwC9bnu6Zoaklg-b9avUjUQWJSoCmQi2wXv8qc1bYwdWtGQ=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce registre sculpté, provenant de la tombe du vizir Ramose (TT55) à Thèbes, illustre la perfection esthétique atteinte sous le règne d'Amenhotep III. La scène dépeint une procession de porteurs d'offrandes, probablement des serviteurs ou des membres de la famille du défunt, participant au banquet funéraire. Chaque figure est traitée avec une individualité frappante, loin de la répétition mécanique que l'on pourrait attendre, témoignant du talent des artistes de la cour thébaine.</p>
+    <p>Le relief se distingue par une finesse d'exécution monumentale dans un calcaire de très haute qualité. Les porteurs sont représentés avec des traits d'une douceur extrême, des yeux en amande et des crânes rasés ou portant des perruques courtes, typiques des officiants. Ils transportent des produits précieux destinés à nourrir le ka (l'énergie vitale) du défunt : on distingue des corbeilles de fruits, des oiseaux de basse-cour et des vases à libations, le tout rendu avec un sens du détail naturaliste qui préfigure la révolution artistique amarnienne.</p>
+    <p>La technique du relief en méplat est ici poussée à son paroxysme. Les contours ne sont pas simplement gravés, ils sont modelés avec une telle subtilité que les muscles des bras, le plissé des pagnes et la texture des paniers tressés semblent vibrer sous la lumière. L'absence de polychromie permet de concentrer le regard sur la pureté de la ligne et l'harmonie des proportions.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1360) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "relief_ramose_porteurs_agenouilles_premices_amarna_tt55",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1360 av. J.-C. / règnes Amenhotep III - Amenhotep IV)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1360,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Porteurs d'offrandes agenouillés aux crânes étirés annonçant l'art amarnien (Tombe de Ramose TT55)",
+    site: "Tombe de Ramose - TT55 (Cheikh Abd el-Gourna, Thèbes)",
+    originSite: "Cheikh Abd el-Gourna (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe de Ramose TT55, Thèbes)",
+    category: "Bas-relief en calcaire fin non peint",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Ramose TT55", "Prémices amarniennes", "Porteurs agenouillés", "Méplat", "Légendes rituelles"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMgKKOSjwMA5BgJGNW1GIxvyJ6WqH2Nga-nvsUU408nTWCKK3CzwtWVFAHqU0mwuOxVPqyrhrfy13XScngaXFXtdZDrBxuZmGPsrx_IQ5QXlVpLTYXBec9ltdxHWei5jCw__tiVu3_tAvy1Uxam9VHVKA=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette paroi illustre la période de transition stylistique majeure de l'Égypte ancienne. Ramose, qui occupait la fonction prestigieuse de vizir et de gouverneur de la ville, a fait décorer sa sépulture par les meilleurs artisans de l'époque, comme en témoigne la précision chirurgicale du trait.</p>
+    <p>Le relief représente une file de porteurs d'offrandes agenouillés, participant aux rites funéraires destinés à assurer la subsistance du défunt dans l'au-delà. Chaque personnage porte des plateaux chargés de pains, de fleurs de lotus et de jarres scellées. On observe une attention particulière portée à la physionomie : les crânes sont légèrement étirés et les traits du visage sont d'une douceur remarquable, caractéristiques des prémices de l'art amarnien. La technique du bas-relief est ici poussée à son apogée, jouant sur des variations d'épaisseur millimétriques pour créer du volume et de la vie.</p>
+    <p>Au-dessus des porteurs, une rangée de hiéroglyphes finement ciselés détaille la nature des offrandes et les titres des participants. L'absence de polychromie souligne ici la pureté de la sculpture et la maîtrise de la ligne, marquant le passage d'un classicisme rigoureux à un naturalisme plus fluide et expressif.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1360) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "relief_ramose_famille_banquet_geste_affection_tt55",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1360 av. J.-C. / règne d'Amenhotep III)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1360,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Membres de la famille au banquet funéraire et geste d'affection familiale (Tombe de Ramose TT55)",
+    site: "Tombe de Ramose - TT55 (Cheikh Abd el-Gourna, Thèbes)",
+    originSite: "Cheikh Abd el-Gourna (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe de Ramose TT55, Thèbes)",
+    category: "Bas-relief en calcaire fin non peint",
+    isHighlight: true,
+    chips: ["XVIIIe dynastie", "Ramose TT55", "Banquet funéraire", "Collier ousekh", "Ligne de contour", "Geste d'affection"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPXskVpVDgKmtI541wCHGYStUMJmAaKMCDBt3gY5LnLe9j5lu2ulOUyF4B7Vn5Oji2Et3PPVhYOT-79hPLMGjm89yQryyxGf-4PaCfSoxM2hWpsIRSaKs30_rTdrNnip0fKIWjZzyFdHc3nrDP5OgZ9VQ=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce relief en bas-relief, issu de la paroi sud de la chapelle funéraire du vizir Ramose, présente deux membres de sa famille participant au banquet funéraire. L'œuvre, sculptée dans un calcaire fin, illustre la perfection esthétique atteinte à la fin du règne d'Amenhotep III. Le personnage central est représenté avec les attributs de la haute noblesse : une perruque élaborée aux mèches méticuleusement ciselées, un large collier ousekh et des vêtements en lin dont la transparence est suggérée par la subtilité du relief. La précision du rendu de l'œil et la courbe délicate des lèvres témoignent d'un art du portrait d'une élégance inégalée.</p>
+    <p>La scène est surmontée et entourée de colonnes de hiéroglyphes d'une grande pureté, qui servent à la fois de décor et de support liturgique pour détailler les prières d'offrandes. On remarque également le geste délicat de la main de la figure à gauche, touchant l'épaule du personnage principal, un signe d'affection et de lien familial fréquent dans l'iconographie funéraire égyptienne.</p>
+    <p>L'intérêt majeur de ce panneau réside dans la technique de la « ligne de contour », révélant la virtuosité absolue des sculpteurs de cour dans le calcaire nu.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1360) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "relief_khaemhat_trone_royal_captifs_lion_tt57",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1360 av. J.-C. / règne d'Amenhotep III)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1360,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Le trône royal d'Amenhotep III soutenu par les captifs liés et tête de lion (Tombe de Khaemhat TT57)",
+    site: "Tombe de Khaemhat - TT57 (Cheikh Abd el-Gourna, Thèbes)",
+    originSite: "Cheikh Abd el-Gourna (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe de Khaemhat TT57, Thèbes)",
+    category: "Relief en creux en calcaire",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Khaemhat TT57", "Amenhotep III", "Trône royal", "Captifs liés", "Tête de lion"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNI32V8nj8DM58UtabcAuRAY2P9qrFtJnlt1BKtwY_VHXnvIGAwZh8anvfMXRRVLDlvmLq2P490v1bwEFHCqUesYTAs-fT0O4epjLyceCo4dKRWaoR6p9HlsmunjeJpv2YO1pCYd7holKdXuwsKGxnHVg=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette œuvre est un relief en calcaire sculpté en creux provenant de la sépulture de Khaemhat, également connu sous le nom de Mahou. Ce haut fonctionnaire occupait la charge prestigieuse de scribe royal et d'inspecteur des greniers royaux sous le règne d'Amenhotep III, durant la XVIIIe dynastie du Nouvel Empire. La scène est issue de la tombe thébaine TT57, située dans la nécropole de Cheikh Abd el-Gourna.</p>
+    <p>La composition illustre une thématique classique de l'iconographie impériale où le souverain est magnifié par sa domination sur les forces du chaos. On y distingue les détails d'un trône royal richement orné, supporté par des figures de captifs liés, symbolisant les peuples étrangers soumis à l'autorité de Pharaon. À côté du siège, une tête de lion, emblème de la puissance guerrière et protectrice du roi, souligne la nature divine et invincible du monarque.</p>
+    <p>L'inscription hiéroglyphique visible sur la gauche de la paroi fournit des précisions sur l'identité et les titres du défunt, tout en formulant des vœux pour son passage dans l'au-delà. Khaemhat, en tant qu'administrateur des ressources agricoles, était un pilier de l'économie égyptienne, et sa tombe reflète par son luxe la proximité qu'il entretenait avec le pouvoir central.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1360) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "relief_khaemhat_pharaon_triomphant_pietinement_ennemis_tt57",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1360 av. J.-C. / règne d'Amenhotep III)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1360,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Le pharaon victorieux soumettant les ennemis de l'Égypte et maintien de la Maât (Tombe de Khaemhat TT57)",
+    site: "Tombe de Khaemhat - TT57 (Cheikh Abd el-Gourna, Thèbes)",
+    originSite: "Cheikh Abd el-Gourna (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe de Khaemhat TT57, Thèbes)",
+    category: "Relief en creux en calcaire",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Khaemhat TT57", "Amenhotep III", "Triomphe royal", "Cartouches", "Maât"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPtT0OGP3MMQUPbGb-tLP1CEs-dPoyzX1C3i1OrWQ9zEwrwEPN-yv-ikm7DpaU4ybuZL2uK1yfl1LAOu57EJO6_MbIpmje2OypiP9ZcPOIp13lXZ0InSrI-Gcu2rCeS3jvyOWH-PtxbPE0szAaxHuPwwg=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette œuvre est un relief en calcaire sculpté en creux provenant de la tombe de Khaemhat (TT57), située dans la nécropole thébaine sur la rive ouest de Louxor. Datant du règne d'Amenhotep III, vers 1360 avant J.-C. durant la XVIIIe dynastie, ce fragment témoigne du raffinement extrême de l'art de cette période.</p>
+    <p>La scène dépeint une iconographie royale et symbolique puissante : on y observe le pharaon, représenté à une échelle héroïque, triomphant de ses ennemis. Le souverain est figuré dans une posture dynamique de domination, piétinant ou soumettant des prisonniers étrangers, reconnaissables à leurs traits ethniques distinctifs. Cette image du « roi victorieux » symbolise le maintien de l'ordre cosmique (Maât) contre les forces du chaos.</p>
+    <p>Le style de la sculpture se caractérise par la fluidité des lignes et la douceur des modelés, typiques de l'époque d'Amenhotep III avant la rupture amarnienne. La présence de cartouches royaux confirme l'allégeance du défunt envers son souverain et place sa propre survie dans l'au-delà sous la protection de l'autorité divine du roi.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1360) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "relief_khaemhat_enregistrement_recoltes_scribes_greniers_tt57",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1360 av. J.-C. / règne d'Amenhotep III)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1360,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Administration bureaucratique : Enregistrement des récoltes de grains par les scribes royaux (Tombe de Khaemhat TT57)",
+    site: "Tombe de Khaemhat - TT57 (Cheikh Abd el-Gourna, Thèbes)",
+    originSite: "Cheikh Abd el-Gourna (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe de Khaemhat TT57, Thèbes)",
+    category: "Bas-relief en calcaire",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Khaemhat TT57", "Amenhotep III", "Scribes", "Greniers royaux", "Récoltes"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMrtN2gIk2PUq5MYj3B9bu14Q4ydcCcneHwvUnL_qY7zR7f9TCJegSJsAiru2nv3ybDoKM7nCdbukOygxkW4OSguQVnuYCshMSV9eUGiCpVmf9Y9BBaPULia9Y_Fr3KYgt4ouYBRZOrfx1ShJGn0Cj0Iw=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce relief en calcaire sculpté provient également de la tombe de Khaemhat (TT57), située à Cheikh Abd el-Gourna dans la nécropole thébaine. Datant de la XVIIIe dynastie sous le règne d'Amenhotep III (vers 1390-1352 av. J.-C.), cette paroi illustre les fonctions administratives de Khaemhat, qui portait les titres prestigieux de « Scribe royal » et de « Surveillant des greniers de la Haute et Basse-Égypte ».</p>
+    <p>La scène présente un aspect essentiel de la vie économique de l'Égypte ancienne : l'enregistrement des récoltes. On y voit des scribes accroupis ou penchés, s'activant à noter scrupuleusement les quantités de grains sur des tablettes ou des papyrus, tandis que des travailleurs s'inclinent en signe de respect. Cette documentation bureaucratique était cruciale pour la gestion des stocks de céréales de l'empire, garantissant la redistribution des ressources et la perception des impôts.</p>
+    <p>Bien que la polychromie d'origine ait disparu, la finesse du trait permet de distinguer les attitudes concentrées et les gestes précis des fonctionnaires. En faisant figurer ces scènes dans sa demeure d'éternité, Khaemhat affirmait son efficacité au service de la couronne.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1360) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "relief_khaemhat_flotte_bateaux_transport_grain_tt57",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1360 av. J.-C. / règne d'Amenhotep III)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1360,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Logistique fluviale : Flotte de bateaux de transport de céréales amarrés au quai (Tombe de Khaemhat TT57)",
+    site: "Tombe de Khaemhat - TT57 (Cheikh Abd el-Gourna, Thèbes)",
+    originSite: "Cheikh Abd el-Gourna (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe de Khaemhat TT57, Thèbes)",
+    category: "Bas-relief en calcaire",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Khaemhat TT57", "Amenhotep III", "Flotte céréalière", "Bateaux de transport", "Nil"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPK3EaKZvSEs9LoopS49ZT_H0pUbxN7IAU_Y6Jx3IB5CN49tw56-oVPFAvNJkRC9FYctJ8uSKhvx6qvireHn3lpce7jetlBYkHeBsHgN9Y4f2w41TjBi2pzTKjmmBhGq1ZvPWQxF1VpZtGc01JOctcoEA=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette scène illustre le volet logistique de l'administration agricole de Khaemhat avec la représentation d'une flotte de bateaux de transport amarrés. Ces navires, équipés de mâts et de gouvernails, étaient indispensables pour acheminer les céréales depuis les champs de toute la vallée jusqu'aux greniers royaux de Thèbes ou pour le commerce fluvial.</p>
+    <p>Sur le pont, des personnages s'activent au milieu de cargaisons et de provisions, tandis que des scènes d'échanges et de déchargement se déroulent sur la rive. Le style de ces reliefs est caractéristique de la fin de la XVIIIe dynastie, période marquée par un raffinement extrême et une attention portée aux détails techniques de la vie quotidienne.</p>
+    <p>La précision des manœuvres navales et la fluidité des lignes font de la tombe de Khaemhat un document socio-économique inestimable sur la logistique du transport nilotique à l'apogée du Nouvel Empire.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1360) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "relief_khaemhat_offrande_brasero_coupe_priere_tt57",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1360 av. J.-C. / règne d'Amenhotep III)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1360,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Le scribe royal Khaemhat officiant au brasero d'offrandes (Tombe de Khaemhat TT57)",
+    site: "Tombe de Khaemhat - TT57 (Cheikh Abd el-Gourna, Thèbes)",
+    originSite: "Cheikh Abd el-Gourna (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe de Khaemhat TT57, Thèbes)",
+    category: "Bas-relief en calcaire",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Khaemhat TT57", "Amenhotep III", "Brasero d'offrandes", "Collier ousekh", "Scribe royal"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOaDk5zDkzCmyi5sFQ-9OsB0jIsy8L16MYD3Axr4UfdVQnDW0CuQl_THRiqNd6NdORxhzaeplZLNuSoRWy3FZHEaeJ3Y4k-QZ2QvhInmR3kGlHq36K0-s1NQSrfyOre2CpBeguoobicjTIPlHSrygGSVQ=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce relief exceptionnel, sculpté avec une finesse remarquable, appartient aux parois de la tombe de Khaemhat (TT57) à Cheikh Abd el-Gourna. Il représente le défunt, haut fonctionnaire du règne d'Amenhotep III, accomplissant un acte rituel solennel. Khaemhat est ici figuré de profil, portant une perruque soigneusement détaillée et un large collier ousekh, tenant dans ses mains un brasero ou une coupe d'offrandes.</p>
+    <p>La scène témoigne de la piété de Khaemhat, qui occupait la charge éminente de « Scribe royal » et de « Surveillant des greniers ». Devant lui, un texte hiéroglyphique dense et élégamment gravé en colonnes détaille les prières liturgiques assurant son passage et sa subsistance dans le monde souterrain.</p>
+    <p>Le style artistique est celui de l'apogée de la XVIIIe dynastie, caractérisé par des lignes fluides et une élégance sobre, notamment dans le rendu délicat des mains et la noblesse du profil.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1360) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_sema_taouy_trone_colosses_memnon_thebes",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1360 av. J.-C. / règne d'Amenhotep III)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1360,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Le motif du Sema-Taouy et les dieux du Nil Hâpy sur le trône des Colosses de Memnon",
+    site: "Temple funéraire d'Amenhotep III (Kom el-Hettan, Thèbes)",
+    originSite: "Carrières de grès du Gebel el-Silsila",
+    locationType: "site",
+    currentLocation: "In situ (Flanc du trône des Colosses de Memnon, Thèbes)",
+    category: "Bas-relief monumental sur grès",
+    isHighlight: true,
+    chips: ["XVIIIe dynastie", "Amenhotep III", "Colosses de Memnon", "Sema-Taouy", "Dieu Nil Hâpy", "Grès"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPiWNdRbnjpAoqWlRFneuI6zVFiNnZ-7R0fRTaz4cUUXb_uZrvfS4h2CNgWg33Z-NYUq2xkml_pitogy35ksAVdgGhxDXdVof4T3yqKDxhFI2IwFQXFOLWXiGzP0Vt838t7OJzIxclAafbwHWxt-pPdpg=w1611-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Ce relief monumental est sculpté sur le flanc du trône de l'un des colosses de Memnon, les deux statues géantes de grès qui constituaient autrefois l'entrée du temple funéraire d'Amenhotep III, sur la rive ouest de Thèbes. Il illustre le motif symbolique du Sema-Taouy, l'unification des Deux Terres (Haute et Basse-Égypte). On y voit le dieu Nil, représenté sous une forme androgyne dite Hâpy, aux formes généreuses évoquant la fertilité et l'abondance apportées par la crue annuelle du fleuve.</p>
+    <p>La composition centrale montre le nœud formé par les tiges de deux plantes emblématiques : le lotus pour la Haute-Égypte et le papyrus pour la Basse-Égypte, liées autour du signe hiéroglyphique de l'union (sema). Ce geste symbolise la cohésion absolue du royaume sous l'autorité unique du pharaon.</p>
+    <p>Au-dessus de la scène, des colonnes de hiéroglyphes profondément gravées détaillent les titres et les noms de couronnement d'Amenhotep III, affirmant que son trône repose sur la prospérité cosmique et l'unité de l'Égypte.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1360) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "relief_hatchepsout_echange_horus_anubis_deir_el_bahari",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1470 av. J.-C. / règne d'Hatchepsout)",
+    centuryDisplay: "XVe s. av. J.-C.",
+    centuryNumeric: -1470,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Échange rituel d'offrandes entre Hatchepsout, Horus à la double couronne et Anubis (Deir el-Bahari)",
+    site: "Temple funéraire d'Hatchepsout (Deir el-Bahari, Thèbes)",
+    originSite: "Deir el-Bahari (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Temple d'Hatchepsout, Deir el-Bahari)",
+    category: "Bas-relief en calcaire peint",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Hatchepsout", "Deir el-Bahari", "Horus faucon", "Anubis canidé", "Double couronne"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPFlqgrIBRH7AL_MJ65YYXQJTiOC0Su1Y9atA56CdBS2X2j-gcKk7efhkfv2ZaMlSvLhGr9cm5JxdJfotpQLqu1IPDqjGh7_0B5KjVAdFHc-Mn722GP2wpf2h784x5wRaMfFlAvz4n4VbEAZaEF3adGkA=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette scène murale en bas-relief peint provient du temple funéraire de la reine-pharaon Hatchepsout, situé à Deir el-Bahari dans la nécropole de l'antique Thèbes. Érigé durant la XVIIIe dynastie, aux alentours de 1470 avant notre ère, ce sanctuaire calcaire est un chef-d’œuvre de l’architecture du Nouvel Empire, conçu pour célébrer le culte divin de la souveraine et son lien privilégié avec les dieux.</p>
+    <p>Le registre central illustre un échange rituel entre le pharaon et la divinité : à gauche se tient le dieu Horus, reconnaissable à sa tête de faucon surmontée de la double couronne, recevant des offrandes de vases rituels présentés par la souveraine pour maintenir l'équilibre de la Maât. À droite, la figure imposante d'Anubis à tête de canidé veille sur le passage funéraire.</p>
+    <p>Sous la scène principale, un bandeau horizontal décoré d'un disque solaire ailé protège les cartouches royaux, affirmant l'éternité du nom d'Hatchepsout malgré les tentatives ultérieures de martelage de sa mémoire.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1470) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "relief_hatchepsout_anubis_tronant_table_offrandes_deir_el_bahari",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1470 av. J.-C. / règne d'Hatchepsout)",
+    centuryDisplay: "XVe s. av. J.-C.",
+    centuryNumeric: -1470,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Le dieu Anubis trônant au sceptre Ouas face à la table d'offrandes monumentale (Deir el-Bahari)",
+    site: "Temple funéraire d'Hatchepsout - Chapelle d'Anubis (Deir el-Bahari, Thèbes)",
+    originSite: "Deir el-Bahari (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Sanctuaire d'Anubis, Deir el-Bahari)",
+    category: "Bas-relief en calcaire polychrome",
+    isHighlight: true,
+    chips: ["XVIIIe dynastie", "Hatchepsout", "Deir el-Bahari", "Anubis trônant", "Sceptre Ouas", "Polychromie thébaine"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczObd7fvcPEMhwnn5CZZn1ufGw3uv77bXAfwAZsm4dAJ7r5YDx44nIjrMQ4nSlfrF4KCBSviM0T9QZ8bDY4teL7dAV6KuPRMaekZ5W8COFhe8jRcfTJWGZ3nylQPF95S41K-c_YO1CUs2__GmwC-CAcKJw=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette peinture murale en relief, située dans le sanctuaire d'Anubis du temple funéraire d'Hatchepsout à Deir el-Bahari, constitue l'un des exemples les plus éclatants de l'art thébain du milieu de la XVIIIe dynastie. Le relief représente le dieu Anubis trônant majestueusement face à une accumulation prodigieuse d'offrandes. La divinité est figurée avec un corps humain et une tête de canidé noir, parée d'une perruque tripartite striée et de bijoux raffinés, tenant le sceptre Ouas et le signe Ankh.</p>
+    <p>Devant lui s'étire une table d'offrandes verticale saturée de pains de formes diverses, de quartiers de viande, de vases de libation en albâtre et de fleurs de lotus liées, symboles de régénération continue. La précision naturaliste du rendu des corbeilles et des jarres scellées témoigne de la haute qualification des ateliers royaux.</p>
+    <p>Les hiéroglyphes surmontant la scène consacrent l'abondance éternelle garantie au dieu psychopompe en échange de sa protection sur la reine défunte.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1470) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "relief_hatchepsout_couronne_rouge_decheret_cartouches_deir_el_bahari",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1470 av. J.-C. / règne d'Hatchepsout)",
+    centuryDisplay: "XVe s. av. J.-C.",
+    centuryNumeric: -1470,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Hatchepsout à la couronne rouge Decheret et cartouches royaux Maât-Ka-Rê (Deir el-Bahari)",
+    site: "Temple funéraire d'Hatchepsout (Deir el-Bahari, Thèbes)",
+    originSite: "Deir el-Bahari (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Temple d'Hatchepsout, Deir el-Bahari)",
+    category: "Bas-relief en calcaire peint",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Hatchepsout", "Deir el-Bahari", "Couronne Decheret", "Maât-Ka-Rê", "Cartouches"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNBXbWpdgVMiiFILattil0LcTkQXD92wXinEXPu9x-XFaa4-PXmM-ynxJOQYr99PrOetcDO2srIz2Atzau_lDQV1I0JtGDhiYxc1zlelp7F60mYNRzOPFzDZiJSvI2FyqTT2M99Y2-UtiCuYlMh8Wo08w=w1611-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Ce bas-relief sculpté en creux et rehaussé de peinture provient d'un pilier du temple d'Hatchepsout à Deir el-Bahari. Il représente la reine-pharaon elle-même, coiffée de la couronne rouge de Basse-Égypte (Decheret), portant la barbe postiche rituelle et un large collier ousekh. Bien que le visage ait été partiellement martelé durant l'Antiquité, la silhouette conserve l'élégance caractéristique des canons artistiques du Nouvel Empire.</p>
+    <p>L'inscription hiéroglyphique qui surplombe la souveraine est d'une grande finesse d'exécution. On y distingue clairement deux cartouches royaux au centre de la composition : à gauche, son nom de couronnement Maât-Ka-Rê (« La justice est le ka de Rê ») et à droite, son nom de naissance Hatchepsout (« La première des nobles dames »), associé à l'épithète « réunie à Amon ».</p>
+    <p>Le décor conserve des traces de polychromie, notamment un vert pâle sur la couronne et des pigments ocres sur la peau, formant une archive de pierre immuable pour attester de sa légitimité pharaonique.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1470) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "relief_hatchepsout_envolee_oiseaux_aquatiques_marais_deir_el_bahari",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1470 av. J.-C. / règne d'Hatchepsout)",
+    centuryDisplay: "XVe s. av. J.-C.",
+    centuryNumeric: -1470,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Envolée rythmée d'oiseaux aquatiques migrateurs dans les marais du Nil (Deir el-Bahari)",
+    site: "Temple funéraire d'Hatchepsout (Deir el-Bahari, Thèbes)",
+    originSite: "Deir el-Bahari (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Temple d'Hatchepsout, Deir el-Bahari)",
+    category: "Bas-relief en calcaire",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Hatchepsout", "Deir el-Bahari", "Oiseaux aquatiques", "Envolée", "Relief en creux"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOFSsJCzU72Wo-2XhwNk3Az1Xzh4wDtKTc66qoho784169hfr-W9rParEjogOJ9EB6ych1_Xpj8NuHzoIFnF94hRZID-sDofg1KVtrnd_MhxDIye8gnQuoYXkMlYkH7nTJg7ku2DyVG5kOt1IVurWNAPg=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce bas-relief en calcaire, sculpté avec une grande économie de moyens et un sens aigu de l'observation, représente une envolée d'oiseaux aquatiques, probablement des oies ou des canards migrateurs. Cette scène de genre, typique des décors de la XVIIIe dynastie à Thèbes, se trouve souvent dans les représentations de chasse dans les marais ou les scènes d'offrandes liées à la fertilité du Nil.</p>
+    <p>La technique utilisée ici est le relief en creux, où les contours sont profondément incisés pour accrocher la lumière du soleil thébain, tandis que les détails internes des plumes et des corps sont modelés avec une subtilité presque graphique. La répétition décalée des silhouettes crée une remarquable illusion de mouvement et de profondeur spatiale sans ligne d'horizon.</p>
+    <p>Ces oiseaux symbolisent l'abondance des ressources de la vallée et le triomphe de l'ordre cosmique sur les forces sauvages des marais nilotiques.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1470) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "peinture_hatchepsout_offrande_vases_plafond_etoile_khekerou_deir_el_bahari",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1470 av. J.-C. / règne d'Hatchepsout)",
+    centuryDisplay: "XVe s. av. J.-C.",
+    centuryNumeric: -1470,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Hatchepsout agenouillée aux vases d'offrandes sous le plafond étoilé et frise de khékerous (Deir el-Bahari)",
+    site: "Temple funéraire d'Hatchepsout - Chapelle centrale (Deir el-Bahari, Thèbes)",
+    originSite: "Deir el-Bahari (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Chapelle centrale, Deir el-Bahari)",
+    category: "Peinture murale thébaine",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Hatchepsout", "Deir el-Bahari", "Plafond étoilé", "Khékerou", "Offrande royale"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOuAF3d59M8IcsiiFAtz9bwwGF8WlI2rjdIyxCyGCj0W8z0dWl_ricv_rvFmpBWdOcQJE215Ced_odvxK3cHtn7ToYlpxk2WE6uuuQS2sd5wCx2XV4NFxpw1C-1RvgEWaGIUUeNZ-rnK4wx-wxocpVhaQ=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette peinture murale fragmentaire orne les parois de la chapelle centrale du temple d'Hatchepsout, un espace sacré où la polychromie a été remarquablement préservée du temps. La scène dépeint la souveraine en plein rituel d'offrande, agenouillée et élevant des vases globulaires vers une divinité aujourd'hui disparue de ce pan de mur.</p>
+    <p>La partie supérieure de la paroi présente un plafond astronomique orné de rangées d'étoiles à cinq branches d'un rouge vibrant sur un fond bleu profond, symbolisant la voûte céleste protectrice du temple. Juste en dessous, une frise de khékerou assure la transition entre le monde céleste et les scènes terrestres, créant un cadre architectural hautement symbolique pour les rites royaux.</p>
+    <p>Autour de la figure royale, une accumulation méticuleuse d'offrandes alimentaires et de récipients rituels témoigne de la richesse des cultes célébrés en l'honneur d'Amon-Rê.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1470) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture murale, Tableaux & Mosaïque.</p>`
+  },
+  {
+    id: "relief_hatchepsout_colonnes_hieroglyphes_table_offrandes_verbale_deir_el_bahari",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1470 av. J.-C. / règne d'Hatchepsout)",
+    centuryDisplay: "XVe s. av. J.-C.",
+    centuryNumeric: -1470,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Table d'offrandes verbale : Colonnes de hiéroglyphes monumentaux polychromes (Deir el-Bahari)",
+    site: "Temple funéraire d'Hatchepsout (Deir el-Bahari, Thèbes)",
+    originSite: "Deir el-Bahari (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Temple d'Hatchepsout, Deir el-Bahari)",
+    category: "Bas-relief en calcaire polychrome",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Hatchepsout", "Deir el-Bahari", "Hiéroglyphes monumentaux", "Liturgie royale"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOk4PInfu43veQnCiwRu6tZJ2dqOFwD4Vu_NAfDB_06x9zzzK00pLGx8HVCang0eMSg2ouowosf98WuDJKoS7yfPUJlCZOGh_JlHWKilhycUmUjrfsuJs54axPBS4Z7LBPbhleb0mMaWVx6mlWP5bjX5w=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce registre vertical de hiéroglyphes, gravé avec une précision exceptionnelle, provient de l'une des colonnes ou parois du temple funéraire d'Hatchepsout à Deir el-Bahari. L'œuvre illustre la maîtrise de l'écriture monumentale au Nouvel Empire, où chaque signe est conçu comme une unité plastique autonome, alliant rigueur calligraphique et profondeur symbolique.</p>
+    <p>La lecture de ce panneau révèle une énumération de titres et de formules d'offrandes destinées à garantir la subsistance de la reine dans l'au-delà : le bras tendu présentant l'offrande, la tête de bovidé et les pains ronds empilés constituent une « table d'offrandes verbale » qui matérialise les victuailles par la force magique du verbe sculpté.</p>
+    <p>Les traces d'ocre rouge et de jaune subsistant sur le calcaire rappellent la fonction liturgique et monumentale de ce véritable livre de pierre.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1470) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "peinture_hatchepsout_debout_corselet_bleu_couronne_atef_deir_el_bahari",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1470 av. J.-C. / règne d'Hatchepsout)",
+    centuryDisplay: "XVe s. av. J.-C.",
+    centuryNumeric: -1470,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Hatchepsout en corselet bleu et couronne Atef avec éventail royal de cérémonie (Deir el-Bahari)",
+    site: "Temple funéraire d'Hatchepsout (Deir el-Bahari, Thèbes)",
+    originSite: "Deir el-Bahari (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Temple d'Hatchepsout, Deir el-Bahari)",
+    category: "Peinture murale thébaine",
+    isHighlight: true,
+    chips: ["XVIIIe dynastie", "Hatchepsout", "Deir el-Bahari", "Couronne Atef", "Corselet bleu", "Éventail de cérémonie"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMacaDZSxbOLQUqijueVDUqL6gVCvms2zrQ29lzMrUAPTBa1Jzd_vtu9Y_cilVwKIrpjWaRNV1TlPmKikTt9T3cLOOCTJJ9csA5w1wG8_OODejXg0k9w5X6MAQV9f3YDXuSaFWNdroFspCN3AC5QXj7eQ=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette fresque murale, située dans un renfoncement protégé du temple funéraire d'Hatchepsout à Deir el-Bahari, offre un témoignage exceptionnel de la figuration royale peinte du Nouvel Empire. Elle représente la reine-pharaon debout, vêtue d'un corselet bleu richement orné et d'un pagne court, coiffée de la couronne Atef flanquée de plumes.</p>
+    <p>La vivacité des pigments rouges pour la peau et bleus pour les parures souligne le caractère sacré de la figure royale. Au-dessus de la souveraine, un cartouche royal dont le nom a été volontairement martelé rappelle les campagnes de damnatio memoriae menées après son règne, tandis qu'à sa droite, un grand éventail cérémoniel à plume unique accompagne sa marche solennelle.</p>
+    <p>La partie supérieure du mur conserve des frises colorées et des fragments de plafonds étoilés, démontrant que même dans les recoins les plus intimes du sanctuaire, les artistes de la XVIIIe dynastie appliquaient les standards les plus exigeants de la polychromie sacrée.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1470) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture murale, Tableaux & Mosaïque.</p>`
+  },
+   {
     id: "relief_mehu_tableau_offrandes_procession_scribes_saqqarah",
     civId: "egypte",
     periodId: "ancien_empire",
