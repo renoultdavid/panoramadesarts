@@ -6,6 +6,32 @@ window.ART_OBJECTS = window.ART_OBJECTS || [];
 window.ART_OBJECTS.push(
 
   {
+    id: "sculpture_pilier_maia_nourrice_toutankhamon_bubasteion_saqqarah",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1330 av. J.-C. / règne de Toutânkhamon)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1330,
+    domain: "sculpture_statuaire",
+    artifactType: "Décor architectural (fronton, frise, métope, chapiteau)",
+    title: "Pilier de la chapelle de Maia : Adoration de la nourrice royale, collier ousekh et uræus (Bubasteion)",
+    site: "Complexe funéraire de Maia - Bubasteion (Saqqarah)",
+    originSite: "Saqqarah",
+    locationType: "site",
+    currentLocation: "In situ (Tombe de Maia, Saqqarah)",
+    category: "Pilier sculpté en calcaire",
+    isHighlight: true,
+    chips: ["XVIIIe dynastie", "Maia", "Toutânkhamon", "Saqqarah", "Bubasteion", "Collier ousekh", "Uræus"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPpFrUkSu_EXNKKkBE07Uv4aKngUJr4qX-AKATcmwRJAnHpT61E4XuZIObjPMxdjV6Dqh1lxBjjurgWupe4-TxsHjoBuhqiK2OxDeaLfTr3zHFBD8gNf42JlWFtUWp-Vajv5tNKLyhDe_skYOf4tzI7ug=w1611-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Cette œuvre est un pilier sculpté en calcaire découvert dans la zone du Bubasteion à Saqqarah, au sein du complexe funéraire de Maia, la nourrice royale de Toutânkhamon. Datant de la fin de la XVIIIe dynastie, vers 1330 avant J.-C., ce bloc témoigne du raffinement artistique de l'époque post-amarnienne. Il servait d'élément architectural de soutien dans la chapelle funéraire de Maia, un lieu destiné à la célébration de son culte mémoriel et à la présentation d'offrandes.</p>
+    <p>Le relief central représente une scène de dévotion où Maia elle-même est figurée agenouillée dans la partie inférieure, les bras levés en signe d'adoration. Elle porte une perruque tripartite finement détaillée et une robe de lin plissée, caractéristique de la mode noble du Nouvel Empire. Au-dessus d'elle, une colonne de hiéroglyphes décline son identité et ses titres prestigieux, soulignant son lien intime avec la famille royale et son rôle crucial dans l'éducation du jeune souverain.</p>
+    <p>Le décor est dominé par un grand collier ousekh qui surmonte l'inscription, symbole de protection et de faveur divine. De part et d'autre de ce plastron, deux cobras protecteurs, ou uræus, sont dressés et portent le signe ânkh, symbolisant la vie éternelle. Cette composition symétrique et la finesse de la taille, alliant bas-relief et gravure, illustrent la transition stylistique entre le naturalisme solaire d'Akhenaton et le retour au classicisme thébain qui marque le règne de Toutânkhamon.</p>
+    <p>L'œuvre conserve par endroits des traces de pigments, notamment des ocres rouges sur la peau de la défunte, rappelant que ces monuments étaient originellement polychromes. Ce pilier confirme l'importance sociale de Maia, l'une des rares femmes non royales à posséder une sépulture aussi monumentale dans la nécropole memphite.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1330) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+   {
     id: "relief_hatchepsout_allaitement_vache_hathor_deir_el_bahari",
     civId: "egypte",
     periodId: "nouvel_empire",
