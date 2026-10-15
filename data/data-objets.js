@@ -6,6 +6,136 @@ window.ART_OBJECTS = window.ART_OBJECTS || [];
 window.ART_OBJECTS.push(
 
   {
+    id: "relief_ptahhotep_supervision_domaines_elevage_saqqarah",
+    civId: "egypte",
+    periodId: "ancien_empire",
+    civName: "Égypte : Ancien Empire",
+    century: "Ve dynastie (v. -2400 av. J.-C. / règne de Djedkarê Isési)",
+    centuryDisplay: "XXIVe s. av. J.-C.",
+    centuryNumeric: -2400,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Le vizir Ptahhotep au bâton de marche supervisant les domaines ruraux",
+    site: "Mastaba de Ptahhotep et Akhethotep (Saqqarah)",
+    originSite: "Saqqarah",
+    locationType: "site",
+    currentLocation: "In situ (Mastaba de Ptahhotep, Saqqarah)",
+    category: "Bas-relief peint en calcaire",
+    isHighlight: false,
+    chips: ["Ve dynastie", "Ptahhotep", "Saqqarah", "Mastaba", "Vie rurale", "Bas-relief peint"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP0owiatw-uStF6Lz60Le_y9fx3b0cBRcC0jffbtG6Ire9B3XL3yoc_bsish9Ov38UoPXGPBOal2fXSNFOuvqREKISBYv_QjbeOrvGbGvsQPLK6iNOwnM7j4xxqeoGXQlXErchHxazFXFK-y86uFyMdPg=w2158-h1438-s-no-gm?authuser=0",
+    narrative: `<p>Ce bas-relief peint appartient au complexe funéraire de Ptahhotep, vizir de la Ve dynastie (vers 2400 av. J.-C.), situé à Saqqarah. La scène met en scène le défunt ou son fils Akhethotep supervisant les activités de ses domaines, un thème central de l'iconographie des tombes de l'Ancien Empire. Le personnage principal, d'une stature imposante qui marque son rang social élevé, tient fermement un long bâton de marche, symbole de son autorité et de sa fonction administrative.</p>
+    <p>L'organisation de la paroi utilise le système des registres pour saturer l'espace de détails narratifs sur la vie rurale. Autour de la figure centrale s'articulent des scènes de travaux des champs et d'élevage, notamment le marquage ou le soin du bétail visible à droite. Cette accumulation d'images n'est pas seulement documentaire : elle constitue un inventaire magique des richesses du dignitaire, destinées à se matérialiser dans l'au-delà pour assurer son confort éternel.</p>
+    <p>Sur le plan technique, l'œuvre illustre la perfection du relief surbaissé memphite. Les contours sont d'une netteté absolue et les détails anatomiques, comme la musculature du torse ou la structure du genou, témoignent d'une observation fine du corps humain. La conservation de la couleur ocre rouge pour la peau et des teintes sombres pour la perruque courte et frisée permet de se rendre compte de la vivacité originelle du décor qui recouvrait l'intégralité des parois de la chapelle.</p>
+    <p>Les hiéroglyphes qui surmontent la scène agissent comme un contrepoint textuel au dessin, listant les titres du défunt et décrivant les actions représentées. C'est un témoignage précieux de l'équilibre atteint par l'art égyptien entre rigueur géométrique et naturalisme des scènes de genre.</p>
+    <p><strong>Siècle :</strong> XXIVe siècle av. J.-C. (-2400) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "relief_serviteur_buvant_vase_ptahhotep_saqqarah",
+    civId: "egypte",
+    periodId: "ancien_empire",
+    civName: "Égypte : Ancien Empire",
+    century: "Ve dynastie (v. -2400 av. J.-C. / règne de Djedkarê Isési)",
+    centuryDisplay: "XXIVe s. av. J.-C.",
+    centuryNumeric: -2400,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Serviteur buvant au vase dans une scène de joute et de transport (Mastaba de Ptahhotep)",
+    site: "Mastaba de Ptahhotep et Akhethotep (Saqqarah)",
+    originSite: "Saqqarah",
+    locationType: "site",
+    currentLocation: "In situ (Mastaba de Ptahhotep, Saqqarah)",
+    category: "Bas-relief peint en calcaire",
+    isHighlight: false,
+    chips: ["Ve dynastie", "Ptahhotep", "Saqqarah", "Scène de genre", "Faune nilotique", "Bas-relief peint"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP7jGbdTt7MatTto-inkehZXae_K9RI3c09hoOrcZssw5gUhZD_jhbI5W71rhl-GHOsCEMw7Y5MB1HJsKcr9ULU-9b8W99W-BWEMky9ZoxKJDUqyyf4bNsY92aD3UT3wAxXl9aszEPG8xJ5m-vuE6EgTQ=w2158-h1438-s-no-gm?authuser=0",
+    narrative: `<p>Ce relief peint, situé sur le mur est de la chapelle, illustre une scène de la vie quotidienne élevée au rang de rite éternel.</p>
+    <p>Le personnage représenté, un serviteur ou un membre de la maisonnée, est saisi dans un instant de repos rare dans l'iconographie égyptienne : il boit tranquillement dans un vase. Ce geste, bien qu'inscrit dans l'agitation d'une scène de joute nautique ou de transport, témoigne de la volonté des artistes de la Ve dynastie d'insuffler du réalisme et de l'humanité aux décors funéraires. La précision du modelé, notamment au niveau du bras et de la main tenant le récipient, révèle la finesse du bas-relief caractéristique de cette sépulture.</p>
+    <p>L'œuvre conserve une polychromie remarquable, où l'ocre rouge de la peau contraste avec le noir profond de la perruque courte. Au-dessus de l'homme, les hiéroglyphes gravés dans le creux apportent des précisions sur l'action ou les produits consommés, agissant comme une légende vivante. Sur la droite, on aperçoit des canards et des poissons, éléments de la faune nilotique traités avec un naturalisme qui fait la renommée mondiale de ce mastaba.</p>
+    <p>Ce détail souligne la double fonction de l'art dans la tombe de Ptahhotep : célébrer les « activités agréables » du pays tout entier tout en garantissant, par la magie de l'image et du verbe, que les plaisirs du boire et du manger accompagneront le défunt pour l'éternité.</p>
+    <p><strong>Siècle :</strong> XXIVe siècle av. J.-C. (-2400) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "relief_porteurs_offrandes_volaille_lotus_ptahhotep_saqqarah",
+    civId: "egypte",
+    periodId: "ancien_empire",
+    civName: "Égypte : Ancien Empire",
+    century: "Ve dynastie (v. -2400 av. J.-C. / règne de Djedkarê Isési)",
+    centuryDisplay: "XXIVe s. av. J.-C.",
+    centuryNumeric: -2400,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Défilé rythmique des porteurs d'offrandes et victuailles (Mastaba de Ptahhotep)",
+    site: "Mastaba de Ptahhotep et Akhethotep (Saqqarah)",
+    originSite: "Saqqarah",
+    locationType: "site",
+    currentLocation: "In situ (Mastaba de Ptahhotep, Saqqarah)",
+    category: "Bas-relief peint en calcaire",
+    isHighlight: false,
+    chips: ["Ve dynastie", "Ptahhotep", "Saqqarah", "Porteurs d'offrandes", "Fleurs de lotus", "Volaille"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOaT37zKd_ffLyduspGoZRqEIyx9rej52se676qLjlE9dVAEiVqhFeTwx3q3II4kFmQry2f_nCGZ7U3eLHekmI5NAe9GbcQGHaoJHvuNBZn0sHs4mZBMcp_chXK2PJ7Z0eG5bnPZCmA4HDosBd-8IhGWg=w2158-h1438-s-no-gm?authuser=0",
+    narrative: `<p>Cette scène provient du célèbre mastaba de Ptahhotep et Akhethotep, située dans la nécropole de Saqqarah. Datant de la Ve dynastie (vers 2400 avant J.-C.), sous le règne de Djedkarê Isési, cette sépulture est l'un des sommets de l'art du plat-relief de l'Ancien Empire. Le fragment présenté ici illustre la maîtrise des artistes de Memphis dans l'organisation de l'espace et la précision du trait, caractéristiques de cette période de maturité esthétique.</p>
+    <p>La composition se divise en registres superposés qui dépeignent le défilé des porteurs d'offrandes. Ces serviteurs s'avancent vers la table du défunt, transportant les produits nécessaires à sa survie éternelle dans l'au-delà. On y observe une grande variété de denrées : des fleurs de lotus symbolisant la renaissance, de la volaille vivante, des quartiers de viande et des paniers de fruits. La répétition des silhouettes crée un rythme visuel quasi musical, soulignant l'abondance et la prospérité de la maison du vizir.</p>
+    <p>Le traitement des corps respecte les conventions strictes de la représentation égyptienne, avec le visage et les membres de profil tandis que le buste est de face. La palette chromatique a conservé une fraîcheur remarquable, utilisant des pigments naturels comme l'ocre rouge pour la peau masculine et le blanc de calcaire pour les pagnes. La finesse du relief, où chaque muscle et chaque détail des plumes d'oiseaux sont délicatement ciselés, témoigne du statut exceptionnel de Ptahhotep.</p>
+    <p>Les inscriptions hiéroglyphiques qui surmontent et encadrent les personnages ne sont pas de simples ornements, mais des légendes rituelles. Elles identifient parfois l'origine des produits ou nomment les domaines agricoles du vizir qui fournissent ces denrées.</p>
+    <p><strong>Siècle :</strong> XXIVe siècle av. J.-C. (-2400) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "relief_mererouka_marche_baton_fils_saqqarah",
+    civId: "egypte",
+    periodId: "ancien_empire",
+    civName: "Égypte : Ancien Empire",
+    century: "VIe dynastie (v. -2300 av. J.-C. / règne de Téti)",
+    centuryDisplay: "XXIIIe s. av. J.-C.",
+    centuryNumeric: -2300,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Le vizir Mererouka en marche au bâton d'autorité accompagné de son fils",
+    site: "Mastaba de Mererouka (Saqqarah)",
+    originSite: "Saqqarah",
+    locationType: "site",
+    currentLocation: "In situ (Mastaba de Mererouka, Saqqarah)",
+    category: "Bas-relief en calcaire",
+    isHighlight: false,
+    chips: ["VIe dynastie", "Mererouka", "Téti", "Saqqarah", "Bâton d'autorité", "Perspective hiérarchique"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNnBV-CpDY25pJ56-PYHI5K5tPbDZBuTvAulcThmpexRzXmMdnM1H5eUHoT5A3rTiVE0DaTQddfjfMlTGBvpIU916C0f2EgeWg83XFbR8zBKaHyoX-YDwORLIjmj5HWTQxX1AOUVXBU7wAU9OzHpThjjw=w1611-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Cette œuvre est un relief en calcaire provenant du mastaba de Mererouka, situé dans la nécropole de Saqqarah, au nord de la pyramide de Téti. Datant de la VIe dynastie, sous le règne du pharaon Téti vers 2300 avant notre ère, ce monument funéraire est l'un des plus vastes et des plus richement décorés de l'Ancien Empire égyptien. Il témoigne de la puissance exceptionnelle de Mererouka, qui cumulait les fonctions prestigieuses de vizir, de juge suprême et de gendre du roi.</p>
+    <p>La scène représente le défunt dans une attitude de marche traditionnelle, tourné vers la droite. Mererouka arbore les attributs classiques de la haute noblesse : une perruque courte aux boucles étagées, un large collier ousekh et un pagne plissé rigide. Dans sa main gauche, il tient un long bâton de marche, symbole de son autorité et de son rang social, tandis que sa main droite, le long du corps, serre un rouleau de lin ou un sceptre court aujourd'hui partiellement érodé.</p>
+    <p>À ses pieds, une figure de petite taille est sculptée en relief plus léger, représentant probablement l'un de ses fils. Cette différence d'échelle, typique de l'art égyptien, n'indique pas la taille réelle de l'enfant mais souligne l'importance hiérarchique absolue du père au sein de la famille et de l'État. La finesse du trait et la précision des détails anatomiques, notamment au niveau des jambes et des muscles, illustrent la maîtrise parfaite des ateliers royaux de l'époque.</p>
+    <p>Le champ visuel est saturé de colonnes de hiéroglyphes gravés avec une grande clarté qui déclinent la titulature complète de Mererouka, assurant ainsi la survie de son nom pour l'éternité.</p>
+    <p><strong>Siècle :</strong> XXIIIe siècle av. J.-C. (-2300) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "relief_mererouka_barque_papyrus_poissons_nil_saqqarah",
+    civId: "egypte",
+    periodId: "ancien_empire",
+    civName: "Égypte : Ancien Empire",
+    century: "VIe dynastie (v. -2300 av. J.-C. / règne de Téti)",
+    centuryDisplay: "XXIIIe s. av. J.-C.",
+    centuryNumeric: -2300,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Mererouka sur la barque de papyrus et faune aquatique nilotique (Mastaba de Mererouka)",
+    site: "Mastaba de Mererouka (Saqqarah)",
+    originSite: "Saqqarah",
+    locationType: "site",
+    currentLocation: "In situ (Mastaba de Mererouka, Saqqarah)",
+    category: "Bas-relief en calcaire",
+    isHighlight: false,
+    chips: ["VIe dynastie", "Mererouka", "Téti", "Saqqarah", "Barque de papyrus", "Poissons du Nil"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOK1GT_5fSoSa_GW6pR9oqFmXrPLQzfRMBx5FrRUSLfrmWVega-kNuURo_LhIUBXnLsoNmUEeCQrnwFDOjPaF_dYFKRFfzpYAasUNQkHM0TLDLMPA5Qd-LxvvoT0RrpwvkVx3NwUW8P8nKx2qawMvSp2g=w2158-h1438-s-no-gm?authuser=0",
+    narrative: `<p>Ce bas-relief en calcaire polychrome appartient au décor pariétal du mastaba de Mererouka, érigé à Saqqarah durant la VIe dynastie, sous le règne de Téti (v. 2300 av. J.-C.). La scène se situe dans la partie inférieure d'un mur, une zone souvent réservée aux représentations du monde terrestre et aquatique, essentielles pour assurer la subsistance éternelle du ka (l'énergie vitale) du défunt.</p>
+    <p>L'image montre les jambes monumentales de Mererouka, représenté à une échelle héroïque, debout sur une embarcation de papyrus. Cette posture dynamique, le pied gauche en avant, symbolise la marche du vizir vers l'au-delà ou sa participation active à des activités rituelles et cynégétiques. Le souci du détail anatomique, caractéristique de l'art de l'Ancien Empire, est visible dans le rendu des muscles des jambes et de l'articulation de la cheville.</p>
+    <p>Sous l'embarcation, un registre aquatique foisonnant illustre la richesse de la faune nilotique. On y distingue plusieurs espèces de poissons du Nil, gravés avec une précision naturaliste remarquable qui permettait aux anciens Égyptiens de les identifier précisément. Ces poissons, évoluant au milieu des plantes aquatiques, représentent non seulement une source de nourriture inépuisable pour le défunt, mais symbolisent aussi le renouvellement de la vie.</p>
+    <p>À l'arrière-plan, des figures de taille réduite représentent des serviteurs ou des membres de la famille participant aux activités de pêche ou de navigation. L'ensemble témoigne de la virtuosité des sculpteurs de Saqqarah, capables d'allier la puissance monumentale du portrait seigneurial à la délicatesse des scènes de genre naturalistes.</p>
+    <p><strong>Siècle :</strong> XXIIIe siècle av. J.-C. (-2300) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+   {
     id: "relief_famine_bedouins_ounas_saqqarah_imhotep",
     civId: "egypte",
     periodId: "ancien_empire",
