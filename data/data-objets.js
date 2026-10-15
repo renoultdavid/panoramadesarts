@@ -6,6 +6,107 @@ window.ART_OBJECTS = window.ART_OBJECTS || [];
 window.ART_OBJECTS.push(
 
   {
+    id: "sculpture_grand_sphinx_tanis_granit_rose_louvre",
+    civId: "egypte",
+    periodId: "ancien_empire",
+    civName: "Égypte : Ancien Empire",
+    century: "IVe ou VIe dynastie (vers -2600 av. J.-C. / réinscriptions postérieures)",
+    centuryDisplay: "XXVIe s. av. J.-C.",
+    centuryNumeric: -2600,
+    domain: "sculpture_statuaire",
+    artifactType: "Statue en ronde-bosse",
+    title: "Le Grand Sphinx de Tanis en granit rose d'Assouan (Musée du Louvre)",
+    site: "Temple d'Amon (Tanis)",
+    originSite: "Assouan (carrières) / Tanis",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes, A 23)",
+    category: "Sculpture monolithique en granit rose poli",
+    isHighlight: true,
+    chips: ["Ancien Empire", "Tanis", "Musée du Louvre", "Granit rose", "Sphinx monumental", "Némès", "Amenemhat II", "Merenptah"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczON4nuxKHx0xcFtB4p0HVKIIgMwHslawPsOi5n-LrADgsAR0PX-iz7eDXYaEp0GAHkEyC5iD3qkChLMaqct0HNQc-AK6hKboTSkzFmMLwxwuQ2b7OyBbRhqW07ibeLnkBhYFGQ5hbxOZWgw1yMuSc9aGQ=w1818-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Le Grand Sphinx de Tanis est l'un des monuments les plus emblématiques du département des Antiquités égyptiennes du Musée du Louvre. Taillé dans un bloc monolithique de granit rose d'Assouan, il impressionne par ses dimensions monumentales et la qualité exceptionnelle de son poli. Bien qu'il ait été découvert en 1825 parmi les ruines du temple d'Amon à Tanis, dans le Delta du Nil, ses traits stylistiques suggèrent une création bien antérieure, remontant probablement à l'Ancien Empire, vers 2600 avant J.-C. (IVe ou VIe dynastie). Cette œuvre illustre la fonction protectrice et solaire du souverain, combinant la puissance physique du lion à l'intelligence et l'autorité de l'homme.</p>
+    <p>La description de l'œuvre révèle une fusion parfaite entre l'animal et l'humain. Le corps du lion est représenté couché, les pattes avant étendues parallèlement, dans une pose de vigilance sereine. La musculature est rendue avec une économie de moyens qui privilégie la force de la masse globale. La tête humaine émerge d'une crinière stylisée qui se fond dans le némès, la coiffe royale plissée, dont les pans retombent sur les épaules. Le visage présente des traits puissants : des pommettes saillantes, des yeux étirés et une bouche aux lèvres charnues qui esquisse un sourire archaïque. La barbe postiche, symbole de divinité et de pouvoir régalien, est attachée au menton par de fines brides sculptées.</p>
+    <p>Le Sphinx de Tanis est célèbre pour ses nombreuses inscriptions qui témoignent de sa longue histoire. Au cours des millénaires, plusieurs pharaons ont fait graver leur titulature sur la base et la poitrine du monument, se réappropriant ainsi la puissance de l'objet. On y lit notamment les noms d'Amenemhat II (Moyen Empire), de Merenptah (Nouvel Empire) et de Chéchonq Ier (Troisième Période Intermédiaire). Ces « usurpations » successives étaient en réalité une pratique courante visant à s'inscrire dans la lignée des ancêtres prestigieux. Le granit rose, malgré sa dureté extrême, a été travaillé avec une précision telle que les hiéroglyphes conservent une netteté remarquable.</p>
+    <p>L'emplacement actuel du Sphinx, à l'entrée de la collection égyptienne, souligne son rôle de gardien du temple. La surface de la pierre a conservé un lustre magnifique qui accroche la lumière, mettant en relief les volumes simplifiés mais puissants de la sculpture.</p>
+    <p><strong>Siècle :</strong> XXVIe siècle av. J.-C. (-2600) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_triade_mykerinos_hathor_personnification_nome_gizeh_caire",
+    civId: "egypte",
+    periodId: "ancien_empire",
+    civName: "Égypte : Ancien Empire",
+    century: "IVe dynastie (vers -2490 av. J.-C. / règne de Mykérinos)",
+    centuryDisplay: "XXVe s. av. J.-C.",
+    centuryNumeric: -2490,
+    domain: "sculpture_statuaire",
+    artifactType: "Statue en ronde-bosse",
+    title: "Triade monumentale de Mykérinos en grauwacke entre la déesse Hathor et la personnification d'un nome (Gizeh)",
+    site: "Temple de la vallée de la pyramide de Mykérinos (Gizeh)",
+    originSite: "Gizeh",
+    locationType: "museum",
+    currentLocation: "Musée égyptien du Caire (JE 40679)",
+    category: "Haut-relief et ronde-bosse en grauwacke polie",
+    isHighlight: true,
+    chips: ["IVe dynastie", "Mykérinos", "Gizeh", "Grauwacke", "Déesse Hathor", "Personnification de nome", "Musée du Caire"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPlVQPX3UHQIW61gyGJ6IsvJrvPHU8NgELIovO8CWBO271kC8QHPLMMHwGZtC1mrYW0xlbyFTyMARPABOC3BroZ0nebDzxvE251tbI5SOiBJ1wTmuy4Owh4bgFvODTHXO_QIJMlGszhBG6ooIwFG6dHng=w1611-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Cette triade monumentale en grauwacke (une pierre sombre et très dure) représente le roi Mykérinos, flanqué de deux figures féminines divines. Datant de la IVe dynastie (vers 2490 av. J.-C.), elle a été découverte par George Reisner en 1908 dans le temple de la vallée de la pyramide de Mykérinos à Gizeh. Le roi occupe la position centrale, coiffé de la couronne blanche de Haute-Égypte et portant la barbe postiche cérémonielle. Sa posture est celle de la marche athlétique, le pied gauche en avant, exprimant une vigueur et une jeunesse éternelles propres à la fonction royale.</p>
+    <p>À la droite du souverain se tient la déesse Hathor, reconnaissable à sa coiffe composée de cornes de vache entourant un disque solaire. Elle tient tendrement la main du roi, symbolisant la protection divine et la filiation spirituelle qui lie le monarque aux dieux. À sa gauche se trouve une personnification d'un nome (une province d'Égypte), identifiée par l'emblème sculpté au-dessus de sa tête. Ce groupe statuaire faisait partie d'une série de triades représentant le roi avec Hathor et les différentes provinces du pays, affirmant ainsi que toutes les ressources de l'Égypte étaient dévouées au culte funéraire du pharaon.</p>
+    <p>L'exécution technique est d'une finesse incomparable, le sculpteur ayant réussi à rendre la souplesse des corps et la musculature sous la pierre pourtant extrêmement résistante. Le contraste entre la puissance virile du roi et la douceur élégante des silhouettes féminines, vêtues de robes fourreaux moulantes presque invisibles, souligne l'harmonie du cosmos (la Maât). Les inscriptions hiéroglyphiques gravées sur la base énumèrent les titres du roi et les offrandes promises, garantissant ainsi que Mykérinos restera pour l'éternité un « aimé des dieux » au cœur du complexe sacré de Gizeh.</p>
+    <p><strong>Siècle :</strong> XXVe siècle av. J.-C. (-2490) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_tete_userkaf_decheret_abou_gorab_caire",
+    civId: "egypte",
+    periodId: "ancien_empire",
+    civName: "Égypte : Ancien Empire",
+    century: "Ve dynastie (vers -2480 av. J.-C. / règne d'Ouserkaf)",
+    centuryDisplay: "XXVe s. av. J.-C.",
+    centuryNumeric: -2480,
+    domain: "sculpture_statuaire",
+    artifactType: "Statue en ronde-bosse",
+    title: "Tête royale fragmentaire d'Ouserkaf à la couronne rouge Decheret en grauwacke (Abou Gorab)",
+    site: "Temple solaire d'Ouserkaf (Abou Gorab)",
+    originSite: "Abou Gorab",
+    locationType: "museum",
+    currentLocation: "Musée égyptien du Caire (JE 90220)",
+    category: "Ronde-bosse fragmentaire en grauwacke polie",
+    isHighlight: false,
+    chips: ["Ve dynastie", "Ouserkaf", "Abou Gorab", "Temple solaire", "Grauwacke", "Couronne Decheret", "Moustache gravée", "Musée du Caire"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNC1wV_fsDCy4noLYJQx_sSHW_oK8NjTiU3JF1dVVEhoH73ic7ObL5BFcruAGnAp8scPH2upZAH4U_cKw8mCZPCeazcPAODkHr8-ztcVncNRcF0y1-KJDKjiEkuR58xjlCX78TxBdHh6RdEx1QAtKw44g=w1611-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Cette tête fragmentaire en grauwacke (une roche métamorphique sombre et résistante) représente le roi Ouserkaf, fondateur de la Ve dynastie (vers 2480 av. J.-C.). Elle a été découverte en 1957 par l'archéologue Herbert Ricke dans le temple solaire du roi à Abou Gorab, au sud de Gizeh. Bien que le corps de la statue soit manquant, cette tête est d'une importance capitale pour l'histoire de l'art égyptien : elle témoigne d'une transition stylistique vers une plus grande douceur des traits, contrastant avec la rigueur monumentale de la dynastie précédente.</p>
+    <p>Le roi est représenté portant la couronne rouge de Basse-Égypte (le Decheret), dont la partie supérieure évasée est ici parfaitement conservée. Le visage présente une exécution d'une finesse remarquable, avec des yeux en amande légèrement étirés par un trait de fard sculpté en relief. Les sourcils suivent une courbe élégante et les lèvres, fines et bien dessinées, esquissent un sourire très discret. On peut également observer les traces d'une moustache finement gravée, un détail réaliste assez rare dans la statuaire royale égyptienne, qui apporte une dimension humaine au divin monarque.</p>
+    <p>L'utilisation de la grauwacke, avec son grain serré et sa teinte gris-vert profonde, permet un polissage d'une grande douceur qui accentue le modelé délicat des pommettes. En tant que premier roi à avoir érigé un temple dédié spécifiquement au dieu-soleil Rê, Ouserkaf a instauré un nouveau programme architectural et religieux. Cette effigie, autrefois placée dans l'enceinte sacrée, servait de support physique au culte du roi, assurant sa présence perpétuelle auprès du Soleil et garantissant ainsi l'ordre du monde pour l'éternité.</p>
+    <p><strong>Siècle :</strong> XXVe siècle av. J.-C. (-2480) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_statuette_pretre_ka_er_sou_granite_rose_saqqarah",
+    civId: "egypte",
+    periodId: "ancien_empire",
+    civName: "Égypte : Ancien Empire",
+    century: "Ve dynastie (vers -2445 à -2430 av. J.-C. / règne de Niouserrê)",
+    centuryDisplay: "XXVe s. av. J.-C.",
+    centuryNumeric: -2445,
+    domain: "sculpture_statuaire",
+    artifactType: "Statue en ronde-bosse",
+    title: "Statuette en granite rose du prêtre-lecteur et directeur des scribes Ka-er-sou (Saqqarah)",
+    site: "Nécropole de Saqqarah (Saqqarah)",
+    originSite: "Saqqarah",
+    locationType: "museum",
+    currentLocation: "Musée d'Imhotep à Saqqarah",
+    category: "Statue en ronde-bosse en granite rose",
+    isHighlight: false,
+    chips: ["Ve dynastie", "Ka-er-sou", "Niouserrê", "Saqqarah", "Granite rose", "Prêtre-lecteur", "Directeur des scribes", "Musée de Saqqarah"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNOAKqFAYN1qd78l7HGx_ousZfj2AXRLmrMAxFyHfuXNb9B08BeRDxPg6LQGWr-0tI4l9dIzrOIxZ8J8csHbeH8epQdDeb680MWopbLpUP3AY7BaHnfPRrYriMCV728W0UTXBRx3fHkk1h4Nzew0STBZQ=w1611-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Cette statuette représente Ka-er-sou, un haut fonctionnaire ayant exercé les fonctions de prêtre-lecteur et de directeur des scribes. Découverte à Saqqarah, dans la nécropole memphite, elle date de la Ve dynastie (vers 2445-2430 av. J.-C.), plus précisément du règne du pharaon Niouserrê Ini. Contrairement aux grandes statues royales, cette œuvre privée témoigne du soin apporté aux monuments funéraires des membres de l'administration impériale pour assurer la survie de leur « ka » (l'énergie vitale) dans l'au-delà.</p>
+    <p>L'œuvre est sculptée dans un bloc de granite rose, un matériau d'une grande dureté qui exigeait une maîtrise technique exceptionnelle de la part des artisans. Le personnage est représenté assis sur un siège cubique simple, dans une attitude de dignité et de retenue typique des représentations de l'Ancien Empire. Il porte une perruque courte aux boucles soigneusement étagées et un pagne plissé qui s'évase sur ses genoux. La structure trapue et la robustesse de la silhouette soulignent la solidité et l'éternité souhaitées pour le défunt.</p>
+    <p>Le socle et les côtés du siège sont gravés de colonnes de hiéroglyphes qui mentionnent les titres prestigieux et le nom du prêtre. Ces inscriptions étaient essentielles car la prononciation du nom permettait de maintenir le défunt en vie pour l'éternité. La présence de traces de polychromie sur certains exemplaires similaires suggère que la pierre était parfois peinte pour accentuer le réalisme des détails, tels que les bijoux ou le teint de la peau, rendant l'image du prêtre vivante pour les siècles à venir.</p>
+    <p><strong>Siècle :</strong> XXVe siècle av. J.-C. (-2445) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+   {
     id: "sculpture_djoser_assis_manteau_sed_serdab_saqqarah_caire",
     civId: "egypte",
     periodId: "ancien_empire",
