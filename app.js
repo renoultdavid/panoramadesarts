@@ -1091,7 +1091,7 @@ function populateModalData(art) {
   modalCivTitle.textContent = art.civName || '';
   modalArtworkTitle.textContent = art.title;
   
-  modalChips.innerHTML = '';
+    modalChips.innerHTML = '';
   if (art.chips) {
     art.chips.forEach(chip => {
       const span = document.createElement('span');
@@ -1101,7 +1101,23 @@ function populateModalData(art) {
     });
   }
 
+  // AJOUT : Bouton Focus dans la modale si l'œuvre possède des hotspots
+  if (art.hotspots && art.hotspots.length > 0) {
+    const btnFocus = document.createElement('button');
+    btnFocus.className = 'btn-open-focus-modal';
+    btnFocus.innerHTML = `
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+      Explorer en Mode Focus
+    `;
+    btnFocus.onclick = (e) => {
+      e.stopPropagation();
+      openFocusMode(art);
+    };
+    modalChips.appendChild(btnFocus);
+  }
+
   modalNarrative.innerHTML = art.narrative || '';
+
 }
 
 btnModalClose.addEventListener('click', () => {
@@ -1731,13 +1747,21 @@ else if (selectedCiv === 'egee' && cId !== 'egee' && !['cyclades', 'crete', 'myc
 
   const itemsToDisplay = filtered.slice(0, currentRenderLimit);
 
-  itemsToDisplay.forEach(art => {
+    itemsToDisplay.forEach(art => {
     const card = document.createElement('div');
     card.className = 'gallery-card';
 
+    const hasFocus = art.hotspots && art.hotspots.length > 0;
+
     card.innerHTML = `
-      <div class="gallery-card-pedestal">
+      <div class="gallery-card-pedestal" style="position: relative;">
         <img src="${art.imgSrc}" alt="${art.title}" loading="lazy" />
+        ${hasFocus ? `
+          <span class="badge-corner-focus" title="Mode Focus disponible">
+            <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+            Focus
+          </span>
+        ` : ''}
       </div>
       <div class="gallery-card-body">
         <div class="gallery-card-meta-top">
@@ -1755,6 +1779,7 @@ else if (selectedCiv === 'egee' && cId !== 'egee' && !['cyclades', 'crete', 'myc
 
     galleryGrid.appendChild(card);
   });
+
 
   if (loadMoreBox) {
     loadMoreBox.hidden = currentRenderLimit >= filtered.length;
