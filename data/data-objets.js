@@ -6,6 +6,356 @@ window.ART_OBJECTS = window.ART_OBJECTS || [];
 window.ART_OBJECTS.push(
 
   {
+    id: "peinture_parois_plafond_astronomique_ramses_iv_kv2",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (v. -1150 av. J.-C. / règne de Ramsès IV)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1150,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Transition pariétale et plafond astronomique étoilé de Nout (Tombe KV2)",
+    site: "Tombe de Ramsès IV - KV2 (Vallée des Rois, Thèbes)",
+    originSite: "Vallée des Rois (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe KV2, Vallée des Rois)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XXe dynastie", "KV2 Ramsès IV", "Plafond astronomique", "Nout", "Livre des Portes"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOVS-8kMdlLdz5ruKDdO_8wGcm3GNXq9heIgRCPkMqY5tLoOOgH99ZySGBOJ-o71K5Vcle9SY3iVOLosSXfg6FPQri0fMJoM5R5o_u7hSMg29ei6w0skyBXOprFVB_Sx-A_e1OQueuDMZUhJ86bH57FCw=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>L'image illustre la transition magistrale entre les parois verticales et le plafond astronomique, témoignant d'un programme iconographique complexe destiné à assurer la renaissance éternelle du souverain.</p>
+    <p>Les murs sont recouverts de colonnes serrées de hiéroglyphes polychromes exécutés en relief dans le creux sur un enduit de stuc, reprenant des extraits du Livre des Portes et du Livre des Cavernes qui décrivent le voyage nocturne du soleil dans l'Inframonde. La palette chromatique est dominée par l'ocre jaune du fond, symbolisant la chair divine et l'éclat solaire, tandis que les signes conservent des pigments rouges, bleus et verts d'une remarquable fraîcheur.</p>
+    <p>Le plafond se distingue par un bleu lapis-lazuli profond parsemé d'étoiles jaunes à cinq branches, représentant la voûte céleste et le corps de la déesse Nout. Des registres horizontaux encadrés de bandes colorées présentent des figures divines et des constellations, créant une cosmographie protectrice au-dessus du sarcophage royal. L'organisation rigoureuse de l'espace, la finesse du trait et la densité des textes funéraires font de cette sépulture l'un des exemples les plus aboutis de l'art ramesside tardif.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1150) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture murale, Tableaux & Mosaïque.</p>`
+  },
+  {
+    id: "peinture_plafond_astronomique_cartouches_ramses_iv_kv2",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (v. -1150 av. J.-C. / règne de Ramsès IV)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1150,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Détail du plafond astronomique aux bandes étoilées et cartouches royaux (Tombe KV2)",
+    site: "Tombe de Ramsès IV - KV2 (Vallée des Rois, Thèbes)",
+    originSite: "Vallée des Rois (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe KV2, Vallée des Rois)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XXe dynastie", "KV2 Ramsès IV", "Plafond astronomique", "Étoiles à cinq branches", "Heqa-maât-Rê"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPa7dKFAXXIVL1nkgecqXK93NEReNsy1uKh4gvA-Gwgc00jXmQoHmDnymyDxKgpiwI3If8ZLyvs_4zT81tJYkoiiSE47ulBn59BVr8M3cvHW-7vuygv9OOq35X1Jx0eDb9sS09qTFRARDNUn0Muee7YtA=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Détail du plafond astronomique de la chambre funéraire de Ramsès IV (KV 2), chef-d'œuvre de la XXe dynastie situé dans la Vallée des Rois et datant du milieu du XIIe siècle avant J.-C.</p>
+    <p>La composition se structure en une alternance de registres horizontaux illustrant la cosmographie égyptienne où le ciel est conçu comme une entité protectrice pour le défunt. Les larges bandes de couleur bleu azur, réalisées à partir de lapis-lazuli broyé ou de bleu égyptien, sont constellées d'une multitude d'étoiles jaunes à cinq branches disposées de manière régulière sur un fin quadrillage préparatoire encore visible. Ces zones célestes sont séparées par des frises sur fond ocre jaune éclatant contenant la titulature royale inscrite dans des cartouches polychromes.</p>
+    <p>On y distingue nettement le nom de couronnement Heqa-maât-Rê (Le Prince de Justice de Rê) et le nom de naissance Ramsès associés à des épithètes divines et des symboles de protection comme l'œil Oudjat ou le disque solaire ailé. Le style artistique se caractérise par une saturation chromatique intense et une précision graphique qui visent à recréer l'univers ordonné de Maât au sein de la sépulture.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1150) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture murale, Tableaux & Mosaïque.</p>`
+  },
+  {
+    id: "peinture_livre_terre_portes_coffre_ramses_iv_kv2",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (v. -1150 av. J.-C. / règne de Ramsès IV)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1150,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Le Livre de la Terre : Gardiens des seuils et adoration du coffre sacré (Tombe KV2)",
+    site: "Tombe de Ramsès IV - KV2 (Vallée des Rois, Thèbes)",
+    originSite: "Vallée des Rois (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe KV2, Vallée des Rois)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XXe dynastie", "KV2 Ramsès IV", "Livre de la Terre", "Livre des Portes", "Coffre sacré"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOzr4CWMuZrrQwDoQu61nGqux6X84HJ1AmoAfq2Dcx2QnG8RCKHWAafUpgvj54nAzW0KXga71myF2kp9JqLoT0r08WESity7Ox7Riu2G__kZiMNgIZLbpujkGiaQ7Th5uy1mgfB8hW0QzGtj0EWdkOlhg=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>L'œuvre présentée consiste en une peinture murale a secco sur enduit de calcaire mettant en scène des extraits du Livre des Portes et du Livre de la Terre, compositions funéraires cryptiques destinées à guider le souverain défunt à travers les heures de la nuit.</p>
+    <p>La composition s'articule en registres superposés où l'ocre jaune domine, symbolisant la chair divine et la lumière solaire renaissante dans les ténèbres de l'inframonde. Le registre supérieur déploie une série de divinités anthropomorphes et de figures momiformes inscrites dans des cartouches ou des alcôves protectrices, représentant les différentes formes du dieu solaire Rê ou des gardiens des seuils de l'au-delà. Au registre médian, des figures masculines vêtues du pagne court et de la perruque tripartite adoptent une posture d'adoration, les mains levées devant un coffre sacré ou un sarcophage stylisé qui renferme les mystères de la régénération osirienne.</p>
+    <p>La précision du trait rouge délimitant les silhouettes et l'usage de pigments naturels comme le bleu de fritte et le rouge de terre témoignent de la haute technicité des artisans de Deir el-Médineh. La présence de têtes de bovidés et de symboles solaires circulaires sur la droite souligne le thème de la naissance perpétuelle du jour.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1150) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture murale, Tableaux & Mosaïque.</p>`
+  },
+  {
+    id: "peinture_cortege_porteurs_emblemes_ramses_v_vi_kv9",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (v. -1140 av. J.-C. / règnes Ramsès V - Ramsès VI)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1140,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Cortège rituel des personnifications des heures de la nuit (Tombe KV9)",
+    site: "Tombe de Ramsès V et Ramsès VI - KV9 (Vallée des Rois, Thèbes)",
+    originSite: "Vallée des Rois (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe KV9, Vallée des Rois)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XXe dynastie", "KV9 Ramsès V et VI", "Livre des Portes", "Heures de la nuit", "Offrandes rituelles"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP4634nCbjTLk-ouZXFxzMKzKboq1qS1fUNcbHuh3NQyhQ1qNnjITWm-qbfbWgkjessYml4mn_OMtBHJZ2RW0kTLq7X8HI3dBmgqTpZ6K74DSc0xAMJUIWiVhLFIAjD6bV1I_N9H-pttyRdQB97NguI5A=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Voici un registre pariétal polychrome issu de la tombe commune des pharaons Ramsès V et Ramsès VI, répertoriée sous la nomenclature KV9 dans la Vallée des Rois à Thèbes-Ouest, datant de la XXe dynastie du Nouvel Empire égyptien vers 1140 avant notre ère.</p>
+    <p>L'œuvre présente une frise de figures anthropomorphes évoluant dans un cortège rituel sur un fond ocre, encadrée par d'imposantes colonnes de hiéroglyphes finement gravés et peints qui constituent des extraits de textes funéraires sacrés, probablement issus du Livre des Portes ou du Livre de la Terre. Les personnages, représentés de profil selon les canons de la bidimensionnalité égyptienne, portent des pagnes courts et arborent sur leur tête des récipients ou des emblèmes spécifiques évoquant des offrandes ou des personnifications des heures de la nuit participant à la régénération du souverain défunt.</p>
+    <p>La palette chromatique conserve une fraîcheur exceptionnelle avec des dominantes de rouge brique pour les carnations masculines, de jaune d'or symbolisant l'immortalité, et de pigments verts et bleus issus de silicates de cuivre. Cette paroi illustre la fonction métaphysique de l'hypogée conçue comme un passage vers l'au-delà où l'écriture et l'image fusionnent pour assurer la survie éternelle du Ka royal.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1140) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture murale, Tableaux & Mosaïque.</p>`
+  },
+  {
+    id: "peinture_livre_terre_khepri_chacals_ramses_v_vi_kv9",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (v. -1140 av. J.-C. / règnes Ramsès V - Ramsès VI)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1140,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Livre de la Terre : Renaissance de Khépri sur fond lapis-lazuli et horizon Akhet (Tombe KV9)",
+    site: "Tombe de Ramsès V et Ramsès VI - KV9 (Vallée des Rois, Thèbes)",
+    originSite: "Vallée des Rois (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe KV9, Vallée des Rois)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XXe dynastie", "KV9 Ramsès V et VI", "Livre de la Terre", "Khépri", "Bleu lapis-lazuli", "Akhet"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOpbUPvXvpDT_ez1bHZxco6wH2onJ4NMV49nHHyMWK25u_1JvYqdg5nwmdvkLqlIlkdSSW_BGb-XiF_2P4l7BsbnqzQvfy57X5snd7cqfhNebFFso19gEafIXWUXuw-pSXeSZCRXiM8f7Abe_3ggY8piw=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Scène complexe issue du Livre de la Terre ou du Livre des Cavernes sur un fond bleu lapis-lazuli profond symbolisant la voûte céleste et les eaux primordiales du Noun.</p>
+    <p>L'œuvre présente une iconographie solaire et eschatologique dense où se détachent des figures divines et symboliques peintes en jaune d'or, couleur de la chair des dieux et de l'incorruptibilité, notamment une divinité criocéphale debout supervisant des rituels de régénération. Au centre de la composition, un scarabée Khépri, symbole de la renaissance du soleil, émerge d'un dispositif complexe soutenu par des bras invisibles, tandis que des divinités accroupies et des chacals stylisés, gardiens des seuils de l'au-delà, flanquent les colonnes de textes hiéroglyphiques cryptiques.</p>
+    <p>Le registre supérieur est bordé d'une frise de hiéroglyphes « Akhet » représentant l'horizon, soulignant le passage du soleil entre le monde des morts et celui des vivants. Malgré les écaillages du temps qui révèlent l'enduit blanc sous-jacent, la vivacité du pigment bleu et la précision du dessin ramesside témoignent de l'ambition théologique de ce complexe funéraire.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1140) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture murale, Tableaux & Mosaïque.</p>`
+  },
+  {
+    id: "peinture_livre_portes_noyes_noun_mehen_ramses_v_vi_kv9",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (v. -1140 av. J.-C. / règnes Ramsès V - Ramsès VI)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1140,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Livre des Portes : Les noyés dans les eaux du Noun et le serpent Méhen (Tombe KV9)",
+    site: "Tombe de Ramsès V et Ramsès VI - KV9 (Vallée des Rois, Thèbes)",
+    originSite: "Vallée des Rois (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe KV9, Vallée des Rois)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XXe dynastie", "KV9 Ramsès V et VI", "Livre des Portes", "Noyés du Noun", "Serpent Méhen"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMXal7Iy_wKPeUCjyDdalVEMcuY5A7V-8i8NjvF0ZxTN1-pxNl0lpAAuJZ93r1UgmoPGHbW0rV1eBy_j1jqlcwF9p4mChFjGtgRGgeXWx25GvREeWaCuDsoKyvsbeRFrJ-yhHk2Z-WfKqDm8tKO0vszHQ=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>L'œuvre présentée ici est une fresque peinte sur un enduit de stuc recouvrant le calcaire naturel, illustrant un passage complexe du Livre des Portes qui est l'un des textes funéraires royaux majeurs destinés à guider le souverain défunt à travers les douze heures de la nuit.</p>
+    <p>La composition se structure en registres horizontaux rigoureux séparés par des colonnes de textes hiéroglyphiques cursifs. Le registre supérieur donne à voir une procession de figures hybrides à corps d'oiseaux et têtes humaines (les Ba). Le registre médian, caractérisé par un fond bleu sombre symbolisant les eaux primordiales du Noun ou les profondeurs de l'Inframonde, met en scène une série de personnages dénudés représentés dans des postures de nage ou de flottement, symbolisant les noyés dont les corps sont préservés de la décomposition par l'intervention divine.</p>
+    <p>En dessous, le registre inférieur est dominé par une iconographie serpentine monumentale dont les ondulations régulières encadrent des divinités momiformes debout, illustrant le passage de la barque solaire à travers le corps protecteur du serpent Méhen. Cette paroi témoigne d'une horreur du vide caractéristique de l'art funéraire tardif du Nouvel Empire.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1140) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture murale, Tableaux & Mosaïque.</p>`
+  },
+  {
+    id: "peinture_corridor_monumental_piliers_nout_ramses_v_vi_kv9",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (v. -1140 av. J.-C. / règnes Ramsès V - Ramsès VI)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1140,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Corridor monumental aux piliers décorés et voûte céleste de Nout (Tombe KV9)",
+    site: "Tombe de Ramsès V et Ramsès VI - KV9 (Vallée des Rois, Thèbes)",
+    originSite: "Vallée des Rois (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe KV9, Vallée des Rois)",
+    category: "Peinture murale ramesside",
+    isHighlight: true,
+    chips: ["XXe dynastie", "KV9 Ramsès V et VI", "Corridor hypogée", "Osiris trônant", "Livre de la Nuit"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOzBAft7u9wT3tqSBIWwcoOfoNOIo3mfgkzvxzVvuLXtRQGJjBBIBW3hC2ZRoCqBMwgQlJh9POQfkmUuUsfca4GbEbHykWDkSeYb79Fa8UIS3CJXQUYpoNDTf1FhlfXnr_iuMPcRNyYAhk6i7-Ef4Mvyg=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>La vue s'ouvre sur un corridor monumental scandé par des piliers massifs dont les parois sont ornées de scènes d'offrandes et de textes sacrés, menant le regard vers une double représentation du dieu Osiris, maître de l'au-delà, trônant de part et d'autre d'un linteau surmonté de disques solaires.</p>
+    <p>L'élément le plus spectaculaire de cette composition est le plafond astronomique d'un bleu profond, où se déploie une partie du Livre du Jour et du Livre de la Nuit illustrant le corps de la déesse céleste Nout qui avale le soleil le soir pour le mettre au monde chaque matin. Les piliers au premier plan présentent des registres superposés où le roi est figuré face à diverses divinités protectrices, tandis que les surfaces verticales sont saturées de colonnes de hiéroglyphes polychromes.</p>
+    <p>La conservation exceptionnelle des pigments permet d'apprécier la vivacité des jaunes d'or, des rouges terreux et des bleus égyptiens, créant un contraste saisissant avec la pierre calcaire ocre de la structure. L'organisation spatiale souligne la fonction de passage de ce couloir, conçu comme un cheminement initiatique vers la chambre funéraire.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1140) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture murale, Tableaux & Mosaïque.</p>`
+  },
+  {
+    id: "peinture_livre_terre_divinite_solaire_anubis_ramses_v_vi_kv9",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (v. -1140 av. J.-C. / règnes Ramsès V - Ramsès VI)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1140,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Livre de la Terre : Divinité solaire embrassant le disque et adoration d'Anubis (Tombe KV9)",
+    site: "Tombe de Ramsès V et Ramsès VI - KV9 (Vallée des Rois, Thèbes)",
+    originSite: "Vallée des Rois (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe KV9, Vallée des Rois)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XXe dynastie", "KV9 Ramsès V et VI", "Livre de la Terre", "Disque solaire", "Anubis", "Serpents gardiens"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPZdu35XskGh88aiOSqTSXDeII7if7v3m6k3POtM4H-U77CB1CYR41nwgFGMlEKxDo9LkoStC3T5I5WJsHd07SOGOPK61urnZTG2fcmExVsiUhwkRmLLZ3dUwGa6rPm3VLoW6w7Z0TK-DeD3-xbEjgZ9A=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>L'œuvre illustre des segments complexes du Livre de la Terre et du Livre des Portes, des textes funéraires royaux destinés à guider le souverain à travers les régions souterraines de la Douat durant les heures de la nuit.</p>
+    <p>La figure centrale dominante représente une divinité solaire ou une personnification du ciel, peinte d'un jaune ocre vibrant, recevant ou protégeant le disque solaire rouge, symbole de la régénération quotidienne de l'astre. À sa gauche, le dieu chacal Anubis, gardien des nécropoles, est représenté en pleine inclinaison rituelle devant une série de divinités momiformes, soulignant le thème de la préservation du corps et de l'âme.</p>
+    <p>La composition est rigoureusement structurée par des registres horizontaux et des colonnes de hiéroglyphes finement gravés et colorés, où alternent le rouge brique, le bleu lapis-lazuli et le jaune d'or sur un fond de calcaire crème. On y observe également la présence de serpents protecteurs dressés, symboles de la puissance apotropaïque contre les forces du chaos comme Apophis.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1140) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture murale, Tableaux & Mosaïque.</p>`
+  },
+  {
+    id: "peinture_pharaon_offrande_nemes_barque_solaire_ramses_v_vi_kv9",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (v. -1140 av. J.-C. / règnes Ramsès V - Ramsès VI)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1140,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Le pharaon au Némès officiant devant la navigation de la barque solaire (Tombe KV9)",
+    site: "Tombe de Ramsès V et Ramsès VI - KV9 (Vallée des Rois, Thèbes)",
+    originSite: "Vallée des Rois (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe KV9, Vallée des Rois)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XXe dynastie", "KV9 Ramsès V et VI", "Némès", "Offrande d'encens", "Barque solaire"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMynXElABzEf1kKW4hYoFjVSUsGAkXI19_cqAlr-OqkJYNzYwkVRcsbUbj7dzyiWIzYU58soOQ7gqvsBZ_5zHmAfeDUv4V7-xiZBgxz_vDgyvaqhmVvo9Uf8pj7IxExTzgcYaDLxXbOgIELbG3jG8qBMg=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Le panneau de droite met en scène le pharaon lui-même, identifié par ses cartouches royaux surmontés du disque solaire et flanqués d'uraeus protecteurs, représenté dans une posture d'offrande rituelle et de dévotion.</p>
+    <p>Le souverain porte la coiffe Némès et présente un récipient contenant de l'encens ou des onguents sacrés, symbolisant son rôle d'intermédiaire privilégié entre l'humanité et les puissances divines dans l'au-delà. Sur la paroi perpendiculaire à gauche, la scène se prolonge par une riche iconographie extraite du Livre des Portes et du Livre de la Terre, illustrant la barque solaire de Rê naviguant sur les eaux célestes.</p>
+    <p>On y distingue des registres de figures humaines et de divinités en procession, dont une file de personnages rouges aux bras levés en signe d'adoration, ainsi que des colonnes de textes hiéroglyphiques denses décrivant les métamorphoses nécessaires pour traverser les heures de la nuit. La technique du relief en creux et les couleurs dominantes soulignent la continuité théologique et artistique de la période ramesside tardive.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1140) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture murale, Tableaux & Mosaïque.</p>`
+  },
+  {
+    id: "peinture_transition_voute_decans_metempsychose_ramses_v_vi_kv9",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (v. -1140 av. J.-C. / règnes Ramsès V - Ramsès VI)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1140,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Transition architecturale, constellations et décans du Livre du Jour et de la Nuit (Tombe KV9)",
+    site: "Tombe de Ramsès V et Ramsès VI - KV9 (Vallée des Rois, Thèbes)",
+    originSite: "Vallée des Rois (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe KV9, Vallée des Rois)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XXe dynastie", "KV9 Ramsès V et VI", "Livre du Jour et de la Nuit", "Décans", "Bleu égyptien"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMtEyz3IHD2YQqJR0tGgH1TzVTxVjIwirdpUN_j5SYT3rPc2qRwIpo0Snme7Ej6dweV_fWeWchi9eaBJmn6rUQ8oGJMuADUpqBJn7-ynFwt4ZL-45yKhoZmnRjFRDSqnLIazMNiq6MzllXMXZ0FwITxAA=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette photographie saisit la transition architecturale entre les parois verticales et le plafond astronomique, témoignant du sommet de l'art funéraire de la XXe dynastie.</p>
+    <p>Le plafond, d'un bleu profond obtenu par l'utilisation de lapis-lazuli broyé ou de bleu égyptien, présente des extraits du Livre du Jour et du Livre de la Nuit, illustrant le voyage éternel de la barque solaire de Rê à travers le corps de la déesse céleste Nout. Les registres supérieurs montrent des constellations, des divinités stellaires et des décans organisés selon une grille mathématique rigoureuse qui servait de guide aux peintres pour assurer des proportions divines.</p>
+    <p>Sur les linteaux et les piliers, les reliefs en creux polychromes dépeignent le pharaon accueilli par les divinités du panthéon thébain, notamment Osiris et Horus, soulignant la légitimité divine du souverain. La palette chromatique est dominée par le contraste saisissant entre le bleu azur du ciel nocturne et l'or éclatant des figures.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1140) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture murale, Tableaux & Mosaïque.</p>`
+  },
+  {
+    id: "peinture_perspective_axiale_corridor_livre_nuit_ramses_v_vi_kv9",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (v. -1140 av. J.-C. / règnes Ramsès V - Ramsès VI)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1140,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Perspective axiale du corridor : Voûte du Livre de la Nuit et parois du Livre des Portes (Tombe KV9)",
+    site: "Tombe de Ramsès V et Ramsès VI - KV9 (Vallée des Rois, Thèbes)",
+    originSite: "Vallée des Rois (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe KV9, Vallée des Rois)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XXe dynastie", "KV9 Ramsès V et VI", "Perspective axiale", "Livre de la Nuit", "Orpiment"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPIZ1USu9_ohA6WnZEE5q-d_GoKI6q9GU8zQI-B-QmO907s1N0X3OMNfbzMXleweZL2AFpTQ4KbA7q_fEzNckp7NB5xCQv6QFsyZ88I6NSnc4mw40oSyuhLlUqiBKhlhsNhdfa_QM3h_bFqIqy4ma02tg=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette perspective axiale de la tombe KV9 de Ramsès V et Ramsès VI révèle la structure complexe des couloirs successifs dont le décor fusionne la topographie de l'au-delà et la mécanique céleste.</p>
+    <p>La voûte présente une version monumentale du Livre de la Nuit où la déesse Nout, non visible ici mais dont le corps s'étend sur toute la longueur du plafond, avale le soleil au crépuscule pour le mettre au monde à l'aube. Les bandes jaunes longitudinales portent des inscriptions hiéroglyphiques détaillant les heures de la nuit, tandis que les registres bleus sont peuplés de divinités protectrices et de barques solaires naviguant sur les eaux primordiales.</p>
+    <p>Sur les parois verticales à droite, on observe des scènes extraites du Livre des Portes montrant les défunts et les génies franchissant les divisions de l'Inframonde, encadrés par des colonnes de textes rituels parfaitement alignées. La composition joue sur une symétrie rigoureuse qui guide l'âme du pharaon vers la chambre funéraire.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1140) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture murale, Tableaux & Mosaïque.</p>`
+  },
+  {
+    id: "peinture_anubis_khepri_ennemis_enchaines_ramses_v_vi_kv9",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (v. -1140 av. J.-C. / règnes Ramsès V - Ramsès VI)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1140,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Anubis aux sarcophages ovales, cortège de Khépri et châtiment des ennemis (Tombe KV9)",
+    site: "Tombe de Ramsès V et Ramsès VI - KV9 (Vallée des Rois, Thèbes)",
+    originSite: "Vallée des Rois (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe KV9, Vallée des Rois)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XXe dynastie", "KV9 Ramsès V et VI", "Anubis canidé", "Khépri", "Ennemis châtiés"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP0VhgdIfAkvqPfKeEyMwzi4cyUX609Xc5AjEurUkbnc7dsC6iKqcgRkjsI0wZitUf31ANHmioSKxga9eItZhDmcDF4-cgs8EaCTJ_zIS43-Kh2A4TPlia2ZwAle0JRO2n4DUMxAkPZRnM_NxAP7_z9xA=w613-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette notice muséale détaille un registre pariétal issu de la tombe commune de Ramsès V et Ramsès VI, répertoriée sous le nom de KV9 dans la Vallée des Rois, datant de la XXe dynastie du Nouvel Empire égyptien vers 1140 avant notre ère.</p>
+    <p>L'œuvre présentée consiste en une peinture murale a secco sur enduit de calcaire illustrant des segments du Livre des Portes et du Livre de la Terre, deux textes funéraires fondamentaux. La composition s'articule en registres superposés où l'on observe en haut la figure d'Anubis, reconnaissable à sa tête de canidé, présidant aux rituels de régénération devant des corps momiformes disposés dans des structures ovales symbolisant des îles ou des sarcophages.</p>
+    <p>Au registre central, une procession de divinités anthropomorphes à tête de bélier ou de faucon avance vers la droite, précédée par le disque solaire rouge et le grand scarabée Khépri. La partie inférieure montre des figures décapitées et des corps entravés, représentant les ennemis de l'ordre cosmique soumis au châtiment divin, un motif récurrent destiné à garantir le triomphe du pharaon sur le chaos.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1140) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture murale, Tableaux & Mosaïque.</p>`
+  },
+  {
+    id: "peinture_chambre_funeraire_plafond_nout_inversion_ramses_v_vi_kv9",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (v. -1140 av. J.-C. / règnes Ramsès V - Ramsès VI)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1140,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Plafond astronomique de la chambre funéraire : Double Nout et barques inversées de la Douat (Tombe KV9)",
+    site: "Tombe de Ramsès V et Ramsès VI - KV9 (Vallée des Rois, Thèbes)",
+    originSite: "Vallée des Rois (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe KV9, Vallée des Rois)",
+    category: "Peinture murale ramesside",
+    isHighlight: true,
+    chips: ["XXe dynastie", "KV9 Ramsès V et VI", "Chambre funéraire", "Double Nout", "Barques inversées"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMUDRjEiPUiBwNCaSXc-u8f_1hGBQONN7N9VMSV4HDRNAbXzc42gOY1kcfHoVfxJSq4ZPGmxPuN6P7_aFolF4ejeFYGcdH-YoZ0qKacj6rVT10Cb6kyqM6_SCNO9Bi9QJV5Lxe5xf8Zd-wjAeuNL4i2QA=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Plafond astronomique de la chambre funéraire de la tombe KV9 dans la Vallée des Rois, appartenant aux pharaons Ramsès V et Ramsès VI de la XXe dynastie du Nouvel Empire.</p>
+    <p>L'œuvre représente une partie du Livre du Jour et du Livre de la Nuit, exécutée avec une technique de peinture sur enduit caractérisée par un contraste saisissant entre un fond bleu lapis-lazuli profond évoquant l'immensité du cosmos et des figures peintes en jaune ocre symbolisant l'éclat de l'or divin. La scène est dominée par la double représentation de la déesse du ciel, Nout, dont le corps allongé et étoilé s'étire sur toute la voûte pour avaler le soleil au crépuscule et lui donner naissance à l'aube.</p>
+    <p>Sur ce segment précis, on observe des divinités et des barques solaires naviguant tête en bas, une convention artistique signifiant que ces scènes appartiennent au monde inversé de la Douat ou à la course nocturne de l'astre durant les douze heures d'obscurité. Les registres inférieurs présentent des divinités momiformes logées sous des voûtes ou des tertres protecteurs, évoquant la régénération des morts.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1140) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture murale, Tableaux & Mosaïque.</p>`
+  },
+  {
+    id: "peinture_livre_portes_registres_oiseaux_ba_ramses_v_vi_kv9",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (v. -1140 av. J.-C. / règnes Ramsès V - Ramsès VI)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1140,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Registres superposés du Livre des Portes : Divinités affrontées et cortège aux oiseaux-ba (Tombe KV9)",
+    site: "Tombe de Ramsès V et Ramsès VI - KV9 (Vallée des Rois, Thèbes)",
+    originSite: "Vallée des Rois (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe KV9, Vallée des Rois)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XXe dynastie", "KV9 Ramsès V et VI", "Livre des Portes", "Oiseaux-ba", "Autel liturgique"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNgwuBVnfjdCaxYapwKmueQxBnHdv4o3IknA-GDJ_6hpD0edNwS-71R6RjqtRxssi1_-P78K1drfh_75MieNm50TQ28VSdOpIFqwFeKFNrqmDRCWG2WLsHaEOEAWaPQ_Di51P2gCm2xAvvAVeg4hFlrYg=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette notice muséale détaille une section des parois peintes de la tombe commune des pharaons Ramsès V et Ramsès VI, répertoriée sous la nomenclature KV9 dans la Vallée des Rois, à Thèbes-Ouest, datant de la XXe dynastie du Nouvel Empire égyptien, vers 1140 avant notre ère.</p>
+    <p>L'œuvre présentée consiste en un relief polychrome sculpté dans le calcaire fin et enduit, illustrant des registres superposés issus du Livre des Portes et du Livre de la Terre. La composition se distingue par une organisation rigoureuse en bandes horizontales séparées par d’épais traits sombres. Au registre supérieur, on observe une procession de figures divines debout, tandis que le registre médian présente deux divinités assises face à face de part et d'autre d'un autel ou d'une structure rituelle, symbolisant l'équilibre cosmique et la régénération solaire.</p>
+    <p>Le registre inférieur montre une suite de personnages masculins vêtus du pagne court doré, marchant en cadence derrière une série d'oiseaux-ba à long cou, représentant les âmes des défunts ou des puissances divines en transition. La palette chromatique est caractéristique de l'époque ramesside, privilégiant les ocres jaunes symbolisant l'or et l'éternité, le rouge brique pour les carnations masculines et le bleu lapis-lazuli pour les perruques divines.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1140) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture murale, Tableaux & Mosaïque.</p>`
+  },
+   {
     id: "peinture_ramses_iii_vases_nou_khaemwaset_qv44",
     civId: "egypte",
     periodId: "nouvel_empire",
