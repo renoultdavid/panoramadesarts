@@ -6,6 +6,82 @@ window.ART_OBJECTS = window.ART_OBJECTS || [];
 window.ART_OBJECTS.push(
 
   {
+    id: "stele_taureau_buchis_hermonthis_le_caire",
+    civId: "egypte",
+    periodId: "greco_romaine",
+    civName: "Égypte : Époque Ptolémaïque & Romaine",
+    century: "IIIe siècle av. J.-C. (v. -250 av. J.-C. / règne de Ptolémée II)",
+    centuryDisplay: "IIIe s. av. J.-C.",
+    centuryNumeric: -250,
+    domain: "sculpture_statuaire",
+    artifactType: "Monolithe / Stèle sculptée",
+    title: "Stèle d'offrandes et de dévotion au taureau sacré Buchis",
+    site: "Musée égyptien de la place Tahrir (Le Caire / prov. Hermonthis)",
+    originSite: "Bucheum d'Hermonthis (Haute-Égypte)",
+    locationType: "museum",
+    currentLocation: "Musée égyptien du Caire",
+    category: "Stèle votive polychrome",
+    isHighlight: false,
+    chips: ["Époque ptolémaïque", "Taureau Buchis", "Bucheum", "Musée du Caire"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPWDkFZ2NK7h9TgUstGW9eFCdCU0XJa_sjbfJuoSMvnveoi8D40CDg_FV4bNcG2RT3RQWeib0GdmR2sdIQku21aoO8V3b6RB24CtwEdB1J9DKUgsFaJwQL_RDnEkkR91R0kgun6wvjpUbbKnHNcT-lxpw=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette stèle, découverte dans le Bucheum d'Hermonthis et conservée au Musée égyptien du Caire, représente une scène d'offrande au taureau sacré Buchis. Datée du règne de Ptolémée II Philadelphe, vers 250 av. J.-C., elle appartient à la dynastie lagide. L'œuvre illustre la continuité des traditions religieuses égyptiennes sous la domination grecque, où les souverains ptolémaïques adoptaient les rites locaux pour asseoir leur légitimité.</p>
+    <p>Le relief montre le pharaon, vêtu du pagne traditionnel et de la couronne, présentant des offrandes au taureau Buchis. Ce dernier est représenté avec ses attributs divins, notamment le disque solaire et les deux hautes plumes entre ses cornes, soulignant son lien avec les dieux Rê et Montou. Un faucon protecteur, symbole d'Horus, survole la scène, renforçant la dimension sacrée et royale de l'interaction.</p>
+    <p>L'exécution artistique se distingue par l'utilisation de couleurs vives et de dorures qui subsistent encore partiellement, notamment sur le corps du taureau. Le style combine la rigueur des canons égyptiens classiques avec une certaine souplesse dans le modelé des corps, caractéristique de l'époque ptolémaïque. Les hiéroglyphes entourant la scène identifient le roi et précisent la nature des rituels accomplis pour assurer la prospérité du pays.</p>
+    <p>La partie inférieure de la stèle est occupée par plusieurs registres de textes hiéroglyphiques horizontaux. Ces inscriptions détaillent généralement la vie du taureau sacré, de sa naissance à son installation dans le temple, ainsi que les bienfaits accordés par le roi. Ce type de monument funéraire était érigé à la mort de chaque taureau Buchis, témoignant de l'importance du culte des animaux sacrés comme manifestations vivantes du divin durant la Basse Époque et la période gréco-romaine.</p>
+    <p><strong>Siècle :</strong> IIIe siècle av. J.-C. (-250) | <strong>Civilisation :</strong> Égypte antique (Époque ptolémaïque) | <strong>Sous-partie :</strong> Tombes & Rituels.</p>`
+  },
+  {
+    id: "relief_ankh_adoration_denderah",
+    civId: "egypte",
+    periodId: "greco_romaine",
+    civName: "Égypte : Époque Ptolémaïque & Romaine",
+    century: "Ier siècle av. J.-C. (v. -54 av. J.-C. / Époque ptolémaïque tardive)",
+    centuryDisplay: "Ier s. av. J.-C.",
+    centuryNumeric: -54,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Panneau hiéroglyphique monumental à l'Ânkh et figure d'adoration (Temple d'Hathor)",
+    site: "Temple d'Hathor (Dendérah, Égypte)",
+    originSite: "Dendérah (Haute-Égypte)",
+    locationType: "site",
+    currentLocation: "In situ (Temple d'Hathor, Dendérah)",
+    category: "Bas-relief ptolémaïque",
+    isHighlight: false,
+    chips: ["Époque ptolémaïque", "Dendérah", "Signe Ânkh", "Temple d'Hathor"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMbh7Tm5qa4ovoQp_qo3Cjr-grtd8XU2QrS_AXCnJvaRkHLNtqTm2l0MngWQohAt-w6WvjqXLRD5iw0dDWHBH-eNo0ZPYm8c_W-kz3x3PY0RKRif7mBbozbMtRoGgHtRLoX-T0_klRrK7jwZCbd68WQ_Q=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette œuvre est un relief en creux caractéristique de l’époque gréco-romaine, provenant du complexe architectural du temple d'Hathor à Dendérah, l’un des sites les mieux préservés de Haute-Égypte. La pierre calcaire a été sculptée avec une précision remarquable, utilisant des lignes profondes pour capter la lumière crue du désert et rendre les textes lisibles malgré la pénombre des salles intérieures. Le style se distingue par des formes pleines et une exécution soignée, typiques de la dynastie ptolémaïque qui cherchait à magnifier les cultes ancestraux pour légitimer son pouvoir.</p>
+    <p>Le panneau présente une succession de hiéroglyphes monumentaux qui ne sont pas de simples outils de communication, mais de véritables icônes sacrées. On y distingue notamment le signe de l'Ankh, symbole de vie éternelle, ainsi qu'une figure humaine en posture d'adoration, les bras levés dans un geste de respect et de prière face au divin. La présence de la tête de gazelle et du roseau indique des inscriptions rituelles complexes, probablement liées aux offrandes ou aux épithètes de la déesse Hathor, maîtresse du ciel et de la joie.</p>
+    <p>Dans le contexte spécifique de Dendérah, ces inscriptions participent à la fonction cosmogonique du temple. Chaque mur gravé servait de support aux rites quotidiens où le roi, représenté par les prêtres, maintenait l'équilibre du monde (la Maât) en honorant les puissances divines. La qualité de ce relief témoigne de l'importance du temple comme centre intellectuel et spirituel, où la théologie s'exprimait par une esthétique monumentale visant à traverser les millénaires pour assurer la pérennité du cycle vital.</p>
+    <p><strong>Siècle :</strong> Ier siècle av. J.-C. (-54) | <strong>Civilisation :</strong> Égypte antique (Époque gréco-romaine) | <strong>Sous-partie :</strong> Architecture & Temples.</p>`
+  },
+  {
+    id: "registre_cryptographique_faune_denderah",
+    civId: "egypte",
+    periodId: "greco_romaine",
+    civName: "Égypte : Époque Ptolémaïque & Romaine",
+    century: "Ier siècle av. J.-C. (à partir de -54 av. J.-C. / Époque gréco-romaine)",
+    centuryDisplay: "Ier s. av. J.-C.",
+    centuryNumeric: -54,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Registre épigraphique dense à la faune symbolique et rituelle (Temple d'Hathor)",
+    site: "Temple d'Hathor (Dendérah, Égypte)",
+    originSite: "Dendérah (Haute-Égypte)",
+    locationType: "site",
+    currentLocation: "In situ (Temple d'Hathor, Dendérah)",
+    category: "Bas-relief ptolémaïque",
+    isHighlight: false,
+    chips: ["Époque gréco-romaine", "Dendérah", "Faune symbolique", "Écriture cryptographique"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOIXEaJYklw5GPcnCdkwxcV_wcK02YZo1JvWb-0pJk6KJMalaFU-rSmjK5MQIdxObqww2d2YptzWIACl57xuMNc_OunLBDPJvfZegRIfaj75grzdcLSCLnhjPq7f1Ar5HrTaU41ZvkSxNpX4h4IZ8gOsw=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce panneau épigraphique, situé à proximité immédiate des scènes d'offrandes, illustre la densité exceptionnelle des textes du temple de Dendérah. Contrairement aux époques plus anciennes où l'écriture restait aérée, la période gréco-romaine (à partir de 54 av. J.-C.) se caractérise par une "horreur du vide", comblant chaque centimètre de pierre par des signes finement détaillés. Les graveurs ont ici utilisé un calcaire de grande qualité, permettant de rendre avec réalisme l'anatomie des animaux et la texture des objets rituels.</p>
+    <p>Le registre présente une faune symbolique variée : on y distingue un lion marchant, allégorie de la puissance souveraine et solaire, ainsi qu'une gazelle couchée. Ces animaux ne sont pas de simples illustrations, mais des phonogrammes ou des idéogrammes complexes. Par exemple, le vautour percnoptère visible à droite est un signe classique pour la lettre "a" (ȝ), mais il peut aussi symboliser la protection maternelle ou une divinité spécifique selon le contexte du texte.</p>
+    <p>La présence de vases à libations et de sceptres indique que ce texte détaille probablement les composants d'un rituel ou les titres glorieux d'Hathor. À Dendérah, les prêtres ont développé un système d'écriture cryptographique où certains signes ont des sens multiples, transformant les murs en un véritable livre de pierre destiné à préserver les mystères du culte face au déclin de la civilisation égyptienne traditionnelle sous l'Empire romain.</p>
+    <p><strong>Siècle :</strong> Ier siècle av. J.-C. (-54) | <strong>Civilisation :</strong> Égypte antique (Époque gréco-romaine) | <strong>Sous-partie :</strong> Architecture & Temples.</p>`
+  },
+   {
     id: "registres_hieroglyphes_temple_kom_ombo",
     civId: "egypte",
     periodId: "greco_romaine",
