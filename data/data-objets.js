@@ -6,6 +6,129 @@ window.ART_OBJECTS = window.ART_OBJECTS || [];
 window.ART_OBJECTS.push(
 
   {
+    id: "peinture_divinite_occident_ramose_tt55",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1350 av. J.-C. / règne d'Amenhotep III - Amenhotep IV)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1350,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Peinture murale de la déesse de l'Occident accueillant Ramose (TT55)",
+    site: "Tombe de Ramose - TT55 (Cheikh Abd el-Gournah, Thèbes)",
+    originSite: "Cheikh Abd el-Gournah (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe TT55, Gournah)",
+    category: "Peinture murale thébaine",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "TT55 Ramose", "Déesse de l'Occident", "Détrempe sur enduit"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMOByfs7houYXMSc8UGf72WathXVPyPXFAN4j6kg5Gr7jyN5XQTMRC1GBmyxvXI-fwzDRZSYv42i-SmxYzCBcW972QmSQ4-QhWA0IssZNntgHzlRQ7XvLctnD1u-halPpasDwi39j9pS0W2dySyLc7IqA=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette peinture murale, extraite du cycle décoratif de la tombe thébaine de Ramose (TT55), constitue un témoignage exceptionnel de la transition stylistique majeure s'opérant sous le règne d'Amenhotep III et au début de celui d'Amenhotep IV, futur Akhenaton, vers 1350 avant notre ère. Ramose, qui occupait la prestigieuse fonction de vizir et de gouverneur de Thèbes, a fait ériger cette sépulture dans la nécropole de Cheikh Abd el-Gournah, où se côtoient les bas-reliefs d'un raffinement classique extrême et des peintures annonçant le naturalisme de l'art amarnien. La scène présentée ici illustre les rites funéraires et la présentation du défunt devant les divinités du monde souterrain, mettant en œuvre la technique de la détrempe sur un enduit de limon et de plâtre.</p>
+    <p>La figure centrale, une divinité féminine ou une allégorie de l'Occident, est vêtue de la robe fourreau rouge traditionnelle, soulignant une silhouette allongée et élégante caractéristique du goût sophistiqué de la fin de la XVIIIe dynastie. Elle tient d'une main le sceptre ouas, symbole de puissance et de domination, et de l'autre le signe ânkh, gage de vie éternelle, tout en accueillant le défunt dont la silhouette s'efface partiellement sur la droite. La palette chromatique repose sur des pigments naturels tels que l'ocre jaune pour la carnation, l'oxyde de fer pour le vêtement et le bleu égyptien pour les détails des bijoux et des perruques. Les hiéroglyphes surmontant les personnages, disposés en colonnes régulières, déclinent les titres de Ramose et les formules d'offrandes nécessaires à la survie de son ka dans l'au-delà.</p>
+    <p>L'œuvre frappe par la précision du trait et la fluidité des contours, héritées du style de la cour d'Amenhotep III, tout en conservant une solennité religieuse impérieuse. Malgré les outrages du temps et les lacunes de l'enduit, la vivacité des couleurs et la maîtrise de la composition architecturale témoignent de l'apogée de l'artisanat thébain avant le transfert de la capitale vers Amarna. Cette pièce demeure une étape cruciale pour comprendre l'évolution de l'esthétique égyptienne, marquant le passage de la perfection académique à une expressivité plus humaine et sensible.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1350) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+  {
+    id: "peinture_pleureuses_ramose_tt55",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1350 av. J.-C. / règne d'Amenhotep III - Amenhotep IV)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1350,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Le cortège des pleureuses professionnelles (Tombe de Ramose, TT55)",
+    site: "Tombe de Ramose - TT55 (Cheikh Abd el-Gournah, Thèbes)",
+    originSite: "Cheikh Abd el-Gournah (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe TT55, Gournah)",
+    category: "Peinture murale thébaine",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "TT55 Ramose", "Pleureuses thébaines", "Lamentations"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczObYMOvA8iiei444PUkTVfbMkXoq86kjXtowrOEmRS_IWfcKeK-goRiSIq_O3Pm0P-qxhAchc52G-wQOflQBMZtCE2VJgUsoAV0-KfGkFlvvUUWyUQcnSb-kD76FcMBcXX-m7fzR5ofTcH7oanLpNDuNA=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette peinture murale, provenant de la célèbre tombe du vizir Ramose (TT55) à Thèbes, illustre l'un des sommets de l'art funéraire sous le règne d'Amenhotep III et au début de l'époque amarnienne (vers 1350 av. J.-C.). La scène dépeint le cortège des pleureuses professionnelles, un motif iconographique classique mais traité ici avec une sensibilité et un dynamisme remarquables. Les femmes, vêtues de longues robes de lin fin plissées, sont représentées dans des postures de deuil intense : les bras levés vers le ciel dans un geste d'imploration, les mains sur la tête ou le visage baigné de larmes suggérées par la ferveur de leurs expressions.</p>
+    <p>La composition utilise le principe de la répétition et du chevauchement des silhouettes pour créer un effet de masse et de profondeur, accentuant la dimension sonore et émotionnelle des lamentations. Le rendu des chevelures noires tombant sur les épaules et la finesse des traits du visage témoignent du style élégant et sophistiqué propre à la fin de la XVIIIe dynastie. Sur la droite, le registre présente des porteurs d'offrandes et des personnages masculins dont la peau est traditionnellement rendue par une couleur ocre rouge plus sombre que celle des femmes.</p>
+    <p>La technique employée est une peinture à la détrempe sur un enduit de plâtre, où les pigments minéraux conservent une fraîcheur exceptionnelle malgré les dommages causés par le temps et l'érosion du support. Les colonnes de hiéroglyphes situées au-dessus du groupe à droite servent à identifier les participants ou à retranscrire les chants funèbres accompagnant la dépouille de Ramose vers sa demeure d'éternité. Cette œuvre est emblématique du passage du classicisme parfait à une liberté de mouvement et une expression des sentiments qui préfigurent les bouleversements artistiques d'Akhenaton.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1350) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+  {
+    id: "peinture_convoi_funeraire_registres_ramose_tt55",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1350 av. J.-C. / règne d'Amenhotep III - Amenhotep IV)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1350,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Registres narratifs du convoi funéraire et sacrifice rituel (Tombe de Ramose, TT55)",
+    site: "Tombe de Ramose - TT55 (Cheikh Abd el-Gournah, Thèbes)",
+    originSite: "Cheikh Abd el-Gournah (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe TT55, Gournah)",
+    category: "Peinture murale thébaine",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "TT55 Ramose", "Convoi funéraire", "Sacrifice du taureau"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOIN-g0GvVZ3JliQYhEPPqvXW98J-_tBLd7aaHDdukxWtzsiFfyewF4puThw5dzdnZ0Jj7RbPulPZKtU_gCt9uhrDA5-FHGXyQJKngAND6Urm7snJEP3v2WniSvOc7i5szlo2ZuFuZPcH4ISY7OmRWtHw=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette extension picturale de la tombe du vizir Ramose (TT55) à Thèbes déploie une narration complexe sur plusieurs registres, illustrant les étapes rituelles du convoi funéraire vers la nécropole vers 1350 avant notre ère. Le registre inférieur présente le célèbre groupe des pleureuses professionnelles, dont les corps fléchis et les bras levés traduisent une douleur codifiée mais d'une intensité saisissante, leurs robes de lin blanc contrastant avec leurs longues chevelures noires éparses. À leur suite, une procession d'hommes vêtus de pagnes blancs transporte le mobilier funéraire et des offrandes rituelles, incluant des vases à onguents et des coffres, tandis que certains portent des tiges de papyrus symbolisant la renaissance.</p>
+    <p>Le registre supérieur détaille les préparatifs techniques et religieux, montrant notamment le traînage du sarcophage sur un traîneau ainsi que le transport du coffre à canopes, sous la direction de prêtres et d'officiels. On y observe également le sacrifice rituel d'un taureau, élément indispensable pour nourrir le ka du défunt dans l'au-delà, rendu avec un réalisme dynamique qui rompt avec la rigidité des périodes antérieures. L'utilisation d'une frise de khakherou en partie haute assure une transition architecturale élégante, encadrant ces scènes de vie et de mort avec une géométrie colorée.</p>
+    <p>La finesse des contours et la superposition des silhouettes témoignent de la virtuosité des artistes thébains de la XVIIIe dynastie, capables de suggérer la profondeur et le mouvement de la foule par un jeu de répétition rythmique. L'ensemble, bien que marqué par des lacunes dans l'enduit de limon, conserve une fraîcheur de coloris qui permet de lire précisément la hiérarchie sociale et religieuse du cortège, des serviteurs anonymes aux hauts dignitaires.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1350) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+  {
+    id: "peinture_procession_barque_canopes_ramose_tt55",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1350 av. J.-C. / règne d'Amenhotep III - Amenhotep IV)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1350,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Procession de la barque funéraire et porteurs de mobilier (Tombe de Ramose, TT55)",
+    site: "Tombe de Ramose - TT55 (Cheikh Abd el-Gournah, Thèbes)",
+    originSite: "Cheikh Abd el-Gournah (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe TT55, Gournah)",
+    category: "Peinture murale thébaine",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "TT55 Ramose", "Barque funéraire", "Porteurs d'offrandes"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMtJz1k3lnVyWaOkZ2EAIm3x4kis_57SYyrfLpiEEchAPS0rTYrT5r43QQydXPR-lCAOrTIKXQ8etYRFYRRXJBezAnMca7GozpecsonRxtOh2DD21Q1SnVZG3o5m1xoxcfoL1m7irZjMTnPPiy6PKJICw=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette peinture murale, située sur la paroi sud de la tombe du vizir Ramose (TT55) à Thèbes, illustre la suite de la procession funéraire avec une précision documentaire et une élégance caractéristiques de la fin de la XVIIIe dynastie. Le registre supérieur présente un élément central du rituel : le transport des objets sacrés et du mobilier funéraire, notamment une structure rectangulaire posée sur une barque, contenant potentiellement des oushebtis ou des vases canopes, encadrée par des figures protectrices d'Isis et de Nephthys. À gauche, un groupe d'hommes aux silhouettes élancées et à la peau sombre transporte des charges, tandis qu'à droite, un personnage de haut rang, sans doute un membre de la famille ou un prêtre, supervise l'avancée vers la nécropole. La composition témoigne d'une transition stylistique majeure, où la rigueur classique du règne d'Amenhotep III commence à s'assouplir sous l'influence des prémices de l'art amarnien, visible dans le traitement plus fluide des drapés et l'allongement des corps.</p>
+    <p>Le registre inférieur offre un contraste saisissant en mettant en scène des porteurs d'offrandes et des proches du défunt avançant d'un pas rythmé. Les hommes en pagne blanc immaculé transportent des bouquets de papyrus, des coffrets et des éventails, symbolisant le confort et la renaissance dans l'au-delà. On remarque une gestion magistrale de la répétition : le chevauchement des têtes et des pieds crée un effet de perspective et de mouvement collectif, donnant vie à la procession. Les teintes ocre rouge des corps masculins se détachent vigoureusement sur le fond clair, rehaussées par les détails bleus et verts des éléments végétaux. Malgré les lacunes du temps, la finesse des hiéroglyphes intercalés entre les figures confirme la double fonction de l'image, à la fois narration visuelle et support magique garantissant au vizir Ramose la subsistance éternelle. Cette paroi est une pièce maîtresse pour comprendre l'évolution des codes esthétiques égyptiens au moment précis où l'art thébain atteint son apogée avant la rupture d'Akhenaton.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1350) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+  {
+    id: "peinture_banquet_ouserhat_tt56",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1425 av. J.-C. / règne d'Amenhotep II)",
+    centuryDisplay: "XVe s. av. J.-C.",
+    centuryNumeric: -1425,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Scène de banquet funéraire d'Ouserhat et son épouse Moutnefret (TT56)",
+    site: "Tombe d'Ouserhat - TT56 (Cheikh Abd el-Gourna, Thèbes)",
+    originSite: "Cheikh Abd el-Gourna (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe TT56, Gourna)",
+    category: "Peinture murale thébaine",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Amenhotep II", "TT56 Ouserhat", "Banquet funéraire"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPCjoTcSWDTM0og022JHdcyhK1Iqo8rTMJ9EJ1QuCWphrHPzNS1AkI_a8iPVTe-Wt1cmNUuIGL8kAwBc6HJQilb6RhXYZtBCLT7uh-XLyz43aFwB8LYrEdTx9dt7gxVOI_HaIr1YD886iaaAifX_-2JyA=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette peinture murale, ornant la tombe d'Ouserhat (TT56) située dans la nécropole de Cheikh Abd el-Gourna à Thèbes, illustre une scène de banquet funéraire et d'offrandes d'une grande finesse, typique du règne d'Amenhotep II durant la XVIIIe dynastie. Au centre de la composition, le défunt Ouserhat, scribe royal et "Scribe du Trésor", est représenté assis aux côtés de son épouse Moutnefret. Le couple reçoit des hommages rituels dans une mise en scène qui mêle élégance aristocratique et symbolisme religieux. Sous le siège d'Ouserhat, un carquois rappelle ses fonctions militaires, tandis que sous celui de son épouse se trouvent un miroir et un petit singe domestique, détails intimes évoquant la renaissance et la sensualité.</p>
+    <p>Devant eux, une table d'offrandes richement garnie déborde de pains, de fruits, de légumes et de pièces de viande, tandis que de grandes jarres à vin reposent sur des supports. Un serviteur, situé à gauche, présente au couple des bouquets de papyrus et de fleurs de lotus, symboles de vie renouvelée, tandis que des invités, disposés en registres inférieurs, participent à cette "Belle Fête de la Vallée". L'art d'Ouserhat se distingue par une exécution polychrome vibrante où les teintes ocre, bleu et vert dominent, avec un souci du détail remarquable dans le rendu des perruques sophistiquées, des parures de perles et de la transparence des vêtements de lin. Cette paroi n'est pas seulement une représentation festive, mais une garantie magique permettant au défunt de continuer à jouir des plaisirs terrestres et de l'abondance alimentaire dans l'au-delà.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1425) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+   {
     id: "peinture_amenhotep_iii_qurna_louxor",
     civId: "egypte",
     periodId: "nouvel_empire",
