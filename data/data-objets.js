@@ -6,6 +6,32 @@ window.ART_OBJECTS = window.ART_OBJECTS || [];
 window.ART_OBJECTS.push(
 
   {
+    id: "sculpture_frise_cobras_djoser_saqqarah_imhotep",
+    civId: "egypte",
+    periodId: "ancien_empire",
+    civName: "Égypte : Ancien Empire",
+    century: "IIIe dynastie (v. -2667 av. J.-C. / règne de Djoser)",
+    centuryDisplay: "XXVIIe s. av. J.-C.",
+    centuryNumeric: -2667,
+    domain: "sculpture_statuaire",
+    artifactType: "Décor architectural (fronton, frise, métope, chapiteau)",
+    title: "Frise des cobras dressés (uræus) du complexe funéraire de Djoser",
+    site: "Complexe funéraire de Djoser (Saqqarah)",
+    originSite: "Saqqarah",
+    locationType: "museum",
+    currentLocation: "Musée Imhotep, Saqqarah (Égypte)",
+    category: "Frise architecturale en calcaire",
+    isHighlight: true,
+    chips: ["IIIe dynastie", "Djoser", "Imhotep", "Saqqarah", "Uræus", "Calcaire"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMQ976HZV8cuIVt3ma-pRMiAEDvid7IwSkX5-TbDsU_ebJiMoDzNfhcvJZtBxRmJCzGaKf8w5sXxn0UU3WwwOwYbyG68ErLS_-jykHdPGdX2gFrK9lUkrTGZoKsxYNE3sMsWcp2v72PZnSqZyI0hUKWzw=w2158-h1438-s-no-gm?authuser=0",
+    narrative: `<p>Cette œuvre est un fragment imposant du célèbre « mur des cobras » provenant du complexe funéraire du pharaon Djoser à Saqqarah, datant de la IIIe dynastie de l'Ancien Empire. Elle est aujourd'hui conservée au musée Imhotep, situé au pied du plateau de Saqqarah. Réalisée en calcaire fin, cette frise décorait initialement le sommet de la façade d'un édifice rituel, marquant ainsi l'une des premières utilisations monumentales de la pierre de taille dans l'architecture égyptienne sous la direction du célèbre architecte Imhotep.</p>
+    <p>Les quatre cobras dressés représentés ici sont des uræus, symboles de la puissance royale et de la protection divine. Dans la mythologie égyptienne, le cobra est la forme animale de la déesse Ouadjet, dont le rôle est de cracher le feu contre les ennemis du roi. En étant placés en hauteur sur les murs du complexe, ces serpents formaient une barrière spirituelle infranchissable, veillant éternellement sur le repos du pharaon et la sacralité de son domaine funéraire.</p>
+    <p>Le style de cette sculpture témoigne de la transition artistique majeure de l'époque, où les formes issues de l'architecture primitive en briques crues et en végétaux sont transposées dans la pierre. On observe un travail de stylisation remarquable : les têtes sont projetées vers l'avant avec une grande force, tandis que les corps sont suggérés par des pans verticaux ornés de stries horizontales évoquant le capuchon dilaté du reptile. Cette répétition rythmique crée un effet visuel de puissance et de stabilité propre à l'art memphite.</p>
+    <p>Bien que le mur original soit aujourd'hui partiellement fragmenté, ces éléments conservent une force évocatrice intacte. Les traces de dégradation et les cassures visibles sur le calcaire rappellent les millénaires passés sous les sables avant les fouilles archéologiques menées notamment par Jean-Philippe Lauer. Cette pièce demeure un témoignage exceptionnel de la naissance de l'art d'État égyptien et de l'ambition démesurée de Djoser de bâtir une demeure pour l'éternité qui défie le temps.</p>
+    <p><strong>Siècle :</strong> XXVIIe siècle av. J.-C. (-2667) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+   {
     id: "sculpture_obelisque_debout_hatshepsout_karnak",
     civId: "egypte",
     periodId: "nouvel_empire",
