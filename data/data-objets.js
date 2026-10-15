@@ -6,6 +6,180 @@ window.ART_OBJECTS = window.ART_OBJECTS || [];
 window.ART_OBJECTS.push(
 
   {
+    id: "peinture_comptage_betail_ouserhat_tt56",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1425 av. J.-C. / règne d'Amenhotep II)",
+    centuryDisplay: "XVe s. av. J.-C.",
+    centuryNumeric: -1425,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Scène de comptage et de marquage du bétail royal (Tombe d'Ouserhat, TT56)",
+    site: "Tombe d'Ouserhat - TT56 (Cheikh Abd el-Gourna, Thèbes)",
+    originSite: "Cheikh Abd el-Gourna (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe TT56, Gourna)",
+    category: "Peinture murale thébaine",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Amenhotep II", "TT56 Ouserhat", "Comptage du bétail"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczO-SolKH-KwXKR8zXJs8NzOcEB0V6AMS4yxcFc4hGm2ZW-fnQP_gspGT0fodAg5ouuQd7Vn5VYueDDUIjk_5EXqfLI86gRD-sKtD6iTvZIlwJR48ZA-YIPd52bZRWjEpsphVAhgGAznIvJSCE1Sih54cg=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette peinture murale, issue de la tombe d'Ouserhat (TT56) à Cheikh Abd el-Gourna, illustre une scène de comptage et de marquage du bétail, révélant les fonctions administratives du défunt en tant que scribe royal sous le règne d'Amenhotep II. La composition s'organise en plusieurs registres superposés qui décomposent les étapes de l'inspection des troupeaux royaux. Dans les registres supérieurs, on observe des vaches et leurs veaux, traités avec un naturaliste dynamique : certains animaux bondissent ou se retournent, brisant la linéarité habituelle pour insuffler de la vie à la scène. Les bergers, armés de bâtons, guident le bétail avec des gestes vifs, tandis que des scènes de marquage au fer rouge montrent les animaux entravés au sol, témoignant de la précision technique des artistes thébains.</p>
+    <p>Le registre inférieur met en scène l'aspect bureaucratique de cette activité avec une troupe de recrues ou de serviteurs avançant en rangs serrés, les bras levés dans une attitude de respect ou de discipline. À l'extrême droite, un scribe, probablement un assistant d'Ouserhat, enregistre scrupuleusement les chiffres sur une tablette, garantissant ainsi la transparence de la gestion du trésor royal. La palette chromatique reste fidèle aux conventions de la XVIIIe dynastie, utilisant des terres d'ocre rouge pour la peau des hommes et les robes des animaux, contrastant avec le fond de chaux claire. Cette œuvre dépasse la simple représentation agricole ; elle est une glorification de l'ordre administratif imposé par le scribe, assurant au défunt la reconnaissance de son efficacité professionnelle devant les dieux pour l'éternité.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1425) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+  {
+    id: "peinture_arpenteurs_champs_ouserhat_tt56",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1425 av. J.-C. / règne d'Amenhotep II)",
+    centuryDisplay: "XVe s. av. J.-C.",
+    centuryNumeric: -1425,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Arpentage des champs de céréales et vie rurale (Tombe d'Ouserhat, TT56)",
+    site: "Tombe d'Ouserhat - TT56 (Cheikh Abd el-Gourna, Thèbes)",
+    originSite: "Cheikh Abd el-Gourna (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe TT56, Gourna)",
+    category: "Peinture murale thébaine",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Amenhotep II", "TT56 Ouserhat", "Arpentage des champs"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPyqio9kjdifIthSZcwSCkn8-OG8cWpBuW43shexYsgQeiwcZ3GSZCNSTFCzlTGxDDJ6UlO2Y_KipJi1a4Pxqn7fNl6f19fBmSVwHujKgt67E6dnoktCt51sHXHrQDeMByymXG79UYhqkPao1kZ9Rlv0w=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette peinture murale provient de la tombe thébaine d’Ouserhat (TT56), scribe royal et comptable du pain sous le règne d’Amenhotep II, durant la XVIIIe dynastie du Nouvel Empire égyptien. Située dans la nécropole de Cheikh Abd el-Gourna, cette œuvre illustre la transition stylistique de l’époque, caractérisée par une élégance fluide et une attention particulière portée aux détails de la vie quotidienne. La scène est organisée en registres superposés qui décrivent avec une précision remarquable les activités liées à l’administration des domaines royaux, reflétant ainsi la fonction terrestre du défunt tout en assurant sa subsistance dans l’au-delà.</p>
+    <p>Sur le registre supérieur, une file de recrues ou de travailleurs avance dans une posture rythmée, vêtus du pagne blanc traditionnel, tandis que le registre médian présente des arpenteurs en pleine activité de mesure des champs de céréales à l’aide de cordes tendues, entourés de sycomores stylisés qui ponctuent le paysage. Le registre inférieur offre un aperçu plus intime de la vie agricole avec des personnages assis à l’ombre des arbres, certains semblant se reposer ou s’adonner à des soins corporels, tandis que d’autres s’occupent de la préparation des aliments et des jarres de provisions visibles dans la partie droite de la composition.</p>
+    <p>La palette chromatique est dominée par des terres de Sienne et des ocres rouges pour la carnation masculine, contrastant vivement avec le blanc de la chaux des vêtements et le vert délicat des frondaisons. La technique de la détrempe sur un enduit de plâtre lissé permet une finesse de trait qui rend hommage à la virtuosité des peintres thébains de cette période. Bien que certaines zones de la paroi aient subi les outrages du temps et des pertes d'enduit, la vivacité des expressions et la clarté de la narration visuelle témoignent de l'importance de la gestion des ressources agricoles dans l'économie égyptienne et de la volonté d'Ouserhat d'immortaliser son dévouement envers Pharaon. Cette œuvre constitue un document ethnographique et artistique de premier ordre, capturant l'essence d'une société agraire hautement organisée sous l'éclat de l'âge d'or de Thèbes.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1425) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+  {
+    id: "peinture_celliers_char_ouserhat_tt56",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1425 av. J.-C. / règne d'Amenhotep II)",
+    centuryDisplay: "XVe s. av. J.-C.",
+    centuryNumeric: -1425,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Intendance du domaine, réserves de vin et char de parade (Tombe d'Ouserhat, TT56)",
+    site: "Tombe d'Ouserhat - TT56 (Cheikh Abd el-Gourna, Thèbes)",
+    originSite: "Cheikh Abd el-Gourna (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe TT56, Gourna)",
+    category: "Peinture murale thébaine",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Amenhotep II", "TT56 Ouserhat", "Char de parade"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOD-u_IocevoKJhP07Pk9z_vmIxQ8czPaX5WL9xkszhxt_J3ANCVYTCfwK_9baMOWer4N9iOzCdL2f0M-ln3SZSzBVULFirqfFffh5F1dV-oofugHc0EgkoYvcHw9tY5VVB5McMUItyfjadZBoEyx1e_g=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette peinture murale, extraite des parois de la sépulture d'Ouserhat (TT56) à Thèbes, illustre avec une grande vivacité les scènes de la vie quotidienne et de l'intendance qui caractérisent les tombes des hauts fonctionnaires de la XVIIIe dynastie. Sous le règne d'Amenhotep II, l'art thébain atteint une maturité remarquable, visible ici dans la composition rigoureuse en registres horizontaux qui permettent de narrer plusieurs séquences simultanées de la vie du domaine.</p>
+    <p>Le registre supérieur montre un défilé de porteurs d'offrandes ou de travailleurs, suivis d'un bouvier menant un taureau, soulignant l'importance de l'élevage et de l'approvisionnement. Au-dessous, une série de niches et d'étagères présente des jarres à vin méticuleusement rangées, alternant avec des corbeilles de fruits et des provisions, ce qui témoigne de la richesse et de la bonne gestion des stocks placés sous la responsabilité du scribe royal. Le registre médian est particulièrement notable pour la représentation d'un char de guerre ou de parade, dont les chevaux fougueux aux têtes élégantes et au harnachement détaillé rappellent la position sociale élevée du défunt et l'influence de l'iconographie militaire de l'époque.</p>
+    <p>Les personnages, représentés dans la pose canonique de profil, arborent des silhouettes élancées et une peau brune caractéristique de l'iconographie masculine égyptienne, contrastant avec la finesse des objets et la blancheur des linges. Enfin, la partie inférieure laisse entrevoir le sommet de deux barques funéraires ou de transport, éléments indispensables au voyage symbolique vers l'au-delà et à la navigation sur le Nil, axe central de la vie égyptienne. L'ensemble de cette paroi, bien que partiellement érodée par les siècles, conserve une fraîcheur de coloris et une précision de trait qui font de la tombe d'Ouserhat l'un des joyaux de la nécropole de Cheikh Abd el-Gourna, offrant un témoignage précieux sur l'esthétique et l'organisation sociale du Nouvel Empire.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1425) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+  {
+    id: "peinture_chasse_papyrus_vendanges_ouserhat_tt56",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1425 av. J.-C. / règne d'Amenhotep II)",
+    centuryDisplay: "XVe s. av. J.-C.",
+    centuryNumeric: -1425,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Chasse au javelot dans les marais de papyrus et vendanges (Tombe d'Ouserhat, TT56)",
+    site: "Tombe d'Ouserhat - TT56 (Cheikh Abd el-Gourna, Thèbes)",
+    originSite: "Cheikh Abd el-Gourna (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe TT56, Gourna)",
+    category: "Peinture murale thébaine",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Amenhotep II", "TT56 Ouserhat", "Chasse aux marais"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP-BhYua3WxzjZsdH-TH5foQ3TPuVIfwRjYQd900eaNIuCsv_mhYFbCFMXooklvwuM715EI-hvA79jEIRGgux3r5jCtCrSkDECm3Ehsoyp19tTpsAiO0qmft6fAajeJ4Oc96DlRxNB0mFeIc6AvFVi_NQ=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette peinture murale, joyau de la XVIIIe dynastie situé dans la tombe d’Ouserhat (TT56) à Cheikh Abd el-Gourna, illustre l'un des thèmes les plus emblématiques de l'iconographie funéraire thébaine : la chasse dans les fourrés de papyrus. Au centre de la composition, le défunt est représenté dans une posture héroïque et dynamique, debout sur une frêle embarcation de papyrus. Brandissant un javelot, il s'apprête à frapper des poissons ou des oiseaux, symbolisant ainsi le triomphe de l'ordre sur le chaos sauvage. À ses pieds, de petits animaux, peut-être des genettes ou des mangoustes, s'agitent sur le bateau, tandis que les tiges de papyrus forment un rideau vertical stylisé en arrière-plan, surmonté d'oiseaux s'envolant avec fracas.</p>
+    <p>La partie inférieure de la paroi prolonge cette immersion dans la nature et l'abondance avec des scènes de récolte et de stockage. On y distingue des structures légères, sortes de treilles ou de celliers, où sont suspendues des grappes de raisin et entreposées de nombreuses jarres pointues, soulignant le rôle d'Ouserhat comme superviseur des ressources royales. L'artiste a utilisé une palette de couleurs riches, où le bleu-vert des fourrés répond à l'ocre rouge de la peau et au blanc éclatant du pagne plissé. La fluidité du trait, caractéristique du règne d'Amenhotep II, parvient à capturer le mouvement tout en respectant les codes de la perspective hiérarchique égyptienne.</p>
+    <p>Cette scène ne se contente pas de décorer la demeure d'éternité ; elle assure magiquement au défunt la capacité de jouir éternellement des plaisirs de la chasse et de l'abondance alimentaire dans les champs d'Ialou. La conservation de l'œuvre permet encore d'admirer la finesse des détails, comme le rendu des plumes d'oiseaux et les motifs ornementaux des colonnettes papyriformes, faisant de cet ensemble un témoignage précieux du raffinement de l'art de cour au Nouvel Empire.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1425) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+  {
+    id: "peinture_procession_mobilier_sennefer_tt96",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1420 av. J.-C. / règne d'Amenhotep II)",
+    centuryDisplay: "XVe s. av. J.-C.",
+    centuryNumeric: -1420,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Procession de porteurs d'offrandes, masque d'or et ouchebtis (Tombe de Sennefer, TT96)",
+    site: "Tombe de Sennefer - TT96 (Cheikh Abd el-Gourna, Thèbes)",
+    originSite: "Cheikh Abd el-Gourna (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe TT96, Gourna)",
+    category: "Peinture murale thébaine",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Amenhotep II", "TT96 Sennefer", "Mobilier funéraire"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNsjzc7-XlDeO15zLRdJr0Kh7LJ05lgbMMUucKR8UVQU8yUQUxaBeBFmZEA6gpytlK5Dk49mAhqa1Bii2x3pY2v2p3_tpbLvBpiUk3z0YTAxKaLahZeb3WLLizq6UYMSCmYIc4m5NiLWk7jOaZIGNGEyg=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette peinture murale exceptionnelle appartient à la tombe de Sennefer (TT96), gouverneur de Thèbes et administrateur des jardins d'Amon sous le règne d'Amenhotep II, au cours de la XVIIIe dynastie. Surnommée la « Tombe aux Vignes » en raison du décor de son plafond, cette sépulture est célèbre pour la vivacité de ses couleurs et la qualité de ses scènes funéraires. Le registre présenté ici illustre une procession solennelle de porteurs d'offrandes, chargés du mobilier et des objets rituels destinés à accompagner le défunt dans l'au-delà.</p>
+    <p>Les personnages, représentés avec la peau brun rouge typique de l'iconographie masculine, sont vêtus de pagnes de lin blanc d'une grande finesse. Ils transportent avec précaution des objets de prestige : le premier porteur soutient un large collier ousekh aux couleurs chatoyantes, tandis que le second maintient sur un plateau deux statuettes funéraires (chaouabtis) à l'effigie du défunt, enveloppées dans un linge blanc. Le troisième porteur transporte un masque funéraire à visage jaune doré et perruque bleue, symbole de la divinisation de Sennefer, ainsi qu'une jarre à onguent suspendue à une cordelette.</p>
+    <p>Le style artistique de cette période se manifeste par des lignes fluides, des yeux en amande très étirés et un souci du détail qui rend compte de la richesse matérielle de la haute aristocratie thébaine. Le fond blanc de la paroi, bien que marqué par quelques concrétions et l'usure du temps, fait ressortir la brillance des pigments naturels, notamment le bleu égyptien et l'ocre jaune. Cette scène ne constitue pas seulement une documentation sur le mobilier funéraire royal ; elle est une nécessité religieuse visant à activer magiquement la présence de ces objets pour l'éternité du propriétaire. L'élégance des postures et la précision des attributs témoignent du rang exceptionnel de Sennefer, l'un des plus influents personnages de l'entourage royal, dont la tombe demeure l'un des sommets de l'art pictural du Nouvel Empire.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1420) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+  {
+    id: "plafond_treille_vigne_sennefer_tt96",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1420 av. J.-C. / règne d'Amenhotep II)",
+    centuryDisplay: "XVe s. av. J.-C.",
+    centuryNumeric: -1420,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Plafond peint en treille de vigne de la « Tombe aux Vignes » (Tombe de Sennefer, TT96)",
+    site: "Tombe de Sennefer - TT96 (Cheikh Abd el-Gourna, Thèbes)",
+    originSite: "Cheikh Abd el-Gourna (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe TT96, Gourna)",
+    category: "Plafond funéraire peint",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Amenhotep II", "TT96 Sennefer", "Plafond aux vignes"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMqrP2vivvq8_d9odFOsSgrmOTyhg6lx_l1ksaWaUtNVKbSVxFw_UA2iGiTtraiiBKeheofvOUAgOH26f5z7tqVSZhrfxeeD18mM3KNnF_TSuzDO0V9C8rQI9SLn_kdYEVWkr-tVwReRe4NTbmzgjCNfQ=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette peinture murale orne le plafond de la chambre funéraire de Sennefer (TT96), gouverneur de Thèbes sous le règne d'Amenhotep II, et constitue l'un des décors les plus célèbres de la nécropole thébaine. L'œuvre transforme l'espace architectural en une tonnelle de vigne exubérante, où des grappes de raisin lourdes et mûres semblent pendre directement au-dessus du visiteur, créant une illusion de jardin suspendu au cœur de la montagne thébaine. Les tiges sinueuses, peintes dans des tons d'ocre rouge, s'entrelacent pour porter des fruits rendus par des amas de points noirs et bleus, alternant avec des feuilles circulaires aux nuances de vert et de jaune.</p>
+    <p>Ce motif, qui a valu à la sépulture son surnom de « Tombe aux Vignes », ne possède pas seulement une fonction décorative ; il symbolise la régénération, la fertilité et la transformation du défunt, le raisin étant étroitement lié au dieu Osiris et au cycle de la vie éternelle. L'irrégularité délibérée des tracés et la densité du feuillage épousent les reliefs naturels et parfois inégaux de la roche calcaire, conférant à la scène une vitalité organique unique dans l'art formel égyptien.</p>
+    <p>En recréant un environnement frais et fertile dans l'obscurité de la tombe, l'artiste assure magiquement à Sennefer la jouissance perpétuelle des jardins qu'il administrait de son vivant pour le domaine d'Amon. La conservation exceptionnelle des pigments permet d'apprécier la technique de la détrempe qui, malgré les millénaires, garde une intensité chromatique vibrante, faisant de ce plafond un chef-d'œuvre de naturalisme poétique du Nouvel Empire.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1420) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+  {
+    id: "peinture_couple_sennefer_meryt_tt96",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1420 av. J.-C. / règne d'Amenhotep II)",
+    centuryDisplay: "XVe s. av. J.-C.",
+    centuryNumeric: -1420,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Double portrait intime de Sennefer et son épouse Meryt (Tombe TT96)",
+    site: "Tombe de Sennefer - TT96 (Cheikh Abd el-Gourna, Thèbes)",
+    originSite: "Cheikh Abd el-Gourna (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe TT96, Gourna)",
+    category: "Peinture murale thébaine",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Amenhotep II", "TT96 Sennefer", "Couple conjugal"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNHRUqFZjxffq4zpiRRMu3jT1mKmihUSwbNqHs6vzNFA5-GNLyzTEsBGpla5S0F29Y3oFdSob0XMS_nNatJhGt8OyZ3xcIfnn_EKhn8zeJyA1jq975layyayM4-DubyFjtoALJxVG9nYEsDEyeR9C-9kw=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette peinture murale, située dans la chambre funéraire de Sennefer (TT96), maire de Thèbes sous Amenhotep II, représente le couple défunt dans une scène d'une grande tendresse et d'une haute portée symbolique. Sennefer est figuré avec une peau ocre rouge vigoureuse, paré d'un large collier ousekh en or et de deux amulettes en forme de cœur ou de vases à onguent suspendus à son cou, tandis que son épouse Meryt, dont la peau est peinte d'un jaune lumineux selon les conventions féminines, pose affectueusement sa main sur l'épaule de son mari. Elle porte une perruque tripartite noire finement détaillée et un collier de perles bleues, contrastant avec la blancheur de sa robe de lin.</p>
+    <p>Sennefer tient dans sa main gauche une canne de marche et dans sa main droite un sceptre sekhem, insignes de son autorité et de sa puissance administrative. Au-dessus d'eux, des colonnes de hiéroglyphes tracés à l'encre noire sur un fond gris perle détaillent leurs titres et des formules d'offrandes, assurant la pérennité de leur identité dans l'au-delà. Le style se caractérise par des yeux en amande très étirés et un cerne noir prononcé, typique du raffinement de la XVIIIe dynastie.</p>
+    <p>L'artiste a su capturer une dimension humaine et intime à travers le geste de Meryt, tout en respectant la solennité requise par le contexte funéraire. L'utilisation de pigments naturels comme l'orpiment pour le jaune et l'oxyde de fer pour le rouge conserve une fraîcheur exceptionnelle, faisant de ce double portrait l'un des plus touchants et des mieux préservés de la nécropole thébaine. Cette image incarne l'idéal de l'unité familiale éternelle, où l'épouse soutient activement son mari dans son passage vers l'immortalité osirienne.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1420) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+   {
     id: "peinture_divinite_occident_ramose_tt55",
     civId: "egypte",
     periodId: "nouvel_empire",
