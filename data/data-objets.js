@@ -6,6 +6,57 @@ window.ART_OBJECTS = window.ART_OBJECTS || [];
 window.ART_OBJECTS.push(
 
   {
+    id: "stele_thouerid_isis_hathor_louvre",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (v. -1292 à -1186 av. J.-C.)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1250,
+    domain: "sculpture_statuaire",
+    artifactType: "Monolithe / Stèle sculptée",
+    title: "Stèle cintrée de dévotion privée à Thouéris et Isis-Hathor",
+    site: "Musée du Louvre (Paris / prov. Égypte)",
+    originSite: "Région thébaine ou Deir el-Médineh",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre (Paris)",
+    category: "Stèle de dévotion privée",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Déesse Thouéris", "Isis-Hathor", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMbT3VzX_vNLiM7lc68vMvdgDlGRVZVJrEv5VSBOuxpDuJJ5_vyj6OdNeHcrALf8DmNk2ORkQEJpJSON7MOSJwz4pqYduiXsWUaV8wMSJQI8FzTIsDxUx0pO4yc98ch566MHPTlK7qIDpWK1EYWcHom-g=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette stèle cintrée à deux registres est un bel exemple de piété privée de l'époque ramesside. Sa structure narrative met en scène le défunt et sa famille en interaction directe avec des divinités protectrices, une composition classique pour assurer la bienveillance divine dans l'au-delà.</p>
+    <p>Au premier registre, la scène d'adoration montre un homme debout, vêtu du pagne à devanteau plissé caractéristique des fonctionnaires du Nouvel Empire. Il lève les mains en signe de respect devant la déesse Thouéris. Bien que Thouéris soit souvent représentée debout en hippopotame gravide, elle apparaît ici sous une forme plus rare, assise sur un trône, tenant le sceptre ouas et le signe ânkh. Elle conserve sa tête d'hippopotame, affirmant son rôle de protectrice redoutable et bienveillante.</p>
+    <p>Le second registre présente une scène symétrique dédiée à la sphère féminine de la famille. Deux femmes, vêtues de la robe plissée et du manteau fin, sont représentées à genoux. Elles portent la perruque tripartite surmontée du cône d'onguent et tiennent des fleurs de lotus, symboles de renaissance. Elles font face à la déesse Isis-Hathor, reconnaissable à sa coiffe de cornes enserrant le disque solaire. Entre les dévots et la divinité se trouvent des tables d'offrandes chargées de pains et de fleurs, assurant la subsistance éternelle des défunts.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1250) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Tombes & Rituels.</p>`
+  },
+  {
+    id: "stele_polychrome_defunt_lotus_louvre",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (v. -1292 à -1186 av. J.-C.)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1250,
+    domain: "sculpture_statuaire",
+    artifactType: "Monolithe / Stèle sculptée",
+    title: "Stèle funéraire polychrome au défunt respirant le lotus",
+    site: "Musée du Louvre (Paris / prov. Égypte)",
+    originSite: "Nécropole thébaine (Haute-Égypte)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre (Paris)",
+    category: "Stèle funéraire peinte",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Calcaire peint", "Fleur de lotus", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNFq0vwEee_bKqC8LfVD0ozMmSE3-M5jbCJGo7O7iN9AwbivUlYFTHaU8hNY9U1zoAhpPsxgUQlwFKjlq792s9220SRL02Fk4VRaenhi1bXFOiQITl0iGkAUJc_ZxHH9Qf8WnzOqclIA3cmS517KA8BbQ=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette stèle en calcaire peint constitue un témoignage précieux de l'art funéraire privé égyptien du Nouvel Empire. Sa forme cintrée évoque la voûte céleste et délimite un espace sacré pour assurer la survie du défunt dans l'au-delà.</p>
+    <p>Le registre supérieur, situé dans le cintre, présente deux yeux Oudjat protecteurs encadrant un signe Shen, symbole d'éternité et de régénération solaire. Juste en dessous, le registre central se compose de plusieurs colonnes de textes hiéroglyphiques tracés à l'encre noire et séparés par des filets rouges. Ces inscriptions reprennent généralement les formules d'offrandes rituelles permettant au défunt de bénéficier des biens essentiels comme le pain, la bière et le souffle de vie.</p>
+    <p>La scène principale occupe la partie inférieure du monument. À gauche, le défunt est représenté assis, portant une perruque noire courte et respirant une fleur de lotus, geste symbolisant sa renaissance spirituelle. Face à lui, deux femmes de sa famille lui rendent hommage. Elles sont vêtues de longues robes blanches plissées et portent sur la tête des cônes d'onguent parfumé. L'une d'elles tend une coupe d'offrandes tandis que l'autre adopte une posture de vénération, les mains levées.</p>
+    <p>L'œuvre se distingue par la conservation de sa polychromie d'origine. On observe l'utilisation de l'ocre rouge pour la peau de l'homme et d'un ton plus clair pour celle des femmes, respectant les conventions chromatiques de l'époque. Le style fluide des silhouettes et le soin apporté aux détails des vêtements sont caractéristiques de l'esthétique de la XIXe dynastie.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1250) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Tombes & Rituels.</p>`
+  },
+   {
     id: "stele_ramses_ii_min_amon_louvre",
     civId: "egypte",
     periodId: "nouvel_empire",
