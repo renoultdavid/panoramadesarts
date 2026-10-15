@@ -6,6 +6,435 @@ window.ART_OBJECTS = window.ART_OBJECTS || [];
 window.ART_OBJECTS.push(
 
 {
+    id: "ensemble_funeraire_zounis_olympie",
+    civId: "egee",
+    periodId: "mycenes",
+    civName: "Art Mycénien (Grèce)",
+    century: "v. -1400 av. J.-C. (Helladique Récent III A)",
+    centuryDisplay: "v. -1400 av. J.-C.",
+    centuryNumeric: -1400,
+    domain: "sculpture_statuaire",
+    artifactType: "Figurine votive / Ex-voto",
+    title: "Mobilier et figurines Psi de la chambre funéraire de Zounis",
+    site: "Musée Archéologique d'Olympie (prov. Zounis, Élide)",
+    originSite: "Zounis (Olympie, Élide, Grèce)",
+    locationType: "museum",
+    currentLocation: "Musée Archéologique d'Olympie",
+    category: "Mobilier funéraire",
+    isHighlight: false,
+    chips: ["Helladique Récent III A", "Zounis", "Figurines Psi", "Musée d'Olympie"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPfuOWKvgqC9gO2lHpUvaDpc-CGgbdX5BR0zjIhxdt7-jad0JHiELv3gzN94vL_e7FeAUdOCfGM6GUIfDf4kPBixHL9VzC3QMHrle-EHGtExGI7TgmfaxuZXTdX-fxy3NnbzyT19y4TLt_YrZDx_sdM2g=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cet ensemble d'artefacts, provenant de la chambre funéraire mycénienne de Zounis à Olympie et daté d'environ 1400 avant J.-C., illustre la richesse des pratiques funéraires de l'âge du Bronze récent en Grèce. La collection est dominée par des figurines anthropomorphes en terre cuite de type "Psi", nommées ainsi en raison de leur ressemblance avec la lettre grecque Psi, dont les bras levés vers le ciel suggèrent une attitude d'adoration ou de protection spirituelle du défunt. Ces idoles, ornées de motifs linéaires peints en rouge-brun, constituent des exemples typiques de la statuaire votive mycénienne, symbolisant souvent une divinité féminine ou des pleureuses rituelles chargées d'accompagner l'âme dans l'au-delà.</p>
+    <p>L'équipement funéraire comprend également une variété de vases en céramique à décor géométrique et naturaliste stylisé, caractéristiques de l'époque. On observe des jarres à étrier, utilisées pour contenir des huiles parfumées ou des onguents précieux, ainsi que des cratères et des coupes destinés aux libations rituelles lors des cérémonies d'inhumation. Les motifs en bandes horizontales, en vagues et en réseaux de losanges témoignent d'une standardisation technique et artistique propre aux ateliers mycéniens du Péloponnèse. Ces objets, déposés dans les niches de la chambre funéraire, ne servaient pas seulement de parures, mais assuraient le confort du défunt dans la vie après la mort, tout en reflétant le rang social et le prestige de la famille. La présence de petits pesons ou fusaïoles à la base de la vitrine souligne également l'importance des activités domestiques et artisanales, comme le tissage, qui suivaient symboliquement l'individu dans sa sépulture.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1400) | <strong>Civilisation :</strong> Monde égéen (Art Mycénien) | <strong>Sous-partie :</strong> Tombes & Rituels.</p>`
+  },
+  {
+    id: "vitrine_ceramiques_palatiales_mycenes",
+    civId: "egee",
+    periodId: "mycenes",
+    civName: "Art Mycénien (Grèce)",
+    century: "XVe - XIIe siècle av. J.-C. (Helladique Récent)",
+    centuryDisplay: "XVe - XIIe s. av. J.-C.",
+    centuryNumeric: -1400,
+    domain: "ceramique",
+    artifactType: "Vase",
+    title: "Ensemble de céramiques de banquet et de transport de Mycènes",
+    site: "Musée Archéologique de Mycènes (Argolide)",
+    originSite: "Mycènes (Argolide, Grèce)",
+    locationType: "museum",
+    currentLocation: "Musée Archéologique de Mycènes",
+    category: "Céramique fine",
+    isHighlight: false,
+    chips: ["Helladique Récent", "Mycènes", "Vaisselle de banquet", "Musée de Mycènes"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOwjyskx2VfkPIWeoXL-oYoD996q4JA48WFXSV4GCkNqw1-8yzL_s6WoRX3Kvsi0m-yN4spe0AGKH1z4ditwQBJpvBB07IeMQUetP8L0PskTkw3bMVtIiZeYSKaVOSYdvKuuAchvJJFLNNWnfMM2YIUog=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette vitrine présente un ensemble exceptionnel de céramiques mycéniennes, témoignant de la maîtrise technique et du raffinement esthétique de cette civilisation de l'âge du Bronze récent, florissante entre le XVe et le XIIe siècle avant notre ère. Ces objets, principalement issus de contextes funéraires ou domestiques de la région de Mycènes, illustrent la diversité des formes créées pour répondre à des besoins tant utilitaires que rituels. On y observe une prédominance de l'argile fine, soigneusement épurée, revêtue d'un engobe clair sur lequel se détachent des décors peints à l'aide d'un lustre variant du rouge sombre au brun-noir.</p>
+    <p>Le répertoire morphologique exposé souligne l'importance des vases destinés au service des liquides et à la conservation des huiles parfumées. On distingue notamment plusieurs exemplaires de vases à étrier, reconnaissables à leur bec verseur excentré et leur anse double, particulièrement prisés pour le transport de denrées précieuses à travers la Méditerranée. À leurs côtés figurent des kylix, ces coupes à boire élégantes montées sur de hautes tiges fines, ainsi que des cratères et des carafes aux silhouettes harmonieuses. Ces formes, standardisées par une production quasi industrielle dans les ateliers palatiaux, sont le signe d'une culture du banquet très hiérarchisée.</p>
+    <p>L'ornementation de ces pièces révèle l'évolution du style mycénien, passant du naturalisme hérité de l'influence minoise à une abstraction plus géométrique. Les motifs de bandes horizontales structurent les corps des vases, tandis que les zones d'épaule accueillent souvent des décors stylisés tels que des fleurs de lotus, des chevrons ou des spirales. Certains spécimens plus élaborés présentent des motifs figuratifs, comme des oiseaux ou des créatures marines, traités avec une économie de lignes qui préfigure l'art grec archaïque. Cette collection constitue ainsi un jalon essentiel pour comprendre l'unité culturelle du monde égéen avant l'effondrement des palais mycéniens.</p>
+    <p><strong>Siècle :</strong> XVe - XIIe siècle av. J.-C. | <strong>Civilisation :</strong> Monde égéen (Art Mycénien) | <strong>Sous-partie :</strong> Céramiques.</p>`
+  },
+  {
+    id: "vase_plastique_femme_mycenes",
+    civId: "egee",
+    periodId: "mycenes",
+    civName: "Art Mycénien (Grèce)",
+    century: "v. -1350 av. J.-C. (Helladique Récent III A2)",
+    centuryDisplay: "v. -1350 av. J.-C.",
+    centuryNumeric: -1350,
+    domain: "ceramique",
+    artifactType: "Vase plastique / Zoomorphe",
+    title: "Vase plastique anthropomorphe à figure féminine",
+    site: "Musée Archéologique de Mycènes (Argolide)",
+    originSite: "Mycènes (Argolide, Grèce)",
+    locationType: "museum",
+    currentLocation: "Musée Archéologique de Mycènes",
+    category: "Vase plastique",
+    isHighlight: false,
+    chips: ["Helladique Récent III A2", "Mycènes", "Vase anthropomorphe", "Musée de Mycènes"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczONKaB14r90d64r8wA4KPfXDXJFkCkwepI4mwq3LwR02cz4qhuGK53zhvKh7ubgLJiYdzstitKF2FrfVAqR35PEd7Zt--a6akcOgHh2ZUc-rK0RN_fE0AICEwpK7MbQdwEfgd-Z1AoQYUu6sTqn2PnqnQ=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette pièce exceptionnelle est un vase plastique mycénien en terre cuite datant de l'Helladique Récent IIIA2 (environ 1350 av. J.-C.), découvert dans les secteurs résidentiels ou cultuels de Mycènes. Ce type de récipient, qui fusionne la fonction utilitaire du vase avec la forme figurative, représente ici une figure féminine stylisée dont le corps constitue le réservoir même du vase. Cette œuvre illustre parfaitement la transition entre la poterie purement géométrique et l'émergence d'une statuaire de petite dimension intégrée aux objets du quotidien ou du rituel.</p>
+    <p>Le décor peint utilise une peinture lustrée de couleur brune à rougeâtre sur un engobe clair, une technique emblématique de la production palatiale mycénienne. On observe un soin particulier apporté aux détails vestimentaires et ornementaux : un large collier à motifs de languettes ou de pétales entoure le col du vase (figurant le cou de la femme), tandis que le reste du corps est orné de motifs de "poulpes" stylisés ou de motifs végétaux transformés en abstractions linéaires. Ces motifs marins et naturalistes, hérités de l'influence minoenne, sont ici réinterprétés selon la rigueur et la symétrie chères aux artisans achéens.</p>
+    <p>La morphologie du vase est particulièrement instructive sur les canons esthétiques de l'époque. Les bras de la figure sont repliés vers la poitrine, une posture souvent associée aux figurines de type "Psi" ou aux représentations de divinités de la fertilité. Les seins sont indiqués en léger relief, tandis que la partie inférieure s'évase pour former le pied du récipient. L'embouchure du vase, située au sommet de la tête (aujourd'hui fragmentaire), suggère que cet objet était utilisé pour verser des liquides précieux, probablement des huiles parfumées, lors de cérémonies domestiques ou religieuses.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1350) | <strong>Civilisation :</strong> Monde égéen (Art Mycénien) | <strong>Sous-partie :</strong> Céramiques.</p>`
+  },
+  {
+    id: "parures_funeraires_verre_mycenes",
+    civId: "egee",
+    periodId: "mycenes",
+    civName: "Art Mycénien (Grèce)",
+    century: "XIVe - XIIIe siècle av. J.-C. (Helladique Récent III)",
+    centuryDisplay: "XIVe - XIIIe s. av. J.-C.",
+    centuryNumeric: -1300,
+    domain: "arts_precieux",
+    artifactType: "Parure & Bijou",
+    title: "Colliers de perles en pâte de verre et faïence de tombes mycéniennes",
+    site: "Musée Archéologique de Mycènes (Argolide)",
+    originSite: "Mycènes (Argolide, Grèce)",
+    locationType: "museum",
+    currentLocation: "Musée Archéologique de Mycènes",
+    category: "Parure funéraire",
+    isHighlight: false,
+    chips: ["Helladique Récent III", "Pâte de verre", "Faïence", "Musée de Mycènes"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNKMOfGncCznaNl5SCrAPSr3_k_uWKDwX0MuB3SC-TwgKMvpwneUemGIW8y9iNKyQoOEhalGYGbalYaZKVPVlANGsc6UMpM6I_Q7xxfQupqOGYZACqbM3aA97UuLWsvdKf8AGfiaPK8XpBPfU0obgs_hQ=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette vitrine rassemble un ensemble de parures et de petits objets de prestige issus de contextes funéraires de Mycènes, illustrant le goût de l'élite pour l'ornementation personnelle et les matériaux importés. L'élément central de cette présentation est une collection de colliers composés de perles aux formes et aux textures variées, principalement façonnées en faïence et en pâte de verre, des matériaux dont la maîtrise technique et les couleurs bleutées étaient particulièrement prisées à l'âge du Bronze récent. Ces bijoux, portés par les défunts lors des cérémonies funèbres, soulignent non seulement leur rang social mais aussi l'étendue des réseaux commerciaux reliant Mycènes à l'Égypte et au Proche-Orient.</p>
+    <p>On observe une grande diversité dans la typologie des perles, allant de simples tubes allongés à des formes plus complexes appelées "perles à godrons" ou "en forme de roue", qui créent des jeux d'ombre et de lumière sur le fil. Certains colliers présentent des pendentifs spécifiques, comme des éléments en forme de lotus ou de petites amulettes, qui pouvaient avoir une fonction protectrice pour le voyage dans l'au-delà. La disposition circulaire de ces parures dans la vitrine évoque la manière dont elles étaient portées, entourant parfois plusieurs fois le cou ou les poignets des défunts.</p>
+    <p>En complément de ces bijoux, la vitrine expose de petits objets de toilette et des contenants miniatures, tels que des flacons à onguents ou des sceaux. Ces pièces, souvent réalisées dans des matériaux rares comme la stéatite ou l'ivoire, témoignent du soin apporté à l'apparence physique et à l'identité personnelle, des valeurs qui restaient centrales jusque dans le mobilier de la tombe. Cet ensemble constitue un témoignage précieux sur l'esthétique mycénienne, où la finesse du travail artisanal servait à matérialiser le prestige éternel des classes dirigeantes.</p>
+    <p><strong>Siècle :</strong> XIVe - XIIIe siècle av. J.-C. | <strong>Civilisation :</strong> Monde égéen (Art Mycénien) | <strong>Sous-partie :</strong> Arts du Métal & Parures.</p>`
+  },
+  {
+    id: "mobilier_elite_tombe_mycenes",
+    civId: "egee",
+    periodId: "mycenes",
+    civName: "Art Mycénien (Grèce)",
+    century: "v. -1400 à -1100 av. J.-C. (Helladique Récent III)",
+    centuryDisplay: "v. -1300 av. J.-C.",
+    centuryNumeric: -1300,
+    domain: "arts_precieux",
+    artifactType: "Parure & Bijou",
+    title: "Mobilier funéraire et parures en pâte de verre des nécropoles de Mycènes",
+    site: "Musée Archéologique de Mycènes (Argolide)",
+    originSite: "Mycènes (Argolide, Grèce)",
+    locationType: "museum",
+    currentLocation: "Musée Archéologique de Mycènes",
+    category: "Mobilier funéraire",
+    isHighlight: false,
+    chips: ["Helladique Récent III", "Nécropoles", "Pâte de verre", "Musée de Mycènes"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNbDGkAnaYluBHnlnVGEZxSy0lSJIuH1Sd2LlflPjC2zFYzcY0Cx4QGVCC67a1hVCaNxQ1xSDYc5nS_yz2Jgk7us8EQ799J7dvSEh_nKlbB70Jz_c1Cw9P8E5yktwHvFz-EjCNsetqI74LZ3If8i8Q4Mw=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette vitrine rassemble un mobilier funéraire caractéristique des sépultures de l'élite mycénienne, provenant des nécropoles de Mycènes et datant principalement de l'Helladique Récent III (environ 1400-1100 av. J.-C.). Ces objets, déposés aux côtés du défunt pour l'accompagner dans l'au-delà, témoignent non seulement des rites religieux de l'époque, mais aussi du statut social et du raffinement esthétique de la civilisation achéenne. L'ensemble illustre la diversité des matériaux travaillés, allant de la terre cuite peinte à la pâte de verre, révélant un artisanat hautement spécialisé tourné vers l'apparat et le rituel domestique transposé dans la sphère funéraire.</p>
+    <p>La présence de parures et d'objets de toilette souligne l'importance de l'ornementation corporelle. Les colliers exposés sont composés de perles en pâte de verre bleutée et en faïence, souvent moulées selon des motifs récurrents comme des rosettes ou des perles côtelées. Ces matériaux, imitant parfois le lapis-lazuli, attestent des échanges commerciaux actifs de Mycènes avec l'Orient et l'Égypte.</p>
+    <p><strong>Siècle :</strong> XIVe - XIIe siècle av. J.-C. | <strong>Civilisation :</strong> Monde égéen (Art Mycénien) | <strong>Sous-partie :</strong> Arts du Métal & Parures.</p>`
+  },
+  {
+    id: "masque_or_cercle_a_traits_arrondis_athenes",
+    civId: "egee",
+    periodId: "mycenes",
+    civName: "Art Mycénien (Grèce)",
+    century: "XVIe siècle av. J.-C. (Helladique Récent I)",
+    centuryDisplay: "XVIe s. av. J.-C.",
+    centuryNumeric: -1550,
+    domain: "arts_precieux",
+    artifactType: "Masque / Plastron",
+    title: "Masque funéraire royal en feuille d'or (Cercle funéraire A)",
+    site: "Musée National Archéologique d'Athènes (prov. Mycènes)",
+    originSite: "Mycènes (Argolide, Grèce)",
+    locationType: "museum",
+    currentLocation: "Musée National Archéologique d'Athènes",
+    category: "Orfèvrerie royale",
+    isHighlight: false,
+    chips: ["XVIe s. av. J.-C.", "Cercle funéraire A", "Or repoussé", "Musée d'Athènes"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPJupV2soKAfTNb2XUGBCV5netqzgsWur_WxezAXThuPOn7OGe7RelIxsISprS3cvudHdKO00Wvt6-yMX-4ONcOTiJjIyUtUdQ7XV-1VS7FpEAK-J35BWPfEZ2YPnp3mgfe_dBm8D_KPWrM0CqEh-Fk0Q=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce masque funéraire, chef-d'œuvre de l'orfèvrerie mycénienne, constitue l'un des témoignages les plus saisissants de la civilisation de l'âge du Bronze en Grèce. Découvert par Heinrich Schliemann en 1876 dans le cercle funéraire A de Mycènes, cet objet appartient à une série de masques en or destinés à recouvrir le visage de défunts de haut rang, probablement des rois ou des membres de l'élite guerrière. Contrairement au célèbre masque dit d'Agamemnon, celui-ci présente des traits plus arrondis et une stylisation particulière, témoignant de la diversité des mains et des techniques au sein des ateliers royaux mycéniens vers le XVIe siècle avant notre ère.</p>
+    <p>La technique employée est celle du repoussé, consistant à marteler une fine feuille d'or pur par l'arrière pour faire apparaître les volumes du visage. On observe ici une volonté de portraiturer le défunt, bien que les traits restent soumis à des conventions artistiques rigides : les yeux en amande sont clos, le nez est large et les lèvres sont marquées par une ligne horizontale ferme. Les oreilles, représentées de manière schématique sur les bords, et les perforations latérales suggèrent que le masque était fixé au visage du corps ou à un linceul à l'aide de fils, assurant ainsi la préservation symbolique de l'identité du chef dans l'au-delà.</p>
+    <p>L'utilisation massive de l'or, métal inaltérable, souligne non seulement la richesse exceptionnelle de la cité de Mycènes, qualifiée de « riche en or » par Homère, mais aussi une fonction rituelle précise. En enveloppant le visage du mort dans cette coque métallique précieuse, les Mycéniens cherchaient sans doute à immortaliser les traits du souverain et à manifester sa puissance divine ou héroïque. La finesse de la feuille d'or et les plis naturels formés par le temps sur le pourtour du masque ajoutent à la pièce une dimension dramatique, capturant l'essence d'une époque où l'art funéraire servait de pont entre le monde des vivants et celui des héros.</p>
+    <p>Aujourd'hui conservé au Musée national archéologique d'Athènes, ce masque demeure une pièce maîtresse pour comprendre l'organisation sociale et les croyances religieuses de la période helladique récente. Il illustre parfaitement la maîtrise technique des artisans mycéniens qui, bien avant l'apogée de la Grèce classique, savaient déjà manipuler les métaux précieux pour créer des objets d'une intensité visuelle inégalée. Ce visage d'or, figé dans une éternité silencieuse, continue d'interroger les historiens sur la réalité historique des mythes achéens et sur la splendeur de cette civilisation palatiale disparue.</p>
+    <p><strong>Siècle :</strong> XVIe siècle av. J.-C. | <strong>Civilisation :</strong> Monde égéen (Art Mycénien) | <strong>Sous-partie :</strong> Arts du Métal & Parures.</p>`
+  },
+  {
+    id: "masque_or_cercle_a_yeux_clos_athenes",
+    civId: "egee",
+    periodId: "mycenes",
+    civName: "Art Mycénien (Grèce)",
+    century: "XVIe siècle av. J.-C. (Helladique Récent I)",
+    centuryDisplay: "XVIe s. av. J.-C.",
+    centuryNumeric: -1550,
+    domain: "arts_precieux",
+    artifactType: "Masque / Plastron",
+    title: "Masque funéraire royal aux sourcils continus en feuille d'or",
+    site: "Musée National Archéologique d'Athènes (prov. Mycènes)",
+    originSite: "Mycènes (Argolide, Grèce)",
+    locationType: "museum",
+    currentLocation: "Musée National Archéologique d'Athènes",
+    category: "Orfèvrerie royale",
+    isHighlight: false,
+    chips: ["XVIe s. av. J.-C.", "Cercle funéraire A", "Masque d'or", "Musée d'Athènes"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPNKOJueS3YC6nA4Vl3_SlcqSUWg5MU25rUxYn_2dtJWMnrphzpbW_PeajPToaZFaeHfMn8C5vALiJSoDt8nAia8P42pSpl1KjUya0qCWRsHDcrQ9k0ILcQBxm66UTdkSigN0O9zG0QZR3XcgWwAtsEIA=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce masque funéraire, contemporain des autres découvertes majeures du cercle funéraire A de Mycènes (vers le XVIe siècle avant notre ère), constitue une pièce maîtresse de la collection mycénienne du Musée national archéologique d'Athènes. Réalisé à partir d'une feuille d'or pur, il illustre la volonté des artisans de l'époque d'immortaliser les traits des défunts royaux par l'usage de métaux inaltérables. Bien que moins célèbre que le "masque d'Agamemnon", il se distingue par une physionomie singulière et un traitement des volumes qui souligne l'approche individualisée, presque portraitiste, des orfèvres mycéniens de l'âge du Bronze.</p>
+    <p>La technique du repoussé est ici parfaitement maîtrisée, permettant de modeler les traits du visage avec une force expressive remarquable. On remarque particulièrement le dessin des sourcils, qui se rejoignent à la base du nez, et les yeux clos en forme d'amande, caractéristiques du sommeil éternel. Les oreilles sont représentées de manière stylisée sur les bords de la feuille d'or, tandis que la bouche, fine et légèrement arquée, confère au visage une sérénité majestueuse. Les petites perforations visibles près des oreilles indiquent que le masque était maintenu sur le visage du défunt par des fils, assurant son maintien lors des rituels de passage.</p>
+    <p>L'usage systématique de l'or pour les hauts dignitaires mycéniens reflète une structure sociale pyramidale où la richesse métallique servait de marqueur de rang divin ou héroïque. En recouvrant le visage de métal précieux, on créait une image indestructible du chef, capable de défier la décomposition et de s'inscrire dans la mémoire collective. Ce masque témoigne d'une étape charnière de l'art grec où la stylisation héritée du monde minoen commence à intégrer un réalisme plus brut, propre à la culture guerrière continentale des Achéens.</p>
+    <p>Aujourd'hui, cet objet permet de mieux comprendre la ferveur religieuse et l'importance du culte des ancêtres dans la cité "riche en or". Sa présence aux côtés des bijoux et des armes dans les tombes à fosse confirme que l'au-delà était perçu comme une extension de la vie terrestre, nécessitant faste et protection. Ce visage d'or, par son regard éternellement clos, demeure l'un des liens les plus tangibles et émouvants avec l'aristocratie disparue qui dominait la Grèce bien avant l'époque d'Homère.</p>
+    <p><strong>Siècle :</strong> XVIe siècle av. J.-C. | <strong>Civilisation :</strong> Monde égéen (Art Mycénien) | <strong>Sous-partie :</strong> Arts du Métal & Parures.</p>`
+  },
+  {
+    id: "rhyton_or_tete_lion_mycenes_athenes",
+    civId: "egee",
+    periodId: "mycenes",
+    civName: "Art Mycénien (Grèce)",
+    century: "XVIe siècle av. J.-C. (Helladique Récent I)",
+    centuryDisplay: "XVIe s. av. J.-C.",
+    centuryNumeric: -1550,
+    domain: "parures_metaux",
+    artifactType: "Vaisselle d'or & d'argent",
+    title: "Rhyton en or en forme de tête de lion (Tombe IV du Cercle A)",
+    site: "Musée National Archéologique d'Athènes (prov. Mycènes)",
+    originSite: "Mycènes (Argolide, Grèce)",
+    locationType: "museum",
+    currentLocation: "Musée National Archéologique d'Athènes",
+    category: "Vase de libation en or",
+    isHighlight: false,
+    chips: ["XVIe s. av. J.-C.", "Tombe IV", "Tête de lion", "Musée d'Athènes"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPRFPRXnIHI0jBkKow_ZjNiRNC7NoVQbh5OlLJFPeNynyOh8a11Y6eQv9abtD_ybM_z9r6XfLYLWKx2HVYrkH9hfWukUWw8-JsdL3HdsUB-J89tFfX5jVAQ4OhQk72gmTWAD1cPimWzsjTBYK5t1t5G9Q=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce rhyton en or massif en forme de tête de lion, exhumé de la tombe à fosse IV du cercle funéraire A de Mycènes, est l'un des objets les plus spectaculaires de l'orfèvrerie mycénienne du XVIe siècle avant notre ère. Contrairement au rhyton à tête de taureau qui utilise une combinaison de métaux, cette pièce est entièrement façonnée dans une épaisse feuille d'or, illustrant la richesse inouïe et le prestige des souverains enterrés dans cette nécropole. Le lion, prédateur suprême et symbole de la force souveraine, est ici représenté avec une stylisation géométrique puissante qui s'écarte du naturalisme minoen pour affirmer une esthétique proprement continentale et guerrière.</p>
+    <p>La structure du vase repose sur une technique de martelage complexe permettant de créer des volumes nets et angulaires, notamment au niveau du front et de la crinière. Le museau est particulièrement détaillé avec de petits cercles incisés figurant les moustaches, tandis que les yeux, autrefois peut-être incrustés d'une autre matière, sont rendus par des ouvertures en amande entourées d'un relief marqué. En tant que vase à libations, le liquide était introduit par une ouverture située au sommet du crâne et s'écoulait par un orifice percé au niveau du museau. Ce processus rituel, lors duquel le vin ou l'huile semblait jaillir de la gueule du lion, servait probablement à invoquer la protection de l'animal ou à honorer la mémoire du chef défunt par un acte de dévotion solennel.</p>
+    <p>L'importance symbolique du lion à Mycènes ne peut être sous-estimée, comme en témoigne la célèbre Porte des Lionnes qui marquait l'entrée de la citadelle. En possédant et en utilisant un tel objet, l'élite mycénienne affichait son lien avec les puissances de la nature et sa domination sur le monde animal. La facture de ce rhyton, avec ses lignes épurées et sa brillance inaltérable, en fait non seulement un outil de culte, mais aussi un chef-d'œuvre de l'art métallurgique ancien, témoignant de la capacité des artisans de l'époque à travailler l'or en volume avec une grande sûreté de trait.</p>
+    <p><strong>Siècle :</strong> XVIe siècle av. J.-C. | <strong>Civilisation :</strong> Monde égéen (Art Mycénien) | <strong>Sous-partie :</strong> Arts du Métal & Parures.</p>`
+  },
+  {
+    id: "tresor_or_tombes_iv_v_cercle_a_athenes",
+    civId: "egee",
+    periodId: "mycenes",
+    civName: "Art Mycénien (Grèce)",
+    century: "XVIe siècle av. J.-C. (Helladique Récent I)",
+    centuryDisplay: "XVIe s. av. J.-C.",
+    centuryNumeric: -1550,
+    domain: "parures_metaux",
+    artifactType: "Parure en or / Argent / Bronze",
+    title: "Diadèmes et disques d'or des tombes à fosse IV et V de Mycènes",
+    site: "Musée National Archéologique d'Athènes (prov. Mycènes)",
+    originSite: "Mycènes (Argolide, Grèce)",
+    locationType: "museum",
+    currentLocation: "Musée National Archéologique d'Athènes",
+    category: "Orfèvrerie funéraire",
+    isHighlight: false,
+    chips: ["XVIe s. av. J.-C.", "Tombes IV et V", "Diadèmes en or", "Musée d'Athènes"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMSx3QKTlAhsSFYPtAV-XLogf7SZmwnrWg10fhvOQWBe2wKi4SY4gNHx_9O6XY_uNSOLqffyOdY_bxVVEZbGsi8Y_nGNNuGM8NbOZq0M5nQ2SGg4VY5RGQ9UU3pw8wkolf8iwC1Bv3Ez7go37gs1UWJKQ=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cet ensemble exceptionnel de bijoux et d'ornements en or, provenant des tombes à fosse IV et V du cercle funéraire A de Mycènes, constitue l'un des trésors les plus denses de l'âge du Bronze grec. Datés du XVIe siècle avant notre ère, ces objets illustrent la richesse inouïe des souverains mycéniens, dont les sépultures regorgeaient de parures destinées à accompagner les défunts dans l'au-delà. On y trouve une grande variété de pièces : des diadèmes imposants aux motifs de feuilles ou de fleurs, des disques d'or finement décorés, des attaches de vêtements et des épingles à cheveux, tous façonnés avec une maîtrise technique remarquable pour l'époque.</p>
+    <p>Le travail de l'or repose majoritairement sur la technique du repoussé, permettant de créer des reliefs complexes sur de fines feuilles de métal. Les motifs iconographiques sont variés, allant de spirales géométriques répétitives à des représentations naturalistes comme des poulpes, des papillons ou des fleurs. Cette profusion décorative témoigne d'un art de cour sophistiqué où l'ostentation servait à affirmer le rang social et la légitimité politique. Les diadèmes, en particulier, présentent des formes en croissant ou à pointes, caractéristiques des parures royales qui ceignaient le front des membres de la dynastie.</p>
+    <p>Outre les parures de tête, la collection comprend de nombreux disques d'or perforés qui étaient autrefois cousus sur les linceuls ou les vêtements funéraires des défunts. Cet usage transformait littéralement le corps du mort en une figure étincelante et inaltérable. On observe également des bijoux plus structurés, comme des balances miniatures en or, qui possédaient probablement une valeur symbolique liée au pesage des âmes ou au destin. La présence de ces objets dans les tombes IV et V, les plus riches du cercle A, souligne l'accumulation de richesses par une élite guerrière capable de commander des œuvres d'une telle finesse.</p>
+    <p><strong>Siècle :</strong> XVIe siècle av. J.-C. | <strong>Civilisation :</strong> Monde égéen (Art Mycénien) | <strong>Sous-partie :</strong> Arts du Métal & Parures.</p>`
+  },
+  {
+    id: "gobelet_vaphio_capture_violente_athenes",
+    civId: "egee",
+    periodId: "mycenes",
+    civName: "Art Mycénien (Grèce)",
+    century: "v. -1500 av. J.-C. (Helladique Récent II A)",
+    centuryDisplay: "v. -1500 av. J.-C.",
+    centuryNumeric: -1500,
+    domain: "parures_metaux",
+    artifactType: "Vaisselle d'or & d'argent",
+    title: "Le Gobelet de Vaphio à la capture violente des taureaux sauvages",
+    site: "Musée National Archéologique d'Athènes (prov. Vaphio, Laconie)",
+    originSite: "Vaphio (Laconie / influence minoenne)",
+    locationType: "museum",
+    currentLocation: "Musée National Archéologique d'Athènes",
+    category: "Orfèvrerie royale",
+    isHighlight: false,
+    chips: ["v. -1500 av. J.-C.", "Tombe de Vaphio", "Taureaux sauvages", "Musée d'Athènes"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPsAO7yYIgdkDZvcs3VF_OfX607VV3pm2HMlfFW63je0q05DrIzjVT6Pp58cfEMWMz-yzNOemzJTbCeTXJR0d-tEqyhjwytxZ8owbno8okM0LlAMQ5Qf5GDrnVXcwa7GJ2rZD9-Gy5vjQ1U2ae17KGELw=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Découvert en 1888 par l'archéologue Christos Tsountas dans une tombe à tholos située à Vaphio, près de Sparte, ce gobelet en or massif constitue l'un des chefs-d'œuvre les plus emblématiques de l'orfèvrerie de l'âge du bronze. Bien que trouvé sur le continent grec, il témoigne de l'influence prépondérante de la civilisation minoenne sur le monde mycénien vers 1500 avant notre ère. L'objet est actuellement conservé au Musée national archéologique d'Athènes, où il est présenté aux côtés de son pendant, formant une paire célèbre illustrant deux méthodes distinctes de capture de taureaux sauvages.</p>
+    <p>La technique de fabrication utilisée est celle du repoussé, un travail d'une précision remarquable réalisé depuis l'intérieur de la paroi pour créer un relief vigoureux à l'extérieur. Le gobelet est composé de deux feuilles d'or : une plaque externe richement décorée et une paroi interne lisse dont le rebord est replié sur la partie supérieure pour sceller l'ensemble. Cette maîtrise technique permet de restituer avec une grande fidélité les détails anatomiques des animaux et la tension des muscles, typique du naturalisme crétois de cette époque.</p>
+    <p>L'iconographie de ce vase particulier dépeint une scène de capture violente et dynamique. On y observe un taureau piégé dans un filet tendu entre deux oliviers, luttant désespérément pour se libérer, tandis qu'un autre animal charge deux chasseurs, en renversant un au passage. Cette représentation contraste avec le second gobelet de la paire, qui montre une méthode de capture plus pacifique par la ruse. La présence de l'olivier et le traitement stylisé du sol rocailleux inscrivent la scène dans un paysage méditerranéen typique, soulignant le lien profond entre les sociétés égéennes et la force brute de la nature sauvage.</p>
+    <p>Au-delà de sa fonction utilitaire ou rituelle probable, ce gobelet est un document historique précieux sur les pratiques de l'élite de l'époque. Il symbolise le prestige des chefs mycéniens qui importaient ou commandaient des objets d'art d'une telle sophistication pour affirmer leur pouvoir. La qualité du mouvement et l'expression de la fureur animale font de cette pièce un jalon essentiel dans l'histoire de l'art antique, marquant la transition entre la délicatesse minoenne et la vigueur héroïque qui caractérisera plus tard la Grèce mycénienne.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1500) | <strong>Civilisation :</strong> Monde égéen (Art Mycénien) | <strong>Sous-partie :</strong> Arts du Métal & Parures.</p>`
+  },
+  {
+    id: "fresque_bouclier_en_huit_mycenes_athenes",
+    civId: "egee",
+    periodId: "mycenes",
+    civName: "Art Mycénien (Grèce)",
+    century: "XIIIe siècle av. J.-C. (Helladique Récent III B)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1250,
+    domain: "peinture_murale",
+    artifactType: "Peinture murale / Fresque",
+    title: "Fresque palatiale au bouclier en forme de huit et spirales",
+    site: "Musée National Archéologique d'Athènes (prov. Mycènes)",
+    originSite: "Palais de Mycènes (Argolide, Grèce)",
+    locationType: "museum",
+    currentLocation: "Musée National Archéologique d'Athènes",
+    category: "Peinture murale",
+    isHighlight: false,
+    chips: ["XIIIe s. av. J.-C.", "Palais de Mycènes", "Bouclier en huit", "Musée d'Athènes"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMx4ayKHUwcZwnTbStOAurJtQv23ePcrLdDQmUlgJEnnBInIRhsnLE0k3i8-RdiPg2ADIrzka1_srC_6jjLp_BPlU1gJ1HbGnO4Jr5f2CetWXzXaCckMj7oRBH1VjABmaU2TjhneN3AajhQslGb8tqZKw=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette fresque murale fragmentaire, découverte dans le palais de la citadelle de Mycènes et conservée au Musée National Archéologique d'Athènes, illustre l'iconographie guerrière et symbolique de la civilisation mycénienne au XIIIe siècle avant notre ère. Elle représente un bouclier en forme de huit, un motif récurrent de l'art égéen qui dépasse la simple fonction militaire pour devenir un véritable emblème religieux et politique. Ce type de bouclier, traditionnellement fabriqué à partir de plusieurs couches de peaux de bœuf tendues sur une armature en bois, est ici rendu avec une stylisation remarquable, alternant les taches sombres et claires pour évoquer le pelage naturel de l'animal.</p>
+    <p>La composition se distingue par la précision de ses motifs géométriques et ornementaux. Le bouclier est superposé à un fond décoré de bandes horizontales et d'une frise de spirales courantes, un motif d'influence minoenne que les Mycéniens ont largement intégré dans leur répertoire décoratif. Les couleurs utilisées — l'ocre rouge, le noir, le blanc et des touches de bleu — sont caractéristiques de la palette palatiale, appliquées sur un enduit de chaux selon la technique de la fresque. La ligne verticale centrale, ornée de chevrons, figure la nervure de renfort du bouclier, accentuant la structure et la verticalité de l'objet dans l'espace architectural du palais.</p>
+    <p>Dans le contexte des mégarons mycéniens, de telles représentations de boucliers n'étaient pas purement décoratives ; elles servaient probablement à exalter les vertus martiales de l'aristocratie guerrière tout en plaçant le lieu sous une protection divine. Le bouclier en huit est souvent associé à une divinité protectrice, parfois désignée comme la "déesse au bouclier", faisant de cet objet un talisman visuel puissant. La répétition de ce motif sur les murs des palais créait une atmosphère de solennité et de puissance, affirmant l'identité d'une société dont l'élite était étroitement liée à la fonction guerrière et au contrôle des ressources.</p>
+    <p>Ce fragment est particulièrement précieux pour les archéologues, car il permet de restituer visuellement l'apparence des équipements militaires décrits plus tard dans l'épopée homérique, notamment le bouclier d'Ajax, décrit comme une tour couverte de sept peaux de bœuf. Bien que le style mycénien soit plus rigide et schématique que celui de la Crète minoenne, cette fresque témoigne d'une maîtrise technique indéniable et d'un sens aigu de la symétrie. Elle demeure un témoignage essentiel de l'esthétique palatiale juste avant le déclin de cette civilisation à la fin de l'âge du Bronze.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. | <strong>Civilisation :</strong> Monde égéen (Art Mycénien) | <strong>Sous-partie :</strong> Fresques & Palais.</p>`
+  },
+  {
+    id: "dame_de_mycenes_fresque_athenes",
+    civId: "egee",
+    periodId: "mycenes",
+    civName: "Art Mycénien (Grèce)",
+    century: "v. -1300 av. J.-C. (Helladique Récent III B)",
+    centuryDisplay: "v. -1300 av. J.-C.",
+    centuryNumeric: -1300,
+    domain: "peinture_murale",
+    artifactType: "Peinture murale / Fresque",
+    title: "La « Dame de Mycènes » (Fragment de fresque d'une déesse ou prêtresse)",
+    site: "Musée National Archéologique d'Athènes (prov. Mycènes)",
+    originSite: "Centre cultuel de Mycènes (Argolide, Grèce)",
+    locationType: "museum",
+    currentLocation: "Musée National Archéologique d'Athènes",
+    category: "Peinture murale",
+    isHighlight: false,
+    chips: ["v. -1300 av. J.-C.", "Centre cultuel", "Dame de Mycènes", "Musée d'Athènes"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMpwalQMz4NVKYdeuBHJQvHPRzZumstCiMYhWK7_dFzjDukZpW-DkDx1LyNNGDQ-32FgctW5ALMF7ZdhlDhbUz0gh2Wd2daaCo1aupLkMVrtZDpwJepFSaIYdqjV3D-zHr-lelMPuD6WoNDHmyhMEILCQ=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette notice muséale traite du fragment de fresque représentant une figure féminine, souvent identifiée comme une divinité ou une prêtresse, provenant du centre cultuel de la citadelle de Mycènes et conservé au Musée National Archéologique d'Athènes. Datant de la phase finale de la civilisation mycénienne, vers 1300 avant notre ère, cette œuvre est un exemple remarquable de la peinture murale à la chaux, où les pigments sont intégrés à l'enduit humide. Bien que fragmentaire, le visage de la figure est d'une grande finesse, caractérisé par un œil large dessiné de face sur un visage de profil, une convention stylistique héritée de l'art minoen mais exécutée ici avec la rigueur formelle propre au continent grec.</p>
+    <p>La parure de la figure témoigne du luxe et du symbolisme religieux mycéniens. La chevelure sombre est coiffée en boucles élaborées, retenues par un diadème rouge orné de perles, tandis que de longues mèches serpentines encadrent le visage et descendent le long du dos. L'oreille est dessinée avec une stylisation géométrique presque abstraite, soulignant l'aspect conventionnel de ce portrait sacré. On devine sur l'épaule le haut d'un vêtement richement brodé de motifs circulaires et de bandes colorées, suggérant l'importance rituelle du personnage représenté dans l'espace du sanctuaire où la fresque a été mise au jour.</p>
+    <p>Le traitement chromatique repose sur une palette de couleurs symboliques : le fond bleu égyptien profond fait ressortir la pâleur de la peau, tandis que les rehauts de rouge et d'ocre apportent du relief aux détails vestimentaires et à la coiffe. Le style mycénien se manifeste ici par une ligne de contour noire plus marquée et plus statique que dans les modèles crétois, conférant à la figure une présence imposante et hiératique. Cette œuvre servait probablement à renforcer le lien entre le monde terrestre et les divinités tutélaires du palais, agissant comme une interface visuelle pour les participants aux cérémonies religieuses.</p>
+    <p>La conservation de ces fragments permet aujourd'hui de reconstituer l'atmosphère visuelle saturée de couleurs et de symboles qui caractérisait les centres de pouvoir de l'Âge du Bronze. Cette "Dame de Mycènes" demeure l'un des témoignages les plus vibrants de l'art palatial avant la disparition des grandes citadelles. La précision des détails, notamment dans le rendu des bijoux et de la texture des tissus, offre aux historiens des données précieuses sur l'artisanat et les coutumes vestimentaires de l'élite mycénienne à son apogée.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1300) | <strong>Civilisation :</strong> Monde égéen (Art Mycénien) | <strong>Sous-partie :</strong> Fresques & Palais.</p>`
+  },
+  {
+    id: "groupe_triade_phi_louvre",
+    civId: "egee",
+    periodId: "mycenes",
+    civName: "Art Mycénien (Grèce)",
+    century: "XIIIe siècle av. J.-C. (Helladique Récent III B)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1250,
+    domain: "sculpture_statuaire",
+    artifactType: "Figurine votive / Ex-voto",
+    title: "Groupe plastique de figurines en Phi accolées (Triade votive)",
+    site: "Musée du Louvre (Paris / prov. Mycènes)",
+    originSite: "Mycènes (Argolide, Grèce)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre (Paris)",
+    category: "Coroplastie votive",
+    isHighlight: false,
+    chips: ["Helladique Récent III B", "Type Phi", "Groupe cultuel", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNimk4JIs_PYaHXdh_3HnRshQx_tJi-OQAzyyqVxAeeTx5pQWmuqbLC_snvxM5--OMLs3IjclStvBcNdG3O6YAZ_OZ48n9fO2yWjI9lbUM8s-4EPkwBfrdiDxI3PGmmm08ssFMBOzdxFjkzBAGuKSO65g=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce groupe de figurines en terre cuite constitue une pièce exceptionnelle de la coroplastie mycénienne tardive, illustrant la fusion de plusieurs entités anthropomorphes en un seul bloc plastique. L'œuvre représente deux figures féminines accolées, surmontées d'une troisième figure plus petite ou d'un élément de liaison central, créant une structure tripartite complexe. Chaque personnage conserve la morphologie caractéristique du type en Phi (du nom de la lettre grecque $\\phi$), avec un buste circulaire et plat, des bras suggérés par la courbure du disque et une base cylindrique évasée pour assurer la stabilité. Les têtes sont réduites à des formes en "bec d'oiseau" avec des yeux simplement ponctués, une schématisation qui privilégie la valeur symbolique du groupe sur son réalisme anatomique.</p>
+    <p>Le décor peint au vernis ocre-brun sur l'argile claire souligne l'unité de la composition tout en différenciant les volumes. Des lignes verticales parallèles recouvrent les bustes, évoquant peut-être les plis d'un vêtement léger ou des parures rituelles. Les seins sont indiqués par de petites protubérances modelées, rappelant le caractère féminin et probablement nourricier ou divin de ces représentations. La liaison entre les deux figures principales se fait par une jonction continue au niveau des bustes et des bases, témoignant d'une volonté de représenter un lien indissoluble, peut-être une triade divine ou une fraternité rituelle.</p>
+    <p>L'usage de ce type de groupe, découvert à Mycènes, est étroitement lié aux contextes cultuels ou funéraires du XIIIe siècle avant J.-C. (Helladique Récent III B). Ces figurines étaient déposées comme ex-voto dans des sanctuaires domestiques ou dans des tombes pour assurer la protection des défunts. La répétition du motif de la figure féminine et son agencement en groupe complexe soulignent l'importance des cultes de la fécondité et de la solidarité communautaire dans la société mycénienne. Ce spécimen, par sa conservation et sa structure atypique, est un jalon précieux pour comprendre l'évolution de la pensée religieuse grecque avant l'effondrement des palais.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. | <strong>Civilisation :</strong> Monde égéen (Art Mycénien) | <strong>Sous-partie :</strong> Tombes & Rituels.</p>`
+  },
+  {
+    id: "offrandes_sanctuaire_archaique_maison_ouest_mycenes",
+    civId: "egee",
+    periodId: "mycenes",
+    civName: "Art Mycénien (Grèce)",
+    century: "VIIe - VIe siècle av. J.-C. (Époque Archaïque)",
+    centuryDisplay: "VIIe - VIe s. av. J.-C.",
+    centuryNumeric: -650,
+    domain: "sculpture_statuaire",
+    artifactType: "Figurine votive / Ex-voto",
+    title: "Offrandes votives, sphinx et figurines articulées de la Maison de l'Ouest",
+    site: "Musée Archéologique de Mycènes (Argolide)",
+    originSite: "Maison de l'Ouest (Mycènes, Grèce)",
+    locationType: "museum",
+    currentLocation: "Musée Archéologique de Mycènes",
+    category: "Offrandes votives",
+    isHighlight: false,
+    chips: ["Période Archaïque", "Maison de l'Ouest", "Sphinx & Neurospasta", "Musée de Mycènes"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMLv-FbUZ2U7aZv5N0x_FjXXeU4cjYopaMMb1cXWeLPui2PLHxe3Q_bGbEOcUmEd2kricelqPTDO6--L8PowZUfLOs7que58E3PBmdf-3k88YpbnCqVYZP06wnpfyyzSKLDVDH32AURxCyf-MkLXrtAVA=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette vitrine présente un ensemble d'offrandes votives provenant du sanctuaire de l'époque archaïque, érigé au-dessus des ruines de la Maison de l'Ouest à Mycènes. Ces objets témoignent de la continuité du caractère sacré du site bien après l'effondrement de la puissance palatiale mycénienne. Contrairement au mobilier funéraire, ces pièces étaient offertes à une divinité dans l'espoir d'obtenir une faveur ou en remerciement d'une protection accordée, illustrant les pratiques religieuses populaires de la période archaïque grecque.</p>
+    <p>La collection se distingue par une grande variété de figurines en terre cuite aux formes hybrides et animalières. On remarque notamment des sphinx ailés, créatures mythologiques au corps de lion et à tête humaine, représentés dans une posture assise et stylisée. À leurs côtés figurent des statuettes de gallinacés, comme des coqs, qui étaient des offrandes courantes à cette époque, souvent associées à des divinités protectrices de la fertilité ou de la vie domestique. Ces figurines conservent une grande finesse dans le modelage des ailes et des détails anatomiques, typique de la production artisanale locale.</p>
+    <p>Une partie importante de l'exposition est consacrée à des figurines féminines articulées, souvent appelées "poupées" ou neurospasta. Ces statuettes présentent des membres distincts (bras et jambes) qui étaient autrefois reliés au tronc par des fils, permettant le mouvement. Si leur usage exact fait encore débat entre jouet enfantin et objet purement rituel, leur présence dans un contexte de sanctuaire suggère une forte dimension symbolique, peut-être liée à des rites de passage. Certaines portent des coiffes cylindriques hautes, appelées polos, qui désignent souvent un statut divin ou sacerdotal.</p>
+    <p>L'ensemble inclut également des fragments anthropomorphes, tels que des bustes et une tête isolée, montrant l'évolution des traits du visage vers un naturalisme plus marqué propre à l'art archaïque. Ces visages affichent parfois le "sourire archaïque" caractéristique et des coiffures élaborées en tresses. La disposition de ces objets, numérotés pour l'inventaire archéologique, permet d'apprécier la diversité des dévotions au sein du sanctuaire et la persistance de Mycènes comme centre religieux actif durant le premier millénaire avant notre ère.</p>
+    <p><strong>Siècle :</strong> VIIe - VIe siècle av. J.-C. | <strong>Civilisation :</strong> Monde égéen (Art Mycénien) | <strong>Sous-partie :</strong> Tombes & Rituels.</p>`
+  },
+  {
+    id: "serpents_terre_cuite_centre_cultuel_mycenes",
+    civId: "egee",
+    periodId: "mycenes",
+    civName: "Art Mycénien (Grèce)",
+    century: "v. -1250 av. J.-C. (Helladique Récent III B)",
+    centuryDisplay: "v. -1250 av. J.-C.",
+    centuryNumeric: -1250,
+    domain: "sculpture_statuaire",
+    artifactType: "Figurine votive / Ex-voto",
+    title: "Serpents enroulés votifs en terre cuite du centre cultuel de Mycènes",
+    site: "Musée Archéologique de Mycènes (Argolide)",
+    originSite: "Centre cultuel de Mycènes (Argolide, Grèce)",
+    locationType: "museum",
+    currentLocation: "Musée Archéologique de Mycènes",
+    category: "Figurines votives chthoniennes",
+    isHighlight: false,
+    chips: ["v. -1250 av. J.-C.", "Centre cultuel", "Serpents sacrés", "Musée de Mycènes"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczM9aU-qoIpxbtPyC2Xgy-jY1AONvoP_Oge-0fNcHD4vdvLjUKBn4tPeLK8xN9EXzgr6W7xz1J7aDpZ6vFzYcpdpM5QZg1n0fCdhXYai7b49nRgdtSyS0D1PYFHm2591Go3As_gpZ7xMykBLA0joV9SAHg=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette vitrine expose un ensemble remarquable de serpents en terre cuite découverts à Mycènes, datant approximativement de -1250 avant notre ère. Ces figurines, modelées avec une grande attention aux détails, représentent le reptile enroulé sur lui-même, la tête souvent légèrement dressée dans une posture d'alerte ou de protection. La présence de ces objets dans le centre cultuel de la citadelle souligne l'importance symbolique du serpent dans la religion mycénienne, où il est étroitement associé aux divinités chthoniennes et à la protection du foyer ou du sanctuaire.</p>
+    <p>La technique de fabrication révèle un usage de la terre cuite peinte, caractéristique de l'artisanat palatial de cette période. On observe sur certains spécimens des restes de pigments rouges et des motifs pointillés ou linéaires qui imitent la texture des écailles, renforçant le réalisme de la représentation. Ces objets ne sont pas de simples ornements, mais des offrandes votives déposées dans des espaces sacrés pour invoquer une puissance bienveillante ou apaiser des forces souterraines.</p>
+    <p>La découverte de ces serpents aux côtés d'autres idoles anthropomorphes témoigne de la complexité des rites mycéniens à la fin de l'âge du Bronze. Leur disposition en spirale évoque non seulement la forme naturelle de l'animal au repos, mais pourrait également symboliser le cycle de la vie et de la régénération. Ces pièces constituent aujourd'hui des témoins silencieux mais puissants des croyances spirituelles qui animaient la société mycénienne peu avant les grands bouleversements du XIIe siècle avant J.-C.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1250) | <strong>Civilisation :</strong> Monde égéen (Art Mycénien) | <strong>Sous-partie :</strong> Tombes & Rituels.</p>`
+  },
+  {
+    id: "idoles_monumentales_centre_cultuel_mycenes",
+    civId: "egee",
+    periodId: "mycenes",
+    civName: "Art Mycénien (Grèce)",
+    century: "v. -1250 av. J.-C. (Helladique Récent III B)",
+    centuryDisplay: "v. -1250 av. J.-C.",
+    centuryNumeric: -1250,
+    domain: "sculpture_statuaire",
+    artifactType: "Figurine votive / Ex-voto",
+    title: "Statues cultuelles monumentales creuses du centre religieux de Mycènes",
+    site: "Musée Archéologique de Mycènes (Argolide)",
+    originSite: "Centre cultuel de Mycènes (Argolide, Grèce)",
+    locationType: "museum",
+    currentLocation: "Musée Archéologique de Mycènes",
+    category: "Statuaire cultuelle",
+    isHighlight: false,
+    chips: ["v. -1250 av. J.-C.", "Centre cultuel", "Statues au tour", "Musée de Mycènes"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMEL-FvzjkbC_SnpC2mX5CREIb7Z6ttzHkSCN0t4mj9Z7v8t5pgBnQUMph8XPYKAEGFWzuSlinAHJEj4vYcfPmNj3AHdw8xwDYTro2OslkR1GWhz-TAMu9rDuRq0Z6Q7FELs2s2mR1PQ_BpxX-ygtf26g=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette vitrine rassemble un groupe de figurines anthropomorphes monumentales en terre cuite, découvertes dans le centre cultuel de la citadelle de Mycènes et datant de la fin de l'helladique récent III B, vers -1250 avant notre ère. Contrairement aux petites statuettes courantes de type Psi ou Phi, ces idoles se distinguent par leur taille imposante et leur aspect délibérément impressionnant, voire farouche. Elles présentent un corps cylindrique creux, façonné au tour de potier, sur lequel sont modelés des visages aux traits saillants : des yeux globuleux cerclés de peinture, des nez proéminents et des expressions souvent qualifiées de "sévères" ou de "menaçantes".</p>
+    <p>L'iconographie de ces figures est étroitement liée aux fonctions religieuses et rituelles des sanctuaires mycéniens. La posture des bras est ici fondamentale : certaines figurines lèvent les mains dans un geste d'épiphanie ou de bénédiction, tandis que d'autres semblent porter des objets ou les porter à leur poitrine. La polychromie, bien que partiellement effacée sur certains exemplaires, utilise les mêmes tons de terre que la céramique contemporaine, avec des engobes clairs et des décors à la peinture sombre. Les détails peints soulignent parfois les vêtements, les bijoux ou des motifs de points sur le visage qui pourraient évoquer des tatouages ou des scarifications rituelles.</p>
+    <p>La fonction de ces statuettes demeure un sujet de recherche, mais leur regroupement suggère qu'elles incarnaient soit des divinités mineures, soit des intercesseurs entre le monde humain et le divin. Leur aspect singulier, avec ces regards fixes et ces bouches parfois entrouvertes, était conçu pour marquer l'esprit du fidèle lors des cérémonies se déroulant dans la pénombre des pièces de culte. Ces pièces majeures du musée national archéologique d'Athènes constituent l'une des expressions les plus originales et les plus énigmatiques de la spiritualité mycénienne, juste avant le déclin des grands palais.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1250) | <strong>Civilisation :</strong> Monde égéen (Art Mycénien) | <strong>Sous-partie :</strong> Tombes & Rituels.</p>`
+  },
+  {
+    id: "figurines_psi_bovins_mobilier_mycenes",
+    civId: "egee",
+    periodId: "mycenes",
+    civName: "Art Mycénien (Grèce)",
+    century: "v. -1500 av. J.-C. (Helladique Récent II)",
+    centuryDisplay: "v. -1500 av. J.-C.",
+    centuryNumeric: -1500,
+    domain: "sculpture_statuaire",
+    artifactType: "Figurine votive / Ex-voto",
+    title: "Collection de figurines votives en Psi, bovins et mobilier miniature",
+    site: "Musée Archéologique de Mycènes (Argolide)",
+    originSite: "Mycènes (Argolide, Grèce)",
+    locationType: "museum",
+    currentLocation: "Musée Archéologique de Mycènes",
+    category: "Coroplastie votive",
+    isHighlight: false,
+    chips: ["v. -1500 av. J.-C.", "Type Psi", "Bestiaire & Trônes", "Musée de Mycènes"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPkx37y6UEXBvBIj44Z3bBNl5ZPD-WdmzmljHruhbNC9o9hOD8xmpuHNYrfm56Z1FBT8Kzg6TjlT6G966kHVF2iyswQ1QxuHLXY0X7e9VPOmTloGg7a2mVu-uCHXdVA58f9rDHIwehzmJ90s4SdPvGZqQ=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette vitrine présente une collection de petites figurines en terre cuite caractéristiques de la période de l'Helladique Récent, vers -1500 avant notre ère, illustrant la production votive de masse au sein de la civilisation mycénienne. On y observe principalement deux types de représentations : des figures féminines stylisées et un bestiaire animalier complété par du mobilier miniature. Ces objets, de dimensions modestes, étaient façonnés à la main et décorés de motifs linéaires simples à la peinture sombre, utilisant les mêmes techniques que la céramique utilitaire contemporaine.</p>
+    <p>La rangée supérieure expose des figurines anthropomorphes appartenant majoritairement au type "Psi", ainsi nommé en raison de leur ressemblance avec la lettre grecque $\\Psi$. Elles se caractérisent par un corps en colonne évasé à la base et des bras levés vers le ciel dans une posture d'adoration ou d'épiphanie. Leurs têtes sont simplifiées par un léger pincement de l'argile formant le nez, tandis que les détails du visage et des vêtements sont suggérés par des traits de peinture ondulés ou verticaux. Ces statuettes étaient produites en grand nombre pour servir d'offrandes personnelles dans les sanctuaires ou de protectrices dans l'espace domestique.</p>
+    <p>La partie inférieure de la présentation dévoile une variété de figurines animales, principalement des bovins, identifiables à leurs cornes proéminentes et leur corps robuste orné de bandes de peinture. À leurs côtés figurent des éléments de mobilier miniature, tels que des tables ou des trônes, qui pourraient représenter de façon symbolique les équipements nécessaires aux banquets rituels ou au confort des divinités. Cet ensemble témoigne d'une piété populaire vivante, où chaque objet déposé servait à matérialiser une prière, une demande de fertilité pour le bétail ou une protection pour le foyer.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1500) | <strong>Civilisation :</strong> Monde égéen (Art Mycénien) | <strong>Sous-partie :</strong> Tombes & Rituels.</p>`
+  },
+   {
     id: "rhyton_conique_thebes_louvre",
     civId: "egee",
     periodId: "mycenes",
