@@ -6,6 +6,239 @@ window.ART_OBJECTS = window.ART_OBJECTS || [];
 window.ART_OBJECTS.push(
 
   {
+    id: "relief_maia_table_offrandes_lotus_libation_saqqarah",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1330 av. J.-C. / règne de Toutânkhamon)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1330,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Table d'offrandes au grand bouquet de lotus et libation purificatrice (Tombe de Maia)",
+    site: "Complexe funéraire de Maia - Bubasteion (Saqqarah)",
+    originSite: "Saqqarah",
+    locationType: "site",
+    currentLocation: "In situ (Tombe de Maia, Saqqarah)",
+    category: "Bas-relief en calcaire polychrome",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Maia", "Toutânkhamon", "Saqqarah", "Bubasteion", "Table d'offrandes", "Bouquet de lotus"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMsoOqYHUZxyVp7TfGydfus6A-pmrVtjJXV-pEVQRBNlwJzqtzvC4k10Dgmw-R8eQN5zl-hvD3LlqgHmrnLfsN8gCmztJEgwr1HtNPAERNTXa2hVseE48qVD8evySciv3QzCY9tP8_1uZUxx6MFZzonRA=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce bas-relief en calcaire polychrome provient de la chapelle funéraire de Maia à Saqqarah, illustrant avec une grande vivacité les rituels d'offrandes destinés à assurer la survie de la défunte dans l'au-delà. La scène, exécutée dans le style raffiné de la fin de la XVIIIe dynastie, montre une procession de serviteurs et de porteurs d'offrandes s'avançant vers la table de la maîtresse des lieux. La conservation exceptionnelle des pigments permet d'apprécier le contraste entre les tons ocre rouge des chairs masculines et les nuances plus claires, ainsi que les rehauts de bleu et de vert sur les éléments végétaux.</p>
+    <p>Au centre de la composition se dresse une table d'offrandes richement garnie, surmontée de pains ronds, de jarres scellées et de pièces de viande. L'accumulation de nourriture est magnifiée par la présence d'un imposant bouquet de lotus, symbole de renaissance, dont les tiges s'élèvent verticalement pour structurer la scène. À gauche, un prêtre ou un serviteur procède à une libation, versant de l'eau purificatrice d'un vase tandis qu'il présente de l'encens fumant, créant un lien rituel entre le monde des vivants et celui des morts.</p>
+    <p>Le personnage féminin sur la droite, probablement une parente ou une servante de haut rang, est représenté dans une attitude de respect, vêtue d'une robe de lin plissé dont la transparence laisse deviner les formes du corps, un héritage direct du style amarnien. Derrière elle, un homme porte la main à son front dans un geste de deuil ou d'hommage solennel. La finesse des détails, des mèches de perruque aux contours des yeux, souligne le statut exceptionnel de Maia en tant que « Grande Nourrice Royale ».</p>
+    <p>Les registres de hiéroglyphes qui encadrent la scène fournissent les formules d'invocation nécessaires à la pérennité du culte. Ils mentionnent les denrées alimentaires et les onguents que la défunte est invitée à consommer éternellement. Cet ensemble décoratif ne se contente pas de montrer la richesse de Maia ; il transforme les parois de la tombe en une source inépuisable de subsistance magique, garantissant que son nom et sa mémoire ne soient jamais oubliés dans la nécropole du Bubasteion.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1330) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "relief_maia_ouverture_bouche_pretre_momie_saqqarah",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1330 av. J.-C. / règne de Toutânkhamon)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1330,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Cérémonie rituelle de l'Ouverture de la Bouche devant l'effigie de Maia (Tombe de Maia)",
+    site: "Complexe funéraire de Maia - Bubasteion (Saqqarah)",
+    originSite: "Saqqarah",
+    locationType: "site",
+    currentLocation: "In situ (Tombe de Maia, Saqqarah)",
+    category: "Bas-relief en calcaire polychrome",
+    isHighlight: true,
+    chips: ["XVIIIe dynastie", "Maia", "Toutânkhamon", "Saqqarah", "Bubasteion", "Ouverture de la bouche", "Rite funéraire"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPNFG-wzm5Yb-pkl2txhjfyjRkX-5xadtKs7yuoENaJkHSx_9oErHtsDwNdBwfxh455CeBmqcOkAZtffYcBXw0THh4VjF75CsohlhaUqTk5agLUqPmDvF5evKNqrtPC_sPE9d4YFuAZtIz9Vw8cTVVtyQ=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce bas-relief en calcaire polychrome, situé dans la tombe de Maia à Saqqarah, illustre une étape cruciale des rituels funéraires du Nouvel Empire : la cérémonie de l'Ouverture de la Bouche. Cette scène, d'une grande finesse d'exécution, montre un prêtre officiant face à une statue de la défunte ou à sa momie dressée verticalement. Le prêtre utilise un instrument rituel pour toucher le visage de la figure, un geste sacré destiné à rendre au défunt l'usage de ses sens — la parole, l'ouïe et la vue — afin qu'il puisse profiter des offrandes dans l'au-delà.</p>
+    <p>L'esthétique de la scène témoigne de la période de transition post-amarnienne, mêlant le réalisme des corps et la fluidité des vêtements plissés à un retour aux canons traditionnels. La statue de Maia est représentée avec une perruque élaborée et une robe longue, tandis que les prêtres et assistants portent le pagne court plissé. La conservation des pigments est remarquable, notamment les tons ocres rouges pour la peau masculine et les détails noirs de la chevelure, offrant une lecture claire de la hiérarchie et du mouvement des personnages.</p>
+    <p>Autour de l'action centrale, une procession d'hommes accompagne le rituel, soulignant l'importance sociale de la « Grande Nourrice Royale ». Les hiéroglyphes gravés en haut de la paroi nomment les participants et décrivent les paroles liturgiques prononcées durant la cérémonie. La répétition des figures masculines crée un rythme visuel qui guide l'œil vers l'acte sacré, transformant ce mur de pierre en un espace de transition perpétuelle entre la mort et la renaissance éternelle.</p>
+    <p>Ce registre iconographique ne se contente pas de documenter une pratique religieuse ; il magnifie le lien entre Maia et les forces divines par la médiation des prêtres. Dans le contexte du Bubasteion, cette scène assure à la propriétaire de la tombe que son identité et ses fonctions vitales seront préservées pour l'éternité.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1330) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "relief_maia_agenouillee_adoration_robe_plissee_saqqarah",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1330 av. J.-C. / règne de Toutânkhamon)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1330,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Maia agenouillée en prière et parée de la robe plissée translucide (Tombe de Maia)",
+    site: "Complexe funéraire de Maia - Bubasteion (Saqqarah)",
+    originSite: "Saqqarah",
+    locationType: "site",
+    currentLocation: "In situ (Tombe de Maia, Saqqarah)",
+    category: "Bas-relief en calcaire polychrome",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Maia", "Toutânkhamon", "Saqqarah", "Bubasteion", "Dévotion", "Lin translucide", "Ousekh"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczN4jE7lD2L0HUANB-vvOofZbPj-FogtIo5V2w1vOqK9E1UxSRlhz7nlCLd1PAp-WBqawN60eQbkX2N9du1G5QjAi7YqmVN7U-RjCH1vkSU5M1Kcv_-xxBTkC0dAhEzQQJpimq0EJ2_NzepqqSTvms2Tbw=w1611-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Ce relief en calcaire polychrome, situé dans la tombe de Maia à Saqqarah, capture un instantané de la dévotion personnelle de la « Grande Nourrice Royale » à la fin de la XVIIIe dynastie. Maia est représentée agenouillée dans une posture d'adoration classique, les mains levées vers une colonne de textes sacrés qui l'identifient et proclament ses mérites. Son profil, d'une grande finesse, arbore la perruque tripartite volumineuse à mèches détaillées et un large collier ousekh, emblématiques du rang élevé qu'elle occupait à la cour de Toutânkhamon.</p>
+    <p>Le travail du sculpteur met ici en relief la transition artistique entre l'époque amarnienne et le retour au classicisme thébain. La robe de Maia, en lin blanc translucide, est rendue par une multitude de plis rayonnants qui épousent les formes de son corps, créant un effet de mouvement et de légèreté. Cette attention portée au costume et à la silhouette féminine témoigne du raffinement extrême des ateliers royaux de Memphis, qui ont su conserver le naturalisme hérité du règne d'Akhenaton tout en réintégrant une élégance plus traditionnelle.</p>
+    <p>La palette chromatique, bien que partiellement érodée, conserve des teintes d'ocre rouge pour la carnation et des traces de bleu égyptien dans les hiéroglyphes et les motifs décoratifs. De part et d'autre de la figure centrale, des signes ânkh (vie) et des sceptres ouas (puissance) encadrent la scène, renforçant la portée magique du relief. Ces symboles assuraient à la défunte que ses prières seraient entendues et que sa vitalité serait préservée pour l'éternité dans le royaume d'Osiris.</p>
+    <p>Intégrée dans le complexe funéraire du Bubasteion, cette représentation participe à la glorification éternelle de Maia. En se faisant immortaliser dans cette attitude de piété, elle garantit la pérennité de son statut de protectrice royale, même par-delà la mort.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1330) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "relief_maia_profil_mains_levees_titulature_saqqarah",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1330 av. J.-C. / règne de Toutânkhamon)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1330,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Profil d'adoration de Maia et colonnes de hiéroglyphes royaux (Tombe de Maia)",
+    site: "Complexe funéraire de Maia - Bubasteion (Saqqarah)",
+    originSite: "Saqqarah",
+    locationType: "site",
+    currentLocation: "In situ (Tombe de Maia, Saqqarah)",
+    category: "Bas-relief en calcaire polychrome",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Maia", "Toutânkhamon", "Saqqarah", "Bubasteion", "Grande Nourrice Royale", "Hiéroglyphes peints"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP7M99taHgXeiS2XNtUzcVOIvAEVGXvrOspwpPfLcGdKMEHSlCNQF1lYgoQHtJiBZ1BG94hthnCx6z6rF163ybqX4L8WS6zxUKBUsoYlWnKQ0qZyu3Q_OvrdOWby4-hNFmZAwIZVj-gzlaUqjOzM1egsg=w1611-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Ce relief polychrome sur calcaire est un détail majeur de la paroi décorée de la tombe de Maia à Saqqarah. Il représente la défunte dans une attitude de prière et d'adoration, tournée vers la droite de la composition. Maia porte une perruque imposante à mèches courtes et un vêtement de lin blanc plissé dont le rendu rayonnant, typique de la mode de la fin de la XVIIIe dynastie, souligne la finesse du travail des sculpteurs memphites.</p>
+    <p>Ses bras sont levés, les paumes ouvertes vers l'avant, dans un geste rituel de réception des bienfaits divins ou de salutation du soleil levant. Les détails anatomiques, comme la finesse des doigts et le profil délicat du visage, conservent une élégance héritée de l'époque amarnienne, tout en réintégrant la rigueur du dessin classique du règne de Toutânkhamon. La carnation est rendue par un pigment ocre rouge encore bien préservé, contrastant avec le blanc éclatant de la robe.</p>
+    <p>Au-dessus d'elle, des colonnes de hiéroglyphes peints en bleu et jaune détaillent ses titres prestigieux. On y lit notamment sa fonction de « Grande Nourrice Royale », rappelant son lien charnel et affectif avec le jeune pharaon. Les signes, gravés avec une grande précision, agissent comme une légende éternelle qui identifie Maia et garantit que son nom, élément essentiel de la survie de l'âme en Égypte ancienne, soit prononcé par les visiteurs de sa chapelle.</p>
+    <p>Cette scène s'inscrit dans un programme iconographique complexe où la dévotion de la défunte lui assure la protection des dieux de la nécropole. Située dans le secteur du Bubasteion, cette tombe est un témoignage exceptionnel du haut rang social des femmes à la cour royale.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1330) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "relief_maia_cortege_hommes_affliction_post_amarnien_saqqarah",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1330 av. J.-C. / règne de Toutânkhamon)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1330,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Cortège funéraire solennel : Serviteurs de haut rang et geste d'affliction (Tombe de Maia)",
+    site: "Complexe funéraire de Maia - Bubasteion (Saqqarah)",
+    originSite: "Saqqarah",
+    locationType: "site",
+    currentLocation: "In situ (Tombe de Maia, Saqqarah)",
+    category: "Bas-relief en calcaire",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Maia", "Toutânkhamon", "Saqqarah", "Bubasteion", "Cortège funéraire", "Geste d'affliction"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPbIy6X7Ha6SMBVh55tjyWvf7dy_F7PY0-ElRBN0tDzjtwneV8Avyfr0RjZ61Qvh3xaYIMpEcwrd6OB9DSWTyq6Lcw_lhQAgF3CiNgDhuBCrFGjEmzjwJFVeioOhX-QF3NofPjM0cHUGKR1q5cR-lpcSQ=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce relief en calcaire sculpté, issu de la tombe de Maia à Saqqarah, offre une vision saisissante de la ferveur collective entourant les rites funéraires de la « Grande Nourrice Royale » à la fin de la XVIIIe dynastie. La scène dépeint une procession d'hommes, probablement des proches ou des serviteurs de haut rang, dont les visages sont rendus avec une individualité frappante. Bien que la polychromie soit ici moins apparente que sur d'autres parois, la maîtrise du relief permet de distinguer les nuances des profils et les détails des perruques, caractéristiques du raffinement artistique de l'époque de Toutânkhamon.</p>
+    <p>Les personnages sont représentés dans un mouvement de marche solennelle, leurs corps s'imbriquant pour créer une impression de profondeur et de densité. Ce procédé stylistique, hérité de l'art amarnien, confère une dimension naturelle et humaine à la scène, rompant avec la rigidité des canons plus anciens. On observe à droite un homme portant la main à son visage dans un geste d'affliction ou de respect silencieux, tandis que les autres participants semblent concentrés sur l'accomplissement du rituel de passage pour la défunte.</p>
+    <p>Le rendu des vêtements est particulièrement soigné, avec des pagnes en lin plissé dont la finesse est suggérée par de légères incisions rayonnantes. Chaque figure participe à l'harmonie d'ensemble, dirigeant le regard du spectateur vers l'avant de la procession, là où se déroulaient les actes liturgiques majeurs comme l'Ouverture de la bouche. Cette composition dynamique assure une présence éternelle à l'entourage de Maia, garantissant que le culte funéraire soit célébré pour toujours par une assemblée dévouée.</p>
+    <p>Dans le cadre du complexe du Bubasteion, ce panneau témoigne de l'importance politique et sociale de Maia, capable de mobiliser une telle escorte pour son voyage vers l'au-delà. La qualité de la sculpture, jouant sur des reliefs très bas pour suggérer le volume, illustre l'apogée de l'école memphite.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1330) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "relief_maia_portrait_adoration_perruque_noire_saqqarah",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1330 av. J.-C. / règne de Toutânkhamon)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1330,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Portrait d'intensité spirituelle : Maia à la chevelure d'ébène en prière (Tombe de Maia)",
+    site: "Complexe funéraire de Maia - Bubasteion (Saqqarah)",
+    originSite: "Saqqarah",
+    locationType: "site",
+    currentLocation: "In situ (Tombe de Maia, Saqqarah)",
+    category: "Bas-relief en calcaire polychrome",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Maia", "Toutânkhamon", "Saqqarah", "Bubasteion", "Portrait", "Perruque noire", "Demeure d'éternité"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNxT-c8yZQwOJRtOjT0JNpDP7os2xk7AZHXkgXTT5eml9GRDrLpxfDLs_ZqK7JvpADXqSqlK_9lUjA3FZlhwSkpShfS8CtM7MR_9uOq1ifEr68XLVpuYJfc9BhV5hz7E311oIZCmcBJqUAG6a8hQWVijg=w1611-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Ce relief sur calcaire, situé dans la chapelle funéraire de Maia à Saqqarah, offre un portrait d'une grande intensité de la « Grande Nourrice Royale » en adoration. La défunte est représentée de profil, les bras levés devant elle, dans un geste de prière tourné vers le divin. Elle porte une perruque noire imposante et une robe de lin blanc dont les plis rayonnants témoignent du style raffiné de la fin de la XVIIIe dynastie, marquant le retour aux traditions thébaines après l'épisode amarnien.</p>
+    <p>Le visage de Maia est traité avec une délicatesse particulière, soulignant des traits fins et un regard expressif qui conservent une certaine douceur naturaliste. Sa peau est peinte d'un ocre brun-rouge qui ressort sur le fond de la pierre, tandis que les traces de pigments noirs sur la chevelure et les yeux renforcent la présence de la figure. Ce portrait, bien qu'inscrit dans un cadre religieux formel, dégage une humanité qui illustre le rang exceptionnel de cette femme au sein de la cour de Toutânkhamon.</p>
+    <p>Au-dessus du personnage, des colonnes de hiéroglyphes gravés et peints déclinent son identité et ses titres de noblesse. Ces inscriptions ne sont pas seulement informatives ; elles fonctionnent comme des formules magiques garantissant que Maia continuera de recevoir les bienfaits nécessaires à sa vie dans l'au-delà. La précision de la gravure des signes, dont certains conservent des rehauts de jaune et de bleu, démontre la qualité supérieure des artisans mobilisés pour l'aménagement de cette sépulture dans la zone du Bubasteion.</p>
+    <p>Cette œuvre illustre parfaitement la fonction de la tombe égyptienne comme une « demeure d'éternité » où l'image de la défunte doit rester active pour capter les offrandes et les prières. La position de Maia, figée dans cet acte de dévotion perpétuelle, assure sa place privilégiée auprès des dieux.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1330) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "relief_maia_introduction_au_dela_anubis_saqqarah",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1330 av. J.-C. / règne de Toutânkhamon)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1330,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Introduction de Maia dans le monde souterrain par le dieu Anubis (Tombe de Maia)",
+    site: "Complexe funéraire de Maia - Bubasteion (Saqqarah)",
+    originSite: "Saqqarah",
+    locationType: "site",
+    currentLocation: "In situ (Tombe de Maia, Saqqarah)",
+    category: "Bas-relief en calcaire",
+    isHighlight: true,
+    chips: ["XVIIIe dynastie", "Maia", "Toutânkhamon", "Saqqarah", "Bubasteion", "Anubis canidé", "Psychopompe", "Introduction divine"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPHpWRHWq33m8ShVAbPi2QaB8B11KstQQgDLPQymLcgH7ia1DgWhHzW2jv1dKJnL4E--lYlCvPlQESzHmiAgQhBm5D5p_O-cAMvhrcVz_ckLZtlNvAvwyLnbhWoa3gfqdfU9FafSABUDpKabTlTBUiMdA=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce relief exceptionnel, sculpté dans le calcaire de la tombe de Maia à Saqqarah, représente l'un des moments les plus solennels de l'iconographie funéraire : Maia introduite dans l'au-delà par le dieu Anubis. Située dans la zone du Bubasteion et datant de la fin de la XVIIIe dynastie (v. 1330 av. J.-C.), cette scène illustre le passage de la défunte vers le monde souterrain. Anubis, le dieu à tête de chacal associé à l'embaumement et à la protection des morts, est représenté avec une grande finesse, guidant avec bienveillance la « Grande Nourrice Royale » vers son destin éternel.</p>
+    <p>Le style artistique de ce panneau est un témoignage précieux de la période post-amarnienne sous le règne de Toutânkhamon. Le visage de Maia conserve la douceur et le naturalisme caractéristiques de l'époque précédente, tout en retrouvant une élégance plus classique. Elle porte une perruque tripartite complexe et ses mains sont levées dans un geste d'adoration et de respect face aux puissances divines qu'elle s'apprête à rencontrer. La transition entre le corps d'Anubis et celui de Maia crée une composition fluide qui symbolise le lien indéfectible entre le protégé et son guide divin.</p>
+    <p>La technique du relief dans le creux, alliée à une gravure très précise des hiéroglyphes en arrière-plan, permet de dater l'œuvre avec certitude de l'école memphite de la fin du Nouvel Empire. Les inscriptions mentionnent les titres de Maia et invoquent la protection d'Anubis, « Seigneur de la Terre Sacrée ». Bien que la polychromie soit assombrie par le temps, on distingue encore la structure vigoureuse des muscles du dieu et la délicatesse des traits de la défunte, faisant de ce bloc l'un des chefs-d'œuvre de la nécropole de Saqqarah.</p>
+    <p>Cette représentation souligne le statut social éminent de Maia, qui bénéficie de la protection directe des plus grandes divinités du panthéon égyptien. Dans le contexte du Bubasteion, cette scène d'introduction garantit magiquement à la propriétaire de la tombe une transition sereine et réussie vers l'immortalité.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1330) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "relief_maia_porteurs_papyrus_lotus_canards_saqqarah",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1330 av. J.-C. / règne de Toutânkhamon)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1330,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Procession solennelle des porteurs de bouquets de papyrus, lotus et canards vivants (Tombe de Maia)",
+    site: "Complexe funéraire de Maia - Bubasteion (Saqqarah)",
+    originSite: "Saqqarah",
+    locationType: "site",
+    currentLocation: "In situ (Tombe de Maia, Saqqarah)",
+    category: "Bas-relief en calcaire",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Maia", "Toutânkhamon", "Saqqarah", "Bubasteion", "Bouquets montés", "Canards vivants", "Porteurs d'offrandes"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOtoJwB9OBybbpUb99IuuNK8bbINRJ3OnM_WGPI8dHfVQiUZEiQGCiPXkaUxWShKM49zwTqcAetN_bQKd2CFx03lt6_ldhwaAYl3ADDlPN_Nj-8LKWVAnIrcQhxCtT9_l8sfAB2YMYpD8f8x2xKq8CWfQ=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce relief en calcaire, issu de la chapelle funéraire de Maia à Saqqarah, illustre avec une grande solennité une procession de porteurs d'offrandes. La scène, sculptée en bas-relief, montre une file de personnages masculins et féminins s'avançant de droite à gauche. Chaque participant est chargé de denrées précieuses ou d'objets rituels destinés à l'entretien éternel du culte de la « Grande Nourrice Royale ». Ce type de représentation garantissait magiquement que la défunte ne manquerait jamais de subsistance dans l'au-delà.</p>
+    <p>Les figures de tête sont des hommes portant d'imposants bouquets de papyrus et de lotus, symboles de renaissance et de vitalité. Le sculpteur a apporté un soin particulier au rendu des détails, notamment dans la structure des tiges liées et l'épanouissement des fleurs. Derrière eux, des femmes, probablement des parentes ou des servantes de la maison de Maia, portent des paniers et des canards vivants tenus par les ailes. Cette précision naturaliste reflète le haut niveau technique des ateliers memphites de la fin de la XVIIIe dynastie.</p>
+    <p>Le style de la procession trahit l'influence de l'époque post-amarnienne par la fluidité des silhouettes et la légère cambrure des corps. Les visages, bien que suivant un profil conventionnel, présentent des traits d'une grande douceur avec des yeux en amande et des lèvres pleines. Les coiffures sont variées : certains hommes portent une perruque courte et ronde, tandis que les femmes arborent la perruque longue tripartite à mèches finement gravées. Les vêtements, constitués de fins tissus de lin, sont suggérés par des lignes de contours souples qui épousent le mouvement de la marche.</p>
+    <p>L'ensemble de la scène est encadré par des registres de hiéroglyphes qui précisent la nature des offrandes et l'identité de certains participants. Situé dans le secteur du Bubasteion, ce panneau témoigne de la richesse décorative des tombes de la haute noblesse sous le règne de Toutânkhamon.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1330) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "stele_sethi_ier_amon_re_temple_gourna_thebes",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1290 av. J.-C. / règne de Séthi Ier)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1290,
+    domain: "funeraire",
+    artifactType: "Stèle",
+    title: "Stèle rituelle de Séthi Ier face au dieu Amon-Rê (Temple funéraire de Gourna)",
+    site: "Temple funéraire de Séthi Ier (Gourna, Thèbes)",
+    originSite: "Thèbes-Ouest",
+    locationType: "site",
+    currentLocation: "In situ (Allée principale du Temple de Séthi Ier, Gourna)",
+    category: "Stèle commémorative en grès",
+    isHighlight: true,
+    chips: ["XIXe dynastie", "Séthi Ier", "Gourna", "Amon-Rê", "Menmaâtrê", "Stèle de grès", "Temple des millions d'années"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNcSu3uMCa1OV3EL-WrJLb-cXjNhzuCm3pmV85Oa8j59THXUJzZx042mvZM__KQy55srOugDqdwo4j67kmpzN-UELoRzNdzIhTvi-fLJqoTvCx8BRsabNO87Ke-v7Hv0SibtXCK2a9qd35eyo7dNj3tsA=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette œuvre exceptionnelle est une stèle de grès située dans l'allée principale du temple funéraire de Séthi Ier à Gourna (Thèbes-Ouest), érigée vers 1290 av. J.-C. Ce monument, que le pharaon nommait « Séthi est bienfaisant dans le domaine d'Amon », constitue le plus ancien des temples de « millions d'années » de l'époque ramesside. La stèle illustre la piété royale et sert d'introduction monumentale au sanctuaire dédié au dieu Amon-Rê et au culte funéraire du pharaon et de son père, Ramsès Ier.</p>
+    <p>Le relief sculpté en creux présente une scène rituelle classique de la XIXe dynastie : le pharaon Séthi Ier, coiffé de la couronne blanche de Haute-Égypte, fait face au dieu Amon-Rê, ici représenté sous une forme anthropomorphe avec sa haute coiffe de plumes. Entre les deux figures se dressent des colonnes de textes hiéroglyphiques détaillant les titres du roi, notamment son nom de couronnement Menmaâtrê (« La justice de Rê est stable »). Sous un disque solaire ailé protecteur, le roi tend une offrande symbolique à la divinité, réaffirmant ainsi son rôle de garant de l'ordre cosmique (Maât) et son lien direct avec le divin.</p>
+    <p>Bien que le temple ait souffert du temps et des crues du Nil, cette stèle témoigne de la finesse du style de l'époque de Séthi Ier, réputé pour être l'un des plus raffinés de l'Égypte ancienne. La précision des traits et la noblesse des postures préfigurent les chefs-d'œuvre de la salle hypostyle de Karnak ou du temple d'Abydos, également bâtis sous son règne. Ce vestige, restauré par des équipes archéologiques allemandes, demeure un témoin essentiel de la propagande royale et de la ferveur religieuse qui animait la rive ouest de Louxor il y a plus de trois mille ans.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1290) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+   {
     id: "sculpture_pilier_maia_nourrice_toutankhamon_bubasteion_saqqarah",
     civId: "egypte",
     periodId: "nouvel_empire",
