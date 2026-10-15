@@ -6,6 +6,456 @@ window.ART_OBJECTS = window.ART_OBJECTS || [];
 window.ART_OBJECTS.push(
 
   {
+    id: "relief_kagemni_fourre_papyrus_oiseaux_envol_saqqarah",
+    civId: "egypte",
+    periodId: "ancien_empire",
+    civName: "Égypte : Ancien Empire",
+    century: "VIe dynastie (v. -2300 av. J.-C. / règne de Téti)",
+    centuryDisplay: "XXIIIe s. av. J.-C.",
+    centuryNumeric: -2300,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Vie dans les fourrés de papyrus : Envol et repos des oiseaux aquatiques (Mastaba de Kagemni)",
+    site: "Mastaba de Kagemni (Saqqarah)",
+    originSite: "Saqqarah",
+    locationType: "site",
+    currentLocation: "In situ (Mastaba de Kagemni, Saqqarah)",
+    category: "Bas-relief en calcaire fin",
+    isHighlight: false,
+    chips: ["VIe dynastie", "Kagemni", "Téti", "Saqqarah", "Faune ornithologique", "Fourrés de papyrus"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMx3uBmjcIegL960AVBUN3_wydaDIKPnmuRtyWleWjIEsqF2-EhZ7FtHpT5qyZM_evXFddOw6R9a8Opipi28AOqqjNZDUSpJn0sROKM1oC-v6Kll2Yl5z5S3kOvuSTpBBP1U8YSwrMwTsh07tZ0Ra5Xdw=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce bas-relief en calcaire, situé dans le mastaba de Kagemni à Saqqarah (v. 2300 av. J.-C.), illustre avec une virtuosité exceptionnelle la richesse ornithologique des marais du Nil. La scène est divisée en plusieurs registres superposés, créant une composition dense et rythmée où des oiseaux aquatiques, principalement des oies et des canards, sont représentés dans diverses attitudes. L'artiste a réussi à capturer le bourdonnement de vie d'un fourré de papyrus, symbolisé par les ombelles stylisées qui encadrent les animaux.</p>
+    <p>Le registre supérieur montre des oiseaux en plein envol, les ailes déployées, saisissant l'instant précis où ils quittent la surface de l'eau. La finesse des incisions pour rendre le plumage et la dynamique des cous tendus témoignent d'une observation naturaliste aiguë, propre à l'apogée de l'Ancien Empire. Cette envolée contraste avec le calme des registres inférieurs, où les oiseaux sont figurés au repos ou marchant en file indienne, créant un équilibre parfait entre mouvement et stabilité.</p>
+    <p>Au centre et au bas de la paroi, les oiseaux évoluent parmi les lotus et les plantes aquatiques. La répétition des silhouettes, légèrement décalées, suggère la profondeur de la colonie d'oiseaux sans utiliser de perspective traditionnelle. Chaque espèce est rendue avec une telle précision que les ornithologues peuvent aujourd'hui encore les identifier. Cette profusion de vie animale garantissait magiquement au vizir Kagemni des chasses fructueuses et une nourriture abondante pour l'éternité dans l'au-delà.</p>
+    <p><strong>Siècle :</strong> XXIIIe siècle av. J.-C. (-2300) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "relief_kagemni_porteurs_grandes_jarres_vases_saqqarah",
+    civId: "egypte",
+    periodId: "ancien_empire",
+    civName: "Égypte : Ancien Empire",
+    century: "VIe dynastie (v. -2300 av. J.-C. / règne de Téti)",
+    centuryDisplay: "XXIIIe s. av. J.-C.",
+    centuryNumeric: -2300,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Procession des porteurs de grandes jarres à vin et huiles précieuses (Mastaba de Kagemni)",
+    site: "Mastaba de Kagemni (Saqqarah)",
+    originSite: "Saqqarah",
+    locationType: "site",
+    currentLocation: "In situ (Mastaba de Kagemni, Saqqarah)",
+    category: "Bas-relief en calcaire polychrome",
+    isHighlight: false,
+    chips: ["VIe dynastie", "Kagemni", "Téti", "Saqqarah", "Porteurs d'offrandes", "Jarres de vin", "Ocre rouge"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczN23NzqBFRbQqeZf3vozXprGzXMerq2mzAe5hxpnWf_j2atYp2fY2S4j23RD7z9BG0SSAEEHKRp7KEDQMan9_eBb2ryHIuhrO-IY2X4xF5U9K_BGOif3RCHA-bVrbsmBKgT_YTAx4qjp1TyMFbkIcIvUw=w1611-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Ce bas-relief sur calcaire, situé sur un pilier ou une paroi étroite du mastaba de Kagemni à Saqqarah (v. 2300 av. J.-C.), illustre le thème crucial de l'apport des offrandes pour le culte funéraire du défunt. La scène est organisée en registres superposés montrant une procession de porteurs chargés de grands vases et de jarres. Ces récipients, probablement remplis de vin, de bière ou d'huiles précieuses, étaient essentiels pour assurer la subsistance éternelle du vizir dans l'au-delà, témoignant de son rang social élevé sous le règne de Téti.</p>
+    <p>Chaque personnage est représenté de profil, selon les canons classiques de l'art égyptien, portant les lourdes jarres sur l'épaule ou les maintenant à l'aide de cordes. On observe une alternance de postures et de coiffures qui brise la monotonie de la procession, apportant une certaine variété humaine à cette tâche répétitive. La précision des détails, comme la forme spécifique des anses et des bouchons de scellement des vases, permet d'identifier précisément les types de contenants utilisés à la VIe dynastie.</p>
+    <p>La polychromie est particulièrement bien conservée sur ce panneau, notamment les teintes brunes et ocre rouge utilisées pour la carnation des hommes. Ces pigments naturels, appliqués sur la fine couche d'enduit recouvrant le calcaire, soulignent la musculature des bras et des jambes, accentuant l'impression d'effort lié au transport de ces charges pesantes. Cette représentation de porteurs d'offrandes servait de substitut magique aux rituels réels.</p>
+    <p><strong>Siècle :</strong> XXIIIe siècle av. J.-C. (-2300) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "relief_kagemni_portrait_monumental_baton_sceptre_kherep_saqqarah",
+    civId: "egypte",
+    periodId: "ancien_empire",
+    civName: "Égypte : Ancien Empire",
+    century: "VIe dynastie (v. -2300 av. J.-C. / règne de Téti)",
+    centuryDisplay: "XXIIIe s. av. J.-C.",
+    centuryNumeric: -2300,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Portrait monumental du vizir Kagemni au bâton de commandement et sceptre kherep",
+    site: "Mastaba de Kagemni (Saqqarah)",
+    originSite: "Saqqarah",
+    locationType: "site",
+    currentLocation: "In situ (Mastaba de Kagemni, Saqqarah)",
+    category: "Bas-relief en calcaire polychrome",
+    isHighlight: true,
+    chips: ["VIe dynastie", "Kagemni", "Téti", "Saqqarah", "Sceptre kherep", "Portrait officiel", "Ocre rouge"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNG2fZxg0udEiBUjl20F25gmd_opV1Og85ITddRUuqR8E643B5WkbitL2QUiuc5kf6z4otu2b6sH1NGUYorjZQp842KY6f3FNqZx9s1wo0p-18OBzXOEoVmb4-E2gmJaZZNCp9Y5jFogIXIo2Gemt8rTA=w1611-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Ce portrait monumental représente le propriétaire de la tombe, le vizir Kagemni, tel qu'il apparaît sur l'une des parois principales de son mastaba à Saqqarah (v. 2300 av. J.-C.). Fidèle aux canons artistiques de l'Ancien Empire, le défunt est figuré dans une attitude de dignité immuable, debout, tenant les insignes de son pouvoir : un long bâton de commandement dans une main et un sceptre kherep dans l'autre. Cette représentation à une échelle bien supérieure à celle de ses serviteurs souligne son statut social éminent en tant que plus haut fonctionnaire de l'État sous le règne de Téti.</p>
+    <p>L'exécution technique de ce relief témoigne de la virtuosité des ateliers royaux. La silhouette de Kagemni est sculptée en relief saillant avec une attention méticuleuse portée à l'anatomie : les muscles des jambes et des bras sont rendus avec une puissance contenue, tandis que le visage affiche un profil idéalisé, aux traits sereins et au regard dirigé vers l'éternité. Il porte une perruque courte soigneusement bouclée et un large collier ousekh, complétés par un pagne à devanteau triangulaire empesé.</p>
+    <p>L'état de conservation de la polychromie sur ce panneau est remarquable. La peau est peinte dans un ocre rouge intense, contrastant vivement avec le blanc du pagne et le noir de la perruque, le tout se détachant sur un fond qui a conservé une patine grise et bleutée. Les colonnes de hiéroglyphes situées au-dessus et devant le visage de Kagemni constituent ses titres et son nom, proclamant pour l'éternité son identité et ses mérites.</p>
+    <p><strong>Siècle :</strong> XXIIIe siècle av. J.-C. (-2300) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "relief_nikauisesi_conduite_antilopes_bovide_saqqarah",
+    civId: "egypte",
+    periodId: "ancien_empire",
+    civName: "Égypte : Ancien Empire",
+    century: "VIe dynastie (v. -2300 av. J.-C. / règne de Téti)",
+    centuryDisplay: "XXIIIe s. av. J.-C.",
+    centuryNumeric: -2300,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Présentation des antilopes du désert et maîtrise du grand bovidé (Mastaba de Nikauisesi)",
+    site: "Mastaba de Nikauisesi (Saqqarah)",
+    originSite: "Saqqarah",
+    locationType: "site",
+    currentLocation: "In situ (Mastaba de Nikauisesi, Saqqarah)",
+    category: "Bas-relief en calcaire peint",
+    isHighlight: false,
+    chips: ["VIe dynastie", "Nikauisesi", "Téti", "Saqqarah", "Antilopes", "Bovidés", "Élevage"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMEiU6o33UqIShx6hunZqyjP1-xHfOBTIEBXSYdkMxuwOqws3sNYFpRVQOVFsi_8_WgFIn7KcKOuicELs_j4rw9HtMDzBagQgeSwJdwtFZ8Z8bbmDVHOhfUrBLqs4PGqnK8zzszHSk5Yy7K-JZwi9OcjA=w1611-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Cette œuvre est un relief sculpté en calcaire peint, provenant du mastaba de Nikauisesi à Saqqarah, datant de la VIe dynastie de l'Ancien Empire égyptien. Nikauisesi était un haut fonctionnaire influent, portant notamment le titre de « Grand des dizaines du Sud ». La scène est organisée en registres superposés, une convention classique de l'art égyptien qui permet de structurer la narration et l'espace sans utiliser la perspective.</p>
+    <p>Le registre supérieur illustre la présentation du bétail, un thème récurrent dans les tombes de l'époque destiné à assurer la subsistance éternelle du défunt. On y voit des serviteurs guidant des antilopes ou des oryx. La précision du trait permet de distinguer les détails anatomiques des animaux et la finesse des cornes, témoignant de l'observation naturaliste rigoureuse des artistes memphites.</p>
+    <p>Dans le registre inférieur, la scène se concentre sur le transport et la maîtrise d'un grand bovidé aux cornes imposantes. Un homme à droite semble diriger l'animal avec une corde ou un bâton, tandis que d'autres personnages assistent à la manœuvre sur la gauche. Ces représentations de la vie quotidienne et de l'économie agricole avaient une fonction magique : par la parole et l'image, elles rendaient réels les approvisionnements nécessaires au culte funéraire de Nikauisesi.</p>
+    <p><strong>Siècle :</strong> XXIIIe siècle av. J.-C. (-2300) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "relief_nikauisesi_fourre_papyrus_capture_oiseaux_barque_saqqarah",
+    civId: "egypte",
+    periodId: "ancien_empire",
+    civName: "Égypte : Ancien Empire",
+    century: "VIe dynastie (v. -2300 av. J.-C. / règne de Téti)",
+    centuryDisplay: "XXIIIe s. av. J.-C.",
+    centuryNumeric: -2300,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Chasse aux oiseaux dans les marais de papyrus et navigation en barque (Mastaba de Nikauisesi)",
+    site: "Mastaba de Nikauisesi (Saqqarah)",
+    originSite: "Saqqarah",
+    locationType: "site",
+    currentLocation: "In situ (Mastaba de Nikauisesi, Saqqarah)",
+    category: "Bas-relief en calcaire peint",
+    isHighlight: false,
+    chips: ["VIe dynastie", "Nikauisesi", "Téti", "Saqqarah", "Chasse aux oiseaux", "Barque de papyrus", "Marais"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNgb00FbPOWfX7ExJmBwPLxeKDeuCgdFU7Efg3CoIeVjOxvOVcA5Kb2W-Nm7hJR8H_BRfFcDLRz3sW_mfSafrjfxMJvbTpmIRI5glXJwmD1Vka2SVOHsCIhKdto2zfaaPPFODObm94DLX5abqXs2hGHvw=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette œuvre est un relief en calcaire peint provenant de la salle 1 (mur est) du mastaba de Nikauisesi à Saqqarah, datant de la VIe dynastie (Ancien Empire). Nikauisesi était un haut fonctionnaire sous le règne de Téti, et cette section de sa tombe illustre des activités liées aux ressources des marais, un thème fondamental pour garantir l'abondance dans l'au-delà.</p>
+    <p>La composition se divise en deux zones distinctes. À gauche, une scène foisonnante décrit la vie dans les fourrés de papyrus : on y voit de nombreux oiseaux aquatiques, dont des grues et des oies, certains nichant ou s'envolant parmi les ombelles de papyrus stylisées. Des serviteurs s'activent dans cet environnement, manipulant des filets ou des cages pour capturer le gibier d'eau.</p>
+    <p>À droite, la scène bascule vers une échelle monumentale avec la présence partielle du défunt ou d'une figure d'autorité. Devant lui, des serviteurs identifiés par des inscriptions (comme Nimaatsed et Anti) transportent fièrement des oiseaux capturés par les ailes. En bas de l'image, une barque de papyrus transporte plusieurs membres du personnel de Nikauisesi manœuvrant avec des perches, formant un tableau vivant du domaine nilotique.</p>
+    <p><strong>Siècle :</strong> XXIIIe siècle av. J.-C. (-2300) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "relief_nikauisesi_boucherie_rituelle_abattage_bovides_saqqarah",
+    civId: "egypte",
+    periodId: "ancien_empire",
+    civName: "Égypte : Ancien Empire",
+    century: "VIe dynastie (v. -2300 av. J.-C. / règne de Téti)",
+    centuryDisplay: "XXIIIe s. av. J.-C.",
+    centuryNumeric: -2300,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Scène de boucherie rituelle : Abattage, entrave et dépeçage des bovidés (Mastaba de Nikauisesi)",
+    site: "Mastaba de Nikauisesi (Saqqarah)",
+    originSite: "Saqqarah",
+    locationType: "site",
+    currentLocation: "In situ (Mastaba de Nikauisesi, Saqqarah)",
+    category: "Bas-relief en calcaire polychrome",
+    isHighlight: false,
+    chips: ["VIe dynastie", "Nikauisesi", "Téti", "Saqqarah", "Boucherie rituelle", "Dépeçage", "Ocre rouge"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP2CfqGYytNU0kDnqSq_RGqcfVIRSfrMKgCm-Y7m23kTeGffHEqNqRGDgbgnEA83NoCalG-w4xygJRv8T-qUlktAxGSEU4GOKCTAhMtQkHJ4OI1v7Iir2BGbI5XXmSRU1Jb7GhZJAbHBCxXrlI2ZP2OPw=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette scène de bas-relief provient du mastaba de Nikauisesi, un haut fonctionnaire de la VIe dynastie ayant servi sous le règne du pharaon Téti. Situé dans la nécropole de Saqqarah, non loin de la pyramide de son souverain, ce monument funéraire se distingue par la finesse de ses sculptures et la préservation exceptionnelle de ses pigments d'origine.</p>
+    <p>Le registre présenté ici illustre une scène de boucherie rituelle, un thème classique de l'iconographie funéraire égyptienne. On y voit plusieurs hommes s'affairant autour de bovidés renversés au sol. Les artisans du relief ont capturé avec précision l'effort physique des bouchers, dont les corps rouges se détachent sur le fond clair. Certains tirent sur les pattes des animaux pour les immobiliser, tandis que d'autres s'apprêtent à procéder au dépeçage ou à la découpe des membres antérieurs, destinés à devenir des offrandes pour le défunt.</p>
+    <p>Au-dessus des personnages, une rangée de hiéroglyphes commente l'action en cours en rapportant les dialogues et ordres échangés entre les artisans. Par la magie de l'image et du verbe, ces scènes de préparation alimentaire assuraient à l'esprit de Nikauisesi un approvisionnement éternel et concret dans l'au-delà.</p>
+    <p><strong>Siècle :</strong> XXIIIe siècle av. J.-C. (-2300) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "relief_nikauisesi_peche_grand_filet_transport_poissons_saqqarah",
+    civId: "egypte",
+    periodId: "ancien_empire",
+    civName: "Égypte : Ancien Empire",
+    century: "VIe dynastie (v. -2300 av. J.-C. / règne de Téti)",
+    centuryDisplay: "XXIIIe s. av. J.-C.",
+    centuryNumeric: -2300,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Pêche collective au grand filet et défilé des porteurs de poissons (Mastaba de Nikauisesi)",
+    site: "Mastaba de Nikauisesi (Saqqarah)",
+    originSite: "Saqqarah",
+    locationType: "site",
+    currentLocation: "In situ (Mastaba de Nikauisesi, Saqqarah)",
+    category: "Bas-relief en calcaire polychrome",
+    isHighlight: false,
+    chips: ["VIe dynastie", "Nikauisesi", "Téti", "Saqqarah", "Pêche au filet", "Tilapias", "Silures"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczM1QBZ700Bfku0pyd0KQ2GLKGAOCtqAMcCAt7XF17MYBb5H2rBdVwpEK6RBDgrb2zzQ2wM9m_8bKwuE3SJabdqi-DqvmAm-SMdK-x0H8vdCyvi7qYJQTV3f-GAEJH5dCPuEnNsiP_nw69uKJMJW3UX0EQ=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce relief en calcaire polychrome appartient au décor du mastaba de Nikauisesi à Saqqarah, une sépulture prestigieuse de la VIe dynastie. La scène représentée ici illustre l'un des thèmes les plus dynamiques de l'iconographie funéraire de l'Ancien Empire : la pêche au grand filet dans les marais du Delta.</p>
+    <p>Le registre inférieur capture l'effort collectif des pêcheurs au moment crucial où ils retirent le filet de l'eau. Les corps sont penchés, les muscles tendus, traduisant une observation fine du mouvement et de l'effort physique par les artistes égyptiens. À l'intérieur du filet, on devine une grande variété de poissons d'eau douce, tels que des tilapias ou des poissons-chats, sculptés avec une grande précision naturaliste.</p>
+    <p>Au-dessus de cette scène d'action, le registre supérieur montre le résultat de la récolte : des porteurs défilent en procession, transportant le produit de la pêche dans des paniers ou suspendu à des perches. Les hiéroglyphes qui surmontent les personnages agissent comme des légendes sonores, retranscrivant les dialogues des travailleurs et sanctifiant l'abondance alimentaire du vizir.</p>
+    <p><strong>Siècle :</strong> XXIIIe siècle av. J.-C. (-2300) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "relief_ankhmahor_circoncision_rite_passage_medecin_saqqarah",
+    civId: "egypte",
+    periodId: "ancien_empire",
+    civName: "Égypte : Ancien Empire",
+    century: "VIe dynastie (vers -2330 av. J.-C. / règne de Téti)",
+    centuryDisplay: "XXIVe s. av. J.-C.",
+    centuryNumeric: -2330,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Scène médicale de circoncision rituelle au couteau de silex (Mastaba d'Ankhmahor)",
+    site: "Mastaba d'Ankhmahor (Saqqarah)",
+    originSite: "Saqqarah",
+    locationType: "site",
+    currentLocation: "In situ (Mastaba d'Ankhmahor, Saqqarah)",
+    category: "Bas-relief en calcaire",
+    isHighlight: true,
+    chips: ["VIe dynastie", "Ankhmahor", "Tombe du médecin", "Circoncision", "Médecine antique", "Rite de passage"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP4ldeKHpeKbLqRHg0nOxYgbzd9M6oIneo3_vFyYALYsIWl_SqE__cegThJQtvhb4Sza7nt-dJ7yxgvAocFzN8jbzzSWtIAwsiWul0WWK3943wLGLZi6XUlML_SbnP1yl3Q3tsNVGPpi28g7oDeoEU2Yg=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette scène gravée en bas-relief provient du mastaba d'Ankhmahor, un haut dignitaire de la VIe dynastie (environ 2345-2181 av. J.-C.) situé sur le plateau de Saqqarah. Ankhmahor occupait des fonctions prestigieuses, notamment celle de vizir et de « surveillant de tout ce que la terre produit », ce qui explique la richesse et la précision des décors de sa sépulture, souvent surnommée la « tombe du médecin » en raison de la nature inhabituelle de ses représentations.</p>
+    <p>Le relief illustre l'une des scènes médicales les plus célèbres de l'Égypte antique : la pratique de la circoncision. On y observe deux jeunes hommes debout, immobilisés par des assistants, tandis que des praticiens s'activent au niveau de leurs organes génitaux. L'artiste a rendu avec un grand réalisme la tension des corps et la précision des gestes chirurgicaux, utilisant des outils qui semblent être des couteaux de silex, un matériau conservé pour ses propriétés rituelles et tranchantes.</p>
+    <p>L'inscription hiéroglyphique qui accompagne l'image renforce le caractère documentaire et pragmatique de l'œuvre. Les textes rapportent les paroles échangées entre les protagonistes : l'un des officiants demande à son assistant de « tenir fermement » pour éviter tout mouvement brusque, tandis que le patient est encouragé à « être endurant ». Ce relief est un témoignage inestimable sur les rites de passage et les pratiques chirurgicales de l'Ancien Empire.</p>
+    <p><strong>Siècle :</strong> XXIVe siècle av. J.-C. (-2330) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "relief_ankhmahor_soins_corporels_massotherapie_reflexologie_saqqarah",
+    civId: "egypte",
+    periodId: "ancien_empire",
+    civName: "Égypte : Ancien Empire",
+    century: "VIe dynastie (vers -2330 av. J.-C. / règne de Téti)",
+    centuryDisplay: "XXIVe s. av. J.-C.",
+    centuryNumeric: -2330,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Soins corporels, massothérapie et manipulations podologiques (Mastaba d'Ankhmahor)",
+    site: "Mastaba d'Ankhmahor (Saqqarah)",
+    originSite: "Saqqarah",
+    locationType: "site",
+    currentLocation: "In situ (Mastaba d'Ankhmahor, Saqqarah)",
+    category: "Bas-relief en calcaire",
+    isHighlight: false,
+    chips: ["VIe dynastie", "Ankhmahor", "Tombe du médecin", "Massothérapie", "Réflexologie", "Soins du corps"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNYg18zKLBrMvSaL0GaZEZLNVwyp2xhKPZlJY-IEIAUR9SPXPTcvadGZtez9jNxWkakjX-NWXcAlHrUG2ZIB2AeXyFmC9bSiEGG7XGvR3RQ_FMNCAGl2ohiEKLBiDHUou6J_bWml7Fk3MpjtsRP5WFmkg=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce bas-relief en calcaire, situé sur la paroi est de l'entrée du mastaba d'Ankhmahor à Saqqarah, date de la VIe dynastie (v. 2330 av. J.-C.). Ankhmahor, qui portait le titre de vizir sous le règne de Téti, a fait décorer sa sépulture de scènes d'une précision documentaire exceptionnelle, confirmant la réputation de cet édifice comme étant la « tombe du médecin ».</p>
+    <p>L'œuvre représente une séance de soins corporels, identifiée par de nombreux égyptologues comme des manipulations de massothérapie ou de réflexologie. On y observe des praticiens s'affairant sur les extrémités des patients : à gauche, un homme semble masser le dos ou l'épaule d'un individu assis, tandis qu'au centre, un autre soignant manipule avec attention les mains et les pieds d'un patient. La posture des corps, légèrement inclinée pour accompagner l'effort, témoigne d'une observation fine du mouvement et des interactions physiques.</p>
+    <p>Ce document iconographique est fondamental pour l'histoire des sciences. Il illustre l'existence d'une corporation de soignants spécialisés et la place centrale de l'entretien du corps dans la culture de l'élite égyptienne, montrant que les pratiques thérapeutiques manuelles complétaient la pharmacopée et la chirurgie.</p>
+    <p><strong>Siècle :</strong> XXIVe siècle av. J.-C. (-2330) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "relief_idut_chasse_hippopotame_mise_bas_crocodile_saqqarah",
+    civId: "egypte",
+    periodId: "ancien_empire",
+    civName: "Égypte : Ancien Empire",
+    century: "VIe dynastie (vers -2330 av. J.-C. / règne de Téti)",
+    centuryDisplay: "XXIVe s. av. J.-C.",
+    centuryNumeric: -2330,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Chasse au harpon à l'hippopotame, mise bas et prédation du crocodile (Mastaba d'Idut)",
+    site: "Mastaba de la princesse Seshseshet Idut (Saqqarah)",
+    originSite: "Saqqarah",
+    locationType: "site",
+    currentLocation: "In situ (Mastaba d'Idut, Saqqarah)",
+    category: "Bas-relief en calcaire polychrome",
+    isHighlight: true,
+    chips: ["VIe dynastie", "Princesse Idut", "Saqqarah", "Chasse hippopotame", "Mise bas", "Crocodile", "Faune nilotique"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPKikdSA6mmvKYbkkeowP5rBdIKvSy_0Zteyam2efZADe-XRVA2VIZUTBWZ5Gd-98R8iLcWNfjMjeNbOFmI3LneeQBlgAexE28eEERz9HcdY2H0SyT_6Kxj_gGmE4IzF-hvHfTSbQ2oL-LAFjuVlM8hYA=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce registre sculpté en relief méplat, issu du mastaba de la princesse Seshseshet Idut à Saqqarah (VIe dynastie), présente une double thématique fluviale mêlant la pêche et la chasse à l'hippopotame. La composition s'organise sur plusieurs niveaux, séparant le monde de la surface, où s'activent les hommes sur des barques de papyrus, et le monde aquatique grouillant de vie.</p>
+    <p>Dans la partie supérieure, la scène de chasse à l'hippopotame illustre un combat symbolique contre les forces du chaos : un chasseur, le corps en tension, s'apprête à lancer un harpon sur les pachydermes. Sous la ligne de flottaison, le relief dévoile une scène rarissime de mise bas d'une femelle hippopotame, dont le petit est immédiatement menacé par un crocodile tapi derrière elle, résumant l'ambivalence du Nil entre fécondité et péril sauvage.</p>
+    <p>Le registre inférieur complète cette vision par une description méticuleuse de la faune ichthyologique (tilapias et perches du Nil). Pour la princesse Idut, la figuration de cette faune garantissait sa subsistance perpétuelle tout en affirmant son triomphe sur les puissances hostiles de la nature.</p>
+    <p><strong>Siècle :</strong> XXIVe siècle av. J.-C. (-2330) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "relief_idut_peche_senne_esquifs_papyrus_saqqarah",
+    civId: "egypte",
+    periodId: "ancien_empire",
+    civName: "Égypte : Ancien Empire",
+    century: "VIe dynastie (vers -2330 av. J.-C. / règne de Téti)",
+    centuryDisplay: "XXIVe s. av. J.-C.",
+    centuryNumeric: -2330,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Pêche à la senne chargée de tilapias et manœuvre des barques de papyrus (Mastaba d'Idut)",
+    site: "Mastaba de la princesse Seshseshet Idut (Saqqarah)",
+    originSite: "Saqqarah",
+    locationType: "site",
+    currentLocation: "In situ (Mastaba d'Idut, Saqqarah)",
+    category: "Bas-relief en calcaire peint",
+    isHighlight: false,
+    chips: ["VIe dynastie", "Princesse Idut", "Saqqarah", "Pêche à la senne", "Poissons du Nil", "Barque de papyrus"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOD5zDVWhvRI_7Ybhhh9qmGuFpj-z1F4_nPKPcpDqGE1ANey2A9mjNASIWDbF6ImCLCUWQXXBxQl0lpKQ6lG2N85QMZ-zW1rD3IF6XNYzoxEuZiwnag6KS1kYuigHP-XDwBX3j3SwdkQHWSZwsno_vr9A=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce bas-relief en calcaire peint, issu du mastaba de la princesse Seshseshet Idut à Saqqarah (VIe dynastie, vers 2330 av. J.-C.), illustre l'un des thèmes les plus emblématiques de l'iconographie funéraire de l'Ancien Empire : la pêche au filet dans les marais du Nil. La scène capture l'instant précis où des pêcheurs, embarqués sur de frêles esquifs de papyrus, remontent une senne débordante de poissons.</p>
+    <p>L'analyse de la faune aquatique révèle une précision quasi scientifique des artistes égyptiens : on identifie aisément diverses espèces endémiques comme les tilapias, les silures et les perches du Nil, sculptés avec un souci scrupuleux des détails anatomiques (écailles, opercules et nageoires). Les pêcheurs sont représentés dans des postures de tension musculaire expressive, s'arc-boutant sur les cordages pour soulever la lourde poche du filet.</p>
+    <p>Dans le contexte funéraire princier, cette capture magistrale symbolise la victoire de l'ordre sur le chaos aquatique et l'assurance d'une table d'offrandes perpétuellement pourvue pour l'éternité du Ka de la défunte.</p>
+    <p><strong>Siècle :</strong> XXIVe siècle av. J.-C. (-2330) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "relief_idut_activite_domestique_artisans_toilette_saqqarah",
+    civId: "egypte",
+    periodId: "ancien_empire",
+    civName: "Égypte : Ancien Empire",
+    century: "VIe dynastie (vers -2330 av. J.-C. / règne de Téti)",
+    centuryDisplay: "XXIVe s. av. J.-C.",
+    centuryNumeric: -2330,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Activités de la suite domestique : Artisans et préparatifs des offrandes (Mastaba d'Idut)",
+    site: "Mastaba de la princesse Seshseshet Idut (Saqqarah)",
+    originSite: "Saqqarah",
+    locationType: "site",
+    currentLocation: "In situ (Mastaba d'Idut, Saqqarah)",
+    category: "Bas-relief en calcaire peint",
+    isHighlight: false,
+    chips: ["VIe dynastie", "Princesse Idut", "Saqqarah", "Suite domestique", "Artisans", "Ocre rouge"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczO3E9lEVoTds-PB_yPwaID2z4y9Cx0gZLCjJFfu9BkDG-_B9nA3DW1PrXCSFneoZbR2mBQR4E-v4o0RlmfuLAp83BQpMNGyLQ6ZRVaFxGlS7T-T7wUbpe-krum7UPol2VTEdYth_uUX5KElLe3VMjcZgA=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette scène en bas-relief peint provient de la tombe de la princesse Seshseshet Idut, située à Saqqarah, datant du début de la VIe dynastie (vers 2330 av. J.-C.). Initialement construite pour un vizir nommé Ihy, la sépulture fut réutilisée par cette fille de roi, probablement liée à la maison d'Ounas ou de Téti. L'œuvre témoigne de l'élégance du trait memphite, conservant une remarquable fluidité malgré les siècles.</p>
+    <p>Le relief illustre le travail minutieux de la suite domestique et des artisans, occupés aux préparatifs des offrandes ou à des soins de parure. Les personnages masculins, vêtus du pagne court et peints en ocre rouge, sont saisis dans des mouvements dynamiques : torses penchés dans l'effort ou bras levés dans l'exercice d'une tâche précise. La technique en méplat met en valeur les perruques étagées et la structure musculaire des travailleurs.</p>
+    <p>Les hiéroglyphes qui accompagnent les figures agissent comme des légendes vivantes, identifiant les serviteurs et transcrivant leurs paroles pour sanctifier magiquement le service perpétuel dû à la princesse.</p>
+    <p><strong>Siècle :</strong> XXIVe siècle av. J.-C. (-2330) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "relief_mehu_convoi_ane_bat_transport_recoltes_saqqarah",
+    civId: "egypte",
+    periodId: "ancien_empire",
+    civName: "Égypte : Ancien Empire",
+    century: "VIe dynastie (v. -2300 av. J.-C. / règne de Téti)",
+    centuryDisplay: "XXIIIe s. av. J.-C.",
+    centuryNumeric: -2300,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Convoi agricole : Âne de bât mené à la corde par un serviteur (Mastaba de Mehu)",
+    site: "Mastaba de Mehu (Saqqarah)",
+    originSite: "Saqqarah",
+    locationType: "site",
+    currentLocation: "In situ (Mastaba de Mehu, Saqqarah)",
+    category: "Bas-relief en calcaire polychrome",
+    isHighlight: false,
+    chips: ["VIe dynastie", "Mehu", "Téti", "Saqqarah", "Âne de bât", "Transport des récoltes", "Monde rural"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPzYzPLVxFNtS72BpUVSpgQvihbR44nEe1_mfZRO8t5wGuno8dcGVo2EQwkVto_K6QNdXe4gy2Y1KdZa_PP9fjKx_uMWtZdahUEkarcTEGRPpZFgjrWcoOmp4VeRg6SYu4PHoyyMXx5tIsFZ9y7GQ8IVg=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce relief en calcaire polychrome provient du mastaba de Mehu à Saqqarah, un haut dignitaire ayant servi comme vizir durant la VIe dynastie, sous le règne de Téti (v. 2300 av. J.-C.). La scène s'insère dans un programme décoratif complexe visant à perpétuer par l'image les activités économiques et les ressources des domaines du défunt.</p>
+    <p>Le fragment met en scène un âne domestique, animal de bât par excellence dans l'Égypte ancienne, mené à la corde par un serviteur. L'artiste a rendu avec une grande fidélité les caractéristiques de l'animal : ses longues oreilles dressées, son museau robuste et sa silhouette trapue. Cette représentation illustre les convois qui transportaient les récoltes, le grain ou les produits de l'artisanat vers les magasins du vizir, garantissant ainsi son opulence dans l'au-delà.</p>
+    <p>La technique du bas-relief peint permet de distinguer la finesse du trait et la persistance des couleurs d'origine : le rouge brun profond appliqué sur la peau de l'homme contraste harmonieusement avec la robe claire de l'animal et la précision du harnachement, témoignant du réalisme naturaliste des ateliers memphites.</p>
+    <p><strong>Siècle :</strong> XXIIIe siècle av. J.-C. (-2300) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "relief_mehu_corridor_sud_porteurs_gazelles_antilopes_saqqarah",
+    civId: "egypte",
+    periodId: "ancien_empire",
+    civName: "Égypte : Ancien Empire",
+    century: "VIe dynastie (v. -2300 av. J.-C. / règne de Téti)",
+    centuryDisplay: "XXIIIe s. av. J.-C.",
+    centuryNumeric: -2300,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Procession d'offrandes du corridor sud : Porteurs de victuailles et jeunes gazelles menées en laisse",
+    site: "Mastaba de Mehu (Saqqarah)",
+    originSite: "Saqqarah",
+    locationType: "site",
+    currentLocation: "In situ (Mastaba de Mehu, Saqqarah)",
+    category: "Bas-relief en calcaire polychrome",
+    isHighlight: false,
+    chips: ["VIe dynastie", "Mehu", "Téti", "Saqqarah", "Porteurs d'offrandes", "Gazelles", "Fleurs de lotus"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNWZA-ygMqTLSTaYcZN7Zh_JO9jfcM68pA9h-6HknWA16gNUbHK2pGMgIQWNXmM9aLbLtYQGsq1JXbY_XJWT3Hi_kOpZJncLwsHfDvOR3-Nb9c-glFjjaIPvQjxbgIBaYBZpXwbkTRo2xUNpwpozwUGvw=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce relief exceptionnel provient de la paroi sud du corridor du mastaba de Mehu à Saqqarah, datant de la VIe dynastie (v. 2300 av. J.-C.). Il représente une procession de porteurs d'offrandes, une thématique centrale de l'art funéraire de l'Ancien Empire destinée à assurer l'approvisionnement éternel du vizir dans l'au-delà. La scène se déploie sur plusieurs registres superposés, créant un effet de mouvement continu et de profusion de richesses.</p>
+    <p>La composition détaille avec une précision quasi documentaire la diversité des produits issus des domaines du défunt : les serviteurs portent sur leurs épaules ou dans leurs mains des plateaux chargés de pains, de volailles déplumées et de pièces de viande, ainsi que des fleurs de lotus et des corbeilles d'oiseaux vivants.</p>
+    <p>L'aspect le plus remarquable de ce panneau réside dans les jeunes animaux menés en laisse au milieu des hommes, notamment une petite antilope gazelle et un jeune bouquetin aux cornes finement ciselées. Cette cohabitation entre produits agricoles transformés et faune du désert manifeste la souveraineté totale du haut dignitaire sur son territoire.</p>
+    <p><strong>Siècle :</strong> XXIIIe siècle av. J.-C. (-2300) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "relief_mehu_abattage_bovides_decoupe_khepesh_saqqarah",
+    civId: "egypte",
+    periodId: "ancien_empire",
+    civName: "Égypte : Ancien Empire",
+    century: "VIe dynastie (v. -2300 av. J.-C. / règne de Téti)",
+    centuryDisplay: "XXIIIe s. av. J.-C.",
+    centuryNumeric: -2300,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Sacrifice du bœuf gras et prélèvement de la cuisse rituelle khepesh (Mastaba de Mehu)",
+    site: "Mastaba de Mehu (Saqqarah)",
+    originSite: "Saqqarah",
+    locationType: "site",
+    currentLocation: "In situ (Mastaba de Mehu, Saqqarah)",
+    category: "Bas-relief en calcaire polychrome",
+    isHighlight: false,
+    chips: ["VIe dynastie", "Mehu", "Téti", "Saqqarah", "Boucherie", "Cuisse khepesh", "Couteau de silex"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPC5NyKf86WswW976u1ewza9uVblixYXPpdGHfsxFKu8ILbggiP68BzNHXmjy-CaVib1DeSfIaMpIN3X1kM1pOJKiZ3H1z4haEl6uGMfUDCIYDF37iAC_ymUPigHM_T27Sdl6uXH3va6r8UtyywP5ZEVw=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce relief en calcaire peint provient de la paroi du passage d'entrée du mastaba de Mehu à Saqqarah, vizir de la VIe dynastie (v. 2300 av. J.-C.). Il illustre l'étape ultime de la chaîne de production alimentaire : le sacrifice et le dépeçage du bétail. Ces scènes de boucherie garantissent au défunt l'apport perpétuel de viande, nourriture noble par excellence dans l'eschatologie funéraire.</p>
+    <p>La composition est organisée en registres horizontaux qui séparent le temps de l'action. Dans le registre supérieur, le bœuf est conduit au sacrifice, tandis que le registre inférieur montre l'animal abattu et entravé. Les bouchers, munis de grands couteaux, s'affairent à détacher la cuisse avant droite (le khépesh), pièce d'offrande par excellence destinée au culte funéraire.</p>
+    <p>La polychromie met en valeur le contraste saisissant entre la robe blanche des bêtes et la carnation ocre rouge vigoureuse des bouchers, les hiéroglyphes retranscrivant leurs exclamations techniques pour donner une résonance sonore à cette cérémonie éternelle.</p>
+    <p><strong>Siècle :</strong> XXIIIe siècle av. J.-C. (-2300) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "relief_mehu_corridor_nord_registres_fond_sombre_offrandes_saqqarah",
+    civId: "egypte",
+    periodId: "ancien_empire",
+    civName: "Égypte : Ancien Empire",
+    century: "VIe dynastie (v. -2300 av. J.-C. / règne de Téti)",
+    centuryDisplay: "XXIIIe s. av. J.-C.",
+    centuryNumeric: -2300,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Procession quadripartite sur fond sombre : Porteurs de corbeilles et antilopes en laisse (Mastaba de Mehu)",
+    site: "Mastaba de Mehu (Saqqarah)",
+    originSite: "Saqqarah",
+    locationType: "site",
+    currentLocation: "In situ (Mastaba de Mehu, Saqqarah)",
+    category: "Bas-relief en calcaire polychrome",
+    isHighlight: false,
+    chips: ["VIe dynastie", "Mehu", "Téti", "Saqqarah", "Fond sombre", "Porteurs d'offrandes", "Antilopes"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNGhFVJWcK55P_Tpbarx2JSuL_LJefjHcBdTuVjlD-8TnXHx42lR1wEGEIipXrIPNgYcV9XHEzDxdeKu23ZFewgyHxjSq9uu4vdL6JlFmNevow0R4EzZrtcDLlerRobeS5Rta__dVxBeNSpN5y77hv1OQ=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce relief exceptionnel provient de la paroi nord du corridor du mastaba de Mehu à Saqqarah, datant de la VIe dynastie (v. 2300 av. J.-C.). Il représente une vaste procession de porteurs d'offrandes déployée sur quatre registres superposés se détachant sur un fond sombre inhabituel, créant un effet de relief saisissant et une dynamique solennelle vers la chambre funéraire.</p>
+    <p>La composition détaille la diversité impressionnante des produits : pains rituels, volailles, fleurs de lotus, pièces de viande et jarres de boissons fermentées. L'originalité majeure tient à l'intégration au cortège d'une multitude de petits animaux du désert tenus en laisse (gazelles, antilopes, jeunes veaux), marchant paisiblement aux côtés des serviteurs.</p>
+    <p>La qualité plastique du relief et la pureté des lignes blanches des pagnes contrastant avec les chairs ocre rouge illustrent la maîtrise absolue des ateliers funéraires royaux sous le règne de Téti.</p>
+    <p><strong>Siècle :</strong> XXIIIe siècle av. J.-C. (-2300) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "relief_mehu_cueillette_figues_sycomore_linteau_saqqarah",
+    civId: "egypte",
+    periodId: "ancien_empire",
+    civName: "Égypte : Ancien Empire",
+    century: "VIe dynastie (v. -2300 av. J.-C. / règne de Téti)",
+    centuryDisplay: "XXIIIe s. av. J.-C.",
+    centuryNumeric: -2300,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Cueillette arboricole des figues de sycomore sur fond sombre (Mastaba de Mehu)",
+    site: "Mastaba de Mehu (Saqqarah)",
+    originSite: "Saqqarah",
+    locationType: "site",
+    currentLocation: "In situ (Mastaba de Mehu, Saqqarah)",
+    category: "Bas-relief en calcaire polychrome",
+    isHighlight: false,
+    chips: ["VIe dynastie", "Mehu", "Téti", "Saqqarah", "Sycomore", "Figues", "Arbre d'Hathor", "Arboriculture"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP75WgcwTlmn-679HiE6tl9JcVKPWdQl86Ma3Zn2ZRcaeOPFrOyeqdHu0A9HO3h-Q8iUXla7wg1L7Wc57H6lCIQ_u5UsGr09fwW0jjIkqKbp3Jn1IhH-eLBbcG6W8dEyOE0Vwz40utAk3rV8phhI-C5yQ=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce relief polychrome sur calcaire provient du linteau d'une porte au sein du mastaba de Mehu à Saqqarah, datant de la VIe dynastie (v. 2300 av. J.-C.). Il illustre une scène horticole rare et précieuse : la récolte des figues de sycomore. Contrairement aux grandes scènes de procession, cette représentation offre une incursion intime dans les activités agricoles spécialisées qui assuraient la diversité de la table du vizir.</p>
+    <p>Le décor met en scène deux cueilleurs s'affairant de part et d'autre de deux sycomores lourdement chargés de fruits. Les arbres sont représentés de manière stylisée, avec des branches arquées d'où pendent des grappes de figues prêtes à être récoltées. Les ouvriers, vêtus de simples pagnes blancs, utilisent des paniers pour recueillir les fruits, tandis que des corbeilles déjà remplies sont disposées au pied des troncs.</p>
+    <p>La technique artistique se distingue par l'utilisation d'un fond sombre qui fait ressortir la clarté des silhouettes et la finesse du dessin des feuilles. Sur le plan symbolique, le sycomore était considéré comme l'arbre de vie lié à la déesse Hathor, garantissant ainsi au défunt une protection nourricière céleste.</p>
+    <p><strong>Siècle :</strong> XXIIIe siècle av. J.-C. (-2300) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "relief_mehu_table_offrandes_pains_volailles_vivantes_saqqarah",
+    civId: "egypte",
+    periodId: "ancien_empire",
+    civName: "Égypte : Ancien Empire",
+    century: "VIe dynastie (v. -2300 av. J.-C. / règne de Téti)",
+    centuryDisplay: "XXIIIe s. av. J.-C.",
+    centuryNumeric: -2300,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Table d'offrandes aux hauts pains et apport des volailles vivantes devant le vizir (Mastaba de Mehu)",
+    site: "Mastaba de Mehu (Saqqarah)",
+    originSite: "Saqqarah",
+    locationType: "site",
+    currentLocation: "In situ (Mastaba de Mehu, Saqqarah)",
+    category: "Bas-relief en calcaire polychrome",
+    isHighlight: false,
+    chips: ["VIe dynastie", "Mehu", "Téti", "Saqqarah", "Table d'offrandes", "Pains verticaux", "Oies", "Menu éternel"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNm_ph48q25t3QMUkWreAZQdx3_wp11ORK0rYRe8D17GiZykBC1QPofOJD5j26Rrn0k20f66EVUnzin0sUnbJqTXAhq7ySk1e1F0gRr2r4aHmVMlVcFfk9rIB3HV5mAfBOIArxEI6GO5zK-nI5EBMoCLQ=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce bas-relief en calcaire polychrome orne les parois du mastaba de Mehu à Saqqarah, une sépulture monumentale de la VIe dynastie (v. 2300 av. J.-C.). Mehu, qui portait le titre suprême de vizir, a fait décorer sa tombe de scènes garantissant la subsistance de son ka dans l'au-delà. Le registre présenté ici illustre le moment solennel où les offrandes sont présentées devant la table du défunt, dont on devine les pieds monumentaux assis devant une accumulation de victuailles.</p>
+    <p>La partie supérieure montre la table d'offrandes proprement dite, surmontée de hauts pains verticaux stylisés, tandis que des serviteurs versent des libations et présentent des vases à onguents, des coupes de vin et des pièces de viande. En dessous, un défilé de porteurs d'offrandes apporte des volailles vivantes tenues fermement par les ailes, dont les cous s'étirent élégamment vers l'avant.</p>
+    <p>La polychromie est particulièrement vive, révélant des pigments jaunes pour le fond de la table d'offrandes et des bordures géométriques rouges et blanches. Les colonnes de textes hiéroglyphiques intercalées agissent comme un menu d'éternité pour nourrir l'esprit du vizir.</p>
+    <p><strong>Siècle :</strong> XXIIIe siècle av. J.-C. (-2300) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+   {
     id: "relief_mererouka_jambes_colossales_procession_serviteurs_saqqarah",
     civId: "egypte",
     periodId: "ancien_empire",
