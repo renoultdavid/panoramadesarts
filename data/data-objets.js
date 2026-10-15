@@ -6,6 +6,83 @@ window.ART_OBJECTS = window.ART_OBJECTS || [];
 window.ART_OBJECTS.push(
 
   {
+    id: "cartouche_ramses_ii_relief_creux_louxor",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (v. -1250 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1250,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Titulature royale et cartouche de couronnement de Ramsès II en relief dans le creux",
+    site: "Temple de Louxor (Thèbes, Égypte)",
+    originSite: "Cour de Ramsès II (Temple de Louxor)",
+    locationType: "site",
+    currentLocation: "In situ (Temple de Louxor)",
+    category: "Épigraphie monumentale",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Ramsès II", "Relief en creux", "Temple de Louxor"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczO5aFGkNIXrUDvH6vP0JWoN5Cpj7PtvOo5g10sz_kKqp8psPoctpRHMF4pxaWWGC61kqnOz3Yn-y86KK7p1qSqaid1nfZJ9-d-WejbIGiVrQtQ8KAjaqc21XXFjM7MjZh-5VSGKX-WGvDLa0DhggcDISA=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette inscription monumentale appartient au temple d’Amon à Louxor, l’un des joyaux du Nouvel Empire égyptien. La gravure, exécutée durant le règne de Ramsès II (XIXe dynastie, vers 1250 av. J.-C.), utilise la technique du relief en creux. Ce procédé, particulièrement prisé à l'époque ramesside pour les surfaces extérieures, permet d’utiliser la lumière directe du soleil pour créer des ombres profondes qui augmentent la lisibilité des textes et la puissance visuelle des figures.</p>
+    <p>Le registre central met en scène les titres officiels du pharaon, encadrés par une ligne de sol et un bandeau supérieur. On y observe le groupe hiéroglyphique de l’abeille et du jonc, symbolisant la souveraineté sur la Haute et la Basse-Égypte, suivi du cartouche royal. À l'intérieur de ce cartouche, le nom de couronnement de Ramsès II est gravé avec une grande maîtrise, incluant le disque solaire et la figure assise de la divinité, affirmant son rôle de médiateur sacré entre les hommes et les dieux.</p>
+    <p>L'œuvre se distingue par la monumentalité de ses proportions et la vigueur du trait, caractéristiques du style de Ramsès II. La pierre, un grès aux teintes chaudes, porte encore les traces de l'érosion millénaire qui a adouci les contours sans en altérer la force symbolique. Ce relief servait non seulement à identifier le commanditaire de l'édifice, mais aussi à assurer, par la magie de l'écriture, la légitimité et la protection éternelle du souverain au sein du sanctuaire d'Amon-Rê.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1250) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Architecture & Temples.</p>`
+  },
+  {
+    id: "paroi_liturgie_victoires_karnak",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (v. -1292 à -1186 av. J.-C.)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1250,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Paroi monumentale en grès aux colonnes liturgiques et de propagande royale",
+    site: "Complexe de Karnak (Thèbes, Égypte)",
+    originSite: "Enceinte d'Amon-Rê (Karnak)",
+    locationType: "site",
+    currentLocation: "In situ (Karnak, Louxor)",
+    category: "Épigraphie monumentale",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Karnak", "Grès gravé", "Relief en creux"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOOfipfg0KaJSfA1_qWRLqMjJ6LMxfZNjhORQhRNReSd4A5J2J_4zqKs5GtOzbgiPjN7322NvLoRyPcLufXuo6H0yIXsHWup6NohJKDqtCoGToiWDt8tG-hCugJ4_nmBSx0Fm6crfil9CLY1uIMLCSPgQ=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette œuvre est un fragment monumental de paroi en grès issu de l'enceinte d'Amon-Rê à Karnak, le plus vaste ensemble religieux de l'Égypte antique. Contrairement aux registres comptables de Louxor, ce bas-relief présente des colonnes de textes hiéroglyphiques denses, gravées en creux profond. Cette technique de gravure, typique des parois extérieures exposées au soleil, utilise l'ombre portée pour rendre les signes parfaitement lisibles sous la lumière crue du désert.</p>
+    <p>Le texte ici présent relève de la propagande royale ou de la liturgie sacrée. On y observe une répétition de formules rituelles et de titres divins. La présence fréquente du signe de l'oiseau (le faucon ou le vautour) et de sceptres suggère des passages dédiés à la protection divine ou à la proclamation des victoires du pharaon. Chaque hiéroglyphe est traité comme une œuvre d'art individuelle, avec un souci du détail anatomique et matériel qui caractérise le savoir-faire des artisans thébains.</p>
+    <p>Ce relief date principalement du Nouvel Empire, et plus précisément de la XIXe dynastie (vers 1292-1186 av. J.-C.). Le style puissant et la profondeur de la gravure sont caractéristiques des règnes de Séthi Ier et de Ramsès II, les grands bâtisseurs de la salle hypostyle de Karnak. À cette époque, l'écriture monumentale ne sert pas seulement à communiquer, mais à sacraliser la pierre pour l'éternité, transformant chaque mur en un livre ouvert à la gloire d'Amon-Rê.</p>
+    <p>L'état de la pierre montre une érosion naturelle et des traces de desquamation dues aux variations de température et à l'humidité du sol. Cependant, la force du trait ramesside reste intacte, témoignant de l'ambition démesurée des pharaons de cette dynastie qui ont transformé Karnak en un centre de pouvoir mondial, où chaque victoire militaire était immédiatement consignée sur les murs du temple pour être offerte au dieu.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1250) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Architecture & Temples.</p>`
+  },
+  {
+    id: "palimpseste_architrave_abydos_sethi_ramses",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (v. -1290 à -1250 av. J.-C.)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1270,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Palimpseste épigraphique de l'architrave du temple de Séthi Ier (surnommé l'Hélicoptère d'Abydos)",
+    site: "Temple funéraire de Séthi Ier (Abydos, Égypte)",
+    originSite: "Première salle hypostyle (Temple d'Abydos)",
+    locationType: "site",
+    currentLocation: "In situ (Temple de Séthi Ier, Abydos)",
+    category: "Épigraphie monumentale",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Palimpseste", "Séthi Ier & Ramsès II", "Abydos"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOCr3RlgsoSBTcPE9kdlpAh33xItskUjs2FBDntnc-9RTcl3RvBHPddLzty8UVeoA3V3CvpMWijSQWBzyeKaXemEOaGF-1-wFeGg_PBPqH5pqB62KET0a94vOTNO19FZGWhEh9EsQ1oteTtCG-AbBKfug=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette inscription se situe dans le temple funéraire de Séthi Ier à Abydos, l’un des sites les plus sacrés de l’Égypte antique. Gravée sur une architrave de la première salle hypostyle, elle fait partie de la titulature royale. Le temple, construit en calcaire fin, est célèbre pour la qualité exceptionnelle de ses reliefs, bien que cette section précise présente un aspect accidenté dû à des remaniements historiques successifs.</p>
+    <p>Le phénomène visuel intrigant que l'on observe ici, souvent surnommé par erreur les « hiéroglyphes d'Abydos » ou « hélicoptère d'Abydos », est en réalité le résultat d'un palimpseste. À la mort du pharaon Séthi Ier, son fils Ramsès II a fait réutiliser les blocs de pierre pour y graver son propre nom. Les anciens hiéroglyphes ont été recouverts de plâtre, puis sculptés à nouveau. Avec le temps, le plâtre s'est effrité, laissant apparaître une superposition accidentelle des deux inscriptions.</p>
+    <p>Sur le plan technique, les formes qui ressemblent aujourd'hui à des engins modernes comme un hélicoptère, un tank ou un sous-marin sont des illusions d'optique créées par la fusion de deux textes distincts. Par exemple, l'image de l'hélicoptère provient de la superposition du signe du « bras » de Séthi Ier et du signe du « pilon » utilisé dans le nom de Ramsès II. Ce processus de réutilisation des monuments était une pratique courante dans l'Égypte ancienne pour affirmer la légitimité d'un nouveau règne.</p>
+    <p>Aujourd'hui, cet élément architectural est devenu une icône de la culture populaire, souvent cité de manière infondée dans les théories des anciens astronautes. Pour les égyptologues, il demeure un témoignage fascinant de la transition entre la XIXe dynastie et son successeur, illustrant l'évolution constante des édifices religieux à travers les âges. La conservation du site permet d'étudier la finesse du trait des scribes royaux malgré les dégradations naturelles de la roche.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1270) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Architecture & Temples.</p>`
+  },
+   {
     id: "relief_hieroglyphes_sethi_ier_gournah",
     civId: "egypte",
     periodId: "nouvel_empire",
