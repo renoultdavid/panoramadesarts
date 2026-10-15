@@ -6,6 +6,83 @@ window.ART_OBJECTS = window.ART_OBJECTS || [];
 window.ART_OBJECTS.push(
 
   {
+    id: "sculpture_djoser_assis_manteau_sed_serdab_saqqarah_caire",
+    civId: "egypte",
+    periodId: "ancien_empire",
+    civName: "Égypte : Ancien Empire",
+    century: "IIIe dynastie (vers -2650 av. J.-C. / règne de Djoser)",
+    centuryDisplay: "XXVIIe s. av. J.-C.",
+    centuryNumeric: -2650,
+    domain: "sculpture_statuaire",
+    artifactType: "Statue en ronde-bosse",
+    title: "Statue grandeur nature du roi Djoser assis en manteau de fête-Sed (Serdab de Saqqarah)",
+    site: "Complexe funéraire de Djoser - Serdab (Saqqarah)",
+    originSite: "Saqqarah",
+    locationType: "museum",
+    currentLocation: "Musée égyptien du Caire (JE 49158)",
+    category: "Statue en calcaire polychrome",
+    isHighlight: true,
+    chips: ["IIIe dynastie", "Djoser", "Saqqarah", "Serdab", "Fête-Sed", "Némès archaïque", "Musée du Caire"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczO2QrznhKoXAzkAszmaAeI0YF_PkKmNBwsMudBLsVhgKc_3FvADL4QB8C0GK8I7yEfNuQBnxeIUxayouSjFjtn6Vn16Ejt0SGOOpRbKD1lpptTT160yH5i7pKAKcC-V-n9_TXLwgZ69YRizNWGhXjHgGw=w1611-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Cette statue grandeur nature en calcaire représente le roi Djoser, souverain de la IIIe dynastie (vers 2650 av. J.-C.) et constructeur de la célèbre pyramide à degrés de Saqqarah. Découverte par Cecil Firth en 1924, elle se trouvait à l'origine dans le serdab, une petite chambre close située sur la face nord du complexe funéraire du roi. Le regard fixe de la statue, autrefois incrusté de pierres précieuses, était aligné sur deux petits orifices percés dans le mur, permettant au ka (l'énergie vitale) du défunt de contempler les rituels accomplis en son honneur et de regarder vers les étoiles circumpolaires, symboles d'éternité.</p>
+    <p>L'œuvre marque un tournant majeur dans l'histoire de la statuaire royale égyptienne. Le roi est représenté assis sur un trône à dossier haut, enveloppé dans le manteau blanc de la fête-Sed, une cérémonie de jubilé destinée à régénérer la force du monarque. Il porte la perruque tripartite surmontée du némès — l'un des plus anciens exemples connus de cette coiffe royale — ainsi qu'une barbe postiche imposante qui souligne sa dignité divine. Sa posture est d'une rigidité majestueuse : la main droite est posée sur sa poitrine, tandis que la gauche repose à plat sur sa cuisse, un geste symbolisant à la fois la dévotion et l'autorité.</p>
+    <p>Bien que la polychromie originale ait en grande partie disparu, des traces de peinture noire sur la moustache et la barbe, ainsi que des pigments ocre sur la peau, témoignent du réalisme saisissant que devait posséder la statue à l'origine. Le visage, aux pommettes hautes et aux lèvres charnues, dégage une impression de puissance et de sérénité immuable. En tant que première statue royale égyptienne de taille réelle parvenue jusqu'à nous, elle incarne la naissance du concept du pharaon comme être divin.</p>
+    <p><strong>Siècle :</strong> XXVIIe siècle av. J.-C. (-2650) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_statuette_ivoire_kheops_desheret_serekh_medjedu_abydos_caire",
+    civId: "egypte",
+    periodId: "ancien_empire",
+    civName: "Égypte : Ancien Empire",
+    century: "IVe dynastie (vers -2580 av. J.-C. / règne de Khéops)",
+    centuryDisplay: "XXVIe s. av. J.-C.",
+    centuryNumeric: -2580,
+    domain: "sculpture_statuaire",
+    artifactType: "Statue en ronde-bosse",
+    title: "Statuette en ivoire du pharaon Khéops à la couronne rouge Desheret et flagellum (Abydos)",
+    site: "Temple de Khenty-Amentiu (Abydos)",
+    originSite: "Abydos",
+    locationType: "museum",
+    currentLocation: "Musée égyptien du Caire (JE 36143)",
+    category: "Micro-sculpture en ivoire d'éléphant",
+    isHighlight: true,
+    chips: ["IVe dynastie", "Khéops", "Abydos", "Ivoire", "Couronne Desheret", "Serekh Medjedu", "Musée du Caire"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNxizmc6gmABWvTLbrU-WhaVPOY4OAH9Fqp2q_JzDu7jutl0QhiWgqLYb-C5ZGQElP8-Sqd5yh7DJqLKcegAw1o5J3tIKvvSHK2HikuAGef0xQCkIIixfNWcjBZUdzEk3CinWLBTJApj4EnoSXdVA0pIA=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette statuette en ivoire représente le pharaon Khéops, souverain de la IVe dynastie sous l'Ancien Empire, vers 2580 avant J.-C. Bien qu'il soit le bâtisseur de la Grande Pyramide de Gizeh, l'une des sept merveilles du monde antique, ce petit objet d'à peine sept centimètres de haut constitue paradoxalement le seul portrait en trois dimensions dont l'identification est certaine pour ce monarque.</p>
+    <p>L'œuvre a été découverte en 1903 par l'archéologue Flinders Petrie dans les ruines du temple de Khenty-Amentiu à Abydos. Lors de l'excavation, le corps a été trouvé en premier, mais la tête manquait. Conscient de l'importance exceptionnelle de la pièce, Petrie a interrompu les fouilles et ordonné un tamisage minutieux du sable pendant trois semaines jusqu'à ce que la minuscule tête soit enfin retrouvée, permettant de reconstituer l'objet.</p>
+    <p>Le roi est figuré assis sur un trône à dossier bas, coiffé de la couronne rouge de Basse-Égypte, la desheret. Il tient dans sa main droite, ramenée contre sa poitrine, le flagellum nékhékha, symbole du pouvoir royal. Son visage présente des traits volontaires et une expression ferme, malgré l'érosion naturelle de l'ivoire. Sur le côté gauche du trône, le nom d'Horus de Khéops, « Medjedu », est gravé dans un serekh, confirmant l'identité du souverain.</p>
+    <p>Aujourd'hui conservée au Musée égyptien du Caire, cette figurine témoigne de la finesse de l'artisanat de l'Ancien Empire, illustrant le contraste frappant entre l'immensité de sa pyramide et la fragilité de cette effigie miniature.</p>
+    <p><strong>Siècle :</strong> XXVIe siècle av. J.-C. (-2580) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_grand_sphinx_monolithe_khephren_gizeh",
+    civId: "egypte",
+    periodId: "ancien_empire",
+    civName: "Égypte : Ancien Empire",
+    century: "IVe dynastie (vers -2500 av. J.-C. / règne de Khéphren)",
+    centuryDisplay: "XXVe s. av. J.-C.",
+    centuryNumeric: -2500,
+    domain: "sculpture_statuaire",
+    artifactType: "Statue en ronde-bosse",
+    title: "Le Grand Sphinx de Gizeh : Colosse monolithique léontocéphale au némès royal",
+    site: "Plateau de Gizeh (Gizeh, Le Caire)",
+    originSite: "Plateau de Gizeh",
+    locationType: "site",
+    currentLocation: "In situ (Plateau de Gizeh)",
+    category: "Sculpture monolithique rupestre sur calcaire",
+    isHighlight: true,
+    chips: ["IVe dynastie", "Khéphren", "Gizeh", "Grand Sphinx", "Monolithe", "Rê-Horakhty", "Némès royal"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPF6Fu7rlqvCVEu6-0WTenY4rpt1AC1Ag4l0goxKYQwJhEhSuvNrzHrU28AEVSyL3r0gM0Qx7XUL4qqiRTFB9CB6DSHTyZ4CzQAlGkewd-y2ezJ-Rcs32t3N2U_KbqW_u-R1GvG3j090ylzHCA4t53MzQ=w1611-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Le Grand Sphinx de Gizeh se dresse comme la plus grande sculpture monolithique au monde. Taillé directement dans le calcaire du plateau de Gizeh, il représente une créature mythique au corps de lion couché et à la tête humaine, portant traditionnellement le némès, la coiffe royale. Cette œuvre magistrale mesure environ 73 mètres de long et 20 mètres de haut, affirmant la puissance divine et terrestre des pharaons de l'Ancien Empire.</p>
+    <p>La majorité des égyptologues s'accordent pour l'attribuer au règne du pharaon Khéphren, vers 2500 avant notre ère. Situé à proximité de la chaussée menant à la pyramide de ce souverain, le Sphinx aurait été conçu comme une sentinelle spirituelle protégeant le complexe funéraire. Son visage, malgré l'érosion sévère et les mutilations subies au fil des millénaires, est souvent considéré comme un portrait idéalisé du pharaon lui-même, l'identifiant ainsi au dieu solaire Rê-Horakhty.</p>
+    <p>Techniquement, la statue est une prouesse d'adaptation géologique. Les sculpteurs de la IVe dynastie ont exploité les couches de roche calcaire de qualités variables : la tête est sculptée dans une strate plus dure et plus dense, ce qui explique sa meilleure conservation par rapport au corps, dont les strates plus tendres ont été profondément creusées par le vent, le sable et l'humidité. À l'origine, le monument était richement décoré de peintures vives, notamment du rouge pour le visage et du jaune pour les bandes du némès.</p>
+    <p>Au-delà de sa fonction architecturale, le Grand Sphinx est devenu un objet de culte dès le Nouvel Empire, incarnant le passage du temps et le génie monumental de la IVe dynastie.</p>
+    <p><strong>Siècle :</strong> XXVe siècle av. J.-C. (-2500) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+   {
     id: "sculpture_chapiteaux_composites_architraves_pronaos_esna",
     civId: "egypte",
     periodId: "romaine",
