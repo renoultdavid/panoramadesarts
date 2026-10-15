@@ -6,6 +6,106 @@ window.ART_OBJECTS = window.ART_OBJECTS || [];
 window.ART_OBJECTS.push(
 
   {
+    id: "peinture_amenhotep_iii_qurna_louxor",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1403 av. J.-C. / règne d'Amenhotep III)",
+    centuryDisplay: "XVe s. av. J.-C.",
+    centuryNumeric: -1403,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Fragment de peinture murale au portrait d'Amenhotep III",
+    site: "Musée de Louxor (prov. Qurna, Thèbes)",
+    originSite: "Nécropole de Qurna (Thèbes-Ouest)",
+    locationType: "museum",
+    currentLocation: "Musée de Louxor",
+    category: "Peinture murale a tempera",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Amenhotep III", "Qurna", "Musée de Louxor"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNTzMT0nbhAe8OT7Wvp25tLbR47GuQgiGW9tWfaBVJQB_XUo2vO_ix-UtB8ZoezYCNQ_fhOgxzOvXMukekWFNUXtDqje4wqE5TrwTl3NO27BqpTIr_PWOsG2H9VA_vjZJ0CijJ-Oyv-2F0namztHtwtEw=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette peinture murale fragmentaire, conservée au musée de Louxor, constitue un témoignage exceptionnel de l'art aulique de la XVIIIe dynastie égyptienne, vers 1403 avant notre ère. Elle provient initialement de la région de Qurna, sur la rive ouest de Thèbes, site de la vaste nécropole où les hauts dignitaires et les souverains faisaient ériger leurs demeures d'éternité. L'œuvre représente le pharaon Amenhotep III, l'un des plus grands bâtisseurs du Nouvel Empire, dont le règne marque l'apogée d'une élégance stylistique souvent qualifiée de maniérisme thébain. Malgré l'état lacunaire de l'enduit de limon et de paille, la vivacité des pigments naturels appliqués a tempera demeure saisissante, révélant une palette dominée par l'ocre jaune symbolisant la chair divine, le rouge brique pour la peau masculine et des touches de bleu et de vert pour les parures.</p>
+    <p>Le souverain est figuré de profil, selon les canons de la perspective d'aspect, arborant un large collier ousekh méticuleusement détaillé et une perruque de cérémonie. Derrière son visage, une partie de la titulature royale est encore lisible dans les cartouches hiéroglyphiques, confirmant son identité et ses titres sacrés. On distingue également des éléments de mobilier ou de dais cérémoniel, ornés de motifs géométriques et floraux, qui suggèrent que la scène originale représentait probablement le roi trônant ou recevant des offrandes. La finesse des traits, notamment l'œil en amande étiré vers la tempe et la ligne sinueuse des lèvres, préfigure les mutations esthétiques qui seront poussées à l'extrême par son fils Akhenaton.</p>
+    <p>Cette pièce est d'une importance archéologique majeure car elle documente non seulement le programme décoratif des structures palatiales ou funéraires de l'époque, mais aussi les techniques de conservation modernes qui permettent de stabiliser ces fragments fragiles sur un support neutre pour en assurer la pérennité.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1403) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+  {
+    id: "relief_amon_min_deir_el_bahari_louxor",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1436 av. J.-C. / règne de Thoutmosis III)",
+    centuryDisplay: "XVe s. av. J.-C.",
+    centuryNumeric: -1436,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Bas-relief peint du dieu Amon-Min au visage noir (Deir el-Bahari)",
+    site: "Musée de Louxor (prov. Deir el-Bahari)",
+    originSite: "Temple de Deir el-Bahari (Thèbes-Ouest)",
+    locationType: "museum",
+    currentLocation: "Musée de Louxor",
+    category: "Bas-relief polychrome",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Amon-Min", "Deir el-Bahari", "Musée de Louxor"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOCf3Uc4D6-aLYfM3W4u88kc_eDIv767WxYr05nY8kEKOflHjaE4lpGe0ZOIWGmhACmVuucl-TxEorEdZaC4-XYVwzIcMct79-q5O4aTP2cBoW84JvreA3h4bpiGOoxrtZAcV7hVFMKhZaqhQXBzKITjQ=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce fragment de relief en calcaire peint, conservé au musée de Louxor, représente le dieu Amon-Min et provient du temple funéraire de la reine Hatchepsout à Deir el-Bahari, datant du règne de Thoutmosis III vers 1436 avant notre ère. L'œuvre illustre la puissance iconographique de la XVIIIe dynastie à travers la figure d'Amon-Min, forme syncrétique associant le roi des dieux thébain au dieu primordial de la fertilité. La divinité est représentée avec une peau d'un noir profond, couleur symbolisant le limon fertile du Nil et la régénération éternelle, contrastant avec le blanc éclatant de son vêtement et le jaune vif de sa couronne.</p>
+    <p>Il porte le mortier surmonté de deux hautes plumes, attribut caractéristique d'Amon, ainsi que la barbe postiche divine incurvée. Le visage présente des traits d'une grande finesse, notamment un œil souligné d'un large trait de fard noir s'étirant vers l'oreille, typique de l'esthétique du milieu de la XVIIIe dynastie. Autour de son cou se déploie un large collier ousekh composé de plusieurs rangs de perles polychromes rouges, bleues et vertes. À droite de la figure divine, on distingue le signe hiéroglyphique de la "divinité" (le mât-enseigne netjer) surmontant une étoile, éléments d'une inscription identifiant les fonctions sacrées du dieu.</p>
+    <p>La technique de sculpture en bas-relief est ici d'une précision remarquable, les contours étant d'une netteté parfaite malgré les millénaires. Ce bloc témoigne de la qualité exceptionnelle des ateliers royaux de l'époque, où la rigueur du dessin s'alliait à une symbolique colorée rigoureuse pour magnifier les parois des sanctuaires thébains.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1436) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Architecture & Temples.</p>`
+  },
+  {
+    id: "relief_thoutmosis_iii_kheprech_deir_el_bahari",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1490 av. J.-C. / règne de Thoutmosis III)",
+    centuryDisplay: "XVe s. av. J.-C.",
+    centuryNumeric: -1490,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Portrait en bas-relief de Thoutmosis III à la couronne Khépresh (Djeser-Akhet)",
+    site: "Musée de Louxor (prov. Deir el-Bahari)",
+    originSite: "Temple Djeser-Akhet de Thoutmosis III (Deir el-Bahari)",
+    locationType: "museum",
+    currentLocation: "Musée de Louxor",
+    category: "Bas-relief royal polychrome",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Thoutmosis III", "Couronne Khépresh", "Musée de Louxor"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPaL2OxC0hRFrHKMW47w-NQIciHZyvCRaNcyUlJ4egy3o6jfe972uCk14dynJBddwmMxduvp1PQePv0-tmLKQ5WH2l3HGR6lcdWuMVBpdNHCUaKAJWBdgWH1w34OECDPxwCq_jwu9fciU8rwEINY8ndkg=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce relief en calcaire polychrome, fleuron de la collection du musée de Louxor, provient du temple funéraire de Thoutmosis III, nommé Djeser-Akhet ("l'Horizon sacré"), édifié à Deir el-Bahari vers 1490 avant notre ère. Découverte lors des fouilles polonaises des années 1960, cette œuvre illustre la maîtrise formelle des ateliers royaux de la XVIIIe dynastie à son apogée. Le fragment représente le profil du pharaon Thoutmosis III coiffé de la couronne khépresh, également appelée "couronne bleue" ou "casque de guerre", ici ornée d'un uræus protecteur dont le corps sinueux ondule sur le dessus de la coiffe.</p>
+    <p>La physionomie du roi suit les canons esthétiques de l'époque avec un nez aquilin légèrement busqué, un œil en amande souligné d'un trait de fard s'étirant vers la tempe, et un sourire discret qui confère au portrait une sérénité divine. La peau est rendue par un pigment rouge brique profond, convention artistique pour la carnation masculine, contrastant avec le bleu et l'or de la couronne. Le souverain porte un large collier ousekh composé de rangs alternés de perles tubulaires, témoignant d'une minutie extrême dans le rendu des détails ornementaux.</p>
+    <p>Derrière lui, les vestiges d'une titulature royale ou d'une scène d'offrande suggèrent la fonction cultuelle de la paroi originale, destinée à perpétuer le lien entre le monarque et les divinités du cirque thébain. La conservation exceptionnelle des pigments, notamment le bleu égyptien de la couronne et le rouge des chairs, permet d'apprécier la vivacité chromatique qui caractérisait autrefois l'ensemble des sanctuaires de la rive ouest. Ce bas-relief constitue un jalon historique essentiel pour comprendre l'évolution du portrait royal avant la transition amarnienne.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1490) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Architecture & Temples.</p>`
+  },
+  {
+    id: "mur_talatates_aton_amenhotep_iv_louxor",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1365 av. J.-C. / règne d'Amenhotep IV)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1365,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Mur de talatates reconstitué du temple d'Aton à Karnak (Amenhotep IV)",
+    site: "Musée de Louxor (prov. Karnak)",
+    originSite: "Temple d'Aton à Karnak (Thèbes)",
+    locationType: "museum",
+    currentLocation: "Musée de Louxor",
+    category: "Bas-relief amarnien en talatates",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Amenhotep IV", "Talatates d'Aton", "Musée de Louxor"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOsRujcTWw0JSBzYEYLUZSU2WNbKbsWBfc-eYfaqOsJ7dFOw6mCDciyavx8gE4IykEphejW42iGxIAfzb5jMa5Jl_RxzBvSZ05oC00EWmnKYtR77-5EpH9rMF0_KPezO1zlM8wBKOykleFYyAJsTENjsw=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette œuvre monumentale, point d'orgue de la scénographie du musée de Louxor, consiste en une reconstitution de 18 mètres de long d'un segment du temple d'Aton à Karnak, bâti vers 1365 avant notre ère durant les premières années du règne d'Amenhotep IV, avant qu'il ne prenne le nom d'Akhenaton. La structure originelle fut démantelée après la mort du souverain par ses successeurs afin d'effacer les traces de sa réforme religieuse, et les blocs furent réutilisés comme matériau de remplissage à l'intérieur des 2e et 9e pylônes du temple d'Amon.</p>
+    <p>Découverts par milliers lors de fouilles au XXe siècle, ces petits blocs de grès standardisés d'environ 52 centimètres de long sont appelés « talatates », terme dérivé de l'arabe signifiant « trois » en référence à leur dimension de trois empans. Le mur exposé rassemble 183 de ces blocs originaux, offrant une mosaïque précieuse de la vie quotidienne et religieuse sous le nouvel ordre solaire. On y observe une rupture stylistique majeure préfigurant l'art amarnien : les scènes dépeignent avec un réalisme nouveau des porteurs de fardeaux, des serviteurs dans les entrepôts du temple, des brasseries, ainsi que des rituels de la fête-Sed célébrée de manière précoce par le roi.</p>
+    <p>Les personnages, comme les porteurs visibles sur les registres, présentent des silhouettes allongées et des traits plus souples que dans l'art classique, caractéristiques de l'esthétique prônée par le pharaon réformateur. Ce puzzle archéologique constitue l'unique tentative réussie de reconstruction d'une paroi entière d'un temple d'Aton, témoignant de l'ampleur des chantiers solaires qui bordaient autrefois l'enceinte de Karnak avant d'être systématiquement oblitérés par l'histoire.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1365) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Architecture & Temples.</p>`
+  },
+   {
     id: "stele_trilingue_cornelius_gallus_philae_alexandrie",
     civId: "egypte",
     periodId: "greco_romaine",
