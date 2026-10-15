@@ -6,6 +6,206 @@ window.ART_OBJECTS = window.ART_OBJECTS || [];
 window.ART_OBJECTS.push(
 
   {
+    id: "peinture_tympan_osiris_pashedu_tt3",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (v. -1280 av. J.-C. / début époque ramesside)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1280,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Tympan peint d'Osiris trônant, montagne thébaine et œil Oudjat (Tombe TT3)",
+    site: "Tombe de Pashedu - TT3 (Deir el-Médineh, Thèbes)",
+    originSite: "Deir el-Médineh (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe TT3, Deir el-Médineh)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "TT3 Pashedu", "Deir el-Médineh", "Osiris trônant"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPA37G8hxaqpp6881rmplTcffvwTIzNEPwq0w8APPgj8S8mtFJh2R01MnocbgMjuIqlV9iTi2zt5s_q9ytWKCicFU2GzG7toCHBzxpkpP_Z_pjf86MC2MfcH22YiFo0VRdLTBRdURCdDmNjQZe0EMwHVA=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette peinture murale exceptionnelle provient de la tombe de Pashedu (TT3), située dans la nécropole de Deir el-Médineh sur la rive ouest de Thèbes, et date du début de l'époque ramesside, vraisemblablement sous le règne de Séthi Ier ou de Ramsès II, vers 1290-1270 avant notre ère. Pashedu, dont le titre était « Serviteur dans la Place de Vérité », faisait partie de l'élite des artisans chargés de creuser et de décorer les sépultures royales de la Vallée des Rois. L'œuvre, réalisée à la détrempe sur un enduit de limon et de plâtre, orne le tympan de la chambre funéraire voûtée et témoigne d'une maîtrise chromatique remarquable dominée par un jaune ocre vibrant, symbolisant l'éclat solaire et l'éternité divine.</p>
+    <p>La composition centrale met en scène le dieu Osiris, seigneur de l'Au-delà, reconnaissable à sa peau verte évoquant la régénération végétale et à ses attributs royaux que sont le sceptre héqa et le fléau nekhakha. Il est assis sur un trône archaïque au dossier bas, placé sous un dais protecteur dont la structure est rythmée par des colonnes de hiéroglyphes détaillant des formules d'offrandes et les titres du défunt. À gauche du dieu, une montagne thébaine stylisée, traitée en pointillés rouges pour suggérer le relief désertique, abrite l'œil Oudjat, symbole de complétude et de protection, surmontant une représentation de Pashedu lui-même en posture d'adoration. Un faucon, incarnation solaire ou manifestation d'Horus, se tient sur un signe hiéroglyphique de l'Occident, renforçant la thématique du passage vers le royaume des morts.</p>
+    <p>À droite, le fétiche d'Abydos, l'Imiout, et d'autres symboles religieux encadrent la figure divine, tandis que sur la paroi latérale se devine une barque funéraire transportant le défunt vers son destin éternel. Le style se caractérise par une ligne de contour noire d'une grande sûreté et une élégance des formes typique des artistes de Deir el-Médineh, qui bénéficiaient de la proximité des chantiers royaux pour affiner leur technique. Cette scène ne constitue pas seulement un décor, mais une machine théologique complexe destinée à assurer au « Serviteur » Pashedu la protection d'Osiris et sa survie perpétuelle dans les champs d'Ialou.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1280) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+  {
+    id: "peinture_procession_divinites_ankh_pashedu_tt3",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (v. -1280 av. J.-C. / début époque ramesside)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1280,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Procession d'Osiris et divinités féminines tenant le signe Ânkh (Tombe TT3)",
+    site: "Tombe de Pashedu - TT3 (Deir el-Médineh, Thèbes)",
+    originSite: "Deir el-Médineh (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe TT3, Deir el-Médineh)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "TT3 Pashedu", "Déesses de l'Amentit", "Signe Ânkh"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPfe4EZD-RbCmwCnx5YkCJGHJnKiA43MhRt1SDVQbMOoEOZNSiPZjOujO1FnIbB8fafp9v6hnIBnybc27Y7BGoUZ9AbKitpUG6gxvJkVOaNjih4b_TlZFuAaPuIZD4L3y8U9DMrB5cEIrHD-HpOZ35rkw=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette peinture murale, extraite de la voûte de la chambre funéraire de Pashedu (TT3) à Deir el-Médineh, illustre la maîtrise de l'école artistique thébaine au début de la XIXe dynastie, sous les règnes de Séthi Ier ou de Ramsès II. La scène représente une procession de divinités protectrices, éléments essentiels du panthéon funéraire égyptien, se détachant sur un fond jaune d'or qui évoque la lumière divine et l'immortalité. À l'extrême gauche, le dieu Osiris est figuré avec une peau verte, symbole de la renaissance des cycles de la nature, coiffé de la couronne Atef et portant la barbe postiche recourbée des dieux morts.</p>
+    <p>Il est suivi par une série de divinités féminines, probablement des personnifications de concepts abstraits ou des divinités tutélaires comme Isis et Nephthys, chacune arborant sur la tête un hiéroglyphe spécifique permettant son identification, tel que le siège pour la première ou le signe de la demeure pour la seconde. Ces figures divines tiennent dans leurs mains le signe Ankh, la croix de vie, qu'elles semblent présenter au défunt pour lui insuffler le souffle vital nécessaire dans l'Au-delà. Le vêtement de ces déesses, composé de robes blanches immaculées et de larges colliers ousekh polychromes, contraste avec les tons ocres et rouges de la partie inférieure du décor.</p>
+    <p>L'exécution technique se distingue par la précision du trait de contour noir et la vivacité des pigments minéraux qui ont conservé leur éclat originel malgré les millénaires. Les colonnes de hiéroglyphes surmontant les figures contiennent des formules liturgiques issues du Livre des Morts, destinées à garantir au "Serviteur dans la Place de Vérité" Pashedu un passage sécurisé vers les champs d'Ialou. Cette œuvre témoigne de la dévotion intense des artisans de la Vallée des Rois et de leur accès privilégié aux canons esthétiques les plus raffinés du Nouvel Empire, transformant une sépulture privée en un sanctuaire de haute théologie iconographique.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1280) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+  {
+    id: "peinture_divinites_momiformes_chacals_pashedu_tt3",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (v. -1250 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1250,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Divinités momiformes, chacals d'Anubis et barque solaire (Tombe TT3)",
+    site: "Tombe de Pashedu - TT3 (Deir el-Médineh, Thèbes)",
+    originSite: "Deir el-Médineh (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe TT3, Deir el-Médineh)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "TT3 Pashedu", "Barque solaire", "Chacals d'Anubis"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOpvPTl38e5Kp1cag5J-_tVJ23y5oJPMypRvNy1Lgig1f6hOi70qCO-Xn0PZxbUC8I7BakRTMyRt-BIfNCVjlfbFjlxGHqXYHhaec_AvC163zQwZYL-ipHcgSHVFi6lYzmRV2fMFzQ9VNnAdqk2eq8RXg=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette peinture murale, extraite de la tombe de Pashedou (TT3) située dans la nécropole de Deir el-Médineh sur la rive ouest de Thèbes, illustre la maîtrise artistique de l'époque ramesside, probablement sous les règnes de Séti Ier ou de Ramsès II, vers 1250 avant notre ère. Pashedou, qui portait le titre de Serviteur dans la Place de Vérité, était l'un des artisans d'élite chargés de creuser et de décorer les sépultures royales de la Vallée des Rois.</p>
+    <p>Le registre supérieur présente trois divinités momiformes assises, chacune brandissant le signe de vie Ânkh. À gauche figure une divinité anthropomorphe à la peau verte, couleur symbolisant la régénération et la renaissance, évoquant la figure d'Osiris ou l'un des génies protecteurs du monde souterrain. Elle est suivie de deux divinités à tête de chacal, associées à Anubis, le dieu de l'embaumement et le gardien des nécropoles, qui veille sur le passage des défunts. La palette chromatique est dominée par un fond jaune ocre éclatant, typique des tombes de cette période, qui transforme l'espace funéraire en une chambre d'or éternelle.</p>
+    <p>En dessous de ces figures imposantes, une scène à plus petite échelle montre la barque solaire naviguant sur les eaux de l'au-delà, avec le défunt en adoration devant des symboles sacrés. L'ensemble est ponctué de colonnes de hiéroglyphes tracés avec précision, détaillant des formules rituelles destinées à assurer la survie spirituelle de Pashedou. L'œuvre témoigne d'une grande finesse de trait, notamment dans le rendu des colliers ousekh richement colorés et la cambrure élégante des bras des divinités. Cette fresque n'est pas seulement un décor, mais un dispositif magico-religieux complexe visant à garantir au propriétaire de la tombe une protection divine constante et une intégration harmonieuse dans le cycle éternel du cosmos égyptien.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1250) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+  {
+    id: "peinture_osiris_montagne_thebaine_oudjat_pashedu_tt3",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (v. -1250 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1250,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Osiris au linceul blanc devant la cime thébaine et l'œil Oudjat (Tombe TT3)",
+    site: "Tombe de Pashedu - TT3 (Deir el-Médineh, Thèbes)",
+    originSite: "Deir el-Médineh (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe TT3, Deir el-Médineh)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "TT3 Pashedu", "Cime thébaine", "Œil Oudjat"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOj3Ki1xvaNRjDd7wuuOCMAYzA2f9X2Jha6x9Nnua8tFBLqMLytJhf0PNtnTDnUFMvLWCO4dCaT-HeKWf5jis67SdM07oB0migyPaUJlAEq6Hfjnmn3cN93SkL-818J-gDG1Ejy6I4yiCwQ0kHsb0rkNA=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette peinture murale, située dans la chambre funéraire de la tombe de Pashedou (TT3) à Deir el-Médineh, constitue l'un des sommets de l'art funéraire de la XIXe dynastie, sous le règne de Ramsès II. Elle représente le dieu Osiris, souverain de l'au-delà et juge des morts, trônant majestueusement dans une posture hiératique caractéristique. Le dieu est figuré avec une peau verte, symbole de la régénération végétale et de la renaissance éternelle, et porte la barbe postiche recourbée des divinités. Il est vêtu d'un linceul de momie blanc immaculé, serré à la taille par une écharpe rouge, et tient contre sa poitrine les insignes de la royauté : le crochet héqa et le fouet nekhekh.</p>
+    <p>Osiris est coiffé de la perruque striée bleue et or, et se tient devant une montagne stylisée de couleur ocre rouge parsemée de points noirs, représentant la "Cime" thébaine ou l'Occident, lieu de résidence des défunts. Au-dessus de lui, le plafond voûté est saturé de colonnes de textes hiéroglyphiques tracés à l'encre noire sur un fond jaune d'or, contenant des extraits du Livre des Morts destinés à assurer la protection du dieu et la survie de Pashedou dans le royaume souterrain. À gauche, l'œil Oudjat surdimensionné veille sur la scène, symbolisant l'intégrité retrouvée et la protection contre les forces du chaos.</p>
+    <p>La composition se distingue par l'équilibre parfait entre la rigueur des textes sacrés et la puissance graphique de la figure divine, dont le regard semble percer l'éternité. Cette œuvre illustre la piété personnelle profonde des artisans de la "Place de Vérité", qui, tout en bâtissant les palais d'éternité des pharaons, ont su créer pour eux-mêmes des espaces d'une ferveur religieuse et d'une qualité esthétique exceptionnelles.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1250) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+  {
+    id: "peinture_osiris_trones_archaiques_pashedu_tt3",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (v. -1280 av. J.-C. / début époque ramesside)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1280,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Osiris à la couronne Atef et dieux protecteurs sur trônes géométriques (TT3)",
+    site: "Tombe de Pashedu - TT3 (Deir el-Médineh, Thèbes)",
+    originSite: "Deir el-Médineh (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe TT3, Deir el-Médineh)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "TT3 Pashedu", "Couronne Atef", "Trônes polychromes"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNgCf_4QCH-TPLlmAuJHd-7U8tkrTAqTD9q5ksCymYU76KqNPfoeigWPfHkQEkosUzu4ZJdbhrR-_-YpeuOpDkObPhVHmNUXJ_S89MvwiaBAI5J14xMynxyFHH3U4CueN01qm6I9TzBGbJwV4rxw5MSfQ=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette peinture murale, extraite du riche décor de la tombe de Pashedou (TT3) à Deir el-Médineh, témoigne de la virtuosité artistique de la XIXe dynastie sous les règnes de Séthi Ier ou de Ramsès II. Réalisée sur un enduit de limon recouvert d’un badigeon jaune vif, une couleur symbolisant l’or et l’éternité divine, l’œuvre illustre une scène de dévotion funéraire issue du Livre des Morts. On y distingue trois divinités assises sur des trônes archaïques richement ornés de motifs géométriques polychromes.</p>
+    <p>À gauche, Osiris, le souverain de l’au-delà, est reconnaissable à son visage peint en vert, évocation de la régénération et du cycle végétal, ainsi qu'à son linceul blanc enserré de rubans rouges. Il porte la couronne atef et tient les sceptres de la royauté. Derrière lui siègent deux autres divinités protectrices, dont les visages ont malheureusement subi les outrages du temps, mais dont les parures, composées de larges colliers ousekh et de perruques tripartites bleues, soulignent le rang sacré. Le registre supérieur est occupé par une frise de hiéroglyphes tracés à l'encre noire, délimités par des colonnes rouges verticales.</p>
+    <p>Ces inscriptions contiennent des formules rituelles destinées à assurer la survie du défunt dans les champs d'Ialou, invoquant la protection des dieux pour Pashedou, qui occupait la fonction de serviteur dans la Place de Vérité. La technique de la détrempe offre ici une palette vibrante où le bleu lapis-lazuli, le rouge ocre et le vert turquoise se détachent avec force sur le fond solaire. Malgré les lacunes de la couche picturale, la finesse du trait et l’élégance des silhouettes révèlent le savoir-faire des artisans d'élite qui travaillaient à la construction des sépultures royales tout en aménageant leurs propres demeures d'éternité avec une dévotion et une maîtrise technique équivalentes.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1280) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+  {
+    id: "peinture_procession_familiale_adoration_pashedu_tt3",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (v. -1280 av. J.-C. / début époque ramesside)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1280,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Procession familiale de Pashedu en prière et piété intergénérationnelle (TT3)",
+    site: "Tombe de Pashedu - TT3 (Deir el-Médineh, Thèbes)",
+    originSite: "Deir el-Médineh (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe TT3, Deir el-Médineh)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "TT3 Pashedu", "Famille en prière", "Piété filiale"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMtGvg3RTj1DslZ7CeWDk4pqSYQFoZ-hc4zIedZECP6QNCHfvBBIzHM5sSjBpvH1e4rmZjnbkuay1ssINSzVo3Is8Hcm4WWDpfTCEb6Xu2iNoQcyGaT7YjQ4OsptCEn_Kb2KvploI0TvJIWtjXd2NmY5A=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette peinture murale, située sur l'un des parois voûtées de la tombe de Pashedou (TT3) à Deir el-Médineh, illustre la piété filiale et l'organisation sociale de la communauté des artisans sous la XIXe dynastie. La scène, peinte sur un fond jaune ocre caractéristique de cette période rattachée aux règnes de Séthi Ier ou Ramsès II, représente une procession de membres de la famille du défunt en adoration. Les personnages, hommes et femmes, sont figurés dans l'attitude classique du jubilé ou de la prière, les mains levées vers les divinités situées hors champ ou vers le texte sacré.</p>
+    <p>On observe une grande attention portée aux détails des parures : les hommes portent des pagnes de lin blanc plissés, tandis que les femmes sont vêtues de longues robes transparentes et arborent des perruques élaborées, parfois ornées de bandeaux ou de fleurs de lotus. La présence d'un personnage à la chevelure blanche souligne le respect des générations et la structure familiale élargie représentée dans la sépulture. Un imposant registre de hiéroglyphes à l'encre noire, structuré par des colonnes rouges, s'insère verticalement sur la droite, détaillant probablement l'identité des membres de la parenté et les invocations funéraires nécessaires à leur passage dans l'au-delà.</p>
+    <p>La composition, répartie sur plusieurs registres superposés, utilise une palette chromatique équilibrée où le blanc éclatant des vêtements contraste avec la peau brune des personnages et le bleu profond des bordures décoratives. Cette œuvre témoigne non seulement de la foi religieuse de Pashedou, "Serviteur dans la Place de Vérité", mais aussi du haut niveau d'autonomie artistique des habitants du village de Deir el-Médineh qui décoraient leurs propres tombes avec la même rigueur que celles de la Vallée des Rois.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1280) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+  {
+    id: "peinture_faucon_horus_palmier_doum_pashedu_tt3",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (v. -1275 av. J.-C. / Séthi Ier - Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1275,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Le grand faucon d'Horus aux anneaux-chenou et palmier doum régénérateur (TT3)",
+    site: "Tombe de Pashedu - TT3 (Deir el-Médineh, Thèbes)",
+    originSite: "Deir el-Médineh (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe TT3, Deir el-Médineh)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "TT3 Pashedu", "Faucon d'Horus", "Palmier doum"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMcpZ4SccxXhZZr-7mhga_XMl0uIApjIfVJWPzAsH4_CQUkGrpJf3UdEGvRdSoTOoshNFKYTcRhbjbg7PUTjnVBlB7MIFuqOJxCGC3fLkuE5PbFM4Sst3J1BW7oJPSgflFnIW-qE5nNDUjjQDExtx7MHQ=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette peinture murale exceptionnelle provient de la tombe de Pashedou (TT3), située dans la nécropole de Deir el-Médineh sur la rive ouest de Thèbes, et date de l’époque ramesside, plus précisément du règne de Séthi Ier ou du début de celui de Ramsès II vers 1275 avant notre ère. Pashedou, qui portait le titre de « Serviteur dans la Place de Vérité », était l’un des artisans d'élite chargés de creuser et de décorer les sépultures royales de la Vallée des Rois. L’œuvre se déploie sur les parois voûtées de la chambre funéraire, témoignant d'une maîtrise chromatique remarquable où dominent les ocres jaunes éclatants, servant de fond à une cosmogonie protectrice.</p>
+    <p>Sur le registre supérieur de la lunette, un faucon colossal aux ailes déployées, incarnation du dieu Horus ou de Rê-Horakhty, plane au-dessus du défunt pour assurer sa transition vers l'au-delà ; il tient dans ses serres les anneaux-chenou, symboles d'éternité, tandis que l'œil Oudjat veille sur la scène. Juste au-dessous, une procession de figures masculines et féminines, représentant probablement les membres de la famille de Pashedou, avance dans une attitude de prière et de jubilation, les mains levées vers l'horizon. Les hommes sont vêtus de pagnes de lin blanc plissés, tandis que les femmes portent de longues robes assorties, le tout rendu avec une finesse de trait caractéristique des artistes de Deir el-Médineh qui travaillaient ici pour leur propre compte.</p>
+    <p>Sur la paroi adjacente, un palmier doum chargé de fruits souligne le lien indéfectible entre le défunt et les cycles de régénération de la nature. L'ensemble de l'iconographie est saturé de colonnes de hiéroglyphes tracés à l'encre noire, reprenant des chapitres du Livre des Morts destinés à guider l'âme à travers les épreuves du monde souterrain. Cette œuvre est un témoignage précieux de la piété personnelle et de l'habileté technique des bâtisseurs de tombes, alliant une ferveur religieuse intense à une esthétique vibrante qui a conservé sa fraîcheur originelle grâce au climat aride de la Haute-Égypte.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1275) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+  {
+    id: "peinture_genie_chacal_uraei_protection_pashedu_tt3",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (v. -1280 av. J.-C. / début époque ramesside)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1280,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Génie protecteur à tête de chacal et frise d'uræi défensifs (Tombe TT3)",
+    site: "Tombe de Pashedu - TT3 (Deir el-Médineh, Thèbes)",
+    originSite: "Deir el-Médineh (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe TT3, Deir el-Médineh)",
+    category: "Peinture murale ramesside",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "TT3 Pashedu", "Frise d'uræi", "Génie gardien"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPEliMLc0UjcL73VWT58eZ4lG5sMzlfJ1GH1HEHNfeFQX1ziY5NgXr9Ob17vvcfb5ZS5woPmA5zFmtk9ghx9LUctRqGdmo9uXqvRYQHyBO27i9034N8FRLWAlzfWsK7QTmdvHWUaKDl0PCMN67tMFB-wg=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce détail iconographique, également issu de la tombe de Pashedou (TT3) à Deir el-Médineh, illustre la précision et la richesse symbolique de l'art ramesside appliqué aux espaces restreints du passage vers la chambre funéraire. La frise supérieure présente une alternance de bandes verticales colorées en bleu, rouge et ocre, un motif classique de l'ornementation égyptienne servant de cadre architectural à la scène. Au-dessous, un registre horizontal met en scène des divinités protectrices dont les silhouettes se détachent sur un fond de calcaire clair préparé à l'enduit.</p>
+    <p>On y distingue notamment la figure d'un génie à tête de chien ou de chacal, probablement l'un des fils d'Horus ou une entité gardienne, représenté dans une posture ramassée suggérant la vigilance. À sa droite se déploie une série de cobras dressés, ou uraei, symboles de la puissance divine et solaire, dont les corps sont segmentés par des lignes noires horizontales et les capuchons soulignés de jaune vif. Ces serpents sacrés ont pour fonction de repousser les forces du chaos et de protéger l'entrée du caveau contre toute profanation spirituelle.</p>
+    <p>La partie inférieure de l'image révèle des colonnes de textes hiéroglyphiques cursifs, tracés avec une économie de moyens propre aux scribes de la "Place de Vérité", où chaque signe conserve une lisibilité parfaite malgré l'érosion du temps et les lacunes de l'enduit. L'usure apparente de la roche sur la droite laisse entrevoir la structure brute de la falaise thébaine, rappelant que ces chefs-d'œuvre ont été arrachés au cœur même de la montagne. Cette section souligne l'aspect fonctionnel de la décoration funéraire, où l'image et le texte ne sont pas de simples ornements mais des outils magiques indispensables à la survie de Pashedou dans le monde de l'Amentit.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1280) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+   {
     id: "peinture_recolte_chars_nebamun_british",
     civId: "egypte",
     periodId: "nouvel_empire",
