@@ -6,6 +6,431 @@ window.ART_OBJECTS = window.ART_OBJECTS || [];
 window.ART_OBJECTS.push(
 
   {
+    id: "sculpture_chapiteaux_composites_architraves_pronaos_esna",
+    civId: "egypte",
+    periodId: "romaine",
+    civName: "Égypte : Époque romaine",
+    century: "Époque romaine (Ier-IIe s. ap. J.-C. / empereurs flaviens et antonins)",
+    centuryDisplay: "IIe s. ap. J.-C.",
+    centuryNumeric: 120,
+    domain: "sculpture_statuaire",
+    artifactType: "Décor architectural (fronton, frise, métope, chapiteau)",
+    title: "Chapiteaux composites polychromes et architraves monumentales du pronaos d'Esna",
+    site: "Temple de Khnoum - Pronaos (Esna)",
+    originSite: "Esna",
+    locationType: "site",
+    currentLocation: "In situ (Parties hautes du Pronaos, Esna)",
+    category: "Décor architectural sur grès polychrome",
+    isHighlight: false,
+    chips: ["Époque romaine", "Esna", "Temple de Khnoum", "Chapiteaux composites", "Architraves", "Flore nilotique", "Gorge égyptienne"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMjUuYTWgvPtiH5s6G_FpoD9skTukrrtQU5UO7KfmLdmxZphXg9FX7ugT_ZDayyCBVipVzPTh82tjD8XnTPwIhGTX4KhsDbXkuqEt8iqTCasDFDqHubtcCTxbdU0lwGEzGcSELOZSlnuN_PgSsl6If0ow=w1611-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Cette vue témoigne de la finesse des détails et de la richesse chromatique des parties hautes du temple de Khnoum à Esna. L'angle met l'accent sur les chapiteaux composites, véritables chefs-d'œuvre de la sculpture d'époque romaine, qui imitent la végétation luxuriante des bords du Nil. Chaque colonne possède un chapiteau unique, orné de motifs de feuilles de palmier, de lotus et de papyrus, dont les pigments minéraux originaux — rouges, bleus, jaunes et verts — ont été magnifiquement révélés par les restaurations.</p>
+    <p>Les architraves horizontales qui reposent sur ces colonnes sont couvertes de frises de hiéroglyphes et de cartouches royaux, encadrés par des corniches à gorge égyptienne. On y observe également des représentations de divinités protectrices et des emblèmes rituels qui participaient à la sacralisation de l'espace. La précision des gravures, même à cette hauteur, souligne la volonté des bâtisseurs de rendre hommage aux dieux jusque dans les moindres recoins du sanctuaire.</p>
+    <p>Sur les fûts des colonnes, sous les chapiteaux, des registres horizontaux dépeignent des scènes de culte où l'empereur-pharaon dialogue avec les puissances divines. Ces scènes célèbrent le rôle de Khnoum en tant que démiurge et protecteur des sources du Nil, assurant ainsi la survie et la prospérité de l'Égypte.</p>
+    <p><strong>Siècle :</strong> IIe siècle ap. J.-C. (120) | <strong>Civilisation :</strong> Égypte gréco-romaine | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_dieu_khnoum_belier_cornes_torsadees_esna",
+    civId: "egypte",
+    periodId: "romaine",
+    civName: "Égypte : Époque romaine",
+    century: "Époque romaine (Ier-IIe s. ap. J.-C. / dynastie flavienne ou antonine)",
+    centuryDisplay: "IIe s. ap. J.-C.",
+    centuryNumeric: 120,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Le dieu bélier Khnoum démiurge aux cornes torsadées horizontales (Temple d'Esna)",
+    site: "Temple de Khnoum - Parois du pronaos (Esna)",
+    originSite: "Esna",
+    locationType: "site",
+    currentLocation: "In situ (Parois du Temple de Khnoum, Esna)",
+    category: "Relief en creux sur grès",
+    isHighlight: false,
+    chips: ["Époque romaine", "Esna", "Dieu Khnoum", "Bélier sacré", "Cornes torsadées", "Potier divin", "Grès"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPVzoH_sBiqmG6kCSihy8bfUO4ApoxOFHxHuymhxlOE_ZyyZQL9-zdL6l-0bBj412PXuwYDaydZFXO680mfQhSMtdL1gJJCyOdvnz5xYEqRTPmZiUrg0sICFErFs4XhxPDxBrq-VwWt0Ss3lpkaVswq7Q=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette œuvre est un relief en creux sculpté sur les parois de grès du temple de Khnoum à Esna, datant de l'époque gréco-romaine, plus précisément entre le Ier et le IIe siècle de notre ère. À cette période, l’Égypte est sous domination romaine, mais les empereurs continuent de faire bâtir et décorer des temples selon les traditions pharaoniques pour légitimer leur pouvoir auprès de la population locale et du clergé.</p>
+    <p>Le panneau central met en scène une divinité à tête de bélier, identifiée comme le dieu Khnoum, le maître des lieux et le potier divin qui façonne les êtres humains sur son tour. Il est représenté de profil, portant une perruque tripartite surmontée de cornes torsadées horizontales, caractéristiques de l'espèce Ovis longipes palaeoaegyptiacus. Sa posture, le bras levé en signe de bénédiction ou d'accueil, souligne son rôle de créateur et de protecteur du cycle de la vie et des crues du Nil.</p>
+    <p>À sa droite, une autre figure divine partiellement conservée semble l'accompagner, tandis que des colonnes de textes hiéroglyphiques encadrent les protagonistes. Ces inscriptions contiennent souvent des hymnes religieux et des listes de fêtes liturgiques spécifiques au culte d'Esna.</p>
+    <p><strong>Siècle :</strong> IIe siècle ap. J.-C. (120) | <strong>Civilisation :</strong> Égypte gréco-romaine | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_salle_hypostyle_dix_huit_colonnes_polychromes_esna",
+    civId: "egypte",
+    periodId: "romaine",
+    civName: "Égypte : Époque romaine",
+    century: "Époque romaine (Ier-IIe s. ap. J.-C. / dynastie flavienne ou antonine)",
+    centuryDisplay: "IIe s. ap. J.-C.",
+    centuryNumeric: 120,
+    domain: "sculpture_statuaire",
+    artifactType: "Décor architectural (fronton, frise, métope, chapiteau)",
+    title: "Salle hypostyle d'Esna : Forêt de dix-huit colonnes composites et textes liturgiques cryptographiques",
+    site: "Temple de Khnoum - Salle hypostyle (Esna)",
+    originSite: "Esna",
+    locationType: "site",
+    currentLocation: "In situ (Salle hypostyle du Temple d'Esna)",
+    category: "Décor architectural sur grès polychrome",
+    isHighlight: true,
+    chips: ["Époque romaine", "Esna", "Temple de Khnoum", "Dix-huit colonnes", "Polychromie restaurée", "Textes cryptographiques", "Maât"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMiFCEkXybB4aF3ALrFQ6i7wnY0z3SjfNg-ZeBj46EfPG_cxce513xxdVI40mJFKUqnb_UQBKWxPMosX7n9CsLaHlOOvsBdMU3_sSlAwSGl5jDjRYS20NvimhrEcZwOyoJpZmpW1iaUGmnjDNcrYBZJyg=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette vue intérieure présente la salle hypostyle du temple de Khnoum à Esna, un chef-d'œuvre de l'architecture gréco-romaine. Ce pronaos, resté partiellement enterré sous les sédiments du Nil pendant des siècles, a conservé une polychromie exceptionnelle sur ses chapiteaux, révélant la splendeur originelle des lieux de culte égyptiens. La structure est soutenue par dix-huit colonnes monumentales, chacune couronnée d'un chapiteau composite unique, illustrant la richesse de la flore nilotique et la virtuosité des sculpteurs du Ier siècle de notre ère.</p>
+    <p>Les colonnes sont entièrement recouvertes de registres de textes hiéroglyphiques et de scènes rituelles. Ces inscriptions constituent une véritable bibliothèque de pierre, détaillant les fêtes religieuses, les hymnes au dieu Khnoum et les cosmogonies locales. Contrairement aux temples plus anciens, les textes d'Esna se distinguent par une écriture cryptographique et savante, où un seul signe peut porter plusieurs significations théologiques complexes.</p>
+    <p>Le plafond, soutenu par des architraves massives, est décoré de motifs astronomiques et de représentations du parcours solaire et lunaire. Les reliefs sur les fûts des colonnes représentent l'empereur romain en costume pharaonique faisant des offrandes pour maintenir l'harmonie cosmique (Maât).</p>
+    <p><strong>Siècle :</strong> IIe siècle ap. J.-C. (120) | <strong>Civilisation :</strong> Égypte gréco-romaine | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "peinture_plafond_astronomique_contre_plongee_colonnes_esna",
+    civId: "egypte",
+    periodId: "romaine",
+    civName: "Égypte : Époque romaine",
+    century: "Époque romaine (Ier-IIe s. ap. J.-C. / dynastie flavienne ou antonine)",
+    centuryDisplay: "IIe s. ap. J.-C.",
+    centuryNumeric: 120,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Voûte astronomique et chapiteaux floraux en contre-plongée : Calendrier céleste et cycle du soleil (Esna)",
+    site: "Temple de Khnoum - Plafond du pronaos (Esna)",
+    originSite: "Esna",
+    locationType: "site",
+    currentLocation: "In situ (Plafond du Temple de Khnoum, Esna)",
+    category: "Peinture sur grès et relief peint",
+    isHighlight: false,
+    chips: ["Époque romaine", "Esna", "Plafond astronomique", "Contre-plongée", "Chapiteaux floraux", "Calendrier liturgique", "Cosmologie"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP9VLhUFY9CEpnKBjlHbeKqcHWejxkWl-AL2CDb-Ld6b_lLl8prZfNL34QChCJ08Jb1YvuvvLAVLFTJprLx4eda0NUthqoQJ78Qysa8p4SdZyOR5g-J-EHgL79Q2YqQmSJOeEPhez_Yx1wPw_0cfJHQqA=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette perspective en contre-plongée souligne la dimension céleste du pronaos du temple de Khnoum à Esna, mettant en lumière la relation directe entre les colonnes-monde et la voûte astronomique. À cette époque tardive, le plafond n'est plus seulement une couverture, mais une carte cosmologique complexe. On y distingue des divinités ailées, des représentations de constellations et le cycle éternel du soleil, le tout magnifié par les pigments originaux — rouges, jaunes et bleus — miraculeusement préservés sous le limon du Nil.</p>
+    <p>Les chapiteaux composites, vus ici sous un angle qui révèle leur incroyable relief, imitent une végétation luxuriante de papyrus, de lotus et de palmes à différents stades de floraison. Chaque colonne est unique, symbolisant la diversité de la création issue de la terre d'Égypte. La précision de la polychromie permet d'apprécier le souci du détail des artisans romains qui ont poussé la complexité ornementale à son paroxysme pour honorer Khnoum, le démiurge.</p>
+    <p>La verticalité des fûts, saturés de textes hiéroglyphiques, guide le regard vers ces textes astronomiques qui décrivent le mouvement des astres et les heures du jour et de la nuit, fonctionnant comme un calendrier liturgique monumental.</p>
+    <p><strong>Siècle :</strong> IIe siècle ap. J.-C. (120) | <strong>Civilisation :</strong> Égypte gréco-romaine | <strong>Sous-partie :</strong> Peinture murale, Tableaux & Mosaïque.</p>`
+  },
+  {
+    id: "peinture_plafond_astronomique_decans_constellations_zodiaque_esna",
+    civId: "egypte",
+    periodId: "romaine",
+    civName: "Égypte : Époque romaine",
+    century: "Époque romaine (Ier-IIe s. ap. J.-C. / dynastie flavienne ou antonine)",
+    centuryDisplay: "IIe s. ap. J.-C.",
+    centuryNumeric: 120,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Le zodiaque et les constellations décaniques du plafond restauré du pronaos (Temple d'Esna)",
+    site: "Temple de Khnoum - Plafond astronomique (Esna)",
+    originSite: "Esna",
+    locationType: "site",
+    currentLocation: "In situ (Plafond du Temple de Khnoum, Esna)",
+    category: "Peinture sur grès et relief peint",
+    isHighlight: true,
+    chips: ["Époque romaine", "Esna", "Zodiaque d'Esna", "Plafond peint", "Constellations", "Décans", "Bleu égyptien"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczO-kv6OoKbrFHOdi5S_0F5ckk2DqXafdwniD8VmdapCZ-cioGGELiSpcGOMFJRuzBiRbw-C14KjcGfOE-54YmVZbtUz-PUXfEEfoQ9a6EEtHgunKY--7ar_EzPxgesQjJQkNR4qjNEqGDuzqiLMIuXCxQ=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce gros plan sur la voûte du pronaos du temple de Khnoum à Esna illustre l'un des plus spectaculaires ensembles astronomiques de l'Égypte romaine, récemment remis en lumière par les campagnes de nettoyage des suies. La composition se déploie sur un fond bleu égyptien profond, parsemé d'étoiles dorées et de représentations allégoriques des constellations, des signes du zodiaque et des corps célestes régissant le temps cosmique.</p>
+    <p>On y observe les figures hybrides et majestueuses des décans et des planètes, associées aux divinités tutélaires qui accompagnent la navigation perpétuelle du soleil et de la lune. Les animaux célestes, comme les béliers, les scorpions et les figures anthropomorphes ailées, sont peints avec une richesse de pigments minéraux — ocres jaunes, rouges vifs et rehauts de blanc — qui restituent la texture vibrante du firmament égyptien.</p>
+    <p>Chaque groupe stellaire est rigoureusement accompagné de légendes hiéroglyphiques consignant les observations astronomiques des prêtres d'Esna. Ce plafond constituait à la fois un chef-d'œuvre pictural et un calendrier religieux universel garantissant la synchronisation des rituels du sanctuaire avec l'ordre immuable du cosmos.</p>
+    <p><strong>Siècle :</strong> IIe siècle ap. J.-C. (120) | <strong>Civilisation :</strong> Égypte gréco-romaine | <strong>Sous-partie :</strong> Peinture murale, Tableaux & Mosaïque.</p>`
+  },
+  {
+    id: "peinture_plafond_astronomique_barques_celestes_divinites_multiples_esna",
+    civId: "egypte",
+    periodId: "romaine",
+    civName: "Égypte : Époque romaine",
+    century: "Époque romaine (Ier-IIe s. ap. J.-C. / dynastie flavienne ou antonine)",
+    centuryDisplay: "IIe s. ap. J.-C.",
+    centuryNumeric: 120,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Cosmographie des barques célestes, divinités polycéphales et serpents de la voûte d'Esna",
+    site: "Temple de Khnoum - Plafond du pronaos (Esna)",
+    originSite: "Esna",
+    locationType: "site",
+    currentLocation: "In situ (Plafond du Temple de Khnoum, Esna)",
+    category: "Peinture sur grès et relief peint",
+    isHighlight: false,
+    chips: ["Époque romaine", "Esna", "Barques célestes", "Divinités polycéphales", "Serpents sacrés", "Bleu égyptien", "Décans"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOW7Imj1wFQY3VWbYndYvXbpOQ49_DVtTF60TCgBVCtfXdn42o9Q6Cu-OSEWKBaRBZlbZuUJh72B0AXInm0mbkrXHLkFYeeFeyxWloIZUwFoa2ZCSojIKX_3QEJkA-KU6jGNtoJ-raBUUAzSh6YbVfDHg=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce gros plan sur le plafond astronomique du temple d'Esna révèle l'une des compositions théologiques les plus denses de l'époque romaine en Égypte. La scène est dominée par des représentations cosmographiques illustrant le voyage des astres et les entités divines régissant le temps. Au centre, des figures anthropomorphes et zoomorphes complexes, telles que des divinités à têtes multiples et des serpents dressés, symbolisent les forces créatrices et les constellations. La préservation exceptionnelle du bleu égyptien et des pigments jaunes souligne la fonction rituelle du plafond, conçu comme une voûte céleste protectrice surplombant les prêtres lors des cérémonies.</p>
+    <p>L'iconographie dépeint notamment les décans, ces groupes d'étoiles dont le lever héliaque marquait les heures de la nuit et découpait l'année égyptienne. On y voit des barques solaires et lunaires transportant des divinités, naviguant sur les eaux célestes représentées par des bandes de hiéroglyphes et de motifs ondulés. Ces images servaient de support visuel à une science sacrée où l'astronomie et la mythologie ne faisaient qu'un, assurant la pérennité du calendrier religieux et la régularité de la crue du Nil sous l'égide de Khnoum.</p>
+    <p>Les colonnes de textes qui séparent les scènes célestes constituent des invocations puissantes destinées à maintenir l'ordre cosmique. Les hiéroglyphes de cette période sont d'une complexité extrême, utilisant des jeux de mots graphiques et des signes rares que seuls les hauts dignitaires du temple pouvaient interpréter.</p>
+    <p><strong>Siècle :</strong> IIe siècle ap. J.-C. (120) | <strong>Civilisation :</strong> Égypte gréco-romaine | <strong>Sous-partie :</strong> Peinture murale, Tableaux & Mosaïque.</p>`
+  },
+  {
+    id: "sculpture_registres_horizontaux_offrandes_empereur_khnoum_neith_esna",
+    civId: "egypte",
+    periodId: "romaine",
+    civName: "Égypte : Époque romaine",
+    century: "Époque romaine (Ier-IIe s. ap. J.-C. / empereurs Domitien, Trajan, Hadrien)",
+    centuryDisplay: "IIe s. ap. J.-C.",
+    centuryNumeric: 120,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Registres liturgiques superposés : Offrandes impériales à Khnoum, Neith et Menhit (Salle hypostyle d'Esna)",
+    site: "Temple de Khnoum - Parois intérieures (Esna)",
+    originSite: "Esna",
+    locationType: "site",
+    currentLocation: "In situ (Parois intérieures du Temple d'Esna)",
+    category: "Relief en creux sur grès",
+    isHighlight: false,
+    chips: ["Époque romaine", "Esna", "Dieu Khnoum", "Déesse Neith", "Déesse Menhit", "Couronne Pschent", "Litanie visuelle"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczM5OJi5leWxd8kzWVFb89TfnoHZ47WfixNSNKggngZ3Oe4zoimf_2A8kKOleUGx3RRnZ88dutLkJhUvDG6_DMfwEIpINx6IL1qPgvUMk2sgRSo1FQT8CGqP-CROavEIyTNkeeayOMFISeviNTzGJe6IfQ=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce détail pariétal provient des registres intérieurs de la salle hypostyle du temple d'Esna, illustrant la structure narrative rigoureuse de l'art sacerdotal égyptien à l'époque romaine. La surface est divisée en registres horizontaux superposés, une convention millénaire qui permet ici de mettre en scène une série ininterrompue d'interactions rituelles entre le souverain et le monde divin. Chaque scène suit un protocole immuable : l'empereur, identifié par ses cartouches et portant différentes couronnes (comme le Pschent ou l'Atef), s'avance vers une divinité assise ou debout pour lui présenter des offrandes, garantissant ainsi la stabilité de l'Égypte et le maintien de l'ordre cosmique.</p>
+    <p>Les figures divines représentées incluent Khnoum, le dieu bélier, mais aussi des déesses protectrices telles que Neith ou Menhit, reconnaissables à leurs attributs spécifiques et aux inscriptions qui les surmontent. La technique du relief en creux, particulièrement profonde ici, permet aux personnages de se détacher avec force sur le mur, malgré l'absence de lumière naturelle directe dans cette partie du temple. Les proportions des corps respectent le canon classique, bien que le traitement des muscles et des visages trahisse une influence subtile de l'esthétique gréco-romaine.</p>
+    <p>L'espace entre les figures est entièrement comblé par des colonnes de textes hiéroglyphiques qui détaillent la nature de l'offrande (vin, lait, encens ou nourriture) et les paroles de bénédiction prononcées par le dieu en retour.</p>
+    <p><strong>Siècle :</strong> IIe siècle ap. J.-C. (120) | <strong>Civilisation :</strong> Égypte gréco-romaine | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_colonne_composite_hymne_theologique_esna",
+    civId: "egypte",
+    periodId: "romaine",
+    civName: "Égypte : Époque romaine",
+    century: "Époque romaine (Ier-IIe s. ap. J.-C. / dynastie antonine)",
+    centuryDisplay: "IIe s. ap. J.-C.",
+    centuryNumeric: 120,
+    domain: "sculpture_statuaire",
+    artifactType: "Décor architectural (fronton, frise, métope, chapiteau)",
+    title: "Fût de colonne monumentale aux inscriptions liturgiques et scènes d'offrandes impériales (Temple d'Esna)",
+    site: "Temple de Khnoum - Salle hypostyle (Esna)",
+    originSite: "Esna",
+    locationType: "site",
+    currentLocation: "In situ (Salle hypostyle du Temple d'Esna)",
+    category: "Décor architectural sur grès",
+    isHighlight: false,
+    chips: ["Époque romaine", "Esna", "Temple de Khnoum", "Colonne monumentale", "Inscriptions liturgiques", "Grès sculpté"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczN1lBMXKUTlns_SWcUdpxaW-PNTdInZcEObJjbmKY3L6hHhTKPiX9AcyGSSAMgG5rTHKlLUHoAuhqYQaQZM7r5gab8itwxKGQ3ExVNQ1pj5Ck33UUxbMvGxmMcPBhSWLam9TO7IyaHR20OW9K7yOvmcaA=w1813-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Cette vue verticale saisit la puissante massivité de l'une des colonnes du pronaos du temple de Khnoum à Esna, entièrement ceinte de textes sacrés et de figurations rituelles. Dans ce secteur du monument, les sculpteurs d'époque romaine ont gravé dans le grès doré de longues litanies religieuses détaillant le calendrier des fêtes liturgiques et les hymnes célébrant le démiurge à tête de bélier.</p>
+    <p>Sur le fût, les registres figuratifs montrent l'empereur romain coiffé des attributs royaux pharaoniques, accomplissant les cérémonies d'élévation d'offrandes végétales et de vases rituels devant les divinités gardiennes du seuil. La gravure profonde en creux assure une visibilité remarquable des silhouettes, conçues pour être éclairées par la lumière oblique filtrant à travers les entrecolonnements du pronaos.</p>
+    <p>L'ensemble forme une archive de pierre d'une valeur inestimable, documentant l'extrême raffinement de la langue hiéroglyphique tardive à une époque où le sanctuaire d'Esna perpétuait avec éclat les derniers feux de la science religieuse de l'Égypte antique.</p>
+    <p><strong>Siècle :</strong> IIe siècle ap. J.-C. (120) | <strong>Civilisation :</strong> Égypte gréco-romaine | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_entablement_frise_cartouches_soffite_esna",
+    civId: "egypte",
+    periodId: "romaine",
+    civName: "Égypte : Époque romaine",
+    century: "Époque romaine (Ier-IIe s. ap. J.-C. / dynastie antonine)",
+    centuryDisplay: "IIe s. ap. J.-C.",
+    centuryNumeric: 120,
+    domain: "sculpture_statuaire",
+    artifactType: "Décor architectural (fronton, frise, métope, chapiteau)",
+    title: "Entablement et soffite aux cartouches impériaux sous la voûte polychrome (Temple d'Esna)",
+    site: "Temple de Khnoum - Architraves du pronaos (Esna)",
+    originSite: "Esna",
+    locationType: "site",
+    currentLocation: "In situ (Architraves du Temple d'Esna)",
+    category: "Décor architectural sur grès polychrome",
+    isHighlight: false,
+    chips: ["Époque romaine", "Esna", "Architrave", "Cartouches impériaux", "Soffite peint", "Gorge égyptienne"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPpfuFRqoDNkDyUlWw20lya5zllrqb2e3GGJX9WjbYa1bKmEnmfXMIntPQ3SGVMJl1jI_jIt-rsozC0kCxVpOqllUI1Ru75_VfzUGujatgrT3ReayCVc_KegkNLqQ9WKLI29up_y3ixxVPd8OATh7d0fw=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce détail architectural met en lumière la jonction monumentale entre les fûts de colonnes, les corniches à gorge égyptienne et les architraves massives du pronaos d'Esna. La surface horizontale de l'entablement est rythmée par une succession de cartouches impériaux flanqués de symboles de royauté et de protection divine, proclamant la pérennité de l'autorité royale sous le patronage des dieux de la cataracte.</p>
+    <p>Sur le dessous des poutres de grès (le soffite), les traces de pigments originaux révèlent des motifs astronomiques et des disques ailés déployés sur fond bleu céleste. Ce travail décoratif soigné jusqu'aux surfaces inférieures des blocs cyclopéens témoigne de la rigueur constructive des ingénieurs et artistes de l'époque gréco-romaine.</p>
+    <p>Ces structures d'entablement, en reliant les colonnes composites entre elles, participaient à la création d'un microcosme architectural où chaque élément porteur évoquait les tiges végétales primordiales soutenant la voûte étoilée de l'univers régénéré par le dieu Khnoum.</p>
+    <p><strong>Siècle :</strong> IIe siècle ap. J.-C. (120) | <strong>Civilisation :</strong> Égypte gréco-romaine | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_trajan_pschent_offrande_osiris_isis_kiosque_philae",
+    civId: "egypte",
+    periodId: "romaine",
+    civName: "Égypte : Époque romaine",
+    century: "Époque romaine (vers 100-117 ap. J.-C. / règne de Trajan)",
+    centuryDisplay: "IIe s. ap. J.-C.",
+    centuryNumeric: 110,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "L'empereur Trajan au Pschent offrant le vin devant Osiris et Isis (Kiosque de Trajan à Philae)",
+    site: "Île d'Agilkia - Kiosque de Trajan (Philae)",
+    originSite: "Île de Philae",
+    locationType: "site",
+    currentLocation: "In situ (Kiosque de Trajan, Île d'Agilkia)",
+    category: "Relief en creux sur grès",
+    isHighlight: true,
+    chips: ["Époque romaine", "Philae", "Kiosque de Trajan", "Empereur Trajan", "Couronne Pschent", "Déesse Isis", "Dieu Osiris", "Reposoir de barque"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOFsI11RCqTTt6S08czhdytYHBXL4hrEb90G7_NwDuCd_ZPr9UyM8oox7CqOimzGWUFq9jcHMPKwKgTfUccXS5crfY2j-L8KLAuE3GtPaSVnc7DR-UFEFSENSnMuaTv9YyquuG858Rf3anTQyV8nVgFNw=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette scène gravée en creux provient des parois intérieures du kiosque de Trajan, un édifice emblématique situé sur l'île d'Agilkia (anciennement Philae). Élevé au début du IIe siècle de notre ère, ce monument de l'époque romaine servait de reposoir à la barque sacrée de la déesse Isis lors des grandes processions fluviales. Bien que la structure elle-même puisse dater du règne d'Auguste, les décorations ont été achevées sous l'empereur Trajan, qui y est représenté en respectant strictement les codes de l'iconographie pharaonique.</p>
+    <p>Le relief illustre l'empereur Trajan, debout sur la droite, effectuant un rituel d'offrande devant un couple divin. Coiffé de la double couronne de Haute et Basse-Égypte (le Pschent), l'empereur présente des objets sacrés — identifiés comme des vases de vin ou un encensoir — au-dessus d'une table d'offrandes richement garnie. Face à lui, les divinités sont assises sur des trônes : il s'agit vraisemblablement d'Osiris et d'Isis, ou d'Horus, les protecteurs légitimes du sanctuaire.</p>
+    <p>L'œuvre se distingue par la finesse de ses détails, notamment les colonnes de hiéroglyphes qui entourent les figures et précisent les titres de l'empereur ainsi que la nature des rituels. Ce bas-relief est l'un des rares achevés dans ce kiosque, resté en grande partie inachevé à la mort de l'empereur.</p>
+    <p><strong>Siècle :</strong> IIe siècle ap. J.-C. (110) | <strong>Civilisation :</strong> Égypte gréco-romaine | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_ensemble_monumental_temple_isis_philae",
+    civId: "egypte",
+    periodId: "ptolemaique",
+    civName: "Égypte : Époque ptolémaïque",
+    century: "Époque gréco-romaine (IIIe s. av. J.-C. - IIe s. ap. J.-C.)",
+    centuryDisplay: "IIe s. av. J.-C.",
+    centuryNumeric: -150,
+    domain: "sculpture_statuaire",
+    artifactType: "Décor architectural (fronton, frise, métope, chapiteau)",
+    title: "Ensemble monumental du temple d'Isis : Pylônes, colonnades et reliefs rituels ptolémaïques (Philae)",
+    site: "Île d'Agilkia - Complexe de Philae (Philae)",
+    originSite: "Île de Philae",
+    locationType: "site",
+    currentLocation: "In situ (Complexe de Philae, Île d'Agilkia)",
+    category: "Décor architectural et bas-relief sur grès",
+    isHighlight: true,
+    chips: ["Époque ptolémaïque", "Philae", "Temple d'Isis", "Déesse Isis", "Horus faucon", "Pylône monumental", "Agilkia"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczM89voI2FITndK3RmHAcRIuAS9zEqg7f9G-OnYn4_ATWYSBIL1iIwmEYTb2G3yBM3dSucR9OhHLr_duynm-nlpSLOnNI_gbm7a4hUvJzmKaTifBHqLiuOJTAR8jpqdchkEYoIi7lbTzkJugGxFIKx2PjA=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce majestueux ensemble de reliefs appartient au Temple d'Isis à Philae, l'un des centres cultuels les plus importants de la Basse Époque et de la période gréco-romaine. Principalement édifié sous les Ptolémées et achevé par les empereurs romains, le temple est consacré à la déesse Isis, figure maternelle et salvatrice du panthéon égyptien. Il occupait une position stratégique à la frontière sud de l'Égypte, attirant des pèlerins venus de toute la vallée du Nil et même de Nubie.</p>
+    <p>Les parois extérieures du pylône et des murs d'enceinte présentent des reliefs monumentaux d'une grande finesse, caractéristiques du style ptolémaïque. On y observe le pharaon, agissant comme intermédiaire entre les hommes et les dieux, effectuant des rites de protection ou des offrandes. Les divinités, telles qu'Isis, coiffée du disque solaire enserré entre des cornes de vache, et Horus à tête de faucon, sont représentées avec des formes généreuses et des parures complexes, témoignant de la vitalité de l'art égyptien tardif.</p>
+    <p>À l'intérieur du sanctuaire, les scènes gravées en creux illustrent les mythes fondateurs de la royauté et la résurrection d'Osiris. L'empereur romain, figuré en costume traditionnel égyptien avec la double couronne, est montré présentant de l'encens, du vin ou des symboles de fertilité devant Isis et ses acolytes divins.</p>
+    <p><strong>Siècle :</strong> IIe siècle av. J.-C. (-150) | <strong>Civilisation :</strong> Égypte ptolémaïque | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_premier_pylone_pharaon_haroeris_isis_philae",
+    civId: "egypte",
+    periodId: "ptolemaique",
+    civName: "Égypte : Époque ptolémaïque",
+    century: "Époque ptolémaïque (IIe s. av. J.-C. / règne de Ptolémée VI ou VIII)",
+    centuryDisplay: "IIe s. av. J.-C.",
+    centuryNumeric: -150,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Premier pylône de Philae : Scène cultuelle du pharaon devant Horus l'Ancien (Haroëris) et Isis protectrice",
+    site: "Île d'Agilkia - Premier pylône du temple d'Isis (Philae)",
+    originSite: "Île de Philae",
+    locationType: "site",
+    currentLocation: "In situ (Premier pylône, Île d'Agilkia)",
+    category: "Relief monumental en creux sur grès",
+    isHighlight: false,
+    chips: ["Époque ptolémaïque", "Philae", "Premier pylône", "Haroëris", "Déesse Isis", "Couronne Pschent", "Encoche pour mâts"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNUwLP4g33EbpKuUlD6CVQiuihIf_PUa7mpesJ18dbxk1UCwvP0ZzqDdXvGiXYvlYeLhaxDB-LZZk05suqrO9syQne9phCHH3uqvtQvuOkuCZNXw5CT0Hgg5IWSkDv8a_MRM7tQCMMwODPh7Rlvoc72kw=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette vue spectaculaire du premier pylône du temple d'Isis à Philae illustre parfaitement la persévérance des traditions religieuses et artistiques égyptiennes sous la domination ptolémaïque. Construit principalement à cette époque, ce pylône servait de porte monumentale marquant le passage vers l'enceinte sacrée de la déesse Isis, « la Grande Magicienne ». Les reliefs de grande taille que l'on observe ici sont caractéristiques du style tardif, où les silhouettes deviennent plus charnues et les détails des parures plus foisonnants.</p>
+    <p>Sur la paroi, on distingue une scène de rituel majestueuse où le pharaon, en sa qualité de grand prêtre de l'Égypte, interagit avec le monde divin. Il fait face à Horus l'Ancien (Haroëris), reconnaissable à sa tête de faucon et portant la double couronne du Pschent, et à la déesse Isis, qui se tient derrière lui, protectrice, arborant sa coiffe traditionnelle surmontée du disque solaire et des cornes bovines. Le roi est représenté offrant de l'encens ou libérant des onguents, un acte symbolique visant à maintenir l'ordre cosmique (la Maât).</p>
+    <p>Le bas-relief se prolonge avec une finesse remarquable dans le traitement des textes hiéroglyphiques qui encadrent les figures, tandis qu'apparaissent en hauteur les cavités rectangulaires ayant servi à ancrer les grands mâts à oriflammes.</p>
+    <p><strong>Siècle :</strong> IIe siècle av. J.-C. (-150) | <strong>Civilisation :</strong> Égypte ptolémaïque | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_adoration_royale_isis_hathor_table_offrandes_philae",
+    civId: "egypte",
+    periodId: "ptolemaique",
+    civName: "Égypte : Époque ptolémaïque",
+    century: "Époque ptolémaïque (IIe-Ier s. av. J.-C. / dynastie lagide)",
+    centuryDisplay: "IIe s. av. J.-C.",
+    centuryNumeric: -150,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Adoration et offrande royale devant Isis et Hathor aux sceptres Ouas (Parois intérieures de Philae)",
+    site: "Temple d'Isis - Salles intérieures (Philae)",
+    originSite: "Île de Philae",
+    locationType: "site",
+    currentLocation: "In situ (Sanctuaires intérieurs, Île d'Agilkia)",
+    category: "Bas-relief sur grès",
+    isHighlight: false,
+    chips: ["Époque ptolémaïque", "Philae", "Déesse Isis", "Déesse Hathor", "Sceptre Ouas", "Table d'offrandes", "Stigmates paléochrétiens"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOWkuqFtvkdHluSbCQ4_hoZ4fWkScUb0hSVs-KhlvI8qJFCRHKFqQy3XlW3b0w5cD5LNM8gT5J6RZJdNmRMwfJUYrJ6XTqWBzA7RE6pxxoxYUeEf7o2awNOQzoVs9FP8Hwd8vBAJIHjby45wMsB23WQ8g=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette scène gravée avec une précision remarquable orne les parois intérieures du temple d'Isis à Philae, offrant un témoignage précieux de l'art de la période ptolémaïque. Contrairement aux reliefs extérieurs monumentaux, ces gravures intérieures étaient destinées à être contemplées par les prêtres dans l'obscurité relative des salles hypostyles ou des sanctuaires. Elles mettent en scène le souverain dans un dialogue intime et éternel avec les puissances divines, assurant par ses gestes la prospérité du pays.</p>
+    <p>Le relief représente le roi, à droite, dans une attitude de dévotion face à deux divinités féminines majeures. Il porte une version élaborée de la couronne royale et lève les mains dans un geste d'adoration et d'offrande devant une table chargée de produits rituels. Face à lui, les deux déesses, probablement Isis et Hathor, sont reconnaissables à leurs attributs distinctifs : la première porte le siège hiéroglyphique ou les cornes enserrant le disque solaire, tandis que la seconde arbore la dépouille de vautour surmontée de plumes.</p>
+    <p>La qualité d'exécution souligne le style tardif avec des corps aux formes souples et des bijoux détaillés. L'éclairage rasant met également en évidence des traces de martelage sur certains visages, stigmates de l'époque paléochrétienne où le sanctuaire fut réutilisé comme église.</p>
+    <p><strong>Siècle :</strong> IIe siècle av. J.-C. (-150) | <strong>Civilisation :</strong> Égypte ptolémaïque | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_offrande_vases_nou_deesse_lionne_sekhmet_tefnout_philae",
+    civId: "egypte",
+    periodId: "ptolemaique",
+    civName: "Égypte : Époque ptolémaïque",
+    century: "Époque ptolémaïque (IIe-Ier s. av. J.-C. / dynastie lagide)",
+    centuryDisplay: "IIe s. av. J.-C.",
+    centuryNumeric: -150,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Offrande des vases sphériques Nou par le souverain ptolémaïque à la déesse léontocéphale Sekhmet-Tefnout (Philae)",
+    site: "Temple d'Isis - Murs intérieurs (Philae)",
+    originSite: "Île de Philae",
+    locationType: "site",
+    currentLocation: "In situ (Parois intérieures du Temple d'Isis, Agilkia)",
+    category: "Relief en creux sur grès",
+    isHighlight: false,
+    chips: ["Époque ptolémaïque", "Philae", "Vases Nou", "Déesse Sekhmet", "Tefnout", "Léontocéphale", "Sceptre papyriforme", "Ânkh"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNZhzmPabyzZqmI7qHTPBMB7JX_l3LgvqjSEdbzKhDpQzQm5ZgYMLeaXxFSHxxQ9whP47ngpWhw5XnBWK5gbEWwiUMK92YRAf-0GFnimNp6pVXKDvNNfzoc4le_4g90RKnh_hIMJvdtUSJU4mEybwAVXg=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette scène captivante provient des murs intérieurs du temple d'Isis à Philae et illustre un moment solennel de l'offrande rituelle. Le relief présente un souverain ptolémaïque, à gauche, tendant deux vases sphériques appelés nou vers une divinité léontocéphale, très probablement la déesse Sekhmet ou Tefnout dans l'une de ses formes apaisées. Ce geste symbolise l'offrande du vin ou de la bière, une pratique destinée à calmer la fureur de la déesse lointaine et à s'attirer ses faveurs pour assurer l'inondation annuelle du Nil.</p>
+    <p>La déesse lionne est représentée avec une majesté remarquable, coiffée du disque solaire orné d'un uræus, symbole de sa nature solaire et de son lien avec le dieu Rê. Elle tient dans sa main gauche le sceptre papyriforme, emblème de la jeunesse et de l'épanouissement végétal, tandis que sa main droite serre le signe ânkh, porteur de vie éternelle. La finesse du rendu de sa crinière et la cambrure élégante de sa silhouette sont caractéristiques du style raffiné de l'époque gréco-romaine.</p>
+    <p>Le roi, vêtu du pagne plissé traditionnel et d'une perruque courte, est accompagné de colonnes de hiéroglyphes qui consignent les paroles d'offrande et les titres royaux. Chaque élément, de la table d'offrande chargée de fleurs de lotus aux cartouches royaux, participe à une composition rigoureuse visant à maintenir l'équilibre sacré du cosmos.</p>
+    <p><strong>Siècle :</strong> IIe siècle av. J.-C. (-150) | <strong>Civilisation :</strong> Égypte ptolémaïque | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_offrande_vin_isis_hathor_traces_martelage_philae",
+    civId: "egypte",
+    periodId: "ptolemaique",
+    civName: "Égypte : Époque ptolémaïque",
+    century: "Époque ptolémaïque (IIe-Ier s. av. J.-C. / dynastie lagide)",
+    centuryDisplay: "IIe s. av. J.-C.",
+    centuryNumeric: -150,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Offrande royale de vin devant les déesses Isis et Hathor avec traces de martelage paléochrétien (Philae)",
+    site: "Temple d'Isis - Parois intérieures (Philae)",
+    originSite: "Île de Philae",
+    locationType: "site",
+    currentLocation: "In situ (Parois du Temple d'Isis, Agilkia)",
+    category: "Bas-relief sur grès",
+    isHighlight: false,
+    chips: ["Époque ptolémaïque", "Philae", "Déesse Isis", "Déesse Hathor", "Offrande de vin", "Martelage paléochrétien", "Grès"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPWuhmUFhhceGdUZGIAHf0PPNhjm84kyoeS_ntkbaLBxxAQAU3SZlc5qa4ctEmngZhdCEd459FLVuqI38RG8H3vglXHZnxGv6zRkb4v1RKxeCAZBXQ475qeq8GS4s7sCBTxXQJiumZR7I4y-JIHyJ0Acg=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce bas-relief finement exécuté orne l'une des parois du temple d'Isis à Philae, illustrant la continuité des rites sacrés sous la dynastie des Ptolémées. La scène représente le pharaon, à droite, coiffé d'une couronne complexe ornée de plumes et de cornes, effectuant une offrande de vin ou d'onguents sacrés. Face à lui se tiennent deux divinités féminines majeures, dont la déesse Isis, assise ou debout selon les registres, reconnaissable à son sceptre papyriforme et à sa couronne surmontée du disque solaire enserré entre des cornes bovines.</p>
+    <p>L'esthétique de cette œuvre est emblématique du style ptolémaïque, caractérisé par des reliefs plus charnus et un modelé des corps plus accentué que dans l'art égyptien classique. Les artistes ont accordé une attention particulière aux détails des textiles plissés, des bijoux imposants et des perruques élaborées des personnages. Les colonnes de hiéroglyphes qui séparent les protagonistes agissent comme une partition rituelle, précisant les noms du roi et les bénédictions accordées par les dieux.</p>
+    <p>On remarque sur la partie gauche du relief des traces de martelage, particulièrement visibles sur le visage et le corps des divinités. Ces mutilations volontaires datent de l'époque paléochrétienne, lorsque le temple fut transformé en église pour neutraliser la puissance spirituelle des anciennes idoles.</p>
+    <p><strong>Siècle :</strong> IIe siècle av. J.-C. (-150) | <strong>Civilisation :</strong> Égypte ptolémaïque | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_plateau_pains_lotus_offrande_déesse_isis_philae",
+    civId: "egypte",
+    periodId: "ptolemaique",
+    civName: "Égypte : Époque ptolémaïque",
+    century: "Époque ptolémaïque (IIe-Ier s. av. J.-C. / dynastie lagide)",
+    centuryDisplay: "IIe s. av. J.-C.",
+    centuryNumeric: -150,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Offrande du plateau de pains sacrés et fleurs de lotus par le pharaon devant la déesse Isis (Philae)",
+    site: "Temple d'Isis - Parois intérieures (Philae)",
+    originSite: "Île de Philae",
+    locationType: "site",
+    currentLocation: "In situ (Parois intérieures du Temple d'Isis, Agilkia)",
+    category: "Relief en creux sur grès",
+    isHighlight: false,
+    chips: ["Époque ptolémaïque", "Philae", "Déesse Isis", "Pains sacrés", "Fleurs de lotus", "Plateau d'offrandes", "Perruque de vautour"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMGA9mW2IoG1BphsyHrIBM_CAH9FMMZEaBXf8skvi01OQFj6tShM5L3n4-FRZMMXaZx6g7jS0ujCDxzVAyRN5fGjXD_RnqSF0P8gKR-x-Jtyv_jcB69OjyU5W4rhsmodfkzW3j2LzlcAsZnNi8CQLA2uQ=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce bas-relief captivant, situé sur les parois intérieures du temple d'Isis à Philae, illustre un moment solennel de l'offrande rituelle caractéristique de la période ptolémaïque. La scène présente le souverain, à gauche, portant une couronne élaborée, qui tend un plateau chargé de pains sacrés et de fleurs de lotus vers la déesse Isis. Ce geste de dévotion souligne le rôle crucial du pharaon en tant que garant de l'abondance et intermédiaire privilégié entre le monde des hommes et celui des dieux.</p>
+    <p>La déesse Isis est représentée avec une grande élégance, arborant sa coiffe traditionnelle composée du disque solaire enserré entre deux cornes de vache, posée sur une perruque de vautour finement ciselée. Elle tient dans sa main gauche le sceptre papyriforme, symbole de la renaissance et de la force vitale, tout en accueillant l'offrande du roi. Le modelé des corps, avec ses formes douces et pleines, témoigne de l'évolution de l'esthétique égyptienne tardive, où la rigueur classique laisse place à une plus grande sensualité des silhouettes.</p>
+    <p>L'arrière-plan est richement orné de colonnes de hiéroglyphes minutieusement gravés qui documentent les formules rituelles prononcées lors de cette cérémonie. Ces inscriptions précisent les titres du roi et les épithètes de la déesse, transformant la pierre en un support théologique vivant qui garantissait l'abondance et la crue bienfaisante du Nil.</p>
+    <p><strong>Siècle :</strong> IIe siècle av. J.-C. (-150) | <strong>Civilisation :</strong> Égypte ptolémaïque | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_offrande_statuette_maat_déesse_isis_philae",
+    civId: "egypte",
+    periodId: "ptolemaique",
+    civName: "Égypte : Époque ptolémaïque",
+    century: "Époque ptolémaïque (IIe-Ier s. av. J.-C. / dynastie lagide)",
+    centuryDisplay: "IIe s. av. J.-C.",
+    centuryNumeric: -150,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Offrande de la statuette de Maât par le souverain à la couronne rouge devant la déesse Isis (Philae)",
+    site: "Temple d'Isis - Parois intérieures (Philae)",
+    originSite: "Île de Philae",
+    locationType: "site",
+    currentLocation: "In situ (Parois intérieures du Temple d'Isis, Agilkia)",
+    category: "Relief en creux sur grès",
+    isHighlight: true,
+    chips: ["Époque ptolémaïque", "Philae", "Déesse Isis", "Statuette de Maât", "Couronne Decheret", "Ordre cosmique", "Sceptre papyriforme"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOqAEnLGX_v1vnkRy9oRjJROR80ccf2BLhLTbVVl1Wepb2gIqprpnyb63zfUQnL4Qh1MFrpqmIkfkIbZBkzcsryhLhvS5fBQsrwoBG_5CX1jfr7rsTR_1nJjuxRFCBspV3EY68GFvwiTzDcNYNflXHVGQ=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette scène remarquable orne les parois du temple d'Isis à Philae et illustre un moment d'une importance théologique capitale : l'offrande de la statuette de la déesse Maât par le souverain. Le roi, situé à droite et coiffé de la couronne de Basse-Égypte, présente au creux de ses mains une petite figure assise surmontée d'une plume d'autruche. Ce geste symbolise l'engagement du pharaon à maintenir l'ordre cosmique, la justice et la vérité sur terre, des principes essentiels pour que le monde divin continue de favoriser l'Égypte.</p>
+    <p>Face au souverain se tient la déesse Isis, représentée avec une majesté sereine. Elle est coiffée d'une perruque tripartite surmontée du disque solaire enserré par les cornes bovines, et tient dans sa main gauche un long sceptre papyriforme, symbole de la vigueur et de l'épanouissement végétal du Nil. Sa main droite, légèrement avancée, semble accepter l'offrande, marquant la validation divine du règne ptolémaïque. La finesse du modelé, typique de cette époque, souligne les courbes harmonieuses de la déesse et les détails minutieux de son collier ousekh.</p>
+    <p>Les hiéroglyphes qui entourent les deux protagonistes servent de commentaire textuel à l'action. Ils détaillent les épithètes de la déesse, souvent appelée « l'œil de Rê » ou « la maîtresse des dieux », et confirment les titres royaux du souverain. Entre les deux figures, une table d'offrande stylisée supporte un vase à libation, renforçant l'aspect purificateur du rituel.</p>
+    <p><strong>Siècle :</strong> IIe siècle av. J.-C. (-150) | <strong>Civilisation :</strong> Égypte ptolémaïque | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+   {
     id: "sculpture_procession_ihy_sistre_hathor_horus_denderah",
     civId: "egypte",
     periodId: "ptolemaique",
