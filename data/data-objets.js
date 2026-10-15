@@ -6,6 +6,255 @@ window.ART_OBJECTS = window.ART_OBJECTS || [];
 window.ART_OBJECTS.push(
 
   {
+    id: "peinture_vue_angulaire_treille_sennefer_tt96",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1420 av. J.-C. / règne d'Amenhotep II)",
+    centuryDisplay: "XVe s. av. J.-C.",
+    centuryNumeric: -1420,
+    domain: "espace_sacre",
+    artifactType: "Plafond & Voûte peinte / astronomique",
+    title: "Vue angulaire de l'hypogée sous la treille de vigne et registres d'offrandes (Tombe TT96)",
+    site: "Tombe de Sennefer - TT96 (Cheikh Abd el-Gourna, Thèbes)",
+    originSite: "Cheikh Abd el-Gourna (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe TT96, Gourna)",
+    category: "Architecture funéraire peinte",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Amenhotep II", "TT96 Sennefer", "Treille aux vignes"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOCt3N8-DkA2h_n1kTtXP1cQAUR0MKsp0JMT-kz6NXjACUPJEKFXOjb73omUR0GK6fklIiQJcCz-taq7xlHFrIJImmGOspbfc5zYstgyKJ4zR0T_v5vX8Z8c-duVVTr4x37pWSyVkX5Ve8TeR0wupYoUA=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette vue angulaire de la tombe de Sennefer (TT96) met en lumière l'une des caractéristiques les plus célèbres de l'hypogée : son plafond irrégulier transformé en une treille de vigne foisonnante. Cette décoration spécifique, qui a valu au monument son surnom de « Tombe aux Vignes », symbolise la régénération et la renaissance à travers l'image du dieu Osiris, maître de la végétation. Sous cette tonnelle peinte, les parois se divisent en registres illustrant le cortège funéraire et l'apport des offrandes nécessaires à la survie du défunt dans l'au-delà.</p>
+    <p>Sur le mur de gauche, on observe une procession de porteurs d'offrandes avançant vers la figure de Sennefer (partiellement visible à l'extrême gauche). Ces serviteurs transportent des objets de prestige et des parures rituelles, notamment un large collier ousekh en or sur un plateau, des pectoraux complexes et des oushebtis, ces statuettes funéraires destinées à servir le maître dans les champs d'Ialou. La précision des détails, comme les sandales suspendues aux bras d'un porteur ou la finesse des coffres à bijoux portés sur les épaules, témoigne du haut niveau de maîtrise des artisans thébains de la XVIIIe dynastie.</p>
+    <p>Le registre inférieur présente des scènes plus dynamiques de préparation et de transport de denrées alimentaires, renforçant l'idée d'une éternité d'abondance. L'architecture de la pièce, volontairement laissée avec un aspect de grotte naturelle mais recouverte d'un enduit blanc éclatant, crée un contraste saisissant avec les pigments vifs des personnages et des textes hiéroglyphiques. Ces inscriptions, qui encadrent les scènes, servent de légendes narratives identifiant les objets présentés et invoquant la bienveillance des divinités funéraires. L'ensemble constitue un témoignage précieux sur les coutumes funéraires et le luxe de l'administration sous le règne d'Amenhotep II, où chaque élément décoratif participe à une cartographie magique visant à assurer l'immortalité du « Maire de la Ville du Sud ».</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1420) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+  {
+    id: "peinture_tributaires_nubiens_pount_rekhmire_tt100",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1450 av. J.-C. / Thoutmosis III - Amenhotep II)",
+    centuryDisplay: "XVe s. av. J.-C.",
+    centuryNumeric: -1450,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Procession des tributaires du Sud et animaux exotiques (Tombe de Rekhmirê, TT100)",
+    site: "Tombe de Rekhmirê - TT100 (Cheikh Abd el-Gourna, Thèbes)",
+    originSite: "Cheikh Abd el-Gourna (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe TT100, Gourna)",
+    category: "Peinture murale thébaine",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "TT100 Rekhmirê", "Tributaires du Sud", "Pays de Pount"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMf_wtMDnmoyBmZyj8La5MDBdwU4CNZclgL6G9xtn7Mw0hDler5KJf0c38iRupoGI2S3oBUhlKs7AyGau8MRblm4vYIJX4IUf5h59OmAofoZAWc-g4OGJKsEpkQ7eg29zzzoKeuQXNVh1ZEctEYrIgTCQ=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette peinture murale, extraite de la tombe de Rekhmirê (TT100) située dans la nécropole de Cheikh Abd el-Gourna à Thèbes, constitue l'un des témoignages les plus raffinés de la XVIIIe dynastie égyptienne sous les règnes de Thoutmosis III et Amenhotep II. Rekhmirê, occupant la fonction prestigieuse de vizir, a fait décorer sa sépulture de scènes d'une précision documentaire exceptionnelle illustrant l'administration de l'Empire. L'œuvre présentée ici dépeint une procession de tributaires apportant des richesses provenant des contrées lointaines, illustrant la puissance diplomatique et économique de l'Égypte au Nouvel Empire.</p>
+    <p>La composition s'articule en registres horizontaux superposés où se déploie un cortège d'hommes à la peau sombre et aux traits caractéristiques des populations du Sud, probablement originaires du pays de Pount ou de Nubie. Chaque figure est représentée de profil, respectant les canons de l'art égyptien, tout en affichant une individualité remarquable dans le mouvement et les offrandes transportées. Les tributaires portent des plateaux chargés d'anneaux d'or, de lingots et de produits précieux, tandis qu'ils conduisent des animaux exotiques, notamment des bovins à la robe tachetée dont la finesse du trait souligne le naturalisme recherché par les artistes thébains.</p>
+    <p>La palette chromatique repose sur des pigments naturels dominés par l'ocre rouge pour les carnations, le blanc de chaux pour les pagnes et le jaune vif pour symboliser l'or. La présence de hiéroglyphes lacunaires en surplomb des figures servait initialement à identifier les peuples et la nature exacte des dons. Au-delà de sa fonction funéraire destinée à assurer au défunt une prospérité éternelle dans l'au-delà, cette fresque agit comme une archive visuelle des échanges commerciaux et du prestige de la fonction de vizir, chargé de recevoir ces biens au nom du Pharaon. L'état de conservation actuel permet encore d'apprécier la fluidité des lignes et la richesse des détails ornementaux qui font de la tombe de Rekhmirê un chef-d'œuvre absolu de la peinture de l'Égypte ancienne.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1450) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+  {
+    id: "peinture_organisation_travail_chantiers_rekhmire_tt100",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1450 av. J.-C. / Thoutmosis III - Amenhotep II)",
+    centuryDisplay: "XVe s. av. J.-C.",
+    centuryNumeric: -1450,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Organisation du travail servile et fabrication des briques (Tombe de Rekhmirê, TT100)",
+    site: "Tombe de Rekhmirê - TT100 (Cheikh Abd el-Gourna, Thèbes)",
+    originSite: "Cheikh Abd el-Gourna (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe TT100, Gourna)",
+    category: "Peinture murale thébaine",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "TT100 Rekhmirê", "Chantiers royaux", "Fabrication des briques"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNHVZsqtPjcDMjV8vKXbpMoV0f_OyH1lewXufMPgIZlqXsdYsxOb7eOTCGNn2alzwCjME2iEDOQ4VEZT6YBeHgy1VRTkZcbstsm2pkiJuCjZl1qX9HQgcJt2w8CA4WDYmZYrRwop8sAAa_ZvQkyngdJow=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette peinture murale, située sur les parois de la tombe de Rekhmirê (TT100) à Thèbes, illustre avec une rigueur géométrique et un dynamisme saisissant l'organisation du travail et la discipline administrative sous la XVIIIe dynastie. La scène est structurée en trois registres superposés, séparés par de fines lignes de sol, mettant en avant des groupes d'ouvriers ou de serviteurs en pleine activité sous la supervision d'un contremaître.</p>
+    <p>Dans le registre supérieur, une file d'hommes avance avec une régularité presque militaire, les bras repliés sur la poitrine dans une attitude de respect ou d'attente disciplinée, illustrant la main-d'œuvre abondante nécessaire aux grands chantiers pharaoniques. Le registre médian offre un contraste saisissant avec une scène d'action où des ouvriers s'activent autour de structures rectangulaires striées, identifiées comme des moules à briques ou des casiers de stockage, tandis que l'un d'eux est représenté dans une posture courbée, soulignant l'effort physique inhérent à leurs tâches. À droite de ces travailleurs, des grilles de calcul ou des représentations de briques empilées témoignent de la précision comptable dont Rekhmirê, en tant que vizir, devait rendre compte au souverain.</p>
+    <p>La palette chromatique reste fidèle aux conventions de l'époque avec un usage intensif de l'ocre rouge pour les corps masculins, contrastant avec le blanc éclatant des pagnes en lin, le tout encadré par des bandes verticales rouges qui délimitent l'espace narratif. Des fragments de colonnes de hiéroglyphes sur la droite rappellent la fonction documentaire de l'œuvre, enregistrant les activités productives du domaine. Cette fresque, par sa répétition de motifs et sa clarté didactique, ne sert pas seulement la décoration funéraire, mais immortalise l'ordre social et l'efficacité de l'État égyptien au sommet de sa puissance.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1450) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+  {
+    id: "peinture_epigraphie_rapports_bureaucratie_rekhmire_tt100",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1450 av. J.-C. / Thoutmosis III - Amenhotep II)",
+    centuryDisplay: "XVe s. av. J.-C.",
+    centuryNumeric: -1450,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Bureaucratie vizirale, inscriptions de louanges et déférence des scribes (TT100)",
+    site: "Tombe de Rekhmirê - TT100 (Cheikh Abd el-Gourna, Thèbes)",
+    originSite: "Cheikh Abd el-Gourna (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe TT100, Gourna)",
+    category: "Peinture murale thébaine",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "TT100 Rekhmirê", "Bureaucratie vizirale", "Génuflexion"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOH_n31ElW03V7eUyySlYImrbp0f16Mrp3EEJPyeFoOvEkmkX9Ez6pO3tXj7RrjEmuoocniBcMtujwFZgX7G05vasQIr91pBWKhqXSVZYm0B6QYlcbqRXv0oKJMaBZcZHhvjhuXI3o6hLOVHFZb7i6NJg=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette section murale de la tombe de Rekhmirê (TT100) à Thèbes, datant de la XVIIIe dynastie, offre un aperçu fascinant de l'épigraphie et de la bureaucratie égyptienne sous les règnes de Thoutmosis III et Amenhotep II. L'œuvre se divise en zones distinctes où l'image et le texte sacré cohabitent pour glorifier les fonctions du vizir et assurer la pérennité de son action administrative.</p>
+    <p>À gauche, une série de colonnes de hiéroglyphes polychromes, tracées avec une finesse exceptionnelle, détaille les titres et les louanges de Rekhmirê, utilisant des pigments bleus, rouges et jaunes qui conservent encore aujourd'hui une vibrante intensité. La calligraphie monumentale, où l'on distingue nettement des figures d'oiseaux, de lièvres et de signes géométriques, n'est pas qu'un simple texte mais une composante esthétique à part entière de la paroi. À droite de ces inscriptions, la scène bascule vers la représentation humaine avec des personnages masculins à la carnation ocre rouge, vêtus du pagne blanc traditionnel, dont les postures suggèrent une déférence solennelle. L'un des personnages est représenté en pleine génuflexion, un geste de soumission ou d'hommage fréquemment associé à la présentation de rapports ou de tributs devant la haute autorité du vizir.</p>
+    <p>Une autre partie de la paroi expose une structure rigoureuse en registres où s'alignent des figures répétitives, presque identiques, symbolisant la multitude des fonctionnaires ou des travailleurs sous les ordres de Rekhmirê. On y observe également des motifs rectangulaires rouges rayés de noir qui évoquent des ballots de tissus, des nattes ou des produits manufacturés soigneusement comptabilisés dans les magasins du trésor royal. L'ensemble de la composition, encadré par des bandes de bordure rouges, témoigne de la maîtrise des artistes thébains dans l'art de la synthèse entre le récit textuel et l'illustration documentaire. Cette œuvre demeure un document historique majeur sur la gestion des ressources et l'étiquette de cour à l'apogée du Nouvel Empire, fusionnant la magie de l'écriture et le réalisme social de l'époque.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1450) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+  {
+    id: "peinture_salaison_poissons_brasserie_rekhmire_tt100",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1450 av. J.-C. / Thoutmosis III - Amenhotep II)",
+    centuryDisplay: "XVe s. av. J.-C.",
+    centuryNumeric: -1450,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Séchage des poissons, vendanges et brasserie royale (Tombe de Rekhmirê, TT100)",
+    site: "Tombe de Rekhmirê - TT100 (Cheikh Abd el-Gourna, Thèbes)",
+    originSite: "Cheikh Abd el-Gourna (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe TT100, Gourna)",
+    category: "Peinture murale thébaine",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "TT100 Rekhmirê", "Salaison du poisson", "Brasserie & Vendanges"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOp6uFL-gwtWBxYP-fmoWP5CrzRQVzwjcg_dlIcKv9H6YKE2MMPD4qZiXgOeBCpp5Ijxb_EFga2x7p9mGOm0Ow2kjI2Eq3zNNWoPFxK54pnYWXU_CmX4alAORSNHP9sHU9brF3-un6fYz_r4EFuPLTmIQ=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette peinture murale, extraite de la tombe de Rekhmiré (TT100) située dans la nécropole de Cheikh Abd el-Gourna à Thèbes-Ouest, constitue l’un des témoignages les plus précieux de la vie quotidienne et de l'administration sous la XVIIIe dynastie égyptienne, plus précisément sous les règnes de Thoutmosis III et Amenhotep II, vers 1450 avant notre ère. Rekhmiré occupait la fonction prestigieuse de vizir, faisant de lui le second personnage de l'État après le Pharaon, et sa sépulture est célèbre pour l'abondance de ses scènes dites séculières illustrant les divers corps de métiers supervisés par son administration.</p>
+    <p>L'œuvre présente une composition organisée en registres horizontaux typiques de l'art égyptien, où la superposition des scènes permet une lecture narrative et encyclopédique de l'activité économique. Dans le registre inférieur, l'attention se porte sur le traitement du poisson : on y observe des ouvriers occupés à fendre et à faire sécher des poissons ouverts en deux, suspendus par la queue pour être conservés par salaison ou fumage, une source de protéines essentielle pour la population. Au-dessus, la scène détaille le travail de la vigne et de la brasserie. À gauche, la récolte des grappes de raisin dans une treille luxuriante est suivie du pressage, tandis qu'au centre, deux personnages s'activent vigoureusement à piler des ingrédients dans un grand mortier à l'aide de longs bâtons, une étape cruciale dans la fabrication de la bière ou du pain.</p>
+    <p>La palette chromatique est dominée par des pigments naturels caractéristiques : l'ocre rouge pour la peau masculine, l'ocre jaune pour certains fruits ou détails architecturaux, et le bleu égyptien pour l'eau ou le feuillage, bien que ce dernier ait subi les outrages du temps. Malgré l'érosion de la paroi et les lacunes du plâtre, la précision du trait permet de saisir le dynamisme des postures et la spécialisation des outils utilisés. L'absence de relief sculpté, remplacé ici par une peinture appliquée sur un enduit de limon et de plâtre, est caractéristique des tombes thébaines de cette époque. Cette fresque n'a pas seulement une visée décorative ou documentaire ; elle possède une fonction magique et funéraire primordiale. En représentant ces scènes de production alimentaire, le défunt s'assurait, par la puissance de l'image et de la parole, un approvisionnement éternel dans l'au-delà, tout en réaffirmant son statut social et son efficacité administrative devant les dieux.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1450) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+  {
+    id: "peinture_ateliers_sculpture_lingots_rekhmire_tt100",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1450 av. J.-C. / Thoutmosis III - Amenhotep II)",
+    centuryDisplay: "XVe s. av. J.-C.",
+    centuryNumeric: -1450,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Contrôle des ateliers royaux de sculpture et porteurs de lingots (TT100)",
+    site: "Tombe de Rekhmirê - TT100 (Cheikh Abd el-Gourna, Thèbes)",
+    originSite: "Cheikh Abd el-Gourna (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe TT100, Gourna)",
+    category: "Peinture murale thébaine",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "TT100 Rekhmirê", "Ateliers royaux", "Statuaire & Lingots"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOnJoMcHNk-W4s2dn4ZRTumaeIqqCFsYkyMqpHYI0wZ3aa22Quw3Dsq6ylAL55uBzIxW4LEmmueb_PejMeED8NJ_8zq1MfbTVHC2-pfD0LnwtY05UhSKaidm_2PWjnEgbPex1HcF4WXn15Qb796qmDglw=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette nouvelle section murale de la tombe de Rekhmiré (TT100) illustre avec une précision remarquable la fonction de superviseur des ateliers royaux exercée par le vizir, mettant ici l'accent sur la production d'objets de prestige et le transport des richesses du domaine d'Amon. La scène s'organise en registres superposés qui détaillent la chaîne de production et de stockage des trésors destinés au temple ou au palais royal sous les règnes de Thoutmosis III et Amenhotep II. Dans le registre supérieur, on observe une série de statues et d'objets d'art finis ou en cours de finition, notamment des sphinx couchés, des statues royales debout ou assises, ainsi que des vases et des pièces d'orfèvrerie empilés sur la droite. La présence de ces sculptures monumentales à échelle réduite souligne le rôle de Rekhmiré dans le contrôle de la qualité et de la conformité des effigies royales et divines.</p>
+    <p>Le registre inférieur offre une scène de mouvement dynamique où une procession de porteurs de tributs ou d'ouvriers transporte des lingots et des produits manufacturés. Ces hommes sont représentés dans la posture classique de la marche, vêtus du pagne blanc court, portant sur leurs épaules des jougs chargés de paniers ou transportant directement des lingots de métal précieux, probablement de l'or ou du cuivre, dont la forme rectangulaire est caractéristique des échanges commerciaux de la XVIIIe dynastie. Cette procession symbolise l'abondance des ressources de l'Égypte et l'efficacité de l'administration fiscale et artisanale dirigée par le vizir.</p>
+    <p>Sur le plan technique, la fresque démontre une maîtrise parfaite des conventions artistiques thébaines, avec une alternance de tons ocres rouges pour la peau des travailleurs et des rehauts de jaune pour les objets en or ou en bois précieux. Le fond neutre permet de détacher les silhouettes et de rendre lisible chaque étape de l'inventaire. Malgré les dégradations naturelles de la roche et les craquelures de l'enduit, la finesse des détails, comme la coiffe des statues ou le tressage des paniers, témoigne de la haute qualification des peintres ayant œuvré dans cette sépulture. Cette composition participe au discours biographique de la tombe, visant à démontrer que Rekhmiré a agi en serviteur irréprochable du pharaon, garantissant l'ordre et la prospérité du royaume par sa surveillance constante des ateliers du trésor.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1450) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+  {
+    id: "peinture_metallurgie_briques_artisanat_rekhmire_tt100",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1450 av. J.-C. / Thoutmosis III - Amenhotep II)",
+    centuryDisplay: "XVe s. av. J.-C.",
+    centuryNumeric: -1450,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Ateliers de métallurgie, fonte de bronze et moulage des briques crues (TT100)",
+    site: "Tombe de Rekhmirê - TT100 (Cheikh Abd el-Gourna, Thèbes)",
+    originSite: "Cheikh Abd el-Gourna (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe TT100, Gourna)",
+    category: "Peinture murale thébaine",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "TT100 Rekhmirê", "Métallurgie & Fonderie", "Soufflets à pied"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNAMrrIAUJvyXtNM3d201w5WPYplXQ_L86CqnCfUXl1Ggfeeer4f_hl66m7oSH6aQVZxHlkBWeBQqHkyfLSy0aD_MIQuEkj_t-VH46aien4itNypi6_GJGME792CgqgsSk1qKmdLKyQjZKugUwl6d9D5w=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette vaste composition murale de la tombe de Rekhmiré (TT100) à Thèbes constitue un document archéologique majeur sur l'artisanat d'État sous la XVIIIe dynastie, illustrant de manière exhaustive les ateliers de construction et de transformation des métaux. La scène se déploie en registres serrés où s'active une main-d'œuvre spécialisée sous l'autorité du vizir, dont la silhouette monumentale supervise l'ensemble à l'extrémité de la paroi. La partie gauche de la fresque détaille avec une précision quasi technique la fabrication des briques crues : on y voit des ouvriers puiser de l'eau dans un bassin rectangulaire, mélanger le limon avec de la paille, et mouler les briques qui sont ensuite alignées au soleil pour le séchage. Des porteurs acheminent ces matériaux à l'aide de jougs, illustrant la logistique nécessaire aux grands chantiers royaux de Thoutmosis III.</p>
+    <p>Un autre secteur de la peinture est consacré à la métallurgie et à l'orfèvrerie. On y distingue des artisans actionnant des soufflets à pied pour attiser le feu des fourneaux, une innovation technologique de l'époque, tandis que d'autres manipulent des creusets contenant le métal en fusion destiné à la fonte de portes monumentales ou de vaisselle d'apparat. À proximité, des orfèvres s'affairent sur des établis pour ciseler des objets de prestige, des colliers et des vases, dont certains sont exposés sur des buffets pour l'inspection finale. Le registre des porteurs montre une file d'hommes transportant des lingots de cuivre "en peau de bœuf" et des sacs de minerai, témoignant de l'importance du commerce international et de l'approvisionnement en matières premières depuis les mines lointaines.</p>
+    <p>Le style artistique se caractérise par un sens aigu de l'observation et un dynamisme qui rompt avec la rigidité de certaines scènes purement rituelles. Les attitudes des ouvriers — courbés sous le poids, assis devant l'établi ou en plein effort de traction — confèrent à l'œuvre un naturalisme saisissant. La polychromie, bien que partiellement altérée, utilise les conventions chromatiques égyptiennes pour différencier les matériaux : bleu-gris pour le métal, ocre jaune pour l'or et le bois, brun pour le limon. Cette notice murale ne se contente pas de glorifier le pouvoir de Rekhmiré ; elle immortalise le savoir-faire technique égyptien et garantit au défunt la pérennité de l'activité économique de son domaine dans l'au-delà, transformant le mur de la tombe en un véritable inventaire vivant des richesses du royaume.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1450) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+  {
+    id: "peinture_banquet_offrandes_accumulation_rekhmire_tt100",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1450 av. J.-C. / Thoutmosis III - Amenhotep II)",
+    centuryDisplay: "XVe s. av. J.-C.",
+    centuryNumeric: -1450,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Banquet funéraire et empilement vertical d'offrandes alimentaires (TT100)",
+    site: "Tombe de Rekhmirê - TT100 (Cheikh Abd el-Gourna, Thèbes)",
+    originSite: "Cheikh Abd el-Gourna (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe TT100, Gourna)",
+    category: "Peinture murale thébaine",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "TT100 Rekhmirê", "Banquet funéraire", "Empilement d'offrandes"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOWh_bOioD40TtIc9nP3PBaH4FPvM7o3ivnkwffiet43uCVdKSEUyoxG4QS3vgAMCJeqs68a-wALwUG0A5xqB4urXRuZst4oFdoR5Aslw1j_qmG8AcLQzD_w2-s4kqW7tS3Qn1KbjIzqUWl9cUfA1WTTw=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette peinture murale exceptionnelle provient de la tombe de Rekhmiré (TT100), située dans la nécropole de Cheikh Abd el-Gourna à Thèbes, et date du règne de Thoutmosis III et d'Amenhotep II, durant la XVIIIe dynastie du Nouvel Empire. Rekhmiré, personnage d'une importance capitale, occupait la fonction de vizir, faisant de lui l'homme le plus puissant d'Égypte après le pharaon. La scène ici représentée témoigne du faste des banquets funéraires et de la maîtrise artistique de l'époque, caractérisée par une précision du trait et une polychromie vibrante où dominent les ocres rouges, les jaunes et les bleus profonds.</p>
+    <p>L'œuvre illustre le thème de l'offrande et de la subsistance éternelle du défunt. Sur le registre supérieur, on aperçoit une partie d'un couple assis devant une table d'offrandes richement garnie, recevant les hommages et les produits de la terre. La composition est rythmée par des empilements verticaux de victuailles qui défient les lois de la perspective moderne pour privilégier une lisibilité exhaustive des biens présentés. On y distingue des pains de formes variées, des fruits, des jarres de vin ou de bière scellées et des morceaux de viande choisis. Un serviteur, situé sur le registre inférieur, est représenté en pleine action, tendant les mains vers cette accumulation de nourritures sacrées, symbolisant le lien perpétuel entre le monde des vivants et celui des morts.</p>
+    <p>L'écriture hiéroglyphique, disposée en colonnes élégantes entre les figures et les objets, assure la fonction magique de l'image en nommant les offrandes et en récitant les formules rituelles nécessaires à la survie de l'âme du vizir. Malgré les dommages causés par le temps et l'érosion de la roche calcaire, la finesse des détails, comme la texture des paniers tressés ou les nuances de la peau des personnages, demeure remarquable. Cette paroi ne se contente pas de décorer une sépulture, elle constitue une archive visuelle précieuse sur la vie sociale, les pratiques alimentaires et les croyances religieuses de l'élite thébaine à l'apogée de l'empire égyptien.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1450) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+  {
+    id: "peinture_couple_rekhmire_table_monumentale_tt100",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1450 av. J.-C. / règne de Thoutmosis III)",
+    centuryDisplay: "XVe s. av. J.-C.",
+    centuryNumeric: -1450,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Rekhmirê et son épouse devant le piédestal d'offrandes et jarres à vin (TT100)",
+    site: "Tombe de Rekhmirê - TT100 (Cheikh Abd el-Gourna, Thèbes)",
+    originSite: "Cheikh Abd el-Gourna (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe TT100, Gourna)",
+    category: "Peinture murale thébaine",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Thoutmosis III", "TT100 Rekhmirê", "Table monumentale"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP-xEmvwm0o5kzHmMZ7q22XrLgiJa9Il-C-kRaxUDARImzd9Km7QdpPI3vrriSxGtyyfuloRsA49SCGJKJfotjyRfYnD3XM48IXeQcaKxlLexHLl5_oVddew7u93dLyCPS8T-zYcv7ErYcFW6Tu10iLoA=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette peinture murale, extraite des parois de la tombe thébaine de Rekhmiré (TT100) à Cheikh Abd el-Gourna, constitue un témoignage iconographique majeur de la XVIIIe dynastie égyptienne sous le règne de Thoutmosis III. L'œuvre représente le défunt, le vizir Rekhmiré, assis en compagnie d'un membre de sa famille, probablement son épouse Meryt, devant une table d'offrandes monumentale destinée à assurer sa subsistance dans l'au-delà. La scène s'inscrit dans la tradition des banquets funéraires où la profusion des biens terrestres est transposée sur le plan spirituel par la magie de l'image et du verbe.</p>
+    <p>L'élément central de la composition est le piédestal bleu supportant une accumulation vertigineuse de victuailles rendues avec une précision naturaliste remarquable. On y distingue des pains ronds et coniques, des pièces de viande, des grappes de raisins sombres et des sycomores, surmontés par des tiges de papyrus et de lotus symbolisant la renaissance. Sous la table, des récipients plus petits et deux grandes jarres à vin de couleur ocre rouge, munies de bouchons de boue et de feuilles, complètent cet inventaire des ressources nécessaires au Ka du défunt. La technique de la peinture à la détrempe permet d'apprécier la superposition des éléments, respectant les conventions de l'art égyptien où chaque objet doit être montré dans sa forme la plus caractéristique.</p>
+    <p>Le traitement des figures humaines révèle une certaine usure du temps, mais laisse apparaître la finesse du trait pour les perruques noires tripartites et les bijoux de gorge. Au-dessus des convives et au bas de la scène, des registres de hiéroglyphes colorés encadrent l'image, servant à la fois de légende et de véhicule sacré pour les formules d'offrandes. Ces textes nomment les produits présentés et invoquent les divinités funéraires pour garantir l'éternité du vizir. L'équilibre chromatique entre le fond clair et la richesse des pigments minéraux souligne le prestige de Rekhmiré, qui, par cette décoration somptueuse, affirmait son rang social élevé et sa proximité avec le pouvoir royal.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1450) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+  {
+    id: "peinture_anubis_preparatifs_funeraires_rekhmire_tt100",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (v. -1450 av. J.-C. / Thoutmosis III - Amenhotep II)",
+    centuryDisplay: "XVe s. av. J.-C.",
+    centuryNumeric: -1450,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Anubis protecteur des nécropoles veillant sur les ateliers funéraires (TT100)",
+    site: "Tombe de Rekhmirê - TT100 (Cheikh Abd el-Gourna, Thèbes)",
+    originSite: "Cheikh Abd el-Gourna (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe TT100, Gourna)",
+    category: "Peinture murale thébaine",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "TT100 Rekhmirê", "Anubis debout", "Ateliers d'Amon"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNnBSLcTQS64nyPgfJdhA5LB6VNYAmrWHbw5h-k3h05IDkCtq3TkjTn_feNLGkavMMvfweCtRK5RD1WUCnfrcZHGfOEWZWj_hmSNzwZ_ipGx5500-QcU1W1nYsWHjL4VyisUlGrplix7vM_AsE9ULpu3g=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette peinture murale exceptionnelle provient de la tombe de Rekhmiré (TT100), située dans la nécropole de Cheikh Abd el-Gourna à Thèbes ouest, datant des règnes de Thoutmosis III et Amenhotep II durant la XVIIIe dynastie du Nouvel Empire. Rekhmiré, personnage d’une importance historique majeure, occupait la fonction de vizir, soit le plus haut magistrat de l’administration égyptienne après le pharaon. La scène ici représentée témoigne de la virtuosité technique et de la richesse narrative de l’art thébain, caractérisée par une palette chromatique vive où dominent les ocres rouges, les jaunes de goethite et les bleus de fritte.</p>
+    <p>À droite de la composition, une imposante figure de la divinité Anubis, le dieu chacal protecteur des nécropoles, se tient debout, tenant le sceptre Ouas et le signe de vie Ankh, veillant sur les préparatifs funéraires. Le registre central illustre avec une précision quasi documentaire les activités liées aux ateliers du temple d'Amon et aux rituels d'offrandes. On y observe des artisans et des porteurs s'activant autour de jarres de vin ou d'onguents, tandis que des colonnes de texte hiéroglyphique détaillent les titres du défunt et les formules de dédicace. La structure en registres superposés permet une lecture séquentielle des événements, mêlant la réalité terrestre des corvées administratives à la dimension symbolique du passage vers l’au-delà. Cette œuvre est un témoignage inestimable non seulement sur les croyances religieuses de l'époque, mais aussi sur l'organisation sociale et économique de l'Égypte au sommet de sa puissance impériale.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1450) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+  },
+   {
     id: "peinture_presentation_parures_sennefer_tt96",
     civId: "egypte",
     periodId: "nouvel_empire",
