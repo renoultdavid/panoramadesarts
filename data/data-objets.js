@@ -6,6 +6,35 @@ window.ART_OBJECTS = window.ART_OBJECTS || [];
 window.ART_OBJECTS.push(
 
   {
+    id: "stele_trilingue_cornelius_gallus_philae_alexandrie",
+    civId: "egypte",
+    periodId: "greco_romaine",
+    civName: "Égypte : Époque Ptolémaïque & Romaine",
+    century: "Ier siècle av. J.-C. (-29 av. J.-C. / principat d'Auguste)",
+    centuryDisplay: "Ier s. av. J.-C.",
+    centuryNumeric: -29,
+    domain: "vie_quotidienne",
+    artifactType: "Stèle administrative / Décret",
+    title: "Stèle triomphale trilingue de Cornelius Gallus (Philae)",
+    site: "Musée Gréco-Romain d'Alexandrie (prov. Philae)",
+    originSite: "Île de Philae (Haute-Égypte)",
+    locationType: "museum",
+    currentLocation: "Musée Gréco-Romain d'Alexandrie",
+    category: "Stèle triomphale trilingue",
+    isHighlight: false,
+    chips: ["-29 av. J.-C.", "Cornelius Gallus", "Texte trilingue", "Musée d'Alexandrie"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczN3ahxyN7YONLbPeIIen8I__zZr0uMJKKQJRORfa3-vpcuuYLVXqmxdajkE5f9pe51D_jzJUPybqZfD-GaZ26sS-yv8QM3lB2-ZXlNQd9J70Rhq0L8q_Bzy6t75GHkWgVHxgryuMeCCdcqR5chad73Pyw=w613-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette stèle monumentale est un document politique exceptionnel érigé par Cornelius Gallus, le premier préfet romain d'Égypte nommé par l'empereur Auguste après la défaite de Cléopâtre VII. Elle commémore ses victoires militaires, notamment la répression d'une insurrection en Haute-Égypte et l'avancée des légions romaines au-delà de la première cataracte du Nil.</p>
+    <p>L'œuvre est unique par son caractère trilingue :</p>
+    <ul>
+      <li><strong>En haut :</strong> Un registre sculpté montre Gallus en cavalier romain terrassant un ennemi, une iconographie typiquement impériale.</li>
+      <li><strong>Les textes :</strong> Ils célèbrent ses exploits dans les trois langues officielles de l'époque, s'adressant ainsi aux prêtres égyptiens (hiéroglyphes), à l'administration et l'élite intellectuelle (grec) et au pouvoir central de Rome (latin).</li>
+    </ul>
+    <p>Cependant, cette stèle fut aussi la cause de la chute de Gallus : l'excès de zèle et l'arrogance dont il fit preuve en érigeant des monuments à sa propre gloire dans toute l'Égypte furent perçus par Auguste comme une menace. Gallus fut rappelé à Rome, déchu de ses fonctions et acculé au suicide peu après. La stèle de Philae reste le témoin de cette période charnière où les traditions millénaires des pharaons ont commencé à s'effacer devant l'ordre nouveau de l'Empire romain.</p>
+    <p><strong>Siècle :</strong> Ier siècle av. J.-C. (-29) | <strong>Civilisation :</strong> Égypte antique (Époque gréco-romaine) | <strong>Sous-partie :</strong> Textes & Littérature.</p>`
+  },
+   {
     id: "stele_taureau_buchis_hermonthis_le_caire",
     civId: "egypte",
     periodId: "greco_romaine",
