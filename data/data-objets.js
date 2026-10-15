@@ -6,6 +6,381 @@ window.ART_OBJECTS = window.ART_OBJECTS || [];
 window.ART_OBJECTS.push(
 
   {
+    id: "sculpture_thot_seshat_arbre_ished_ramses_iii_medinet_habou",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (vers -1180 av. J.-C. / règne de Ramsès III)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1180,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Thot et Seshat inscrivant le nom de Ramsès III sur les feuilles de l'arbre sacré Ished",
+    site: "Temple funéraire de Ramsès III (Médinet Habou, Thèbes)",
+    originSite: "Thèbes-Ouest",
+    locationType: "site",
+    currentLocation: "In situ (Parois du Temple de Médinet Habou, Thèbes)",
+    category: "Relief en creux sur grès",
+    isHighlight: true,
+    chips: ["XXe dynastie", "Ramsès III", "Médinet Habou", "Dieu Thot", "Déesse Seshat", "Arbre Ished", "Jubilés éternels"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczO5FFXxJ8rUhGgHoFNe6DD00br_DFYttujpA6OTNKIiMei6NlLxNC6kr1NEDWSwUyKI1HFztFPx1YpPgtxiAEBrDeFaT4PChn21EI2CLpzOQh66GIah-OmBSpITvgzhJutyy5osouDcXPK3ckRNug8WAg=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette scène gravée en relief creux orne les parois du temple funéraire de Ramsès III à Médinet Habou, situé sur la rive occidentale de Thèbes. Datant de la XXe dynastie (environ 1180 av. J.-C.), elle illustre la piété royale et la relation privilégiée entre le pharaon et le monde divin. Le style se caractérise par une gravure profonde, typique de l’époque ramesside, conçue pour résister à l'érosion du temps et pour être parfaitement lisible sous la lumière crue du soleil égyptien.</p>
+    <p>Le registre central met en scène le dieu Thot, reconnaissable à sa tête d'ibis surmontée du disque lunaire, tenant dans ses mains les instruments de l'écriture. Face à lui se tient la déesse Seshat, divinité de l'astronomie, de l'architecture et des annales. Ensemble, ils président à l'inscription du nom de Ramsès III sur les feuilles de l'arbre sacré Ished. Ce rituel symbolique garantit au souverain un règne éternel, une prospérité infinie et la reconnaissance de sa légitimité par les puissances célestes.</p>
+    <p>L'œuvre est riche en détails épigraphiques, notamment avec la présence de cartouches royaux qui encadrent les figures divines. Les hiéroglyphes accompagnant la scène précisent les titres du roi et les paroles de bénédiction prononcées par les dieux. L'équilibre de la composition, où les divinités se font face dans un geste de protection et d'archivage sacré, témoigne de la fonction du temple comme lieu de mémoire éternelle pour le « Roi de Haute et Basse Égypte ».</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1180) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_vautour_nekhbet_signe_neb_titulature_medinet_habou",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (vers -1180 av. J.-C. / règne de Ramsès III)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1180,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Vautour déployé de la déesse Nekhbet sur la corbeille Neb et titulature royale (Temple de Médinet Habou)",
+    site: "Temple funéraire de Ramsès III (Médinet Habou, Thèbes)",
+    originSite: "Thèbes-Ouest",
+    locationType: "site",
+    currentLocation: "In situ (Parois du Temple de Médinet Habou, Thèbes)",
+    category: "Relief en creux sur grès",
+    isHighlight: false,
+    chips: ["XXe dynastie", "Ramsès III", "Médinet Habou", "Déesse Nekhbet", "Signe Neb", "Titulature royale", "Protection divine"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOMK7GpMPnHcxuc8WlznKmNbY6Oqx8gpi_tjxclN8Ugfp721GdUMyFNU1uNxm6JIoEWM4lhwS8NQCPx5Pp4t20rpmkveO6AqLGJtNiwS9I-KuJ-whsavAwzSgeAz22GY30IYD_iyY8AmPwA9tcLowbPLA=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette scène en relief creux appartient au vaste programme iconographique du temple des millions d'années de Ramsès III à Médinet Habou. Elle illustre un segment de la titulature royale et des symboles de protection divine, gravés dans le grès avec la vigueur propre à l'art de la XXe dynastie. La profondeur des traits assure une pérennité au message politique et religieux, affirmant la souveraineté du pharaon sur les Deux Terres sous l'égide des divinités tutélaires.</p>
+    <p>Le motif principal présente l'iconographie de la déesse Nekhbet, protectrice de la Haute-Égypte, figurée sous les traits d'un vautour aux ailes déployées. Elle surmonte un signe hiéroglyphique en forme de corbeille, signifiant « Seigneur » ou « Maître », une composition classique exprimant la domination royale sur le Sud. À sa droite, une divinité anthropomorphe agenouillée, coiffée de plumes ou de cornes spécifiques, semble participer à l'ordonnance rituelle du nom royal, renforçant l'aspect sacré du pouvoir exécutif.</p>
+    <p>L'ensemble de la paroi témoigne d'une grammaire visuelle complexe où chaque élément, de la tige de papyrus stylisée aux sceptres, contribue à la glorification de Ramsès III. Ces reliefs ne sont pas de simples décorations, mais des actes théologiques pérennisés dans la pierre, destinés à maintenir l'ordre cosmique (la Maât) au sein du sanctuaire thébain.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1180) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_massacre_ennemis_peuples_mer_libyens_medinet_habou",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (vers -1180 av. J.-C. / règne de Ramsès III)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1180,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Massacre rituel des ennemis captifs par Ramsès III : Libyens et Peuples de la Mer (Médinet Habou)",
+    site: "Temple funéraire de Ramsès III - Parois extérieures (Médinet Habou, Thèbes)",
+    originSite: "Thèbes-Ouest",
+    locationType: "site",
+    currentLocation: "In situ (Parois extérieures de Médinet Habou, Thèbes)",
+    category: "Relief monumental en creux sur grès",
+    isHighlight: true,
+    chips: ["XXe dynastie", "Ramsès III", "Médinet Habou", "Massacre des ennemis", "Peuples de la Mer", "Libyens", "Maât contre Isfet"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczN0_DBp_X6Tv7uFF-69_CSry7_c7RSCopHuUwbdkO-AWLO2SQMVeFXeHNfAzKwBJ-QB81wSHYJRSXcjMocKN5esCHHOL2eFWzaVAFDU0XZLR1sVULfuu79Z40Ilbs_ottH71Jxc1tjgvvt4ZqkKBrb7Fw=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette scène monumentale, située sur les parois extérieures du temple de Médinet Habou, illustre l'un des thèmes les plus emblématiques de l'idéologie royale égyptienne : le massacre rituel des ennemis. Le pharaon Ramsès III est représenté dans une posture héroïque et dynamique, brandissant une masse d'armes pour abattre un groupe de captifs qu'il saisit par la chevelure. Cette iconographie symbolise le triomphe de l'ordre (la Maât) sur le chaos extérieur et la protection absolue du pays par le souverain.</p>
+    <p>Le roi porte la couronne blanche de Haute-Égypte et un pagne plissé orné d'une queue de taureau, attributs de sa puissance physique et de son autorité. Devant lui, les ennemis sont représentés de manière compacte et répétitive, les bras levés dans un geste de supplication impuissante. On distingue parmi eux les traits caractéristiques des populations étrangères, notamment les Libyens et les Peuples de la Mer, dont les conflits avec Ramsès III marquèrent profondément le règne lors de la XXe dynastie.</p>
+    <p>La composition est encadrée par d'importantes colonnes de textes hiéroglyphiques qui détaillent les exploits militaires du pharaon et les louanges adressées par les dieux, notamment Amon-Rê, qui accorde la victoire au roi. La précision de la gravure, malgré l'échelle colossale de la scène, souligne la fonction de propagande religieuse du temple.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1180) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "peinture_plafond_vautours_nekhbet_shen_cartouches_medinet_habou",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (vers -1180 av. J.-C. / règne de Ramsès III)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1180,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Plafond peint des vautours déployés de Nekhbet tenant les anneaux Shen et cartouches de Ramsès III (Médinet Habou)",
+    site: "Temple funéraire de Ramsès III - Salles intérieures (Médinet Habou, Thèbes)",
+    originSite: "Thèbes-Ouest",
+    locationType: "site",
+    currentLocation: "In situ (Plafonds intérieurs de Médinet Habou, Thèbes)",
+    category: "Peinture sur stuc et plafond sacré",
+    isHighlight: true,
+    chips: ["XXe dynastie", "Ramsès III", "Médinet Habou", "Plafond peint", "Déesse Nekhbet", "Anneau Shen", "Bleu égyptien"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNrlk0nsUr4mu-wu1Iwrb54xIeeYxwk2fDExlnSNaywjzupgxZpugeATW93lf_7xxiNfHz7kEzm5WEDEdAqR5lxavZTwjHYz9kBDNKb6hEp2YPOF-s1wlM6kc47777o3OpYQq_MoxPkHe1TKSDCahX9DA=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce plafond peint, situé dans l'une des salles intérieures du temple de Médinet Habou, offre un témoignage exceptionnel de la polychromie originelle des sanctuaires thébains de la XXe dynastie. Contrairement aux reliefs extérieurs érodés par le temps, ces pigments conservent une vivacité remarquable, révélant l'usage de terres d'ocre, de bleu égyptien et de blanc de chaux. La décoration est structurée par une répétition rythmée de motifs protecteurs, créant une voûte céleste symbolique qui enveloppe l'espace sacré où circulaient les prêtres.</p>
+    <p>Le motif central représente une série de vautours aux ailes déployées, une incarnation de la déesse Nekhbet, protectrice de la royauté. Chaque rapace tient dans ses serres le signe « Shen », symbole d'éternité et d'universalité. Les ailes, finement détaillées par des nuances de rouge et de bleu, s'étirent pour couvrir toute la largeur du plafond, signifiant que le souverain et le temple sont placés sous une protection divine constante et inaliénable.</p>
+    <p>De part et d'autre de ces figures centrales, des colonnes de textes et des cartouches royaux de Ramsès III complètent la composition. Les hiéroglyphes déclinent les titres du pharaon : « Fils de Rê » et « Roi de Haute et Basse Égypte ». Cette alliance entre l'image protectrice du vautour et l'écrit royal transforme le plafond en un talisman monumental, assurant la pérennité du nom du roi dans l'au-delà.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1180) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture murale, Tableaux & Mosaïque.</p>`
+  },
+  {
+    id: "sculpture_procession_captifs_entravés_peuples_mer_libyens_medinet_habou",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (vers -1180 av. J.-C. / règne de Ramsès III)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1180,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Procession des prisonniers de guerre entravés : Typologies des Libyens et Peuples de la Mer (Médinet Habou)",
+    site: "Temple funéraire de Ramsès III - Murs extérieurs (Médinet Habou, Thèbes)",
+    originSite: "Thèbes-Ouest",
+    locationType: "site",
+    currentLocation: "In situ (Murs extérieurs de Médinet Habou, Thèbes)",
+    category: "Relief en creux sur grès",
+    isHighlight: false,
+    chips: ["XXe dynastie", "Ramsès III", "Médinet Habou", "Prisonniers de guerre", "Peuples de la Mer", "Libyens", "Ethnographie antique"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNb3G45BDQIeV7S_73HhoH9NqQiH-TOusM24DC9Nn0CpUU8cHqV06DoSkHC-WJuD_DKrC0iP38a1zQYYNe81Apn9pNaBuYXUdQauxOJ7Dg7xwMz7tEhHdve1VdazXT_t-i5ho1LnQ3zhSnKuv-jgMgWpQ=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce bas-relief en relief creux, situé sur les murs extérieurs du temple de Médinet Habou, offre une représentation saisissante des prisonniers de guerre capturés lors des campagnes militaires de Ramsès III. Datant de la XXe dynastie, cette scène s'inscrit dans la continuité des récits de victoire gravés sur les pylônes et les murs d'enceinte du temple. Elle illustre avec un réalisme ethnographique remarquable la diversité des adversaires auxquels l'Égypte a dû faire face, notamment les Libyens et les Peuples de la Mer, reconnaissables à leurs traits de visage, leurs barbes et leurs vêtements distinctifs.</p>
+    <p>Les captifs sont représentés liés les uns aux autres, les bras entravés dans des positions de soumission forcée, marchant en procession vers le roi ou les divinités. Le sculpteur a pris soin de différencier les types humains : on observe des personnages aux cheveux longs et aux barbes pointues, typiques des populations occidentales ou septentrionales. La répétition des figures crée un effet de masse qui souligne l'ampleur de la victoire royale et la capacité du pharaon à neutraliser les menaces pesant sur les frontières de l'empire.</p>
+    <p>La scène est ponctuée de colonnes de textes hiéroglyphiques qui servaient à identifier les peuples vaincus et à magnifier le courage du souverain. Cette iconographie n'est pas seulement un document historique sur les conflits du XIIe siècle av. J.-C., mais aussi un outil de propagande religieuse affirmant l'ordre souverain sur le monde barbare.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1180) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_face_a_face_colossal_ramses_iii_amon_re_medinet_habou",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (vers -1180 av. J.-C. / règne de Ramsès III)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1180,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Face-à-face colossal de Ramsès III au Pschent et du dieu Amon-Rê au sceptre Ouas (Médinet Habou)",
+    site: "Temple funéraire de Ramsès III - Hautes parois (Médinet Habou, Thèbes)",
+    originSite: "Thèbes-Ouest",
+    locationType: "site",
+    currentLocation: "In situ (Hautes parois de Médinet Habou, Thèbes)",
+    category: "Relief monumental en creux sur grès",
+    isHighlight: false,
+    chips: ["XXe dynastie", "Ramsès III", "Médinet Habou", "Amon-Rê", "Pschent", "Sceptre Ouas", "Échelle colossale"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPrH6guPVsgWN9HywNBCfzWfJqTGDYAj75AOJkPApw_-FUjWVayvUGWoUQOwZyLLbKVWw_glknv1WxDowwR9FMb60zrcr3a0Yw1K2ImOroDUDJaybut9l_NVkAmd7Td0qj0GLPhCoK_bj4TSNnTMkSPbg=w1611-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Cette scène colossale, gravée sur l'une des hautes parois du temple de Médinet Habou, illustre la dimension théologique du pouvoir de Ramsès III au début de la XXe dynastie. Le relief met en présence le pharaon et le dieu Amon-Rê, la divinité suprême de Thèbes, dans un face-à-face solennel qui légitime l'action royale. Le souverain, à gauche, porte la double couronne Pschent et l'uraeus, tandis qu'il lève le bras dans un geste d'offrande ou de salutation rituelle devant le dieu qui lui fait face, garantissant ainsi l'équilibre du monde.</p>
+    <p>La figure divine d'Amon-Rê, reconnaissable à sa haute coiffe composée de deux plumes verticales, tient le sceptre Ouas, symbole de puissance, et le signe Ankh, porteur de vie éternelle. Entre les deux protagonistes, de longues colonnes de textes hiéroglyphiques consignent le dialogue sacré : le dieu confirme les victoires du roi et lui assure un règne de « millions d'années ». La précision du relief creux, typique du style ramesside, permet de distinguer chaque détail des parures et des emblèmes.</p>
+    <p>Le registre inférieur et les espaces latéraux sont saturés d'inscriptions et de cartouches délimitant le nom de couronnement et le nom de naissance du pharaon. Cette accumulation textuelle transforme la paroi en une archive monumentale et indestructible de la piété royale, dont l'échelle colossale impressionne par sa démesure.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1180) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_faucon_horus_neb_divinite_agenouillee_medinet_habou",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (vers -1180 av. J.-C. / règne de Ramsès III)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1180,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Le faucon Horus sur la corbeille Neb et divinité agenouillée aux deux plumes (Médinet Habou)",
+    site: "Temple funéraire de Ramsès III - Parties hautes (Médinet Habou, Thèbes)",
+    originSite: "Thèbes-Ouest",
+    locationType: "site",
+    currentLocation: "In situ (Parties hautes de Médinet Habou, Thèbes)",
+    category: "Relief en creux sur calcaire",
+    isHighlight: false,
+    chips: ["XXe dynastie", "Ramsès III", "Médinet Habou", "Faucon Horus", "Corbeille Neb", "Signe Ânkh", "Sceptre Ouas"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMy2xEY1asV-qKhWZZRkxCeVCxVUWqeeEyidJgGjkkJXHfaqyrPpjrGknLOptAksFGs34PVVDo-dBschQykydYpK1goajetPqOyBuuX6Ra6YTeYOdY-1vGPDToLPU3Gkzvfurv-bOv5xlOHlhLs0e_RBQ=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce bas-relief en relief creux, situé dans les parties hautes du temple de Médinet Habou, illustre la précision de l'iconographie religieuse sous le règne de Ramsès III. La scène présente une série de symboles et de divinités agissant comme des garants de la protection royale. Au centre, on distingue la silhouette d'un faucon, incarnation du dieu Horus, posé sur un signe « Neb » (la corbeille), signifiant la maîtrise et la seigneurie sur les terres d'Égypte.</p>
+    <p>À droite de ce motif, une divinité est représentée agenouillée dans une posture de dévotion ou de présentation rituelle. Elle porte une coiffe spécifique surmontée de deux plumes, souvent associée à des divinités de l'air ou de la lumière, et semble intercéder pour la pérennité du nom du pharaon. Chaque élément de la gravure, des traits du visage à la finesse des plumes, démontre la maîtrise des artisans de la XXe dynastie qui ont su insuffler de la vie à la pierre.</p>
+    <p>L'ensemble est entouré de signes hiéroglyphiques, dont le signe « Ankh » (la vie) et le sceptre « Ouas » (la puissance), qui viennent renforcer le message de stabilité et de force du souverain. Ces reliefs ont conservé une netteté remarquable pour lier le destin du roi à celui des dieux immortels.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1180) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_linteau_soffite_nekhbet_cartouches_polychromes_medinet_habou",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (vers -1180 av. J.-C. / règne de Ramsès III)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1180,
+    domain: "sculpture_statuaire",
+    artifactType: "Décor architectural (fronton, frise, métope, chapiteau)",
+    title: "Passage de porte monumental : Soffite peint au vautour Nekhbet et linteau aux cartouches de Ramsès III (Médinet Habou)",
+    site: "Temple funéraire de Ramsès III - Portails monumentaux (Médinet Habou, Thèbes)",
+    originSite: "Thèbes-Ouest",
+    locationType: "site",
+    currentLocation: "In situ (Passages de portes de Médinet Habou, Thèbes)",
+    category: "Décor architectural sur grès polychrome",
+    isHighlight: false,
+    chips: ["XXe dynastie", "Ramsès III", "Médinet Habou", "Soffite peint", "Linteau monumental", "Déesse Nekhbet", "Bleu égyptien"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPim-t3rxGtQ6ts2VZRYM14Nzz5dR8J_wqDxHDJZyE-vbKGJvFH1pR4eHO-lsjAH0i6x6tU50Ofb4ZKwEcbZseBmRaKaQ1-Qa6DwuU2ekmsomJDcZpiyrH5Muiqk0i4wYTDb53vqkbmz1RyfNk_qTBHmA=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette vue en contre-plongée met en lumière l'architecture monumentale des passages de portes du temple de Médinet Habou, révélant la transition entre les reliefs extérieurs exposés et les plafonds peints protégés. L'image souligne l'importance des linteaux et des soffites (dessous de poutres) dans la décoration thébaine de la XXe dynastie, où chaque surface disponible était utilisée pour proclamer la légitimité du pharaon. La perspective permet de voir comment les scènes de rituels sur les parois verticales s'articulent avec la symbolique céleste des plafonds.</p>
+    <p>Sur le soffite au premier plan, on retrouve le motif protecteur du vautour Nekhbet, dont les couleurs sont restées d'une fraîcheur saisissante grâce à l'ombre portée de la structure. Les ailes déployées épousent parfaitement la forme du passage, accueillant symboliquement le visiteur ou le prêtre sous la protection de la déesse de Haute-Égypte. Juste au-dessus, sur la face verticale du linteau, des cartouches royaux de Ramsès III sont encadrés par des scènes d'adoration, affirmant que le passage physique d'une cour à une autre est aussi un franchissement sacré.</p>
+    <p>L'utilisation du bleu égyptien en arrière-plan des hiéroglyphes du plafond crée un contraste remarquable avec la couleur ocre naturelle du grès des murs, définissant une hiérarchie visuelle entre le monde des hommes au sol et la voûte céleste immortelle.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1180) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_entablement_colonnes_polychromes_cartouches_medinet_habou",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (vers -1180 av. J.-C. / règne de Ramsès III)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1180,
+    domain: "sculpture_statuaire",
+    artifactType: "Décor architectural (fronton, frise, métope, chapiteau)",
+    title: "Entablement et fûts de colonnes polychromes : Frises géométriques et cartouches de Ramsès III (Médinet Habou)",
+    site: "Temple funéraire de Ramsès III - Deuxième cour ou salle hypostyle (Médinet Habou, Thèbes)",
+    originSite: "Thèbes-Ouest",
+    locationType: "site",
+    currentLocation: "In situ (Portiques de Médinet Habou, Thèbes)",
+    category: "Décor architectural sur grès polychrome",
+    isHighlight: false,
+    chips: ["XXe dynastie", "Ramsès III", "Médinet Habou", "Entablement", "Colonnes peintes", "Frise de cartouches", "Bleu et ocre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP8jLj9pSU3vqSQlLXc21Q0vzVndyrZabrXFM32MJPfGP7oWLoSQjngwB3ucEqd9s8JZotyp975n8fNFVrzEVvOl2MFI9HaHdc1JEp6p8mW98Y8sHTp4SwXcLvGcgHQvftbwgTjnGaUDNi5X9xUp2IKRw=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette vue rapprochée met en valeur l'entablement et le sommet des colonnes d'un des portiques couverts du temple funéraire de Ramsès III à Médinet Habou. Elle témoigne de l'exceptionnelle préservation des couleurs minérales d'origine de la XXe dynastie, protégées des rayons directs du soleil et des intempéries sous les architraves monumentales en grès.</p>
+    <p>La partie supérieure présente une frise rythmée alternant des cartouches royaux profondément incisés et des motifs géométriques polylobés aux teintes éclatantes de bleu égyptien, de rouge brique et de jaune d'or. Sur les architraves et les fûts de colonnes sous-jacents, les colonnes de hiéroglyphes monumentaux déclinent les noms de couronnement et de naissance du souverain (« Ousermaâtrê-Méryamon » et « Ramsès-Héqa-Iounou »), scellant la dédicace de l'édifice au dieu Amon-Rê.</p>
+    <p>La vigueur des pigments et la rigueur de la taille illustrent l'habileté technique des ateliers thébains à la fin de l'époque ramesside, où chaque élément porteur de l'architecture devient un support actif de glorification théologique et royale.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1180) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "peinture_procession_fete_min_barque_sacree_etendards_medinet_habou",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (vers -1180 av. J.-C. / règne de Ramsès III)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1180,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Procession liturgique de la fête de Min : Défilé d'étendards, prêtres et barque sacrée peinte (Médinet Habou)",
+    site: "Temple funéraire de Ramsès III - Parois intérieures (Médinet Habou, Thèbes)",
+    originSite: "Thèbes-Ouest",
+    locationType: "site",
+    currentLocation: "In situ (Parois intérieures de Médinet Habou, Thèbes)",
+    category: "Peinture sur stuc et relief peint",
+    isHighlight: true,
+    chips: ["XXe dynastie", "Ramsès III", "Médinet Habou", "Fête de Min", "Barque sacrée", "Étendards", "Polychromie thébaine"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPkDSYs4wF1BDRAfemeuFihK_zwrpkvk9ot5gEIxCfGc0nO1IpMllz8_-1d-ae910m4KucA5oE-y4WgENtcMkWcyWkdr4ILTs6RNCIjoIjx-QHnQEHViGQLjqLbOfYfgondFBIeyvaKvxsjJMiB0uf2Og=w1611-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Cette paroi intérieure du temple de Médinet Habou offre un exemple exceptionnel de la conservation des couleurs minérales sous la XXe dynastie. Organisée en registres superposés, la composition illustre le déroulement d'une grande procession religieuse, probablement liée à la fête de Min ou à celle de la Belle Rencontre. Les personnages, peints sur un enduit de stuc, conservent des teintes ocre rouge pour les chairs masculines et des blancs éclatants pour les pagnes de lin, témoignant de la richesse visuelle qui caractérisait autrefois l'ensemble du sanctuaire de Ramsès III.</p>
+    <p>Le registre supérieur montre une file de prêtres et de dignitaires en marche, portant des étendards et des insignes rituels. Dans le registre médian, des figures inclinées suggèrent des gestes d'adoration ou de présentation devant une barque sacrée, dont on devine les détails au niveau inférieur. Cette barque, élément central de la liturgie égyptienne, servait à transporter l'effigie divine hors du Saint des Saints lors des sorties processionnelles. La finesse des détails, comme les fleurs de lotus ornant les embarcations et les colonnes de textes hiéroglyphiques, permet de suivre pas à pas le protocole rigoureux des cérémonies thébaines.</p>
+    <p>L'architecture environnante rappelle que ces scènes étaient conçues pour être lues dans une semi-obscurité, uniquement éclairées par des torches. Ce décor saturé d'informations avait pour but de pérenniser les rites : même en l'absence de prêtres, la répétition magique des images et des textes garantissait la survie du culte et la faveur des dieux envers Ramsès III.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1180) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture murale, Tableaux & Mosaïque.</p>`
+  },
+  {
+    id: "sculpture_pilier_offrandes_hathor_anubis_bleu_lapis_medinet_habou",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (vers -1180 av. J.-C. / règne de Ramsès III)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1180,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Pilier à registres polychromes : Offrandes royales de papyrus à Hathor et dévotion à Anubis (Médinet Habou)",
+    site: "Temple funéraire de Ramsès III - Piliers intérieurs (Médinet Habou, Thèbes)",
+    originSite: "Thèbes-Ouest",
+    locationType: "site",
+    currentLocation: "In situ (Piliers intérieurs de Médinet Habou, Thèbes)",
+    category: "Bas-relief sur calcaire polychrome",
+    isHighlight: false,
+    chips: ["XXe dynastie", "Ramsès III", "Médinet Habou", "Déesse Hathor", "Dieu Anubis", "Bleu lapis-lazuli", "Collier ousekh"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPsfXNHjIfu8TSY784gXuNjUuhZokDxKagJqDzv2HjKcy9t8M2BNddVaA-p6WHNfojjGakoeY7b4u7jtKWrz9HvyktMhhGp59fnWLxVDdSao0ZtxPQVKYvQmVSMiEQs26Y2uQPpjz8imgU4R0mmiwzqpA=w1611-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Cette vue rapprochée d'un pilier intérieur du temple de Médinet Habou illustre la dévotion de Ramsès III envers le panthéon thébain à travers deux registres superposés d'une grande finesse polychrome. La conservation des pigments sur ce calcaire clair est exceptionnelle, révélant le bleu de lapis-lazuli des perruques divines et l'ocre rouge profond utilisé pour la carnation du pharaon. Ces scènes d'offrandes témoignent du rôle du roi comme seul intermédiaire légitime entre les hommes et les dieux.</p>
+    <p>Le registre supérieur montre le pharaon présentant des bouquets de papyrus et de lotus à une déesse, probablement Hathor ou Mout, reconnaissable à son disque solaire enserré entre des cornes lyres. La déesse, vêtue d'une robe fourreau d'un bleu éclatant, tient le sceptre Ouas et le signe Ankh, symboles de la domination et de la vie qu'elle s'apprête à insuffler au souverain.</p>
+    <p>Dans le registre inférieur, Ramsès III fait face au dieu Anubis, le protecteur des nécropoles à tête de chacal. Le dieu est représenté avec une peau d'un bleu sombre tirant sur le noir, évoquant la régénération et le limon fertile du Nil. La richesse des détails, depuis les perles des larges colliers ousekh jusqu'aux fines inscriptions hiéroglyphiques, fait de ce pilier un condensé de la splendeur spirituelle et artistique de la XXe dynastie.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1180) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_colonne_rituel_re_horakhty_khonsou_polychromie_medinet_habou",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (vers -1180 av. J.-C. / règne de Ramsès III)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1180,
+    domain: "sculpture_statuaire",
+    artifactType: "Décor architectural (fronton, frise, métope, chapiteau)",
+    title: "Colonne monumentale polychrome : Rituel d'offrande royale devant Rê-Horakhty et frise de chapiteau (Médinet Habou)",
+    site: "Temple funéraire de Ramsès III - Salle hypostyle (Médinet Habou, Thèbes)",
+    originSite: "Thèbes-Ouest",
+    locationType: "site",
+    currentLocation: "In situ (Salle hypostyle de Médinet Habou, Thèbes)",
+    category: "Décor architectural sur grès polychrome",
+    isHighlight: false,
+    chips: ["XXe dynastie", "Ramsès III", "Médinet Habou", "Colonne peinte", "Rê-Horakhty", "Silicate de cuivre", "Ocre rouge"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMeIZtO6PvQAtFNnb33g76EVwcAWRToOuYKo5BPbpFkXG6TP4bEtXUok5G89aXJysBj2aXsIX9RVwkcZFTFIB2685lVE2YKq7X7sP-0mpzKMpIfTNIoxfMNLuPBtfOCp8EspE0o82TOf1wjqRDHFnrUPg=w1611-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Cette scène polychrome, sculptée en bas-relief sur une colonne monumentale, provient du temple des millions d’années de Ramsès III à Médinet Habou, situé sur la rive occidentale de Thèbes. Édifié au XIIe siècle avant notre ère, durant la XXe dynastie, ce complexe constitue l’un des ensembles architecturaux les mieux préservés du Nouvel Empire, témoignant de la puissance souveraine et de la dévotion religieuse de l’époque ramesside.</p>
+    <p>L’image illustre un rituel d’offrande où le pharaon Ramsès III, reconnaissable à son pagne plissé et à ses parures royales, fait face à une divinité protectrice. La figure divine, surmontée d'un disque solaire, pourrait être une représentation de Rê-Horakhty ou de Khonsou, symbolisant le lien indéfectible entre le pouvoir terrestre et le cosmos divin. Entre les deux protagonistes, une colonne de hiéroglyphes finement gravés détaille les titres royaux et les formules de bénédiction nécessaires à la stabilité du royaume.</p>
+    <p>L’intérêt majeur de ce relief réside dans la conservation exceptionnelle de sa couche picturale : les pigments bleus, obtenus à partir de silicate de cuivre, ainsi que les ocres rouges et jaunes, restituent la vivacité originelle du sanctuaire. Au-dessus de la scène principale, une frise horizontale révèle des motifs géométriques et des cartouches royaux qui rythment la colonne.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1180) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_salle_hypostyle_colonnes_massives_echelle_humaine_medinet_habou",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (vers -1180 av. J.-C. / règne de Ramsès III)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1180,
+    domain: "sculpture_statuaire",
+    artifactType: "Décor architectural (fronton, frise, métope, chapiteau)",
+    title: "Salle hypostyle de Médinet Habou : Colonnes colossales peintes et perspective d'échelle monumentale",
+    site: "Temple funéraire de Ramsès III - Salle hypostyle (Médinet Habou, Thèbes)",
+    originSite: "Thèbes-Ouest",
+    locationType: "site",
+    currentLocation: "In situ (Salle hypostyle de Médinet Habou, Thèbes)",
+    category: "Décor architectural sur grès",
+    isHighlight: false,
+    chips: ["XXe dynastie", "Ramsès III", "Médinet Habou", "Salle hypostyle", "Colonnes monumentales", "Perspective", "Voûte céleste"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOdSz8c84dA-jpRRlZNUSK6ysFs_jX7Kl6aLz0TuOeB1C4wqbU3Enud9xmQzcfTCH2LIzu2AsfVmaNZHEvO3ct9eahrTRrBaD12S2rULx6Zueg_zQsCd-IpU1J7oEVWts_hjllTZiiu5--ryq1sWrGKKw=w1813-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Cette photographie contemporaine saisit l'immensité architecturale et la richesse chromatique du temple funéraire de Ramsès III, situé à Médinet Habou, sur la rive occidentale de l'ancienne Thèbes. L'image met en lumière la salle hypostyle où se dressent des colonnes massives dont les chapiteaux conservent des registres de hiéroglyphes et des reliefs sculptés d'une précision remarquable.</p>
+    <p>La perspective souligne le contraste saisissant entre l'ombre des structures de pierre et la lumière zénithale qui vient frapper le sol, révélant la silhouette d'une visiteuse. Cette présence humaine sert d'échelle de grandeur, illustrant la disproportion volontaire entre le mortel et le divin dans l'architecture pharaonique du Nouvel Empire. Elle confronte la modernité du voyageur à la pérennité millénaire des vestiges.</p>
+    <p>L'intérêt majeur de cette vue réside dans la préservation exceptionnelle des pigments d'origine visibles sur les plafonds et les parties hautes des colonnes, le bleu du plafond évoquant la voûte céleste protectrice sous laquelle le pharaon célébrait les rites de régénération perpétuelle.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1180) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_registres_offrandes_table_libations_amon_re_medinet_habou",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (vers -1180 av. J.-C. / règne de Ramsès III)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1180,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Registres d'offrandes à la table de libations et hommage devant Amon-Rê trônant (Médinet Habou)",
+    site: "Temple funéraire de Ramsès III - Parois intérieures (Médinet Habou, Thèbes)",
+    originSite: "Thèbes-Ouest",
+    locationType: "site",
+    currentLocation: "In situ (Parois de Médinet Habou, Thèbes)",
+    category: "Bas-relief sur grès polychrome",
+    isHighlight: false,
+    chips: ["XXe dynastie", "Ramsès III", "Médinet Habou", "Table de libations", "Amon-Rê trônant", "Polychromie vive", "Déesse léontocéphale"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOv2Cm79aCtkywA0eAjWVzVVrMjJbm68PZNyWuRiVnWMrcICe8zmlHLMPegGAsDPpRS2wynUHRFgpJJC_wHDNtd-KbIE4vWJOSNQz-__GTOhLVFXb1myFP3qNBXgpBg6kuL6YNfcyjBwkMc7Vv0WOXk6Q=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette vue rapprochée d'un mur du temple de Médinet Habou offre un témoignage exceptionnel de la polychromie égyptienne sous le règne de Ramsès III. Les registres superposés, sculptés en relief dans le grès, conservent une fraîcheur de teintes rare qui permet de lire les scènes rituelles avec une clarté quasi originelle. La composition est rythmée par une alternance de figures royales, de divinités et de colonnes de hiéroglyphes qui codifient le dialogue sacré entre le souverain et le monde divin.</p>
+    <p>Au registre supérieur, le pharaon est représenté accomplissant des rites d'offrandes devant les dieux, notamment face à une table de libations richement garnie. La précision du trait souligne les attributs royaux, tels que la couronne et le pagne plissé, tandis que les cartouches identifiant le roi sont gravés avec une vigueur particulière. L'usage du rouge ocre pour les chairs masculines respecte les conventions artistiques de l'époque, contrastant avec les détails bleus et verts des parures.</p>
+    <p>Le registre inférieur met en scène une assise de divinités trônant, parmi lesquelles on reconnaît Amon-Rê à sa haute coiffe de plumes ainsi qu'une déesse léontocéphale. Les textes hiéroglyphiques comblent harmonieusement les espaces pour créer une plénitude visuelle remarquable.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1180) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_chapelle_laterale_kheprech_encens_libation_medinet_habou",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (vers -1180 av. J.-C. / règne de Ramsès III)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1180,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Chapelle latérale de culte intime : Ramsès III au khépresh officiant à l'encensoir et vases à onguents (Médinet Habou)",
+    site: "Temple funéraire de Ramsès III - Chapelles latérales (Médinet Habou, Thèbes)",
+    originSite: "Thèbes-Ouest",
+    locationType: "site",
+    currentLocation: "In situ (Chapelles latérales de Médinet Habou, Thèbes)",
+    category: "Décor architectural sur grès polychrome",
+    isHighlight: false,
+    chips: ["XXe dynastie", "Ramsès III", "Médinet Habou", "Chapelle latérale", "Khépresh", "Encensement", "Culte intime"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNUgopS6hq7dGK_X8BA68wdxIuTmx3mmYy8UY1gmtBbL1_ENFsOEqpO4_d4RHke3OmPVlkDghnn-NXCAK8-u0z8-bx-UjmOlwuRscKDgqu-PmoZKMI78QihnANcXBITy5hc-vr2NFwVvSYsg5ff-QJgdA=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette vue plongeante dans l'une des chapelles latérales du temple de Médinet Habou témoigne de l'intimité des espaces sacrés dédiés au culte quotidien des divinités. Les parois convergent vers un angle droit où se déploient des scènes de rituels d'encensement et de libation, orchestrées par Ramsès III. La structure fermée de la pièce, associée à la présence d'un plafond partiellement conservé aux motifs astronomiques, recrée l'atmosphère feutrée et mystique qui régnait autrefois lors des cérémonies privées menées par le pharaon ou les hauts prêtres.</p>
+    <p>Sur la paroi de droite, la silhouette élancée du roi se détache avec une vigueur chromatique intacte, coiffée du Khépresh, la couronne bleue de victoire. Il tient dans ses mains des vases à onguents et des encensoirs, gestes cruciaux pour apaiser la divinité et maintenir l'harmonie cosmique. La finesse des détails, notamment dans le rendu du pagne transparent et des parures royales, souligne le haut degré de maîtrise des ateliers thébains.</p>
+    <p>La paroi du fond présente des scènes de face-à-face où le souverain est accueilli par les dieux, confirmant son statut d'intermédiaire unique entre le ciel et la terre. La persistance des pigments bleus sur les trônes divins et des rouges profonds sur les chairs royales forme une unité théologique cohérente.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1180) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+   {
     id: "sculpture_ramses_ii_char_bataille_qadesh_ramesseum",
     civId: "egypte",
     periodId: "nouvel_empire",
