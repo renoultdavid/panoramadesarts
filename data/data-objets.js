@@ -6,6 +6,657 @@ window.ART_OBJECTS = window.ART_OBJECTS || [];
 window.ART_OBJECTS.push(
 
   {
+    id: "sculpture_procession_ihy_sistre_hathor_horus_denderah",
+    civId: "egypte",
+    periodId: "ptolemaique",
+    civName: "Égypte : Époque ptolémaïque",
+    century: "Époque gréco-romaine (Ier s. av. J.-C. - Ier s. ap. J.-C.)",
+    centuryDisplay: "Ier s. av. J.-C.",
+    centuryNumeric: -50,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Procession rituelle du pharaon offrant le plateau, jeune Ihy au sistre et ménat devant la triade d'Hathor (Dendérah)",
+    site: "Temple d'Hathor - Paroi extérieure sud (Dendérah)",
+    originSite: "Dendérah",
+    locationType: "site",
+    currentLocation: "In situ (Paroi extérieure sud du Temple de Dendérah)",
+    category: "Relief en creux sur grès",
+    isHighlight: false,
+    chips: ["Époque ptolémaïque", "Dendérah", "Déesse Hathor", "Enfant-dieu Ihy", "Sistre", "Collier ménat", "Horus faucon"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOsS5gZ2sQBLAoj4D0LFwsEvMmEGwIQPBYPbWcNgQuI462SnymblUtiF_12VFfcIGmbRKCZ8LpOWHOAWTJbr8rm1Hn00F0osVD4QHW7B_rCdNkUVVlTVmDXb28p5dBfF3SyENObdKRsEpVXfg9KxF82rA=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce bas-relief monumental orne la paroi extérieure sud du grand temple d'Hathor à Dendérah, un chef-d'œuvre de l'époque ptolémaïque et romaine. La scène illustre une procession rituelle d'une grande complexité théologique, où le souverain rend hommage aux divinités majeures du sanctuaire. L'exécution en relief dans le grès se distingue par la rondeur des formes, caractéristique du style de cette période tardive, offrant une sensation de volume et de vie à la pierre.</p>
+    <p>À gauche, le pharaon, coiffé de la couronne blanche de Haute-Égypte, s'avance pour présenter des offrandes alimentaires disposées sur un plateau. Il est suivi par deux figures plus petites, probablement des représentations du jeune dieu Ihy ou du souverain sous une forme juvénile, jouant du sistre et agitant un collier ménat. Ces instruments de musique sont intrinsèquement liés au culte d'Hathor, destinés à apaiser la déesse et à instaurer l'harmonie universelle.</p>
+    <p>Le cortège divin accueille ces offrandes avec solennité. En tête se tient la déesse Hathor, reconnaissable à sa coiffe composée de cornes lyres enserrant le disque solaire. Elle est suivie par deux formes d'Horus, le dieu faucon, arborant respectivement la double couronne (Pschent) et la couronne de plumes. L'ensemble de la scène repose sur une frise décorative composée de fleurs de lotus et de papyrus alternées, transformant le mur en une archive sacrée et immuable.</p>
+    <p><strong>Siècle :</strong> Ier siècle av. J.-C. (-50) | <strong>Civilisation :</strong> Égypte ptolémaïque | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_salle_hypostyle_colonnes_hathoriques_plafond_astronomique_denderah",
+    civId: "egypte",
+    periodId: "romaine",
+    civName: "Égypte : Époque romaine",
+    century: "Époque romaine (Ier s. ap. J.-C. / règne de Tibère)",
+    centuryDisplay: "Ier s. ap. J.-C.",
+    centuryNumeric: 25,
+    domain: "sculpture_statuaire",
+    artifactType: "Décor architectural (fronton, frise, métope, chapiteau)",
+    title: "Grande Salle Hypostyle du pronaos de Tibère : Vingt-quatre colonnes hathoriques et abaque en sistre (Dendérah)",
+    site: "Temple d'Hathor - Pronaos de Tibère (Dendérah)",
+    originSite: "Dendérah",
+    locationType: "site",
+    currentLocation: "In situ (Salle hypostyle du Temple de Dendérah)",
+    category: "Décor architectural sur grès polychrome",
+    isHighlight: true,
+    chips: ["Époque romaine", "Dendérah", "Empereur Tibère", "Colonnes hathoriques", "Sistre sacré", "Plafond astronomique", "Bleu égyptien"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMaZQtD3wQiwuVaWr0S6OjKdmXRMC1IqjR9QJlguNlVieeLtaM3wEQqgqRgbZZlu0Cdc2JP_P5GP_DjWuT5fL0LxCQepCh293IPURySW8IX-vwfUJFehfTWDWN2Bp9S3QtIBr55ANW7Pgx8WxWwFZ7Rfw=w1611-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Voici la grande salle hypostyle du temple d'Hathor à Dendérah, un espace architectural grandiose érigé sous le règne de l'empereur Tibère. Véritable forêt de pierre, cette salle est soutenue par vingt-quatre colonnes monumentales dont les chapiteaux sont sculptés sur les quatre faces à l'image de la déesse Hathor. Ces visages, dits « hathoriques », présentent des oreilles de vache et sont surmontés d'un abaque en forme de sistre, l'instrument sacré dont le son est censé dissiper la colère divine et célébrer la joie.</p>
+    <p>Les fûts des colonnes ainsi que les parois de la salle sont entièrement recouverts de registres superposés de bas-reliefs. On y voit le souverain, agissant en tant que grand prêtre, accomplissant une multitude de rites et d'offrandes devant les divinités du complexe. La polychromie, exceptionnellement bien conservée après les récents travaux de restauration, permet d'admirer la vivacité des pigments originaux, notamment le fameux « bleu égyptien » qui domine les scènes célestes.</p>
+    <p>Le plafond de la salle constitue un trésor de l'astronomie antique. Divisé en sept travées, il dépeint une cosmographie complexe où figurent les signes du zodiaque, les constellations, les planètes et les divinités des heures du jour et de la nuit. On y observe notamment la déesse du ciel, Nout, dont le corps étiré semble envelopper l'univers, avalant le soleil le soir pour le mettre au monde chaque matin.</p>
+    <p><strong>Siècle :</strong> Ier siècle ap. J.-C. (25) | <strong>Civilisation :</strong> Égypte gréco-romaine | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_perspective_hypostyle_colonnes_hathoriques_bleu_egyptien_denderah",
+    civId: "egypte",
+    periodId: "romaine",
+    civName: "Égypte : Époque romaine",
+    century: "Époque romaine (Ier s. ap. J.-C. / règne de Tibère)",
+    centuryDisplay: "Ier s. ap. J.-C.",
+    centuryNumeric: 25,
+    domain: "sculpture_statuaire",
+    artifactType: "Décor architectural (fronton, frise, métope, chapiteau)",
+    title: "Perspective axiale du pronaos : Colonnes hathoriques quadrifrontes et registres rituels impériaux (Dendérah)",
+    site: "Temple d'Hathor - Pronaos (Dendérah)",
+    originSite: "Dendérah",
+    locationType: "site",
+    currentLocation: "In situ (Pronaos de Tibère, Temple de Dendérah)",
+    category: "Décor architectural sur grès polychrome",
+    isHighlight: false,
+    chips: ["Époque romaine", "Dendérah", "Chapiteaux hathoriques", "Quadrifront", "Bleu égyptien", "Restauration", "Cosmogonie"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOFGj7PxqEUKLNEb5NPdcnB4xexVRwIcHp7p9-nRMFuoP7cONhvN22SiKBX_veSKygIadpqXBoFy20uRuZ30zA8U4KIlBIOic641FPBlX4591RAOTrLxlnbLyDbUAnfajD-B8RMB55867Sol-ne4XhLeA=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>L'espace est structuré par vingt-quatre colonnes monumentales dont les chapiteaux sont sculptés sur leurs quatre faces du visage de la déesse Hathor. Ces visages « hathoriques », aux oreilles de vache caractéristiques, soutiennent un abaque en forme de sistre, l'instrument de musique sacré destiné à apaiser la divinité.</p>
+    <p>Les fûts des colonnes sont entièrement recouverts de registres de bas-reliefs illustrant le souverain, agissant en tant que grand prêtre, accomplissant des rituels et présentant des offrandes aux dieux. La conservation exceptionnelle des pigments permet de distinguer nettement le « bleu égyptien » utilisé pour les décors célestes, contrastant avec la teinte ocre du grès. Chaque centimètre carré de pierre semble porteur d'une archive théologique immuable.</p>
+    <p>Le plafond de la salle constitue l'un des plus importants cycles astronomiques de l'Égypte ancienne. Il dépeint une cosmographie complexe où figurent les constellations, les signes du zodiaque et les divinités des heures du jour et de la nuit. La déesse du ciel, Nout, est représentée étirant son corps pour envelopper l'univers, symbolisant le cycle éternel de la naissance et de la mort du soleil.</p>
+    <p><strong>Siècle :</strong> Ier siècle ap. J.-C. (25) | <strong>Civilisation :</strong> Égypte gréco-romaine | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "peinture_plafond_astronomique_disque_solaire_mains_nout_denderah",
+    civId: "egypte",
+    periodId: "romaine",
+    civName: "Égypte : Époque romaine",
+    century: "Époque romaine (Ier s. ap. J.-C. / règne de Tibère)",
+    centuryDisplay: "Ier s. ap. J.-C.",
+    centuryNumeric: 25,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Plafond astronomique : Disque solaire aux mains radiantes, barques célestes et corps de Nout (Dendérah)",
+    site: "Temple d'Hathor - Plafond de la salle hypostyle (Dendérah)",
+    originSite: "Dendérah",
+    locationType: "site",
+    currentLocation: "In situ (Plafond du pronaos, Temple de Dendérah)",
+    category: "Peinture sur grès et relief peint",
+    isHighlight: true,
+    chips: ["Époque romaine", "Dendérah", "Plafond astronomique", "Déesse Nout", "Rayons amarniens", "Barques célestes", "Bleu égyptien"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOWnNGhP1u2DUqeTH4XmsyTZhssYA9aXPVrXGLGUqVW4pMB8ab9Uk5BRVSD-b_izxP7RK4DjeafsZOJPIs0HGUKxKQqSuOzydHTkbuyrwHpEPPkU_sUNbf3zS_CBQruYpgk7k5LtCsBDfh-ds_n0Q1k3g=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce secteur du plafond illustre la cosmologie égyptienne avec une vivacité chromatique exceptionnelle, préservée par des siècles de suie protectrice avant sa récente restauration. Le bleu égyptien, utilisé pour le fond céleste, symbolise l'étendue infinie du ciel nocturne où se jouent les cycles divins.</p>
+    <p>La scène centrale est dominée par le cycle de la lumière et du temps. On y observe un disque solaire rayonnant, dont les rayons se terminent parfois par de petites mains, une réminiscence de l'iconographie amarnienne, diffusant la vie sur un visage hathorique stylisé. À proximité, des barques solaires et lunaires transportent les divinités à travers le firmament, naviguant sur les eaux célestes représentées par des lignes brisées bleues et blanches, rappelant que pour les Égyptiens, le ciel était un océan primordial.</p>
+    <p>Le décor est peuplé de constellations et de divinités décaniques, accompagnées d'inscriptions hiéroglyphiques finement détaillées qui nomment les corps célestes et les heures. Un corps féminin partiel, appartenant à la déesse Nout, encadre ces scènes, ses membres s'étirant pour former la voûte du ciel. Les étoiles à cinq branches, parsemées avec régularité sur le fond bleu, transforment la pierre en une carte astronomique sacrée.</p>
+    <p><strong>Siècle :</strong> Ier siècle ap. J.-C. (25) | <strong>Civilisation :</strong> Égypte gréco-romaine | <strong>Sous-partie :</strong> Peinture murale, Tableaux & Mosaïque.</p>`
+  },
+  {
+    id: "peinture_plafond_lunaire_taureau_du_ciel_decans_noun_denderah",
+    civId: "egypte",
+    periodId: "romaine",
+    civName: "Égypte : Époque romaine",
+    century: "Époque romaine (Ier s. ap. J.-C. / règne de Tibère)",
+    centuryDisplay: "Ier s. ap. J.-C.",
+    centuryNumeric: 25,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture murale / Fresque",
+    title: "Plafond astronomique : Le taureau dans le disque lunaire, barques des décans et fleuve céleste du Noun (Dendérah)",
+    site: "Temple d'Hathor - Plafond de la salle hypostyle (Dendérah)",
+    originSite: "Dendérah",
+    locationType: "site",
+    currentLocation: "In situ (Plafond du pronaos, Temple de Dendérah)",
+    category: "Peinture sur grès et relief peint",
+    isHighlight: false,
+    chips: ["Époque romaine", "Dendérah", "Disque lunaire", "Taureau du ciel", "Décans", "Eaux du Noun", "Calendrier astronomique"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNTqwFpDdE1py4ATyfJT7N78jw_2EbSX0SrG1juM73d6rcQA_MuZWhaXLAOAeruncTMcCv0M-qOLlicwuSwTNEUz0M8wk9ESVNbdPuVIeTeJ2-0AhWnawjOP7Y98IxQ5WAn0JOIopgb8T4NXqN-l2Exjg=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Le décor, restauré avec éclat, met en scène une procession de divinités naviguant sur l'océan céleste. Chaque figure, debout dans une embarcation effilée, représente une étoile ou un groupe d'astres (les décans) qui rythment les heures de la nuit et les semaines du calendrier égyptien.</p>
+    <p>L'élément central de ce panneau est le disque lunaire, représenté sous la forme d'un cercle parfait contenant un taureau, symbole de vigueur et de renouvellement constant. Cette iconographie souligne la fonction de la Lune comme « taureau du ciel », dont les phases marquent le temps biologique et rituel. Autour de cet astre, une multitude d'étoiles à cinq branches parsèment le fond d'un bleu profond, créant une cartographie spirituelle du firmament.</p>
+    <p>La composition est rythmée par des colonnes de textes hiéroglyphiques qui agissent comme une légende céleste, identifiant les puissances divines à l'œuvre. À droite, une large bande décorative de motifs géométriques en zigzag symbolise l'eau primordiale, le Noun, sur laquelle flottent les astres. La finesse des détails, des visages de profil aux postures hiératiques des dieux, témoigne de la persistance de l'artisanat de haute volée sous l'occupation romaine.</p>
+    <p><strong>Siècle :</strong> Ier siècle ap. J.-C. (25) | <strong>Civilisation :</strong> Égypte gréco-romaine | <strong>Sous-partie :</strong> Peinture murale, Tableaux & Mosaïque.</p>`
+  },
+  {
+    id: "sculpture_pilier_colonne_registres_offrandes_hathor_denderah",
+    civId: "egypte",
+    periodId: "romaine",
+    civName: "Égypte : Époque romaine",
+    century: "Époque romaine (Ier s. ap. J.-C. / règne de Tibère)",
+    centuryDisplay: "Ier s. ap. J.-C.",
+    centuryNumeric: 25,
+    domain: "sculpture_statuaire",
+    artifactType: "Décor architectural (fronton, frise, métope, chapiteau)",
+    title: "Registre vertical sur colonne hathorique : Offrandes du pharaon romain devant Hathor et Horus (Dendérah)",
+    site: "Temple d'Hathor - Pronaos (Dendérah)",
+    originSite: "Dendérah",
+    locationType: "site",
+    currentLocation: "In situ (Pronaos de Tibère, Temple de Dendérah)",
+    category: "Décor architectural sur grès",
+    isHighlight: false,
+    chips: ["Époque romaine", "Dendérah", "Fût de colonne", "Déesse Hathor", "Rites d'offrandes", "Colonnes de textes"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMyqzDrk-9bat06vLHheLijiwCLUgNQ6yXLD6amnPVaB3ZjccB5Wg-3cXBR3EQK6VicXfFDZICPefGQC52cssvISpuY5yL2PROZ1bmgOMjzWnFrNZA9OqKCaW3muFRecbgm_sOQpWw91OujihiI9lCBCQ=w1813-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Cette vue verticale détaille l'un des fûts massifs de colonnes de la grande salle hypostyle de Dendérah, illustrant la manière dont la surface cylindrique en grès est compartimentée en registres sculptés superposés. Chaque niveau met en scène l'empereur romain assimilé à Pharaon, exécutant des actes rituels rigoureusement codifiés devant le panthéon local.</p>
+    <p>Le registre médian montre le roi debout, coiffé d'une couronne d'apparat, tendant des vases de libation et des offrandes alimentaires vers la déesse Hathor assise, coiffée de ses cornes lyres et du disque solaire. Les modelés charnus et vigoureux des corps, rehaussés par la lumière rasante, témoignent de la stylistique ptolémaïque et romaine tardive où les formes s'épaississent tout en conservant une précision extrême dans le tracé des parures et des colliers.</p>
+    <p>Des colonnes denses de textes hiéroglyphiques comblent chaque interstice, scellant le rôle du souverain comme garant du culte et bénéficiaire de la vie, de la force et de la pérennité accordées par la divinité.</p>
+    <p><strong>Siècle :</strong> Ier siècle ap. J.-C. (25) | <strong>Civilisation :</strong> Égypte gréco-romaine | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_symetrie_rituelle_hathor_ihy_sistre_hemhem_denderah",
+    civId: "egypte",
+    periodId: "ptolemaique",
+    civName: "Égypte : Époque ptolémaïque",
+    century: "Époque ptolémaïque (Ier s. av. J.-C. / dynastie lagide)",
+    centuryDisplay: "Ier s. av. J.-C.",
+    centuryNumeric: -50,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Double scène symétrique : Adoration d'Hathor par le pharaon à la couronne Hemhem et le jeune Ihy au sistre (Dendérah)",
+    site: "Temple d'Hathor - Parois intérieures (Dendérah)",
+    originSite: "Dendérah",
+    locationType: "site",
+    currentLocation: "In situ (Parois du Temple de Dendérah)",
+    category: "Relief en creux sur grès",
+    isHighlight: false,
+    chips: ["Époque ptolémaïque", "Dendérah", "Déesse Hathor", "Enfant-dieu Ihy", "Couronne Hemhem", "Symétrie rituelle", "Sistre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczM6xJ2_PRGDS-7ypfcPK7BOm1TlNUqyChwlr9wNaisLTRTGVKRVRNc8DqhnwJKUhgtKOzvyL-daJ-VCW3DVVvr0-RxOVMNz3O4XFl6safV9GqQfECB1d6J8h2kb-fF8eE_PZpUWPFe9ShA65VT5Immy0A=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette œuvre magistrale est un relief sculpté en creux provenant du temple d’Hathor à Dendérah, l’un des sanctuaires les mieux préservés de la période ptolémaïque en Égypte. La scène présente une symétrie rigoureuse, typique de l’art égyptien tardif, où les rituels sont dédoublés pour maintenir l’équilibre cosmique. Elle illustre la piété royale à travers une iconographie riche, marquée par la présence de figures divines et royales qui dialoguent dans un espace sacré saturé d’inscriptions hiéroglyphiques.</p>
+    <p>Au centre de la composition se tiennent deux représentations de la déesse Hathor, reconnaissable à sa coiffe composée de cornes lyres enserrant le disque solaire. Elle est ici la figure centrale, maîtresse des lieux, recevant les hommages de part et d’autre. Devant elle, de jeunes héritiers royaux, souvent identifiés à Ihy, le fils d’Hathor, participent au rite en agitant le sistre, un instrument de musique sacré dont les vibrations étaient censées apaiser les divinités et assurer la joie universelle.</p>
+    <p>Aux extrémités, le pharaon, coiffé de la couronne Hemhem, s’avance dans une attitude de respect et de dévotion. Il présente des offrandes pour garantir la prospérité du royaume et la faveur divine. La finesse de l'exécution, visible dans le modelé des corps et le détail des parures, témoigne du renouveau artistique de la Basse Époque.</p>
+    <p><strong>Siècle :</strong> Ier siècle av. J.-C. (-50) | <strong>Civilisation :</strong> Égypte ptolémaïque | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_dedoublement_royal_hemhem_pschent_hathor_ouas_denderah",
+    civId: "egypte",
+    periodId: "ptolemaique",
+    civName: "Égypte : Époque ptolémaïque",
+    century: "Époque ptolémaïque (Ier s. av. J.-C. / dynastie lagide)",
+    centuryDisplay: "Ier s. av. J.-C.",
+    centuryNumeric: -50,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Dédoublement du souverain au Hemhem et Pschent encadrant la déesse Hathor au sceptre Ouas (Dendérah)",
+    site: "Temple d'Hathor - Parois intérieures (Dendérah)",
+    originSite: "Dendérah",
+    locationType: "site",
+    currentLocation: "In situ (Parois du Temple de Dendérah)",
+    category: "Relief en creux sur calcaire",
+    isHighlight: false,
+    chips: ["Époque ptolémaïque", "Dendérah", "Déesse Hathor", "Couronne Hemhem", "Couronne Pschent", "Sceptre Ouas", "Signe Ânkh"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOgldK1I40ZH0rLL3IP2lFaenv3lCRn1f5DW0cgaK5FTny_15rT2m4uneLkJUFvGMXx_vltKYxvPViSn2EXBevxqyBUdmIf2KB8InDaLMf8kzMveAM_TeDG5VxffK7WY_D5dkTe9nH7-_x-3Rmr_cr8pQ=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce relief en calcaire, issu des parois internes du temple de Dendérah, illustre un moment crucial de l'interaction entre le temporel et le divin à l'époque ptolémaïque. La scène met en avant une triade de figures majestueuses, sculptées avec une vigueur et une précision qui soulignent le rôle central du pharaon en tant que garant de l'ordre cosmique, la Maât. Au centre trône la déesse Hathor, parée de ses attributs iconographiques traditionnels : la longue perruque tripartite, le large collier ousekh et la couronne aux cornes lyres enserrant le disque solaire. Elle tient d'une main le sceptre ouas, symbole de puissance, et de l'autre le signe de vie ankh, qu'elle semble infuser aux souverains qui l'encadrent.</p>
+    <p>À gauche, le roi est représenté dans une attitude d'offrande fervente, brandissant des tiges végétales, probablement des fleurs de lotus ou de papyrus, symboles de la régénération et de l'unification des Terres. Il porte la couronne Hemhem, une coiffe complexe composée de trois touffes de roseaux surmontées de disques solaires et flanquées d'uræus, soulignant son autorité divine lors des cérémonies les plus solennelles.</p>
+    <p>Sur la droite, une seconde figure royale, portant la couronne Pschent qui combine la couronne blanche de Haute-Égypte et la couronne rouge de Basse-Égypte, complète la scène. Ce dédoublement de la figure royale, fréquent dans le temple de Dendérah, permet de représenter le pharaon sous ses différentes fonctions et titres, assurant que chaque aspect de sa souveraineté est validé par la divinité.</p>
+    <p><strong>Siècle :</strong> Ier siècle av. J.-C. (-50) | <strong>Civilisation :</strong> Égypte ptolémaïque | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_registres_superposes_angle_sanctuaire_hathor_sekhmet_denderah",
+    civId: "egypte",
+    periodId: "ptolemaique",
+    civName: "Égypte : Époque ptolémaïque",
+    century: "Époque ptolémaïque (Ier s. av. J.-C. / dynastie lagide)",
+    centuryDisplay: "Ier s. av. J.-C.",
+    centuryNumeric: -50,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Angle du sanctuaire : Registres de liturgie royale, divinité léontocéphale et motif du Sema-Taouy (Dendérah)",
+    site: "Temple d'Hathor - Angle du sanctuaire intérieur (Dendérah)",
+    originSite: "Dendérah",
+    locationType: "site",
+    currentLocation: "In situ (Sanctuaire intérieur du Temple de Dendérah)",
+    category: "Relief en creux sur grès",
+    isHighlight: false,
+    chips: ["Époque ptolémaïque", "Dendérah", "Angle architectural", "Hathor-Sekhmet", "Sema-Taouy", "Léontocéphale", "Allaitement divin"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMlrW0fGsXGjNwrx0LIeRRFSLhXjGpPp9nvmcQHyU6jv0OlPYEeemfx6MFGZ0rUOXKXcwFjoz3uz9g43eRbtjB6vRgUZ48pdPtR8A0OjZxr4gRzHR3L_Llw0fFiy2s1-jo0rcW0R3X3Gq17KS0j7URzSw=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette vue d'ensemble d'un angle du sanctuaire révèle l'organisation rigoureuse de l'espace sacré, où les registres superposés fonctionnent comme une bande dessinée liturgique. Les parois sont rythmées par la rencontre systématique entre le monde divin et le pouvoir royal, chaque scène étant séparée par de fines colonnes de textes hiéroglyphiques. La lumière rasante met en relief la technique de la sculpture en creux, particulièrement adaptée aux intérieurs de temples pour créer un jeu de contrastes saisissant qui anime les figures de divinités comme Hathor et Horus lors des processions rituelles.</p>
+    <p>Le registre inférieur présente une scène de présentation où le pharaon, coiffé de la double couronne, s'avance vers une divinité léontocéphale ou un aspect d'Hathor-Sekhmet, illustrant la fonction de médiateur du roi. À ses côtés, on distingue des figures de génies et de divinités mineures qui assistent à l'acte d'offrande, renforçant l'idée que le temple est un microcosme où chaque entité a un rôle précis pour maintenir l'harmonie du monde.</p>
+    <p>Dans le registre supérieur, les scènes se font plus intimes et solennelles, montrant souvent la déesse Hathor allaitant le jeune héritier ou recevant des hommages assis sur un trône archaïque orné du signe de l'union des Deux Terres (Sema-Taouy).</p>
+    <p><strong>Siècle :</strong> Ier siècle av. J.-C. (-50) | <strong>Civilisation :</strong> Égypte ptolémaïque | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_cycle_osirien_resurrection_lit_leonin_milan_denderah",
+    civId: "egypte",
+    periodId: "ptolemaique",
+    civName: "Égypte : Époque ptolémaïque",
+    century: "Époque ptolémaïque (Ier s. av. J.-C. / dynastie lagide)",
+    centuryDisplay: "Ier s. av. J.-C.",
+    centuryNumeric: -50,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Mystères osiriens : Résurrection d'Osiris sur le lit léonin et Isis métamorphosée en milan (Dendérah)",
+    site: "Temple d'Hathor - Chapelles osiriennes du toit (Dendérah)",
+    originSite: "Dendérah",
+    locationType: "site",
+    currentLocation: "In situ (Chapelles du toit du Temple de Dendérah)",
+    category: "Bas-relief sur calcaire",
+    isHighlight: true,
+    chips: ["Époque ptolémaïque", "Dendérah", "Mystères d'Osiris", "Lit léonin", "Isis en milan", "Résurrection", "Chapelles du toit"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNvlm4F-znZy7sAudqFyHsqzrYp9tRxZp4DUlLjIdaz2rd5n2VG1e6fC4PPNOHXf3KlZWINnvw6ucbn_I5Y7YaCj75NKb0cIRQ4BDpWia3NhiMV302Db7Q1LPSGNH8GVAaiyncvHEhXO2CtMD1FWwaDzQ=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette œuvre est un bas-relief sculpté sur les parois intérieures du temple d'Hathor à Dendérah, l'un des sites les mieux préservés de la période ptolémaïque en Égypte. Elle illustre un moment crucial du cycle osirien, pilier de la spiritualité égyptienne ancienne, à savoir la résurrection mystique du dieu Osiris. La scène se déroule sur un lit funéraire dont les pieds imitent les pattes d'un lion, symbole de protection et de passage entre le monde des morts et celui des vivants.</p>
+    <p>Au centre de la composition, la momie d'Osiris est étendue, tandis que son épouse Isis, métamorphosée en milan, plane au-dessus de lui pour recueillir son souffle vital et initier sa renaissance. Cette représentation souligne le rôle fondamental du divin féminin dans la perpétuation de la vie et la régulation du cosmos. À gauche, une figure féminine, probablement une autre forme d'Isis ou sa sœur Nephthys, veille sur le défunt dans une posture d'adoration et de protection rituelle.</p>
+    <p>L'iconographie est enrichie par de nombreux détails symboliques, comme la présence de cobras protecteurs sous le lit funéraire et d'un chat assis à droite, incarnant la vigilance contre les forces du chaos. Les inscriptions hiéroglyphiques qui entourent la scène fournissent les incantations nécessaires au bon déroulement du rituel.</p>
+    <p><strong>Siècle :</strong> Ier siècle av. J.-C. (-50) | <strong>Civilisation :</strong> Égypte ptolémaïque | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_zodiaque_circulaire_denderah_louvre",
+    civId: "egypte",
+    periodId: "ptolemaique",
+    civName: "Égypte : Époque ptolémaïque",
+    century: "Époque ptolémaïque (vers -50 av. J.-C. / règne de Cléopâtre VII)",
+    centuryDisplay: "Ier s. av. J.-C.",
+    centuryNumeric: -50,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Le Zodiaque circulaire de Dendérah : Carte astronomique céleste soutenue par les piliers du ciel",
+    site: "Temple d'Hathor - Chapelle d'Osiris (Dendérah)",
+    originSite: "Dendérah",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes)",
+    category: "Plafond astronomique sculpté en grès",
+    isHighlight: true,
+    chips: ["Époque ptolémaïque", "Dendérah", "Zodiaque", "Musée du Louvre", "Constellations", "Décans", "Planètes", "Astronomie"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNA6qNeKuYCafBSSMEGQdAf-yspUfAd1W3L-IP1WnKndaURAYvWAcX7tDO1DZzYde1hCdFo27OqnRTf7_NBsBPV5diYF-25foAOQYJ4sin-y-IhUIK5crCc6wzYUlcx7YW-JpU1IsJIvXdszB5gk_YQSw=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette œuvre est le célèbre Zodiaque de Dendérah, un bas-relief circulaire exceptionnel qui ornait originellement le plafond d'une chapelle dédiée à Osiris dans le temple d'Hathor. Cette pièce, dont l'original est aujourd'hui conservé au musée du Louvre, représente la voûte céleste telle que conçue par les Égyptiens à l'époque ptolémaïque. Elle constitue un document scientifique et religieux unique, fusionnant l'astronomie babylonienne et grecque avec les traditions cosmogoniques égyptiennes millénaires.</p>
+    <p>Le disque est soutenu par huit divinités agenouillées et quatre figures féminines debout aux angles, symbolisant les piliers du ciel. Au centre de la composition, on distingue les constellations du ciel boréal, comme la Grande Ourse représentée sous la forme d'une cuisse de bœuf, entourées des signes du zodiaque que nous connaissons encore aujourd'hui, tels que le Lion, le Scorpion ou le Sagittaire. Cette organisation circulaire témoigne d'une maîtrise complexe de la projection d'une sphère sur une surface plane.</p>
+    <p>Au-delà des constellations zodiacales, la carte inclut les trente-six décans, des groupes d'étoiles dont le lever héliaque marquait les heures de la nuit et les subdivisions de l'année égyptienne. On y trouve également des représentations des planètes, chacune associée à une divinité spécifique. L'ensemble servait non seulement d'horloge astrale, mais aussi de manifeste théologique illustrant le lien indéfectible entre les cycles célestes et la régénération d'Osiris.</p>
+    <p><strong>Siècle :</strong> Ier siècle av. J.-C. (-50) | <strong>Civilisation :</strong> Égypte ptolémaïque | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_revitalisation_osiris_lits_leonins_faucons_ba_denderah",
+    civId: "egypte",
+    periodId: "ptolemaique",
+    civName: "Égypte : Époque ptolémaïque",
+    century: "Époque ptolémaïque (Ier s. av. J.-C. / dynastie lagide)",
+    centuryDisplay: "Ier s. av. J.-C.",
+    centuryNumeric: -50,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Revitalisation d'Osiris sur lits léonins superposés et procession des génies sur signes nébou (Dendérah)",
+    site: "Temple d'Hathor - Chapelles osiriennes du toit (Dendérah)",
+    originSite: "Dendérah",
+    locationType: "site",
+    currentLocation: "In situ (Chapelles du toit du Temple de Dendérah)",
+    category: "Relief en creux sur grès",
+    isHighlight: false,
+    chips: ["Époque ptolémaïque", "Dendérah", "Lits léonins", "Oiseau-Ba", "Signe Nébou", "Fêtes de Khoiak", "Régénération"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNnaLKMpad_azXJLU9Xhzp4W6hspTFKOJlAMV_4vVgdsgs6wkXEBGNNHSGJ6n_N3Y2usDkoIJOmjSc5Aa6lonstsgcVjNKv_UZIFN9BVLIktt9-e2r-H0hn9-uE_uwkvsfGLu9Xt1cqry7npyENZHobhA=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce bas-relief provient également des chapelles osiriennes situées sur le toit du temple d'Hathor à Dendérah. Il détaille avec une précision rituelle les étapes de la revitalisation d'Osiris, le dieu souverain de l'au-delà. La scène se divise en plusieurs registres où le corps du dieu est disposé sur des lits funéraires léonins, un motif récurrent symbolisant la transition entre le repos mortuaire et l'éveil spirituel. Chaque lit est surmonté d'un faucon ou d'un oiseau-ba, représentant l'âme divine veillant sur la dépouille pour assurer son intégrité physique et mystique.</p>
+    <p>Dans le registre supérieur, on observe la progression de la métamorphose d'Osiris. À gauche, le dieu est encore passif, tandis qu'à droite, sa posture suggère un début de redressement, signe de sa victoire imminente sur la mort. Les figures de faucons coiffés de couronnes rituelles encadrent ces lits comme des sentinelles divines pour activer magiquement la renaissance du dieu lors des mystères du mois de Khoiak.</p>
+    <p>Le registre inférieur présente une procession de divinités et de génies protecteurs, chacun juché sur des signes « nébou » (l'or, matière de la chair divine), tenant des sceptres pour repousser les puissances perturbatrices.</p>
+    <p><strong>Siècle :</strong> Ier siècle av. J.-C. (-50) | <strong>Civilisation :</strong> Égypte ptolémaïque | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_barque_sacree_hathor_naos_proues_hathoriques_denderah",
+    civId: "egypte",
+    periodId: "ptolemaique",
+    civName: "Égypte : Époque ptolémaïque",
+    century: "Époque ptolémaïque (Ier s. av. J.-C. / dynastie lagide)",
+    centuryDisplay: "Ier s. av. J.-C.",
+    centuryNumeric: -50,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "La barque processionnelle d'Hathor à double proue hathorique et mobilier liturgique (Dendérah)",
+    site: "Temple d'Hathor - Parois intérieures (Dendérah)",
+    originSite: "Dendérah",
+    locationType: "site",
+    currentLocation: "In situ (Parois du Temple de Dendérah)",
+    category: "Bas-relief sur grès",
+    isHighlight: false,
+    chips: ["Époque ptolémaïque", "Dendérah", "Barque d'Hathor", "Belle Réunion", "Proue hathorique", "Naos", "Frise de khékerous"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNjkTn3wXUQE-EebygHePIEF11nILFqsNYNN9b04jx9dTpVn0qVpclh5jxJdyTxSNYXMYyCUItzY20ubaNndCtQK5bjK5HK4Z-sbP-MsBkFgIO_SLGB3qv5QOgLZL7HUr7-GEch5h5ZfXSQGScrNI35PQ=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce bas-relief met en scène la barque sacrée d'Hathor, l'élément central des grandes processions religieuses qui rythmaient la vie du temple de Dendérah. La barque, posée sur un socle imposant, est représentée avec ses deux proues symétriques ornées de la tête de la déesse à visage humain et oreilles de vache, coiffée du disque solaire enserré entre deux cornes lyres. Ce vaisseau rituel ne naviguait pas sur l'eau mais était porté à l'épaule par les prêtres lors de la fête de la « Belle Réunion », voyage annuel vers le temple d'Edfou.</p>
+    <p>Au centre de l'embarcation s'élève un naos, ou chapelle fermée, protégé par des parois finement gravées, où reposait la statue divine à l'abri des regards profanes. De part et d'autre de cet édicule, de petites silhouettes de divinités et de gardiens, ainsi que des emblèmes royaux, veillent sur la sécurité spirituelle de la déesse durant son déplacement. La présence de rames à l'arrière rappelle la fonction symbolique de navigation céleste.</p>
+    <p>Le registre inférieur détaille le mobilier liturgique et les offrandes nécessaires au culte : vases à libations, tables d'offrandes et supports de jarres soigneusement alignés sous une frise de khékerous bordant le sanctuaire.</p>
+    <p><strong>Siècle :</strong> Ier siècle av. J.-C. (-50) | <strong>Civilisation :</strong> Égypte ptolémaïque | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_chapelle_est_toit_mysteres_osiris_isis_nephthys_denderah",
+    civId: "egypte",
+    periodId: "ptolemaique",
+    civName: "Égypte : Époque ptolémaïque",
+    century: "Époque ptolémaïque (Ier s. av. J.-C. / dynastie lagide)",
+    centuryDisplay: "Ier s. av. J.-C.",
+    centuryNumeric: -50,
+    domain: "sculpture_statuaire",
+    artifactType: "Décor architectural (fronton, frise, métope, chapiteau)",
+    title: "Saint des saints de la chapelle d'Osiris : Lit funéraire sous les ailes protectrices d'Isis et Nephthys (Toit de Dendérah)",
+    site: "Temple d'Hathor - Chapelle d'Osiris de l'est (Dendérah)",
+    originSite: "Dendérah",
+    locationType: "site",
+    currentLocation: "In situ (Chapelle du toit du Temple de Dendérah)",
+    category: "Décor architectural et bas-relief sur grès",
+    isHighlight: false,
+    chips: ["Époque ptolémaïque", "Dendérah", "Chapelle d'Osiris", "Isis et Nephthys", "Ailes protectrices", "Fêtes de Khoiak", "Régénération"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNAemhyL9BMDDqtAVzsMjkv_9iBD6336mwEpH1bryST9SF2-o_zIOgku11i92OgA0TbxH5NLf0lyAo-hPijVdOUvK-JrFTzvoNLpJiL8zFzuB-oea07Urqy5meQS5vbD6Mfh6E1l-qouPNs7CTOAEYtkw=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette pièce constitue le saint des saints des chapelles dédiées à Osiris, situées sur le toit du temple d'Hathor à Dendérah. Ce petit édicule, ou chapelle de l'est, servait de cadre aux rituels les plus secrets de la régénération divine, où la pierre elle-même semble vibrer de la puissance des textes sacrés. Les parois sont entièrement recouvertes de registres superposés qui décrivent le passage de l'ombre à la lumière du dieu souverain, dans un espace conçu comme un réceptacle magique pour la résurrection.</p>
+    <p>Sur le mur central, on retrouve la scène iconique du lit funéraire léonin où repose la momie d'Osiris, encadrée par les déesses Isis et Nephthys dont les ailes déployées créent un cocon de protection spirituelle. Les couleurs, partiellement préservées, soulignent la chair ocre des figures et le bleu lapis-lazuli des perruques divines, conférant à la scène une profondeur sacrée. Sous ce registre, les divinités assises reçoivent les hommages et les offrandes du pharaon.</p>
+    <p>La partie supérieure de la pièce est ornée d'une frise de divinités ailées et de cartouches royaux, formant une voûte symbolique qui relie le rituel terrestre aux cycles célestes dans l'intimité des mystères de Khoiak.</p>
+    <p><strong>Siècle :</strong> Ier siècle av. J.-C. (-50) | <strong>Civilisation :</strong> Égypte ptolémaïque | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_crypte_serpent_harsomtous_bulle_lotus_pilier_djed_denderah",
+    civId: "egypte",
+    periodId: "ptolemaique",
+    civName: "Égypte : Époque ptolémaïque",
+    century: "Époque ptolémaïque (Ier s. av. J.-C. / dynastie lagide)",
+    centuryDisplay: "Ier s. av. J.-C.",
+    centuryNumeric: -50,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Crypte sud : Émergence du serpent Harsomtous de la fleur de lotus et piliers Djed (Dendérah)",
+    site: "Temple d'Hathor - Cryptes souterraines (Dendérah)",
+    originSite: "Dendérah",
+    locationType: "site",
+    currentLocation: "In situ (Cryptes du Temple de Dendérah)",
+    category: "Bas-relief sur calcaire fin",
+    isHighlight: true,
+    chips: ["Époque ptolémaïque", "Dendérah", "Cryptes souterraines", "Harsomtous", "Serpent primordial", "Pilier Djed", "Lotus de création"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMK9iRy7Yy6VyjrJ1bc8XGKFJltznqe18zoGypBzGDWHfV48v7KHs17tvENjGb4m807SE1aaUZu1SvR_xmhpP7fBwph8Lmo6bDAQB4DSWLrS43jyLmlfJuM_DWNWgE-UWualMSf5za38z4RqYT2RmJ47g=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ces reliefs proviennent des cryptes de Dendérah, un réseau de chambres souterraines dissimulées dans l'épaisseur des murs du temple. Contrairement aux espaces publics, ces cryptes n'étaient accessibles qu'aux hauts membres du clergé et servaient de lieu de stockage pour les objets rituels les plus précieux ainsi que pour les statues des divinités. Elles sont célèbres pour la qualité exceptionnelle de leurs sculptures, car, protégées de la lumière et du passage, elles ont conservé des détails d'une finesse que les murs extérieurs ont parfois perdue.</p>
+    <p>La scène la plus frappante de ces souterrains est celle que l'on appelle souvent, par erreur de vulgarisation moderne, les « lampes de Dendérah ». On y voit d'immenses bulles ou gaines oblongues contenant des serpents ondulants. En réalité, cette iconographie complexe représente la naissance du dieu Harsomtous (Horus-qui-unit-les-deux-terres) émergeant d'une fleur de lotus. Le serpent symbolise ici l'énergie vitale et la renaissance solaire, tandis que la structure en forme de gaine évoque le ciel ou le ventre protecteur de la déesse Nout.</p>
+    <p>Les piliers « djed » visibles sous les bulles sont des symboles de stabilité associés à Osiris, servant de support à cette éclosion divine. Ces cryptes sont des espaces de « genèse » où les prêtres préparaient les rituels de la nouvelle année.</p>
+    <p><strong>Siècle :</strong> Ier siècle av. J.-C. (-50) | <strong>Civilisation :</strong> Égypte ptolémaïque | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_crypte_pharaon_pschent_sistre_aile_protectrice_denderah",
+    civId: "egypte",
+    periodId: "ptolemaique",
+    civName: "Égypte : Époque ptolémaïque",
+    century: "Époque ptolémaïque (Ier s. av. J.-C. / dynastie lagide)",
+    centuryDisplay: "Ier s. av. J.-C.",
+    centuryNumeric: -50,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Crypte de Dendérah : Le pharaon au Pschent offrant le sistre sous l'aile divine protectrice",
+    site: "Temple d'Hathor - Cryptes (Dendérah)",
+    originSite: "Dendérah",
+    locationType: "site",
+    currentLocation: "In situ (Cryptes du Temple de Dendérah)",
+    category: "Bas-relief sur calcaire fin",
+    isHighlight: false,
+    chips: ["Époque ptolémaïque", "Dendérah", "Cryptes", "Couronne Pschent", "Sistre sacré", "Aile protectrice", "Modelé ptolémaïque"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMMqJxP-PNqbVDDvaOwFXP9EYU1mnnJhWzK_89ZXW0-raTig5KfzrawZn4GIwlKb24bjlLLX3qKxesF6DbIrkB6wkDos8nvH1QAsklAn0IIKtFxGCUlboejfrjjfNCGsyR2agpG4lP8DRagkXeY6V17dA=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce bas-relief est situé dans les cryptes du temple d'Hathor à Dendérah, un espace souterrain restreint où les gravures ont bénéficié d'une protection exceptionnelle contre l'érosion. Cette scène représente le pharaon, coiffé de la double couronne de Haute et Basse-Égypte (le Pschent), procédant à un rituel d'offrande devant une divinité. Le souverain tient dans ses mains un sistre, instrument de musique sacré indissociable du culte d'Hathor, utilisé pour apaiser la déesse et éloigner les forces du chaos.</p>
+    <p>La précision de la sculpture dans cette zone du temple est remarquable, révélant des détails minutieux sur la musculature du torse royal et les plis complexes des parures. Derrière le roi se tient une figure masculine, probablement un prêtre ou un prince, dont le profil classique et la perruque finement striée témoignent de la virtuosité des artisans de la période ptolémaïque. La proximité immédiate d'une aile protectrice massive sur la droite suggère la présence d'une divinité ailée enveloppant la scène de sa bienveillance.</p>
+    <p>Les hiéroglyphes qui surplombent la scène constituent une dédicace précise, détaillant les titres du souverain et les bénéfices spirituels attendus de cette interaction avec le divin dans les entrailles mêmes de la terre.</p>
+    <p><strong>Siècle :</strong> Ier siècle av. J.-C. (-50) | <strong>Civilisation :</strong> Égypte ptolémaïque | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_crypte_faucon_horus_uraeus_serpent_lotus_denderah",
+    civId: "egypte",
+    periodId: "ptolemaique",
+    civName: "Égypte : Époque ptolémaïque",
+    century: "Époque ptolémaïque (Ier s. av. J.-C. / dynastie lagide)",
+    centuryDisplay: "Ier s. av. J.-C.",
+    centuryNumeric: -50,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Crypte de Dendérah : Faucon solaire d'Horus à l'uræus et serpent dressé jaillissant du lotus",
+    site: "Temple d'Hathor - Cryptes (Dendérah)",
+    originSite: "Dendérah",
+    locationType: "site",
+    currentLocation: "In situ (Cryptes du Temple de Dendérah)",
+    category: "Bas-relief sur calcaire fin",
+    isHighlight: false,
+    chips: ["Époque ptolémaïque", "Dendérah", "Cryptes", "Horus faucon", "Serpent du lotus", "Énergie vitale", "Cisulure du plumage"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNNIEWrxQzeSw9dxbP6ITFtMc5pEedLhdlejNEysquP8c0qvpClpGkGjigkfYlWIZcbFjcuC_sGY7h-5NMV8C4_9wHqjC0-tRPhgHofIiDo4DVwpA2BLz6xZSTnAiOEKKKaYQL6Mz1nwieCmk9IK-joqA=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce bas-relief exceptionnel se situe dans les cryptes du temple d'Hathor à Dendérah, un lieu sacré où le détail de la gravure atteint une perfection rare. Il met en scène un faucon majestueux, incarnation d'Horus ou d'une divinité solaire, coiffé du disque solaire orné d'un cobra protecteur (l'uræus). La finesse du plumage, dont chaque plume est méticuleusement ciselée, témoigne de la virtuosité des sculpteurs ptolémaïques qui travaillaient ici pour l'éternité, loin de la lumière du jour.</p>
+    <p>À côté du rapace, un serpent se dresse verticalement, émergeant d'une fleur de lotus stylisée. Cette iconographie symbolise la naissance du monde et l'éveil de l'énergie vitale à l'aube du cycle quotidien. Dans la pensée égyptienne, le lotus sortant des eaux primordiales donne naissance au jeune soleil, ici représenté sous sa forme ophidienne. Ce motif récurrent souligne la fonction des cryptes comme lieu de gestation des puissances divines.</p>
+    <p>À gauche du faucon, on aperçoit partiellement la silhouette du souverain qui officie, tenant un emblème de culte. L'interaction entre le roi et les puissances cosmiques garantit la stabilité de l'univers sous une harmonie plastique remarquable.</p>
+    <p><strong>Siècle :</strong> Ier siècle av. J.-C. (-50) | <strong>Civilisation :</strong> Égypte ptolémaïque | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_crypte_divinites_zoomorphes_sekhmet_khnoum_polychromie_denderah",
+    civId: "egypte",
+    periodId: "ptolemaique",
+    civName: "Égypte : Époque ptolémaïque",
+    century: "Époque ptolémaïque (Ier s. av. J.-C. / dynastie lagide)",
+    centuryDisplay: "Ier s. av. J.-C.",
+    centuryNumeric: -50,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Crypte de Dendérah : Divinités zoomorphes peintes — Déesse lionne Sekhmet et dieu bélier Khnoum",
+    site: "Temple d'Hathor - Cryptes (Dendérah)",
+    originSite: "Dendérah",
+    locationType: "site",
+    currentLocation: "In situ (Cryptes du Temple de Dendérah)",
+    category: "Bas-relief sur calcaire polychrome",
+    isHighlight: false,
+    chips: ["Époque ptolémaïque", "Dendérah", "Cryptes", "Déesse Sekhmet", "Dieu Khnoum", "Polychromie vive", "Gardiens des secrets"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOxomS9oCWoNNrCbeb2dkZCX3gcEaWnT4mEs7QZGC2DKm4yspzwQLGQdq2XabVhbQoV_xh4-A9w0Zmj5vKyPPqYhYFa9kDlhzSndWSNOQxLyl-Y0oYfhhLFA6oLjdzUAxZ-sBMYmPrgLmWgQBq2oyt8wg=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette œuvre est un relief polychrome d'une qualité de conservation exceptionnelle, situé dans les profondeurs des cryptes du temple de Dendérah. Elle représente deux divinités majeures du panthéon égyptien sous leurs formes zoomorphes, témoignant de la persistance de l'art du portrait divin à l'époque ptolémaïque. À gauche, une divinité léonine, probablement Sekhmet ou Tefnout, est coiffée d'un disque solaire surmonté d'un uræus. À droite, une divinité à tête de bélier, possiblement une forme de Khnoum ou d'Héryshef, porte des cornes horizontales torsadées, attributs de fertilité et de création primordiale.</p>
+    <p>La vivacité des pigments rouges et ocres, encore visibles sur les parures et les bijoux, offre un contraste saisissant avec la texture granuleuse de la pierre calcaire. Les divinités portent de larges colliers ousekh et des bretelles décorées de motifs géométriques, illustrant le raffinement des parures rituelles. Entre les deux figures, un sceptre ou un emblème vertical assure une séparation harmonieuse de la composition.</p>
+    <p>Le travail du sculpteur se distingue par un modelé tout en rondeur et une attention méticuleuse portée aux détails anatomiques. En tant que gardiens des secrets souterrains, ces dieux veillaient sur les reliques et les statues processionnelles entreposées dans les chambres fortes du sanctuaire.</p>
+    <p><strong>Siècle :</strong> Ier siècle av. J.-C. (-50) | <strong>Civilisation :</strong> Égypte ptolémaïque | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_crypte_collier_ousekh_quatre_tetes_hathoriques_denderah",
+    civId: "egypte",
+    periodId: "ptolemaique",
+    civName: "Égypte : Époque ptolémaïque",
+    century: "Époque ptolémaïque (Ier s. av. J.-C. / dynastie lagide)",
+    centuryDisplay: "Ier s. av. J.-C.",
+    centuryNumeric: -50,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Crypte de Dendérah : Grand collier ousekh aux quatre têtes hathoriques et déesse Hathor trônant",
+    site: "Temple d'Hathor - Cryptes (Dendérah)",
+    originSite: "Dendérah",
+    locationType: "site",
+    currentLocation: "In situ (Cryptes du Temple de Dendérah)",
+    category: "Bas-relief sur calcaire polychrome",
+    isHighlight: false,
+    chips: ["Époque ptolémaïque", "Dendérah", "Cryptes", "Collier ousekh", "Têtes hathoriques", "Orfèvrerie sacrée", "Inventaire liturgique"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczO3EhX3WaRNAMHfS2Fpm9UrCICafR7Z3iptsm4wIylnYEyIFhQGLOdDifhZc1F-7BTiBi16HYAcSRHPTtGkpRL2BEnVUkP0K-BsCkK9Nzv59L5_uvllSi-0mqfN0bidnP74rBDmfyS_OatcuwyZynDGXg=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce bas-relief polychrome, situé dans les cryptes du temple de Dendérah, illustre la richesse de l'orfèvrerie liturgique dédiée à la déesse Hathor. La scène présente un large collier ousekh, ornement de poitrine massif et sacré, surmonté de quatre têtes hathoriques stylisées. Chaque visage de la déesse, représenté de face avec des oreilles de vache et une perruque imposante, supporte un naos ou un sistre, symbolisant la présence divine et l'harmonie musicale qui régit l'univers.</p>
+    <p>À droite de cette structure rituelle, la déesse Hathor est assise sur un trône finement décoré, tenant dans ses mains le signe Ankh de la vie et un sceptre Ouas. Elle porte une robe moulante à motifs de résille et une coiffe composée du disque solaire enserré entre deux cornes lyres, affirmant son statut de régente solaire et céleste. La conservation des pigments rouges sur sa robe et ses parures témoigne du soin apporté à la décoration de ces chambres souterraines.</p>
+    <p>La présence de cette scène dans les cryptes indique que ces reliefs servaient d'inventaire éternel et magique pour les objets réels stockés dans ces chambres fortes en or ou en électrum, assurant que la pierre préserve à jamais l'énergie des trésors cultuels.</p>
+    <p><strong>Siècle :</strong> Ier siècle av. J.-C. (-50) | <strong>Civilisation :</strong> Égypte ptolémaïque | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_crypte_colonnes_hathoriques_naos_horus_pschent_denderah",
+    civId: "egypte",
+    periodId: "ptolemaique",
+    civName: "Égypte : Époque ptolémaïque",
+    century: "Époque ptolémaïque (Ier s. av. J.-C. / dynastie lagide)",
+    centuryDisplay: "Ier s. av. J.-C.",
+    centuryNumeric: -50,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Crypte de Dendérah : Rangée de colonnes hathoriques quadrifrontes devant Horus au Pschent et Hathor",
+    site: "Temple d'Hathor - Cryptes (Dendérah)",
+    originSite: "Dendérah",
+    locationType: "site",
+    currentLocation: "In situ (Cryptes du Temple de Dendérah)",
+    category: "Bas-relief sur calcaire",
+    isHighlight: false,
+    chips: ["Époque ptolémaïque", "Dendérah", "Cryptes", "Colonnes hathoriques", "Horus au Pschent", "Déesse Hathor", "Mobilier rituel"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPaqVeKIiAE5DO20bwEfj2ppbNFe-5Q7h6DXSbVpi02jy4aGITw72rFRiDz5hHRc_M3N_0mmrgaNvJpF0emjgXeaIIm6ZYgB-WPiso7jNQ_bXToOGugaB06WpUbBvJNma-CQIuuugvWHiyAxeAppn5lPA=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce bas-relief sculpté dans l'une des cryptes de Dendérah offre un nouvel aperçu des rituels complexes liés au culte d'Hathor et à la protection des objets sacrés du temple. La scène présente une rangée de colonnes hathoriques à chapiteaux quadrifronts, surmontées de petits édicules ou naos. À droite, un dieu à tête de faucon, probablement Horus ou une forme solaire de la divinité, est assis sur un trône. Il porte la double couronne (le Pschent) et tient le sceptre Ouas, symbole de puissance et de domination.</p>
+    <p>À ses côtés se tient la déesse Hathor, reconnaissable à sa coiffe composée des cornes lyres enserrant le disque solaire. Cette association souligne le couple divin qui préside à l'équilibre du monde. Le style de la gravure est caractéristique de l'époque ptolémaïque, avec des silhouettes élancées et une profusion de détails ornementaux. Les colonnes hathoriques représentées à gauche agissent comme des piliers de stabilité, rappelant que la déesse est celle qui soutient le ciel.</p>
+    <p>Les inscriptions hiéroglyphiques qui saturent l'espace entre les figures fournissent le contexte théologique de la scène, énumérant les titres et servant de plan rituel pour le mobilier sacré entreposé dans cette salle souterraine.</p>
+    <p><strong>Siècle :</strong> Ier siècle av. J.-C. (-50) | <strong>Civilisation :</strong> Égypte ptolémaïque | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_procession_genies_nomes_fecondite_murs_exterieurs_denderah",
+    civId: "egypte",
+    periodId: "ptolemaique",
+    civName: "Égypte : Époque ptolémaïque",
+    century: "Époque gréco-romaine (Ier s. av. J.-C. - Ier s. ap. J.-C.)",
+    centuryDisplay: "Ier s. av. J.-C.",
+    centuryNumeric: -50,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Procession des génies de l'abondance personnifiant les nomes d'Égypte (Murs extérieurs de Dendérah)",
+    site: "Temple d'Hathor - Murs extérieurs (Dendérah)",
+    originSite: "Dendérah",
+    locationType: "site",
+    currentLocation: "In situ (Murs extérieurs du Temple de Dendérah)",
+    category: "Relief en creux sur grès",
+    isHighlight: false,
+    chips: ["Époque ptolémaïque", "Dendérah", "Personnification des nomes", "Génies d'abondance", "Fertilité", "Vases à libations", "Crue du Nil"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNUhxcePhDkr55DxdYyoi5Vz3QKywvPfU1N1Otdv_satx15iSTxWX5WYuLrQfHcrh4su3vW6CM3gQuV-5wODsfgTMDIezSi5ePDh5vrXoNX71ZMU_JxtzaSahQrrlQw8m0nyKY00hE9YdtLwEy1MYVKGQ=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette scène sculptée en relief au creux orne les murs extérieurs du temple d'Hathor à Dendérah, un chef-d’œuvre de l’architecture ptolémaïque situé en Haute-Égypte. Édifié principalement entre le Ier siècle avant J.-C. et le début de l'ère chrétienne, ce complexe religieux témoigne de la vitalité de l'art égyptien tardif, caractérisé par des formes charnues et un souci du détail ornemental. La paroi de grès présente ici une procession rituelle où se mêlent iconographie religieuse et symbolisme politique.</p>
+    <p>Les personnages représentés sont des génies de l'abondance, souvent identifiés comme des personnifications des nomes ou provinces d’Égypte. Ces figures androgynes, aux ventres légèrement proéminents symbolisant la fertilité, s'avancent dans une posture rigide et rythmée. Chaque porteur d'offrandes soutient un plateau chargé de vases à libations et de fleurs de lotus, éléments essentiels du culte divin destinés à assurer la prospérité du royaume et le maintien de l'ordre cosmique, la Maât.</p>
+    <p>L'épigraphie qui sépare les figures est composée de colonnes de hiéroglyphes finement ciselées. Ces textes sont des formules rituelles de consécration qui détaillent la nature des dons offerts à la déesse Hathor, évoquant l'afflux constant des richesses de la crue du Nil vers le sanctuaire.</p>
+    <p><strong>Siècle :</strong> Ier siècle av. J.-C. (-50) | <strong>Civilisation :</strong> Égypte ptolémaïque | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_cleopatre_vii_cesarion_mur_arriere_denderah",
+    civId: "egypte",
+    periodId: "ptolemaique",
+    civName: "Égypte : Époque ptolémaïque",
+    century: "Époque ptolémaïque (vers -44 à -30 av. J.-C. / règne de Cléopâtre VII)",
+    centuryDisplay: "Ier s. av. J.-C.",
+    centuryNumeric: -40,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "La reine Cléopâtre VII au sistre et son fils Ptolémée XV Césarion au Pschent (Mur arrière de Dendérah)",
+    site: "Temple d'Hathor - Mur extérieur sud (Dendérah)",
+    originSite: "Dendérah",
+    locationType: "site",
+    currentLocation: "In situ (Mur extérieur arrière du Temple de Dendérah)",
+    category: "Relief monumental en creux sur grès",
+    isHighlight: true,
+    chips: ["Époque ptolémaïque", "Dendérah", "Cléopâtre VII", "Césarion", "Ptolémée XV", "Propagande royale", "Mur du Saint des Saints"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOMrZjb25ENLeg5TKrHiWQCEzf1Cd4T38o-rvBhcOLMuelSeyeEmwnGQCOKawtASTa5RBNqhd1jmMGc1UZ3n-u8GkM38Q2NUwf8CKOU48tP65vr4oQ5zHxYmwdKn4C56gvsDUKmu9s8tks6ascHOBOBxQ=w1611-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Cette scène magistrale, située sur le mur extérieur arrière du temple d'Hathor à Dendérah, constitue l'un des reliefs les plus célèbres de l'époque ptolémaïque tardive. Elle met en scène la reine Cléopâtre VII, la plus célèbre des souveraines d'Égypte, accompagnée de son fils Ptolémée XV Césarion. Ce bas-relief monumental n'est pas seulement une œuvre religieuse, mais un puissant outil de propagande politique destiné à légitimer la succession au trône et l'ascendance divine du jeune prince.</p>
+    <p>La reine Cléopâtre est représentée à gauche, arborant la coiffe de la déesse Hathor composée de cornes lyres enserrant le disque solaire, surmontée de deux hautes plumes. Elle tient dans ses mains un sistre, instrument de musique sacré utilisé pour apaiser les divinités. Face à elle, son fils Césarion, représenté sous les traits d'un pharaon accompli, porte la double couronne de Haute et Basse-Égypte (le Pschent). Ensemble, ils accomplissent un rite d'offrande devant les dieux, affirmant ainsi leur piété et leur rôle de garants du culte.</p>
+    <p>Ce mur arrière est particulièrement significatif car il se situe à l'endroit exact où se trouvait, à l'intérieur du temple, le Saint des Saints. Les fidèles qui n'avaient pas accès au cœur du sanctuaire venaient prier ici, face à ces représentations colossales qui matérialisent la proximité sacrée de la dernière dynastie lagide avec les dieux ancestraux.</p>
+    <p><strong>Siècle :</strong> Ier siècle av. J.-C. (-40) | <strong>Civilisation :</strong> Égypte ptolémaïque | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_reine_deesse_robe_resille_vase_hes_menat_denderah",
+    civId: "egypte",
+    periodId: "ptolemaique",
+    civName: "Égypte : Époque ptolémaïque",
+    century: "Époque ptolémaïque (Ier s. av. J.-C. / règne de Cléopâtre VII)",
+    centuryDisplay: "Ier s. av. J.-C.",
+    centuryNumeric: -50,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Figure royale en robe de résille offrant le plateau de lotus, vase hès et collier ménat (Dendérah)",
+    site: "Temple d'Hathor - Murs extérieurs (Dendérah)",
+    originSite: "Dendérah",
+    locationType: "site",
+    currentLocation: "In situ (Murs extérieurs du Temple de Dendérah)",
+    category: "Relief en creux sur grès",
+    isHighlight: false,
+    chips: ["Époque ptolémaïque", "Dendérah", "Robe en résille", "Vase hès", "Collier ménat", "Fleurs de lotus", "Plateau d'offrandes"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNc_7SmV7CyV_3x5X-d91kkOFlih-bAF3ueoAj7d0S_Sw4f1FieOlyjXCDjzLzCiBCxb1C4z8FKnCNaPsfJ2mDjbBdc21gHd6TpLS7g3muhUWTSfFphpCT2qLNZKAsbCJU9Pb_6AnANsS9owq8FHfBx8w=w1611-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Cette notice présente un bas-relief situé sur les murs extérieurs du temple d’Hathor à Dendérah, un chef-d'œuvre de l'époque ptolémaïque (Ier siècle avant J.-C.) situé en Haute-Égypte. La scène illustre la pérennité des rites d’offrandes au sein de l’un des complexes religieux les mieux préservés de l’Antiquité égyptienne.</p>
+    <p>L’œuvre représente une figure féminine, probablement une reine ou une déesse, avançant avec une élégance caractéristique du style ptolémaïque tardif. Elle porte une perruque tripartite finement tressée et une robe moulante ornée d'un motif en résille, évoquant à la fois le luxe de la cour et les parures divines. Ses bras sont tendus pour présenter un plateau chargé d’offrandes symbolisant l’abondance et la régénération.</p>
+    <p>Le plateau qu'elle porte contient une profusion de fleurs de lotus, de pains et de vases rituels, tandis que de son bras pendent deux récipients complexes : un vase hes d'où jaillissent des fleurs de papyrus, et un collier ménat ou miroir, objets sacrés spécifiquement liés au culte d'Hathor.</p>
+    <p>Le style se distingue par une certaine rondeur des formes et une attention méticuleuse portée aux détails ornementaux, témoignant de l'opulence rituelle de la fin de la dynastie lagide.</p>
+    <p><strong>Siècle :</strong> Ier siècle av. J.-C. (-50) | <strong>Civilisation :</strong> Égypte ptolémaïque | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_pharaon_hemhem_quatre_plumes_maat_hathor_ihy_denderah",
+    civId: "egypte",
+    periodId: "ptolemaique",
+    civName: "Égypte : Époque ptolémaïque",
+    century: "Époque ptolémaïque (Ier s. av. J.-C. / règne de Cléopâtre VII)",
+    centuryDisplay: "Ier s. av. J.-C.",
+    centuryNumeric: -50,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Offrande des quatre plumes de Maât par le pharaon au Hemhem devant Hathor et l'enfant Ihy au Pschent (Dendérah)",
+    site: "Temple d'Hathor - Mur extérieur (Dendérah)",
+    originSite: "Dendérah",
+    locationType: "site",
+    currentLocation: "In situ (Murs extérieurs du Temple de Dendérah)",
+    category: "Relief en creux sur grès",
+    isHighlight: false,
+    chips: ["Époque ptolémaïque", "Dendérah", "Quatre plumes de Maât", "Couronne Hemhem", "Déesse Hathor", "Enfant-dieu Ihy", "Ordre cosmique"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOSfo1rw_7zRS2etWJbkPjqeRt23xOg4zXNuDzHI0G2w6Wl0v2_fY037rBvpqJHLmAs2G_C58dsivxf9e1J6UiwYcbW68jA_DcH3KSn9kQyy0zeB1vm9LHanP4MW6PD2SdWzqrcOcqtM4drPhjU8CcqDw=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce bas-relief en creux provient du mur extérieur du temple d’Hathor à Dendérah, datant de l'époque ptolémaïque, probablement sous le règne de Cléopâtre VII. La scène illustre un acte rituel fondamental où le pouvoir royal s'unit aux divinités pour préserver l'harmonie du monde. Le style se caractérise par des formes pleines et des modelés arrondis, typiques de cette période tardive de l'art égyptien.</p>
+    <p>Au centre de la composition, un pharaon, coiffé de la couronne Hemhem posée sur la couronne blanche de Haute-Égypte, offre quatre plumes de Maât sur un plateau. Ce geste hautement symbolique signifie que le souverain garantit la justice, la vérité et l'ordre cosmique dans son royaume. Face à lui se tient la déesse Hathor, reconnaissable à sa coiffe composée de cornes lyres enserrant le disque solaire, tenant le sceptre papyriforme et le signe de vie Ânkh.</p>
+    <p>Entre les deux figures principales apparaît une divinité enfant, probablement Ihy, le fils d'Hathor et d'Horus, dieu de la musique et de la joie. Représenté nu avec la tresse de l'enfance et portant la double couronne Pschent, il souligne la dimension dynastique et protectrice du temple de Dendérah comme lieu de célébration de la naissance divine.</p>
+    <p><strong>Siècle :</strong> Ier siècle av. J.-C. (-50) | <strong>Civilisation :</strong> Égypte ptolémaïque | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_vache_hathor_fourre_papyrus_robe_lotus_denderah",
+    civId: "egypte",
+    periodId: "ptolemaique",
+    civName: "Égypte : Époque ptolémaïque",
+    century: "Époque ptolémaïque (Ier s. av. J.-C. / dynastie lagide)",
+    centuryDisplay: "Ier s. av. J.-C.",
+    centuryNumeric: -50,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "La vache sacrée d'Hathor émergeant du fourré de papyrus du Delta et robe aux lotus imbriqués (Dendérah)",
+    site: "Temple d'Hathor - Parois extérieures (Dendérah)",
+    originSite: "Dendérah",
+    locationType: "site",
+    currentLocation: "In situ (Parois extérieures du Temple de Dendérah)",
+    category: "Relief en creux sur grès",
+    isHighlight: false,
+    chips: ["Époque ptolémaïque", "Dendérah", "Vache Hathor", "Fourré de papyrus", "Marais du Delta", "Robe aux fleurs de lotus", "Fertilité"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOPSgGOGwuL47VNmvEioai-4teGN5NQrenh8ayWRAqYBpyN12WrfecvhZ8qkUufBwYIJ2X_DrtHGbB-vIS3Q02fEUPM9vBFi4rxYfvsCofbwhp5PjXhJZtQm9p_5cF6JHvWHUjYR3HLIavac-YXBx1o7g=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce bas-relief en creux, situé sur les parois extérieures du temple d'Hathor à Dendérah, illustre une scène bucolique et sacrée typique de l'iconographie ptolémaïque. On y voit une vache, incarnation terrestre de la déesse Hathor, avançant au milieu d'un fourré de papyrus dont les tiges hautes et droites se terminent par des ombelles épanouies. Cette image symbolise les marais du delta du Nil, lieu de naissance mythique et refuge de la divinité sous sa forme bovine.</p>
+    <p>La vache est représentée avec un grand naturalisme, portant entre ses cornes lyres un disque solaire, affirmant son statut divin de « Dame du Ciel ». Le traitement du relief accentue la douceur des formes de l'animal, qui semble émerger de la végétation dense. Ce motif célèbre la fertilité et la protection maternelle, rappelant le rôle d'Hathor comme nourricière du pharaon et garante du renouveau de la nature.</p>
+    <p>À gauche de l'animal, on distingue les jambes d'une figure féminine dont la robe est ornée d'un motif complexe de fleurs de lotus imbriquées. Cette décoration textile inhabituelle renforce l'idée de luxe et de connexion intime avec le monde végétal sacré. Les inscriptions lient la présence de la vache sacrée aux cycles bienfaisants de la crue du Nil.</p>
+    <p><strong>Siècle :</strong> Ier siècle av. J.-C. (-50) | <strong>Civilisation :</strong> Égypte ptolémaïque | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_pronaos_empereurs_romains_khnoum_neith_esna",
+    civId: "egypte",
+    periodId: "romaine",
+    civName: "Égypte : Époque romaine",
+    century: "Époque romaine (Ier-IIe s. ap. J.-C. / empereurs flaviens et antonins)",
+    centuryDisplay: "IIe s. ap. J.-C.",
+    centuryNumeric: 120,
+    domain: "sculpture_statuaire",
+    artifactType: "Décor architectural (fronton, frise, métope, chapiteau)",
+    title: "Façade et colonnes monumentales du pronaos d'Esna : Offrandes impériales à Khnoum potier et Neith",
+    site: "Temple de Khnoum - Pronaos (Esna)",
+    originSite: "Esna",
+    locationType: "site",
+    currentLocation: "In situ (Pronaos du Temple de Khnoum, Esna)",
+    category: "Décor architectural sur grès polychrome",
+    isHighlight: true,
+    chips: ["Époque romaine", "Esna", "Temple de Khnoum", "Dieu Khnoum", "Déesse Neith", "Chapiteaux composites", "Polychromie restaurée"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMKuMn7iaXj0gdfseEE1qsA7_WLwdfxnQuX4PgpbMa2xdgPQh6ybm_FQQtNhN2YeM3oZsH-qKzelRNVjhUhh1E4pxkQdXqxn3a6kQ1x3bySIRrqve8ZLN5UiGYc3qnCAHsJelB9Zm3rHS8YBSMDcK8aJA=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette vue met en lumière la splendeur retrouvée du temple de Khnoum à Esna, un chef-d'œuvre de l'architecture gréco-romaine en Égypte. La vue présente l'entrée du pronaos (salle hypostyle), où les colonnes monumentales conservent une polychromie d'une vivacité exceptionnelle grâce aux récentes campagnes de restauration. Ces couleurs permettent d'apprécier la complexité des chapiteaux composites, mêlant motifs floraux de lotus et de papyrus, qui symbolisent la fertilité de la vallée du Nil.</p>
+    <p>Les parois et les fûts des colonnes sont entièrement recouverts de registres sculptés illustrant la piété des empereurs romains, représentés ici comme des pharaons traditionnels. Sur le montant de la porte à droite, on observe plusieurs registres où le souverain, coiffé de la couronne rouge de Basse-Égypte ou de la double couronne pschent, présente des offrandes de nourriture et des rituels de libation devant les divinités locales. On y reconnaît notamment le dieu Khnoum, le potier divin à tête de bélier qui façonnait les êtres humains sur son tour, accompagné de la déesse Neith.</p>
+    <p>Le style des reliefs est caractéristique de l'époque ptolémaïque et romaine, avec des silhouettes plus charnues et des détails vestimentaires extrêmement soignés. Les textes hiéroglyphiques qui entourent les scènes sont d'une importance capitale pour les chercheurs, car ils renferment des hymnes religieux uniques et des détails précis sur les fêtes liturgiques célébrées à Esna, l'un des ultimes bastions de l'écriture hiéroglyphique sous l'Empire romain.</p>
+    <p><strong>Siècle :</strong> IIe siècle ap. J.-C. (120) | <strong>Civilisation :</strong> Égypte gréco-romaine | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+   {
     id: "sculpture_ptolemee_iv_registres_offrandes_hathor_thot_deir_el_medineh",
     civId: "egypte",
     periodId: "ptolemaique",
@@ -331,7 +982,7 @@ window.ART_OBJECTS.push(
     chips: ["Époque romaine", "Dendérah", "Mammisi romain", "Auguste", "Horus faucon", "Vanneau", "Ombelle de papyrus"],
     deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
     imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczO6Z6x_mbV_8dKEuvCxoIgr8PbonIIns7etaOBVECN14edXZ0QbrmZyKJhgIR1Qw7TCk42j_qmYAZFDjK5PheCYV4Qpsm7aPD6bEbRvhI1aZ_iCKGuCU1JebSB52AhQ6TMscVNDFBlFUhlUpq5tq6i81g=w1998-h1332-s-no-gm?authuser=0",
-    narrative: `<p>Cette notice détaille un bas-relief situé sur les parois extérieures du mammisi romain du complexe de Dendérah, dédié à la déesse Hathor. Cette structure, construite sous le règne d'Auguste, servait de lieu de célébration pour la naissance divine de l'enfant-dieu Ihy, réaffirmant ainsi le lien sacré entre le pharaon et les puissances célestes. La finesse de la taille dans le grès témoigne de la persistance des canons esthétiques égyptiens durant la période gréco-romaine.</p>
+    narrative: `<p>Bas-relief situé sur les parois extérieures du mammisi romain du complexe de Dendérah, dédié à la déesse Hathor. Cette structure, construite sous le règne d'Auguste, servait de lieu de célébration pour la naissance divine de l'enfant-dieu Ihy, réaffirmant ainsi le lien sacré entre le pharaon et les puissances célestes. La finesse de la taille dans le grès témoigne de la persistance des canons esthétiques égyptiens durant la période gréco-romaine.</p>
     <p>L'œuvre met en scène une rencontre hautement symbolique entre deux formes aviaires de la divinité. À droite, un faucon aux ailes déployées, coiffé du disque solaire, représente Horus de Behdet ou une forme solaire d'Ihy. Il repose sur un bouquet de papyrus en pleine floraison, symbolisant la fertilité des marais primordiaux d'où émerge la vie. Face à lui, sur la gauche, se tient un oiseau au plumage distinct, probablement un vanneau ou une autre espèce limicole, juché sur une structure architecturale schématisée évoquant un édicule sacré.</p>
     <p>La composition souligne l'harmonie entre la Haute et la Basse-Égypte par l'utilisation de motifs végétaux tels que le papyrus, tout en illustrant la protection divine entourant le lieu de naissance. La précision des détails, notamment dans le rendu des plumes et des tiges de plantes, démontre la maîtrise technique des artisans de Dendérah sous le principat d'Auguste.</p>
     <p><strong>Siècle :</strong> Ier siècle ap. J.-C. (10) | <strong>Civilisation :</strong> Égypte gréco-romaine | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
