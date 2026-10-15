@@ -1276,7 +1276,7 @@ const TAXONOMY_DOMAINS = {
     label: "Arts funéraires & Momification",
     types: [
       "Sarcophage humain (cuve, bois, pierre)", "Sarcophage & Momie animale",
-      "Masque funéraire & Cartonnage", "Portrait du Fayoum",
+      "Masque funéraire & Cartonnage", "stèle", "Portrait du Fayoum",
       "Coffre & Vases canopes", "Larnax", "Figurine funéraire / Ouchebti",
       "Chambre funéraire / Hypogée", "Fausse porte", "Monument / Tombeau rupestre"
     ]
