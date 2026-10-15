@@ -1760,3 +1760,152 @@ else if (selectedCiv === 'egee' && cId !== 'egee' && !['cyclades', 'crete', 'myc
     loadMoreBox.hidden = currentRenderLimit >= filtered.length;
   }
 }
+/* ==========================================================================
+   CONTRÔLEUR DU MODE FOCUS PLEIN ÉCRAN INTERACTIF
+   ========================================================================== */
+let currentFocusArtwork = null;
+let currentFocusPointIndex = -1;
+
+function openFocusMode(item) {
+  if (!item || !item.hotspots || item.hotspots.length === 0) return;
+  currentFocusArtwork = item;
+
+  const lightbox = document.getElementById('focus-lightbox');
+  const mainImg = document.getElementById('focusMainImg');
+  const spotImg = document.getElementById('focusSpotImg');
+  const topTitle = document.getElementById('focusTopTitle');
+  const container = document.getElementById('focusBubblesContainer');
+
+  topTitle.textContent = `${item.title} • Découverte Guidée`;
+  mainImg.src = item.imgSrc;
+  spotImg.src = item.imgSrc;
+
+  // Créer les pastilles numérotées
+  container.innerHTML = item.hotspots.map((pt, idx) => `
+    <div class="hotspot-bubble" style="top: ${pt.y}%; left: ${pt.x}%;" data-index="${idx}">${idx + 1}</div>
+  `).join('');
+
+  // Attacher les écouteurs de clic
+  container.querySelectorAll('.hotspot-bubble').forEach(bubble => {
+    bubble.addEventListener('click', (e) => {
+      e.stopPropagation();
+      activateFocusPoint(parseInt(bubble.dataset.index, 10));
+    });
+  });
+
+  lightbox.classList.add('is-open');
+  showFocusOverview();
+}
+
+function closeFocusMode() {
+  const lightbox = document.getElementById('focus-lightbox');
+  if (lightbox) lightbox.classList.remove('is-open');
+  showFocusOverview();
+}
+
+function showFocusOverview() {
+  currentFocusPointIndex = -1;
+  const stageBox = document.getElementById('focusStageBox');
+  const darkVeil = document.getElementById('focusDarkVeil');
+  const spotLens = document.getElementById('focusSpotLens');
+  const popupCard = document.getElementById('focusPopupCard');
+  const bubbles = document.querySelectorAll('.hotspot-bubble');
+
+  if (stageBox) stageBox.style.transform = "translate(0px, 0px) scale(1)";
+  if (darkVeil) darkVeil.style.opacity = "0";
+  if (spotLens) spotLens.style.clipPath = "circle(0% at 50% 50%)";
+  if (popupCard) popupCard.classList.remove('is-visible');
+
+  bubbles.forEach(b => b.classList.remove('is-active'));
+}
+
+function activateFocusPoint(index) {
+  if (!currentFocusArtwork || !currentFocusArtwork.hotspots) return;
+  const pts = currentFocusArtwork.hotspots;
+  if (index < 0 || index >= pts.length) return;
+
+  currentFocusPointIndex = index;
+  const pt = pts[index];
+
+  const stageBox = document.getElementById('focusStageBox');
+  const darkVeil = document.getElementById('focusDarkVeil');
+  const spotLens = document.getElementById('focusSpotLens');
+  const popupCard = document.getElementById('focusPopupCard');
+  const popupTag = document.getElementById('focusPopupTag');
+  const popupTitle = document.getElementById('focusPopupTitle');
+  const popupDesc = document.getElementById('focusPopupDesc');
+  const bubbles = document.querySelectorAll('.hotspot-bubble');
+
+  // Zoom modéré 1.35x
+  const zoomScale = 1.35;
+  const stageRect = stageBox.getBoundingClientRect();
+  const baseW = stageRect.width / (stageBox.dataset.scale || 1);
+  const baseH = stageRect.height / (stageBox.dataset.scale || 1);
+
+  const targetX = (pt.x / 100) * baseW;
+  const targetY = (pt.y / 100) * baseH;
+
+  const moveX = ((baseW / 2) - targetX) * zoomScale;
+  const moveY = (((baseH / 2) - targetY) * zoomScale) - 45;
+
+  stageBox.dataset.scale = zoomScale;
+  stageBox.style.transform = `translate(${moveX}px, ${moveY}px) scale(${zoomScale})`;
+
+  // Découpe circulaire Spotlight
+  spotLens.style.clipPath = `circle(${pt.radius}% at ${pt.x}% ${pt.y}%)`;
+  darkVeil.style.opacity = "0.72";
+
+  // Effacer la pastille cliquée
+  bubbles.forEach((b, idx) => {
+    b.classList.toggle('is-active', idx === index);
+  });
+
+  // Mettre à jour et ouvrir le pop-up
+  popupTag.textContent = pt.tag || `POINT ${index + 1} / ${pts.length}`;
+  popupTitle.textContent = pt.title;
+  popupDesc.textContent = pt.desc;
+  popupCard.classList.add('is-visible');
+}
+
+// Initialisation des écouteurs globaux du mode focus
+document.addEventListener('DOMContentLoaded', () => {
+  const btnClose = document.getElementById('btnFocusClose');
+  const btnReset = document.getElementById('btnFocusResetOverview');
+  const btnAll = document.getElementById('btnFocusPopupAll');
+  const btnNext = document.getElementById('btnFocusNextPoint');
+  const btnPrev = document.getElementById('btnFocusPrevPoint');
+
+  if (btnClose) btnClose.addEventListener('click', closeFocusMode);
+  if (btnReset) btnReset.addEventListener('click', showFocusOverview);
+  if (btnAll) btnAll.addEventListener('click', showFocusOverview);
+
+  if (btnNext) {
+    btnNext.addEventListener('click', () => {
+      if (!currentFocusArtwork) return;
+      let next = currentFocusPointIndex + 1;
+      if (next >= currentFocusArtwork.hotspots.length) next = 0;
+      activateFocusPoint(next);
+    });
+  }
+
+  if (btnPrev) {
+    btnPrev.addEventListener('click', () => {
+      if (!currentFocusArtwork) return;
+      let prev = currentFocusPointIndex - 1;
+      if (prev < 0) prev = currentFocusArtwork.hotspots.length - 1;
+      activateFocusPoint(prev);
+    });
+  }
+
+  window.addEventListener('keydown', (e) => {
+    const lightbox = document.getElementById('focus-lightbox');
+    if (e.key === 'Escape' && lightbox && lightbox.classList.contains('is-open')) {
+      if (currentFocusPointIndex !== -1) {
+        showFocusOverview();
+      } else {
+        closeFocusMode();
+      }
+    }
+  });
+});
+
