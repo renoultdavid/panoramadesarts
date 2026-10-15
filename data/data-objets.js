@@ -6,6 +6,381 @@ window.ART_OBJECTS = window.ART_OBJECTS || [];
 window.ART_OBJECTS.push(
 
   {
+    id: "sculpture_ramses_ii_massacre_ennemis_pschent_abou_simbel",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1260 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1260,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Massacre rituel des ennemis par Ramsès II au Pschent et protection de Nekhbet (Grand Temple d'Abou Simbel)",
+    site: "Grand Temple d'Abou Simbel - Salle hypostyle (Nubie)",
+    originSite: "Abou Simbel",
+    locationType: "site",
+    currentLocation: "In situ (Salle hypostyle du Grand Temple, Abou Simbel)",
+    category: "Relief rupestre en creux sur grès",
+    isHighlight: true,
+    chips: ["XIXe dynastie", "Ramsès II", "Abou Simbel", "Spéos", "Massacre des ennemis", "Pschent", "Déesse Nekhbet"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNO5nSoRMVfNa0VtDd0Cn1s6YLV9COA4DruCXgZbBas-tvBjnXaUkdClv_Qf8EJjbv9i3pk_iF2dhxgAYlf2Rev613Vnn5x3H6nnZXZm9VOHBJCW22oz0LiJ-WGJgxJ4OHls4aY5RuCJw68oXFu6g-afw=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce bas-relief monumental provient du Grand Temple d'Abou Simbel, l'un des chefs-d'œuvre les plus spectaculaires ordonnés par Ramsès II durant la XIXe dynastie du Nouvel Empire. Située sur l'une des parois de la grande salle hypostyle, cette scène illustre le thème iconographique classique du « massacre des ennemis », une image de propagande royale et religieuse visant à affirmer la puissance du pharaon sur le chaos. Ramsès II y est représenté comme un géant triomphant, dominant ses adversaires par sa stature surhumaine et sa détermination, sous le regard approbateur des dieux protecteurs de l'Égypte.</p>
+    <p>Le pharaon occupe le centre de la composition dans une posture athlétique et dynamique. Il est coiffé du Pschent, la double couronne symbolisant son autorité sur les Deux Terres, et brandit une masse d'armes pour frapper un groupe de prisonniers agenouillés à ses pieds. Ces captifs, représentés avec des traits distinctifs pour signifier leur origine étrangère, sont saisis par la chevelure, symbolisant leur soumission totale. Au-dessus du souverain, la déesse vautour Nekhbet déploie ses ailes, offrant au roi une protection divine et le souffle de vie durant l'action guerrière.</p>
+    <p>La finesse de la gravure, particulièrement visible dans les détails anatomiques et les parures royales, souligne le raffinement de l'art ramesside. Les murs sont couverts de colonnes de hiéroglyphes qui consignent les exploits du roi, notamment lors de la célèbre bataille de Qadesh, et rappellent que Ramsès agit comme le bras armé de la divinité Amon-Rê. L'utilisation du relief en creux permet aux personnages de capter la lumière artificielle, créant un contraste saisissant qui renforce l'aspect dramatique et sacré de la scène dans la pénombre du sanctuaire rupestre.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1260) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_ramses_ii_adoration_divinites_solaires_re_horakhty_abou_simbel",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1260 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1260,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Dévotion et adoration perpétuelle de Ramsès II devant Rê-Horakhty trônant (Grand Temple d'Abou Simbel)",
+    site: "Grand Temple d'Abou Simbel - Parois intérieures (Nubie)",
+    originSite: "Abou Simbel",
+    locationType: "site",
+    currentLocation: "In situ (Salles intérieures du Grand Temple, Abou Simbel)",
+    category: "Relief rupestre en creux sur grès",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Ramsès II", "Abou Simbel", "Rê-Horakhty", "Théologie solaire", "Cartouches"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOEE5RaPb1xJ7SgftduC-_x5XiDS-N_4JVbjotrmZWpNm0FDEdVkKxvjA5Y31koa-G1VRZDtjzo425zCMjyAnrpUJkjd0m9CgIOai6PNPppfi9XsG_KDEG8H3jBo7AGAxVTAtAsfkKcli02iKfi1kp4IQ=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce relief exceptionnel provient des parois intérieures du Grand Temple d'Abou Simbel, creusé dans la roche sous le règne de Ramsès II au XIIIe siècle avant notre ère. Contrairement aux scènes de bataille extérieures, ce panneau offre une immersion dans la piété personnelle du pharaon et la théologie solaire de la XIXe dynastie. La scène, sculptée directement dans le grès de la montagne, représente le roi dans un acte d'adoration perpétuelle face aux divinités du sanctuaire, illustrant le dialogue ininterrompu entre le pouvoir terrestre et le divin.</p>
+    <p>Le registre présente Ramsès II agenouillé en signe d'humilité et de dévotion, les mains levées dans un geste de prière rituelle. Il fait face à des divinités solaires trônant, dont l'une est reconnaissable à sa tête de faucon surmontée du disque solaire, probablement une forme de Rê-Horakhty. Le roi est figuré à plusieurs reprises, créant une séquence narrative où il présente des offrandes ou des louanges. La précision des cartouches royaux entourant les figures atteste de l'identité du souverain et de sa volonté de marquer cet espace sacré de son empreinte éternelle.</p>
+    <p>La technique utilisée est celle du relief en creux, particulièrement adaptée aux parois des temples rupestres (spéos). Malgré les irrégularités naturelles de la roche et les marques d'érosion visibles dans la partie supérieure du panneau, le détail des visages, des coiffes et des hiéroglyphes demeure saisissant. Ce relief témoigne de la fonction complexe d'Abou Simbel : un monument à la gloire de Ramsès II, mais aussi un instrument cosmologique où le roi se place au même rang que les dieux.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1260) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_ramses_ii_terrassant_ennemi_char_guerre_qadesh_abou_simbel",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1260 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1260,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Ramsès II terrassant l'ennemi au combat et char de guerre de la bataille de Qadesh (Grand Temple d'Abou Simbel)",
+    site: "Grand Temple d'Abou Simbel - Salle hypostyle (Nubie)",
+    originSite: "Abou Simbel",
+    locationType: "site",
+    currentLocation: "In situ (Salle hypostyle du Grand Temple, Abou Simbel)",
+    category: "Relief rupestre en creux sur grès",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Ramsès II", "Abou Simbel", "Bataille de Qadesh", "Char de guerre", "Propagande guerrière"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNiZ5EaCdWY_v8dmNnNSqz6v6KSu2YM_0uMEBuMVvdAkdIKcG1Q3ZGt7SIvoUP4mKsIqXX3SQ6E-QuUbcCu0Z4TpWqusOBX0UrJtnwugtJgKBJm-eQ_AWP4ltscVB-5XhCTfdooOJTH-AGXGIE2Bx7-3w=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce bas-relief monumental provient également de la salle hypostyle du Grand Temple d'Abou Simbel, érigé par Ramsès II. Fidèle à l'idéologie royale de la XIXe dynastie, la scène illustre le Pharaon en tant que guerrier invincible et protecteur de l'ordre face aux forces du chaos. Le souverain y est représenté dans une posture d'une grande puissance athlétique, brandissant une lance ou un poignard pour terrasser un ennemi au combat. L'utilisation du relief en creux accentue la vigueur du mouvement et la musculature du roi, soulignant sa nature héroïque et divine.</p>
+    <p>La composition est dynamique et symbolique : Ramsès II domine physiquement ses adversaires, qui sont représentés dans des postures de défaite et de supplication. À gauche, on distingue partiellement un char de guerre, rappelant les exploits militaires du roi, notamment lors de la bataille de Qadesh contre les Hittites. La précision des détails, des parures royales aux visages tourmentés des vaincus, témoigne de la maîtrise artistique des sculpteurs ramessides qui ont su transformer la paroi rocheuse en un support de communication politique et religieuse impérissable.</p>
+    <p>Les nombreuses colonnes de hiéroglyphes qui entourent les personnages narrent les hauts faits du monarque et proclament sa légitimité accordée par les dieux. Ce panneau illustre parfaitement comment Ramsès II a utilisé l'architecture rupestre pour fusionner sa propre légende avec le paysage immuable de la Nubie, transformant le temple en un manifeste de puissance destiné tant aux dieux qu'aux peuples voisins.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1260) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_ramses_ii_hedjet_massacre_captifs_ligotes_abou_simbel",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1260 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1260,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Le pharaon à la couronne Hedjet terrassant les captifs et registre des prisonniers ligotés (Grand Temple d'Abou Simbel)",
+    site: "Grand Temple d'Abou Simbel - Salle hypostyle (Nubie)",
+    originSite: "Abou Simbel",
+    locationType: "site",
+    currentLocation: "In situ (Salle hypostyle du Grand Temple, Abou Simbel)",
+    category: "Relief rupestre en creux sur grès",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Ramsès II", "Abou Simbel", "Couronne Hedjet", "Prisonniers ligotés", "Anneau Chen"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNVGwOShFY14epONHB29GyJ5iGDMZQ54A11CyDuVvpX3hWVRbc5mcnOG0r2J3yukbtQyMd2AzpiJV0kok4rZY4FDBIxkw7cT6Rz8B0jkobNQgk_0OBKT73D5e5YnL3aGio3CHSfxezXxeNAv2inshkcXA=w1611-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Ce bas-relief spectaculaire, situé dans la grande salle hypostyle du temple d'Abou Simbel, offre une variante symétrique de la scène du massacre des ennemis par Ramsès II. Gravé directement dans le grès nubien au XIIIe siècle avant notre ère, il illustre la fonction du pharaon en tant que défenseur de la Maât (l'ordre cosmique) contre le chaos extérieur. Le roi y est représenté dans une posture de triomphe absolu, une image de propagande royale destinée à frapper l'esprit des visiteurs entrant dans le sanctuaire.</p>
+    <p>Le Pharaon Ramsès II occupe la quasi-totalité de la hauteur du registre, affirmant sa stature surhumaine. Coiffé de la couronne blanche de Haute-Égypte (Hedjet) et vêtu d'un pagne de cérémonie, il brandit une masse d'armes de la main droite tandis qu'il saisit de la main gauche une touffe de cheveux appartenant à un groupe de captifs. Ces ennemis, agenouillés et impuissants, représentent les populations étrangères soumises à l'autorité égyptienne. Sous la scène principale, un registre inférieur montre une rangée de prisonniers ligotés, renforçant le message de domination militaire et de sécurité du territoire.</p>
+    <p>L'exécution technique en relief en creux est ici d'une grande maîtrise, permettant aux ombres de dessiner avec force les contours des muscles et les détails des visages. Au-dessus du bras levé du souverain, la déesse protectrice Nekhbet, sous la forme d'un vautour aux ailes déployées, tient dans ses serres le symbole de l'éternité (le cercle Chen), conférant une légitimité divine à l'action guerrière du roi. Les colonnes de hiéroglyphes environnantes détaillent les titres de Ramsès II, le proclamant « taureau puissant » et « protecteur de l'Égypte ».</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1260) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_chambres_laterales_re_horakhty_table_offrandes_abou_simbel",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1260 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1260,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Chambres latérales et chapelles annexes : Investiture divine et table d'offrandes monumentale (Grand Temple d'Abou Simbel)",
+    site: "Grand Temple d'Abou Simbel - Chambres latérales (Nubie)",
+    originSite: "Abou Simbel",
+    locationType: "site",
+    currentLocation: "In situ (Chambres latérales du Grand Temple, Abou Simbel)",
+    category: "Relief rupestre en creux sur grès",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Ramsès II", "Abou Simbel", "Chambres latérales", "Rê-Horakhty", "Table d'offrandes", "Spéos"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOYARRuBtTwXMy-6kEUMkuG6g1UJ-LSAntTlDNUSbGPX-xy3ynApu8HBdf3ZRchDTwgJ-zfSpM7AeKK4WM7aM464399EAbIcHmQMDnNi4qB5ntYFtiyEnbScCRMDB48p90wvmH5Sjky27pFk0qo3ZWQbw=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette vue d'angle offre une perspective immersive sur les chambres latérales ou les chapelles annexes du Grand Temple d'Abou Simbel, creusées au cœur de la roche nubienne. Contrairement aux grandes salles d'apparat, ces espaces plus restreints étaient destinés à des rites spécifiques ou au stockage d'objets cultuels précieux. Les parois sont entièrement recouvertes de reliefs qui témoignent d'une organisation spatiale rigoureuse, où chaque centimètre carré de pierre est utilisé pour glorifier Ramsès II et son lien privilégié avec le panthéon égyptien.</p>
+    <p>Sur le mur du fond, nous observons une scène d'investiture ou de reconnaissance divine : le Pharaon, coiffé d'une couronne haute, est accueilli par des divinités assises sur des trônes archaïques, dont une figure divine à tête de faucon, probablement Rê-Horakhty, étendant la main en signe de bénédiction. Le mur latéral droit présente quant à lui une scène d'offrande monumentale, où le roi fait face à une table d'offrandes richement chargée de pains, de fleurs de lotus et de jarres de vin.</p>
+    <p>L'éclairage met en évidence la texture brute du grès et les traces du travail des tailleurs de pierre qui ont excavé ces salles il y a plus de 3 200 ans. Cet espace confiné permet de réaliser l'ampleur du chantier d'Abou Simbel, où même les pièces les plus reculées bénéficiaient d'une exécution artistique de premier ordre, transformant une grotte obscure en un sanctuaire d'éternité pour les dieux.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1260) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_ramses_ii_libation_vases_globulaires_hathor_abou_simbel",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1260 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1260,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Libation royale aux vases globulaires et protection de la déesse Hathor (Grand Temple d'Abou Simbel)",
+    site: "Grand Temple d'Abou Simbel - Chambres intérieures (Nubie)",
+    originSite: "Abou Simbel",
+    locationType: "site",
+    currentLocation: "In situ (Chambres intérieures du Grand Temple, Abou Simbel)",
+    category: "Relief rupestre en creux sur grès",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Ramsès II", "Abou Simbel", "Libation", "Vases globulaires", "Déesse Hathor"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMRdXPmRSNVv-a_LTMXkQCll2uSzrrYMM4sBB3h3Be6n9oimJRTsCgFnKceCyucm0o3-bHLU4iAaysqLMRKirtlH2DO6eksEcqPsrYpLOsfvZWlYe1Wf1iKLwGcZeosNamCeIT37QtkXNMQP8UHZR3vaw=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce bas-relief provient des chambres intérieures du Grand Temple d'Abou Simbel, excavé sous le règne de Ramsès II. Contrairement aux vastes fresques guerrières de la salle hypostyle, cette scène illustre l'aspect sacerdotal et rituel du pharaon. Elle dépeint un moment sacré d'interaction directe entre le souverain et le divin, soulignant la fonction de Ramsès II comme unique intermédiaire capable de nourrir les dieux pour maintenir l'équilibre du monde.</p>
+    <p>La composition centrale montre le Pharaon debout, effectuant une libation et une offrande d'encens. Il tient dans ses mains de petits vases globulaires contenant des substances précieuses qu'il présente à une divinité assise sur un trône à gauche. La figure divine porte les attributs classiques de la royauté céleste. À droite du roi, une divinité féminine, probablement la déesse Hathor ou Mout, lève la main en signe de protection et de soutien, participant activement à la sanctification du geste royal.</p>
+    <p>Le travail du relief est particulièrement soigné, avec une attention portée aux détails des vêtements plissés du roi et à la finesse des colonnes hiéroglyphiques qui encadrent la scène. L'utilisation du relief en creux dans cette partie plus sombre du temple permet de créer des contrastes marqués qui donnaient vie aux silhouettes sous l'éclairage des lampes à huile utilisées autrefois par les prêtres.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1260) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_ramses_ii_archer_carquois_campagnes_militaires_abou_simbel",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1260 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1260,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Ramsès II bandant son arc sur le champ de bataille et chroniques des campagnes nubiennes (Grand Temple d'Abou Simbel)",
+    site: "Grand Temple d'Abou Simbel - Salle hypostyle (Nubie)",
+    originSite: "Abou Simbel",
+    locationType: "site",
+    currentLocation: "In situ (Salle hypostyle du Grand Temple, Abou Simbel)",
+    category: "Relief rupestre en creux sur grès",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Ramsès II", "Abou Simbel", "Archer", "Arc et carquois", "Campagnes nubiennes"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOU9-LpP0YySCHL5FyrKPpj5m8HnArURElONdD8s5_oRCxywcB-WXzFUc6r2FNtAXk8qLE5k1vgNiUbjEDVH3eNCS447AIaUFxDx4sHeWMoHWFIqB7R2SgCp0L2ZJnF7AOsuvkU4sWjkdNgcv6k3fa5QQ=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette scène magistrale est située dans la grande salle hypostyle du Grand Temple d'Abou Simbel, l'un des monuments les plus emblématiques du règne de Ramsès II. Elle illustre la fonction guerrière et protectrice du souverain, garant de la stabilité de l'Égypte face aux menaces extérieures. Sur cette paroi, le Pharaon est représenté au cœur de l'action, dominant le champ de bataille par sa stature héroïque et sa détermination infaillible, un thème récurrent de l'art ramesside qui visait à magnifier la puissance royale aux yeux des hommes et des dieux.</p>
+    <p>Le relief, exécuté avec la technique du relief en creux pour capter les jeux d'ombre dans la pénombre du sanctuaire, montre Ramsès II s'élançant contre ses ennemis. On y distingue la finesse des détails de son équipement militaire, notamment l'arc bandé et le carquois, tandis que sa silhouette athlétique exprime un dynamisme exceptionnel. À ses pieds, les adversaires sont représentés dans des postures de défaite, soulignant l'inéluctabilité du triomphe pharaonique.</p>
+    <p>Tout autour de la scène centrale, des colonnes de hiéroglyphes denses consignent les récits des campagnes militaires nubiennes et asiatiques. Ces inscriptions possèdent une valeur magique destinée à perpétuer la victoire du roi pour l'éternité. L'organisation de cette salle, avec ses colosses osiriaques faisant face aux reliefs guerriers, crée un contraste puissant entre la sérénité éternelle du roi divinisé et la violence nécessaire du roi combattant.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1260) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_procession_barque_amon_re_pretres_naos_abou_simbel",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1260 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1260,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Procession liturgique des prêtres portant la barque sacrée d'Amon-Rê criocéphale (Grand Temple d'Abou Simbel)",
+    site: "Grand Temple d'Abou Simbel - Parois intérieures (Nubie)",
+    originSite: "Abou Simbel",
+    locationType: "site",
+    currentLocation: "In situ (Salles intérieures du Grand Temple, Abou Simbel)",
+    category: "Relief rupestre en creux sur grès polychrome",
+    isHighlight: true,
+    chips: ["XIXe dynastie", "Ramsès II", "Abou Simbel", "Barque sacrée", "Prêtres", "Naos", "Bélier criocéphale"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNUcgeSBIoVNeWLa3f9V1_hEybiCU2ze7LBLdrXWx4NCYCtzzUl7l3r5AwmKgYPV3vm7b-7Sx-CSZpVeO1nR8OwIgMh9BYNevF07UdXqArpFqAzLwJh0_45nxV6MLoI6CDYssVFnbggriTpBtGr_20Hng=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce bas-relief exceptionnel, situé sur les parois intérieures du Grand Temple d'Abou Simbel, illustre une scène de procession sacrée d'une importance capitale pour le culte de Ramsès II. On y voit un groupe de prêtres au crâne rasé, vêtus de pagnes plissés, portant sur leurs épaules la barque sacrée du dieu Amon-Rê ou du roi divinisé. Cette image capture l'essence des fêtes religieuses de l'époque ramesside, où la statue divine sortait de l'obscurité du sanctuaire pour être manifestée aux yeux des fidèles lors de cérémonies rituelles codifiées.</p>
+    <p>La barque elle-même est un chef-d'œuvre de symbolisme, ornée à sa proue et à sa poupe d'une tête de bélier, animal sacré associé à Amon. Au centre du navire repose le naos (le saint des saints miniature) protégé par des voiles et des parasols, censé abriter l'essence invisible de la divinité. Des figures de prêtres-lecteurs et de dignitaires précèdent et accompagnent le cortège, certains agitant des éventails ou des encensoirs pour purifier l'air sur le passage du divin. La scène est d'autant plus précieuse qu'elle conserve par endroits des traces de pigments rouges et jaunes.</p>
+    <p>Le style de la gravure est caractéristique du Nouvel Empire, avec un souci du détail dans le rendu des visages et de l'anatomie des porteurs. La répétition rythmique des jambes des prêtres crée une sensation de mouvement lent et solennel, tandis que les colonnes de hiéroglyphes surplombant la scène décrivent les chants et les prières accompagnant la procession.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1260) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_ramses_ii_communion_spirituelle_dieu_tronant_abou_simbel",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1260 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1260,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Communion spirituelle et partition rituelle : Ramsès II devant la divinité solaire trônant (Grand Temple d'Abou Simbel)",
+    site: "Grand Temple d'Abou Simbel - Chapelles annexes (Nubie)",
+    originSite: "Abou Simbel",
+    locationType: "site",
+    currentLocation: "In situ (Chapelles annexes du Grand Temple, Abou Simbel)",
+    category: "Relief rupestre en creux sur grès polychrome",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Ramsès II", "Abou Simbel", "Communion spirituelle", "Sceptre Ouas", "Bleu égyptien"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP3xvlAq9Hx25SKvEsU5DpBlGM9HAmj5BER5mYLNbBzsHZ8d0HghgENgwzSWDkLYI6e8iA0ESG6zsMhL2b22s8Q-dc3mNbCF2Ct4uWa33xMR6LBWpXHMDu06jMBENOhWhL8wTv50EBJanoAKd5s64tfYQ=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce relief mural fait partie des scènes de dévotion situées dans les couloirs ou les chapelles annexes du Grand Temple d'Abou Simbel. Il illustre l'un des aspects les plus mystiques du cycle cultuel de la XIXe dynastie : l'interaction directe entre Ramsès II et les divinités chtoniennes et solaires. Contrairement aux scènes de triomphe guerrier, ce panneau privilégie une atmosphère de recueillement et de dialogue théologique, où le pharaon est représenté en pleine communion spirituelle avec le monde invisible.</p>
+    <p>Le registre dépeint Ramsès II debout, adoptant une posture de vénération face à une divinité trônant. Le dieu, coiffé d'un disque solaire ou d'une couronne complexe, est assis sur un trône archaïque à dossier bas, tenant le sceptre Ouas. La figure du souverain est exécutée avec une grande élégance, le corps s'inclinant légèrement vers l'avant dans un geste d'offrande ou de prière. Les traces de polychromie encore visibles, notamment les ocres rouges et les bleus égyptiens, permettent d'imaginer la splendeur originelle de ces gravures.</p>
+    <p>L'une des caractéristiques les plus remarquables de cette vue est la présence de colonnes de hiéroglyphes qui agissent comme une partition rituelle : chaque signe est gravé avec une précision millimétrique dans le grès, détaillant les formules de bénédiction et les titres divins. La technique du relief en creux permet de détacher nettement les silhouettes du fond rocheux, créant un effet de profondeur saisissant.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1260) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_piliers_osiriaques_salle_hypostyle_abou_simbel",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1260 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1260,
+    domain: "sculpture_statuaire",
+    artifactType: "Décor architectural (fronton, frise, métope, chapiteau)",
+    title: "Piliers osiriaques monumentaux de la grande salle hypostyle (Grand Temple d'Abou Simbel)",
+    site: "Grand Temple d'Abou Simbel - Salle hypostyle (Nubie)",
+    originSite: "Abou Simbel",
+    locationType: "site",
+    currentLocation: "In situ (Grande Salle hypostyle du Grand Temple, Abou Simbel)",
+    category: "Piliers rupestres sculptés en grès",
+    isHighlight: true,
+    chips: ["XIXe dynastie", "Ramsès II", "Abou Simbel", "Piliers osiriaques", "Osiris", "Statuaire rupestre colossale"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP7A6wsRAOlWDYqrwJcMiA5TV5dZT9JUJvndkaaaXoM2HGwKNiSFnDlBcOiFs6kW2m1TKWQteAnXmfO23xGGghaJAzyZn2zFTpcuXBBIXqnkvcYoBJfuVnYJfnD07bhVT0lxOd2C8uN_jmN5LlPiGuMaw=w1962-h2416-s-no-gm?authuser=0",
+    narrative: `<p>Ce bas-relief monumental, situé dans la grande salle hypostyle du Grand Temple d'Abou Simbel, offre une perspective saisissante sur la statuaire et la décoration architecturale de la XIXe dynastie. L'image met en scène l'un des piliers osiriaques qui soutiennent la structure colossale du temple, où Ramsès II est représenté sous les traits du dieu Osiris, maître de l'au-delà et symbole de régénération. Cette fusion entre le roi et la divinité affirme la nature immortelle du souverain, capable de franchir les frontières entre le monde des vivants et celui des morts.</p>
+    <p>Au premier plan, un pilier massif présente une gravure raffinée du pharaon en costume de cérémonie, orné d'un pagne plissé et de bijoux complexes. La finesse du modelé, particulièrement visible dans le rendu des muscles et des parures, témoigne de la maîtrise exceptionnelle des sculpteurs ramessides. À l'arrière-plan, les murs sont couverts de registres narratifs illustrant des processions sacrées et des scènes de cour, créant un environnement visuel saturé de symbolisme religieux et politique.</p>
+    <p>La composition de la salle joue sur une verticalité imposante, où les piliers agissent comme des médiateurs entre le sol terrestre et le plafond étoilé du temple. En déambulant entre ces piliers colossaux, le visiteur est invité à un voyage spirituel au cœur de la montagne nubienne, là où le temps s'arrête devant la majesté figée des dieux et de leur représentant terrestre.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1260) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_nefertari_sistre_lotus_hathor_petit_temple_abou_simbel",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1260 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1260,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "La reine Néfertari au sistre et fleur de lotus devant la déesse Hathor trônant (Petit Temple d'Abou Simbel)",
+    site: "Petit Temple d'Abou Simbel - Temple de Néfertari (Nubie)",
+    originSite: "Abou Simbel",
+    locationType: "site",
+    currentLocation: "In situ (Parois intérieures du Petit Temple, Abou Simbel)",
+    category: "Relief rupestre en creux sur grès",
+    isHighlight: true,
+    chips: ["XIXe dynastie", "Néfertari", "Hathor", "Abou Simbel", "Sistre rituel", "Petit Temple", "Féminité sacrée"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOVo_qsvEkcfKT9sSICrVSajIuONWxj1wmIOy54FrgkQJP0ZKu7FtFRxJpEHjepfqn00RcCFzF6J5--76PrBNY7rtAnwvXBpo1hVQbdfs0p3GMPtTYu70HmqDiGo8L_q9z-3TqAlfyab7QtQpcnIQG1Og=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce bas-relief provient du Petit Temple d'Abou Simbel, une œuvre architecturale unique dédiée par Ramsès II à sa Grande Épouse Royale, Néfertari, et à la déesse Hathor. Contrairement au Grand Temple voisin où le pharaon domine, ce sanctuaire met à l'honneur la reine, la représentant ici dans un face-à-face solennel avec le divin. La scène illustre la piété de Néfertari et son rôle central dans la médiation entre la royauté et les forces célestes, dans un style caractéristique du Nouvel Empire où l'élégance des silhouettes féminines atteint son apogée.</p>
+    <p>La reine Néfertari occupe la partie gauche de la composition, reconnaissable à sa coiffe exceptionnelle composée de deux hautes plumes entourant le disque solaire et les cornes de la déesse Hathor. Vêtue d'une robe de lin fin et transparent dont les plis sont délicatement suggérés par la gravure, elle tient d'une main le sistre, un instrument de musique sacré utilisé pour apaiser les divinités, et de l'autre une fleur de lotus, symbole de renaissance. Sa stature, presque égale à celle de la divinité qui lui fait face, témoigne de son statut exceptionnel.</p>
+    <p>Au centre de la paroi, la déesse Hathor est représentée assise sur un trône archaïque, tendant la main vers la reine en signe de bénédiction, tandis qu'à droite, la présence discrète de Ramsès II vient compléter la triade rituelle. Les colonnes de hiéroglyphes déclinent les titres de la reine, « celle pour qui le soleil se lève », transformant ce sanctuaire rupestre en un monument éternel à la féminité sacrée.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1260) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_nefertari_adoration_vache_hathor_barque_papyrus_abou_simbel",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1260 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1260,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "La reine Néfertari en adoration devant la vache sacrée d'Hathor sur la barque de papyrus (Petit Temple d'Abou Simbel)",
+    site: "Petit Temple d'Abou Simbel - Salles profondes (Nubie)",
+    originSite: "Abou Simbel",
+    locationType: "site",
+    currentLocation: "In situ (Sanctuaire profond du Petit Temple, Abou Simbel)",
+    category: "Relief rupestre en creux sur grès",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Néfertari", "Hathor", "Abou Simbel", "Vache sacrée", "Barque de papyrus", "Disque solaire ailé"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPCahL1EkuTFSX_XUW8H_BDU-z2aIIxPa1V_B6xm_E97QifvPP2-qJXZoU0tnIZeMn8VUjKK06NRqenXbomwR-VcvSYXBt3AQ13ChfxTbD_MMpOpZ6c8J6U6LaJDABjeNel76TNBDiF1VNOkfIGt3rxwg=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Ce bas-relief exceptionnel se situe dans les salles les plus reculées du Petit Temple d'Abou Simbel, dédié à la reine Néfertari et à la déesse Hathor. Il illustre une scène d'une grande poésie religieuse : la déesse Hathor représentée sous sa forme animale de « Vache sacrée » émergeant de la montagne thébaine. Elle est figurée à bord d'une barque papyriforme qui glisse symboliquement sur les eaux du Nil ou les marais du Delta, entourée de hautes tiges de papyrus stylisées qui évoquent la fertilité et la renaissance.</p>
+    <p>À gauche de la composition, la reine Néfertari est représentée en adoration devant la divinité. Elle porte sa coiffe caractéristique aux hautes plumes et présente une offrande pour s'attirer la protection de la déesse « Maîtresse du Pays de Pount ». Hathor, sous les traits de la vache, porte entre ses cornes le disque solaire orné de plumes. Le registre inférieur est orné d'un disque solaire ailé, symbole de protection universelle, qui surmonte l'entrée d'un passage, sacralisant ainsi la circulation au sein du monument.</p>
+    <p>Le style de cette gravure est typique de l'art ramesside, alliant la force du relief en creux à une élégance fluide dans le rendu des formes végétales et animales. En se faisant représenter face à la Vache sacrée dans les profondeurs du spéos, la reine s'assure une protection éternelle dans le cycle de la vie.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1260) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_piliers_hathoriques_salle_hypostyle_petit_temple_abou_simbel",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1260 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1260,
+    domain: "sculpture_statuaire",
+    artifactType: "Décor architectural (fronton, frise, métope, chapiteau)",
+    title: "Piliers hathoriques à visages de la déesse et scènes rituelles de la reine Néfertari (Petit Temple d'Abou Simbel)",
+    site: "Petit Temple d'Abou Simbel - Salle hypostyle (Nubie)",
+    originSite: "Abou Simbel",
+    locationType: "site",
+    currentLocation: "In situ (Salle hypostyle du Petit Temple, Abou Simbel)",
+    category: "Piliers rupestres sculptés en grès",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Néfertari", "Hathor", "Abou Simbel", "Piliers hathoriques", "Oreilles de vache", "Petit Temple"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMSJSSdIxguDdgQ55VwfRUot7AQSTXGvaTh0Q2NKX7JZdrnC66C-5AUKh2lqQM3tRKb4hW8ap10xFgMwOvRfqk6eEs9jOsKt80xLQsOSm0-xl0piJ2pve8sbWfqkmtuCwbx_P-SldAUbh6imsZsbfytzg=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette vue intérieure présente les piliers richement sculptés du Petit Temple d'Abou Simbel, érigé au XIIIe siècle avant notre ère par le pharaon Ramsès II. Ce sanctuaire rupestre, creusé à même la roche de la colline de l'Ibchek, est dédié à la déesse Hathor ainsi qu'à la Grande Épouse Royale, la reine Néfertari. Le temple se distingue par son caractère exceptionnel dans l'art égyptien, puisqu'il place la reine sur un pied d'égalité quasi parfait avec son époux.</p>
+    <p>Les éléments centraux de cette structure sont les piliers dits « hathoriques ». Chaque pilier est couronné par le visage de la déesse Hathor, représentée de face avec des oreilles de vache et une coiffure imposante se terminant en larges boucles. Hathor est ici invoquée dans sa fonction de déesse de la joie, de l'amour et de la musique. Les visages sculptés, aux traits d'une grande douceur, semblent veiller sur le passage des prêtres et des souverains vers le sanctuaire profond du temple.</p>
+    <p>En arrière-plan, les murs de la salle hypostyle révèlent une iconographie complexe gravée en creux où la famille royale interagit avec le panthéon divin, réaffirmant le rôle spirituel majeur de Néfertari au sein du sanctuaire nubien.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1260) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_deesse_leontocephale_sekhmet_ankh_colonne_ramesseum",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1260 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1260,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "La déesse léontocéphale Sekhmet tendant l'Ânkh sur une colonne fasciculée (Ramesseum)",
+    site: "Ramesseum - Temple des millions d'années de Ramsès II (Gourna, Thèbes)",
+    originSite: "Thèbes-Ouest",
+    locationType: "site",
+    currentLocation: "In situ (Colonnes du Ramesseum, Thèbes)",
+    category: "Relief en creux sur grès",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Ramsès II", "Ramesseum", "Déesse Sekhmet", "Léontocéphale", "Signe Ânkh", "Colonne fasciculée"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOv-OzMkj-im70xFtNWkB9KRFmLHDBGasKzLZmWPBLqCAHNLmDi2ezU-I9gW96bbeNPyfmBihrNLBLhJd7bKUCfW8gYrf3OojR20D9sDBGrbPyuPNbMdqY67TkhepZwyRV8ALBVlTtYcc7_8zkt9EWckQ=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette œuvre est un relief en creux situé sur l’une des colonnes monumentales du Ramesseum, le château de millions d’années construit par Ramsès II sur la rive ouest de Thèbes au XIIIe siècle avant notre ère. Elle représente une divinité féminine léontocéphale, vraisemblablement la déesse Sekhmet ou Mout, coiffée du disque solaire orné de l’uraeus, le serpent protecteur. La finesse du trait et la cambrure élégante de la silhouette témoignent du classicisme de la XIXe dynastie, période durant laquelle l’art impérial cherche à exprimer à la fois la puissance du pharaon et la bienveillance des dieux envers sa personne.</p>
+    <p>Le relief illustre une scène de protection divine où la déesse se tient debout, vêtue d'une robe fourreau moulante typique de l'iconographie féminine égyptienne. Elle tient dans sa main droite le signe ânkh, symbole de la vie éternelle, qu'elle semble offrir au souverain situé sur une face adjacente de la colonne. Les hiéroglyphes gravés au-dessus et autour de la figure précisent ses titres et les bénédictions qu'elle accorde au roi, garantissant ainsi la pérennité du pouvoir royal à travers les rituels du temple.</p>
+    <p>Le support lui-même, une colonne fasciculée en grès, fait partie intégrante de l'architecture colossale du temple qui servait de centre de culte pour le roi divinisé. L’utilisation du relief en creux était particulièrement adaptée aux zones extérieures ou très éclairées des temples, car la lumière crue du soleil égyptien accentuait les ombres et rendait les figures lisibles de loin.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1260) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_deesse_mout_hathor_sceptre_papyrus_colonne_ramesseum",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1260 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1260,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "La déesse Mout ou Hathor au sceptre papyriforme et signe Ânkh (Ramesseum)",
+    site: "Ramesseum - Temple des millions d'années de Ramsès II (Gourna, Thèbes)",
+    originSite: "Thèbes-Ouest",
+    locationType: "site",
+    currentLocation: "In situ (Colonnes du Ramesseum, Thèbes)",
+    category: "Relief en creux sur grès",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Ramsès II", "Ramesseum", "Déesse Mout", "Hathor", "Sceptre papyriforme", "Signe Ânkh"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczM64p8kO0IStgKXJzHZLS6KLkcch1paKDXEOOkTSzBovphtpXlyarA8nFIei56Jkzb4bstMLL8H1hZMvZQ-TA_t3-JLGb2Vf2xjcLvAPTvqrFRGFkOJeZyl-kgP3a1KeDilGTf2bWddqMBfG6YUBtCI-A=w1998-h1332-s-no-gm?authuser=0",
+    narrative: `<p>Cette scène en relief appartient au même ensemble architectural du Ramesseum, le temple funéraire de Ramsès II à Thèbes-Ouest. Elle présente une figure féminine divine d'une grande finesse, identifiable à la déesse Mout ou à Hathor, portant une perruque tripartite surmontée d'un mortier et d'une haute plume, attributs de la royauté et de l'équilibre cosmique. Le travail du sculpteur souligne ici la transition entre le relief en creux, utilisé pour les contours profonds, et un léger modelé interne qui donne du volume au corps de la divinité, caractéristique de l'esthétique soignée de la période ramesside.</p>
+    <p>La divinité est représentée dans une attitude protectrice, tenant d'une main le sceptre papyriforme et de l'autre le signe ânkh, symbolisant le souffle de vie qu'elle transmet au pharaon. À sa gauche, on distingue partiellement la silhouette d'un dieu masculin, probablement Rê-Horakhty au vu du disque solaire, formant ainsi une triade ou une procession divine accueillant le roi dans le monde des dieux. Les colonnes de hiéroglyphes qui séparent les personnages servent de légende à la scène, détaillant les épithètes divines et les promesses de « millions d'années » de règne accordées à Ramsès II.</p>
+    <p>L'organisation spatiale du décor sur le fût de la colonne respecte les canons de la perspective égyptienne, où chaque figure occupe un registre précis pour garantir la clarté du message théologique. Ce fragment témoigne de la fonction du temple comme interface entre le monde terrestre et l'éternité.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1260) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+   {
     id: "sculpture_amon_min_ithyphallique_laitues_lotus_louxor",
     civId: "egypte",
     periodId: "nouvel_empire",
