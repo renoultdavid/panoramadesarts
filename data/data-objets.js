@@ -6,6 +6,110 @@ window.ART_OBJECTS = window.ART_OBJECTS || [];
 window.ART_OBJECTS.push(
 
   {
+    id: "paroi_livre_portes_ramses_iv_kv2",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (v. -1150 av. J.-C. / règne de Ramsès IV)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1150,
+    domain: "funeraire",
+    artifactType: "Chambre funéraire / Hypogée",
+    title: "Paroi gravée et peinte aux textes du Livre des Portes (Tombe de Ramsès IV, KV2)",
+    site: "Tombe de Ramsès IV - KV2 (Vallée des Rois, Thèbes)",
+    originSite: "Vallée des Rois (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe KV2, Vallée des Rois)",
+    category: "Bas-relief polychrome funéraire",
+    isHighlight: false,
+    chips: ["XXe dynastie", "Ramsès IV", "Tombe KV2", "Livre des Portes"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMfkzzTPJNtTCVJmKNIYgrpWoNyyFv86XbJ7P-D5_ks8r5L9aXCcpxemig71eUbUOHykCLH3Hywk_ux1r7H4YZOexuQg4M3BZ_0MOenkFHeyW854fy3vMM7y1DaeJIpZo54BWVKoDWTr9ZJmaJVKJaz3A=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette œuvre est un fragment de bas-relief peint provenant de la paroi de la tombe de Ramsès IV (KV2), située dans la Vallée des Rois à Thèbes-Ouest. Datant de la XXe dynastie du Nouvel Empire, soit environ 1150 avant J.-C., elle témoigne du raffinement de l'art ramesside tardif. Le calcaire a été soigneusement sculpté en creux pour y inscrire des colonnes de textes hiéroglyphiques, séparées par de fines bandes verticales qui structurent la lecture et le décorum de la chambre funéraire.</p>
+    <p>Le texte présenté ici fait partie de recueils funéraires complexes comme le Livre des Portes ou le Livre des Cavernes, destinés à guider le souverain défunt dans son voyage nocturne à travers le monde souterrain. On y distingue des signes iconiques tels que des oiseaux (le poussin de caille pour le son "ou"), des scarabées, des serpents et des figures anthropomorphes. Ces glyphes ne sont pas de simples outils de communication, mais possèdent une valeur magique où chaque image doit contribuer à la renaissance éternelle du roi.</p>
+    <p>La polychromie, bien que partiellement érodée par le temps, conserve des traces vibrantes de pigments naturels. Le jaune d'ocre domine, évoquant la chair des dieux et l'éclat solaire, tandis que des rehauts de rouge et de bleu soulignent certains détails anatomiques ou symboliques. La précision du trait révèle le travail des artistes de Deir el-Médineh, ces artisans d'élite qui consacraient leur vie à l'aménagement des demeures d'éternité des pharaons.</p>
+    <p>Aujourd'hui, cet ensemble monumental est l'un des plus visités de la nécropole thébaine en raison de son état de conservation exceptionnel. La profondeur de la gravure et la clarté de la mise en page reflètent une volonté de clarté théologique, assurant au roi Ramsès IV une protection perpétuelle sous le regard des divinités. L'œuvre incarne ainsi la fusion parfaite entre l'écriture, l'art plastique et la ferveur religieuse de l'Égypte antique.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1150) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Tombes & Rituels.</p>`
+  },
+  {
+    id: "couloir_cartouches_ramses_iv_kv2",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (v. -1150 av. J.-C. / règne de Ramsès IV)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1150,
+    domain: "funeraire",
+    artifactType: "Chambre funéraire / Hypogée",
+    title: "Vue monumentale du couloir aux cartouches royaux de Ramsès IV (KV2)",
+    site: "Tombe de Ramsès IV - KV2 (Vallée des Rois, Thèbes)",
+    originSite: "Vallée des Rois (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe KV2, Vallée des Rois)",
+    category: "Architecture funéraire peinte",
+    isHighlight: false,
+    chips: ["XXe dynastie", "Ramsès IV", "Couloir monumental", "Vallée des Rois"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOnyldLRekuquK1rnNuSNSwm-v9wohWbAIcSZzUVSLufj85NSU_2ybd5-DhTkNZQBbOPUXLhaquBBiTmzEhKzRLhjcpXSayk0MgYHSuYm1PupZ-Hnh97MAkkDgo4E5JAJ7Qwq6tt-1o3XSdvEe3huMmZQ=w613-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette photographie offre une perspective saisissante sur l'ampleur monumentale des décors de la tombe de Ramsès IV (KV2) dans la Vallée des Rois. Contrairement aux détails rapprochés, cette vue d'ensemble souligne la répétition rythmée et la densité des colonnes de textes qui recouvrent les parois du couloir principal. On y observe la structure rigoureuse de l'écrit, où chaque colonne de hiéroglyphes est délimitée par des filets colorés, créant un effet de tapisserie sacrée qui enveloppe littéralement le défunt dans sa demeure d'éternité.</p>
+    <p>Au cœur de cette paroi se détachent plusieurs cartouches royaux, ces formes oblongues protégeant les noms du pharaon. Ils servent de points d'ancrage visuels au milieu des extraits des textes funéraires, réaffirmant l'identité de Ramsès IV et son lien direct avec les divinités solaires. La présence de la visiteuse au premier plan permet de prendre conscience de l'échelle humaine face à ces "murs de savoir", rappelant que ces textes n'étaient pas de simples décorations, mais des formules actives censées fonctionner éternellement dans l'obscurité de la tombe.</p>
+    <p>L'état de conservation de la polychromie est ici remarquable, illustrant la palette canonique de l'Égypte ancienne : le bleu du lapis-lazuli, le rouge de l'hématite et le jaune de l'or. La luminosité de l'arrière-plan blanc, typique des tombes de la période ramesside, fait ressortir la finesse des signes gravés en relief dans le stuc. Cette technique permettait une exécution rapide tout en conservant une grande précision dans le détail des plumes d'oiseaux ou des instruments rituels, témoignant de l'excellence des scribes-dessinateurs de l'époque.</p>
+    <p>Cette œuvre murale est une page monumentale du Livre des Portes, un texte religieux décrivant le passage du soleil à travers les douze heures de la nuit. Pour le pharaon, la lecture de ces parois est un acte de survie : en s'identifiant au dieu Rê, il espère franchir chaque porte gardée par des serpents et des génies pour renaître à l'aube. La tombe devient ainsi une machine théologique complexe, où l'image et le texte fusionnent pour vaincre le chaos et garantir l'ordre cosmique du Maât.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1150) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Tombes & Rituels.</p>`
+  },
+  {
+    id: "paroi_frises_cartouches_ramses_vi_kv9",
+    civId: "egypte",
+    periodId: "nouvel_empire",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (v. -1140 av. J.-C. / règne de Ramsès VI)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1140,
+    domain: "funeraire",
+    artifactType: "Chambre funéraire / Hypogée",
+    title: "Paroi aux frises de cartouches d'or de Ramsès VI (Tombe KV9)",
+    site: "Tombe de Ramsès V et Ramsès VI - KV9 (Vallée des Rois, Thèbes)",
+    originSite: "Vallée des Rois (Thèbes-Ouest)",
+    locationType: "site",
+    currentLocation: "In situ (Tombe KV9, Vallée des Rois)",
+    category: "Bas-relief polychrome funéraire",
+    isHighlight: false,
+    chips: ["XXe dynastie", "Ramsès VI", "Tombe KV9", "Cartouches d'or"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMs_5OaJPIPUGVAqkrEaq-3oOOzYPu0V82VpEulqMknsiVdfvOB_vl0xpbqlR7Z1j8T2_iHVY5SqJUZwd5OKCifYx_NUHEZOw4CMS_9KpqOZBlOE_raV5MOZd-1T46-PSPbr4FphQ6UFZEoYhFzwdyDWw=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette nouvelle paroi provient de la tombe commune de Ramsès V et Ramsès VI (KV9), située également dans la Vallée des Rois. Ce monument, souvent considéré comme l'un des plus spectaculaires de la nécropole, se distingue par la saturation extraordinaire de ses décors. Ici, les registres de hiéroglyphes ne sont plus seulement des textes, mais de véritables frises graphiques où la répétition des cartouches royaux crée un motif hypnotique, affirmant la légitimité et la protection divine du souverain à travers les âges.</p>
+    <p>L'œuvre présente une alternance rigoureuse de noms royaux inscrits dans des cartouches sur fond jaune d'or, symbolisant l'immortalité. On y reconnaît notamment le nom de couronnement Nebmaâtrê-meryamoun (Ramsès VI). La densité des signes est caractéristique de la fin de l'époque ramesside, où chaque centimètre carré de la paroi est investi pour conjurer les forces du chaos. La finesse de la gravure, soulignée par une polychromie restée extrêmement vive, témoigne d'un chantier qui a duré près de six ans, utilisant les textes du Livre des Portes et du Livre de la Terre.</p>
+    <p>Contrairement à la tombe de Ramsès IV, le style ici se fait plus compact et les contrastes de couleurs plus marqués. Les hiéroglyphes sont exécutés avec une précision presque calligraphique : les rouges terreux, les bleus profonds et les blancs de chaux s'équilibrent pour guider l'œil à travers les récits cosmogoniques. Cette paroi illustre parfaitement la fonction "incantatoire" de l'art égyptien : l'écrit n'est pas fait pour être lu par les vivants, mais pour vibrer éternellement dans la pierre et accompagner le roi dans sa fusion avec le dieu solaire.</p>
+    <p>La présence répétée des figures de divinités agenouillées au-dessus des cartouches renforce la dimension rituelle de la scène. Elles semblent porter et protéger le nom du roi, assurant la survie de son Ren (le nom), l'un des composants essentiels de l'âme égyptienne. Cet ensemble monumental, par sa perfection technique et sa richesse théologique, demeure l'un des plus hauts témoignages de la pensée religieuse de la XXe dynastie, transformant la chambre funéraire en un véritable temple de la connaissance ésotérique.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1140) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Tombes & Rituels.</p>`
+  },
+  {
+    id: "stele_offrande_saite_musee_imhotep",
+    civId: "egypte",
+    periodId: "basse_epoque",
+    civName: "Égypte : Troisième Période Intermédiaire & Basse Époque",
+    century: "XXVIe dynastie (v. -660 av. J.-C. / période saïte)",
+    centuryDisplay: "VIIe s. av. J.-C.",
+    centuryNumeric: -660,
+    domain: "sculpture_statuaire",
+    artifactType: "Monolithe / Stèle sculptée",
+    title: "Stèle funéraire peinte de dévotion à Osiris et Isis (Période saïte)",
+    site: "Musée Imhotep (Saqqarah, Égypte)",
+    originSite: "Nécropole de Saqqarah",
+    locationType: "museum",
+    currentLocation: "Musée Imhotep (Saqqarah)",
+    category: "Stèle funéraire peinte",
+    isHighlight: false,
+    chips: ["XXVIe dynastie", "Période saïte", "Osiris & Isis", "Musée Imhotep"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNoJmXxuP1st3VMDuRgqqIc7afFdcph9NwVnjVsiUnkNKgYL3zBm37MH2uXPxQjkeMZjfND5ByyRBsv8mQBHc76snxG0PA2Zm_ZSlMFtAFgl_gO_-AOoePTanhqT4VY4MtrJ4iKk4CwQXa5koYSFe0PUg=w613-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette stèle funéraire en calcaire peint, datée de la Basse Époque vers 660 avant notre ère, est un témoignage raffiné de l'art votif de la XXVIe dynastie. Découverte dans la nécropole de Saqqarah, elle est aujourd'hui conservée au musée Imhotep, situé au pied de la pyramide à degrés. La conservation exceptionnelle de ses pigments permet d'apprécier la palette égyptienne traditionnelle, où le rouge, le noir et l'ocre soulignent la dimension sacrée de la scène.</p>
+    <p>Le registre supérieur, ou lunette, met en scène le dialogue entre le monde des hommes et celui des dieux. À droite, le défunt est représenté debout, les bras levés en signe d'adoration devant une table d'offrandes chargée de lotus et de pains. Face à lui trône Osiris, dieu des morts, reconnaissable à sa couronne Atef et ses attributs royaux, suivi de la déesse Isis qui l'assiste dans sa fonction protectrice. Au sommet du cintre, le disque solaire rouge flanqué de deux uraeus assure la protection divine sur l'ensemble du monument.</p>
+    <p>La partie inférieure de la stèle est occupée par quatre lignes de texte hiéroglyphique soigneusement gravées. Ces inscriptions contiennent la formule traditionnelle d'offrande invocatoire, demandant aux divinités d'accorder au défunt « du pain, de la bière, de la viande et de la volaille » pour l'éternité. Ce texte mentionne également l'identité du propriétaire de la stèle, garantissant ainsi la survie de son nom dans la mémoire des vivants.</p>
+    <p>L'œuvre se distingue par son style caractéristique de la période saïte, marqué par un retour aux canons classiques de l'Ancien Empire tout en intégrant la finesse du trait propre à la Basse Époque. Ce monument n'était pas seulement un objet décoratif, mais une véritable interface magique permettant au défunt de participer aux cycles de la vie et de la renaissance auprès d'Osiris.</p>
+    <p><strong>Siècle :</strong> VIIe siècle av. J.-C. (-660) | <strong>Civilisation :</strong> Égypte antique (Basse Époque) | <strong>Sous-partie :</strong> Tombes & Rituels.</p>`
+  },
+   {
     id: "paroi_polychrome_tombe_amenherkhepshef_qv55",
     civId: "egypte",
     periodId: "nouvel_empire",
