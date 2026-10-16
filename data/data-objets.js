@@ -15130,9 +15130,52 @@ window.ART_OBJECTS.push(
     chips: ["Base Ring II", "Bronze Récent", "Kourotrophos"],
     deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNtlhntpxWY6u22Dj77CiZfXJnSfduTP1uXInNNl7THWXS5vseOikfKiRgcTsCjP2iVGO-jX924k9zAAUyZQhGX8luuSrh5eXc650LHXXMWEdLAl7o589lo_Rkk6Bo9UJYlo4iFAtBkaj6qhmzuUK5y_w=w2111-h896-s-no-gm?authuser=0",
     imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNufxOapnwqIR5eRwmyNhF8HBWd4Q_q4QugRWMjWQzcUz2IYBKi1u0QUIfRCM9WGX28x-rQiwj8lL4vmOJAvGnXMPQQ3xExGxLPF2b24gyNwBWQV4uW1AES3jShvmIAfTe07SWzo-w-UhOcGKoJlcX-UQ=w1818-h2416-s-no-gm?authuser=0",
+    hotspots: [
+      {
+        x: 49,
+        y: 8,
+        radius: 9,
+        tag: "POINT 1 / 5 • FACIÈS AVIFORME",
+        title: "Le bec d'oiseau et les oreilles ajourées",
+        desc: "La tête présente un profil typique en bec d'oiseau avec des yeux circulaires pastillés. Les larges lobes d'oreilles sont percés de multiples perforations destinées à suspendre de petits anneaux métalliques amovibles."
+      },
+      {
+        x: 57,
+        y: 23,
+        radius: 8,
+        tag: "POINT 2 / 5 • KOUROTROPHOS",
+        title: "Le nourrisson au regard pastillé",
+        desc: "L'enfant tenu contre l'épaule gauche reprend la stylisation de la mère avec un œil incisé en cupule. Il incarne la figure protectrice de l'offrande votive vouée à la pérennité de la descendance."
+      },
+      {
+        x: 45,
+        y: 32,
+        radius: 8,
+        tag: "POINT 3 / 5 • GESTUELLE MATERNELLE",
+        title: "L'étreinte des bras et la poitrine",
+        desc: "Les deux bras minces en ruban encerclent le buste et le bébé. Deux pastilles d'argile coniques soulignent la poitrine nourricière, accentuant la fonction nourricière du modèle."
+      },
+      {
+        x: 47,
+        y: 52,
+        radius: 10,
+        tag: "POINT 4 / 5 • FÉCONDITÉ SACRÉE",
+        title: "Le triangle pubien incisé en chevrons",
+        desc: "Le bassin s'élargit fortement et arbore un grand triangle pubien minutieusement scarifié de chevrons imbriqués, motif emblématique des cultes de fécondité du Bronze récent chypriote."
+      },
+      {
+        x: 46,
+        y: 82,
+        radius: 10,
+        tag: "POINT 5 / 5 • CANON STYLISÉ",
+        title: "Les jambes soudées et les pieds évasés",
+        desc: "La partie inférieure du corps forme une tige creuse terminée par deux moignons évoquant des pieds joints. Cette structure creuse assurait une cuisson uniforme de la pâte fine Base Ring."
+      }
+    ],
     narrative: `<p>Cette figurine anthropomorphe en terre cuite, appartenant à la catégorie technique de la « Base Ring II », est un exemplaire exceptionnel de la statuaire chypriote du Bronze récent. Elle représente une femme debout portant un nourrisson contre son sein gauche, une iconographie désignée sous le terme de kourotrophos. Bien que découverte à Tyr, sur la côte levantine, son style et sa fabrication confirment son origine chypriote, illustrant l'intensité des échanges culturels et commerciaux en Méditerranée orientale à cette époque. La silhouette est caractérisée par des hanches larges et un modelé creux, une innovation technique permettant une cuisson plus homogène de l'argile.</p>
     <p>Le traitement du visage est particulièrement singulier : le nez est fortement busqué, s'apparentant à un « bec d'oiseau », tandis que les oreilles, larges et stylisées, présentent des perforations multiples destinées à recevoir des anneaux de métal ou de terre cuite, aujourd'hui disparus. Le corps est orné de motifs incisés qui soulignent les parures et les caractères sexuels. On distingue nettement un collier composé de plusieurs rangs autour du cou et une ceinture marquant la taille. Le triangle pubien est mis en évidence par de profondes incisions en chevrons, un trait caractéristique lié aux cultes de la fertilité et de la régénération.</p>
-    <p>La présence de cette figurine dans un contexte phénicien souligne son rôle potentiel d'objet de dévotion personnelle ou funéraire. En tenant son enfant avec ses deux bras, la figure maternelle incarne la protection et la continuité de la lignée. Les incisions géométriques sur le pubis et l'abdomen renforcent cette lecture symbolique de la fécondité. Ce type d'objet servait probablement de médiateur entre le fidèle et une divinité féminine protectrice, ancêtre de la grande déesse chypriote, garantissant la survie des nouveau-nés et la prospérité du foyer.</p>`
+    <p>La présence de cette figurine dans un contexte phénicien souligne son rôle potentiel d'objet de dévotion personnelle ou funéraire. En tenant son enfant avec ses deux bras, la figure maternelle incarne la protection et la continuité de la lignée. Les incisions géométriques sur le pubis et l'abdomen renforcent cette lecture symbolique de la fécondité. Ce type d'objet servait probablement de médiateur entre le fidèle et une divinité féminine protectrice, ancêtre de la grande déesse chypriote, garantissant la survie des nouveau-nés et la prospérité du foyer.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1450) | <strong>Civilisation :</strong> Art Chypriote (Âge du Bronze) | <strong>Sous-partie :</strong> Terre cuite & Dévotion.</p>`
   },
   {
     id: "orant_chypriote_archaique",
@@ -15144,20 +15187,64 @@ window.ART_OBJECTS.push(
     centuryNumeric: -650,
     domain: "sculpture_statuaire",
     artifactType: "Figurine votive / Ex-voto",
-    title: "Statuette d'orant ou dignitaire",
-    site: "Musée du Louvre (Paris / prov. Chypre)",
-    originSite: "Sanctuaire de Chypre",
+    title: "Tête d'orant ou de guerrier coiffé d'un casque conique",
+    site: "Musée du Louvre (Paris / prov. Idalion)",
+    originSite: "Idalion (Chypre)",
     locationType: "museum",
     currentLocation: "Musée du Louvre (Paris)",
     category: "Coroplastie & Sculpture votive",
     isHighlight: true,
     themeLink: "https://photos.google.com/share/AF1QipORn4Sj9GchtBwLRq4DuZRFxHqmcBvuxx8uA2_VwycbpRi8amqI-iK7UvkQSi6apA?key=ZmJweFhiZEJySU1rUms2REJFWm1jZ1YwQjFMczJ3",
-    chips: ["Époque Archaïque", "Terre cuite peinte", "Coroplastie"],
+    chips: ["Époque Archaïque", "Terre cuite peinte", "Coroplastie", "Idalion", "Chypro-archaïque I"],
     deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNtlhntpxWY6u22Dj77CiZfXJnSfduTP1uXInNNl7THWXS5vseOikfKiRgcTsCjP2iVGO-jX924k9zAAUyZQhGX8luuSrh5eXc650LHXXMWEdLAl7o589lo_Rkk6Bo9UJYlo4iFAtBkaj6qhmzuUK5y_w=w2111-h896-s-no-gm?authuser=0",
     imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP2W_m_RjvYnvtw9edrmROsxlhf-9sLrQkidZ9x59w35cbRpPCZ7h-_hUC_xBh5BFTh1MDSaE-4rNJSOYT5HK64ij5AETYrmBW2j0laeXXpGwDS3bQYXkQq0kOpbzTfc4P1yIjbfSKEzjDZx_xbS8uptw=w1818-h2416-s-no-gm?authuser=0",
-    narrative: `<p>Cette statuette en terre cuite illustre l'apogée de la sculpture coroplastique chypriote, une tradition qui a pris un essor considérable à partir du milieu du VIIe siècle av. J.-C. Le personnage est représenté debout, dans une attitude hiératique qui souligne la solennité de sa fonction, probablement celle d'un orant ou d'un dignitaire lié à un sanctuaire. Le travail de la terre cuite combine ici des techniques de modelage à la main pour le corps et l'utilisation probable d'un moule pour les traits du visage, permettant d'obtenir une expression d'une grande finesse. La silhouette est cylindrique et stylisée, une caractéristique propre aux grandes figurines de cette période, où l'artiste privilégie la présence symbolique sur le réalisme anatomique.</p>
-    <p>Le visage présente des traits archaïques typiques, avec des yeux en amande largement ouverts et un léger sourire qui confère à la figure une vitalité intérieure. La coiffe ou la chevelure est traitée avec soin, encadrant le front et retombant sur les épaules, ce qui accentue la verticalité de la composition. Le vêtement, une longue tunique lisse, sert de support à une décoration peinte dont on devine encore les traces sombres. Ces motifs géométriques ou floraux permettaient de simuler la richesse des textiles de l'époque, ajoutant une dimension de prestige au personnage représenté. Les bras, légèrement décollés du buste, suggèrent un geste d'offrande ou de prière aujourd'hui partiellement perdu.</p>
-    <p>L'importance de cette statuette réside dans son rôle de témoignage des échanges culturels intenses en Méditerranée orientale. Si la technique et le style s'inscrivent dans une tradition locale forte, on y perçoit également des influences venues du Levant et de l'Égypte, réinterprétées avec l'esthétique propre à Chypre. Ces objets, déposés par centaines dans les sanctuaires de l'île, servaient de substituts éternels aux fidèles, assurant leur présence continue devant la divinité. La conservation des pigments et la douceur du modelage font de cette pièce un exemple remarquable de la dévotion populaire et de l'artisanat de luxe au cœur de l'époque archaïque.</p>`
+    hotspots: [
+      {
+        x: 58,
+        y: 8,
+        radius: 8,
+        tag: "POINT 1 / 5 • COUVRE-CHEF ET BÉLIÈRE",
+        title: "Le sommet du casque à bélière recourbée",
+        desc: "Le haut bonnet conique en cuir s'achève par une boucle ou bélière recourbée vers l'arrière. De fines incisions reproduisent les lignes de couture assemblant les pièces de cuir ou de feutre de ce casque de tradition orientale."
+      },
+      {
+        x: 40,
+        y: 49,
+        radius: 8,
+        tag: "POINT 2 / 5 • GRAPHIQUE ET REGARD",
+        title: "L'œil en amande et le sourcil en chevron",
+        desc: "L'œil en amande présente une pupille peinte en noir profond bordée d'un cerne en relief. Au-dessus, le sourcil forme un bandeau incisé en chevrons ou arêtes de poisson rehaussé d'oxyde noir."
+      },
+      {
+        x: 20,
+        y: 56,
+        radius: 8,
+        tag: "POINT 3 / 5 • PROFIL ET EXPRESSION",
+        title: "Le nez proéminent et la bouche esquissée",
+        desc: "Le profil vigoureux est dominé par un nez busqué prolongeant le front. La bouche petite aux lèvres charnues conserve des traces de pigment rouge, conférant au visage une solennité imperturbable."
+      },
+      {
+        x: 65,
+        y: 63,
+        radius: 8,
+        tag: "POINT 4 / 5 • ORNEMENT AURICULAIRE",
+        title: "L'oreille dégagée et son ornement plastique",
+        desc: "L'échancrure latérale du couvre-chef dégage l'oreille qui présente sur le lobe un ornement appliqué en relief. Ce détail plastique témoigne du soin apporté à la parure du fidèle ou du guerrier."
+      },
+      {
+        x: 72,
+        y: 74,
+        radius: 9,
+        tag: "POINT 5 / 5 • CHEVELURE ARCHITECTURÉE",
+        title: "La masse capillaire aux mèches crantées",
+        desc: "Une épaisse natte de cheveux retombe sous la nuque, sculptée d'incisions diagonales rythmées qui font directement écho au traitement stylisé et géométrique des sourcils."
+      }
+    ],
+    narrative: `<p>Cette tête masculine provient du site antique d'Idalion, l'actuelle Dhali sur l'île de Chypre. Elle est datée de l'époque chypro-archaïque I, plus précisément de la fin du VIIe siècle av. J.-C., entre 650 et 600 av. J.-C. Façonnée en ronde-bosse dans une terre cuite chypriote beige rosé, l'œuvre présente des détails incisés et appliqués ainsi que des rehauts de peinture noire et rouge caractéristiques de la technique bichrome. Ses dimensions témoignent d'un format proche de la grandeur nature, avec une hauteur de 24,5 cm, une largeur de 14 cm et une épaisseur de 19,5 cm.</p>
+    <p>Cette tête appartenait à l'origine à une grande statue votive en terre cuite représentant un fidèle ou un guerrier debout, un format monumental dans lequel les ateliers de coroplastes chypriotes ont particulièrement excellé pour pallier l'absence de marbre local. Le visage, imberbe et au modelé plein, affiche les traits vigoureux propres au premier archaïsme chypriote. Les grands yeux en amande sont bordés de paupières épaisses en relief, tandis que l'iris et la pupille sont rendus par un disque plein peint en noir profond. Au-dessus, les sourcils forment deux bandeaux en léger relief striés d'incisions obliques en chevrons ou en arêtes de poisson, également rehaussés de noir. Le profil est dominé par un nez fort, proéminent et légèrement busqué qui s'inscrit dans le prolongement direct de la ligne frontale. Plus bas, une bouche petite et charnue aux traces de peinture rouge esquisse une expression solennelle au-dessus d'un menton rond et puissant.</p>
+    <p>Le personnage est coiffé d'un haut bonnet conique, ou d'un casque souple en cuir de type oriental, muni à son sommet d'un anneau ou d'une bélière recourbée. De fines lignes incisées sur la calotte imitent avec précision les coutures d'assemblage des pans de cuir ou d'étoffe. À l'arrière, sous la nuque, s'échappe une masse capillaire tombante structurée par de profondes incisions en chevrons qui rappellent directement le traitement graphique des sourcils. Les oreilles, bien dégagées par l'échancrure latérale du couvre-chef, portent encore des ornements plastiques au niveau des lobes.</p>
+    <p>Au cours de la période chypro-archaïque, qui s'étend d'environ 750 à 480 av. J.-C., les sanctuaires de l'île de Chypre, et tout particulièrement ceux du royaume intérieur d'Idalion, se peuplent d'une foule de statues et de figurines en terre cuite ou en calcaire. Ces effigies ne représentent pas les divinités elles-mêmes, mais des orants perpétuels. Déposées dans l'enceinte sacrée, le téménos, elles avaient pour fonction de placer l'offrant sous la protection constante de la divinité locale, souvent un dieu masculin guerrier assimilé à Apollon ou à Reshef. Le style de cette œuvre illustre parfaitement la position de carrefour culturel qu'occupe Chypre en Méditerranée orientale à cette époque. Le couvre-chef pointu à coutures apparentes et l'usage expressif de la bichromie noire et rouge témoignent d'une forte influence syro-levantine et assyrienne, alors que la recherche de monumentalité et la structure géométrique du visage annoncent les échanges croissants avec les mondes grec et égyptien au sein du style dit néo-chypriote.</p>
+    <p><strong>Siècle :</strong> VIIe siècle av. J.-C. (-650) | <strong>Civilisation :</strong> Art Chypriote (Archaïque) | <strong>Sous-partie :</strong> Coroplastie & Sculpture votive.</p>`
   },
 
   /* --------------------------------------------------------------------------
@@ -15269,10 +15356,53 @@ window.ART_OBJECTS.push(
     chips: ["v. -1500 av. J.-C.", "Tell Atchana (Alalakh)", "British Museum (Londres)"],
     deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczPHGkCZm47O1gOL4Ui6nLL0Q0omROV3pafBxYT6WkYFLnvfgyA9yAFCMg-GL6KLpqobLqfxmnJGBF0ph464anxAlRWeZAsc5daaMrcP4s9FK1oijdIqs4hZQ1WP-EtZnYfMwWvkfacKZQ5JF6diThA3RA=w1620-h688-s-no-gm?authuser=0",
     imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczN6NQEToJ97f-c9qg-7W7Rt1ImmBuXkLUYQQalWO4iiVc7usyBS_ELROgGtpIudXZ0cVIjbk4-F1mo45heZCYaqpyiADyeZUZhe5HrztmoWoXq_qIWOTT0m981iqD3yMBajZAiUIHQQ4E0zNJYGg-K-fw=w613-h919-s-no-gm?authuser=0",
+    hotspots: [
+      {
+        x: 47,
+        y: 9,
+        radius: 9,
+        tag: "POINT 1 / 5 • COIFFE ROYALE",
+        title: "La tiare ovoïde archaïque",
+        desc: "Idrimi est coiffé d'un bonnet arrondi et serré, bordé d'un bandeau frontal rigide. Ce couvre-chef sobre est typique des représentations princières du Levant septentrional et du monde syro-mésopotamien au Bronze récent."
+      },
+      {
+        x: 52,
+        y: 16,
+        radius: 8,
+        tag: "POINT 2 / 5 • EXPRESSION DU REGARD",
+        title: "Les yeux incisés et la vigilance éternelle",
+        desc: "Les orbites béantes étaient autrefois incrustées de calcaire et de pierres sombres ou de pâte de verre. Ce traitement conférait un regard hypnotique et pénétrant, signifiant la présence vigilante et perpétuelle du souverain devant les dieux."
+      },
+      {
+        x: 51,
+        y: 35,
+        radius: 8,
+        tag: "POINT 3 / 5 • TRAITEMENT DU VISAGE",
+        title: "La barbe postiche géométrique et lisse",
+        desc: "Le menton s'élargit en une masse continue et épurée figurant la barbe rituelle. Loin du réalisme mésopotamien ondulé, cette stylisation géométrique souligne l'esthétique locale et robuste de l'atelier de sculpture d'Alalakh."
+      },
+      {
+        x: 56,
+        y: 51,
+        radius: 9,
+        tag: "POINT 4 / 5 • GESTE DE PIÉTÉ",
+        title: "La main droite repliée sur la poitrine",
+        desc: "Le bras droit replié amène la main à plat sur le torse dans une posture d'humilité et de piété royale face à la divinité, tandis que la main gauche repose en poing fermé sur les genoux, marquant l'autorité retrouvée."
+      },
+      {
+        x: 53,
+        y: 83,
+        radius: 12,
+        tag: "POINT 5 / 5 • RÉCIT AUTOBIOGRAPHIQUE",
+        title: "Le texte cunéiforme du scribe Sharruwa",
+        desc: "Une inscription autobiographique de plus de cent lignes en akkadien recouvre la robe et le trône. Elle relate la fuite d'Idrimi, ses sept années d'exil avec les guerriers Hapirou et sa reconquête héroïque du royaume d'Alalakh."
+      }
+    ],
     narrative: `<p>Découverte en 1939 par Leonard Woolley à Tell Atchana (l’antique Alalakh), cette statue en magnésite blanche représente Idrimi, roi d'Alalakh, siégeant sur un trône de basalte. L'œuvre est d'une importance historique inégalée, non pas seulement pour ses qualités esthétiques, mais surtout pour l'inscription autobiographique monumentale qui recouvre presque toute la surface du corps du souverain. Idrimi y raconte son exil après la chute de sa famille à Alep, ses sept années passées parmi les guerriers nomades Hapirou, sa reconquête du trône avec l'appui de son suzerain, le roi du Mittani, et ses campagnes militaires victorieuses. C'est l'un des rares témoignages directs d'un souverain de l'âge du bronze racontant son propre destin avec une telle précision narrative.</p>
     <p>D'un point de vue stylistique, la statue témoigne d'un art provincial syrien qui s'éloigne des canons classiques mésopotamiens pour adopter une esthétique plus schématique et robuste. Idrimi est représenté portant une tiare royale archaïque et une longue robe bordée d'un épais bourrelet, caractéristique du costume syrien de l'époque. Son visage est marqué par de grands yeux circulaires dont les pupilles étaient autrefois incrustées de verre ou de pierres sombres, conférant au roi une expression de vigilance éternelle. Ses mains sont posées sur ses genoux et sa poitrine, dans une attitude de dévotion ou d'affirmation de son autorité retrouvée. La barbe est figurée par un simple relief lisse au menton, prolongeant la ligne du visage de manière géométrique.</p>
     <p>L'inscription, gravée en cunéiforme akkadien sur trente lignes, est l'élément le plus saisissant. Elle a été rédigée par le scribe Sharruwa, qui a signé son œuvre à la fin du texte. Les signes parcourent les bras, le torse et les jambes du roi, transformant littéralement le corps du souverain en un support de mémoire et de légitimité. Le texte se termine par des bénédictions pour ceux qui respecteront la statue et des malédictions terrifiantes pour ceux qui oseraient la déplacer ou effacer le nom d'Idrimi. La statue n'était pas un simple portrait, mais une présence vivante destinée à recevoir des offrandes funéraires et à assurer la pérennité du nom du roi après sa mort.</p>
-    <p>Le trône, bien que plus rudimentaire dans sa sculpture, présente des traces de lions stylisés sur les côtés, symbole classique de la royauté au Proche-Orient. La statue a été retrouvée rituellement "enterrée" dans une fosse sous le temple d'Alalakh, ce qui suggère qu'elle a été mise à l'abri lors d'une destruction de la ville ou qu'elle a bénéficié d'un traitement funéraire particulier après que le culte du roi eut cessé. Elle demeure aujourd'hui l'une des pièces maîtresses du British Museum pour comprendre les rapports de pouvoir entre les petits royaumes syriens et les grands empires de l'époque.</p>`
+    <p>Le trône, bien que plus rudimentaire dans sa sculpture, présente des traces de lions stylisés sur les côtés, symbole classique de la royauté au Proche-Orient. La statue a été retrouvée rituellement "enterrée" dans une fosse sous le temple d'Alalakh, ce qui suggère qu'elle a été mise à l'abri lors d'une destruction de la ville ou qu'elle a bénéficié d'un traitement funéraire particulier après que le culte du roi eut cessé. Elle demeure aujourd'hui l'une des pièces maîtresses du British Museum pour comprendre les rapports de pouvoir entre les petits royaumes syriens et les grands empires de l'époque.</p>
+    <p><strong>Siècle :</strong> XVIe siècle av. J.-C. (-1500) | <strong>Civilisation :</strong> Art Amorrite / Levant antique | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
   },
 
   /* --------------------------------------------------------------------------
