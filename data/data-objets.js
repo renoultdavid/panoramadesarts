@@ -15041,26 +15041,65 @@ window.ART_OBJECTS.push(
     civId: "egee",
     periodId: "cyclades",
     civName: "Art Cycladique (Mer Égée)",
-    century: "v. -2800 av. J.-C. (XXVIIIe s. av. J.-C.)",
-    centuryDisplay: "v. -2800 av. J.-C. (XXVIIIe s. av. J.-C.)",
+    century: "v. -2800 à -2300 av. J.-C. (XXVIIIe-XXIVe s. av. J.-C.)",
+    centuryDisplay: "v. -2800 à -2300 av. J.-C. (XXVIIIe-XXIVe s. av. J.-C.)",
     centuryNumeric: -2800,
     domain: "sculpture_statuaire",
     artifactType: "Statuaire royale & divine (ronde-bosse)",
-    title: "Grande statue féminine monumentale de 1,5 mètre",
-    site: "Musée National Archéologique d'Athènes (prov. Cyclades)",
-    originSite: "Archipel des Cyclades (Amorgos / Naxos)",
+    title: "Grande statue féminine monumentale d'Amorgos (1,48 m)",
+    site: "Musée National Archéologique d'Athènes (prov. Amorgos)",
+    originSite: "Île d'Amorgos (Cyclades)",
     locationType: "museum",
     currentLocation: "Musée National Archéologique d'Athènes",
     category: "Sculpture en marbre",
     isHighlight: true,
     themeLink: "https://photos.google.com/share/AF1QipNJXU5aih6CKBSCrN4pP6P5l0AplswBz64lNNpyoV_8FhUrBnY4DVaQKdDXOysWHQ?key=cXFoM2gzaHZ1RnlyV3lVendpbmdFZ1RSYXRSTWtn",
-    chips: ["Bronze Ancien II", "Marbre blanc de Paros", "Type Spedos"],
+    chips: ["Cycladique Ancien II", "Culture de Kéros-Syros", "Marbre insulaire", "Variété de Spédos"],
     deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNMZRgR759mlxzzO63gKtVg2u437kEFSbomGP9HGmk8DelG-gh8gB9JNXi9bKBgrqsDkalszZLTbKwC5t0GJdWrMoEmqyl9V6L6d0f5GhGwYfTg6AqqP-C2stcjrj5Vn5Ba1SstoTv7f5_pyIccZFQq4g=w2209-h938-s-no-gm?authuser=0",
     imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczN9iP7Fcc8FrBL9usiPRWeijaLndwYYacpAiifNY8ybz4htaHhgrTMfzRcaCrzV6fXGr2BJQopM4NP5Byn4UAsG0GLQnhaxXuOA1hdq5iXKuoivviypjT2Y4oAyByf65ZZC7HVIE-YNCXw_95yQP4iH1A=w1607-h2410-s-no-gm?authuser=0",
-    narrative: `<p>Cette œuvre monumentale, datée d'environ 2800 avant notre ère, constitue un témoignage exceptionnel de la culture cycladique du Bronze ancien. Haute de 1,5 mètre, cette figure féminine sculptée dans le marbre blanc appartient au type dit canonique, caractérisé par une stylisation géométrique rigoureuse qui a profondément marqué l'art moderne. Bien que découverte ou conservée à Athènes, sa silhouette allongée et ses formes épurées sont originaires de l'archipel des Cyclades, où de telles idoles étaient produites pour des contextes funéraires ou rituels encore partiellement mystérieux.</p>
-    <p>La morphologie de la statue suit des conventions artistiques précises propres à la période de Spedos. Le visage, d'une grande sobriété, présente un nez en relief en forme de pyramide allongée sur une tête en forme de lyre, dépourvue d'autres traits faciaux. Le cou est long et cylindrique, supportant un torse où les bras sont repliés sous la poitrine, l'avant-bras gauche reposant généralement sur le droit. Les seins sont discrètement indiqués en relief, tandis que l'abdomen est marqué par une légère incision délimitant le pubis, soulignant le caractère anthropomorphe et la symbolique liée à la fertilité ou à la protection.</p>
-    <p>La structure inférieure de la sculpture présente des jambes jointes, séparées par une profonde rainure verticale, avec des genoux légèrement fléchis et des pieds orientés vers le bas. Cette posture suggère que la statue n'était pas conçue pour tenir debout sans support, mais peut-être pour être déposée à plat dans une tombe ou portée lors de cérémonies. La monumentalité de cet exemplaire, dépassant largement la taille habituelle des figurines de cette époque, suggère qu'il s'agissait d'une commande prestigieuse destinée à un personnage de haut rang ou à un sanctuaire d'importance majeure.</p>
-    <p>L'état de conservation de la pièce permet d'apprécier la maîtrise technique des sculpteurs antiques qui travaillaient sans outils de fer, utilisant l'émeri pour polir la surface du marbre jusqu'à obtenir cet aspect lisse et translucide. Malgré son apparente blancheur actuelle, il est probable que des détails tels que les yeux ou des ornements corporels aient été initialement rehaussés par des pigments minéraux rouges et bleus, ajoutant une dimension polychrome vibrante à cette icône de l'art égéen préhistorique.</p>`
+    narrative: `
+      <p>Cette monumentale sculpture provient d'une sépulture de l'île d'Amorgos, dans l'archipel des Cyclades. Découverte à la fin du XIXe siècle lors des fouilles menées par l'archéologue Christos Tsountas, elle est datée de l'âge du Bronze ancien, plus précisément de la période du Cycladique Ancien II (culture de Kéros-Syros), aux alentours de 2800 à 2300 av. J.-C. Taillée dans un marbre blanc insulaire à grain fin qui a acquis avec le temps une patine beige doré, puis patiemment polie à l'émeri de Naxos, cette œuvre affiche des dimensions exceptionnelles de 1,48 mètre de hauteur (environ 1,50 mètre), ce qui en fait la plus grande sculpture cycladique intégralement conservée connue à ce jour et la première véritable statue grandeur nature de l'histoire de l'art grec.</p>
+      <p>Cette figure féminine nue appartient au type dit « canonique à bras croisés », et plus spécifiquement à la variété de Spédos, la plus répandue et la plus équilibrée de la plastique cycladique. Malgré son échelle monumentale, elle respecte scrupuleusement les conventions géométriques et la frontalité stricte des statuettes de petit format. La tête en forme de lyre ou d'ovale allongé, légèrement inclinée vers l'arrière et aplatie à son sommet, est supportée par un long cou cylindrique et puissant. Le visage, entièrement lisse en apparence, n'est structuré en relief que par l'arête médiane d'un long nez semi-conique et trapézoïdal. Toutefois, des traces ténues de pigments (fantômes de peinture) attestent qu'à l'origine, les yeux grands ouverts, les sourcils, la chevelure et des motifs géométriques sur les joues étaient rehaussés de couleurs vives à base d'azurite (bleu) et de cinabre (rouge).</p>
+      <p>Le torse quadrangulaire aux épaules tombantes présente une poitrine haute, sobrement modelée par deux petits seins coniques légèrement asymétriques. Les bras, détachés du buste par un fin travail d'évidement ou d'incision, sont repliés à l'horizontale sous la poitrine selon le schéma canonique strict où l'avant-bras gauche repose systématiquement au-dessus de l'avant-bras droit, les doigts étant minutieusement indiqués par de fines rainures parallèles. Sous le repli des bras, l'abdomen plat conduit à un triangle pubien nettement délimité par de larges incisions incurvées qui rejoignent le haut des cuisses. Les jambes, jointes mais séparées par une profonde gorge verticale qui perfore le marbre au niveau des mollets, présentent une légère flexion des genoux. Les pieds, inclinés vers le bas sur la pointe avec les orteils incisés, interdisent toute station debout autonome.</p>
+      <p>L'impossibilité pour cette statue de tenir debout sans support, combinée à sa découverte dans une tombe à ciste pourtant plus courte qu'elle (ce qui a entraîné sa brisure ancienne en plusieurs fragments au niveau du cou, du bassin, des genoux et des chevilles avant son dépôt), soulève d'importantes questions sur sa fonction. Si la majorité des figurines cycladiques accompagnaient les défunts dans l'au-delà comme substituts, psychopompes ou images d'une divinité protectrice liée à la fécondité et à la régénération, une œuvre d'une telle envergure devait d'abord jouer un rôle cultuel majeur dans le monde des vivants. Sans doute exposée couchée ou portée en procession lors de cérémonies communautaires et de rituels insulaires, cette effigie témoigne de la maîtrise technique exceptionnelle des sculpteurs des Cyclades qui, dépourvus d'outils en métal dur, parvenaient à extraire du marbre des formes d'une pureté abstraite saisissante grâce au seul usage de percuteurs en pierre, de lames d'obsidienne de Mélos et de poudres abrasives.</p>
+    `,
+    hotspots: [
+      {
+        x: 48.0,
+        y: 14.5,
+        tag: "POINT 1 / 5 • TÊTE EN LYRE & NEZ EN RELIEF",
+        title: "L'abstraction faciale et l'arête du nez",
+        desc: "La tête allongée en forme de lyre, rejetée vers l'arrière et aplatie à son sommet, réduit l'anatomie faciale à l'arête verticale d'un long nez saillant trapézoïdal. À l'origine, des détails peints (yeux d'azurite, mèches de cinabre) animaient cette surface aujourd'hui immaculée."
+      },
+      {
+        x: 48.0,
+        y: 33.0,
+        tag: "POINT 2 / 5 • POITRINE & ÉPAULES",
+        title: "Le modelé discret des seins",
+        desc: "Au sommet d'un buste trapézoïdal aux épaules tombantes, deux petits seins coniques délicatement sculptés en bas-relief ponctuent la nudité de la silhouette et affirment sobrement le caractère féminin de la divinité ou de l'offrande."
+      },
+      {
+        x: 48.2,
+        y: 42.5,
+        tag: "POINT 3 / 5 • BRAS CROISÉS CANONIQUES",
+        title: "La convention stricte des avant-bras",
+        desc: "Les bras sont repliés à l'horizontale sous la poitrine selon le canon strict de Spédos : l'avant-bras gauche repose systématiquement sur le droit, délimité par des incisions fines et précises sans détachement de la masse centrale."
+      },
+      {
+        x: 48.0,
+        y: 56.5,
+        tag: "POINT 4 / 5 • TRIANGLE PUBIEN INCISÉ",
+        title: "La délimitation géométrique du bassin",
+        desc: "L'abdomen plat est prolongé par de profondes incisions curvilignes marquant les plis de l'aine et circonscrivant le triangle pubien, rappelant les cultes primitifs de fécondité et de protection régénératrice."
+      },
+      {
+        x: 48.0,
+        y: 89.0,
+        tag: "POINT 5 / 5 • JAMBES JOINTES & PIEDS EN EXTENSION",
+        title: "L'interdiction de la station debout",
+        desc: "Séparées par une rainure perforante au niveau des mollets, les jambes s'achèvent par des pieds inclinés en pointe vers le bas. Cette morphologie excluait toute station debout autonome, imposant une présentation couchée ou portée en procession."
+      }
+    ]
   },
   {
     id: "fresque_poissons_phylakopi",
