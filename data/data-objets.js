@@ -984,8 +984,8 @@ window.ART_OBJECTS.push(
     imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPeMX08kvjyPFde65CIR3Vkfz3am1YW-04PEaY5d2IvkiYTJxrEqT5o0nLNNSUbNSo8vwSce5wBbn0w58vfoxr7eLM6fMmOx0fWErbkwIfDBTfaAZMhk0Ns07LTBgKfZ4CBXI5RNUGaqYcMhPhtA7bJQQ=w1611-h2416-s-no-gm?authuser=0",
     hotspots: [
       {
-        x: 35,
-        y: 15,
+        x: 50,
+        y: 12,
         radius: 12,
         tag: "POINT 1 / 5 • ATTRIBUT DIVIN ET SOLAIRE",
         title: "La complexe couronne Hemhem de Sobek",
@@ -993,32 +993,32 @@ window.ART_OBJECTS.push(
       },
       {
         x: 38,
-        y: 28,
-        radius: 11,
+        y: 29,
+        radius: 10,
         tag: "POINT 2 / 5 • PUISSANCE DU NIL",
         title: "La tête de crocodile et la perruque tripartite",
         desc: "La divinité associée aux crues bienfaitrices du Nil présente une tête de crocodile réaliste surmontant une perruque tripartite. Le modelé de la mâchoire et des écailles traduit la virtuosité des sculpteurs de la XVIIIe dynastie."
       },
       {
-        x: 50,
-        y: 38,
+        x: 58,
+        y: 35,
         radius: 10,
-        tag: "POINT 3 / 5 • COMMUNION SACRÉE",
-        title: "La transmission du signe de vie Ânkh",
-        desc: "D'un geste protecteur et intime, le dieu approche le signe de vie éternelle (ânkh) du visage du roi. Ce contact direct scelle l'alliance entre le divin et le souverain, garantissant l'immortalité de son règne."
-      },
-      {
-        x: 62,
-        y: 22,
-        radius: 12,
-        tag: "POINT 4 / 5 • MAJESTÉ ROYALE",
+        tag: "POINT 3 / 5 • MAJESTÉ ROYALE",
         title: "Le némès et la sérénité d'Amenhotep III",
         desc: "Le pharaon porte le némès plissé surmonté de l'uraeus royal. Son visage aux traits harmonieux, idéalisés dans la force de l'âge, illustre l'esthétique raffinée du 'Pharaon Magnifique' au zénith de l'Empire."
       },
       {
-        x: 50,
-        y: 72,
-        radius: 15,
+        x: 48,
+        y: 53,
+        radius: 9,
+        tag: "POINT 4 / 5 • COMMUNION SACRÉE",
+        title: "La transmission du signe de vie Ânkh",
+        desc: "D'un geste protecteur et intime, le dieu approche le signe de vie éternelle (ânkh) du visage du roi. Ce contact direct scelle l'alliance entre le divin et le souverain, garantissant l'immortalité de son règne."
+      },
+      {
+        x: 51,
+        y: 78,
+        radius: 14,
         tag: "POINT 5 / 5 • MATÉRIAU ET LUMIÉRANCE",
         title: "L'albâtre calcite et le trône cubique",
         desc: "Sculpté dans un albâtre calcite translucide, le groupe statuaire profite de la clarté de la pierre pour accrocher la lumière. Les deux figures partagent un unique trône cubique, symbole de l'ordre cosmique (la Maât) et de l'union sacrée."
