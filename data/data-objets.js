@@ -1029,7 +1029,7 @@ window.ART_OBJECTS.push(
     <p>À sa gauche, le roi Amenhotep III est représenté dans la force de la jeunesse. Il porte le némès, la coiffe royale plissée ornée de l'uraeus, ainsi que le pagne shendyt. Malgré la différence de taille entre le dieu et le monarque, une profonde harmonie se dégage de leur posture assise côte à côte. La douceur des traits du visage royal et le poli impeccable de la pierre calcaire confèrent à l'ensemble une aura de sérénité et d'éternité caractéristique de l'art du « Pharaon Magnifique ».</p>
     <p>Cette sculpture servait initialement d'objet de culte, renforçant la présence spirituelle du roi dans le temple de la divinité crocodile.</p>
     <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1380) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
-  }
+  },
   {
     id: "sculpture_bloc_offrande_deux_crocodiles_sobek_nebnefer_kom_ombo",
     civId: "egypte",
