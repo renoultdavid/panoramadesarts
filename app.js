@@ -1922,16 +1922,18 @@ function activateFocusPoint(index) {
   stageBox.dataset.scale = zoomScale;
   stageBox.style.transform = `translate(${moveX}px, ${moveY}px) scale(${zoomScale})`;
 
- // Effet projecteur progressif et lumineux
+ // Voile sombre uniforme
   if (darkVeil) {
     darkVeil.style.opacity = "0.88";
-    const spotlightMask = `radial-gradient(circle 170px at ${pt.x}% ${pt.y}%, transparent 0px, transparent 65px, black 160px)`;
-    darkVeil.style.webkitMaskImage = spotlightMask;
-    darkVeil.style.maskImage = spotlightMask;
+    darkVeil.style.webkitMaskImage = "none";
+    darkVeil.style.maskImage = "none";
   }
 
+  // Découpe circulaire nette sur l'image supérieure
   if (spotLens) {
-    spotLens.style.clipPath = "none";
+    spotLens.style.clipPath = `circle(22% at ${pt.x}% ${pt.y}%)`;
+    spotLens.style.webkitMaskImage = "none";
+    spotLens.style.maskImage = "none";
   }
 
   // Effacer la pastille cliquée
