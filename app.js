@@ -1915,7 +1915,7 @@ function activateFocusPoint(index) {
 
   // Découpe circulaire Spotlight
   spotLens.style.clipPath = `circle(${pt.radius}% at ${pt.x}% ${pt.y}%)`;
-  darkVeil.style.opacity = "0.72";
+  darkVeil.style.opacity = "0.88";
 
   // Effacer la pastille cliquée
   bubbles.forEach((b, idx) => {
