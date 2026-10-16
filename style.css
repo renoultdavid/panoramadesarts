@@ -2372,11 +2372,15 @@ body {
 .darkness-veil {
   position: absolute;
   inset: 0;
-  background: rgba(8, 10, 14, 0.88);
+  background-color: rgba(8, 10, 14, 0.90); /* On l'assombrit encore un peu (90%) */
   opacity: 0;
   pointer-events: none;
-  transition: opacity 0.4s ease;
+  transition: opacity 0.4s ease, mask-image 0.2s ease, -webkit-mask-image 0.2s ease;
   z-index: 2;
+  
+  /* Masque par défaut (complet, sans trou de lumière) */
+  -webkit-mask-image: radial-gradient(circle, transparent 100%, black 100%);
+  mask-image: radial-gradient(circle, transparent 100%, black 100%);
 }
 
 .spotlight-lens {
