@@ -1346,8 +1346,7 @@ function initSearchEngine() {
 
   if (btnFilterFocus) {
     btnFilterFocus.addEventListener('click', () => {
-      focusOnlyActive = !focusOnlyActive;
-      btnFilterFocus.classList.toggle('is-active', focusOnlyActive);
+      btnFilterFocus.classList.toggle('is-active');
       currentRenderLimit = PAGE_CHUNK;
       renderSearchGallery();
     });
@@ -1696,9 +1695,13 @@ function renderSearchGallery() {
   const selectedType = filterType ? filterType.value : 'all';
   const query = filterText ? filterText.value.toLowerCase().trim() : '';
 
+  // On récupère l'état actif directement depuis le bouton HTML
+  const btnFilterFocusEl = document.getElementById('btn-filter-focus-only');
+  const isFocusOnly = btnFilterFocusEl && btnFilterFocusEl.classList.contains('is-active');
+
   let filtered = catalog.map((item, idx) => ({ ...item, _idx: idx })).filter(item => {
     // Filtre exclusif "Œuvres Focus"
-    if (focusOnlyActive) {
+    if (isFocusOnly) {
       if (!item.hotspots || item.hotspots.length === 0) return false;
     }
 
