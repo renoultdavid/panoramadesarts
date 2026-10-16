@@ -11824,25 +11824,64 @@ window.ART_OBJECTS.push(
     civId: "egypte",
     periodId: "predynastique",
     civName: "Égypte Prédynastique & Thinite",
-    century: "v. -3800 à -3500 av. J.-C. (Nagada I / II)",
-    centuryDisplay: "v. -3800 av. J.-C.",
-    centuryNumeric: -3800,
+    century: "v. -2000 à -1650 av. J.-C. (Groupe C de Nubie)",
+    centuryDisplay: "v. -2000 à -1650 av. J.-C.",
+    centuryNumeric: -1850,
     domain: "ceramique",
     artifactType: "Plat",
-    title: "Plat peint à la scène de chasse, chiens et autruche",
-    site: "Musée de la Nubie (Assouan / prov. région d'Assouan)",
-    originSite: "Région d'Assouan (Haute-Égypte)",
+    title: "Coupe peinte à scènes de chasse et animaux de Basse-Nubie",
+    site: "Musée de la Nubie (Assouan / prov. Basse-Nubie)",
+    originSite: "Basse-Nubie (Groupe C)",
     locationType: "museum",
     currentLocation: "Musée de la Nubie (Assouan)",
-    category: "Céramique peinte",
+    category: "Céramique peinte sur fond blanc",
     isHighlight: false,
-    chips: ["Nagada I-II", "Scène de chasse", "Lévriers tesem", "Musée de la Nubie"],
+    chips: ["Groupe C de Nubie", "Scène de chasse", "Céramique polychrome", "Musée de la Nubie"],
     deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
     imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMi-BvXFAODbjMkBvY-7Fv1pgQsHLY_whUnHcCeEFD6dSCzV8chvfeZpNz-KZfICCX1gs2nj1MS1Fiis-Wh_Rjs6PZ93_bBSZpiQcbSm4mClIEq_MY_j8qFehXb9PlMrFh-0NSDjstzsqUvf5NssasLsA=w1379-h919-s-no-gm?authuser=0",
-    narrative: `<p>Cette coupe en terre cuite peinte, datant de la période prédynastique (culture de Nagada I ou II, environ 3800-3500 av. J.-C.), est un témoignage exceptionnel de l'art rupestre transposé sur support céramique. Découverte dans une sépulture de la région d'Assouan, elle illustre les préoccupations et l'environnement des premières sociétés nilotiques, bien avant l'unification de l'Égypte par les Pharaons.</p>
-    <p>Le décor intérieur, réalisé à l'aide de pigments sombres et ocres sur un fond clair, met en scène une chasse organisée. Au centre, la figure humaine est stylisée : le chasseur, debout, tient un arc bandé et semble diriger la traque. Il est accompagné de plusieurs chiens domestiques à la queue enroulée, ancêtres probables du Basenji ou du lévrier tesem, qui participent activement à la poursuite du gibier. On distingue nettement une autruche sur la gauche et une gazelle ou un lièvre sur la droite, capturant ainsi la biodiversité de la savane africaine qui bordait alors la vallée du Nil.</p>
-    <p>La disposition circulaire des motifs exploite parfaitement la forme du récipient, créant une sensation de mouvement et d'encerclement de la proie. Ce type d'objet n'avait pas seulement une fonction utilitaire ou décorative ; il revêtait souvent une dimension magique ou rituelle, visant à assurer le succès de la chasse dans le monde réel ou à garantir la subsistance du défunt dans l'au-delà. Par son style graphique épuré et sa narration vive, ce plat constitue l'un des premiers exemples de l'art figuratif nubien et égyptien, préfigurant les grandes scènes de chasse royales des millénaires suivants.</p>
-    <p><strong>Siècle :</strong> XXXVIIIe siècle av. J.-C. (-3800) | <strong>Civilisation :</strong> Égypte antique (Prédynastique) | <strong>Sous-partie :</strong> Céramiques.</p>`
+    narrative: `
+      <p>Conservée au Musée de la Nubie à Assouan, en Égypte, cette coupe en terre cuite provient d'une sépulture nubienne de Basse-Nubie. Elle est datée de la période du Groupe C, plus précisément de la phase moyenne ou récente, vers la fin du Moyen Empire égyptien ou la Deuxième Période intermédiaire (environ 2000 – 1650 av. J.-C.). Façonnée à la main dans une argile locale malaxée avec des dégraissants organiques, l'œuvre est recouverte d'un enduit blanc mat qui sert de fond clair pour un riche décor peint en polychromie, utilisant le noir et des touches de jaune-ocre ou de brun. Le récipient présente une forme hémisphérique évasée, caractéristique de la vaisselle rituelle et funéraire déposée dans les tombes de cette culture pastorale et paysanne.</p>
+      <p>L'intérieur de la coupe constitue un espace narratif circulaire d'une grande vivacité, entièrement animé par une scène de chasse en plein désert ou dans la brousse nilotique. Au centre de la composition se dresse un personnage masculin représenté de face, doté d'une chevelure courte foncée et vêtu d'un pagne court rayé ou hachuré. L'homme tient dans ses mains tendues un grand arc tendu qu'il s'apprête à décocher, tandis qu'il brandit des flèches de l'autre main. Autour de lui évoluent plusieurs animaux sauvages et domestiques : un grand chien de chasse tacheté au corps élancé et à la queue recourbée, des félins ou des prédateurs au pelage ocre et, dans la partie inférieure, une scène dynamique montrant des chiens poursuivant un lièvre fuyant à toute vitesse. De part et d'autre, des gerbes végétales ou des motifs de roseaux stylisés évoquent le milieu naturel de la vallée du Nil.</p>
+      <p>Cette œuvre témoigne de l'habileté remarquable des artisans du Groupe C, qui occupaient la région située entre la première et la deuxième cataracte du Nil. Alors que la céramique nubienne est mondialement célèbre pour ses terres cuites à poli noir et à bord noir caractéristiques, certaines pièces exceptionnelles adoptent ce décor peint sur fond blanc qui trahit des influences croisées avec l'art égyptien contemporain, tout en conservant une liberté et un esprit narratif proprement nubiens. Déposée dans une tombe, cette coupe soulignait le statut cynégétique du défunt, la chasse représentant à la fois une activité de subsistance essentielle et un symbole de maîtrise sur les forces chaotiques du désert dans l'idéologie funéraire de la Nubie ancienne.</p>
+      <p><strong>Siècle :</strong> XXe - XVIIe siècle av. J.-C. | <strong>Civilisation :</strong> Basse-Nubie (Groupe C) | <strong>Sous-partie :</strong> Céramiques.</p>
+    `,
+    hotspots: [
+      {
+        x: 50.0,
+        y: 45.0,
+        tag: "POINT 1 / 5 • PERSONNAGE & ARC TENDU",
+        title: "Le chasseur au centre de l'action",
+        desc: "Le personnage masculin, vêtu d'un pagne et doté d'une chevelure sombre, bande son grand arc avec assurance au milieu de l'espace circulaire."
+      },
+      {
+        x: 35.0,
+        y: 40.0,
+        tag: "POINT 2 / 5 • CHIEN DE CHASSE",
+        title: "Le lévrier tacheté à la course",
+        desc: "Un grand chien de chasse au corps svelte et à la queue recourbée accompagne activement la traque aux côtés de son maître."
+      },
+      {
+        x: 30.0,
+        y: 72.0,
+        tag: "POINT 3 / 5 • POURSUITE DU LIÈVRE",
+        title: "La scène de fuite animale",
+        desc: "La partie inférieure du registre circulaire met en scène des canidés aux prises avec un lièvre fuyant à toute vitesse dans les broussailles."
+      },
+      {
+        x: 70.0,
+        y: 42.0,
+        tag: "POINT 4 / 5 • ANIMAUX SAUVAGES",
+        title: "Les prédateurs du désert",
+        desc: "Plusieurs félins ou animaux sauvages au pelage ocre et noir peuplent la frise, soulignant la diversité de la faune affrontée par les chasseurs."
+      },
+      {
+        x: 75.0,
+        y: 68.0,
+        tag: "POINT 5 / 5 • GERBES VÉGÉTALES",
+        title: "Le décor de roseaux et de brousse",
+        desc: "Des motifs de roseaux stylisés et des gerbes végétales rappellent le milieu naturel et marécageux de la vallée nilotique."
+      }
+    ]
   },
   {
     id: "vase_black_topped_nagada_louvre",
