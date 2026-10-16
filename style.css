@@ -2393,7 +2393,7 @@ body {
   height: 100%;
   object-fit: contain;
   display: block;
-  filter: brightness(1.22) contrast(1.08);
+  filter: none;
 }
 
 .hotspot-bubble {
