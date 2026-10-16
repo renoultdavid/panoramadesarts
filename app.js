@@ -1919,10 +1919,10 @@ function activateFocusPoint(index) {
   stageBox.dataset.scale = zoomScale;
   stageBox.style.transform = `translate(${moveX}px, ${moveY}px) scale(${zoomScale})`;
 
-  // Grand halo lumineux avec dégradé progressif et visibilité parfaite
-  spotLens.style.clipPath = 'none';
-  spotLens.style.webkitMaskImage = `radial-gradient(circle 38% at ${pt.x}% ${pt.y}%, black 40%, transparent 100%)`;
-  spotLens.style.maskImage = `radial-gradient(circle 38% at ${pt.x}% ${pt.y}%, black 40%, transparent 100%)`;
+  // Effet projecteur net : grand cercle propre à 35% sans aucun voile gris au milieu
+  spotLens.style.webkitMaskImage = "none";
+  spotLens.style.maskImage = "none";
+  spotLens.style.clipPath = `circle(35% at ${pt.x}% ${pt.y}%)`;
   darkVeil.style.opacity = "0.88";
 
   // Effacer la pastille cliquée
