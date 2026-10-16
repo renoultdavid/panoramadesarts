@@ -1823,12 +1823,13 @@ else if (selectedCiv === 'egee' && cId !== 'egee' && !['cyclades', 'crete', 'myc
   }
 }
 /* ==========================================================================
-   CONTRÔLEUR DU MODE FOCUS PLEIN ÉCRAN INTERACTIF (AVEC AUDIOGUIDE SYNCHRONISÉ)
+   CONTRÔLEUR DU MODE FOCUS PLEIN ÉCRAN INTERACTIF (MODE MANUEL & VISITE GUIDÉE)
    ========================================================================== */
 let currentFocusArtwork = null;
 let currentFocusPointIndex = -1;
 let focusAudioPlayer = null;
 let isAudioDrivingFocus = false;
+let isGuidedTourActive = false;
 
 function getOrCreateFocusAudioPlayer() {
   if (!focusAudioPlayer) {
@@ -1842,9 +1843,10 @@ function getOrCreateFocusAudioPlayer() {
     focusAudioPlayer.style.zIndex = '10005';
     focusAudioPlayer.style.boxShadow = '0 8px 24px rgba(0,0,0,0.6)';
     focusAudioPlayer.style.borderRadius = '30px';
+    focusAudioPlayer.style.display = 'none';
 
     focusAudioPlayer.addEventListener('timeupdate', () => {
-      if (!currentFocusArtwork || !currentFocusArtwork.hotspots) return;
+      if (!isGuidedTourActive || !currentFocusArtwork || !currentFocusArtwork.hotspots) return;
       const curTime = focusAudioPlayer.currentTime;
 
       // Cherche si le temps courant correspond à un hotspot
@@ -1858,12 +1860,17 @@ function getOrCreateFocusAudioPlayer() {
           activateFocusPoint(activeIdx);
           isAudioDrivingFocus = false;
         }
-      } else if (curTime < (currentFocusArtwork.hotspots[0]?.startTime || 0)) {
-        // En phase d'introduction générale avant le point 1
+      } else {
+        // En dehors des plages de points (ex: intro générale au début) : vue d'ensemble avec toutes les pastilles
         if (currentFocusPointIndex !== -1) {
           showFocusOverview();
         }
       }
+    });
+
+    focusAudioPlayer.addEventListener('ended', () => {
+      stopGuidedTour();
+      showFocusOverview();
     });
 
     document.body.appendChild(focusAudioPlayer);
@@ -1871,52 +1878,103 @@ function getOrCreateFocusAudioPlayer() {
   return focusAudioPlayer;
 }
 
+function startGuidedTour() {
+  if (!currentFocusArtwork || !currentFocusArtwork.audioSrc) return;
+  isGuidedTourActive = true;
+  const player = getOrCreateFocusAudioPlayer();
+  const btnTour = document.getElementById('btnGuidedTourToggle');
+  
+  player.style.display = 'block';
+  player.play().catch(() => {});
+  
+  if (btnTour) {
+    btnTour.innerHTML = `⏸ Arrêter la visite guidée`;
+    btnTour.classList.add('is-active');
+  }
+}
+
+function stopGuidedTour() {
+  isGuidedTourActive = false;
+  const btnTour = document.getElementById('btnGuidedTourToggle');
+  if (focusAudioPlayer) {
+    focusAudioPlayer.pause();
+    focusAudioPlayer.style.display = 'none';
+  }
+  if (btnTour) {
+    btnTour.innerHTML = `🎧 Lancer la visite guidée`;
+    btnTour.classList.remove('is-active');
+  }
+}
+
 function openFocusMode(item) {
   if (!item || !item.hotspots || item.hotspots.length === 0) return;
   currentFocusArtwork = item;
+  isGuidedTourActive = false;
 
   const lightbox = document.getElementById('focus-lightbox');
   const mainImg = document.getElementById('focusMainImg');
   const spotImg = document.getElementById('focusSpotImg');
   const topTitle = document.getElementById('focusTopTitle');
   const container = document.getElementById('focusBubblesContainer');
+  const topButtons = document.querySelector('.top-bar-buttons');
 
   topTitle.textContent = `${item.title} • Découverte Guidée`;
   mainImg.src = item.imgSrc;
   spotImg.src = item.imgSrc;
 
-  // Créer les pastilles numérotées
+  // Création ou mise à jour du bouton Visite Guidée dans la barre du haut
+  let btnTour = document.getElementById('btnGuidedTourToggle');
+  if (!btnTour && topButtons) {
+    btnTour = document.createElement('button');
+    btnTour.id = 'btnGuidedTourToggle';
+    btnTour.className = 'btn-top-bar';
+    btnTour.addEventListener('click', () => {
+      if (isGuidedTourActive) {
+        stopGuidedTour();
+      } else {
+        startGuidedTour();
+      }
+    });
+    topButtons.insertBefore(btnTour, topButtons.firstChild);
+  }
+
+  if (btnTour) {
+    if (item.audioSrc) {
+      btnTour.style.display = 'inline-flex';
+      btnTour.innerHTML = `🎧 Lancer la visite guidée`;
+      btnTour.classList.remove('is-active');
+    } else {
+      btnTour.style.display = 'none';
+    }
+  }
+
+  // Préparation du lecteur audio en sourdine / pause
+  const player = getOrCreateFocusAudioPlayer();
+  player.pause();
+  player.currentTime = 0;
+  player.style.display = 'none';
+  if (item.audioSrc) {
+    player.src = item.audioSrc;
+  }
+
+  // Création des pastilles numérotées
   container.innerHTML = item.hotspots.map((pt, idx) => `
     <div class="hotspot-bubble" style="top: ${pt.y}%; left: ${pt.x}%;" data-index="${idx}">${idx + 1}</div>
   `).join('');
 
-  // Attacher les écouteurs de clic sur les pastilles
+  // Clic sur pastille manuelle
   container.querySelectorAll('.hotspot-bubble').forEach(bubble => {
     bubble.addEventListener('click', (e) => {
       e.stopPropagation();
       const idx = parseInt(bubble.dataset.index, 10);
       activateFocusPoint(idx);
 
-      // Si l'audio existe, caler la voix sur le point cliqué
-      if (focusAudioPlayer && item.hotspots[idx]?.startTime !== undefined) {
-        focusAudioPlayer.currentTime = item.hotspots[idx].startTime;
-        focusAudioPlayer.play().catch(() => {});
+      // Si la visite guidée est active, synchroniser l'audio sur ce point
+      if (isGuidedTourActive && item.hotspots[idx]?.startTime !== undefined) {
+        player.currentTime = item.hotspots[idx].startTime;
       }
     });
   });
-
-  // Gestion de l'audio si présent
-  const player = getOrCreateFocusAudioPlayer();
-  if (item.audioSrc) {
-    player.src = item.audioSrc;
-    player.style.display = 'block';
-    player.currentTime = 0;
-    player.play().catch(() => {}); // Démarre automatiquement (si autorisé par le navigateur)
-  } else {
-    player.pause();
-    player.src = '';
-    player.style.display = 'none';
-  }
 
   lightbox.classList.add('is-open');
   showFocusOverview();
@@ -1926,12 +1984,7 @@ function closeFocusMode() {
   const lightbox = document.getElementById('focus-lightbox');
   if (lightbox) lightbox.classList.remove('is-open');
 
-  if (focusAudioPlayer) {
-    focusAudioPlayer.pause();
-    focusAudioPlayer.currentTime = 0;
-    focusAudioPlayer.style.display = 'none';
-  }
-
+  stopGuidedTour();
   showFocusOverview();
 }
 
@@ -1981,7 +2034,6 @@ function activateFocusPoint(index) {
   const popupDesc = document.getElementById('focusPopupDesc');
   const bubbles = document.querySelectorAll('.hotspot-bubble');
 
-  // Zoom centré sur la zone du point
   const zoomScale = 1.35;
   const stageRect = stageBox.getBoundingClientRect();
   const currentScale = parseFloat(stageBox.dataset.scale) || 1;
@@ -1997,7 +2049,6 @@ function activateFocusPoint(index) {
   stageBox.dataset.scale = zoomScale;
   stageBox.style.transform = `translate(${moveX}px, ${moveY}px) scale(${zoomScale})`;
 
-  // Découpe circulaire du calque spotLens
   const radius = pt.radius || 20;
   if (spotLens) {
     const clipVal = `circle(${radius}% at ${pt.x}% ${pt.y}%)`;
@@ -2018,10 +2069,9 @@ function activateFocusPoint(index) {
   if (popupDesc) popupDesc.textContent = pt.desc;
   if (popupCard) popupCard.classList.add('is-visible');
 
-  // Synchronisation si le clic vient de l'utilisateur (et non du timeupdate automatique)
-  if (!isAudioDrivingFocus && focusAudioPlayer && pt.startTime !== undefined) {
+  // Si on est en visite guidée et que l'utilisateur clique manuellement sur un point
+  if (!isAudioDrivingFocus && isGuidedTourActive && focusAudioPlayer && pt.startTime !== undefined) {
     focusAudioPlayer.currentTime = pt.startTime;
-    focusAudioPlayer.play().catch(() => {});
   }
 }
 
