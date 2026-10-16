@@ -2049,7 +2049,7 @@ function activateFocusPoint(index) {
   stageBox.dataset.scale = zoomScale;
   stageBox.style.transform = `translate(${moveX}px, ${moveY}px) scale(${zoomScale})`;
 
-  const radius = pt.radius || 35;
+  const radius = pt.radius || 25;
   if (spotLens) {
     const clipVal = `circle(${radius}% at ${pt.x}% ${pt.y}%)`;
     spotLens.style.clipPath = clipVal;
