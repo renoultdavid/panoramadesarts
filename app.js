@@ -1823,10 +1823,53 @@ else if (selectedCiv === 'egee' && cId !== 'egee' && !['cyclades', 'crete', 'myc
   }
 }
 /* ==========================================================================
-   CONTRÔLEUR DU MODE FOCUS PLEIN ÉCRAN INTERACTIF
+   CONTRÔLEUR DU MODE FOCUS PLEIN ÉCRAN INTERACTIF (AVEC AUDIOGUIDE SYNCHRONISÉ)
    ========================================================================== */
 let currentFocusArtwork = null;
 let currentFocusPointIndex = -1;
+let focusAudioPlayer = null;
+let isAudioDrivingFocus = false;
+
+function getOrCreateFocusAudioPlayer() {
+  if (!focusAudioPlayer) {
+    focusAudioPlayer = document.createElement('audio');
+    focusAudioPlayer.id = 'focusAudioPlayer';
+    focusAudioPlayer.controls = true;
+    focusAudioPlayer.style.position = 'fixed';
+    focusAudioPlayer.style.bottom = '18px';
+    focusAudioPlayer.style.left = '50%';
+    focusAudioPlayer.style.transform = 'translateX(-50%)';
+    focusAudioPlayer.style.zIndex = '10005';
+    focusAudioPlayer.style.boxShadow = '0 8px 24px rgba(0,0,0,0.6)';
+    focusAudioPlayer.style.borderRadius = '30px';
+
+    focusAudioPlayer.addEventListener('timeupdate', () => {
+      if (!currentFocusArtwork || !currentFocusArtwork.hotspots) return;
+      const curTime = focusAudioPlayer.currentTime;
+
+      // Cherche si le temps courant correspond à un hotspot
+      const activeIdx = currentFocusArtwork.hotspots.findIndex(
+        pt => pt.startTime !== undefined && curTime >= pt.startTime && curTime < pt.endTime
+      );
+
+      if (activeIdx !== -1) {
+        if (currentFocusPointIndex !== activeIdx) {
+          isAudioDrivingFocus = true;
+          activateFocusPoint(activeIdx);
+          isAudioDrivingFocus = false;
+        }
+      } else if (curTime < (currentFocusArtwork.hotspots[0]?.startTime || 0)) {
+        // En phase d'introduction générale avant le point 1
+        if (currentFocusPointIndex !== -1) {
+          showFocusOverview();
+        }
+      }
+    });
+
+    document.body.appendChild(focusAudioPlayer);
+  }
+  return focusAudioPlayer;
+}
 
 function openFocusMode(item) {
   if (!item || !item.hotspots || item.hotspots.length === 0) return;
@@ -1847,13 +1890,33 @@ function openFocusMode(item) {
     <div class="hotspot-bubble" style="top: ${pt.y}%; left: ${pt.x}%;" data-index="${idx}">${idx + 1}</div>
   `).join('');
 
-  // Attacher les écouteurs de clic
+  // Attacher les écouteurs de clic sur les pastilles
   container.querySelectorAll('.hotspot-bubble').forEach(bubble => {
     bubble.addEventListener('click', (e) => {
       e.stopPropagation();
-      activateFocusPoint(parseInt(bubble.dataset.index, 10));
+      const idx = parseInt(bubble.dataset.index, 10);
+      activateFocusPoint(idx);
+
+      // Si l'audio existe, caler la voix sur le point cliqué
+      if (focusAudioPlayer && item.hotspots[idx]?.startTime !== undefined) {
+        focusAudioPlayer.currentTime = item.hotspots[idx].startTime;
+        focusAudioPlayer.play().catch(() => {});
+      }
     });
   });
+
+  // Gestion de l'audio si présent
+  const player = getOrCreateFocusAudioPlayer();
+  if (item.audioSrc) {
+    player.src = item.audioSrc;
+    player.style.display = 'block';
+    player.currentTime = 0;
+    player.play().catch(() => {}); // Démarre automatiquement (si autorisé par le navigateur)
+  } else {
+    player.pause();
+    player.src = '';
+    player.style.display = 'none';
+  }
 
   lightbox.classList.add('is-open');
   showFocusOverview();
@@ -1862,6 +1925,13 @@ function openFocusMode(item) {
 function closeFocusMode() {
   const lightbox = document.getElementById('focus-lightbox');
   if (lightbox) lightbox.classList.remove('is-open');
+
+  if (focusAudioPlayer) {
+    focusAudioPlayer.pause();
+    focusAudioPlayer.currentTime = 0;
+    focusAudioPlayer.style.display = 'none';
+  }
+
   showFocusOverview();
 }
 
@@ -1927,7 +1997,7 @@ function activateFocusPoint(index) {
   stageBox.dataset.scale = zoomScale;
   stageBox.style.transform = `translate(${moveX}px, ${moveY}px) scale(${zoomScale})`;
 
-  // Découpe circulaire du calque spotLens au-dessus du voile sombre
+  // Découpe circulaire du calque spotLens
   const radius = pt.radius || 20;
   if (spotLens) {
     const clipVal = `circle(${radius}% at ${pt.x}% ${pt.y}%)`;
@@ -1935,21 +2005,24 @@ function activateFocusPoint(index) {
     spotLens.style.webkitClipPath = clipVal;
   }
 
-  // Le voile sombre assombrit le reste de l'image de fond
   if (darkVeil) {
     darkVeil.style.opacity = "0.88";
   }
 
-  // Masquer la pastille active
   bubbles.forEach((b, idx) => {
     b.classList.toggle('is-active', idx === index);
   });
 
-  // Mise à jour et ouverture du volet d'information
   if (popupTag) popupTag.textContent = pt.tag || `POINT ${index + 1} / ${pts.length}`;
   if (popupTitle) popupTitle.textContent = pt.title;
   if (popupDesc) popupDesc.textContent = pt.desc;
   if (popupCard) popupCard.classList.add('is-visible');
+
+  // Synchronisation si le clic vient de l'utilisateur (et non du timeupdate automatique)
+  if (!isAudioDrivingFocus && focusAudioPlayer && pt.startTime !== undefined) {
+    focusAudioPlayer.currentTime = pt.startTime;
+    focusAudioPlayer.play().catch(() => {});
+  }
 }
 
 // Initialisation des écouteurs globaux du mode focus
@@ -1993,4 +2066,3 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 });
-
