@@ -1922,10 +1922,10 @@ function activateFocusPoint(index) {
   stageBox.dataset.scale = zoomScale;
   stageBox.style.transform = `translate(${moveX}px, ${moveY}px) scale(${zoomScale})`;
 
-  // Effet projecteur net et resserré (cercle de 15% parfaitement visible à 100%)
+ // Effet projecteur progressif et lumineux
   if (darkVeil) {
     darkVeil.style.opacity = "0.88";
-    const spotlightMask = `radial-gradient(circle 15% at ${pt.x}% ${pt.y}%, transparent 0%, transparent 15%, black 16%)`;
+    const spotlightMask = `radial-gradient(circle 170px at ${pt.x}% ${pt.y}%, transparent 0px, transparent 65px, black 160px)`;
     darkVeil.style.webkitMaskImage = spotlightMask;
     darkVeil.style.maskImage = spotlightMask;
   }
