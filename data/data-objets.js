@@ -14135,10 +14135,53 @@ window.ART_OBJECTS.push(
     chips: ["XVIIIe dynastie", "Terre cuite peinte", "Vase à parfum plastique"],
     deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczMye-6h_mO7c1IxOVHC6F_onIdMdNCW0ClLSIDdtvJ1x0aiRuMzxKt30uiRVitgdtrCaG05N3b2aSvJvw2G4XSjbzyKEepd413xwlolFNTiHCiZejJ9FG6txJ_l7Jw4PNZwFRXMkMh1LIgaN9NEESMw-g=w1649-h700-s-no-gm?authuser=0",
     imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNxnQN06KMcGHwPqxHCEhoQSFrJ2rJ3Qn7UJXaqsxequGijgy_tCV1Ot_p6SI2gwMdQYPntrD88A11pCMIRDTD8PyoEKsoIMhKCNCaS2tzZYO1ZnJ5NYVV4PSBpD945uAlw14wLeOZO7FmQpySywN9bUg=w1816-h2412-s-no-gm?authuser=0",
+    hotspots: [
+      {
+        x: 87,
+        y: 49,
+        radius: 9,
+        tag: "POINT 1 / 5 • FONCTION ET EMBOUCHURE",
+        title: "Le museau transformé en goulot",
+        desc: "L'extrémité du museau s'évase en un goulot tubulaire parfaitement calibré. Ce bec verseur ingénieux permettait de doser goutte à goutte des onguents, des huiles parfumées ou des fards précieux conservés à l'intérieur de l'animal."
+      },
+      {
+        x: 65,
+        y: 35,
+        radius: 9,
+        tag: "POINT 2 / 5 • REGARD ET GRAPHISME",
+        title: "L'œil incisé et souligné de noir",
+        desc: "Le regard vif de l'animal est cerné d'un trait noir au pigment d'oxyde de manganèse ou de charbon, évoquant le khôl dont se paraient les Égyptiens. Le modelé précis de l'orbite confère une expressivité saisissante à la tête."
+      },
+      {
+        x: 47,
+        y: 24,
+        radius: 9,
+        tag: "POINT 3 / 5 • CORNES ET ANSE NATURELLE",
+        title: "Les cornes annelées recourbées",
+        desc: "Les longues cornes arquées du bouquetin de Nubie retombent vers l'encolure en formant une boucle fermée. Cette disposition crée une poignée de préhension organique sans altérer la silhouette naturelle de l'animal."
+      },
+      {
+        x: 43,
+        y: 31,
+        radius: 8,
+        tag: "POINT 4 / 5 • ANATOMIE STYLISÉE",
+        title: "L'oreille dressée et son décor incisé",
+        desc: "L'oreille en amande, aux bords nets, est bordée de hachures sombres. Elle témoigne de la virtuosité des potiers thébains à combiner l'observation naturaliste de la faune désertique et les conventions géométriques du Nouvel Empire."
+      },
+      {
+        x: 32,
+        y: 60,
+        radius: 12,
+        tag: "POINT 5 / 5 • POSTURE ET VOLUME",
+        title: "Le corps ployé formant réceptacle",
+        desc: "Le corps creux en terre cuite ocre figure le bovidé au repos, pattes repliées sous le flanc. L'argile fine et lustrée épouse l'anatomie tout en maximisant la capacité interne de la panse destinée aux essences funéraires."
+      }
+    ],
     narrative: `<p>Ce vase plastique en terre cuite, provenant de la nécropole de Dra Aboul el-Naga, est un exemple remarquable de l'ingéniosité des potiers du Nouvel Empire. Contrairement aux récipients classiques, un vase « plastique » est modelé en tout ou partie sous une forme figurative, ici celle d'un bouquetin ou d'une gazelle couchée. Cet objet allie la fonction utilitaire de contenant, probablement pour des huiles ou des essences parfumées, à une dimension sculpturale et symbolique forte liée au monde animal du désert.</p>
     <p>L'animal est représenté avec un naturalisme stylisé typique de la XVIIIe dynastie. Les membres sont repliés sous le corps dans une pose de repos, tandis que la tête est redressée, les cornes imposantes se rejoignant vers l'arrière pour former une sorte d'anse naturelle. Le museau de l'animal est transformé en goulot circulaire, permettant de verser le liquide de manière précise. Le décor peint, utilisant des pigments noirs pour souligner les détails anatomiques comme les yeux, les oreilles et les sabots, rehausse la teinte ocre de l'argile et donne une vie saisissante à cette petite pièce d'art mobilier.</p>
-    <p>Ce type d'objet n'était pas un simple ustensile domestique, mais faisait souvent partie du mobilier funéraire de l'élite. Le bouquetin, animal associé au dieu Seth mais aussi symbole de renouveau et de vitalité dans les steppes désertiques, portait une charge magique destinée à accompagner le défunt. La découverte de tels vases dans les tombes de Thèbes-Ouest souligne le goût des Égyptiens du Nouvel Empire pour les formes fantaisistes et sophistiquées, transformant chaque geste du quotidien ou du rituel en une expérience esthétique et spirituelle.</p>`
-  },
+    <p>Ce type d'objet n'était pas un simple ustensile domestique, mais faisait souvent partie du mobilier funéraire de l'élite. Le bouquetin, animal associé au dieu Seth mais aussi symbole de renouveau et de vitalité dans les steppes désertiques, portait une charge magique destinée à accompagner le défunt. La découverte de tels vases dans les tombes de Thèbes-Ouest souligne le goût des Égyptiens du Nouvel Empire pour les formes fantaisistes et sophistiquées, transformant chaque geste du quotidien ou du rituel en une expérience esthétique et spirituelle.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1450) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Céramique & Vases.</p>`
+  }
   {
     id: "pleureuses_ramose",
     civId: "egypte_nouvel",
