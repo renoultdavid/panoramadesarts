@@ -12578,25 +12578,65 @@ window.ART_OBJECTS.push(
     civId: "egee",
     periodId: "mycenes",
     civName: "Art Mycénien (Grèce)",
-    century: "v. -1300 av. J.-C. (Helladique Récent III A2)",
+    century: "v. -1380 à -1310 av. J.-C. (Helladique Récent III A2)",
     centuryDisplay: "v. -1300 av. J.-C.",
     centuryNumeric: -1300,
     domain: "ceramique",
     artifactType: "Rhyton",
     title: "Rhyton conique à décor de pieuvre stylisée",
     site: "Musée du Louvre (Paris / prov. Camiros, Rhodes)",
-    originSite: "Camiros (Rhodes, Grèce)",
+    originSite: "Camiros (Rhodes, Grèce) / Fabriqué en Argolide",
     locationType: "museum",
     currentLocation: "Musée du Louvre (Paris)",
     category: "Vase à libation",
     isHighlight: false,
-    chips: ["Helladique Récent III A", "Camiros (Rhodes)", "Motif marin", "Musée du Louvre"],
+    chips: ["Helladique Récent III A2", "Argolide", "Camiros (Rhodes)", "Style marin mycénien", "Musée du Louvre"],
     deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
     imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPXHDT-Y3eGy37zILyDTUJRx0vCHFVDFYoAqV-KevLmBC0HJASdP3u15G4nd31zLvp-yidjkNp98S8JOKD6EEBr4uZJQlLazHNC6Y5R620YjT9iR47OgNuudjI1TwGcv-2rTk4FmemCD-LJwb163ATHvQ=w1818-h2416-s-no-gm?authuser=0",
-    narrative: `<p>Ce rhyton se présente sous une forme conique allongée et effilée, caractéristique des vases à libations de la période mycénienne. L'objet, réalisé en terre cuite fine, est doté d'une embouchure large avec un rebord plat et évasé, tandis que la pointe inférieure est percée pour permettre l'écoulement contrôlé des liquides lors de rituels religieux. La structure est élégante, offrant une silhouette élancée qui servait aussi bien à la manipulation cérémonielle qu'à l'exposition de la richesse de son propriétaire.</p>
-    <p>Le décor peint en brun-noir sur le fond clair de l'argile est dominé par un motif stylisé de pieuvre ou de mollusque marin, typique du répertoire "style du Palais" tardif ou des phases de transition vers le mycénien récent. L'animal est simplifié à l'extrême : un corps central piriforme d'où s'élèvent deux grands yeux circulaires, surmontés de tentacules qui s'étirent verticalement en épousant la forme évasée du vase. Ces lignes courbes et fluides créent un dynamisme visuel, tandis que des volutes et des spirales secondaires viennent combler les espaces vides sur les côtés.</p>
-    <p>La base du vase est ornée d'une série de bandes horizontales parallèles, de plus en plus serrées vers la pointe, qui contrastent avec la liberté organique du motif marin supérieur. Ce jeu de géométrie apporte une stabilité visuelle à la pièce. L'usage de tels objets en Argolide, exportés jusqu'à Rhodes comme en témoigne la découverte à Camiros, souligne l'homogénéité culturelle et commerciale du monde mycénien au XIVe siècle avant J.-C., où les thèmes naturalistes marins hérités de la Crète minoenne sont réinterprétés avec une rigueur plus formelle.</p>
-    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1300) | <strong>Civilisation :</strong> Monde égéen (Art Mycénien) | <strong>Sous-partie :</strong> Céramiques.</p>`
+    narrative: `
+      <p>Si ce récipient a été découvert en Méditerranée orientale, l'analyse de sa pâte indique qu'il a été façonné dans les ateliers d'Argolide, dans le Péloponnèse, avant d'être exporté. L'œuvre est datée de l'âge du Bronze récent, plus précisément de la période de l'Helladique Récent III A2 (Mycénien Récent III A2), soit au XIVe siècle av. J.-C., aux alentours de 1380 à 1310 av. J.-C. Tourné dans une argile fine beige rosé très bien épurée, ce rhyton est orné d'un décor tracé à la peinture lustrée brun-noir à reflets orangés, présentant un léger coup de feu vers sa pointe inférieure. Il affiche une silhouette élancée de 37,5 cm de hauteur pour un diamètre maximal de 11 cm à l'embouchure.</p>
+      <p>De forme conique allongée en entonnoir (type Furumark 199), directement héritée des modèles crétois néopalatiaux en pierre et en terre cuite, ce vase possède une lèvre plate et débordante sur laquelle courait à l'origine une anse verticale en ruban aujourd'hui disparue, ainsi qu'un petit orifice d'écoulement percé tout au bout de sa pointe inférieure. La surface extérieure est rigoureusement rythmée par des registres géométriques qui encadrent la scène principale. Le rebord supérieur est ponctué d'une file de motifs foliacés stylisés, tandis que le haut de la vasque est ceinturé d'une large bande sombre bordée de multiples filets horizontaux très fins. Toute la partie inférieure, qui s'affine vers la pointe, est quant à elle habillée d'une alternance régulière de larges bandes noires et de groupes de filets parallèles qui accentuent l'effet de conicité du récipient.</p>
+      <p>Le registre central de la vasque est entièrement occupé par la figure monumentale d'un poulpe dressé à la verticale, dont l'anatomie épouse avec ingéniosité la géométrie fuselée du vase. L'animal marin présente un corps en sac bulbeux peint en silhouette pleine, surmonté d'un étranglement puis d'une tête marquée par deux grands yeux circulaires exorbités, formés d'un disque noir entouré d'un anneau réservé dans la couleur de l'argile. De part et d'autre de l'axe central jaillissent huit longs tentacules souples et rubanés qui s'élancent d'abord vers le haut en arceaux concentriques avant de retomber symétriquement le long des flancs du rhyton, leurs extrémités s'enroulant en délicates volutes. Au sommet, entre les bras supérieurs du céphalopode, s'épanouit une petite tige bifide terminée en spirales. Ce traitement illustre parfaitement l'évolution stylistique de l'art mycénien au XIVe siècle av. J.-C. : le naturalisme exubérant et le mouvement libre du « style marin » minoen, où la pieuvre nageait au milieu des algues et des rochers, cèdent ici la place à une composition héraldique, symétrique et puissamment géométrisée, caractéristique de l'esprit d'ordre continental.</p>
+      <p>Dépourvu de fond plat et percé à son extrémité, le rhyton ne servait pas de vase à boire ordinaire mais d'instrument liturgique destiné aux libations et au filtrage des liquides précieux tels que le vin, l'huile parfumée, le miel ou le sang des sacrifices. Lors des cérémonies cultuelles ou des rituels funéraires célébrés devant le tombeau, l'officiant plongeait le récipient dans un cratère ou le remplissait tout en bouchant le trou inférieur avec le pouce, puis relâchait la pression pour diriger un mince filet continu de liquide vers le sol, un autel ou un vase récepteur, nourrissant ainsi les divinités chthoniennes et les défunts. La présence de ce chef-d'œuvre argien dans une riche tombe de Camiros témoigne de l'intégration précoce de l'île de Rhodes dans la koinè (communauté culturelle) mycénienne et de son rôle d'escale stratégique sur les grandes routes maritimes reliant le Péloponnèse à Chypre et aux cités du Levant.</p>
+      <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1300) | <strong>Civilisation :</strong> Monde égéen (Art Mycénien) | <strong>Sous-partie :</strong> Céramiques.</p>
+    `,
+    hotspots: [
+      {
+        x: 50.0,
+        y: 3.5,
+        tag: "POINT 1 / 5 • LÈVRES & REGISTRES SUPÉRIEURS",
+        title: "L'embouchure plate et les frises",
+        desc: "La large lèvre plate et débordante est soulignée par une frise de motifs foliacés. Elle encadre le sommet du vase où s'insérait autrefois l'anse verticale en ruban disparue."
+      },
+      {
+        x: 50.0,
+        y: 28.5,
+        tag: "POINT 2 / 5 • LA TÊTE & LES YEUX DU POULPE",
+        title: "Le regard perçant du céphalopode",
+        desc: "La tête du mollusque est caractérisée par deux grands yeux circulaires exorbités, formés d'un disque noir entouré d'un anneau réservé dans la couleur claire de l'argile."
+      },
+      {
+        x: 50.0,
+        y: 56.5,
+        tag: "POINT 3 / 5 • CORPS BULBEUX",
+        title: "Le sac viscéral en silhouette pleine",
+        desc: "Le corps en forme de poire ou de sac bulbeux est peint en aplat sombre, marquant la base anatomique de la composition verticale et contrastant avec la clarté du fond."
+      },
+      {
+        x: 48.0,
+        y: 19.0,
+        tag: "POINT 4 / 5 • TENTACULES EN ARCEAUX",
+        title: "La stylisation géométrique continentale",
+        desc: "Les huit tentacules s'élancent en arceaux concentriques symétriques vers le haut et retombent le long des flancs en s'enroulant en volutes, illustrant l'ordre rigoureux propre au style mycénien."
+      },
+      {
+        x: 50.0,
+        y: 93.0,
+        tag: "POINT 5 / 5 • POINTE PERFORÉE & FILETS",
+        title: "L'orifice d'écoulement rituel",
+        desc: "La pointe inférieure, rythmée par des bandes horizontales régulières, est percée d'un minuscule trou permettant de contrôler l'écoulement des liquides lors des libations funéraires."
+      }
+    ]
   },
   {
     id: "rhyton_sanglier_ougarit_louvre",
@@ -12938,13 +12978,53 @@ window.ART_OBJECTS.push(
     currentLocation: "Musée National Archéologique d'Athènes",
     category: "Sculpture en marbre",
     isHighlight: false,
-    chips: ["Cycladique Ancien II", "Île de Kéros", "Harpiste", "Musée d'Athènes"],
+    chips: ["Cycladique Ancien II", "Culture de Kéros-Syros", "Île de Kéros", "Marbre insulaire", "Type spécial"],
     deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNMZRgR759mlxzzO63gKtVg2u437kEFSbomGP9HGmk8DelG-gh8gB9JNXi9bKBgrqsDkalszZLTbKwC5t0GJdWrMoEmqyl9V6L6d0f5GhGwYfTg6AqqP-C2stcjrj5Vn5Ba1SstoTv7f5_pyIccZFQq4g=w2209-h938-s-no-gm?authuser=0",
     imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczODOCsUQhwC3Bpv5riR_8JbpAyR-T7NqvicoYuRwLHaSu6hEQGHU3k7C55gxVBvnai0iFsFbsDEL9JMsA-00WYexltu5IBKEEJlXaI3-GrQd3_81hP3sJf2kscSGvviJ_tYOCZmrBQwOjVLi_n5emYgNg=w1588-h1058-s-no-gm?authuser=0",
-    narrative: `<p>Cette statuette en marbre, connue sous le nom de Harpiste de Kéros, représente l'un des sommets de la création artistique de la culture cycladique, datant approximativement de 2700 à 2300 avant notre ère. Découverte sur l'île de Kéros et conservée au Musée national archéologique d'Athènes, cette œuvre témoigne d'une complexité technique rare pour l'époque, délaissant les figures bidimensionnelles habituelles pour une composition tridimensionnelle audacieuse. Le musicien est représenté assis sur un siège élaboré, tenant une harpe ou une lyre à cadre sur sa cuisse droite, illustrant ainsi l'importance de la musique et du rituel dans les sociétés égéennes du Bronze ancien.</p>
-    <p>La structure de la sculpture se distingue par son élégance géométrique et l'équilibre des volumes. La tête du musicien, légèrement rejetée vers l'arrière, semble capturée dans un instant d'inspiration ou de chant, prolongeant la ligne du cou robuste qui s'intègre au corps stylisé. Les bras, dégagés du torse pour manipuler l'instrument, créent un jeu de vides et de pleins qui rompt avec la compacité traditionnelle des idoles féminines. La harpe elle-même, avec son montant terminé par une tête d'oiseau stylisée, montre une attention particulière portée aux détails symboliques et fonctionnels.</p>
-    <p>L'aspect technique de l'œuvre révèle la maîtrise des sculpteurs qui, à l'aide d'outils simples en pierre et de poudres abrasives, ont réussi à évider le marbre pour sculpter les pieds du siège et l'espace entre le musicien et son instrument. Ce travail de précision confère à la statuette une légèreté et une dynamique qui contrastent avec la rigidité des figures contemporaines. Bien que les traits du visage soient aujourd'hui effacés, la posture globale exprime une solennité profonde, suggérant que le harpiste pourrait représenter un barde célébrant des épopées ou participant à des cérémonies religieuses.</p>
-    <p><strong>Siècle :</strong> XXVIIe siècle av. J.-C. (-2700) | <strong>Civilisation :</strong> Monde égéen (Art Cycladique) | <strong>Sous-partie :</strong> Statuaire & Marbre.</p>`
+    narrative: `
+      <p>Cette célèbre statuette en ronde-bosse provient d'une sépulture de l'île de Kéros, au cœur de l'archipel des Cyclades, où elle fut mise au jour au XIXe siècle aux côtés d'un joueur de double flûte (l'aulète, NAMA 3910). L'œuvre est datée de l'âge du Bronze ancien, plus précisément de la période du Cycladique Ancien II (culture de Kéros-Syros), aux alentours de 2800 à 2300 av. J.-C. (souvent située vers 2700 – 2500 av. J.-C.). Sculptée dans un marbre blanc insulaire à grain fin de Paros ou de Naxos, qui présente aujourd'hui une patine chaleureuse aux nuances ocre et beige doré, cette composition mesure 22,5 cm de hauteur. Elle constitue l'un des chefs-d'œuvre les plus rares et les plus aboutis de la plastique cycladique dite « de type spécial », qui s'affranchit de la stricte frontalité des idoles féminines aux bras croisés pour explorer le mouvement et la troisième dimension.</p>
+      <p>Le musicien, entièrement nu et de sexe masculin, est représenté assis en bordure d'un siège ouvragé à haut dossier vertical légèrement cintré. Ce fauteuil, véritable pièce d'ébénisterie traduite dans la pierre, repose sur quatre pieds reliés latéralement par d'élégantes traverses arquées opposées dos à dos, illustrant la maîtrise spectaculaire de l'ajourage du marbre à l'aide de forets et d'abrasifs en émeri. Le personnage adopte une posture pleine de noblesse et d'intensité : le buste droit, les jambes écartées et fléchies à angle droit, il pose ses pieds à plat sur le sol imaginaire pour assurer son équilibre. La tête, en forme d'amande allongée au sommet aplati, est fortement rejetée vers l'arrière dans une attitude qui évoque la concentration du chant ou l'extase musicale. Sur la surface lisse du visage, seul le nez proéminent et pyramidal se détache en relief, bien que des rehauts peints aient autrefois détaillé les traits anatomiques et la chevelure.</p>
+      <p>Le bras droit du musicien (dont l'avant-bras est aujourd'hui brisé) s'avançait librement dans l'espace pour pincer les cordes, tandis que le bras gauche soutient fermement une harpe triangulaire (ou trigone) posée en appui sur sa cuisse droite. L'instrument, dont le cadre évidé forme une boucle audacieuse devant la poitrine du joueur, comprend une caisse de résonance horizontale surmontée d'un montant oblique. Au sommet de l'arc harmonique, la jonction prend la forme d'une tête d'oiseau aquatique (cygne ou canard) au long bec plat, motif symbolique probablement lié au voyage de l'âme ou au monde céleste.</p>
+      <p>Contrairement à la grande majorité des figurines cycladiques qui sont féminines et statiques, les rares statuettes masculines de cette période incarnent presque toujours des figures d'action : musiciens, porteurs de coupes ou guerriers-chasseurs. Déposé dans une riche tombe, mais reposant sur une base parfaitement stable qui permettait de l'exposer dans le monde des vivants, le Harpiste de Kéros témoigne de l'importance fondamentale de la musique, de la poésie épique et des banquets rituels au sein des élites insulaires du IIIe millénaire av. J.-C. Plus de quinze siècles avant l'époque homérique, cette figure préfigure déjà le rôle sacré de l'aède grec, chargé d'accompagner les cérémonies religieuses, de célébrer les ancêtres et de guider les défunts vers l'au-delà par l'harmonie des sons.</p>
+      <p><strong>Siècle :</strong> XXVIIe siècle av. J.-C. (-2700) | <strong>Civilisation :</strong> Monde égéen (Art Cycladique) | <strong>Sous-partie :</strong> Statuaire & Marbre.</p>
+    `,
+    hotspots: [
+      {
+        x: 55.5,
+        y: 12.0,
+        tag: "POINT 1 / 5 • TÊTE REJETÉE & CHANT",
+        title: "L'attitude inspirée de l'aède",
+        desc: "La tête allongée, au sommet aplati et au nez pyramidal en relief, est basculée vers le haut dans une posture d'abandon et d'extase poétique qui évoque l'émission de la voix et l'inspiration sacrée du chant cérémoniel."[cite: 7]
+      },
+      {
+        x: 38.5,
+        y: 16.5,
+        tag: "POINT 2 / 5 • SOMMET DE L'INSTRUMENT",
+        title: "La tête d'oiseau aquatique",
+        desc: "L'extrémité supérieure du cadre de la harpe triangulaire se termine par un bec plat figurant une tête de palmipède (cygne ou canard), symbole spirituel traditionnellement associé au voyage de l'âme et à la navigation céleste."[cite: 7]
+      },
+      {
+        x: 50.0,
+        y: 38.0,
+        tag: "POINT 3 / 5 • BRAS & JEU DES CORDES",
+        title: "La préhension de la harpe",
+        desc: "Tandis que le bras gauche maintient le cadre de l'instrument fermement appuyé sur la cuisse, le bras droit s'avançait dans l'espace vide pour faire vibrer les cordes, créant une tridimensionnalité inédite dans l'art égéen."[cite: 7]
+      },
+      {
+        x: 51.5,
+        y: 81.0,
+        tag: "POINT 4 / 5 • PIÈTEMENT & TRAVERSES DU SIÈGE",
+        title: "La virtuosité de l'évidement",
+        desc: "Les quatre pieds du tabouret sont reliés par des traverses cintrées découpées avec une finesse exceptionnelle. Cet ajourage du marbre au moyen d'émeri témoigne d'une virtuosité technique digne d'un maître ébéniste."[cite: 7]
+      },
+      {
+        x: 64.5,
+        y: 49.0,
+        tag: "POINT 5 / 5 • DOSSIER DU TRÔNE",
+        title: "Le siège d'apparat cintré",
+        desc: "Le dossier vertical légèrement recourbé soutient la posture noble du musicien. Cette assise structurée confère à la statuette une stabilité parfaite, conçue pour être contemplée sous tous les angles en ronde-bosse."[cite: 7]
+      }
+    ]
   },
    {
     id: "idole_cycladique_syros_volume_louvre",
