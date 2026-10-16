@@ -15049,12 +15049,51 @@ window.ART_OBJECTS.push(
     category: "Gravures & Textes",
     isHighlight: true,
     themeLink: "https://photos.google.com/share/AF1QipNlo80I8xbcNGWKMI7dnnm5aPtALq8jpsRKJGGdAmNT2TnbEIrd0Y2isWehnlLwbg?key=S0kzelN6N1pyaTlZc21PeWtiOUN0bHZyckVMaGZB",
-    chips: ["Période lagide", "Granodiorite trilingue", "Déchiffrement de Champollion (1822)"],
+    chips: ["Période lagide", "Granodiorite trilingue", "Déchiffrement de Champollion (1822)", "British Museum"],
     deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w1843-h781-s-no-gm?authuser=0",
     imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPR-J9N9vLFbP24fPrFA-sZyFLZZ5xGzfAsaPReyIsJG_T03ND8mYiSM_GiQnuCfaxDKOfJUt9os32brpD2Jkl7GZwK6xwQobk7cV4r33v_-Avg1071ux17yUtddG0xpLfVLTT6O8HUnJidU2R5IYUFlQ=w1607-h2412-s-no-gm?authuser=0",
-    narrative: `<p>Cette stèle fragmentaire en granodiorite grise, mondialement célèbre sous le nom de Pierre de Rosette, constitue l'une des pièces les plus emblématiques de l'archéologie mondiale. Découverte en 1799 par des soldats de l'expédition de Napoléon en Égypte, elle présente une surface plane et polie sur laquelle est gravé un décret sacerdotal promulgué à Memphis. La particularité fondamentale de cet objet réside dans la répétition de ce texte unique en trois écritures distinctes : les hiéroglyphes sur la partie supérieure (écriture monumentale et religieuse), le démotique au centre (écriture administrative et quotidienne) et le grec ancien au bas de la stèle.</p>
-    <p>La description visuelle révèle une pierre aux bords irréguliers, dont le sommet et les angles ont été brisés au cours des siècles, suggérant que la stèle originale était bien plus imposante et sans doute couronnée d'un sommet arrondi. Les inscriptions sont serrées et organisées en registres horizontaux. La gravure des hiéroglyphes, bien que lacunaire, montre une précision qui contraste avec la fluidité plus cursive du texte démotique situé en dessous. La partie inférieure en grec, la plus complète, fut le point de départ crucial qui permit à Jean-François Champollion de percer le mystère du système hiéroglyphique en 1822, en identifiant les noms de souverains dans des cartouches.</p>
-    <p>Au-delà de sa fonction linguistique, la pierre est un document politique majeur. Elle consacre le culte divin du jeune roi Ptolémée V en échange de faveurs accordées au clergé égyptien, illustrant la synthèse culturelle entre les traditions pharaoniques et l'influence hellénistique. Sa conservation au British Museum depuis 1802, suite à la défaite française en Égypte, en fait un symbole durable de la transmission des savoirs et de la redécouverte d'une civilisation disparue. Sa texture sombre et la finesse de ses traits gravés captent la lumière, rendant lisible, même après deux millénaires, le message d'un souverain cherchant à asseoir sa légitimité.</p>`
+    narrative: `
+      <p>Cette stèle fragmentaire en granodiorite grise, mondialement célèbre sous le nom de Pierre de Rosette, constitue l'une des pièces les plus emblématiques de l'archéologie mondiale. Découverte en 1799 par des soldats de l'expédition de Napoléon en Égypte, elle présente une surface plane et polie sur laquelle est gravé un décret sacerdotal promulgué à Memphis. La particularité fondamentale de cet objet réside dans la répétition de ce texte unique en trois écritures distinctes : les hiéroglyphes sur la partie supérieure (écriture monumentale et religieuse), le démotique au centre (écriture administrative et quotidienne) et le grec ancien au bas de la stèle.</p>
+      <p>La description visuelle révèle une pierre aux bords irréguliers, dont le sommet et les angles ont été brisés au cours des siècles, suggérant que la stèle originale était bien plus imposante et sans doute couronnée d'un sommet arrondi. Les inscriptions sont serrées et organisées en registres horizontaux. La gravure des hiéroglyphes, bien que lacunaire, montre une précision qui contraste avec la fluidité plus cursive du texte démotique situé en dessous. La partie inférieure en grec, la plus complète, fut le point de départ crucial qui permit à Jean-François Champollion de percer le mystère du système hiéroglyphique en 1822, en identifiant les noms de souverains dans des cartouches.</p>
+      <p>Au-delà de sa fonction linguistique, la pierre est un document politique majeur. Elle consacre le culte divin du jeune roi Ptolémée V en échange de faveurs accordées au clergé égyptien, illustrant la synthèse culturelle entre les traditions pharaoniques et l'influence hellénistique. Sa conservation au British Museum depuis 1802, suite à la défaite française en Égypte, en fait un symbole durable de la transmission des savoirs et de la redécouverte d'une civilisation disparue. Sa texture sombre et la finesse de ses traits gravés captent la lumière, rendant lisible, même après deux millénaires, le message d'un souverain cherchant à asseoir sa légitimité.</p>
+    `,
+    hotspots: [
+      {
+        x: 50.0,
+        y: 12.0,
+        tag: "POINT 1 / 5 • TEXTE HIÉROGLYPHIQUE",
+        title: "L'écriture sacrée des monuments",
+        desc: "Le registre supérieur, très endommagé, abritait le texte officiel gravé en hiéroglyphes, destiné aux dieux et au clergé."
+      },
+      {
+        x: 50.0,
+        y: 32.0,
+        tag: "POINT 2 / 5 • ÉCRITURE DÉMOTIQUE",
+        title: "La langue administrative courante",
+        desc: "La bande centrale en écriture démotique transcrit la version égyptienne populaire utilisée pour les décrets administratifs et civils."
+      },
+      {
+        x: 50.0,
+        y: 75.0,
+        tag: "POINT 3 / 5 • TEXTE EN GREC ANCIEN",
+        title: "La clé du déchiffrement",
+        desc: "Le registre inférieur en grec ancien a permis aux savants, et enfin à Champollion en 1822, de traduire et comprendre les autres écritures."
+      },
+      {
+        x: 25.0,
+        y: 50.0,
+        tag: "POINT 4 / 5 • GRANODIORITE SOMBRE",
+        title: "La matérialité de la roche",
+        desc: "La pierre polie, souvent qualifiée à tort de basalte noir, capte les reflets de la lumière sur sa surface mate et résistante."
+      },
+      {
+        x: 75.0,
+        y: 20.0,
+        tag: "POINT 5 / 5 • BORDURES BRISÉES",
+        title: "Les stigmates historiques",
+        desc: "Les angles fracturés de la stèle témoignent de son remploi ancien comme matériau de construction avant sa découverte par l'expédition de Bonaparte."
+      }
+    ]
   },
   {
     id: "stele_ptolemaique_bois",
