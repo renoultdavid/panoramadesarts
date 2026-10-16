@@ -13365,14 +13365,56 @@ window.ART_OBJECTS.push(
     locationType: "museum",
     currentLocation: "Musée du Louvre (Paris)",
     category: "Style marin",
-    isHighlight: false,
+    isHighlight: true,
     chips: ["Minoen Récent III A", "Style marin", "Pieuvre stylisée", "Musée du Louvre"],
     deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
     imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMPBX2WdrLC4eak7LXqfz4NJLohpL0asx9u3KBAgUhFeLZ0wGCkMX-NEFk3Vjs3WkoLyuvpsH2VcGVgBJP9WsvMWI1Ap_bljyF6e9zv6oYsnIqJph6uLkEOGalEXG965cTdkSCBzbY4x7PVp5tiF2PYOQ=w1588-h2108-s-no-gm?authuser=0",
+    hotspots: [
+      {
+        x: 46,
+        y: 26,
+        radius: 9,
+        tag: "POINT 1 / 5 • COL ET DÉCOR ONDÉ",
+        title: "La frise d'ondes marines sur le col",
+        desc: "Le col court et évasé est ceint d'une frise de rubans ondulés en brun sombre. Ce motif évoque la houle marine et assure la transition visuelle entre l'embouchure plate et la panse bombée."
+      },
+      {
+        x: 30,
+        y: 51,
+        radius: 9,
+        tag: "POINT 2 / 5 • REGARD HYPNOTIQUE",
+        title: "Le corps et les yeux concentriques",
+        desc: "La tête de la pieuvre est traitée en un bulbe plein d'où se détachent deux grands yeux circulaires formés d'anneaux concentriques. Ce regard frontal saisissant confère au céphalopode une présence quasi hypnotique."
+      },
+      {
+        x: 64,
+        y: 38,
+        radius: 8,
+        tag: "POINT 3 / 5 • TENTACULE SUPÉRIEUR",
+        title: "L'ondulation vers l'anse verticale",
+        desc: "Les bras supérieurs s'étirent en arabesques souples vers l'attache de l'anse. Le peintre adapte la silhouette animale à la courbure du vase, exploitant le volume de l'épaule pour donner une impression de flottement aquatique."
+      },
+      {
+        x: 67,
+        y: 63,
+        radius: 9,
+        tag: "POINT 4 / 5 • DYNAMISME DES TENTACULES",
+        title: "Les méandres verticaux du flanc droit",
+        desc: "Sur le flanc de la panse, les tentacules serpentent en larges boucles descendantes. Bien que plus géométrique que le naturalisme minoen classique, ce tracé conserve toute l'élasticité et le mouvement du monde sous-marin."
+      },
+      {
+        x: 48,
+        y: 82,
+        radius: 8,
+        tag: "POINT 5 / 5 • PIED ET ANCRAGE",
+        title: "Le pied annulaire et les bandes de base",
+        desc: "La partie inférieure se rétrécit vers un pied en trompette souligné par d'épaisses bandes horizontales circulaires. Cette syntaxe rigoureuse vient clore le décor peint et stabiliser l'assise du cratère de banquet."
+      }
+    ],
     narrative: `<p>Ce cratère à deux anses constitue un témoignage exceptionnel de la production céramique crétoise sous influence mycénienne, provenant de la nécropole de Ligortynos. Sa forme, caractérisée par une panse piriforme volumineuse et un col court s'évasant vers une lèvre plate, est typique des vases de prestige utilisés pour le mélange du vin. La structure repose sur un pied court en trompette qui assure la stabilité de l'ensemble. La surface de l'argile, de teinte claire, sert de support à un décor peint d'une grande expressivité, réalisé à l'aide d'un vernis sombre dont les nuances varient du brun au rouge selon la cuisson.</p>
     <p>Le décor est dominé par une interprétation magistrale du style marin, avec une pieuvre stylisée qui déploie ses tentacules de manière symétrique sur l'épaule du vase. Le corps de l'animal est centré, présentant deux grands yeux circulaires aux pupilles marquées qui fixent le spectateur, une caractéristique qui confère à l'objet une présence presque hypnotique. Les tentacules s'étirent en larges courbes sinueuses, épousant la convexité de la panse et remplissant l'espace avec un dynamisme fluide. Ce motif, bien que plus schématique que les modèles minoens classiques, conserve une énergie organique remarquable, soulignée par des lignes de contour précises.</p>
     <p>Le col est orné d'une frise de larges ondes ou de chevrons horizontaux, créant une transition visuelle entre l'ouverture et le corps décoré. La partie inférieure de la panse et le pied sont soulignés par des bandes circulaires de différentes épaisseurs, une syntaxe décorative mycénienne qui vient structurer et "fermer" la composition. Ce cratère illustre parfaitement la fusion des répertoires iconographiques : la pieuvre, symbole ancestral de la puissance marine de la Crète, est ici réinterprétée selon les codes esthétiques plus rigoureux de l'époque du Bronze Récent, témoignant du raffinement des élites locales.</p>
-    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. | <strong>Civilisation :</strong> Monde égéen (Crète minoenne) | <strong>Sous-partie :</strong> Céramiques.</p>`
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1350) | <strong>Civilisation :</strong> Monde égéen (Crète minoenne) | <strong>Sous-partie :</strong> Céramiques & Vases.</p>`
   },
    {
     id: "cratere_pastoral_taureau_arpera_louvre",
