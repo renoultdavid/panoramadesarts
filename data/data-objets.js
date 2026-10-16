@@ -14181,7 +14181,7 @@ window.ART_OBJECTS.push(
     <p>L'animal est représenté avec un naturalisme stylisé typique de la XVIIIe dynastie. Les membres sont repliés sous le corps dans une pose de repos, tandis que la tête est redressée, les cornes imposantes se rejoignant vers l'arrière pour former une sorte d'anse naturelle. Le museau de l'animal est transformé en goulot circulaire, permettant de verser le liquide de manière précise. Le décor peint, utilisant des pigments noirs pour souligner les détails anatomiques comme les yeux, les oreilles et les sabots, rehausse la teinte ocre de l'argile et donne une vie saisissante à cette petite pièce d'art mobilier.</p>
     <p>Ce type d'objet n'était pas un simple ustensile domestique, mais faisait souvent partie du mobilier funéraire de l'élite. Le bouquetin, animal associé au dieu Seth mais aussi symbole de renouveau et de vitalité dans les steppes désertiques, portait une charge magique destinée à accompagner le défunt. La découverte de tels vases dans les tombes de Thèbes-Ouest souligne le goût des Égyptiens du Nouvel Empire pour les formes fantaisistes et sophistiquées, transformant chaque geste du quotidien ou du rituel en une expérience esthétique et spirituelle.</p>
     <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1450) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Céramique & Vases.</p>`
-  }
+  },
   {
     id: "pleureuses_ramose",
     civId: "egypte_nouvel",
