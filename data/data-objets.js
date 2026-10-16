@@ -10590,13 +10590,51 @@ window.ART_OBJECTS.push(
     currentLocation: "In situ (Tombe TT56, Gourna)",
     category: "Peinture murale thébaine",
     isHighlight: false,
-    chips: ["XVIIIe dynastie", "Amenhotep II", "TT56 Ouserhat", "Arpentage des champs"],
+    chips: ["XVIIIe dynastie", "Amenhotep II", "TT56 Ouserhat", "Arpentage des champs", "Nécropole thébaine"],
     deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
     imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPyqio9kjdifIthSZcwSCkn8-OG8cWpBuW43shexYsgQeiwcZ3GSZCNSTFCzlTGxDDJ6UlO2Y_KipJi1a4Pxqn7fNl6f19fBmSVwHujKgt67E6dnoktCt51sHXHrQDeMByymXG79UYhqkPao1kZ9Rlv0w=w1379-h919-s-no-gm?authuser=0",
-    narrative: `<p>Cette peinture murale provient de la tombe thébaine d’Ouserhat (TT56), scribe royal et comptable du pain sous le règne d’Amenhotep II, durant la XVIIIe dynastie du Nouvel Empire égyptien. Située dans la nécropole de Cheikh Abd el-Gourna, cette œuvre illustre la transition stylistique de l’époque, caractérisée par une élégance fluide et une attention particulière portée aux détails de la vie quotidienne. La scène est organisée en registres superposés qui décrivent avec une précision remarquable les activités liées à l’administration des domaines royaux, reflétant ainsi la fonction terrestre du défunt tout en assurant sa subsistance dans l’au-delà.</p>
-    <p>Sur le registre supérieur, une file de recrues ou de travailleurs avance dans une posture rythmée, vêtus du pagne blanc traditionnel, tandis que le registre médian présente des arpenteurs en pleine activité de mesure des champs de céréales à l’aide de cordes tendues, entourés de sycomores stylisés qui ponctuent le paysage. Le registre inférieur offre un aperçu plus intime de la vie agricole avec des personnages assis à l’ombre des arbres, certains semblant se reposer ou s’adonner à des soins corporels, tandis que d’autres s’occupent de la préparation des aliments et des jarres de provisions visibles dans la partie droite de la composition.</p>
-    <p>La palette chromatique est dominée par des terres de Sienne et des ocres rouges pour la carnation masculine, contrastant vivement avec le blanc de la chaux des vêtements et le vert délicat des frondaisons. La technique de la détrempe sur un enduit de plâtre lissé permet une finesse de trait qui rend hommage à la virtuosité des peintres thébains de cette période. Bien que certaines zones de la paroi aient subi les outrages du temps et des pertes d'enduit, la vivacité des expressions et la clarté de la narration visuelle témoignent de l'importance de la gestion des ressources agricoles dans l'économie égyptienne et de la volonté d'Ouserhat d'immortaliser son dévouement envers Pharaon. Cette œuvre constitue un document ethnographique et artistique de premier ordre, capturant l'essence d'une société agraire hautement organisée sous l'éclat de l'âge d'or de Thèbes.</p>
-    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1425) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+    narrative: `
+      <p>Cette peinture murale provient de la tombe thébaine d’Ouserhat (TT56), scribe royal et comptable du pain sous le règne d’Amenhotep II, durant la XVIIIe dynastie du Nouvel Empire égyptien. Située dans la nécropole de Cheikh Abd el-Gourna, cette œuvre illustre la transition stylistique de l’époque, caractérisée par une élégance fluide et une attention particulière portée aux détails de la vie quotidienne. La scène est organisée en registres superposés qui décrivent avec une précision remarquable les activités liées à l’administration des domaines royaux, reflétant ainsi la fonction terrestre du défunt tout en assurant sa subsistance dans l’au-delà.</p>
+      <p>Sur le registre supérieur, une file de recrues ou de travailleurs avance dans une posture rythmée, vêtus du pagne blanc traditionnel, tandis que le registre médian présente des arpenteurs en pleine activité de mesure des champs de céréales à l’aide de cordes tendues, entourés de sycomores stylisés qui ponctuent le paysage. Le registre inférieur offre un aperçu plus intime de la vie agricole avec des personnages assis à l’ombre des arbres, certains semblant se reposer ou s’adonner à des soins corporels, tandis que d’autres s’occupent de la préparation des aliments et des jarres de provisions visibles dans la partie droite de la composition.</p>
+      <p>La palette chromatique est dominée par des terres de Sienne et des ocres rouges pour la carnation masculine, contrastant vivement avec le blanc de la chaux des vêtements et le vert délicat des frondaisons. La technique de la détrempe sur un enduit de plâtre lissé permet une finesse de trait qui rend hommage à la virtuosité des peintres thébains de cette période. Bien que certaines zones de la paroi aient subi les outrages du temps et des pertes d'enduit, la vivacité des expressions et la clarté de la narration visuelle témoignent de l'importance de la gestion des ressources agricoles dans l'économie égyptienne et de la volonté d'Ouserhat d'immortaliser son dévouement envers Pharaon. Cette œuvre constitue un document ethnographique et artistique de premier ordre, capturant l'essence d'une société agraire hautement organisée sous l'éclat de l'âge d'or de Thèbes.</p>
+    `,
+    hotspots: [
+      {
+        x: 28.0,
+        y: 22.0,
+        tag: "POINT 1 / 5 • REGISTRE SUPÉRIEUR",
+        title: "La file des travailleurs et recrues",
+        desc: "Les hommes avancent en procession rythmée vêtus du pagne blanc, illustrant l'encadrement de la main-d'œuvre par l'administration thébaine."
+      },
+      {
+        x: 50.0,
+        y: 54.0,
+        tag: "POINT 2 / 5 • LES ARPENTEURS",
+        title: "La mesure des champs de céréales",
+        desc: "Des scribes et des fonctionnaires tendent des cordes graduées pour évaluer la surface des récoltes et fixer les taxes agricoles."
+      },
+      {
+        x: 60.0,
+        y: 55.0,
+        tag: "POINT 3 / 5 • SYCOMORES STYLISÉS",
+        title: "La végétation du paysage nilotique",
+        desc: "Les arbres ombragent le paysage agricole, structurant l'espace visuel entre les scènes de travail et de repos."
+      },
+      {
+        x: 25.0,
+        y: 80.0,
+        tag: "POINT 4 / 5 • VIE RURALE ET REPOS",
+        title: "Les scènes intimes du registre inférieur",
+        desc: "Des paysans assis à l'ombre vaquent à des occupations quotidiennes, des soins corporels ou à la détente au cœur de la brousse."
+      },
+      {
+        x: 75.0,
+        y: 30.0,
+        tag: "POINT 5 / 5 • PROVISIONS & RÉSERVES",
+        title: "La préparation des jarres et denrées",
+        desc: "La partie droite de la paroi détaille le stockage et le conditionnement des denrées alimentaires administrées par le scribe Ouserhat."
+      }
+    ]
   },
   {
     id: "peinture_celliers_char_ouserhat_tt56",
