@@ -12128,10 +12128,49 @@ window.ART_OBJECTS.push(
     chips: ["XVIIIe dynastie", "Maternité", "Vase plastique", "Musée du Louvre"],
     deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
     imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOKjSRiL0oLvqxvHY8qdg-pbpuncCSZ3xnqeTEYgFB0mWFnvZezwMTxQyY9oec5RBcFBNpr0jRJiHhVDS7oE-WO9G-7n9lrPLmjGkcmAMBV0-ALEyMcn3NGjM3dSRSzMaKfEAnE0WDlmyUBdzAKjzDQWg=w692-h919-s-no-gm?authuser=0",
-    narrative: `<p>Ce vase plastique en terre cuite, datant du début de la XVIIIe dynastie, représente une femme agenouillée tenant un enfant ou une petite silhouette contre elle. Il s'agit d'un exemple fascinant de la poterie anthropomorphe du Nouvel Empire, où l'objet utilitaire devient une véritable petite sculpture de dévotion ou de vie quotidienne. La femme est représentée dans une attitude protectrice et maternelle, une thématique qui se développe avec une sensibilité nouvelle au début de cette période.</p>
-    <p>La silhouette est modelée avec une certaine économie de moyens qui n'exclut pas une grande force expressive. La tête de la femme est surmontée d'un goulot évasé qui permettait de remplir et de vider le vase, tandis que son corps creux servait de réservoir. Son visage est encadré par une perruque sombre et massive, dont les détails sont soulignés par une peinture noire contrastant avec la teinte ocre de l'argile. Les bras, modelés en léger relief, entourent la petite figure qu'elle porte, créant un lien physique et symbolique fort entre les deux personnages.</p>
-    <p>Ces vases étaient souvent utilisés pour contenir des liquides précieux, comme du lait ou des huiles médicinales, renforçant le lien métaphorique entre le contenu et la forme nourricière du récipient. Découverts fréquemment dans des contextes domestiques ou funéraires, ils témoignent d'une piété populaire centrée sur la famille et la protection de l'enfance. Cette pièce illustre parfaitement la capacité des artisans égyptiens à insuffler une âme et une tendresse humaine aux objets les plus simples du quotidien.</p>
-    <p><strong>Siècle :</strong> XVIe - XVe siècle av. J.-C. | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Céramiques.</p>`
+    narrative: `
+      <p>Ce vase plastique en terre cuite, datant du début de la XVIIIe dynastie, représente une femme agenouillée tenant un enfant ou une petite silhouette contre elle. Il s'agit d'un exemple fascinant de la poterie anthropomorphe du Nouvel Empire, où l'objet utilitaire devient une véritable petite sculpture de dévotion ou de vie quotidienne. La femme est représentée dans une attitude protectrice et maternelle, une thématique qui se développe avec une sensibilité nouvelle au début de cette période.</p>
+      <p>La silhouette est modelée avec une certaine économie de moyens qui n'exclut pas une grande force expressive. La tête de la femme est surmontée d'un goulot évasé qui permettait de remplir et de vider le vase, tandis que son corps creux servait de réservoir. Son visage est encadré par une perruque sombre et massive, dont les détails sont soulignés par une peinture noire contrastant avec la teinte ocre de l'argile. Les bras, modelés en léger relief, entourent la petite figure qu'elle porte, créant un lien physique et symbolique fort entre les deux personnages.</p>
+      <p>Ces vases étaient souvent utilisés pour contenir des liquides précieux, comme du lait ou des huiles médicinales, renforçant le lien métaphorique entre le contenu et la forme nourricière du récipient. Découverts fréquemment dans des contextes domestiques ou funéraires, ils témoignent d'une piété populaire centrée sur la famille et la protection de l'enfance. Cette pièce illustre parfaitement la capacité des artisans égyptiens à insuffler une âme et une tendresse humaine aux objets les plus simples du quotidien.</p>
+      <p><strong>Siècle :</strong> XVIe - XVe siècle av. J.-C. | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Céramiques.</p>
+    `,
+    hotspots: [
+      {
+        x: 50.0,
+        y: 4.5,
+        tag: "POINT 1 / 5 • GOULOT & COIFFURE",
+        title: "L'embouchure sommitale",
+        desc: "Le col du vase forme un goulot évasé qui émerge directement du sommet de la perruque, servant à la fois d'ouverture de remplissage et de prise."
+      },
+      {
+        x: 50.0,
+        y: 24.5,
+        tag: "POINT 2 / 5 • VISAGE DE LA MÈRE",
+        title: "L'expressivité des traits peints",
+        desc: "Le visage aux grands yeux soulignés de noir exprime une douceur bienveillante, typique de l'art intime du début du Nouvel Empire."
+      },
+      {
+        x: 50.0,
+        y: 47.0,
+        tag: "POINT 3 / 5 • L'ENFANT PROTÉGÉ",
+        title: "La silhouette du nourrisson",
+        desc: "Blotti contre le corps de la mère, le jeune enfant est modelé avec simplicité, renforçant la symbolique nourricière et protectrice de l'objet."
+      },
+      {
+        x: 50.0,
+        y: 57.0,
+        tag: "POINT 4 / 5 • ÉTREINTE DES BRAS",
+        title: "Le lien maternel en relief",
+        desc: "Les bras de la femme enlacent tendrement le petit personnage, unissant visuellement les deux formes plastiques du réservoir."
+      },
+      {
+        x: 52.0,
+        y: 81.0,
+        tag: "POINT 5 / 5 • CORPS AGENOUILLÉ",
+        title: "La base bombée et stable",
+        desc: "Le corps agenouillé s'élargit vers le bas pour constituer un réceptacle stable et volumineux destiné à contenir les onguents ou liquides précieux."
+      }
+    ]
   },
   {
     id: "amphore_bouteille_ramessides_louvre",
