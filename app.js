@@ -1925,7 +1925,7 @@ function activateFocusPoint(index) {
   // Effet projecteur net et resserré (cercle de 15% parfaitement visible à 100%)
   if (darkVeil) {
     darkVeil.style.opacity = "0.88";
-    const spotlightMask = `radial-gradient(circle 15% at ${pt.x}% ${pt.y}%, transparent 0%, transparent 100%, black 100%)`;
+    const spotlightMask = `radial-gradient(circle 15% at ${pt.x}% ${pt.y}%, transparent 0%, transparent 15%, black 16%)`;
     darkVeil.style.webkitMaskImage = spotlightMask;
     darkVeil.style.maskImage = spotlightMask;
   }
