@@ -10915,12 +10915,50 @@ window.ART_OBJECTS.push(
     currentLocation: "In situ (Tombe TT56, Gourna)",
     category: "Peinture murale thébaine",
     isHighlight: false,
-    chips: ["XVIIIe dynastie", "Amenhotep II", "TT56 Ouserhat", "Banquet funéraire"],
+    chips: ["XVIIIe dynastie", "Amenhotep II", "TT56 Ouserhat", "Banquet funéraire", "Nécropole thébaine"],
     deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
     imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPCjoTcSWDTM0og022JHdcyhK1Iqo8rTMJ9EJ1QuCWphrHPzNS1AkI_a8iPVTe-Wt1cmNUuIGL8kAwBc6HJQilb6RhXYZtBCLT7uh-XLyz43aFwB8LYrEdTx9dt7gxVOI_HaIr1YD886iaaAifX_-2JyA=w1379-h919-s-no-gm?authuser=0",
-    narrative: `<p>Cette peinture murale, ornant la tombe d'Ouserhat (TT56) située dans la nécropole de Cheikh Abd el-Gourna à Thèbes, illustre une scène de banquet funéraire et d'offrandes d'une grande finesse, typique du règne d'Amenhotep II durant la XVIIIe dynastie. Au centre de la composition, le défunt Ouserhat, scribe royal et "Scribe du Trésor", est représenté assis aux côtés de son épouse Moutnefret. Le couple reçoit des hommages rituels dans une mise en scène qui mêle élégance aristocratique et symbolisme religieux. Sous le siège d'Ouserhat, un carquois rappelle ses fonctions militaires, tandis que sous celui de son épouse se trouvent un miroir et un petit singe domestique, détails intimes évoquant la renaissance et la sensualité.</p>
-    <p>Devant eux, une table d'offrandes richement garnie déborde de pains, de fruits, de légumes et de pièces de viande, tandis que de grandes jarres à vin reposent sur des supports. Un serviteur, situé à gauche, présente au couple des bouquets de papyrus et de fleurs de lotus, symboles de vie renouvelée, tandis que des invités, disposés en registres inférieurs, participent à cette "Belle Fête de la Vallée". L'art d'Ouserhat se distingue par une exécution polychrome vibrante où les teintes ocre, bleu et vert dominent, avec un souci du détail remarquable dans le rendu des perruques sophistiquées, des parures de perles et de la transparence des vêtements de lin. Cette paroi n'est pas seulement une représentation festive, mais une garantie magique permettant au défunt de continuer à jouir des plaisirs terrestres et de l'abondance alimentaire dans l'au-delà.</p>
-    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1425) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+    narrative: `
+      <p>Cette peinture murale, ornant la tombe d'Ouserhat (TT56) située dans la nécropole de Cheikh Abd el-Gourna à Thèbes, illustre une scène de banquet funéraire et d'offrandes d'une grande finesse, typique du règne d'Amenhotep II durant la XVIIIe dynastie. Au centre de la composition, le défunt Ouserhat, scribe royal et "Scribe du Trésor", est représenté assis aux côtés de son épouse Moutnefret. Le couple reçoit des hommages rituels dans une mise en scène qui mêle élégance aristocratique et symbolisme religieux. Sous le siège d'Ouserhat, un carquois rappelle ses fonctions militaires, tandis que sous celui de son épouse se trouvent un miroir et un petit singe domestique, détails intimes évoquant la renaissance et la sensualité.</p>
+      <p>Devant eux, une table d'offrandes richement garnie déborde de pains, de fruits, de légumes et de pièces de viande, tandis que de grandes jarres à vin reposent sur des supports. Un serviteur, situé à gauche, présente au couple des bouquets de papyrus et de fleurs de lotus, symboles de vie renouvelée, tandis que des invités, disposés en registres inférieurs, participent à cette "Belle Fête de la Vallée". L'art d'Ouserhat se distingue par une exécution polychrome vibrante où les teintes ocre, bleu et vert dominent, avec un souci du détail remarquable dans le rendu des perruques sophistiquées, des parures de perles et de la transparence des vêtements de lin. Cette paroi n'est pas seulement une représentation festive, mais une garantie magique permettant au défunt de continuer à jouir des plaisirs terrestres et de l'abondance alimentaire dans l'au-delà.</p>
+    `,
+    hotspots: [
+      {
+        x: 72.0,
+        y: 35.0,
+        tag: "POINT 1 / 5 • LE COUPLE DÉFUNT",
+        title: "Ouserhat et Moutnefret assis",
+        desc: "Le scribe royal et son épouse reçoivent les hommages funéraires parés de leurs plus beaux atours et de colliers ousekh."
+      },
+      {
+        x: 43.0,
+        y: 32.0,
+        tag: "POINT 2 / 5 • TABLE D'OFFRANDES",
+        title: "L'abondance de pains et de victuailles",
+        desc: "La table déborde de provisions destinées à assurer la subsistance éternelle du couple dans l'au-delà."
+      },
+      {
+        x: 12.0,
+        y: 40.0,
+        tag: "POINT 3 / 5 • SERVITEUR ET LOTUS",
+        title: "La présentation des bouquets sacrés",
+        desc: "Un serviteur s'avance pour offrir des fleurs de lotus et des papyrus symbolisant la régénération et la fraîcheur."
+      },
+      {
+        x: 65.0,
+        y: 65.0,
+        tag: "POINT 4 / 5 • ATTRIBUTS SOUS LES SIÈGES",
+        title: "Le carquois, le miroir et le singe",
+        desc: "Des détails intimes rappellent la fonction militaire d'Ouserhat ainsi que les symboles de renaissance et de féminité de son épouse."
+      },
+      {
+        x: 60.0,
+        y: 92.0,
+        tag: "POINT 5 / 5 • INVITÉS DU BANQUET",
+        title: "Les participants de la Belle Fête",
+        desc: "Le registre inférieur met en scène les convives et musiciens célébrant le banquet commémoratif dans la nécropole."
+      }
+    ]
   },
    {
     id: "peinture_amenhotep_iii_qurna_louxor",
