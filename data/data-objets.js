@@ -12310,14 +12310,53 @@ window.ART_OBJECTS.push(
     locationType: "museum",
     currentLocation: "Musée National Archéologique d'Athènes",
     category: "Vase de libation en or",
-    isHighlight: false,
+    isHighlight: true,
     chips: ["XVIe s. av. J.-C.", "Tombe IV", "Tête de lion", "Musée d'Athènes"],
     deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
     imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPRFPRXnIHI0jBkKow_ZjNiRNC7NoVQbh5OlLJFPeNynyOh8a11Y6eQv9abtD_ybM_z9r6XfLYLWKx2HVYrkH9hfWukUWw8-JsdL3HdsUB-J89tFfX5jVAQ4OhQk72gmTWAD1cPimWzsjTBYK5t1t5G9Q=w1379-h919-s-no-gm?authuser=0",
-    narrative: `<p>Ce rhyton en or massif en forme de tête de lion, exhumé de la tombe à fosse IV du cercle funéraire A de Mycènes, est l'un des objets les plus spectaculaires de l'orfèvrerie mycénienne du XVIe siècle avant notre ère. Contrairement au rhyton à tête de taureau qui utilise une combinaison de métaux, cette pièce est entièrement façonnée dans une épaisse feuille d'or, illustrant la richesse inouïe et le prestige des souverains enterrés dans cette nécropole. Le lion, prédateur suprême et symbole de la force souveraine, est ici représenté avec une stylisation géométrique puissante qui s'écarte du naturalisme minoen pour affirmer une esthétique proprement continentale et guerrière.</p>
-    <p>La structure du vase repose sur une technique de martelage complexe permettant de créer des volumes nets et angulaires, notamment au niveau du front et de la crinière. Le museau est particulièrement détaillé avec de petits cercles incisés figurant les moustaches, tandis que les yeux, autrefois peut-être incrustés d'une autre matière, sont rendus par des ouvertures en amande entourées d'un relief marqué. En tant que vase à libations, le liquide était introduit par une ouverture située au sommet du crâne et s'écoulait par un orifice percé au niveau du museau. Ce processus rituel, lors duquel le vin ou l'huile semblait jaillir de la gueule du lion, servait probablement à invoquer la protection de l'animal ou à honorer la mémoire du chef défunt par un acte de dévotion solennel.</p>
-    <p>L'importance symbolique du lion à Mycènes ne peut être sous-estimée, comme en témoigne la célèbre Porte des Lionnes qui marquait l'entrée de la citadelle. En possédant et en utilisant un tel objet, l'élite mycénienne affichait son lien avec les puissances de la nature et sa domination sur le monde animal. La facture de ce rhyton, avec ses lignes épurées et sa brillance inaltérable, en fait non seulement un outil de culte, mais aussi un chef-d'œuvre de l'art métallurgique ancien, témoignant de la capacité des artisans de l'époque à travailler l'or en volume avec une grande sûreté de trait.</p>
-    <p><strong>Siècle :</strong> XVIe siècle av. J.-C. | <strong>Civilisation :</strong> Monde égéen (Art Mycénien) | <strong>Sous-partie :</strong> Arts du Métal & Parures.</p>`
+    narrative: `
+      <p>Ce rhyton en or massif en forme de tête de lion, exhumé de la tombe à fosse IV du cercle funéraire A de Mycènes, est l'un des objets les plus spectaculaires de l'orfèvrerie mycénienne du XVIe siècle avant notre ère. Contrairement au rhyton à tête de taureau qui utilise une combinaison de métaux, cette pièce est entièrement façonnée dans une épaisse feuille d'or, illustrant la richesse inouïe et le prestige des souverains enterrés dans cette nécropole. Le lion, prédateur suprême et symbole de la force souveraine, est ici représenté avec une stylisation géométrique puissante qui s'écarte du naturalisme minoen pour affirmer une esthétique proprement continentale et guerrière.</p>
+      <p>La structure du vase repose sur une technique de martelage complexe permettant de créer des volumes nets et angulaires, notamment au niveau du front et de la crinière. Le museau est particulièrement détaillé avec de petits cercles incisés figurant les moustaches, tandis que les yeux, autrefois peut-être incrustés d'une autre matière, sont rendus par des ouvertures en amande entourées d'un relief marqué. En tant que vase à libations, le liquide était introduit par une ouverture située au sommet du crâne et s'écoulait par un orifice percé au niveau du museau. Ce processus rituel, lors duquel le vin ou l'huile semblait jaillir de la gueule du lion, servait probablement à invoquer la protection de l'animal ou à honorer la mémoire du chef défunt par un acte de dévotion solennel.</p>
+      <p>L'importance symbolique du lion à Mycènes ne peut être sous-estimée, comme en témoigne la célèbre Porte des Lionnes qui marquait l'entrée de la citadelle. En possédant et en utilisant un tel objet, l'élite mycénienne affichait son lien avec les puissances de la nature et sa domination sur le monde animal. La facture de ce rhyton, avec ses lignes épurées et sa brillance inaltérable, en fait non seulement un outil de culte, mais aussi un chef-d'œuvre de l'art métallurgique ancien, témoignant de la capacité des artisans de l'époque à travailler l'or en volume avec une grande sûreté de trait.</p>
+      <p><strong>Siècle :</strong> XVIe siècle av. J.-C. | <strong>Civilisation :</strong> Monde égéen (Art Mycénien) | <strong>Sous-partie :</strong> Arts du Métal & Parures.</p>
+    `,
+    hotspots: [
+      {
+        x: 47.5,
+        y: 4.5,
+        tag: "POINT 1 / 5 • ANNEAU DE SUSPENSION",
+        title: "L'attache sommitale",
+        desc: "Un petit anneau soudé au sommet du crâne permettait de suspendre le rhyton ou de le manipuler lors des processions cultuelles."
+      },
+      {
+        x: 52.0,
+        y: 26.5,
+        tag: "POINT 2 / 5 • ARÊTE NASALE & FRONT",
+        title: "La toreutique aux volumes angulaires",
+        desc: "Le front et l'arête du museau sont façonnés en arêtes vives par un martelage rigoureux, affirmant la stylisation géométrique continentale."
+      },
+      {
+        x: 27.5,
+        y: 47.0,
+        tag: "POINT 3 / 5 • YEUX EN AMANDE",
+        title: "Le regard perçant du félin",
+        desc: "Les yeux, ouverts et cernés de reliefs incisés, animent le masque d'or d'une expression farouche et intemporelle."
+      },
+      {
+        x: 62.0,
+        y: 77.0,
+        tag: "POINT 4 / 5 • MOUSTACHES CLOUTÉES",
+        title: "Le détail des vibrisses",
+        desc: "Le museau renflé est parsemé de petits cercles poinçonnés figurant la disposition des moustaches du prédateur."
+      },
+      {
+        x: 57.0,
+        y: 89.5,
+        tag: "POINT 5 / 5 • ORIFICE D'ÉCOULEMENT",
+        title: "La gueule déversoir",
+        desc: "L'extrémité inférieure de la mâchoire est percée pour laisser s'échapper le vin ou l'huile lors des rituels de libation funéraire."
+      }
+    ]
   },
   {
     id: "tresor_or_tombes_iv_v_cercle_a_athenes",
