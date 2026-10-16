@@ -12981,48 +12981,46 @@ window.ART_OBJECTS.push(
     chips: ["Cycladique Ancien II", "Culture de Kéros-Syros", "Île de Kéros", "Marbre insulaire", "Type spécial"],
     deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNMZRgR759mlxzzO63gKtVg2u437kEFSbomGP9HGmk8DelG-gh8gB9JNXi9bKBgrqsDkalszZLTbKwC5t0GJdWrMoEmqyl9V6L6d0f5GhGwYfTg6AqqP-C2stcjrj5Vn5Ba1SstoTv7f5_pyIccZFQq4g=w2209-h938-s-no-gm?authuser=0",
     imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczODOCsUQhwC3Bpv5riR_8JbpAyR-T7NqvicoYuRwLHaSu6hEQGHU3k7C55gxVBvnai0iFsFbsDEL9JMsA-00WYexltu5IBKEEJlXaI3-GrQd3_81hP3sJf2kscSGvviJ_tYOCZmrBQwOjVLi_n5emYgNg=w1588-h1058-s-no-gm?authuser=0",
-    narrative: `
-      <p>Cette célèbre statuette en ronde-bosse provient d'une sépulture de l'île de Kéros, au cœur de l'archipel des Cyclades, où elle fut mise au jour au XIXe siècle aux côtés d'un joueur de double flûte (l'aulète, NAMA 3910). L'œuvre est datée de l'âge du Bronze ancien, plus précisément de la période du Cycladique Ancien II (culture de Kéros-Syros), aux alentours de 2800 à 2300 av. J.-C. (souvent située vers 2700 – 2500 av. J.-C.). Sculptée dans un marbre blanc insulaire à grain fin de Paros ou de Naxos, qui présente aujourd'hui une patine chaleureuse aux nuances ocre et beige doré, cette composition mesure 22,5 cm de hauteur. Elle constitue l'un des chefs-d'œuvre les plus rares et les plus aboutis de la plastique cycladique dite « de type spécial », qui s'affranchit de la stricte frontalité des idoles féminines aux bras croisés pour explorer le mouvement et la troisième dimension.</p>
-      <p>Le musicien, entièrement nu et de sexe masculin, est représenté assis en bordure d'un siège ouvragé à haut dossier vertical légèrement cintré. Ce fauteuil, véritable pièce d'ébénisterie traduite dans la pierre, repose sur quatre pieds reliés latéralement par d'élégantes traverses arquées opposées dos à dos, illustrant la maîtrise spectaculaire de l'ajourage du marbre à l'aide de forets et d'abrasifs en émeri. Le personnage adopte une posture pleine de noblesse et d'intensité : le buste droit, les jambes écartées et fléchies à angle droit, il pose ses pieds à plat sur le sol imaginaire pour assurer son équilibre. La tête, en forme d'amande allongée au sommet aplati, est fortement rejetée vers l'arrière dans une attitude qui évoque la concentration du chant ou l'extase musicale. Sur la surface lisse du visage, seul le nez proéminent et pyramidal se détache en relief, bien que des rehauts peints aient autrefois détaillé les traits anatomiques et la chevelure.</p>
-      <p>Le bras droit du musicien (dont l'avant-bras est aujourd'hui brisé) s'avançait librement dans l'espace pour pincer les cordes, tandis que le bras gauche soutient fermement une harpe triangulaire (ou trigone) posée en appui sur sa cuisse droite. L'instrument, dont le cadre évidé forme une boucle audacieuse devant la poitrine du joueur, comprend une caisse de résonance horizontale surmontée d'un montant oblique. Au sommet de l'arc harmonique, la jonction prend la forme d'une tête d'oiseau aquatique (cygne ou canard) au long bec plat, motif symbolique probablement lié au voyage de l'âme ou au monde céleste.</p>
-      <p>Contrairement à la grande majorité des figurines cycladiques qui sont féminines et statiques, les rares statuettes masculines de cette période incarnent presque toujours des figures d'action : musiciens, porteurs de coupes ou guerriers-chasseurs. Déposé dans une riche tombe, mais reposant sur une base parfaitement stable qui permettait de l'exposer dans le monde des vivants, le Harpiste de Kéros témoigne de l'importance fondamentale de la musique, de la poésie épique et des banquets rituels au sein des élites insulaires du IIIe millénaire av. J.-C. Plus de quinze siècles avant l'époque homérique, cette figure préfigure déjà le rôle sacré de l'aède grec, chargé d'accompagner les cérémonies religieuses, de célébrer les ancêtres et de guider les défunts vers l'au-delà par l'harmonie des sons.</p>
-      <p><strong>Siècle :</strong> XXVIIe siècle av. J.-C. (-2700) | <strong>Civilisation :</strong> Monde égéen (Art Cycladique) | <strong>Sous-partie :</strong> Statuaire & Marbre.</p>
-    `,
+    narrative: `<p>Cette célèbre statuette en ronde-bosse provient d'une sépulture de l'île de Kéros, au cœur de l'archipel des Cyclades, où elle fut mise au jour au XIXe siècle aux côtés d'un joueur de double flûte (l'aulète, NAMA 3910). L'œuvre est datée de l'âge du Bronze ancien, plus précisément de la période du Cycladique Ancien II (culture de Kéros-Syros), aux alentours de 2800 à 2300 av. J.-C. (souvent située vers 2700 – 2500 av. J.-C.). Sculptée dans un marbre blanc insulaire à grain fin de Paros ou de Naxos, qui présente aujourd'hui une patine chaleureuse aux nuances ocre et beige doré, cette composition mesure 22,5 cm de hauteur. Elle constitue l'un des chefs-d'œuvre les plus rares et les plus aboutis de la plastique cycladique dite « de type spécial », qui s'affranchit de la stricte frontalité des idoles féminines aux bras croisés pour explorer le mouvement et la troisième dimension.</p>
+    <p>Le musicien, entièrement nu et de sexe masculin, est représenté assis en bordure d'un siège ouvragé à haut dossier vertical légèrement cintré. Ce fauteuil, véritable pièce d'ébénisterie traduite dans la pierre, repose sur quatre pieds reliés latéralement par d'élégantes traverses arquées opposées dos à dos, illustrant la maîtrise spectaculaire de l'ajourage du marbre à l'aide de forets et d'abrasifs en émeri. Le personnage adopte une posture pleine de noblesse et d'intensité : le buste droit, les jambes écartées et fléchies à angle droit, il pose ses pieds à plat sur le sol imaginaire pour assurer son équilibre. La tête, en forme d'amande allongée au sommet aplati, est fortement rejetée vers l'arrière dans une attitude qui évoque la concentration du chant ou l'extase musicale. Sur la surface lisse du visage, seul le nez proéminent et pyramidal se détache en relief, bien que des rehauts peints aient autrefois détaillé les traits anatomiques et la chevelure.</p>
+    <p>Le bras droit du musicien (dont l'avant-bras est aujourd'hui brisé) s'avançait librement dans l'espace pour pincer les cordes, tandis que le bras gauche soutient fermement une harpe triangulaire (ou trigone) posée en appui sur sa cuisse droite. L'instrument, dont le cadre évidé forme une boucle audacieuse devant la poitrine du joueur, comprend une caisse de résonance horizontale surmontée d'un montant oblique. Au sommet de l'arc harmonique, la jonction prend la forme d'une tête d'oiseau aquatique (cygne ou canard) au long bec plat, motif symbolique probablement lié au voyage de l'âme ou au monde céleste.</p>
+    <p>Contrairement à la grande majorité des figurines cycladiques qui sont féminines et statiques, les rares statuettes masculines de cette période incarnent presque toujours des figures d'action : musiciens, porteurs de coupes ou guerriers-chasseurs. Déposé dans une riche tombe, mais reposant sur une base parfaitement stable qui permettait de l'exposer dans le monde des vivants, le Harpiste de Kéros témoigne de l'importance fondamentale de la musique, de la poésie épique et des banquets rituels au sein des élites insulaires du IIIe millénaire av. J.-C. Plus de quinze siècles avant l'époque homérique, cette figure préfigure déjà le rôle sacré de l'aède grec, chargé d'accompagner les cérémonies religieuses, de célébrer les ancêtres et de guider les défunts vers l'au-delà par l'harmonie des sons.</p>
+    <p><strong>Siècle :</strong> XXVIIe siècle av. J.-C. (-2700) | <strong>Civilisation :</strong> Monde égéen (Art Cycladique) | <strong>Sous-partie :</strong> Statuaire & Marbre.</p>`,
     hotspots: [
       {
         x: 55.5,
         y: 12.0,
         tag: "POINT 1 / 5 • TÊTE REJETÉE & CHANT",
         title: "L'attitude inspirée de l'aède",
-        desc: "La tête allongée, au sommet aplati et au nez pyramidal en relief, est basculée vers le haut dans une posture d'abandon et d'extase poétique qui évoque l'émission de la voix et l'inspiration sacrée du chant cérémoniel."[cite: 7]
+        desc: "La tête allongée, au sommet aplati et au nez pyramidal en relief, est basculée vers le haut dans une posture d'abandon et d'extase poétique qui évoque l'émission de la voix et l'inspiration sacrée du chant cérémoniel."
       },
       {
         x: 38.5,
         y: 16.5,
         tag: "POINT 2 / 5 • SOMMET DE L'INSTRUMENT",
         title: "La tête d'oiseau aquatique",
-        desc: "L'extrémité supérieure du cadre de la harpe triangulaire se termine par un bec plat figurant une tête de palmipède (cygne ou canard), symbole spirituel traditionnellement associé au voyage de l'âme et à la navigation céleste."[cite: 7]
+        desc: "L'extrémité supérieure du cadre de la harpe triangulaire se termine par un bec plat figurant une tête de palmipède (cygne ou canard), symbole spirituel traditionnellement associé au voyage de l'âme et à la navigation céleste."
       },
       {
         x: 50.0,
         y: 38.0,
         tag: "POINT 3 / 5 • BRAS & JEU DES CORDES",
         title: "La préhension de la harpe",
-        desc: "Tandis que le bras gauche maintient le cadre de l'instrument fermement appuyé sur la cuisse, le bras droit s'avançait dans l'espace vide pour faire vibrer les cordes, créant une tridimensionnalité inédite dans l'art égéen."[cite: 7]
+        desc: "Tandis que le bras gauche maintient le cadre de l'instrument fermement appuyé sur la cuisse, le bras droit s'avançait dans l'espace vide pour faire vibrer les cordes, créant une tridimensionnalité inédite dans l'art égéen."
       },
       {
         x: 51.5,
         y: 81.0,
         tag: "POINT 4 / 5 • PIÈTEMENT & TRAVERSES DU SIÈGE",
         title: "La virtuosité de l'évidement",
-        desc: "Les quatre pieds du tabouret sont reliés par des traverses cintrées découpées avec une finesse exceptionnelle. Cet ajourage du marbre au moyen d'émeri témoigne d'une virtuosité technique digne d'un maître ébéniste."[cite: 7]
+        desc: "Les quatre pieds du tabouret sont reliés par des traverses cintrées découpées avec une finesse exceptionnelle. Cet ajourage du marbre au moyen d'émeri témoigne d'une virtuosité technique digne d'un maître ébéniste."
       },
       {
         x: 64.5,
         y: 49.0,
         tag: "POINT 5 / 5 • DOSSIER DU TRÔNE",
         title: "Le siège d'apparat cintré",
-        desc: "Le dossier vertical légèrement recourbé soutient la posture noble du musicien. Cette assise structurée confère à la statuette une stabilité parfaite, conçue pour être contemplée sous tous les angles en ronde-bosse."[cite: 7]
+        desc: "Le dossier vertical légèrement recourbé soutient la posture noble du musicien. Cette assise structurée confère à la statuette une stabilité parfaite, conçue pour être contemplée sous tous les angles en ronde-bosse."
       }
     ]
   },
