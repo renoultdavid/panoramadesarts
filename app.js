@@ -1873,7 +1873,10 @@ function showFocusOverview() {
   const popupCard = document.getElementById('focusPopupCard');
   const bubbles = document.querySelectorAll('.hotspot-bubble');
 
-  if (stageBox) stageBox.style.transform = "translate(0px, 0px) scale(1)";
+  if (stageBox) {
+    stageBox.dataset.scale = "1";
+    stageBox.style.transform = "translate(0px, 0px) scale(1)";
+  }
   
   if (darkVeil) {
     darkVeil.style.opacity = "0";
@@ -1888,8 +1891,6 @@ function showFocusOverview() {
 
   bubbles.forEach(b => {
     b.classList.remove('is-active');
-    b.style.display = "flex";
-    b.style.opacity = "1";
   });
 }
 
@@ -1910,7 +1911,7 @@ function activateFocusPoint(index) {
   const popupDesc = document.getElementById('focusPopupDesc');
   const bubbles = document.querySelectorAll('.hotspot-bubble');
 
-  // Zoom ciblé sur le point
+  // Zoom centré sur la zone du point
   const zoomScale = 1.35;
   const stageRect = stageBox.getBoundingClientRect();
   const currentScale = parseFloat(stageBox.dataset.scale) || 1;
@@ -1926,7 +1927,7 @@ function activateFocusPoint(index) {
   stageBox.dataset.scale = zoomScale;
   stageBox.style.transform = `translate(${moveX}px, ${moveY}px) scale(${zoomScale})`;
 
-  // Découpe circulaire directe sur le calque supérieur spotLens
+  // Découpe circulaire du calque spotLens au-dessus du voile sombre
   const radius = pt.radius || 20;
   if (spotLens) {
     const clipVal = `circle(${radius}% at ${pt.x}% ${pt.y}%)`;
@@ -1934,24 +1935,17 @@ function activateFocusPoint(index) {
     spotLens.style.webkitClipPath = clipVal;
   }
 
-  // Le voile sombre recouvre l'image du dessous
+  // Le voile sombre assombrit le reste de l'image de fond
   if (darkVeil) {
     darkVeil.style.opacity = "0.88";
   }
 
-  // Masquer la pastille sélectionnée
+  // Masquer la pastille active
   bubbles.forEach((b, idx) => {
-    if (idx === index) {
-      b.classList.add('is-active');
-      b.style.display = "none";
-    } else {
-      b.classList.remove('is-active');
-      b.style.display = "flex";
-      b.style.opacity = "1";
-    }
+    b.classList.toggle('is-active', idx === index);
   });
 
-  // Mise à jour de la fiche descriptive
+  // Mise à jour et ouverture du volet d'information
   if (popupTag) popupTag.textContent = pt.tag || `POINT ${index + 1} / ${pts.length}`;
   if (popupTitle) popupTitle.textContent = pt.title;
   if (popupDesc) popupDesc.textContent = pt.desc;
