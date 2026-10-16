@@ -1874,12 +1874,15 @@ function showFocusOverview() {
   const bubbles = document.querySelectorAll('.hotspot-bubble');
 
   if (stageBox) stageBox.style.transform = "translate(0px, 0px) scale(1)";
-  if (darkVeil) darkVeil.style.opacity = "0";
   
+  if (darkVeil) {
+    darkVeil.style.opacity = "0";
+    darkVeil.style.webkitMaskImage = "none";
+    darkVeil.style.maskImage = "none";
+  }
+
   if (spotLens) {
-    spotLens.style.clipPath = "circle(0% at 50% 50%)";
-    spotLens.style.webkitMaskImage = "none";
-    spotLens.style.maskImage = "none";
+    spotLens.style.clipPath = "none";
   }
 
   if (popupCard) popupCard.classList.remove('is-visible');
@@ -1919,11 +1922,17 @@ function activateFocusPoint(index) {
   stageBox.dataset.scale = zoomScale;
   stageBox.style.transform = `translate(${moveX}px, ${moveY}px) scale(${zoomScale})`;
 
-  // Effet projecteur net : grand cercle propre à 35% sans aucun voile gris au milieu
-  spotLens.style.webkitMaskImage = "none";
-  spotLens.style.maskImage = "none";
-  spotLens.style.clipPath = `circle(35% at ${pt.x}% ${pt.y}%)`;
-  darkVeil.style.opacity = "0.88";
+  // Effet projecteur parfait : le voile sombre est "troué" exactement sur le point d'intérêt avec un cercle net (rayon 35%)
+  if (darkVeil) {
+    darkVeil.style.opacity = "0.88";
+    const spotlightMask = `radial-gradient(circle 35% at ${pt.x}% ${pt.y}%, transparent 0%, transparent 75%, black 100%)`;
+    darkVeil.style.webkitMaskImage = spotlightMask;
+    darkVeil.style.maskImage = spotlightMask;
+  }
+
+  if (spotLens) {
+    spotLens.style.clipPath = "none";
+  }
 
   // Effacer la pastille cliquée
   bubbles.forEach((b, idx) => {
