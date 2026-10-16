@@ -15228,13 +15228,52 @@ window.ART_OBJECTS.push(
     category: "Peinture murale",
     isHighlight: true,
     themeLink: "https://photos.google.com/share/AF1QipMnn_CMAHk2s1w8_h2RauhjNNCt21MFWbRDPmz1Iwj3H9ZqQAAsXTaBKylKpOq-lg?key=SHZuTHVkNW9YZ2xleTl3bTZickotQWVsSnpSZkF3",
-    chips: ["Helladique Récent III B", "Fresque sur enduit", "Musée d'Athènes"],
+    chips: ["Helladique Récent III B", "Fresque sur enduit", "Centre cultuel", "Musée d'Athènes"],
     deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczPGPVemkhHQo3zxMthmyW5DikiQpTTsrv0U4LJ6UISDDrZFy45mQdZos6Gg-E4RKWIGenvHZ5uO_yxvfo1sBV0PTvktEP3l9BvBL1sJZAsYp0aet3LLJGPtq0F7QuWv4QGE5UTOKuwIeuLwFZ-IOW6bFg=w1980-h841-s-no-gm?authuser=0",
     imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMbgjkIe11IPZke23inAsNsxTWRLL9nqwJugVL6lzs9TMqA1M6498DpViAPRaJySmkeNbp0h3-OtnTgnT5H45KYJkF4FlBopt4vt2DUAGfBfCe6gnPKi2mOgkd-It9hSy3jHDe9XbxzmsJ9ChwJvpSanQ=w2158-h1438-s-no-gm?authuser=0",
-    narrative: `<p>Cette fresque monumentale, communément appelée la Dame de Mycènes, constitue l'un des chefs-d'œuvre les plus emblématiques de la peinture murale mycénienne de la période de l'Helladique Récent III B, aux alentours de 1300 avant notre ère. Découverte dans le centre cultuel de la citadelle de Mycènes, cette œuvre fut réalisée selon la technique de la fresque véritable, où les pigments sont appliqués sur un enduit de chaux encore humide, permettant une conservation exceptionnelle de la vivacité des couleurs malgré les siècles. Elle est aujourd'hui conservée et exposée au Musée National Archéologique d'Athènes, témoignant du raffinement esthétique et de la complexité sociale de cette civilisation palatiale.</p>
-    <p>La figure féminine est représentée de profil, arborant une physionomie caractéristique de l'art égéen avec un œil dessiné de face et des traits finement soulignés. Sa coiffure élaborée, composée de mèches ondulées maintenues par des bandeaux rouges, retombe en boucles complexes sur ses épaules, tandis que ses bijoux — colliers de perles et bracelets — soulignent son rang élevé ou sa fonction sacrée. Elle porte le costume traditionnel mycénien, dérivé de la mode minoenne, comprenant un corsage ajusté à manches courtes qui laisse la poitrine apparente, typique des représentations de divinités ou de hautes prêtresses de cette époque.</p>
-    <p>L'attitude de la dame, tenant avec une grâce solennelle un collier ou un diadème dans sa main droite, suggère qu'elle participe à un rituel d'offrande ou qu'elle incarne une déesse recevant des hommages. Le choix des pigments, notamment l'ocre jaune pour la peau, le rouge pour les détails vestimentaires et le bleu égyptien pour le fond, répond à des conventions artistiques strictes visant à créer un contraste saisissant et une lisibilité immédiate de la scène. La précision du trait noir qui détourre la silhouette confère à l'ensemble une élégance et une autorité qui devaient impressionner les visiteurs du sanctuaire original.</p>
-    <p>Au-delà de sa valeur esthétique, cette fresque offre un aperçu inestimable sur la continuité culturelle entre la Crète minoenne et la Grèce continentale mycénienne. Bien que les Mycéniens aient adopté de nombreux codes artistiques crétois, la rigidité relative de la pose et la stylisation des motifs trahissent une sensibilité propre au continent, plus formelle et structurée. La Dame de Mycènes demeure ainsi le symbole d'une ère de splendeur où l'art mural servait de lien entre le monde des hommes, le pouvoir royal et le divin, avant l'effondrement de la civilisation palatiale à la fin de l'Âge du Bronze.</p>`
+    narrative: `
+      <p>Cette fresque monumentale, communément appelée la Dame de Mycènes, constitue l'un des chefs-d'œuvre les plus emblématiques de la peinture murale mycénienne de la période de l'Helladique Récent III B, aux alentours de 1300 avant notre ère. Découverte dans le centre cultuel de la citadelle de Mycènes, cette œuvre fut réalisée selon la technique de la fresque véritable, où les pigments sont appliqués sur un enduit de chaux encore humide, permettant une conservation exceptionnelle de la vivacité des couleurs malgré les siècles. Elle est aujourd'hui conservée et exposée au Musée National Archéologique d'Athènes, témoignant du raffinement esthétique et de la complexité sociale de cette civilisation palatiale.</p>
+      <p>La figure féminine est représentée de profil, arborant une physionomie caractéristique de l'art égéen avec un œil dessiné de face et des traits finement soulignés. Sa coiffure élaborée, composée de mèches ondulées maintenues par des bandeaux rouges, retombe en boucles complexes sur ses épaules, tandis que ses bijoux — colliers de perles et bracelets — soulignent son rang élevé ou sa fonction sacrée. Elle porte le costume traditionnel mycénien, dérivé de la mode minoenne, comprenant un corsage ajusté à manches courtes qui laisse la poitrine apparente, typique des représentations de divinités ou de hautes prêtresses de cette époque.</p>
+      <p>L'attitude de la dame, tenant avec une grâce solennelle un collier ou un diadème dans sa main droite, suggère qu'elle participe à un rituel d'offrande ou qu'elle incarne une déesse recevant des hommages. Le choix des pigments, notamment l'ocre jaune pour la peau, le rouge pour les détails vestimentaires et le bleu égyptien pour le fond, répond à des conventions artistiques strictes visant à créer un contraste saisissant et une lisibilité immédiate de la scène. La précision du trait noir qui détourre la silhouette confère à l'ensemble une élégance et une autorité qui devaient impressionner les visiteurs du sanctuaire original.</p>
+      <p>Au-delà de sa valeur esthétique, cette fresque offre un aperçu inestimable sur la continuité culturelle entre la Crète minoenne et la Grèce continentale mycénienne. Bien que les Mycéniens aient adopté de nombreux codes artistiques crétois, la rigidité relative de la pose et la stylisation des motifs trahissent une sensibilité propre au continent, plus formelle et structurée. La Dame de Mycènes demeure ainsi le symbole d'une ère de splendeur où l'art mural servait de lien entre le monde des hommes, le pouvoir royal et le divin, avant l'effondrement de la civilisation palatiale à la fin de l'Âge du Bronze.</p>
+    `,
+    hotspots: [
+      {
+        x: 31.0,
+        y: 28.5,
+        tag: "POINT 1 / 5 • COIFFURE & BANDEAUX",
+        title: "La chevelure bouclée et les bandeaux",
+        desc: "La coiffure complexe associe des mèches ondulées retenues par des bandeaux rouges et des ornements en spirales, typiques du faste féminin mycénien."
+      },
+      {
+        x: 33.0,
+        y: 35.5,
+        tag: "POINT 2 / 5 • PROFIL ET REGARD",
+        title: "Le visage aux conventions égéennes",
+        desc: "La figure est tracée de profil avec un œil de face au contour noir très net, un héritage stylistique minoen réinterprété avec la rigueur continentale."
+      },
+      {
+        x: 9.5,
+        y: 47.0,
+        tag: "POINT 3 / 5 • MAIN ET OFFRANDE",
+        title: "La préhension du collier rituel",
+        desc: "La main droite délicatement tendue présente un collier de perles ou un diadème multicolore, signalant l'acte de dévotion ou l'offrande sacrée."
+      },
+      {
+        x: 44.0,
+        y: 59.0,
+        tag: "POINT 4 / 5 • COLLIERS ET PARURES",
+        title: "Les rangs de perles du cou",
+        desc: "Plusieurs colliers étagés en pendentifs soulignent la gorge de la dame, témoignant du raffinement vestimentaire et du statut aristocratique."
+      },
+      {
+        x: 35.0,
+        y: 77.0,
+        tag: "POINT 5 / 5 • CORSAGE TRADITIONNEL",
+        title: "Le vêtement ajusté à bandes rouges",
+        desc: "Le corsage galbé aux larges bandes pourpres et ocres structure l'habit féminin traditionnel, laissant la poitrine apparente selon les canons cultuels de l'époque."
+      }
+    ]
   },
   {
     id: "kourotrophos_mycenes",
