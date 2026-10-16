@@ -1877,17 +1877,20 @@ function showFocusOverview() {
   
   if (darkVeil) {
     darkVeil.style.opacity = "0";
-    darkVeil.style.webkitMaskImage = "none";
-    darkVeil.style.maskImage = "none";
   }
 
   if (spotLens) {
-    spotLens.style.clipPath = "none";
+    spotLens.style.clipPath = "circle(0% at 50% 50%)";
+    spotLens.style.webkitClipPath = "circle(0% at 50% 50%)";
   }
 
   if (popupCard) popupCard.classList.remove('is-visible');
 
-  bubbles.forEach(b => b.classList.remove('is-active'));
+  bubbles.forEach(b => {
+    b.classList.remove('is-active');
+    b.style.display = "flex";
+    b.style.opacity = "1";
+  });
 }
 
 function activateFocusPoint(index) {
@@ -1907,11 +1910,12 @@ function activateFocusPoint(index) {
   const popupDesc = document.getElementById('focusPopupDesc');
   const bubbles = document.querySelectorAll('.hotspot-bubble');
 
-  // Zoom modéré 1.35x
+  // Zoom ciblé sur le point
   const zoomScale = 1.35;
   const stageRect = stageBox.getBoundingClientRect();
-  const baseW = stageRect.width / (stageBox.dataset.scale || 1);
-  const baseH = stageRect.height / (stageBox.dataset.scale || 1);
+  const currentScale = parseFloat(stageBox.dataset.scale) || 1;
+  const baseW = stageRect.width / currentScale;
+  const baseH = stageRect.height / currentScale;
 
   const targetX = (pt.x / 100) * baseW;
   const targetY = (pt.y / 100) * baseH;
@@ -1922,30 +1926,36 @@ function activateFocusPoint(index) {
   stageBox.dataset.scale = zoomScale;
   stageBox.style.transform = `translate(${moveX}px, ${moveY}px) scale(${zoomScale})`;
 
- // Voile sombre uniforme
+  // Découpe circulaire directe sur le calque supérieur spotLens
+  const radius = pt.radius || 20;
+  if (spotLens) {
+    const clipVal = `circle(${radius}% at ${pt.x}% ${pt.y}%)`;
+    spotLens.style.clipPath = clipVal;
+    spotLens.style.webkitClipPath = clipVal;
+  }
+
+  // Le voile sombre recouvre l'image du dessous
   if (darkVeil) {
     darkVeil.style.opacity = "0.88";
-    darkVeil.style.webkitMaskImage = "none";
-    darkVeil.style.maskImage = "none";
   }
 
-  // Découpe circulaire nette sur l'image supérieure
-  if (spotLens) {
-    spotLens.style.clipPath = `circle(22% at ${pt.x}% ${pt.y}%)`;
-    spotLens.style.webkitMaskImage = "none";
-    spotLens.style.maskImage = "none";
-  }
-
-  // Effacer la pastille cliquée
+  // Masquer la pastille sélectionnée
   bubbles.forEach((b, idx) => {
-    b.classList.toggle('is-active', idx === index);
+    if (idx === index) {
+      b.classList.add('is-active');
+      b.style.display = "none";
+    } else {
+      b.classList.remove('is-active');
+      b.style.display = "flex";
+      b.style.opacity = "1";
+    }
   });
 
-  // Mettre à jour et ouvrir le pop-up
-  popupTag.textContent = pt.tag || `POINT ${index + 1} / ${pts.length}`;
-  popupTitle.textContent = pt.title;
-  popupDesc.textContent = pt.desc;
-  popupCard.classList.add('is-visible');
+  // Mise à jour de la fiche descriptive
+  if (popupTag) popupTag.textContent = pt.tag || `POINT ${index + 1} / ${pts.length}`;
+  if (popupTitle) popupTitle.textContent = pt.title;
+  if (popupDesc) popupDesc.textContent = pt.desc;
+  if (popupCard) popupCard.classList.add('is-visible');
 }
 
 // Initialisation des écouteurs globaux du mode focus
