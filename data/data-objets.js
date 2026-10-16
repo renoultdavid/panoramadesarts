@@ -1211,7 +1211,7 @@ window.ART_OBJECTS.push(
       },
       {
         x: 39,
-        y: 56,
+        y: 65,
         radius: 12,
         startTime: 57,
         endTime: 74,
@@ -10946,8 +10946,8 @@ window.ART_OBJECTS.push(
     `,
     hotspots: [
       {
-        x: 72.0,
-        y: 35.0,
+        x: 90.0,
+        y: 25.0,
         startTime: 21,
         endTime: 31,
         tag: "POINT 1 / 5 • LE COUPLE DÉFUNT",
@@ -12072,20 +12072,20 @@ window.ART_OBJECTS.push(
     hotspots: [
       {
         x: 50.0,
-        y: 45.0,
+        y: 40.0,
         tag: "POINT 1 / 5 • PERSONNAGE & ARC TENDU",
         title: "Le chasseur au centre de l'action",
         desc: "Le personnage masculin, vêtu d'un pagne et doté d'une chevelure sombre, bande son grand arc avec assurance au milieu de l'espace circulaire."
       },
       {
         x: 35.0,
-        y: 40.0,
+        y: 45.0,
         tag: "POINT 2 / 5 • CHIEN DE CHASSE",
         title: "Le lévrier tacheté à la course",
         desc: "Un grand chien de chasse au corps svelte et à la queue recourbée accompagne activement la traque aux côtés de son maître."
       },
       {
-        x: 30.0,
+        x: 55.0,
         y: 72.0,
         tag: "POINT 3 / 5 • POURSUITE DU LIÈVRE",
         title: "La scène de fuite animale",
