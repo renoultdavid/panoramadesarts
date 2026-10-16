@@ -10948,6 +10948,7 @@ window.ART_OBJECTS.push(
       {
         x: 90.0,
         y: 25.0,
+         radius: 35,
         startTime: 21,
         endTime: 31,
         tag: "POINT 1 / 5 • LE COUPLE DÉFUNT",
@@ -10957,6 +10958,7 @@ window.ART_OBJECTS.push(
       {
         x: 43.0,
         y: 32.0,
+         radius: 25,
         startTime: 32,
         endTime: 41,
         tag: "POINT 2 / 5 • TABLE D'OFFRANDES",
@@ -10966,6 +10968,7 @@ window.ART_OBJECTS.push(
       {
         x: 12.0,
         y: 40.0,
+         radius: 35,
         startTime: 42,
         endTime: 49,
         tag: "POINT 3 / 5 • SERVITEUR ET LOTUS",
@@ -10973,8 +10976,9 @@ window.ART_OBJECTS.push(
         desc: "Un serviteur s'avance pour offrir des fleurs de lotus et des papyrus symbolisant la régénération et la fraîcheur."
       },
       {
-        x: 65.0,
+        x: 75.0,
         y: 65.0,
+         radius: 30,
         startTime: 50,
         endTime: 65,
         tag: "POINT 4 / 5 • ATTRIBUTS SOUS LES SIÈGES",
@@ -10984,6 +10988,7 @@ window.ART_OBJECTS.push(
       {
         x: 60.0,
         y: 92.0,
+         radius: 25,
         startTime: 66,
         endTime: 75,
         tag: "POINT 5 / 5 • INVITÉS DU BANQUET",
