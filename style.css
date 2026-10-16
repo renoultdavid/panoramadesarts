@@ -2538,4 +2538,65 @@ body {
   color: #fff;
   background: rgba(255, 255, 255, 0.2);
 }
+/* Boutons de filtres et d'action Focus */
+.filter-field-focus-actions {
+  display: flex;
+  flex-direction: column;
+}
 
+.focus-action-buttons-row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  height: 40px; /* Aligné avec les sélecteurs voisins */
+}
+
+.btn-focus-filter {
+  flex: 1;
+  height: 100%;
+  background: rgba(212, 175, 55, 0.12);
+  border: 1px solid rgba(212, 175, 55, 0.5);
+  color: #f3e5ab;
+  border-radius: 6px;
+  font-family: 'Cinzel', serif;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  transition: all 0.2s ease;
+}
+
+.btn-focus-filter:hover, .btn-focus-filter.is-active {
+  background: #d4af37;
+  color: #111;
+  border-color: #fff;
+  box-shadow: 0 0 12px rgba(212, 175, 55, 0.4);
+}
+
+.btn-focus-dice {
+  width: 40px;
+  height: 100%;
+  background: rgba(212, 175, 55, 0.12);
+  border: 1px solid rgba(212, 175, 55, 0.5);
+  color: #f3e5ab;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.btn-focus-dice:hover {
+  background: #d4af37;
+  color: #111;
+  border-color: #fff;
+  transform: rotate(15deg) scale(1.05);
+  box-shadow: 0 0 12px rgba(212, 175, 55, 0.4);
+}
