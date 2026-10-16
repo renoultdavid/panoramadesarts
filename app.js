@@ -1875,7 +1875,13 @@ function showFocusOverview() {
 
   if (stageBox) stageBox.style.transform = "translate(0px, 0px) scale(1)";
   if (darkVeil) darkVeil.style.opacity = "0";
-  if (spotLens) spotLens.style.clipPath = "circle(0% at 50% 50%)";
+  
+  if (spotLens) {
+    spotLens.style.clipPath = "circle(0% at 50% 50%)";
+    spotLens.style.webkitMaskImage = "none";
+    spotLens.style.maskImage = "none";
+  }
+
   if (popupCard) popupCard.classList.remove('is-visible');
 
   bubbles.forEach(b => b.classList.remove('is-active'));
@@ -1913,8 +1919,10 @@ function activateFocusPoint(index) {
   stageBox.dataset.scale = zoomScale;
   stageBox.style.transform = `translate(${moveX}px, ${moveY}px) scale(${zoomScale})`;
 
-  // Découpe circulaire Spotlight
-  spotLens.style.clipPath = `circle(${pt.radius}% at ${pt.x}% ${pt.y}%)`;
+  // Grand halo lumineux avec dégradé progressif et visibilité parfaite
+  spotLens.style.clipPath = 'none';
+  spotLens.style.webkitMaskImage = `radial-gradient(circle 38% at ${pt.x}% ${pt.y}%, black 40%, transparent 100%)`;
+  spotLens.style.maskImage = `radial-gradient(circle 38% at ${pt.x}% ${pt.y}%, black 40%, transparent 100%)`;
   darkVeil.style.opacity = "0.88";
 
   // Effacer la pastille cliquée
