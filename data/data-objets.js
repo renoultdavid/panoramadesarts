@@ -14978,12 +14978,51 @@ window.ART_OBJECTS.push(
     category: "Orfèvrerie funéraire",
     isHighlight: true,
     themeLink: "https://photos.google.com/share/AF1QipMnn_CMAHk2s1w8_h2RauhjNNCt21MFWbRDPmz1Iwj3H9ZqQAAsXTaBKylKpOq-lg?key=SHZuTHVkNW9YZ2xleTl3bTZickotQWVsSnpSZkF3",
-    chips: ["Helladique Récent I", "Or repoussé", "Musée d'Athènes"],
+    chips: ["Helladique Récent I", "Or repoussé", "Cercle des tombes A", "Musée d'Athènes"],
     deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczPGPVemkhHQo3zxMthmyW5DikiQpTTsrv0U4LJ6UISDDrZFy45mQdZos6Gg-E4RKWIGenvHZ5uO_yxvfo1sBV0PTvktEP3l9BvBL1sJZAsYp0aet3LLJGPtq0F7QuWv4QGE5UTOKuwIeuLwFZ-IOW6bFg=w1980-h841-s-no-gm?authuser=0",
     imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOX6_L1RpUEunGm8YyrUo9ZQzDC90rr2xuMb2gJHiwrLtQAF34EvXnMey2ZoDh22NxKU1jrqQzN2S6jU8CJUSECSj_Du-BfMxjvHrXcj69AVM9LB3id3w-sPR_-MA_wKPTwunhvneWq8cqoqx1Z8fV51A=w1980-h1319-s-no-gm?authuser=0",
-    narrative: `<p>Le masque funéraire dit d'Agamemnon, conservé au Musée national archéologique d'Athènes, représente l'un des artefacts les plus emblématiques de la civilisation mycénienne. Découvert en 1876 par l'archéologue Heinrich Schliemann dans le Cercle des tombes A de Mycènes, cet objet d'apparat en or massif date environ de 1550 à 1500 avant notre ère. Bien que Schliemann ait cru identifier le visage du célèbre roi homérique de la guerre de Troie, les recherches modernes ont démontré que le masque appartient à une époque antérieure de trois siècles aux événements supposés de l'Iliade. Il reste néanmoins le témoignage le plus frappant de la richesse des élites guerrières de l'âge du Bronze en Grèce continentale.</p>
-    <p>L'objet a été façonné selon la technique du repoussé, consistant à marteler une fine feuille d'or par l'arrière pour faire apparaître les traits du visage en relief. Contrairement aux autres masques trouvés sur le même site, celui-ci se distingue par une individualisation marquée des traits qui suggère une volonté de portrait. On y observe des yeux clos en amande, un nez aquilin et une bouche aux lèvres serrées soulignée par une moustache aux pointes relevées. La présence d'une barbe finement ciselée et de sourcils épais confère au défunt une expression de majesté et de puissance, destinée à traverser l'éternité.</p>
-    <p>Ce masque n'était pas seulement une marque de prestige, mais remplissait une fonction rituelle précise en recouvrant le visage du souverain décédé pour préserver son identité dans l'au-delà. L'utilisation généreuse de l'or, métal inaltérable, symbolisait le statut divin ou héroïque du chef mycénien. Aujourd'hui encore, cette pièce demeure le symbole d'une Grèce archaïque à la fois brutale et raffinée, marquant le passage de la préhistoire à l'histoire européenne.</p>`
+    narrative: `
+      <p>Découvert en novembre 1876 par l'archéologue Heinrich Schliemann, il est daté de l'âge du Bronze récent, plus précisément de la période de l'Helladique Récent I (ou fin de l'époque mycénienne ancienne), vers la seconde moitié du XVIe siècle av. J.-C. (environ 1550 – 1500 av. J.-C.). Façonné à partir d'une épaisse feuille d'or pur battue au ciseau et martelée à chaud (technique du repoussé) sur une âme de bois ou directement sur le visage du défunt, ce chef-d'œuvre mesure environ 31 cm de hauteur pour une largeur de 32 cm, pesant près de 169 grammes.</p>
+      <p>Le visage est celui d'un homme mûr au front large, doté de traits fortement individualisés qui le distinguent nettement des autres masques funéraires plus stylisés découverts dans le même cercle de tombes. Les yeux sont représentés clos par des paupières amygdaliennes en relief, surmontées de sourcils arqués finement ciselés de hachures obliques régulières. Le nez est droit, long et étroit, s'inscrivant dans la continuité directe des arcades sourcilières. La bouche, aux lèvres minces et fermées, esquisse un léger sourire énigmatique. Les détails de la pilosité faciale sont particulièrement soignés : le personnage porte une moustache aux extrémités retroussées en boudin ainsi qu'une barbe pointue et fournie, entièrement structurée par des incisions parallèles verticales. Les oreilles, détachées en relief sur les côtés et percées de minuscules orifices à leur base, suggèrent qu'un fil ou un lien permettait de maintenir solidement le masque sur le visage ou le suaire du roi défunt.</p>
+      <p>Lorsque Schliemann mit au jour cette sépulture princière au fond d'un puits funéraire, l'enthousiasme romantique du découvreur l'amena à s'écrier qu'il venait de « contempler le visage d'Agamemnon », le roi des rois de l'épopée homérique qui mena la flotte achéenne devant Troie. Bien que les analyses radiocarbone et stylistiques aient démontré que ce masque est antérieur d'environ trois à quatre siècles à la guerre de Troie mythique (située traditionnellement vers la fin du XIIIe siècle av. J.-C.), le nom prestigieux est resté attaché à l'œuvre. Témoignage exceptionnel de la puissance et de la richesse des wanakes (souverains) mycéniens à l'aube de leur civilisation, ce masque servait à honorer un chef de guerre de haut rang, à protéger son identité dans l'au-delà et à affirmer le statut divin ou héroïque de sa dynastie à travers l'éclat incorruptible de l'or.</p>
+    `,
+    hotspots: [
+      {
+        x: 48.0,
+        y: 28.0,
+        tag: "POINT 1 / 5 • FRONT & SOURCILS",
+        title: "La ciselure des arcades sourcilières",
+        desc: "Le front large est surmonté de sourcils arqués d'une grande finesse, texturés par des hachures obliques régulières qui traduisent le réalisme recherché par l'orfèvre mycénien."
+      },
+      {
+        x: 48.0,
+        y: 43.5,
+        tag: "POINT 2 / 5 • YEUX CLOS",
+        title: "Le regard voilé de la mort",
+        desc: "Les yeux sont représentés fermés par des paupières amygdaliennes modelées en relief prononcé, marquant le passage du souverain vers le monde du silence et de l'éternité."
+      },
+      {
+        x: 50.0,
+        y: 54.0,
+        tag: "POINT 3 / 5 • LE NEZ DROIT",
+        title: "La cloison nasale et l'arête",
+        desc: "Le nez, long et droit, s'inscrit dans un prolongement anatomique rigoureux issu des arcades sourcilières, conférant au profil une stature noble et autoritaire."
+      },
+      {
+        x: 50.0,
+        y: 69.0,
+        tag: "POINT 4 / 5 • MOUSTACHE RETROUSSÉE",
+        title: "La pilosité des lèvres",
+        desc: "La bouche aux lèvres minces est encadrée par une moustache opulente aux extrémités soigneusement retroussées en boudin, attribut distinctif d'un chef de guerre de haut rang."
+      },
+      {
+        x: 50.0,
+        y: 84.0,
+        tag: "POINT 5 / 5 • BARBE STRUCTURÉE",
+        title: "La ciselure de la barbe",
+        desc: "La barbe pointue et fournie est entièrement structurée par de fines incisions verticales parallèles, capturant la lumière de l'or pur martelé au repoussé."
+      }
+    ]
   },
   {
     id: "rhyton_sanglier_ougarit",
@@ -15003,12 +15042,51 @@ window.ART_OBJECTS.push(
     category: "Céramique rituelle",
     isHighlight: true,
     themeLink: "https://photos.google.com/share/AF1QipMnn_CMAHk2s1w8_h2RauhjNNCt21MFWbRDPmz1Iwj3H9ZqQAAsXTaBKylKpOq-lg?key=SHZuTHVkNW9YZ2xleTl3bTZickotQWVsSnpSZkF3",
-    chips: ["Helladique Récent III", "Terre cuite peinte", "Exportation levantine"],
+    chips: ["Helladique Récent III", "Terre cuite peinte", "Exportation levantine", "Musée du Louvre"],
     deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczPGPVemkhHQo3zxMthmyW5DikiQpTTsrv0U4LJ6UISDDrZFy45mQdZos6Gg-E4RKWIGenvHZ5uO_yxvfo1sBV0PTvktEP3l9BvBL1sJZAsYp0aet3LLJGPtq0F7QuWv4QGE5UTOKuwIeuLwFZ-IOW6bFg=w1980-h841-s-no-gm?authuser=0",
     imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMyJRm3TsTCyB6bjlmPiCmXbJXH5jnzXFFvBBicXSQKrlc3wDAsgmA7RHgdKB5Yll-y9ONkQq2RDt4sSrvuA2yGjvwvwRLHIotqfTKO3FIKHLcIFu0SlnfEt2uQLjMTRJaMyWjlq9ShokV7Rke_EWHsbQ=w1818-h2416-s-no-gm?authuser=0",
-    narrative: `<p>Cette pièce exceptionnelle est un rhyton zoomorphe, un vase à libation caractéristique des productions céramiques de l'âge du Bronze récent. Modelé en terre cuite, il prend la forme d'une tête de sanglier dont le réalisme morphologique est frappant. L'animal est représenté avec un groin allongé, des oreilles dressées vers l'arrière et des yeux figurés par de légers reliefs circulaires. La structure même de l'objet répond à une fonction rituelle précise : le liquide était versé par une ouverture située sur le sommet de la tête ou à l'arrière, pour être ensuite libéré par le groin percé lors des cérémonies de l'élite mycénienne ou des populations locales influencées par leurs codes esthétiques.</p>
-    <p>Le décor peint à l'ocre rouge sur un fond crème témoigne de la virtuosité des peintres de cette période. Plutôt que de chercher à reproduire le pelage de l'animal de manière naturaliste, l'artiste a recouvert la surface de motifs géométriques et floraux stylisés. On y distingue des chevrons, des pointillés et surtout des motifs de palmettes et de volutes qui épousent les courbes de la tête. Cette décoration dense, presque hypnotique, souligne les volumes de la pièce tout en lui conférant un aspect précieux. Ce style iconographique est typique du Helladique Récent III, période durant laquelle les modèles mycéniens s'exportaient largement à travers le bassin méditerranéen, notamment vers les grands ports de commerce comme Ougarit.</p>
-    <p>Découvert à Ras Shamra, l'ancienne Ougarit située sur la côte syrienne, cet objet illustre parfaitement l'intensité des échanges culturels et commerciaux entre le monde égéen et le Levant à la fin du IIe millénaire avant notre ère. Bien que de facture mycénienne, sa présence dans une tombe ou dans les quartiers de la ville basse de Ras Shamra suggère que les élites locales avaient adopté certains usages de table ou de culte grecs, ou appréciaient tout simplement l'exotisme et la qualité de ces importations. Ce rhyton est un témoin majeur de la koinè méditerranéenne, ce mélange de styles et de traditions qui caractérise l'apogée des civilisations de l'âge du Bronze.</p>`
+    narrative: `
+      <p>Cette pièce exceptionnelle est un rhyton zoomorphe, un vase à libation caractéristique des productions céramiques de l'âge du Bronze récent. Modelé en terre cuite, il prend la forme d'une tête de sanglier dont le réalisme morphologique est frappant. L'animal est représenté avec un groin allongé, des oreilles dressées vers l'arrière et des yeux figurés par de légers reliefs circulaires. La structure même de l'objet répond à une fonction rituelle précise : le liquide était versé par une ouverture située sur le sommet de la tête ou à l'arrière, pour être ensuite libéré par le groin percé lors des cérémonies de l'élite mycénienne ou des populations locales influencées par leurs codes esthétiques.</p>
+      <p>Le décor peint à l'ocre rouge sur un fond crème témoigne de la virtuosité des peintres de cette période. Plutôt que de chercher à reproduire le pelage de l'animal de manière naturaliste, l'artiste a recouvert la surface de motifs géométriques et floraux stylisés. On y distingue des chevrons, des pointillés et surtout des motifs de palmettes et de volutes qui épousent les courbes de la tête. Cette décoration dense, presque hypnotique, souligne les volumes de la pièce tout en lui conférant un aspect précieux. Ce style iconographique est typique du Helladique Récent III, période durant laquelle les modèles mycéniens s'exportaient largement à travers le bassin méditerranéen, notamment vers les grands ports de commerce comme Ougarit.</p>
+      <p>Découvert à Ras Shamra, l'ancienne Ougarit située sur la côte syrienne, cet objet illustre parfaitement l'intensité des échanges culturels et commerciaux entre le monde égéen et le Levant à la fin du IIe millénaire avant notre ère. Bien que de facture mycénienne, sa présence dans une tombe ou dans les quartiers de la ville basse de Ras Shamra suggère que les élites locales avaient adopté certains usages de table ou de culte grecs, ou appréciaient tout simplement l'exotisme et la qualité de ces importations. Ce rhyton est un témoin majeur de la koinè méditerranéenne, ce mélange de styles et de traditions qui caractérise l'apogée des civilisations de l'âge du Bronze.</p>
+    `,
+    hotspots: [
+      {
+        x: 18.0,
+        y: 61.5,
+        tag: "POINT 1 / 5 • GROIN PERCÉ",
+        title: "L'orifice d'écoulement rituel",
+        desc: "Le mufle allongé du sanglier est percé à son extrémité d'un petit orifice permettant de libérer un filet continu de liquide précieux (vin ou sang sacrificiel) lors des libations cultuelles."
+      },
+      {
+        x: 39.5,
+        y: 43.5,
+        tag: "POINT 2 / 5 • ŒIL STYLISÉ",
+        title: "Le relief orbitaire",
+        desc: "L'œil de l'animal est modelé en léger relief circulaire et mis en valeur par un réseau de lignes peintes à l'ocre rouge qui accentuent l'expressivité de la tête."
+      },
+      {
+        x: 48.0,
+        y: 28.0,
+        tag: "POINT 3 / 5 • OREILLE DRESSÉE",
+        title: "Le pavillon auriculaire",
+        desc: "L'oreille, rejetée vers l'arrière dans une attitude d'attention, est entièrement recouverte de hachures et de motifs géométriques stylisés épousant la courbure du cartilage."
+      },
+      {
+        x: 58.0,
+        y: 35.5,
+        tag: "POINT 4 / 5 • DÉCORS DE PALMETTES",
+        title: "La frise florale et géométrique",
+        desc: "La surface de la céramique est rythmée par des motifs de palmettes rayonnantes, de volutes et de chevrons qui habillent les joues du sanglier sans imiter un pelage réaliste."
+      },
+      {
+        x: 82.0,
+        y: 34.0,
+        tag: "POINT 5 / 5 • CALOTTE DU CRANE",
+        title: "L'ouverture de remplissage",
+        desc: "L'arrière du crâne globuleux abritait l'embouchure principale permettant de remplir le vase avant de procéder aux rituels de libation."
+      }
+    ]
   },
   {
     id: "mobilier_funeraire_mycenes",
