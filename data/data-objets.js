@@ -11172,14 +11172,53 @@ window.ART_OBJECTS.push(
     currentLocation: "In situ (Tombe KV9, Vallée des Rois)",
     category: "Bas-relief polychrome funéraire",
     isHighlight: false,
-    chips: ["XXe dynastie", "Ramsès VI", "Tombe KV9", "Cartouches d'or"],
+    chips: ["XXe dynastie", "Ramsès VI", "Tombe KV9", "Cartouches d'or", "Vallée des Rois"],
     deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
     imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMs_5OaJPIPUGVAqkrEaq-3oOOzYPu0V82VpEulqMknsiVdfvOB_vl0xpbqlR7Z1j8T2_iHVY5SqJUZwd5OKCifYx_NUHEZOw4CMS_9KpqOZBlOE_raV5MOZd-1T46-PSPbr4FphQ6UFZEoYhFzwdyDWw=w1379-h919-s-no-gm?authuser=0",
-    narrative: `<p>Cette nouvelle paroi provient de la tombe commune de Ramsès V et Ramsès VI (KV9), située également dans la Vallée des Rois. Ce monument, souvent considéré comme l'un des plus spectaculaires de la nécropole, se distingue par la saturation extraordinaire de ses décors. Ici, les registres de hiéroglyphes ne sont plus seulement des textes, mais de véritables frises graphiques où la répétition des cartouches royaux crée un motif hypnotique, affirmant la légitimité et la protection divine du souverain à travers les âges.</p>
-    <p>L'œuvre présente une alternance rigoureuse de noms royaux inscrits dans des cartouches sur fond jaune d'or, symbolisant l'immortalité. On y reconnaît notamment le nom de couronnement Nebmaâtrê-meryamoun (Ramsès VI). La densité des signes est caractéristique de la fin de l'époque ramesside, où chaque centimètre carré de la paroi est investi pour conjurer les forces du chaos. La finesse de la gravure, soulignée par une polychromie restée extrêmement vive, témoigne d'un chantier qui a duré près de six ans, utilisant les textes du Livre des Portes et du Livre de la Terre.</p>
-    <p>Contrairement à la tombe de Ramsès IV, le style ici se fait plus compact et les contrastes de couleurs plus marqués. Les hiéroglyphes sont exécutés avec une précision presque calligraphique : les rouges terreux, les bleus profonds et les blancs de chaux s'équilibrent pour guider l'œil à travers les récits cosmogoniques. Cette paroi illustre parfaitement la fonction "incantatoire" de l'art égyptien : l'écrit n'est pas fait pour être lu par les vivants, mais pour vibrer éternellement dans la pierre et accompagner le roi dans sa fusion avec le dieu solaire.</p>
-    <p>La présence répétée des figures de divinités agenouillées au-dessus des cartouches renforce la dimension rituelle de la scène. Elles semblent porter et protéger le nom du roi, assurant la survie de son Ren (le nom), l'un des composants essentiels de l'âme égyptienne. Cet ensemble monumental, par sa perfection technique et sa richesse théologique, demeure l'un des plus hauts témoignages de la pensée religieuse de la XXe dynastie, transformant la chambre funéraire en un véritable temple de la connaissance ésotérique.</p>
-    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1140) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Tombes & Rituels.</p>`
+    narrative: `
+      <p>Cette nouvelle paroi provient de la tombe commune de Ramsès V et Ramsès VI (KV9), située également dans la Vallée des Rois. Ce monument, souvent considéré comme l'un des plus spectaculaires de la nécropole, se distingue par la saturation extraordinaire de ses décors. Ici, les registres de hiéroglyphes ne sont plus seulement des textes, mais de véritables frises graphiques où la répétition des cartouches royaux crée un motif hypnotique, affirmant la légitimité et la protection divine du souverain à travers les âges.</p>
+      <p>L'œuvre présente une alternance rigoureuse de noms royaux inscrits dans des cartouches sur fond jaune d'or, symbolisant l'immortalité. On y reconnaît notamment le nom de couronnement Nebmaâtrê-meryamoun (Ramsès VI). La densité des signes est caractéristique de la fin de l'époque ramesside, où chaque centimètre carré de la paroi est investi pour conjurer les forces du chaos. La finesse de la gravure, soulignée par une polychromie restée extrêmement vive, témoigne d'un chantier qui a duré près de six ans, utilisant les textes du Livre des Portes et du Livre de la Terre.</p>
+      <p>Contrairement à la tombe de Ramsès IV, le style ici se fait plus compact et les contrastes de couleurs plus marqués. Les hiéroglyphes sont exécutés avec une précision presque calligraphique : les rouges terreux, les bleus profonds et les blancs de chaux s'équilibrent pour guider l'œil à travers les récits cosmogoniques. Cette paroi illustre parfaitement la fonction "incantatoire" de l'art égyptien : l'écrit n'est pas fait pour être lu par les vivants, mais pour vibrer éternellement dans la pierre et accompagner le roi dans sa fusion avec le dieu solaire.</p>
+      <p>La présence répétée des figures de divinités agenouillées au-dessus des cartouches renforce la dimension rituelle de la scène. Elles semblent porter et protéger le nom du roi, assurant la survie de son Ren (le nom), l'un des composants essentiels de l'âme égyptienne. Cet ensemble monumental, par sa perfection technique et sa richesse théologique, demeure l'un des plus hauts témoignages de la pensée religieuse de la XXe dynastie, transformant la chambre funéraire en un véritable temple de la connaissance ésotérique.</p>
+      <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1140) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Tombes & Rituels.</p>
+    `,
+    hotspots: [
+      {
+        x: 35.0,
+        y: 28.5,
+        tag: "POINT 1 / 5 • FRISE DES CARTOUCHES",
+        title: "La répétition rythmée des noms royaux",
+        desc: "Les cartouches s'alignent en colonnes serrées sur un fond ocre doré, multipliant à l'infini la présence magique du souverain."
+      },
+      {
+        x: 18.0,
+        y: 75.0,
+        tag: "POINT 2 / 5 • HIÉROGLYPHES POLYCHROMES",
+        title: "La précision calligraphique",
+        desc: "Les signes hiéroglyphiques (canards, bras, vases et sceptres) sont sculptés et peints avec une minutie remarquable, associant bleu égyptien, rouge terreux et ocre."
+      },
+      {
+        x: 52.0,
+        y: 42.0,
+        tag: "POINT 3 / 5 • NOM DE COURONNEMENT",
+        title: "Le cartouche de Nebmaâtrê",
+        desc: "Chaque ovale royal abrite la titulature officielle de Ramsès VI, placée sous la protection directe des divinités hélipolitaines."
+      },
+      {
+        x: 75.0,
+        y: 50.0,
+        tag: "POINT 4 / 5 • REGISTRES TEXTUELS",
+        title: "Les formules du Livre des Portes",
+        desc: "Les colonnes textuelles adjacentes déroulent les incantations funéraires destinées à guider le pharaon dans son voyage nocturne à travers l'au-delà."
+      },
+      {
+        x: 25.0,
+        y: 24.0,
+        tag: "POINT 5 / 5 • PROTECTION DIVINE",
+        title: "Les figures agenouillées et symboles",
+        desc: "Les motifs surmontant les cartouches agissent comme des talismans éternels garantissant l'intégrité de l'âme (le Ren) du roi défunt."
+      }
+    ]
   },
   {
     id: "stele_offrande_saite_musee_imhotep",
