@@ -982,36 +982,46 @@ window.ART_OBJECTS.push(
     chips: ["XVIIIe dynastie", "Sobek", "Amenhotep III", "Dahmasha", "Albâtre calcite", "Couronne Hemhem", "Signe Ânkh", "Musée de Louxor"],
     deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
     imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPeMX08kvjyPFde65CIR3Vkfz3am1YW-04PEaY5d2IvkiYTJxrEqT5o0nLNNSUbNSo8vwSce5wBbn0w58vfoxr7eLM6fMmOx0fWErbkwIfDBTfaAZMhk0Ns07LTBgKfZ4CBXI5RNUGaqYcMhPhtA7bJQQ=w1611-h2416-s-no-gm?authuser=0",
-    hotspots: [
+   hotspots: [
       {
-        x: 54, y: 16, radius: 8,
+        x: 54,
+        y: 16,
+        radius: 10,
         tag: "POINT 1 / 5 • ATTRIBUT DIVIN ET SOLAIRE",
         title: "La complexe couronne Hemhem de Sobek",
-        desc: "Sobek coiffe une impressionnante couronne hemhem..."
+        desc: "Sobek coiffe une impressionnante couronne hemhem, constituée de trois bouquets de papyrus disposés sur des cornes de bélier, flanqués de plumes et d'uraeus. Elle incarne la puissance solaire, la souveraineté cosmique et la régénération divine."
       },
       {
-        x: 37, y: 38, radius: 8,
+        x: 37,
+        y: 38,
+        radius: 10,
         tag: "POINT 2 / 5 • PUISSANCE DU NIL",
         title: "La tête de crocodile et la perruque tripartite",
-        desc: "La divinité associée aux crues bienfaitrices..."
+        desc: "La divinité associée aux crues bienfaitrices du Nil présente une tête de crocodile réaliste surmontant une perruque tripartite. Le modelé de la mâchoire et des écailles traduit la virtuosité des sculpteurs de la XVIIIe dynastie."
       },
       {
-        x: 76, y: 37, radius: 8,
+        x: 76,
+        y: 37,
+        radius: 10,
         tag: "POINT 3 / 5 • MAJESTÉ ROYALE",
         title: "Le némès et la sérénité d'Amenhotep III",
-        desc: "Le pharaon porte le némès plissé..."
+        desc: "Le pharaon porte le némès plissé surmonté de l'uraeus royal. Son visage aux traits harmonieux, idéalisés dans la force de l'âge, illustre l'esthétique raffinée du 'Pharaon Magnifique' au zénith de l'Empire."
       },
       {
-        x: 54, y: 53, radius: 8,
+        x: 54,
+        y: 53,
+        radius: 10,
         tag: "POINT 4 / 5 • COMMUNION SACRÉE",
         title: "La transmission du signe de vie Ânkh",
-        desc: "D'un geste protecteur et intime..."
+        desc: "D'un geste protecteur et intime, le dieu approche le signe de vie éternelle (ânkh) du visage du roi. Ce contact direct scelle l'alliance entre le divin et le souverain, garantissant l'immortalité de son règne."
       },
       {
-        x: 54, y: 78, radius: 10,
+        x: 54,
+        y: 78,
+        radius: 12,
         tag: "POINT 5 / 5 • MATÉRIAU ET LUMIÉRANCE",
         title: "L'albâtre calcite et le trône cubique",
-        desc: "Sculpté dans un albâtre calcite translucide..."
+        desc: "Sculpté dans un albâtre calcite translucide, le groupe statuaire profite de la clarté de la pierre pour accrocher la lumière. Les deux figures partagent un unique trône cubique, symbole de l'ordre cosmique (la Maât) et de l'union sacrée."
       }
     ],
     narrative: `<p>Cette magnifique statue en albâtre calcite représente le dieu crocodile Sobek aux côtés du pharaon Amenhotep III. Découverte en 1967 dans une cachette au sein du temple de Sobek à Dahmasha, près d'Armant, elle constitue l'un des chefs-d'œuvre les plus emblématiques du Musée de Louxor. L'œuvre témoigne de la maîtrise artistique exceptionnelle de la XVIIIe dynastie, vers 1403-1365 avant J.-C., illustrant le lien sacré unissant le souverain terrestre à la divinité.</p>
