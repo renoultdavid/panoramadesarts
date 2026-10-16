@@ -15124,13 +15124,52 @@ window.ART_OBJECTS.push(
     category: "Orfèvrerie & Toreutique",
     isHighlight: true,
     themeLink: "https://photos.google.com/share/AF1QipMnn_CMAHk2s1w8_h2RauhjNNCt21MFWbRDPmz1Iwj3H9ZqQAAsXTaBKylKpOq-lg?key=SHZuTHVkNW9YZ2xleTl3bTZickotQWVsSnpSZkF3",
-    chips: ["XVIe s. av. J.-C.", "Argent martelé & Or", "Cercle A"],
+    chips: ["XVIe s. av. J.-C.", "Argent martelé & Or", "Cercle A", "Musée d'Athènes"],
     deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczPGPVemkhHQo3zxMthmyW5DikiQpTTsrv0U4LJ6UISDDrZFy45mQdZos6Gg-E4RKWIGenvHZ5uO_yxvfo1sBV0PTvktEP3l9BvBL1sJZAsYp0aet3LLJGPtq0F7QuWv4QGE5UTOKuwIeuLwFZ-IOW6bFg=w1980-h841-s-no-gm?authuser=0",
     imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNC48vyDTWFqo6tHn6s40MiBoLhVkmdRTd2-LZd3Ib350RaKpBtQd776St6h5n3iEW-FsCscSFfWtuXeePFu5g7u8oj02Vbbwty4R3Y6QE6aKtNCRSr8SM-A05UZNBJ5ANtul0n4c0DNDKmBWAefcIL0w=w2749-h1832-s-no-gm?authuser=0",
-    narrative: `<p>Ce rhyton en forme de tête de taureau, daté d'environ 1600 avant notre ère, est l'un des objets rituels les plus emblématiques exhumés du cercle funéraire A de Mycènes par Heinrich Schliemann. Ce vase à libations témoigne de l'influence esthétique et religieuse considérable de la civilisation minoenne de Crète sur les élites mycéniennes du continent. Fabriqué à partir d'une feuille d'argent martelée pour le museau et le crâne, il est rehaussé de cornes en bois plaquées d'or, créant un contraste de matériaux particulièrement luxueux. Une rosette en or, symbole solaire ou floral fréquent dans l'iconographie de l'époque, orne le front de l'animal, soulignant son caractère sacré et royal.</p>
-    <p>En tant que rhyton, cet objet n'était pas un simple récipient décoratif, mais un instrument liturgique utilisé lors de cérémonies religieuses ou de banquets funéraires. Le liquide, probablement du vin ou de l'huile, était versé par une ouverture située sur la nuque du taureau et s'écoulait par un petit orifice percé dans le museau. Ce mouvement rituel symbolisait peut-être le sacrifice de l'animal ou la transmission de sa force vitale. Le taureau, figure centrale du panthéon égéen, incarne ici la puissance brute, la fertilité et l'autorité, des thèmes chers aux chefs guerriers enterrés à Mycènes qui cherchaient à s'approprier les codes de prestige crétois.</p>
-    <p>L'exécution artistique de la pièce révèle un sens aigu de l'observation naturaliste, malgré l'utilisation de métaux précieux. Le rendu du museau doré et les détails des oreilles et des yeux confèrent à l'objet une présence presque vivante. Bien que l'argent se soit oxydé avec le temps, prenant une teinte sombre, l'éclat originel du métal associé à la brillance de l'or devait produire un effet saisissant à la lumière des torches. La présence d'un tel objet dans une tombe à fosse confirme non seulement la richesse des défunts, mais aussi l'existence de réseaux d'échanges sophistiqués à travers la mer Égée, où les artisans fusionnaient les styles pour répondre aux commandes de la nouvelle aristocratie mycénienne.</p>
-    <p>Exposé au Musée national archéologique d'Athènes, ce rhyton demeure une pièce clé pour l'étude des pratiques de libation et du symbolisme animalier à l'âge du Bronze. Il illustre la transition culturelle majeure où Mycènes, tout en forgeant sa propre identité de guerrière, adopte et adapte les raffinements artistiques de la Crète palatiale. Sa conservation exceptionnelle permet d'apprécier la maîtrise de la toreutique (l'art de travailler le métal) et la place prépondérante du taureau dans l'imaginaire collectif pré-hellénique, faisant de cet objet un lien direct avec les mythes fondateurs de la Grèce antique.</p>`
+    narrative: `
+      <p>Ce rhyton en forme de tête de taureau, daté d'environ 1600 avant notre ère, est l'un des objets rituels les plus emblématiques exhumés du cercle funéraire A de Mycènes par Heinrich Schliemann. Ce vase à libations témoigne de l'influence esthétique et religieuse considérable de la civilisation minoenne de Crète sur les élites mycéniennes du continent. Fabriqué à partir d'une feuille d'argent martelée pour le museau et le crâne, il est rehaussé de cornes en bois plaquées d'or, créant un contraste de matériaux particulièrement luxueux. Une rosette en or, symbole solaire ou floral fréquent dans l'iconographie de l'époque, orne le front de l'animal, soulignant son caractère sacré et royal.</p>
+      <p>En tant que rhyton, cet objet n'était pas un simple récipient décoratif, mais un instrument liturgique utilisé lors de cérémonies religieuses ou de banquets funéraires. Le liquide, probablement du vin ou de l'huile, était versé par une ouverture située sur la nuque du taureau et s'écoulait par un petit orifice percé dans le museau. Ce mouvement rituel symbolisait peut-être le sacrifice de l'animal ou la transmission de sa force vitale. Le taureau, figure centrale du panthéon égéen, incarne ici la puissance brute, la fertilité et l'autorité, des thèmes chers aux chefs guerriers enterrés à Mycènes qui cherchaient à s'approprier les codes de prestige crétois.</p>
+      <p>L'exécution artistique de la pièce révèle un sens aigu de l'observation naturaliste, malgré l'utilisation de métaux précieux. Le rendu du museau doré et les détails des oreilles et des yeux confèrent à l'objet une présence presque vivante. Bien que l'argent se soit oxydé avec le temps, prenant une teinte sombre, l'éclat originel du métal associé à la brillance de l'or devait produire un effet saisissant à la lumière des torches. La présence d'un tel objet dans une tombe à fosse confirme non seulement la richesse des défunts, mais aussi l'existence de réseaux d'échanges sophistiqués à travers la mer Égée, où les artisans fusionnaient les styles pour répondre aux commandes de la nouvelle aristocratie mycénienne.</p>
+      <p>Exposé au Musée national archéologique d'Athènes, ce rhyton demeure une pièce clé pour l'étude des pratiques de libation et du symbolisme animalier à l'âge du Bronze. Il illustre la transition culturelle majeure où Mycènes, tout en forgeant sa propre identité de guerrière, adopte et adapte les raffinements artistiques de la Crète palatiale. Sa conservation exceptionnelle permet d'apprécier la maîtrise de la toreutique (l'art de travailler le métal) et la place prépondérante du taureau dans l'imaginaire collectif pré-hellénique, faisant de cet objet un lien direct avec les mythes fondateurs de la Grèce antique.</p>
+    `,
+    hotspots: [
+      {
+        x: 50.0,
+        y: 24.5,
+        tag: "POINT 1 / 5 • CORNES EN OR",
+        title: "La majesté des cornes dressées",
+        desc: "Les longues cornes arquées, façonnées en bois et entièrement revêtues d'une fine feuille d'or, confèrent à l'animal une stature monumentale et hiératique."
+      },
+      {
+        x: 48.0,
+        y: 57.0,
+        tag: "POINT 2 / 5 • ROSETTE FRONTALE",
+        title: "L'emblème solaire en or",
+        desc: "Une somptueuse rosette florale en or étincelle au centre du front, marquant le caractère sacré, solaire ou royal attribué à la bête sacrificielle."
+      },
+      {
+        x: 37.0,
+        y: 58.5,
+        tag: "POINT 3 / 5 • OREILLES MODELÉES",
+        title: "Le pavillon auriculaire",
+        desc: "L'oreille gauche, finement détachée et texturée, restitue avec un réalisme saisissant l'anatomie attentive du bovidé."
+      },
+      {
+        x: 50.0,
+        y: 71.0,
+        tag: "POINT 4 / 5 • CRÂNE EN ARGENT",
+        title: "La toreutique de l'argent martelé",
+        desc: "La boîte crânienne est façonnée à partir d'une feuille d'argent martelée au repoussé, dont la patine sombre actuelle trahit l'oxydation millénaire du métal."
+      },
+      {
+        x: 50.0,
+        y: 93.0,
+        tag: "POINT 5 / 5 • GROIN ET ORIFICE",
+        title: "Le mufle doré et le déversoir",
+        desc: "Le museau et les naseaux, soulignés d'or, encadrent l'orifice inférieur par lequel s'écoulait le vin ou le sang lors des libations rituelles."
+      }
+    ]
   },
   {
     id: "dame_de_mycenes",
