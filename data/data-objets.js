@@ -13375,27 +13375,72 @@ window.ART_OBJECTS.push(
     <p><strong>Siècle :</strong> XIVe siècle av. J.-C. | <strong>Civilisation :</strong> Monde égéen (Crète minoenne) | <strong>Sous-partie :</strong> Céramiques.</p>`
   },
    {
-    id: "oenochoe_bichrome_oiseau_louvre",
+    id: "cratere_pastoral_taureau_arpera_louvre",
     civId: "chypre",
-    periodId: "chypre_fer",
-    civName: "Chypre & Méditerranée orientale",
-    century: "v. -750 à -600 av. J.-C. (Chypro-Archaïque I)",
-    centuryDisplay: "v. -700 av. J.-C.",
-    centuryNumeric: -700,
+    periodId: "chypre_bronze",
+    civName: "Art Chypriote (Âge du Bronze & Archaïque)",
+    century: "Fin XIIIe s. av. J.-C. (vers -1230 à -1150 av. J.-C.)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1200,
     domain: "ceramique",
-    artifactType: "Oenochoé",
-    title: "Œnochoé bichrome à décor d'oiseau en champ libre",
-    site: "Musée du Louvre (Paris / prov. Chypre)",
-    originSite: "Chypre (région de Salamine)",
+    artifactType: "Cratère",
+    title: "Cratère au taureau et aux palmiers en style pastoral (AM 678)",
+    site: "Musée du Louvre (Paris / prov. Arpera)",
+    originSite: "Arpera (près de Larnaca, Chypre)",
     locationType: "museum",
-    currentLocation: "Musée du Louvre (Paris)",
-    category: "Céramique fine",
+    currentLocation: "Musée du Louvre (Paris, inv. AM 678)",
+    category: "Céramique & Vases",
     isHighlight: true,
-    chips: ["Époque archaïque", "Style Bichrome IV", "Champ libre (free-field)", "Musée du Louvre"],
+    chips: ["Bronze Récent", "Style Pastoral (Rude Style)", "Cratère en cloche", "Taureau", "Musée du Louvre"],
     deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w1843-h781-s-no-gm?authuser=0",
     imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczM9OEgAeNH7UgSFYmhHJWcRo-u-_PheFUSI-t8FhehQDHsNC0-mlZOC50dTuipvZYgwA0oJe8GquQjU1pnfhaQ174RQARF4UhipA0Gl-pVrPb3UOA2N6rgNKH8t98bFrjBqL3G0uayUMB9T28oh2vh4Bw=w1818-h2416-s-no-gm?authuser=0",
-    narrative: `<p>Ce vase chypriote, une œnochoé à embouchure trilobée, est un exemple remarquable de la céramique de style Bichrome IV, caractéristique de l'époque archaïque. Son décor appartient au « style franc » (free-field style), une technique où l'artisan s'affranchit des registres horizontaux rigides pour laisser la figure principale occuper librement la panse du vase. Le motif central représente un oiseau stylisé, traité avec une grande vivacité graphique : le corps est orné de motifs géométriques internes, tandis que les ailes déployées et les pattes fines soulignent le dynamisme de la silhouette. L'usage alterné de pigments rouges et noirs sur l'engobe clair crée un contraste chromatique équilibré, typique des ateliers de l'est de l'île, notamment ceux de la région de Salamine.</p>
-    <p>L'oiseau, souvent associé à des éléments végétaux comme la fleur de lotus stylisée visible ici, témoigne d'une influence orientale réinterprétée avec une sensibilité locale unique. La forme du vase, avec sa panse globulaire et son col court, servait initialement au service du vin, mais sa richesse décorative en faisait un objet de prestige, fréquemment utilisé comme offrande funéraire. Cette pièce illustre parfaitement le génie des potiers chypriotes qui ont su fusionner les apports des cultures voisines méditerranéennes pour créer un art narratif et symbolique original, marqué par une grande liberté d'expression et une maîtrise technique de la peinture sur argile.</p>`
+    hotspots: [
+      {
+        x: 82,
+        y: 56,
+        radius: 8,
+        tag: "POINT 1 / 5 • TÊTE ET ATTITUDE",
+        title: "La tête baissée et les cornes arquées",
+        desc: "La tête du bovidé est peinte en silhouette sombre et inclinée vers le sol dans une attitude de pâture ou de charge. L'œil circulaire est réservé en clair et les longues cornes pointent vigoureusement vers l'avant."
+      },
+      {
+        x: 75,
+        y: 49,
+        radius: 9,
+        tag: "POINT 2 / 5 • ENCOLURE MOUCHETÉE",
+        title: "L'avant-train ponctué de rosettes",
+        desc: "L'avant-train puissamment arqué est délimité par des contours épais et rythmé d'un semis régulier de rosettes pointillées, convention décorative emblématique des peintres de vases du style pastoral chypriote."
+      },
+      {
+        x: 56,
+        y: 53,
+        radius: 8,
+        tag: "POINT 3 / 5 • FLANC FESTONNÉ",
+        title: "Le flanc central aux doubles festons",
+        desc: "Le compartiment central du corps est bordé dorsalement et ventralement par des doubles écailles festonnées. Il est traversé à mi-hauteur par une ligne continue de points et d'anneaux géométriques."
+      },
+      {
+        x: 34,
+        y: 54,
+        radius: 9,
+        tag: "POINT 4 / 5 • CROUPE ET CROIX POINTILLÉE",
+        title: "L'arrière-train à la grande croix étoilée",
+        desc: "La croupe rebondie est ornée d'une grande croix formée de lignes de pointillés denses. Au-dessus, la longue queue repliée sur l'échine se termine par un toupet foliacé en chevrons."
+      },
+      {
+        x: 12,
+        y: 46,
+        radius: 8,
+        tag: "POINT 5 / 5 • VÉGÉTATION ET HORREUR DU VIDE",
+        title: "Les palmiers stylisés et motifs de remplissage",
+        desc: "En arrière du bovidé se dressent deux palmiers stylisés aux palmes recourbées d'inspiration syro-levantine, accompagnés de losanges réticulés flottant dans le champ du décor."
+      }
+    ],
+    narrative: `<p>Conservé au musée du Louvre à Paris, au sein du département des Antiquités orientales (aile Sully, salle 300 consacrée au Levant et à Chypre à l'âge du Bronze), ce cratère porte le numéro d'inventaire AM 678. Il provient du site d'Arpera (près de Larnaca), sur la côte sud-est de l'île de Chypre, et a intégré les collections nationales à la fin du XIXe siècle. Cette œuvre céramique est datée de la fin de l'âge du Bronze récent, plus précisément de la période du Chypriote Récent IIC ou IIIA (correspondant à l'Helladique Récent IIIB final / IIIC), soit vers la fin du XIIIe siècle av. J.-C. (entre 1230 et 1150 av. J.-C.). Le vase est façonné au tour dans une terre cuite chamois clair, recouverte d'un engobe beige très pâle sur lequel le décor figuré est tracé à la peinture mate brun-noir à brun-orangé.</p>
+    <p>De forme ouverte dite « en cloche » (type Furumark 281), ce récipient destiné au mélange de l'eau et du vin lors des banquets présente une panse profonde et hémisphérique qui se referme légèrement vers une lèvre évasée. Il est flanqué de deux anses horizontales en boucle, fixées haut sur la panse et rehaussées de peinture sombre. La structure décorative est délimitée en haut, sous le rebord, et en bas, vers le pied, par de larges bandes horizontales parallèles peintes en brun-noir. Ces bandes délimitent une large frise principale courant d'une anse à l'autre, entièrement consacrée à une scène animalière et végétale.</p>
+    <p>Le registre central est dominé par la figure monumentale d'un taureau passant vers la droite, la tête fortement inclinée vers le sol comme s'il broutait ou s'apprêtait à charger. L'animal est représenté selon des conventions graphiques très singulières, où le corps est divisé en trois compartiments distincts par des lignes de contour épaisses. L'arrière-train rebondi est orné d'une grande croix formée de lignes de pointillés, tandis que la croupe et le départ de la queue sont soulignés de courtes hachures en chevrons. Le flanc central, plus sobre, est bordé sur son dos et son ventre de doubles festons ou d'écailles, et traversé dans sa longueur par des lignes de points et de petits cercles. L'avant-train, puissamment arqué au niveau de l'encolure, est entièrement moucheté de rosettes de points, la tête étant peinte en silhouette noire avec l'œil laissé en réserve et de longues cornes recourbées vers l'avant. La longue queue souple remonte au-dessus de l'échine et se termine par un toupet foliacé en arêtes de poisson. Dans le champ, derrière le bovidé, s'élèvent deux palmiers stylisés aux palmes recourbées et hachurées, tandis que des losanges quadrillés viennent combler les espaces vides sous le ventre et près de l'anse droite, témoignant d'un certain goût pour le remplissage de l'espace.</p>
+    <p>Cette œuvre est un chef-d'œuvre représentatif du « style pastoral » (souvent appelé Rude Style dans la terminologie archéologique anglophone), un courant céramique proprement chypriote qui se développe dans la seconde moitié du XIIIe siècle av. J.-C. Durant le XIVe et le début du XIIIe siècle, Chypre importait massivement des cratères picturaux fabriqués en Argolide (Grèce mycénienne). Lorsque les échanges avec le Péloponnèse s'affaiblissent à l'approche des bouleversements de la fin de l'âge du Bronze, les ateliers installés à Chypre (notamment autour d'Enkomi, de Kition et de la baie de Larnaca) prennent le relais et produisent leurs propres cratères d'inspiration égéenne. Ces peintres locaux délaissent progressivement les processions de chars mycéniennes au profit de thèmes naturalistes centrés sur des taureaux, des oiseaux, des sphinx et une flore luxuriante d'influence syro-levantine et orientale (comme le motif du palmier). Retrouvés principalement dans les riches tombes aristocratiques chypriotes, ces cratères témoignent du prestige social des élites insulaires et de la vitalité d'un art hybride, à la croisée des traditions mycéniennes et proche-orientales.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1200) | <strong>Civilisation :</strong> Art Chypriote (Âge du Bronze) | <strong>Sous-partie :</strong> Céramique & Vases.</p>`
   },
   {
     id: "idole_planche_chypriote_louvre",
