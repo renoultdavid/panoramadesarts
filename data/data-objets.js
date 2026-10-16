@@ -14985,12 +14985,51 @@ window.ART_OBJECTS.push(
     category: "Gravures & Textes",
     isHighlight: true,
     themeLink: "https://photos.google.com/share/AF1QipNlo80I8xbcNGWKMI7dnnm5aPtALq8jpsRKJGGdAmNT2TnbEIrd0Y2isWehnlLwbg?key=S0kzelN6N1pyaTlZc21PeWtiOUN0bHZyckVMaGZB",
-    chips: ["XXXe dynastie", "Granit noir poli", "Découverte sous-marine F. Goddio"],
+    chips: ["XXXe dynastie", "Granit noir poli", "Découverte sous-marine F. Goddio", "Musée d'Alexandrie"],
     deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w1843-h781-s-no-gm?authuser=0",
     imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMG-UMJax-gVBz6OdqlgX3xcva0rUV2-8UBQnttUSo8wf2QW9Vbl0U95596phNrFd5zayw969e8YmSvkAn4ws_J_x1ozqVorxg7dL20N_GBQsm7_yBeRW8gK_xjuqyN_Ymxncm8MulNVSwRtFeSN17wSg=w1607-h2412-s-no-gm?authuser=0",
-    narrative: `<p>Cette stèle en granit noir, conservée au Musée national d'Alexandrie, est une copie parfaite de celle du Caire. Découverte en 2001 par l'archéologue Franck Goddio sur le site englouti d'Héracléion-Thonis, elle a été érigée sous le règne de Nectanébo Ier, fondateur de la XXXe dynastie, vers 380 av. J.-C.. Son état de conservation exceptionnel s'explique par son immersion prolongée dans le sable marin, protégeant la finesse de ses gravures durant des millénaires.</p>
-    <p>La lunette cintrée illustre le pharaon rendant hommage à la déesse Neith, maîtresse de Saïs, renforçant le lien indéfectible entre le pouvoir temporel et l'institution cléricale. Les hiéroglyphes, disposés en colonnes verticales, détaillent le prélèvement d'une taxe de 10 % sur les produits importés de la mer des Grecs et sur les richesses transitant par la cité de Thonis. Ces ressources étaient intégralement consacrées au temple de Neith, assurant ainsi la protection divine sur le royaume.</p>
-    <p>L'importance scientifique de cette œuvre réside dans la confirmation qu'Héracléion et Thonis n'étaient qu'une seule et même cité, porte d'entrée obligatoire pour tout commerce étranger en Égypte. Elle témoigne de la rigueur administrative de la dernière dynastie indigène et de la prospérité économique du pays juste avant la conquête macédonienne. La présence de cette stèle à Alexandrie souligne le rôle crucial du delta du Nil dans les échanges méditerranéens de l'Antiquité.</p>`
+    narrative: `
+      <p>Cette stèle en granit noir, conservée au Musée national d'Alexandrie, est une copie parfaite de celle du Caire. Découverte en 2001 par l'archéologue Franck Goddio sur le site englouti d'Héracléion-Thonis, elle a été érigée sous le règne de Nectanébo Ier, fondateur de la XXXe dynastie, vers 380 av. J.-C.. Son état de conservation exceptionnel s'explique par son immersion prolongée dans le sable marin, protégeant la finesse de ses gravures durant des millénaires.</p>
+      <p>La lunette cintrée illustre le pharaon rendant hommage à la déesse Neith, maîtresse de Saïs, renforçant le lien indéfectible entre le pouvoir temporel et l'institution cléricale. Les hiéroglyphes, disposés en colonnes verticales, détaillent le prélèvement d'une taxe de 10 % sur les produits importés de la mer des Grecs et sur les richesses transitant par la cité de Thonis. Ces ressources étaient intégralement consacrées au temple de Neith, assurant ainsi la protection divine sur le royaume.</p>
+      <p>L'importance scientifique de cette œuvre réside dans la confirmation qu'Héracléion et Thonis n'étaient qu'une seule et même cité, porte d'entrée obligatoire pour tout commerce étranger en Égypte. Elle témoigne de la rigueur administrative de la dernière dynastie indigène et de la prospérité économique du pays juste avant la conquête macédonienne. La présence de cette stèle à Alexandrie souligne le rôle crucial du delta du Nil dans les échanges méditerranéens de l'Antiquité.</p>
+    `,
+    hotspots: [
+      {
+        x: 50.0,
+        y: 4.5,
+        tag: "POINT 1 / 5 • LUNETTE & DISQUE AILÉ",
+        title: "La protection céleste sommitale",
+        desc: "Le cintre de la stèle est dominé par un disque solaire ailé, symbole de protection divine qui coiffe l'ensemble des scènes rituelles."
+      },
+      {
+        x: 20.5,
+        y: 22.0,
+        tag: "POINT 2 / 5 • LE PHARAON OFFRISSANT",
+        title: "L'hommage souverain aux divinités",
+        desc: "Le roi Nectanébo Ier est sculpté debout, présentant des offrandes pour s'attirer la bienveillance des dieux protecteurs du delta."
+      },
+      {
+        x: 50.0,
+        y: 20.0,
+        tag: "POINT 3 / 5 • LES DIVINITÉS ASSISES",
+        title: "La déesse Neith et ses parèdres",
+        desc: "Les figures divines trônent au centre du cintre, recevant les hommages royaux et garantissant la légitimité de l'autorité pharaonique."
+      },
+      {
+        x: 50.0,
+        y: 62.0,
+        tag: "POINT 4 / 5 • COLONNES DE HIÉROGLYPHES",
+        title: "Le texte minutieux du décret",
+        desc: "Les colonnes verticales en creux détaillent la législation douanière et le prélèvement de la dîme sur le commerce maritime grec."
+      },
+      {
+        x: 75.0,
+        y: 55.0,
+        tag: "POINT 5 / 5 • GRANIT NOIR POLI",
+        title: "L'intégrité de la pierre sous-marine",
+        desc: "Le poli du granit noir a préservé l'acuité des incisions épigraphiques après des siècles d'immersion dans la baie d'Aboukir."
+      }
+    ]
   },
   {
     id: "pierre_rosette",
