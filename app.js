@@ -1339,6 +1339,32 @@ function initSearchEngine() {
   const filterSort = document.getElementById('filter-sort');
   const btnReset = document.getElementById('btn-reset-filters');
   const btnLoadMore = document.getElementById('btn-load-more');
+  const btnFilterFocus = document.getElementById('btn-filter-focus-only');
+  const btnRandomFocus = document.getElementById('btn-random-focus');
+
+  let focusOnlyActive = false;
+
+  if (btnFilterFocus) {
+    btnFilterFocus.addEventListener('click', () => {
+      focusOnlyActive = !focusOnlyActive;
+      btnFilterFocus.classList.toggle('is-active', focusOnlyActive);
+      currentRenderLimit = PAGE_CHUNK;
+      renderSearchGallery();
+    });
+  }
+
+  if (btnRandomFocus) {
+    btnRandomFocus.addEventListener('click', () => {
+      const catalog = window.ART_OBJECTS || [];
+      const focusItems = catalog.filter(item => item.hotspots && item.hotspots.length > 0);
+      if (focusItems.length === 0) return;
+      
+      const randomArt = focusItems[Math.floor(Math.random() * focusItems.length)];
+      openFocusMode(randomArt);
+    });
+  }
+
+  // 1. Remplissage des menus mères (Civilisations & Domaines)
 
   // 1. Remplissage des menus mères (Civilisations & Domaines)
   if (filterCiv) {
@@ -1648,6 +1674,9 @@ function initSearchEngine() {
 /* ==========================================================================
    RENDU DE LA GALERIE AVEC DOUBLE COMPATIBILITÉ (ANCIEN & NOUVEAU SCHÉMA)
    ========================================================================== */
+// Variable globale pour mémoriser si le filtre Focus est actif
+let focusOnlyActive = false;
+
 function renderSearchGallery() {
   const catalog = window.ART_OBJECTS || [];
   const filterCiv = document.getElementById('filter-civ');
@@ -1668,6 +1697,11 @@ function renderSearchGallery() {
   const query = filterText ? filterText.value.toLowerCase().trim() : '';
 
   let filtered = catalog.map((item, idx) => ({ ...item, _idx: idx })).filter(item => {
+    // Filtre exclusif "Œuvres Focus"
+    if (focusOnlyActive) {
+      if (!item.hotspots || item.hotspots.length === 0) return false;
+    }
+
     // 1. Filtre Civilisation (compatible civId "egypte_ancien" et civId "egypte")
     if (selectedCiv !== 'all') {
       const cId = item.civId || '';
