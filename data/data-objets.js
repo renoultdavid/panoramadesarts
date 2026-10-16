@@ -10927,8 +10927,8 @@ window.ART_OBJECTS.push(
       {
         x: 72.0,
         y: 35.0,
-        startTime: 14,
-        endTime: 27, // allongé (était 24)
+        startTime: 21,
+        endTime: 31,
         tag: "POINT 1 / 5 • LE COUPLE DÉFUNT",
         title: "Ouserhat et Moutnefret assis",
         desc: "Le scribe royal et son épouse reçoivent les hommages funéraires parés de leurs plus beaux atours et de colliers ousekh."
@@ -10936,8 +10936,8 @@ window.ART_OBJECTS.push(
       {
         x: 43.0,
         y: 32.0,
-        startTime: 27,
-        endTime: 36, // allongé (était 32)
+        startTime: 32,
+        endTime: 41,
         tag: "POINT 2 / 5 • TABLE D'OFFRANDES",
         title: "L'abondance de pains et de victuailles",
         desc: "La table déborde de provisions destinées à assurer la subsistance éternelle du couple dans l'au-delà."
@@ -10945,17 +10945,17 @@ window.ART_OBJECTS.push(
       {
         x: 12.0,
         y: 40.0,
-        startTime: 36,
-        endTime: 44, // allongé (était 40)
+        startTime: 42,
+        endTime: 49,
         tag: "POINT 3 / 5 • SERVITEUR ET LOTUS",
         title: "La présentation des bouquets sacrés",
         desc: "Un serviteur s'avance pour offrir des fleurs de lotus et des papyrus symbolisant la régénération et la fraîcheur."
       },
       {
-        x: 44.0, // ou 65.0 selon ton cadrage
+        x: 65.0,
         y: 65.0,
-        startTime: 44,
-        endTime: 60, // allongé (était 56)
+        startTime: 50,
+        endTime: 65,
         tag: "POINT 4 / 5 • ATTRIBUTS SOUS LES SIÈGES",
         title: "Le carquois, le miroir et le singe",
         desc: "Des détails intimes rappellent la fonction militaire d'Ouserhat ainsi que les symboles de renaissance et de féminité de son épouse."
@@ -10963,8 +10963,8 @@ window.ART_OBJECTS.push(
       {
         x: 60.0,
         y: 92.0,
-        startTime: 60,
-        endTime: 74, // jusqu'à la fin
+        startTime: 66,
+        endTime: 75,
         tag: "POINT 5 / 5 • INVITÉS DU BANQUET",
         title: "Les participants de la Belle Fête",
         desc: "Le registre inférieur met en scène les convives et musiciens célébrant le banquet commémoratif dans la nécropole."
