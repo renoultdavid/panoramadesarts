@@ -1214,7 +1214,7 @@ window.ART_OBJECTS.push(
         y: 56,
         radius: 12,
         startTime: 57,
-        endTime: 64,
+        endTime: 74,
         tag: "POINT 3 / 5 • INTIMITÉ MYSTIQUE",
         title: "L'enlacement des mains sacrées",
         desc: "Détail d'une audace remarquable : la déesse tient tendrement la main du roi. Ce contact direct au niveau de la taille scelle l'alliance charnelle et spirituelle entre le monde divin et le souverain terrestre."
@@ -1223,7 +1223,7 @@ window.ART_OBJECTS.push(
         x: 77,
         y: 25,
         radius: 14,
-        startTime: 65,
+        startTime: 75,
         endTime: 91,
         tag: "POINT 4 / 5 • GÉOGRAPHIE DU ROYAUME",
         title: "L'étendard du Nome du Lièvre (Hermopolis)",
