@@ -14555,11 +14555,50 @@ window.ART_OBJECTS.push(
     category: "Peinture murale",
     isHighlight: true,
     themeLink: "https://photos.google.com/share/AF1QipMzaxBxEP6dd76u3_Ldl7cRgR0YQ5fFNegi5HUNy5E8VHUVEF7pPnAqhXLKYkbJ9w?key=V0kwcUlEVXFXQ0FLVFp5dXJEWklVMjhvWHFrUjZB",
-    chips: ["Règne d'Amenhotep III", "Fresque sur enduit", "Nécropole thébaine"],
+    chips: ["Règne d'Amenhotep III", "Fresque sur enduit", "Nécropole thébaine", "Tombe de Ramose TT55"],
     deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO-oIaGstfUOdgYBAOgtj8VCCM6hCeXJEWmjLkcI-CcQp9aZq2bZ96H8tHBGkmBsQk3Q6LzpD5mhZbN5zFCr2aqncoFfdWAD3UDDiHmjAAV5DrXBVFBAdSNgvfCinLQ2uR8Mb4MIpgCmPcj94dUfjVw1A=w1584-h672-s-no-gm?authuser=0",
     imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNQqtk1j0pAutwpakZZL4djOl-kLWjjqfTUMia3Ku1md7WH05O2P1RMv3536bfeGoZbahTbil34Qk2ktl9G7WeGooksR2wBJLpNrar05PTVkJcNOkgakDyvLWHqsK7X85BeMRHXa1MxSRXdhfUhr3RE1g=w1933-h1289-s-no-gm?authuser=0",
-    narrative: `<p>Cette peinture murale, extraite de la tombe de Ramose (TT55) située dans la nécropole thébaine à Cheikh Abd el-Gourna, constitue l’un des témoignages les plus poignants de l’art funéraire de la XVIIIe dynastie, précisément sous le règne d'Amenhotep III et au début de l'époque amarnienne. L'œuvre représente une scène de funérailles où un groupe de pleureuses professionnelles exprime une douleur rituelle d'une intensité rare. Les femmes sont figurées dans une attitude de lamentation classique, les bras levés vers le ciel ou portés à la tête, les corps légèrement fléchis pour traduire l’accablement. La composition se distingue par un chevauchement subtil des silhouettes qui crée une sensation de profondeur et de masse collective, rompant avec la rigidité habituelle des registres égyptiens. Leurs longues robes de lin blanc, presque transparentes, contrastent avec les perruques sombres et les teints ocre, tandis que des larmes, figurées par de fins traits sombres, coulent sur leurs joues, un détail naturaliste saisissant pour l'époque.</p>
-    <p>À gauche de ce groupe éploré, des serviteurs transportent le mobilier funéraire destiné à accompagner le défunt dans l'au-delà, notamment des coffrets et des vases à onguents, soulignant le statut social élevé de Ramose, qui occupait la charge prestigieuse de vizir. La partie supérieure de la scène est occupée par des colonnes de hiéroglyphes finement tracés, détaillant les titres du défunt et les formules rituelles de la procession. L'exécution technique de cette paroi combine la pureté des lignes du style traditionnel de Thèbes avec une fluidité annonçant les réformes esthétiques de l'art d'Akhenaton. La conservation exceptionnelle des pigments permet d'apprécier la palette chromatique équilibrée, dominée par les terres d'ombre, les blancs crayeux et les touches de bleu égyptien. Cette œuvre ne se contente pas de documenter un rite de passage ; elle immortalise une émotion codifiée mais vibrante, faisant de la tombe de Ramose un jalon stylistique majeur où la perfection du relief classique rencontre l'audace du mouvement.</p>`
+    narrative: `
+      <p>Cette peinture murale, extraite de la tombe de Ramose (TT55) située dans la nécropole thébaine à Cheikh Abd el-Gourna, constitue l’un des témoignages les plus poignants de l’art funéraire de la XVIIIe dynastie, précisément sous le règne d'Amenhotep III et au début de l'époque amarnienne. L'œuvre représente une scène de funérailles où un groupe de pleureuses professionnelles exprime une douleur rituelle d'une intensité rare. Les femmes sont figurées dans une attitude de lamentation classique, les bras levés vers le ciel ou portés à la tête, les corps légèrement fléchis pour traduire l’accablement. La composition se distingue par un chevauchement subtil des silhouettes qui crée une sensation de profondeur et de masse collective, rompant avec la rigidité habituelle des registres égyptiens. Leurs longues robes de lin blanc, presque transparentes, contrastent avec les perruques sombres et les teints ocre, tandis que des larmes, figurées par de fins traits sombres, coulent sur leurs joues, un détail naturaliste saisissant pour l'époque.</p>
+      <p>À gauche de ce groupe éploré, des serviteurs transportent le mobilier funéraire destiné à accompagner le défunt dans l'au-delà, notamment des coffrets et des vases à onguents, soulignant le statut social élevé de Ramose, qui occupait la charge prestigieuse de vizir. La partie supérieure de la scène est occupée par des colonnes de hiéroglyphes finement tracés, détaillant les titres du défunt et les formules rituelles de la procession. L'exécution technique de cette paroi combine la pureté des lignes du style traditionnel de Thèbes avec une fluidité annonçant les réformes esthétiques de l'art d'Akhenaton. La conservation exceptionnelle des pigments permet d'apprécier la palette chromatique équilibrée, dominée par les terres d'ombre, les blancs crayeux et les touches de bleu égyptien. Cette œuvre ne se contente pas de documenter un rite de passage ; elle immortalise une émotion codifiée mais vibrante, faisant de la tombe de Ramose un jalon stylistique majeur où la perfection du relief classique rencontre l'audace du mouvement.</p>
+    `,
+    hotspots: [
+      {
+        x: 65.0,
+        y: 25.0,
+        tag: "POINT 1 / 5 • MAINS ET BRAS LEVÉS",
+        title: "L'expression de la douleur rituelle",
+        desc: "Les mains tendues vers le ciel traduisent l'appel aux dieux et la lamentation collective des pleureuses professionnelles."
+      },
+      {
+        x: 55.0,
+        y: 45.0,
+        tag: "POINT 2 / 5 • SUPERPOSITION DES CORPS",
+        title: "La profondeur et le mouvement de groupe",
+        desc: "Le chevauchement subtil des silhouettes brise la rigueur frontale traditionnelle pour suggérer une foule en marche éplorée."
+      },
+      {
+        x: 18.0,
+        y: 52.0,
+        tag: "POINT 3 / 5 • MOBILIER FUNÉRAIRE",
+        title: "Le cortège des offrandes et coffrets",
+        desc: "Les serviteurs portent les biens précieux nécessaires au vizir Ramose pour son voyage et son statut dans l'au-delà."
+      },
+      {
+        x: 28.0,
+        y: 21.0,
+        tag: "POINT 4 / 5 • HIÉROGLYPHES RITUELS",
+        title: "Les colonnes de textes et titres",
+        desc: "Les formules sacrées et les dénominations officielles du haut dignitaire encadrent la procession funèbre."
+      },
+      {
+        x: 48.0,
+        y: 75.0,
+        tag: "POINT 5 / 5 • DRAPÉS EN LIN BLANC",
+        title: "La transparence des vêtements",
+        desc: "Les longues robes fluides épousent les mouvements des corps courbés par le deuil avec un réalisme pictural remarquable."
+      }
+    ]
   },
   {
     id: "cuiller_nageuse",
