@@ -2383,8 +2383,10 @@ body {
   position: absolute;
   inset: 0;
   pointer-events: none;
+  z-index: 5;
   clip-path: circle(0% at 50% 50%);
-  transition: clip-path 0.55s cubic-bezier(0.25, 1, 0.35, 1);
+  -webkit-clip-path: circle(0% at 50% 50%);
+  transition: clip-path 0.55s cubic-bezier(0.25, 1, 0.35, 1), -webkit-clip-path 0.55s cubic-bezier(0.25, 1, 0.35, 1);
   border-radius: 4px;
 }
 
