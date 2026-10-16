@@ -987,7 +987,7 @@ window.ART_OBJECTS.push(
       {
         x: 54,
         y: 16,
-        radius: 10,
+        radius: 20,
         startTime: 18,
         endTime: 41,
         tag: "POINT 1 / 5 • ATTRIBUT DIVIN ET SOLAIRE",
@@ -997,7 +997,7 @@ window.ART_OBJECTS.push(
       {
         x: 37,
         y: 38,
-        radius: 10,
+        radius: 13,
         startTime: 42,
         endTime: 53,
         tag: "POINT 2 / 5 • PUISSANCE DU NIL",
@@ -1006,8 +1006,8 @@ window.ART_OBJECTS.push(
       },
       {
         x: 76,
-        y: 37,
-        radius: 10,
+        y: 40,
+        radius: 20,
         startTime: 54,
         endTime: 69,
         tag: "POINT 3 / 5 • MAJESTÉ ROYALE",
@@ -1015,9 +1015,9 @@ window.ART_OBJECTS.push(
         desc: "Le pharaon porte le némès plissé surmonté de l'uraeus royal. Son visage aux traits harmonieux, idéalisés dans la force de l'âge, illustre l'esthétique raffinée du 'Pharaon Magnifique' au zénith de l'Empire."
       },
       {
-        x: 54,
-        y: 53,
-        radius: 10,
+        x: 57,
+        y: 54,
+        radius: 12,
         startTime: 70,
         endTime: 83,
         tag: "POINT 4 / 5 • COMMUNION SACRÉE",
@@ -1026,7 +1026,7 @@ window.ART_OBJECTS.push(
       },
       {
         x: 54,
-        y: 78,
+        y: 85,
         radius: 12,
         startTime: 84,
         endTime: 94,
