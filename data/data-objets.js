@@ -10540,10 +10540,65 @@ window.ART_OBJECTS.push(
     chips: ["XVIIIe dynastie", "Amenhotep II", "TT96 Sennefer", "Pèlerinage d'Abydos"],
     deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
     imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczM1jckH504JadPZ72cJc4eT-ZzfCvGZ8k3iikzIEVrFdabOvcg4qd0TYWdb1CL2MK0gjlGv-ruebghgzXB691LO6GaUQpeU90l3OqiWV47qGVudi8sFwyci3lBZKNiwvfJ4ylXVEIsHnnQB3A8kcVwFjA=w1379-h919-s-no-gm?authuser=0",
-    narrative: `<p>Cette peinture murale, extraite du cycle iconographique de la tombe de Sennefer (TT96) à Thèbes, illustre une étape cruciale du voyage funéraire durant la XVIIIe dynastie égyptienne. La scène représente le pèlerinage sacré vers Abydos, cité d'Osiris, ou le trajet symbolique vers la nécropole occidentale. Le défunt, Sennefer, maire de Thèbes, est assis aux côtés de son épouse Senetnay sous un baldaquin léger installé sur une barque papyriforme. Tous deux sont représentés dans une attitude de dignité sereine : Sennefer porte le pagne long et un collier de prix, tandis que son épouse, vêtue d'une robe fourreau blanche, pose affectueusement la main sur son épaule, témoignant de l'union éternelle du couple dans l'au-delà.</p>
-    <p>La barque, élément central de la navigation vers l'éternité, glisse sur un registre d'eau figuré par des lignes brisées en zigzag. À la proue, un officiant debout présente des offrandes rituelles devant un guéridon chargé de pains et de victuailles, tout en versant une libation à l'aide d'un vase hes. À la poupe, un timonier dirige les deux grands avirons-gouvernails, assurant la direction de l'embarcation vers son destin divin. L'œil oudjat, peint sur la coque, protège la traversée en repoussant les forces du chaos. Au-dessus de la scène, la voûte est ornée du motif caractéristique de la vigne aux grappes noires, rappelant les jardins d'Amon dont Sennefer avait la charge et symbolisant la régénération constante de la vie.</p>
-    <p>Le style artistique est d'une grande finesse, typique de l'âge d'or du Nouvel Empire sous Amenhotep II. Les hiéroglyphes qui entourent les personnages ne sont pas de simples ornements, mais des textes rituels identifiant le couple et sollicitant pour eux les offrandes funéraires nécessaires à la survie du Ka. La palette de couleurs, restée vibrante malgré les millénaires, utilise des pigments naturels minéraux tels que l'ocre rouge, le jaune, le bleu de lapis-lazuli et le noir de carbone, appliqués sur un enduit de plâtre blanc. Cette œuvre témoigne de la haute position sociale de Sennefer et de sa volonté d'inscrire son passage vers l'éternité dans une esthétique de l'abondance et de la piété.</p>
-    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1420) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+    audioSrc: "audio/navigation-abydos-sennefer-audioguide.mp3",
+    narrative: `
+      <p>Cette peinture murale, extraite du cycle iconographique de la tombe de Sennefer (TT96) à Thèbes, illustre une étape cruciale du voyage funéraire durant la XVIIIe dynastie égyptienne. La scène représente le pèlerinage sacré vers Abydos, cité d'Osiris, ou le trajet symbolique vers la nécropole occidentale. Le défunt, Sennefer, maire de Thèbes, est assis aux côtés de son épouse Senetnay sous un baldaquin léger installé sur une barque papyriforme. Tous deux sont représentés dans une attitude de dignité sereine : Sennefer porte le pagne long et un collier de prix, tandis que son épouse, vêtue d'une robe fourreau blanche, pose affectueusement la main sur son épaule, témoignant de l'union éternelle du couple dans l'au-delà.</p>
+      <p>La barque, élément central de la navigation vers l'éternité, glisse sur un registre d'eau figuré par des lignes brisées en zigzag. À la proue, un officiant debout présente des offrandes rituelles devant un guéridon chargé de pains et de victuailles, tout en versant une libation à l'aide d'un vase hes. À la poupe, un timonier dirige les deux grands avirons-gouvernails, assurant la direction de l'embarcation vers son destin divin. L'œil oudjat, peint sur la coque, protège la traversée en repoussant les forces du chaos. Au-dessus de la scène, la voûte est ornée du motif caractéristique de la vigne aux grappes noires, rappelant les jardins d'Amon dont Sennefer avait la charge et symbolisant la régénération constante de la vie.</p>
+      <p>Le style artistique est d'une grande finesse, typique de l'âge d'or du Nouvel Empire sous Amenhotep II. Les hiéroglyphes qui entourent les personnages ne sont pas de simples ornements, mais des textes rituels identifiant le couple et sollicitant pour eux les offrandes funéraires nécessaires à la survie du Ka. La palette de couleurs, restée vibrante malgré les millénaires, utilise des pigments naturels minéraux tels que l'ocre rouge, le jaune, le bleu de lapis-lazuli et le noir de carbone, appliqués sur un enduit de plâtre blanc. Cette œuvre témoigne de la haute position sociale de Sennefer et de sa volonté d'inscrire son passage vers l'éternité dans une esthétique de l'abondance et de la piété.</p>
+      <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1420) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>
+    `,
+    hotspots: [
+      {
+        x: 37.0,
+        y: 43.0,
+        radius: 18,
+        startTime: 20,
+        endTime: 38,
+        tag: "POINT 1 / 5 • LE COUPLE SOUS LE BALDAQUIN",
+        title: "Sennefer et Senetnay dans l'éternité",
+        desc: "Assis sous un dais élégant, le couple unit ses destins à travers le geste tendre de l'épouse posant la main sur l'épaule de son mari."
+      },
+      {
+        x: 65.0,
+        y: 48.0,
+        radius: 16,
+        startTime: 39,
+        endTime: 56,
+        tag: "POINT 2 / 5 • L'OFFICIANT ET LES OFFRANDES",
+        title: "Le rite de la libation à la proue",
+        desc: "Un officiant verse une libation à l'aide d'un vase hes devant un guéridon richement garni de victuailles."
+      },
+      {
+        x: 19.0,
+        y: 56.0,
+        radius: 15,
+        startTime: 57,
+        endTime: 74,
+        tag: "POINT 3 / 5 • LE TIMONIER ET LA POUPE",
+        title: "Le pilotage de la barque sacrée",
+        desc: "Un marin dirige les grands avirons-gouvernails à l'arrière de l'embarcation naviguant vers la nécropole d'Abydos."
+      },
+      {
+        x: 75.0,
+        y: 77.0,
+        radius: 14,
+        startTime: 75,
+        endTime: 92,
+        tag: "POINT 4 / 5 • LA COQUE ET L'ŒIL OUDJAT",
+        title: "La protection magique de la barque",
+        desc: "Peint sur la coque verte de l'esquif, l'œil oudjat veille à écarter les dangers et les forces du chaos au fil de l'eau."
+      },
+      {
+        x: 82.0,
+        y: 20.0,
+        radius: 20,
+        startTime: 93,
+        endTime: 110,
+        tag: "POINT 5 / 5 • LA VIGNE ET LES HIÉROGLYPHES",
+        title: "Les grappes de raisin et les textes rituels",
+        desc: "La voûte est parée de vignes en lianes tandis que les colonnes hiéroglyphiques consignent les prières d'offrandes."
+      }
+    ]
   },
   {
     id: "peinture_couple_sennefer_meryt_lotus_tt96",
