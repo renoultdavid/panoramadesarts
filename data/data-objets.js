@@ -11688,7 +11688,7 @@ window.ART_OBJECTS.push(
         desc: "Au fil des siècles, les fines couches de plâtre superficiel se sont fissurées, érodées et détachées par endroits."
       },
       {
-        x: 67.0,
+        x: 46.0,
         y: 40.0,
         radius: 12,
         startTime: 72,
