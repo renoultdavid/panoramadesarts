@@ -10270,10 +10270,65 @@ window.ART_OBJECTS.push(
     chips: ["XVIIIe dynastie", "TT100 Rekhmirê", "Salaison du poisson", "Brasserie & Vendanges"],
     deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
     imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOp6uFL-gwtWBxYP-fmoWP5CrzRQVzwjcg_dlIcKv9H6YKE2MMPD4qZiXgOeBCpp5Ijxb_EFga2x7p9mGOm0Ow2kjI2Eq3zNNWoPFxK54pnYWXU_CmX4alAORSNHP9sHU9brF3-un6fYz_r4EFuPLTmIQ=w1379-h919-s-no-gm?authuser=0",
-    narrative: `<p>Cette peinture murale, extraite de la tombe de Rekhmiré (TT100) située dans la nécropole de Cheikh Abd el-Gourna à Thèbes-Ouest, constitue l’un des témoignages les plus précieux de la vie quotidienne et de l'administration sous la XVIIIe dynastie égyptienne, plus précisément sous les règnes de Thoutmosis III et Amenhotep II, vers 1450 avant notre ère. Rekhmiré occupait la fonction prestigieuse de vizir, faisant de lui le second personnage de l'État après le Pharaon, et sa sépulture est célèbre pour l'abondance de ses scènes dites séculières illustrant les divers corps de métiers supervisés par son administration.</p>
-    <p>L'œuvre présente une composition organisée en registres horizontaux typiques de l'art égyptien, où la superposition des scènes permet une lecture narrative et encyclopédique de l'activité économique. Dans le registre inférieur, l'attention se porte sur le traitement du poisson : on y observe des ouvriers occupés à fendre et à faire sécher des poissons ouverts en deux, suspendus par la queue pour être conservés par salaison ou fumage, une source de protéines essentielle pour la population. Au-dessus, la scène détaille le travail de la vigne et de la brasserie. À gauche, la récolte des grappes de raisin dans une treille luxuriante est suivie du pressage, tandis qu'au centre, deux personnages s'activent vigoureusement à piler des ingrédients dans un grand mortier à l'aide de longs bâtons, une étape cruciale dans la fabrication de la bière ou du pain.</p>
-    <p>La palette chromatique est dominée par des pigments naturels caractéristiques : l'ocre rouge pour la peau masculine, l'ocre jaune pour certains fruits ou détails architecturaux, et le bleu égyptien pour l'eau ou le feuillage, bien que ce dernier ait subi les outrages du temps. Malgré l'érosion de la paroi et les lacunes du plâtre, la précision du trait permet de saisir le dynamisme des postures et la spécialisation des outils utilisés. L'absence de relief sculpté, remplacé ici par une peinture appliquée sur un enduit de limon et de plâtre, est caractéristique des tombes thébaines de cette époque. Cette fresque n'a pas seulement une visée décorative ou documentaire ; elle possède une fonction magique et funéraire primordiale. En représentant ces scènes de production alimentaire, le défunt s'assurait, par la puissance de l'image et de la parole, un approvisionnement éternel dans l'au-delà, tout en réaffirmant son statut social et son efficacité administrative devant les dieux.</p>
-    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1450) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+    audioSrc: "audio/rekhmire-audioguide.mp3",
+    narrative: `
+      <p>Cette peinture murale, extraite de la tombe de Rekhmiré (TT100) située dans la nécropole de Cheikh Abd el-Gourna à Thèbes-Ouest, constitue l’un des témoignages les plus précieux de la vie quotidienne et de l'administration sous la XVIIIe dynastie égyptienne, plus précisément sous les règnes de Thoutmosis III et Amenhotep II, vers 1450 avant notre ère. Rekhmiré occupait la fonction prestigieuse de vizir, faisant de lui le second personnage de l'État après le Pharaon, et sa sépulture est célèbre pour l'abondance de ses scènes dites séculières illustrant les divers corps de métiers supervisés par son administration.</p>
+      <p>L'œuvre présente une composition organisée en registres horizontaux typiques de l'art égyptien, où la superposition des scènes permet une lecture narrative et encyclopédique de l'activité économique. Dans le registre inférieur, l'attention se porte sur le traitement du poisson : on y observe des ouvriers occupés à fendre et à faire sécher des poissons ouverts en deux, suspendus par la queue pour être conservés par salaison ou fumage, une source de protéines essentielle pour la population. Au-dessus, la scène détaille le travail de la vigne et de la brasserie. À gauche, la récolte des grappes de raisin dans une treille luxuriante est suivie du pressage, tandis qu'au centre, deux personnages s'activent vigoureusement à piler des ingrédients dans un grand mortier à l'aide de longs bâtons, une étape cruciale dans la fabrication de la bière ou du pain.</p>
+      <p>La palette chromatique est dominée par des pigments naturels caractéristiques : l'ocre rouge pour la peau masculine, l'ocre jaune pour certains fruits ou détails architecturaux, et le bleu égyptien pour l'eau ou le feuillage, bien que ce dernier ait subi les outrages du temps. Malgré l'érosion de la paroi et les lacunes du plâtre, la précision du trait permet de saisir le dynamisme des postures et la spécialisation des outils utilisés. L'absence de relief sculpté, remplacé ici par une peinture appliquée sur un enduit de limon et de plâtre, est caractéristique des tombes thébaines de cette époque. Cette fresque n'a pas seulement une visée décorative ou documentaire ; elle possède une fonction magique et funéraire primordiale. En représentant ces scènes de production alimentaire, le défunt s'assurait, par la puissance de l'image et de la parole, un approvisionnement éternel dans l'au-delà, tout en réaffirmant son statut social et son efficacité administrative devant les dieux.</p>
+      <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1450) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>
+    `,
+    hotspots: [
+      {
+        x: 48.0,
+        y: 77.0,
+        radius: 20,
+        startTime: 20,
+        endTime: 38,
+        tag: "POINT 1 / 5 • LA SALAISON DES POISSONS",
+        title: "Le séchage et la conservation du poisson",
+        desc: "Dans le registre inférieur, des ouvriers fendent et suspendent des poissons par la queue pour le séchage et la salaison."
+      },
+      {
+        x: 58.0,
+        y: 35.0,
+        radius: 18,
+        startTime: 39,
+        endTime: 56,
+        tag: "POINT 2 / 5 • LE PILage ET LA BRASSERIE",
+        title: "L'art du pilonnage pour la bière",
+        desc: "Deux personnages s'activent vigoureusement au centre, maniant de longs bâtons pour piler les ingrédients dans un grand mortier."
+      },
+      {
+        x: 88.0,
+        y: 45.0,
+        radius: 16,
+        startTime: 57,
+        endTime: 74,
+        tag: "POINT 3 / 5 • LE STOCKAGE DES JARRES",
+        title: "La mise en réserve des provisions",
+        desc: "À droite, un ouvrier manipule des jarres pointues destinées à stocker le vin ou la bière produits par l'administration."
+      },
+      {
+        x: 28.0,
+        y: 32.0,
+        radius: 18,
+        startTime: 75,
+        endTime: 92,
+        tag: "POINT 4 / 5 • LA VIGNE ET LES VENDANGES",
+        title: "La récolte et le travail de la vigne",
+        desc: "La partie gauche illustre la treille luxuriante et les gestes de la cueillette des grappes de raisin pour le vin."
+      },
+      {
+        x: 20.0,
+        y: 15.0,
+        radius: 22,
+        startTime: 93,
+        endTime: 110,
+        tag: "POINT 5 / 5 • LES REGISTRES SUPÉRIEURS",
+        title: "L'administration des métiers du vizir",
+        desc: "Les registres du haut étagent les différentes corporations de métiers contrôlées par le vizir Rekhmirê."
+      }
+    ]
   },
   {
     id: "peinture_ateliers_sculpture_lingots_rekhmire_tt100",
