@@ -11341,7 +11341,7 @@ window.ART_OBJECTS.push(
     <p>Cette œuvre murale est une page monumentale du Livre des Portes, un texte religieux décrivant le passage du soleil à travers les douze heures de la nuit. Pour le pharaon, la lecture de ces parois est un acte de survie : en s'identifiant au dieu Rê, il espère franchir chaque porte gardée par des serpents et des génies pour renaître à l'aube. La tombe devient ainsi une machine théologique complexe, où l'image et le texte fusionnent pour vaincre le chaos et garantir l'ordre cosmique du Maât.</p>
     <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1150) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Tombes & Rituels.</p>`
   },
-  {
+ {
     id: "paroi_frises_cartouches_ramses_vi_kv9",
     civId: "egypte",
     periodId: "nouvel_empire",
@@ -11361,17 +11361,21 @@ window.ART_OBJECTS.push(
     chips: ["XXe dynastie", "Ramsès VI", "Tombe KV9", "Cartouches d'or", "Vallée des Rois"],
     deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
     imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMs_5OaJPIPUGVAqkrEaq-3oOOzYPu0V82VpEulqMknsiVdfvOB_vl0xpbqlR7Z1j8T2_iHVY5SqJUZwd5OKCifYx_NUHEZOw4CMS_9KpqOZBlOE_raV5MOZd-1T46-PSPbr4FphQ6UFZEoYhFzwdyDWw=w1379-h919-s-no-gm?authuser=0",
+    audioSrc: "audio/ramses-vi-audioguide.mp3",
     narrative: `
-      <p>Cette nouvelle paroi provient de la tombe commune de Ramsès V et Ramsès VI (KV9), située également dans la Vallée des Rois. Ce monument, souvent considéré comme l'un des plus spectaculaires de la nécropole, se distingue par la saturation extraordinaire de ses décors. Ici, les registres de hiéroglyphes ne sont plus seulement des textes, mais de véritables frises graphiques où la répétition des cartouches royaux crée un motif hypnotique, affirmant la légitimité et la protection divine du souverain à travers les âges.</p>
-      <p>L'œuvre présente une alternance rigoureuse de noms royaux inscrits dans des cartouches sur fond jaune d'or, symbolisant l'immortalité. On y reconnaît notamment le nom de couronnement Nebmaâtrê-meryamoun (Ramsès VI). La densité des signes est caractéristique de la fin de l'époque ramesside, où chaque centimètre carré de la paroi est investi pour conjurer les forces du chaos. La finesse de la gravure, soulignée par une polychromie restée extrêmement vive, témoigne d'un chantier qui a duré près de six ans, utilisant les textes du Livre des Portes et du Livre de la Terre.</p>
-      <p>Contrairement à la tombe de Ramsès IV, le style ici se fait plus compact et les contrastes de couleurs plus marqués. Les hiéroglyphes sont exécutés avec une précision presque calligraphique : les rouges terreux, les bleus profonds et les blancs de chaux s'équilibrent pour guider l'œil à travers les récits cosmogoniques. Cette paroi illustre parfaitement la fonction "incantatoire" de l'art égyptien : l'écrit n'est pas fait pour être lu par les vivants, mais pour vibrer éternellement dans la pierre et accompagner le roi dans sa fusion avec le dieu solaire.</p>
-      <p>La présence répétée des figures de divinités agenouillées au-dessus des cartouches renforce la dimension rituelle de la scène. Elles semblent porter et protéger le nom du roi, assurant la survie de son Ren (le nom), l'un des composants essentiels de l'âme égyptienne. Cet ensemble monumental, par sa perfection technique et sa richesse théologique, demeure l'un des plus hauts témoignages de la pensée religieuse de la XXe dynastie, transformant la chambre funéraire en un véritable temple de la connaissance ésotérique.</p>
+      <p>Conservé in situ dans la Vallée des Rois à Thèbes-Ouest, au sein de l'hypogée KV9 attribué à Ramsès V et Ramsès VI, cet ensemble monumental date du Nouvel Empire, sous la XXe dynastie (vers 1149 – 1136 av. J.-C.)[cite: 6]. Il est réalisé en calcaire taillé, travaillé selon la technique du relief dans le creux et rehaussé d'une riche polychromie mêlant les ocres jaune et rouge, le bleu égyptien, le vert et le noir[cite: 6]. Ce panneau mural sculpté et peint provient de l'une des tombes les plus vastes et les mieux préservées de la nécropole thébaine[cite: 6]. Creusée à l'origine pour le pharaon Ramsès V, la sépulture a été usurpée, agrandie et réaménagée par son oncle et successeur, Ramsès VI[cite: 6]. La paroi déploie de longues colonnes verticales de hiéroglyphes finement ciselés dans la roche calcaire et animés de couleurs éclatantes[cite: 6]. L'état de conservation exceptionnel de ces pigments témoigne de la maîtrise technique des artisans royaux de la communauté de Deir el-Médineh à l'époque ramesside[cite: 6].</p>
+      <p>L'élément visuel dominant de cette composition réside dans le double alignement horizontal de cartouches à fond jaune d'or, une teinte évoquant la chair solaire et imputrescible des dieux, chacun étant cerné d'un anneau protecteur appelé shen[cite: 6]. Cette répétition litanique et rythmique scande les textes sacrés afin d'assurer l'omniprésence perpétuelle du nom royal dans l'au-delà[cite: 6]. Chaque colonne reprend ainsi selon un schéma immuable les deux noms principaux de la titulature du souverain défunt[cite: 6]. En partie supérieure, précédé du titre de Roi de Haute et Basse-Égypte figuré par le jonc et l'abeille et souvent introduit par la mention de l'Osiris-roi, le premier cartouche renferme le nom de couronnement Nebmaâtrê-Méryamon, qui signifie « Rê est le seigneur de la Maât, aimé d'Amon »[cite: 6]. Juste en dessous, introduit par l'épithète Fils de Rê représentée par le canard et le disque solaire rouge, le second cartouche affiche le nom de naissance Ramsès Amonherkhepeshef Netjerheqaiounou, traduisible par « Rê l'a mis au monde, Amon est sur son bras puissant, le dieu souverain d'Héliopolis »[cite: 6].</p>
+      <p>En observant attentivement la surface de la paroi au niveau des cartouches et des signes adjacents, on distingue par endroits de légères irrégularités et d'anciennes traces de plâtre[cite: 6]. Ces indices matériels révèlent le processus d'usurpation de la tombe : les cartouches originels gravés pour Ramsès V ont été rebouchés au stuc puis regravés et repeints au nom de Ramsès VI[cite: 6]. Sous le second cartouche, les colonnes de texte se poursuivent systématiquement par l'expression maâ-kherou, signifiant « juste de voix » ou « justifié », suivie de la mention auprès d'Osiris ou d'autres divinités funéraires, certifiant que le pharaon a triomphé des épreuves du jugement dernier et qu'il accède désormais à l'éternité bienheureuse[cite: 6].</p>
+      <p>Dans la pensée religieuse de l'Égypte ancienne, l'écriture hiéroglyphique, désignée sous le terme de medou netjer ou « paroles divines », possède une valeur hautement performative et magique[cite: 6]. Le fait d'inscrire et de répéter inlassablement le nom du monarque au cœur des grandes compositions cosmographiques qui tapissent la tombe KV9, telles que le Livre des Portes, le Livre des Cavernes ou le Livre de la Terre, permet de sanctifier son identité cosmique[cite: 6]. Le souverain se trouve ainsi directement associé à la course nocturne et régénératrice du dieu solaire Rê ainsi qu'au mystère de la résurrection d'Osiris[cite: 6].</p>
       <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1140) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Tombes & Rituels.</p>
     `,
     hotspots: [
       {
         x: 35.0,
         y: 28.5,
+        radius: 20,
+        startTime: 33,
+        endTime: 56,
         tag: "POINT 1 / 5 • FRISE DES CARTOUCHES",
         title: "La répétition rythmée des noms royaux",
         desc: "Les cartouches s'alignent en colonnes serrées sur un fond ocre doré, multipliant à l'infini la présence magique du souverain."
@@ -11379,30 +11383,42 @@ window.ART_OBJECTS.push(
       {
         x: 18.0,
         y: 75.0,
+        radius: 16,
+        startTime: 57,
+        endTime: 76,
         tag: "POINT 2 / 5 • HIÉROGLYPHES POLYCHROMES",
         title: "La précision calligraphique",
-        desc: "Les signes hiéroglyphiques (canards, bras, vases et sceptres) sont sculptés et peints avec une minutie remarquable, associant bleu égyptien, rouge terreux et ocre."
+        desc: "Les signes hiéroglyphiques (canards, bras, vases et sceptres) sont sculptés et peints avec minutie, associant bleu égyptien, rouge et ocre."
       },
       {
         x: 52.0,
         y: 42.0,
+        radius: 18,
+        startTime: 77,
+        endTime: 98,
         tag: "POINT 3 / 5 • NOM DE COURONNEMENT",
         title: "Le cartouche de Nebmaâtrê",
-        desc: "Chaque ovale royal abrite la titulature officielle de Ramsès VI, placée sous la protection directe des divinités hélipolitaines."
+        desc: "Chaque ovale royal abrite la titulature officielle de Ramsès VI, placée sous la protection directe des divinités."
       },
       {
         x: 75.0,
         y: 50.0,
+        radius: 22,
+        startTime: 99,
+        endTime: 119,
         tag: "POINT 4 / 5 • REGISTRES TEXTUELS",
         title: "Les formules du Livre des Portes",
-        desc: "Les colonnes textuelles adjacentes déroulent les incantations funéraires destinées à guider le pharaon dans son voyage nocturne à travers l'au-delà."
+        desc: "Les colonnes textuelles adjacentes déroulent les incantations funéraires destinées à guider le pharaon dans l'au-delà."
       },
       {
         x: 25.0,
         y: 24.0,
-        tag: "POINT 5 / 5 • PROTECTION DIVINE",
-        title: "Les figures agenouillées et symboles",
-        desc: "Les motifs surmontant les cartouches agissent comme des talismans éternels garantissant l'intégrité de l'âme (le Ren) du roi défunt."
+        radius: 18,
+        startTime: 120,
+        endTime: 138,
+        tag: "POINT 5 / 5 • TRACES D'USURPATION",
+        title: "Le palimpseste du stuc",
+        desc: "Les retouches de plâtre trahissent le passage de Ramsès V à Ramsès VI sur les parois de la tombe KV9."
       }
     ]
   },
