@@ -10719,43 +10719,61 @@ window.ART_OBJECTS.push(
     chips: ["XVIIIe dynastie", "Amenhotep II", "TT56 Ouserhat", "Chasse aux marais", "Nécropole thébaine"],
     deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
     imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP-BhYua3WxzjZsdH-TH5foQ3TPuVIfwRjYQd900eaNIuCsv_mhYFbCFMXooklvwuM715EI-hvA79jEIRGgux3r5jCtCrSkDECm3Ehsoyp19tTpsAiO0qmft6fAajeJ4Oc96DlRxNB0mFeIc6AvFVi_NQ=w1379-h919-s-no-gm?authuser=0",
+    audioSrc: "audio/chasse-vendanges-ouserhat-audioguide.mp3",
     narrative: `
-      <p>Cette peinture murale, joyau de la XVIIIe dynastie situé dans la tombe d’Ouserhat (TT56) à Cheikh Abd el-Gourna, illustre l'un des thèmes les plus emblématiques de l'iconographie funéraire thébaine : la chasse dans les fourrés de papyrus. Au centre de la composition, le défunt est représenté dans une posture héroïque et dynamique, debout sur une frêle embarcation de papyrus. Brandissant un javelot, il s'apprête à frapper des poissons ou des oiseaux, symbolisant ainsi le triomphe de l'ordre sur le chaos sauvage. À ses pieds, de petits animaux, peut-être des genettes ou des mangoustes, s'agitent sur le bateau, tandis que les tiges de papyrus forment un rideau vertical stylisé en arrière-plan, surmonté d'oiseaux s'envolant avec fracas.</p>
+      <p>Dans la nécropole thébaine de Cheikh Abd el-Gourna, la tombe d’Ouserhat (TT56) — scribe royal et vizir — dévoile sous le règne d’Amenhotep II un autre pan fondamental de l'iconographie funéraire du Nouvel Empire. Alors que d'autres parois documentent l'administration terrestre et la gestion des récoltes, cette fresque se tourne vers les plaisirs et les devoirs aristocratiques de l'au-delà, unissant la chasse symbolique dans les marécages et l'abondance des vendanges.</p>
+      <p>Au centre de la composition, le défunt est représenté dans une posture héroïque et dynamique, debout sur une frêle embarcation de papyrus. Brandissant un javelot, il s'apprête à frapper des poissons ou des oiseaux, symbolisant ainsi le triomphe de l'ordre sur le chaos sauvage. À ses pieds, de petits animaux, peut-être des genettes ou des mangoustes, s'agitent sur le bateau, tandis que les tiges de papyrus forment un rideau vertical stylisé en arrière-plan, surmonté d'oiseaux s'envolant avec fracas.</p>
       <p>La partie inférieure de la paroi prolonge cette immersion dans la nature et l'abondance avec des scènes de récolte et de stockage. On y distingue des structures légères, sortes de treilles ou de celliers, où sont suspendues des grappes de raisin et entreposées de nombreuses jarres pointues, soulignant le rôle d'Ouserhat comme superviseur des ressources royales. L'artiste a utilisé une palette de couleurs riches, où le bleu-vert des fourrés répond à l'ocre rouge de la peau et au blanc éclatant du pagne plissé. La fluidité du trait, caractéristique du règne d'Amenhotep II, parvient à capturer le mouvement tout en respectant les codes de la perspective hiérarchique égyptienne.</p>
       <p>Cette scène ne se contente pas de décorer la demeure d'éternité ; elle assure magiquement au défunt la capacité de jouir éternellement des plaisirs de la chasse et de l'abondance alimentaire dans les champs d'Ialou. La conservation de l'œuvre permet encore d'admirer la finesse des détails, comme le rendu des plumes d'oiseaux et les motifs ornementaux des colonnettes papyriformes, faisant de cet ensemble un témoignage précieux du raffinement de l'art de cour au Nouvel Empire.</p>
+      <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1425) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture murale.</p>
     `,
     hotspots: [
       {
-        x: 35.0,
-        y: 25.0,
+        x: 37.0,
+        y: 26.0,
+        radius: 22,
+        startTime: 26,
+        endTime: 50,
         tag: "POINT 1 / 5 • LE DÉFUNT AU JAVELOT",
         title: "La posture héroïque de la chasse",
         desc: "Ouserhat se dresse sur sa barque, le bras armé d'un javelot prêt à pourchasser la faune des marais marquant la maîtrise du chaos."
       },
       {
-        x: 48.0,
-        y: 58.0,
+        x: 43.0,
+        y: 57.0,
+        radius: 18,
+        startTime: 51,
+        endTime: 65,
         tag: "POINT 2 / 5 • EMBARCATION ET ANIMAUX",
         title: "La barque et les petits mammifères",
-        desc: "L'esquif en roseaux abrite des animaux familiers s'agitant aux pieds du chasseur dans l'ambiance agité des roseaux."
+        desc: "L'esquif en roseaux abrite des animaux familiers s'agitant aux pieds du chasseur dans l'ambiance agitée des roseaux."
       },
       {
-        x: 50.0,
+        x: 45.0,
         y: 35.0,
+        radius: 20,
+        startTime: 66,
+        endTime: 80,
         tag: "POINT 3 / 5 • RIDEAU DE PAPYRUS",
         title: "Les tiges verticales stylisées",
         desc: "Les hautes tiges géométrisées de papyrus structurent l'arrière-plan de la composition avec une grande élégance plastique."
       },
       {
-        x: 82.0,
-        y: 8.5,
+        x: 80.0,
+        y: 9.0,
+        radius: 18,
+        startTime: 81,
+        endTime: 91,
         tag: "POINT 4 / 5 • VOL D'OISEAUX",
         title: "L'avifaune des marécages",
         desc: "Des nuées d'oiseaux s'envolent en haut des fourrés, traduisant le dynamisme et le naturalisme de la scène thébaine."
       },
       {
-        x: 53.0,
-        y: 88.0,
+        x: 52.0,
+        y: 87.0,
+        radius: 24,
+        startTime: 92,
+        endTime: 103,
         tag: "POINT 5 / 5 • CELLIERS ET VENDANGES",
         title: "Le stockage du vin et des provisions",
         desc: "Le registre inférieur dévoile des treilles chargées de raisins et des jarres de réserve, illustrant la prospérité administrative du vizir."
