@@ -988,7 +988,7 @@ window.ART_OBJECTS.push(
         x: 54,
         y: 16,
         radius: 20,
-        startTime: 18,
+        startTime: 23,
         endTime: 41,
         tag: "POINT 1 / 5 • ATTRIBUT DIVIN ET SOLAIRE",
         title: "La complexe couronne Hemhem de Sobek",
