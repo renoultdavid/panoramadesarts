@@ -10136,8 +10136,8 @@ window.ART_OBJECTS.push(
     `,
     hotspots: [
       {
-        x: 50.0,
-        y: 45.0,
+        x: 60.0,
+        y: 15.0,
         radius: 20,
         startTime: 20,
         endTime: 38,
