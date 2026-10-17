@@ -11649,52 +11649,53 @@ window.ART_OBJECTS.push(
     imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOCr3RlgsoSBTcPE9kdlpAh33xItskUjs2FBDntnc-9RTcl3RvBHPddLzty8UVeoA3V3CvpMWijSQWBzyeKaXemEOaGF-1-wFeGg_PBPqH5pqB62KET0a94vOTNO19FZGWhEh9EsQ1oteTtCG-AbBKfug=w1379-h919-s-no-gm?authuser=0",
     audioSrc: "audio/abydos-audioguide.mp3",
     narrative: `
-      <p>Située dans le grand temple de Séthi Ier à Abydos, cette architrave monumentale en calcaire sculpté date de la XIXe dynastie, au XIIIe siècle avant notre ère. Elle est aujourd'hui mondialement célèbre sous le nom populaire de « l'hélicoptère d'Abydos » en raison d'une curieuse illusion d'optique qui a nourri de nombreuses théories fantastiques et pseudo-scientifiques.</p>
+      <p>Située dans le grand temple de Séthi Ier à Abydos, cette architrave monumentale en calcaire sculpté date de la XIXe dynastie, au XIIIe siècle avant notre ère. Elle est aujourd'hui mondialement célèbre sous le nom populaire de « l'hélicoptère d'Abydos » en raison d'une curieuse illusion d'optique qui a nourri pendant des décennies de nombreuses théories fantastiques et pseudo-scientifiques.</p>
       <p>En observant attentivement la pierre, on découvre des silhouettes qui, pour un œil non averti, évoquent de manière frappante des machines modernes comme un hélicoptère, un sous-marin ou un char d'assaut. Ce phénomène visuel insolite est en réalité le fruit d'un fascinant palimpseste épigraphique lié aux traditions de réinscription royale dans l'Égypte ancienne.</p>
       <p>À l'origine, ce linteau portait la titulature officielle du pharaon Séthi Ier. À sa mort, son fils et successeur Ramsès II fit réenduire de stuc et retailler certaines portions de la paroi pour y graver ses propres noms et titres, selon une pratique courante de mise à jour des monuments.</p>
-      <p>Au fil des siècles, les fines couches de plâtre superficiel se sont fissurées, érodées et détachées par endroits. Cela a eu pour conséquence de superposer visuellement et de croiser les hiéroglyphes gravés lors du premier règne avec ceux du second, donnant naissance à ces formes inattendues qui stimulent l'imaginaire.</p>
+      <p>Au fil des siècles, les fines couches de plâtre superficiel se sont fissurées, érodées et détachées par endroits. Cela a eu pour conséquence de superposer visuellement et de croiser les hiéroglyphes gravés lors du premier règne avec ceux du second.</p>
+      <p>Par exemple, le prétendu « rotor d'hélicoptère » résulte simplement du recoupement fortuit entre les signes d'une ancienne titulature faisant référence au repousseur des ennemis et les symboles protecteurs ajoutés par Ramsès II. L'érosion a ainsi fait naître des formes inattendues qui stimulent l'imaginaire, tout en témoignant de la complexité matérielle des chantiers pharaoniques.</p>
       <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1270) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Architecture & Temples.</p>
     `,
     hotspots: [
       {
-        x: 72.0,
-        y: 42.0,
-        radius: 12,
-        startTime: 22,
-        endTime: 41,
-        tag: "POINT 1 / 4 • LA FORME DE L'HÉLICOPTÈRE",
-        title: "L'illusion d'optique du rotor",
-        desc: "Cette silhouette célèbre ressemble à s'y méprendre à un hélicoptère moderne, née de la superposition fortuite de signes de Séthi Ier."
-      },
-      {
         x: 65.0,
-        y: 52.0,
-        radius: 12,
-        startTime: 42,
-        endTime: 57,
-        tag: "POINT 2 / 4 • LE SOUS-MARIN / PLANEUR",
-        title: "La coïncidence des glyphes superposés",
-        desc: "Les contours de ce prétendu sous-marin apparaissent par le croisement accidentel de lignes de stuc érodé et de hiéroglyphes."
-      },
-      {
-        x: 52.0,
         y: 45.0,
         radius: 14,
-        startTime: 58,
-        endTime: 71,
-        tag: "POINT 3 / 4 • LE CHAR D'ASSAUT",
-        title: "L'assemblage des signes militaires",
-        desc: "Cette forme évoquant un véhicule blindé provient de la combinaison des symboles liés au repousseur des ennemis."
+        startTime: 22,
+        endTime: 41,
+        tag: "POINT 1 / 4 • SILHOUETTES MODERNES",
+        title: "L'évocation des machines modernes",
+        desc: "En observant attentivement la pierre, on découvre des silhouettes évoquant un hélicoptère, un sous-marin ou un char d'assaut."
       },
       {
-        x: 88.0,
-        y: 55.0,
-        radius: 16,
+        x: 35.0,
+        y: 48.0,
+        radius: 15,
+        startTime: 42,
+        endTime: 57,
+        tag: "POINT 2 / 4 • TITULATURE DE SÉTHI IER",
+        title: "La titulature officielle originelle",
+        desc: "À l'origine, ce linteau portait la titulature officielle du pharaon Séthi Ier avant d'être modifié par son successeur."
+      },
+      {
+        x: 82.0,
+        y: 50.0,
+        radius: 15,
+        startTime: 58,
+        endTime: 71,
+        tag: "POINT 3 / 4 • FISSURES ET STUC",
+        title: "L'érosion des couches de plâtre",
+        desc: "Au fil des siècles, les fines couches de plâtre superficiel se sont fissurées, érodées et détachées par endroits."
+      },
+      {
+        x: 67.0,
+        y: 40.0,
+        radius: 12,
         startTime: 72,
         endTime: 83,
-        tag: "POINT 4 / 4 • PLÂTRE ÉRODÉ & PALIMPSESTE",
-        title: "La damnatio memoriae et l'érosion",
-        desc: "Les zones de stuc érodé laissent deviner les strates successives de la pierre retaillée, créant l'effet visuel propre au palimpseste."
+        tag: "POINT 4 / 4 • ROTOR D'HÉLICOPTÈRE",
+        title: "Le recoupement fortuit des signes",
+        desc: "Le prétendu « rotor d'hélicoptère » résulte du recoupement fortuit entre les anciennes titulatures et les symboles de Ramsès II."
       }
     ]
   },
