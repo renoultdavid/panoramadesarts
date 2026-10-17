@@ -10719,7 +10719,7 @@ window.ART_OBJECTS.push(
     chips: ["XVIIIe dynastie", "Amenhotep II", "TT56 Ouserhat", "Chasse aux marais", "Nécropole thébaine"],
     deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
     imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP-BhYua3WxzjZsdH-TH5foQ3TPuVIfwRjYQd900eaNIuCsv_mhYFbCFMXooklvwuM715EI-hvA79jEIRGgux3r5jCtCrSkDECm3Ehsoyp19tTpsAiO0qmft6fAajeJ4Oc96DlRxNB0mFeIc6AvFVi_NQ=w1379-h919-s-no-gm?authuser=0",
-    audioSrc: "ouserhat-chasse-audioguide.mp3",
+    audioSrc: "audio/ouserhat-chasse-audioguide.mp3",
     narrative: `
       <p>Dans la nécropole thébaine de Cheikh Abd el-Gourna, la tombe d’Ouserhat (TT56) — scribe royal et vizir — dévoile sous le règne d’Amenhotep II un autre pan fondamental de l'iconographie funéraire du Nouvel Empire. Alors que d'autres parois documentent l'administration terrestre et la gestion des récoltes, cette fresque se tourne vers les plaisirs et les devoirs aristocratiques de l'au-delà, unissant la chasse symbolique dans les marécages et l'abondance des vendanges.</p>
       <p>Au centre de la composition, le défunt est représenté dans une posture héroïque et dynamique, debout sur une frêle embarcation de papyrus. Brandissant un javelot, il s'apprête à frapper des poissons ou des oiseaux, symbolisant ainsi le triomphe de l'ordre sur le chaos sauvage. À ses pieds, de petits animaux, peut-être des genettes ou des mangoustes, s'agitent sur le bateau, tandis que les tiges de papyrus forment un rideau vertical stylisé en arrière-plan, surmonté d'oiseaux s'envolant avec fracas.</p>
