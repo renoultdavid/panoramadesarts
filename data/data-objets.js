@@ -12566,47 +12566,62 @@ window.ART_OBJECTS.push(
     chips: ["Groupe C de Nubie", "Scène de chasse", "Céramique polychrome", "Musée de la Nubie"],
     deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
     imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMi-BvXFAODbjMkBvY-7Fv1pgQsHLY_whUnHcCeEFD6dSCzV8chvfeZpNz-KZfICCX1gs2nj1MS1Fiis-Wh_Rjs6PZ93_bBSZpiQcbSm4mClIEq_MY_j8qFehXb9PlMrFh-0NSDjstzsqUvf5NssasLsA=w1379-h919-s-no-gm?authuser=0",
+    audioSrc: "audio/plat-chasse-nubie-audioguide.mp3",
     narrative: `
-      <p>Conservée au Musée de la Nubie à Assouan, en Égypte, cette coupe en terre cuite provient d'une sépulture nubienne de Basse-Nubie. Elle est datée de la période du Groupe C, plus précisément de la phase moyenne ou récente, vers la fin du Moyen Empire égyptien ou la Deuxième Période intermédiaire (environ 2000 – 1650 av. J.-C.). Façonnée à la main dans une argile locale malaxée avec des dégraissants organiques, l'œuvre est recouverte d'un enduit blanc mat qui sert de fond clair pour un riche décor peint en polychromie, utilisant le noir et des touches de jaune-ocre ou de brun. Le récipient présente une forme hémisphérique évasée, caractéristique de la vaisselle rituelle et funéraire déposée dans les tombes de cette culture pastorale et paysanne.</p>
-      <p>L'intérieur de la coupe constitue un espace narratif circulaire d'une grande vivacité, entièrement animé par une scène de chasse en plein désert ou dans la brousse nilotique. Au centre de la composition se dresse un personnage masculin représenté de face, doté d'une chevelure courte foncée et vêtu d'un pagne court rayé ou hachuré. L'homme tient dans ses mains tendues un grand arc tendu qu'il s'apprête à décocher, tandis qu'il brandit des flèches de l'autre main. Autour de lui évoluent plusieurs animaux sauvages et domestiques : un grand chien de chasse tacheté au corps élancé et à la queue recourbée, des félins ou des prédateurs au pelage ocre et, dans la partie inférieure, une scène dynamique montrant des chiens poursuivant un lièvre fuyant à toute vitesse. De part et d'autre, des gerbes végétales ou des motifs de roseaux stylisés évoquent le milieu naturel de la vallée du Nil.</p>
-      <p>Cette œuvre témoigne de l'habileté remarquable des artisans du Groupe C, qui occupaient la région située entre la première et la deuxième cataracte du Nil. Alors que la céramique nubienne est mondialement célèbre pour ses terres cuites à poli noir et à bord noir caractéristiques, certaines pièces exceptionnelles adoptent ce décor peint sur fond blanc qui trahit des influences croisées avec l'art égyptien contemporain, tout en conservant une liberté et un esprit narratif proprement nubiens. Déposée dans une tombe, cette coupe soulignait le statut cynégétique du défunt, la chasse représentant à la fois une activité de subsistance essentielle et un symbole de maîtrise sur les forces chaotiques du désert dans l'idéologie funéraire de la Nubie ancienne.</p>
+      <p>Conservée au Musée de la Nubie à Assouan, cette coupe en terre cuite hémisphérique provient d'une sépulture de Basse-Nubie. Datée de la période du Groupe C, entre 2000 et 1650 avant notre ère, elle témoigne du raffinement de cette culture pastorale. Recouverte d'un enduit blanc mat, elle présente un décor peint polychrome d'une grande vivacité narrative illustrant une scène de chasse en plein désert nilotique.</p>
+      <p>L'intérieur de la coupe forme un espace circulaire où s'articulent le chasseur, ses chiens et la faune sauvage. Cette œuvre illustre l'habileté des artisans nubiens et souligne l'importance symbolique de la chasse, perçue à la fois comme une subsistance et comme la maîtrise des forces du chaos.</p>
       <p><strong>Siècle :</strong> XXe - XVIIe siècle av. J.-C. | <strong>Civilisation :</strong> Basse-Nubie (Groupe C) | <strong>Sous-partie :</strong> Céramiques.</p>
     `,
     hotspots: [
       {
         x: 50.0,
-        y: 40.0,
+        y: 28.0,
+        radius: 14,
+        startTime: 29,
+        endTime: 48,
         tag: "POINT 1 / 5 • PERSONNAGE & ARC TENDU",
         title: "Le chasseur au centre de l'action",
-        desc: "Le personnage masculin, vêtu d'un pagne et doté d'une chevelure sombre, bande son grand arc avec assurance au milieu de l'espace circulaire."
+        desc: "Le personnage masculin, vêtu d'un pagne hachuré et doté d'une chevelure sombre, bande son grand arc avec assurance."
       },
       {
-        x: 35.0,
-        y: 45.0,
+        x: 36.0,
+        y: 52.0,
+        radius: 12,
+        startTime: 49,
+        endTime: 64,
         tag: "POINT 2 / 5 • CHIEN DE CHASSE",
         title: "Le lévrier tacheté à la course",
         desc: "Un grand chien de chasse au corps svelte et à la queue recourbée accompagne activement la traque aux côtés de son maître."
       },
       {
-        x: 55.0,
-        y: 72.0,
+        x: 52.0,
+        y: 78.0,
+        radius: 14,
+        startTime: 65,
+        endTime: 80,
         tag: "POINT 3 / 5 • POURSUITE DU LIÈVRE",
         title: "La scène de fuite animale",
-        desc: "La partie inférieure du registre circulaire met en scène des canidés aux prises avec un lièvre fuyant à toute vitesse dans les broussailles."
+        desc: "La partie inférieure du registre circulaire met en scène des canidés aux prises avec un lièvre fuyant à toute vitesse."
       },
       {
-        x: 70.0,
+        x: 68.0,
         y: 42.0,
+        radius: 12,
+        startTime: 81,
+        endTime: 96,
         tag: "POINT 4 / 5 • ANIMAUX SAUVAGES",
         title: "Les prédateurs du désert",
-        desc: "Plusieurs félins ou animaux sauvages au pelage ocre et noir peuplent la frise, soulignant la diversité de la faune affrontée par les chasseurs."
+        desc: "Plusieurs félins ou animaux sauvages au pelage ocre et noir peuplent la frise, soulignant la diversité de la faune."
       },
       {
-        x: 75.0,
-        y: 68.0,
+        x: 29.0,
+        y: 67.0,
+        radius: 13,
+        startTime: 97,
+        endTime: 105,
         tag: "POINT 5 / 5 • GERBES VÉGÉTALES",
         title: "Le décor de roseaux et de brousse",
-        desc: "Des motifs de roseaux stylisés et des gerbes végétales rappellent le milieu naturel et marécageux de la vallée nilotique."
+        desc: "Des motifs de roseaux stylisés et des gerbes végétales rappellent le milieu naturel et marécageux de la vallée du Nil."
       }
     ]
   },
