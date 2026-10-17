@@ -9839,10 +9839,65 @@ window.ART_OBJECTS.push(
     chips: ["XIXe dynastie", "TT3 Pashedu", "Cime thébaine", "Œil Oudjat"],
     deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
     imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOj3Ki1xvaNRjDd7wuuOCMAYzA2f9X2Jha6x9Nnua8tFBLqMLytJhf0PNtnTDnUFMvLWCO4dCaT-HeKWf5jis67SdM07oB0migyPaUJlAEq6Hfjnmn3cN93SkL-818J-gDG1Ejy6I4yiCwQ0kHsb0rkNA=w1379-h919-s-no-gm?authuser=0",
-    narrative: `<p>Cette peinture murale, située dans la chambre funéraire de la tombe de Pashedou (TT3) à Deir el-Médineh, constitue l'un des sommets de l'art funéraire de la XIXe dynastie, sous le règne de Ramsès II. Elle représente le dieu Osiris, souverain de l'au-delà et juge des morts, trônant majestueusement dans une posture hiératique caractéristique. Le dieu est figuré avec une peau verte, symbole de la régénération végétale et de la renaissance éternelle, et porte la barbe postiche recourbée des divinités. Il est vêtu d'un linceul de momie blanc immaculé, serré à la taille par une écharpe rouge, et tient contre sa poitrine les insignes de la royauté : le crochet héqa et le fouet nekhekh.</p>
-    <p>Osiris est coiffé de la perruque striée bleue et or, et se tient devant une montagne stylisée de couleur ocre rouge parsemée de points noirs, représentant la "Cime" thébaine ou l'Occident, lieu de résidence des défunts. Au-dessus de lui, le plafond voûté est saturé de colonnes de textes hiéroglyphiques tracés à l'encre noire sur un fond jaune d'or, contenant des extraits du Livre des Morts destinés à assurer la protection du dieu et la survie de Pashedou dans le royaume souterrain. À gauche, l'œil Oudjat surdimensionné veille sur la scène, symbolisant l'intégrité retrouvée et la protection contre les forces du chaos.</p>
-    <p>La composition se distingue par l'équilibre parfait entre la rigueur des textes sacrés et la puissance graphique de la figure divine, dont le regard semble percer l'éternité. Cette œuvre illustre la piété personnelle profonde des artisans de la "Place de Vérité", qui, tout en bâtissant les palais d'éternité des pharaons, ont su créer pour eux-mêmes des espaces d'une ferveur religieuse et d'une qualité esthétique exceptionnelles.</p>
-    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1250) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+    audioSrc: "audio/pashedu-osiris-audioguide.mp3",
+    narrative: `
+      <p>Cette peinture murale, située dans la chambre funéraire de la tombe de Pashedou (TT3) à Deir el-Médineh, constitue l'un des sommets de l'art funéraire de la XIXe dynastie, sous le règne de Ramsès II. Elle représente le dieu Osiris, souverain de l'au-delà et juge des morts, trônant majestueusement dans une posture hiératique caractéristique. Le dieu est figuré avec une peau verte, symbole de la régénération végétale et de la renaissance éternelle, et porte la barbe postiche recourbée des divinités. Il est vêtu d'un linceul de momie blanc immaculé, serré à la taille par une écharpe rouge, et tient contre sa poitrine les insignes de la royauté : le crochet héqa et le fouet nekhekh.</p>
+      <p>Osiris est coiffé de la perruque striée bleue et or, et se tient devant une montagne stylisée de couleur ocre rouge parsemée de points noirs, représentant la "Cime" thébaine ou l'Occident, lieu de résidence des défunts. Au-dessus de lui, le plafond voûté est saturé de colonnes de textes hiéroglyphiques tracés à l'encre noire sur un fond jaune d'or, contenant des extraits du Livre des Morts destinés à assurer la protection du dieu et la survie de Pashedou dans le royaume souterrain. À gauche, l'œil Oudjat surdimensionné veille sur la scène, symbolisant l'intégrité retrouvée et la protection contre les forces du chaos.</p>
+      <p>La composition se distingue par l'équilibre parfait entre la rigueur des textes sacrés et la puissance graphique de la figure divine, dont le regard semble percer l'éternité. Cette œuvre illustre la piété personnelle profonde des artisans de la "Place de Vérité", qui, tout en bâtissant les palais d'éternité des pharaons, ont su créer pour eux-mêmes des espaces d'une ferveur religieuse et d'une qualité esthétique exceptionnelles.</p>
+      <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1250) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>
+    `,
+    hotspots: [
+      {
+        x: 50.0,
+        y: 42.0,
+        radius: 20,
+        startTime: 20,
+        endTime: 38,
+        tag: "POINT 1 / 5 • LE DIEU OSIRIS AU LINCEUL BLANC",
+        title: "La figure hiératique d'Osiris",
+        desc: "Le souverain de l'au-delà arbore une carnation verte de régénération et tient les sceptres royaux contre son vêtement immaculé."
+      },
+      {
+        x: 18.0,
+        y: 75.0,
+        radius: 22,
+        startTime: 39,
+        endTime: 56,
+        tag: "POINT 2 / 5 • LA CIMES THÉBAINE ET L'ŒIL OUDJAT",
+        title: "La montagne sacrée de l'Occident",
+        desc: "La montagne ocre parsemée de points noirs protège la tombe, veillée par l'œil protecteur d'Horus (Oudjat)."
+      },
+      {
+        x: 55.0,
+        y: 15.0,
+        radius: 24,
+        startTime: 57,
+        endTime: 74,
+        tag: "POINT 3 / 5 • TEXTES HÉROGLYPHIQUES DU LIVRE DES MORTS",
+        title: "Les colonnes d'écriture sur fond d'or",
+        desc: "Le plafond voûté est recouvert de formules sacrées tracées en noir pour garantir l'éternité du défunt Pashedou."
+      },
+      {
+        x: 35.0,
+        y: 48.0,
+        radius: 16,
+        startTime: 75,
+        endTime: 92,
+        tag: "POINT 4 / 5 • LES INSIGNES ROYAUX",
+        title: "Le crochet héqa et le fouet nekhekh",
+        desc: "Croisés sur la poitrine du dieu, ces attributs symbolisent son pouvoir suprême sur le royaume des défunts."
+      },
+      {
+        x: 95.0,
+        y: 92.0,
+        radius: 15,
+        startTime: 93,
+        endTime: 110,
+        tag: "POINT 5 / 5 • OFFRANDES RITUELLES",
+        title: "Les tables de libations et offrandes",
+        desc: "En bas à droite, les registres rappellent les tables d'offrandes nécessaires au culte funéraire de la tombe."
+      }
+    ]
   },
   {
     id: "peinture_osiris_trones_archaiques_pashedu_tt3",
@@ -9964,11 +10019,66 @@ window.ART_OBJECTS.push(
     chips: ["XVIIIe dynastie", "Nebamoun", "Chars et chevaux", "British Museum"],
     deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
     imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMtpvV0L9eAxPfPFgTXTljKUafgvbuIqqQa_ydoygPofB8oeUw-yOx_WBOZFVEcgsXIgLMJMDycVexVqJWUDdbTFlhoXoBTmQ9ULSNPb6FuATsq7spHfMCwOWLuMk3VNK5yMu9z2EjP5sMLfG6gGV1umw=w1379-h919-s-no-gm?authuser=0",
-    narrative: `<p>Cette peinture murale exceptionnelle provient de la chapelle funéraire de Nebamun, un scribe et comptable du grain au temple d'Amon à Thèbes, datée du Nouvel Empire vers 1350 avant notre ère. Aujourd'hui conservée au British Museum à Londres, cette fresque à sec sur enduit de limon et de plâtre illustre la richesse et la précision de l'art funéraire égyptien sous la XVIIIe dynastie. Le fragment présenté ici dépeint une scène de gestion agricole où le défunt, dans son rôle de superviseur, veille à l'exactitude des récoltes futures, assurant ainsi sa subsistance éternelle dans l'au-delà tout en témoignant de son statut social élevé durant sa vie terrestre.</p>
-    <p>La composition se divise en plusieurs registres qui organisent la lecture du travail aux champs. Sur la partie gauche, un homme debout, probablement un paysan ou un assistant de Nebamun, est représenté de profil avec une musculature marquée et une peau brunie par le soleil. Il se tient devant un champ de céréales mûres, symbolisé par des lignes verticales denses. Son attitude est celle de l'observation ou du respect, tandis qu'au-dessus de lui, des colonnes de hiéroglyphes détaillent l'inventaire ou le dialogue lié à la récolte. La finesse du trait permet de distinguer les détails de son pagne blanc et la courbure de son corps en plein effort ou en pleine réflexion.</p>
-    <p>Le centre et la droite de l'image sont dominés par la représentation de chars et de chevaux, introduisant un dynamisme rare dans l'art égyptien. Dans le registre supérieur, un char léger à deux roues est conduit par un personnage aux cheveux courts, attelé à un cheval sombre au harnachement rouge vif, dont la queue et les membres suggèrent un mouvement de marche. Juste en dessous, un second char est tiré par une paire de chevaux plus clairs, dont les têtes superposées créent un effet de profondeur. On remarque également la présence d'un arbre stylisé sur le bord droit, aux feuilles représentées par des touches de peinture verte et des formes ovales, apportant une note végétale qui cadre la scène de plein air.</p>
-    <p>L'aspect technique de l'œuvre révèle une maîtrise remarquable des pigments naturels. Les ocres rouges pour la peau et les structures des chars contrastent avec le blanc des vêtements et le noir utilisé pour les crinières et les contours. Malgré les lacunes et les cassures de l'enduit visibles sur les bords du fragment, la vivacité des couleurs demeure frappante. Cette scène n'est pas qu'une simple représentation du quotidien ; elle est une construction idéalisée de l'ordre et de l'abondance, où chaque geste est codifié pour servir la mémoire du scribe Nebamun.</p>
-    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1350) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+    audioSrc: "audio/nebamun-chars-audioguide.mp3",
+    narrative: `
+      <p>Cette peinture murale exceptionnelle provient de la chapelle funéraire de Nebamun, un scribe et comptable du grain au temple d'Amon à Thèbes, datée du Nouvel Empire vers 1350 avant notre ère[cite: 10]. Aujourd'hui conservée au British Museum à Londres[cite: 10], cette fresque à sec sur enduit de limon et de plâtre illustre la richesse et la précision de l'art funéraire égyptien sous la XVIIIe dynastie. Le fragment présenté ici dépeint une scène de gestion agricole où le défunt, dans son rôle de superviseur, veille à l'exactitude des récoltes futures, assurant ainsi sa subsistance éternelle dans l'au-delà tout en témoignant de son statut social élevé durant sa vie terrestre.</p>
+      <p>La composition se divise en plusieurs registres qui organisent la lecture du travail aux champs. Sur la partie gauche, un homme debout, probablement un paysan ou un assistant de Nebamun, est représenté de profil avec une musculature marquée et une peau brunie par le soleil. Il se tient devant un champ de céréales mûres, symbolisé par des lignes verticales denses. Son attitude est celle de l'observation ou du respect, tandis qu'au-dessus de lui, des colonnes de hiéroglyphes détaillent l'inventaire ou le dialogue lié à la récolte. La finesse du trait permet de distinguer les détails de son pagne blanc et la courbure de son corps en plein effort ou en pleine réflexion.</p>
+      <p>Le centre et la droite de l'image sont dominés par la représentation de chars et de chevaux, introduisant un dynamisme rare dans l'art égyptien. Dans le registre supérieur, un char léger à deux roues est conduit par un personnage aux cheveux courts, attelé à un cheval sombre au harnachement rouge vif, dont la queue et les membres suggèrent un mouvement de marche[cite: 10]. Juste en dessous, un second char est tiré par une paire de chevaux plus clairs, dont les têtes superposées créent un effet de profondeur[cite: 10]. On remarque également la présence d'un arbre stylisé sur le bord droit, aux feuilles représentées par des touches de peinture verte et des formes ovales, apportant une note végétale qui cadre la scène de plein air.</p>
+      <p>L'aspect technique de l'œuvre révèle une maîtrise remarquable des pigments naturels. Les ocres rouges pour la peau et les structures des chars contrastent avec le blanc des vêtements et le noir utilisé pour les crinières et les contours. Malgré les lacunes et les cassures de l'enduit visibles sur les bords du fragment, la vivacité des couleurs demeure frappante. Cette scène n'est pas qu'une simple représentation du quotidien ; elle est une construction idéalisée de l'ordre et de l'abondance, où chaque geste est codifié pour servir la mémoire du scribe Nebamun.</p>
+      <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1350) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>
+    `,
+    hotspots: [
+      {
+        x: 20.0,
+        y: 48.0,
+        radius: 20,
+        startTime: 20,
+        endTime: 38,
+        tag: "POINT 1 / 5 • PAYSAN AUX CHAMPS ET HIÉROGLYPHES",
+        title: "L'inspection des cultures de céréales",
+        desc: "Un travailleur aux champs observe les épis de blé mûrs, surmonté de colonnes de textes hiéroglyphiques détaillant l'inventaire."
+      },
+      {
+        x: 35.0,
+        y: 28.0,
+        radius: 18,
+        startTime: 39,
+        endTime: 56,
+        tag: "POINT 2 / 5 • PREMIER CHAR ET COCHER",
+        title: "Le char léger du registre supérieur",
+        desc: "Un conducteur mène un attelage rapide doté d'une roue à rayons finement cisurée et d'un harnachement écarlate."
+      },
+      {
+        x: 65.0,
+        y: 28.0,
+        radius: 20,
+        startTime: 57,
+        endTime: 74,
+        tag: "POINT 3 / 5 • CHEVAL NOIR AU HARNAIS ROUGE",
+        title: "La puissance de l'étalon sombre",
+        desc: "Le cheval au pelage noir et à la crinière fournie illustre la maîtrise équestre et le dynamisme de la cavalerie thébaine."
+      },
+      {
+        x: 63.0,
+        y: 72.0,
+        radius: 20,
+        startTime: 75,
+        endTime: 92,
+        tag: "POINT 4 / 5 • SECOND ATTELAGE DE CHEVAUX CLAIRS",
+        title: "La profondeur des têtes superposées",
+        desc: "Dans le registre inférieur, deux chevaux de robe claire avancent de concert, créant un effet saisissant de perspective."
+      },
+      {
+        x: 85.0,
+        y: 45.0,
+        radius: 22,
+        startTime: 93,
+        endTime: 110,
+        tag: "POINT 5 / 5 • L'ARBRE STYLISÉ ET CADRE VÉGÉTAL",
+        title: "La nature et le paysage de plein air",
+        desc: "L'arbre aux feuilles ovales peintes en vert encadre la composition et enracine la scène dans un décor champêtre."
+      }
+    ]
   },
   {
     id: "peinture_etang_jardin_nebamun_british",
@@ -10016,11 +10126,66 @@ window.ART_OBJECTS.push(
     chips: ["XVIIIe dynastie", "Nebamoun", "Chasse dans les marais", "Chat chasseur"],
     deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
     imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczN4IovMIClAG83axtXgQNbss9RHI8sFnKIAKwNJdK2QhFXGLKPfzX81hCK9Mqa3ar6lGVY1XrT7zhC2A_PR6Z_G_Jj8F0OrlZmaT4c8NWpHJTzbcQMlh_DpIvdwOnD-ROwdGoV0e1MiEmBqFamVbrWbiA=w1379-h919-s-no-gm?authuser=0",
-    narrative: `<p>Réalisée vers 1350 avant notre ère et conservée au British Museum de Londres, cette œuvre de la XVIIIe dynastie capture l'idéal de la vie éternelle où le défunt, scribe et comptable du grain, domine les forces de la nature sauvage. La scène est d'une vivacité exceptionnelle, mêlant une symbolique religieuse profonde à un naturalisme d'une grande finesse technique.</p>
-    <p>Nebamun occupe le centre de la composition, debout sur une frêle embarcation de papyrus. Représenté selon les canons de la perspective hiérarchique, il est bien plus grand que son épouse Hatchepsout, debout derrière lui, et sa jeune fille, assise à ses pieds entre ses jambes. D'un geste vigoureux, il brandit un bâton de jet en forme de serpent, s'apprêtant à frapper une nuée d'oiseaux qui s'envolent d'un fourré de papyrus stylisé sur la gauche. Son corps athlétique, paré de bijoux et d'un pagne blanc plissé, incarne la vigueur et la jeunesse éternelles promises par la renaissance dans l'au-delà.</p>
-    <p>La richesse de la faune et de la flore représentées est remarquable. Un chat roux, auxiliaire de chasse de Nebamun, bondit parmi les tiges de papyrus et saisit simultanément trois oiseaux avec ses griffes et sa gueule, illustrant la maîtrise de l'ordre sur le chaos. Des papillons aux ailes tachetées voltigent dans l'espace, tandis que des poissons nagent dans l'eau sous le bateau. La précision des détails, des plumes irisées des oiseaux aux écailles des poissons, témoigne de la virtuosité des peintres thébains qui utilisaient des pigments minéraux sur un enduit sec pour obtenir cette intensité de couleurs.</p>
-    <p>Au-delà de l'aspect récréatif, cette chasse possède une dimension sacrée : elle symbolise le triomphe du défunt sur les forces désordonnées du monde, garantissant ainsi l'équilibre cosmique, ou Maât. Les fleurs de lotus tenues par sa femme et sa fille renvoient à la régénération et à la naissance du soleil. Cette fresque n'est pas seulement le portrait d'un homme en activité, c'est une évocation poétique et puissante du cycle de la vie et de la survie de l'âme dans les champs d'Ialou.</p>
-    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1350) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+    audioSrc: "audio/nebamun-chasse-marais-audioguide.mp3",
+    narrative: `
+      <p>Réalisée vers 1350 avant notre ère et conservée au British Museum de Londres[cite: 11], cette œuvre de la XVIIIe dynastie capture l'idéal de la vie éternelle où le défunt, scribe et comptable du grain, domine les forces de la nature sauvage. La scène est d'une vivacité exceptionnelle, mêlant une symbolique religieuse profonde à un naturalisme d'une grande finesse technique.</p>
+      <p>Nebamun occupe le centre de la composition, debout sur une frêle embarcation de papyrus. Représenté selon les canons de la perspective hiérarchique, il est bien plus grand que son épouse, debout derrière lui, et sa jeune fille, assise à ses pieds entre ses jambes. D'un geste vigoureux, il brandit un bâton de jet en forme de serpent, s'apprêtant à frapper une nuée d'oiseaux qui s'envolent d'un fourré de papyrus stylisé sur la gauche. Son corps athlétique, paré de bijoux et d'un pagne blanc plissé, incarne la vigueur et la jeunesse éternelles promises par la renaissance dans l'au-delà.</p>
+      <p>La richesse de la faune et de la flore représentées est remarquable. Un chat roux, auxiliaire de chasse de Nebamun, bondit parmi les tiges de papyrus et saisit simultanément plusieurs oiseaux avec ses griffes et sa gueule, illustrant la maîtrise de l'ordre sur le chaos. Des papillons aux ailes tachetées voltigent dans l'espace, tandis que des poissons nagent dans l'eau sous le bateau. La précision des détails, des plumes irisées des oiseaux aux écailles des poissons, témoigne de la virtuosité des peintres thébains qui utilisaient des pigments minéraux sur un enduit sec pour obtenir cette intensité de couleurs.</p>
+      <p>Au-delà de l'aspect récréatif, cette chasse possède une dimension sacrée : elle symbolise le triomphe du défunt sur les forces désordonnées du monde, garantissant ainsi l'équilibre cosmique, ou Maât. Les fleurs de lotus tenues par sa femme et sa fille renvoient à la régénération et à la naissance du soleil. Cette fresque n'est pas seulement le portrait d'un homme en activité, c'est une évocation poétique et puissante du cycle de la vie et de la survie de l'âme dans les champs d'Ialou.</p>
+      <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1350) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>
+    `,
+    hotspots: [
+      {
+        x: 50.0,
+        y: 45.0,
+        radius: 20,
+        startTime: 20,
+        endTime: 38,
+        tag: "POINT 1 / 5 • NEBAMUN ET LE BÂTON DE JET",
+        title: "Le scribe au cœur de l'action",
+        desc: "Debout sur son embarcation, Nebamun brandit son bâton de jet pour capturer le gibier d'eau au milieu des papyrus."
+      },
+      {
+        x: 33.0,
+        y: 62.0,
+        radius: 18,
+        startTime: 39,
+        endTime: 56,
+        tag: "POINT 2 / 5 • LE CHAT ROUX PRÉDATEUR",
+        title: "Le félin chasseur dans les fourrés",
+        desc: "Un chat roux extraordinaire bondit au milieu des tiges, maîtrisant plusieurs oiseaux à la fois avec une agilité saisissante."
+      },
+      {
+        x: 22.0,
+        y: 22.0,
+        radius: 20,
+        startTime: 57,
+        endTime: 74,
+        tag: "POINT 3 / 5 • NUÉE D'OISEAUX ET PAPILLONS",
+        title: "La richesse de la faune des marais",
+        desc: "Des hérons, des oies aux plumages colorés et des papillons aux ailes tachetées s'envolent de la brousse aquatique."
+      },
+      {
+        x: 78.0,
+        y: 42.0,
+        radius: 18,
+        startTime: 75,
+        endTime: 92,
+        tag: "POINT 4 / 5 • L'ÉPOUSE ET LE LOTUS",
+        title: "L'accompagnement féminin et les offrandes",
+        desc: "L'épouse de Nebamun se tient derrière lui, parée de ses plus beaux atours et tenant des fleurs de lotus symboles de renaissance."
+      },
+      {
+        x: 58.0,
+        y: 85.0,
+        radius: 16,
+        startTime: 93,
+        endTime: 110,
+        tag: "POINT 5 / 5 • LA JEUNE FILLE ET LA BARQUE",
+        title: "La fille de Nebamun et l'esquif de papyrus",
+        desc: "Assise aux pieds de son père, la jeune fille cueille des fleurs tandis que la coque de la barque glisse sur l'eau poissonneuse."
+      }
+    ]
   },
   {
     id: "peinture_comptage_troupeaux_oies_nebamun_british",
@@ -10092,11 +10257,66 @@ window.ART_OBJECTS.push(
     chips: ["XVIIIe dynastie", "Nebamoun", "Banquet aristocratique", "Cônes d'onguent"],
     deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
     imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNfj-Z1U_mU7Rdm2bQi2gT4OfeCUHAUbSBwkPOrbjiTxdZcCOyEQ5kSIn_xve_O1kdSbDmdlYG-agcLzC5vg4YnIa2UsJ1w6-yIfnybYDVzBQm1sK-iE9SlKDYMeNmlvfpuj6z9My6KrZ51DbQsZ-65Rg=w1379-h919-s-no-gm?authuser=0",
-    narrative: `<p>Cette fresque magistrale, l'une des pièces les plus emblématiques de la chapelle funéraire de Nebamun à Thèbes, illustre la luxuriance des réceptions mondaines sous la XVIIIe dynastie, vers 1350 avant notre ère. Aujourd'hui exposée au British Museum, cette peinture murale offre une vision idéalisée du banquet funéraire, où les vivants et les morts se rejoignent dans une atmosphère de fête, de musique et de régénération. La composition, d'une densité exceptionnelle, est un témoignage précieux sur les coutumes sociales, la mode et l'esthétique raffinée du Nouvel Empire à son apogée.</p>
-    <p>La scène est organisée en deux registres superposés montrant les invités de rang élevé. Dans le registre supérieur, des couples d'hommes et de femmes sont assis sur des chaises élégantes à pieds en forme de pattes de lion, tandis que le registre inférieur semble davantage dévolu aux femmes. Les invités sont parés de leurs plus beaux atours : des robes de lin fin, plissées et transparentes, ainsi que de larges colliers ousekh richement colorés. Sur leurs perruques noires élaborées, ils portent des cônes d'onguent parfumés qui, en fondant lentement, embaument leurs cheveux et leurs vêtements. Des servantes presque nues, vêtues seulement de fines ceintures de hanches et de bijoux, circulent entre les convives pour leur offrir des fleurs de lotus, des coupes de vin ou ajuster leurs parures.</p>
-    <p>Le raffinement des détails est frappant, notamment dans le rendu des visages de profil aux grands yeux soulignés de fard noir et les mains aux doigts longs et graciles tenant des fleurs de lotus, symbole de renaissance. Sur la gauche de chaque registre, on distingue des tables d'offrandes croulant sous les victuailles : pains, grappes de raisins, fruits et jarres de vin scellées, garantissant la satiété éternelle de Nebamun et de ses proches. L'artiste a su capturer l'élégance et la sensualité de l'instant, faisant de ce banquet une célébration de la vie qui doit se poursuivre dans l'au-delà.</p>
-    <p>D'un point de vue technique, cette fresque démontre la virtuosité des peintres thébains dans l'utilisation de la couleur et de la ligne. Les nuances de rouge, d'ocre et de bleu sont appliquées avec une grande précision sur l'enduit sec, et les effets de transparence du lin sont rendus par des glacis subtils. Malgré les fissures naturelles du temps et les lacunes sur les bords du fragment, l'œuvre conserve une vitalité extraordinaire. Elle n'est pas seulement une représentation d'un événement mondain, mais un acte rituel visant à réactiver les sens du défunt pour l'éternité par le plaisir des yeux, de l'odorat et du goût.</p>
-    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1350) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+    audioSrc: "audio/ouserhat-audioguide.mp3",
+    narrative: `
+      <p>Cette fresque magistrale, l'une des pièces les plus emblématiques de la chapelle funéraire de Nebamun à Thèbes, illustre la luxuriance des réceptions mondaines sous la XVIIIe dynastie, vers 1350 avant notre ère[cite: 12]. Aujourd'hui exposée au British Museum[cite: 12], cette peinture murale offre une vision idéalisée du banquet funéraire, où les vivants et les morts se rejoignent dans une atmosphère de fête, de musique et de régénération. La composition, d'une densité exceptionnelle, est un témoignage précieux sur les coutumes sociales, la mode et l'esthétique raffinée du Nouvel Empire à son apogée.</p>
+      <p>La scène est organisée en deux registres superposés montrant les invités de rang élevé[cite: 12]. Dans le registre supérieur, des couples d'hommes et de femmes sont assis sur des chaises élégantes à pieds en forme de pattes de lion, tandis que le registre inférieur semble davantage dévolu aux femmes[cite: 12]. Les invités sont parés de leurs plus beaux atours : des robes de lin fin, plissées et transparentes, ainsi que de larges colliers ousekh richement colorés. Sur leurs perruques noires élaborées, ils portent des cônes d'onguent parfumés qui, en fondant lentement, embaument leurs cheveux et leurs vêtements. Des servantes presque nues, vêtues seulement de fines ceintures de hanches et de bijoux, circulent entre les convives pour leur offrir des fleurs de lotus, des coupes de vin ou ajuster leurs parures.</p>
+      <p>Le raffinement des détails est frappant, notamment dans le rendu des visages de profil aux grands yeux soulignés de fard noir et les mains aux doigts longs et graciles tenant des fleurs de lotus, symbole de renaissance. Sur la gauche de chaque registre, on distingue des tables d'offrandes croulant sous les victuailles : pains, grappes de raisins, fruits et jarres de vin scellées, garantissant la satiété éternelle de Nebamun et de ses proches. L'artiste a su capturer l'élégance et la sensualité de l'instant, faisant de ce banquet une célébration de la vie qui doit se poursuivre dans l'au-delà.</p>
+      <p>D'un point de vue technique, cette fresque démontre la virtuosité des peintres thébains dans l'utilisation de la couleur et de la ligne. Les nuances de rouge, d'ocre et de bleu sont appliquées avec une grande précision sur l'enduit sec, et les effets de transparence du lin sont rendus par des glacis subtils. Malgré les fissures naturelles du temps et les lacunes sur les bords du fragment, l'œuvre conserve une vitalité extraordinaire. Elle n'est pas seulement une représentation d'un événement mondain, mais un acte rituel visant à réactiver les sens du défunt pour l'éternité par le plaisir des yeux, de l'odorat et du goût.</p>
+      <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1350) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>
+    `,
+    hotspots: [
+      {
+        x: 18.0,
+        y: 65.0,
+        radius: 18,
+        startTime: 20,
+        endTime: 38,
+        tag: "POINT 1 / 5 • TABLES D'OFFRANDES ET PROVISIONS",
+        title: "L'abondance des victuailles du banquet",
+        desc: "Sur la gauche, des tables chargées de fruits, de pains et de jarres de vin garantissent la subsistance éternelle."
+      },
+      {
+        x: 35.0,
+        y: 35.0,
+        radius: 20,
+        startTime: 39,
+        endTime: 56,
+        tag: "POINT 2 / 5 • INVITÉS DU REGISTRE SUPÉRIEUR",
+        title: "Couples aristocratiques et chaises élégantes",
+        desc: "Dans le registre du haut, des couples parés de larges colliers ousekh assistent aux réceptions assis sur des sièges raffinés."
+      },
+      {
+        x: 55.0,
+        y: 68.0,
+        radius: 22,
+        startTime: 57,
+        endTime: 74,
+        tag: "POINT 3 / 5 • RANGÉE DE DAMES PARFUMÉES",
+        title: "Les perruques noires et les cônes d'onguent",
+        desc: "Les convives du registre inférieur arborent de somptueuses coiffures surmontées de cônes de parfum odorant."
+      },
+      {
+        x: 15.0,
+        y: 28.0,
+        radius: 16,
+        startTime: 75,
+        endTime: 92,
+        tag: "POINT 4 / 5 • SERVANTES ET SOINS DE BEAUTÉ",
+        title: "La circulation des servantes presque nues",
+        desc: "Une jeune servante ajuste les parures et offre des fleurs ou des coupes de vin aux convives du banquet."
+      },
+      {
+        x: 88.0,
+        y: 75.0,
+        radius: 18,
+        startTime: 93,
+        endTime: 110,
+        tag: "POINT 5 / 5 • MUSICIENS ET DIVERTISSEMENTS",
+        title: "L'ambiance musicale et sensorielle",
+        desc: "Sur l'extrême droite, les musiciens et les danseuses complètent le tableau festif destiné à réveiller les sens."
+      }
+    ]
   },
   {
     id: "peinture_danseuses_musiciennes_face_nebamun_british",
@@ -10118,11 +10338,66 @@ window.ART_OBJECTS.push(
     chips: ["XVIIIe dynastie", "Nebamoun", "Visages de face", "Danseuses thébaines"],
     deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
     imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPgJ_-1KrKbh6NeStk2nyFjpn2A6h10ZYEmcXQ-1wWs55miUZE4714QVyGpvcYqr--3XKac46Silm-CaC-HM7bCvmuRe0CtTNCRpzoPJzu8Cc7AmXnkPrRJuDqHNSC4jtXX_P4SmkoVt0WbqTIgllWcSw=w1379-h919-s-no-gm?authuser=0",
-    narrative: `<p>Cette fresque vibrante, fragment majeur de la chapelle funéraire de Nebamun à Thèbes (vers 1350 avant notre ère), constitue l'une des représentations les plus dynamiques et innovantes de l'art de la XVIIIe dynastie. Conservée au British Museum, elle dépeint une scène de divertissement lors d'un banquet funéraire, où la musique et la danse ne sont pas seulement des plaisirs terrestres, mais des instruments rituels destinés à réveiller les sens du défunt pour sa vie dans l'au-delà. Cette œuvre rompt avec la rigidité traditionnelle égyptienne par l'introduction de poses complexes et de visages représentés de face, une rareté absolue dans le canon artistique de l'époque.</p>
-    <p>La partie gauche du fragment montre un groupe de musiciennes assises, parées de perruques volumineuses et de larges colliers ousekh. L'une d'elles joue d'une double flûte, tandis que les autres marquent le rythme en frappant des mains. Fait exceptionnel, deux de ces musiciennes sont représentées de face, le regard tourné vers le spectateur, ce qui confère à la scène une humanité et une proximité inhabituelles. Leurs robes de lin fin et les cônes d'onguent parfumés posés sur leurs têtes complètent cette image de raffinement sensoriel. La précision du trait permet de distinguer les détails des doigts sur l'instrument et les ondulations des cheveux, témoignant d'une maîtrise technique au sommet de l'art thébain.</p>
-    <p>À droite, le mouvement s'intensifie avec deux jeunes danseuses presque nues, vêtues de simples ceintures de hanches. Leurs corps s'entrelacent dans une chorégraphie fluide, créant un jeu de jambes et de bras qui suggère une rotation rapide. L'artiste a utilisé des lignes courbes et des chevauchements pour rendre l'énergie de la danse, contrastant avec la pose statique des convives voisins. Sur le bord droit, de grandes jarres de vin ornées de guirlandes de fleurs rappellent l'abondance des festivités. Les hiéroglyphes surmontant la scène retranscrivent probablement les paroles des chants, liant la musique à la louange du dieu Amon ou du défunt lui-même.</p>
-    <p>L'utilisation des pigments reste d'une fraîcheur éclatante, avec des contrastes marqués entre l'ocre rouge des peaux des danseuses, le noir profond des perruques et les rehauts de blanc et de jaune des parures. Bien que le temps ait causé des craquelures et des pertes d'enduit, notamment sur la partie supérieure des hiéroglyphes, la force expressive de cette scène demeure intacte. Elle capture l'essence même de la fête égyptienne : un mélange de sensualité, de joie et de ferveur religieuse, offrant à Nebamun une éternité bercée par les sons et les rythmes les plus harmonieux de son temps.</p>
-    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1350) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
+    audioSrc: "audio/nebamun-danseuses-audioguide.mp3",
+    narrative: `
+      <p>Cette fresque vibrante, fragment majeur de la chapelle funéraire de Nebamun à Thèbes (vers 1350 avant notre ère), constitue l'une des représentations les plus dynamiques et innovantes de l'art de la XVIIIe dynastie[cite: 13]. Conservée au British Museum, elle dépeint une scène de divertissement lors d'un banquet funéraire, où la musique et la danse ne sont pas seulement des plaisirs terrestres, mais des instruments rituels destinés à réveiller les sens du défunt pour sa vie dans l'au-delà[cite: 13]. Cette œuvre rompt avec la rigidité traditionnelle égyptienne par l'introduction de poses complexes et de visages représentés de face, une rareté absolue dans le canon artistique de l'époque[cite: 13].</p>
+      <p>La partie gauche du fragment montre un groupe de musiciennes assises, parées de perruques volumineuses et de larges colliers ousekh[cite: 13]. L'une d'elles joue d'une double flûte, tandis que les autres marquent le rythme[cite: 13]. Fait exceptionnel, deux de ces musiciennes sont représentées de face, le regard tourné vers le spectateur, ce qui confère à la scène une humanité et une proximité inhabituelles[cite: 13]. Leurs robes de lin fin et les cônes d'onguent parfumés posés sur leurs têtes complètent cette image de raffinement sensoriel[cite: 13]. La précision du trait permet de distinguer les détails des doigts sur l'instrument et les ondulations des cheveux, témoignant d'une maîtrise technique au sommet de l'art thébain[cite: 13].</p>
+      <p>À droite, le mouvement s'intensifie avec deux jeunes danseuses presque nues, vêtues de simples ceintures de hanches[cite: 13]. Leurs corps s'entrelacent dans une chorégraphie fluide, créant un jeu de jambes et de bras qui suggère une rotation rapide[cite: 13]. L'artiste a utilisé des lignes courbes et des chevauchements pour rendre l'énergie de la danse, contrastant avec la pose statique des convives voisins[cite: 13]. Sur le bord droit, de grandes jarres de vin ornées de guirlandes de fleurs rappellent l'abondance des festivités[cite: 13]. Les hiéroglyphes surmontant la scène retranscrivent probablement les paroles des chants, liant la musique à la louange du dieu Amon ou du défunt lui-même[cite: 13].</p>
+      <p>L'utilisation des pigments reste d'une fraîcheur éclatante, avec des contrastes marqués entre l'ocre rouge des peaux des danseuses, le noir profond des perruques et les rehauts de blanc et de jaune des parures[cite: 13]. Bien que le temps ait causé des craquelures et des pertes d'enduit, notamment sur la partie supérieure des hiéroglyphes, la force expressive de cette scène demeure intacte[cite: 13]. Elle capture l'essence même de la fête égyptienne : un mélange de sensualité, de joie et de ferveur religieuse, offrant à Nebamun une éternité bercée par les sons et les rythmes les plus harmonieux de son temps[cite: 13].</p>
+      <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1350) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>
+    `,
+    hotspots: [
+      {
+        x: 13.0,
+        y: 42.0,
+        radius: 16,
+        startTime: 20,
+        endTime: 38,
+        tag: "POINT 1 / 5 • PREMIÈRE MUSICIENNE DE FACE",
+        title: "Le regard direct de la musicienne",
+        desc: "Assise sur la gauche, cette musicienne brise les conventions en tournant son visage entièrement de face vers le spectateur."
+      },
+      {
+        x: 35.0,
+        y: 45.0,
+        radius: 20,
+        startTime: 39,
+        endTime: 56,
+        tag: "POINT 2 / 5 • LA JOUEUSE DE DOUBLE FLÛTE",
+        title: "L'interprétation musicale et les cônes d'onguent",
+        desc: "Une seconde musicienne joue de la double flûte, coiffée d'une opulente perruque surmontée d'un cône de parfum."
+      },
+      {
+        x: 65.0,
+        y: 40.0,
+        radius: 22,
+        startTime: 57,
+        endTime: 74,
+        tag: "POINT 3 / 5 • DANSEUSES ACROBATIQUES",
+        title: "Le mouvement tournoyant des corps",
+        desc: "Deux jeunes danseuses presque nues exécutent une chorégraphie fluide aux poses complexes et audacieuses."
+      },
+      {
+        x: 95.0,
+        y: 52.0,
+        radius: 15,
+        startTime: 75,
+        endTime: 92,
+        tag: "POINT 4 / 5 • JARRES DE VIN ET GUIRLANDES",
+        title: "Les offrandes liquides de la fête",
+        desc: "Sur l'extrême droite, de grandes jarres décorées de fleurs rappellent l'abondance des boissons lors du banquet."
+      },
+      {
+        x: 50.0,
+        y: 15.0,
+        radius: 20,
+        startTime: 93,
+        endTime: 110,
+        tag: "POINT 5 / 5 • HIÉROGLYPHES ET TEXTES DE CHANTS",
+        title: "Les paroles rituelles de la musique",
+        desc: "Les colonnes d'écriture situées en partie supérieure consignent les hymnes et les louanges entonnés pendant la cérémonie."
+      }
+    ]
   },
   {
     id: "peinture_portrait_nebamun_assis_british",
