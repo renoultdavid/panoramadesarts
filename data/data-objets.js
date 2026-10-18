@@ -10257,61 +10257,61 @@ window.ART_OBJECTS.push(
     chips: ["XVIIIe dynastie", "Nebamoun", "Banquet aristocratique", "Cônes d'onguent"],
     deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
     imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNfj-Z1U_mU7Rdm2bQi2gT4OfeCUHAUbSBwkPOrbjiTxdZcCOyEQ5kSIn_xve_O1kdSbDmdlYG-agcLzC5vg4YnIa2UsJ1w6-yIfnybYDVzBQm1sK-iE9SlKDYMeNmlvfpuj6z9My6KrZ51DbQsZ-65Rg=w1379-h919-s-no-gm?authuser=0",
-    audioSrc: "audio/ouserhat-audioguide.mp3",
+    audioSrc: "audio/ouserhatbanquet-audioguide.mp3",
     narrative: `
-      <p>Cette fresque magistrale, l'une des pièces les plus emblématiques de la chapelle funéraire de Nebamun à Thèbes, illustre la luxuriance des réceptions mondaines sous la XVIIIe dynastie, vers 1350 avant notre ère[cite: 12]. Aujourd'hui exposée au British Museum[cite: 12], cette peinture murale offre une vision idéalisée du banquet funéraire, où les vivants et les morts se rejoignent dans une atmosphère de fête, de musique et de régénération. La composition, d'une densité exceptionnelle, est un témoignage précieux sur les coutumes sociales, la mode et l'esthétique raffinée du Nouvel Empire à son apogée.</p>
-      <p>La scène est organisée en deux registres superposés montrant les invités de rang élevé[cite: 12]. Dans le registre supérieur, des couples d'hommes et de femmes sont assis sur des chaises élégantes à pieds en forme de pattes de lion, tandis que le registre inférieur semble davantage dévolu aux femmes[cite: 12]. Les invités sont parés de leurs plus beaux atours : des robes de lin fin, plissées et transparentes, ainsi que de larges colliers ousekh richement colorés. Sur leurs perruques noires élaborées, ils portent des cônes d'onguent parfumés qui, en fondant lentement, embaument leurs cheveux et leurs vêtements. Des servantes presque nues, vêtues seulement de fines ceintures de hanches et de bijoux, circulent entre les convives pour leur offrir des fleurs de lotus, des coupes de vin ou ajuster leurs parures.</p>
+      <p>Cette fresque magistrale, l'une des pièces les plus emblématiques de la chapelle funéraire de Nebamun à Thèbes, illustre la luxuriance des réceptions mondaines sous la XVIIIe dynastie, vers 1350 avant notre ère. Aujourd'hui exposée au British Museum, cette peinture murale offre une vision idéalisée du banquet funéraire, où les vivants et les morts se rejoignent dans une atmosphère de fête, de musique et de régénération. La composition, d'une densité exceptionnelle, est un témoignage précieux sur les coutumes sociales, la mode et l'esthétique raffinée du Nouvel Empire à son apogée.</p>
+      <p>La scène est organisée en deux registres superposés montrant les invités de rang élevé. Dans le registre supérieur, des couples d'hommes et de femmes sont assis sur des chaises élégantes à pieds en forme de pattes de lion, tandis que le registre inférieur semble davantage dévolu aux femmes. Les invités sont parés de leurs plus beaux atours : des robes de lin fin, plissées et transparentes, ainsi que de larges colliers ousekh richement colorés. Sur leurs perruques noires élaborées, ils portent des cônes d'onguent parfumés qui, en fondant lentement, embaument leurs cheveux et leurs vêtements. Des servantes presque nues, vêtues seulement de fines ceintures de hanches et de bijoux, circulent entre les convives pour leur offrir des fleurs de lotus, des coupes de vin ou ajuster leurs parures.</p>
       <p>Le raffinement des détails est frappant, notamment dans le rendu des visages de profil aux grands yeux soulignés de fard noir et les mains aux doigts longs et graciles tenant des fleurs de lotus, symbole de renaissance. Sur la gauche de chaque registre, on distingue des tables d'offrandes croulant sous les victuailles : pains, grappes de raisins, fruits et jarres de vin scellées, garantissant la satiété éternelle de Nebamun et de ses proches. L'artiste a su capturer l'élégance et la sensualité de l'instant, faisant de ce banquet une célébration de la vie qui doit se poursuivre dans l'au-delà.</p>
       <p>D'un point de vue technique, cette fresque démontre la virtuosité des peintres thébains dans l'utilisation de la couleur et de la ligne. Les nuances de rouge, d'ocre et de bleu sont appliquées avec une grande précision sur l'enduit sec, et les effets de transparence du lin sont rendus par des glacis subtils. Malgré les fissures naturelles du temps et les lacunes sur les bords du fragment, l'œuvre conserve une vitalité extraordinaire. Elle n'est pas seulement une représentation d'un événement mondain, mais un acte rituel visant à réactiver les sens du défunt pour l'éternité par le plaisir des yeux, de l'odorat et du goût.</p>
       <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1350) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>
     `,
     hotspots: [
       {
-        x: 18.0,
-        y: 65.0,
-        radius: 18,
-        startTime: 20,
-        endTime: 38,
+        x: 10.0,
+        y: 60.0,
+        radius: 16,
+        startTime: 29,
+        endTime: 49,
         tag: "POINT 1 / 5 • TABLES D'OFFRANDES ET PROVISIONS",
         title: "L'abondance des victuailles du banquet",
         desc: "Sur la gauche, des tables chargées de fruits, de pains et de jarres de vin garantissent la subsistance éternelle."
       },
       {
-        x: 35.0,
-        y: 35.0,
-        radius: 20,
-        startTime: 39,
-        endTime: 56,
+        x: 33.0,
+        y: 30.0,
+        radius: 18,
+        startTime: 50,
+        endTime: 68,
         tag: "POINT 2 / 5 • INVITÉS DU REGISTRE SUPÉRIEUR",
         title: "Couples aristocratiques et chaises élégantes",
         desc: "Dans le registre du haut, des couples parés de larges colliers ousekh assistent aux réceptions assis sur des sièges raffinés."
       },
       {
-        x: 55.0,
-        y: 68.0,
-        radius: 22,
-        startTime: 57,
-        endTime: 74,
+        x: 52.0,
+        y: 70.0,
+        radius: 20,
+        startTime: 69,
+        endTime: 86,
         tag: "POINT 3 / 5 • RANGÉE DE DAMES PARFUMÉES",
         title: "Les perruques noires et les cônes d'onguent",
         desc: "Les convives du registre inférieur arborent de somptueuses coiffures surmontées de cônes de parfum odorant."
       },
       {
-        x: 15.0,
-        y: 28.0,
+        x: 22.0,
+        y: 35.0,
         radius: 16,
-        startTime: 75,
-        endTime: 92,
+        startTime: 87,
+        endTime: 101,
         tag: "POINT 4 / 5 • SERVANTES ET SOINS DE BEAUTÉ",
         title: "La circulation des servantes presque nues",
         desc: "Une jeune servante ajuste les parures et offre des fleurs ou des coupes de vin aux convives du banquet."
       },
       {
         x: 88.0,
-        y: 75.0,
-        radius: 18,
-        startTime: 93,
-        endTime: 110,
+        y: 65.0,
+        radius: 16,
+        startTime: 102,
+        endTime: 118,
         tag: "POINT 5 / 5 • MUSICIENS ET DIVERTISSEMENTS",
         title: "L'ambiance musicale et sensorielle",
         desc: "Sur l'extrême droite, les musiciens et les danseuses complètent le tableau festif destiné à réveiller les sens."
