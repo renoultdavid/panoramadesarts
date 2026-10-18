@@ -10340,39 +10340,39 @@ window.ART_OBJECTS.push(
     imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPgJ_-1KrKbh6NeStk2nyFjpn2A6h10ZYEmcXQ-1wWs55miUZE4714QVyGpvcYqr--3XKac46Silm-CaC-HM7bCvmuRe0CtTNCRpzoPJzu8Cc7AmXnkPrRJuDqHNSC4jtXX_P4SmkoVt0WbqTIgllWcSw=w1379-h919-s-no-gm?authuser=0",
     audioSrc: "audio/nebamun-danseuses-audioguide.mp3",
     narrative: `
-      <p>Cette fresque vibrante, fragment majeur de la chapelle funéraire de Nebamun à Thèbes (vers 1350 avant notre ère), constitue l'une des représentations les plus dynamiques et innovantes de l'art de la XVIIIe dynastie[cite: 13]. Conservée au British Museum, elle dépeint une scène de divertissement lors d'un banquet funéraire, où la musique et la danse ne sont pas seulement des plaisirs terrestres, mais des instruments rituels destinés à réveiller les sens du défunt pour sa vie dans l'au-delà[cite: 13]. Cette œuvre rompt avec la rigidité traditionnelle égyptienne par l'introduction de poses complexes et de visages représentés de face, une rareté absolue dans le canon artistique de l'époque[cite: 13].</p>
-      <p>La partie gauche du fragment montre un groupe de musiciennes assises, parées de perruques volumineuses et de larges colliers ousekh[cite: 13]. L'une d'elles joue d'une double flûte, tandis que les autres marquent le rythme[cite: 13]. Fait exceptionnel, deux de ces musiciennes sont représentées de face, le regard tourné vers le spectateur, ce qui confère à la scène une humanité et une proximité inhabituelles[cite: 13]. Leurs robes de lin fin et les cônes d'onguent parfumés posés sur leurs têtes complètent cette image de raffinement sensoriel[cite: 13]. La précision du trait permet de distinguer les détails des doigts sur l'instrument et les ondulations des cheveux, témoignant d'une maîtrise technique au sommet de l'art thébain[cite: 13].</p>
-      <p>À droite, le mouvement s'intensifie avec deux jeunes danseuses presque nues, vêtues de simples ceintures de hanches[cite: 13]. Leurs corps s'entrelacent dans une chorégraphie fluide, créant un jeu de jambes et de bras qui suggère une rotation rapide[cite: 13]. L'artiste a utilisé des lignes courbes et des chevauchements pour rendre l'énergie de la danse, contrastant avec la pose statique des convives voisins[cite: 13]. Sur le bord droit, de grandes jarres de vin ornées de guirlandes de fleurs rappellent l'abondance des festivités[cite: 13]. Les hiéroglyphes surmontant la scène retranscrivent probablement les paroles des chants, liant la musique à la louange du dieu Amon ou du défunt lui-même[cite: 13].</p>
-      <p>L'utilisation des pigments reste d'une fraîcheur éclatante, avec des contrastes marqués entre l'ocre rouge des peaux des danseuses, le noir profond des perruques et les rehauts de blanc et de jaune des parures[cite: 13]. Bien que le temps ait causé des craquelures et des pertes d'enduit, notamment sur la partie supérieure des hiéroglyphes, la force expressive de cette scène demeure intacte[cite: 13]. Elle capture l'essence même de la fête égyptienne : un mélange de sensualité, de joie et de ferveur religieuse, offrant à Nebamun une éternité bercée par les sons et les rythmes les plus harmonieux de son temps[cite: 13].</p>
+      <p>Cette fresque vibrante, fragment majeur de la chapelle funéraire de Nebamun à Thèbes (vers 1350 avant notre ère), constitue l'une des représentations les plus dynamiques et innovantes de l'art de la XVIIIe dynastie. Conservée au British Museum, elle dépeint une scène de divertissement lors d'un banquet funéraire, où la musique et la danse ne sont pas seulement des plaisirs terrestres, mais des instruments rituels destinés à réveiller les sens du défunt pour sa vie dans l'au-delà. Cette œuvre rompt avec la rigidité traditionnelle égyptienne par l'introduction de poses complexes et de visages représentés de face, une rareté absolue dans le canon artistique de l'époque.</p>
+      <p>La partie gauche du fragment montre un groupe de musiciennes assises, parées de perruques volumineuses et de larges colliers ousekh. L'une d'elles joue d'une double flûte, tandis que les autres marquent le rythme. Fait exceptionnel, deux de ces musiciennes sont représentées de face, le regard tourné vers le spectateur, ce qui confère à la scène une humanité et une proximité inhabituelles. Leurs robes de lin fin et les cônes d'onguent parfumés posés sur leurs têtes complètent cette image de raffinement sensoriel. La précision du trait permet de distinguer les détails des doigts sur l'instrument et les ondulations des cheveux, témoignant d'une maîtrise technique au sommet de l'art thébain.</p>
+      <p>À droite, le mouvement s'intensifie avec deux jeunes danseuses presque nues, vêtues de simples ceintures de hanches. Leurs corps s'entrelacent dans une chorégraphie fluide, créant un jeu de jambes et de bras qui suggère une rotation rapide. L'artiste a utilisé des lignes courbes et des chevauchements pour rendre l'énergie de la danse, contrastant avec la pose statique des convives voisins. Sur le bord droit, de grandes jarres de vin ornées de guirlandes de fleurs rappellent l'abondance des festivités. Les hiéroglyphes surmontant la scène retranscrivent probablement les paroles des chants, liant la musique à la louange du dieu Amon ou du défunt lui-même.</p>
+      <p>L'utilisation des pigments reste d'une fraîcheur éclatante, avec des contrastes marqués entre l'ocre rouge des peaux des danseuses, le noir profond des perruques et les rehauts de blanc et de jaune des parures. Bien que le temps ait causé des craquelures et des pertes d'enduit, notamment sur la partie supérieure des hiéroglyphes, la force expressive de cette scène demeure intacte. Elle capture l'essence même de la fête égyptienne : un mélange de sensualité, de joie et de ferveur religieuse, offrant à Nebamun une éternité bercée par les sons et les rythmes les plus harmonieux de son temps.</p>
       <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1350) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>
     `,
     hotspots: [
       {
-        x: 13.0,
-        y: 42.0,
-        radius: 16,
-        startTime: 20,
-        endTime: 38,
+        x: 18.0,
+        y: 52.0,
+        radius: 20,
+        startTime: 24,
+        endTime: 41,
         tag: "POINT 1 / 5 • PREMIÈRE MUSICIENNE DE FACE",
         title: "Le regard direct de la musicienne",
         desc: "Assise sur la gauche, cette musicienne brise les conventions en tournant son visage entièrement de face vers le spectateur."
       },
       {
         x: 35.0,
-        y: 45.0,
+        y: 48.0,
         radius: 20,
-        startTime: 39,
+        startTime: 42,
         endTime: 56,
         tag: "POINT 2 / 5 • LA JOUEUSE DE DOUBLE FLÛTE",
         title: "L'interprétation musicale et les cônes d'onguent",
         desc: "Une seconde musicienne joue de la double flûte, coiffée d'une opulente perruque surmontée d'un cône de parfum."
       },
       {
-        x: 65.0,
-        y: 40.0,
-        radius: 22,
+        x: 68.0,
+        y: 48.0,
+        radius: 40,
         startTime: 57,
-        endTime: 74,
+        endTime: 72,
         tag: "POINT 3 / 5 • DANSEUSES ACROBATIQUES",
         title: "Le mouvement tournoyant des corps",
         desc: "Deux jeunes danseuses presque nues exécutent une chorégraphie fluide aux poses complexes et audacieuses."
@@ -10381,18 +10381,18 @@ window.ART_OBJECTS.push(
         x: 95.0,
         y: 52.0,
         radius: 15,
-        startTime: 75,
-        endTime: 92,
+        startTime: 73,
+        endTime: 87,
         tag: "POINT 4 / 5 • JARRES DE VIN ET GUIRLANDES",
         title: "Les offrandes liquides de la fête",
         desc: "Sur l'extrême droite, de grandes jarres décorées de fleurs rappellent l'abondance des boissons lors du banquet."
       },
       {
         x: 50.0,
-        y: 15.0,
+        y: 12.0,
         radius: 20,
-        startTime: 93,
-        endTime: 110,
+        startTime: 88,
+        endTime: 100,
         tag: "POINT 5 / 5 • HIÉROGLYPHES ET TEXTES DE CHANTS",
         title: "Les paroles rituelles de la musique",
         desc: "Les colonnes d'écriture situées en partie supérieure consignent les hymnes et les louanges entonnés pendant la cérémonie."
