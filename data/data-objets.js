@@ -10297,8 +10297,8 @@ window.ART_OBJECTS.push(
         desc: "Les convives du registre inférieur arborent de somptueuses coiffures surmontées de cônes de parfum odorant."
       },
       {
-        x: 22.0,
-        y: 35.0,
+        x: 17.0,
+        y: 10.0,
         radius: 16,
         startTime: 87,
         endTime: 101,
@@ -10307,8 +10307,8 @@ window.ART_OBJECTS.push(
         desc: "Une jeune servante ajuste les parures et offre des fleurs ou des coupes de vin aux convives du banquet."
       },
       {
-        x: 88.0,
-        y: 65.0,
+        x: 90.0,
+        y: 75.0,
         radius: 16,
         startTime: 102,
         endTime: 118,
