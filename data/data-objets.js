@@ -11218,7 +11218,7 @@ window.ART_OBJECTS.push(
     <p>En recréant un environnement frais et fertile dans l'obscurité de la tombe, l'artiste assure magiquement à Sennefer la jouissance perpétuelle des jardins qu'il administrait de son vivant pour le domaine d'Amon. La conservation exceptionnelle des pigments permet d'apprécier la technique de la détrempe qui, malgré les millénaires, garde une intensité chromatique vibrante, faisant de ce plafond un chef-d'œuvre de naturalisme poétique du Nouvel Empire.</p>
     <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1420) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>`
   },
-  {
+ {
     id: "peinture_couple_sennefer_meryt_tt96",
     civId: "egypte",
     periodId: "nouvel_empire",
@@ -11243,14 +11243,14 @@ window.ART_OBJECTS.push(
       <p>Cette peinture murale, située dans la chambre funéraire de Sennefer (TT96), maire de Thèbes sous Amenhotep II, représente le couple défunt dans une scène d'une grande tendresse et d'une haute portée symbolique. Sennefer est figuré avec une peau ocre rouge vigoureuse, paré d'un large collier ousekh en or et de deux amulettes en forme de cœur ou de vases à onguent suspendus à son cou, tandis que son épouse Meryt, dont la peau est peinte d'un jaune lumineux selon les conventions féminines, pose affectueusement sa main sur l'épaule de son mari. Elle porte une perruque tripartite noire finement détaillée et un collier de perles bleues, contrastant avec la blancheur de sa robe de lin.</p>
       <p>Sennefer tient dans sa main gauche une canne de marche et dans sa main droite un sceptre sekhem, insignes de son autorité et de sa puissance administrative. Au-dessus d'eux, des colonnes de hiéroglyphes tracés à l'encre noire sur un fond gris perle détaillent leurs titres et des formules d'offrandes, assurant la pérennité de leur identité dans l'au-delà. Le style se caractérise par des yeux en amande très étirés et un cerne noir prononcé, typique du raffinement de la XVIIIe dynastie.</p>
       <p>L'artiste a su capturer une dimension humaine et intime à travers le geste de Meryt, tout en respectant la solennité requise par le contexte funéraire. L'utilisation de pigments naturels comme l'orpiment pour le jaune et l'oxyde de fer pour le rouge conserve une fraîcheur exceptionnelle, faisant de ce double portrait l'un des plus touchants et des mieux préservés de la nécropole thébaine. Cette image incarne l'idéal de l'unité familiale éternelle, où l'épouse soutient activement son mari dans son passage vers l'immortalité osirienne.</p>
-      <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1420) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>
+      <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1420) | <span>Civilisation :</span> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Peinture & Fresques.</p>
     `,
     hotspots: [
       {
         x: 23.0,
-        y: 42.0,
+        y: 55.0,
         radius: 18,
-        startTime: 20,
+        startTime: 23,
         endTime: 38,
         tag: "POINT 1 / 5 • MERYT ET LA TENDRESSE CONJUGALE",
         title: "Le geste d'affection de l'épouse",
@@ -11258,20 +11258,20 @@ window.ART_OBJECTS.push(
       },
       {
         x: 52.0,
-        y: 36.0,
+        y: 42.0,
         radius: 20,
         startTime: 39,
-        endTime: 56,
+        endTime: 52,
         tag: "POINT 2 / 5 • SENNEFER ET LES INSIGNES",
         title: "Le maire de Thèbes et ses attributs",
         desc: "Sennefer arbore les insignes de sa haute charge administrative, tenant un sceptre sekhem et une canne de marche."
       },
       {
-        x: 42.0,
-        y: 52.0,
+        x: 45.0,
+        y: 55.0,
         radius: 16,
-        startTime: 57,
-        endTime: 74,
+        startTime: 53,
+        endTime: 66,
         tag: "POINT 3 / 5 • LE COLLIER OUSEKH ET AMULETTES",
         title: "Parures et pectoraux protecteurs",
         desc: "L'énergique carnation rouge de Sennefer est magnifiée par un large collier ousekh en or et deux amulettes pectorales."
@@ -11280,18 +11280,18 @@ window.ART_OBJECTS.push(
         x: 75.0,
         y: 35.0,
         radius: 22,
-        startTime: 75,
-        endTime: 92,
+        startTime: 67,
+        endTime: 79,
         tag: "POINT 4 / 5 • COLONNES DE HIÉROGLYPHES",
         title: "Les textes et formules d'offrandes",
         desc: "Des colonnes de hiéroglyphes tracés à l'encre noire sur fond gris perle détaillent les titres officiels du couple."
       },
       {
-        x: 93.0,
-        y: 54.0,
+        x: 95.0,
+        y: 55.0,
         radius: 15,
-        startTime: 93,
-        endTime: 110,
+        startTime: 80,
+        endTime: 91,
         tag: "POINT 5 / 5 • MOBILIER FUNÉRAIRE ET OFFRANDES",
         title: "Le mobilier et les symboles d'éternité",
         desc: "Les registres adjacents rappellent les offrandes rituelles indispensables pour assurer la subsistance dans l'au-delà."
