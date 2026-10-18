@@ -10128,7 +10128,7 @@ window.ART_OBJECTS.push(
     imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczN4IovMIClAG83axtXgQNbss9RHI8sFnKIAKwNJdK2QhFXGLKPfzX81hCK9Mqa3ar6lGVY1XrT7zhC2A_PR6Z_G_Jj8F0OrlZmaT4c8NWpHJTzbcQMlh_DpIvdwOnD-ROwdGoV0e1MiEmBqFamVbrWbiA=w1379-h919-s-no-gm?authuser=0",
     audioSrc: "audio/nebamun-chasse-marais-audioguide.mp3",
     narrative: `
-      <p>Réalisée vers 1350 avant notre ère et conservée au British Museum de Londres[cite: 11], cette œuvre de la XVIIIe dynastie capture l'idéal de la vie éternelle où le défunt, scribe et comptable du grain, domine les forces de la nature sauvage. La scène est d'une vivacité exceptionnelle, mêlant une symbolique religieuse profonde à un naturalisme d'une grande finesse technique.</p>
+      <p>Réalisée vers 1350 avant notre ère et conservée au British Museum de Londres, cette œuvre de la XVIIIe dynastie capture l'idéal de la vie éternelle où le défunt, scribe et comptable du grain, domine les forces de la nature sauvage. La scène est d'une vivacité exceptionnelle, mêlant une symbolique religieuse profonde à un naturalisme d'une grande finesse technique.</p>
       <p>Nebamun occupe le centre de la composition, debout sur une frêle embarcation de papyrus. Représenté selon les canons de la perspective hiérarchique, il est bien plus grand que son épouse, debout derrière lui, et sa jeune fille, assise à ses pieds entre ses jambes. D'un geste vigoureux, il brandit un bâton de jet en forme de serpent, s'apprêtant à frapper une nuée d'oiseaux qui s'envolent d'un fourré de papyrus stylisé sur la gauche. Son corps athlétique, paré de bijoux et d'un pagne blanc plissé, incarne la vigueur et la jeunesse éternelles promises par la renaissance dans l'au-delà.</p>
       <p>La richesse de la faune et de la flore représentées est remarquable. Un chat roux, auxiliaire de chasse de Nebamun, bondit parmi les tiges de papyrus et saisit simultanément plusieurs oiseaux avec ses griffes et sa gueule, illustrant la maîtrise de l'ordre sur le chaos. Des papillons aux ailes tachetées voltigent dans l'espace, tandis que des poissons nagent dans l'eau sous le bateau. La précision des détails, des plumes irisées des oiseaux aux écailles des poissons, témoigne de la virtuosité des peintres thébains qui utilisaient des pigments minéraux sur un enduit sec pour obtenir cette intensité de couleurs.</p>
       <p>Au-delà de l'aspect récréatif, cette chasse possède une dimension sacrée : elle symbolise le triomphe du défunt sur les forces désordonnées du monde, garantissant ainsi l'équilibre cosmique, ou Maât. Les fleurs de lotus tenues par sa femme et sa fille renvoient à la régénération et à la naissance du soleil. Cette fresque n'est pas seulement le portrait d'un homme en activité, c'est une évocation poétique et puissante du cycle de la vie et de la survie de l'âme dans les champs d'Ialou.</p>
@@ -10136,11 +10136,11 @@ window.ART_OBJECTS.push(
     `,
     hotspots: [
       {
-        x: 60.0,
-        y: 15.0,
-        radius: 20,
-        startTime: 20,
-        endTime: 38,
+        x: 62.0,
+        y: 25.0,
+        radius: 18,
+        startTime: 19,
+        endTime: 33,
         tag: "POINT 1 / 5 • NEBAMUN ET LE BÂTON DE JET",
         title: "Le scribe au cœur de l'action",
         desc: "Debout sur son embarcation, Nebamun brandit son bâton de jet pour capturer le gibier d'eau au milieu des papyrus."
@@ -10149,8 +10149,8 @@ window.ART_OBJECTS.push(
         x: 33.0,
         y: 62.0,
         radius: 18,
-        startTime: 39,
-        endTime: 56,
+        startTime: 34,
+        endTime: 48,
         tag: "POINT 2 / 5 • LE CHAT ROUX PRÉDATEUR",
         title: "Le félin chasseur dans les fourrés",
         desc: "Un chat roux extraordinaire bondit au milieu des tiges, maîtrisant plusieurs oiseaux à la fois avec une agilité saisissante."
@@ -10159,8 +10159,8 @@ window.ART_OBJECTS.push(
         x: 22.0,
         y: 22.0,
         radius: 20,
-        startTime: 57,
-        endTime: 74,
+        startTime: 49,
+        endTime: 62,
         tag: "POINT 3 / 5 • NUÉE D'OISEAUX ET PAPILLONS",
         title: "La richesse de la faune des marais",
         desc: "Des hérons, des oies aux plumages colorés et des papillons aux ailes tachetées s'envolent de la brousse aquatique."
@@ -10169,8 +10169,8 @@ window.ART_OBJECTS.push(
         x: 78.0,
         y: 42.0,
         radius: 18,
-        startTime: 75,
-        endTime: 92,
+        startTime: 63,
+        endTime: 75,
         tag: "POINT 4 / 5 • L'ÉPOUSE ET LE LOTUS",
         title: "L'accompagnement féminin et les offrandes",
         desc: "L'épouse de Nebamun se tient derrière lui, parée de ses plus beaux atours et tenant des fleurs de lotus symboles de renaissance."
@@ -10179,8 +10179,8 @@ window.ART_OBJECTS.push(
         x: 58.0,
         y: 85.0,
         radius: 16,
-        startTime: 93,
-        endTime: 110,
+        startTime: 76,
+        endTime: 85,
         tag: "POINT 5 / 5 • LA JEUNE FILLE ET LA BARQUE",
         title: "La fille de Nebamun et l'esquif de papyrus",
         desc: "Assise aux pieds de son père, la jeune fille cueille des fleurs tandis que la coque de la barque glisse sur l'eau poissonneuse."
