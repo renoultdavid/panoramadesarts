@@ -19,13 +19,19 @@ window.ARTISTS_REGISTRY = {
       Son style se distingue par une facture prodigieusement minutieuse, digne des meilleurs enlumineurs, alliée à une dramaturgie cosmique sans équivalent. Altdorfer projette le spectateur dans des panoramas à vol d'oiseau d'une étendue vertigineuse, où les nuées incandescentes, les affrontements célestes d'astres et les embrasements crépusculaires transforment la nature en une force spirituelle et métaphysique sublime.</p>
     `,
     corpus: {
-      total: 35,
+      total: 438,
       seen: 1,
+      paintingsCount: 55,
       details: [
-        { label: "Peintures sur panneau & toiles", count: 35 }
+        { label: "Peintures", count: 55, icon: "🎨", color: "#d4af37", seen: 1, note: "Dont la célèbre Bataille d'Alexandre à Issus (Munich)" },
+        { label: "Dessins achevés", count: 120, icon: "✏️", color: "#00b4d8", seen: 0 },
+        { label: "Gravures sur bois (xylographies)", count: 125, icon: "🪵", color: "#2ecc71", seen: 0 },
+        { label: "Burins (sur cuivre)", count: 78, icon: "🪚", color: "#b5179e", seen: 0 },
+        { label: "Eaux-fortes", count: 36, icon: "🧪", color: "#f77f00", seen: 0 },
+        { label: "Miniatures sur parchemin", count: 24, icon: "📜", color: "#e63946", seen: 0 }
       ],
-      sourceTitle: "Corpus critique & Catalogues muséaux",
-      sourceNotes: "Environ 35 peintures autographes conservées dans les collections publiques mondiales (notamment l'Alte Pinakothek de Munich, la Gemäldegalerie de Berlin et le Kunsthistorisches Museum de Vienne)."
+      sourceTitle: "Catalogue raisonné Fritz Winzinger & Recensements muséaux",
+      sourceNotes: "Corpus fondé sur les travaux de référence de Fritz Winzinger (L'Œuvre complet d'Albrecht Altdorfer : peintures, dessins, gravures) et le recensement des grands cabinets d'estampes et musées mondiaux (Munich, Vienne, Berlin, Bâle, Londres)."
     }
   },
   "cassatt": {
@@ -45,9 +51,10 @@ window.ARTISTS_REGISTRY = {
     corpus: {
       total: 1167,
       seen: 0,
+      paintingsCount: 943,
       details: [
-        { label: "Huiles, pastels, aquarelles & dessins (cat. 1970)", count: 943 },
-        { label: "Œuvre gravé & estampes (cat. 1948)", count: 224 }
+        { label: "Huiles, pastels, aquarelles & dessins (cat. 1970)", count: 943, icon: "🎨", color: "#d4af37" },
+        { label: "Œuvre gravé & estampes (cat. 1948)", count: 224, icon: "🖼️", color: "#00b4d8" }
       ],
       sourceTitle: "Catalogues raisonnés Adelyn Dohme Breeskin",
       sourceNotes: "Adelyn Dohme Breeskin a publié deux catalogues raisonnés distincts : le premier en 1948 dédié exclusivement à l'œuvre gravé (les 224 estampes), et le second en 1970 pour les huiles, pastels, aquarelles et dessins (les 943 pièces)."

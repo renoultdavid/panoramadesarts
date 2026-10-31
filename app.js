@@ -1528,7 +1528,10 @@ function initSearchEngine() {
   const corpusStatTotal = document.getElementById('corpus-stat-total');
   const corpusStatSeen = document.getElementById('corpus-stat-seen');
   const corpusStatPercent = document.getElementById('corpus-stat-percent');
+  const corpusStatPercentLabel = document.getElementById('corpus-stat-percent-label');
   const corpusProgressBar = document.getElementById('corpus-progress-bar');
+  const corpusBreakdownWrapper = document.getElementById('corpus-breakdown-wrapper');
+  const corpusBreakdownTrack = document.getElementById('corpus-breakdown-track');
   const corpusDetailsRow = document.getElementById('corpus-details-row');
   const btnToggleCorpusSource = document.getElementById('btn-toggle-corpus-source');
   const corpusSourceTitle = document.getElementById('corpus-source-title');
@@ -1619,23 +1622,63 @@ function initSearchEngine() {
               const seenCorpus = artistRecord.corpus.seen !== undefined ? artistRecord.corpus.seen : (art.count || 0);
               const percent = totalCorpus > 0 ? ((seenCorpus / totalCorpus) * 100).toFixed(1) : "0.0";
 
-              if (corpusStatTotal) corpusStatTotal.textContent = totalCorpus.toLocaleString('fr-FR');
+              if (corpusStatTotal) corpusStatTotal.textContent = `~ ${totalCorpus.toLocaleString('fr-FR')}`;
               if (corpusStatSeen) corpusStatSeen.textContent = seenCorpus.toLocaleString('fr-FR');
               if (corpusStatPercent) corpusStatPercent.textContent = `${percent}%`;
+
+              if (corpusStatPercentLabel) {
+                if (artistRecord.corpus.paintingsCount) {
+                  const paintSeen = artistRecord.corpus.details ? (artistRecord.corpus.details.find(d => d.icon === '🎨' || d.label.toLowerCase().includes('peinture'))?.seen || seenCorpus) : seenCorpus;
+                  const paintPct = ((paintSeen / artistRecord.corpus.paintingsCount) * 100).toFixed(1);
+                  corpusStatPercentLabel.innerHTML = `Taux global <span class="stat-subdetail">(${paintPct}% des peintures)</span>`;
+                } else {
+                  corpusStatPercentLabel.textContent = "Taux d'observation";
+                }
+              }
 
               if (corpusProgressBar) {
                 const barWidth = Math.min(100, Math.max(seenCorpus > 0 ? 1.5 : 0, parseFloat(percent)));
                 corpusProgressBar.style.width = `${barWidth}%`;
               }
 
+              const defaultPalette = ['#d4af37', '#00b4d8', '#2ecc71', '#b5179e', '#f77f00', '#e63946', '#9c88ff'];
+
+              // Jauge segmentée par technique (Stacked Bar)
+              if (corpusBreakdownTrack && corpusBreakdownWrapper) {
+                corpusBreakdownTrack.innerHTML = '';
+                if (artistRecord.corpus.details && artistRecord.corpus.details.length > 0) {
+                  artistRecord.corpus.details.forEach((det, idx) => {
+                    const seg = document.createElement('div');
+                    seg.className = 'corpus-breakdown-segment';
+                    const segWidth = ((det.count / totalCorpus) * 100);
+                    seg.style.width = `${segWidth}%`;
+                    const segColor = det.color || defaultPalette[idx % defaultPalette.length];
+                    seg.style.backgroundColor = segColor;
+                    seg.setAttribute('title', `${det.label} : ~ ${det.count} (${segWidth.toFixed(1)}%)`);
+                    corpusBreakdownTrack.appendChild(seg);
+                  });
+                  corpusBreakdownWrapper.hidden = false;
+                } else {
+                  corpusBreakdownWrapper.hidden = true;
+                }
+              }
+
               // Sous-catégories / détails
               if (corpusDetailsRow) {
                 corpusDetailsRow.innerHTML = '';
                 if (artistRecord.corpus.details && artistRecord.corpus.details.length > 0) {
-                  artistRecord.corpus.details.forEach(det => {
+                  artistRecord.corpus.details.forEach((det, idx) => {
                     const pill = document.createElement('span');
                     pill.className = 'corpus-detail-pill';
-                    pill.innerHTML = `<strong>${det.count.toLocaleString('fr-FR')}</strong> ${det.label}`;
+                    const color = det.color || defaultPalette[idx % defaultPalette.length];
+                    if (det.seen && det.seen > 0) pill.classList.add('has-seen');
+
+                    const dot = `<span class="pill-dot" style="background:${color};"></span>`;
+                    const icon = det.icon ? `<span class="pill-icon">${det.icon}</span> ` : '';
+                    const seenBadge = (det.seen && det.seen > 0) ? ` <span class="pill-seen-tag">👁️ ${det.seen} vue</span>` : '';
+
+                    pill.innerHTML = `${dot}${icon}<strong>~ ${det.count.toLocaleString('fr-FR')}</strong> ${det.label}${seenBadge}`;
+                    if (det.note) pill.setAttribute('title', det.note);
                     corpusDetailsRow.appendChild(pill);
                   });
                   corpusDetailsRow.hidden = false;

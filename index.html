@@ -238,7 +238,7 @@
                 <span class="stat-icon">🎯</span>
                 <div class="stat-meta">
                   <strong class="stat-number" id="corpus-stat-percent">0%</strong>
-                  <span class="stat-label">Taux d'observation</span>
+                  <span class="stat-label" id="corpus-stat-percent-label">Taux d'observation</span>
                 </div>
               </div>
 
@@ -252,9 +252,14 @@
               </button>
             </div>
 
-            <!-- Jauge horizontale dorée -->
-            <div class="corpus-progress-track">
+            <!-- Jauge horizontale dorée (progression in situ) -->
+            <div class="corpus-progress-track" title="Progression de vos observations in situ">
               <div class="corpus-progress-bar" id="corpus-progress-bar" style="width: 0%;"></div>
+            </div>
+
+            <!-- Jauge segmentée de répartition par technique -->
+            <div class="corpus-breakdown-wrapper" id="corpus-breakdown-wrapper" hidden>
+              <div class="corpus-breakdown-track" id="corpus-breakdown-track"></div>
             </div>
 
             <!-- Détail par catégorie si disponible -->
