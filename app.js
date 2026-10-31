@@ -25,6 +25,13 @@ function switchView(targetViewId) {
     }
   });
 
+  if (targetViewId === 'view-timeline') {
+    document.body.classList.add('view-timeline-active');
+  } else {
+    document.body.classList.remove('view-timeline-active');
+    window.scrollTo({ top: 0, behavior: 'instant' });
+  }
+
   if (targetViewId === 'view-hub') {
     btnBackHub.hidden = true;
     insigniaSubtitle.textContent = "Portail & Archives Photographiques";
@@ -1044,6 +1051,8 @@ function renderModalCurrentArt() {
   }
 
   populateModalData(currentArt);
+  const frame = modal.querySelector('.curator-frame');
+  if (frame) frame.scrollTop = 0;
 }
 // Écouteurs pour les flèches Précédent / Suivant
 if (btnModalPrev) {
