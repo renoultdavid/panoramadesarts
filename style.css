@@ -2080,6 +2080,257 @@ body {
   padding: 22px 28px 16px 28px;
 }
 
+/* =========================================================
+   BAROMÈTRE DE CORPUS & CATALOGUE RAISONNÉ DU PEINTRE
+   ========================================================= */
+.artist-corpus-dashboard {
+  background: rgba(8, 11, 16, 0.85);
+  border: 1px solid rgba(212, 175, 55, 0.45);
+  border-radius: 6px;
+  padding: 18px 22px;
+  margin-bottom: 22px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.8), inset 0 1px 0 rgba(212, 175, 55, 0.2);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  animation: fadeInDrawer 0.3s ease-out;
+}
+
+.artist-corpus-dashboard[hidden] {
+  display: none !important;
+}
+
+.corpus-dashboard-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.corpus-dashboard-title {
+  font-family: 'Cinzel', serif;
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: var(--gold-pale);
+  text-transform: uppercase;
+}
+
+/* Grille des 4 cartes d'indicateurs */
+.corpus-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+}
+
+.corpus-stat-card {
+  background: rgba(18, 22, 30, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 5px;
+  padding: 12px 14px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  transition: all 0.25s ease;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.corpus-stat-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+}
+
+.corpus-stat-card .stat-icon {
+  font-size: 1.5rem;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.corpus-stat-card .stat-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.corpus-stat-card .stat-number {
+  font-family: 'Cinzel', serif;
+  font-size: 1.35rem;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  line-height: 1.1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.corpus-stat-card .stat-label {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* 1. Carte Total : Cyan / Saphir */
+.corpus-stat-card.card-total {
+  border-left: 3px solid #00b4d8;
+  background: linear-gradient(135deg, rgba(0, 180, 216, 0.12) 0%, rgba(18, 22, 30, 0.9) 100%);
+}
+.corpus-stat-card.card-total .stat-number {
+  color: #00d2ff;
+}
+
+/* 2. Carte Vues in situ : Or / Ambre */
+.corpus-stat-card.card-seen {
+  border-left: 3px solid var(--gold-pure);
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.15) 0%, rgba(18, 22, 30, 0.9) 100%);
+}
+.corpus-stat-card.card-seen .stat-number {
+  color: var(--gold-pure);
+}
+
+/* 3. Carte Ratio : Émeraude */
+.corpus-stat-card.card-ratio {
+  border-left: 3px solid #2ecc71;
+  background: linear-gradient(135deg, rgba(46, 204, 113, 0.12) 0%, rgba(18, 22, 30, 0.9) 100%);
+}
+.corpus-stat-card.card-ratio .stat-number {
+  color: #2ecc71;
+}
+
+/* 4. Carte Source : Parchemin / Améthyste (Bouton interactif) */
+.corpus-stat-card.card-source {
+  border-left: 3px solid #b5179e;
+  background: linear-gradient(135deg, rgba(181, 23, 158, 0.12) 0%, rgba(18, 22, 30, 0.9) 100%);
+  cursor: pointer;
+  text-align: left;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  border-right: 1px solid rgba(255, 255, 255, 0.08);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+.corpus-stat-card.card-source:hover,
+.corpus-stat-card.card-source.is-open {
+  background: linear-gradient(135deg, rgba(181, 23, 158, 0.25) 0%, rgba(28, 34, 46, 0.95) 100%);
+  border-color: #d4af37;
+  border-left-color: #b5179e;
+}
+.corpus-stat-card.card-source .stat-number {
+  color: #e0aaff;
+  font-size: 0.95rem;
+}
+.corpus-stat-card.card-source .stat-label {
+  color: #f2e3af;
+}
+
+/* Jauge de progression horizontale */
+.corpus-progress-track {
+  width: 100%;
+  height: 6px;
+  background: rgba(10, 13, 18, 0.9);
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+.corpus-progress-bar {
+  height: 100%;
+  background: linear-gradient(90deg, #d4af37 0%, #2ecc71 100%);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(46, 204, 113, 0.6);
+  transition: width 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* Détails des catégories du corpus (pastilles) */
+.corpus-details-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+.corpus-detail-pill {
+  background: rgba(22, 28, 38, 0.85);
+  border: 1px solid rgba(212, 175, 55, 0.35);
+  border-radius: 16px;
+  padding: 4px 12px;
+  font-size: 0.76rem;
+  color: var(--text-bright);
+  font-family: 'Cinzel', serif;
+  letter-spacing: 0.5px;
+}
+
+.corpus-detail-pill strong {
+  color: var(--gold-pure);
+  font-weight: 700;
+  margin-right: 4px;
+}
+
+/* Tiroir déroulant Source documentaire */
+.corpus-source-drawer {
+  background: rgba(12, 15, 22, 0.96);
+  border: 1px solid rgba(212, 175, 55, 0.4);
+  border-radius: 5px;
+  padding: 14px 18px;
+  animation: fadeInDrawer 0.25s ease-out;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.85);
+}
+
+.source-drawer-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+}
+
+.source-drawer-badge {
+  font-family: 'Cinzel', serif;
+  font-size: 0.66rem;
+  letter-spacing: 1.5px;
+  color: var(--gold-pure);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.btn-close-source-drawer {
+  background: transparent;
+  border: none;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  cursor: pointer;
+  padding: 2px 6px;
+  border-radius: 3px;
+  transition: color 0.2s;
+}
+
+.btn-close-source-drawer:hover {
+  color: var(--gold-pure);
+}
+
+.source-drawer-text {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: #e2e8f0;
+}
+
+.source-drawer-text p {
+  margin-bottom: 6px;
+}
+
+.source-drawer-text strong {
+  color: var(--gold-pale);
+  font-family: 'Cinzel', serif;
+  font-size: 0.88rem;
+}
+
 /* Notice biographique : texte complet, naturel et SANS AUCUN ascenseur */
 .artist-hero-bio {
   font-family: 'Cormorant Garamond', Georgia, serif;
@@ -2929,6 +3180,11 @@ body {
     left: 4% !important;
     right: auto !important;
   }
+
+  .corpus-stats-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 10px !important;
+  }
 }
 
 /* =========================================================
@@ -3129,5 +3385,54 @@ body {
   .gallery-card-pedestal img {
     height: 150px !important;
   }
+
+  /* Baromètre de Corpus sur smartphone */
+  .artist-corpus-dashboard {
+    padding: 12px 14px !important;
+    gap: 10px !important;
+    margin-bottom: 16px !important;
+  }
+
+  .corpus-dashboard-title {
+    font-size: 0.68rem !important;
+    letter-spacing: 1px !important;
+  }
+
+  .corpus-stats-grid {
+    grid-template-columns: 1fr 1fr !important;
+    gap: 8px !important;
+  }
+
+  .corpus-stat-card {
+    padding: 8px 10px !important;
+    gap: 8px !important;
+  }
+
+  .corpus-stat-card .stat-icon {
+    font-size: 1.25rem !important;
+  }
+
+  .corpus-stat-card .stat-number {
+    font-size: 1.1rem !important;
+  }
+
+  .corpus-stat-card .stat-label {
+    font-size: 0.62rem !important;
+    letter-spacing: 0.5px !important;
+  }
+
+  .corpus-stat-card.card-source {
+    grid-column: 1 / -1 !important;
+  }
+
+  .corpus-detail-pill {
+    font-size: 0.7rem !important;
+    padding: 3px 10px !important;
+  }
+
+  .source-drawer-text {
+    font-size: 0.95rem !important;
+  }
 }
+
 

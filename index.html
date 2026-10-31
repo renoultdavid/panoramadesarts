@@ -208,6 +208,68 @@
           </div>
         </div>
         <div class="artist-hero-content">
+          <!-- BAROMÈTRE DE CORPUS & CATALOGUE RAISONNÉ -->
+          <div class="artist-corpus-dashboard" id="artist-corpus-dashboard" hidden>
+            <div class="corpus-dashboard-header">
+              <span class="corpus-dashboard-title">📊 CORPUS &amp; CATALOGUE RAISONNÉ</span>
+            </div>
+
+            <div class="corpus-stats-grid">
+              <!-- 1. Total répertorié -->
+              <div class="corpus-stat-card card-total">
+                <span class="stat-icon">🏛️</span>
+                <div class="stat-meta">
+                  <strong class="stat-number" id="corpus-stat-total">0</strong>
+                  <span class="stat-label">Répertoriées au total</span>
+                </div>
+              </div>
+
+              <!-- 2. Vues par l'auteur -->
+              <div class="corpus-stat-card card-seen">
+                <span class="stat-icon">👁️</span>
+                <div class="stat-meta">
+                  <strong class="stat-number" id="corpus-stat-seen">0</strong>
+                  <span class="stat-label">Vue(s) in situ</span>
+                </div>
+              </div>
+
+              <!-- 3. Pourcentage & ratio -->
+              <div class="corpus-stat-card card-ratio">
+                <span class="stat-icon">🎯</span>
+                <div class="stat-meta">
+                  <strong class="stat-number" id="corpus-stat-percent">0%</strong>
+                  <span class="stat-label">Taux d'observation</span>
+                </div>
+              </div>
+
+              <!-- 4. Source documentaire -->
+              <button class="corpus-stat-card card-source" id="btn-toggle-corpus-source" type="button" title="Afficher la référence du catalogue raisonné">
+                <span class="stat-icon">📜</span>
+                <div class="stat-meta">
+                  <strong class="stat-number" id="corpus-source-title">Source du catalogue</strong>
+                  <span class="stat-label">Voir la référence ▾</span>
+                </div>
+              </button>
+            </div>
+
+            <!-- Jauge horizontale dorée -->
+            <div class="corpus-progress-track">
+              <div class="corpus-progress-bar" id="corpus-progress-bar" style="width: 0%;"></div>
+            </div>
+
+            <!-- Détail par catégorie si disponible -->
+            <div class="corpus-details-row" id="corpus-details-row" hidden></div>
+
+            <!-- Tiroir explicatif Source & Références bibliographiques -->
+            <div class="corpus-source-drawer" id="corpus-source-drawer" hidden>
+              <div class="source-drawer-header">
+                <span class="source-drawer-badge">CATALOGUE RAISONNÉ DE RÉFÉRENCE</span>
+                <button class="btn-close-source-drawer" id="btn-close-source-drawer" type="button">✕</button>
+              </div>
+              <div class="source-drawer-text" id="source-drawer-text"></div>
+            </div>
+          </div>
+
           <div class="artist-hero-bio" id="artist-hero-bio"></div>
           <div class="artist-hero-collection-title">
             <span>🎨 ŒUVRES AU CATALOGUE CLASSÉES PAR ORDRE CHRONOLOGIQUE</span>

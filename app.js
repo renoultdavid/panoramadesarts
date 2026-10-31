@@ -1523,9 +1523,38 @@ function initSearchEngine() {
   const artistHeroBio = document.getElementById('artist-hero-bio');
   const btnCloseArtistHero = document.getElementById('btn-close-artist-hero');
 
+  // Éléments du Baromètre de Corpus
+  const corpusDashboard = document.getElementById('artist-corpus-dashboard');
+  const corpusStatTotal = document.getElementById('corpus-stat-total');
+  const corpusStatSeen = document.getElementById('corpus-stat-seen');
+  const corpusStatPercent = document.getElementById('corpus-stat-percent');
+  const corpusProgressBar = document.getElementById('corpus-progress-bar');
+  const corpusDetailsRow = document.getElementById('corpus-details-row');
+  const btnToggleCorpusSource = document.getElementById('btn-toggle-corpus-source');
+  const corpusSourceTitle = document.getElementById('corpus-source-title');
+  const corpusSourceDrawer = document.getElementById('corpus-source-drawer');
+  const sourceDrawerText = document.getElementById('source-drawer-text');
+  const btnCloseSourceDrawer = document.getElementById('btn-close-source-drawer');
+
+  if (btnToggleCorpusSource && corpusSourceDrawer) {
+    btnToggleCorpusSource.addEventListener('click', () => {
+      corpusSourceDrawer.hidden = !corpusSourceDrawer.hidden;
+      btnToggleCorpusSource.classList.toggle('is-open', !corpusSourceDrawer.hidden);
+    });
+  }
+
+  if (btnCloseSourceDrawer && corpusSourceDrawer) {
+    btnCloseSourceDrawer.addEventListener('click', () => {
+      corpusSourceDrawer.hidden = true;
+      if (btnToggleCorpusSource) btnToggleCorpusSource.classList.remove('is-open');
+    });
+  }
+
   if (btnCloseArtistHero) {
     btnCloseArtistHero.addEventListener('click', () => {
       if (artistHero) artistHero.hidden = true;
+      if (corpusDashboard) corpusDashboard.hidden = true;
+      if (corpusSourceDrawer) corpusSourceDrawer.hidden = true;
       if (filterText) filterText.value = '';
       currentRenderLimit = PAGE_CHUNK;
       renderSearchGallery();
@@ -1581,6 +1610,61 @@ function initSearchEngine() {
               tagEl.textContent = t;
               artistHeroTags.appendChild(tagEl);
             });
+          }
+
+          // Baromètre de Corpus & Catalogue Raisonné
+          if (corpusDashboard) {
+            if (artistRecord.corpus && artistRecord.corpus.total) {
+              const totalCorpus = artistRecord.corpus.total;
+              const seenCorpus = artistRecord.corpus.seen !== undefined ? artistRecord.corpus.seen : (art.count || 0);
+              const percent = totalCorpus > 0 ? ((seenCorpus / totalCorpus) * 100).toFixed(1) : "0.0";
+
+              if (corpusStatTotal) corpusStatTotal.textContent = totalCorpus.toLocaleString('fr-FR');
+              if (corpusStatSeen) corpusStatSeen.textContent = seenCorpus.toLocaleString('fr-FR');
+              if (corpusStatPercent) corpusStatPercent.textContent = `${percent}%`;
+
+              if (corpusProgressBar) {
+                const barWidth = Math.min(100, Math.max(seenCorpus > 0 ? 1.5 : 0, parseFloat(percent)));
+                corpusProgressBar.style.width = `${barWidth}%`;
+              }
+
+              // Sous-catégories / détails
+              if (corpusDetailsRow) {
+                corpusDetailsRow.innerHTML = '';
+                if (artistRecord.corpus.details && artistRecord.corpus.details.length > 0) {
+                  artistRecord.corpus.details.forEach(det => {
+                    const pill = document.createElement('span');
+                    pill.className = 'corpus-detail-pill';
+                    pill.innerHTML = `<strong>${det.count.toLocaleString('fr-FR')}</strong> ${det.label}`;
+                    corpusDetailsRow.appendChild(pill);
+                  });
+                  corpusDetailsRow.hidden = false;
+                } else {
+                  corpusDetailsRow.hidden = true;
+                }
+              }
+
+              // Source & notes bibliographiques
+              if (corpusSourceTitle) {
+                corpusSourceTitle.textContent = artistRecord.corpus.sourceTitle || "Source du catalogue";
+              }
+              if (sourceDrawerText) {
+                sourceDrawerText.innerHTML = `
+                  <p><strong>${artistRecord.corpus.sourceTitle || 'Corpus de référence'}</strong></p>
+                  <p>${artistRecord.corpus.sourceNotes || artistRecord.corpus.source || 'Aucun détail complémentaire.'}</p>
+                `;
+              }
+              if (corpusSourceDrawer) {
+                corpusSourceDrawer.hidden = true;
+              }
+              if (btnToggleCorpusSource) {
+                btnToggleCorpusSource.classList.remove('is-open');
+              }
+
+              corpusDashboard.hidden = false;
+            } else {
+              corpusDashboard.hidden = true;
+            }
           }
 
           if (artistHeroBio) artistHeroBio.innerHTML = artistRecord.bio || '';
