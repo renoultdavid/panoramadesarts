@@ -1584,8 +1584,133 @@ function initSearchEngine() {
       if (filterText) filterText.value = '';
       currentRenderLimit = PAGE_CHUNK;
       renderSearchGallery();
+      expandFiltersPanel();
     });
   }
+
+  /* ==========================================================================
+     REPLI AUTOMATIQUE AU SCROLL (HYBRIDE IPAD / DESKTOP) & LIGNE FIGÉE
+     ========================================================================== */
+  const searchTopPanel = document.getElementById('search-top-panel');
+  const searchStickyBar = document.getElementById('search-sticky-bar');
+  const stickyBarIcon = document.getElementById('sticky-bar-icon');
+  const stickyBarTitle = document.getElementById('sticky-bar-title');
+  const stickyBarDates = document.getElementById('sticky-bar-dates');
+  const stickyBarSub = document.getElementById('sticky-bar-sub');
+  const stickyBarCount = document.getElementById('sticky-bar-count');
+  const btnExpandFilters = document.getElementById('btn-expand-filters');
+  const btnCollapseFilters = document.getElementById('btn-collapse-filters');
+  const btnStickyCloseArtist = document.getElementById('btn-sticky-close-artist');
+  const searchGalleryScroll = document.getElementById('search-gallery-scroll');
+
+  let filtersManuallyCollapsed = false;
+
+  function syncStickyBarContent() {
+    if (!searchStickyBar) return;
+    const isArtistOpen = Boolean(artistHero && !artistHero.hidden);
+    const countVal = document.getElementById('search-count')?.textContent || '0';
+
+    if (isArtistOpen && artistHeroName) {
+      const nameTxt = artistHeroName.textContent.trim();
+      const datesTxt = artistHeroDates ? artistHeroDates.textContent.trim() : '';
+      const registry = window.ARTISTS_REGISTRY || {};
+      const rec = Object.values(registry).find(
+        r => r.name && r.name.toLowerCase().trim() === nameTxt.toLowerCase()
+      );
+      if (stickyBarIcon) stickyBarIcon.textContent = '🎨';
+      if (stickyBarTitle) stickyBarTitle.textContent = nameTxt;
+      if (stickyBarDates) stickyBarDates.textContent = datesTxt;
+      if (stickyBarSub) stickyBarSub.textContent = rec && rec.movement ? rec.movement : '';
+      if (stickyBarCount) stickyBarCount.textContent = `${countVal} œuvre${Number(countVal) > 1 ? 's' : ''}`;
+      if (btnStickyCloseArtist) btnStickyCloseArtist.hidden = false;
+    } else {
+      if (stickyBarIcon) stickyBarIcon.textContent = '🏛️';
+      const q = filterText && filterText.value.trim() ? `« ${filterText.value.trim()} »` : 'CATALOGUE DES ARTS';
+      if (stickyBarTitle) stickyBarTitle.textContent = q;
+      if (stickyBarDates) stickyBarDates.textContent = '';
+      if (stickyBarSub) stickyBarSub.textContent = '';
+      if (stickyBarCount) stickyBarCount.textContent = `${countVal} résultat${Number(countVal) > 1 ? 's' : ''}`;
+      if (btnStickyCloseArtist) btnStickyCloseArtist.hidden = true;
+    }
+  }
+
+  function collapseFiltersPanel(manual = false) {
+    if (!searchTopPanel || !searchStickyBar) return;
+    if (manual) filtersManuallyCollapsed = true;
+    if (artistsDrawer) artistsDrawer.hidden = true;
+    document.querySelectorAll('.btn-alpha-letter').forEach(b => b.classList.remove('active'));
+    syncStickyBarContent();
+    searchTopPanel.classList.add('is-collapsed');
+    searchStickyBar.hidden = false;
+  }
+
+  function expandFiltersPanel() {
+    if (!searchTopPanel || !searchStickyBar) return;
+    filtersManuallyCollapsed = false;
+    searchTopPanel.classList.remove('is-collapsed');
+    searchStickyBar.hidden = true;
+  }
+
+  if (btnCollapseFilters) {
+    btnCollapseFilters.addEventListener('click', () => {
+      collapseFiltersPanel(true);
+    });
+  }
+
+  if (btnExpandFilters) {
+    btnExpandFilters.addEventListener('click', () => {
+      expandFiltersPanel();
+    });
+  }
+
+  if (btnStickyCloseArtist) {
+    btnStickyCloseArtist.addEventListener('click', () => {
+      if (btnCloseArtistHero) btnCloseArtistHero.click();
+    });
+  }
+
+  // Surveillance du défilement (conteneur interne sur desktop ET fenêtre sur iPad/mobile)
+  let lastScrollPos = 0;
+  let scrollLockUntil = 0;
+
+  function handleGalleryScroll(currentTop) {
+    const now = Date.now();
+    if (now < scrollLockUntil) {
+      lastScrollPos = currentTop;
+      return;
+    }
+
+    const delta = currentTop - lastScrollPos;
+    const isCollapsed = searchTopPanel && searchTopPanel.classList.contains('is-collapsed');
+
+    // 1. En descendant au-delà de 55px : repli automatique vers la ligne figée
+    if (!isCollapsed && currentTop > 55 && delta > 6) {
+      scrollLockUntil = now + 380;
+      collapseFiltersPanel(false);
+    }
+    // 2. En revenant tout en haut (< 20px) : réouverture automatique (sauf si replié manuellement à l'instant)
+    else if (isCollapsed && !filtersManuallyCollapsed && currentTop <= 20 && delta < -2) {
+      scrollLockUntil = now + 380;
+      expandFiltersPanel();
+    }
+
+    lastScrollPos = currentTop;
+  }
+
+  if (searchGalleryScroll) {
+    searchGalleryScroll.addEventListener('scroll', () => {
+      handleGalleryScroll(searchGalleryScroll.scrollTop || 0);
+    }, { passive: true });
+  }
+
+  window.addEventListener('scroll', () => {
+    const viewSearch = document.getElementById('view-search');
+    if (!viewSearch || viewSearch.hidden) return;
+    const winTop = window.scrollY || document.documentElement.scrollTop || 0;
+    handleGalleryScroll(winTop);
+  }, { passive: true });
+
+  window.syncSearchStickyBar = syncStickyBarContent;
 
   function openArtistsDrawer(letter, artistsMap) {
     if (!artistsDrawer || !drawerList) return;
@@ -2114,6 +2239,10 @@ function renderSearchGallery() {
 
   if (loadMoreBox) {
     loadMoreBox.hidden = currentRenderLimit >= filtered.length;
+  }
+
+  if (typeof window.syncSearchStickyBar === 'function') {
+    window.syncSearchStickyBar();
   }
 }
 /* ==========================================================================

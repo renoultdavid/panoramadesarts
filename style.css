@@ -1973,6 +1973,227 @@ body {
   opacity: 0.8;
 }
 /* =========================================================
+   SYSTÈME DE REPLI INTELLIGENT DES FILTRES & LIGNE FIGÉE (IPAD / DESKTOP)
+   ========================================================= */
+.search-top-panel {
+  flex-shrink: 0;
+  width: 100%;
+  background: rgba(14, 17, 24, 0.98);
+  transition: max-height 0.32s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.25s ease;
+  max-height: 900px;
+  opacity: 1;
+  overflow: visible;
+  z-index: 20;
+}
+
+.search-top-panel.is-collapsed {
+  max-height: 0 !important;
+  opacity: 0 !important;
+  overflow: hidden !important;
+  pointer-events: none !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.filter-status-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.btn-collapse-filters {
+  background: rgba(212, 175, 55, 0.12);
+  border: 1px solid rgba(212, 175, 55, 0.4);
+  color: var(--gold-pale);
+  font-family: 'Cinzel', serif;
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-collapse-filters:hover {
+  background: var(--gold-pure);
+  color: #000;
+  border-color: var(--gold-pure);
+}
+
+/* Ligne figée compacte affichée quand les filtres sont repliés */
+.search-sticky-bar {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 8px 24px;
+  min-height: 44px;
+  background: linear-gradient(90deg, rgba(10, 13, 20, 0.98) 0%, rgba(18, 23, 33, 0.98) 100%);
+  border-bottom: 1.5px solid var(--gold-pure);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(10px);
+  flex-shrink: 0;
+  animation: fadeInDrawer 0.22s ease-out;
+}
+
+.search-sticky-bar[hidden] {
+  display: none !important;
+}
+
+.sticky-bar-identity {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  min-width: 0;
+  flex: 1;
+  overflow: hidden;
+}
+
+.sticky-bar-icon {
+  font-size: 1rem;
+  flex-shrink: 0;
+  align-self: center;
+}
+
+.sticky-bar-title {
+  font-family: 'Cinzel', serif;
+  font-size: 1.08rem;
+  font-weight: 700;
+  color: var(--gold-pure);
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.sticky-bar-dates {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 1.02rem;
+  font-style: italic;
+  color: var(--gold-pale);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.sticky-bar-sub {
+  font-family: 'Cinzel', serif;
+  font-size: 0.68rem;
+  color: var(--text-muted);
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-left: 8px;
+  border-left: 1px solid rgba(212, 175, 55, 0.25);
+}
+
+.sticky-bar-sub:empty {
+  display: none;
+}
+
+.sticky-bar-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.sticky-bar-count {
+  font-family: 'Cinzel', serif;
+  font-size: 0.72rem;
+  color: var(--gold-pale);
+  background: rgba(212, 175, 55, 0.1);
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  padding: 3px 9px;
+  border-radius: 12px;
+  white-space: nowrap;
+}
+
+.btn-sticky-expand {
+  background: rgba(212, 175, 55, 0.16);
+  border: 1px solid var(--gold-pure);
+  color: var(--gold-pale);
+  font-family: 'Cinzel', serif;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 5px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.btn-sticky-expand:hover {
+  background: var(--gold-pure);
+  color: #000;
+}
+
+.btn-sticky-close-artist {
+  background: rgba(230, 57, 70, 0.15);
+  border: 1px solid rgba(230, 57, 70, 0.55);
+  color: #ffb3b8;
+  font-family: 'Cinzel', serif;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.btn-sticky-close-artist:hover {
+  background: #e63946;
+  color: #fff;
+  border-color: #ff6b6b;
+}
+
+@media (max-width: 1024px) {
+  .search-sticky-bar {
+    position: sticky !important;
+    top: 48px !important;
+    z-index: 480 !important;
+    padding: 8px 14px !important;
+  }
+  .sticky-bar-sub {
+    display: none !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .search-sticky-bar {
+    padding: 6px 10px !important;
+    gap: 6px !important;
+  }
+  .sticky-bar-title {
+    font-size: 0.86rem !important;
+  }
+  .sticky-bar-dates {
+    font-size: 0.84rem !important;
+  }
+  .sticky-bar-count {
+    display: none !important;
+  }
+  .btn-sticky-expand,
+  .btn-sticky-close-artist {
+    padding: 4px 8px !important;
+    font-size: 0.62rem !important;
+  }
+}
+
+/* =========================================================
    FICHE MONOGRAPHIQUE PEINTRE (RATIO PANORAMIQUE & TYPOGRAPHIE)
    ========================================================= */
 .artist-monograph-hero {

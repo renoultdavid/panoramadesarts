@@ -95,74 +95,75 @@
        VUE 2 : MOTEUR DE RECHERCHE & GALERIE (VOLET GAUCHE DÉPLOYÉ)
        ========================================================================= -->
   <section id="view-search" class="spa-view" hidden>
-    <div class="search-engine-bar">
-      <div class="filter-controls-grid">
-        <!-- 1. Civilisation -->
-        <div class="filter-field">
-          <label for="filter-civ">🌍 Civilisation</label>
-          <select id="filter-civ">
-            <option value="all">Toutes les civilisations</option>
-          </select>
-        </div>
-
-        <!-- 2. Période / Époque (dépend de la civilisation) -->
-        <div class="filter-field">
-          <label for="filter-period">⏳ Période / Époque</label>
-          <select id="filter-period">
-            <option value="all">Toutes les périodes</option>
-          </select>
-        </div>
-
-        <!-- 3. Domaine technique -->
-        <div class="filter-field">
-          <label for="filter-domain">🏺 Domaine technique</label>
-          <select id="filter-domain">
-            <option value="all">Tous les domaines</option>
-          </select>
-        </div>
-
-        <!-- 4. Forme / Typologie (dépend du domaine) -->
-        <div class="filter-field">
-          <label for="filter-type">🔍 Forme / Typologie</label>
-          <select id="filter-type">
-            <option value="all">Toutes les formes</option>
-          </select>
-        </div>
-
-        <!-- 5. Recherche libre : artiste, lieu, matière, titre -->
-        <div class="filter-field">
-          <label for="filter-text">🔎 Recherche libre</label>
-          <input type="text" id="filter-text" placeholder="Peintre, matériau, site, titre...">
-        </div>
-
-        <!-- 6. Tri -->
-        <div class="filter-field">
-          <label for="filter-sort">↕️ Trier par</label>
-          <select id="filter-sort">
-            <option value="recent">Derniers ajouts</option>
-            <option value="chrono-asc">Chronologique (du + ancien)</option>
-            <option value="chrono-desc">Chronologique (du + récent)</option>
-            <option value="alpha-asc">Ordre alphabétique (A-Z)</option>
-            <option value="alpha-desc">Ordre alphabétique inversé (Z-A)</option>
-          </select>
-        </div>
-
-        <!-- Boutons de filtrage Focus & Aléatoire -->
-        <div class="filter-field filter-field-focus-actions">
-          <label>✨ Mode Focus</label>
-          <div class="focus-action-buttons-row">
-            <button id="btn-filter-focus-only" class="btn-focus-filter" title="Afficher uniquement les œuvres avec mode Focus">
-              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
-              Œuvres Focus
-            </button>
-            <button id="btn-random-focus" class="btn-focus-dice" title="Explorer une œuvre Focus au hasard">
-              🎲
-            </button>
+    <div id="search-top-panel" class="search-top-panel">
+      <div class="search-engine-bar">
+        <div class="filter-controls-grid">
+          <!-- 1. Civilisation -->
+          <div class="filter-field">
+            <label for="filter-civ">🌍 Civilisation</label>
+            <select id="filter-civ">
+              <option value="all">Toutes les civilisations</option>
+            </select>
           </div>
-        </div>
 
+          <!-- 2. Période / Époque (dépend de la civilisation) -->
+          <div class="filter-field">
+            <label for="filter-period">⏳ Période / Époque</label>
+            <select id="filter-period">
+              <option value="all">Toutes les périodes</option>
+            </select>
+          </div>
+
+          <!-- 3. Domaine technique -->
+          <div class="filter-field">
+            <label for="filter-domain">🏺 Domaine technique</label>
+            <select id="filter-domain">
+              <option value="all">Tous les domaines</option>
+            </select>
+          </div>
+
+          <!-- 4. Forme / Typologie (dépend du domaine) -->
+          <div class="filter-field">
+            <label for="filter-type">🔍 Forme / Typologie</label>
+            <select id="filter-type">
+              <option value="all">Toutes les formes</option>
+            </select>
+          </div>
+
+          <!-- 5. Recherche libre : artiste, lieu, matière, titre -->
+          <div class="filter-field">
+            <label for="filter-text">🔎 Recherche libre</label>
+            <input type="text" id="filter-text" placeholder="Peintre, matériau, site, titre...">
+          </div>
+
+          <!-- 6. Tri -->
+          <div class="filter-field">
+            <label for="filter-sort">↕️ Trier par</label>
+            <select id="filter-sort">
+              <option value="recent">Derniers ajouts</option>
+              <option value="chrono-asc">Chronologique (du + ancien)</option>
+              <option value="chrono-desc">Chronologique (du + récent)</option>
+              <option value="alpha-asc">Ordre alphabétique (A-Z)</option>
+              <option value="alpha-desc">Ordre alphabétique inversé (Z-A)</option>
+            </select>
+          </div>
+
+          <!-- Boutons de filtrage Focus & Aléatoire -->
+          <div class="filter-field filter-field-focus-actions">
+            <label>✨ Mode Focus</label>
+            <div class="focus-action-buttons-row">
+              <button id="btn-filter-focus-only" class="btn-focus-filter" title="Afficher uniquement les œuvres avec mode Focus">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+                Œuvres Focus
+              </button>
+              <button id="btn-random-focus" class="btn-focus-dice" title="Explorer une œuvre Focus au hasard">
+                🎲
+              </button>
+            </div>
+          </div>
+
+        </div>
       </div>
-    </div>
 
       <!-- Index alphabétique A-Z pour les peintres -->
       <div class="artists-alphabet-bar" id="artists-alphabet-bar">
@@ -188,7 +189,29 @@
         <div class="total-collection-counter">
           TOTAL COLLECTION : <strong id="total-objects-count">0</strong> OBJETS
         </div>
-        <button id="btn-reset-filters" class="btn-filter-reset">Réinitialiser les filtres</button>
+        <div class="filter-status-actions">
+          <button id="btn-reset-filters" class="btn-filter-reset">Réinitialiser les filtres</button>
+          <button id="btn-collapse-filters" class="btn-collapse-filters" type="button" title="Replier le panneau de filtres">▲ Replier</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bandeau compact épinglé lors du défilement (Affiche le nom du peintre + dates ou le compteur) -->
+    <div id="search-sticky-bar" class="search-sticky-bar" hidden>
+      <div class="sticky-bar-identity">
+        <span class="sticky-bar-icon" id="sticky-bar-icon">🎨</span>
+        <span class="sticky-bar-title" id="sticky-bar-title">CATALOGUE DES ARTS</span>
+        <span class="sticky-bar-dates" id="sticky-bar-dates"></span>
+        <span class="sticky-bar-sub" id="sticky-bar-sub"></span>
+      </div>
+      <div class="sticky-bar-actions">
+        <span class="sticky-bar-count" id="sticky-bar-count">0 œuvre</span>
+        <button id="btn-expand-filters" class="btn-sticky-expand" type="button" title="Déployer les filtres et l'index A-Z">
+          🔍 Filtres &amp; A-Z ▾
+        </button>
+        <button id="btn-sticky-close-artist" class="btn-sticky-close-artist" type="button" hidden title="Fermer la fiche peintre">
+          ✕ Fermer la fiche
+        </button>
       </div>
     </div>
 
