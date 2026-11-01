@@ -342,6 +342,69 @@ window.ARTISTS_REGISTRY = {
       sourceNotes: "En l'absence d'un catalogue raisonné moderne définitif, deux repères complémentaires permettent de mesurer son corpus : d'une part, la rigueur historique de l'inventaire officiel de son atelier dressé en 1900 après son décès, qui recense très exactement 892 peintures et études ; d'autre part, l'estimation scientifique retenue ici qui fixe un plafond réaliste à environ 1 500 œuvres, afin d'intégrer l'ampleur des grandes toiles et commandes vendues tout au long de sa carrière en France, en Angleterre et aux États-Unis."
     }
   },
+  "bonnard": {
+    id: "bonnard",
+    name: "Bonnard Pierre",
+    sortName: "Bonnard Pierre",
+    sortLetter: "B",
+    dates: "1867 – 1947",
+    movement: "Les Nabis & Intimisme post-impressionniste",
+    nationality: "Français (Fontenay-aux-Roses / Paris / Le Cannet)",
+    techniques: "Huile sur toile, sur panneau et sur carton, gouache, lithographie et paravents décoratifs",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczPXSqPVfplgZzkIpkHpHvULPWDPLqrr_dwGu-TTWOOWq41F8rlSYS1ivckNLqOTpDsLO3f2eMF-D599y1YwghzuEDqFdPnWgMomGQZiT0EuMosdGDX05yZcuJCl-D6JQDXaooV1DvRg9akWLUXxSmKLhg=w1897-h805-s-no-gm?authuser=0",
+    portraitImg: "",
+    bio: `
+      <p><strong>Peintre du bonheur domestique, de la sensation colorée et de l'intime</strong><br>
+      Pierre Bonnard (1867 – 1947) est le peintre du bonheur domestique, de la sensation colorée et de l'intime. Cofondateur du groupe des Nabis, il a évolué vers un style unique qualifié d'« impressionnisme de deuxième génération » ou d'Intimisme, où la couleur ne sert plus seulement à décrire le monde, mais à traduire l'émotion du souvenir.</p>
+      <p><strong>Palette incandescente, cadrages décentrés et peinture de mémoire</strong><br>
+      Son genre pictural se définit par la scène d'intérieur, le nu au bain et le paysage méditerranéen. Son style se caractérise par une palette incandescente, presque irréelle, et une composition souvent décentrée ou tronquée qui invite le spectateur à entrer dans l'intimité du foyer. Il ne peignait jamais sur le motif, mais de mémoire, ce qui donne à ses œuvres cette atmosphère de rêve éveillé où les formes semblent se dissoudre dans la lumière.</p>
+      <p><strong>Du graphisme japonisant vers une apothéose chromatique</strong><br>
+      • <em>La période Nabi et le japonisme (années 1890)</em> : Surnommé le « Nabi très japonard », il utilise des aplats de couleurs, des perspectives écrasées et des formats originaux (paravents). Son style est alors très décoratif et graphique.<br>
+      • <em>L'Intimisme et Marthe (1900 – 1920)</em> : Sa compagne Marthe devient sa muse quasi unique. Il la peint inlassablement dans ses rituels quotidiens. Son style s'assouplit, la touche devient plus vibrante et les intérieurs (salles à manger, cabinets de toilette) deviennent des refuges de lumière dorée ou bleutée.<br>
+      • <em>Le rayonnement final et le « Nu au bain » (après 1920)</em> : Installé au Cannet, son style explose dans des couleurs de plus en plus intenses (jaunes mimosa, violets profonds). Ses séries de nus dans la baignoire atteignent une dimension universelle et mélancolique : Marthe y semble éternellement jeune, baignée dans une eau qui devient un miroir de lumière pure.</p>
+    `,
+    corpus: {
+      total: 2400,
+      seen: 1,
+      paintingsCount: 2400,
+      details: [
+        { label: "Peintures reconnues (huiles sur toile, panneau et carton — cat. Dauberville & suppléments)", count: 2400, icon: "🎨", color: "#d4af37", seen: 1, note: "Près de 2 400 peintures (4 vol. 1965–1974 + suppléments jusqu'en 2021)" }
+      ],
+      sourceTitle: "Catalogue raisonné Jean & Henry Dauberville (1965–1974) et suppléments (2021)",
+      sourceNotes: "Le Catalogue raisonné de l'œuvre peint de Pierre Bonnard a été initialement dressé par Jean et Henry Dauberville en quatre volumes monumentaux publiés entre 1965 et 1974. Cet inventaire scientifique reste vivant et continue d'être mis à jour au fil des découvertes : un deuxième supplément a été publié en 2021 par Guy-Patrice et Floriane Dauberville, et un troisième est en cours de préparation. En compilant les quatre volumes originaux et ces récents suppléments, le corpus officiel des peintures (huiles sur toile, sur panneau et sur carton) reconnues de la main de Bonnard approche les 2 400 œuvres."
+    }
+  },
+  "bosch": {
+    id: "bosch",
+    name: "Bosch Jérôme",
+    sortName: "Bosch Jérôme",
+    sortLetter: "B",
+    dates: "v. 1450 – 1516",
+    movement: "Primitifs flamands & Renaissance nordique visionnaire",
+    nationality: "Flamand / Brabançon (Bois-le-Duc, 's-Hertogenbosch)",
+    techniques: "Huile sur panneau de chêne (triptyques monumentaux, volets en grisaille), dessin à la plume",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczOzOQoyrei4bdMoq6fItKVKBMUjC77tWmxGLNrkN9nwH0Gcou-bS6YVS4FPWtRPdMdODXLzvi9Io3bS6UZPvP3nDBOWJ7jN1e2AV-cMNs9-WNFbvZ2cgxZ69-6Z3z98O7qRwKyB4tTAguPK7znKMPrg4Q=w1897-h805-s-no-gm?authuser=0",
+    portraitImg: "",
+    bio: `
+      <p><strong>Visionnaire énigmatique et moraliste chrétien entre Moyen Âge et Renaissance</strong><br>
+      Jérôme Bosch, né vers 1450 et mort en 1516 à Bois-le-Duc, est l'un des peintres les plus énigmatiques et visionnaires de l'histoire de l'art flamand. Membre de l'illustre confrérie de Notre-Dame, il a mené une existence stable et reconnue dans sa ville natale, bien que son œuvre semble émaner d'un esprit tourmenté et hors du commun. À une époque charnière entre le Moyen Âge finissant et la Renaissance, Bosch a créé un univers fantastique qui a fasciné les plus grands collectionneurs de son temps, notamment le roi Philippe II d'Espagne, qui voyait en lui un moraliste chrétien d'une profondeur absolue.</p>
+      <p><strong>Théâtre de l'effroi, <em>grilli</em> hybrides et sermons visuels satiriques</strong><br>
+      Son genre pictural est celui du retable narratif, mais réinventé par une imagination débordante et un sens aigu de la satire. Son style se caractérise par la création de paysages panoramiques peuplés de « grilli » — des créatures hybrides et monstrueuses mêlant l'humain, l'animal et l'organique. À l'opposé de la sérénité d'un Memling, Bosch utilise une touche rapide et nerveuse pour dépeindre la folie humaine, le péché et les tourments de l'enfer. Ses œuvres les plus célèbres, comme <em>Le Jardin des délices</em>, fonctionnent comme des sermons visuels complexes où chaque détail symbolise un vice ou une mise en garde spirituelle, transformant le support pictural en un théâtre de l'absurde et de l'effroi.</p>
+      <p><strong>Des grands triptyques cosmogoniques aux figures monumentales</strong><br>
+      L'évolution de son style montre un passage d'une certaine raideur archaïque vers des compositions de plus en plus vastes et peuplées. Si ses premières œuvres se concentrent sur des scènes morales plus simples comme <em>L'Escamoteur</em>, sa maturité voit l'éclosion de ses grands triptyques où l'espace est saturé d'une multitude de micro-récits. Vers la fin de sa vie, il semble s'orienter vers des plans plus rapprochés et des figures plus monumentales, comme dans <em>Le Portement de Croix</em>, où les visages grimaçants et grotesques prennent le pas sur le paysage. Son héritage, redécouvert par les surréalistes au XXe siècle, fait de lui le pionnier de l'exploration de l'inconscient et le maître incontesté de l'imagerie fantastique occidentale.</p>
+    `,
+    corpus: {
+      total: 45,
+      seen: 3,
+      paintingsCount: 25,
+      details: [
+        { label: "Peintures autographes (panneaux et triptyques — cat. BRCP 2016)", count: 25, icon: "🎨", color: "#d4af37", seen: 3, note: "Environ 25 peintures reconnues de la main du maître" },
+        { label: "Dessins autographes (cat. BRCP 2016)", count: 20, icon: "✍️", color: "#00b4d8", seen: 0, note: "Une vingtaine de feuilles autographes conservées" }
+      ],
+      sourceTitle: "Catalogue raisonné du BRCP — Matthijs Ilsink (2016)",
+      sourceNotes: "Le catalogue raisonné qui fait aujourd'hui autorité de manière indiscutable a été publié en 2016, à l'occasion du 500e anniversaire de sa mort, par le BRCP (Bosch Research and Conservation Project) sous la direction de l'historien de l'art Matthijs Ilsink. Après des années d'analyses scientifiques poussées (réflectographie infrarouge, dendrochronologie), ce comité a définitivement purifié son œuvre peinte. Le chiffre est vertigineusement bas : ce catalogue de référence ne reconnaît aujourd'hui qu'environ 25 peintures (panneaux et triptyques confondus) comme étant de la main du maître (le BRCP y ajoute également une vingtaine de dessins autographes)."
+    }
+  },
   "cassatt": {
     id: "cassatt",
     name: "Cassatt Mary",
