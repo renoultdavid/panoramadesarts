@@ -211,6 +211,39 @@ window.ARTISTS_REGISTRY = {
       sourceNotes: "Taddeo di Bartolo fut un artiste extrêmement prolifique. L'historienne de l'art Gail E. Solberg, qui fait autorité mondialement sur ce peintre, a publié en 2020 une monographie monumentale en deux volumes (Taddeo di Bartolo: Siena's Painter in the Early Quattrocento) qui tient lieu de catalogue raisonné définitif, établissant un plafond de référence d'environ 150 œuvres."
     }
   },
+  "beckmann": {
+    id: "beckmann",
+    name: "Max Beckmann",
+    sortLetter: "B",
+    dates: "1884 – 1950",
+    movement: "Expressionnisme allemand & Nouvelle Objectivité (Neue Sachlichkeit)",
+    nationality: "Allemand (Leipzig, actif à Francfort, Berlin, Amsterdam et aux États-Unis)",
+    techniques: "Huile sur toile, triptyques monumentaux, aquarelle, pastel et gravure",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczNlQ1a28RgXGoT1LqMb02kA1-ZRajxAqxKi5TujQDaGHDiYANH6s_u8n9dQexa8WAEyTA2mQb6vlJBm3zWn4LRLhHFxZ0jgvHDP7l8tsc4XmGuyD0iperI4uCePH6-sRF4-8XSfjyttw8hK6gvChhIcDA=w1897-h805-s-no-gm?authuser=0",
+    portraitImg: "",
+    bio: `
+      <p><strong>Géant de l'art allemand du XXe siècle et sondeur de l'âme humaine</strong><br>
+      Max Beckmann (1884 – 1950) est l'un des géants de l'art allemand du XXe siècle, inclassable bien que souvent rattaché à l'Expressionnisme ou à la Nouvelle Objectivité. Profondément marqué par son expérience d'infirmier pendant la Première Guerre mondiale, il a transformé son traumatisme en une œuvre puissante et tourmentée, cherchant à sonder les profondeurs de l'âme humaine face à la cruauté du monde moderne.</p>
+      <p><strong>Synthèse entre tradition classique et modernité brutale</strong><br>
+      Son genre pictural se définit par une synthèse entre la grande tradition classique et une modernité brutale. Beckmann ne s'intéresse pas à l'abstraction ; il reste attaché à la figure humaine, qu'il enferme souvent dans des espaces étroits et oppressants. Son style se caractérise par des cernes noirs épais, des formes massives et une symbolique complexe, où le cirque, le théâtre et la mythologie servent de métaphores aux drames politiques et personnels.</p>
+      <p><strong>De l'académisme au symbolisme monumental des Triptyques</strong><br>
+      L'évolution de son style marque un passage de l'académisme vers un symbolisme monumental :</p>
+      <p><strong>La rupture de la guerre :</strong> Ses premières toiles, d'une facture traditionnelle proche de l'impressionnisme, laissent place après 1914 à un style anguleux, fragmenté et cauchemardesque, traduisant l'effondrement de la civilisation.</p>
+      <p><strong>La Nouvelle Objectivité :</strong> Dans les années 1920, son trait se durcit. Il peint la vie urbaine de Weimar avec un réalisme froid et tranchant, capturant le vide et l'aliénation de ses contemporains dans des autoportraits restés célèbres.</p>
+      <p><strong>Les Triptyques de l'exil :</strong> Considéré comme un « artiste dégénéré » par les nazis, il s'exile à Amsterdam puis aux États-Unis. Son style atteint alors une dimension universelle et mystique. Il adopte le format du triptyque médiéval pour créer des œuvres monumentales saturées de couleurs vives, où il met en scène l'éternel combat de l'individu pour sa liberté spirituelle.</p>
+    `,
+    corpus: {
+      total: 993,
+      seen: 1,
+      paintingsCount: 843,
+      details: [
+        { label: "Peintures autographes (cat. Anja Tiedemann 2021)", count: 843, icon: "🎨", color: "#d4af37", seen: 1, note: "843 peintures très exactement recensées" },
+        { label: "Aquarelles et pastels documentés", count: 150, icon: "🖌️", color: "#00b4d8", seen: 0 }
+      ],
+      sourceTitle: "Catalogue raisonné critique Anja Tiedemann (2021)",
+      sourceNotes: "L'inventaire de référence absolu et le plus récent est le catalogue raisonné critique publié sous la direction de l'historienne de l'art Anja Tiedemann en 2021. Cet ouvrage exhaustif recense très exactement 843 peintures reconnues comme étant de sa main. Outre ses toiles, son corpus pictural compte également environ 150 aquarelles et pastels qui sont documentés et classés à part."
+    }
+  },
   "cassatt": {
     id: "cassatt",
     name: "Mary Cassatt",

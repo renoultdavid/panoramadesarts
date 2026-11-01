@@ -3,6 +3,34 @@
    ========================================================================== */
 window.ART_OBJECTS = [
   {
+    id: "beckmann_avant_le_bal_masque_1922_munich",
+    artistId: "beckmann",
+    artist: "Max Beckmann",
+    artistSort: "Beckmann",
+    title: "Avant le bal masqué (Munich)",
+    civId: "occident",
+    periodId: "occ_xxe_moderne",
+    civName: "Occident chrétien & moderne",
+    century: "1922 (XXe siècle)",
+    centuryDisplay: "1922",
+    centuryNumeric: 1922,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture sur toile (chevalet)",
+    site: "Pinakothek der Moderne (Munich)",
+    originSite: "Francfort-sur-le-Main (République de Weimar)",
+    locationType: "museum",
+    currentLocation: "Pinakothek der Moderne, Munich",
+    category: "Peinture de chevalet (huile sur toile)",
+    isHighlight: true,
+    chips: ["1922", "Max Beckmann", "Avant le bal masqué", "Pinakothek der Moderne (Munich)", "Nouvelle Objectivité", "Expressionnisme allemand"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNlQ1a28RgXGoT1LqMb02kA1-ZRajxAqxKi5TujQDaGHDiYANH6s_u8n9dQexa8WAEyTA2mQb6vlJBm3zWn4LRLhHFxZ0jgvHDP7l8tsc4XmGuyD0iperI4uCePH6-sRF4-8XSfjyttw8hK6gvChhIcDA=w1897-h805-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczO5O3kuOw-N884Rq-_uMczT2Rohp93i1hp32HE_7xE5qy2M3uupATiIyvRQbJPp55V3MW5Fs1OjZVccF6n54SquzN4pSwSR0RF5Bt_1pB0_yWSIyr7CFKeS2SMjxUTtIokceH1WeG4LIPGVSyxr1nK8-g=w1897-h1150-s-no-gm?authuser=0",
+    narrative: `<p>Cette œuvre majeure de Max Beckmann, conservée à la Pinakothek der Moderne de Munich, est un exemple puissant de l'Expressionnisme allemand et de la "Nouvelle Objectivité" (Neue Sachlichkeit). Peinte en 1922, dans le climat instable et fiévreux de la République de Weimar, cette toile capture l'atmosphère de désenchantement et de tension psychologique qui caractérise l'entre-deux-guerres. Beckmann y utilise le thème du carnaval et du travestissement non pas comme une fête, mais comme une métaphore de la comédie humaine et de la difficulté des individus à communiquer.</p>
+    <p>La composition est volontairement oppressante, enfermant les personnages dans un espace intérieur étroit et déformé. Au centre, un homme portant un loup noir (probablement un autoportrait stylisé) nous tourne le dos tout en nous observant d'un air méfiant, créant un malaise immédiat. Autour de lui, les autres figures semblent murées dans leur propre solitude : une femme pensive tenant un tambourin, un jeune homme accablé et une femme à droite tenant une bougie, dont la lumière crue souligne les traits tirés des visages. Les objets éparpillés au sol — instruments de musique, masques et livres — renforcent cette sensation de désordre et de vacuité.</p>
+    <p>Techniquement, Beckmann emploie des contours noirs épais et des formes anguleuses qui rappellent la gravure sur bois médiévale, un style qu'il a développé après son expérience traumatisante comme infirmier pendant la Première Guerre mondiale. La palette est faite de tons sourds, parfois terreux, éclairés par des accents de couleurs acides (jaune, rouge, bleu électrique). Cette esthétique de la "brutalité" formelle sert à exprimer la dureté de la réalité sociale et la vulnérabilité de l'âme humaine derrière les masques de la vie quotidienne.</p>
+    <p>L'importance de cette œuvre réside dans sa profondeur allégorique. Pour Beckmann, la vie est un théâtre tragique où chacun joue un rôle imposé par la société. Avant le bal masqué n'est pas la représentation d'un moment de plaisir, mais celle de l'attente angoissée avant d'entrer en scène. En brisant la perspective traditionnelle et en saturant l'espace de symboles mystérieux, l'artiste nous invite à une réflexion sur l'identité et l'aliénation moderne, faisant de ce tableau l'un des témoignages les plus poignants de la crise morale de l'Europe du XXe siècle.</p>`
+  },
+  {
     id: "bacon_trois_etudes_figures_pied_crucifixion_1944_londres",
     artistId: "bacon",
     artist: "Francis Bacon",
