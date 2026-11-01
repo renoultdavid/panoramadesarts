@@ -179,6 +179,38 @@ window.ARTISTS_REGISTRY = {
       sourceNotes: "Le catalogue raisonné de référence a été publié tout récemment, en 2016, par l'historien de l'art Martin Harrison (Francis Bacon: Catalogue Raisonné). Après plus de dix ans de recherches, il recense très exactement 584 peintures qui nous sont parvenues."
     }
   },
+  "bartolo": {
+    id: "bartolo",
+    name: "Bartolo Taddeo (Taddeo di Bartolo)",
+    sortLetter: "B",
+    dates: "v. 1362 – 1422",
+    movement: "École siennoise (fin du Trecento & début du Quattrocento)",
+    nationality: "Italien (Sienne, actif en Toscane, Ombrie et Ligurie)",
+    techniques: "Polyptyque d'autel à la tempera sur fond d'or, fresque narrative civique et religieuse, peinture de dévotion",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczNbvtlCqEFMZSo_h-aVd8e_fW4jHvNe4TNTdJimM0avpPhFXnt9qBFpRqLIGJ6PjNw7I3XNivqTPl50FfubQOBkfgGquHiRfTQrKFEpKPlGnj1S3IkresCTuhixM_UNZHbUHTaXBr4c5Gpw9t3d0Pjnfg=w1528-h648-s-no-gm?authuser=0",
+    portraitImg: "",
+    bio: `
+      <p><strong>Figure majeure de l'école siennoise entre Trecento et Quattrocento</strong><br>
+      Taddeo di Bartolo (v. 1362 – 1422) est l'une des figures majeures de l'école siennoise de la fin du Trecento et du début du Quattrocento. Fidèle à la grande tradition lyrique et décorative instaurée par Duccio, Simone Martini et les frères Lorenzetti, il a su la régénérer en diffusant le style siennois à travers toute l'Italie centrale et septentrionale (Pise, Pérouse, San Gimignano, Ligurie), constituant un pont essentiel entre le gothique tardif et les prémices de la Renaissance.</p>
+      <p><strong>Splendeur ornementale, ors ciselés et expressivité dramatique</strong><br>
+      Son genre pictural se définit par le polyptyque d'autel sur fond d'or, la fresque narrative civique et religieuse et la peinture de dévotion. Son style se caractérise par des lignes sinueuses et élégantes, un chromatisme raffiné mêlant laques éclatantes et ors ciselés, ainsi qu'une expressivité dramatique marquée des visages. Ses compositions monumentales révèlent un sens aigu de la narration et de la spatialité, sans jamais renoncer à la splendeur ornementale propre à Sienne.</p>
+      <p><strong>D'une itinérance féconde à la consécration civique siennoise</strong><br>
+      L'évolution de son style illustre le passage d'une itinérance féconde à la consécration civique siennoise :</p>
+      <p><strong>Les années d'itinérance et l'affirmation du style (années 1380 – 1400) :</strong> Actif hors de Sienne, il peint des polyptyques à Pise, San Gimignano et en Ligurie. Son style assimile la rigueur formelle florentine tout en accentuant la préciosité siennoise, comme en témoignent ses retables aux découpes gothiques complexes et ses figures aux drapés amples.</p>
+      <p><strong>L'apogée des grands polyptyques (1401 – 1410) :</strong> De retour dans les terres toscanes et ombriennes, il livre son chef-d'œuvre pour la cathédrale de Montepulciano (le monumental triptyque de l'Assomption). Son style atteint une plénitude théâtrale : les apôtres aux attitudes dynamiques entourent une Vierge portée au ciel dans une mandorle d'anges musiciens aux harmonies colorées éblouissantes.</p>
+      <p><strong>Les commandes civiques du Palazzo Pubblico (après 1406) :</strong> Nommé peintre officiel de la République de Sienne, il décore la chapelle des Seigneurs du Palazzo Pubblico avec un cycle sur la Vie de la Vierge et une vaste fresque allégorique d'hommes illustres de la Rome antique. Son style y prend une dimension politique et humaniste précoce, intégrant des éléments architecturaux classiques et une solennité civique.</p>
+    `,
+    corpus: {
+      total: 150,
+      seen: 0,
+      paintingsCount: 150,
+      details: [
+        { label: "Œuvres conservées (polyptyques sur fond d'or, panneaux & cycles de fresques)", count: 150, icon: "🎨", color: "#d4af37", seen: 0, note: "Plafond de référence de 150 œuvres (cat. Gail E. Solberg 2020)" }
+      ],
+      sourceTitle: "Monographie et catalogue raisonné Gail E. Solberg (2020)",
+      sourceNotes: "Taddeo di Bartolo fut un artiste extrêmement prolifique. L'historienne de l'art Gail E. Solberg, qui fait autorité mondialement sur ce peintre, a publié en 2020 une monographie monumentale en deux volumes (Taddeo di Bartolo: Siena's Painter in the Early Quattrocento) qui tient lieu de catalogue raisonné définitif, établissant un plafond de référence d'environ 150 œuvres."
+    }
+  },
   "cassatt": {
     id: "cassatt",
     name: "Mary Cassatt",
@@ -186,12 +218,16 @@ window.ARTISTS_REGISTRY = {
     dates: "1844 – 1926",
     movement: "Impressionnisme américain & français",
     nationality: "Américaine (active en France)",
-    techniques: "Huile sur toile, pastel sur papier, pointe sèche et aquatinte en couleurs",
-    bannerImg: "https://lh3.googleusercontent.com/d/1564-Uow3YDKT2Bu7pkKvjlUbMhoJYue_",
+    techniques: "Huile sur toile, pastel sec sur papier, pointe sèche et aquatinte en couleurs",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczNAjqtTa1FrMg1Dzey17ccGXIl0_SaQx9hCmDsSdSoyE9V0w3eykFU96i6Oq0LA5HJF3fd_A_THGyctO8MOHCUlrD_3PoSaZnHeTq8-6ECdc88EqbT2Ohx-tmY58F5xcHiHkgeuQtu77JZgLcPJaHOJLw=w1528-h648-s-no-gm?authuser=0",
     portraitImg: "",
     bio: `
-      <p><strong>Figure majeure de l'Impressionnisme et virtuose de l'intimité</strong><br>
-      Seule artiste américaine à avoir pleinement exposé aux côtés des Impressionnistes parisiens à l'invitation d'Edgar Degas, Mary Cassatt a renouvelé en profondeur la représentation de la maternité et des scènes d'intérieur, alliant une vigueur de trait japonisante à une somptueuse palette chromatique.</p>
+      <p><strong>Figure majeure de l'Impressionnisme et regard moderne sur l'intimité féminine</strong><br>
+      Mary Cassatt (1844 – 1926) est une figure majeure de l'impressionnisme, seule artiste américaine à avoir pleinement intégré le groupe parisien sur l'invitation d'Edgar Degas en 1877. Établie durablement en France, elle s'affranchit des conventions académiques pour explorer l'intimité domestique, les portraits féminins et les liens maternels sans mièvrerie ni sentimentalisme.</p>
+      <p><strong>Liberté de la touche, éclat du pastel et révolution japonisante de l'estampe</strong><br>
+      Sur le plan pictural, elle déploie une touche libre, lumineuse et texturée en peinture à l'huile, tout en excellant dans le pastel sec, dont elle apprécie l'immédiateté chromatique. Marquée par la grande exposition de gravures japonaises (<em>ukiyo-e</em>) à l'École des Beaux-Arts en 1890, elle révolutionne sa pratique graphique en développant une technique virtuose d'aquatinte et de pointe sèche en couleurs. Cette influence nippone se traduit par des compositions asymétriques rigoureuses, des cadrages plongeants ou resserrés, des aplats de tons vifs et une stylisation nette des contours.</p>
+      <p><strong>Psychologie du quotidien et rayonnement outre-Atlantique</strong><br>
+      Refusant l'anecdote décorative, Cassatt saisit la psychologie et la dignité quotidienne des femmes de son temps avec une modernité formelle exemplaire. Parallèlement à sa création, son rôle de conseillère auprès de grands collectionneurs d'outre-Atlantique s'avère décisif dans l'introduction et la reconnaissance de l'art impressionniste aux États-Unis.</p>
     `,
     corpus: {
       total: 1167,
