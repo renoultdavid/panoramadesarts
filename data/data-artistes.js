@@ -4,7 +4,8 @@
 window.ARTISTS_REGISTRY = {
   "altdorfer": {
     id: "altdorfer",
-    name: "Albrecht Altdorfer",
+    name: "Altdorfer Albrecht",
+    sortName: "Altdorfer Albrecht",
     sortLetter: "A",
     dates: "v. 1480 – 1538",
     movement: "Renaissance allemande & École du Danube",
@@ -88,7 +89,8 @@ window.ARTISTS_REGISTRY = {
   },
   "arcimboldo": {
     id: "arcimboldo",
-    name: "Giuseppe Arcimboldo",
+    name: "Arcimboldo Giuseppe",
+    sortName: "Arcimboldo Giuseppe",
     sortLetter: "A",
     dates: "1526 – 1593",
     movement: "Maniérisme tardif & Cour des Habsbourg",
@@ -149,7 +151,8 @@ window.ARTISTS_REGISTRY = {
   },
   "bacon": {
     id: "bacon",
-    name: "Francis Bacon",
+    name: "Bacon Francis",
+    sortName: "Bacon Francis",
     sortLetter: "B",
     dates: "1909 – 1992",
     movement: "Figuration expressive & École de Londres",
@@ -213,7 +216,8 @@ window.ARTISTS_REGISTRY = {
   },
   "beckmann": {
     id: "beckmann",
-    name: "Max Beckmann",
+    name: "Beckmann Max",
+    sortName: "Beckmann Max",
     sortLetter: "B",
     dates: "1884 – 1950",
     movement: "Expressionnisme allemand & Nouvelle Objectivité (Neue Sachlichkeit)",
@@ -275,7 +279,8 @@ window.ARTISTS_REGISTRY = {
   },
   "cassatt": {
     id: "cassatt",
-    name: "Mary Cassatt",
+    name: "Cassatt Mary",
+    sortName: "Cassatt Mary",
     sortLetter: "C",
     dates: "1844 – 1926",
     movement: "Impressionnisme américain & français",

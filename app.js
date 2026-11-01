@@ -1476,6 +1476,7 @@ function initSearchEngine() {
       if (!directory[firstChar][artName]) {
         directory[firstChar][artName] = {
           name: artName,
+          sortName: reg.sortName || artName,
           count: 0,
           artistBio: reg.bio || '',
           artistDates: reg.dates || '',
@@ -1489,22 +1490,27 @@ function initSearchEngine() {
       if (!item.artist) return;
       const artName = item.artist.trim();
       // On extrait la lettre de tri (soit le nom de famille s'il est spécifié, soit la première lettre)
-      const regMatch = Object.values(registry).find(r => r.name && r.name.toLowerCase().trim() === artName.toLowerCase());
-      let sortKey = (item.artistSort || (regMatch && regMatch.sortLetter) || artName).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toUpperCase();
+      const regMatch = Object.values(registry).find(r =>
+        (r.id && item.artistId && r.id === item.artistId) ||
+        (r.name && r.name.toLowerCase().trim() === artName.toLowerCase())
+      );
+      const canonicalName = regMatch ? regMatch.name.trim() : artName;
+      let sortKey = (item.artistSort || (regMatch && regMatch.sortLetter) || canonicalName).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toUpperCase();
       let firstChar = sortKey.charAt(0);
       if (!/[A-Z]/.test(firstChar)) firstChar = '#';
 
       if (!directory[firstChar]) directory[firstChar] = {};
-      if (!directory[firstChar][artName]) {
-        directory[firstChar][artName] = {
-          name: artName,
+      if (!directory[firstChar][canonicalName]) {
+        directory[firstChar][canonicalName] = {
+          name: canonicalName,
+          sortName: (regMatch && regMatch.sortName) || item.artistSort || canonicalName,
           count: 0,
           artistBio: item.artistBio || '',
           artistDates: item.artistDates || '',
           artistMovement: item.artistMovement || ''
         };
       }
-      directory[firstChar][artName].count++;
+      directory[firstChar][canonicalName].count++;
     });
 
     return directory;
@@ -1717,7 +1723,7 @@ function initSearchEngine() {
     drawerLetterBadge.textContent = letter;
     drawerList.innerHTML = '';
 
-    const artists = Object.values(artistsMap || {}).sort((a, b) => a.name.localeCompare(b.name, 'fr'));
+    const artists = Object.values(artistsMap || {}).sort((a, b) => (a.sortName || a.name).localeCompare(b.sortName || b.name, 'fr'));
     const total = artists.length;
     drawerCount.textContent = `${total} peintre${total > 1 ? 's' : ''}`;
 

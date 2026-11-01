@@ -14758,8 +14758,8 @@ window.ART_OBJECTS.push(
    {
     id: "altdorfer_bataille_issus",
     artistId: "altdorfer",
-    artist: "Albrecht Altdorfer",
-    artistSort: "Altdorfer",
+    artist: "Altdorfer Albrecht",
+    artistSort: "Altdorfer Albrecht",
     title: "La Bataille d'Alexandre à Issus",
     civId: "occident",
     periodId: "occ_renaissance",
