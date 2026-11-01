@@ -147,6 +147,38 @@ window.ARTISTS_REGISTRY = {
       sourceNotes: "Pour Giovanni Battista Gaulli, dit Baciccia (1639–1709), grand maître du haut baroque romain, l'inventaire de référence moderne a été établi par l'historien de l'art Francesco Petrucci dans son catalogue raisonné monumental publié en 2009 (Baciccio. Giovan Battista Gaulli 1639-1709). Ce catalogue de référence recense environ 300 à 350 œuvres autographes qui nous sont parvenues."
     }
   },
+  "bacon": {
+    id: "bacon",
+    name: "Francis Bacon",
+    sortLetter: "B",
+    dates: "1909 – 1992",
+    movement: "Figuration expressive & École de Londres",
+    nationality: "Britannique d'origine irlandaise (Dublin / Londres)",
+    techniques: "Huile, pastel et sable sur toile, triptyques monumentaux",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczNvCcsEVgcrCNl54Hd7HkfPE2PwlJeInm9n9Xy1HlfNxENJ7ohJnn3FPwNNHYd9Sgmm0-VivbO_xMcsVY-Jd-Q5KK4B1Orhrh2F5CcluNIfOsk--gCIUjznHLcNI5DRU1TpgHGmb4c2qPACakcSR3fh-Q=w1528-h648-s-no-gm?authuser=0",
+    portraitImg: "",
+    bio: `
+      <p><strong>Peintre de la condition humaine, de la chair et du cri</strong><br>
+      Francis Bacon (1909 – 1992), peintre britannique d'origine irlandaise, est l'un des artistes les plus singuliers et les plus marquants du XXe siècle. Autodidacte, il a construit une œuvre centrée sur la condition humaine, explorant avec une intensité sans précédent la vulnérabilité du corps, la douleur et le cri, loin de toute volonté de plaire ou de décorer.</p>
+      <p><strong>Une figuration viscérale : « la sensation brute »</strong><br>
+      Son genre pictural se définit par une figuration expressive et viscérale. Bacon rejette l'abstraction pure mais déforme la réalité pour en extraire « la sensation brute ». Son style se caractérise par des fonds unis et plats, aux couleurs souvent vives (orange, rose, bleu), sur lesquels se détachent des figures humaines isolées dans des structures géométriques semblables à des cages ou des arènes. Il utilise des techniques de brossage et de projection de peinture pour créer des effets de mouvement et de flou, donnant l'impression que la chair se liquéfie.</p>
+      <p><strong>De l'horreur monumentale vers une introspection plus intime</strong><br>
+      L'évolution de son style marque un passage de l'horreur monumentale vers une introspection plus intime :</p>
+      <p><strong>Les années de choc :</strong> Ses premières œuvres célèbres, comme les <em>Trois études de figures au pied d'une crucifixion</em> (1944), présentent des créatures hybrides et hurlantes, reflets des traumatismes de la guerre.</p>
+      <p><strong>La période des Papes et des Portraits :</strong> Dans les années 1950, il s'inspire du portrait d'<em>Innocent X</em> par Velázquez pour créer ses célèbres « papes hurlants », où l'autorité se dissout dans le cri. Il commence également ses séries de portraits d'amis (George Dyer, Lucian Freud) aux visages violemment triturés.</p>
+      <p><strong>Le dépouillement des Triptyques :</strong> Vers la fin de sa vie, ses compositions deviennent plus claires et plus épurées. Il privilégie le format du triptyque pour raconter des récits fragmentés, où le corps humain, bien que toujours malmené, gagne une forme de majesté tragique sur des fonds d'une grande sobriété chromatique.</p>
+    `,
+    corpus: {
+      total: 584,
+      seen: 3,
+      paintingsCount: 584,
+      details: [
+        { label: "Peintures conservées (huiles et triptyques sur toile)", count: 584, icon: "🎨", color: "#d4af37", seen: 3, note: "584 peintures très exactement recensées (cat. Martin Harrison 2016)" }
+      ],
+      sourceTitle: "Catalogue raisonné Martin Harrison (2016)",
+      sourceNotes: "Le catalogue raisonné de référence a été publié tout récemment, en 2016, par l'historien de l'art Martin Harrison (Francis Bacon: Catalogue Raisonné). Après plus de dix ans de recherches, il recense très exactement 584 peintures qui nous sont parvenues."
+    }
+  },
   "cassatt": {
     id: "cassatt",
     name: "Mary Cassatt",

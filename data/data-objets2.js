@@ -3,6 +3,94 @@
    ========================================================================== */
 window.ART_OBJECTS = [
   {
+    id: "bacon_trois_etudes_figures_pied_crucifixion_1944_londres",
+    artistId: "bacon",
+    artist: "Francis Bacon",
+    artistSort: "Bacon",
+    title: "Trois études de figures au pied d'une crucifixion (Londres)",
+    civId: "occident",
+    periodId: "occ_xxe_moderne",
+    civName: "Occident chrétien & moderne",
+    century: "1944 (XXe siècle)",
+    centuryDisplay: "1944",
+    centuryNumeric: 1944,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture sur toile (chevalet)",
+    site: "Tate Britain (Londres)",
+    originSite: "Londres",
+    locationType: "museum",
+    currentLocation: "Tate Britain, Londres",
+    category: "Triptyque (huile et pastel sur panneaux)",
+    isHighlight: true,
+    chips: ["1944", "Francis Bacon", "Tate Britain (Londres)", "Triptyque", "Crucifixion", "Euménides", "Figuration expressive"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNvCcsEVgcrCNl54Hd7HkfPE2PwlJeInm9n9Xy1HlfNxENJ7ohJnn3FPwNNHYd9Sgmm0-VivbO_xMcsVY-Jd-Q5KK4B1Orhrh2F5CcluNIfOsk--gCIUjznHLcNI5DRU1TpgHGmb4c2qPACakcSR3fh-Q=w1528-h648-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMLxY7icvp8ri2CEGqqZzYY9vFHLqaW-48x8VgfwoJ_5xezWxJXrjxDdNfVnlAdO_Dm51RZKQWof_2_m-vUTMAY5wL8i516Rc7svrO4iaweozlmQTEGx3me8UcahnK6cHNyWaDCcQinhyDyy6BQPkrdcg=w1528-h617-s-no-gm?authuser=0",
+    narrative: `<p>Ce triptyque magistral, réalisé en 1944 par le peintre d'origine irlandaise Francis Bacon, est considéré comme l'un des jalons majeurs de l'art occidental de l'après-guerre. Conservée à la Tate Britain de Londres, cette œuvre marque l'irruption de Bacon sur la scène artistique internationale et pose les fondements de son esthétique de l'angoisse et du corps violenté. Bien que le titre fasse explicitement référence à la statuaire religieuse chrétienne et à la tradition des retables, Bacon évacue toute narration biblique ou figure christique pour se concentrer sur des créatures hybrides et cauchemardesques qui incarnent la souffrance pure et la monstruosité anthropomorphe, faisant écho aux traumatismes de la Seconde Guerre mondiale.</p>
+    <p>La composition se déploie sur trois panneaux distincts, chacun isolant une créature biomorphe de couleur grisâtre et d'aspect phallique ou animal au sein d'un espace clos et géométrique. Le fond d'un rouge orangé strident et uniforme unit les trois toiles, créant une atmosphère suffocante, presque chirurgicale, qui projette violemment les figures vers le spectateur. Les lignes de perspective rudimentaires tracées à l'arrière-plan suggèrent des angles de pièces closes, des cellules ou des podiums, enfermant ces formes organiques dans un isolement psychologique et physique total, dépourvu de toute échappatoire.</p>
+    <p>Sur le panneau de gauche, la créature est affalée sur une sorte de tabouret ou de structure surélevée. Son corps informe, drapé dans un tissu ou une chair rose-violette, semble se tordre dans une posture d'abandon ou de prostration douloureuse. La silhouette, dépourvue de membres distincts, évoque une forme humaine dont le cou s'allonge et s'abaisse vers le sol dans un mouvement de lourdeur physique et de soumission à la gravité, instaurant d'emblée une tension anatomique insoutenable.</p>
+    <p>Le panneau central présente une créature bulbeuse juchée sur un trépied qui rappelle à la fois un meuble rudimentaire et un appareil orthopédique. La tête de ce monstre est enveloppée d'un bandage blanc serré qui dissimule ses yeux, ne laissant apparaître qu'une bouche disproportionnée, aux dents serrées et grinçantes. Cette focalisation sur la denture et l'impossibilité de voir accentue l'état de captivité et la violence sourde du personnage, le cou exagérément étiré liant le torse massif à cette mâchoire agressive et impuissante.</p>
+    <p>Le panneau de droite montre une figure s'étirant vers le haut, le corps arqué soutenu par une unique patte fine qui repose sur une touffe d'herbe ou de poils stylisés. La créature projette sa tête vers le haut et la gauche, ouvrant une gueule béante et noire dans un cri silencieux mais d'une expressivité absolue, où l'oreille humaine encore visible sur le côté accentue le trouble de cette hybridation. Bacon s'est inspiré ici des Euménides, les divinités grecques de la vengeance, pour traduire graphiquement une détresse existentielle et une fureur organique universelles, servies par une touche picturale épaisse et convulsive.</p>`
+  },
+  {
+    id: "bacon_crucifixion_1965_munich",
+    artistId: "bacon",
+    artist: "Francis Bacon",
+    artistSort: "Bacon",
+    title: "Crucifixion (Munich)",
+    civId: "occident",
+    periodId: "occ_xxe_moderne",
+    civName: "Occident chrétien & moderne",
+    century: "1965 (XXe siècle)",
+    centuryDisplay: "1965",
+    centuryNumeric: 1965,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture sur toile (chevalet)",
+    site: "Pinakothek der Moderne (Munich)",
+    originSite: "Londres",
+    locationType: "museum",
+    currentLocation: "Pinakothek der Moderne, Munich",
+    category: "Triptyque (huile sur toile)",
+    isHighlight: true,
+    chips: ["1965", "Francis Bacon", "Pinakothek der Moderne (Munich)", "Triptyque", "Crucifixion", "Figuration expressive"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNvCcsEVgcrCNl54Hd7HkfPE2PwlJeInm9n9Xy1HlfNxENJ7ohJnn3FPwNNHYd9Sgmm0-VivbO_xMcsVY-Jd-Q5KK4B1Orhrh2F5CcluNIfOsk--gCIUjznHLcNI5DRU1TpgHGmb4c2qPACakcSR3fh-Q=w1528-h648-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNsSaD5wT3F0g-l2q3mskSsSrBObjXzDMyKK2vnvc03S9S7T7yaytAEd_iemq1dTy_oUUjEPrZq1kX8U3MfOD5sLkaYvTAbqqP6yjP8MCvIUBvhbHJrlviwu0WPoDtooI6NIv5YUOCestMIgc5KMvdAfw=w1528-h659-s-no-gm?authuser=0",
+    narrative: `<p>Ce triptyque monumental de Francis Bacon, conservé à la Pinakothek der Moderne à Munich, est l'une des œuvres les plus viscérales et marquantes de l'art de l'après-guerre. Réalisée en 1965, cette œuvre ne traite pas de la crucifixion dans un sens religieux traditionnel, mais utilise ce motif comme une métaphore de la souffrance humaine, de la brutalité et de la condition charnelle de l'homme. Bacon y exprime une violence psychologique et physique qui cherche à "frapper le système nerveux" du spectateur.</p>
+    <p><strong>Composition et structure :</strong> L'œuvre est divisée en trois panneaux distincts, une structure qui rappelle les retables médiévaux mais pour en inverser le message sacré :</p>
+    <p><strong>Panneau de gauche :</strong> On y voit deux figures étranges, semblables à des bouchers ou des témoins passifs, évoluant dans un espace clos et clinique.</p>
+    <p><strong>Panneau central :</strong> Il présente une figure humaine écorchée, suspendue la tête en bas, évoquant une carcasse de viande dans un abattoir. C'est l'image centrale de la douleur pure, dépouillée de toute dignité héroïque.</p>
+    <p><strong>Panneau de droite :</strong> Une figure isolée semble hurler ou s'effondrer sur un lit ou une structure chirurgicale, soulignant l'isolement ultime de l'individu face à l'agonie.</p>
+    <p><strong>Technique et esthétique :</strong> Bacon utilise une palette dominée par un rouge sang et des tons orangés saturés pour les fonds, créant une atmosphère de cage ou d'arène. Les corps sont peints avec une distorsion extrême ; la chair semble se dissoudre ou se liquéfier, rendue par des coups de pinceau larges et instinctifs. L'espace est défini par des lignes géométriques simples qui accentuent la sensation de confinement et de voyeurisme. Le contraste entre le fond plat, presque décoratif, et la confusion organique des corps crée une tension insoutenable.</p>
+    <p><strong>Importance de l'œuvre :</strong> <em>Trois études pour une crucifixion</em> est un jalon essentiel car elle redéfinit la peinture figurative au XXe siècle. Bacon refuse l'abstraction pure pour se concentrer sur le "cri" de l'existence. En associant la figure humaine à la viande, il rappelle notre nature biologique et périssable. Cette œuvre de Munich témoigne de l'obsession de Bacon pour la vulnérabilité du corps et sa capacité à transformer l'horreur en une forme de poésie tragique et magistrale.</p>`
+  },
+  {
+    id: "bacon_lying_figure_1969_madrid",
+    artistId: "bacon",
+    artist: "Francis Bacon",
+    artistSort: "Bacon",
+    title: "Lying Figure (Madrid, Reina Sofía)",
+    civId: "occident",
+    periodId: "occ_xxe_moderne",
+    civName: "Occident chrétien & moderne",
+    century: "1969 (XXe siècle)",
+    centuryDisplay: "1969",
+    centuryNumeric: 1969,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture sur toile (chevalet)",
+    site: "Museo Reina Sofía (Madrid)",
+    originSite: "Londres",
+    locationType: "museum",
+    currentLocation: "Museo Nacional Centro de Arte Reina Sofía, Madrid",
+    category: "Peinture de chevalet (huile sur toile)",
+    isHighlight: true,
+    chips: ["1969", "Francis Bacon", "Lying Figure", "Museo Reina Sofía (Madrid)", "Huile sur toile", "Figuration expressive"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczNvCcsEVgcrCNl54Hd7HkfPE2PwlJeInm9n9Xy1HlfNxENJ7ohJnn3FPwNNHYd9Sgmm0-VivbO_xMcsVY-Jd-Q5KK4B1Orhrh2F5CcluNIfOsk--gCIUjznHLcNI5DRU1TpgHGmb4c2qPACakcSR3fh-Q=w1528-h648-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNBXrr7t8tOWluZu4iaGacqsGoC-MRFs0GHPNT4yRvSD138X8cl02kksuXuKEO0rHWHdZHKMkVQV9ZaQtb0tBG74pCdt4XvXpS5n1nIBxXMT0MaM2rxdL_zueMSq6dPzB-yYCJUSBzX9E1i_L3RQvBHjw=w1528-h2101-s-no-gm?authuser=0",
+    narrative: `<p>Peinte en 1969, l'œuvre Lying Figure est une huile sur toile magistrale de Francis Bacon, conservée au Musée National Centre d'Art Reina Sofía à Madrid. Elle illustre parfaitement la période de maturité de l'artiste britannique, durant laquelle il explore avec une intensité viscérale la condition humaine, le corps comme matière brute et la solitude de l'individu dans un espace clos. Bacon s'éloigne ici des représentations religieuses ou historiques pour se concentrer sur une anatomie tourmentée, transformant le nu traditionnel en une masse charnelle palpitante, à la fois vulnérable et agressive.</p>
+    <p>La composition se concentre sur une figure humaine isolée, allongée sur une sorte de divan ou de lit de forme elliptique, qui semble flotter au milieu d'une pièce dépouillée. Le corps est représenté dans une posture contorsionnée, presque fœtale mais renversée, où les membres semblent se fondre les uns dans les autres. Bacon utilise une palette de couleurs organiques — des tons rosés, mauves et des touches de vert maladif — pour rendre la texture de la peau. La chair n'est pas lisse, elle paraît meurtrie, travaillée par des coups de brosse vigoureux qui suggèrent le mouvement et la douleur. Le visage, comme souvent chez Bacon, est réduit à une expression de cri ou de distorsion, effaçant l'identité au profit de la sensation pure.</p>
+    <p>L'espace qui entoure la figure est tout aussi crucial que le sujet lui-même. Le fond est constitué d'un aplat de couleur violette, intense et sourde, qui crée une atmosphère de confinement étouffant. Le tapis ou le sol, d'un vert terreux moucheté, renforce cette impression de "scène" de théâtre ou de cage. On remarque, suspendu dans le coin supérieur droit, un interrupteur ou un cordon de lampe, un détail domestique banal qui, par sa solitude, accentue l'étrangeté et la violence silencieuse de la scène. Cette utilisation de l'espace vide est caractéristique de la volonté de Bacon d'isoler la figure pour en extraire le "fait pictural" sans narration parasite.</p>
+    <p>Lying Figure est une œuvre qui confronte le spectateur à la réalité biologique de son propre être. Inspiré par les photographies de Muybridge sur le mouvement humain ainsi que par les maîtres anciens comme Michel-Ange, Bacon réinvente le nu en le dépouillant de toute idéalisation. La toile ne raconte pas une histoire, elle capture un instant de tension extrême, une présence physique qui semble lutter contre sa propre disparition dans le néant de la pièce. Par sa force chromatique et sa violence formelle, cette peinture demeure l'un des témoignages les plus poignants de l'angoisse existentielle du XXe siècle.</p>`
+  },
+  {
     id: "arcimboldo_printemps_1563_munich",
     artistId: "arcimboldo",
     artist: "Giuseppe Arcimboldo",
