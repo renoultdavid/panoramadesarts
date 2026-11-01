@@ -3,6 +3,117 @@
    ========================================================================== */
 window.ART_OBJECTS = [
   {
+    id: "bellini_giovanni_christ_benissant_1460_louvre",
+    artistId: "bellini_giovanni",
+    artist: "Bellini Giovanni",
+    artistSort: "Bellini Giovanni",
+    title: "Le Christ bénissant (Louvre)",
+    civId: "occident",
+    periodId: "occ_renaissance",
+    civName: "Occident chrétien & moderne",
+    century: "vers 1460 – 1470 (XVe siècle)",
+    centuryDisplay: "1460 – 1470",
+    centuryNumeric: 1465,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture sur panneau de bois",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Venise",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris",
+    category: "Peinture de chevalet (tempera et huile sur bois)",
+    isHighlight: true,
+    chips: ["1460-1470", "Giovanni Bellini", "Le Christ bénissant", "Musée du Louvre", "Renaissance vénitienne", "Quattrocento"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczOtK54_QMPE97JsPUG8G3hh9GODPqkrXxHqsjoad8-NOAvFr9wMbi7adj_S78KRdZL6R9ULikIpE4ktRzC2SU0RVQ3dGD615aKR7VacURQA_vzLpLnjsaNGKqqqIBiruFMLbM2sCk6ZUHETZZnltXW-vg=w1897-h805-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOIFOrWxzH-bSMY_ZVrvda1Nd9xkZviFr7c8vpcQQAZsbwJs8Y66Haev1sUo13TUIaU9zRFVEnWHLnbmg-WvbTEv5Uw_LbsHru1N82fOF5C4BA_Ds4rFlcj88Gs56Yzde6rLtkgw14xJiayJhPSvmLZhg=w1897-h2338-s-no-gm?authuser=0",
+    narrative: `<p>Cette œuvre de Giovanni Bellini, exécutée vers 1460-1470, marque une étape essentielle dans l'évolution de la peinture vénitienne vers la Haute Renaissance. Bellini, figure de proue de la dynastie des peintres vénitiens, s'éloigne ici de la manière plus rigide et graphique de son beau-frère Mantegna pour explorer une nouvelle sensibilité faite de lumière et d'atmosphère. Ce tableau de dévotion, conçu pour l'espace intime d'un oratoire ou d'une demeure privée, invite le fidèle à une rencontre directe avec le Sauveur, transformant l'icône byzantine traditionnelle en une figure humaine vibrante de vie.</p>
+    <p>La composition se concentre sur le buste du Christ, qui se détache avec une douceur sculpturale sur un fond de paysage baigné par la lumière de l'aube ou du crépuscule. Jésus lève la main droite dans un geste de bénédiction, tandis que sa main gauche repose délicatement sur le rebord de pierre au premier plan, un dispositif de trompe-l'œil qui crée une transition entre l'espace sacré et celui du spectateur. Le visage est d'une grande sérénité, marqué par des traits fins et une expression de compassion retenue. La chevelure, dont les boucles dorées captent la lumière latérale, témoigne de la virtuosité technique de Bellini et de son passage progressif de la tempera à la peinture à l'huile.</p>
+    <p>Le paysage à l'arrière-plan n'est pas un simple décor mais un élément spirituel à part entière. On y distingue des collines lointaines, un chemin sinueux et une végétation traitée avec une minutie qui évoque le réveil de la nature. Cette intégration de la figure divine dans un paysage terrestre et atmosphérique est l'une des grandes innovations de Bellini ; elle suggère que la bénédiction divine s'étend à l'ensemble de la création. La lumière, diffuse et enveloppante, unifie les chairs du Christ et les éléments du décor, créant une harmonie chromatique où les tons chauds de la peau répondent aux ocres de la terre.</p>
+    <p>Le traitement des drapés montre également une évolution stylistique importante : les plis de la tunique rouge et du manteau blanc ne sont plus cassants comme chez les peintres du milieu du siècle, mais s'assouplissent pour épouser la forme du corps. Les stigmates sur la main levée sont représentés avec une discrétion qui privilégie la gloire de la Résurrection sur la violence de la Passion. Par cet équilibre parfait entre réalisme naturaliste et idéalisation spirituelle, Giovanni Bellini impose une vision du sacré qui influencera durablement toute l'école vénitienne, de Giorgione à Titien.</p>`
+  },
+  {
+    id: "bellini_giovanni_crucifixion_1465_louvre",
+    artistId: "bellini_giovanni",
+    artist: "Bellini Giovanni",
+    artistSort: "Bellini Giovanni",
+    title: "La Crucifixion (Louvre)",
+    civId: "occident",
+    periodId: "occ_renaissance",
+    civName: "Occident chrétien & moderne",
+    century: "vers 1465 – 1470 (XVe siècle)",
+    centuryDisplay: "1465 – 1470",
+    centuryNumeric: 1468,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture sur panneau de bois",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Venise",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris",
+    category: "Peinture de chevalet (tempera et huile sur bois)",
+    isHighlight: true,
+    chips: ["1465-1470", "Giovanni Bellini", "La Crucifixion", "Musée du Louvre", "Renaissance vénitienne", "Paysage sacré"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczOtK54_QMPE97JsPUG8G3hh9GODPqkrXxHqsjoad8-NOAvFr9wMbi7adj_S78KRdZL6R9ULikIpE4ktRzC2SU0RVQ3dGD615aKR7VacURQA_vzLpLnjsaNGKqqqIBiruFMLbM2sCk6ZUHETZZnltXW-vg=w1897-h805-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMDugTk26rfr3Nyl744n2fn35WRwt8RdT9DZsm0IT4ARs6-9WqLYYzYKU5XCd7rdndouDQJXpRfnLHs4kuy_eUnGJfGtkQAWq9sqZK1f4jDM0JG7dN0eYHi7DN49iu3Qegs7zwH5Pskyl3pHZuZ04A3Zg=w1897-h2093-s-no-gm?authuser=0",
+    narrative: `<p>Cette Crucifixion, peinte par Giovanni Bellini vers 1465-1470, est une œuvre d'une importance capitale pour comprendre l'évolution du paysage et du sentiment religieux dans la peinture vénitienne. Bien que Bellini ait traité ce sujet à plusieurs reprises, cette version conservée au Louvre se distingue par son atmosphère de solitude absolue et son lyrisme mélancolique. L'artiste y délaisse la tension dramatique de son beau-frère Mantegna pour une approche plus contemplative, où la nature participe pleinement au deuil de la scène sacrée, marquant ainsi les prémices du style qui fera la gloire de Venise.</p>
+    <p>La composition est dominée par la figure isolée du Christ en croix, dressée au centre d'un plateau rocheux désert. La verticalité de la croix est accentuée par un point de vue légèrement abaissé, ce qui donne au corps du Christ une présence monumentale malgré sa finesse. Le corps est rendu avec une anatomie précise mais douce, loin de la dureté sculpturale des écoles du nord de l'Italie. À ses pieds, deux crânes et des ossements rappellent la symbolique du Golgotha (le "lieu du crâne") et le lien théologique entre la chute d'Adam et le sacrifice rédempteur du Christ.</p>
+    <p>L'arrière-plan constitue l'une des parties les plus innovantes du tableau. Bellini déploie un paysage s'étendant vers une ville fortifiée aux accents vénitiens et une mer lointaine, sous un ciel de fin de journée où les nuages s'étirent à l'horizon. Cette profondeur atmosphérique, rendue possible par une utilisation subtile de la lumière et de la couleur, crée une sensation de silence et de paix après le drame. Les collines verdoyantes, les petits édifices et le chemin sinueux humanisent le décor, intégrant le mystère de la Passion dans un monde réel et reconnaissable.</p>
+    <p>L'unité de l'œuvre repose sur une harmonie chromatique délicate, dominée par les tons terreux du premier plan qui contrastent avec le bleu limpide du ciel et le blanc pur du périzonium du Christ. La lumière, latérale et douce, unifie la figure et son environnement, annonçant la maîtrise de la peinture à l'huile que Bellini perfectionnera par la suite. Par ce dépouillement narratif, l'artiste invite le spectateur non pas à assister à un événement historique tumultueux, mais à une méditation silencieuse sur le sacrifice, au cœur d'une nature transfigurée par la lumière divine.</p>`
+  },
+  {
+    id: "bellini_giovanni_vierge_enfant_1475_ajaccio",
+    artistId: "bellini_giovanni",
+    artist: "Bellini Giovanni",
+    artistSort: "Bellini Giovanni",
+    title: "Vierge à l'Enfant (Musée Fesch, Ajaccio)",
+    civId: "occident",
+    periodId: "occ_renaissance",
+    civName: "Occident chrétien & moderne",
+    century: "vers 1470 – 1475 (XVe siècle)",
+    centuryDisplay: "1475",
+    centuryNumeric: 1475,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture sur panneau de bois",
+    site: "Musée Fesch (Ajaccio)",
+    originSite: "Venise (collection du cardinal Fesch)",
+    locationType: "museum",
+    currentLocation: "Musée Fesch, Ajaccio",
+    category: "Peinture de chevalet (tempera sur bois)",
+    isHighlight: true,
+    chips: ["1475", "Giovanni Bellini", "Vierge à l'Enfant", "Musée Fesch (Ajaccio)", "Fond d'or", "Renaissance vénitienne"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczOtK54_QMPE97JsPUG8G3hh9GODPqkrXxHqsjoad8-NOAvFr9wMbi7adj_S78KRdZL6R9ULikIpE4ktRzC2SU0RVQ3dGD615aKR7VacURQA_vzLpLnjsaNGKqqqIBiruFMLbM2sCk6ZUHETZZnltXW-vg=w1897-h805-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOodOsd5aV7KLl5X7NRCqlcUl0v2LebIcn4cU3y10AI8H9ITYWodXCl36fNk0RjZYvasEJawp9gcn0yVRhicWXOGQ2QTHbDvOofDvZry5nMhyQ2Er6CBxEmMlI0qekNF8cINfpkbBdPzEdilWHkbTGm2Q=w1762-h2405-s-no-gm?authuser=0",
+    narrative: `<p>Cette œuvre, intitulée Vierge à l'Enfant, est une peinture sur bois réalisée par le maître vénitien Giovanni Bellini vers 1470-1475. Elle constitue l'un des joyaux de la collection du cardinal Fesch, aujourd'hui conservée au Musée Fesch d'Ajaccio. Ce tableau illustre une période charnière dans la carrière de l'artiste, marquée par une transition entre la rigueur de son beau-frère Mantegna et la douceur lumineuse qui fera sa renommée.</p>
+    <p>La composition se concentre sur l'intimité entre Marie et l'Enfant Jésus, représentés en gros plan sur un fond d'or richement travaillé. La Vierge est vêtue d'un manteau d'un bleu profond qui enveloppe également l'Enfant, créant un lien visuel et symbolique fort entre les deux figures. Jésus, le regard dirigé vers le haut, porte sa main au cou de sa mère dans un geste de tendresse humaine qui contraste avec la solennité des auréoles finement ciselées de motifs circulaires.</p>
+    <p>Sur le plan stylistique, l'œuvre témoigne de la maîtrise précoce de Bellini dans le rendu des carnations et des volumes. La douceur des traits du visage de la Vierge, son regard incliné et la finesse des mains aux doigts allongés annoncent la sensibilité poétique qui caractérisera ses grandes œuvres de maturité. Contrairement à d'autres versions de l'époque, le décor est ici épuré de tout paysage, focalisant toute l'attention sur la dimension spirituelle et émotionnelle de la maternité divine.</p>`
+  },
+  {
+    id: "bellini_giovanni_vierge_enfant_saint_pierre_saint_sebastien_1487_louvre",
+    artistId: "bellini_giovanni",
+    artist: "Bellini Giovanni",
+    artistSort: "Bellini Giovanni",
+    title: "La Vierge et l'Enfant entre saint Pierre et saint Sébastien (Louvre)",
+    civId: "occident",
+    periodId: "occ_renaissance",
+    civName: "Occident chrétien & moderne",
+    century: "vers 1487 (XVe siècle)",
+    centuryDisplay: "1487",
+    centuryNumeric: 1487,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture sur panneau de bois",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Venise",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris",
+    category: "Peinture de chevalet (huile sur bois)",
+    isHighlight: true,
+    chips: ["1487", "Giovanni Bellini", "Sainte Conversation", "Musée du Louvre", "Saint Pierre", "Saint Sébastien", "Renaissance vénitienne"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczOtK54_QMPE97JsPUG8G3hh9GODPqkrXxHqsjoad8-NOAvFr9wMbi7adj_S78KRdZL6R9ULikIpE4ktRzC2SU0RVQ3dGD615aKR7VacURQA_vzLpLnjsaNGKqqqIBiruFMLbM2sCk6ZUHETZZnltXW-vg=w1897-h805-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOxuQLYVxz-u-wKQV5Ll2Oa_okkFCbHRQnbh51vWZ_cAAD9YKskYTcwMnyDZXHeX-zyfwy7UHfWVQgsrR3sBFIHtTIVHskjhUUcDF9OBVd7w8Sf4A05sYKQA2D9Z11WbVmy0NMnDBXDjaUg4vrUkSAiVA=w1755-h2405-s-no-gm?authuser=0",
+    narrative: `<p>Cette œuvre de Giovanni Bellini, réalisée vers 1487, est un exemple magnifique de la "Sainte Conversation", un thème cher à la peinture vénitienne. À cette période, Bellini est au sommet de son art et maîtrise parfaitement l'usage de la peinture à l'huile, ce qui lui permet de créer des transitions lumineuses d'une douceur exceptionnelle. Ce panneau, conservé au Louvre, illustre l'harmonie parfaite que l'artiste parvient à instaurer entre les figures sacrées, unifiées par une lumière dorée et une atmosphère de profonde sérénité.</p>
+    <p>La composition s'organise de manière symétrique autour de la Vierge et l'Enfant. Marie, drapée dans un manteau bleu intense, présente Jésus qui se tient debout sur ses genoux. À gauche, saint Pierre, représenté avec ses attributs traditionnels (le livre et les clés), incarne l'autorité de l'Église et la sagesse. À droite, saint Sébastien, représenté jeune et athlétique, le corps percé de flèches, symbolise le martyre et la résilience. Contrairement aux représentations plus anciennes, les personnages ne sont pas isolés dans des compartiments, mais partagent un espace commun, échangeant une présence silencieuse et spirituelle.</p>
+    <p>Le traitement de la lumière est ici l'élément central. Elle semble émaner du fond et baigner les carnations d'un éclat chaud, modelant les corps avec une souplesse qui préfigure le "sfumato" vénitien. Le contraste entre la robustesse de saint Pierre et la silhouette gracile de saint Sébastien permet à Bellini de démontrer sa science de l'anatomie et des textures. Les drapés sont amples, tombant avec un naturel qui rompt définitivement avec les plis rigides du début du siècle.</p>
+    <p>Le fond sombre, presque neutre, sert d'écrin aux personnages, faisant ressortir l'éclat des couleurs vénitiennes : le rouge de la tunique de la Vierge, l'ocre des vêtements de saint Pierre et la clarté de la peau de saint Sébastien. Cette économie de décor focalise toute l'attention sur l'aspect psychologique et méditatif de la scène. Par cette œuvre, Bellini définit un idéal de beauté et de calme qui influencera toute la génération suivante de peintres vénitiens.</p>`
+  },
+  {
     id: "beckmann_avant_le_bal_masque_1922_munich",
     artistId: "beckmann",
     artist: "Max Beckmann",

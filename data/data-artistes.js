@@ -244,6 +244,35 @@ window.ARTISTS_REGISTRY = {
       sourceNotes: "L'inventaire de référence absolu et le plus récent est le catalogue raisonné critique publié sous la direction de l'historienne de l'art Anja Tiedemann en 2021. Cet ouvrage exhaustif recense très exactement 843 peintures reconnues comme étant de sa main. Outre ses toiles, son corpus pictural compte également environ 150 aquarelles et pastels qui sont documentés et classés à part."
     }
   },
+  "bellini_giovanni": {
+    id: "bellini_giovanni",
+    name: "Bellini Giovanni",
+    sortLetter: "B",
+    dates: "v. 1430 – 1516",
+    movement: "Renaissance vénitienne (Quattrocento & Haute Renaissance)",
+    nationality: "Italien (Venise)",
+    techniques: "Tempera et huile sur panneau de bois et sur toile, retables de Sainte Conversation, paysages sacrés",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczOtK54_QMPE97JsPUG8G3hh9GODPqkrXxHqsjoad8-NOAvFr9wMbi7adj_S78KRdZL6R9ULikIpE4ktRzC2SU0RVQ3dGD615aKR7VacURQA_vzLpLnjsaNGKqqqIBiruFMLbM2sCk6ZUHETZZnltXW-vg=w1897-h805-s-no-gm?authuser=0",
+    portraitImg: "",
+    bio: `
+      <p><strong>Père de la Renaissance vénitienne et maître de Giorgione et Titien</strong><br>
+      Giovanni Bellini, né vers 1430 et mort en 1516 à Venise, est le véritable père de la Renaissance vénitienne. Issu d'une illustre famille d'artistes, il a dirigé l'atelier le plus influent de la ville, formant des génies tels que Giorgione et Titien. Au cours de sa longue carrière, il a transformé Venise, d'un centre encore imprégné de traditions byzantines et gothiques, en un foyer majeur de l'innovation picturale. Nommé peintre officiel de la République, il a su allier une profonde dévotion religieuse à une curiosité humaniste, devenant le pivot central de l'art vénitien du XVe siècle.</p>
+      <p><strong>La révolution du <em>colorito</em>, de la lumière et du paysage moderne</strong><br>
+      Le genre pictural de Bellini se définit par une révolution fondamentale : l'invention du paysage moderne et l'usage de la lumière comme élément unificateur. Contrairement aux Florentins qui privilégiaient le dessin et le contour, Bellini place le « colorito » et la modulation de la lumière au cœur de son style. Ses Madones et ses scènes sacrées se distinguent par une profonde humanité et une intégration harmonieuse des figures dans une nature baignée d'une atmosphère limpide. Il est le premier à avoir compris que la couleur et la lumière pouvaient traduire non seulement l'espace, mais aussi l'émotion et la spiritualité.</p>
+      <p><strong>De la rigueur sculpturale du Quattrocento à la plénitude sensorielle</strong><br>
+      L'évolution de son style est l'une des plus fascinantes de la Renaissance, marquée par une capacité de renouvellement exceptionnelle. Ses débuts sont caractérisés par une manière linéaire et sculpturale, influencée par son beau-frère Andrea Mantegna. Cependant, après sa découverte de la peinture à l'huile avec l'arrivée d'Antonello de Messine à Venise, son art s'adoucit considérablement. Vers la fin de sa vie, sa touche devient plus libre et vaporeuse, adoptant les recherches chromatiques de ses propres élèves. Jusqu'à ses derniers jours, il a su faire évoluer son art, passant de la rigueur du Quattrocento à la liberté sensorielle de la Haute Renaissance.</p>
+    `,
+    corpus: {
+      total: 193,
+      seen: 4,
+      paintingsCount: 193,
+      details: [
+        { label: "Peintures autographes (toiles et panneaux de bois confondus)", count: 193, icon: "🎨", color: "#d4af37", seen: 4, note: "193 peintures très exactement recensées (cat. Lucco, Humfrey & Villa 2019)" }
+      ],
+      sourceTitle: "Catalogue raisonné Mauro Lucco, Peter Humfrey & Giovanni C.F. Villa (2019)",
+      sourceNotes: "Le catalogue raisonné de référence absolu a été publié en 2019 par le trio d'éminents spécialistes Mauro Lucco, Peter Humfrey et Giovanni C.F. Villa (Giovanni Bellini: Catalogo ragionato). Après un tri scientifique extrêmement rigoureux pour écarter les innombrables toiles d'atelier, ce catalogue moderne recense très exactement 193 peintures (toiles et panneaux de bois confondus) reconnues de la main du maître."
+    }
+  },
   "cassatt": {
     id: "cassatt",
     name: "Mary Cassatt",
