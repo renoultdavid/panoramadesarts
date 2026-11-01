@@ -115,6 +115,38 @@ window.ARTISTS_REGISTRY = {
       sourceNotes: "Le consensus scientifique moderne — notamment consolidé par le catalogue de référence publié par l'historien de l'art Thomas DaCosta Kaufmann — s'accorde sur un total d'environ 25 à 30 peintures (le plus souvent des huiles sur panneau ou sur toile) universellement reconnues comme étant de sa main."
     }
   },
+  "baciccia": {
+    id: "baciccia",
+    name: "Baciccia (Giovanni Battista Gaulli)",
+    sortLetter: "B",
+    dates: "1639 – 1709",
+    movement: "Haut baroque romain & Triomphe de la Contre-Réforme",
+    nationality: "Italien (Gênes, actif à Rome)",
+    techniques: "Grand décor mural à fresque (quadratura et illusionnisme), huile sur toile, retable d'autel et portrait d'apparat",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczMqPQgrgXFRj2LMM94WVn5mmQqIIwoRfdxRLMTlCfGOkIU9BuA32Up_f0uXCm6r5gnQTzc4GcSJI1XhgmbzaXtRWAGkiKGgQ4hmsg2Jy4Vws-v31Vw4PHdaAYkjEX6SzvN4LBPAPrH-5YItpOR2M9LYtA=w1528-h648-s-no-gm?authuser=0",
+    portraitImg: "",
+    bio: `
+      <p><strong>Maître du haut baroque romain et de l'illusionnisme céleste</strong><br>
+      Giovanni Battista Gaulli, dit il Baciccia (1639 – 1709), est l'une des figures majeures du haut baroque romain. Protégé et collaborateur intime du Bernin, il a porté l'illusionnisme céleste et la fusion des arts plastiques à leur apogée, incarnant le triomphe visuel de la Contre-Réforme dans la Rome papale de la seconde moitié du XVIIe siècle.</p>
+      <p><strong>Quadratura vertigineuse et lumière incandescente</strong><br>
+      Son genre pictural se définit par le grand décor mural à fresque (quadratura et illusionnisme), le retable d'autel et le portrait d'apparat. Son style se caractérise par des perspectives vertigineuses en contre-plongée (<em>di sotto in sù</em>), des drapés aux plis agités et cassés aux couleurs incandescentes (rouges pourpres, ors, bleus profonds) et une lumière dorée éblouissante qui dissout les frontières physiques de l'architecture.</p>
+      <p><strong>Du colorisme génois au baroque romain théâtral et total</strong><br>
+      L'évolution de son style marque l'assimilation du colorisme génois vers un baroque romain théâtral et total :</p>
+      <p><strong>La formation génoise et l'arrivée à Rome (années 1650-1660) :</strong> Formé à Gênes au contact des œuvres de Rubens et de Van Dyck, il fuit la peste et s'installe à Rome. Recommandé au Bernin, il se distingue par des portraits sensibles de prélats et de cardinaux ainsi que par des toiles religieuses où l'influence du Corrège apporte douceur et sensualité aux carnations.</p>
+      <p><strong>Le sommet de l'église du Gesù (1672 – 1685) :</strong> C'est son chef-d'œuvre absolu. Sur la voûte de la nef de l'église mère des Jésuites à Rome, il peint <em>Le Triomphe du Nom de Jésus</em>. Collaborant étroitement avec les stucateurs, son style déborde du cadre réel : les nuées célestes, les anges dorés et les damnés précipités dans le vide projettent de véritables ombres peintes sur la voûte en stuc, réalisant l'idéal berninesque de l'œuvre d'art totale.</p>
+      <p><strong>La maturité tardive et les commandes conventuelles (années 1685-1705) :</strong> Tout en continuant à peindre des plafonds d'églises romaines (les Saints-Apôtres), son style se stabilise dans une élégance monumentale. Ses compositions de retables deviennent plus méditatives, mais conservent cette dynamique gestuelle et ce chromatisme chaud qui ont profondément influencé le rococo européen naissant.</p>
+    `,
+    corpus: {
+      total: 325,
+      seen: 0,
+      paintingsCount: 325,
+      details: [
+        { label: "Œuvres autographes (fresques, retables, toiles & esquisses)", count: 325, icon: "🎨", color: "#d4af37", seen: 0, note: "Environ 300 à 350 œuvres autographes recensées (cat. Petrucci 2009)" }
+      ],
+      sourceTitle: "Catalogue raisonné Francesco Petrucci (2009)",
+      sourceNotes: "Pour Giovanni Battista Gaulli, dit Baciccia (1639–1709), grand maître du haut baroque romain, l'inventaire de référence moderne a été établi par l'historien de l'art Francesco Petrucci dans son catalogue raisonné monumental publié en 2009 (Baciccio. Giovan Battista Gaulli 1639-1709). Ce catalogue de référence recense environ 300 à 350 œuvres autographes qui nous sont parvenues."
+    }
+  },
   "cassatt": {
     id: "cassatt",
     name: "Mary Cassatt",
