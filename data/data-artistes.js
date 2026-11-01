@@ -106,10 +106,10 @@ window.ARTISTS_REGISTRY = {
     `,
     corpus: {
       total: 28,
-      seen: 0,
+      seen: 5,
       paintingsCount: 28,
       details: [
-        { label: "Peintures autographes (huiles sur panneau ou sur toile)", count: 28, icon: "🎨", color: "#d4af37", seen: 0, note: "Estimation entre 25 et 30 peintures universellement reconnues de sa main" }
+        { label: "Peintures autographes (huiles sur panneau ou sur toile)", count: 28, icon: "🎨", color: "#d4af37", seen: 5, note: "Estimation entre 25 et 30 peintures universellement reconnues de sa main" }
       ],
       sourceTitle: "Catalogue de référence Thomas DaCosta Kaufmann",
       sourceNotes: "Le consensus scientifique moderne — notamment consolidé par le catalogue de référence publié par l'historien de l'art Thomas DaCosta Kaufmann — s'accorde sur un total d'environ 25 à 30 peintures (le plus souvent des huiles sur panneau ou sur toile) universellement reconnues comme étant de sa main."
