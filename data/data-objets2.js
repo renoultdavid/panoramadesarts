@@ -527,5 +527,87 @@ window.ART_OBJECTS = [
     <p>L'aménagement de cette petite salle sombre a été calculé avec une précision astronomique et mathématique exceptionnelle par les ingénieurs de l'époque. Deux fois par an, vers le 22 février et le 22 octobre, les premiers rayons du soleil levant pénètrent dans le temple et parcourent soixante mètres de couloirs pour illuminer directement les statues d'Amon-Rê, de Ramsès II et de Rê-Horakhty. Ptah, le dieu des artisans lié au monde souterrain, demeure quant à lui volontairement dans l'obscurité, respectant sa nature de divinité de l'ombre et de la création cachée.</p>
     <p>Les statues, bien que plus petites que les colosses de la façade, conservent une aura de puissance grâce à leur style rigide et frontal. Ramsès II est figuré au centre, portant la coiffe royale, partageant la même stature et les mêmes attributs que les dieux qui l'entourent, ce qui légitime son pouvoir absolu. Les murs du sanctuaire sont recouverts de reliefs délicats montrant le roi faisant des offrandes et pratiquant des rituels devant la barque sacrée, renforçant le rôle de ce lieu comme point de contact entre le monde terrestre et l'éternité divine.</p>
     <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1264) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "anonyme_portrait_jean_ii_le_bon_louvre",
+    artistId: "anonymes",
+    artist: "Anonymes",
+    artistSort: "Anonymes",
+    title: "Jean II le Bon",
+    civId: "occident",
+    periodId: "occ_gothique",
+    civName: "Occident chrétien & moderne",
+    century: "vers 1350 (XIVe siècle)",
+    centuryDisplay: "1350",
+    centuryNumeric: 1350,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture sur panneau de bois",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Cour de France (attribué parfois à Girard d'Orléans)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris",
+    category: "Peinture de chevalet",
+    isHighlight: true,
+    chips: ["1350", "Anonyme", "Jean II le Bon", "Musée du Louvre", "Girard d'Orléans", "Peinture à l'œuf sur bois", "Portrait de profil"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczPHzAeyvwKyAZrv3wJevMMsKOax-nqtKBUncduXESWuMtgR29VZDTGRHGVNhclDiKqcmPmm9Vv-YWJT7a8n3iltFu48G9if7v1e0WQQWPWyHBiYI1EciRE5GCLeOBOFhCNlQ-1u6MnP3E9e7nYeNW8EFA=w2309-h979-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPG5yBI0RR52dKTp5x-Xm01_F2jZ9gKAeMChRnsaFityWWMEdKxhc1YG4Mwcu9f-gRMRXcyxbdi9Ih2CeTSQTKEYvhYId_FFMetRgZcB7LZVJlzA1PHxwzTCBnr1F_Xpr7k8hRK1G5m1NwCxJW3DmGNSA=w1807-h2279-s-no-gm?authuser=0",
+    narrative: `<p>Ce portrait de Jean II le Bon, peint vers 1350, est une œuvre d'une importance capitale pour l'histoire de l'art occidental. Il est traditionnellement considéré comme le plus ancien portrait indépendant (non intégré à une scène religieuse ou à un manuscrit) conservé en France. Attribué parfois au peintre du roi, Girard d'Orléans, ce panneau de bois marque la naissance du portrait moderne, où l'individu est représenté pour lui-même, cherchant à capturer non seulement son rang, mais aussi la vérité de ses traits physiques.</p>
+    <p>Le portrait présente le roi Jean II de profil, une pose héritée des médailles antiques qui permet de souligner les contours caractéristiques du visage avec une précision documentaire. Le souverain est représenté avec une chevelure rousse abondante et une barbe courte, des traits qui contrastent avec le fond d'or poinçonné. Le traitement de la peau, marqué par le temps et les craquelures du panneau, révèle une volonté de réalisme rare pour l'époque. Le roi porte une robe sombre au col de fourrure claire, une tenue sobre qui délaisse les attributs habituels du pouvoir (couronne, sceptre) pour se concentrer sur l'homme.</p>
+    <p>La partie supérieure du panneau comporte une inscription en lettres gothiques : "Jehan roy de France". Cette mention identifie sans ambiguïté le sujet et souligne la fonction officielle du portrait. Le fond d'or, travaillé avec des motifs de poinçons, rappelle encore les codes de la peinture religieuse médiévale (les fonds de retables), mais le sujet central bascule définitivement vers l'humanisme. La technique utilisée, une peinture à l'œuf sur bois, permet ces détails fins dans la chevelure et l'expression du regard, qui semble fixe et déterminé.</p>
+    <p>L'économie de moyens et la sévérité du profil confèrent au roi une présence presque monumentale malgré les dimensions modestes de l'œuvre. Ce portrait a probablement été réalisé alors que Jean II était encore duc de Normandie ou au début de son règne, peut-être pour être envoyé à une autre cour européenne dans un but diplomatique. En isolant le visage royal de tout contexte narratif, l'artiste anonyme a créé un archétype qui influencera durablement l'art du portrait en Europe.</p>`
+  },
+  {
+    id: "anonyme_ecole_fontainebleau_gabrielle_estrees_soeur_louvre",
+    artistId: "anonymes",
+    artist: "Anonymes",
+    artistSort: "Anonymes",
+    title: "École de Fontainebleau - Gabrielle d'Estrées et une de ses sœurs",
+    civId: "occident",
+    periodId: "occ_renaissance",
+    civName: "Occident chrétien & moderne",
+    century: "1575 – 1600 (vers 1594-1595, Seconde École de Fontainebleau)",
+    centuryDisplay: "1575 – 1600",
+    centuryNumeric: 1594,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture sur panneau de bois",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Fontainebleau / Cour de France",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris",
+    category: "Peinture de chevalet",
+    isHighlight: true,
+    chips: ["1575-1600", "École de Fontainebleau", "Gabrielle d'Estrées", "Musée du Louvre", "Duchesse de Villars", "Henri IV", "Maniérisme français"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczPHzAeyvwKyAZrv3wJevMMsKOax-nqtKBUncduXESWuMtgR29VZDTGRHGVNhclDiKqcmPmm9Vv-YWJT7a8n3iltFu48G9if7v1e0WQQWPWyHBiYI1EciRE5GCLeOBOFhCNlQ-1u6MnP3E9e7nYeNW8EFA=w2309-h979-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMSSlEv8JiJmn4LGt7YZCGEPwtmy-4ptt-gdhc_ulpAjs5wROEYkMTy18BC-9Bmtr6xVIhjUrVEGL1kNBQgNX42m1KO7Iiw_yxd4ChQ2Gd1DjIkoTiTriLfRg8u2SXx-EGOLO6gdKQOHG4uveJmdZj-Qg=w1807-h1458-s-no-gm?authuser=0",
+    narrative: `<p>Cette œuvre iconique de l'École de Fontainebleau, peinte par un artiste anonyme entre 1594 et 1595, est l'un des portraits les plus énigmatiques et célèbres de la Renaissance française. Elle met en scène Gabrielle d’Estrées, la favorite du roi Henri IV, accompagnée probablement de sa sœur, la duchesse de Villars. Le tableau se distingue par son mélange singulier de réalisme froid, de préciosité décorative et de symbolisme audacieux, caractéristiques du maniérisme tardif qui florissait à la cour de France.</p>
+    <p>Les deux jeunes femmes sont représentées à mi-corps, assises dans une baignoire recouverte d'un drap de lin, encadrées par d'épais rideaux de soie rouge qui s'ouvrent comme sur une scène de théâtre. À droite, Gabrielle d'Estrées, à la peau d'une pâleur de porcelaine et aux traits idéalisés, tient entre ses doigts une bague, symbole de la promesse de mariage faite par le roi. À gauche, sa sœur accomplit un geste surprenant et hautement symbolique en pinçant le sein droit de la favorite. Ce contact, loin d'être érotique, est généralement interprété comme l'annonce de la maternité de Gabrielle, enceinte du futur duc de Vendôme, fils naturel d'Henri IV.</p>
+    <p>L'arrière-plan offre une échappée domestique et symbolique qui contraste avec la nudité statuaire du premier plan. On y aperçoit une jeune femme assise près d'une cheminée monumentale, s'appliquant à coudre ou à préparer une layette, ce qui renforce l'idée d'une naissance imminente. Le décor intérieur, avec son tableau accroché au mur dont on ne voit que la partie inférieure (représentant des jambes nues), témoigne du goût de l'époque pour les mises en abyme et les jeux de miroirs. Rubens n'est pas encore là, mais on sent déjà cette fascination pour la chair traitée ici avec une lisseur presque minérale.</p>
+    <p>La composition repose sur une symétrie rigoureuse et un traitement de la lumière qui semble émaner des corps eux-mêmes. Le contraste entre le rouge profond des tentures et la blancheur laiteuse des bustes accentue le caractère précieux et hors du temps de la scène. Par ce portrait, Gabrielle d'Estrées n'affirme pas seulement sa beauté, mais sa position de quasi-reine, sa fécondité garantissant son influence sur le souverain. L'œuvre demeure un témoignage fascinant de la culture de cour des Valois-Bourbon, où l'intime devient politique par le biais de l'allégorie.</p>`
+  },
+  {
+    id: "anonyme_fontainebleau_gabrielle_estree_soeur_1594_florence",
+    artistId: "anonymes",
+    artist: "Anonymes",
+    artistSort: "Anonymes",
+    title: "Fontainebleau - Gabrielle d’Estrée et une de ses sœurs (Florence)",
+    civId: "occident",
+    periodId: "occ_renaissance",
+    civName: "Occident chrétien & moderne",
+    century: "1594 (XVIe siècle, Seconde École de Fontainebleau)",
+    centuryDisplay: "1594",
+    centuryNumeric: 1594,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture sur panneau de bois",
+    site: "Florence / Musée du Louvre",
+    originSite: "Fontainebleau / Cour de France",
+    locationType: "museum",
+    currentLocation: "Florence / Musée du Louvre",
+    category: "Peinture de chevalet",
+    isHighlight: false,
+    chips: ["1594", "Fontainebleau", "Gabrielle d'Estrées", "Florence", "Musée du Louvre", "Seconde École de Fontainebleau", "Maniérisme"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczPHzAeyvwKyAZrv3wJevMMsKOax-nqtKBUncduXESWuMtgR29VZDTGRHGVNhclDiKqcmPmm9Vv-YWJT7a8n3iltFu48G9if7v1e0WQQWPWyHBiYI1EciRE5GCLeOBOFhCNlQ-1u6MnP3E9e7nYeNW8EFA=w2309-h979-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczM_IhKxNxLhx_lfmQs67rrKXnvURbR42ybQArJM76V3O-iwarIEGxzb1P4AQ6wP0Xfb5cJy80w2xo4uySGZDo21PLf_g8O9g9PzzbttPtaURQ1NPsOB6CBsD-13o8Ld8avOAREFTi1GXSJRpGwcZWWnUg=w1611-h2417-s-no-gm?authuser=0",
+    narrative: `<p>Cette œuvre emblématique du maniérisme français, conservée au musée du Louvre, s’inscrit dans la production de la seconde École de Fontainebleau de la fin du XVIe siècle, vers 1594. Le panneau dépeint Gabrielle d’Estrées, la favorite d'Henri IV, à droite, accompagnée de sa sœur, la duchesse de Villars, installées dans une baignoire drapée de linge blanc devant un rideau de soie rouge intense. La composition frappe par son audace formelle et son symbolisme érotique et politique raffiné. Le geste central, où la sœur de Gabrielle pince délicatement le mamelon droit de la favorite, est traditionnellement interprété comme une annonce allégorique de la maternité prochaine de Gabrielle, qui attendait alors César de Vendôme, fils naturel du roi. Cette lecture est renforcée par la présence à l'arrière-plan, presque imperceptible dans la pénombre, d'une jeune femme cousant une layette près d'une cheminée.</p>
+    <p>Le style se caractérise par une idéalisation extrême des corps, dont la carnation d'ivoire et la plastique lisse rappellent la sculpture. La précision du dessin, l'allongement des formes et la froideur apparente des expressions sont typiques de l'influence italienne adaptée à la cour des Valois et des premiers Bourbons. Gabrielle d'Estrées tient entre ses doigts une bague, objet hautement symbolique qui pourrait évoquer le couronnement espéré ou la promesse de mariage faite par Henri IV, soulignant ainsi les ambitions dynastiques de la favorite. L'espace est construit de manière théâtrale, jouant sur le contraste entre l'intimité close du premier plan et la profondeur domestique du second plan, créant une œuvre à la fois intime et solennelle qui témoigne de la sophistication intellectuelle de la cour de France à la Renaissance.</p>`
   }
 ].concat(window.ART_OBJECTS || []);
