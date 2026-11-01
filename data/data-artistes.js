@@ -277,6 +277,71 @@ window.ARTISTS_REGISTRY = {
       sourceNotes: "Le catalogue raisonné de référence absolu a été publié en 2019 par le trio d'éminents spécialistes Mauro Lucco, Peter Humfrey et Giovanni C.F. Villa (Giovanni Bellini: Catalogo ragionato). Après un tri scientifique extrêmement rigoureux pour écarter les innombrables toiles d'atelier, ce catalogue moderne recense très exactement 193 peintures (toiles et panneaux de bois confondus) reconnues de la main du maître."
     }
   },
+  "blake": {
+    id: "blake",
+    name: "Blake William",
+    sortName: "Blake William",
+    sortLetter: "B",
+    dates: "1757 – 1827",
+    movement: "Pré-romantisme & Symbolisme visionnaire britannique",
+    nationality: "Britannique (Londres)",
+    techniques: "Enluminure moderne (gravure en relief sur cuivre), estampe coloriée, détrempe et aquarelle",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczOD3bHNekl5EKIEJXLfD5C0pts3_cxi2ytRY-rZgrLbjaOpJgGcJN4Ohuz_cZprfTDrS4Sg0idKMbbpa-uoEN5f_iWJouRhlERQUm1obZ2PZu1Ee40JpvF1MoAtQkwgEZFQQc_dx2xWqAuL-soQ3I2UgQ=w1897-h805-s-no-gm?authuser=0",
+    portraitImg: "",
+    bio: `
+      <p><strong>Poète, peintre, mystique et graveur visionnaire du Romantisme britannique</strong><br>
+      William Blake (1757 – 1827) est une comète solitaire dans le ciel artistique britannique, à la fois poète, peintre, mystique et graveur visionnaire. Rejetant violemment le rationalisme des Lumières, le matérialisme industriel et l'académisme d'un Joshua Reynolds, Blake a créé sa propre mythologie cosmologique pour explorer les tourments de l'âme humaine, l'oppression politique et l'extase spirituelle, s'affirmant comme l'un des précurseurs les plus radicaux du Romantisme.</p>
+      <p><strong>Enluminure moderne, primat de la ligne et vigueur michelangelesque</strong><br>
+      Son genre pictural se définit par l'enluminure moderne (livres prophétiques illustrés), l'estampe coloriée et l'aquarelle allégorique et biblique. Son style se caractérise par le primat absolu de la ligne de contour nette — qu'il opposait au flou vénitien —, des corps musculeux et étirés inspirés de Michel-Ange, des poses théâtrales et tourmentées, ainsi que des aplats de couleurs vibrantes appliqués à la détrempe ou rehaussés à l'aquarelle.</p>
+      <p><strong>Une quête continue de fusion entre poésie, gravure et révélation mystique</strong><br>
+      • <em>L'invention de l'impression enluminée (années 1780 – 1794)</em> : Refusant le système éditorial classique, il invente la gravure en relief sur cuivre, qui lui permet d'imprimer simultanément texte poétique et arabesques visuelles. Dans <em>Songs of Innocence and of Experience</em>, son style oscille entre grâce pastorale médiévale et noirceur urbaine contestataire, unissant mot et image de façon indissociable.<br>
+      • <em>Les grands livres prophétiques et estampes de couleur (1794 – 1805)</em> : Il déploie sa mythologie personnelle mettant en scène des démiurges comme Urizen (la raison autoritaire) ou Los (l'imagination prophétique). Avec <em>Le Grand Architecte</em> (<em>The Ancient of Days</em>) ou sa série des douze grandes estampes coloriées (<em>Newton</em>, <em>Nebuchadnezzar</em>), son style atteint une monumentalité cosmique où la géométrie symbolique se heurte à des abîmes de ténèbres.<br>
+      • <em>Les ultimes chefs-d'œuvre et le cycle de Dante (après 1820)</em> : Entouré d'un cercle de jeunes artistes (<em>The Ancients</em>), il consacre ses dernières années à de grandes commandes visionnaires : les gravures pour le <em>Livre de Job</em> et les splendides aquarelles inachevées pour la <em>Divine Comédie</em> de Dante, où son trait devient plus éthéré, vibrant d'une lumière céleste et d'une liberté chromatique absolue.</p>
+    `,
+    corpus: {
+      total: 882,
+      seen: 0,
+      paintingsCount: 882,
+      details: [
+        { label: "Peintures, aquarelles et dessins (cat. Martin Butlin 1981)", count: 882, icon: "🎨", color: "#d4af37", seen: 0, note: "882 notices d'œuvres recensées en deux volumes" }
+      ],
+      sourceTitle: "Catalogue raisonné Martin Butlin (1981)",
+      sourceNotes: "Le catalogue raisonné de référence mondiale pour son œuvre picturale a été établi par l'historien de l'art Martin Butlin et publié en 1981 sous le titre The Paintings and Drawings of William Blake. Ce catalogue monumental en deux volumes recense très exactement 882 notices d'œuvres."
+    }
+  },
+  "bonheur": {
+    id: "bonheur",
+    name: "Bonheur Rosa",
+    sortName: "Bonheur Rosa",
+    sortLetter: "B",
+    dates: "1822 – 1899",
+    movement: "Réalisme animalier & Naturalisme du XIXe siècle",
+    nationality: "Française (Bordeaux / Paris / Château de By, Thomery)",
+    techniques: "Huile sur toile, études anatomiques et pastorales sur le motif, aquarelle et dessin",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczP48v8FEFA5h-eY8Mnqnx01Ny8ACRYq3iHDdBAY23qCA3GBG81uRghD1qyhJryOd8RZdJHmAYCXsXcKMKRFi4D5lf5gMMYX1UMbdgNI2DdQuUwFdLDI5QpjOdsWAUFPd2vBxJC_rWBD-WPFY3nYwE7dLQ=w1897-h805-s-no-gm?authuser=0",
+    portraitImg: "",
+    bio: `
+      <p><strong>Souveraine de la peinture animalière du XIXe siècle et pionnière de l'émancipation féminine</strong><br>
+      Rosa Bonheur (1822 – 1899) est la plus célèbre des peintres animalières du XIXe siècle et une pionnière absolue de l'émancipation féminine par l'art. Première femme artiste à recevoir les insignes d'Officier de la Légion d'honneur, elle a conquis une renommée internationale — particulièrement en Angleterre et aux États-Unis — en élevant la peinture animalière, alors considérée comme un genre mineur, au rang de la grande peinture d'histoire.</p>
+      <p><strong>Rigueur anatomique, vérité du vivant et refus de l'anthropomorphisme</strong><br>
+      Son genre pictural se définit par le réalisme animalier et la scène rurale. Son style se caractérise par une rigueur anatomique infaillible, issue de longues séances de dissection et d'études sur le vif dans les foires et les abattoirs. Elle refuse l'anthropomorphisme : elle ne cherche pas à prêter des émotions humaines aux bêtes, mais à rendre leur force vitale, leur dignité et leur présence psychologique propre à travers un rendu minutieux des pelages, du modelé musculaire et de la lumière naturelle.</p>
+      <p><strong>De la glorification du travail agraire vers l'intimité du monde sauvage</strong><br>
+      • <em>L'affirmation monumentale et le monde rural (années 1840-1850)</em> : Elle s'impose avec <em>Le Labourage nivernais</em>, commande d'État glorifiant la terre et l'effort animal, puis triomphe au Salon avec <em>Le Marché aux chevaux</em>. Son style est alors héroïque, usant de formats panoramiques et d'une puissance plastique qui rivalise avec les maîtres anciens comme Géricault.<br>
+      • <em>Le succès international et les landes britanniques (années 1860-1870)</em> : Portée par l'admiration de la reine Victoria, elle voyage en Écosse. Sa palette s'adapte aux ciels brumeux et aux landes sauvages ; elle peint des troupeaux de bœufs des Highlands et des cerfs avec une touche plus atmosphérique et attentive aux lumières du Nord.<br>
+      • <em>La ménagerie de By et la fascination pour l'Ouest (années 1880-1890)</em> : Retirée dans son château de By en lisière de forêt de Fontainebleau, elle vit entourée d'animaux sauvages (lions, hardes de biches). Son style se concentre sur le portrait animalier individuel, capturant la fierté des fauves. Sa rencontre avec Buffalo Bill lors de l'Exposition universelle de 1889 nourrit un intérêt passionné pour la faune et les paysages d'Amérique du Nord.</p>
+    `,
+    corpus: {
+      total: 1500,
+      seen: 1,
+      paintingsCount: 1500,
+      details: [
+        { label: "Fonds de l'inventaire officiel de son atelier (vente de 1900)", count: 892, icon: "🎨", color: "#d4af37", seen: 1, note: "892 œuvres recensées lors de l'inventaire officiel d'atelier en 1900" },
+        { label: "Toiles vendues et dispersées de son vivant (France, Royaume-Uni, États-Unis)", count: 608, icon: "🖼️", color: "#00b4d8", seen: 0, note: "Estimation scientifique portant la production totale d'huiles à ~1 500 œuvres" }
+      ],
+      sourceTitle: "Estimation scientifique (~1 500 toiles) & Inventaire d'atelier (1900)",
+      sourceNotes: "En l'absence d'un catalogue raisonné moderne définitif, deux repères complémentaires permettent de mesurer son corpus : d'une part, la rigueur historique de l'inventaire officiel de son atelier dressé en 1900 après son décès, qui recense très exactement 892 peintures et études ; d'autre part, l'estimation scientifique retenue ici qui fixe un plafond réaliste à environ 1 500 œuvres, afin d'intégrer l'ampleur des grandes toiles et commandes vendues tout au long de sa carrière en France, en Angleterre et aux États-Unis."
+    }
+  },
   "cassatt": {
     id: "cassatt",
     name: "Cassatt Mary",

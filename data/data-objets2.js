@@ -3,6 +3,33 @@
    ========================================================================== */
 window.ART_OBJECTS = [
   {
+    id: "bonheur_rosa_la_traite_1887",
+    artistId: "bonheur",
+    artist: "Bonheur Rosa",
+    artistSort: "Bonheur Rosa",
+    title: "La Traite ou L'Heure de la traite",
+    civId: "occident",
+    periodId: "occ_xixe",
+    civName: "Occident chrétien & moderne",
+    century: "1887 (XIXe siècle)",
+    centuryDisplay: "1887",
+    centuryNumeric: 1887,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture sur toile (chevalet)",
+    site: "Collection particulière / Pyrénées",
+    originSite: "Pyrénées (France)",
+    locationType: "museum",
+    currentLocation: "Collection particulière",
+    category: "Peinture de chevalet (huile sur toile)",
+    isHighlight: true,
+    chips: ["1887", "Rosa Bonheur", "La Traite", "L'Heure de la traite", "Pyrénées", "Réalisme animalier", "XIXe siècle"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczP48v8FEFA5h-eY8Mnqnx01Ny8ACRYq3iHDdBAY23qCA3GBG81uRghD1qyhJryOd8RZdJHmAYCXsXcKMKRFi4D5lf5gMMYX1UMbdgNI2DdQuUwFdLDI5QpjOdsWAUFPd2vBxJC_rWBD-WPFY3nYwE7dLQ=w1897-h805-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOmafFIfHexPmz-DYBtvRWihHhAVIUS9EeVjJjW0U8m31uNS5uhs_f0D0tO-dqGfY5amu_FH4OsPB0WUQLqedUHNI8VKK7PA8P8e__0cwuMi-i_6tKznEMv_2zrtmMMVtJutVxqzvA5lriUgYzJOhSm3w=w1897-h1417-s-no-gm?authuser=0",
+    narrative: `<p>Fruit des nombreux séjours de l'artiste dans le sud-ouest de la France et des études minutieuses exécutées sur le motif, cette vaste composition pastorale célèbre la rudesse et la grandeur du pastoralisme de haute montagne. Au centre, sous un abri de fortune fait de branchages et de chaume appuyé contre un imposant bloc erratique recouvert de lichens, se rassemble un troupeau de vaches gasconnes et blondes des Pyrénées. À gauche, un berger agenouillé à même la terre caillouteuse, coiffé d'un béret traditionnel et vêtu d'une veste sombre ceinte d'une écharpe rouge, s'affaire consciencieusement à traire l'une de ses bêtes dans un pot en bois, illustrant la précision anatomique et le respect du labeur paysan chers à la peintre.</p>
+    <p>Au premier plan, une imposante vache à la robe fauve luisante se tient de profil, le dos musculeux et le regard paisible, tandis que derrière elle une congénère dresse de longues cornes effilées en observant l'horizon. À droite, derrière un enclos rustique en branchages entrecroisés, de jeunes veaux curieux et craintifs tendent le mufle vers leurs mères dans l'attente du lait, près d'un seau métallique posé au sol. La virtuosité de Rosa Bonheur se révèle dans le rendu tactile des pelages, la texture rugueuse des écorces et la vérité expressive des bêtes, dépeintes avec une dignité monumentale exempte de tout sentimentalisme mièvre.</p>
+    <p>L'arrière-plan offre un vaste panorama pyrénéen balayé par une lumière matinale limpide. Au-delà des pâturages d'estive parsemés de roches affleurantes où broutent d'autres têtes de bétail isolées, la vue s'échappe vers des crêtes dénudées et des sommets alpins encore tapissés de névés étincelants, dont les reliefs bleutés se découpent nettement contre un ciel d'azur pâle. Cette harmonie entre la puissance souveraine des bêtes, l'humilité du travail pastoral et l'immensité du paysage montagnard résume l'aboutissement du naturalisme animalier de l'artiste à la fin de sa carrière.</p>`
+  },
+  {
     id: "bellini_giovanni_christ_benissant_1460_louvre",
     artistId: "bellini_giovanni",
     artist: "Bellini Giovanni",
