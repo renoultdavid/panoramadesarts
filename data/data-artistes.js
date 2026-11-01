@@ -405,6 +405,36 @@ window.ARTISTS_REGISTRY = {
       sourceNotes: "Le catalogue raisonné qui fait aujourd'hui autorité de manière indiscutable a été publié en 2016, à l'occasion du 500e anniversaire de sa mort, par le BRCP (Bosch Research and Conservation Project) sous la direction de l'historien de l'art Matthijs Ilsink. Après des années d'analyses scientifiques poussées (réflectographie infrarouge, dendrochronologie), ce comité a définitivement purifié son œuvre peinte. Le chiffre est vertigineusement bas : ce catalogue de référence ne reconnaît aujourd'hui qu'environ 25 peintures (panneaux et triptyques confondus) comme étant de la main du maître (le BRCP y ajoute également une vingtaine de dessins autographes)."
     }
   },
+  "botticelli": {
+    id: "botticelli",
+    name: "Botticelli Sandro",
+    sortName: "Botticelli Sandro",
+    sortLetter: "B",
+    dates: "v. 1445 – 1510",
+    movement: "Première Renaissance florentine (Quattrocento)",
+    nationality: "Italien (Florence)",
+    techniques: "Tempera (détrempe) et huile sur panneau de bois et sur toile, tondo, fresque murale",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczMiqXtEtarcX-Tcy4-WhaFqpq2AFV3NdCzp_IooHC4rvaYmND084phuTizuIL_cx17Xe84lUIPCi_2z72EDXTcVT7k2gFWxAnQxEQ6NrVq6ASZzSOfgWfmDAK_C_DXiwfFwFZ4-4vuQvE0JRp9QrdIGbw=w1584-h672-s-no-gm?authuser=0",
+    portraitImg: "",
+    bio: `
+      <p><strong>Symbole de la grâce florentine sous le mécénat des Médicis</strong><br>
+      Sandro Filipepi, dit Botticelli, né vers 1445 et mort en 1510 à Florence, est l'un des peintres les plus emblématiques de la Renaissance italienne sous le mécénat des Médicis. Formé dans l'atelier de Filippo Lippi, il a passé la majeure partie de sa vie dans sa ville natale, dont il a incarné l'élégance intellectuelle et artistique. Bien qu'il ait connu une immense célébrité de son vivant, son œuvre est tombée dans un relatif oubli pendant des siècles avant d'être redécouverte au XIXe siècle, faisant de lui aujourd'hui le symbole de la grâce florentine.</p>
+      <p><strong>Primauté de la ligne, beauté idéale et allégories néoplatoniciennes</strong><br>
+      Son genre pictural se distingue par une quête de beauté idéale et une prééminence absolue de la ligne sur la couleur. Maître du dessin, Botticelli utilise des contours sinueux et fluides pour donner à ses figures une légèreté presque immatérielle. S'il a produit de nombreux chefs-d'œuvre religieux, il est surtout célèbre pour ses grandes compositions mythologiques, comme <em>Le Printemps</em> ou <em>La Naissance de Vénus</em>. Ces œuvres témoignent de l'influence de la philosophie néoplatonicienne, cherchant à concilier les thèmes antiques avec la spiritualité chrétienne à travers des allégories complexes et poétiques.</p>
+      <p><strong>De l'harmonie mélancolique au tournant mystique et tragique</strong><br>
+      L'évolution de son style est marquée par une rupture dramatique à la fin de sa carrière. Après une période de maturité caractérisée par des visages mélancoliques et des drapés mouvants d'une grande finesse, son art subit un tournant mystique sous l'influence du moine prédicateur Savonarole. Ses dernières compositions deviennent plus austères, plus rigides et empreintes d'une tension religieuse presque archaïque, délaissant les thèmes profanes pour des scènes de dévotion intenses. Ce changement radical reflète la crise politique et spirituelle de Florence à la fin du XVe siècle, transformant l'harmonie sereine de ses débuts en une expression douloureuse et tourmentée.</p>
+    `,
+    corpus: {
+      total: 155,
+      seen: 12,
+      paintingsCount: 155,
+      details: [
+        { label: "Peintures autographes (tempera et huile sur panneau, toile et fresque — cat. Zöllner 2005/2015)", count: 155, icon: "🎨", color: "#d4af37", seen: 12, note: "Environ 155 peintures entièrement de la main du maître" }
+      ],
+      sourceTitle: "Catalogue raisonné Frank Zöllner (2005 / rééd. 2015)",
+      sourceNotes: "Aujourd'hui, l'inventaire de référence moderne, établi par l'historien de l'art Frank Zöllner dans son catalogue raisonné publié en 2005 et réédité en 2015, a resserré le corpus pour ne retenir que les œuvres incontestables. Le consensus scientifique s'accorde sur environ 155 peintures (réalisées à la tempera ou à l'huile, sur panneau de bois ou sur toile) entièrement de la main du maître."
+    }
+  },
   "cassatt": {
     id: "cassatt",
     name: "Cassatt Mary",
