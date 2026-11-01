@@ -1458,16 +1458,39 @@ function initSearchEngine() {
   const drawerList = document.getElementById('artists-drawer-list');
   const btnCloseDrawer = document.getElementById('btn-close-artists-drawer');
 
-  // Construit l'annuaire des artistes à partir des œuvres du catalogue
+  // Construit l'annuaire des artistes à partir du registre monographique et des œuvres du catalogue
   function getArtistsDirectory() {
     const catalog = window.ART_OBJECTS || [];
+    const registry = window.ARTISTS_REGISTRY || {};
     const directory = {};
 
+    // 1. Intégration des fiches de ARTISTS_REGISTRY
+    Object.values(registry).forEach(reg => {
+      if (!reg || !reg.name) return;
+      const artName = reg.name.trim();
+      let sortKey = (reg.sortLetter || artName).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toUpperCase();
+      let firstChar = sortKey.charAt(0);
+      if (!/[A-Z]/.test(firstChar)) firstChar = '#';
+
+      if (!directory[firstChar]) directory[firstChar] = {};
+      if (!directory[firstChar][artName]) {
+        directory[firstChar][artName] = {
+          name: artName,
+          count: 0,
+          artistBio: reg.bio || '',
+          artistDates: reg.dates || '',
+          artistMovement: reg.movement || ''
+        };
+      }
+    });
+
+    // 2. Décompte des œuvres présentes dans ART_OBJECTS
     catalog.forEach(item => {
       if (!item.artist) return;
       const artName = item.artist.trim();
       // On extrait la lettre de tri (soit le nom de famille s'il est spécifié, soit la première lettre)
-      let sortKey = (item.artistSort || artName).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toUpperCase();
+      const regMatch = Object.values(registry).find(r => r.name && r.name.toLowerCase().trim() === artName.toLowerCase());
+      let sortKey = (item.artistSort || (regMatch && regMatch.sortLetter) || artName).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toUpperCase();
       let firstChar = sortKey.charAt(0);
       if (!/[A-Z]/.test(firstChar)) firstChar = '#';
 
