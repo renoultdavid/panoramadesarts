@@ -1771,6 +1771,14 @@ function initSearchEngine() {
 
   if (filterText) {
     filterText.addEventListener('input', () => {
+      if (artistHero && !artistHero.hidden) {
+        const heroName = (artistHeroName ? artistHeroName.textContent : '').toLowerCase().trim();
+        if (filterText.value.toLowerCase().trim() !== heroName) {
+          artistHero.hidden = true;
+          if (corpusDashboard) corpusDashboard.hidden = true;
+          if (corpusSourceDrawer) corpusSourceDrawer.hidden = true;
+        }
+      }
       currentRenderLimit = PAGE_CHUNK;
       renderSearchGallery();
     });
@@ -1785,6 +1793,9 @@ function initSearchEngine() {
 
   if (btnReset) {
     btnReset.addEventListener('click', () => {
+      if (artistHero) artistHero.hidden = true;
+      if (corpusDashboard) corpusDashboard.hidden = true;
+      if (corpusSourceDrawer) corpusSourceDrawer.hidden = true;
       if (filterCiv) filterCiv.value = 'all';
       if (filterDomain) filterDomain.value = 'all';
       updatePeriodDropdown();
@@ -1812,6 +1823,79 @@ function initSearchEngine() {
 // Variable globale pour mémoriser si le filtre Focus est actif
 let focusOnlyActive = false;
 
+// Extrait une année numérique fiable pour le tri et le découpage en décennies
+function getArtworkYearNumeric(art) {
+  if (typeof art.centuryNumeric === 'number' && !Number.isNaN(art.centuryNumeric)) {
+    return art.centuryNumeric;
+  }
+  const raw = `${art.centuryDisplay || ''} ${art.century || ''}`;
+  const match = raw.match(/(-?\d{3,4})/);
+  if (match) {
+    return parseInt(match[1], 10);
+  }
+  return Infinity;
+}
+
+// Formate une date courte et lisible pour la bulle en haut à droite de la miniature
+function formatCardBadgeDate(art) {
+  const raw = (art.centuryDisplay || art.century || '').trim();
+  if (!raw && typeof art.centuryNumeric !== 'number') return '';
+
+  // Pour un peintre : privilégier l'année courte (ex: "1529", "v. 1530")
+  if (art.artist) {
+    const shortArtistDate = raw.replace(/\s*\([^)]*\)/g, '').trim();
+    if (shortArtistDate && shortArtistDate.length <= 16) return shortArtistDate;
+    if (typeof art.centuryNumeric === 'number') return String(art.centuryNumeric);
+  }
+
+  // Nettoyage des parenthèses (dynasties, précisions longues) et abréviation de "siècle"
+  let short = raw.replace(/\s*\([^)]*\)/g, '').trim();
+  short = short.replace(/\bsiècles?\b/gi, 's.');
+
+  if (short.length > 22 && typeof art.centuryNumeric === 'number') {
+    return art.centuryNumeric < 0 ? `v. ${art.centuryNumeric} av. J.-C.` : String(art.centuryNumeric);
+  }
+  return short;
+}
+
+// Crée la carte DOM d'une œuvre (utilisée en grille standard et en sections par décennies)
+function createGalleryCardElement(art, modalList) {
+  const card = document.createElement('div');
+  card.className = 'gallery-card';
+
+  const hasFocus = art.hotspots && art.hotspots.length > 0;
+  const badgeDate = formatCardBadgeDate(art);
+
+  card.innerHTML = `
+    <div class="gallery-card-pedestal" style="position: relative;">
+      <img src="${art.imgSrc}" alt="${art.title}" loading="lazy" />
+      ${hasFocus ? `
+        <span class="badge-corner-focus" title="Mode Focus disponible">
+          <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+          Focus
+        </span>
+      ` : ''}
+      ${badgeDate ? `
+        <span class="badge-corner-date" title="${(art.century || badgeDate).replace(/"/g, '&quot;')}">${badgeDate}</span>
+      ` : ''}
+    </div>
+    <div class="gallery-card-body">
+      <div class="gallery-card-meta-top">
+        <span class="gallery-card-tag">${art.artifactType || art.category || 'ART'}</span>
+        <span class="gallery-card-civ">${art.artist || art.civName || ''}</span>
+      </div>
+      <div class="gallery-card-title">${art.title}</div>
+      <div class="gallery-card-century">${art.centuryDisplay || art.century || ''}</div>
+    </div>
+  `;
+
+  card.addEventListener('click', () => {
+    openCuratorModal(art, modalList);
+  });
+
+  return card;
+}
+
 function renderSearchGallery() {
   const catalog = window.ART_OBJECTS || [];
   const filterCiv = document.getElementById('filter-civ');
@@ -1824,6 +1908,11 @@ function renderSearchGallery() {
   const galleryGrid = document.getElementById('search-gallery-grid');
   const loadMoreBox = document.getElementById('load-more-container');
   const totalObjCount = document.getElementById('total-objects-count');
+  const artistHero = document.getElementById('artist-monograph-hero');
+  const artistHeroName = document.getElementById('artist-hero-name');
+
+  const isArtistView = Boolean(artistHero && !artistHero.hidden);
+  const activeArtistName = isArtistView && artistHeroName ? artistHeroName.textContent.toLowerCase().trim() : '';
 
   const selectedCiv = filterCiv ? filterCiv.value : 'all';
   const selectedPeriod = filterPeriod ? filterPeriod.value : 'all';
@@ -1841,12 +1930,17 @@ function renderSearchGallery() {
       if (!item.hotspots || item.hotspots.length === 0) return false;
     }
 
+    // Si une fiche peintre est ouverte, verrouiller strictement sur les œuvres de ce peintre
+    if (isArtistView && activeArtistName) {
+      const itemArtist = (item.artist || '').toLowerCase().trim();
+      if (itemArtist !== activeArtistName) return false;
+    }
+
     // 1. Filtre Civilisation (compatible civId "egypte_ancien" et civId "egypte")
     if (selectedCiv !== 'all') {
       const cId = item.civId || '';
       if (selectedCiv === 'egypte' && !cId.startsWith('egypte')) return false;
-      // NOUVELLE LIGNE :
-else if (selectedCiv === 'egee' && cId !== 'egee' && !['cyclades', 'crete', 'mycenes'].includes(cId)) return false;
+      else if (selectedCiv === 'egee' && cId !== 'egee' && !['cyclades', 'crete', 'mycenes'].includes(cId)) return false;
       else if (selectedCiv === 'chypre' && !cId.startsWith('chypre')) return false;
       else if (selectedCiv === 'celte_europe' && !cId.startsWith('celte')) return false;
       else if (selectedCiv === 'levant_phenicie' && !['amorrite', 'syrie_bronze', 'phenicie_fer'].includes(cId)) return false;
@@ -1887,7 +1981,7 @@ else if (selectedCiv === 'egee' && cId !== 'egee' && !['cyclades', 'crete', 'myc
     }
 
     // 5. Recherche libre (artiste, lieu, matière, titre)
-    if (query) {
+    if (query && !isArtistView) {
       const matchTitle = item.title && item.title.toLowerCase().includes(query);
       const matchSite = item.site && item.site.toLowerCase().includes(query);
       const matchNarrative = item.narrative && item.narrative.toLowerCase().includes(query);
@@ -1899,9 +1993,16 @@ else if (selectedCiv === 'egee' && cId !== 'egee' && !['cyclades', 'crete', 'myc
     return true;
   });
 
-  // Tri
+  // Tri : en mode Fiche Peintre, tri chronologique automatique par défaut
   const sortMode = filterSort ? filterSort.value : 'recent';
-  if (sortMode === 'alpha-asc') {
+  if (isArtistView) {
+    filtered.sort((a, b) => {
+      const ya = getArtworkYearNumeric(a);
+      const yb = getArtworkYearNumeric(b);
+      if (ya !== yb) return sortMode === 'chrono-desc' ? yb - ya : ya - yb;
+      return (a.title || '').localeCompare(b.title || '', 'fr');
+    });
+  } else if (sortMode === 'alpha-asc') {
     filtered.sort((a, b) => (a.title || '').localeCompare(b.title || '', 'fr'));
   } else if (sortMode === 'alpha-desc') {
     filtered.sort((a, b) => (b.title || '').localeCompare(a.title || '', 'fr'));
@@ -1920,39 +2021,73 @@ else if (selectedCiv === 'egee' && cId !== 'egee' && !['cyclades', 'crete', 'myc
 
   const itemsToDisplay = filtered.slice(0, currentRenderLimit);
 
+  // RENDU PAR SECTIONS DE DÉCENNIES DANS LES FICHES PEINTRES
+  if (isArtistView) {
+    galleryGrid.classList.add('is-decade-view');
+
+    const decadeGroups = [];
+    const groupMap = new Map();
+
     itemsToDisplay.forEach(art => {
-    const card = document.createElement('div');
-    card.className = 'gallery-card';
+      const year = getArtworkYearNumeric(art);
+      let key;
+      let label;
+      let range;
 
-    const hasFocus = art.hotspots && art.hotspots.length > 0;
+      if (Number.isFinite(year)) {
+        const decadeStart = Math.floor(year / 10) * 10;
+        const decadeEnd = decadeStart + 9;
+        key = String(decadeStart);
+        label = decadeStart < 0 ? `${decadeStart}s av. J.-C.` : `${decadeStart}s`;
+        range = decadeStart < 0 ? `${decadeStart} à ${decadeEnd} av. J.-C.` : `${decadeStart}–${decadeEnd}`;
+      } else {
+        key = 'undated';
+        label = 'Sans date';
+        range = 'Date indéterminée';
+      }
 
-    card.innerHTML = `
-      <div class="gallery-card-pedestal" style="position: relative;">
-        <img src="${art.imgSrc}" alt="${art.title}" loading="lazy" />
-        ${hasFocus ? `
-          <span class="badge-corner-focus" title="Mode Focus disponible">
-            <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
-            Focus
-          </span>
-        ` : ''}
-      </div>
-      <div class="gallery-card-body">
-        <div class="gallery-card-meta-top">
-          <span class="gallery-card-tag">${art.artifactType || art.category || 'ART'}</span>
-          <span class="gallery-card-civ">${art.civName || ''}</span>
-        </div>
-        <div class="gallery-card-title">${art.title}</div>
-        <div class="gallery-card-century">${art.centuryDisplay || art.century || ''}</div>
-      </div>
-    `;
-
-    card.addEventListener('click', () => {
-      openCuratorModal(art, filtered);
+      if (!groupMap.has(key)) {
+        const group = { key, label, range, items: [] };
+        groupMap.set(key, group);
+        decadeGroups.push(group);
+      }
+      groupMap.get(key).items.push(art);
     });
 
-    galleryGrid.appendChild(card);
-  });
+    decadeGroups.forEach((group, idx) => {
+      const decadeNum = String(idx + 1).padStart(2, '0');
+      const section = document.createElement('section');
+      section.className = 'artist-decade-section';
 
+      section.innerHTML = `
+        <div class="artist-decade-header">
+          <div class="decade-gold-rule"></div>
+          <div class="decade-marker-row">
+            <span class="decade-gold-dot"></span>
+            <span class="decade-overline">DÉCENNIE ${decadeNum} &nbsp;&bull;&nbsp; ${group.range}</span>
+            <span class="decade-work-count">${group.items.length} œuvre${group.items.length > 1 ? 's' : ''}</span>
+          </div>
+          <h3 class="decade-title">${group.label}</h3>
+        </div>
+      `;
+
+      const subGrid = document.createElement('div');
+      subGrid.className = 'search-gallery-grid decade-cards-grid';
+
+      group.items.forEach(art => {
+        subGrid.appendChild(createGalleryCardElement(art, filtered));
+      });
+
+      section.appendChild(subGrid);
+      galleryGrid.appendChild(section);
+    });
+  } else {
+    galleryGrid.classList.remove('is-decade-view');
+
+    itemsToDisplay.forEach(art => {
+      galleryGrid.appendChild(createGalleryCardElement(art, filtered));
+    });
+  }
 
   if (loadMoreBox) {
     loadMoreBox.hidden = currentRenderLimit >= filtered.length;
