@@ -4,6 +4,287 @@
 window.ART_OBJECTS = [
   
    {
+    id: "sculpture_statuette_imhotep_assis_papyrus_bronze_le_mans",
+    civId: "egypte",
+    periodId: "egypte_tardive",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "Basse Époque à Époque ptolémaïque (XXVIe – XXXIe dynastie, vers -600 à -300 av. J.-C.)",
+    centuryDisplay: "VIe – IVe s. av. J.-C.",
+    centuryNumeric: -450,
+    domain: "sculpture_statuaire",
+    artifactType: "Figurine votive / Ex-voto",
+    title: "Statuette votive d'Imhotep divinisé assis déroulant le rouleau de papyrus en bronze (Musée de Tessé, Le Mans)",
+    site: "Musée de Tessé (Le Mans)",
+    originSite: "Memphis ou Saqqarah",
+    locationType: "museum",
+    currentLocation: "Musée de Tessé, Le Mans",
+    category: "Figurine votive en bronze",
+    isHighlight: false,
+    chips: ["Basse Époque", "Imhotep", "Architecte divinisé", "Papyrus", "Bronze", "Scribe et médecin", "Musée de Tessé"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMnNUOU0uFlNUaj7LwwDg0zTbeno_xaV4vMos1E1xxAUScsalW5h1KRyJSq1G2ESoKXJyLPnEPQGPV-5tcZTRlqnoLaFKTE0GNNk91VmHXbBH84Ht1xWj36LLa3M3zlBFsYTlEu4Kt3PTuZnuOR51t23g=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette statuette en bronze représente Imhotep, figure historique majeure de l'Ancien Empire divinisée à la Basse Époque en tant que fils du dieu Ptah et patron des scribes et des médecins. Le personnage est figuré dans sa posture iconographique traditionnelle, assis sur un trône aujourd'hui disparu ou présenté ici sur un socle moderne, adoptant une attitude de sage et de lettré. Son corps, d'une grande finesse, est revêtu d'un simple pagne court plissé qui laisse apparaître la structure longiligne de ses jambes. Le modelé du torse et des bras témoigne du soin apporté par les bronziers égyptiens tardifs à la représentation du calme et de la concentration intellectuelle.</p>
+    <p>Le savant porte sur ses genoux un papyrus partiellement déroulé, symbole de son érudition et de son rôle d'architecte et de sage. Ses mains sont posées à plat sur le document, comme s'il s'apprêtait à lire ou à dispenser un enseignement. Le visage, empreint d'une grande sérénité, présente des traits fins et réguliers, surmonté du crâne rasé typique des prêtres et des érudits de l'époque. Autour du cou, on devine les contours d'un large collier ousekh, apportant une touche de dignité sacerdotale à l'ensemble. La patine sombre et brillante du bronze souligne la précision des détails, notamment au niveau des pieds et des mains.</p>
+    <p>L'importance de cette statuette réside dans le passage du statut d'homme exceptionnel (architecte de la pyramide à degrés de Djoser) à celui de dieu guérisseur, souvent assimilé par les Grecs à Asclépios. Ces objets étaient fréquemment offerts comme ex-voto dans les temples pour obtenir la guérison ou favoriser les études. La verticalité de la pose et la sobriété des ornements confèrent à cette œuvre une solennité qui invite au respect de la connaissance et de la sagesse ancestrale.</p>
+    <p><strong>Siècle :</strong> VIe – IVe siècle av. J.-C. (vers -450) | <strong>Civilisation :</strong> Égypte antique (Basse Époque) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_dieu_sobek_crococephale_couronne_hemhem_bronze_kom_ombo",
+    civId: "egypte",
+    periodId: "egypte_tardive",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "Basse Époque à Époque ptolémaïque (XXVIe – XXXe dynastie, vers -600 à -200 av. J.-C.)",
+    centuryDisplay: "VIe – IIIe s. av. J.-C.",
+    centuryNumeric: -400,
+    domain: "sculpture_statuaire",
+    artifactType: "Figurine votive / Ex-voto",
+    title: "Statuette du dieu crocodile Sobek-Rê à la couronne composite en bronze (Musée des crocodiles, Kôm Ombo)",
+    site: "Musée du Crocodile (Kôm Ombo)",
+    originSite: "Kôm Ombo (Haute-Égypte)",
+    locationType: "museum",
+    currentLocation: "Musée du Crocodile, Kôm Ombo",
+    category: "Figurine votive en bronze ciselé",
+    isHighlight: false,
+    chips: ["Basse Époque", "Sobek", "Crocodile", "Kôm Ombo", "Couronne Hemhem", "Bronze", "Sobek-Rê"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOjj8mo0Pw0slQK9thLbIWrpLYlpLaSJKbOf46H8M_KZY2JXM3-gZ8fDMUCnTITXmhEFeRsEtCpNta8EQDfAKCItZ6zjpBgvJuORApkjQhovZzObiGucs8ou8ErMn7acpWYMf-xIiue0jkoswrty3j0zA=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette statuette représente le dieu Sobek, divinité majeure du panthéon égyptien associée à la puissance du Nil et à la fertilité. Dans cette représentation anthropomorphe, le dieu arbore son aspect le plus célèbre : un corps d'homme vigoureux surmonté d'une tête de crocodile. Cette œuvre, probablement réalisée en bronze ou dans un alliage cuivreux, témoigne de la dévotion particulière dont il faisait l'objet, notamment dans la région de Kom Ombo où un temple double lui est partiellement dédié, partageant le sanctuaire avec le dieu Haroëris.</p>
+    <p>La divinité est coiffée d'une couronne élaborée, souvent identifiée comme une variante de l'Atef ou une couronne Hemhem stylisée, intégrant des plumes de faucon, un disque solaire et des cornes de bélier. Ce couvre-chef complexe souligne la nature solaire du dieu, parfois appelé Sobek-Rê, et son rôle protecteur envers le pharaon. Le travail de ciselure, visible malgré la patine sombre, révèle un grand soin apporté aux détails anatomiques et aux motifs ornementaux de la couronne, caractéristiques de la finesse des bronziers des époques tardives ou ptolémaïques.</p>
+    <p>Sobek est ici figuré dans une attitude de marche ou de maintien, le bras gauche légèrement avancé, pouvant autrefois tenir un sceptre Ouas ou un signe de vie Ânkh, aujourd'hui disparus. Ses yeux étirés et la mâchoire puissante du reptile confèrent à la pièce une expression de force redoutable, rappelant que Sobek était autant craint pour sa férocité que vénéré pour sa capacité à assurer l'abondance des récoltes par la crue. Cette statuette servait vraisemblablement d'ex-voto, déposé dans un temple par un fidèle cherchant à s'attirer les faveurs ou la protection du seigneur des eaux.</p>
+    <p><strong>Siècle :</strong> VIe – IIIe siècle av. J.-C. (vers -400) | <strong>Civilisation :</strong> Égypte antique (Basse Époque / Époque lagide) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_oiseau_ba_faucon_tete_humaine_gres_meroe_assouan",
+    civId: "egypte",
+    periodId: "egypte_tardive",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "Période méroïtique (vers -200 à +200 ap. J.-C. / Royaume de Koush)",
+    centuryDisplay: "IIe s. av. J.-C. – IIe s. ap. J.-C.",
+    centuryNumeric: 0,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire privée & portraits",
+    title: "Statue funéraire d'oiseau-Ba à tête humaine en grès (Période méroïtique, Musée de la Nubie, Assouan)",
+    site: "Musée de la Nubie (Assouan)",
+    originSite: "Méroé ou Basse-Nubie (Karanog)",
+    locationType: "museum",
+    currentLocation: "Musée de la Nubie, Assouan",
+    category: "Statuaire funéraire en grès",
+    isHighlight: false,
+    chips: ["Méroïtique", "Nubie", "Oiseau-Ba", "Âme-Ba", "Grès", "Méroé", "Musée de la Nubie"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczN_RQd_IWhu6x48RljMdJoZQeDAyIpNjcyIGNy-P5P9IdIDwPKmNq-P_qBownxhb8Tb5XDGmG0GZUHQW5dVppuqjlIKkJLaaj4mdrkWLT020Mu7_g5pmLwwKhhoReMyXxe74cRnj-jPLO90SUBm-dCbxw=w613-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette statuette en grès, conservée au Musée de la Nubie à Assouan, représente l'un des concepts les plus fascinants de la spiritualité égyptienne : l'oiseau-ba. Contrairement aux représentations habituelles de divinités qui possèdent un corps humain et une tête animale, le ba est figuré à l'inverse comme un faucon à tête humaine, symbolisant la manifestation de la personnalité et de l'essence individuelle du défunt. Cette forme hybride exprime la capacité de l'âme à conserver son identité humaine tout en bénéficiant de la liberté de mouvement d'un oiseau.</p>
+    <p>Dans la pensée funéraire, le ba est la composante mobile de l'être qui, après la mort, peut quitter la tombe durant la journée pour parcourir le monde des vivants ou s'élever vers le ciel. Cependant, il a l'obligation impérieuse de revenir chaque nuit se réunir avec la momie dans le caveau afin de régénérer l'énergie vitale du défunt. Cette statuette, souvent placée à l'extérieur de la sépulture ou sur une stèle, servait de point d'ancrage visuel pour ce retour indispensable, assurant ainsi la survie éternelle de l'individu.</p>
+    <p>Le style de cette pièce est caractéristique de la période méroïtique (environ 270 av. J.-C. – 350 apr. J.-C.), une époque où la culture nubienne réinterprète les codes égyptiens avec une esthétique propre. On observe ici un traitement plus massif et frontal du corps de l'oiseau, ainsi qu'un visage aux traits simplifiés mais expressifs. Contrairement aux exemplaires égyptiens plus anciens souvent en bois peint, les oiseux-ba nubiens sont fréquemment sculptés dans le grès, soulignant leur rôle de gardiens monumentaux placés à l'entrée des pyramides de Méroé ou de Gebel Barkal.</p>
+    <p>L'absence fréquente de membres inférieurs sur ces statues n'est pas toujours due à une dégradation, mais peut illustrer l'oiseau au repos, ses ailes repliées sur le corps dans une attitude de vigilance sereine. En tant qu'intermédiaire entre les mondes terrestre et divin, l'oiseau-ba reste l'un des symboles les plus poignants de l'espoir des anciens Égyptiens et Nubiens de triompher de la mort par la métamorphose et la liberté.</p>
+    <p><strong>Siècle :</strong> Ier siècle av. J.-C. (vers l'an 0) | <strong>Civilisation :</strong> Nubie méroïtique & Égypte tardive | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_roi_ptolemaique_nudite_heroique_marbre_alexandrie",
+    civId: "egypte",
+    periodId: "egypte_ptolemaique",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "Époque ptolémaïque (vers -100 av. J.-C. / dynastie lagide)",
+    centuryDisplay: "IIe – Ier s. av. J.-C.",
+    centuryNumeric: -100,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire royale & divine (ronde-bosse)",
+    title: "Torse et tête d'un roi ptolémaïque en nudité héroïque hellénistique en marbre (Musée National d'Alexandrie)",
+    site: "Musée National d'Alexandrie / Musée gréco-romain",
+    originSite: "Alexandrie",
+    locationType: "museum",
+    currentLocation: "Musée National d'Alexandrie",
+    category: "Statuaire royale en marbre",
+    isHighlight: false,
+    chips: ["Époque ptolémaïque", "Dynastie lagide", "Alexandrie", "Nudité héroïque", "Marbre", "Hellénistique"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPuL3-ktfLOsBGUktCrhjw3bgJywvuhfOu-oY79TyyEI8-gtNzVHs_gFAOrz2YLatanJlnlzx34X6bgycYJQQrzeonjewdtu8ZC2kZK0mZH7FjWriwngENs5TBV21G_uPDldFBxjz9WAtOiV9MnbG54dQ=w613-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette statue en marbre, datée d'environ 100 avant J.-C., est l'un des chefs-d'œuvre du Musée National d'Alexandrie. Elle illustre parfaitement le style « alexandrin », un mélange subtil entre l'héritage classique grec et les influences locales égyptiennes. Bien que l'identité précise du souverain reste débattue, l'œuvre est souvent associée à un roi de la fin de la période ptolémaïque, période marquée par un retour à un réalisme plus expressif dans le portrait royal.</p>
+    <p>Le souverain est représenté dans une nudité héroïque typiquement grecque, le corps athlétique et idéalement musclé. Le mouvement léger du torse et l'inclinaison de la tête vers le haut et le côté confèrent à la statue une dimension dynamique et presque divine. Ce type de pose, inspiré des modèles d'Alexandre le Grand, visait à souligner le charisme et la puissance spirituelle du monarque.</p>
+    <p>Le traitement du visage est particulièrement remarquable par ses traits individualisés. On y observe une chevelure bouclée travaillée avec souplesse, ainsi que des yeux autrefois peut-être incrustés, qui devaient donner au regard une intensité saisissante. Contrairement aux statues colossales en granit du musée qui adoptent les codes pharaoniques, ce marbre privilégie les codes esthétiques hellénistiques.</p>
+    <p>Malgré son état fragmentaire — les bras et la partie inférieure des jambes manquant — l'œuvre conserve une présence monumentale. Elle témoigne de la splendeur de la cour d'Alexandrie avant la conquête romaine et du rôle de la ville comme épicentre artistique où les traditions grecques s'adaptaient au contexte égyptien pour servir la propagande royale des Ptolémées.</p>
+    <p><strong>Siècle :</strong> IIe – Ier siècle av. J.-C. (-100) | <strong>Civilisation :</strong> Égypte antique (Époque ptolémaïque / Lagide) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_cleopatre_vii_coiffure_en_melon_calcaire_alexandrie",
+    civId: "egypte",
+    periodId: "egypte_ptolemaique",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "Époque ptolémaïque (vers -50 av. J.-C. / règne de Cléopâtre VII)",
+    centuryDisplay: "Ier s. av. J.-C.",
+    centuryNumeric: -50,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire royale & divine (ronde-bosse)",
+    title: "Portrait royal de Cléopâtre VII Philopator à la coiffure « en melon » en calcaire (Musée National d'Alexandrie)",
+    site: "Musée National d'Alexandrie / Musée gréco-romain",
+    originSite: "Alexandrie",
+    locationType: "museum",
+    currentLocation: "Musée National d'Alexandrie",
+    category: "Portrait en ronde-bosse en calcaire",
+    isHighlight: true,
+    chips: ["Époque ptolémaïque", "Cléopâtre VII", "Alexandrie", "Coiffure en melon", "Calcaire", "Portrait hellénistique"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPcRS-wS5gibNCSPj5tHyZSUtdYg1edGUeh2Dmyk8kbltpRcf1NpW79O7f4l0fgQXQucQ8jyf9Dvjf-v1_lGsCLCURiYM9JdiiCqHWMFMHgv4yQKCB_-4QxBEWQVRu_lffI5gC_Jcu4QHSxNJAF4s-4Jw=w613-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce portrait en calcaire, daté d'environ 50 avant J.-C., représente Cléopâtre VII Philopator, la dernière grande souveraine de la dynastie lagide. Contrairement aux représentations idéalisées de la Renaissance, ce buste conservé au Musée National d'Alexandrie témoigne du réalisme propre à la fin de l'époque ptolémaïque. La reine y est dépeinte avec des traits distinctifs que l'on retrouve sur les monnaies frappées à son effigie : un nez aquilin prononcé, un menton ferme et des yeux en amande qui soulignent son caractère déterminé.</p>
+    <p>La coiffure adoptée ici est la célèbre coiffure « en melon », très populaire chez les princesses hellénistiques, où les cheveux sont divisés en sections régulières rappelant les tranches d'un fruit, puis ramenés en un chignon à l'arrière. Bien que cette sculpture ne porte pas de diadème royal, les oreilles percées suggèrent qu'elle était autrefois ornée de bijoux précieux en métal, soulignant le statut de haut rang du sujet.</p>
+    <p>Sur le plan stylistique, l'œuvre est un carrefour culturel. Elle mélange la tradition du portrait grec, qui cherche à capturer l'individualité et l'intelligence du sujet, avec les codes de la royauté égyptienne. Ce visage, loin d'être une simple icône de beauté, servait avant tout d'outil politique pour affirmer la légitimité d'une souveraine macédonienne régnant sur le trône des pharaons dans une période de turbulences avec Rome.</p>
+    <p>L'utilisation du calcaire local, par opposition au marbre importé, ancre la statue dans le terroir alexandrin. Bien que le temps ait érodé la polychromie d'origine, la finesse de la sculpture permet encore de percevoir le « magnétisme » et la prestance qui, selon les sources antiques, faisaient le charme légendaire de la reine.</p>
+    <p><strong>Siècle :</strong> Ier siècle av. J.-C. (-50) | <strong>Civilisation :</strong> Égypte antique (Époque ptolémaïque / Lagide) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_reine_ptolemaique_isis_boucles_libyennes_granit_alexandrie",
+    civId: "egypte",
+    periodId: "egypte_ptolemaique",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "Époque ptolémaïque (vers -150 à -50 av. J.-C. / Arsinoé II ou Cléopâtre VII)",
+    centuryDisplay: "IIe – Ier s. av. J.-C.",
+    centuryNumeric: -100,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire royale & divine (ronde-bosse)",
+    title: "Statue colossale d'une reine ptolémaïque assimilée à Isis au nœud isiaque et boucles libyennes en granit (Musée National d'Alexandrie)",
+    site: "Musée National d'Alexandrie / Musée gréco-romain",
+    originSite: "Alexandrie (Palais royaux ou Baie d'Alexandrie)",
+    locationType: "museum",
+    currentLocation: "Musée National d'Alexandrie",
+    category: "Statuaire colossale en granit sombre",
+    isHighlight: false,
+    chips: ["Époque ptolémaïque", "Reine lagide", "Isis", "Nœud d'Isis", "Boucles libyennes", "Draperie mouillée", "Granit"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczN42rNp0Z9Ra6rtYMwHbiAiJW38Ym9DLZoQrsY9zDdAGSiVl07wqZmkkqLxBKa8xpeteaQ-Ytw2CJTXeVSezVPPpbHfch9qmIf_Ii1Mze-E5K3W1k8Ap_Z0Z5FUHPgWlHPY1W2ao15f4WGs1TlBR1cywA=w613-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette statue monumentale en granit sombre, conservée au Musée National d'Alexandrie, représente une reine de la dynastie des Ptolémées sous l'aspect de la déesse Isis. Datée de l'époque ptolémaïque, elle illustre la fusion religieuse et politique opérée par le pouvoir lagide, où la souveraine n'est plus seulement une régente humaine, mais l'incarnation vivante de la grande divinité égyptienne. Cette identification divine permettait de renforcer la légitimité du trône auprès de la population locale tout en s'inscrivant dans le prestige des cultes à mystères.</p>
+    <p>L'œuvre présente un mélange fascinant de codes stylistiques grecs et égyptiens. La reine est vêtue d'une robe de lin fin aux plis complexes, nouée sur la poitrine par le « nœud d'Isis », un symbole protecteur typique de la déesse. Sa chevelure est coiffée en « boucles libyennes », une série de nattes serrées et régulières qui retombent sur les épaules, caractéristiques de l'iconographie ptolémaïque. Sur son front, on distingue l'uraeus, le cobra royal, tandis que le sommet de sa tête porte les restes d'une couronne complexe qui devait autrefois supporter le disque solaire et les cornes de vache.</p>
+    <p>La posture de la statue respecte les traditions millénaires de l'art égyptien : le corps est droit, les bras sont plaqués le long du torse et la jambe gauche est légèrement avancée, symbolisant le mouvement et la vie. Cependant, le traitement du visage et le rendu des formes féminines sous le vêtement mouillé trahissent l'influence de la sculpture hellénistique. Cette dualité permettait à la statue d'être lue et comprise par les deux composantes de la société alexandrine : les Grecs y voyaient une figure de beauté classique, les Égyptiens y reconnaissaient leur reine-déesse.</p>
+    <p>Bien que l'identité exacte de la reine reste incertaine, beaucoup y voient une représentation d'Arsinoé II ou de Cléopâtre VII, deux souveraines qui ont particulièrement cultivé leur assimilation à Isis. La statue, retrouvée dans les eaux du port d'Alexandrie ou dans les ruines des palais royaux, témoigne de la richesse décorative des quartiers officiels de la cité antique. Elle demeure aujourd'hui l'un des exemples les plus aboutis de l'art syncrétique, où la puissance de la pierre d'Égypte rencontre l'élégance du trait macédonien.</p>
+    <p><strong>Siècle :</strong> IIe – Ier siècle av. J.-C. (vers -100) | <strong>Civilisation :</strong> Égypte antique (Époque ptolémaïque / Lagide) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_colosse_reine_isis_phare_alexandrie_granit_rose",
+    civId: "egypte",
+    periodId: "egypte_ptolemaique",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "Époque ptolémaïque (vers -250 av. J.-C. / règne de Ptolémée II)",
+    centuryDisplay: "IIIe s. av. J.-C.",
+    centuryNumeric: -250,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire royale & divine (ronde-bosse)",
+    title: "Colosse d'une reine ptolémaïque en Isis au Phare d'Alexandrie en granit rose (Musée National d'Alexandrie)",
+    site: "Parvis du Musée National d'Alexandrie / Citadelle de Qaitbay",
+    originSite: "Phare d'Alexandrie (Île de Pharos)",
+    locationType: "museum",
+    currentLocation: "Musée National d'Alexandrie (Fouilles sous-marines de Pharos)",
+    category: "Statuaire colossale en granit rose",
+    isHighlight: true,
+    chips: ["Époque ptolémaïque", "Phare d'Alexandrie", "Isis", "Granit rose", "Fouilles sous-marines", "Ptolémée II", "Sept Merveilles"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczN15QTOEhb1zx8Jyc6ihdKZZXJZ5p-09DKsCsXedN1Jj4pKGJeU_bPe0QSkZnSJeHI_YaJlqYp5s4CRCrlgoi-NHIL1_3JNVzIHo5cR8XX4GYCnKdQ5woEF6Bzvlsye8c-qLo-mCKePi2AqDBNe6fV8QA=w613-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette statue colossale en granit rose, s'élevant à l'origine à plus de sept mètres de haut, représente une reine ptolémaïque sous les traits de la déesse Isis. Découverte dans les eaux du port d'Alexandrie à proximité de la citadelle de Qaitbay, elle ornait autrefois l'entrée du célèbre Phare d'Alexandrie, l'une des Sept Merveilles du monde antique. Sa présence aux côtés d'une statue masculine colossale (identifiée comme un roi ptolémaïque en Hélios) symbolisait le couple royal veillant sur les marins et sur la prospérité de la cité.</p>
+    <p>L'œuvre est un exemple magistral du syncrétisme religieux et artistique de l'époque lagide. La reine est vêtue d'une robe de lin dont le « nœud d'Isis » sur la poitrine confirme l'identification divine, tandis que sur sa tête repose une couronne complexe composée du disque solaire entouré de cornes de vache et surmonté de plumes. Bien que la posture soit strictement égyptienne — debout, bras le long du corps et jambe gauche en avant — le rendu des volumes du corps sous le vêtement, avec l'effet dit de « draperie mouillée », trahit une influence grecque marquée.</p>
+    <p>Cette statue appartenait à la dynastie des Ptolémées (ou dynastie lagide) et date du IIIe siècle avant J.-C. Elle illustre la politique de divinisation des souverains qui, en s'assimilant à Isis et Osiris, s'assuraient la dévotion de leurs sujets grecs et égyptiens. Sortie des flots dans les années 1990 lors des campagnes de fouilles sous-marines menées par Jean-Yves Empereur, elle accueille aujourd'hui les visiteurs devant l'entrée du Musée National d'Alexandrie, rappelant la splendeur disparue de la capitale antique.</p>
+    <p><strong>Siècle :</strong> IIIe siècle av. J.-C. (-250) | <strong>Civilisation :</strong> Égypte antique (Époque ptolémaïque / Lagide) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_ex_voto_chats_boubasteion_kom_el_dikka_alexandrie",
+    civId: "egypte",
+    periodId: "egypte_ptolemaique",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "Époque ptolémaïque (vers -250 av. J.-C. / règne de Ptolémée III)",
+    centuryDisplay: "IIIe s. av. J.-C.",
+    centuryNumeric: -250,
+    domain: "sculpture_statuaire",
+    artifactType: "Figurine votive / Ex-voto",
+    title: "Ensemble d'ex-voto populaires de chats votifs de Bastet en calcaire et terre cuite (Boubastéion de Kôm el-Dikka, Alexandrie)",
+    site: "Musée gréco-romain d'Alexandrie",
+    originSite: "Boubastéion de Kôm el-Dikka (Alexandrie)",
+    locationType: "museum",
+    currentLocation: "Musée gréco-romain, Alexandrie",
+    category: "Ex-voto et figurines animales en terre cuite et calcaire",
+    isHighlight: false,
+    chips: ["Époque ptolémaïque", "Bastet", "Boubastéion", "Kôm el-Dikka", "Ex-voto de chats", "Terre cuite", "Alexandrie"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczO-JHN01-_O7GljK6ew_M7l4KR4PNtnAGqVzR2f1ucLdMJVEg-xcCKZoIqHVIto3V218RFuMITzh4ev7ECZ2QBY0hp6CZk1gRckwTn7D5HJ2ZeN67giRv06Z3Vx7bNWDX7jjaLaU280H8RdRWSlQSGnww=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ces statuettes en terre cuite et en calcaire représentent des chats dans une posture de repos caractéristique, assis ou couchés sur un socle plat. Bien que leur facture soit parfois modeste et répétitive, chaque pièce témoigne de la ferveur individuelle des pèlerins qui venaient chercher protection ou guérison auprès des divinités. La production en série suggère l'existence d'ateliers florissants situés à proximité directe des lieux de culte, répondant à une demande constante des visiteurs de passage.</p>
+    <p>Ces objets proviennent principalement du Boubastéion d'Alexandrie, un sanctuaire majeur dédié à la déesse Bastet situé sur la colline de Kôm el-Dikka. Contrairement à une idée reçue, Bastet n'était pas seulement une divinité de la protection domestique et de la maternité ; à Alexandrie, elle fusionne souvent avec des divinités grecques comme Artémis, renforçant son rôle de gardienne de la cité et des familles. La multitude de ces offrandes montre l'importance du sanctuaire comme centre de pèlerinage urbain.</p>
+    <p>Le rituel de l'offrande consistait à déposer ces effigies dans des fosses sacrées ou des galeries du temple pour pérenniser une prière. En offrant une représentation de l'animal sacré de la déesse, le fidèle s'assurait une connexion directe et durable avec le divin. Ces milliers de figurines retrouvées lors des fouilles constituent aujourd'hui une preuve archéologique majeure de la piété quotidienne et de la vitalité des cultes animaliers durant la période gréco-romaine en Égypte.</p>
+    <p><strong>Siècle :</strong> IIIe siècle av. J.-C. (-250) | <strong>Civilisation :</strong> Égypte antique (Époque ptolémaïque / Lagide) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_sphinx_temple_isidore_ras_el_souda_granit_alexandrie",
+    civId: "egypte",
+    periodId: "egypte_romaine",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "Époque romaine (IIe siècle ap. J.-C. / Règne des Antonins)",
+    centuryDisplay: "IIe s. ap. J.-C.",
+    centuryNumeric: 150,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire royale & divine (ronde-bosse)",
+    title: "Sphinx au némès du temple privé d'Isis d'Isidore à Ras el-Souda en granit noir (Musée National d'Alexandrie)",
+    site: "Musée National d'Alexandrie / Musée gréco-romain",
+    originSite: "Temple d'Isis de Ras el-Souda (Alexandrie)",
+    locationType: "museum",
+    currentLocation: "Musée National d'Alexandrie",
+    category: "Statuaire cultuelle en granit noir",
+    isHighlight: false,
+    chips: ["Égypte romaine", "Sphinx", "Ras el-Souda", "Isidore", "Temple d'Isis", "Granit noir", "Antonins"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1EjnwS0_C2N95iY8FGNrH7N7lHnEDPG57",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPDgY8n974l0FzNIdhhrTrVu4nl1yQyXfQt-9blbuGSsfgK6san_nIUJgMX5JSMkloI-aElSIj4qs0QeVGOj6e1Iejn7Mex2hVfq6dzZb1kRrxl5GLIOXAMQ8qY6Sx-kcrExBdXmZUaufUle_EBxQMf5g=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce sphinx en granit noir, découvert en 1936 dans le quartier de Ras el-Souda à Alexandrie, est une pièce majeure illustrant le syncrétisme religieux de l'époque romaine. À la différence des sphinx monumentaux de l'époque pharaonique, celui-ci faisait partie du mobilier cultuel d'un petit temple privé dédié à la déesse Isis. Construit au IIe siècle de notre ère par un riche citoyen romain nommé Isidore, ce temple a été érigé en signe de gratitude après que le donateur eut survécu à une chute de char.</p>
+    <p>Sur le plan iconographique, l'œuvre respecte les codes traditionnels égyptiens avec son corps de lion couché et sa tête humaine coiffée du némès. On observe distinctement l'uraeus, le cobra protecteur, sculpté sur le front pour souligner la dimension royale et divine de la figure. Cependant, la douceur des traits du visage et le léger sourire évoquent l'influence de la sculpture gréco-romaine, caractéristique des ateliers alexandrins de cette période.</p>
+    <p>Le monument, initialement situé à l'est de la ville, a été déplacé dans les années 1990 pour le protéger de la montée des eaux souterraines. Ses dimensions modestes et la finesse de son exécution en font un exemple précieux de la piété privée sous les Antonins, où les divinités égyptiennes étaient honorées selon un style artistique hybride.</p>
+    <p>Aujourd'hui exposé au Musée National d'Alexandrie, ce sphinx accompagnait autrefois quatre autres statues divines (Harpocrate, Hermanubis, Isis et Osiris) placées au fond de la cella du temple. Il demeure un témoignage fascinant de la manière dont les symboles de l'Égypte ancienne ont perduré et se sont adaptés sous la domination impériale romaine.</p>
+    <p><strong>Siècle :</strong> IIe siècle ap. J.-C. (150) | <strong>Civilisation :</strong> Égypte romaine & Antiquité tardive | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_taureau_apis_disque_solaire_granit_serapeum_hadrien_alexandrie",
+    civId: "egypte",
+    periodId: "egypte_romaine",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "Époque romaine (vers 117 – 138 ap. J.-C. / règne de l'empereur Hadrien)",
+    centuryDisplay: "IIe s. ap. J.-C.",
+    centuryNumeric: 130,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire royale & divine (ronde-bosse)",
+    title: "Le taureau sacré Apis au disque solaire et uræus du Sérapéum en granit noir (Règne d'Hadrien, Musée gréco-romain d'Alexandrie)",
+    site: "Musée gréco-romain d'Alexandrie",
+    originSite: "Sérapéum d'Alexandrie (Plateau de Kôm el-Chouqafa)",
+    locationType: "museum",
+    currentLocation: "Musée gréco-romain, Alexandrie",
+    category: "Statuaire monumentale en granit noir poli",
+    isHighlight: true,
+    chips: ["Égypte romaine", "Taureau Apis", "Sérapéum", "Alexandrie", "Hadrien", "Antonins", "Granit noir"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1EjnwS0_C2N95iY8FGNrH7N7lHnEDPG57",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP0LGDCKGLzIyFEApC7y1XWoQ8s5UmioTh1ryw0pB2qQFBRXlzFE8mp9E2Q_LXl3XeLFTik752CiykCcCbyAEvStharCXGMicNzNQoUnPbFNepMT8lPkoboMwDngcPn4j3BVVKHM_kuKE7QzWRFdMD5Ig=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette statue monumentale en granit noir, représentant le taureau Apis, est l'une des pièces les plus emblématiques découvertes sur le site du Sérapéum d'Alexandrie. Datée du IIe siècle de notre ère, elle a été érigée sous le règne de l'empereur romain Adrien, comme en témoigne une inscription sur le pilier de soutien situé sous le ventre de l'animal. Cette œuvre illustre la pérennité du culte des animaux sacrés en Égypte, réinterprété ici avec la grandeur et les moyens techniques de l'époque impériale romaine.</p>
+    <p>Le taureau est représenté debout, dans une posture de puissance calme, avançant légèrement la patte gauche. Entre ses cornes se trouve le disque solaire orné de l'uraeus, symbole de sa divinité et de son lien direct avec le dieu Rê. La sculpture se distingue par le poli exceptionnel de la pierre et le réalisme anatomique des muscles et de l'ossature, témoignant du savoir-faire des ateliers alexandrins qui savaient plier les matériaux les plus durs aux canons esthétiques du naturalisme gréco-romain.</p>
+    <p>Dans le complexe du Sérapéum, Apis n'était pas seulement une divinité égyptienne traditionnelle, mais il était aussi étroitement lié à Sérapis, le dieu protecteur d'Alexandrie qui fusionnait les traits d'Osiris et de Zeus. La présence de cette statue dans le sanctuaire souligne le rôle de médiateur du taureau sacré, garant de la fertilité et de la renaissance. Cette pièce est un témoignage précieux de la ferveur religieuse qui animait encore la métropole égyptienne sous la domination de Rome, bien après la fin des pharaons.</p>
+    <p>Cette œuvre appartient à l'époque romaine, sous la dynastie des Antonins (règne d'Adrien, 117-138 ap. J.-C.). Bien qu'elle représente une divinité égyptienne ancestrale, son exécution et sa dédicace impériale la placent chronologiquement longtemps après la fin de la dynastie ptolémaïque.</p>
+    <p><strong>Siècle :</strong> IIe siècle ap. J.-C. (vers 130) | <strong>Civilisation :</strong> Égypte romaine & Antiquité tardive | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_dieu_bes_protecteur_terre_cuite_moulee_le_mans",
+    civId: "egypte",
+    periodId: "egypte_romaine",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "Époque gréco-romaine (vers Ier s. av. J.-C. – IIe s. ap. J.-C.)",
+    centuryDisplay: "Ier s. av. – IIe s. ap. J.-C.",
+    centuryNumeric: 50,
+    domain: "sculpture_statuaire",
+    artifactType: "Figurine votive / Ex-voto",
+    title: "Figurine protectrice du dieu Bès léonin en terre cuite moulée (Musée de Tessé, Le Mans)",
+    site: "Musée de Tessé (Le Mans)",
+    originSite: "Égypte (Fayoum ou Alexandrie)",
+    locationType: "museum",
+    currentLocation: "Musée de Tessé, Le Mans",
+    category: "Figurine votive domestique en terre cuite moulée",
+    isHighlight: false,
+    chips: ["Époque gréco-romaine", "Bès", "Démon protecteur", "Foyer domestique", "Terre cuite", "Musée de Tessé"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1EjnwS0_C2N95iY8FGNrH7N7lHnEDPG57",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPzYmeyHyDHjUQQhNfcrQip_XlD9-iEYC3X9eKd171e6dx7rE9B5lLOwTjZsyTg8sGGvV2wnwyDh9E8-DLq7mIkmUFIwedoO9PzOhEwLa_XEfnXVzboiqoEeltY2FXkQ8oxRz1xdXGHQNqasr-7X6zu2w=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette figurine en terre cuite représente le dieu Bès, divinité protectrice du foyer, des femmes enceintes et des enfants, dont l'apparence grotesque est conçue pour effrayer les démons. Contrairement aux représentations égyptiennes plus anciennes, cette pièce de l'époque gréco-romaine montre une influence hellénistique marquée dans le modelé de la matière. Le dieu est figuré de face, dans une posture stable, arborant son visage léonin caractéristique avec une barbe fournie et une langue parfois tirée. Son aspect hybride, entre l'humain et le lion, est accentué par ses oreilles saillantes et ses sourcils broussailleux qui lui confèrent un air farouche mais protecteur.</p>
+    <p>Le corps de Bès est ici traité avec une certaine rondeur, mettant en avant son abdomen proéminent qui symbolise la fertilité et la protection de la vie. Ses bras sont positionnés de manière à renforcer sa stature de gardien, tandis qu'il porte souvent une coiffe de plumes, ici simplifiée par le travail de la terre cuite. La texture de l'objet laisse apparaître des traces de moulage, technique courante à cette époque pour produire ces statuettes populaires en grand nombre. Ces objets étaient placés dans les maisons ou déposés dans les sépultures pour assurer la sécurité spirituelle des occupants face aux dangers invisibles de la nuit.</p>
+    <p>L'évolution stylistique visible sur cette pièce témoigne de la fusion des croyances égyptiennes avec les canons esthétiques méditerranéens. Bès conserve ses attributs iconographiques traditionnels — sa petite taille, ses jambes arquées et son masque terrifiant — mais le rendu des volumes devient plus naturaliste. Cette continuité du culte de Bès sous la domination grecque puis romaine souligne l'immense popularité de ce dieu « familier » qui, loin des grands rituels officiels des temples, restait le compagnon indispensable de la vie quotidienne et de la sphère privée.</p>
+    <p><strong>Siècle :</strong> Ier siècle av. – IIe siècle ap. J.-C. (vers 50) | <strong>Civilisation :</strong> Égypte gréco-romaine | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+   {
     id: "sculpture_statuette_assise_psammetique_calcaire_saqqarah",
     civId: "egypte",
     periodId: "egypte_tardive",
