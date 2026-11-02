@@ -2,7 +2,133 @@
    REGISTRE COMPLET DES NOTICES D'ŒUVRES D'ART - VOLUME 2
    ========================================================================== */
 window.ART_OBJECTS = [
+  
+   {
+    id: "sculpture_babouin_hamadryas_adorant_soleil_ramesseum",
+    civId: "egypte",
+    periodId: "egypte_nouvel",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1260 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1260,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire royale & divine (ronde-bosse)",
+    title: "Babouin hamadryas adorant le soleil levant aux cartouches de Ramsès II (Ramesseum)",
+    site: "Ramesseum (Gourna, Thèbes)",
+    originSite: "Thèbes-Ouest",
+    locationType: "site",
+    currentLocation: "In situ (Ramesseum, Thèbes)",
+    category: "Ronde-bosse en grès",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Ramsès II", "Ramesseum", "Babouin hamadryas", "Thot", "Culte solaire", "Grès"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNSC_TwbgnMO5OV-Ffc8EwQBzP1NVC0dtl3J42GR5YBamR8HI2bbj1qqvnAQcVzEzTGx61Ufza9wDCNyiyqMhQECvA9A-BmxhNQYpAPjIIBu9ILn6CqcaqTeCWlFu52FNjds4z2IBtQzbTGJAS1aLWgEA=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette sculpture imposante en grès représente un babouin hamadryas dans une posture rituelle caractéristique de l’Égypte ancienne. L’animal est figuré assis, les mains levées dans un geste d'adoration dirigé vers le soleil levant. Cette iconographie traduit l'observation naturelle des babouins qui, à l'aube, poussent des cris et s'agitent, ce que les Égyptiens interprétaient comme un hommage sacré rendu à l’astre solaire lors de sa renaissance quotidienne.</p>
+    <p>L'œuvre provient du Ramesseum, le château de millions d'années édifié par Ramsès II sur la rive ouest de Thèbes. Ces statues de primates étaient originellement disposées en série, souvent à la base d'obélisques ou sur les corniches des temples, pour symboliser la transition entre les ténèbres et la lumière. Le traitement stylistique privilégie des formes massives et puissantes, où la crinière de l'animal est rendue par un réseau de lignes incisées régulières qui encadrent un visage aux traits anthropomorphes.</p>
+    <p>Sur la poitrine du babouin, on devine les restes d'un cartouche royal, marquant l'appropriation de l'objet par le pharaon et son lien direct avec les divinités solaires. Le babouin est ici l'hypostase du dieu Thot, patron des scribes et de la sagesse, mais il incarne également les « génies orientaux » qui accompagnent la barque de Rê. Malgré l'érosion du grès, la vigueur de la taille témoigne de la maîtrise des ateliers royaux de la XIXe dynastie, capables de transformer la pierre brute en un vecteur d'éternité théologique.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1260) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
   {
+    id: "sculpture_dromos_sphinx_criocephales_ramses_ii_karnak_01",
+    civId: "egypte",
+    periodId: "egypte_nouvel",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1260 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1260,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire royale & divine (ronde-bosse)",
+    title: "Dromos des sphinx criocéphales d'Amon-Rê abritant Ramsès II (Premier pylône de Karnak)",
+    site: "Complexe religieux de Karnak - Dromos occidental (Thèbes)",
+    originSite: "Thèbes",
+    locationType: "site",
+    currentLocation: "In situ (Parvis du premier pylône, Karnak)",
+    category: "Statuaire monumentale d'allée processionnelle en grès",
+    isHighlight: true,
+    chips: ["XIXe dynastie", "Ramsès II", "Karnak", "Sphinx criocéphale", "Amon-Rê", "Dromos", "Fête d'Opet"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczN9ar9X78seh_kAMWQUZiMBKR0F5OIvSWmcSrqrW-DImlDMmUENGc0cRl47tqgvmP-QNAJKbbZ2JOEg-1YVzKL7s7LHeYAMoqfgYjqpQaJiONGnQ_HknNKeShqFJRwBOv7h4w5BsnqMIPa0jcLMvYBKrQ=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ces statues monumentales sont des sphinx criocéphales, un terme dérivé du grec signifiant « à tête de bélier ». Contrairement au sphinx classique de Gizeh à visage humain, ceux-ci possèdent un corps de lion associé à la tête d'un bélier aux cornes recourbées, l'animal sacré du dieu Amon-Rê, maître des lieux. Cette hybridation symbolise la fusion de la puissance physique et dévastatrice du lion avec l'énergie vitale et fécondante du bélier, plaçant ainsi l'entrée du temple sous une protection divine absolue.</p>
+    <p>Les sphinx sont alignés de part et d'autre d'une voie processionnelle appelée dromos, qui mène au premier pylône du temple de Karnak. Entre les pattes avant de chaque créature se dresse une statuette osiriaque représentant le pharaon Ramsès II. Cette disposition iconographique place le souverain sous la protection directe d'Amon, soulignant son rôle de garant de l'ordre cosmique et sa piété envers la divinité thébaine qui lui assure un règne prospère et éternel.</p>
+    <p>Chaque socle de ces statues porte le cartouche de Ramsès II, bien que l'allée ait été réaménagée et complétée au fil des siècles par d'autres souverains. À l'origine, ces dromos servaient de cadre aux grandes cérémonies religieuses, notamment la Belle Fête d'Opet, lors de laquelle les barques sacrées des dieux circulaient entre les temples de Karnak et de Louxor. Aujourd'hui, ces gardiens de pierre témoignent de la grandeur passée de Thèbes et de l'étroite relation qui unissait le pharaon à son père divin, Amon.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1260) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_dromos_sphinx_criocephales_perspective_karnak_02",
+    civId: "egypte",
+    periodId: "egypte_nouvel",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1260 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1260,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire royale & divine (ronde-bosse)",
+    title: "Perspective de la voie processionnelle aux sphinx criocéphales (Dromos de Karnak)",
+    site: "Complexe religieux de Karnak - Dromos (Thèbes)",
+    originSite: "Thèbes",
+    locationType: "site",
+    currentLocation: "In situ (Dromos du temple d'Amon, Karnak)",
+    category: "Statuaire monumentale d'allée processionnelle en grès",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Ramsès II", "Karnak", "Sphinx criocéphale", "Voie processionnelle", "Dromos", "Maât"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOJLUISCWkWzgbEP-fCoQVmzGu_xJeRBevEbENDVBaAjWmVxQKhTY-iRx97jx08oQ2rCRO2i_NfmedUrLQ1j0WxojEKGF28S9bzYXdCHvcARxMEiLm0d4kPQVzgU0zSfL_UsqGSJjx9uBCkSpm6sA1paA=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ces alignements de statues bordent ce que les Égyptiens nommaient un dromos, une allée processionnelle reliant les différents temples du complexe de Karnak. Les spécimens visibles ici sont des sphinx criocéphales, arborant un corps de lion associé à une tête de bélier, animal sacré du dieu Amon-Rê. Cette iconographie hybride symbolisait la fusion de la force souveraine du lion et de la puissance créatrice et fécondante du bélier, plaçant le chemin sous une protection divine absolue.</p>
+    <p>Entre les pattes de chaque bélier se dresse une petite figure royale en position osiriaque, représentant le pharaon Ramsès II. Cette mise en scène souligne le rôle de médiateur du roi : il est à la fois le protégé de la divinité et le garant de l'ordre cosmique (la Maât) sur terre. Les cartouches gravés sur les socles de grès confirment l'appropriation et l'embellissement de ces voies par le grand souverain de la XIXe dynastie, bien que certaines sections aient été initiées ou modifiées par d'autres pharaons comme Toutânkhamon ou Nectanébo Ier.</p>
+    <p>Ces allées jouaient un rôle central lors de la Belle Fête d'Opet, la cérémonie religieuse la plus fastueuse de Thèbes. Durant ces festivités, les barques sacrées contenant les effigies d'Amon, de Mout et de Khonsou étaient transportées en procession le long de ces dromos, devant une foule de prêtres, de musiciens et de fidèles. Aujourd'hui, ces rangées de sphinx, dont certains ont été récemment restaurés et dégagés du sable, témoignent de l'immensité du « Harem méridional » et de la piété des pharaons du Nouvel Empire.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1260) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_statue_cube_naophore_osiris_fin_xixe_dynastie",
+    civId: "egypte",
+    periodId: "egypte_nouvel",
+    civName: "Égypte : Nouvel Empire",
+    century: "Fin de la XIXe dynastie (vers -1200 av. J.-C. / Séthi II – Taousert)",
+    centuryDisplay: "fin XIIIe s. av. J.-C.",
+    centuryNumeric: -1200,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire privée & portraits",
+    title: "Statue-cube naophore d'un dignitaire tenant le naos d'Osiris (Fin de la XIXe dynastie)",
+    site: "Temple ou nécropole thébaine (Thèbes)",
+    originSite: "Thèbes",
+    locationType: "museum",
+    currentLocation: "Collection muséale",
+    category: "Statue-cube en pierre dure",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Statue-cube", "Naophore", "Osiris", "Couronne Atef", "Séthi II", "Taousert", "Formule du Ka"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNL3gqGGWHqh_iyhC1eTWQWfGlQiC9sH8hczYFlO2GJ4kZ0GGewHWicezToKN5jUsCKPHH6bUJYRg6IKQyBRImLHr9Qfz0OldfUUmdzVgfd9GgCuOTHmbmv5l05QIdSzKmX0djVUZzVoSd8fW0oClqRZg=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette statue-cube naophore est un témoignage raffiné de la statuaire privée de la fin du Nouvel Empire. La posture compacte du défunt, accroupi les genoux contre la poitrine, est une forme apparue dès le Moyen Empire pour symboliser la protection éternelle tout en offrant de larges surfaces pour les inscriptions dédicatoires. L'aspect naophore de l'œuvre se manifeste par le petit sanctuaire que le personnage tient entre ses jambes, un geste de piété profonde plaçant le propriétaire sous la protection directe de la divinité. À l'intérieur de ce naos, on distingue une figure momiforme portant la couronne Atef, représentant le dieu Osiris, maître de l'au-delà et de la régénération.</p>
+    <p>Le traitement de la tête est caractéristique de l'élégance ramesside, avec une perruque « en enveloppe » aux mèches frisées très travaillées qui couvre les oreilles et retombe sur les épaules. Les colonnes de hiéroglyphes gravées sur le bloc constituent des formules d'offrandes destinées à nourrir l'énergie vitale, le « ka », du défunt pour l'éternité.</p>
+    <p>Réalisée durant la période de transition entre les règnes de Séthi II et de la reine Taousert, cette pièce illustre la persistance d'un savoir-faire technique exceptionnel dans les ateliers royaux malgré l'instabilité politique de la fin de la XIXe dynastie.</p>
+    <p><strong>Siècle :</strong> Fin du XIIIe siècle av. J.-C. (-1200) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_statue_cube_naophore_thot_babouin_abydos_ramses_ii",
+    civId: "egypte",
+    periodId: "egypte_nouvel",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1250 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1250,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire privée & portraits",
+    title: "Statue-cube naophore d'un haut dignitaire au naos de Thot babouin lunaire (Abydos)",
+    site: "Sanctuaire d'Osiris (Abydos)",
+    originSite: "Abydos",
+    locationType: "museum",
+    currentLocation: "Collection muséale",
+    category: "Statue-cube en pierre sombre",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Ramsès II", "Statue-cube", "Naophore", "Thot", "Babouin lunaire", "Abydos", "Appel aux vivants"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNQQkfHsVOnvHLR66VorzL1t1IZ-Nj4qjje5nBJo-kvoql_FwPx6zJsuKzakbmHX3lpmylU_3ob2tZjAlpKOosq1tTER2CpJ4M9V2qZ_ua0JA7oHB6qn-bEJ2Rf9HLhOsV9VxfL6WICf-42ZHOT0kRR5w=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette statue-cube naophore, sculptée dans une pierre sombre, représente un haut dignitaire du règne de Ramsès II. Le personnage est figuré dans la posture traditionnelle du bloc, accroupi et enveloppé dans un manteau dont ne ressortent que la tête et les bras croisés. Cette forme géométrique n'est pas seulement un choix esthétique, mais une structure symbolisant la force et l'éternité, tout en maximisant la surface disponible pour la gravure des textes sacrés.</p>
+    <p>L'aspect naophore est ici particulièrement explicite : le défunt tient devant lui un naos imposant qui contient une représentation du dieu Thot sous sa forme de babouin, surmonté du disque lunaire. La présence de Thot, dieu de l'écriture et de la sagesse, suggère que le propriétaire de la statue occupait probablement une fonction de scribe ou d'administrateur de haut rang. La provenance d'Abydos, ville sainte d'Osiris, renforce la dimension votive de l'objet, destiné à bénéficier des prières et des offrandes dans l'un des centres spirituels les plus importants d'Égypte.</p>
+    <p>Le visage est encadré par une perruque striée courte, caractéristique de l'art ramesside, et présente des traits doux avec un léger sourire, reflétant l'idéal de sérénité du Nouvel Empire. Les inscriptions hiéroglyphiques qui recouvrent le pourtour du naos et les côtés du bloc sont des formules de « l'appel aux vivants », demandant aux passants et aux prêtres de réciter le nom du défunt pour assurer sa survie dans l'au-delà.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1250) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+   {
     id: "botticelli_sandro_vierge_enfant_ange_guirlande_1467_ajaccio",
     artistId: "botticelli",
     artist: "Botticelli Sandro",
