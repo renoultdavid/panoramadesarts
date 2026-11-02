@@ -1271,66 +1271,68 @@ const TAXONOMY_CIVILISATIONS = {
 
 // 2. Référentiel des domaines techniques et typologies d'artefacts
 const TAXONOMY_DOMAINS = {
+  "funeraire": {
+    label: "Arts funéraires & Momification",
+    types: [
+      "Chambre funéraire / Hypogée", "Coffre & Vases canopes", "Fausse porte",
+      "Figurine funéraire / Ouchebti", "Larnax",
+      "Maquette funéraire (barque, atelier, serviteur)", "Masque funéraire & Cartonnage",
+      "Monument / Tombeau rupestre", "Papyrus funéraire / Livre des Morts",
+      "Portrait du Fayoum", "Pyramidion", "Sarcophage & Momie animale",
+      "Sarcophage humain (cuve, bois, pierre)", "Stèle", "Table d'offrandes"
+    ]
+  },
   "ceramique": {
     label: "Céramique, Terres cuites & Vases",
     types: [
-      "Plat", "Alabatre", "Vase","Amphore", "Cratère", "Hydrie", "Kylix / Coupe", "Lécythe", "Oenochoé",
-      "Rhyton", "Kernos", "Pithos / Jarre", "Vase plastique / Zoomorphe",
-      "Vase balustre", "Lampe à huile", "Plat & Céramique fine", "Antéfixe / Plaque architecturale"
-    ]
-  },
-  "sculpture_statuaire": {
-    label: "Sculpture & Statuaire",
-    types: [
-      "Statuaire royale & divine (ronde-bosse)", "Statuaire privée & portraits",
-      "Figurine votive / Ex-voto", "Bas-relief & Relief en creux",
-      "Décor architectural (fronton, frise, métope, chapiteau)",
-      "Frise en briques émaillées", "Monolithe / Stèle sculptée",
-      "Sculpture monumentale extérieure (fontaine, calvaire, moaï)"
+      "Alabatre", "Amphore", "Antéfixe / Plaque architecturale", "Cratère",
+      "Hydrie", "Kernos", "Kylix / Coupe", "Lampe à huile", "Lécythe",
+      "Oenochoé", "Pithos / Jarre", "Plat", "Plat & Céramique fine",
+      "Rhyton", "Vase", "Vase balustre", "Vase plastique / Zoomorphe"
     ]
   },
   "espace_sacre": {
     label: "Espace sacré, Architecture & Décor religieux",
     types: [
-      "Nef d'église / cathédrale", "Plafond & Voûte peinte / astronomique",
-      "Cloître", "Portail & Tympan d'église", "Retable & Chaire",
-      "Vitrail", "Enclos sacré / Temple"
-    ]
-  },
-  "funeraire": {
-    label: "Arts funéraires & Momification",
-    types: [
-      "Sarcophage humain (cuve, bois, pierre)", "Sarcophage & Momie animale",
-      "Masque funéraire & Cartonnage", "stèle", "Portrait du Fayoum",
-      "Coffre & Vases canopes", "Larnax", "Figurine funéraire / Ouchebti",
-      "Chambre funéraire / Hypogée", "Fausse porte", "Monument / Tombeau rupestre",
-      "Maquette funéraire (barque, atelier, serviteur)", "Papyrus funéraire / Livre des Morts",
-      "Table d'offrandes", "Pyramidion"
-    ]
-  },
-  "peinture_mosaique": {
-    label: "Peinture murale, Tableaux & Mosaïque",
-    types: [
-      "Peinture murale / Fresque", "Peinture pariétale rupestre",
-      "Peinture sur panneau de bois", "Peinture sur toile (chevalet)",
-      "Mosaïque de pavement / murale"
+      "Cloître", "Enclos sacré / Temple", "Nef d'église / cathédrale",
+      "Plafond & Voûte peinte / astronomique", "Portail & Tympan d'église",
+      "Retable & Chaire", "Vitrail"
     ]
   },
   "parures_metaux": {
     label: "Orfèvrerie, Armes & Métallurgie",
     types: [
-      "Parure en or / Argent / Bronze", "Torque & Bracelet",
-      "Armement d'apparat (épée, poignard, casque)",
-      "Dépôt métallurgique & Haches", "Numismatique (monnaie)", "Glyptique (sceau-cylindre, intaille)"
+      "Armement d'apparat (épée, poignard, casque)", "Dépôt métallurgique & Haches",
+      "Glyptique (sceau-cylindre, intaille)", "Numismatique (monnaie)",
+      "Parure en or / Argent / Bronze", "Torque & Bracelet"
+    ]
+  },
+  "peinture_mosaique": {
+    label: "Peinture murale, Tableaux & Mosaïque",
+    types: [
+      "Mosaïque de pavement / murale", "Peinture murale / Fresque",
+      "Peinture pariétale rupestre", "Peinture sur panneau de bois",
+      "Peinture sur toile (chevalet)"
+    ]
+  },
+  "sculpture_statuaire": {
+    label: "Sculpture & Statuaire",
+    types: [
+      "Bas-relief & Relief en creux",
+      "Décor architectural (fronton, frise, métope, chapiteau)",
+      "Figurine votive / Ex-voto", "Frise en briques émaillées",
+      "Monolithe / Stèle sculptée",
+      "Sculpture monumentale extérieure (fontaine, calvaire, moaï)",
+      "Statuaire privée & portraits", "Statuaire royale & divine (ronde-bosse)"
     ]
   },
   "vie_quotidienne": {
     label: "Vie quotidienne, Sciences, Usages & Écriture",
     types: [
-      "Tablette cunéiforme / Document écrit", "Stèle administrative / Décret",
-      "Mobilier domestique & Apparat", "Cosmétique, Toilette & Beauté",
-      "Sciences & Instruments (astrolabe, mesure)", "Verrerie profane",
-      "Jeux, Théâtre & Musique"
+      "Cosmétique, Toilette & Beauté", "Jeux, Théâtre & Musique",
+      "Mobilier domestique & Apparat", "Sciences & Instruments (astrolabe, mesure)",
+      "Stèle administrative / Décret", "Tablette cunéiforme / Document écrit",
+      "Verrerie profane"
     ]
   }
 };
@@ -1374,27 +1376,29 @@ function initSearchEngine() {
     });
   }
 
-  // 1. Remplissage des menus mères (Civilisations & Domaines)
-
-  // 1. Remplissage des menus mères (Civilisations & Domaines)
+  // 1. Remplissage des menus mères (Civilisations & Domaines) — triés par ordre alphabétique
   if (filterCiv) {
     filterCiv.innerHTML = '<option value="all">Toutes les civilisations</option>';
-    Object.keys(TAXONOMY_CIVILISATIONS).forEach(k => {
-      const opt = document.createElement('option');
-      opt.value = k;
-      opt.textContent = TAXONOMY_CIVILISATIONS[k].name;
-      filterCiv.appendChild(opt);
-    });
+    Object.keys(TAXONOMY_CIVILISATIONS)
+      .sort((a, b) => TAXONOMY_CIVILISATIONS[a].name.localeCompare(TAXONOMY_CIVILISATIONS[b].name, 'fr', { sensitivity: 'base' }))
+      .forEach(k => {
+        const opt = document.createElement('option');
+        opt.value = k;
+        opt.textContent = TAXONOMY_CIVILISATIONS[k].name;
+        filterCiv.appendChild(opt);
+      });
   }
 
   if (filterDomain) {
     filterDomain.innerHTML = '<option value="all">Tous les domaines</option>';
-    Object.keys(TAXONOMY_DOMAINS).forEach(k => {
-      const opt = document.createElement('option');
-      opt.value = k;
-      opt.textContent = TAXONOMY_DOMAINS[k].label;
-      filterDomain.appendChild(opt);
-    });
+    Object.keys(TAXONOMY_DOMAINS)
+      .sort((a, b) => TAXONOMY_DOMAINS[a].label.localeCompare(TAXONOMY_DOMAINS[b].label, 'fr', { sensitivity: 'base' }))
+      .forEach(k => {
+        const opt = document.createElement('option');
+        opt.value = k;
+        opt.textContent = TAXONOMY_DOMAINS[k].label;
+        filterDomain.appendChild(opt);
+      });
   }
 
   // 2. Cascade : Civilisation -> Périodes autorisées
@@ -1404,14 +1408,16 @@ function initSearchEngine() {
     filterPeriod.innerHTML = '<option value="all">Toutes les périodes</option>';
 
     if (selectedCiv === 'all') {
-      Object.keys(TAXONOMY_CIVILISATIONS).forEach(ck => {
-        TAXONOMY_CIVILISATIONS[ck].periods.forEach(p => {
-          const opt = document.createElement('option');
-          opt.value = p.id;
-          opt.textContent = `${TAXONOMY_CIVILISATIONS[ck].name} : ${p.label}`;
-          filterPeriod.appendChild(opt);
+      Object.keys(TAXONOMY_CIVILISATIONS)
+        .sort((a, b) => TAXONOMY_CIVILISATIONS[a].name.localeCompare(TAXONOMY_CIVILISATIONS[b].name, 'fr', { sensitivity: 'base' }))
+        .forEach(ck => {
+          TAXONOMY_CIVILISATIONS[ck].periods.forEach(p => {
+            const opt = document.createElement('option');
+            opt.value = p.id;
+            opt.textContent = `${TAXONOMY_CIVILISATIONS[ck].name} : ${p.label}`;
+            filterPeriod.appendChild(opt);
+          });
         });
-      });
     } else if (TAXONOMY_CIVILISATIONS[selectedCiv]) {
       TAXONOMY_CIVILISATIONS[selectedCiv].periods.forEach(p => {
         const opt = document.createElement('option');
@@ -1422,7 +1428,7 @@ function initSearchEngine() {
     }
   }
 
-  // 3. Cascade : Domaine -> Typologies autorisées
+  // 3. Cascade : Domaine -> Typologies autorisées (toujours triées par ordre alphabétique A-Z)
   function updateTypeDropdown() {
     if (!filterType) return;
     const selectedDom = filterDomain ? filterDomain.value : 'all';
@@ -1431,19 +1437,24 @@ function initSearchEngine() {
     if (selectedDom === 'all') {
       const allTypes = new Set();
       Object.values(TAXONOMY_DOMAINS).forEach(d => d.types.forEach(t => allTypes.add(t)));
-      Array.from(allTypes).sort((a,b) => a.localeCompare(b, 'fr')).forEach(t => {
-        const opt = document.createElement('option');
-        opt.value = t;
-        opt.textContent = t;
-        filterType.appendChild(opt);
-      });
+      Array.from(allTypes)
+        .sort((a, b) => a.localeCompare(b, 'fr', { sensitivity: 'base' }))
+        .forEach(t => {
+          const opt = document.createElement('option');
+          opt.value = t;
+          opt.textContent = t.charAt(0).toUpperCase() + t.slice(1);
+          filterType.appendChild(opt);
+        });
     } else if (TAXONOMY_DOMAINS[selectedDom]) {
-      TAXONOMY_DOMAINS[selectedDom].types.forEach(t => {
-        const opt = document.createElement('option');
-        opt.value = t;
-        opt.textContent = t;
-        filterType.appendChild(opt);
-      });
+      TAXONOMY_DOMAINS[selectedDom].types
+        .slice()
+        .sort((a, b) => a.localeCompare(b, 'fr', { sensitivity: 'base' }))
+        .forEach(t => {
+          const opt = document.createElement('option');
+          opt.value = t;
+          opt.textContent = t.charAt(0).toUpperCase() + t.slice(1);
+          filterType.appendChild(opt);
+        });
     }
   }
 
@@ -2133,7 +2144,10 @@ function renderSearchGallery() {
       const aType = (item.artifactType || '').toLowerCase();
       const cat = (item.category || '').toLowerCase();
       const tit = (item.title || '').toLowerCase();
-      if (!aType.includes(target) && !cat.includes(target) && !tit.includes(target)) return false;
+      const matchDirect = aType.includes(target) || cat.includes(target) || tit.includes(target);
+      const matchAlab = (target === 'alabatre' || target === 'alabastre') &&
+        (aType.includes('alabatre') || aType.includes('alabastre') || tit.includes('alabastre') || tit.includes('alabastron'));
+      if (!matchDirect && !matchAlab) return false;
     }
 
     // 5. Recherche libre (artiste, lieu, matière, titre)
