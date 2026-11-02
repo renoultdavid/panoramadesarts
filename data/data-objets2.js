@@ -155,7 +155,7 @@ window.ART_OBJECTS = [
     <p>Sous ce collier, le programme iconographique se déploie en registres horizontaux et verticaux d'une grande finesse : un scarabée ailé, symbole du dieu Khépri et de la renaissance solaire, déploie ses ailes protectrices sur le haut du buste ; au centre du tablier, une scène complexe montre le défunt devant des divinités assises, probablement les juges du tribunal d'Osiris, encadrée par des génies protecteurs ailés ; la partie inférieure du couvercle est rythmée par des colonnes de hiéroglyphes soigneusement tracés, qui reprennent des formules liturgiques destinées à protéger le corps et à garantir l'accès aux champs d'Ialou.</p>
     <p>L'arrière-plan de la cuve, que l'on devine sur la gauche, présente également un décor intérieur soigné. On y retrouve des figures de divinités et des yeux Oudjat, multipliant les couches de protection magique autour de la momie. La vivacité des couleurs, notamment les rouges, les bleus et les jaunes, souligne la qualité des pigments utilisés et l'importance sociale du propriétaire de ce monument funéraire.</p>
     <p><strong>Siècle :</strong> VIe siècle av. J.-C. (vers -550) | <strong>Civilisation :</strong> Égypte antique (Basse Époque) | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
-  }
+  },
    {
     id: "funeraire_enveloppe_momie_or_psousennes_ier_tanis_caire",
     civId: "egypte",
