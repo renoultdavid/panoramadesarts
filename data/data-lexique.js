@@ -1390,5 +1390,41 @@ window.ART_GLOSSARY = [
     def: "Idéal éthique et aristocratique de la Grèce classique associant harmonieusement l'excellence physique (beauté, vigueur sportive) et la vertu morale (courage, tempérance, sagesse).",
     patterns: ["kalokagathia", "kalos kagathos"]
   }
+,
+  {
+    term: "Coupe à yeux",
+    etymology: "Traduction du grec omphálos / ophtalmoí sur la céramique attique",
+    category: "Céramique attique de banquet",
+    def: "Kylix (coupe à boire) dont la vasque extérieure est peinte de deux grands yeux stylisés apotropaïques (prophylactiques). Lorsque le buveur lève la coupe pour boire au symposion, elle agit comme un masque protecteur détournant le mauvais sort et fascinant l'assistance.",
+    patterns: ["coupe a yeux", "coupe à yeux", "yeux prophylactiques", "yeux apotropaiques", "yeux apotropaïques"]
+  },
+  {
+    term: "Céramique de Canosa",
+    etymology: "De Canusium (Canosa di Puglia), en Italie du Sud",
+    category: "Céramique hellénistique d'Apulie",
+    def: "Production funéraire d'époque hellénistique (IVe–IIIe s. av. J.-C.) caractérisée par une exubérance baroque : grands vases (askoi, cratères) enrichis de statuettes en ronde-bosse (pleureuses de Tanagra, sphinges, chevaux) et rehaussés d'une vive polychromie à froid sur engobe blanc.",
+    patterns: ["canosa", "vase de canosa", "ceramique de canosa", "céramique de canosa"]
+  },
+  {
+    term: "Assiette à poissons",
+    etymology: "Terme descriptif archéologique (pinax halieutique)",
+    category: "Vaisselle de banquet grecque & italiote",
+    def: "Plat circulaire sur pied au bord légèrement tombant, creusé en son centre d'une cupule destinée à recueillir la saumure ou le jus des mets marins. Caractéristique des ateliers de Campanie et de Paestum, où les poissons (dorades, raies torpilles) sont représentés avec un remarquable souci d'observation ichtyologique.",
+    patterns: ["assiette a poissons", "assiette à poissons", "assiettes a poissons", "assiettes à poissons"]
+  },
+  {
+    term: "Coupe de l'oiseleur",
+    etymology: "Chef-d'œuvre éponyme du musée du Louvre",
+    category: "Céramique ionienne archaïque",
+    def: "Célèbre coupe à figures noires d'origine ionienne (vers -550 av. J.-C.) représentant un homme nu grimpant dans les branches sinueuses d'un arbre luxuriant pour capturer des oiseaux, témoignage de la poésie naturaliste et libre de l'Ionie archaïque.",
+    patterns: ["coupe de l'oiseleur", "oiseleur"]
+  },
+  {
+    term: "Calice de Chios",
+    etymology: "De l'île de Chios en mer Égée",
+    category: "Céramique de Grèce de l'Est",
+    def: "Vase à boire d'un raffinement extrême aux parois de terre cuite très fines, couvertes d'un engobe blanc laiteux supportant un décor peint polychrome d'animaux orientalisants, exporté dans tout le bassin égéen et à Naucratis.",
+    patterns: ["calice de chios", "chios"]
+  }
 ];
 
