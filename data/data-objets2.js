@@ -4,6 +4,159 @@
 window.ART_OBJECTS = [
   
    {
+    id: "funeraire_cercueil_argent_massif_psousennes_ier_tanis_caire",
+    civId: "egypte",
+    periodId: "egypte_tardive",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "XXIe dynastie (vers -1000 av. J.-C. / règne de Psousennès Ier)",
+    centuryDisplay: "Xe s. av. J.-C.",
+    centuryNumeric: -1000,
+    domain: "funeraire",
+    artifactType: "Sarcophage humain (cuve, bois, pierre)",
+    title: "Cercueil anthropomorphe royal en argent massif de Psousennès Ier (Tanis, Musée égyptien du Caire)",
+    site: "Musée égyptien du Caire",
+    originSite: "Nécropole royale de Tanis (Tombe NRT III, Delta du Nil)",
+    locationType: "museum",
+    currentLocation: "Musée égyptien du Caire (Trésor de Tanis, JE 85911)",
+    category: "Cercueil royal en argent massif ciselé",
+    isHighlight: true,
+    chips: ["XXIe dynastie", "Psousennès Ier", "Tanis", "Argent massif", "Pharaon d'argent", "Décor rishi", "Musée du Caire"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNIojycdq13Nvb7vhsO4b30TKqJtmkKsrCis1vM4lylvpGUMc-qkK83WM49nVbEtzaVEcDsT_m-0VUDB11HiyQYfm2iLMxh_AT7O81KZAYnHrufQuwaVnEJeOrNkRJB3iJ66cpyEhLhmtIaj9VG93mZmg=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce cercueil anthropomorphe, chef-d'œuvre absolu de l'orfèvrerie de la XXIe dynastie (vers 1039-991 av. J.-C.), constitue la pièce la plus singulière du trésor de Psousennès Ier. Entièrement réalisé en argent massif, il est à l'origine du surnom de « Pharaon d'Argent » donné au souverain par les archéologues. À l'époque, l'argent était une denrée extrêmement rare en Égypte, car il devait être importé, ce qui lui conférait une valeur supérieure à celle de l'or. Sa découverte par Pierre Montet en 1940 a révélé un état de conservation exceptionnel malgré le climat humide de Tanis qui avait pourtant désintégré la momie royale.</p>
+    <p>Le souverain est représenté sous une forme osirienne, les bras croisés sur la poitrine tenant les insignes de la royauté : le crochet héka et le fléau nekhekh. Le visage présente des traits d'une grande finesse, soulignés par des yeux incrustés et un uræus frontal, tandis qu'un bandeau d'or enserre le front pour marquer la limite du némès. Le corps du cercueil est entièrement recouvert d'un décor ciselé imitant le plumage d'un oiseau, symbolisant la protection de la déesse Mout ou d'Isis qui enveloppe le défunt de ses ailes pour assurer sa renaissance.</p>
+    <p>L'utilisation massive de l'argent pour la couche protectrice la plus proche du corps du roi revêt une dimension théologique profonde. Si l'or était considéré comme la chair des dieux, l'argent était associé à leurs os et à la lumière lunaire. En reposant dans ce réceptacle, Psousennès Ier s'assurait une transformation spirituelle complète, devenant un être divin dont le corps était composé de métaux inaltérables. La maîtrise technique nécessaire pour marteler et assembler d'aussi grandes feuilles d'argent massif témoigne de la persistance d'un savoir-faire de haut vol à la cour de Tanis.</p>
+    <p>Aujourd'hui exposé au Musée égyptien du Caire, ce cercueil reste l'un des rares exemplaires royaux de ce type à nous être parvenu. Il illustre parfaitement la stratégie de survie des pharaons de la Troisième Période Intermédiaire : bien que le pays soit politiquement fragmenté, la richesse accumulée à Tanis permettait de créer des objets funéraires d'une qualité technique rivalisant avec ceux du Nouvel Empire. Ce vestige d'argent pur demeure le témoin silencieux de la puissance d'un roi qui, durant cinquante ans, a maintenu la splendeur des traditions pharaoniques dans le Nord de l'Égypte.</p>
+    <p><strong>Siècle :</strong> Xe siècle av. J.-C. (-1000) | <strong>Civilisation :</strong> Égypte antique (Troisième Période intermédiaire / Basse Époque) | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "funeraire_masque_or_repousse_amenemope_tanis_caire",
+    civId: "egypte",
+    periodId: "egypte_tardive",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "XXIe dynastie (vers -990 av. J.-C. / règne d'Amenemopé)",
+    centuryDisplay: "Xe s. av. J.-C.",
+    centuryNumeric: -990,
+    domain: "funeraire",
+    artifactType: "Masque funéraire & Cartonnage",
+    title: "Masque funéraire d'or au repoussé au némès lisse du pharaon Amenemopé (Tanis, Musée égyptien du Caire)",
+    site: "Musée égyptien du Caire",
+    originSite: "Nécropole royale de Tanis (Tombe NRT IV réinhumé en NRT III, Delta du Nil)",
+    locationType: "museum",
+    currentLocation: "Musée égyptien du Caire (Trésor de Tanis, JE 86059)",
+    category: "Masque funéraire royal en feuille d'or au repoussé",
+    isHighlight: false,
+    chips: ["XXIe dynastie", "Amenemopé", "Tanis", "Masque d'or", "Némès lisse", "Uræus polychrome", "Musée du Caire"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczN8kiACyLy9r6aiKtEmnZ15dDSjUA-z64RaBtEOQiIg6yeFuD7GDGldq5kx8vkbeyCw_vgAqCQAd5F2ksqO9nc0WoIKTlzLQjb8Isz2tUf-PvFsdKMyxUpOfsBjmGfmzSqcLfcNzSWVMjT_83SFWzxpNw=w613-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette pièce exceptionnelle, conservée au Musée égyptien du Caire sous la référence JE 86059, est le masque funéraire du pharaon Amenemopé, souverain de la XXIe dynastie. Découvert en avril 1940 par l'archéologue français Pierre Montet dans la nécropole royale de Tanis, ce « visage d'or » recouvrait la momie du roi au sein de son sarcophage. Contrairement aux masques de ses prédécesseurs plus opulents comme Psousennès Ier, ce masque est réalisé à partir d'une épaisse feuille d'or travaillée au repoussé, provenant initialement de la partie supérieure de son cercueil anthropoïde en bois doré qui s'est désagrégé avec le temps.</p>
+    <p>Le portrait présente des traits d'une grande douceur et d'une sérénité idéalisée, avec des joues pleines et des lèvres délicatement ourlées semblant esquisser un sourire. Le roi est coiffé du némès, la coiffe royale traditionnelle, qui présente ici la particularité remarquable d'être lisse, sans les rayures habituelles. Le front est orné d'un uræus en or massif, le cobra protecteur, dont le corps sinueux est incrusté de pierres colorées dans les tons turquoise, orange et bleu sombre, apportant les seules touches de couleur vive à l'ensemble.</p>
+    <p>Les yeux étirés, cernés d'un trait de khôl prolongé, sont exécutés en métaux sombres et en pierres incrustées, conférant au souverain un regard intense qui semble défier l'éternité. Bien que le menton porte aujourd'hui la trace d'un lacet, la barbe postiche qui l'ornait à l'origine a disparu. Ce masque de 30 cm de hauteur témoigne de la résilience artistique de la Troisième Période Intermédiaire, une époque où l'orfèvrerie de Tanis atteignait des sommets de raffinement malgré un contexte politique fragmenté.</p>
+    <p><strong>Siècle :</strong> Xe siècle av. J.-C. (-990) | <strong>Civilisation :</strong> Égypte antique (Troisième Période intermédiaire / Basse Époque) | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "funeraire_sarcophage_anthropomorphe_fond_jaune_xxiie_louxor_01",
+    civId: "egypte",
+    periodId: "egypte_tardive",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "XXIIe dynastie (vers -945 à -715 av. J.-C. / époque libyenne)",
+    centuryDisplay: "Xe – VIIIe s. av. J.-C.",
+    centuryNumeric: -850,
+    domain: "funeraire",
+    artifactType: "Sarcophage humain (cuve, bois, pierre)",
+    title: "Sarcophage anthropomorphe à fond jaune d'un dignitaire thébain (XXIIe dynastie, Musée de Louxor)",
+    site: "Musée de Louxor",
+    originSite: "Nécropole thébaine (Thèbes)",
+    locationType: "museum",
+    currentLocation: "Musée de Louxor",
+    category: "Sarcophage anthropoïde en bois stuqué et peint à fond jaune",
+    isHighlight: false,
+    chips: ["XXIIe dynastie", "Troisième Période intermédiaire", "Sarcophage anthropomorphe", "Fond jaune", "Clergé d'Amon", "Thèbes", "Musée de Louxor"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPvyFl6yW_KiFw664QU1REsPSanKDT8E0WbNdeV1cHGazRMPjQ_DNhxNxAKqzHW08298tjAtypKQ-1ax-lw5XIRKRpRsOq3S3LPmglB5G_mOdRPUCa-f0qB-8hxi3Cj-isPNM2NQKfmN_hEaXVi6Dn5TQ=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce sarcophage anthropomorphe, exposé au musée de Louxor, est un exemplaire remarquable de la production funéraire thébaine du début de la XXIIe dynastie (vers 945-715 av. J.-C.). Il appartenait probablement à un haut fonctionnaire ou à un membre éminent du clergé d'Amon, comme en témoigne la richesse exceptionnelle de son décor polychrome sur fond jaune.</p>
+    <p>Le couvercle représente le défunt dans sa forme glorifiée, les bras croisés sur la poitrine. Le visage est surmonté d'une perruque tripartite richement striée et d'une barbe postiche recourbée, attribut classique de l'état divin post-mortem. Le corps est presque entièrement recouvert d'une résille de perles et de motifs protecteurs peints avec une précision miniature. On y distingue un immense collier ousekh dont les détails imitent l'orfèvrerie royale, ainsi que des figures de divinités ailées qui enveloppent symboliquement la momie pour assurer sa protection.</p>
+    <p>La base du sarcophage, également décorée, présente une succession de registres horizontaux montrant des scènes de rituels et des génies protecteurs. Le style « fond jaune », caractéristique de cette période de la Troisième Période Intermédiaire, visait à donner au cercueil l'éclat de l'or, matière éternelle et chair des dieux. Contrairement aux sarcophages de pierre massifs, ces modèles en bois permettaient de déployer un programme iconographique complet et didactique sur les étapes du voyage du défunt vers les champs d'Ialou.</p>
+    <p><strong>Siècle :</strong> IXe siècle av. J.-C. (vers -850) | <strong>Civilisation :</strong> Égypte antique (Troisième Période intermédiaire / Basse Époque) | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "funeraire_sarcophage_anthropomorphe_fond_jaune_mobilier_xxiie_louxor_02",
+    civId: "egypte",
+    periodId: "egypte_tardive",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "XXIIe dynastie (vers -945 à -715 av. J.-C. / époque libyenne)",
+    centuryDisplay: "Xe – VIIIe s. av. J.-C.",
+    centuryNumeric: -850,
+    domain: "funeraire",
+    artifactType: "Sarcophage humain (cuve, bois, pierre)",
+    title: "Sarcophage anthropomorphe à fond jaune d'un prêtre d'Amon présenté avec son mobilier (Musée de Louxor)",
+    site: "Musée de Louxor",
+    originSite: "Nécropole thébaine (Thèbes)",
+    locationType: "museum",
+    currentLocation: "Musée de Louxor",
+    category: "Sarcophage anthropoïde en bois stuqué et peint avec mobilier funéraire",
+    isHighlight: false,
+    chips: ["XXIIe dynastie", "Troisième Période intermédiaire", "Sarcophage anthropomorphe", "Fond jaune", "Oushebtis", "Collier Ousekh", "Musée de Louxor"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczODI5WnJh_csaey28Ju4_pjqOsiVtIlMe7oan3Q9PzfO26RvTEE32hvFAMYP13Y_WWfhr8jUXLjS1kSgIXIwK4HOJ-chPy9bWjCrt8SJvIsED1_pM3QyuTFPsdZhSQz3jN0zA2bM6I1WtAS55yBxMZ75w=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce sarcophage anthropomorphe appartenait probablement à un membre éminent du clergé d'Amon, comme en témoigne la richesse exceptionnelle de son décor polychrome sur fond jaune, un style caractéristique de la Troisième Période Intermédiaire.</p>
+    <p>Le couvercle représente le défunt dans sa forme glorifiée, les mains croisées sur la poitrine. Son visage est encadré par une perruque tripartite richement striée et une barbe postiche recourbée, attribut classique de l'état divin post-mortem. Le corps est presque entièrement recouvert d'un décor peint d'une précision miniature, incluant un immense collier ousekh dont les détails imitent l'orfèvrerie royale, ainsi que des figures de divinités ailées enveloppant symboliquement la momie pour assurer sa protection.</p>
+    <p>La cuve du sarcophage présente une succession de registres horizontaux montrant des scènes de rituels et des génies protecteurs destinés à guider le défunt vers l'au-delà. L'usage du bois pour de tels cercueils permettait aux artisans de déployer un programme iconographique et religieux complet, servant de véritable guide pour le voyage vers les champs d'Ialou.</p>
+    <p>Exposé dans son contexte archéologique avec d'autres objets rituels tels que des masques funéraires, des vases en terre cuite et des figurines de serviteurs funéraires (oushebtis), ce sarcophage illustre la continuité des traditions égyptiennes malgré les mutations politiques de l'époque.</p>
+    <p><strong>Siècle :</strong> IXe siècle av. J.-C. (vers -850) | <strong>Civilisation :</strong> Égypte antique (Troisième Période intermédiaire / Basse Époque) | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "funeraire_sarcophage_anthropomorphe_cuve_amentit_louvre",
+    civId: "egypte",
+    periodId: "egypte_tardive",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "Basse Époque (vers -700 à -500 av. J.-C. / XXVe – XXVIe dynastie)",
+    centuryDisplay: "VIIe – VIe s. av. J.-C.",
+    centuryNumeric: -600,
+    domain: "funeraire",
+    artifactType: "Sarcophage humain (cuve, bois, pierre)",
+    title: "Ensemble cuve et couvercle de sarcophage anthropomorphe à la déesse d'Occident Amentit (Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Thèbes ou Moyenne-Égypte",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes)",
+    category: "Sarcophage anthropoïde en bois stuqué et peint",
+    isHighlight: false,
+    chips: ["Basse Époque", "Sarcophage anthropomorphe", "Déesse Amentit", "Nout", "Polychromie", "Champs d'Ialou", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOgJ5-2IVzPILvThh9dnMVau73Jr-Gzs0snJ6WcWseSDFJv7kIHQOwUccA4Fs6xf3_gAG9zoEqlHwt-fDDjwALGFcbmmoLKUsKkAOtOuD9PlMecfXRt-N8cxwgGiQin-s0ek5uTk7fUHBBK9neuI1B23g=w1225-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce sarcophage anthropomorphe, conservé au département des Antiquités égyptiennes du musée du Louvre, illustre le raffinement de l'art funéraire destiné à protéger le défunt pour son voyage dans l'au-delà. L'ensemble se compose de la cuve et du couvercle, dont le décor polychrome particulièrement vibrant témoigne de la maîtrise des pigments naturels et de la symbolique religieuse de l'Égypte ancienne.</p>
+    <p>Le couvercle représente le défunt sous une forme idéalisée et divine, arborant un visage serein à la peau ocre rouge, encadré par une imposante perruque tripartite striée. La poitrine est recouverte d'un large collier ousekh richement détaillé, composé de plusieurs rangs de perles et de motifs floraux. Au centre, sous le collier, on distingue une figure ailée, probablement la déesse Nout ou un scarabée khépri, symbolisant la protection et la renaissance solaire.</p>
+    <p>L'intérieur de la cuve présente également un décor soigné, dominé par une grande figure féminine de profil, peinte directement sur le fond. Cette représentation, souvent identifiée à la déesse de l'Occident (l'Amentit) ou à Nout accueillant le défunt, est accompagnée de colonnes de hiéroglyphes. Ces inscriptions reprennent généralement des formules extraites du Livre des Morts, destinées à garantir au défunt les offrandes nécessaires et le passage sécurisé vers les champs d'Ialou.</p>
+    <p><strong>Siècle :</strong> VIe siècle av. J.-C. (vers -600) | <strong>Civilisation :</strong> Égypte antique (Basse Époque) | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "funeraire_couvercle_sarcophage_chair_doree_khepri_osiris_louvre",
+    civId: "egypte",
+    periodId: "egypte_tardive",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "Basse Époque (vers -650 à -400 av. J.-C. / XXVIe – XXVIIe dynastie)",
+    centuryDisplay: "VIIe – Ve s. av. J.-C.",
+    centuryNumeric: -550,
+    domain: "funeraire",
+    artifactType: "Sarcophage humain (cuve, bois, pierre)",
+    title: "Couvercle de sarcophage anthropomorphe à la chair dorée, scarabée Khépri et tribunal d'Osiris (Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Basse-Égypte ou Thèbes",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes)",
+    category: "Couvercle de sarcophage anthropoïde en bois stuqué, doré et peint",
+    isHighlight: true,
+    chips: ["Basse Époque", "Sarcophage anthropomorphe", "Chair dorée", "Scarabée Khépri", "Tribunal d'Osiris", "Horus", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP2ztndTa_IGGLoAa5TTDCuq7DEmCMmocw5UBaBDuLpSbcaEZ8BPQjrwbmvChu1K17gmNGJB5L7TlWyasltkF8UjBY3d-IarzLdVnmomRAFh7BiOA2i_WXfqsmONcpOBJzdKieoPZiNrdtf4nrCwbrPkA=w689-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce sarcophage anthropomorphe, conservé au département des Antiquités égyptiennes du musée du Louvre, constitue un témoignage remarquable de l'évolution des rites funéraires et de l'art de la polychromie à la Basse Époque. Contrairement à d'autres exemplaires plus sobres, ce couvercle se distingue par une densité décorative exceptionnelle où chaque centimètre carré de la surface est utilisé pour invoquer la protection divine et assurer la survie du défunt dans l'au-delà.</p>
+    <p>Le visage du défunt est représenté avec une grande sérénité, arborant une peau dorée qui rappelle la nature divine de la chair des dieux dans la mythologie égyptienne. Il est coiffé d'une perruque tripartite aux stries bleues et vertes alternées, surmontée d'un bandeau ornemental complexe. La poitrine est presque entièrement dissimulée sous un immense collier ousekh aux rangs multiples, dont les extrémités sont ornées de têtes de faucons, symbolisant le dieu Horus.</p>
+    <p>Sous ce collier, le programme iconographique se déploie en registres horizontaux et verticaux d'une grande finesse : un scarabée ailé, symbole du dieu Khépri et de la renaissance solaire, déploie ses ailes protectrices sur le haut du buste ; au centre du tablier, une scène complexe montre le défunt devant des divinités assises, probablement les juges du tribunal d'Osiris, encadrée par des génies protecteurs ailés ; la partie inférieure du couvercle est rythmée par des colonnes de hiéroglyphes soigneusement tracés, qui reprennent des formules liturgiques destinées à protéger le corps et à garantir l'accès aux champs d'Ialou.</p>
+    <p>L'arrière-plan de la cuve, que l'on devine sur la gauche, présente également un décor intérieur soigné. On y retrouve des figures de divinités et des yeux Oudjat, multipliant les couches de protection magique autour de la momie. La vivacité des couleurs, notamment les rouges, les bleus et les jaunes, souligne la qualité des pigments utilisés et l'importance sociale du propriétaire de ce monument funéraire.</p>
+    <p><strong>Siècle :</strong> VIe siècle av. J.-C. (vers -550) | <strong>Civilisation :</strong> Égypte antique (Basse Époque) | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  }
+   {
     id: "funeraire_enveloppe_momie_or_psousennes_ier_tanis_caire",
     civId: "egypte",
     periodId: "egypte_tardive",
