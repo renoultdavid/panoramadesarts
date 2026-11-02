@@ -4,6 +4,187 @@
 window.ART_OBJECTS = [
   
    {
+    id: "funeraire_masque_cartonnage_jaune_ocre_khol_assouan",
+    civId: "egypte",
+    periodId: "egypte_nouvel",
+    civName: "Égypte : Nouvel Empire",
+    century: "Nouvel Empire (XVIIIe – XXe dynastie, vers -1550 à -1085 av. J.-C.)",
+    centuryDisplay: "XVIe – XIe s. av. J.-C.",
+    centuryNumeric: -1300,
+    domain: "funeraire",
+    artifactType: "Masque funéraire & Cartonnage",
+    title: "Masque funéraire en cartonnage à la chair jaune ocre et yeux étirés de khôl (Musée de la Nubie, Assouan)",
+    site: "Musée de la Nubie (Assouan)",
+    originSite: "Région d'Assouan ou Basse-Nubie",
+    locationType: "museum",
+    currentLocation: "Musée de la Nubie, Assouan",
+    category: "Masque funéraire en cartonnage stuqué et peint",
+    isHighlight: false,
+    chips: ["Nouvel Empire", "Masque funéraire", "Cartonnage", "Jaune ocre", "Khôl", "Armure magique", "Musée de la Nubie"],
+    deptBanner: "https://lh3.googleusercontent.com/d/11hLJFFN1McLmLPGw1pf73r-LVI6VfhMp",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP0OaSP_XoRTIyU8pLzqWGcnx1eZgIE2Qyg1WsSiKtA41Bwdo7w03OsPHL-ofRWVwVaprJCtISqwi451hQO99qOqVvCn5biJRoqHNCjTosd_pdo5AlJ9SJDgQsj7pSni4zwJXsF4sLPbiMUK9fb8hM97A=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Le cartonnage, composé de couches de lin ou de papyrus plâtrées, permettait de créer des protections funéraires légères mais rigides pour la tête de la momie, offrant une alternative plus accessible aux masques de métal précieux réservés à l'élite royale.</p>
+    <p>Le visage est peint d'un jaune ocre soutenu, une couleur symbolique forte évoquant l'or, métal inaltérable associé à la chair des divinités. Le traitement des yeux est particulièrement soigné, avec des sourcils et des traits de khôl noirs très marqués qui s'étirent vers les tempes, caractéristiques des canons esthétiques de l'époque ramesside. Cette mise en valeur du regard visait à donner au défunt une capacité de vision éternelle dans le monde de l'au-delà.</p>
+    <p>On observe sur le haut du front et les côtés les vestiges d'une parure complexe aux motifs polychromes. Les oreilles sont délicatement suggérées, et le bandeau frontal semble comporter des motifs géométriques imitant des incrustations de lapis-lazuli ou de turquoise. Ce masque ne servait pas uniquement de portrait ; il agissait comme une armure magique protégeant la tête, siège des sens et de l'intelligence, tout en facilitant la reconnaissance du corps physique par l'esprit du mort.</p>
+    <p>Bien que fragmentaire, cette pièce témoigne de l'exceptionnelle maîtrise des artisans locaux et de la persistance des croyances funéraires égyptiennes dans la région d'Assouan, zone de contact privilégiée avec la Nubie. La fraîcheur des couleurs, miraculeusement préservées des ravages du temps par la sécheresse du climat nubien, permet aujourd'hui encore de contempler le visage idéalisé d'un habitant de la vallée du Nil d'il y a plus de trois mille ans.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (vers -1300) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "funeraire_sarcophage_anthropoide_yuya_bois_dore_kv46_caire",
+    civId: "egypte",
+    periodId: "egypte_nouvel",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1380 av. J.-C. / règne d'Amenhotep III)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1380,
+    domain: "funeraire",
+    artifactType: "Sarcophage humain (cuve, bois, pierre)",
+    title: "Sarcophage anthropoïde intérieur de Yuya en bois stuqué, doré et argenté (Tombe KV46, Musée égyptien du Caire)",
+    site: "Musée égyptien du Caire",
+    originSite: "Tombe KV46 (Vallée des Rois, Thèbes)",
+    locationType: "museum",
+    currentLocation: "Musée égyptien du Caire (salle Yuya et Touya, JE 95248)",
+    category: "Sarcophage anthropoïde en bois stuqué, doré et argenté",
+    isHighlight: true,
+    chips: ["XVIIIe dynastie", "Yuya", "Amenhotep III", "KV46", "Feuille d'or", "Vautour Shen", "Musée du Caire"],
+    deptBanner: "https://lh3.googleusercontent.com/d/11hLJFFN1McLmLPGw1pf73r-LVI6VfhMp",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOXIiIWPyPvoDyHSge1lX1l_ZvDDBzmNIJaa4KOqf7IuaVhSNKxq1coimXOTRCIceLPXbc_Mcp83dMIirndJLgxnDetkrXA6Yr1Elf2umgxlGrWSIrq3p4DNBM0uwfdDYePEkmhSMw9ohVjLZWUb6t3oA=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce sarcophage anthropoïde, pièce maîtresse du Musée égyptien du Caire, appartient à Yuya, un haut dignitaire de la XVIIIe dynastie qui fut le père de la reine Tiyi et le beau-père d'Amenhotep III. Découvert en 1905 dans la tombe KV46 de la Vallée des Rois par James Quibell, cet ensemble funéraire était, avant la mise au jour de celui de Toutânkhamon, le plus riche et le mieux préservé jamais trouvé. L'objet présenté ici est l'un des trois cercueils emboîtés qui protégeaient la momie de ce noble influent.</p>
+    <p>La structure du sarcophage est réalisée en bois stuqué, magnifiquement rehaussée de feuilles d'or et d'argent, ainsi que d'incrustations de pâte de verre, de cornaline et d'albâtre. Le défunt est représenté sous une forme osirienne, les bras croisés sur la poitrine, portant un large collier ousekh aux motifs floraux dont les extrémités sont ornées de têtes de faucon. Sous ce collier, un vautour déploie ses ailes en enserrant le signe hiéroglyphique shen, symbole d'éternité et de protection solaire.</p>
+    <p>Le décor est complété par de fines bandes d'inscriptions hiéroglyphiques dorées sur un fond sombre, invoquant la protection des divinités funéraires pour le voyage dans l'au-delà. Sur les côtés de la cuve, on peut observer les silhouettes de divinités protectrices, tandis que la déesse Nout veille sur le défunt. Ce mobilier d'une qualité royale exceptionnelle témoigne du statut privilégié de Yuya, qui fut autorisé à être enterré dans la nécropole royale malgré ses origines non-régnantes.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1380) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "funeraire_cercueil_exterieur_touya_bitume_noir_or_kv46_caire",
+    civId: "egypte",
+    periodId: "egypte_nouvel",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1380 av. J.-C. / règne d'Amenhotep III)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1380,
+    domain: "funeraire",
+    artifactType: "Sarcophage humain (cuve, bois, pierre)",
+    title: "Grand cercueil extérieur de Touya en bois bitumé noir et stuc doré (Tombe KV46, Musée égyptien du Caire)",
+    site: "Musée égyptien du Caire",
+    originSite: "Tombe KV46 (Vallée des Rois, Thèbes)",
+    locationType: "museum",
+    currentLocation: "Musée égyptien du Caire (salle Yuya et Touya, JE 95247)",
+    category: "Sarcophage anthropoïde en bois bitumé et stuc doré",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Touya", "Reine Tiyi", "KV46", "Bitume noir", "Stuc doré", "Déesse Nout", "Musée du Caire"],
+    deptBanner: "https://lh3.googleusercontent.com/d/11hLJFFN1McLmLPGw1pf73r-LVI6VfhMp",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP3WIaYvQqdSKofebiL8Qzv3eXy3n6FmVsoeluNvzxsIJNbqwIiKlcS4i0y4SYRfA2v00NLso-57cBgeDaajV4Hb478U4aw60x_jBwUVeemZN8iySDSFmAqUHzU9GtpSYDlgIf2i1vx388lvPOE0SKtQw=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce premier cercueil extérieur de Touya, la mère de la reine Tiyi, est l'une des pièces les plus admirables de la collection Yuya et Touya au Musée égyptien du Caire. Ce sarcophage anthropomorphe, datant de la XVIIIe dynastie, se distingue par l'utilisation de bitume noir brillant sur lequel se détachent des éléments en stuc doré. Ce contraste chromatique puissant n'est pas seulement esthétique : le noir évoque la terre fertile du Nil et la régénération osirienne, tandis que l'or représente la chair éternelle des divinités.</p>
+    <p>Le couvercle représente Touya vêtue d'une robe de lin finement plissée, les bras croisés sur la poitrine, les mains émergeant des plis de son vêtement. Elle porte une imposante perruque tripartite ornée d'un bandeau floral, et son visage, doré à la feuille, est animé par des yeux incrustés. Sur son buste s'étale un large collier ousekh, tandis qu'une image de la déesse Nout aux ailes déployées protège son abdomen, symbolisant la voûte céleste enveloppant la défunte.</p>
+    <p>La cuve du cercueil est rythmée par des bandes verticales et horizontales d'inscriptions dorées qui imitent les bandelettes d'une momie. Entre ces colonnes de textes hiéroglyphiques, on aperçoit les figures dorées des divinités protectrices, notamment les fils d'Horus, chargés de veiller sur les organes internes et l'intégrité physique de la défunte. La base surélevée au niveau des pieds complète cette architecture funéraire destinée à assurer le passage de Touya vers l'au-delà.</p>
+    <p>L'état de conservation exceptionnel de cette pièce, retrouvée dans la tombe KV46 de la Vallée des Rois, permet d'apprécier la virtuosité des artisans royaux sous le règne d'Amenhotep III. Le mélange de sobriété et de luxe qui caractérise ce cercueil reflète parfaitement le prestige de Touya, « Chanteuse d'Amon » et « Grande de la Maison des Femmes », qui a joui d'un traitement funéraire quasi royal.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1380) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "funeraire_masque_touya_cartonnage_or_perruque_noire_kv46_caire",
+    civId: "egypte",
+    periodId: "egypte_nouvel",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1380 av. J.-C. / règne d'Amenhotep III)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1380,
+    domain: "funeraire",
+    artifactType: "Masque funéraire & Cartonnage",
+    title: "Masque funéraire de Touya en cartonnage doré à la feuille et perruque noire (Tombe KV46, Musée égyptien du Caire)",
+    site: "Musée égyptien du Caire",
+    originSite: "Tombe KV46 (Vallée des Rois, Thèbes)",
+    locationType: "museum",
+    currentLocation: "Musée égyptien du Caire (salle Yuya et Touya, CG 51009)",
+    category: "Masque funéraire en cartonnage doré et incrusté",
+    isHighlight: true,
+    chips: ["XVIIIe dynastie", "Touya", "Reine Tiyi", "KV46", "Cartonnage doré", "Collier Ousekh", "Musée du Caire"],
+    deptBanner: "https://lh3.googleusercontent.com/d/11hLJFFN1McLmLPGw1pf73r-LVI6VfhMp",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNuwBm8AAIsLlsvDlat1uLSt86T6RgPvV2c21pnEy_qBXVEK1G_th-ebY4uJ0slvtpOa9yBvG3dGsCUrMhO1oudDdM1zSGtWLKmbHchIfpw9p-JVk64KBA1B57xjmn8M9YeMWlyxjJvvl4B9JFH_shwxg=w613-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce masque funéraire d'une élégance rare appartient à Touya, la mère de la reine Tiyi, et provient de sa sépulture découverte dans la vallée des Rois (tombe KV46). Datant de la XVIIIe dynastie (v. 1380-1350 avant J.-C.), sous le règne d'Amenhotep III, il recouvrait la tête et le buste de la momie pour lui assurer un visage éternel dans l'au-delà. Réalisé en cartonnage recouvert de feuilles d'or, il présente un contraste saisissant avec la perruque peinte en noir bitumineux, une couleur symbolisant la régénération.</p>
+    <p>Le visage de la défunte est traité avec une douceur remarquable, affichant un léger sourire qui caractérise l'art raffiné de cette période. Les yeux, d'un réalisme saisissant, sont incrustés de quartz blanc et d'obsidienne, soulignés par des paupières et des sourcils en pâte de verre bleue imitant le lapis-lazuli. Cette polychromie donne au masque une présence presque vivante, destinée à guider l'âme de Touya pour qu'elle reconnaisse son enveloppe charnelle.</p>
+    <p>La partie inférieure du masque est ornée d'un somptueux collier ousekh, dont les rangées de perles sont figurées par des incrustations de verre rouge, bleu et turquoise. Ces motifs floraux et géométriques ne sont pas seulement décoratifs, ils constituent une parure protectrice magique. La perruque tripartite laisse apparaître les oreilles, un détail stylistique qui permettait à la défunte d'entendre les prières et les invocations rituelles prononcées par les vivants.</p>
+    <p>Cette pièce maîtresse du Musée égyptien du Caire illustre le privilège extraordinaire accordé aux parents de la reine Tiyi, qui ont reçu un équipement funéraire de qualité royale. Elle préfigure, par sa structure et son style, les chefs-d'œuvre qui seront réalisés quelques décennies plus tard pour leur arrière-petit-fils, Toutânkhamon.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1380) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "funeraire_masque_yuya_cartonnage_or_perruque_doree_kv46_caire",
+    civId: "egypte",
+    periodId: "egypte_nouvel",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1380 av. J.-C. / règne d'Amenhotep III)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1380,
+    domain: "funeraire",
+    artifactType: "Masque funéraire & Cartonnage",
+    title: "Masque funéraire de Yuya en cartonnage entièrement doré à la feuille et yeux incrustés (Tombe KV46, Musée égyptien du Caire)",
+    site: "Musée égyptien du Caire",
+    originSite: "Tombe KV46 (Vallée des Rois, Thèbes)",
+    locationType: "museum",
+    currentLocation: "Musée égyptien du Caire (salle Yuya et Touya, CG 51008)",
+    category: "Masque funéraire en cartonnage doré et incrusté",
+    isHighlight: true,
+    chips: ["XVIIIe dynastie", "Yuya", "Amenhotep III", "KV46", "Cartonnage doré", "Pâte de verre", "Obsidienne", "Musée du Caire"],
+    deptBanner: "https://lh3.googleusercontent.com/d/11hLJFFN1McLmLPGw1pf73r-LVI6VfhMp",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMB7GbxB_R0_v2g8SoCk5TwH_iM-9q4U7dfOS7s1-leigY7i9SN_J8FpG21bh-P5IIUTonkVWjni9GaZcUck3U4H4AGZqideVP6irgPw0yMRti7kKfRx0Z8ouwMOBSAwHllslxsUnndQ8MWkB8vyqWJDg=w613-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce masque funéraire majestueux appartient à Yuya, le beau-père d'Amenhotep III, et constitue l'une des pièces maîtresses de la collection de la tombe KV46. Datant de la XVIIIe dynastie (environ 1380-1350 avant J.-C.), ce masque de cartonnage est recouvert d'une opulente feuille d'or, matériau sacré symbolisant la chair divine et l'immortalité du défunt. Contrairement au masque de son épouse Touya, celui-ci présente une perruque entièrement dorée à larges stries horizontales, conférant à Yuya une aura de puissance et de dignité solaire.</p>
+    <p>Le visage est traité avec un idéalisme serein, typique de l'artisanat de cour du Nouvel Empire. Les yeux incrustés, composés de calcaire blanc et d'obsidienne, sont entourés de paupières en pâte de verre bleue qui s'étirent en de fines lignes de fard vers les tempes. Ce regard intense, qui semble traverser l'éternité, était destiné à permettre à l'esprit du défunt de voir dans le monde de l'au-delà tout en protégeant son intégrité physique.</p>
+    <p>La structure du masque descend largement sur la poitrine, simulant un buste protégé par une perruque tripartite qui encadre un visage aux traits fermes et aux oreilles bien dégagées. Sous le menton, on devine les restes d'un large collier ousekh qui, bien que plus sobre que celui de Touya sur ce masque précis, complétait la parure magique indispensable pour se présenter devant le tribunal d'Osiris. Les fissures et les légers manques de dorure visibles sur le front et les joues témoignent de l'histoire millénaire de l'objet et des pressions subies lors de son placement initial dans les sarcophages emboîtés.</p>
+    <p>Ce masque est un témoignage fascinant du statut social sans précédent de Yuya, un homme de province devenu « Père divin » et proche conseiller du roi. Par sa finesse technique et sa richesse matérielle, il rivalise avec les productions purement royales de son époque et annonce directement les traditions funéraires qui atteindront leur apogée avec le trésor de son arrière-petit-fils, Toutânkhamon.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1380) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "funeraire_sarcophage_royal_bois_dore_amarnien_kv55_caire",
+    civId: "egypte",
+    periodId: "egypte_nouvel",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1351 à -1334 av. J.-C. / époque amarnienne)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1340,
+    domain: "funeraire",
+    artifactType: "Sarcophage humain (cuve, bois, pierre)",
+    title: "Cercueil royal en bois doré et incrustations martelées attribué à Akhenaton (Tombe KV55, Musée égyptien du Caire)",
+    site: "Musée égyptien du Caire",
+    originSite: "Tombe KV55 (Vallée des Rois, Thèbes)",
+    locationType: "museum",
+    currentLocation: "Musée égyptien du Caire (JE 39627)",
+    category: "Sarcophage anthropoïde royal en bois doré et incrusté",
+    isHighlight: true,
+    chips: ["XVIIIe dynastie", "Akhenaton", "Smenkhkarê", "KV55", "Amarna", "Damnatio memoriae", "Bois doré", "Musée du Caire"],
+    deptBanner: "https://lh3.googleusercontent.com/d/11hLJFFN1McLmLPGw1pf73r-LVI6VfhMp",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPdu4NicpBDN171YazTCihanUJ9IFE63X4nBxYFtmBCCZputaaLKvkOxYTgw6oG6RuAulEzT7sr-hZUtt9JDjAejsCpkHsel3woIwdpNhowfqvCw-ufDzkcvgUTnn82cegk3him0OSHSRYDlv1pAwjbOA=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Sarcophage royal de la tombe KV55, une pièce énigmatique du Musée égyptien du Caire datant de la XVIIIe dynastie, vers 1351-1334 avant notre ère. Bien que souvent attribué à Akhenaton en raison de son style amarnien caractéristique, l'identité de son propriétaire reste un sujet de débat passionné parmi les égyptologues, certains y voyant plutôt le pharaon éphémère Smenkhkarê. Ce cercueil en bois doré, incrusté de verre coloré et de pierres semi-précieuses, illustre le raffinement extrême des arts sous le règne du « pharaon hérétique ».</p>
+    <p>L'élément le plus frappant de cette œuvre est la destruction intentionnelle du visage et des cartouches royaux. Cette pratique de damnatio memoriae visait à effacer l'existence du défunt dans l'au-delà en supprimant son image et son nom. La feuille d'or qui recouvrait le visage a été arrachée, laissant apparaître le bois brut et dégradé, tandis que les inscriptions permettant de l'identifier avec certitude ont été martelées après l'inhumation, probablement lors de la restauration du culte d'Amon.</p>
+    <p>Malgré ces mutilations, la structure du sarcophage conserve des détails d'une grande beauté, notamment la perruque tripartite minutieusement travaillée et les restes de l'uraeus royal sur le front. Le décor de plumes (« rishi ») et les incrustations bleues évoquent la protection divine entourant le corps du roi. La position des mains, qui tenaient autrefois les sceptres Héka et Nekhakha, confirme le rang souverain du personnage déposé dans la petite tombe non décorée de la Vallée des Rois où il fut découvert en 1907.</p>
+    <p>Cette pièce constitue un témoignage historique unique sur la fin de l'époque amarnienne et les tensions religieuses qui ont suivi la mort d'Akhenaton. Si les analyses ADN ont prouvé que la momie trouvée à l'intérieur était le père de Toutânkhamon, l'état de dégradation du cercueil et l'âge estimé du corps continuent de nourrir le mystère entourant cette transition royale. Exposé aujourd'hui au Caire sous le numéro d'inventaire JE 39627, il demeure l'un des objets les plus fascinants pour comprendre la chute de la révolution religieuse d'Aton.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1340) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire / Période amarnienne) | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "funeraire_sarcophage_or_massif_toutankhamon_kv62_caire",
+    civId: "egypte",
+    periodId: "egypte_nouvel",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1323 av. J.-C. / règne de Toutânkhamon)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1323,
+    domain: "funeraire",
+    artifactType: "Sarcophage humain (cuve, bois, pierre)",
+    title: "Troisième sarcophage anthropoïde en or massif et incrustations de Toutânkhamon (Tombe KV62, Musée égyptien du Caire)",
+    site: "Musée égyptien du Caire",
+    originSite: "Tombe KV62 (Vallée des Rois, Thèbes)",
+    locationType: "museum",
+    currentLocation: "Musée égyptien du Caire (Trésor de Toutânkhamon, JE 60671)",
+    category: "Sarcophage royal en or massif cloisonné",
+    isHighlight: true,
+    chips: ["XVIIIe dynastie", "Toutânkhamon", "KV62", "Or massif", "Cloisonné", "Décor rishi", "Sceptres royaux", "Musée du Caire"],
+    deptBanner: "https://lh3.googleusercontent.com/d/11hLJFFN1McLmLPGw1pf73r-LVI6VfhMp",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMMOmez3UpnGb6e64X0rVZhhMpTwFRetsWm4APoAjMNVVWPKThnGHvF17WBxv0-uGUrSRKkrh60YylrL5B9WUWWfFS62KTOO_sg1fWYP65VioGG89Ui5nPPfxF9cdH2NSxtGq-kCN73EDDGkSu_0_pA1A=w1384-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce sarcophage anthropomorphe en or massif, l'un des trois emboîtés les uns dans les autres pour protéger la momie de Toutankhamon, constitue l'une des découvertes les plus spectaculaires de l'archéologie mondiale. Datant de la fin de la XVIIIe dynastie, vers 1323 avant notre ère, cette pièce d'orfèvrerie monumentale mesure près de deux mètres de long et pèse environ 110 kilogrammes d'or pur. Il représente le roi sous l'aspect d'Osiris, le dieu des morts, fusionnant ainsi l'identité du souverain défunt avec celle du seigneur de l'au-delà pour garantir sa renaissance éternelle.</p>
+    <p>Le décor du sarcophage est d'une complexité fascinante, utilisant la technique du cloisonné pour incruster des pierres semi-précieuses et des pâtes de verre colorées. Le corps du roi est recouvert d'un motif « rishi », représentant des plumes d'ailes protectrices qui enveloppent le défunt comme s'il était protégé par les déesses Isis et Nephtys. Ses bras sont croisés sur la poitrine, tenant les insignes du pouvoir royal : le sceptre Héka (le crochet) et le flagellum Nékhakha (le fléau), symbolisant respectivement le guidage et la protection du peuple égyptien.</p>
+    <p>Le visage du souverain, d'une grande finesse, porte les attributs rituels que l'on retrouve sur son masque funéraire, notamment le némès et la barbe postiche tressée. On remarque sur le front la présence du cobra et du vautour, emblèmes des deux terres unifiées. Les détails anatomiques, comme les oreilles ou le modelé des mains, témoignent du naturalisme hérité de l'époque amarnienne, tout en respectant la solennité hiératique propre au mobilier funéraire royal.</p>
+    <p>Au-delà de sa splendeur matérielle, ce sarcophage est une véritable machine théologique. Les parois intérieures et extérieures sont gravées de textes religieux et de figures de divinités protectrices dont le rôle est de guider Toutankhamon à travers les épreuves du monde souterrain. Conservé au Musée égyptien du Caire, il demeure le témoin ultime de la démesure et de la piété qui entouraient le passage d'un pharaon vers l'éternité, protégé par l'éclat inaltérable de l'or, la « chair des dieux ».</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1323) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+   {
     id: "funeraire_chambre_bleue_faience_djeser_saqqarah",
     civId: "egypte",
     periodId: "egypte_ancien",
