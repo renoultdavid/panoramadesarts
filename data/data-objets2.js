@@ -4,6 +4,287 @@
 window.ART_OBJECTS = [
   
    {
+    id: "funeraire_sarcophage_anthropomorphe_bois_peint_athenes",
+    civId: "egypte",
+    periodId: "egypte_tardive",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "Troisième Période intermédiaire à début Basse Époque (vers -750 à -650 av. J.-C.)",
+    centuryDisplay: "VIIIe – VIIe s. av. J.-C.",
+    centuryNumeric: -700,
+    domain: "funeraire",
+    artifactType: "Sarcophage humain (cuve, bois, pierre)",
+    title: "Sarcophage anthropomorphe en bois stuqué et peint à la déesse ailée Nout (Musée national archéologique d'Athènes)",
+    site: "Musée national archéologique d'Athènes",
+    originSite: "Thèbes ou Memphis",
+    locationType: "museum",
+    currentLocation: "Musée national archéologique d'Athènes (Collection égyptienne)",
+    category: "Sarcophage anthropoïde en bois stuqué et polychrome",
+    isHighlight: false,
+    chips: ["Troisième Période intermédiaire", "Basse Époque", "Sarcophage anthropomorphe", "Déesse Nout", "Horus et Anubis", "Pesée du cœur", "Athènes"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOkPb4qVNtQG9RPkpB25Rovpx5SnN8jlUI1VY5X_KQtlEN6E1cDwVX28okAtaJhHRTo8tHHNDKE-liTag7IYK4n6NF7E2pfAc3OGDLEbQfnDXvLBgg5KisgiMNceyc1WE0zrieT1XCjKEVw9B3hR2OpHA=w613-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce sarcophage anthropomorphe, conservé dans la riche collection égyptienne du Musée national archéologique d'Athènes, illustre la persistance des rites funéraires ancestraux et de l'iconographie religieuse à la fin de la Troisième Période intermédiaire ou au début de la Basse Époque. Conçu pour protéger la momie et assurer la survie spirituelle du défunt, ce coffre en bois peint et stuqué présente une décoration complexe organisée en registres horizontaux. Le visage, traité avec une relative douceur, est encadré par une large perruque tripartite sombre, tandis qu'un grand collier ousekh, composé de plusieurs rangées de perles et de motifs floraux, recouvre la poitrine. Au centre, la déesse ailée Nout ou Isis déploie ses ailes en signe de protection maternelle et cosmique sur le corps du disparu.</p>
+    <p>Le décor narratif se poursuit sur la cuve avec des scènes rituelles où le défunt est introduit devant les divinités du panthéon égyptien. On y distingue notamment des représentations de divinités à tête de faucon ou de chacal, comme Horus et Anubis, participant aux rites de passage ou à la pesée du cœur. Les couleurs utilisées — ocre rouge, jaune d'or, bleu et noir — conservent une fraîcheur remarquable, témoignant de la qualité des pigments minéraux employés par les artisans. Ces images ne sont pas seulement décoratives mais performatives : chaque figure et chaque hiéroglyphe gravé ou peint possède une fonction magique destinée à repousser les forces du chaos et à guider l'âme à travers les méandres de l'au-delà.</p>
+    <p>L'esthétique de ce sarcophage révèle une recherche de symétrie et de clarté propre aux ateliers thébains ou memphites de cette période. La structure verticale du décor est rythmée par des colonnes d'inscriptions hiéroglyphiques qui déclinent l'identité du propriétaire et les formules d'offrandes traditionnelles. Ce type de mobilier funéraire souligne l'importance accordée à la préservation de l'image corporelle, indispensable à la réunion du Ba (l'âme) et du Ka (l'énergie vitale) pour l'éternité. La présence d'un tel objet à Athènes rappelle, tout comme pour la statue de la princesse Takushit, la fascination historique des Grecs pour la profondeur temporelle et spirituelle de la civilisation nilotique.</p>
+    <p><strong>Siècle :</strong> VIIIe – VIIe siècle av. J.-C. (vers -700) | <strong>Civilisation :</strong> Égypte antique (Basse Époque) | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "funeraire_sarcophage_ahmose_nesqed_granite_heliopolis_caire",
+    civId: "egypte",
+    periodId: "egypte_tardive",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "XXVIe dynastie (vers -680 av. J.-C. / époque saïte)",
+    centuryDisplay: "VIIe s. av. J.-C.",
+    centuryNumeric: -680,
+    domain: "funeraire",
+    artifactType: "Sarcophage humain (cuve, bois, pierre)",
+    title: "Sarcophage anthropomorphe en granite sombre du dignitaire Ahmose-Nesqed (Héliopolis, Musée égyptien du Caire)",
+    site: "Musée égyptien du Caire",
+    originSite: "Héliopolis (Cité du Soleil)",
+    locationType: "museum",
+    currentLocation: "Musée égyptien du Caire",
+    category: "Sarcophage anthropoïde en granite sombre poli",
+    isHighlight: false,
+    chips: ["XXVIe dynastie", "Ahmose-Nesqed", "Héliopolis", "Époque saïte", "Granite sombre", "Livre des Morts", "Musée du Caire"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPgYkQoGrb830biHMyjcDW8TM_Pj7hwp6Rcz3bjVg0j2_XmqdTi7VrYQS22Dl0cRnuhG_9-34DMxake-vvEfeVpEhTCoZq5aq5GgBvYLMtwRKO1HQZOd9WeBMTK-PMC6fewhYctDEJSd3qVhXxT5F-S8w=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce sarcophage imposant en granite sombre, daté d'environ 680 av. J.-C., appartient à un haut dignitaire nommé Ahmose-Nesqed. Découvert dans la région d'Héliopolis, la cité du soleil, ce monument funéraire illustre le renouveau artistique de la XXVIe dynastie (époque saïte), période marquée par un retour aux canons classiques et une maîtrise exceptionnelle de la taille des pierres dures.</p>
+    <p>Le couvercle anthropomorphe présente un visage aux traits sereins, encadré par une perruque tripartite soigneusement polie. Le travail de sculpture souligne les courbes du corps sous la pierre, tandis que la partie inférieure s'évase légèrement pour marquer l'emplacement des pieds sur une plinthe intégrée. La surface est rythmée par des colonnes de textes hiéroglyphiques gravés avec une précision chirurgicale, témoignant du rang prestigieux du propriétaire, qui portait des titres importants au sein de l'administration ou du clergé.</p>
+    <p>Le décor iconographique est centré sur la protection magique du défunt. Des figures de divinités et des génies funéraires sont disposés sur les côtés de la cuve pour veiller sur la momie. On y retrouve souvent des extraits du Livre des Morts ou d'anciens textes religieux destinés à faciliter l'ascension de l'âme vers le ciel. À l'intérieur, la présence symbolique de la déesse Nout transforme le sarcophage en une matrice protectrice, assurant à Ahmose-Nesqed une renaissance éternelle à l'image du soleil qui se lève chaque jour sur Héliopolis.</p>
+    <p>Aujourd'hui conservé au musée égyptien du Caire, ce sarcophage est un exemple remarquable de la piété funéraire memphite. La dureté du matériau choisi et la qualité des inscriptions gravées visaient à rendre l'identité et le statut de ce dignitaire invulnérables au passage du temps, faisant de sa demeure d'éternité un chef-d'œuvre de l'art tardif égyptien.</p>
+    <p><strong>Siècle :</strong> VIIe siècle av. J.-C. (-680) | <strong>Civilisation :</strong> Égypte antique (XXVIe dynastie saïte / Basse Époque) | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "funeraire_ensemble_sarcophages_anthropoides_calcaire_saite_caire",
+    civId: "egypte",
+    periodId: "egypte_tardive",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "Basse Époque (VIIe – IVe siècle av. J.-C. / XXVIe – XXXe dynastie)",
+    centuryDisplay: "VIIe – IVe s. av. J.-C.",
+    centuryNumeric: -550,
+    domain: "funeraire",
+    artifactType: "Sarcophage humain (cuve, bois, pierre)",
+    title: "Galerie des sarcophages anthropoïdes monumentaux en calcaire poli (Saqqarah, Musée égyptien du Caire)",
+    site: "Musée égyptien du Caire",
+    originSite: "Saqqarah ou Delta du Nil",
+    locationType: "museum",
+    currentLocation: "Musée égyptien du Caire",
+    category: "Sarcophages anthropoïdes en calcaire dur",
+    isHighlight: false,
+    chips: ["Basse Époque", "Sarcophage anthropoïde", "Calcaire", "Sourire saïte", "Saqqarah", "Osiris", "Musée du Caire"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNKolqxcTZeVzu9pvCYDkzyU-0vtBuJkkiFEQWlekzyvDMTBRreS9qxsnypKIqumeBsLVUxlwbupXlNsEGsWbLaP9yQ1gfhJSVxIGr5xOwNX6Gd_O6mrDjbVxcBaFq88GHeMpwnRjVhbJZF-c2zpL9ukA=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cet ensemble de sarcophages anthropoïdes en calcaire est caractéristique des productions funéraires de la Basse Époque égyptienne, environ entre le VIIe et le IVe siècle avant notre ère. Ces cuves monumentales adoptent la forme d'une momie enveloppée, laissant apparaître uniquement le visage du défunt traité avec un idéalisme serein. La pierre, soigneusement polie, confère à ces réceptacles une éternité minérale censée protéger durablement le corps contre les outrages du temps et les forces du chaos.</p>
+    <p>Le traitement iconographique de ces pièces témoigne du grand raffinement des ateliers de sculpture de l'époque, notamment à Saqqarah ou dans le Delta. Les visages arborent le sourire « saïte » caractéristique, une expression de béatitude éternelle, et sont encadrés par la lourde perruque tripartite qui souligne la dignité divine du défunt. Certains couvercles portent également la barbe postiche recourbée, symbole de l'assimilation du mort à Osiris, le souverain de l'au-delà.</p>
+    <p>Sur le thorax des personnages, on distingue des gravures fines représentant de larges colliers « ousekh » et des scènes mythologiques protectrices. Ces inscriptions en hiéroglyphes, souvent disposées en colonnes verticales le long de la cuve, mentionnent l'identité du propriétaire, ses titres civils ou religieux, ainsi que des formules rituelles issues du Livre des Morts. Ces textes garantissent au défunt l'accès aux champs d'Ialou et la subsistance nécessaire dans sa vie posthume.</p>
+    <p>Ces œuvres illustrent parfaitement la fonction de la statuaire funéraire égyptienne. Au-delà de simples cercueils, ils font office de corps de substitution magique. En cas de destruction de la momie physique, l'esprit du mort peut s'incarner dans cette enveloppe de pierre pour continuer à recevoir les offrandes et maintenir son existence dans le monde invisible.</p>
+    <p><strong>Siècle :</strong> VIIe – IVe siècle av. J.-C. (vers -550) | <strong>Civilisation :</strong> Égypte antique (Basse Époque) | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "funeraire_couvercle_sarcophage_anthropoide_calcaire_saite_caire",
+    civId: "egypte",
+    periodId: "egypte_tardive",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "Basse Époque (VIIe – IVe siècle av. J.-C. / XXVIe – XXXe dynastie)",
+    centuryDisplay: "VIIe – IVe s. av. J.-C.",
+    centuryNumeric: -500,
+    domain: "funeraire",
+    artifactType: "Sarcophage humain (cuve, bois, pierre)",
+    title: "Couvercle de sarcophage anthropoïde au sourire saïte en calcaire fin (Musée égyptien du Caire)",
+    site: "Musée égyptien du Caire",
+    originSite: "Saqqarah",
+    locationType: "museum",
+    currentLocation: "Musée égyptien du Caire",
+    category: "Couvercle de sarcophage anthropoïde en calcaire",
+    isHighlight: false,
+    chips: ["Basse Époque", "Sarcophage calcaire", "Sourire saïte", "Perruque tripartite", "Saqqarah", "Musée du Caire"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNwRo98_a62NiOyqKdidlzTZT_4KB_icQeUVQU-GY0Ytyvt23kWg4wMR_HZh-wjynZ5fRMUm5ly8sH0rMCtEhudY2XmAyvpje4iM-7d4n93H401I2U8zOkqFbrW2rc6wxlIDRzW3WU-unNEKevyXFLMeA=w613-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce couvercle de sarcophage anthropoïde en calcaire fin illustre la perfection plastique atteinte par les sculpteurs de Saqqarah à la Basse Époque. Taillé dans un calcaire dense soigneusement lissé, il traduit la métamorphose de l'enveloppe charnelle du défunt en un corps impérissable placé sous la garde d'Osiris.</p>
+    <p>Le visage, aux paupières étirées et au nez droit, présente le subtil sourire dit « saïte », expression de béatitude et d'apaisement intérieur acquise après le passage victorieux devant le tribunal divin. La lourde perruque tripartite aux mèches régulières enserre la tête et retombe de part et d'autre des épaules, encadrant un menton qui portait autrefois la barbe postiche tressée des bienheureux.</p>
+    <p>La surface de la cuve, laissée lisse ou discrètement incisée de textes liturgiques, forme un plastron solennel qui protégeait magiquement la momie au fond du caveau funéraire, témoignant de la persistance des croyances à l'immortalité jusqu'aux derniers siècles de l'indépendance pharaonique.</p>
+    <p><strong>Siècle :</strong> VIe – Ve siècle av. J.-C. (vers -500) | <strong>Civilisation :</strong> Égypte antique (Basse Époque) | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "funeraire_sarcophage_grauwacke_djedhor_saqqarah_caire",
+    civId: "egypte",
+    periodId: "egypte_tardive",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "XXXe dynastie (vers -340 av. J.-C. / règne de Nectanébo II)",
+    centuryDisplay: "IVe s. av. J.-C.",
+    centuryNumeric: -340,
+    domain: "funeraire",
+    artifactType: "Sarcophage humain (cuve, bois, pierre)",
+    title: "Cuve de sarcophage en grauwacke gravée du scribe royal Djedhor (Saqqarah, Musée égyptien du Caire)",
+    site: "Musée égyptien du Caire",
+    originSite: "Nécropole de Saqqarah",
+    locationType: "museum",
+    currentLocation: "Musée égyptien du Caire (JE 38358)",
+    category: "Sarcophage en grauwacke (schiste vert) gravée",
+    isHighlight: true,
+    chips: ["XXXe dynastie", "Djedhor", "Scribe royal", "Saqqarah", "Grauwacke", "Livre des Morts", "Musée du Caire"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczO-X5ukZHtkEG2yr7uvcgiL7XYwLVIKEK1nn6HfFYsN2WeMi_BQELoWZI5VLkjTqFZF0ScI_Mbrv97sxB46-X_AZISJyuHq8g-XKjRkHZG-LdOqLdTN9BlZHi-fdBVxawVm077tM-0xLUBkKjsUUovGKA=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce sarcophage massif en grauwacke (une pierre sombre et dense souvent appelée schiste vert) appartient à un haut dignitaire nommé Djedhor, qui exerçait des fonctions de scribe royal et de prêtre à Saqqarah vers 340 av. J.-C.. L'œuvre se distingue par la finesse exceptionnelle de ses gravures, réalisées à une époque où l'art égyptien de la Basse Époque atteint une forme de perfection technique et de classicisme.</p>
+    <p>Le décor extérieur de la cuve est entièrement consacré au cycle solaire et au passage du défunt dans le monde souterrain. On y voit des registres horizontaux de hiéroglyphes surmontant des scènes mythologiques complexes, où des divinités et des génies protecteurs, tenant souvent le signe ankh (vie), convergent vers les extrémités du monument pour veiller sur le corps. La précision des inscriptions, gravées en creux, servait de protection magique éternelle pour le propriétaire.</p>
+    <p>Sur les parois intérieures, le sarcophage présente des représentations symboliques fortes, notamment la déesse de l'Occident accueillant le défunt. Le revers du couvercle accueillait traditionnellement une image de la déesse du ciel, Nout, étendue nue pour protéger la momie et symboliser la renaissance quotidienne du soleil, un motif récurrent sur les grandes cuves en pierre de cette période.</p>
+    <p>Cette pièce, aujourd'hui conservée au musée égyptien du Caire, témoigne de l'importance du culte funéraire à Saqqarah à la fin de l'époque pharaonique. Elle illustre parfaitement le prestige de Djedhor, dont les titres de « scribe du tribunal » et de « scribe royal » soulignent son rang élevé au sein de l'administration et du clergé de l'époque.</p>
+    <p><strong>Siècle :</strong> IVe siècle av. J.-C. (-340) | <strong>Civilisation :</strong> Égypte antique (XXXe dynastie / Basse Époque) | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "funeraire_cercueil_bois_imhotep_saqqarah_musee_imhotep",
+    civId: "egypte",
+    periodId: "egypte_tardive",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "XXXe dynastie (vers -360 av. J.-C. / règne de Nectanébo II)",
+    centuryDisplay: "IVe s. av. J.-C.",
+    centuryNumeric: -360,
+    domain: "funeraire",
+    artifactType: "Sarcophage humain (cuve, bois, pierre)",
+    title: "Cercueil anthropomorphe en bois massif d'Imhotep (Saqqarah, Musée Imhotep)",
+    site: "Musée Imhotep (Saqqarah)",
+    originSite: "Secteur nord-ouest de Saqqarah",
+    locationType: "museum",
+    currentLocation: "Musée Imhotep, Saqqarah",
+    category: "Cercueil anthropoïde en bois sculpté",
+    isHighlight: false,
+    chips: ["XXXe dynastie", "Imhotep", "Nectanébo II", "Bois massif", "Barbe postiche", "Saqqarah", "Musée Imhotep"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOBzilBME7lLhk7X3lo3X1lCWB8SH8KJDsT_fhpma5Z-YftLPLkG6Yvp-WkKnvQ_aF1cq7Go_fo4eOLYAwMbCyUxx50k3J9jRkHtnUDtueP0uuS-BWcJZSMKcAb5J3-Suls7hzirOu06Cx7wZ0gH-cAOA=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Bien que portant le même nom que le célèbre architecte de la pyramide à degrés, ce défunt était un contemporain du règne de Nectanébo II, le dernier pharaon d'origine égyptienne.</p>
+    <p>Le cercueil est réalisé en bois massif, un matériau précieux souvent importé, et présente une forme anthropomorphe (momiforme) qui épouse les contours du corps. Le visage est sculpté avec un réalisme sobre caractéristique de la Basse Époque, montrant des traits calmes et une barbe postiche, symbole de l'identification du défunt au dieu Osiris. La surface du bois, autrefois peut-être peinte ou dorée, laisse aujourd'hui apparaître la texture naturelle de la fibre, témoignant de la qualité du travail de menuiserie de l'époque.</p>
+    <p>Sur le couvercle, une colonne d'inscriptions hiéroglyphiques ou démotiques permet d'identifier le propriétaire et d'invoquer la protection des divinités funéraires. Ce type de cercueil était généralement placé dans une niche ou un caveau au fond d'un puits funéraire profond, entouré d'offrandes et de statuettes protectrices pour assurer la survie de l'âme dans l'au-delà. La découverte de cette pièce intacte dans le secteur nord-ouest de Saqqarah a fourni des informations précieuses sur les traditions de la noblesse memphite juste avant la période ptolémaïque.</p>
+    <p>Aujourd'hui, ce chef-d'œuvre est l'une des pièces maîtresses du Musée Imhotep à Saqqarah. Son exposition dans ce musée moderne souligne la continuité des pratiques funéraires sur le plateau de Saqqarah, un site resté actif comme centre de dévotion et de sépulture pendant plus de trois millénaires.</p>
+    <p><strong>Siècle :</strong> IVe siècle av. J.-C. (-360) | <strong>Civilisation :</strong> Égypte antique (XXXe dynastie / Basse Époque) | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "funeraire_sarcophage_wennefer_livre_amdouat_saqqarah_caire",
+    civId: "egypte",
+    periodId: "egypte_tardive",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "XXXe dynastie au début de l'époque ptolémaïque (vers -340 à -304 av. J.-C.)",
+    centuryDisplay: "IVe s. av. J.-C.",
+    centuryNumeric: -320,
+    domain: "funeraire",
+    artifactType: "Sarcophage humain (cuve, bois, pierre)",
+    title: "Sarcophage en granodiorite gravé du Livre de l'Amdouat du dignitaire Wennefer (Saqqarah, Musée égyptien du Caire)",
+    site: "Musée égyptien du Caire",
+    originSite: "Saqqarah (près de la chaussée du Sérapéum)",
+    locationType: "museum",
+    currentLocation: "Musée égyptien du Caire",
+    category: "Sarcophage monumental en granodiorite gravée",
+    isHighlight: true,
+    chips: ["XXXe dynastie", "Wennefer", "Saqqarah", "Granodiorite", "Livre de l'Amdouat", "Âme-Ba", "Déesse Nout", "Musée du Caire"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNqLkkbgZCCKBv0Zr8BLdVf-6G5AjlMR-pTDei3c_gc1c_QhcH9Q178aHbqhWgVATUXY6U1fyUTVfQ-ONLBDKqwJRXD6ueSy48huL6P_KLuuYbHVCPqBUoZRRc7T2mEJOWmfXS7YU5Aco4l_IXeKNSiZQ=w613-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce sarcophage massif en granodiorite ou granite sombre appartient à un haut fonctionnaire nommé Wennefer, dont la tombe a été mise au jour à Saqqarah, près de la chaussée menant au Sérapéum. Daté de la XXXe dynastie ou du début de l'époque ptolémaïque (vers 380-300 av. J.-C.), ce monument funéraire illustre la maîtrise technique exceptionnelle des artisans de la Basse Époque dans le travail des pierres les plus dures. L'œuvre se caractérise par une forme trapézoïdale imposante, typique des grandes sépultures de dignitaires de cette période charnière de l'histoire égyptienne.</p>
+    <p>Le décor extérieur de la cuve est une prouesse de gravure, recouvrant presque chaque centimètre de la surface avec des textes et des illustrations du Livre de l'Amdouat. Ces inscriptions décrivent minutieusement le voyage nocturne du dieu solaire à travers les douze heures de la nuit dans le monde souterrain. On y voit le dieu Rê dans sa barque sacrée, entouré d'une multitude de divinités et de génies protecteurs dont la mission est de repousser les forces du chaos pour permettre la renaissance du soleil à l'aube.</p>
+    <p>Le couvercle du sarcophage porte des textes issus du Livre des Morts, destinés à garantir la transformation du défunt en un esprit glorieux et efficace dans l'au-delà. Une représentation remarquable de l'aspect Ba de Wennefer — son âme sous la forme d'un oiseau à tête humaine — y est gravée, symbolisant sa capacité à se déplacer librement entre les mondes. À l'intérieur du couvercle, la déesse du ciel Nout déploie son corps au-dessus de la momie pour lui offrir sa protection éternelle, un motif qui transforme le sarcophage en un véritable microcosme.</p>
+    <p>Découvert au début du XXe siècle, ce sarcophage est l'un des fleurons des collections de la Basse Époque, témoignant du prestige immense de Wennefer à la cour memphite. La précision des hiéroglyphes et la complexité des tableaux mythologiques gravés dans la pierre sombre font de cet objet non seulement un réceptacle funéraire, mais aussi un traité théologique complet sur la survie de l'âme.</p>
+    <p><strong>Siècle :</strong> IVe siècle av. J.-C. (vers -320) | <strong>Civilisation :</strong> Égypte antique (XXXe dynastie / Basse Époque) | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "funeraire_momie_elements_cartonnage_polyhrome_saqqarah_musee_imhotep",
+    civId: "egypte",
+    periodId: "egypte_ptolemaique",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "Époque ptolémaïque (vers -300 av. J.-C. / début dynastie lagide)",
+    centuryDisplay: "IVe – IIIe s. av. J.-C.",
+    centuryNumeric: -300,
+    domain: "funeraire",
+    artifactType: "Masque funéraire & Cartonnage",
+    title: "Momie parée de ses éléments de cartonnage découpé polychrome (Saqqarah, Musée Imhotep)",
+    site: "Musée Imhotep (Saqqarah)",
+    originSite: "Plateau de Saqqarah",
+    locationType: "museum",
+    currentLocation: "Musée Imhotep, Saqqarah",
+    category: "Momie humaine et parures de cartonnage stuqué et peint",
+    isHighlight: false,
+    chips: ["Époque ptolémaïque", "Momie", "Cartonnage", "Scarabée ailé", "Collier Ousekh", "Khépri", "Saqqarah", "Musée Imhotep"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNsg-gbTPyqj6_Takw26eQhnhzM0oj0pzwL9QUhcXlpA4ijxA3TKYBd4rZ19C_Kgc8vKSBPvwwj1VfmbBaIpe4w9i6MI7HLbb8eLQDYesnPicQNH_Cxy-3XwE6pZLTVEJVdNyiOuAzk0ZrFHjN9SfPBaQ=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Durant cette période ptolémaïque, le corps embaumé n'est plus systématiquement enfermé dans un sarcophage massif, mais protégé par des éléments de cartonnage — un matériau composite fait de couches de lin ou de papyrus encollées et recouvertes de plâtre — qui épousent la forme du défunt.</p>
+    <p>Le cartonnage est ici divisé en plusieurs pièces distinctes et richement décorées qui sont fixées directement sur les bandelettes de la momie. La pièce principale est le masque funéraire, qui présente un visage idéalisé aux traits sereins, souvent rehaussé d'or ou de jaune pour symboliser la chair divine et éternelle. Le défunt porte une lourde perruque tripartite bleue, couleur de l'azur et du sacré, qui encadre un large collier ousekh peint avec une grande précision géométrique.</p>
+    <p>Sur le plastron recouvrant la poitrine, on observe une iconographie religieuse complexe destinée à assurer la renaissance du mort. Un scarabée ailé, symbole du dieu Khépri et du soleil levant, déploie ses ailes pour protéger le cœur du défunt, tandis que des registres horizontaux illustrent diverses divinités protectrices et des motifs de fleurs de lotus. Les couleurs vives — rouge, jaune, bleu et vert — conservent un éclat remarquable, témoignant de la maîtrise des pigments minéraux par les artisans de l'époque.</p>
+    <p>Ces parures « découpées » permettaient d'identifier le mort à Osiris, le dieu des morts, tout en facilitant son passage vers l'au-delà grâce aux formules et symboles magiques inscrits sur les différentes pièces. Cet ensemble constitue un exemple raffiné de l'art funéraire alexandrin, où les traditions millénaires de l'Égypte s'adaptent aux nouvelles modes esthétiques de la période grecque.</p>
+    <p><strong>Siècle :</strong> IVe – IIIe siècle av. J.-C. (-300) | <strong>Civilisation :</strong> Égypte antique (Époque ptolémaïque / Lagide) | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "funeraire_masque_cartonnage_dore_fin_ptolemaique_alexandrie",
+    civId: "egypte",
+    periodId: "egypte_ptolemaique",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "Fin de l'époque ptolémaïque (vers -50 av. J.-C. / Ier siècle av. J.-C.)",
+    centuryDisplay: "Ier s. av. J.-C.",
+    centuryNumeric: -50,
+    domain: "funeraire",
+    artifactType: "Masque funéraire & Cartonnage",
+    title: "Masque funéraire en cartonnage doré à la feuille et polychromie hellénistique (Musée gréco-romain d'Alexandrie)",
+    site: "Musée gréco-romain d'Alexandrie",
+    originSite: "Alexandrie ou Nécropole du Fayoum",
+    locationType: "museum",
+    currentLocation: "Musée gréco-romain, Alexandrie",
+    category: "Masque funéraire en cartonnage stuqué, doré et peint",
+    isHighlight: false,
+    chips: ["Époque ptolémaïque", "Masque funéraire", "Cartonnage doré", "Feuille d'or", "Syncrétisme hellénistique", "Alexandrie"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMqdAkfmmKDZAotXpsIX6uK2NKkS8wMFmqe2YrkzEDdjXXtgZunPb8TeNm-osImcFJt3NNUtG064j2IjheqB9ij1q7tW3EGlt9vTus1pV2rSiS4Qmpjw1csu2bK8Gp5zsaNQHR7WDgZtydV9aRzgxuvng=w613-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce masque funéraire, datant approximativement de 50 avant J.-C., appartient à la fin de la période ptolémaïque ou au tout début de l'occupation romaine. À cette époque charnière, l'Égypte est sous l'influence directe de la culture hellénistique, ce qui se traduit par un style artistique hybride où les codes égyptiens millénaires rencontrent le réalisme gréco-romain. Ce type de masque servait à protéger la tête de la momie tout en offrant au défunt un visage transfiguré pour l'éternité.</p>
+    <p>Le masque est réalisé en cartonnage, un matériau composé de couches de lin ou de papyrus encollées, puis recouvert de plâtre et de feuilles d'or. L'utilisation de l'or est ici fondamentale : elle ne souligne pas seulement la richesse du défunt, mais transforme son visage en celui d'une divinité solaire, la chair des dieux étant réputée être faite d'or. Contrairement aux époques plus anciennes, le modelé du visage gagne en volume et en rondeur, avec des traits qui commencent à s'individualiser.</p>
+    <p>La coiffe et le buste sont ornés de motifs protecteurs traditionnels, mais leur exécution stylisée est typique de la fin de l'époque ptolémaïque. On y retrouve souvent des représentations de divinités comme Osiris ou les fils d'Horus, peintes avec des pigments vifs qui contrastent avec l'éclat du métal précieux. Les yeux, autrefois incrustés de pierres, sont ici peints avec une grande attention portée au regard, cherchant à établir un lien entre le monde des vivants et celui des morts.</p>
+    <p>Cette œuvre témoigne de la résilience des croyances funéraires égyptiennes qui, malgré les changements dynastiques et l'influence de la Grèce puis de Rome, conservent leur fonction essentielle : assurer la survie de l'âme à travers la préservation de l'image corporelle. Elle illustre parfaitement le prestige des élites d'Alexandrie et du Fayoum à la veille de l'intégration complète de l'Égypte dans l'Empire romain.</p>
+    <p><strong>Siècle :</strong> Ier siècle av. J.-C. (-50) | <strong>Civilisation :</strong> Égypte antique (Époque ptolémaïque / Lagide) | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "funeraire_enveloppe_momie_cartonnage_dore_akhmim_louvre",
+    civId: "egypte",
+    periodId: "egypte_ptolemaique",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "Époque ptolémaïque (vers -250 à -150 av. J.-C. / IIIe – IIe siècle av. J.-C.)",
+    centuryDisplay: "IIIe – IIe s. av. J.-C.",
+    centuryNumeric: -200,
+    domain: "funeraire",
+    artifactType: "Masque funéraire & Cartonnage",
+    title: "Enveloppe de momie complète en cartonnage entièrement doré à la feuille (Akhmîm, Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Akhmîm (Panopolis, Haute-Égypte)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes)",
+    category: "Enveloppe de momie en cartonnage stuqué et doré",
+    isHighlight: true,
+    chips: ["Époque ptolémaïque", "Akhmîm", "Cartonnage doré", "Feuille d'or", "Déesse ailée", "Osiris", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMTji87Sb9NAsFLBMlNHgaoHifjhQPaocBne0lRKUwDSmzYsYdKkj66AlTlyF_LvpV8oG4IiSgmHHIfcVXJeJ5RDhFhUmJ_HmsDdrOFKbFk-MaDaqK7cgQVYDsXmek-GvuqBnv0WrcCBRfz6Kb0eAcq4w=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette enveloppe de cartonnage doré, datant de l'époque ptolémaïque, constitue un témoignage exceptionnel du luxe funéraire égyptien durant la période hellénistique, probablement issue des ateliers d'Akhmîm. Conçue pour épouser la forme de la momie, elle est réalisée selon la technique du cartonnage, un assemblage de couches de lin ou de papyrus plâtrées, ici entièrement recouvert d'une fine feuille d'or. Le visage du défunt est idéalisé, présentant des traits sereins, des yeux soulignés de noir et une barbe postiche tressée qui l'assimile à Osiris, dieu des morts. La tête est couverte d'une perruque tripartite finement striée, surmontée par un large collier ousekh composé de multiples rangées de perles et de motifs floraux stylisés qui s'étendent sur les épaules et la poitrine.</p>
+    <p>Le corps de l'enveloppe est divisé en plusieurs registres horizontaux et verticaux d'une grande richesse iconographique, repoussés avec précision dans le métal précieux. Sous le grand collier, une déesse ailée, probablement Nout ou Isis, déploie ses ailes pour protéger le défunt, surmontant des scènes rituelles complexes. Ces registres illustrent le voyage dans l'au-delà et les divinités funéraires veillant sur la dépouille, accompagnés de colonnes de textes hiéroglyphiques contenant des formules de protection. L'usage intensif de l'or n'avait pas qu'une fonction esthétique ou sociale : il servait à rendre le corps divin et incorruptible, la chair des dieux étant supposée être faite de ce métal inaltérable.</p>
+    <p><strong>Siècle :</strong> IIIe – IIe siècle av. J.-C. (vers -200) | <strong>Civilisation :</strong> Égypte antique (Époque ptolémaïque / Lagide) | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "funeraire_momie_linceul_peint_cleopatre_famille_soter_thebes_british_museum",
+    civId: "egypte",
+    periodId: "egypte_romaine",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "Époque romaine (vers 100 – 120 ap. J.-C. / IIe siècle ap. J.-C.)",
+    centuryDisplay: "IIe s. ap. J.-C.",
+    centuryNumeric: 110,
+    domain: "funeraire",
+    artifactType: "Sarcophage humain (cuve, bois, pierre)",
+    title: "Momie de Cléopâtre, fille de Candace de la famille de Sôter, sous son linceul peint (Thèbes, British Museum)",
+    site: "British Museum (Londres)",
+    originSite: "Tombe familiale de Sôter (Gourna, Thèbes-Ouest)",
+    locationType: "museum",
+    currentLocation: "British Museum, Londres (Département de l'Égypte et du Soudan, EA 6707)",
+    category: "Momie humaine sous linceul de lin peint et réseau de bandelettes",
+    isHighlight: true,
+    chips: ["Égypte romaine", "Cléopâtre de Thèbes", "Famille de Sôter", "Linceul peint", "Déesse Nout", "Bandelettes croisées", "British Museum"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1EjnwS0_C2N95iY8FGNrH7N7lHnEDPG57",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczN9Yai8PB6EJsr-BDvCv8-amDw6ITS9V3QC4UEmjQBFYYuQTBz7A-zFbwFvhaT_8Xmw0mLWcT9ZdGAS5qRq7wImlvW-Kav9vx31bEqY9bHnXP0tEUMdBOis0RlGqJcjGZfKVvUKytxMcAVKuhRMjfzn7g=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette momie, appartenant à une jeune femme nommée Cléopâtre issue d'une famille notable de Thèbes, représente l'un des exemples les plus raffinés des coutumes funéraires de l'Égypte romaine. Bien que portant un nom célèbre, elle n'est pas la reine mythique mais une membre de la famille de l'archonte Sôter. Sa dépouille illustre parfaitement la transition culturelle où les rites ancestraux égyptiens se mêlent aux influences artistiques gréco-romaines. Le corps est enveloppé dans un linceul peint d'une grande richesse iconographique, maintenu par un réseau de bandelettes de lin disposées de manière transversale, laissant apparaître des scènes religieuses destinées à guider la défunte vers l'éternité.</p>
+    <p>Le linceul est orné d'un portrait de la défunte sur la partie supérieure, montrant un visage aux grands yeux soulignés, caractéristique du style de cette époque, avec une coiffure élaborée ornée d'un diadème. En dessous, une série de registres peints déploie un programme théologique complexe. On y distingue des divinités protectrices et des scènes de présentation aux dieux de l'au-delà. La présence notable d'une figure ailée, probablement Nout ou Isis, s'étendant sur la poitrine, symbolise la protection divine et la régénération. Les couleurs, bien que patinées par le temps, conservent des pigments ocres, rouges et noirs qui soulignent la qualité de la commande funéraire.</p>
+    <p>La structure de la momie est particulièrement intéressante par son aspect « enveloppé » qui laisse deviner la forme humaine tout en la sacralisant sous une carapace de textile et de peinture. À l'origine, cette momie reposait dans un cercueil en bois richement décoré d'un zodiaque, témoignant de l'importance de l'astronomie et de l'astrologie dans la pensée religieuse tardive. L'ensemble constitue un document archéologique précieux sur la vie de l'élite thébaine au IIe siècle, période où le soin apporté à la parure du corps momifié atteignait des sommets de sophistication picturale, transformant la réalité biologique en une image divine immuable.</p>
+    <p><strong>Siècle :</strong> IIe siècle ap. J.-C. (vers 110) | <strong>Civilisation :</strong> Égypte romaine & Antiquité tardive | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+   {
     id: "funeraire_cercueil_argent_massif_psousennes_ier_tanis_caire",
     civId: "egypte",
     periodId: "egypte_tardive",
