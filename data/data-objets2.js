@@ -4,6 +4,335 @@
 window.ART_OBJECTS = [
   
    {
+    id: "funeraire_ensemble_masque_dore_plastron_cercueil_romain_alexandrie",
+    civId: "egypte",
+    periodId: "egypte_romaine",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "Époque romaine (Ier – IIe siècle ap. J.-C.)",
+    centuryDisplay: "Ier – IIe s. ap. J.-C.",
+    centuryNumeric: 120,
+    domain: "funeraire",
+    artifactType: "Masque funéraire & Cartonnage",
+    title: "Ensemble funéraire d'époque romaine : masque en plâtre doré à couronne florale, plastron et cercueil (Musée gréco-romain d'Alexandrie)",
+    site: "Musée gréco-romain d'Alexandrie",
+    originSite: "Nécropoles d'Alexandrie ou Moyenne-Égypte",
+    locationType: "museum",
+    currentLocation: "Musée gréco-romain, Alexandrie",
+    category: "Mobilier et parures funéraires de l'Égypte romaine",
+    isHighlight: false,
+    chips: ["Égypte romaine", "Masque doré", "Plastron", "Déesse Nout", "Fils d'Horus", "Alexandrie", "Musée gréco-romain"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1EjnwS0_C2N95iY8FGNrH7N7lHnEDPG57",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPhZEYogZWIy5HxnC0UUScdUhv1v1J1V3A8q-z6mDyZoyvgj2qzDlpbTwWpD7bLH-BECxdA2SeXYbsazJFDfFCsFtuwV7dNmZS-Bm0Yxo2AvLwugoBPIczaCG1FNT4T68Y5kCeAOdyVrGM0s7fZwG_a0g=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ces œuvres, récemment réinstallées dans le parcours du Musée gréco-romain d'Alexandrie, illustrent la persistance des rites funéraires pharaoniques durant la période ptolémaïque et le début de l'époque romaine. À cette époque, les traditions égyptiennes se mêlent à des influences stylistiques méditerranéennes, créant des objets hybrides où la symbolique ancienne reste le socle de la quête de l'éternité. Ces pièces proviennent souvent de nécropoles alexandrines ou de sites de la Moyenne-Égypte où les élites locales continuaient de pratiquer la momification.</p>
+    <p>Le masque funéraire en plâtre doré, orné d'une couronne de fleurs colorées, est un exemple frappant de ce style syncrétique. Si la dorure du visage rappelle la chair éternelle des dieux de l'Égypte ancienne, la chevelure bouclée et la couronne végétale s'inspirent directement des modes romaines du Ier ou IIe siècle de notre ère. Ces masques, dits « de type alexandrin », visaient à conserver une image idéalisée mais reconnaissable du défunt, tout en lui conférant un statut divin à travers l'éclat de l'or.</p>
+    <p>À côté du masque se trouve un plastron de momie richement décoré, destiné à être posé sur les bandelettes de lin. Ce plastron est orné de scènes protectrices traditionnelles, notamment la déesse Nout aux ailes déployées et les représentations des fils d'Horus, garants de la préservation des organes. Bien que l'exécution soit plus schématique que sous les grandes dynasties pharaoniques, l'utilisation de couleurs vives comme le bleu égyptien et le rouge ocre montre une volonté de respecter scrupuleusement les codes magiques indispensables au voyage dans l'au-delà.</p>
+    <p>Le cercueil anthropomorphe visible en bas de la vitrine présente un décor foisonnant où les hiéroglyphes cohabitent avec des représentations divines. On y distingue des scènes d'adoration aux dieux Osiris et Anubis, soulignant que malgré le changement de domination politique, les dieux de la mort et de la résurrection égyptiens restaient les seuls maîtres du destin post-mortem. Ces ensembles funéraires complets témoignent de la richesse des habitants d'Alexandrie et de leur attachement profond à une immortalité assurée par les rituels millénaires du pays des pharaons.</p>
+    <p><strong>Siècle :</strong> Ier – IIe siècle ap. J.-C. (vers 120) | <strong>Civilisation :</strong> Égypte romaine & Antiquité tardive | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "funeraire_momie_cartonnage_dore_bandelettes_losanges_alexandrie",
+    civId: "egypte",
+    periodId: "egypte_romaine",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "Époque romaine (Ier – IIe siècle ap. J.-C.)",
+    centuryDisplay: "Ier – IIe s. ap. J.-C.",
+    centuryNumeric: 120,
+    domain: "funeraire",
+    artifactType: "Masque funéraire & Cartonnage",
+    title: "Momie d'époque romaine sous son cartonnage stuqué et doré à réseau de bandelettes en losanges (Musée gréco-romain d'Alexandrie)",
+    site: "Musée gréco-romain d'Alexandrie",
+    originSite: "Alexandrie ou Fayoum",
+    locationType: "museum",
+    currentLocation: "Musée gréco-romain, Alexandrie",
+    category: "Momie humaine et parures de cartonnage doré d'époque romaine",
+    isHighlight: false,
+    chips: ["Égypte romaine", "Momie", "Cartonnage doré", "Anubis", "Taureau Apis", "Collier Ousekh", "Musée gréco-romain"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1EjnwS0_C2N95iY8FGNrH7N7lHnEDPG57",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNar2y_7WBcBXdLuoB7B0jW2QIgMOTAFUe1Edrb6iVYkPUimGL-SnUkJkjnv0IAoKG8e27B1E_aukoUofpGfBMwbDkoB6rQUuhFwVzkcVpiplfPm4-Z2YSLXhNR04h2WQDwoxMp4cTC1-adfV4JxnzeiQ=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette momie, présentée dans les galeries du Musée gréco-romain d'Alexandrie, illustre la phase ultime de l'évolution des pratiques funéraires égyptiennes durant la période romaine (Ier - IIIe siècle après J.-C.). À cette époque, si les techniques de momification traditionnelles perdurent, l'esthétique du défunt se transforme radicalement pour intégrer les codes visuels du monde romain. Le corps est ici protégé par un cartonnage stuqué et doré qui ne cherche plus à reproduire une forme humaine stylisée, mais devient un support narratif et décoratif complexe.</p>
+    <p>Le plastron supérieur est orné d'un collier ousekh peint avec des couleurs vives, principalement le rouge et le bleu, encadrant des motifs géométriques et floraux. Sur la partie ventrale, des scènes mythologiques traditionnelles sont représentées en relief ou en peinture, mettant souvent en scène le dieu Anubis préparant la momie ou le taureau Apis transportant le défunt vers sa demeure éternelle. La dorure omniprésente sur ces éléments rappelle que le mort, une fois passé dans l'au-delà, accède à une nature divine et solaire.</p>
+    <p>La tête de la momie est recouverte d'un masque en plâtre peint dont les traits sont beaucoup plus individualisés que sous les dynasties pharaoniques. La coiffure, souvent composée de boucles serrées, et le port d'une couronne de fleurs ou de lauriers sont des marques de prestige typiquement romaines. Dans certains cas, ce masque pouvait être remplacé par un portrait peint sur bois, dit « portrait du Fayoum », inséré directement sur les bandelettes au niveau du visage, créant un lien saisissant entre le réalisme du portrait et le caractère sacré de la momie.</p>
+    <p>L'ensemble du corps est enveloppé dans un réseau complexe de bandelettes de lin, formant parfois des motifs en losanges d'une grande précision technique. Cette présentation soignée souligne l'importance accordée à la préservation de l'intégrité physique pour assurer la survie de l'âme. Ces momies alexandrines constituent un témoignage fascinant de la fusion culturelle entre l'Égypte millénaire et l'Empire romain, où la quête de l'immortalité reste une préoccupation centrale exprimée à travers un langage artistique nouveau.</p>
+    <p><strong>Siècle :</strong> Ier – IIe siècle ap. J.-C. (vers 120) | <strong>Civilisation :</strong> Égypte romaine & Antiquité tardive | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "funeraire_momie_ligatures_resille_toile_peinte_british_museum",
+    civId: "egypte",
+    periodId: "egypte_romaine",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "Époque romaine (Ier – IIe siècle ap. J.-C.)",
+    centuryDisplay: "Ier – IIe s. ap. J.-C.",
+    centuryNumeric: 120,
+    domain: "funeraire",
+    artifactType: "Masque funéraire & Cartonnage",
+    title: "Momie humaine d'époque romaine au savant réseau de bandelettes entrecroisées et masque de toile peinte (British Museum)",
+    site: "British Museum (Londres)",
+    originSite: "Haute ou Moyenne-Égypte",
+    locationType: "museum",
+    currentLocation: "British Museum, Londres (Département de l'Égypte et du Soudan)",
+    category: "Momie humaine et appareil textile funéraire romain",
+    isHighlight: false,
+    chips: ["Égypte romaine", "Momie", "Bandelettes entrecroisées", "Masque de toile", "Résille textile", "British Museum"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1EjnwS0_C2N95iY8FGNrH7N7lHnEDPG57",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPVeJVlA_QPEkD7gd8r-0zzZU89jjw0TrpHEVc8m7ZxOPMBoPThAX_U_9QcG9qfDi8kPlsB4OZiqjrnoCUBxFdEqRgJDwpm9qB21OnmZmG9BNPYb39ENIr8nwqSH4B875bu9Z5qrp96Gy2e92yPCHy3_Q=w613-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette momie humaine de l'époque romaine témoigne d'une approche singulière du traitement du corps, où l'esthétique textile cherche à souligner l'anatomie du défunt plutôt qu'à la dissimuler sous un coffrage rigide. Contrairement aux momies des époques antérieures souvent enfermées dans des cartonnages tubulaires, ce spécimen présente un enveloppement qui moule les formes naturelles. Le travail des bandelettes de lin est ici particulièrement élaboré, avec un système de ligatures sombres qui s'entrecroisent sur le buste et les jambes, évoquant une sorte de vêtement rituel ou de parure complexe destinée à maintenir l'intégrité physique pour l'éternité.</p>
+    <p>Le visage est recouvert d'un masque de toile peinte qui, tout en respectant les codes de la momification, adopte un style graphique propre à la période tardive. Les traits sont stylisés avec de larges sourcils sombres et des yeux en amande très marqués, visant à donner un aspect vivant et vigilant au mort. Des traces de dorure ou de pigments rougeâtres subsistent sur le masque, symbolisant la chair divine et l'éclat solaire associé à la renaissance. Le soin apporté aux extrémités est tout aussi remarquable : les mains et les pieds sont enveloppés de manière à isoler chaque volume, et les chevilles semblent enserrées par des bandelettes décoratives imitant des sandales ou des ornements de cheville.</p>
+    <p>L'ensemble dégage une impression de réalisme saisissant, accentué par la position allongée qui rend le corps presque présent. On observe sur les avant-bras un entrelacement très serré de fils plus foncés, créant un motif de résille qui témoigne de la haute technicité des embaumeurs-tisseurs de l'Égypte romaine. Ce type de momification était réservé à une classe sociale aisée capable de s'offrir un travail artisanal aussi minutieux. La momie repose sur un support moderne, mais sa structure d'origine était conçue pour être placée dans un cercueil de bois ou une niche funéraire, protégée par les dieux dont les symboles étaient souvent peints sur les linceuls sous-jacents.</p>
+    <p><strong>Siècle :</strong> Ier – IIe siècle ap. J.-C. (vers 120) | <strong>Civilisation :</strong> Égypte romaine & Antiquité tardive | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "funeraire_buste_masque_momie_romain_tunique_rouge_couronne_caire",
+    civId: "egypte",
+    periodId: "egypte_romaine",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "Époque romaine (Ier – IIe siècle ap. J.-C.)",
+    centuryDisplay: "Ier – IIe s. ap. J.-C.",
+    centuryNumeric: 120,
+    domain: "funeraire",
+    artifactType: "Masque funéraire & Cartonnage",
+    title: "Buste funéraire de momie en stuc peint à la tunique rouge et couronne végétale (Musée égyptien du Caire)",
+    site: "Musée égyptien du Caire",
+    originSite: "Moyenne-Égypte ou Fayoum",
+    locationType: "museum",
+    currentLocation: "Musée égyptien du Caire",
+    category: "Masque et plastron funéraire en stuc peint",
+    isHighlight: false,
+    chips: ["Égypte romaine", "Masque funéraire", "Tunique rouge", "Couronne florale", "Syncrétisme", "Stuc peint", "Musée du Caire"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1EjnwS0_C2N95iY8FGNrH7N7lHnEDPG57",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczM2Dwxm7S6ZpwEZHYfSaJzfyJhKbWT9ZN6qBlfjO1xtL_RqIznrjgVk3Vn_pXh9yEOQVzNI-h-MjRsd1uee_wWNAVCW1Me8dQDSAJHokwKbrguFWEN5jz2WF7YV_ZAIckjUjuY2gtnkE6VWlA9cEO9nMw=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce buste de momie, exposé au Musée égyptien du Caire, appartient à la catégorie des masques funéraires de l'époque romaine, datant probablement du Ier ou IIe siècle de notre ère. Contrairement aux masques de l'Égypte pharaonique, cette pièce témoigne d'un syncrétisme fascinant entre les traditions locales et l'influence hellénistique. Le visage est traité avec un réalisme saisissant, montrant une carnation claire et des traits individualisés, tandis que la chevelure bouclée, typique de la mode romaine, est ornée d'une petite couronne de fleurs rouges en relief.</p>
+    <p>La structure du masque se prolonge par une large draperie rigide qui recouvrait la poitrine et les épaules de la momie. Le vêtement est peint d'un rouge profond, rappelant les tuniques romaines, mais il conserve des éléments de protection purement égyptiens. On y voit une main sculptée avec finesse, émergeant des plis du tissu, un détail naturaliste qui contraste avec la rigidité symbolique des époques précédentes.</p>
+    <p>Le décor latéral de la coiffe reste profondément ancré dans la mythologie ancestrale. On y distingue des registres de scènes religieuses peintes sur fond jaune, représentant des divinités égyptiennes telles qu'Osiris ou Horus, accompagnées de colonnes de hiéroglyphes simplifiés. Cette coexistence d'un portrait de style romain et de symboles funéraires millénaires illustre parfaitement la volonté des élites de l'Égypte romaine de s'assurer une transition sereine vers l'au-delà, en combinant le prestige social de l'Empire et la magie protectrice d'Osiris.</p>
+    <p><strong>Siècle :</strong> Ier – IIe siècle ap. J.-C. (vers 120) | <strong>Civilisation :</strong> Égypte romaine & Antiquité tardive | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "funeraire_fragment_masque_platre_peint_meches_ondulees_louvre",
+    civId: "egypte",
+    periodId: "egypte_romaine",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "Époque romaine (Ier – IIe siècle ap. J.-C.)",
+    centuryDisplay: "Ier – IIe s. ap. J.-C.",
+    centuryNumeric: 120,
+    domain: "funeraire",
+    artifactType: "Masque funéraire & Cartonnage",
+    title: "Fragment de masque de momie en plâtre peint aux mèches ondulées impériales (Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Moyenne-Égypte (Antinoopolis ou Akhmîm)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes)",
+    category: "Masque funéraire en plâtre stuqué et peint",
+    isHighlight: false,
+    chips: ["Égypte romaine", "Masque funéraire", "Plâtre peint", "Mèches ondulées", "Portrait hellénistique", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1EjnwS0_C2N95iY8FGNrH7N7lHnEDPG57",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNtKajYPwgafguXStmInJplMUafKoG0kRgdN4fOyU-igdcHHpmLTuxDT1Wn0wYnvWUGw_CNlflRc6l7rlQJ9e7x8ONvK0VMAFhMfE1zIlUz3dbyuZ6DNDWGovxuioKLMxx6s8n3UEFNRQ7yb2MJOmO0lA=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce fragment de masque de momie en plâtre peint est un exemplaire remarquable de l'art funéraire égyptien sous la domination romaine. Ce type d'objet, qui remplace progressivement les masques en cartonnage plus souples des époques précédentes, se concentre ici sur le visage et la chevelure, traités avec un réalisme saisissant qui trahit l'influence des portraits hellénistiques. Le visage, aux formes pleines et douces, présente des yeux larges dont les pupilles et l'iris sont marqués, conférant au défunt un regard vivant tourné vers l'éternité. Le modelé des joues, du nez droit et de la bouche close aux lèvres fines témoigne d'une volonté d'individualisation, même si les traits restent idéalisés.</p>
+    <p>La chevelure est l'élément le plus distinctif de cette pièce : elle est organisée en larges mèches ondulées et nervurées, formant une masse compacte qui encadre le front et descend sur les côtés. Cette coiffure élaborée, typique des modes impériales romaines, permet de dater l'objet avec précision. La polychromie, bien que partiellement érodée, laisse deviner les teintes naturelles de la peau et le contraste avec le noir de la chevelure. Ce fragment appartenait à un ensemble plus vaste qui recouvrait la tête et la poitrine de la momie, servant de support au Ka pour reconnaître le corps du défunt tout en lui offrant une apparence transfigurée et immuable pour son voyage dans l'au-delà.</p>
+    <p><strong>Siècle :</strong> Ier – IIe siècle ap. J.-C. (vers 120) | <strong>Civilisation :</strong> Égypte romaine & Antiquité tardive | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "funeraire_masque_momie_platre_peint_akhmim_hadrien_louvre",
+    civId: "egypte",
+    periodId: "egypte_romaine",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "Époque romaine (vers 117 – 138 ap. J.-C. / règne d'Hadrien)",
+    centuryDisplay: "IIe s. ap. J.-C.",
+    centuryNumeric: 130,
+    domain: "funeraire",
+    artifactType: "Masque funéraire & Cartonnage",
+    title: "Masque de momie en plâtre peint aux plis de Vénus d'époque d'Hadrien (Akhmîm, Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Akhmîm (Panopolis, Haute-Égypte)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes, AF 6883)",
+    category: "Masque funéraire en plâtre stuqué et peint",
+    isHighlight: false,
+    chips: ["Égypte romaine", "Akhmîm", "Hadrien", "Masque en plâtre", "Plis de Vénus", "Khôl", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1EjnwS0_C2N95iY8FGNrH7N7lHnEDPG57",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNVaRHj5RrjmyxtqYPn-hqKdHDh3fY1Eszx0_QxHqZ88PgnSiWH4ewnSnLnRir1QyEjJddgeBmr8M3pyimV3aNrZbJ8jV7UCm4hiHnC8GqhINSkS2QsN1-xJPbDkfT-AnxEwuk6YkiVgXDbWSehEZ2P8A=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce masque de momie en plâtre peint est un remarquable témoin des rites funéraires à Akhmîm durant le règne de l'empereur Hadrien. Le visage est traité avec une douceur caractéristique de cette période, présentant un modelé souple des chairs et des traits harmonieux. Les yeux, grands et expressifs, sont soulignés par un trait de khôl noir intense, tandis que les sourcils sont dessinés en un arc régulier. La bouche, aux lèvres charnues et légèrement entrouvertes, semble esquisser un souffle de vie, une convention artistique visant à assurer la respiration éternelle du défunt dans l'au-delà.</p>
+    <p>La chevelure noire, traitée en relief, est coiffée selon une mode sobre mais élégante, formant une masse texturée qui dégage le front et les oreilles. Le cou présente des plis de graisse, dits « plis de Vénus », qui étaient à l'époque romaine des signes de santé, de prospérité et de beauté. La base du masque se prolonge sur la poitrine, simulant le linceul ou les vêtements du disparu. Ce type de masque, bien que s'inscrivant dans la longue tradition égyptienne de préservation de l'image du mort, adopte les codes esthétiques gréco-romains pour offrir une représentation à la fois idéalisée et humaine du défunt, facilitant ainsi la reconnaissance de l'enveloppe charnelle par son âme.</p>
+    <p><strong>Siècle :</strong> IIe siècle ap. J.-C. (vers 130) | <strong>Civilisation :</strong> Égypte romaine & Antiquité tardive | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "funeraire_portrait_fayoum_europeenne_encaustique_antinoopolis_louvre",
+    civId: "egypte",
+    periodId: "egypte_romaine",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "Époque romaine (vers 140 – 160 ap. J.-C. / règne d'Antonin le Pieux)",
+    centuryDisplay: "IIe s. ap. J.-C.",
+    centuryNumeric: 150,
+    domain: "funeraire",
+    artifactType: "Portrait du Fayoum",
+    title: "Portrait de momie du Fayoum dit « L'Européenne » à l'encaustique sur bois (Antinoopolis, Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Antinoopolis (Moyenne-Égypte)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes, P 217)",
+    category: "Peinture funéraire à l'encaustique sur panneau de bois",
+    isHighlight: true,
+    chips: ["Égypte romaine", "Portrait du Fayoum", "L'Européenne", "Antinoopolis", "Encaustique", "Perles et clavi", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1EjnwS0_C2N95iY8FGNrH7N7lHnEDPG57",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNA57Wxb_jnCxME_A7efN4jSiUhoLWqhIgPHIbJS-E7HvXvUFDZSn9eh02fF67Oe_NI4pT8O8reBV6Q8nNyeAo3oF4EMzfAsleKkrkhC2KyhZ_g1uZlBBGLgpA5VVwhca3OE9c9NslsZgEDirRzom3hLg=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce célèbre portrait de momie, connu sous le nom de « L'Européenne », constitue l'un des chefs-d'œuvre les plus raffinés de la collection des portraits du Fayoum. Peint à l'encaustique sur un mince panneau de bois, il représente une jeune femme dont les traits et la parure témoignent de la fusion culturelle entre l'Égypte et le monde gréco-romain. Le visage est traité avec un naturalisme saisissant, marqué par de grands yeux sombres au regard mélancolique et une carnation claire qui lui a valu son surnom. La technique de la cire chauffée permet un modelé subtil des volumes, notamment sur les joues et le menton, conférant à la défunte une présence presque vivante.</p>
+    <p>La jeune femme arbore les attributs de son rang social élevé, caractéristiques de la mode impériale du milieu du IIe siècle. Sa chevelure brune est coiffée en une série de nattes complexes ramenées en chignon sur le sommet du crâne, tandis que des boucles encadrent délicatement son front. Elle porte des bijoux d'une grande finesse, notamment des boucles d'oreilles ornées de perles et un double collier dont l'un est pourvu d'un pendentif. Sa tunique de couleur pourpre est rehaussée de clavi noirs, soulignant son appartenance à l'élite fortunée d'Antinoopolis. Ce portrait n'était pas seulement une image commémorative, mais un objet rituel essentiel inséré dans les bandelettes de la momie au niveau du visage, permettant ainsi à l'âme de reconnaître son enveloppe charnelle pour l'éternité.</p>
+    <p><strong>Siècle :</strong> IIe siècle ap. J.-C. (vers 150) | <strong>Civilisation :</strong> Égypte romaine & Antiquité tardive | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "funeraire_portraits_fayoum_bois_encaustique_athenes",
+    civId: "egypte",
+    periodId: "egypte_romaine",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "Époque romaine (IIe – IIIe siècle ap. J.-C.)",
+    centuryDisplay: "IIe – IIIe s. ap. J.-C.",
+    centuryNumeric: 180,
+    domain: "funeraire",
+    artifactType: "Portrait du Fayoum",
+    title: "Ensemble de portraits funéraires de momies du Fayoum à l'encaustique et tempera sur bois (Musée national archéologique d'Athènes)",
+    site: "Musée national archéologique d'Athènes",
+    originSite: "Bassin du Fayoum (Égypte romaine)",
+    locationType: "museum",
+    currentLocation: "Musée national archéologique d'Athènes (Collection égyptienne)",
+    category: "Peinture funéraire à l'encaustique sur bois",
+    isHighlight: true,
+    chips: ["Égypte romaine", "Portraits du Fayoum", "Encaustique sur bois", "Regard d'éternité", "Athènes", "Peinture antique"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1EjnwS0_C2N95iY8FGNrH7N7lHnEDPG57",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP_qiLCew8IPy5xZKi2aMb_Kjctpwh69kRc5dx5Wi2R2Ts4SnxXt15q7SWR4NEMfk_Q1WHCudntrUPV5xjvVsYDfrx-uIEK-Qc_w3yz6MtsfWpolo7HT6ID7GOiez7PH1RG_jou3HW0B5EX-9I6ELrzhQ=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Les portraits funéraires dits du Fayoum, bien que provenant d'Égypte romaine, trouvent une place naturelle dans les collections d'Athènes en raison de leur héritage hellénistique profond. Réalisés entre le Ier et le IIIème siècle après J.-C., ces visages peints sur de fines planches de bois de tilleul, de sycomore ou de chêne étaient insérés dans les bandelettes des momies au niveau du visage. Ils représentent l'élite de la société égyptienne de l'époque, une population multiculturelle mêlant des Grecs, des Égyptiens et des Romains, unie par des codes esthétiques et religieux communs. Ces œuvres constituent l'unique corpus de peinture de chevalet de l'Antiquité qui nous soit parvenu, offrant un témoignage saisissant sur le réalisme de l'art pictural gréco-romain.</p>
+    <p>La technique utilisée, principalement l'encaustique, consistait à mélanger des pigments à de la cire d'abeille chauffée. Cette méthode permettait une application par couches successives et un travail au stylet ou au pinceau, offrant un modelé et une profondeur de regard d'une modernité déroutante. La lumière joue un rôle crucial dans ces compositions, avec des rehauts de blanc sur les pupilles ou l'arête du nez qui donnent aux défunts une présence presque vivante. Certains portraits, plus tardifs, utilisaient également la détrempe à l'œuf, donnant un aspect plus mat et graphique à l'image. Les bijoux, les coiffures et les vêtements représentés suivent scrupuleusement les modes impériales romaines, permettant aux archéologues de dater précisément les pièces.</p>
+    <p>Ces portraits ne sont pas seulement des œuvres d'art, ils sont aussi des objets rituels complexes. Ils servaient de substitut au visage du mort pour l'éternité, permettant à l'âme (le Ba) de reconnaître son corps. Contrairement à la statuaire idéalisée de l'Égypte pharaonique, le portrait du Fayoum cherche à capturer l'individualité : un nez busqué, des cernes sous les yeux ou une barbe naissante sont autant de détails qui humanisent le défunt. Cette quête du portrait ressemblant s'inscrit dans la tradition des « imagines maiorum » romaines, tout en adoptant la fonction funéraire millénaire de l'Égypte.</p>
+    <p>Exposer ces portraits à Athènes souligne la continuité culturelle du monde méditerranéen. Ils rappellent comment l'art grec, après les conquêtes d'Alexandre le Grand, a fusionné avec les traditions locales pour créer un langage visuel universel. Ces regards fixes et mélancoliques, tournés vers l'au-delà, constituent le chaînon manquant entre la grande peinture de la Grèce classique, aujourd'hui disparue, et les icônes byzantines qui leur succéderont. Ils demeurent parmi les visages les plus émouvants de l'histoire, abolissant la distance de deux millénaires par la simple force d'une expression humaine capturée dans la cire.</p>
+    <p><strong>Siècle :</strong> IIe – IIIe siècle ap. J.-C. (vers 180) | <strong>Civilisation :</strong> Égypte romaine & Antiquité tardive | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "sculpture_bas_relief_momification_osiris_anubis_romain_kom_el_chouqafa",
+    civId: "egypte",
+    periodId: "egypte_romaine",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "Époque romaine (vers le milieu du IIe siècle ap. J.-C., Antonins)",
+    centuryDisplay: "IIe s. ap. J.-C.",
+    centuryNumeric: 150,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Scène rupestre de la momification d'Osiris par Anubis en légionnaire romain (Catacombes de Kôm el-Chouqafa, Alexandrie)",
+    site: "Catacombes de Kôm el-Chouqafa - Chambre funéraire principale (Alexandrie)",
+    originSite: "Alexandrie",
+    locationType: "monument",
+    currentLocation: "In situ (Chambre funéraire centrale, Kôm el-Chouqafa, Alexandrie)",
+    category: "Bas-relief pariétal rupestre sur calcaire",
+    isHighlight: true,
+    chips: ["Égypte romaine", "Kôm el-Chouqafa", "Momification", "Anubis légionnaire", "Horus", "Vases canopes", "Alexandrie"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1EjnwS0_C2N95iY8FGNrH7N7lHnEDPG57",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOhNh36O76EV3Ac-0YN2ZYKi5-HeborTofLi4yyEDqBClrLcLSrQftp21o3hPDk3WfSLczTJFwVbjE83qRGYuHU_5-nyk5WuYI22AD-1SNDqALvCzuDYa4B6BMwdLj1CqGkd-8r2ZrjSSnwtsnbhLKxZA=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette scène de relief, située dans la chambre funéraire principale des catacombes de Kom El-Chouqafa à Alexandrie, illustre de manière spectaculaire le syncrétisme religieux du IIe siècle après J.-C.. Elle représente le rituel de la momification du défunt, assimilé à Osiris, sous la protection des divinités ancestrales égyptiennes.</p>
+    <p>Au centre, le dieu Anubis, reconnaissable à sa tête de canidé, veille sur le corps allongé sur un lit funéraire en forme de lion. Fait singulier propre à l'art alexandrin, Anubis est ici représenté avec des éléments de tenue militaire romaine, témoignant de la fusion des codes esthétiques impériaux et des croyances pharaoniques. Sous le lit, on distingue les vases canopes destinés à recueillir les viscères du défunt.</p>
+    <p>Le défunt est entouré par deux figures protectrices majeures : à gauche, le dieu faucon Horus, coiffé de la double couronne (pschent), et à droite, un prêtre lecteur ou une divinité tenant un rouleau de papyrus pour réciter les formules sacrées. Les parois latérales de la niche montrent également les déesses sœurs Isis et Nephtys, dont les gestes d'adoration et de protection garantissent au défunt son passage vers l'éternité.</p>
+    <p>Ce décor, sculpté directement dans le calcaire de la paroi, souligne la persistance des rites funéraires égyptiens au cœur de la métropole cosmopolite d'Alexandrie. Malgré l'influence romaine visible dans le traitement des vêtements et des volumes, le message reste profondément égyptien : assurer la renaissance du mort dans l'au-delà grâce à l'intervention divine.</p>
+    <p><strong>Siècle :</strong> IIe siècle ap. J.-C. (vers 150) | <strong>Civilisation :</strong> Égypte romaine & Antiquité tardive | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_bas_relief_adoration_taureau_apis_empereur_kom_el_chouqafa",
+    civId: "egypte",
+    periodId: "egypte_romaine",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "Époque romaine (vers le milieu du IIe siècle ap. J.-C., Antonins)",
+    centuryDisplay: "IIe s. ap. J.-C.",
+    centuryNumeric: 150,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Relief pariétal de l'adoration du taureau Apis par l'empereur en pharaon protégé par Isis (Catacombes de Kôm el-Chouqafa, Alexandrie)",
+    site: "Catacombes de Kôm el-Chouqafa - Panneau latéral de la chambre principale (Alexandrie)",
+    originSite: "Alexandrie",
+    locationType: "monument",
+    currentLocation: "In situ (Chambre funéraire centrale, Kôm el-Chouqafa, Alexandrie)",
+    category: "Bas-relief pariétal rupestre sur calcaire",
+    isHighlight: false,
+    chips: ["Égypte romaine", "Kôm el-Chouqafa", "Taureau Apis", "Isis ailée", "Empereur pharaon", "Frise d'oves", "Alexandrie"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1EjnwS0_C2N95iY8FGNrH7N7lHnEDPG57",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPnUVyQDMxWt2GjpMuKJoOIVtN5GlZBDj9j7wpiP3T5L9ItilghvCtvV5OKq2z798o3BKBl7pqr809qc_1_x0LsSTCqBkLfj-yeTxlqvfaTeEspfRCEiKnPt4iwqpIXfBNqog1FzUJ2D8gl9uiIyy6Itg=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce relief, situé sur l'un des panneaux latéraux de la chambre funéraire principale des catacombes de Kom El-Chouqafa, illustre l'un des rituels les plus sacrés de l'Égypte antique : l'adoration du taureau Apis. La scène montre le dieu-taureau debout sur un piédestal, recevant les hommages et les offrandes d'un personnage royal.</p>
+    <p>Le taureau Apis, incarnation terrestre de la puissance divine et symbole de fertilité, porte entre ses cornes le disque solaire, confirmant sa nature sacrée. Derrière lui se tient la déesse Isis, identifiable à ses grandes ailes déployées qu'elle étend pour envelopper et protéger l'animal divin. Cette iconographie souligne le rôle protecteur de la déesse maternelle sur les forces vitales représentées par le taureau.</p>
+    <p>Face à la divinité, un homme vêtu d'un pagne traditionnel égyptien et coiffé de la double couronne (pschent) des pharaons présente un collier « ousekh » ou une autre offrande précieuse. Bien que la pose soit strictement égyptienne, ce personnage représente probablement l'empereur romain régnant, adoptant les codes iconographiques des pharaons pour légitimer son pouvoir et honorer les cultes locaux.</p>
+    <p>Comme pour les autres parois de la chambre, le style de sculpture mélange la rigidité hiératique des anciens reliefs pharaoniques avec un modelé plus charnu hérité de l'art hellénistique. L'ensemble du panneau est surmonté d'une frise d'oves, un motif typiquement gréco-romain, créant un cadre architectural hybride unique au monde. Cette scène réaffirme l'espoir de régénération du défunt en le plaçant sous la bienveillance des cultes les plus puissants d'Alexandrie.</p>
+    <p><strong>Siècle :</strong> IIe siècle ap. J.-C. (vers 150) | <strong>Civilisation :</strong> Égypte romaine & Antiquité tardive | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "funeraire_niche_rupestre_sarcophage_bucranes_kom_el_chouqafa",
+    civId: "egypte",
+    periodId: "egypte_romaine",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "Époque romaine (vers le milieu du IIe siècle ap. J.-C., Antonins)",
+    centuryDisplay: "IIe s. ap. J.-C.",
+    centuryNumeric: 150,
+    domain: "funeraire",
+    artifactType: "Monument / Tombeau rupestre",
+    title: "Niche funéraire rupestre et cuve taillée dans le roc à décor gréco-romain de guirlandes et bucranes (Catacombes de Kôm el-Chouqafa, Alexandrie)",
+    site: "Catacombes de Kôm el-Chouqafa - Chambre funéraire principale (Alexandrie)",
+    originSite: "Alexandrie",
+    locationType: "monument",
+    currentLocation: "In situ (Niche funéraire centrale, Kôm el-Chouqafa, Alexandrie)",
+    category: "Architecture et sarcophage rupestre taillé dans le calcaire",
+    isHighlight: false,
+    chips: ["Égypte romaine", "Kôm el-Chouqafa", "Chambre rupestre", "Sarcophage taillé", "Guirlandes", "Bucranes", "Alexandrie"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1EjnwS0_C2N95iY8FGNrH7N7lHnEDPG57",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNmcE4g3atlDpT_TRK9qsKiLTkQSWOMZZR_cp1WaZzhTmCejVGgl7pxXAcOq4PJBDZd9AnCpuZT3TKsTb2C0nk2Cyerd4CnFIuGpOOuZwCg-kLF4OTvDuLG0hakA6M9gHO4X75yC_G6KRc2xzDLCgNpmw=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette vue documente la disposition monumentale de la chambre funéraire centrale des catacombes de Kôm el-Chouqafa à Alexandrie, taillée à même la roche calcaire au IIe siècle de notre ère. L'espace s'articule autour de trois niches profondes (loculi monumentaux) abritant chacune un imposant sarcophage monolithique sculpté directement dans la masse rocheuse de la paroi, sans couvercle mobile, les défunts y étant introduits par l'arrière depuis un couloir technique de service.</p>
+    <p>La face antérieure de la cuve rupestre est ornée d'un riche décor sculpté purement gréco-romain composé de festons, de lourdes guirlandes végétales de feuilles et de fruits suspendues à des bucranes (crânes de bœufs) et à des têtes de Méduse apotropaïques. Ce répertoire ornemental classique contraste avec les parois sommitales de la niche, où se déploient les grands reliefs figurant la théologie funéraire pharaonique : la momification d'Osiris, le taureau sacré Apis et les déesses ailées protectrices.</p>
+    <p>Cette confrontation spatiale immédiate entre la tradition architecturale du banquet funéraire méditerranéen et le dogme osirien de la résurrection corporelle fait de la chambre de Kôm el-Chouqafa le chef-d'œuvre absolu de l'architecture hypogée de la métropole alexandrine sous le Haut-Empire romain.</p>
+    <p><strong>Siècle :</strong> IIe siècle ap. J.-C. (vers 150) | <strong>Civilisation :</strong> Égypte romaine & Antiquité tardive | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "sculpture_bas_relief_anubis_legionnaire_pilier_entree_kom_el_chouqafa",
+    civId: "egypte",
+    periodId: "egypte_romaine",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "Époque romaine (vers le milieu du IIe siècle ap. J.-C., Antonins)",
+    centuryDisplay: "IIe s. ap. J.-C.",
+    centuryNumeric: 150,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Le dieu Anubis en légionnaire romain cuirassé gardien de la tombe (Pilier d'entrée des Catacombes de Kôm el-Chouqafa, Alexandrie)",
+    site: "Catacombes de Kôm el-Chouqafa - Pilier d'entrée de la chambre funéraire (Alexandrie)",
+    originSite: "Alexandrie",
+    locationType: "monument",
+    currentLocation: "In situ (Pilier de l'antichambre, Kôm el-Chouqafa, Alexandrie)",
+    category: "Bas-relief pariétal rupestre sur calcaire",
+    isHighlight: true,
+    chips: ["Égypte romaine", "Kôm el-Chouqafa", "Anubis soldat", "Légionnaire romain", "Cuirasse et lance", "Pilier d'entrée", "Alexandrie"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1EjnwS0_C2N95iY8FGNrH7N7lHnEDPG57",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPWJNYenbuXN8zK89xMaOU-6vnJqpulRBwigHW4Jz5n3Roc7o4TLRD9his3MgmKq__iJkq08A829e4ElsVblrf3AD0o0KnFUjf2PyadDzNzC5fPRMLpxqdcnKsDIDwCKxUFaMX7fQX9qgdgRxErpcWoXw=w613-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce relief monumental, sculpté sur un pilier à l'entrée de la chambre funéraire des catacombes de Kom El-Chouqafa, présente l'une des figures les plus emblématiques du syncrétisme alexandrin : le dieu Anubis en tenue de légionnaire romain. Gardien de la nécropole, il se tient ici en sentinelle pour protéger l'accès au repos éternel du défunt.</p>
+    <p>La divinité est représentée avec sa tête de canidé traditionnelle, surmontée du disque solaire, mais son corps adopte une posture et une musculature typiquement gréco-romaines. Il porte une cuirasse courte et un bouclier, tenant fermement une lance, ce qui transforme le dieu de l'embaumement en un véritable soldat de l'Empire. Cette hybridation visuelle illustre parfaitement comment les habitants d'Alexandrie au IIe siècle après J.-C. fusionnaient leurs racines religieuses égyptiennes avec l'esthétique et le prestige de la puissance romaine dominante.</p>
+    <p>En arrière-plan, on aperçoit les colonnes aux chapiteaux papyriformes et lotiformes qui soutiennent les structures souterraines, rappelant l'architecture des temples de la vallée du Nil. Le contraste entre ces colonnes pharaoniques et la silhouette martiale d'Anubis crée une atmosphère unique, propre à ce complexe funéraire qui est l'un des plus importants de la période romaine en Égypte. La présence de ce « Anubis-soldat » à l'entrée souligne la fonction de protection magique et physique du lieu contre les profanateurs et les forces maléfiques.</p>
+    <p>L'éclairage rasant de la catacombe met en relief la technique de sculpture, où les volumes sont plus arrondis et réalistes que dans l'art égyptien classique, témoignant de l'influence des ateliers de sculpture grecs installés dans la cité d'Alexandre. Ce gardien divin est le témoin silencieux d'une époque où les cultures se mélangeaient pour offrir au défunt une protection universelle, combinant la magie ancienne de l'Égypte et la force militaire de Rome.</p>
+    <p><strong>Siècle :</strong> IIe siècle ap. J.-C. (vers 150) | <strong>Civilisation :</strong> Égypte romaine & Antiquité tardive | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "funeraire_sarcophages_momies_chats_bastet_bois_peint_louvre",
+    civId: "egypte",
+    periodId: "egypte_tardive",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "Basse Époque à Époque ptolémaïque (vers -650 à -100 av. J.-C. / XXVIe dynastie aux Ptolémées)",
+    centuryDisplay: "VIIe – Ier s. av. J.-C.",
+    centuryNumeric: -350,
+    domain: "funeraire",
+    artifactType: "Sarcophage & Momie animale",
+    title: "Sarcophages de momies de chats en bois stuqué, peint et œil Oudjat (Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Bubastis ou Saqqarah (Sérapeum)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes)",
+    category: "Sarcophage et reliquaire pour momie animale en bois peint",
+    isHighlight: false,
+    chips: ["Basse Époque", "Époque ptolémaïque", "Sarcophage de chat", "Momie animale", "Bastet", "Oeil Oudjat", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczM-NFSvFTIYVPBbZDFrto-cX_fct_-vCzvDO1UOUWGzF1wpct43VAyo1KW97-KG7DOQELVtPMnN0ODIQMlTw8vgONDMdTM2-0ykhOr0hxy8qh4hoTa_TwJ-3l0DgoPzZX1aEaNzHj2dkqWX0IVo13-DzA=w1225-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ces objets, conservés au département des Antiquités égyptiennes du musée du Louvre, sont des momies et des sarcophages de chats datant principalement de la Basse Époque ou de la période ptolémaïque (entre le VIIe et le Ier siècle av. J.-C.). Ils témoignent de l'immense ferveur religieuse entourant le culte des animaux sacrés, une pratique qui a connu un développement spectaculaire à la fin de la civilisation pharaonique. Le chat était l'animal emblématique de la déesse Bastet, divinité de la protection, du foyer et de la joie, dont le centre principal de culte se trouvait à Bubastis, dans le Delta.</p>
+    <p>L'objet au premier plan est un sarcophage de chat en bois stuqué et peint. La finesse du modelage rend hommage à l'élégance naturelle du félin, représenté en position assise, les oreilles dressées et le regard attentif. On distingue nettement sur son cou la représentation peinte d'un collier orné de l'œil Oudjat, un puissant symbole de protection et de guérison. Ce soin apporté au décor souligne que l'animal n'était pas considéré comme un simple animal de compagnie, mais comme une hypostase divine, un réceptacle terrestre pour l'énergie de la déesse.</p>
+    <p>À l'arrière-plan, une autre statuette funéraire en bronze ou en bois sombre montre une variante de ces dépôts votifs. Souvent, ces enveloppes contenaient les restes réels de l'animal, méticuleusement embaumé avec des bandelettes de lin formant parfois des motifs géométriques complexes. Les fidèles achetaient ces momies aux prêtres des temples pour les offrir en ex-voto, espérant ainsi attirer les faveurs de Bastet ou la remercier d'un vœu exaucé. Les fouilles archéologiques ont révélé de vastes nécropoles souterraines, appelées catacombes, abritant des milliers de ces momies de félins.</p>
+    <p>L'étude radiographique de tels objets révèle souvent que certains sarcophages sont vides ou ne contiennent que quelques ossements, illustrant la forte demande des pèlerins qui dépassait parfois les capacités d'élevage des temples. Aujourd'hui, ces pièces constituent une fenêtre fascinante sur la piété populaire égyptienne et sur le rapport complexe que cette civilisation entretenait avec le monde animal, perçu comme un lien vivant entre les hommes et les dieux.</p>
+    <p><strong>Siècle :</strong> VIIe – Ier siècle av. J.-C. (vers -350) | <strong>Civilisation :</strong> Égypte antique (Basse Époque / Époque lagide) | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+   {
     id: "funeraire_sarcophage_anthropomorphe_bois_peint_athenes",
     civId: "egypte",
     periodId: "egypte_tardive",
