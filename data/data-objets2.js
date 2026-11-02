@@ -4,6 +4,32 @@
 window.ART_OBJECTS = [
   
    {
+    id: "funeraire_enveloppe_momie_or_psousennes_ier_tanis_caire",
+    civId: "egypte",
+    periodId: "egypte_tardive",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "XXIe dynastie (vers -1000 av. J.-C. / règne de Psousennès Ier)",
+    centuryDisplay: "Xe s. av. J.-C.",
+    centuryNumeric: -1000,
+    domain: "funeraire",
+    artifactType: "Masque funéraire & Cartonnage",
+    title: "Enveloppe de momie au faucon protecteur en feuille d'or de Psousennès Ier (Tanis, Musée égyptien du Caire)",
+    site: "Musée égyptien du Caire",
+    originSite: "Nécropole royale de Tanis (Tombe NRT III, Delta du Nil)",
+    locationType: "museum",
+    currentLocation: "Musée égyptien du Caire (Trésor de Tanis, JE 85912)",
+    category: "Enveloppe et cuirasse funéraire en feuille d'or ciselée",
+    isHighlight: true,
+    chips: ["XXIe dynastie", "Psousennès Ier", "Tanis", "Feuille d'or", "Faucon protecteur", "Pharaon d'argent", "Musée du Caire"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczM93DEgVuxIGLKk3msXOutZR5fAumJBIDramWpZjPOQgSzR_iT0wFZY8fGL9xsYTWwK2qo0ORMyuAZ07AgpCWF3EUIXGas4lIWlu1O-x-y9FFs4kNd46du0BpXMXmOiRbSOyw48NHuEswm5JR2uYsTSqg=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette enveloppe de momie en or, appartenant au trésor de Psousennès Ier, constitue la couche protectrice ultime qui enveloppait directement le corps du souverain à l'intérieur de son sarcophage d'argent. Découverte en 1940 à Tanis par Pierre Montet, cette feuille d'or massif a été martelée avec une finesse extrême pour épouser les contours du corps royal. Elle servait de cuirasse mystique, garantissant que la chair du pharaon, désormais assimilée à celle des dieux, resterait intacte et lumineuse pour l'éternité.</p>
+    <p>Le décor de cette pièce est dominé par la figure imposante d'un faucon aux ailes déployées, représentation du dieu Horus ou de l'âme-Ba du roi, qui embrasse et protège le torse du défunt. Les plumes sont ciselées avec une précision remarquable, créant un réseau complexe de lignes qui captent la lumière. Autour de cette figure centrale, des colonnes de textes hiéroglyphiques courent le long du corps, contenant des formules magiques issues du Livre des Morts destinées à faciliter le passage du souverain vers l'au-delà et à confirmer son identité divine.</p>
+    <p>Sur les côtés, on distingue les silhouettes protectrices de divinités ailées, probablement Isis et Nephtys, qui veillent sur les membres du roi. Ce travail d'orfèvrerie de la XXIe dynastie (vers 1039-991 av. J.-C.) montre que même dans une période de transition politique, les ressources en métaux précieux et le talent des artisans restaient considérables. Contrairement aux sarcophages extérieurs plus rigides, cette enveloppe souple agissait comme une seconde peau, transformant le cadavre périssable en une statue d'or impérissable.</p>
+    <p>Cette pièce, aujourd'hui conservée au Musée égyptien du Caire, est un témoignage rare des pratiques de momification royale les plus luxueuses. Elle illustre la fusion entre l'art du portrait, la protection magique et la théologie solaire qui caractérise la fin de l'époque pharaonique. La brillance du métal, préservée malgré les millénaires, continue de proclamer la victoire de Psousennès Ier sur l'oubli et la décomposition.</p>
+    <p><strong>Siècle :</strong> Xe siècle av. J.-C. (-1000) | <strong>Civilisation :</strong> Égypte antique (Troisième Période intermédiaire / Basse Époque) | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+   {
     id: "funeraire_sarcophage_reine_pharaon_taousert_granit_rose_louxor",
     civId: "egypte",
     periodId: "egypte_nouvel",
