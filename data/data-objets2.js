@@ -4,6 +4,109 @@
 window.ART_OBJECTS = [
   
    {
+    id: "funeraire_sarcophage_reine_pharaon_taousert_granit_rose_louxor",
+    civId: "egypte",
+    periodId: "egypte_nouvel",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1188 av. J.-C. / règne de Taousert)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1188,
+    domain: "funeraire",
+    artifactType: "Sarcophage humain (cuve, bois, pierre)",
+    title: "Sarcophage royal en granit rose de la reine-pharaon Taousert (Musée de Louxor)",
+    site: "Musée de Louxor",
+    originSite: "Tombe KV14 (Vallée des Rois, Thèbes)",
+    locationType: "museum",
+    currentLocation: "Musée de Louxor",
+    category: "Sarcophage royal en granit rose monolithique",
+    isHighlight: true,
+    chips: ["XIXe dynastie", "Taousert", "KV14", "Sethnakht", "Granit rose", "Sarcophage royal", "Musée de Louxor"],
+    deptBanner: "https://lh3.googleusercontent.com/d/11hLJFFN1McLmLPGw1pf73r-LVI6VfhMp",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOW52EvuyH9Q6NWro0ZmkPRQz93p0zFTaaSMo0r_jjaT95QSDfEm1JuIfY0XuXuU2nXelkYQO1OBCZx6Q0Nlm71eTT9ji7TZNb7dPgcb_TLbNR1C-B47pfBsPGydE99tTLdv53TqZelriGynh6lg0jLAA=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce sarcophage royal, conservé au musée de Louxor, appartenait à la reine Taousert, dernière souveraine de la XIXe dynastie (vers 1188 av. J.-C.). Découvert dans la Vallée des Rois, ce monument funéraire massif illustre la puissance et le statut exceptionnel de cette reine qui a régné comme un pharaon à part entière.</p>
+    <p>Réalisé en granit rose, l'ensemble se compose d'une cuve imposante et d'un couvercle anthropomorphe dont la partie supérieure est légèrement soulevée par des cales modernes pour en faciliter l'observation. Le décor extérieur de la cuve est rythmé par des registres de hiéroglyphes et des représentations gravées de divinités protectrices, caractéristiques des tombes royales de cette période. Les parois intérieures et extérieures sont conçues comme une forteresse magique destinée à protéger le corps de la souveraine et à assurer sa renaissance dans l'au-delà.</p>
+    <p>L'histoire de ce sarcophage est marquée par les bouleversements politiques de la fin de la dynastie. Après la chute de Taousert, son successeur Sethnakht, fondateur de la XXe dynastie, a usurpé son tombeau (KV14) et a fait réutiliser le sarcophage pour son propre usage ou celui de membres de sa famille, effaçant parfois les cartouches originaux. Sa présence au musée de Louxor permet d'admirer la maîtrise des tailleurs de pierre du Nouvel Empire, capables de transformer des blocs monolithiques de plusieurs tonnes en des réceptacles d'une grande finesse iconographique.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1188) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "funeraire_sarcophage_monolithique_ramses_iv_granit_rouge_kv2",
+    civId: "egypte",
+    periodId: "egypte_nouvel",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (vers -1147 av. J.-C. / règne de Ramsès IV)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1147,
+    domain: "funeraire",
+    artifactType: "Sarcophage humain (cuve, bois, pierre)",
+    title: "Sarcophage colossal monolithique de Ramsès IV in situ sous la voûte de Nout (Tombe KV2, Vallée des Rois)",
+    site: "Tombe KV2 de Ramsès IV - Chambre funéraire J (Vallée des Rois, Thèbes)",
+    originSite: "Vallée des Rois (Thèbes-Ouest)",
+    locationType: "monument",
+    currentLocation: "In situ (Tombe KV2, Vallée des Rois, Thèbes)",
+    category: "Sarcophage royal monolithique en granit rouge",
+    isHighlight: true,
+    chips: ["XXe dynastie", "Ramsès IV", "KV2", "Granit rouge", "Livre des Portes", "Déesse Nout", "Vallée des Rois"],
+    deptBanner: "https://lh3.googleusercontent.com/d/11hLJFFN1McLmLPGw1pf73r-LVI6VfhMp",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPcLfv0tL3HoxV6HXsoU3DmYRNfPvBymhIuvi-oyoLOdLTCbJFOmfqH9_NbuzYTpU654rYL1Ug94iWosTLtkfIPJZSj9PXeEyoCnydgw92-ChMpY3ITrXNhhIVHZL7QUdeUaRcaO1sWOs9E-fUWn8vUkw=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce sarcophage monumental en granit rouge appartient au pharaon Ramsès IV, troisième souverain de la XXe dynastie, qui régna vers 1153-1147 av. J.-C.. Toujours en place dans la chambre funéraire de sa tombe (KV2) dans la Vallée des Rois à Thèbes, il s'agit de l'un des plus grands sarcophages monolithiques de la nécropole. Bien que la cuve soit aujourd'hui vide, la momie du roi ayant été déplacée dans l'Antiquité vers la cachette de la tombe d'Amenhotep II (KV35) pour être protégée des pillards, l'objet demeure un témoignage impressionnant de la puissance royale.</p>
+    <p>Les parois extérieures du monument sont ornées de scènes gravées en creux issues des grands corpus funéraires royaux, notamment le Livre des Portes et le Livre de la Terre. Ces textes et images avaient pour fonction magique d'aider le souverain à triompher des obstacles du monde souterrain et à renaître chaque matin aux côtés du dieu solaire. On y distingue des divinités protectrices et des génies, tels qu'Anubis, veillant sur la dépouille sacrée.</p>
+    <p>Le sarcophage est situé directement sous un plafond spectaculaire où la déesse du ciel, Nout, est représentée en deux grandes figures étendues, avalant le soleil le soir pour le mettre au monde à l'aube. Cette mise en scène architecturale et religieuse crée une résonance entre la cuve de granit, réceptacle de la momie, et la voûte céleste, garantissant au roi une place éternelle dans le cycle cosmique. À l'origine, ce sarcophage était protégé par quatre chapelles en bois doré imbriquées, similairement à celles retrouvées intactes dans la tombe de Toutânkhamon.</p>
+    <p>L'utilisation du granit rouge, pierre extrêmement dure extraite des carrières d'Assouan, souligne la volonté de Ramsès IV de s'inscrire dans la tradition des grands bâtisseurs ramessides. Malgré un règne relativement court, le pharaon a accordé un soin particulier à sa demeure d'éternité, dont le plan détaillé sur un papyrus conservé au musée de Turin prouve qu'elle était conçue pour être encore plus vaste.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1147) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "funeraire_sarcophage_anthropomorphe_bois_peint_vernis_jaune_tt320_louxor",
+    civId: "egypte",
+    periodId: "egypte_tardive",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "XXIe dynastie (vers -1000 av. J.-C. / Troisième Période intermédiaire)",
+    centuryDisplay: "Xe s. av. J.-C.",
+    centuryNumeric: -1000,
+    domain: "funeraire",
+    artifactType: "Sarcophage humain (cuve, bois, pierre)",
+    title: "Sarcophage anthropomorphe en bois peint au vernis jaune solaire (Cachette de Deir el-Bahari TT320, Musée de Louxor)",
+    site: "Musée de Louxor",
+    originSite: "Cachette royale de Deir el-Bahari (TT320, Thèbes)",
+    locationType: "museum",
+    currentLocation: "Musée de Louxor",
+    category: "Sarcophage anthropoïde en bois stuqué, peint et verni",
+    isHighlight: false,
+    chips: ["XXIe dynastie", "Troisième Période intermédiaire", "Sarcophage anthropomorphe", "Deir el-Bahari", "TT320", "Vernis jaune", "Musée de Louxor"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOjXOmQMWhc7nmGiyErvf4qo0zRIU_Jv6I7zVuR0LgY0xn4QnYYtrMLc59PQEp-GSdnWDcGvTllm4yfR_yHSOB4yTijkHz9QJLlvjjnTnrfpIRLBEdwDKKLO1zbvzIfQBclrBpPmtKuXagS-fNC2HdOxA=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette pièce exceptionnelle est un sarcophage anthropomorphe en bois peint, caractéristique de la Troisième Période Intermédiaire, et plus précisément de la XXIe dynastie égyptienne. Elle a été découverte dans la célèbre cachette de Deir el-Bahari (TT320), un site qui a permis de préserver les dépouilles de nombreux membres du clergé d'Amon et de la famille royale face aux pillages de l'Antiquité.</p>
+    <p>L'œuvre représente le défunt sous une forme osirienne, le visage doré symbolisant la chair divine et l'immortalité. Les yeux sont soulignés d'un trait de fard noir prolongé en ligne de sourcil, conférant au regard une intensité sereine. Le travail de peinture sur le bois est d'une grande finesse, utilisant une palette chromatique dominée par l'ocre jaune, le vert et le rouge terreux, typique de l'art thébain de cette époque.</p>
+    <p>Le décor de la cuve et du couvercle est d'une densité remarquable, ne laissant quasiment aucun espace vide, selon le principe de l'horreur du vide. On y observe une superposition de motifs géométriques et de plumes stylisées qui imitent le plumage protecteur des divinités ailées. De larges colliers ousekh recouvrent la poitrine, tandis que des registres horizontaux et verticaux détaillent des scènes d'offrandes et de protections magiques destinées à accompagner l'âme dans son voyage vers l'au-delà.</p>
+    <p>Le traitement du bois et la conservation des pigments témoignent du savoir-faire des artisans de Thèbes. L'application d'un vernis jaune, qui a légèrement bruni avec le temps, servait initialement à donner un éclat solaire à l'ensemble du sarcophage. Aujourd'hui conservé au musée de Louxor, ce monument funéraire reste l'un des témoignages les plus vibrants de la piété et des rites funéraires entourant la noblesse thébaine il y a trois mille ans.</p>
+    <p><strong>Siècle :</strong> Xe siècle av. J.-C. (-1000) | <strong>Civilisation :</strong> Égypte antique (Troisième Période intermédiaire / Basse Époque) | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "funeraire_masque_or_massif_psousennes_ier_tanis_caire",
+    civId: "egypte",
+    periodId: "egypte_tardive",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "XXIe dynastie (vers -1000 av. J.-C. / règne de Psousennès Ier)",
+    centuryDisplay: "Xe s. av. J.-C.",
+    centuryNumeric: -1000,
+    domain: "funeraire",
+    artifactType: "Masque funéraire & Cartonnage",
+    title: "Masque funéraire d'or massif, pâte de verre et lapis-lazuli de Psousennès Ier (Tanis, Musée égyptien du Caire)",
+    site: "Musée égyptien du Caire",
+    originSite: "Nécropole royale de Tanis (Tombe NRT III, Delta du Nil)",
+    locationType: "museum",
+    currentLocation: "Musée égyptien du Caire (Trésor de Tanis, JE 85913)",
+    category: "Masque funéraire royal en or massif battu et incrusté",
+    isHighlight: true,
+    chips: ["XXIe dynastie", "Psousennès Ier", "Tanis", "Or massif", "Pharaon d'argent", "Némès", "Musée du Caire"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczM7l9xIXhqTN8DtWn0CF7CmVKb8zZjUetDJzkZ4Vrqcx_lx5eD4RK0UtFFYc74CCn6IHndHLPmXO7yxBkukRZKLfjtnqxvf7Uae0TDnY-BtY_l9afJI9W1Np1A2QBy-yeeNqjK92F3OtZAg7WpZWtc2UQ=w613-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce masque funéraire d'une splendeur éblouissante appartenait au pharaon Psousennès Ier, souverain de la XXIe dynastie, dont la tombe inviolée fut découverte à Tanis en 1940 par l'archéologue Pierre Montet. Bien que moins célèbre que celui de Toutânkhamon, ce masque est une prouesse de l'orfèvrerie antique, réalisé en or massif de grande pureté. Il recouvrait la momie du « Pharaon d'Argent », ainsi nommé car son cercueil était entièrement constitué de ce métal, alors plus précieux que l'or en Égypte en raison de sa rareté.</p>
+    <p>Le visage du roi est représenté avec une majesté sereine, les yeux et les sourcils étant soulignés par des incrustations de pâte de verre noire et blanche qui confèrent une intensité saisissante au regard. Psousennès Ier porte le némès, la coiffe royale traditionnelle, dont les rayures sont finement ciselées dans le métal. L'uræus, le cobra protecteur, se dresse fièrement au sommet du front, tandis qu'une barbe postiche tressée, symbole de divinité et d'immortalité, est attachée au menton par des brides visibles sur les côtés du visage.</p>
+    <p>Le large collier ousekh, qui s'évase sur la poitrine, est orné de motifs géométriques et floraux d'une précision remarquable, imitant les rangs de perles de lapis-lazuli et de cornaline. Ce masque ne servait pas uniquement à préserver les traits du défunt pour l'éternité ; il transformait magiquement le corps du roi en un être divin, l'or étant considéré par les anciens Égyptiens comme la « chair des dieux ». L'éclat intact du métal, après trois millénaires passés dans l'humidité du Delta, témoigne de la richesse insoupçonnée des rois de Tanis.</p>
+    <p>Aujourd'hui pièce maîtresse du Musée égyptien du Caire, cette œuvre illustre la résilience de l'art royal durant la Troisième Période Intermédiaire, une époque souvent perçue à tort comme un déclin. La maîtrise technique déployée pour marteler et ciseler cette feuille d'or unique démontre que les artisans tanites n'avaient rien à envier à leurs prédécesseurs du Nouvel Empire. Le masque de Psousennès Ier reste l'un des portraits les plus emblématiques de la royauté égyptienne, alliant puissance politique et aspiration au sacré.</p>
+    <p><strong>Siècle :</strong> Xe siècle av. J.-C. (-1000) | <strong>Civilisation :</strong> Égypte antique (Troisième Période intermédiaire / Basse Époque) | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+   {
     id: "funeraire_masque_cartonnage_jaune_ocre_khol_assouan",
     civId: "egypte",
     periodId: "egypte_nouvel",
