@@ -4,6 +4,613 @@
 window.ART_OBJECTS = [
   
    {
+    id: "funeraire_barque_funeraire_rameurs_bois_moyen_empire_louxor",
+    civId: "egypte",
+    periodId: "egypte_moyen",
+    civName: "Égypte : Moyen Empire & Périodes Intermédiaires",
+    century: "Moyen Empire (vers -2000 à -1800 av. J.-C. / XIe – XIIe dynastie)",
+    centuryDisplay: "XXe – XIXe s. av. J.-C.",
+    centuryNumeric: -1900,
+    domain: "funeraire",
+    artifactType: "Maquette funéraire (barque, atelier, serviteur)",
+    title: "Maquette de barque funéraire en bois peint avec son équipage de rameurs (Musée de Louxor)",
+    site: "Musée de Louxor",
+    originSite: "Nécropole thébaine (Thèbes)",
+    locationType: "museum",
+    currentLocation: "Musée de Louxor",
+    category: "Maquette funéraire en bois sculpté et peint",
+    isHighlight: false,
+    chips: ["Moyen Empire", "Barque funéraire", "Maquette en bois", "Rameurs", "Pèlerinage d'Abydos", "Musée de Louxor"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczN0CssJr7HAppwaLQb716svzNBU1jXsqCIfGQQzFkHw-z_B-mlFmvEk8Ur72mKlsGaFrDwQNb46cGKI9E3AC1gFjdHdFqmX7Yo_ya5az0HGiN96JebngkCz0vqgj_vuOMw_itO7gD9fulRNPyIaDaTdxg=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette maquette de barque funéraire, exposée au musée de Louxor, constitue un témoignage fascinant de la vie quotidienne et des croyances spirituelles de l'Égypte ancienne. Datant généralement du Moyen Empire, vers 2000-1800 avant notre ère, ces modèles réduits en bois peint étaient déposés dans les tombes pour assurer magiquement au défunt la capacité de se déplacer dans l'au-delà. Le Nil étant l'artère vitale du pays, la maîtrise du voyage fluvial était indispensable pour rejoindre le royaume d'Osiris ou accompagner la course du soleil.</p>
+    <p>L'œuvre présente une longue coque effilée dont la courbure élégante imite les embarcations traditionnelles en papyrus. À bord, une multitude de figurines en bois, sculptées avec une grande économie de moyens mais une réelle expressivité, s'activent pour faire avancer le navire. Les rameurs sont représentés en pleine action, le buste penché vers l'avant, les mains agrippées à des rames aujourd'hui disparues pour la plupart, illustrant l'organisation rigoureuse des équipages de l'époque.</p>
+    <p>La polychromie, bien que patinée par le temps, reste lisible : les corps des hommes sont peints en ocre rouge tandis que leurs pagnes blancs contrastent avec le bois sombre de la coque. On distingue également la présence d'un mât central, élément crucial qui permettait de remonter le courant vers le sud grâce aux vents dominants, tandis que la descente vers le nord se faisait à la rame. Chaque détail, de la position des vigies à celle du timonier à l'arrière, vise à recréer une scène de navigation parfaitement fonctionnelle.</p>
+    <p>Dans le contexte funéraire, cette barque symbolisait souvent le pèlerinage vers Abydos, la ville sainte d'Osiris, que chaque Égyptien espérait accomplir, que ce soit de son vivant ou après sa mort. En possédant cette maquette, le mort s'appropriait l'équipage et le savoir-faire nécessaire pour franchir les obstacles du monde souterrain. C'est une pièce qui relie admirablement la réalité technique des chantiers navals memphites et thébains à la dimension métaphysique du voyage vers l'éternité.</p>
+    <p><strong>Siècle :</strong> XXe – XIXe siècle av. J.-C. (vers -1900) | <strong>Civilisation :</strong> Égypte antique (Moyen Empire) | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "funeraire_maquette_barque_joute_nautique_bois_moyen_empire_assouan",
+    civId: "egypte",
+    periodId: "egypte_moyen",
+    civName: "Égypte : Moyen Empire & Périodes Intermédiaires",
+    century: "Moyen Empire (vers -2000 à -1800 av. J.-C. / XIe – XIIe dynastie)",
+    centuryDisplay: "XXe – XIXe s. av. J.-C.",
+    centuryNumeric: -1900,
+    domain: "funeraire",
+    artifactType: "Maquette funéraire (barque, atelier, serviteur)",
+    title: "Maquette de barque en bois peint figurant une joute nautique et des pêcheurs (Musée de la Nubie, Assouan)",
+    site: "Musée de la Nubie (Assouan)",
+    originSite: "Haute-Égypte ou Basse-Nubie",
+    locationType: "museum",
+    currentLocation: "Musée de la Nubie, Assouan",
+    category: "Maquette funéraire en bois sculpté et peint",
+    isHighlight: false,
+    chips: ["Moyen Empire", "Barque funéraire", "Joute nautique", "Pêcheurs", "Bois peint", "Musée de la Nubie"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNIgJSQ7Eu4n0aPnAd3DI2rLHouPVZ-N2a19hRNo1u6qY6KCT-JdTJedpEujRXmIUplh0xewX-E2C2KcI0wH6M5EFN-jdOAk-n6m66tTlgdYDiIG_EwuDGykLdmngF7sBVhyd9fBvK-sB18q1YZV3oeAw=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette maquette de barque, conservée au musée de la Nubie à Assouan, offre un aperçu captivant des activités de plein air et de la vie sur le Nil durant le Moyen Empire. Contrairement aux grandes barques de transport ou de guerre, celle-ci semble illustrer une scène de pêche ou de joute nautique, des thèmes fréquemment représentés dans les tombes de l'époque pour symboliser le triomphe sur les forces chaotiques de la nature. Fabriquée en bois sculpté et peint, elle conserve une simplicité rustique qui met l'accent sur le dynamisme des personnages.</p>
+    <p>L'embarcation se distingue par la présence de deux figurines centrales engagées dans un corps à corps, ce qui suggère une scène de lutte ou de joute entre bateliers. Ce type de représentation, souvent observé dans les bas-reliefs des mastabas, montre des pêcheurs s'affrontant amicalement à l'aide de perches tout en naviguant sur les marais de papyrus. Les personnages sont représentés dans des postures athlétiques, avec une économie de détails qui privilégie le mouvement et l'interaction physique.</p>
+    <p>À l'arrière, un personnage plus grand, peut-être le propriétaire ou le chef d'équipage, se tient debout et observe la scène avec autorité. Il porte un pagne blanc qui se détache nettement sur sa peau sombre, soulignant son rang. La structure de la barque elle-même est plus courte et plus trapue que les grands navires funéraires, évoquant les esquifs légers utilisés dans les chenaux étroits du Nil ou dans les zones marécageuses du Delta et de la Nubie.</p>
+    <p>Placée dans une tombe, cette maquette garantissait au défunt de pouvoir continuer à jouir des plaisirs de la vie terrestre dans l'au-delà. Elle assurait également la subsistance éternelle, la pêche étant une source vitale de nourriture. Par sa présence au musée d'Assouan, elle rappelle l'importance historique de la navigation dans cette région charnière, où le fleuve constituait le lien unique entre les cultures égyptienne et nubienne.</p>
+    <p><strong>Siècle :</strong> XXe – XIXe siècle av. J.-C. (vers -1900) | <strong>Civilisation :</strong> Égypte antique (Moyen Empire) | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "funeraire_vase_canope_animal_sethien_calcaire_xviiie_le_mans",
+    civId: "egypte",
+    periodId: "egypte_nouvel",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1400 av. J.-C. / Nouvel Empire)",
+    centuryDisplay: "XVe – XIVe s. av. J.-C.",
+    centuryNumeric: -1400,
+    domain: "funeraire",
+    artifactType: "Coffre & Vases canopes",
+    title: "Vase canope à couvercle anthropomorphe à tête de l'animal séthien en calcaire poli (Musée de Tessé, Le Mans)",
+    site: "Musée de Tessé (Le Mans)",
+    originSite: "Thèbes ou Haute-Égypte",
+    locationType: "museum",
+    currentLocation: "Musée de Tessé, Le Mans",
+    category: "Vase canope en calcaire poli",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Nouvel Empire", "Vase canope", "Animal séthien", "Dieu Seth", "Calcaire poli", "Musée de Tessé"],
+    deptBanner: "https://lh3.googleusercontent.com/d/11hLJFFN1McLmLPGw1pf73r-LVI6VfhMp",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPPqI8YbqGHLhzeC1hcurccWf-CDgTStkbZoPM95Km8zgyH2GiM9mGT3ObSzb8Zx6xI9k7Co7Fw7N77MHC-4k2bWT8daQI9OP7mAiEOxCc-UrKb-3uL6TH3uuKhiahrHoWWY73vuCP85FkPBPxBrH4WZw=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce vase canope, conservé au musée de Tessé, constitue un exemple exceptionnel de la statuaire funéraire de la XVIIIe dynastie, période marquée par un raffinement artistique sans précédent. Taillé dans une pierre calcaire claire au grain serré, l'objet se compose d'une panse globulaire destinée à recevoir les viscères momifiés du défunt et d'un couvercle amovible sculpté avec une précision remarquable. La forme du vase, légèrement évasée vers l'épaule, assure une stabilité visuelle qui met en valeur la partie supérieure, véritable chef-d'œuvre de micro-sculpture.</p>
+    <p>Le couvercle représente la tête de l'animal séthien, créature hybride aux oreilles hautes et droites, caractéristiques du dieu Seth. Bien que les quatre fils d'Horus soient plus communément représentés sur les canopes à partir de la fin de la XVIIIe dynastie, la présence de Seth ici souligne des particularités théologiques ou régionales spécifiques, ou peut-être une protection directe liée à la force du dieu du chaos maîtrisé. Le museau est effilé, et le travail des yeux, bien que stylisé, insuffle une présence quasi vivante à l'objet. La transition entre le couvercle et le col du vase est parfaitement ajustée, témoignant du savoir-faire des artisans royaux ou de haut rang.</p>
+    <p>La surface du calcaire a été soigneusement polie, offrant un aspect satiné qui accroche la lumière et souligne la pureté des lignes. L'absence d'inscriptions visibles sur la panse permet d'apprécier la silhouette harmonieuse du vase, typique du Nouvel Empire où l'élégance de la forme prévalait parfois sur l'abondance textuelle. Cet objet ne servait pas seulement de réceptacle biologique, mais constituait un substitut magique garantissant l'intégrité du corps du défunt dans l'au-delà, sous la garde d'une divinité redoutable transformée en protectrice éternelle.</p>
+    <p><strong>Siècle :</strong> XVe – XIVe siècle av. J.-C. (-1400) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "funeraire_bouchon_canope_douamoutef_chacal_terre_cuite_le_mans",
+    civId: "egypte",
+    periodId: "egypte_tardive",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "Troisième Période intermédiaire (XXIe – XXIIe dynastie, vers -950 av. J.-C.)",
+    centuryDisplay: "Xe s. av. J.-C.",
+    centuryNumeric: -950,
+    domain: "funeraire",
+    artifactType: "Coffre & Vases canopes",
+    title: "Bouchon de vase canope à tête de chacal de Douamoutef en terre cuite peinte (Musée de Tessé, Le Mans)",
+    site: "Musée de Tessé (Le Mans)",
+    originSite: "Moyenne ou Haute-Égypte",
+    locationType: "museum",
+    currentLocation: "Musée de Tessé, Le Mans",
+    category: "Couvercle de vase canope en terre cuite peinte",
+    isHighlight: false,
+    chips: ["Troisième Période intermédiaire", "Vase canope", "Douamoutef", "Chacal", "Fils d'Horus", "Terre cuite", "Musée de Tessé"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNZzfWTwY3KjR2VyUWgWwjg6l9bK524fkzRy4tat9k3OiSIUvTRXmYECy6IPzsr44FnGI-a-r_wEjqdMsG_j97swyuDJka8VpkAssTuQA8hHBldvPrgBrxCdO3OZrU4qsUVoOw_rE-C6p3QMrdblLmZgw=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce bouchon de vase canope en terre cuite peinte représente Douamoutef, l'un des quatre fils d'Horus, chargé de la protection de l'estomac du défunt. À partir de la fin de la XVIIIe dynastie et durant la Troisième Période intermédiaire, les couvercles de canopes adoptent les traits distinctifs de ces génies funéraires, remplaçant la tête humaine générique par des têtes animales. Douamoutef est ici figuré sous l'apparence d'un chacal, animal associé à la nécropole et à la vigilance, dont les oreilles dressées et le museau allongé sont rendus avec une grande économie de moyens, privilégiant l'efficacité symbolique à la précision anatomique.</p>
+    <p>La matière, une terre cuite à la texture légèrement poreuse, conserve des traces de polychromie qui permettaient à l'origine de souligner les détails du visage et du pelage. La structure du bouchon est conçue pour s'emboîter parfaitement sur la panse du vase, formant une unité protectrice scellée. Le modelé des oreilles, larges et pointées vers le haut, accentue le caractère attentif de la divinité, tandis que la ligne du cou s'évase pour assurer la transition avec le corps du récipient. Cette pièce illustre la démocratisation des pratiques funéraires à cette période, où l'utilisation de la terre cuite peinte offrait une alternative plus accessible mais tout aussi efficace rituellement que la pierre ou le bronze.</p>
+    <p>Sur le plan religieux, Douamoutef est placé sous la protection de la déesse Neith. La présence de ce bouchon au sein d'un ensemble funéraire garantissait au mort non seulement la conservation de ses organes, mais aussi sa capacité à renaître dans l'au-delà en tant qu'être complet. Malgré l'usure du temps, la force de l'expression du chacal reste intacte, témoignant de la persistance des croyances ancestrales à une époque de transitions politiques et sociales majeures en Égypte.</p>
+    <p><strong>Siècle :</strong> Xe siècle av. J.-C. (-950) | <strong>Civilisation :</strong> Égypte antique (Troisième Période intermédiaire / Basse Époque) | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "funeraire_quatre_canopes_albatre_or_psousennes_ier_tanis_caire",
+    civId: "egypte",
+    periodId: "egypte_tardive",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "XXIe dynastie (vers -1000 av. J.-C. / règne de Psousennès Ier)",
+    centuryDisplay: "Xe s. av. J.-C.",
+    centuryNumeric: -1000,
+    domain: "funeraire",
+    artifactType: "Coffre & Vases canopes",
+    title: "Ensemble des quatre vases canopes et aiguière de purification en albâtre et or de Psousennès Ier (Tanis, Musée égyptien du Caire)",
+    site: "Musée égyptien du Caire",
+    originSite: "Nécropole royale de Tanis (Tombe NRT III, Delta du Nil)",
+    locationType: "museum",
+    currentLocation: "Musée égyptien du Caire (Trésor de Tanis, JE 85897 à JE 85900)",
+    category: "Vases canopes royaux en albâtre (calcite) et feuilles d'or",
+    isHighlight: true,
+    chips: ["XXIe dynastie", "Psousennès Ier", "Tanis", "Vases canopes", "Quatre fils d'Horus", "Albâtre", "Feuille d'or", "Musée du Caire"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNf-x9ajabxfTYr_Yp--KMxcDlQT3D6SppDi4m1yFTMKXeGytmvKlRgdDQ9ljOYDTV00h_hFqUAmTkeL5TG9bUCji2vhMH2CzTeVD-J6h4pRvLkdQsmpC63fMBLrDkHVkYZjVlYASOqdgF9B1B5LDWSrw=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cet ensemble liturgique d'une rare élégance se compose d'un imposant vase à libation central entouré de ses quatre vases canopes, ayant appartenu au pharaon Psousennès Ier. Découverts dans sa chambre funéraire à Tanis en 1940, ces objets étaient essentiels au rituel de momification et à la survie biologique du roi dans l'au-delà. Taillés dans de l'albâtre (calcite) veiné de haute qualité, ils témoignent du soin apporté à la conservation des organes vitaux du souverain sous la XXIe dynastie.</p>
+    <p>Le vase central, doté d'une anse et d'un bec verseur, servait à verser de l'eau sacrée ou des onguents lors des cérémonies de purification de la momie. Autour de lui, les quatre vases canopes arborent des couvercles sculptés représentant les quatre fils d'Horus, chargés de protéger les viscères. Contrairement à l'usage du Nouvel Empire où les couvercles étaient souvent tous à l'effigie humaine, on retrouve ici les têtes distinctives du génie humain, du babouin, du chacal et du faucon, rehaussées de dorures sur les visages et les némès pour souligner leur caractère divin.</p>
+    <p>Chaque vase porte une inscription hiéroglyphique gravée en façade, invoquant la protection d'une déesse tutélaire (Isis, Nephtys, Neith ou Selket) sur l'organe spécifique contenu à l'intérieur : le foie, les poumons, l'estomac ou les intestins. Ces textes confirment l'identité du propriétaire, « le roi de Haute et Basse-Égypte Psousennès, aimé d'Amon », liant ainsi éternellement le corps physique du souverain aux puissances cosmiques. L'éclat de l'or appliqué sur la pierre blanche symbolise la transformation du roi en un être de lumière impérissable.</p>
+    <p>Cet ensemble complet est un témoignage précieux des pratiques funéraires de la Troisième Période Intermédiaire, montrant que les traditions rituelles de la royauté thébaine ont été parfaitement maintenues par les rois de Tanis. Exposés au Musée égyptien du Caire, ces vases canopes restent parmi les plus beaux exemples du genre, alliant la sobriété de la pierre à la splendeur du métal précieux pour garantir l'intégrité du « Pharaon d'Argent » pour l'éternité.</p>
+    <p><strong>Siècle :</strong> Xe siècle av. J.-C. (-1000) | <strong>Civilisation :</strong> Égypte antique (Troisième Période intermédiaire / Basse Époque) | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "ceramique_vase_globulaire_albatre_faucon_horus_ounas_louvre",
+    civId: "egypte",
+    periodId: "egypte_ancien",
+    civName: "Égypte : Ancien Empire & Époque Thinite",
+    century: "Ve dynastie (vers -2350 av. J.-C. / règne d'Ounas)",
+    centuryDisplay: "XXIVe s. av. J.-C.",
+    centuryNumeric: -2350,
+    domain: "ceramique",
+    artifactType: "Alabatre",
+    title: "Vase globulaire en albâtre translucide au faucon protecteur du pharaon Ounas (Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Pyramide d'Ounas (Saqqarah)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes)",
+    category: "Vase à onguents royaux en albâtre calcite",
+    isHighlight: false,
+    chips: ["Ve dynastie", "Ancien Empire", "Ounas", "Albâtre", "Faucon Horus", "Signe Shen", "Saqqarah", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOzqV4V0tVciYDJ6AKp1T9G9eOAfl42vcc8fT9bp3_x9_BxWLO6U_UG4h1HHo7EQPIrZ3o6Qs5-yufAvUjaYZPhv8pDtQKnoeLmKpaglRPW5uOHBkONDwxuY_2tLwhiN_2Y5aa2icRUpZ3E5RG48-P9ow=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce vase globulaire en albâtre (calcite) translucide appartient au règne d'Ounas, dernier souverain de la Ve dynastie. Sa panse sphérique et son col court évasé forment une silhouette harmonieuse, typique de la vaisselle de luxe de l'Ancien Empire. Le décor incisé, d'une grande finesse, représente un faucon aux ailes déployées, symbole de la protection royale et de la divinité Horus, enserrant dans ses serres le signe Shen, image de l'éternité et de l'universalité du pouvoir pharaonique.</p>
+    <p>Le travail de l'artisan exploite les propriétés naturelles de la pierre, dont les veines et la translucidité confèrent à l'objet une dimension lumineuse et divine. Les détails du plumage du rapace sont rendus par une série d'incisions régulières qui témoignent d'une parfaite maîtrise technique. Ce type de récipient, d'une grande valeur matérielle et symbolique, était destiné à contenir des onguents précieux ou des huiles rituelles, utilisés lors des cérémonies de purification ou déposés dans le mobilier funéraire du roi pour son voyage dans l'au-delà.</p>
+    <p>L'inscription du nom d'Ounas sur la panse de tels vases permet de les lier directement au complexe funéraire du roi à Saqqarah. En tant qu'objet de prestige, ce vase assure non seulement une fonction utilitaire rituelle, mais il sert également de support à la glorification du nom du monarque. La présence du faucon protecteur renforce l'idée d'une survie royale garantie par les dieux, faisant de cet objet un élément central de l'appareil funéraire destiné à perpétuer le culte du souverain défunt.</p>
+    <p><strong>Siècle :</strong> XXIVe siècle av. J.-C. (-2350) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Céramiques.</p>`
+  },
+  {
+    id: "vie_quotidienne_boite_a_onguents_sept_huiles_calcite_vie_dynastie_louvre",
+    civId: "egypte",
+    periodId: "egypte_ancien",
+    civName: "Égypte : Ancien Empire & Époque Thinite",
+    century: "VIe dynastie (vers -2300 av. J.-C. / Ancien Empire)",
+    centuryDisplay: "XXIIIe s. av. J.-C.",
+    centuryNumeric: -2300,
+    domain: "vie_quotidienne",
+    artifactType: "Cosmétique, Toilette & Beauté",
+    title: "Palette et boîte à onguents rituels aux sept huiles sacrées en calcite (VIe dynastie, Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Saqqarah ou Nécropole memphite",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes)",
+    category: "Nécessaire cosmétique et rituel en calcaire et calcite",
+    isHighlight: false,
+    chips: ["VIe dynastie", "Ancien Empire", "Sept huiles sacrées", "Boîte à onguents", "Calcite", "Toilette rituelle", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOTDOhNj4JtrLdjO61M-AOvHgtb1M8hdQ5K0MshuZJbvDgbzRojINFfzS7j4z1sSQ8H8mc-5iP7p2j7npx5XUEojGuaBv3TDZe06DPN6AQIRmqrbbraKKs86apEjGVcsqnw6eFalT8KgkfPX_KyQtkP3g=w1221-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette boîte à onguents ou coffret à fards, datant de la VIe dynastie, se compose d'un ensemble de petits flacons et de compartiments destinés à la conservation des produits cosmétiques et médicinaux. Taillé dans un calcaire fin ou de la calcite, l'objet adopte une forme compacte et géométrique. Les cavités circulaires, destinées à recevoir les huiles précieuses ou le khôl, sont percées avec une régularité qui témoigne de l'usage de forets à pierre performants dès l'Ancien Empire.</p>
+    <p>Le décor en bas-relief sur la paroi externe ou le couvercle présente souvent le défunt assis devant une table d'offrandes, rappelant que les soins du corps et l'esthétique étaient indissociables de la survie dans l'au-delà. Des colonnes de hiéroglyphes identifient le contenu de chaque flacon, énumérant parfois les sept huiles sacrées indispensables aux rituels de momification et à la renaissance du Ka. Les signes, bien que de petite taille, conservent la précision monumentale propre à la fin de la VIe dynastie.</p>
+    <p>Cet ensemble ne constitue pas seulement un objet de toilette luxueux, mais un élément rituel fondamental du mobilier funéraire. En offrant au mort les moyens de parer son corps et de l'oindre, les vivants garantissaient sa pureté et son intégrité physique pour l'éternité. La douceur des contours et le poli de la pierre reflètent le raffinement de la cour memphite, où l'art de la parure était élevé au rang d'institution divine.</p>
+    <p><strong>Siècle :</strong> XXIIIe siècle av. J.-C. (-2300) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Vie quotidienne & Sciences.</p>`
+  },
+  {
+    id: "ceramique_vase_albatre_anses_cartouches_ramses_ii_louvre",
+    civId: "egypte",
+    periodId: "egypte_nouvel",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1250 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1250,
+    domain: "ceramique",
+    artifactType: "Alabatre",
+    title: "Vase à anses en albâtre aux cartouches royaux de Ramsès II (Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Thèbes ou Pi-Ramsès",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes)",
+    category: "Vase d'apparat en albâtre calcite",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Nouvel Empire", "Ramsès II", "Vase en albâtre", "Cartouches royaux", "Ousermaâtré", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/d/11hLJFFN1McLmLPGw1pf73r-LVI6VfhMp",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczM4mBhE3fHwegxIFTaBIZUJrUEpsKQqS45BGatSwSbUqg_0WendTTmzdRXWetflI4CzLndy-PsaqbbzgRIq1SSLEZPaULG11Dsykfki6cMUesQVibsTh04UwlsDGiog6OBgOAcDQ4gnW4kA8-wiPY7o6g=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce vase en albâtre est une pièce remarquable de la vaisselle de luxe de l'Égypte ancienne. Sa panse globulaire est flanquée de deux anses verticales, et son col large se termine par un rebord plat. L'élément central de l'objet est la présence de deux cartouches gravés et peints en noir sur le corps du vase, identifiant son propriétaire royal.</p>
+    <p>Les inscriptions hiéroglyphiques présentent les noms de couronnement et de naissance du pharaon : à gauche, Ousermaâtré Setepenré (« La justice de Rê est puissante, l'élu de Rê ») et à droite, Ramsès Meryamoun (« Rê l'a engendré, l'aimé d'Amon »). Ce type de récipient était utilisé pour conserver des onguents précieux ou des huiles parfumées, souvent destinés au mobilier funéraire ou aux offrandes de temple.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1250) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Céramiques.</p>`
+  },
+  {
+    id: "funeraire_papyrus_livre_des_morts_yuya_champs_ialou_kv46_caire",
+    civId: "egypte",
+    periodId: "egypte_nouvel",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1380 av. J.-C. / règne d'Amenhotep III)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1380,
+    domain: "funeraire",
+    artifactType: "Papyrus funéraire / Livre des Morts",
+    title: "Rouleau de papyrus du Livre des Morts de Yuya : Chapitre 110 des Champs d'Ialou (Tombe KV46, Musée égyptien du Caire)",
+    site: "Musée égyptien du Caire",
+    originSite: "Tombe KV46 (Vallée des Rois, Thèbes)",
+    locationType: "museum",
+    currentLocation: "Musée égyptien du Caire (salle Yuya et Touya, JE 95249)",
+    category: "Papyrus funéraire enluminé",
+    isHighlight: true,
+    chips: ["XVIIIe dynastie", "Nouvel Empire", "Yuya", "Livre des Morts", "Champs d'Ialou", "Papyrus", "KV46", "Musée du Caire"],
+    deptBanner: "https://lh3.googleusercontent.com/d/11hLJFFN1McLmLPGw1pf73r-LVI6VfhMp",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPD9r5XUNPpK6PS-Sn1d5NoH58KUWqCNKe9kmM1sLOG5oaKLk3cEwUCJYSTpjWeYC3BMO9mLrUFHd982rV0wYEOhX9AZTIvNX3PQFgqXol3cNZu7Ts0_45xpwBytbFvYUUp0-LAP25Zy-G1aTqOJixBbQ=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce document exceptionnel est un fragment du Livre des Morts de Yuya, un rouleau de papyrus d'une longueur remarquable de près de 20 mètres, découvert dans sa tombe (KV46) en 1905. Cette section illustre le chapitre 110, consacré aux « Champs d'Ialou », le paradis des anciens Égyptiens où le défunt peut jouir d'une existence paisible et éternelle. La qualité des dessins et la fraîcheur des pigments témoignent du savoir-faire des scribes et illustrateurs royaux de la XVIIIe dynastie.</p>
+    <p>À gauche de la scène, Yuya est représenté debout, vêtu d'un pagne blanc plissé et paré d'un large collier, tenant un bâton de marche qui souligne son autorité de haut dignitaire. Il reçoit des offrandes de deux serviteurs, tandis que devant lui s'étend un paysage idyllique divisé en registres. Ce jardin de l'au-delà est parcouru par des canaux d'eau bleue irriguant des terres fertiles où le défunt est censé accomplir des travaux agricoles magiques pour assurer sa subsistance éternelle.</p>
+    <p>Le décor central montre Yuya s'adonnant à diverses tâches champêtres : il laboure la terre avec une charrue tirée par des bœufs, fauche le blé mûr et participe aux semailles. Ces activités, qui pourraient paraître pénibles, sont ici transfigurées en rituels sacrés garantissant l'abondance. La présence de divinités et de barques divines dans les registres supérieurs confirme que ce domaine n'est pas terrestre mais bien une demeure céleste bénie par les dieux.</p>
+    <p>Les colonnes de textes hiéroglyphiques qui encadrent les images contiennent les formules rituelles nécessaires pour franchir les obstacles du monde souterrain et accéder à ce jardin des délices. Ce papyrus est l'un des plus beaux exemples de l'art funéraire sous le règne d'Amenhotep III, reflétant une vision sereine et structurée de la vie après la mort pour l'élite égyptienne de l'époque.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1380) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "funeraire_papyrus_livre_des_morts_nefer_ouben_f_confession_negative_le_mans",
+    civId: "egypte",
+    periodId: "egypte_nouvel",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1500 à -1450 av. J.-C. / Thoutmosis III – Amenhotep II)",
+    centuryDisplay: "XVe s. av. J.-C.",
+    centuryNumeric: -1475,
+    domain: "funeraire",
+    artifactType: "Papyrus funéraire / Livre des Morts",
+    title: "Rouleau de papyrus du Livre des Morts de Nefer-ouben-f : La Confession négative (Musée de Tessé, Le Mans)",
+    site: "Musée de Tessé (Le Mans)",
+    originSite: "Thèbes",
+    locationType: "museum",
+    currentLocation: "Musée de Tessé, Le Mans",
+    category: "Papyrus funéraire enluminé",
+    isHighlight: true,
+    chips: ["XVIIIe dynastie", "Nouvel Empire", "Livre des Morts", "Nefer-ouben-f", "Confession négative", "Tribunal d'Osiris", "Musée de Tessé"],
+    deptBanner: "https://lh3.googleusercontent.com/d/11hLJFFN1McLmLPGw1pf73r-LVI6VfhMp",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMFcBYMdnw3b2hV9egBE59uPq7n8uWsNE8nnf6qaZ-7_8OtETV7VxD3L-ndLd920kZAST1R8NerQ8nT5ARxuEXcm-6Kkw0uo8fNfexhC4dPow8iBk4yd2FWPYmT38HaiuG2jBrGNLZWmyi6M7Yhk2E5WQ=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce document, rédigé en hiéroglyphes cursifs, appartient à la catégorie des « guides de l'au-delà » destinés à aider le défunt à franchir les obstacles du monde souterrain pour atteindre la vie éternelle. La qualité du trait et la vivacité des couleurs témoignent du haut rang de son propriétaire, Nefer-ouben-f, qui occupait la fonction de « Supérieur des porteurs de l'offrande d'Amon ».</p>
+    <p>La scène illustrée ici représente la confession négative (ou déclaration d'innocence) devant le tribunal d'Osiris, l'une des étapes les plus cruciales du voyage posthume. On y voit le défunt, vêtu de blanc, en posture d'adoration devant une série de divinités assises, les quarante-deux juges de la salle des deux Maât. Chaque dieu est chargé de juger un péché spécifique. Nefer-ouben-f doit s'adresser à chacun d'eux par son nom et affirmer qu'il n'a commis aucun crime, qu'il s'agisse de vol, de meurtre ou d'offense aux dieux, afin de prouver la pureté de son cœur.</p>
+    <p>Le papyrus utilise une palette de pigments naturels restés d'une fraîcheur saisissante : l'ocre rouge pour les corps masculins, le jaune pour certaines parures divines et le bleu-vert pour les éléments symboliques. Les divinités sont représentées avec diverses têtes animales ou humaines (faucon, chacal, serpent), soulignant la diversité des forces cosmiques convoquées pour ce jugement final. Ce dialogue entre texte et image illustre parfaitement la pensée magique égyptienne où la parole écrite et la représentation graphique possèdent le pouvoir de rendre la réalité effective dans l'éternité.</p>
+    <p>Cette pièce est un témoignage rare de la diffusion de la culture thébaine dans les collections provinciales françaises. Elle faisait partie de la collection d'Édouard de Montulé, un voyageur manceau du XIXe siècle, et constitue aujourd'hui l'un des piliers du département d'égyptologie du musée. Au-delà de sa beauté artistique, ce fragment nous plonge dans l'intimité spirituelle d'un Égyptien du Nouvel Empire, révélant ses craintes face au jugement et son espoir d'accéder aux Champs d'Ialou, le paradis des anciens Égyptiens.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1475) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "vie_quotidienne_fauteuil_reine_tiyi_or_dieu_bes_kv46_caire",
+    civId: "egypte",
+    periodId: "egypte_nouvel",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1380 av. J.-C. / règne d'Amenhotep III)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1380,
+    domain: "vie_quotidienne",
+    artifactType: "Mobilier domestique & Apparat",
+    title: "Fauteuil d'apparat en bois doré aux accoudoirs au dieu Bès de la reine Tiyi (Tombe KV46, Musée égyptien du Caire)",
+    site: "Musée égyptien du Caire",
+    originSite: "Tombe KV46 de Yuya et Touya (Vallée des Rois, Thèbes)",
+    locationType: "museum",
+    currentLocation: "Musée égyptien du Caire (salle Yuya et Touya, JE 95254)",
+    category: "Mobilier royal en bois précieux doré à la feuille",
+    isHighlight: true,
+    chips: ["XVIIIe dynastie", "Nouvel Empire", "Reine Tiyi", "Amenhotep III", "KV46", "Fauteuil royal", "Dieu Bès", "Musée du Caire"],
+    deptBanner: "https://lh3.googleusercontent.com/d/11hLJFFN1McLmLPGw1pf73r-LVI6VfhMp",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOzSTRZaHuBYYGI-BKXsNQmtZIP3Bly7FJtYYlq1pdYjj3DvhjmEIAKiVtBqxp-zVLuY63zHK9EKJLRbmOSArz_yNQcdlIupt33X-oUpr5-UzteGkx_KaYUqsj8jvrLaU66IBIWsiI2FVu3douqVVh_oA=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce fauteuil d'apparat, l'une des pièces les plus raffinées du mobilier de la tombe KV46, est un cadeau du couple royal Amenhotep III et Tiyi à leurs parents, Yuya et Touya. Bien que souvent associé à la reine Tiyi de par son élégance, il appartenait techniquement à ses parents pour leur usage dans l'au-delà. Réalisé en bois précieux recouvert de feuilles d'or, il repose sur des pieds sculptés en forme de pattes de lion, un motif classique de la XVIIIe dynastie symbolisant la force et la protection royale.</p>
+    <p>Le dossier est décoré d'une scène en bas-relief d'une grande finesse montrant la reine Tiyi assise sur une barque, naviguant au milieu des papyrus. Cette iconographie souligne le lien étroit entre la souveraine et sa famille, tout en inscrivant le mobilier dans une thématique de renaissance et de voyage vers l'éternité. Les accoudoirs sont ajourés et présentent des figures du dieu Bès, le génie protecteur du foyer et des naissances, représenté de face avec sa physionomie grimaçante pour repousser les forces maléfiques.</p>
+    <p>L'assise était initialement composée d'un tressage de cordes ou de fibres végétales, aujourd'hui disparu, qui accueillait un coussin de lin pour plus de confort. L'utilisation généreuse de l'or sur l'ensemble de la structure n'est pas seulement un signe de richesse extrême, mais une fonction religieuse : l'or étant considéré comme la chair des dieux, il rendait l'objet imputrescible et divin, apte à servir le défunt pour l'éternité.</p>
+    <p>Cette chaise illustre parfaitement l'art de vivre à la cour d'Amenhotep III, souvent appelée « l'Âge d'or » de l'Égypte ancienne. La précision des détails, comme les nervures des fleurs de lotus ou les traits du visage de la reine, témoigne du degré de perfection atteint par les artisans des ateliers royaux de Thèbes. Ce meuble de prestige est l'un des rares exemples de mobilier civil de très haute qualité parvenu jusqu'à nous dans un tel état de conservation.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1380) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Vie quotidienne & Sciences.</p>`
+  },
+  {
+    id: "vie_quotidienne_trone_or_ankhesenamon_aton_toutankhamon_kv62_caire",
+    civId: "egypte",
+    periodId: "egypte_nouvel",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1330 av. J.-C. / règne de Toutânkhamon)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1330,
+    domain: "vie_quotidienne",
+    artifactType: "Mobilier domestique & Apparat",
+    title: "Trône royal d'apparat en bois doré, argent et pierres incrustées de Toutânkhamon et Ânkhésenamon (Tombe KV62, Musée égyptien du Caire)",
+    site: "Musée égyptien du Caire",
+    originSite: "Tombe KV62 (Vallée des Rois, Thèbes)",
+    locationType: "museum",
+    currentLocation: "Musée égyptien du Caire (Trésor de Toutânkhamon, JE 62028)",
+    category: "Mobilier de cour royal en bois plaqué d'or, argent et pierres dures",
+    isHighlight: true,
+    chips: ["XVIIIe dynastie", "Nouvel Empire", "Toutânkhamon", "Ânkhésenamon", "Disque Aton", "Trône royal", "KV62", "Musée du Caire"],
+    deptBanner: "https://lh3.googleusercontent.com/d/11hLJFFN1McLmLPGw1pf73r-LVI6VfhMp",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMjwYFm25XpXWjDswtT7GKg9MR2N1JjhJLRH2gluROaD3eV9uIS565hlbkU5GdvdvHBke5aWa-qG3PdcestuOXemdRNRa4MQFFXk6FHRiX5hnAR20JxGmOXVL3oIqFAoTU02ulF9JOHy_nWg5mghBqsow=w613-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette pièce maîtresse, conservée au Musée égyptien du Caire, est le trône d'apparat du pharaon Toutânkhamon, découvert par Howard Carter en 1922 dans la chambre dite de l'Annexe de sa sépulture (KV62). Datant de la XVIIIe dynastie, vers 1330 avant notre ère, cet imposant siège est réalisé en bois précieux entièrement recouvert d'une épaisse feuille d'or. Sa structure se distingue par des pieds galbés terminés par des pattes de lion, tandis que les accoudoirs sont protégés par deux têtes de lion ailées, symbolisant la puissance protectrice du souverain.</p>
+    <p>Le décor du dossier constitue l'un des exemples les plus raffinés de l'art amarnien tardif, utilisant une marqueterie complexe d'argent, de pâte de verre colorée, de cornaline et de lapis-lazuli. La scène centrale dépeint une rare intimité royale : le jeune roi est assis sur son trône tandis que son épouse, la reine Ânkhésenamon, lui applique délicatement un onguent parfumé sur l'épaule. Au-dessus d'eux rayonne le disque solaire Aton, dont les rayons se terminent par de petites mains offrant le souffle de vie (le signe Ânkh) au couple, témoignant de la transition religieuse opérée après le règne d'Akhenaton.</p>
+    <p>L'étude des inscriptions portées sur le meuble révèle une fascinante dualité historique, car elles mentionnent à la fois les noms de naissance du couple, Toutânkhaton et Ânkhésenpaaton, et leurs noms officiels adoptés après le retour au culte d'Amon. Ce trône n'était pas seulement un mobilier de cour fonctionnel, mais une véritable plateforme théologique affirmant la légitimité du roi et la présence divine au cœur du palais. Sa préservation exceptionnelle en fait aujourd'hui l'un des symboles les plus iconiques de l'Égypte antique.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1330) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Vie quotidienne & Sciences.</p>`
+  },
+  {
+    id: "sculpture_statue_gardien_toutankhamon_bois_bitume_or_kv62_caire",
+    civId: "egypte",
+    periodId: "egypte_nouvel",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1323 av. J.-C. / règne de Toutânkhamon)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1323,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire royale & divine (ronde-bosse)",
+    title: "Statue grandeur nature du Ka gardien de Toutânkhamon en bois bitumé et or (Tombe KV62, Musée égyptien du Caire)",
+    site: "Musée égyptien du Caire",
+    originSite: "Tombe KV62 (Vallée des Rois, Thèbes)",
+    locationType: "museum",
+    currentLocation: "Musée égyptien du Caire (Trésor de Toutânkhamon, JE 60707)",
+    category: "Statue royale en bois stuqué, bitumé et doré",
+    isHighlight: true,
+    chips: ["XVIIIe dynastie", "Nouvel Empire", "Toutânkhamon", "Statue sentinelle", "Bois bitumé", "Némès doré", "KV62", "Musée du Caire"],
+    deptBanner: "https://lh3.googleusercontent.com/d/11hLJFFN1McLmLPGw1pf73r-LVI6VfhMp",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczM2QHG0cJ87uvglj6DQVMbCPNf8tQTTLlO9Uc32l3E8SsgQ2N21w2aqFFnANvDRTvZsXdjJaoaNJfLAqMQsyylrlKdeKqHhiyjwSTXNYTUQXvq0Ez_JcPVDhlHgHJxWLbffK-76HcT0fuXTAFvpmIszMQ=w613-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette œuvre magistrale, découverte par Howard Carter en 1922, est l'une des deux statues de gardiens grandeur nature qui flanquaient l'entrée scellée de la chambre funéraire de Toutânkhamon. Réalisée en bois bitumé et parée d'or, elle incarne la protection souveraine du jeune pharaon dans son voyage vers l'au-delà. Le contraste saisissant entre le noir profond de la peau et l'éclat du métal précieux n'est pas seulement esthétique, il porte une charge symbolique puissante liée à la renaissance et à la fertilité des terres du Nil.</p>
+    <p>Le souverain est représenté dans une attitude de marche vigoureuse, le pied gauche porté en avant, tenant fermement une canne de marche et une masse cérémonielle. Il arbore le némès, la coiffe royale rayée, surmontée de l'uræus protecteur, le cobra femelle prêt à foudroyer les ennemis du roi. Son pagne, appelé shendyt, présente un devant plissé et empesé de forme trapézoïdale, typique de la mode de la XVIIIe dynastie, dont la finesse d'exécution témoigne de l'excellence des ateliers royaux de l'époque.</p>
+    <p>Le choix du bitume noir pour recouvrir le corps n'est pas un portrait réaliste de la carnation du roi, mais une référence directe à Osiris, dieu des morts et de la résurrection, souvent surnommé « le Noir ». En adoptant cette apparence, Toutânkhamon s'identifie à la divinité pour garantir son propre triomphe sur la mort. Les détails dorés, comme les sandales, les bracelets et le large collier ousekh, soulignent sa nature divine et solaire, rappelant que le pharaon est le lien vivant entre le monde des hommes et celui des dieux.</p>
+    <p>Aujourd'hui conservée au Musée égyptien du Caire, cette sentinelle millénaire demeure l'un des symboles les plus fascinants de l'art amarnien tardif. Bien que le visage présente les traits caractéristiques de la lignée de Toutânkhamon, notamment les yeux en amande et la lèvre inférieure charnue, la statue dégage une autorité sereine et une vigilance immuable. Elle reste le témoin silencieux de la splendeur retrouvée d'un roi dont le nom a traversé les âges pour devenir synonyme des trésors de l'Égypte antique.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1323) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_chacal_anubis_coffre_traineau_toutankhamon_kv62_caire",
+    civId: "egypte",
+    periodId: "egypte_nouvel",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1323 av. J.-C. / règne de Toutânkhamon)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1323,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire royale & divine (ronde-bosse)",
+    title: "Le dieu chacal Anubis couché sur le coffre naos et traîneau processionnel (Tombe KV62, Musée égyptien du Caire)",
+    site: "Musée égyptien du Caire",
+    originSite: "Tombe KV62 (Chambre du Trésor, Vallée des Rois, Thèbes)",
+    locationType: "museum",
+    currentLocation: "Musée égyptien du Caire (Trésor de Toutânkhamon, JE 61444)",
+    category: "Statue divine animalière en bois vernissé noir et feuille d'or",
+    isHighlight: true,
+    chips: ["XVIIIe dynastie", "Nouvel Empire", "Toutânkhamon", "Anubis", "Chacal sacré", "Résine noire", "Griffes d'argent", "Musée du Caire"],
+    deptBanner: "https://lh3.googleusercontent.com/d/11hLJFFN1McLmLPGw1pf73r-LVI6VfhMp",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMJMZy4ESQzIy0agiknJrxlLG5vzBnYtLzFVljOOSa3bw2-tXC6rI9PTFGHGOr2l_FrIGKpGlzx6nMoWB5vDc24p6h4daChPc74AOWsYM8BHHBT1Z_GvnvDPG_3ePLv0hZGKdrmk6-LaaiBtruzGlVPKg=w613-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette œuvre emblématique, exposée au Musée égyptien du Caire, représente le dieu Anubis sous sa forme canine. Découverte par Howard Carter en 1922 dans la tombe de Toutânkhamon (KV62), cette statue trônait à l'entrée de la « Chambre du Trésor », faisant face à l'est. Elle servait de gardien vigilant pour protéger les objets funéraires et le repos éternel du pharaon. La statue est sculptée dans du bois recouvert d'une fine couche de résine noire, couleur symbolisant à la fois la décomposition et la régénération fertile du Nil.</p>
+    <p>Le dieu est représenté couché sur un coffre en forme de pylône, les oreilles dressées et le regard attentif, caractéristiques de son rôle de sentinelle. Ses yeux sont incrustés d'albâtre et d'obsidienne, montés sur de l'or, lui conférant une expression d'une intensité saisissante. Un collier de lin doré, noué autour de son cou, souligne son statut divin et sa protection royale. Ses griffes sont réalisées en argent, un métal précieux associé à la chair des dieux dans la mythologie égyptienne, contrastant magnifiquement avec la noirceur du corps.</p>
+    <p>L'ensemble de la pièce repose sur un traîneau de bois qui servait à transporter le monument lors de la procession funéraire. L'intérieur du coffre sur lequel repose le chacal contenait des bijoux et des amulettes destinés à accompagner le roi dans l'au-delà. Cette représentation d'Anubis, seigneur de la nécropole et maître de l'embaumement, demeure l'un des chefs-d'œuvre les plus saisissants de la statuaire animalière égyptienne par son élégance formelle et sa force mystique.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1323) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "vie_quotidienne_instruments_chirurgicaux_bronze_medecin_qar_saqqarah",
+    civId: "egypte",
+    periodId: "egypte_ancien",
+    civName: "Égypte : Ancien Empire & Époque Thinite",
+    century: "VIe dynastie (vers -2400 av. J.-C. / règne de Pépi Ier ou Mérenrê)",
+    centuryDisplay: "XXIVe s. av. J.-C.",
+    centuryNumeric: -2400,
+    domain: "vie_quotidienne",
+    artifactType: "Sciences & Instruments (astrolabe, mesure)",
+    title: "Trousse d'instruments chirurgicaux en bronze et palettes à onguents du médecin Qar (Saqqarah, Musée Imhotep)",
+    site: "Musée Imhotep (Saqqarah)",
+    originSite: "Tombe du médecin Qar (Plateau de Saqqarah)",
+    locationType: "museum",
+    currentLocation: "Musée Imhotep, Saqqarah",
+    category: "Instruments chirurgicaux en bronze et palettes en albâtre",
+    isHighlight: true,
+    chips: ["VIe dynastie", "Ancien Empire", "Médecin Qar", "Chirurgie antique", "Instruments en bronze", "Scalpels", "Saqqarah", "Musée Imhotep"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNs6AK9PRcRoKfpBNJ01FkHKZIn2UJ9PWHQresLwIrnHFMpeffHuJeoyO0QbT8frb43srkyHfwHuqmMBxUBdlNfvdzn3LbWepPyY4Tk_PXjVEtM3OpGJ_pU9P5XHhV-l2t9g3XK0x1D_ahfP-vdFGZW2A=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Voici des objets exceptionnels découverts dans la tombe de Qar, un médecin de la cour royale ayant vécu vers 2400 av. J.-C. durant la VIe dynastie. Mise au jour dans la nécropole de Saqqarah, cette sépulture est célèbre pour avoir livré ce qui est considéré comme l'un des plus anciens kits d'instruments chirurgicaux au monde.</p>
+    <p>Les instruments en bronze exposés témoignent du haut degré de spécialisation de la médecine égyptienne dès l'Ancien Empire. On y distingue divers outils de précision tels que des scalpels, des aiguilles, des sondes et des pinces destinés à des interventions variées. Ces objets, bien que rongés par l'oxydation, conservent des formes très proches de certains instruments modernes, illustrant une connaissance approfondie de l'anatomie et des techniques de soin.</p>
+    <p>À côté de ces outils se trouvent des plaquettes à offrandes en albâtre ou en calcaire, comportant des cavités circulaires destinées aux sept huiles sacrées nécessaires aux rituels de momification et de protection du corps. Chaque cupule est surmontée d'inscriptions hiéroglyphiques précisant le nom de l'huile ou de l'onguent. Ces objets soulignent la double fonction de Qar, qui alliait la science chirurgicale pratique aux rites spirituels indispensables pour assurer la survie dans l'au-delà.</p>
+    <p>L'ensemble de ces découvertes est aujourd'hui conservé au Musée Imhotep à Saqqarah, un établissement dédié à l'architecte et médecin déifié qui fut plus tard assimilé au dieu grec de la médecine. La présence de ces instruments dans une tombe privée confirme le prestige immense dont jouissaient les médecins royaux, capables de soigner aussi bien les fractures que les pathologies plus complexes sous le règne de pharaons comme Ounas ou Pépi II.</p>
+    <p><strong>Siècle :</strong> XXIVe siècle av. J.-C. (-2400) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Vie quotidienne & Sciences.</p>`
+  },
+  {
+    id: "funeraire_table_offrandes_signe_hotep_calcaire_xiie_louvre",
+    civId: "egypte",
+    periodId: "egypte_moyen",
+    civName: "Égypte : Moyen Empire & Périodes Intermédiaires",
+    century: "XIIe dynastie (vers -1900 av. J.-C. / Moyen Empire)",
+    centuryDisplay: "XXe – XIXe s. av. J.-C.",
+    centuryNumeric: -1900,
+    domain: "funeraire",
+    artifactType: "Table d'offrandes",
+    title: "Table d'offrandes funéraire au signe Hotep et rigoles de libation en calcaire (Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Moyenne-Égypte ou Abydos",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes)",
+    category: "Table d'offrandes liturgique en calcaire gravé",
+    isHighlight: false,
+    chips: ["XIIe dynastie", "Moyen Empire", "Table d'offrandes", "Signe Hotep", "Rigoles de libation", "Pains et vases", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPmmreOU32HOHXhTkRnnF1yiiAelSUt4fjbgZ7i5sKLuIFeqDVTIu3QfF4lfrnGb_xRczBoqKtfM3GuPop8K5ZsGGWTe74fpfsITdpxPTmG6Ha5Jx2-dZNQxeCLMmYdc1stIBwiq9AO5TwiPKLthxy8iQ=w1221-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette table d'offrandes en calcaire, datant de la XIIe dynastie, constitue un élément central du mobilier funéraire égyptien. Sa fonction principale était de servir de support physique et magique aux aliments et boissons destinés à nourrir le « ka » (l'énergie vitale) du défunt dans l'au-delà. La surface de la table est sculptée en bas-relief avec une grande économie de moyens, privilégiant la clarté des symboles nécessaires à la survie éternelle. On y distingue des représentations stylisées de pains, de vases de libation et parfois de pièces de viande, qui, par la magie de l'image et de la parole, devenaient des réalités substantielles pour le mort.</p>
+    <p>Le design de la table est structuré autour du signe hiéroglyphique « hotep », qui signifie à la fois « offrande » et « paix » ou « satisfaction ». Ce signe se compose d'une natte surmontée d'un pain, une image qui se retrouve souvent dans la forme même de la pierre ou dans les canaux de drainage sculptés. Ces rigoles permettaient aux liquides versés lors des rituels de s'écouler symboliquement vers le défunt, assurant ainsi sa désaltération perpétuelle. À la XIIe dynastie, le style de ces tables devient plus standardisé mais reste d'une grande finesse, reflétant l'importance de la classe des fonctionnaires qui souhaitaient garantir leur autonomie alimentaire dans le monde souterrain.</p>
+    <p>La table d'offrandes était généralement placée dans la chapelle de la tombe, devant la stèle fausse-porte, point de contact entre le monde des vivants et celui des morts. En voyant les offrandes représentées, les passants étaient encouragés à réciter la formule d'offrande invocatoire (« hetep di nesou »), activant ainsi par la voix les provisions figurant sur la pierre. Cet objet témoigne de la croyance profonde en la pérennité de l'individu par le rite et de la nécessité d'entretenir un lien physique, même symbolique, avec les besoins du corps pour atteindre l'immortalité.</p>
+    <p><strong>Siècle :</strong> XXe – XIXe siècle av. J.-C. (-1900) | <strong>Civilisation :</strong> Égypte antique (Moyen Empire) | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "funeraire_table_offrandes_bassins_sesostris_iii_calcaire_louvre",
+    civId: "egypte",
+    periodId: "egypte_moyen",
+    civName: "Égypte : Moyen Empire & Périodes Intermédiaires",
+    century: "XIIe dynastie (vers -1870 av. J.-C. / règne de Sésostris III)",
+    centuryDisplay: "XIXe s. av. J.-C.",
+    centuryNumeric: -1870,
+    domain: "funeraire",
+    artifactType: "Table d'offrandes",
+    title: "Table d'offrandes à deux bassins et bec verseur de l'époque de Sésostris III (Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Abydos ou Dahshour",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes)",
+    category: "Table d'offrandes liturgique en calcaire gravé",
+    isHighlight: false,
+    chips: ["XIIe dynastie", "Moyen Empire", "Sésostris III", "Table d'offrandes", "Deux bassins", "Formule Htp-di-nsw", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNAjZikQQINgpgskvyTLR6PJrh0LfQUPZH551bgKT05efEBFznSDeew5f7hmgW2ec_fT4bnJvbz4xF1KdBCfVvfKT_o4gHrAj_FHK0ZokmysHXggp7eLgCUWOCJ8hf3ciGkB6gypGCKGLdWAp3WtTVaFA=w1221-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette table d'offrandes, datant du règne de Sésostris III durant le Moyen Empire, constitue un témoignage raffiné des pratiques funéraires égyptiennes de la XIIe dynastie. Sculptée dans un calcaire dense, elle adopte une forme rectangulaire caractéristique complétée par un bec verseur saillant, également rectangulaire, destiné à l'écoulement rituel des libations. La surface supérieure est organisée autour de deux bassins rectangulaires creusés en profondeur, flanquant un canal central qui guide les liquides vers le bec.</p>
+    <p>Le décor en bas-relief, bien que marqué par l'érosion du temps, révèle une iconographie riche centrée sur la subsistance du défunt dans l'au-delà. La partie supérieure présente des représentations stylisées de pains, de vases et de pièces de viande disposés sur des nattes, symbolisant les offrandes alimentaires réelles déposées lors du culte. Des incisions précises délimitent les contours des aliments, tandis que des registres de hiéroglyphes encadrent l'ensemble de la composition.</p>
+    <p>Les inscriptions hiéroglyphiques qui bordent le plateau et les faces latérales de la table reprennent les formules classiques d'offrande funéraire (Htp-di-nsw). Ces textes invoquent les divinités, notamment Anubis ou Osiris, pour garantir au bénéficiaire la perception des denrées essentielles « par milliers ». L'exécution soignée des signes reflète le style classique et rigoureux de l'époque de Sésostris III, où l'équilibre entre texte et image est particulièrement recherché.</p>
+    <p><strong>Siècle :</strong> XIXe siècle av. J.-C. (-1870) | <strong>Civilisation :</strong> Égypte antique (Moyen Empire) | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "funeraire_pyramidion_khepri_babouin_calcaire_deir_el_medina_louvre",
+    civId: "egypte",
+    periodId: "egypte_nouvel",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1250 av. J.-C. / époque ramesside)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1250,
+    domain: "funeraire",
+    artifactType: "Pyramidion",
+    title: "Pyramidion funéraire au scarabée Khépri dans la barque solaire et babouin adorateur (Deir el-Médineh, Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Tombe de particulier (Deir el-Médineh, Thèbes-Ouest)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes)",
+    category: "Pyramidion de chapelle funéraire en calcaire",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Nouvel Empire", "Pyramidion", "Deir el-Médineh", "Scarabée Khépri", "Barque solaire", "Babouin", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/d/11hLJFFN1McLmLPGw1pf73r-LVI6VfhMp",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNgJ6uw079RXFCCkLADRTT3eWFzr0ExDmePePi0csI1l--efERGifzA_IeZR1FD8wR_QYk8lBK2jzCoutapNgzN9eoz-pKeHcd11Jvhe_tT-l5POXaP72-ScHwIbFOoIRC6PU_lv0_FnF-QVxnkvGh16g=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce pyramidion, pointe terminale d'une petite pyramide funéraire en brique crue, marquait autrefois le sommet d'une tombe de particulier à Deir el-Medina. À l'époque ramesside, les artisans de la Vallée des Rois adoptaient ce privilège architectural, autrefois réservé à la royauté, pour signaler l'emplacement de leur demeure d'éternité. Taillé dans le calcaire, l'objet servait de support à une iconographie solaire puissante, destinée à assurer la renaissance quotidienne du défunt en harmonie avec le cycle de l'astre.</p>
+    <p>Le décor principal, sculpté en relief creux, représente le dieu Khépri sous la forme d'un scarabée sacré. L'insecte est figuré émergeant d'une barque solaire, symbole du voyage céleste à travers le jour et la nuit. Il soulève de ses pattes antérieures le disque solaire, marquant ainsi le moment précis du lever du jour et de la victoire de la lumière sur les ténèbres. Sur la droite, une petite silhouette de babouin en adoration accompagne ce mouvement, le singe étant traditionnellement celui qui salue l'apparition du soleil par ses cris à l'aube.</p>
+    <p>L'aspect pointu du pyramidion n'est pas seulement esthétique mais profondément symbolique : il représente le premier rayon de soleil touchant la terre, matérialisant la connexion entre le monde des vivants et le domaine divin. Les inscriptions, bien que partiellement érodées à la base, identifiaient le propriétaire de la tombe et contenaient des hymnes à l'astre solaire. Ce monument miniature condense toute la théologie solaire de la XIXe dynastie, offrant au défunt une protection magique et une participation éternelle au renouveau de l'univers.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1250) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "funeraire_pyramidion_gres_defunt_henou_gournet_mourrai_louvre",
+    civId: "egypte",
+    periodId: "egypte_nouvel",
+    civName: "Égypte : Nouvel Empire",
+    century: "Début de la XVIIIe dynastie (vers -1500 av. J.-C. / Nouvel Empire)",
+    centuryDisplay: "XVe s. av. J.-C.",
+    centuryNumeric: -1500,
+    domain: "funeraire",
+    artifactType: "Pyramidion",
+    title: "Pyramidion en grès gravé d'un défunt en prière hénou (Gournet Mourraï, Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Gournet Mourraï (Nécropole thébaine, Thèbes-Ouest)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes, AF 2984)",
+    category: "Pyramidion de chapelle funéraire en grès",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Nouvel Empire", "Pyramidion", "Gournet Mourraï", "Grès", "Prière Hénou", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/d/11hLJFFN1McLmLPGw1pf73r-LVI6VfhMp",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMWVl1fm2195rnAVdfrDleHoQt3ePWKmUk6rNpIpfg0IICN2gdJTsNYiBuG6YQTsGo7RR2du1rkeDxpQFfD5EKYKitX5t0jHVedMeFg59XdWmch8WZALeSZNSLN5VCyazIVDximArrofcEOEsJnEsDGSQ=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce pyramidion en grès, portant le numéro d'inventaire AF 2984, constitue un témoignage précieux des pratiques funéraires du début de la XVIIIe dynastie. Découvert à Gournet Mourrai, dans la nécropole thébaine, cet objet servait initialement de couronnement à une petite pyramide de briques construite au-dessus de la chapelle funéraire d'un particulier. Sa forme pyramidale n'est pas seulement architecturale ; elle est profondément symbolique, évoquant le Benben primordial et la course du soleil, assurant ainsi la renaissance quotidienne du défunt aux côtés de l'astre solaire.</p>
+    <p>La face visible présente une scène gravée en creux d'une grande sobriété stylistique, typique de la période de transition entre la fin de la XVIIe et le début de la XVIIIe dynastie. On y voit le défunt agenouillé dans une posture d'adoration, les mains levées vers le sommet de la pierre, là où le soleil atteint son zénith. Cette attitude, dite de « hénou », souligne la piété du propriétaire et son désir d'être intégré au cycle éternel de Rê. Les lignes sont simples et efficaces, privilégiant la clarté du message religieux à la surcharge ornementale.</p>
+    <p>Les inscriptions hiéroglyphiques qui encadrent le personnage fournissent les formules d'usage pour permettre au défunt de « sortir au jour ». Ces textes sont essentiels pour maintenir l'identité du mort et lui garantir l'accès aux offrandes. Bien que l'objet soit modeste par sa taille et son matériau par rapport aux pyramidions royaux en granit, il illustre parfaitement l'appropriation des symboles solaires par l'élite thébaine de l'époque, marquant une étape clé dans l'évolution de l'architecture funéraire privée au Nouvel Empire.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1500) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "peinture_panneau_coffret_funeraire_barque_solaire_ptolemaique_louvre",
+    civId: "egypte",
+    periodId: "egypte_ptolemaique",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "Époque ptolémaïque (vers -250 à -100 av. J.-C. / dynastie lagide)",
+    centuryDisplay: "IIIe – IIe s. av. J.-C.",
+    centuryNumeric: -180,
+    domain: "peinture_mosaique",
+    artifactType: "Peinture sur panneau de bois",
+    title: "Panneau de coffret funéraire en bois peint : barque solaire, libation d'Anubis et Khekerou (Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Thèbes ou Moyenne-Égypte (Akhmîm)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes)",
+    category: "Peinture funéraire polychrome sur panneau de bois stuqué",
+    isHighlight: false,
+    chips: ["Époque ptolémaïque", "Peinture sur bois", "Coffret funéraire", "Barque solaire", "Anubis", "Vases Hes", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMXpl0AtFqUNe4xBGOe20-pnSCYXCWur1MA25TcE5DH-_cEJtwnkyT3NDALjLwpc7MZgynnuA8Sn1Bn5q3aBQ0U0FtD0EMJqhkrbUI8dXLCANQCBOWuptGU-ixj5BPSlzIjwZW4KCH2WmMw7IOc1xJ16g=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce panneau de coffret funéraire en bois peint illustre la richesse de l'iconographie religieuse à l'époque ptolémaïque. La composition est rigoureusement organisée en registres superposés, mêlant scènes divines et textes sacrés pour assurer la protection du défunt. Le registre supérieur représente la barque solaire naviguant sur les eaux célestes, symbolisant le voyage éternel et le triomphe de la lumière sur les ténèbres. On y distingue plusieurs divinités, dont une figure trônant dans un naos, accompagnées de figures protectrices à la proue et à la poupe.</p>
+    <p>Le registre central, cœur symbolique de la pièce, met en scène des divinités funéraires majeures entourant une table d'offrandes richement garnie de pains, de fruits et de lotus. À gauche, un dieu à tête de chacal, probablement Anubis, procède à une libation à l'aide de vases hes, versant l'eau purificatrice sur les offrandes. Face à lui se tiennent deux divinités momiformes, dont l'une à tête de crocodile, évoquant les puissances régénératrices du Nil. Des colonnes de textes hiéroglyphiques polychromes surmontent la scène, déclinant les noms des dieux et les formules rituelles nécessaires à la survie de l'âme. La base du panneau est ornée d'un motif de façade de palais, dit « Khekerou », ancrant la scène dans un espace sacré et architectural immuable.</p>
+    <p><strong>Siècle :</strong> IIe siècle av. J.-C. (vers -180) | <strong>Civilisation :</strong> Égypte antique (Époque ptolémaïque / Lagide) | <strong>Sous-partie :</strong> Peinture, Tableaux & Mosaïque.</p>`
+  },
+  {
+    id: "sculpture_hippopotame_faience_bleue_lotus_moyen_empire_louvre",
+    civId: "egypte",
+    periodId: "egypte_moyen",
+    civName: "Égypte : Moyen Empire & Périodes Intermédiaires",
+    century: "XIIe dynastie (vers -1900 av. J.-C. / Moyen Empire)",
+    centuryDisplay: "XXe – XIXe s. av. J.-C.",
+    centuryNumeric: -1900,
+    domain: "sculpture_statuaire",
+    artifactType: "Figurine votive / Ex-voto",
+    title: "Figurine d'hippopotame des marais en faïence bleue au décor de lotus (Dra Abou el-Naga, Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Nécropole de Dra Abou el-Naga (Thèbes)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes, E 7709)",
+    category: "Ronde-bosse animalière en faïence siliceuse glaçurée",
+    isHighlight: true,
+    chips: ["XIIe dynastie", "Moyen Empire", "Hippopotame", "Faïence bleue", "Fleurs de lotus", "Dra Abou el-Naga", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMEiJYuQk5UwBCdbXUzOHmCgUxlNAdGoi_DXbwWrK5hNJfrOUAgV8HFO_ehMXTPBzaWYYhsp1nc4gb7W8nWd_l5TxdH14iZWtnrWWhUVFU7cHHlHxr1zFwVw6AKC3WVvScGtuSvEnlvBoCHp3KFci1U8w=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette figurine d'hippopotame en faïence siliceuse d'un bleu éclatant est l'une des pièces les plus emblématiques de l'art funéraire du Moyen Empire. Représenté avec un corps massif et des pattes trapues, l'animal est ici saisi dans une attitude calme, presque débonnaire. La surface est ornée d'un décor floral peint au trait noir, figurant des plantes aquatiques telles que des fleurs de lotus et des feuilles de potamot. Ce décor n'est pas simplement esthétique : il évoque le milieu naturel des marais du Nil où vit l'animal, tout en symbolisant, à travers le lotus, la renaissance et le cycle de la vie.</p>
+    <p>Malgré son apparence paisible, l'hippopotame était considéré par les Égyptiens comme une créature redoutable et imprévisible, capable de chavirer les barques. Dans le contexte funéraire, ces figurines possédaient une double fonction magique. D'une part, elles garantissaient au défunt la proximité avec les forces de fertilité du Nil. D'autre part, pour neutraliser la dangerosité potentielle de l'animal dans l'au-delà, les artisans cassaient souvent les pattes de ces figurines avant de les déposer dans la tombe — bien que cet exemplaire paraisse intact. L'hippopotame incarne ainsi les forces du chaos que le défunt doit maîtriser pour accéder à la vie éternelle.</p>
+    <p>La faïence bleue utilisée pour sa fabrication, obtenue à partir de silice et de colorants à base de cuivre, était particulièrement prisée pour sa ressemblance avec le lapis-lazuli et sa brillance rappelant les eaux du Nil. Ce type d'objet, dont le plus célèbre exemplaire est surnommé « William » au Metropolitan Museum, se retrouve fréquemment dans les nécropoles de Thèbes, comme ici à Dra Aboul el-Naga. Elle témoigne du raffinement des arts mineurs à la fin du Moyen Empire et de la capacité des artistes égyptiens à synthétiser puissance animale et symbolisme religieux dans un objet de petite taille.</p>
+    <p><strong>Siècle :</strong> XXe – XIXe siècle av. J.-C. (-1900) | <strong>Civilisation :</strong> Égypte antique (Moyen Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_femme_fecondite_faience_bleue_tatouages_moyen_empire_louvre",
+    civId: "egypte",
+    periodId: "egypte_moyen",
+    civName: "Égypte : Moyen Empire & Périodes Intermédiaires",
+    century: "XIIe dynastie (vers -1900 av. J.-C. / Moyen Empire)",
+    centuryDisplay: "XXe – XIXe s. av. J.-C.",
+    centuryNumeric: -1900,
+    domain: "sculpture_statuaire",
+    artifactType: "Figurine votive / Ex-voto",
+    title: "Statuette féminine tronquée de fécondité en faïence bleue aux tatouages pointillés (Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Thèbes ou Moyenne-Égypte",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes)",
+    category: "Figurine votive féminine en faïence siliceuse bleue",
+    isHighlight: false,
+    chips: ["XIIe dynastie", "Moyen Empire", "Fécondité", "Faïence bleue", "Tatouages", "Concubine du mort", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNgX9UN6kvlr7fipdT9YS7e7HMDfTTKLPa0NisbrGtS9IWp7DGZf6AZ8LELAxtTRbYSdnplAzUeynPU3vQQgdn3HXUpmtw3trxLdq_nEgUR66FHtJyuwHlp9K6scSPc6PdwdkpYOCBXywhrn1hBqmAPuQ=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette statuette féminine en faïence bleue, tronquée au niveau des genoux, est un objet fascinant de la culture matérielle du Moyen Empire. Réalisée dans cette matière vitreuse auto-glaçurée si caractéristique, elle présente une silhouette aux formes généreuses, soulignant les hanches et les cuisses. Ce qui rend cette pièce particulièrement remarquable est son décor pointillé noir, réalisé au manganèse ou au fer avant la cuisson, qui recouvre une grande partie du corps. Ces motifs géométriques et floraux ne sont pas de simples ornements ; ils représentent vraisemblablement des tatouages ou des peintures corporelles rituelles, ainsi que des ceintures de perles portées à même la peau.</p>
+    <p>Le visage est traité avec une certaine schématisation : de grands yeux cernés de noir et une coiffure courte composée de petites boucles circulaires, souvent comparées à des fleurs ou des perles, qui encadrent le sommet du crâne. Ce type de figurine est traditionnellement associé aux concepts de fertilité et de renaissance. Longtemps interprétées comme des « concubines du mort » destinées à satisfaire les désirs du défunt dans l'au-delà, les égyptologues les considèrent aujourd'hui comme des symboles de la puissance créatrice de la vie. Leur présence dans les tombes servait à stimuler la régénération du mort, lui permettant de renaître symboliquement dans le monde souterrain.</p>
+    <p>La couleur bleue de la faïence renforce cette symbolique, évoquant à la fois les eaux primordiales du Noun et le ciel diurne, deux espaces de genèse dans la cosmogonie égyptienne. La rareté des membres inférieurs complets sur ces statuettes suggère parfois un acte rituel de « neutralisation » ou une volonté de concentrer l'énergie magique sur le tronc et le bassin, centres de la fécondité. En tant qu'objet de dévotion ou d'accompagnement funéraire, cette figurine illustre la persistance des rites liés à la féminité et à la force vitale durant la XIIe dynastie.</p>
+    <p><strong>Siècle :</strong> XXe – XIXe siècle av. J.-C. (-1900) | <strong>Civilisation :</strong> Égypte antique (Moyen Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "funeraire_serie_ouchebtis_calcaire_faience_qubbet_el_hawa_assouan",
+    civId: "egypte",
+    periodId: "egypte_nouvel",
+    civName: "Égypte : Nouvel Empire",
+    century: "Nouvel Empire à Basse Époque (vers -1400 à -600 av. J.-C.)",
+    centuryDisplay: "XIVe – VIIe s. av. J.-C.",
+    centuryNumeric: -1000,
+    domain: "funeraire",
+    artifactType: "Figurine funéraire / Ouchebti",
+    title: "Série d'ouchebtis funéraires en calcaire et faïence émaillée bleu-vert (Qubbet el-Hawa, Musée de la Nubie)",
+    site: "Musée de la Nubie (Assouan)",
+    originSite: "Nécropole de Qubbet el-Hawa (Assouan)",
+    locationType: "museum",
+    currentLocation: "Musée de la Nubie, Assouan",
+    category: "Serviteurs funéraires (ouchebtis) en calcaire et faïence siliceuse",
+    isHighlight: false,
+    chips: ["Nouvel Empire", "Basse Époque", "Ouchebtis", "Chaouabtis", "Faïence émaillée", "Qubbet el-Hawa", "Musée de la Nubie"],
+    deptBanner: "https://lh3.googleusercontent.com/d/11hLJFFN1McLmLPGw1pf73r-LVI6VfhMp",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNBRYlIuRCVH2fvTAY0ohxVpi5PZUyB9SO59pOkAbZA3NkSBRruP26uFgyQaFR4tg81mwTORzglXUYQ6h9tFVOjwuSfgA9VD55k7CaSM0xdzGkTf1v_S6ydw-vHZZZ9d7y6wktk8v88ljtERW4Cq2nNKw=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette série d'ouchebtis (ou chaouabtis), exposée au Musée de la Nubie à Assouan, constitue un ensemble fascinant de « répondants » funéraires. Ces statuettes étaient placées dans les tombes pour servir de substituts magiques au défunt dans l'au-delà. Le terme « ouchebti » dérive d'ailleurs du verbe égyptien ousheb, qui signifie « répondre », car ces figurines étaient censées s'animer et répondre « Présent ! » lorsque les dieux appelaient le mort pour effectuer les travaux agricoles ou les corvées dans les champs d'Osiris.</p>
+    <p>La collection présente une belle diversité de matériaux, typique de l'artisanat égyptien et nubien. On y observe des exemplaires en calcaire clair, aux traits finement gravés, ainsi que des figurines en faïence émaillée d'un bleu-vert éclatant, une matière siliceuse très prisée pour sa symbolique liée à la renaissance et à la végétation. La plupart adoptent la forme momiforme classique, le corps enveloppé dans un linceul ne laissant apparaître que la tête et les mains croisées sur la poitrine, tenant souvent des instruments aratoires comme des houes ou des sacs à grains.</p>
+    <p>L'évolution de ces objets est visible à travers leur taille et leur décor. Si au Moyen Empire un seul exemplaire suffisait souvent, le nombre d'ouchebtis a considérablement augmenté au Nouvel Empire et à la Basse Époque, pouvant atteindre 401 statuettes par tombe : une pour chaque jour de l'année, complétées par 36 « contremaîtres » reconnaissables à leur pagne d'homme vivant. Les inscriptions hiéroglyphiques que l'on devine sur leurs jambes reprennent généralement le chapitre VI du Livre des Morts, la formule magique qui leur donne vie et précise leur mission éternelle.</p>
+    <p>Ces pièces témoignent également de l'importance de la région d'Assouan comme centre de production et de brassage culturel. Le Musée de la Nubie met particulièrement en valeur les objets provenant de sites comme Qubbet el-Hawa, où les hauts fonctionnaires locaux se faisaient enterrer avec un mobilier funéraire d'une grande qualité. Ces « serviteurs d'éternité » assurent ainsi la pérennité du nom et du statut du défunt, faisant le lien entre les traditions de la vallée du Nil et les spécificités de la culture nubienne.</p>
+    <p><strong>Siècle :</strong> Xe siècle av. J.-C. (vers -1000) | <strong>Civilisation :</strong> Égypte antique & Nubie | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "funeraire_ouchebti_sethi_ier_faience_bleue_nemes_kv17_louvre",
+    civId: "egypte",
+    periodId: "egypte_nouvel",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1280 av. J.-C. / règne de Séthi Ier)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1280,
+    domain: "funeraire",
+    artifactType: "Figurine funéraire / Ouchebti",
+    title: "Ouchebti royal au némès du pharaon Séthi Ier en faïence bleu profond (Tombe KV17, Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Tombe KV17 de Séthi Ier (Vallée des Rois, Thèbes)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes)",
+    category: "Serviteur funéraire royal en faïence siliceuse bleu cobalt",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Nouvel Empire", "Séthi Ier", "KV17", "Ouchebti", "Némès", "Faïence bleue", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/d/11hLJFFN1McLmLPGw1pf73r-LVI6VfhMp",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPB-ZQK1a9n1XWyPitAp18z7vNI_aQdy0aKIQkQEAeY5LdWSQINYfqpFPqsiXVy_Le5vYdE-WXnTAix8pScPOpG_2LDhCc7nbFoZmsDyesjBD1nipQP41H2pe6wwS2xsHPc9OX6hg9awJstvvlpHTjzTQ=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette statuette est un ouchebti (ou serviteur funéraire) au nom du pharaon Séthi Ier.</p>
+    <p>Ces figurines étaient déposées dans les tombes pour remplacer le défunt dans les travaux agricoles ou les corvées quotidiennes dans l'au-delà. Ce modèle se distingue par sa superbe couleur bleu profond, caractéristique de la faïence égyptienne siliceuse de haute qualité produite sous la XIXe dynastie.</p>
+    <p>Le souverain est représenté sous une forme momiforme, les mains croisées sur la poitrine. Il porte la coiffe némès rayée et tient les instruments aratoires traditionnels (houes ou pioches). Le corps est recouvert de plusieurs lignes d'inscriptions hiéroglyphiques reprenant généralement le chapitre VI du Livre des Morts, qui définit la fonction de serviteur de l'objet.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1280) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+   {
     id: "parures_metaux_sandales_doigtiers_or_psousennes_ier_tanis_caire",
     civId: "egypte",
     periodId: "egypte_tardive",
