@@ -4,6 +4,84 @@
 window.ART_OBJECTS = [
   
    {
+    id: "parures_metaux_sandales_doigtiers_or_psousennes_ier_tanis_caire",
+    civId: "egypte",
+    periodId: "egypte_tardive",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "XXIe dynastie (vers -1000 av. J.-C. / règne de Psousennès Ier)",
+    centuryDisplay: "Xe s. av. J.-C.",
+    centuryNumeric: -1000,
+    domain: "parures_metaux",
+    artifactType: "Parure en or / Argent / Bronze",
+    title: "Sandales rituelles et doigtiers d'orteils en or massif de Psousennès Ier (Tanis, Musée égyptien du Caire)",
+    site: "Musée égyptien du Caire",
+    originSite: "Nécropole royale de Tanis (Tombe NRT III, Delta du Nil)",
+    locationType: "museum",
+    currentLocation: "Musée égyptien du Caire (Trésor de Tanis, JE 85917 - JE 85918)",
+    category: "Parure funéraire et orfèvrerie en feuille d'or massif",
+    isHighlight: true,
+    chips: ["XXIe dynastie", "Psousennès Ier", "Tanis", "Or massif", "Sandales en or", "Doigtiers d'or", "Musée du Caire"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOn3_eL3zz1xzO_xl4jgx-JtBkJPDSpejDO4vqzgKuDvggtAycR9E-wOfe9CrV4m3qxHyxd053qvFXWNxZFYedLSJ8FlndXoq3BUJA8Zwynz-kdRl6PM00pJuDzydTEPZLustdFbdYbvWPaN-9LRVtEtg=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette magnifique parure de pied, composée d'une paire de sandales et de doigtiers en or massif, appartient au trésor funéraire de Psousennès Ier. Découverts en 1940 par Pierre Montet dans la nécropole royale de Tanis, ces objets ont été retrouvés directement sur la momie du pharaon lors de l'ouverture de son sarcophage d'argent. Tandis que le corps même du souverain avait été réduit en poussière par l'humidité du Delta, ces éléments en métal inaltérable ont survécu pour témoigner de sa gloire éternelle.</p>
+    <p>Les sandales sont réalisées à partir de feuilles d'or symétriques, travaillées avec une précision remarquable pour imiter la souplesse du cuir. Les semelles s'étirent et s'élancent vers le haut à la pointe, une forme caractéristique des chaussures de luxe de l'époque. Le décor incisé, composé de motifs en chevrons et d'une rose à seize pétales au niveau du talon, souligne le statut divin du propriétaire. Ces chaussures n'étaient pas destinées à la marche terrestre, mais servaient à chausser rituellement le « Pharaon-Osiris » pour ses déplacements dans le monde des dieux.</p>
+    <p>Les dix doigtiers d'orteils qui accompagnent les sandales sont moulés sur la forme de l'extrémité du pied, avec une attention particulière portée aux détails anatomiques comme les cuticules et les ongles. Dans la pensée égyptienne, l'or était considéré comme la « chair des dieux » ; recouvrir les extrémités du défunt de ce métal précieux permettait de protéger ses membres et de lui conférer une nature divine et imputrescible. Chaque doigtier servait ainsi de rempart magique pour assurer l'intégrité du corps, condition sine qua non de la survie dans l'au-delà.</p>
+    <p>L'ensemble illustre la richesse prodigieuse des rois de la XXIe dynastie (vers 1039-991 av. J.-C.), une période que l'on qualifiait autrefois de déclin mais qui révèle ici une maîtrise technique exceptionnelle. Bien que la découverte de ce trésor soit survenue en plein début de la Seconde Guerre mondiale, limitant son impact médiatique à l'époque, il reste aujourd'hui l'un des rares témoignages complets d'un rituel d'inhumation royale inviolé. Ces objets précieux ne sont pas de simples ornements, mais des instruments de résurrection destinés à transformer un simple mortel en un être de lumière éternel.</p>
+    <p><strong>Siècle :</strong> Xe siècle av. J.-C. (-1000) | <strong>Civilisation :</strong> Égypte antique (Troisième Période intermédiaire / Basse Époque) | <strong>Sous-partie :</strong> Orfèvrerie, Armes & Métallurgie.</p>`
+  },
+  {
+    id: "parures_metaux_grands_colliers_or_massif_psousennes_ier_tanis_caire",
+    civId: "egypte",
+    periodId: "egypte_tardive",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "XXIe dynastie (vers -1000 av. J.-C. / règne de Psousennès Ier)",
+    centuryDisplay: "Xe s. av. J.-C.",
+    centuryNumeric: -1000,
+    domain: "parures_metaux",
+    artifactType: "Parure en or / Argent / Bronze",
+    title: "Le Grand Collier à six rangs et colliers cérémoniels en or massif de Psousennès Ier (Tanis, Musée égyptien du Caire)",
+    site: "Musée égyptien du Caire",
+    originSite: "Nécropole royale de Tanis (Tombe NRT III, Delta du Nil)",
+    locationType: "museum",
+    currentLocation: "Musée égyptien du Caire (Trésor de Tanis, JE 85751)",
+    category: "Parure royale et joaillerie en or massif",
+    isHighlight: true,
+    chips: ["XXIe dynastie", "Psousennès Ier", "Tanis", "Grand Collier", "Mankhet", "Disques d'or", "Musée du Caire"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPLW9ZdOstSLaLQxB1R9_VY2pIBCqbWGTNqtAUZ_QlDQ3JeVPalM3HIn4k4Q9oFOXArATXvnKbGFGRSC0N0GafrtRqx_Lfr3w60SjDq55_R6SZNoIWCG0b01Ko6_Adv-wZJSu3dBVDyYreCdZQIKRu02A=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ces parures d'une richesse inouïe, dont le célèbre Grand Collier à six rangs, constituent certains des chefs-d'œuvre les plus spectaculaires du trésor de Psousennès Ier. Découverts par Pierre Montet à Tanis dans la tombe inviolée du souverain, ces bijoux en or massif témoignent d'une opulence qui a valu à cette découverte d'être comparée à celle de Toutânkhamon. Le collier de droite, particulièrement imposant, pèse plusieurs kilogrammes et était porté par le pharaon lors de grandes cérémonies avant de l'accompagner dans sa dernière demeure pour affirmer son rang divin devant les dieux.</p>
+    <p>Le collier à six rangs est composé d'une multitude de perles en forme de disques d'or, assemblées avec une précision méticuleuse pour créer une texture dense et chatoyante. Il se termine par un fermoir rectangulaire massif orné de cartouches royaux et d'inscriptions hiéroglyphiques, d'où s'échappent de longues chaînettes terminées par des pendentifs en forme de fleurs de lotus ou de clochettes. Ce système de contrepoids, appelé mankhet, ne servait pas seulement à équilibrer le poids considérable du bijou sur les épaules du roi, mais possédait aussi une fonction rituelle apotropaïque pour chasser les forces maléfiques.</p>
+    <p>L'autre collier présent dans la vitrine, plus sobre dans sa forme mais tout aussi précieux, souligne la variété des techniques d'orfèvrerie maîtrisées à Tanis durant la XXIe dynastie (vers 1039-991 av. J.-C.). L'or utilisé ici est d'une pureté exceptionnelle, destiné à refléter la lumière solaire, car dans la théologie égyptienne, le roi est l'incarnation de Rê sur terre. Porter un tel amas de métal précieux n'était pas un simple étalage de richesse, mais un acte religieux visant à charger le corps du pharaon d'une énergie solaire indestructible et éternelle.</p>
+    <p>Exposées au Musée égyptien du Caire, ces pièces rappellent que malgré le morcellement politique de la Troisième Période Intermédiaire, la cour de Tanis disposait de ressources et d'artistes capables de rivaliser avec les plus grandes périodes de l'histoire pharaonique. Chaque élément de cette parure était conçu pour transformer le défunt en un « être d'or », immatériel et divin, prêt à traverser les siècles. Ces colliers restent à ce jour parmi les plus grands exemples de joaillerie royale jamais retrouvés en Égypte.</p>
+    <p><strong>Siècle :</strong> Xe siècle av. J.-C. (-1000) | <strong>Civilisation :</strong> Égypte antique (Troisième Période intermédiaire / Basse Époque) | <strong>Sous-partie :</strong> Orfèvrerie, Armes & Métallurgie.</p>`
+  },
+  {
+    id: "funeraire_mobilier_cercueil_barque_khenou_saqqarah_musee_imhotep",
+    civId: "egypte",
+    periodId: "egypte_ancien",
+    civName: "Égypte : Ancien Empire & Époque Thinite",
+    century: "VIe dynastie (vers -2300 av. J.-C. / fin de l'Ancien Empire)",
+    centuryDisplay: "XXIIIe s. av. J.-C.",
+    centuryNumeric: -2300,
+    domain: "funeraire",
+    artifactType: "Sarcophage humain (cuve, bois, pierre)",
+    title: "Restitution du mobilier funéraire, cercueil et barque de Khenou (Saqqarah, Musée Imhotep)",
+    site: "Musée Imhotep (Saqqarah)",
+    originSite: "Tombe de Khenou (Plateau de Saqqarah)",
+    locationType: "museum",
+    currentLocation: "Musée Imhotep, Saqqarah",
+    category: "Mobilier funéraire complet, cercueil en bois peint et maquette de barque",
+    isHighlight: false,
+    chips: ["VIe dynastie", "Ancien Empire", "Khenou", "Cercueil parallélépipédique", "Barque funéraire", "Yeux Oudjat", "Saqqarah", "Musée Imhotep"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMciQLbzwzoiHh55b2fgyvIlbUP8X8kRNtrFlTIWd-YEVP15hXKZLCoGgGYGjpioHFZxIwNxE02YBHvAK0wRAdc_k0EtE4W4-3VmJoLUV98OFK4NY_xXHEvvC2e5ksAi0tCtT4r97YKER5CNkkvMp1hFw=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette restitution d'une partie du mobilier funéraire de Khenou, présentée au musée Imhotep à Saqqarah, offre un regard saisissant sur l'organisation des tombes de la fin de l'Ancien Empire ou du début du Moyen Empire. L'élément central est le cercueil parallélépipédique en bois sombre, dont les parois sont gravées de lignes de hiéroglyphes horizontales et verticales. Ces inscriptions, souvent peintes en bleu ou en vert, invoquent les formules d'offrandes traditionnelles pour assurer la subsistance du mort dans l'au-delà.</p>
+    <p>Sur le couvercle du cercueil sont disposés des objets destinés à l'usage éternel du défunt. On y distingue une statuette du mort en position debout, le pied gauche en avant dans l'attitude classique de la marche, ainsi qu'une maquette de barque transportant des rameurs et une cabine couverte. Cette mise en scène illustre la croyance que le mobilier déposé autour du corps physique pouvait s'animer par la magie des rituels, permettant à Khenou de sortir de sa demeure d'éternité pour se déplacer librement.</p>
+    <p>Au pied du sarcophage, plusieurs vases en terre cuite à fond arrondi rappellent l'importance capitale de l'approvisionnement en nourriture et en boisson. Ces récipients réels complétaient les représentations figurées pour garantir que les besoins primaires de l'esprit du défunt soient satisfaits. La présence des deux yeux Oudjat gravés sur le côté du cercueil permettait symboliquement au mort de regarder vers le monde extérieur et de voir le soleil se lever, assurant ainsi sa renaissance quotidienne.</p>
+    <p>L'ensemble de ce dépôt funéraire souligne la fonction de la tombe comme une « maison de millions d'années ». Chaque pièce, de la plus petite figurine à la cuve imposante, concourt à recréer un environnement familier et protecteur. En préservant ainsi l'identité et les biens de Khenou, les artisans de Saqqarah ont permis à ce fonctionnaire de traverser les millénaires, offrant aux visiteurs d'aujourd'hui un résumé condensé de l'eschatologie égyptienne et de ses rites de passage.</p>
+    <p><strong>Siècle :</strong> XXIIIe siècle av. J.-C. (-2300) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+   {
     id: "sculpture_couple_quartzite_brun_amenhotep_iii_saqqara_louvre",
     civId: "egypte",
     periodId: "egypte_nouvel",
