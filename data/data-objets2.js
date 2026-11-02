@@ -4,6 +4,80 @@
 window.ART_OBJECTS = [
   
    {
+    id: "sculpture_vache_hathor_papyrus_calcaire_polychrome_deir_el_medina_louvre",
+    civId: "egypte",
+    periodId: "egypte_nouvel",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1250 av. J.-C. / époque ramesside)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1250,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire royale & divine (ronde-bosse)",
+    title: "La vache Hathor émergeant des fourrés de papyrus en calcaire peint (Deir el-Médineh, Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Deir el-Médineh (Thèbes-Ouest)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes)",
+    category: "Ronde-bosse votive en calcaire polychrome",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Hathor", "Vache sacrée", "Deir el-Médineh", "Disque solaire", "Calcaire peint", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP-IojVoNWeTBt57SpIzn_0SU1BKzYzAJ0Z7rUg37ZwtzY1OQYJB32PPYiotpD_Y5H6Kx_Rk56lVRmqblARwkGJwxVAZ24ZADeUCHZmb1EiW7AyXbNnZ3McNCS8KfhRoeUNrQH3VuKG1Wx6oztvSt3aqA=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette sculpture en calcaire peint représente la vache sacrée, incarnation de la déesse Hathor, émergeant d'un massif de papyrus. Trouvée dans la région de Deir el-Medina, cette pièce décorait initialement un élément architectural, probablement un fragment de chapiteau ou une niche votive. La déesse est représentée sous sa forme animale la plus douce, protectrice de la nécropole thébaine, portant entre ses cornes lyres le disque solaire teinté d'un ocre rouge encore bien conservé.</p>
+    <p>Le travail de sculpture souligne la dualité de la déesse : la force tranquille de la vache nourricière et la puissance cosmique du soleil qu'elle porte. Les oreilles sont larges, le museau est traité avec un réalisme délicat, et les yeux, autrefois probablement rehaussés de peinture noire, confèrent à l'animal une expression de sérénité vigilante. Les tiges de papyrus qui l'encadrent rappellent les fourrés du Delta où, selon la mythologie, elle aurait protégé le jeune Horus, faisant de cette image un puissant symbole de renaissance et de protection maternelle pour les défunts.</p>
+    <p>À l'époque ramesside, le culte d'Hathor est omniprésent à Deir el-Medina, où les artisans du Roi la vénéraient comme la « Dame du Pays de la Tombe ». La présence de pigments bleus et rouges sur le calcaire témoigne de la richesse originelle de l'objet, qui devait irradier de couleurs dans la pénombre d'une chapelle. Cette statue est un exemple parfait de la piété des habitants du village, mêlant une exécution technique de haut vol à une ferveur religieuse intime et quotidienne.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1250) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_statuette_bois_roi_khepresh_ramses_ii_amenhotep_ier_louvre",
+    civId: "egypte",
+    periodId: "egypte_nouvel",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1250 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1250,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire royale & divine (ronde-bosse)",
+    title: "Statuette royale au Khépresh en bois stuqué : Ramsès II ou Amenhotep Ier divinisé (Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Deir el-Médineh (Thèbes-Ouest)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes)",
+    category: "Ronde-bosse royale en bois stuqué et peint",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Ramsès II", "Amenhotep Ier", "Khépresh", "Bois stuqué", "Deir el-Médineh", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPeFG2gH9QO-QVZGdbo9nQewqqIqLg8I4PGD0rQ6zOxtoDb3BEH1bIMHv_a8-7OD20ofCvUGv5-JSEbINWg6Dn8Fc4V9fStuk0gpGJ-747DIxa9F2_yde8TkC7Thq7IBaNUCBkeb0ffe5WExgSMvbT-Pg=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette statuette en bois, qui a conservé des fragments de sa polychromie et de son stucage, pose une question fascinante aux historiens. Découverte dans le « Khénou » (une chapelle ou lieu de repos) de Ramsès II, elle pourrait représenter le souverain lui-même. Cependant, le style du visage, avec ses joues pleines et ses traits juvéniles, rappelle également l'iconographie d'Amenhotep Ier, un pharaon de la XVIIIe dynastie qui fut divinisé et particulièrement vénéré par la communauté des artisans de Deir el-Médineh des siècles après sa mort.</p>
+    <p>Le personnage porte le Khépresh, la couronne bleue de parade, ornée de pastilles de faïence bleue simulant des anneaux. Il est vêtu d'un pagne élaboré dont le devanteau était autrefois décoré d'une frise d'uræus. Qu'il s'agisse d'une effigie de Ramsès II ou d'un hommage à l'ancêtre divinisé Amenhotep Ier, cette statue témoigne de la ferveur religieuse et du talent des sculpteurs qui vivaient dans le village des artistes.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1250) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_statuette_reine_iahmes_nefertari_bois_sycomore_louvre",
+    civId: "egypte",
+    periodId: "egypte_nouvel",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1250 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1250,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire royale & divine (ronde-bosse)",
+    title: "Statuette votive de la reine Iahmès-Néfertari divinisée en bois de sycomore (Deir el-Médineh, Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Deir el-Médineh (Thèbes-Ouest)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes)",
+    category: "Ronde-bosse royale en bois de sycomore",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Iahmès-Néfertari", "Deir el-Médineh", "Bois de sycomore", "Flagellum Nékhakha", "Reine divinisée", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOi60SlPvtjZuyGvJycl5dQ8rWzpFuIWwtVcYh_gVM4XJHY5H7mAmFQpPl1g0sbM_awg9xo9Qqhs2LpOqnzwljlKehs3Q8-PsNiqm-rqlGgXWemtne14d4Iy9LeUP-9SwAy3ApMkFNt7zxTdrihhfvXag=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette statuette en bois de sycomore, d'une grande finesse d'exécution, représente la reine Iahmès-Néfertari. Bien que cette souveraine soit la cofondatrice de la XVIIIe dynastie (vers 1550 av. J.-C.), cette œuvre a été réalisée sous le règne de Ramsès II, témoignant de la ferveur religieuse durable dont elle faisait l'objet.</p>
+    <p>La reine est figurée dans une attitude hiératique, vêtue d'une robe de lin plissée et moulante, caractéristique de la mode du Nouvel Empire. Elle porte la lourde perruque tripartite surmontée d'un mortier circulaire qui servait de base à deux hautes plumes métalliques aujourd'hui disparues. Dans sa main droite, repliée sur la poitrine, elle tient le flagellum nékhakha, un insigne de pouvoir royal et divin. Son visage, aux traits fins et imprégnés d'une grande sérénité, conserve l'expression d'une divinité protectrice.</p>
+    <p>À l'époque ramesside, Iahmès-Néfertari était vénérée comme la « Maîtresse du Ciel » et la protectrice de la Place de Vérité (Deir el-Médineh). Elle était censée intercéder auprès des dieux pour les artisans de la nécropole. La couleur sombre du bois, souvent accentuée par des bitumes ou des vernis noirs à l'origine, rappelait la couleur du limon fertile du Nil et symbolisait la régénération et la renaissance éternelle de la reine.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1250) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+   {
     id: "sculpture_statue_cube_naophore_thot_babouin_calcaire_louvre",
     civId: "egypte",
     periodId: "egypte_nouvel",
