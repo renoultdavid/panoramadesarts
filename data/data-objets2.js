@@ -4,6 +4,82 @@
 window.ART_OBJECTS = [
   
    {
+    id: "sculpture_colosse_debout_ramses_iii_temple_reposoir_karnak",
+    civId: "egypte",
+    periodId: "egypte_nouvel",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (vers -1186 av. J.-C. / règne de Ramsès III)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1186,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire royale & divine (ronde-bosse)",
+    title: "Colosse marchant de Ramsès III au Pschent et au shendyt (Temple-reposoir de Karnak)",
+    site: "Complexe religieux de Karnak - Grande cour (Thèbes)",
+    originSite: "Thèbes",
+    locationType: "site",
+    currentLocation: "In situ (Pylône d'entrée du temple-reposoir de Ramsès III, Karnak)",
+    category: "Statuaire monumentale en grès",
+    isHighlight: false,
+    chips: ["XXe dynastie", "Ramsès III", "Karnak", "Temple-reposoir", "Pschent", "Shendyt", "Grès"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMjVGM2GfPGU7m8RM8QRhUZjSqVqudm9HYLuY2FNqPxop7Rpu-iwiWkVVjPz31SEm4K9BSw3HUFEFqh0EeF-4uRFhby7k1S_Qt3NHe6clSpZC9i35OGZjgDORL_fNNWsuwER5MxabLOX1iyqS9eAc3R1w=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette statue monumentale en grès représente le pharaon Ramsès III, souverain de la XXe dynastie qui régna vers 1186-1154 avant J.-C. Elle se dresse à l'entrée de son temple-reposoir, situé dans la grande cour du domaine d'Amon-Rê à Karnak. Ce monument a été conçu pour accueillir les barques sacrées de la triade thébaine lors des grandes processions religieuses.</p>
+    <p>Le souverain est figuré debout, dans l'attitude de la marche apparente, la jambe gauche légèrement avancée. Il porte le pagne plissé shendyt et est coiffé du pschent, la double couronne symbolisant son autorité unifiée sur la Haute et la Basse-Égypte. Ce colosse flanque le pylône d'entrée du temple, agissant comme un gardien symbolique du passage vers le sanctuaire intérieur.</p>
+    <p>En arrière-plan, le mur extérieur du temple est orné de bas-reliefs finement gravés illustrant la puissance militaire du roi. On y observe des scènes de massacre rituel des ennemis et des listes géographiques de peuples vaincus, thèmes caractéristiques de l'iconographie de Ramsès III. Ces gravures, datées pour certaines d'après l'an 11 du règne, commémorent notamment les campagnes libyennes menées par le pharaon pour protéger les frontières de l'Égypte.</p>
+    <p>L'ensemble statuaire et architectural souligne la volonté de Ramsès III de s'inscrire dans la lignée de son illustre prédécesseur Ramsès II. Bien que le temps ait érodé la pierre et que la statue soit lacunaire, elle demeure un témoignage exceptionnel de la statuaire royale du Nouvel Empire, alliant gigantisme architectural et précision des détails hiéroglyphiques.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1186) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_couple_assis_ramses_iii_reine_isis_granit_rose_medinet_habou",
+    civId: "egypte",
+    periodId: "egypte_nouvel",
+    civName: "Égypte : Nouvel Empire",
+    century: "XXe dynastie (vers -1180 av. J.-C. / règne de Ramsès III)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1180,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire royale & divine (ronde-bosse)",
+    title: "Statue de couple trônant : Ramsès III et la reine Isis en granit rose (Médinet Habou)",
+    site: "Temple funéraire de Ramsès III (Médinet Habou, Thèbes)",
+    originSite: "Thèbes-Ouest",
+    locationType: "site",
+    currentLocation: "In situ (Cour et dépôts de Médinet Habou, Thèbes)",
+    category: "Statuaire monumentale en granit rose poli",
+    isHighlight: false,
+    chips: ["XXe dynastie", "Ramsès III", "Reine Isis", "Médinet Habou", "Statue de couple", "Granit rose", "Thèbes-Ouest"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczObMA9OCCgAP_2FkZgKNQQN8Z32hrxd6NyuOlBkc1ouQkK9oaV3M7I8srGhRJMkNRA4q8eDfcjugkEYo0L-BvzB84IOVBzoqwQ0S2auLPOpJxzrewx7g2ZfdvaAzEsa4YSudkFdYHv2qVa3rTkYaTg8sQ=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette œuvre en granit rose est une statue de couple assis représentant le pharaon Ramsès III et son épouse, la reine Isis. Située dans l'enceinte de Médinet Habu, le temple des millions d'années du souverain à Thèbes-Ouest, elle s'inscrit dans la tradition des statues-couples égyptiennes où l'homme et la femme sont traités avec une égalité de proportions. Bien que fragmentaire, l'œuvre conserve la puissance du matériau et la finesse du modelé caractéristiques de la XXe dynastie.</p>
+    <p>Le souverain et la reine sont représentés assis sur un trône à dossier haut, orné sur ses parois latérales de hiéroglyphes détaillant leurs noms et titres officiels. Ramsès III porte le pagne royal traditionnel et le némès, tandis qu'Isis est vêtue d'une robe de lin fin et coiffée d'une perruque tripartite surmontée de l'uraeus, symbole de protection. Cette composition souligne l'union indéfectible du couple royal, perçu comme le miroir terrestre des couples divins primordiaux tels qu'Osiris et Isis.</p>
+    <p>Le choix du granit rose, une pierre de grand prestige importée des carrières d'Assouan, témoigne de la volonté de Ramsès III de rivaliser avec les réalisations de ses prédécesseurs, notamment Ramsès II. L'œuvre faisait partie du programme iconographique et religieux du temple, servant de réceptacle pour l'essence éternelle du roi et de sa famille. Malgré les mutilations subies au fil des siècles, notamment par l'occupation copte ultérieure du site, les fragments majeurs ont été retrouvés et maintenus sur place pour témoigner de la splendeur passée du monument.</p>
+    <p>Le style de cette statue reflète une esthétique ramesside tardive, cherchant à perpétuer une image de stabilité et de continuité au sein d'un empire alors confronté à des troubles extérieurs. En se faisant représenter ainsi aux côtés de sa reine, Ramsès III affirmait non seulement son pouvoir mais aussi la transmission légitime de la couronne. Cette sculpture demeure l'un des rares exemples de statuaire monumentale en ronde-bosse conservés à Médinet Habu, au milieu des bas-reliefs triomphants qui couvrent les murs du temple.</p>
+    <p><strong>Siècle :</strong> XIIe siècle av. J.-C. (-1180) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_petit_sphinx_couche_damasquine_siamon_bronze_tanis_louvre",
+    civId: "egypte",
+    periodId: "egypte_tardive",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "XXIe dynastie (vers -970 av. J.-C. / règne de Siamon)",
+    centuryDisplay: "Xe s. av. J.-C.",
+    centuryNumeric: -970,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire royale & divine (ronde-bosse)",
+    title: "Sphinx couché au cartouche de Siamon en bronze damasquiné d'or (Tanis, Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Tanis (Delta du Nil)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes, E 3916)",
+    category: "Statuaire en bronze damasquiné d'or",
+    isHighlight: true,
+    chips: ["XXIe dynastie", "Siamon", "Tanis", "Sphinx", "Bronze damasquiné", "Incrustations d'or", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMf40J0xvb7lyS016AjNmElWGl7Gy_rb8yhYp0eF-8e4GdPdXwiVoX9p8tCoLHq7kNKyxKZMPxSLcElIiTpE_t_51TX0RUZlvI6YGFG6VvR9Ra7_nXTmjgTrt1yMKI1ViE1sRJOGsQP1AJEF9VTUDgmOQ=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce petit sphinx couché, traditionnellement attribué au pharaon Siamon, constitue un témoignage exceptionnel de l'art du bronze de la XXIe dynastie, période où les ateliers royaux de Tanis atteignent une maîtrise technique remarquable. Le souverain est figuré sous les traits d'un lion à visage humain, coiffé du némès et portant la barbe postiche, soulignant sa nature hybride et sa puissance protectrice. Entre ses pattes antérieures, il maintient une tablette d'offrande ou un socle orné d'un cartouche royal, affirmant le rôle du roi comme intermédiaire privilégié entre les hommes et les dieux.</p>
+    <p>L'objet se distingue par la richesse de son décor damasquiné : des fils d'or ou d'électrum ont été incrustés dans le bronze sombre pour souligner les détails des ailes déployées sur le corps, les muscles puissants de l'animal et les hiéroglyphes du cartouche. Ce contraste chromatique, typique des productions de luxe de la Troisième Période intermédiaire, confère à la pièce une prestance qui dépasse sa petite taille. Bien que sa provenance exacte reste débattue, le lien stylistique et épigraphique avec la cité de Tanis, capitale des rois de cette époque dans le Delta, est fortement probable.</p>
+    <p><strong>Siècle :</strong> Xe siècle av. J.-C. (-970) | <strong>Civilisation :</strong> Égypte antique (Troisième Période intermédiaire / Basse Époque) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+   {
     id: "sculpture_vache_hathor_papyrus_calcaire_polychrome_deir_el_medina_louvre",
     civId: "egypte",
     periodId: "egypte_nouvel",
