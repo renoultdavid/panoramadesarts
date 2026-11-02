@@ -4,6 +4,386 @@
 window.ART_OBJECTS = [
   
    {
+    id: "sculpture_dignitaire_sepa_baton_commandement_calcaire_iiie_louvre",
+    civId: "egypte",
+    periodId: "egypte_ancien",
+    civName: "Égypte : Ancien Empire & Époque Thinite",
+    century: "IIIe dynastie (vers -2650 av. J.-C. / règne de Djéser ou Khâsekhemouy)",
+    centuryDisplay: "XXVIIe s. av. J.-C.",
+    centuryNumeric: -2650,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire privée & portraits",
+    title: "Statue en marche du dignitaire Sepa au bâton de commandement et fard vert (Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Mastaba de Sepa et Nesa (Saqqarah)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes, A 36 / A 37)",
+    category: "Statue en ronde-bosse en calcaire peint",
+    isHighlight: true,
+    chips: ["IIIe dynastie", "Ancien Empire", "Sepa", "Nesa", "Fard vert", "Bâton de commandement", "Calcaire peint", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNtKMPHZQIcgqXfezuFi4pvKzfA9-1gyxVnhwzfuqW_fyb7SDXBC0OLLTFMspfyS6bXKbvTdB6xmxaWu0yZr-tQk3V9mopmo1kkxbsaJRSoNmG5r_EWd0pcUoIn_Fzu5c6OCVZoGAkNlvH1sY0glFD7BA=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette statue en calcaire peint de la IIIe dynastie représente le dignitaire Sepa, époux de Nesa, et constitue l'un des plus anciens exemples de statuaire civile monumentale de l'Ancien Empire. Le personnage est représenté debout dans l'attitude classique de la marche, le pied gauche porté en avant, fixant l'éternité d'un regard frontal et déterminé. Sa silhouette massive et ses membres robustes reflètent le style hiératique des premières dynasties, où la puissance de l'individu est traduite par une architecture corporelle solide et imposante.</p>
+    <p>Sepa arbore une perruque courte et arrondie, finement bouclée, qui laisse les oreilles dégagées et encadre un visage aux traits larges, caractéristiques de cette époque. Il est vêtu d'un pagne court maintenu par une ceinture dont le nœud est visible à la taille. Ses mains adoptent une gestuelle symbolique forte : il serre contre son torse un bâton ou un sceptre de commandement, insigne de son rang élevé à la cour, tandis que son autre bras descend le long du corps. Le travail du calcaire, bien que vigoureux, laisse apparaître des détails anatomiques précis, notamment au niveau des articulations des genoux et des attaches musculaires.</p>
+    <p>Comme pour la statue de Nesa, Sepa porte des traces de maquillage rituel vert autour des yeux, une pratique protectrice et esthétique propre au début de l'Ancien Empire. La statue est solidaire d'un haut pilier dorsal qui monte jusqu'à la nuque, assurant sa pérennité physique à travers les siècles. Cet ensemble funéraire, destiné à habiter le serdab de leur tombe, garantissait la survie du couple et la perpétuation de leur statut social dans le monde des dieux. L'œuvre témoigne de la naissance d'un art officiel qui, dès la IIIe dynastie, fixait les règles de la représentation du pouvoir et de l'identité.</p>
+    <p><strong>Siècle :</strong> XXVIIe siècle av. J.-C. (-2650) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_femme_bois_robe_fourreau_saqqarah_musee_imhotep",
+    civId: "egypte",
+    periodId: "egypte_ancien",
+    civName: "Égypte : Ancien Empire & Époque Thinite",
+    century: "IVe dynastie (vers -2550 av. J.-C. / époque des grandes pyramides)",
+    centuryDisplay: "XXVIe s. av. J.-C.",
+    centuryNumeric: -2550,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire privée & portraits",
+    title: "Statue féminine en bois stuqué à la perruque étagée en cercles (Saqqarah, Musée Imhotep)",
+    site: "Musée Imhotep (Saqqarah)",
+    originSite: "Nécropole de Saqqarah",
+    locationType: "museum",
+    currentLocation: "Musée Imhotep, Saqqarah / Musée égyptien du Caire",
+    category: "Ronde-bosse féminine en bois sculpté",
+    isHighlight: false,
+    chips: ["IVe dynastie", "Ancien Empire", "Statue en bois", "Robe fourreau", "Perruque étagée", "Saqqarah", "Musée Imhotep"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNSrfo5L8KwpzZO7ItaIapKqIsHg7iir4Jo7xqm-5-SDN4YOwkKh3NzZFYQl4U0y6pbBxNMhR8daZMTB9VqnxVCqcRtjo4Z7_f5J7dHX_ncjEewJPGJUHEu9D24HCAiU7B-sseC17Wzf-fcWuQ_F9B4pg=w613-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette statue féminine en bois, datant de la IVe dynastie de l’Ancien Empire, constitue un exemple remarquable de la statuaire civile privée trouvée dans la nécropole de Saqqarah. Bien que le temps ait altéré sa surface et fait disparaître ses bras, l’œuvre conserve une présence saisissante. Elle témoigne de la maîtrise précoce des artisans égyptiens dans le travail du bois, un matériau précieux souvent importé, utilisé ici pour capturer l'élégance d'une femme de la haute société memphite.</p>
+    <p>Le visage est encadré par une imposante perruque courte aux mèches soigneusement étagées en cercles concentriques, une coiffure emblématique de cette période. Les traits du visage, bien que marqués par l'érosion, révèlent un modelé doux et des yeux autrefois incrustés qui devaient donner au regard une vitalité impressionnante. Cette attention portée aux détails du visage contraste avec la simplicité du corps, soulignant l'importance de l'individualité du défunt pour la survie de son ka.</p>
+    <p>La silhouette est d'une grande finesse, soulignant les formes anatomiques sous une robe fourreau moulante qui était initialement recouverte d'une fine couche de stuc peint. La cambrure délicate du dos et la ligne élancée des hanches reflètent l'idéal de beauté féminine de l'Ancien Empire, alliant dignité et naturalisme. Cette posture droite et frontale était destinée à recevoir les offrandes dans le serdab, la chambre close du mastaba où la statue servait de support physique à l'âme.</p>
+    <p><strong>Siècle :</strong> XXVIe siècle av. J.-C. (-2550) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_ensemble_statues_intyshedu_inspecteur_batisseurs_gizeh_caire",
+    civId: "egypte",
+    periodId: "egypte_ancien",
+    civName: "Égypte : Ancien Empire & Époque Thinite",
+    century: "IVe dynastie (vers -2575 av. J.-C. / règne de Khéops ou Khéphren)",
+    centuryDisplay: "XXVIe s. av. J.-C.",
+    centuryNumeric: -2575,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire privée & portraits",
+    title: "Ensemble statuaire d'Intyshedu, inspecteur des bâtisseurs du Roi, en calcaire peint (Gizeh, Musée égyptien du Caire)",
+    site: "Musée égyptien du Caire",
+    originSite: "Mastaba d'Intyshedu (Nécropole ouest de Gizeh)",
+    locationType: "museum",
+    currentLocation: "Musée égyptien du Caire",
+    category: "Ensemble statuaire en calcaire peint",
+    isHighlight: true,
+    chips: ["IVe dynastie", "Ancien Empire", "Intyshedu", "Gizeh", "Inspecteur des bâtisseurs", "Serdab", "Musée du Caire"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczObRxMV9EOjQZeKCiqHSe4LDI9XOzNfnOJ5hwcjn8dj_acXhEy-0j8kBOZDL0LRdneCepGt7vSBMTcY_LRMEn48XEvca8u4jUWHRhZGvaYbBx1bxjiknmYVcbzTF6im8-akAzOqTwOu1UZ5H4FpHffUVw=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cet ensemble exceptionnel, conservé au Musée égyptien du Caire, se compose de plusieurs statues en calcaire peint représentant le défunt à différents stades de sa vie ou sous différents aspects de sa personnalité sociale. Intyshedu occupait des fonctions prestigieuses, notamment celle de « Inspecteur des bâtisseurs du Roi », ce qui explique la qualité remarquable de ses monuments funéraires.</p>
+    <p>La statue principale montre Intyshedu assis sur un siège à haut dossier, dans une posture de dignité solennelle. Il porte une perruque courte à boucles étagées et un pagne plissé dont le nœud est rendu avec une grande précision sculpturale. Le traitement du corps respecte les conventions de l'époque : une musculature puissante mais lisse, une peau peinte en ocre-rouge et un visage aux traits idéalement sereins, les yeux soulignés de noir pour donner de la profondeur au regard.</p>
+    <p>À ses côtés sont disposées des statues de dimensions plus réduites, le représentant parfois plus jeune ou dans des attitudes légèrement différentes. Cette multiplication de l'image du défunt dans le serdab (la chambre close du mastaba) n'était pas purement esthétique ; elle multipliait les chances pour le « ka » de trouver un support matériel pour l'éternité. Si l'une des statues venait à être endommagée, les autres garantissaient la survie spirituelle de l'individu.</p>
+    <p>L'ensemble d'Intyshedu est l'un des rares exemples de l'Ancien Empire où l'on peut observer une telle série de portraits pour un même particulier, offrant une vision complète de la statuaire civile à l'époque des grandes pyramides. La conservation de la polychromie originale permet d'apprécier la vivacité de l'art égyptien antique, qui transformait la pierre inerte en une figure vibrante capable de traverser les millénaires pour témoigner de la réussite sociale et de la piété funéraire de ce maître d'œuvre royal.</p>
+    <p><strong>Siècle :</strong> XXVIe siècle av. J.-C. (-2575) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_statues_rahotep_et_nofret_yeux_cristal_meidoum_caire",
+    civId: "egypte",
+    periodId: "egypte_ancien",
+    civName: "Égypte : Ancien Empire & Époque Thinite",
+    century: "IVe dynastie (vers -2575 av. J.-C. / règne de Snéfrou)",
+    centuryDisplay: "XXVIe s. av. J.-C.",
+    centuryNumeric: -2575,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire privée & portraits",
+    title: "Statues assises du prince Rahotep et de son épouse Nofret aux yeux de cristal (Meïdoum, Musée égyptien du Caire)",
+    site: "Musée égyptien du Caire",
+    originSite: "Mastaba de Rahotep et Nofret (Meïdoum)",
+    locationType: "museum",
+    currentLocation: "Musée égyptien du Caire (salle Ancien Empire, JE 22380 / JE 22381)",
+    category: "Paire de statues en ronde-bosse en calcaire peint et incrusté",
+    isHighlight: true,
+    chips: ["IVe dynastie", "Ancien Empire", "Rahotep", "Nofret", "Meïdoum", "Yeux en cristal de roche", "Snéfrou", "Musée du Caire"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOJ05v505sJQ64MxHEP0UCo1BvtKnBi7Eh9G7K1KXkdMnzhz1SOKTdmRKQvMD6VRpLtbwbj__oW0iaOtCGbGq_B9zn9PzaIlL-YPmV8-9CaUsKMs2vpvp2_h-3dEdJGScHuFRrMTvz0X8TYhzDYsPx2HA=w613-h919-s-no-gm?authuser=0",
+    narrative: `<p>Découvertes en 1871 par Auguste Mariette dans un mastaba au nord de la pyramide de Snéfrou à Meïdoum, ces deux statues en calcaire peint comptent parmi les chefs-d’œuvre les plus célèbres de la IVe dynastie, vers 2575 avant notre ère. Elles représentent le prince Rahotep, probablement fils du pharaon Snéfrou et grand prêtre d'Héliopolis, aux côtés de son épouse Nofret, dont le nom signifie « la belle ». Conservées au Musée égyptien du Caire, ces figures assises sur des trônes cubiques blancs ont conservé une polychromie d’une fraîcheur exceptionnelle.</p>
+    <p>L’œuvre respecte scrupuleusement les conventions artistiques de l’Ancien Empire, notamment par la différenciation des teintes de peau : un brun ocre pour Rahotep, reflétant une vie active en extérieur, et un blanc crème pour Nofret, soulignant son rang et sa vie protégée au sein du foyer. Rahotep est figuré avec des cheveux courts et une fine moustache noire, un détail rare, tandis que Nofret porte une imposante perruque maintenue par un diadème à motifs floraux. Sous sa lourde coiffure, on devine ses propres cheveux naturels sur le front, un détail de réalisme frappant.</p>
+    <p>Le regard des deux époux est d'une intensité presque surnaturelle grâce à l'utilisation d'yeux incrustés : le blanc est en quartz opaque, tandis que l'iris est en cristal de roche poli, ce qui donne une profondeur vivante à leur expression. Cette technique était si perfectionnée que, lors de la découverte de la tombe à la lueur des torches, les ouvriers ont été saisis d'effroi, croyant voir des êtres vivants les observer depuis l'obscurité.</p>
+    <p>Les dossiers des sièges portent les noms et les titres du couple en hiéroglyphes noirs, garantissant leur identité et leur statut pour l'éternité. Rahotep affiche ses titres de « fils du roi » et de « général des armées », tandis que Nofret est désignée comme « la connaissance du roi », confirmant son appartenance à la haute noblesse. En tant que statues de culte, ces effigies n'étaient pas destinées à être vues, mais à servir de support au « ka » des défunts dans le secret de leur tombe.</p>
+    <p><strong>Siècle :</strong> XXVIe siècle av. J.-C. (-2575) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_seneb_nain_famille_epouse_enfants_gizeh_caire",
+    civId: "egypte",
+    periodId: "egypte_ancien",
+    civName: "Égypte : Ancien Empire & Époque Thinite",
+    century: "IVe – Ve dynastie (vers -2550 av. J.-C. / règne de Khéops ou Didoufri)",
+    centuryDisplay: "XXVIe s. av. J.-C.",
+    centuryNumeric: -2550,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire privée & portraits",
+    title: "Groupe familial du dignitaire Seneb, de son épouse Senetites et de leurs deux enfants (Gizeh, Musée égyptien du Caire)",
+    site: "Musée égyptien du Caire",
+    originSite: "Mastaba de Seneb (Nécropole ouest de Gizeh)",
+    locationType: "museum",
+    currentLocation: "Musée égyptien du Caire (JE 51280)",
+    category: "Groupe statuaire en calcaire peint",
+    isHighlight: true,
+    chips: ["IVe dynastie", "Ancien Empire", "Seneb", "Senetites", "Nanisme", "Gizeh", "Groupe familial", "Musée du Caire"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNh_BNj3UQxqKBHFOGIpIpHd2-AgPlCqAcZMKAYDDI9-Y4UsyQFg1_swHI0XJ-YVVDRwEHXhH8n3WTQfa7MN8a7Bj6i_MQ-LYncDQxzIQteSnzWfPaIyhZDe0SDYvhDRPuro_mOFo9y8sVhnW73dX1i8g=w613-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette célèbre sculpture en calcaire peint, provenant de la nécropole de Gizeh, représente le haut fonctionnaire Seneb entouré de son épouse Senetites et de leurs deux enfants. Datant de la IVe ou du début de la Ve dynastie, vers 2575 avant notre ère, l'œuvre est un témoignage exceptionnel de l'intégration sociale des personnes atteintes de nanisme dans l'Égypte ancienne. Seneb, qui occupait des fonctions prestigieuses comme directeur des nains de la cour et prêtre funéraire de Khéops, est ici immortalisé dans une pose pleine de dignité et de tendresse familiale.</p>
+    <p>La composition de la statue est une prouesse d'équilibre et d'ingéniosité artistique. Pour compenser la petite taille de Seneb, l'artiste a placé ses deux enfants debout à l'endroit où ses jambes auraient dû se trouver s'il avait été de taille moyenne. Ce choix permet de conserver la structure cubique traditionnelle des groupes statuaires de l'époque tout en respectant la hiérarchie visuelle. Les enfants, un garçon et une fille, sont représentés nus avec la mèche de l'enfance et le doigt à la bouche, des codes iconographiques classiques pour désigner leur jeune âge.</p>
+    <p>L'épouse de Seneb, Senetites, est représentée à une échelle normale, assise à ses côtés. Son geste est particulièrement significatif : elle pose tendrement son bras sur l'épaule de son mari, une marque d'affection et de soutien qui souligne l'harmonie du couple. Vêtue d'une longue robe blanche moulante et d'une perruque courte, elle affiche un visage serein tourné vers l'éternité. Le contraste entre le brun ocre de la peau de Seneb et le teint clair de sa femme suit les conventions artistiques habituelles pour distinguer les sexes.</p>
+    <p>Le socle de la statue comporte des inscriptions hiéroglyphiques détaillant les nombreux titres de Seneb, assurant ainsi la pérennité de son identité et de son statut social dans l'au-delà. Cette œuvre, conservée au Musée égyptien du Caire, ne se contente pas de montrer la réussite matérielle d'un grand dignitaire ; elle offre un regard profondément humain sur la vie privée de l'élite memphite, où les singularités physiques n'étaient pas un frein à l'ascension sociale ni à l'épanouissement familial.</p>
+    <p><strong>Siècle :</strong> XXVIe siècle av. J.-C. (-2550) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_dignitaire_assis_collier_ousekh_ve_dynastie_louvre",
+    civId: "egypte",
+    periodId: "egypte_ancien",
+    civName: "Égypte : Ancien Empire & Époque Thinite",
+    century: "Ve dynastie (vers -2450 av. J.-C. / apogée memphite)",
+    centuryDisplay: "XXVe s. av. J.-C.",
+    centuryNumeric: -2450,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire privée & portraits",
+    title: "Statue d'un haut dignitaire assis au collier Ousekh et perruque étagée en calcaire peint (Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Saqqarah",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes)",
+    category: "Statue en ronde-bosse en calcaire peint",
+    isHighlight: false,
+    chips: ["Ve dynastie", "Ancien Empire", "Dignitaire assis", "Collier Ousekh", "Pagne plissé", "Saqqarah", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPXxImJS-DNZu1pMRVQVcVvMwySi8Q0fflhjiGiZ-qJlxQKqP4L4gBcszyK0gmyw12x9vzTDJF4gMTW0yW-fPhyboXkeIu76NWGqZRyhftHv9Dc16iQDKdEGbofVazct2dC-ZVhZXLUZt0iOVwnyGY8Vg=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette statue en calcaire peint de la Ve dynastie représente un haut fonctionnaire assis sur un siège à haut dossier, dans une attitude de dignité tranquille propre à l'élite de l'Ancien Empire. Le défunt est figuré dans une pose canonique, les mains posées à plat sur les cuisses, le regard dirigé vers l'horizon. La conservation de la polychromie permet d'apprécier les codes de représentation masculine, notamment la peau ocre brun et la perruque noire imposante, aux boucles étagées très détaillées, qui encadre un visage aux traits réguliers et sereins.</p>
+    <p>L'anatomie est rendue avec un naturalisme équilibré, soulignant la puissance du buste et la structure des genoux. Le personnage est vêtu d'un pagne blanc plissé, dont le drapé est finement incisé dans la pierre. Autour de son cou, on distingue la représentation d'un large collier ousekh, peint de plusieurs rangées de perles, symbole de son statut social et de la faveur royale. Le dossier du siège, massif et solidaire de la figure, assure non seulement la stabilité structurelle de l'œuvre mais renforce également l'aspect monumental et éternel de la pose.</p>
+    <p>Des inscriptions hiéroglyphiques, peintes ou incisées sur les côtés du siège, servaient à identifier le propriétaire par son nom et ses titres administratifs ou religieux. Cette statue de substitut, placée dans le serdab du mastaba, permettait au Ka du défunt de s'incarner pour bénéficier éternellement des rituels et des offrandes funéraires. L'œuvre témoigne de la perfection technique atteinte par les ateliers royaux de Memphis durant cette période, où la statuaire privée cherchait à refléter la stabilité et l'ordre de l'État pharaonique.</p>
+    <p><strong>Siècle :</strong> XXVe siècle av. J.-C. (-2450) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_dignitaire_assis_moustache_peinte_ve_dynastie_louvre",
+    civId: "egypte",
+    periodId: "egypte_ancien",
+    civName: "Égypte : Ancien Empire & Époque Thinite",
+    century: "Ve dynastie (vers -2450 av. J.-C. / époque memphite)",
+    centuryDisplay: "XXVe s. av. J.-C.",
+    centuryNumeric: -2450,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire privée & portraits",
+    title: "Statue d'un haut dignitaire assis à la fine moustache peinte et perruque courte (Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Saqqarah ou Gizeh",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes)",
+    category: "Statue en ronde-bosse en calcaire peint",
+    isHighlight: false,
+    chips: ["Ve dynastie", "Ancien Empire", "Dignitaire assis", "Moustache peinte", "Perruque courte", "Embonpoint", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNJ97-DSp1twwGO6rLrN2F21WYV6VOj4hn1W4AwgK5zpFFgdc8F_okkAjqHLUteA4JTAueNmI9vV0WvmiWs3-L-B_apYJpepoMGwNTf4PMNli_oEAVmFpfT8cDZZUjC_xDQ0dilsFqAJKJUflGacAZwoA=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette statue en calcaire peint de la Ve dynastie représente un haut fonctionnaire assis, capturé dans une pose de dignité intemporelle. Contrairement à d'autres représentations plus athlétiques de la même époque, ce personnage affiche des formes plus souples et un visage aux traits marqués, notamment par une fine moustache peinte, détail réaliste assez rare qui souligne son individualité. Il est coiffé d'une perruque courte et évasée, dite « en enveloppe », qui laisse les oreilles dégagées et encadre un visage au regard attentif, autrefois intensifié par une polychromie dont subsistent de beaux restes.</p>
+    <p>Le corps, à la peau claire, est traité avec un modelé subtil, révélant une certaine embonpoint au niveau de l'abdomen, signe de réussite sociale et de prospérité dans l'Égypte de l'Ancien Empire. Le personnage est vêtu d'un pagne blanc dont les plis sont suggérés par des lignes horizontales régulières. Sa main droite est fermée, tenant peut-être un rouleau de lin, tandis que sa main gauche repose à plat sur sa cuisse, illustrant parfaitement l'équilibre entre tension et repos caractéristique de la statuaire de cette période.</p>
+    <p>Le siège cubique sur lequel il repose est massif, servant de socle stable pour l'éternité. Des traces d'inscriptions hiéroglyphiques sur la base permettaient d'identifier le défunt par son nom et ses fonctions administratives. Cette statue de substitut, destinée à habiter le serdab du tombeau, assurait la présence perpétuelle du propriétaire pour recevoir les offrandes rituelles. Elle témoigne de la diversité des styles au sein de la Ve dynastie, où le naturalisme des traits commence à s'affirmer derrière la rigueur des canons officiels.</p>
+    <p><strong>Siècle :</strong> XXVe siècle av. J.-C. (-2450) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_couple_homme_assis_epouse_debout_niouserre_louvre",
+    civId: "egypte",
+    periodId: "egypte_ancien",
+    civName: "Égypte : Ancien Empire & Époque Thinite",
+    century: "Ve dynastie (vers -2420 av. J.-C. / règne de Niouserrê)",
+    centuryDisplay: "XXVe s. av. J.-C.",
+    centuryNumeric: -2420,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire privée & portraits",
+    title: "Groupe statuaire d'un fonctionnaire assis et de son épouse debout (Règne de Niouserrê, Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Saqqarah ou Abousir",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes)",
+    category: "Groupe statuaire en calcaire peint",
+    isHighlight: false,
+    chips: ["Ve dynastie", "Ancien Empire", "Niouserrê", "Groupe de couple", "Robe fourreau", "Serdab", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNUFk71hu85QI1pRrW3Rz-3cg5lcJbdToYxjfkQF6w9cRSJMiBEsYJpmN50IQBOxMz8AOZ8Zj6pukx-Yg74iPJY0XV5-t3uHpXp0dAvtmyIz8a2VdZhBK7tCM4t54o_3bwkkeDv56AW68UMI_030ShIlQ=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce groupe statuaire en calcaire peint, datant du règne de Niouserrê durant la Ve dynastie, illustre une variante touchante de la statuaire de couple de l'Ancien Empire. Le haut fonctionnaire est assis sur un siège cubique massif, tandis que son épouse est représentée debout à sa gauche, posant délicatement sa main droite sur le bras de son mari en signe d'affection et de soutien éternel. Cette différence de posture, combinant les positions assise et debout, permet de hiérarchiser les figures tout en préservant l'unité du bloc et la proximité du couple.</p>
+    <p>Le traitement du visage de l'homme est particulièrement remarquable par son aspect juvénile et ses traits fins. Il porte une perruque bouclée arrondie qui dégage les oreilles et un pagne court plissé. L'épouse, vêtue d'une robe fourreau blanche très moulante qui souligne les formes de son corps, arbore une perruque tripartite lisse. Le modelé des corps, bien que respectant les canons de l'époque, dénote une grande maîtrise des volumes, notamment dans le rendu des jambes et des articulations, typique de l'apogée artistique atteint sous le règne de Niouserrê.</p>
+    <p>L'œuvre conserve une partie de son enduit blanc originel, qui servait de base à la polychromie destinée à rendre la statue « vivante ». Les yeux étaient autrefois peints pour accroître le réalisme du regard dirigé vers les porteurs d'offrandes. Destiné à être placé dans une chapelle funéraire, ce groupe assurait au couple une survie commune et harmonieuse. La sobriété des lignes et la douceur qui émane de la pose de l'épouse font de cette pièce un témoignage précieux de la statuaire privée de la seconde moitié de la Ve dynastie.</p>
+    <p><strong>Siècle :</strong> XXVe siècle av. J.-C. (-2420) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_dignitaire_debout_marche_poings_serres_ve_dynastie_louvre",
+    civId: "egypte",
+    periodId: "egypte_ancien",
+    civName: "Égypte : Ancien Empire & Époque Thinite",
+    century: "Ve dynastie (vers -2450 av. J.-C. / époque memphite)",
+    centuryDisplay: "XXVe s. av. J.-C.",
+    centuryNumeric: -2450,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire privée & portraits",
+    title: "Statue marchante d'un haut dignitaire aux poings serrés en calcaire peint (Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Saqqarah",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes)",
+    category: "Statue en ronde-bosse en calcaire peint",
+    isHighlight: false,
+    chips: ["Ve dynastie", "Ancien Empire", "Dignitaire marchant", "Poings serrés", "Ocre rouge", "Pilier dorsal", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOl8sG-g1_1Fv5_-ZHI_VF0TdtyKh_f6jzqPkc3J8u9ewftmSvVWeHu03smgrreg7fS_eltRYzRqghZdtqEZhh13YgvBf9fkuhVLx-Lt7cBAar8qGxXUUo4pOAv7xr2yN9TeQKXPCMfyGeby09ANBcUAw=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette statue de calcaire peint de la Ve dynastie représente un haut dignitaire debout dans une attitude de marche solennelle, le pied gauche porté en avant. Le corps est sculpté avec une vigueur caractéristique des ateliers memphites, présentant un buste large et une musculature athlétique bien définie. La conservation de la polychromie est remarquable sur le torse et les membres, affichant la teinte ocre rouge conventionnelle pour les hommes de l'élite. Le personnage porte une perruque courte et arrondie, composée de boucles méticuleusement sculptées, qui encadre un visage aux traits sereins tourné vers l'éternité.</p>
+    <p>Il est vêtu d'un pagne court en lin blanc, dont le drapé plissé est rendu par de fines incisions horizontales, et qui est maintenu à la taille par une ceinture dont le nœud est visible. Ses mains sont fermées le long du corps, les poings serrés, un geste classique de la statuaire de l'Ancien Empire signifiant la détermination et la force vitale. Les yeux, largement ouverts et autrefois rehaussés par une peinture noire plus intense, confèrent à l'effigie une présence spirituelle puissante, destinée à capter les prières des vivants.</p>
+    <p>L'œuvre est solidaire d'un pilier dorsal qui assure sa stabilité structurelle, une technique courante pour les statues de pierre afin de garantir leur pérennité. En tant que statue de substitut, elle était déposée dans le serdab d'un mastaba pour servir de support matériel au Ka du défunt. La qualité de l'exécution, notamment dans le rendu des genoux et des attaches musculaires, témoigne du haut degré de perfection atteint par les sculpteurs royaux pour la statuaire privée de cette période.</p>
+    <p><strong>Siècle :</strong> XXVe siècle av. J.-C. (-2450) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_dignitaire_debout_marche_pagne_plisse_ve_dynastie_louvre",
+    civId: "egypte",
+    periodId: "egypte_ancien",
+    civName: "Égypte : Ancien Empire & Époque Thinite",
+    century: "Ve dynastie (vers -2450 av. J.-C. / époque memphite)",
+    centuryDisplay: "XXVe s. av. J.-C.",
+    centuryNumeric: -2450,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire privée & portraits",
+    title: "Statue marchante d'un notable memphite au pagne plissé asymétrique en calcaire peint (Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Saqqarah",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes)",
+    category: "Statue en ronde-bosse en calcaire peint",
+    isHighlight: false,
+    chips: ["Ve dynastie", "Ancien Empire", "Notable marchant", "Pagne plissé", "Perruque étagée", "Serdab", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMUOlMI9efjUMLnPyDnByyghxA8jIpA_CkUrxsion7bUs-HBYcAoRnpi_5RpHeR1N-_hTsm6dIkD7Y-MeoYoP6HFjkV0zfjSu4pI0Kc4ZNa57aFYIuHZG1GE8K2qQX5E7B0DhlXUYjlDbFU2jp-pEE27g=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette statue de calcaire peint de la Ve dynastie représente un haut dignitaire debout dans une posture de marche, le pied gauche porté en avant, incarnant la force et la stabilité de l'élite de l'Ancien Empire. Le personnage est figuré avec une musculature puissante et un buste large, caractéristiques des canons esthétiques memphites. Il porte une perruque courte à boucles étagées très soignée, encadrant un visage aux traits sereins dont les yeux étaient autrefois soulignés par une peinture vive pour donner l'illusion du regard.</p>
+    <p>Le vêtement est constitué d'un pagne court finement plissé, dont le nœud est visible à la taille, et qui laisse apparaître une partie de la cuisse gauche avancée. La main droite est fermée, tenant peut-être un bâton de commandement aujourd'hui disparu ou un rouleau de lin, tandis que le bras gauche descend le long du corps. Bien que la polychromie soit partiellement érodée, on devine encore les teintes ocre rouge traditionnellement dévolues aux représentations masculines, contrastant avec le blanc éclatant du pagne.</p>
+    <p>En tant que statue de substitut, cette œuvre était destinée à être placée dans la partie close du tombeau pour servir de demeure au Ka du défunt. La présence de statues similaires à ses côtés souligne la volonté des hauts fonctionnaires de multiplier leurs images pour garantir leur survie éternelle. L'exécution rigoureuse de cette pièce témoigne du haut degré de technicité des ateliers de sculpture sous la Ve dynastie, période d'apogée pour la statuaire privée de l'Ancien Empire.</p>
+    <p><strong>Siècle :</strong> XXVe siècle av. J.-C. (-2450) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_couple_assis_banc_commun_inscriptions_ve_dynastie_louvre",
+    civId: "egypte",
+    periodId: "egypte_ancien",
+    civName: "Égypte : Ancien Empire & Époque Thinite",
+    century: "Ve dynastie (vers -2450 av. J.-C. / époque memphite)",
+    centuryDisplay: "XXVe s. av. J.-C.",
+    centuryNumeric: -2450,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire privée & portraits",
+    title: "Statue de couple assis sur un banc à dossier commun avec formule d'offrande (Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Saqqarah ou Gizeh",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes)",
+    category: "Groupe statuaire en calcaire",
+    isHighlight: false,
+    chips: ["Ve dynastie", "Ancien Empire", "Statue de couple", "Banc commun", "Formule d'offrande", "Robe fourreau", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczN_vBEmZxJaDzVzpd2DMItFZONDvQGoUIKxQgcsfCe1sWb7fN-b4Z5o2l-_oI7ZVhJRNjbzUV8aAiZffMoUkwDjszLNX-55BkLSRHWDOAphgpVRRPDv9lxMo58JH6vgCl0-f4PmpVuf5JkQKT-pQOgXEw=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette statue de calcaire de la Ve dynastie représente un couple de l'élite égyptienne assis sur un large banc à dossier commun, illustrant la permanence du lien conjugal dans l'au-delà. L'homme et la femme sont figurés côte à côte, les mains posées sur les cuisses dans une attitude de recueillement et de dignité. Ce type de monument funéraire était conçu pour être placé dans la chapelle d'un mastaba, permettant aux défunts de recevoir ensemble les offrandes rituelles nécessaires à leur survie éternelle.</p>
+    <p>L'homme, situé à la droite de son épouse, porte une perruque bouclée courte et arrondie qui dégage ses oreilles, ainsi qu'un pagne simple. La femme est vêtue d'une robe fourreau moulante et porte une perruque plus longue, dont les mèches sont soigneusement sculptées, encadrant un visage aux traits doux et sereins. Bien que la polychromie originale soit aujourd'hui presque totalement disparue, quelques traces de pigments ocre sur l'épaule de l'homme rappellent que la statue était autrefois colorée selon les conventions de l'époque.</p>
+    <p>La structure massive du groupe, avec ses formes pleines et ses lignes épurées, est caractéristique de l'esthétique memphite de la Ve dynastie. La base de la statue comporte une ligne de hiéroglyphes incisés, offrant la formule d'offrande invocatoire ainsi que les noms et titres du couple. Cette inscription est cruciale, car elle assure magiquement la pérennité de l'identité des défunts et la transformation de la pierre en un réceptacle vivant pour leurs doubles spirituels.</p>
+    <p><strong>Siècle :</strong> XXVe siècle av. J.-C. (-2450) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_vizir_ptahhotep_ier_bois_stuque_saqqarah_musee_imhotep",
+    civId: "egypte",
+    periodId: "egypte_ancien",
+    civName: "Égypte : Ancien Empire & Époque Thinite",
+    century: "Ve dynastie (vers -2450 av. J.-C. / règne de Djedkarê Isési)",
+    centuryDisplay: "XXVe s. av. J.-C.",
+    centuryNumeric: -2450,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire privée & portraits",
+    title: "Statue en bois stuqué et peint du vizir et philosophe Ptahhotep Ier (Saqqarah, Musée Imhotep)",
+    site: "Musée Imhotep (Saqqarah)",
+    originSite: "Mastaba de Ptahhotep (Saqqarah)",
+    locationType: "museum",
+    currentLocation: "Musée Imhotep, Saqqarah / Musée égyptien du Caire",
+    category: "Statue en ronde-bosse en bois stuqué et peint",
+    isHighlight: true,
+    chips: ["Ve dynastie", "Ancien Empire", "Ptahhotep Ier", "Vizir", "Enseignements", "Bois stuqué", "Saqqarah", "Musée Imhotep"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOi9lhoKfpKptFglVE0C-K_qKyXQ_FTu_qNUEFUMPQ4pSLDmKW36vMLD8TPcvmKhOi3gM8xBDI1grFKz1jwEOmBxlONGxq4yAXm2IuNX1n8BT331S8gp5CkeuoPEIHtWBKVaVT8AYxJrcM-PfIBbiVsVw=w613-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette statue en bois stuqué et peint, datant d'environ 2450 av. J.-C. (Ve dynastie), représente le vizir Ptahhotep Ier, l'un des plus hauts fonctionnaires de l'Ancien Empire sous le règne de Djedkarê Isési. Découverte dans son mastaba à Saqqarah, cette œuvre témoigne de la virtuosité des sculpteurs memphites qui parvenaient à insuffler une vie extraordinaire au bois, malgré la fragilité de ce matériau précieux. Longtemps restée dans les réserves du Musée du Caire après sa mise au jour, elle a été redécouverte lors d'un inventaire en 2005 et est désormais l'une des pièces maîtresses illustrant l'élite de cette époque.</p>
+    <p>Le vizir est figuré avec les attributs de son rang, portant une perruque courte aux boucles méticuleusement étagées et la barbe postiche courte, typique des hauts dignitaires. Son visage, doté d'un léger sourire et d'yeux autrefois incrustés de quartz et de cristal de roche, dégage une sérénité empreinte de sagesse. Cette physionomie n'est pas fortuite : Ptahhotep est passé à la postérité non seulement comme administrateur, mais aussi comme l'auteur des célèbres Enseignements, faisant de lui l'un des premiers philosophes de l'humanité.</p>
+    <p>Le corps présente une musculature souple, partiellement recouverte par un long pagne plissé dont les pigments blancs et jaunes sont encore visibles par endroits. Une large collerette peinte orne son buste, soulignant l'élégance de sa tenue de cérémonie. Bien que ses bras d'origine aient été perdus, les tenons de fixation encore présents aux épaules révèlent la technique de fabrication égyptienne : les membres étaient sculptés séparément puis assemblés au torse, une méthode permettant plus de liberté dans la pose que la taille dans un seul bloc de pierre.</p>
+    <p>Cette effigie funéraire n'était pas un simple portrait, mais un support pour le ka (l'énergie vitale) du défunt afin qu'il puisse recevoir éternellement les offrandes. Elle incarne l'idéal de l'homme accompli de l'Ancien Empire : un équilibre parfait entre autorité politique et droiture morale. Aujourd'hui exposée au Musée Imhotep de Saqqarah (ou au Musée du Caire selon les rotations), elle demeure un lien direct avec l'époque où les pyramides s'élevaient encore sur le plateau voisin.</p>
+    <p><strong>Siècle :</strong> XXVe siècle av. J.-C. (-2450) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_dignitaire_marche_bois_sculpte_ve_dynastie_louvre",
+    civId: "egypte",
+    periodId: "egypte_ancien",
+    civName: "Égypte : Ancien Empire & Époque Thinite",
+    century: "Ve dynastie (vers -2450 av. J.-C. / époque memphite)",
+    centuryDisplay: "XXVe s. av. J.-C.",
+    centuryNumeric: -2450,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire privée & portraits",
+    title: "Statuette d'un homme en marche en bois sculpté (Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Saqqarah ou Nécropole memphite",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes)",
+    category: "Statue en ronde-bosse en bois sculpté",
+    isHighlight: false,
+    chips: ["Ve dynastie", "Ancien Empire", "Statue en bois", "Homme en marche", "Perruque bouclée", "Serdab", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPE0WiaGGOAtdcv4Lf6AbHGBV0dLcbh6Mdmyvvnz68LDqlYsJKJsmTBdXxQnvLTSFZnhlSekxBe3kogTgpqrCWviUV7NPohoZLdWvSVnuHUL9FmSPAOpueqUjD-Bt-d-Uy_V-3PIWaSbSCHQsxlzo9w7Q=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette statuette masculine en bois, caractéristique de la Ve dynastie, illustre la maîtrise de la sculpture sur bois durant l'Ancien Empire. Le personnage est représenté dans une attitude classique de marche, le pied gauche porté en avant, fixant l'éternité d'un regard frontal. Le bois, matériau précieux dans la vallée du Nil, permet ici une silhouette plus élancée et des membres détachés du corps, contrairement aux statues de pierre contemporaines qui conservent souvent un pilier dorsal ou des pans de pierre entre les bras et le buste.</p>
+    <p>Le traitement anatomique témoigne d'un grand naturalisme, avec un thorax bien défini et des jambes musclées. Le personnage porte un pagne court à plis fins, dont le nœud est visible à la taille, et une perruque courte bouclée qui dégage les oreilles, une coiffe très en vogue chez les hauts fonctionnaires de cette période. Bien que les bras soient partiellement manquants, notamment le bras gauche dont il ne reste que le moignon, l'équilibre général de la pièce souligne la dignité et le rang social élevé du défunt.</p>
+    <p>La surface du bois laisse apparaître les traces du travail de l'artisan et les fibres naturelles de l'essence utilisée. À l'origine, cette statue était probablement recouverte d'une fine couche de stuc peint pour masquer les veines du bois et donner au personnage un aspect plus vivant. En tant que statue de substitut placée dans le serdab (pièce close du mastaba), elle servait de réceptacle au Ka (l'énergie vitale) du défunt pour recevoir les offrandes et assurer sa survie éternelle.</p>
+    <p><strong>Siècle :</strong> XXVe siècle av. J.-C. (-2450) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_couple_marche_bois_sculpte_ve_vie_dynastie_louvre",
+    civId: "egypte",
+    periodId: "egypte_ancien",
+    civName: "Égypte : Ancien Empire & Époque Thinite",
+    century: "Fin de la Ve – VIe dynastie (vers -2350 av. J.-C. / Ancien Empire)",
+    centuryDisplay: "XXIVe s. av. J.-C.",
+    centuryNumeric: -2350,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire privée & portraits",
+    title: "Groupe familial d'un dignitaire marchant et de son épouse en bois sculpté (Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Saqqarah ou Moyenne-Égypte",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes)",
+    category: "Groupe statuaire en bois sculpté",
+    isHighlight: false,
+    chips: ["Ve dynastie", "VIe dynastie", "Ancien Empire", "Couple en bois", "Statue de serdab", "Élégance des proportions", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNmbzFxY9M5ZqEs_NZPbk7dffdH3v2I6EiJU1CmCRE6N5U1rIyfcqGlI6vuTx65zR2ia-zELdtpCV6pkfsSfVBSYwb2mu5PteB2StOcxYHiftB0QtLcw24oIHDLIuw8qt-MQJGRC1Ob3nHzMZ-6DPjOEQ=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette statue de couple en bois sculpté est un témoignage exceptionnel de la statuaire privée de l'Ancien Empire égyptien. Bien que les noms des défunts ne soient pas précisés ici, ce type de groupe familial était destiné à être placé dans le serdab (une pièce close et secrète) du mastaba, permettant au ka (l'énergie vitale) des défunts de recevoir les offrandes et de perdurer dans l'au-delà.</p>
+    <p>Le genre artistique relève de la statuaire funéraire égyptienne, caractérisée par une attitude frontale et hiératique. La figure masculine est représentée dans la pose traditionnelle de la marche, le pied gauche en avant, exprimant la vitalité, tandis que la figure féminine se tient à ses côtés, plus petite, dans une attitude de soutien et d'affection. Le travail du bois, matériau plus rare et précieux que la pierre en Égypte, permettait une plus grande liberté de mouvement et un modelé plus souple des corps.</p>
+    <p>L'évolution du style à la fin de la Ve dynastie et durant la VIe dynastie se marque par une recherche de naturalisme et une certaine élégance des proportions : les traits des visages sont plus individualisés que dans les périodes antérieures, avec une attention particulière portée au regard et aux expressions sereines. On observe une volonté de rendre la musculature et les formes du corps de manière plus fluide, malgré la rigidité imposée par les conventions religieuses. L'aspect érodé du bois aujourd'hui nous révèle la structure interne de l'œuvre, mais à l'origine, ces statues étaient recouvertes d'un enduit stuqué et peintes de couleurs vives (brun pour l'homme, ocre clair pour la femme) pour leur donner l'apparence de la vie.</p>
+    <p><strong>Siècle :</strong> XXIVe siècle av. J.-C. (-2350) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_vizir_akhethotep_baton_marche_bois_stuque_saqqarah_caire",
+    civId: "egypte",
+    periodId: "egypte_ancien",
+    civName: "Égypte : Ancien Empire & Époque Thinite",
+    century: "Ve dynastie (vers -2500 av. J.-C. / début Ve dynastie)",
+    centuryDisplay: "XXVe s. av. J.-C.",
+    centuryNumeric: -2500,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire privée & portraits",
+    title: "Statue en marche du vizir Akhethotep au bâton de fonction en bois stuqué (Saqqarah, Musée du Caire)",
+    site: "Musée égyptien du Caire",
+    originSite: "Mastaba d'Akhethotep (Saqqarah)",
+    locationType: "museum",
+    currentLocation: "Musée égyptien du Caire / Musée Imhotep, Saqqarah",
+    category: "Statue en ronde-bosse en bois stuqué et peint",
+    isHighlight: true,
+    chips: ["Ve dynastie", "Ancien Empire", "Akhethotep", "Vizir", "Bâton de marche", "Bois stuqué", "Saqqarah", "Musée du Caire"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNFwW4mD1AfxXGS6np-8K4AJaEdPSoQqVS6fIZQ5FvHcapu50VyvC1llnKMUAa1kR-haZ7854ncvazoPTNygNCmMdBqMxdkO7NvQ2ERPV4zS83plpSbrBnZxXJew403GIrBt6fcvQZ4ND7gwlmmsMErvg=w613-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette statue en bois stuqué et peint, datant d'environ 2500 av. J.-C. (début de la Ve dynastie), représente Akhethotep, un haut dignitaire qui exerça des fonctions de vizir et de prêtre ritualiste. Découverte dans son mastaba à Saqqarah, cette œuvre illustre la persistance des traditions de la statuaire civile de l'Ancien Empire. Le bois, bien que plus fragile que la pierre, a permis une finesse de détails qui rend compte de la puissance sociale et du prestige du personnage, dont le culte funéraire était central dans la nécropole memphite.</p>
+    <p>Le visage d'Akhethotep est traité avec un réalisme caractéristique, présentant des traits individualisés et un regard qui, à l'origine, était animé par des yeux incrustés. Il porte une perruque courte aux boucles serrées, dégageant les oreilles, une mode sobre qui souligne la maturité et l'autorité du fonctionnaire. La présence d'une courte barbe postiche et le modelé précis du visage témoignent du rang élevé de ce « fils royal », proche du pharaon Djedkarê Isési.</p>
+    <p>La posture est celle du marcheur éternel, la jambe gauche avancée, symbolisant la vie et le mouvement vers l'au-delà. L'homme tient un long bâton de marche dans la main gauche, insigne classique de commandement et de sagesse, tandis que son bras droit est sagement placé le long du corps. Il est vêtu d'un pagne court, dont les traces de peinture jaune et blanche subsistent, rappelant l'éclat originel des pigments qui recouvraient toute la surface de la statue.</p>
+    <p>Aujourd'hui conservée au Musée égyptien du Caire (parfois prêtée au Musée Imhotep de Saqqarah), cette œuvre complète les célèbres reliefs de sa chapelle funéraire, dont une partie est au Louvre. Elle servait de réceptacle au ka du défunt, lui permettant de traverser les âges et de continuer à percevoir les offrandes rituelles déposées par ses descendants. Sa préservation exceptionnelle nous offre un regard direct sur l'élite administrative qui a bâti la bureaucratie de l'âge des pyramides.</p>
+    <p><strong>Siècle :</strong> XXVe siècle av. J.-C. (-2500) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+   {
     id: "funeraire_sarcophage_chat_bois_stuque_bubasteion_saqqarah",
     civId: "egypte",
     periodId: "egypte_tardive",
