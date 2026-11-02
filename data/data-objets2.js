@@ -4,6 +4,82 @@
 window.ART_OBJECTS = [
   
    {
+    id: "sculpture_bas_relief_pleureuses_tombe_horemheb_saqqara_louvre",
+    civId: "egypte",
+    periodId: "egypte_nouvel",
+    civName: "Égypte : Nouvel Empire",
+    century: "Fin de la XVIIIe dynastie (vers -1320 av. J.-C. / règne de Toutânkhamon)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1320,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Le cortège funéraire et le groupe des pleureuses en désespoir (Tombe civile d'Horemheb à Saqqara, Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Tombe civile d'Horemheb (Saqqara)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes, E 14241)",
+    category: "Bas-relief en calcaire",
+    isHighlight: true,
+    chips: ["XVIIIe dynastie", "Horemheb", "Pleureuses", "Saqqara", "Calcaire", "Héritage amarnien", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/d/11hLJFFN1McLmLPGw1pf73r-LVI6VfhMp",
+    imgSrc: "https://photos.fife.usercontent.google.com/pw/AP1GczNLooKu7umE5733wgjU4x4NMMegx3BS4KiqCS0KVOrR5iEXzcBmgEpcfw=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce relief mural en calcaire, issu de la tombe d'Horemheb à Saqqara, est un témoignage poignant de l'art de la fin de la XVIIIe dynastie. Horemheb, avant de devenir pharaon, était le général en chef des armées sous Toutânkhamon. Sa tombe civile est célèbre pour la qualité exceptionnelle de ses reliefs, qui rompent avec la rigidité traditionnelle pour adopter une expressivité et un mouvement hérités de l'époque amarnienne.</p>
+    <p>La scène représentée ici illustre le groupe des pleureuses lors des funérailles. Le mouvement est d'une intensité rare : les femmes, vêtues de longues tuniques de lin fin dont on devine la transparence, lèvent les bras au ciel dans des gestes de désespoir, se versent de la poussière sur la tête ou s'effondrent au sol. La superposition des corps et la variété des inclinaisons de tête créent une dynamique de groupe organique, presque sonore, où l'on semble entendre les cris et les lamentations rituelles.</p>
+    <p>La finesse de la gravure permet de distinguer les détails des perruques et les traits des visages, marqués par la douleur. Sous le registre principal, on aperçoit des figures plus petites, probablement des membres de la famille ou des serviteurs, prostrés devant l'entrée de la tombe symbolisée par une porte monumentale. Ce relief ne se contente pas de documenter un rite funéraire ; il capture l'émotion humaine brute, magnifiée par la maîtrise technique des artistes de Memphis qui ont su insuffler une vie frémissante à la pierre.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1320) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "parures_broche_horus_faucon_pschent_or_repousse_musee_nubie",
+    civId: "egypte",
+    periodId: "egypte_tardive",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "Basse Époque à Époque ptolémaïque (vers -700 à -100 av. J.-C.)",
+    centuryDisplay: "VIIe – Ier s. av. J.-C.",
+    centuryNumeric: -400,
+    domain: "parures_metaux",
+    artifactType: "Parure en or / Argent / Bronze",
+    title: "Broche votive ajourée figurant le faucon Horus au Pschent sur le signe Neb en or repoussé (Musée de la Nubie, Assouan)",
+    site: "Musée de la Nubie (Assouan)",
+    originSite: "Basse-Nubie ou Haute-Égypte (Assouan)",
+    locationType: "museum",
+    currentLocation: "Musée de la Nubie, Assouan",
+    category: "Orfèvrerie en or repoussé et ciselé",
+    isHighlight: false,
+    chips: ["Basse Époque", "Horus faucon", "Pschent", "Orfèvrerie", "Or repoussé", "Signe Neb", "Musée de la Nubie"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczM2HgqZTgsHTq0go2zcd9rhuHFgZjLWCFgCV7ifgdZO4M7auEqL2AxmWIaXl7N6O7-il_7mw6aPQdv8aadBIIUWfxBgE3waieGP5lrIXSD3C5N9sk1DekEEz-jwe7ZE6TeXBW6mUoGFQ6gZWByKi3UTGA=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette broche décorative en or, conservée au musée de la Nubie à Assouan, représente le dieu Horus sous sa forme de faucon, coiffé du Pschent, la double couronne de l'Égypte unifiée. Cette pièce d'orfèvrerie illustre la persistance et le raffinement des symboles pharaoniques dans la région de la Nubie, un territoire stratégique situé aux confins méridionaux de l'Égypte, où les influences culturelles et religieuses se sont mutuellement enrichies pendant des millénaires.</p>
+    <p>Le faucon est figuré de profil, debout sur une ligne de sol qui pourrait également être interprétée comme le signe hiéroglyphique « neb » signifiant le seigneur ou le tout. La tête du rapace est surmontée de la double couronne, combinant la couronne blanche de la Haute-Égypte (le Hedjet) et la couronne rouge de la Basse-Égypte (le Deshret). Ce puissant symbole politique et divin affirme la souveraineté d'Horus, et par extension celle du pharaon, sur l'intégralité de la vallée du Nil, de la Méditerranée jusqu'aux cataractes d'Assouan.</p>
+    <p>La technique utilisée pour cette broche met en valeur la malléabilité et l'éclat de l'or. Le travail de repoussé et de ciselure permet de rendre avec précision les détails anatomiques du rapace, notamment le bec crochu caractéristique, l'œil perçant entouré du fard protecteur et le plumage stylisé des ailes. La silhouette est nette et équilibrée, témoignant d'une esthétique qui privilégie la clarté des formes et la force du symbole. L'or, considéré par les Égyptiens comme la « chair des dieux », confère à cet objet une dimension sacrée et une inaltérabilité synonyme d'éternité.</p>
+    <p>Exposée au musée nubien, cette broche rappelle l'importance de la Nubie comme source principale d'approvisionnement en or pour les pharaons, mais aussi comme centre de création artistique autonome. Elle témoigne de la dévotion particulière portée à Horus dans cette région, notamment à travers les grands temples comme celui d'Edfou ou de Philae. Cet objet, à la fois parure de luxe et talisman protecteur, demeure un lien précieux entre l'art de la joaillerie et la théologie royale, illustrant la splendeur durable des civilisations du Nil.</p>
+    <p><strong>Siècle :</strong> VIIe – Ier siècle av. J.-C. (vers -400) | <strong>Civilisation :</strong> Égypte antique & Nubie (Basse Époque / Époque lagide) | <strong>Sous-partie :</strong> Parures & Métaux.</p>`
+  },
+  {
+    id: "vie_quotidienne_cuilleres_a_fard_lotus_nageuse_bois_louvre",
+    civId: "egypte",
+    periodId: "egypte_nouvel",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1400 av. J.-C. / règnes d'Amenhotep II – Thoutmosis IV)",
+    centuryDisplay: "XVe – XIVe s. av. J.-C.",
+    centuryNumeric: -1400,
+    domain: "vie_quotidienne",
+    artifactType: "Cosmétique, Toilette & Beauté",
+    title: "Paire de cuillères à fard en bois sculpté : Bouquet de lotus et jeune femme aux papyrus (Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Thèbes ou Haute-Égypte",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes)",
+    category: "Objets de toilette et de cosmétique en bois sculpté",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Cuillère à fard", "Toilette", "Lotus", "Jeune femme", "Bois sculpté", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/d/11hLJFFN1McLmLPGw1pf73r-LVI6VfhMp",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNMG3TqgxHuL-_yeWI8AB-7C2fiFaiOVPVckaMBvvJEOcSNWVPjo4uyq5PVpT5R1qlcokCiqSM9D4fPHz0K7rOaqX-S_bxLwcJ1EGVGjJMu12i6WzIGZqXCh1ISdmv43Ks5Iv_9IjNB5YWG2BGWRzZSJQ=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ces cuillères à fard en bois sculpté sont des chefs-d'œuvre de l'artisanat de luxe du début de la XVIIIe dynastie. Objets de toilette raffinés, elles servaient à prélever et à mélanger les onguents, fards ou huiles parfumées utilisés par les dames de la haute société thébaine. À cette époque, l'art mobilier égyptien atteint un sommet d'élégance, transformant des ustensiles fonctionnels en véritables sculptures miniatures où le symbolisme religieux et le naturalisme se côtoient harmonieusement.</p>
+    <p>La cuillère de gauche présente une structure architecturée et végétale. Le manche est constitué d'un bouquet de tiges de lotus liées par un ruban à la base. Les fleurs s'épanouissent de part et d'autre d'une tige centrale qui supporte le cuilleron rectangulaire. Ce dernier est orné à sa base de motifs de pétales, suggérant que le récipient lui-même émerge du cœur de la fleur. Le lotus, se refermant la nuit pour s'ouvrir au matin, était pour les Égyptiens le symbole par excellence de la renaissance et de la régénération quotidienne, un thème particulièrement approprié pour des objets liés à la beauté et aux soins du corps.</p>
+    <p>La cuillère de droite, plus complexe et figurative, représente une jeune femme nue, probablement une servante ou une musicienne, dont le corps forme le manche de l'ustensile. Elle porte une perruque volumineuse et tient de ses mains les tiges de deux grands bouquets de fleurs de papyrus qui s'élèvent pour soutenir le cuilleron ovale. La finesse des détails, comme la cambrure du dos, le modelé du ventre et la précision des parures, témoigne d'une grande liberté artistique. Cette iconographie féminine, associée aux fleurs, évoque les concepts de jeunesse éternelle et de vitalité, plaçant le geste quotidien du maquillage sous l'auspice du renouveau vital.</p>
+    <p><strong>Siècle :</strong> XVe – XIVe siècle av. J.-C. (-1400) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Vie quotidienne & Sciences.</p>`
+  },
+   {
     id: "sculpture_statuette_imhotep_assis_papyrus_bronze_le_mans",
     civId: "egypte",
     periodId: "egypte_tardive",
