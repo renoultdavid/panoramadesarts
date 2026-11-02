@@ -1088,7 +1088,27 @@ function populateModalData(art) {
     modalDeptBannerImg.src = "https://lh3.googleusercontent.com/d/1564-Uow3YDKT2Bu7pkKvjlUbMhoJYue_";
   }
 
-  modalCategoryBadge.textContent = art.category || 'ŒUVRE D\'ART';
+  const badgeLabel = art.artifactType || art.category || 'ŒUVRE D\'ART';
+  const lexEntry = (typeof getTypologyLexiconEntry === 'function')
+    ? (getTypologyLexiconEntry(art.artifactType) || getTypologyLexiconEntry(art.category))
+    : null;
+
+  if (lexEntry) {
+    modalCategoryBadge.innerHTML = `${escapeHtmlAttr(badgeLabel)} <span class="lex-badge-i" aria-hidden="true">ⓘ</span>`;
+    modalCategoryBadge.classList.add('has-lexicon-tip');
+    modalCategoryBadge.dataset.lexTitle = lexEntry.title || badgeLabel;
+    modalCategoryBadge.dataset.lexEtym = lexEntry.etymology || '';
+    modalCategoryBadge.dataset.lexDomain = lexEntry.domain || lexEntry.category || 'TYPOLOGIE';
+    modalCategoryBadge.dataset.lexDef = lexEntry.def || '';
+  } else {
+    modalCategoryBadge.textContent = badgeLabel;
+    modalCategoryBadge.classList.remove('has-lexicon-tip');
+    delete modalCategoryBadge.dataset.lexTitle;
+    delete modalCategoryBadge.dataset.lexEtym;
+    delete modalCategoryBadge.dataset.lexDomain;
+    delete modalCategoryBadge.dataset.lexDef;
+  }
+
   if (art.isAmarna) {
     modalCategoryBadge.classList.add('badge-amarna');
   } else {
@@ -1133,7 +1153,10 @@ function populateModalData(art) {
     modalChips.appendChild(btnFocus);
   }
 
-  modalNarrative.innerHTML = art.narrative || '';
+  const rawNarrative = art.narrative || '';
+  modalNarrative.innerHTML = (typeof enrichHTMLWithGlossary === 'function')
+    ? enrichHTMLWithGlossary(rawNarrative)
+    : rawNarrative;
 
 }
 
@@ -1895,7 +1918,12 @@ function initSearchEngine() {
             }
           }
 
-          if (artistHeroBio) artistHeroBio.innerHTML = artistRecord.bio || '';
+          if (artistHeroBio) {
+            const rawBio = artistRecord.bio || '';
+            artistHeroBio.innerHTML = (typeof enrichHTMLWithGlossary === 'function')
+              ? enrichHTMLWithGlossary(rawBio)
+              : rawBio;
+          }
           artistHero.hidden = false;
         }
 
@@ -2098,6 +2126,18 @@ function createGalleryCardElement(art, modalList) {
 
   const hasFocus = art.hotspots && art.hotspots.length > 0;
   const badgeDate = formatCardBadgeDate(art);
+  const tagText = art.artifactType || art.category || 'ART';
+  const lexEntry = (typeof getTypologyLexiconEntry === 'function')
+    ? (getTypologyLexiconEntry(art.artifactType) || getTypologyLexiconEntry(art.category))
+    : null;
+
+  const tagMarkup = lexEntry
+    ? `<span class="gallery-card-tag has-lexicon-tip"
+         data-lex-title="${escapeHtmlAttr(lexEntry.title || tagText)}"
+         data-lex-etym="${escapeHtmlAttr(lexEntry.etymology || '')}"
+         data-lex-domain="${escapeHtmlAttr(lexEntry.domain || lexEntry.category || 'TYPOLOGIE')}"
+         data-lex-def="${escapeHtmlAttr(lexEntry.def || '')}">${escapeHtmlAttr(tagText)} <span class="lex-badge-i" aria-hidden="true">ⓘ</span></span>`
+    : `<span class="gallery-card-tag">${escapeHtmlAttr(tagText)}</span>`;
 
   card.innerHTML = `
     <div class="gallery-card-pedestal" style="position: relative;">
@@ -2114,7 +2154,7 @@ function createGalleryCardElement(art, modalList) {
     </div>
     <div class="gallery-card-body">
       <div class="gallery-card-meta-top">
-        <span class="gallery-card-tag">${art.artifactType || art.category || 'ART'}</span>
+        ${tagMarkup}
         <span class="gallery-card-civ">${art.artist || art.civName || ''}</span>
       </div>
       <div class="gallery-card-title">${art.title}</div>
@@ -2122,7 +2162,11 @@ function createGalleryCardElement(art, modalList) {
     </div>
   `;
 
-  card.addEventListener('click', () => {
+  card.addEventListener('click', (e) => {
+    // Si l'utilisateur clique spécifiquement sur la pastille ⓘ sur tactile, ne pas ouvrir la modale
+    if (e.target && e.target.closest('.lex-badge-i')) {
+      return;
+    }
     openCuratorModal(art, modalList);
   });
 
@@ -2152,6 +2196,10 @@ function renderSearchGallery() {
   const selectedDomain = filterDomain ? filterDomain.value : 'all';
   const selectedType = filterType ? filterType.value : 'all';
   const query = filterText ? filterText.value.toLowerCase().trim() : '';
+
+  if (typeof updateActiveTypeLexiconBanner === 'function') {
+    updateActiveTypeLexiconBanner(selectedType);
+  }
 
   // On récupère l'état actif directement depuis le bouton HTML
   const btnFilterFocusEl = document.getElementById('btn-filter-focus-only');
@@ -2645,4 +2693,350 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     }
   });
+
+  initGlossaryPopoverSystem();
 });
+
+/* ==========================================================================
+   MOTEUR DE LEXIQUE SCIENTIFIQUE & BULLES EXPLICATIVES (JARGON / TYPOLOGIES)
+   ========================================================================== */
+
+function escapeHtmlAttr(str) {
+  return String(str || '')
+    .replace(/&/g, '&amp;')
+    .replace(/"/g, '&quot;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;');
+}
+
+// Recherche la définition associée à une sous-catégorie / typologie
+function getTypologyLexiconEntry(rawType) {
+  if (!rawType) return null;
+  const clean = String(rawType).trim();
+  const dict = window.ART_TYPOLOGY_DEFINITIONS || {};
+
+  if (dict[clean]) return dict[clean];
+
+  const normTarget = normalizeSearchStr(clean);
+  for (const [key, val] of Object.entries(dict)) {
+    if (normalizeSearchStr(key) === normTarget) return val;
+  }
+
+  // Fallback : cherche dans window.ART_GLOSSARY si un terme correspond
+  const glossary = window.ART_GLOSSARY || [];
+  for (const item of glossary) {
+    if (normalizeSearchStr(item.term) === normTarget) {
+      return {
+        title: item.term,
+        etymology: item.etymology || '',
+        domain: item.category || 'Lexique',
+        def: item.def
+      };
+    }
+    if (item.patterns && item.patterns.some(p => normTarget.includes(normalizeSearchStr(p)))) {
+      return {
+        title: item.term,
+        etymology: item.etymology || '',
+        domain: item.category || 'Lexique',
+        def: item.def
+      };
+    }
+  }
+  return null;
+}
+
+// Met à jour le bandeau explicatif sous les filtres lorsqu'une Forme / Typologie est sélectionnée
+function updateActiveTypeLexiconBanner(selectedType) {
+  const banner = document.getElementById('active-type-lexicon-banner');
+  if (!banner) return;
+
+  if (!selectedType || selectedType === 'all') {
+    banner.hidden = true;
+    return;
+  }
+
+  const entry = getTypologyLexiconEntry(selectedType);
+  if (!entry) {
+    banner.hidden = true;
+    return;
+  }
+
+  const titleEl = document.getElementById('lexicon-banner-title');
+  const etymEl = document.getElementById('lexicon-banner-etym');
+  const domainEl = document.getElementById('lexicon-banner-domain');
+  const defEl = document.getElementById('lexicon-banner-def');
+
+  if (titleEl) titleEl.textContent = entry.title || selectedType;
+  if (etymEl) {
+    etymEl.textContent = entry.etymology ? `(${entry.etymology})` : '';
+    etymEl.hidden = !entry.etymology;
+  }
+  if (domainEl) {
+    domainEl.textContent = entry.domain || '';
+    domainEl.hidden = !entry.domain;
+  }
+  if (defEl) defEl.textContent = entry.def || '';
+
+  banner.hidden = false;
+}
+
+// Convertit un motif en expression régulière tolérante aux accents français
+function patternToAccentRegexStr(pat) {
+  const norm = String(pat || '')
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+    .trim();
+
+  let out = '';
+  for (let i = 0; i < norm.length; i++) {
+    if (norm.slice(i, i + 2) === 'oe') {
+      out += '(?:oe|œ)';
+      i++;
+      continue;
+    }
+    if (norm.slice(i, i + 2) === 'ae') {
+      out += '(?:ae|æ)';
+      i++;
+      continue;
+    }
+    const ch = norm[i];
+    if (ch === 'a') out += '[aàâä]';
+    else if (ch === 'e') out += '[eéèêë]';
+    else if (ch === 'i') out += '[iîï]';
+    else if (ch === 'o') out += '[oôö]';
+    else if (ch === 'u') out += '[uùûü]';
+    else if (ch === 'c') out += '[cç]';
+    else if (ch === ' ' || ch === '-') out += '[\\s\\-]+';
+    else out += ch.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  }
+  return out;
+}
+
+let compiledGlossaryEntries = null;
+
+function getCompiledGlossary() {
+  if (compiledGlossaryEntries) return compiledGlossaryEntries;
+  const rawList = window.ART_GLOSSARY || [];
+  compiledGlossaryEntries = rawList.map((entry, idx) => {
+    const pats = (entry.patterns && entry.patterns.length > 0) ? entry.patterns : [entry.term];
+    // Trier les motifs du plus long au plus court
+    const sortedPats = [...pats].sort((a, b) => b.length - a.length);
+    const regexAlts = sortedPats.map(patternToAccentRegexStr).join('|');
+    const regex = new RegExp(`(?<![a-zA-ZÀ-ÿœŒæÆ])(${regexAlts})(?![a-zA-ZÀ-ÿœŒæÆ])`, 'i');
+    return {
+      idx,
+      term: entry.term,
+      etymology: entry.etymology || '',
+      category: entry.category || 'Lexique',
+      def: entry.def || '',
+      regex
+    };
+  });
+  return compiledGlossaryEntries;
+}
+
+// Enrichit automatiquement la première occurrence de chaque terme technique dans un bloc HTML
+function enrichHTMLWithGlossary(htmlString) {
+  if (!htmlString) return '';
+  const entries = getCompiledGlossary();
+  if (!entries || entries.length === 0) return htmlString;
+
+  const tpl = document.createElement('template');
+  tpl.innerHTML = htmlString;
+
+  const matchedIndices = new Set();
+
+  function walkNodes(node) {
+    if (node.nodeType === Node.TEXT_NODE) {
+      const text = node.nodeValue;
+      if (!text || text.trim().length < 3) return;
+
+      for (const item of entries) {
+        if (matchedIndices.has(item.idx)) continue;
+        const m = item.regex.exec(text);
+        if (m) {
+          matchedIndices.add(item.idx);
+          const beforeText = text.slice(0, m.index);
+          const matchedWord = m[1];
+          const afterText = text.slice(m.index + matchedWord.length);
+
+          const frag = document.createDocumentFragment();
+          if (beforeText) {
+            const beforeNode = document.createTextNode(beforeText);
+            frag.appendChild(beforeNode);
+          }
+
+          const span = document.createElement('span');
+          span.className = 'glossary-inline-term has-lexicon-tip';
+          span.tabIndex = 0;
+          span.dataset.lexTitle = item.term;
+          span.dataset.lexEtym = item.etymology;
+          span.dataset.lexDomain = item.category;
+          span.dataset.lexDef = item.def;
+          span.textContent = matchedWord;
+          frag.appendChild(span);
+
+          const afterNode = document.createTextNode(afterText);
+          frag.appendChild(afterNode);
+
+          node.parentNode.replaceChild(frag, node);
+          // Continuer l'analyse sur les fragments restants
+          if (afterText.trim().length >= 3) {
+            walkNodes(afterNode);
+          }
+          return;
+        }
+      }
+      return;
+    }
+
+    if (node.nodeType === Node.ELEMENT_NODE) {
+      const tag = node.tagName.toLowerCase();
+      // Ne pas injecter dans les balises déjà interactives ou les titres forts de bas de fiche
+      if (tag === 'script' || tag === 'style' || tag === 'a' || tag === 'button' || node.classList.contains('has-lexicon-tip')) {
+        return;
+      }
+      const children = Array.from(node.childNodes);
+      for (const child of children) {
+        walkNodes(child);
+      }
+    }
+  }
+
+  const rootChildren = Array.from(tpl.content.childNodes);
+  for (const child of rootChildren) {
+    walkNodes(child);
+  }
+
+  return tpl.innerHTML;
+}
+
+// Gestionnaire de la bulle flottante (Popover) au survol et au clic/toucher
+function initGlossaryPopoverSystem() {
+  const popover = document.getElementById('glossary-popover');
+  if (!popover) return;
+
+  const domainEl = document.getElementById('glossary-popover-domain');
+  const titleEl = document.getElementById('glossary-popover-title');
+  const etymEl = document.getElementById('glossary-popover-etym');
+  const defEl = document.getElementById('glossary-popover-def');
+  const closeBtn = document.getElementById('glossary-popover-close');
+
+  let activeTrigger = null;
+  let hideTimer = null;
+
+  function showPopoverForTrigger(triggerEl) {
+    if (!triggerEl) return;
+    clearTimeout(hideTimer);
+    activeTrigger = triggerEl;
+
+    const title = triggerEl.dataset.lexTitle || '';
+    const etym = triggerEl.dataset.lexEtym || '';
+    const domain = triggerEl.dataset.lexDomain || 'LEXIQUE D\'EXPERT';
+    const def = triggerEl.dataset.lexDef || '';
+
+    if (!def) return;
+
+    if (domainEl) domainEl.textContent = domain;
+    if (titleEl) titleEl.textContent = title;
+    if (etymEl) {
+      etymEl.textContent = etym;
+      etymEl.hidden = !etym;
+    }
+    if (defEl) defEl.textContent = def;
+
+    popover.hidden = false;
+    popover.classList.add('is-visible');
+
+    // Positionnement intelligent au-dessus (ou en dessous si trop près du haut de l'écran)
+    const rect = triggerEl.getBoundingClientRect();
+    const popRect = popover.getBoundingClientRect();
+    const margin = 12;
+
+    let top = rect.top - popRect.height - 10;
+    let placedBelow = false;
+    if (top < margin) {
+      top = rect.bottom + 10;
+      placedBelow = true;
+    }
+    if (top + popRect.height > window.innerHeight - margin) {
+      top = Math.max(margin, window.innerHeight - popRect.height - margin);
+    }
+
+    let left = rect.left + (rect.width / 2) - (popRect.width / 2);
+    if (left < margin) left = margin;
+    if (left + popRect.width > window.innerWidth - margin) {
+      left = Math.max(margin, window.innerWidth - popRect.width - margin);
+    }
+
+    popover.style.top = `${Math.round(top)}px`;
+    popover.style.left = `${Math.round(left)}px`;
+    popover.classList.toggle('is-below', placedBelow);
+  }
+
+  function scheduleHidePopover(delay = 140) {
+    clearTimeout(hideTimer);
+    hideTimer = setTimeout(() => {
+      popover.classList.remove('is-visible');
+      popover.hidden = true;
+      activeTrigger = null;
+    }, delay);
+  }
+
+  // Survol souris sur bureau
+  document.addEventListener('mouseover', (e) => {
+    const trigger = e.target.closest('.has-lexicon-tip');
+    if (trigger) {
+      showPopoverForTrigger(trigger);
+    } else if (e.target.closest('#glossary-popover')) {
+      clearTimeout(hideTimer);
+    }
+  });
+
+  document.addEventListener('mouseout', (e) => {
+    const trigger = e.target.closest('.has-lexicon-tip');
+    const inPop = e.target.closest('#glossary-popover');
+    if (trigger || inPop) {
+      const related = e.relatedTarget;
+      if (related && (related.closest('.has-lexicon-tip') === activeTrigger || related.closest('#glossary-popover'))) {
+        return;
+      }
+      scheduleHidePopover(160);
+    }
+  });
+
+  // Clic / Toucher (mobile, tablette & accessibilité clavier)
+  document.addEventListener('click', (e) => {
+    const badgeIcon = e.target.closest('.lex-badge-i');
+    const inlineTerm = e.target.closest('.glossary-inline-term');
+    const modalBadge = e.target.closest('#modal-category-badge.has-lexicon-tip');
+
+    const trigger = (badgeIcon && badgeIcon.closest('.has-lexicon-tip')) || inlineTerm || modalBadge;
+    if (trigger) {
+      e.stopPropagation();
+      if (activeTrigger === trigger && !popover.hidden) {
+        scheduleHidePopover(0);
+      } else {
+        showPopoverForTrigger(trigger);
+      }
+      return;
+    }
+
+    if (!e.target.closest('#glossary-popover') && !popover.hidden) {
+      scheduleHidePopover(0);
+    }
+  });
+
+  if (closeBtn) {
+    closeBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      scheduleHidePopover(0);
+    });
+  }
+
+  // Masquer lors du défilement pour éviter un décalage visuel
+  window.addEventListener('scroll', () => {
+    if (!popover.hidden) scheduleHidePopover(0);
+  }, { passive: true, capture: true });
+}

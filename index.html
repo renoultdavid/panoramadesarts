@@ -194,6 +194,19 @@
           <button id="btn-collapse-filters" class="btn-collapse-filters" type="button" title="Replier le panneau de filtres">▲ Replier</button>
         </div>
       </div>
+
+      <!-- Bandeau explicatif dynamique de la sous-catégorie / typologie sélectionnée -->
+      <div id="active-type-lexicon-banner" class="active-type-lexicon-banner" hidden>
+        <div class="lexicon-banner-icon">📖</div>
+        <div class="lexicon-banner-body">
+          <div class="lexicon-banner-head">
+            <strong id="lexicon-banner-title" class="lexicon-banner-title"></strong>
+            <span id="lexicon-banner-etym" class="lexicon-banner-etym"></span>
+            <span id="lexicon-banner-domain" class="lexicon-banner-domain"></span>
+          </div>
+          <p id="lexicon-banner-def" class="lexicon-banner-def"></p>
+        </div>
+      </div>
     </div>
 
     <!-- Bandeau compact épinglé lors du défilement (Affiche le nom du peintre + dates ou le compteur) -->
@@ -533,7 +546,19 @@
     </div>
   </div>
 
+  <!-- MINI POP-UP / INFO-BULLE DU LEXIQUE SCIENTIFIQUE & TYPOLOGIQUE -->
+  <div id="glossary-popover" class="glossary-popover" role="tooltip" hidden>
+    <div class="glossary-popover-header">
+      <span class="glossary-popover-domain" id="glossary-popover-domain">LEXIQUE D'EXPERT</span>
+      <button type="button" class="glossary-popover-close" id="glossary-popover-close" aria-label="Fermer la définition">✕</button>
+    </div>
+    <div class="glossary-popover-title" id="glossary-popover-title">Terme</div>
+    <div class="glossary-popover-etym" id="glossary-popover-etym"></div>
+    <div class="glossary-popover-def" id="glossary-popover-def"></div>
+  </div>
+
   <!-- CHARGEMENT DES DONNÉES AU KILOMÈTRE -->
+  <script src="data/data-lexique.js"></script>
   <script src="data/data-artistes.js"></script>
   <script src="data/data-objets.js"></script>
   <script src="data/data-objets2.js"></script>
