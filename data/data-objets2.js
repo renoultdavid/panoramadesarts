@@ -4,6 +4,82 @@
 window.ART_OBJECTS = [
   
    {
+    id: "sculpture_princesse_takushit_bronze_damasquine_argent_athenes",
+    civId: "egypte",
+    periodId: "egypte_tardive",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "XXVe dynastie (vers -670 av. J.-C. / époque koushite tardive)",
+    centuryDisplay: "VIIe s. av. J.-C.",
+    centuryNumeric: -670,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire royale & divine (ronde-bosse)",
+    title: "Statuette marchante de la princesse Takushit en bronze damasquiné d'argent (Musée national archéologique d'Athènes)",
+    site: "Musée national archéologique d'Athènes",
+    originSite: "Basse-Égypte (Delta du Nil)",
+    locationType: "museum",
+    currentLocation: "Musée national archéologique d'Athènes (Collection égyptienne, inv. 110)",
+    category: "Ronde-bosse en alliage cuivreux damasquiné d'argent",
+    isHighlight: true,
+    chips: ["XXVe dynastie", "Princesse Takushit", "Athènes", "Bronze damasquiné", "Incrustations d'argent", "Panthéon divin", "Koushite"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNYKvFvJeHW-vVJmaQLnIDKFPvZOk-IOD0npkNryrd-OPuQL48IVt8gvIsMnhr_48rS9yk-R_hXAYlpnZZN5mFzTT38xEVzXxMw3gGNJyN7vr59If2mAXQtUYqGLTGde63JPD9UbYU6TbcygUXWCeScpQ=w613-h919-s-no-gm?authuser=0",
+    narrative: `<p>La statuette de la princesse Takushit, pièce maîtresse de la collection égyptienne du Musée national archéologique d'Athènes, est un chef-d'œuvre de la métallurgie de la Troisième Période intermédiaire. Datée d'environ 670 avant J.-C., elle appartient à la XXVème dynastie, dite dynastie nubienne ou koushite, bien que son style reflète la transition vers l'époque saïte. Cette œuvre en alliage cuivreux, probablement réalisée selon la technique de la cire perdue, représente une dame de la haute noblesse, fille d'un chef libyen et liée au clergé d'Amon. Sa posture, avançant la jambe gauche dans une attitude de marche figée mais élégante, respecte les canons traditionnels de la statuaire égyptienne tout en affichant une souplesse et un modelé du corps particulièrement raffinés.</p>
+    <p>Le caractère exceptionnel de cette sculpture réside dans son décor incrusté de fils d'argent, une technique d'orfèvrerie appelée damasquinure. La robe moulante de la princesse est entièrement recouverte de motifs hiéroglyphiques et de figures divines qui semblent tatoués sur sa peau ou brodés sur le tissu. Ces inscriptions ne sont pas de simples ornements ; elles constituent une cartographie sacrée invoquant la protection de nombreuses divinités égyptiennes, garantissant ainsi à Takushit une place privilégiée dans l'au-delà. On y reconnaît des représentations de dieux tels qu'Osiris, Isis et Horus, ainsi que des symboles de fertilité et de renaissance, transformant le corps même de la princesse en un réceptacle de la piété religieuse de son temps.</p>
+    <p>La présence de cette statue à Athènes témoigne de la richesse et de l'ancienneté des échanges entre l'Égypte et le monde grec, bien avant les conquêtes d'Alexandre le Grand. Elle fut offerte au musée à la fin du XIXème siècle par Ioannis Dimitriou, un grand collectionneur grec installé à Alexandrie, dont le mécénat a permis de constituer l'un des fonds égyptiens les plus importants d'Europe hors des grandes capitales coloniales. La statue de Takushit illustre parfaitement ce lien historique : elle est le vestige d'une époque où l'Égypte, bien que politiquement instable, rayonnait encore par son prestige culturel et technique, fascinant déjà les voyageurs et marchands grecs qui commençaient à s'installer dans le delta du Nil.</p>
+    <p>Sur le plan stylistique, la princesse porte une perruque courte et arrondie, typique de la mode de la XXVème dynastie, qui encadre un visage aux traits doux et aux yeux autrefois incrustés. La finesse des détails, comme les bracelets aux poignets ou la précision des traits des divinités sur sa robe, révèle le haut degré de spécialisation des ateliers de bronziers de Basse-Égypte. Cette œuvre d'art est aujourd'hui considérée comme l'un des exemples les plus aboutis de la statuaire féminine en bronze de l'Antiquité, marquant l'apogée d'un savoir-faire qui influencera indirectement les prémices de la grande sculpture grecque archaïque.</p>
+    <p><strong>Siècle :</strong> VIIe siècle av. J.-C. (-670) | <strong>Civilisation :</strong> Égypte antique (XXVe dynastie koushite / Basse Époque) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_groupe_taharqa_offrant_vases_dieu_faucon_hemen_louvre",
+    civId: "egypte",
+    periodId: "egypte_tardive",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "XXVe dynastie (vers -680 av. J.-C. / règne de Taharqa)",
+    centuryDisplay: "VIIe s. av. J.-C.",
+    centuryNumeric: -680,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire royale & divine (ronde-bosse)",
+    title: "Le roi Taharqa agenouillé offrant le vin au dieu faucon Hémen en bronze et bois doré (Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Héfat (el-Moalla, Haute-Égypte)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes, E 25276)",
+    category: "Groupe statuaire en bronze, bois doré et feuille d'argent",
+    isHighlight: true,
+    chips: ["XXVe dynastie", "Taharqa", "Dieu Hémen", "Faucon d'or", "Bronze", "Feuille d'or et d'argent", "Double uræus", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOlXN8HwInJ8oiqWYsJ5BRij7nEo6m_Wpnm6I-Hmi4uZKQcO-J4MebEdIEbOk2u9HNk4_ft3v8hlu8TXVD-uM2hgPbtxGk_Q8ZURk--puFI89j9DUnkM1-M2LQ8_7cCsmd66QGM8boedOFAukclXm5hWw=w1221-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce groupe statuaire exceptionnel illustre une scène d'adoration royale majeure de la XXVe dynastie, où le pharaon Taharqa rend hommage au dieu Hémen, divinité tutélaire de la ville de Hefat (Moalla). L'œuvre se distingue par une polychromie métallique sophistiquée et une composition dynamique : le souverain est représenté à genoux, dans l'attitude humble de l'offrant, vêtu du pagne traditionnel chendjit. Il tend deux vases nou contenant du vin vers le dieu Hémen, figuré ici sous les traits d'un faucon majestueux posé sur un socle. La statuette du roi est réalisée en bronze sombre, tandis que le faucon est recouvert d'une feuille d'or, créant un contraste symbolique entre la mortalité du pharaon et la nature solaire et divine de la puissance qu'il invoque. Un cobra dressé complète l'iconographie protectrice sur le socle, lequel est plaqué d'argent, ajoutant une troisième valeur chromatique à l'ensemble.</p>
+    <p>L'aspect exhaustif de cette pièce réside dans les détails du costume royal et les attributs divins. Taharqa porte le serre-tête caractéristique des souverains koushites, orné du double uræus, symbole de sa domination sur les Deux Terres (Haute et Basse-Égypte). Le faucon Hémen présente une perforation au sommet du crâne, indiquant qu'il portait initialement une coiffe plus complexe, probablement la double couronne ou un disque solaire. La finesse des traits du visage du roi, avec ses lèvres charnues et ses pommettes marquées, est typique du portrait koushite, alliant la tradition égyptienne à un réalisme ethnique propre à la dynastie nubienne. Ce monument miniaturisé servait de substitut éternel au rite de l'offrande, assurant la bienveillance divine envers le souverain et la prospérité du royaume durant l'une des périodes les plus singulières de la Basse Époque.</p>
+    <p><strong>Siècle :</strong> VIIe siècle av. J.-C. (-680) | <strong>Civilisation :</strong> Égypte antique (XXVe dynastie koushite / Basse Époque) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_babouin_lunaire_thot_gres_musee_nubie_assouan",
+    civId: "egypte",
+    periodId: "egypte_tardive",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "XXVIe dynastie (vers -600 av. J.-C. / époque saïte)",
+    centuryDisplay: "VIe s. av. J.-C.",
+    centuryNumeric: -600,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire royale & divine (ronde-bosse)",
+    title: "Le babouin hamadryas lunaire, hypostase de Thot, en grès (Musée de la Nubie, Assouan)",
+    site: "Musée de la Nubie (Assouan)",
+    originSite: "Haute-Égypte ou Basse-Nubie",
+    locationType: "museum",
+    currentLocation: "Musée de la Nubie, Assouan",
+    category: "Ronde-bosse divine en grès",
+    isHighlight: false,
+    chips: ["XXVIe dynastie", "Thot", "Babouin lunaire", "Croissant et disque", "Musée de la Nubie", "Époque saïte", "Grès"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP5rThSfcaLkGm9lO6Ofss4oyR6rdzHtwJ3V2JuEtwc2G4-pVrM8003kBRkw01fOdKKNZ1KzWTc7W3yfAvXg3pKz65YXMn9QQVyn4xZDzJ98cY2OKXDOS963fA9i2nRoMcZYhgbZMiT5Zn7SCKBLVpwlQ=w613-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette statuette en grès, conservée au Musée de la Nubie à Assouan, représente le dieu Thot sous l'une de ses formes animales les plus emblématiques : le babouin hamadryas. L'animal est figuré dans une posture hiératique, assis sur ses membres postérieurs, les mains posées à plat sur les genoux, exprimant une dignité sereine propre aux divinités égyptiennes. Le travail de la pierre souligne la puissance de la poitrine et le volume de la crinière épaisse, caractéristique des mâles de cette espèce.</p>
+    <p>Sur le plan symbolique, le babouin est ici directement associé aux astres nocturnes. Il porte sur sa tête un disque lunaire plein reposant sur un croissant de lune, rappelant le rôle de Thot en tant que « Seigneur de la Lune » et régulateur du temps. Dans la mythologie, les babouins étaient observés par les Égyptiens criant au lever du soleil, un comportement interprété comme une adoration de l'astre solaire, faisant de Thot le lien indispensable entre les cycles du jour et de la nuit.</p>
+    <p>Thot n'est pas seulement le maître de la lune, il est aussi le patron des scribes, le dieu de l'écriture, du calcul et de la sagesse. En tant que greffier divin, il est celui qui consigne les jugements lors de la pesée du cœur dans l'au-delà. Cette statue, par son aspect compact et robuste, dégage une impression d'immuabilité et de savoir sacré, servant probablement d'objet de culte ou d'ex-voto dans un temple pour solliciter la protection et l'intelligence du dieu.</p>
+    <p>Le choix du grès et le style de la sculpture sont typiques des productions de la Basse Époque ou de l'époque ptolémaïque, périodes durant lesquelles le culte des animaux sacrés a connu un essor considérable en Égypte. La conservation de cette œuvre à Assouan témoigne de l'importance de Thot dans la région de la Nubie et de la Haute-Égypte, où il était souvent associé à la déesse lointaine Tefnout qu'il parvenait à apaiser et à ramener vers la vallée du Nil.</p>
+    <p><strong>Siècle :</strong> VIe siècle av. J.-C. (-600) | <strong>Civilisation :</strong> Égypte antique (Basse Époque / Époque saïte) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+   {
     id: "sculpture_reine_karomama_divine_adoratrice_bronze_damasquine_louvre",
     civId: "egypte",
     periodId: "egypte_tardive",
