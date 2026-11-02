@@ -4,6 +4,154 @@
 window.ART_OBJECTS = [
   
    {
+    id: "sculpture_statuette_assise_psammetique_calcaire_saqqarah",
+    civId: "egypte",
+    periodId: "egypte_tardive",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "XXVIe dynastie (vers -650 av. J.-C. / époque saïte)",
+    centuryDisplay: "VIIe s. av. J.-C.",
+    centuryNumeric: -650,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire royale & divine (ronde-bosse)",
+    title: "Statuette assise d'un dignitaire ou du roi Psammétique Ier en calcaire fin (Musée Imhotep, Saqqarah)",
+    site: "Musée Imhotep (Saqqarah)",
+    originSite: "Nécropole de Saqqarah",
+    locationType: "museum",
+    currentLocation: "Musée Imhotep, Saqqarah",
+    category: "Ronde-bosse en calcaire fin",
+    isHighlight: false,
+    chips: ["XXVIe dynastie", "Psammétique", "Saqqarah", "Sourire saïte", "Calcaire fin", "Musée Imhotep", "Renaissance saïte"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP_eL09Gi1PGZbxq-TAPLHvvbYQKxvC917fC3Q2ce0aom8OdvjA8gtqMDLJBiD0b6H_dlIp3A-teTgo1u6vxa1Wsg5p-gfmvtUPtAucDTLv3bVXfMDa2sU5IEFIQo5GFvKGAN64y4lo8Z7lbb_0jb4mCg=w613-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette statuette en calcaire fin, découverte à Saqqarah, représente un haut dignitaire ou le souverain lui-même durant la période de transition vers la XXVIe dynastie. L'œuvre illustre parfaitement le style saïte, caractérisé par une recherche de perfection formelle et un retour aux sources de l'Ancien Empire. Le personnage est représenté assis sur un siège à dossier bas, dans une attitude de dévotion sereine, les mains posées à plat sur les cuisses, traduisant une grande dignité et une autorité apaisée.</p>
+    <p>Le traitement du visage est d'une finesse remarquable, avec un léger sourire aux lèvres qui préfigure ce que les historiens de l'art appelleront plus tard le « sourire saïte ». La coiffe, une perruque lisse et évasée qui laisse les oreilles dégagées, est typique de cette époque de renaissance culturelle. Le corps, aux proportions harmonieuses et au modelé souple, témoigne d'une maîtrise technique exceptionnelle du calcaire, permettant de rendre la douceur de la peau et la structure musculaire de manière subtile.</p>
+    <p>Le socle et le pagne du personnage sont recouverts d'inscriptions hiéroglyphiques finement gravées. Ces textes sont essentiels car ils mentionnent les titres officiels, les généalogies et les formules d'offrandes, permettant d'ancrer le défunt dans l'éternité. La précision de la gravure, très régulière et profonde, est l'une des signatures des ateliers royaux de Memphis et de Saïs durant le VIIe siècle avant J.-C., une époque où l'Égypte retrouve une unité et une prospérité notables.</p>
+    <p>Cette statuette appartient à la XXVIe dynastie (époque saïte), aux alentours de 650 avant J.-C. Elle marque le début de la Basse Époque, une période où l'art égyptien puise dans son passé glorieux pour affirmer son identité face aux influences étrangères grandissantes. La conservation exceptionnelle de cette pièce permet d'apprécier la pureté du trait qui fait la renommée mondiale de la statuaire de cette dynastie.</p>
+    <p><strong>Siècle :</strong> VIIe siècle av. J.-C. (-650) | <strong>Civilisation :</strong> Égypte antique (XXVIe dynastie saïte / Basse Époque) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_sphinx_psammetique_ii_granit_theatre_romain_alexandrie",
+    civId: "egypte",
+    periodId: "egypte_tardive",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "XXVIe dynastie (vers -595 av. J.-C. / règne de Psammétique II)",
+    centuryDisplay: "VIe s. av. J.-C.",
+    centuryNumeric: -595,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire royale & divine (ronde-bosse)",
+    title: "Sphinx couché au némès de Psammétique II en granit (Théâtre romain de Kôm el-Dikka, Alexandrie)",
+    site: "Parc archéologique de Kôm el-Dikka / Musée National d'Alexandrie",
+    originSite: "Héliopolis ou Saïs (Delta du Nil)",
+    locationType: "site",
+    currentLocation: "In situ (Secteur du Théâtre romain, Alexandrie)",
+    category: "Statuaire royale en granit poli",
+    isHighlight: false,
+    chips: ["XXVIe dynastie", "Psammétique II", "Sphinx", "Granit", "Némès", "Alexandrie", "Renaissance saïte"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNwx-HArDkchxylBgy6SzKUCejUb2PuVWypgjNIIFKVwd7K_cLX__3OkN0-NcdJeh09aFJUkjoHS-ocpAjjmK2ZcNCJmHA9WGuA2dE9wlsEat808EZ_es6yekDvZHCWOWmcGVh7nQYUu8B6pUF-cpOSFA=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce sphinx en granit, daté du règne de Psammétique II (vers 595 avant J.-C.), est un exemple remarquable de la « Renaissance saïte ». Durant cette période, les sculpteurs égyptiens ont opéré un retour nostalgique vers les canons de l'Ancien Empire, tout en apportant une finesse de polissage et un modelé plus doux. Le monument représente le roi avec le corps d'un lion puissant, symbolisant la force souveraine et la vigilance, tout en conservant un visage aux traits sereins et légèrement idéalisés.</p>
+    <p>Le souverain porte le némès, la coiffe royale plissée, surmontée de l'uraeus, le cobra protecteur dont on voit encore bien la silhouette sur le front. Une particularité importante de ce sphinx réside dans les inscriptions hiéroglyphiques gravées sur la base et sur le torse, qui proclament les titres officiels du pharaon et assurent son lien privilégié avec les divinités du pays. Le traitement de la musculature du lion témoigne d'une grande maîtrise technique, propre aux ateliers royaux de la Basse Époque.</p>
+    <p>Cette œuvre appartient à la XXVIe dynastie, également appelée dynastie saïte, qui a marqué une période de renouveau culturel et politique pour l'Égypte avant les invasions perses. Bien qu'exposé dans le secteur du Théâtre romain et les jardins du Musée National d'Alexandrie, ce sphinx n'est pas originaire de la ville (qui n'existait pas encore sous Psammétique II), mais provient probablement d'un temple d'Héliopolis ou de Saïs, ayant été transporté à Alexandrie à l'époque ptolémaïque ou romaine pour décorer la nouvelle capitale.</p>
+    <p><strong>Siècle :</strong> VIe siècle av. J.-C. (-595) | <strong>Civilisation :</strong> Égypte antique (XXVIe dynastie saïte / Basse Époque) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_dieu_amon_assis_couronne_plumes_bronze_louvre",
+    civId: "egypte",
+    periodId: "egypte_tardive",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "Basse Époque (XXVIe – XXXe dynastie, vers -600 à -350 av. J.-C.)",
+    centuryDisplay: "VIe – IVe s. av. J.-C.",
+    centuryNumeric: -500,
+    domain: "sculpture_statuaire",
+    artifactType: "Figurine votive / Ex-voto",
+    title: "Statuette votive du dieu Amon assis couronné des deux hautes plumes en bronze (Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Thèbes ou Basse-Égypte",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes)",
+    category: "Figurine votive en bronze à la cire perdue",
+    isHighlight: false,
+    chips: ["Basse Époque", "Amon", "Ex-voto", "Bronze", "Deux plumes", "Culte thébain", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNLQS0EA9wdcFi-qCA74Ff8mYW9uQP9SYR8clo6O4tU7AVDw_bbwnvrThdatrNTuOVpziafkB2CoA6VrfUc1q12B8oN_wKIlo_-Zq3NZLwOIrV17ueorGPuV_t04daa3o2IdEzzEPF_Tpc5DNxrwBzDyA=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette statuette en bronze représente le dieu Amon, l'une des divinités les plus puissantes du panthéon égyptien, sous sa forme humaine classique. À la Basse Époque, la production de telles figurines s'intensifie considérablement, servant d'ex-voto déposés par les fidèles dans les enceintes sacrées pour s'attirer la bienveillance divine ou remercier le dieu d'une grâce obtenue.</p>
+    <p>Amon est ici figuré assis, portant son costume rituel composé d'un pagne court et de son attribut le plus reconnaissable : la couronne surmontée de deux hautes plumes parallèles, symbolisant son lien avec le monde céleste. Ses traits sont traités avec la précision caractéristique des ateliers de bronziers de cette période, qui maîtrisent parfaitement l'équilibre des proportions. Ses mains reposent sur ses cuisses, et il arborait probablement à l'origine la barbe divine tressée, signe de sa nature immortelle.</p>
+    <p>Bien que le pouvoir politique soit fragmenté à cette époque, le culte d'Amon-Rê, le « Roi des Dieux », reste un pilier de l'identité égyptienne. La multiplication de ces statuettes de dévotion privée témoigne d'une piété populaire profonde et d'un artisanat du métal qui atteint une forme de standardisation qualitative, permettant une large diffusion de l'image divine à travers le pays.</p>
+    <p><strong>Siècle :</strong> VIe – IVe siècle av. J.-C. (vers -500) | <strong>Civilisation :</strong> Égypte antique (Basse Époque) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_chatte_bastet_pectoral_oudjat_bronze_louvre",
+    civId: "egypte",
+    periodId: "egypte_tardive",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "XXVIe dynastie (vers -650 av. J.-C. / règne de Psammétique Ier)",
+    centuryDisplay: "VIIe s. av. J.-C.",
+    centuryNumeric: -650,
+    domain: "sculpture_statuaire",
+    artifactType: "Figurine votive / Ex-voto",
+    title: "Statuette votive de la déesse Bastet féline au pectoral oushekh et œil oudjat en bronze (Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Bubastis ou Saqqarah (Sérapeum)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes, E 2533)",
+    category: "Ronde-bosse votive en bronze",
+    isHighlight: true,
+    chips: ["XXVIe dynastie", "Bastet", "Chatte sacrée", "Oeil Oudjat", "Bronze", "Pectoral Oushekh", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMUmPG_jvXYDKxCdoORFLJSbWnbSq0ci8q5xnM2uQS-NJRzQbaKgs6yjvZkjDtB5mhuJ321ldh4RD0cs30GUvf-E9BwfoVNx11ZqrwD8BkJDBXXKPqWHbL_anqdcD0ERGOCDeHTciHmRvj_OH0cFzzNQg=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette statuette en bronze, d'une élégance et d'une précision remarquables, représente la déesse Bastet sous sa forme féline, une iconographie qui connaît un essor prodigieux à partir de la XXVIe dynastie. La divinité est figurée assise, les oreilles dressées et attentives, la queue s'enroulant gracieusement le long de son flanc droit jusqu'à ses pattes antérieures. Le travail du bronze révèle un modelé souple qui souligne la musculature fine et la noblesse du port de tête de l'animal. Le soin apporté aux détails ornementaux est caractéristique du règne de Psammétique Ier : la chatte porte un collier gravé d'un large pectoral oushekh ainsi qu'une amulette en forme d'œil oudjat, symboles de protection et de régénération. Les yeux, autrefois probablement incrustés de pierres précieuses ou de verre, conféraient à l'objet un regard vibrant, presque vivant.</p>
+    <p>L'aspect exhaustif de cette œuvre réside dans sa fonction votive au sein des sanctuaires dédiés à la déesse, notamment à Bubastis dans le Delta. En tant que déesse du foyer, de la maternité et de la joie, Bastet était ici invoquée pour sa bienveillance protectrice. La statuette pouvait également servir de sarcophage pour une momie de chat, pratique courante durant la Basse Époque pour s'attirer les faveurs divines. La qualité de la fonte et la finesse des incisions témoignent du renouveau artistique de la période saïte, qui puise dans le classicisme des époques antérieures tout en atteignant une perfection technique inégalée dans la petite statuaire métallique. Cette pièce illustre parfaitement le rôle de Bastet comme rempart contre les forces maléfiques, sa posture sereine mais alerte incarnant la vigilance maternelle de la divinité.</p>
+    <p><strong>Siècle :</strong> VIIe siècle av. J.-C. (-650) | <strong>Civilisation :</strong> Égypte antique (XXVIe dynastie saïte / Basse Époque) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_dieu_nefertoum_donateur_agenouille_bronze_apries_louvre",
+    civId: "egypte",
+    periodId: "egypte_tardive",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "XXVIe dynastie (vers -580 av. J.-C. / règne d'Apriès)",
+    centuryDisplay: "VIe s. av. J.-C.",
+    centuryNumeric: -580,
+    domain: "sculpture_statuaire",
+    artifactType: "Figurine votive / Ex-voto",
+    title: "Groupe statuaire votif du dieu Néfertoum au lotus et d'un donateur agenouillé en bronze (Règne d'Apriès, Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Memphis ou Basse-Égypte",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes)",
+    category: "Groupe statuaire votif en bronze à la cire perdue",
+    isHighlight: true,
+    chips: ["XXVIe dynastie", "Néfertoum", "Apriès", "Lotus", "Ex-voto", "Donateur agenouillé", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczM6fSJLn_f7CpBg4TUXybJxaK1f8uTp8srtXunNIwqR-KAhAgVprXpOYl91ReUiSNh-0FktaEz0F7BOtFyD6kvfbXlB1DkwsWvqhF2gTvr8CZ7M74FprahAZbu5afoL_hw7-Rja_-wQXe2R4adZC21W0w=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce groupe statuaire exceptionnel en bronze représentant le dieu Nefertoum accompagné d'un donateur agenouillé est une œuvre emblématique de la statuaire de la Basse Époque égyptienne. La divinité est figurée debout dans une posture de marche traditionnelle, le bras gauche replié vers la poitrine pour tenir probablement un attribut aujourd'hui disparu, tandis que le bras droit pend le long du corps. Le dieu porte le pagne court plissé et se distingue par sa coiffe complexe, une fleur de lotus surmontée de deux hautes plumes, symbole de la renaissance et du parfum originel du monde. Ses traits sont d'une grande finesse, caractéristiques de l'esthétique de la XXVIe dynastie avec un visage aux yeux étirés et un léger sourire.</p>
+    <p>À ses pieds, la figurine du donateur, de taille réduite conformément aux conventions de la perspective hiérarchique, est représentée dans une attitude de dévotion profonde, agenouillée en signe de soumission et d'hommage. Ce personnage porte une longue robe inscrite de colonnes de textes hiéroglyphiques qui précisent son identité et ses titres. L'ensemble repose sur un socle rectangulaire massif également en bronze. La maîtrise de la fonte à la cire perdue est ici manifeste, tant dans le rendu des muscles de la divinité que dans les détails de l'orfèvrerie figurée par le large collier ousekh et la ceinture finement ciselée. Ce type d'offrande était destiné à être placé dans un temple pour assurer au donateur la protection éternelle de la divinité sous le règne de Hââibrê Apriès.</p>
+    <p><strong>Siècle :</strong> VIe siècle av. J.-C. (-580) | <strong>Civilisation :</strong> Égypte antique (XXVIe dynastie saïte / Basse Époque) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_paire_statuettes_nefertoum_lotus_sceptre_lion_bronze_louvre",
+    civId: "egypte",
+    periodId: "egypte_tardive",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "XXVIe dynastie (vers -600 av. J.-C. / époque saïte)",
+    centuryDisplay: "VIe s. av. J.-C.",
+    centuryNumeric: -600,
+    domain: "sculpture_statuaire",
+    artifactType: "Figurine votive / Ex-voto",
+    title: "Paire de statuettes votives du dieu Néfertoum au lotus et au sceptre léonin en bronze (Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Memphis ou Basse-Égypte",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes)",
+    category: "Paire de figurines votives en bronze",
+    isHighlight: false,
+    chips: ["XXVIe dynastie", "Néfertoum", "Lotus", "Sceptre léonin", "Chendjyt", "Bronze", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOLRcXPXP-hbHC6oHfOlYkUYLosbwEznt5QGnfwxcBMzpktyv2FX2qb0s4wDUWL5x7qW-cB66iwiDSfD3SvC5ZFZPjt09cA-mAcftTSRnMMk_xRHZoLNnZjlKTWiGjKozoEi5JmfIq1g4MOZiIA59RV1w=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ces deux statuettes en bronze de haute qualité représentant le dieu Nefertoum illustrent la virtuosité des bronziers égyptiens durant la Basse Époque. Les deux figures divines sont représentées dans une attitude de marche, la jambe gauche avancée, respectant les canons de la statuaire classique. Chaque divinité est coiffée de son attribut caractéristique : une fleur de lotus épanouie surmontée de deux hautes plumes, flanquée de deux ménaïts. Cette couronne complexe symbolise la naissance du soleil et le parfum suave associé au dieu, considéré comme le « lotus au nez de Rê ».</p>
+    <p>Le modelé des corps témoigne d'une grande attention aux détails anatomiques, particulièrement visible dans le rendu des muscles des jambes et la finesse des visages aux traits sereins. Les dieux arborent la barbe postiche recourbée des immortels et sont vêtus du pagne court strié, le chendjyt, maintenu par une ceinture. La statuette de gauche se distingue par un bras droit replié tenant un sceptre en forme de lion debout, tandis que celle de droite présente un bras droit le long du corps, le poing serré. Les bases rectangulaires sur lesquelles reposent les œuvres portent des inscriptions hiéroglyphiques ciselées, mentionnant probablement des formules d'offrandes ou l'identité de donateurs ayant dédié ces objets dans un sanctuaire pour s'assurer la bienveillance divine.</p>
+    <p><strong>Siècle :</strong> VIe siècle av. J.-C. (-600) | <strong>Civilisation :</strong> Égypte antique (XXVIe dynastie saïte / Basse Époque) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+   {
     id: "sculpture_princesse_takushit_bronze_damasquine_argent_athenes",
     civId: "egypte",
     periodId: "egypte_tardive",
