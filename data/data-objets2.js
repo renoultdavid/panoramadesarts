@@ -4,6 +4,285 @@
 window.ART_OBJECTS = [
   
    {
+    id: "funeraire_sarcophage_chat_bois_stuque_bubasteion_saqqarah",
+    civId: "egypte",
+    periodId: "egypte_tardive",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "Basse Époque (vers -650 à -350 av. J.-C. / XXVIe – XXXe dynastie)",
+    centuryDisplay: "VIIe – IVe s. av. J.-C.",
+    centuryNumeric: -500,
+    domain: "funeraire",
+    artifactType: "Sarcophage & Momie animale",
+    title: "Sarcophage de chat en bois stuqué et peint au collier à pendentif (Bubasteion de Saqqarah, Musée Imhotep)",
+    site: "Musée Imhotep (Saqqarah)",
+    originSite: "Bubasteion de Saqqarah",
+    locationType: "museum",
+    currentLocation: "Musée Imhotep, Saqqarah",
+    category: "Sarcophage de momie animale en bois stuqué et peint",
+    isHighlight: false,
+    chips: ["Basse Époque", "Sarcophage de chat", "Bastet", "Bubasteion", "Saqqarah", "Bois stuqué", "Musée Imhotep"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPvg6JwHD6VuHcjJKyOxUKlJxcw-dDVUlfR4Bs-rMVC7xDoxpgjOaB3cy9o9ql9QjrALh6sxQ0XcK0fD8dOTuu8ay49yfxFGSvr5dTOp6yvN5so5TR69PnTomq5fAB9J3yr_IlXPXhooU6MOfgOTZe87Q=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce sarcophage de chat en bois stuqué et peint, conservé au musée Imhotep de Saqqarah, constitue un exemple particulièrement raffiné du mobilier funéraire dédié aux animaux sacrés durant la Basse Époque. Contrairement aux momies simplement recouvertes de bandelettes de lin, cet objet servait de réceptacle protecteur et de monument votif pour un félin considéré alors comme une manifestation terrestre de la déesse Bastet.</p>
+    <p>La sculpture se distingue par une représentation réaliste et élégante du félin, figuré en position assise avec les oreilles bien dressées et un regard attentif. Le travail des artisans capture l'esthétique naturelle de l'animal tout en lui conférant une dignité sacrée. Sur le poitrail du chat, on peut observer un détail significatif : un collier orné d'un pendentif peint, qui représentait généralement un symbole protecteur ou une divinité destinée à accompagner l'animal dans l'au-delà.</p>
+    <p>D'un point de vue technique, le sarcophage est fabriqué en bois recouvert d'une fine couche de stuc, ce qui permettait de lisser la surface avant l'application d'une polychromie dont les nuances terreuses restent visibles aujourd'hui. Ces objets étaient déposés par les pèlerins dans le sanctuaire du Bubasteion à Saqqarah. Cet acte de dévotion visait à s'attirer les faveurs de Bastet, déesse du foyer et de la maternité, transformant ainsi l'animal domestique en un intermédiaire privilégié entre le fidèle et le monde divin.</p>
+    <p><strong>Siècle :</strong> VIe – Ve siècle av. J.-C. (vers -500) | <strong>Civilisation :</strong> Égypte antique (Basse Époque) | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "funeraire_reliquaire_sarcophage_chat_bois_peint_bubasteion_saqqarah",
+    civId: "egypte",
+    periodId: "egypte_tardive",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "Basse Époque (vers -650 à -350 av. J.-C. / XXVIe – XXXe dynastie)",
+    centuryDisplay: "VIIe – IVe s. av. J.-C.",
+    centuryNumeric: -500,
+    domain: "funeraire",
+    artifactType: "Sarcophage & Momie animale",
+    title: "Statue-sarcophage reliquaire de chat en bois sculpté et peint (Bubasteion de Saqqarah, Musée Imhotep)",
+    site: "Musée Imhotep (Saqqarah)",
+    originSite: "Catacombes du Bubasteion (Saqqarah)",
+    locationType: "museum",
+    currentLocation: "Musée Imhotep, Saqqarah",
+    category: "Sarcophage votif de momie animale en bois peint",
+    isHighlight: false,
+    chips: ["Basse Époque", "Sarcophage de chat", "Bastet", "Bubasteion", "Bois peint", "Saqqarah", "Musée Imhotep"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczM3oGYDI6ySVU1lCXx-CW6kMl5-CY1UbmgQy7F6u09Uep6EhC6upUsmZyU_mp7R8quHIUDByhXQQdY3fxtPqMtPbgMBqq-Y9y697vQYo8YvRq6J8OqBzHbdR4H7PO4ur1-4Fi21YUcQdobR5unnXj82Ew=w613-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette statue-sarcophage en bois sculpté et peint représente un chat sacré assis sur un socle rectangulaire, provenant des galeries souterraines du Bubasteion de Saqqarah. Durant la Basse Époque, l'essor sans précédent du culte de Bastet a conduit les pèlerins à dédier des milliers d'animaux momifiés placés dans des réceptacles de bois ou de bronze, destinés à pérenniser leur prière au cœur de la nécropole memphite.</p>
+    <p>L'œuvre se distingue par la tension maîtrisée de sa silhouette : le félin adopte une attitude de vigilance sereine, le dos arqué, les pattes antérieures rigoureusement parallèles et la queue ramenée contre le flanc. La tête, sculptée avec une attention aiguë à l'anatomie, dresse deux oreilles triangulaires et présente un museau profilé où les traces de pigments sombres soulignent le contour des yeux. Le corps creux de l'objet était conçu pour renfermer la dépouille momifiée de l'animal ou des fragments de lin sacralisés lors des rites d'embaumement.</p>
+    <p>La surface du bois stuqué conserve des nuances ocre et terreuses, témoignant d'une polychromie soignée qui imitait le pelage naturel tout en lui conférant une dimension divine. Placée dans les catacombes du sanctuaire, cette effigie agissait comme une hypostase vivante de la déesse, assurant au donateur fécondité, protection du foyer et bienveillance divine pour l'éternité.</p>
+    <p><strong>Siècle :</strong> VIe – Ve siècle av. J.-C. (vers -500) | <strong>Civilisation :</strong> Égypte antique (Basse Époque) | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "funeraire_trois_momies_chats_tressage_damier_chevrons_british_museum",
+    civId: "egypte",
+    periodId: "egypte_tardive",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "Basse Époque à Époque ptolémaïque (vers -600 à -100 av. J.-C.)",
+    centuryDisplay: "VIe – IIe s. av. J.-C.",
+    centuryNumeric: -350,
+    domain: "funeraire",
+    artifactType: "Sarcophage & Momie animale",
+    title: "Ensemble de trois momies de chats aux bandelettes tressées en damier et chevrons (British Museum)",
+    site: "British Museum (Londres)",
+    originSite: "Saqqarah ou Bubastis",
+    locationType: "museum",
+    currentLocation: "British Museum, Londres (Département de l'Égypte et du Soudan)",
+    category: "Momies animales à maillotage de lin géométrique",
+    isHighlight: true,
+    chips: ["Basse Époque", "Époque ptolémaïque", "Momies de chats", "Bastet", "Tressage en damier", "Chevrons de lin", "British Museum"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczM8R03CTogShtJ4dJXpk_UUp0MoX5UqHPrp-85MeBlpzevrtAif4LTV4yjrI0YMvVuBlmFCMlt4rqYeR5iLlWco0aKBwV8dVXnMPb078TKn7wSyBw0-kxXDmfHTuivFvW_dIT67EfVr1CH8_QJAWyzK2Q=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cet ensemble de trois momies de chats illustre la virtuosité technique et la ferveur religieuse qui entouraient le culte des félins dans l'Égypte ancienne, particulièrement sous la Basse Époque et la période ptolémaïque. Représentant l'animal sacré de la déesse Bastet, ces momies servaient d'ex-voto déposés par les pèlerins dans des nécropoles dédiées, comme celles de Saqqara ou de Bubastis. Chaque pièce témoigne d'un soin particulier apporté à la présentation extérieure, transformant la dépouille animale en un objet liturgique hautement esthétique.</p>
+    <p>La pièce centrale et celle de droite se distinguent par un travail de bandelettes exceptionnel, utilisant des lins de teintes contrastées pour créer des motifs géométriques complexes. La momie de droite présente un tressage en damier particulièrement sophistiqué, où l'alternance des bandes claires et sombres forme une texture architecturale rigoureuse. La momie centrale utilise quant à elle un motif de chevrons et de losanges imbriqués, créant un effet de mouvement ascendant le long du corps cylindrique. Ces techniques de plissage et de croisement n'avaient pas seulement une fonction protectrice mais visaient à magnifier l'animal pour son voyage dans l'au-delà.</p>
+    <p>Les têtes de ces momies sont façonnées avec un naturalisme saisissant, permettant d'identifier immédiatement l'espèce. Les oreilles pointues sont dressées, et les traits du visage sont souvent soulignés à l'encre noire ou par des applications de tissu pour marquer les yeux, le museau et les vibrisses. La momie de droite conserve un visage particulièrement expressif, avec des orbites larges qui semblent fixer le spectateur. À l'opposé, la petite momie sur la gauche adopte une forme plus sobre et longiligne, rappelant que la production de ces objets sacrés variait en taille et en complexité selon les moyens du fidèle ou l'importance de l'offrande.</p>
+    <p><strong>Siècle :</strong> IVe siècle av. J.-C. (vers -350) | <strong>Civilisation :</strong> Égypte antique (Basse Époque / Époque lagide) | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "funeraire_momie_chat_bandelettes_queue_emmaillotee_saqqarah",
+    civId: "egypte",
+    periodId: "egypte_tardive",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "Basse Époque (vers -650 à -350 av. J.-C. / VIIe – IVe siècle av. J.-C.)",
+    centuryDisplay: "VIIe – IVe s. av. J.-C.",
+    centuryNumeric: -500,
+    domain: "funeraire",
+    artifactType: "Sarcophage & Momie animale",
+    title: "Momie de chat au maillotage de lin régulier et queue emmaillotée (Bubasteion de Saqqarah, Musée Imhotep)",
+    site: "Musée Imhotep (Saqqarah)",
+    originSite: "Catacombes du Bubasteion (Saqqarah)",
+    locationType: "museum",
+    currentLocation: "Musée Imhotep, Saqqarah",
+    category: "Momie animale à maillotage textile de lin",
+    isHighlight: false,
+    chips: ["Basse Époque", "Momie de chat", "Bastet", "Bubasteion", "Bandelettes de lin", "Saqqarah", "Musée Imhotep"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPaTfKXWAvDP94ckdFWUgqnUy-zhKj5IRHBv7FALkSGHx9OzeGQKZI_kaDi1OXhsZFnHjq74AKqGANxULDrkIumZY1EyRjDH7_sas8WE89q0SzSyiVW3VwUa1z1Zlc1XAmlaesU_ugT8jvYRaxfpHuWVg=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette momie de chat, conservée au musée Imhotep de Saqqarah, est un témoignage remarquable de la ferveur religieuse entourant le culte des animaux à la Basse Époque (vers le VIIe-IVe siècle av. J.-C.). Saqqarah, nécropole majeure de l'ancienne Memphis, abritait le Bubasteion, un sanctuaire dédié à la déesse Bastet où des milliers de félins ont été inhumés après avoir été embaumés.</p>
+    <p>Le traitement de cette momie illustre parfaitement le soin apporté aux animaux sacrés à cette période. Le corps du félin est enserré dans des bandelettes de lin de couleur beige, appliquées selon un motif régulier et serré qui souligne la silhouette de l'animal. La tête est soigneusement façonnée pour recréer les traits caractéristiques du chat, avec ses oreilles dressées, tandis que la queue est emmaillotée séparément pour rester visible, conférant à l'ensemble une forme très réaliste. Protégée par une vitrine, la momie conserve l'intégrité de ses textiles originaux, malgré la fragilité naturelle du lin exposé durant des millénaires.</p>
+    <p>Contrairement aux momies de chats souvent placées dans des sarcophages en bois ou en bronze, ce spécimen exposé à Saqqarah permet d'observer directement le travail textile des embaumeurs. Ces offrandes votives étaient déposées par les pèlerins dans les galeries souterraines du Bubasteion pour s'attirer la protection de Bastet, déesse du foyer et de la maternité.</p>
+    <p><strong>Siècle :</strong> VIe – Ve siècle av. J.-C. (vers -500) | <strong>Civilisation :</strong> Égypte antique (Basse Époque) | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "funeraire_momie_jeune_vache_hathor_bandelettes_geometriques_thebes_british_museum",
+    civId: "egypte",
+    periodId: "egypte_romaine",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "Époque romaine (Ier – IIe siècle ap. J.-C.)",
+    centuryDisplay: "Ier – IIe s. ap. J.-C.",
+    centuryNumeric: 100,
+    domain: "funeraire",
+    artifactType: "Sarcophage & Momie animale",
+    title: "Momie de jeune vache au tressage géométrique de lin polychrome (Thèbes, British Museum)",
+    site: "British Museum (Londres)",
+    originSite: "Nécropole thébaine (Thèbes)",
+    locationType: "museum",
+    currentLocation: "British Museum, Londres (Département de l'Égypte et du Soudan, EA 6781)",
+    category: "Momie animale d'époque romaine à réseau de bandelettes géométriques",
+    isHighlight: false,
+    chips: ["Égypte romaine", "Momie de vache", "Hathor", "Thèbes", "Bandelettes géométriques", "Culte isiaque", "British Museum"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1EjnwS0_C2N95iY8FGNrH7N7lHnEDPG57",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOujRiB_IFPG8OPjfhdhn7H3vciQyx2N7DhD1Cz9FQS2i6wIyuDcC9vVet7Y47khR-fQqQ71OHQPlJaQu8Qcnw-BKCfVJlS7SiTn7suP3viWEloCzlxtMnlpDR855tE8U7CeTlESk7RXixP4HboI-QFrw=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette momie de jeune vache constitue un témoignage fascinant des pratiques funéraires et religieuses de l'Égypte sous domination romaine. Découverte à Thèbes, elle illustre la persistance du culte des animaux sacrés, une tradition millénaire qui a connu une ferveur particulière durant les derniers siècles de l'Antiquité égyptienne. Contrairement aux momies de l'époque pharaonique qui cherchaient parfois une sobriété structurelle, les spécimens de la période romaine se distinguent par une esthétique décorative marquée, visant à donner à l'animal une apparence presque vivante ou divinisée à travers un travail textile complexe.</p>
+    <p>L'objet présente une tête soigneusement modelée où les traits de l'animal sont soulignés avec une précision frappante. Le museau et les cornes sont formés avec une grande maîtrise, tandis que les yeux, larges et cernés de bandes sombres, confèrent à la bête un regard expressif et solennel. La coloration ocre et rougeâtre des bandelettes supérieures simule la robe de l'animal, créant un contraste visuel avec le reste du corps. Ce souci du détail anatomique témoigne de l'importance accordée à l'enveloppe extérieure, qui servait de réceptacle éternel à l'esprit de l'animal, souvent considéré comme un intermédiaire entre les hommes et les dieux, notamment en lien avec le culte d'Hathor ou d'Isis.</p>
+    <p>Le corps de la jeune vache est enveloppé dans un maillage de bandelettes de lin de couleur crème, disposées selon une technique de tressage géométrique rigoureuse. On observe sur la partie antérieure des motifs de carrés imbriqués et de lignes sombres qui imitent des parures ou des harnachements rituels. Ces motifs géométriques sont caractéristiques de l'artisanat de l'époque romaine, où l'entrelacement des tissus devient un art en soi. Le volume général est compact, protégeant les restes biologiques à l'intérieur d'une coque rigide de lin et de résine.</p>
+    <p><strong>Siècle :</strong> Ier – IIe siècle ap. J.-C. (vers 100) | <strong>Civilisation :</strong> Égypte romaine & Antiquité tardive | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "funeraire_ensemble_momies_crocodiles_sobek_kom_ombo",
+    civId: "egypte",
+    periodId: "egypte_ptolemaique",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "Époque ptolémaïque et romaine (vers -200 à +200 ap. J.-C.)",
+    centuryDisplay: "IIe s. av. – IIe s. ap. J.-C.",
+    centuryNumeric: 0,
+    domain: "funeraire",
+    artifactType: "Sarcophage & Momie animale",
+    title: "Collection de momies de crocodiles sacrés de Sobek sur lit de sable (Musée du Crocodile, Kôm Ombo)",
+    site: "Musée du Crocodile (Kôm Ombo)",
+    originSite: "Catacombes et nécropole de Kôm Ombo",
+    locationType: "museum",
+    currentLocation: "Musée du Crocodile, Kôm Ombo",
+    category: "Momies animales embaumées au natron et résines",
+    isHighlight: true,
+    chips: ["Époque ptolémaïque", "Égypte romaine", "Sobek", "Crocodile sacré", "Kôm Ombo", "Natron et bitume", "Musée du Crocodile"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOausMI0Eo-MyX0R5aqwyzc6UGmJ-BdB4I2NDUTPMjDIeE4v8GI_j92qtaBGU1uotiFLpMyj4HlDSyDZhMFzaOKOs9C3Rh63QX1rzQbCV6l-mWSKRzdX0I4e6F8qsqTrtS-_njkVbN6mVeTl0nNgRhYDw=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette collection de momies de crocodiles est conservée au musée du Crocodile, adjacent au temple de Kôm Ombo en Haute-Égypte. Ces spécimens, datant principalement de l'époque ptolémaïque et romaine, témoignent du culte fervent rendu au dieu Sobek, divinité à tête de crocodile associée à la fertilité du Nil et à la puissance royale.</p>
+    <p>L'ensemble présente plusieurs momies de crocodiles de tailles diverses, disposées sur un lit de sable, reconstituant ainsi l'atmosphère des catacombes où elles furent découvertes. Le processus de momification de ces reptiles était aussi méticuleux que celui des humains : les organes étaient retirés, le corps traité au natron pour être desséché, puis enduit de résines protectrices qui confèrent aujourd'hui à leur peau cet aspect sombre et bitumineux. Certains spécimens mesurent plusieurs mètres de long, illustrant la capture et l'entretien de crocodiles sacrés qui vivaient dans des bassins au sein même du complexe sacré.</p>
+    <p>La conservation est telle que l'on peut encore observer les détails des écailles, la dentition impressionnante et même les orbites oculaires de ces prédateurs du Nil. Dans la théologie égyptienne, le crocodile n'était pas seulement craint ; il était vénéré comme une manifestation terrestre du dieu Sobek. Offrir une momie de crocodile au temple était un acte de dévotion majeur, censé garantir la protection contre les dangers du fleuve et favoriser l'abondance des récoltes grâce aux crues nourricières.</p>
+    <p>Exposées dans ce musée moderne, ces momies constituent un lien direct avec les rituels complexes pratiqués dans le temple voisin de Kôm Ombo, l'un des rares sanctuaires doubles de l'Égypte ancienne.</p>
+    <p><strong>Siècle :</strong> Ier siècle av. J.-C. (vers l'an 0) | <strong>Civilisation :</strong> Égypte ptolémaïque & romaine | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "funeraire_momies_crocodiles_sobek_vitrine_catacombes_kom_ombo",
+    civId: "egypte",
+    periodId: "egypte_ptolemaique",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "Époque ptolémaïque et romaine (vers -200 à +200 ap. J.-C.)",
+    centuryDisplay: "IIe s. av. – IIe s. ap. J.-C.",
+    centuryNumeric: 0,
+    domain: "funeraire",
+    artifactType: "Sarcophage & Momie animale",
+    title: "Galerie des grands crocodiles sacrés momifiés de Sobek (Musée du Crocodile, Kôm Ombo)",
+    site: "Musée du Crocodile (Kôm Ombo)",
+    originSite: "Nécropole animale du temple de Kôm Ombo",
+    locationType: "museum",
+    currentLocation: "Musée du Crocodile, Kôm Ombo",
+    category: "Momies animales embaumées",
+    isHighlight: false,
+    chips: ["Époque ptolémaïque", "Égypte romaine", "Sobek", "Momie de crocodile", "Résines", "Kôm Ombo", "Musée du Crocodile"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMSKADkodEgW4pXrq8T9d45kWKyGkqMIDWe8JZ7L7T41FM_aKLRuM8jpdwW0XWgmdRIGsh8A1B50XrJYiOPTgcgIizX99zPR0_4SzumTWekhwxRDn5Mf-Gn0R7ciw4c8ef8fh-G0qCUIh71uivbwscAEg=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette vue de la galerie principale du Musée du Crocodile de Kôm Ombo documente la diversité morphologique et l'ampleur quantitative des crocodiles momifiés mis au jour dans les catacombes jouxtant le sanctuaire d'Haroëris et de Sobek. Déposés par les prêtres et les pèlerins sur plusieurs générations, ces sauriens sacrés représentaient l'incarnation vivante de l'énergie féconde du fleuve et le pouvoir royal d'inonder la terre.</p>
+    <p>L'embaumement de ces grands reptiles nécessitait des quantités considérables de natron et d'aromates pour assécher les tissus épais avant d'enduire l'épiderme d'huiles végétales chauffées et de bitume. Cette imprégnation a pétrifié la cuirasse dorsale des animaux, maintenant intactes les crêtes cornées et l'armature osseuse des mâchoires.</p>
+    <p>L'alignement scénographique au sein du musée souligne la dimension collective de ce culte théologique, où chaque bête — du jeune spécimen au redoutable adulte de plusieurs mètres — recevait les mêmes égards rituels que les défunts de haut rang, garantissant la régénération perpétuelle du dieu fluvial au bénéfice de toute la Haute-Égypte.</p>
+    <p><strong>Siècle :</strong> Ier siècle av. J.-C. (vers l'an 0) | <strong>Civilisation :</strong> Égypte ptolémaïque & romaine | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "funeraire_momie_crocodile_sobek_fayoum_alexandrie",
+    civId: "egypte",
+    periodId: "egypte_ptolemaique",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "Époque ptolémaïque ou romaine (vers -200 à +100 ap. J.-C.)",
+    centuryDisplay: "IIe s. av. – Ier s. ap. J.-C.",
+    centuryNumeric: -50,
+    domain: "funeraire",
+    artifactType: "Sarcophage & Momie animale",
+    title: "Momie de crocodile sacré du Fayoum aux plaques osseuses apparentes (Musée gréco-romain d'Alexandrie)",
+    site: "Musée gréco-romain d'Alexandrie",
+    originSite: "Oasis du Fayoum (Shedet / Crocodilopolis)",
+    locationType: "museum",
+    currentLocation: "Musée gréco-romain, Alexandrie",
+    category: "Momie animale traitée au natron et bitume",
+    isHighlight: false,
+    chips: ["Époque ptolémaïque", "Sobek", "Fayoum", "Crocodilopolis", "Bitume", "Natron", "Musée gréco-romain"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOaT2C6nGvzSorc2OGJaESrD0yHiFyBfPmXakZzFWClQyLyGxU3xF0aWJ7s7asggvzJATFCdvaXmWkyxq8BqqYfe7J0FRy-cWHf6RvKaBE3YoYTZsJ80pSjTu5CSfXgMucQLlI_B5AB0cBrH884cUm9cw=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Datant des époques ptolémaïque ou romaine, cette momie de crocodile témoigne de la dévotion particulière portée à la divinité crocodile dans l'oasis du Fayoum, où le reptile était honoré comme le garant de la fertilité et du renouveau du cycle nilotique.</p>
+    <p>Le spécimen est présenté dans une vitrine, allongé sur un support en bois qui rappelle peut-être les brancards utilisés lors des processions religieuses antiques. Le processus de momification est ici parfaitement visible : le corps, après avoir été desséché par le sel de natron, a été enduit de résines et de bitume, ce qui lui confère cette texture noire, craquelée et inaltérable. Contrairement aux momies maillotées de bandelettes, ce crocodile est exposé « nu », permettant d'admirer la conservation stupéfiante des plaques osseuses de sa peau et la silhouette menaçante de sa mâchoire, dont certaines dents sont encore en place.</p>
+    <p>L'intérêt de cette pièce réside dans son lien avec le Fayoum, véritable épicentre du culte de Sobek (connu alors sous le nom de Sobek de Shedet, ou Crocodilopolis pour les Grecs). Dans les sanctuaires de la région, des crocodiles vivants, considérés comme des messagers divins, étaient nourris et ornés de bijoux. À leur mort, ils recevaient des funérailles quasi royales. Ce spécimen, par sa taille et la qualité de son embaumement, illustre ce traitement sacré. Les orbites vides laissent deviner que des yeux artificiels en pierre ou en verre étaient probablement insérés à l'origine pour rendre au reptile son regard divin.</p>
+    <p>Exposée au musée d'Alexandrie, cette momie souligne la permanence des cultes indigènes égyptiens au cœur d'une cité marquée par le cosmopolitisme grec. Elle rappelle que le crocodile, loin d'être un simple prédateur, était une figure centrale de l'identité religieuse du pays, unissant la terreur primordiale à la promesse de protection pour ceux qui savaient se concilier les faveurs du dieu du fleuve.</p>
+    <p><strong>Siècle :</strong> Ier siècle av. J.-C. (vers -50) | <strong>Civilisation :</strong> Égypte ptolémaïque & romaine | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "funeraire_momie_crocodile_bandelettes_croisillons_yeux_stuc_kom_ombo",
+    civId: "egypte",
+    periodId: "egypte_ptolemaique",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "Époque ptolémaïque et romaine (vers -200 à +200 ap. J.-C.)",
+    centuryDisplay: "IIe s. av. – IIe s. ap. J.-C.",
+    centuryNumeric: 0,
+    domain: "funeraire",
+    artifactType: "Sarcophage & Momie animale",
+    title: "Momie de crocodile maillotée de bandelettes en croisillons aux yeux artificiels en stuc (Musée du Crocodile, Kôm Ombo)",
+    site: "Musée du Crocodile (Kôm Ombo)",
+    originSite: "Catacombes de Kôm Ombo",
+    locationType: "museum",
+    currentLocation: "Musée du Crocodile, Kôm Ombo",
+    category: "Momie animale à maillotage de lin géométrique",
+    isHighlight: false,
+    chips: ["Époque ptolémaïque", "Égypte romaine", "Sobek", "Crocodile", "Maillotage géométrique", "Yeux en stuc", "Musée du Crocodile"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPanxNq-jDn_PtLydJC5l1J2XPVn9h4giyS021GbVCGZ0Rd_bVyK-ZCZm5VrnfVRTCe8e9fNcYIRrjqy6nkg5RoRSJllVtdmaTc3OkJNSxww3wRomC9UdwzcXqdSCNYuURp6Sz2ISMBx37YSzNtVRI6Tg=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Contrairement aux spécimens dont la peau est exposée à nu, cette momie de crocodile illustre avec une grande précision l'art du maillotage rituel appliqué aux animaux sacrés durant l'époque ptolémaïque et romaine.</p>
+    <p>L'aspect le plus remarquable de cette pièce réside dans la complexité de ses bandelettes de lin. Les embaumeurs ont utilisé des tissus de différentes teintes — alternant le beige naturel et un brun-rougeâtre — pour créer un motif géométrique régulier en forme de damier ou de croisillons. Ce soin esthétique, identique à celui apporté aux momies humaines de haut rang à la même époque, souligne que l'animal était traité comme une véritable incarnation du dieu Sobek.</p>
+    <p>Le visage du reptile est également mis en valeur par des éléments décoratifs précis : de petites plaques de pierre ou de stuc peint, imitant le regard vif du crocodile, ont été fixées par-dessus les bandelettes pour redonner une forme de « vie » éternelle au défunt sacré. Le corps est enserré dans des sangles de tissu plus larges qui maintiennent la rigidité de la momie, permettant son transport ou son exposition verticale dans les galeries souterraines du temple.</p>
+    <p>En arrière-plan, on aperçoit d'autres fragments et accessoires funéraires, rappelant que ces momies étaient souvent accompagnées d'offrandes ou de petites amulettes. Ce spécimen, par son état de conservation exceptionnel, permet de comprendre comment la terreur inspirée par le prédateur du Nil se transformait, par le rite, en une vénération protectrice destinée à assurer la stabilité de l'Égypte et la régularité des crues.</p>
+    <p><strong>Siècle :</strong> Ier siècle av. J.-C. (vers l'an 0) | <strong>Civilisation :</strong> Égypte ptolémaïque & romaine | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "funeraire_sarcophages_monolithiques_taureaux_apis_granite_serapeum_saqqarah",
+    civId: "egypte",
+    periodId: "egypte_tardive",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "Basse Époque à Époque ptolémaïque (vers -650 à -200 av. J.-C. / XXVIe dynastie aux Lagides)",
+    centuryDisplay: "VIIe – IIIe s. av. J.-C.",
+    centuryNumeric: -450,
+    domain: "funeraire",
+    artifactType: "Sarcophage & Momie animale",
+    title: "Sarcophages cyclopéens en granit noir et granodiorite des taureaux sacrés Apis (Grandes Galeries du Sérapéum de Saqqarah)",
+    site: "Sérapéum de Saqqarah - Grandes Galeries souterraines",
+    originSite: "Plateau de Saqqarah",
+    locationType: "site",
+    currentLocation: "In situ (Galeries souterraines du Sérapéum, Saqqarah)",
+    category: "Sarcophages monolithiques colossaux en granit et granodiorite",
+    isHighlight: true,
+    chips: ["Basse Époque", "Époque ptolémaïque", "Sérapéum", "Taureau Apis", "Granit noir", "Saqqarah", "Monolithes géants"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOFzBMjbkElEenoia-0XS_VlsRcy5OmnLvcqnoJw2EOzdEidD44ypLcI-pD9fhFgio7Sp8Wj2QpgodG22Tf6msOSlE1ed_vfEFjBR2pb65xSCw_cBOe7dPEmSIQh4wDfAmG2PHmgWQ8kJUa5Fw1hw4f_g=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Datant principalement de la Basse Époque et de la période ptolémaïque, ces monuments de pierre noire ou grise frappent par leurs dimensions cyclopéennes, pesant souvent plus de 60 tonnes pour la cuve et 20 tonnes pour le couvercle. Leur présence dans des galeries étroites témoigne d'une maîtrise technique exceptionnelle du transport et de la manipulation de masses monolithiques au sein du plateau de Saqqarah.</p>
+    <p>Le matériau utilisé est généralement un granit d'Assouan ou une granodiorite d'une dureté extrême, taillé avec une précision géométrique qui confine à l'abstraction. Contrairement aux sarcophages anthropoïdes, ces cuves présentent des parois lisses et un couvercle bombé en forme de toit, évoquant l'architecture des chapelles primitives. La surface de certains spécimens a été polie jusqu'à obtenir un brillant miroir, une prouesse artisanale destinée à souligner le caractère divin de l'animal qu'ils abritaient, considéré comme une incarnation vivante du dieu Ptah.</p>
+    <p>Le Sérapéum constituait le cœur du culte memphite, où chaque taureau Apis, après une vie de vénération dans son temple, était momifié avec les mêmes égards qu'un pharaon. L'imposante masse de ces coffres funéraires ne servait pas seulement de protection physique contre les pillards, mais symbolisait également la puissance régénératrice de la terre et l'immuabilité de l'ordre divin. À l'intérieur, les momies de taureaux étaient déposées avec des bijoux et des amulettes, transformant ces chambres souterraines en un palais d'éternité pour l'animal sacré devenu Osiris-Apis.</p>
+    <p>Aujourd'hui, ces sarcophages sont majoritairement vides, ayant été visités et vidés dès l'Antiquité, bien avant leur redécouverte par l'archéologue Auguste Mariette au milieu du XIXe siècle. La vue de ces blocs sombres émergeant de l'obscurité des voûtes calcaires offre aux visiteurs une expérience saisissante de la démesure égyptienne. Leur présence silencieuse dans les entrailles de la terre demeure l'un des témoignages les plus énigmatiques de la ferveur religieuse et des capacités d'ingénierie des anciens bâtisseurs du Nil.</p>
+    <p><strong>Siècle :</strong> Ve siècle av. J.-C. (vers -450) | <strong>Civilisation :</strong> Égypte antique (Basse Époque / Époque lagide) | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "sculpture_dame_nesa_robe_fourreau_fard_vert_calcaire_iiie_louvre",
+    civId: "egypte",
+    periodId: "egypte_ancien",
+    civName: "Égypte : Ancien Empire & Époque Thinite",
+    century: "IIIe dynastie (vers -2650 av. J.-C. / règne de Djéser ou Khâsekhemouy)",
+    centuryDisplay: "XXVIIe s. av. J.-C.",
+    centuryNumeric: -2650,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire privée & portraits",
+    title: "Statue en pied de la noble Nesa en robe fourreau au fard vert en calcaire peint (Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Mastaba de Sepa et Nesa (Saqqarah)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes, A 38)",
+    category: "Statue en ronde-bosse en calcaire peint",
+    isHighlight: true,
+    chips: ["IIIe dynastie", "Ancien Empire", "Nesa", "Sepa", "Fard vert", "Robe fourreau", "Calcaire peint", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPQ9DeLzSLCYdrSDBCi-l5BkxwsqTzYL4L5_schqkpyoc481EFGJvJ7w40PudDVXfKMoapOZIn7XrtiY38PAY3ZkH147mio6sdo9M4wFTtJH7fe41YMNtgGPGr2B8TGEiZDou9iuRP6GNm3C0WMA9N0rA=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette statue en calcaire peint de la IIIe dynastie représente Nesa, une femme de la haute noblesse, figurée debout dans une attitude de dignité hiératique. Cette œuvre est un jalon majeur de l'art memphite du début de l'Ancien Empire, illustrant la mise en place des canons esthétiques qui définiront la statuaire égyptienne pour les millénaires à venir. Le corps est traité avec des formes pleines et une robustesse caractéristique de cette époque reculée, où la sculpture cherche encore son équilibre entre puissance monumentale et naturalisme.</p>
+    <p>Nesa est vêtue d'une longue robe fourreau blanche moulante, dont l'encolure en V est finement suggérée. Elle porte une imposante perruque tripartite noire, aux mèches verticales régulières, qui encadre un visage aux traits larges et sereins. Un détail exceptionnel réside dans le maquillage de ses yeux, soulignés par des traits de fard vert (malachite), une pratique typique des premières dynasties avant la généralisation du khôl noir. Ses mains sont positionnées selon une gestuelle rituelle : la main droite est posée à plat sur l'abdomen tandis que le bras gauche descend le long du corps, les doigts légèrement serrés.</p>
+    <p>La statue conserve d'importants vestiges de sa polychromie d'origine, notamment sur la perruque et les bijoux peints aux poignets, imitant des bracelets de perles. En tant que statue de substitut, elle était associée à celle de son époux, le dignitaire Sepa, dans leur complexe funéraire. L'œuvre dégage une force tranquille et une présence physique imposante, témoignant du statut social éminent de cette femme à la cour des premiers pharaons bâtisseurs de pyramides.</p>
+    <p><strong>Siècle :</strong> XXVIIe siècle av. J.-C. (-2650) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+   {
     id: "funeraire_ensemble_masque_dore_plastron_cercueil_romain_alexandrie",
     civId: "egypte",
     periodId: "egypte_romaine",
