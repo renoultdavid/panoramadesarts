@@ -4,6 +4,131 @@
 window.ART_OBJECTS = [
   
    {
+    id: "ceramique_amphore_col_poissons_caere_italo_geometrique_louvre",
+    civId: "etrusque",
+    periodId: "etrusque_orientalisant",
+    civName: "Étrurie & Italie préromaine",
+    century: "Période orientalisante (début du VIIe siècle av. J.-C., vers -700 à -675 av. J.-C.)",
+    centuryDisplay: "VIIe s. av. J.-C.",
+    centuryNumeric: -680,
+    domain: "ceramique",
+    artifactType: "Amphore",
+    title: "Amphore à col à décor de poissons stylisés de Caeré (Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Caeré (Cerveteri, Étrurie méridionale)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités grecques, étrusques et romaines)",
+    category: "Amphore à col en terre cuite claire peinte",
+    isHighlight: false,
+    chips: ["Étrusque", "Période orientalisante", "Caeré", "Cerveteri", "Amphore", "Style italo-géométrique", "Poissons", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPfdjeJFS7WndP8lLzFAnkq5VS_mLwGugx_ObDtXZcIdpzdlNFPb9kGpB5zLC8WFEJasxre0RcfPLMf5QbS2c6N0LhLHR7Orq7iAeSI5qFa3facZpZfTTPObV_oSDfbW9djwtaKyMig4F6EqJwU0vBIAg=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette pièce est une amphore à col, un vase de stockage et de transport emblématique de la vaisselle de table aristocratique. Elle présente une silhouette élégante avec une panse ovoïde s’affinant vers un pied circulaire mouluré, un col large et évasé, ainsi que deux anses verticales robustes reliant l’épaule à la lèvre. La structure même de l'objet, avec ses parois fines en terre cuite claire, témoigne d'une grande maîtrise technique des potiers de l'Italie centrale au début du VIIe siècle avant J.-C.</p>
+    <p>Le décor peint, d'une teinte ocre rouge caractéristique, est réparti en registres horizontaux qui soulignent la morphologie du vase. Le col est orné de triangles pointant vers le haut, un motif géométrique traditionnel, tandis qu'une frise de pointillés souligne la jonction avec l'épaule. Le registre principal sur la panse illustre le motif éponyme de la production de Caeré : des poissons stylisés, dont le corps est rempli de croisillons ou de points pour figurer les écailles, évoluant dans un espace parsemé de rosettes de points suggérant peut-être un environnement aquatique ou des bulles.</p>
+    <p>En dessous de cette scène narrative, le décor redevient strictement géométrique avec une alternance de fines lignes parallèles et de larges bandes horizontales. Plus bas encore, une frise ondée évoquant le mouvement de l'eau complète l'iconographie marine. L'ensemble de cette composition reflète l'influence « orientalisante » qui déferle sur l'Étrurie à cette période, où les modèles grecs (notamment d'Eubée) sont réinterprétés avec une liberté graphique locale, souvent qualifiée de style italo-géométrique.</p>
+    <p><strong>Siècle :</strong> VIIe siècle av. J.-C. (vers -680) | <strong>Civilisation :</strong> Étrurie & Italie préromaine | <strong>Sous-partie :</strong> Céramiques.</p>`
+  },
+  {
+    id: "ceramique_amphore_col_peintre_hirondelles_etrusco_corinthienne_louvre",
+    civId: "etrusque",
+    periodId: "etrusque_orientalisant",
+    civName: "Étrurie & Italie préromaine",
+    century: "Période orientalisante récente (fin du VIIe siècle av. J.-C., vers -620 à -600 av. J.-C.)",
+    centuryDisplay: "VIIe s. av. J.-C.",
+    centuryNumeric: -610,
+    domain: "ceramique",
+    artifactType: "Amphore",
+    title: "Amphore à col étrusco-corinthienne du Peintre des Hirondelles (Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Étrurie méridionale (Vulci ou Cerveteri)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités grecques, étrusques et romaines)",
+    category: "Amphore à col étrusco-corinthienne en terre cuite",
+    isHighlight: false,
+    chips: ["Étrusque", "Étrusco-corinthien", "Peintre des Hirondelles", "Amphore", "Période orientalisante", "Sirène ailée", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczO-i-mmcDqRmgjJl8z16oxnFBgwywuU_V_Dsw95Z7Ff8jckPdGeszMGBswnbOn7-k27VtYC-CxlpetrRTeYfwe_5R7EO5_5F1TxGEGuqa7tKFNSeaSpyiUnGUqnHGMBYA8ktdwKhzr3X0N9-sP9hzFaCA=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette amphore à col constitue un exemple remarquable de la production étrusco-corinthienne de la fin du VIIe siècle avant J.-C. Sa silhouette se caractérise par une panse ovoïde volumineuse, un col cylindrique bien différencié et deux anses robustes. Ce type de vase, initialement conçu pour le stockage, devient à cette époque un support privilégié pour l'expression artistique des peintres de vases en Étrurie, qui s'approprient les codes esthétiques venus de Corinthe.</p>
+    <p>Le décor est attribué au Peintre des Hirondelles, un artiste dont le style se définit par une interprétation originale et souvent dynamique du répertoire animalier. La panse est organisée en plusieurs registres horizontaux. Le registre supérieur met en scène une figure mythologique complexe, probablement une sirène ou un sphinx ailé, entourée d'oiseaux aquatiques aux corps arrondis et aux ailes finement striées. Le registre inférieur présente une file de quadrupèdes, sans doute des félins ou des cervidés, caractéristiques de la période orientalisante. L'utilisation d'une peinture sombre rehaussée de touches de rouge et de motifs de remplissage, comme des rosettes de points et des svastikas, crée un effet de saturation décorative.</p>
+    <p>L'épaule du vase est ornée de motifs végétaux stylisés, rappelant des boutons de lotus, tandis que le col arbore des triangles rayonnants pointant vers le bas. Cette œuvre illustre parfaitement l'étape où les ateliers étrusques, tout en imitant la technique de la figure noire et les thèmes grecs, conservent une certaine liberté de trait et une fantaisie iconographique. L'amphore n'est plus seulement un récipient utilitaire, mais un objet de distinction sociale, déposé dans les tombes pour accompagner les défunts de l'aristocratie étrusque.</p>
+    <p><strong>Siècle :</strong> VIIe siècle av. J.-C. (vers -610) | <strong>Civilisation :</strong> Étrurie & Italie préromaine | <strong>Sous-partie :</strong> Céramiques.</p>`
+  },
+  {
+    id: "ceramique_amphore_col_peintre_monte_abatone_caere_louvre",
+    civId: "etrusque",
+    periodId: "etrusque_orientalisant",
+    civName: "Étrurie & Italie préromaine",
+    century: "Fin du VIIe – début du VIe siècle av. J.-C. (vers -600 av. J.-C.)",
+    centuryDisplay: "VIIe – VIe s. av. J.-C.",
+    centuryNumeric: -600,
+    domain: "ceramique",
+    artifactType: "Amphore",
+    title: "Amphore à col monumentale du Peintre de Monte Abatone (Cerveteri, Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Nécropole de Monte Abatone (Caeré / Cerveteri)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités grecques, étrusques et romaines)",
+    category: "Amphore à col caerétane en terre cuite à rehauts pourpres",
+    isHighlight: false,
+    chips: ["Étrusque", "Caeré", "Cerveteri", "Peintre de Monte Abatone", "Amphore", "Bestiaire monumental", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOG-qKNBbhqHqtJBzV2y149zK10AvZvwFXmacJ1xi1Tz7DpbMG1pUtXbgvYxrqhD06oaAiANwq9htkcE0GLnsgsHNnK06pp_cm5t_n_5ExGnGJApl3gkJOQiS_-irmb2J1hfTJuPkouDQ5qDXCGEzqeNw=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette amphore à col incarne la transition stylistique majeure qui s'opère dans les ateliers de Caeré (Cerveteri) entre la fin du VIIe siècle et le début du VIe siècle avant J.-C. Sa silhouette présente une panse globulaire puissante, presque sphérique, surmontée d'un col haut et de deux anses plates. Cette forme, héritée des modèles géométriques, devient ici le support d'un nouveau langage figuratif qui cherche à rivaliser avec les productions grecques contemporaines tout en affirmant un goût local pour les figures monumentales.</p>
+    <p>Le décor est l'œuvre du Peintre de Monte Abatone, une figure de proue de la peinture de vases à Cerveteri. L'artiste utilise une technique de silhouette sombre sur le fond clair de l'argile, agrémentée de larges rehauts de peinture pourpre et d'incisions vigoureuses pour marquer les détails internes. La panse est occupée par un registre unique et monumental où se déploie un bestiaire fantastique et réel. On y observe de grands animaux, souvent des chevaux ou des bovidés, traités avec une schématisation puissante qui privilégie la clarté du profil et la force du trait sur le réalisme anatomique.</p>
+    <p>L'épaule du vase et le col reçoivent des motifs ornementaux plus légers, comme des languettes ou des traits rayonnants, qui viennent équilibrer la densité du décor central. Le travail de ce peintre illustre parfaitement l'émergence d'une identité artistique proprement caerétane, capable d'absorber les influences de Corinthe et de la Grèce de l'Est pour créer un style « grand format ». Déposée dans les riches tombes de la nécropole de Monte Abatone, cette amphore ne servait plus seulement au transport des denrées, mais agissait comme un marqueur de prestige funéraire pour l'aristocratie locale.</p>
+    <p><strong>Siècle :</strong> VIIe – VIe siècle av. J.-C. (vers -600) | <strong>Civilisation :</strong> Étrurie & Italie préromaine | <strong>Sous-partie :</strong> Céramiques.</p>`
+  },
+  {
+    id: "ceramique_amphore_col_groupe_des_ecailles_caere_louvre",
+    civId: "etrusque",
+    periodId: "etrusque_archaique",
+    civName: "Étrurie & Italie préromaine",
+    century: "Époque archaïque (premier quart du VIe siècle av. J.-C., vers -580 av. J.-C.)",
+    centuryDisplay: "VIe s. av. J.-C.",
+    centuryNumeric: -580,
+    domain: "ceramique",
+    artifactType: "Amphore",
+    title: "Amphore à col du Groupe des Écailles à la frise de félins (Caeré, Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Caeré (Cerveteri, Étrurie méridionale)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités grecques, étrusques et romaines)",
+    category: "Amphore à col en terre cuite à décor d'écailles et frise animale",
+    isHighlight: false,
+    chips: ["Étrusque", "Caeré", "Cerveteri", "Groupe des Écailles", "Amphore", "Félins", "Époque archaïque", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczM7-F105sSIdjFuk9lbOZ4P2deceA_Q9ApIW_cFHIwIHJgf9Vzo8uyQpBRau4ugHWHDckzNC0UFEpF_lo4o-oJPj5JS0Z1X7_jilb2LkxYf_PfEx7VeflNb3V1ZLCNm9FSg-uz8Ou-CLu3wNsQH2Le5tA=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette amphore à col représente une étape de transition fascinante au sein des ateliers de Caeré (Cerveteri) durant le premier quart du VIe siècle av. J.-C. Sa structure morphologique, avec une panse ovoïde très développée et un col court s'évasant vers une lèvre épaisse, est typique des vases de stockage de luxe. L'objet se distingue par une polychromie marquée, utilisant des engobes rouges et sombres sur la terre cuite claire, témoignant d'une volonté d'imiter la richesse visuelle des vases corinthiens contemporains.</p>
+    <p>Le décor est caractéristique du « Groupe des Écailles », nommé ainsi en raison du motif de remplissage dominant sur la panse. La partie supérieure et inférieure du corps du vase sont couvertes de zones imbriquées simulant des écailles ou des plumes, créant un effet de texture vibrante. Au centre, une frise narrative ou animalière se déploie sur un fond clair. On y voit des félins (probablement des lions ou des panthères) en mouvement, traités avec une schématisation nerveuse. Les rehauts rouges et les incisions, bien que moins précises que dans les modèles grecs, confèrent aux animaux une présence graphique forte.</p>
+    <p>L'épaule et le col sont ornés de frises de guirlandes, de points et de motifs de vagues, isolant la scène principale pour mieux la mettre en valeur. Ce type d'amphore illustre parfaitement le goût des élites de Cerveteri pour une esthétique foisonnante, où l'ornement géométrique (les écailles) prend autant d'importance que la figure animale. Ces pièces étaient destinées à être exposées dans les tombes à chambre, signalant le rang du défunt à travers la possession d'une vaisselle qui allie tradition locale et tendances internationales de l'époque.</p>
+    <p><strong>Siècle :</strong> VIe siècle av. J.-C. (vers -580) | <strong>Civilisation :</strong> Étrurie & Italie préromaine | <strong>Sous-partie :</strong> Céramiques.</p>`
+  },
+  {
+    id: "ceramique_amphore_panse_figures_noires_peintre_castellani_louvre",
+    civId: "etrusque",
+    periodId: "etrusque_archaique",
+    civName: "Étrurie & Italie préromaine",
+    century: "Époque archaïque (vers -560 à -555 av. J.-C. / deuxième quart du VIe siècle av. J.-C.)",
+    centuryDisplay: "VIe s. av. J.-C.",
+    centuryNumeric: -560,
+    domain: "ceramique",
+    artifactType: "Amphore",
+    title: "Amphore attique à panse à figures noires du Peintre de Castellani : combat d'hoplites troyens (Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Athènes (fabrique attique) / Découverte en Étrurie centrale",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités grecques, étrusques et romaines, E 863)",
+    category: "Amphore à panse attique à figures noires",
+    isHighlight: true,
+    chips: ["Céramique attique", "Étrurie", "Peintre de Castellani", "Figures noires", "Amphore", "Combat d'hoplites", "Guerre de Troie", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPVtksDxI3QeekvkGNJ2EtCSLU8W41WqSl9ImrFx1FsfQHViiY_UtmWrQF3phBuun-lD56Wbo0WrY3x8hwcSl2gTdq9_1VenFpk-B5NaX4hTe-VZHnGD5XWdK2C37yO-clUFMncc5Kj04FgtYLe2b59kQ=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette amphore à figures noires, datée du deuxième quart du VIe siècle avant J.-C. (vers 560-555 av. J.-C.), est une œuvre de maturité du Peintre de Castellani, un artiste majeur des ateliers d'Athènes. Exportée vers l'Étrurie, où elle a été découverte en Italie centrale, elle témoigne de l'attrait massif de l'aristocratie étrusque pour la céramique attique de prestige. La forme de l'amphore, dite « à panse », offre de larges registres horizontaux permettant le déploiement de compositions narratives et décoratives complexes.</p>
+    <p>La panse du vase est divisée en plusieurs frises superposées, caractéristiques du style narratif de cette période. Le registre principal illustre une scène de combat héroïque, probablement issue du cycle troyen, où des hoplites lourdement armés s'affrontent. On distingue nettement les détails des boucliers, dont l'un est orné d'un emblème (épisème) en forme de protomé de lion ou de créature fantastique. Les guerriers, saisis dans une attitude dynamique, portent des casques à haut cimier et des jambières (cnémides), illustrant la panoplie militaire grecque de l'époque archaïque. Des rehauts de peinture blanche et rouge pourpre sont utilisés pour différencier les éléments d'armure et donner du relief à la mêlée.</p>
+    <p>Sous la scène de combat, une frise animalière présente une procession de créatures réelles et fantastiques, telles que des lions, des cervidés et des sirènes ou des sphinx. Ce répertoire décoratif, hérité de l'époque orientalisante, est ici traité avec la rigueur et la précision du dessin attique. La base du vase est ornée d'un motif de rayons s'évasant depuis le pied, tandis que le col et les anses sont soulignés par des motifs géométriques et végétaux. Cette amphore n'était pas seulement un récipient de luxe pour le transport du vin ou de l'huile, mais un véritable vecteur de la culture et des mythes grecs au cœur des cités étrusques.</p>
+    <p><strong>Siècle :</strong> VIe siècle av. J.-C. (-560) | <strong>Civilisation :</strong> Étrurie & Italie préromaine | <strong>Sous-partie :</strong> Céramiques.</p>`
+  },
+   {
     id: "funeraire_barque_funeraire_rameurs_bois_moyen_empire_louxor",
     civId: "egypte",
     periodId: "egypte_moyen",
