@@ -1158,10 +1158,10 @@ const TAXONOMY_CIVILISATIONS = {
   "egypte": {
     name: "Égypte antique & Nubie",
     periods: [
-      { id: "egypte_ancien", label: "Époque thinite & Ancien Empire (-3100 à -2200)" },
+      { id: "egypte_ancien", label: "Prédynastique, Époque thinite & Ancien Empire (-4000 à -2200)" },
       { id: "egypte_moyen", label: "Moyen Empire & Périodes intermédiaires (-2200 à -1550)" },
       { id: "egypte_nouvel", label: "Nouvel Empire (-1550 à -1069)" },
-      { id: "egypte_tardive", label: "Basse Époque & Époque saïte (-1069 à -332)" },
+      { id: "egypte_tardive", label: "Troisième Période intermédiaire & Basse Époque (-1069 à -332)" },
       { id: "egypte_ptolemaique", label: "Époque ptolémaïque / Lagide (-332 à -30)" },
       { id: "egypte_romaine", label: "Égypte romaine & Portraits du Fayoum (-30 à +395)" }
     ]
@@ -1208,7 +1208,10 @@ const TAXONOMY_CIVILISATIONS = {
   "italie_etrusque": {
     name: "Italie préromaine & Étrurie",
     periods: [
-      { id: "etrusque", label: "Civilisation étrusque (-900 à -100)" },
+      { id: "etrusque", label: "Civilisation étrusque — Ensemble (-900 à -100)" },
+      { id: "etrusque_orientalisant", label: "Étrurie orientalisante (VIIe s. av. J.-C.)" },
+      { id: "etrusque_archaique", label: "Étrurie archaïque (VIe - déb. Ve s. av. J.-C.)" },
+      { id: "etrusque_classique", label: "Étrurie classique & hellénistique (Ve - IIe s. av. J.-C.)" },
       { id: "italie_grande_grece", label: "Grande-Grèce (Apulie, Lucanie, Campanie) (-500 à -200)" },
       { id: "italie_peuples", label: "Peuples italiques (Falisques, Samnium) (-600 à -200)" }
     ]
@@ -1285,19 +1288,21 @@ const TAXONOMY_DOMAINS = {
       "Chambre funéraire / Hypogée", "Coffre & Vases canopes", "Fausse porte",
       "Figurine funéraire / Ouchebti", "Larnax",
       "Maquette funéraire (barque, atelier, serviteur)", "Masque funéraire & Cartonnage",
-      "Monument / Tombeau rupestre", "Papyrus funéraire / Livre des Morts",
-      "Portrait du Fayoum", "Pyramidion", "Sarcophage & Momie animale",
-      "Sarcophage humain (cuve, bois, pierre)", "Stèle", "Table d'offrandes"
+      "Mobilier & Ensemble funéraire", "Monument / Tombeau rupestre",
+      "Papyrus funéraire / Livre des Morts", "Portrait du Fayoum", "Pyramidion",
+      "Sarcophage & Momie animale", "Sarcophage humain (cuve, bois, pierre)",
+      "Stèle funéraire", "Table d'offrandes"
     ]
   },
   "ceramique": {
     label: "Céramique, Terres cuites & Vases",
     types: [
-      "Alabatre", "Amphore", "Antéfixe / Plaque architecturale", "Aryballe",
-      "Askos", "Calice", "Canthare", "Cratère", "Hydrie", "Kernos",
-      "Kylix / Coupe", "Lampe à huile", "Lécythe", "Oenochoé",
-      "Pithos / Jarre", "Plat", "Plat & Céramique fine", "Rhyton",
-      "Vase", "Vase balustre", "Vase plastique / Zoomorphe"
+      "Alabastre", "Amphore", "Antéfixe / Plaque architecturale", "Aryballe",
+      "Askos", "Calice", "Canthare", "Cratère", "Cruche", "Hydrie",
+      "Jatte / Écuelle", "Kernos", "Kylix / Coupe", "Lampe à huile",
+      "Lécythe", "Oenochoé", "Pithos / Jarre", "Plat",
+      "Plat & Céramique fine", "Rhyton", "Vase", "Vase à étrier",
+      "Vase balustre", "Vase en pierre (albâtre, calcite)", "Vase plastique / Zoomorphe"
     ]
   },
   "espace_sacre": {
@@ -1313,7 +1318,8 @@ const TAXONOMY_DOMAINS = {
     types: [
       "Armement d'apparat (épée, poignard, casque)", "Dépôt métallurgique & Haches",
       "Glyptique (sceau-cylindre, intaille)", "Numismatique (monnaie)",
-      "Parure en or / Argent / Bronze", "Torque & Bracelet"
+      "Parure en or / Argent / Bronze", "Torque & Bracelet",
+      "Vaisselle d'or & d'argent"
     ]
   },
   "peinture_mosaique": {
@@ -1328,9 +1334,12 @@ const TAXONOMY_DOMAINS = {
     label: "Sculpture & Statuaire",
     types: [
       "Bas-relief & Relief en creux",
+      "Chapiteau-stèle votif / Relief biface",
       "Décor architectural (fronton, frise, métope, chapiteau)",
       "Figurine votive / Ex-voto", "Frise en briques émaillées",
+      "Idole & Statuaire cycladique (marbre)",
       "Monolithe / Stèle sculptée",
+      "Sculpture monumentale / Cuve de libation",
       "Sculpture monumentale extérieure (fontaine, calvaire, moaï)",
       "Statuaire privée & portraits", "Statuaire royale & divine (ronde-bosse)"
     ]
@@ -2168,7 +2177,7 @@ function renderSearchGallery() {
       else if (selectedCiv === 'italie_etrusque' && cId !== 'italie_etrusque' && !cId.startsWith('etrusque') && !cId.startsWith('italie')) return false;
       else if (selectedCiv === 'chypre' && !cId.startsWith('chypre')) return false;
       else if (selectedCiv === 'celte_europe' && !cId.startsWith('celte')) return false;
-      else if (selectedCiv === 'levant_phenicie' && !['amorrite', 'syrie_bronze', 'phenicie_fer'].includes(cId)) return false;
+      else if (selectedCiv === 'levant_phenicie' && !['levant_phenicie', 'amorrite', 'syrie_bronze', 'phenicie_fer', 'lycie_anatolie'].includes(cId)) return false;
       else if (selectedCiv === 'canaries' && cId !== 'canaries') return false;
       else if (!['egypte', 'egee', 'italie_etrusque', 'chypre', 'celte_europe', 'levant_phenicie', 'canaries'].includes(selectedCiv)) {
         if (!cId.startsWith(selectedCiv)) return false;
