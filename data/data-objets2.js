@@ -4,6 +4,56 @@
 window.ART_OBJECTS = [
   
    {
+    id: "parures_egide_sobek_crocodile_contrepoids_menat_bronze_damasquine_louvre",
+    civId: "egypte",
+    periodId: "egypte_tardive",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "Troisième Période intermédiaire (XXIe – XXVe dynastie, vers -900 à -700 av. J.-C.)",
+    centuryDisplay: "IXe – VIIIe s. av. J.-C.",
+    centuryNumeric: -850,
+    domain: "parures_metaux",
+    artifactType: "Parure en or / Argent / Bronze",
+    title: "Égide de collier au crocodile de Sobek et contrepoids de ménat en bronze damasquiné (Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Fayoum ou Kôm Ombo",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes)",
+    category: "Parure liturgique et égide en bronze damasquiné d'or et d'argent",
+    isHighlight: false,
+    chips: ["Troisième Période intermédiaire", "Sobek", "Égide", "Ménat", "Bronze damasquiné", "Crocodile", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMFTIQ7ZB5de9n69ae33njlJOHkszyyF0ygULq85O5TY5YI4zeJhWt1WvmEeLQ-yGzwYdIzySFJUKYUD6jAxoF8tJH8Nu6Fb6GoDCmskcX-EtQkP5FBECdyqFsJT4IbRPBiLGEQ9negW3XoppR_UFcwMQ=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette égide surmontée d'une tête de crocodile, accompagnée de son contrepoids de collier (menat), est un objet de culte d'une grande rareté datant de la Troisième Période intermédiaire. L'égide représente ici le dieu Sobek, divinité du Nil et de la fertilité, ou une forme locale du dieu associée à la protection. Façonnée en bronze et finement damasquinée d'or ou d'argent, elle servait à la fois d'amulette protectrice et d'instrument liturgique lors des fêtes religieuses.</p>
+    <p>Le détail du crocodile est saisissant : l'animal porte une perruque striée tripartite et un large collier ousekh, soulignant son caractère divin. Le corps de l'égide est gravé de motifs géométriques et floraux qui imitent les rangs de perles des parures royales. Le contrepoids, qui s'étend vers l'arrière, permettait de stabiliser les colliers très lourds portés par les statues divines ou les prêtres. Il est ici orné de scènes en relief creux représentant des divinités ou des symboles de protection, garantissant ainsi l'intégrité magique de celui qui le portait.</p>
+    <p>À cette époque, le travail du bronze atteint une technicité remarquable, notamment dans l'utilisation de l'incrustation de métaux précieux pour souligner les détails anatomiques et les parures. L'association de l'égide et de la menat était étroitement liée à la déesse Hathor et au concept de pacification des divinités dangereuses. Offrir un tel objet au temple permettait au donateur de s'assurer la bienveillance du dieu Sobek, force redoutable du fleuve transformée en rempart protecteur pour le fidèle.</p>
+    <p><strong>Siècle :</strong> IXe – VIIIe siècle av. J.-C. (vers -850) | <strong>Civilisation :</strong> Égypte antique (Troisième Période intermédiaire / Basse Époque) | <strong>Sous-partie :</strong> Parures & Métaux.</p>`
+  },
+  {
+    id: "sculpture_paire_amulettes_ptah_pateque_faience_bleue_le_mans",
+    civId: "egypte",
+    periodId: "egypte_tardive",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "Basse Époque (vers -650 à -350 av. J.-C. / VIIe – IVe siècle av. J.-C.)",
+    centuryDisplay: "VIIe – IVe s. av. J.-C.",
+    centuryNumeric: -500,
+    domain: "sculpture_statuaire",
+    artifactType: "Figurine votive / Ex-voto",
+    title: "Paire d'amulettes protectrices du dieu nain Ptah-Patèque en faïence bleu turquoise (Musée de Tessé, Le Mans)",
+    site: "Musée de Tessé (Le Mans)",
+    originSite: "Memphis ou Basse-Égypte",
+    locationType: "museum",
+    currentLocation: "Musée de Tessé, Le Mans",
+    category: "Amulettes et figurines protectrices en faïence siliceuse",
+    isHighlight: false,
+    chips: ["Basse Époque", "Ptah-Patèque", "Amulette", "Faïence bleue", "Protection apotropaïque", "Nain divin", "Musée de Tessé"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMsDSoI0MuT5AIDsNovFU0p8pZZa-fYl1gmEtmmV9pqXTYYKCbQI5V8_diQvteNxHVVNCIeQzuPkQzFpOVUKFzqnCh4D7YB-EUB8M1wL7_Sy4CgPPfuIec-WlOiB1j9EDUiSlXrGYXWFVNFOvPpimJwBw=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ces deux statuettes représentent le dieu égyptien Ptah-Patèque, divinité protectrice dont l'iconographie est particulièrement singulière dans le panthéon égyptien. Réalisées en faïence égyptienne d'un bleu turquoise intense, ces amulettes illustrent la maîtrise artisanale du travail de la silice vitrifiée à la Basse Époque. Le dieu est figuré sous les traits d'un enfant nain, au corps trapu et au ventre saillant, une posture qui symbolise la puissance génératrice et la force vitale concentrée. Les jambes sont courtes et légèrement arquées, tandis que les bras sont repliés contre le buste, les mains reposant souvent sur les hanches dans une attitude de stabilité et de vigilance.</p>
+    <p>Le visage de chaque amulette est traité avec une attention particulière aux détails, malgré la petite taille des objets. On y observe des traits larges, un nez épaté et parfois une légère expression de sourire, évoquant la bienveillance de la divinité. La tête est recouverte d'une calotte lisse, attribut classique associé à Ptah, dont le Patèque est une émanation magique. Ces figurines étaient portées comme des protections contre les forces maléfiques, notamment les animaux dangereux et les maladies, leur aspect robuste et leur nudité rituelle servant de rempart spirituel pour le porteur.</p>
+    <p>L'aspect granuleux de la glaçure et les nuances de bleu, allant du turquoise profond au pâle, témoignent du processus de cuisson caractéristique de cette période. La nudité du personnage est accentuée par le rendu des plis de graisse au niveau de l'abdomen, renforçant l'aspect fœtal ou enfantin du dieu. Ces objets, bien que de petite dimension, occupaient une place centrale dans la piété populaire, faisant le pont entre la haute théologie memphite de Ptah et les besoins quotidiens de protection magique.</p>
+    <p><strong>Siècle :</strong> VIIe – IVe siècle av. J.-C. (vers -500) | <strong>Civilisation :</strong> Égypte antique (Basse Époque) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+   {
     id: "ceramique_serie_alabastrons_albatre_travertin_saite_louvre",
     civId: "egypte",
     periodId: "egypte_tardive",
