@@ -1232,7 +1232,7 @@ const TAXONOMY_CIVILISATIONS = {
     name: "Italie préromaine & Étrurie",
     periods: [
       { id: "etrusque", label: "Civilisation étrusque — Ensemble (-900 à -100)" },
-      { id: "etrusque_orientalisant", label: "Étrurie orientalisante (VIIe s. av. J.-C.)" },
+      { id: "etrusque_orientalisant", label: "Période villanovienne & Étrurie orientalisante (IXe - VIIe s. av. J.-C.)" },
       { id: "etrusque_archaique", label: "Étrurie archaïque (VIe - déb. Ve s. av. J.-C.)" },
       { id: "etrusque_classique", label: "Étrurie classique & hellénistique (Ve - IIe s. av. J.-C.)" },
       { id: "italie_grande_grece", label: "Grande-Grèce (Apulie, Lucanie, Campanie) (-500 à -200)" },
@@ -1321,11 +1321,12 @@ const TAXONOMY_DOMAINS = {
     label: "Céramique, Terres cuites & Vases",
     types: [
       "Alabastre", "Amphore", "Antéfixe / Plaque architecturale", "Aryballe",
-      "Askos", "Calice", "Canthare", "Cratère", "Cruche", "Hydrie",
+      "Askos", "Calice", "Canthare", "Cratère", "Cruche", "Dinos", "Hydrie",
       "Jatte / Écuelle", "Kernos", "Kylix / Coupe", "Lampe à huile",
       "Lécythe", "Oenochoé", "Pithos / Jarre", "Plat",
-      "Plat & Céramique fine", "Rhyton", "Vase", "Vase à étrier",
-      "Vase balustre", "Vase en pierre (albâtre, calcite)", "Vase plastique / Zoomorphe"
+      "Plat & Céramique fine", "Pyxide / Boîte à couvercle", "Rhyton",
+      "Vase", "Vase à étrier", "Vase balustre",
+      "Vase en pierre (albâtre, calcite)", "Vase plastique / Zoomorphe"
     ]
   },
   "espace_sacre": {

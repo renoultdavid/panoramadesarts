@@ -157,6 +157,12 @@ window.ART_TYPOLOGY_DEFINITIONS = {
     domain: "Céramique antique",
     def: "Récipient à panse renflée muni d'une seule anse verticale et d'un col à bec verseur (parfois fortement renversé vers l'arrière dans l'art cycladique de Phylakopi), utilisé pour puiser et servir l'eau ou le vin."
   },
+  "Dinos": {
+    title: "Dinos (ou Lébès)",
+    etymology: "Du grec ancien dînos, « vase arrondi, tourbillon »",
+    domain: "Céramique de banquet (Symposion)",
+    def: "Grand chaudron de banquet à panse globulaire dépourvue d'anses et de pied (à fond entièrement sphérique), destiné comme le cratère au mélange de l'eau et du vin. Il était posé sur un haut support mouluré (hypocraterion) ou un trépied au centre de la salle de banquet."
+  },
   "Hydrie": {
     title: "Hydrie",
     etymology: "Du grec hydría, dérivé de hýdôr, « eau »",
@@ -216,6 +222,12 @@ window.ART_TYPOLOGY_DEFINITIONS = {
     etymology: "Vaisselle de table raffinée",
     domain: "Céramique",
     def: "Vaisselle de table à paroi fine, engobée ou glaçurée, destinée au service d'apparat ou à l'ornementation."
+  },
+  "Pyxide / Boîte à couvercle": {
+    title: "Pyxide & Vase-boîte à couvercle",
+    etymology: "Du grec pyxís, « boîte en bois de buis »",
+    domain: "Céramique, Toilette & Rituels",
+    def: "Boîte ou vase cylindrique muni d'un couvercle amovible (servant à conserver les bijoux, fards ou encens), qui prend parfois en Étrurie orientalisante (Atelier de l'urne Calabresi) une ampleur monumentale à la croisée de la pyxide et du cratère."
   },
   "Rhyton": {
     title: "Rhyton",
@@ -957,6 +969,90 @@ window.ART_GLOSSARY = [
     category: "Iconographie de la Renaissance",
     def: "Composition picturale apparue au XVe siècle réunissant dans un même espace architectural unifié la Vierge à l'Enfant sur son trône et plusieurs saints d'époques différentes qui dialoguent silencieusement par le regard et le geste.",
     patterns: ["conversation sacree", "conversation sacrée", "sacra conversazione"]
+  },
+  {
+    term: "Dinos",
+    etymology: "Du grec ancien dînos (« vase arrondi »)",
+    category: "Vase de banquet",
+    def: "Grand chaudron de banquet à panse sphérique sans pied ni anses, posé sur un haut support mouluré pour mélanger l'eau et le vin au centre du symposion.",
+    patterns: ["dinoi", "dinos"]
+  },
+  {
+    term: "Pyxide",
+    etymology: "Du grec pyxís (« boîte en buis »)",
+    category: "Céramique & Toilette",
+    def: "Boîte cylindrique à couvercle servant à conserver bijoux, fards ou encens, parfois déclinée en Étrurie sous la forme d'un grand cratère-pyxide monumental.",
+    patterns: ["pyxides", "pyxide"]
+  },
+  {
+    term: "Géranomachie",
+    etymology: "Du grec géranos (« grue ») et mákhê (« combat »)",
+    category: "Mythologie grecque & étrusque",
+    def: "Combat mythique, mentionné dès le chant III de l'Iliade d'Homère, opposant le peuple légendaire des Pygmées aux grues migratrices venues hiverner sur les rivages de l'Océan.",
+    patterns: ["geranomachie", "géranomachie"]
+  },
+  {
+    term: "Lasa",
+    etymology: "Divinité ailée du panthéon étrusque",
+    category: "Religion étrusque",
+    def: "Divinité féminine ailée appartenant au cercle de Turan (déesse étrusque de l'amour et de la beauté, équivalent d'Aphrodite/Vénus) et associée au destin ainsi qu'au passage bienveillant vers l'au-delà.",
+    patterns: ["lasas", "lasa"]
+  },
+  {
+    term: "Klinè (pl. Klinai)",
+    etymology: "Du grec klínê, « lit de banquet »",
+    category: "Mobilier & Symposion",
+    def: "Lit de parade élevé sur lequel les convives grecs et étrusques s'allongeaient appuyés sur le coude gauche pour boire, converser et banqueter lors du symposion, ou sur lequel reposait le défunt dans les tombes étrusques.",
+    patterns: ["klinai", "kline", "klinè"]
+  },
+  {
+    term: "Himation",
+    etymology: "Du grec himátion, « manteau drapé »",
+    category: "Costume antique",
+    def: "Grand manteau rectangulaire de laine ou de lin drapé sans agrafe autour du corps, porté par les citoyens, les philosophes et les femmes en Grèce et en Étrurie.",
+    patterns: ["himation"]
+  },
+  {
+    term: "Chiton",
+    etymology: "Du grec khitốn, « tunique »",
+    category: "Costume antique",
+    def: "Tunique de lin ou de laine finement plissée, cousue ou retenue aux épaules par des fibules et resserrée à la taille par une ceinture.",
+    patterns: ["chitons", "chiton"]
+  },
+  {
+    term: "Barbotine",
+    etymology: "Boue d'argile liquide très fine",
+    category: "Technique céramique",
+    def: "Pâte d'argile délayée à l'eau jusqu'à la consistance d'une crème fluide : elle sert à coller les anses, à tracer des décors en léger relief ou, une fois enrichie d'oxydes de fer, à produire le vernis noir brillant des vases grecs et étrusques.",
+    patterns: ["barbotine"]
+  },
+  {
+    term: "Graffito",
+    etymology: "De l'italien graffiare, « griffer, inciser »",
+    category: "Épigraphie céramique",
+    def: "Inscription, marque marchande ou dédicace gravée à la pointe sèche sous le pied ou sur la paroi d'un vase après sa cuisson, indiquant le nom de son propriétaire ou son offrande funéraire.",
+    patterns: ["graffito", "graffiti"]
+  },
+  {
+    term: "Palmette",
+    etymology: "Ornement végétal en éventail",
+    category: "Motif décoratif antique",
+    def: "Motif ornemental stylisant une feuille de palmier ou de chèvrefeuille déployée en éventail symétrique, très prisé sur le col et sous les anses des vases grecs et étrusques.",
+    patterns: ["palmettes", "palmette"]
+  },
+  {
+    term: "Méandre (ou Grecque)",
+    etymology: "Du fleuve sinueux Méandre en Asie Mineure",
+    category: "Motif géométrique",
+    def: "Frise géométrique continue formée d'une ligne droite qui se replie sur elle-même à angles droits successifs, symbole d'éternité et de mouvement régulier encadrant les scènes peintes.",
+    patterns: ["frise de meandres", "meandres", "meandre", "méandres", "méandre"]
+  },
+  {
+    term: "Éphèbe",
+    etymology: "Du grec éphêbos, « jeune homme parvenu à l'adolescence »",
+    category: "Société & Iconographie antique",
+    def: "Jeune homme grec ou étrusque de l'aristocratie exercé aux jeux athlétiques de la palestre et du gymnase, incarnant l'idéal antique de beauté physique et d'éducation morale.",
+    patterns: ["ephebes", "ephebe", "éphèbes", "éphèbe"]
   }
 ];
 
