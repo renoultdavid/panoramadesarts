@@ -4,6 +4,289 @@
 window.ART_OBJECTS = [
   
    {
+    id: "sculpture_pretre_adj_ema_bois_polychrome_saqqarah_musee_imhotep",
+    civId: "egypte",
+    periodId: "egypte_ancien",
+    civName: "Égypte : Ancien Empire & Époque Thinite",
+    century: "Ve dynastie (vers -2500 av. J.-C. / Ancien Empire)",
+    centuryDisplay: "XXVe s. av. J.-C.",
+    centuryNumeric: -2500,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire privée & portraits",
+    title: "Statue en marche du prêtre Adj-Ema en bois polychrome (Saqqarah, Musée Imhotep)",
+    site: "Musée Imhotep (Saqqarah)",
+    originSite: "Nécropole de Saqqarah",
+    locationType: "museum",
+    currentLocation: "Musée Imhotep, Saqqarah",
+    category: "Statue en ronde-bosse en bois peint",
+    isHighlight: false,
+    chips: ["Ve dynastie", "Ancien Empire", "Adj-Ema", "Prêtre", "Bois polychrome", "Pagne plissé", "Saqqarah", "Musée Imhotep"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPCHpjdTKIb-ntS1M32cPvQvGS6Ti1mfGoDhOubfEaNvF3d8QKrGPqxyCl915X2STfAViLU1gO6tsjdIPrlM-mKlCvt8-i6rycWQvWSMbBW8OFLYZl86ZNH7eieaLux2Z_eSQaGIl08DaImmuSrj4gJiw=w613-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette œuvre remarquable représente le prêtre Adj-Ema (ou Adj-m-ha) et constitue un témoignage exceptionnel de la statuaire civile de l'Ancien Empire. Datant de la Ve dynastie, vers 2500 avant J.-C., elle a été découverte dans le riche complexe funéraire de Saqqarah, la grande nécropole de l'ancienne capitale Memphis.</p>
+    <p>La statue est taillée dans le bois, un matériau précieux à l'époque qui permettait une plus grande liberté de mouvement que la pierre. On observe ainsi un léger détachement des bras par rapport au corps, renforçant le réalisme de la silhouette. L'œuvre a conservé une grande partie de sa polychromie d'origine, avec des tons ocre-brun pour la peau, typiques de la représentation masculine égyptienne, soulignant la vitalité du défunt.</p>
+    <p>L'homme est représenté dans la pose classique de la marche, le pied gauche avancé, signe de mouvement et de vie éternelle. Il porte une courte perruque bouclée et soignée ainsi qu'un large collier ousekh peint sur sa poitrine. Son vêtement consiste en un pagne plissé complexe, retenu par une ceinture dont le nœud est finement détaillé.</p>
+    <p>L'expression du visage est empreinte d'une grande sérénité, avec des yeux autrefois incrustés qui conféraient au prêtre un regard profond tourné vers l'au-delà. Cette statue n'était pas un simple portrait, mais un support pour le Ka (l'énergie vitale) du défunt, lui permettant de recevoir les offrandes déposées dans sa tombe pour l'éternité.</p>
+    <p><strong>Siècle :</strong> XXVe siècle av. J.-C. (-2500) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_vizir_ptahhotep_ier_torse_bois_saqqarah_musee_imhotep",
+    civId: "egypte",
+    periodId: "egypte_ancien",
+    civName: "Égypte : Ancien Empire & Époque Thinite",
+    century: "Ve dynastie (vers -2450 av. J.-C. / règne de Djedkarê Isési)",
+    centuryDisplay: "XXVe s. av. J.-C.",
+    centuryNumeric: -2450,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire privée & portraits",
+    title: "Torse et tête en bois sculpté du vizir Ptahhotep Ier aux tenons d'assemblage (Saqqarah, Musée Imhotep)",
+    site: "Musée Imhotep (Saqqarah)",
+    originSite: "Mastaba de Ptahhotep (Saqqarah)",
+    locationType: "museum",
+    currentLocation: "Musée Imhotep, Saqqarah",
+    category: "Statue en ronde-bosse en bois sculpté",
+    isHighlight: false,
+    chips: ["Ve dynastie", "Ancien Empire", "Ptahhotep Ier", "Vizir", "Bois sculpté", "Tenons d'assemblage", "Saqqarah", "Musée Imhotep"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOL6b13uCMD1f1MMi7BzRJN7Nk0PavT0z-pYWIP5v6c3mLbSnfD4J-s7MowUriucP2MXJDF7oahSniDlOA2NTjh_6TfIfNC62o8LfsoENEH9F-U5T6PNP-NLg6kKpkCiiva-iFKcXyuNk24spvtG2iM-Q=w613-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette vue rapprochée met en lumière la virtuosité technique atteinte par les sculpteurs memphites dans la taille du bois au milieu de la Ve dynastie, vers 2450 avant notre ère. Découverte dans le complexe funéraire de Saqqarah, cette effigie du vizir Ptahhotep Ier — auteur vénéré des <em>Maximes de Ptahhotep</em> — illustre le traitement direct de l'essence ligneuse pour immortaliser les plus éminents serviteurs de la monarchie memphite.</p>
+    <p>Le visage, encadré d'une perruque courte à rangées serrées dégageant les oreilles, présente des traits individualisés d'une remarquable subtilité : l'arcade sourcilière ferme, les pommettes pleines et la commissure des lèvres esquissant une autorité bienveillante. Les cavités orbitaires, autrefois pourvues d'yeux incrustés en quartz et cristal de roche, conféraient au vizir une présence vivante destinée à franchir les siècles.</p>
+    <p>Au niveau des épaules, les orifices et mortaises rectangulaires témoignent du procédé de montage en pièces assemblées propre aux ateliers royaux d'ébénisterie sacrée. Cette technique permettait de sculpter indépendamment les bras tendus ou tenant les insignes de fonction avant de les cheviller au buste. Placé au fond du serdab, ce réceptacle du Ka assurait la survie éternelle de la mémoire et de la pensée morale du haut dignitaire.</p>
+    <p><strong>Siècle :</strong> XXVe siècle av. J.-C. (-2450) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_scribe_ptah_shepses_assis_tailleur_calcaire_saqqarah",
+    civId: "egypte",
+    periodId: "egypte_ancien",
+    civName: "Égypte : Ancien Empire & Époque Thinite",
+    century: "Ve dynastie (vers -2500 av. J.-C. / Ancien Empire)",
+    centuryDisplay: "XXVe s. av. J.-C.",
+    centuryNumeric: -2500,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire privée & portraits",
+    title: "Statue du scribe Ptah-Shepses assis en tailleur au papyrus déroulé en calcaire peint (Saqqarah, Musée Imhotep)",
+    site: "Musée Imhotep (Saqqarah)",
+    originSite: "Mastaba de Ptah-Shepses (Saqqarah)",
+    locationType: "museum",
+    currentLocation: "Musée Imhotep, Saqqarah",
+    category: "Statue de scribe en calcaire peint",
+    isHighlight: true,
+    chips: ["Ve dynastie", "Ancien Empire", "Ptah-Shepses", "Scribe en tailleur", "Papyrus", "Calcaire peint", "Saqqarah", "Musée Imhotep"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOlmpVVMM9tryO0gEI7iMDwhcGxtrwdbzuzt4_XMVV6hthHW_tDMDImhBJK9YAEG9yOT3x7nH5nla1Se1YoR4GX_YdEt3exWOSvs2LXdxa_K_yPSBA4aLiblOZBRVuCJ8C5Uy-DihgOKkf8IuRgbGCD7g=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette statue de calcaire peint représente Ptah-Shepses, un haut dignitaire et scribe ayant vécu vers 2500 avant notre ère, durant la Ve dynastie de l'Ancien Empire. Découverte dans son mastaba à Saqqarah, cette œuvre est un exemple remarquable de la statuaire de scribe « accroupi » ou « en tailleur », une pose iconique qui souligne l'importance administrative et intellectuelle du personnage au sein de la société pharaonique. La conservation de la peinture permet encore d'observer la carnation ocre rouge typique des hommes, ainsi que les détails de sa chevelure courte et frisée.</p>
+    <p>Ptah-Shepses est figuré dans l'exercice de sa fonction, assis les jambes croisées, un rouleau de papyrus partiellement déployé sur ses genoux. Son buste est droit, ses épaules larges et sa musculature légèrement marquée, dénotant une certaine vitalité physique associée à sa vigueur intellectuelle. Bien que les mains et une partie de la base soient érodées par le temps, la posture générale dégage une impression de concentration sereine, le regard dirigé vers l'horizon, prêt à consigner les ordres du souverain ou les comptes de l'État.</p>
+    <p>Le visage est traité avec un réalisme sobre, caractéristique du style de l'Ancien Empire qui cherche à capturer l'essence individuelle du défunt pour l'éternité. La perruque courte dégage le front et les oreilles, mettant en valeur des traits fermes. Cette statue n'était pas un simple portrait décoratif, mais un support pour le Ka, le double spirituel du défunt, lui permettant de résider dans le serdab de son tombeau et de recevoir les offrandes nécessaires à sa survie dans l'au-delà.</p>
+    <p>Le socle de la statue comporte des inscriptions en hiéroglyphes qui mentionnent les titres prestigieux de Ptah-Shepses, le liant directement au culte royal et à l'administration centrale. En tant que scribe, il maîtrisait le savoir sacré et technique, un privilège qui lui garantissait une place de choix auprès des dieux. Cette œuvre témoigne ainsi de l'apogée de l'art memphite, où la maîtrise technique du calcaire s'allie à une profondeur spirituelle pour défier le temps.</p>
+    <p><strong>Siècle :</strong> XXVe siècle av. J.-C. (-2500) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_scribe_accroupi_calcaire_peint_morgan_1893_saqqarah_caire",
+    civId: "egypte",
+    periodId: "egypte_ancien",
+    civName: "Égypte : Ancien Empire & Époque Thinite",
+    century: "Ve dynastie (vers -2475 av. J.-C. / règne de Sahourê ou Néferirkarê)",
+    centuryDisplay: "XXVe s. av. J.-C.",
+    centuryNumeric: -2475,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire privée & portraits",
+    title: "Le Scribe accroupi au papyrus de Saqqarah en calcaire peint (Découverte Morgan 1893, Musée égyptien du Caire)",
+    site: "Musée égyptien du Caire",
+    originSite: "Nécropole de Saqqarah",
+    locationType: "museum",
+    currentLocation: "Musée égyptien du Caire (salle Ancien Empire, CG 36)",
+    category: "Statue de scribe en calcaire peint",
+    isHighlight: true,
+    chips: ["Ve dynastie", "Ancien Empire", "Scribe accroupi", "Papyrus", "Calcaire peint", "Ocre rouge", "Jacques de Morgan", "Musée du Caire"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPfMqZ54myj0pxSMm5mg9rld_20Dm3yUkUynI6FeQ4Y0BeissbU8IC84oKOf3Dfs4Pv1p2DFNhdFfA4bnHCyOFFIOJ65JU9rW9W_0XCBAoJKkr3VLd5yng-l69zqASKwwMO62liue4Ps5PgA67hVcU8wg=w613-h919-s-no-gm?authuser=0",
+    narrative: `<p>Découverte à Saqqarah le 31 janvier 1893 par l'archéologue Jacques de Morgan, cette statue en calcaire peint date de la Ve dynastie, vers 2475-2465 avant notre ère. Elle mesure environ 51 cm de hauteur, une dimension proche de la coudée royale égyptienne, et représente un haut fonctionnaire anonyme dans une pose de méditation intellectuelle.</p>
+    <p>Le personnage est représenté assis en tailleur, le buste droit et le regard dirigé vers l'horizon, comme s'il attendait le moment de l'inspiration pour consigner des paroles divines ou administratives. Son visage est encadré par une perruque noire à rangs de boucles étagées qui dégage ses oreilles, un détail symbolique destiné à montrer qu'il est prêt à écouter les instructions avec attention. Ses yeux, cernés de khôl noir, sont réalisés avec une grande finesse pour capturer une expression de concentration intense et d'intelligence.</p>
+    <p>La polychromie de l'œuvre est exceptionnellement bien conservée : la peau est traitée en ocre-rouge, couleur traditionnelle pour les hommes en Égypte ancienne, contrastant avec le blanc éclatant de son pagne. Sur ses genoux est posé un rouleau de papyrus partiellement ouvert qu'il tient fermement, illustrant son rôle crucial de « maître de l'écrit ». Contrairement à d'autres statues plus idéalisées, ce scribe présente un modelé du corps assez souple, suggérant le statut social d'un homme qui mène une vie intellectuelle aisée loin des travaux physiques.</p>
+    <p>Destinée à être placée dans le serdab d'un mastaba, cette statue servait de réceptacle au « ka » du défunt, lui assurant une existence éternelle à travers l'image de sa fonction terrestre. Elle témoigne de l'excellence de la sculpture memphite de l'Ancien Empire, où le réalisme des traits et la vivacité du regard visaient à vaincre la mort en fixant pour toujours l'essence vitale de l'individu dans la pierre.</p>
+    <p><strong>Siècle :</strong> XXVe siècle av. J.-C. (-2475) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_scribe_assis_tailleur_calcaire_polychrome_saqqarah_caire",
+    civId: "egypte",
+    periodId: "egypte_ancien",
+    civName: "Égypte : Ancien Empire & Époque Thinite",
+    century: "Ve dynastie (vers -2465 av. J.-C. / époque memphite)",
+    centuryDisplay: "XXVe s. av. J.-C.",
+    centuryNumeric: -2465,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire privée & portraits",
+    title: "Statue d'un scribe en tailleur au papyrus sur les genoux en calcaire peint (Saqqarah, Musée égyptien du Caire)",
+    site: "Musée égyptien du Caire",
+    originSite: "Nécropole de Saqqarah",
+    locationType: "museum",
+    currentLocation: "Musée égyptien du Caire",
+    category: "Statue de scribe en calcaire peint",
+    isHighlight: false,
+    chips: ["Ve dynastie", "Ancien Empire", "Scribe en tailleur", "Papyrus", "Calcaire peint", "Ocre rouge", "Saqqarah", "Musée du Caire"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMlfmvGc6rJzYSs0Mjm6u3VzQU9i3sgzl_R7EXjEsxUGM8phJ6TD0hTgp3tEm8PRKUJ01bS1O7kk5qE91XE4KpSaV0zgEbdjqggKb9GLw8-Z-vZp1wzETaXYOpDMKfvnIRIeCeVoR2bW8BKOIpFq3bbuw=w613-h919-s-no-gm?authuser=0",
+    narrative: `<p>Découverte à Saqqarah, cette sculpture en calcaire peint date de la Ve dynastie, vers 2465 avant notre ère. Elle représente un haut dignitaire anonyme dans l'attitude caractéristique de sa fonction, assis en tailleur, les jambes croisées, illustrant l'importance cruciale de l'écrit dans l'administration pharaonique.</p>
+    <p>La statue se distingue par sa polychromie remarquablement préservée, avec un corps traité en ocre-rouge, couleur conventionnelle pour la peau masculine en Égypte ancienne. Le personnage porte une courte perruque noire et un pagne blanc qui s'étend sur ses genoux, servant de support au rouleau de papyrus qu'il tient partiellement déroulé. Son visage, marqué par une intense concentration, exprime la vigilance et la sérénité attendues d'un serviteur de l'État.</p>
+    <p>Contrairement au célèbre scribe du Louvre, cette œuvre présente une morphologie plus robuste et des traits légèrement différents, bien qu'elle partage le même réalisme saisissant dans le rendu du regard et des mains. Ces statues étaient placées dans les serdab des mastabas pour servir de support éternel au « ka » du défunt, lui permettant de poursuivre ses activités administratives et de recevoir des offrandes dans l'au-delà.</p>
+    <p>Le travail de sculpture sur le calcaire démontre une grande maîtrise technique, notamment dans le modelé du thorax et la précision des doigts. Cette pièce témoigne de l'âge d'or de la statuaire civile à Memphis, où les artistes parvenaient à capturer non seulement l'apparence physique, mais aussi le statut social et la dignité intellectuelle des élites lettrées de l'époque des pyramides.</p>
+    <p><strong>Siècle :</strong> XXVe siècle av. J.-C. (-2465) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_scribe_iykau_assis_collier_ousekh_saqqarah_caire",
+    civId: "egypte",
+    periodId: "egypte_ancien",
+    civName: "Égypte : Ancien Empire & Époque Thinite",
+    century: "Ve dynastie (vers -2465 av. J.-C. / époque memphite)",
+    centuryDisplay: "XXVe s. av. J.-C.",
+    centuryNumeric: -2465,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire privée & portraits",
+    title: "Statue du scribe et fonctionnaire Iykau assis au collier Ousekh en calcaire peint (Saqqarah, Musée égyptien du Caire)",
+    site: "Musée égyptien du Caire",
+    originSite: "Mastaba d'Iykau (Saqqarah)",
+    locationType: "museum",
+    currentLocation: "Musée égyptien du Caire",
+    category: "Statue en ronde-bosse en calcaire peint",
+    isHighlight: false,
+    chips: ["Ve dynastie", "Ancien Empire", "Iykau", "Scribe", "Collier Ousekh", "Siège à dossier bas", "Saqqarah", "Musée du Caire"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczObL4Rxw7ZKBeNyz_5-HqTCNIK0zDuDhz3f-8dnjtVU9FPmEaL5eCQmMP8zqFaQvbhQ0l_gxEySCs_y-JNAqJHPoQGFwosQRjSq-oBTBpO5d0CdpagLZbHvyRLHxLkSmkElXaWocK8zD1aPdjsd7jwP5g=w613-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette œuvre remarquable, découverte dans la nécropole de Saqqarah, représente le scribe Iykau. Datant de la Ve dynastie, vers 2465 avant notre ère, elle s'inscrit dans l'âge d'or de l'Ancien Empire, une période où l'art statuaire privé atteint un degré de réalisme et de sérénité exceptionnel. Taillée dans le calcaire puis peinte, la statue a conservé une polychromie vive qui nous permet d'apprécier les détails de la parure et de l'anatomie tels qu'ils étaient conçus il y a plus de quatre millénaires.</p>
+    <p>Iykau est figuré assis sur un siège à dossier bas, les mains posées à plat sur les cuisses dans une posture de dignité et de calme. Il porte une perruque courte aux boucles méticuleusement étagées, dégageant ses oreilles, et arbore un large collier ousekh peint sur sa poitrine. Son pagne blanc, noué à la taille, laisse apparaître un souci du détail dans le rendu des plis du tissu. La carnation ocre rouge, conventionnelle pour la représentation masculine en Égypte ancienne, souligne la vitalité du personnage.</p>
+    <p>Le visage est traité avec une grande sensibilité, montrant des traits individualisés qui suggèrent un véritable portrait plutôt qu'un idéal générique. Les yeux, autrefois incrustés pour donner de la profondeur au regard, fixent l'éternité avec une assurance tranquille. Cette statue n'était pas seulement une œuvre d'art, mais un réceptacle pour le Ka, l'énergie vitale du défunt, lui permettant de recevoir les offrandes et de participer symboliquement aux rites funéraires dans le serdab de son tombeau.</p>
+    <p>Le socle de la statue comporte des inscriptions hiéroglyphiques gravées et peintes qui déclinent l'identité et les titres du défunt. En tant que scribe et haut fonctionnaire, Iykau appartenait à l'élite lettrée qui administrait l'État pharaonique. La présence de cette statue dans sa sépulture assurait la survie de son nom et de sa fonction sociale dans l'au-delà, témoignant de la maîtrise technique des ateliers royaux de Memphis durant cette époque charnière de l'histoire égyptienne.</p>
+    <p><strong>Siècle :</strong> XXVe siècle av. J.-C. (-2465) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_double_statue_mersuankh_chef_chanteurs_gizeh_caire",
+    civId: "egypte",
+    periodId: "egypte_ancien",
+    civName: "Égypte : Ancien Empire & Époque Thinite",
+    century: "Ve dynastie (vers -2465 av. J.-C. / époque memphite)",
+    centuryDisplay: "XXVe s. av. J.-C.",
+    centuryNumeric: -2465,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire privée & portraits",
+    title: "Double statue marchante du chef des chanteurs Mersuankh en calcaire peint (Gizeh, Musée égyptien du Caire)",
+    site: "Musée égyptien du Caire",
+    originSite: "Mastaba de Mersuankh (Nécropole de Gizeh)",
+    locationType: "museum",
+    currentLocation: "Musée égyptien du Caire",
+    category: "Double statue en calcaire peint",
+    isHighlight: false,
+    chips: ["Ve dynastie", "Ancien Empire", "Mersuankh", "Chef des chanteurs", "Double statue", "Gizeh", "Musée du Caire"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOs442Xef_kTlU_b5npOJeq2MRvbSfQ0HgDlvjWGND70sL_7rxyrF9F5_P3rZhXBAqnrO7HNvsWZtOyvA7uNwIPrtbylRl1EmeyBbEZsu3Bmx6oTQ0sRl5isAIxsS8hxVqiE8jH7QxbeDlTG76YBYCqhQ=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Conservée au Musée égyptien du Caire, cette œuvre en calcaire peint représente deux fois le même personnage debout, côte à côte, dans une attitude de marche solennelle, le pied gauche porté en avant. Cette duplication du défunt sur un même socle est une caractéristique fascinante de la statuaire civile de cette période, visant à renforcer la présence magique du propriétaire de la tombe.</p>
+    <p>Les deux figures sont identiques dans leur traitement iconographique, portant chacune une courte perruque noire à boucles étagées et un pagne blanc plissé. Les corps sont robustes, avec une musculature sobrement modelée et une peau peinte en ocre-rouge, conformément aux conventions artistiques masculines. Les bras tombent le long du corps, les mains fermées sur des cylindres symboliques, tandis que les visages affichent l'expression sereine et les yeux soulignés de noir propres aux élites lettrées de l'époque des pyramides.</p>
+    <p>Des inscriptions hiéroglyphiques gravées sur le socle et sur le pilier dorsal mentionnent le nom de Mersuankh ainsi que ses titres officiels. En tant que « chef des chanteurs » ou responsable de la musique, Mersuankh jouissait d'un statut social élevé à la cour, lui permettant de s'offrir un monument funéraire de cette qualité. Ces textes garantissaient que son identité serait préservée et que son « ka » (l'âme) pourrait continuer à recevoir les invocations et les offrandes nécessaires à sa survie posthume.</p>
+    <p>L'œuvre témoigne de la maîtrise des sculpteurs de Memphis qui savaient insuffler une grande présence à des formes pourtant rigides et symétriques. L'excellente conservation de la polychromie originale nous permet de contempler aujourd'hui Mersuankh tel qu'il souhaitait apparaître pour l'éternité : un fonctionnaire accompli, vigoureux et prêt à servir son souverain dans l'au-delà.</p>
+    <p><strong>Siècle :</strong> XXVe siècle av. J.-C. (-2465) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_servante_brassant_biere_calcaire_saqqarah_caire",
+    civId: "egypte",
+    periodId: "egypte_ancien",
+    civName: "Égypte : Ancien Empire & Époque Thinite",
+    century: "Ve dynastie (vers -2450 av. J.-C. / époque memphite)",
+    centuryDisplay: "XXVe s. av. J.-C.",
+    centuryNumeric: -2450,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire privée & portraits",
+    title: "Statuette funéraire de servante brassant de la bière dans une jarre en calcaire peint (Saqqarah, Musée égyptien du Caire)",
+    site: "Musée égyptien du Caire",
+    originSite: "Mastaba de la nécropole de Saqqarah",
+    locationType: "museum",
+    currentLocation: "Musée égyptien du Caire",
+    category: "Statue de serviteur funéraire en calcaire peint",
+    isHighlight: false,
+    chips: ["Ve dynastie", "Ancien Empire", "Servante", "Brasserie", "Bière", "Scène de genre", "Saqqarah", "Musée du Caire"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczODFA5KGipAlUHHQzJAP9pQyJwGK0yc8P_0BJSDSGhzUkVKHYjco6xFj1LuQQ_qP23foAQb8-tDGlKTrpp87Gc9ROzsaatE63IPLE5u140sRd9RHhYoARfyKt26KjgpWkVRfJPfP4d5EeZ7a_R01Dl0LA=w613-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette statuette en calcaire peint, provenant de la nécropole de Saqqarah, représente une servante agenouillée en train de brasser de la bière ou de pétrir de la pâte. Datant de l'Ancien Empire, probablement de la Ve dynastie (vers 2450 avant notre ère), elle appartient à la catégorie des « serviteurs funéraires » destinés à assurer la subsistance éternelle du propriétaire de la tombe. Contrairement à la statuaire solennelle des propriétaires de tombes comme Iykau ou Ptah-Shepses, ces figurines capturent des gestes de la vie quotidienne avec un dynamisme et un réalisme saisissants.</p>
+    <p>Le mouvement de la femme est rendu avec une grande économie de moyens mais une efficacité remarquable : elle est penchée en avant, les bras tendus plongeant dans une large jarre à col évasé. Son visage, tourné vers la droite, semble attentif à sa tâche, tandis que sa perruque courte dégage sa nuque. La polychromie conserve des traces d'ocre pour la peau et de noir pour les cheveux, soulignant la volonté des artisans de l'époque de créer un substitut vivant capable de répéter son geste indéfiniment.</p>
+    <p>La bière était, avec le pain, la base de l'alimentation égyptienne et une composante essentielle des offrandes funéraires. En plaçant une telle statuette dans le serdab ou le caveau, le défunt s'assurait magiquement une production inépuisable de boisson fraîche. Cette pièce illustre parfaitement la transition artistique de l'Ancien Empire où l'on commence à inclure des scènes de genre tridimensionnelles pour compléter les reliefs muraux des mastabas.</p>
+    <p>Aujourd'hui conservée au musée du Caire, cette œuvre témoigne de la maîtrise des sculpteurs memphites qui savaient insuffler de la vie dans la pierre la plus simple. Elle offre un contraste fascinant avec les statues de dignitaires assis, rappelant que l'éternité égyptienne était une reproduction idéale de la société terrestre, où chaque fonction, même la plus humble, était indispensable au maintien de l'équilibre cosmique et au confort du mort.</p>
+    <p><strong>Siècle :</strong> XXVe siècle av. J.-C. (-2450) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_servante_filtre_biere_calcaire_gizeh_caire",
+    civId: "egypte",
+    periodId: "egypte_ancien",
+    civName: "Égypte : Ancien Empire & Époque Thinite",
+    century: "Ve dynastie (vers -2465 av. J.-C. / époque memphite)",
+    centuryDisplay: "XXVe s. av. J.-C.",
+    centuryNumeric: -2465,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire privée & portraits",
+    title: "Statuette d'une femme filtrant la bière à travers un tamis en calcaire peint (Gizeh, Musée égyptien du Caire)",
+    site: "Musée égyptien du Caire",
+    originSite: "Mastaba de la nécropole de Gizeh",
+    locationType: "museum",
+    currentLocation: "Musée égyptien du Caire",
+    category: "Statue de serviteur funéraire en calcaire peint",
+    isHighlight: false,
+    chips: ["Ve dynastie", "Ancien Empire", "Femme préparant la bière", "Tamisage", "Serviteur funéraire", "Gizeh", "Musée du Caire"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPvHbh_H_z9rGU7dWQ7zNoPojlzEksjMlQex9_-zO7O7tdeLOEDZ4BfxEl7NjnW49ZtgDGrY2xlpXaPQwvUD072EHdp_j1RKVu85O-N5XGJqBzoWcnOZsLkZDZQ7rApfwaIAYpVjkm_2yM9cOMjqnNb5w=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette statuette en calcaire peint, découverte dans un mastaba de la nécropole de Gizeh, représente une servante agenouillée occupée à l'une des étapes cruciales de la fabrication de la bière : le pressurage ou le filtrage du moût fermenté à travers un tamis au-dessus d'une grande cuve collectrice. Datée de la Ve dynastie, vers 2465 avant notre ère, elle fait partie de la catégorie des statuettes de serviteurs funéraires destinées à garantir l'approvisionnement perpétuel du maître de la sépulture.</p>
+    <p>L'artisan memphite a capté avec un réalisme vigoureux la tension corporelle exigée par la tâche : la jeune femme est penchée en avant, les bras fermement appuyés sur le panier de filtration pour exprimer le liquide vers le récipient inférieur. Ses hanches et ses jambes repliées forment un bloc compact assurant la stabilité de la pièce calcaire. La tête, ornée d'une perruque courte dégageant les épaules, est relevée avec vigilance, animée par des yeux grands ouverts autrefois peints de khôl noir.</p>
+    <p>La polychromie conserve la teinte ocre jaune claire conventionnellement attribuée aux femmes de l'Égypte antique, contrastant avec les récipients en terre cuite figurés dans des tons bruns et rouges. Complétant les bas-reliefs des mastabas qui décrivaient les travaux des champs et des ateliers, cette scène de genre tridimensionnelle permettait au Ka du dignitaire défunt d'activer magiquement une nourriture et une boisson fraîches pour l'éternité.</p>
+    <p><strong>Siècle :</strong> XXVe siècle av. J.-C. (-2465) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_dignitaire_debout_marche_pagne_blanc_vie_dynastie_caire",
+    civId: "egypte",
+    periodId: "egypte_ancien",
+    civName: "Égypte : Ancien Empire & Époque Thinite",
+    century: "Fin Ve – début VIe dynastie (vers -2465 à -2350 av. J.-C. / Ancien Empire)",
+    centuryDisplay: "XXVe – XXIVe s. av. J.-C.",
+    centuryNumeric: -2400,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire privée & portraits",
+    title: "Statue marchante d'un dignitaire memphite au pagne blanc triangulaire en calcaire peint (Saqqarah, Musée égyptien du Caire)",
+    site: "Musée égyptien du Caire",
+    originSite: "Mastaba de Saqqarah",
+    locationType: "museum",
+    currentLocation: "Musée égyptien du Caire",
+    category: "Statue en ronde-bosse en calcaire peint",
+    isHighlight: false,
+    chips: ["VIe dynastie", "Ancien Empire", "Dignitaire marchant", "Pagne triangulaire", "Calcaire peint", "Saqqarah", "Musée du Caire"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNWDy3d60agtNM4MckmeBRObtUjqoBCOKgbUX8g8vp0ob6GIqie-htyo_Y_NOPjUG0_hcMX_WpDM-1FOzwzGFKE9WeQUWRnjxmBrLo64mCh2IwqzzC6kiO23eMHVjtHDlB-5xOgapNP2PWIBTgcqfl4wA=w613-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette statue de calcaire peint, découverte à Saqqarah, représente un haut fonctionnaire de l’Ancien Empire, datant de la fin de la Ve dynastie ou du début de la VIe dynastie, aux environs de 2465 avant notre ère. Bien que souvent identifiée par le grand public à la figure générique du scribe en raison de sa posture et de son origine, elle incarne plus largement l'idéal de l'élite administrative égyptienne, dont la maîtrise de l'écriture constituait le socle du pouvoir et du prestige social.</p>
+    <p>L'œuvre se distingue par un naturalisme saisissant, typique des ateliers royaux de Memphis. Le personnage est représenté debout, dans une attitude de marche conventionnelle, le pied gauche en avant, les bras le long du corps avec les poings serrés qui tenaient initialement des sceptres ou des rouleaux de lin aujourd'hui disparus. Son visage, encadré par une perruque courte aux boucles soigneusement étagées, affiche une expression de sérénité et d'autorité, soulignée par des yeux autrefois incrustés qui devaient donner au regard une profondeur vivante.</p>
+    <p>Le traitement anatomique du torse révèle une attention particulière aux détails musculaires, traduisant une vigueur physique associée à la jeunesse éternelle souhaitée pour l'au-delà. L'homme porte un pagne plissé de couleur blanche, dont la forme triangulaire rigide est caractéristique de la mode de l'Ancien Empire. Cette pièce vestimentaire, par son ampleur et sa propreté, servait de marqueur de statut social, distinguant l'aristocrate du simple travailleur manuel.</p>
+    <p>Destinée à être placée dans le serdab, une pièce close du mastaba, cette statue servait de réceptacle au « ka », l'énergie vitale du défunt. En cas de destruction de la momie, elle permettait à l'esprit de continuer à recevoir les offrandes funéraires et de garantir ainsi l'immortalité du nom. Aujourd'hui conservée au Musée égyptien du Caire, elle demeure l'un des témoignages les plus éloquents de la perfection technique atteinte par les sculpteurs égyptiens il y a plus de quatre millénaires.</p>
+    <p><strong>Siècle :</strong> XXIVe siècle av. J.-C. (vers -2400) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_dignitaire_marche_bois_peint_vie_dynastie_louvre",
+    civId: "egypte",
+    periodId: "egypte_ancien",
+    civName: "Égypte : Ancien Empire & Époque Thinite",
+    century: "VIe dynastie (vers -2300 av. J.-C. / fin de l'Ancien Empire)",
+    centuryDisplay: "XXIIIe s. av. J.-C.",
+    centuryNumeric: -2300,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire privée & portraits",
+    title: "Statue élancée d'un haut dignitaire en marche en bois peint (VIe dynastie, Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Saqqarah ou Moyenne-Égypte",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes)",
+    category: "Statue en ronde-bosse en bois sculpté et peint",
+    isHighlight: false,
+    chips: ["VIe dynastie", "Ancien Empire", "Statue en bois", "Dignitaire marchant", "Perruque étagée", "Serdab", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPMtEJoCZORfH6nb2gtsQbKKPaI0Wfz2-q1A048ORLtaoRJNISku-RJmpa2MfpXh2XB4rbrBxSUFqILSFCAaI5EXDtAvCITtflg74-F--LuuQtbSUgEc9GDSxAgVFXvUnK1ZJkjXfOXgQnkonyQJZLicg=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette statue de bois peint de la VIe dynastie représente un haut dignitaire dans l'attitude classique de la marche, le pied gauche porté en avant. Le corps est sculpté avec une recherche de finesse et d'élancement qui caractérise la fin de l'Ancien Empire. Le personnage est représenté nu ou portant initialement un vêtement peint aujourd'hui disparu, laissant apparaître une anatomie svelte. Il arbore une perruque courte et arrondie, composée de petites boucles serrées qui dégagent les oreilles, un style capillaire sobre typique des fonctionnaires de cette période.</p>
+    <p>Le visage, aux traits légèrement émaciés, conserve une expression de grande dignité. Les yeux, autrefois rehaussés par une peinture noire, fixent l'éternité avec intensité. Bien que le bras gauche soit partiellement manquant, la posture générale exprime la détermination. La technique de sculpture sur bois a permis ici une liberté de mouvement et un détachement des membres plus importants que dans la statuaire en pierre, conférant à l'œuvre une présence presque vivante. Des traces de polychromie rougeâtre subsistent sur le torse et les membres, rappelant que la statue était autrefois intégralement peinte pour masquer les veines du bois.</p>
+    <p>Destinée au serdab d'un mastaba, cette effigie servait de réceptacle au Ka du défunt, lui permettant de continuer à exister et de recevoir les bénéfices des rites funéraires. La fragilité apparente du bois, marquée par quelques fissures naturelles, n'altère en rien la noblesse de la pièce qui témoigne de la continuité des traditions artisanales memphites malgré l'approche de la Première Période Intermédiaire. La statue incarne parfaitement l'idéal de l'administrateur égyptien, prêt à franchir le seuil de l'au-delà.</p>
+    <p><strong>Siècle :</strong> XXIIIe siècle av. J.-C. (-2300) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+   {
     id: "sculpture_dignitaire_sepa_baton_commandement_calcaire_iiie_louvre",
     civId: "egypte",
     periodId: "egypte_ancien",
