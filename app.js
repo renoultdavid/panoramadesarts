@@ -1100,13 +1100,21 @@ function populateModalData(art) {
   modalCivTitle.textContent = art.civName || '';
   modalArtworkTitle.textContent = art.title;
   
-    modalChips.innerHTML = '';
+  modalChips.innerHTML = '';
   if (art.chips) {
     art.chips.forEach(chip => {
-      const span = document.createElement('span');
-      span.className = 'attr-chip';
-      span.textContent = chip;
-      modalChips.appendChild(span);
+      const btnChip = document.createElement('button');
+      btnChip.type = 'button';
+      btnChip.className = 'attr-chip is-clickable';
+      btnChip.title = `Voir toutes les œuvres avec l'étiquette « ${chip} »`;
+      btnChip.textContent = chip;
+      btnChip.addEventListener('click', (e) => {
+        e.stopPropagation();
+        if (typeof window.filterGalleryByChip === 'function') {
+          window.filterGalleryByChip(chip);
+        }
+      });
+      modalChips.appendChild(btnChip);
     });
   }
 
@@ -1938,6 +1946,7 @@ function initSearchEngine() {
 
   if (filterText) {
     filterText.addEventListener('input', () => {
+      activeChipExactFilter = '';
       if (artistHero && !artistHero.hidden) {
         const heroName = (artistHeroName ? artistHeroName.textContent : '').toLowerCase().trim();
         if (filterText.value.toLowerCase().trim() !== heroName) {
@@ -1960,6 +1969,7 @@ function initSearchEngine() {
 
   if (btnReset) {
     btnReset.addEventListener('click', () => {
+      activeChipExactFilter = '';
       if (artistHero) artistHero.hidden = true;
       if (corpusDashboard) corpusDashboard.hidden = true;
       if (corpusSourceDrawer) corpusSourceDrawer.hidden = true;
@@ -1974,6 +1984,47 @@ function initSearchEngine() {
     });
   }
 
+  // Filtrage transversal au clic sur une étiquette (chip) depuis la fiche d'une œuvre
+  window.filterGalleryByChip = function(chipValue) {
+    if (!chipValue) return;
+    const cleanChip = String(chipValue).trim();
+
+    // 1. Fermer la modale de l'œuvre (et la lightbox si ouverte)
+    if (modal) {
+      modal.classList.remove('open');
+      if (modalImg) modalImg.src = '';
+    }
+    if (artworkLightbox) {
+      artworkLightbox.hidden = true;
+      if (artworkLightboxImg) artworkLightboxImg.src = '';
+    }
+
+    // 2. Basculer vers la vue Galerie / Moteur de recherche si on était sur la Frise
+    if (viewSearch && viewSearch.hidden) {
+      switchView('view-search');
+    }
+
+    // 3. Réinitialiser les filtres restrictifs et fermer une éventuelle fiche peintre
+    if (artistHero) artistHero.hidden = true;
+    if (corpusDashboard) corpusDashboard.hidden = true;
+    if (corpusSourceDrawer) corpusSourceDrawer.hidden = true;
+    if (btnFilterFocus) btnFilterFocus.classList.remove('is-active');
+    if (filterCiv) filterCiv.value = 'all';
+    if (filterDomain) filterDomain.value = 'all';
+    updatePeriodDropdown();
+    updateTypeDropdown();
+
+    // 4. Appliquer le filtre sur l'étiquette cliquée
+    activeChipExactFilter = cleanChip;
+    if (filterText) filterText.value = cleanChip;
+    currentRenderLimit = PAGE_CHUNK;
+    renderSearchGallery();
+
+    // 5. Remonter en haut de la galerie pour afficher les résultats
+    if (searchGalleryScroll) searchGalleryScroll.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   if (btnLoadMore) {
     btnLoadMore.addEventListener('click', () => {
       currentRenderLimit += PAGE_CHUNK;
@@ -1987,8 +2038,13 @@ function initSearchEngine() {
 /* ==========================================================================
    RENDU DE LA GALERIE AVEC DOUBLE COMPATIBILITÉ (ANCIEN & NOUVEAU SCHÉMA)
    ========================================================================== */
-// Variable globale pour mémoriser si le filtre Focus est actif
+// Variable globale pour mémoriser si le filtre Focus ou un filtre par étiquette (chip) est actif
 let focusOnlyActive = false;
+let activeChipExactFilter = '';
+
+function normalizeSearchStr(str) {
+  return String(str || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim();
+}
 
 // Extrait une année numérique fiable pour le tri et le découpage en décennies
 function getArtworkYearNumeric(art) {
@@ -2150,14 +2206,28 @@ function renderSearchGallery() {
       if (!matchDirect && !matchAlab) return false;
     }
 
-    // 5. Recherche libre (artiste, lieu, matière, titre)
+    // 5. Recherche libre ou filtrage transversal par étiquette (chip)
     if (query && !isArtistView) {
-      const matchTitle = item.title && item.title.toLowerCase().includes(query);
-      const matchSite = item.site && item.site.toLowerCase().includes(query);
-      const matchNarrative = item.narrative && item.narrative.toLowerCase().includes(query);
-      const matchChips = item.chips && item.chips.some(c => c.toLowerCase().includes(query));
-      const matchArtist = item.artist && item.artist.toLowerCase().includes(query);
-      if (!matchTitle && !matchSite && !matchNarrative && !matchChips && !matchArtist) return false;
+      const normQuery = normalizeSearchStr(query);
+      const isChipMode = activeChipExactFilter && normalizeSearchStr(activeChipExactFilter) === normQuery;
+
+      if (isChipMode) {
+        const matchChip = item.chips && item.chips.some(c => {
+          const nc = normalizeSearchStr(c);
+          return nc === normQuery || nc.includes(normQuery);
+        });
+        const matchTitle = normalizeSearchStr(item.title).includes(normQuery);
+        const matchSite = normalizeSearchStr(item.site).includes(normQuery) || normalizeSearchStr(item.currentLocation).includes(normQuery);
+        const matchArtist = normalizeSearchStr(item.artist).includes(normQuery);
+        if (!matchChip && !matchTitle && !matchSite && !matchArtist) return false;
+      } else {
+        const matchTitle = item.title && normalizeSearchStr(item.title).includes(normQuery);
+        const matchSite = item.site && normalizeSearchStr(item.site).includes(normQuery);
+        const matchNarrative = item.narrative && normalizeSearchStr(item.narrative).includes(normQuery);
+        const matchChips = item.chips && item.chips.some(c => normalizeSearchStr(c).includes(normQuery));
+        const matchArtist = item.artist && normalizeSearchStr(item.artist).includes(normQuery);
+        if (!matchTitle && !matchSite && !matchNarrative && !matchChips && !matchArtist) return false;
+      }
     }
 
     return true;

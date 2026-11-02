@@ -1536,6 +1536,21 @@ body {
   padding: 3px 8px;
   border-radius: 3px;
   color: #c4cad8;
+  transition: all 0.2s ease;
+}
+
+.attr-chip.is-clickable {
+  cursor: pointer;
+}
+
+.attr-chip.is-clickable:hover,
+.attr-chip.is-clickable:focus-visible {
+  background: rgba(212, 175, 55, 0.18);
+  border-color: var(--gold-pure);
+  color: var(--gold-pale);
+  transform: translateY(-1px);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.45);
+  outline: none;
 }
 
 .modal-narrative {
