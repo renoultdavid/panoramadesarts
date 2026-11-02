@@ -4,6 +4,282 @@
 window.ART_OBJECTS = [
   
    {
+    id: "sculpture_couple_quartzite_brun_amenhotep_iii_saqqara_louvre",
+    civId: "egypte",
+    periodId: "egypte_nouvel",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1360 av. J.-C. / règne d'Amenhotep III)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1360,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire privée & portraits",
+    title: "Statue de couple assis en quartzite brun (Règne d'Amenhotep III, Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Saqqarah-Nord",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes, A 55)",
+    category: "Groupe statuaire en quartzite brun",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Nouvel Empire", "Amenhotep III", "Quartzite brun", "Couple assis", "Saqqarah", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/d/11hLJFFN1McLmLPGw1pf73r-LVI6VfhMp",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczONGi_5nP5-uQ_JmFgNmFwUHrKRQ2vqVpL5EO6F44d9fRG_bVKskbP4xX5wZZsxrZH3gH3MU4Q2D5jhQS87-ns8U8kflWy3s5lEOSKeDzuvinF5dGLe1gnCFmUwPvprKPgOoy1NHIDop_CWfA8My24AQg=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette statue de couple en quartzite brun, datant du règne prestigieux d'Amenhotep III, est un exemple remarquable de la statuaire civile de la XVIIIe dynastie. Elle représente un haut fonctionnaire et son épouse assis côte à côte sur un siège à dossier haut. L'œuvre frappe par son équilibre et sa sérénité, caractéristiques de l'« âge d'or » du Nouvel Empire, où les conventions artistiques atteignent un sommet de classicisme et de raffinement.</p>
+    <p>L'homme, situé à la droite de son épouse, porte une perruque enveloppante striée et un costume civil élégant composé d'une tunique à manches courtes et d'un long pagne plissé. Sa femme arbore une perruque tripartite volumineuse et une robe fourreau ajustée. Conformément aux codes de l'iconographie funéraire, elle pose tendrement son bras derrière les épaules de son mari, un geste symbolisant l'union éternelle du couple dans l'au-delà. Les visages, bien que légèrement érodés, conservent des traits idéalisés avec des yeux en amande et un modelé doux des pommettes, reflétant l'esthétique royale de l'époque.</p>
+    <p>Le choix du quartzite, une pierre particulièrement dure et difficile à travailler, témoigne du rang social élevé des commanditaires. Les surfaces de la statue, notamment sur les pans des vêtements et le dossier du siège, sont couvertes de colonnes d'inscriptions hiéroglyphiques. Ces textes mentionnent les noms et titres des défunts ainsi que des formules d'offrandes adressées aux dieux de la région memphite. Provenant probablement d'une chapelle funéraire à Saqqara-Nord, cette statue servait de réceptacle pour le ka (l'énergie vitale) du couple, leur permettant de recevoir éternellement les hommages des vivants.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1360) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_couple_fragmentaire_calcaire_amenhotep_ii_thebes_louvre",
+    civId: "egypte",
+    periodId: "egypte_nouvel",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1420 av. J.-C. / règne d'Amenhotep II)",
+    centuryDisplay: "XVe s. av. J.-C.",
+    centuryNumeric: -1420,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire privée & portraits",
+    title: "Buste d'un groupe statuaire de couple en calcaire peint (Règne d'Amenhotep II, Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Nécropole de Thèbes-Ouest",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes, E 12964)",
+    category: "Groupe statuaire en calcaire peint",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Nouvel Empire", "Amenhotep II", "Couple thébain", "Collier Ousekh", "Polychromie", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/d/11hLJFFN1McLmLPGw1pf73r-LVI6VfhMp",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNDKUkEF90G5ciQk0gCGsAnAzMI7o1UNJqmBibna2FqR9n53495Qpw0Oy1mkmuX8Pz7znFORjwMICmiLG1liOaFfK4YX6-t6xy8mgH0Aiya-QFn4Eo1RSd6oTZd524wIzJrva_WWnuQ3a5jGReMW58qbA=w1221-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette statue fragmentaire en calcaire peint, datant du règne d'Amenhotep II, représente un couple de l'élite égyptienne. Bien qu'il ne subsiste que la partie supérieure des corps, l'œuvre demeure un témoignage précieux du style de la XVIIIe dynastie, caractérisé par une élégance sobre et une polychromie vive qui permet de distinguer clairement les deux époux.</p>
+    <p>L'homme, à droite, présente une peau brune intense, conforme aux conventions artistiques masculines. Il arbore une perruque courte aux boucles méticuleusement étagées, dégageant ses oreilles, et un visage aux traits réguliers. Son épouse, dont la peau est d'un jaune pâle traditionnel, porte une perruque « enveloppante » très volumineuse, ornée d'un bandeau floral peint sur le sommet. Elle porte un large collier ousekh multicolore et une robe blanche dont les bretelles sont finement soulignées.</p>
+    <p>L'expression des visages, avec leurs yeux en amande et un léger sourire, dégage une sérénité propre à l'« âge d'or » du Nouvel Empire. Ce monument était initialement placé dans la chapelle d'une tombe à Thèbes Ouest, où il servait de support au culte funéraire. La proximité des deux visages et la qualité du rendu des parures soulignent l'importance du couple dans la société égyptienne et leur désir de rester unis, parés de leurs plus beaux atours, pour l'éternité.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1420) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_groupe_familial_fragmentaire_amenhotep_iii_calcaire_louvre",
+    civId: "egypte",
+    periodId: "egypte_nouvel",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1370 av. J.-C. / règne d'Amenhotep III)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1370,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire privée & portraits",
+    title: "Groupe familial fragmentaire d'un fonctionnaire, son épouse et leur fils en calcaire (Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Thèbes ou Saqqarah",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes)",
+    category: "Groupe statuaire en calcaire",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Nouvel Empire", "Amenhotep III", "Groupe familial", "Mèche de l'enfance", "Hiéroglyphes", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/d/11hLJFFN1McLmLPGw1pf73r-LVI6VfhMp",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOdrzY1wh5t10rClo_THb-zfEYSJW1Hrk7I-XiB1GAMiz_wpmSctn8vcW3a_O4NylN8TRDhl6nLj8xLRDRke0TJCX3KicIII5DCao3Bb6KvKvqSq2UbwFHNfHPd0Nm7qOyOr58ifO9GPt2XaphaDk_Sxg=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette statue de groupe en calcaire, datant du règne d'Amenhotep III, représente une famille de l'élite égyptienne dans une composition classique de la XVIIIe dynastie. Bien que fragmentaire — le buste du père ayant disparu — l'œuvre conserve toute sa finesse et témoigne du haut degré de personnalisation des monuments funéraires de cette période. On y voit un homme et son épouse assis sur un siège à dossier haut, accompagnés de leur jeune fils debout à la droite de son père.</p>
+    <p>L'épouse, à droite, est représentée avec une élégance remarquable. Elle porte une perruque « enveloppante » très volumineuse, finement travaillée pour imiter une multitude de petites tresses, et une robe fourreau ajustée. Le fils, de taille réduite conformément aux conventions de l'époque pour marquer la hiérarchie familiale et l'âge, porte la « mèche de l'enfance » et un pagne simple. La position des mains et la proximité des corps soulignent la cohésion du groupe, une valeur fondamentale que le défunt souhaitait emporter dans l'éternité.</p>
+    <p>La particularité de cette statue réside dans ses colonnes de hiéroglyphes gravées sur les jambes des personnages et sur le devant du siège. Ces inscriptions fournissent les noms et les titres des membres de la famille, assurant ainsi la survie de leur identité. Le calcaire blanc, autrefois probablement rehaussé de peinture, a été sculpté avec une douceur de modelé caractéristique du XIVe siècle av. J.-C., période où le raffinement des formes atteint son apogée sous l'influence de la cour d'Amenhotep III.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1370) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_femme_assise_sceptre_menat_calcaire_amenhotep_ii_louvre",
+    civId: "egypte",
+    periodId: "egypte_nouvel",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1420 av. J.-C. / règne d'Amenhotep II)",
+    centuryDisplay: "XVe s. av. J.-C.",
+    centuryNumeric: -1420,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire privée & portraits",
+    title: "Statue d'une femme noble assise tenant un attribut hathorique en calcaire (Règne d'Amenhotep II, Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Thèbes ou Haute-Égypte",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes)",
+    category: "Statue en ronde-bosse en calcaire",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Nouvel Empire", "Amenhotep II", "Statuaire féminine", "Perruque tripartite", "Ménat", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/d/11hLJFFN1McLmLPGw1pf73r-LVI6VfhMp",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPg_O8BIsgaeJAMjDt0z2uZR0d2lat8C5QReQpEGgNneG83AEg5ZqqmmhQWbb93k3PLHPvWLllJrVVxQ0y9Pk4VhPFSDf7rneCAnYkC8dnKaWydT7eqnv-sc9WIcNQaQpnHynU7JlVPtkTz1e_BgeNcbQ=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette statue en calcaire, datant du règne d'Amenhotep II, représente une femme de l'élite assise avec dignité sur un siège à dossier bas. Elle illustre parfaitement le style classique et robuste du milieu de la XVIIIe dynastie, avant le raffinement extrême qui caractérisera la fin du siècle sous Amenhotep III. La figure féminine est représentée dans une attitude de calme éternel, les mains posées à plat sur les cuisses, dans la posture traditionnelle de la statuaire civile.</p>
+    <p>La femme porte une perruque tripartite imposante, dont les mèches sont gravées avec une précision géométrique. Ce type de coiffure, dégageant le visage et tombant largement sur les épaules, est emblématique de la mode de la période. Elle est vêtue d'une robe fourreau ajustée qui souligne la puissance du modelé du corps, typique du règne d'Amenhotep II où les formes conservent une certaine vigueur athlétique. Entre ses mains, elle tient un objet, probablement un sceptre floral ou un contrepoids de collier menat, symbolisant sa protection par la déesse Hathor.</p>
+    <p>Le siège cubique est particulièrement intéressant car il sert de support à une inscription hiéroglyphique dense gravée sur les côtés. Ces textes, disposés en colonnes régulières, contiennent les formules rituelles habituelles d'offrandes ainsi que les noms et titres de la déesse ou de la défunte, assurant sa subsistance spirituelle dans l'au-delà. La conservation du calcaire permet d'apprécier la clarté de la gravure et la maîtrise des proportions qui font de cette pièce un exemple type de la dévotion privée sous le Nouvel Empire.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1420) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_groupe_familial_debout_amenhotep_ii_boubastis_louvre",
+    civId: "egypte",
+    periodId: "egypte_nouvel",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1420 av. J.-C. / règne d'Amenhotep II)",
+    centuryDisplay: "XVe s. av. J.-C.",
+    centuryNumeric: -1420,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire privée & portraits",
+    title: "Groupe familial debout d'un dignitaire, son épouse et leur enfant avec table d'offrandes (Boubastis, Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Boubastis (Tell Basta, Delta oriental)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes, A 61)",
+    category: "Groupe statuaire en calcaire peint",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Nouvel Empire", "Boubastis", "Amenhotep II", "Groupe familial debout", "Guéridon d'offrandes", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/d/11hLJFFN1McLmLPGw1pf73r-LVI6VfhMp",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMJ8xERy7qONFrXEIOLPZU3-TBRKuPfXvVBQSvTwoRkxuAftpWNMh6r_Fd7-RktpBWKKBTNKfywhfdPRKfw9R7g7u1gOexRUZDvtIJoAn22eh66QUMRnxOVnDG_sSZ5wfk9-h5c1D7yLSNjBujVPcj7ng=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette statue de groupe familial, réalisée en calcaire peint, illustre parfaitement l'art de la haute société égyptienne sous le règne d'Amenhotep II. Le monument met en scène un haut fonctionnaire et son épouse, debout côte à côte sur un socle commun, accompagnés de leur jeune enfant placé entre eux deux. L'homme, vêtu du pagne long plissé caractéristique du Nouvel Empire, arbore une perruque courte aux boucles soigneusement étagées et une fine barbe postiche. Sa femme, drapée dans une robe moulante qui souligne une silhouette élégante, porte une perruque tripartite imposante et un large collier ousekh, symboles de sa noblesse et de sa beauté.</p>
+    <p>L'aspect le plus touchant de cette œuvre réside dans la représentation de l'unité familiale et de l'affection. L'épouse enlace son mari par l'épaule, tandis que l'enfant, représenté nu avec la mèche de l'enfance, se tient debout à leurs pieds près d'un petit guéridon d'offrandes. Ce type de groupe statuaire n'était pas seulement un portrait, mais servait de substitut magique aux défunts pour qu'ils puissent continuer à recevoir les hommages et les nourritures spirituelles dans leur tombe. Les traces de pigments rouges encore visibles sur la peau de l'homme rappellent les codes de couleurs conventionnels de l'époque : ocre rouge pour les hommes, actifs à l'extérieur, et ocre jaune ou pâle pour les femmes, dont les activités étaient plus domestiques.</p>
+    <p>La provenance supposée de Boubastis, dans le Delta, souligne l'importance des centres provinciaux dans la production artistique de la XVIIIe dynastie. Les inscriptions hiéroglyphiques gravées sur le devant du pagne masculin et sur le socle assurent la pérennité des noms des membres de la famille, condition sine qua non de leur survie dans l'au-delà. Le style se caractérise par une douceur des traits et un modelé corporel souple, annonçant le raffinement extrême qui atteindra son apogée quelques décennies plus tard.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1420) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_couple_djehoutynefer_epouse_thoutmosis_iii_louvre",
+    civId: "egypte",
+    periodId: "egypte_nouvel",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1450 av. J.-C. / règne de Thoutmosis III)",
+    centuryDisplay: "XVe s. av. J.-C.",
+    centuryNumeric: -1450,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire privée & portraits",
+    title: "Statue assise du scribe royal Djéhoutynefer et de son épouse (Tombe TT A.6, Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Tombe TT A.6 (Nécropole thébaine, Thèbes-Ouest)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes, A 54)",
+    category: "Groupe statuaire en calcaire fin",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Nouvel Empire", "Djéhoutynefer", "Thoutmosis III", "Scribe royal", "TT A.6", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/d/11hLJFFN1McLmLPGw1pf73r-LVI6VfhMp",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczO9cSG9DGwQQxH4Lcz7GyuAcn27Wb-gaFv_QZsEq0y9y9GHaITa7gi_jC6CPaES7FcnjSXCwdrv1SVsm1fDApzdf2Y9WwOpeEbtxFw5yj57g1FGp_spci7OCwtcj21QER10ddOzN6Y6P0mdrig1cTdvOA=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette œuvre sculptée représente le couple formé par Djéhoutynefer et son épouse, une pièce emblématique de la statuaire civile de la XVIIIe dynastie égyptienne. Taillée dans un calcaire fin, la statue suit les conventions classiques du groupe assis sur un siège à haut dossier, une forme privilégiée pour assurer la présence éternelle des défunts dans leur tombe ou dans un temple. Le personnage masculin, Djéhoutynefer, occupait des fonctions prestigieuses de scribe royal et de messager du roi, des titres qui soulignent sa proximité avec le pouvoir sous le règne de Thoutmosis III. Il est représenté ici avec une perruque striée courte et une barbe postiche, les mains posées sur ses cuisses dans une attitude de dignité sereine.</p>
+    <p>Son épouse, dont la silhouette est d'une grande finesse, est assise à sa gauche. Elle porte la perruque tripartite longue, caractéristique de la mode féminine du Nouvel Empire, qui encadre un visage aux traits doux et idéalisés. Un détail remarquable de cette sculpture réside dans le geste d'affection discret mais puissant : elle place son bras droit derrière les épaules de son mari, un symbole d'union indéfectible dans l'au-delà. Les vêtements sont rendus avec une simplicité volontaire pour mettre en valeur les lignes du corps, tandis que des colonnes de hiéroglyphes gravées sur le devant de leurs pagnes respectifs permettent d'identifier les défunts et de formuler des prières pour leur subsistance éternelle.</p>
+    <p>La provenance de la statue, probablement la tombe TT A. 6 située dans la nécropole thébaine, renforce son caractère funéraire. À cette époque, l'art égyptien atteint un sommet de raffinement sous l'influence du développement impérialiste de Thoutmosis III. Le style se caractérise par une transition entre la rigueur du début de la dynastie et l'élégance plus souple qui préfigurera la période amarnienne. La conservation des inscriptions est essentielle, car elle transforme l'objet de simple effigie de pierre en un réceptacle vivant pour le « ka » (l'énergie vitale) du couple, leur permettant de recevoir les offrandes pour l'éternité.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1450) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_statuette_piay_bois_post_amarnien_toutankhamon_louvre",
+    civId: "egypte",
+    periodId: "egypte_nouvel",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1330 av. J.-C. / règne de Toutânkhamon)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1330,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire privée & portraits",
+    title: "Statuette en bois du dignitaire Piay en costume plissé post-amarnien (Règne de Toutânkhamon, Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Memphis ou Saqqarah",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes, E 11523)",
+    category: "Statue en ronde-bosse en bois sculpté",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Nouvel Empire", "Piay", "Toutânkhamon", "Style post-amarnien", "Bois sculpté", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/d/11hLJFFN1McLmLPGw1pf73r-LVI6VfhMp",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNZkP_misQVBKzmP2BOWQw4dpCg6JLzoi8X_xDDwGMFrvAD2bSwOSkC4jjPO0qnfecOPPiJlzOVgpz52_bxL9O0f70ouiq46FuecS4dK6xPcXi0ZYH8_jzgasTnE_1uTMumgwW9iiH8sFeJ2_ReCdNANQ=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette statuette en bois représente Piay, un personnage de haut rang ayant vécu sous le règne de Toutânkhamon. L'œuvre s'inscrit dans la tradition de la sculpture sur bois memphite, réputée pour sa finesse et sa capacité à capturer l'élégance des parures civiles à la fin de la XVIIIe dynastie. Le personnage est figuré debout, dans une attitude de marche, vêtu d'un costume complexe qui témoigne du luxe des étoffes de lin de l'époque, avec un pagne à devanteau plissé et une tunique aux manches amples et finement nervurées.</p>
+    <p>Le visage de Piay, encadré par une imposante perruque de type « enveloppante » dont les mèches sont méticuleusement sculptées, reflète l'esthétique post-amarnienne. On y retrouve les yeux en amande étirés vers les tempes et un modelé du corps qui conserve une certaine souplesse, héritée des réformes artistiques d'Akhenaton, tout en revenant vers un classicisme plus serein. Le travail du sculpteur sur le bois est remarquable, parvenant à rendre la texture différente des cheveux, de la peau et du textile, malgré la disparition d'une partie de la polychromie originelle qui devait autrefois rehausser l'éclat de la statue.</p>
+    <p>Piay porte également un large collier ousekh sculpté en relief sur sa poitrine, signe de sa distinction sociale et de la faveur royale. Ce type de statuette était généralement placé dans la chapelle funéraire du défunt pour servir de support à son « ka » (énergie vitale) lors des rites d'offrandes. Elle constitue un exemple exceptionnel de la virtuosité des ateliers royaux de la fin du Nouvel Empire, capables de transformer une pièce de bois en un portrait d'une grande noblesse et d'une finesse quasi textile.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1330) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_paire_porte_enseignes_amon_horus_bois_deir_el_medina_louvre",
+    civId: "egypte",
+    periodId: "egypte_nouvel",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1250 av. J.-C. / époque ramesside)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1250,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire privée & portraits",
+    title: "Paire de statuettes de porte-enseignes divines d'Amon-Bélier et d'Horus-Faucon en bois (Deir el-Médineh, Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Deir el-Médineh (Thèbes-Ouest)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes)",
+    category: "Statuettes votives en bois sculpté",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Nouvel Empire", "Époque ramesside", "Porte-enseigne", "Amon-Bélier", "Horus-Faucon", "Deir el-Médineh", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/d/11hLJFFN1McLmLPGw1pf73r-LVI6VfhMp",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczO5WdzPqQ9oQfkQRQJ-IALpPxDXJAZ5ykbkpoA3-8bE-zhMKdsIGSDtDQrVNkefIWFMkeWXukfy6qJenVKm_cF6VxEnBBNPD04p_pthCAbsgSyLh1QmB-6qGvwbNzoHcPR2XYEn8wgAC87LGYBNuGg_dg=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ces deux statuettes en bois représentent des hauts fonctionnaires ou des artisans de haut rang dans l'attitude classique du porte-enseigne. Ils sont vêtus du pagne plissé long, caractéristique de l'élégance de l'époque ramesside, et portent des perruques sophistiquées.</p>
+    <p>Chaque personnage tient un mât surmonté d'une effigie divine : la figurine de gauche porte une enseigne à tête de bélier, symbole du dieu Amon-Rê ; la figurine de droite porte une enseigne à tête de faucon, associée au dieu Horus ou Rê-Horakhty.</p>
+    <p>Ces objets étaient souvent déposés dans les tombes pour souligner la piété du défunt et son lien privilégié avec les divinités protectrices de la monarchie ou de la nécropole. La finesse de la sculpture suggère un travail issu des ateliers des « Artisans de la Tombe » de Deir el-Médineh.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1250) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_ramose_cartouches_ramses_ii_puits_1114_louvre",
+    civId: "egypte",
+    periodId: "egypte_nouvel",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1250 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1250,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire privée & portraits",
+    title: "Statue du scribe Ramosé aux cartouches royaux de Ramsès II (Deir el-Médineh, puits 1114, Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Puits 1114 (Deir el-Médineh, Thèbes-Ouest)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes, E 16346)",
+    category: "Statue en ronde-bosse en calcaire",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Nouvel Empire", "Ramosé", "Ramsès II", "Cartouches royaux", "Deir el-Médineh", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/d/11hLJFFN1McLmLPGw1pf73r-LVI6VfhMp",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNios30i4pc8stY0iE4egBGvFUJPVG7S-332iEHNoowLoxz2w4hsNcGQdz5etbY6WeEELvwGyZDNjXb2ufSh3e9Jzk8PYH1Q_-PTKJeYnDqFx2S1aV4e6X5ATtyCSWqg3Uqzs3UAObvkcpEYINMo8iPHw=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette statue représente un haut fonctionnaire de la XIXe dynastie, identifié comme étant Ramosé, dans une posture d'élégance et de dévotion typique du règne de Ramsès II. Le personnage porte un costume civil raffiné, composé d'un large manteau à manches évasées et plissées, ainsi qu'un pagne long également plissé. Sa perruque est particulièrement imposante, retombant sur ses épaules en larges pans striés, ce qui souligne son statut social élevé au sein de la cour ou de l'administration royale.</p>
+    <p>La statue est remarquable par la présence de cartouches royaux gravés directement sur les épaules et la poitrine du personnage. Cette pratique, fréquente à l'époque ramesside, symbolise l'attachement indéfectible du fonctionnaire à son souverain, Ramosé se plaçant littéralement sous la protection et l'autorité de Ramsès II. Les traits du visage, bien que marqués par le temps, conservent une expression de sérénité propre à l'idéal esthétique de cette période.</p>
+    <p>Découverte dans le puits 1114, cette œuvre faisait partie du mobilier funéraire de Ramosé à Deir el-Médineh. Contrairement aux statues destinées aux temples, celle-ci avait pour rôle de perpétuer l'image du défunt dans sa tombe, servant de support physique à son « ka » pour recevoir les offrandes et assurer sa survie éternelle.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1250) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_theophore_ramose_osiris_isis_puits_1114_louvre",
+    civId: "egypte",
+    periodId: "egypte_nouvel",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1250 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1250,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire privée & portraits",
+    title: "Statue théophore du scribe Ramosé présentant Osiris et Isis en calcaire polychrome (Puits 1114, Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Puits 1114 (Deir el-Médineh, Thèbes-Ouest)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes, E 16347)",
+    category: "Statue théophore en calcaire polychrome",
+    isHighlight: true,
+    chips: ["XIXe dynastie", "Nouvel Empire", "Ramosé", "Statue théophore", "Osiris", "Isis", "Deir el-Médineh", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/d/11hLJFFN1McLmLPGw1pf73r-LVI6VfhMp",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOcTIorbYvjhqDEAS8Gvc_U6r8LwH-CvEs_1o-2i40Y1bec-XOWWjysVbIJCIWYhkRBAO7j27Zg1LWprP33o6nHj3Q_7RgOviYDpY1vYc7ixdEdKzQ-LHh3qHbqNezRoLKMLXPt1_93w73ulW64y5ZBog=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette statue théophore en calcaire polychrome représente un haut dignitaire, probablement Ramosé, tenant devant lui les figures de deux divinités majeures. Contrairement aux statues naophores où la divinité est enfermée dans un petit sanctuaire, la statue théophore présente les dieux directement portés ou embrassés par le fidèle, soulignant un lien d'intimité et de protection immédiate.</p>
+    <p>Le personnage porte la grande perruque de fête à double étage, très en vogue sous le règne de Ramsès II, ainsi qu'un ample vêtement de lin plissé qui témoigne de son rang social élevé. Les deux divinités qu'il présente sont Osiris, dieu des morts, reconnaissable à sa couronne Atef et sa posture momiforme, et probablement la déesse Isis ou une autre divinité protectrice. Cette œuvre a été retrouvée dans le puits 1114, lié à la tombe de Ramosé, un scribe important de la nécropole thébaine.</p>
+    <p>La présence de traces de pigments rouges sur la peau du personnage et de bleu sur les perruques rappelle que la statuaire égyptienne était originellement vivement colorée. Placée dans la chapelle funéraire, cette statue permettait au défunt de bénéficier éternellement de la présence des dieux auxquels il avait dédié sa piété de son vivant.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1250) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "armes_hache_ceremonielle_ahmosis_ier_or_electrum_dra_abou_el_naga_louxor",
+    civId: "egypte",
+    periodId: "egypte_nouvel",
+    civName: "Égypte : Nouvel Empire",
+    century: "Début de la XVIIIe dynastie (vers -1550 av. J.-C. / règne d'Ahmôsis Ier)",
+    centuryDisplay: "XVIe s. av. J.-C.",
+    centuryNumeric: -1550,
+    domain: "armes_armures",
+    artifactType: "Arme blanche / Épée / Poignard",
+    title: "Hache cérémonielle d'apparat du pharaon Ahmôsis Ier en bronze, électrum et or (Dra Abou el-Naga, Musée de Louxor)",
+    site: "Musée de Louxor / Musée égyptien du Caire",
+    originSite: "Tombe de la reine Iahhotep (Dra Abou el-Naga, Thèbes)",
+    locationType: "museum",
+    currentLocation: "Musée de Louxor / Musée national de la civilisation égyptienne (NMEC), Le Caire (JE 4673)",
+    category: "Arme de parade et orfèvrerie en bronze, électrum, or et bois de cèdre",
+    isHighlight: true,
+    chips: ["XVIIIe dynastie", "Nouvel Empire", "Ahmôsis Ier", "Reine Iahhotep", "Hache cérémonielle", "Électrum", "Cloisonné", "Dra Abou el-Naga"],
+    deptBanner: "https://lh3.googleusercontent.com/d/11hLJFFN1McLmLPGw1pf73r-LVI6VfhMp",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP82ncOXoUrm0ZgzfIwLvcR1f2PzozpAG3EBWLXojJPvud72D6-oKW1ZtEiOM30pUepkCB4dkNH13-cq5diQNO1G68Hw025qD-8xfqfrQs7aEp7Tv0RuP2gSvPa1o7frnFDh1joXh_o5GAjsr2vqveOqg=w689-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette pièce d'orfèvrerie exceptionnelle est la hache cérémonielle du pharaon Ahmôsis Ier, fondateur de la XVIIIe dynastie et du Nouvel Empire. Découverte dans la tombe de sa mère, la reine Iahhotep, à Dra Abou el-Naga (Thèbes), elle témoigne du raffinement technique atteint par les artisans égyptiens vers 1550 avant notre ère. Bien que l'arme soit fonctionnelle dans sa forme, la richesse de ses matériaux — l'or, l'électrum, le cuivre et les incrustations de pierres semi-précieuses — confirme sa destination purement honorifique et rituelle.</p>
+    <p>La lame en bronze, recouverte d'une épaisse feuille d'électrum, présente une décoration d'une finesse inouïe réalisée selon la technique du cloisonné. Sur une face, on distingue le roi Ahmôsis abattant un ennemi, symbolisant le triomphe de l'ordre sur le chaos après l'expulsion des Hyksos. Le registre central affiche les cartouches royaux entourés de motifs floraux et de divinités protectrices, tandis que l'autre face présente souvent une figure de sphinx ailé, iconographie rare soulignant la puissance guerrière du souverain.</p>
+    <p>Le manche en bois de cèdre est entièrement gainé d'or, rythmé par des bagues décoratives qui simulent les ligatures traditionnelles des haches de combat. La tête de la hache est fixée au manche par des fils d'or torsadés, démontrant une maîtrise parfaite de la bijouterie monumentale. Cette arme symbolise non seulement le pouvoir militaire d'Ahmôsis, mais aussi la légitimité retrouvée d'une lignée thébaine ayant réussi à réunifier l'Égypte après une longue période d'occupation étrangère.</p>
+    <p>Aujourd'hui conservée au musée de la Civilisation égyptienne (NMEC), au Musée du Caire ou prêtée au Musée de Louxor selon les expositions, cette hache demeure l'un des plus beaux exemples de l'art du métal au début du Nouvel Empire. Elle incarne la transition entre la sobriété du Moyen Empire et l'opulence décorative qui caractérisera les règnes suivants, notamment celui de Thoutmôsis III. Chaque détail, du poli du métal aux nuances des pâtes de verre et lapis-lazuli, concourt à faire de cet instrument de guerre un joyau d'une valeur inestimable.</p>
+    <p><strong>Siècle :</strong> XVIe siècle av. J.-C. (-1550) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Armes & Armures.</p>`
+  },
+   {
     id: "sculpture_niankhpepikem_porteur_sac_coffret_bois_meir_caire",
     civId: "egypte",
     periodId: "egypte_ancien",
