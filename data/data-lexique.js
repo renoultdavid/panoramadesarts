@@ -1340,5 +1340,55 @@ window.ART_GLOSSARY = [
     def: "Sépulture monumentale de l'époque hellénistique (vers -150 av. J.-C.) dont les parois peintes en trompe-l'œil figurent des fausses portes de l'au-delà gardées par le démon psychopompe ailé Charun brandissant son marteau d'airain.",
     patterns: ["tombe des charons", "tomba dei caronti"]
   }
+,
+  {
+    term: "Amphore panathénaïque",
+    etymology: "Du grec Panathếnaia, « fête de tous les Athéniens »",
+    category: "Céramique officielle athénienne",
+    def: "Vase de prestige en céramique à figures noires remis comme prix aux vainqueurs des épreuves sportives des Grandes Panathénées à Athènes. Rempli d'huile sacrée des oliviers d'Athéna, il porte obligatoirement l'effigie d'Athéna Promachos d'un côté et la représentation de l'épreuve victorieuse de l'autre.",
+    patterns: ["amphore panathenaique", "amphore panathénaïque", "amphores panathenaiques", "amphores panathénaïques", "panathenaique", "panathénaïque"]
+  },
+  {
+    term: "Athéna Promachos",
+    etymology: "Du grec prómachos, « qui combat au premier rang, championne »",
+    category: "Iconographie religieuse grecque",
+    def: "Épithète et type iconographique de la déesse Athéna représentée casquée, avançant d'un pas conquérant tout en brandissant sa lance de combat et son bouclier protecteur (l'égide).",
+    patterns: ["athena promachos", "athéna promachos", "promachos"]
+  },
+  {
+    term: "Gigantomachie",
+    etymology: "Du grec Gigantomakhía, de Gígas (Géant) et mákhê (bataille)",
+    category: "Mythologie grecque",
+    def: "Combat cosmogonique de la mythologie grecque opposant les dieux de l'Olympe aux Géants révoltés, symbolisant le triomphe de l'ordre cosmique, de la civilisation et de la raison sur les forces chaotiques et sauvages de la nature.",
+    patterns: ["gigantomachie", "gigantomachies"]
+  },
+  {
+    term: "Style de West Slope",
+    etymology: "Du versant ouest (West Slope) de l'Acropole d'Athènes où ce style a été identifié",
+    category: "Céramique hellénistique",
+    def: "Technique décorative de l'époque hellénistique (IIIe–IIe s. av. J.-C.) caractérisée par des motifs peints en blanc, jaune et ocre (guirlandes végétales, lierre, rubans) appliqués sur une couverte de vernis noir brillant, souvent combinée à des godrons imitant le métal.",
+    patterns: ["west slope", "style de west slope"]
+  },
+  {
+    term: "Peintre d'Andokidès",
+    etymology: "Du nom du potier Andokidès dont il peignait les vases à Athènes",
+    category: "Peintre céramique attique",
+    def: "Artiste athénien actif vers 530–515 av. J.-C., considéré par les historiens de l'art comme l'inventeur de la technique de la figure rouge et le maître incontesté des vases bilingues (combinant figures noires sur une face et figures rouges sur l'autre).",
+    patterns: ["peintre d'andokides", "peintre d'andokidès", "andokides", "andokidès"]
+  },
+  {
+    term: "Prothesis",
+    etymology: "Du grec próthesis, « exposition publique »",
+    category: "Rites funéraires grecs",
+    def: "Cérémonie funéraire de la Grèce antique au cours de laquelle le corps du défunt, lavé, oint d'huiles et paré d'un linceul, était exposé solennellement sur un lit de parade entouré des pleureuses et de la famille avant le convoi funèbre (ekphora).",
+    patterns: ["prothesis"]
+  },
+  {
+    term: "Kalokagathia",
+    etymology: "Du grec kalòs k'agathós, « beau et bon »",
+    category: "Philosophie & Idéal civique grec",
+    def: "Idéal éthique et aristocratique de la Grèce classique associant harmonieusement l'excellence physique (beauté, vigueur sportive) et la vertu morale (courage, tempérance, sagesse).",
+    patterns: ["kalokagathia", "kalos kagathos"]
+  }
 ];
 
