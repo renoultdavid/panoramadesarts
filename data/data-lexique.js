@@ -205,6 +205,12 @@ window.ART_TYPOLOGY_DEFINITIONS = {
     domain: "Céramique de banquet",
     def: "Pichet à vin à une seule anse verticale et à embouchure souvent trilobée (en feuille de trèfle) ou à bec relevé, permettant de puiser le vin mélangé dans le cratère pour le verser avec précision dans les coupes des convives."
   },
+  "Olla sur support (holmos)": {
+    title: "Olla sur haut support ajouré (holmos)",
+    etymology: "Du latin olla (« marmite, chaudron ») et grec ólmos (« support »)",
+    domain: "Céramique étrusque d'apparat",
+    def: "Ensemble monumental composé d'un grand vase globulaire (l'olla) reposant sur un haut pied tronconique ajouré (le holmos), orné de perforations géométriques et de protomes plastiques en relief. Pièce maîtresse des banquets aristocratiques de Caeré (Cerveteri) au VIIe siècle av. J.-C."
+  },
   "Pithos / Jarre": {
     title: "Pithos & Grande jarre",
     etymology: "Du grec ancien píthos",
@@ -1053,6 +1059,83 @@ window.ART_GLOSSARY = [
     category: "Société & Iconographie antique",
     def: "Jeune homme grec ou étrusque de l'aristocratie exercé aux jeux athlétiques de la palestre et du gymnase, incarnant l'idéal antique de beauté physique et d'éducation morale.",
     patterns: ["ephebes", "ephebe", "éphèbes", "éphèbe"]
+  },
+  {
+    term: "Hydrie cérétaine",
+    etymology: "Production de Caeré (Cerveteri) influencée par l'Ionie",
+    category: "Céramique étrusque",
+    def: "Série très rare et prestigieuse d'hydries à figures noires créées à Caeré vers 530-510 av. J.-C. par des peintres d'origine ionienne (Peintre de l'Aigle, Peintre de Busiris). Elles se distinguent par une riche polychromie (rehauts blancs et pourpres) et un sens aigu de la narration, teinté d'humour et de caricature mythologique.",
+    patterns: ["hydries ceretaines", "hydrie ceretaine", "hydries cérétaines", "hydrie cérétaine"]
+  },
+  {
+    term: "Olla",
+    etymology: "Du latin olla, « chaudron, marmite »",
+    category: "Céramique & Rituels",
+    def: "Grand récipient ventru à ouverture large utilisé pour la cuisson, le stockage, le service du vin ou comme urne cinéraire dans l'Italie préromaine et à Rome.",
+    patterns: ["ollas", "olla"]
+  },
+  {
+    term: "Holmos",
+    etymology: "Du grec ólmos, « mortier, support »",
+    category: "Mobilier & Céramique d'apparat",
+    def: "Haut pied tronconique ajouré ou support de grand vase en terre cuite ou en bronze, servant à rehausser une olla ou un chaudron de banquet au VIIe siècle av. J.-C. en Étrurie.",
+    patterns: ["holmoi", "holmos"]
+  },
+  {
+    term: "Style des Chèvres Sauvages",
+    etymology: "En anglais : Wild Goat Style (Ionie / Milet, v. -650 à -580)",
+    category: "Céramique grecque orientale",
+    def: "Style céramique d'Asie Mineure (Ionie, avec Milet pour foyer majeur) caractérisé par des frises superposées de bouquetins (chèvres sauvages) et d'oiseaux aquatiques marchant ou galopant, séparés par un semis dense de motifs floraux (rosettes, méandres) témoignant de l'horreur du vide.",
+    patterns: ["chevres sauvages", "chèvres sauvages", "wild goat style"]
+  },
+  {
+    term: "Groupe Pontique",
+    etymology: "Nom de convention (ateliers en réalité situés à Vulci en Étrurie)",
+    category: "Céramique étrusque à figures noires",
+    def: "Important atelier étrusque à figures noires actif à Vulci dans la seconde moitié du VIe siècle av. J.-C. Malgré son appellation trompeuse (fondée sur des rapprochements erronés avec la mer Noire), il s'agit d'artisans grecs d'Ionie émigrés en Étrurie, réputés pour leurs couleurs vives, leurs guerriers nerveux et leurs frises de lotus.",
+    patterns: ["groupe pontique", "vases pontiques", "vase pontique"]
+  },
+  {
+    term: "Groupe du Fantôme",
+    etymology: "En anglais : Phantom Group (Étrurie méridionale, IVe s. av. J.-C.)",
+    category: "Céramique étrusque surpeinte",
+    def: "Atelier étrusque tardif produisant des vases à vernis noir où les personnages et décors sont directement peints en blanc crème sans incision ni réserve, donnant aux silhouettes une allure spectrale et évanescente d'une étonnante modernité graphique.",
+    patterns: ["groupe du fantome", "groupe du fantôme", "phantom group"]
+  },
+  {
+    term: "Céramique de Gnathia",
+    etymology: "De la cité d'Egnazia en Apulie (Grande-Grèce)",
+    category: "Céramique hellénistique",
+    def: "Style de céramique à vernis noir brillant apparu au IVe siècle av. J.-C. où les motifs (guirlandes de lierre et de laurier, oiseaux, masques de théâtre, instruments de musique) sont directement peints en surpeinture blanche, jaune dorée et pourpre.",
+    patterns: ["style de gnathia", "vases de gnathia", "vase de gnathia", "gnathia"]
+  },
+  {
+    term: "Protome",
+    etymology: "Du grec protomê, « partie antérieure, buste »",
+    category: "Sculpture & Céramique plastique",
+    def: "Représentation en ronde-bosse de la partie antérieure d'un animal (tête et encolure de lion, de cheval, de taureau, de bélier) ou d'un buste humain servant d'applique, de poignée ou de couronnement sur un vase ou un meuble.",
+    patterns: ["protomes", "protome"]
+  },
+  {
+    term: "Léonté",
+    etymology: "Du grec leontê, « peau de lion »",
+    category: "Attribut héroïque",
+    def: "Dépouille du lion invincible de Némée, premier des Travaux d'Héraklès (Hercule). Le héros la revêt en armure impénétrable, nouant les pattes avant sur sa poitrine et coiffant la gueule du fauve en guise de casque.",
+    patterns: ["leonte", "léonté"]
+  },
+  {
+    term: "Pétase",
+    etymology: "Du grec pétasos, « chapeau de feutre à large bord »",
+    category: "Costume antique",
+    def: "Chapeau de feutre ou de paille à larges bords ronds porté par les cavaliers, les chasseurs et les voyageurs, attribut caractéristique du dieu Hermès (Turms en Étrurie), souvent doté de deux petites ailes.",
+    patterns: ["petases", "petase", "pétases", "pétase"]
+  },
+  {
+    term: "Caducée",
+    etymology: "Du grec kêrýkeion, « bâton de héraut »",
+    category: "Symbole divin & pacifique",
+    def: "Bâton d'olivier ou de laurier entouré de deux serpents entrelacés et surmonté de deux ailes, attribut du dieu Hermès (Turms en Étrurie) garantissant l'immunité diplomatique et le pouvoir de guider les âmes vers l'au-delà.",
+    patterns: ["caducees", "caducee", "caducées", "caducée"]
   }
 ];
 

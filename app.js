@@ -1323,7 +1323,7 @@ const TAXONOMY_DOMAINS = {
       "Alabastre", "Amphore", "Antéfixe / Plaque architecturale", "Aryballe",
       "Askos", "Calice", "Canthare", "Cratère", "Cruche", "Dinos", "Hydrie",
       "Jatte / Écuelle", "Kernos", "Kylix / Coupe", "Lampe à huile",
-      "Lécythe", "Oenochoé", "Pithos / Jarre", "Plat",
+      "Lécythe", "Oenochoé", "Olla sur support (holmos)", "Pithos / Jarre", "Plat",
       "Plat & Céramique fine", "Pyxide / Boîte à couvercle", "Rhyton",
       "Vase", "Vase à étrier", "Vase balustre",
       "Vase en pierre (albâtre, calcite)", "Vase plastique / Zoomorphe"
