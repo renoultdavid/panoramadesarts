@@ -4,6 +4,56 @@
 window.ART_OBJECTS = [
   
    {
+    id: "vie_quotidienne_trois_situles_onguents_faience_bleue_ramses_ii_louvre",
+    civId: "egypte",
+    periodId: "egypte_nouvel",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1250 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1250,
+    domain: "vie_quotidienne",
+    artifactType: "Cosmétique, Toilette & Beauté",
+    title: "Ensemble de trois situles à onguents royaux en faïence bleue aux cartouches de Ramsès II (Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Thèbes ou Pi-Ramsès",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes)",
+    category: "Vases à onguent en faïence siliceuse",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Ramsès II", "Situle", "Faïence bleue", "Onguent corporel", "Pétales de lotus", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/d/11hLJFFN1McLmLPGw1pf73r-LVI6VfhMp",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMgPfqFJ66-X_pvGnu2N--9xY3IJz6QFcYhcZ1MtsECQl4yZwwCTJACZ6A_HLq9jKXYKbSap5xB7gHFM_EomRYE6THQ2e3jQ9Ww16mfERNkoaUx5n5SsQU49MyBvir_pJvy5j8JXq1dEgHmUOeJhZW_Qg=w1221-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ces trois vases de type situle, réalisés en faïence siliceuse d'un bleu intense, constituent un ensemble exceptionnel datant du règne de Ramsès II. Bien que leur forme évoque des récipients de temple utilisés pour les libations, leur contenu retrouvé — des fragments d'étoffe imbibés d'une matière brunâtre — a longtemps laissé supposer un usage par des embaumeurs pour des produits de momification. Cependant, des analyses chimiques récentes sur les parois ont révélé des traces de graisse de porc, suggérant que ces vases contenaient initialement un onguent corporel précieux.</p>
+    <p>Le décor de ces situles est d'une grande finesse technique. La partie supérieure est ornée d'une frise géométrique et de motifs de gouttes, tandis que la base est décorée d'un motif floral représentant des pétales de lotus en fleurs, symboles de renaissance et de régénération. Au centre de chaque vase, un panneau rectangulaire encadre les cartouches royaux de Ramsès II, surmontés du disque solaire et des plumes de la vérité, affirmant l'origine royale de ces objets de luxe.</p>
+    <p>L'utilisation de la faïence bleue, obtenue grâce à l'oxydation du cuivre, n'était pas seulement esthétique ; elle portait une charge symbolique liée au Nil et au renouveau de la vie. Ces pièces témoignent de la maîtrise des arts du feu sous la XIXe dynastie, où la brillance de la glaçure imitait les pierres semi-précieuses comme le lapis-lazuli ou la turquoise.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1250) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Vie quotidienne & Sciences.</p>`
+  },
+  {
+    id: "vie_quotidienne_aryballe_gourde_verre_moule_sur_noyau_louvre",
+    civId: "egypte",
+    periodId: "egypte_nouvel",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1450 à -1400 av. J.-C. / Thoutmosis III – Amenhotep II)",
+    centuryDisplay: "XVe s. av. J.-C.",
+    centuryNumeric: -1425,
+    domain: "vie_quotidienne",
+    artifactType: "Verrerie profane",
+    title: "Gourde à anses (aryballe) à décor de festons en verre moulé sur noyau (Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Thèbes ou Haute-Égypte",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes)",
+    category: "Flacon à parfum en verre moulé sur noyau",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Verrerie", "Aryballe", "Moulage sur noyau", "Festons", "Huiles parfumées", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/d/11hLJFFN1McLmLPGw1pf73r-LVI6VfhMp",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPNlNn12Qv4Ievc7DmgFhFWsMf0EXGToGhjvl8XngKrB3ib8_n79nk8MsfST1gQY5npw715X7e8D1uBkuTdeVkCeb5zNGgb8ZCHdFI8znHWrRiD03LUamozLsjgCs81Nl3QNRTNNxqJNVxFXWmJVo7XgQ=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette petite gourde à anses, ou aryballe, est un témoignage exceptionnel de la maîtrise du verre au début de la XVIIIe dynastie. À cette époque, le verre est un matériau nouveau et extrêmement précieux, considéré comme une « pierre artificielle » dont la fabrication est jalousement gardée par les ateliers royaux. Ce type de récipient était destiné à contenir des huiles parfumées ou des onguents de grand prix, soulignant le luxe inouï qui entourait la toilette de l'élite égyptienne au Nouvel Empire.</p>
+    <p>La technique utilisée ici est celle du noyau d'argile (ou moulage sur noyau). L'artisan façonnait d'abord une forme en argile et sable au bout d'une tige métallique, qu'il plongeait ensuite dans du verre en fusion. Le décor caractéristique en festons ou en zigzag était obtenu en enroulant des fils de verre colorés (ici jaunes et blancs) autour du corps en verre sombre (bleu nuit ou noir), puis en les « peignant » à l'aide d'un outil métallique avant que la matière ne durcisse. Ce motif onduleux imite probablement les reflets de l'eau ou les motifs textiles précieux.</p>
+    <p>La silhouette de la gourde, avec sa panse globulaire aplatie et ses deux petites anses verticales, est d'une grande élégance. Le col est terminé par un large rebord plat qui permettait de sceller l'objet avec un bouchon de cire ou de tissu. Malgré sa petite taille, cet objet condense toutes les innovations techniques de l'époque et illustre le goût prononcé de la cour thébaine pour la polychromie et les jeux de matières. Ces verres primitifs sont parmi les objets les plus rares et les plus recherchés des collections égyptiennes.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1425) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Vie quotidienne & Sciences.</p>`
+  },
+   {
     id: "sculpture_bas_relief_pleureuses_tombe_horemheb_saqqara_louvre",
     civId: "egypte",
     periodId: "egypte_nouvel",
