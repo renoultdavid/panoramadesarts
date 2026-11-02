@@ -2164,19 +2164,24 @@ function renderSearchGallery() {
       const cId = item.civId || '';
       if (selectedCiv === 'egypte' && !cId.startsWith('egypte')) return false;
       else if (selectedCiv === 'egee' && cId !== 'egee' && !['cyclades', 'crete', 'mycenes'].includes(cId)) return false;
+      else if (selectedCiv === 'italie_etrusque' && cId !== 'italie_etrusque' && !cId.startsWith('etrusque') && !cId.startsWith('italie')) return false;
       else if (selectedCiv === 'chypre' && !cId.startsWith('chypre')) return false;
       else if (selectedCiv === 'celte_europe' && !cId.startsWith('celte')) return false;
       else if (selectedCiv === 'levant_phenicie' && !['amorrite', 'syrie_bronze', 'phenicie_fer'].includes(cId)) return false;
       else if (selectedCiv === 'canaries' && cId !== 'canaries') return false;
-      else if (!['egypte', 'egee', 'chypre', 'celte_europe', 'levant_phenicie', 'canaries'].includes(selectedCiv)) {
+      else if (!['egypte', 'egee', 'italie_etrusque', 'chypre', 'celte_europe', 'levant_phenicie', 'canaries'].includes(selectedCiv)) {
         if (!cId.startsWith(selectedCiv)) return false;
       }
     }
 
-    // 2. Filtre Période (stricte égalité, élimine le bug XVIe / VIe)
+    // 2. Filtre Période (stricte égalité, ou sous-période étrusque)
     if (selectedPeriod !== 'all') {
-      const pId = item.periodId || item.civId;
-      if (pId !== selectedPeriod) return false;
+      const pId = item.periodId || item.civId || '';
+      if (selectedPeriod === 'etrusque') {
+        if (pId !== 'etrusque' && !pId.startsWith('etrusque_') && item.civId !== 'etrusque') return false;
+      } else if (pId !== selectedPeriod) {
+        return false;
+      }
     }
 
     // 3. Filtre Domaine technique
