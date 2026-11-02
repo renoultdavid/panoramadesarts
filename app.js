@@ -1293,10 +1293,11 @@ const TAXONOMY_DOMAINS = {
   "ceramique": {
     label: "Céramique, Terres cuites & Vases",
     types: [
-      "Alabatre", "Amphore", "Antéfixe / Plaque architecturale", "Cratère",
-      "Hydrie", "Kernos", "Kylix / Coupe", "Lampe à huile", "Lécythe",
-      "Oenochoé", "Pithos / Jarre", "Plat", "Plat & Céramique fine",
-      "Rhyton", "Vase", "Vase balustre", "Vase plastique / Zoomorphe"
+      "Alabatre", "Amphore", "Antéfixe / Plaque architecturale", "Aryballe",
+      "Askos", "Calice", "Canthare", "Cratère", "Hydrie", "Kernos",
+      "Kylix / Coupe", "Lampe à huile", "Lécythe", "Oenochoé",
+      "Pithos / Jarre", "Plat", "Plat & Céramique fine", "Rhyton",
+      "Vase", "Vase balustre", "Vase plastique / Zoomorphe"
     ]
   },
   "espace_sacre": {
