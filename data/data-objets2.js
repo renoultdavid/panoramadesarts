@@ -4,6 +4,132 @@
 window.ART_OBJECTS = [
   
    {
+    id: "ceramique_serie_alabastrons_albatre_travertin_saite_louvre",
+    civId: "egypte",
+    periodId: "egypte_tardive",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "XXVIe dynastie (vers -600 av. J.-C. / époque saïte)",
+    centuryDisplay: "VIe s. av. J.-C.",
+    centuryNumeric: -600,
+    domain: "ceramique",
+    artifactType: "Alabatre",
+    title: "Série d'alabastrons et flacons à parfum en albâtre calcaire rubané (Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Basse-Égypte (Saïs ou Memphis)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes)",
+    category: "Vases à parfum et onguents en albâtre travertin",
+    isHighlight: false,
+    chips: ["XXVIe dynastie", "Alabastron", "Albâtre", "Travertin", "Renaissance saïte", "Parfums et fards", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPccDi0wY7Yx7qWvx289pki0YeISGKMMKPy5ad5xuWXt5BATc8_UNe88nAWrypsvvX4FunynorNpkWtqpDorDhVWfwx24hHR0t0UbvSxyvvos00vFoWErKrcZt_u-Gm1H1drTlqkjipOmcr8eZ6M4PpFw=w1221-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette série de vases, emblématique de la production de luxe de la XXVIe dynastie, témoigne d'une virtuosité technique exceptionnelle au service de la « Renaissance saïte ». Taillés dans de l'albâtre calcaire (ou travertin) dont les veines horizontales oscillent entre le blanc laiteux et l'ocre ambré, ces contenants adoptent la forme classique de l'alabastron : un corps allongé et piriforme, une base arrondie interdisant la station verticale sans support, et un col étroit surmonté d'un large lèvre plate destinée à recueillir les gouttes d'huiles précieuses. La paroi de certains exemplaires est poussée à une minceur extrême, jouant sur la translucidité naturelle de la pierre pour révéler la structure interne du matériau sous la lumière. Les petites anses à oreilles, parfois purement décoratives ou simplement perforées pour le passage d'un cordon de suspension, soulignent la symétrie parfaite de l'objet, obtenue par un tournage et un polissage méticuleux à l'émeri.</p>
+    <p>L'usage de ces flacons était double : ils servaient de réceptacles pour les onguents, les parfums et les fards, dont les graisses étaient préservées de l'oxydation par la fraîcheur et la porosité relative de la pierre, tout en constituant des marqueurs de statut social indispensables au sein du mobilier funéraire des élites. Dans le contexte de la XXVIe dynastie, cet artisanat s'inscrit dans une volonté délibérée de retour aux sources, où les formes épurées et la noblesse des matériaux rappellent la perfection des premières dynasties tout en intégrant des standards de finition propres à l'âge du fer. La disposition en groupe met ici en évidence la variété des gabarits, allant du petit flacon de toilette personnel au grand vase d'apparat, illustrant la spécialisation des ateliers de taille de pierre qui ont fait la renommée de l'Égypte dans tout le bassin méditerranéen.</p>
+    <p><strong>Siècle :</strong> VIe siècle av. J.-C. (-600) | <strong>Civilisation :</strong> Égypte antique (XXVIe dynastie saïte / Basse Époque) | <strong>Sous-partie :</strong> Céramiques.</p>`
+  },
+  {
+    id: "ceramique_flacon_plastique_femme_calcite_memphis_louvre",
+    civId: "egypte",
+    periodId: "egypte_nouvel",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe – XIXe dynastie (vers -1350 à -1250 av. J.-C. / Nouvel Empire)",
+    centuryDisplay: "XIVe – XIIIe s. av. J.-C.",
+    centuryNumeric: -1300,
+    domain: "ceramique",
+    artifactType: "Vase plastique / Zoomorphe",
+    title: "Flacon à onguents anthropomorphe en forme de femme en calcite (Memphis, Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Memphis",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes)",
+    category: "Vase plastique en calcite (albâtre égyptien)",
+    isHighlight: false,
+    chips: ["Nouvel Empire", "Vase plastique", "Calcite", "Albâtre", "Figure féminine", "Toilette et beauté", "Memphis", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/d/11hLJFFN1McLmLPGw1pf73r-LVI6VfhMp",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOWLNxArznQa9EsQmPHqCQaBot7x38c9JVnpizvS6a33vppz-kDXY2N15lz6W1TJWIuBEDMouZN_4lhZd1A6oreyvB_N-5KnwHr6RtOWVfFSN2VkWZ7wl38meo5HzFMkKgfy-KFospeWioWEm_zTz1oAA=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce flacon en forme de femme, sculpté dans une calcite (ou albâtre égyptien) d'une grande pureté, est un exemple raffiné de la vaisselle de luxe du Nouvel Empire. L'objet joue sur la transparence et la douceur de la pierre pour évoquer la peau féminine, transformant un simple contenant à onguents ou à huiles parfumées en une œuvre d'art miniature. La silhouette globale du vase est globulaire, mais le col est habilement travaillé pour figurer une tête féminine dont les traits émergent délicatement de la matière.</p>
+    <p>Le visage est traité avec une économie de lignes qui souligne la sérénité de l'expression. On y distingue des yeux en amande, un nez droit et des lèvres fines, caractéristiques des canons esthétiques de la XVIIIe ou XIXe dynastie. La chevelure est figurée par un volume arrondi et lisse, rappelant certaines coiffures ou perruques enveloppantes de l'époque. Cette fusion entre la fonction utilitaire (le goulot est situé au sommet de la tête) et la forme humaine démontre le goût prononcé de l'élite memphite pour les objets de toilette sophistiqués, où chaque détail est pensé pour le plaisir des sens.</p>
+    <p>Découvert à Memphis, l'un des plus grands centres artisanaux et politiques de l'Égypte ancienne, ce flacon témoigne de la virtuosité des sculpteurs sur pierre dure. L'utilisation de la calcite, pierre associée à la pureté et à la lumière, renforçait magiquement la qualité des produits cosmétiques qu'elle renfermait. Ce vase plastique n'était pas seulement un objet de prestige quotidien, mais également une pièce de mobilier funéraire destinée à assurer la beauté et la jeunesse éternelle de sa propriétaire dans l'au-delà.</p>
+    <p><strong>Siècle :</strong> XIVe – XIIIe siècle av. J.-C. (vers -1300) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Céramiques.</p>`
+  },
+  {
+    id: "ceramique_vase_plastique_dieu_bes_albatre_alexandrie",
+    civId: "egypte",
+    periodId: "egypte_ptolemaique",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "Époque ptolémaïque (vers -50 av. J.-C. / Ier siècle av. J.-C.)",
+    centuryDisplay: "Ier s. av. J.-C.",
+    centuryNumeric: -50,
+    domain: "ceramique",
+    artifactType: "Vase plastique / Zoomorphe",
+    title: "Vase à onguents plastique à l'effigie du dieu Bès en calcite (Musée gréco-romain d'Alexandrie)",
+    site: "Musée gréco-romain d'Alexandrie",
+    originSite: "Alexandrie ou Fayoum",
+    locationType: "museum",
+    currentLocation: "Musée gréco-romain, Alexandrie",
+    category: "Vase plastique cosmétique en calcite",
+    isHighlight: false,
+    chips: ["Époque ptolémaïque", "Vase plastique", "Bès", "Calcite", "Albâtre", "Toilette et magie", "Alexandrie"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNzfwf2-n4CN9pnay_dlnWBZ0qH1gLsMGw4dLPYGNCNqIHV_erz7Q2NgO99_OGXqRPPzpRKJOrZ8TEazalxncLMABU8U-7pVeUhjj9_K9BNwsb7bW6bx8-b2odm1vkf9TPVgnQvAnUq_E3xX7SRXnBBgA=w613-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cet objet de toilette raffiné illustre la persistance des croyances populaires et du goût pour les formes anthropomorphes dans la culture matérielle de la vallée du Nil.</p>
+    <p>Le vase prend la forme du dieu Bes, une divinité protectrice singulière et très populaire en Égypte comme en Nubie. Contrairement aux grandes divinités du panthéon souvent représentées avec élégance, Bes est figuré ici selon ses canons traditionnels : un génie nain à la face léonine, aux jambes arquées et au ventre proéminent. Ses mains sont posées sur ses cuisses, et son visage, bien que stylisé, esquisse un sourire bienveillant. Cette apparence, jugée grotesque dans l'Antiquité, avait pour fonction d'effrayer les mauvais esprits et de protéger les foyers, en particulier les femmes et les enfants.</p>
+    <p>La matière utilisée, la calcite, est particulièrement adaptée à la conservation des produits cosmétiques. Sa texture translucide et sa capacité à maintenir une certaine fraîcheur permettaient de préserver les huiles parfumées, les onguents ou le khôl qu'il contenait. Le travail de sculpture, bien que de petite dimension, témoigne d'une grande maîtrise : l'artisan a su tirer parti des nuances naturelles de la pierre pour donner du volume au corps trapu de la divinité. L'ouverture du vase se situe au sommet de la tête de la figurine, transformant le dieu lui-même en récipient sacré.</p>
+    <p>L'usage de tels objets dans la sphère privée souligne la dimension magique du soin du corps. Utiliser un onguent provenant d'un vase à l'effigie de Bes n'était pas seulement un acte esthétique, mais aussi un rite de protection quotidien. Exposé parmi d'autres récipients en terre cuite ou en pierre, ce vase rappelle que le musée nubien et les collections alexandrines ne sont pas seulement les conservateurs de monuments colossaux, mais aussi les gardiens d'une intimité millénaire où l'art et la superstition se rejoignaient dans la création d'objets usuels d'une grande poésie.</p>
+    <p><strong>Siècle :</strong> Ier siècle av. J.-C. (-50) | <strong>Civilisation :</strong> Égypte antique (Époque ptolémaïque / Lagide) | <strong>Sous-partie :</strong> Céramiques.</p>`
+  },
+  {
+    id: "vie_quotidienne_plateau_jeu_table_senet_ebene_ivoire_qustul_assouan",
+    civId: "egypte",
+    periodId: "egypte_romaine",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "Période post-méroïtique / Culture de Ballana (vers IVe siècle ap. J.-C.)",
+    centuryDisplay: "IVe s. ap. J.-C.",
+    centuryNumeric: 380,
+    domain: "vie_quotidienne",
+    artifactType: "Jeux, Théâtre & Musique",
+    title: "Table de jeu marquetée d'ébène et d'ivoire avec ses trente pions (Tombes royales de Qustul, Musée de la Nubie)",
+    site: "Musée de la Nubie (Assouan)",
+    originSite: "Nécropole royale de Qustul (Basse-Nubie)",
+    locationType: "museum",
+    currentLocation: "Musée de la Nubie, Assouan",
+    category: "Mobilier de loisir et de jeu en ébène et ivoire",
+    isHighlight: true,
+    chips: ["Culture de Ballana", "Qustul", "Nubie", "Jeu de plateau", "Senet", "Ébène et ivoire", "Musée de la Nubie"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1EjnwS0_C2N95iY8FGNrH7N7lHnEDPG57",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczM1MkYgjCTDZY6bzpdOvufAPdpmpZdlm9Zilbj5Up60b5KI42NpbQJzTFypPiBo8FHnz2NZGuHDyvwdeCtfb1ERwQCG0QIQFGtrlI2XZPRuRYbz7rh91-dY1EOaO5ckiQpuQameM1Q4Gz3NP5MZZLTSKQ=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette pièce archéologique d'une importance majeure, conservée au musée de la Nubie à Assouan, est un plateau de jeu découvert à Qustul. Bien qu'identifié historiquement comme un ancêtre ou une variante du jeu de Senet, ce plateau présente une configuration qui le rapproche davantage du jeu de la table ou d'une forme archaïque de backgammon. Il témoigne des échanges culturels intenses entre l'Égypte et la Nubie durant l'Antiquité, ainsi que du raffinement des loisirs au sein des élites nubiennes.</p>
+    <p>Le plateau est constitué d'un cadre rectangulaire en bois sombre, probablement de l'ébène, dont la structure supporte une surface de jeu richement décorée. Les cases sont formées par des incrustations d'ivoire finement ciselées de motifs géométriques et floraux. On distingue nettement des zones semi-circulaires sur le bandeau central, également incrustées, qui servaient probablement de points de repère stratégiques pour le déplacement des pions. La patine du bois et l'usure de certaines incrustations racontent l'histoire séculaire de cet objet de luxe qui accompagnait son propriétaire jusque dans l'au-delà.</p>
+    <p>L'ensemble est présenté avec son matériel de jeu complet, comprenant trente pions au total : quinze en ivoire blanc et quinze en ébène ou bois sombre. Ces pièces de forme hémisphérique sont disposées sur le plateau et en ligne devant lui, illustrant la phase préparatoire d'une partie. Un cornet à dés, utilisé pour déterminer le mouvement des pions, accompagnait généralement ce type de plateau, soulignant la part de hasard inhérente à ces jeux de parcours qui possédaient souvent une dimension symbolique liée au passage vers l'autre monde.</p>
+    <p>Cette pièce constitue un jalon essentiel pour l'histoire des jeux de société. Elle illustre la maîtrise des artisans de la vallée du Nil dans le travail de marqueterie et l'assemblage de matériaux précieux. Exposé dans le parcours du musée nubien, ce jeu de Qustul offre un regard intime sur la vie sociale et les divertissements des civilisations nubiennes, rappelant que les frontières géographiques n'ont jamais été des barrières à la circulation des idées et des plaisirs partagés.</p>
+    <p><strong>Siècle :</strong> IVe siècle ap. J.-C. (vers 380) | <strong>Civilisation :</strong> Nubie tardive & Égypte romaine | <strong>Sous-partie :</strong> Vie quotidienne & Sciences.</p>`
+  },
+  {
+    id: "sculpture_oreilles_votives_bois_terre_cuite_deir_el_medina_louvre",
+    civId: "egypte",
+    periodId: "egypte_nouvel",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe – XIXe dynastie (vers -1300 à -1200 av. J.-C. / Nouvel Empire)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1250,
+    domain: "sculpture_statuaire",
+    artifactType: "Figurine votive / Ex-voto",
+    title: "Ensemble d'oreilles votives pour l'écoute des prières divines en bois et terre cuite (Deir el-Médineh, Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Deir el-Médineh (Thèbes-Ouest)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes)",
+    category: "Ex-voto anatomiques en bois et terre cuite",
+    isHighlight: false,
+    chips: ["Nouvel Empire", "Oreilles votives", "Ex-voto", "Piété personnelle", "Deir el-Médineh", "Ptah qui écoute", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/d/11hLJFFN1McLmLPGw1pf73r-LVI6VfhMp",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMcA9cuyK_HOHkZ9PT_v1AjfwlmmcFaYNnzcVuCnFf1QcZKs3jH-yXN7R6k1yHkJJxyx9s5E5lxJLQoTSNcW_Z45OyZUe35Dd6Qo2_klECdShLBhHsf9HjqnApmTonttUrq6wRz00IJTQ1m0X1DRIGHsQ=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ces objets insolites, identifiés comme des oreilles votives, constituent une manifestation touchante de la piété personnelle au Nouvel Empire. Façonnées en bois ou en terre cuite, ces figurines anatomiques étaient déposées dans les temples ou des chapelles domestiques par des particuliers. Elles servaient de relais magique et symbolique pour attirer l'attention d'une divinité sur les prières du donateur, l'encourageant littéralement à « prêter l'oreille » aux suppliques et aux appels à l'aide.</p>
+    <p>L'artisanat de ces modèles reste simple mais efficace, privilégiant la fonction spirituelle à la perfection esthétique. On en retrouve une grande quantité sur des sites comme Deir el-Médineh, témoignant d'une pratique religieuse populaire où le fidèle cherche une proximité directe avec le divin, sans l'intercession systématique du haut clergé. Certaines stèles de la même époque comportent parfois des dizaines d'oreilles sculptées en relief, multipliant ainsi les chances du fidèle d'être entendu par le dieu, qu'il s'agisse de Ptah « qui écoute les prières » ou d'Amon.</p>
+    <p>Ces petits ex-voto illustrent un tournant majeur de la religiosité égyptienne au cours du Nouvel Empire, marqué par l'essor de la dévotion individuelle. En offrant une image de l'organe de l'ouïe, l'Égyptien transformait son espoir en un objet tangible, pérennisant sa demande dans l'espace sacré pour l'éternité. Ces pièces sont essentielles pour comprendre que la religion égyptienne ne se limitait pas aux grands rituels royaux, mais imprégnait chaque aspect de la vie quotidienne et des préoccupations humaines les plus intimes.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1250) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+   {
     id: "vie_quotidienne_trois_situles_onguents_faience_bleue_ramses_ii_louvre",
     civId: "egypte",
     periodId: "egypte_nouvel",
