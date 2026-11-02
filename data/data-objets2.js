@@ -4,6 +4,81 @@
 window.ART_OBJECTS = [
   
    {
+    id: "sculpture_statue_cube_naophore_thot_babouin_calcaire_louvre",
+    civId: "egypte",
+    periodId: "egypte_nouvel",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1250 av. J.-C. / époque ramesside)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1250,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire privée & portraits",
+    title: "Statue-cube naophore d'un haut fonctionnaire au naos de Thot babouin en calcaire (Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Égypte (Thèbes ou Hermopolis)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes)",
+    category: "Statue-cube en calcaire clair",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Statue-cube", "Naophore", "Thot babouin", "Disque lunaire", "Musée du Louvre", "Calcaire"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMowqS9d1r8454IZTMiakGTboODxUQS0WO81aacIPTuQx78iS_1-cUNTNEQazNubq1DM_rvUToLmFeyCoBGblMP05gBxBDJDCUJvy94B-sji0ggRlngk3OvidLZI6r0zK1VZooIvaDnyvqVtYrMHEgJxQ=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette statue-cube naophore en calcaire clair représente un haut fonctionnaire de l'époque ramesside dans l'attitude caractéristique de la dévotion. Le corps du personnage est stylisé sous la forme d'un bloc massif, une convention sculpturale qui permet non seulement d'assurer la pérennité de l'œuvre mais aussi d'offrir un support textuel pour les formules de prières. La tête émerge du bloc, coiffée d'une perruque lisse et volumineuse qui descend bas sur le front, encadrant un visage aux traits calmes.</p>
+    <p>L'élément central est le naos (petit temple) taillé directement dans la face avant de la statue. À l'intérieur, on distingue la figure d'un babouin assis, les mains posées sur les genoux et surmonté d'un disque lunaire. Cette iconographie identifie sans équivoque le dieu Thot, patron des scribes, des savants et maître du temps. Le choix de cette divinité par le propriétaire de la statue souligne ses fonctions administratives ou intellectuelles au sein de l'État égyptien. Le cadre du naos est orné de colonnes de hiéroglyphes soigneusement gravées, contenant le nom du défunt et des invocations divines.</p>
+    <p>L'usage de ces statues dans les cours des temples permettait au défunt de bénéficier par procuration des rituels quotidiens et des offrandes alimentaires déposées pour les dieux. La sobriété de la perruque et la netteté des gravures sont typiques de la production artistique de la seconde moitié du Nouvel Empire, alliant piété personnelle et prestige social.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1250) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_statue_cube_naophore_pararou_scribe_armee_granit_louvre",
+    civId: "egypte",
+    periodId: "egypte_nouvel",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1250 av. J.-C. / époque ramesside)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1250,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire privée & portraits",
+    title: "Statue-cube naophore de Pararou, scribe de l'armée, en granit noir (Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Memphis ou Thèbes",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes)",
+    category: "Statue-cube en granit noir",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Pararou", "Scribe de l'armée", "Statue-cube", "Naophore", "Granit noir", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOkilSwG465yHse_7FkA61n5NVSZqSkWQvUqL6zAaLX6GzvWwloivf-v407ClKWAzyNZhwUQ_-3J2XUHzjxGDOtdNUHD-M4xIaqE3uXTmC6fw8fL5UtiHme7UkW0hPypFvcmEq8iFJtGNcCgeGB4EKtiQ=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette œuvre est une statue-cube représentant Pararou, un haut fonctionnaire portant le titre de « scribe de l'armée ». Ce type de statuaire, particulièrement prisé par l'élite égyptienne, réduit le corps humain à un volume géométrique simple, soulignant la stabilité et l'éternité du défunt. Pararou est représenté assis sur ses talons, les bras croisés sur les genoux, enveloppé dans un manteau dont n'émerge que sa tête ornée d'une perruque imposante aux traits caractéristiques de l'époque ramesside.</p>
+    <p>La statue combine la forme cubique avec une fonction naophore, car elle intègre dans sa face frontale une niche, ou naos, abritant une petite figure divine. Cette composition symbolise la piété profonde du scribe et sa protection directe par la divinité qu'il présente. La compacité de l'œuvre permettait de graver de longues inscriptions hiéroglyphiques sur les surfaces planes du cube, détaillant les titres du propriétaire et les invocations funéraires destinées à lui assurer des offrandes pour l'éternité.</p>
+    <p>L'usage du granit noir, une pierre dure et prestigieuse, renforce l'aspect monumental de cette petite sculpture de dévotion. Destinée initialement à être placée dans la cour d'un temple, elle permettait à Pararou de participer éternellement aux cérémonies religieuses et de bénéficier de la proximité du dieu. Ce modèle de statue est un témoignage précieux de l'art de la XIXe ou XXe dynastie, où la dévotion personnelle prend une place centrale dans l'expression artistique et religieuse de l'élite memphite.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1250) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_statue_cube_theophore_deux_divinites_ramses_ii_louvre",
+    civId: "egypte",
+    periodId: "egypte_nouvel",
+    civName: "Égypte : Nouvel Empire",
+    century: "XIXe dynastie (vers -1250 av. J.-C. / règne de Ramsès II)",
+    centuryDisplay: "XIIIe s. av. J.-C.",
+    centuryNumeric: -1250,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire privée & portraits",
+    title: "Statue-cube théophore aux deux divinités en haut-relief (Règne de Ramsès II, Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Memphis ou Hermopolis Magna",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes)",
+    category: "Statue-cube théophore en calcaire dur",
+    isHighlight: false,
+    chips: ["XIXe dynastie", "Ramsès II", "Statue-cube", "Théophore", "Deux divinités", "Musée du Louvre", "Élite civile"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO0XecI13inqqKXrHDsgPcWoLM41MMFpq4mFhJ1uEhQFXcfY0qRKCnkwR6kukAibyEzGYP1xJm66lCFMD_YkQHz7N6rDp0BX-WYUynN6eTDw5xafqQ31u40P7mGomH88T-ogetxH888WokIk1P5MIi7SQ=w2081-h882-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP0LwJXJ1SVv3oSzWzG3VdOEL1Kr_1fyjUdADOaqixkK51pzT6NZtlPqZf3g0JMEK3LnJa8KuMHNFS08KRRIu3eHZ7iKzSTifPP9IIOYFKohqBv5USOhPCr2_oOSvcr-zv9t7igGd0WxajJhsND6_te2A=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette statue-cube est un chef-d'œuvre de la statuaire civile du règne de Ramsès II, représentant un dignitaire de haut rang dans une attitude de recueillement et de dévotion. La forme compacte du bloc, caractéristique de ce type de monument, est ici utilisée pour magnifier la présence du défunt tout en offrant de larges surfaces planes pour l'épigraphie. Le personnage est représenté accroupi, les genoux ramenés contre la poitrine, enveloppé dans un manteau dont n'émergent que ses mains et sa tête. Il porte une perruque imposante, striée horizontalement, qui encadre un visage aux traits sereins et idéalisés, typiques de l'esthétique ramesside.</p>
+    <p>La particularité de cette œuvre réside dans sa dimension théophore : la face avant du cube ne se contente pas d'inscriptions, elle accueille une représentation en relief de deux divinités. Ce dispositif iconographique souligne le lien privilégié que le propriétaire de la statue entretenait avec ces dieux, probablement dans le cadre de ses fonctions sacerdotales ou de sa dévotion personnelle. Les silhouettes divines, coiffées de leurs attributs spécifiques, semblent émerger de la masse de pierre pour protéger le défunt. Ce type de statue était généralement déposé dans la cour d'un temple, permettant au dignitaire de bénéficier éternellement des prières et des offrandes rituelles pratiquées dans l'enceinte sacrée.</p>
+    <p>Le travail du grain de la pierre, sans doute un calcaire dur ou un grès fin, permet une grande précision dans le rendu des hiéroglyphes qui couvrent les côtés et le socle. Ces textes mentionnent généralement les titres civils et religieux du personnage, ainsi que des formules d'appel aux vivants pour assurer la pérennité de son nom. Cette statue illustre parfaitement la recherche de stabilité et de piété ostentatoire qui caractérise l'élite égyptienne sous la XIXe dynastie, cherchant à inscrire leur image dans l'éternité au cœur des grands centres religieux comme Memphis ou Hermopolis Magna.</p>
+    <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1250) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+   {
     id: "sculpture_babouin_hamadryas_adorant_soleil_ramesseum",
     civId: "egypte",
     periodId: "egypte_nouvel",
@@ -92,7 +167,7 @@ window.ART_OBJECTS = [
     site: "Temple ou nécropole thébaine (Thèbes)",
     originSite: "Thèbes",
     locationType: "museum",
-    currentLocation: "Collection muséale",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes)",
     category: "Statue-cube en pierre dure",
     isHighlight: false,
     chips: ["XIXe dynastie", "Statue-cube", "Naophore", "Osiris", "Couronne Atef", "Séthi II", "Taousert", "Formule du Ka"],
@@ -117,7 +192,7 @@ window.ART_OBJECTS = [
     site: "Sanctuaire d'Osiris (Abydos)",
     originSite: "Abydos",
     locationType: "museum",
-    currentLocation: "Collection muséale",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes)",
     category: "Statue-cube en pierre sombre",
     isHighlight: false,
     chips: ["XIXe dynastie", "Ramsès II", "Statue-cube", "Naophore", "Thot", "Babouin lunaire", "Abydos", "Appel aux vivants"],
