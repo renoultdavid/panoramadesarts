@@ -4,6 +4,256 @@
 window.ART_OBJECTS = [
   
    {
+    id: "sculpture_niankhpepikem_porteur_sac_coffret_bois_meir_caire",
+    civId: "egypte",
+    periodId: "egypte_ancien",
+    civName: "Égypte : Ancien Empire & Époque Thinite",
+    century: "VIe dynastie (vers -2289 av. J.-C. / règne de Pépi Ier)",
+    centuryDisplay: "XXIIIe s. av. J.-C.",
+    centuryNumeric: -2289,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire privée & portraits",
+    title: "Statuette en marche de Niankhpepikem portant sac de voyage et coffret (Meir, Musée égyptien du Caire)",
+    site: "Musée égyptien du Caire",
+    originSite: "Nécropole de Meir (Moyenne-Égypte)",
+    locationType: "museum",
+    currentLocation: "Musée égyptien du Caire (JE 30810)",
+    category: "Statue en ronde-bosse en bois polychrome",
+    isHighlight: true,
+    chips: ["VIe dynastie", "Ancien Empire", "Niankhpepikem", "Pépi Ier", "Meir", "Bois polychrome", "Coffret", "Musée du Caire"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPOm4Lxko5UfrxmXmNZnfDIz6l_ds4HhLSlrC1pYc4gS0SOXpVh0U6BfmrYv08N_auA5ASoK0zPMR0-DmIjzsfQ1ps8V2iHmXd6TL6AbcoQMRI5kSNMC4KBbws01fZThJw2jQ3x9qD5fwEEaAqQySnJmw=w613-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette statuette en bois polychrome représente Niankhpepikem, un haut fonctionnaire qui servit sous le règne de Pépi Ier, durant la VIe dynastie de l'Ancien Empire. Découverte dans sa tombe à Meir, cette œuvre se distingue par son dynamisme et son réalisme, s'éloignant de la rigidité habituelle des statues de culte pour illustrer une scène de la vie quotidienne liée à la fonction du défunt.</p>
+    <p>Le personnage est représenté en pleine marche, portant sur son dos un large sac de voyage blanc maintenu par des sangles, tandis qu'il tient devant lui un coffret méticuleusement décoré de motifs géométriques colorés. Cette iconographie particulière souligne son rôle actif au service de l'administration royale, le présentant non pas comme un noble passif, mais comme un serviteur dévoué transportant les biens ou les documents nécessaires à sa mission.</p>
+    <p>Le travail du bois permet une finesse de détails remarquable, notamment dans le rendu de la musculature des jambes et l'expression du visage, dont les yeux sont soulignés d'un trait de fard noir. La préservation exceptionnelle des pigments d'origine permet d'apprécier le contraste entre le brun rougeâtre de la peau, typique de la représentation masculine égyptienne, et le blanc éclatant de son pagne court et de son équipement.</p>
+    <p>Sur le plan spirituel, cette statuette remplit une fonction magique essentielle en garantissant au défunt la possibilité de poursuivre ses activités et de subvenir à ses besoins dans l'au-delà. En tant qu'objet de prestige déposé dans le mobilier funéraire, elle témoigne de la décentralisation de l'art à la fin de l'Ancien Empire, où les dignitaires provinciaux comme ceux de Meir faisaient appel à des artisans locaux capables de produire des œuvres d'une grande originalité.</p>
+    <p><strong>Siècle :</strong> XXIIIe siècle av. J.-C. (-2289) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_dignitaire_marche_bras_detaches_bois_vie_dynastie_louvre",
+    civId: "egypte",
+    periodId: "egypte_ancien",
+    civName: "Égypte : Ancien Empire & Époque Thinite",
+    century: "VIe dynastie (vers -2250 av. J.-C. / fin de l'Ancien Empire)",
+    centuryDisplay: "XXIIIe s. av. J.-C.",
+    centuryNumeric: -2250,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire privée & portraits",
+    title: "Statue d'un homme en marche aux bras détachés en bois sculpté (VIe dynastie, Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Saqqarah ou Nécropole memphite",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes)",
+    category: "Statue en ronde-bosse en bois sculpté",
+    isHighlight: false,
+    chips: ["VIe dynastie", "Ancien Empire", "Statue en bois", "Bras détachés", "Homme en marche", "Perruque étagée", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPVDWSE5LXJLE1LnZXLPyJUAIMyMlQQ8xZnd8K8Xu0XONPPzVmG2lqedA6s4rKpeLG0ngRkxsC5YGjFZ15-_WWKlikuFbvr99Rq7j3zc_nalK4AIvH79DEXUnAnmaCJvMrbLDvY7OtYSWjQIJyimX7sOw=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette statue en bois de la VIe dynastie représente un homme dans la posture traditionnelle de la marche, le pied gauche avancé, illustrant la continuité des conventions artistiques de l'Ancien Empire. Le corps est sculpté avec une attention particulière portée aux proportions et à la musculature, bien que le traitement des formes gagne en souplesse par rapport aux dynasties précédentes. Le visage, tourné vers l'avant, présente des traits sereins avec des yeux aux contours autrefois soulignés par des incrustations ou de la peinture, renforçant l'expression de vie du double spirituel.</p>
+    <p>Le personnage est vêtu d'un pagne court, dont le drapé est rendu avec une grande finesse, soulignant la taille. La perruque, courte et composée de petites boucles étagées, encadre un visage aux pommettes douces et aux lèvres finement dessinées. L'utilisation du bois a permis à l'artiste de détacher les bras du torse, créant un espace vide qui confère à l'œuvre une légèreté et un dynamisme supérieurs aux statues de pierre. Le bras droit descend le long du corps, tandis que le bras gauche était probablement replié pour tenir un sceptre ou un bâton, attributs de son rang social.</p>
+    <p>Placée originellement dans la chapelle funéraire d'un mastaba, cette effigie servait de support physique au Ka du défunt pour l'éternité. Les traces de polychromie subsistantes, bien que ténues, rappellent que ces œuvres étaient autrefois entièrement peintes de couleurs vives pour leur donner une apparence charnelle. Cette statue témoigne de la persistance de la haute qualité de la production artisanale memphite à la fin de l'Ancien Empire, avant les bouleversements de la Première Période Intermédiaire.</p>
+    <p><strong>Siècle :</strong> XXIIIe siècle av. J.-C. (-2250) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_jeune_garcon_doigt_bouche_ivoire_vie_dynastie_louvre",
+    civId: "egypte",
+    periodId: "egypte_ancien",
+    civName: "Égypte : Ancien Empire & Époque Thinite",
+    century: "VIe dynastie (vers -2250 av. J.-C. / fin de l'Ancien Empire)",
+    centuryDisplay: "XXIIIe s. av. J.-C.",
+    centuryNumeric: -2250,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire privée & portraits",
+    title: "Statuette votive d'un jeune garçon nu au doigt à la bouche en ivoire (Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Nécropole memphite ou Abydos",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes, E 11571)",
+    category: "Statuette votive en ivoire sculpté",
+    isHighlight: false,
+    chips: ["VIe dynastie", "Ancien Empire", "Enfant", "Ivoire", "Mèche de l'enfance", "Doigt à la bouche", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOkncmNP4o6Nx6Q_iLeK1MeHLbg1sAKm9hajBYVAF5emyKNN2mb7Jm96DjZD_wKytkeTTbbJcDbRMlPey91Kol1QTXukqwqHA7K-xRPBheNbmYeV7Ec6wiYpWNHatlXAP81HhASMSnph8VzmsKip7S51g=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette statuette en ivoire, datant de la VIe dynastie, représente un jeune garçon dans une pose iconographique hautement symbolique de l'enfance en Égypte antique. Le personnage est figuré nu, debout sur une base rectangulaire, portant l'index de sa main droite à sa bouche, un geste conventionnel désignant la jeunesse. La finesse de la sculpture sur ivoire permet un rendu délicat des formes infantiles, avec un ventre légèrement proéminent et des membres encore graciles, témoignant de la virtuosité des artisans de la fin de l'Ancien Empire dans le travail des matières précieuses.</p>
+    <p>Le visage est traité avec un naturalisme frappant, arborant des traits ronds et une expression empreinte d'une certaine gravité. Les yeux, autrefois rehaussés de peinture noire dont il subsiste des traces, sont larges et expressifs. Le crâne est rasé, à l'exception de la traditionnelle « mèche de l'enfance » qui retombe sur le côté droit de la tête, ici sculptée avec précision. Ce détail capillaire, combiné à la nudité et au geste du doigt à la bouche, identifie sans équivoque le statut du personnage comme un enfant ou un fils de haut dignitaire placé sous la protection divine.</p>
+    <p>L'œuvre présente une conservation remarquable malgré les fissures naturelles inhérentes à l'ivoire de mammifère ou d'éléphant utilisé. On note une perforation circulaire au niveau du nombril, qui pourrait avoir servi à l'insertion d'un élément décoratif ou à la fixation de la pièce. Cette statuette n'est pas seulement une représentation artistique ; elle possédait une fonction votive ou magique, visant à assurer la croissance et la protection éternelle de l'enfant qu'elle incarnait, ou à symboliser la renaissance perpétuelle du défunt dans le cycle funéraire.</p>
+    <p><strong>Siècle :</strong> XXIIIe siècle av. J.-C. (-2250) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_dignitaire_longiligne_bois_tombe_13_thebes_xie_louvre",
+    civId: "egypte",
+    periodId: "egypte_moyen",
+    civName: "Égypte : Moyen Empire & Périodes Intermédiaires",
+    century: "Fin de la XIe dynastie (vers -2000 av. J.-C. / réunification thébaine)",
+    centuryDisplay: "XXIe – XXe s. av. J.-C.",
+    centuryNumeric: -2000,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire privée & portraits",
+    title: "Statue masculine longiligne en marche en bois de la tombe 13 de Thèbes (Fin de la XIe dynastie, Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Tombe 13 (Nécropole d'Assassif ou Deir el-Bahari, Thèbes)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes, E 11894)",
+    category: "Statue funéraire en bois stuqué",
+    isHighlight: false,
+    chips: ["XIe dynastie", "Moyen Empire", "Thèbes", "Tombe 13", "Statue en bois", "Style pré-classique", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNwwTuGVUNnGTJHX800UmbjPkKt06chsWJvaDJxKMkLDQ_KKpvlsimFiFxQ-tiDgyWCyrFt9d0iZ2SW23y9NL7tzxgvp3NG2MBkkTH-dvpgxN6s8jq3Vz30e1qrCzp3CR-Ce0sOVhdbCmjJYHGO5tvJ6A=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette statue masculine en bois, datant de la fin de la XIe dynastie, illustre la transition stylistique entre la Première Période intermédiaire et le début du Moyen Empire. Représentée dans une attitude de marche, le pied gauche en avant, elle frappe par son aspect longiforme et la rudesse de son exécution, caractéristiques des ateliers thébains de cette époque. Le personnage porte une perruque courte, dont les mèches sont sculptées avec une certaine schématisation, et un pagne dont les détails étaient initialement précisés par une couche de stuc peint. Bien que le matériau ait souffert du temps, l'œuvre conserve une expressivité propre aux productions funéraires destinées à perpétuer la présence du défunt dans sa tombe.</p>
+    <p>Le traitement anatomique est typique du style dit « pré-classique » de la XIe dynastie : les membres sont fins, presque grêles, et les articulations peu marquées, privilégiant la silhouette globale à la précision musculaire. Le bras gauche, légèrement replié, devait autrefois tenir un bâton de commandement ou une canne, attributs de la fonction sociale du défunt. La statue servait de réceptacle pour le « ka », l'énergie vitale, lui permettant de recevoir les offrandes et de participer symboliquement aux rites funéraires célébrés dans la chapelle de la tombe 13.</p>
+    <p>La provenance de la tombe 13, située dans la nécropole thébaine, place cet objet au cœur des développements artistiques qui ont accompagné la réunification de l'Égypte sous les souverains Mentouhotep. Ce type de statuaire en bois, plus accessible que la pierre, permettait aux fonctionnaires de rang moyen de s'assurer une éternité conforme aux traditions religieuses. La simplicité de la pièce, loin d'être un manque de savoir-faire, reflète une esthétique de la dignité et de la sobriété qui prévaudra jusqu'aux réformes stylistiques plus poussées de la dynastie suivante.</p>
+    <p><strong>Siècle :</strong> XXIe – XXe siècle av. J.-C. (-2000) | <strong>Civilisation :</strong> Égypte antique (Moyen Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_chancelier_nakhti_yeux_incrustes_bois_assiout_louvre",
+    civId: "egypte",
+    periodId: "egypte_moyen",
+    civName: "Égypte : Moyen Empire & Périodes Intermédiaires",
+    century: "XIIe dynastie (vers -1950 av. J.-C. / règne de Sésostris Ier)",
+    centuryDisplay: "XXe s. av. J.-C.",
+    centuryNumeric: -1950,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire privée & portraits",
+    title: "Grande statue du chancelier Nakhti au crâne rasé et yeux incrustés en bois (Assiout, Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Tombe de Nakhti (Assiout, Moyenne-Égypte)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes, E 11937)",
+    category: "Statue en ronde-bosse en bois stuqué aux yeux incrustés",
+    isHighlight: true,
+    chips: ["XIIe dynastie", "Moyen Empire", "Nakhti", "Chancelier", "Assiout", "Yeux incrustés", "Crâne rasé", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOywiqBmheSpKA5pyY9ZTUPu4BVHcnu8yz0a3JC9lv0XioqcV_CDsvgF4m21fcpOYPHYk7daFGSdy_8q-vmMPsFbseqWnXfQ3L1sxchSqH-axrXdUhNFrNxCzqeTho6AQU6Sh91BL7Vj02U6B7ZyIj5QQ=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette statue masculine en bois, représentant le chancelier Nakhti, est un exemple magistral de la sculpture funéraire du début de la XIIe dynastie. Découverte dans sa tombe à Assiout, cette œuvre se distingue par son exceptionnel état de conservation et par le réalisme saisissant de ses traits. Nakhti est figuré debout, dans la pose traditionnelle du marcheur, le bras gauche replié pour tenir un bâton (aujourd'hui disparu) et le bras droit tendu le long du corps, la main serrant un court cylindre. Contrairement à la statuaire en pierre, le travail du bois a permis à l'artisan d'ajourer les bras, conférant à la silhouette une légèreté et une présence spatiale remarquables.</p>
+    <p>Le visage de Nakhti est particulièrement expressif, avec des yeux incrustés — probablement de calcaire et d'obsidienne sertis de bronze — qui semblent fixer le visiteur avec une intensité vivante. Son crâne est rasé, laissant apparaître la structure osseuse du visage, une caractéristique qui souligne son rang et sa piété. Il porte un pagne long, dont les plis et la texture étaient autrefois rehaussés par une fine couche de stuc peint, une technique courante pour masquer les veines du bois et unifier la surface de l'œuvre. Cette statue n'était pas un simple portrait ; elle constituait le support matériel du « ka » (l'énergie vitale) du défunt, lui permettant de survivre éternellement dans l'au-delà et de bénéficier des offrandes déposées dans sa chapelle funéraire.</p>
+    <p>L'importance de Nakhti à Assiout se reflète dans la taille imposante de cette effigie, qui dépasse le mètre. À cette époque, les nomarques (gouverneurs de province) et leurs hauts fonctionnaires disposaient d'ateliers locaux capables de produire des œuvres d'une qualité rivalisant avec celles de la résidence royale de Licht. Le traitement du corps, à la fois svelte et vigoureux, témoigne de l'idéal de jeunesse et de force que le défunt souhaitait conserver pour l'éternité. Cette pièce demeure l'un des plus beaux témoignages de la maîtrise technique des menuisiers-sculpteurs égyptiens du début du Moyen Empire.</p>
+    <p><strong>Siècle :</strong> XXe siècle av. J.-C. (-1950) | <strong>Civilisation :</strong> Égypte antique (Moyen Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_nomarque_hapydjefai_bois_assiout_xiie_louvre",
+    civId: "egypte",
+    periodId: "egypte_moyen",
+    civName: "Égypte : Moyen Empire & Périodes Intermédiaires",
+    century: "XIIe dynastie (vers -1950 av. J.-C. / règne de Sésostris Ier)",
+    centuryDisplay: "XXe s. av. J.-C.",
+    centuryNumeric: -1950,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire privée & portraits",
+    title: "Statue du nomarque Hâpydjefaï d'Assiout en bois sculpté (Règne de Sésostris Ier, Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Tombe rupestre d'Hâpydjefaï (Assiout, Moyenne-Égypte)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes, E 11573)",
+    category: "Statue en ronde-bosse en bois sculpté",
+    isHighlight: false,
+    chips: ["XIIe dynastie", "Moyen Empire", "Hâpydjefaï", "Nomarque", "Assiout", "Sésostris Ier", "Bois sculpté", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMeNj9j_MG5GKB7C8j_ZclzK0F6h5Qv7qDubyKfTvQjxUSGSAgcJo9HxA5qFWqqpom3Uge8oS5d7GBOG7Jmvgn7m7GLw8aXw2uWYO1YigxEvZ_jwj4tYE4HcmG3rzq3Nw4K6AbNesOSHXTi7g4LkHFAyQ=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette statue masculine en bois, représentant le nomarque Hâpydjefaï, constitue un exemple exceptionnel de la statuaire de province durant le Moyen Empire. Bien que le temps ait marqué le matériau, l'œuvre conserve une vigueur remarquable, typique de la production artistique d'Assiout sous le règne de Sésostris Ier. Le personnage est représenté debout, dans une attitude de marche avec la jambe gauche avancée, le corps svelte et musclé. Il porte une perruque courte aux boucles imbriquées très détaillées et un pagne dont le plissé était autrefois accentué par une couche de stuc peint.</p>
+    <p>Le visage d'Hâpydjefaï, tourné vers l'éternité, témoigne du style de la XIIe dynastie : les yeux sont grands, les pommettes saillantes et l'expression déterminée, reflétant l'autorité d'un gouverneur de province puissant. Dans l'Égypte antique, le bois était un matériau de choix pour les statues funéraires car il permettait une plus grande liberté de mouvement que la pierre, comme en témoigne le bras gauche replié vers l'avant qui devait initialement tenir un bâton de commandement. La statue servait de réceptacle au « ka » du défunt dans sa chapelle funéraire, permettant à son esprit de participer aux rites et de recevoir les offrandes.</p>
+    <p>Le contexte archéologique d'Assiout est fondamental pour comprendre cette pièce, car Hâpydjefaï y a fait creuser l'une des plus vastes tombes rupestres de l'époque. Les contrats juridiques gravés dans sa sépulture sont célèbres pour les détails qu'ils fournissent sur l'entretien du culte funéraire. Cette effigie, malgré les fissures naturelles du bois, demeure un pont direct avec l'administration provinciale du XIXe siècle avant notre ère, illustrant la volonté des élites locales de s'entourer d'objets d'art d'une qualité rivalisant avec les ateliers royaux de la capitale.</p>
+    <p><strong>Siècle :</strong> XXe siècle av. J.-C. (-1950) | <strong>Civilisation :</strong> Égypte antique (Moyen Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_statue_ka_roi_hor_ier_bras_sycomore_dahshour_caire",
+    civId: "egypte",
+    periodId: "egypte_moyen",
+    civName: "Égypte : Moyen Empire & Périodes Intermédiaires",
+    century: "XIIIe dynastie (vers -1760 av. J.-C. / règne de Hor Ier)",
+    centuryDisplay: "XVIIIe s. av. J.-C.",
+    centuryNumeric: -1760,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire royale & divine (ronde-bosse)",
+    title: "Statue grandeur nature du Ka du roi Hor Ier aux deux bras levés en bois de sycomore (Dahshour, Musée égyptien du Caire)",
+    site: "Musée égyptien du Caire",
+    originSite: "Puits funéraire près de la pyramide d'Amenemhat III (Dahshour)",
+    locationType: "museum",
+    currentLocation: "Musée égyptien du Caire (JE 30948 / CG 259)",
+    category: "Statue de culte royale en bois de sycomore aux yeux incrustés",
+    isHighlight: true,
+    chips: ["XIIIe dynastie", "Moyen Empire", "Roi Hor Ier", "Statue du Ka", "Bras levés", "Dahshour", "Bois de sycomore", "Musée du Caire"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNM9Y15L2W-6P_j961MaI8xjXZwa_S9zjqsT3PfJ21XBFw1FODfqT4TCIjK2dDdEsHrVyyAb2P5DHgouArAqcxnfo3RSRDBboJgVziRhnhOeCmiyn1-K5VopajUUjSg5TrgsPTr7gzCQ-fkobCColYqLw=w613-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette œuvre exceptionnelle, découverte en 1894 dans le complexe funéraire d'Amenemhat III à Dahshour, représente le pharaon Hor Ier, souverain éphémère de la XIIIe dynastie. Sculptée dans du bois de sycomore, cette statue grandeur nature est l'un des rares exemples de statuaire royale en bois à nous être parvenu. Le roi est représenté nu, arborant une barbe postiche et une perruque tripartite, mais l'élément le plus frappant est la paire de bras levés surmontant sa tête, symbole hiéroglyphique du Ka (l'énergie vitale). Ce dispositif unique souligne la fonction mystique de l'œuvre : elle n'est pas un portrait du roi vivant, mais une incarnation de sa force spirituelle divine.</p>
+    <p>Bien que la statue ait été retrouvée dans une petite structure de briques (un puits funéraire) située à proximité de la pyramide d'un roi plus ancien, il s'agit bien d'un contexte funéraire. La statue était abritée dans un naos (sanctuaire) en bois clos, ce qui a permis sa conservation miraculeuse pendant près de quatre millénaires. Elle servait de réceptacle au Ka du roi Hor, lui permettant de recevoir les offrandes et de s'assurer une vie éternelle. La finesse du travail du bois, associée à l'incrustation des yeux en quartz et cristal de roche, confère au souverain une présence vibrante qui semble défier le temps, illustrant la continuité des traditions artistiques de l'Ancien Empire au cœur de la période plus tourmentée du Moyen Empire.</p>
+    <p><strong>Siècle :</strong> XVIIIe siècle av. J.-C. (-1760) | <strong>Civilisation :</strong> Égypte antique (Moyen Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_groupe_familial_amenhotep_ii_fils_tresse_calcaire_louvre",
+    civId: "egypte",
+    periodId: "egypte_nouvel",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1420 av. J.-C. / règne d'Amenhotep II)",
+    centuryDisplay: "XVe s. av. J.-C.",
+    centuryNumeric: -1420,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire privée & portraits",
+    title: "Groupe familial d'un dignitaire, de son épouse et de leur jeune fils à la tresse en calcaire peint (Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Nécropole thébaine (Thèbes)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes)",
+    category: "Groupe statuaire familial en calcaire peint",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Nouvel Empire", "Amenhotep II", "Groupe familial", "Tresse de l'enfance", "Collier Ousekh", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/d/11hLJFFN1McLmLPGw1pf73r-LVI6VfhMp",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNR1z3ZVM1t3oTXp3tN1zrrlOQXRHFWs5UtmqRcD1hpVSDY0We92Fkl2zYdPAH9Ke90KuTrvz6XZIwxxJ-kkkjApDkz7dQ-9pqqfvU6pd0ev8Ds8r_DxLliZMrXgc8MhzmEae_efA4w4VM3AbLZ_Gh70g=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette statue de groupe en calcaire peint, datant du règne d'Amenhotep II, est un exemple touchant de la statuaire civile de la XVIIIe dynastie. Elle représente un haut fonctionnaire assis aux côtés de son épouse, avec leur jeune fils debout entre leurs jambes. Ce type de monument, destiné à une chapelle funéraire thébaine, visait à pérenniser l'unité de la cellule familiale dans l'au-delà et à assurer la transmission du culte par la descendance.</p>
+    <p>La polychromie, exceptionnellement bien conservée, respecte les conventions chromatiques de l'Égypte antique : la peau de l'homme et du petit garçon est peinte en ocre rouge, tandis que celle de la femme est d'un jaune pâle. L'homme porte une perruque striée et un large collier ousekh peint, alors que son épouse arbore une perruque volumineuse et une robe fourreau blanche. L'enfant est représenté avec la « tresse de l'enfance » sur le côté de la tête, un attribut iconographique classique pour les jeunes garçons. Le geste de l'épouse, passant son bras derrière le dos de son mari, souligne l'harmonie et le soutien mutuel au sein du couple.</p>
+    <p>Les socles et les côtés du siège sont gravés de colonnes de hiéroglyphes mentionnant les titres du défunt et des formules d'offrandes adressées aux dieux thébains, notamment Amon-Rê. La finesse du travail du calcaire, alliée à la vivacité des couleurs, témoigne du savoir-faire des ateliers royaux de la fin du XVe siècle av. J.-C. Cette statue ne se contente pas de représenter des individus ; elle cristallise l'idéal de la famille égyptienne, protégée par les rites et unie pour l'éternité sous le regard des dieux.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1420) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_couple_assis_inscriptions_bleues_thoutmosis_iii_louvre",
+    civId: "egypte",
+    periodId: "egypte_nouvel",
+    civName: "Égypte : Nouvel Empire",
+    century: "XVIIIe dynastie (vers -1430 av. J.-C. / Thoutmosis III – Amenhotep II)",
+    centuryDisplay: "XVe s. av. J.-C.",
+    centuryNumeric: -1430,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire privée & portraits",
+    title: "Statue de couple assis aux inscriptions hiéroglyphiques bleues en calcaire peint (Thèbes-Ouest, Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Nécropole de Thèbes-Ouest",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes)",
+    category: "Groupe statuaire en calcaire peint",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Nouvel Empire", "Couple thébain", "Thoutmosis III", "Hiéroglyphes bleus", "Robe fourreau", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/d/11hLJFFN1McLmLPGw1pf73r-LVI6VfhMp",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPGmhUvi8gci8yBZQd7JUNsuLkyoFz7X6kJef2a5vcKPuLxSOhM75b_Qcub8jiYplepiR0fYFsxwVVT5yOF96ZmqyCwGbTrrt2cvdLnh_PIqfCyTKv9PCArYUSxwrDM6VMbbMeF7L_4e6MKdET6nndUqw=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette statue de couple en calcaire peint, datant du milieu de la XVIIIe dynastie, représente un haut fonctionnaire et son épouse dans l'attitude classique de la dévotion funéraire. Elle illustre la transition stylistique entre les règnes de Thoutmosis III et d'Amenhotep II, une période où l'art égyptien allie une certaine rigueur des formes à une attention croissante pour le rendu des détails du costume et des parures.</p>
+    <p>Le couple est assis sur un siège à dossier haut. L'homme, dont la peau est peinte en ocre rouge selon les conventions masculines, porte une perruque courte laissant apparaître ses oreilles et un pagne long. Son épouse, à sa gauche, arbore une peau d'un jaune clair et une perruque tripartite volumineuse ornée d'un bandeau. Elle porte une robe fourreau blanche très ajustée et pose son bras droit dans le dos de son mari, un geste d'affection traditionnelle symbolisant leur union indéfectible par-delà la mort.</p>
+    <p>La statue conserve une part importante de sa polychromie d'origine, notamment au niveau des visages et des inscriptions. Sur les jambes des deux personnages, des colonnes de hiéroglyphes peints en bleu mentionnent leurs noms et titres, ainsi que des formules d'offrandes invoquant les dieux de la région thébaine. Provenant de la nécropole de Thèbes Ouest, ce monument était placé dans la chapelle de leur tombe pour permettre à leurs esprits de participer aux banquets rituels et de recevoir les hommages de leurs descendants.</p>
+    <p><strong>Siècle :</strong> XVe siècle av. J.-C. (-1430) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_couple_assis_post_amarnien_bois_sculpte_xviiie_louvre",
+    civId: "egypte",
+    periodId: "egypte_nouvel",
+    civName: "Égypte : Nouvel Empire",
+    century: "Fin XVIIIe dynastie (vers -1330 av. J.-C. / période post-amarnienne)",
+    centuryDisplay: "XIVe s. av. J.-C.",
+    centuryNumeric: -1330,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire privée & portraits",
+    title: "Statuette d'un couple assis de style post-amarnien en bois sculpté (Fin XVIIIe dynastie, Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Thèbes ou Saqqarah",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes, E 27142)",
+    category: "Groupe statuaire intime en bois sculpté",
+    isHighlight: false,
+    chips: ["XVIIIe dynastie", "Nouvel Empire", "Post-amarnien", "Couple en bois", "Plissé amarnien", "Tendresse conjugale", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/d/11hLJFFN1McLmLPGw1pf73r-LVI6VfhMp",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP_ipvIbFwRAH4ck-xfgYMfTKElBdSjhmh8MWigb_mAwprdTWXA8fg9j7VPi8S3InaYxsnaioIwqf-hYt-qALXjFogOV11MlVoUrkYGYJQRbc6olQN3xR_pNZdf3Y64Tw5nYzizgPtvR_sR-yN5VxgEFg=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette statuette en bois représente un couple assis, témoignage de l'art délicat et humaniste de la fin de la XVIIIe dynastie. À cette époque, marquée par l'héritage stylistique de la période amarnienne, les artistes privilégient une certaine souplesse des formes et une attention particulière aux détails de la vie quotidienne et de l'intimité. L'homme et la femme sont figurés côte à côte sur un siège à dossier bas, exprimant une union sereine destinée à se prolonger dans l'éternité.</p>
+    <p>Le travail du bois permet une grande finesse dans le rendu des parures et des vêtements. L'homme, au crâne rasé, porte un long pagne plissé dont les lignes verticales épousent la forme de ses jambes. Son épouse, à ses côtés, arbore une perruque volumineuse aux tresses minutieusement sculptées, typique de la mode de la fin du Nouvel Empire. Elle porte une robe longue et légère, également plissée, et pose tendrement son bras derrière les épaules de son mari, un geste d'affection traditionnel dans l'iconographie funéraire égyptienne.</p>
+    <p>Bien que de petite dimension, cette statue dégage une grande dignité. Les visages, aux yeux en amande et aux lèvres pleines, conservent une expression de douceur. Ce type d'objet était généralement placé dans la chapelle d'une tombe, servant de support physique à l'esprit des défunts pour recevoir les offrandes. La conservation exceptionnelle du bois, matériau périssable, nous permet d'apprécier aujourd'hui encore la virtuosité des sculpteurs qui travaillaient pour l'élite de la cour à la fin de cette dynastie prestigieuse.</p>
+    <p><strong>Siècle :</strong> XIVe siècle av. J.-C. (-1330) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+   {
     id: "sculpture_pretre_adj_ema_bois_polychrome_saqqarah_musee_imhotep",
     civId: "egypte",
     periodId: "egypte_ancien",
