@@ -4,6 +4,133 @@
 window.ART_OBJECTS = [
   
    {
+    id: "funeraire_chambre_bleue_faience_djeser_saqqarah",
+    civId: "egypte",
+    periodId: "egypte_ancien",
+    civName: "Égypte : Ancien Empire & Époque Thinite",
+    century: "IIIe dynastie (vers -2630 av. J.-C. / règne de Djéser)",
+    centuryDisplay: "XXVIIe s. av. J.-C.",
+    centuryNumeric: -2630,
+    domain: "funeraire",
+    artifactType: "Chambre funéraire / Hypogée",
+    title: "Panneau mural des appartements funéraires en carreaux de faïence bleue de Djéser (Saqqarah, Musée Imhotep)",
+    site: "Musée Imhotep (Saqqarah)",
+    originSite: "Pyramide à degrés et Tombeau Sud de Djéser (Saqqarah)",
+    locationType: "museum",
+    currentLocation: "Musée Imhotep, Saqqarah",
+    category: "Décor mural funéraire en faïence siliceuse et calcaire",
+    isHighlight: true,
+    chips: ["IIIe dynastie", "Djéser", "Imhotep", "Chambre bleue", "Faïence siliceuse", "Saqqarah", "Musée Imhotep"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczN7tqjFBIfpHrfjvKjnD0YO3ReuDlew1S6JcTfgNNQqIayvhGxR0b2rcQRuYWAEYMznG2D5ZZ7KpWY8DHpRfsyhPrgydPjwSfpLcGrCGvbJ_x-SLDT3RFKdyup5Rq3HwXWv4F9Prl9rfajoc6gBuOik_Q=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette pièce spectaculaire provient des appartements funéraires souterrains du complexe du roi Djéser, premier souverain de la IIIe dynastie (v. 2630-2611 av. J.-C.). Découverts sous la célèbre pyramide à degrés de Saqqarah et dans le « Tombeau Sud », ces murs étaient initialement recouverts de milliers de carreaux de faïence bleue.</p>
+    <p>La décoration de ces chambres, souvent appelées « chambres bleues », a été conçue par l'architecte Imhotep pour imiter le clayonnage de roseaux et les nattes tressées qui ornaient les parois du palais royal du vivant du pharaon. Chaque carreau de faïence, fabriqué à partir d'un mélange de quartz broyé, comporte au revers un tenon percé permettant de le fixer au mur par des fils de cuivre et du mortier.</p>
+    <p>La couleur bleu-turquoise n'est pas seulement esthétique ; elle est chargée d'un symbolisme puissant évoquant la renaissance, la vie et les eaux primordiales du Nil. En recréant un environnement végétal éternel, ces parois garantissaient au souverain un cadre familier et propice à sa régénération dans l'au-delà.</p>
+    <p>Le panneau central montre une niche où est représenté en bas-relief le roi Djéser lui-même, officiant lors de cérémonies rituelles liées à son pouvoir. Ce mélange de pierre sculptée et de céramique vitrifiée marque un tournant révolutionnaire dans l'histoire de l'art, signant le passage définitif vers une architecture monumentale pérenne.</p>
+    <p><strong>Siècle :</strong> XXVIIe siècle av. J.-C. (-2630) | <strong>Civilisation :</strong> Égypte antique (Ancien Empire) | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "funeraire_cercueil_bois_peint_catalogue_offrandes_moyen_empire_louvre",
+    civId: "egypte",
+    periodId: "egypte_moyen",
+    civName: "Égypte : Moyen Empire & Périodes Intermédiaires",
+    century: "XIIe dynastie (vers -1900 av. J.-C. / Moyen Empire)",
+    centuryDisplay: "XXe – XIXe s. av. J.-C.",
+    centuryNumeric: -1900,
+    domain: "funeraire",
+    artifactType: "Sarcophage humain (cuve, bois, pierre)",
+    title: "Paroi de cercueil rectangulaire en bois stuqué et peint au catalogue d'offrandes (Moyen Empire, Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Moyenne-Égypte (Assiout ou Deir el-Bersha)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes)",
+    category: "Cercueil rectangulaire en bois stuqué et peint",
+    isHighlight: false,
+    chips: ["XIIe dynastie", "Moyen Empire", "Cercueil rectangulaire", "Bois peint", "Catalogue d'offrandes", "Frise d'objets", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczM1122qmLvBuNCPi6vEhgfLzvR0Psoi8_TB7QQ5GYACOlISFcjj1Yb0KZHWI1mw4dLrFxyKXSHElX8hNqSLe-_oXtC5Xn-cWAxlnjWLxRB-sW0tcwjTWJWKU3RTvYmZCkre0qOWDIn5p6_DSo8p-bMheQ=w1221-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce cercueil rectangulaire en bois stuqué et peint est un exemple remarquable de la production funéraire de la XIIe dynastie, période charnière où le décor des parois intérieures et extérieures devient un substitut magique aux offrandes réelles. La structure massive présente un assemblage de planches retenues par des chevilles en bois, recouvertes d'un enduit servant de support à une polychromie dominée par des pigments ocre et sombres. La composition iconographique s'organise en registres horizontaux et colonnes verticales, créant une architecture textuelle rigoureuse caractéristique du Moyen Empire.</p>
+    <p>Le décor est principalement constitué de frises d'objets et de textes hiéroglyphiques. Sur la partie supérieure, des lignes horizontales reprennent les formules d'offrandes invocatoires pour le défunt. Au centre de la paroi, on distingue un « catalogue d'offrandes » détaillé : des représentations de pains, de pièces de viande, de paniers de fruits et de vases à onguents. Ces images sont accompagnées d'une scène plus narrative montrant des serviteurs ou des prêtres funéraires en pleine activité, destinés à servir éternellement le propriétaire du cercueil.</p>
+    <p>La finesse des hiéroglyphes peints, aux détails anatomiques et animaliers précis, témoigne du soin apporté à la réalisation. Ce type de cercueil servait de « demeure d'éternité », où chaque signe et chaque image possédaient une fonction active pour la survie de l'âme. Les zones de lacunes et les fissures du bois, visibles sur la pièce, n'enlèvent rien à la lisibilité des scènes de boucherie ou de présentation de fleurs de lotus, éléments essentiels pour garantir la renaissance cyclique du mort.</p>
+    <p><strong>Siècle :</strong> XXe – XIXe siècle av. J.-C. (-1900) | <strong>Civilisation :</strong> Égypte antique (Moyen Empire) | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "funeraire_fragment_masque_cartonnage_peint_perruque_tripartite_xiiie_louvre",
+    civId: "egypte",
+    periodId: "egypte_moyen",
+    civName: "Égypte : Moyen Empire & Périodes Intermédiaires",
+    century: "XIIIe dynastie (vers -1750 av. J.-C. / fin du Moyen Empire)",
+    centuryDisplay: "XVIIIe s. av. J.-C.",
+    centuryNumeric: -1750,
+    domain: "funeraire",
+    artifactType: "Masque funéraire & Cartonnage",
+    title: "Fragment de masque funéraire en cartonnage peint à la perruque tripartite (XIIIe dynastie, Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Moyenne ou Haute-Égypte",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes)",
+    category: "Masque funéraire en cartonnage stuqué et peint",
+    isHighlight: false,
+    chips: ["XIIIe dynastie", "Moyen Empire", "Masque funéraire", "Cartonnage", "Khôl", "Perruque tripartite", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczM6ZGdInlyQ9MW9uXXNYXIOn2hThQdFI4E_qrQJynyj2YFycnXtgLj3WZ7-IIbdiJV2l2A_beSdTmYut4ACQqGpbBXtJ9-UObGp6wYDudoq2CPfMZldpoZZ7nkcV2ES_li1mCSbOTCZPbBRm4Kn7ETn1w=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce fragment de masque funéraire, datant de la XIIIe dynastie, illustre l'évolution stylistique de la fin du Moyen Empire vers une plus grande humanisation des traits. Réalisé en cartonnage (superposition de couches de lin ou de papyrus encollées) et recouvert d'un fin enduit de plâtre peint, ce masque était conçu pour protéger la tête de la momie tout en offrant un support physique à l'identité spirituelle du défunt. Le visage présente un modelé doux, avec des pommettes légèrement saillantes et un nez droit, caractéristiques d'une recherche de portrait qui s'éloigne de la rigidité des périodes antérieures.</p>
+    <p>Le traitement des yeux est particulièrement soigné, avec des contours soulignés par un trait de fard noir (khôl) qui s'étire vers les tempes, imitant le maquillage rituel. Les sourcils, peints de manière fine et arquée, encadrent un regard qui semble dirigé vers l'éternité. La bouche, aux lèvres pleines et délicatement dessinées, affiche une expression sereine. Bien que fragmentaire, l'œuvre conserve des traces de la perruque tripartite qui encadrait jadis le visage, ornée de motifs géométriques et de bandes colorées imitant les tresses ou les ornements textiles.</p>
+    <p>Sur le front, des vestiges de motifs décoratifs suggèrent la présence d'un bandeau ou d'une parure frontale. La polychromie, bien que partiellement érodée, laisse entrevoir des teintes ocre pour la chair et des rehauts de couleurs vives sur les éléments de la coiffe. Ce type de masque jouait un rôle magique essentiel : il permettait au Ka (l'énergie vitale) de reconnaître son corps et servait de substitut indestructible au visage périssable du défunt, garantissant ainsi sa survie dans l'au-delà.</p>
+    <p><strong>Siècle :</strong> XVIIIe siècle av. J.-C. (-1750) | <strong>Civilisation :</strong> Égypte antique (Moyen Empire) | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "funeraire_masque_cartonnage_peint_bandeau_frontal_xiiie_louvre",
+    civId: "egypte",
+    periodId: "egypte_moyen",
+    civName: "Égypte : Moyen Empire & Périodes Intermédiaires",
+    century: "XIIIe dynastie (vers -1750 à -1700 av. J.-C. / fin du Moyen Empire)",
+    centuryDisplay: "XVIIIe – XVIIe s. av. J.-C.",
+    centuryNumeric: -1700,
+    domain: "funeraire",
+    artifactType: "Masque funéraire & Cartonnage",
+    title: "Masque funéraire en cartonnage peint au bandeau frontal géométrique et floral (XIIIe dynastie, Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Moyenne ou Haute-Égypte",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes)",
+    category: "Masque funéraire en cartonnage stuqué et peint",
+    isHighlight: false,
+    chips: ["XIIIe dynastie", "Moyen Empire", "Masque funéraire", "Cartonnage", "Bandeau frontal", "Polychromie", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPUpLd6DmMGT6Q8CnuARrapsq86Vhasm6nIu5G5FRI-vKEsY3OqGFx70D5yn3oaIuuFhBup8aLYrx9_5cq6EBTOT7Y0G5InzxuoAsJdLb4wzCQNEg9RrpP7imlayYd0GW9FOKnRk9P-JscMEdHd00PFZA=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Ce second masque funéraire de la XIIIe dynastie, également réalisé en cartonnage peint, présente une physionomie très proche du précédent tout en conservant des détails ornementaux distincts au niveau de la coiffe. Le visage, d'une grande sérénité, arbore un modelé souple avec des lèvres charnues et un menton légèrement arrondi, caractéristiques de l'esthétique plus humanisée de la fin du Moyen Empire. Les yeux en amande sont largement ouverts, encadrés par des traits de fard sombres et des sourcils épais qui structurent l'expression du regard.</p>
+    <p>La partie supérieure du masque laisse apparaître les vestiges d'un bandeau frontal décoré de motifs géométriques et floraux stylisés, typiques des parures funéraires de cette époque. On y devine des alternances de bandes de couleurs vives qui devaient initialement recouvrir l'intégralité de la perruque. La polychromie de la peau, traitée dans des tons crème et ocre, contraste avec le rouge brun utilisé pour souligner certains détails du visage, offrant un rendu vivant destiné à animer le support matériel du défunt.</p>
+    <p>Bien que le cartonnage soit fragmentaire, la préservation des oreilles décollées et du contour du visage permet d'apprécier la précision du travail de moulage. Ce masque, en tant que substitut magique, assurait la pérennité de l'image du mort et sa capacité à voir et à respirer dans l'au-delà. Sa ressemblance avec d'autres pièces de la même période suggère une production artisanale codifiée, où la recherche de l'idéal divin se mêle à une attention particulière portée aux traits individuels.</p>
+    <p><strong>Siècle :</strong> XVIIIe – XVIIe siècle av. J.-C. (-1700) | <strong>Civilisation :</strong> Égypte antique (Moyen Empire) | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+  {
+    id: "funeraire_masque_cartonnage_chair_doree_yeux_khol_nouvel_empire_assouan",
+    civId: "egypte",
+    periodId: "egypte_nouvel",
+    civName: "Égypte : Nouvel Empire",
+    century: "Nouvel Empire (XVIIIe – XXe dynastie, vers -1550 à -1085 av. J.-C.)",
+    centuryDisplay: "XVIe – XIe s. av. J.-C.",
+    centuryNumeric: -1350,
+    domain: "funeraire",
+    artifactType: "Masque funéraire & Cartonnage",
+    title: "Masque funéraire en cartonnage stuqué à la chair jaune d'or divine (Nouvel Empire, Musée de la Nubie, Assouan)",
+    site: "Musée de la Nubie (Assouan)",
+    originSite: "Haute-Égypte ou Basse-Nubie (Assouan)",
+    locationType: "museum",
+    currentLocation: "Musée de la Nubie, Assouan",
+    category: "Masque funéraire en cartonnage stuqué et peint",
+    isHighlight: false,
+    chips: ["Nouvel Empire", "Masque funéraire", "Cartonnage", "Chair jaune d'or", "Khôl", "Âme-Ba", "Musée de la Nubie"],
+    deptBanner: "https://lh3.googleusercontent.com/d/11hLJFFN1McLmLPGw1pf73r-LVI6VfhMp",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMljTdz5LgrR-nGyWsNf_xTUXRbVm5iqg-HttLnQXoD_U_eB49JuDgDFebq1l5M8-96_TGAPvSmyCS-6JxuhM1YCnCII7Wb4OR-h_FjeIOqFBBgAmApggN3hwusOS6BdIfW_SQPo2jyTxvutdAa49v4mQ=w1379-h919-s-no-gm?authuser=0",
+    narrative: `<p>Le cartonnage est une technique typiquement égyptienne consistant à superposer des couches de lin ou de papyrus encollées, recouvertes d'une fine couche de plâtre pour créer une surface lisse apte à recevoir la peinture. Ce matériau, plus léger et moins onéreux que la pierre ou le métal, permettait de mouler avec précision les traits du visage du défunt afin de lui assurer une identité éternelle.</p>
+    <p>Le masque arbore une peau d'un jaune éclatant, une couleur hautement symbolique qui, dans l'Égypte ancienne, représentait la chair des dieux et l'immortalité. Les yeux sont soulignés par de larges traits de khôl noir qui s'étirent vers les tempes, une esthétique caractéristique de la XVIIIe dynastie qui visait à magnifier le regard. Les sourcils, également peints en noir, suivent une courbe élégante, tandis que le nez et la bouche sont modelés avec une certaine douceur, conférant au visage une expression de sérénité absolue.</p>
+    <p>Sur les côtés du visage, on devine les vestiges d'une parure richement colorée, incluant les oreilles et le début d'une perruque ou d'un bandeau frontal. Ces éléments étaient souvent ornés de motifs géométriques et floraux imitant les bijoux en perles de faïence et de pierres semi-précieuses. Ce type de masque ne servait pas seulement de décoration, mais jouait un rôle rituel fondamental : il protégeait la tête de la momie et permettait au « Ba » (l'âme) de reconnaître son corps lors de son retour quotidien dans le tombeau.</p>
+    <p>Bien que fragmentaire, cette œuvre témoigne de la diffusion des codes artistiques thébains jusque dans la région d'Assouan, à la frontière de la Nubie. Elle illustre la démocratisation progressive des rituels funéraires, permettant à des fonctionnaires ou des notables locaux de bénéficier de la protection magique offerte par ces enveloppes colorées. La vivacité des pigments, préservée par le climat aride de la Haute-Égypte, continue d'offrir un lien direct et émouvant avec les croyances d'éternité de ceux qui habitaient les rives du Nil il y a plus de trois millénaires.</p>
+    <p><strong>Siècle :</strong> XVIe – XIe siècle av. J.-C. (vers -1350) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Arts funéraires & Momification.</p>`
+  },
+   {
     id: "parures_egide_sobek_crocodile_contrepoids_menat_bronze_damasquine_louvre",
     civId: "egypte",
     periodId: "egypte_tardive",
