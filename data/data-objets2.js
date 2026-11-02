@@ -4,6 +4,157 @@
 window.ART_OBJECTS = [
   
    {
+    id: "sculpture_reine_karomama_divine_adoratrice_bronze_damasquine_louvre",
+    civId: "egypte",
+    periodId: "egypte_tardive",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "XXIIe dynastie (vers -870 av. J.-C. / règne d'Osorkon II)",
+    centuryDisplay: "IXe s. av. J.-C.",
+    centuryNumeric: -870,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire royale & divine (ronde-bosse)",
+    title: "Statuette de la reine Karomama, Divine Adoratrice d'Amon, en bronze damasquiné d'or et d'argent (Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Karnak (Thèbes)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes, N 500)",
+    category: "Statuaire en bronze damasquiné d'or, d'argent et d'électrum",
+    isHighlight: true,
+    chips: ["XXIIe dynastie", "Karomama", "Divine Adoratrice", "Karnak", "Bronze damasquiné", "Incrustations d'or", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP0fL6NP7htAZb4uZEhMxxI8fHDZImlwNryv1Eu1YEwERZ58O2-_b1b0ZJcnVJtIK7vjYE8LZRwDuP4fnfOFdfosvfjRInX_UdwHXWQVhi40RWlSE-Vv2TrwjkiGQkY-SLiEpJCo-IUfK7fESog8vc9yg=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette statuette d'une élégance exceptionnelle représente la reine Karomama, qui occupait la fonction prestigieuse de Divine Adoratrice d'Amon. Ce titre, le plus haut rang sacerdotal féminin à Thèbes, faisait d'elle l'épouse terrestre du dieu Amon, lui conférant un pouvoir politique et religieux immense, quasi équivalent à celui d'un pharaon dans le sud du pays.</p>
+    <p>L'œuvre est un sommet de la métallurgie de la Troisième Période Intermédiaire. Coulée en bronze à la cire perdue, elle est recouverte d'un décor incroyablement complexe d'incrustations de fils d'or, d'argent et d'électrum. La reine est vêtue d'une robe de fête dont les ailes de vautour s'enroulent autour de son corps, créant un motif de plumes stylisées. Elle porte une perruque courte et bouclée, typique de l'époque, surmontée d'un mortier qui accueillait autrefois deux hautes plumes et peut-être une corne de gazelle.</p>
+    <p>Ses mains, projetées vers l'avant, tenaient initialement deux sistres, des instruments de musique sacrés dont le tintement était censé apaiser la divinité lors des rituels au temple de Karnak. La finesse du modelé du visage et la richesse de l'ornementation témoignent du luxe inouï de la cour thébaine et de l'importance du culte d'Amon à cette période.</p>
+    <p><strong>Siècle :</strong> IXe siècle av. J.-C. (-870) | <strong>Civilisation :</strong> Égypte antique (Troisième Période intermédiaire / Basse Époque) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_dignitaire_mosou_scribe_bronze_saqqara_louvre",
+    civId: "egypte",
+    periodId: "egypte_tardive",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "XXIIe dynastie (vers -850 av. J.-C. / époque libyenne)",
+    centuryDisplay: "IXe s. av. J.-C.",
+    centuryNumeric: -850,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire privée & portraits",
+    title: "Statuette du dignitaire Mosou, scribe, en bronze à la cire perdue (Saqqara, Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Saqqara",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes)",
+    category: "Ronde-bosse privée en bronze",
+    isHighlight: false,
+    chips: ["XXIIe dynastie", "Mosou", "Scribe", "Saqqara", "Bronze", "Cire perdue", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczO8aU2x9w42gjkiy18Kqjt8FMV5wlWhYYQ1P27t9j0lrlYy1i1Xigggk5_7VfnYi5QNH4P4GHh1SQt17neYJrWS4MtarPQRvGpVjQO-xLxffJPq9bLl0pGVEeznMR0sTiNyjdwlZh5Ou8pT5UZ9HdHz9Q=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette statuette en bronze représente le dignitaire Mosou, un personnage important dont le titre de « scribe » souligne l'appartenance à l'élite administrative de la Troisième Période Intermédiaire. Découverte dans le secteur de Saqqara, cette œuvre est un témoignage précieux de l'art du métal qui s'épanouit sous la XXIIe dynastie, période où les artisans atteignent une maîtrise technique exceptionnelle.</p>
+    <p>Le personnage est figuré debout dans l'attitude classique du marcheur, le pied gauche porté vers l'avant. Il est vêtu d'un pagne plissé dont les lignes verticales et horizontales sont gravées avec une grande netteté dans le métal. Mosou porte une perruque courte, finement travaillée en petites mèches bouclées, qui laisse apparaître ses oreilles. Son visage, aux traits pleins et au sourire discret, reflète une certaine sérénité tout en conservant l'autorité propre à sa fonction. Le bras gauche est replié sur la poitrine, la main fermée ayant probablement tenu un sceptre ou un rouleau de papyrus aujourd'hui disparu.</p>
+    <p>La qualité de la fonte à la cire perdue permet d'apprécier le rendu anatomique du torse et des membres, illustrant la volonté des artistes de cette époque de renouer avec l'équilibre des formes du Nouvel Empire. Cette statuette, tout comme celle de son frère, servait de substitut éternel au défunt dans un contexte funéraire ou cultuel, lui permettant de bénéficier des offrandes et de la protection divine pour l'éternité.</p>
+    <p><strong>Siècle :</strong> IXe siècle av. J.-C. (-850) | <strong>Civilisation :</strong> Égypte antique (Troisième Période intermédiaire / Basse Époque) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_frere_du_scribe_mosou_bronze_saqqara_louvre",
+    civId: "egypte",
+    periodId: "egypte_tardive",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "XXIIe dynastie (vers -850 av. J.-C. / époque libyenne)",
+    centuryDisplay: "IXe s. av. J.-C.",
+    centuryNumeric: -850,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire privée & portraits",
+    title: "Statuette votive d'un dignitaire, frère du scribe Mosou, en bronze (Saqqara, Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Saqqara",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes)",
+    category: "Ronde-bosse privée en bronze",
+    isHighlight: false,
+    chips: ["XXIIe dynastie", "Frère de Mosou", "Saqqara", "Bronze", "Cire perdue", "Ex-voto", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOqu53Z5QGYJPSsRUKwM_Pgx_ghxDoOxkRMgLUPixrdErwwdBPuqZqrVgwY3f4XwyEGd1yrIQhg-qKmS1UTR22qoDIyj5mP-qoD0TOWj0QtzAI62hWk92Fz6M_HuPCVvVtdQNkM_Ch1qZ3VGP7Mo_FKVw=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette statuette en bronze représente le frère du scribe Mosou, un dignitaire dont l'identité précise demeure encore débattue, mais dont le style place l'œuvre au cœur des innovations techniques de la Troisième Période Intermédiaire. Découverte vraisemblablement à Saqqara, elle illustre parfaitement le prestige des élites administratives et religieuses de cette époque de transition.</p>
+    <p>Le personnage est figuré debout, dans une posture de marche dynamique, le bras gauche replié vers l'avant. Il porte une perruque courte aux boucles soigneusement étagées et un pagne plissé dont le rendu du tissu est d'un grand réalisme. Le torse nu révèle un modelé athlétique, caractéristique de la statuaire masculine de cette dynastie qui redécouvre les canons classiques du Nouvel Empire tout en y injectant une souplesse nouvelle. La qualité de la fonte et la précision des détails, notamment au niveau du visage et de la ceinture, soulignent le rang social élevé du commanditaire.</p>
+    <p>Ce type de statuette servait généralement d'ex-voto déposé dans un temple pour assurer au défunt ou au donateur une présence éternelle auprès de la divinité. Elle témoigne de la vitalité des ateliers de bronziers de la Basse-Égypte, capables de produire des pièces d'une grande finesse malgré l'instabilité politique apparente de la période.</p>
+    <p><strong>Siècle :</strong> IXe siècle av. J.-C. (-850) | <strong>Civilisation :</strong> Égypte antique (Troisième Période intermédiaire / Basse Époque) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_reine_ou_deesse_depouille_vautour_bronze_louvre",
+    civId: "egypte",
+    periodId: "egypte_tardive",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "XXIIe dynastie (vers -850 av. J.-C. / époque libyenne)",
+    centuryDisplay: "IXe s. av. J.-C.",
+    centuryNumeric: -850,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire royale & divine (ronde-bosse)",
+    title: "Statuette féminine royale ou divine à la dépouille de vautour en bronze (Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Basse-Égypte ou Thèbes",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes)",
+    category: "Ronde-bosse en bronze",
+    isHighlight: false,
+    chips: ["XXIIe dynastie", "Reine", "Déesse", "Bronze", "Dépouille de vautour", "Robe fourreau", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPFbc4rhZrRXe-GUMCbFk15WBFtPhqlJfZbkA_QgJzjKdqdMbg5wHfccFswOCBSYKoGgPglU6kigLtHqUyIBqeovImb9n5a2zyWjJN-4qPlz0-hTrr0b_GVug_NAGwB8CjD2WBLIUdKjsYD43DzTbnN1w=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette statuette en bronze représente une figure féminine de haut rang, probablement une reine ou une divinité telle qu'Isis ou Hathor, caractéristique de la finesse métallurgique atteinte durant les dernières dynasties de l'Égypte antique. La silhouette élancée est moulée dans une robe fourreau extrêmement ajustée, ornée d'un motif gravé complexe imitant des plumes de vautour ou des écailles, symbole de protection divine souvent associé au costume royal féminin. Le visage, aux traits fins et sereins, est encadré par une lourde perruque tripartite striée, surmontée d'une dépouille de vautour dont la tête de l'uræus se dresse sur le front pour marquer la puissance souveraine.</p>
+    <p>Au sommet de la tête, un socle cylindrique supportait initialement un attribut plus imposant, vraisemblablement des cornes lyres enserrant un disque solaire, aujourd'hui partiellement fragmentaire. La posture, bien que statique, suggère un mouvement léger avec le bras gauche porté vers l'avant, tandis que la patine sombre du métal souligne la précision des incisions anatomiques et ornementales.</p>
+    <p>Ce type d'ex-voto était généralement déposé dans des sanctuaires pour assurer la médiation entre le donateur et le divin, témoignant de la persistance des codes esthétiques classiques fusionnés avec une élégance plus souple propre à la Basse Époque.</p>
+    <p><strong>Siècle :</strong> IXe siècle av. J.-C. (-850) | <strong>Civilisation :</strong> Égypte antique (Troisième Période intermédiaire / Basse Époque) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_statue_cube_dignitaire_regne_osorkon_ii_louvre",
+    civId: "egypte",
+    periodId: "egypte_tardive",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "XXIIe dynastie (vers -850 av. J.-C. / règne d'Osorkon II)",
+    centuryDisplay: "IXe s. av. J.-C.",
+    centuryNumeric: -850,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire privée & portraits",
+    title: "Statue-cube d'un haut dignitaire de l'époque d'Osorkon II en pierre sombre (Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Basse-Égypte (Tanis ou Bubastis)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités égyptiennes)",
+    category: "Statue-cube en pierre dure polie",
+    isHighlight: false,
+    chips: ["XXIIe dynastie", "Osorkon II", "Statue-cube", "Pierre sombre", "Perruque en boule", "Appel aux vivants", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP7izWyU-yWLbG4-EIiaijmvh9_7jBO5seIeuPiiCIz423Mr6oa8ACRT7dPU2vig37pZujT_vrB9Mu0l9F28zLcuBkosLqDyn-4TfV09nuat3eZFff5KuahFMqPrfrUEYtzs0QCYSpgF47eOJ2BoEydbg=w692-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette statue-cube, caractéristique de la statuaire privée de la XXIIe dynastie, représente un haut dignitaire dans l'attitude du repos et de la méditation, une forme sculpturale qui privilégie la compacité pour offrir de larges surfaces aux inscriptions dédicatoires. Taillée dans une pierre sombre et dure, probablement de la diorite ou du schiste, l'œuvre montre le personnage accroupi, les genoux ramenés contre la poitrine et les bras croisés au sommet du cube formé par le corps drapé. Seuls la tête, aux traits imberbes et juvéniles, ainsi que les mains et parfois les pieds, émergent de la masse géométrique, créant un contraste saisissant entre le réalisme du visage et l'abstraction du corps. Le visage est encadré par une perruque « en boule » ou striée, typique de l'esthétique libyenne de cette période, avec des oreilles larges et décollées qui captent l'attention.</p>
+    <p>Le pan frontal et les côtés du cube sont couverts de colonnes de hiéroglyphes gravés en creux, mentionnant souvent le nom et les titres du fonctionnaire, ainsi que des invocations aux divinités pour assurer la survie éternelle du ka. Sous le règne d'Osorkon II, ce type de monument déposé dans les cours des temples permettait au défunt de participer symboliquement aux rites et de bénéficier des offrandes de nourriture.</p>
+    <p>La robustesse de la forme garantissait la pérennité de l'objet face au temps, tandis que la qualité du polissage et la précision des inscriptions témoignent du maintien d'un artisanat de cour de haut niveau malgré l'instabilité politique de la Troisième Période intermédiaire.</p>
+    <p><strong>Siècle :</strong> IXe siècle av. J.-C. (-850) | <strong>Civilisation :</strong> Égypte antique (Troisième Période intermédiaire / Basse Époque) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+  {
+    id: "sculpture_haroua_grand_intendant_divine_adoratrice_amenardis_assouan",
+    civId: "egypte",
+    periodId: "egypte_tardive",
+    civName: "Égypte : Basse Époque, Ptolémées & Rome",
+    century: "XXVe dynastie (vers -700 av. J.-C. / époque koushite)",
+    centuryDisplay: "VIIIe – VIIe s. av. J.-C.",
+    centuryNumeric: -700,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire privée & portraits",
+    title: "Statue assise en scribe à genou relevé de Haroua, Grand Intendant d'Amenardis Ire (Musée de la Nubie, Assouan)",
+    site: "Temple d'Amon de Karnak (Thèbes)",
+    originSite: "Thèbes",
+    locationType: "museum",
+    currentLocation: "Musée de la Nubie, Assouan",
+    category: "Statuaire privée en pierre sombre",
+    isHighlight: true,
+    chips: ["XXVe dynastie", "Haroua", "Amenardis Ire", "Divine Adoratrice", "Koushite", "Réalisme", "Musée de la Nubie"],
+    deptBanner: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPW7WCWCwT9rHlV1rDAueZTOYY75tCIDuljNOJX7p-C1xo6zj29U3UxhJj2MwSFrmlNd-kuSPZiQiOWF6-fMoOt8F7bHr9Fc22pzN56RQNRBISXlrKbyHG12jUs2AhLggXwDjQgUqZv8p3jS0rnZ7h4gg=w613-h919-s-no-gm?authuser=0",
+    narrative: `<p>Cette statuette en pierre sombre, conservée au Musée de la Nubie à Assouan, représente Haroua, l'une des figures politiques les plus influentes de la XXVe dynastie (dite dynastie « koushite » ou nubienne). Il occupe la fonction prestigieuse de Grand Intendant de la Divine Adoratrice d'Amon, Amenardis Ire. Sa posture, assis au sol avec un genou relevé, est une variation de la pose classique du scribe, marquant sa position de haut fonctionnaire et d'administrateur dévoué au service du temple de Karnak.</p>
+    <p>L'œuvre se distingue par un traitement réaliste et charnu du corps, caractéristique de l'art de cette période. Haroua est représenté avec un certain embonpoint, signe de prospérité et de maturité, loin de l'idéalisation athlétique des époques antérieures. Son visage, marqué par des traits individuels et une expression de sagesse sereine, reflète la « renaissance » artistique koushite qui puisait son inspiration dans les modèles de l'Ancien et du Moyen Empire tout en y insufflant une humanité nouvelle.</p>
+    <p>Les textes hiéroglyphiques gravés sur son pagne et sur la base de la statue détaillent ses titres et ses louanges, affirmant sa loyauté indéfectible envers la Divine Adoratrice. Ces inscriptions servaient à garantir la survie de son nom et de son âme dans l'au-delà, tout en témoignant de son rôle crucial d'intermédiaire entre le pouvoir royal nubien et le clergé thébain. Haroua est d'ailleurs l'un des rares particuliers de l'histoire égyptienne à avoir possédé un nombre aussi important de statues et une tombe monumentale à l'Assassif.</p>
+    <p>Cette sculpture est un témoignage exceptionnel de la maîtrise technique des ateliers thébains au tournant des VIIIe et VIIe siècles av. J.-C. Le choix d'une pierre dure et sombre souligne la puissance du personnage et l'éternité de sa fonction. En tant qu'homme de confiance des « Pharaons Noirs », Haroua a contribué à la stabilité économique et religieuse de la région, faisant de lui une figure centrale pour comprendre les échanges culturels et politiques entre l'Égypte et la Nubie à cette époque charnière.</p>
+    <p><strong>Siècle :</strong> VIIIe – VIIe siècle av. J.-C. (-700) | <strong>Civilisation :</strong> Égypte antique (XXVe dynastie koushite / Basse Époque) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
+  },
+   {
     id: "sculpture_colosse_debout_ramses_iii_temple_reposoir_karnak",
     civId: "egypte",
     periodId: "egypte_nouvel",
