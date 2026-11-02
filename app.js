@@ -1308,13 +1308,13 @@ const TAXONOMY_DOMAINS = {
   "funeraire": {
     label: "Arts funéraires & Momification",
     types: [
-      "Chambre funéraire / Hypogée", "Coffre & Vases canopes", "Fausse porte",
-      "Figurine funéraire / Ouchebti", "Larnax",
+      "Chambre funéraire / Hypogée", "Cippe funéraire", "Coffre & Vases canopes",
+      "Fausse porte", "Figurine funéraire / Ouchebti", "Larnax",
       "Maquette funéraire (barque, atelier, serviteur)", "Masque funéraire & Cartonnage",
       "Mobilier & Ensemble funéraire", "Monument / Tombeau rupestre",
       "Papyrus funéraire / Livre des Morts", "Portrait du Fayoum", "Pyramidion",
       "Sarcophage & Momie animale", "Sarcophage humain (cuve, bois, pierre)",
-      "Stèle funéraire", "Table d'offrandes"
+      "Stèle funéraire", "Table d'offrandes", "Urne cinéraire"
     ]
   },
   "ceramique": {
@@ -1324,7 +1324,7 @@ const TAXONOMY_DOMAINS = {
       "Askos", "Calice", "Canthare", "Cratère", "Cruche", "Dinos", "Hydrie",
       "Jatte / Écuelle", "Kernos", "Kylix / Coupe", "Lampe à huile",
       "Lécythe", "Oenochoé", "Olla sur support (holmos)", "Pithos / Jarre", "Plat",
-      "Plat & Céramique fine", "Pyxide / Boîte à couvercle", "Rhyton",
+      "Plat & Céramique fine", "Pyxide / Boîte à couvercle", "Rhyton", "Stamnos",
       "Vase", "Vase à étrier", "Vase balustre",
       "Vase en pierre (albâtre, calcite)", "Vase plastique / Zoomorphe"
     ]
@@ -1340,9 +1340,11 @@ const TAXONOMY_DOMAINS = {
   "parures_metaux": {
     label: "Orfèvrerie, Armes & Métallurgie",
     types: [
-      "Armement d'apparat (épée, poignard, casque)", "Dépôt métallurgique & Haches",
-      "Glyptique (sceau-cylindre, intaille)", "Numismatique (monnaie)",
-      "Parure en or / Argent / Bronze", "Torque & Bracelet",
+      "Armement d'apparat (épée, poignard, casque)", "Ciste en bronze",
+      "Dépôt métallurgique & Haches", "Glyptique (sceau-cylindre, intaille)",
+      "Miroir gravé en bronze", "Mobilier d'apparat en bronze (trône, lit, trépied)",
+      "Numismatique (monnaie)", "Parure en or / Argent / Bronze",
+      "Strigile & Instrument de toilette", "Torque & Bracelet",
       "Vaisselle d'or & d'argent"
     ]
   },
@@ -1365,7 +1367,7 @@ const TAXONOMY_DOMAINS = {
       "Monolithe / Stèle sculptée",
       "Sculpture monumentale / Cuve de libation",
       "Sculpture monumentale extérieure (fontaine, calvaire, moaï)",
-      "Statuaire privée & portraits", "Statuaire royale & divine (ronde-bosse)"
+      "Statuaire animale & gardienne (ronde-bosse)", "Statuaire privée & portraits", "Statuaire royale & divine (ronde-bosse)"
     ]
   },
   "vie_quotidienne": {

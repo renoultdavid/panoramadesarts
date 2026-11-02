@@ -503,6 +503,55 @@ window.ART_TYPOLOGY_DEFINITIONS = {
     domain: "Arts du feu",
     def: "Flacon ou coupe en pâte de verre colorée (façonné sur noyau d'argile en Égypte et Méditerranée avant l'invention du verre soufflé au Ier siècle av. J.-C.)."
   }
+,
+  "Urne cinéraire": {
+    title: "Urne cinéraire",
+    etymology: "Du latin urna, dérivé de urere, « brûler »",
+    domain: "Mobilier funéraire antique",
+    def: "Coffret funéraire ou vase scellé en terre cuite, pierre (albâtre, tuf, marbre) ou métal destiné à recueillir les cendres et ossements calcinés du défunt après incinération. En Étrurie hellénistique (Chiusi, Volterra, Pérouse), le couvercle figure le défunt étendu au banquet éternel, tandis que la cuve arbore des hauts-reliefs de combats héroïques ou mythologiques."
+  },
+  "Cippe funéraire": {
+    title: "Cippe funéraire",
+    etymology: "Du latin cippus, « pieu, borne, colonne funéraire »",
+    domain: "Architecture & Repères funéraires",
+    def: "Petite colonne, borne cylindrique, conique ou pilier de pierre (marbre, calcaire, grès) érigé au-dessus ou aux abords d'une tombe antique pour en signaler l'emplacement et perpétuer la mémoire du défunt. En Étrurie et en Corse antique (nécropole de Casabianda à Aléria), le cippe prend souvent la forme géométrique d'un cône ou 'bonnet phrygien', marqueur sacré et apotropaïque."
+  },
+  "Stamnos": {
+    title: "Stamnos",
+    etymology: "Du grec stámnos, « récipient, jarre »",
+    domain: "Céramique antique",
+    def: "Grand vase à vin et à libations de forme ovoïde trapue, caractérisé par une épaule renflée, un col court à large embouchure et deux anses horizontales disposées sur les flancs. Utilisé lors des banquets (symposia) et des fêtes dionysiaques pour mélanger ou conserver le vin avant le service."
+  },
+  "Ciste en bronze": {
+    title: "Ciste en bronze",
+    etymology: "Du latin cista, issu du grec kístê, « boîte, corbeille, coffret »",
+    domain: "Orfèvrerie & Métallurgie antique",
+    def: "Coffret cylindrique en tôle de bronze finement gravée, doté d'un couvercle surmonté d'une poignée en statuaire de bronze et reposant sur des pieds en griffes de lion. Spécialité prestigieuse des ateliers du Latium et d'Étrurie (notamment Préneste / Palestrina au IVe s. av. J.-C.), elle servait de boîte de toilette nuptiale et d'apparat pour ranger miroirs, peignes, fards et bijoux."
+  },
+  "Miroir gravé en bronze": {
+    title: "Miroir gravé en bronze",
+    etymology: "Du latin mirari, « admirer, s'étonner »",
+    domain: "Orfèvrerie & Parure antique",
+    def: "Disque de bronze coulé dont la face antérieure était polie et étamée pour refléter l'image, tandis que le revers plat ou légèrement concave était incisé au burin de riches compositions mythologiques, allégoriques ou scènes de toilette. Objet de luxe par excellence de la femme étrusque, souvent offert en dot de mariage et déposé dans la tombe."
+  },
+  "Mobilier d'apparat en bronze (trône, lit, trépied)": {
+    title: "Mobilier d'apparat en bronze (trône, lit, trépied)",
+    etymology: "Du latin mobilis, « mobile, meuble »",
+    domain: "Mobilier d'apparat & Métallurgie",
+    def: "Meubles d'apparat façonnés en tôle de bronze martelée, repoussée et rivetée (trônes à haut dossier hémisphérique, lits de banquet / klinai, candélabres, trépieds votifs). Réservés aux princes et hauts dignitaires de l'aristocratie orientalisante et archaïque pour manifester leur pouvoir politique et sacré."
+  },
+  "Strigile & Instrument de toilette": {
+    title: "Strigile & Instrument de toilette",
+    etymology: "Du latin strigilis, dérivé de stringere, « racler, frotter »",
+    domain: "Objets de la vie quotidienne & Soins corporels",
+    def: "Instrument métallique recourbé en bronze ou en fer, composé d'une poignée ergonomique et d'une lame concave (ligule). Utilisé par les athlètes au gymnase et les usagers des thermes pour racler la poussière, l'huile et la sueur après l'exercice physique, devenant un emblème d'excellence corporelle et de statut civique."
+  },
+  "Statuaire animale & gardienne (ronde-bosse)": {
+    title: "Statuaire animale & gardienne (ronde-bosse)",
+    etymology: "Du latin statua, issu de statuere, « ériger, placer debout »",
+    domain: "Sculpture monumentale & Funéraire",
+    def: "Sculptures en ronde-bosse de bêtes réelles ou fantastiques (lions couchés ou rugissants, sphinges, panthères, griffons) sculptées dans la pierre (tuf, nenfro, marbre) et dressées aux entrées des tumulus, nécropoles ou sanctuaires comme gardiens sacrés (apotropaïques) veillant sur le sommeil des défunts."
+  }
 };
 
 // 2. Dictionnaire des termes techniques, iconographiques et architecturaux (détectés automatiquement dans les notices)
@@ -1136,6 +1185,160 @@ window.ART_GLOSSARY = [
     category: "Symbole divin & pacifique",
     def: "Bâton d'olivier ou de laurier entouré de deux serpents entrelacés et surmonté de deux ailes, attribut du dieu Hermès (Turms en Étrurie) garantissant l'immunité diplomatique et le pouvoir de guider les âmes vers l'au-delà.",
     patterns: ["caducees", "caducee", "caducées", "caducée"]
+  },
+  {
+    term: "Pithos",
+    etymology: "Du grec píthos, « grande jarre »",
+    category: "Céramique de stockage",
+    def: "Grande jarre de terre cuite à panse ovoïde ou piriforme, utilisée dans l'Antiquité méditerranéenne pour stocker et conserver en grande quantité les grains, l'huile d'olive ou le vin. Dans l'Étrurie de Caeré, certains pithoi monumentaux d'apparat recevaient un décor figuré de cervidés et de poissons.",
+    patterns: ["pithos", "pithoi"]
+  },
+  {
+    term: "Stamnos",
+    etymology: "Du grec stámnos, « jarre, récipient »",
+    category: "Forme céramique",
+    def: "Vase antique fermé à deux anses horizontales et col court, servant à la conservation et au mélange du vin lors des célébrations dionysiaques. Les ateliers étrusques de Vulci (comme le Peintre Fould) en ont fait un support privilégié d'épopées mythologiques complexes.",
+    patterns: ["stamnos", "stamnoi"]
+  },
+  {
+    term: "Ciste prénestine",
+    etymology: "Du latin cista, coffret, et Praeneste (Palestrina)",
+    category: "Métallurgie de luxe latine & étrusque",
+    def: "Boîte de toilette cylindrique en bronze à couvercle, ciselée de scènes mythologiques homériques au trait fin et surmontée de figurines de satyres ou héros, fleuron de l'orfèvrerie de Palestrina au IVe s. av. J.-C.",
+    patterns: ["ciste", "cistes"]
+  },
+  {
+    term: "Plaque Campana",
+    etymology: "Du marquis Giampietro Campana, collectionneur du XIXe siècle",
+    category: "Terre cuite architecturale étrusque",
+    def: "Grande plaque de terre cuite peinte sur engobe blanc (VIe s. av. J.-C.), originaire de Caeré (Cerveteri), qui décorait les parois intérieures des temples ou édifices publics avec des cortèges rituels, sacrifices et scènes de rapt mythologique.",
+    patterns: ["plaque campana", "plaques campana", "campana"]
+  },
+  {
+    term: "Urne cinéraire",
+    etymology: "Du latin urna (vase) et cinis (cendre)",
+    category: "Rites funéraires",
+    def: "Vase ou coffre destiné à contenir les cendres du défunt après la crémation. Caractéristique des nécropoles de Chiusi et de Volterra à l'époque hellénistique, où la cuve porte un haut-relief mythologique et le couvercle une effigie du défunt allongé au banquet.",
+    patterns: ["urne cineraire", "urne cinéraire", "urnes cineraires", "urnes cinéraires"]
+  },
+  {
+    term: "Cippe",
+    etymology: "Du latin cippus, « pieu, borne »",
+    category: "Signalétique funéraire",
+    def: "Borne en pierre ou marbre érigée sur ou près d'une sépulture pour en marquer la présence sacrée. À Aléria (Corse), les cippes en marbre prennent la forme de bonnets phrygiens ou cônes lisses.",
+    patterns: ["cippe", "cippes"]
+  },
+  {
+    term: "Strigile",
+    etymology: "Du latin strigilis, de stringere (racler)",
+    category: "Objet de toilette & athlétisme",
+    def: "Instrument en bronze à lame courbe concave permettant aux athlètes et baigneurs antiques d'éliminer de la peau l'huile, la poussière et la sueur après l'effort, symbole de l'idéal gymnique et aristocratique.",
+    patterns: ["strigile", "strigiles"]
+  },
+  {
+    term: "Nenfro",
+    etymology: "Terme dialectal d'Italie centrale",
+    category: "Matériau lapidaire étrusque",
+    def: "Roche volcanique grise et compacte (tuf trachytique) extraite dans la région de Viterbe et de Vulci, employée par les sculpteurs étrusques pour la statuaire monumentale, les lions de tombes et les grands sarcophages architecturaux (ex. Sarcophage de Bomarzo).",
+    patterns: ["nenfro"]
+  },
+  {
+    term: "Pietra fetida",
+    etymology: "Italien signifiant « pierre fétide » en raison de son odeur soufrée à la taille",
+    category: "Matériau lapidaire étrusque",
+    def: "Calcaire bitumineux tendre gris-brun propre à la région de Chiusi, dégageant une odeur caractéristique lorsqu'il est fracturé, très prisé au VIe et au IIIe s. av. J.-C. pour sculpter statues cinéraires et sarcophages à bas-reliefs.",
+    patterns: ["pietra fetida"]
+  },
+  {
+    term: "Charun",
+    etymology: "Transposition étrusque du Charon grec",
+    category: "Mythologie & Eschatologie étrusque",
+    def: "Démon funéraire et psychopompe étrusque, représenté comme un être ailé au visage effrayant et au nez crochu, armé d'un lourd maillet métallique dont il frappe symboliquement les portes de l'au-delà pour en régir le passage.",
+    patterns: ["charun", "charon étrusque", "carun"]
+  },
+  {
+    term: "Vanth",
+    etymology: "Théonyme étrusque",
+    category: "Mythologie & Eschatologie étrusque",
+    def: "Déesse ou démon femelle bienveillant des Enfers étrusques, pourvue de grandes ailes déployées, vêtue d'une tunique courte croisée sur la poitrine et portant une torche ou une clé pour guider et réconforter les âmes vers leur dernière demeure.",
+    patterns: ["vanth"]
+  },
+  {
+    term: "Génucilienne",
+    etymology: "Du nom de l'inscription 'Genucilia' trouvée sur l'un des premiers vases du groupe",
+    category: "Céramique d'Italie centrale",
+    def: "Petite assiette ou coupe à pied d'Italie centrale (Falerii, Caeré, Latium et Aléria) datée de la fin du IVe s. av. J.-C., ornée au centre d'un médaillon à profil féminin stylisé ceint d'une frise de vagues ondulantes.",
+    patterns: ["genuciliens", "génuciliens", "genucilienne", "génucilienne", "génuciliennes"]
+  },
+  {
+    term: "Kliné",
+    etymology: "Du grec klínê, « lit, couche »",
+    category: "Mobilier & Banquet antique",
+    def: "Lit de banquet antique sur lequel les convives s'étendaient sur le coude gauche pour manger, boire et deviser. En Étrurie, les défunts sur les couvercles de sarcophages et d'urnes sont presque toujours immortalisés étendus sur une kliné festonnée.",
+    patterns: ["kline", "kliné", "klinai"]
+  },
+  {
+    term: "Calcei repandi",
+    etymology: "Latin calceus (chaussure) et repandus (recourbé)",
+    category: "Costume étrusque archaïque",
+    def: "Bottines de cuir lacées à pointe relevée vers le haut, d'origine ionienne, emblématiques de la mode aristocratique étrusque au VIe siècle av. J.-C. (portées notamment par les figures du Sarcophage des Époux).",
+    patterns: ["calcei repandi", "calcei"]
+  },
+  {
+    term: "Tutulus",
+    etymology: "Mot latin désignant une coiffe conique",
+    category: "Costume & Parure féminine étrusque",
+    def: "Coiffure rituelle ou bonnet haut et arrondi porté par les matrones étrusques et les prêtresses romaines, sous lequel les cheveux étaient relevés et attachés au sommet de la tête.",
+    patterns: ["tutulus"]
+  },
+  {
+    term: "Torquis",
+    etymology: "Du latin torquis / torques, « collier ou couronne en torsade »",
+    category: "Parure & Insigne aristocratique",
+    def: "Épaisse guirlande végétale de fête ou collier d'apparat porté autour du cou par les nobles étrusques lors des banquets sacrés et sculpté sur les effigies funéraires hellénistiques pour marquer leur dignité religieuse.",
+    patterns: ["torquis"]
+  },
+  {
+    term: "Carpentum",
+    etymology: "Du latin carpentum, emprunté au mot gaulois pour chariot",
+    category: "Transport & Véhicule funéraire",
+    def: "Char à deux roues couvert d'une tente cintrée, réservé dans l'Italie antique aux reines, aux matrones de rang princier et aux cortèges funèbres d'adieu vers l'au-delà (comme sculpté sur les urnes de Volterra).",
+    patterns: ["carpentum"]
+  },
+  {
+    term: "Tombe des Lionnes",
+    etymology: "Nécropole de Monterozzi (Tarquinia), découverte au XIXe siècle",
+    category: "Peinture funéraire étrusque",
+    def: "Célèbre tombe peinte de Tarquinia (vers -520 av. J.-C.) représentant des panthères tachetées au fronton, un grand cratère à volutes entouré de danseurs extatiques, un couple de musiciens et des dauphins bondissant au-dessus des vagues de l'Océan sacré.",
+    patterns: ["tombe des lionnes"]
+  },
+  {
+    term: "Tombe des Léopards",
+    etymology: "Nécropole de Monterozzi (Tarquinia), découverte en 1875",
+    category: "Peinture funéraire étrusque",
+    def: "Chef-d'œuvre de l'époque archaïque tardive (vers -480 av. J.-C.) montrant deux léopards affrontés au fronton et un banquet joyeux où des couples allongés célèbrent l'immortalité au son de la flûte (subulo) et de la cithare, un convive tenant un œuf de renaissance.",
+    patterns: ["tombe des leopards", "tombe des léopards"]
+  },
+  {
+    term: "Tombe des Jongleurs",
+    etymology: "Nécropole de Monterozzi (Tarquinia), découverte en 1961",
+    category: "Peinture funéraire étrusque",
+    def: "Tombe archaïque (vers -510 av. J.-C.) immortalisant les spectacles et jeux funéraires avec une femme jonglant avec des anneaux en équilibre sous le regard d'un vieillard assis, au son du subulo.",
+    patterns: ["tombe des jongleurs"]
+  },
+  {
+    term: "Tombe des Bacchants",
+    etymology: "Nécropole de Monterozzi (Tarquinia)",
+    category: "Peinture funéraire étrusque",
+    def: "Sépulture peinte de la fin du VIe siècle av. J.-C. montrant une danse extatique dionysiaque à travers un paysage d'arbres fins, où la musique de la lyre anime des silhouettes en transe rituelle pour conjurer la mort.",
+    patterns: ["tombe des bacchants"]
+  },
+  {
+    term: "Tombe des Charons",
+    etymology: "Nécropole de Monterozzi (Tarquinia), découverte en 1960",
+    category: "Peinture funéraire étrusque",
+    def: "Sépulture monumentale de l'époque hellénistique (vers -150 av. J.-C.) dont les parois peintes en trompe-l'œil figurent des fausses portes de l'au-delà gardées par le démon psychopompe ailé Charun brandissant son marteau d'airain.",
+    patterns: ["tombe des charons", "tomba dei caronti"]
   }
 ];
 
