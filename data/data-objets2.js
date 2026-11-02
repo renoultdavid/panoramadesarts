@@ -254,15 +254,15 @@ window.ART_OBJECTS = [
     <p><strong>Siècle :</strong> XIIIe siècle av. J.-C. (-1250) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Sculpture & Statuaire.</p>`
   },
   {
-    id: "armes_hache_ceremonielle_ahmosis_ier_or_electrum_dra_abou_el_naga_louxor",
+    id: "parures_metaux_hache_ceremonielle_ahmosis_ier_or_electrum_dra_abou_el_naga_louxor",
     civId: "egypte",
     periodId: "egypte_nouvel",
     civName: "Égypte : Nouvel Empire",
     century: "Début de la XVIIIe dynastie (vers -1550 av. J.-C. / règne d'Ahmôsis Ier)",
     centuryDisplay: "XVIe s. av. J.-C.",
     centuryNumeric: -1550,
-    domain: "armes_armures",
-    artifactType: "Arme blanche / Épée / Poignard",
+    domain: "parures_metaux",
+    artifactType: "Armement d'apparat (épée, poignard, casque)",
     title: "Hache cérémonielle d'apparat du pharaon Ahmôsis Ier en bronze, électrum et or (Dra Abou el-Naga, Musée de Louxor)",
     site: "Musée de Louxor / Musée égyptien du Caire",
     originSite: "Tombe de la reine Iahhotep (Dra Abou el-Naga, Thèbes)",
@@ -274,10 +274,10 @@ window.ART_OBJECTS = [
     deptBanner: "https://lh3.googleusercontent.com/d/11hLJFFN1McLmLPGw1pf73r-LVI6VfhMp",
     imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP82ncOXoUrm0ZgzfIwLvcR1f2PzozpAG3EBWLXojJPvud72D6-oKW1ZtEiOM30pUepkCB4dkNH13-cq5diQNO1G68Hw025qD-8xfqfrQs7aEp7Tv0RuP2gSvPa1o7frnFDh1joXh_o5GAjsr2vqveOqg=w689-h919-s-no-gm?authuser=0",
     narrative: `<p>Cette pièce d'orfèvrerie exceptionnelle est la hache cérémonielle du pharaon Ahmôsis Ier, fondateur de la XVIIIe dynastie et du Nouvel Empire. Découverte dans la tombe de sa mère, la reine Iahhotep, à Dra Abou el-Naga (Thèbes), elle témoigne du raffinement technique atteint par les artisans égyptiens vers 1550 avant notre ère. Bien que l'arme soit fonctionnelle dans sa forme, la richesse de ses matériaux — l'or, l'électrum, le cuivre et les incrustations de pierres semi-précieuses — confirme sa destination purement honorifique et rituelle.</p>
-    <p>La lame en bronze, recouverte d'une épaisse feuille d'électrum, présente une décoration d'une finesse inouïe réalisée selon la technique du cloisonné. Sur une face, on distingue le roi Ahmôsis abattant un ennemi, symbolisant le triomphe de l'ordre sur le chaos après l'expulsion des Hyksos. Le registre central affiche les cartouches royaux entourés de motifs floraux et de divinités protectrices, tandis que l'autre face présente souvent une figure de sphinx ailé, iconographie rare soulignant la puissance guerrière du souverain.</p>
+    <p>La lame en bronze, recouverte d'une épaisse feuille d'électrum, présente une décoration d'une finesse inouïe réalisée selon la technique du cloisonné. Sur une face, on distingue le roi Ahmôsis abattant un ennemi, symbolisant le triomphe de l'ordre sur le chaos après l'expulsion des Hyksos. Le registre central affiche les cartouches royaux entourés de motifs floraux et de divinités protectrices, tandis que l'autre face présente une figure de sphinx ailé, iconographie rare soulignant la puissance guerrière du souverain.</p>
     <p>Le manche en bois de cèdre est entièrement gainé d'or, rythmé par des bagues décoratives qui simulent les ligatures traditionnelles des haches de combat. La tête de la hache est fixée au manche par des fils d'or torsadés, démontrant une maîtrise parfaite de la bijouterie monumentale. Cette arme symbolise non seulement le pouvoir militaire d'Ahmôsis, mais aussi la légitimité retrouvée d'une lignée thébaine ayant réussi à réunifier l'Égypte après une longue période d'occupation étrangère.</p>
-    <p>Aujourd'hui conservée au musée de la Civilisation égyptienne (NMEC), au Musée du Caire ou prêtée au Musée de Louxor selon les expositions, cette hache demeure l'un des plus beaux exemples de l'art du métal au début du Nouvel Empire. Elle incarne la transition entre la sobriété du Moyen Empire et l'opulence décorative qui caractérisera les règnes suivants, notamment celui de Thoutmôsis III. Chaque détail, du poli du métal aux nuances des pâtes de verre et lapis-lazuli, concourt à faire de cet instrument de guerre un joyau d'une valeur inestimable.</p>
-    <p><strong>Siècle :</strong> XVIe siècle av. J.-C. (-1550) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Armes & Armures.</p>`
+    <p>Aujourd'hui conservée au musée de la Civilisation égyptienne (NMEC), au Musée du Caire ou prêtée au Musée de Louxor selon les expositions, cette hache demeure l'un des plus beaux exemples de l'art du métal au début du Nouvel Empire. Elle incarne la transition entre la sobriété du Moyen Empire et l'opulence décorative qui caractérisera les règnes suivants, notamment celui de Thoutmôsis III. Chaque détail, du poli du métal aux nuances des pâtes de verre et lapis-lazuli, concourt à faire de cet instrument de parade un joyau d'une valeur inestimable.</p>
+    <p><strong>Siècle :</strong> XVIe siècle av. J.-C. (-1550) | <strong>Civilisation :</strong> Égypte antique (Nouvel Empire) | <strong>Sous-partie :</strong> Orfèvrerie, Armes & Métallurgie.</p>`
   },
    {
     id: "sculpture_niankhpepikem_porteur_sac_coffret_bois_meir_caire",
