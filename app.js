@@ -1303,7 +1303,9 @@ const TAXONOMY_DOMAINS = {
       "Sarcophage humain (cuve, bois, pierre)", "Sarcophage & Momie animale",
       "Masque funéraire & Cartonnage", "stèle", "Portrait du Fayoum",
       "Coffre & Vases canopes", "Larnax", "Figurine funéraire / Ouchebti",
-      "Chambre funéraire / Hypogée", "Fausse porte", "Monument / Tombeau rupestre"
+      "Chambre funéraire / Hypogée", "Fausse porte", "Monument / Tombeau rupestre",
+      "Maquette funéraire (barque, atelier, serviteur)", "Papyrus funéraire / Livre des Morts",
+      "Table d'offrandes", "Pyramidion"
     ]
   },
   "peinture_mosaique": {
