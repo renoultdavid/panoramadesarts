@@ -3,28 +3,29 @@
    ========================================================================== */
 window.ART_OBJECTS = [
   {
-    id: "ceramique_aryballe_plastique_buste_guerrier_casque_corinthien_louvre",
+    id: "ceramique_aryballe_plastique_janiforme_classe_epilykos_eretrie_louvre",
     civId: "grece",
     periodId: "grece_archaique",
     civName: "Grèce antique",
-    century: "Vers -510 av. J.-C. (fin du VIe siècle av. J.-C.)",
+    century: "Vers 520–510 avant J.-C. (fin du VIe siècle av. J.-C.)",
     centuryDisplay: "VIe s. av. J.-C.",
-    centuryNumeric: -510,
+    centuryNumeric: -515,
     domain: "ceramique",
     artifactType: "Vase plastique / Zoomorphe",
-    title: "Aryballe plastique en buste de guerrier hoplite au casque corinthien (Musée du Louvre)",
+    title: "Aryballe plastique janiforme à deux visages féminins : Classe d'Épilykos attribuée à Skythès (Érétrie, Musée du Louvre)",
     site: "Musée du Louvre (Paris)",
-    originSite: "Ionie / Attique (Grèce)",
+    originSite: "Érétrie (Eubée, Grèce) / fabrication à Athènes (Attique)",
     locationType: "museum",
     currentLocation: "Musée du Louvre, Paris (Département des Antiquités grecques, étrusques et romaines)",
-    category: "Vase plastique / Aryballe en terre cuite à décor peint et incisé",
+    category: "Aryballe plastique janiforme en terre cuite attique à figures rouges",
     isHighlight: true,
-    chips: ["VIe s. av. J.-C.", "Grèce antique", "Époque archaïque", "Aryballe", "Vase plastique", "Guerrier", "Hoplite", "Casque corinthien", "Gymnase", "Musée du Louvre"],
+    chips: ["VIe s. av. J.-C.", "Grèce antique", "Époque archaïque", "Athènes", "Érétrie", "Aryballe", "Vase plastique", "Janiforme", "Classe d'Épilykos", "Skythès", "Figures rouges", "Musée du Louvre"],
     deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
     imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczO5kQTo4_VUqMc_8g0QIjWGwZQ3sKoaE_7-ejd2T_tvzWAES3KNKCVqgF8MHVgCxvmf_dXWIpGu7RbQM8MmvO3cb9b0swiQka1b7Ia0HR_BSmtyqabDJ3m7yf7sevEipYB6ksK-DwUSqi3DEa64HdNrQA=w1811-h2405-s-no-gm?authuser=0",
-    narrative: `<p>Cet aryballe, un petit vase destiné à contenir des huiles parfumées ou des onguents, appartient à la catégorie fascinante des vases plastiques, où le récipient adopte la forme d'un être vivant ou d'un objet. Ici, le vase prend la forme d'un buste de guerrier, probablement un hoplite, coiffé d'un casque corinthien. La tête est traitée avec une minutie exceptionnelle, le casque enserrant étroitement le visage dont on ne devine que les yeux en amande et une partie du nez à travers l'ouverture. Le cimier du casque, bien que simplifié pour s'adapter à la fonction de l'objet, souligne la verticalité de la pièce et servait peut-être de point d'appui pour la prise en main ou la suspension.</p>
-<p>Le décor peint complète la forme sculptée avec une grande finesse. On observe sur le casque des motifs de spirales et de palmettes qui imitent les gravures réelles sur le bronze des équipements militaires de l'époque. Les détails de la barbe, visibles sous les paragnathides (couvre-joues) du casque, sont rendus par de petits points ou de fines incisions, témoignant du soin apporté à la représentation de la virilité guerrière. Le buste lui-même est orné de motifs géométriques et floraux qui rappellent le luxe des parures ioniennes ou attiques, transformant cet objet utilitaire en une véritable pièce d'orfèvrerie céramique.</p>
-<p>L'usage de tels vases était particulièrement prisé par les athlètes et les aristocrates qui fréquentaient le gymnase. Porter sur soi un aryballe en forme de guerrier n'était pas un choix anodin ; cela renvoyait aux valeurs de courage et de force physique essentielles à la cité grecque. La datation à la fin du VIe siècle avant J.-C. correspond à une période de transition où la technique plastique atteint une grande maturité, parvenant à fusionner parfaitement les contraintes du tournage du vase avec celles du modelage de la figurine.</p>`
+    narrative: `<p>Cet aryballe plastique janiforme en terre cuite attique à figures rouges, haut de 11 cm et provenant d'Érétrie en Eubée, a été réalisé à Athènes vers 520–510 avant J.-C. L'objet constitue le vase éponyme de la prestigieuse « Classe d'Épilykos », et son décor peint particulièrement raffiné est attribué au célèbre peintre attique Skythès ou à son cercle immédiat.</p>
+<p>Destiné à contenir les huiles parfumées précieuses utilisées pour la toilette et les exercices athlétiques de la palestre, ce petit vase se suspendait aisément au poignet à l'aide d'une lanière de cuir passée dans son anse plate. Son goulot étroit s'évase en un large disque horizontal qui permettait d'étaler et de doser l'huile précieuse goutte à goutte tout en évitant les pertes. Sa conception associe avec brio la technique du tournage pour l'embouchure, l'anse et la base, et le travail du mouleur pour la partie figurée.</p>
+<p>La panse du récipient est formée par l'adossement de deux visages féminins identiques, issus d'un même moule bivalve. Ces visages illustrent l'idéal esthétique de l'art attique de la fin de l'époque archaïque, avec des profils d'une grande pureté, des yeux étirés en amande dessinés au vernis noir, des arcades sourcilières nettes et des lèvres esquissant le sourire archaïque. Une double rangée de pastilles d'argile appliquées en relief figure une frange de boucles stylisées qui encadre le haut du front et les tempes. La coiffure supérieure simule une résille ou un bonnet (sakkos) entièrement recouvert d'un vernis noir lustré. Sur les côtés, sous l'attache de l'anse, se déploie une palmette végétale à huit pétales réservée en figures rouges, encadrée de fines volutes spiralées.</p>
+<p>La partie inférieure cylindrique, servant de piédouche, accueille sur le fond clair de l'argile une chouette peinte en silhouette noire, représentée de profil avec la tête tournée vers le spectateur, emblème protecteur de la déesse Athéna et de la cité athénienne. La base est bordée d'une frise de languettes noires surmontée de filets concentriques. L'objet porte également une célèbre inscription peinte acclamant la beauté d'un éphèbe selon l'usage aristocratique athénien : « Epilykos kalos » (Épilykos est beau).</p>`
   },
   {
     id: "ceramique_aryballes_alabastres_corinthiens_animaux_orientalisants_corinthe",

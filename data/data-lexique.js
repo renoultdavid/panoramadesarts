@@ -1426,5 +1426,20 @@ window.ART_GLOSSARY = [
     def: "Vase à boire d'un raffinement extrême aux parois de terre cuite très fines, couvertes d'un engobe blanc laiteux supportant un décor peint polychrome d'animaux orientalisants, exporté dans tout le bassin égéen et à Naucratis.",
     patterns: ["calice de chios", "chios"]
   }
+,
+  {
+    term: "Janiforme",
+    etymology: "Du dieu romain Janus, divinité des passages et des portes pourvue de deux visages",
+    category: "Morphologie des vases antiques",
+    def: "Se dit d'un vase plastique ou d'une sculpture présentant deux visages humains opposés et adossés dos à dos, regardant dans deux directions contraires (très fréquent sur les canthares et aryballes archaïques et classiques).",
+    patterns: ["janiforme", "janiformes"]
+  },
+  {
+    term: "Sakkos",
+    etymology: "Du grec sákkos, « sac, filet »",
+    category: "Costume & Coiffure grecque",
+    def: "Bonnet féminin ou résille enveloppant l'ensemble de la chevelure en laissant souvent une frange de boucles apparente sur le front, très populaire dans la Grèce archaïque et classique.",
+    patterns: ["sakkos"]
+  }
 ];
 
