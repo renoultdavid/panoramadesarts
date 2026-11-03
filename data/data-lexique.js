@@ -187,6 +187,12 @@ window.ART_TYPOLOGY_DEFINITIONS = {
     domain: "Céramique de banquet",
     def: "Coupe à boire le vin à vasque large et peu profonde, montée sur un pied fin et munie de deux anses horizontales symétriques. Son fond intérieur (le médaillon ou tondo) se dévoilait au buveur à mesure qu'il vidait sa coupe."
   },
+  "Lagynos": {
+    title: "Lagynos (Cruche biconique)",
+    etymology: "Du grec ancien lágynos (λάγυνος)",
+    domain: "Céramique de table hellénistique",
+    def: "Vase verseur ou flacon à vin hellénistique caractéristique, reconnaissable à son corps biconique très large et surbaissé, sa base plate très stable, son long col cylindrique étroit et son anse verticale unique reliant l'épaule à la lèvre. Très populaire dans le bassin méditerranéen oriental (Asie Mineure, Alexandrie), il était souvent doté d'un décor à fond blanc et a donné son nom aux fêtes civiques et bachiques des lagynophories."
+  },
   "Lampe à huile": {
     title: "Lampe à huile",
     etymology: "Du grec lampás / latin lucerna",
@@ -1482,6 +1488,48 @@ window.ART_GLOSSARY = [
     category: "Costume grec antique",
     def: "Manteau court de laine rectangulaire fendu, agrafé par une fibule sur l'épaule droite ou sur la gorge, laissant le bras droit libre. Vêtement privilégié des cavaliers, des éphèbes, des guerriers et des voyageurs grecs.",
     patterns: ["chlamyde", "chlamydes"]
+  },
+  {
+    term: "Lagynos",
+    etymology: "Du grec ancien lágynos (λάγυνος), flacon ou cruche à vin",
+    category: "Céramique hellénistique",
+    def: "Flacon à vin de forme biconique aplatie doté d'un long col étroit et d'une anse verticale, souvent revêtu d'un engobe blanc portant des motifs bachiques ou musicaux peints en brun. Utilisé lors des banquets et des fêtes dionysiaques hellénistiques appelées lagynophories.",
+    patterns: ["lagynos", "lagynoi", "lagynophories"]
+  },
+  {
+    term: "Hypokretérion",
+    etymology: "Du grec ancien hypokretêrion (ὑποκρατηρίδιον), « support placé sous le cratère ou le dinos »",
+    category: "Mobilier & Supports de céramique antique",
+    def: "Haut support autonome en terre cuite ou en bronze, de forme tubulaire ou balustre moulurée d'anneaux et évasée en cloche à sa base, conçu pour accueillir et stabiliser les vases de banquet au fond rond hémisphérique, comme le dinos.",
+    patterns: ["hypokreterion", "hypokretérion", "hypokraterion", "hypokratérion"]
+  },
+  {
+    term: "Kréne (Fontaine publique)",
+    etymology: "Du grec ancien krênê (κρήνη), « source, fontaine »",
+    category: "Architecture civique & Iconographie grecque",
+    def: "Fontaine publique monumentale aménagée dans la cité grecque (notamment à Athènes sous les Pisistratides), pourvue d'un édicule architectural à colonnes et de mascarons léonins en bronze ou en pierre d'où jaillissait l'eau de source recueillie dans des hydries par les citoyennes.",
+    patterns: ["krene", "krênê", "kréne", "fontaine publique", "fontaines publiques"]
+  },
+  {
+    term: "Hydrie de Hadra",
+    etymology: "Du quartier d'Hadra à Alexandrie (Égypte)",
+    category: "Céramique funéraire hellénistique",
+    def: "Catégorie d'hydries hellénistiques (IIIe–IIe s. av. J.-C.) fabriquées pour la plupart en Crète puis exportées vers Alexandrie ptolémaïque, où elles servaient d'urnes cinéraires dans les nécropoles pour abriter les cendres des mercenaires et voyageurs grecs. Elles portent un décor sobre peint en noir ou brun sur fond clair (vagues, lauriers, guirlandes) et souvent des inscriptions épigraphiques peintes précisant le nom et l'origine du défunt.",
+    patterns: ["hydrie de hadra", "hydries de hadra", "vase de hadra", "hadra"]
+  },
+  {
+    term: "Bail-amphora",
+    etymology: "De l'anglais bail, « anse arquée mobile ou fixe en anse de panier »",
+    category: "Céramique italiote (Campanie)",
+    def: "Forme d'amphore funéraire presque exclusive aux ateliers de Campanie (seconde moitié du IVe s. av. J.-C.), caractérisée par une anse unique arquée au-dessus de l'embouchure enserrant un couvercle conique. Son décor à figures rouges et rehauts blancs est principalement consacré aux scènes de libations guerrières samnites et aux rituels d'adieux funéraires.",
+    patterns: ["bail-amphora", "bail amphora", "amphore a anse de panier", "amphore à anse de panier"]
+  },
+  {
+    term: "Thériomorphe",
+    etymology: "Du grec ancien thêrion (θηρίον, « bête sauvage, animal ») et morphê (μορφή, « forme »)",
+    category: "Arts décoratifs & Céramique antique",
+    def: "Se dit d'un objet, d'une lampe ou d'un vase plastique qui adopte la morphologie complète ou partielle d'un animal (cheval, taureau, chien, oiseau, lièvre), alliant une fonction utilitaire (réservoir d'huile, verseur) à une dimension sculpturale et symbolique.",
+    patterns: ["theriomorphe", "thériomorphe", "theriomorphes", "thériomorphes", "zoomorphe", "zoomorphes"]
   }
 ];
 

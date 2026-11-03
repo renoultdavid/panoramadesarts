@@ -3,6 +3,236 @@
    ========================================================================== */
 window.ART_OBJECTS = [
   {
+    id: "ceramique_dinos_support_peintre_gorgone_persee_louvre",
+    civId: "grece",
+    periodId: "grece_archaique",
+    civName: "Grèce antique",
+    century: "Début du VIe siècle av. J.-C. (vers 590–580 av. J.-C.)",
+    centuryDisplay: "VIe s. av. J.-C.",
+    centuryNumeric: -585,
+    domain: "ceramique",
+    artifactType: "Dinos",
+    title: "Dinos sur support du Peintre de la Gorgone : fuite de Persée et frises animalières (Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Athènes (Attique) / découvert en Étrurie (ancienne collection Campana)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités grecques, étrusques et romaines)",
+    category: "Dinos monumental sur support (hypokretérion) en terre cuite attique à figures noires",
+    isHighlight: true,
+    chips: ["VIe s. av. J.-C.", "Grèce antique", "Époque archaïque", "Athènes", "Dinos", "Hypokretérion", "Peintre de la Gorgone", "Persée", "Méduse", "Figures noires", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOy_w92P1FSGsjsEUQSnRFsyRApnq-qTm4LSNXn5jDkyMTJW33-tH5q9FaDDWNdztrkO7iuKy-sErUHk5jcbi2OkF4nc8u3DLfJHr65Y7jCpplJsxAYFY0KHzwusfZDRMR0imcKf4-CIEHduA6UCWETYA=w1705-h2264-s-no-gm?authuser=0",
+    narrative: `<p>Ce célèbre dinos sur support en terre cuite à figures noires, conservé au musée du Louvre, est le chef-d'œuvre éponyme du Peintre de la Gorgone. Réalisé à Athènes vers 590–580 avant J.-C. (début du VIe siècle av. J.-C.) et issu de l'ancienne collection Campana après sa découverte en Étrurie, cet ensemble monumental mesurant plus de 90 cm de hauteur totale marque une étape charnière dans l'histoire de la céramique attique, illustrant la transition magistrale entre l'influence du répertoire orientalisant et l'essor des grands cycles narratifs mythologiques.</p>
+    <p>Le dinos constitue le récipient de banquet par excellence, conçu comme une grande cuve hémisphérique sans anses ni pied stable, vouée au mélange du vin et de l'eau au cœur du symposion. Son fond parfaitement arrondi imposait l'utilisation d'un haut support indépendant en céramique, le support tubulaire ou hypokretérion, mouluré d'anneaux et évasé en cloche à sa base pour assurer la stabilité de la vasque. L'association intacte du bassin et de son support d'origine fait de cette œuvre un témoignage exceptionnel de la virtuosité des potiers et des céramographes athéniens de la période archaïque.</p>
+    <p>Le décor de la cuve s'organise en registres superposés séparés par de fins filets géométriques. La frise sommitale, située sur l'épaule immédiatement sous la lèvre ornée d'un méandre, déploie la première grande composition narrative continue connue dans la peinture de vases athénienne. Elle relate la fuite de Persée après la décapitation de Méduse : le héros s'élance vers la gauche sous la protection d'Athéna et d'Hermès, tandis que le corps sans tête de la Gorgone s'effondre et que ses deux sœurs ailées, Sthéno et Euryale, se lancent à sa poursuite les bras déployés. La composition se poursuit sur le reste du pourtour par une spectaculaire mêlée de guerriers en armes, flanqués de chars de combat montés par leurs cochers et tirés par de fringants attelages de coursiers.</p>
+    <p>Sous ce registre mythologique se déploie une frise magistrale d'entrelacs végétaux constituée d'une tresse complexe de palmettes ouvertes et de boutons de lotus stylisés, d'une densité graphique saisissante. Les registres inférieurs de la panse, ainsi que l'ensemble du pied à godrons et de sa base évasée, sont occupés par de fastueuses frises animalières héritées de la tradition corinthienne. Lions rugissants, panthères aux muscles bandés, sangliers, béliers, sphinx et sirènes aux ailes déployées s'y succèdent en défilés processionnels. Le dessin au vernis noir se distingue par une incisive précision du trait gravé pour les détails anatomiques et par de chaleureux rehauts d'engobe pourpre animant les crinières, les ailes et les poitrines des créatures.</p>
+    <p><strong>Siècle :</strong> VIe siècle av. J.-C. (vers -590 / -580) | <strong>Civilisation :</strong> Grèce antique (Époque archaïque) | <strong>Sous-partie :</strong> Céramique attique à figures noires (Musée du Louvre).</p>`
+  },
+  {
+    id: "ceramique_hydrie_femmes_fontaine_krene_groupe_leagros_louvre",
+    civId: "grece",
+    periodId: "grece_archaique",
+    civName: "Grèce antique",
+    century: "Fin du VIe siècle av. J.-C. (vers 520–510 av. J.-C.)",
+    centuryDisplay: "VIe s. av. J.-C.",
+    centuryNumeric: -515,
+    domain: "ceramique",
+    artifactType: "Hydrie",
+    title: "Hydrie attique à figures noires : femmes à la fontaine publique (kréne) par le Groupe de Léagros (Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Athènes (Attique)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités grecques, étrusques et romaines)",
+    category: "Hydrie en terre cuite attique à figures noires et rehauts polychromes",
+    isHighlight: true,
+    chips: ["VIe s. av. J.-C.", "Grèce antique", "Époque archaïque", "Athènes", "Hydrie", "Figures noires", "Fontaine publique", "Kréne", "Peintre de Priam", "Groupe de Léagros", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNTegmgZQ3MI-rtkLvtF_IWS3S7aiVwcbcaoSxPc9gpQiAvMGRlLdiseL7MhoyPfJSM6bDxx8JAMuB8keiYwj4q_vHni2GxxznNNW4p4-C26jp_Iq0aMTQNNda-NaWLmHm5MPU1-qzUkoKMLWL8-gylpw=w1705-h2264-s-no-gm?authuser=0",
+    narrative: `<p>Cette remarquable hydrie attique à figures noires, conservée au musée du Louvre au sein du Département des Antiquités grecques, étrusques et romaines, a été réalisée à Athènes vers 520–510 avant J.-C. (fin du VIe siècle av. J.-C.) et se rattache au cercle du Peintre de Priam et au Groupe de Léagros. Récipient par excellence dévolu au puisage, au transport et à la conservation de l'eau, l'hydrie se caractérise morphologiquement par une panse ovoïde ample, un col cylindrique évasé surmonté d'une lèvre en bourrelet, deux anses latérales horizontales pour le soulèvement et une forte anse verticale dorsale facilitant le versement.</p>
+    <p>Le tableau principal de la panse met en scène avec une grande fraîcheur le motif des femmes à la fontaine publique (kréne), une thématique civique et sociale très prisée dans l'Athènes des Pisistratides, marquée par les grands chantiers d'adduction d'eau urbains. Au centre de la composition se dresse l'édicule monumental de la fontaine, figuré par une imposante maçonnerie quadrillée ou un pilier architectural surélevé sur plusieurs degrés. De part et d'autre, des mascarons léonins en saillie font jaillir l'eau des fontaines. Plusieurs jeunes femmes vêtues de longs chitons et d'himations brodés minutieusement incisés s'affairent autour du point d'eau : l'une pose son hydrie directement sous le jet pour la remplir, tandis que d'autres s'avancent ou repartent, portant avec élégance leur vase en équilibre sur la tête, calé sur un coussinet. La scène est agrémentée de fins rameaux feuillus qui emplissent l'espace supérieur et évoquent la végétation des abords de la source.</p>
+    <p>Sur l'épaule du vase, un registre horizontal secondaire présente une scène de char et de guerriers en armes, créant un contraste héroïque et dynamique avec la quiétude du tableau domestique inférieur. Sous le panneau de la fontaine, une prédelle animée forme une frise animalière où des félins prédateurs côtoient des biches et des capridés bondissants. Le dessin témoigne d'une grande maîtrise de la technique des figures noires à son apogée, mêlant la rigueur des incisions anatomiques et textiles à des touches de rehauts blancs pour les chairs féminines et de rehauts pourpres pour rythmer les drapés et les détails animaliers. Le bas de la panse, entièrement verni d'un noir brillant, repose sur un pied annulaire rehaussé d'une élégante corolle de languettes rayonnantes.</p>
+    <p><strong>Siècle :</strong> VIe siècle av. J.-C. (vers -520 / -510) | <strong>Civilisation :</strong> Grèce antique (Époque archaïque) | <strong>Sous-partie :</strong> Céramique attique à figures noires (Musée du Louvre).</p>`
+  },
+  {
+    id: "ceramique_hydrie_hadra_urne_funeraire_crete_alexandrie_louvre",
+    civId: "grece",
+    periodId: "grece_hellenistique",
+    civName: "Grèce antique",
+    century: "Seconde moitié du IIIe siècle av. J.-C. (vers 240–210 av. J.-C.)",
+    centuryDisplay: "IIIe s. av. J.-C.",
+    centuryNumeric: -225,
+    domain: "ceramique",
+    artifactType: "Hydrie",
+    title: "Hydrie de Hadra (urne cinéraire) à décor de vagues et lauriers (Alexandrie / Crète, Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Fabriquée en Crète / découverte dans les nécropoles de Hadra (Alexandrie, Égypte)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités grecques, étrusques et romaines)",
+    category: "Hydrie de Hadra (urne cinéraire) en terre cuite hellénistique peinte",
+    isHighlight: false,
+    chips: ["IIIe s. av. J.-C.", "Grèce antique", "Époque hellénistique", "Alexandrie", "Crète", "Hydrie de Hadra", "Urne cinéraire", "Hadra", "Ptolémées", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPGMxhAUoeceAQUmNKESNACqj8-QNU8p954BY7nMbFXvqUcI6ar-3ozNmA-OR1-LtISnhfXQuxOb6tkRqcnpI97Di_dA4rfqvTqOiXzqcf4VpIWCvLN2OsCtP3xSrWitHumQamtfEucUrybN67wLqM_hw=w1705-h2264-s-no-gm?authuser=0",
+    narrative: `<p>Cette hydrie en terre cuite, datant de la seconde moitié du IIIe siècle avant J.-C., est un témoignage raffiné de la céramique hellénistique. Utilisée originellement pour transporter ou conserver l'eau, elle appartient ici à un contexte funéraire spécifique : celui des nécropoles d'Alexandrie, en Égypte. Ce type de vase, souvent appelé « hydrie de Hadra » d'après le quartier de découverte alexandrin, servait fréquemment d'urne cinéraire pour les mercenaires, ambassadeurs ou voyageurs étrangers décédés dans la métropole ptolémaïque.</p>
+    <p>La silhouette du vase est caractérisée par un corps ovoïde reposant sur un pied étroit, un col cylindrique s'évasant vers une lèvre plate et trois anses : deux latérales horizontales pour le levage et une verticale pour le versement. Le décor, peint en noir ou brun sur le fond clair de l'argile, déploie un répertoire ornemental typique de la période. On y observe des frises de vagues stylisées (postes), des motifs végétaux comme des feuilles de lierre ou de laurier, ainsi que des registres géométriques qui soulignent l'élégance de la structure. Cette esthétique, qui privilégie la fluidité des lignes et la sobriété chromatique, tranche avec les styles plus chargés des siècles précédents.</p>
+    <p>Bien que découverte à Alexandrie, l'origine de sa fabrication est probablement à chercher du côté de la Crète. Les analyses d'argile ont en effet démontré qu'une grande partie de ces vases étaient exportés de l'île grecque vers l'Égypte pour répondre à la demande locale des communautés helléniques. Cette circulation d'objets souligne l'intensité des échanges commerciaux et culturels au sein du monde hellénistique, où les traditions grecques s'adaptaient aux pratiques sociales et funéraires des grands centres urbains de la Méditerranée orientale.</p>
+    <p>L'objet conserve une grande importance archéologique car ce type d'hydrie porte parfois des inscriptions à l'encre (dipinti) mentionnant le nom du défunt, son origine géographique et la date officielle de son inhumation sous le règne des souverains lagides. Ces détails font de chaque hydrie un document historique précieux sur la population cosmopolite d'Alexandrie sous le règne des Ptolémées.</p>
+    <p><strong>Siècle :</strong> IIIe siècle av. J.-C. (vers -240 / -210) | <strong>Civilisation :</strong> Grèce antique (Époque hellénistique) | <strong>Sous-partie :</strong> Céramique hellénistique (Hadra / Musée du Louvre).</p>`
+  },
+  {
+    id: "ceramique_amphore_anse_panier_bail_amphora_campanienne_alexandrie",
+    civId: "grece",
+    periodId: "grece_classique",
+    civName: "Grèce antique",
+    century: "Seconde moitié du IVe siècle av. J.-C. (vers 340–320 av. J.-C.)",
+    centuryDisplay: "IVe s. av. J.-C.",
+    centuryNumeric: -330,
+    domain: "ceramique",
+    artifactType: "Amphore",
+    title: "Amphore à anse de panier (« bail-amphora ») campanienne : libation au guerrier samnite (Musée d'Alexandrie)",
+    site: "Musée national / Musée gréco-romain d'Alexandrie (Égypte)",
+    originSite: "Campanie (Grande-Grèce, Italie du Sud) / découverte en Égypte",
+    locationType: "museum",
+    currentLocation: "Musée national d'Alexandrie (Égypte)",
+    category: "Amphore à anse de panier (« bail-amphora ») en terre cuite campanienne à figures rouges et rehauts polychromes",
+    isHighlight: true,
+    chips: ["IVe s. av. J.-C.", "Grande-Grèce", "Campanie", "Alexandrie", "Amphore", "Bail-amphora", "Figures rouges", "Guerrier samnite", "Libation", "Musée d'Alexandrie"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNJNyAFEtrs9gkCoXvpPLidnM5ieq1zD7E7oozHCsh2k-rwHtk-atDYrlS9jrz1ALndIPzBW5qHFB9PPBYFCnQTC8Wns1M-81HVWG4kY1mJiRF3BukNWfhQV2iJUf8gSY256PTo0afG045YqezvFIljHw=w1606-h2408-s-no-gm?authuser=0",
+    narrative: `<p>Cette amphore à anse de panier (« bail-amphora ») à figures rouges est issue des ateliers de Grande-Grèce (très probablement de Campanie), datable de la seconde moitié du IVe siècle avant J.-C. (vers 340–320 av. J.-C.) et conservée au Musée d'Alexandrie en Égypte. L'amphore à anse de panier constitue une création morphologique presque exclusive des potiers de Campanie. Elle se caractérise par une anse unique arquée en anse de panier fixée sur le rebord de l'embouchure, enserrant ici un couvercle conique central surmonté d'un bouton de préhension. Dotée d'un col haut et cylindrique délicatement évasé, d'une épaule bombée et d'une panse ovoïde fuselée se terminant par une base étroite vernie de noir, cette pièce servait principalement dans un cadre rituel et funéraire, déposée comme offrande de grand prix dans les tombes des élites indigènes et grecques d'Italie méridionale.</p>
+    <p>La panse accueille un tableau figuré consacré au thème de la libation guerrière ou des adieux du soldat, un motif central de l'imaginaire funéraire campanien. À gauche, une femme vêtue d'un long chiton plissé brun-orangé ceinturé à la taille s'avance vers un autel ou une stèle cubique blanche dressée au centre. Selon les conventions picturales italiotes, son épiderme est généreusement blanchi pour souligner sa carnation féminine. De la main droite, elle verse une offrande liquide au-dessus de l'autel sur lequel reposent de petits récipients à onguents. Face à elle, à droite, se tient un jeune guerrier italique (samnite ou campanien) représenté nu, coiffé d'un casque à haut cimier empanaché de plumes caractéristiques des combattants de la région. Il porte un grand bouclier circulaire clair (clipeus) au bras gauche et tient fermement une longue lance verticale de la main droite.</p>
+    <p>L'atmosphère cérémonielle est renforcée par les objets cultuels suspendus dans le champ sombre : une longue bandelette sacrée (taenia) ornée de franges retombe au-dessus de l'autel, accompagnée d'un miroir ou d'un plateau votif rectangulaire. Les flancs du récipient sont habillés de somptueuses palmettes végétales superposées encadrant la scène, tandis que le col est rythmé par de hautes cannelures bicolores et l'épaule par une corolle de languettes.</p>
+    <p>Le registre inférieur est délimité par une élégante frise continue de vagues grecques (postes) peinte au vernis noir sur fond réservé, avant la reprise d'un vernis sombre sur la partie basse du vase. L'abondance des rehauts blancs et jaune d'or sur la céramique témoigne de la virtuosité polychrome propre aux ateliers campaniens du dernier tiers du IVe siècle avant notre ère.</p>
+    <p><strong>Siècle :</strong> IVe siècle av. J.-C. (vers -340 / -320) | <strong>Civilisation :</strong> Grande-Grèce (Campanie) | <strong>Sous-partie :</strong> Céramique campanienne à figures rouges (Musée d'Alexandrie).</p>`
+  },
+  {
+    id: "ceramique_kylix_figures_rouges_satyre_accroupi_rhyton_aleria",
+    civId: "grece",
+    periodId: "grece_archaique",
+    civName: "Grèce antique",
+    century: "Fin du VIe siècle av. J.-C. (vers 515–500 av. J.-C.)",
+    centuryDisplay: "VIe s. av. J.-C.",
+    centuryNumeric: -510,
+    domain: "ceramique",
+    artifactType: "Kylix / Coupe",
+    title: "Kylix attique à figures rouges : satyre accroupi tenant un rhyton (Aléria, Musée Jérôme-Carcopino)",
+    site: "Musée départemental d'archéologie Jérôme-Carcopino (Aléria, Corse)",
+    originSite: "Athènes (Attique) / découvert dans la nécropole préromaine d'Aléria (Corse)",
+    locationType: "museum",
+    currentLocation: "Musée départemental d'archéologie Jérôme-Carcopino (Aléria, Corse)",
+    category: "Kylix (coupe à boire) en terre cuite attique à figures rouges",
+    isHighlight: false,
+    chips: ["VIe s. av. J.-C.", "Grèce antique", "Époque archaïque", "Athènes", "Aléria", "Corse", "Kylix / Coupe", "Figures rouges", "Satyre", "Dionysos", "Symposion", "Musée d'Aléria"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMjgH9Ri3g3bMkLZajhTZEa_pgdyS3i6Cc4Ewk_XaYhVCrt_VLEoItzxBZaNmlESllbZLboYPa6sdzQiqQAYqxGUiIuWUKMFSiWFJ6QU5Y_D9xlARhN7Q4j9nAB3SDdlId9NbKiB-cHjPXQCJeoaf9S7w=w1705-h1136-s-no-gm?authuser=0",
+    narrative: `<p>Cette kylix (coupe à boire) à figures rouges d'une qualité exceptionnelle a été découverte dans les riches nécropoles d'Aléria en Corse. Ce vase, emblématique de la culture du banquet aristocratique, se distingue par la finesse de son trait et la brillance de son vernis noir. Le médaillon central (tondo), délimité par une frise circulaire de méandres (grecques), offre une scène saisissante centrée sur un satyre, créature hybride du cortège de Dionysos, dieu du vin et de l'extase.</p>
+    <p>Le satyre est représenté dans une posture accroupie, presque ramassée sur lui-même, soulignant la virtuosité du peintre pour adapter l'anatomie humaine aux contraintes circulaires du support. On reconnaît ses attributs caractéristiques : une queue chevaline, des oreilles pointues et une barbe fournie. Il tient dans ses mains un rhyton ou une outre, suggérant l'ivresse ou la préparation du vin. La précision des muscles et des détails du visage témoigne de l'influence des grands maîtres de la peinture sur céramique athénienne de la fin de l'époque archaïque.</p>
+    <p>Sur le plan technique, cette pièce illustre parfaitement le procédé pionnier de la figure rouge inventé à Athènes. L'artisan a d'abord esquissé le personnage, puis a recouvert tout le fond d'un engobe qui devient noir et brillant après une cuisson complexe en trois phases. Les détails internes du corps du satyre sont ensuite tracés à l'aide de fins pinceaux, permettant un rendu bien plus réaliste et souple que l'incision des figures noires.</p>
+    <p>Cet objet n'est pas seulement une pièce esthétique ; il est le témoin privilégié des rites sociaux des élites d'Aléria. Utilisée lors du symposion, cette coupe permettait au buveur de voir apparaître l'image facétieuse du satyre au fur et à mesure qu'il vidait son vin, créant un dialogue visuel direct entre la réalité du festin et le monde mythologique de Dionysos.</p>
+    <p><strong>Siècle :</strong> VIe siècle av. J.-C. (vers -515 / -500) | <strong>Civilisation :</strong> Grèce antique (Époque archaïque) | <strong>Sous-partie :</strong> Céramique attique à figures rouges (Aléria).</p>`
+  },
+  {
+    id: "ceramique_kylix_figures_rouges_athletes_gymnase_strigile_aleria",
+    civId: "grece",
+    periodId: "grece_classique",
+    civName: "Grèce antique",
+    century: "Fin du Ve ou début du IVe siècle av. J.-C. (vers 410–390 av. J.-C.)",
+    centuryDisplay: "Ve-IVe s. av. J.-C.",
+    centuryNumeric: -400,
+    domain: "ceramique",
+    artifactType: "Kylix / Coupe",
+    title: "Kylix attique à figures rouges : deux athlètes au gymnase avec strigile (Aléria, Musée Jérôme-Carcopino)",
+    site: "Musée départemental d'archéologie Jérôme-Carcopino (Aléria, Corse)",
+    originSite: "Athènes (Attique) / découvert dans la nécropole préromaine d'Aléria (Corse)",
+    locationType: "museum",
+    currentLocation: "Musée départemental d'archéologie Jérôme-Carcopino (Aléria, Corse)",
+    category: "Kylix (coupe à boire) en terre cuite attique à figures rouges",
+    isHighlight: true,
+    chips: ["IVe s. av. J.-C.", "Ve s. av. J.-C.", "Grèce antique", "Époque classique", "Athènes", "Aléria", "Corse", "Kylix / Coupe", "Figures rouges", "Athlètes", "Gymnase", "Strigile", "Kalokagathia"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMeRM4YNpzZjvOR1Lm6MWbE8a5xEvVAt148q-VRDfozwM3mz8c3Nr8c_7csP4gRA2bahtwG9YCf8JpHryiXhuZhg1cMB1sPF5Px4zNncj8Joc5j2_SKgfOWYPnTpX0-iMsROeUPgIWfvLbCQNLr93JyPw=w1705-h1136-s-no-gm?authuser=0",
+    narrative: `<p>Cette kylix attique à figures rouges (coupe à boire), datant de la fin du Ve ou du début du IVe siècle avant J.-C., constitue l'un des joyaux de la collection de céramiques du Musée archéologique d'Aléria. Le médaillon central, ou tondo, offre une scène d'une grande finesse d'exécution, typique de l'âge d'or classique de la peinture sur vase athénienne. L'objet, destiné au service du vin lors du banquet, témoigne du prestige des importations grecques en Corse et de l'intégration de la cité d'Aléria dans les circuits culturels méditerranéens.</p>
+    <p>La scène intérieure représente deux jeunes athlètes au gymnase, un thème cher à l'iconographie grecque qui célèbre l'idéal de la kalokagathia (l'harmonie entre beauté physique et noblesse morale). À droite, un éphèbe nu se tient debout, une main sur la hanche, dans une posture décontractée en léger contrapposto qui met en valeur une musculature svelte et équilibrée. À gauche, un second personnage, possiblement un pédotribe (entraîneur) ou un compagnon drapé dans un himation, s'appuie sur un bâton et semble engager la conversation. Entre eux, on distingue un strigile suspendu, cet instrument de bronze recourbé utilisé par les athlètes pour se racler l'huile et la poussière après l'effort.</p>
+    <p>L'esthétique de la coupe se caractérise par la précision du trait au vernis noir délayé, capable de rendre les boucles de la chevelure et les subtilités de l'anatomie avec une économie de moyens remarquable. Le décor est encadré par une bordure circulaire ornée d'une frise de grecques interrompue par des carrés damiers. La présence d'un autel ou d'une base de pilier à droite suggère l'espace sacré ou civique de la palestre, lieu central de la sociabilité et de la formation civique des jeunes citoyens.</p>
+    <p>Retrouvée dans une sépulture aristocratique d'Aléria, cette kylix n'était pas un simple récipient de table, mais un marqueur identitaire fort. Son possesseur affirmait son adhésion aux valeurs esthétiques et éthiques de l'hellénisme. La fracture visible sur le bord de la coupe, soigneusement consolidée par les restaurateurs, rappelle l'histoire matérielle de ces pièces précieuses qui, après les banquets terrestres, accompagnaient les défunts dans la tombe pour le banquet d'éternité.</p>
+    <p><strong>Siècle :</strong> Ve-IVe siècle av. J.-C. (vers -410 / -390) | <strong>Civilisation :</strong> Grèce antique (Époque classique) | <strong>Sous-partie :</strong> Céramique attique à figures rouges (Aléria).</p>`
+  },
+  {
+    id: "ceramique_kylix_figures_rouges_musicien_lyre_empuries",
+    civId: "grece",
+    periodId: "grece_classique",
+    civName: "Grèce antique",
+    century: "Ve siècle avant notre ère (vers 460–440 av. J.-C.)",
+    centuryDisplay: "Ve s. av. J.-C.",
+    centuryNumeric: -450,
+    domain: "ceramique",
+    artifactType: "Kylix / Coupe",
+    title: "Kylix attique à figures rouges : scène musicale au joueur de lyre (Musée d'Empúries)",
+    site: "Musée d'archéologie de Catalogne - Empúries (Espagne)",
+    originSite: "Athènes (Attique) / découvert à Emporion (Empúries, Catalogne)",
+    locationType: "museum",
+    currentLocation: "Musée d'archéologie de Catalogne - Empúries (Espagne)",
+    category: "Kylix (coupe à boire) en terre cuite attique à figures rouges",
+    isHighlight: false,
+    chips: ["Ve s. av. J.-C.", "Grèce antique", "Époque classique", "Athènes", "Empúries", "Emporion", "Catalogne", "Kylix / Coupe", "Figures rouges", "Musique", "Lyre", "Musée d'Empúries"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP1ktN0NN_jHpkhOS4mCOu5JlKgUz-J95j4kASqRA9-0l6uqE9NpUo9TTPfw2ONStobjcO0_LhGu0XtqRvouGA8Li9YKWmFszqPXpkyLEAkh0PJtyPUyu0OuSiRxS8Cn0s2_q137nMoz96kzuYgXa4sNg=w1705-h1136-s-no-gm?authuser=0",
+    narrative: `<p>Cette kylix (coupe à boire) à figures rouges est un témoignage raffiné de l'importation de céramique attique de prestige à Emporion (Empúries), soulignant l'engouement des élites locales pour la vaisselle grecque de haute qualité au Ve siècle avant notre ère. La pièce présente un décor figuré soigné sur sa paroi extérieure, où l'on observe une scène de sociabilité et d'apprentissage musical. Au cœur de la composition, un jeune musicien assis manipule une lyre ou un instrument à cordes, tandis qu'un second personnage drapé lui fait face, créant un dialogue visuel harmonieux renforcé par la fluidité des drapés classiques.</p>
+    <p>L'utilisation de la technique des figures rouges, développée à Athènes, permet ici une grande précision dans le rendu des physionomies, des cordes de l'instrument et des objets suspendus dans le champ. Ces représentations étaient particulièrement appréciées lors du symposion (le banquet grec), où la coupe servait non seulement de récipient pour la consommation du vin coupé d'eau, mais aussi de support à la conversation érudite et à la célébration de la mousiké (l'art des Muses). Les anses horizontales délicates et la pureté de la courbure de la vasque témoignent de l'habileté des tourneurs athéniens dont les productions rayonnaient sur toute la Méditerranée occidentale.</p>
+    <p>La présence de cet objet de luxe à Empúries illustre l'intégration profonde de la cité phocéenne dans les grands courants d'échanges artistiques. Plus qu'un simple objet fonctionnel, cette céramique servait de vecteur culturel diffusant les codes aristocratiques grecs auprès des communautés ibériques avoisinantes, avec lesquelles les colons entretenaient des liens commerciaux suivis.</p>
+    <p><strong>Siècle :</strong> Ve siècle av. J.-C. (vers -460 / -440) | <strong>Civilisation :</strong> Grèce antique (Époque classique) | <strong>Sous-partie :</strong> Céramique attique à figures rouges (Empúries).</p>`
+  },
+  {
+    id: "ceramique_lagynos_fond_blanc_guirlandes_lyre_louvre",
+    civId: "grece",
+    periodId: "grece_hellenistique",
+    civName: "Grèce antique",
+    century: "Seconde moitié du IIe siècle av. J.-C. (vers 150–120 av. J.-C.)",
+    centuryDisplay: "IIe s. av. J.-C.",
+    centuryNumeric: -135,
+    domain: "ceramique",
+    artifactType: "Lagynos",
+    title: "Lagynos à fond blanc décoré de guirlandes et lyre dionysiaque (Asie Mineure / Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Asie Mineure (Pergame ou Cnide) / découvert en Afrique du Nord",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités grecques, étrusques et romaines)",
+    category: "Lagynos (cruche à vin biconique) en terre cuite à fond blanc",
+    isHighlight: true,
+    chips: ["IIe s. av. J.-C.", "Grèce antique", "Époque hellénistique", "Asie Mineure", "Pergame", "Cnide", "Lagynos", "Fond blanc", "Lagynophories", "Dionysos", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczN_Lpkx09BXOSvzRMpGvQnxhiOKJudDB1zJf6skiwMhYFj4baV84c8CZoQsEd68P4Xb1MBYJpfcbdODQbKgrKWFWa_IOYuEM1GeuFdqmyTpEpTJOnP7P_3f1lwLXOwmUejGlevDjTjYOkNoEN4_GJ7Bqw=w1705-h2264-s-no-gm?authuser=0",
+    narrative: `<p>Ce lagynos en terre cuite, datant de la seconde moitié du IIe siècle avant J.-C., est un récipient emblématique de l'art de vivre hellénistique. Sa morphologie est immédiatement reconnaissable : un corps biconique très large et caréné, une base annulaire plane assurant une parfaite assise, un long col étroit et une anse verticale unique reliant l'épaule à la lèvre. Ce type de vase était principalement dédié au service du vin, son goulot étroit permettant un versement maîtrisé lors des banquets.</p>
+    <p>Le décor appartient à la célèbre production dite « à fond blanc », une technique particulièrement raffinée où la terre cuite est recouverte d'un engobe crayeux immaculé. L'épaule du vase accueille des motifs peints dans des tonalités brunes et ocres, figurant des guirlandes de lierre festonnées, des bandelettes et des instruments de musique (dont une lyre ou une cithare). Ces motifs ne sont pas de simples ornements : ils évoquent directement l'univers dionysiaque, la fête musicale et l'atmosphère festive des banquets hellénistiques.</p>
+    <p>Très probablement fabriqué dans les ateliers réputés d'Asie Mineure (tels ceux de Pergame ou de Cnide), ce lagynos a été mis au jour en Afrique du Nord, témoignant de l'immense rayonnement commercial de ces récipients à travers la Méditerranée orientale et occidentale. La vogue de ce vase était telle qu'Alexandrie et d'autres métropoles célébraient les « lagynophories », des fêtes populaires où chaque participant apportait son propre flacon de vin pour festoyer en plein air.</p>
+    <p><strong>Siècle :</strong> IIe siècle av. J.-C. (vers -150 / -120) | <strong>Civilisation :</strong> Grèce antique (Époque hellénistique) | <strong>Sous-partie :</strong> Céramique hellénistique à fond blanc (Musée du Louvre).</p>`
+  },
+  {
+    id: "ceramique_lampe_huile_theriomorphe_cheval_skyphos_empuries",
+    civId: "grece",
+    periodId: "grece_classique",
+    civName: "Grèce antique",
+    century: "Ve–IVe siècle av. J.-C. (vers 400–350 av. J.-C.)",
+    centuryDisplay: "IVe s. av. J.-C.",
+    centuryNumeric: -375,
+    domain: "ceramique",
+    artifactType: "Lampe à huile",
+    title: "Lampe à huile thériomorphe en forme de cheval et skyphos miniature (Musée d'Empúries)",
+    site: "Musée d'archéologie de Catalogne - Empúries (Espagne)",
+    originSite: "Emporion (Empúries, Catalogne, Espagne)",
+    locationType: "museum",
+    currentLocation: "Musée d'archéologie de Catalogne - Empúries (Espagne)",
+    category: "Lampe à huile thériomorphe en forme de cheval et skyphos miniature en terre cuite",
+    isHighlight: false,
+    chips: ["IVe s. av. J.-C.", "Ve s. av. J.-C.", "Grèce antique", "Empúries", "Emporion", "Catalogne", "Lampe à huile", "Thériomorphe", "Cheval", "Skyphos", "Éclairage antique", "Musée d'Empúries"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMdYKegVeGo2QzUVW7mdmiRYl4hftRtJZjeNQZAo-zFbWsyCjqQXESwtPFOT0_a_4IOZLetjrSCiOOrGkgbffDkEltgzBGPmnpzmPz29rItAmzVHKeppeFAb2Lc5PnIGAsefstZUwhQ9-rBOSoJ0btKUw=w1705-h1136-s-no-gm?authuser=0",
+    narrative: `<p>Cet ensemble céramique exceptionnel, découvert sur le site antique d'Empúries (l'ancienne Emporion en Catalogne), se compose d'une lampe à huile thériomorphe en forme de cheval et d'une petite coupe à boire à deux anses (skyphos miniature). La lampe, pièce maîtresse de cette présentation, témoigne de l'inventivité des artisans potiers qui savaient allier fonctionnalité domestique et recherche sculpturale figurative. Façonné dans une terre cuite ocre naturelle, l'objet présente un corps équidé robuste campé sur quatre pieds courts, une tête stylisée aux oreilles dressées et une large anse annulaire surélevée facilitant sa préhension.</p>
+    <p>Le réservoir central de la lampe est accessible par un orifice sur le dos de l'animal pour l'alimentation en huile végétale, tandis que le bec ménagé pour la mèche permettait d'éclairer la maisonnée. Les traces de réparations antiques et de recollage sur le flanc de l'animal rappellent l'attachement à ces objets du quotidien. La présence du skyphos associé souligne le contexte d'usage domestique et convivial : la lumière et la boisson constituaient deux piliers indissociables des veillées et repas partagés dans le monde gréco-ibère.</p>
+    <p>L'esthétique de cette lampe s'inscrit dans une tradition artisanale locale ouverte aux influences méditerranéennes, où la représentation animale apporte une touche ludique et symbolique à l'éclairage domestique. À Emporion, carrefour culturel majeur entre Grecs phocéens et peuples ibériques indigènes, de telles pièces illustrent l'hybridation des modes de vie et la richesse matérielle des habitats antiques.</p>
+    <p><strong>Siècle :</strong> Ve-IVe siècle av. J.-C. (vers -400 / -350) | <strong>Civilisation :</strong> Grèce antique (Monde colonial / Ibérie) | <strong>Sous-partie :</strong> Mobilier domestique et lampe thériomorphe (Empúries).</p>`
+  },
+  {
     id: "ceramique_cratere_colonnettes_peintre_athana_banquet_louvre",
     civId: "grece",
     periodId: "grece_archaique",
