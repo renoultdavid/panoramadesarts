@@ -18,7 +18,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;900&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=2.2">
 
   <!-- Icônes pour l'application mobile et tablette -->
   <link rel="icon" type="image/jpeg" sizes="512x512" href="icon-512.jpeg">
@@ -545,12 +545,13 @@
     <div class="lightbox-stage" id="lightbox-stage">
       <div class="lightbox-img-wrapper" id="lightbox-img-wrapper">
         <img id="artwork-lightbox-img" src="" alt="Agrandissement de l'œuvre" draggable="false" />
-        <!-- LENTILLE LOUPE CIRCULAIRE FLOTTANTE -->
-        <div id="artwork-lightbox-lens" class="artwork-lightbox-lens" aria-hidden="true">
-          <div class="lens-crosshair"></div>
-          <div class="lens-badge" id="lens-badge">×2.5</div>
-        </div>
       </div>
+    </div>
+
+    <!-- LENTILLE LOUPE CIRCULAIRE FLOTTANTE (enfant direct du plein écran pour coordonnées fiables) -->
+    <div id="artwork-lightbox-lens" class="artwork-lightbox-lens" aria-hidden="true">
+      <div class="lens-crosshair"></div>
+      <div class="lens-badge" id="lens-badge">×2.5</div>
     </div>
 
     <!-- BANDEAU D'AIDE INFÉRIEUR -->

@@ -1093,7 +1093,8 @@ function updateLensPosition(clientX, clientY, isTouch = false) {
     return;
   }
 
-  const radius = (artworkLightboxLens.offsetWidth || 230) / 2;
+  const LENS_DIAMETER = 240;
+  const radius = LENS_DIAMETER / 2; // Rayon constant de 120px
   artworkLightboxLens.classList.add('is-visible');
   artworkLightboxLens.style.left = `${targetX - radius}px`;
   artworkLightboxLens.style.top = `${targetY - radius}px`;
@@ -1114,12 +1115,15 @@ function updateLensPosition(clientX, clientY, isTouch = false) {
 
 function openArtworkLightbox() {
   if (!modalImg || !modalImg.src) return;
-  artworkLightboxImg.src = modalImg.src;
+  const activeSrc = modalImg.currentSrc || modalImg.src;
+  artworkLightboxImg.src = activeSrc;
   if (lightboxArtworkTitle && modalArtworkTitle) {
     lightboxArtworkTitle.textContent = modalArtworkTitle.textContent || "Inspection de l'œuvre";
   }
   if (artworkLightboxLens) {
-    artworkLightboxLens.style.backgroundImage = `url("${modalImg.src}")`;
+    artworkLightboxLens.style.backgroundImage = `url("${activeSrc}")`;
+    artworkLightboxLens.style.backgroundRepeat = 'no-repeat';
+    artworkLightboxLens.style.backgroundColor = '#050608';
   }
   artworkLightbox.hidden = false;
   setLightboxMode('lens');
