@@ -3,6 +3,804 @@
    ========================================================================== */
 window.ART_OBJECTS = [
   {
+    id: "sculpture_statue_kore_nicandre_marbre_naxos_delos_athenes",
+    civId: "grece",
+    periodId: "grece_archaique",
+    civName: "Grèce antique",
+    century: "Vers 650 avant J.-C. (milieu du VIIe siècle av. J.-C.)",
+    centuryDisplay: "VIIe s. av. J.-C.",
+    centuryNumeric: -650,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire royale & divine (ronde-bosse)",
+    title: "La Koré de Nicandre : première statue monumentale en marbre (Délos)",
+    site: "Musée national archéologique d'Athènes (Grèce)",
+    originSite: "Sanctuaire d'Artémis, île de Délos (Cyclades)",
+    locationType: "museum",
+    currentLocation: "Musée national archéologique d'Athènes (Grèce)",
+    category: "Statue votive en marbre de Naxos (style dédalique)",
+    isHighlight: true,
+    chips: ["VIIe s. av. J.-C.", "Grèce antique", "Époque orientalisante", "Style dédalique", "Délos", "Naxos", "Koré", "Péplos", "Inscription votive", "Musée d'Athènes"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNlKC7nUhIt6W6P5KeDI00wQ2lXUwvnqKXFvDMJ6JZuyL909dlODfl0RWBQvxODEIvSOR4uG3Yz103cVFuorfxXL7ElqiPhOLhqAhlCHwGolBYw-tKpoT3R8tukNx5TQDji__DwLZFj0cymPeO0kbuAww=w1606-h2408-s-no-gm?authuser=0",
+    narrative: `<p>La koré de Nicandre, datée d'environ 650 avant notre ère, occupe une place fondamentale dans l'histoire de l'art grec en tant que plus ancienne statue en marbre de taille réelle connue à ce jour. Découverte sur l'île de Délos en 1878 par l'archéologue Théophile Homolle, cette œuvre en marbre de Naxos est aujourd'hui conservée au Musée national archéologique d'Athènes. Elle porte une inscription en alphabet naxien sur le côté gauche de sa jupe, révélant qu'elle a été dédiée à Artémis par Nicandre, une femme de haut rang originaire de Naxos, à l'occasion d'un événement marquant, probablement son mariage ou une consécration religieuse.</p>
+    <p>Cette statue est le témoin privilégié du style dédalique, caractérisé par une géométrisation rigoureuse et une certaine austérité des formes. Le corps de la jeune femme est traité de manière très plate, presque bidimensionnelle, évoquant la forme d'une planche ou d'un pilier, ce qui suggère une technique de sculpture encore très proche du travail du bois. Elle est vêtue d'un péplos lourd et d'une ceinture qui marque la taille, tandis que ses bras tombent de manière rigide le long de son corps. La surface du marbre, bien que polie, ne présente pas encore les modelés anatomiques complexes que l'on observera dans les décennies suivantes.</p>
+    <p>Le visage de la koré de Nicandre, aujourd'hui très érodé, s'inscrit dans un triangle inversé encadré par une chevelure imposante divisée en larges mèches horizontales, rappelant les perruques égyptiennes. Cette coiffure "en étages" est typique de la période pré-archaïque et souligne la verticalité de l'œuvre. Bien que l'identité précise de la figure soit débattue entre une représentation d'Artémis elle-même ou de la dédicante Nicandre, la statue incarne parfaitement la naissance de la statuaire monumentale grecque et le passage d'offrandes de petites dimensions à des œuvres d'envergure destinées à l'immortalité dans les sanctuaires.</p>
+    <p><strong>Siècle :</strong> Vers 650 avant J.-C. (milieu du VIIe siècle av. J.-C.) | <strong>Civilisation :</strong> Grèce antique | <strong>Lieu de conservation :</strong> Musée national archéologique d'Athènes (Grèce).</p>`
+  },
+  {
+    id: "sculpture_statue_colosse_kouros_marbre_cap_sounion_athenes",
+    civId: "grece",
+    periodId: "grece_archaique",
+    civName: "Grèce antique",
+    century: "Vers 600 avant J.-C. (tournant des VIIe et VIe siècles av. J.-C.)",
+    centuryDisplay: "VIe s. av. J.-C.",
+    centuryNumeric: -600,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire royale & divine (ronde-bosse)",
+    title: "Le Kouros colossal du Cap Sounion (Sanctuaire de Poséidon)",
+    site: "Musée national archéologique d'Athènes (Grèce)",
+    originSite: "Sanctuaire de Poséidon, Cap Sounion (Attique)",
+    locationType: "museum",
+    currentLocation: "Musée national archéologique d'Athènes (Grèce)",
+    category: "Statue colossale en marbre de Naxos (kouros archaïque)",
+    isHighlight: true,
+    chips: ["VIe s. av. J.-C.", "Grèce antique", "Époque archaïque", "Kouros", "Cap Sounion", "Attique", "Poséidon", "Monumentalité", "Musée d'Athènes"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPl7XecGI_ksCa1QNIHQo8p2YrFtMjXUXmbRuLY8Pq-ZjYmeMdDhfNxEGJTJT154VyWQqqcVcz3QW-j8CiHOOUNxDtgxEIU06UU7Wr36xdawYTaemoxiffAp5XrSxk1cTb8ywwI8mwP9SPJXdfVz8ypTg=w1606-h2408-s-no-gm?authuser=0",
+    narrative: `<p>Le Kouros de Sounion, colosse de marbre érigé vers 600 avant notre ère, représente l'un des exemples les plus précoces et les plus impressionnants de la statuaire monumentale de l'époque archaïque. Découvert en 1906 dans une fosse près du temple de Poséidon au cap Sounion, ce géant de plus de trois mètres de haut servait d'offrande votive au dieu de la mer. Sa présence majestueuse au Musée national archéologique d'Athènes témoigne de l'ambition des familles aristocratiques de l'Attique qui, par de telles consécrations, cherchaient à manifester leur piété et leur puissance au sein des sanctuaires panhelléniques.</p>
+    <p>Sur le plan stylistique, le kouros illustre parfaitement les conventions de la sculpture du début du VIe siècle, encore fortement influencées par les modèles égyptiens. La statue adopte une pose rigide et frontale, le pied gauche avancé dans un mouvement de marche qui n'altère pas l'équilibre statique de l'ensemble. Les bras sont plaqués le long du corps, les poings fermés, soulignant une musculature traitée de manière graphique plutôt que naturaliste. Les détails anatomiques, tels que les articulations des genoux ou la cage thoracique, sont rendus par des incisions précises dans la pierre, créant une apparence de force brute et de symétrie quasi géométrique.</p>
+    <p>Le visage, bien que endommagé, conserve les caractéristiques du style archaïque avec ses grands yeux en amande et ses oreilles stylisées rappelant la forme de volutes ioniques. La chevelure constitue un élément décoratif majeur : elle est organisée en boucles régulières et tressées qui retombent élégamment dans le dos, attachées par un bandeau noué derrière la tête. Ce traitement formel et répétitif des boucles accentue l'aspect rituel et intemporel de la figure. En dépit de sa rigidité, le Kouros de Sounion dégage une énergie monumentale qui marque l'éveil de la sculpture grecque vers la conquête du volume et de la présence humaine dans l'espace sacré.</p>
+    <p><strong>Siècle :</strong> Vers 600 avant J.-C. (tournant des VIIe et VIe siècles av. J.-C.) | <strong>Civilisation :</strong> Grèce antique | <strong>Lieu de conservation :</strong> Musée national archéologique d'Athènes (Grèce).</p>`
+  },
+  {
+    id: "sculpture_statuette_dame_auxerre_calcaire_style_dedalique_crete_louvre",
+    civId: "grece",
+    periodId: "grece_archaique",
+    civName: "Grèce antique",
+    century: "Vers 640-630 avant J.-C. (troisième quart du VIIe siècle av. J.-C.)",
+    centuryDisplay: "VIIe s. av. J.-C.",
+    centuryNumeric: -640,
+    domain: "sculpture_statuaire",
+    artifactType: "Figurine votive / Ex-voto",
+    title: "La Dame d'Auxerre : chef-d'œuvre de la sculpture dédalique crétoise",
+    site: "Musée du Louvre (Paris, France)",
+    originSite: "Éleutherne ou Gortyne (Crète)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre (Paris, France)",
+    category: "Statue votive en calcaire tendre (ronde-bosse polychrome)",
+    isHighlight: true,
+    chips: ["VIIe s. av. J.-C.", "Grèce antique", "Crète", "Style dédalique", "Dame d'Auxerre", "Épibléma", "Polychromie", "Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPAiVqLcXo-cMpSFkMwv6aUY86gU-inY-CqTlaRAocs2tJDdPDpW7pi2hCtyaPphvzbJUzUyi4AwYhxPbcUVbMAoLRGwJ1UzCgXwuAeK23gaUZRp9i4E9pxcmNuxHQlKVgAF_H5qF_14Urdo-Cj1HIK7g=w1813-h2408-s-no-gm?authuser=0",
+    narrative: `<p>Cette statuette en calcaire, chef-d'œuvre de l'art dédalique, représente une jeune femme debout dans une posture d'une grande solennité. La figure est caractérisée par une composition rigoureuse et une forte géométrisation des formes. Elle porte une longue robe lisse, une tunique ornée à l'origine de motifs gravés (dont des carrés emboîtés encore visibles), serrée à la taille par une large ceinture plate. Ses épaules sont recouvertes d'une courte pèlerine, ou épibléma, qui accentue la carrure. La main droite est ramenée sur la poitrine dans un geste de prière ou d'hommage, tandis que la main gauche est plaquée contre la cuisse, soulignant la verticalité de l'œuvre.</p>
+    <p>Le traitement de la tête est l'un des traits les plus distinctifs du style dédalique. Le visage, bien que partiellement érodé, s'inscrit dans un triangle inversé, encadré par une imposante chevelure divisée en tresses horizontales massives évoquant une perruque égyptisante. Le crâne est plat, sans doute pour accueillir un polos aujourd'hui disparu. Les pieds, qui dépassent du bas de la robe, reposent sur une base quadrangulaire solidaire de la statue. Malgré sa taille modeste (environ 65 cm), l'œuvre dégage une monumentalité qui annonce la grande statuaire grecque du siècle suivant.</p>
+    <p>La Dame d'Auxerre illustre parfaitement les influences orientales sur la sculpture crétoise du VIIe siècle avant J.-C. La rigidité de la pose et la schématisation anatomique témoignent d'une recherche d'équilibre et de permanence. On sait aujourd'hui que cette statue était vivement colorée, le calcaire poreux ayant été recouvert de peintures rouges, bleues et jaunes qui rendaient les motifs du vêtement beaucoup plus lisibles. Découverte dans les réserves du musée d'Auxerre avant de rejoindre le Louvre, elle demeure le jalon essentiel pour comprendre le passage de la petite figurine à la statue de taille humaine (la koré).</p>
+    <p><strong>Siècle :</strong> Vers 640-630 avant J.-C. (troisième quart du VIIe siècle av. J.-C.) | <strong>Civilisation :</strong> Grèce antique | <strong>Lieu de conservation :</strong> Musée du Louvre (Paris, France).</p>`
+  },
+  {
+    id: "sculpture_figurine_idole_cloche_thebes_danse_beotie_louvre",
+    civId: "grece",
+    periodId: "grece_geometrique",
+    civName: "Grèce antique",
+    century: "Vers 700 avant J.-C. (fin du VIIIe siècle av. J.-C.)",
+    centuryDisplay: "VIIIe s. av. J.-C.",
+    centuryNumeric: -700,
+    domain: "sculpture_statuaire",
+    artifactType: "Figurine votive / Ex-voto",
+    title: "Idole-cloche béotienne à décor peint de danse rituelle (Thèbes)",
+    site: "Musée du Louvre (Paris, France)",
+    originSite: "Thèbes (Béotie)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre (Paris, France)",
+    category: "Sculpture / Figurine en terre cuite à engobe peint",
+    isHighlight: false,
+    chips: ["VIIIe s. av. J.-C.", "Grèce antique", "Époque géométrique tardive", "Béotie", "Thèbes", "Idole-cloche", "Terre cuite", "Danse rituelle", "Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOgUVSOk4UmNXkRTWxduz-NI5glDTfSUF-_L2i-fJ0PwmCczBNPxfqcQJ1JSTAKYMo3tbAquXRrRgzmuL-q42EOserpDhfNcw1dLDA708xnF65urg9JjEcfGkabsngdu4F4rGcQTyBT8G_O2akFc0cFNw=w1813-h2408-s-no-gm?authuser=0",
+    narrative: `<p>Cette figurine exceptionnelle, datée des environs de 700 avant notre ère, appartient à la catégorie célèbre des "idoles-cloches" de Béotie. Produite durant la période géométrique tardive, elle témoigne d'une transition stylistique majeure dans l'art grec, où les formes rigides du passé commencent à intégrer des éléments narratifs et figuratifs plus complexes. Découverte à Thèbes, cette statuette anthropomorphe en terre cuite se distingue par son corps tronconique creux et son long cou stylisé, une silhouette caractéristique qui servait probablement d'offrande votive dans des contextes funéraires ou religieux.</p>
+    <p>Le traitement décoratif de la pièce est exemplaire du style géométrique béotien. Le corps est orné de motifs peints à l'engobe brun-noir, organisés en registres horizontaux. On y observe une file de personnages féminins schématiques, bras levés ou se tenant par la main, évoquant une danse rituelle ou une procession. Le cou et la poitrine sont marqués par des symboles solaires et des svastikas, des motifs ornementaux courants à cette époque symbolisant le mouvement ou l'éternité. Le visage, bien que minimaliste, présente des traits distinctifs avec des yeux en pastilles et un nez proéminent, conférant à l'objet une présence singulière malgré sa schématisation.</p>
+    <p>Une particularité structurelle de ces figurines réside souvent dans leurs jambes mobiles, articulées et suspendues à l'intérieur de la jupe en forme de cloche, bien que ces éléments soient ici fixés sur un socle moderne pour la présentation muséale. Cette mobilité suggère une dimension ludique ou une fonction spécifique lors des rituels, où le mouvement de la figurine pouvait simuler la danse représentée sur son décor peint. L'équilibre entre la géométrie stricte du corps et la fluidité des scènes de groupe peintes fait de cette idole un jalon crucial pour comprendre l'évolution vers la statuaire archaïque.</p>
+    <p>La présence de cette figurine à Thèbes souligne l'importance de la Béotie comme centre de production céramique original, capable de développer un langage artistique propre, distinct des modèles athéniens. Ces idoles-cloches ne sont pas de simples jouets, mais des objets chargés de symbolisme, reliant le monde des vivants à celui des divinités ou des défunts. La finesse du trait et la conservation de la polychromie sombre sur le fond clair de l'argile permettent d'apprécier aujourd'hui encore la sophistication des croyances et des techniques artisanales à l'aube du VIIe siècle avant J.-C.</p>
+    <p><strong>Siècle :</strong> Vers 700 avant J.-C. (fin du VIIIe siècle av. J.-C.) | <strong>Civilisation :</strong> Grèce antique | <strong>Lieu de conservation :</strong> Musée du Louvre (Paris, France).</p>`
+  },
+  {
+    id: "sculpture_figurine_idole_cloche_echassiers_meandres_beotie_louvre",
+    civId: "grece",
+    periodId: "grece_archaique",
+    civName: "Grèce antique",
+    century: "Vers 700-675 avant J.-C. (début du VIIe siècle av. J.-C.)",
+    centuryDisplay: "VIIe s. av. J.-C.",
+    centuryNumeric: -690,
+    domain: "sculpture_statuaire",
+    artifactType: "Figurine votive / Ex-voto",
+    title: "Idole-cloche béotienne aux échassiers et méandres textiles",
+    site: "Musée du Louvre (Paris, France)",
+    originSite: "Béotie (Grèce centrale)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre (Paris, France)",
+    category: "Sculpture / Figurine en terre cuite peinte à jambes articulées",
+    isHighlight: false,
+    chips: ["VIIe s. av. J.-C.", "Grèce antique", "Époque orientalisante", "Béotie", "Idole-cloche", "Échassiers", "Méandres", "Terre cuite", "Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPljequU6o2cFpGCfKRWj0ZKG3OeNbz4saranPRxzfAMMU2kXKjd-5K__oNFss7UQHFjfgP3Ym-7SRA9_p35Mi6P2zZyj68N03g9qLtyEHKjrtxWgY4uFmb4CRFfsFar3xvkJyunqaNBZOodDaqnoMXyw=w1813-h2408-s-no-gm?authuser=0",
+    narrative: `<p>Cette figurine anthropomorphe, souvent désignée sous le terme d'idole-cloche, représente une femme debout au corps creux et évasé, caractéristique de la production béotienne de la fin de l'époque géométrique. La structure se compose d'un tronc tronconique massif servant de base, d'où émergent de petits pieds modelés séparément et fixés à l'intérieur, ce qui permettait parfois un léger mouvement de balancier. Le long cou cylindrique est surmonté d'une tête aux traits schématiques, où les yeux et les oreilles sont indiqués par des pastilles ou des traits de peinture, tandis que les bras sont réduits à de courts moignons latéraux, accentuant l'aspect symbolique et non réaliste de la silhouette.</p>
+    <p>Le décor peint au vernis sombre sur le fond clair de l'argile est d'une richesse exceptionnelle, empruntant directement au répertoire iconographique des oenochoés contemporaines du style de Thèbes. Sur la face avant, un large panneau central est occupé par un motif de méandres emboîtés et de damiers, évoquant peut-être un vêtement tissé complexe. De part et d'autre de ce panneau, des motifs animaliers et symboliques se déploient : on distingue nettement des oiseaux aquatiques (échassiers) aux corps quadrillés, des svastikas (signes solaires ou de fertilité) et des rosaces stellaires. Des lignes en zigzag courent le long du cou et des bras, soulignant les articulations de la pièce.</p>
+    <p>L'usage de ces idoles reste sujet à interprétation, oscillant entre l'ex-voto déposé dans un sanctuaire et l'objet funéraire destiné à accompagner le défunt. La présence de seins modelés en relief confirme l'identité féminine, probablement une divinité de la fertilité ou une figure rituelle. La cohérence stylistique entre cette statuette et la céramique de luxe de Thèbes vers 700 avant J.-C. démontre que les coroplastes et les peintres de vases partageaient un langage visuel commun, marqué par une transition fascinante entre la rigueur géométrique et l'introduction de figures narratives plus libres.</p>
+    <p><strong>Siècle :</strong> Vers 700-675 avant J.-C. (début du VIIe siècle av. J.-C.) | <strong>Civilisation :</strong> Grèce antique | <strong>Lieu de conservation :</strong> Musée du Louvre (Paris, France).</p>`
+  },
+  {
+    id: "sculpture_statues_kouroi_jumeaux_cleobis_biton_polymedes_argos_delphes",
+    civId: "grece",
+    periodId: "grece_archaique",
+    civName: "Grèce antique",
+    century: "Vers 580 avant J.-C. (premier quart du VIe siècle av. J.-C.)",
+    centuryDisplay: "VIe s. av. J.-C.",
+    centuryNumeric: -580,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire royale & divine (ronde-bosse)",
+    title: "Les Kouroï jumeaux de Delphes (Cléobis et Biton par Polymédès d'Argos)",
+    site: "Musée archéologique de Delphes (Grèce)",
+    originSite: "Sanctuaire d'Apollon, Delphes",
+    locationType: "museum",
+    currentLocation: "Musée archéologique de Delphes (Grèce)",
+    category: "Statues jumelles en marbre de Paros (ronde-bosse héroïque)",
+    isHighlight: true,
+    chips: ["VIe s. av. J.-C.", "Grèce antique", "Époque archaïque", "Delphes", "Cléobis et Biton", "Polymédès d'Argos", "Kalokagathia", "Marbre de Paros", "Musée de Delphes"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczM6XisWUyrRvkTttVUfXvi39rHS7VwhpjLZePic9-odUGjO9fk-OioiakNMvfdGFBYftsTiKtgbCDPxTRFkyCAbG_NUIuO2S3pDNo_q-1Oh4dpzQ3deE-aDc476WSY_RPwlU84jLCxV8RDQQnmBN8rg8w=w1606-h2408-s-no-gm?authuser=0",
+    narrative: `<p>Les kouroï jumeaux de Delphes, identifiés par la tradition comme Cléobis et Biton, constituent l’un des chefs-d’œuvre les plus emblématiques de la sculpture grecque de l’époque archaïque. Datées aux alentours de 580 avant notre ère, ces statues monumentales en marbre de Paros furent découvertes à Delphes à la fin du XIXe siècle. Bien que leur identification exacte reste débattue par certains historiens qui y voient parfois les Dioscures, les inscriptions fragmentaires portées sur leurs bases soutiennent le récit d’Hérodote. Selon la légende, ces deux jeunes Argiens auraient suppléé les bœufs de leur mère, prêtresse d’Héra, en tirant son char sur plusieurs kilomètres. En récompense de leur piété filiale, la déesse leur aurait accordé le plus grand bienfait pour un mortel : un sommeil éternel dans la fleur de l’âge.</p>
+    <p>Sur le plan stylistique, ces œuvres illustrent la transition entre l'influence égyptienne et l'émergence d'un naturalisme proprement hellénique. Le travail est attribué au sculpteur Polymédès d’Argos, dont le nom figure sur le socle. Contrairement aux modèles attiques plus élancés, ces silhouettes argiennes se distinguent par une robustesse massive et une musculature puissante, presque trapue, évoquant la force physique nécessaire à leur exploit légendaire. Leurs corps présentent une symétrie rigoureuse, les bras solidement plaqués le long du torse et les poings fermés, adoptant la posture caractéristique du kouros avec la jambe gauche légèrement avancée pour suggérer le mouvement.</p>
+    <p>Les détails anatomiques sont traités de manière schématique mais vigoureuse. On observe une simplification géométrique des muscles pectoraux et des rotules, tandis que les visages affichent les traits typiques du style dédalique tardif. Les yeux en amande, les arcades sourcilières marquées et le célèbre « sourire archaïque » confèrent aux jumeaux une expression de vitalité sereine. Leur chevelure est organisée en nattes perlées retombant sur les épaules, une convention esthétique qui souligne la noblesse et le caractère aristocratique des personnages. Ces statues n'étaient pas seulement des offrandes votives, mais servaient de substituts éternels à la présence physique des défunts dans le sanctuaire d'Apollon.</p>
+    <p>Exposées aujourd'hui au Musée archéologique de Delphes, ces figures incarnent l'idéal de la « kalokagathia », l'union de la beauté physique et de la bonté morale. Leur état de conservation exceptionnel permet d'apprécier la technicité des ateliers d'Argos et l'importance du culte des héros dans la Grèce antique. Par leur présence imposante, Cléobis et Biton témoignent de l'ambition des cités-États de marquer l'espace sacré de Delphes par des monuments à la gloire de leurs citoyens les plus vertueux, figés pour l'éternité dans la pierre.</p>
+    <p><strong>Siècle :</strong> Vers 580 avant J.-C. (premier quart du VIe siècle av. J.-C.) | <strong>Civilisation :</strong> Grèce antique | <strong>Lieu de conservation :</strong> Musée archéologique de Delphes (Grèce).</p>`
+  },
+  {
+    id: "sculpture_statue_kouros_merenda_myrrhinonte_attique_athenes",
+    civId: "grece",
+    periodId: "grece_archaique",
+    civName: "Grèce antique",
+    century: "Vers 540-530 avant J.-C. (milieu du VIe siècle av. J.-C.)",
+    centuryDisplay: "VIe s. av. J.-C.",
+    centuryNumeric: -540,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire privée & portraits",
+    title: "Le Kouros de Merenda (Monument funéraire aristocratique de Myrrhinonte)",
+    site: "Musée national archéologique d'Athènes (Grèce)",
+    originSite: "Nécropole de Merenda / Myrrhinonte (Attique)",
+    locationType: "museum",
+    currentLocation: "Musée national archéologique d'Athènes (Grèce)",
+    category: "Statue funéraire en marbre de Paros (kouros archaïque)",
+    isHighlight: true,
+    chips: ["VIe s. av. J.-C.", "Grèce antique", "Époque archaïque", "Attique", "Merenda", "Kouros", "Sourire archaïque", "Monument funéraire", "Musée d'Athènes"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNjjdsa_G02C_WHGaUsbLCt4HZ-PX2qJ9A0NV3Wlk3sMKvJut7tuyWhKv97TOtuHV8xHkMw0gyeUZ8QnOsGiZ4dZ1H3aAg85D9THGVf3gpqP1R8AkL-4Sw9tkpxPNElaHs4Jst1Km84TTZRHFhStvU7Fw=w1606-h2408-s-no-gm?authuser=0",
+    narrative: `<p>Cette statue masculine, découverte en 1972 à Merenda en Attique, constitue l'un des exemples les plus emblématiques et les mieux préservés du type du kouros de la période archaïque mûre. Datée d'environ 540 avant notre ère, elle a été retrouvée enterrée avec la célèbre Coré Phrasikleia, protégeant ainsi la surface du marbre des outrages du temps. Ce kouros servait de monument funéraire, dressé au-dessus d'une sépulture pour pérenniser la mémoire d'un jeune homme de l'aristocratie attique dont le nom reste inconnu, contrairement à sa compagne de sépulture.</p>
+    <p>L'œuvre présente toutes les caractéristiques canoniques du kouros archaïque, notamment une frontalité stricte et une posture hiératique. Le jeune homme est représenté nu, le pied gauche légèrement avancé pour suggérer le mouvement, bien que le poids du corps reste équitablement réparti sur les deux jambes. Les bras, tendus le long du corps, se terminent par des poings fermés qui touchent les cuisses, une convention héritée de la statuaire égyptienne mais réinterprétée ici avec une sensibilité grecque. Le modelé du corps, bien que puissant, conserve une certaine abstraction géométrique, avec des divisions musculaires marquées par des lignes claires plutôt que par un fondu naturaliste.</p>
+    <p>Le visage du kouros de Merenda est remarquable par son "sourire archaïque" caractéristique, une convention artistique destinée à donner vie et expression au visage plutôt qu'à traduire une émotion réelle. Les yeux en amande, larges et saillants, ainsi que les oreilles stylisées en forme de volutes, témoignent de l'esthétique du milieu du VIe siècle. La coiffure est particulièrement élaborée : de longues nattes perlées retombent sur les épaules et dans le dos, tandis que sur le front, les cheveux sont arrangés en boucles symétriques soigneusement sculptées.</p>
+    <p>Actuellement exposé au Musée National Archéologique d'Athènes, ce kouros témoigne de la splendeur de l'art funéraire de l'époque des Pisistratides. La conservation exceptionnelle de la pierre permet d'admirer la précision du travail de sculpture et la qualité du marbre, qui conserve par endroits une douceur de grain presque charnelle. Cette œuvre incarne l'idéal de la jeunesse éternelle et de la noblesse, offrant un contraste saisissant avec l'évolution vers le réalisme que l'on observera quelques décennies plus tard avec le kouros d'Aristodikos. Athens musee archeo</p>
+    <p><strong>Siècle :</strong> Vers 540-530 avant J.-C. (milieu du VIe siècle av. J.-C.) | <strong>Civilisation :</strong> Grèce antique | <strong>Lieu de conservation :</strong> Musée national archéologique d'Athènes (Grèce).</p>`
+  },
+  {
+    id: "sculpture_statue_kore_phrasikleia_aristion_paros_merenda_athenes",
+    civId: "grece",
+    periodId: "grece_archaique",
+    civName: "Grèce antique",
+    century: "Vers 540 avant J.-C. (milieu du VIe siècle av. J.-C.)",
+    centuryDisplay: "VIe s. av. J.-C.",
+    centuryNumeric: -540,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire privée & portraits",
+    title: "La Koré Phrasikleia par Aristion de Paros (Nécropole de Myrrhinonte)",
+    site: "Musée national archéologique d'Athènes (Grèce)",
+    originSite: "Nécropole de Merenda / Myrrhinonte (Attique)",
+    locationType: "museum",
+    currentLocation: "Musée national archéologique d'Athènes (Grèce)",
+    category: "Statue funéraire en marbre de Paros avec polychromie préservée",
+    isHighlight: true,
+    chips: ["VIe s. av. J.-C.", "Grèce antique", "Époque archaïque", "Koré", "Phrasikleia", "Aristion de Paros", "Chiton", "Fleur de lotus", "Polychromie", "Musée d'Athènes"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOxRept6j1yEdTVl27gE8sjNaInpT8RES36qOrks5XflF6lyKjO3jg53lmjzLAtFjtunJd_VLND8DGH_863eOhpNA8c62a8aqFefoYxxJKgTJVc9I9WYLsKPhldD1u4R6k5dfb5wQEg_qMTZhtUZTkIIg=w1606-h2408-s-no-gm?authuser=0",
+    narrative: `<p>La koré de Phrasikleia, sculptée vers 540 avant notre ère par l'artiste Aristion de Paros, constitue l'un des chefs-d'œuvre les plus précieux de la sculpture grecque archaïque conservés au Musée national archéologique d'Athènes. Découverte en 1972 dans la nécropole de Myrrhinonte, cette statue funéraire a bénéficié d'un enfouissement volontaire peu après son érection afin d'être protégée des profanations, ce qui explique son état de conservation exceptionnel. Elle représente une jeune femme disparue prématurément, comme l'indique l'épitaphe gravée sur sa base, qui précise qu'elle restera à jamais une « koré », une jeune fille, ayant quitté le monde avant son mariage.</p>
+    <p>Sur le plan stylistique, la statue illustre la transition vers une maîtrise accrue des volumes et du détail ornemental. Phrasikleia porte un chiton long, une tunique richement décorée de motifs géométriques, de fleurs de lotus et de rosettes qui conservent encore des traces de leur polychromie originelle rouge et jaune. Sa posture est frontale et hiératique, mais elle se distingue par un geste d'une grande délicatesse : sa main droite soulève légèrement le pan de son vêtement tandis que sa main gauche ramène un bouton de lotus contre sa poitrine, symbole de fécondité interrompue ou de lien avec les divinités chthoniennes.</p>
+    <p>Le visage de la koré est animé par le célèbre sourire archaïque, expression conventionnelle destinée à donner une étincelle de vie au marbre. Ses cheveux, tressés avec une précision mathématique, retombent en mèches lourdes sur ses épaules et sont surmontés d'une haute couronne de fleurs de lotus. Chaque détail, des bijoux sculptés comme le collier et les bracelets jusqu'aux sandales minutieusement tracées, témoigne du prestige social de la famille de la défunte. Plus qu'un simple monument funéraire, la koré de Phrasikleia est une incarnation de l'idéal de beauté et de vertu de l'aristocratie attique du VIe siècle avant notre ère.</p>
+    <p><strong>Siècle :</strong> Vers 540 avant J.-C. (milieu du VIe siècle av. J.-C.) | <strong>Civilisation :</strong> Grèce antique | <strong>Lieu de conservation :</strong> Musée national archéologique d'Athènes (Grèce).</p>`
+  },
+  {
+    id: "sculpture_statues_kouroi_jumeaux_klenia_corinthe",
+    civId: "grece",
+    periodId: "grece_archaique",
+    civName: "Grèce antique",
+    century: "Vers 530 avant J.-C. (dernier tiers du VIe siècle av. J.-C.)",
+    centuryDisplay: "VIe s. av. J.-C.",
+    centuryNumeric: -530,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire privée & portraits",
+    title: "Les Kouroi jumeaux de Klenia (Monuments funéraires aristocratiques)",
+    site: "Musée archéologique de l'Ancienne Corinthe (Grèce)",
+    originSite: "Klenia (Corinthie)",
+    locationType: "museum",
+    currentLocation: "Musée archéologique de l'Ancienne Corinthe (Grèce)",
+    category: "Statues jumelles funéraires en marbre de Paros (kouroi archaïques)",
+    isHighlight: true,
+    chips: ["VIe s. av. J.-C.", "Grèce antique", "Époque archaïque", "Corinthe", "Klenia", "Kouroi", "Sema", "Kalokagathia", "Musée de Corinthe"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOmUCJSIDTw-kBTrkza7mxxg6tKEjewTBSEQF-4HcAyewsbjuTUoKcYZHvc86seoc-ybc2d_JMd03kS57Ntusj_hN6xkNu83kpAlH4z_k0AimHoYo3Ekupg92XodYxbCkSCzZV6eQZjrVadk8CD6apDZg=w1847-h1231-s-no-gm?authuser=0-",
+    narrative: `<p>Les Kouroi de Klenia, sculptés vers 530 avant notre ère dans la région de Corinthe, constituent un ensemble exceptionnel de la statuaire grecque archaïque. Ces deux figures masculines en marbre de Paros, découvertes en 2010 suite à une tentative de pillage, frappent par leur état de conservation remarquable et leur gémellité quasi parfaite. Elles représentent l'apogée du style corinthien tardif, marquant une transition charnière où la rigueur géométrique des débuts de l'époque archaïque commence à s'effacer au profit d'une observation plus naturelle de l'anatomie humaine.</p>
+    <p>Chaque statue adopte la posture canonique du kouros, debout, nu, les bras le long du corps et la jambe gauche légèrement avancée dans un mouvement figé qui suggère la vie sans rompre la stabilité. Le rendu de la musculature, bien que stylisé, témoigne d'une maîtrise technique supérieure : les pectoraux, l'arc thoracique et les abdominaux sont définis avec une précision qui annonce déjà les recherches du premier style classique. Le visage de chaque jeune homme est empreint du célèbre sourire archaïque, une convention artistique destinée à donner de l'animation et de l'intériorité au marbre, tandis que la chevelure, soigneusement travaillée en longues tresses perlées, retombe avec élégance sur les épaules.</p>
+    <p>L'histoire de leur découverte et de leur contexte funéraire apporte un éclairage précieux sur les pratiques aristocratiques de la Corinthe antique. Ces statues servaient de marqueurs funéraires, des sema, érigés sur les tombes de jeunes hommes issus de l'élite pour immortaliser leur vertu et leur beauté physique, la kalokagathia. Le fait qu'ils aient été retrouvés ensemble dans une nécropole suggère qu'ils pourraient commémorer deux frères ou des membres d'une même lignée prestigieuse. Aujourd'hui conservés au musée archéologique de l'Ancienne Corinthe, les Kouroi de Klenia demeurent des témoins silencieux mais éloquents de la puissance artistique et sociale de la cité à la fin du VIe siècle avant J.-C.</p>
+    <p><strong>Siècle :</strong> Vers 530 avant J.-C. (dernier tiers du VIe siècle av. J.-C.) | <strong>Civilisation :</strong> Grèce antique | <strong>Lieu de conservation :</strong> Musée archéologique de l'Ancienne Corinthe (Grèce).</p>`
+  },
+  {
+    id: "sculpture_statue_kouros_vetu_dionysermos_milet_ionie_louvre",
+    civId: "grece",
+    periodId: "grece_archaique",
+    civName: "Grèce antique",
+    century: "Vers 530-520 avant J.-C. (troisième quart du VIe siècle av. J.-C.)",
+    centuryDisplay: "VIe s. av. J.-C.",
+    centuryNumeric: -525,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire privée & portraits",
+    title: "Le Kouros vêtu de Dionysermos (Statuaire archaïque ionienne de Milet)",
+    site: "Musée du Louvre (Paris, France)",
+    originSite: "Milet (Ionie, Asie Mineure)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre (Paris, France)",
+    category: "Statue votive en marbre (kouros drapé à inscription épigraphique)",
+    isHighlight: true,
+    chips: ["VIe s. av. J.-C.", "Grèce antique", "Ionie", "Milet", "Kouros vêtu", "Dionysermos", "Chiton", "Himation", "Mnèma", "Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPiDNdc0KYvtBHeRrWLVie9rVLbWW11dh79spJbIlsCbbLdp9pUlhDkivp88MUXb-McBC2TU-X-jweVdeog6HVUwl-eOUZVphkXK-aO-RxdONtk7CqkgCmCuV5lSrx1b4zilBf7qnreyXFNpCRF8yRR4g=w1813-h2408-s-no-gm?authuser=0",
+    narrative: `<p>Ce kouros vêtu offre une description précise de l'aristocratie ionienne du troisième quart du VIe siècle avant J.-C. La statue se distingue par son vêtement complexe, composé d'un chiton long et fin sur lequel est drapé un himation oblique. Le tissu du chiton, qui descend jusqu'aux chevilles, est rendu par de fines cannelures verticales évoquant la légèreté de la toile de lin. À l'inverse, le manteau jeté sur l'épaule gauche présente une épaisseur plus marquée, soulignée par un pli vertical rigide qui traverse le corps et porte l'inscription dédicatoire. Les bras sont maintenus le long du corps, les poings fermés, dans une posture héritée des modèles égyptiens, mais le modelé des avant-bras montre déjà une attention particulière au relief musculaire sous la peau.</p>
+    <p>Le visage du kouros est traité avec une grande finesse, caractéristique de la douceur ionienne. Le "sourire archaïque" étire les lèvres de manière symétrique, tandis que les yeux en relief, de forme allongée, sont encadrés par des paupières nettement dessinées. La coiffure est un chef-d'œuvre de minutie : les cheveux sont divisés en tresses perlées qui retombent symétriquement sur le haut de la poitrine et dans le dos, créant une texture granuleuse qui accroche la lumière. Ce soin apporté à la parure témoigne du statut social élevé de Dionysermos, le donateur mentionné dans l'inscription, et de sa volonté de se présenter devant la divinité sous ses plus beaux atours.</p>
+    <p>L'inscription gravée, pivot central de l'œuvre, n'est pas qu'un simple label mais fait partie intégrante de la composition plastique. Elle utilise l'alphabet local pour nommer le dédicant et son père, transformant la statue en un "monument de mémoire" (mnèma). Le contraste entre la verticalité stricte du vêtement et la rondeur des formes charnelles au niveau du visage et des bras illustre parfaitement la transition artistique de l'époque. Cette œuvre incarne la piété civique et l'affirmation de l'individu au sein du panthéon grec, où l'image de l'homme, idéalisée par la jeunesse et l'élégance, devient l'offrande suprême aux dieux.</p>
+    <p><strong>Siècle :</strong> Vers 530-520 avant J.-C. (troisième quart du VIe siècle av. J.-C.) | <strong>Civilisation :</strong> Grèce antique | <strong>Lieu de conservation :</strong> Musée du Louvre (Paris, France).</p>`
+  },
+  {
+    id: "sculpture_statue_kore_cheramyes_heraion_samos_louvre",
+    civId: "grece",
+    periodId: "grece_archaique",
+    civName: "Grèce antique",
+    century: "Vers 570-560 avant J.-C. (second quart du VIe siècle av. J.-C.)",
+    centuryDisplay: "VIe s. av. J.-C.",
+    centuryNumeric: -565,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire royale & divine (ronde-bosse)",
+    title: "La Koré de Chéramyès, dite « Héra de Samos » (Héraion de Samos)",
+    site: "Musée du Louvre (Paris, France)",
+    originSite: "Héraion de l'île de Samos (Ionie)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre (Paris, France)",
+    category: "Statue votive en marbre en forme de colonne cannelée (ronde-bosse)",
+    isHighlight: true,
+    chips: ["VIe s. av. J.-C.", "Grèce antique", "Époque archaïque", "Ionie", "Samos", "Héraion", "Chéramyès", "Koré", "Drapé ionien", "Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNjt2Q9aikwTQPRDUz4PiaG8ln-SzQ0Fruk13jctXGOHBjOPojhn1KTn64aatuCmC1Dd98uAYF-6fSUuAgcd-LGNGM25d0-Kj9CNaQ5NdLNckVNr6ZL-Yi9V8OewD56xiVd7ZIoG-FN-0G_KKsrs9PTJw=w1813-h2408-s-no-gm?authuser=0",
+    narrative: `<p>Cette statue de jeune femme, célèbre sous le nom de "Héra de Samos" ou Korè de Samos, est l'un des chefs-d'œuvre les plus accomplis de la sculpture ionienne du second quart du VIe siècle avant J.-C. Bien que la tête soit manquante, la silhouette cylindrique et l'élégance du drapé témoignent d'une recherche esthétique unique, propre aux ateliers de Samos. La korè est représentée debout, les pieds joints, dans une posture d'une grande verticalité qui rappelle la forme d'un tronc d'arbre ou d'une colonne. Cette géométrisation du corps est cependant transcendée par un travail d'une finesse extrême sur les textiles, superposant un chiton de lin fin, une lourde draperie et un manteau (himation) jeté obliquement sur l'épaule.</p>
+    <p>La description technique du vêtement révèle la virtuosité du sculpteur samien. Le bas de la statue est traité en une série de cannelures verticales serrées, évoquant les colonnes ioniques, tandis que le manteau supérieur présente des plis plus larges et souples qui épousent subtilement les formes du corps, notamment au niveau des jambes et des fesses. Le bras gauche, aujourd'hui disparu, était ramené contre la poitrine, tandis que la main droite descendait le long de la cuisse, tenant probablement un attribut ou soulevant un pan du vêtement. Cette alternance entre la rigueur du bloc et la fluidité des lignes courbes crée un jeu de lumière qui donne vie au marbre.</p>
+    <p>L'inscription gravée le long du bord vertical du manteau nous apprend que cette statue a été dédiée à Héra par un certain Chéramyès. Cette fonction votive explique la solennité de l'œuvre : elle n'est pas seulement une représentation humaine, mais une présence divine ou une offrande éternelle dans l'enceinte sacrée de l'Héraion de Samos. Par sa monumentalité et la précision de son rendu textile, elle marque l'apogée d'un style qui privilégie la grâce et l'ornementation avant l'évolution vers un réalisme anatomique plus prononcé.</p>
+    <p><strong>Siècle :</strong> Vers 570-560 avant J.-C. (second quart du VIe siècle av. J.-C.) | <strong>Civilisation :</strong> Grèce antique | <strong>Lieu de conservation :</strong> Musée du Louvre (Paris, France).</p>`
+  },
+  {
+    id: "sculpture_statue_kouros_aristodikos_mesogeia_attique_athenes",
+    civId: "grece",
+    periodId: "grece_archaique",
+    civName: "Grèce antique",
+    century: "Vers 510 avant J.-C. (fin du VIe siècle av. J.-C.)",
+    centuryDisplay: "VIe s. av. J.-C.",
+    centuryNumeric: -510,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire privée & portraits",
+    title: "Le Kouros d'Aristodikos : apogée anatomique de l'archaïsme attique",
+    site: "Musée national archéologique d'Athènes (Grèce)",
+    originSite: "Nécropole de Mésogée (Attique)",
+    locationType: "museum",
+    currentLocation: "Musée national archéologique d'Athènes (Grèce)",
+    category: "Statue funéraire en marbre de Paros (ronde-bosse préclassique)",
+    isHighlight: true,
+    chips: ["VIe s. av. J.-C.", "Grèce antique", "Archaïsme tardif", "Attique", "Aristodikos", "Kouros", "Transition classique", "Anatomie", "Musée d'Athènes"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNmAJdfaHt9AyYPk1MP1mWT1OSnUxNyGR0f8FRt_LhkBtK681vULra09FmFFmju8sTMaMQ74I9e_X4kky9Eh1F202GFyc1qJJoHbNn0bdVU1Gr52H5ruBisADf9j-acIEwoeLP_NBD5kFui2bw5IR7-RQ=w1606-h2408-s-no-gm?authuser=0",
+    narrative: `<p>Cette statue de marbre, retrouvée dans la nécropole de Mesogeia en Attique, représente l'un des sommets de la sculpture de la fin de l'époque archaïque. Datée d'environ 510 avant notre ère, elle servait de monument funéraire sur la tombe d'un jeune aristocrate nommé Aristodikos, comme l'indique l'inscription sur sa base. Ce kouros est une œuvre charnière qui témoigne de l'ultime évolution du type masculin nu avant la révolution du style sévère. Bien que la pose conserve la frontalité rigide héritée de la tradition, avec le pied gauche légèrement avancé, l'artiste a ici brisé les conventions géométriques pour tendre vers un réalisme anatomique inédit.</p>
+    <p>La musculature est rendue avec une précision remarquable, délaissant les incisions graphiques au profit d'un modelé fluide et souple des chairs. On observe une attention particulière portée au traitement des genoux, des articulations et du torse, où les formes semblent s'animer sous la surface du marbre. Contrairement aux kouroi plus anciens dont les bras étaient collés aux hanches, ceux d'Aristodikos s'écartent légèrement du corps et sont pliés aux coudes, apportant une sensation de mouvement et de vie. La chevelure courte, traitée en boucles serrées sur le sommet du crâne, marque également une rupture avec les longues nattes archaïques, dégageant ainsi le cou et les épaules.</p>
+    <p>Le visage d'Aristodikos a presque totalement abandonné le fameux "sourire archaïque" pour adopter une expression plus neutre et sereine, préfigurant la gravité classique. Les yeux ne sont plus simplement gravés mais modelés, donnant au regard une profondeur nouvelle. Cette œuvre illustre le moment précis où le sculpteur grec parvient à une compréhension totale de la structure osseuse et musculaire, transformant une effigie rituelle en une représentation humaine vivante. Elle incarne l'idéal de la "kalokagathia", l'union de la beauté physique et de la bonté morale, qui définissait l'excellence de la jeunesse athénienne à l'aube de la démocratie. Athens musee archeo</p>
+    <p><strong>Siècle :</strong> Vers 510 avant J.-C. (fin du VIe siècle av. J.-C.) | <strong>Civilisation :</strong> Grèce antique | <strong>Lieu de conservation :</strong> Musée national archéologique d'Athènes (Grèce).</p>`
+  },
+  {
+    id: "sculpture_tete_chryselephantine_apollon_tresses_or_delphes",
+    civId: "grece",
+    periodId: "grece_archaique",
+    civName: "Grèce antique",
+    century: "Vers 550 avant J.-C. (milieu du VIe siècle av. J.-C.)",
+    centuryDisplay: "VIe s. av. J.-C.",
+    centuryNumeric: -550,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire royale & divine (ronde-bosse)",
+    title: "Tête chryséléphantine d'Apollon aux tresses d'or (Sanctuaire de Delphes)",
+    site: "Musée archéologique de Delphes (Grèce)",
+    originSite: "Fosse sacrée de la Voie Sacrée, Delphes",
+    locationType: "museum",
+    currentLocation: "Musée archéologique de Delphes (Grèce)",
+    category: "Statue de culte fragmentaire en ivoire sculpté et feuilles d'or",
+    isHighlight: true,
+    chips: ["VIe s. av. J.-C.", "Grèce antique", "Époque archaïque", "Delphes", "Chryséléphantin", "Apollon", "Feuilles d'or", "Ivoire", "Musée de Delphes"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPpi_soJU9PSS7l8_8OwyFst7c081WqU9o16q3-20VV71hleOZCVLAvLYFDWoUvv4-ttMt2EKORxGGKerL8jV5UOCYsh7SRIuHqK-VdiDUDHR9dy81kC9JAYdiMbWvk1Sc0u3d7LSBiEecgG5uQYGNuyA=w1847-h1231-s-no-gm?authuser=0",
+    narrative: `<p>La tête d'Apollon aux tresses d'or, découverte dans la même fosse rituelle que le taureau d'argent sous la Voie Sacrée de Delphes, représente l'un des rares et précieux témoignages de la statuaire chryséléphantine de l'époque archaïque. Datée des environs de 550 avant notre ère, cette œuvre fragmentaire appartenait probablement à une statue de culte ou à une offrande monumentale de très grand prestige. Elle illustre parfaitement l'alliance de l'ivoire, utilisé pour rendre la carnation de la divinité, et de l'or, réservé aux attributs divins et à la parure, créant un contraste chromatique destiné à traduire la nature lumineuse et immortelle du dieu.</p>
+    <p>La technique employée témoigne d'une sophistication extrême pour le milieu du VIe siècle. Le visage était sculpté dans des plaques d'ivoire fixées sur une armature interne, tandis que la chevelure et les parures étaient réalisées en feuilles d'or finement travaillées. Les nattes caractéristiques de l'époque archaïque, qui tombent de part et d'autre du visage, sont ici magnifiées par l'éclat du métal précieux, justifiant l'épithète de "chrysocomas" ou Apollon aux cheveux d'or souvent donnée au dieu dans la poésie grecque. Les yeux, dont les orbites conservent encore une partie de leur incrustation, devaient à l'origine donner un regard d'une intensité saisissante à la statue.</p>
+    <p>Le style de cette tête est typique de l'art ionien, marqué par une douceur des formes et une élégance qui contraste avec la rigueur plus géométrique des écoles du Péloponnèse. Le visage présente des volumes pleins, des joues délicatement modelées et ce sourire archaïque discret qui confère à la divinité une expression de sérénité distante. La précision du travail de l'or, visible dans les motifs de la chevelure et des bijoux associés comme les rosaces, souligne le rôle de Delphes comme centre de convergence des meilleurs artisans du monde grec et de l'Orient hellénisé.</p>
+    <p>Cette pièce est d'une importance capitale pour l'histoire de l'art, car elle préfigure les grandes réalisations du siècle suivant, notamment les statues colossales d'Athéna ou de Zeus réalisées par Phidias. Elle incarne la transition où l'orfèvrerie quitte le domaine de la petite parure pour devenir une technique de statuaire majeure. Conservée au Musée archéologique de Delphes, la tête d'Apollon aux tresses d'or demeure, malgré les ravages du temps et du feu, l'un des reflets les plus purs de la splendeur des sanctuaires grecs et de la dévotion que les cités portaient au maître des lieux.</p>
+    <p><strong>Siècle :</strong> Vers 550 avant J.-C. (milieu du VIe siècle av. J.-C.) | <strong>Civilisation :</strong> Grèce antique | <strong>Lieu de conservation :</strong> Musée archéologique de Delphes (Grèce).</p>`
+  },
+  {
+    id: "sculpture_statuette_deesse_trone_polos_robes_etoiles_beotie_louvre",
+    civId: "grece",
+    periodId: "grece_archaique",
+    civName: "Grèce antique",
+    century: "Vers 550-525 avant J.-C. (troisième quart du VIe siècle av. J.-C.)",
+    centuryDisplay: "VIe s. av. J.-C.",
+    centuryNumeric: -540,
+    domain: "sculpture_statuaire",
+    artifactType: "Figurine votive / Ex-voto",
+    title: "Statuette de déesse trônant au polos et robe constellée d'étoiles",
+    site: "Musée du Louvre (Paris, France)",
+    originSite: "Béotie ou Eubée (Grèce centrale)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre (Paris, France)",
+    category: "Sculpture / Figurine en terre cuite polychrome modelée et moulée",
+    isHighlight: false,
+    chips: ["VIe s. av. J.-C.", "Grèce antique", "Époque archaïque", "Béotie", "Eubée", "Polos", "Déesse trônant", "Polychromie", "Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP6C0XSiiSN06_mbjRSH83G9ODFYcKZe8oICfs6DxRtsMkMU2d4LLHHN4CDfe7wl0s9qz54tGoYwmdYTnrOcX6RY5V5jpYNSXMNeP4F20-2Fk2oFWlan4RogdSmEVOut72L4R2vXKthxYRJO0lrYGRQAA=w1813-h2408-s-no-gm?authuser=0",
+    narrative: `<p>Cette statuette en terre cuite représente une figure féminine trônant, caractéristique de la production coroplastique de la période archaïque. L'œuvre se distingue par une rigidité frontale typique de cette époque, où le corps de la femme se fond presque avec le siège massif sur lequel elle repose. La tête est surmontée d'un polos, une coiffe cylindrique haute, partiellement recouverte par un voile qui retombe sur les épaules, encadrant un visage aux traits stylisés. Les yeux en amande et le léger sourire archaïque confèrent à l'expression une sérénité hiératique.</p>
+    <p>Le buste et la robe de la figure sont ornés de motifs géométriques et stellaires peints avec une grande précision. On observe sur la poitrine deux grandes étoiles à six branches inscrites dans des cercles, soulignant l'anatomie de manière symbolique. La partie inférieure du vêtement, couvrant les jambes, est divisée en registres horizontaux séparés par des bandes de motifs de tresses ou de cordages. Chaque compartiment rectangulaire accueille une rosace ou une étoile similaire à celles du buste, témoignant d'une recherche décorative riche qui pourrait évoquer la finesse des textiles de l'époque, tels que ceux produits en Eubée ou en Béotie.</p>
+    <p>La posture de la figure, les mains posées sur les genoux, suggère une fonction cultuelle ou votive, représentant peut-être une divinité ou une fidèle de haut rang. La technique de fabrication mêle probablement le moulage pour le visage et le modelage à la main pour le trône et le corps, une pratique courante dans les ateliers grecs du VIe siècle avant J.-C. Les pigments rouges et ocres, encore bien visibles, soulignent l'importance de la polychromie dans la statuaire antique, transformant cet objet fonctionnel en une pièce d'apparat visuellement marquante.</p>
+    <p><strong>Siècle :</strong> Vers 550-525 avant J.-C. (troisième quart du VIe siècle av. J.-C.) | <strong>Civilisation :</strong> Grèce antique | <strong>Lieu de conservation :</strong> Musée du Louvre (Paris, France).</p>`
+  },
+  {
+    id: "sculpture_tete_chryselephantine_artemis_diademe_or_delphes",
+    civId: "grece",
+    periodId: "grece_archaique",
+    civName: "Grèce antique",
+    century: "Vers 550 avant J.-C. (milieu du VIe siècle av. J.-C.)",
+    centuryDisplay: "VIe s. av. J.-C.",
+    centuryNumeric: -550,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire royale & divine (ronde-bosse)",
+    title: "Tête chryséléphantine d'Artémis au diadème d'or et filigranes (Delphes)",
+    site: "Musée archéologique de Delphes (Grèce)",
+    originSite: "Fosse sacrée de la Voie Sacrée, Delphes",
+    locationType: "museum",
+    currentLocation: "Musée archéologique de Delphes (Grèce)",
+    category: "Statue de culte en ivoire sculpté, or repoussé et granulations",
+    isHighlight: true,
+    chips: ["VIe s. av. J.-C.", "Grèce antique", "Époque archaïque", "Delphes", "Artémis", "Chryséléphantin", "Diadème d'or", "Pothnia Theron", "Musée de Delphes"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNRUQ9SC3tBDy8nT9bPyhMvoF7lcjkeNt_3tO9T3PjjEwgMPrX18wqHPKLlBt0FMmZYZuAptYBl_M-PHYyIyQvw8iPqZjWJRoYVJ-RlQxtYYGMILiMxV3NmWiS9OuhxG4hptWOhHN9gjr6RvciOZA2GrQ=w1847-h1231-s-no-gm?authuser=0",
+    narrative: `<p>La tête d'Artémis en ivoire et or, découverte aux côtés de celle d'Apollon dans le dépôt sacré de la Voie Sacrée à Delphes, constitue l'un des exemples les plus achevés de la statuaire chryséléphantine archaïque. Datée des environs de 550 avant notre ère, cette œuvre formait probablement, avec son frère jumeau, un groupe divin monumental destiné à l'un des temples du sanctuaire. L'utilisation de l'ivoire pour le visage, bien que noirci par l'incendie qui a détruit le support en bois originel, visait à imiter la clarté et la douceur de la peau féminine, tandis que l'or servait à parer la déesse de ses attributs les plus prestigieux.</p>
+    <p>L'élément le plus remarquable de cette pièce est son imposant diadème en or, orné de motifs en spirales et de filigranes d'une finesse extrême. Ce bijou, véritable chef-d'œuvre d'orfèvrerie, souligne le rang souverain d'Artémis et sa fonction de "Pothnia Theron" (Maîtresse des animaux) souvent honorée à Delphes. Les boucles d'oreilles en forme de rosaces, également en or, complètent cette parure et témoignent du luxe inouï des offrandes votives offertes par les élites grecques ou les dynastes d'Asie Mineure au milieu du VIe siècle. La technique du repoussé et de la granulation y atteint un degré de maîtrise qui préfigure la grande joaillerie des périodes suivantes.</p>
+    <p>Sur le plan stylistique, le visage d'Artémis présente des traits caractéristiques de l'influence ionienne, marquée par une rondeur sensuelle des joues et un sourire archaïque particulièrement épanoui. Les yeux étaient à l'origine incrustés de matériaux colorés, sans doute du verre ou des pierres semi-précieuses, qui conféraient à la statue un regard vibrant et presque vivant à la lueur des torches du temple. La structure générale de la tête respecte une symétrie rigoureuse, typique de l'époque, tout en introduisant une élégance et une douceur de modelé qui annoncent le passage progressif vers le premier classicisme.</p>
+    <p>Aujourd'hui conservée au Musée archéologique de Delphes, cette tête d'Artémis est un témoin crucial de l'histoire des techniques artistiques. Elle illustre comment les matériaux les plus rares et les plus chers étaient combinés pour créer une image de la divinité qui soit à la fois une prouesse technique et un objet de dévotion absolue. Sa survie miraculeuse dans une fosse rituelle nous permet d'appréhender la splendeur visuelle qui devait caractériser le sanctuaire d'Apollon avant les destructions successives, faisant de cette Artémis l'une des icônes les plus précieuses de l'art grec archaïque.</p>
+    <p><strong>Siècle :</strong> Vers 550 avant J.-C. (milieu du VIe siècle av. J.-C.) | <strong>Civilisation :</strong> Grèce antique | <strong>Lieu de conservation :</strong> Musée archéologique de Delphes (Grèce).</p>`
+  },
+  {
+    id: "sculpture_tete_sphinge_marbre_sourire_archaique_louvre",
+    civId: "grece",
+    periodId: "grece_archaique",
+    civName: "Grèce antique",
+    century: "Vers 540-530 avant J.-C. (troisième quart du VIe siècle av. J.-C.)",
+    centuryDisplay: "VIe s. av. J.-C.",
+    centuryNumeric: -535,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire animale & gardienne (ronde-bosse)",
+    title: "Tête de sphinge funéraire au sourire archaïque (Attique ou Cyclades)",
+    site: "Musée du Louvre (Paris, France)",
+    originSite: "Attique ou îles des Cyclades",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre (Paris, France)",
+    category: "Sculpture en marbre (ronde-bosse de couronnement funéraire ou votif)",
+    isHighlight: false,
+    chips: ["VIe s. av. J.-C.", "Grèce antique", "Époque archaïque", "Sphinge", "Sourire archaïque", "Marbre", "Mèches perlées", "Couronnement de stèle", "Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPkzZ2W3LNiNGmcJtUIQ_10lhLWq7j-2-_TVXsQ9X5dhpBO4KTtRyp-asf-QhYCe7Q-BpcZPYXUlRL0Rt0MJ0hQv2264Ejd91zyEhrCelUPqAOnTv2wrGy5zrX4300VIHuwmKMUAk9806VX1FvGS9uFCQ=w1813-h2408-s-no-gm?authuser=0",
+    narrative: `<p>Cette tête fragmentaire en marbre appartenait à une sphinge monumentale, créature hybride au corps de lion ailé et à tête de femme, qui couronnait généralement une stèle funéraire ou une colonne votive. La sculpture incarne parfaitement l'idéal de beauté du troisième quart du VIe siècle avant J.-C., marqué par une transition vers un modelé plus charnu et une expression plus humaine. Le visage présente des volumes pleins avec des pommettes hautes et un menton arrondi et ferme. Les yeux, de forme allongée en amande, sont bordés de paupières nettes, tandis que la bouche s'anime du sourire archaïque, conférant à la créature une présence bienveillante malgré son rôle de gardienne redoutable.</p>
+    <p>La coiffure de la sphinge est traitée avec une rigueur décorative remarquable, typique des ateliers insulaires ou attiques de cette période. Les cheveux sont organisés en une série de mèches perlées ou torsadées qui encadrent le front en une frange régulière et retombent en masses lourdes sur les épaules et dans le dos. Sur le sommet du crâne, la chevelure est aplatie pour recevoir un diadème ou un stephané, soulignant le caractère sacré et royal de l'entité. Des traces de polychromie étaient autrefois visibles sur ces détails, le rouge et le bleu venant rehausser la texture des cheveux et l'éclat du regard pour rendre la figure plus saisissante au sommet de son monument.</p>
+    <p>En tant que gardienne de tombeau ou offrande dans un sanctuaire, la sphinge servait de médiatrice entre le monde des vivants et celui des morts ou des dieux. Sa position élevée, juchée sur une colonne souvent ionique, imposait au spectateur de lever les yeux, accentuant l'aspect majestueux du visage. Cette tête témoigne de la maîtrise technique des sculpteurs grecs qui, avant l'avènement du style sévère, savaient donner au marbre une douceur de peau et une sérénité immuable. La pureté des lignes et la symétrie parfaite de la face font de cette pièce un jalon essentiel pour comprendre l'évolution de la représentation féminine dans l'art archaïque.</p>
+    <p><strong>Siècle :</strong> Vers 540-530 avant J.-C. (troisième quart du VIe siècle av. J.-C.) | <strong>Civilisation :</strong> Grèce antique | <strong>Lieu de conservation :</strong> Musée du Louvre (Paris, France).</p>`
+  },
+  {
+    id: "sculpture_statue_lion_couche_milet_ionie_louvre",
+    civId: "grece",
+    periodId: "grece_archaique",
+    civName: "Grèce antique",
+    century: "Vers 525-500 avant J.-C. (fin du VIe siècle av. J.-C.)",
+    centuryDisplay: "VIe s. av. J.-C.",
+    centuryNumeric: -515,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire animale & gardienne (ronde-bosse)",
+    title: "Le Lion couché de Milet : gardien monumental de voie sacrée (Ionie)",
+    site: "Musée du Louvre (Paris, France)",
+    originSite: "Milet (Ionie, Asie Mineure)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre (Paris, France)",
+    category: "Statue animale en marbre (ronde-bosse apotropaïque)",
+    isHighlight: false,
+    chips: ["VIe s. av. J.-C.", "Grèce antique", "Ionie", "Milet", "Lion couché", "Marbre", "Crinière striée", "Apotropaïque", "Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPCYJjW2OETBp0vpmB0wcBAnjtNTE0EjQelmWa1P9tnEDyV-jT14xMf3fXyzxT2BiH5Xt7v-TmYe7lfMWWy969LYpwrW4tvxVOti4JbJYGvrlqAuXcWjQFQEGrVDQMpYmNcz5CvFYRZmDqSSTkmN9ysSA=w1813-h2408-s-no-gm?authuser=0",
+    narrative: `<p>Cette statue fragmentaire en marbre représente un lion couché, une œuvre emblématique de la sculpture archaïque tardive provenant de la cité de Milet, en Ionie. Le fauve est figuré dans une posture de repos, les pattes avant repliées, bien que la partie inférieure et l'arrière du corps soient ici largement lacunaires. Le traitement de la tête révèle une stylisation caractéristique de l'Asie Mineure à cette période, où la puissance de l'animal est suggérée par des volumes massifs et une géométrisation des traits plutôt que par un réalisme anatomique strict.</p>
+    <p>Le travail de la crinière est particulièrement remarquable. Elle est organisée en une série de bourrelets parallèles et de mèches régulières qui encadrent le visage, formant une sorte de collerette striée très structurée. Cette approche décorative, presque architecturale, souligne l'influence des modèles orientaux sur l'art ionien. Les yeux, bien que partiellement érodés, conservent une forme en amande typique, tandis que la gueule entrouverte laisse deviner une expression de force contenue, propre à la fonction apotropaïque de ces sculptures souvent placées à l'entrée des sanctuaires ou le long des voies sacrées.</p>
+    <p>Milet, en tant que centre artistique majeur de la côte ionienne, a produit de nombreux exemplaires de ces lions monumentaux. Ils servaient de gardiens symboliques et de démonstrations de prestige pour la cité. La datation située au tournant des VIe et Ve siècles avant J.-C. correspond à l'apogée artistique de la ville avant sa destruction par les Perses en 494, marquant une étape charnière où la rigueur archaïque commence à s'adoucir vers une plus grande fluidité des formes.</p>
+    <p><strong>Siècle :</strong> Vers 525-500 avant J.-C. (fin du VIe siècle av. J.-C.) | <strong>Civilisation :</strong> Grèce antique | <strong>Lieu de conservation :</strong> Musée du Louvre (Paris, France).</p>`
+  },
+  {
+    id: "sculpture_statue_sphinx_funeraire_calcaire_corinthe",
+    civId: "grece",
+    periodId: "grece_archaique",
+    civName: "Grèce antique",
+    century: "Vers 560 avant J.-C. (milieu du VIe siècle av. J.-C.)",
+    centuryDisplay: "VIe s. av. J.-C.",
+    centuryNumeric: -560,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire animale & gardienne (ronde-bosse)",
+    title: "La Sphinx funéraire de Corinthe : gardienne ailée de nécropole",
+    site: "Musée archéologique de l'Ancienne Corinthe (Grèce)",
+    originSite: "Corinthe antique (Corinthie)",
+    locationType: "museum",
+    currentLocation: "Musée archéologique de l'Ancienne Corinthe (Grèce)",
+    category: "Statue en calcaire fin sculpté (ronde-bosse de couronnement funéraire)",
+    isHighlight: true,
+    chips: ["VIe s. av. J.-C.", "Grèce antique", "Époque archaïque", "Corinthe", "Sphinx", "Ailes écaillées", "Nécropole", "Musée de Corinthe"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOKluzwj6PqwDUgzVRPN9KKteTeHCcbul0zDUdiL2DFYzskffDrf3tAGNai5_SDwpRupvleVcQmuRdidMmiU3NzZIxJH1GnvzNZdC2fOWj_Jbpkf5hbfQAURHMyrHsRB9MlgB9lWiVrWfiX0lsqaTcFUg=w1847-h1231-s-no-gm?authuser=0",
+    narrative: `<p>Cette magnifique sphinx funéraire, sculptée vers 560 avant notre ère, représente l'un des chefs-d'œuvre du style corinthien archaïque conservés au musée de l'Ancienne Corinthe. Créature hybride alliant un corps de lion, des ailes d'oiseau et un visage de femme, elle incarnait dans la Grèce antique une gardienne protectrice des sépultures, chargée de veiller sur le repos des défunts et de marquer la transition vers l'au-delà. Son exécution dans un calcaire local de grande qualité témoigne de la prospérité et de l'influence artistique de Corinthe, qui était alors un carrefour majeur pour la diffusion des motifs orientalisants.</p>
+    <p>L'esthétique de la pièce est caractéristique de la période archaïque moyenne, notamment par le rendu très structuré de l'anatomie et de l'ornementation. Le visage féminin présente des traits réguliers et vigoureux, couronné par une chevelure imposante disposée en tresses perlées qui encadrent le cou. Le regard, accentué par de larges yeux en amande, et le sourire discret confèrent à la créature une présence à la fois sereine et imposante. Les ailes, dont une seule est ici partiellement préservée, déploient une décoration de plumes finement gravées en écailles, illustrant le goût corinthien pour le détail graphique et la précision linéaire.</p>
+    <p>Placée à l'origine au sommet d'une haute stèle ou d'une colonne funéraire, cette sphinx dominait la nécropole pour signifier le statut social élevé de la famille du défunt. Ce type de monument visait à susciter l'admiration des passants tout en imposant un respect sacré. Bien que la polychromie d'origine ait disparu, on peut imaginer que des couleurs vives, comme le rouge et le bleu, soulignaient autrefois le plumage et les détails du visage, rendant la sculpture encore plus saisissante sous le soleil de l'Argolide. Elle demeure aujourd'hui un témoin essentiel de l'évolution de l'imagerie fantastique grecque avant son classicisme ultérieur.</p>
+    <p><strong>Siècle :</strong> Vers 560 avant J.-C. (milieu du VIe siècle av. J.-C.) | <strong>Civilisation :</strong> Grèce antique | <strong>Lieu de conservation :</strong> Musée archéologique de l'Ancienne Corinthe (Grèce).</p>`
+  },
+  {
+    id: "sculpture_statue_sphinx_des_naxiens_colonne_ionique_delphes",
+    civId: "grece",
+    periodId: "grece_archaique",
+    civName: "Grèce antique",
+    century: "Vers 560 avant J.-C. (milieu du VIe siècle av. J.-C.)",
+    centuryDisplay: "VIe s. av. J.-C.",
+    centuryNumeric: -560,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire animale & gardienne (ronde-bosse)",
+    title: "Le Sphinx colossal des Naxiens (Colonne ionique du sanctuaire de Delphes)",
+    site: "Musée archéologique de Delphes (Grèce)",
+    originSite: "Sanctuaire d'Apollon, Delphes",
+    locationType: "museum",
+    currentLocation: "Musée archéologique de Delphes (Grèce)",
+    category: "Statue colossale en marbre de Naxos sur colonne ionique",
+    isHighlight: true,
+    chips: ["VIe s. av. J.-C.", "Grèce antique", "Époque archaïque", "Delphes", "Naxos", "Sphinx des Naxiens", "Promantie", "Marbre de Naxos", "Musée de Delphes"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMl4J71mP6cNteEf96Wl5b4RWgRFtFNUKnt8VDIvk0KT4fyC0offo8bhuFy0J_bP3ZOUcY2o5XHv1I1WtMM4sD3-soj_PkYWRvNsaaGnlAb2XvQGrHJmDnBUYL8Jv-0iqxFxPC6Xud-V5e7xztX-JyZWA=w1606-h2408-s-no-gm?authuser=0",
+    narrative: `<p>Cette œuvre colossale, datée d’environ 560 avant notre ère, représente le célèbre Sphinx des Naxiens, l’un des exemples les plus magistraux de la sculpture archaïque grecque. Taillée dans un bloc monolithique de marbre de Naxos, cette créature hybride combine un visage de femme au regard énigmatique, un corps de lionne puissant et des ailes d’oiseau magnifiquement stylisées. La statue reposait initialement au sommet d’une colonne ionique de plus de douze mètres de haut, située à proximité du temple d'Apollon à Delphes. Ce monument constituait une offrande prestigieuse de la part des habitants de l'île de Naxos, alors à l'apogée de sa puissance économique et artistique, visant à affirmer leur influence au sein du sanctuaire panhellénique.</p>
+    <p>L'exécution technique témoigne d'une transition fascinante entre l'influence égyptienne et le développement d'un style proprement grec. Le visage arbore le sourire archaïque caractéristique, tandis que la chevelure est traitée en tresses géométriques rigoureuses qui retombent sur les épaules. Le poitrail est orné de plumes finement gravées en écailles, créant un contraste texturé avec le lissage du corps léonin. Cette morphologie imposante n'avait pas seulement une fonction esthétique mais également apotropaïque : le sphinx agissait comme un gardien sacré protégeant le sanctuaire. Sa position dominante sur sa colonne, offerte par une cité riche, symbolisait le lien direct entre les fidèles et le divin.</p>
+    <p>Au-delà de sa valeur artistique, l'objet revêt une importance historique majeure confirmée par une inscription sur son socle. Bien que la statue date du milieu du VIe siècle, une dédicace ajoutée vers 328-327 avant notre ère atteste que les Delphiens avaient accordé aux Naxiens le privilège de la « promantie ». Ce droit de priorité pour consulter l'oracle de la Pythie souligne l'importance diplomatique et religieuse durable de ce monument à travers les siècles. Aujourd'hui conservé au musée archéologique de Delphes, le sphinx demeure un témoin privilégié de la maîtrise technique des ateliers cycladiques et de la ferveur religieuse qui animait les grands centres de la Grèce antique.</p>
+    <p><strong>Siècle :</strong> Vers 560 avant J.-C. (milieu du VIe siècle av. J.-C.) | <strong>Civilisation :</strong> Grèce antique | <strong>Lieu de conservation :</strong> Musée archéologique de Delphes (Grèce).</p>`
+  },
+  {
+    id: "sculpture_figurine_sphinx_beotienne_terre_cuite_thebes_louvre",
+    civId: "grece",
+    periodId: "grece_archaique",
+    civName: "Grèce antique",
+    century: "Vers 550 avant J.-C. (milieu du VIe siècle av. J.-C.)",
+    centuryDisplay: "VIe s. av. J.-C.",
+    centuryNumeric: -550,
+    domain: "sculpture_statuaire",
+    artifactType: "Figurine votive / Ex-voto",
+    title: "Figurine de sphinx thébaine en terre cuite à ailes en faux et damiers",
+    site: "Musée du Louvre (Paris, France)",
+    originSite: "Thèbes (Béotie)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre (Paris, France)",
+    category: "Sculpture / Figurine en terre cuite peinte à engobe clair et damiers",
+    isHighlight: false,
+    chips: ["VIe s. av. J.-C.", "Grèce antique", "Époque archaïque", "Béotie", "Thèbes", "Sphinx", "Terre cuite polychrome", "Mythe d'Œdipe", "Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczM46dSPyE_1RdAnGngY-Tg6E8B-n94Q7H_nFuMuHs5Lath_Eo_GsT7PCoJtYcuuxODwrASunvnEpkuVIE_VJQonA5UHwTf96rVd4_Tp-L-WLr_TmXDcNrC8u1LHuEqX4AdJXPBuUQfyQihEq7SymrFCcQ=w1813-h2408-s-no-gm?authuser=0",
+    narrative: `<p>Cette figurine en terre cuite représente une sphinx, créature mythologique au corps de lion ailé et à tête de femme, exécutée dans le style si caractéristique de la Béotie du milieu du VIe siècle avant J.-C. Contrairement aux grandes sculptures en marbre, cette œuvre de petite dimension frappe par la vivacité de son modelé et l'importance accordée au décor peint. La créature est figurée assise sur ses pattes arrière, dans une pose de vigilance altière. Son visage, tourné vers le spectateur, est encadré par une chevelure imposante dont les mèches retombent sur une poitrine large, tandis que de grandes ailes en forme de faux se déploient vers l'arrière, créant une silhouette dynamique et ascendante.</p>
+    <p>La singularité de cette production thébaine réside dans l'utilisation généreuse de la polychromie et des motifs géométriques appliqués sur l'engobe clair de l'argile. Les ailes sont ornées de bandes alternées de brun-noir et de rouge, ainsi que de motifs en damiers ou en écailles qui imitent le plumage. Le corps du lion et le buste féminin sont également rehaussés de traits horizontaux ou de points, soulignant les articulations et la musculature de manière stylisée. Cette technique de "peinture sur relief" est typique des ateliers béotiens, qui privilégient souvent l'expressivité graphique et le contraste des couleurs à la recherche d'un naturalisme anatomique parfait.</p>
+    <p>Le visage de la sphinx conserve les traits archaïques avec ses yeux proéminents et son nez affirmé, mais il s'en dégage une dimension ludique et décorative propre aux terres cuites de cette région. Ces figurines étaient fréquemment déposées dans les tombes comme offrandes protectrices ou utilisées dans des contextes domestiques. En Béotie, le thème de la sphinx est particulièrement ancré dans les traditions locales en raison du mythe d'Œdipe et de l'énigme posée aux portes de Thèbes. Cette pièce constitue donc un lien direct entre l'artisanat populaire et la grande mythologie civique, témoignant du raffinement des arts du feu dans la Grèce centrale du VIe siècle.</p>
+    <p><strong>Siècle :</strong> Vers 550 avant J.-C. (milieu du VIe siècle av. J.-C.) | <strong>Civilisation :</strong> Grèce antique | <strong>Lieu de conservation :</strong> Musée du Louvre (Paris, France).</p>`
+  },
+  {
+    id: "sculpture_statue_sphyrelaton_deesse_ailee_bronze_olympie",
+    civId: "grece",
+    periodId: "grece_archaique",
+    civName: "Grèce antique",
+    century: "Vers 590 avant J.-C. (début du VIe siècle av. J.-C.)",
+    centuryDisplay: "VIe s. av. J.-C.",
+    centuryNumeric: -590,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire royale & divine (ronde-bosse)",
+    title: "Buste de déesse ailée au sphyrelaton de feuilles de bronze (Olympie)",
+    site: "Musée archéologique d'Olympie (Grèce)",
+    originSite: "Sanctuaire de Zeus, Altis d'Olympie",
+    locationType: "museum",
+    currentLocation: "Musée archéologique d'Olympie (Grèce)",
+    category: "Statue / Buste en bronze martelé sur âme en bois (sphyrelaton)",
+    isHighlight: true,
+    chips: ["VIe s. av. J.-C.", "Grèce antique", "Archaïque naissant", "Olympie", "Sphyrelaton", "Bronze martelé", "Déesse ailée", "Artémis", "Niké", "Musée d'Olympie"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOa4trarHpfUauwGwykeQHNgvn-wGNjacZSbTzKPibljycegzRRQKyKgX_Uhs8N_wpMVY3jVUA3fbRvIOJrdQ7xMrPqDDgfA_mI4ONYFJynjLOcsbFh-62SmGihuRLchruNIIN4AtuzfFyrgelbWxP-wQ=w1847-h1231-s-no-gm?authuser=0",
+    narrative: `<p>Cette pièce magistrale représente une déesse ailée, probablement Artémis ou Niké, et constitue un témoignage rare de la technique du sphyrelaton à Olympie vers 590 avant J.-C.. Contrairement aux statues coulées en bronze massif, le sphyrelaton consiste à marteler de fines feuilles de bronze sur un noyau en bois sculpté, lesquelles sont ensuite assemblées par des rivets. Cette méthode archaïque permettait de créer des figures de grandes dimensions avec une économie de métal précieux, bien que la fragilité du bois interne ait souvent conduit à la déformation des œuvres au fil des siècles.</p>
+    <p>L'œuvre présente les caractéristiques typiques du style dédalique finissant et de l'art archaïque naissant, notamment par son « sourire archaïque » et ses grands yeux en amande qui étaient autrefois incrustés de matériaux colorés pour donner vie au regard. La coiffe bandeau et les mèches de cheveux tombant de manière symétrique sur les épaules soulignent la rigueur géométrique encore présente dans la sculpture de cette période. L'aile incurvée vers le haut, aux plumes finement gravées, suggère le mouvement et la nature divine du personnage, une iconographie fréquente pour les divinités messagères ou protectrices honorées dans le sanctuaire de Zeus. Ce buste témoigne de l'évolution technique rapide de la métallurgie grecque, faisant le pont entre les petites statuettes géométriques et la grande statuaire classique en bronze.</p>
+    <p><strong>Siècle :</strong> Vers 590 avant J.-C. (début du VIe siècle av. J.-C.) | <strong>Civilisation :</strong> Grèce antique | <strong>Lieu de conservation :</strong> Musée archéologique d'Olympie (Grèce).</p>`
+  },
+  {
+    id: "sculpture_figurine_personnage_masculin_assis_beotie_corinthe_louvre",
+    civId: "grece",
+    periodId: "grece_archaique",
+    civName: "Grèce antique",
+    century: "Vers 550 avant J.-C. (milieu du VIe siècle av. J.-C.)",
+    centuryDisplay: "VIe s. av. J.-C.",
+    centuryNumeric: -550,
+    domain: "sculpture_statuaire",
+    artifactType: "Figurine votive / Ex-voto",
+    title: "Figurine d'homme barbu assis en terre cuite peinte (Grèce centrale)",
+    site: "Musée du Louvre (Paris, France)",
+    originSite: "Béotie ou Corinthie",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre (Paris, France)",
+    category: "Sculpture / Figurine en terre cuite modelée à la main et peinte",
+    isHighlight: false,
+    chips: ["VIe s. av. J.-C.", "Grèce antique", "Époque archaïque", "Béotie", "Corinthe", "Figurine assise", "Terre cuite", "Ex-voto", "Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMgSr-SaLftCbGiuelITfLAXUkMJsTvytnqGuMqKkxVjMbajABbCvmIG3X503e0MJ2wDKZo8Zn8rKKck5n-fUJnoNDrLGnfjUFp7HfHObekYpL6LsxCXXEKXGmBxNpflzMO7dxu6BchSrNJS8YdKWKSSw=w1813-h2408-s-no-gm?authuser=0",
+    narrative: `<p>Cette figurine en terre cuite, datée du milieu du VIe siècle avant J.-C., représente un personnage masculin assis, une typologie fréquente dans la petite plastique archaïque. L'œuvre se caractérise par une économie de moyens propre aux ateliers de Grèce centrale, où le corps est réduit à des volumes essentiels : un buste vertical, des bras simplifiés reposant sur les genoux et des jambes massives qui se fondent dans l'assise. Cette posture stable et frontale évoque une certaine dignité, qu'il s'agisse d'un défunt héroïsé, d'une divinité ou d'un notable représenté dans l'exercice d'une fonction officielle. La technique de modelage laisse apparaître des formes vigoureuses, où la matière conserve une épaisseur tactile.</p>
+    <p>Le décor peint joue un rôle crucial dans la définition du personnage. Sur l'engobe beige de l'argile, des traits de peinture brune ou rouge dessinent les détails du vêtement et de l'anatomie. On distingue souvent des bandes horizontales ou des motifs géométriques simples qui suggèrent les broderies d'un chiton ou les plis d'un manteau. Le visage, bien que schématique, est animé par de grands yeux peints et une barbe pointue qui renforce le caractère solennel de la figure. Cette alliance entre le volume modelé et le graphisme peint est typique de la période de transition entre l'influence corinthienne, très attachée aux détails miniatures, et la production béotienne, plus expressive et spontanée.</p>
+    <p>L'incertitude sur le lieu de création (Corinthe ou Béotie) illustre la circulation intense des modèles et des artisans à cette époque. Si la forme peut rappeler les prototypes corinthiens, la facture plus rustique et le style décoratif orientent souvent les chercheurs vers une production locale béotienne imitant des modèles prestigieux. Comme pour la sphinx précédente, ce type de figurine trouvait sa place dans les nécropoles de Thèbes ou de Tanagra. Elle servait de témoin de l'identité du disparu ou de médiateur votif, ancrant la présence humaine dans le monde sacré du sanctuaire ou de la tombe à travers un objet à la fois modeste et hautement symbolique.</p>
+    <p><strong>Siècle :</strong> Vers 550 avant J.-C. (milieu du VIe siècle av. J.-C.) | <strong>Civilisation :</strong> Grèce antique | <strong>Lieu de conservation :</strong> Musée du Louvre (Paris, France).</p>`
+  },
+  {
+    id: "sculpture_statue_ephebe_akragas_style_severe_marbre_agrigente",
+    civId: "grece",
+    periodId: "grece_classique",
+    civName: "Grèce antique",
+    century: "Vers 480-470 avant J.-C. (première moitié du Ve siècle av. J.-C.)",
+    centuryDisplay: "Ve s. av. J.-C.",
+    centuryNumeric: -480,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire privée & portraits",
+    title: "L'Éphèbe d'Agrigente : chef-d'œuvre du style sévère (Akragas)",
+    site: "Musée archéologique régional Pietro Griffo d'Agrigente (Sicile, Italie)",
+    originSite: "Akragas / Agrigente (Sicile, Grande-Grèce)",
+    locationType: "museum",
+    currentLocation: "Musée archéologique régional Pietro Griffo d'Agrigente (Sicile, Italie)",
+    category: "Statue en marbre grec (ronde-bosse du style sévère)",
+    isHighlight: true,
+    chips: ["Ve s. av. J.-C.", "Grèce antique", "Grande-Grèce", "Sicile", "Akragas", "Agrigente", "Style sévère", "Éphèbe", "Contrapposto", "Musée d'Agrigente"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMdbz-vqMb1t0DPO8J1hkpIwiqf15iQifIQb6ESZTox5vw-O93rMp2sYdwBCYJEBA6BQzSlan8H3MN2UcmUEqf2c_MhnYKa2e8eqBfKvdUuU7fQZdx1W06rSaA-v3OW5mTiMbQ_tg_NKiCrtNskvGWZIw=w1616-h2408-s-no-gm?authuser=0",
+    narrative: `<p>Cette œuvre en marbre, datée vers 480-470 avant notre ère et conservée au Musée Archéologique Régional d'Agrigente, constitue l'un des exemples les plus précieux du « style sévère », marquant la transition entre l'archaïsme et le classicisme grec. Découverte dans une citerne de l'ancienne cité d'Akragas, cette statue d'éphèbe, ou jeune homme athlétique, témoigne de la maîtrise exceptionnelle des sculpteurs de la Grande-Grèce. La silhouette présente une musculature souple et naturelle qui s'éloigne de la rigidité des kouroi archaïques, notamment grâce à une amorce de contrapposto où le poids du corps commence à basculer sur une jambe d'appui, provoquant un léger mouvement du bassin. Le visage, d'une grande pureté, se caractérise par l'absence du sourire archaïque au profit d'une expression de gravité sereine et d'intériorité, typique de cette période charnière. Le traitement de la chevelure, courte et soigneusement ordonnée en mèches qui encadrent le front, renforce l'aspect idéal et harmonieux de la figure masculine. Bien que les avant-bras et les pieds soient manquants, la posture debout et la proportionnalité des membres révèlent une recherche d'équilibre parfaite entre force physique et noblesse d'esprit. L'Éphèbe d'Agrigente demeure ainsi un témoin majeur de l'évolution de la représentation humaine dans l'art antique, illustrant le moment où le corps sculpté s'affranchit de la géométrie pour embrasser la vie et la vérité anatomique.</p>
+    <p><strong>Siècle :</strong> Vers 480-470 avant J.-C. (première moitié du Ve siècle av. J.-C.) | <strong>Civilisation :</strong> Grèce antique | <strong>Lieu de conservation :</strong> Musée archéologique régional Pietro Griffo d'Agrigente (Sicile, Italie).</p>`
+  },
+  {
+    id: "sculpture_statue_victoire_nike_paionios_mende_pilier_zeus_olympie",
+    civId: "grece",
+    periodId: "grece_classique",
+    civName: "Grèce antique",
+    century: "Vers 421 avant J.-C. (dernier quart du Ve siècle av. J.-C.)",
+    centuryDisplay: "Ve s. av. J.-C.",
+    centuryNumeric: -421,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire royale & divine (ronde-bosse)",
+    title: "La Victoire de Paionios de Mendè : virtuose du drapé mouillé (Olympie)",
+    site: "Musée archéologique d'Olympie (Grèce)",
+    originSite: "Devant le Temple de Zeus, Altis d'Olympie",
+    locationType: "museum",
+    currentLocation: "Musée archéologique d'Olympie (Grèce)",
+    category: "Statue colossale en marbre de Paros sur pilier triangulaire (drapé mouillé)",
+    isHighlight: true,
+    chips: ["Ve s. av. J.-C.", "Grèce antique", "Époque classique", "Style riche", "Olympie", "Paionios de Mendè", "Niké", "Drapé mouillé", "Guerre du Péloponnèse", "Musée d'Olympie"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNs3Oh-hS0BiZQNCksA_8B5SSaC6WYZqGc0XqpGhU3_tB64Vc8FzTHtpFlQqxid_d-1A-WIxGV8v-06b7_uvOrRXUKeC73KAqgnr9k4nDrVcRfBSjBRdvy90-LwZnWTWBhyJdm4ylfkRr5daWygu0Ak4A=w1606-h2408-s-no-gm?authuser=0",
+    narrative: `<p>Cette statue monumentale en marbre de Parian, sculptée vers 421 avant J.-C. par l'artiste Paionios de Mendè, constitue l'un des chefs-d'œuvre les plus audacieux du style "riche" de la sculpture grecque classique. Dédiée par les Messéniens et les Naupactiens pour célébrer leur victoire sur les Spartiates lors de la guerre du Péloponnèse, elle s'élevait à l'origine sur un pilier triangulaire de neuf mètres de haut devant le temple de Zeus à Olympie. La déesse de la Victoire, Niké, est saisie au moment précis où elle descend des cieux pour toucher terre, les orteils effleurant à peine le socle. Son mouvement aérien est accentué par un traitement virtuose du drapé mouillé qui plaque le tissu contre son corps, révélant l'anatomie puissante de ses jambes et de son buste, tandis que le reste de sa tunique gonfle derrière elle, poussé par le vent. Un aigle à ses pieds, dont seule la tête subsiste partiellement, symbolisait l'élément céleste et le lien avec Zeus. Malgré la perte de ses bras et de ses ailes, la statue conserve une dynamique exceptionnelle, défiant la pesanteur du marbre pour traduire une sensation de légèreté et de vitesse. Cette œuvre marque une étape cruciale dans l'histoire de l'art, car elle est l'une des rares sculptures de cette période dont nous connaissons à la fois l'auteur, les commanditaires et la raison précise de l'offrande grâce à l'inscription gravée sur son socle d'origine.</p>
+    <p><strong>Siècle :</strong> Vers 421 avant J.-C. (dernier quart du Ve siècle av. J.-C.) | <strong>Civilisation :</strong> Grèce antique | <strong>Lieu de conservation :</strong> Musée archéologique d'Olympie (Grèce).</p>`
+  },
+  {
+    id: "sculpture_groupe_acrotere_zeus_enleve_ganymede_terre_cuite_olympie",
+    civId: "grece",
+    periodId: "grece_classique",
+    civName: "Grèce antique",
+    century: "Vers 480-470 avant J.-C. (première moitié du Ve siècle av. J.-C.)",
+    centuryDisplay: "Ve s. av. J.-C.",
+    centuryNumeric: -475,
+    domain: "sculpture_statuaire",
+    artifactType: "Décor architectural (fronton, frise, métope, chapiteau)",
+    title: "Zeus enlevant Ganymède : acrotère monumental en terre cuite polychrome",
+    site: "Musée archéologique d'Olympie (Grèce)",
+    originSite: "Sanctuaire de Zeus, Altis d'Olympie",
+    locationType: "museum",
+    currentLocation: "Musée archéologique d'Olympie (Grèce)",
+    category: "Sculpture architecturale / Groupe acrotère en terre cuite peinte",
+    isHighlight: true,
+    chips: ["Ve s. av. J.-C.", "Grèce antique", "Style sévère", "Olympie", "Zeus", "Ganymède", "Acrotère", "Terre cuite polychrome", "Musée d'Olympie"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPU9JKKJZO8hy51f-ypMHUJRR5w4ncK9h_zRMLBnT5IjKkzztk-Xw4ve5cWffU6SamiyKcf1Od2jBo72MWCmcqZ1s4fzlce8K359p8LHAjCvMmsFlZb52Rjb4CmW5VOblLv_pthAhzhXdbmo1GciMwgPg=w1606-h2408-s-no-gm?authuser=0",
+    narrative: `<p>Ce groupe statuaire en terre cuite polychrome, daté des environs de 480-470 avant J.-C., représente l'enlèvement du jeune prince troyen Ganymède par Zeus, souverain des dieux. Découverte dans le sanctuaire d'Olympie, cette œuvre monumentale constituait initialement un acrotère, une décoration placée au sommet d'un édifice, probablement l'un des Trésors ou un petit temple. Contrairement à la tradition iconographique plus tardive où Zeus prend la forme d'un aigle, il apparaît ici sous son aspect humain, vêtu d'un himation dont les plis révèlent encore des traces de pigments rouges et ocre. Le dieu est représenté en plein mouvement, emportant l'adolescent sous son bras gauche tandis qu'il tient un sceptre de la main droite, symbolisant son autorité suprême. Ganymède, reconnaissable à son coq — cadeau traditionnel offert par les prétendants dans la Grèce antique — affiche une expression de surprise mêlée de sérénité. La technique de la terre cuite peinte permet une grande finesse dans le rendu de la coiffure de Zeus, composée de petites boucles serrées caractéristiques du style sévère, marquant la transition entre l'époque archaïque et le premier classicisme. Cette sculpture témoigne d'une maîtrise exceptionnelle du modelage à grande échelle, défiant les contraintes de poids et de cuisson du matériau. Au-delà de sa fonction décorative, l'œuvre illustre le passage de l'humain vers le divin, Ganymède étant destiné à devenir l'échanson des dieux sur l'Olympe, tout en reflétant les codes sociaux et esthétiques de l'aristocratie grecque du début du Ve siècle.</p>
+    <p><strong>Siècle :</strong> Vers 480-470 avant J.-C. (première moitié du Ve siècle av. J.-C.) | <strong>Civilisation :</strong> Grèce antique | <strong>Lieu de conservation :</strong> Musée archéologique d'Olympie (Grèce).</p>`
+  },
+  {
+    id: "sculpture_statue_aurige_delphes_bronze_polyzalos_gela_sanctuaire_apollon",
+    civId: "grece",
+    periodId: "grece_classique",
+    civName: "Grèce antique",
+    century: "Vers 478-474 avant J.-C. (première moitié du Ve siècle av. J.-C.)",
+    centuryDisplay: "Ve s. av. J.-C.",
+    centuryNumeric: -476,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire royale & divine (ronde-bosse)",
+    title: "L'Aurige de Delphes : chef-d'œuvre du bronze du style sévère (Polyzalos)",
+    site: "Musée archéologique de Delphes (Grèce)",
+    originSite: "Terrasse du Temple d'Apollon, Delphes",
+    locationType: "museum",
+    currentLocation: "Musée archéologique de Delphes (Grèce)",
+    category: "Statue en bronze grandeur nature à la cire perdue et yeux incrustés",
+    isHighlight: true,
+    chips: ["Ve s. av. J.-C.", "Grèce antique", "Style sévère", "Delphes", "Aurige", "Polyzalos de Gela", "Jeux Pythiques", "Bronze à la cire perdue", "Xystis", "Musée de Delphes"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNFKR94nFhslUwbSf-AlQn0A6ru-wYZO8CaHzJ4mrDAwhIVhUlvdIa94wem0K2UjPNayCQMM5erOrBG3jpcwmrp4mQPjP0XIRQ5nEjk8HoUU32unK7boQr-pNyum7WPwGa3Gpq_OAuDnLMphBzpXjaVwg=w1606-h2408-s-no-gm?authuser=0",
+    narrative: `<p>Cette statue de bronze grandeur nature, datée d'environ 478 ou 474 avant J.-C., représente l'Aurige de Delphes, l'un des chefs-d'œuvre les plus célèbres du style sévère de la sculpture grecque. Elle a été découverte en 1896 dans le sanctuaire d'Apollon à Delphes, enfouie sous un éboulement qui a permis sa conservation exceptionnelle. Ce monument fut offert par Polyzalos, tyran de Gela en Sicile, pour commémorer la victoire de son char aux jeux Pythiques. À l'origine, l'aurige ne se tenait pas seul : il faisait partie d'un groupe imposant comprenant un char à quatre chevaux (quadrige) et probablement des valets d'écurie.</p>
+    <p>L'œuvre marque une étape charnière dans l'histoire de l'art, située entre l'archaïsme rigide et le classicisme épanoui. L'aurige est vêtu de la xystis, la longue tunique traditionnelle des conducteurs de chars, dont les plis verticaux et réguliers rappellent les cannelures d'une colonne dorique. Bien que la posture générale semble statique, un mouvement subtil anime le corps : une légère torsion de la taille et de la tête vers la droite brise la frontalité. Les pieds, d'un réalisme saisissant, sont ancrés au sol, tandis que les mains retenaient autrefois les rênes dont il reste quelques fragments.</p>
+    <p>Le visage de l'aurige incarne l'idéal de maîtrise de soi (l'éthos) propre à l'époque classique. Malgré l'intensité de la course et l'exaltation de la victoire, il conserve une expression d'une grande sérénité et d'une dignité contenue. La technique du bronze a permis une précision de détails remarquable, notamment dans la chevelure maintenue par un bandeau d'argent orné de méandres. L'élément le plus fascinant reste ses yeux, conservés intacts, formés d'incrustations de verre et de pierre qui confèrent au regard une présence et une vie quasi hypnotiques, témoignant du génie technique des fondeurs grecs du Ve siècle avant J.-C.</p>
+    <p><strong>Siècle :</strong> Vers 478-474 avant J.-C. (première moitié du Ve siècle av. J.-C.) | <strong>Civilisation :</strong> Grèce antique | <strong>Lieu de conservation :</strong> Musée archéologique de Delphes (Grèce).</p>`
+  },
+  {
+    id: "sculpture_fragments_quadrige_chevaux_joug_aurige_delphes",
+    civId: "grece",
+    periodId: "grece_classique",
+    civName: "Grèce antique",
+    century: "Vers 478-474 avant J.-C. (première moitié du Ve siècle av. J.-C.)",
+    centuryDisplay: "Ve s. av. J.-C.",
+    centuryNumeric: -476,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire animale & gardienne (ronde-bosse)",
+    title: "Fragments du quadrige de bronze de Delphes (Chevaux, joug et valet d'écurie)",
+    site: "Musée archéologique de Delphes (Grèce)",
+    originSite: "Sanctuaire d'Apollon, Delphes",
+    locationType: "museum",
+    currentLocation: "Musée archéologique de Delphes (Grèce)",
+    category: "Sculpture en bronze / Éléments fragmentaires de groupe monumental",
+    isHighlight: false,
+    chips: ["Ve s. av. J.-C.", "Grèce antique", "Style sévère", "Delphes", "Quadrige", "Chevaux en bronze", "Fonte à la cire perdue", "Musée de Delphes"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNXCopSmGgFRHB4hdt8KSOBRF0ol6PSsK2crnABqj1MxfLOq3CIO8--tgKHDEocbJOnBSdTsAtDEoW6QB5WkXKwc5-7MYqj-lCi1VdKeXOL6ZIPi9uNdZVg-6hbsTJRa4T_xyPPgYaxwh0QOxjX8UhK7Q=w1847-h1231-s-no-gm?authuser=0",
+    narrative: `<p>Cette restitution muséale présente les fragments subsistants du groupe statuaire original dont l'Aurige était la figure centrale. Réalisé vers 478-474 avant J.-C., cet ensemble en bronze représentait un quadrige — un char tiré par quatre chevaux — célébrant la victoire de Polyzalos de Gela aux jeux Pythiques. Le dessin technique en arrière-plan permet de visualiser l'ampleur initiale de l'œuvre : l'aurige debout sur le char, tenant les rênes, entouré de ses chevaux et probablement accompagné d'un jeune valet d'écurie tenant le mors, comme le suggère le fragment de bras encore visible à l'avant du tracé.</p>
+    <p>Les vestiges exposés ici, notamment les membres des chevaux et les parties du joug, témoignent de la complexité technique de la fonderie grecque du début du Ve siècle avant J.-C. Chaque élément était coulé séparément selon la technique de la cire perdue, puis assemblé pour former une scène monumentale. La précision anatomique des jambes des chevaux, avec le rendu des muscles et des veines, souligne la volonté de réalisme du style sévère, rompant avec les formes plus schématiques de l'époque précédente.</p>
+    <p>Bien que le char et les chevaux aient été largement détruits, ces fragments sont essentiels pour comprendre que l'Aurige n'était pas une figure isolée mais l'élément d'une mise en scène de prestige. L'enfouissement de ces pièces lors d'un tremblement de terre en 373 avant J.-C. les a protégées du pillage et de la refonte, offrant ainsi un témoignage rare sur les offrandes monumentales dédiées à Apollon dans son sanctuaire de Delphes. L'ensemble illustre parfaitement la transition vers le classicisme grec, où l'art célèbre tant la performance athlétique que la piété religieuse des cités-États.</p>
+    <p><strong>Siècle :</strong> Vers 478-474 avant J.-C. (première moitié du Ve siècle av. J.-C.) | <strong>Civilisation :</strong> Grèce antique | <strong>Lieu de conservation :</strong> Musée archéologique de Delphes (Grèce).</p>`
+  },
+  {
+    id: "sculpture_statue_dieu_cap_artemision_zeus_poseidon_bronze_athenes",
+    civId: "grece",
+    periodId: "grece_classique",
+    civName: "Grèce antique",
+    century: "Vers 460 avant J.-C. (milieu du Ve siècle av. J.-C.)",
+    centuryDisplay: "Ve s. av. J.-C.",
+    centuryNumeric: -460,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire royale & divine (ronde-bosse)",
+    title: "Le Dieu du Cap Artémision : colosse en bronze de Zeus ou Poséidon",
+    site: "Musée national archéologique d'Athènes (Grèce)",
+    originSite: "Épave antique au large du Cap Artémision (Eubée)",
+    locationType: "museum",
+    currentLocation: "Musée national archéologique d'Athènes (Grèce)",
+    category: "Statue colossale en bronze à la cire perdue (ronde-bosse divine)",
+    isHighlight: true,
+    chips: ["Ve s. av. J.-C.", "Grèce antique", "Style sévère", "Cap Artémision", "Zeus", "Poséidon", "Bronze monumental", "Foudre", "Musée d'Athènes"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNH_4vTV3fhEA9DLTKb_x5oE8oH29tFzX9ADRzrnhHhgB-Z_Hw_F0FKhyyhDHXcaO1uVPNLKx9FuA_ueqBTp9Wi8evlMdgms3TjyEMMeI3BrbR7fLqJPfvRzeRcGlCfrSMhhfsMui-4KL3DHbxd_RXREw=w1847-h1231-s-no-gm?authuser=0",
+    narrative: `<p>Cette œuvre magistrale, découverte en 1928 dans les profondeurs marines au large du cap Artémision, constitue l'un des rares et plus précieux originaux en bronze du milieu du Ve siècle avant notre ère qui nous soient parvenus. Haute de plus de deux mètres, elle illustre parfaitement le passage du style archaïque à la période classique, marquant l'avènement du style sévère. La statue représente une divinité saisie dans un mouvement d'une puissance saisissante, les jambes largement écartées et les bras déployés dans une tension athlétique. La maîtrise de la fonte à la cire perdue a permis à l'artiste de capturer une anatomie à la fois idéalisée et rigoureuse, où chaque muscle exprime la force contenue d'un corps prêt à l'action.</p>
+    <p>L'identité exacte de ce dieu demeure encore aujourd'hui un sujet de débat passionnant pour les historiens de l'art et les archéologues. La position du bras droit, tendu vers l'arrière pour projeter un projectile aujourd'hui disparu, est la clé du mystère. S'il tenait un foudre, il s'agirait de Zeus, souverain de l'Olympe, foudroyant un adversaire. En revanche, si l'objet était un trident, nous serions en présence de Poséidon, dieu des mers. La finesse de la barbe, la coiffure méticuleusement tressée et le regard autrefois incrusté de pierres précieuses ou d'ivoire confèrent au visage une autorité divine et une sérénité imperturbable qui caractérisent l'esthétique grecque de cette époque charnière.</p>
+    <p>Actuellement conservée au Musée National Archéologique d'Athènes, la statue du Dieu de l'Artémision est un témoignage exceptionnel du génie technique des bronziers grecs. Contrairement aux copies romaines en marbre qui nécessitaient des étais pour maintenir l'équilibre, le bronze permettait une liberté de mouvement et un déploiement dans l'espace alors révolutionnaires. Le spectateur est invité à tourner autour de l'œuvre pour en apprécier la tridimensionnalité et l'équilibre dynamique, faisant de cette silhouette sombre et imposante une incarnation intemporelle de la majesté divine et de la perfection humaine telle que conçue par la Grèce antique. Atehnes musee archeo</p>
+    <p><strong>Siècle :</strong> Vers 460 avant J.-C. (milieu du Ve siècle av. J.-C.) | <strong>Civilisation :</strong> Grèce antique | <strong>Lieu de conservation :</strong> Musée national archéologique d'Athènes (Grèce).</p>`
+  },
+  {
+    id: "sculpture_statuette_bronze_athlete_apollon_ecole_paros_delphes_louvre",
+    civId: "grece",
+    periodId: "grece_classique",
+    civName: "Grèce antique",
+    century: "Vers 460 avant J.-C. (milieu du Ve siècle av. J.-C.)",
+    centuryDisplay: "Ve s. av. J.-C.",
+    centuryNumeric: -460,
+    domain: "sculpture_statuaire",
+    artifactType: "Figurine votive / Ex-voto",
+    title: "Statuette d'athlète ou jeune dieu en bronze (École de Paros, trouvée à Delphes)",
+    site: "Musée du Louvre (Paris, France)",
+    originSite: "Sanctuaire d'Apollon, Delphes (atelier de Paros)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre (Paris, France)",
+    category: "Sculpture / Statuette votive en bronze plein à la cire perdue",
+    isHighlight: false,
+    chips: ["Ve s. av. J.-C.", "Grèce antique", "Style sévère", "Paros", "Delphes", "Athlète", "Apollon", "Bronze plein", "Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczM1NllwJqGSUjYBVtYoN_FCLq8Pqmyx5ePeiOH_oxb3q6hiI_qhmpTjduHvb6MQgVSj2qTE6kJrs_oa5Rcg9WlD_GDBpQWmhZB4GxBQvksxaorGcAyq3ba327nvFMjHVPJkt99-Zsd7O4kj1Hfr6W57LA=w1813-h2408-s-no-gm?authuser=0",
+    narrative: `<p>Cette statuette en bronze, réalisée vers -460, est une œuvre remarquable de l'école de Paros, célèbre durant l'Antiquité pour la qualité exceptionnelle de son marbre mais aussi pour le savoir-faire de ses bronziers. Représentant un jeune homme nu, probablement un athlète ou une divinité comme Apollon, elle illustre parfaitement la transition entre le style sévère et le premier classicisme. La posture montre une évolution majeure par rapport à la rigidité des kouroi archaïques : le poids du corps commence à se déplacer, amorçant un léger déhanchement qui donne vie à la figure. Le bras droit est tendu vers l'avant, la main ouverte dans un geste qui pouvait autrefois tenir un attribut aujourd'hui disparu, tandis que le bras gauche est rompu au niveau de l'avant-bras.</p>
+    <p>Le traitement du visage et de la musculature est caractéristique de cette période de recherche d'équilibre et de sérénité. Les traits sont plus naturels, avec des yeux larges et une bouche aux lèvres pleines qui ne porte plus le sourire archaïque, mais exprime une forme de gravité intérieure. La chevelure est traitée avec un grand soin décoratif, enserrée par un bandeau, tandis que le modelé du buste et de l'abdomen témoigne d'une observation fine de l'anatomie sans pour autant atteindre le réalisme poussé des décennies suivantes. La patine sombre du bronze ajoute une profondeur aux volumes, soulignant la tension contenue de la silhouette.</p>
+    <p>Découverte à Delphes, l'un des plus importants sanctuaires panhelléniques, cette statuette était sans doute une offrande votive dédiée par un fidèle ou une cité pour s'attirer les faveurs d'Apollon ou le remercier d'une victoire. Sa présence à Delphes confirme le rayonnement des ateliers cycladiques de Paros à travers toute la Grèce. Elle représente un jalon crucial dans l'histoire de la statuaire grecque, capturant ce moment précis où l'art se détache des conventions géométriques pour explorer la souplesse et la présence humaine dans l'espace.</p>
+    <p><strong>Siècle :</strong> Vers 460 avant J.-C. (milieu du Ve siècle av. J.-C.) | <strong>Civilisation :</strong> Grèce antique | <strong>Lieu de conservation :</strong> Musée du Louvre (Paris, France).</p>`
+  },
+  {
+    id: "sculpture_statue_hermes_portant_dionysos_enfant_praxitele_olympie",
+    civId: "grece",
+    periodId: "grece_classique",
+    civName: "Grèce antique",
+    century: "Vers 330 avant J.-C. (dernier tiers du IVe siècle av. J.-C.)",
+    centuryDisplay: "IVe s. av. J.-C.",
+    centuryNumeric: -330,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire royale & divine (ronde-bosse)",
+    title: "Hermès portant Dionysos enfant par Praxitèle (Héraion d'Olympie)",
+    site: "Musée archéologique d'Olympie (Grèce)",
+    originSite: "Temple d'Héra (Héraion), Altis d'Olympie",
+    locationType: "museum",
+    currentLocation: "Musée archéologique d'Olympie (Grèce)",
+    category: "Statue en marbre de Paros poli (ronde-bosse classique tardive)",
+    isHighlight: true,
+    chips: ["IVe s. av. J.-C.", "Grèce antique", "Second classicisme", "Praxitèle", "Olympie", "Hermès", "Dionysos", "Hanchement", "Marbre de Paros", "Musée d'Olympie"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOhjuJw7GkF3vwlzEhpPJdxgXveTRH_RPunyWDg_0ujeB15upJoVX0YB--0HYsMHzolMQMbG18JT7zzAZADQVeaO5crWePUp65Yi9j3RYlajUWdGdQEc8z11sQFrbRCoYLnLyjbjIX9H6jrvu0ztOq14w=w1606-h2408-s-no-gm?authuser=0",
+    narrative: `<p>Cette statue de marbre de Paros, chef-d'œuvre de la sculpture grecque tardive du IVe siècle avant J.-C., est attribuée au célèbre sculpteur Praxitèle. Découverte en 1877 dans les ruines du temple d'Héra à Olympie, elle représente le dieu Hermès, messager des dieux, faisant une pause lors de son voyage pour confier le jeune Dionysos aux nymphes du mont Nysa. L'œuvre incarne parfaitement l'évolution de l'esthétique classique vers une humanisation des divinités, délaissant la rigueur du siècle précédent pour une grâce plus souple et nonchalante. Hermès est représenté dans une posture de « hanchement » prononcé, créant une courbe en S caractéristique du style de Praxitèle, où le poids du corps repose sur une seule jambe tandis que l'autre se fléchit librement. Le dieu s'appuie contre un tronc d'arbre recouvert d'une draperie aux plis profonds et réalistes, ce qui permet de soutenir la structure de la statue tout en ajoutant un jeu d'ombre et de lumière complexe. La musculature du torse est traitée avec une douceur extrême, évitant les transitions brutales pour donner au marbre l'aspect d'une peau souple et vivante. Le visage d'Hermès, empreint d'une sérénité rêveuse, est tourné vers l'enfant qu'il porte sur son bras gauche, tandis que son bras droit, aujourd'hui disparu, brandissait probablement une grappe de raisin pour amuser le futur dieu de la vigne. Le petit Dionysos, bien que de proportions encore réduites par rapport à l'adulte, interagit de manière dynamique avec son protecteur, créant une scène de complicité tendre et inédite dans l'art monumental. La virtuosité du polissage confère au marbre une brillance qui souligne la délicatesse des traits et la complexité de la coiffure en boucles courtes, faisant de cette œuvre l'un des exemples les plus achevés du raffinement de la période classique finale.</p>
+    <p><strong>Siècle :</strong> Vers 330 avant J.-C. (dernier tiers du IVe siècle av. J.-C.) | <strong>Civilisation :</strong> Grèce antique | <strong>Lieu de conservation :</strong> Musée archéologique d'Olympie (Grèce).</p>`
+  },
+  {
+    id: "sculpture_statue_asklepios_sur_trone_marbre_polychrome_corinthe",
+    civId: "grece",
+    periodId: "grece_classique",
+    civName: "Grèce antique",
+    century: "IVe siècle avant J.-C. (vers 350 av. J.-C.)",
+    centuryDisplay: "IVe s. av. J.-C.",
+    centuryNumeric: -350,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire royale & divine (ronde-bosse)",
+    title: "Asclépios trônant majestueusement : dieu guérisseur en marbre (Corinthe)",
+    site: "Musée archéologique de l'Ancienne Corinthe (Grèce)",
+    originSite: "Asclépiéion de Corinthe (Corinthie)",
+    locationType: "museum",
+    currentLocation: "Musée archéologique de l'Ancienne Corinthe (Grèce)",
+    category: "Statue en marbre finement sculpté avec traces de polychromie",
+    isHighlight: false,
+    chips: ["IVe s. av. J.-C.", "Grèce antique", "Époque classique", "Corinthe", "Asclépios", "Asclépiéion", "Dieu guérisseur", "Polychromie", "Musée de Corinthe"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczN8U5eu682675oZBf7dqbBDVneN--MGmbQrs_epBDu6s692bXmkK1pUK01StceXCjp_Tljq45TqBuGYZMCe11SLALp2iPptKg3ccOaev7epHXWa77sejTUnzecxmRs8JJAbotSgbQ9FCaDSgvTMHlRsOQ=w1847-h1231-s-no-gm?authuser=0",
+    narrative: `<p>Cette statuette en marbre, datant du IVe siècle avant J.-C., représente le dieu Asclépios trônant majestueusement. Découverte à Corinthe, cette œuvre est un témoignage précieux de la statuaire grecque de l'époque classique tardive, période marquée par une humanisation croissante des figures divines. La sculpture illustre l'importance du culte du dieu de la médecine dans la région, Asclépios étant ici représenté dans une attitude empreinte de sérénité et de bienveillance, caractéristiques propres à sa fonction de guérisseur.</p>
+    <p>Le dieu est figuré assis sur un trône richement orné, dont les montants laissent deviner un travail de sculpture détaillé. Son buste est nu, révélant une musculature souple et naturelle, tandis qu'un himation (manteau) enveloppe ses jambes et retombe sur son épaule gauche en plis drapés. La tête, ornée d'une chevelure bouclée et d'une barbe fournie, est légèrement inclinée, conférant au dieu une expression de calme solennel. Bien que les attributs traditionnels, comme le bâton entouré d'un serpent, soient ici fragmentaires ou suggérés par la position des bras, la posture globale du corps évoque immédiatement l'autorité apaisante du dieu tutélaire de l'Asclépiéion de Corinthe.</p>
+    <p>L'œuvre conserve par endroits des traces de polychromie, notamment des teintes rougeâtres et ocre dans les plis du vêtement, qui rappellent que les sculptures antiques n'étaient pas d'une blancheur monochrome mais vivement colorées pour accentuer le réalisme et la profondeur des reliefs. Ce souci du détail se retrouve dans le rendu des pieds chaussés de sandales et dans la structure même du trône, qui participe à la monumentalité de la petite pièce. L'utilisation du marbre, finement poli, permet de jouer avec la lumière pour souligner la douceur des chairs et la rigueur du drapé.</p>
+    <p>D'un point de vue historique et religieux, cette représentation d'Asclépios sur son trône s'inscrit dans une tradition iconographique qui a influencé de nombreuses productions ultérieures, tant en Grèce qu'à Rome. La statuette servait probablement d'ex-voto ou de figure de dévotion au sein d'un sanctuaire, où les malades venaient chercher la guérison par l'incubation (le sommeil sacré). Elle demeure aujourd'hui une pièce maîtresse des collections locales, illustrant le rôle central de Corinthe comme centre artistique et spirituel majeur à la fin de l'époque classique.</p>
+    <p><strong>Siècle :</strong> IVe siècle avant J.-C. (vers 350 av. J.-C.) | <strong>Civilisation :</strong> Grèce antique | <strong>Lieu de conservation :</strong> Musée archéologique de l'Ancienne Corinthe (Grèce).</p>`
+  },
+  {
+    id: "sculpture_tete_hygie_deesse_sante_skopas_paros_tegee_athenes",
+    civId: "grece",
+    periodId: "grece_classique",
+    civName: "Grèce antique",
+    century: "Vers 350 avant J.-C. (milieu du IVe siècle av. J.-C.)",
+    centuryDisplay: "IVe s. av. J.-C.",
+    centuryNumeric: -350,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire royale & divine (ronde-bosse)",
+    title: "Tête d'Hygie par Skopas de Paros (Temple d'Aléa Athéna à Tégée)",
+    site: "Musée national archéologique d'Athènes (Grèce)",
+    originSite: "Temple d'Aléa Athéna, Tégée (Arcadie)",
+    locationType: "museum",
+    currentLocation: "Musée national archéologique d'Athènes (Grèce)",
+    category: "Statue en marbre du Pentélique (ronde-bosse du style pathétique)",
+    isHighlight: true,
+    chips: ["IVe s. av. J.-C.", "Grèce antique", "Second classicisme", "Skopas de Paros", "Hygie", "Tégée", "Style pathétique", "Marbre du Pentélique", "Musée d'Athènes"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMcr4Poe00m_Fcla2I8Qehns4O5KN6tmw-4w9SdwhkU2BVkkRwBioIj-HjDWq4U9WJK9kn16kzcWQ396Gwm5H0pF-1xqCCpwr6lNi-u4xrQoqf91fbk5dask-33keSJCconQnXQACrj_cgRNuhpceSUSA=w1606-h2408-s-no-gm?authuser=0",
+    narrative: `<p>La tête d'Hygie, attribuée au célèbre sculpteur Skopas de Paros et datée du milieu du IVe siècle avant notre ère, est l'un des vestiges les plus gracieux du sanctuaire d'Aléa Athéna à Tégée. Découverte lors des fouilles du temple où Skopas officiait à la fois comme architecte et sculpteur, cette tête en marbre de Pentélique représentait la déesse de la santé, fille d'Asclépios. Bien que séparée de son corps, elle demeure un exemple exceptionnel du « style pathétique » propre à son auteur, qui a su insuffler une dimension émotionnelle inédite à la statuaire classique.</p>
+    <p>Sur le plan stylistique, l'œuvre rompt avec la sérénité parfois distante du siècle de Périclès pour introduire une sensibilité plus humaine et une douceur mélancolique. Le visage d'Hygie se caractérise par une forme ovale parfaite, des joues pleines et une bouche délicate légèrement entrouverte. L'inclinaison de la tête vers le bas et sur le côté accentue l'impression de recueillement ou de bienveillance protectrice, une attitude en parfaite adéquation avec la fonction curative de la divinité. La maîtrise du marbre permet ici de rendre la souplesse de la peau et la tendresse des traits avec une grande subtilité.</p>
+    <p>La chevelure est un élément majeur de cette sculpture : elle est ramassée en arrière, formant des ondulations souples qui laissent les oreilles dégagées et se rejoignent en un chignon ou un nœud complexe au sommet du crâne. Ce traitement des cheveux, à la fois naturel et sophistiqué, crée des jeux d'ombre et de lumière qui animent le visage. Le regard, bien que les globes oculaires soient lisses, semble doté d'une profondeur psychologique grâce au modelé des paupières et de l'arcade sourcilière, une signature technique de Skopas visant à exprimer l'ethos (le caractère) et le pathos (l'émotion).</p>
+    <p>Cette tête témoigne du tournant majeur de la sculpture grecque vers 350 avant notre ère, où la recherche d'harmonie idéale se double d'une exploration de l'âme humaine. Hygie n'est plus seulement une entité abstraite, mais une figure accessible dont la beauté rayonnante suggère la paix intérieure et la guérison. Conservée au Musée national archéologique d'Athènes, cette pièce reste un jalon essentiel pour comprendre comment les artistes du second classicisme ont préparé le terrain à l'expressivité dramatique de l'époque hellénistique.</p>
+    <p><strong>Siècle :</strong> Vers 350 avant J.-C. (milieu du IVe siècle av. J.-C.) | <strong>Civilisation :</strong> Grèce antique | <strong>Lieu de conservation :</strong> Musée national archéologique d'Athènes (Grèce).</p>`
+  },
+  {
     id: "peinture_fresque_tombe_plongeur_paroi_est_libation_echanson_paestum",
     civId: "grece",
     periodId: "grece_classique",

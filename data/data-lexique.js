@@ -568,6 +568,56 @@ window.ART_TYPOLOGY_DEFINITIONS = {
 
 // 2. Dictionnaire des termes techniques, iconographiques et architecturaux (détectés automatiquement dans les notices)
 window.ART_GLOSSARY = [
+  {
+    term: "Kouros",
+    definition: "Statue grecque archaïque (VIIe–VIe s. av. J.-C.) représentant un jeune homme nu, debout de face, les poings fermés contre les cuisses et la jambe gauche légèrement avancée, incarnant l'idéal aristocratique de jeunesse virile et de beauté vertueuse (kalokagathia).",
+    category: "Typologie & Sculpture antique"
+  },
+  {
+    term: "Koré",
+    definition: "Statue grecque archaïque figurant une jeune fille ou déesse vêtue (du péplos dorien ou du chiton ionien avec himation), symbole de pureté virginale et d'offrande votive ou funéraire dans les grands sanctuaires.",
+    category: "Typologie & Sculpture antique"
+  },
+  {
+    term: "Style dédalique",
+    definition: "Courant sculptural de la période orientalisante (vers 680–600 av. J.-C.), originaire de Crète et des Cyclades, caractérisé par une frontalité stricte, un visage triangulaire encadré d'une chevelure étagée en perruque tripartite et un corps traité en volumes géométriques simples.",
+    category: "Styles & Périodes artistiques"
+  },
+  {
+    term: "Sphyrelaton",
+    definition: "Technique archaïque de sculpture sur métal consistant à battre et marteler à froid ou à chaud de fines feuilles de bronze sur un noyau en bois préalablement sculpté, les plaques étant ensuite réunies et solidarisées par des rivets.",
+    category: "Techniques & Matériaux"
+  },
+  {
+    term: "Chryséléphantin",
+    definition: "Technique de statuaire monumentale prestigieuse associant l'or (chrysos, pour les parures et draperies) et l'ivoire (elephas, pour les chairs et carnations), fixés sur une ossature interne en bois (xoanon).",
+    category: "Techniques & Matériaux"
+  },
+  {
+    term: "Xystis",
+    definition: "Tunique blanche plissée traditionnelle des conducteurs de chars (auriges) en Grèce antique, descendant jusqu'aux chevilles, retenue par des cordons sous les aisselles pour éviter qu'elle ne flotte au vent durant la course.",
+    category: "Costume & Mobilier antique"
+  },
+  {
+    term: "Promantie",
+    definition: "Privilège religieux éminent conféré par le sanctuaire de Delphes à des cités alliées ou de généreux donateurs (tels les Naxiens), leur donnant la priorité absolue pour consulter la Pythie devant les autres pèlerins.",
+    category: "Histoire, Mythes & Rituels"
+  },
+  {
+    term: "Acrotère",
+    definition: "Socle ornemental supportant une sculpture ou un motif figuratif en terre cuite ou en marbre, placé au sommet ou aux angles du fronton d'un édifice ou d'un temple antique.",
+    category: "Architecture & Éléments décoratifs"
+  },
+  {
+    term: "Idole-cloche",
+    definition: "Figurine anthropomorphe en terre cuite de l'époque géométrique tardive (Béotie, vers 700 av. J.-C.), caractérisée par un corps tronconique creux simulant une cloche, un cou stylisé et souvent des jambes mobiles suspendues à l'intérieur.",
+    category: "Typologie & Sculpture antique"
+  },
+  {
+    term: "Épibléma",
+    definition: "Courte pèlerine ou manteau léger porté par les femmes grecques de la période archaïque, rabattu sur les épaules au-dessus du péplos ou du chiton pour souligner la carrure.",
+    category: "Costume & Mobilier antique"
+  },
   // --- CÉRAMIQUE : TECHNIQUES & FORMES ---
   {
     term: "Bucchero nero",
