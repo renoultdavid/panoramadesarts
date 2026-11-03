@@ -1684,5 +1684,54 @@ window.ART_GLOSSARY = [
     category: "Société & Classes civiques grecques",
     def: "Deuxième classe censitaire la plus riche des cités grecques archaïques (comme à Athènes après Solon). Constituée d'aristocrates assez prospères pour élever et entretenir un cheval de guerre, elle manifestait son rang élevé en consacrant des statuettes de chevaux et d'attelages en bronze dans les sanctuaires panhelléniques.",
     patterns: ["hippeis", "hippeus", "chevaliers athéniens"]
+  },
+  {
+    term: "Cariatide",
+    etymology: "Du grec ancien karyâtis (καρυᾶτις), « femme de Karyes » (Laconie)",
+    category: "Architecture & Sculpture grecques",
+    def: "Statue de femme vêtue d'une longue draperie (péplos ou chiton), utilisée en architecture à la place d'une colonne ou d'un pilier pour soutenir un entablement sur sa tête (au moyen d'un chapiteau-calathos). Les exemples les plus célèbres sont les cariatides du Trésor de Siphnos à Delphes (vers 525 av. J.-C.) et celles du portique sud de l'Érechthéion sur l'Acropole d'Athènes.",
+    patterns: ["cariatide", "cariatides", "karyatides"]
+  },
+  {
+    term: "Télamon",
+    etymology: "Du grec ancien Telamôn (Τελαμών), « le porteur », ou Atlas chez les Romains",
+    category: "Architecture & Sculpture monumentale",
+    def: "Figure masculine colossale sculptée en ronde-bosse ou haut-relief, servant de support architectural ou de pilier porteur à la manière d'une cariatide mâle, représentée les bras levés soutenant le poids d'un entablement ou d'une architrave. Les plus imposants connus sont les télamons colossaux de près de 8 mètres de haut du temple de Zeus Olympien (l'Olympeion) à Agrigente en Sicile.",
+    patterns: ["télamon", "télamons", "telamon", "telamons"]
+  },
+  {
+    term: "Sima",
+    etymology: "Du grec ancien simê (σιμή), « cambrée, retroussée » (cymaise)",
+    category: "Architecture des temples grecs",
+    def: "Moulure terminale ou corniche relevée formant le rebord supérieur du toit d'un édifice antique. Dans les temples grecs en pierre ou en terre cuite, la sima était rythmée par des gargouilles d'évacuation des eaux pluviales sculptées en protomés ou têtes de lion béantes, alternant avec de somptueux bandeaux d'anthémions (palmettes et fleurs de lotus entrelacées).",
+    patterns: ["sima", "simas", "cymaise"]
+  },
+  {
+    term: "Centauromachie",
+    etymology: "Du grec ancien Kentauromakhia (Κενταυρομαχία), combat des Centaures",
+    category: "Mythologie & Iconographie grecques",
+    def: "Thème iconographique fondamental de l'art grec dépeignant le combat légendaire entre les Lapithes (aidés par Thésée) et les Centaures, créatures mi-hommes mi-chevaux qui, enivrés lors des noces de Pirithoos, tentèrent d'enlever l'épouse de ce dernier et les femmes lapithes. Symbole civique majeur de la victoire de la civilisation, de la raison et de l'ordre hellénique sur la sauvagerie et les passions débridées, il orne notamment le fronton Ouest du temple de Zeus à Olympie et les métopes sud du Parthénon.",
+    patterns: ["centauromachie", "centauromachies"]
+  },
+  {
+    term: "Amazonomachie",
+    etymology: "Du grec ancien Amazonomakhia (Ἀμαζονομαχία), combat contre les Amazones",
+    category: "Mythologie & Iconographie grecques",
+    def: "Combat mythologique opposant les héros grecs (Thésée, Héraclès ou Achille) à la nation des guerrières Amazones. Allégorie par excellence du triomphe de la cité grecque et du courage héroïque face à l'altérité et à l'adversité barbare (souvent assimilée après les guerres médiques à la victoire contre les Perses), le motif est immortalisé sur les métopes et frises de grands sanctuaires, tels que le temple d'Apollon à Bassae ou le Parthénon.",
+    patterns: ["amazonomachie", "amazonomachies"]
+  },
+  {
+    term: "Métope",
+    etymology: "Du grec ancien metópê (μετόπη), de metá (« entre ») et opê (« trou, ouverture »)",
+    category: "Architecture dorique & Décor sculpté",
+    def: "Panneau rectangulaire ou quasi carré qui, en alternance avec les triglyphes, compose la frise de l'ordre dorique dans les temples grecs. Originellement nue ou peinte en terre cuite, la métope devient dans les grands édifices de marbre ou de calcaire le support de hauts-reliefs narratifs spectaculaires illustrant les travaux d'Héraclès, de Thésée ou des épisodes héroïques (Trésor des Athéniens à Delphes, temple de Zeus à Olympie, Parthénon).",
+    patterns: ["métope", "métopes", "metope", "metopes"]
+  },
+  {
+    term: "Apoptygma",
+    etymology: "Du grec ancien apóptygma (ἀπόπτυγμα), « repli »",
+    category: "Costume & Vêtement féminin grec",
+    def: "Rabattement ou repli supérieur de l'étoffe d'un péplos grec qui retombe sur la poitrine et le dos, fixé aux épaules par des fibules. La disposition géométrique ou souple de l'apoptygma constitue un repère stylistique et chronologique essentiel pour les historiens de l'art, évoluant de la raideur tubulaire archaïque aux drapés mouillés et virtuoses du style classique.",
+    patterns: ["apoptygma", "apoptygmas"]
   }
 ];
