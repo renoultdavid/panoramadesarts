@@ -202,6 +202,24 @@
         <div class="artists-drawer-list" id="artists-drawer-list"></div>
       </div>
 
+      <!-- Ruban des Parcours Thématiques Transversaux -->
+      <div class="thematic-trails-bar" id="thematic-trails-bar">
+        <div class="thematic-trails-label">
+          <span class="thematic-trails-icon">🧭</span>
+          <span>PARCOURS THÉMATIQUES :</span>
+        </div>
+        <div class="thematic-trails-chips" id="thematic-trails-chips">
+          <button type="button" class="btn-trail-chip is-active" data-trail="all">Tous</button>
+          <button type="button" class="btn-trail-chip" data-trail="bestiaire">🦁 Bestiaire Sacré</button>
+          <button type="button" class="btn-trail-chip" data-trail="banquet">🍷 Art du Banquet</button>
+          <button type="button" class="btn-trail-chip" data-trail="pouvoir">👑 Fastes & Pouvoir</button>
+          <button type="button" class="btn-trail-chip" data-trail="guerriers">⚔️ Mythes & Guerriers</button>
+          <button type="button" class="btn-trail-chip" data-trail="au_dela">⚱️ Rites de l'Au-delà</button>
+          <button type="button" class="btn-trail-chip" data-trail="argile">🏺 Argile & Céramique</button>
+          <button type="button" class="btn-trail-chip" data-trail="metaux">💎 Métaux & Orfèvrerie</button>
+        </div>
+      </div>
+
       <!-- Ligne d'état & Compteurs UNIQUE -->
       <div class="filter-status-row">
         <div class="results-counter">
@@ -555,6 +573,72 @@
       </div>
     </div>
   </div>
+
+  <!-- MODALE TABLE LUMINEUSE DU CONSERVATEUR (FACE-À-FACE COMPARATIF) -->
+  <div id="comparator-modal" class="comparator-modal" hidden>
+    <div class="comparator-frame">
+      <header class="comparator-header">
+        <div class="comparator-header-left">
+          <span class="comparator-badge">Table Lumineuse du Conservateur</span>
+          <h2 class="comparator-title">Face-à-Face Stylistique & Matériel</h2>
+          <span class="comparator-subtitle" id="comparator-subtitle">Confrontation de deux chefs-d'œuvre contemporains</span>
+        </div>
+        <button type="button" class="btn-comparator-close" id="btn-comparator-close" title="Fermer la comparaison">&times;</button>
+      </header>
+
+      <div class="comparator-body">
+        <!-- Volet Gauche (Œuvre A) -->
+        <article class="comparator-panel panel-left" id="comparator-panel-left">
+          <div class="comparator-img-frame">
+            <img id="comp-left-img" src="" alt="" loading="lazy" />
+            <span class="comparator-civ-tag" id="comp-left-civ"></span>
+          </div>
+          <div class="comparator-meta">
+            <div class="comparator-epoch-badge" id="comp-left-epoch"></div>
+            <h3 class="comparator-artwork-title" id="comp-left-title"></h3>
+            <div class="comparator-site-line" id="comp-left-site"></div>
+            <div class="comparator-cat-badge" id="comp-left-cat"></div>
+            <p class="comparator-excerpt" id="comp-left-excerpt"></p>
+            <button type="button" class="btn-comp-view-full" id="btn-comp-view-left">Consulter la notice complète</button>
+          </div>
+        </article>
+
+        <!-- Séparateur central ornemental -->
+        <div class="comparator-divider" aria-hidden="true">
+          <div class="comp-divider-line"></div>
+          <div class="comp-divider-emblem" id="comp-divider-emblem">VS</div>
+          <div class="comp-divider-line"></div>
+        </div>
+
+        <!-- Volet Droit (Œuvre B) -->
+        <article class="comparator-panel panel-right" id="comparator-panel-right">
+          <div class="comparator-img-frame">
+            <img id="comp-right-img" src="" alt="" loading="lazy" />
+            <span class="comparator-civ-tag" id="comp-right-civ"></span>
+          </div>
+          <div class="comparator-meta">
+            <div class="comparator-epoch-badge" id="comp-right-epoch"></div>
+            <h3 class="comparator-artwork-title" id="comp-right-title"></h3>
+            <div class="comparator-site-line" id="comp-right-site"></div>
+            <div class="comparator-cat-badge" id="comp-right-cat"></div>
+            <p class="comparator-excerpt" id="comp-right-excerpt"></p>
+            <button type="button" class="btn-comp-view-full" id="btn-comp-view-right">Consulter la notice complète</button>
+          </div>
+        </article>
+      </div>
+
+      <!-- Ruban inférieur de sélection : changer l'œuvre comparée B -->
+      <footer class="comparator-footer">
+        <div class="comp-footer-label">
+          <span>Comparer avec une autre civilisation contemporaine :</span>
+        </div>
+        <div class="comp-switcher-ribbon" id="comp-switcher-ribbon">
+          <!-- Vignettes injectées en JS -->
+        </div>
+      </footer>
+    </div>
+  </div>
+
   <!-- LIGHTBOX PLEIN ÉCRAN POUR L'IMAGE SEULE AVEC OUTILS LOUPE & ZOOM -->
   <div id="artwork-lightbox-zoom" class="artwork-lightbox" hidden>
     <!-- BARRE D'OUTILS SUPÉRIEURE FLOTTANTE -->

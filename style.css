@@ -4661,3 +4661,463 @@ body {
   padding-top: 6px !important;
   border-top: 1px solid rgba(255, 255, 255, 0.05) !important;
 }
+
+.btn-sync-compare {
+  margin-top: 6px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 5px !important;
+  width: 100% !important;
+  font-family: 'Cinzel', serif !important;
+  font-size: 0.64rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.6px !important;
+  text-transform: uppercase !important;
+  color: var(--gold-pale, #f5e6b8) !important;
+  background: rgba(212, 175, 55, 0.12) !important;
+  border: 1px solid rgba(212, 175, 55, 0.4) !important;
+  padding: 4px 8px !important;
+  border-radius: 4px !important;
+  cursor: pointer !important;
+  transition: all 0.18s ease !important;
+}
+
+.btn-sync-compare:hover {
+  background: rgba(212, 175, 55, 0.28) !important;
+  border-color: var(--gold-pure, #d4af37) !important;
+  color: #ffffff !important;
+}
+
+/* ==========================================================================
+   TABLE LUMINEUSE DU CONSERVATEUR (FACE-À-FACE COMPARATIF)
+   ========================================================================== */
+.comparator-modal {
+  position: fixed !important;
+  inset: 0 !important;
+  z-index: 100030 !important;
+  background: rgba(3, 4, 7, 0.96) !important;
+  backdrop-filter: blur(25px) !important;
+  -webkit-backdrop-filter: blur(25px) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 1rem !important;
+  box-sizing: border-box !important;
+}
+
+.comparator-modal[hidden] {
+  display: none !important;
+}
+
+.comparator-frame {
+  background: #0b0d14 !important;
+  border: 1px solid rgba(212, 175, 55, 0.45) !important;
+  border-radius: 8px !important;
+  width: 1420px !important;
+  max-width: 96vw !important;
+  height: 92vh !important;
+  max-height: 94vh !important;
+  box-shadow: 0 30px 100px rgba(0, 0, 0, 0.98), 0 0 50px rgba(212, 175, 55, 0.15) !important;
+  display: flex !important;
+  flex-direction: column !important;
+  overflow: hidden !important;
+  position: relative !important;
+}
+
+.comparator-header {
+  padding: 0.9rem 1.6rem !important;
+  background: linear-gradient(180deg, rgba(16, 20, 32, 0.98) 0%, rgba(10, 13, 20, 0.95) 100%) !important;
+  border-bottom: 1px solid rgba(212, 175, 55, 0.3) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 1rem !important;
+}
+
+.comparator-badge {
+  font-family: 'Cinzel', serif !important;
+  font-size: 0.68rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 2px !important;
+  color: var(--gold-pure, #d4af37) !important;
+  text-transform: uppercase !important;
+  display: block !important;
+  margin-bottom: 2px !important;
+}
+
+.comparator-title {
+  font-family: 'Cinzel', serif !important;
+  font-size: 1.25rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 1px !important;
+  color: #fff !important;
+  margin: 0 !important;
+  line-height: 1.2 !important;
+}
+
+.comparator-subtitle {
+  font-size: 0.78rem !important;
+  color: #9aa5b8 !important;
+  font-style: italic !important;
+}
+
+.btn-comparator-close {
+  background: rgba(18, 22, 32, 0.8) !important;
+  border: 1px solid rgba(255, 255, 255, 0.15) !important;
+  color: #e5e9f0 !important;
+  font-size: 1.5rem !important;
+  line-height: 1 !important;
+  width: 38px !important;
+  height: 38px !important;
+  border-radius: 50% !important;
+  cursor: pointer !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  transition: all 0.2s ease !important;
+}
+
+.btn-comparator-close:hover {
+  background: rgba(220, 38, 38, 0.25) !important;
+  border-color: rgba(239, 68, 68, 0.6) !important;
+  color: #ff9999 !important;
+  transform: rotate(90deg) !important;
+}
+
+.comparator-body {
+  flex: 1 !important;
+  display: flex !important;
+  flex-direction: row !important;
+  overflow-y: auto !important;
+  padding: 1.2rem 1.6rem !important;
+  gap: 1.2rem !important;
+  box-sizing: border-box !important;
+}
+
+.comparator-panel {
+  flex: 1 1 50% !important;
+  min-width: 0 !important;
+  background: rgba(14, 18, 28, 0.75) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  border-radius: 8px !important;
+  padding: 1.2rem !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 12px !important;
+  box-sizing: border-box !important;
+}
+
+.comparator-panel.panel-left {
+  border-left: 2px solid rgba(212, 175, 55, 0.5) !important;
+}
+
+.comparator-panel.panel-right {
+  border-right: 2px solid rgba(212, 175, 55, 0.5) !important;
+}
+
+.comparator-img-frame {
+  height: 36vh !important;
+  max-height: 310px !important;
+  width: 100% !important;
+  background: #05070a !important;
+  border-radius: 6px !important;
+  position: relative !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  overflow: hidden !important;
+  box-shadow: inset 0 0 40px rgba(0, 0, 0, 0.85) !important;
+  border: 1px solid rgba(255, 255, 255, 0.05) !important;
+}
+
+.comparator-img-frame img {
+  max-width: 95% !important;
+  max-height: 95% !important;
+  object-fit: contain !important;
+  filter: drop-shadow(0 15px 30px rgba(0, 0, 0, 0.95)) !important;
+  transition: transform 0.4s ease !important;
+}
+
+.comparator-img-frame:hover img {
+  transform: scale(1.04) !important;
+}
+
+.comparator-civ-tag {
+  position: absolute !important;
+  bottom: 8px !important;
+  left: 8px !important;
+  font-family: 'Cinzel', serif !important;
+  font-size: 0.65rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 1px !important;
+  color: #fff !important;
+  background: rgba(10, 13, 20, 0.92) !important;
+  border: 1px solid rgba(212, 175, 55, 0.6) !important;
+  padding: 3px 8px !important;
+  border-radius: 4px !important;
+  backdrop-filter: blur(5px) !important;
+  max-width: 85% !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+
+.comparator-meta {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 6px !important;
+  flex: 1 !important;
+}
+
+.comparator-epoch-badge {
+  font-family: 'Cinzel', serif !important;
+  font-size: 0.72rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 1px !important;
+  color: var(--gold-pale, #f5e6b8) !important;
+}
+
+.comparator-artwork-title {
+  font-family: 'Cinzel', serif !important;
+  font-size: 1.05rem !important;
+  font-weight: 700 !important;
+  color: #fff !important;
+  line-height: 1.3 !important;
+  margin: 0 !important;
+}
+
+.comparator-site-line {
+  font-size: 0.74rem !important;
+  color: #8c97aa !important;
+}
+
+.comparator-cat-badge {
+  display: inline-block !important;
+  font-family: 'Cinzel', serif !important;
+  font-size: 0.62rem !important;
+  font-weight: 600 !important;
+  color: #c9d2e0 !important;
+  background: rgba(255, 255, 255, 0.06) !important;
+  border: 1px solid rgba(255, 255, 255, 0.12) !important;
+  padding: 2px 8px !important;
+  border-radius: 4px !important;
+  align-self: flex-start !important;
+}
+
+.comparator-excerpt {
+  font-size: 0.8rem !important;
+  line-height: 1.5 !important;
+  color: #cfd6e4 !important;
+  margin: 6px 0 0 0 !important;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 4 !important;
+  -webkit-box-orient: vertical !important;
+  overflow: hidden !important;
+}
+
+.btn-comp-view-full {
+  margin-top: auto !important;
+  align-self: flex-start !important;
+  background: rgba(212, 175, 55, 0.12) !important;
+  border: 1px solid rgba(212, 175, 55, 0.4) !important;
+  color: var(--gold-pale, #f5e6b8) !important;
+  font-family: 'Cinzel', serif !important;
+  font-size: 0.72rem !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.8px !important;
+  text-transform: uppercase !important;
+  padding: 6px 14px !important;
+  border-radius: 20px !important;
+  cursor: pointer !important;
+  transition: all 0.2s ease !important;
+}
+
+.btn-comp-view-full:hover {
+  background: rgba(212, 175, 55, 0.25) !important;
+  border-color: var(--gold-pure, #d4af37) !important;
+  color: #fff !important;
+  transform: translateY(-1px) !important;
+}
+
+.comparator-divider {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 44px !important;
+  flex-shrink: 0 !important;
+}
+
+.comp-divider-line {
+  flex: 1 !important;
+  width: 1px !important;
+  background: linear-gradient(180deg, transparent, rgba(212, 175, 55, 0.5), transparent) !important;
+}
+
+.comp-divider-emblem {
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 50% !important;
+  background: #101422 !important;
+  border: 1.5px solid var(--gold-pure, #d4af37) !important;
+  color: var(--gold-pale, #f5e6b8) !important;
+  font-family: 'Cinzel', serif !important;
+  font-size: 0.75rem !important;
+  font-weight: 700 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  box-shadow: 0 0 16px rgba(212, 175, 55, 0.35) !important;
+  margin: 12px 0 !important;
+}
+
+.comparator-footer {
+  padding: 0.8rem 1.6rem !important;
+  background: rgba(10, 13, 20, 0.98) !important;
+  border-top: 1px solid rgba(212, 175, 55, 0.25) !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 1rem !important;
+  flex-wrap: wrap !important;
+}
+
+.comp-footer-label {
+  font-family: 'Cinzel', serif !important;
+  font-size: 0.72rem !important;
+  font-weight: 600 !important;
+  color: var(--gold-pale, #f5e6b8) !important;
+  white-space: nowrap !important;
+}
+
+.comp-switcher-ribbon {
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  overflow-x: auto !important;
+  flex: 1 !important;
+  padding-bottom: 2px !important;
+}
+
+.comp-switcher-thumb {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  background: rgba(18, 23, 34, 0.85) !important;
+  border: 1px solid rgba(255, 255, 255, 0.12) !important;
+  border-radius: 20px !important;
+  padding: 3px 10px 3px 4px !important;
+  cursor: pointer !important;
+  transition: all 0.2s ease !important;
+  white-space: nowrap !important;
+}
+
+.comp-switcher-thumb img {
+  width: 24px !important;
+  height: 24px !important;
+  border-radius: 50% !important;
+  object-fit: cover !important;
+  border: 1px solid rgba(212, 175, 55, 0.5) !important;
+}
+
+.comp-switcher-thumb span {
+  font-family: 'Cinzel', serif !important;
+  font-size: 0.68rem !important;
+  font-weight: 600 !important;
+  color: #d1d8e5 !important;
+}
+
+.comp-switcher-thumb:hover {
+  border-color: rgba(212, 175, 55, 0.6) !important;
+  background: rgba(212, 175, 55, 0.15) !important;
+  color: #fff !important;
+}
+
+.comp-switcher-thumb.is-active {
+  border-color: var(--gold-pure, #d4af37) !important;
+  background: rgba(212, 175, 55, 0.25) !important;
+  box-shadow: 0 0 10px rgba(212, 175, 55, 0.3) !important;
+}
+
+/* ==========================================================================
+   RUBAN DES PARCOURS THÉMATIQUES TRANSVERSAUX
+   ========================================================================== */
+.thematic-trails-bar {
+  display: flex !important;
+  align-items: center !important;
+  gap: 12px !important;
+  padding: 8px 16px 12px 16px !important;
+  background: rgba(10, 13, 20, 0.6) !important;
+  border-bottom: 1px solid rgba(212, 175, 55, 0.15) !important;
+  overflow-x: auto !important;
+  flex-wrap: nowrap !important;
+}
+
+.thematic-trails-label {
+  display: flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  font-family: 'Cinzel', serif !important;
+  font-size: 0.72rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 1px !important;
+  color: var(--gold-pure, #d4af37) !important;
+  white-space: nowrap !important;
+  flex-shrink: 0 !important;
+}
+
+.thematic-trails-chips {
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  overflow-x: auto !important;
+  padding-bottom: 2px !important;
+}
+
+.btn-trail-chip {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  font-family: 'Cinzel', serif !important;
+  font-size: 0.7rem !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.6px !important;
+  color: #c9d2e0 !important;
+  background: rgba(18, 22, 32, 0.75) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  padding: 4px 12px !important;
+  border-radius: 20px !important;
+  cursor: pointer !important;
+  transition: all 0.2s ease !important;
+  white-space: nowrap !important;
+}
+
+.btn-trail-chip:hover {
+  background: rgba(212, 175, 55, 0.15) !important;
+  border-color: rgba(212, 175, 55, 0.5) !important;
+  color: #fff !important;
+  transform: translateY(-1px) !important;
+}
+
+.btn-trail-chip.is-active {
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.3) 0%, rgba(212, 175, 55, 0.15) 100%) !important;
+  border-color: var(--gold-pure, #d4af37) !important;
+  color: #fff !important;
+  box-shadow: 0 0 12px rgba(212, 175, 55, 0.25) !important;
+}
+
+@media (max-width: 900px) {
+  .comparator-body {
+    flex-direction: column !important;
+  }
+  .comparator-divider {
+    flex-direction: row !important;
+    width: 100% !important;
+    height: 40px !important;
+  }
+  .comp-divider-line {
+    height: 1px !important;
+    width: 100% !important;
+    background: linear-gradient(90deg, transparent, rgba(212, 175, 55, 0.5), transparent) !important;
+  }
+}

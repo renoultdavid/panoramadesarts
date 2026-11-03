@@ -1682,6 +1682,9 @@ function renderContemporaneousRibbon(currentArt) {
           </div>
           <div class="sync-card-title">${cleanTitle}</div>
           <div class="sync-card-site">${cleanSite}</div>
+          <button type="button" class="btn-sync-compare" data-compare-id="${card.id}" title="Comparer cette œuvre en Face-à-Face">
+            ⚖️ Face-à-Face
+          </button>
         </div>
       </div>
     `;
@@ -1689,7 +1692,21 @@ function renderContemporaneousRibbon(currentArt) {
 
   // Clic sur une carte contemporaine : navigation fluide avec historique
   modalSyncRibbon.querySelectorAll('.sync-card').forEach(cardEl => {
+    // Bouton de comparaison Face-à-Face direct
+    const btnComp = cardEl.querySelector('.btn-sync-compare');
+    if (btnComp) {
+      btnComp.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const targetId = btnComp.getAttribute('data-compare-id');
+        const targetArt = (window.ART_OBJECTS || []).find(a => a.id === targetId);
+        if (targetArt) {
+          openComparator(currentArt, targetArt, contemporaries);
+        }
+      });
+    }
+
     cardEl.addEventListener('click', (e) => {
+      if (e.target && e.target.closest('.btn-sync-compare')) return;
       e.stopPropagation();
       const targetId = cardEl.getAttribute('data-card-id');
       const targetArt = (window.ART_OBJECTS || []).find(a => a.id === targetId);
@@ -1708,6 +1725,180 @@ function renderContemporaneousRibbon(currentArt) {
     });
   });
 }
+
+/* ==========================================================================
+   MODULE COMPARATEUR DE CHEFS-D'ŒUVRE (TABLE LUMINEUSE EN FACE-À-FACE)
+   ========================================================================== */
+const comparatorModal = document.getElementById('comparator-modal');
+const btnComparatorClose = document.getElementById('btn-comparator-close');
+const compSubtitle = document.getElementById('comparator-subtitle');
+const compDividerEmblem = document.getElementById('comp-divider-emblem');
+const compSwitcherRibbon = document.getElementById('comp-switcher-ribbon');
+
+const compLeftImg = document.getElementById('comp-left-img');
+const compLeftCiv = document.getElementById('comp-left-civ');
+const compLeftEpoch = document.getElementById('comp-left-epoch');
+const compLeftTitle = document.getElementById('comp-left-title');
+const compLeftSite = document.getElementById('comp-left-site');
+const compLeftCat = document.getElementById('comp-left-cat');
+const compLeftExcerpt = document.getElementById('comp-left-excerpt');
+const btnCompViewLeft = document.getElementById('btn-comp-view-left');
+
+const compRightImg = document.getElementById('comp-right-img');
+const compRightCiv = document.getElementById('comp-right-civ');
+const compRightEpoch = document.getElementById('comp-right-epoch');
+const compRightTitle = document.getElementById('comp-right-title');
+const compRightSite = document.getElementById('comp-right-site');
+const compRightCat = document.getElementById('comp-right-cat');
+const compRightExcerpt = document.getElementById('comp-right-excerpt');
+const btnCompViewRight = document.getElementById('btn-comp-view-right');
+
+let currentCompArtA = null;
+let currentCompArtB = null;
+let currentCompCandidates = [];
+
+function extractCleanExcerpt(narrative) {
+  if (!narrative) return '';
+  const match = narrative.match(/<p>(.*?)<\/p>/i);
+  let raw = match ? match[1] : narrative;
+  raw = raw.replace(/<[^>]+>/g, '').trim();
+  if (raw.length > 250) {
+    return raw.substring(0, 240) + '…';
+  }
+  return raw;
+}
+
+function openComparator(artA, artB, contemporariesList = []) {
+  if (!comparatorModal || !artA || !artB) return;
+
+  currentCompArtA = artA;
+  currentCompArtB = artB;
+  currentCompCandidates = contemporariesList.length > 0 ? contemporariesList : [artB];
+
+  // Remplir le panneau gauche (Œuvre A)
+  if (compLeftImg) {
+    compLeftImg.src = artA.imgSrc;
+    compLeftImg.alt = artA.title || '';
+  }
+  if (compLeftCiv) compLeftCiv.textContent = artA.civName || '';
+  if (compLeftEpoch) compLeftEpoch.textContent = artA.centuryDisplay || '';
+  if (compLeftTitle) compLeftTitle.textContent = artA.title || '';
+  if (compLeftSite) compLeftSite.textContent = artA.originSite || artA.site || '';
+  if (compLeftCat) compLeftCat.textContent = artA.category || artA.artifactType || 'Chef-d\'œuvre';
+  if (compLeftExcerpt) compLeftExcerpt.textContent = extractCleanExcerpt(artA.narrative);
+
+  // Mettre à jour le panneau droit (Œuvre B)
+  renderComparatorRightPanel(artB);
+
+  // Remplir le ruban de commutation inférieur
+  renderComparatorSwitcher();
+
+  comparatorModal.hidden = false;
+}
+
+function renderComparatorRightPanel(artB) {
+  currentCompArtB = artB;
+
+  if (compRightImg) {
+    compRightImg.src = artB.imgSrc;
+    compRightImg.alt = artB.title || '';
+  }
+  if (compRightCiv) compRightCiv.textContent = artB.civName || '';
+  if (compRightEpoch) compRightEpoch.textContent = artB.centuryDisplay || '';
+  if (compRightTitle) compRightTitle.textContent = artB.title || '';
+  if (compRightSite) compRightSite.textContent = artB.originSite || artB.site || '';
+  if (compRightCat) compRightCat.textContent = artB.category || artB.artifactType || 'Chef-d\'œuvre';
+  if (compRightExcerpt) compRightExcerpt.textContent = extractCleanExcerpt(artB.narrative);
+
+  // Calcul du différentiel chronologique central
+  if (compDividerEmblem && currentCompArtA) {
+    const diff = Math.abs(Number(artB.centuryNumeric || 0) - Number(currentCompArtA.centuryNumeric || 0));
+    if (diff === 0) {
+      compDividerEmblem.textContent = '≈';
+      compDividerEmblem.title = 'Contemporains exacts';
+    } else {
+      compDividerEmblem.textContent = `±${diff}a`;
+      compDividerEmblem.title = `Écart chronologique : environ ${diff} ans`;
+    }
+  }
+
+  if (compSubtitle && currentCompArtA) {
+    compSubtitle.textContent = `Confrontation directe : ${currentCompArtA.civName || 'Civilisation A'} vs ${artB.civName || 'Civilisation B'}`;
+  }
+
+  // Mettre à jour l'état actif dans le switcher
+  if (compSwitcherRibbon) {
+    compSwitcherRibbon.querySelectorAll('.comp-switcher-thumb').forEach(btn => {
+      const bId = btn.getAttribute('data-comp-id');
+      if (bId === artB.id) btn.classList.add('is-active');
+      else btn.classList.remove('is-active');
+    });
+  }
+}
+
+function renderComparatorSwitcher() {
+  if (!compSwitcherRibbon) return;
+
+  compSwitcherRibbon.innerHTML = currentCompCandidates.map(c => {
+    const isActive = currentCompArtB && c.id === currentCompArtB.id;
+    return `
+      <button type="button" class="comp-switcher-thumb ${isActive ? 'is-active' : ''}" data-comp-id="${c.id}" title="Comparer avec : ${escapeHtmlAttr(c.title)}">
+        <img src="${c.imgSrc}" alt="" />
+        <span>${escapeHtmlAttr(c.civName || 'Autre')}</span>
+      </button>
+    `;
+  }).join('');
+
+  compSwitcherRibbon.querySelectorAll('.comp-switcher-thumb').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const targetId = btn.getAttribute('data-comp-id');
+      const targetArt = (window.ART_OBJECTS || []).find(a => a.id === targetId);
+      if (targetArt) {
+        renderComparatorRightPanel(targetArt);
+      }
+    });
+  });
+}
+
+function closeComparator() {
+  if (!comparatorModal) return;
+  comparatorModal.hidden = true;
+}
+
+if (btnComparatorClose) {
+  btnComparatorClose.addEventListener('click', closeComparator);
+}
+
+if (comparatorModal) {
+  comparatorModal.addEventListener('click', (e) => {
+    if (e.target === comparatorModal) closeComparator();
+  });
+}
+
+if (btnCompViewLeft) {
+  btnCompViewLeft.addEventListener('click', () => {
+    if (currentCompArtA) {
+      closeComparator();
+      openCuratorModal(currentCompArtA, [currentCompArtA]);
+    }
+  });
+}
+
+if (btnCompViewRight) {
+  btnCompViewRight.addEventListener('click', () => {
+    if (currentCompArtB) {
+      closeComparator();
+      openCuratorModal(currentCompArtB, [currentCompArtB]);
+    }
+  });
+}
+
+window.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape' && comparatorModal && !comparatorModal.hidden) {
+    closeComparator();
+  }
+});
 
 /* ==========================================================================
    TAXONOMIE OFFICIELLE DU MUSÉE & MOTEUR EN CASCADE
@@ -1926,12 +2117,70 @@ const TAXONOMY_DOMAINS = {
 };
 
 /* ==========================================================================
-   INITIALISATION DU MOTEUR EN CASCADE
+   INITIALISATION DU MOTEUR EN CASCADE & PARCOURS THÉMATIQUES
    ========================================================================== */
 let currentRenderLimit = 60;
 const PAGE_CHUNK = 60;
 
+// Référentiel des Parcours Thématiques transversaux
+let activeThematicTrail = 'all';
+
+const THEMATIC_TRAILS = {
+  "bestiaire": {
+    name: "Bestiaire Sacré",
+    keywords: ["lion", "taureau", "zébu", "cheval", "saluki", "chien", "cerf", "biche", "faucon", "oiseau", "canard", "tortue", "capridé", "bouquetin", "serpent", "sphinx", "griffon", "chat", "animal", "animaux", "animalier", "faune"]
+  },
+  "banquet": {
+    name: "Art du Banquet",
+    keywords: ["banquet", "symposion", "cratère", "dinos", "coupe", "kylix", "rhyton", "vin", "libation", "échanson", "lécythe", "oenochoé", "œnochoé", "cruche", "askos"]
+  },
+  "pouvoir": {
+    name: "Fastes & Pouvoir",
+    keywords: ["roi", "pharaon", "calife", "apadana", "darius", "cyrus", "hisham", "archer", "mélophore", "candys", "sceptre", "couronne", "stèle", "charte", "palais", "garde", "impérial", "empereur", "trône"]
+  },
+  "guerriers": {
+    name: "Mythes & Guerriers",
+    keywords: ["guerrier", "hoplite", "amazone", "épée", "lance", "bouclier", "casque", "combat", "héroïque", "apollon", "héraclès", "athéna", "mythologique", "centaure", "armure"]
+  },
+  "au_dela": {
+    name: "Rites de l'Au-delà",
+    keywords: ["sarcophage", "tombe", "funéraire", "urne", "cippe", "osiris", "anubis", "défunt", "épitaphe", "masque", "plangon", "nécropole", "momie", "larnax", "canope"]
+  },
+  "argile": {
+    name: "Argile & Céramique",
+    keywords: ["céramique", "terre cuite", "glaçure", "émail", "brique", "vase", "jarre", "plat", "aryballe", "figures noires", "figures rouges", "peinte", "poterie"]
+  },
+  "metaux": {
+    name: "Métaux & Orfèvrerie",
+    keywords: ["bronze", "or", "argent", "cuivre", "chryséléphantin", "métallurgie", "nielle", "verre", "bijou", "astrolabe", "orfèvrerie", "dépôt"]
+  }
+};
+
+function initThematicTrails() {
+  const container = document.getElementById('thematic-trails-chips');
+  if (!container) return;
+
+  container.querySelectorAll('.btn-trail-chip').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const trail = btn.getAttribute('data-trail') || 'all';
+      activeThematicTrail = trail;
+
+      container.querySelectorAll('.btn-trail-chip').forEach(b => {
+        if (b === btn) b.classList.add('is-active');
+        else b.classList.remove('is-active');
+      });
+
+      // Si une recherche textuelle était active, on la conserve ou réinitialise
+      currentRenderLimit = PAGE_CHUNK;
+      renderSearchGallery();
+    });
+  });
+}
+
 function initSearchEngine() {
+  initThematicTrails();
+
   const filterCiv = document.getElementById('filter-civ');
   const filterPeriod = document.getElementById('filter-period');
   const filterDomain = document.getElementById('filter-domain');
@@ -2555,6 +2804,14 @@ function initSearchEngine() {
   if (btnReset) {
     btnReset.addEventListener('click', () => {
       activeChipExactFilter = '';
+      activeThematicTrail = 'all';
+      const trailChips = document.getElementById('thematic-trails-chips');
+      if (trailChips) {
+        trailChips.querySelectorAll('.btn-trail-chip').forEach(b => {
+          if (b.getAttribute('data-trail') === 'all') b.classList.add('is-active');
+          else b.classList.remove('is-active');
+        });
+      }
       if (artistHero) artistHero.hidden = true;
       if (corpusDashboard) corpusDashboard.hidden = true;
       if (corpusSourceDrawer) corpusSourceDrawer.hidden = true;
@@ -2762,6 +3019,20 @@ function renderSearchGallery() {
     if (isArtistView && activeArtistName) {
       const itemArtist = (item.artist || '').toLowerCase().trim();
       if (itemArtist !== activeArtistName) return false;
+    }
+
+    // 0. Filtre Parcours Thématique Transversal
+    if (activeThematicTrail !== 'all' && THEMATIC_TRAILS[activeThematicTrail]) {
+      const trailKeywords = THEMATIC_TRAILS[activeThematicTrail].keywords;
+      const haystack = (
+        (item.title || '') + ' ' +
+        (item.category || '') + ' ' +
+        (item.artifactType || '') + ' ' +
+        (item.chips ? item.chips.join(' ') : '') + ' ' +
+        (item.narrative || '')
+      ).toLowerCase();
+      const matchesTrail = trailKeywords.some(kw => haystack.includes(kw));
+      if (!matchesTrail) return false;
     }
 
     // 1. Filtre Civilisation (compatible civId "egypte_ancien" et civId "egypte")
