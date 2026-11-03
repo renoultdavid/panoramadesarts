@@ -3,6 +3,131 @@
    ========================================================================== */
 window.ART_OBJECTS = [
   {
+    id: "peinture_mosaique_chasseur_galets_alexandrie",
+    civId: "grece",
+    periodId: "grece_hellenistique",
+    civName: "Grèce antique",
+    century: "Fin du IVe siècle avant J.-C. (vers 320 av. J.-C.)",
+    centuryDisplay: "IVe s. av. J.-C.",
+    centuryNumeric: -320,
+    domain: "peinture_mosaique",
+    artifactType: "Mosaïque de pavement / murale",
+    title: "Mosaïque de galets : jeune chasseur combattant une bête sauvage (Alexandrie)",
+    site: "Musée gréco-romain d'Alexandrie (Égypte)",
+    originSite: "Alexandrie (Égypte ptolémaïque)",
+    locationType: "museum",
+    currentLocation: "Musée gréco-romain d'Alexandrie (Égypte)",
+    category: "Mosaïque de pavement en galets naturels polychromes (noir, blanc, ocre, rouge)",
+    isHighlight: true,
+    chips: ["IVe s. av. J.-C.", "Grèce antique", "Époque hellénistique", "Alexandrie", "Mosaïque", "Galets", "Chasseur", "Animaux fantastiques", "Clair-obscur", "Musée gréco-romain d'Alexandrie"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczO8XebvQRERWW-j9iJUMyevL8bRgC832qGkLIyw-58xXph_S5OA3km6FX9ykXau58FfA4F3ooJInYOjRhLrmEJ7OYv0YylyzOBL6Zn_qXeBIzwGI624-0-d-mvwnHJ81OguuvDEV0yBq2A6xf2ZJsS_5g=w1606-h2408-s-no-gm?authuser=0",
+    narrative: `<p>Cette mosaïque de galets, datée de la fin du IVe siècle avant J.-C. (vers 320 av. J.-C.), est l'un des plus beaux exemples de l'art décoratif de l'époque hellénistique précoce. Découverte à Alexandrie, en Égypte, elle témoigne du raffinement des demeures aristocratiques de la cité fondée par Alexandre le Grand. À cette époque, la technique de la mosaïque n'utilise pas encore des tesselles cubiques taillées, mais de petits galets naturels sélectionnés pour leurs nuances de noir, de blanc, de gris et d'ocre, permettant de créer des contrastes saisissants et un modelé quasi pictural.</p>
+    <p>La scène centrale représente un jeune chasseur engagé dans une lutte héroïque contre une bête sauvage. Le personnage est figuré dans une nudité héroïque, le corps tendu dans un effort dynamique. Il brandit une lance ou un épieu, tandis que son autre bras porte un bouclier ou une chlamyde pour se protéger. Le dynamisme de la pose, avec ses jambes écartées et ses muscles saillants, reflète l'influence de la grande sculpture grecque du IVe siècle, notamment celle de Lysippe ou de Scopas. La précision avec laquelle les galets blancs dessinent l'anatomie sur le fond sombre de galets noirs crée un effet de clair-obscur remarquable.</p>
+    <p>Le panneau est structuré par des bordures géométriques et orné, dans ses registres inférieurs et latéraux, de figures animales et fantastiques. On y distingue des créatures hybrides, comme des griffons ou des panthères, traitées avec une grande liberté de mouvement. Ces motifs animaliers ne sont pas seulement décoratifs ; ils évoquent le monde sauvage et les parcs de chasse (les « paradeisos ») prisés par l'élite macédonienne et alexandrine. L'utilisation de galets rouges ou ocre pour souligner certains détails, comme les crinières ou les blessures des animaux, ajoute une touche de réalisme et de vitalité à l'ensemble.</p>
+    <p>Cette mosaïque illustre parfaitement la transition vers un art plus expressif et mouvementé, caractéristique de l'hellénisme naissant. Elle montre comment les artisans d'Alexandrie ont su porter la technique rudimentaire du galet à un niveau de sophistication extrême, jouant sur la densité des pierres pour suggérer le volume et le mouvement. Aujourd'hui conservée au musée gréco-romain d'Alexandrie, elle demeure un document archéologique précieux sur le luxe et les goûts esthétiques des premiers citoyens de la métropole égyptienne.</p>
+    <p><strong>Siècle :</strong> Fin du IVe siècle av. J.-C. (vers -320) | <strong>Civilisation :</strong> Grèce antique (Époque hellénistique précoce) | <strong>Lieu de conservation :</strong> Musée gréco-romain d'Alexandrie (Égypte).</p>`
+  },
+  {
+    id: "peinture_mosaique_alphee_arethuse_alexandrie",
+    civId: "grece",
+    periodId: "grece_hellenistique",
+    civName: "Grèce antique",
+    century: "Vers 200 avant J.-C. (fin du IIIe siècle av. J.-C.)",
+    centuryDisplay: "IIIe-IIe s. av. J.-C.",
+    centuryNumeric: -200,
+    domain: "peinture_mosaique",
+    artifactType: "Mosaïque de pavement / murale",
+    title: "Mosaïque en opus vermiculatum : la nymphe Aréthuse fuyant le dieu-fleuve Alphée (Alexandrie)",
+    site: "Musée gréco-romain d'Alexandrie (Égypte)",
+    originSite: "Alexandrie (Égypte ptolémaïque)",
+    locationType: "museum",
+    currentLocation: "Musée gréco-romain d'Alexandrie (Égypte)",
+    category: "Mosaïque de pavement en opus vermiculatum (tesselles polychromes de pierre et pâte de verre)",
+    isHighlight: true,
+    chips: ["IIIe s. av. J.-C.", "IIe s. av. J.-C.", "Grèce antique", "Époque hellénistique", "Alexandrie", "Mosaïque", "Opus vermiculatum", "Mythologie", "Aréthuse", "Alphée", "Musée gréco-romain d'Alexandrie"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP4nML_jFLwCngUfUzJeF-MvpzmcYLC4vgkc8yaqKYSjFr6_Qtl_di3iWq4rAiHlmHCrBm99lSVMyxPT_gNH3xoiqD82GAhBMcUwONp4ViSWcfyNfM137CG4kMcy2-bSsdjYuzE-U3-FgOeV1hpgv_uQg=w1705-h1136-s-no-gm?authuser=0",
+    narrative: `<p>Cette mosaïque illustre un épisode célèbre de la mythologie grecque : la nymphe Aréthuse fuyant le dieu-fleuve Alphée. Le dynamisme de la scène, la torsion des corps et l'expression d'urgence sur les visages sont caractéristiques de l'esthétique hellénistique, qui cherche à capturer l'émotion et le mouvement avec une intensité dramatique nouvelle.</p>
+    <p>Techniquement, l'œuvre utilise l'<em>opus vermiculatum</em>, avec des tesselles si fines et si serrées qu'elles permettent de rendre les reflets ondulants de l'eau et la transparence vaporeuse des drapés avec une précision picturale digne de la peinture de chevalet. L'absence totale de motifs égyptiens (aucun hiéroglyphe ni conventions hiératiques frontales) confirme qu'il s'agit d'une œuvre prestigieuse destinée à l'élite grecque d'Alexandrie, vivant au cœur d'un environnement culturel et artistique directement calqué sur celui de la Grèce continentale et des cités égéennes.</p>
+    <p><strong>Siècle :</strong> Vers 200 av. J.-C. (fin du IIIe siècle av. J.-C.) | <strong>Civilisation :</strong> Grèce antique (Époque hellénistique) | <strong>Lieu de conservation :</strong> Musée gréco-romain d'Alexandrie (Égypte).</p>`
+  },
+  {
+    id: "peinture_mosaique_berenice_ii_thmuis_alexandrie",
+    civId: "grece",
+    periodId: "grece_hellenistique",
+    civName: "Grèce antique",
+    century: "Vers 200 avant J.-C. (fin du IIIe siècle av. J.-C.)",
+    centuryDisplay: "IIIe-IIe s. av. J.-C.",
+    centuryNumeric: -200,
+    domain: "peinture_mosaique",
+    artifactType: "Mosaïque de pavement / murale",
+    title: "Mosaïque de Thmuis : personnification d'Alexandrie sous les traits de la reine Bérénice II",
+    site: "Musée gréco-romain d'Alexandrie (Égypte)",
+    originSite: "Thmuis (Tell el-Timai, delta du Nil, Égypte ptolémaïque)",
+    locationType: "museum",
+    currentLocation: "Musée gréco-romain d'Alexandrie (Égypte)",
+    category: "Pavement en mosaïque d'opus vermiculatum signé de Sophilos (tesselles polychromes)",
+    isHighlight: true,
+    chips: ["IIIe s. av. J.-C.", "IIe s. av. J.-C.", "Grèce antique", "Époque hellénistique", "Égypte ptolémaïque", "Alexandrie", "Thmuis", "Bérénice II", "Mosaïque", "Opus vermiculatum", "Proue de navire", "Thalassocratie", "Musée gréco-romain d'Alexandrie"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP4yN5id7IrtEXVc1zPF9JDCgNRpWeccxw00MUCFMQ72WFqsEf9Mtff3xq8c2DEtUaZfHvpJokjO3zWB9R-EHZot8-t3DV4nhYqiv5Wv-1R_9kvytlo2z9j2ZWD_3tr6GLml189n3bQvu7VMa8VuckRMg=w1705-h1136-s-no-gm?authuser=0",
+    narrative: `<p>Cette mosaïque de sol est l'un des exemples les plus achevés du raffinement technique atteint par les ateliers d’Alexandrie à l'époque hellénistique. Découverte dans les ruines de l’ancienne cité de Thmuis (dans le delta du Nil), elle représente vraisemblablement la reine Bérénice II sous les traits d’une personnification allégorique de la grande cité d’Alexandrie. La souveraine arbore une coiffe singulière et triomphale en forme de proue de navire, rappelant avec majesté la thalassocratie (la domination maritime militaire et marchande) exercée par la dynastie des Ptolémées sur l'ensemble du bassin oriental de la Méditerranée.</p>
+    <p>L’œuvre se distingue par l’utilisation suprême de l’<em>opus vermiculatum</em>, une technique employant des tesselles millimétriques permettant d’imiter la fluidité et les modelés de la peinture. Le travail minutieux des ombres sur le visage, le rendu expressif de la pupille et la torsion subtile du cou confèrent à la reine une présence psychologique vibrante et un réalisme individualisé typiquement grecs. Bien que créée sur le sol égyptien pour la cour royale, cette mosaïque appartient pleinement au répertoire stylistique et iconographique du monde grec, illustrant le faste, le mécénat et l'identité culturelle macédonienne de l'élite dirigeante lagide.</p>
+    <p><strong>Siècle :</strong> Vers 200 av. J.-C. (fin du IIIe siècle av. J.-C.) | <strong>Civilisation :</strong> Grèce antique / Égypte ptolémaïque (Époque hellénistique) | <strong>Lieu de conservation :</strong> Musée gréco-romain d'Alexandrie (Égypte).</p>`
+  },
+  {
+    id: "peinture_mosaique_faune_marine_poissons_emblema_alexandrie",
+    civId: "grece",
+    periodId: "grece_hellenistique",
+    civName: "Grèce antique",
+    century: "Vers 100 avant J.-C. (fin du IIe - début du Ier siècle av. J.-C.)",
+    centuryDisplay: "IIe-Ier s. av. J.-C.",
+    centuryNumeric: -100,
+    domain: "peinture_mosaique",
+    artifactType: "Mosaïque de pavement / murale",
+    title: "Mosaïque de la faune marine et poissons en emblema (Alexandrie)",
+    site: "Musée gréco-romain d'Alexandrie (Égypte)",
+    originSite: "Alexandrie (Égypte ptolémaïque)",
+    locationType: "museum",
+    currentLocation: "Musée gréco-romain d'Alexandrie (Égypte)",
+    category: "Emblema circulaire en mosaïque polychrome et bordure géométrique en damier",
+    isHighlight: true,
+    chips: ["IIe s. av. J.-C.", "Ier s. av. J.-C.", "Grèce antique", "Époque hellénistique", "Alexandrie", "Mosaïque", "Opus vermiculatum", "Emblema", "Faune marine", "Poissons", "Damier", "Musée gréco-romain d'Alexandrie"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMAR7qbFe9Mk7bHhqQDa57bOQjLq2maYaoLHt2Xn1LoulRUSDc3ZkRtwSOzYp9fG9UNGBcob6az0nw9Z81d6sZ6-1GYJGvijkMLIxBd-YLjWqqcyt1qL3ewTd6q1ojw6KZu_l3vnBps7Ev3bzLdLZQj3w=w1705-h1136-s-no-gm?authuser=0",
+    narrative: `<p>Cette mosaïque polychrome, datée approximativement de l'an 100 avant J.-C., constitue un exemple remarquable du savoir-faire des ateliers d’Alexandrie à l'époque hellénistique tardive. Conservée au Musée gréco-romain d'Alexandrie, elle témoigne du goût prononcé de l'aristocratie ptolémaïque pour les représentations naturalistes du monde marin, un thème récurrent dans l'art méditerranéen de cette période qui servira plus tard de modèle direct aux célèbres mosaïques pompéiennes de faune marine.</p>
+    <p>La composition s'organise autour d'un panneau central foisonnant représentant diverses espèces aquatiques, où l'on distingue notamment des poissons aux écailles irisées et aux formes anatomiques d'une saisissante précision (sars, daurades, rougets, rascasses). L'artiste a utilisé une riche palette de nuances chromatiques (ocres, rouges, gris perle et reflets bleutés) pour modeler les volumes et suggérer le mouvement onduleux des animaux nageant dans l'onde. Ce médaillon circulaire, conçu sous forme d'<em>emblema</em> préfabriqué en atelier, est encadré par une bordure géométrique complexe en damier contrasté, qui met magistralement en valeur la fluidité organique et le dynamisme de la composition animalière.</p>
+    <p>L'importance de cette pièce réside dans son lien direct avec l'esthétique alexandrine, réputée dans tout le monde antique pour son goût minutieux du détail illusionniste et son observation scientifique de la nature. À cette époque, Alexandrie était le centre névralgique de l'innovation artistique et scientifique, exportant ses cartons, ses mosaïstes et ses modèles dans tout le bassin méditerranéen, du Proche-Orient hellénisé jusqu'à l'Italie romaine. Bien que fragmentaire, cette mosaïque reflète la richesse décorative des demeures aristocratiques de l'Égypte lagide, où le faste des pavements illustrait tant le statut social que la culture encyclopédique de leurs commanditaires.</p>
+    <p><strong>Siècle :</strong> Vers 100 av. J.-C. (fin du IIe - début du Ier siècle av. J.-C.) | <strong>Civilisation :</strong> Grèce antique / Égypte ptolémaïque (Époque hellénistique) | <strong>Lieu de conservation :</strong> Musée gréco-romain d'Alexandrie (Égypte).</p>`
+  },
+  {
+    id: "sculpture_taureau_argent_dore_sphyrelaton_delphes",
+    civId: "grece",
+    periodId: "grece_archaique",
+    civName: "Grèce antique",
+    century: "Milieu du VIe siècle avant J.-C. (vers 550 av. J.-C.)",
+    centuryDisplay: "VIe s. av. J.-C.",
+    centuryNumeric: -550,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire animale & gardienne (ronde-bosse)",
+    title: "Le Taureau d'argent de Delphes : statue monumentale en sphyrélaton d'argent et feuilles d'or",
+    site: "Musée archéologique de Delphes (Grèce)",
+    originSite: "Sanctuaire panhellénique d'Apollon à Delphes (découvert sous la Voie Sacrée)",
+    locationType: "museum",
+    currentLocation: "Musée archéologique de Delphes (Grèce)",
+    category: "Statuaire monumentale d'animal votif en sphyrélaton (feuilles d'argent et d'or martelées sur âme de bois)",
+    isHighlight: true,
+    chips: ["VIe s. av. J.-C.", "Grèce antique", "Époque archaïque", "Delphes", "Sanctuaire d'Apollon", "Voie Sacrée", "Taureau d'argent", "Sphyrélaton", "Orfèvrerie monumentale", "Feuilles d'or", "Offrande votive", "Musée de Delphes"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNa6zIzeCvMqMRXGrY_O4FlVNF8Mf3hk9QVqDrTv24pdZ6K7qRdIBmu1afPaHOWeWQuiwSjbNlHYxpQ3gaFnfDJWBFGVRrnVtmrk1Q_AyIiflg1xd2vHYCSXVtPQX980AUMBZg1qS3LcAcrYMKpD8_oug=w1705-h1136-s-no-gm?authuser=0",
+    narrative: `<p>Le taureau d’argent de Delphes, chef-d’œuvre exceptionnel de l’orfèvrerie et de la statuaire de l’époque archaïque, représente l’une des découvertes les plus précieuses réalisées dans le sanctuaire d’Apollon. Mis au jour en 1939 dans une fosse rituelle sous la Voie Sacrée, cet objet d’apparat date du milieu du VIe siècle avant notre ère (vers 550 av. J.-C.). Sa présence à Delphes témoigne de l’immense richesse des offrandes envoyées par les cités grecques d'Ionie ou de riches souverains étrangers, tels que le roi Crésus de Lydie, pour s’attirer la bienveillance de l’oracle pythique. Cette œuvre est unique non seulement par sa taille monumentale pour un objet en métal précieux — il mesure plus de deux mètres de long et approchait la grandeur naturelle — mais aussi par la rareté insigne du matériau employé, l’argent massif étant particulièrement coûteux et difficile à travailler à cette échelle dans l’Antiquité.</p>
+    <p>La technique de fabrication employée est celle du <em>sphyrélaton</em>, procédé archaïque consistant à marteler et emboutir à froid des feuilles de métal sur un noyau interne en bois sculpté aujourd'hui disparu. Les épaisses plaques d’argent étaient assemblées et fixées à la structure en bois par de petits clous en argent, dont les traces régulières sont encore nettement visibles sur les fragments subsistants. Pour rehausser le réalisme et la splendeur éblouissante de l’animal, certaines parties maîtresses étaient recouvertes de feuilles d’or battu, notamment les cornes, les oreilles, les sabots et une partie du mufle, créant une saisissante polychromie métallique entre l’éclat lunaire de l’argent et le rayonnement solaire du métal doré. Cette parure conférait au taureau une majesté quasi divine et une présence physique imposante lors de son exposition en plein air dans le téménos sacré de Delphes.</p>
+    <p>Malgré son état fragmentaire, consécutif à un incendie dévastateur survenu dans l'Antiquité qui calcina l'âme de bois et fit fondre partiellement l'enveloppe métallique avant son enfouissement dévot, la silhouette du taureau conserve une puissance expressive impressionnante. Les bronziers et orfèvres ont su capturer la force brute et la tension musculaire de l’animal tout en respectant les conventions stylistiques archaïques, avec un traitement stylisé mais vigoureux des volumes et une attention minutieuse portée aux détails ornementaux. Le taureau était un symbole universel de fécondité, de puissance royale et de vigueur sacrificielle, souvent associé aux hécatombes offertes aux dieux. En tant qu'offrande votive, il matérialisait la piété sans bornes du donateur et sa capacité à immobiliser un trésor colossale pour la gloire éternelle du sanctuaire.</p>
+    <p>Aujourd'hui patiemment restauré et remonté sur une armature transparente moderne qui restitue son profil et son volume originels au Musée archéologique de Delphes, ce taureau demeure un témoin extraordinaire de la splendeur panhellénique. Il illustre le plus haut degré de virtuosité métallurgique atteint par les ateliers grecs orientaux, probablement d’origine ionienne ou lydienne, et confirme l'intensité des réseaux d'échanges artistiques et votifs en Méditerranée au VIe siècle av. J.-C. Sa préservation fortuite dans une cachette sacrée (favissa), sans doute scellée après le grand incendie du temple en 548 av. J.-C., nous permet d'admirer l'un des rarissimes témoignages de grande statuaire métallique archaïque parvenus jusqu'à nous.</p>
+    <p><strong>Siècle :</strong> Milieu du VIe siècle av. J.-C. (vers -550) | <strong>Civilisation :</strong> Grèce antique (Époque archaïque) | <strong>Lieu de conservation :</strong> Musée archéologique de Delphes (Grèce).</p>`
+  },
+  {
     id: "ceramique_lecythe_epaule_quadrige_figures_noires_empuries",
     civId: "grece",
     periodId: "grece_archaique",

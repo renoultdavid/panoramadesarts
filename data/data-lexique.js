@@ -1571,6 +1571,34 @@ window.ART_GLOSSARY = [
     category: "Costume grec féminin",
     def: "Tunique féminine de laine typique de la Grèce archaïque et classique, formée d'une grande pièce d'étoffe rectangulaire pliée, rabattue sur la poitrine (apoptygma), agrafée sur chaque épaule par des fibules et serrée à la taille par une ceinture.",
     patterns: ["peplos", "péplos"]
+  },
+  {
+    term: "Opus vermiculatum",
+    etymology: "Du latin vermiculus, « petit ver », par allusion au tracé sinueux et serpentant des tesselles",
+    category: "Mosaïque hellénistique & romaine",
+    def: "Technique de mosaïque de très grand luxe utilisant de minuscules tesselles cubiques ou triangulaires (souvent inférieures à 4 mm, voire de 1 mm) disposées en lignes courbes et ondulantes. Cette finesse extrême permet d'imiter la souplesse du trait de pinceau, les subtils dégradés chromatiques et le modelé de la peinture de chevalet.",
+    patterns: ["opus vermiculatum", "vermiculatum"]
+  },
+  {
+    term: "Emblema",
+    etymology: "Du grec ancien émblêma (ἔμβλημα), « ce qui est inséré, rapporté »",
+    category: "Mosaïque & Décor antique",
+    def: "Panneau figuré central d'une mosaïque, de format souvent carré ou circulaire, exécuté à part en atelier sur un support rigide (pierre, terre cuite ou plomb) avec des tesselles très fines (opus vermiculatum), avant d'être encastré au centre d'un pavement géométrique de tesselles plus grossières.",
+    patterns: ["emblema", "emblemata"]
+  },
+  {
+    term: "Sphyrélaton",
+    etymology: "Du grec ancien sphyrêlatos (σφυρήλατος), « battu, martelé au marteau » (sphȳra, « marteau » et elaúnô, « battre »)",
+    category: "Statuaire & Métallurgie antique",
+    def: "Technique archaïque de sculpture monumentale en métal consistant à marteler et emboutir à froid des feuilles de bronze, d'argent ou d'or sur un noyau ou une âme de bois sculptée, fixées par de petits rivets ou clous métalliques. Utilisée avant la généralisation de la fonte du bronze à la cire perdue.",
+    patterns: ["sphyrelaton", "sphyrélaton", "sphyrélata"]
+  },
+  {
+    term: "Thalassocratie",
+    etymology: "Du grec thalassokratía (θαλασσοκρατία), de thálassa (« mer ») et krátos (« puissance, souveraineté »)",
+    category: "Histoire & Géopolitique antique",
+    def: "Puissance politique, militaire et économique dont la souveraineté et la prospérité reposent principalement sur la maîtrise absolue des voies de communication et du commerce maritimes (ex. Cnossos minoenne, Athènes au Ve s., Alexandrie ptolémaïque).",
+    patterns: ["thalassocratie", "thalassocraties", "thalassocratique"]
   }
 ];
 
