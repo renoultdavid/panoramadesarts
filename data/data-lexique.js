@@ -1440,6 +1440,48 @@ window.ART_GLOSSARY = [
     category: "Costume & Coiffure grecque",
     def: "Bonnet féminin ou résille enveloppant l'ensemble de la chevelure en laissant souvent une frange de boucles apparente sur le front, très populaire dans la Grèce archaïque et classique.",
     patterns: ["sakkos"]
+  },
+  {
+    term: "Naïskos",
+    etymology: "Du grec ancien naískos (ναΐσκος), diminutif de naós (« temple »)",
+    category: "Architecture & Céramique funéraire",
+    def: "Petit édicule ou temple miniature figuré sur les stèles funéraires et les grands vases apuliens ou italiotes. Dans l'iconographie des cratères à volutes funéraires, le défunt y est représenté en héros divinisé (souvent peint en blanc pour imiter le marbre), entouré de ses proches venus lui porter des libations et offrandes.",
+    patterns: ["naiskos", "naïskos", "naiskoi", "naïskoi"]
+  },
+  {
+    term: "Komos",
+    etymology: "Du grec ancien kômos (κῶμος), « fête, cortège joyeux »",
+    category: "Sociabilité & Rituels dionysiaques",
+    def: "Procession festive, musicale et dansée qui succédait au banquet grec (symposion). Les participants (kômastes), souvent enivrés et couronnés de lierre ou de myrte, défilaient dans les rues de la cité au son de l'aulos (flûte double) et de la cithare, célébrant Dionysos dans une joyeuse transe collective.",
+    patterns: ["komos", "kômos", "comos", "komastes", "komaste"]
+  },
+  {
+    term: "Triskèle",
+    etymology: "Du grec ancien triskelês (τρισκελής), « à trois jambes »",
+    category: "Symbolique & Iconographie antique",
+    def: "Motif symbolique rayonnant composé de trois jambes humaines fléchies ou de trois spirales issues d'un même centre. Symbole solaire et dynamique de mouvement perpétuel, il apparaît dès l'époque archaïque en Sicile (comme sur les vases de Gela) avant de devenir l'emblème historique de l'île aux trois pointes (Trinacria).",
+    patterns: ["triskele", "triskèle", "triscele", "triscèle", "triskeles", "triskèles"]
+  },
+  {
+    term: "Postes",
+    etymology: "Motif ornemental classique d'ondes déferlantes",
+    category: "Ornementation architecturale & céramique",
+    def: "Frise ornementale continue formée d'un ruban d'ondes ou de vagues stylisées s'enroulant en spirales successives dans un même mouvement. Fréquente sur les lèvres et les registres des cratères monumentaux et les corniches antiques.",
+    patterns: ["postes", "poste", "vagues stylisees", "vaguelettes"]
+  },
+  {
+    term: "Niobides",
+    etymology: "Du grec Niobidai (Νιοβίδαι), descendants de Niobé",
+    category: "Mythologie grecque & Tragédie",
+    def: "Enfants de Niobé (fille de Tantale et reine de Thèbes). Parce que leur mère avait défié la déesse Léto en se vantant de sa nombreuse progéniture (sept fils et sept filles), Apollon et Artémis massacrèrent tous les Niobides à coups de flèches, un châtiment emblématique de la démesure (hybris) punie par les dieux.",
+    patterns: ["niobides", "niobide"]
+  },
+  {
+    term: "Chlamyde",
+    etymology: "Du grec ancien chlamús (χλαμύς)",
+    category: "Costume grec antique",
+    def: "Manteau court de laine rectangulaire fendu, agrafé par une fibule sur l'épaule droite ou sur la gorge, laissant le bras droit libre. Vêtement privilégié des cavaliers, des éphèbes, des guerriers et des voyageurs grecs.",
+    patterns: ["chlamyde", "chlamydes"]
   }
 ];
 

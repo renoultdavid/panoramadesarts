@@ -3,6 +3,288 @@
    ========================================================================== */
 window.ART_OBJECTS = [
   {
+    id: "ceramique_cratere_colonnettes_peintre_athana_banquet_louvre",
+    civId: "grece",
+    periodId: "grece_archaique",
+    civName: "Grèce antique",
+    century: "Premier quart du VIe siècle av. J.-C. (vers 600–575 av. J.-C.)",
+    centuryDisplay: "VIe s. av. J.-C.",
+    centuryNumeric: -585,
+    domain: "ceramique",
+    artifactType: "Cratère",
+    title: "Grand cratère à colonnettes corinthien à figures noires : banquet couché et frise animalière par le Peintre d'Athana (Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Corinthe (Grèce)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités grecques, étrusques et romaines)",
+    category: "Cratère à colonnettes en terre cuite corinthienne à figures noires",
+    isHighlight: true,
+    chips: ["VIe s. av. J.-C.", "Grèce antique", "Époque archaïque", "Corinthe", "Cratère à colonnettes", "Figures noires", "Peintre d'Athana", "Banquet couché", "Symposion", "Frise animalière", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOQ48aduukiJOEtp67bq2b7-DmmQV8QYTit23bqV2XYwKoiZsa9jsP0jtzPPK9P9fwaZujZenItAgu8UROpSTvrgCSvYKFLwu6g9w-f2pqsDawHK1KQurAvna5Pp7RIUa2oG3UI5wAylLnRgXILpubpXg=w1705-h2264-s-no-gm?authuser=0",
+    narrative: `<p>Ce grand cratère à colonnettes en terre cuite à figures noires, conservé au musée du Louvre, est un chef-d'œuvre de la céramique corinthienne archaïque daté du premier quart du VIe siècle avant J.-C. (vers 600–575 av. J.-C.) et attribué au Peintre d'Athana. Issu des ateliers de Corinthe, qui dominaient alors le commerce transméditerranéen de la vaisselle de luxe, ce vase illustre la pleine maturité du style corinthien, caractérisé par une argile fine de teinte beige crème très pâle, un vernis noir brillant relevé de vigoureux rehauts d'engobe pourpre et une technique d'incision d'une extrême précision.</p>
+    <p>La forme même du cratère à colonnettes est une création technique et morphologique propre aux potiers corinthiens de cette époque. Pièce maîtresse du banquet grec (le symposion), ce récipient monumental était placé au centre de l'andrôn pour mélanger le vin pur avec de l'eau fraîche et des aromates avant le service. Il se distingue par sa panse globulaire puissante, son col cylindrique évasé et ses anses spécifiques, composées de doubles tiges verticales reliées à la large lèvre en surplomb par des plaquettes horizontales plates, rappelant l'architecture des colonnades. Le rebord supérieur et la tranche de la lèvre sont rythmés par des chevrons, des hachures obliques et des ondulations géométriques méticuleusement peints. La panse déploie deux registres superposés d'une grande richesse narrative et décorative.</p>
+    <p>Le registre supérieur, directement sous la frise de languettes de l'épaule, met en scène un aristocratique banquet couché. Plusieurs convives masculins barbus, couronnés et vêtus d'himation richement brodés de damiers et d'écailles peintes, sont étendus sur des lits de parade (klinai) aux pieds sculptés. Devant eux sont dressées des tables basses rectangulaires chargées de mets et de pièces de viande, tandis que des chiens de chasse ou de garde apparaissent parfois attachés au repos sous les couchettes. La scène saisit l'ambiance feutrée et cérémonielle de l'aristocratie grecque, ponctuée de gestes expressifs des bras et d'échanges de regards entre les buveurs.</p>
+    <p>Le registre inférieur perpétue la prestigieuse tradition orientalisante corinthienne à travers une somptueuse frise animalière. Un grand bouquetin ou capridé sauvage au cou tendu vers le sol avance au centre, encadré par des félins prédateurs, notamment des panthères aux têtes massives vues de face ou de profil. Le traitement des bêtes met en valeur la vivacité du trait incisé qui souligne la musculature, les côtes et les pelages, tandis que de larges aplats pourpres viennent animer les flancs et les cous des animaux. L'ensemble repose sur un pied tronconique évasé verni de noir lustré souligné de filets réservés.</p>
+    <p><strong>Siècle :</strong> VIe siècle av. J.-C. (vers -600 / -575) | <strong>Civilisation :</strong> Grèce antique (Époque archaïque) | <strong>Sous-partie :</strong> Céramique corinthienne (Musée du Louvre).</p>`
+  },
+  {
+    id: "ceramique_cratere_colonnettes_poseidonia_corinthe",
+    civId: "grece",
+    periodId: "grece_archaique",
+    civName: "Grèce antique",
+    century: "VIe siècle avant notre ère (vers 575–550 av. J.-C.)",
+    centuryDisplay: "VIe s. av. J.-C.",
+    centuryNumeric: -560,
+    domain: "ceramique",
+    artifactType: "Cratère",
+    title: "Cratère à colonnettes corinthien tardif de Poseidonia : frise monumentale au lion, taureau et chouette (Musée de l'Ancienne Corinthe)",
+    site: "Musée archéologique de l'ancienne Corinthe (Grèce)",
+    originSite: "Corinthe (Grèce) / découvert à Poseidonia (Paestum, Grande-Grèce)",
+    locationType: "museum",
+    currentLocation: "Musée archéologique de l'ancienne Corinthe (Grèce)",
+    category: "Cratère à colonnettes en terre cuite corinthienne tardive à figures noires",
+    isHighlight: false,
+    chips: ["VIe s. av. J.-C.", "Grèce antique", "Époque archaïque", "Corinthe", "Poseidonia", "Paestum", "Cratère à colonnettes", "Figures noires", "Lion", "Taureau", "Chouette", "Musée de Corinthe"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOdO-DL7t7pt11q3U3pu6YAAnRTf_moXuZ5PM9h5yCXIx4IJi8ZdU_co2PjXB6alaiuPwBFO4HMPMZ6JLgb_e-wGZgj1mA26cxaLCmmR79ij_573Vm483fMc2fk_Frxow1-rAwgI01x74d_2RQmAcaHhg=w1705-h1136-s-no-gm?authuser=0",
+    narrative: `<p>Ce cratère à colonnettes, pièce maîtresse des collections du Musée archéologique de l’ancienne Corinthe, illustre l'excellence de la production céramique corinthienne durant la période archaïque. Datant du VIe siècle avant notre ère, ce vase de banquet servait au mélange de l'eau et du vin. Sa provenance, liée à la cité de Poseidonia (Paestum), souligne l'importance des réseaux commerciaux de Corinthe, qui exportait ses vases de luxe à travers toute la Méditerranée, particulièrement vers les cités grecques d'Italie du Sud et d'Étrurie.</p>
+    <p>Le décor de ce cratère est caractéristique du style corinthien tardif, marqué par une iconographie animalière héritée de l'Orient, mais réinterprétée avec une précision toute grecque. Sur la panse, une frise monumentale met en scène un bestiaire fantastique et réel : un lion à la crinière rougeoyante et un taureau puissant se font face, séparés par une chouette au plumage détaillé. Les animaux sont représentés avec un sens aigu du volume et de la musculature, utilisant la technique de la figure noire où les détails anatomiques sont rendus par de fines incisions dans l'argile avant la cuisson.</p>
+    <p>L'ornementation du vase témoigne également d'une grande maîtrise géométrique. Le col et l'épaule sont rehaussés de motifs en zigzag, de rosettes et de languettes noires et pourpres qui encadrent harmonieusement la scène figurée. L'utilisation contrastée de l'argile jaune-pâle corinthienne et du vernis noir brillant, enrichi de rehauts rouges sur la crinière du lion et le corps du bovidé, confère à l'objet une vivacité chromatique remarquable.</p>
+    <p>Au-delà de sa fonction utilitaire, ce cratère était un signe de distinction sociale. Sa forme robuste, avec ses larges anses en colonnettes, préfigure les évolutions stylistiques qui influenceront plus tard les ateliers athéniens. Il rappelle le rôle central du vin et de sa mise en scène rituelle au cœur des banquets aristocratiques de l'Antiquité grecque.</p>
+    <p><strong>Siècle :</strong> VIe siècle av. J.-C. (vers -575 / -550) | <strong>Civilisation :</strong> Grèce antique (Époque archaïque) | <strong>Sous-partie :</strong> Céramique corinthienne tardive (Poseidonia).</p>`
+  },
+  {
+    id: "ceramique_cratere_colonnettes_dionysiaque_peintre_verger_aleria",
+    civId: "grece",
+    periodId: "grece_classique",
+    civName: "Grèce antique",
+    century: "Vers 450 avant J.-C. (milieu du Ve siècle av. J.-C.)",
+    centuryDisplay: "Ve s. av. J.-C.",
+    centuryNumeric: -450,
+    domain: "ceramique",
+    artifactType: "Cratère",
+    title: "Cratère à colonnettes attique à figures rouges : cortège dionysiaque par le Peintre du Verger (Aléria, Musée Jérôme-Carcopino)",
+    site: "Musée départemental d'archéologie Jérôme-Carcopino (Aléria, Corse)",
+    originSite: "Athènes (Attique) / découvert dans la nécropole préromaine d'Aléria (Corse)",
+    locationType: "museum",
+    currentLocation: "Musée départemental d'archéologie Jérôme-Carcopino (Aléria, Corse)",
+    category: "Cratère à colonnettes en terre cuite attique à figures rouges",
+    isHighlight: true,
+    chips: ["Ve s. av. J.-C.", "Grèce antique", "Époque classique", "Athènes", "Aléria", "Corse", "Cratère à colonnettes", "Figures rouges", "Peintre du Verger", "Dionysos", "Satyres", "Ménades"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNIEktWw-8w-TD9PDrfZtClB_Jr1Ayag4nrNjVQn_cS5cZ5ej4XGuhRIDW-L1Ga7tQSm6G_UtNBKJjVfaIvru1cENWq1DHo8m3eoc_b2s_ywiCWUu8lRtkCHwizKqqDik1vJpkGQ36dZvHVbU81BWGdoQ=w1600-h1200-s-no-gm?authuser=0",
+    narrative: `<p>Ce cratère à colonnettes en céramique à figures rouges est l'une des pièces maîtresses du Musée départemental d'archéologie Jérôme-Carcopino, situé dans le fort de Matra à Aléria en Corse. Daté d'environ 450 avant J.-C., ce vase monumental témoigne de l'intensité des échanges commerciaux et culturels entre la Grèce antique et la mer Tyrrhénienne au Ve siècle av. J.-C., lorsque Aléria était un comptoir et une nécropole prospère.</p>
+    <p>Le vase est attribué au Peintre du Verger (Orchard Painter), un peintre sur vases attique actif au milieu du Ve siècle av. J.-C., reconnu pour ses scènes dionysiaques et ses compositions narratives équilibrées. Le cratère servait lors des banquets (le symposion) à mélanger le vin pur avec de l'eau, une pratique essentielle de la convivialité et du rituel civique grec.</p>
+    <p>Le décor principal illustre une scène du cortège dionysiaque (le thiasos). On y observe plusieurs figures vêtues d'himations et de chlamydes, tenant le thyrse et des coupes à boire, entourées de satyres et de ménades dans une atmosphère de célébration religieuse. Le dessin montre une grande maîtrise du trait, caractéristique de l'âge d'or classique, avec un rendu fluide des drapés et une individualisation des expressions.</p>
+    <p>L'objet est aujourd'hui conservé dans une vitrine aux côtés d'autres mobiliers funéraires, notamment des casques en bronze et des coupes à boire (kylix), soulignant son rôle de prestige déposé dans une tombe aristocratique étrusque ou indigène d'Aléria pour accompagner le défunt dans l'au-delà.</p>
+    <p><strong>Siècle :</strong> Ve siècle av. J.-C. (vers -450) | <strong>Civilisation :</strong> Grèce antique (Époque classique) | <strong>Sous-partie :</strong> Céramique attique à figures rouges (Aléria).</p>`
+  },
+  {
+    id: "ceramique_cratere_colonnettes_procession_musiciens_aulos_agrigente",
+    civId: "grece",
+    periodId: "grece_classique",
+    civName: "Grèce antique",
+    century: "Vers 450 avant J.-C. (milieu du Ve siècle av. J.-C.)",
+    centuryDisplay: "Ve s. av. J.-C.",
+    centuryNumeric: -450,
+    domain: "ceramique",
+    artifactType: "Cratère",
+    title: "Cratère à colonnettes attique à figures rouges : procession musicale au joueur d'aulos par le Peintre du Verger (Agrigente)",
+    site: "Musée archéologique régional Pietro Griffo (Agrigente, Sicile)",
+    originSite: "Athènes (Attique) / découvert à Akragas (Agrigente, Sicile)",
+    locationType: "museum",
+    currentLocation: "Musée archéologique régional Pietro Griffo (Agrigente, Sicile)",
+    category: "Cratère à colonnettes en terre cuite attique à figures rouges",
+    isHighlight: false,
+    chips: ["Ve s. av. J.-C.", "Grèce antique", "Époque classique", "Athènes", "Agrigente", "Sicile", "Cratère à colonnettes", "Figures rouges", "Peintre du Verger", "Musique", "Aulos", "Symposion"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczM5Su2V8cvhTgsKYYKuRhc9twADwyhr3ymW_jlztU2uMXCunCj6ZA0pbcTBvAqF_0AASA548ha6gkgaVt3XSx5lMAu3-NBdf-fYW2k0FpYYBJ905tJ8RlWPyNdq0hIX59KDcf9dERGdL0U2bxZeGktW8g=w1705-h1145-s-no-gm?authuser=0",
+    narrative: `<p>Ce cratère à colonnettes attique à figures rouges, daté d'environ 450 avant J.-C. et conservé au Musée archéologique régional d'Agrigente, est une œuvre remarquable attribuée au Peintre du Verger (Orchard Painter). La forme robuste du vase, avec ses anses caractéristiques en forme de petites colonnes, en faisait le récipient idéal pour mélanger l'eau et le vin lors des banquets aristocratiques.</p>
+    <p>La scène principale sur la panse illustre une procession de musiciens et de spectateurs, capturée avec une grande finesse anatomique et une fluidité de mouvement propre au style classique. On y distingue un joueur de double flûte (l'aulos), vêtu d'une longue robe brodée, dont la posture et les joues gonflées par l'effort sont rendues avec un réalisme saisissant. À ses côtés, des personnages masculins drapés dans des himations observent la scène avec une dignité sereine, tandis qu'un serviteur nu semble s'activer à la périphérie du groupe.</p>
+    <p>Le décor secondaire est particulièrement soigné, avec une frise de motifs de languettes noires sur le col du vase qui crée un contraste graphique fort avec les figures rouges. L'utilisation de la technique de la peinture à figures rouges permet au Peintre du Verger de détailler les plis des vêtements et les traits des visages avec une précision quasi-miniaturiste. Ce vase témoigne non seulement de la virtuosité des potiers athéniens, mais aussi du goût raffiné des élites d'Agrigente qui importaient ces objets de luxe pour leurs banquets et leurs rites funéraires.</p>
+    <p>Cette pièce constitue un lien direct entre les différentes régions de la Méditerranée antique, illustrant comment une même sensibilité artistique et des pratiques sociales similaires, comme le symposion, unissaient des cités aussi éloignées qu'Aléria et Agrigente. La conservation remarquable du vernis noir et des pigments rouges permet aujourd'hui d'apprécier toute la splendeur de cet objet, qui demeure un témoin majeur de l'âge d'or de la céramique grecque.</p>
+    <p><strong>Siècle :</strong> Ve siècle av. J.-C. (vers -450) | <strong>Civilisation :</strong> Grèce antique (Époque classique) | <strong>Sous-partie :</strong> Céramique attique à figures rouges (Agrigente).</p>`
+  },
+  {
+    id: "ceramique_cratere_calice_fond_blanc_demeter_kore_agrigente",
+    civId: "grece",
+    periodId: "grece_classique",
+    civName: "Grèce antique",
+    century: "Vers 440 avant J.-C. (milieu du Ve siècle av. J.-C.)",
+    centuryDisplay: "Ve s. av. J.-C.",
+    centuryNumeric: -440,
+    domain: "ceramique",
+    artifactType: "Cratère",
+    title: "Cratère en calice à fond blanc : rencontre sacrée de Déméter et Koré / Perséphone (Agrigente)",
+    site: "Musée archéologique régional Pietro Griffo (Agrigente, Sicile)",
+    originSite: "Akragas (Agrigente, Sicile)",
+    locationType: "museum",
+    currentLocation: "Musée archéologique régional Pietro Griffo (Agrigente, Sicile)",
+    category: "Cratère en calice en terre cuite à figures rouges sur fond blanc",
+    isHighlight: true,
+    chips: ["Ve s. av. J.-C.", "Grèce antique", "Époque classique", "Agrigente", "Sicile", "Cratère en calice", "Fond blanc", "Déméter", "Koré", "Perséphone", "Cultes chthoniens", "Éleusis"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMU7ZXNNFqQKXIcJl1smrgsmxI0r1bJtqOjrJ3_ZhmqPFS5dJVigKNIt7WbEsfxNJUgRTlfSyxJDRIWFRdkIyTNcabh7IQpf9iUMPZgkRW80enfAT_6XEhBS2AGaA5O0_VHf1N11l4wM3rGWoqNf6DxQg=w1616-h2408-s-no-gm?authuser=0",
+    narrative: `<p>Ce cratère à calice en terre cuite, daté aux alentours de 440 av. J.-C., est une pièce maîtresse de la collection du Musée archéologique régional d'Agrigente. Il appartient à l'époque classique et illustre la technique de la figure rouge sur fond blanc, une variante rare et précieuse qui permettait aux peintres d'exprimer une sensibilité proche de la grande peinture murale aujourd'hui disparue. La forme évasée du calice, reposant sur des anses robustes et un pied circulaire, servait lors des banquets (symposions) pour mélanger le vin et l'eau.</p>
+    <p>La scène centrale représente une rencontre solennelle entre deux divinités majeures du panthéon grec : Déméter et sa fille Koré (Perséphone). À gauche, Déméter est reconnaissable à son sceptre, symbole de son autorité sur le cycle des moissons et de la fertilité de la terre. Face à elle, Koré se tient avec une élégance sobre, enveloppée dans un himation sombre qui contraste avec la clarté du fond. Le traitement des drapés et la finesse des traits du visage témoignent du « style noble » de la période classique, caractérisé par une sérénité et une retenue empreintes de dignité divine.</p>
+    <p>L'importance de ce vase à Agrigente est fondamentale, car le culte des divinités chthoniennes était au cœur de la vie religieuse de l'antique Akragas. La ville possédait de nombreux sanctuaires dédiés à ces deux déesses, protectrices de l'agriculture dont dépendait la prospérité de la cité. Le décor secondaire, notamment la frise de feuilles de laurier sur la lèvre et la bande de grecques et de croix à la base de la scène, vient encadrer ce dialogue sacré avec une rigueur géométrique typique de l'art grec de cette période.</p>
+    <p><strong>Siècle :</strong> Ve siècle av. J.-C. (vers -440) | <strong>Civilisation :</strong> Grèce antique (Époque classique) | <strong>Sous-partie :</strong> Céramique à fond blanc (Agrigente).</p>`
+  },
+  {
+    id: "ceramique_cratere_calice_peintre_niobides_massacre_heracles_louvre",
+    civId: "grece",
+    periodId: "grece_classique",
+    civName: "Grèce antique",
+    century: "Vers 460–450 avant J.-C. (milieu du Ve siècle av. J.-C.)",
+    centuryDisplay: "Ve s. av. J.-C.",
+    centuryNumeric: -455,
+    domain: "ceramique",
+    artifactType: "Cratère",
+    title: "Cratère en calice des Niobides : massacre des Niobides et réunion des héros autour d'Héraclès (Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Athènes (Attique) / découvert à Orvieto (Étrurie, Italie)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités grecques, étrusques et romaines)",
+    category: "Cratère en calice monumental en terre cuite attique à figures rouges",
+    isHighlight: true,
+    chips: ["Ve s. av. J.-C.", "Grèce antique", "Époque classique", "Athènes", "Orvieto", "Cratère en calice", "Figures rouges", "Peintre des Niobides", "Polygnote de Thasos", "Apollon", "Artémis", "Héraclès", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczO0Day4DI27cCAiYR9FkQ-EJr9Y9Ezv8Gh27JNv4OrGxFBtEQ0Boh97XwEhSN-fSi-sVPUqWxFNfNBm26OyK5MrpjB-qfkGgidoGcjtrMf1MbUNZMZj6hvWpOzi-D4gMkh99mQ15CY8wmAbwgTYwRotHw=w1705-h2264-s-no-gm?authuser=0",
+    narrative: `<p>Ce cratère en calice à figures rouges, chef-d'œuvre de la peinture attique du milieu du Ve siècle avant notre ère, est l'œuvre éponyme du Peintre des Niobides. Sa forme monumentale, destinée au mélange de l'eau et du vin lors du banquet, sert de support à une composition révolutionnaire qui rompt avec l'alignement traditionnel des figures sur une ligne de sol unique. L'artiste utilise ici des lignes de sol étagées et sinueuses pour suggérer la profondeur spatiale et un paysage accidenté, une innovation attribuée par les textes antiques au grand peintre muraliste Polygnote de Thasos. Le contraste entre le vernis noir intense et les silhouettes orangées met en valeur une multitude de personnages dont les postures variées occupent toute la hauteur de la panse, créant une impression de relief inédite dans la céramique de cette période.</p>
+    <p>La face principale du vase illustre un épisode mythologique sombre : le massacre des Niobides par Apollon et Artémis. Les enfants de Niobé, punis pour l'orgueil démesuré de leur mère qui s'était vantée d'avoir enfanté plus d'enfants que la déesse Léto, tombent sous les flèches des dieux archers. Apollon, couronné de laurier, et sa sœur Artémis décochent leurs traits mortels avec une froide détermination divine, tandis que les jeunes garçons et jeunes filles s'effondrent, tentent de fuir ou gisent déjà sans vie sur les différents niveaux du sol rocheux. Sur l'autre face, une réunion solennelle rassemble des guerriers et des héros au repos — certains ont proposé d'y voir les Argonautes ou les combattants de Marathon —, gravitant autour d'Héraclès reconnaissable à sa massue et sa peau de lion, et d'Athéna casquée.</p>
+    <p>Découvert à Orvieto, en Italie, ce cratère confirme la fascination des élites étrusques pour les grandes pièces d'apparat athéniennes. En plus de sa valeur plastique exceptionnelle, il constitue un témoignage capital pour l'histoire de l'art grec, car il reflète directement les bouleversements de la grande peinture monumentale contemporaine, tout en posant les bases du traitement de l'espace et du drame qui influenceront durablement la céramique classique.</p>
+    <p><strong>Siècle :</strong> Ve siècle av. J.-C. (vers -460 / -450) | <strong>Civilisation :</strong> Grèce antique (Époque classique) | <strong>Sous-partie :</strong> Céramique attique à figures rouges (Musée du Louvre).</p>`
+  },
+  {
+    id: "ceramique_cratere_volutes_apulien_orne_naiskos_gorgoneia_british_museum",
+    civId: "grece",
+    periodId: "grece_classique",
+    civName: "Grèce antique",
+    century: "IVe siècle avant notre ère (vers 340–320 av. J.-C.)",
+    centuryDisplay: "IVe s. av. J.-C.",
+    centuryNumeric: -330,
+    domain: "ceramique",
+    artifactType: "Cratère",
+    title: "Grand cratère à volutes apulien de style orné : naïskos au héros équestre et anses à gorgoneia (British Museum)",
+    site: "British Museum (Londres)",
+    originSite: "Bari / Apulie (Grande-Grèce, Italie du Sud)",
+    locationType: "museum",
+    currentLocation: "British Museum, Londres (Département Grèce et Rome)",
+    category: "Cratère à volutes monumental apulien à figures rouges, rehauts polychromes et anses à gorgoneia",
+    isHighlight: true,
+    chips: ["IVe s. av. J.-C.", "Grande-Grèce", "Apulie", "Bari", "Cratère à volutes", "Style Orné", "Naïskos", "Gorgoneion", "Horror vacui", "Rites funéraires", "British Museum"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMdCeK2Yv2IagGCudBJR0lnl7LFb7ozMDiP1trp6YZbkQV2iex-046_ppXU8KqAMEeAexBYVLqvkgKt40xjzl9NF2YBTJIQaipQcB1IxAKAmlega1-rMQggXfQrH4jlBOXaI97RQnXIkwln46_OODcakg=w1606-h2408-s-no-gm?authuser=0",
+    narrative: `<p>Ce vase monumental en terre cuite, de type cratère à volutes, constitue un chef-d'œuvre de la céramique d'Italie du Sud, produit à Bari en Apulie. Durant le IVe siècle avant notre ère, les ateliers apuliens ont développé un style dit « Orné » (Ornate Style), caractérisé par des dimensions imposantes, une profusion de détails décoratifs et l'utilisation de couleurs additionnelles comme le blanc et le jaune pour rehausser la technique des figures rouges. Ce récipient, destiné à l'origine au mélange de l'eau et du vin lors des banquets, servait ici probablement de mobilier funéraire de prestige, témoignant de la richesse et de l'hellénisation des élites locales.</p>
+    <p>La panse du vase présente une scène complexe centrée sur un naïskos (petit temple) peint en blanc pour imiter le marbre. À l'intérieur du sanctuaire, on observe un jeune défunt héroïsé, accompagné d'un cheval, rappelant son statut de cavalier ou de noble. Autour du temple, des figures de pleurants ou de membres de la famille apportent des offrandes, telles que des couronnes et des vases, illustrant les rites funéraires en vigueur. Le col du cratère est quant à lui orné d'une tête féminine émergeant d'un entrelacement de rinceaux fleuris et de volutes végétales, un motif typique du répertoire apulien symbolisant la régénération ou le monde divin.</p>
+    <p>L'aspect technique et structurel du cratère est remarquable par ses anses à volutes, surmontées de médaillons en forme de visages de Gorgones (gorgoneia). Ces figures apotropaïques avaient pour fonction de repousser le mauvais sort. L'utilisation de la polychromie et la densité de la décoration — incluant des frises de méandres, des oves et des motifs radiés sur l'épaule — créent un effet visuel de « horror vacui » (peur du vide) propre à la céramique de cette période. Cette approche contraste avec la sobriété des vases attiques plus anciens et préfigure l'esthétique plus chargée de l'époque hellénistique.</p>
+    <p>Sur le plan culturel, ce cratère illustre la vitalité des colonies grecques d'Italie et leurs interactions avec les populations autochtones. Il ne s'agit plus seulement d'un objet utilitaire, mais d'un monument portatif dont l'iconographie est entièrement tournée vers l'au-delà et la mémoire du défunt. La présence de tels objets dans les nécropoles de la région de Bari souligne l'importance des échanges artistiques dans le bassin méditerranéen et la capacité des artisans locaux à surpasser leurs modèles grecs en termes de virtuosité décorative et de monumentalité.</p>
+    <p><strong>Siècle :</strong> IVe siècle av. J.-C. (vers -340 / -320) | <strong>Civilisation :</strong> Grande-Grèce (Apulie) | <strong>Sous-partie :</strong> Céramique apulienne à figures rouges (British Museum).</p>`
+  },
+  {
+    id: "ceramique_cratere_colonnettes_attique_komos_aulos_empuries_louvre",
+    civId: "grece",
+    periodId: "grece_classique",
+    civName: "Grèce antique",
+    century: "Ve siècle avant notre ère (vers 460–440 av. J.-C.)",
+    centuryDisplay: "Ve s. av. J.-C.",
+    centuryNumeric: -450,
+    domain: "ceramique",
+    artifactType: "Cratère",
+    title: "Cratère à colonnettes attique à figures rouges : scène festive de komos au joueur d'aulos (Empúries / Musée du Louvre)",
+    site: "Musée du Louvre (Paris) / Découverte à Empúries (Catalogne)",
+    originSite: "Athènes (Attique) / découvert à Empúries (Emporion, Catalogne)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités grecques, étrusques et romaines)",
+    category: "Cratère à colonnettes en terre cuite attique à figures rouges",
+    isHighlight: false,
+    chips: ["Ve s. av. J.-C.", "Grèce antique", "Époque classique", "Athènes", "Empúries", "Emporion", "Catalogne", "Cratère à colonnettes", "Figures rouges", "Komos", "Aulos", "Dionysos", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNsXcauSm4WZv4vqF85St6uASyPGBj5Dq1ZaMfu0KQIF2C0GqX9NHMa3wmDvY5y3Fl0jjkGj8rtaNynLU9duha1mjbG70DBgbqCT6QR-DEY4NJNhn0se_wKFW1LT6kf8RH8gkBe1S9Ca0eix9Uc7WeqoQ=w1705-h1136-s-no-gm?authuser=0",
+    narrative: `<p>Ce cratère à colonnettes, de production attique, représente l'un des types de vases les plus emblématiques découverts dans les nécropoles et les quartiers d'habitation d'Empúries. Sa fonction première était le mélange de l'eau et du vin lors du banquet, une pratique centrale de la culture grecque où la consommation était codifiée par des rites sociaux et religieux. Le décor à figures rouges qui orne la panse du vase déploie une scène animée de komos, cette procession festive et dansée qui suivait généralement le festin en l'honneur de Dionysos, dieu de la vigne et de l'extase.</p>
+    <p>La frise iconographique montre plusieurs personnages masculins dans des postures dynamiques, traduisant le mouvement de la danse et l'ivresse joyeuse. On distingue un joueur d'aulos (flûte double) qui rythme la marche, tandis que d'autres participants portent des coupes à boire ou des bâtons, symbolisant leur appartenance au cortège dionysiaque. La précision du dessin, visible dans le rendu des anatomies et la fluidité des vêtements, témoigne de la maîtrise des peintres d'Athènes au Ve siècle, capables de transformer un objet utilitaire en un support narratif complexe destiné à l'exportation vers les marchés lointains.</p>
+    <p>L'importance de ce cratère à Empúries dépasse sa simple valeur esthétique ; il prouve l'adoption par les habitants de la colonie, et probablement par les populations ibères locales avec qui ils commerçaient, des coutumes du banquet méditerranéen. La présence de tels objets dans les contextes archéologiques locaux suggère que Dionysos n'était pas seulement une figure mythologique lointaine, mais le centre de pratiques rituelles bien réelles. Le vase, par sa forme imposante et son décor, servait ainsi de pont culturel, diffusant les mythes grecs et les standards de prestige à travers tout le golfe du Lion.</p>
+    <p><strong>Siècle :</strong> Ve siècle av. J.-C. (vers -460 / -440) | <strong>Civilisation :</strong> Grèce antique (Époque classique) | <strong>Sous-partie :</strong> Céramique attique à figures rouges (Empúries / Musée du Louvre).</p>`
+  },
+  {
+    id: "ceramique_cratere_colonnettes_foulage_raisin_satyres_aleria",
+    civId: "grece",
+    periodId: "grece_archaique",
+    civName: "Grèce antique",
+    century: "Seconde moitié du VIe siècle av. J.-C. (vers 530–510 av. J.-C.)",
+    centuryDisplay: "VIe s. av. J.-C.",
+    centuryNumeric: -520,
+    domain: "ceramique",
+    artifactType: "Cratère",
+    title: "Cratère à colonnettes attique à figures noires : foulage du raisin par des satyres (Aléria, Musée Jérôme-Carcopino)",
+    site: "Musée départemental d'archéologie Jérôme-Carcopino (Aléria, Corse)",
+    originSite: "Athènes (Attique) / découvert dans la nécropole préromaine d'Aléria (Corse)",
+    locationType: "museum",
+    currentLocation: "Musée départemental d'archéologie Jérôme-Carcopino (Aléria, Corse)",
+    category: "Cratère à colonnettes en terre cuite attique à figures noires",
+    isHighlight: true,
+    chips: ["VIe s. av. J.-C.", "Grèce antique", "Époque archaïque", "Athènes", "Aléria", "Corse", "Cratère à colonnettes", "Figures noires", "Foulage du raisin", "Satyres", "Dionysos", "Vendanges"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPpdJ_cZJrxDMY3n_c-c2puA_CZ1uYgiste0jKkHSb8Q1QwLQYc0qLXxjBw3TBeb7EjZ2pBXcROWJmB4jWsq2CpyAR3Sa8u3TKr_z4O4X1i2q3Q2jF9zejN-na7GbtJrJOcf-Pzl7xjhIOzVAa5wkO0KQ=w1705-h1136-s-no-gm?authuser=0",
+    narrative: `<p>Cette pièce d'exception, conservée au Musée départemental d'archéologie Jérôme-Carcopino d'Aléria, est un cratère à colonnettes à figures noires, chef-d'œuvre de la céramique attique datant de la seconde moitié du VIe siècle avant J.-C. (vers 530-510 av. J.-C.). Ce vase de grand format, destiné au mélange de l'eau et du vin lors du banquet, témoigne de la présence précoce et prestigieuse de produits luxueux en provenance d'Athènes sur le site d'Aléria, bien avant la transition vers la technique de la figure rouge.</p>
+    <p>La panse du vase déploie une scène dynamique et joyeuse liée au cycle dionysiaque : la foulage du raisin. Au centre, plusieurs satyres, reconnaissables à leurs oreilles pointues, leurs queues chevalines et leur nature hybride, s'activent autour d'un grand pressoir ou d'une cuve. L'un d'eux, à droite, est penché en avant, utilisant tout le poids de son corps pour presser les grappes, tandis qu'un autre compagnon semble apporter des paniers chargés de fruits. La composition est rythmée par les postures athlétiques des personnages, rendues avec une grande précision grâce à la technique de l'incision qui souligne les détails anatomiques et les muscles en mouvement.</p>
+    <p>Le décor secondaire est tout aussi riche et caractéristique de la période. Le col du cratère est orné d'une frise de grecques (méandres) rigoureuse, tandis que l'épaulement présente une bande de feuilles de lierre ou de pampres de vigne stylisées, rappelant directement la fonction vinicole de l'objet et son lien avec Dionysos. Les anses à colonnettes, qui donnent leur nom à cette forme de cratère, sont surmontées de plaques horizontales décorées de motifs géométriques ou de têtes de divinités, apportant une structure architecturale à l'ensemble de la pièce.</p>
+    <p>Découvert dans les niveaux les plus anciens des nécropoles d'Aléria, ce cratère illustre l'importance des échanges entre la Corse et le monde grec à l'époque archaïque. Il ne s'agit pas seulement d'un objet utilitaire, mais d'un véritable support de narration mythologique qui permettait aux convives de célébrer le vin tout en contemplant les origines divines et sauvages de sa fabrication. La qualité du vernis noir et la maîtrise des proportions font de ce vase l'un des plus beaux exemples de l'influence culturelle hellénique en Méditerranée occidentale.</p>
+    <p><strong>Siècle :</strong> VIe siècle av. J.-C. (vers -530 / -510) | <strong>Civilisation :</strong> Grèce antique (Époque archaïque) | <strong>Sous-partie :</strong> Céramique attique à figures noires (Aléria, Corse).</p>`
+  },
+  {
+    id: "ceramique_vase_de_pergame_cratere_colossal_marbre_louvre",
+    civId: "grece",
+    periodId: "grece_hellenistique",
+    civName: "Grèce antique",
+    century: "IIe siècle avant J.-C. (vers 180–150 av. J.-C.)",
+    centuryDisplay: "IIe s. av. J.-C.",
+    centuryNumeric: -165,
+    domain: "ceramique",
+    artifactType: "Cratère",
+    title: "Le Vase de Pergame : cratère colossal en marbre à la cavalcade de héros (Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Acropole de Pergame (Bergama, Mysie / Turquie)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités grecques, étrusques et romaines)",
+    category: "Cratère colossal monumental en marbre sculpté en haut-relief",
+    isHighlight: true,
+    chips: ["IIe s. av. J.-C.", "Grèce antique", "Époque hellénistique", "Pergame", "Attalides", "Cratère colossal", "Marbre", "Haut-relief", "Cavalcade héroïque", "Vase de Pergame", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPztd_tEItqME5VupFh05urQZ7RMPCSC1DHWx79cU0hDZ3mJnTBBnaTlf8pNrUkygq03GbM7-1OI8W0yHPznWyISHXJEoHQxvtQe00Ew-YeWbhlmqzYyLwFp1uezvYWtagZtQUltEG9DoHj19Oo2sNyng=w1705-h1283-s-no-gm?authuser=0",
+    narrative: `<p>Ce monument exceptionnel, connu sous le nom de Vase de Pergame, est un cratère colossal en marbre datant du IIe siècle avant J.-C. Pièce maîtresse de la sculpture hellénistique, ce vase n'était pas destiné à un usage domestique mais servait probablement de monument votif ou décoratif de prestige au sein du complexe du Grand Autel de Pergame ou de ses sanctuaires environnants. Son échelle monumentale et la qualité de son relief témoignent de l'apogée de l'école de sculpture pergaménienne, célèbre pour son goût du pathétique et son dynamisme héroïque.</p>
+    <p>La panse du vase est ceinte d'une frise sculptée en haut-relief d'une grande vigueur. Elle représente une cavalcade de guerriers ou de héros, dont les silhouettes se détachent avec force sur le fond lisse du marbre. Les chevaux sont figurés dans un élan fougueux, tandis que les cavaliers, vêtus de tuniques courtes et de chlamydes flottantes, sont saisis dans des poses pleines de mouvement. Le travail sur l'anatomie animale et humaine, ainsi que le rendu des drapés agités par l'action, rappellent directement le style de la célèbre Gigantomachie du Grand Autel, où la tension musculaire et l'expression de l'effort sont poussées à leur paroxysme.</p>
+    <p>Le décor ornemental qui encadre la frise est tout aussi raffiné. On observe des registres de godrons au sommet et à la base de la panse, créant une structure rythmée qui guide l'œil vers la scène centrale. Des frises de postes (vagues stylisées) et de motifs imbriqués complètent l'ensemble, témoignant d'une maîtrise parfaite des répertoires décoratifs classiques. La taille même du vase et l'utilisation du marbre pour une forme traditionnellement réservée à la céramique ou au bronze soulignent la volonté de puissance et de magnificence de la dynastie des Attalides, qui souhaitait faire de Pergame une « nouvelle Athènes ».</p>
+    <p>Découvert sur le site de l'ancienne acropole de Pergame (actuelle Bergama en Turquie), ce vase fut offert par le sultan Mahmoud II au roi Charles X, rejoignant ainsi les collections du Louvre. Il demeure l'un des rares exemples de vases monumentaux en pierre de cette période parvenus jusqu'à nous, illustrant la fusion entre l'art du relief architectural et les formes de la vie civile. Sa présence évoque la splendeur d'une cour royale où l'art servait à magnifier la lignée souveraine à travers des thèmes héroïques et une esthétique de la démesure maîtrisée.</p>
+    <p><strong>Siècle :</strong> IIe siècle av. J.-C. (vers -180 / -150) | <strong>Civilisation :</strong> Grèce antique (Époque hellénistique) | <strong>Sous-partie :</strong> Vase colossal et haut-relief en marbre (Pergame / Musée du Louvre).</p>`
+  },
+  {
+    id: "ceramique_dinos_orienteur_triskele_gela_agrigente",
+    civId: "grece",
+    periodId: "grece_archaique",
+    civName: "Grèce antique",
+    century: "Fin du VIIe siècle av. J.-C. (vers 620–600 av. J.-C.)",
+    centuryDisplay: "VIIe s. av. J.-C.",
+    centuryNumeric: -610,
+    domain: "ceramique",
+    artifactType: "Dinos",
+    title: "Dinos orientalisant sicéliote à décor de triskèle (Palma di Montechiaro / Gela, Musée d'Agrigente)",
+    site: "Musée archéologique régional Pietro Griffo (Agrigente, Sicile)",
+    originSite: "Nécropole de Gela / Dépôt votif de Castellazzo (Palma di Montechiaro, Sicile)",
+    locationType: "museum",
+    currentLocation: "Musée archéologique régional Pietro Griffo (Agrigente, Sicile)",
+    category: "Dinos en terre cuite sicéliote à décor orientalisant peint",
+    isHighlight: true,
+    chips: ["VIIe s. av. J.-C.", "Grande-Grèce", "Sicile", "Gela", "Agrigente", "Dinos", "Période orientalisante", "Triskèle", "Triscèle", "Céramique sicéliote", "Palma di Montechiaro"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOP0yP_D1-hCFM2rLAA1KprvvswBnVdKZos4EOSgeGY2pLBBOHsLiZu2MmyIWdReZ0nEiFbzSj23raFNn2JRC-dgiN6tnlVfAqyc0cDsNtqqwoGtkX6o0qvsXQK1UNjxZfMduAeMwVXTIRa8TNWb7TWHQ=w1705-h1145-s-no-gm?authuser=0",
+    narrative: `<p>Ce dinos (vase globulaire sans anse) à décor de triskèle est une pièce exceptionnelle issue des fouilles de la nécropole de Gela, en Sicile, et datée d'environ 620-600 av. J.-C. Découvert dans un dépôt votif de la zone de Castellazzo à Palma di Montechiaro, il est actuellement conservé au Musée archéologique régional Pietro Griffo d'Agrigente. Ce récipient illustre la période orientalisante de la céramique sicéliote, où les influences de la Grèce de l'Est, notamment rhodiennes, imprègnent les productions locales.</p>
+    <p>Le décor central présente un triskèle (ou triscèle), motif composé de trois jambes humaines pliées rayonnant à partir d'un centre commun. Le terme dérive du grec ancien triskelês signifiant « à trois jambes ». Ce symbole incarne le mouvement, l'action et le dynamisme solaire, tout en étant entouré de motifs géométriques et de frises typiques de l'époque. Bien qu'il soit devenu bien plus tard l'emblème officiel de la Sicile (île aux trois caps / Trinacria), son apparition dès le VIIe siècle av. J.-C. à Gela montre son ancrage précoce dans l'imaginaire de la région.</p>
+    <p>La technique utilisée mêle des pigments sombres sur le fond clair de l'argile, soulignant la force graphique de ce motif tournoyant. Dans le contexte de Gela, cité grecque majeure de Sicile, un tel vase servait probablement lors de banquets aristocratiques pour le mélange du vin, ou comme offrande prestigieuse dans un sanctuaire. Sa structure robuste et son décor hautement symbolique en font un témoignage clé de la fusion entre l'art grec importé et le développement d'une identité artistique sicilienne propre.</p>
+    <p><strong>Siècle :</strong> VIIe siècle av. J.-C. (vers -620 / -600) | <strong>Civilisation :</strong> Sicile grecque / Grande-Grèce (Période orientalisante) | <strong>Sous-partie :</strong> Céramique sicéliote (Agrigente).</p>`
+  },
+  {
     id: "ceramique_aryballe_plastique_janiforme_classe_epilykos_eretrie_louvre",
     civId: "grece",
     periodId: "grece_archaique",
