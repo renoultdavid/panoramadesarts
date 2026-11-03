@@ -1580,6 +1580,13 @@ const TAXONOMY_CIVILISATIONS = {
       { id: "italie_peuples", label: "Peuples italiques (Falisques, Samnium) (-600 à -200)" }
     ]
   },
+  "ibere": {
+    name: "Péninsule Ibérique & Art ibère",
+    periods: [
+      { id: "ibere_archaique", label: "Époque orientalisante & archaïque (-VIIe à -Ve s.)" },
+      { id: "ibere_classique", label: "Art ibère classique & hellénistique (-IVe à -IIe s.)" }
+    ]
+  },
   "rome": {
     name: "Rome antique",
     periods: [
@@ -2571,7 +2578,10 @@ function renderSearchGallery() {
       else if (selectedCiv === 'celte_europe' && !cId.startsWith('celte')) return false;
       else if (selectedCiv === 'levant_phenicie' && !['levant_phenicie', 'amorrite', 'syrie_bronze', 'phenicie_fer', 'lycie_anatolie'].includes(cId)) return false;
       else if (selectedCiv === 'canaries' && cId !== 'canaries') return false;
-      else if (!['egypte', 'egee', 'italie_etrusque', 'chypre', 'celte_europe', 'levant_phenicie', 'canaries'].includes(selectedCiv)) {
+      else if (selectedCiv === 'ibere' && !cId.startsWith('ibere')) return false;
+      else if (selectedCiv === 'iran_perse' && !cId.startsWith('iran')) return false;
+      else if (selectedCiv === 'islam' && !cId.startsWith('islam')) return false;
+      else if (!['egypte', 'egee', 'italie_etrusque', 'chypre', 'celte_europe', 'levant_phenicie', 'canaries', 'ibere', 'iran_perse', 'islam'].includes(selectedCiv)) {
         if (!cId.startsWith(selectedCiv)) return false;
       }
     }

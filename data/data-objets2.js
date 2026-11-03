@@ -3,6 +3,1550 @@
    ========================================================================== */
 window.ART_OBJECTS = [
   {
+    id: "sculpture_mecanisme_anticythere_calculateur_astronomique_bronze_athenes",
+    civId: "grece",
+    periodId: "grece_hellenistique",
+    civName: "Grèce antique",
+    century: "Seconde moitié du IIe siècle av. J.-C. (vers 150-100 av. J.-C.)",
+    centuryDisplay: "IIe s. av. J.-C.",
+    centuryNumeric: -150,
+    domain: "vie_quotidienne",
+    artifactType: "Sciences & Instruments (astrolabe, mesure)",
+    title: "La Machine d'Anticythère : premier calculateur astronomique analogique",
+    site: "Musée national archéologique d'Athènes (Grèce)",
+    originSite: "Épave d'Anticythère (mer Égée, Grèce)",
+    locationType: "museum",
+    currentLocation: "Musée national archéologique d'Athènes (Grèce)",
+    category: "Calculateur astronomique et engrenages en bronze (mécanisme)",
+    isHighlight: true,
+    chips: ["IIe s. av. J.-C.", "Grèce antique", "Époque hellénistique", "Anticythère", "Machine d'Anticythère", "Calculateur analogique", "Engrenages de bronze", "Astronomie", "Musée d'Athènes"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMMXJvRRZVAeWd9JSSWDqiDhQ_2STSUtOM8Axi_a8rjqIA5CU7-ZSWDL16QjeGL1HJmwZIRc7zktR477DwV7IngJ9RSaTalO7EnXivdgT9fpR1rrnLNjopwEFq79jP4Scy5ndgpRyEAqiDyvdrEvTdBtQ=w1847-h1231-s-no-gm?authuser=0",
+    narrative: `<p>Découvert en 1901 au milieu des restes d'une épave gisant au large de l'île grecque d'Anticythère, cet artefact en bronze constitue sans doute le vestige technique le plus extraordinaire de l'Antiquité. Souvent qualifié de premier ordinateur analogique de l'histoire, l'appareil est daté par les dernières analyses épigraphiques et archéologiques de la seconde moitié du IIème siècle avant J.-C., bien que sa conception puisse remonter aux théories du IIIème siècle avant J.-C. développées dans les centres savants de Rhodes ou de Syracuse. Les fragments exposés au Musée national archéologique d'Athènes révèlent une complexité mécanique que l'on pensait inexistante avant l'horlogerie européenne du XIVème siècle, brisant ainsi les idées reçues sur la linéarité du progrès technologique.</p>
+
+<p>Le mécanisme se compose d'au moins trente roues dentées en bronze actionnées par une manivelle latérale, le tout étant originellement contenu dans un boîtier en bois protégé par des plaques de bronze gravées d'inscriptions. Ces dernières servaient de mode d'emploi et décrivaient des cycles astronomiques précis. En tournant la manivelle, l'utilisateur pouvait synchroniser les mouvements du Soleil et de la Lune à travers le zodiaque. La machine utilisait un différentiel sophistiqué pour calculer la position de la Lune en tenant compte de son anomalie, c'est-à-dire la variation de sa vitesse orbitale, un exploit de modélisation mathématique basé sur les travaux de l'astronome Hipparque.</p>
+
+<p>Au-delà de la simple observation lunaire, la machine d'Anticythère était capable de prédire les éclipses solaires et lunaires avec une précision remarquable grâce aux cycles de Saros et d'Exeligmos gravés sur des cadrans en spirale à l'arrière de l'appareil. Elle intégrait également un calendrier panhellénique indiquant les dates des grands jeux athlétiques, dont ceux d'Olympie, de Delphes et de Némée, liant ainsi le temps cosmique à l'organisation sociale et religieuse de la cité grecque. Des recherches récentes suggèrent que les cinq planètes connues alors (Mercure, Vénus, Mars, Jupiter et Saturne) étaient également représentées sur la face avant par un système complexe d'engrenages épicycloïdaux.</p>
+
+<p>Cet instrument témoigne d'un degré de maîtrise stupéfiant dans le domaine de la mécanique de précision et de l'astronomie mathématique grecque. Il illustre la capacité des savants de l'époque à traduire des théories abstraites en dispositifs physiques concrets. La disparition d'une telle technologie après la chute de la civilisation hellénistique reste l'un des plus grands mystères de l'histoire des sciences, car il faudra attendre plus d'un millénaire pour que l'humanité produise à nouveau des engrenages d'une telle finesse. La machine d'Anticythère demeure l'emblème d'un savoir-faire antique qui, s'il n'avait pas été perdu, aurait pu accélérer radicalement l'évolution scientifique mondiale. Athenes musee archeo</p>
+
+<p><strong>Siècle :</strong> IIe s. av. J.-C. | <strong>Civilisation :</strong> Grèce antique | <strong>Lieu de conservation :</strong> Musée national archéologique d'Athènes (Grèce)</p>`
+  },
+  {
+    id: "sculpture_lettre_commerciale_plomb_empuries_alphabet_ionien",
+    civId: "grece",
+    periodId: "grece_archaique",
+    civName: "Grèce antique",
+    century: "Vers 550-530 avant J.-C. (VIe siècle av. J.-C.)",
+    centuryDisplay: "VIe s. av. J.-C.",
+    centuryNumeric: -550,
+    domain: "vie_quotidienne",
+    artifactType: "Tablette cunéiforme / Document écrit",
+    title: "Lettre commerciale phocéenne sur feuille de plomb (Empúries)",
+    site: "Musée d'archéologie de Catalogne - Empúries (Espagne)",
+    originSite: "Comptoir grec d'Emporion (Empúries, Catalogne)",
+    locationType: "museum",
+    currentLocation: "Musée d'archéologie de Catalogne - Empúries (Espagne)",
+    category: "Document épigraphique et lettre commerciale incisée sur feuille de plomb",
+    isHighlight: false,
+    chips: ["VIe s. av. J.-C.", "Grèce antique", "Époque archaïque", "Emporion", "Empúries", "Feuille de plomb", "Épigraphie ionienne", "Commerce méditerranéen", "Catalogne"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNAAGu93PA4EwcPPZptLEdjmUyYHvWJ2OnU9kjx3liiAR4ivR0Lv-bYqh_j3OTqObRfhyKfNeGCCr4lEOxDmxAwhIIiY5kpu5EHErr8eVKFd2-x2ipGtsq8-oGQ-AVIbo0bT_xXB9ovu7TZKuEPAk4ikw=w1847-h1204-s-no-gm?authuser=0",
+    narrative: `<p>Cette remarquable pièce archéologique consiste en une mince lame de plomb de forme rectangulaire, découverte dans l'ancienne cité d'Empúries, l'un des principaux comptoirs grecs de la péninsule Ibérique. Le support, bien que corrodé par le temps, conserve une inscription incisée à la pointe métallique en alphabet grec ionien, caractéristique des échanges commerciaux de la Méditerranée occidentale. Ce type de document, appelé "lettre sur plomb", constitue un témoignage rare et précieux de la vie quotidienne et des pratiques économiques des colons phocéens, illustrant la complexité des réseaux de communication privés au sein du monde antique.</p>
+
+<p>L'analyse épigraphique révèle un texte à caractère strictement commercial, où un individu, probablement un marchand ou un agent, s'adresse à un correspondant pour coordonner le transport ou la vente de marchandises. L'écriture est serrée et organisée en lignes horizontales, couvrant une grande partie de la surface disponible avant que la feuille ne soit, à l'origine, roulée sur elle-même pour être expédiée. La souplesse du plomb permettait non seulement cette manipulation, mais offrait également une durabilité bien supérieure au papyrus ou aux tablettes de cire, assurant la transmission de directives précises à travers les routes maritimes de l'époque.</p>
+
+<p>La valeur historique de cet objet réside dans sa capacité à documenter l'usage de l'écrit en dehors des contextes monumentaux ou officiels. À travers cette lettre, on perçoit le dynamisme de la cité d'Emporion (Empúries) comme plaque tournante entre les mondes grec et ibérique. Elle témoigne d'une société alphabétisée où l'écrit servait de contrat et de lien fonctionnel entre les acteurs du négoce, fixant les prix, les quantités et les identités des intermédiaires impliqués dans le commerce méditerranéen. Espagne Empuries</p>
+
+<p><strong>Siècle :</strong> VIe s. av. J.-C. | <strong>Civilisation :</strong> Grèce antique | <strong>Lieu de conservation :</strong> Musée d'archéologie de Catalogne - Empúries (Espagne)</p>`
+  },
+  {
+    id: "sculpture_figurines_poupees_articulees_tombe_enfant_empuries",
+    civId: "grece",
+    periodId: "grece_classique",
+    civName: "Grèce antique",
+    century: "Ve siècle avant J.-C. (époque classique)",
+    centuryDisplay: "Ve s. av. J.-C.",
+    centuryNumeric: -450,
+    domain: "vie_quotidienne",
+    artifactType: "Jeux, Théâtre & Musique",
+    title: "Poupées articulées (plangones) et œnochoé d'une sépulture d'enfant (Empúries)",
+    site: "Musée d'archéologie de Catalogne - Empúries (Espagne)",
+    originSite: "Nécropole grecque d'Emporion (Empúries, Catalogne)",
+    locationType: "museum",
+    currentLocation: "Musée d'archéologie de Catalogne - Empúries (Espagne)",
+    category: "Figurines articulées en terre cuite (poupées / plangones) et œnochoé",
+    isHighlight: false,
+    chips: ["Ve s. av. J.-C.", "Grèce antique", "Époque classique", "Emporion", "Plangon", "Poupée articulée", "Mobilier funéraire", "Enfance", "Catalogne"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOlHuEUKJ-Pwe6oL1xBs5Pd3VUvWpvhC9YtI7o_wGa2G_X2uZva3x0wG8ilBmCvA-0i9skbNATCTLJirMlGND6OpyFVP3envnz8liFKGOyC-zprH7nDJnRyiAuQJxEl6foS64sIH6DW58YZhwHWZOegMQ=w1847-h1231-s-no-gm?authuser=0",
+    narrative: `<p>Cet ensemble d'objets, découvert dans une sépulture d'enfant à Empúries, constitue l'un des témoignages les plus émouvants de la vie privée et des rites de passage dans la colonie grecque. Il se compose d'une œnochoé (cruche) en terre cuite commune et de deux figurines articulées en terre cuite, communément appelées poupées (plangones). Ces objets ne sont pas de simples jouets ; leur dépôt dans une tombe témoigne de la volonté des proches de protéger l'enfant dans l'au-delà en l'entourant d'objets familiers ou symboliques marquant son âge et son statut.</p>
+
+<p>La poupée située à gauche présente des membres articulés, une caractéristique technique qui permettait de simuler le mouvement et d'habiller la figurine avec des vêtements en tissu. Ces figurines étaient souvent associées au monde féminin et aux rites de transition : les jeunes filles grecques consacraient leurs poupées à Artémis ou Aphrodite au moment de leur mariage. Lorsqu'elles sont retrouvées dans une tombe d'enfant, elles soulignent une vie interrompue avant ces étapes sociales majeures. La seconde figurine, à droite, semble représenter un personnage dans une attitude plus statique, tenant peut-être une offrande, renforçant la dimension rituelle de l'ensemble.</p>
+
+<p>L'œnochoé qui accompagne les figurines servait probablement à contenir une petite quantité de liquide (vin ou lait) pour les libations funéraires. La facture simple et fonctionnelle de cette céramique, contrastant avec les pièces de luxe attiques, indique une production plus locale destinée aux besoins immédiats du culte domestique. Cet ensemble illustre parfaitement la double fonction du mobilier funéraire à Emporion : subvenir aux besoins symboliques du défunt tout en exprimant la piété et la douleur de la famille à travers des objets chargés d'une forte dimension affective. Espagne musee Empuries</p>
+
+<p><strong>Siècle :</strong> Ve s. av. J.-C. | <strong>Civilisation :</strong> Grèce antique | <strong>Lieu de conservation :</strong> Musée d'archéologie de Catalogne - Empúries (Espagne)</p>`
+  },
+  {
+    id: "funeraire_mobilier_tombe_verreries_noyau_alabastre_empuries",
+    civId: "grece",
+    periodId: "grece_classique",
+    civName: "Grèce antique",
+    century: "IVe siècle avant J.-C. (époque classique tardive)",
+    centuryDisplay: "IVe s. av. J.-C.",
+    centuryNumeric: -350,
+    domain: "funeraire",
+    artifactType: "Mobilier & Ensemble funéraire",
+    title: "Mobilier funéraire d'élite : verreries sur noyau, alabastre et terres cuites (Empúries)",
+    site: "Musée d'archéologie de Catalogne - Empúries (Espagne)",
+    originSite: "Nécropole d'Emporion (Empúries, Catalogne)",
+    locationType: "museum",
+    currentLocation: "Musée d'archéologie de Catalogne - Empúries (Espagne)",
+    category: "Ensemble funéraire de verreries sur noyau, alabastres et figurines",
+    isHighlight: false,
+    chips: ["IVe s. av. J.-C.", "Grèce antique", "Emporion", "Verre sur noyau", "Alabastre", "Lécythe", "Figurines en terre cuite", "Sépulture", "Catalogne"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMCvgOdB__9pnIgF3CYxd8uWEoL3VHmQBIeWMOtSEosxiyapyxUdbbGLALPfdScHhOkeAj8jX18Y7KTTgjx8-CP6pIRbNNeii00cVSImwArnl71KBbyzcrwWcsGeFpQVeY1OGTXj2bNhaxL9KBdK5AHcA=w1847-h646-s-no-gm?authuser=0",
+    narrative: `<p>Cet ensemble mobilier, issu d'une sépulture datée du IVème siècle av. J.-C. à Empúries, illustre la richesse et la diversité des dépôts funéraires dans cette cité coloniale. On y observe une coexistence fascinante entre des produits de luxe importés et des objets de dévotion locale. La vitrine présente notamment une série exceptionnelle de récipients en verre "moulé sur noyau" (core-formed glass), reconnaissables à leurs motifs en zigzags et leurs couleurs vibrantes (bleu cobalt, jaune, blanc). Ces amphorisques et alabastres en verre étaient des contenants de très grand prestige, destinés à renfermer des huiles parfumées exotiques, soulignant le rang social élevé du défunt.</p>
+
+<p>À côté de ces verreries, on distingue des pièces de céramique de tradition attique et coloniale, dont des lécythes et de petits aryballes à décor de palmettes ou de figures noires simplifiées. On remarque également un alabastre en albâtre véritable (la pièce haute et claire au centre), qui servait de modèle originel aux formes en verre et en terre cuite. La présence de ces multiples contenants à onguents suggère que les rituels de soins du corps et de parfums jouaient un rôle prépondérant dans l'idéal de vie du défunt, prolongeant ces habitudes de confort jusque dans la sphère funéraire.</p>
+
+<p>L'ensemble est complété par des figurines en terre cuite (terracotta) aux fonctions variées. À droite, une figurine masculine allongée évoque le thème du banquet (le symposion), tandis qu'un hermès ithyphallique stylisé rappelle la protection divine des seuils et des carrefours, essentielle pour le passage vers l'au-delà. Un petit animal modelé complète ce groupe, peut-être une offrande symbolique. Cette accumulation d'objets hétéroclites — verre de luxe, céramique fine et statuettes rituelles — témoigne de la synthèse culturelle opérée à Emporion, où les influences grecques s'entremêlent pour offrir au mort une sépulture digne et protégée. Espagne Empuries /</p>
+
+<p><strong>Siècle :</strong> IVe s. av. J.-C. | <strong>Civilisation :</strong> Grèce antique | <strong>Lieu de conservation :</strong> Musée d'archéologie de Catalogne - Empúries (Espagne)</p>`
+  },
+  {
+    id: "funeraire_mobilier_tombe_archaique_ceramiques_attiques_empuries",
+    civId: "grece",
+    periodId: "grece_archaique",
+    civName: "Grèce antique",
+    century: "Fin du VIe siècle av. J.-C. (vers 520-500 av. J.-C.)",
+    centuryDisplay: "VIe s. av. J.-C.",
+    centuryNumeric: -520,
+    domain: "funeraire",
+    artifactType: "Mobilier & Ensemble funéraire",
+    title: "Mobilier funéraire aristocratique : céramiques attiques et verre d'Orient (Empúries)",
+    site: "Musée d'archéologie de Catalogne - Empúries (Espagne)",
+    originSite: "Nécropole archaïque d'Emporion (Empúries, Catalogne)",
+    locationType: "museum",
+    currentLocation: "Musée d'archéologie de Catalogne - Empúries (Espagne)",
+    category: "Ensemble funéraire de céramiques attiques à figures noires et alabastre en verre",
+    isHighlight: false,
+    chips: ["VIe s. av. J.-C.", "Grèce antique", "Époque archaïque", "Emporion", "Figures noires", "Œnochoé", "Lécythe", "Verre cobalt", "Vase plastique", "Catalogne"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMEV371HRz0S9lOS2okMc_oJ8s34b3ZaZlDYBfiWNB7oDcXJS9BO4cS9HmHdPd3ZsC0birvNdGpZeQbSL7w_KbZE6G1EdcnV_1HnklVPVom7UbubjzWtWT-ym6MnC6_jooBMZE7XqR7mwJbSqwBHTkUvA=w1847-h895-s-no-gm?authuser=0",
+    narrative: `<p>Cet ensemble mobilier, découvert dans une tombe d'Empúries, offre un panorama complet de la culture matérielle et des coutumes funéraires à la transition des époques archaïque et classique. La sélection d'objets déposés aux côtés du défunt reflète une volonté d'apporter dans l'au-delà tous les éléments nécessaires au prestige social, principalement axé sur le banquet et les soins corporels. On y distingue une majorité de céramiques attiques à figures noires, notamment des œnochoés (cruches à vin) à embouchure tréflée, décorées de scènes mythologiques ou de cortèges dionysiaques, qui servaient au service du vin lors du symposion.</p>
+
+<p>Parmi les pièces remarquables, on note la présence d'un lécythe (vase à huile) élancé montrant un personnage en course, ainsi que plusieurs coupes et skyphos destinés à la consommation des liquides. L'hétérogénéité des formes — allant de la grande amphore décorée de motifs de palmettes à gauche aux petites tasses plus simples au premier plan — suggère un service de table complet. L'intérêt de ce dépôt réside aussi dans la présence d'un alabastre en verre bleu cobalt à décor de festons (en bas à droite), un objet d'un luxe extrême importé de Méditerranée orientale, confirmant le statut privilégié de l'occupant de la sépulture.</p>
+
+<p>Enfin, l'ensemble intègre des objets plus singuliers comme un vase plastique en forme d'oiseau (colombe ou canard) au centre, ainsi qu'une bague ou un petit anneau d'or, soulignant la dimension personnelle et précieuse du trésor funéraire. Ces objets ne sont pas de simples marchandises, mais des vecteurs d'identité : ils affirment l'appartenance du défunt à une culture hellénisée où l'élégance de la table, le parfum et les parures sont indissociables d'une mort honorable. La disposition de ces pièces témoigne de la vitalité économique d'Emporion, capable d'attirer les plus belles productions d'Athènes et des ateliers verriers phéniciens. Espagne Empuries</p>
+
+<p><strong>Siècle :</strong> VIe s. av. J.-C. | <strong>Civilisation :</strong> Grèce antique | <strong>Lieu de conservation :</strong> Musée d'archéologie de Catalogne - Empúries (Espagne)</p>`
+  },
+  {
+    id: "sculpture_masque_theatre_marbre_esclave_ruse_athenes",
+    civId: "grece",
+    periodId: "grece_hellenistique",
+    civName: "Grèce antique",
+    century: "IIe siècle avant J.-C. (époque hellénistique)",
+    centuryDisplay: "IIe s. av. J.-C.",
+    centuryNumeric: -150,
+    domain: "vie_quotidienne",
+    artifactType: "Jeux, Théâtre & Musique",
+    title: "Masque théâtral en marbre de l'esclave rusé (Nouvelle Comédie d'Athènes)",
+    site: "Musée national archéologique d'Athènes (Grèce)",
+    originSite: "Athènes, Attique (Grèce)",
+    locationType: "museum",
+    currentLocation: "Musée national archéologique d'Athènes (Grèce)",
+    category: "Sculpture de masque théâtral comique en marbre (Nouvelle Comédie)",
+    isHighlight: false,
+    chips: ["IIe s. av. J.-C.", "Grèce antique", "Époque hellénistique", "Théâtre grec", "Nouvelle Comédie", "Ménandre", "Masque de marbre", "Esclave rusé", "Musée d'Athènes"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczO2eNlJ1uwE2h88sI72BqIWewdOCWcswOeDlxMkxvf7F1zlGbJY7J1ac1O1RyoZl-EQoyhEPlOGq6m0OTIZZGj8jv9uERdhBK8ii5gMn0OPFoEk4Dxc4FlOTBh0_Xg-s7hF8oNt7UYClVnkLVMs1SvzcQ=w1847-h1231-s-no-gm?authuser=0",
+    narrative: `<p>Ce masque de théâtre en marbre, datant du IIème siècle avant J.-C. et originaire d'Athènes, constitue un témoignage exceptionnel de la "Nouvelle Comédie" grecque, un genre popularisé par des auteurs comme Ménandre. À cette époque, le théâtre s'éloigne des satires politiques pour se concentrer sur les mœurs domestiques et les intrigues de la vie quotidienne. Le personnage représenté ici est celui de l'esclave rusé ou "maison", un pilier de la comédie antique dont le rôle consistait souvent à dénouer des situations complexes au profit de son jeune maître, tout en apportant une dimension comique par ses expressions outrancières.</p>
+
+<p>L'esthétique de cette pièce est caractéristique des masques comiques hellénistiques, marqués par une exagération grotesque des traits du visage. On observe un front profondément ridé et des sourcils asymétriques relevés, suggérant une vivacité d'esprit mêlée d'inquiétude ou de malice. Les yeux sont largement ouverts pour accentuer l'expressivité scénique, tandis que le nez épaté et les pommettes saillantes renforcent l'aspect caricatural du personnage. La bouche, démesurément grande et ouverte en une forme d'entonnoir, servait initialement sur les masques de scène portés par les acteurs de porte-voix pour projeter le son dans les vastes théâtres de plein air.</p>
+
+<p>La coiffure est traitée avec un soin particulier, présentant une large couronne de cheveux striés qui encadre le haut du visage, évoquant les perruques en lin ou en liège utilisées lors des représentations. Contrairement aux masques de scène réels, légers et périssables, cette version en marbre était probablement une offrande votive dédiée à Dionysos, le dieu du théâtre, ou un élément de décoration luxueux pour une villa privée ou un monument funéraire. La conservation du marbre permet d'apprécier la transition entre l'art dramatique et la statuaire, transformant un accessoire de spectacle éphémère en une œuvre d'art pérenne.</p>
+
+<p>Cette pièce illustre parfaitement l'évolution du goût hellénistique pour le réalisme expressif et le grotesque. En figent cette expression de rire sonore et de ruse, le sculpteur a capturé l'essence même de la comédie athénienne tardive, où les hiérarchies sociales étaient temporairement bousculées par l'humour. Aujourd'hui, ce masque nous permet de mieux comprendre non seulement les techniques de jeu antiques, mais aussi l'importance culturelle du théâtre comme miroir déformant de la société grecque au IIème siècle avant notre ère. Athenes musee archeo</p>
+
+<p><strong>Siècle :</strong> IIe s. av. J.-C. | <strong>Civilisation :</strong> Grèce antique | <strong>Lieu de conservation :</strong> Musée national archéologique d'Athènes (Grèce)</p>`
+  },
+  {
+    id: "sculpture_masque_theatre_marbre_esclave_colere_athenes",
+    civId: "grece",
+    periodId: "grece_hellenistique",
+    civName: "Grèce antique",
+    century: "IIe siècle avant J.-C. (époque hellénistique)",
+    centuryDisplay: "IIe s. av. J.-C.",
+    centuryNumeric: -150,
+    domain: "vie_quotidienne",
+    artifactType: "Jeux, Théâtre & Musique",
+    title: "Masque théâtral en marbre de l'esclave sévère et courroucé (Athènes)",
+    site: "Musée national archéologique d'Athènes (Grèce)",
+    originSite: "Athènes, Attique (Grèce)",
+    locationType: "museum",
+    currentLocation: "Musée national archéologique d'Athènes (Grèce)",
+    category: "Sculpture de masque théâtral en marbre (figure de l'esclave colérique)",
+    isHighlight: false,
+    chips: ["IIe s. av. J.-C.", "Grèce antique", "Époque hellénistique", "Théâtre grec", "Nouvelle Comédie", "Masque de marbre", "Tension dramatique", "Musée d'Athènes"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOGefDhGAvvLVllLzG8ML09M23pQZNhlXsEJvFo7ZXRDnI_jpKerhp76nMSJNYDIQ1--Qlsaff4p8wqT53SqvhmDgJ-jwK9B55gffNn15hSq3aF2PUweMVcnzMdmQTsnVXDwhDektVdw_6wVVw8jTmI6A=w1847-h1231-s-no-gm?authuser=0",
+    narrative: `<p>Ce masque théâtral en marbre, provenant également d'Athènes et datant de l'époque hellénistique, représente une variante iconographique fascinante du type de l'esclave comique. Alors que le précédent affichait une ruse joviale, celui-ci incarne une expression beaucoup plus sévère et colérique, soulignant la diversité des masques de caractères au sein de la Nouvelle Comédie. Le travail du sculpteur se concentre sur une tension dramatique palpable, illustrant le moment où l'esclave, souvent au centre des quiproquos, se trouve dans une situation de stress intense ou de confrontation.</p>
+
+<p>L'analyse plastique révèle un front marqué par des plis horizontaux profonds et des sourcils fortement contractés qui s'abaissent vers la racine du nez, créant un regard sombre et menaçant. Contrairement à l'ouverture circulaire et joyeuse du premier masque, la bouche ici est étirée de manière plus horizontale et rigide, évoquant un cri de mécontentement ou une protestation véhémente. Le traitement des joues, moins rebondies et plus creusées par l'effort de l'expression, accentue le caractère austère de cette figure, tandis que le nez épaté conserve le code générique de la condition servile dans le théâtre antique.</p>
+
+<p>La chevelure est traitée en une masse compacte et texturée qui s'élève au-dessus du front, renforçant l'aspect massif et imposant de la tête. Ce type de représentation en marbre servait de référence visuelle aux citoyens athéniens pour identifier immédiatement le tempérament du personnage avant même qu'il ne prononce sa première réplique. L'aspect monolithique et la robustesse de l'ouvrage suggèrent une fonction architecturale ou commémorative, rappelant que le théâtre imprégnait tous les aspects de la vie sociale et religieuse d'Athènes, transformant les émotions humaines en archétypes éternels. Athenes musee archeo</p>
+
+<p><strong>Siècle :</strong> IIe s. av. J.-C. | <strong>Civilisation :</strong> Grèce antique | <strong>Lieu de conservation :</strong> Musée national archéologique d'Athènes (Grèce)</p>`
+  },
+  {
+    id: "sculpture_masque_theatre_terre_cuite_jeune_femme_athenes",
+    civId: "grece",
+    periodId: "grece_hellenistique",
+    civName: "Grèce antique",
+    century: "IIe siècle avant J.-C. (époque hellénistique)",
+    centuryDisplay: "IIe s. av. J.-C.",
+    centuryNumeric: -150,
+    domain: "vie_quotidienne",
+    artifactType: "Jeux, Théâtre & Musique",
+    title: "Masque théâtral en terre cuite de jeune femme à la parure festive (Athènes)",
+    site: "Musée national archéologique d'Athènes (Grèce)",
+    originSite: "Athènes, Attique (Grèce)",
+    locationType: "museum",
+    currentLocation: "Musée national archéologique d'Athènes (Grèce)",
+    category: "Sculpture de masque théâtral en terre cuite (jeune femme / courtisane)",
+    isHighlight: false,
+    chips: ["IIe s. av. J.-C.", "Grèce antique", "Époque hellénistique", "Théâtre grec", "Nouvelle Comédie", "Terre cuite", "Masque féminin", "Boucles d'oreilles", "Musée d'Athènes"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPSxYG0PQV_lE4yPCmX-8utSYA3XSqkLZCDLtWdhPByK0iOAo7qKImj3oQ9tQf2UbUCQSdiahaFMh67aBuFE7UV6JRc0NTWF2g_1YNzOuZvFZRKs6ezsz9vxvzPSv8XNdIFjnA3CgC6WIHTJimhJGN55Q=w1847-h1231-s-no-gm?authuser=0",
+    narrative: `<p>Ce masque théâtral en terre cuite, découvert à Athènes, illustre un type féminin caractéristique de la Nouvelle Comédie hellénistique, souvent identifié comme celui d'une jeune femme ou d'une courtisane. Contrairement aux figures masculines aux traits déformés par le grotesque, ce visage conserve une certaine harmonie malgré l'exagération nécessaire aux conventions scéniques. La douceur relative des traits, combinée à une coiffure élaborée, suggère un personnage de condition libre ou une figure centrale des intrigues amoureuses qui constituaient le cœur du répertoire de l'époque, contrastant fortement avec la rudesse expressive des masques d'esclaves.</p>
+
+<p>Le travail de modelage met en avant une chevelure imposante, disposée en ondulations régulières et symétriques qui encadrent le visage, évoquant les coiffures de fête ou de cérémonie. Le front est lisse, dépourvu des rides de colère ou d'inquiétude propres aux personnages masculins âgés ou serviles. Les yeux, bien que grands, présentent des paupières nettement dessinées qui confèrent au regard une expression de surprise ou de vivacité. La bouche ouverte, caractéristique immuable du masque antique pour permettre le passage de la voix, adopte ici une courbe plus souple, suggérant une émotion plus nuancée, oscillant entre l'étonnement et l'allégresse comique.</p>
+
+<p>La présence de disques circulaires au niveau des oreilles, figurant des boucles d'oreilles, renforce l'identité féminine et le soin apporté à la parure du personnage. Les fissures visibles sur la surface de la terre cuite témoignent de la fragilité du matériau original par rapport aux copies de prestige en marbre, soulignant le caractère plus populaire ou direct de cet objet. Ce masque, par son équilibre entre réalisme et stylisation théâtrale, permet de saisir la diversité des "types" humains qui peuplaient la scène athénienne, offrant un contrepoint gracieux et sophistiqué aux figures plus caricaturales de la comédie. Athenes musee archeo</p>
+
+<p><strong>Siècle :</strong> IIe s. av. J.-C. | <strong>Civilisation :</strong> Grèce antique | <strong>Lieu de conservation :</strong> Musée national archéologique d'Athènes (Grèce)</p>`
+  },
+  {
+    id: "vie_quotidienne_collection_verreries_grecques_noyau_souffle_olympie",
+    civId: "grece",
+    periodId: "grece_hellenistique",
+    civName: "Grèce antique",
+    century: "Du Ve au Ier siècle av. J.-C. (époque hellénistique / romaine)",
+    centuryDisplay: "Ier s. av. J.-C.",
+    centuryNumeric: -100,
+    domain: "vie_quotidienne",
+    artifactType: "Verrerie profane",
+    title: "Collection de verreries d'Olympie : du verre sur noyau au verre soufflé",
+    site: "Musée archéologique d'Olympie (Grèce)",
+    originSite: "Sanctuaire et ville d'Olympie (Péloponnèse, Grèce)",
+    locationType: "museum",
+    currentLocation: "Musée archéologique d'Olympie (Grèce)",
+    category: "Collection de verreries antiques (verre sur noyau, moulé et soufflé)",
+    isHighlight: false,
+    chips: ["Ier s. av. J.-C.", "Grèce antique", "Époque hellénistique", "Olympie", "Verrerie antique", "Verre soufflé", "Verre sur noyau", "Balsamaire", "Musée d'Olympie"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOG8U72GMJ9xR4A8FVBczvv3Wzomm3_yN-5FdoQq8QhDb0z2WqtFwgBgNqGbKX5OsKN9KFopuxEpXQBBxmxYFDwek0JDx0BJpXmM5IdTwYeIctyyHqSuzqybYwhAJiMGeKUcch288ktqj4GwW32r1NFaA=w1847-h1231-s-no-gm?authuser=0",
+    narrative: `<p>Cette vitrine du Musée archéologique d'Olympie présente une collection de verreries antiques illustrant l'évolution des techniques de production dans le monde grec, depuis les méthodes primitives jusqu'à l'invention du soufflage. Les objets exposés, allant de petits flacons à parfum à des contenants plus volumineux, témoignent d'une industrie florissante qui a su transformer une matière rare en objets d'usage quotidien. Le panneau didactique surplombant les pièces détaille les trois grandes étapes techniques : la technique du noyau de sable, utilisée dès le VIe siècle avant J.-C., la méthode du moulage sur forme ouverte au Ve siècle, et enfin la révolution du verre soufflé qui apparaît vers le milieu du Ier siècle avant J.-C. Cette dernière innovation a permis de produire des récipients plus fins, plus légers et surtout plus accessibles aux classes sociales moins favorisées, faisant perdre au verre son statut exclusif de produit de luxe.</p>
+
+<p>Parmi les pièces remarquables, on observe une grande bouteille globulaire centrale à long col, caractéristique des formes simples permises par le soufflage, ainsi que des cruches munies d'anses délicatement rapportées. La coloration naturelle du verre, oscillant entre le vert pâle et le bleu turquoise, provient des impuretés d'oxyde de fer contenues dans le sable utilisé lors de la fusion. À l'extrême droite, un petit flacon plus sombre aux motifs de chevrons colorés illustre la technique plus ancienne du décor rapporté, où des fils de verre de couleurs différentes étaient enroulés autour du corps de l'objet encore chaud puis peignés pour créer des motifs ondulants. Cet ensemble constitue un témoignage précieux sur l'artisanat antique et la vie domestique à Olympie, soulignant la capacité des artisans à maîtriser les propriétés thermiques et plastiques de la silice pour créer des formes d'une grande élégance fonctionnelle. Olympie musee archeo</p>
+
+<p><strong>Siècle :</strong> Ier s. av. J.-C. | <strong>Civilisation :</strong> Grèce antique | <strong>Lieu de conservation :</strong> Musée archéologique d'Olympie (Grèce)</p>`
+  },
+  {
+    id: "vie_quotidienne_oenochoe_verre_moule_bleu_cobalt_aleria_corse",
+    civId: "grece",
+    periodId: "grece_hellenistique",
+    civName: "Grèce antique",
+    century: "IIe siècle avant J.-C. (époque hellénistique)",
+    centuryDisplay: "IIe s. av. J.-C.",
+    centuryNumeric: -200,
+    domain: "vie_quotidienne",
+    artifactType: "Verrerie profane",
+    title: "Œnochoé en verre moulé bleu cobalt à décor zoomorphe (Aleria, Corse)",
+    site: "Musée archéologique d'Aleria (Haute-Corse, France)",
+    originSite: "Nécropole d'Aleria (antique Alalia, Corse)",
+    locationType: "museum",
+    currentLocation: "Musée archéologique d'Aleria (Haute-Corse, France)",
+    category: "Œnochoé de prestige en verre moulé bleu cobalt à décors appliqués",
+    isHighlight: false,
+    chips: ["IIe s. av. J.-C.", "Grèce antique", "Époque hellénistique", "Aleria", "Corse", "Verre moulé", "Bleu cobalt", "Œnochoé", "Lapis-lazuli", "Musée d'Aleria"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNrW8JeIknPw_vtMMYJAWa6P1j1ibQDijHuooCS0ivC92lXcOL4Y6YWAFzQwIDljth8ynRBB7fCfcmxlWu-olQJJKqQ__3J9mYU-ojd_5yox6Lim_PzR-xGHhSnRHay6Qmywu8lNdRYYAV2aW3pJ1SPiQ=w1847-h1231-s-no-gm?authuser=0",
+    narrative: `<p>Cette œnochoé en verre moulé, datant de l'époque hellénistique. Contrairement aux céramiques peintes, ce vase témoigne de la maîtrise précoce de la verrerie méditerranéenne, utilisant des techniques de formage sur noyau ou de moulage bien avant l'invention de la canne à souffler. Sa couleur bleu profond, imitant le lapis-lazuli, était obtenue par l'ajout d'oxydes métalliques (souvent du cobalt ou du cuivre) à la pâte de verre en fusion.</p>
+
+<p>Le décor est réalisé selon une technique d'incrustation ou de filets de verre rapportés. Sur le col élancé, on observe une série de fils de verre jaune ou blanc enroulés de manière régulière, créant un contraste chromatique saisissant avec le corps sombre du vase. Sur la panse, le décor est plus figuratif : des motifs zoomorphes stylisés, évoquant des têtes de fauves ou de créatures fantastiques, entourent un motif central en forme de goutte ou de feuille. Ces éléments sont appliqués en relief, conférant à l'objet une texture particulière et une richesse visuelle propre aux produits de luxe de l'époque.</p>
+
+<p>La forme de cet objet, avec son embouchure trilobée typique des cruches à vin (œnochoés), indique un usage cérémoniel ou de prestige. Dans le contexte des nécropoles d'Aleria, ce type de récipient en verre est une trouvaille rare. Il souligne l'importance des réseaux commerciaux maritimes qui reliaient la Corse aux grands centres de production de verre de la Méditerranée orientale (comme Alexandrie en Égypte ou la côte phénicienne) et de l'Italie. Aleria musee archeo</p>
+
+<p><strong>Siècle :</strong> IIe s. av. J.-C. | <strong>Civilisation :</strong> Grèce antique | <strong>Lieu de conservation :</strong> Musée archéologique d'Aleria (Haute-Corse, France)</p>`
+  },
+  {
+    id: "sculpture_statue_lion_nueva_carteya_calcaire_art_ibere_cordoue",
+    civId: "ibere",
+    periodId: "ibere_archaique",
+    civName: "Civilisation ibérique",
+    century: "VIe siècle avant J.-C. (époque archaïque ibérique)",
+    centuryDisplay: "VIe s. av. J.-C.",
+    centuryNumeric: -550,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire animale & gardienne (ronde-bosse)",
+    title: "Le Lion de Nueva Carteya : gardien funéraire en calcaire (Cordoue)",
+    site: "Musée archéologique et ethnologique de Cordoue (Espagne)",
+    originSite: "Site de Nueva Carteya, province de Cordoue (Andalousie, Espagne)",
+    locationType: "museum",
+    currentLocation: "Musée archéologique et ethnologique de Cordoue (Espagne)",
+    category: "Statue monumentale de lion gardien en calcaire (sculpture ibérique)",
+    isHighlight: true,
+    chips: ["VIe s. av. J.-C.", "Civilisation ibérique", "Art ibère", "Cordoue", "Lion gardien", "Sculpture apotropaïque", "Bétique", "Musée de Cordoue"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPH8wNmg2M0_I44AwK_EqYIVJ6GI2O4sVCDuWzP2YZEhOWnVL0jg0BdGp_9NEmDN24u0kwAX_PoOJ1tzn86K5rk2cP2Z_Uyb3o0peGlznqxgy4TW_dP22bstwcc1qeLpAmiZqjqzR0dCJPMpUa3E_IBGA=w1847-h1231-s-no-gm?authuser=0",
+    narrative: `<p>Cette sculpture monumentale en calcaire, datant du VIe siècle avant J.-C., est l'un des exemples les plus impressionnants de la statuaire ibérique découverts dans la province de Cordoue, précisément sur le site de Nueva Carteya. Représentant un lion en posture de repos, couché sur ses pattes antérieures, l'œuvre remplissait une fonction de gardien funéraire ou de symbole apotropaïque, destinée à protéger la sépulture d'un personnage de haut rang et à effrayer les profanateurs.</p>
+
+<p>Le traitement plastique révèle l'influence des modèles orientaux, notamment phéniciens et grecs archaïques, réinterprétés par les artisans locaux : la gueule est largement ouverte, laissant apparaître des crocs puissants et une langue proéminente pour souligner la férocité, tandis que la crinière est rendue de manière schématique par une série de traits incisés parallèles et géométriques. Le corps, bien que massif et puissant, présente une certaine simplification des formes, caractéristique de l'art ibérique qui privilégie la force expressive et symbolique sur le réalisme anatomique strict. Les yeux, autrefois peut-être incrustés de matériaux colorés, renforcent l'aspect vigilant de l'animal.</p>
+
+<p>Cette pièce témoigne de l'existence d'une aristocratie guerrière ibérique en Bétique, capable de commander des œuvres d'une grande envergure pour marquer son prestige social et ses croyances dans l'au-delà. Sa conservation au Musée Archéologique de Cordoue permet d'apprécier la richesse du substrat pré-romain de la région et les échanges culturels intenses qui parcouraient la Méditerranée dès le premier âge du Fer.</p>
+
+<p><strong>Siècle :</strong> VIe s. av. J.-C. | <strong>Civilisation :</strong> Civilisation ibérique | <strong>Lieu de conservation :</strong> Musée archéologique et ethnologique de Cordoue (Espagne)</p>`
+  },
+  {
+    id: "ceramique_jarre_globulaire_polychrome_chasseur_oiseau_suse_louvre",
+    civId: "iran_perse",
+    periodId: "iran_suse_proto",
+    civName: "Élam & Perse antique",
+    century: "Vers 2900-2300 av. J.-C. (Dynastique archaïque / Suse III-IV)",
+    centuryDisplay: "XXVIe s. av. J.-C.",
+    centuryNumeric: -2600,
+    domain: "ceramique",
+    artifactType: "Pithos / Jarre",
+    title: "Jarre globulaire polychrome au chasseur et oiseau protecteur (Suse)",
+    site: "Musée du Louvre, Paris (France)",
+    originSite: "Acropole de Suse, Susiane (Iran)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (France)",
+    category: "Jarre globulaire polychrome peinte (oiseau protecteur et chasseur)",
+    isHighlight: false,
+    chips: ["XXVIe s. av. J.-C.", "Élam & Perse antique", "Suse", "Dynastique archaïque", "Céramique polychrome", "Chasseur", "Oiseau solaire", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNlNLNSSuWjwiAZ30oQyjE6knzdZNUvEGeCMiWJMofnZ4C3N3vdX8LOMC66OS4oE8WQTi2SvVKiQJh0CH3Eh2aVv54LmSYUTP7ByTVUQhgfndk_Bgb6tdxpQC74BFRcHVZdbtY5POyW461I2bBo5X2_AQ=w1813-h2408-s-no-gm?authuser=0",
+    narrative: `<p>Cette jarre globulaire polychrome est un témoignage remarquable de la production céramique de Suse (actuel Iran) durant la période du Dynastique archaïque. À cette époque, Suse entretient des liens culturels et commerciaux étroits avec les cités-États de Mésopotamie, tout en conservant des traditions décoratives locales fortes. L'utilisation de plusieurs couleurs pour orner la panse et l'épaule de la jarre souligne le raffinement des techniques de cuisson et de peinture atteint par les artisans de la région.</p>
+
+<p>Le décor, concentré principalement sur l'épaule de l'objet, déploie un répertoire iconographique symbolique et naturaliste. On y distingue un oiseau protecteur aux ailes éployées, un motif fréquemment associé à des concepts solaires ou célestes dans l'Orient ancien. À ses côtés figurent un chasseur et une chèvre, évoquant des scènes de la vie sauvage ou des rituels liés à la subsistance et à la maîtrise de la nature. La composition est structurée par des registres géométriques qui rythment la forme généreuse du vase.</p>
+
+<p>La conservation de la polychromie sur une telle surface est exceptionnelle. Les tons ocre, noirs et rougeâtres dessinent des motifs qui ne sont pas de simples ornements, mais de véritables narrations visuelles propres aux sociétés urbaines naissantes du IIIe millénaire. Ce type de jarre, probablement destiné au stockage de denrées précieuses ou utilisé lors de cérémonies, reflète l'importance du prestige visuel dans les contextes funéraires ou palatiaux de Suse.</p>
+
+<p><strong>Siècle :</strong> XXVIe s. av. J.-C. | <strong>Civilisation :</strong> Élam & Perse antique | <strong>Lieu de conservation :</strong> Musée du Louvre, Paris (France)</p>`
+  },
+  {
+    id: "ceramique_coupe_peinte_tortue_animaux_peignes_suse_i_louvre",
+    civId: "iran_perse",
+    periodId: "iran_suse_proto",
+    civName: "Élam & Perse antique",
+    century: "Vers 4000-3500 av. J.-C. (période de Suse I / acropole)",
+    centuryDisplay: "XLe s. av. J.-C.",
+    centuryNumeric: -4000,
+    domain: "ceramique",
+    artifactType: "Kylix / Coupe",
+    title: "Coupe peinte à la tortue et motifs géométriques d'animaux-peignes (Suse I)",
+    site: "Musée du Louvre, Paris (France)",
+    originSite: "Nécropole de l'acropole de Suse (Iran)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (France)",
+    category: "Coupe en terre cuite à décor peint abstrait (tortue et animaux-peignes)",
+    isHighlight: true,
+    chips: ["XLe s. av. J.-C.", "Élam & Perse antique", "Suse I", "Néolithique récent", "Céramique peinte", "Tortue stylisée", "Animaux-peignes", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMhruV-SKtEw1geh5JK2nnaxxiY-tWGVDS50gqYwZ7Da8GgBfotXXNCpskmOP4NKqjGPTjewM9NMKAfj4Jg5VGJMhMFtdqrNiBu9kd11U3RkNmQyFEs7uPxlUQZTcIFN1aEroOJIABCWPfAXX0MEdvv6g=w1813-h2408-s-no-gm?authuser=0",
+    narrative: `<p>Cette coupe en terre cuite peinte est un exemple exceptionnel de la finesse technique et artistique atteinte à Suse, sur l'acropole, entre 4000 et 3500 av. J.-C. Elle provient de la nécropole du premier établissement de la cité, correspondant à la période Suse I. À cette époque, les potiers produisaient des céramiques à parois très fines, décorées d'un engobe clair sur lequel se détachent des motifs géométriques et animaliers d'une grande abstraction.</p>
+
+<p>Le décor intérieur de cette pièce s'organise de manière rigoureuse autour d'une tortue stylisée située au centre du bassin. Ce motif central est entouré de lignes brisées qui structurent la surface en compartiments symétriques. À l'intérieur de ces espaces, on distingue des silhouettes schématiques appelées « animaux-peignes », ainsi que des motifs de triangles étirés pouvant évoquer des carquois. Cette composition dynamique illustre la capacité des artistes susiens à transformer des éléments de la faune locale en symboles graphiques s'adaptant parfaitement à la courbure du support.</p>
+
+<p><strong>Siècle :</strong> XLe s. av. J.-C. | <strong>Civilisation :</strong> Élam & Perse antique | <strong>Lieu de conservation :</strong> Musée du Louvre, Paris (France)</p>`
+  },
+  {
+    id: "ceramique_grand_ensemble_jarre_cachette_couvercle_suse_iv_louvre",
+    civId: "iran_perse",
+    periodId: "iran_elam",
+    civName: "Élam & Perse antique",
+    century: "Vers 2500-2400 av. J.-C. (Paléo-élamite IA / Suse IV A)",
+    centuryDisplay: "XXVe s. av. J.-C.",
+    centuryNumeric: -2450,
+    domain: "ceramique",
+    artifactType: "Pithos / Jarre",
+    title: "Le « Vase à la cachette » et son couvercle en bol renversé (Suse IV A)",
+    site: "Musée du Louvre, Paris (France)",
+    originSite: "Acropole de Suse, quartier sacré (Iran)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (France)",
+    category: "Grand ensemble céramique à décor peint (Vase à la cachette et couvercle)",
+    isHighlight: true,
+    chips: ["XXVe s. av. J.-C.", "Élam & Perse antique", "Paléo-élamite", "Suse IV A", "Vase à la cachette", "Céramique peinte", "Serpents protecteurs", "Dépôt votif", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMK_Ftvo4ggwvgq5GYsAC6jVxuGD19pg8in7DW_t4I2oMGnmY5U7EG7lkj19V1uG-K_doUCbqxBcb6dT_V3X-oaFxWqclsq4CuCsH-gwjzy_Md6zNAWq4q5ZyPLqUEEKt2AZ8HP7aqpXRi785_85YP0zw=w1813-h2408-s-no-gm?authuser=0",
+    narrative: `<p>Cet ensemble exceptionnel en terre cuite peinte, découvert sur l'acropole de Suse, constitue l'un des témoignages les plus fascinants de la période de Suse IV A (Paléo-élamite IA). Il se compose d'une grande jarre globulaire à fond étroit et d'un couvercle en forme de bol renversé, dont la lèvre s'ajuste parfaitement au sommet de la panse. La surface présente une décoration à l'engobe sombre qui organise l'espace en registres rigoureux. Sur le couvercle, des motifs de lignes verticales et ondulées alternent, tandis que le corps du vase est ceinturé par une large frise de dents de scie et de lignes en zigzags, caractéristiques du répertoire géométrique de la Susiane au milieu du IIIe millénaire.</p>
+
+<p>Ce qui rend cet objet célèbre dans l'histoire de l'archéologie n'est pas seulement son esthétique, mais son contenu originel. Ce vase servait de contenant à un dépôt précieux, une "cachette" regroupant des objets de métal, des sceaux-cylindres et des éléments de parure. La structure robuste du vase et son couvercle hermétique permettaient de protéger ces biens de valeur, témoignant d'une pratique de thésaurisation ou d'un dépôt rituel au sein du quartier sacré de l'acropole. Les motifs peints, notamment les serpents stylisés visibles sur la partie inférieure, pourraient avoir une valeur protectrice, le serpent étant une figure centrale et complexe de l'iconographie élamite associée à la fertilité et aux forces souterraines.</p>
+
+<p>L'analyse de la facture montre une argile fine et une cuisson maîtrisée, permettant d'obtenir une paroi relativement mince pour un volume aussi important. La disposition du décor souligne la verticalité de l'objet, avec des bandes horizontales qui délimitent des panneaux remplis de signes graphiques. Cet ensemble illustre parfaitement la transition stylistique de la fin de l'âge du Bronze ancien, où la géométrisation du décor devient plus dense et structurée, reflétant une administration et une organisation sociale de plus en plus complexes à Suse.</p>
+
+<p><strong>Siècle :</strong> XXVe s. av. J.-C. | <strong>Civilisation :</strong> Élam & Perse antique | <strong>Lieu de conservation :</strong> Musée du Louvre, Paris (France)</p>`
+  },
+  {
+    id: "ceramique_jarre_bouquetins_salukis_haches_bronze_suse_louvre",
+    civId: "iran_perse",
+    periodId: "iran_elam",
+    civName: "Élam & Perse antique",
+    century: "Vers 2450 avant J.-C. (Paléo-élamite / Suse IV)",
+    centuryDisplay: "XXVe s. av. J.-C.",
+    centuryNumeric: -2450,
+    domain: "ceramique",
+    artifactType: "Pithos / Jarre",
+    title: "Jarre peinte aux bouquetins et chiens lévriers avec dépôt de haches en bronze (Suse)",
+    site: "Musée du Louvre, Paris (France)",
+    originSite: "Acropole de Suse (Iran)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (France)",
+    category: "Jarre en terre cuite peinte aux bouquetins, lévriers salukis et haches",
+    isHighlight: false,
+    chips: ["XXVe s. av. J.-C.", "Élam & Perse antique", "Paléo-élamite", "Suse", "Bouquetins", "Lévriers salukis", "Haches en bronze", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOKiYKbotFa8wvO4BsjD51CYgVSGmfp2_ydRvF3YRiczTRWfAktrc48S29d4c-vowNGjUzY8pDsnJWAw8RulIHhtOpZdVpUtzDotjP159QlGRhUngxyKD1-LXFFsWx6vA4idGEeqmC7PbJor0fHCBJhUA=w1813-h2408-s-no-gm?authuser=0",
+    narrative: `<p>Cette jarre en terre cuite peinte, datant d'environ 2450 av. J.-C., appartient au même ensemble archéologique que le « Vase à la cachette » trouvé sur l'acropole de Suse. Elle illustre parfaitement l'évolution du style pictural susien au milieu du IIIe millénaire, où les formes deviennent plus naturalistes tout en conservant une forte stylisation géométrique.</p>
+
+<p>Le décor sur l'épaulement de la jarre met en scène des bouquetins aux corps ornés de motifs en damier ou en chevrons, suivis par des chiens de chasse allongés (probablement des lévriers de type saluki). Cette iconographie de la chasse et de la faune sauvage est un thème majeur de l'art iranien ancien, symbolisant souvent le contrôle de l'homme sur la nature ou des concepts liés à la fertilité. Sous la jarre, on aperçoit également des lames de haches en bronze qui faisaient partie du trésor enfoui, soulignant le rôle de ces vases comme réceptacles pour des biens de grande valeur lors de leur redécouverte.</p>
+
+<p><strong>Siècle :</strong> XXVe s. av. J.-C. | <strong>Civilisation :</strong> Élam & Perse antique | <strong>Lieu de conservation :</strong> Musée du Louvre, Paris (France)</p>`
+  },
+  {
+    id: "ceramique_vase_bec_tubulaire_losanges_donjon_suse_louvre",
+    civId: "iran_perse",
+    periodId: "iran_elam",
+    civName: "Élam & Perse antique",
+    century: "Vers 2600-2400 av. J.-C. (période paléo-élamite / Suse IV)",
+    centuryDisplay: "XXVe s. av. J.-C.",
+    centuryNumeric: -2500,
+    domain: "ceramique",
+    artifactType: "Vase",
+    title: "Vase de prestige à long bec tubulaire et losanges peints (Donjon de Suse)",
+    site: "Musée du Louvre, Paris (France)",
+    originSite: "Secteur du Donjon, Ville royale de Suse (Iran)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (France)",
+    category: "Vase à long bec tubulaire à décor géométrique de losanges emboîtés",
+    isHighlight: false,
+    chips: ["XXVe s. av. J.-C.", "Élam & Perse antique", "Paléo-élamite", "Suse IV", "Vase à bec tubulaire", "Vibration optique", "Ville royale", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPdlgdRlREJ2t3X5O6i67qZaOAXt8p5bKH5DcJhGf-eDumF6BU9zw0FabeHHcp4vI3B1aq6danujF05UBmEYLnPJhwL6Cp8yuGNVkEvs6tEhuVyf8xP2XH5g4rH9XVByTu9mc6iZggus_m3vmauUxe7Fw=w1813-h2408-s-no-gm?authuser=0",
+    narrative: `<p>Ce vase à bec, originaire du site de Suse en Iran, constitue un témoignage raffiné de la production céramique de la période paléo-élamite. L’objet se distingue par sa panse globulaire surmontée d’un col concave évasé et, surtout, par un long bec tubulaire incliné, caractéristique des récipients destinés au versement de liquides, probablement dans un cadre rituel ou lors de banquets de prestige. La terre cuite, d'une teinte claire, sert de support à un décor peint d’une grande précision, exécuté dans des tons brun-rouge qui contrastent harmonieusement avec le fond argileux.</p>
+
+<p>L’ornementation de la pièce repose sur un répertoire géométrique complexe et rigoureux, organisé en registres horizontaux. Sur l’épaule du vase, une série de losanges emboîtés crée un effet de vibration optique, chaque losange étant rempli de fines lignes parallèles. Le col est quant à lui souligné par des bandes horizontales encadrant un motif de chevrons ou de triangles imbriqués, tandis que le bec est rythmé par des anneaux peints sur toute sa longueur. Cette attention portée à la répétition des motifs témoigne du haut degré de technicité des artisans de la ville royale de Suse, capables de marier une forme utilitaire complexe à un graphisme d'une grande modernité.</p>
+
+<p>La découverte de cet objet dans le secteur du "Donjon" de la ville royale souligne son importance historique. Cette zone de Suse a livré de nombreux vestiges de l'élite élamite, confirmant que de tels vases n'étaient pas de simples objets du quotidien, mais des pièces d'apparat reflétant le rang de leurs propriétaires. L'élégance de la silhouette et la finesse du décor peint illustrent parfaitement la transition artistique de Suse IV, période durant laquelle les influences locales et les courants venus de Mésopotamie voisine s'entremêlent pour forger l'identité visuelle de la civilisation élamite naissante.</p>
+
+<p><strong>Siècle :</strong> XXVe s. av. J.-C. | <strong>Civilisation :</strong> Élam & Perse antique | <strong>Lieu de conservation :</strong> Musée du Louvre, Paris (France)</p>`
+  },
+  {
+    id: "ceramique_jarre_globulaire_caprines_frontaux_suse_iv_louvre",
+    civId: "iran_perse",
+    periodId: "iran_elam",
+    civName: "Élam & Perse antique",
+    century: "Vers 2600-2500 av. J.-C. (Paléo-élamite IA / Suse IV A)",
+    centuryDisplay: "XXVIe s. av. J.-C.",
+    centuryNumeric: -2550,
+    domain: "ceramique",
+    artifactType: "Pithos / Jarre",
+    title: "Jarre globulaire à la frise de bouquetins affrontés et motifs géométriques (Suse)",
+    site: "Musée du Louvre, Paris (France)",
+    originSite: "Acropole de Suse (Iran)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (France)",
+    category: "Jarre globulaire peinte à frise de caprinés affrontés et dents de scie",
+    isHighlight: false,
+    chips: ["XXVIe s. av. J.-C.", "Élam & Perse antique", "Paléo-élamite", "Suse IV A", "Caprinés affrontés", "Céramique peinte", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNKLXhszbwFYNwRfR2hrKqyBR8V8GT2aj0FaUoT2af6elZEzg7WfQUU0H4KyeHtQsmfXrbDcG1A5luHHMAxo7CWVWuM4OG2SE8GxdwgDIgeOcCq1mDehtfuNo_L-WVlyK2yH5Vap8PkFwM-5jkSrjMlvQ=w1813-h2408-s-no-gm?authuser=0",
+    narrative: `<p>Cette jarre globulaire en terre cuite peinte est un témoignage exceptionnel de la production céramique de Suse durant la période paléo-élamite IA, correspondant au niveau archéologique Suse IV A. L'objet présente une panse généreuse et arrondie, surmontée d'un col court et évasé se terminant par une lèvre plate. La surface de l'argile, d'une teinte beige clair caractéristique des productions de la plaine de la Susiane, sert de support à un décor peint à l'engobe sombre, dont les motifs s'organisent en registres horizontaux pour souligner la morphologie du récipient.</p>
+
+<p>La partie supérieure de la panse est occupée par une frise animalière dynamique mettant en scène deux caprinés affrontés. Les animaux sont représentés de profil avec une stylisation géométrique propre à cette époque : leurs corps sont ornés de motifs quadrillés évoquant le pelage ou une texture textile, tandis que leurs cornes s'élancent vers l'arrière dans un mouvement courbe. L'artiste a su capturer une certaine tension dans la posture des bêtes, dont les têtes semblent se rejoindre au centre de la composition. Le reste du champ pictural est agrémenté de motifs secondaires, notamment des lignes ondulées et des frises en dents de scie qui ceinturent la base de la panse, créant un rythme visuel qui équilibre la densité du décor principal.</p>
+
+<p>Ce type de vaisselle n'était pas seulement utilitaire mais revêtait une dimension symbolique forte, souvent associée aux pratiques funéraires ou rituelles de l'acropole de Suse. La précision du trait et la maîtrise de la cuisson révèlent le haut degré de technicité des ateliers susiens, qui ont su pérenniser une tradition iconographique tout en l'adaptant aux évolutions stylistiques du milieu du IIIe millénaire avant notre ère. La conservation de ce décor permet aujourd'hui d'appréhender les codes esthétiques d'une civilisation à la charnière entre les mondes mésopotamien et iranien.</p>
+
+<p><strong>Siècle :</strong> XXVIe s. av. J.-C. | <strong>Civilisation :</strong> Élam & Perse antique | <strong>Lieu de conservation :</strong> Musée du Louvre, Paris (France)</p>`
+  },
+  {
+    id: "sculpture_statue_orant_masculin_calcaire_kaunakes_suse_louvre",
+    civId: "iran_perse",
+    periodId: "iran_elam",
+    civName: "Élam & Perse antique",
+    century: "Vers 2600-2500 av. J.-C. (Paléo-élamite IA / Suse IV A)",
+    centuryDisplay: "XXVIe s. av. J.-C.",
+    centuryNumeric: -2550,
+    domain: "sculpture_statuaire",
+    artifactType: "Figurine votive / Ex-voto",
+    title: "Statue d'orant masculin au kaunakès : piété votive en calcaire (Suse)",
+    site: "Musée du Louvre, Paris (France)",
+    originSite: "Acropole de Suse (Iran)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (France)",
+    category: "Statue votive d'orant masculin en calcaire vêtue du kaunakès (ronde-bosse)",
+    isHighlight: true,
+    chips: ["XXVIe s. av. J.-C.", "Élam & Perse antique", "Paléo-élamite", "Suse IV A", "Orant en prière", "Kaunakès", "Statuaire calcaire", "Sumer et Élam", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP6aGjGXZMfuPn3vMgmVLCi8K23mpOfJI0b7aX9Qg1M8G-p0vbuY-Zc2Zjzuh2Apl-Rr2jWwpcAXoDdeBv-6N4F4v8dVWWLNkUtNZ3zWGvU17jKqnvJip_PrRpLGqxCLD3RRXmfcSp55K2INcHY-lCJnw=w1813-h2408-s-no-gm?authuser=0",
+    narrative: `<p>Cette sculpture en ronde-bosse, taillée dans une pierre calcaire de teinte claire, représente une figure masculine dans l'attitude traditionnelle de la prière. L'œuvre appartient à la période paléo-élamite IA (Suse IV A) et illustre la statuaire votive retrouvée sur l'acropole de Suse. Le personnage est représenté debout, les mains jointes sur la poitrine dans un geste de dévotion perpétuelle. Le visage, bien que marqué par l'érosion, laisse deviner des traits stylisés avec de larges orbites qui accueillaient probablement des incrustations de nacre ou de coquillage pour figurer le regard, une technique commune à la statuaire de l'époque pour exprimer l'attention spirituelle.</p>
+
+<p>Le costume est l'un des éléments les plus distinctifs de cette pièce. L'orant porte une jupe longue à plusieurs rangs de mèches laineuses, souvent identifiée comme le kaunakès, vêtement emblématique des sociétés mésopotamiennes et élamites du IIIe millénaire. La partie supérieure du corps semble vêtue d'une tunique courte aux manches ajustées, présentant des détails de couture ou d'ornementation sur le bras gauche. La barbe est figurée de manière géométrique, s'arrêtant net sur la poitrine, tandis que la chevelure est traitée de façon compacte, encadrant un visage à l'expression solennelle. La rigidité de la posture et la frontalité stricte soulignent la fonction religieuse de l'objet, destiné à remplacer le fidèle devant la divinité de manière permanente.</p>
+
+<p>Cette statue témoigne des échanges culturels et techniques intenses entre la plaine de la Susiane et les cités-États de Sumer. Bien que le style s'apparente aux orants du Dynastique Archaïque mésopotamien, le traitement des proportions et certains détails vestimentaires révèlent une identité artistique proprement susienne. Ces statues étaient déposées dans les temples par les membres de l'élite pour s'assurer la protection divine et témoignent de la hiérarchie sociale et de la piété au sein de la cité de Suse à cette période charnière de l'âge du Bronze.</p>
+
+<p><strong>Siècle :</strong> XXVIe s. av. J.-C. | <strong>Civilisation :</strong> Élam & Perse antique | <strong>Lieu de conservation :</strong> Musée du Louvre, Paris (France)</p>`
+  },
+  {
+    id: "sculpture_statue_lion_gardien_terre_cuite_temple_inshushinak_suse_louvre",
+    civId: "iran_perse",
+    periodId: "iran_elam",
+    civName: "Élam & Perse antique",
+    century: "XIIe siècle avant J.-C. (époque médio-élamite, vers 1150 av. J.-C.)",
+    centuryDisplay: "XIIe s. av. J.-C.",
+    centuryNumeric: -1150,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire animale & gardienne (ronde-bosse)",
+    title: "Le Grand Lion gardien en terre cuite du temple d'Inshushinak (Suse)",
+    site: "Musée du Louvre, Paris (France)",
+    originSite: "Acropole de Suse, temple d'Inshushinak (Iran)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (France)",
+    category: "Statue monumentale de lion gardien en terre cuite (temple d'Inshushinak)",
+    isHighlight: true,
+    chips: ["XIIe s. av. J.-C.", "Élam & Perse antique", "Médio-élamite", "Suse", "Inshushinak", "Lion gardien", "Terre cuite monumentale", "Apotropaïque", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPW0aILxLxwLRKN4vlK3I52bgT9o8IrvqTYY-qdDnBv93AcvNZ6HpS35moXDZixI-HjnMIYDDt4sTwRHlr8kcQW70JEJcF4rtsomM8OkHQoo7srH5yv700-HRGuoUdkaijnF5Xcl3OG5ndXFxx_Dink6w=w1813-h2408-s-no-gm?authuser=0",
+    narrative: `<p>Cette statue monumentale en terre cuite représente un lion gardien, emblème de la puissance protectrice et de la souveraineté divine dans l'empire élamite. Découverte sur l'acropole de Suse, elle flanquait autrefois l'entrée du temple d'Inshushinak, la divinité tutélaire de la cité. L'animal est figuré dans une posture de repos vigilant, les pattes antérieures allongées parallèlement devant lui, les griffes légèrement marquées. Bien que le temps ait érodé une partie de sa surface, la robustesse du modelé laisse transparaître une musculature puissante, typique de la statuaire médio-élamite qui privilégie les formes pleines et une présence physique imposante.</p>
+
+<p>Le travail de la tête est particulièrement saisissant par sa stylisation rigoureuse. La crinière est traitée comme une succession de mèches géométriques régulières, formant une sorte de collerette rigide qui encadre un visage aux traits presque anthropomorphes. Les yeux, largement ouverts et autrefois probablement incrustés de matériaux contrastés, fixaient le visiteur pour marquer le passage du monde profane vers l'espace sacré du sanctuaire. Cette technique de la terre cuite glaçurée, dont Suse était l'un des centres de production les plus avancés de l'Orient ancien, permettait de recouvrir ces grandes figures d'un éclat vitrifié, offrant une protection contre les intempéries tout en magnifiant l'aspect polychrome de l'œuvre.</p>
+
+<p>Sur le plan symbolique, ce lion n'est pas une simple décoration mais une entité apotropaïque destinée à repousser les forces maléfiques et à maudire quiconque oserait profaner le seuil du temple. L'assemblage de la statue en plusieurs segments massifs témoigne de la complexité des fours de cuisson de l'époque, capables de stabiliser des pièces de ce volume sans qu'elles n'éclatent. L'œuvre incarne ainsi l'apogée artistique de la dynastie des Igihalkides et des Shutrukides, période durant laquelle Suse s'affirme comme une métropole culturelle majeure, capable de rivaliser avec les productions contemporaines de la Mésopotamie voisine.</p>
+
+<p><strong>Siècle :</strong> XIIe s. av. J.-C. | <strong>Civilisation :</strong> Élam & Perse antique | <strong>Lieu de conservation :</strong> Musée du Louvre, Paris (France)</p>`
+  },
+  {
+    id: "sculpture_statue_anthropomorphe_steatopyge_terre_cuite_kaluraz_louvre",
+    civId: "iran_perse",
+    periodId: "iran_fer",
+    civName: "Élam & Perse antique",
+    century: "Vers 1000-700 avant J.-C. (Âge du Fer II du Gilan)",
+    centuryDisplay: "IXe s. av. J.-C.",
+    centuryNumeric: -850,
+    domain: "sculpture_statuaire",
+    artifactType: "Figurine votive / Ex-voto",
+    title: "Statue féminine stéatopyge à haute tiare étagée (Kaluraz, province du Gilan)",
+    site: "Musée du Louvre, Paris (France)",
+    originSite: "Site de Kaluraz, province du Gilan (Nord de l'Iran)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (France)",
+    category: "Statue anthropomorphe féminine stéatopyge en terre cuite modelée",
+    isHighlight: false,
+    chips: ["IXe s. av. J.-C.", "Élam & Perse antique", "Âge du Fer II", "Gilan", "Kaluraz", "Figurine stéatopyge", "Fertilité", "Terre cuite", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPa4xzcmrS6Uguv-zDIo-6Ksv6sD3UBZ-EWiTe681YXi0KMyBwwf3Elh57ftpHnKmh4h5g7hNUWsRVaj0aBROJqIoNQC7YnKvdEcAYajBeLIKMlvE0pVqdDfvhet5LSr6JvzduoM4ECDr6gCoN0XVKhcQ=w1813-h2408-s-no-gm?authuser=0",
+    narrative: `<p>Cette statue anthropomorphe en terre cuite, découverte sur le site de Kaluraz dans la province du Gilan, constitue un témoignage exceptionnel des productions artistiques de l'âge du Fer II dans le nord de l'Iran. La figurine se distingue par une stylisation radicale et une exagération des formes qui soulignent une intention symbolique forte, probablement liée à des rites de fécondité ou à des fonctions funéraires. Le corps présente des hanches extrêmement larges et des cuisses hypertrophiées, une morphologie stéatopyge qui contraste avec la finesse du buste et le cou cylindrique très allongé. Les bras, traités en boucles ouvertes, ramènent les mains vers la poitrine dans une attitude de dévotion ou d'offrande, tandis que les épaules et le nombril sont marqués par des motifs incisés en spirales ou en cercles concentriques.</p>
+
+<p>Le traitement de la tête est particulièrement original avec un visage aplati, presque discoïdal, où les yeux et la bouche sont rendus par de simples incisions circulaires. La figure porte une coiffe haute et étagée, s'apparentant à un tiare ou un chignon complexe, qui accentue la verticalité de la pièce. La surface de la terre cuite, d'une teinte ocre sombre, conserve une texture rugueuse qui témoigne des techniques de modelage direct sans tour de potier. Cette esthétique, propre aux cultures des régions montagneuses du pourtour de la Caspienne, se détache des conventions naturalistes de la Mésopotamie contemporaine pour privilégier une expression graphique et géométrique puissante.</p>
+
+<p>L'œuvre s'inscrit dans un contexte archéologique où la production de vases anthropomorphes et de figurines zoomorphes en céramique atteignait un haut degré de sophistication technique. Ces objets étaient souvent déposés dans les sépultures pour accompagner les défunts, servant d'intercesseurs avec le monde divin. La statuette de Kaluraz, par la combinaison de ses attributs sexuels marqués et de sa parure complexe, incarne une figure de prestige, peut-être une divinité protectrice ou une ancêtre divinisée. Elle illustre parfaitement la maîtrise des artisans du Fer II qui savaient transformer l'argile en objets d'une modernité plastique frappante, dont l'influence se ressentira plus tard dans l'art de la steppe.</p>
+
+<p><strong>Siècle :</strong> IXe s. av. J.-C. | <strong>Civilisation :</strong> Élam & Perse antique | <strong>Lieu de conservation :</strong> Musée du Louvre, Paris (France)</p>`
+  },
+  {
+    id: "ceramique_vase_rituel_cerf_terre_cuite_grise_marlik_louvre",
+    civId: "iran_perse",
+    periodId: "iran_fer",
+    civName: "Élam & Perse antique",
+    century: "IXe - VIIIe siècle avant J.-C. (Âge du Fer II / Marlik)",
+    centuryDisplay: "IXe s. av. J.-C.",
+    centuryNumeric: -850,
+    domain: "ceramique",
+    artifactType: "Vase plastique / Zoomorphe",
+    title: "Vase à libation en terre cuite grise en forme de cerf stylisé (Marlik, Gilan)",
+    site: "Musée du Louvre, Paris (France)",
+    originSite: "Nécropole royale de Marlik, province du Gilan (Iran)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (France)",
+    category: "Vase rituel zoomorphe en terre cuite grise réductrice en forme de cerf",
+    isHighlight: false,
+    chips: ["IXe s. av. J.-C.", "Élam & Perse antique", "Âge du Fer", "Marlik", "Gilan", "Cerf stylisé", "Terre cuite grise", "Cuisson réductrice", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPV9-avuLuCtbxkjPIKxzyOAxkRcmdq7KWamKIRZl_F9ljM_vbuB88QviPJKNStRdRmRrcN_4gvM88PmCnrqJ8VvBcynEkjwN7Rr_YlX2GaGzqkm1NfNllmlIUNGfRnyiwMapU0WrwEwU8aSmmb3Xq1hg=w1847-h1391-s-no-gm?authuser=0",
+    narrative: `<p>Ce vase rituel en terre cuite grise, façonné avec une économie de moyens qui confine à l'épure moderne, représente un cerf ou un élan, animal central dans l'iconographie des populations forestières du Gilan. L'art de Marlik se distingue par cette capacité à transformer un récipient fonctionnel en une véritable sculpture animalière. Le corps de l'animal sert de réservoir, tandis que le museau, ici entrouvert, fait office de bec verseur pour les libations. La silhouette est caractérisée par une ligne de dos puissante et des pattes courtes et massives, conférant à l'objet une stabilité et une force tranquille.</p>
+
+<p>Le traitement de la tête est le point focal de l'œuvre : les bois sont stylisés par une série de pointes régulières qui évoquent la ramure de manière symbolique plutôt que naturaliste. Les yeux sont de simples perforations circulaires, et l'encolure est soulignée par un léger bourrelet. Ce type de céramique grise, obtenue par une cuisson en atmosphère réductrice (sans oxygène), était une spécialité des artisans de l'Âge du Fer II. Elle imitait probablement la vaisselle en métal, plus onéreuse, réservée à l'élite guerrière.</p>
+
+<p>Découvert dans un contexte funéraire, ce vase accompagnait les défunts dans l'au-delà. Le cerf, symbole de renouveau et de lien avec la nature sauvage, occupait une place prépondérante dans les croyances de ces peuples cavaliers et chasseurs. Ces objets témoignent d'une culture raffinée qui, bien que située aux marges des grands empires mésopotamiens et élamites, possédait un langage visuel d'une puissance et d'une originalité exceptionnelles, influençant durablement l'art animalier du plateau iranien.</p>
+
+<p><strong>Siècle :</strong> IXe s. av. J.-C. | <strong>Civilisation :</strong> Élam & Perse antique | <strong>Lieu de conservation :</strong> Musée du Louvre, Paris (France)</p>`
+  },
+  {
+    id: "ceramique_vase_zoomorphe_taureau_zebu_bosse_marlik_louvre",
+    civId: "iran_perse",
+    periodId: "iran_fer",
+    civName: "Élam & Perse antique",
+    century: "Fin de l'âge du Bronze / début de l'âge du Fer (vers -1000 à -800)",
+    centuryDisplay: "IXe s. av. J.-C.",
+    centuryNumeric: -900,
+    domain: "ceramique",
+    artifactType: "Vase plastique / Zoomorphe",
+    title: "Vase zoomorphe en taureau zébu à bosse et bec verseur (Marlik, Gilan)",
+    site: "Musée du Louvre, Paris (France)",
+    originSite: "Nécropole de Marlik, province du Gilan (Iran)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (France)",
+    category: "Vase zoomorphe en terre cuite orangée en forme de zébu à bosse",
+    isHighlight: false,
+    chips: ["IXe s. av. J.-C.", "Élam & Perse antique", "Âge du Fer", "Marlik", "Zébu à bosse", "Vase zoomorphe", "Épure plastique", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOVOBxQ9jYvOn9QH0jRsT3zPJQYWauXbapT51a33K2PHXQCMLyA-5t5emCox5rhQzEQ_ASI-Y28l_Jooi3Tzc72V6-_MlIMY0Z0svotdC4Qhu7qCsnIsCxMP6QyO0ErjnyBO7rTa5tFcMH8SP2-XINo6g=w1847-h1391-s-no-gm?authuser=0",
+    narrative: `<p>Ce vase zoomorphe, représentant un taureau à bosse (zébu), est l'une des pièces les plus iconiques de la nécropole de Marlik. Il témoigne de l'exceptionnelle créativité des potiers du Gilan qui, dès la fin de l'âge du Bronze et le début de l'âge du Fer, ont su fusionner la fonction utilitaire du récipient avec une sculpture animalière d'une grande puissance expressive. Le corps massif de l'animal, aux formes arrondies et pleines, sert de panse au vase, tandis que le museau allongé fait office de bec verseur. La bosse caractéristique sur le garrot, trait distinctif des bovidés de cette région, est ici accentuée pour devenir un élément architectural qui équilibre la silhouette.</p>
+
+<p>La facture de cette pièce en terre cuite orangée révèle un sens aigu de l'observation et une volonté de simplification des formes qui frise l'abstraction. Les pattes sont courtes et robustes, ancrant solidement l'animal au sol, tandis que les cornes, traitées avec une courbe élégante, encadrent une tête aux traits minimalistes. Les yeux et les naseaux sont de simples incisions ou perforations qui n'altèrent pas la fluidité des volumes. Ce dépouillement décoratif, loin d'être un manque de maîtrise, est une signature stylistique de Marlik : on cherche à capturer l'essence et la force de l'animal plutôt qu'à reproduire ses détails anatomiques avec réalisme.</p>
+
+<p>Découvert dans les tombes de l'élite de Marlik, ce type de vase avait une fonction rituelle prépondérante, probablement utilisé pour verser des liquides sacrés lors des cérémonies funéraires. Le taureau, symbole universel de puissance, de fertilité et de force vitale dans l'Orient ancien, prend ici une dimension particulière liée au prestige des chefs guerriers locaux. Cette œuvre illustre parfaitement l'autonomie artistique des cultures du nord de l'Iran par rapport à leurs voisins mésopotamiens et élamites, posant les bases d'un répertoire animalier qui restera une constante de l'art iranien jusqu'à l'époque achéménide.</p>
+
+<p><strong>Siècle :</strong> IXe s. av. J.-C. | <strong>Civilisation :</strong> Élam & Perse antique | <strong>Lieu de conservation :</strong> Musée du Louvre, Paris (France)</p>`
+  },
+  {
+    id: "ceramique_vase_long_bec_canard_chevaux_bouquetins_tepe_sialk_louvre",
+    civId: "iran_perse",
+    periodId: "iran_fer",
+    civName: "Élam & Perse antique",
+    century: "IXe - VIIIe siècle av. J.-C. (Sialk VI / Âge du Fer)",
+    centuryDisplay: "IXe s. av. J.-C.",
+    centuryNumeric: -850,
+    domain: "ceramique",
+    artifactType: "Vase",
+    title: "Vase rituel à long bec en proue de canard au décor peint de Sialk (Tepe Sialk VI)",
+    site: "Musée du Louvre, Paris (France)",
+    originSite: "Nécropole B de Tepe Sialk, près de Kashan (Iran)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (France)",
+    category: "Vase à long bec verseur en forme de bec de canard à décor peint",
+    isHighlight: false,
+    chips: ["IXe s. av. J.-C.", "Élam & Perse antique", "Âge du Fer", "Tepe Sialk", "Bec de canard", "Céramique peinte", "Nécropole B", "Kashan", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMwylWNlL9XJhw0JO2Vc_F9f_62BYbFimSPn3m9vA0F-lEXD7Bno4dMTnlMTkBTBNOzQ2wjNa7aV1yEB436LFtPPoQaGzyeW7wnapFxwLhNiNtTgOerCpEBetpvfm_zCyjgErGQCKWhMlnxfdhsKr--jQ=w1847-h1391-s-no-gm?authuser=0",
+    narrative: `<p>Ce vase à long bec verseur constitue l'un des exemples les plus raffinés de la production céramique de Tepe Sialk, un site archéologique majeur situé près de l'oasis de Kashan. Bien que l'occupation du site remonte à la Préhistoire, ce type précis de vaisselle à long bec "en forme de canard" ou de proue de navire appartient plus spécifiquement à la phase Sialk VI (Âge du Fer). La silhouette est d'une élégance rare : le corps globulaire repose sur un petit pied étroit, tandis que le bec s'étire de manière démesurée, créant une ligne dynamique qui rompt avec la verticalité habituelle des récipients. L'anse, située à l'opposé du bec, permettait une prise en main précise pour les libations rituelles.</p>
+
+<p>Le décor peint, réalisé avec un pigment sombre sur une terre claire ou légèrement ocrée, est caractéristique de ce que l'on appelle le "style de Sialk". Les motifs ne sont pas simplement décoratifs ; ils sont organisés en registres qui soulignent l'architecture du vase. On y retrouve souvent des représentations stylisées de chevaux, de bouquetins ou de figures géométriques complexes (damiers, triangles, rayons solaires) qui témoignent d'une cosmologie riche. Les lignes horizontales qui encerclent la panse et le bec renforcent l'aspect élancé de la pièce, tandis que les motifs animaliers semblent capturer l'énergie de la faune locale du plateau iranien.</p>
+
+<p>Sur le plan fonctionnel et symbolique, ces vases étaient principalement destinés aux pratiques funéraires. Déposés dans les tombes de la nécropole B de Sialk, ils servaient à verser des liquides lors de cérémonies en l'honneur des défunts. La prouesse technique réside dans l'équilibre parfait de l'objet, malgré l'extension impressionnante du bec verseur. Ce style influencera durablement la métallurgie du bronze du Lorestan et préfigure l'inventivité des formes que l'on retrouvera bien plus tard dans l'orfèvrerie achéménide.</p>
+
+<p><strong>Siècle :</strong> IXe s. av. J.-C. | <strong>Civilisation :</strong> Élam & Perse antique | <strong>Lieu de conservation :</strong> Musée du Louvre, Paris (France)</p>`
+  },
+  {
+    id: "sculpture_chapiteau_colossal_taureaux_adosses_apadana_darius_suse_louvre",
+    civId: "iran_perse",
+    periodId: "iran_achemenide",
+    civName: "Élam & Perse antique",
+    century: "Vers 515-510 avant J.-C. (règne de Darius Ier)",
+    centuryDisplay: "VIe s. av. J.-C.",
+    centuryNumeric: -515,
+    domain: "sculpture_statuaire",
+    artifactType: "Décor architectural (fronton, frise, métope, chapiteau)",
+    title: "Chapiteau colossal de colonne à deux taureaux adossés de l'Apadana de Darius Ier (Suse)",
+    site: "Musée du Louvre, Paris (France)",
+    originSite: "Apadana du palais de Darius Ier à Suse (Iran)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (France)",
+    category: "Chapiteau monumental en calcaire à double avant-trains de taureaux adossés",
+    isHighlight: true,
+    chips: ["VIe s. av. J.-C.", "Élam & Perse antique", "Empire perse", "Achéménides", "Darius Ier", "Apadana", "Suse", "Taureaux adossés", "Chapiteau colossal", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPU6gYOddjeq4c5TQTOtlwZJPAWAdyEGbY86wdb0WkfFG-p03d74YQjVzn6CflFqNwvTlm_YlP76kp3gHPALmkPBTU7P1Zz08SxKWEdUnshFGdz1o8PvxM1nolgvmINe56QYOx4UM2GpLw2rWzU1GJNog=w1606-h2408-s-no-gm?authuser=0",
+    narrative: `<p>Ce chapiteau monumental en calcaire, datant d'environ 510-522 av. J.-C., provient de l'Apadana (salle d'audience) du palais de Darius Ier à Suse. Découvert lors des missions archéologiques françaises à la fin du XIXe siècle, il est aujourd'hui l'une des pièces maîtresses du département des Antiquités orientales du musée du Louvre.</p>
+
+<p>L'œuvre se compose de deux avant-trains de taureaux adossés, agenouillés dos à dos. Les têtes des animaux, sculptées avec une grande précision, présentent des yeux expressifs et des naseaux frémissants, tandis que leurs cous sont ornés de boucles de poils stylisées et de motifs floraux. Entre les deux têtes se trouvait jadis une poutre de bois monumentale qui supportait la toiture de la vaste salle hypostyle, illustrant la fonction à la fois structurelle et décorative de l'élément.</p>
+
+<p>Le chapiteau repose sur une colonne composée d'un fût cannelé et d'une base complexe ornée de volutes doubles superposées, inspirées de l'art ionique grec. Cette fusion de styles — incluant des éléments égyptiens, grecs et mésopotamiens — est emblématique de l'art achéménide, qui visait à refléter la diversité et l'unité des peuples conquis par le "Grand Roi" perse. À Suse, les colonnes atteignaient une hauteur impressionnante de plus de 20 mètres, conférant au palais une majesté inégalée.</p>
+
+<p>Symbole de force et de fertilité, le taureau incarnait la puissance protectrice de la monarchie achéménide. Ces colonnes monumentales n'étaient pas seulement des prouesses d'ingénierie, mais servaient de support visuel à l'idéologie impériale de Darius Ier, transformant l'espace architectural en une démonstration éclatante de la stabilité et de la splendeur du pouvoir perse.</p>
+
+<p><strong>Siècle :</strong> VIe s. av. J.-C. | <strong>Civilisation :</strong> Élam & Perse antique | <strong>Lieu de conservation :</strong> Musée du Louvre, Paris (France)</p>`
+  },
+  {
+    id: "sculpture_volute_monumentale_colonne_apadana_darius_suse_louvre",
+    civId: "iran_perse",
+    periodId: "iran_achemenide",
+    civName: "Élam & Perse antique",
+    century: "Fin du VIe siècle av. J.-C. (vers 515 av. J.-C.)",
+    centuryDisplay: "VIe s. av. J.-C.",
+    centuryNumeric: -515,
+    domain: "sculpture_statuaire",
+    artifactType: "Décor architectural (fronton, frise, métope, chapiteau)",
+    title: "Volute monumentale de colonne en calcaire de l'Apadana de Darius Ier (Suse)",
+    site: "Musée du Louvre, Paris (France)",
+    originSite: "Apadana du palais de Darius Ier, Ville royale de Suse (Iran)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (France)",
+    category: "Élément architectural de colonne en calcaire (volute double verticale perse)",
+    isHighlight: false,
+    chips: ["VIe s. av. J.-C.", "Élam & Perse antique", "Empire perse", "Achéménides", "Darius Ier", "Volute ionisante", "Colonne monumentale", "Suse", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNjDzKm2e6OP31keA1TakccVLOXOP6NSEmPYK2qi2i0jDdLqJ0UCVEJrdZXsdrsaDtgWjmfu0sAAlFeuIJUFqDcx44GNcvsjcLX_HHCsYpbNe9t_KRo_VinGhjItlRjli-0P9Kovgv_zn_veTNm22NSeQ=w1813-h2408-s-no-gm?authuser=0",
+    narrative: `<p>Cet imposant élément en pierre calcaire appartient aux parties supérieures des colonnes monumentales qui soutenaient les charpentes de l'Apadana, la salle d'audience du palais de Darius Ier. La volute, caractérisée par son enroulement spiralé d'une grande précision géométrique, s'inspire des modèles ioniques grecs tout en étant réinterprétée selon les canons de l'esthétique achéménide. Dans le système architectural perse, ces volutes étaient placées verticalement par paires, s'insérant entre le fût de la colonne et le sommier supportant les figures de taureaux ou de créatures hybrides agenouillées qui couronnaient l'ensemble.</p>
+
+<p>La qualité de la taille révèle le haut degré de technicité des sculpteurs impériaux, qui savaient transformer la dureté de la pierre en une forme souple et rythmée. Le contraste entre les surfaces lisses des rubans et le creux des sillons crée un jeu d'ombre et de lumière qui accentuait la verticalité des colonnes, lesquelles pouvaient atteindre près de vingt mètres de hauteur. Ce fragment témoigne de l'éclectisme de l'art achéménide, qui fusionnait harmonieusement des influences lydiennes, ioniennes et égyptiennes pour créer un langage architectural propre à la dynastie, symbolisant l'unité des peuples sous l'autorité du Grand Roi.</p>
+
+<p>Découverte dans le secteur de la Ville Royale de Suse, cette pièce permet de restituer la splendeur des salles hypostyles où le souverain recevait les tributs des nations conquises. L'agencement complexe de ces chapiteaux, combinant base campaniforme, volutes et protomés animales, constituait une prouesse d'ingénierie et d'art décoratif. La présence de tels éléments architecturaux à Suse souligne le rôle central de cette cité comme centre administratif et cérémoniel majeur de l'empire, où chaque détail de la demeure royale devait refléter l'ordre universel et la puissance divine.</p>
+
+<p><strong>Siècle :</strong> VIe s. av. J.-C. | <strong>Civilisation :</strong> Élam & Perse antique | <strong>Lieu de conservation :</strong> Musée du Louvre, Paris (France)</p>`
+  },
+  {
+    id: "sculpture_panneau_briques_glazurees_lion_marchant_palais_darius_suse_louvre",
+    civId: "iran_perse",
+    periodId: "iran_achemenide",
+    civName: "Élam & Perse antique",
+    century: "Vers 510 avant J.-C. (règne de Darius Ier)",
+    centuryDisplay: "VIe s. av. J.-C.",
+    centuryNumeric: -510,
+    domain: "sculpture_statuaire",
+    artifactType: "Frise en briques émaillées",
+    title: "Frise du Palais de Darius Ier : Le Lion marchant en briques glaçurées (Suse)",
+    site: "Musée du Louvre, Paris (France)",
+    originSite: "Cour intérieure du palais de Darius Ier à Suse (Iran)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (France)",
+    category: "Panneau monumental en briques siliceuses à glaçure polychrome (lion marchant)",
+    isHighlight: true,
+    chips: ["VIe s. av. J.-C.", "Élam & Perse antique", "Empire perse", "Achéménides", "Darius Ier", "Briques glaçurées", "Lion marchant", "Suse", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNi8ybdgZcsMZgflfjbX6kp3293EIafJDgeiI_JmlPqWPH5ZkXhgXPdAC18KqhD3O2LIcWmfFRAtbxTOJBtGWhjwjigLunVq7xZyxp5q9YeixdD98-zuazzze80_j2QFNBxCfhQV5mkVY4oB_bI6Ks8Ww=w1600-h1200-s-no-gm?authuser=0",
+    narrative: `<p>Cette œuvre monumentale, datée d'environ 510 av. J.-C., est un panneau en briques siliceuses glaçurées provenant du palais de Darius Ier à Suse, en Iran. Elle constitue l'un des exemples les plus éclatants de l'art achéménide et est aujourd'hui conservée au département des Antiquités orientales du musée du Louvre.</p>
+
+<p>Le panneau représente un lion marchant, gueule ouverte, dans une attitude de puissance tranquille et de vigilance. La bête est figurée de profil, mettant en avant une musculature stylisée mais puissante, avec un rendu minutieux de la crinière composée de mèches régulières. L'utilisation de briques à glaçure colorée permettait non seulement de protéger le matériau, mais aussi d'offrir un décor somptueux aux murs du palais, le lion symbolisant ici la force protectrice et la souveraineté du "Grand Roi" perse.</p>
+
+<p>La technique utilisée est héritée de la tradition mésopotamienne, notamment de la célèbre porte d'Ishtar à Babylone. Chaque brique était moulée individuellement pour créer le relief avant d'être cuite, puis recouverte d'oxydes métalliques pour obtenir des teintes vibrantes d'ocre, de bleu et de blanc. Une fois assemblées, les briques forment un puzzle monumental qui s'intégrait dans de longues frises décorant les cours et les appartements du palais, créant un effet de répétition hypnotique et majestueux.</p>
+
+<p>Ce lion ne doit pas être perçu comme une simple décoration, mais comme une composante d'un programme iconographique complexe visant à affirmer la stabilité et l'ordre de l'Empire perse face au chaos. Redécouvertes lors des fouilles françaises à Suse à la fin du XIXe siècle, ces frises témoignent du raffinement d'une civilisation capable de fusionner les techniques artistiques des peuples qu'elle avait conquis pour créer un style impérial unique.</p>
+
+<p><strong>Siècle :</strong> VIe s. av. J.-C. | <strong>Civilisation :</strong> Élam & Perse antique | <strong>Lieu de conservation :</strong> Musée du Louvre, Paris (France)</p>`
+  },
+  {
+    id: "sculpture_panneau_lion_rugissant_briques_glazurees_darius_suse_louvre",
+    civId: "iran_perse",
+    periodId: "iran_achemenide",
+    civName: "Élam & Perse antique",
+    century: "Fin du VIe siècle av. J.-C. (vers 510 av. J.-C.)",
+    centuryDisplay: "VIe s. av. J.-C.",
+    centuryNumeric: -510,
+    domain: "sculpture_statuaire",
+    artifactType: "Frise en briques émaillées",
+    title: "Panneau monumental du Lion rugissant en pleine marche (Palais de Darius, Suse)",
+    site: "Musée du Louvre, Paris (France)",
+    originSite: "Passages et cours du palais de Darius Ier à Suse (Iran)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (France)",
+    category: "Panneau en briques siliceuses émaillées à bordures de palmettes (lion rugissant)",
+    isHighlight: false,
+    chips: ["VIe s. av. J.-C.", "Élam & Perse antique", "Empire perse", "Achéménides", "Lion rugissant", "Brique émaillée", "Palmettes", "Suse", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPeBT1_9JT_gKmVJLvNhB0E4TjMXShkejoWiEW52FudktpoqiuE04NwVt6MP211cHs8FBai-pUvdMRpeC2IW6JBrLp6dlmt5gfsFTV48fD1uhAgFVx9g5nxF__gVWcUft1CUFx3zYTGkKnM1y-KnrqO8Q=w1813-h2408-s-no-gm?authuser=0",
+    narrative: `<p>Ce panneau monumental en briques siliceuses à glaçure représente un lion rugissant, saisi en pleine marche. Issu du décor du palais de Darius Ier à Suse, ce motif de lion constituait l'un des éléments les plus spectaculaires des frises émaillées qui ornaient les parois des cours et des passages. L'animal est représenté de profil, la gueule ouverte montrant les crocs et les muscles puissants de l'épaule soulignés par des reliefs marqués, caractéristiques du style achéménide qui privilégie une force animale à la fois stylisée et naturaliste.</p>
+
+<p>La réalisation technique de ce lion démontre l'incroyable savoir-faire des artisans perses dans la manipulation de la brique glaçurée. Chaque bloc a été soigneusement moulé pour que le relief du corps de l'animal se poursuive de manière fluide d'une brique à l'autre. Les couleurs d'origine, bien que partiellement altérées par le temps, révèlent une attention minutieuse aux détails ornementaux, notamment dans le traitement de la crinière, rendue par une succession de mèches régulières, et dans les motifs géométriques et floraux (rosaces et palmettes) qui encadrent la scène en registres supérieurs et inférieurs.</p>
+
+<p>Symboliquement, le lion est une figure de puissance royale et de protection. Dans l'iconographie du Proche-Orient ancien, le souverain est souvent associé à cet animal, soit comme son dompteur, soit comme son incarnation terrestre. En plaçant ces lions le long des axes de circulation du palais, Darius Ier affirmait sa domination et instaurait une atmosphère de crainte respectueuse. Cette œuvre est un témoignage précieux de la fusion des cultures, empruntant le thème du lion marchant à la porte d'Ishtar de Babylone, tout en l'adaptant à la grandeur et à l'esthétique propre de l'Empire perse.</p>
+
+<p><strong>Siècle :</strong> VIe s. av. J.-C. | <strong>Civilisation :</strong> Élam & Perse antique | <strong>Lieu de conservation :</strong> Musée du Louvre, Paris (France)</p>`
+  },
+  {
+    id: "sculpture_panneaux_bestiaire_royal_lions_taureaux_griffons_suse_louvre",
+    civId: "iran_perse",
+    periodId: "iran_achemenide",
+    civName: "Élam & Perse antique",
+    century: "Fin du VIe siècle av. J.-C. (vers 510 av. J.-C.)",
+    centuryDisplay: "VIe s. av. J.-C.",
+    centuryNumeric: -510,
+    domain: "sculpture_statuaire",
+    artifactType: "Frise en briques émaillées",
+    title: "Panneaux monumentaux du bestiaire royal achéménide : lions et créatures fantastiques",
+    site: "Musée du Louvre, Paris (France)",
+    originSite: "Palais de Darius Ier à Suse (Iran)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (France)",
+    category: "Ensemble de panneaux muraux en briques émaillées (bestiaire royal perse)",
+    isHighlight: false,
+    chips: ["VIe s. av. J.-C.", "Élam & Perse antique", "Empire perse", "Achéménides", "Bestiaire royal", "Taureau ailé", "Griffon", "Briques émaillées", "Suse", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczM695EkT8dPrHeVlTfoA66AYiRpwVlQejBgqUvy1Fo4OEw6A0ef5iYZJWsbkopVgeckj8QuU_hccBHDH4OAk14iF_lL4Z1axm9dtJuV1WOSAnBWJ0oTeCwqhM7Hh93uRm0dDDmn2UOGPapToXZDSyWSAA=w1847-h2336-s-no-gm?authuser=0",
+    narrative: `<p>Ces panneaux monumentaux proviennent initialement du palais de Darius Ier à Suse, l'une des capitales de l'Empire achéménide. Ils témoignent de la splendeur et de la maîtrise technique des artisans perses dans l'art de la brique moulée et émaillée. Ce type de décor architectural, hérité des traditions mésopotamiennes de Babylone, servait non seulement à magnifier les murs des cours et des salles d'apparat comme l'Apadana, mais aussi à symboliser la puissance protectrice et éternelle du Grand Roi sur ses vastes domaines.</p>
+
+<p>La composition de l'ensemble présente une répétition rythmée de figures animales et fantastiques, caractéristiques du bestiaire royal perse. On y observe des lions rugissants, des taureaux ailés et des griffons à tête de lion ou de rapace. Chaque panneau est constitué de briques siliceuses soigneusement assemblées où le relief est obtenu par un moulage précis avant la cuisson. Les couleurs, bien qu'atténuées par le temps, révèlent encore des nuances d'ocre, de bleu et de blanc, créant un contraste saisissant qui devait autrefois scintiller sous le soleil de Suse.</p>
+
+<p>La description détaillée de ces créatures révèle un naturalisme stylisé. Le lion, symbole de force souveraine, est représenté de profil, la gueule ouverte et la musculature saillante, soulignée par des lignes géométriques. À ses côtés, les créatures hybrides comme les sphinx ou les griffons ailés incarnent le caractère sacré et la protection divine accordée au monarque. La précision des détails, notamment dans le rendu des plumes des ailes et des boucles de la crinière, démontre une standardisation de haute qualité propre aux chantiers royaux achéménides.</p>
+
+<p><strong>Siècle :</strong> VIe s. av. J.-C. | <strong>Civilisation :</strong> Élam & Perse antique | <strong>Lieu de conservation :</strong> Musée du Louvre, Paris (France)</p>`
+  },
+  {
+    id: "sculpture_frise_monumentale_griffons_ailes_palais_darius_suse_louvre",
+    civId: "iran_perse",
+    periodId: "iran_achemenide",
+    civName: "Élam & Perse antique",
+    century: "Fin du VIe siècle av. J.-C. (vers 510 av. J.-C.)",
+    centuryDisplay: "VIe s. av. J.-C.",
+    centuryNumeric: -510,
+    domain: "sculpture_statuaire",
+    artifactType: "Frise en briques émaillées",
+    title: "Frise monumentale des griffons ailés protecteurs en briques glaçurées (Suse)",
+    site: "Musée du Louvre, Paris (France)",
+    originSite: "Palais de Darius Ier à Suse (Iran)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (France)",
+    category: "Frise murale monumentale en briques émaillées (griffons ailés et fleurs de lotus)",
+    isHighlight: false,
+    chips: ["VIe s. av. J.-C.", "Élam & Perse antique", "Empire perse", "Achéménides", "Griffon ailé", "Génie protecteur", "Lotus et palmettes", "Briques glaçurées", "Suse", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP8nt-77G2gxHIO7YexO3Eyblj5rmBnuWjvcgxgqCNX7ccwjc7e3IF-dul9BQlbLI1FL9t3b-Q7kWulPXM-biGNrQPY028r33M7bGQ2CQYVRCPJ6K0q_8xX9f2L3RaXULNhzf_1aGZOEmOQi0wthwhGHA=w1847-h697-s-no-gm?authuser=0",
+    narrative: `<p>Cette frise monumentale, issue des décors du palais de Darius Ier à Suse, met en scène des griffons, créatures mythologiques combinant la puissance du lion et la majesté de l'aigle. Dans l'idéologie royale achéménide, ces figures hybrides ne sont pas de simples ornements, mais des génies protecteurs destinés à écarter les forces du mal et à affirmer le caractère sacré de la demeure du souverain. La technique des briques silicieuses à glaçure, d'une grande complexité, permettait d'ériger des parois entières aux couleurs inaltérables, intégrant l'iconographie au cœur même de la structure architecturale. Ce bestiaire fantastique participe d'un programme décoratif global qui visait à impressionner les ambassadeurs et les visiteurs par une démonstration de force tranquille et de maîtrise artistique.</p>
+
+<p>L'agencement des briques permet de dessiner des silhouettes dynamiques et musclées, où chaque détail anatomique est souligné par le relief de la glaçure. Le corps du lion, représenté avec une tension palpable, est surmonté d'ailes puissantes dont les plumes sont traitées avec une rigueur géométrique. La tête, ornée de cornes spiralées de capridé et d'oreilles dressées, présente une gueule ouverte qui laisse deviner un rugissement contenu. Les contrastes chromatiques entre le corps ocre, les ailes bleutées et le fond turquoise créent une profondeur visuelle saisissante. Au-dessus de la scène, une frise de palmettes et de fleurs de lotus encadre la procession, renforçant l'aspect solennel et rituel de la représentation.</p>
+
+<p>Le rendu des pattes griffues et de la queue sinueuse témoigne d'une observation fine du monde animal, réinterprétée à travers le prisme d'une symbolique religieuse rigoureuse. La brillance de la surface émaillée, captant la lumière, devait donner à ces gardiens une apparence presque vivante dans les couloirs du palais. En combinant des éléments de la faune réelle et de l'imaginaire mythique, les artistes achéménides ont créé une œuvre qui dépasse la simple fonction de muraille pour devenir un manifeste de l'ordre impérial. La répétition de ces motifs le long des murs créait un rythme hypnotique, marquant l'espace de l'empreinte indélébile du "Roi des Rois".</p>
+
+<p><strong>Siècle :</strong> VIe s. av. J.-C. | <strong>Civilisation :</strong> Élam & Perse antique | <strong>Lieu de conservation :</strong> Musée du Louvre, Paris (France)</p>`
+  },
+  {
+    id: "sculpture_panneau_sphinx_adosses_disque_faravahar_palais_darius_suse_louvre",
+    civId: "iran_perse",
+    periodId: "iran_achemenide",
+    civName: "Élam & Perse antique",
+    century: "Fin du VIe siècle av. J.-C. (vers 510 av. J.-C.)",
+    centuryDisplay: "VIe s. av. J.-C.",
+    centuryNumeric: -510,
+    domain: "sculpture_statuaire",
+    artifactType: "Frise en briques émaillées",
+    title: "Panneau des deux sphinx barbus face à face sous le disque ailé du Faravahar (Suse)",
+    site: "Musée du Louvre, Paris (France)",
+    originSite: "Cours intérieures du palais de Darius Ier à Suse (Iran)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (France)",
+    category: "Panneau en briques siliceuses à glaçure (deux sphinx barbus sous le Faravahar)",
+    isHighlight: true,
+    chips: ["VIe s. av. J.-C.", "Élam & Perse antique", "Empire perse", "Achéménides", "Sphinx barbus", "Faravahar", "Disque ailé", "Tiare à cornes", "Briques émaillées", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPnU_Dl-lPImHRSaixP28UHzZHYD_1-d9u_0Kn9Jn-bAi9zACSHggMCwoSRbDoLQN97mJmyXNRV4eGIcT6AesWfQysyTwetEbiHOEmKf-bbK4SybdPzhr8Pkph98Z17vd2hDWh4myFebxUxiZF51vGC1w=w1847-h1883-s-no-gm?authuser=0",
+    narrative: `<p>Ce panneau en briques siliceuses à glaçure provient du décor monumental du palais de Darius Ier à Suse, l'une des capitales de l'Empire perse. Contrairement aux lanciers de la célèbre "Frise des Archers", cette composition met en scène des créatures hybrides et protectrices. Les deux sphinx sont représentés assis face à face, leurs corps de lions ailés surmontés de têtes humaines barbues. Ils portent la tiare cylindrique à cornes, attribut traditionnel de la divinité dans l'art mésopotamien, soulignant leur nature sacrée et leur rôle de gardiens du pouvoir royal.</p>
+
+<p>La technique utilisée ici témoigne de la maîtrise exceptionnelle des artisans de Suse dans l'art de la brique émaillée. Chaque brique a été moulée puis recouverte d'une glaçure colorée avant la cuisson, créant un relief subtil et une palette chromatique dominée par les ocres, les bleus et les verts. La précision des détails est remarquable, notamment dans le rendu des plumes imbriquées des ailes, la texture des barbes frisées et les motifs ornementaux des tiares. Cette technique permettait non seulement de protéger les structures en briques crues du palais, mais aussi de projeter une image de splendeur et de stabilité éternelle.</p>
+
+<p>Au-dessus des sphinx plane le Faravahar, le disque ailé, symbole de la gloire divine ou de l'ange gardien dans la religion zoroastrienne. Ce motif souligne la protection spirituelle accordée au souverain et la légitimité religieuse de la dynastie des Achéménides. L'ensemble de la frise servait de décor aux cours intérieures et aux passages du palais, rappelant à chaque visiteur, qu'il soit courtisan ou ambassadeur étranger, la puissance cosmopolite d'un empire s'étendant de l'Indus au Danube, capable de fondre les traditions artistiques élamites, babyloniennes et assyriennes dans un style impérial unique et harmonieux.</p>
+
+<p><strong>Siècle :</strong> VIe s. av. J.-C. | <strong>Civilisation :</strong> Élam & Perse antique | <strong>Lieu de conservation :</strong> Musée du Louvre, Paris (France)</p>`
+  },
+  {
+    id: "sculpture_frise_archers_melophores_immortels_palais_darius_suse_louvre",
+    civId: "iran_perse",
+    periodId: "iran_achemenide",
+    civName: "Élam & Perse antique",
+    century: "Fin du VIe siècle av. J.-C. (vers 510 av. J.-C.)",
+    centuryDisplay: "VIe s. av. J.-C.",
+    centuryNumeric: -510,
+    domain: "sculpture_statuaire",
+    artifactType: "Frise en briques émaillées",
+    title: "La Frise des Archers de Darius Ier : les Mélophores de la garde impériale (Suse)",
+    site: "Musée du Louvre, Paris (France)",
+    originSite: "Palais de Darius Ier à Suse (Iran)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (France)",
+    category: "Panneau en briques siliceuses émaillées (deux lanciers d'élite / Mélophores)",
+    isHighlight: true,
+    chips: ["VIe s. av. J.-C.", "Élam & Perse antique", "Empire perse", "Achéménides", "Darius Ier", "Archers de Suse", "Mélophores", "Immortels", "Briques émaillées", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNE_AXwcOVJux-Z5mms8OC21eRLHrcHMpzgkYrCbOhRLJKEjVvvpp7MNaTWbkB4M_2YyZg-j1Yq8Vbt5Zr1k4-2D9xTppKWDc2VIJ7WFxWPzEYrh7Yzhf8DSMiiK1MrID2DfAio-KXnM-y8Mf1PVM56gg=w1751-h2408-s-no-gm?authuser=0",
+    narrative: `<p>Cette œuvre majestueuse, conservée au Musée du Louvre, constitue un fragment emblématique du décor monumental du palais de Darius Ier à Suse. Elle représente deux gardes d'élite, souvent identifiés par les historiens grecs comme les Mélophores ou les Immortels, dont le rôle était d'assurer la protection rapprochée du Roi des Rois. La technique utilisée ici est celle de la brique de silice à glaçure, un héritage direct des traditions architecturales de Babylone, que les Perses achéménides ont su porter à un degré de raffinement esthétique et technique exceptionnel. Ces panneaux étaient originellement disposés en de longues frises le long des murs des cours et des passages du palais, créant une procession silencieuse et éternelle de soldats qui magnifiait la puissance impériale.</p>
+
+<p>L'observation de l'œuvre révèle une richesse de motifs et de couleurs qui frappe par sa précision. Chaque lancier est représenté de profil, marchant d'un pas assuré. Ils portent une robe longue et ample, richement ornée de motifs géométriques et de fleurs stylisées, dont les teintes jaunes et blanches contrastent avec le fond bleu turquoise de la muraille. Sur leur épaule, on distingue un arc et un carquois imposant, tandis qu'ils tiennent fermement de leurs deux mains une longue lance dont la pointe s'élève vers le haut et le talon se termine par une sphère, probablement une pomme en or ou en argent selon les rangs. La barbe et la chevelure, soigneusement frisées selon les canons de l'époque, encadrent un visage au regard fixe, souligné par un tracé noir qui accentue la noblesse du trait. Les pieds, chaussés de sandales jaunes souples, sont ancrés dans le sol avec une stabilité qui évoque l'immuabilité de l'ordre perse.</p>
+
+<p>La maîtrise de la polychromie est ici fondamentale. L'usage des glaçures permet de fixer des couleurs vives qui ont traversé les millénaires : le bleu de cobalt, le jaune d'ocre, le brun et le blanc créent une harmonie visuelle qui devait être éblouissante sous le soleil de l'Iran antique. Le relief, obtenu par le moulage individuel de chaque brique avant la cuisson et l'émaillage, donne à ces figures une présence quasi physique. En observant la finesse des broderies sur le tissu et le détail des attaches de l'équipement militaire, on perçoit non seulement un souci du réalisme documentaire, mais aussi une volonté de transformer le guerrier en une figure d'apparat, symbole de la stabilité et de la splendeur de l'Empire Achéménide.</p>
+
+<p><strong>Siècle :</strong> VIe s. av. J.-C. | <strong>Civilisation :</strong> Élam & Perse antique | <strong>Lieu de conservation :</strong> Musée du Louvre, Paris (France)</p>`
+  },
+  {
+    id: "sculpture_procession_archers_royaux_candys_palais_darius_suse_louvre",
+    civId: "iran_perse",
+    periodId: "iran_achemenide",
+    civName: "Élam & Perse antique",
+    century: "Fin du VIe siècle av. J.-C. (vers 510 av. J.-C.)",
+    centuryDisplay: "VIe s. av. J.-C.",
+    centuryNumeric: -510,
+    domain: "sculpture_statuaire",
+    artifactType: "Frise en briques émaillées",
+    title: "Procession continue des archers royaux en robe candys (Appartements de Darius, Suse)",
+    site: "Musée du Louvre, Paris (France)",
+    originSite: "Appartements royaux du palais de Darius Ier à Suse (Iran)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (France)",
+    category: "Frise monumentale en briques émaillées (procession des archers en robe candys)",
+    isHighlight: false,
+    chips: ["VIe s. av. J.-C.", "Élam & Perse antique", "Empire perse", "Achéménides", "Robe candys", "Archers", "Polychromie turquoise", "Suse", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNOfCgWADT5UFcnrDkCXKHFSgXw7yJD9QVH6qQAblWJrpMHrTz5MXH8_wF6oxevTj3azlsQ0I6NKAh-FGn6YO82R4rBKyl2q0P1jBdZ8gRTG_MAwCx6ICjfCx26hmSF28Eu2UZIgpQruS4CbtM6IBS5CQ=w1847-h2374-s-no-gm?authuser=0",
+    narrative: `<p>Cette imposante frise en briques silicieuses à glaçure, provenant des appartements royaux du palais de Darius Ier à Suse, constitue l'un des témoignages les plus spectaculaires de l'art achéménide. Elle met en scène une procession de guerriers armés d'arcs et de lances, souvent assimilés à la garde personnelle du souverain, les célèbres « Immortels ». Ce décor architectural ne se contentait pas d'orner les murs du palais ; il servait de manifeste visuel à la puissance de l'Empire perse, rappelant à tout visiteur la force militaire inépuisable qui protégeait le Roi des Rois. La technique de la brique émaillée, héritée de la tradition mésopotamienne, permet ici une polychromie éclatante et une résistance au temps qui ont préservé toute la superbe de ces figures millénaires.</p>
+
+<p>Le rendu visuel de ces archers se caractérise par une attention minutieuse portée aux détails de l'équipement et du costume. Chaque soldat est vêtu d'une longue robe perse, la candys, dont les plis et les motifs colorés évoquent la richesse des textiles de cour. Sur leur épaule, l'arc est porté avec élégance, tandis que le carquois, richement décoré, pend dans leur dos. Les guerriers tiennent une lance verticale dont le talon repose sur leur pied, une posture qui souligne leur vigilance tranquille. Le travail sur les visages, avec leurs barbes et chevelures bouclées à la mode de Suse, ainsi que les bijoux tels que les bracelets, témoigne d'un raffinement qui transcende la simple fonction militaire pour atteindre une dimension aristocratique.</p>
+
+<p>La composition d'ensemble repose sur une répétition rythmée qui crée un effet de mouvement lent et solennel. Le contraste entre le fond bleu turquoise, profond, et les silhouettes déclinées dans des tons de blanc, d'ocre et de jaune, donne une lisibilité parfaite à la scène, même à grande distance. Les bordures de la frise, agrémentées de motifs de rosettes et de triangles crénelés, encadrent cette armée immobile et lui confèrent une structure géométrique rigoureuse. Cette esthétique de la répétition, propre à l'art achéménide, vise à exprimer l'éternité et la stabilité d'un empire perçu comme une extension de l'ordre divin sur terre.</p>
+
+<p><strong>Siècle :</strong> VIe s. av. J.-C. | <strong>Civilisation :</strong> Élam & Perse antique | <strong>Lieu de conservation :</strong> Musée du Louvre, Paris (France)</p>`
+  },
+  {
+    id: "sculpture_archer_royal_robe_candys_blanche_or_palais_darius_suse_louvre",
+    civId: "iran_perse",
+    periodId: "iran_achemenide",
+    civName: "Élam & Perse antique",
+    century: "Fin du VIe siècle av. J.-C. (vers 510 av. J.-C.)",
+    centuryDisplay: "VIe s. av. J.-C.",
+    centuryNumeric: -510,
+    domain: "sculpture_statuaire",
+    artifactType: "Frise en briques émaillées",
+    title: "Archer de la garde impériale en candys blanche et or au carquois brodé (Suse)",
+    site: "Musée du Louvre, Paris (France)",
+    originSite: "Palais de Darius Ier à Suse (Iran)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (France)",
+    category: "Panneau en briques siliceuses à glaçure (archer royal en candys blanche et jaune)",
+    isHighlight: false,
+    chips: ["VIe s. av. J.-C.", "Élam & Perse antique", "Empire perse", "Achéménides", "Archer royal", "Candys", "Carquois brodé", "Briques glaçurées", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPJKsuXMYYwc7afk59x9fxzwTqFaDD2eiodYUiIn8fzVWab9102JgScVXxRdDnDX6XxJCQDpLhIg2jx5wv7Wxo7Eo28ex7sd9MSLv5FqtV5In9g4GtNVNYdXUJyt__rbFwFYf_pmrMDSjz9e5ey930WrQ=w1595-h2408-s-no-gm?authuser=0",
+    narrative: `<p>Ce panneau en briques de terre siliceuse à glaçure polychrome, découvert sur le tell de l'Acropole et de l'Apadana de Suse par la mission archéologique Dieulafoy dans les années 1880, offre l'une des représentations les plus somptueuses et les mieux préservées d'un archer d'élite de la garde impériale du Grand Roi achéménide Darius Ier. Le guerrier s'avance de profil, drapé dans une longue robe de cour fluide à manches évasées, le candys, dont le tissu d'un blanc crémeux est parsemé de médaillons géométriques et d'étoiles cruciformes or et bleu pâle évoquant le travail précieux du brocart et des soieries royales.</p>
+
+<p>L'archer est équipé de l'armement traditionnel des corps d'élite perses : il tient à deux mains une longue lance reposant sur son pied gauche, surmontée à sa base d'une boule d'argent ou d'or qui le désigne selon Hérodote comme l'un des Mélophores (« porteurs de pommes »). Sur son dos repose un grand carquois garni d'écailles brodées d'où émergent des flèches, maintenu par une sangle transversale, tandis qu'un arc dont l'extrémité se recourbe en tête de canard stylisée est passé sur son épaule gauche. Sa chevelure noire lustrée, coiffée en fines tresses annelées maintenues par un bandeau d'étoffe torsadée (le strophion), et sa barbe taillée avec une minutie virtuose témoignent de l'idéal de noblesse aristocratique perse.</p>
+
+<p>Sur le plan technique, ce chef-d'œuvre illustre la réinterprétation achéménide des savoir-faire céramiques de l'antique Élam et de Babylone. Les artisans susiens ont coulé une pâte siliceuse fine dans des moules afin de créer un relief délicat, avant d'appliquer des émaux aux oxydes métalliques (cuivre pour le turquoise, antimoine pour le jaune, manganèse pour le brun-noir). Cette composition monumentale, conçue pour souligner la majesté cosmique et l'invincibilité de l'Empire des Grands Rois, constitue l'un des trésors les plus universellement admirés du département des Antiquités orientales du musée du Louvre.</p>
+
+<p><strong>Siècle :</strong> VIe s. av. J.-C. | <strong>Civilisation :</strong> Élam & Perse antique | <strong>Lieu de conservation :</strong> Musée du Louvre, Paris (France)</p>`
+  },
+  {
+    id: "sculpture_frise_gardes_apadana_briques_emaillees_palais_darius_suse_louvre",
+    civId: "iran_perse",
+    periodId: "iran_achemenide",
+    civName: "Élam & Perse antique",
+    century: "Fin du VIe siècle av. J.-C. (vers 510 av. J.-C.)",
+    centuryDisplay: "VIe s. av. J.-C.",
+    centuryNumeric: -510,
+    domain: "sculpture_statuaire",
+    artifactType: "Frise en briques émaillées",
+    title: "Frise des gardes d'honneur de l'Apadana en briques émaillées (Palais de Darius, Suse)",
+    site: "Musée du Louvre, Paris (France)",
+    originSite: "Cours d'apparat du palais de Darius Ier à Suse (Iran)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (France)",
+    category: "Frise murale en briques émaillées (alignement des gardes d'honneur de l'Apadana)",
+    isHighlight: false,
+    chips: ["VIe s. av. J.-C.", "Élam & Perse antique", "Empire perse", "Achéménides", "Apadana", "Gardes d'honneur", "Briques émaillées", "Suse", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMsRh_HnVLjOOLNxFK3d0xOKH0ZXxs-SG-Jnss-Uty7_iHPe2Nz0RfNK3LjmkL0-ws5Gfv97YZuQrO60gs0xTMwhZpnBbmi3ew8adtS8bVhFZwshpA_7rzKu1x0_ktpt4AWCosIA8gMZzQ0k2rK-UU3Zg=w1847-h1391-s-no-gm?authuser=0",
+    narrative: `<p>Cette spectaculaire frise en briques silico-argileuses émaillées provient des cours d'honneur et des appartements officiels du palais de Darius Ier à Suse. Elle met en scène la progression solennelle d'une escorte de gardes d'honneur impériaux, avançant d'un même pas mesuré pour escorter le souverain lors des grandes audiences diplomatiques et des cérémonies de tribut. La répétition rythmique des figures, rythmée par l'alternance rigoureuse des drapés polychromes et des armes rituelles, crée une saisissante impression d'ordre cosmique, d'harmonie et d'inébranlable stabilité impériale.</p>
+
+<p>Chaque guerrier est figuré dans une attitude cérémonielle stricte : la tête de profil, les yeux grands ouverts soulignés d'émail noir, tenant fermement la hampe de sa lance verticalement. Les tuniques révèlent la richesse des ateliers textiles de l'Empire perse, mêlant les motifs géométriques susiens, les rosettes solaires et les créneaux étagés babyloniens. Les teintes chaudes jaune ocre, vert olive et brun violacé contrastent avec le fond blanc nacré et turquoise éclatant, restituant toute la splendeur chromatique qui illuminait les portiques et les couloirs monumentaux de l'Apadana sous la lumière crépusculaire de la plaine du Khouzistan.</p>
+
+<p>Rapportée en France à la fin du XIXe siècle grâce aux fouilles pionnières de Jane et Marcel Dieulafoy, cette reconstitution grandiose témoigne de la virtuosité des restaurateurs qui ont rassemblé des milliers de tessons de briques éparpillés parmi les décombres de la salle du trône. Plus qu'une simple garde militaire, cette garde d'honneur incarnait la colonne vertébrale morale et physique de l'Empire universel achéménide, rappelant à chaque satrape et dignitaire étranger la protection permanente dont bénéficiait le représentant d'Ahura Mazda sur terre.</p>
+
+<p><strong>Siècle :</strong> VIe s. av. J.-C. | <strong>Civilisation :</strong> Élam & Perse antique | <strong>Lieu de conservation :</strong> Musée du Louvre, Paris (France)</p>`
+  },
+  {
+    id: "sculpture_detail_archer_garde_imperiale_visage_carquois_suse_louvre",
+    civId: "iran_perse",
+    periodId: "iran_achemenide",
+    civName: "Élam & Perse antique",
+    century: "Fin du VIe siècle av. J.-C. (vers 510 av. J.-C.)",
+    centuryDisplay: "VIe s. av. J.-C.",
+    centuryNumeric: -510,
+    domain: "sculpture_statuaire",
+    artifactType: "Frise en briques émaillées",
+    title: "Détail du profil et du carquois d'un archer de la garde impériale perse (Suse)",
+    site: "Musée du Louvre, Paris (France)",
+    originSite: "Palais de Darius Ier à Suse (Iran)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (France)",
+    category: "Détail sculptural en briques glaçurées (buste et visage d'archer de Suse)",
+    isHighlight: false,
+    chips: ["VIe s. av. J.-C.", "Élam & Perse antique", "Empire perse", "Achéménides", "Détail de profil", "Archer perse", "Glaçure polychrome", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczODG3kanKKXDgRnc_CrcqmWDBQhOvhzwA88KGSo2fjMbSCg_7uMUSObEtPdlYqQ4fNB3ULBe1sBSlgcaqjFKScnZ4XotnYTu6q63chwAIWF3H8d8_-rRaEgZ4b1Bm96L15HspvKznr4G0ZXNMLEzhITRg=w1847-h2297-s-no-gm?authuser=0",
+    narrative: `<p>Ce fragment exceptionnel de briques moulées à glaçure permet une contemplation intime et détaillée du visage et de l'armement d'un garde perse d'élite appartenant à la célèbre « Frise des Archers » de Suse. Le modelé remarquable du profil révèle le traitement plastique sophistiqué développé par les céramistes susiens : l'arête nasale rectiligne, les lèvres soulignées avec une douceur presque souriante et l'œil en amande étiré vers la tempe confèrent au personnage une dignité souveraine et sereine, exempte de toute agressivité belliqueuse.</p>
+
+<p>Le soin extrême apporté aux parures métalliques et à l'armement constitue un document ethnographique inestimable sur la cour achéménide. L'archer porte à l'oreille un anneau d'or finement émaillé, privilège réservé aux membres de la haute noblesse et de la maison royale. Le carquois, porté sur l'épaule droite, est rendu avec un relief tactile impressionnant : sa surface en cuir gaufré ou en tissu damassé est rythmée de franges pendantes et de passementeries, tandis que les empennages des flèches sont disposés avec une parfaite régularité géométrique.</p>
+
+<p>La cuisson à haute température des émaux a permis à la matière de conserver son éclat vitreux originel et la vivacité de ses pigments malgré plus de vingt-cinq siècles d'enfouissement. Cette œuvre magistrale illustre le syncrétisme artistique voulu par Darius Ier, qui mobilisa à Suse les meilleurs sculpteurs de Médie, les orfèvres d'Égypte et de Bactriane, et les maîtres céramistes de Babylone pour forger un art officiel impérial sans équivalent dans le monde antique, aujourd'hui conservé au musée du Louvre.</p>
+
+<p><strong>Siècle :</strong> VIe s. av. J.-C. | <strong>Civilisation :</strong> Élam & Perse antique | <strong>Lieu de conservation :</strong> Musée du Louvre, Paris (France)</p>`
+  },
+  {
+    id: "sculpture_panneau_decoratif_rosettes_disques_solaires_suse_louvre",
+    civId: "iran_perse",
+    periodId: "iran_achemenide",
+    civName: "Élam & Perse antique",
+    century: "Fin du VIe siècle av. J.-C. (vers 510 av. J.-C.)",
+    centuryDisplay: "VIe s. av. J.-C.",
+    centuryNumeric: -510,
+    domain: "sculpture_statuaire",
+    artifactType: "Décor architectural (fronton, frise, métope, chapiteau)",
+    title: "Panneau décoratif en briques émaillées à rosettes solaires et fleurs de lotus (Suse)",
+    site: "Musée du Louvre, Paris (France)",
+    originSite: "Palais de Darius Ier à Suse (Iran)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (France)",
+    category: "Panneau architectural en briques émaillées à motifs de rosettes et disques solaires",
+    isHighlight: false,
+    chips: ["VIe s. av. J.-C.", "Élam & Perse antique", "Empire perse", "Achéménides", "Rosettes solaires", "Décor géométrique", "Briques émaillées", "Suse", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPITdsLtHfRQvNhSBBJ9ePLt7yLp8UDAy8stzFuhJWGHW566E17eYGeTlhraVpXgmAa-s3F844TrIZ7mC0zRD1r0WZhrlARWHqoLH042Hq_452xl7LJbu26axGxxsvoSgJqy-z53U5TuTwamL9L2Cahqg=w1847-h1264-s-no-gm?authuser=0",
+    narrative: `<p>Ce panneau décoratif en briques silicieuses à glaçure provient du palais de Darius Ier à Suse et illustre la sophistication de l'ornementation achéménide. Bien que les griffons et les lions soient les figures centrales de ces frises, les motifs géométriques et floraux qui les encadrent jouent un rôle crucial dans la structuration de l'espace architectural. Ces décors, hérités du savoir-faire mésopotamien et notamment de la porte d'Ishtar à Babylone, témoignent d'une volonté de saturer l'espace de symboles de prospérité et d'ordre cosmique. La technique de la glaçure permettait non seulement de protéger les briques de terre, mais aussi d'offrir un éclat durable aux parois du palais, transformant chaque mur en une surface vibrante de lumière et de couleurs.</p>
+
+<p>L'analyse visuelle de ce fragment met en lumière une répétition rythmée de disques solaires stylisés et de rosettes. Ces motifs circulaires, aux teintes ocre, blanches et brunes, sont agencés selon une symétrie rigoureuse qui évoque le mouvement éternel et la protection divine. Les nuances de bleu et de turquoise, typiques de la palette perse, servent de liant chromatique et rappellent le ciel ou l'eau, éléments vitaux pour une civilisation établie dans un environnement aride. On observe également des bordures composées de frises de fleurs de lotus ou de palmettes, symboles de renaissance et de pérennité, qui délimitent les registres iconographiques avec une précision géométrique.</p>
+
+<p>La texture de la brique de silice apporte un relief subtil à la composition, chaque bloc ayant été moulé pour s'intégrer parfaitement dans un puzzle monumental. Malgré l'érosion du temps, la finesse des tracés et la profondeur des pigments subsistent, révélant le soin apporté aux détails les plus infimes. Ces motifs ne sont pas de simples ornements ; ils constituent un langage visuel qui célèbre la magnificence du pouvoir royal en l'inscrivant dans un cadre esthétique harmonieux et immuable. La juxtaposition des formes organiques et géométriques crée un équilibre visuel qui guidait le regard des visiteurs à travers les vastes cours de la résidence impériale.</p>
+
+<p><strong>Siècle :</strong> VIe s. av. J.-C. | <strong>Civilisation :</strong> Élam & Perse antique | <strong>Lieu de conservation :</strong> Musée du Louvre, Paris (France)</p>`
+  },
+  {
+    id: "sculpture_brique_siliceuse_rosace_centrale_triangles_suse_louvre",
+    civId: "iran_perse",
+    periodId: "iran_achemenide",
+    civName: "Élam & Perse antique",
+    century: "Fin du VIe siècle av. J.-C. (vers 510 av. J.-C.)",
+    centuryDisplay: "VIe s. av. J.-C.",
+    centuryNumeric: -510,
+    domain: "sculpture_statuaire",
+    artifactType: "Décor architectural (fronton, frise, métope, chapiteau)",
+    title: "Bloc de frise à rosace centrale et bordure de triangles alternés (Palais de Darius, Suse)",
+    site: "Musée du Louvre, Paris (France)",
+    originSite: "Palais de Darius Ier à Suse (Iran)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (France)",
+    category: "Bloc de brique siliceuse à glaçure à motif de rosace centrale et dents de scie",
+    isHighlight: false,
+    chips: ["VIe s. av. J.-C.", "Élam & Perse antique", "Empire perse", "Achéménides", "Rosace perse", "Brique émaillée", "Pax Persica", "Suse", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP4B0c94neMisqv3Su-ZfQZrA1aogW9OkakWUs7zS3Xiqx3p8JaNWfIRqTEBiNYWP9vw_4I_fRjQ1EQ-Lz-Wh15VrStib5KYHIatmXeKNiaYjJW-4aHpaYQ5H8glr7wZ24sASnPDXUbCasSTatCgR-EKg=w1847-h1978-s-no-gm?authuser=0",
+    narrative: `<p>Ce bloc de brique siliceuse à glaçure présente un motif de rosace centrale, un élément décoratif récurrent et hautement symbolique dans l'architecture palatiale de Suse. La rosace, aux pétales doubles et réguliers, est encadrée par deux bandes de triangles alternés formant une frise géométrique rigoureuse. Ces motifs ne sont pas de simples ornements ; ils participaient à la structuration visuelle des murs monumentaux du palais de Darius Ier, servant souvent de bordures pour séparer les grandes scènes narratives ou les représentations de gardiens et d'animaux mythologiques.</p>
+
+<p>L'utilisation de la rosace dans l'art achéménide est un héritage direct des traditions artistiques mésopotamiennes et assyriennes, où elle symbolisait souvent la régénération, le cycle solaire ou la protection divine. Ici, la technique de la brique émaillée permet de conserver la vivacité des pigments malgré le passage des millénaires. Les teintes de vert de gris et les rehauts jaunes, obtenus par l'oxydation de minéraux lors de la cuisson, témoignent de la sophistication chimique des artisans perses. La précision du dessin, réalisé en léger relief, permettait de capter la lumière naturelle des cours à ciel ouvert de Suse, créant un jeu de contrastes qui animait la surface des murs.</p>
+
+<p>L'agencement des triangles en bordure accentue l'effet de rythme et de symétrie, des principes fondamentaux de l'esthétique impériale perse. Ce souci de l'ordre et de la répétition reflétait l'idéologie de la "Pax Persica" : un empire vaste et diversifié maintenu sous une administration stable et ordonnée. Ces briques décoratives, bien que plus petites que les grandes figures de la frise, étaient essentielles pour créer une harmonie visuelle totale au sein de l'Apadana (salle d'audience) et des autres structures du complexe palatial.</p>
+
+<p><strong>Siècle :</strong> VIe s. av. J.-C. | <strong>Civilisation :</strong> Élam & Perse antique | <strong>Lieu de conservation :</strong> Musée du Louvre, Paris (France)</p>`
+  },
+  {
+    id: "sculpture_relief_serviteur_mede_chevreau_escalier_apadana_persepolis_louvre",
+    civId: "iran_perse",
+    periodId: "iran_achemenide",
+    civName: "Élam & Perse antique",
+    century: "Fin du VIe ou début du Ve siècle av. J.-C. (vers 500 av. J.-C.)",
+    centuryDisplay: "Ve s. av. J.-C.",
+    centuryNumeric: -500,
+    domain: "sculpture_statuaire",
+    artifactType: "Bas-relief & Relief en creux",
+    title: "Relief des escaliers de l'Apadana : Serviteur mède en bashlyk portant un chevreau (Persépolis)",
+    site: "Musée du Louvre, Paris (France)",
+    originSite: "Escaliers monumentaux de l'Apadana ou Tripylon, Persépolis (Iran)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (France)",
+    category: "Bas-relief en calcaire sombre poli (serviteur mède portant un chevreau)",
+    isHighlight: true,
+    chips: ["Ve s. av. J.-C.", "Élam & Perse antique", "Empire perse", "Achéménides", "Persépolis", "Apadana", "Tributaire mède", "Bashlyk", "Nowrouz", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOiwqRSOtnG3W_NSZI_L5G_2KnWsnlK6beCb0SOmTRNeTHox5sMMH_Xmw4j8hXo0CdS-C5lEXZk4KRnGyfoVI8WZ8w9xpCml2gplSxm8REuPGUZgu_V6CSVhYg7bvr-4yAZWSZMTr-8Ea3HTLdlmSoJEg=w1813-h2408-s-no-gm?authuser=0",
+    narrative: `<p>Ce relief en pierre grise, sculpté dans le calcaire sombre caractéristique de la région du Fars, provient des escaliers monumentaux de l'Apadana ou du Tripylon de Persépolis. Il représente un tributaire ou un serviteur en marche, participant à la grande procession rituelle lors des fêtes du Nouvel An (Nowrouz). Ces reliefs répétitifs, qui bordaient les montées d'escaliers du palais, servaient à immortaliser dans la pierre l'unité de l'Empire achéménide en montrant les différents peuples apportant les richesses de leurs provinces au Grand Roi.</p>
+
+<p>Le personnage est représenté de profil, selon les conventions esthétiques perses, portant un jeune animal, probablement un chevreau ou un agneau, destiné aux sacrifices ou aux banquets royaux. Il est vêtu de la tenue "mède", reconnaissable à sa tunique courte serrée par une ceinture, son pantalon (anaxyrides) et sa coiffe souple à mentonnière, appelée bashlyk, qui recouvre ses oreilles et son menton. Cette précision vestimentaire permettait aux visiteurs de l'époque d'identifier instantanément l'origine ethnique ou le rang social de la figure représentée.</p>
+
+<p>La finesse de la sculpture se manifeste dans le rendu méticuleux des détails, malgré la dureté de la pierre. On observe un soin particulier apporté à la barbe frisée du personnage et aux traits de son visage, qui conservent une expression de sérénité et de dévotion. L'animal porté est sculpté avec un réalisme saisissant, montrant une certaine souplesse dans sa posture. L'ensemble dégage une impression de mouvement calme et ordonné, caractéristique de l'art officiel de la dynastie de Darius et Xerxès, où chaque figure contribue à l'harmonie globale de la hiérarchie impériale.</p>
+
+<p><strong>Siècle :</strong> Ve s. av. J.-C. | <strong>Civilisation :</strong> Élam & Perse antique | <strong>Lieu de conservation :</strong> Musée du Louvre, Paris (France)</p>`
+  },
+  {
+    id: "sculpture_lion_couche_pierre_noire_etalon_poids_suse_louvre",
+    civId: "iran_perse",
+    periodId: "iran_achemenide",
+    civName: "Élam & Perse antique",
+    century: "Fin du VIe - Ve siècle avant J.-C. (époque achéménide)",
+    centuryDisplay: "VIe s. av. J.-C.",
+    centuryNumeric: -500,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire animale & gardienne (ronde-bosse)",
+    title: "Lion couché en pierre noire polie : étalon de poids officiel impérial (Suse)",
+    site: "Musée du Louvre, Paris (France)",
+    originSite: "Centre palatial de Suse (Iran)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (France)",
+    category: "Sculpture en ronde-bosse de lion couché en calcaire bitumineux noir poli",
+    isHighlight: false,
+    chips: ["VIe s. av. J.-C.", "Élam & Perse antique", "Empire perse", "Achéménides", "Lion en pierre noire", "Calcaire bitumineux", "Étalon de poids", "Suse", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczN7TKRh5v3OEusqxuIvbkTeGzgYYO_QkFtmjHR_bUsV8C8kjX9to1NGLZeIwIITX27l8EjfzHVOBAD865Qd2vmoUHnH8LZ2KKLHOUW6GA2ZIJIhas4iHEfXNi_wghyRcXmiN5HDV8EOCU8u3G-vK6wxmQ=w1847-h1391-s-no-gm?authuser=0",
+    narrative: `<p>Cette sculpture de lion couché en pierre noire polie, conservée au musée du Louvre constitue un exemple remarquable de la plastique animale de l'Empire perse achéménide. Réalisée entre la fin du VIe siècle et le Ve siècle avant J.-C., cette œuvre provient des ateliers impériaux de l'Iran antique, très probablement du grand centre palatial de Suse. Selon toute vraisemblance, l'objet a servi d'étalon de poids officiel pour l'administration fiscale et commerciale perse, ou de pièce de mobilier de prestige, témoignant de la méticulosité des sculpteurs au service du Grand Roi.</p>
+
+<p>L'œuvre est taillée dans un bloc de pierre sombre et dense au poli remarquable, caractéristique des calcaires bitumineux ou des roches dures fréquemment employés à Suse et à Persépolis. Le félin est figuré au repos, couché sur le ventre dans une posture ramassée et compacte qui convenait parfaitement à la manipulation d'un instrument de pesée. La composition s'inscrit dans un gabarit géométrique très dense et stable, conçu pour résister aux chocs tout en offrant une présence plastique saisissante.</p>
+
+<p>Le traitement formel illustre à la perfection la synthèse propre à l'art de cour achéménide, qui conjugue une observation attentive de la puissance féline et une rigoureuse stylisation décorative. La tête, sculptée en ronde-bosse et tournée de face, présente un mufle large et puissant, souligné par des babines charnues et de fines moustaches incisées en éventail. Les yeux, étirés en amande et dotés de paupières nettes en léger relief, confèrent à l'animal un regard vigilant et solennel. Les oreilles arrondies s'aplatissent contre le crâne, tandis que la crinière est traitée sous la forme d'un pectoral ornemental et d'un collier rigide bordé de motifs géométriques en chevrons imbriqués, évoquant le pelage serré de la bête.</p>
+
+<p><strong>Siècle :</strong> VIe s. av. J.-C. | <strong>Civilisation :</strong> Élam & Perse antique | <strong>Lieu de conservation :</strong> Musée du Louvre, Paris (France)</p>`
+  },
+  {
+    id: "vie_quotidienne_cylindre_cyrus_decret_fondation_cuneiforme_babylone_british_museum",
+    civId: "iran_perse",
+    periodId: "iran_achemenide",
+    civName: "Élam & Perse antique",
+    century: "539 avant J.-C. (conquête de Babylone par Cyrus le Grand)",
+    centuryDisplay: "VIe s. av. J.-C.",
+    centuryNumeric: -539,
+    domain: "vie_quotidienne",
+    artifactType: "Tablette cunéiforme / Document écrit",
+    title: "Le Cylindre de Cyrus : charte de tolérance et décret de fondation royale (Babylone)",
+    site: "British Museum, Londres (Royaume-Uni)",
+    originSite: "Sanctuaire de Marduk (Esagil), Babylone (Mésopotamie, Irak)",
+    locationType: "museum",
+    currentLocation: "British Museum, Londres (Royaume-Uni)",
+    category: "Cylindre de fondation en argile cuite gravé en écriture cunéiforme babylonienne",
+    isHighlight: true,
+    chips: ["VIe s. av. J.-C.", "Élam & Perse antique", "Empire perse", "Cyrus le Grand", "Babylone", "Cunéiforme babylonien", "Tolérance religieuse", "British Museum"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNggdpfObBbUFRQqjCwscnSAYK5mLrWR4Lf2Dy1acG88FN5WNOTmW1gYMmmM6PZSKmG-9VIMrk5e9oCqUO_m-sUpSjkZDOB_aHT1BRdNi5rdMIK-lcfb2fceU_pq9p0vs6Kb9rqaANKD3kjP46DLBZSsg=w1847-h1229-s-no-gm?authuser=0",
+    narrative: `<p>Cette pièce historique fondamentale, connue sous le nom de cylindre de Cyrus, est un document en argile cuite découvert en 1879 dans les ruines de Babylone. Rédigé en écriture cunéiforme babylonienne au nom du roi perse Cyrus le Grand après sa conquête de la cité en 539 avant notre ère, cet objet cylindrique est un dépôt de fondation destiné à être enterré sous les murs d'un édifice sacré. Il est aujourd'hui considéré comme l'un des plus importants témoignages de la propagande royale achéménide et de la gestion politique des empires multiculturels de l'Antiquité.</p>
+
+<p>Le texte inscrit sur le cylindre relate la prise de Babylone et critique le règne du souverain déchu Nabonide, accusé d'avoir négligé le culte du dieu Marduk. Cyrus s'y présente non comme un conquérant brutal, mais comme un libérateur choisi par Marduk lui-même pour restaurer l'ordre et la piété. Le décret stipule le retour des statues divines dans leurs sanctuaires respectifs et autorise les peuples déportés par les Babyloniens, notamment les populations juives, à retourner dans leurs terres d'origine. Cette politique de tolérance religieuse et de rapatriement visait à stabiliser le vaste Empire perse en s'assurant la loyauté des populations locales par le respect de leurs coutumes.</p>
+
+<p>Sur le plan technique, l'objet se présente sous une forme de barillet aux extrémités arrondies, une silhouette classique pour les documents commémoratifs mésopotamiens. Bien que fragmentaire, l'inscription est d'une grande densité, couvrant la surface courbe de manière régulière. Souvent qualifié de manière anachronique de "première charte des droits de l'homme", le cylindre de Cyrus demeure avant tout un chef-d'œuvre de la diplomatie impériale, illustrant le passage de l'hégémonie néo-babylonienne à la domination perse en Orient. Il est l'un des objets les plus emblématiques du British Museum par sa portée universelle et historique. British Museum</p>
+
+<p><strong>Siècle :</strong> VIe s. av. J.-C. | <strong>Civilisation :</strong> Élam & Perse antique | <strong>Lieu de conservation :</strong> British Museum, Londres (Royaume-Uni)</p>`
+  },
+  {
+    id: "vie_quotidienne_tablette_pierre_charte_fondation_palais_suse_vieux_perse_louvre",
+    civId: "iran_perse",
+    periodId: "iran_achemenide",
+    civName: "Élam & Perse antique",
+    century: "Vers 515 avant J.-C. (règne de Darius Ier)",
+    centuryDisplay: "VIe s. av. J.-C.",
+    centuryNumeric: -515,
+    domain: "vie_quotidienne",
+    artifactType: "Tablette cunéiforme / Document écrit",
+    title: "La Charte de fondation du Palais de Suse de Darius Ier en vieux-perse (Tablette de pierre)",
+    site: "Musée du Louvre, Paris (France)",
+    originSite: "Fondations du palais de Darius Ier à Suse (Iran)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (France)",
+    category: "Tablette de fondation royale gravée en cunéiforme vieux-perse sur pierre",
+    isHighlight: false,
+    chips: ["VIe s. av. J.-C.", "Élam & Perse antique", "Empire perse", "Darius Ier", "Charte de Suse", "Vieux-perse", "Cunéiforme", "Ahura Mazda", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMfYfD2vbHuWhHieo0OJRJ1TNUXUGJSaDuBTna0b5rfmXDX7abYeJuW3UJP75McKgMDoOfPOqZWfGcnWqtlTLs1B4qThT_ZkjY_365Uy1EC2Numwe0AdFrQtS71Ro7jQmeSenPxSWPqy9T497FoY37Y3w=w1847-h1501-s-no-gm?authuser=0",
+    narrative: `<p>Cette tablette en pierre, gravée en écriture cunéiforme, constitue l'un des documents archéologiques les plus précieux pour comprendre l'organisation de l'Empire achéménide. Il s'agit de la version en vieux-perse de la charte de fondation du palais de Suse, un texte de propagande royale et administrative où le roi Darius Ier énumère avec précision les matériaux utilisés pour la construction de sa résidence ainsi que l'origine des artisans mobilisés. Ce document n'est pas seulement un acte juridique de propriété, mais une proclamation politique visant à démontrer que le palais est le microcosme d'un empire s'étendant de l'Égypte à l'Inde, unifié sous l'autorité d'un seul monarque.</p>
+
+<p>L'inscription suit un protocole strict : elle s'ouvre sur une invocation à Ahura Mazda, le dieu suprême, affirmant que c'est par sa volonté que Darius a pu ériger ce monument grandiose. La suite du texte est une énumération fascinante qui dresse une véritable géographie économique de l'Antiquité. On y apprend que le bois de cèdre a été transporté par les Assyriens depuis le mont Liban, que l'ivoire provient d'Éthiopie et d'Arachosie, et que les tailleurs de pierre étaient des Ioniens et des Sardes. Cette liste permettait de signifier que chaque peuple de l'empire, par son tribut ou son savoir-faire, avait littéralement posé une pierre à l'édifice du pouvoir central.</p>
+
+<p>D'un point de vue paléographique, la gravure sur cette tablette est d'une clarté exceptionnelle. Le vieux-perse, langue indo-européenne, utilise ici un système de signes simplifié par rapport aux complexes écritures élamite ou babylonienne, marquant une volonté de la dynastie achéménide de posséder sa propre écriture de cour. Chaque clou est frappé avec une régularité géométrique qui transforme le texte en un motif décoratif ordonné. La conservation de cette tablette permet aujourd'hui d'étudier non seulement la langue et la titulature royale, mais aussi les circuits logistiques et la diversité ethnique qui faisaient la force de la cité de Suse à son apogée.</p>
+
+<p><strong>Siècle :</strong> VIe s. av. J.-C. | <strong>Civilisation :</strong> Élam & Perse antique | <strong>Lieu de conservation :</strong> Musée du Louvre, Paris (France)</p>`
+  },
+  {
+    id: "vie_quotidienne_stele_monumentale_trilingue_apadana_darius_suse_louvre",
+    civId: "iran_perse",
+    periodId: "iran_achemenide",
+    civName: "Élam & Perse antique",
+    century: "Fin du VIe siècle av. J.-C. (vers 515 av. J.-C.)",
+    centuryDisplay: "VIe s. av. J.-C.",
+    centuryNumeric: -515,
+    domain: "vie_quotidienne",
+    artifactType: "Stèle administrative / Décret",
+    title: "Stèle royale trilingue de l'Apadana de Darius Ier (vieux-perse, élamite, babylonien)",
+    site: "Musée du Louvre, Paris (France)",
+    originSite: "Apadana du palais de Darius Ier à Suse (Iran)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (France)",
+    category: "Stèle monumentale en calcaire gris gravée en trois langues cunéiformes",
+    isHighlight: false,
+    chips: ["VIe s. av. J.-C.", "Élam & Perse antique", "Empire perse", "Darius Ier", "Stèle trilingue", "Épigraphie impériale", "Apadana", "Suse", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNKEosewfQXGcoTjSocXxbYVPs9gedI3NHcWnm9O4yh7Zh966HAfCmU0wjSv7O_Q5QE7oie8Q5hQbksFyIHSv7zwUJAuY_-TRW4K39YOgwpCrQ5BUqgeaVY_DMu6a6M7wuXCa36PyDyMXyqQJqiWagBfA=w1847-h1363-s-no-gm?authuser=0",
+    narrative: `<p>Cette stèle imposante en calcaire gris provient du palais de Darius Ier à Suse, plus précisément de l'Apadana, la grande salle d'audience impériale. Elle porte une inscription monumentale gravée en écriture cunéiforme, utilisant les trois langues officielles de l'administration achéménide : le vieux-perse, l'élamite et le babylonien. Ce type de document épigraphique était essentiel pour diffuser l'idéologie royale et affirmer la légitimité du souverain sur l'immense mosaïque de peuples composant l'empire. À travers ces textes, Darius Ier se présente non seulement comme un conquérant, mais aussi comme le garant de l'ordre cosmique et de la justice, agissant sous la protection du dieu Ahura Mazda.</p>
+
+<p>L'inscription détaille généralement la généalogie du roi, l'étendue de ses conquêtes et, de manière plus spécifique à Suse, la "charte de fondation" du palais. Ce texte célèbre la collaboration de toutes les nations de l'empire pour l'édification de la demeure royale : l'or venait de Sardes et de Bactriane, le cèdre du Liban, et les briques émaillées (comme celles que vous avez vues précédemment) étaient l'œuvre des Babyloniens. La gravure est d'une régularité remarquable, avec des signes profondément entaillés dans la pierre pour assurer leur pérennité. Les lignes sont séparées par des registres horizontaux bien définis, facilitant la lecture de chaque version linguistique.</p>
+
+<p>Sur le plan visuel, la texture de la pierre et la précision du burin témoignent de la haute technicité des scribes et lapicides de la cour. Bien que le texte puisse paraître austère au premier abord, sa disposition même participe à la décoration architecturale du palais. La répétition des titres royaux et des formules de protection divine crée un rythme visuel qui fait écho aux processions sculptées des escaliers de Persépolis. Cette stèle constitue ainsi un témoignage historique inestimable, permettant de comprendre l'organisation politique, religieuse et artistique de la Perse antique à son apogée.</p>
+
+<p><strong>Siècle :</strong> VIe s. av. J.-C. | <strong>Civilisation :</strong> Élam & Perse antique | <strong>Lieu de conservation :</strong> Musée du Louvre, Paris (France)</p>`
+  },
+  {
+    id: "vie_quotidienne_poids_etalon_pyramidal_trilingue_pierre_sombre_suse_louvre",
+    civId: "iran_perse",
+    periodId: "iran_achemenide",
+    civName: "Élam & Perse antique",
+    century: "Ve siècle av. J.-C. (règne de Darius Ier ou Xerxès Ier)",
+    centuryDisplay: "Ve s. av. J.-C.",
+    centuryNumeric: -480,
+    domain: "vie_quotidienne",
+    artifactType: "Sciences & Instruments (astrolabe, mesure)",
+    title: "Poids étalon pyramidal trilingue officiel de l'administration perse (Suse)",
+    site: "Musée du Louvre, Paris (France)",
+    originSite: "Acropole et trésorerie de Suse (Iran)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (France)",
+    category: "Poids étalon officiel pyramidal tronqué en pierre dure avec inscription cunéiforme",
+    isHighlight: false,
+    chips: ["Ve s. av. J.-C.", "Élam & Perse antique", "Empire perse", "Achéménides", "Étalon de mesure", "Poids impérial", "Trilinguisme", "Suse", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczONQU8PY9mIUBqlSvbCLC2Qv8t3nmSAQEwI0CHlhESzREuuWm6ywEfsj85ZL0cjV0LpY3cvZXs3PQC66enlozSKfqS7kQzq3Po8lY68ulFWBvJYLVNtJFVySohP9Gi15gmau8ir9GYMJCj_vXOOq1ojeQ=w1813-h2408-s-no-gm?authuser=0",
+    narrative: `<p>Cet objet exceptionnel, découvert sur l'acropole de Suse, témoigne de la rigueur administrative et de l'unification économique de l'Empire achéménide. Taillé dans une pierre dure et sombre, ce poids de forme pyramidale tronquée servait d'étalon dans les échanges commerciaux et la perception des tributs. L'usage de tels instruments était crucial pour maintenir la cohésion d'un empire s'étendant de l'Indus à l'Égypte, nécessitant un système de mesures officiel et incontestable. La présence d'inscriptions cunéiformes sur ses faces atteste de son caractère régalien, garantissant l'exactitude de la mesure sous l'autorité directe du "Roi des Rois".</p>
+
+<p>L'examen de la pièce permet d'apprécier la précision de sa taille et le poli de sa surface, qui ont permis de préserver l'intégrité de sa masse à travers les siècles. La base est large et stable, tandis que le sommet s'affine, offrant une silhouette fonctionnelle mais élégante. Sur l'une des faces, l'inscription gravée en vieux-perse, en élamite et en babylonien — les trois langues officielles de la chancellerie impériale — indique généralement la valeur du poids et le nom du souverain régnant, souvent Darius Ier ou Xerxès. Ce trilinguisme n'est pas seulement un outil de communication, mais aussi un symbole politique fort de la diversité des peuples unis sous une même administration.</p>
+
+<p>La sobriété de l'objet cache une importance historique majeure : il illustre le passage d'une économie de troc ou de mesures locales disparates à un système monétaire et pondéral standardisé. En tenant cet objet, on perçoit le quotidien des fonctionnaires royaux qui, dans les trésoreries de Suse ou de Persépolis, pesaient l'or et l'argent destinés à financer les grands travaux architecturaux ou les campagnes militaires. Sa conservation parfaite nous permet aujourd'hui d'étudier avec une précision mathématique les unités de mesure de l'Antiquité, comme le talent ou la mine, qui régissaient alors le commerce mondial.</p>
+
+<p><strong>Siècle :</strong> Ve s. av. J.-C. | <strong>Civilisation :</strong> Élam & Perse antique | <strong>Lieu de conservation :</strong> Musée du Louvre, Paris (France)</p>`
+  },
+  {
+    id: "ceramique_vases_syrie_epoque_achemenide_influence_perse_louvre",
+    civId: "iran_perse",
+    periodId: "iran_achemenide",
+    civName: "Élam & Perse antique",
+    century: "Fin du VIe - Ve siècle avant J.-C. (domination achéménide en Syrie)",
+    centuryDisplay: "VIe s. av. J.-C.",
+    centuryNumeric: -500,
+    domain: "ceramique",
+    artifactType: "Vase",
+    title: "Vases syriens d'époque achéménide : vaisselle de table provinciale d'influence perse",
+    site: "Musée du Louvre, Paris (France)",
+    originSite: "Province de Syrie achéménide (Levant)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (France)",
+    category: "Vases en céramique tournée à décor géométrique d'influence achéménide",
+    isHighlight: false,
+    chips: ["VIe s. av. J.-C.", "Élam & Perse antique", "Empire perse", "Syrie achéménide", "Céramique provinciale", "Banquets royaux", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPSSawe1-xldJlSYLMYvrsH-U9YZhLvcu72-Ixh5Z22t3r3RU1K7_v1X72G379jivnKG0lqkhzu5QLCnJKHlOiRqyUy_pmeAEKVkPgNYMtrKgXkBCKXsaztJQyls1izAimelZxMZfVE_GfvMSkp_LRRgA=w1813-h2408-s-no-gm?authuser=0",
+    narrative: `<p>Ces récipients en céramique, datant de l'époque où la Syrie était intégrée à l'Empire achéménide, illustrent la diffusion des modèles de cour perses dans les provinces occidentales. À cette période, les formes et les décors produits localement subissent l'influence de l'esthétique impériale, tout en conservant des traditions techniques régionales. Ces vases, souvent utilisés pour le service des liquides ou le stockage de denrées fines, témoignent d'une standardisation croissante de la vaisselle de table au sein des élites provinciales, cherchant à imiter le faste des banquets royaux de Suse ou de Persépolis.</p>
+
+<p>L'aspect visuel de ces pièces se caractérise par une silhouette élancée et un décor peint à l'engobe sombre sur un fond clair. Les motifs sont principalement géométriques : on y observe des séries de bandes horizontales, des cercles concentriques et parfois des motifs en dents de scie ou des treillis. Cette grammaire décorative, bien que sobre, souligne la structure du vase et met en valeur la régularité du tournage. Le traitement de la panse et du col montre une recherche de symétrie et de proportion qui est le propre des productions de luxe de cette époque.</p>
+
+<p>La découverte de telles céramiques en Syrie confirme le rôle de carrefour culturel joué par cette région sous la domination perse. Elles servaient de substituts accessibles aux prestigieux vases en métaux précieux (or ou argent) réservés à la haute aristocratie. Par leur présence dans les contextes archéologiques syriens, ces objets permettent de tracer les routes commerciales et les zones d'influence culturelle achéménide, révélant une société où les modes de vie et les goûts esthétiques s'unifiaient progressivement à travers tout le Proche-Orient.</p>
+
+<p><strong>Siècle :</strong> VIe s. av. J.-C. | <strong>Civilisation :</strong> Élam & Perse antique | <strong>Lieu de conservation :</strong> Musée du Louvre, Paris (France)</p>`
+  },
+  {
+    id: "sculpture_figurine_danseuse_coiffe_haute_terre_cuite_parthe_louvre",
+    civId: "iran_perse",
+    periodId: "iran_parthe",
+    civName: "Élam & Perse antique",
+    century: "Entre 100 av. J.-C. et 224 apr. J.-C. (Empire parthe arsacide)",
+    centuryDisplay: "Ier s. apr. J.-C.",
+    centuryNumeric: 50,
+    domain: "sculpture_statuaire",
+    artifactType: "Figurine votive / Ex-voto",
+    title: "Statuette en terre cuite de danseuse parthe à haute coiffe pointue (Mésopotamie)",
+    site: "Musée du Louvre, Paris (France)",
+    originSite: "Mésopotamie parthe (actuel Irak)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (France)",
+    category: "Statuette en terre cuite polychrome d'une femme dansante à coiffe haute pointue",
+    isHighlight: false,
+    chips: ["Ier s. apr. J.-C.", "Élam & Perse antique", "Empire parthe", "Mésopotamie", "Figurine moulée", "Danseuse", "Coiffe nomade", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNw_ZLKMW1ykQOev7VKxC4YyCfdaxXSGuVPnrcTqXt61eg2qX6o8FB-0At3NbGZZ9YZjteeYqctz54HR5WBPylWR68VfOBQyAoRtA7tlj9fTC7GuipfZK4QTdSPxay1NEQO8GF7NHyDwNGFhtxNZdxdZw=w1813-h2408-s-no-gm?authuser=0",
+    narrative: `<p>Cette statuette en terre cuite illustre la richesse des échanges culturels au sein de l'Empire parthe, une période où les traditions orientales se mêlent aux influences hellénistiques. Découverte en Mésopotamie (actuel Irak), cette figurine représente une femme dans une pose dynamique, presque dansante, ce qui tranche avec la rigidité des époques antérieures. Elle témoigne de l'évolution des pratiques votives et décoratives dans la vie quotidienne des habitants de la région.</p>
+
+<p>L'élément le plus frappant est la coiffe haute et pointue, ornée de motifs colorés, qui rappelle les modes vestimentaires des peuples nomades de l'Asie centrale intégrés à l'empire. Le visage conserve des traces de polychromie, notamment au niveau des yeux larges et soulignés, caractéristiques de l'esthétique parthe. Le corps, bien que fragmentaire, laisse deviner un drapé léger qui moule les formes, une technique héritée de l'art grec mais réinterprétée localement.</p>
+
+<p>Ces objets, produits en grand nombre grâce à l'utilisation de moules, étaient souvent utilisés comme offrandes dans les sanctuaires ou déposés dans les tombes pour accompagner les défunts. Ils offrent un témoignage précieux sur la société multiculturelle de l'Irak parthe, où les divinités locales étaient souvent représentées avec des attributs empruntés à l'Occident méditerranéen ou à l'Orient iranien.</p>
+
+<p><strong>Siècle :</strong> Ier s. apr. J.-C. | <strong>Civilisation :</strong> Élam & Perse antique | <strong>Lieu de conservation :</strong> Musée du Louvre, Paris (France)</p>`
+  },
+  {
+    id: "ceramique_plat_oiseau_glazure_jaune_vert_aghlabide_monastir",
+    civId: "islam",
+    periodId: "islam_abbasside_aghlabide",
+    civName: "Arts de l'Islam",
+    century: "IXe siècle (IIIe siècle de l'Hégire, dynastie aghlabide)",
+    centuryDisplay: "IXe s.",
+    centuryNumeric: 850,
+    domain: "ceramique",
+    artifactType: "Plat & Céramique fine",
+    title: "Plat en céramique glaçurée à l'oiseau stylisé (Époque aghlabide, Ifriqiya)",
+    site: "Musée du Ribat de Monastir (Tunisie)",
+    originSite: "Région de Sousse / Monastir, Ifriqiya (Tunisie)",
+    locationType: "museum",
+    currentLocation: "Musée du Ribat de Monastir (Tunisie)",
+    category: "Plat en céramique glaçurée à décor d'oiseau stylisé vert et brun sur jaune",
+    isHighlight: true,
+    chips: ["IXe s.", "Arts de l'Islam", "Époque aghlabide", "Ifriqiya", "Tunisie", "Céramique glaçurée", "Oiseau stylisé", "Ribat de Monastir"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOivjDhmoTOwL9FQ_sTADiRnY2MMOPgHJhvLQwr4tx9vMNZ8lWxabt-h-MQuywx4bMcKjPJ4YM749KmFmcnx6-7t74hVuzabjupk_VtBsMl6V3-Y4Xt1o0pmLZYJyHVgRk3VsblDaA2qpUP9YiyihSK5Q=w1847-h1231-s-no-gm?authuser=0",
+    narrative: `<p>Cette pièce de céramique, datant du IXème siècle (3ème siècle de l'Hégire), représente l'un des fleurons de l'artisanat de l'époque aghlabide. Découverte dans la région de Sousse, elle illustre l'épanouissement des arts du feu sous cette dynastie qui a marqué le début de l'ère islamique en Ifriqiya. Ce type de vaisselle, souvent décorée de motifs animaliers ou végétaux stylisés, témoigne de l'introduction de nouvelles techniques de glaçure et de coloration qui ont révolutionné la production potière médiévale au Maghreb.</p>
+
+<p>Le décor central, représentant un oiseau aux lignes épurées et géométriques, est caractéristique de l'esthétique aghlabide, où la faune est réinterprétée avec une grande liberté artistique. L'utilisation de pigments verts et bruns sur un fond jaune paille est une signature visuelle de cette période, reflétant les échanges culturels et techniques avec l'Orient abbasside tout en affirmant une identité locale propre. Ce plat n'était pas seulement un objet utilitaire, mais aussi un signe de distinction sociale au sein des foyers urbains de Kairouan ou de Sousse.</p>
+
+<p>La conservation d'un tel objet permet de documenter précisément l'évolution des goûts et des modes de vie durant le haut Moyen Âge islamique. En tant que témoin d'une période de grande prospérité économique et culturelle, cette céramique aghlabide constitue un chaînon essentiel pour comprendre la transition entre les traditions antiques et l'affirmation de l'art arabo-musulman en Afrique du Nord. Ribat de Monastir</p>
+
+<p><strong>Siècle :</strong> IXe s. | <strong>Civilisation :</strong> Arts de l'Islam | <strong>Lieu de conservation :</strong> Musée du Ribat de Monastir (Tunisie)</p>`
+  },
+  {
+    id: "ceramique_coupelle_geometrique_glazuree_aghlabide_sousse_monastir",
+    civId: "islam",
+    periodId: "islam_abbasside_aghlabide",
+    civName: "Arts de l'Islam",
+    century: "IXe siècle (IIIe siècle de l'Hégire, dynastie aghlabide)",
+    centuryDisplay: "IXe s.",
+    centuryNumeric: 850,
+    domain: "ceramique",
+    artifactType: "Kylix / Coupe",
+    title: "Grande coupelle en céramique glaçurée au décor géométrique stellaire (Aghlabides, Monastir)",
+    site: "Musée du Ribat de Monastir (Tunisie)",
+    originSite: "Région de Sousse, Ifriqiya (Tunisie)",
+    locationType: "museum",
+    currentLocation: "Musée du Ribat de Monastir (Tunisie)",
+    category: "Grande coupelle en céramique glaçurée à décor géométrique quadrillé et étoiles",
+    isHighlight: false,
+    chips: ["IXe s.", "Arts de l'Islam", "Époque aghlabide", "Ifriqiya", "Tunisie", "Coupelle glaçurée", "Motifs stellaires", "Ribat de Monastir"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczONsfHgJXgIbvTRck3AZnj-jrMHuU9PHW1U_rn5L2Kf5H-XqBFgtblbuPL9Y7ZKVgCchYzuk6W8JyQpnqzXgQPoDIar9-Ya9scpgn4uyNltv3JgOC7alrHYNYTF69rqRyhZuBHYaiTuEQdjikW4xA_DLg=w1847-h1231-s-no-gm?authuser=0",
+    narrative: `<p>Cette grande coupelle en céramique glaçurée, datant du IXème siècle (3ème siècle de l'Hégire), constitue un exemple remarquable du savoir-faire technique des ateliers de l'époque aghlabide. Sa décoration intérieure, organisée avec une rigueur géométrique frappante, illustre parfaitement l'esthétique médiévale de l'Ifriqiya, où les motifs s'articulent pour remplir l'espace de manière harmonieuse. On y observe une large bande centrale quadrillée, flanquée de triangles décorés de motifs stellaires et de chevrons, une composition qui témoigne d'une grande maîtrise de la symétrie et du dessin.</p>
+
+<p>La palette chromatique utilisée, composée principalement de tons verts et bruns sur un fond jaune ocre, est typique des productions de cette période, particulièrement celles retrouvées dans la région de Sousse. Cette technique de décoration sous glaçure permettait de protéger les motifs tout en leur donnant un éclat durable, faisant de ces objets des pièces de vaisselle de luxe destinées à une élite urbaine. La répétition de motifs abstraits et stylisés sur le marli (le bord du plat) renforce l'aspect dynamique de la pièce, invitant le regard à suivre le rythme des courbes et des points.</p>
+
+<p>L'analyse de cette céramique permet de souligner l'importance des échanges artistiques entre l'Ifriqiya et le reste du monde islamique au IXème siècle. Alors que le premier plat présentait un motif animalier plus libre, celui-ci met en avant la dimension architecturale et mathématique de l'art aghlabide. Ces objets, conservés au Musée du Ribat de Monastir, sont des témoins essentiels de la prospérité économique et du raffinement culturel de la Tunisie médiévale, marquant une étape clé dans l'histoire des arts décoratifs maghrébins. Ribat de Monastir</p>
+
+<p><strong>Siècle :</strong> IXe s. | <strong>Civilisation :</strong> Arts de l'Islam | <strong>Lieu de conservation :</strong> Musée du Ribat de Monastir (Tunisie)</p>`
+  },
+  {
+    id: "funeraire_stele_cylindrique_cippe_marbre_calligraphie_coufique_raqqada",
+    civId: "islam",
+    periodId: "islam_abbasside_aghlabide",
+    civName: "Arts de l'Islam",
+    century: "Xe siècle (époque médiévale kairouanaise)",
+    centuryDisplay: "Xe s.",
+    centuryNumeric: 900,
+    domain: "funeraire",
+    artifactType: "Cippe funéraire",
+    title: "Cippe funéraire cylindrique en marbre à calligraphie coufique (Kairouan / Raqqada)",
+    site: "Musée des arts islamiques de Raqqada (Kairouan, Tunisie)",
+    originSite: "Cimetières historiques de Kairouan (Ifriqiya, Tunisie)",
+    locationType: "museum",
+    currentLocation: "Musée des arts islamiques de Raqqada (Kairouan, Tunisie)",
+    category: "Stèle funéraire cylindrique (cippe) en marbre sculpté à inscription coufique",
+    isHighlight: false,
+    chips: ["Xe s.", "Arts de l'Islam", "Ifriqiya", "Kairouan", "Raqqada", "Cippe funéraire", "Marbre sculpté", "Calligraphie coufique", "Arc outrepassé", "Tunisie"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczM2RY-BivywwOkXh7i6vc6GAuG_4xlyCvsP5Snf_OQCanIsX6xlV2zMCIF3B05i8IL79rULcJU4-MnTacwtKT4rkj-WGNZNfbaw6ux3q5_1hbjYNM4Y48FoVIu8r-KKaTtRWv0FRhJ8mel1CeqYziSbDg=w1606-h2408-s-no-gm?authuser=0",
+    narrative: `<p>Cette stèle funéraire cylindrique en marbre, conservée au Musée d'art islamique de Raqqada à Kairouan, constitue un témoignage majeur de l'épigraphie et de l'art funéraire de la période médiévale en Ifriqiya. Ce type de monument, souvent appelé "cippe", était placé à la tête des sépultures dans les cimetières kairouanais pour honorer la mémoire des défunts de haut rang. La finesse de la taille et la qualité du matériau utilisé soulignent l'importance sociale de la personne disparue ainsi que le haut degré de maîtrise des artisans marbriers de la région, qui ont su transformer une colonne de pierre en un support de dévotion et d'histoire.</p>
+
+<p>Le corps de la stèle est entièrement recouvert d'une inscription calligraphiée en relief, exécutée dans un style coufique d'une grande élégance. Ce texte comprend généralement des versets coraniques, des formules de prière pour le salut de l'âme, ainsi que l'identité et la date du décès du défunt. La composition est encadrée par un arc outrepassé dans sa partie supérieure, surmonté d'un bandeau à motifs d'entrelacs végétaux stylisés, créant une structure architecturale miniature qui symbolise le passage vers l'au-delà. Cette organisation rigoureuse du texte et du décor reflète la spiritualité musulmane de l'époque, où la beauté de l'écriture servait à magnifier la parole divine et le souvenir.</p>
+
+<p>L'analyse de ces pierres tombales permet aux historiens de reconstituer la généalogie des grandes familles de Kairouan et de dater précisément les différentes phases d'occupation des nécropoles. En tant qu'objet muséal, cette stèle représente non seulement une source épigraphique inestimable, mais aussi une œuvre d'art à part entière qui illustre la sobriété et la noblesse de l'art funéraire islamique classique. Elle complète admirablement les collections de céramiques et de manuscrits de Raqqada, offrant un aperçu complet de la civilisation qui a fait de Kairouan l'un des phares intellectuels et spirituels de la Méditerranée médiévale. Tunisie musée Raqqada Kairouan</p>
+
+<p><strong>Siècle :</strong> Xe s. | <strong>Civilisation :</strong> Arts de l'Islam | <strong>Lieu de conservation :</strong> Musée des arts islamiques de Raqqada (Kairouan, Tunisie)</p>`
+  },
+  {
+    id: "ceramique_collection_lampes_huile_fatimides_zirides_ribat_monastir",
+    civId: "islam",
+    periodId: "islam_fatimide",
+    civName: "Arts de l'Islam",
+    century: "Xe - XIe siècles (périodes fatimide et ziride)",
+    centuryDisplay: "XIe s.",
+    centuryNumeric: 1000,
+    domain: "ceramique",
+    artifactType: "Lampe à huile",
+    title: "Collection de lampes à huile fatimides et zirides du Ribat Ibn Al-Ja'ad (Monastir)",
+    site: "Musée du Ribat de Monastir (Tunisie)",
+    originSite: "Île de Sidi Al-Ghdamsi, Monastir (Tunisie)",
+    locationType: "museum",
+    currentLocation: "Musée du Ribat de Monastir (Tunisie)",
+    category: "Collection de lampes à huile en terre cuite et glaçurée (Ribat Ibn Al-Ja'ad)",
+    isHighlight: false,
+    chips: ["XIe s.", "Arts de l'Islam", "Époque fatimide", "Époque ziride", "Monastir", "Lampes à huile", "Glaçure verte", "Ribat Ibn Al-Ja'ad", "Tunisie"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOjUDmaGVSjBmEgJsdK_TiQ-BtpumL1ErnfunHQVL7QX_K3F05ZWqeThWqNOYAE4l2sPRFcq9pcIrU-mqo5valI-aAZO6JngKZv6zJnSLnar3ObJreLj0DtHgKSpAirDIZqH1bw4YhyRaGxKcMt_rvk9g=w1847-h1231-s-no-gm?authuser=0",
+    narrative: `<p>Cette collection de lampes à huile en céramique, datant des Xème et XIème siècles de notre ère, provient des fouilles archéologiques menées au Ribat Ibn Al-Ja'ad, situé sur l'île de Sidi Al-Ghdamsi à Monastir. Ces objets illustrent une période charnière de l'histoire de l'Ifriqiya, correspondant aux époques fatimide et ziride, où Monastir occupait une place de premier plan en tant que centre spirituel et défensif sur le littoral méditerranéen. L'utilisation de ces lampes était essentielle à la vie nocturne des ascètes et des défenseurs du ribat, éclairant aussi bien les cellules de prière que les postes de guet.</p>
+
+<p>Sur le plan morphologique, ces lampes témoignent de l'évolution des techniques de poterie médiévale avec des formes caractéristiques à réservoir ouvert ou fermé et un bec allongé pour la mèche. On distingue plusieurs types de factures, allant de l'argile brute à des pièces présentant des traces de glaçure verdâtre, une innovation technique majeure de cette période qui permettait d'imperméabiliser l'objet tout en lui donnant un aspect esthétique plus raffiné. La diversité des silhouettes, certaines munies d'anses verticales et d'autres de décors rayonnants incisés, reflète un artisanat local dynamique capable de produire des objets à la fois utilitaires et décoratifs.</p>
+
+<p>La présence de ces lampes sur le site de l'île de Sidi Al-Ghdamsi souligne l'importance de l'occupation humaine dans ces zones de repli et de méditation. Elles constituent des marqueurs chronologiques précieux pour les archéologues, permettant de dater les niveaux d'occupation et de comprendre les conditions de vie quotidiennes au sein des établissements religieux fortifiés. Ces artefacts sobres et fonctionnels rappellent la rigueur et la simplicité de la vie monastique musulmane durant le haut Moyen Âge maghrébin. Ribat Monastir</p>
+
+<p><strong>Siècle :</strong> XIe s. | <strong>Civilisation :</strong> Arts de l'Islam | <strong>Lieu de conservation :</strong> Musée du Ribat de Monastir (Tunisie)</p>`
+  },
+  {
+    id: "vie_quotidienne_collection_poids_monetaires_verre_pierre_muhtasib_raqqada",
+    civId: "islam",
+    periodId: "islam_fatimide",
+    civName: "Arts de l'Islam",
+    century: "Xe - XIe siècles (périodes fatimide et ziride)",
+    centuryDisplay: "XIe s.",
+    centuryNumeric: 1000,
+    domain: "vie_quotidienne",
+    artifactType: "Sciences & Instruments (astrolabe, mesure)",
+    title: "Poids monétaires en verre et pierre du muhtasib sous les Fatimides et Zirides (Raqqada)",
+    site: "Musée des arts islamiques de Raqqada (Kairouan, Tunisie)",
+    originSite: "Marchés et trésorerie de Kairouan / Raqqada (Ifriqiya, Tunisie)",
+    locationType: "museum",
+    currentLocation: "Musée des arts islamiques de Raqqada (Kairouan, Tunisie)",
+    category: "Collection de poids monétaires et mesures en verre et pierre à inscriptions coufiques",
+    isHighlight: false,
+    chips: ["XIe s.", "Arts de l'Islam", "Époque fatimide", "Zirides", "Muhtasib", "Poids monétaire", "Verre estampillé", "Calligraphie coufique", "Raqqada", "Tunisie"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczN_e84Ab9K-whTHVCmryVFo-8RqojJTBuW-lJMGwGoBqws685yG5s1V0_E5toS-6S4eBWNc4NEXKH7x7LEnENtLpy6EB261AuAvoNfPvnClk3hkR3O2B_6Gl_Dvle1ej4qriuMzgkHypVFjvYpsD1fmuA=w1847-h1231-s-no-gm?authuser=0",
+    narrative: `<p>Cette collection de poids monétaires et de mesures en verre ou en pierre, datant des Xème et XIème siècles (périodes fatimide et ziride), constitue un témoignage exceptionnel de la rigueur administrative et commerciale de l'Ifriqiya médiévale. Exposés au Musée de Raqqada, ces petits objets, souvent de formes géométriques variées (circulaires, stellaires, triangulaires ou carrées), étaient utilisés par le "muhtasib", le magistrat chargé de la surveillance des marchés. Ils garantissaient l'honnêteté des transactions en permettant de vérifier le poids des pièces de monnaie ou des denrées précieuses, assurant ainsi la stabilité économique des grands centres urbains comme Kairouan.</p>
+
+<p>Chaque pièce présente des inscriptions épigraphiques en relief ou en creux, réalisées avec une précision remarquable malgré la petite taille du support. Ces textes mentionnent généralement le nom du calife régnant, celui du gouverneur ou du haut fonctionnaire responsable de la pesée, ainsi que des formules pieuses appelant à la justice et à la loyauté dans le commerce. La présence de dessins explicatifs à côté des originaux dans la vitrine permet d'apprécier la calligraphie coufique complexe qui servait de sceau d'authenticité et de protection contre la fraude, transformant un simple outil de mesure en un document officiel de l'État.</p>
+
+<p>L'étude de ces poids est fondamentale pour comprendre l'organisation monétaire et les systèmes de mesures de la civilisation islamique classique. Ils révèlent l'existence d'une administration centralisée capable de produire des étalons standardisés sur l'ensemble du territoire. En tant qu'artefacts, ils illustrent la fusion parfaite entre la fonctionnalité technique, l'autorité politique et l'éthique religieuse, rappelant que dans la cité musulmane médiévale, le marché était un espace hautement régulé où la précision scientifique était au service de l'équité sociale. musée Raqqadah Kairouan</p>
+
+<p><strong>Siècle :</strong> XIe s. | <strong>Civilisation :</strong> Arts de l'Islam | <strong>Lieu de conservation :</strong> Musée des arts islamiques de Raqqada (Kairouan, Tunisie)</p>`
+  },
+  {
+    id: "sculpture_statue_biche_medina_al_zahra_bronze_fontaine_cordoue",
+    civId: "islam",
+    periodId: "islam_omeyyade",
+    civName: "Arts de l'Islam",
+    century: "Vers 950 (milieu du Xe siècle, califat omeyyade de Cordoue)",
+    centuryDisplay: "Xe s.",
+    centuryNumeric: 950,
+    domain: "sculpture_statuaire",
+    artifactType: "Statuaire animale & gardienne (ronde-bosse)",
+    title: "La Biche de Madinat al-Zahra : bouche de fontaine en bronze ciselé (Cordoue)",
+    site: "Musée archéologique et ethnologique de Cordoue (Espagne)",
+    originSite: "Cité palatine de Madinat al-Zahra, Cordoue (Al-Andalus, Espagne)",
+    locationType: "museum",
+    currentLocation: "Musée archéologique et ethnologique de Cordoue (Espagne)",
+    category: "Statue de bouche de fontaine en bronze à décor ciselé d'atauriques (cire perdue)",
+    isHighlight: true,
+    chips: ["Xe s.", "Arts de l'Islam", "Al-Andalus", "Califat de Cordoue", "Omeyyades", "Madinat al-Zahra", "Biche en bronze", "Bouche de fontaine", "Ataurique", "Musée de Cordoue"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOK9zmXR9HrdljaTLhri4eVE3C8Ew0kpmRyJE2DMnt4mMLRMZ1O07rvGt-8BCQPebMUPoByDiEZJTRkgDaF4gssMmccOap2s1-7jTfH1FyRc6nQCa9VizQxD_X3Dhs4s1WHIGJe-dFSNxPhk7QOHBB2FA=w1847-h1233-s-no-gm?authuser=0",
+    narrative: `<p>Cette pièce exceptionnelle, connue sous le nom de Biche de Madinat al-Zahra, est un chef-d'œuvre de la métallurgie omeyyade datant du milieu du Xe siècle, vers 950. Réalisée en bronze selon la technique de la cire perdue, elle servait initialement de bouche de fontaine pour orner les jardins ou les bassins du palais califal de Cordoue.</p>
+
+<p>Sa surface est presque intégralement recouverte d'un décor ciselé de cercles tangents contenant des motifs végétaux stylisés, créant une texture riche qui évoque le pelage de l'animal tout en affirmant l'esthétique aniconique et ornementale propre à l'art islamique de cette période. Les proportions de la biche, avec son cou longiligne et ses oreilles dressées, témoignent d'une stylisation élégante typique des productions de luxe destinées à la cour d'Abderramán III ou d'Al-Hakam II.</p>
+
+<p>L'ouverture circulaire située sur le sommet de la tête permettait l'arrivée d'eau, qui était ensuite rejetée par le museau, créant un jeu hydraulique sophistiqué au cœur de la cité palatine. Cette œuvre illustre parfaitement l'apogée artistique du Califat de Cordoue, période où la ville était le principal centre culturel et technologique de l'Occident. Aujourd'hui conservée au Musée Archéologique de Cordoue, elle demeure l'un des exemples les plus emblématiques et les mieux préservés de la sculpture animalière en bronze de l'Espagne musulmane.</p>
+
+<p><strong>Siècle :</strong> Xe s. | <strong>Civilisation :</strong> Arts de l'Islam | <strong>Lieu de conservation :</strong> Musée archéologique et ethnologique de Cordoue (Espagne)</p>`
+  },
+  {
+    id: "parures_metaux_coffret_hicham_ii_argent_dore_nielle_cathedrale_gerone",
+    civId: "islam",
+    periodId: "islam_omeyyade",
+    civName: "Arts de l'Islam",
+    century: "Fin du Xe siècle (vers 976 apr. J.-C., atelier califal de Cordoue)",
+    centuryDisplay: "Xe s.",
+    centuryNumeric: 976,
+    domain: "parures_metaux",
+    artifactType: "Vaisselle d'or & d'argent",
+    title: "Le Coffret du calife Hicham II en argent doré et niellé (Cathédrale de Gérone)",
+    site: "Trésor de la Cathédrale Sainte-Marie de Gérone (Catalogne, Espagne)",
+    originSite: "Atelier califal de Cordoue (Al-Andalus, Espagne)",
+    locationType: "museum",
+    currentLocation: "Trésor de la Cathédrale Sainte-Marie de Gérone (Catalogne, Espagne)",
+    category: "Coffret d'orfèvrerie en argent doré et niellé à décor d'atauriques et coufique",
+    isHighlight: true,
+    chips: ["Xe s.", "Arts de l'Islam", "Al-Andalus", "Califat de Cordoue", "Hicham II", "Orfèvrerie califale", "Argent doré", "Niellure", "Atauriques", "Cathédrale de Gérone"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNjXXjJ8-5nWH8My8MTHhoVt4g3Q_6Z4bogCdpFfOkYAPN8Qu_zQ02MUTVJVNj-5s1KzI10vb8cnaOCHWRDu1B9IfvVdkF-XhYzupMaWgWYv1NeJ0XT3_7vahzrLdSjailpxG3avvh9LkwRzKW1_x0zSg=w1847-h1231-s-no-gm?authuser=0",
+    narrative: `<p>Le coffret de Hicham II, conservé dans le Trésor de la cathédrale de Gérone, est un chef-d’œuvre d’orfèvrerie hispano-mauresque datant de la fin du Xe siècle. Cette boîte richement ornée est l'un des rares objets de luxe provenant de l'atelier califal de Cordoue parvenus jusqu'à nous. Elle fut offerte, selon l'inscription qu'elle porte, au calife Hicham II par son père Al-Hakam II ou par le vizir Almanzor. Ce type de coffret, souvent utilisé pour contenir des bijoux, des parfums ou des reliques précieuses, témoigne du raffinement extrême de la cour des Omeyyades d'Espagne.</p>
+
+<p>L'objet se distingue par son travail d'orfèvrerie en argent doré et niellé, recouvrant une structure en bois précieux. Le décor est entièrement composé de motifs végétaux stylisés, appelés atauriques, qui s'entrelacent dans une symétrie parfaite sur toutes les faces du coffret. Ces motifs de feuilles d'acanthe et de palmettes sont caractéristiques de l'art califal et reflètent une influence byzantine réinterprétée par les artisans de Cordoue. La finesse de l'exécution et la densité de l'ornementation créent un effet de tapisserie métallique d'une grande opulence.</p>
+
+<p>L'élément le plus significatif du coffret est la bande épigraphique en caractères coufiques qui court le long du couvercle. Cette inscription est à la fois décorative et politique, mentionnant le nom du calife et formulant des vœux de bonheur, de prospérité et de longue vie à son égard. La présence de cette calligraphie arabe sur un objet conservé dans une cathédrale chrétienne illustre les échanges complexes, qu'ils soient diplomatiques, commerciaux ou issus de butins de guerre, entre les royaumes chrétiens du nord et le califat de Cordoue durant la Reconquista.</p>
+
+<p>L'arrivée de ce coffret à Gérone reste sujette à diverses interprétations historiques, mais il a fini par intégrer le trésor ecclésiastique pour servir de reliquaire, une réutilisation fréquente pour les objets précieux provenant du monde islamique au Moyen Âge. Sa conservation exceptionnelle permet aujourd'hui d'admirer la maîtrise technique des orfèvres andalous, capables de transformer le métal en une dentelle précieuse. C'est une pièce de référence pour l'étude des arts décoratifs médiévaux et des transferts culturels dans la péninsule Ibérique. cathedrale Gerone Espagne</p>
+
+<p><strong>Siècle :</strong> Xe s. | <strong>Civilisation :</strong> Arts de l'Islam | <strong>Lieu de conservation :</strong> Trésor de la Cathédrale Sainte-Marie de Gérone (Catalogne, Espagne)</p>`
+  },
+  {
+    id: "ceramique_vase_emaille_polychrome_personnage_regence_tunis_monastir",
+    civId: "islam",
+    periodId: "islam_ottoman",
+    civName: "Arts de l'Islam",
+    century: "XVIIIe siècle (époque ottomane / Régence de Tunis)",
+    centuryDisplay: "XVIIIe s.",
+    centuryNumeric: 1750,
+    domain: "ceramique",
+    artifactType: "Vase",
+    title: "Vase en faïence émaillée polychrome au personnage en mouvement (Tunisie ottomane)",
+    site: "Musée du Ribat de Monastir (Tunisie)",
+    originSite: "Ateliers de poterie de la Régence de Tunis (Tunisie)",
+    locationType: "museum",
+    currentLocation: "Musée du Ribat de Monastir (Tunisie)",
+    category: "Vase en céramique émaillée polychrome à décor figuratif d'un personnage",
+    isHighlight: false,
+    chips: ["XVIIIe s.", "Arts de l'Islam", "Époque ottomane", "Régence de Tunis", "Céramique émaillée", "Décor figuratif", "Ribat de Monastir", "Tunisie"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPusDXlJKWJ53o1LpTsgCmmj0S31yJC_5iw5LEFdZ_zKQ9bvBnJsyNZiVQTmEUbjlwJPcbnL5FZsPwO_byKzzAGOUNHC3nMdj2fdbduCX-nYq_SyaV--c9srSIpO3giTgsxyI-1rDA0MZi3oxL2aQFy7w=w1847-h1231-s-no-gm?authuser=0",
+    narrative: `<p>Ce vase en céramique émaillée constitue un exemple fascinant de la production artistique de l'époque ottomane en Tunisie. Contrairement aux pièces médiévales plus sobres, cet objet se distingue par un décor figuratif polychrome d'une grande vivacité, utilisant une palette riche où dominent le bleu cobalt, le vert émeraude et le jaune. La représentation d'un personnage en mouvement, habillé dans un style évoquant les costumes populaires de l'époque, témoigne d'une liberté de ton et d'une influence des arts picturaux orientaux qui se sont diffusées dans les ateliers de poterie maghrébins durant la période moderne.</p>
+
+<p>La technique de la céramique émaillée, avec ses décors peints sur fond blanc, reflète l'évolution des goûts et l'influence des porcelaines et faïences étrangères (notamment d'Iznik ou d'Italie) sur l'artisanat local. Le registre supérieur du vase, orné de motifs géométriques rappelant des festons ou des tentes, encadre la scène centrale et accentue la silhouette élégante du récipient. Ce type d'objet, à la fois décoratif et utilitaire, illustre le raffinement de la culture matérielle citadine sous la Régence de Tunis, où l'art de la table devenait un support d'expression narrative et esthétique.</p>
+
+<p>La présence de cette pièce au Musée du Ribat de Monastir permet de saisir la transition vers une esthétique plus figurative et colorée, typique du XVIIIème et XIXème siècles. Elle offre un contraste saisissant avec la géométrie rigoureuse des céramiques aghlabides ou la fonctionnalité des lampes à huile médiévales, montrant la capacité des artisans tunisiens à réinterpréter les codes artistiques ottomans pour créer un style local dynamique et original. Ribat Monastir</p>
+
+<p><strong>Siècle :</strong> XVIIIe s. | <strong>Civilisation :</strong> Arts de l'Islam | <strong>Lieu de conservation :</strong> Musée du Ribat de Monastir (Tunisie)</p>`
+  },
+  {
+    id: "vie_quotidienne_astrolabe_arabe_cuivre_demonte_ribat_monastir",
+    civId: "islam",
+    periodId: "islam_ottoman",
+    civName: "Arts de l'Islam",
+    century: "XVIIIe siècle (époque ottomane moderne)",
+    centuryDisplay: "XVIIIe s.",
+    centuryNumeric: 1750,
+    domain: "vie_quotidienne",
+    artifactType: "Sciences & Instruments (astrolabe, mesure)",
+    title: "Astrolabe arabe planisphérique démonté en alliage cuivreux (XVIIIe s., Monastir)",
+    site: "Musée du Ribat de Monastir (Tunisie)",
+    originSite: "Ateliers scientifiques de l'Empire ottoman / Maghreb (Tunisie)",
+    locationType: "museum",
+    currentLocation: "Musée du Ribat de Monastir (Tunisie)",
+    category: "Instrument astronomique en alliage cuivreux démonté (astrolabe planisphérique)",
+    isHighlight: true,
+    chips: ["XVIIIe s.", "Arts de l'Islam", "Époque ottomane", "Astrolabe", "Astronomie arabe", "Alliage cuivreux", "Tympans", "Ribat de Monastir", "Tunisie"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOOD6kCX6bD3n5uPXwNvoI0OHRdXOOvCYuAbyDM3WZGm-rWdAtqp2pC6V4p5JXd-YzIPlymWJAfxx1iHvrGhqQTgyqTbQbV-mxlDJ-2RXjcUOAtHmNP3fGP9ZAIp_aM6q39DlLWNVQ1JLl_3Au2afOqTw=w1847-h1231-s-no-gm?authuser=0",
+    narrative: `<p>Cet instrument scientifique d'exception, identifié comme un astrolabe arabe datant du XVIIIème siècle, témoigne de la persistance et du raffinement des sciences astronomiques dans le monde musulman à l'époque moderne. Exposé au Ribat de Monastir, cet objet en alliage cuivreux illustre la maîtrise technique des artisans qui parvenaient à condenser des calculs mathématiques et astronomiques complexes dans un instrument portatif. Durant cette période, l'astrolabe restait un outil indispensable, tant pour la navigation que pour la détermination précise des heures de prière et de l'orientation vers la Mecque, consolidant ainsi le lien entre science et pratique religieuse.</p>
+
+<p>L'ensemble présenté se compose de plusieurs éléments constitutifs démontés, permettant d'observer la précision des gravures sur le limbe et les tympans (les disques interchangeables adaptés à différentes latitudes). Les inscriptions calligraphiées en arabe sur la surface de l'instrument ne sont pas seulement décoratives ; elles servent de graduations précises pour mesurer la hauteur des astres. La présence de cet objet dans une forteresse littorale comme le Ribat de Monastir souligne également l'importance des connaissances stellaires pour la surveillance des côtes et les communications maritimes au XVIIIème siècle.</p>
+
+<p>Sur le plan esthétique, cet astrolabe reflète le style artistique de l'ère ottomane, où l'élégance du trait se combine à la rigueur fonctionnelle. Bien que l'invention de l'astrolabe soit bien antérieure, les exemplaires du XVIIIème siècle comme celui-ci représentent l'aboutissement d'une longue tradition d'astronomie arabe qui a largement influencé la science mondiale. En tant qu'objet de musée, il offre un contraste fascinant avec les objets de la vie quotidienne, tels que les pipes ou les lampes à huile, en rappelant la dimension intellectuelle et savante de la civilisation islamique. Ribat Monastir</p>
+
+<p><strong>Siècle :</strong> XVIIIe s. | <strong>Civilisation :</strong> Arts de l'Islam | <strong>Lieu de conservation :</strong> Musée du Ribat de Monastir (Tunisie)</p>`
+  },
+  {
+    id: "vie_quotidienne_collection_pipes_lule_terre_cuite_ottomanes_ribat_monastir",
+    civId: "islam",
+    periodId: "islam_ottoman",
+    civName: "Arts de l'Islam",
+    century: "XVIIIe siècle (époque ottomane / Régence de Tunis)",
+    centuryDisplay: "XVIIIe s.",
+    centuryNumeric: 1750,
+    domain: "vie_quotidienne",
+    artifactType: "Mobilier domestique & Apparat",
+    title: "Collection de fourneaux de pipes ottomanes en terre cuite (lulé) du Ribat de Monastir",
+    site: "Musée du Ribat de Monastir (Tunisie)",
+    originSite: "Forteresse du Ribat de Monastir (Tunisie)",
+    locationType: "museum",
+    currentLocation: "Musée du Ribat de Monastir (Tunisie)",
+    category: "Collection de fourneaux de pipes en terre cuite (lulé) ornés de poinçons",
+    isHighlight: false,
+    chips: ["XVIIIe s.", "Arts de l'Islam", "Époque ottomane", "Régence de Tunis", "Pipes ottomanes", "Lulé", "Terre cuite", "Sociabilité", "Ribat de Monastir", "Tunisie"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczM2qvkm_1jHxjHvZsLXERhEgeQO6T2XCImJksJMD7pYnWUggff2sLuQ0cdoRyZEMYGOnnEpq5NUpRFpRmerZKBfi_Ar1DFGJecJ3QA0BuR8TfYee9U9bDxqKXlODBTtfZrogn0y2Riempm0Mc8GyQKeGQ=w1847-h1231-s-no-gm?authuser=0",
+    narrative: `<p>Cette collection de pipes en terre cuite, datant du XVIIIème siècle, constitue un témoignage archéologique précieux de la vie quotidienne et des habitudes sociales au sein du Ribat de Monastir durant l'époque ottomane. Ces objets, découverts lors de fouilles ou de travaux de restauration dans l'enceinte de la forteresse, illustrent la diffusion rapide de la culture du tabac dans le bassin méditerranéen après son introduction au XVIIème siècle. En tant qu'édifice à la fois défensif et religieux, le Ribat abritait une garnison et des dévots pour qui l'usage de la pipe, ou "lulé", représentait un moment de sociabilité et de repos entre les exercices militaires ou les temps de prière.</p>
+
+<p>Sur le plan technique et esthétique, ces fourneaux de pipes présentent une grande variété de formes et de décors caractéristiques de la production artisanale de la Régence de Tunis. On observe des modèles en argile rouge et d'autres en terre grisâtre ou blanche, certains affichant des parois lisses tandis que d'autres sont ornés de motifs géométriques, de cannelures ou de poinçons réalisés à la main. La morphologie de ces pièces, avec leur base évasée destinée à recevoir un long tuyau de bois souvent perdu car périssable, reflète l'évolution des styles locaux influencés par les centres de production impériaux comme Istanbul, tout en conservant une facture propre aux ateliers maghrébins.</p>
+
+<p>L'état fragmentaire de plusieurs de ces objets souligne leur nature utilitaire et la fréquence de leur usage au sein de la communauté du Ribat. Au-delà de leur simple fonction de consommation de tabac, ces pipes sont révélatrices des courants d'échanges commerciaux qui reliaient Monastir au reste de l'Empire ottoman. Elles permettent aujourd'hui aux historiens de mieux documenter la culture matérielle du XVIIIème siècle tunisien, marquant une période où les objets de plaisir et de confort commençaient à se démocratiser parmi les différentes strates de la population urbaine et militaire. Ribay Monastir // ATTENTION je viens de t'envoyer beaucoup de nouvelles civilisations, fais le point et mets tout à jour !!</p>
+
+<p><strong>Siècle :</strong> XVIIIe s. | <strong>Civilisation :</strong> Arts de l'Islam | <strong>Lieu de conservation :</strong> Musée du Ribat de Monastir (Tunisie)</p>`
+  },
+  {
     id: "sculpture_statue_ephebe_marathon_bronze_athenes",
     civId: "grece",
     periodId: "grece_classique",

@@ -1733,5 +1733,103 @@ window.ART_GLOSSARY = [
     category: "Costume & Vêtement féminin grec",
     def: "Rabattement ou repli supérieur de l'étoffe d'un péplos grec qui retombe sur la poitrine et le dos, fixé aux épaules par des fibules. La disposition géométrique ou souple de l'apoptygma constitue un repère stylistique et chronologique essentiel pour les historiens de l'art, évoluant de la raideur tubulaire archaïque aux drapés mouillés et virtuoses du style classique.",
     patterns: ["apoptygma", "apoptygmas"]
+  },
+  {
+    term: "Machine d'Anticythère",
+    etymology: "Découverte en 1901 dans l'épave de l'île grecque d'Anticythère (IIe-Ier s. av. J.-C.)",
+    category: "Sciences & Technologie antique",
+    def: "Chef-d'œuvre absolu de l'ingénierie mécanique hellénistique, considéré comme le plus ancien calculateur mécanique et astronomique analogique connu. Composé d'au moins trente engrenages de bronze actionnés par manivelle, il reproduisait avec une précision mathématique inouïe les cycles du Soleil, de la Lune (intégrant l'anomalie de son orbite via un différentiel), les éclipses (cycles de Saros et Exeligmos) et le calendrier des jeux panhelléniques.",
+    patterns: ["machine d'anticythère", "mécanisme d'anticythère", "anticythère"]
+  },
+  {
+    term: "Plangon",
+    etymology: "Du grec ancien plangôn (πλαγγών), « poupée, figurine façonnée »",
+    category: "Enfance & Rites funéraires grecs",
+    def: "Figurine féminine en terre cuite aux membres articulés (épaules et hanches reliées par des fils métalliques ou des cordelettes), permettant de la mouvoir et de l'habiller. Utilisée comme jouet dans l'enfance, elle était rituellement consacrée à Artémis ou Aphrodite avant le mariage, ou déposée avec émotion dans les tombes d'enfants (comme à Emporion) pour les accompagner et les protéger dans l'au-delà.",
+    patterns: ["plangon", "plangones", "poupée articulée", "poupées articulées"]
+  },
+  {
+    term: "Verre sur noyau",
+    etymology: "De l'anglais core-formed glass, technique de verroterie antique",
+    category: "Techniques de verrerie antique",
+    def: "Technique précoce de fabrication du verre prévalant avant l'invention de la canne à souffler (du VIe au Ier s. av. J.-C.). Un noyau d'argile et de matière organique fixé sur une tige métallique était trempé ou enduit de verre en fusion ; des fils de verre coloré (souvent jaune ou blanc sur fond bleu cobalt) étaient ensuite enroulés, peignés en chevrons ou zigzags, puis marbrés avant extraction du noyau après refroidissement.",
+    patterns: ["verre sur noyau", "moulé sur noyau", "core-formed"]
+  },
+  {
+    term: "Apadana",
+    etymology: "Du vieux-perse apadāna (𐎠𐎱𐎭𐎠𐎴), « salle d'audience, hypostyle »",
+    category: "Architecture palatiale perse",
+    def: "Immense salle d'audience hypostyle caractéristique des palais royaux achéménides (notamment à Persépolis et à Suse sous Darius Ier). Couverte d'un toit en cèdre du Liban soutenu par des dizaines de colonnes monumentales de près de 20 mètres de haut couronnées de chapiteaux à doubles taureaux adossés et volutes doubles, l'Apadana accueillait les délégations de l'empire lors des grandes cérémonies de tribut (Nowrouz).",
+    patterns: ["apadana", "apadan"]
+  },
+  {
+    term: "Kaunakès",
+    etymology: "Du grec ancien kaunákês (καυνάκης), emprunté au mésopotamien",
+    category: "Costume mésopotamien & élamite",
+    def: "Vêtement d'apparat caractéristique des sociétés de Mésopotamie et d'Élam au IIIe millénaire av. J.-C. (périodes sumérienne archaïque et Suse IV). Taillé dans une peau de mouton retournée ou une étoffe de laine tissée imitant des mèches superposées en forme d'écailles ou de languettes, il était porté en jupe ou drapé sur l'épaule par les rois, prêtres et orants votifs déposés dans les temples.",
+    patterns: ["kaunakès", "kaunakes"]
+  },
+  {
+    term: "Mélophores",
+    etymology: "Du grec mēlophoroi (μηλοφόροι), « porteurs de pommes » (Immortels)",
+    category: "Armée impériale achéménide",
+    def: "Corps d'élite de la garde rapprochée des souverains perses achéménides (les « Dix-Mille Immortels » d'Hérodote). Ils tiraient leur nom grec du pommeau en forme de pomme (en or pour les officiers, en argent pour les soldats) fixé au talon inférieur de leur lance verticale. Vêtus de longues robes d'apparat (candys) brodées et armés d'un arc, ils sont immortalisés sur les célèbres frises de briques émaillées du palais de Darius Ier à Suse.",
+    patterns: ["mélophores", "melophores", "immortels perses", "garde des immortels"]
+  },
+  {
+    term: "Candys",
+    etymology: "Du grec kandys (κάνδυς), d'origine iranienne",
+    category: "Costume de cour achéménide",
+    def: "Longue robe perse d'apparat en tissu précieux (soie, laine fine ou lin brodé) portée par les souverains, courtisans et gardes de l'Empire achéménide. Caractérisée par ses manches flottantes, ses plis tubulaires amples et ses riches motifs géométriques, floraux et rosettes brodés aux couleurs chatoyantes (jaune safran, pourpre, bleu ciel), elle incarnait la dignité et le raffinement de la cour de Suse et Persépolis.",
+    patterns: ["candys", "robe candys"]
+  },
+  {
+    term: "Cylindre de Cyrus",
+    etymology: "Découvert en 1879 à Babylone, rédigé en cunéiforme en 539 av. J.-C.",
+    category: "Histoire & Épigraphie orientale",
+    def: "Cylindre d'argile cuite commémorant la prise de Babylone par Cyrus le Grand en 539 av. J.-C. Rédigé en akkadien babylonien, ce texte de fondation proclame le respect des divinités locales (culte de Marduk), la réinstallation des statues sacrées dans leurs sanctuaires et l'autorisation accordée aux peuples déportés de retourner sur leurs terres natales, manifestant la diplomatie tolérante et novatrice de l'Empire perse.",
+    patterns: ["cylindre de cyrus", "charte de cyrus"]
+  },
+  {
+    term: "Bashlyk",
+    etymology: "D'origine turco-iranienne, coiffe traditionnelle des cavaliers de l'Asie",
+    category: "Costume & Armement oriental",
+    def: "Bonnet souple de feutre ou de cuir porté par les Mèdes, les Perses, les Scythes et les peuples cavaliers du plateau iranien. Doté d'une pointe sommitale et de deux longues pattes latérales (mentonnières) pouvant être nouées sous le menton ou autour de la bouche pour se protéger du vent, de la poussière et du froid, il est fidèlement représenté sur les reliefs des tributaires de Persépolis.",
+    patterns: ["bashlyk", "tiara mède", "coiffe mède"]
+  },
+  {
+    term: "Faravahar",
+    etymology: "Du moyen-perse fravahr, issu de l'avestique fravashi (« esprit protecteur »)",
+    category: "Religion zoroastrienne & Symboles perses",
+    def: "Symbole suprême de l'art achéménide et de la spiritualité zoroastrienne, figurant un disque ailé solaire dont émerge une silhouette humaine royale barbu tenant un anneau d'alliance dans une main et levant l'autre en signe de bénédiction. Il incarne la gloire divine (Khvarnah), la protection accordée par Ahura Mazda au souverain légitime et l'élévation de l'âme vers le bien.",
+    patterns: ["faravahar", "fravahar", "disque ailé perse"]
+  },
+  {
+    term: "Aghlabides",
+    etymology: "Dynastie fondée par Ibrahim ibn al-Aghlab en 800 en Ifriqiya (Tunisie)",
+    category: "Histoire & Arts de l'Islam médiéval",
+    def: "Première grande dynastie musulmane autonome d'Ifriqiya (800-909), gouvernant depuis Kairouan et Raqqada sous suzeraineté nominale abbasside. Réputés pour leur rayonnement culturel, militaire et architectural (agrandissement de la Grande Mosquée de Kairouan, forteresses des Ribats de Sousse et Monastir), les Aghlabides développèrent une céramique de luxe glaçurée reconnaissable à ses décors animaliers et géométriques jaune et vert.",
+    patterns: ["aghlabide", "aghlabides"]
+  },
+  {
+    term: "Muhtasib",
+    etymology: "De l'arabe muḥtasib (محتسب), « celui qui inspecte / rend des comptes »",
+    category: "Institutions & Économie islamique",
+    def: "Magistrat ou inspecteur officiel chargé de la hisba, c'est-à-dire du contrôle des marchés, de la moralité publique et de la régularité des transactions commerciales dans les cités musulmanes médiévales. Il vérifiait scrupuleusement l'exactitude des poids monétaires en verre, des balances et des mesures de grains afin de prévenir toute fraude et de garantir l'équité des échanges.",
+    patterns: ["muhtasib", "mohtasib", "hisba"]
+  },
+  {
+    term: "Ataurique",
+    etymology: "De l'arabe at-tawrīq (التوريق), « feuillage, ornementation foliacée »",
+    category: "Décoration & Arabesques islamiques",
+    def: "Motif d'ornementation végétale stylisée caractéristique de l'art hispano-mauresque d'Al-Andalus (particulièrement à l'époque du califat de Cordoue et à Madinat al-Zahra). Déployé sur la pierre, le stuc, le bronze ou l'orfèvrerie niellée (comme le coffret de Hicham II), il se compose d'entrelacs symétriques et infinis de feuilles d'acanthe, de rinceaux et de palmettes exprimant l'ordre et la perfection de la Création divine.",
+    patterns: ["ataurique", "atauriques", "arabesque végétale"]
+  },
+  {
+    term: "Lulé",
+    etymology: "Du turc lüle, « tuyau, fourneau de pipe »",
+    category: "Vie quotidienne & Période ottomane",
+    def: "Fourneau de pipe en terre cuite rouge, ocre ou grise, façonné à la main ou au moule et raccordé à un long tuyau de bois amovible (chibouque). Répandu dans tout l'Empire ottoman et les Régences maghrébines (comme au Ribat de Monastir) à partir du XVIIe-XVIIIe siècle, le lulé est souvent orné de cannelures, de motifs floraux et de cachets de potiers, témoignant de l'essor des rituels de sociabilité autour du café et du tabac.",
+    patterns: ["lulé", "lule", "pipe ottomane", "fourneau de pipe"]
   }
 ];
