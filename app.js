@@ -992,22 +992,359 @@ let activeContextList = [];
 let currentArtIndex = 0;
 let isTimelineModalMode = false; // Indique si l'ouverture vient de la frise ou de la galerie
 
-// Lightbox zoom plein écran
+// --- MODULE LIGHTBOX D'INSPECTION HAUTE FIDÉLITÉ (LOUPE D'ART & PAN-ZOOM HYBRIDE) ---
 const artworkLightbox = document.getElementById('artwork-lightbox-zoom');
 const artworkLightboxImg = document.getElementById('artwork-lightbox-img');
+const lightboxArtworkTitle = document.getElementById('lightbox-artwork-title');
+const lightboxStage = document.getElementById('lightbox-stage');
+const lightboxImgWrapper = document.getElementById('lightbox-img-wrapper');
+const artworkLightboxLens = document.getElementById('artwork-lightbox-lens');
+const lensBadge = document.getElementById('lens-badge');
+const btnLightboxLens = document.getElementById('btn-lightbox-lens');
+const btnLightboxPanzoom = document.getElementById('btn-lightbox-panzoom');
+const btnLightboxZoomOut = document.getElementById('btn-lightbox-zoom-out');
+const btnLightboxZoomIn = document.getElementById('btn-lightbox-zoom-in');
+const btnLightboxZoomReset = document.getElementById('btn-lightbox-zoom-reset');
+const lightboxZoomLevel = document.getElementById('lightbox-zoom-level');
+const btnLightboxClose = document.getElementById('btn-lightbox-close');
+const hintModeAction = document.getElementById('hint-mode-action');
 
-// Clic sur l'image dans la modale -> Agrandir en plein écran
-modalImg.addEventListener('click', () => {
-  if (modalImg.src) {
-    artworkLightboxImg.src = modalImg.src;
-    artworkLightbox.hidden = false;
+// Variables d'état de l'inspection
+let lightboxMode = 'lens'; // 'lens' (Loupe d'art) | 'panzoom' (Zoom libre)
+let lensZoomFactor = 2.5;  // Grossissement de la lentille : 1.5x à 5.0x
+let panScale = 1.0;        // Grossissement global : 1.0x à 5.0x
+let panX = 0;
+let panY = 0;
+let isPanning = false;
+let panStartX = 0;
+let panStartY = 0;
+let lastPointerX = 0;
+let lastPointerY = 0;
+
+function updateZoomDisplay() {
+  const currentVal = lightboxMode === 'lens' ? lensZoomFactor : panScale;
+  const formatted = `×${currentVal.toFixed(1)}`;
+  if (lightboxZoomLevel) lightboxZoomLevel.textContent = formatted;
+  if (lensBadge) lensBadge.textContent = formatted;
+}
+
+function updateTransform() {
+  if (!lightboxImgWrapper) return;
+  if (lightboxMode === 'panzoom') {
+    lightboxImgWrapper.style.transform = `translate(${panX}px, ${panY}px) scale(${panScale})`;
+  } else {
+    lightboxImgWrapper.style.transform = 'none';
   }
-});
+}
 
-// Clic sur l'image agrandie (ou le fond) -> Revenir à la modale
-artworkLightbox.addEventListener('click', () => {
+function setLightboxMode(newMode) {
+  lightboxMode = newMode;
+  if (lightboxMode === 'lens') {
+    if (btnLightboxLens) btnLightboxLens.classList.add('is-active');
+    if (btnLightboxPanzoom) btnLightboxPanzoom.classList.remove('is-active');
+    if (lightboxStage) {
+      lightboxStage.classList.add('mode-lens');
+      lightboxStage.classList.remove('mode-panzoom');
+    }
+    if (hintModeAction) {
+      hintModeAction.innerHTML = '<kbd class="hint-key">Survol</kbd> Promener la loupe';
+    }
+    panScale = 1.0;
+    panX = 0;
+    panY = 0;
+    updateTransform();
+  } else {
+    if (btnLightboxLens) btnLightboxLens.classList.remove('is-active');
+    if (btnLightboxPanzoom) btnLightboxPanzoom.classList.add('is-active');
+    if (lightboxStage) {
+      lightboxStage.classList.remove('mode-lens');
+      lightboxStage.classList.add('mode-panzoom');
+    }
+    if (artworkLightboxLens) artworkLightboxLens.classList.remove('is-visible');
+    if (hintModeAction) {
+      hintModeAction.innerHTML = '<kbd class="hint-key">Glisser</kbd> Déplacer l\'œuvre (double-clic zoom)';
+    }
+    if (panScale <= 1.05) {
+      panScale = 2.0;
+    }
+    updateTransform();
+  }
+  updateZoomDisplay();
+}
+
+function updateLensPosition(clientX, clientY, isTouch = false) {
+  if (lightboxMode !== 'lens' || !artworkLightbox || artworkLightbox.hidden || !artworkLightboxLens || !artworkLightboxImg) return;
+  
+  const rect = artworkLightboxImg.getBoundingClientRect();
+  if (rect.width === 0 || rect.height === 0) return;
+
+  // Décalage vertical sur tactile pour que le doigt ne masque pas la zone agrandie
+  const targetX = clientX;
+  const targetY = isTouch ? clientY - 70 : clientY;
+
+  // Vérifier si le pointeur survole la surface de l'image
+  if (
+    clientX < rect.left ||
+    clientX > rect.right ||
+    clientY < rect.top ||
+    clientY > rect.bottom
+  ) {
+    artworkLightboxLens.classList.remove('is-visible');
+    return;
+  }
+
+  const radius = (artworkLightboxLens.offsetWidth || 230) / 2;
+  artworkLightboxLens.classList.add('is-visible');
+  artworkLightboxLens.style.left = `${targetX - radius}px`;
+  artworkLightboxLens.style.top = `${targetY - radius}px`;
+
+  // Coordonnées relatives sur l'image affichée
+  const relX = clientX - rect.left;
+  const relY = clientY - rect.top;
+
+  // Calcul des dimensions d'arrière-plan et de cadrage
+  const bgW = rect.width * lensZoomFactor;
+  const bgH = rect.height * lensZoomFactor;
+  const bgX = -(relX * lensZoomFactor - radius);
+  const bgY = -(relY * lensZoomFactor - radius);
+
+  artworkLightboxLens.style.backgroundSize = `${bgW}px ${bgH}px`;
+  artworkLightboxLens.style.backgroundPosition = `${bgX}px ${bgY}px`;
+}
+
+function openArtworkLightbox() {
+  if (!modalImg || !modalImg.src) return;
+  artworkLightboxImg.src = modalImg.src;
+  if (lightboxArtworkTitle && modalArtworkTitle) {
+    lightboxArtworkTitle.textContent = modalArtworkTitle.textContent || "Inspection de l'œuvre";
+  }
+  if (artworkLightboxLens) {
+    artworkLightboxLens.style.backgroundImage = `url("${modalImg.src}")`;
+  }
+  artworkLightbox.hidden = false;
+  setLightboxMode('lens');
+  lensZoomFactor = 2.5;
+  panScale = 1.0;
+  panX = 0;
+  panY = 0;
+  updateTransform();
+  updateZoomDisplay();
+}
+
+function closeArtworkLightbox() {
+  if (!artworkLightbox) return;
   artworkLightbox.hidden = true;
   artworkLightboxImg.src = '';
+  if (artworkLightboxLens) {
+    artworkLightboxLens.classList.remove('is-visible');
+    artworkLightboxLens.style.backgroundImage = 'none';
+  }
+  isPanning = false;
+  if (lightboxStage) lightboxStage.classList.remove('is-dragging');
+}
+
+// Clic sur l'image dans la modale -> Ouvrir l'inspection plein écran
+if (modalImg) {
+  modalImg.addEventListener('click', openArtworkLightbox);
+}
+
+// Boutons de bascule de mode
+if (btnLightboxLens) {
+  btnLightboxLens.addEventListener('click', (e) => {
+    e.stopPropagation();
+    setLightboxMode('lens');
+  });
+}
+if (btnLightboxPanzoom) {
+  btnLightboxPanzoom.addEventListener('click', (e) => {
+    e.stopPropagation();
+    setLightboxMode('panzoom');
+  });
+}
+
+// Boutons de contrôle de zoom
+if (btnLightboxZoomIn) {
+  btnLightboxZoomIn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    if (lightboxMode === 'lens') {
+      lensZoomFactor = Math.min(5.0, Math.round((lensZoomFactor + 0.5) * 10) / 10);
+      updateLensPosition(lastPointerX, lastPointerY);
+    } else {
+      panScale = Math.min(5.0, Math.round((panScale + 0.5) * 10) / 10);
+      updateTransform();
+    }
+    updateZoomDisplay();
+  });
+}
+
+if (btnLightboxZoomOut) {
+  btnLightboxZoomOut.addEventListener('click', (e) => {
+    e.stopPropagation();
+    if (lightboxMode === 'lens') {
+      lensZoomFactor = Math.max(1.5, Math.round((lensZoomFactor - 0.5) * 10) / 10);
+      updateLensPosition(lastPointerX, lastPointerY);
+    } else {
+      panScale = Math.max(1.0, Math.round((panScale - 0.5) * 10) / 10);
+      updateTransform();
+    }
+    updateZoomDisplay();
+  });
+}
+
+if (btnLightboxZoomReset) {
+  btnLightboxZoomReset.addEventListener('click', (e) => {
+    e.stopPropagation();
+    if (lightboxMode === 'lens') {
+      lensZoomFactor = 2.5;
+      updateLensPosition(lastPointerX, lastPointerY);
+    } else {
+      panScale = 1.0;
+      panX = 0;
+      panY = 0;
+      updateTransform();
+    }
+    updateZoomDisplay();
+  });
+}
+
+// Bouton Fermer
+if (btnLightboxClose) {
+  btnLightboxClose.addEventListener('click', (e) => {
+    e.stopPropagation();
+    closeArtworkLightbox();
+  });
+}
+
+// Déplacement souris / survol de la loupe
+if (lightboxStage) {
+  lightboxStage.addEventListener('mousemove', (e) => {
+    lastPointerX = e.clientX;
+    lastPointerY = e.clientY;
+
+    if (lightboxMode === 'lens') {
+      updateLensPosition(e.clientX, e.clientY, false);
+    } else if (lightboxMode === 'panzoom' && isPanning) {
+      panX = e.clientX - panStartX;
+      panY = e.clientY - panStartY;
+      updateTransform();
+    }
+  });
+
+  lightboxStage.addEventListener('mouseleave', () => {
+    if (artworkLightboxLens) artworkLightboxLens.classList.remove('is-visible');
+    isPanning = false;
+    lightboxStage.classList.remove('is-dragging');
+  });
+
+  // Gestion du Pan & Zoom par glisser-déposer
+  lightboxStage.addEventListener('mousedown', (e) => {
+    if (lightboxMode === 'panzoom' && e.button === 0) {
+      // Si on clique sur un bouton de la barre d'outils, ne pas amorcer le pan
+      if (e.target.closest('.lightbox-toolbar')) return;
+      isPanning = true;
+      panStartX = e.clientX - panX;
+      panStartY = e.clientY - panY;
+      lightboxStage.classList.add('is-dragging');
+    }
+  });
+
+  window.addEventListener('mouseup', () => {
+    if (isPanning) {
+      isPanning = false;
+      if (lightboxStage) lightboxStage.classList.remove('is-dragging');
+    }
+  });
+
+  // Double clic sur l'image en Pan & Zoom pour alterner 1x / 2.5x
+  if (artworkLightboxImg) {
+    artworkLightboxImg.addEventListener('dblclick', (e) => {
+      if (lightboxMode === 'panzoom') {
+        e.stopPropagation();
+        if (panScale > 1.2) {
+          panScale = 1.0;
+          panX = 0;
+          panY = 0;
+        } else {
+          panScale = 2.5;
+        }
+        updateTransform();
+        updateZoomDisplay();
+      }
+    });
+  }
+
+  // Molette de zoom dynamique (intercepte le scroll pour piloter le grossissement)
+  lightboxStage.addEventListener('wheel', (e) => {
+    if (!artworkLightbox || artworkLightbox.hidden) return;
+    e.preventDefault();
+    const delta = e.deltaY < 0 ? 0.25 : -0.25;
+
+    if (lightboxMode === 'lens') {
+      lensZoomFactor = Math.min(5.0, Math.max(1.5, Math.round((lensZoomFactor + delta) * 100) / 100));
+      updateZoomDisplay();
+      updateLensPosition(e.clientX, e.clientY, false);
+    } else {
+      panScale = Math.min(5.0, Math.max(1.0, Math.round((panScale + delta) * 100) / 100));
+      updateZoomDisplay();
+      updateTransform();
+    }
+  }, { passive: false });
+
+  // Clic en dehors de l'image pour fermer
+  lightboxStage.addEventListener('click', (e) => {
+    if (e.target.closest('.lightbox-toolbar')) return;
+    if (lightboxMode === 'lens') {
+      // En mode loupe, si on clique sur le fond sombre en dehors de l'image, on ferme
+      if (e.target === lightboxStage) {
+        closeArtworkLightbox();
+      }
+    }
+  });
+
+  // Support tactile pour smartphones & tablettes
+  lightboxStage.addEventListener('touchstart', (e) => {
+    if (e.touches.length === 1) {
+      const touch = e.touches[0];
+      lastPointerX = touch.clientX;
+      lastPointerY = touch.clientY;
+      if (lightboxMode === 'lens') {
+        updateLensPosition(touch.clientX, touch.clientY, true);
+      } else if (lightboxMode === 'panzoom') {
+        isPanning = true;
+        panStartX = touch.clientX - panX;
+        panStartY = touch.clientY - panY;
+      }
+    }
+  }, { passive: true });
+
+  lightboxStage.addEventListener('touchmove', (e) => {
+    if (e.touches.length === 1) {
+      const touch = e.touches[0];
+      lastPointerX = touch.clientX;
+      lastPointerY = touch.clientY;
+      if (lightboxMode === 'lens') {
+        updateLensPosition(touch.clientX, touch.clientY, true);
+      } else if (lightboxMode === 'panzoom' && isPanning) {
+        panX = touch.clientX - panStartX;
+        panY = touch.clientY - panStartY;
+        updateTransform();
+      }
+    }
+  }, { passive: true });
+
+  lightboxStage.addEventListener('touchend', () => {
+    if (lightboxMode === 'lens' && artworkLightboxLens) {
+      artworkLightboxLens.classList.remove('is-visible');
+    }
+    isPanning = false;
+  });
+}
+
+// Raccourci clavier Échap pour fermer l'inspection
+window.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape' && artworkLightbox && !artworkLightbox.hidden) {
+    closeArtworkLightbox();
+  }
 });
 
 function openCuratorModal(art, siblingsList = [], fromTimeline = false) {

@@ -499,10 +499,68 @@
       </div>
     </div>
   </div>
-  <!-- LIGHTBOX PLEIN ÉCRAN POUR L'IMAGE SEULE -->
+  <!-- LIGHTBOX PLEIN ÉCRAN POUR L'IMAGE SEULE AVEC OUTILS LOUPE & ZOOM -->
   <div id="artwork-lightbox-zoom" class="artwork-lightbox" hidden>
-    <img id="artwork-lightbox-img" src="" alt="Agrandissement de l'œuvre" />
-    <div class="lightbox-hint">Cliquez sur l'image pour revenir à la fiche</div>
+    <!-- BARRE D'OUTILS SUPÉRIEURE FLOTTANTE -->
+    <header class="lightbox-toolbar" aria-label="Commandes d'inspection de l'œuvre">
+      <div class="lightbox-toolbar-left">
+        <span class="lightbox-badge-mode">Inspection HD</span>
+        <span class="lightbox-artwork-title" id="lightbox-artwork-title"></span>
+      </div>
+
+      <div class="lightbox-toolbar-center">
+        <!-- Mode Loupe d'art (lentille circulaire mobile) -->
+        <button type="button" id="btn-lightbox-lens" class="lightbox-tool-btn is-active" title="Activer la loupe circulaire d'orfèvre (promenez la loupe sur l'œuvre)">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+          <span>Loupe d'art</span>
+        </button>
+
+        <!-- Mode Zoom libre (Pan & Zoom plein écran) -->
+        <button type="button" id="btn-lightbox-panzoom" class="lightbox-tool-btn" title="Activer le zoom libre et déplacement panoramique (attraper et glisser)">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 3 21 3 21 9"></polyline><polyline points="9 21 3 21 3 15"></polyline><line x1="21" y1="3" x2="14" y2="10"></line><line x1="3" y1="21" x2="10" y2="14"></line></svg>
+          <span>Zoom libre</span>
+        </button>
+
+        <!-- Séparateur -->
+        <div class="lightbox-tool-sep" aria-hidden="true"></div>
+
+        <!-- Contrôles de facteur de zoom (- / + / reset) -->
+        <div class="lightbox-zoom-stepper">
+          <button type="button" id="btn-lightbox-zoom-out" class="lightbox-icon-btn" title="Réduire l'agrandissement (molette vers le bas)">−</button>
+          <span id="lightbox-zoom-level" class="lightbox-zoom-level" title="Niveau d'agrandissement actuel">×2.5</span>
+          <button type="button" id="btn-lightbox-zoom-in" class="lightbox-icon-btn" title="Augmenter l'agrandissement (molette vers le haut)">+</button>
+          <button type="button" id="btn-lightbox-zoom-reset" class="lightbox-icon-btn" title="Réinitialiser le zoom">↺</button>
+        </div>
+      </div>
+
+      <div class="lightbox-toolbar-right">
+        <button type="button" id="btn-lightbox-close" class="lightbox-close-btn" title="Quitter le plein écran (Échap)">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+          <span>Fermer</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- SCÈNE CENTRALE D'OBSERVATION -->
+    <div class="lightbox-stage" id="lightbox-stage">
+      <div class="lightbox-img-wrapper" id="lightbox-img-wrapper">
+        <img id="artwork-lightbox-img" src="" alt="Agrandissement de l'œuvre" draggable="false" />
+        <!-- LENTILLE LOUPE CIRCULAIRE FLOTTANTE -->
+        <div id="artwork-lightbox-lens" class="artwork-lightbox-lens" aria-hidden="true">
+          <div class="lens-crosshair"></div>
+          <div class="lens-badge" id="lens-badge">×2.5</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- BANDEAU D'AIDE INFÉRIEUR -->
+    <footer class="lightbox-footer-hint" id="lightbox-footer-hint">
+      <span class="hint-item"><kbd class="hint-key">Molette</kbd> Ajuster le zoom</span>
+      <span class="hint-sep">&bull;</span>
+      <span class="hint-item" id="hint-mode-action"><kbd class="hint-key">Survol</kbd> Promener la loupe</span>
+      <span class="hint-sep">&bull;</span>
+      <span class="hint-item"><kbd class="hint-key">Échap</kbd> Revenir à la fiche</span>
+    </footer>
   </div>
 
   <!-- MODULE FOCUS PLEIN ÉCRAN INTERACTIF -->
