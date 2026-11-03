@@ -987,6 +987,14 @@ const btnModalClose = document.getElementById('btn-modal-close');
 const btnModalPrev = document.getElementById('btn-modal-prev');
 const btnModalNext = document.getElementById('btn-modal-next');
 
+// Éléments du ruban transversal synchrone ("Au même moment dans le monde")
+const modalSyncSection = document.getElementById('modal-sync-section');
+const modalSyncEpochBadge = document.getElementById('modal-sync-epoch-badge');
+const modalSyncRibbon = document.getElementById('modal-sync-ribbon');
+const btnModalHistoryBack = document.getElementById('btn-modal-history-back');
+const modalHistoryBackLabel = document.getElementById('modal-history-back-label');
+
+let modalHistoryStack = []; // Historique de navigation croisée entre civilisations contemporaines
 
 let activeContextList = [];
 let currentArtIndex = 0;
@@ -1351,8 +1359,15 @@ window.addEventListener('keydown', (e) => {
   }
 });
 
-function openCuratorModal(art, siblingsList = [], fromTimeline = false) {
+function openCuratorModal(art, siblingsList = [], fromTimeline = false, isHistoryNav = false) {
   isTimelineModalMode = fromTimeline;
+  
+  // Si on ouvre une œuvre depuis la galerie ou la frise (et non via le fil d'Ariane contemporain),
+  // on réinitialise l'historique de navigation croisée
+  if (!isHistoryNav && siblingsList.length > 1) {
+    modalHistoryStack = [];
+  }
+
   activeContextList = siblingsList.length > 0 ? siblingsList : (window.ART_OBJECTS || []);
   currentArtIndex = activeContextList.findIndex(item => item.id === art.id);
   if (currentArtIndex === -1) currentArtIndex = 0;
@@ -1499,19 +1514,200 @@ function populateModalData(art) {
     ? enrichHTMLWithGlossary(rawNarrative)
     : rawNarrative;
 
+  // Génération dynamique du ruban transversal "Au même moment dans le monde"
+  renderContemporaneousRibbon(art);
+  updateModalHistoryBackButton();
 }
 
 btnModalClose.addEventListener('click', () => {
   modal.classList.remove('open');
   modalImg.src = '';
+  modalHistoryStack = [];
+  if (btnModalHistoryBack) btnModalHistoryBack.style.display = 'none';
 });
 
 modal.addEventListener('click', (e) => {
   if (e.target === modal) {
     modal.classList.remove('open');
     modalImg.src = '';
+    modalHistoryStack = [];
+    if (btnModalHistoryBack) btnModalHistoryBack.style.display = 'none';
   }
 });
+
+// Écouteur pour le bouton retour dans l'historique de navigation croisée
+if (btnModalHistoryBack) {
+  btnModalHistoryBack.addEventListener('click', (e) => {
+    e.stopPropagation();
+    if (modalHistoryStack.length > 0) {
+      const prevArt = modalHistoryStack.pop();
+      openCuratorModal(prevArt, [prevArt], false, true);
+    }
+  });
+}
+
+function updateModalHistoryBackButton() {
+  if (!btnModalHistoryBack) return;
+  if (modalHistoryStack.length > 0) {
+    const prev = modalHistoryStack[modalHistoryStack.length - 1];
+    btnModalHistoryBack.style.display = 'inline-flex';
+    const shortTitle = (prev.title && prev.title.length > 26)
+      ? prev.title.substring(0, 24) + '…'
+      : (prev.title || 'Œuvre précédente');
+    if (modalHistoryBackLabel) modalHistoryBackLabel.textContent = `Retour : ${shortTitle}`;
+  } else {
+    btnModalHistoryBack.style.display = 'none';
+  }
+}
+
+// Normalise l'identifiant de civilisation pour garantir qu'on ne compare que des civilisations distinctes
+function getCivGroupKey(art) {
+  if (!art) return '';
+  const cid = (art.civId || '').toLowerCase().trim();
+  if (cid.startsWith('egypte')) return 'egypte';
+  if (cid.startsWith('grece')) return 'grece';
+  if (cid.startsWith('egee') || cid.startsWith('mycene') || cid.startsWith('mino')) return 'egee';
+  if (cid.startsWith('etrusque') || cid.startsWith('italie')) return 'etrusque';
+  if (cid.startsWith('iran') || cid.startsWith('perse') || cid.startsWith('elam')) return 'iran_perse';
+  if (cid.startsWith('islam')) return 'islam';
+  if (cid.startsWith('ibere')) return 'ibere';
+  if (cid.startsWith('chypre')) return 'chypre';
+  if (cid.startsWith('celte') || cid.startsWith('gaule')) return 'celte';
+  if (cid.startsWith('occident') || cid.startsWith('europe')) return 'occident';
+  if (cid.startsWith('canaries')) return 'canaries';
+  if (cid.startsWith('levant') || cid.startsWith('phenicie')) return 'levant';
+  return cid || 'autre';
+}
+
+// Recherche algorithmique des chefs-d'œuvre contemporains des autres civilisations (Smart Echo)
+function getContemporariesForArtwork(targetArt) {
+  if (!targetArt || targetArt.centuryNumeric === undefined || targetArt.centuryNumeric === null) return [];
+  const targetC = Number(targetArt.centuryNumeric);
+  if (isNaN(targetC)) return [];
+
+  const targetGroup = getCivGroupKey(targetArt);
+  const allArts = window.ART_OBJECTS || [];
+
+  // Fenêtre de contemporanéité adaptative selon la période
+  let baseSpan = 60;
+  if (targetC < -1000) baseSpan = 250;
+  else if (targetC < 500) baseSpan = 100;
+
+  const spans = [baseSpan, Math.round(baseSpan * 1.8), Math.round(baseSpan * 2.8)];
+  let byGroup = {};
+
+  for (const span of spans) {
+    const candidates = allArts.filter(a =>
+      a.id !== targetArt.id &&
+      a.imgSrc &&
+      a.centuryNumeric !== undefined &&
+      a.centuryNumeric !== null &&
+      !isNaN(Number(a.centuryNumeric)) &&
+      getCivGroupKey(a) !== targetGroup &&
+      Math.abs(Number(a.centuryNumeric) - targetC) <= span
+    );
+
+    byGroup = {};
+    for (const c of candidates) {
+      const g = getCivGroupKey(c);
+      if (!byGroup[g]) byGroup[g] = [];
+      byGroup[g].push(c);
+    }
+
+    // Si on a trouvé au moins 2 civilisations contemporaines, la sélection est satisfaisante
+    if (Object.keys(byGroup).length >= 2 || span === spans[spans.length - 1]) {
+      break;
+    }
+  }
+
+  // Pour chaque civilisation distincte, sélectionner la meilleure représentante
+  // (proximité temporelle d'abord, avec bonus d'emblème isHighlight)
+  const selected = [];
+  for (const g of Object.keys(byGroup)) {
+    const arts = byGroup[g];
+    arts.sort((a, b) => {
+      const diffA = Math.abs(Number(a.centuryNumeric) - targetC) + (a.isHighlight ? -15 : 0);
+      const diffB = Math.abs(Number(b.centuryNumeric) - targetC) + (b.isHighlight ? -15 : 0);
+      return diffA - diffB;
+    });
+    selected.push(arts[0]);
+  }
+
+  // Trier par proximité temporelle croissante et limiter à 6 civilisations contemporaines
+  selected.sort((a, b) => Math.abs(Number(a.centuryNumeric) - targetC) - Math.abs(Number(b.centuryNumeric) - targetC));
+  return selected.slice(0, 6);
+}
+
+// Rendu visuel du ruban synchrone dans la fiche détaillée
+function renderContemporaneousRibbon(currentArt) {
+  if (!modalSyncSection || !modalSyncRibbon) return;
+
+  const contemporaries = getContemporariesForArtwork(currentArt);
+  if (!contemporaries || contemporaries.length === 0) {
+    modalSyncSection.style.display = 'none';
+    modalSyncRibbon.innerHTML = '';
+    return;
+  }
+
+  modalSyncSection.style.display = 'block';
+  if (modalSyncEpochBadge) {
+    modalSyncEpochBadge.textContent = currentArt.centuryDisplay || (currentArt.centuryNumeric ? `${currentArt.centuryNumeric}` : '');
+  }
+
+  const targetC = Number(currentArt.centuryNumeric);
+
+  modalSyncRibbon.innerHTML = contemporaries.map(card => {
+    const cardC = Number(card.centuryNumeric);
+    const diff = Math.abs(cardC - targetC);
+    let diffLabel = '';
+    if (diff === 0) diffLabel = 'Contemporain exact';
+    else if (diff <= 35) diffLabel = 'Même siècle';
+    else diffLabel = `± ${diff} ans`;
+
+    const cleanTitle = (card.title || '').replace(/"/g, '&quot;');
+    const cleanCiv = (card.civName || 'Civilisation').replace(/"/g, '&quot;');
+    const cleanCentury = (card.centuryDisplay || '').replace(/"/g, '&quot;');
+    const cleanSite = (card.originSite || card.site || '').replace(/"/g, '&quot;');
+
+    return `
+      <div class="sync-card" data-card-id="${card.id}" role="button" tabindex="0" title="Découvrir cette œuvre contemporaine : ${cleanTitle}">
+        <div class="sync-card-thumb-frame">
+          <img src="${card.imgSrc}" alt="${cleanTitle}" loading="lazy" />
+          <span class="sync-card-civ-badge">${cleanCiv}</span>
+        </div>
+        <div class="sync-card-body">
+          <div class="sync-card-date-line">
+            <span class="sync-card-century">${cleanCentury}</span>
+            <span class="sync-card-delta">${diffLabel}</span>
+          </div>
+          <div class="sync-card-title">${cleanTitle}</div>
+          <div class="sync-card-site">${cleanSite}</div>
+        </div>
+      </div>
+    `;
+  }).join('');
+
+  // Clic sur une carte contemporaine : navigation fluide avec historique
+  modalSyncRibbon.querySelectorAll('.sync-card').forEach(cardEl => {
+    cardEl.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const targetId = cardEl.getAttribute('data-card-id');
+      const targetArt = (window.ART_OBJECTS || []).find(a => a.id === targetId);
+      if (targetArt) {
+        modalHistoryStack.push(currentArt);
+        openCuratorModal(targetArt, [targetArt], false, false);
+      }
+    });
+
+    // Support accessibilité clavier (Entrée / Espace)
+    cardEl.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        cardEl.click();
+      }
+    });
+  });
+}
 
 /* ==========================================================================
    TAXONOMIE OFFICIELLE DU MUSÉE & MOTEUR EN CASCADE

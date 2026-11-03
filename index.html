@@ -512,7 +512,13 @@
 
       <!-- Nouveau Bandeau Titre supérieur pleine largeur -->
       <div class="modal-title-bandeau">
-        <div class="modal-civ-line" id="modal-civ-title">Civilisation</div>
+        <div class="modal-header-top-row">
+          <div class="modal-civ-line" id="modal-civ-title">Civilisation</div>
+          <button type="button" class="btn-modal-history-back" id="btn-modal-history-back" style="display: none;" title="Revenir à l'œuvre précédente">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"></polyline></svg>
+            <span id="modal-history-back-label">Retour</span>
+          </button>
+        </div>
         <h2 class="modal-headline" id="modal-artwork-title">Titre de l'Œuvre</h2>
         <div class="modal-gold-fade-line"></div>
       </div>
@@ -528,6 +534,23 @@
           <!-- À droite : uniquement les étiquettes et le texte -->
           <div class="modal-chips-row" id="modal-chips-container"></div>
           <div class="modal-narrative" id="modal-narrative-text">Notice détaillée...</div>
+
+          <!-- RUBAN TRANSVERSAL : AU MÊME MOMENT DANS LE MONDE -->
+          <div class="modal-sync-section" id="modal-sync-section" style="display: none;">
+            <div class="modal-sync-header">
+              <div class="modal-sync-title-row">
+                <span class="modal-sync-star" aria-hidden="true">✦</span>
+                <span class="modal-sync-title">AU MÊME MOMENT DANS LE MONDE</span>
+                <span class="modal-sync-epoch-badge" id="modal-sync-epoch-badge"></span>
+              </div>
+              <p class="modal-sync-subtitle" id="modal-sync-subtitle">
+                Pendant la création de cette œuvre, découvrez ce qui prenait forme dans les autres civilisations :
+              </p>
+            </div>
+            <div class="modal-sync-ribbon" id="modal-sync-ribbon">
+              <!-- Cartes des chefs-d'œuvre contemporains générées dynamiquement -->
+            </div>
+          </div>
         </div>
       </div>
     </div>

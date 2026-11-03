@@ -4420,3 +4420,244 @@ body {
   line-height: 1.45;
   color: #e6ebf2;
 }
+
+/* ==========================================================================
+   RUBAN TRANSVERSAL SYNCHRONE : AU MÊME MOMENT DANS LE MONDE
+   ========================================================================== */
+.modal-header-top-row {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 12px !important;
+  margin-bottom: 6px !important;
+}
+
+.modal-header-top-row .modal-civ-line {
+  margin-bottom: 0 !important;
+}
+
+.btn-modal-history-back {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 7px !important;
+  font-family: 'Cinzel', serif !important;
+  font-size: 0.72rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.8px !important;
+  color: var(--gold-pale, #f5e6b8) !important;
+  background: rgba(212, 175, 55, 0.14) !important;
+  border: 1px solid rgba(212, 175, 55, 0.45) !important;
+  padding: 4px 12px !important;
+  border-radius: 20px !important;
+  cursor: pointer !important;
+  transition: all 0.22s ease !important;
+  white-space: nowrap !important;
+  text-transform: uppercase !important;
+}
+
+.btn-modal-history-back:hover {
+  background: rgba(212, 175, 55, 0.28) !important;
+  border-color: var(--gold-pure, #d4af37) !important;
+  color: #fff !important;
+  transform: translateX(-2px) !important;
+  box-shadow: 0 4px 14px rgba(212, 175, 55, 0.25) !important;
+}
+
+.modal-sync-section {
+  margin-top: 2rem !important;
+  padding: 1.25rem 1.4rem !important;
+  background: linear-gradient(180deg, rgba(16, 20, 30, 0.95) 0%, rgba(10, 13, 20, 0.98) 100%) !important;
+  border: 1px solid rgba(212, 175, 55, 0.3) !important;
+  border-radius: 8px !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6), inset 0 1px 0 rgba(212, 175, 55, 0.2) !important;
+  box-sizing: border-box !important;
+}
+
+.modal-sync-header {
+  margin-bottom: 1rem !important;
+}
+
+.modal-sync-title-row {
+  display: flex !important;
+  align-items: center !important;
+  gap: 9px !important;
+  flex-wrap: wrap !important;
+}
+
+.modal-sync-star {
+  color: var(--gold-pure, #d4af37) !important;
+  font-size: 0.95rem !important;
+  text-shadow: 0 0 8px rgba(212, 175, 55, 0.7) !important;
+}
+
+.modal-sync-title {
+  font-family: 'Cinzel', serif !important;
+  font-size: 0.84rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 1.8px !important;
+  color: var(--gold-pale, #f5e6b8) !important;
+  text-transform: uppercase !important;
+  margin: 0 !important;
+}
+
+.modal-sync-epoch-badge {
+  font-family: 'Cinzel', serif !important;
+  font-size: 0.7rem !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.8px !important;
+  color: #ffffff !important;
+  background: rgba(212, 175, 55, 0.18) !important;
+  border: 1px solid rgba(212, 175, 55, 0.5) !important;
+  padding: 2px 9px !important;
+  border-radius: 12px !important;
+}
+
+.modal-sync-subtitle {
+  font-size: 0.78rem !important;
+  color: #9aa5b8 !important;
+  margin: 5px 0 0 0 !important;
+  font-style: italic !important;
+  line-height: 1.4 !important;
+}
+
+.modal-sync-ribbon {
+  display: flex !important;
+  flex-direction: row !important;
+  gap: 14px !important;
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
+  padding: 6px 2px 14px 2px !important;
+  scroll-behavior: smooth !important;
+  -webkit-overflow-scrolling: touch !important;
+  scrollbar-width: thin !important;
+  scrollbar-color: rgba(212, 175, 55, 0.45) rgba(15, 18, 25, 0.5) !important;
+}
+
+.modal-sync-ribbon::-webkit-scrollbar {
+  height: 6px !important;
+}
+
+.modal-sync-ribbon::-webkit-scrollbar-track {
+  background: rgba(15, 18, 25, 0.5) !important;
+  border-radius: 3px !important;
+}
+
+.modal-sync-ribbon::-webkit-scrollbar-thumb {
+  background: rgba(212, 175, 55, 0.45) !important;
+  border-radius: 3px !important;
+}
+
+.modal-sync-ribbon::-webkit-scrollbar-thumb:hover {
+  background: var(--gold-pure, #d4af37) !important;
+}
+
+.sync-card {
+  flex: 0 0 195px !important;
+  width: 195px !important;
+  background: rgba(18, 23, 34, 0.9) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  border-radius: 6px !important;
+  overflow: hidden !important;
+  cursor: pointer !important;
+  display: flex !important;
+  flex-direction: column !important;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1) !important;
+  box-sizing: border-box !important;
+}
+
+.sync-card:hover {
+  transform: translateY(-4px) !important;
+  border-color: rgba(212, 175, 55, 0.85) !important;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.8), 0 0 16px rgba(212, 175, 55, 0.25) !important;
+  background: rgba(24, 30, 44, 0.95) !important;
+}
+
+.sync-card-thumb-frame {
+  height: 125px !important;
+  width: 100% !important;
+  position: relative !important;
+  background: #06080c !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  overflow: hidden !important;
+}
+
+.sync-card-thumb-frame img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  object-position: center !important;
+  transition: transform 0.45s ease !important;
+}
+
+.sync-card:hover .sync-card-thumb-frame img {
+  transform: scale(1.08) !important;
+}
+
+.sync-card-civ-badge {
+  position: absolute !important;
+  bottom: 6px !important;
+  left: 6px !important;
+  right: 6px !important;
+  font-family: 'Cinzel', serif !important;
+  font-size: 0.62rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.8px !important;
+  color: #fff !important;
+  background: rgba(10, 13, 20, 0.9) !important;
+  border: 1px solid rgba(212, 175, 55, 0.6) !important;
+  padding: 2px 6px !important;
+  border-radius: 4px !important;
+  backdrop-filter: blur(4px) !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  text-align: center !important;
+}
+
+.sync-card-body {
+  padding: 10px 10px 12px 10px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 5px !important;
+  flex: 1 !important;
+}
+
+.sync-card-date-line {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  font-size: 0.68rem !important;
+  font-weight: 600 !important;
+  color: var(--gold-pale, #f5e6b8) !important;
+}
+
+.sync-card-delta {
+  font-size: 0.62rem !important;
+  color: #7e8b9f !important;
+  font-style: italic !important;
+}
+
+.sync-card-title {
+  font-family: 'Cinzel', serif !important;
+  font-size: 0.74rem !important;
+  font-weight: 600 !important;
+  color: #f2eee6 !important;
+  line-height: 1.35 !important;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 2 !important;
+  -webkit-box-orient: vertical !important;
+  overflow: hidden !important;
+}
+
+.sync-card-site {
+  font-size: 0.65rem !important;
+  color: #828e9f !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  margin-top: auto !important;
+  padding-top: 6px !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.05) !important;
+}
