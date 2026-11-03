@@ -205,6 +205,12 @@ window.ART_TYPOLOGY_DEFINITIONS = {
     domain: "Céramique funéraire & athlétique",
     def: "Vase élancé à panse cylindrique ou ovoïde, doté d'une seule anse et d'un col étroit terminé par une embouchure en entonnoir. Il contenait les huiles parfumées consacrées à la toilette des morts et aux offrandes sur les tombeaux."
   },
+  "Loutrophore": {
+    title: "Loutrophore",
+    etymology: "Du grec loutrophóros (λουτροφόρος), « qui porte l'eau du bain » (loutrón + phérô)",
+    domain: "Céramique rituelle nuptiale & funéraire",
+    def: "Grand vase cérémoniel très élancé à col démesurément haut, panse étroite et deux longues anses ajourées ou à volutes. Il servait à puiser l'eau sacrée du bain rituel de la mariée la veille de ses noces, ou était déposé sur la tombe des jeunes gens morts célibataires."
+  },
   "Oenochoé": {
     title: "Œnochoé",
     etymology: "Du grec oinokhóê, « qui verse le vin » (oînos + khéô)",
@@ -1530,6 +1536,41 @@ window.ART_GLOSSARY = [
     category: "Arts décoratifs & Céramique antique",
     def: "Se dit d'un objet, d'une lampe ou d'un vase plastique qui adopte la morphologie complète ou partielle d'un animal (cheval, taureau, chien, oiseau, lièvre), alliant une fonction utilitaire (réservoir d'huile, verseur) à une dimension sculpturale et symbolique.",
     patterns: ["theriomorphe", "thériomorphe", "theriomorphes", "thériomorphes", "zoomorphe", "zoomorphes"]
+  },
+  {
+    term: "Loutrophore",
+    etymology: "Du grec loutrophóros (λουτροφόρος), « porteur d'eau de bain »",
+    category: "Céramique rituelle grecque",
+    def: "Vase grec très élancé à col démesuré et deux grandes anses plates ajourées ou à volutes. Il contenait l'eau lustrale du bain nuptial ou était dressé comme monument funéraire sur la sépulture des célibataires.",
+    patterns: ["loutrophore", "loutrophores", "loutrophoros"]
+  },
+  {
+    term: "Apobate",
+    etymology: "Du grec ancien apobátês (ἀποβάτης), « celui qui descend » (apobaínô)",
+    category: "Jeux panhelléniques & Athlétisme héroïque",
+    def: "Épreuve guerrière et sportive spectaculaire des fêtes panathénaïques où un guerrier en armure complète (casque, bouclier) saute en pleine course d'un char lancé au galop, court à côté de l'attelage puis remonte d'un bond à bord de la caisse conduite par son cocher.",
+    patterns: ["apobate", "apobates"]
+  },
+  {
+    term: "Obéloi",
+    etymology: "Du grec ancien obelós (ὀβελός), « broche à rôtir, pieu »",
+    category: "Rituels sacrificiels & Métrologie monétaire",
+    def: "Broches métalliques (en fer ou en bronze) utilisées pour rôtir les viscères et les chairs d'animaux sacrifiés lors des cérémonies religieuses grecques. Faisceau d'ustensiles cultuels indispensables, ils servaient également d'étalon de valeur et de monnaie pré-monétaire (une poignée de six obéloi formant une drachme).",
+    patterns: ["obeloi", "obéloi", "obelos", "obélos"]
+  },
+  {
+    term: "Guillochis",
+    etymology: "Terme d'orfèvrerie et d'ornementation architecturale",
+    category: "Motifs ornementaux antiques",
+    def: "Motif décoratif continu composé d'un réseau de rubans, de bandes ondulées ou de spirales qui s'entrelacent symétriquement pour former une tresse ininterrompue, très fréquent dans la céramique orientalisante et les décors d'Italie du Sud.",
+    patterns: ["guillochis", "guilloché", "guilloche"]
+  },
+  {
+    term: "Péplos",
+    etymology: "Du grec ancien péplos (πέπλος)",
+    category: "Costume grec féminin",
+    def: "Tunique féminine de laine typique de la Grèce archaïque et classique, formée d'une grande pièce d'étoffe rectangulaire pliée, rabattue sur la poitrine (apoptygma), agrafée sur chaque épaule par des fibules et serrée à la taille par une ceinture.",
+    patterns: ["peplos", "péplos"]
   }
 ];
 

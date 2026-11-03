@@ -3,6 +3,461 @@
    ========================================================================== */
 window.ART_OBJECTS = [
   {
+    id: "ceramique_lecythe_epaule_quadrige_figures_noires_empuries",
+    civId: "grece",
+    periodId: "grece_archaique",
+    civName: "Grèce antique",
+    century: "Fin du VIe siècle av. J.-C. (vers 520–500 av. J.-C.)",
+    centuryDisplay: "VIe s. av. J.-C.",
+    centuryNumeric: -510,
+    domain: "ceramique",
+    artifactType: "Lécythe",
+    title: "Lécythe attique à épaule à figures noires : départ en quadrige (Empúries)",
+    site: "Musée d'archéologie de Catalogne - Empúries (Espagne)",
+    originSite: "Athènes (Attique) / découvert dans les nécropoles d'Emporion (Empúries, Catalogne)",
+    locationType: "museum",
+    currentLocation: "Musée d'archéologie de Catalogne - Empúries (Espagne)",
+    category: "Lécythe cylindrique à épaule (« shoulder-lekythos ») en terre cuite attique à figures noires",
+    isHighlight: true,
+    chips: ["VIe s. av. J.-C.", "Grèce antique", "Époque archaïque", "Athènes", "Empúries", "Emporion", "Catalogne", "Lécythe", "Figures noires", "Quadrige", "Char", "Musée d'Empúries"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPsH0ixBQA7lOx-RTgklj0jzTV_bVpoEOJ54Zskh9BPP2weoCquxOGe6HvnW5xDzFv35smkxaBBDlBGMFjr4yql19DfjBUOM9mteJMy6oCxLt1K3neArG4ZwT2AjTOcLuuB0IytgH71UkzDYQ7D3yFqKA=w1384-h2408-s-no-gm?authuser=0",
+    narrative: `<p>Ce lécythe à épaule en terre cuite à figures noires, découvert dans les nécropoles de la cité grecque d'Empúries (Catalogne) et issu de la production des ateliers athéniens, date de la fin du VIe siècle avant J.-C. (vers 520–500 av. J.-C.). Témoignage éclatant du dynamisme des réseaux commerciaux phocéens en Méditerranée occidentale, ce vase d'importation attique illustre la diffusion prestigieuse de la vaisselle grecque auprès des colons et des élites ibériques locales, qui l'utilisaient tant pour les pratiques votives que pour le mobilier funéraire.</p>
+    <p>Sur le plan morphologique, l'objet adopte la silhouette caractéristique du lécythe cylindrique à épaule (« shoulder-lekythos »), forme mise au point dans le Céramique d'Athènes au cours du dernier tiers du VIe siècle. Conçu pour contenir et dispenser des huiles parfumées ou des onguents précieux, il possède une embouchure profonde évasée en calice vernie de noir, un col tubulaire très étroit évitant l'oxydation et l'évaporation des essences, ainsi qu'une anse verticale en ruban facilitant la préhension. Sa panse cylindrique droite offre un champ d'expression pictural parfaitement régulier, avant de se rétrécir vers un pied circulaire en disque robuste assurant l'assise du vase.</p>
+    <p>Le décor s'ordonne selon une syntaxe ornementale rigoureusement structurée. L'épaule plate, sur fond d'argile claire réservée, est rythmée par une corolle de languettes ou de bâtonnets rayonnants tracés au vernis noir au départ du col. La transition entre l'épaule et la panse est soulignée par un bandeau de pointillé à double rangée de pastilles noires encadré de filets horizontaux.</p>
+    <p>La panse déploie une scène narrative exécutée selon la technique des figures noires à incisions, figurant un attelage héroïque ou un départ en char. Le quadrige s'avance au pas ou au galop, avec ses quatre coursiers dont la masse corporelle se détache en silhouette sombre sur le fond d'argile orangée. Les multiples jambes des chevaux, leurs sabots et les détails de leurs crinières sont minutieusement gravés à la pointe pour individualiser chaque bête au sein de l'attelage. Un personnage (aurige ou guerrier casqué) se tient à bord de la caisse du char, tendant les bras pour tenir les rênes et guider les chevaux. Directement sous le panneau figuré, une frise soignée de méandres continus (grecques) marque la fin de la composition narrative. La partie inférieure de la panse est plongée dans un vernis noir dense et lustré, interrompu par de fins filets réservés avant de s'achever sur le pied en disque à tranche soigneusement calibrée.</p>
+    <p><strong>Siècle :</strong> VIe siècle av. J.-C. (vers -520 / -500) | <strong>Civilisation :</strong> Grèce antique (Époque archaïque) | <strong>Sous-partie :</strong> Céramique attique à figures noires (Empúries).</p>`
+  },
+  {
+    id: "ceramique_serie_lecythes_attiques_figures_noires_alexandrie",
+    civId: "grece",
+    periodId: "grece_archaique",
+    civName: "Grèce antique",
+    century: "Vers 500 avant J.-C. (fin du VIe siècle av. J.-C.)",
+    centuryDisplay: "VIe-Ve s. av. J.-C.",
+    centuryNumeric: -500,
+    domain: "ceramique",
+    artifactType: "Lécythe",
+    title: "Série de lécythes attiques à figures noires et fond blanc : combats d'hoplites et thiasos (Alexandrie)",
+    site: "Musée national / Musée gréco-romain d'Alexandrie (Égypte)",
+    originSite: "Athènes (Attique) / découvert dans la région d'Alexandrie (Égypte)",
+    locationType: "museum",
+    currentLocation: "Musée national d'Alexandrie (Égypte)",
+    category: "Ensemble de lécythes en terre cuite attique à figures noires et fond blanc",
+    isHighlight: false,
+    chips: ["VIe s. av. J.-C.", "Ve s. av. J.-C.", "Grèce antique", "Athènes", "Alexandrie", "Lécythe", "Figures noires", "Fond blanc", "Hoplites", "Huiles parfumées", "Musée d'Alexandrie"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNRUG17ojzM9r4HHbNfUpSOTFe0FGKs3dFlAvt3pust3wDWdlZfEAjZQoMoFeCcaBBNum1G2LzIYa9-0qusGYPtzqS7rPpR4D0E6LrsSv8An1dMUfpY483E2Ic8_Tv-nY3yUscEs2JnLG9VnHyqveCjdA=w1705-h1136-s-no-gm?authuser=0",
+    narrative: `<p>Cette série de lécythes attiques, datée des environs de 500 av. J.-C. et conservée au Musée d'Alexandrie, illustre la production de grand renom de l'artisanat athénien à la charnière des époques archaïque et classique. Le lécythe est un vase à corps allongé, muni d'une anse unique et d'un col étroit surmonté d'une embouchure en forme de coupe, une structure conçue pour limiter le débit des huiles parfumées et des onguents précieux qu'il contenait. Ces récipients jouaient un rôle central dans les rites de la vie quotidienne, mais surtout dans les cérémonies funéraires où ils servaient à l'onction du défunt avant d'être déposés dans la tombe comme offrandes rituelles.</p>
+    <p>La décoration de ces pièces utilise principalement la technique de la figure noire, parfois appliquée sur un engobe clair (fond blanc) pour faire ressortir la finesse des silhouettes. Les scènes représentées témoignent d'une grande inventivité malgré l'espace restreint de la panse cylindrique : on y trouve des épisodes de la mythologie grecque, des exploits héroïques comme des combats d'hoplites, ou des cortèges dionysiaques. L'épaule du vase est généralement ornée de motifs végétaux, tels que des languettes rayonnantes ou des fleurs de lotus, tandis que des frises de méandres viennent souvent encadrer le registre principal.</p>
+    <p>La présence de ces vases en Égypte souligne l'importance des réseaux commerciaux reliant Athènes au bassin oriental de la Méditerranée. Pour les colons et marchands grecs installés en Égypte, ces objets étaient des marqueurs d'identité culturelle forts, perpétuant les traditions religieuses et esthétiques de leur métropole d'origine. La diversité des styles au sein d'une même vitrine permet d'apprécier l'évolution du goût des commanditaires et le savoir-faire des ateliers attiques qui transformaient ces vases en précieux témoins de prestige social.</p>
+    <p><strong>Siècle :</strong> Vers 500 av. J.-C. (-500) | <strong>Civilisation :</strong> Grèce antique (Époque archaïque tardive) | <strong>Sous-partie :</strong> Céramique attique à figures noires (Alexandrie).</p>`
+  },
+  {
+    id: "ceramique_ensemble_lecythes_mesures_terres_cuites_olympie",
+    civId: "grece",
+    periodId: "grece_archaique",
+    civName: "Grèce antique",
+    century: "VIe siècle avant J.-C.",
+    centuryDisplay: "VIe s. av. J.-C.",
+    centuryNumeric: -550,
+    domain: "ceramique",
+    artifactType: "Lécythe",
+    title: "Ensemble d'offrandes et céramiques d'Olympie : lécythes attiques, mesures officielles et sphinx des Géloens (Musée d'Olympie)",
+    site: "Musée archéologique d'Olympie (Grèce)",
+    originSite: "Sanctuaire d'Olympie (Élide / Élis, Grèce)",
+    locationType: "museum",
+    currentLocation: "Musée archéologique d'Olympie (Grèce)",
+    category: "Ensemble de céramiques de banquet, mesures à grains et terres cuites architecturales archaïques",
+    isHighlight: true,
+    chips: ["VIe s. av. J.-C.", "Grèce antique", "Époque archaïque", "Olympie", "Élide", "Lécythe", "Figures noires", "Sphinx", "Trésor des Géloens", "Sanctuaire panhellénique", "Musée d'Olympie"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPu1wl8ecHlqRkWwmoZg3WbaXJiBfyjYc_vbqoTjZb0hls3i-CkRsUWutxyKfcDzdjPkqWgOd6qeZJETIo7HirlycIiJ5lp7awpu_g2GjqJGWLcsQjbBECjj_6YlJZFlEaF1hoTF6uj_DLYzanXOCy4lA=w1705-h1136-s-no-gm?authuser=0",
+    narrative: `<p>Cette vitrine du musée archéologique d'Olympie présente un ensemble remarquable de céramiques et de terres cuites datant du VIe siècle avant J.-C., illustrant la production des ateliers d'Élis et d'Athènes au cœur du grand sanctuaire panhellénique. On y découvre une série de lécythes à figures noires, vases de petite taille destinés à contenir des huiles parfumées, dont les parois s'ornent de scènes mythologiques ou de cortèges, caractéristiques de la finesse du trait attique.</p>
+    <p>À leurs côtés figurent des récipients plus massifs, aux formes cylindriques ou globulaires, qui servaient de mesures officielles pour le commerce des grains et des légumineuses au sein du sanctuaire, témoignant de l'organisation rigoureuse des échanges lors des rassemblements olympiques. L'exposition met également en lumière une statuaire de terre cuite diversifiée, allant de figurines anthropomorphes stylisées à des représentations zoomorphes plus réalistes, comme le bélier au modelé soigné.</p>
+    <p>Au centre de l'ensemble, la tête d'un sphinx en terre cuite peinte capte le regard par la vivacité de ses couleurs préservées et la douceur de son expression archaïque, élément qui servait originellement d'acrotère pour décorer le toit du célèbre Trésor des Géloens. Ces objets, qu'ils soient destinés à l'usage quotidien des pèlerins ou à l'ornementation monumentale des édifices, révèlent la vitalité artistique et le rôle économique central d'Olympie à l'époque archaïque.</p>
+    <p><strong>Siècle :</strong> VIe siècle av. J.-C. | <strong>Civilisation :</strong> Grèce antique (Époque archaïque) | <strong>Sous-partie :</strong> Céramiques et terres cuites votives (Musée d'Olympie).</p>`
+  },
+  {
+    id: "ceramique_ensemble_lecythes_figurines_barcelone",
+    civId: "grece",
+    periodId: "grece_classique",
+    civName: "Grèce antique",
+    century: "Ve siècle avant J.-C.",
+    centuryDisplay: "Ve s. av. J.-C.",
+    centuryNumeric: -450,
+    domain: "ceramique",
+    artifactType: "Lécythe",
+    title: "Ensemble de lécythes à figures noires, figurines zoomorphes et flacons en verre (Musée d'Archéologie de Catalogne, Barcelone)",
+    site: "Musée d'archéologie de Catalogne (Barcelone, Espagne)",
+    originSite: "Catalogne (Empúries et nécropoles ibériques)",
+    locationType: "museum",
+    currentLocation: "Musée d'archéologie de Catalogne (Barcelone, Espagne)",
+    category: "Ensemble de lécythes attiques, statuettes votives en terre cuite et flacons en pâte de verre",
+    isHighlight: false,
+    chips: ["Ve s. av. J.-C.", "Grèce antique", "Monde colonial", "Empúries", "Catalogne", "Barcelone", "Lécythe", "Figurines zoomorphes", "Pâte de verre", "Ex-voto", "MAC Barcelone"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNOoIQSdGdM9gSTBSLRWseIFGE-THc63HhXRgcFv9HGYdT0-YJL_H9U4yIA3dT0GbMKQhBw0QQrqeS4NJ8Oi5cmg-KtRhV8lveL8pRMt3Pgebmnq4S-AQPv3Elle0hUNTlq5PUPGBcDoY-PAC6wKQLieA=w1705-h1136-s-no-gm?authuser=0",
+    narrative: `<p>Cet ensemble d'objets, exposé au Musée d'Archéologie de Catalogne à Barcelone, présente un échantillon fascinant de la culture matérielle de l'époque grecque classique. On y distingue principalement une série de lécythes à figures noires, de petits vases à huile parfumée ou à onguents, caractérisés par leur silhouette élancée et leurs décors narratifs. Ces objets étaient essentiels tant dans la vie quotidienne, pour les soins du corps, que dans les rituels funéraires où ils étaient déposés en offrande pour accompagner les défunts.</p>
+    <p>Parmi les pièces remarquables, on observe également des figurines zoomorphes en terre cuite, notamment une représentation de bovidé et de petits porcs, ainsi que des flacons en pâte de verre colorée (aryballes ou amphorisques en verre moulé sur noyau). Ces éléments illustrent la diversité des techniques artisanales de l'époque et l'importance des échanges commerciaux en Méditerranée occidentale. Les figurines animales avaient souvent une valeur symbolique ou religieuse, pouvant servir d'ex-voto déposés dans des sanctuaires pour s'attirer les faveurs divines.</p>
+    <p>La présence de ces objets en Catalogne témoigne de l'influence profonde des colonies grecques, comme Empúries (Emporion), sur les populations ibériques locales. Les décors peints sur les vases, bien que de petite dimension, reprennent des scènes de la mythologie ou de la vie sociale grecque, diffusant ainsi des modèles esthétiques et culturels à travers toute la péninsule. La finesse des détails et la variété des formes présentées dans cette vitrine soulignent le haut degré de spécialisation des ateliers de potiers et de verriers.</p>
+    <p>Cet ensemble permet de reconstituer une partie de l'univers domestique et spirituel des anciens habitants de la région. En observant ces objets, on saisit la place centrale que tenait l'esthétique dans les objets les plus simples, témoignant d'une histoire féconde d'échanges et de croyances qui a façonné l'identité culturelle de la Catalogne antique.</p>
+    <p><strong>Siècle :</strong> Ve siècle av. J.-C. | <strong>Civilisation :</strong> Grèce antique (Monde colonial / Ibérie) | <strong>Sous-partie :</strong> Mobilier funéraire et céramique grecque (MAC Barcelone).</p>`
+  },
+  {
+    id: "ceramique_loutrophore_peintre_analatos_apobate_danse_louvre",
+    civId: "grece",
+    periodId: "grece_archaique",
+    civName: "Grèce antique",
+    century: "Début du VIIe siècle av. J.-C. (vers 700–680 av. J.-C.)",
+    centuryDisplay: "VIIe s. av. J.-C.",
+    centuryNumeric: -690,
+    domain: "ceramique",
+    artifactType: "Loutrophore",
+    title: "Loutrophore protoattique du Peintre d'Analatos : ronde dansée et course d'apobates (Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Athènes (Attique)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités grecques, étrusques et romaines)",
+    category: "Loutrophore protoattique à anses ajourées, figures noires précoces et incisions",
+    isHighlight: true,
+    chips: ["VIIe s. av. J.-C.", "Grèce antique", "Période orientalisante", "Protoattique", "Athènes", "Loutrophore", "Peintre d'Analatos", "Apobate", "Danse rituelle", "Anses ajourées", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPs_FT6LMVbEYOO_CWIi76HH1tmddVFa4X1-L1AgiPXRaROEN2_49jmQghLUTPIHbp5bIZQrwvXFakgLEU0gs77WNaN-BWK1qmlIwXCozR4bR7s0pwSoPOE4p5N62odRECD6ca-kdXCFOu6UrhE0xk9GA=w1705-h2264-s-no-gm?authuser=0",
+    narrative: `<p>Cette loutrophore, œuvre éponyme du Peintre d’Analatos, marque une étape charnière de l’histoire de l’art grec : le passage du style géométrique à la période orientalisante (style protoattique). Ce vase de prestige, destiné aux rituels nuptiaux ou funéraires athéniens, se distingue par une silhouette élancée et un col particulièrement haut, flanqué d'anses ajourées d'une grande finesse. L’artiste y déploie une technique mixte alliant la silhouette héritée du VIIIe siècle à l’incision et aux rehauts de peinture, témoignant d'une volonté nouvelle de donner vie et souplesse aux formes. La lèvre du vase, délicatement ondulée, couronne une structure dont chaque zone est exploitée pour une narration visuelle dense et rigoureusement étagée.</p>
+    <p>Le col du vase est le théâtre d'une scène de danse circulaire, où des figures masculines et féminines alternent en se tenant par la main. Le Peintre d'Analatos y introduit une élégance inédite : les chevelures sont plus détaillées, les tailles plus cintrées et les mouvements plus fluides que dans le style géométrique pur. Au-dessus de ce cortège, une frise de fleurs de lotus stylisées et de rosettes annonce l'influence croissante des motifs végétaux venus du Proche-Orient. Les anses, avec leurs perforations délicates, soulignent la technicité du potier qui a su préserver la stabilité de l'objet malgré la complexité de sa paroi.</p>
+    <p>La panse du vase est occupée par un registre spectaculaire représentant un défilé de chars, ou apobate. Les chevaux, aux jambes nerveuses et aux cols arqués, sont représentés avec une vitalité nouvelle, tandis que les roues des chars apportent une dynamique géométrique à l'ensemble. Sous cette scène principale, une frise de chiens poursuivant un lièvre complète le programme iconographique. La base de la loutrophore est ornée de godrons et de dents de loup, ancrant l'objet dans une tradition décorative solide. Par cette œuvre majeure, le Peintre d'Analatos s'impose comme le premier grand maître identifié de la céramique attique, fusionnant l'ordre géométrique ancien et la liberté nouvelle du début du VIIe siècle.</p>
+    <p><strong>Siècle :</strong> Début du VIIe siècle av. J.-C. (vers -700 / -680) | <strong>Civilisation :</strong> Grèce antique (Période orientalisante / Protoattique) | <strong>Sous-partie :</strong> Céramique protoattique (Musée du Louvre).</p>`
+  },
+  {
+    id: "ceramique_loutrophore_monumentale_apulienne_naiskos_tarente_louvre",
+    civId: "grece",
+    periodId: "grece_classique",
+    civName: "Grèce antique",
+    century: "IVe siècle avant J.-C. (vers 340–330 av. J.-C.)",
+    centuryDisplay: "IVe s. av. J.-C.",
+    centuryNumeric: -335,
+    domain: "ceramique",
+    artifactType: "Loutrophore",
+    title: "Loutrophore apulienne monumentale de style orné : naïskos héroïque et anses à volutes (Tarente / Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Tarente (Taras, Grande-Grèce, Italie du Sud)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités grecques, étrusques et romaines)",
+    category: "Loutrophore monumentale apulienne à figures rouges, rehauts polychromes et anses à volutes",
+    isHighlight: true,
+    chips: ["IVe s. av. J.-C.", "Grande-Grèce", "Apulie", "Tarente", "Loutrophore", "Style Orné", "Naïskos", "Horror vacui", "Rites funéraires", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNGnOdwdnaJ9zr1-oiF5aVoWD5T-6stxaQ0kq_R4dZeIJyu31MqZ6LOS3IcjT4foAUtEcY9m5YcOiWGYKmmDEU3PZky_jVUmhRPEIMcQ-p79lweZDczQn1OKKnFRd3_MuTQeGcKdGEtHeKrxbqgC5Aqig=w1705-h2264-s-no-gm?authuser=0",
+    narrative: `<p>Cette loutrophore monumentale à figures rouges, datée du IVe siècle avant J.-C. (vers 340-330 av. J.-C.), est un exemple exceptionnel de la céramique apulienne, produite à Tarente (Taras), en Grande-Grèce. La loutrophore est traditionnellement un vase destiné à contenir l'eau du bain nuptial ou utilisé lors des rites funéraires pour les célibataires, mais cette pièce, par ses dimensions imposantes et la richesse foisonnante de son décor, était manifestement destinée à un usage ostentatoire comme offrande funéraire de grand prestige. Elle illustre l'apogée du « style orné » apulien, caractérisé par une profusion de détails, l'utilisation de couleurs additionnelles et une composition complexe sur plusieurs registres.</p>
+    <p>La scène centrale présente une réunion héroïque sous un édicule (un petit temple ou naïskos). À l'intérieur de cette structure architecturale peinte en blanc pour imiter le marbre, un personnage masculin est assis, entouré de figures féminines et de compagnons. La composition est foisonnante : on observe des divinités, des Éros ailés voltigeant entre les personnages, et une multitude d'objets votifs (miroirs, patères, guirlandes) qui comblent les espaces vides, une esthétique typique de l'horreur du vide propre à l'art sud-italien. Les personnages sont représentés avec des drapés sophistiqués et des bijoux rehaussés de blanc et de jaune pour simuler l'éclat de l'or.</p>
+    <p>L'architecture du vase est particulièrement travaillée. Le col allongé est orné de motifs végétaux luxuriants, notamment des rinceaux d'acanthe et des fleurs de lotus d'où émergent des visages féminins. Les anses sont constituées de volutes complexes ornées de masques de divinités ou de Gorgones, ajoutant à la verticalité et à la majesté de l'objet. Le pied du vase, haut et mouluré, assure la stabilité de cette pièce dont la panse ovoïde offre une surface de narration maximale. Le contraste entre le noir profond du vernis et l'orange de l'argile, accentué par les rehauts polychromes, crée un effet visuel saisissant.</p>
+    <p>Cette loutrophore témoigne des échanges culturels entre le monde grec et les populations locales d'Italie du Sud. Les thèmes représentés, souvent liés au passage vers l'au-delà ou à la glorification du défunt, reflètent les préoccupations spirituelles et sociales de l'aristocratie tarentine. La virtuosité du peintre, qui parvient à maintenir une clarté narrative malgré l'accumulation de détails, fait de ce vase l'un des chefs-d'œuvre de la collection de céramiques antiques du Louvre.</p>
+    <p><strong>Siècle :</strong> IVe siècle av. J.-C. (vers -340 / -330) | <strong>Civilisation :</strong> Grande-Grèce (Apulie / Tarente) | <strong>Sous-partie :</strong> Céramique apulienne à figures rouges (Musée du Louvre).</p>`
+  },
+  {
+    id: "ceramique_oenochoe_trilobee_beotienne_lutteurs_echassiers_louvre",
+    civId: "grece",
+    periodId: "grece_geometrique",
+    civName: "Grèce antique",
+    century: "Fin du VIIIe siècle av. J.-C. (vers 720–700 av. J.-C.)",
+    centuryDisplay: "VIIIe s. av. J.-C.",
+    centuryNumeric: -720,
+    domain: "ceramique",
+    artifactType: "Oenochoé",
+    title: "Œnochoé géométrique béotienne : combat de lutteurs et frise d'échassiers (Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Thèbes (Béotie, Grèce)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités grecques, étrusques et romaines)",
+    category: "Œnochoé à panse globulaire et embouchure trilobée en terre cuite peinte (style géométrique récent)",
+    isHighlight: false,
+    chips: ["VIIIe s. av. J.-C.", "Grèce antique", "Époque géométrique", "Béotie", "Thèbes", "Oenochoé", "Trilobée", "Lutteurs", "Échassiers", "Horror vacui", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMEaec7BzmChuJGL3v8mmJ0TDGtjrj8KiC6VdqalLc5EhW5df-Zw9GC4hPV2Z8-bdZ3PkmNyJBZHUBXHC95ATUOnTHgxFKfT1DOHV4M1braorLaPjQxIxg2SQ4IYI9GsEYXjLYt6HOGbuW1655FSzjDRg=w1705-h2264-s-no-gm?authuser=0",
+    narrative: `<p>Cette œnochoé béotienne à panse globulaire et col haut est une pièce maîtresse de la céramique géométrique récente, illustrant la transition vers des décors figurés plus complexes. Le vase présente une embouchure trilobée, conçue pour faciliter le versement précis du vin, et une anse rubanée reliant la lèvre à l'épaule. La structure est harmonieuse, avec un col cylindrique bien dégagé d'un corps volumineux qui repose sur une base étroite. L'objet témoigne d'une grande maîtrise technique, tant dans la forme que dans la préparation du vernis sombre appliqué sur l'argile orangée de Thèbes.</p>
+    <p>Le décor est organisé en registres horizontaux rigoureux, mais se distingue par deux panneaux narratifs d'une grande importance iconographique. Sur le col, un métope central encadré de bandes verticales présente deux personnages masculins affrontés, traités en silhouette noire. Ils semblent engagés dans une lutte ou une danse rituelle, leurs bras entrelacés formant un motif géométrique dynamique. Sur l'épaule du vase, un second registre figure une file d'oiseaux aquatiques (échassiers), dont les corps sont ornés de hachures, marchant vers la droite. Ces motifs animaliers sont caractéristiques du style béotien de la fin du VIIIe siècle avant J.-C.</p>
+    <p>La partie inférieure de la panse est richement ornée de motifs purement géométriques. On y observe une large frise de cercles concentriques reliés entre eux, surmontant des registres de zigzags, de dents de loup et de damiers. Ce foisonnement décoratif sature la surface du vase selon le principe de l'horror vacui. La précision du tracé, probablement réalisé à l'aide d'un compas multiple pour les cercles, souligne l'exigence esthétique des ateliers thébains. Ce vase n'est pas seulement un récipient de banquet, mais un support narratif où l'humain commence à reprendre une place centrale dans l'art grec après des siècles d'abstraction géométrique.</p>
+    <p><strong>Siècle :</strong> Fin du VIIIe siècle av. J.-C. (vers -720 / -700) | <strong>Civilisation :</strong> Grèce antique (Époque géométrique) | <strong>Sous-partie :</strong> Céramique géométrique béotienne (Musée du Louvre).</p>`
+  },
+  {
+    id: "ceramique_oenochoe_trilobee_attique_geometrique_prothesis_louvre",
+    civId: "grece",
+    periodId: "grece_geometrique",
+    civName: "Grèce antique",
+    century: "Fin du VIIIe siècle av. J.-C. (vers 730–720 av. J.-C.)",
+    centuryDisplay: "VIIIe s. av. J.-C.",
+    centuryNumeric: -725,
+    domain: "ceramique",
+    artifactType: "Oenochoé",
+    title: "Œnochoé géométrique attique : exposition funéraire du défunt (prothesis) et pleureuses (Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Athènes (Attique)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités grecques, étrusques et romaines)",
+    category: "Œnochoé funéraire à embouchure trilobée en terre cuite attique (style géométrique récent)",
+    isHighlight: true,
+    chips: ["VIIIe s. av. J.-C.", "Grèce antique", "Époque géométrique", "Athènes", "Oenochoé", "Trilobée", "Prothesis", "Pleureuses", "Rites funéraires", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNotzIN4QC3jPTATB-CwdknwALd0JLJRrVj2muGt0Pg0OzQ-4J3FhQxkkSv14SymRT3zhTti2c9PrUyrNh7WPezHS86dnMTr9mUGofuEpXokeEUCdGkxm2LLdl1psQghrNPsCgHg1UZ1qfS8ZaqePXNTg=w1705-h2264-s-no-gm?authuser=0",
+    narrative: `<p>Cette œnochoé attique, datant de la fin de la période géométrique (Géométrique Récent), présente une panse globulaire surmontée d'un col haut et d'une embouchure trilobée caractéristique. Sa silhouette robuste et sa base étroite témoignent du savoir-faire des potiers athéniens du dernier quart du VIIIe siècle avant J.-C. L'objet est entièrement recouvert d'un décor peint au vernis sombre sur l'argile claire, organisé en registres horizontaux qui épousent la courbure du vase. La structure décorative est particulièrement dense, illustrant la volonté de l'artiste de ne laisser aucun espace vide, une esthétique propre à cette époque de transition.</p>
+    <p>Le col du vase est orné d'une frise de figures féminines stylisées, des pleureuses rituelles, les bras levés vers la tête dans un geste de déploration codifié. Sur l'épaule, on observe une série de motifs de triangles et de chevrons hachurés, qui créent une transition dynamique vers le registre principal de la panse. Ce registre central est d'une importance narrative majeure : il représente une scène de prothesis (exposition solennelle du corps du défunt). On y distingue le lit funéraire (kliné) sur lequel repose le corps, entouré de personnages en silhouette aux bustes triangulaires participant au deuil collectif.</p>
+    <p>La partie inférieure de la panse est rythmée par des bandes de zigzags et des filets horizontaux qui stabilisent visuellement l'ensemble. L'utilisation de motifs géométriques simples pour combler les espaces entre les personnages (losanges, points, zigzags) renforce l'unité stylistique de la pièce. Cette œnochoé n'était pas un simple récipient pour servir le vin, mais un objet de prestige étroitement lié aux pratiques funéraires de l'aristocratie athénienne, servant à la fois d'offrande dans la tombe et de témoignage de la piété familiale.</p>
+    <p><strong>Siècle :</strong> Fin du VIIIe siècle av. J.-C. (vers -730 / -720) | <strong>Civilisation :</strong> Grèce antique (Époque géométrique) | <strong>Sous-partie :</strong> Céramique géométrique attique (Musée du Louvre).</p>`
+  },
+  {
+    id: "ceramique_oenochoe_peintre_gela_figures_noires_louvre",
+    civId: "grece",
+    periodId: "grece_archaique",
+    civName: "Grèce antique",
+    century: "Tournant des VIe et Ve siècles av. J.-C. (vers 500 av. J.-C.)",
+    centuryDisplay: "VIe-Ve s. av. J.-C.",
+    centuryNumeric: -500,
+    domain: "ceramique",
+    artifactType: "Oenochoé",
+    title: "Œnochoé attique à figures noires par le Peintre de Géla : scène animée et branches stylisées (Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Athènes (Attique)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités grecques, étrusques et romaines)",
+    category: "Œnochoé à embouchure trilobée en terre cuite attique à figures noires",
+    isHighlight: false,
+    chips: ["VIe s. av. J.-C.", "Ve s. av. J.-C.", "Grèce antique", "Époque archaïque", "Athènes", "Oenochoé", "Figures noires", "Peintre de Géla", "Banquet", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOpH9sLSIVVKJmzds6TTp63AyUnmKdKdprB2K8YXrB1ZKL85j9ObVgN6LcoKpXg2-yWxZLh8KCGs5x3EufsszEN9wt3-1RqV176jF1EkiSff1hrEKLUOtSAdZUFeYeBtmh5fk9k4OQPFEcZ8_Ga45ONqA=w1705-h2264-s-no-gm?authuser=0",
+    narrative: `<p>Cette œnochoé à figures noires, attribuée au Peintre de Géla, constitue un témoignage remarquable de la production céramique athénienne à la charnière des VIe et Ve siècles avant notre ère. Ce vase, destiné au service du vin lors du banquet, se distingue par une panse ovoïde robuste et un col s'élargissant vers une embouchure trilobée. L'œuvre illustre la persistance et la maîtrise de la technique à figures noires à une époque où la figure rouge commence à dominer le marché athénien. Le Peintre de Géla, dont le nom de convention provient de ses nombreuses exportations vers la Sicile, se spécialise ici dans une composition dynamique où l'utilisation de rehauts de blanc et de traits incisés apporte une précision graphique aux muscles et aux drapés des personnages.</p>
+    <p>La scène figurée sur la panse déploie une narration animée, caractéristique du style narratif de l'époque archaïque tardive. On y observe plusieurs silhouettes masculines évoluant dans un décor suggéré par des éléments végétaux stylisés, tels que des branches ponctuées de points simulant des feuilles ou des fruits. Le registre iconographique est souligné à sa base par une frise de méandres grecs, un motif géométrique classique qui assure la transition visuelle entre la scène historiée et le pied du vase laissé au vernis noir.</p>
+    <p>Le traitement des postures, avec des jambes de profil et des bustes de trois-quarts, témoigne des recherches sur le mouvement propres à cette génération d'artistes qui cherchent à rompre avec la rigidité des périodes antérieures tout en conservant les codes traditionnels du dessin à la silhouette.</p>
+    <p><strong>Siècle :</strong> Tournant des VIe-Ve siècles av. J.-C. (vers -500) | <strong>Civilisation :</strong> Grèce antique (Époque archaïque tardive) | <strong>Sous-partie :</strong> Céramique attique à figures noires (Musée du Louvre).</p>`
+  },
+  {
+    id: "ceramique_oenochoe_peintre_bruxelles_athlete_figures_rouges_louvre",
+    civId: "grece",
+    periodId: "grece_classique",
+    civName: "Grèce antique",
+    century: "Vers 450 avant J.-C. (milieu du Ve siècle av. J.-C.)",
+    centuryDisplay: "Ve s. av. J.-C.",
+    centuryNumeric: -450,
+    domain: "ceramique",
+    artifactType: "Oenochoé",
+    title: "Œnochoé attique à figures rouges : jeune athlète par le Peintre des œnochoés de Bruxelles (Nola / Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Athènes (Attique) / découvert à Nola (Campanie, Italie)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités grecques, étrusques et romaines)",
+    category: "Œnochoé à embouchure trilobée en terre cuite attique à figures rouges",
+    isHighlight: true,
+    chips: ["Ve s. av. J.-C.", "Grèce antique", "Époque classique", "Athènes", "Nola", "Campanie", "Oenochoé", "Figures rouges", "Athlète", "Peintre de Bruxelles", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOEFDy8gTYYwKNUAsOvD4e8-lUTvpuUeaenyUuIB-YSFEVEc91M3Lo6E_VGopgd0lt_XGvUKUE--AUk4fRjtOThxjos0MJE5Ggt5-f5sAkbUktUU-XVqGSSPWaSiiUDHXRcflhyJwcbfXjSS9GA6ChtuA=w1705-h2264-s-no-gm?authuser=0",
+    narrative: `<p>Cette œnochoé à figures rouges, produite à Athènes vers 450 av. J.-C., est attribuée au Peintre des œnochoés de Bruxelles. Le vase présente une silhouette élégante avec une embouchure trilobée et une anse haute qui s'élève au-dessus du col, une forme typique destinée au service du vin lors des banquets. L'esthétique de cette pièce repose sur un contraste saisissant : le corps du vase est entièrement recouvert d'un vernis noir profond et brillant, laissant la figure humaine se détacher dans la couleur naturelle de l'argile orangée. Cette technique permet ici une grande finesse dans le rendu des détails anatomiques et du mouvement.</p>
+    <p>Le décor iconographique représente un jeune athlète nu, saisi en pleine action, probablement un lanceur de javelot ou un coureur. La posture est particulièrement dynamique, avec le buste de trois-quarts et les jambes de profil, illustrant la maîtrise de la représentation du corps humain dans l'art grec de la période classique. Le peintre a utilisé des lignes de contour précises et des traits internes fins pour suggérer la musculature du dos et des membres. L'absence de décor secondaire ou de frises décoratives sur la panse concentre toute l'attention sur cette figure isolée, conférant à l'œuvre une sobriété et une force plastique caractéristiques du milieu du Ve siècle.</p>
+    <p>L'objet a été découvert à Nola, en Italie, ce qui témoigne de l'importance des exportations de céramiques athéniennes vers les cités de Campanie et d'Étrurie, où ces vases étaient très prisés par les élites locales, tant pour l'usage quotidien que pour les dépôts funéraires de prestige.</p>
+    <p><strong>Siècle :</strong> Ve siècle av. J.-C. (vers -450) | <strong>Civilisation :</strong> Grèce antique (Époque classique) | <strong>Sous-partie :</strong> Céramique attique à figures rouges (Musée du Louvre).</p>`
+  },
+  {
+    id: "ceramique_oenochoe_peintre_kraipale_sacrifice_autel_louvre",
+    civId: "grece",
+    periodId: "grece_classique",
+    civName: "Grèce antique",
+    century: "Troisième quart du Ve siècle av. J.-C. (vers 440–430 av. J.-C.)",
+    centuryDisplay: "Ve s. av. J.-C.",
+    centuryNumeric: -435,
+    domain: "ceramique",
+    artifactType: "Oenochoé",
+    title: "Œnochoé attique à figures rouges : sacrifice rituel à l'autel par le Peintre de Kraipalé (Vulci / Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Athènes (Attique) / découvert à Vulci (Étrurie, Italie)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités grecques, étrusques et romaines)",
+    category: "Œnochoé à embouchure tréflée en terre cuite attique à figures rouges",
+    isHighlight: true,
+    chips: ["Ve s. av. J.-C.", "Grèce antique", "Époque classique", "Athènes", "Vulci", "Étrurie", "Oenochoé", "Figures rouges", "Sacrifice", "Autel", "Obéloi", "Peintre de Kraipalé", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOLwDGNNFEDPt25fHzuauP4BleEbU3vKA7KxLHOaVY9Td66nSMNyRs5dnyiCei6MU8AIWQyThRGt2XMi8ZyZO5EFLUImrmrKBoqqlU3D7PL7hQG-tpF7-TfOYtWjmEOLDzNyxswRSDkP-tLON5u1LuQow=w1705-h2264-s-no-gm?authuser=0",
+    narrative: `<p>Cette œnochoé (cruche à vin) en terre cuite, datant du troisième quart du Ve siècle avant J.-C., est une œuvre majeure attribuée au Peintre de Kraipalé. Réalisée à Athènes, elle utilise la technique de la figure rouge, qui permet une grande précision dans le rendu des détails anatomiques et des expressions. Ce vase est particulièrement célèbre pour sa scène iconographique rare et vivante, illustrant un aspect fondamental de la culture grecque : le rituel religieux lié au sacrifice civique.</p>
+    <p>La scène centrale représente une cérémonie de sacrifice devant un autel. On y voit un officiant, la tête couronnée de lauriers, versant une libation à l'aide d'une patère au-dessus des flammes qui s'élèvent de l'autel. À ses côtés, un jeune serviteur ou un assistant manipule des broches à viande (obéloi), préparant ainsi la part des dieux et celle des hommes. Le dessin du Peintre de Kraipalé se distingue par une élégance sobre et une maîtrise du trait qui confèrent à cette scène sacrée une solennité tranquille. Les personnages sont vêtus de drapés légers dont les plis épousent les mouvements, témoignant du style classique de l'époque de Périclès.</p>
+    <p>L'objet a été découvert à Vulci, en Étrurie, sur les terres du prince de Canino. Sa présence dans une tombe étrusque souligne l'ampleur des exportations de céramique athénienne vers l'Italie. Les Étrusques étaient en effet les plus grands admirateurs et collectionneurs de la production attique, utilisant ces vases aussi bien pour leurs banquets que pour accompagner leurs défunts dans l'au-delà.</p>
+    <p>Cette pièce incarne la perfection technique des ateliers du Céramique à Athènes. Elle constitue un document historique précieux sur les gestes du rite. La finesse des frises ornementales (languettes au col et méandres à la base) encadre la scène avec une rigueur géométrique qui met en valeur le dynamisme des figures rouges sur le fond de vernis noir brillant.</p>
+    <p><strong>Siècle :</strong> Ve siècle av. J.-C. (vers -440 / -430) | <strong>Civilisation :</strong> Grèce antique (Époque classique) | <strong>Sous-partie :</strong> Céramique attique à figures rouges (Musée du Louvre).</p>`
+  },
+  {
+    id: "ceramique_oenochoe_anthropomorphe_buste_femme_empuries",
+    civId: "grece",
+    periodId: "grece_classique",
+    civName: "Grèce antique",
+    century: "Ve siècle avant notre ère",
+    centuryDisplay: "Ve s. av. J.-C.",
+    centuryNumeric: -450,
+    domain: "ceramique",
+    artifactType: "Oenochoé",
+    title: "Œnochoé anthropomorphe en buste de femme à embouchure tréflée (Musée d'Empúries)",
+    site: "Musée d'archéologie de Catalogne - Empúries (Espagne)",
+    originSite: "Emporion (Empúries, Catalogne)",
+    locationType: "museum",
+    currentLocation: "Musée d'archéologie de Catalogne - Empúries (Espagne)",
+    category: "Vase plastique et œnochoé anthropomorphe en terre cuite à rehauts de vernis",
+    isHighlight: true,
+    chips: ["Ve s. av. J.-C.", "Grèce antique", "Époque classique", "Empúries", "Emporion", "Catalogne", "Oenochoé", "Vase plastique", "Anthropomorphe", "Tête féminine", "Musée d'Empúries"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOJ6ctLiYOADzWa93_ioC1uHWFesAJb1v4ZzVkYcfeM__aJw5dzCWZxhRGBWb0Ii9VeJCkh8Luo2TKA6isjlEUKp_CXe5x0Q0vlxsutwIywzNIPyOlUvgKH-hd32zC_VdD5XiMr-YA50t0hCYsDjRrc3Q=w1705-h1136-s-no-gm?authuser=0",
+    narrative: `<p>Cette magnifique œnochoé (cruche à vin) anthropomorphe, provenant des fouilles de la cité d'Empúries, est un exemple saisissant de l'union entre la sculpture et la céramique utilitaire à l'époque classique. Le récipient adopte la forme d'une tête féminine délicatement modelée, surmontée d'un col haut se terminant par une embouchure tréflée caractéristique, destinée à verser le vin lors des banquets. Ce type de vase plastique témoigne d'une recherche esthétique poussée, où l'objet ne se contente plus d'être fonctionnel, mais devient une véritable œuvre d'art capable de surprendre et de charmer les convives.</p>
+    <p>Le visage présente les traits caractéristiques de l'art grec du Ve siècle : des yeux en amande soulignés d'un trait sombre, un nez droit et une bouche esquissant un léger sourire serein. La coiffure est particulièrement travaillée, avec une rangée de petites perles ou de boucles régulières ceignant le front, tandis que le reste de la chevelure est traité par une zone sombre qui rejoint le vernis noir du col. L'utilisation de rehauts colorés pour la peau et les détails du visage confère à la pièce une vivacité et une présence humaine remarquables, typiques de la production de vases à têtes qui circulaient alors dans toute la Méditerranée.</p>
+    <p>À Emporion, la possession d'une telle œnochoé marquait l'appartenance à une élite cultivée, familière des codes du symposion et des courants artistiques les plus en vogue en Grèce propre ou en Grande-Grèce. Ce vase n'était pas seulement utilisé pour le service du vin, il participait également à la décoration de la demeure et pouvait être offert en cadeau de prestige ou déposé dans une tombe pour honorer le défunt. Sa découverte souligne une fois de plus le rôle de carrefour culturel joué par Empúries.</p>
+    <p><strong>Siècle :</strong> Ve siècle av. J.-C. | <strong>Civilisation :</strong> Grèce antique (Monde colonial / Catalogne) | <strong>Sous-partie :</strong> Vase plastique et œnochoé anthropomorphe (Empúries).</p>`
+  },
+  {
+    id: "ceramique_pithos_relief_cretois_cavaliers_sphinx_afrati_louvre",
+    civId: "grece",
+    periodId: "grece_archaique",
+    civName: "Grèce antique",
+    century: "VIIe siècle avant J.-C. (vers 650–625 av. J.-C.)",
+    centuryDisplay: "VIIe s. av. J.-C.",
+    centuryNumeric: -640,
+    domain: "ceramique",
+    artifactType: "Pithos / Jarre",
+    title: "Pithos crétois à reliefs estampés : cavaliers, sphinx et griffons orientalisants (Afrati / Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Arcades / Afrati (Crète centrale)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités grecques, étrusques et romaines)",
+    category: "Pithos monumental en terre cuite à décors en relief estampés et incisés",
+    isHighlight: true,
+    chips: ["VIIe s. av. J.-C.", "Grèce antique", "Crète", "Période orientalisante", "Pithos / Jarre", "Reliefs estampés", "Cavaliers", "Sphinx", "Griffons", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPndCi1MHipd9fscgPQl5ST0yhwbCzRRR-YImNX8zVN5ZD_HbM9nj17ru9Zz4QZfS_KWuyLAMVnp0afa2nC7SX1dvfAysxHu5tkWRFVKKGy7t5B636tB4J6kfPxo76rQj4O4FEJNYZ9P7wRrT8wBmog_Q=w1705-h2264-s-no-gm?authuser=0",
+    narrative: `<p>Ce pithos à relief représente un jalon majeur de la production céramique crétoise de la période archaïque. Sa structure massive, caractérisée par une embouchure large et un corps ovoïde s'affinant vers une base étroite, témoigne d'une maîtrise technique avancée dans le façonnage de récipients de grand format. L'argile, d'une teinte ocre typique des ateliers de la région d'Arcades (actuelle Afrati), sert de support à un programme iconographique complexe où la plasticité du relief remplace la peinture habituelle. La syntaxe décorative est rigoureusement organisée en registres superposés, délimités par des cordons en saillie et des frises de rosettes ou de pastilles estampées qui accentuent la monumentalité de l'objet.</p>
+    <p>Le décor figuratif se concentre sur les zones de plus grande visibilité, notamment le col et l'épaule du vase. On y distingue des métopes ornées de motifs animaliers et mythologiques, parmi lesquels figurent des chevaux au galop et des créatures fantastiques comme des sphinx ou des griffons. Ces figures sont traitées avec une vigueur stylistique propre au style orientalisant : les corps sont puissants, les muscles suggérés par des incisions nettes, et les membres allongés confèrent une impression de mouvement contenu. L'utilisation de matrices pour frapper les motifs dans l'argile fraîche permet une répétition rythmée des scènes, créant une narration cyclique qui fait le tour du récipient.</p>
+    <p>La partie inférieure du pithos délaisse la figuration pour un répertoire ornemental plus géométrique. Des motifs d'ondes incisées, des chevrons et des lignes brisées occupent les registres bas, assurant une transition visuelle vers le pied du vase. Les anses, larges et plates, sont solidement arrimées au col et à l'épaule. Ce type de vase, au-delà de sa fonction de stockage pour l'huile ou le grain, revêtait souvent une dimension prestigieuse, servant de marqueur social dans les contextes aristocratiques ou de réceptacle sacré dans les nécropoles de Crète centrale.</p>
+    <p><strong>Siècle :</strong> VIIe siècle av. J.-C. (vers -650 / -625) | <strong>Civilisation :</strong> Grèce antique (Crète archaïque / Période orientalisante) | <strong>Sous-partie :</strong> Pithos crétois à reliefs (Musée du Louvre).</p>`
+  },
+  {
+    id: "ceramique_pyxis_geometrique_couvercle_deux_chevaux_louvre",
+    civId: "grece",
+    periodId: "grece_geometrique",
+    civName: "Grèce antique",
+    century: "Milieu du VIIIe siècle av. J.-C. (vers 760–740 av. J.-C.)",
+    centuryDisplay: "VIIIe s. av. J.-C.",
+    centuryNumeric: -750,
+    domain: "ceramique",
+    artifactType: "Pyxide / Boîte à couvercle",
+    title: "Pyxide géométrique attique à deux chevaux modelés en ronde-bosse sur le couvercle (Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Athènes (Attique)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités grecques, étrusques et romaines)",
+    category: "Pyxide circulaire et couvercle plastique à deux chevaux en terre cuite (style géométrique récent)",
+    isHighlight: true,
+    chips: ["VIIIe s. av. J.-C.", "Grèce antique", "Époque géométrique", "Athènes", "Pyxide", "Chevaux", "Ronde-bosse", "Hippeis", "Toilette aristocratique", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP44LimnXngMpB9ITL86Go5tEMo47KfrOQyl0_68bZevujf4yOyTj36-bsXWHysegzShwvVHFbc1ry3Cv6u5MZwBcNu7v-28epDje8ZDaEXdxblU-6IDO1hCMt2sS0jDr2DFEp_bfG9f4qQ2bPQ8iuUKQ=w1705-h2264-s-no-gm?authuser=0",
+    narrative: `<p>Cette pyxis est une boîte à bijoux ou à onguents typique du Géométrique Récent I, se distinguant par son couvercle convexe surmonté d'un groupe plastique de deux chevaux modelés en ronde-bosse à la main. La panse est basse et large, de forme circulaire, épousant parfaitement la courbe du couvercle pour former une unité quasi sphérique une fois fermée. La présence de chevaux sur le couvercle n'est pas seulement décorative ; elle agit comme un signe ostentatoire de la richesse et du rang social de la propriétaire, le cheval étant à Athènes l'attribut par excellence de l'aristocratie (la classe des hippeis ou chevaliers).</p>
+    <p>Le décor peint au vernis sombre sur l'argile orangée d'Athènes recouvre l'intégralité des surfaces visibles. Sur le couvercle, des registres de cercles concentriques et de dents de loup s'articulent autour de la base des chevaux. La panse est organisée en panneaux métopés, séparés par des groupes de lignes verticales. À l'intérieur de ces métopes, on identifie des motifs d'oiseaux aquatiques stylisés, des svastikas et des rosaces géométriques, entourés de hachures et de damiers. Cette compartimentation rigoureuse est caractéristique de la transition vers le style géométrique récent, où la narration commence à s'insérer dans des cadres strictement définis.</p>
+    <p>Les deux chevaux sont traités avec une schématisation élégante : corps allongés, encolures puissantes et têtes fines pointées vers l'avant, créant un dynamisme qui rompt avec la fixité de la boîte. Les traces de peinture sur leurs corps indiquent qu'ils étaient eux aussi intégrés à la polychromie globale de l'objet. Ce type de vase, souvent retrouvé dans des tombes féminines de l'aristocratie, souligne l'importance des rituels de parure et du prestige familial dans la société athénienne du milieu du VIIIe siècle avant J.-C.</p>
+    <p><strong>Siècle :</strong> Milieu du VIIIe siècle av. J.-C. (vers -760 / -740) | <strong>Civilisation :</strong> Grèce antique (Époque géométrique) | <strong>Sous-partie :</strong> Céramique géométrique attique (Musée du Louvre).</p>`
+  },
+  {
+    id: "ceramique_rhyton_tete_chien_peintre_brygos_aleria",
+    civId: "grece",
+    periodId: "grece_archaique",
+    civName: "Grèce antique",
+    century: "Vers 490 avant J.-C. (tournant des VIe et Ve siècles av. J.-C.)",
+    centuryDisplay: "Ve s. av. J.-C.",
+    centuryNumeric: -490,
+    domain: "ceramique",
+    artifactType: "Rhyton",
+    title: "Rhyton plastique en tête de chien (lévrier) par le Peintre de Brygos (Aléria, Musée Jérôme-Carcopino)",
+    site: "Musée départemental d'archéologie Jérôme-Carcopino (Aléria, Corse)",
+    originSite: "Athènes (Attique) / découvert dans la nécropole préromaine d'Aléria (Corse)",
+    locationType: "museum",
+    currentLocation: "Musée départemental d'archéologie Jérôme-Carcopino (Aléria, Corse)",
+    category: "Rhyton plastique en terre cuite attique à tête d'animal modelée et décor à figures rouges",
+    isHighlight: true,
+    chips: ["Ve s. av. J.-C.", "Grèce antique", "Athènes", "Aléria", "Corse", "Rhyton", "Vase plastique", "Peintre de Brygos", "Tête de chien", "Lévrier", "Figures rouges", "Musée d'Aléria"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOH_8c5ZfYef3w75kX6LhF7Jd1w26tDlxR8FtN94t04Dq5oso2Ko_ifFmah1IXF5cxN2w2VomCkjchLEmlXuLnWuOXo-LrtjNpSxw0UXNPrIhssAM2YBqTZwLRF_Q5fttbPQ0rJFoNaO2PdMeOE1lzT_g=w1600-h1200-s-no-gm?authuser=0",
+    narrative: `<p>Ce rhyton en forme de tête de chien est l'un des objets les plus insignes et raffinés du Musée départemental d'archéologie Jérôme-Carcopino d'Aléria. Découvert dans le mobilier funéraire d'une tombe princière de la nécropole, ce vase à boire et à libation est attribué au célèbre Peintre de Brygos, l'un des plus grands maîtres de la céramique attique à figures rouges, actif à Athènes entre 490 et 470 avant notre ère.</p>
+    <p>L'objet combine la virtuosité de la sculpture et de la peinture sur vase. La partie inférieure modélise avec un réalisme saisissant l'anatomie d'un chien, probablement un lévrier ou un chien de chasse aristocratique, avec son museau allongé, ses babines frémissantes, ses narines marquées et ses yeux expressifs soulignés par le vernis noir brillant. Sur le col du vase, le peintre a exécuté une fine composition à figures rouges, caractéristique du style nerveux, raffiné et détaillé propre à l'atelier de Brygos.</p>
+    <p>Le rhyton est un vase rituel qui possède un petit orifice à l'extrémité du museau permettant de faire jaillir un filet de vin lors des cérémonies de libation ou des jeux du banquet. Sa présence à Aléria, tout comme celle des grands cratères attiques, démontre que les élites de Corse commandaient directement des pièces de grand luxe issues des meilleurs ateliers d'Athènes.</p>
+    <p>Cette œuvre témoigne de la sophistication du banquet à Aléria, où l'on utilisait des objets dont la forme thériomorphe ajoutait une dimension ludique et symbolique au rituel de la boisson. Le chien, fidèle compagnon de chasse et gardien héroïque, occupait une place de choix dans l'imaginaire des élites guerrières.</p>
+    <p><strong>Siècle :</strong> Vers 490 av. J.-C. (-490) | <strong>Civilisation :</strong> Grèce antique (Époque archaïque tardive / classique) | <strong>Sous-partie :</strong> Vase plastique et rhyton attique (Aléria, Corse).</p>`
+  },
+  {
+    id: "ceramique_stamnos_orientalisant_megara_hyblaea_selinonte_louvre",
+    civId: "grece",
+    periodId: "grece_archaique",
+    civName: "Grèce antique",
+    century: "VIIe siècle avant J.-C. (vers 650–625 av. J.-C.)",
+    centuryDisplay: "VIIe s. av. J.-C.",
+    centuryNumeric: -635,
+    domain: "ceramique",
+    artifactType: "Stamnos",
+    title: "Stamnos colonial sicéliote de style orientalisant : cortège rituel et fauves (Sélinonte / Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Mégara Hyblaea / Sélinonte (Sicile grecque)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités grecques, étrusques et romaines)",
+    category: "Stamnos en terre cuite sicéliote à décor peint orientalisant et guillochis",
+    isHighlight: true,
+    chips: ["VIIe s. av. J.-C.", "Grèce antique", "Grande-Grèce", "Sicile", "Mégara Hyblaea", "Sélinonte", "Stamnos", "Période orientalisante", "Guillochis", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMwnotNNuXlrEKhVgA8EjMEOdWSKHzNNiSLsKm7a1-q_uRRrnAk_pMRoYC4QxV6ebcNeN3W2isumksOkVHYeSm7n666s5au_FZB8Ww8KBC8MDuVuD38nwjdLzV59VvSH2QPxhvl3qfpci1UkhLG8Ffljg=w1705-h2264-s-no-gm?authuser=0",
+    narrative: `<p>Ce stamnos de style orientalisant constitue une pièce maîtresse de la production coloniale de Sicile, témoignant des échanges culturels intenses entre la métropole mégarienne et ses fondations insulaires. L’objet présente une silhouette globulaire généreuse, soutenue par un pied conique étroit, et flanquée de deux anses horizontales robustes. La surface de l'argile claire sert de support à une composition picturale ambitieuse, organisée en registres horizontaux qui structurent la narration et l'ornementation. Ce vase illustre parfaitement la transition entre la rigueur géométrique et l'influence des motifs venus du Proche-Orient, intégrés ici avec une sensibilité locale propre aux ateliers de Mégara Hyblaea.</p>
+    <p>Le registre principal déploie une scène figurative complexe mettant en scène des personnages à la silhouette longiforme, caractéristiques du dessin archaïque. On y distingue un cortège ou une scène rituelle où les figures, vêtues de tuniques longues aux détails incisés ou peints en rehauts sombres, semblent engagées dans une procession solennelle. Le traitement des visages et des chevelures, ainsi que la gestuelle marquée des bras, insufflent une vie captivante à la scène. L'espace entre les personnages est ponctué de motifs de remplissage, tels que des rosettes et des semis de points, destinés à enrichir la texture visuelle de la panse.</p>
+    <p>Au-dessus de cette scène, un registre supérieur présente une frise animalière dynamique où des fauves et des créatures fantastiques se succèdent, rappelant le répertoire des tissus orientaux. Sous la scène principale, le décor devient ornemental : une large bande de spirales entrelacées (guillochis) assure une transition fluide vers la partie basse ornée de triangles emboîtés et de dents de loup. L'ensemble de la pièce suggère une destination de prestige, liée à des pratiques aristocratiques de banquet ou à un usage funéraire solennel à Sélinonte.</p>
+    <p><strong>Siècle :</strong> VIIe siècle av. J.-C. (vers -650 / -625) | <strong>Civilisation :</strong> Sicile grecque / Grande-Grèce (Période orientalisante) | <strong>Sous-partie :</strong> Céramique coloniale sicéliote (Musée du Louvre).</p>`
+  },
+  {
+    id: "ceramique_vase_dionysos_nebride_thyrse_agrigente",
+    civId: "grece",
+    periodId: "grece_classique",
+    civName: "Grèce antique",
+    century: "Ve siècle avant notre ère (vers 450 av. J.-C.)",
+    centuryDisplay: "Ve s. av. J.-C.",
+    centuryNumeric: -450,
+    domain: "ceramique",
+    artifactType: "Vase",
+    title: "Vase attique à figures rouges : Dionysos vêtu de la nébride et tenant le thyrse (Musée d'Agrigente)",
+    site: "Musée archéologique régional Pietro Griffo (Agrigente, Sicile)",
+    originSite: "Akragas (Agrigente, Sicile)",
+    locationType: "museum",
+    currentLocation: "Musée archéologique régional Pietro Griffo (Agrigente, Sicile)",
+    category: "Vase en terre cuite attique à figures rouges",
+    isHighlight: false,
+    chips: ["Ve s. av. J.-C.", "Grèce antique", "Époque classique", "Agrigente", "Sicile", "Vase", "Figures rouges", "Dionysos", "Nébride", "Thyrse", "Musée d'Agrigente"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOPm0CywY0zhzON5jASFx3V3IVTFUMxYbRAn6jZqaVsC53CDZsfSzEhBYeg2pBvPPNWq0AO8sg4H6ILSmhAcShHOhhXjTrVI0sxTNm9vwCK6sQq2oHxjUxXbPu_sJffGS-v1AaVxtLSboVEXudU0_5Ofg=w1616-h2408-s-no-gm?authuser=0",
+    narrative: `<p>Ce vase attique à figures rouges du Ve siècle avant J.-C., conservé au Musée archéologique régional Pietro Griffo d'Agrigente, offre une saisissante représentation du dieu Dionysos ou d'un membre éminent de son cortège extatique (le thiasos). La silhouette masculine barbue s'avance d'un pas décidé sur le fond de vernis noir lustré, capturée dans toute la dignité et la solennité de l'art classique.</p>
+    <p>Le personnage est vêtu d'un chiton court finement plissé et porte sur les épaules une nébride (peau de félin ou de faon tachetée), attribut bacchique emblématique noué sur la poitrine. Il tient fermement de la main droite un long thyrse, sceptre végétal surmonté d'une pomme de pin qui affirme son autorité souveraine sur la procession religieuse. La précision du dessin classique met en valeur le drapé souple du vêtement et l'expression calme et puissante du visage divin.</p>
+    <p>Découverte sur le territoire de l'antique Akragas, cette pièce rappelle la ferveur des cultes dionysiaques et des mystères chthoniens dans les cités grecques de Sicile, où le vin était vénéré comme principe sacré de métamorphose et de régénération spirituelle.</p>
+    <p><strong>Siècle :</strong> Ve siècle av. J.-C. (vers -450) | <strong>Civilisation :</strong> Grèce antique (Époque classique) | <strong>Sous-partie :</strong> Céramique attique à figures rouges (Musée d'Agrigente).</p>`
+  },
+  {
+    id: "ceramique_vasque_cariatides_sybaris_louvre",
+    civId: "grece",
+    periodId: "grece_archaique",
+    civName: "Grèce antique",
+    century: "Vers 580 avant J.-C. (premier quart du VIe siècle av. J.-C.)",
+    centuryDisplay: "VIe s. av. J.-C.",
+    centuryNumeric: -580,
+    domain: "ceramique",
+    artifactType: "Calice",
+    title: "Vasque cérémonielle sur support à quatre cariatides archaïques (Sybaris / Musée du Louvre)",
+    site: "Musée du Louvre (Paris)",
+    originSite: "Sybaris (Calabre, Grande-Grèce)",
+    locationType: "museum",
+    currentLocation: "Musée du Louvre, Paris (Département des Antiquités grecques, étrusques et romaines)",
+    category: "Vasque cérémonielle en terre cuite sur pied architectural à quatre cariatides dédaliques",
+    isHighlight: true,
+    chips: ["VIe s. av. J.-C.", "Grande-Grèce", "Calabre", "Sybaris", "Calice", "Vasque", "Cariatides", "Style dédalique", "Péplos", "Musée du Louvre"],
+    deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
+    imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPPfmwq-LL2lOVteNWQKyDufKka9m7QaOTxL-uWshzRPY5QVl_CYITqw_EPeQLFuum9gkSWVgAnDhbDrcgiA01GEn38UjlGCfNilFhBfcVbKLOr16X48iNQHMXILuOICjWbYXyWYD2nqwpxiB8t33X-Bw=w1705-h2264-s-no-gm?authuser=0",
+    narrative: `<p>Cette vasque à cariatides, datée de 580 avant J.-C., est un exemple raffiné de la production artisanale de Sybaris, l'une des cités les plus prospères et légendaires de Grande-Grèce. L'objet se compose d'une coupe évasée, peu profonde, soutenue par un support anthropomorphe complexe. La structure repose sur quatre figures féminines stylisées, les cariatides, qui font office de montants verticaux. Ces figures sont reliées entre elles par des entretoises décoratives, créant un socle architectural aéré mais solide, capable de supporter le poids du récipient supérieur. L'argile utilisée présente une finesse caractéristique des ateliers de l'Italie du Sud à l'époque archaïque, permettant un travail de détail précis sur la plastique des corps et des visages.</p>
+    <p>Les cariatides sont représentées dans une attitude hiératique, les bras le long du corps ou légèrement repliés, vêtues du péplos archaïque dont les plis sont suggérés par des incisions verticales régulières. Leurs visages arborent le sourire archaïque et sont encadrés par des chevelures massives retombant en nattes perlées sur les épaules, un traitement qui rappelle l'influence des modèles dédaliques crétois et péloponnésiens sur les colonies grecques d'Occident. Entre les figures, des éléments de soutien en forme de tiges ou de motifs végétaux renforcent la stabilité de la pièce tout en enrichissant sa silhouette. La répétition de ces quatre supports crée une symétrie parfaite, invitant l'observateur à faire le tour de l'objet pour en apprécier la tridimensionnalité.</p>
+    <p>La vasque elle-même présente une lèvre simple et un intérieur lisse, contrastant avec la richesse plastique de son support. Ce type d'objet, à la frontière entre la vaisselle de banquet et l'objet rituel, était souvent utilisé pour des libations ou comme brûle-parfum lors de cérémonies religieuses ou dans des contextes funéraires de prestige. La finesse de l'exécution et l'équilibre des proportions témoignent du luxe réputé de Sybaris, où les arts décoratifs atteignirent un niveau d'élégance exceptionnel avant la destruction de la ville à la fin du VIe siècle. La préservation de tels supports complets est rarissime, faisant de cette pièce un document inestimable pour l'étude de la sculpture mineure en Grande-Grèce.</p>
+    <p><strong>Siècle :</strong> Vers 580 av. J.-C. (-580) | <strong>Civilisation :</strong> Grande-Grèce (Sybaris, Calabre) | <strong>Sous-partie :</strong> Vasque à cariatides dédaliques (Musée du Louvre).</p>`
+  },
+  {
     id: "ceramique_dinos_support_peintre_gorgone_persee_louvre",
     civId: "grece",
     periodId: "grece_archaique",
