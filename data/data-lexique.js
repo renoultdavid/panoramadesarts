@@ -1599,6 +1599,40 @@ window.ART_GLOSSARY = [
     category: "Histoire & Géopolitique antique",
     def: "Puissance politique, militaire et économique dont la souveraineté et la prospérité reposent principalement sur la maîtrise absolue des voies de communication et du commerce maritimes (ex. Cnossos minoenne, Athènes au Ve s., Alexandrie ptolémaïque).",
     patterns: ["thalassocratie", "thalassocraties", "thalassocratique"]
+  },
+  {
+    term: "Cottabe",
+    etymology: "Du grec ancien kóttabos (κότταβος)",
+    category: "Jeux & Banquet grec (symposion)",
+    def: "Jeu d'adresse très prisé lors des banquets grecs (symposia). Le convive couché sur sa kliné tient sa kylix (coupe à vin) par une anse et projette d'un geste sec du poignet les dernières gouttes de vin vers une cible (petit plateau métallique en équilibre ou coupelles flottantes) pour la faire sonner ou couler, souvent en prononçant le nom de l'être aimé.",
+    patterns: ["cottabe", "cottabes", "kottabos"]
+  },
+  {
+    term: "Polos",
+    etymology: "Du grec ancien pólos (πόλος), « pivot, voûte céleste »",
+    category: "Attributs divins & Coiffures antiques",
+    def: "Haute coiffe cylindrique ou tronconique portée dans l'art antique par les divinités féminines majeures de la fertilité, de la royauté et de la terre (notamment Héra, Déméter, Coré, Cybèle), symbolisant leur souveraineté céleste et leur autorité sacrée.",
+    patterns: ["polos"]
+  },
+  {
+    term: "Favissa",
+    etymology: "Du latin favissa (au pluriel favissae), fosse sacrée",
+    category: "Sanctuaires & Archéologie religieuse",
+    def: "Fosse ou silo rituel creusé dans l'enceinte d'un sanctuaire (téménos) pour y enfouir pieusement les offrandes votives, figurines, vaisselles et ex-voto devenus trop nombreux dans le temple. Ces objets consacrés appartenant aux dieux ne pouvaient être ni vendus ni détruits, ce qui a permis leur préservation archéologique intacte.",
+    patterns: ["favissa", "favissae"]
+  },
+  {
+    term: "Sophrosyne",
+    etymology: "Du grec ancien sôphrosúnê (σωφροσύνη), de sôs (« sain, intact ») et phrên (« esprit »)",
+    category: "Philosophie & Esthétique classique",
+    def: "Vertu cardinale de la pensée et de l'art grecs classiques désignant la modération, la maîtrise de soi, la retenue intérieure et la tempérance morale. Dans la sculpture du style sévère et classique, elle se traduit par des expressions calmes, dignes et sereines, exemptes de tout débordement émotionnel.",
+    patterns: ["sophrosyne", "sôphrosunê", "sophrosyné"]
+  },
+  {
+    term: "Hippeis",
+    etymology: "Du grec ancien hippeús (ἱππεύς), au pluriel hippeîs (ἱππεῖς), « cavalier, chevalier »",
+    category: "Société & Classes civiques grecques",
+    def: "Deuxième classe censitaire la plus riche des cités grecques archaïques (comme à Athènes après Solon). Constituée d'aristocrates assez prospères pour élever et entretenir un cheval de guerre, elle manifestait son rang élevé en consacrant des statuettes de chevaux et d'attelages en bronze dans les sanctuaires panhelléniques.",
+    patterns: ["hippeis", "hippeus", "chevaliers athéniens"]
   }
 ];
-
