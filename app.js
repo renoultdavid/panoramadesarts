@@ -1963,7 +1963,7 @@ window.addEventListener('mousemove', (e) => {
   if (!isDragging) return;
   curRibbonX = prevRibbonX + (e.clientX - startX);
   const minX = -(getRibbonWidth() - masterContainer.clientWidth);
-  curRibbonX = Math.max(minX, Math.min(100, curRibbonX));
+  curRibbonX = Math.max(minX, Math.min(0, curRibbonX));
   
   masterRibbon.style.transform = `translateX(${curRibbonX}px)`;
   rulerTrack.style.transform = `translateX(${curRibbonX}px)`;
@@ -2017,7 +2017,7 @@ window.addEventListener('touchmove', (e) => {
 
   curRibbonX = prevRibbonX + (touchX - startX);
   const minX = -(getRibbonWidth() - masterContainer.clientWidth);
-  curRibbonX = Math.max(minX, Math.min(100, curRibbonX));
+  curRibbonX = Math.max(minX, Math.min(0, curRibbonX));
   
   masterRibbon.style.transform = `translateX(${curRibbonX}px)`;
   rulerTrack.style.transform = `translateX(${curRibbonX}px)`;
@@ -2045,12 +2045,14 @@ function zoomTimelineAt(screenX, deltaY) {
   timelineZoom = Math.max(0.4, Math.min(15.0, timelineZoom * zoomFactor));
   if (Math.abs(timelineZoom - oldZoom) < 0.001) return;
 
+  const containerRect = masterContainer.getBoundingClientRect();
+  const mouseInContainer = screenX - containerRect.left;
   const newRelX = yearToPixel(focalYear);
-  curRibbonX = screenX - newRelX;
+  curRibbonX = mouseInContainer - newRelX;
 
   const containerW = masterContainer.clientWidth || window.innerWidth;
   const minX = -(getRibbonWidth() - containerW);
-  curRibbonX = Math.max(minX, Math.min(100, curRibbonX));
+  curRibbonX = Math.max(minX, Math.min(0, curRibbonX));
   prevRibbonX = curRibbonX;
 
   updateTimelineLayout();
@@ -2059,29 +2061,42 @@ function zoomTimelineAt(screenX, deltaY) {
 
 function zoomTimelineByButton(factor) {
   if (!masterContainer) return;
-  const containerRect = masterContainer.getBoundingClientRect();
-  const centerX = containerRect.left + containerRect.width * 0.45;
-  zoomTimelineAt(centerX, factor > 1 ? -1 : 1);
+  let targetX;
+  if (syncLine && syncLine.style.left) {
+    targetX = parseFloat(syncLine.style.left);
+  } else {
+    const containerRect = masterContainer.getBoundingClientRect();
+    targetX = containerRect.left + containerRect.width * 0.45;
+  }
+  zoomTimelineAt(targetX, factor > 1 ? -1 : 1);
 }
 
 function resetTimelineZoom() {
   if (!masterContainer) return;
-  const containerRect = masterContainer.getBoundingClientRect();
-  const centerX = containerRect.left + containerRect.width * 0.45;
+  let targetX;
+  if (syncLine && syncLine.style.left) {
+    targetX = parseFloat(syncLine.style.left);
+  } else {
+    const containerRect = masterContainer.getBoundingClientRect();
+    targetX = containerRect.left + containerRect.width * 0.45;
+  }
   const ribbonRect = masterRibbon.getBoundingClientRect();
-  const relX = centerX - ribbonRect.left;
+  const relX = targetX - ribbonRect.left;
   const focalYear = pixelToYear(relX);
 
   timelineZoom = 1.0;
+  const containerRect = masterContainer.getBoundingClientRect();
+  const mouseInContainer = targetX - containerRect.left;
   const newRelX = yearToPixel(focalYear);
-  curRibbonX = centerX - newRelX;
+  curRibbonX = mouseInContainer - newRelX;
+
   const containerW = masterContainer.clientWidth || window.innerWidth;
   const minX = -(getRibbonWidth() - containerW);
-  curRibbonX = Math.max(minX, Math.min(100, curRibbonX));
+  curRibbonX = Math.max(minX, Math.min(0, curRibbonX));
   prevRibbonX = curRibbonX;
 
   updateTimelineLayout();
-  updateSynchronousState(centerX);
+  updateSynchronousState(targetX);
 }
 
 // Molette sur la frise (Zoom continu sous curseur ou défilement latéral trackpad)
@@ -2097,7 +2112,7 @@ if (masterTimelineBar) {
     if (Math.abs(e.deltaX) > Math.abs(e.deltaY) && Math.abs(e.deltaX) > 2) {
       curRibbonX = curRibbonX - e.deltaX;
       const minX = -(getRibbonWidth() - masterContainer.clientWidth);
-      curRibbonX = Math.max(minX, Math.min(100, curRibbonX));
+      curRibbonX = Math.max(minX, Math.min(0, curRibbonX));
       prevRibbonX = curRibbonX;
 
       masterRibbon.style.transform = `translateX(${curRibbonX}px)`;

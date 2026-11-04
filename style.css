@@ -1368,7 +1368,7 @@ body {
 #ruler-events-layer {
   position: absolute;
   top: 0;
-  left: 200px;
+  left: 230px;
   height: 100%;
   width: 5500px;
   will-change: transform;
