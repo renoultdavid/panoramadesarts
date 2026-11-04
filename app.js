@@ -360,7 +360,8 @@ function showPinTooltip(item, pinEl) {
       actionEl.textContent = "✦ Cliquez pour ouvrir la notice muséale complète";
       actionEl.style.display = 'block';
     } else {
-      actionEl.style.display = 'none';
+      actionEl.textContent = "✦ Cliquez pour épingler / fermer l'infobulle";
+      actionEl.style.display = 'block';
     }
   }
 
@@ -423,6 +424,17 @@ function positionTooltipAtPin(tooltip, pinEl) {
   tooltip.classList.add('visible');
 }
 
+// Clic global pour refermer l'infobulle verrouillée au clic en dehors
+document.addEventListener('click', (e) => {
+  const tooltip = document.getElementById('milestone-tooltip');
+  if (tooltip && tooltip.dataset.locked === 'true') {
+    if (!tooltip.contains(e.target) && !e.target.closest('.ruler-event-spark') && !e.target.closest('.constellation-pin')) {
+      delete tooltip.dataset.locked;
+      hidePinTooltip();
+    }
+  }
+});
+
 /* ==========================================================================
    DIAMANTS DE COULEUR DES GRANDS ÉVÉNEMENTS (CHANTIERS, INVENTIONS, BATAILLES, CATACLYSMES)
    ========================================================================== */
@@ -437,19 +449,39 @@ function renderHistoricalSparks() {
     spark.title = `${m.year < 0 ? Math.abs(m.year) + ' av. J.-C.' : m.year + ' ap. J.-C.'} : ${m.title}`;
     m._diamondEl = spark;
 
+    const sparkData = {
+      year: m.year,
+      title: m.title,
+      desc: m.desc,
+      type: m.type,
+      isMilestone: true,
+      category: m.category,
+      icon: m.icon || '⭐'
+    };
+
     spark.addEventListener('mouseenter', () => {
-      showPinTooltip({
-        year: m.year,
-        title: m.title,
-        desc: m.desc,
-        type: m.type,
-        isMilestone: true,
-        category: m.category,
-        icon: m.icon || '⭐'
-      }, spark);
+      showPinTooltip(sparkData, spark);
     });
 
-    spark.addEventListener('mouseleave', hidePinTooltip);
+    spark.addEventListener('mouseleave', () => {
+      const tooltip = document.getElementById('milestone-tooltip');
+      if (tooltip && tooltip.dataset.locked === 'true') return;
+      hidePinTooltip();
+    });
+
+    spark.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const tooltip = document.getElementById('milestone-tooltip');
+      if (tooltip) {
+        if (tooltip.classList.contains('visible') && tooltip.dataset.locked === 'true') {
+          delete tooltip.dataset.locked;
+          hidePinTooltip();
+          return;
+        }
+        tooltip.dataset.locked = 'true';
+      }
+      showPinTooltip(sparkData, spark);
+    });
 
     frag.appendChild(spark);
   });
@@ -678,6 +710,41 @@ const ART_MOVEMENTS = [
   }
 ];
 
+function getArtworksForMovement(mov) {
+  const catalog = window.ART_OBJECTS || [];
+  const normKw = normalizeSearchStr(mov.filterKeyword || mov.name);
+  const artistsList = (mov.keyArtists || '')
+    .split(',')
+    .map(a => normalizeSearchStr(a.replace(/\(.*?\)/g, '')))
+    .filter(Boolean);
+
+  return catalog.filter(art => {
+    // 1. Recherche par mot-clé sur les métadonnées de l'œuvre
+    const matchKw = (
+      (art.title && normalizeSearchStr(art.title).includes(normKw)) ||
+      (art.narrative && normalizeSearchStr(art.narrative).includes(normKw)) ||
+      (art.site && normalizeSearchStr(art.site).includes(normKw)) ||
+      (art.periodId && normalizeSearchStr(art.periodId).includes(normKw)) ||
+      (art.civId && normalizeSearchStr(art.civId).includes(normKw)) ||
+      (art.civName && normalizeSearchStr(art.civName).includes(normKw)) ||
+      (art.category && normalizeSearchStr(art.category).includes(normKw)) ||
+      (art.chips && art.chips.some(c => normalizeSearchStr(c).includes(normKw))) ||
+      (art.artist && normalizeSearchStr(art.artist).includes(normKw))
+    );
+    if (matchKw) return true;
+
+    // 2. Recherche par artiste clé
+    if (art.artist) {
+      const artArtist = normalizeSearchStr(art.artist);
+      if (artistsList.some(a => a && (artArtist.includes(a) || a.includes(artArtist)))) {
+        return true;
+      }
+    }
+
+    return false;
+  });
+}
+
 function showMovementPopover(mov, barEl, isLocked = false) {
   const popover = document.getElementById('art-movement-popover');
   if (!popover) return;
@@ -700,17 +767,47 @@ function showMovementPopover(mov, barEl, isLocked = false) {
   artistsListEl.textContent = mov.keyArtists || "Maîtres et ateliers de l'époque";
   defEl.textContent = mov.definition;
 
+  // Calcul dynamique des œuvres correspondantes dans le catalogue
+  const matchingArts = getArtworksForMovement(mov);
+  const count = matchingArts.length;
+
   if (btnExplore) {
+    if (count > 0) {
+      btnExplore.innerHTML = `🏛️ Explorer les œuvres (${count}) ➔`;
+    } else {
+      btnExplore.innerHTML = `🔍 Rechercher ce courant dans la galerie (0 œuvre) ➔`;
+    }
+
     btnExplore.onclick = (e) => {
       e.stopPropagation();
       popover.style.display = 'none';
       popover.style.opacity = '0';
-      switchView('view-search');
-      const searchInput = document.getElementById('global-search-input');
-      if (searchInput) {
-        searchInput.value = mov.filterKeyword || mov.name;
-        renderSearchGallery();
+      delete popover.dataset.locked;
+
+      // Réinitialiser les filtres pour basculer en mode recherche du mouvement
+      const filterCiv = document.getElementById('filter-civ');
+      if (filterCiv) filterCiv.value = 'all';
+      const filterPeriod = document.getElementById('filter-period');
+      if (filterPeriod) filterPeriod.value = 'all';
+      const filterDomain = document.getElementById('filter-domain');
+      if (filterDomain) filterDomain.value = 'all';
+      const filterType = document.getElementById('filter-type');
+      if (filterType) filterType.value = 'all';
+      const artistHero = document.getElementById('artist-monograph-hero');
+      if (artistHero) artistHero.hidden = true;
+
+      // Définir la requête dans l'input réel id="filter-text"
+      const filterText = document.getElementById('filter-text');
+      if (filterText) {
+        filterText.value = mov.filterKeyword || mov.name;
       }
+      activeChipExactFilter = '';
+      focusOnlyActive = false;
+      const btnFocus = document.getElementById('btn-filter-focus-only');
+      if (btnFocus) btnFocus.classList.remove('is-active');
+
+      switchView('view-search');
+      renderSearchGallery();
     };
   }
 
@@ -5466,7 +5563,10 @@ function renderSearchGallery() {
         const matchNarrative = item.narrative && normalizeSearchStr(item.narrative).includes(normQuery);
         const matchChips = item.chips && item.chips.some(c => normalizeSearchStr(c).includes(normQuery));
         const matchArtist = item.artist && normalizeSearchStr(item.artist).includes(normQuery);
-        if (!matchTitle && !matchSite && !matchNarrative && !matchChips && !matchArtist) return false;
+        const matchCategory = item.category && normalizeSearchStr(item.category).includes(normQuery);
+        const matchPeriod = (item.periodId && normalizeSearchStr(item.periodId).includes(normQuery)) ||
+                            (item.civName && normalizeSearchStr(item.civName).includes(normQuery));
+        if (!matchTitle && !matchSite && !matchNarrative && !matchChips && !matchArtist && !matchCategory && !matchPeriod) return false;
       }
     }
 
@@ -5564,9 +5664,19 @@ function renderSearchGallery() {
   } else {
     galleryGrid.classList.remove('is-decade-view');
 
-    itemsToDisplay.forEach(art => {
-      galleryGrid.appendChild(createGalleryCardElement(art, filtered));
-    });
+    if (filtered.length === 0) {
+      galleryGrid.innerHTML = `
+        <div class="empty-gallery-msg" style="grid-column: 1 / -1; text-align: center; padding: 4rem 1rem; color: var(--gold-pale); font-family: 'Cinzel', serif;">
+          <div style="font-size: 2.2rem; margin-bottom: 0.8rem; opacity: 0.6;">🏛️</div>
+          <p style="font-size: 1rem; letter-spacing: 1px; margin-bottom: 0.5rem;">Aucune œuvre ne correspond à vos critères de recherche${query ? ` pour « ${query} »` : ''}.</p>
+          <p style="font-size: 0.8rem; color: var(--text-muted); font-family: 'Outfit', sans-serif;">0 œuvre trouvée dans le catalogue actuel pour cette sélection.</p>
+        </div>
+      `;
+    } else {
+      itemsToDisplay.forEach(art => {
+        galleryGrid.appendChild(createGalleryCardElement(art, filtered));
+      });
+    }
   }
 
   if (loadMoreBox) {
