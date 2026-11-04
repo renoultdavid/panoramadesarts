@@ -5057,76 +5057,6 @@ body {
   }
 }
 
-/* ==========================================================================
-   FEATURE 5 : L'ŒIL DE L'ARCHÉOLOGUE (SECRET DE FOUILLE & LE SAVIEZ-VOUS ?)
-   ========================================================================== */
-.modal-archaeo-card {
-  margin: 18px 0 !important;
-  background: linear-gradient(135deg, rgba(16, 21, 33, 0.9) 0%, rgba(10, 14, 22, 0.95) 100%) !important;
-  border: 1px solid rgba(212, 175, 55, 0.35) !important;
-  border-left: 4px solid var(--gold-pure, #d4af37) !important;
-  border-radius: 10px !important;
-  padding: 14px 18px !important;
-  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.35), inset 0 0 20px rgba(212, 175, 55, 0.04) !important;
-  position: relative !important;
-}
-
-.archaeo-card-header {
-  display: flex !important;
-  align-items: center !important;
-  justify-content: space-between !important;
-  gap: 12px !important;
-  padding-bottom: 8px !important;
-  border-bottom: 1px dashed rgba(212, 175, 55, 0.2) !important;
-  margin-bottom: 10px !important;
-}
-
-.archaeo-header-title {
-  display: flex !important;
-  align-items: center !important;
-  gap: 8px !important;
-}
-
-.archaeo-icon {
-  font-size: 1.05rem !important;
-  filter: drop-shadow(0 0 4px rgba(212, 175, 55, 0.5)) !important;
-}
-
-.archaeo-title {
-  font-family: 'Cinzel', serif !important;
-  font-size: 0.78rem !important;
-  font-weight: 700 !important;
-  letter-spacing: 1.2px !important;
-  color: var(--gold-pure, #d4af37) !important;
-}
-
-.archaeo-badge {
-  font-family: 'Cinzel', serif !important;
-  font-size: 0.65rem !important;
-  font-weight: 700 !important;
-  letter-spacing: 0.8px !important;
-  color: #fff !important;
-  background: rgba(212, 175, 55, 0.2) !important;
-  border: 1px solid rgba(212, 175, 55, 0.45) !important;
-  border-radius: 12px !important;
-  padding: 2px 8px !important;
-  white-space: nowrap !important;
-}
-
-.archaeo-card-body {
-  font-family: 'Cormorant Garamond', Georgia, serif !important;
-  font-size: 1.02rem !important;
-  line-height: 1.55 !important;
-  color: #e2e8f0 !important;
-  font-style: normal !important;
-}
-
-.archaeo-card-body .archaeo-highlight {
-  color: #f7e096 !important;
-  font-weight: 600 !important;
-  font-style: normal !important;
-}
-
 /* Bouton Odyssée & Atlas dans la fiche d'œuvre */
 .btn-open-atlas-modal {
   display: inline-flex !important;
@@ -5449,21 +5379,106 @@ body {
   letter-spacing: 0.4px !important;
 }
 
-/* Carte Leaflet dans l'Atlas */
+/* Carte Leaflet dans l'Atlas avec styles anciens / parchemin */
 .atlas-map-wrapper {
   position: relative !important;
   width: 100% !important;
-  height: 420px !important;
-  border-radius: 10px !important;
+  height: 440px !important;
+  border-radius: 12px !important;
   overflow: hidden !important;
-  border: 1px solid rgba(212, 175, 55, 0.3) !important;
-  box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.6) !important;
+  border: 1px solid rgba(212, 175, 55, 0.4) !important;
+  box-shadow: inset 0 0 35px rgba(0, 0, 0, 0.7), 0 4px 20px rgba(0, 0, 0, 0.5) !important;
+  background: #1c160e !important;
+}
+
+/* Filigrane Rose des Vents antique */
+.atlas-map-wrapper::after {
+  content: "🧭" !important;
+  position: absolute !important;
+  bottom: 14px !important;
+  right: 18px !important;
+  font-size: 2.2rem !important;
+  opacity: 0.35 !important;
+  filter: drop-shadow(0 0 8px rgba(212, 175, 55, 0.7)) !important;
+  pointer-events: none !important;
+  z-index: 999 !important;
+}
+
+/* Sélecteur de fonds de carte d'apparat */
+.atlas-map-layer-selector {
+  position: absolute !important;
+  top: 12px !important;
+  right: 14px !important;
+  z-index: 1000 !important;
+  display: flex !important;
+  gap: 6px !important;
+  background: rgba(14, 18, 28, 0.88) !important;
+  backdrop-filter: blur(8px) !important;
+  -webkit-backdrop-filter: blur(8px) !important;
+  border: 1px solid rgba(212, 175, 55, 0.45) !important;
+  border-radius: 20px !important;
+  padding: 4px 6px !important;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.6) !important;
+}
+
+.btn-atlas-layer {
+  background: transparent !important;
+  border: 1px solid transparent !important;
+  color: #c9d2e0 !important;
+  font-family: 'Cinzel', serif !important;
+  font-size: 0.68rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.5px !important;
+  padding: 4px 11px !important;
+  border-radius: 14px !important;
+  cursor: pointer !important;
+  transition: all 0.2s ease !important;
+  white-space: nowrap !important;
+}
+
+.btn-atlas-layer:hover {
+  color: #fff !important;
+  background: rgba(212, 175, 55, 0.18) !important;
+}
+
+.btn-atlas-layer.is-active {
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.38) 0%, rgba(212, 175, 55, 0.16) 100%) !important;
+  color: #fff !important;
+  border-color: var(--gold-pure, #d4af37) !important;
+  box-shadow: 0 0 10px rgba(212, 175, 55, 0.35) !important;
 }
 
 .atlas-leaflet-map {
   width: 100% !important;
   height: 100% !important;
-  background: #090c12 !important;
+  transition: filter 0.3s ease !important;
+}
+
+/* 1. Mode Parchemin Antique & Portulan : Teinte manuscrit / parchemin ancien */
+.atlas-leaflet-map.mode-parchment {
+  background: #251d14 !important;
+}
+
+.atlas-leaflet-map.mode-parchment .leaflet-tile-pane {
+  filter: sepia(0.88) contrast(1.18) brightness(0.84) hue-rotate(-14deg) saturate(1.4) !important;
+}
+
+/* 2. Mode Relief Topographique Antique : Cuivre et ombres des terres anciennes */
+.atlas-leaflet-map.mode-relief {
+  background: #18120c !important;
+}
+
+.atlas-leaflet-map.mode-relief .leaflet-tile-pane {
+  filter: sepia(0.7) contrast(1.25) brightness(0.75) hue-rotate(-6deg) saturate(1.15) !important;
+}
+
+/* 3. Mode Satellite HD : Noir profond et océans sombres */
+.atlas-leaflet-map.mode-satellite {
+  background: #060910 !important;
+}
+
+.atlas-leaflet-map.mode-satellite .leaflet-tile-pane {
+  filter: brightness(0.88) contrast(1.12) saturate(1.05) !important;
 }
 
 /* Marqueurs personnalisés Leaflet */

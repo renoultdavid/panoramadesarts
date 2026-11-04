@@ -1529,9 +1529,6 @@ function populateModalData(art) {
     ? enrichHTMLWithGlossary(rawNarrative)
     : rawNarrative;
 
-  // L'Œil de l'Archéologue : Secret de fouille / Le saviez-vous ?
-  renderArchaeologicalInsight(art);
-
   // Génération dynamique du ruban transversal "Au même moment dans le monde"
   renderContemporaneousRibbon(art);
   updateModalHistoryBackButton();
@@ -2141,77 +2138,7 @@ window.addEventListener('keydown', (e) => {
 });
 
 // --------------------------------------------------------------------------
-// 4. L'ŒIL DE L'ARCHÉOLOGUE : LE SAVIEZ-VOUS ? / DÉTAIL INSOLITE & SECRETS
-// --------------------------------------------------------------------------
-function getArchaeologicalInsight(art) {
-  if (!art) return null;
-  if (art.archaeoFact) return art.archaeoFact;
-
-  const narrative = art.narrative || '';
-  if (!narrative) return null;
-
-  const cleanText = narrative.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
-  const sentences = cleanText.replace(/([.!?])\s+/g, "$1|SPLIT|").split("|SPLIT|");
-
-  const keywords = [
-    'découvert', 'fouille', 'pêcheur', 'épave', 'délos', 'marathon', 'anticythère',
-    'sounion', 'suse', 'inscription', 'alphabet', 'boustrophédon', 'glaçure', 'brique',
-    'marbre de', 'cire perdue', 'yeux incrustés', 'polychromie', 'alliage', 'engrenages',
-    'différentiel', 'cuisson', 'or martelé', 'analyse', 'restauration', 'plus ancienne',
-    'tombe', 'mastaba', 'sanctuaire', 'enfoui', 'orfèvrerie', 'chryséléphantin'
-  ];
-
-  const scored = [];
-  sentences.forEach(s => {
-    const low = s.toLowerCase();
-    if (s.length < 35 || s.length > 340) return;
-    let score = 0;
-    keywords.forEach(kw => {
-      if (low.includes(kw)) score += 5;
-    });
-    if (score > 0) {
-      scored.push({ score, text: s });
-    }
-  });
-
-  if (scored.length === 0) return null;
-  scored.sort((a, b) => b.score - a.score);
-
-  let chosen = scored[0].text;
-  const termsToHighlight = [
-    'marbre de Naxos', 'cire perdue', 'alphabet naxien', 'boustrophédon',
-    'glaçure silicocarbonatée', 'cycle de Saros', 'engrenages différentiels',
-    'baie de Marathon', 'île de Délos', 'île d\'Anticythère', 'cap Sounion',
-    'relief en creux', 'yeux incrustés', 'polychromie', 'Théophile Homolle',
-    'Jacques de Morgan', 'épave', 'premier ordinateur analogique', 'or martelé',
-    'courbe praxitélienne', 'xoanon', 'style dédalique'
-  ];
-
-  termsToHighlight.forEach(term => {
-    const reg = new RegExp(`(${term})`, 'gi');
-    chosen = chosen.replace(reg, '<strong class="archaeo-highlight">$1</strong>');
-  });
-
-  return chosen;
-}
-
-function renderArchaeologicalInsight(art) {
-  const card = document.getElementById('modal-archaeo-card');
-  const body = document.getElementById('modal-archaeo-content');
-  if (!card || !body) return;
-
-  const fact = getArchaeologicalInsight(art);
-  if (fact) {
-    body.innerHTML = fact;
-    card.style.display = 'block';
-  } else {
-    card.style.display = 'none';
-    body.innerHTML = '';
-  }
-}
-
-// --------------------------------------------------------------------------
-// 5. ATLAS MONDIAL DES CHEFS-D'ŒUVRE : DOUBLE GÉOLOCALISATION & TRAJECTOIRE
+// 4. ATLAS MONDIAL DES CHEFS-D'ŒUVRE : DOUBLE GÉOLOCALISATION & TRAJECTOIRE
 // --------------------------------------------------------------------------
 const GEO_GAZETTEER_SITES = {
   "suse": { name: "Suse", region: "Susiane / Élam (Iran)", coords: [32.1895, 48.2433] },
@@ -2453,6 +2380,65 @@ function resolveArtworkGeoJourney(art) {
 }
 
 let atlasMapInstance = null;
+let activeAtlasTileLayer = null;
+let activeAtlasLayerKey = 'parchment';
+
+const ATLAS_MAP_PROVIDERS = {
+  parchment: {
+    url: 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Physical_Map/MapServer/tile/{z}/{y}/{x}',
+    maxZoom: 9,
+    modeClass: 'mode-parchment',
+    attribution: 'Esri Physical Earth'
+  },
+  relief: {
+    url: 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Shaded_Relief/MapServer/tile/{z}/{y}/{x}',
+    maxZoom: 13,
+    modeClass: 'mode-relief',
+    attribution: 'Esri Shaded Relief'
+  },
+  satellite: {
+    url: 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
+    maxZoom: 18,
+    modeClass: 'mode-satellite',
+    attribution: 'Esri Satellite HD'
+  }
+};
+
+function setAtlasTileLayer(layerKey) {
+  if (!atlasMapInstance || !window.L) return;
+  const provider = ATLAS_MAP_PROVIDERS[layerKey] || ATLAS_MAP_PROVIDERS.parchment;
+  activeAtlasLayerKey = layerKey;
+
+  if (activeAtlasTileLayer) {
+    atlasMapInstance.removeLayer(activeAtlasTileLayer);
+    activeAtlasTileLayer = null;
+  }
+
+  activeAtlasTileLayer = L.tileLayer(provider.url, {
+    maxZoom: provider.maxZoom,
+    attribution: provider.attribution
+  }).addTo(atlasMapInstance);
+
+  const mapEl = document.getElementById('atlas-leaflet-map');
+  if (mapEl) {
+    mapEl.classList.remove('mode-parchment', 'mode-relief', 'mode-satellite');
+    mapEl.classList.add(provider.modeClass);
+  }
+
+  document.querySelectorAll('.btn-atlas-layer').forEach(b => {
+    b.classList.toggle('is-active', b.getAttribute('data-layer') === layerKey);
+  });
+}
+
+function initAtlasLayerControls() {
+  document.querySelectorAll('.btn-atlas-layer').forEach(btn => {
+    btn.onclick = (e) => {
+      e.stopPropagation();
+      const lk = btn.getAttribute('data-layer') || 'parchment';
+      setAtlasTileLayer(lk);
+    };
+  });
+}
 
 function openAtlasModal(art) {
   if (!art) return;
@@ -2511,9 +2497,8 @@ function openAtlasModal(art) {
       attributionControl: false
     });
 
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-      maxZoom: 18
-    }).addTo(atlasMapInstance);
+    setAtlasTileLayer(activeAtlasLayerKey || 'parchment');
+    initAtlasLayerControls();
 
     const originIcon = L.divIcon({
       className: 'custom-leaflet-pin',

@@ -539,18 +539,6 @@
           <div class="modal-chips-row" id="modal-chips-container"></div>
           <div class="modal-narrative" id="modal-narrative-text">Notice détaillée...</div>
 
-          <!-- L'ŒIL DE L'ARCHÉOLOGUE : LE SAVIEZ-VOUS ? / DÉTAIL INSOLITE & SECRETS -->
-          <div class="modal-archaeo-card" id="modal-archaeo-card" style="display: none;">
-            <div class="archaeo-card-header">
-              <div class="archaeo-header-title">
-                <span class="archaeo-icon" aria-hidden="true">🔍</span>
-                <span class="archaeo-title">L'ŒIL DE L'ARCHÉOLOGUE</span>
-              </div>
-              <span class="archaeo-badge">LE SAVIEZ-VOUS ?</span>
-            </div>
-            <div class="archaeo-card-body" id="modal-archaeo-content"></div>
-          </div>
-
           <!-- RUBAN TRANSVERSAL : AU MÊME MOMENT DANS LE MONDE -->
           <div class="modal-sync-section" id="modal-sync-section" style="display: none;">
             <div class="modal-sync-header">
@@ -689,7 +677,12 @@
 
       <!-- Scène cartographique Leaflet interactive -->
       <div class="atlas-map-wrapper">
-        <div id="atlas-leaflet-map" class="atlas-leaflet-map"></div>
+        <div class="atlas-map-layer-selector">
+          <button type="button" class="btn-atlas-layer is-active" data-layer="parchment" title="Fond Parchemin Antique & Portulan">📜 Parchemin Antique</button>
+          <button type="button" class="btn-atlas-layer" data-layer="relief" title="Relief Topographique Antique">⛰️ Relief Antique</button>
+          <button type="button" class="btn-atlas-layer" data-layer="satellite" title="Vue Satellite Naturelle">🛰️ Satellite HD</button>
+        </div>
+        <div id="atlas-leaflet-map" class="atlas-leaflet-map mode-parchment"></div>
       </div>
 
       <!-- Footer contextuel historique & fouilles -->
