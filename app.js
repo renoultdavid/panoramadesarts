@@ -925,7 +925,17 @@ if (btnCloseSidebar) {
 if (btnCollapseSidebar) {
   btnCollapseSidebar.addEventListener('click', (e) => {
     e.stopPropagation();
-    collapseCivSidebar();
+    if (hoverSidebar.classList.contains('is-expanded')) {
+      // Revenir à la position initiale : volet toujours ouvert en largeur normale avec son simple bandeau
+      hoverSidebar.classList.remove('is-expanded');
+      if (btnExpandSidebar) {
+        btnExpandSidebar.textContent = '⤢';
+        btnExpandSidebar.title = 'Agrandir en grand format (admirer le bandeau)';
+      }
+      btnCollapseSidebar.title = 'Replier le volet sur le bord';
+    } else {
+      collapseCivSidebar();
+    }
   });
 }
 
@@ -945,6 +955,9 @@ if (btnExpandSidebar) {
     const isExpanded = hoverSidebar.classList.toggle('is-expanded');
     btnExpandSidebar.textContent = isExpanded ? '⤡' : '⤢';
     btnExpandSidebar.title = isExpanded ? 'Réduire à la largeur standard' : 'Agrandir en grand format (admirer le bandeau)';
+    if (btnCollapseSidebar) {
+      btnCollapseSidebar.title = isExpanded ? 'Revenir à la position initiale (simple bandeau)' : 'Replier le volet sur le bord';
+    }
   });
 }
 
