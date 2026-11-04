@@ -5139,32 +5139,6 @@ body {
   font-weight: 700 !important;
 }
 
-/* Toast de repérage chronologique */
-.timeline-toast-notice {
-  position: absolute !important;
-  top: 18px !important;
-  left: 50% !important;
-  transform: translateX(-50%) !important;
-  z-index: 1200 !important;
-  display: flex !important;
-  align-items: center !important;
-  gap: 10px !important;
-  background: rgba(18, 22, 33, 0.94) !important;
-  border: 1px solid rgba(212, 175, 55, 0.5) !important;
-  color: #e5ebf5 !important;
-  padding: 8px 20px !important;
-  border-radius: 20px !important;
-  font-family: 'Cormorant Garamond', Georgia, serif !important;
-  font-size: 1.05rem !important;
-  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.6) !important;
-  backdrop-filter: blur(8px) !important;
-  pointer-events: none !important;
-}
-
-.timeline-toast-notice .toast-icon {
-  font-size: 1.1rem !important;
-}
-
 /* Badge de correspondance thématique dans le ruban synchrone */
 .sync-card-subject-pill {
   display: inline-flex !important;

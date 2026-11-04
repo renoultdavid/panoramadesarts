@@ -2252,19 +2252,6 @@ window.addEventListener('keydown', (e) => {
 
 let lastTimelineArtwork = null;
 let lastTimelineContextList = [];
-let timelineToastTimeout = null;
-
-function showTimelineToast(msg) {
-  const toast = document.getElementById('timeline-toast-notice');
-  const msgEl = document.getElementById('timeline-toast-msg');
-  if (!toast || !msgEl) return;
-  msgEl.textContent = msg;
-  toast.hidden = false;
-  if (timelineToastTimeout) clearTimeout(timelineToastTimeout);
-  timelineToastTimeout = setTimeout(() => {
-    toast.hidden = true;
-  }, 4500);
-}
 
 // Initialisation du bouton retour vers l'œuvre explorée
 const btnTimelineReturnArt = document.getElementById('btn-timeline-return-art');
@@ -2361,9 +2348,6 @@ function jumpFromArtworkToTimeline(art) {
       isLockedSidebar = false;
       hideCivPreview();
     }
-    const epochLabel = art.centuryDisplay || (targetYear < 0 ? `${Math.abs(targetYear)} av. J.-C.` : `${targetYear} ap. J.-C.`);
-    const civLabel = art.civName || 'Civilisation';
-    showTimelineToast(`⏳ Époque située : ${epochLabel} • ${civLabel} (bientôt sur la Frise)`);
   }
 }
 
