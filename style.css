@@ -1437,6 +1437,17 @@ body {
   pointer-events: auto;
 }
 
+#ruler-sparks-layer {
+  position: absolute;
+  top: 0;
+  left: 230px;
+  height: 52px;
+  width: 5500px;
+  will-change: transform;
+  pointer-events: auto;
+  z-index: 20;
+}
+
 /* PUCES LUMINEUSES D'ŒUVRES & JALONS EN CONSTELLATION */
 .constellation-pin {
   position: absolute;
@@ -1560,40 +1571,42 @@ body {
 
 .ruler-event-spark {
   position: absolute;
-  top: 6px;
-  width: 12px;
-  height: 12px;
+  bottom: 4px;
+  width: 11px;
+  height: 11px;
   transform: translateX(-50%) rotate(45deg);
-  border: 1px solid rgba(255, 255, 255, 0.9);
+  border: 1.5px solid rgba(255, 255, 255, 0.95);
   cursor: pointer;
-  z-index: 15;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  animation: sparkPulse 2.5s infinite;
+  z-index: 24;
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s ease;
+  animation: sparkPulse 2.8s infinite;
 }
 
 .ruler-event-spark.spark-gold {
-  background: var(--c-gold);
-  box-shadow: 0 0 10px var(--c-gold);
+  background: var(--c-gold, #d4af37);
+  box-shadow: 0 0 10px var(--c-gold, #d4af37);
 }
 
 .ruler-event-spark.spark-tech {
-  background: var(--c-tech);
-  box-shadow: 0 0 10px var(--c-tech);
+  background: var(--c-tech, #00b4d8);
+  box-shadow: 0 0 10px var(--c-tech, #00b4d8);
 }
 
 .ruler-event-spark.spark-war {
-  background: var(--c-war);
-  box-shadow: 0 0 10px var(--c-war);
+  background: var(--c-war, #e63946);
+  box-shadow: 0 0 10px var(--c-war, #e63946);
 }
 
 .ruler-event-spark.spark-disaster {
-  background: var(--c-disaster);
-  box-shadow: 0 0 10px var(--c-disaster);
+  background: var(--c-disaster, #d946ef);
+  box-shadow: 0 0 10px var(--c-disaster, #d946ef);
 }
 
 .ruler-event-spark:hover {
-  transform: translateX(-50%) rotate(45deg) scale(1.4);
+  transform: translateX(-50%) rotate(45deg) scale(1.6);
   box-shadow: 0 0 20px #fff;
+  border-color: #fff;
+  z-index: 50;
 }
 
 @keyframes sparkPulse {
@@ -1759,6 +1772,12 @@ body {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  transition: height 0.2s ease;
+}
+
+.lane-fixed-label.is-double-track {
+  height: 52px !important;
+  min-height: 52px !important;
 }
 
 #master-drag-container {
@@ -1798,10 +1817,17 @@ body {
   display: flex;
   align-items: center;
   border-bottom: 1px solid rgba(212, 175, 55, 0.08);
+  transition: height 0.2s ease;
+}
+
+.timeline-lane.is-double-track {
+  height: 52px !important;
+  min-height: 52px !important;
 }
 
 .civ-timespan-block {
   position: absolute;
+  top: 3px;
   height: 24px;
   border-radius: 3px;
   display: flex;
@@ -1815,6 +1841,46 @@ body {
   border: 1px solid rgba(212, 175, 55, 0.3);
   white-space: nowrap;
   overflow: hidden;
+}
+
+.civ-timespan-block.track-0.in-double-lane {
+  top: 3px !important;
+  height: 22px !important;
+}
+
+.civ-timespan-block.track-1 {
+  top: 27px !important;
+  height: 22px !important;
+}
+
+/* MICRO-MOUVEMENTS AU ZOOM APPROFONDI (PILIER 3) */
+.sub-movement-pill {
+  position: absolute;
+  top: 2px;
+  transform: translateX(-50%);
+  background: rgba(8, 11, 18, 0.94);
+  border: 1px solid var(--gold-pure, #d4af37);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.9), 0 0 5px rgba(212, 175, 55, 0.4);
+  border-radius: 9px;
+  padding: 1px 7px;
+  font-family: 'Cinzel', serif;
+  font-size: 0.58rem;
+  font-weight: 700;
+  color: #fff;
+  white-space: nowrap;
+  pointer-events: none;
+  z-index: 12;
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+
+.sub-movement-pill.visible {
+  opacity: 1;
+}
+
+.sub-movement-pill::before {
+  content: '✦ ';
+  color: var(--gold-pure);
 }
 
 .civ-timespan-block:hover,

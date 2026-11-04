@@ -124,6 +124,7 @@ function pixelToYear(px) {
 const masterRibbon = document.getElementById('master-ribbon');
 const rulerTrack = document.getElementById('ruler-ticks-track');
 const rulerEventsLayer = document.getElementById('ruler-events-layer');
+const rulerSparksLayer = document.getElementById('ruler-sparks-layer');
 const syncLine = document.getElementById('sync-cursor-line');
 const syncBubble = document.getElementById('sync-bubble-tag');
 const milestoneTooltip = document.getElementById('milestone-tooltip');
@@ -421,6 +422,80 @@ function positionTooltipAtPin(tooltip, pinEl) {
   tooltip.style.top = `${topPos}px`;
   tooltip.classList.add('visible');
 }
+
+/* ==========================================================================
+   DIAMANTS DE COULEUR DES GRANDS ÉVÉNEMENTS (CHANTIERS, INVENTIONS, BATAILLES, CATACLYSMES)
+   ========================================================================== */
+function renderHistoricalSparks() {
+  if (!rulerSparksLayer) return;
+  const frag = document.createDocumentFragment();
+
+  HISTORICAL_MILESTONES.forEach(m => {
+    const spark = document.createElement('div');
+    spark.className = `ruler-event-spark spark-${m.category}`;
+    spark.style.left = `${yearToPixel(m.year)}px`;
+    spark.title = `${m.year < 0 ? Math.abs(m.year) + ' av. J.-C.' : m.year + ' ap. J.-C.'} : ${m.title}`;
+    m._diamondEl = spark;
+
+    spark.addEventListener('mouseenter', () => {
+      showPinTooltip({
+        year: m.year,
+        title: m.title,
+        desc: m.desc,
+        type: m.type,
+        isMilestone: true,
+        category: m.category,
+        icon: m.icon || '⭐'
+      }, spark);
+    });
+
+    spark.addEventListener('mouseleave', hidePinTooltip);
+
+    frag.appendChild(spark);
+  });
+
+  rulerSparksLayer.replaceChildren(frag);
+}
+
+/* ==========================================================================
+   PILIER 3 : DILATATION MULTI-ÉCHELLES & MICRO-MOUVEMENTS AU ZOOM PROFOND
+   ========================================================================== */
+const ART_MOVEMENTS = [
+  // Égypte Nouvel Empire
+  { year: -1550, parentCivId: "egypte_nouvel", label: "XVIIIe dynastie thébaine" },
+  { year: -1353, parentCivId: "egypte_nouvel", label: "Révolution amarnienne" },
+  { year: -1292, parentCivId: "egypte_nouvel", label: "Époque ramesside" },
+
+  // Grèce antique
+  { year: -450, parentCivId: "grece_classique", label: "Classicisme & Parthénon" },
+  { year: -370, parentCivId: "grece_classique", label: "Second classicisme" },
+  { year: -240, parentCivId: "grece_hellenistique", label: "Baroque pergamien" },
+
+  // Occident médiéval & moderne
+  { year: 1150, parentCivId: "occ_gothique", label: "Gothique primitif" },
+  { year: 1210, parentCivId: "occ_gothique", label: "Gothique classique" },
+  { year: 1250, parentCivId: "occ_gothique", label: "Gothique rayonnant" },
+  { year: 1390, parentCivId: "occ_gothique", label: "Gothique flamboyant" },
+
+  // Renaissance
+  { year: 1420, parentCivId: "occ_renaissance", label: "Quattrocento" },
+  { year: 1500, parentCivId: "occ_renaissance", label: "Haute Renaissance" },
+  { year: 1530, parentCivId: "occ_renaissance", label: "Maniérisme" },
+
+  // XIXe siècle
+  { year: 1820, parentCivId: "occ_xixe", label: "Romantisme" },
+  { year: 1850, parentCivId: "occ_xixe", label: "Réalisme" },
+  { year: 1874, parentCivId: "occ_xixe", label: "Impressionnisme" },
+  { year: 1886, parentCivId: "occ_xixe", label: "Symbolisme" },
+
+  // XXe siècle
+  { year: 1905, parentCivId: "occ_xxe_moderne", label: "Fauvisme" },
+  { year: 1907, parentCivId: "occ_xxe_moderne", label: "Cubisme" },
+  { year: 1916, parentCivId: "occ_xxe_moderne", label: "Dadaïsme" },
+  { year: 1924, parentCivId: "occ_xxe_moderne", label: "Surréalisme" },
+  { year: 1945, parentCivId: "occ_xxe_moderne", label: "Expressionnisme abstrait" },
+  { year: 1960, parentCivId: "occ_xxe_moderne", label: "Pop Art & Nouveaux Réalistes" }
+];
 
 /* ==========================================================================
    REGISTRE INTÉGRAL DES CIVILISATIONS (TEXTES COMPLETS & CONTEXTES MONDIAUX)
@@ -1756,6 +1831,7 @@ window.addEventListener('DOMContentLoaded', () => {
   }
   buildTimelineBlocks();
   renderRulerScale();
+  renderHistoricalSparks();
   initConstellationData();
   renderConstellationLayer();
   updateTimelineLayout();
@@ -1763,6 +1839,38 @@ window.addEventListener('DOMContentLoaded', () => {
 });
 
 function buildTimelineBlocks() {
+  // 1. Détection des chevauchements temporels et assignation des pistes (Multi-tracks anti-collision)
+  const laneCivsMap = {};
+  CIVILISATIONS_REGISTRY.forEach(civ => {
+    if (!laneCivsMap[civ.lane]) laneCivsMap[civ.lane] = [];
+    laneCivsMap[civ.lane].push(civ);
+  });
+
+  Object.entries(laneCivsMap).forEach(([laneKey, civs]) => {
+    civs.sort((a, b) => a.yearStart - b.yearStart);
+    const trackEndYears = [];
+
+    civs.forEach(civ => {
+      let assignedTrack = 0;
+      while (trackEndYears[assignedTrack] !== undefined && trackEndYears[assignedTrack] > civ.yearStart) {
+        assignedTrack++;
+      }
+      civ._trackIndex = assignedTrack;
+      trackEndYears[assignedTrack] = civ.yearEnd;
+    });
+
+    const isDouble = trackEndYears.length > 1;
+    civs.forEach(civ => { civ._laneIsDouble = isDouble; });
+
+    const laneEl = document.querySelector(`.timeline-lane[data-lane="${laneKey}"]`);
+    const labelEl = document.querySelector(`.lane-fixed-label[data-lane="${laneKey}"]`);
+    if (isDouble) {
+      if (laneEl) laneEl.classList.add('is-double-track');
+      if (labelEl) labelEl.classList.add('is-double-track');
+    }
+  });
+
+  // 2. Création des blocs de frise
   CIVILISATIONS_REGISTRY.forEach((civ) => {
     const laneEl = document.querySelector(`.timeline-lane[data-lane="${civ.lane}"]`);
     if (!laneEl) return;
@@ -1774,7 +1882,7 @@ function buildTimelineBlocks() {
     const width = Math.max(x2 - x1, 80);
 
     const block = document.createElement('div');
-    block.className = 'civ-timespan-block';
+    block.className = `civ-timespan-block track-${civ._trackIndex || 0} ${civ._laneIsDouble ? 'in-double-lane' : ''}`;
     block.style.left = `${x1}px`;
     block.style.width = `${width}px`;
     block.style.backgroundColor = civ.themeColor + '35';
@@ -1798,6 +1906,17 @@ function buildTimelineBlocks() {
 
     civ._blockEl = block;
     laneEl.appendChild(block);
+  });
+
+  // 3. Création des micro-mouvements artistiques pour zoom profond (Pilier 3)
+  ART_MOVEMENTS.forEach(mov => {
+    const parentCiv = CIVILISATIONS_REGISTRY.find(c => c.id === mov.parentCivId);
+    if (!parentCiv || !parentCiv._blockEl) return;
+    const pill = document.createElement('div');
+    pill.className = 'sub-movement-pill';
+    pill.textContent = mov.label;
+    mov._pillEl = pill;
+    parentCiv._blockEl.appendChild(pill);
   });
 }
 
@@ -1832,6 +1951,7 @@ function updateTimelineLayout() {
   if (masterRibbon) masterRibbon.style.width = `${totalW}px`;
   if (rulerTrack) rulerTrack.style.width = `${totalW}px`;
   if (rulerEventsLayer) rulerEventsLayer.style.width = `${totalW}px`;
+  if (rulerSparksLayer) rulerSparksLayer.style.width = `${totalW}px`;
 
   CIVILISATIONS_REGISTRY.forEach((civ) => {
     if (!civ._blockEl) return;
@@ -1844,14 +1964,39 @@ function updateTimelineLayout() {
     civ._blockEl.style.width = `${width}px`;
   });
 
+  HISTORICAL_MILESTONES.forEach(m => {
+    if (m._diamondEl) {
+      m._diamondEl.style.left = `${yearToPixel(m.year)}px`;
+    }
+  });
+
   renderRulerScale();
   renderConstellationLayer();
 
   if (masterRibbon) masterRibbon.style.transform = `translateX(${curRibbonX}px)`;
   if (rulerTrack) rulerTrack.style.transform = `translateX(${curRibbonX}px)`;
   if (rulerEventsLayer) rulerEventsLayer.style.transform = `translateX(${curRibbonX}px)`;
+  if (rulerSparksLayer) rulerSparksLayer.style.transform = `translateX(${curRibbonX}px)`;
+  if (rulerSparksLayer) rulerSparksLayer.style.transform = `translateX(${curRibbonX}px)`;
 
   updateStickyBlockTitles();
+
+  // Déploiement des micro-mouvements artistiques au zoom profond (timelineZoom >= 2.0x)
+  const isDeepZoom = timelineZoom >= 2.0;
+  ART_MOVEMENTS.forEach(mov => {
+    if (!mov._pillEl) return;
+    if (isDeepZoom) {
+      const parentCiv = CIVILISATIONS_REGISTRY.find(c => c.id === mov.parentCivId);
+      if (!parentCiv) return;
+      const xCivStart = yearToPixel(Math.max(parentCiv.yearStart, YEAR_MIN));
+      const xMov = yearToPixel(mov.year);
+      const relLeft = xMov - xCivStart;
+      mov._pillEl.style.left = `${relLeft}px`;
+      mov._pillEl.classList.add('visible');
+    } else {
+      mov._pillEl.classList.remove('visible');
+    }
+  });
 
   const zoomBadge = document.getElementById('timeline-zoom-level');
   if (zoomBadge) {
@@ -2250,6 +2395,7 @@ window.addEventListener('mousemove', (e) => {
   masterRibbon.style.transform = `translateX(${curRibbonX}px)`;
   rulerTrack.style.transform = `translateX(${curRibbonX}px)`;
   rulerEventsLayer.style.transform = `translateX(${curRibbonX}px)`;
+  if (rulerSparksLayer) rulerSparksLayer.style.transform = `translateX(${curRibbonX}px)`;
   updateStickyBlockTitles();
 });
 
@@ -2305,6 +2451,7 @@ window.addEventListener('touchmove', (e) => {
   masterRibbon.style.transform = `translateX(${curRibbonX}px)`;
   rulerTrack.style.transform = `translateX(${curRibbonX}px)`;
   rulerEventsLayer.style.transform = `translateX(${curRibbonX}px)`;
+  if (rulerSparksLayer) rulerSparksLayer.style.transform = `translateX(${curRibbonX}px)`;
   updateStickyBlockTitles();
   updateSynchronousState(touchX);
 }, { passive: true });
@@ -2402,6 +2549,7 @@ if (masterTimelineBar) {
       masterRibbon.style.transform = `translateX(${curRibbonX}px)`;
       rulerTrack.style.transform = `translateX(${curRibbonX}px)`;
       rulerEventsLayer.style.transform = `translateX(${curRibbonX}px)`;
+      if (rulerSparksLayer) rulerSparksLayer.style.transform = `translateX(${curRibbonX}px)`;
       updateStickyBlockTitles();
       updateSynchronousState(e.clientX);
     } else {
@@ -2440,6 +2588,7 @@ if (btnTimeZoomReset) {
 masterRibbon.style.transform = `translateX(${curRibbonX}px)`;
 rulerTrack.style.transform = `translateX(${curRibbonX}px)`;
 rulerEventsLayer.style.transform = `translateX(${curRibbonX}px)`;
+if (rulerSparksLayer) rulerSparksLayer.style.transform = `translateX(${curRibbonX}px)`;
 
 setTimeout(() => {
   updateSynchronousState(window.innerWidth * 0.35);
@@ -3853,6 +4002,7 @@ function jumpFromArtworkToTimeline(art) {
   if (masterRibbon) masterRibbon.style.transform = `translateX(${curRibbonX}px)`;
   if (rulerTrack) rulerTrack.style.transform = `translateX(${curRibbonX}px)`;
   if (rulerEventsLayer) rulerEventsLayer.style.transform = `translateX(${curRibbonX}px)`;
+  if (rulerSparksLayer) rulerSparksLayer.style.transform = `translateX(${curRibbonX}px)`;
 
   // Mettre à jour le repère et l'état synchronique au centre de l'écran
   if (typeof updateSynchronousState === 'function') {
