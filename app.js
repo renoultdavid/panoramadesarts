@@ -493,7 +493,7 @@ const CIVILISATIONS_REGISTRY = [
     yearStart: -1050,
     yearEnd: -700,
     lane: "egee",
-    themeColor: "#4361ee",
+    themeColor: "#38bdf8",
     sidePos: "pos-left",
     travelingOrigin: "52.8% 44.5%",
     haloId: "halo-grece",
@@ -528,7 +528,7 @@ const CIVILISATIONS_REGISTRY = [
     yearStart: -700,
     yearEnd: -480,
     lane: "egee",
-    themeColor: "#3f37c9",
+    themeColor: "#60a5fa",
     sidePos: "pos-left",
     travelingOrigin: "52.8% 44.5%",
     haloId: "halo-grece",
@@ -563,7 +563,7 @@ const CIVILISATIONS_REGISTRY = [
     yearStart: -480,
     yearEnd: -323,
     lane: "egee",
-    themeColor: "#7209b7",
+    themeColor: "#c084fc",
     sidePos: "pos-left",
     travelingOrigin: "52.8% 44.5%",
     haloId: "halo-grece",
@@ -599,7 +599,7 @@ const CIVILISATIONS_REGISTRY = [
     yearStart: -323,
     yearEnd: -31,
     lane: "egee",
-    themeColor: "#560bad",
+    themeColor: "#f472b6",
     sidePos: "pos-left",
     travelingOrigin: "53.5% 45.0%",
     haloId: "halo-grece",
@@ -862,7 +862,7 @@ const CIVILISATIONS_REGISTRY = [
     epoch: "v. -4000 à -2700 av. J.-C.",
     yearStart: -4000,
     yearEnd: -2700,
-    lane: "anatolie",
+    lane: "iran_perse",
     themeColor: "#e36414",
     sidePos: "pos-left",
     travelingOrigin: "58.8% 46.2%",
@@ -894,7 +894,7 @@ const CIVILISATIONS_REGISTRY = [
     epoch: "v. -2700 à -1100 av. J.-C.",
     yearStart: -2700,
     yearEnd: -1100,
-    lane: "anatolie",
+    lane: "iran_perse",
     themeColor: "#fb8b24",
     sidePos: "pos-left",
     travelingOrigin: "58.8% 46.2%",
@@ -926,7 +926,7 @@ const CIVILISATIONS_REGISTRY = [
     epoch: "v. -1000 à -550 av. J.-C.",
     yearStart: -1000,
     yearEnd: -550,
-    lane: "anatolie",
+    lane: "iran_perse",
     themeColor: "#d68026",
     sidePos: "pos-left",
     travelingOrigin: "58.2% 45.8%",
@@ -959,7 +959,7 @@ const CIVILISATIONS_REGISTRY = [
     epoch: "v. -550 à -330 av. J.-C.",
     yearStart: -550,
     yearEnd: -330,
-    lane: "anatolie",
+    lane: "iran_perse",
     themeColor: "#c25916",
     sidePos: "pos-left",
     travelingOrigin: "59.2% 47.8%",
@@ -993,7 +993,7 @@ const CIVILISATIONS_REGISTRY = [
     epoch: "v. -247 av. J.-C. à +224 ap. J.-C.",
     yearStart: -247,
     yearEnd: 224,
-    lane: "anatolie",
+    lane: "iran_perse",
     themeColor: "#9a031e",
     sidePos: "pos-left",
     travelingOrigin: "59.5% 46.5%",
@@ -1027,7 +1027,7 @@ const CIVILISATIONS_REGISTRY = [
     epoch: "661 à 750 ap. J.-C.",
     yearStart: 661,
     yearEnd: 750,
-    lane: "mesopotamie",
+    lane: "islam",
     themeColor: "#588157",
     sidePos: "pos-left",
     travelingOrigin: "56.5% 47.0%",
@@ -1059,7 +1059,7 @@ const CIVILISATIONS_REGISTRY = [
     epoch: "750 à 1258 ap. J.-C.",
     yearStart: 750,
     yearEnd: 1258,
-    lane: "mesopotamie",
+    lane: "islam",
     themeColor: "#3a5a40",
     sidePos: "pos-left",
     travelingOrigin: "57.0% 46.8%",
@@ -1093,7 +1093,7 @@ const CIVILISATIONS_REGISTRY = [
     epoch: "909 à 1171 ap. J.-C.",
     yearStart: 909,
     yearEnd: 1171,
-    lane: "mesopotamie",
+    lane: "islam",
     themeColor: "#344e41",
     sidePos: "pos-left",
     travelingOrigin: "54.8% 49.0%",
@@ -1126,7 +1126,7 @@ const CIVILISATIONS_REGISTRY = [
     epoch: "1299 à 1922 ap. J.-C.",
     yearStart: 1299,
     yearEnd: 1500,
-    lane: "mesopotamie",
+    lane: "islam",
     themeColor: "#283618",
     sidePos: "pos-left",
     travelingOrigin: "54.5% 45.2%",
@@ -1465,7 +1465,7 @@ function buildTimelineBlocks() {
     block.style.backgroundColor = civ.themeColor + '35';
     block.style.borderColor = civ.themeColor;
 
-    block.innerHTML = `<span class="civ-block-title" style="color: ${civ.themeColor}">${civ.name}</span>`;
+    block.innerHTML = `<span class="civ-block-title" style="color: #ffffff; text-shadow: 0 0 6px ${civ.themeColor}, 0 1px 3px rgba(0,0,0,0.95);">${civ.name}</span>`;
 
     block.addEventListener('mouseenter', () => {
       if (!isLockedSidebar) showCivPreview(civ);
@@ -3236,7 +3236,10 @@ function jumpFromArtworkToTimeline(art) {
     matchedCiv = CIVILISATIONS_REGISTRY.find(c => {
       const matchLane = (c.lane === art.civId) ||
                         (art.civId === 'grece' && c.lane === 'egee') ||
-                        (art.civId === 'etrusque' && c.lane === 'italie_etrusque');
+                        (art.civId === 'etrusque' && c.lane === 'italie_etrusque') ||
+                        (art.civId === 'iran_perse' && c.lane === 'iran_perse') ||
+                        (art.civId === 'islam' && c.lane === 'islam') ||
+                        (art.civId === 'occident' && c.lane === 'europe_ouest');
       return matchLane && targetYear >= c.yearStart && targetYear <= c.yearEnd;
     });
   }
