@@ -856,6 +856,156 @@ if (btnCloseMovPop) {
 }
 
 /* ==========================================================================
+   BANQUE OFFICIELLE DES BANDEAUX PANORAMIQUES PAR CIVILISATION & TYPOLOGIE
+   ========================================================================== */
+const BANNERS_REGISTRY = {
+  // 1. Étrusques
+  etrusque: "https://lh3.googleusercontent.com/pw/AP1GczMagPC7ALz9ZSByTfCxcyiPK5nAkyXFrDt8j77Iv8s5Mre53djafrKvgT7j9qlaUW6wcBf0-u6yhF-rCQKRfjruslYUhA78A0DUDOqBELTxhNr-S8_f0hJi-VJ3iSZNts1qapfafvgx7kRaZOlxjS0YjQ=w1890-h801-s-no-gm?authuser=0",
+
+  // 2. Grèce par typologie & catégorie d'objets
+  grece_ceramique: "https://lh3.googleusercontent.com/pw/AP1GczPpJw7V8NoZYzB7f2WMQHHnveUo0h5G0Rg-KLZ6ZvVWTzhqUFGPKfF6em07xTsGIHWrhwyo24GNK65cmzjGWkS3KDeLcXYxzbLJ3ZnyJwQTYt4Ha5FEoVY2J23DbyiKsspu6LeMFNWRL0DKUdPIU8T1JA=w1890-h801-s-no-gm?authuser=0",
+  grece_mosaique: "https://lh3.googleusercontent.com/pw/AP1GczOYEpvjTMOf2fIIEz4I1uPT7eiKL10gMUj-4t1YktYN0e-HU6Qj45LK9GpIL-jaSvz_Waxi_L9mS_e3mv-T1m03IizB9gUMvVKsOy59w1-AhI6oPh1ZZlZzCFHYvYb2pcLXCgARNEDXNgMwUFFGUmdvAw=w1890-h801-s-no-gm?authuser=0",
+  grece_orfevrerie: "https://lh3.googleusercontent.com/pw/AP1GczNVxOdUsledESvQB7VYdgrA3RQD56pIot5xiKX2MY7HLsAQqHP017NPW-_xUfy-yNgPaYnc9_0Jj5dELrNzVyonwUocRv4BBgHH_A94UGCFPmX0CYIgvbYq1IgmoW9VeztUhu2PgmHcy2CKKkL772xzgw=w1890-h801-s-no-gm?authuser=0",
+  grece_peinture: "https://lh3.googleusercontent.com/pw/AP1GczNi0dZ4seTa3dSUQov00GEiJMAkhP4fQe5OBDBoVBZWp1tAzZo1tR299ODK3MF8ZF5GzMGX8xrvBqbwHjffbKYtwREbc6EZhf_Mm76u_oDVDdXJMsrUca9yd5uTgG1pFg_zGUTsOg3SBO3pN0X8mUzAqw=w1890-h801-s-no-gm?authuser=0",
+  grece_sculpture_funeraire: "https://lh3.googleusercontent.com/pw/AP1GczMod_TJrRL7RLvq2waTz0TGT81_TNpCyKZ2HQriF4puwxduB2de91nPXwLw5f2tKHYw1daVV3t8OpcYtsZnbDOgOQwTUwYM17GN84PS0Z7Zo6fPCq1IgauzDv-RlWRWvBOfqoTj1Dibhlvp25OKVk5vkA=w1890-h801-s-no-gm?authuser=0",
+  grece_sculpture_offrandes: "https://lh3.googleusercontent.com/pw/AP1GczPSDD9V1bULWCWRifk7yhGEwdrZVlj5ze1Qw46wNKCnzd-FEYpmbnEg8YTr_yqLmjFOvWoI0ld7iwMN--2oDWwU7aBLCQsdqga5gE2IM1NK80QMqgPS-k-3Z0gzS6oDieI2oUqLKOiOsXoh4sadHKqxDg=w1890-h801-s-no-gm?authuser=0",
+  grece_statuaire: "https://lh3.googleusercontent.com/pw/AP1GczMSaedlm2cGZ9IS0iFanRYVd-aGsqc0itrAl67vVLc8ziT6kpf9N0WVFKYvFNZWtXOsKcGjxpwGKzEp4JL4f7hE5d7AbbGfyM29BG9b0CHf2KC77y7d4XYQswxP06SQx4-f7u4xEsDkrpSLNE4BctJ8_A=w1890-h801-s-no-gm?authuser=0",
+  grece_sculpture_temples: "https://lh3.googleusercontent.com/pw/AP1GczMSoEmjuc1OwHYKr5CWY1dZRQr_YeMDgGy8YMISQS7IFBlK9QoSiK4gz2CeeqsyYjNO0QL-_wZFzJgtgNaMcZUWvGFalpg-qUrCaW9Jax0tCUnJoq5Nfke05_wetFNZOECfzqRy7lw7t570IcdNKdEpWQ=w1890-h801-s-no-gm?authuser=0",
+  grece_vie_quotidienne: "https://lh3.googleusercontent.com/pw/AP1GczMh3Of93eH_BcWiLpJCt1fmQWjZb7YamltKXuJlDJHG8BgWdueA1t2wITmJCsjKLtK--nbMREUIPyN_2XgKbzpJ8ytgfBLHiieZ5Uk0vrzcAMJXJIqs2PDA-X4jvbD_qW4pWaPUAy7UKoL_AvToAS6HoQ=w1890-h801-s-no-gm?authuser=0",
+
+  // 3. Art Ibères
+  ibere: "https://lh3.googleusercontent.com/pw/AP1GczNVVdvp-3FyVfDO09Ss_8r6RUjHMiwl5t_rzh5KjylXSFs_5Zqn9s37g1oKBO76bml7_9MTOM3TrfTNT73oDrYAZ4b0cBtLpjk017KGCfXP_O2A4Qy3XSSyb9TjpqSi4E6SOeKTdKsBePb9Z-cDf63-pg=w1890-h801-s-no-gm?authuser=0",
+
+  // 4. Iran & Perse
+  iran_proto_elamite: "https://lh3.googleusercontent.com/pw/AP1GczOhGiUy8lXHmxuMzEjVm-JiL6foAtjv48LjWRvsBqyf0Ebnbdh5rc9Muif3IGb55RZObvQKHrH_uS_MmclAnAVM1PszNuVGJNcWWCw_Gn4SwbzGDUO0SZ1M4K6-sAf8IyS5zw62sCW3UPY7rna4o9SsPw=w1890-h801-s-no-gm?authuser=0",
+  iran_elamite: "https://lh3.googleusercontent.com/pw/AP1GczMP4vIDBSMvi0MyzJswz32Tbi-vHgjYOTcpjg3AUVfyBiXUaTj547SeCL5VFxGdAupcMBNsA6XvclgCqgUvYcp-K2c8kEQf-b39bnDdoLIV1PtY1REzZy9Abi2DXEHfaRim77nXuWvqaua4ud3-U6XlxA=w1890-h801-s-no-gm?authuser=0",
+  iran_age_fer: "https://lh3.googleusercontent.com/pw/AP1GczO2ziEaxrWpwBX4ZjzSJmLSFBoNXYPc2g9T0XWljj6olD65Yn39CoLJaPRLbQkQJTjUMdwcQwfSHA_ql_zTB33Do2ffuQlqTAiVcILMG5GYxFZJVNsTLRhwV0JkDmSVKRV7_eEVv_h-lWwk1MMQpPyASQ=w1890-h801-s-no-gm?authuser=0",
+  perse_achemenide: "https://lh3.googleusercontent.com/pw/AP1GczPdFNOQXRRPoMr87X2_fDz1jZy269utiUiKOcLhywKnsq-Ribdn_ChdLfSSH_nMoQG2PkDKd_YTnfkJP-eMLh6o3Rrhi19nsb77lM_gUh-uRj334n-lGswfNGIwxDfvaiRABIp8u7XZBjDdvuBOjgEJxA=w1584-h672-s-no-gm?authuser=0",
+  perse_parthe: "https://lh3.googleusercontent.com/pw/AP1GczNZFfqRI4q1yJrgGfHUmMUV-Xlaw0utngrFgHP08LsSAivbsUGCbgXK-0bSllanMioXCuODnefOqv0oN9KneB_55i5tG97GNtknSZOgnmEUPFcTRgxqbl7fejJLIZhUppO5sbNwqQCMNXHT940m-kegsA=w1890-h801-s-no-gm?authuser=0",
+
+  // 5. Islam
+  islam_omeyyade: "https://lh3.googleusercontent.com/pw/AP1GczPPUxKxJfvu57VCTro-Ab_CAC4xpe1Tp1SDmjijFrxUA8_hLzpfQ0zffAjJ1DMUuR6nAfesBlrKZ3Pi5-0tCuweEJ-8B_iyVanC6kdFsDuFpyMkz4BpUI1QtoAQFRHOvRPLp-bmG833Va0-VF3IIBpHFw=w1584-h672-s-no-gm?authuser=0",
+  islam_aghlabide: "https://lh3.googleusercontent.com/pw/AP1GczN7NTIYhPAKxQC54E8kc32bg4k0jvzxOuaZGZqQb3pYDQHzCX5IqNX3VfRVxStxNvoAzKCTUChGn7xigNzktPK31AYhyhXlOcsXiZL8FDm2I9pw_gaT07bm-uIOC3EnIe3-MmHCrg35b_rkPUv16Y6t3Q=w1584-h672-s-no-gm?authuser=0",
+  islam_fatimide: "https://lh3.googleusercontent.com/pw/AP1GczMrdM3xFvI4le_0zC0JdU7hYY0GxlwLGluR_Dk89zPpycu1yr_yynarXnltsLHls5f1RfjbJbyQxgmVRevklcy0jntcoacFkMKlR715g9AhJWwZQ6IaH7frv7lsWdDA3t7S77zaI-4Dt0OLB1KFYKToug=w1584-h672-s-no-gm?authuser=0",
+  islam_ottoman: "https://lh3.googleusercontent.com/pw/AP1GczOZhMDb5OaFIwZT4vVzyyTIYTntM6wmN9K6ZVSXsABBSNm-LDP0rgml85ZPLOAXXPkxpFzUURX0dLJuka-7Icy1ribwJ6D89e1c9dF_QPejGN_LtF4DkEEO6yAvevTwr4eOC9Hz_ZIXr2xbjLBDrLg8Gw=w1584-h672-s-no-gm?authuser=0",
+
+  // 6. Italie préromaine
+  italie_preromaine: "https://lh3.googleusercontent.com/pw/AP1GczOoY5lJghuz-E_h0pUU1dNkcUYdPrjefepaJlu7Ifxe7Lu04FsY4YBPawQkppIDhTU3iZDWJv723DS8d4BrgcBKfYP-_9ULHpyqYQHGBFpoIW1PbGrxGKQQ4PVY7xzM_EynpKRuLKYBUiL0CfGzWex3rA=w1584-h672-s-no-gm?authuser=0"
+};
+
+function getArtworkBanner(art) {
+  if (!art) return "https://lh3.googleusercontent.com/d/1564-Uow3YDKT2Bu7pkKvjlUbMhoJYue_";
+
+  const cId = (art.civId || '').toLowerCase();
+  const pId = (art.periodId || '').toLowerCase();
+  const cat = (art.category || '').toLowerCase();
+  const aType = (art.artifactType || '').toLowerCase();
+  const domain = (art.domain || '').toLowerCase();
+  const title = (art.title || '').toLowerCase();
+  const fullText = `${cat} ${aType} ${domain} ${title}`;
+
+  // 1. GRÈCE ANTIQUE : Choix dynamique selon la catégorie de l'œuvre
+  const isGreek = cId === 'grece' || cId === 'egee' || pId.startsWith('grece_') || cId.startsWith('grece');
+  if (isGreek) {
+    if (fullText.includes('mosaïque') || fullText.includes('mosaique') || fullText.includes('emblema') || fullText.includes('tesselle')) {
+      return BANNERS_REGISTRY.grece_mosaique;
+    }
+    if (fullText.includes('orfèvrerie') || fullText.includes('orfevrerie') || fullText.includes('bijou') || fullText.includes('diadème') || fullText.includes('couronne d\'or') || fullText.includes('collier') || fullText.includes('bague') || fullText.includes('or martelé')) {
+      return BANNERS_REGISTRY.grece_orfevrerie;
+    }
+    if (fullText.includes('fresque') || fullText.includes('peinture') || fullText.includes('pinax') || fullText.includes('enduit peint')) {
+      return BANNERS_REGISTRY.grece_peinture;
+    }
+    if (fullText.includes('funéraire') || fullText.includes('funeraire') || fullText.includes('stèle funéraire') || fullText.includes('stele funeraire') || fullText.includes('larnax') || fullText.includes('sarcophage') || fullText.includes('naiskos') || fullText.includes('urne cinéraire')) {
+      return BANNERS_REGISTRY.grece_sculpture_funeraire;
+    }
+    if (fullText.includes('temple') || fullText.includes('fronton') || fullText.includes('métope') || fullText.includes('metope') || fullText.includes('frise') || fullText.includes('acropole') || fullText.includes('cariatide') || fullText.includes('télamon') || fullText.includes('acrotère')) {
+      return BANNERS_REGISTRY.grece_sculpture_temples;
+    }
+    if (fullText.includes('offrande') || fullText.includes('votive') || fullText.includes('ex-voto') || fullText.includes('trépied') || fullText.includes('coroplastie') || fullText.includes('tanagra') || fullText.includes('faviss')) {
+      return BANNERS_REGISTRY.grece_sculpture_offrandes;
+    }
+    if (fullText.includes('statue') || fullText.includes('statuaire') || fullText.includes('kouros') || fullText.includes('koré') || fullText.includes('kore') || fullText.includes('buste') || fullText.includes('ronde-bosse') || fullText.includes('bronze')) {
+      return BANNERS_REGISTRY.grece_statuaire;
+    }
+    if (fullText.includes('céramique') || fullText.includes('ceramique') || fullText.includes('vase') || fullText.includes('amphore') || fullText.includes('cratère') || fullText.includes('cratere') || fullText.includes('kylix') || fullText.includes('lécythe') || fullText.includes('lecythe') || fullText.includes('dinos') || fullText.includes('hydrie') || fullText.includes('œnochoé') || fullText.includes('oenochoe') || fullText.includes('skyphos') || fullText.includes('canthare') || fullText.includes('aryballe') || fullText.includes('alabastre') || fullText.includes('pithos') || fullText.includes('stamnos') || fullText.includes('terre cuite')) {
+      return BANNERS_REGISTRY.grece_ceramique;
+    }
+    if (fullText.includes('quotidien') || fullText.includes('monnaie') || fullText.includes('poids') || fullText.includes('mesure') || fullText.includes('outil') || fullText.includes('lampe') || fullText.includes('miroir') || fullText.includes('mobilier') || fullText.includes('poupée') || fullText.includes('plangone')) {
+      return BANNERS_REGISTRY.grece_vie_quotidienne;
+    }
+    return BANNERS_REGISTRY.grece_sculpture_temples;
+  }
+
+  // 2. ÉTRUSQUES
+  if (cId.startsWith('etrusque') || pId.startsWith('etrusque') || (cId === 'italie_etrusque' && !pId.includes('grande_grece') && !pId.includes('italie_peuples'))) {
+    return BANNERS_REGISTRY.etrusque;
+  }
+
+  // 3. ITALIE PRÉROMAINE & GRANDE-GRÈCE
+  if (pId === 'italie_grande_grece' || pId === 'italie_peuples' || cId === 'italie_preromaine' || fullText.includes('grande-grèce') || fullText.includes('italique')) {
+    return BANNERS_REGISTRY.italie_preromaine;
+  }
+
+  // 4. ART IBÈRE
+  if (cId === 'ibere' || cId.startsWith('ibere') || pId.startsWith('ibere')) {
+    return BANNERS_REGISTRY.ibere;
+  }
+
+  // 5. IRAN & PERSE
+  if (cId === 'iran_perse' || cId.startsWith('iran')) {
+    if (pId === 'iran_suse_proto' || fullText.includes('proto-élamite') || fullText.includes('suse i')) {
+      return BANNERS_REGISTRY.iran_proto_elamite;
+    }
+    if (pId === 'iran_elam' || fullText.includes('élam') || fullText.includes('elam') || fullText.includes('chogha zanbil')) {
+      return BANNERS_REGISTRY.iran_elamite;
+    }
+    if (pId === 'iran_fer' || fullText.includes('luristan') || fullText.includes('âge du fer')) {
+      return BANNERS_REGISTRY.iran_age_fer;
+    }
+    if (pId === 'iran_achemenide' || fullText.includes('achéménide') || fullText.includes('persepolis')) {
+      return BANNERS_REGISTRY.perse_achemenide;
+    }
+    if (pId === 'iran_parthe' || fullText.includes('parthe') || fullText.includes('arsacide')) {
+      return BANNERS_REGISTRY.perse_parthe;
+    }
+    return BANNERS_REGISTRY.perse_achemenide;
+  }
+
+  // 6. ISLAM
+  if (cId === 'islam' || cId.startsWith('islam')) {
+    if (pId === 'islam_omeyyade' || fullText.includes('omeyyade')) {
+      return BANNERS_REGISTRY.islam_omeyyade;
+    }
+    if (pId === 'islam_abbasside_aghlabide' || fullText.includes('aghlabide') || fullText.includes('abbasside')) {
+      return BANNERS_REGISTRY.islam_aghlabide;
+    }
+    if (pId === 'islam_fatimide' || fullText.includes('fatimide')) {
+      return BANNERS_REGISTRY.islam_fatimide;
+    }
+    if (pId === 'islam_ottoman' || fullText.includes('ottoman')) {
+      return BANNERS_REGISTRY.islam_ottoman;
+    }
+    return BANNERS_REGISTRY.islam_omeyyade;
+  }
+
+  // 7. Si l'objet a déjà son propre bandeau spécifique personnalisé (ex: Égypte, Canaries, Chypre, Celte)
+  if (art.deptBanner && !art.deptBanner.includes('1564-Uow3YDKT2Bu7pkKvjlUbMhoJYue_')) {
+    return art.deptBanner;
+  }
+
+  // 8. Repli sur le bandeau de la civilisation correspondante dans CIVILISATIONS_REGISTRY
+  if (Array.isArray(CIVILISATIONS_REGISTRY)) {
+    const matchedCiv = CIVILISATIONS_REGISTRY.find(c => c.id === art.periodId || c.id === art.civId || c.lane === art.civId);
+    if (matchedCiv && matchedCiv.bannerImg) {
+      return matchedCiv.bannerImg;
+    }
+  }
+
+  return "https://lh3.googleusercontent.com/d/1564-Uow3YDKT2Bu7pkKvjlUbMhoJYue_";
+}
+
+/* ==========================================================================
    REGISTRE INTÉGRAL DES CIVILISATIONS (TEXTES COMPLETS & CONTEXTES MONDIAUX)
    ========================================================================== */
 const CIVILISATIONS_REGISTRY = [
@@ -1190,7 +1340,7 @@ const CIVILISATIONS_REGISTRY = [
     sidePos: "pos-left",
     travelingOrigin: "52.8% 44.5%",
     haloId: "halo-grece",
-    bannerImg: "",
+    bannerImg: BANNERS_REGISTRY.grece_ceramique,
     mapOverlayUrl: "",
     albumUrl: "",
     presentationHtml: `
@@ -1225,7 +1375,7 @@ const CIVILISATIONS_REGISTRY = [
     sidePos: "pos-left",
     travelingOrigin: "52.8% 44.5%",
     haloId: "halo-grece",
-    bannerImg: "",
+    bannerImg: BANNERS_REGISTRY.grece_statuaire,
     mapOverlayUrl: "",
     albumUrl: "",
     presentationHtml: `
@@ -1260,7 +1410,7 @@ const CIVILISATIONS_REGISTRY = [
     sidePos: "pos-left",
     travelingOrigin: "52.8% 44.5%",
     haloId: "halo-grece",
-    bannerImg: "",
+    bannerImg: BANNERS_REGISTRY.grece_sculpture_temples,
     mapOverlayUrl: "",
     albumUrl: "",
     presentationHtml: `
@@ -1296,7 +1446,7 @@ const CIVILISATIONS_REGISTRY = [
     sidePos: "pos-left",
     travelingOrigin: "53.5% 45.0%",
     haloId: "halo-grece",
-    bannerImg: "",
+    bannerImg: BANNERS_REGISTRY.grece_mosaique,
     mapOverlayUrl: "",
     albumUrl: "",
     presentationHtml: `
@@ -1330,7 +1480,7 @@ const CIVILISATIONS_REGISTRY = [
     sidePos: "pos-left",
     travelingOrigin: "50.8% 41.5%",
     haloId: "halo-etrusque",
-    bannerImg: "",
+    bannerImg: BANNERS_REGISTRY.etrusque,
     mapOverlayUrl: "",
     albumUrl: "",
     presentationHtml: `
@@ -1364,7 +1514,7 @@ const CIVILISATIONS_REGISTRY = [
     sidePos: "pos-left",
     travelingOrigin: "50.8% 41.5%",
     haloId: "halo-etrusque",
-    bannerImg: "",
+    bannerImg: BANNERS_REGISTRY.etrusque,
     mapOverlayUrl: "",
     albumUrl: "",
     presentationHtml: `
@@ -1398,7 +1548,7 @@ const CIVILISATIONS_REGISTRY = [
     sidePos: "pos-left",
     travelingOrigin: "50.8% 41.5%",
     haloId: "halo-etrusque",
-    bannerImg: "",
+    bannerImg: BANNERS_REGISTRY.etrusque,
     mapOverlayUrl: "",
     albumUrl: "",
     presentationHtml: `
@@ -1432,7 +1582,7 @@ const CIVILISATIONS_REGISTRY = [
     sidePos: "pos-left",
     travelingOrigin: "51.8% 44.5%",
     haloId: "halo-etrusque",
-    bannerImg: "",
+    bannerImg: BANNERS_REGISTRY.italie_preromaine,
     mapOverlayUrl: "",
     albumUrl: "",
     presentationHtml: `
@@ -1560,7 +1710,7 @@ const CIVILISATIONS_REGISTRY = [
     sidePos: "pos-left",
     travelingOrigin: "58.8% 46.2%",
     haloId: "halo-iran_perse",
-    bannerImg: "",
+    bannerImg: BANNERS_REGISTRY.iran_proto_elamite,
     mapOverlayUrl: "",
     albumUrl: "",
     presentationHtml: `
@@ -1592,7 +1742,7 @@ const CIVILISATIONS_REGISTRY = [
     sidePos: "pos-left",
     travelingOrigin: "58.8% 46.2%",
     haloId: "halo-iran_perse",
-    bannerImg: "",
+    bannerImg: BANNERS_REGISTRY.iran_elamite,
     mapOverlayUrl: "",
     albumUrl: "",
     presentationHtml: `
@@ -1624,7 +1774,7 @@ const CIVILISATIONS_REGISTRY = [
     sidePos: "pos-left",
     travelingOrigin: "58.2% 45.8%",
     haloId: "halo-iran_perse",
-    bannerImg: "",
+    bannerImg: BANNERS_REGISTRY.iran_age_fer,
     mapOverlayUrl: "",
     albumUrl: "",
     presentationHtml: `
@@ -1657,7 +1807,7 @@ const CIVILISATIONS_REGISTRY = [
     sidePos: "pos-left",
     travelingOrigin: "59.2% 47.8%",
     haloId: "halo-iran_perse",
-    bannerImg: "",
+    bannerImg: BANNERS_REGISTRY.perse_achemenide,
     mapOverlayUrl: "",
     albumUrl: "",
     presentationHtml: `
@@ -1691,7 +1841,7 @@ const CIVILISATIONS_REGISTRY = [
     sidePos: "pos-left",
     travelingOrigin: "59.5% 46.5%",
     haloId: "halo-iran_perse",
-    bannerImg: "",
+    bannerImg: BANNERS_REGISTRY.perse_parthe,
     mapOverlayUrl: "",
     albumUrl: "",
     presentationHtml: `
@@ -1725,7 +1875,7 @@ const CIVILISATIONS_REGISTRY = [
     sidePos: "pos-left",
     travelingOrigin: "56.5% 47.0%",
     haloId: "halo-islam",
-    bannerImg: "",
+    bannerImg: BANNERS_REGISTRY.islam_omeyyade,
     mapOverlayUrl: "",
     albumUrl: "",
     presentationHtml: `
@@ -1757,7 +1907,7 @@ const CIVILISATIONS_REGISTRY = [
     sidePos: "pos-left",
     travelingOrigin: "57.0% 46.8%",
     haloId: "halo-islam",
-    bannerImg: "",
+    bannerImg: BANNERS_REGISTRY.islam_aghlabide,
     mapOverlayUrl: "",
     albumUrl: "",
     presentationHtml: `
@@ -1791,7 +1941,7 @@ const CIVILISATIONS_REGISTRY = [
     sidePos: "pos-left",
     travelingOrigin: "54.8% 49.0%",
     haloId: "halo-islam",
-    bannerImg: "",
+    bannerImg: BANNERS_REGISTRY.islam_fatimide,
     mapOverlayUrl: "",
     albumUrl: "",
     presentationHtml: `
@@ -1824,7 +1974,7 @@ const CIVILISATIONS_REGISTRY = [
     sidePos: "pos-left",
     travelingOrigin: "54.5% 45.2%",
     haloId: "halo-islam",
-    bannerImg: "",
+    bannerImg: BANNERS_REGISTRY.islam_ottoman,
     mapOverlayUrl: "",
     albumUrl: "",
     presentationHtml: `
@@ -1921,7 +2071,7 @@ const CIVILISATIONS_REGISTRY = [
     sidePos: "pos-left",
     travelingOrigin: "47.0% 45.5%",
     haloId: "halo-ibere",
-    bannerImg: "",
+    bannerImg: BANNERS_REGISTRY.ibere,
     mapOverlayUrl: "",
     albumUrl: "",
     presentationHtml: `
@@ -3585,11 +3735,7 @@ window.addEventListener('keydown', (e) => {
 });
 
 function populateModalData(art) {
-  if (art.deptBanner) {
-    modalDeptBannerImg.src = art.deptBanner;
-  } else {
-    modalDeptBannerImg.src = "https://lh3.googleusercontent.com/d/1564-Uow3YDKT2Bu7pkKvjlUbMhoJYue_";
-  }
+  modalDeptBannerImg.src = getArtworkBanner(art);
 
   const badgeLabel = art.artifactType || art.category || 'ŒUVRE D\'ART';
   const lexEntry = (typeof getTypologyLexiconEntry === 'function')
