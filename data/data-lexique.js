@@ -563,7 +563,38 @@ window.ART_TYPOLOGY_DEFINITIONS = {
     etymology: "Du latin statua, issu de statuere, « ériger, placer debout »",
     domain: "Sculpture monumentale & Funéraire",
     def: "Sculptures en ronde-bosse de bêtes réelles ou fantastiques (lions couchés ou rugissants, sphinges, panthères, griffons) sculptées dans la pierre (tuf, nenfro, marbre) et dressées aux entrées des tumulus, nécropoles ou sanctuaires comme gardiens sacrés (apotropaïques) veillant sur le sommeil des défunts."
-  }
+  },
+  // --- CÉRAMIQUE & ARTS D'ITALIE PRÉROMAINE & GRANDE-GRÈCE ---
+  "Céramique / Trozzella": {
+    title: "Trozzella / Nestoris",
+    etymology: "Du dialecte salentin trozza, « petite roue, rouelle »",
+    domain: "Céramique de Grande-Grèce & Messapie",
+    def: "Vase indigène d'Italie méridionale (Messapie, Lucanie) caractérisé par une panse ovoïde et deux hautes anses rubanées verticales surmontées de disques rotatifs ou rouelles (trozzen), réservé aux sépultures féminines aristocratiques."
+  },
+  "Céramique / Lébès-situle": {
+    title: "Lébès-situle",
+    etymology: "Composé du grec lebes (bassin) et du latin situla (seau)",
+    domain: "Céramique étrusco-falisque",
+    def: "Récipient cérémoniel hybride doté d'une panse sphérique et d'une anse mobile ou fixe, fréquemment doté d'un couvercle sommé de statuettes modelées en ronde-bosse (coroplathie)."
+  },
+  "Céramique / Skyphos": {
+    title: "Skyphos",
+    etymology: "Du grec ancien skýphos, « gobelet »",
+    domain: "Vase à boire antique",
+    def: "Gobelet profond ou tasse à boire à deux anses horizontales attachées près du bord, largement utilisé dans le banquet (symposion) grec et les fêtes rituelles italiques."
+  },
+  "Céramique / Vase passoire tripode": {
+    title: "Vase passoire tripode",
+    etymology: "Typologie rituelle daunienne",
+    domain: "Céramique d'Apulie & Daunie",
+    def: "Récipient posé sur trois pieds avec une panse munie d'un filtre perforé interne et d'un bec verseur tubulaire, employé pour purifier les libations ou filtrer le vin épicé lors des cérémonies."
+  },
+  "Peinture murale / Fresque funéraire sur dalle calcaire": {
+    title: "Fresque funéraire sur dalle calcaire",
+    etymology: "Peinture murale à la chaux sur calcaire local",
+    domain: "Peinture funéraire de Paestum & Grande-Grèce",
+    def: "Dalle de pierre peinte à la détrempe ornant les parois internes des tombes à caisson lucaniennes et paestanes, illustrant les rites d'adieu (prothesis), les combats guerriers et les jeux funéraires équestres (quadriges, biges)."
+  },
 };
 
 // 2. Dictionnaire des termes techniques, iconographiques et architecturaux (détectés automatiquement dans les notices)
@@ -1831,5 +1862,110 @@ window.ART_GLOSSARY = [
     category: "Vie quotidienne & Période ottomane",
     def: "Fourneau de pipe en terre cuite rouge, ocre ou grise, façonné à la main ou au moule et raccordé à un long tuyau de bois amovible (chibouque). Répandu dans tout l'Empire ottoman et les Régences maghrébines (comme au Ribat de Monastir) à partir du XVIIe-XVIIIe siècle, le lulé est souvent orné de cannelures, de motifs floraux et de cachets de potiers, témoignant de l'essor des rituels de sociabilité autour du café et du tabac.",
     patterns: ["lulé", "lule", "pipe ottomane", "fourneau de pipe"]
-  }
+  },
+  {
+    term: "Trozzella",
+    def: "Vase rituel typique de la Messapie (Pouilles) aux anses élevées portant des disques rotatifs ou rouelles feintes (trozzen), déposé dans les tombes de femmes de haut rang.",
+    category: "Typologie & Céramique antique"
+  ,
+    etymology: "Du dialecte salentin trozza, « petite roue, rouelle »",
+    patterns: ['trozzella', 'trozzelle', 'trozzen']},
+  {
+    term: "Nestoris",
+    def: "Dénomination grecque de la trozzella d'Italie du Sud, reprise et adaptée par les ateliers lucaniens à figures rouges pour des scènes mythologiques et funéraires complexes.",
+    category: "Typologie & Céramique antique"
+  ,
+    etymology: "Du grec ancien nestorís, nom savant de la trozzella",
+    patterns: ['nestoris']},
+  {
+    term: "Lébès-situle",
+    def: "Vase d'apparat caractéristique des ateliers falisques (Falerii, Bomarzo), combinant le corps ventru du lébès et le col avec anse de la situle, souvent doté d'un couvercle surmonté de figurines modelées.",
+    category: "Typologie & Céramique antique"
+  ,
+    etymology: "Du grec lebes (bassin) et latin situla (seau)",
+    patterns: ['lébès-situle', 'lebes-situle', 'lébès-situles']},
+  {
+    term: "Situle",
+    def: "Récipient en bronze ou en terre cuite en forme de seau tronconique doté d'une anse arquée, au rôle éminent dans les libations cérémonielles de l'Italie préromaine.",
+    category: "Typologie & Céramique antique"
+  ,
+    etymology: "Du latin situla, « seau, seau à puiser »",
+    patterns: ['situle', 'situles', 'amphore-situle']},
+  {
+    term: "Skyphos",
+    def: "Gobelet profond à deux petites anses horizontales, servant au service du vin pur ou coupé lors des banquets grecs et italiques.",
+    category: "Typologie & Céramique antique"
+  ,
+    etymology: "Du grec ancien skýphos, « gobelet, tasse à boire »",
+    patterns: ['skyphos']},
+  {
+    term: "Vase passoire",
+    def: "Vase technique muni d'une grille perforée interne et d'un bec d'écoulement tubulaire, utilisé pour décanter les boissons fermentées (vin, bière, tisanes rituelles) et filtrer les résidus végétaux.",
+    category: "Typologie & Céramique antique"
+  ,
+    etymology: "Typologie technique et rituelle daunienne",
+    patterns: ['vase passoire', 'vases passoires']},
+  {
+    term: "Quadrige",
+    def: "Char de course ou d'apparat attelé de front à quatre chevaux, conduit par un aurige armé de rênes multiples, symbole de gloire athlétique et d'apothéose funéraire dans les nécropoles de Paestum.",
+    category: "Iconographie & Militaire antique"
+  ,
+    etymology: "Du latin quadriga, « attelage à quatre chevaux »",
+    patterns: ['quadrige', 'quadriges']},
+  {
+    term: "Bige",
+    def: "Char léger à deux roues attelé de deux chevaux de front, très populaire dans les jeux funéraires de Grande-Grèce et les courses de cirque.",
+    category: "Iconographie & Militaire antique"
+  ,
+    etymology: "Du latin bigae, « attelage à deux chevaux »",
+    patterns: ['bige', 'biges']},
+  {
+    term: "Thymiaterion",
+    def: "Brûle-parfum monté sur piédestal ou trépied, servant à consumer de l'encens ou des gommes aromatiques pour purifier l'espace sacré lors des banquets, des libations et des veillées funèbres.",
+    category: "Mobilier & Rites sacrés"
+  ,
+    etymology: "Du grec thymiatêrion, « brûle-parfum »",
+    patterns: ['thymiaterion', 'thymiateria', 'brûle-parfum']},
+  {
+    term: "Knielauf",
+    def: "Convention iconographique archaïque de la « course agenouillée » où le personnage (notamment la Gorgone) est figuré les jambes fléchies à angle droit pour suggérer une vitesse surnaturelle et foudroyante.",
+    category: "Iconographie & Formes archaïques"
+  ,
+    etymology: "De l'allemand Knielauf, « course à genoux »",
+    patterns: ['knielauf', 'course agenouillée']},
+  {
+    term: "Clipeus",
+    def: "Grand bouclier rond en bronze ou en bois doublé de cuir, utilisé par les hoplites grecs et les guerriers italiques, portant souvent un motif apotropaïque au centre (Gorgonéion).",
+    category: "Armement & Militaire antique"
+  ,
+    etymology: "Du latin clipeus, « bouclier rond »",
+    patterns: ['clipeus', 'bouclier rond']},
+  {
+    term: "Coroplaste",
+    def: "Artisan et sculpteur modeleur d'argile spécialisé dans la fabrication de figurines, reliefs et terres cuites architecturales polychromes (antéfixes, statuettes de tombes).",
+    category: "Techniques & Métiers antiques"
+  ,
+    etymology: "Du grec koroplástês, « modeleur de statuettes de terre »",
+    patterns: ['coroplaste', 'coroplastes', 'coroplathie']},
+  {
+    term: "Peucétien",
+    def: "Relatif aux Peucétiens, peuple italique iapyge établi en Apulie centrale (autour de Bari), réputé pour sa céramique indigène aux motifs géométriques et svastikas bichromes.",
+    category: "Civilisations & Peuples italiques"
+  ,
+    etymology: "Relatif au peuple iapyge des Peucétiens en Apulie",
+    patterns: ['peucétien', 'peucétienne', 'peucétiens', 'peucétiennes']},
+  {
+    term: "Falisque",
+    def: "Relatif aux Falisques, peuple d'Italie centrale de langue indo-européenne proche du latin établi dans la vallée du Tibre (Falerii Veteres, Narce), réputé pour sa production céramique à figures rouges et d'impasto.",
+    category: "Civilisations & Peuples italiques"
+  ,
+    etymology: "Relatif aux Falisques de la vallée du Tibre",
+    patterns: ['falisque', 'falisques']},
+  {
+    term: "Lucanien",
+    def: "Relatif aux Lucaniens, peuple italique d'origine samnite ayant conquis la Campanie méridionale et Paestum au Ve siècle av. J.-C., remarquable pour ses fresques funéraires à fresque peintes sur dalles de tombes.",
+    category: "Civilisations & Peuples italiques"
+  ,
+    etymology: "Relatif aux Lucaniens de Campanie et de Paestum",
+    patterns: ['lucanien', 'lucanienne', 'lucaniens', 'lucaniennes']},
 ];

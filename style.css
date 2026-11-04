@@ -2471,7 +2471,7 @@ body {
   }
 
   #master-timeline-bar {
-    height: 245px !important;
+    height: 380px !important;
   }
 
   .lane-fixed-label,
@@ -2479,8 +2479,30 @@ body {
     height: 24px !important;
   }
 
+  .lane-fixed-label.is-double-track,
+  .timeline-lane.is-double-track {
+    height: 48px !important;
+    min-height: 48px !important;
+  }
+
+  .timeline-lane.has-submovements-expanded,
+  .lane-fixed-label.has-submovements-expanded {
+    height: 84px !important;
+    min-height: 84px !important;
+  }
+
   .civ-timespan-block {
     height: 20px !important;
+  }
+
+  .civ-timespan-block.track-0.in-double-lane {
+    top: 2px !important;
+    height: 19px !important;
+  }
+
+  .civ-timespan-block.track-1 {
+    top: 24px !important;
+    height: 19px !important;
   }
 
   .civ-block-title {

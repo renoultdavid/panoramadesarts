@@ -797,10 +797,11 @@ function showMovementPopover(mov, barEl) {
       const artistHero = document.getElementById('artist-monograph-hero');
       if (artistHero) artistHero.hidden = true;
 
-      // Définir la requête dans l'input réel id="filter-text"
+      // Définir la requête et le filtre exact du mouvement
+      activeMovementFilter = mov;
       const filterText = document.getElementById('filter-text');
       if (filterText) {
-        filterText.value = mov.filterKeyword || mov.name;
+        filterText.value = mov.name;
       }
       activeChipExactFilter = '';
       focusOnlyActive = false;
@@ -5453,6 +5454,7 @@ function initSearchEngine() {
 
   if (filterText) {
     filterText.addEventListener('input', () => {
+      activeMovementFilter = null;
       activeChipExactFilter = '';
       if (artistHero && !artistHero.hidden) {
         const heroName = (artistHeroName ? artistHeroName.textContent : '').toLowerCase().trim();
@@ -5476,6 +5478,7 @@ function initSearchEngine() {
 
   if (btnReset) {
     btnReset.addEventListener('click', () => {
+      activeMovementFilter = null;
       activeChipExactFilter = '';
       if (artistHero) artistHero.hidden = true;
       if (corpusDashboard) corpusDashboard.hidden = true;
@@ -5522,6 +5525,7 @@ function initSearchEngine() {
     updateTypeDropdown();
 
     // 4. Appliquer le filtre sur l'étiquette cliquée
+    activeMovementFilter = null;
     activeChipExactFilter = cleanChip;
     if (filterText) filterText.value = cleanChip;
     currentRenderLimit = PAGE_CHUNK;
@@ -5548,6 +5552,7 @@ function initSearchEngine() {
 // Variable globale pour mémoriser si le filtre Focus ou un filtre par étiquette (chip) est actif
 let focusOnlyActive = false;
 let activeChipExactFilter = '';
+let activeMovementFilter = null;
 
 function normalizeSearchStr(str) {
   return String(str || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim();
@@ -5741,8 +5746,11 @@ function renderSearchGallery() {
       if (!matchDirect && !matchAlab) return false;
     }
 
-    // 5. Recherche libre ou filtrage transversal par étiquette (chip)
-    if (query && !isArtistView) {
+    // 5. Filtrage transversal par mouvement, étiquette (chip) ou recherche libre
+    if (activeMovementFilter && !isArtistView) {
+      const matchMovList = getArtworksForMovement(activeMovementFilter);
+      if (!matchMovList.some(m => m.id === item.id)) return false;
+    } else if (query && !isArtistView) {
       const normQuery = normalizeSearchStr(query);
       const isChipMode = activeChipExactFilter && normalizeSearchStr(activeChipExactFilter) === normQuery;
 
