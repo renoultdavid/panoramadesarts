@@ -1968,4 +1968,74 @@ window.ART_GLOSSARY = [
   ,
     etymology: "Relatif aux Lucaniens de Campanie et de Paestum",
     patterns: ['lucanien', 'lucanienne', 'lucaniens', 'lucaniennes']},
+  {
+    term: "Dolmen à couloir",
+    def: "Architecture funéraire mégalithique composée d'un couloir d'accès délimité par des dalles verticales (orthostates) menant à une chambre funéraire circulaire ou polygonale recouverte d'une ou plusieurs tables monolithes.",
+    category: "Architecture funéraire mégalithique",
+    etymology: "Du breton taol (« table ») et maen (« pierre »)",
+    patterns: ['dolmen à couloir', 'dolmens à couloir', 'dolmen a couloir']
+  },
+  {
+    term: "Dolmen coudé",
+    def: "Variante mégalithique atlantique où le couloir d'accès forme un angle marqué (souvent droit ou obtus) avant d'atteindre la chambre funéraire (ex. Les Pierres Plates à Locmariaquer, Le Grah Niol).",
+    category: "Architecture funéraire mégalithique",
+    etymology: "En raison du coude formé par l'axe du couloir d'accès",
+    patterns: ['dolmen coudé', 'dolmens coudés', 'dolmen coude']
+  },
+  {
+    term: "Orthostate",
+    def: "Dalle de pierre brute ou taillée dressée verticalement, servant de paroi porteuse dans une sépulture mégalithique ou de parement mural monumental dans l'Antiquité.",
+    category: "Architecture & Mégalithisme",
+    etymology: "Du grec orthostátês, « qui se tient debout »",
+    patterns: ['orthostate', 'orthostates']
+  },
+  {
+    term: "Péristalithe",
+    def: "Couronne ou cercle de dalles de pierre dressées entourant un tumulus, un cairn ou une tombe mégalithique, délimitant l'espace funéraire sacré (ex. Monte Revincu en Corse).",
+    category: "Architecture & Mégalithisme",
+    etymology: "Du grec perí (« autour ») et líthos (« pierre »)",
+    patterns: ['péristalithe', 'péristalithes', 'peristalithe']
+  },
+  {
+    term: "Cairn",
+    def: "Monument funéraire néolithique constitué d'un amas artificiel structuré de pierres sèches protégeant et scellant une ou plusieurs chambres dolméniques.",
+    category: "Architecture funéraire mégalithique",
+    etymology: "Du gaélique càrn, « tas de pierres »",
+    patterns: ['cairn', 'cairns']
+  },
+  {
+    term: "Tumulus",
+    def: "Colline ou tertre artificiel de terre et de pierres recouvrant une sépulture funéraire collective ou aristocratique (ex. Tumulus du Mané Lud).",
+    category: "Architecture funéraire",
+    etymology: "Du latin tumulus, « tertre, tombeau élevé »",
+    patterns: ['tumulus']
+  },
+  {
+    term: "Grès roussard",
+    def: "Grès ferrugineux typique du Bassin parisien et du Maine (Sarthe), riche en oxydes de fer lui conférant une teinte brun-roux caractéristique, abondamment exploité par les bâtisseurs mégalithiques (Duneau, Torcé).",
+    category: "Matériaux & Pétrographie",
+    etymology: "De la couleur rousse caractéristique conférée par l'oxyde de fer",
+    patterns: ['grès roussard', 'gres roussard']
+  },
+  {
+    term: "Piquetage",
+    def: "Technique de gravure rupestre néolithique consistant à marteler la surface du granite à l'aide d'un percuteur en pierre dure (quartz, silex) pour façonner des motifs symboliques en creux.",
+    category: "Techniques de gravure néolithique",
+    etymology: "Du verbe piqueter, marteler par petits impacts",
+    patterns: ['piquetage', 'piquetages', 'piqueté']
+  },
+  {
+    term: "Sarcophage en carène",
+    def: "Tombeau monumental lycien en calcaire dont le couvercle adopte le profil d'une quille de navire renversée ou d'une voûte en berceau brisé, imitant dans la pierre les charpentes de bois traditionnelles anatoliennes.",
+    category: "Architecture funéraire lycienne",
+    etymology: "De carène, quille d'un bateau",
+    patterns: ['toit en carène', 'sarcophage en carène', 'carène']
+  },
+  {
+    term: "Drapé mouillé",
+    def: "Procédé sculptural grec classique tardif où le vêtement semble adhérer intimement au corps féminin comme s'il était mouillé, révélant la silhouette anatomique sous-jacente tout en animant la statue d'un jeu virtuose de plis flottants.",
+    category: "Sculpture & Esthétique classique",
+    etymology: "Effet d'un textile imbibé d'eau collant au corps",
+    patterns: ['drapé mouillé', 'drapés mouillés', 'drape mouille']
+  },
 ];

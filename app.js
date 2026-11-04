@@ -965,7 +965,16 @@ const BANNERS_REGISTRY = {
   islam_ottoman: "https://lh3.googleusercontent.com/pw/AP1GczOZhMDb5OaFIwZT4vVzyyTIYTntM6wmN9K6ZVSXsABBSNm-LDP0rgml85ZPLOAXXPkxpFzUURX0dLJuka-7Icy1ribwJ6D89e1c9dF_QPejGN_LtF4DkEEO6yAvevTwr4eOC9Hz_ZIXr2xbjLBDrLg8Gw=w1584-h672-s-no-gm?authuser=0",
 
   // 6. Italie préromaine
-  italie_preromaine: "https://lh3.googleusercontent.com/pw/AP1GczOoY5lJghuz-E_h0pUU1dNkcUYdPrjefepaJlu7Ifxe7Lu04FsY4YBPawQkppIDhTU3iZDWJv723DS8d4BrgcBKfYP-_9ULHpyqYQHGBFpoIW1PbGrxGKQQ4PVY7xzM_EynpKRuLKYBUiL0CfGzWex3rA=w1584-h672-s-no-gm?authuser=0"
+  italie_preromaine: "https://lh3.googleusercontent.com/pw/AP1GczOoY5lJghuz-E_h0pUU1dNkcUYdPrjefepaJlu7Ifxe7Lu04FsY4YBPawQkppIDhTU3iZDWJv723DS8d4BrgcBKfYP-_9ULHpyqYQHGBFpoIW1PbGrxGKQQ4PVY7xzM_EynpKRuLKYBUiL0CfGzWex3rA=w1584-h672-s-no-gm?authuser=0",
+
+  // 7. Levant & Syrie antique
+  levant: "https://lh3.googleusercontent.com/pw/AP1GczOnC3oLVSItvphSoQOtSeJvZxjjFfiKsyXkNCquyY2TRUKFhrP_HFSl35iP6PKfViuNktLWNVen4-Ew6D6lWLOt_ijI0j1CmWMv7zBEuyCfdx0RE-YLIYE5B6s4Lm8v5VIcLbnhpRdkJQnBjPgI0oCd1Q=w1584-h672-s-no-gm?authuser=0",
+
+  // 8. Lycie & Anatolie
+  lycie: "https://lh3.googleusercontent.com/pw/AP1GczOSDHpfs-aXc-32YYneUloHM7JJFb5Fr4n5ZtObpNtFbDVvAWbRRGMeDI45FFxXeKCEowEanB_YMa3RQdS93USduNM7AZJaqBWGu58hhf_Z0klXcBCwP5tIbeKJIKq_atja6Ciuxj9pJO9MZHmNJBMQAA=w1584-h672-s-no-gm?authuser=0",
+
+  // 9. Europe néolithique & Mégalithes
+  megalithes: "https://lh3.googleusercontent.com/pw/AP1GczOPZxgO0NSmkk1GKgZtGd21P_8NTwRRHu9ffq5GfChlC7wZjNREn50Fotqv_BGDnTMqMWU8NxqCbFR8QJ2GU6SOPSPfwDJZmpvFTmDe14u6j_hw7xis6iVC8owFonwP9rZOxRsLzenhaKjad11EVADCrg=w1584-h672-s-no-gm?authuser=0" 
 };
 
 function getArtworkBanner(art) {
@@ -1062,6 +1071,21 @@ function getArtworkBanner(art) {
       return BANNERS_REGISTRY.islam_ottoman;
     }
     return BANNERS_REGISTRY.islam_omeyyade;
+  }
+
+  // 7. LYCIE & ASIE MINEURE
+  if (pId === 'lycie_anatolie' || cId === 'lycie' || fullText.includes('lycie') || fullText.includes('xanthe') || fullText.includes('payava') || fullText.includes('néréides') || fullText.includes('nereides')) {
+    return BANNERS_REGISTRY.lycie;
+  }
+
+  // 8. LEVANT & SYRIE ANTIQUE
+  if (cId === 'levant_phenicie' || pId === 'amorrite' || pId === 'syrie_bronze' || fullText.includes('ougarit') || fullText.includes('syrie') || fullText.includes('levant')) {
+    return BANNERS_REGISTRY.levant;
+  }
+
+  // 9. EUROPE NÉOLITHIQUE & MÉGALITHES
+  if (pId === 'neolithique_megalithes' || fullText.includes('mégalithe') || fullText.includes('megalithe') || fullText.includes('dolmen') || fullText.includes('tumulus') || fullText.includes('cairn') || fullText.includes('néolithique') || fullText.includes('neolithique')) {
+    return BANNERS_REGISTRY.megalithes;
   }
 
   // 7. Si l'objet a déjà son propre bandeau spécifique personnalisé (ex: Égypte, Canaries, Chypre, Celte)
@@ -1754,7 +1778,7 @@ const CIVILISATIONS_REGISTRY = [
     sidePos: "pos-left",
     travelingOrigin: "55.8% 44.2%",
     haloId: "halo-amorrite",
-    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczPHGkCZm47O1gOL4Ui6nLL0Q0omROV3pafBxYT6WkYFLnvfgyA9yAFCMg-GL6KLpqobLqfxmnJGBF0ph464anxAlRWeZAsc5daaMrcP4s9FK1oijdIqs4hZQ1WP-EtZnYfMwWvkfacKZQ5JF6diThA3RA=w1620-h688-s-no-gm?authuser=0",
+    bannerImg: BANNERS_REGISTRY.levant,
     mapOverlayUrl: "https://lh3.googleusercontent.com/d/1O9GXVfPkuswX5DorBUgBxfZc-209aoh8",
     albumUrl: "https://photos.google.com",
     presentationHtml: `
@@ -1771,6 +1795,38 @@ const CIVILISATIONS_REGISTRY = [
     `,
     themeAlbums: [
       { label: "🗿 Statuaire & Code de Hammurabi", url: "" }
+    ],
+    artifacts: []
+  },
+  {
+    id: "lycie_anatolie",
+    name: "Civilisation de Lycie & Asie Mineure",
+    epoch: "v. -600 à -300 av. J.-C.",
+    yearStart: -600,
+    yearEnd: -300,
+    lane: "syrie",
+    themeColor: "#b08968",
+    sidePos: "pos-left",
+    travelingOrigin: "53.2% 43.8%",
+    haloId: "halo-lycie",
+    bannerImg: BANNERS_REGISTRY.lycie,
+    mapOverlayUrl: "",
+    albumUrl: "https://photos.google.com",
+    presentationHtml: `
+      <p><strong>L'art des tombeaux rupestres et le carrefour culturel anatolien</strong><br>
+      Établie sur les côtes montagneuses du sud-ouest de l'Anatolie, la civilisation lycienne a développé entre le VIe et le IVe siècle av. J.-C. une culture singulière et farouchement indépendante, façonnée au contact des Perses achéménides et du monde grec égéen.</p>
+      <p>L'architecture funéraire constitue le couronnement de l'art lycien : les hypogées taillés à flanc de falaise et les spectaculaires sarcophages surélevés à toit en carène (ogival brisé) imitent dans la pierre les structures de charpente en bois des demeures indigènes. Les tombeaux dynastiques, tels le tombeau de Payava et le monumental temple des Néréides de Xanthe, marient la narration héroïque perse aux sommets de la statuaire grecque classique au drapé mouillé.</p>
+      <p>Écrivant leur propre langue anatolienne à l'aide d'un alphabet dérivé du grec, les princes lyciens ont su préserver leur identité locale tout en commandant aux meilleurs sculpteurs de l'époque des chefs-d'œuvre de renommée universelle.</p>
+    `,
+    concurrentHtml: `
+      <p><strong>Le monde classique au IVe siècle av. J.-C.</strong></p>
+      <p>Alors que la Lycie érige les mausolées sculptés de Xanthe, la Grèce voit s'épanouir le second classicisme avec Praxitèle et Lysippe.<br>
+      L'Empire achéménide administre l'Asie Mineure par l'entremise de ses satrapes.<br>
+      En Macédoine, Philippe II prépare l'épopée unificatrice d'Alexandre le Grand.</p>
+    `,
+    themeAlbums: [
+      { label: "🏛️ Monuments funéraires de Xanthe", url: "" },
+      { label: "🗿 Sculpture & Néréides", url: "" }
     ],
     artifacts: []
   },
@@ -2069,6 +2125,37 @@ const CIVILISATIONS_REGISTRY = [
       { label: "🏺 Céramiques & Carreaux d'Iznik", url: "" },
       { label: "🖋️ Calligraphie & Tughras impériaux", url: "" },
       { label: "🏛️ Architecture de Mimar Sinan", url: "" }
+    ],
+    artifacts: []
+  },
+  {
+    id: "neolithique_megalithes",
+    name: "Europe néolithique & Mégalithes",
+    epoch: "v. -4500 à -2200 av. J.-C.",
+    yearStart: -4500,
+    yearEnd: -2200,
+    lane: "europe_ouest",
+    themeColor: "#2d6a4f",
+    sidePos: "pos-left",
+    travelingOrigin: "47.2% 41.0%",
+    haloId: "halo-megalithes",
+    bannerImg: BANNERS_REGISTRY.megalithes,
+    mapOverlayUrl: "",
+    albumUrl: "https://photos.google.com",
+    presentationHtml: `
+      <p><strong>Les premiers bâtisseurs de pierre monumentale d'Europe occidentale</strong><br>
+      Dès le Ve millénaire avant notre ère, bien avant l'édification des grandes pyramides d'Égypte, les premières communautés agropastorales de la façade atlantique et méditerranéenne (Bretagne, Irlande, péninsule Ibérique, Corse) dressent de gigantesques architectures de pierre qui transforment durablement le paysage européen.</p>
+      <p>Dolmens à couloir, allées couvertes et tumulus colossaux (Mané Lud, Mané Réthual, Pierres Plates) constituent à la fois des sépultures collectives sanctuarisées et de puissants repères territoriaux. L'art mégalithique se déploie à travers des gravures piquetées énigmatiques : crosses pastorales, écussons, haches emmanchées et signes naviformes célébrant le cycle de la vie, de la mort et du cosmos.</p>
+      <p>Ce phénomène pan-européen témoigne d'une prodigieuse maîtrise technique du déplacement des masses monolithes de plusieurs dizaines de tonnes et d'une organisation sociale hautement structurée, fondée sur le culte des ancêtres.</p>
+    `,
+    concurrentHtml: `
+      <p><strong>L'aube des civilisations aux Ve-IVe millénaires av. J.-C.</strong></p>
+      <p>Pendant que les bâtisseurs de dolmens dressent leurs cairns monumentaux sur les côtes atlantiques, la Mésopotamie voit naître les premières cités d'Uruk et l'invention de l'écriture cunéiforme.<br>
+      En Égypte, la période prédynastique de Nagada prépare l'unification du pays sous le premier pharaon Narmer.</p>
+    `,
+    themeAlbums: [
+      { label: "🪨 Dolmens à couloir & Allées couvertes", url: "" },
+      { label: "✨ Art gravé néolithique", url: "" }
     ],
     artifacts: []
   },
@@ -5751,8 +5838,8 @@ function renderSearchGallery() {
       else if (selectedCiv === 'egee' && cId !== 'egee' && !['cyclades', 'crete', 'mycenes'].includes(cId)) return false;
       else if (selectedCiv === 'italie_etrusque' && cId !== 'italie_etrusque' && !cId.startsWith('etrusque') && !cId.startsWith('italie')) return false;
       else if (selectedCiv === 'chypre' && !cId.startsWith('chypre')) return false;
-      else if (selectedCiv === 'celte_europe' && !cId.startsWith('celte')) return false;
-      else if (selectedCiv === 'levant_phenicie' && !['levant_phenicie', 'amorrite', 'syrie_bronze', 'phenicie_fer', 'lycie_anatolie'].includes(cId)) return false;
+      else if (selectedCiv === 'celte_europe' && !cId.startsWith('celte') && !cId.startsWith('neolithique')) return false;
+      else if (selectedCiv === 'levant_phenicie' && !['levant_phenicie', 'amorrite', 'syrie_bronze', 'phenicie_fer', 'lycie_anatolie'].includes(cId) && !cId.startsWith('lycie') && !cId.startsWith('levant')) return false;
       else if (selectedCiv === 'canaries' && cId !== 'canaries') return false;
       else if (selectedCiv === 'ibere' && !cId.startsWith('ibere')) return false;
       else if (selectedCiv === 'iran_perse' && !cId.startsWith('iran')) return false;
