@@ -1400,7 +1400,7 @@ body {
 
 /* FRISE MAÎTRESSE */
 #master-timeline-bar {
-  height: 405px;
+  height: 480px;
   background: linear-gradient(to top, rgba(4, 5, 7, 0.98) 0%, rgba(14, 17, 24, 0.94) 100%);
   border-top: 1px solid rgba(212, 175, 55, 0.2);
   display: flex;
@@ -1768,6 +1768,12 @@ body {
   flex-direction: column;
   z-index: 25;
   box-shadow: 4px 0 15px rgba(0, 0, 0, 0.8);
+  cursor: grab;
+  user-select: none;
+}
+
+#timeline-labels-column:active {
+  cursor: grabbing;
 }
 
 .lane-fixed-label {
@@ -1818,8 +1824,8 @@ body {
 }
 
 .timeline-lane-spacer {
-  height: 95px;
-  min-height: 95px;
+  height: 20px;
+  min-height: 20px;
   flex-shrink: 0;
   pointer-events: none;
 }

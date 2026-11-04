@@ -745,7 +745,10 @@ function getArtworksForMovement(mov) {
   });
 }
 
-function showMovementPopover(mov, barEl, isLocked = false) {
+let movPopHideTimer = null;
+
+function showMovementPopover(mov, barEl) {
+  clearTimeout(movPopHideTimer);
   const popover = document.getElementById('art-movement-popover');
   if (!popover) return;
 
@@ -780,9 +783,7 @@ function showMovementPopover(mov, barEl, isLocked = false) {
 
     btnExplore.onclick = (e) => {
       e.stopPropagation();
-      popover.style.display = 'none';
-      popover.style.opacity = '0';
-      delete popover.dataset.locked;
+      hideMovementPopover(true);
 
       // Réinitialiser les filtres pour basculer en mode recherche du mouvement
       const filterCiv = document.getElementById('filter-civ');
@@ -812,16 +813,20 @@ function showMovementPopover(mov, barEl, isLocked = false) {
   }
 
   const rect = barEl.getBoundingClientRect();
-  const popWidth = 320;
+  const popWidth = 330;
   let leftPos = rect.left + rect.width / 2 - popWidth / 2;
   if (leftPos + popWidth > window.innerWidth - 20) {
     leftPos = window.innerWidth - popWidth - 20;
   }
   leftPos = Math.max(15, leftPos);
 
-  let topPos = rect.top - 240;
+  const popHeight = 240;
+  let topPos = rect.top - popHeight - 10;
   if (topPos < 10) {
-    topPos = rect.bottom + 12;
+    topPos = rect.bottom + 10;
+  }
+  if (topPos + popHeight > window.innerHeight - 10) {
+    topPos = Math.max(10, window.innerHeight - popHeight - 10);
   }
 
   popover.style.left = `${leftPos}px`;
@@ -832,26 +837,44 @@ function showMovementPopover(mov, barEl, isLocked = false) {
   });
 }
 
+function scheduleHideMovementPopover(delay = 180) {
+  clearTimeout(movPopHideTimer);
+  movPopHideTimer = setTimeout(() => {
+    hideMovementPopover(true);
+  }, delay);
+}
+
 function hideMovementPopover(force = false) {
+  clearTimeout(movPopHideTimer);
   const popover = document.getElementById('art-movement-popover');
   if (!popover) return;
-  if (force || !popover.dataset.locked) {
-    popover.style.opacity = '0';
-    setTimeout(() => {
-      if (popover.style.opacity === '0') popover.style.display = 'none';
-    }, 200);
-  }
+  popover.style.opacity = '0';
+  setTimeout(() => {
+    if (popover.style.opacity === '0') {
+      popover.style.display = 'none';
+      delete popover.dataset.locked;
+    }
+  }, 180);
+}
+
+const movPopoverEl = document.getElementById('art-movement-popover');
+if (movPopoverEl) {
+  movPopoverEl.addEventListener('mouseenter', () => {
+    clearTimeout(movPopHideTimer);
+  });
+  movPopoverEl.addEventListener('mouseleave', (e) => {
+    if (e.relatedTarget && e.relatedTarget.closest('.sub-movement-timespan-bar')) {
+      return;
+    }
+    scheduleHideMovementPopover(180);
+  });
 }
 
 const btnCloseMovPop = document.getElementById('btn-close-mov-pop');
 if (btnCloseMovPop) {
   btnCloseMovPop.addEventListener('click', (e) => {
     e.stopPropagation();
-    const popover = document.getElementById('art-movement-popover');
-    if (popover) {
-      delete popover.dataset.locked;
-      hideMovementPopover(true);
-    }
+    hideMovementPopover(true);
   });
 }
 
@@ -2436,20 +2459,20 @@ function buildTimelineBlocks() {
     bar.innerHTML = `<span class="sub-mov-label">${mov.name}</span>`;
 
     bar.addEventListener('mouseenter', () => {
-      showMovementPopover(mov, bar, false);
+      clearTimeout(movPopHideTimer);
+      showMovementPopover(mov, bar);
     });
 
-    bar.addEventListener('mouseleave', () => {
-      hideMovementPopover(false);
+    bar.addEventListener('mouseleave', (e) => {
+      if (e.relatedTarget && e.relatedTarget.closest('#art-movement-popover')) {
+        return;
+      }
+      scheduleHideMovementPopover(180);
     });
 
     bar.addEventListener('click', (e) => {
       e.stopPropagation();
-      const popover = document.getElementById('art-movement-popover');
-      if (popover) {
-        popover.dataset.locked = 'true';
-      }
-      showMovementPopover(mov, bar, true);
+      showMovementPopover(mov, bar);
     });
 
     mov._barEl = bar;
@@ -2925,15 +2948,38 @@ masterContainer.addEventListener('mousemove', (e) => {
   updateSynchronousState(e.clientX);
 });
 
-masterContainer.addEventListener('mousedown', (e) => {
+const timelineSplitWrapper = document.getElementById('timeline-split-wrapper');
+let startY = 0;
+let startScrollTop = 0;
+
+function handleTimelinePanStart(e) {
+  if (e.button !== 0) return;
+  if (e.target.closest('button, a, input, select')) return;
   isDragging = true;
   startX = e.clientX;
-});
+  startY = e.clientY;
+  prevRibbonX = curRibbonX;
+  if (timelineSplitWrapper) {
+    startScrollTop = timelineSplitWrapper.scrollTop;
+  }
+  hideMovementPopover(true);
+}
+
+masterContainer.addEventListener('mousedown', handleTimelinePanStart);
+
+const timelineLabelsCol = document.getElementById('timeline-labels-column');
+if (timelineLabelsCol) {
+  timelineLabelsCol.addEventListener('mousedown', handleTimelinePanStart);
+}
 
 window.addEventListener('mousemove', (e) => {
   if (!isDragging) return;
-  curRibbonX = prevRibbonX + (e.clientX - startX);
-  const minX = -(getRibbonWidth() - masterContainer.clientWidth);
+
+  // 1. Navigation horizontale (axe temporel)
+  const deltaX = e.clientX - startX;
+  curRibbonX = prevRibbonX + deltaX;
+  const containerW = masterContainer.clientWidth || window.innerWidth;
+  const minX = -(getRibbonWidth() - containerW);
   curRibbonX = Math.max(minX, Math.min(0, curRibbonX));
   
   masterRibbon.style.transform = `translateX(${curRibbonX}px)`;
@@ -2941,6 +2987,12 @@ window.addEventListener('mousemove', (e) => {
   rulerEventsLayer.style.transform = `translateX(${curRibbonX}px)`;
   if (rulerSparksLayer) rulerSparksLayer.style.transform = `translateX(${curRibbonX}px)`;
   updateStickyBlockTitles();
+
+  // 2. Navigation verticale (Pan 2D fluide sans ascenseur)
+  if (timelineSplitWrapper) {
+    const deltaY = e.clientY - startY;
+    timelineSplitWrapper.scrollTop = startScrollTop - deltaY;
+  }
 });
 
 window.addEventListener('mouseup', () => {
