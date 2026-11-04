@@ -734,15 +734,12 @@ const sidebarAlbumGrid = document.getElementById('sidebar-album-grid');
 const btnEnterCiv = document.getElementById('btn-enter-civ');
 const btnCloseSidebar = document.getElementById('btn-close-sidebar');
 const btnCloseConcurrent = document.getElementById('btn-close-concurrent');
-const btnToggleConcurrent = document.getElementById('btn-toggle-concurrent');
-const btnReopenCivCard = document.getElementById('btn-reopen-civ-card');
 
 let isLockedSidebar = false;
 let selectedCiv = null;
 
 function showCivPreview(civ) {
   selectedCiv = civ;
-  if (btnReopenCivCard) btnReopenCivCard.hidden = true;
   sidebarEra.textContent = civ.epoch;
   sidebarTitle.textContent = civ.name;
   sidebarDesc.innerHTML = civ.presentationHtml;
@@ -812,34 +809,12 @@ btnCloseSidebar.addEventListener('click', (e) => {
   e.stopPropagation();
   isLockedSidebar = false;
   hideCivPreview();
-  if (btnReopenCivCard && lastActiveCiv) {
-    btnReopenCivCard.hidden = false;
-  }
 });
-
-if (btnReopenCivCard) {
-  btnReopenCivCard.addEventListener('click', (e) => {
-    e.stopPropagation();
-    if (lastActiveCiv) {
-      lockCivSidebar(lastActiveCiv);
-      btnReopenCivCard.hidden = true;
-    }
-  });
-}
 
 if (btnCloseConcurrent) {
   btnCloseConcurrent.addEventListener('click', (e) => {
     e.stopPropagation();
     if (concurrentSidebar) concurrentSidebar.classList.remove('visible');
-    if (btnToggleConcurrent) btnToggleConcurrent.hidden = false;
-  });
-}
-
-if (btnToggleConcurrent) {
-  btnToggleConcurrent.addEventListener('click', (e) => {
-    e.stopPropagation();
-    if (concurrentSidebar) concurrentSidebar.classList.add('visible');
-    btnToggleConcurrent.hidden = true;
   });
 }
 
@@ -848,7 +823,6 @@ btnEnterCiv.addEventListener('click', () => {
     activateCivilisationView(selectedCiv);
     isLockedSidebar = false;
     hideCivPreview();
-    if (btnReopenCivCard) btnReopenCivCard.hidden = true;
   }
 });
 
@@ -1069,16 +1043,15 @@ function activateCivilisationView(civ) {
       card.className = `sub-node-card ${aIdx === 0 ? 'active' : ''} ${art.isAmarna ? 'is-amarna' : ''}`;
 
       const dateLabel = art.centuryDisplay || art.century || '';
-      const subLabel = art.category || art.site || art.originSite || '';
+      card.title = `${art.title}${dateLabel ? ' (' + dateLabel + ')' : ''}`;
 
       card.innerHTML = `
         <div class="sub-node-pedestal">
-          <span class="sub-node-corner-date">${escapeHtmlAttr(dateLabel)}</span>
+          ${dateLabel ? `<span class="sub-node-corner-date">${escapeHtmlAttr(dateLabel)}</span>` : ''}
           <img src="${art.imgSrc}" alt="${escapeHtmlAttr(art.title)}" loading="lazy" />
         </div>
-        <div class="sub-node-body">
-          <div class="sub-node-title" title="${escapeHtmlAttr(art.title)}">${escapeHtmlAttr(art.title)}</div>
-          <div class="sub-node-subtitle" title="${escapeHtmlAttr(subLabel)}">${escapeHtmlAttr(subLabel)}</div>
+        <div class="sub-node-caption">
+          <div class="sub-node-title">${escapeHtmlAttr(art.title)}</div>
         </div>
       `;
 
@@ -1102,8 +1075,6 @@ function closeCivilisationView() {
   civMapImg.src = '';
   globalMapImg.classList.remove('traveling');
   subStream.innerHTML = '';
-  if (btnToggleConcurrent) btnToggleConcurrent.hidden = true;
-  if (btnReopenCivCard) btnReopenCivCard.hidden = true;
   hideCivPreview();
 }
 
@@ -2365,12 +2336,13 @@ function jumpFromArtworkToTimeline(art) {
 
   // 2. Afficher le bouton flottant de retour vers l'œuvre
   const pill = document.getElementById('timeline-return-pill');
-  const titleEl = document.getElementById('timeline-return-art-title');
-  if (pill && titleEl) {
-    const rawTitle = art.title || "l'œuvre";
-    const shortTitle = rawTitle.length > 36 ? (rawTitle.slice(0, 36) + '…') : rawTitle;
-    titleEl.textContent = shortTitle;
+  const btnReturn = document.getElementById('btn-timeline-return-art');
+  if (pill) {
     pill.hidden = false;
+    const rawTitle = art.title || "l'œuvre";
+    if (btnReturn) {
+      btnReturn.title = `Revenir à la notice : ${rawTitle}`;
+    }
   }
 
   // 3. Basculer instantanément sur la Frise Chronologique (Vue 3)
