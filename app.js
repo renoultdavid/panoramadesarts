@@ -458,44 +458,305 @@ function renderHistoricalSparks() {
 }
 
 /* ==========================================================================
-   PILIER 3 : DILATATION MULTI-ÉCHELLES & MICRO-MOUVEMENTS AU ZOOM PROFOND
+   PILIER 3 : DILATATION MULTI-ÉCHELLES & MOUVEMENTS ARTISTIQUES EN SOUS-BARRES
    ========================================================================== */
 const ART_MOVEMENTS = [
-  // Égypte Nouvel Empire
-  { year: -1550, parentCivId: "egypte_nouvel", label: "XVIIIe dynastie thébaine" },
-  { year: -1353, parentCivId: "egypte_nouvel", label: "Révolution amarnienne" },
-  { year: -1292, parentCivId: "egypte_nouvel", label: "Époque ramesside" },
+  // --- OCCIDENT XXe SIÈCLE (lane: europe_ouest) ---
+  {
+    id: "mov_fauvisme",
+    parentCivId: "occ_xxe_moderne",
+    lane: "europe_ouest",
+    name: "Fauvisme",
+    yearStart: 1904,
+    yearEnd: 1908,
+    tier: 0,
+    color: "#f59e0b",
+    keyArtists: "Henri Matisse, André Derain, Maurice de Vlaminck",
+    definition: "Mouvement d'avant-garde caractérisé par l'émancipation totale de la couleur pure, appliquée en aplats violents et lumineux sans souci du réalisme imitatif, inauguré au Salon d'Automne de 1905 (« la cage aux fauves »).",
+    filterKeyword: "fauvisme"
+  },
+  {
+    id: "mov_cubisme",
+    parentCivId: "occ_xxe_moderne",
+    lane: "europe_ouest",
+    name: "Cubisme",
+    yearStart: 1907,
+    yearEnd: 1919,
+    tier: 1,
+    color: "#06b6d4",
+    keyArtists: "Pablo Picasso, Georges Braque, Juan Gris",
+    definition: "Révolution esthétique initiée avec Les Demoiselles d'Avignon. Rompant avec la perspective illusionniste classique, le cubisme décompose les volumes en facettes géométriques et superpose simultanément plusieurs points de vue sur une surface plane.",
+    filterKeyword: "cubisme"
+  },
+  {
+    id: "mov_dada",
+    parentCivId: "occ_xxe_moderne",
+    lane: "europe_ouest",
+    name: "Dadaïsme",
+    yearStart: 1916,
+    yearEnd: 1924,
+    tier: 0,
+    color: "#ef4444",
+    keyArtists: "Marcel Duchamp, Jean Arp, Tristan Tzara, Man Ray",
+    definition: "Mouvement international d'insoumission né à Zurich pendant la Grande Guerre, contestant avec dérision les fondements moraux et artistiques de la société bourgeoise à travers le scandale, le hasard et l'invention du ready-made.",
+    filterKeyword: "dada"
+  },
+  {
+    id: "mov_surrealisme",
+    parentCivId: "occ_xxe_moderne",
+    lane: "europe_ouest",
+    name: "Surréalisme",
+    yearStart: 1924,
+    yearEnd: 1969,
+    tier: 1,
+    color: "#a855f7",
+    keyArtists: "Salvador Dalí, René Magritte, Max Ernst, Joan Miró",
+    definition: "Fondé par le Manifeste d'André Breton, le surréalisme explore la toute-puissance du rêve, l'automatisme psychique pur et les mystères de l'inconscient en libérant la création des entraves de la logique rationnelle.",
+    filterKeyword: "surréalisme"
+  },
+  {
+    id: "mov_expressionnisme_abstrait",
+    parentCivId: "occ_xxe_moderne",
+    lane: "europe_ouest",
+    name: "Expressionnisme Abstrait",
+    yearStart: 1943,
+    yearEnd: 1965,
+    tier: 0,
+    color: "#10b981",
+    keyArtists: "Jackson Pollock, Mark Rothko, Willem de Kooning",
+    definition: "Premier grand mouvement artistique américain d'après-guerre (École de New York), divisé entre l'énergie gestuelle de l'Action Painting (dripping de Pollock) et la contemplation mystique des aplats vibrants du Color Field (Rothko).",
+    filterKeyword: "abstrait"
+  },
+  {
+    id: "mov_pop_art",
+    parentCivId: "occ_xxe_moderne",
+    lane: "europe_ouest",
+    name: "Pop Art & Nouveau Réalisme",
+    yearStart: 1956,
+    yearEnd: 1975,
+    tier: 1,
+    color: "#ec4899",
+    keyArtists: "Andy Warhol, Roy Lichtenstein, Yves Klein, César",
+    definition: "Mouvement célébrant et détournant avec ironie l'imagerie populaire des médias de masse, de la publicité et de la consommation industrielle par la sérigraphie, le collage et les accumulations d'objets réels.",
+    filterKeyword: "pop art"
+  },
 
-  // Grèce antique
-  { year: -450, parentCivId: "grece_classique", label: "Classicisme & Parthénon" },
-  { year: -370, parentCivId: "grece_classique", label: "Second classicisme" },
-  { year: -240, parentCivId: "grece_hellenistique", label: "Baroque pergamien" },
+  // --- OCCIDENT XIXe SIÈCLE (lane: europe_ouest) ---
+  {
+    id: "mov_romantisme",
+    parentCivId: "occ_xixe",
+    lane: "europe_ouest",
+    name: "Romantisme",
+    yearStart: 1800,
+    yearEnd: 1850,
+    tier: 0,
+    color: "#e11d48",
+    keyArtists: "Eugène Delacroix, Théodore Géricault, Caspar David Friedrich",
+    definition: "Courant exaltant la sensibilité individuelle, le mystère, le tragique, la passion ardente et la force indomptable de la nature face à la froide rigueur du néo-classicisme académique.",
+    filterKeyword: "romantisme"
+  },
+  {
+    id: "mov_realisme",
+    parentCivId: "occ_xixe",
+    lane: "europe_ouest",
+    name: "Réalisme",
+    yearStart: 1848,
+    yearEnd: 1872,
+    tier: 1,
+    color: "#d97706",
+    keyArtists: "Gustave Courbet, Honoré Daumier, Jean-François Millet",
+    definition: "Né des révolutions de 1848, le réalisme affirme le devoir de l'artiste de peindre fidèlement les réalités contemporaines et le monde du travail paysan et ouvrier sans idéalisation mythologique ni héroïsation artificielle.",
+    filterKeyword: "réalisme"
+  },
+  {
+    id: "mov_impressionnisme",
+    parentCivId: "occ_xixe",
+    lane: "europe_ouest",
+    name: "Impressionnisme",
+    yearStart: 1872,
+    yearEnd: 1886,
+    tier: 0,
+    color: "#0284c7",
+    keyArtists: "Claude Monet, Pierre-Auguste Renoir, Edgar Degas, Camille Pissarro",
+    definition: "Révolution de la peinture de plein air rejetant l'académisme des Salons officiels pour saisir les variations instantanées de la lumière naturelle et des reflets de l'eau par des touches fragmentées de couleurs pures juxtaposées.",
+    filterKeyword: "impressionnisme"
+  },
+  {
+    id: "mov_symbolisme",
+    parentCivId: "occ_xixe",
+    lane: "europe_ouest",
+    name: "Post-Impressionnisme & Symbolisme",
+    yearStart: 1886,
+    yearEnd: 1905,
+    tier: 1,
+    color: "#8b5cf6",
+    keyArtists: "Paul Cézanne, Vincent van Gogh, Paul Gauguin, Gustave Moreau",
+    definition: "Réaction contre le matérialisme impressionniste explorant la dimension spirituelle, le mythe et les correspondances poétiques de l'âme, tout en jetant les bases structurales de l'art moderne (Cézanne et Gauguin).",
+    filterKeyword: "symbolisme"
+  },
 
-  // Occident médiéval & moderne
-  { year: 1150, parentCivId: "occ_gothique", label: "Gothique primitif" },
-  { year: 1210, parentCivId: "occ_gothique", label: "Gothique classique" },
-  { year: 1250, parentCivId: "occ_gothique", label: "Gothique rayonnant" },
-  { year: 1390, parentCivId: "occ_gothique", label: "Gothique flamboyant" },
+  // --- RENAISSANCE EUROPÉENNE (lane: europe_ouest) ---
+  {
+    id: "mov_quattrocento",
+    parentCivId: "occ_renaissance",
+    lane: "europe_ouest",
+    name: "Quattrocento florentin",
+    yearStart: 1400,
+    yearEnd: 1490,
+    tier: 0,
+    color: "#ea580c",
+    keyArtists: "Masaccio, Sandro Botticelli, Donatello, Fra Angelico",
+    definition: "Berceau de la Renaissance à Florence, marqué par la redécouverte des proportions antiques, la théorisation mathématique de la perspective linéaire par Brunelleschi et Alberti et l'affirmation de la dignité humaine.",
+    filterKeyword: "quattrocento"
+  },
+  {
+    id: "mov_haute_renaissance",
+    parentCivId: "occ_renaissance",
+    lane: "europe_ouest",
+    name: "Haute Renaissance",
+    yearStart: 1490,
+    yearEnd: 1527,
+    tier: 1,
+    color: "#ca8a04",
+    keyArtists: "Léonard de Vinci, Raphaël, Michel-Ange",
+    definition: "Apogée classique de l'art occidental entre Rome et Florence, où la perfection anatomique, la monumentalité sculpturale, la composition pyramidale et le sfumato atteignent une souveraine harmonie.",
+    filterKeyword: "renaissance"
+  },
+  {
+    id: "mov_manierisme",
+    parentCivId: "occ_renaissance",
+    lane: "europe_ouest",
+    name: "Maniérisme européen",
+    yearStart: 1520,
+    yearEnd: 1600,
+    tier: 0,
+    color: "#0d9488",
+    keyArtists: "Jacopo Pontormo, Le Parmesan, Le Greco, Bronzino",
+    definition: "Courant sophistiqué né au lendemain du sac de Rome (1527), caractérisé par l'élongation serpentine des corps (figura serpentinata), l'irréalité spatiale et des coloris acides traduisant l'angoisse et l'artifice.",
+    filterKeyword: "maniérisme"
+  },
 
-  // Renaissance
-  { year: 1420, parentCivId: "occ_renaissance", label: "Quattrocento" },
-  { year: 1500, parentCivId: "occ_renaissance", label: "Haute Renaissance" },
-  { year: 1530, parentCivId: "occ_renaissance", label: "Maniérisme" },
-
-  // XIXe siècle
-  { year: 1820, parentCivId: "occ_xixe", label: "Romantisme" },
-  { year: 1850, parentCivId: "occ_xixe", label: "Réalisme" },
-  { year: 1874, parentCivId: "occ_xixe", label: "Impressionnisme" },
-  { year: 1886, parentCivId: "occ_xixe", label: "Symbolisme" },
-
-  // XXe siècle
-  { year: 1905, parentCivId: "occ_xxe_moderne", label: "Fauvisme" },
-  { year: 1907, parentCivId: "occ_xxe_moderne", label: "Cubisme" },
-  { year: 1916, parentCivId: "occ_xxe_moderne", label: "Dadaïsme" },
-  { year: 1924, parentCivId: "occ_xxe_moderne", label: "Surréalisme" },
-  { year: 1945, parentCivId: "occ_xxe_moderne", label: "Expressionnisme abstrait" },
-  { year: 1960, parentCivId: "occ_xxe_moderne", label: "Pop Art & Nouveaux Réalistes" }
+  // --- ÉGYPTE : NOUVEL EMPIRE (lane: egypte) ---
+  {
+    id: "mov_thoutmosis",
+    parentCivId: "egypte_nouvel",
+    lane: "egypte",
+    name: "XVIIIe dynastie thébaine",
+    yearStart: -1550,
+    yearEnd: -1353,
+    tier: 0,
+    color: "#0fa3b1",
+    keyArtists: "Ateliers de Deir el-Médineh, Khaemhat, Sénenmout",
+    definition: "Apogée impérial de l'Égypte antique sous Hatchepsout, Thoutmosis III et Amenhotep III. Faste des temples colossaux de Karnak et Louxor, splendeur des tombes rupestres de la Vallée des Rois et raffinement suprême des arts textiles et du mobilier d'or.",
+    filterKeyword: "thèbes"
+  },
+  {
+    id: "mov_amarna",
+    parentCivId: "egypte_nouvel",
+    lane: "egypte",
+    name: "Révolution amarnienne",
+    yearStart: -1353,
+    yearEnd: -1336,
+    tier: 1,
+    color: "#14b8a6",
+    keyArtists: "Thoutmôsis (sculpteur royal de Néfertiti), Akhenaton",
+    definition: "Parenthèse religieuse et artistique révolutionnaire sous Akhenaton, imposant le culte solaire exclusif d'Aton et brisant les conventions millénaires par un expressionnisme naturaliste inédit, sensible et intimiste.",
+    filterKeyword: "amarna"
+  },
+  {
+    id: "mov_ramesside",
+    parentCivId: "egypte_nouvel",
+    lane: "egypte",
+    name: "Époque ramesside (XIXe-XXe dyn.)",
+    yearStart: -1292,
+    yearEnd: -1069,
+    tier: 0,
+    color: "#0891b2",
+    keyArtists: "Bâtisseurs royaux de Pi-Ramsès et Thèbes",
+    definition: "Ère de la démesure monumentale et des batailles impériales sous Séthi Ier et Ramsès II : salle hypostyle de Karnak, temples solaires d'Abou Simbel et Ramesseum célébrant l'héroïsme pharaonique face aux Hittites.",
+    filterKeyword: "ramses"
+  }
 ];
+
+function showMovementPopover(mov, barEl, isLocked = false) {
+  const popover = document.getElementById('art-movement-popover');
+  if (!popover) return;
+
+  const titleEl = document.getElementById('mov-pop-title');
+  const artistsListEl = document.getElementById('mov-pop-artists-list');
+  const defEl = document.getElementById('mov-pop-def');
+  const eraEl = document.getElementById('mov-pop-era');
+  const btnExplore = document.getElementById('btn-mov-explore-gallery');
+
+  if (eraEl) {
+    const parentCiv = CIVILISATIONS_REGISTRY.find(c => c.id === mov.parentCivId);
+    eraEl.textContent = parentCiv ? parentCiv.name.toUpperCase() : "MOUVEMENT ARTISTIQUE";
+  }
+
+  const startStr = mov.yearStart < 0 ? `${Math.abs(mov.yearStart)} av. J.-C.` : `${mov.yearStart}`;
+  const endStr = mov.yearEnd < 0 ? `${Math.abs(mov.yearEnd)} av. J.-C.` : `${mov.yearEnd}`;
+  titleEl.textContent = `${mov.name} (${startStr} – ${endStr})`;
+
+  artistsListEl.textContent = mov.keyArtists || "Maîtres et ateliers de l'époque";
+  defEl.textContent = mov.definition;
+
+  if (btnExplore) {
+    btnExplore.onclick = (e) => {
+      e.stopPropagation();
+      popover.style.display = 'none';
+      popover.style.opacity = '0';
+      switchView('view-search');
+      const searchInput = document.getElementById('global-search-input');
+      if (searchInput) {
+        searchInput.value = mov.filterKeyword || mov.name;
+        renderSearchGallery();
+      }
+    };
+  }
+
+  const rect = barEl.getBoundingClientRect();
+  const popWidth = 320;
+  let leftPos = rect.left + rect.width / 2 - popWidth / 2;
+  if (leftPos + popWidth > window.innerWidth - 20) {
+    leftPos = window.innerWidth - popWidth - 20;
+  }
+  leftPos = Math.max(15, leftPos);
+
+  let topPos = rect.top - 240;
+  if (topPos < 10) {
+    topPos = rect.bottom + 12;
+  }
+
+  popover.style.left = `${leftPos}px`;
+  popover.style.top = `${topPos}px`;
+  popover.style.display = 'flex';
+  requestAnimationFrame(() => {
+    popover.style.opacity = '1';
+  });
+}
+
+function hideMovementPopover(force = false) {
+  const popover = document.getElementById('art-movement-popover');
+  if (!popover) return;
+  if (force || !popover.dataset.locked) {
+    popover.style.opacity = '0';
+    setTimeout(() => {
+      if (popover.style.opacity === '0') popover.style.display = 'none';
+    }, 200);
+  }
+}
+
+const btnCloseMovPop = document.getElementById('btn-close-mov-pop');
+if (btnCloseMovPop) {
+  btnCloseMovPop.addEventListener('click', (e) => {
+    e.stopPropagation();
+    const popover = document.getElementById('art-movement-popover');
+    if (popover) {
+      delete popover.dataset.locked;
+      hideMovementPopover(true);
+    }
+  });
+}
 
 /* ==========================================================================
    REGISTRE INTÉGRAL DES CIVILISATIONS (TEXTES COMPLETS & CONTEXTES MONDIAUX)
@@ -1908,15 +2169,44 @@ function buildTimelineBlocks() {
     laneEl.appendChild(block);
   });
 
-  // 3. Création des micro-mouvements artistiques pour zoom profond (Pilier 3)
+  // 3. Création des sous-barres de mouvements artistiques étagées (Pilier 3 démultiplication verticale)
   ART_MOVEMENTS.forEach(mov => {
-    const parentCiv = CIVILISATIONS_REGISTRY.find(c => c.id === mov.parentCivId);
-    if (!parentCiv || !parentCiv._blockEl) return;
-    const pill = document.createElement('div');
-    pill.className = 'sub-movement-pill';
-    pill.textContent = mov.label;
-    mov._pillEl = pill;
-    parentCiv._blockEl.appendChild(pill);
+    const laneEl = document.querySelector(`.timeline-lane[data-lane="${mov.lane}"]`);
+    if (!laneEl) return;
+
+    const x1 = yearToPixel(mov.yearStart);
+    const x2 = yearToPixel(mov.yearEnd);
+    const width = Math.max(x2 - x1, 45);
+
+    const bar = document.createElement('div');
+    bar.className = `sub-movement-timespan-bar tier-${mov.tier || 0}`;
+    bar.style.left = `${x1}px`;
+    bar.style.width = `${width}px`;
+    bar.style.backgroundColor = `${mov.color}35`;
+    bar.style.borderColor = mov.color;
+    bar.style.display = 'none';
+
+    bar.innerHTML = `<span class="sub-mov-label">${mov.name}</span>`;
+
+    bar.addEventListener('mouseenter', () => {
+      showMovementPopover(mov, bar, false);
+    });
+
+    bar.addEventListener('mouseleave', () => {
+      hideMovementPopover(false);
+    });
+
+    bar.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const popover = document.getElementById('art-movement-popover');
+      if (popover) {
+        popover.dataset.locked = 'true';
+      }
+      showMovementPopover(mov, bar, true);
+    });
+
+    mov._barEl = bar;
+    laneEl.appendChild(bar);
   });
 }
 
@@ -1977,24 +2267,31 @@ function updateTimelineLayout() {
   if (rulerTrack) rulerTrack.style.transform = `translateX(${curRibbonX}px)`;
   if (rulerEventsLayer) rulerEventsLayer.style.transform = `translateX(${curRibbonX}px)`;
   if (rulerSparksLayer) rulerSparksLayer.style.transform = `translateX(${curRibbonX}px)`;
-  if (rulerSparksLayer) rulerSparksLayer.style.transform = `translateX(${curRibbonX}px)`;
 
   updateStickyBlockTitles();
 
-  // Déploiement des micro-mouvements artistiques au zoom profond (timelineZoom >= 2.0x)
-  const isDeepZoom = timelineZoom >= 2.0;
+  // 4. Démultiplication verticale des voies et sous-barres de mouvements (Pilier 3)
+  const isExpandedZoom = timelineZoom >= 1.6;
+  const lanesWithMovements = new Set(ART_MOVEMENTS.map(m => m.lane));
+
+  lanesWithMovements.forEach(laneKey => {
+    const laneEl = document.querySelector(`.timeline-lane[data-lane="${laneKey}"]`);
+    const labelEl = document.querySelector(`.lane-fixed-label[data-lane="${laneKey}"]`);
+    if (laneEl) laneEl.classList.toggle('has-submovements-expanded', isExpandedZoom);
+    if (labelEl) labelEl.classList.toggle('has-submovements-expanded', isExpandedZoom);
+  });
+
   ART_MOVEMENTS.forEach(mov => {
-    if (!mov._pillEl) return;
-    if (isDeepZoom) {
-      const parentCiv = CIVILISATIONS_REGISTRY.find(c => c.id === mov.parentCivId);
-      if (!parentCiv) return;
-      const xCivStart = yearToPixel(Math.max(parentCiv.yearStart, YEAR_MIN));
-      const xMov = yearToPixel(mov.year);
-      const relLeft = xMov - xCivStart;
-      mov._pillEl.style.left = `${relLeft}px`;
-      mov._pillEl.classList.add('visible');
+    if (!mov._barEl) return;
+    if (isExpandedZoom) {
+      const x1 = yearToPixel(mov.yearStart);
+      const x2 = yearToPixel(mov.yearEnd);
+      const width = Math.max(x2 - x1, 45);
+      mov._barEl.style.left = `${x1}px`;
+      mov._barEl.style.width = `${width}px`;
+      mov._barEl.style.display = 'flex';
     } else {
-      mov._pillEl.classList.remove('visible');
+      mov._barEl.style.display = 'none';
     }
   });
 

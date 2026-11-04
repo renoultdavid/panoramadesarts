@@ -1853,34 +1853,159 @@ body {
   height: 22px !important;
 }
 
-/* MICRO-MOUVEMENTS AU ZOOM APPROFONDI (PILIER 3) */
-.sub-movement-pill {
+/* SOUS-BARRES DE MOUVEMENTS DÉMULTIPLIÉES VERTICALEMENT (PILIER 3) */
+.timeline-lane.has-submovements-expanded {
+  height: 84px !important;
+  min-height: 84px !important;
+}
+
+.lane-fixed-label.has-submovements-expanded {
+  height: 84px !important;
+  min-height: 84px !important;
+}
+
+.sub-movement-timespan-bar {
   position: absolute;
-  top: 2px;
-  transform: translateX(-50%);
-  background: rgba(8, 11, 18, 0.94);
-  border: 1px solid var(--gold-pure, #d4af37);
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.9), 0 0 5px rgba(212, 175, 55, 0.4);
-  border-radius: 9px;
-  padding: 1px 7px;
+  height: 22px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  padding: 0 8px;
+  cursor: pointer;
+  z-index: 10;
+  white-space: nowrap;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+  user-select: none;
+}
+
+.sub-movement-timespan-bar.tier-0 {
+  top: 30px;
+}
+
+.sub-movement-timespan-bar.tier-1 {
+  top: 56px;
+}
+
+.sub-movement-timespan-bar:hover {
+  transform: translateY(-2px);
+  z-index: 25;
+  border-color: #fff !important;
+  box-shadow: 0 4px 16px rgba(255, 255, 255, 0.4), 0 0 10px var(--gold-glow);
+}
+
+.sub-movement-timespan-bar .sub-mov-label {
   font-family: 'Cinzel', serif;
-  font-size: 0.58rem;
+  font-size: 0.62rem;
   font-weight: 700;
   color: #fff;
-  white-space: nowrap;
-  pointer-events: none;
-  z-index: 12;
-  opacity: 0;
-  transition: opacity 0.25s ease;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.95);
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
 }
 
-.sub-movement-pill.visible {
-  opacity: 1;
+.sub-movement-timespan-bar .sub-mov-label::before {
+  content: '✦';
+  font-size: 0.55rem;
+  color: var(--gold-pure, #d4af37);
 }
 
-.sub-movement-pill::before {
-  content: '✦ ';
+/* POPOVER DE DÉFINITION DU MOUVEMENT ARTISTIQUE */
+.art-movement-popover {
+  position: fixed;
+  z-index: 9999;
+  background: rgba(10, 14, 22, 0.98);
+  border: 1px solid var(--gold-pure);
+  border-radius: 8px;
+  padding: 14px 16px;
+  width: 320px;
+  max-width: calc(100vw - 30px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.95), 0 0 20px rgba(212, 175, 55, 0.25);
+  backdrop-filter: blur(12px);
+  transition: opacity 0.2s cubic-bezier(0.16, 1, 0.3, 1), transform 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.popover-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.popover-badge {
+  font-family: 'Cinzel', serif;
+  font-size: 0.6rem;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
   color: var(--gold-pure);
+  font-weight: 700;
+}
+
+.btn-close-popover {
+  background: transparent;
+  border: none;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1.2rem;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0 4px;
+}
+
+.btn-close-popover:hover {
+  color: #fff;
+}
+
+.popover-title {
+  font-family: 'Cinzel', serif;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--gold-pale);
+  line-height: 1.25;
+}
+
+.popover-artists {
+  font-size: 0.76rem;
+  color: #e2e8f0;
+  line-height: 1.35;
+  background: rgba(212, 175, 55, 0.08);
+  padding: 5px 8px;
+  border-radius: 4px;
+  border-left: 2px solid var(--gold-pure);
+}
+
+.popover-def {
+  font-size: 0.8rem;
+  line-height: 1.45;
+  color: #c4cad8;
+}
+
+.btn-popover-gallery {
+  width: 100%;
+  margin-top: 4px;
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.2), rgba(212, 175, 55, 0.05));
+  border: 1px solid var(--gold-pure);
+  border-radius: 4px;
+  padding: 6px 10px;
+  font-family: 'Cinzel', serif;
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: var(--gold-pale);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.btn-popover-gallery:hover {
+  background: var(--gold-pure);
+  color: #000;
+  box-shadow: 0 0 15px var(--gold-glow);
 }
 
 .civ-timespan-block:hover,
