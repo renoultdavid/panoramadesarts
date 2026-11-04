@@ -869,11 +869,25 @@ function showCivPreview(civ) {
     }).length;
     sidebarCivGalleryCount.textContent = count;
   }
+
+  // Chargement immédiat du contexte mondial synchrone pour cette civilisation
+  if (civ.concurrentHtml) {
+    if (concurrentDesc) concurrentDesc.innerHTML = civ.concurrentHtml;
+    if (tabReopenConcurrent) {
+      const isRightOpen = concurrentSidebar && concurrentSidebar.classList.contains('visible');
+      tabReopenConcurrent.hidden = isRightOpen;
+    }
+  } else {
+    if (concurrentDesc) concurrentDesc.innerHTML = '<p>Contexte mondial en cours d\'enrichissement pour cette époque.</p>';
+    if (tabReopenConcurrent) tabReopenConcurrent.hidden = true;
+  }
 }
 
 function hideCivPreview() {
   if (isLockedSidebar) return;
   hoverSidebar.classList.remove('visible');
+  if (concurrentSidebar) concurrentSidebar.classList.remove('visible');
+  if (tabReopenConcurrent) tabReopenConcurrent.hidden = true;
   document.querySelectorAll('.sync-foyer-halo').forEach(h => h.classList.remove('active'));
   selectedCiv = null;
 }
@@ -938,7 +952,8 @@ if (btnCloseConcurrent) {
   btnCloseConcurrent.addEventListener('click', (e) => {
     e.stopPropagation();
     if (concurrentSidebar) concurrentSidebar.classList.remove('visible');
-    if (tabReopenConcurrent && concurrentDesc && concurrentDesc.innerHTML.trim().length > 0) {
+    const civ = selectedCiv || lastActiveCiv;
+    if (civ && civ.concurrentHtml && tabReopenConcurrent) {
       tabReopenConcurrent.hidden = false;
     }
   });
@@ -947,6 +962,10 @@ if (btnCloseConcurrent) {
 if (tabReopenConcurrent) {
   tabReopenConcurrent.addEventListener('click', (e) => {
     e.stopPropagation();
+    const civ = selectedCiv || lastActiveCiv;
+    if (civ && civ.concurrentHtml && concurrentDesc) {
+      concurrentDesc.innerHTML = civ.concurrentHtml;
+    }
     if (concurrentSidebar) concurrentSidebar.classList.add('visible');
     tabReopenConcurrent.hidden = true;
   });

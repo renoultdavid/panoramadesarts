@@ -763,16 +763,17 @@ body {
 }
 
 #concurrent-sidebar-card {
-  left: 1.5rem;
-  right: auto;
-  border-left: 3px solid var(--c-gold);
-  transform: translateX(-30px);
+  right: 1.5rem !important;
+  left: auto !important;
+  border-right: 3px solid var(--c-gold) !important;
+  border-left: 1px solid rgba(212, 175, 55, 0.35) !important;
+  transform: translateX(30px) !important;
 }
 
 #concurrent-sidebar-card.visible {
-  opacity: 1;
-  transform: translateX(0);
-  pointer-events: auto;
+  opacity: 1 !important;
+  transform: translateX(0) !important;
+  pointer-events: auto !important;
 }
 
 /* Boutons de contrôle dans l'en-tête des volets */
@@ -1949,13 +1950,22 @@ body {
     font-size: 0.64rem !important;
   }
 
-  #hover-sidebar-card,
-  #concurrent-sidebar-card {
+  #hover-sidebar-card {
     width: 380px !important;
     max-width: 36vw !important;
     max-height: calc(100% - 1rem) !important;
     top: 0.5rem !important;
     left: 1rem !important;
+    right: auto !important;
+  }
+
+  #concurrent-sidebar-card {
+    width: 380px !important;
+    max-width: 36vw !important;
+    max-height: calc(100% - 1rem) !important;
+    top: 0.5rem !important;
+    right: 1rem !important;
+    left: auto !important;
   }
 
   .hover-banner-frame {
