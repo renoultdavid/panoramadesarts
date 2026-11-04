@@ -641,11 +641,45 @@ const CIVILISATIONS_REGISTRY = [
   }
 ];
 
-// Liaison sélective : seuls les objets phares (isHighlight) vont dans la frise
+// Liaison sélective : objets phares (isHighlight) et chefs-d'œuvre de chaque civilisation pour la frise
 window.addEventListener('DOMContentLoaded', () => {
   if (window.ART_OBJECTS && window.ART_OBJECTS.length > 0) {
     CIVILISATIONS_REGISTRY.forEach(civ => {
-      civ.artifacts = window.ART_OBJECTS.filter(obj => (obj.civId === civ.id || obj.periodId === civ.id) && obj.isHighlight === true);
+      let matched = window.ART_OBJECTS.filter(obj => {
+        if (!obj.isHighlight) return false;
+        if (obj.civId === civ.id || obj.periodId === civ.id) return true;
+        // Ptolémaïque et Romain rattachés au grand bloc d'Égypte tardive
+        if (civ.id === 'egypte_tardive') {
+          if (obj.periodId === 'egypte_ptolemaique' || obj.periodId === 'egypte_romaine' || obj.civId === 'egypte_tardive') return true;
+        }
+        // Archaïque rattaché au bloc de Chypre Bronze & Archaïque
+        if (civ.id === 'chypre_bronze') {
+          if (obj.periodId === 'chypre_archaique' || obj.civId === 'chypre') return true;
+        }
+        // Fallback chronologique sur le lane
+        if (civ.lane && obj.civId === civ.lane && typeof obj.centuryNumeric === 'number') {
+          return obj.centuryNumeric >= (civ.yearStart - 50) && obj.centuryNumeric <= (civ.yearEnd + 50);
+        }
+        return false;
+      });
+
+      // Compléter si moins de 3 œuvres phares
+      if (matched.length < 3) {
+        const others = window.ART_OBJECTS.filter(obj => {
+          if (matched.some(m => m.id === obj.id)) return false;
+          if (obj.civId === civ.id || obj.periodId === civ.id) return true;
+          if (civ.id === 'egypte_tardive' && (obj.periodId === 'egypte_ptolemaique' || obj.periodId === 'egypte_romaine')) return true;
+          if (civ.id === 'chypre_bronze' && (obj.periodId === 'chypre_archaique' || obj.civId === 'chypre')) return true;
+          if (civ.lane && obj.civId === civ.lane && typeof obj.centuryNumeric === 'number') {
+            return obj.centuryNumeric >= (civ.yearStart - 50) && obj.centuryNumeric <= (civ.yearEnd + 50);
+          }
+          return false;
+        }).slice(0, 8 - matched.length);
+        matched = matched.concat(others);
+      }
+
+      matched.sort((a, b) => (a.centuryNumeric || 0) - (b.centuryNumeric || 0));
+      civ.artifacts = matched;
     });
   }
   buildTimelineBlocks();
@@ -1003,13 +1037,18 @@ function activateCivilisationView(civ) {
       const card = document.createElement('div');
       card.className = `sub-node-card ${aIdx === 0 ? 'active' : ''} ${art.isAmarna ? 'is-amarna' : ''}`;
 
+      const dateLabel = art.centuryDisplay || art.century || '';
+      const subLabel = art.category || art.site || art.originSite || '';
+
       card.innerHTML = `
-        <div class="sub-node-date">${art.century}</div>
         <div class="sub-node-pedestal">
-          <img src="${art.imgSrc}" alt="${art.title}" loading="lazy" />
+          <span class="sub-node-corner-date">${escapeHtmlAttr(dateLabel)}</span>
+          <img src="${art.imgSrc}" alt="${escapeHtmlAttr(art.title)}" loading="lazy" />
         </div>
-        <div class="sub-node-title">${art.title}</div>
-        <div class="sub-node-subtitle">${art.site}</div>
+        <div class="sub-node-body">
+          <div class="sub-node-title" title="${escapeHtmlAttr(art.title)}">${escapeHtmlAttr(art.title)}</div>
+          <div class="sub-node-subtitle" title="${escapeHtmlAttr(subLabel)}">${escapeHtmlAttr(subLabel)}</div>
+        </div>
       `;
 
       card.addEventListener('click', () => {
@@ -2329,6 +2368,14 @@ function jumpFromArtworkToTimeline(art) {
   let matchedCiv = null;
   if (art.periodId && Array.isArray(CIVILISATIONS_REGISTRY)) {
     matchedCiv = CIVILISATIONS_REGISTRY.find(c => c.id === art.periodId);
+    // Correspondances vers les blocs chronologiques unifiés existants
+    if (!matchedCiv) {
+      if (art.periodId === 'egypte_ptolemaique' || art.periodId === 'egypte_romaine') {
+        matchedCiv = CIVILISATIONS_REGISTRY.find(c => c.id === 'egypte_tardive');
+      } else if (art.periodId === 'chypre_archaique') {
+        matchedCiv = CIVILISATIONS_REGISTRY.find(c => c.id === 'chypre_bronze');
+      }
+    }
   }
   if (!matchedCiv && art.civId && Array.isArray(CIVILISATIONS_REGISTRY)) {
     matchedCiv = CIVILISATIONS_REGISTRY.find(c => {
