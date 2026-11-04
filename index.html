@@ -21,7 +21,7 @@
     href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;900&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap"
     rel="stylesheet">
 
-  <link rel="stylesheet" href="style.css?v=2.2">
+  <link rel="stylesheet" href="style.css?v=2.5">
 
   <!-- Icônes pour l'application mobile et tablette -->
   <link rel="icon" type="image/jpeg" sizes="512x512" href="icon-512.jpeg">
@@ -389,6 +389,20 @@
           <img id="civilisation-map-img" src="" alt="Carte régionale" />
           <div class="map-atmospheric-glow"></div>
         </div>
+      </div>
+
+      <!-- PASSERELLE RETOUR : Bouton flottant pour revenir à la notice de l'œuvre -->
+      <div id="timeline-return-pill" class="timeline-return-pill" hidden>
+        <button type="button" id="btn-timeline-return-art" class="btn-timeline-return-art" title="Réouvrir la notice complète de cette œuvre">
+          <span class="return-pill-icon">↩</span>
+          <span class="return-pill-label">Revenir à la notice : <strong id="timeline-return-art-title">Œuvre</strong></span>
+        </button>
+      </div>
+
+      <!-- Notification Toast informative de repérage temporel -->
+      <div id="timeline-toast-notice" class="timeline-toast-notice" hidden>
+        <span class="toast-icon">⏳</span>
+        <span class="toast-msg" id="timeline-toast-msg"></span>
       </div>
 
       <!-- CARTOUCHE LATÉRAL GAUCHE -->
@@ -780,7 +794,7 @@
   <script src="data/data-objets2.js"></script>
 
   <!-- SCRIPT MAÎTRE -->
-  <script src="app.js"></script>
+  <script src="app.js?v=2.5"></script>
 </body>
 
 </html>

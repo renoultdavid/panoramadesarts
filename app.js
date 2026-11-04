@@ -1440,7 +1440,11 @@ function openCuratorModal(art, siblingsList = [], fromTimeline = false, isHistor
   if (currentArtIndex === -1) currentArtIndex = 0;
 
   renderModalCurrentArt();
-  modal.classList.add('open');
+  if (modal) {
+    modal.hidden = false;
+    modal.removeAttribute('hidden');
+    modal.classList.add('open');
+  }
 }
 
 function renderModalCurrentArt() {
@@ -1570,6 +1574,40 @@ function populateModalData(art) {
     <span>Situer sur la Frise</span>
   `;
   btnJumpTimeline.title = "Localiser l'époque et la civilisation de ce chef-d'œuvre sur la Frise Chronologique";
+  btnJumpTimeline.style.cssText = `
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+    background: linear-gradient(135deg, rgba(212, 175, 55, 0.28) 0%, rgba(212, 175, 55, 0.12) 100%) !important;
+    border: 1.5px solid #d4af37 !important;
+    color: #fce8a6 !important;
+    border-radius: 20px !important;
+    font-family: 'Cinzel', serif !important;
+    font-size: 0.74rem !important;
+    font-weight: 700 !important;
+    letter-spacing: 1px !important;
+    text-transform: uppercase !important;
+    padding: 6px 14px !important;
+    cursor: pointer !important;
+    margin-left: 6px !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.15) !important;
+    vertical-align: middle !important;
+    transition: all 0.25s ease !important;
+  `;
+  btnJumpTimeline.addEventListener('mouseenter', () => {
+    btnJumpTimeline.style.background = 'linear-gradient(135deg, #d4af37 0%, #b8860b 100%)';
+    btnJumpTimeline.style.color = '#0d1117';
+    btnJumpTimeline.style.borderColor = '#ffffff';
+    btnJumpTimeline.style.transform = 'translateY(-2px)';
+    btnJumpTimeline.style.boxShadow = '0 4px 18px rgba(212, 175, 55, 0.5)';
+  });
+  btnJumpTimeline.addEventListener('mouseleave', () => {
+    btnJumpTimeline.style.background = 'linear-gradient(135deg, rgba(212, 175, 55, 0.28) 0%, rgba(212, 175, 55, 0.12) 100%)';
+    btnJumpTimeline.style.color = '#fce8a6';
+    btnJumpTimeline.style.borderColor = '#d4af37';
+    btnJumpTimeline.style.transform = 'translateY(0)';
+    btnJumpTimeline.style.boxShadow = '0 2px 10px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.15)';
+  });
   btnJumpTimeline.addEventListener('click', (e) => {
     e.stopPropagation();
     jumpFromArtworkToTimeline(art);
@@ -1603,6 +1641,8 @@ function populateModalData(art) {
 
 btnModalClose.addEventListener('click', () => {
   modal.classList.remove('open');
+  modal.hidden = false;
+  modal.removeAttribute('hidden');
   modalImg.src = '';
   modalHistoryStack = [];
   if (btnModalHistoryBack) btnModalHistoryBack.style.display = 'none';
@@ -1611,6 +1651,8 @@ btnModalClose.addEventListener('click', () => {
 modal.addEventListener('click', (e) => {
   if (e.target === modal) {
     modal.classList.remove('open');
+    modal.hidden = false;
+    modal.removeAttribute('hidden');
     modalImg.src = '';
     modalHistoryStack = [];
     if (btnModalHistoryBack) btnModalHistoryBack.style.display = 'none';
@@ -2208,6 +2250,42 @@ window.addEventListener('keydown', (e) => {
 // 4. PASSERELLES TRANSVERSALES : GALERIE <-> FRISE CHRONOLOGIQUE
 // --------------------------------------------------------------------------
 
+let lastTimelineArtwork = null;
+let lastTimelineContextList = [];
+let timelineToastTimeout = null;
+
+function showTimelineToast(msg) {
+  const toast = document.getElementById('timeline-toast-notice');
+  const msgEl = document.getElementById('timeline-toast-msg');
+  if (!toast || !msgEl) return;
+  msgEl.textContent = msg;
+  toast.hidden = false;
+  if (timelineToastTimeout) clearTimeout(timelineToastTimeout);
+  timelineToastTimeout = setTimeout(() => {
+    toast.hidden = true;
+  }, 4500);
+}
+
+// Initialisation du bouton retour vers l'œuvre explorée
+const btnTimelineReturnArt = document.getElementById('btn-timeline-return-art');
+if (btnTimelineReturnArt) {
+  btnTimelineReturnArt.addEventListener('click', () => {
+    if (!lastTimelineArtwork) return;
+    const artToOpen = lastTimelineArtwork;
+    const listToOpen = (lastTimelineContextList && lastTimelineContextList.length > 0) ? lastTimelineContextList : [artToOpen];
+
+    // 1. Basculer vers la vue Galerie
+    switchView('view-search');
+
+    // 2. Réouvrir la modale de l'œuvre
+    openCuratorModal(artToOpen, listToOpen, false);
+
+    // 3. Masquer le bouton de retour
+    const pill = document.getElementById('timeline-return-pill');
+    if (pill) pill.hidden = true;
+  });
+}
+
 /**
  * Passerelle 1 : Localise instantanément l'œuvre sur la Frise Chronologique,
  * centre le ruban temporel sur son siècle et déploie la civilisation associée.
@@ -2215,21 +2293,36 @@ window.addEventListener('keydown', (e) => {
 function jumpFromArtworkToTimeline(art) {
   if (!art) return;
 
-  // 1. Fermer la modale d'œuvre si elle est ouverte
+  lastTimelineArtwork = art;
+  lastTimelineContextList = (activeContextList && activeContextList.length > 0) ? [...activeContextList] : [art];
+
+  // 1. Fermer la modale d'œuvre si elle est ouverte (sans jamais poser hidden=true)
   if (modal) {
-    modal.hidden = true;
     modal.classList.remove('open');
+    modal.hidden = false;
+    modal.removeAttribute('hidden');
+    if (modalImg) modalImg.src = '';
   }
 
-  // 2. Basculer instantanément sur la Frise Chronologique (Vue 3)
+  // 2. Afficher le bouton flottant de retour vers l'œuvre
+  const pill = document.getElementById('timeline-return-pill');
+  const titleEl = document.getElementById('timeline-return-art-title');
+  if (pill && titleEl) {
+    const rawTitle = art.title || "l'œuvre";
+    const shortTitle = rawTitle.length > 36 ? (rawTitle.slice(0, 36) + '…') : rawTitle;
+    titleEl.textContent = shortTitle;
+    pill.hidden = false;
+  }
+
+  // 3. Basculer instantanément sur la Frise Chronologique (Vue 3)
   switchView('view-timeline');
 
-  // 3. Déterminer l'année cible (-3500 à +1500)
+  // 4. Déterminer l'année cible (-3500 à +1500)
   const targetYear = (typeof art.centuryNumeric === 'number' && !isNaN(art.centuryNumeric))
     ? art.centuryNumeric
     : -1000;
 
-  // 4. Centrer le ruban chronologique sur cette époque
+  // 5. Centrer le ruban chronologique sur cette époque
   const containerWidth = masterContainer ? masterContainer.clientWidth : window.innerWidth;
   const targetPixel = yearToPixel(targetYear);
   const minX = -(RIBBON_WIDTH - containerWidth);
@@ -2245,20 +2338,32 @@ function jumpFromArtworkToTimeline(art) {
     updateSynchronousState(containerWidth / 2);
   }
 
-  // 5. Identifier et verrouiller la civilisation correspondante dans le volet latéral
+  // 6. Identifier la civilisation correspondante dans CIVILISATIONS_REGISTRY
   let matchedCiv = null;
   if (art.periodId && Array.isArray(CIVILISATIONS_REGISTRY)) {
     matchedCiv = CIVILISATIONS_REGISTRY.find(c => c.id === art.periodId);
   }
   if (!matchedCiv && art.civId && Array.isArray(CIVILISATIONS_REGISTRY)) {
-    matchedCiv = CIVILISATIONS_REGISTRY.find(c => c.lane === art.civId && targetYear >= c.yearStart && targetYear <= c.yearEnd);
-  }
-  if (!matchedCiv && Array.isArray(CIVILISATIONS_REGISTRY)) {
-    matchedCiv = CIVILISATIONS_REGISTRY.find(c => targetYear >= c.yearStart && targetYear <= c.yearEnd);
+    matchedCiv = CIVILISATIONS_REGISTRY.find(c => {
+      const matchLane = (c.lane === art.civId) ||
+                        (art.civId === 'grece' && c.lane === 'egee') ||
+                        (art.civId === 'etrusque' && c.lane === 'italie_etrusque');
+      return matchLane && targetYear >= c.yearStart && targetYear <= c.yearEnd;
+    });
   }
 
+  // RÈGLE CRUCIALE : On ne se rabat JAMAIS aveuglément sur une civilisation étrangère (ex: Égypte au lieu de Grèce) !
   if (matchedCiv && typeof lockCivSidebar === 'function') {
     lockCivSidebar(matchedCiv);
+  } else {
+    // Si la civilisation n'est pas encore enregistrée sur la frise
+    if (typeof hideCivPreview === 'function') {
+      isLockedSidebar = false;
+      hideCivPreview();
+    }
+    const epochLabel = art.centuryDisplay || (targetYear < 0 ? `${Math.abs(targetYear)} av. J.-C.` : `${targetYear} ap. J.-C.`);
+    const civLabel = art.civName || 'Civilisation';
+    showTimelineToast(`⏳ Époque située : ${epochLabel} • ${civLabel} (bientôt sur la Frise)`);
   }
 }
 
