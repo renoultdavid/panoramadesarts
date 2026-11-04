@@ -227,14 +227,11 @@ const CIVILISATIONS_REGISTRY = [
     mapOverlayUrl: "https://lh3.googleusercontent.com/d/156Ms6-I_hZFV20g8jtGYjhw_Pd7yUTf0",
     albumUrl: "https://photos.google.com",
     presentationHtml: `
-      <p><strong>L'Ancien Empire égyptien : l'âge des pyramides</strong><br>
-      L’Ancien Empire égyptien (v. 2700-2200 av. J.-C., IIIe-VIe dynasties), souvent qualifié d'« âge des pyramides », s'impose comme une période d'apogée politique, artistique et théologique où s'affirme la puissance absolue du pharaon, considéré comme un dieu vivant garant de l'ordre cosmique (la Maât).</p>
-      <p>Dans le domaine architectural, cette époque inaugure le passage monumental de la pierre avec la construction des complexes funéraires royaux, depuis la pyramide à degrés de Djéser à Saqqarah imaginée par Imhotep jusqu'aux chefs-d'œuvre géométriques parfaits du plateau de Gizeh (Khéops, Khéphren, Mykérinos).</p>
-      <p>Ces complexes associent temples hauts, temples de vallée et chaussées montantes, symbolisant l'ascension solaire du souverain défunt et incarnant la maîtrise absolue d'une main-d'œuvre centralisée et organisée.</p>
-      <p>La statuaire royale et aristocratique de l'Ancien Empire se caractérise par une hiératisme majestueux, une géométrie rigoureuse et une recherche de l'éternité, façonnée dans des roches dures et résistantes comme le diorite, le schiste ou le calcaire peint.</p>
-      <p>Les figures royales trônent avec une impassibilité sereine, tandis que la statuaire privée — illustrée par des chefs-d'œuvre comme le Scribe accroupi ou le couple de Rahhotep et Nofret — introduit un réalisme saisissant et individualisé, notamment à travers l'incrustation de pierres et de cristal pour les yeux.</p>
-      <p>Les parois des mastabas et des tombes de dignitaires se couvrent de bas-reliefs et de peintures d'une finesse exquise, célébrant la vie quotidienne, la faune, la flore et les offrandes agricoles pour nourrir éternellement le Ka du défunt.</p>
-      <p>L'art de l'Ancien Empire fixe ainsi les canons fondamentaux de la plastique égyptienne pour les trois millénaires suivants, alliant la rigueur proportionnelle du quadrillage à une spiritualité profondément ancrée dans l'immortalité.</p>
+      <p><strong>L'âge classique et l'humanisme du Moyen Empire</strong><br>
+      Le Moyen Empire égyptien (v. 2055-1650 av. J.-C., XIe-XIIe dynasties), inauguré par la réunification héroïque du pays sous le roi thébain Montouhotep II après les troubles de la Première Période intermédiaire, est célébré comme l'âge d'or classique de la culture pharaonique, tant par la perfection formelle de sa langue littéraire que par la profondeur réflexive de son art.</p>
+      <p>Sous la XIIe dynastie (les Sésostris et Amenemhat), la capitale politique se déplace au nord à Itchaouy (Licht / Fayoum). L'art officiel s'affranchit de l'idéalisme serein de l'Ancien Empire pour introduire une vérité humaine et psychologique sans précédent : les portraits sculptés de Sésostris III et d'Amenemhat III révèlent des visages graves, marqués par les épreuves et la lassitude du pouvoir, aux paupières lourdes et aux bouches fermes, incarnant le monarque en « bon pasteur » vigilant plutôt qu'en dieu distant.</p>
+      <p>Dans la statuaire privée et les arts funéraires, cette époque voit la démocratisation des croyances osiriennes. Les nécropoles de Haute et Moyenne-Égypte (Béni Hassan, Assiout, Thèbes) foisonnent de superbes maquettes de bois peint (barques sacrées de rameurs, ateliers, brasseries, défilés d'offrandes) et de stèles votives d'une grande finesse calligraphique, destinées à assurer la survie éternelle du défunt dans le royaume d'Osiris à Abydos.</p>
+      <p>L'orfèvrerie atteint également des sommets absolus de virtuosité, comme en témoignent les trésors princiers découverts à Dahchour et El-Lahoun, où l'or ciselé, la turquoise, le lapis-lazuli et la cornaline s'unissent en pectoraux ajourés d'un raffinement inégalé.</p>
     `,
     concurrentHtml: `
       <p><strong>Le contexte mondial au IIe millénaire av. J.-C.</strong></p>
@@ -736,12 +733,16 @@ const sidebarBannerImg = document.getElementById('sidebar-banner-img');
 const sidebarAlbumGrid = document.getElementById('sidebar-album-grid');
 const btnEnterCiv = document.getElementById('btn-enter-civ');
 const btnCloseSidebar = document.getElementById('btn-close-sidebar');
+const btnCloseConcurrent = document.getElementById('btn-close-concurrent');
+const btnToggleConcurrent = document.getElementById('btn-toggle-concurrent');
+const btnReopenCivCard = document.getElementById('btn-reopen-civ-card');
 
 let isLockedSidebar = false;
 let selectedCiv = null;
 
 function showCivPreview(civ) {
   selectedCiv = civ;
+  if (btnReopenCivCard) btnReopenCivCard.hidden = true;
   sidebarEra.textContent = civ.epoch;
   sidebarTitle.textContent = civ.name;
   sidebarDesc.innerHTML = civ.presentationHtml;
@@ -777,18 +778,15 @@ function showCivPreview(civ) {
   const activeHalo = document.getElementById(civ.haloId);
   if (activeHalo) activeHalo.classList.add('active');
 
-  // Compteur d'œuvres associées dans la Galerie
+  // Compteur d'œuvres associées dans la Galerie (aligné exactement sur les filtres de la Galerie)
   const sidebarCivGalleryCount = document.getElementById('sidebar-civ-gallery-count');
   if (sidebarCivGalleryCount) {
     const catalog = window.ART_OBJECTS || [];
     const count = catalog.filter(art => {
-      if (art.periodId && art.periodId === civ.id) return true;
-      if (art.civId && (art.civId === civ.lane || art.civId === civ.id)) {
-        if (civ.yearStart !== undefined && civ.yearEnd !== undefined && art.centuryNumeric !== undefined) {
-          return art.centuryNumeric >= (civ.yearStart - 80) && art.centuryNumeric <= (civ.yearEnd + 80);
-        }
-        return true;
-      }
+      if (art.periodId === civ.id) return true;
+      if (civ.id === 'egypte_tardive' && (art.periodId === 'egypte_ptolemaique' || art.periodId === 'egypte_romaine')) return true;
+      if (civ.id === 'chypre_bronze' && art.periodId === 'chypre_archaique') return true;
+      if (art.civId === civ.id) return true;
       return false;
     }).length;
     sidebarCivGalleryCount.textContent = count;
@@ -802,8 +800,11 @@ function hideCivPreview() {
   selectedCiv = null;
 }
 
+let lastActiveCiv = null;
+
 function lockCivSidebar(civ) {
   isLockedSidebar = true;
+  lastActiveCiv = civ;
   showCivPreview(civ);
 }
 
@@ -811,13 +812,43 @@ btnCloseSidebar.addEventListener('click', (e) => {
   e.stopPropagation();
   isLockedSidebar = false;
   hideCivPreview();
+  if (btnReopenCivCard && lastActiveCiv) {
+    btnReopenCivCard.hidden = false;
+  }
 });
+
+if (btnReopenCivCard) {
+  btnReopenCivCard.addEventListener('click', (e) => {
+    e.stopPropagation();
+    if (lastActiveCiv) {
+      lockCivSidebar(lastActiveCiv);
+      btnReopenCivCard.hidden = true;
+    }
+  });
+}
+
+if (btnCloseConcurrent) {
+  btnCloseConcurrent.addEventListener('click', (e) => {
+    e.stopPropagation();
+    if (concurrentSidebar) concurrentSidebar.classList.remove('visible');
+    if (btnToggleConcurrent) btnToggleConcurrent.hidden = false;
+  });
+}
+
+if (btnToggleConcurrent) {
+  btnToggleConcurrent.addEventListener('click', (e) => {
+    e.stopPropagation();
+    if (concurrentSidebar) concurrentSidebar.classList.add('visible');
+    btnToggleConcurrent.hidden = true;
+  });
+}
 
 btnEnterCiv.addEventListener('click', () => {
   if (selectedCiv) {
     activateCivilisationView(selectedCiv);
     isLockedSidebar = false;
     hideCivPreview();
+    if (btnReopenCivCard) btnReopenCivCard.hidden = true;
   }
 });
 
@@ -1071,6 +1102,8 @@ function closeCivilisationView() {
   civMapImg.src = '';
   globalMapImg.classList.remove('traveling');
   subStream.innerHTML = '';
+  if (btnToggleConcurrent) btnToggleConcurrent.hidden = true;
+  if (btnReopenCivCard) btnReopenCivCard.hidden = true;
   hideCivPreview();
 }
 
