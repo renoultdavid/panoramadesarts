@@ -21,7 +21,7 @@
     href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;900&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap"
     rel="stylesheet">
 
-  <link rel="stylesheet" href="style.css?v=3.6">
+  <link rel="stylesheet" href="style.css?v=3.8">
 
   <!-- Icônes pour l'application mobile et tablette -->
   <link rel="icon" type="image/jpeg" sizes="512x512" href="icon-512.jpeg">
@@ -364,30 +364,48 @@
   <section id="view-timeline" class="spa-view" hidden>
     <!-- SCÈNE CARTOGRAPHIQUE CENTRALE FIXÉE -->
     <main id="map-viewport">
-      <div id="map-canvas-frame">
-        <img id="global-map-img" src="https://lh3.googleusercontent.com/d/1QyvVo3lL18FPcqzLgR9qvyaHY5F63Spk"
-          alt="Carte du Monde" />
+      <!-- HUD DE CADRAGE & ZOOM PAR FOYERS GÉOGRAPHIQUES (HOTSPOTS) -->
+      <div id="map-hotspot-hud" class="map-hotspot-hud">
+        <div class="hotspot-btn-group">
+          <button type="button" class="btn-hotspot active" data-hotspot="monde" title="Vue Monde globale">🌐 Monde</button>
+          <button type="button" class="btn-hotspot" data-hotspot="mediterranee" title="Zoom sur le bassin méditerranéen & Nil">🏛️ Méditerranée</button>
+          <button type="button" class="btn-hotspot" data-hotspot="orient" title="Zoom sur le Proche-Orient & l'Iran">🏺 Orient &amp; Perse</button>
+          <button type="button" class="btn-hotspot" data-hotspot="europe" title="Zoom sur l'Europe & Gaule">⚔️ Europe</button>
+          <button type="button" class="btn-hotspot" data-hotspot="atlantique" title="Zoom sur l'Atlantique & Canaries">🌋 Canaries</button>
+        </div>
+        <div class="hotspot-zoom-tools">
+          <button type="button" class="btn-map-zoom-tool" id="btn-map-zoom-in" title="Zoom avant">+</button>
+          <button type="button" class="btn-map-zoom-tool" id="btn-map-zoom-out" title="Zoom arrière">−</button>
+          <button type="button" class="btn-map-zoom-tool" id="btn-map-zoom-reset" title="Réinitialiser le cadrage">⟲</button>
+        </div>
+      </div>
 
-        <!-- Halos synchrones mondiaux -->
-        <div id="synchronous-halos-layer">
-          <div id="halo-canaries" class="sync-foyer-halo"></div>
-          <div id="halo-amorrite" class="sync-foyer-halo"></div>
-          <div id="halo-celte_bronze" class="sync-foyer-halo"></div>
-          <div id="halo-celte_fer" class="sync-foyer-halo"></div>
-          <div id="halo-chypre" class="sync-foyer-halo"></div>
-          <div id="halo-crete" class="sync-foyer-halo"></div>
-          <div id="halo-cyclades" class="sync-foyer-halo"></div>
-          <div id="halo-mycenes" class="sync-foyer-halo"></div>
-          <div id="halo-grece" class="sync-foyer-halo"></div>
-          <div id="halo-etrusque" class="sync-foyer-halo"></div>
-          <div id="halo-iran_perse" class="sync-foyer-halo"></div>
-          <div id="halo-islam" class="sync-foyer-halo"></div>
-          <div id="halo-occident" class="sync-foyer-halo"></div>
-          <div id="halo-ibere" class="sync-foyer-halo"></div>
-          <div id="halo-egypte_ancien" class="sync-foyer-halo"></div>
-          <div id="halo-egypte_moyen" class="sync-foyer-halo"></div>
-          <div id="halo-egypte_nouvel" class="sync-foyer-halo"></div>
-          <div id="halo-egypte_tardif" class="sync-foyer-halo"></div>
+      <div id="map-canvas-frame">
+        <div id="map-zoom-stage">
+          <img id="global-map-img" src="https://lh3.googleusercontent.com/d/1QyvVo3lL18FPcqzLgR9qvyaHY5F63Spk"
+            alt="Carte du Monde" />
+
+          <!-- Halos synchrones mondiaux -->
+          <div id="synchronous-halos-layer">
+            <div id="halo-canaries" class="sync-foyer-halo"></div>
+            <div id="halo-amorrite" class="sync-foyer-halo"></div>
+            <div id="halo-celte_bronze" class="sync-foyer-halo"></div>
+            <div id="halo-celte_fer" class="sync-foyer-halo"></div>
+            <div id="halo-chypre" class="sync-foyer-halo"></div>
+            <div id="halo-crete" class="sync-foyer-halo"></div>
+            <div id="halo-cyclades" class="sync-foyer-halo"></div>
+            <div id="halo-mycenes" class="sync-foyer-halo"></div>
+            <div id="halo-grece" class="sync-foyer-halo"></div>
+            <div id="halo-etrusque" class="sync-foyer-halo"></div>
+            <div id="halo-iran_perse" class="sync-foyer-halo"></div>
+            <div id="halo-islam" class="sync-foyer-halo"></div>
+            <div id="halo-occident" class="sync-foyer-halo"></div>
+            <div id="halo-ibere" class="sync-foyer-halo"></div>
+            <div id="halo-egypte_ancien" class="sync-foyer-halo"></div>
+            <div id="halo-egypte_moyen" class="sync-foyer-halo"></div>
+            <div id="halo-egypte_nouvel" class="sync-foyer-halo"></div>
+            <div id="halo-egypte_tardif" class="sync-foyer-halo"></div>
+          </div>
         </div>
 
         <!-- Carte Régionale Dédiée -->
@@ -501,6 +519,7 @@
             <div class="lane-fixed-label" data-lane="mesopotamie">Mésopotamie antique</div>
             <div class="lane-fixed-label" data-lane="iran_perse">Perse &amp; Iran antique</div>
             <div class="lane-fixed-label" data-lane="islam">Mondes de l'Islam</div>
+            <div class="timeline-lane-spacer"></div>
           </div>
 
           <div id="master-drag-container">
@@ -515,6 +534,7 @@
               <div class="timeline-lane" data-lane="mesopotamie"></div>
               <div class="timeline-lane" data-lane="iran_perse"></div>
               <div class="timeline-lane" data-lane="islam"></div>
+              <div class="timeline-lane-spacer"></div>
             </div>
           </div>
         </div>
@@ -816,7 +836,7 @@
   <script src="data/data-objets2.js"></script>
 
   <!-- SCRIPT MAÎTRE -->
-  <script src="app.js?v=3.6"></script>
+  <script src="app.js?v=3.8"></script>
 </body>
 
 </html>

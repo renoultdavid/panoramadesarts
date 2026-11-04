@@ -1454,8 +1454,10 @@ function buildTimelineBlocks() {
     const laneEl = document.querySelector(`.timeline-lane[data-lane="${civ.lane}"]`);
     if (!laneEl) return;
 
-    const x1 = yearToPixel(civ.yearStart);
-    const x2 = yearToPixel(civ.yearEnd);
+    const visibleStart = Math.max(civ.yearStart, YEAR_MIN);
+    const visibleEnd = Math.min(civ.yearEnd, YEAR_MAX);
+    const x1 = yearToPixel(visibleStart);
+    const x2 = yearToPixel(visibleEnd);
     const width = Math.max(x2 - x1, 80);
 
     const block = document.createElement('div');
@@ -1506,6 +1508,84 @@ const tabReopenCiv = document.getElementById('tab-reopen-civ');
 const tabReopenCivLabel = document.getElementById('tab-reopen-civ-label');
 const tabReopenConcurrent = document.getElementById('tab-reopen-concurrent');
 
+/* ==========================================================================
+   CADRAGE GÉOGRAPHIQUE PAR HOTSPOTS & ZOOM DE LA CARTE MONDIALE
+   ========================================================================== */
+const MAP_HOTSPOTS = {
+  monde: { label: "Vue Monde", origin: "50% 50%", scale: 1.0 },
+  mediterranee: { label: "Méditerranée & Nil", origin: "53.5% 46.2%", scale: 2.7 },
+  orient: { label: "Proche-Orient & Perse", origin: "57.8% 45.8%", scale: 2.8 },
+  europe: { label: "Europe & Occident", origin: "48.5% 40.5%", scale: 2.7 },
+  atlantique: { label: "Canaries & Îles", origin: "44.0% 48.6%", scale: 3.2 }
+};
+
+let currentMapHotspot = 'monde';
+let currentMapScale = 1.0;
+
+function applyMapHotspot(key, customScale) {
+  const stage = document.getElementById('map-zoom-stage');
+  if (!stage) return;
+  const hotspot = MAP_HOTSPOTS[key] || MAP_HOTSPOTS.monde;
+  currentMapHotspot = key;
+  currentMapScale = (customScale !== undefined) ? customScale : hotspot.scale;
+
+  stage.style.transformOrigin = hotspot.origin;
+  stage.style.transform = `scale(${currentMapScale})`;
+
+  // Mise à jour de l'état actif dans le HUD
+  document.querySelectorAll('.btn-hotspot').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.hotspot === key);
+  });
+}
+
+// Initialisation des boutons de Hotspots et outils de zoom
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.btn-hotspot').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      applyMapHotspot(btn.dataset.hotspot);
+    });
+  });
+
+  const btnMapZoomIn = document.getElementById('btn-map-zoom-in');
+  const btnMapZoomOut = document.getElementById('btn-map-zoom-out');
+  const btnMapZoomReset = document.getElementById('btn-map-zoom-reset');
+
+  if (btnMapZoomIn) {
+    btnMapZoomIn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const newScale = Math.min(5.0, (currentMapScale || 1.0) + 0.4);
+      applyMapHotspot(currentMapHotspot, newScale);
+    });
+  }
+  if (btnMapZoomOut) {
+    btnMapZoomOut.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const newScale = Math.max(1.0, (currentMapScale || 1.0) - 0.4);
+      applyMapHotspot(currentMapHotspot, newScale);
+    });
+  }
+  if (btnMapZoomReset) {
+    btnMapZoomReset.addEventListener('click', (e) => {
+      e.stopPropagation();
+      applyMapHotspot('monde', 1.0);
+    });
+  }
+
+  const mapViewport = document.getElementById('map-viewport');
+  if (mapViewport) {
+    mapViewport.addEventListener('wheel', (e) => {
+      if (e.target.closest('#master-timeline-bar') || e.target.closest('#hover-sidebar-card') || e.target.closest('#concurrent-sidebar-card') || e.target.closest('#map-hotspot-hud')) {
+        return;
+      }
+      e.preventDefault();
+      const delta = e.deltaY < 0 ? 0.25 : -0.25;
+      const newScale = Math.min(5.0, Math.max(1.0, (currentMapScale || 1.0) + delta));
+      applyMapHotspot(currentMapHotspot, newScale);
+    }, { passive: false });
+  }
+});
+
 let isLockedSidebar = false;
 let selectedCiv = null;
 
@@ -1515,6 +1595,16 @@ function showCivPreview(civ) {
   sidebarEra.textContent = civ.epoch;
   sidebarTitle.textContent = civ.name;
   sidebarDesc.innerHTML = civ.presentationHtml;
+
+  // Cadrage automatique par Hotspot sur la carte
+  let targetHotspot = civ.hotspot;
+  if (!targetHotspot) {
+    if (civ.lane === 'iran_perse' || civ.lane === 'mesopotamie' || civ.lane === 'islam') targetHotspot = 'orient';
+    else if (civ.lane === 'europe_ouest' || civ.lane === 'italie_etrusque') targetHotspot = 'europe';
+    else if (civ.lane === 'atlantique') targetHotspot = 'atlantique';
+    else targetHotspot = 'mediterranee';
+  }
+  applyMapHotspot(targetHotspot);
 
   if (civ.bannerImg) {
     sidebarBannerImg.src = civ.bannerImg;
@@ -1748,14 +1838,18 @@ function updateSynchronousState(screenX) {
   syncLine.style.left = `${screenX}px`;
   syncBubble.textContent = currentYear < 0 ? `${Math.abs(currentYear)} av. J.-C.` : `${currentYear} ap. J.-C.`;
 
+  const activeHaloIds = new Set();
   CIVILISATIONS_REGISTRY.forEach(civ => {
-    const halo = document.getElementById(civ.haloId);
-    const isYearActive = (currentYear >= civ.yearStart && currentYear <= civ.yearEnd);
+    if (currentYear >= civ.yearStart && currentYear <= civ.yearEnd) {
+      if (civ.haloId) activeHaloIds.add(civ.haloId);
+    }
+  });
 
-    if (isYearActive) {
-      if (halo) halo.classList.add('active');
+  document.querySelectorAll('.sync-foyer-halo').forEach(halo => {
+    if (activeHaloIds.has(halo.id)) {
+      halo.classList.add('active');
     } else {
-      if (halo && (!isLockedSidebar || selectedCiv !== civ)) {
+      if (!isLockedSidebar || !selectedCiv || selectedCiv.haloId !== halo.id) {
         halo.classList.remove('active');
       }
     }
