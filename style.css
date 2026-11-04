@@ -615,7 +615,43 @@ body {
 #halo-mycenes {
   left: 52.2%;
   top: 42.6%;
-  background: radial-gradient(circle, rgba(244, 162, 97, 0.95) 0%, rgba(244, 162, 97, 0.35) 50%, transparent 75%);
+  background: radial-gradient(circle, rgba(72, 149, 239, 0.95) 0%, rgba(72, 149, 239, 0.35) 50%, transparent 75%);
+}
+
+#halo-grece {
+  left: 52.8%;
+  top: 44.5%;
+  background: radial-gradient(circle, rgba(67, 97, 238, 0.95) 0%, rgba(67, 97, 238, 0.35) 50%, transparent 75%);
+}
+
+#halo-etrusque {
+  left: 50.8%;
+  top: 41.5%;
+  background: radial-gradient(circle, rgba(217, 93, 57, 0.95) 0%, rgba(217, 93, 57, 0.35) 50%, transparent 75%);
+}
+
+#halo-iran_perse {
+  left: 58.8%;
+  top: 46.2%;
+  background: radial-gradient(circle, rgba(194, 89, 22, 0.95) 0%, rgba(194, 89, 22, 0.35) 50%, transparent 75%);
+}
+
+#halo-islam {
+  left: 55.5%;
+  top: 46.0%;
+  background: radial-gradient(circle, rgba(58, 90, 64, 0.95) 0%, rgba(58, 90, 64, 0.35) 50%, transparent 75%);
+}
+
+#halo-occident {
+  left: 49.5%;
+  top: 41.5%;
+  background: radial-gradient(circle, rgba(157, 78, 221, 0.95) 0%, rgba(157, 78, 221, 0.35) 50%, transparent 75%);
+}
+
+#halo-ibere {
+  left: 47.0%;
+  top: 45.5%;
+  background: radial-gradient(circle, rgba(231, 111, 81, 0.95) 0%, rgba(231, 111, 81, 0.35) 50%, transparent 75%);
 }
 
 #halo-egypte_ancien {
@@ -633,13 +669,13 @@ body {
 #halo-egypte_nouvel {
   left: 55.1%;
   top: 50.4%;
-  background: radial-gradient(circle, rgba(16, 185, 129, 0.95) 0%, rgba(16, 185, 129, 0.35) 50%, transparent 75%);
+  background: radial-gradient(circle, rgba(15, 163, 177, 0.95) 0%, rgba(15, 163, 177, 0.35) 50%, transparent 75%);
 }
 
 #halo-egypte_tardif {
   left: 54.5%;
   top: 48.0%;
-  background: radial-gradient(circle, rgba(217, 119, 6, 0.95) 0%, rgba(217, 119, 6, 0.35) 50%, transparent 75%);
+  background: radial-gradient(circle, rgba(22, 135, 167, 0.95) 0%, rgba(22, 135, 167, 0.35) 50%, transparent 75%);
 }
 
 .sync-foyer-halo.active {
@@ -1238,7 +1274,7 @@ body {
   top: 0;
   left: 200px;
   height: 100%;
-  width: 4800px;
+  width: 5500px;
   will-change: transform;
 }
 
@@ -1456,7 +1492,7 @@ body {
   left: 0;
   display: flex;
   flex-direction: column;
-  width: 4800px;
+  width: 5500px;
   will-change: transform;
   padding-bottom: 12px;
 }

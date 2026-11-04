@@ -21,7 +21,7 @@
     href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;900&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap"
     rel="stylesheet">
 
-  <link rel="stylesheet" href="style.css?v=3.3">
+  <link rel="stylesheet" href="style.css?v=3.5">
 
   <!-- Icônes pour l'application mobile et tablette -->
   <link rel="icon" type="image/jpeg" sizes="512x512" href="icon-512.jpeg">
@@ -476,7 +476,7 @@
             <span class="legend-chip"><span class="legend-dot dot-war"></span> Conquête / Bataille</span>
             <span class="legend-chip"><span class="legend-dot dot-disaster"></span> Cataclysme</span>
           </div>
-          <span>◄ -3500 av. J.-C. | +1500 ap. J.-C. ►</span>
+          <span>◄ -3500 av. J.-C. | +2000 ap. J.-C. ►</span>
         </div>
 
         <div id="sync-cursor-line">
@@ -485,19 +485,21 @@
 
         <div id="timeline-split-wrapper">
           <div id="timeline-labels-column">
-            <div class="lane-fixed-label" data-lane="europe_ouest">Gaule &amp; Europe Celte</div>
+            <div class="lane-fixed-label" data-lane="europe_ouest">Europe occidentale &amp; Gaule</div>
+            <div class="lane-fixed-label" data-lane="italie_etrusque">Italie préromaine &amp; Étrurie</div>
             <div class="lane-fixed-label" data-lane="atlantique">Atlantique &amp; Canaries</div>
             <div class="lane-fixed-label" data-lane="egee">Monde Égéen &amp; Grèce</div>
             <div class="lane-fixed-label" data-lane="chypre">Chypre &amp; Méditerranée or.</div>
             <div class="lane-fixed-label" data-lane="syrie">Levant &amp; Syrie</div>
             <div class="lane-fixed-label" data-lane="egypte">Égypte &amp; Nubie</div>
-            <div class="lane-fixed-label" data-lane="mesopotamie">Mésopotamie</div>
-            <div class="lane-fixed-label" data-lane="anatolie">Anatolie &amp; Caucase</div>
+            <div class="lane-fixed-label" data-lane="mesopotamie">Mésopotamie &amp; Mondes d'Islam</div>
+            <div class="lane-fixed-label" data-lane="anatolie">Perse, Iran &amp; Anatolie</div>
           </div>
 
           <div id="master-drag-container">
             <div id="master-ribbon">
               <div class="timeline-lane" data-lane="europe_ouest"></div>
+              <div class="timeline-lane" data-lane="italie_etrusque"></div>
               <div class="timeline-lane" data-lane="atlantique"></div>
               <div class="timeline-lane" data-lane="egee"></div>
               <div class="timeline-lane" data-lane="chypre"></div>
@@ -806,7 +808,7 @@
   <script src="data/data-objets2.js"></script>
 
   <!-- SCRIPT MAÎTRE -->
-  <script src="app.js?v=3.3"></script>
+  <script src="app.js?v=3.5"></script>
 </body>
 
 </html>
