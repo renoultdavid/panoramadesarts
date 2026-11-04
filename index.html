@@ -23,10 +23,6 @@
 
   <link rel="stylesheet" href="style.css?v=2.2">
 
-  <!-- Leaflet CSS & JS pour l'Atlas Mondial des Chefs-d'œuvre -->
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-
   <!-- Icônes pour l'application mobile et tablette -->
   <link rel="icon" type="image/jpeg" sizes="512x512" href="icon-512.jpeg">
   <link rel="apple-touch-icon" href="icon-512.jpeg">
@@ -414,6 +410,10 @@
           <button class="btn-enter-civ-map" id="btn-enter-civ">
             Explorer la carte régionale ➔
           </button>
+          <button type="button" class="btn-explore-civ-gallery" id="btn-explore-civ-gallery" title="Voir toutes les œuvres de cette civilisation dans la Galerie">
+            <span class="btn-civ-icon">🏛️</span>
+            <span>Explorer la Galerie (<strong id="sidebar-civ-gallery-count">0</strong>)</span>
+          </button>
         </div>
       </aside>
 
@@ -627,69 +627,6 @@
         </div>
         <div class="comp-switcher-ribbon" id="comp-switcher-ribbon">
           <!-- Vignettes injectées en JS -->
-        </div>
-      </footer>
-    </div>
-  </div>
-
-  <!-- ATLAS MONDIAL DES CHEFS-D'ŒUVRE : DOUBLE GÉOLOCALISATION & TRAJECTOIRE -->
-  <div id="atlas-modal" class="atlas-modal" hidden>
-    <div class="atlas-modal-backdrop" id="atlas-modal-backdrop"></div>
-    <div class="atlas-modal-dialog" role="dialog" aria-modal="true" aria-labelledby="atlas-modal-headline">
-      <header class="atlas-modal-header">
-        <div class="atlas-title-group">
-          <div class="atlas-kicker">
-            <span class="atlas-kicker-icon">🗺️</span>
-            <span>ATLAS GÉO-HISTORIQUE DES CHEFS-D'ŒUVRE</span>
-          </div>
-          <h3 class="atlas-modal-headline" id="atlas-modal-headline">L'Odyssée de l'Œuvre</h3>
-          <div class="atlas-gold-fade-line"></div>
-        </div>
-        <button type="button" class="btn-atlas-close" id="btn-atlas-close" aria-label="Fermer l'Atlas">&times;</button>
-      </header>
-
-      <!-- Bannière de synthèse de la trajectoire géographique -->
-      <div class="atlas-odyssey-banner" id="atlas-odyssey-banner">
-        <div class="atlas-point-col atlas-origin-col">
-          <div class="atlas-point-badge origin-badge">🏛️ BERCEAU ANTIQUE</div>
-          <div class="atlas-point-name" id="atlas-origin-name">Site d'origine</div>
-          <div class="atlas-point-coords" id="atlas-origin-coords">Coordonnées</div>
-        </div>
-
-        <div class="atlas-vector-col">
-          <div class="atlas-distance-chip" id="atlas-distance-chip">~0 km</div>
-          <div class="atlas-vector-line">
-            <span class="atlas-vector-dot origin-dot"></span>
-            <span class="atlas-vector-dash"></span>
-            <span class="atlas-vector-arrow">➔</span>
-            <span class="atlas-vector-dash"></span>
-            <span class="atlas-vector-dot dest-dot"></span>
-          </div>
-          <div class="atlas-trajectory-label" id="atlas-trajectory-label">Trajectoire patrimoniale</div>
-        </div>
-
-        <div class="atlas-point-col atlas-haven-col">
-          <div class="atlas-point-badge haven-badge">🏛️ HAVRE DE CONSERVATION</div>
-          <div class="atlas-point-name" id="atlas-haven-name">Musée actuel</div>
-          <div class="atlas-point-coords" id="atlas-haven-coords">Coordonnées</div>
-        </div>
-      </div>
-
-      <!-- Scène cartographique Leaflet interactive -->
-      <div class="atlas-map-wrapper">
-        <div class="atlas-map-layer-selector">
-          <button type="button" class="btn-atlas-layer is-active" data-layer="parchment" title="Fond Parchemin Antique & Portulan">📜 Parchemin Antique</button>
-          <button type="button" class="btn-atlas-layer" data-layer="relief" title="Relief Topographique Antique">⛰️ Relief Antique</button>
-          <button type="button" class="btn-atlas-layer" data-layer="satellite" title="Vue Satellite Naturelle">🛰️ Satellite HD</button>
-        </div>
-        <div id="atlas-leaflet-map" class="atlas-leaflet-map mode-parchment"></div>
-      </div>
-
-      <!-- Footer contextuel historique & fouilles -->
-      <footer class="atlas-history-footer" id="atlas-history-footer">
-        <div class="atlas-history-icon">📜</div>
-        <div class="atlas-history-text" id="atlas-history-text">
-          Contexte de redécouverte et d'itinérance de l'œuvre à travers les siècles.
         </div>
       </footer>
     </div>
