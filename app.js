@@ -2353,12 +2353,20 @@ function resolveArtworkGeoJourney(art) {
   const rawHaven = (art.currentLocation || art.site || '').toLowerCase();
   const rawCiv = (art.civId || '').toLowerCase();
 
-  // 1. Berceau Antique
+  // 1. Berceau Antique (priorité aux coordonnées personnalisées art.originCoords, sinon gazetteer)
   let originGeo = null;
-  for (const [key, siteData] of Object.entries(GEO_GAZETTEER_SITES)) {
-    if (rawOrigin.includes(key)) {
-      originGeo = siteData;
-      break;
+  if (art.originCoords && Array.isArray(art.originCoords) && art.originCoords.length === 2) {
+    originGeo = {
+      name: art.originSite || 'Site antique originel',
+      region: art.civName || 'Méditerranée',
+      coords: art.originCoords
+    };
+  } else {
+    for (const [key, siteData] of Object.entries(GEO_GAZETTEER_SITES)) {
+      if (rawOrigin.includes(key)) {
+        originGeo = siteData;
+        break;
+      }
     }
   }
 
@@ -2384,7 +2392,7 @@ function resolveArtworkGeoJourney(art) {
     }
   }
 
-  // 2. Havre Actuel
+  // 2. Havre Actuel (priorité aux coordonnées personnalisées art.havenCoords, sinon in situ ou gazetteer)
   let havenGeo = null;
   const isInSitu = rawHaven.startsWith('in situ') || rawHaven.includes('in situ');
 
@@ -2393,6 +2401,12 @@ function resolveArtworkGeoJourney(art) {
       name: art.currentLocation || originGeo.name,
       city: 'In Situ (Sanctuaire ou site archéologique originel)',
       coords: [originGeo.coords[0], originGeo.coords[1]]
+    };
+  } else if (art.havenCoords && Array.isArray(art.havenCoords) && art.havenCoords.length === 2) {
+    havenGeo = {
+      name: art.currentLocation || 'Musée de conservation',
+      city: 'Collections contemporaines',
+      coords: art.havenCoords
     };
   } else {
     for (const [key, musData] of Object.entries(GEO_GAZETTEER_MUSEUMS)) {
