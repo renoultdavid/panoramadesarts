@@ -21,7 +21,7 @@
     href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;900&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap"
     rel="stylesheet">
 
-  <link rel="stylesheet" href="style.css?v=3.8">
+  <link rel="stylesheet" href="style.css?v=3.9">
 
   <!-- Icônes pour l'application mobile et tablette -->
   <link rel="icon" type="image/jpeg" sizes="512x512" href="icon-512.jpeg">
@@ -500,7 +500,13 @@
             <span class="legend-chip"><span class="legend-dot dot-war"></span> Conquête / Bataille</span>
             <span class="legend-chip"><span class="legend-dot dot-disaster"></span> Cataclysme</span>
           </div>
-          <span>◄ -3500 av. J.-C. | +2000 ap. J.-C. ►</span>
+          <div class="timeline-zoom-controls">
+            <span id="timeline-zoom-level" class="timeline-zoom-badge" title="Niveau de dilatation temporelle">Zoom 1.0x</span>
+            <button type="button" class="btn-time-zoom" id="btn-time-zoom-in" title="Dilater l'échelle temporelle (Zoom avant)">+</button>
+            <button type="button" class="btn-time-zoom" id="btn-time-zoom-out" title="Compresser l'échelle temporelle (Zoom arrière)">−</button>
+            <button type="button" class="btn-time-zoom" id="btn-time-zoom-reset" title="Réinitialiser l'échelle temporelle">⟲ Vue Globale</button>
+          </div>
+          <span id="timeline-span-indicator">◄ -3500 av. J.-C. | +2000 ap. J.-C. ►</span>
         </div>
 
         <div id="sync-cursor-line">
@@ -836,7 +842,7 @@
   <script src="data/data-objets2.js"></script>
 
   <!-- SCRIPT MAÎTRE -->
-  <script src="app.js?v=3.8"></script>
+  <script src="app.js?v=3.9"></script>
 </body>
 
 </html>

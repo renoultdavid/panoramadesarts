@@ -86,19 +86,29 @@ const HISTORICAL_MILESTONES = [
 ];
 
 /* ==========================================================================
-   MOTEUR DE LA FRISE & INTERACTION (5500px)
+   MOTEUR DE LA FRISE CONTINU & ZOOM TEMPOREL (TIME-ZOOM DYNAMIQUE)
    ========================================================================== */
 const YEAR_MIN = -3500;
 const YEAR_MAX = 2000;
-const TOTAL_YEARS = YEAR_MAX - YEAR_MIN;
-const RIBBON_WIDTH = 5500;
+const TOTAL_YEARS = YEAR_MAX - YEAR_MIN; // 5500 ans
+const BASE_USABLE_WIDTH = 4900;
+
+let timelineZoom = 1.0; // Niveau de dilatation temporelle (de 0.4x à 15.0x)
+
+function getUsableWidth() {
+  return BASE_USABLE_WIDTH * timelineZoom;
+}
+
+function getRibbonWidth() {
+  return getUsableWidth() + 600;
+}
 
 function yearToPixel(year) {
-  return ((year - YEAR_MIN) / TOTAL_YEARS) * (RIBBON_WIDTH - 600) + 100;
+  return ((year - YEAR_MIN) / TOTAL_YEARS) * getUsableWidth() + 100;
 }
 
 function pixelToYear(px) {
-  return Math.round(YEAR_MIN + ((px - 100) / (RIBBON_WIDTH - 600)) * TOTAL_YEARS);
+  return Math.round(YEAR_MIN + ((px - 100) / getUsableWidth()) * TOTAL_YEARS);
 }
 
 const masterRibbon = document.getElementById('master-ribbon');
@@ -112,55 +122,96 @@ const mYear = document.getElementById('milestone-year');
 const mTitle = document.getElementById('milestone-title');
 const mDesc = document.getElementById('milestone-desc');
 
-for (let y = -3500; y <= 2000; y += 50) {
-  const x = yearToPixel(y);
-  const isMillennium = (y % 1000 === 0);
-  const isCentury = (y % 250 === 0);
+/* RÈGLE GRADUÉE MULTI-ÉCHELLES ADAPTATIVE (STYLE GÉOLOGIQUE / KURZGESAGT) */
+function renderRulerScale() {
+  if (!rulerTrack) return;
+  rulerTrack.innerHTML = '';
 
-  const tick = document.createElement('div');
-  tick.className = `ruler-tick ${isMillennium ? 'major' : (isCentury ? 'medium' : 'minor')}`;
-  tick.style.left = `${x}px`;
-  rulerTrack.appendChild(tick);
+  let step = 50;
+  let majorStep = 1000;
+  let mediumStep = 250;
+  let showDecades = false;
 
-  if (isMillennium || isCentury) {
-    const label = document.createElement('div');
-    label.className = 'ruler-label';
-    label.style.left = `${x}px`;
-    label.textContent = y < 0 ? `${y}` : (y === 0 ? "1" : `+${y}`);
-    rulerTrack.appendChild(label);
+  if (timelineZoom < 0.65) {
+    step = 250;
+    majorStep = 1000;
+    mediumStep = 500;
+  } else if (timelineZoom < 1.4) {
+    step = 50;
+    majorStep = 1000;
+    mediumStep = 250;
+  } else if (timelineZoom < 3.2) {
+    step = 25;
+    majorStep = 500;
+    mediumStep = 100;
+  } else if (timelineZoom < 6.5) {
+    step = 10;
+    majorStep = 100;
+    mediumStep = 50;
+    showDecades = true;
+  } else {
+    // Zoom très fort (> 6.5x) : immersion fine par décennies et lustres
+    step = 5;
+    majorStep = 50;
+    mediumStep = 10;
+    showDecades = true;
+  }
+
+  for (let y = YEAR_MIN; y <= YEAR_MAX; y += step) {
+    const isMajor = (y % majorStep === 0);
+    const isMedium = (y % mediumStep === 0);
+
+    const tick = document.createElement('div');
+    tick.className = `ruler-tick ${isMajor ? 'major' : (isMedium ? 'medium' : 'minor')}`;
+    tick.style.left = `${yearToPixel(y)}px`;
+    rulerTrack.appendChild(tick);
+
+    if (isMajor || (isMedium && timelineZoom >= 1.1) || (showDecades && y % 10 === 0 && timelineZoom >= 4.5)) {
+      const label = document.createElement('div');
+      label.className = `ruler-label ${isMajor ? 'major-label' : (y % 10 === 0 && !isMedium ? 'decade-label' : '')}`;
+      label.style.left = `${yearToPixel(y)}px`;
+      label.textContent = y < 0 ? `${y}` : (y === 0 ? "1" : `+${y}`);
+      rulerTrack.appendChild(label);
+    }
   }
 }
 
-HISTORICAL_MILESTONES.forEach(m => {
-  const x = yearToPixel(m.year);
-  const spark = document.createElement('div');
-  spark.className = `ruler-event-spark spark-${m.category}`;
-  spark.style.left = `${x}px`;
-  spark.title = `${m.year < 0 ? Math.abs(m.year) + ' av. J.-C.' : m.year} : ${m.title}`;
+// Initialisation des repères historiques sur la règle
+function initHistoricalMilestones() {
+  if (!rulerEventsLayer) return;
+  rulerEventsLayer.innerHTML = '';
+  HISTORICAL_MILESTONES.forEach(m => {
+    const x = yearToPixel(m.year);
+    const spark = document.createElement('div');
+    spark.className = `ruler-event-spark spark-${m.category}`;
+    spark.style.left = `${x}px`;
+    spark.title = `${m.year < 0 ? Math.abs(m.year) + ' av. J.-C.' : m.year} : ${m.title}`;
+    m._sparkEl = spark;
 
-  spark.addEventListener('mouseenter', () => {
-    mType.textContent = m.type.toUpperCase();
-    mYear.textContent = m.year < 0 ? `${Math.abs(m.year)} av. J.-C.` : `${m.year} ap. J.-C.`;
-    mTitle.textContent = m.title;
-    mDesc.textContent = m.desc;
+    spark.addEventListener('mouseenter', () => {
+      mType.textContent = m.type.toUpperCase();
+      mYear.textContent = m.year < 0 ? `${Math.abs(m.year)} av. J.-C.` : `${m.year} ap. J.-C.`;
+      mTitle.textContent = m.title;
+      mDesc.textContent = m.desc;
 
-    const rect = spark.getBoundingClientRect();
-    const tooltipWidth = 310;
-    let leftPos = rect.left - 135;
-    if (leftPos + tooltipWidth > window.innerWidth - 20) {
-      leftPos = window.innerWidth - tooltipWidth - 25;
-    }
-    milestoneTooltip.style.left = `${Math.max(10, leftPos)}px`;
-    milestoneTooltip.style.top = `${rect.top - 130}px`;
-    milestoneTooltip.classList.add('visible');
+      const rect = spark.getBoundingClientRect();
+      const tooltipWidth = 310;
+      let leftPos = rect.left - 135;
+      if (leftPos + tooltipWidth > window.innerWidth - 20) {
+        leftPos = window.innerWidth - tooltipWidth - 25;
+      }
+      milestoneTooltip.style.left = `${Math.max(10, leftPos)}px`;
+      milestoneTooltip.style.top = `${rect.top - 130}px`;
+      milestoneTooltip.classList.add('visible');
+    });
+
+    spark.addEventListener('mouseleave', () => {
+      milestoneTooltip.classList.remove('visible');
+    });
+
+    rulerEventsLayer.appendChild(spark);
   });
-
-  spark.addEventListener('mouseleave', () => {
-    milestoneTooltip.classList.remove('visible');
-  });
-
-  rulerEventsLayer.appendChild(spark);
-});
+}
 
 /* ==========================================================================
    REGISTRE INTÉGRAL DES CIVILISATIONS (TEXTES COMPLETS & CONTEXTES MONDIAUX)
@@ -1446,6 +1497,9 @@ window.addEventListener('DOMContentLoaded', () => {
     });
   }
   buildTimelineBlocks();
+  renderRulerScale();
+  initHistoricalMilestones();
+  updateTimelineLayout();
   initSearchEngine();
 });
 
@@ -1483,8 +1537,44 @@ function buildTimelineBlocks() {
       lockCivSidebar(civ);
     });
 
+    civ._blockEl = block;
     laneEl.appendChild(block);
   });
+}
+
+function updateTimelineLayout() {
+  const totalW = getRibbonWidth();
+  if (masterRibbon) masterRibbon.style.width = `${totalW}px`;
+  if (rulerTrack) rulerTrack.style.width = `${totalW}px`;
+  if (rulerEventsLayer) rulerEventsLayer.style.width = `${totalW}px`;
+
+  CIVILISATIONS_REGISTRY.forEach((civ) => {
+    if (!civ._blockEl) return;
+    const visibleStart = Math.max(civ.yearStart, YEAR_MIN);
+    const visibleEnd = Math.min(civ.yearEnd, YEAR_MAX);
+    const x1 = yearToPixel(visibleStart);
+    const x2 = yearToPixel(visibleEnd);
+    const width = Math.max(x2 - x1, 40);
+    civ._blockEl.style.left = `${x1}px`;
+    civ._blockEl.style.width = `${width}px`;
+  });
+
+  HISTORICAL_MILESTONES.forEach(m => {
+    if (m._sparkEl) {
+      m._sparkEl.style.left = `${yearToPixel(m.year)}px`;
+    }
+  });
+
+  renderRulerScale();
+
+  if (masterRibbon) masterRibbon.style.transform = `translateX(${curRibbonX}px)`;
+  if (rulerTrack) rulerTrack.style.transform = `translateX(${curRibbonX}px)`;
+  if (rulerEventsLayer) rulerEventsLayer.style.transform = `translateX(${curRibbonX}px)`;
+
+  const zoomBadge = document.getElementById('timeline-zoom-level');
+  if (zoomBadge) {
+    zoomBadge.textContent = `Zoom ${timelineZoom.toFixed(1)}x`;
+  }
 }
 
 /* ==========================================================================
@@ -1872,8 +1962,8 @@ masterContainer.addEventListener('mousedown', (e) => {
 window.addEventListener('mousemove', (e) => {
   if (!isDragging) return;
   curRibbonX = prevRibbonX + (e.clientX - startX);
-  const minX = -(RIBBON_WIDTH - masterContainer.clientWidth);
-  curRibbonX = Math.max(minX, Math.min(0, curRibbonX));
+  const minX = -(getRibbonWidth() - masterContainer.clientWidth);
+  curRibbonX = Math.max(minX, Math.min(100, curRibbonX));
   
   masterRibbon.style.transform = `translateX(${curRibbonX}px)`;
   rulerTrack.style.transform = `translateX(${curRibbonX}px)`;
@@ -1926,8 +2016,8 @@ window.addEventListener('touchmove', (e) => {
   if (!isHorizontalDrag) return;
 
   curRibbonX = prevRibbonX + (touchX - startX);
-  const minX = -(RIBBON_WIDTH - masterContainer.clientWidth);
-  curRibbonX = Math.max(minX, Math.min(0, curRibbonX));
+  const minX = -(getRibbonWidth() - masterContainer.clientWidth);
+  curRibbonX = Math.max(minX, Math.min(100, curRibbonX));
   
   masterRibbon.style.transform = `translateX(${curRibbonX}px)`;
   rulerTrack.style.transform = `translateX(${curRibbonX}px)`;
@@ -1940,6 +2030,112 @@ window.addEventListener('touchend', () => {
   isDragging = false;
   prevRibbonX = curRibbonX;
 });
+
+/* ==========================================================================
+   ZOOM TEMPOREL CONTINU (MOLETTE SOURIS, BOUTONS & GESTES TACTILES)
+   ========================================================================== */
+function zoomTimelineAt(screenX, deltaY) {
+  if (!masterContainer) return;
+  const ribbonRect = masterRibbon.getBoundingClientRect();
+  const relX = screenX - ribbonRect.left;
+  const focalYear = pixelToYear(relX);
+
+  const zoomFactor = deltaY < 0 ? 1.18 : (1 / 1.18);
+  const oldZoom = timelineZoom;
+  timelineZoom = Math.max(0.4, Math.min(15.0, timelineZoom * zoomFactor));
+  if (Math.abs(timelineZoom - oldZoom) < 0.001) return;
+
+  const newRelX = yearToPixel(focalYear);
+  curRibbonX = screenX - newRelX;
+
+  const containerW = masterContainer.clientWidth || window.innerWidth;
+  const minX = -(getRibbonWidth() - containerW);
+  curRibbonX = Math.max(minX, Math.min(100, curRibbonX));
+  prevRibbonX = curRibbonX;
+
+  updateTimelineLayout();
+  updateSynchronousState(screenX);
+}
+
+function zoomTimelineByButton(factor) {
+  if (!masterContainer) return;
+  const containerRect = masterContainer.getBoundingClientRect();
+  const centerX = containerRect.left + containerRect.width * 0.45;
+  zoomTimelineAt(centerX, factor > 1 ? -1 : 1);
+}
+
+function resetTimelineZoom() {
+  if (!masterContainer) return;
+  const containerRect = masterContainer.getBoundingClientRect();
+  const centerX = containerRect.left + containerRect.width * 0.45;
+  const ribbonRect = masterRibbon.getBoundingClientRect();
+  const relX = centerX - ribbonRect.left;
+  const focalYear = pixelToYear(relX);
+
+  timelineZoom = 1.0;
+  const newRelX = yearToPixel(focalYear);
+  curRibbonX = centerX - newRelX;
+  const containerW = masterContainer.clientWidth || window.innerWidth;
+  const minX = -(getRibbonWidth() - containerW);
+  curRibbonX = Math.max(minX, Math.min(100, curRibbonX));
+  prevRibbonX = curRibbonX;
+
+  updateTimelineLayout();
+  updateSynchronousState(centerX);
+}
+
+// Molette sur la frise (Zoom continu sous curseur ou défilement latéral trackpad)
+const masterTimelineBar = document.getElementById('master-timeline-bar');
+if (masterTimelineBar) {
+  masterTimelineBar.addEventListener('wheel', (e) => {
+    if (e.target.closest('#timeline-labels-column')) {
+      return;
+    }
+    e.preventDefault();
+
+    // Détection d'un swipe horizontal trackpad à 2 doigts
+    if (Math.abs(e.deltaX) > Math.abs(e.deltaY) && Math.abs(e.deltaX) > 2) {
+      curRibbonX = curRibbonX - e.deltaX;
+      const minX = -(getRibbonWidth() - masterContainer.clientWidth);
+      curRibbonX = Math.max(minX, Math.min(100, curRibbonX));
+      prevRibbonX = curRibbonX;
+
+      masterRibbon.style.transform = `translateX(${curRibbonX}px)`;
+      rulerTrack.style.transform = `translateX(${curRibbonX}px)`;
+      rulerEventsLayer.style.transform = `translateX(${curRibbonX}px)`;
+      updateSynchronousState(e.clientX);
+    } else {
+      // Zoom temporel continu centré sur la position exacte de la souris
+      zoomTimelineAt(e.clientX, e.deltaY);
+    }
+  }, { passive: false });
+}
+
+// Écouteurs pour les boutons de zoom de la barre
+const btnTimeZoomIn = document.getElementById('btn-time-zoom-in');
+const btnTimeZoomOut = document.getElementById('btn-time-zoom-out');
+const btnTimeZoomReset = document.getElementById('btn-time-zoom-reset');
+
+if (btnTimeZoomIn) {
+  btnTimeZoomIn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    zoomTimelineByButton(1.25);
+  });
+}
+
+if (btnTimeZoomOut) {
+  btnTimeZoomOut.addEventListener('click', (e) => {
+    e.stopPropagation();
+    zoomTimelineByButton(0.8);
+  });
+}
+
+if (btnTimeZoomReset) {
+  btnTimeZoomReset.addEventListener('click', (e) => {
+    e.stopPropagation();
+    resetTimelineZoom();
+  });
+}
 
 masterRibbon.style.transform = `translateX(${curRibbonX}px)`;
 rulerTrack.style.transform = `translateX(${curRibbonX}px)`;

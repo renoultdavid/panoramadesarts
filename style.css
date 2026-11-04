@@ -1405,6 +1405,21 @@ body {
   letter-spacing: 1px;
   color: var(--gold-pale);
   white-space: nowrap;
+  pointer-events: none;
+  user-select: none;
+}
+
+.ruler-label.major-label {
+  color: var(--gold-pure, #d4af37);
+  font-weight: 700;
+  font-size: 0.68rem;
+  text-shadow: 0 0 8px rgba(212, 175, 55, 0.4);
+}
+
+.ruler-label.decade-label {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.58rem;
+  letter-spacing: 0.5px;
 }
 
 .ruler-event-spark {
@@ -1480,6 +1495,46 @@ body {
   display: flex;
   gap: 16px;
   align-items: center;
+}
+
+.timeline-zoom-controls {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.timeline-zoom-badge {
+  background: rgba(212, 175, 55, 0.15);
+  border: 1px solid rgba(212, 175, 55, 0.35);
+  padding: 2px 9px;
+  border-radius: 12px;
+  color: var(--gold-pale, #f5ecd7);
+  font-family: 'Cinzel', serif;
+  font-size: 0.62rem;
+  letter-spacing: 0.8px;
+  font-weight: 600;
+  user-select: none;
+}
+
+.btn-time-zoom {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(212, 175, 55, 0.25);
+  color: #fff;
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-family: 'Cinzel', serif;
+  font-size: 0.65rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  user-select: none;
+}
+
+.btn-time-zoom:hover {
+  background: rgba(212, 175, 55, 0.25);
+  border-color: var(--gold-pure, #d4af37);
+  color: #fff;
+  box-shadow: 0 0 8px rgba(212, 175, 55, 0.3);
 }
 
 .legend-chip {
