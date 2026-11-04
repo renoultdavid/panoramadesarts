@@ -1467,35 +1467,84 @@ const CIVILISATIONS_REGISTRY = [
   }
 ];
 
-// Liaison sélective : objets phares (isHighlight) et chefs-d'œuvre de chaque civilisation pour la frise
+const DOMAIN_ICONS = {
+  sculpture_statuaire: "🗿",
+  peinture_mosaique: "🎨",
+  ceramique: "🏺",
+  funeraire: "⚱️",
+  parures_metaux: "👑",
+  espace_sacre: "🏛️",
+  vie_quotidienne: "📜"
+};
+
+// Liaison sélective : sélection typologique équilibrée par grands domaines (sculpture, peinture, céramique, funéraire, orfèvrerie)
 window.addEventListener('DOMContentLoaded', () => {
   if (window.ART_OBJECTS && window.ART_OBJECTS.length > 0) {
+    const domainPriority = [
+      "sculpture_statuaire",
+      "peinture_mosaique",
+      "ceramique",
+      "funeraire",
+      "parures_metaux",
+      "espace_sacre",
+      "vie_quotidienne"
+    ];
+
     CIVILISATIONS_REGISTRY.forEach(civ => {
-      let matched = window.ART_OBJECTS.filter(obj => {
-        if (!obj.isHighlight) return false;
+      // 1. Tous les objets appartenant à cette civilisation ou période
+      const allCivObjects = window.ART_OBJECTS.filter(obj => {
         if (obj.periodId === civ.id || obj.civId === civ.id) return true;
-        // Fallback chronologique sur le lane
         if (civ.lane && obj.civId === civ.lane && typeof obj.centuryNumeric === 'number') {
           return obj.centuryNumeric >= (civ.yearStart - 50) && obj.centuryNumeric <= (civ.yearEnd + 50);
         }
         return false;
       });
 
-      // Compléter si moins de 3 œuvres phares
-      if (matched.length < 3) {
-        const others = window.ART_OBJECTS.filter(obj => {
-          if (matched.some(m => m.id === obj.id)) return false;
-          if (obj.periodId === civ.id || obj.civId === civ.id) return true;
-          if (civ.lane && obj.civId === civ.lane && typeof obj.centuryNumeric === 'number') {
-            return obj.centuryNumeric >= (civ.yearStart - 50) && obj.centuryNumeric <= (civ.yearEnd + 50);
+      // Stocker le décompte total pour la galerie
+      civ.totalObjectsCount = allCivObjects.length;
+
+      // 2. Grouper par grand domaine technique / typologique
+      const byDomain = {};
+      allCivObjects.forEach(obj => {
+        const dom = obj.domain || 'autre';
+        if (!byDomain[dom]) byDomain[dom] = [];
+        byDomain[dom].push(obj);
+      });
+
+      const selected = [];
+      const domainKeys = Object.keys(byDomain);
+
+      // Trier les domaines selon la priorité culturelle
+      domainKeys.sort((a, b) => {
+        const idxA = domainPriority.indexOf(a);
+        const idxB = domainPriority.indexOf(b);
+        return (idxA !== -1 ? idxA : 99) - (idxB !== -1 ? idxB : 99);
+      });
+
+      // Retenir le chef-d'œuvre phare (isHighlight en priorité) de chaque grand domaine
+      domainKeys.forEach(dom => {
+        const list = byDomain[dom];
+        list.sort((a, b) => (b.isHighlight ? 1 : 0) - (a.isHighlight ? 1 : 0));
+        if (list.length > 0) {
+          selected.push(list[0]);
+        }
+      });
+
+      // Si moins de 5 pièces sélectionnées, compléter avec une 2e œuvre des domaines les plus riches
+      if (selected.length < 5) {
+        domainKeys.forEach(dom => {
+          if (selected.length >= 6) return;
+          const list = byDomain[dom];
+          if (list.length > 1 && !selected.some(s => s.id === list[1].id)) {
+            selected.push(list[1]);
           }
-          return false;
-        }).slice(0, 8 - matched.length);
-        matched = matched.concat(others);
+        });
       }
 
-      matched.sort((a, b) => (a.centuryNumeric || 0) - (b.centuryNumeric || 0));
-      civ.artifacts = matched;
+      // Sélection rigoureusement plafonnée à 6-7 chefs-d'œuvre variés (pas d'avalanche !)
+      const curatedSelection = selected.slice(0, 7);
+      curatedSelection.sort((a, b) => (a.centuryNumeric || 0) - (b.centuryNumeric || 0));
+      civ.artifacts = curatedSelection;
     });
   }
   buildTimelineBlocks();
@@ -2212,7 +2261,45 @@ function activateCivilisationView(civ) {
   subStream.innerHTML = '';
 
   document.documentElement.style.setProperty('--civ-theme', civ.themeColor);
-  drawerCivTag.textContent = `${civ.name.toUpperCase()} • CHRONOLOGIE DÉPLOYÉE`;
+  const count = civ.artifacts ? civ.artifacts.length : 0;
+  drawerCivTag.textContent = `${civ.name.toUpperCase()} • SÉLECTION TYPOLOGIQUE (${count} CHEFS-D'ŒUVRE)`;
+
+  // Mettre à jour le compteur global de la collection dans le tiroir
+  const drawerGalleryTotal = document.getElementById('drawer-gallery-total');
+  if (drawerGalleryTotal) {
+    drawerGalleryTotal.textContent = civ.totalObjectsCount || count;
+  }
+
+  // Brancher le bouton "Explorer toute la collection" vers la Galerie
+  const btnSubExplore = document.getElementById('btn-sub-explore-gallery');
+  if (btnSubExplore) {
+    btnSubExplore.onclick = (e) => {
+      e.stopPropagation();
+      closeCivilisationView();
+      const filterCiv = document.getElementById('filter-civ');
+      const filterPeriod = document.getElementById('filter-period');
+      switchView('view-search');
+      if (filterCiv) {
+        const matchingCivOpt = Array.from(filterCiv.options).find(opt => opt.value === civ.id || opt.value === civ.lane);
+        if (matchingCivOpt) {
+          filterCiv.value = matchingCivOpt.value;
+        } else {
+          filterCiv.value = 'all';
+        }
+        filterCiv.dispatchEvent(new Event('change'));
+
+        if (filterPeriod && civ.id) {
+          const matchingPeriodOpt = Array.from(filterPeriod.options).find(opt => opt.value === civ.id);
+          if (matchingPeriodOpt) {
+            filterPeriod.value = civ.id;
+            filterPeriod.dispatchEvent(new Event('change'));
+          }
+        }
+      }
+      if (typeof renderSearchGallery === 'function') renderSearchGallery();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+  }
 
   globalMapImg.style.transformOrigin = civ.travelingOrigin;
   globalMapImg.classList.add('traveling');
@@ -2238,11 +2325,15 @@ function activateCivilisationView(civ) {
       card.className = `sub-node-card ${aIdx === 0 ? 'active' : ''} ${art.isAmarna ? 'is-amarna' : ''}`;
 
       const dateLabel = art.centuryDisplay || art.century || '';
-      card.title = `${art.title}${dateLabel ? ' (' + dateLabel + ')' : ''}`;
+      const domIcon = (typeof DOMAIN_ICONS !== 'undefined' && DOMAIN_ICONS[art.domain]) || '🏺';
+      const domLabel = (typeof TAXONOMY_DOMAINS !== 'undefined' && TAXONOMY_DOMAINS[art.domain] && TAXONOMY_DOMAINS[art.domain].label) || art.artifactType || 'Chef-d\'œuvre';
+
+      card.title = `${art.title}${dateLabel ? ' (' + dateLabel + ')' : ''} [${domLabel}]`;
 
       card.innerHTML = `
         <div class="sub-node-pedestal">
           ${dateLabel ? `<span class="sub-node-corner-date">${escapeHtmlAttr(dateLabel)}</span>` : ''}
+          <span class="sub-node-domain-badge" title="${escapeHtmlAttr(domLabel)}">${domIcon} ${escapeHtmlAttr(art.artifactType || domLabel)}</span>
           <img src="${art.imgSrc}" alt="${escapeHtmlAttr(art.title)}" loading="lazy" />
         </div>
         <div class="sub-node-caption">

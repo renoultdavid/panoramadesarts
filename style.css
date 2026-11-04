@@ -1201,6 +1201,37 @@ body {
   font-weight: 700;
 }
 
+.drawer-actions-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.btn-sub-explore-gallery {
+  background: rgba(212, 175, 55, 0.15);
+  border: 1px solid rgba(212, 175, 55, 0.4);
+  color: #fff;
+  font-family: 'Cinzel', serif;
+  font-size: 0.68rem;
+  letter-spacing: 1px;
+  padding: 4px 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: all 0.25s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.btn-sub-explore-gallery:hover {
+  background: rgba(212, 175, 55, 0.35);
+  border-color: var(--gold-pure, #d4af37);
+  box-shadow: 0 0 10px rgba(212, 175, 55, 0.4);
+  color: #fff;
+}
+
 .btn-close-sub {
   background: transparent;
   border: 1px solid rgba(255, 255, 255, 0.15);
@@ -1303,6 +1334,29 @@ body {
   pointer-events: none !important;
   white-space: nowrap !important;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.8) !important;
+}
+
+.sub-node-domain-badge {
+  position: absolute !important;
+  bottom: 4px !important;
+  left: 4px !important;
+  right: 4px !important;
+  background: rgba(6, 8, 12, 0.9) !important;
+  border: 1px solid rgba(212, 175, 55, 0.35) !important;
+  color: #e2e8f0 !important;
+  font-family: 'Cinzel', serif !important;
+  font-size: 0.54rem !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.5px !important;
+  padding: 2px 4px !important;
+  border-radius: 3px !important;
+  z-index: 3 !important;
+  pointer-events: none !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  text-align: center !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.85) !important;
 }
 
 .sub-node-pedestal img {
