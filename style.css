@@ -777,25 +777,35 @@ body {
   color: var(--gold-pure);
   transform: scale(1.15);
 }
-  color: var(--gold-pure);
-}
 
 .sidebar-scrollable-body {
-  flex: 1 1 auto;
+  flex: 1 1 auto !important;
+  min-height: 0 !important;
   overflow-y: auto !important;
-  max-height: 100%;
-  padding: 1.2rem 1.5rem;
-  scrollbar-width: thin;
-  scrollbar-color: rgba(212, 175, 55, 0.4) transparent;
+  overflow-x: hidden !important;
+  -webkit-overflow-scrolling: touch !important;
+  padding: 1.2rem 1.4rem !important;
+  scrollbar-width: thin !important;
+  scrollbar-color: rgba(212, 175, 55, 0.6) rgba(10, 14, 22, 0.6) !important;
 }
 
 .sidebar-scrollable-body::-webkit-scrollbar {
-  width: 5px;
+  width: 7px !important;
+}
+
+.sidebar-scrollable-body::-webkit-scrollbar-track {
+  background: rgba(10, 14, 22, 0.6) !important;
+  border-radius: 4px !important;
 }
 
 .sidebar-scrollable-body::-webkit-scrollbar-thumb {
-  background: rgba(212, 175, 55, 0.4);
-  border-radius: 3px;
+  background: rgba(212, 175, 55, 0.6) !important;
+  border-radius: 4px !important;
+  border: 1px solid rgba(10, 14, 22, 0.5) !important;
+}
+
+.sidebar-scrollable-body::-webkit-scrollbar-thumb:hover {
+  background: rgba(212, 175, 55, 0.95) !important;
 }
 
 .hover-card-era {
@@ -834,21 +844,21 @@ body {
 }
 
 .hover-card-desc {
-  font-size: 0.92rem;
-  line-height: 1.6;
-  color: #c4cad8;
-  margin-bottom: 14px;
+  font-size: 1.05rem !important;
+  line-height: 1.62 !important;
+  color: #dbe0ed !important;
+  margin-bottom: 14px !important;
 }
 
 .hover-card-desc p {
-  margin-bottom: 8px;
+  margin-bottom: 10px !important;
 }
 
 .hover-card-desc strong {
-  color: var(--gold-pale);
-  font-family: 'Cinzel', serif;
-  font-size: 0.84rem;
-  letter-spacing: 1px;
+  color: var(--gold-pale) !important;
+  font-family: 'Cinzel', serif !important;
+  font-size: 0.92rem !important;
+  letter-spacing: 0.8px !important;
 }
 
 .sidebar-album-grid {
@@ -886,10 +896,14 @@ body {
 }
 
 .sidebar-footer-action {
-  padding: 0.7rem 1.5rem 0.9rem 1.5rem;
-  background: rgba(10, 12, 17, 0.95);
-  border-top: 1px solid rgba(255, 255, 255, 0.05);
-  flex-shrink: 0;
+  padding: 0.75rem 1.25rem 0.9rem 1.25rem !important;
+  background: rgba(10, 12, 17, 0.98) !important;
+  border-top: 1px solid rgba(212, 175, 55, 0.25) !important;
+  flex-shrink: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 8px !important;
+  box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.6) !important;
 }
 
 .btn-enter-civ-map {
@@ -1847,24 +1861,25 @@ body {
 
   #hover-sidebar-card,
   #concurrent-sidebar-card {
-    width: 320px !important;
+    width: 380px !important;
+    max-width: 36vw !important;
     max-height: calc(100% - 1rem) !important;
     top: 0.5rem !important;
     left: 1rem !important;
   }
 
   .hover-banner-frame {
-    height: 90px !important;
+    height: 105px !important;
   }
 
   .hover-card-title {
-    font-size: 1.05rem !important;
+    font-size: 1.2rem !important;
     margin-bottom: 8px !important;
   }
 
   .hover-card-desc {
-    font-size: 0.84rem !important;
-    line-height: 1.45 !important;
+    font-size: 1.0rem !important;
+    line-height: 1.58 !important;
   }
 }
 
