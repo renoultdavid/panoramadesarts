@@ -718,27 +718,78 @@ function getArtworksForMovement(mov) {
     .map(a => normalizeSearchStr(a.replace(/\(.*?\)/g, '')))
     .filter(Boolean);
 
-  return catalog.filter(art => {
-    // 1. Recherche par mot-clé sur les métadonnées de l'œuvre
-    const matchKw = (
-      (art.title && normalizeSearchStr(art.title).includes(normKw)) ||
-      (art.narrative && normalizeSearchStr(art.narrative).includes(normKw)) ||
-      (art.site && normalizeSearchStr(art.site).includes(normKw)) ||
-      (art.periodId && normalizeSearchStr(art.periodId).includes(normKw)) ||
-      (art.civId && normalizeSearchStr(art.civId).includes(normKw)) ||
-      (art.civName && normalizeSearchStr(art.civName).includes(normKw)) ||
-      (art.category && normalizeSearchStr(art.category).includes(normKw)) ||
-      (art.chips && art.chips.some(c => normalizeSearchStr(c).includes(normKw))) ||
-      (art.artist && normalizeSearchStr(art.artist).includes(normKw))
-    );
-    if (matchKw) return true;
+  const marginYears = 35;
+  const minYear = mov.yearStart - marginYears;
+  const maxYear = mov.yearEnd + marginYears;
 
-    // 2. Recherche par artiste clé
+  return catalog.filter(art => {
+    // 1. FILTRE GÉOGRAPHIQUE & CIVILISATIONNEL STRICT (pas de mélange d'époques ni de régions !)
+    const artCiv = art.civId || '';
+    const artPeriod = art.periodId || '';
+    if (mov.lane === 'europe_ouest') {
+      const isOccidental = artCiv === 'occident' || artPeriod.startsWith('occ_') ||
+                           artCiv.startsWith('celte') || artCiv.startsWith('gaulois');
+      if (!isOccidental) return false;
+    } else if (mov.lane === 'egypte') {
+      if (!artCiv.startsWith('egypte') && !artPeriod.startsWith('egypte')) return false;
+    } else if (mov.lane === 'italie_etrusque') {
+      if (!artCiv.startsWith('etrusque') && !artCiv.startsWith('italie')) return false;
+    } else if (mov.lane === 'grece' || mov.lane === 'egee') {
+      if (!artCiv.startsWith('grece') && !artCiv.startsWith('egee') && !artCiv.startsWith('cyclades') && !artCiv.startsWith('crete') && !artCiv.startsWith('mycenes')) return false;
+    }
+
+    // 2. FILTRE CHRONOLOGIQUE STRICT
+    if (typeof art.centuryNumeric === 'number') {
+      if (art.centuryNumeric < minYear || art.centuryNumeric > maxYear) {
+        return false;
+      }
+    }
+
+    // 3. IDENTIFICATION DU MOUVEMENT OU DE L'ARTISTE (sans recherche dans le corps du texte narratif)
+    // a. Artiste clé
     if (art.artist) {
       const artArtist = normalizeSearchStr(art.artist);
       if (artistsList.some(a => a && (artArtist.includes(a) || a.includes(artArtist)))) {
         return true;
       }
+    }
+
+    // b. Chips / Tags spécifiques de l'œuvre
+    if (art.chips && art.chips.some(c => {
+      const normC = normalizeSearchStr(c);
+      return normC.includes(normKw) ||
+             (normKw === 'symbolisme' && normC.includes('nabis')) ||
+             (normKw === 'réalisme' && normC.includes('realisme')) ||
+             (normKw === 'quattrocento' && normC.includes('quattrocento')) ||
+             (normKw === 'maniérisme' && normC.includes('fontainebleau'));
+    })) {
+      return true;
+    }
+
+    // c. Titre de l'œuvre
+    if (art.title && normalizeSearchStr(art.title).includes(normKw)) {
+      return true;
+    }
+
+    // d. Catégorie stylistique
+    if (art.category && normalizeSearchStr(art.category).includes(normKw)) {
+      return true;
+    }
+
+    // e. Périodes spécifiques
+    if (normKw === 'amarna') {
+      const inChips = art.chips && art.chips.some(c => normalizeSearchStr(c).includes('amarna') || normalizeSearchStr(c).includes('akhenaton') || normalizeSearchStr(c).includes('nefertiti'));
+      const inTit = art.title && (normalizeSearchStr(art.title).includes('amarna') || normalizeSearchStr(art.title).includes('akhenaton') || normalizeSearchStr(art.title).includes('nefertiti'));
+      return Boolean(inChips || inTit);
+    }
+    if (normKw === 'ramesside') {
+      const inChips = art.chips && art.chips.some(c => normalizeSearchStr(c).includes('ramses') || normalizeSearchStr(c).includes('xixe dynastie') || normalizeSearchStr(c).includes('xxe dynastie'));
+      const inTit = art.title && (normalizeSearchStr(art.title).includes('ramses') || normalizeSearchStr(art.title).includes('sethi'));
+      return Boolean(inChips || inTit);
+    }
+    if (normKw === 'xviiie dynastie') {
+      const inChips = art.chips && art.chips.some(c => normalizeSearchStr(c).includes('xviiie dynastie') || normalizeSearchStr(c).includes('toutankhamon') || normalizeSearchStr(c).includes('hatchepsout') || normalizeSearchStr(c).includes('thoutmosis') || normalizeSearchStr(c).includes('amenhotep'));
+      return Boolean(inChips);
     }
 
     return false;
@@ -5679,6 +5730,8 @@ function renderSearchGallery() {
   const btnFilterFocusEl = document.getElementById('btn-filter-focus-only');
   const isFocusOnly = btnFilterFocusEl && btnFilterFocusEl.classList.contains('is-active');
 
+  const activeMovSet = activeMovementFilter ? new Set(getArtworksForMovement(activeMovementFilter).map(m => m.id)) : null;
+
   let filtered = catalog.map((item, idx) => ({ ...item, _idx: idx })).filter(item => {
     // Filtre exclusif "Œuvres Focus"
     if (isFocusOnly) {
@@ -5747,9 +5800,8 @@ function renderSearchGallery() {
     }
 
     // 5. Filtrage transversal par mouvement, étiquette (chip) ou recherche libre
-    if (activeMovementFilter && !isArtistView) {
-      const matchMovList = getArtworksForMovement(activeMovementFilter);
-      if (!matchMovList.some(m => m.id === item.id)) return false;
+    if (activeMovSet && !isArtistView) {
+      if (!activeMovSet.has(item.id)) return false;
     } else if (query && !isArtistView) {
       const normQuery = normalizeSearchStr(query);
       const isChipMode = activeChipExactFilter && normalizeSearchStr(activeChipExactFilter) === normQuery;
