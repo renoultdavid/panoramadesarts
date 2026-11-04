@@ -21,7 +21,7 @@
     href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;900&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap"
     rel="stylesheet">
 
-  <link rel="stylesheet" href="style.css?v=3.0">
+  <link rel="stylesheet" href="style.css?v=3.1">
 
   <!-- Icônes pour l'application mobile et tablette -->
   <link rel="icon" type="image/jpeg" sizes="512x512" href="icon-512.jpeg">
@@ -401,7 +401,11 @@
 
       <!-- CARTOUCHE LATÉRAL GAUCHE -->
       <aside id="hover-sidebar-card" class="pos-left">
-        <button class="btn-close-sidebar" id="btn-close-sidebar" title="Fermer la fiche">&times;</button>
+        <div class="sidebar-header-actions">
+          <button type="button" class="btn-sidebar-tool btn-expand-sidebar" id="btn-expand-sidebar" title="Agrandir en grand format (admirer le bandeau)">⤢</button>
+          <button type="button" class="btn-sidebar-tool btn-collapse-sidebar" id="btn-collapse-sidebar" title="Replier le volet sur le bord">◀</button>
+          <button type="button" class="btn-sidebar-tool btn-close-sidebar" id="btn-close-sidebar" title="Fermer la fiche">&times;</button>
+        </div>
         <div class="sidebar-scrollable-body">
           <div class="hover-card-era" id="sidebar-era">Époque</div>
           <div class="hover-card-title" id="sidebar-title">Civilisation</div>
@@ -425,9 +429,22 @@
         </div>
       </aside>
 
+      <!-- LANGUETTES ÉLÉGANTES SUR LES BORDS POUR DÉPLIER LES VOLETS -->
+      <button type="button" id="tab-reopen-civ" class="timeline-edge-tab tab-left" hidden title="Déplier la présentation de la civilisation">
+        <span class="tab-arrow">▶</span>
+        <span class="tab-label" id="tab-reopen-civ-label">Civilisation</span>
+      </button>
+
+      <button type="button" id="tab-reopen-concurrent" class="timeline-edge-tab tab-right" hidden title="Déplier le contexte mondial">
+        <span class="tab-label">Et pendant ce temps-là...</span>
+        <span class="tab-arrow">◀</span>
+      </button>
+
       <!-- CARTOUCHE LATÉRAL DROIT : ET PENDANT CE TEMPS-LÀ... -->
       <aside id="concurrent-sidebar-card">
-        <button class="btn-close-sidebar" id="btn-close-concurrent" title="Fermer le volet mondial">&times;</button>
+        <div class="sidebar-header-actions right-actions">
+          <button type="button" class="btn-sidebar-tool btn-close-sidebar" id="btn-close-concurrent" title="Replier le volet mondial">▶</button>
+        </div>
         <div class="sidebar-scrollable-body">
           <div class="hover-card-era">Contexte Mondial Synchrone</div>
           <div class="hover-card-title">Et pendant ce temps-là...</div>
@@ -789,7 +806,7 @@
   <script src="data/data-objets2.js"></script>
 
   <!-- SCRIPT MAÎTRE -->
-  <script src="app.js?v=2.9"></script>
+  <script src="app.js?v=3.1"></script>
 </body>
 
 </html>

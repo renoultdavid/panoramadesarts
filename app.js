@@ -301,10 +301,10 @@ const CIVILISATIONS_REGISTRY = [
   },
   {
     id: "egypte_tardive",
-    name: "Égypte : Basse Époque, Ptolémées & Rome",
-    epoch: "v. -1069 av. J.-C. à +395 ap. J.-C.",
+    name: "Égypte : Basse Époque & 3e Période Intermédiaire",
+    epoch: "v. -1069 à -332 av. J.-C.",
     yearStart: -1069,
-    yearEnd: 395,
+    yearEnd: -332,
     lane: "egypte",
     themeColor: "#d97706",
     sidePos: "pos-left",
@@ -315,31 +315,87 @@ const CIVILISATIONS_REGISTRY = [
     albumUrl: "https://photos.google.com/share/AF1QipN3eyH-IXfJ5tzHs153uMFgtbiZ-T1UONLzfSVpPLodOXWcNGXYMeojYCDX7skI5w?key=dEpRSmZnTkVLb2FuOHJCbjRqZDhDZ1ZDNDhOVkhn",
     presentationHtml: `
       <p><strong>L'ultime éclat millénaire et l'archaïsme saïte</strong><br>
-      L’Égypte tardive, ptolémaïque et romaine (v. 664 av. J.-C. – IVe siècle apr. J.-C.) clôt l'histoire millénaire des pharaons par une fascinante rencontre entre conservatisme sacré et hybridations culturelles, au fil des dominations perse, grecque puis romaine. La Basse Époque, initiée par la renaissance saïte (XXVIe dynastie), réagit aux fragmentations passées par un archaïsme délibéré. Sculpteurs et scribes réactivent les canons de l'Ancien et du Moyen Empire, sculptant des pierres dures (basalte, grauwacke) avec une perfection technique stupéfiante, tout en innovant à travers le « réalisme saïte » qui marque l'âge des défunts sur leurs portraits privés. L'essor spectaculaire des cultes d'animaux sacrés popularise également une production massive et raffinée de petits bronzes votifs.</p>
-      <p><strong>Le cosmopolitisme lagide et les grands chantiers du Sud</strong><br>
-      Avec l'avènement des Lagides (période ptolémaïque), deux univers visuels coexistent. Dans la capitale cosmopolite d'Alexandrie, le style hellénistique triomphe. Pourtant, dans la vallée du Nil, les monarques grecs se font couronner et représenter selon les codes pharaoniques traditionnels. C'est l'époque de chantiers monumentaux majeurs — Edfou, Denderah, Philæ, Kôm Ombo — où l'architecture religieuse déploie des colonnes aux chapiteaux composites foisonnants, des murs d'entrecolonnement et une profusion de reliefs gravés jusqu'aux plafonds astronomiques.</p>
-      <p><strong>La fusion gréco-romaine et les visages d'éternité du Fayoum</strong><br>
-      Sous la domination romaine, après la défaite de Cléopâtre VII en 30 av. J.-C., l'empereur assume à son tour l'habit rituel de pharaon sur les parois des temples. Mais la fusion artistique s'exprime surtout dans les rites funéraires privés de l'élite gréco-romaine : les bandelettes et sarcophages de tradition égyptienne intègrent désormais des masques en stuc italianisants ou les célèbres portraits du Fayoum, peints à l'encaustique ou à la détrempe, saisissants de vérité optique et d'expression vivante.</p>
+      La Troisième Période intermédiaire et la Basse Époque (v. 1069-332 av. J.-C., XXIe-XXXe dynasties) marquent une ère de résistance et de renouveau face aux dominations étrangères (kouchite, assyrienne, perse). La renaissance saïte (XXVIe dynastie) réagit aux troubles passés par un archaïsme délibéré et virtuose : sculpteurs et scribes réactivent avec ferveur les canons de l'Ancien et du Moyen Empire, taillant des pierres dures (basalte, grauwacke) avec une perfection technique stupéfiante.<br>
+      Cette époque voit éclore le « réalisme saïte », qui individualise les portraits privés en marquant l'âge et la gravité des visages. L'essor spectaculaire des cultes d'animaux sacrés popularise également une production massive et raffinée de statuettes et bronzes votifs d'une délicatesse inégalée.</p>
     `,
     concurrentHtml: `
-      <p><strong>Le contexte mondial sous l'Empire romain</strong></p>
-      <p>Pendant que l'Égypte pharaonique livre ses derniers chefs-d'œuvre architecturaux sous le regard de Rome et des Ptolémées, le monde antique est le théâtre d'immenses basculements géopolitiques et culturels.</p>
-      <p><strong>Bassin méditerranéen : l'hégémonie de Rome</strong><br>
-      En Méditerranée, la République puis l'Empire romain unifient l'ensemble du bassin sous une même hégémonie, diffusant un art officiel classique, des réseaux routiers monumentaux et des structures urbaines standardisées de l'Hispanie jusqu'au Levant.</p>
-      <p><strong>Asie orientale : unification Qin et essor des Han</strong><br>
-      En Asie, la Chine est unifiée sous la poigne de fer de la dynastie Qin puis de la brillante dynastie Han, qui consolident la Grande Muraille, déploient la route de la soie vers l'Occident et développent une production artistique raffinée en jade, en laque et en céramique.</p>
-      <p><strong>Inde antique : l'ère des Mauryas et des Kouchans</strong><br>
-      En Inde, la période voit s'épanouir l'Empire maurya puis l'Empire kouchan, favorisant l'expansion du bouddhisme, l'érection des premiers stupas monumentaux richement sculptés (Sanchi) et l'émergence de l'art gréco-bouddhique du Gandhâra.</p>
+      <p><strong>Le contexte mondial au Ier millénaire av. J.-C.</strong></p>
+      <p>Pendant la Basse Époque, le monde antique bascule dans l'âge du fer et voit l'ascension fulgurante des premiers empires universels.<br>
+      Au Proche-Orient, l'Empire néo-assyrien puis l'Empire achéménide de Cyrus et Darius unifient le Moyen-Orient de l'Iran jusqu'au Nil.<br>
+      En Grèce, la période archaïque puis classique voit naître la démocratie athénienne, la philosophie et les chefs-d'œuvre du Parthénon.<br>
+      En Chine, la période des Printemps et Automnes puis des Royaumes combattants voit émerger la pensée fondamentale de Confucius et de Lao Tseu.</p>
     `,
     themeAlbums: [
       { label: "🏺 Céramiques", url: "https://photos.google.com/share/AF1QipMNQ5eY261NXOzCFawVXiW-1pbb7VG4opgoBxJ-TEVNd2BxJp52VopMR2q7kVBtHw?key=SHplem9jdFE2RnhCaXJIR1o4al9UMTI1UHhCc3NB" },
       { label: "📜 Gravures & Reliefs", url: "https://photos.google.com/share/AF1QipNlo80I8xbcNGWKMI7dnnm5aPtALq8jpsRKJGGdAmNT2TnbEIrd0Y2isWehnlLwbg?key=S0kzelN6N1pyaTlZc21PeWtiOUN0bHZyckVMaGZB" },
-      { label: "🎨 Peintures", url: "https://photos.google.com/share/AF1QipMzaxBxEP6dd76u3_Ldl7cRgR0YQ5fFNegi5HUNy5E8VHUVEF7pPnAqhXLKYkbJ9w?key=V0kwcUlEVXFXQ0FLVFp5dXJEWklVMjhvWHFrUjZB" },
-      { label: "🏛️ Obélisques & Temples", url: "https://photos.google.com/share/AF1QipMD9gTlrGuj9Ng3NopZQQkswrc49JfmHJESKRZWFkm7AQaA5mCjFLZDXTDRQG-cVQ?key=SzhBc0ZNQzJIbFhCYWhkLThmU2FySURxaU11dWpB" },
-      { label: "🗿 Statuaire Royale", url: "https://photos.google.com/share/AF1QipN3eyH-IXfJ5tzHs153uMFgtbiZ-T1UONLzfSVpPLodOXWcNGXYMeojYCDX7skI5w?key=dEpRSmZnTkVLb2FuOHJCbjRqZDhDZ1ZDNDhOVkhn" },
-      { label: "🪦 Parois des Tombes", url: "https://photos.google.com/album/AF1QipMvAReo-M_8VZNBNi0XN9cnCCA3GdgpYxIN2gpd" },
-      { label: "💍 Bijoux & Quotidien", url: "https://photos.google.com/share/AF1QipMPvGsbKG1P6Ly3nEAZsXXysQgJw7e60mYpU3GLEzPTCykMr0iCgV31qU_k8JEt6g?key=dUlsQnlQdTh5elVReGU2T0ZaUEtsc0ljS3NZZjZB" },
+      { label: "🗿 Statuaire", url: "https://photos.google.com/share/AF1QipN3eyH-IXfJ5tzHs153uMFgtbiZ-T1UONLzfSVpPLodOXWcNGXYMeojYCDX7skI5w?key=dEpRSmZnTkVLb2FuOHJCbjRqZDhDZ1ZDNDhOVkhn" },
       { label: "⚰️ Funéraire & Momies", url: "https://photos.google.com/share/AF1QipMPZVPxixftA0xlCWDph7xd49UFkPFHE1yI8RvwsVn_IoUoWO5COMeS__ajWSqZeQ?key=N3RLMkZ0aEtYcFhUb3FLLTl6aXJicDBZM0JRSkJR" }
+    ],
+    artifacts: []
+  },
+  {
+    id: "egypte_ptolemaique",
+    name: "Égypte : Époque Ptolémaïque & Lagide",
+    epoch: "v. -332 à -30 av. J.-C.",
+    yearStart: -332,
+    yearEnd: -30,
+    lane: "egypte",
+    themeColor: "#e67e22",
+    sidePos: "pos-left",
+    travelingOrigin: "54.5% 48.0%",
+    haloId: "halo-egypte_tardif",
+    bannerImg: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    mapOverlayUrl: "https://lh3.googleusercontent.com/d/1EjnwS0_C2N95iY8FGNrH7N7lHnEDPG57",
+    albumUrl: "https://photos.google.com/share/AF1QipN3eyH-IXfJ5tzHs153uMFgtbiZ-T1UONLzfSVpPLodOXWcNGXYMeojYCDX7skI5w?key=dEpRSmZnTkVLb2FuOHJCbjRqZDhDZ1ZDNDhOVkhn",
+    presentationHtml: `
+      <p><strong>Le cosmopolitisme lagide et les grands chantiers du Sud</strong><br>
+      Fondée par Ptolémée Ier Sôter, général d'Alexandre le Grand, la dynastie lagide (332-30 av. J.-C.) fait dialoguer deux univers visuels et culturels majeurs. Dans la nouvelle capitale méditerranéenne d'Alexandrie, avec son célèbre Phare et sa grande Bibliothèque, le style hellénistique triomphe dans toute sa virtuosité plastique.<br>
+      Parallèlement, le long de la vallée du Nil, les souverains macédoniens adoptent le costume sacré et les prérogatives des pharaons traditionnels. C'est l'époque de chantiers monumentaux grandioses — Edfou, Denderah, Philæ, Kôm Ombo — où l'architecture religieuse se réinvente avec des colonnes aux chapiteaux composites foisonnants, des cours majestueuses, des murs d'entrecolonnement et une profusion de reliefs gravés célébrant les mystères osiriens et astronomiques.</p>
+    `,
+    concurrentHtml: `
+      <p><strong>Le monde hellénistique et l'ascension de Rome</strong></p>
+      <p>Pendant que les Lagides règnent sur l'Égypte, le bassin méditerranéen et l'Asie sont remodelés par les royaumes hellénistiques issus des conquêtes d'Alexandre (Séleucides en Asie, Antigonides en Macédoine).<br>
+      En Méditerranée occidentale, la République romaine s'impose face à Carthage lors des guerres puniques et étend progressivement son protectorat sur le monde grec.<br>
+      En Orient, la brillante dynastie Han en Chine ouvre la légendaire Route de la Soie, reliant pour la première fois les mondes méditerranéen et asiatique dans un réseau d'échanges commerciaux et culturels d'une ampleur inédite.</p>
+    `,
+    themeAlbums: [
+      { label: "🏛️ Temples d'Edfou & Philæ", url: "https://photos.google.com/share/AF1QipMD9gTlrGuj9Ng3NopZQQkswrc49JfmHJESKRZWFkm7AQaA5mCjFLZDXTDRQG-cVQ?key=SzhBc0ZNQzJIbFhCYWhkLThmU2FySURxaU11dWpB" },
+      { label: "🗿 Statuaire Royale Lagide", url: "https://photos.google.com/share/AF1QipN3eyH-IXfJ5tzHs153uMFgtbiZ-T1UONLzfSVpPLodOXWcNGXYMeojYCDX7skI5w?key=dEpRSmZnTkVLb2FuOHJCbjRqZDhDZ1ZDNDhOVkhn" },
+      { label: "📜 Reliefs & Papyrus", url: "https://photos.google.com/share/AF1QipNlo80I8xbcNGWKMI7dnnm5aPtALq8jpsRKJGGdAmNT2TnbEIrd0Y2isWehnlLwbg?key=S0kzelN6N1pyaTlZc21PeWtiOUN0bHZyckVMaGZB" },
+      { label: "🏺 Céramiques & Bronzes", url: "https://photos.google.com/share/AF1QipMNQ5eY261NXOzCFawVXiW-1pbb7VG4opgoBxJ-TEVNd2BxJp52VopMR2q7kVBtHw?key=SHplem9jdFE2RnhCaXJIR1o4al9UMTI1UHhCc3NB" }
+    ],
+    artifacts: []
+  },
+  {
+    id: "egypte_romaine",
+    name: "Égypte Romaine & Portraits du Fayoum",
+    epoch: "v. -30 av. J.-C. à +395 ap. J.-C.",
+    yearStart: -30,
+    yearEnd: 395,
+    lane: "egypte",
+    themeColor: "#c0392b",
+    sidePos: "pos-left",
+    travelingOrigin: "54.5% 48.0%",
+    haloId: "halo-egypte_tardif",
+    bannerImg: "https://lh3.googleusercontent.com/d/1HWdb-Q5G3Yz8iCYDdJ3q12BuvTWMARmK",
+    mapOverlayUrl: "https://lh3.googleusercontent.com/d/1EjnwS0_C2N95iY8FGNrH7N7lHnEDPG57",
+    albumUrl: "https://photos.google.com/share/AF1QipN3eyH-IXfJ5tzHs153uMFgtbiZ-T1UONLzfSVpPLodOXWcNGXYMeojYCDX7skI5w?key=dEpRSmZnTkVLb2FuOHJCbjRqZDhDZ1ZDNDhOVkhn",
+    presentationHtml: `
+      <p><strong>La fusion gréco-romaine et les visages d'éternité du Fayoum</strong><br>
+      Après la victoire d'Octave sur Marc Antoine et Cléopâtre VII à Actium en 30 av. J.-C., l'Égypte devient la province personnelle de l'empereur romain et le grenier à blé de Rome. Les empereurs continuent de se faire figurer en pharaons sur les parois des temples (Kalabchah, Dendour, Esna), mais la symbiose artistique atteint son apogée dans le domaine funéraire privé.<br>
+      Dans l'oasis du Fayoum et en Moyenne-Égypte, l'aristocratie cosmopolite perpétue la momification rituelle tout en insérant sur les linceuls et cercueils de sublimes portraits peints sur panneaux de bois à l'encaustique (cire chaude) ou à la détrempe. Ces « portraits du Fayoum », saisissants d'intensité psychologique et de naturalisme gréco-romain, constituent l'un des sommets absolus de la peinture antique conservée.</p>
+    `,
+    concurrentHtml: `
+      <p><strong>L'Empire romain universel et la paix romaine</strong></p>
+      <p>Sous le Principat et le Haut-Empire (Pax Romana), Rome régit un territoire immense s'étendant de l'Écosse jusqu'à l'Euphrate. L'art officiel célèbre les vertus impériales à travers des monuments de marbre (arcs de triomphe, forums, Colisée, Panthéon).<br>
+      En Inde, l'Empire kouchan fait fleurir l'art gréco-bouddhique du Gandhâra, où les statues de Bouddha empruntent les drapés et les traits idéalisés d'Apollon.<br>
+      Dans les Amériques précolombiennes, la métropole monumentale de Teotihuacan s'érige sur les hauts plateaux mexicains avec ses pyramides monumentales du Soleil et de la Lune.</p>
+    `,
+    themeAlbums: [
+      { label: "🎨 Portraits du Fayoum", url: "https://photos.google.com/share/AF1QipMzaxBxEP6dd76u3_Ldl7cRgR0YQ5fFNegi5HUNy5E8VHUVEF7pPnAqhXLKYkbJ9w?key=V0kwcUlEVXFXQ0FLVFp5dXJEWklVMjhvWHFrUjZB" },
+      { label: "⚰️ Masques & Momies", url: "https://photos.google.com/share/AF1QipMPZVPxixftA0xlCWDph7xd49UFkPFHE1yI8RvwsVn_IoUoWO5COMeS__ajWSqZeQ?key=N3RLMkZ0aEtYcFhUb3FLLTl6aXJicDBZM0JRSkJR" },
+      { label: "💍 Parures & Bijoux", url: "https://photos.google.com/share/AF1QipMPvGsbKG1P6Ly3nEAZsXXysQgJw7e60mYpU3GLEzPTCykMr0iCgV31qU_k8JEt6g?key=dUlsQnlQdTh5elVReGU2T0ZaUEtsc0ljS3NZZjZB" },
+      { label: "🏛️ Monuments gréco-romains", url: "https://photos.google.com/share/AF1QipMD9gTlrGuj9Ng3NopZQQkswrc49JfmHJESKRZWFkm7AQaA5mCjFLZDXTDRQG-cVQ?key=SzhBc0ZNQzJIbFhCYWhkLThmU2FySURxaU11dWpB" }
     ],
     artifacts: []
   },
@@ -462,10 +518,10 @@ const CIVILISATIONS_REGISTRY = [
   },
   {
     id: "chypre_bronze",
-    name: "Art Chypriote (Âge du Bronze & Archaïque)",
-    epoch: "v. -2500 à -500 av. J.-C.",
+    name: "Art Chypriote (Âge du Bronze)",
+    epoch: "v. -2500 à -1050 av. J.-C.",
     yearStart: -2500,
-    yearEnd: -500,
+    yearEnd: -1050,
     lane: "chypre",
     themeColor: "#e9c46a",
     sidePos: "pos-left",
@@ -493,6 +549,37 @@ const CIVILISATIONS_REGISTRY = [
     themeAlbums: [
       { label: "🏺 Céramiques", url: "https://photos.google.com" },
       { label: "🗿 Terres cuites", url: "https://photos.google.com" }
+    ],
+    artifacts: []
+  },
+  {
+    id: "chypre_archaique",
+    name: "Art Chypriote (Époque Géométrique & Archaïque)",
+    epoch: "v. -1050 à -480 av. J.-C.",
+    yearStart: -1050,
+    yearEnd: -480,
+    lane: "chypre",
+    themeColor: "#e76f51",
+    sidePos: "pos-left",
+    travelingOrigin: "55.4% 45.6%",
+    haloId: "halo-chypre",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczNtlhntpxWY6u22Dj77CiZfXJnSfduTP1uXInNNl7THWXS5vseOikfKiRgcTsCjP2iVGO-jX924k9zAAUyZQhGX8luuSrh5eXc650LHXXMWEdLAl7o589lo_Rkk6Bo9UJYlo4iFAtBkaj6qhmzuUK5y_w=w2111-h896-s-no-gm?authuser=0",
+    mapOverlayUrl: "https://lh3.googleusercontent.com/d/1QNkcnjOVZ9nSJxO2vXusVWgC04EmaUcO",
+    albumUrl: "https://photos.google.com",
+    presentationHtml: `
+      <p><strong>L'épanouissement des royaumes chypriotes et l'art géométrique</strong><br>
+      Après les bouleversements de la fin de l'âge du Bronze, Chypre se réorganise en dix royaumes autonomes (Salamine, Kourion, Idalion, Marion...). Cette période géométrique et archaïque (v. 1050–480 av. J.-C.) consacre un art spectaculaire marqué par la vitalité des ateliers céramiques (« Bichrome » et « Black-on-Red ») et la profusion extraordinaire de statuettes et sculptures votives en terre cuite ou calcaire déposées dans les sanctuaires à ciel ouvert.<br>
+      Au carrefour de l'Orient phénicien et de la Grèce archaïque, l'art chypriote conserve une originalité vivace et une fraîcheur expressive unique.</p>
+    `,
+    concurrentHtml: `
+      <p><strong>Le contexte méditerranéen archaïque</strong></p>
+      <p>Pendant la période géométrique et archaïque chypriote, les cités grecques colonisent le bassin méditerranéen et la mer Noire, tandis que les marins phéniciens fondent Carthage et des comptoirs jusqu'en Espagne.<br>
+      En Italie, la civilisation étrusque s'épanouit en Toscane avec ses tombes peintes et ses nécropoles monumentales.<br>
+      Au Proche-Orient, les souverains assyriens puis perses étendent leur suzeraineté sur l'île sans étouffer l'autonomie artistique de ses ateliers insulaires.</p>
+    `,
+    themeAlbums: [
+      { label: "🏺 Vases bichromes", url: "https://photos.google.com" },
+      { label: "🗿 Terres cuites votives", url: "https://photos.google.com" }
     ],
     artifacts: []
   },
@@ -644,15 +731,7 @@ window.addEventListener('DOMContentLoaded', () => {
     CIVILISATIONS_REGISTRY.forEach(civ => {
       let matched = window.ART_OBJECTS.filter(obj => {
         if (!obj.isHighlight) return false;
-        if (obj.civId === civ.id || obj.periodId === civ.id) return true;
-        // Ptolémaïque et Romain rattachés au grand bloc d'Égypte tardive
-        if (civ.id === 'egypte_tardive') {
-          if (obj.periodId === 'egypte_ptolemaique' || obj.periodId === 'egypte_romaine' || obj.civId === 'egypte_tardive') return true;
-        }
-        // Archaïque rattaché au bloc de Chypre Bronze & Archaïque
-        if (civ.id === 'chypre_bronze') {
-          if (obj.periodId === 'chypre_archaique' || obj.civId === 'chypre') return true;
-        }
+        if (obj.periodId === civ.id || obj.civId === civ.id) return true;
         // Fallback chronologique sur le lane
         if (civ.lane && obj.civId === civ.lane && typeof obj.centuryNumeric === 'number') {
           return obj.centuryNumeric >= (civ.yearStart - 50) && obj.centuryNumeric <= (civ.yearEnd + 50);
@@ -664,9 +743,7 @@ window.addEventListener('DOMContentLoaded', () => {
       if (matched.length < 3) {
         const others = window.ART_OBJECTS.filter(obj => {
           if (matched.some(m => m.id === obj.id)) return false;
-          if (obj.civId === civ.id || obj.periodId === civ.id) return true;
-          if (civ.id === 'egypte_tardive' && (obj.periodId === 'egypte_ptolemaique' || obj.periodId === 'egypte_romaine')) return true;
-          if (civ.id === 'chypre_bronze' && (obj.periodId === 'chypre_archaique' || obj.civId === 'chypre')) return true;
+          if (obj.periodId === civ.id || obj.civId === civ.id) return true;
           if (civ.lane && obj.civId === civ.lane && typeof obj.centuryNumeric === 'number') {
             return obj.centuryNumeric >= (civ.yearStart - 50) && obj.centuryNumeric <= (civ.yearEnd + 50);
           }
@@ -734,12 +811,18 @@ const sidebarAlbumGrid = document.getElementById('sidebar-album-grid');
 const btnEnterCiv = document.getElementById('btn-enter-civ');
 const btnCloseSidebar = document.getElementById('btn-close-sidebar');
 const btnCloseConcurrent = document.getElementById('btn-close-concurrent');
+const btnExpandSidebar = document.getElementById('btn-expand-sidebar');
+const btnCollapseSidebar = document.getElementById('btn-collapse-sidebar');
+const tabReopenCiv = document.getElementById('tab-reopen-civ');
+const tabReopenCivLabel = document.getElementById('tab-reopen-civ-label');
+const tabReopenConcurrent = document.getElementById('tab-reopen-concurrent');
 
 let isLockedSidebar = false;
 let selectedCiv = null;
 
 function showCivPreview(civ) {
   selectedCiv = civ;
+  if (tabReopenCiv) tabReopenCiv.hidden = true;
   sidebarEra.textContent = civ.epoch;
   sidebarTitle.textContent = civ.name;
   sidebarDesc.innerHTML = civ.presentationHtml;
@@ -781,8 +864,6 @@ function showCivPreview(civ) {
     const catalog = window.ART_OBJECTS || [];
     const count = catalog.filter(art => {
       if (art.periodId === civ.id) return true;
-      if (civ.id === 'egypte_tardive' && (art.periodId === 'egypte_ptolemaique' || art.periodId === 'egypte_romaine')) return true;
-      if (civ.id === 'chypre_bronze' && art.periodId === 'chypre_archaique') return true;
       if (art.civId === civ.id) return true;
       return false;
     }).length;
@@ -805,16 +886,69 @@ function lockCivSidebar(civ) {
   showCivPreview(civ);
 }
 
-btnCloseSidebar.addEventListener('click', (e) => {
-  e.stopPropagation();
+function collapseCivSidebar() {
   isLockedSidebar = false;
-  hideCivPreview();
-});
+  hoverSidebar.classList.remove('visible', 'is-expanded');
+  if (btnExpandSidebar) {
+    btnExpandSidebar.textContent = '⤢';
+    btnExpandSidebar.title = 'Agrandir en grand format (admirer le bandeau)';
+  }
+  if (lastActiveCiv && tabReopenCiv) {
+    tabReopenCiv.hidden = false;
+    if (tabReopenCivLabel) {
+      tabReopenCivLabel.textContent = lastActiveCiv.name.length > 22 ? (lastActiveCiv.name.slice(0, 22) + '…') : lastActiveCiv.name;
+    }
+  }
+}
+
+if (btnCloseSidebar) {
+  btnCloseSidebar.addEventListener('click', (e) => {
+    e.stopPropagation();
+    collapseCivSidebar();
+  });
+}
+
+if (btnCollapseSidebar) {
+  btnCollapseSidebar.addEventListener('click', (e) => {
+    e.stopPropagation();
+    collapseCivSidebar();
+  });
+}
+
+if (tabReopenCiv) {
+  tabReopenCiv.addEventListener('click', (e) => {
+    e.stopPropagation();
+    tabReopenCiv.hidden = true;
+    if (lastActiveCiv) {
+      lockCivSidebar(lastActiveCiv);
+    }
+  });
+}
+
+if (btnExpandSidebar) {
+  btnExpandSidebar.addEventListener('click', (e) => {
+    e.stopPropagation();
+    const isExpanded = hoverSidebar.classList.toggle('is-expanded');
+    btnExpandSidebar.textContent = isExpanded ? '⤡' : '⤢';
+    btnExpandSidebar.title = isExpanded ? 'Réduire à la largeur standard' : 'Agrandir en grand format (admirer le bandeau)';
+  });
+}
 
 if (btnCloseConcurrent) {
   btnCloseConcurrent.addEventListener('click', (e) => {
     e.stopPropagation();
     if (concurrentSidebar) concurrentSidebar.classList.remove('visible');
+    if (tabReopenConcurrent && concurrentDesc && concurrentDesc.innerHTML.trim().length > 0) {
+      tabReopenConcurrent.hidden = false;
+    }
+  });
+}
+
+if (tabReopenConcurrent) {
+  tabReopenConcurrent.addEventListener('click', (e) => {
+    e.stopPropagation();
+    if (concurrentSidebar) concurrentSidebar.classList.add('visible');
+    tabReopenConcurrent.hidden = true;
   });
 }
 
@@ -1033,8 +1167,10 @@ function activateCivilisationView(civ) {
   if (civ.concurrentHtml) {
     concurrentDesc.innerHTML = civ.concurrentHtml;
     concurrentSidebar.classList.add('visible');
+    if (tabReopenConcurrent) tabReopenConcurrent.hidden = true;
   } else {
     concurrentSidebar.classList.remove('visible');
+    if (tabReopenConcurrent) tabReopenConcurrent.hidden = true;
   }
 
   if (civ.artifacts) {
@@ -1075,6 +1211,7 @@ function closeCivilisationView() {
   civMapImg.src = '';
   globalMapImg.classList.remove('traveling');
   subStream.innerHTML = '';
+  if (tabReopenConcurrent) tabReopenConcurrent.hidden = true;
   hideCivPreview();
 }
 
@@ -2373,14 +2510,6 @@ function jumpFromArtworkToTimeline(art) {
   let matchedCiv = null;
   if (art.periodId && Array.isArray(CIVILISATIONS_REGISTRY)) {
     matchedCiv = CIVILISATIONS_REGISTRY.find(c => c.id === art.periodId);
-    // Correspondances vers les blocs chronologiques unifiés existants
-    if (!matchedCiv) {
-      if (art.periodId === 'egypte_ptolemaique' || art.periodId === 'egypte_romaine') {
-        matchedCiv = CIVILISATIONS_REGISTRY.find(c => c.id === 'egypte_tardive');
-      } else if (art.periodId === 'chypre_archaique') {
-        matchedCiv = CIVILISATIONS_REGISTRY.find(c => c.id === 'chypre_bronze');
-      }
-    }
   }
   if (!matchedCiv && art.civId && Array.isArray(CIVILISATIONS_REGISTRY)) {
     matchedCiv = CIVILISATIONS_REGISTRY.find(c => {
