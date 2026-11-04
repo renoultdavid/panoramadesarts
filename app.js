@@ -72,17 +72,27 @@ btnFullscreen.addEventListener('click', () => {
    REGISTRE COMPLET DES GRANDES DATES & ÉVÉNEMENTS HISTORIQUES
    ========================================================================== */
 const HISTORICAL_MILESTONES = [
-  { year: -3300, category: "tech", type: "Révolution technique", title: "Invention de l'écriture cunéiforme", desc: "Apparition des premières tablettes d'argile à Uruk en Mésopotamie, scellant la naissance de l'histoire et de la mémoire écrite." },
-  { year: -3000, category: "gold", type: "Fondation politique", title: "Unification de l'Égypte sous Narmer", desc: "Fondation de la Ire dynastie thinite, réunissant la Haute et la Basse-Égypte sous l'autorité d'un souverain unique." },
-  { year: -2560, category: "gold", type: "Chantier colossal", title: "Chantier de la Grande Pyramide de Khéops", desc: "Édification de la plus colossale des sept merveilles du monde antique sur le plateau calcaire de Gizeh." },
-  { year: -2200, category: "disaster", type: "Rupture climatique", title: "Événement aride de 4,2 ka", desc: "Crise de sécheresse majeure qui déstabilise l'Ancien Empire en Égypte et l'Empire d'Akkad en Mésopotamie, ouvrant des périodes de fragmentation politique." },
-  { year: -2000, category: "tech", type: "Innovation artisanale", title: "Généralisation du tour de potier rapide", desc: "Diffusion du tour rapide dans le monde égéen et le Levant, permettant l'épanouissement de céramiques aux parois fines et aux formes profilées." },
-  { year: -1750, category: "gold", type: "Monument juridique", title: "Promulgation du Code d'Hammurabi", desc: "Gravure de la célèbre stèle de basalte de Babylone, synthèse magistrale de droit et de propagande royale sous le regard du dieu Shamash." },
-  { year: -1600, category: "disaster", type: "Cataclysme naturel", title: "Éruption minoenne de Santorin (Théra)", desc: "Explosion volcanique colossale dans l'archipel des Cyclades, provoquant des tsunamis et bouleversant les équilibres maritimes de la Crète minoenne." },
-  { year: -1274, category: "war", type: "Bataille décisive", title: "Bataille de Qadesh (Ramsès II vs Muwatalli II)", desc: "Choc de chars colossal entre l'Égypte et les Hittites sur l'Oronte, immortalisé en bas-reliefs héroïques sur les pylônes de Louxor et d'Abou Simbel." },
-  { year: -1200, category: "tech", type: "Révolution métallurgique", title: "Diffusion de la métallurgie du fer", desc: "Effondrement de l'âge du Bronze et adoption généralisée du fer au Proche-Orient et en Méditerranée, transformant l'outillage et l'armement." },
-  { year: -539, category: "war", type: "Conquête impériale", title: "Prise de Babylone par Cyrus le Grand", desc: "Chute du Nouvel Empire babylonien et apogée de l'Empire perse achéménide, intégrant la Mésopotamie, le Levant et l'Égypte sous un même sceptre." },
-  { year: -52, category: "war", type: "Conquête militaire", title: "Siège d'Alésia & Reddition de Vercingétorix", desc: "Victoire de Jules César marquant la fin de la guerre des Gaules et l'intégration progressive des peuples celtes dans l'orbite romaine." }
+  { year: -3300, category: "tech", icon: "📜", type: "Révolution technique", title: "Invention de l'écriture cunéiforme", desc: "Apparition des premières tablettes d'argile à Uruk en Mésopotamie, scellant la naissance de l'histoire et de la mémoire écrite." },
+  { year: -3000, category: "gold", icon: "👑", type: "Fondation politique", title: "Unification de l'Égypte sous Narmer", desc: "Fondation de la Ire dynastie thinite, réunissant la Haute et la Basse-Égypte sous l'autorité d'un souverain unique." },
+  { year: -2560, category: "gold", icon: "🏛️", type: "Chantier colossal", title: "Chantier de la Grande Pyramide de Khéops", desc: "Édification de la plus colossale des sept merveilles du monde antique sur le plateau calcaire de Gizeh." },
+  { year: -2200, category: "disaster", icon: "🌪️", type: "Rupture climatique", title: "Événement aride de 4,2 ka", desc: "Crise de sécheresse majeure qui déstabilise l'Ancien Empire en Égypte et l'Empire d'Akkad en Mésopotamie, ouvrant des périodes de fragmentation politique." },
+  { year: -2000, category: "tech", icon: "🏺", type: "Innovation artisanale", title: "Généralisation du tour de potier rapide", desc: "Diffusion du tour rapide dans le monde égéen et le Levant, permettant l'épanouissement de céramiques aux parois fines et aux formes profilées." },
+  { year: -1750, category: "gold", icon: "⚖️", type: "Monument juridique", title: "Promulgation du Code d'Hammurabi", desc: "Gravure de la célèbre stèle de basalte de Babylone, synthèse magistrale de droit et de propagande royale sous le regard du dieu Shamash." },
+  { year: -1600, category: "disaster", icon: "🌋", type: "Cataclysme naturel", title: "Éruption minoenne de Santorin (Théra)", desc: "Explosion volcanique colossale dans l'archipel des Cyclades, provoquant des tsunamis et bouleversant les équilibres maritimes de la Crète minoenne." },
+  { year: -1274, category: "war", icon: "⚔️", type: "Bataille décisive", title: "Bataille de Qadesh (Ramsès II vs Muwatalli II)", desc: "Choc de chars colossal entre l'Égypte et les Hittites sur l'Oronte, immortalisé en bas-reliefs héroïques sur les pylônes de Louxor et d'Abou Simbel." },
+  { year: -1200, category: "tech", icon: "🗡️", type: "Révolution métallurgique", title: "Diffusion de la métallurgie du fer", desc: "Effondrement de l'âge du Bronze et adoption généralisée du fer au Proche-Orient et en Méditerranée, transformant l'outillage et l'armement." },
+  { year: -776, category: "gold", icon: "🏆", type: "Fondation panhellénique", title: "Premiers Jeux Olympiques antiques", desc: "Institution de la trêve sacrée et des concours athlétiques à Olympie, scellant l'unité religieuse et culturelle de la Grèce antique." },
+  { year: -539, category: "war", icon: "⚔️", type: "Conquête impériale", title: "Prise de Babylone par Cyrus le Grand", desc: "Chute du Nouvel Empire babylonien et apogée de l'Empire perse achéménide, intégrant la Mésopotamie, le Levant et l'Égypte sous un même sceptre." },
+  { year: -447, category: "gold", icon: "🏛️", type: "Chantier classique", title: "Construction du Parthénon à Athènes", desc: "Périclès confie à Phidias, Ictinos et Callicratès l'édification du chef-d'œuvre de l'ordre dorique sur l'Acropole d'Athènes." },
+  { year: -331, category: "war", icon: "👑", type: "Épopée alexandrine", title: "Fondation d'Alexandrie & Victoires d'Alexandre", desc: "Alexandre le Grand conquiert l'Orient, jetant les ponts de la fusion hellénistique entre l'Europe, l'Égypte et l'Asie." },
+  { year: -52, category: "war", icon: "🛡️", type: "Conquête militaire", title: "Siège d'Alésia & Reddition de Vercingétorix", desc: "Victoire de Jules César marquant la fin de la guerre des Gaules et l'intégration progressive des peuples celtes dans l'orbite romaine." },
+  { year: 79, category: "disaster", icon: "🌋", type: "Cataclysme naturel", title: "Éruption du Vésuve & Pompéi", desc: "L'éruption du Vésuve ensevelit Pompéi et Herculanum sous les cendres, figeant pour l'éternité les fresques et le cadre de vie romain." },
+  { year: 330, category: "gold", icon: "🏛️", type: "Fondation impériale", title: "Inauguration de Constantinople", desc: "L'empereur Constantin transfère la capitale de l'Empire romain sur le Bosphore, inaugurant plus d'un millénaire de civilisation byzantine." },
+  { year: 622, category: "gold", icon: "🌙", type: "Événement spirituel", title: "L'Hégire & Ère islamique", desc: "Départ du prophète Mahomet de La Mecque vers Médine, point de départ du calendrier musulman et de l'essor des arts de l'Islam." },
+  { year: 1453, category: "war", icon: "💡", type: "Tournant de l'histoire", title: "Prise de Constantinople & Imprimerie", desc: "Chute de Byzance face aux Ottomans et diffusion révolutionnaire de la presse à caractères mobiles par Gutenberg en Europe." },
+  { year: 1508, category: "gold", icon: "🎨", type: "Sommet artistique", title: "Michel-Ange : Chapelle Sixtine", desc: "Commande du pape Jules II à Rome, aboutissant à l'un des sommets absolus de la peinture monumentale de la Haute Renaissance." },
+  { year: 1789, category: "war", icon: "⚔️", type: "Révolution politique", title: "Révolution Française", desc: "Bouleversement majeur de l'ordre politique européen, naissance des grands musées publics et redéfinition du patrimoine." },
+  { year: 1907, category: "tech", icon: "🎨", type: "Révolution esthétique", title: "Les Demoiselles d'Avignon & Naissance du Cubisme", desc: "Picasso brise la perspective linéaire classique sous l'influence des arts ibériques et africains, ouvrant la voie aux avant-gardes modernes." }
 ];
 
 /* ==========================================================================
@@ -178,41 +188,238 @@ function renderRulerScale() {
   rulerTrack.replaceChildren(frag);
 }
 
-// Initialisation des repères historiques sur la règle
-function initHistoricalMilestones() {
-  if (!rulerEventsLayer) return;
-  rulerEventsLayer.innerHTML = '';
-  HISTORICAL_MILESTONES.forEach(m => {
-    const x = yearToPixel(m.year);
-    const spark = document.createElement('div');
-    spark.className = `ruler-event-spark spark-${m.category}`;
-    spark.style.left = `${x}px`;
-    spark.title = `${m.year < 0 ? Math.abs(m.year) + ' av. J.-C.' : m.year} : ${m.title}`;
-    m._sparkEl = spark;
+/* ==========================================================================
+   PUCES LUMINEUSES D'ŒUVRES & JALONS EN CONSTELLATION (GRAPPES TEMPORELLES)
+   ========================================================================== */
+function getArtDomainIcon(domain) {
+  if (!domain) return '🏛️';
+  const d = domain.toLowerCase();
+  if (d.includes('sculpture') || d.includes('statuaire') || d.includes('ronde-bosse')) return '🗿';
+  if (d.includes('peinture') || d.includes('fresque') || d.includes('tableau')) return '🎨';
+  if (d.includes('ceramique') || d.includes('poterie') || d.includes('vase')) return '🏺';
+  if (d.includes('funeraire') || d.includes('sarcophage') || d.includes('momie')) return '⚱️';
+  if (d.includes('orfevrerie') || d.includes('bijou') || d.includes('tresor') || d.includes('couronne')) return '👑';
+  if (d.includes('mosaique') || d.includes('relief')) return '🏛️';
+  if (d.includes('ivoire') || d.includes('bois')) return '🪵';
+  if (d.includes('arme') || d.includes('militaire') || d.includes('bouclier')) return '⚔️';
+  return '💎';
+}
 
-    spark.addEventListener('mouseenter', () => {
-      mType.textContent = m.type.toUpperCase();
-      mYear.textContent = m.year < 0 ? `${Math.abs(m.year)} av. J.-C.` : `${m.year} ap. J.-C.`;
-      mTitle.textContent = m.title;
-      mDesc.textContent = m.desc;
+function initConstellationData() {
+  const items = [];
 
-      const rect = spark.getBoundingClientRect();
-      const tooltipWidth = 310;
-      let leftPos = rect.left - 135;
-      if (leftPos + tooltipWidth > window.innerWidth - 20) {
-        leftPos = window.innerWidth - tooltipWidth - 25;
-      }
-      milestoneTooltip.style.left = `${Math.max(10, leftPos)}px`;
-      milestoneTooltip.style.top = `${rect.top - 130}px`;
-      milestoneTooltip.classList.add('visible');
+  // 1. Jalons historiques mondiaux
+  HISTORICAL_MILESTONES.forEach((m, idx) => {
+    items.push({
+      id: `m_${idx}`,
+      year: m.year,
+      title: m.title,
+      type: m.type,
+      desc: m.desc,
+      category: m.category,
+      icon: m.icon || '⭐',
+      isMilestone: true
     });
-
-    spark.addEventListener('mouseleave', () => {
-      milestoneTooltip.classList.remove('visible');
-    });
-
-    rulerEventsLayer.appendChild(spark);
   });
+
+  // 2. Chefs-d'œuvre majeurs du catalogue
+  const catalog = window.ART_OBJECTS || [];
+  catalog.forEach(art => {
+    if (art.isHighlight && (art.centuryNumeric != null || art.year != null)) {
+      const year = art.centuryNumeric != null ? art.centuryNumeric : art.year;
+      items.push({
+        id: `art_${art.id}`,
+        year: year,
+        title: art.title,
+        type: art.artifactType || art.domain || 'Chef-d\'œuvre',
+        desc: art.century || art.centuryDisplay || '',
+        category: 'art',
+        icon: getArtDomainIcon(art.domain),
+        isArtwork: true,
+        imgSrc: art.imgSrc,
+        art: art
+      });
+    }
+  });
+
+  items.sort((a, b) => a.year - b.year);
+  window.CONSTELLATION_ITEMS = items;
+}
+
+function renderConstellationLayer() {
+  if (!rulerEventsLayer) return;
+  if (!window.CONSTELLATION_ITEMS || window.CONSTELLATION_ITEMS.length === 0) {
+    initConstellationData();
+  }
+  const items = window.CONSTELLATION_ITEMS || [];
+  if (items.length === 0) return;
+
+  // Calculer position pixel sur la frise
+  const placed = items.map(it => ({
+    ...it,
+    px: yearToPixel(it.year)
+  }));
+
+  // Regroupement dynamique en grappes si distance écran < 36px
+  const CLUSTER_PX_THRESHOLD = 36;
+  const clusters = [];
+  let curCluster = null;
+
+  placed.forEach(it => {
+    if (!curCluster) {
+      curCluster = { px: it.px, items: [it] };
+    } else {
+      if (Math.abs(it.px - curCluster.px) < CLUSTER_PX_THRESHOLD) {
+        curCluster.items.push(it);
+        curCluster.px = curCluster.items.reduce((sum, item) => sum + item.px, 0) / curCluster.items.length;
+      } else {
+        clusters.push(curCluster);
+        curCluster = { px: it.px, items: [it] };
+      }
+    }
+  });
+  if (curCluster) clusters.push(curCluster);
+
+  const frag = document.createDocumentFragment();
+
+  clusters.forEach(cluster => {
+    const isSingle = cluster.items.length === 1;
+    const pin = document.createElement('div');
+    pin.className = `constellation-pin ${isSingle ? 'is-single' : 'is-cluster-group'}`;
+    pin.style.left = `${cluster.px}px`;
+
+    const badge = document.createElement('div');
+    badge.className = `pin-badge ${isSingle ? '' : 'is-cluster'}`;
+
+    const stem = document.createElement('div');
+    stem.className = 'pin-stem';
+
+    if (isSingle) {
+      const item = cluster.items[0];
+      badge.textContent = item.icon;
+      badge.title = `${item.title} (${item.year < 0 ? Math.abs(item.year) + ' av. J.-C.' : item.year + ' ap. J.-C.'})`;
+
+      pin.addEventListener('mouseenter', () => showPinTooltip(item, pin));
+      pin.addEventListener('mouseleave', hidePinTooltip);
+
+      if (item.isArtwork && item.art) {
+        pin.addEventListener('click', (e) => {
+          e.stopPropagation();
+          openCuratorModal(item.art, [item.art], true);
+        });
+      }
+    } else {
+      badge.innerHTML = `<span>+${cluster.items.length}</span>`;
+
+      pin.addEventListener('mouseenter', () => showClusterTooltip(cluster, pin));
+      pin.addEventListener('mouseleave', hidePinTooltip);
+
+      // Clic sur une grappe : dilatation immédiate au cœur de la grappe !
+      pin.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const pinRect = pin.getBoundingClientRect();
+        zoomTimelineAt(pinRect.left + pinRect.width / 2, -1);
+      });
+    }
+
+    pin.appendChild(badge);
+    pin.appendChild(stem);
+    frag.appendChild(pin);
+  });
+
+  rulerEventsLayer.replaceChildren(frag);
+}
+
+function showPinTooltip(item, pinEl) {
+  const tooltip = document.getElementById('milestone-tooltip');
+  if (!tooltip) return;
+
+  const thumbWrap = document.getElementById('milestone-thumb-wrap');
+  const thumbImg = document.getElementById('milestone-thumb-img');
+  const typeEl = document.getElementById('milestone-type');
+  const yearEl = document.getElementById('milestone-year');
+  const titleEl = document.getElementById('milestone-title');
+  const descEl = document.getElementById('milestone-desc');
+  const actionEl = document.getElementById('milestone-action');
+
+  if (item.imgSrc && thumbWrap && thumbImg) {
+    thumbImg.src = item.imgSrc;
+    thumbWrap.style.display = 'block';
+  } else if (thumbWrap) {
+    thumbWrap.style.display = 'none';
+  }
+
+  typeEl.textContent = (item.isArtwork ? `🏛️ ${item.type}` : `⭐ ${item.type}`).toUpperCase();
+  yearEl.textContent = item.year < 0 ? `${Math.abs(item.year)} av. J.-C.` : `${item.year} ap. J.-C.`;
+  titleEl.textContent = item.title;
+  descEl.textContent = item.desc || (item.art ? (item.art.site || item.art.civName || '') : '');
+
+  if (actionEl) {
+    if (item.isArtwork) {
+      actionEl.textContent = "✦ Cliquez pour ouvrir la notice muséale complète";
+      actionEl.style.display = 'block';
+    } else {
+      actionEl.style.display = 'none';
+    }
+  }
+
+  positionTooltipAtPin(tooltip, pinEl);
+}
+
+function showClusterTooltip(cluster, pinEl) {
+  const tooltip = document.getElementById('milestone-tooltip');
+  if (!tooltip) return;
+
+  const thumbWrap = document.getElementById('milestone-thumb-wrap');
+  const typeEl = document.getElementById('milestone-type');
+  const yearEl = document.getElementById('milestone-year');
+  const titleEl = document.getElementById('milestone-title');
+  const descEl = document.getElementById('milestone-desc');
+  const actionEl = document.getElementById('milestone-action');
+
+  if (thumbWrap) thumbWrap.style.display = 'none';
+
+  typeEl.textContent = `GRAPPE TEMPORELLE • ${cluster.items.length} ŒUVRES & JALONS`;
+
+  const minYear = Math.min(...cluster.items.map(i => i.year));
+  const maxYear = Math.max(...cluster.items.map(i => i.year));
+  const fmtY = y => y < 0 ? `${Math.abs(y)} av. J.-C.` : `${y} ap. J.-C.`;
+  yearEl.textContent = minYear === maxYear ? fmtY(minYear) : `${fmtY(minYear)} à ${fmtY(maxYear)}`;
+
+  const topTitles = cluster.items.slice(0, 3).map(i => `${i.icon} ${i.title}`).join('<br>');
+  const remaining = cluster.items.length - 3;
+  titleEl.innerHTML = topTitles + (remaining > 0 ? `<br><em style="color:#a0aec0;">...et ${remaining} autre(s)</em>` : '');
+  descEl.textContent = "Foyer de création artistique et historique dense sur cette période.";
+
+  if (actionEl) {
+    actionEl.innerHTML = "🔍 <strong>Cliquez pour zoomer et faire éclater cette grappe</strong>";
+    actionEl.style.display = 'block';
+  }
+
+  positionTooltipAtPin(tooltip, pinEl);
+}
+
+function hidePinTooltip() {
+  const tooltip = document.getElementById('milestone-tooltip');
+  if (tooltip) tooltip.classList.remove('visible');
+}
+
+function positionTooltipAtPin(tooltip, pinEl) {
+  const rect = pinEl.getBoundingClientRect();
+  const tooltipWidth = 310;
+  let leftPos = rect.left + rect.width / 2 - tooltipWidth / 2;
+  if (leftPos + tooltipWidth > window.innerWidth - 20) {
+    leftPos = window.innerWidth - tooltipWidth - 20;
+  }
+  leftPos = Math.max(15, leftPos);
+
+  let topPos = rect.top - tooltip.offsetHeight - 12;
+  if (topPos < 10) {
+    topPos = rect.bottom + 12;
+  }
+  tooltip.style.left = `${leftPos}px`;
+  tooltip.style.top = `${topPos}px`;
+  tooltip.classList.add('visible');
 }
 
 /* ==========================================================================
@@ -616,7 +823,7 @@ const CIVILISATIONS_REGISTRY = [
     yearStart: -480,
     yearEnd: -323,
     lane: "egee",
-    themeColor: "#c084fc",
+    themeColor: "#0284c7",
     sidePos: "pos-left",
     travelingOrigin: "52.8% 44.5%",
     haloId: "halo-grece",
@@ -652,7 +859,7 @@ const CIVILISATIONS_REGISTRY = [
     yearStart: -323,
     yearEnd: -31,
     lane: "egee",
-    themeColor: "#f472b6",
+    themeColor: "#2563eb",
     sidePos: "pos-left",
     travelingOrigin: "53.5% 45.0%",
     haloId: "halo-grece",
@@ -1549,7 +1756,8 @@ window.addEventListener('DOMContentLoaded', () => {
   }
   buildTimelineBlocks();
   renderRulerScale();
-  initHistoricalMilestones();
+  initConstellationData();
+  renderConstellationLayer();
   updateTimelineLayout();
   initSearchEngine();
 });
@@ -1636,13 +1844,8 @@ function updateTimelineLayout() {
     civ._blockEl.style.width = `${width}px`;
   });
 
-  HISTORICAL_MILESTONES.forEach(m => {
-    if (m._sparkEl) {
-      m._sparkEl.style.left = `${yearToPixel(m.year)}px`;
-    }
-  });
-
   renderRulerScale();
+  renderConstellationLayer();
 
   if (masterRibbon) masterRibbon.style.transform = `translateX(${curRibbonX}px)`;
   if (rulerTrack) rulerTrack.style.transform = `translateX(${curRibbonX}px)`;

@@ -553,12 +553,16 @@
     </footer>
   </section>
 
-  <!-- INFO-BULLE DES ÉVÉNEMENTS HISTORIQUES -->
+  <!-- INFO-BULLE DES ÉVÉNEMENTS HISTORIQUES & CHEFS-D'ŒUVRE -->
   <div id="milestone-tooltip" class="milestone-tooltip">
+    <div class="milestone-thumb-wrap" id="milestone-thumb-wrap" style="display:none;">
+      <img id="milestone-thumb-img" src="" alt="">
+    </div>
     <div class="milestone-badge" id="milestone-type">REPÈRE HISTORIQUE</div>
     <div class="milestone-year" id="milestone-year">-2560 av. J.-C.</div>
     <div class="milestone-title" id="milestone-title">Titre de l'Événement</div>
     <div class="milestone-desc" id="milestone-desc">Description...</div>
+    <div class="milestone-action-hint" id="milestone-action" style="display:none;"></div>
   </div>
 
   <!-- MODALE UNIFIÉE D'EXPOSITION MUSÉALE (UTILISÉE PAR LA FRISE ET LE MOTEUR) -->
@@ -847,7 +851,7 @@
   <script src="data/data-objets2.js"></script>
 
   <!-- SCRIPT MAÎTRE -->
-  <script src="app.js?v=4.2"></script>
+  <script src="app.js?v=4.3"></script>
 </body>
 
 </html>
