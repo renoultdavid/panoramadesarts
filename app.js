@@ -1494,6 +1494,21 @@ function populateModalData(art) {
     });
   }
 
+  // AJOUT : Bouton Atlas & Trajectoire dans la modale
+  const btnAtlas = document.createElement('button');
+  btnAtlas.type = 'button';
+  btnAtlas.className = 'btn-open-atlas-modal';
+  btnAtlas.innerHTML = `
+    <span class="btn-atlas-icon" aria-hidden="true">🗺️</span>
+    <span>Atlas & Odyssée</span>
+  `;
+  btnAtlas.title = "Visualiser le berceau antique et la trajectoire de l'œuvre sur l'Atlas mondial";
+  btnAtlas.addEventListener('click', (e) => {
+    e.stopPropagation();
+    openAtlasModal(art);
+  });
+  modalChips.appendChild(btnAtlas);
+
   // AJOUT : Bouton Focus dans la modale si l'œuvre possède des hotspots
   if (art.hotspots && art.hotspots.length > 0) {
     const btnFocus = document.createElement('button');
@@ -1513,6 +1528,9 @@ function populateModalData(art) {
   modalNarrative.innerHTML = (typeof enrichHTMLWithGlossary === 'function')
     ? enrichHTMLWithGlossary(rawNarrative)
     : rawNarrative;
+
+  // L'Œil de l'Archéologue : Secret de fouille / Le saviez-vous ?
+  renderArchaeologicalInsight(art);
 
   // Génération dynamique du ruban transversal "Au même moment dans le monde"
   renderContemporaneousRibbon(art);
@@ -1560,6 +1578,10 @@ function updateModalHistoryBackButton() {
   }
 }
 
+/* ==========================================================================
+   MODULES TRANSVERSAUX : SMART ECHO, FACE-À-FACE, ARCHÉOLOGIE & ATLAS
+   ========================================================================== */
+
 // Normalise l'identifiant de civilisation pour garantir qu'on ne compare que des civilisations distinctes
 function getCivGroupKey(art) {
   if (!art) return '';
@@ -1579,7 +1601,167 @@ function getCivGroupKey(art) {
   return cid || 'autre';
 }
 
-// Recherche algorithmique des chefs-d'œuvre contemporains des autres civilisations (Smart Echo)
+// --------------------------------------------------------------------------
+// 1. TAXONOMIE SÉMANTIQUE & AFFINITÉ DE SUJET (FACE-À-FACE MIROIR)
+// --------------------------------------------------------------------------
+const ART_SUBJECT_TAXONOMY = [
+  {
+    key: "fauve",
+    label: "Félin & Lion sacré",
+    icon: "🦁",
+    keywords: ["lion", "lionne", "fauve", "panthère", "léopard", "tigre"]
+  },
+  {
+    key: "bovide",
+    label: "Taureau & Bovidé sacré",
+    icon: "🐂",
+    keywords: ["taureau", "bœuf", "vache", "zébu", "hathor", "veau", "bovidé", "bovidés"]
+  },
+  {
+    key: "equide",
+    label: "Cheval & Cavalier",
+    icon: "🐎",
+    keywords: ["cheval", "chevaux", "cavalier", "char", "attelage", "équidé", "jument", "poulain"]
+  },
+  {
+    key: "faune",
+    label: "Bestiaire & Faune",
+    icon: "🦌",
+    keywords: ["biche", "cerf", "faucon", "canard", "oiseau", "serpent", "bouquetin", "capridé", "bélier", "saluki", "chien", "lièvre", "poisson", "tortue", "animalier"]
+  },
+  {
+    key: "creature",
+    label: "Créature fabuleuse",
+    icon: "🦅",
+    keywords: ["sphinx", "griffon", "centaure", "sirène", "gorgone", "méduse", "chimère", "pégase", "monstre"]
+  },
+  {
+    key: "vase",
+    label: "Vase & Art du Banquet",
+    icon: "🏺",
+    keywords: ["vase", "cratère", "amphore", "coupe", "kylix", "rhyton", "dinos", "oenochoé", "œnochoé", "lécythe", "aryballe", "hydrie", "plat", "cruche", "askos", "pyxis", "symposion", "banquet", "libation"]
+  },
+  {
+    key: "guerrier",
+    label: "Guerrier & Armes",
+    icon: "⚔️",
+    keywords: ["guerrier", "hoplite", "archer", "mélophore", "soldat", "combattant", "casque", "bouclier", "épée", "cuirasse", "lance", "armure", "amazone", "combat"]
+  },
+  {
+    key: "statue_homme",
+    label: "Statue masculine / Kouros",
+    icon: "🗿",
+    keywords: ["kouros", "éphèbe", "athlète", "orant", "scribe", "dignitaire", "pharaon", "roi", "dieu", "buste d'homme", "zeus", "apollon", "poséidon", "hermès", "dionysos"]
+  },
+  {
+    key: "statue_femme",
+    label: "Statue féminine / Koré",
+    icon: "👸",
+    keywords: ["koré", "korai", "déesse", "dame", "femme", "reine", "danseuse", "pleureuse", "aphrodite", "vénus", "athéna", "artémis", "isis", "hathor", "maternité"]
+  },
+  {
+    key: "funeraire",
+    label: "Rites funéraires & Au-delà",
+    icon: "⚱️",
+    keywords: ["sarcophage", "tombe", "urne", "stèle", "cippe", "momie", "larnax", "canope", "plangon", "masque funéraire", "défunt", "épitaphe", "nécropole"]
+  },
+  {
+    key: "orfevrerie",
+    label: "Orfèvrerie & Parure royale",
+    icon: "💎",
+    keywords: ["collier", "pectoral", "diadème", "couronne", "bracelet", "torque", "bague", "boucle d'oreille", "or martelé", "bijou", "orfèvrerie", "trésor"]
+  },
+  {
+    key: "science",
+    label: "Science & Instruments",
+    icon: "⚙️",
+    keywords: ["anticythère", "astrolabe", "cadran", "mesure", "engrenages", "différentiel", "machine", "calcul", "horloge"]
+  }
+];
+
+function getArtworkSubjectTraits(art) {
+  if (!art) return [];
+  const textCorpus = [
+    art.title || '',
+    art.category || '',
+    art.artifactType || '',
+    (art.chips ? art.chips.join(' ') : ''),
+    art.narrative ? art.narrative.substring(0, 450) : ''
+  ].join(' ').toLowerCase();
+
+  const traits = [];
+  for (const item of ART_SUBJECT_TAXONOMY) {
+    if (item.keywords.some(kw => textCorpus.includes(kw))) {
+      traits.push(item);
+    }
+  }
+  return traits;
+}
+
+function calculateArtworkAffinity(artA, artB) {
+  if (!artA || !artB) return { affinityScore: 0, sharedLabel: '', sharedIcon: '✦' };
+
+  const traitsA = getArtworkSubjectTraits(artA);
+  const traitsB = getArtworkSubjectTraits(artB);
+
+  // Recherche de traits thématiques partagés
+  let matchTrait = null;
+  for (const tA of traitsA) {
+    const found = traitsB.find(tB => tB.key === tA.key);
+    if (found) {
+      matchTrait = found;
+      break;
+    }
+  }
+
+  let affinityScore = 0;
+  let sharedLabel = '';
+  let sharedIcon = '✦';
+
+  if (matchTrait) {
+    affinityScore += 120; // Fort bonus de sujet identique !
+    sharedLabel = matchTrait.label;
+    sharedIcon = matchTrait.icon;
+  } else {
+    // Si pas de sujet identique direct, on compare la typologie ou le domaine
+    const domA = (artA.domain || '').toLowerCase();
+    const domB = (artB.domain || '').toLowerCase();
+    const typeA = (artA.artifactType || artA.category || '').toLowerCase();
+    const typeB = (artB.artifactType || artB.category || '').toLowerCase();
+
+    if (typeA && typeA === typeB) {
+      affinityScore += 50;
+      sharedLabel = artA.artifactType || 'Typologie miroir';
+      sharedIcon = '🏛️';
+    } else if (domA && domA === domB) {
+      affinityScore += 25;
+      sharedLabel = artA.domain || 'Même discipline';
+      sharedIcon = '🎨';
+    }
+  }
+
+  // Bonus si civilisations distinctes (confrontation enrichissante)
+  if (getCivGroupKey(artA) !== getCivGroupKey(artB)) {
+    affinityScore += 20;
+  }
+
+  // Bonus si chef-d'oeuvre phare
+  if (artB.isHighlight) {
+    affinityScore += 10;
+  }
+
+  // Pénalité d'écart chronologique
+  const cA = Number(artA.centuryNumeric || 0);
+  const cB = Number(artB.centuryNumeric || 0);
+  const diffYears = Math.abs(cA - cB);
+  affinityScore -= Math.min(60, diffYears / 12);
+
+  return { affinityScore, sharedLabel, sharedIcon };
+}
+
+// --------------------------------------------------------------------------
+// 2. RECHERCHE ALGORITHMIQUE DES CONTEMPORAINS (SMART ECHO SYNCHRONE)
+// --------------------------------------------------------------------------
 function getContemporariesForArtwork(targetArt) {
   if (!targetArt || targetArt.centuryNumeric === undefined || targetArt.centuryNumeric === null) return [];
   const targetC = Number(targetArt.centuryNumeric);
@@ -1588,10 +1770,9 @@ function getContemporariesForArtwork(targetArt) {
   const targetGroup = getCivGroupKey(targetArt);
   const allArts = window.ART_OBJECTS || [];
 
-  // Fenêtre de contemporanéité adaptative selon la période
-  let baseSpan = 60;
+  let baseSpan = 70;
   if (targetC < -1000) baseSpan = 250;
-  else if (targetC < 500) baseSpan = 100;
+  else if (targetC < 500) baseSpan = 120;
 
   const spans = [baseSpan, Math.round(baseSpan * 1.8), Math.round(baseSpan * 2.8)];
   let byGroup = {};
@@ -1614,27 +1795,28 @@ function getContemporariesForArtwork(targetArt) {
       byGroup[g].push(c);
     }
 
-    // Si on a trouvé au moins 2 civilisations contemporaines, la sélection est satisfaisante
-    if (Object.keys(byGroup).length >= 2 || span === spans[spans.length - 1]) {
+    if (Object.keys(byGroup).length >= 3 || span === spans[spans.length - 1]) {
       break;
     }
   }
 
-  // Pour chaque civilisation distincte, sélectionner la meilleure représentante
-  // (proximité temporelle d'abord, avec bonus d'emblème isHighlight)
+  // Pour chaque civilisation distincte, sélectionner la meilleure représentante en valorisant l'affinité
   const selected = [];
   for (const g of Object.keys(byGroup)) {
     const arts = byGroup[g];
-    arts.sort((a, b) => {
-      const diffA = Math.abs(Number(a.centuryNumeric) - targetC) + (a.isHighlight ? -15 : 0);
-      const diffB = Math.abs(Number(b.centuryNumeric) - targetC) + (b.isHighlight ? -15 : 0);
-      return diffA - diffB;
+    arts.forEach(cand => {
+      const aff = calculateArtworkAffinity(targetArt, cand);
+      cand._affinityScore = aff.affinityScore;
+      cand._affinityLabel = aff.sharedLabel;
+      cand._affinityIcon = aff.sharedIcon;
     });
+
+    arts.sort((a, b) => (b._affinityScore || 0) - (a._affinityScore || 0));
     selected.push(arts[0]);
   }
 
-  // Trier par proximité temporelle croissante et limiter à 6 civilisations contemporaines
-  selected.sort((a, b) => Math.abs(Number(a.centuryNumeric) - targetC) - Math.abs(Number(b.centuryNumeric) - targetC));
+  // Trier les candidats finaux : ceux ayant le même sujet en tête !
+  selected.sort((a, b) => (b._affinityScore || 0) - (a._affinityScore || 0));
   return selected.slice(0, 6);
 }
 
@@ -1668,6 +1850,9 @@ function renderContemporaneousRibbon(currentArt) {
     const cleanCiv = (card.civName || 'Civilisation').replace(/"/g, '&quot;');
     const cleanCentury = (card.centuryDisplay || '').replace(/"/g, '&quot;');
     const cleanSite = (card.originSite || card.site || '').replace(/"/g, '&quot;');
+    const affinityBadge = card._affinityLabel
+      ? `<span class="sync-card-subject-pill" title="Même sujet ou typologie">${card._affinityIcon || '✦'} ${card._affinityLabel}</span>`
+      : '';
 
     return `
       <div class="sync-card" data-card-id="${card.id}" role="button" tabindex="0" title="Découvrir cette œuvre contemporaine : ${cleanTitle}">
@@ -1682,6 +1867,7 @@ function renderContemporaneousRibbon(currentArt) {
           </div>
           <div class="sync-card-title">${cleanTitle}</div>
           <div class="sync-card-site">${cleanSite}</div>
+          ${affinityBadge}
           <button type="button" class="btn-sync-compare" data-compare-id="${card.id}" title="Comparer cette œuvre en Face-à-Face">
             ⚖️ Face-à-Face
           </button>
@@ -1692,7 +1878,6 @@ function renderContemporaneousRibbon(currentArt) {
 
   // Clic sur une carte contemporaine : navigation fluide avec historique
   modalSyncRibbon.querySelectorAll('.sync-card').forEach(cardEl => {
-    // Bouton de comparaison Face-à-Face direct
     const btnComp = cardEl.querySelector('.btn-sync-compare');
     if (btnComp) {
       btnComp.addEventListener('click', (e) => {
@@ -1716,7 +1901,6 @@ function renderContemporaneousRibbon(currentArt) {
       }
     });
 
-    // Support accessibilité clavier (Entrée / Espace)
     cardEl.addEventListener('keydown', (e) => {
       if (e.key === 'Enter' || e.key === ' ') {
         e.preventDefault();
@@ -1726,14 +1910,16 @@ function renderContemporaneousRibbon(currentArt) {
   });
 }
 
-/* ==========================================================================
-   MODULE COMPARATEUR DE CHEFS-D'ŒUVRE (TABLE LUMINEUSE EN FACE-À-FACE)
-   ========================================================================== */
+// --------------------------------------------------------------------------
+// 3. TABLE LUMINEUSE DU CONSERVATEUR (FACE-À-FACE COMPARATIF AVANCÉ)
+// --------------------------------------------------------------------------
 const comparatorModal = document.getElementById('comparator-modal');
 const btnComparatorClose = document.getElementById('btn-comparator-close');
 const compSubtitle = document.getElementById('comparator-subtitle');
 const compDividerEmblem = document.getElementById('comp-divider-emblem');
 const compSwitcherRibbon = document.getElementById('comp-switcher-ribbon');
+const btnCompFilterSubject = document.getElementById('btn-comp-filter-subject');
+const btnCompFilterAll = document.getElementById('btn-comp-filter-all');
 
 const compLeftImg = document.getElementById('comp-left-img');
 const compLeftCiv = document.getElementById('comp-left-civ');
@@ -1756,6 +1942,7 @@ const btnCompViewRight = document.getElementById('btn-comp-view-right');
 let currentCompArtA = null;
 let currentCompArtB = null;
 let currentCompCandidates = [];
+let currentCompFilterMode = 'subject'; // 'subject' | 'all'
 
 function extractCleanExcerpt(narrative) {
   if (!narrative) return '';
@@ -1769,13 +1956,36 @@ function extractCleanExcerpt(narrative) {
 }
 
 function openComparator(artA, artB, contemporariesList = []) {
-  if (!comparatorModal || !artA || !artB) return;
+  if (!comparatorModal || !artA) return;
 
   currentCompArtA = artA;
-  currentCompArtB = artB;
-  currentCompCandidates = contemporariesList.length > 0 ? contemporariesList : [artB];
+  
+  // Si aucune liste de contemporains fournie, la recalculer dynamiquement
+  let pool = contemporariesList.length > 0 ? [...contemporariesList] : getContemporariesForArtwork(artA);
+  if (pool.length === 0 && artB) pool = [artB];
+  
+  // Garantir le calcul d'affinité pour tous les candidats
+  pool.forEach(c => {
+    if (c._affinityScore === undefined) {
+      const aff = calculateArtworkAffinity(artA, c);
+      c._affinityScore = aff.affinityScore;
+      c._affinityLabel = aff.sharedLabel;
+      c._affinityIcon = aff.sharedIcon;
+    }
+  });
 
-  // Remplir le panneau gauche (Œuvre A)
+  currentCompCandidates = pool;
+  currentCompFilterMode = 'subject';
+
+  // Si artB n'est pas spécifié ou s'il s'agit de artA, choisir la meilleure correspondance de sujet
+  if (!artB || artB.id === artA.id) {
+    const sorted = [...pool].sort((a, b) => (b._affinityScore || 0) - (a._affinityScore || 0));
+    currentCompArtB = sorted[0] || pool[0];
+  } else {
+    currentCompArtB = artB;
+  }
+
+  // Panneau gauche (Œuvre A)
   if (compLeftImg) {
     compLeftImg.src = artA.imgSrc;
     compLeftImg.alt = artA.title || '';
@@ -1787,11 +1997,13 @@ function openComparator(artA, artB, contemporariesList = []) {
   if (compLeftCat) compLeftCat.textContent = artA.category || artA.artifactType || 'Chef-d\'œuvre';
   if (compLeftExcerpt) compLeftExcerpt.textContent = extractCleanExcerpt(artA.narrative);
 
-  // Mettre à jour le panneau droit (Œuvre B)
-  renderComparatorRightPanel(artB);
+  // Panneau droit (Œuvre B)
+  if (currentCompArtB) {
+    renderComparatorRightPanel(currentCompArtB);
+  }
 
-  // Remplir le ruban de commutation inférieur
-  renderComparatorSwitcher();
+  // Switcher inférieur
+  renderComparatorSwitcher(currentCompFilterMode);
 
   comparatorModal.hidden = false;
 }
@@ -1810,7 +2022,7 @@ function renderComparatorRightPanel(artB) {
   if (compRightCat) compRightCat.textContent = artB.category || artB.artifactType || 'Chef-d\'œuvre';
   if (compRightExcerpt) compRightExcerpt.textContent = extractCleanExcerpt(artB.narrative);
 
-  // Calcul du différentiel chronologique central
+  // Différentiel chronologique
   if (compDividerEmblem && currentCompArtA) {
     const diff = Math.abs(Number(artB.centuryNumeric || 0) - Number(currentCompArtA.centuryNumeric || 0));
     if (diff === 0) {
@@ -1823,10 +2035,12 @@ function renderComparatorRightPanel(artB) {
   }
 
   if (compSubtitle && currentCompArtA) {
-    compSubtitle.textContent = `Confrontation directe : ${currentCompArtA.civName || 'Civilisation A'} vs ${artB.civName || 'Civilisation B'}`;
+    const aff = calculateArtworkAffinity(currentCompArtA, artB);
+    const subjectMention = aff.sharedLabel ? ` • [ ${aff.sharedIcon} ${aff.sharedLabel} ]` : '';
+    compSubtitle.textContent = `${currentCompArtA.civName || 'Civilisation A'} vs ${artB.civName || 'Civilisation B'}${subjectMention}`;
   }
 
-  // Mettre à jour l'état actif dans le switcher
+  // Mise à jour de l'état actif dans le ruban switcher
   if (compSwitcherRibbon) {
     compSwitcherRibbon.querySelectorAll('.comp-switcher-thumb').forEach(btn => {
       const bId = btn.getAttribute('data-comp-id');
@@ -1836,15 +2050,29 @@ function renderComparatorRightPanel(artB) {
   }
 }
 
-function renderComparatorSwitcher() {
+function renderComparatorSwitcher(mode = 'subject') {
   if (!compSwitcherRibbon) return;
 
-  compSwitcherRibbon.innerHTML = currentCompCandidates.map(c => {
+  currentCompFilterMode = mode;
+  if (btnCompFilterSubject) btnCompFilterSubject.classList.toggle('is-active', mode === 'subject');
+  if (btnCompFilterAll) btnCompFilterAll.classList.toggle('is-active', mode === 'all');
+
+  const list = [...currentCompCandidates];
+  if (mode === 'subject') {
+    list.sort((a, b) => (b._affinityScore || 0) - (a._affinityScore || 0));
+  } else {
+    const targetC = Number(currentCompArtA ? currentCompArtA.centuryNumeric : 0);
+    list.sort((a, b) => Math.abs(Number(a.centuryNumeric) - targetC) - Math.abs(Number(b.centuryNumeric) - targetC));
+  }
+
+  compSwitcherRibbon.innerHTML = list.map(c => {
     const isActive = currentCompArtB && c.id === currentCompArtB.id;
+    const tag = c._affinityLabel ? `<span class="comp-switcher-affinity-tag">${c._affinityIcon || '✦'} ${escapeHtmlAttr(c._affinityLabel)}</span>` : '';
     return `
       <button type="button" class="comp-switcher-thumb ${isActive ? 'is-active' : ''}" data-comp-id="${c.id}" title="Comparer avec : ${escapeHtmlAttr(c.title)}">
         <img src="${c.imgSrc}" alt="" />
         <span>${escapeHtmlAttr(c.civName || 'Autre')}</span>
+        ${tag}
       </button>
     `;
   }).join('');
@@ -1858,6 +2086,18 @@ function renderComparatorSwitcher() {
         renderComparatorRightPanel(targetArt);
       }
     });
+  });
+}
+
+if (btnCompFilterSubject) {
+  btnCompFilterSubject.addEventListener('click', () => {
+    renderComparatorSwitcher('subject');
+  });
+}
+
+if (btnCompFilterAll) {
+  btnCompFilterAll.addEventListener('click', () => {
+    renderComparatorSwitcher('all');
   });
 }
 
@@ -1899,6 +2139,437 @@ window.addEventListener('keydown', (e) => {
     closeComparator();
   }
 });
+
+// --------------------------------------------------------------------------
+// 4. L'ŒIL DE L'ARCHÉOLOGUE : LE SAVIEZ-VOUS ? / DÉTAIL INSOLITE & SECRETS
+// --------------------------------------------------------------------------
+function getArchaeologicalInsight(art) {
+  if (!art) return null;
+  if (art.archaeoFact) return art.archaeoFact;
+
+  const narrative = art.narrative || '';
+  if (!narrative) return null;
+
+  const cleanText = narrative.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+  const sentences = cleanText.replace(/([.!?])\s+/g, "$1|SPLIT|").split("|SPLIT|");
+
+  const keywords = [
+    'découvert', 'fouille', 'pêcheur', 'épave', 'délos', 'marathon', 'anticythère',
+    'sounion', 'suse', 'inscription', 'alphabet', 'boustrophédon', 'glaçure', 'brique',
+    'marbre de', 'cire perdue', 'yeux incrustés', 'polychromie', 'alliage', 'engrenages',
+    'différentiel', 'cuisson', 'or martelé', 'analyse', 'restauration', 'plus ancienne',
+    'tombe', 'mastaba', 'sanctuaire', 'enfoui', 'orfèvrerie', 'chryséléphantin'
+  ];
+
+  const scored = [];
+  sentences.forEach(s => {
+    const low = s.toLowerCase();
+    if (s.length < 35 || s.length > 340) return;
+    let score = 0;
+    keywords.forEach(kw => {
+      if (low.includes(kw)) score += 5;
+    });
+    if (score > 0) {
+      scored.push({ score, text: s });
+    }
+  });
+
+  if (scored.length === 0) return null;
+  scored.sort((a, b) => b.score - a.score);
+
+  let chosen = scored[0].text;
+  const termsToHighlight = [
+    'marbre de Naxos', 'cire perdue', 'alphabet naxien', 'boustrophédon',
+    'glaçure silicocarbonatée', 'cycle de Saros', 'engrenages différentiels',
+    'baie de Marathon', 'île de Délos', 'île d\'Anticythère', 'cap Sounion',
+    'relief en creux', 'yeux incrustés', 'polychromie', 'Théophile Homolle',
+    'Jacques de Morgan', 'épave', 'premier ordinateur analogique', 'or martelé',
+    'courbe praxitélienne', 'xoanon', 'style dédalique'
+  ];
+
+  termsToHighlight.forEach(term => {
+    const reg = new RegExp(`(${term})`, 'gi');
+    chosen = chosen.replace(reg, '<strong class="archaeo-highlight">$1</strong>');
+  });
+
+  return chosen;
+}
+
+function renderArchaeologicalInsight(art) {
+  const card = document.getElementById('modal-archaeo-card');
+  const body = document.getElementById('modal-archaeo-content');
+  if (!card || !body) return;
+
+  const fact = getArchaeologicalInsight(art);
+  if (fact) {
+    body.innerHTML = fact;
+    card.style.display = 'block';
+  } else {
+    card.style.display = 'none';
+    body.innerHTML = '';
+  }
+}
+
+// --------------------------------------------------------------------------
+// 5. ATLAS MONDIAL DES CHEFS-D'ŒUVRE : DOUBLE GÉOLOCALISATION & TRAJECTOIRE
+// --------------------------------------------------------------------------
+const GEO_GAZETTEER_SITES = {
+  "suse": { name: "Suse", region: "Susiane / Élam (Iran)", coords: [32.1895, 48.2433] },
+  "persépolis": { name: "Persépolis", region: "Fars (Iran)", coords: [29.9355, 52.8914] },
+  "pasargades": { name: "Pasargades", region: "Fars (Iran)", coords: [30.1984, 53.1793] },
+  "babylone": { name: "Babylone", region: "Mésopotamie (Irak)", coords: [32.5422, 44.4211] },
+  "khorsabad": { name: "Khorsabad (Dur-Sharrukin)", region: "Assyrie (Irak)", coords: [36.5097, 43.2294] },
+  "ninive": { name: "Ninive", region: "Assyrie (Irak)", coords: [36.3589, 43.1528] },
+  "nimrud": { name: "Nimrud", region: "Assyrie (Irak)", coords: [36.0994, 43.3278] },
+  "mari": { name: "Mari", region: "Moyenne vallée de l'Euphrate (Syrie)", coords: [34.5492, 40.8872] },
+  "ur": { name: "Ur", region: "Basse-Mésopotamie (Irak)", coords: [30.9628, 46.1031] },
+  "uruk": { name: "Uruk", region: "Basse-Mésopotamie (Irak)", coords: [31.3222, 45.2792] },
+  "délos": { name: "Île de Délos", region: "Cyclades (Grèce)", coords: [37.3994, 25.2713] },
+  "delos": { name: "Île de Délos", region: "Cyclades (Grèce)", coords: [37.3994, 25.2713] },
+  "sounion": { name: "Cap Sounion", region: "Attique (Grèce)", coords: [37.6502, 24.0245] },
+  "marathon": { name: "Baie de Marathon", region: "Attique (Grèce)", coords: [38.1542, 23.9622] },
+  "anticythère": { name: "Île d'Anticythère", region: "Mer Égée (Grèce)", coords: [35.8647, 23.3039] },
+  "athènes": { name: "Athènes", region: "Attique (Grèce)", coords: [37.9715, 23.7266] },
+  "athenes": { name: "Athènes", region: "Attique (Grèce)", coords: [37.9715, 23.7266] },
+  "delphes": { name: "Delphes", region: "Phocide (Grèce)", coords: [38.4824, 22.5010] },
+  "olympie": { name: "Olympie", region: "Péloponnèse (Grèce)", coords: [37.6384, 21.6300] },
+  "mycènes": { name: "Mycènes", region: "Argolide (Grèce)", coords: [37.7308, 22.7561] },
+  "mycene": { name: "Mycènes", region: "Argolide (Grèce)", coords: [37.7308, 22.7561] },
+  "épidaure": { name: "Épidaure", region: "Argolide (Grèce)", coords: [37.5960, 23.0792] },
+  "corinthe": { name: "Corinthe", region: "Corinthie (Grèce)", coords: [37.9056, 22.8797] },
+  "sparte": { name: "Sparte", region: "Laconie (Grèce)", coords: [37.0755, 22.4303] },
+  "naxos": { name: "Naxos", region: "Cyclades (Grèce)", coords: [37.1042, 25.3764] },
+  "paros": { name: "Paros", region: "Cyclades (Grèce)", coords: [37.0856, 25.1489] },
+  "santorin": { name: "Akrotiri (Santorin)", region: "Cyclades (Grèce)", coords: [36.3514, 25.4036] },
+  "akrotiri": { name: "Akrotiri (Santorin)", region: "Cyclades (Grèce)", coords: [36.3514, 25.4036] },
+  "cnossos": { name: "Cnossos", region: "Crète", coords: [35.2979, 25.1632] },
+  "crète": { name: "Crète minoenne", region: "Mer Égée", coords: [35.2979, 25.1632] },
+  "crete": { name: "Crète minoenne", region: "Mer Égée", coords: [35.2979, 25.1632] },
+  "héraklion": { name: "Héraklion", region: "Crète", coords: [35.3392, 25.1374] },
+  "rhodes": { name: "Rhodes", region: "Dodécanèse (Grèce)", coords: [36.4349, 28.2175] },
+  "saqqarah": { name: "Saqqarah", region: "Nécropole memphite (Égypte)", coords: [29.8713, 31.2165] },
+  "memphis": { name: "Memphis", region: "Basse-Égypte", coords: [29.8499, 31.2550] },
+  "gizeh": { name: "Plateau de Gizeh", region: "Basse-Égypte", coords: [29.9792, 31.1342] },
+  "thèbes": { name: "Thèbes-Ouest / Louxor", region: "Haute-Égypte", coords: [25.7402, 32.6014] },
+  "thebes": { name: "Thèbes-Ouest / Louxor", region: "Haute-Égypte", coords: [25.7402, 32.6014] },
+  "louxor": { name: "Louxor (Karnak)", region: "Haute-Égypte", coords: [25.6995, 32.6396] },
+  "karnak": { name: "Karnak", region: "Haute-Égypte", coords: [25.7188, 32.6573] },
+  "amarna": { name: "Amarna (Akhetaton)", region: "Moyenne-Égypte", coords: [27.6456, 30.9000] },
+  "tanis": { name: "Tanis", region: "Delta du Nil (Égypte)", coords: [30.9767, 31.8800] },
+  "alexandrie": { name: "Alexandrie", region: "Égypte gréco-romaine", coords: [31.1786, 29.8931] },
+  "assouan": { name: "Assouan (Syène)", region: "Première cataracte (Égypte)", coords: [24.0889, 32.8998]},
+  "philæ": { name: "Philæ / Agilkia", region: "Haute-Égypte", coords: [24.0250, 32.8842] },
+  "philae": { name: "Philæ / Agilkia", region: "Haute-Égypte", coords: [24.0250, 32.8842] },
+  "abou simbel": { name: "Abou Simbel", region: "Nubie (Égypte)", coords: [22.3372, 31.6258] },
+  "dendérah": { name: "Dendérah", region: "Haute-Égypte", coords: [26.1422, 32.6700] },
+  "kôm ombo": { name: "Kôm Ombo", region: "Haute-Égypte", coords: [24.4522, 32.9283] },
+  "edfou": { name: "Edfou", region: "Haute-Égypte", coords: [24.9781, 32.8736] },
+  "tarquinia": { name: "Tarquinia (Monterozzi)", region: "Étrurie méridionale (Italie)", coords: [42.2472, 11.7708] },
+  "cerveteri": { name: "Cerveteri (Caere)", region: "Étrurie méridionale (Italie)", coords: [42.0039, 12.0950] },
+  "vulci": { name: "Vulci", region: "Étrurie (Italie)", coords: [42.4172, 11.6306] },
+  "véies": { name: "Véies", region: "Étrurie (Italie)", coords: [42.0236, 12.4019] },
+  "chiusi": { name: "Chiusi", region: "Étrurie centrale (Italie)", coords: [43.0150, 11.9472] },
+  "rome": { name: "Rome antique", region: "Latium (Italie)", coords: [41.8902, 12.4922] },
+  "pompéi": { name: "Pompéi", region: "Campanie (Italie)", coords: [40.7508, 14.4869] },
+  "herculanum": { name: "Herculanum", region: "Campanie (Italie)", coords: [40.8061, 14.3486] },
+  "agrigente": { name: "Agrigente", region: "Sicile (Grande-Grèce)", coords: [37.2903, 13.5858] },
+  "syracuse": { name: "Syracuse", region: "Sicile (Grande-Grèce)", coords: [37.0755, 15.2866] },
+  "paestum": { name: "Paestum", region: "Campanie (Italie)", coords: [40.4194, 15.0056] },
+  "aléria": { name: "Aléria (Fort de Matra)", region: "Haute-Corse", coords: [42.1044, 9.5126] },
+  "aleria": { name: "Aléria (Fort de Matra)", region: "Haute-Corse", coords: [42.1044, 9.5126] },
+  "filitosa": { name: "Filitosa", region: "Corse-du-Sud", coords: [41.7486, 8.8719] },
+  "cordoue": { name: "Cordoue", region: "Al-Andalus (Espagne)", coords: [37.8794, -4.7794] },
+  "madinat al-zahra": { name: "Madinat al-Zahra", region: "Al-Andalus (Espagne)", coords: [37.8864, -4.8672] },
+  "séville": { name: "Séville", region: "Al-Andalus (Espagne)", coords: [37.3891, -5.9845]},
+  "kairouan": { name: "Kairouan", region: "Ifriqiya (Tunisie)", coords: [35.6781, 10.0963] },
+  "raqqada": { name: "Raqqada", region: "Ifriqiya (Tunisie)", coords: [35.6173, 10.0578] },
+  "monastir": { name: "Monastir (Ribat)", region: "Sahel tunisien", coords: [35.7761, 10.8328] },
+  "carthage": { name: "Carthage", region: "Tunisie antique", coords: [36.8528, 10.3233] },
+  "elche": { name: "Elche (La Alcudia)", region: "Ibérie (Espagne)", coords: [38.2372, -0.6978] },
+  "baza": { name: "Baza (Basti)", region: "Ibérie (Espagne)", coords: [37.4908, -2.7731] },
+  "empúries": { name: "Empúries / Ampurias", region: "Catalogne (Espagne)", coords: [42.1333, 3.1200] },
+  "chypre": { name: "Chypre (Enkomi / Kition)", region: "Méditerranée orientale", coords: [35.1667, 33.8833] },
+  "vix": { name: "Vix", region: "Bourgogne (France)", coords: [47.9056, 4.5389] },
+  "tintignac": { name: "Sanctuaire de Tintignac", region: "Gaule / Limousin (France)", coords: [45.3333, 1.9333] }
+};
+
+const GEO_GAZETTEER_MUSEUMS = {
+  "louvre": { name: "Musée du Louvre", city: "Paris, France", coords: [48.8606, 2.3376] },
+  "athènes": { name: "Musée national archéologique d'Athènes", city: "Athènes, Grèce", coords: [37.9890, 23.7327] },
+  "athenes": { name: "Musée national archéologique d'Athènes", city: "Athènes, Grèce", coords: [37.9890, 23.7327] },
+  "acropole": { name: "Musée de l'Acropole", city: "Athènes, Grèce", coords: [37.9684, 23.7285] },
+  "caire": { name: "Musée égyptien du Caire", city: "Le Caire, Égypte", coords: [30.0478, 31.2336] },
+  "british": { name: "British Museum", city: "Londres, Royaume-Uni", coords: [51.5194, -0.1270] },
+  "madrid": { name: "Museo Arqueológico Nacional (MAN)", city: "Madrid, Espagne", coords: [40.4233, -3.6888] },
+  "cordoue": { name: "Musée archéologique de Cordoue", city: "Cordoue, Espagne", coords: [37.8822, -4.7778] },
+  "rome": { name: "Musée national étrusque de la Villa Giulia", city: "Rome, Italie", coords: [41.9183, 12.4777] },
+  "aléria": { name: "Musée archéologique Jérôme Carcopino (Fort de Matra)", city: "Aléria, Haute-Corse", coords: [42.1044, 9.5126] },
+  "aleria": { name: "Musée archéologique Jérôme Carcopino (Fort de Matra)", city: "Aléria, Haute-Corse", coords: [42.1044, 9.5126] },
+  "bardo": { name: "Musée national du Bardo", city: "Tunis, Tunisie", coords: [36.8092, 10.1344] },
+  "raqqada": { name: "Musée des arts islamiques de Raqqada", city: "Kairouan, Tunisie", coords: [35.6173, 10.0578] },
+  "monastir": { name: "Musée des arts islamiques du Ribat de Monastir", city: "Monastir, Tunisie", coords: [35.7761, 10.8328] },
+  "héraklion": { name: "Musée archéologique d'Héraklion", city: "Héraklion, Crète", coords: [35.3392, 25.1374] },
+  "corinthe": { name: "Musée archéologique de l'Ancienne Corinthe", city: "Corinthe, Grèce", coords: [37.9056, 22.8797] },
+  "delphes": { name: "Musée archéologique de Delphes", city: "Delphes, Grèce", coords: [38.4824, 22.5010] },
+  "tarquinia": { name: "Musée archéologique national de Tarquinia", city: "Tarquinia, Italie", coords: [42.2536, 11.7584] },
+  "agrigente": { name: "Musée archéologique d'Agrigente", city: "Agrigente, Sicile", coords: [37.3106, 13.5858] }
+};
+
+function calculateHaversineDistanceKm(lat1, lon1, lat2, lon2) {
+  const R = 6371;
+  const dLat = (lat2 - lat1) * Math.PI / 180;
+  const dLon = (lon2 - lon1) * Math.PI / 180;
+  const a =
+    Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+    Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+    Math.sin(dLon / 2) * Math.sin(dLon / 2);
+  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+  return Math.round(R * c);
+}
+
+function createCurvedTrajectory(lat1, lon1, lat2, lon2, numPoints = 50) {
+  const points = [];
+  const midLat = (lat1 + lat2) / 2;
+  const midLon = (lon1 + lon2) / 2;
+  const dLon = lon2 - lon1;
+  const dLat = lat2 - lat1;
+  const len = Math.sqrt(dLat * dLat + dLon * dLon);
+  const curvature = Math.min(len * 0.15, 6);
+  const offsetLat = midLat + curvature;
+
+  for (let i = 0; i <= numPoints; i++) {
+    const t = i / numPoints;
+    const lat = (1 - t) * (1 - t) * lat1 + 2 * (1 - t) * t * offsetLat + t * t * lat2;
+    const lon = (1 - t) * (1 - t) * lon1 + 2 * (1 - t) * t * midLon + t * t * lon2;
+    points.push([lat, lon]);
+  }
+  return points;
+}
+
+function resolveArtworkGeoJourney(art) {
+  if (!art) return null;
+
+  const rawOrigin = (art.originSite || art.site || '').toLowerCase();
+  const rawHaven = (art.currentLocation || art.site || '').toLowerCase();
+  const rawCiv = (art.civId || '').toLowerCase();
+
+  // 1. Berceau Antique
+  let originGeo = null;
+  for (const [key, siteData] of Object.entries(GEO_GAZETTEER_SITES)) {
+    if (rawOrigin.includes(key)) {
+      originGeo = siteData;
+      break;
+    }
+  }
+
+  if (!originGeo) {
+    if (rawCiv.startsWith('egypte')) {
+      originGeo = { name: art.originSite || 'Égypte antique', region: 'Vallée du Nil', coords: [26.1850, 31.9189] };
+    } else if (rawCiv.startsWith('grece')) {
+      originGeo = { name: art.originSite || 'Grèce antique', region: 'Mer Égée', coords: [37.9715, 23.7266] };
+    } else if (rawCiv.startsWith('etrusque') || rawCiv.startsWith('italie')) {
+      originGeo = { name: art.originSite || 'Étrurie', region: 'Italie centrale', coords: [42.2472, 11.7708] };
+    } else if (rawCiv.startsWith('iran') || rawCiv.startsWith('perse') || rawCiv.startsWith('elam')) {
+      originGeo = { name: art.originSite || 'Perse / Élam', region: 'Plateau iranien', coords: [32.1895, 48.2433] };
+    } else if (rawCiv.startsWith('islam')) {
+      originGeo = { name: art.originSite || 'Al-Andalus / Ifriqiya', region: 'Méditerranée occidentale', coords: [37.8794, -4.7794] };
+    } else if (rawCiv.startsWith('ibere')) {
+      originGeo = { name: art.originSite || 'Ibérie antique', region: 'Péninsule ibérique', coords: [38.2372, -0.6978] };
+    } else if (rawCiv.startsWith('celte') || rawCiv.startsWith('gaule')) {
+      originGeo = { name: art.originSite || 'Gaule celtique', region: 'Europe occidentale', coords: [47.0, 3.5] };
+    } else if (rawCiv.startsWith('chypre')) {
+      originGeo = { name: art.originSite || 'Chypre', region: 'Méditerranée orientale', coords: [35.1667, 33.8833] };
+    } else {
+      originGeo = { name: art.originSite || art.site || 'Lieu d\'origine', region: art.civName || 'Méditerranée', coords: [37.0, 20.0] };
+    }
+  }
+
+  // 2. Havre Actuel
+  let havenGeo = null;
+  const isInSitu = rawHaven.startsWith('in situ') || rawHaven.includes('in situ');
+
+  if (isInSitu) {
+    havenGeo = {
+      name: art.currentLocation || originGeo.name,
+      city: 'In Situ (Sanctuaire ou site archéologique originel)',
+      coords: [originGeo.coords[0], originGeo.coords[1]]
+    };
+  } else {
+    for (const [key, musData] of Object.entries(GEO_GAZETTEER_MUSEUMS)) {
+      if (rawHaven.includes(key)) {
+        havenGeo = musData;
+        break;
+      }
+    }
+    if (!havenGeo) {
+      if (rawHaven.includes('louvre') || rawHaven.includes('paris')) {
+        havenGeo = GEO_GAZETTEER_MUSEUMS['louvre'];
+      } else if (rawHaven.includes('athènes') || rawHaven.includes('athenes')) {
+        havenGeo = GEO_GAZETTEER_MUSEUMS['athènes'];
+      } else if (rawHaven.includes('caire')) {
+        havenGeo = GEO_GAZETTEER_MUSEUMS['caire'];
+      } else if (rawHaven.includes('londres') || rawHaven.includes('british')) {
+        havenGeo = GEO_GAZETTEER_MUSEUMS['british'];
+      } else if (rawHaven.includes('madrid') || rawHaven.includes('man')) {
+        havenGeo = GEO_GAZETTEER_MUSEUMS['madrid'];
+      } else if (rawHaven.includes('rome') || rawHaven.includes('giulia')) {
+        havenGeo = GEO_GAZETTEER_MUSEUMS['rome'];
+      } else if (rawHaven.includes('tunis') || rawHaven.includes('bardo')) {
+        havenGeo = GEO_GAZETTEER_MUSEUMS['bardo'];
+      } else if (rawHaven.includes('aléria') || rawHaven.includes('matra')) {
+        havenGeo = GEO_GAZETTEER_MUSEUMS['aléria'];
+      } else if (rawHaven.includes('cordoue')) {
+        havenGeo = GEO_GAZETTEER_MUSEUMS['cordoue'];
+      } else {
+        havenGeo = {
+          name: art.currentLocation || art.site || 'Collection muséale',
+          city: 'Conservation contemporaine',
+          coords: [48.8606, 2.3376]
+        };
+      }
+    }
+  }
+
+  const distanceKm = isInSitu ? 0 : calculateHaversineDistanceKm(
+    originGeo.coords[0], originGeo.coords[1],
+    havenGeo.coords[0], havenGeo.coords[1]
+  );
+
+  return { originGeo, havenGeo, distanceKm, isInSitu };
+}
+
+let atlasMapInstance = null;
+
+function openAtlasModal(art) {
+  if (!art) return;
+  const journey = resolveArtworkGeoJourney(art);
+  if (!journey) return;
+
+  const atlasModal = document.getElementById('atlas-modal');
+  const atlasHeadline = document.getElementById('atlas-modal-headline');
+  const atlasOriginName = document.getElementById('atlas-origin-name');
+  const atlasOriginCoords = document.getElementById('atlas-origin-coords');
+  const atlasDistanceChip = document.getElementById('atlas-distance-chip');
+  const atlasTrajectoryLabel = document.getElementById('atlas-trajectory-label');
+  const atlasHavenName = document.getElementById('atlas-haven-name');
+  const atlasHavenCoords = document.getElementById('atlas-haven-coords');
+  const atlasHistoryText = document.getElementById('atlas-history-text');
+
+  if (!atlasModal) return;
+
+  if (atlasHeadline) atlasHeadline.textContent = art.title || 'Odyssée de l\'œuvre';
+  if (atlasOriginName) atlasOriginName.textContent = journey.originGeo.name;
+  if (atlasOriginCoords) {
+    atlasOriginCoords.textContent = `${journey.originGeo.region} • ${journey.originGeo.coords[0].toFixed(2)}°N, ${journey.originGeo.coords[1].toFixed(2)}°E`;
+  }
+
+  if (atlasHavenName) atlasHavenName.textContent = journey.havenGeo.name;
+  if (atlasHavenCoords) {
+    atlasHavenCoords.textContent = `${journey.havenGeo.city} • ${journey.havenGeo.coords[0].toFixed(2)}°N, ${journey.havenGeo.coords[1].toFixed(2)}°E`;
+  }
+
+  if (journey.isInSitu) {
+    if (atlasDistanceChip) atlasDistanceChip.textContent = '0 km (In Situ)';
+    if (atlasTrajectoryLabel) atlasTrajectoryLabel.textContent = 'Conservé in situ depuis l\'Antiquité';
+    if (atlasHistoryText) {
+      atlasHistoryText.innerHTML = `Cette œuvre exceptionnelle demeure préservée <strong>in situ</strong> dans son berceau originel de <em>${escapeHtmlAttr(journey.originGeo.name)}</em> (${escapeHtmlAttr(journey.originGeo.region)}). Elle n'a subi aucun déplacement à travers les siècles.`;
+    }
+  } else {
+    if (atlasDistanceChip) atlasDistanceChip.textContent = `~${journey.distanceKm.toLocaleString('fr-FR')} km`;
+    if (atlasTrajectoryLabel) atlasTrajectoryLabel.textContent = 'Trajectoire historique franchie';
+    if (atlasHistoryText) {
+      atlasHistoryText.innerHTML = `Créée ou mise au jour à <strong>${escapeHtmlAttr(journey.originGeo.name)}</strong> (${escapeHtmlAttr(journey.originGeo.region)}), cette œuvre a parcouru environ <strong>${journey.distanceKm.toLocaleString('fr-FR')} kilomètres</strong> à travers la Méditerranée et le continent pour rejoindre les collections de <strong>${escapeHtmlAttr(journey.havenGeo.name)}</strong> à ${escapeHtmlAttr(journey.havenGeo.city)}.`;
+    }
+  }
+
+  atlasModal.hidden = false;
+
+  // Initialisation ou actualisation de la carte Leaflet
+  const mapContainer = document.getElementById('atlas-leaflet-map');
+  if (mapContainer && window.L) {
+    if (atlasMapInstance) {
+      atlasMapInstance.remove();
+      atlasMapInstance = null;
+    }
+
+    atlasMapInstance = L.map('atlas-leaflet-map', {
+      zoomControl: true,
+      attributionControl: false
+    });
+
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+      maxZoom: 18
+    }).addTo(atlasMapInstance);
+
+    const originIcon = L.divIcon({
+      className: 'custom-leaflet-pin',
+      html: '<div class="leaflet-antique-pin" title="Berceau d\'origine">🏛️</div>',
+      iconSize: [32, 32],
+      iconAnchor: [16, 16]
+    });
+
+    const mOrigin = L.marker(journey.originGeo.coords, { icon: originIcon }).addTo(atlasMapInstance);
+    mOrigin.bindPopup(`<strong>🏛️ Berceau antique : ${escapeHtmlAttr(journey.originGeo.name)}</strong><br><small>${escapeHtmlAttr(journey.originGeo.region)}</small>`);
+
+    if (!journey.isInSitu) {
+      const havenIcon = L.divIcon({
+        className: 'custom-leaflet-pin',
+        html: '<div class="leaflet-haven-pin" title="Lieu de conservation">🏛️</div>',
+        iconSize: [32, 32],
+        iconAnchor: [16, 16]
+      });
+
+      const mHaven = L.marker(journey.havenGeo.coords, { icon: havenIcon }).addTo(atlasMapInstance);
+      mHaven.bindPopup(`<strong>🏛️ Havre actuel : ${escapeHtmlAttr(journey.havenGeo.name)}</strong><br><small>${escapeHtmlAttr(journey.havenGeo.city)}</small>`);
+
+      const arcPoints = createCurvedTrajectory(
+        journey.originGeo.coords[0], journey.originGeo.coords[1],
+        journey.havenGeo.coords[0], journey.havenGeo.coords[1]
+      );
+
+      L.polyline(arcPoints, {
+        color: '#d4af37',
+        weight: 3.5,
+        opacity: 0.9,
+        dashArray: '8, 8'
+      }).addTo(atlasMapInstance);
+
+      const bounds = L.latLngBounds([journey.originGeo.coords, journey.havenGeo.coords]);
+      atlasMapInstance.fitBounds(bounds, { padding: [50, 50], maxZoom: 8 });
+    } else {
+      atlasMapInstance.setView(journey.originGeo.coords, 10);
+    }
+
+    setTimeout(() => {
+      if (atlasMapInstance) atlasMapInstance.invalidateSize();
+    }, 200);
+  }
+}
+
+function closeAtlasModal() {
+  const atlasModal = document.getElementById('atlas-modal');
+  if (atlasModal) atlasModal.hidden = true;
+}
+
+const btnAtlasClose = document.getElementById('btn-atlas-close');
+if (btnAtlasClose) {
+  btnAtlasClose.addEventListener('click', closeAtlasModal);
+}
+
+const atlasBackdrop = document.getElementById('atlas-modal-backdrop');
+if (atlasBackdrop) {
+  atlasBackdrop.addEventListener('click', closeAtlasModal);
+}
+
+window.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') {
+    const atlasModal = document.getElementById('atlas-modal');
+    if (atlasModal && !atlasModal.hidden) {
+      closeAtlasModal();
+    }
+  }
+});
+
 
 /* ==========================================================================
    TAXONOMIE OFFICIELLE DU MUSÉE & MOTEUR EN CASCADE
@@ -2117,69 +2788,12 @@ const TAXONOMY_DOMAINS = {
 };
 
 /* ==========================================================================
-   INITIALISATION DU MOTEUR EN CASCADE & PARCOURS THÉMATIQUES
+   INITIALISATION DU MOTEUR EN CASCADE
    ========================================================================== */
 let currentRenderLimit = 60;
 const PAGE_CHUNK = 60;
 
-// Référentiel des Parcours Thématiques transversaux
-let activeThematicTrail = 'all';
-
-const THEMATIC_TRAILS = {
-  "bestiaire": {
-    name: "Bestiaire Sacré",
-    keywords: ["lion", "taureau", "zébu", "cheval", "saluki", "chien", "cerf", "biche", "faucon", "oiseau", "canard", "tortue", "capridé", "bouquetin", "serpent", "sphinx", "griffon", "chat", "animal", "animaux", "animalier", "faune"]
-  },
-  "banquet": {
-    name: "Art du Banquet",
-    keywords: ["banquet", "symposion", "cratère", "dinos", "coupe", "kylix", "rhyton", "vin", "libation", "échanson", "lécythe", "oenochoé", "œnochoé", "cruche", "askos"]
-  },
-  "pouvoir": {
-    name: "Fastes & Pouvoir",
-    keywords: ["roi", "pharaon", "calife", "apadana", "darius", "cyrus", "hisham", "archer", "mélophore", "candys", "sceptre", "couronne", "stèle", "charte", "palais", "garde", "impérial", "empereur", "trône"]
-  },
-  "guerriers": {
-    name: "Mythes & Guerriers",
-    keywords: ["guerrier", "hoplite", "amazone", "épée", "lance", "bouclier", "casque", "combat", "héroïque", "apollon", "héraclès", "athéna", "mythologique", "centaure", "armure"]
-  },
-  "au_dela": {
-    name: "Rites de l'Au-delà",
-    keywords: ["sarcophage", "tombe", "funéraire", "urne", "cippe", "osiris", "anubis", "défunt", "épitaphe", "masque", "plangon", "nécropole", "momie", "larnax", "canope"]
-  },
-  "argile": {
-    name: "Argile & Céramique",
-    keywords: ["céramique", "terre cuite", "glaçure", "émail", "brique", "vase", "jarre", "plat", "aryballe", "figures noires", "figures rouges", "peinte", "poterie"]
-  },
-  "metaux": {
-    name: "Métaux & Orfèvrerie",
-    keywords: ["bronze", "or", "argent", "cuivre", "chryséléphantin", "métallurgie", "nielle", "verre", "bijou", "astrolabe", "orfèvrerie", "dépôt"]
-  }
-};
-
-function initThematicTrails() {
-  const container = document.getElementById('thematic-trails-chips');
-  if (!container) return;
-
-  container.querySelectorAll('.btn-trail-chip').forEach(btn => {
-    btn.addEventListener('click', (e) => {
-      e.stopPropagation();
-      const trail = btn.getAttribute('data-trail') || 'all';
-      activeThematicTrail = trail;
-
-      container.querySelectorAll('.btn-trail-chip').forEach(b => {
-        if (b === btn) b.classList.add('is-active');
-        else b.classList.remove('is-active');
-      });
-
-      // Si une recherche textuelle était active, on la conserve ou réinitialise
-      currentRenderLimit = PAGE_CHUNK;
-      renderSearchGallery();
-    });
-  });
-}
-
 function initSearchEngine() {
-  initThematicTrails();
 
   const filterCiv = document.getElementById('filter-civ');
   const filterPeriod = document.getElementById('filter-period');
@@ -2804,14 +3418,6 @@ function initSearchEngine() {
   if (btnReset) {
     btnReset.addEventListener('click', () => {
       activeChipExactFilter = '';
-      activeThematicTrail = 'all';
-      const trailChips = document.getElementById('thematic-trails-chips');
-      if (trailChips) {
-        trailChips.querySelectorAll('.btn-trail-chip').forEach(b => {
-          if (b.getAttribute('data-trail') === 'all') b.classList.add('is-active');
-          else b.classList.remove('is-active');
-        });
-      }
       if (artistHero) artistHero.hidden = true;
       if (corpusDashboard) corpusDashboard.hidden = true;
       if (corpusSourceDrawer) corpusSourceDrawer.hidden = true;
@@ -3019,20 +3625,6 @@ function renderSearchGallery() {
     if (isArtistView && activeArtistName) {
       const itemArtist = (item.artist || '').toLowerCase().trim();
       if (itemArtist !== activeArtistName) return false;
-    }
-
-    // 0. Filtre Parcours Thématique Transversal
-    if (activeThematicTrail !== 'all' && THEMATIC_TRAILS[activeThematicTrail]) {
-      const trailKeywords = THEMATIC_TRAILS[activeThematicTrail].keywords;
-      const haystack = (
-        (item.title || '') + ' ' +
-        (item.category || '') + ' ' +
-        (item.artifactType || '') + ' ' +
-        (item.chips ? item.chips.join(' ') : '') + ' ' +
-        (item.narrative || '')
-      ).toLowerCase();
-      const matchesTrail = trailKeywords.some(kw => haystack.includes(kw));
-      if (!matchesTrail) return false;
     }
 
     // 1. Filtre Civilisation (compatible civId "egypte_ancien" et civId "egypte")
