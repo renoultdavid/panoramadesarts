@@ -125,7 +125,7 @@ const mDesc = document.getElementById('milestone-desc');
 /* RÈGLE GRADUÉE MULTI-ÉCHELLES ADAPTATIVE (STYLE GÉOLOGIQUE / KURZGESAGT) */
 function renderRulerScale() {
   if (!rulerTrack) return;
-  rulerTrack.innerHTML = '';
+  const frag = document.createDocumentFragment();
 
   let step = 50;
   let majorStep = 1000;
@@ -164,16 +164,18 @@ function renderRulerScale() {
     const tick = document.createElement('div');
     tick.className = `ruler-tick ${isMajor ? 'major' : (isMedium ? 'medium' : 'minor')}`;
     tick.style.left = `${yearToPixel(y)}px`;
-    rulerTrack.appendChild(tick);
+    frag.appendChild(tick);
 
     if (isMajor || (isMedium && timelineZoom >= 1.1) || (showDecades && y % 10 === 0 && timelineZoom >= 4.5)) {
       const label = document.createElement('div');
       label.className = `ruler-label ${isMajor ? 'major-label' : (y % 10 === 0 && !isMedium ? 'decade-label' : '')}`;
       label.style.left = `${yearToPixel(y)}px`;
       label.textContent = y < 0 ? `${y}` : (y === 0 ? "1" : `+${y}`);
-      rulerTrack.appendChild(label);
+      frag.appendChild(label);
     }
   }
+
+  rulerTrack.replaceChildren(frag);
 }
 
 // Initialisation des repères historiques sur la règle
@@ -1542,6 +1544,32 @@ function buildTimelineBlocks() {
   });
 }
 
+function updateStickyBlockTitles() {
+  CIVILISATIONS_REGISTRY.forEach((civ) => {
+    if (!civ._blockEl) return;
+    const titleEl = civ._blockEl.querySelector('.civ-block-title');
+    if (!titleEl) return;
+
+    const visibleStart = Math.max(civ.yearStart, YEAR_MIN);
+    const visibleEnd = Math.min(civ.yearEnd, YEAR_MAX);
+    const x1 = yearToPixel(visibleStart);
+    const x2 = yearToPixel(visibleEnd);
+    const blockWidth = Math.max(x2 - x1, 40);
+
+    // Position relative au bord visible gauche de la vue (0 = bord des libellés)
+    const blockScreenLeft = x1 + curRibbonX;
+    if (blockScreenLeft < 0) {
+      const hiddenPart = Math.abs(blockScreenLeft);
+      const titleW = titleEl.offsetWidth || 140;
+      const maxShift = Math.max(0, blockWidth - titleW - 16);
+      const shift = Math.min(hiddenPart + 10, maxShift);
+      titleEl.style.transform = `translateX(${shift}px)`;
+    } else {
+      titleEl.style.transform = 'translateX(0px)';
+    }
+  });
+}
+
 function updateTimelineLayout() {
   const totalW = getRibbonWidth();
   if (masterRibbon) masterRibbon.style.width = `${totalW}px`;
@@ -1570,6 +1598,8 @@ function updateTimelineLayout() {
   if (masterRibbon) masterRibbon.style.transform = `translateX(${curRibbonX}px)`;
   if (rulerTrack) rulerTrack.style.transform = `translateX(${curRibbonX}px)`;
   if (rulerEventsLayer) rulerEventsLayer.style.transform = `translateX(${curRibbonX}px)`;
+
+  updateStickyBlockTitles();
 
   const zoomBadge = document.getElementById('timeline-zoom-level');
   if (zoomBadge) {
@@ -1968,6 +1998,7 @@ window.addEventListener('mousemove', (e) => {
   masterRibbon.style.transform = `translateX(${curRibbonX}px)`;
   rulerTrack.style.transform = `translateX(${curRibbonX}px)`;
   rulerEventsLayer.style.transform = `translateX(${curRibbonX}px)`;
+  updateStickyBlockTitles();
 });
 
 window.addEventListener('mouseup', () => {
@@ -2022,6 +2053,7 @@ window.addEventListener('touchmove', (e) => {
   masterRibbon.style.transform = `translateX(${curRibbonX}px)`;
   rulerTrack.style.transform = `translateX(${curRibbonX}px)`;
   rulerEventsLayer.style.transform = `translateX(${curRibbonX}px)`;
+  updateStickyBlockTitles();
   updateSynchronousState(touchX);
 }, { passive: true });
 
@@ -2118,6 +2150,7 @@ if (masterTimelineBar) {
       masterRibbon.style.transform = `translateX(${curRibbonX}px)`;
       rulerTrack.style.transform = `translateX(${curRibbonX}px)`;
       rulerEventsLayer.style.transform = `translateX(${curRibbonX}px)`;
+      updateStickyBlockTitles();
       updateSynchronousState(e.clientX);
     } else {
       // Zoom temporel continu centré sur la position exacte de la souris
