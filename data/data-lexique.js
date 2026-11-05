@@ -4,6 +4,49 @@
 
 // 1. Définitions exactes des sous-catégories (Formes / Typologies du filtre et badges des cartes)
 window.ART_TYPOLOGY_DEFINITIONS = {
+  // --- MÉGALITHISME & ARCHITECTURE NÉOLITHIQUE ---
+  "Alignement mégalithique": {
+    title: "Alignement mégalithique",
+    etymology: "Du français alignement, « disposition en ligne droite »",
+    domain: "Mégalithisme monumental",
+    def: "Ensemble spectaculaire de menhirs disposés en files parallèles rectilignes ou convergentes (ex. Alignements de Carnac : Ménec, Kermario, Kerlescan), orientés selon les levers et couchers solaires et lunaires, liés à des rituels communautaires et processions solennelles."
+  },
+  "Allée couverte": {
+    title: "Allée couverte",
+    etymology: "Architecture mégalithique de la fin du Néolithique",
+    domain: "Mégalithisme & Sépultures collectives",
+    def: "Variante évoluée de dolmen allongé où le couloir et la chambre funéraire ne forment qu'une seule et même galerie continue de largeur constante, bordée d'orthostates et recouverte de dalles transversales successives (ex. Ty-ar-Boudiged à Poullan-sur-Mer, Kerbalannec)."
+  },
+  "Cromlech / Enceinte mégalithique": {
+    title: "Cromlech / Enceinte mégalithique",
+    etymology: "Du gallois crom (« courbe ») et llech (« pierre plate »)",
+    domain: "Mégalithisme & Enceintes sacrées",
+    def: "Enceinte sacrée circulaire, elliptique ou en fer à cheval formée de menhirs dressés espacés, délimitant un espace de rassemblement cultuel ou fermant l'extrémité d'un grand ensemble d'alignements (ex. Cromlechs de Kerbourgnec, de Kergonan, du Ménec)."
+  },
+  "Dolmen (à couloir, simple, coudé)": {
+    title: "Dolmen (à couloir, simple, coudé)",
+    etymology: "Du breton taol (« table ») et maen (« pierre »)",
+    domain: "Mégalithisme & Architecture funéraire néolithique",
+    def: "Monument mégalithique funéraire constitué d'une ou plusieurs grandes dalles de couverture horizontales (tables) reposant sur des piliers verticaux (orthostates), abritant une chambre funéraire collective protégée à l'origine par un cairn de pierres ou un tumulus de terre (ex. Mané Rethual, Crucuno, Mane Groh)."
+  },
+  "Menhir / Monolithe dressé": {
+    title: "Menhir / Monolithe dressé",
+    etymology: "Du breton maen (« pierre ») et hir (« longue »)",
+    domain: "Mégalithisme & Cultes solaires néolithiques",
+    def: "Pierre brute ou régularisée dressée verticalement de plein air, pouvant atteindre des dimensions monumentales (ex. Grand Menhir brisé d'Er Grah de plus de 20 mètres et 280 tonnes), marquant un repère territorial sacré, astronomique ou funéraire."
+  },
+  "Statue-menhir anthropomorphe": {
+    title: "Statue-menhir anthropomorphe",
+    etymology: "Sculpture mégalithique figurant la personne humaine",
+    domain: "Statuaire mégalithique armée",
+    def: "Monolithe de pierre sculpté en bas-relief ou en ronde-bosse figurant un être humain stylisé avec ses attributs anatomiques (visage, seins, côtes) et culturels majeurs (ceintures, baudriers, poignards, longues épées gravées) caractéristique du Néolithique final et du Bronze corse (Filitosa, Cauria)."
+  },
+  "Tumulus & Cairn": {
+    title: "Tumulus & Cairn",
+    etymology: "Du latin tumulus (« tertre ») et du gaélique cairn (« amas de pierres »)",
+    domain: "Architecture funéraire monumentale",
+    def: "Monumental massif de protection édifié au-dessus d'une ou plusieurs sépultures mégalithiques : en pierraille sèche pour le cairn (ex. Barnenez, Gavrinis, Petit Mont) ou en limon, argile et mottes d'herbe pour le tumulus (ex. Tumulus Saint-Michel, Mané Lud)."
+  },
   // --- ARTS FUNÉRAIRES & MOMIFICATION ---
   "Chambre funéraire / Hypogée": {
     title: "Chambre funéraire & Hypogée",

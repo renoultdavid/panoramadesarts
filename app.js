@@ -5178,6 +5178,18 @@ const TAXONOMY_CIVILISATIONS = {
 
 // 2. Référentiel des domaines techniques et typologies d'artefacts
 const TAXONOMY_DOMAINS = {
+  "megalithes": {
+    label: "Mégalithisme & Architecture de pierre",
+    types: [
+      "Alignement mégalithique",
+      "Allée couverte",
+      "Cromlech / Enceinte mégalithique",
+      "Dolmen (à couloir, simple, coudé)",
+      "Menhir / Monolithe dressé",
+      "Statue-menhir anthropomorphe",
+      "Tumulus & Cairn"
+    ]
+  },
   "funeraire": {
     label: "Arts funéraires & Momification",
     types: [
@@ -5187,7 +5199,8 @@ const TAXONOMY_DOMAINS = {
       "Mobilier & Ensemble funéraire", "Monument / Tombeau rupestre",
       "Papyrus funéraire / Livre des Morts", "Portrait du Fayoum", "Pyramidion",
       "Sarcophage & Momie animale", "Sarcophage humain (cuve, bois, pierre)",
-      "Stèle funéraire", "Table d'offrandes", "Urne cinéraire"
+      "Stèle funéraire", "Table d'offrandes", "Urne cinéraire",
+      "Allée couverte", "Dolmen (à couloir, simple, coudé)", "Tumulus & Cairn"
     ]
   },
   "ceramique": {
@@ -5240,7 +5253,8 @@ const TAXONOMY_DOMAINS = {
       "Monolithe / Stèle sculptée",
       "Sculpture monumentale / Cuve de libation",
       "Sculpture monumentale extérieure (fontaine, calvaire, moaï)",
-      "Statuaire animale & gardienne (ronde-bosse)", "Statuaire privée & portraits", "Statuaire royale & divine (ronde-bosse)"
+      "Statuaire animale & gardienne (ronde-bosse)", "Statuaire privée & portraits", "Statuaire royale & divine (ronde-bosse)",
+      "Alignement mégalithique", "Cromlech / Enceinte mégalithique", "Menhir / Monolithe dressé", "Statue-menhir anthropomorphe"
     ]
   },
   "vie_quotidienne": {
@@ -6131,16 +6145,36 @@ function renderSearchGallery() {
 
     // 3. Filtre Domaine technique
     if (selectedDomain !== 'all') {
-      if (item.domain) {
-        if (item.domain !== selectedDomain) return false;
-      } else {
-        // Déduction de secours pour les fiches non encore migrées
-        const cat = (item.category || '').toLowerCase();
-        if (selectedDomain === 'ceramique' && !cat.includes('céramique') && !cat.includes('vase')) return false;
-        if (selectedDomain === 'sculpture_statuaire' && !cat.includes('statue') && !cat.includes('sculpture') && !cat.includes('bas-relief') && !cat.includes('relief')) return false;
-        if (selectedDomain === 'funeraire' && !cat.includes('funéraire') && !cat.includes('canope') && !cat.includes('larnax') && !cat.includes('momie')) return false;
-        if (selectedDomain === 'peinture_mosaique' && !cat.includes('peinture') && !cat.includes('fresque')) return false;
-        if (selectedDomain === 'parures_metaux' && !cat.includes('orfèvrerie') && !cat.includes('métallurgie') && !cat.includes('dépôt')) return false;
+      const d = item.domain || '';
+      const cat = (item.category || '').toLowerCase();
+      const aType = (item.artifactType || '').toLowerCase();
+      const tit = (item.title || '').toLowerCase();
+      const fullText = `${d} ${aType} ${cat} ${tit}`;
+
+      if (selectedDomain === 'megalithes') {
+        const isMega = d === 'megalithes' || fullText.includes('mégalith') || fullText.includes('megalith') ||
+                       fullText.includes('dolmen') || fullText.includes('menhir') || fullText.includes('allée couverte') ||
+                       fullText.includes('cairn') || fullText.includes('tumulus') || fullText.includes('cromlech') ||
+                       fullText.includes('statue-menhir') || fullText.includes('statues-menhirs');
+        if (!isMega) return false;
+      } else if (selectedDomain === 'funeraire') {
+        const isFun = d === 'funeraire' || fullText.includes('funéraire') || fullText.includes('canope') ||
+                      fullText.includes('larnax') || fullText.includes('momie') || fullText.includes('dolmen') ||
+                      fullText.includes('allée couverte') || fullText.includes('tumulus');
+        if (!isFun) return false;
+      } else if (selectedDomain === 'sculpture_statuaire') {
+        const isSculpt = d === 'sculpture_statuaire' || d === 'sculpture' || fullText.includes('statue') ||
+                         fullText.includes('sculpture') || fullText.includes('bas-relief') || fullText.includes('relief') ||
+                         fullText.includes('menhir') || fullText.includes('alignement') || fullText.includes('cromlech');
+        if (!isSculpt) return false;
+      } else if (selectedDomain === 'ceramique') {
+        if (d !== 'ceramique' && !fullText.includes('céramique') && !fullText.includes('vase')) return false;
+      } else if (selectedDomain === 'peinture_mosaique') {
+        if (d !== 'peinture_mosaique' && !fullText.includes('peinture') && !fullText.includes('fresque') && !fullText.includes('mosaïque')) return false;
+      } else if (selectedDomain === 'parures_metaux') {
+        if (d !== 'parures_metaux' && !fullText.includes('orfèvrerie') && !fullText.includes('métallurgie') && !fullText.includes('dépôt')) return false;
+      } else if (d) {
+        if (d !== selectedDomain) return false;
       }
     }
 
@@ -6150,10 +6184,32 @@ function renderSearchGallery() {
       const aType = (item.artifactType || '').toLowerCase();
       const cat = (item.category || '').toLowerCase();
       const tit = (item.title || '').toLowerCase();
-      const matchDirect = aType.includes(target) || cat.includes(target) || tit.includes(target);
-      const matchAlab = (target === 'alabatre' || target === 'alabastre') &&
-        (aType.includes('alabatre') || aType.includes('alabastre') || tit.includes('alabastre') || tit.includes('alabastron'));
-      if (!matchDirect && !matchAlab) return false;
+      const full = `${aType} ${cat} ${tit}`;
+
+      let matched = full.includes(target);
+
+      // Correspondances intelligentes pour les mégalithes et variantes
+      if (!matched) {
+        if (target.includes('dolmen')) {
+          matched = full.includes('dolmen');
+        } else if (target.includes('allée couverte') || target.includes('allee couverte')) {
+          matched = full.includes('allée couverte') || full.includes('allee couverte');
+        } else if (target.includes('statue-menhir')) {
+          matched = full.includes('statue-menhir') || full.includes('statues-menhir') || full.includes('stèle anthropomorphe');
+        } else if (target.includes('menhir') || target.includes('monolithe')) {
+          matched = (full.includes('menhir') || full.includes('monolithe')) && !full.includes('statue-menhir') && !full.includes('statues-menhir');
+        } else if (target.includes('alignement')) {
+          matched = full.includes('alignement');
+        } else if (target.includes('cromlech') || target.includes('enceinte')) {
+          matched = full.includes('cromlech') || full.includes('enceinte');
+        } else if (target.includes('tumulus') || target.includes('cairn')) {
+          matched = full.includes('tumulus') || full.includes('cairn');
+        } else if (target === 'alabatre' || target === 'alabastre') {
+          matched = full.includes('alabatre') || full.includes('alabastre') || full.includes('alabastron');
+        }
+      }
+
+      if (!matched) return false;
     }
 
     // 5. Filtrage transversal par mouvement, étiquette (chip) ou recherche libre
