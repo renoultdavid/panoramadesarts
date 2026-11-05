@@ -974,7 +974,18 @@ const BANNERS_REGISTRY = {
   lycie: "https://lh3.googleusercontent.com/pw/AP1GczOSDHpfs-aXc-32YYneUloHM7JJFb5Fr4n5ZtObpNtFbDVvAWbRRGMeDI45FFxXeKCEowEanB_YMa3RQdS93USduNM7AZJaqBWGu58hhf_Z0klXcBCwP5tIbeKJIKq_atja6Ciuxj9pJO9MZHmNJBMQAA=w1584-h672-s-no-gm?authuser=0",
 
   // 9. Europe néolithique & Mégalithes
-  megalithes: "https://lh3.googleusercontent.com/pw/AP1GczOPZxgO0NSmkk1GKgZtGd21P_8NTwRRHu9ffq5GfChlC7wZjNREn50Fotqv_BGDnTMqMWU8NxqCbFR8QJ2GU6SOPSPfwDJZmpvFTmDe14u6j_hw7xis6iVC8owFonwP9rZOxRsLzenhaKjad11EVADCrg=w1584-h672-s-no-gm?authuser=0" 
+  megalithes: "https://lh3.googleusercontent.com/pw/AP1GczOPZxgO0NSmkk1GKgZtGd21P_8NTwRRHu9ffq5GfChlC7wZjNREn50Fotqv_BGDnTMqMWU8NxqCbFR8QJ2GU6SOPSPfwDJZmpvFTmDe14u6j_hw7xis6iVC8owFonwP9rZOxRsLzenhaKjad11EVADCrg=w1584-h672-s-no-gm?authuser=0",
+
+  // 10. Mésopotamie
+  meso_uruk: "https://lh3.googleusercontent.com/pw/AP1GczNn5yufMibVHwCA5voRnqhW48ZLtg7MFpquJeBreKa4XupcFgWACWcgi2p8vLenxpZ5Xs4v2bqrbL3XWFNMJG4jXgnvsfoIpIjO0C7V2qC0sZpMdmBdp3ZIzPgGEtkuaaekaZhrLLwfGO5WfJB0hy1bpA=w1584-h672-s-no-gm?authuser=0",
+  meso_dyn_archaiques: "https://lh3.googleusercontent.com/pw/AP1GczN8zmvAt34HoJOkcyHAjCCYwrhd4E_fmWd2rvFcEp7HCkZ6PlMKnfnizigqH-K6rAV3FAAV9wniLOzywmv-iZ9lzx2S_etahBjJZz48w9GtpYDWU14efs2e9CUknKvVlyMav1Y6_WwQ67W2aGrezPAWmw=w1759-h745-s-no-gm?authuser=0",
+  meso_akkad: "https://lh3.googleusercontent.com/pw/AP1GczPPJ_vUweMFqjnObabImK3gp87JM1gUkEXgceHjP8iyEHbi7ZNgGDXvdbcl6KJVArXkRRnLJjHrMMhiShVbcDZOEct1w9kCJdSiVot1j_bI1gRittYvIigf2rlddA9n2xlLfQQFcDz4ldissVDYpi-6jg=w1759-h745-s-no-gm?authuser=0",
+  meso_neo_sumer: "https://lh3.googleusercontent.com/pw/AP1GczN_SHpYpFT4zjKx-2y9YbzVPX__z-OIm5bY_R3zbkFy6iepa6lJcyrMFmzLn6271Scqb7b29fS0Vd50BjVemOpQlXktzYLNWh167UwHErKnZHD0s45Mld36PZwS7-thRPNactIZEXwh5_8J90XDFxrYEA=w1759-h745-s-no-gm?authuser=0",
+  meso_babylone: "https://lh3.googleusercontent.com/pw/AP1GczOzmQeFc6a46xy8xdwvZ_C246EnJgw76i06pBGZe6qGp1nj9ZaFsBxBJawOLRi4UyzR8ZXuK-CihELZpyl9pe2RCpxrF8p0LPiV6IkTvsKgJEJB02KbnRmR1W3V4Y_8DPhvp7HF8CSUhiAvhJlYdacULQ=w1759-h745-s-no-gm?authuser=0",
+  meso_assyrie: "https://lh3.googleusercontent.com/pw/AP1GczM9SPg7-oVPTBHclm8m2gEpJjlR9qfDGUvS0zXzoElJspULRPae_YvV3-kLzzr4yRztpVtvML3Hq8_O4oOrU1dJ8C8nwcK_5pdAUzuIdUbL16ntFFuq6TBv3793-8HTq4Mj5AuJNLdAbuXCUYsNsdDWxw=w1759-h745-s-no-gm?authuser=0",
+
+  // 11. Levant précéramique (Aïn Ghazal)
+  neolithique_levant: "https://lh3.googleusercontent.com/pw/AP1GczOPeZnIjY1C_Ki0DMKfpQaJoWa5Pg3TN-8M-qpC0M7INEfxpxdpcxWPCV--j-uRbxgHXNfcouGgrv58GpF0U7mP-Ia5QDUOcC3b29pP9U-5v6Pq-klVbUxIEtN0FKR81eCz6mx2CTti_XH9pzbsuebc1Q=w1759-h745-s-no-gm?authuser=0" 
 };
 
 function getArtworkBanner(art) {
@@ -1083,9 +1094,25 @@ function getArtworkBanner(art) {
     return BANNERS_REGISTRY.levant;
   }
 
-  // 9. EUROPE NÉOLITHIQUE & MÉGALITHES
-  if (pId === 'neolithique_megalithes' || fullText.includes('mégalithe') || fullText.includes('megalithe') || fullText.includes('dolmen') || fullText.includes('tumulus') || fullText.includes('cairn') || fullText.includes('néolithique') || fullText.includes('neolithique')) {
+  // 9. NÉOLITHIQUE PRÉCÉRAMIQUE DU LEVANT (AÏN GHAZAL)
+  if (pId === 'neolithique_levant' || fullText.includes('aïn ghazal') || fullText.includes('ain ghazal') || fullText.includes('plâtre de chaux') || fullText.includes('ppnb')) {
+    return BANNERS_REGISTRY.neolithique_levant;
+  }
+
+  // 10. EUROPE NÉOLITHIQUE & MÉGALITHES
+  if (pId === 'neolithique_megalithes' || fullText.includes('mégalithe') || fullText.includes('megalithe') || fullText.includes('dolmen') || fullText.includes('tumulus') || fullText.includes('cairn') || fullText.includes('ty-ar-boudiged') || fullText.includes('allée couverte')) {
     return BANNERS_REGISTRY.megalithes;
+  }
+
+  // 11. MÉSOPOTAMIE
+  if (cId === 'mesopotamie' || cId.startsWith('meso') || pId.startsWith('meso_')) {
+    if (pId === 'meso_uruk') return BANNERS_REGISTRY.meso_uruk;
+    if (pId === 'meso_dyn_archaiques') return BANNERS_REGISTRY.meso_dyn_archaiques;
+    if (pId === 'meso_akkad') return BANNERS_REGISTRY.meso_akkad;
+    if (pId === 'meso_neo_sumer') return BANNERS_REGISTRY.meso_neo_sumer;
+    if (pId === 'meso_paleo_babylone' || pId === 'meso_neo_babylone') return BANNERS_REGISTRY.meso_babylone;
+    if (pId === 'meso_assyrie') return BANNERS_REGISTRY.meso_assyrie;
+    return BANNERS_REGISTRY.meso_uruk;
   }
 
   // 7. Si l'objet a déjà son propre bandeau spécifique personnalisé (ex: Égypte, Canaries, Chypre, Celte)
@@ -2125,6 +2152,247 @@ const CIVILISATIONS_REGISTRY = [
       { label: "🏺 Céramiques & Carreaux d'Iznik", url: "" },
       { label: "🖋️ Calligraphie & Tughras impériaux", url: "" },
       { label: "🏛️ Architecture de Mimar Sinan", url: "" }
+    ],
+    artifacts: []
+  },
+  // --- MÉSOPOTAMIE (7 Périodes Fondatrices sur lane: "mesopotamie") ---
+  {
+    id: "meso_uruk",
+    name: "Mésopotamie : Période d'Uruk",
+    epoch: "v. -4000 à -3100 av. J.-C.",
+    yearStart: -4000,
+    yearEnd: -3100,
+    lane: "mesopotamie",
+    themeColor: "#e0a96d",
+    sidePos: "pos-left",
+    travelingOrigin: "56.5% 45.2%",
+    haloId: "halo-meso-uruk",
+    bannerImg: BANNERS_REGISTRY.meso_uruk,
+    mapOverlayUrl: "",
+    albumUrl: "https://photos.google.com",
+    presentationHtml: `
+      <p><strong>L'aube de la civilisation urbaine et l'invention de l'écriture</strong><br>
+      Au IVe millénaire avant notre ère, la cité d'Uruk dans le sud de la Mésopotamie opère une révolution fondamentale dans l'histoire humaine. L'art de cette période est marqué par l'apparition de l'architecture monumentale sacrée (district de l'Eanna), des mosaïques de cônes en terre cuite polychromes et la première grande statuaire en ronde-bosse figurant le roi-prêtre (en-si).</p>
+      <p>C'est également à Uruk que naissent les sceaux-cylindres et les premières tablettes d'argile portant des pictogrammes comptables, matrice de l'écriture cunéiforme. L'iconographie met en valeur le lien sacré entre le souverain nourricier, le troupeau sacré et la déesse Inanna.</p>
+    `,
+    concurrentHtml: `
+      <p><strong>Contexte contemporain au IVe millénaire av. J.-C.</strong></p>
+      <p>Tandis qu'Uruk invente l'urbanisme et l'écriture en Basse-Mésopotamie, l'Égypte prédynastique de Nagada I-II forge ses premières palettes à fard cérémonielles.<br>
+      En Europe occidentale, les premières sociétés agropastorales commencent à ériger les tertres et menhirs néolithiques.</p>
+    `,
+    themeAlbums: [
+      { label: "👑 Le Roi-Prêtre d'Uruk", url: "" },
+      { label: "📜 Naissance de l'écriture cunéiforme", url: "" }
+    ],
+    artifacts: []
+  },
+  {
+    id: "meso_dyn_archaiques",
+    name: "Mésopotamie : Dynasties Archaïques (Sumer)",
+    epoch: "v. -2900 à -2340 av. J.-C.",
+    yearStart: -2900,
+    yearEnd: -2340,
+    lane: "mesopotamie",
+    themeColor: "#cba135",
+    sidePos: "pos-left",
+    travelingOrigin: "56.8% 45.5%",
+    haloId: "halo-meso-dyn-archaiques",
+    bannerImg: BANNERS_REGISTRY.meso_dyn_archaiques,
+    mapOverlayUrl: "",
+    albumUrl: "https://photos.google.com",
+    presentationHtml: `
+      <p><strong>L'apogée des cités-États sumériennes et la dévotion des orants</strong><br>
+      Au IIIe millénaire av. J.-C., les cités-États rivales de Sumer (Ur, Lagash, Umma, Kish, Mari) développent une culture artistique d'une extraordinaire richesse. La statuaire votive est caractérisée par les orants vêtus du kaunakès (jupe à mèches de laine stylisées), les yeux immenses incrustés de nacre et de lapis-lazuli tendus vers la divinité.</p>
+      <p>Les maîtres sumériens excellent dans l'art du bas-relief narratif (Stèle des Vautours du roi Eannatum célébrant la victoire de Lagash) et l'orfèvrerie funéraire somptueuse des Tombes Royales d'Ur. Les cônes d'argile et briques inscrites pérennisent les fondations pieuses des sanctuaires et les premières réformes sociales de l'histoire (Uruinimgina).</p>
+    `,
+    concurrentHtml: `
+      <p><strong>Le monde au IIIe millénaire av. J.-C.</strong></p>
+      <p>Pendant que les rois sumériens consacrent leurs orants dans les temples, l'Ancien Empire égyptien élève les pyramides colossales de Gizeh sous Khéops et Khéphren.<br>
+      Dans les Cyclades, les marbres blancs purs sculptent de géométriques idoles féminines aux bras croisés.</p>
+    `,
+    themeAlbums: [
+      { label: "🙏 Statuaire des Orants au Kaunakès", url: "" },
+      { label: "🦅 La Stèle des Vautours & Reliefs de Lagash", url: "" }
+    ],
+    artifacts: []
+  },
+  {
+    id: "meso_akkad",
+    name: "Mésopotamie : Empire d'Akkad",
+    epoch: "v. -2340 à -2150 av. J.-C.",
+    yearStart: -2340,
+    yearEnd: -2150,
+    lane: "mesopotamie",
+    themeColor: "#c05c46",
+    sidePos: "pos-left",
+    travelingOrigin: "56.2% 45.0%",
+    haloId: "halo-meso-akkad",
+    bannerImg: BANNERS_REGISTRY.meso_akkad,
+    mapOverlayUrl: "",
+    albumUrl: "https://photos.google.com",
+    presentationHtml: `
+      <p><strong>Le premier empire universel et la glorification héroïque du souverain</strong><br>
+      Fondé par Sargon le Grand, l'Empire sémite d'Akkad unifie pour la première fois toute la Mésopotamie sous une même autorité politique impériale. Cette mutation historique révolutionne l'art mésopotamien en rompant avec la hiératique statuaire sumérienne pour instaurer un réalisme dynamique, anatomique et monumental.</p>
+      <p>Le chef-d'œuvre incontesté de l'art akkadien est la Stèle de Victoire de Naram-Sin, où le petit-fils de Sargon se fait déifier de son vivant, arborant la tiare à cornes divine et gravissant victorieusement une montagne escarpée vers les astres. Le travail du bronze (masque royal de Ninive) et la gravure miniaturiste sur sceaux-cylindres atteignent une perfection plastique inégalée.</p>
+    `,
+    concurrentHtml: `
+      <p><strong>Parallèles contemporains</strong></p>
+      <p>Au moment où Naram-Sin fait sculpter sa stèle triomphale, l'Égypte traverse les crises de transition de la fin de la VIe dynastie avant la Première Période Intermédiaire.<br>
+      Dans la vallée de l'Indus, la civilisation de Mohenjo-Daro et Harappa déploie son urbanisme orthonormé.</p>
+    `,
+    themeAlbums: [
+      { label: "⛰️ Stèle de Victoire de Naram-Sin", url: "" },
+      { label: "🗡️ Art impérial & sceaux d'Akkad", url: "" }
+    ],
+    artifacts: []
+  },
+  {
+    id: "meso_neo_sumer",
+    name: "Mésopotamie : Renaissance néo-sumérienne (Ur III & Gudea)",
+    epoch: "v. -2150 à -2000 av. J.-C.",
+    yearStart: -2150,
+    yearEnd: -2000,
+    lane: "mesopotamie",
+    themeColor: "#4a7c59",
+    sidePos: "pos-left",
+    travelingOrigin: "56.9% 45.8%",
+    haloId: "halo-meso-neo-sumer",
+    bannerImg: BANNERS_REGISTRY.meso_neo_sumer,
+    mapOverlayUrl: "",
+    albumUrl: "https://photos.google.com",
+    presentationHtml: `
+      <p><strong>La sérénité classique de Gudea et les grandes ziggurats d'Ur</strong><br>
+      Après la chute de l'Empire d'Akkad sous la pression des montagnards Gutis, le monde sumérien connaît une brillante renaissance politique et culturelle, portée d'abord par la principauté de Lagash sous le pieux prince Gudea, puis par la 3e dynastie d'Ur (Ur-Nammu et Shulgi).</p>
+      <p>Gudea fait exécuter une série célèbre de statues en diorite noire d'une perfection de polissage magistrale, le dépeignant en architecte du temple et pasteur bienveillant aux mains jointes. Sous Ur III, l'architecture religieuse invente la ziggurat monumentale à degrés, tandis que l'administration unifiée produit des centaines de milliers de tablettes cunéiformes économiques et juridiques.</p>
+    `,
+    concurrentHtml: `
+      <p><strong>Le monde vers -2100 av. J.-C.</strong></p>
+      <p>Tandis qu'Ur-Nammu érige la Grande Ziggurat d'Ur, le Moyen Empire égyptien est unifié par Mentouhotep II à Thèbes.<br>
+      En Crète, les premiers palais minoens voient le jour.</p>
+    `,
+    themeAlbums: [
+      { label: "🗿 Gudea de Lagash en diorite", url: "" },
+      { label: "🏛️ La Ziggurat d'Ur & la dévotion sumérienne", url: "" }
+    ],
+    artifacts: []
+  },
+  {
+    id: "meso_paleo_babylone",
+    name: "Mésopotamie : Première dynastie de Babylone",
+    epoch: "v. -1894 à -1595 av. J.-C.",
+    yearStart: -1894,
+    yearEnd: -1595,
+    lane: "mesopotamie",
+    themeColor: "#9b6b9e",
+    sidePos: "pos-left",
+    travelingOrigin: "56.3% 45.1%",
+    haloId: "halo-meso-paleo-babylone",
+    bannerImg: BANNERS_REGISTRY.meso_babylone,
+    mapOverlayUrl: "",
+    albumUrl: "https://photos.google.com",
+    presentationHtml: `
+      <p><strong>Le règne de Hammurabi et le triomphe de la loi écrite</strong><br>
+      Au début du IIe millénaire av. J.-C., des tribus amorrites sémites s'installent dans les villes mésopotamiennes. Babylone, jusque-là modeste cité, devient sous le règne de Hammurabi (1792-1750 av. J.-C.) la capitale d'un puissant empire unifié s'étendant du golfe Persique au Moyen-Euphrate.</p>
+      <p>L'apogée artistique de l'époque est incarné par la monumentale Stèle du Code de Hammurabi en basalte noir, où le roi se tient pieusement devant Shamash, dieu du Soleil et de la Justice, recevant les insignes du pouvoir pour promulguer le plus célèbre corpus juridique de l'Antiquité. L'art de la terre cuite moulée (plaque Burney de la déesse de la Nuit) et les peintures du palais de Mari reflètent un raffinement sensuel et religieux novateur.</p>
+    `,
+    concurrentHtml: `
+      <p><strong>Contexte vers -1750 av. J.-C.</strong></p>
+      <p>Pendant que Hammurabi rédige ses lois à Babylone, l'Égypte termine son brillant Moyen Empire et s'apprête à affronter la domination des Hyksôs.<br>
+      En Anatolie centrale, les comptoirs marchands assyriens de Kanesh (Kültepe) animent d'intenses échanges commerciaux.</p>
+    `,
+    themeAlbums: [
+      { label: "⚖️ Le Code de Hammurabi", url: "" },
+      { label: "🦁 Bas-reliefs & déesses ailées", url: "" }
+    ],
+    artifacts: []
+  },
+  {
+    id: "meso_assyrie",
+    name: "Mésopotamie : Empire Assyrien",
+    epoch: "v. -1365 à -609 av. J.-C.",
+    yearStart: -1365,
+    yearEnd: -609,
+    lane: "mesopotamie",
+    themeColor: "#b85d38",
+    sidePos: "pos-left",
+    travelingOrigin: "56.0% 43.5%",
+    haloId: "halo-meso-assyrie",
+    bannerImg: BANNERS_REGISTRY.meso_assyrie,
+    mapOverlayUrl: "",
+    albumUrl: "https://photos.google.com",
+    presentationHtml: `
+      <p><strong>La magnificence guerrière, les taureaux ailés (Lamassu) et les récits de chasses royales</strong><br>
+      Établie sur le cours supérieur du Tigre, l'Assyrie s'érige à partir du IXe siècle av. J.-C. en une redoutable superpuissance militaire et artistique sous les règnes d'Assurnasirpal II, Sargon II, Sennachérib et Assurbanipal. Leurs gigantesques capitales (Nimrud, Khorsabad, Ninive) déploient une architecture palatiale monumentale conçue pour susciter la terreur et l'admiration.</p>
+      <p>Les portes des palais sont gardées par les Lamassu, taureaux et lions androcéphales ailés colossaux sculptés en haut-relief dans l'albâtre gypseux. Les longs couloirs d'apparat sont revêtus d'orthostates sculptés en bas-relief avec une virtuosité narrative saisissante : scènes de sièges méthodiques, de déportations impitoyables et les célébrissimes chasses aux lions d'Assurbanipal, sommets absolus du réalisme animalier mondial.</p>
+    `,
+    concurrentHtml: `
+      <p><strong>Le monde au Ier millénaire av. J.-C.</strong></p>
+      <p>Pendant que l'Assyrie soumet le Proche-Orient, la Grèce traverse son époque géométrique puis archaïque, voyant naître l'Iliade et l'Odyssée d'Homère.<br>
+      En Égypte, les pharaons de la Troisième Période Intermédiaire puis de la XXVe dynastie nubienne tentent de contenir l'expansion assyrienne.</p>
+    `,
+    themeAlbums: [
+      { label: "🦬 Lamassu : Les taureaux ailés de Khorsabad", url: "" },
+      { label: "🏹 Les chasses aux lions d'Assurbanipal", url: "" }
+    ],
+    artifacts: []
+  },
+  {
+    id: "meso_neo_babylone",
+    name: "Mésopotamie : Empire Néo-Babylonien",
+    epoch: "v. -626 à -539 av. J.-C.",
+    yearStart: -626,
+    yearEnd: -539,
+    lane: "mesopotamie",
+    themeColor: "#2b6cb0",
+    sidePos: "pos-left",
+    travelingOrigin: "56.3% 45.1%",
+    haloId: "halo-meso-neo-babylone",
+    bannerImg: BANNERS_REGISTRY.meso_babylone,
+    mapOverlayUrl: "",
+    albumUrl: "https://photos.google.com",
+    presentationHtml: `
+      <p><strong>Nabuchodonosor II, la Porte d'Ishtar et la splendeur des briques glaçurées</strong><br>
+      Après l'anéantissement de Ninive en 612 av. J.-C., Babylone reprend le flambeau sous la dynastie chaldéenne, inaugurant une époque de faste architectural légendaire sous le règne de Nabuchodonosor II (604-562 av. J.-C.). La capitale devient la plus grande métropole du monde antique, célèbre pour ses Jardins suspendus et sa tour à étages (Etemenanki, mythe de la Tour de Babel).</p>
+      <p>L'art néo-babylonien brille de mille feux à travers le décor de briques émaillées et glaçurées d'un bleu lapis-lazuli éclatant. La Porte d'Ishtar et la majestueuse Voie Processionnelle sont rythmées par les frises en relief de lions marchant, de dragons-serpents mushkhushu dédiés à Marduk et de taureaux consacrés à Adad, protégeant la ville sacrée jusqu'à sa conquête par Cyrus le Grand en 539 av. J.-C.</p>
+    `,
+    concurrentHtml: `
+      <p><strong>Le monde au VIe siècle av. J.-C.</strong></p>
+      <p>Tandis que Nabuchodonosor pare Babylone de briques d'azur et déporte l'élite judéenne, la Grèce archaïque voit émerger Solon à Athènes et les premiers philosophes présocratiques en Ionie.<br>
+      En Iran occidental, Cyrus le Grand unifie les Mèdes et les Perses pour fonder l'immense Empire achéménide.</p>
+    `,
+    themeAlbums: [
+      { label: "🦁 La Porte d'Ishtar & Voie Processionnelle", url: "" },
+      { label: "🏰 L'Etemenanki et l'épopée chaldéenne", url: "" }
+    ],
+    artifacts: []
+  },
+  // --- NÉOLITHIQUE DU LEVANT (sur lane: "syrie") ---
+  {
+    id: "neolithique_levant",
+    name: "Néolithique précéramique du Levant (Aïn Ghazal)",
+    epoch: "v. -7500 à -5500 av. J.-C.",
+    yearStart: -3500,
+    yearEnd: -3000,
+    lane: "syrie",
+    themeColor: "#b28d56",
+    sidePos: "pos-left",
+    travelingOrigin: "55.8% 44.5%",
+    haloId: "halo-neolithique-levant",
+    bannerImg: BANNERS_REGISTRY.neolithique_levant,
+    mapOverlayUrl: "",
+    albumUrl: "https://photos.google.com",
+    presentationHtml: `
+      <p><strong>L'apparition monumentale de la figure humaine au PPNB</strong><br>
+      Sur le site d'Aïn Ghazal en Jordanie actuelle, les communautés sédentaires du Néolithique précéramique B (PPNB, vers 7200-6500 av. J.-C.) ont réalisé l'une des découvertes les plus spectaculaires de l'archéologie mondiale : les plus anciennes statues monumentales de la figure humaine grandeur nature connues.</p>
+      <p>Modelées avec un plâtre de chaux fin appliqué sur des armatures internes en roseaux et cordelettes végétales, ces statuettes aux visages stylisés et aux yeux peints au bitume ou incrustés de coquillages témoignent d'un univers rituel et funéraire hautement sophistiqué, lié au culte des ancêtres et à la première sédentarisation au Proche-Orient.</p>
+    `,
+    concurrentHtml: `
+      <p><strong>L'aube de la néolithisation mondiale</strong></p>
+      <p>Alors qu'Aïn Ghazal et Jéricho développent les premières cités néolithiques et le plâtre au Levant, l'Europe vit encore sous le mode chasseurs-cueilleurs mésolithiques.<br>
+      En Anatolie centrale, Çatal Höyük commence à bâtir ses maisons agglomérées en briques crues.</p>
+    `,
+    themeAlbums: [
+      { label: "🗿 Statues monumentales en plâtre d'Aïn Ghazal", url: "" }
     ],
     artifacts: []
   },
@@ -4862,6 +5130,7 @@ const TAXONOMY_CIVILISATIONS = {
   "levant_phenicie": {
     name: "Levant, Phénicie & Syrie antique",
     periods: [
+      { id: "neolithique_levant", label: "Néolithique précéramique (Aïn Ghazal) (-7500 à -5500)" },
       { id: "amorrite", label: "Bronze levantin & Amorrites (Alalakh, Mari) (-2000 à -1200)" },
       { id: "phenicie_fer", label: "Cités phéniciennes (Tyr, Byblos, Sidon) (-1200 à -332)" },
       { id: "lycie_anatolie", label: "Royaume de Lycie & Anatolie (-600 à -300)" }
@@ -5844,7 +6113,8 @@ function renderSearchGallery() {
       else if (selectedCiv === 'ibere' && !cId.startsWith('ibere')) return false;
       else if (selectedCiv === 'iran_perse' && !cId.startsWith('iran')) return false;
       else if (selectedCiv === 'islam' && !cId.startsWith('islam')) return false;
-      else if (!['egypte', 'egee', 'italie_etrusque', 'chypre', 'celte_europe', 'levant_phenicie', 'canaries', 'ibere', 'iran_perse', 'islam'].includes(selectedCiv)) {
+      else if (selectedCiv === 'mesopotamie' && !cId.startsWith('meso')) return false;
+      else if (!['egypte', 'egee', 'italie_etrusque', 'chypre', 'celte_europe', 'levant_phenicie', 'canaries', 'ibere', 'iran_perse', 'islam', 'mesopotamie'].includes(selectedCiv)) {
         if (!cId.startsWith(selectedCiv)) return false;
       }
     }

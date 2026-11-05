@@ -2094,4 +2094,81 @@ window.ART_GLOSSARY = [
     etymology: "De l'anglais cup (« coupe ») et ring (« anneau »)",
     patterns: ['cup-and-ring', 'cup and ring', 'cupules concentriques']
   },
+  {
+    term: "Kaunakès",
+    def: "Vêtement cérémoniel en toison de laine ou tissu à mèches frangées superposées en volants (imitant la toison d'agneau ou de mouton), porté par les souverains, prêtres et orants sumériens de l'époque des Dynasties archaïques (ex. statues d'Ebih-Il, Lupad).",
+    category: "Costume & Statuaire sumérienne",
+    etymology: "Du grec καυνάκης (kaunakês), emprunté au sémite akkado-sumérien",
+    patterns: ["kaunakès", "kaunakes", "kaunace"]
+  },
+  {
+    term: "Lamassu",
+    def: "Génie protecteur colossal de l'art assyrien combinant une tête humaine couronnée de la tiare divine à cornes, un corps puissant de taureau ou de lion et de grandes ailes d'aigle. Sculpté en haut-relief avec cinq pattes pour apparaître statique de face et en marche de profil, il gardait les portes des palais royaux assyriens (Khorsabad, Nimrud, Ninive).",
+    category: "Sculpture monumentale assyrienne",
+    etymology: "De l'akkadien lamassu, génie tutélaire féminin bienveillant",
+    patterns: ["lamassu", "taureau ailé", "taureaux ailés", "génie androcéphale"]
+  },
+  {
+    term: "Orant",
+    def: "Figure sculptée en ronde-bosse (calcaire, albâtre, diorite) représentant un fidèle debout ou agenouillé, les mains jointes devant la poitrine en signe de prière perpétuelle, les yeux immenses incrustés de coquillage et de lapis-lazuli, déposée dans les temples mésopotamiens pour intercéder jour et nuit auprès des dieux.",
+    category: "Statuaire votive mésopotamienne",
+    etymology: "Du latin orans, orantis (« celui qui prie »)",
+    patterns: ["orant", "orants", "statue votive", "statuette votive"]
+  },
+  {
+    term: "Cône de fondation",
+    def: "Clou ou cône d'argile cuite ou de pierre portant une inscription cunéiforme commémorant la construction, la restauration d'un sanctuaire ou la promulgation de décrets royaux et réformes sociales (ex. cônes d'Uruinimgina ou de Gudea), fiché verticalement dans la maçonnerie des murs sacrés sumériens.",
+    category: "Épigraphie & Architecture mésopotamienne",
+    etymology: "Du latin conus et fundatio (« assise, fondement »)",
+    patterns: ["cône de fondation", "clou de fondation", "cônes de fondation", "clous de fondation"]
+  },
+  {
+    term: "Écriture cunéiforme",
+    def: "Système d'écriture inventé en Basse-Mésopotamie (Uruk) vers 3400-3200 av. J.-C., caractérisé par des empreintes en forme de clous ou de coins (cuneus) imprimées à l'aide d'un calame de roseau biseauté sur des tablettes d'argile fraîche. Utilisée pour le sumérien, l'akkadien, l'élamite et le hittite pendant plus de trois millénaires.",
+    category: "Écriture & Épigraphie antique",
+    etymology: "Du latin cuneus (« coin ») et forma (« forme »)",
+    patterns: ["cunéiforme", "cuneiforme", "tablette cunéiforme", "écriture cunéiforme"]
+  },
+  {
+    term: "Sceau-cylindre",
+    def: "Petit cylindre de pierre dure (hématite, cornaline, lapis-lazuli, jaspe) gravé en intaille (en creux) d'une scène mythologique, guerrière ou rituelle, que l'on déroulait sur l'argile fraîche des tablettes et fermetures de jarres pour authentifier documents, correspondances et cargaisons dans tout le Proche-Orient antique.",
+    category: "Glyptique mésopotamienne",
+    etymology: "Du latin sigillum (« marque, sceau ») et cylindrus",
+    patterns: ["sceau-cylindre", "sceaux-cylindres", "glyptique"]
+  },
+  {
+    term: "Stèle des Vautours",
+    def: "Monument commémoratif en calcaire érigé vers 2450 av. J.-C. par le roi Eannatum de Lagash pour célébrer sa victoire militaire sur la cité rivale d'Umma. C'est le plus ancien monument historiographique connu illustrant l'armée sumérienne en phalange serrée et les rapaces dévorant les cadavres ennemis.",
+    category: "Relief historique sumérien",
+    etymology: "Du grec stêlê (« pierre dressée »)",
+    patterns: ["stèle des vautours", "stele des vautours", "eannatum"]
+  },
+  {
+    term: "Statuaire en plâtre de chaux (PPNB)",
+    def: "Spectaculaire production sculpturale du Néolithique précéramique B levantin (ex. Aïn Ghazal, Jéricho, vers 7200-6500 av. J.-C.), composée de statues anthropomorphes grandeur nature modelées en plâtre de chaux sur armature végétale de roseaux, aux orbites incrustées de bitume et coquillages.",
+    category: "Néolithique précéramique du Levant",
+    etymology: "PPNB : Pre-Pottery Neolithic B",
+    patterns: ["plâtre de chaux", "aïn ghazal", "ain ghazal", "ppnb"]
+  },
+  {
+    term: "Brique glaçurée",
+    def: "Brique d'argile moulée recouverte d'un émail vitrifié coloré aux oxydes métalliques (bleu cobalt, turquoise, jaune, blanc) cuite à haute température pour produire des façades murales éclatantes et étanches, emblématiques des palais néo-assyriens, achéménides et néo-babyloniens (Porte d'Ishtar).",
+    category: "Céramique architecturale & Décor",
+    etymology: "Du néerlandais brike et du latin glacies (« glace »)",
+    patterns: ["brique glaçurée", "briques glaçurées", "brique émaillée", "briques émaillées"]
+  },
+  {
+    term: "Mushkhushu",
+    def: "Créature mythologique hybride mésopotamienne (le « serpent-dragon furieux ») combinant une tête et un corps écailleux de serpent cornu, des pattes antérieures de lion et postérieures d'aigle rapace, animal attribut du grand dieu national babylonien Marduk ornant la Porte d'Ishtar.",
+    category: "Mythologie & Iconographie babylonienne",
+    etymology: "Du sumérien muš-ḫuš (« dragon redoutable / serpent furieux »)",
+    patterns: ["mushkhushu", "mushussu", "mušḫuššu", "dragon de marduk"]
+  },
+  {
+    term: "Ziggurat",
+    def: "Édifice religieux mésopotamien monumental en briques crues et cuites en forme de pyramide à degrés ou terrasses superposées, accessible par des escaliers monumentaux et couronné d'un temple haut sanctuaire (ex. Ziggurat d'Ur, Etemenanki de Babylone).",
+    category: "Architecture religieuse mésopotamienne",
+    etymology: "De l'akkadien ziqqurratu, dérivé du verbe zaqāru (« construire en hauteur, élever »)",
+    patterns: ["ziggurat", "ziggourat", "ziggurats"]
+  },
 ];
