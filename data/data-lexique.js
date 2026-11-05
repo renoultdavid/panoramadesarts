@@ -2038,4 +2038,60 @@ window.ART_GLOSSARY = [
     etymology: "Effet d'un textile imbibé d'eau collant au corps",
     patterns: ['drapé mouillé', 'drapés mouillés', 'drape mouille']
   },
+  {
+    term: "Allée couverte",
+    def: "Sépulture collective mégalithique allongée typique de la fin du Néolithique, formée d'une galerie funéraire rectiligne délimitée par des orthostates portant plusieurs dalles de couverture transversales (ex. Ty-ar-Boudiged, Kerbalannec).",
+    category: "Architecture funéraire mégalithique",
+    etymology: "De la forme en couloir continu couvert de tables de pierre",
+    patterns: ['allée couverte', 'allées couvertes', 'allee couverte']
+  },
+  {
+    term: "Statue-menhir",
+    def: "Monolithe dressé sculpté en bas-relief ou ronde-bosse représentant une figure humaine stylisée (visage, membres) ou un guerrier armé d'un glaive, d'un poignard et d'un baudrier (ex. Filitosa V, I Stantari, Pieve en Corse).",
+    category: "Statuaire mégalithique & Protohistoire",
+    etymology: "Du français statue et du breton menhir (« pierre longue »)",
+    patterns: ['statue-menhir', 'statues-menhirs', 'statue menhir', 'statues menhirs']
+  },
+  {
+    term: "Torre",
+    def: "Édifice circulaire monumental en pierres sèches édifié en Corse durant l'Âge du Bronze (culture torréenne, IIe millénaire av. J.-C.), combinant fonctions de sanctuaire communautaire, de métallurgie et de forteresse défensive.",
+    category: "Architecture protohistorique corse",
+    etymology: "Du corse torre, « tour fortifiée »",
+    patterns: ['torre', 'torréen', 'torréenne', 'torréens']
+  },
+  {
+    term: "Alignement mégalithique",
+    def: "Ensemble monumental de monolithes de granite ou de quartzite dressés en files régulières parallèles ou convergentes s'étirant sur plusieurs centaines de mètres ou kilomètres (ex. Le Ménec, Kermario, Kerlescan à Carnac, Lagatjar).",
+    category: "Mégalithisme & Sanctuaires",
+    etymology: "Du français alignement, disposition en ligne droite",
+    patterns: ['alignement', 'alignements', 'alignement mégalithique', 'alignements mégalithiques']
+  },
+  {
+    term: "Cromlech",
+    def: "Enceinte mégalithique sacrée circulaire, en fer à cheval ou en hémicycle délimitée par des menhirs dressés espacés, dévolue aux rassemblements rituels, aux processions et aux visées astronomiques (ex. Kerbourgnec, Kergonan).",
+    category: "Mégalithisme & Enceintes sacrées",
+    etymology: "Du gallois crom (« courbe ») et llech (« pierre plate »)",
+    patterns: ['cromlech', 'cromlechs']
+  },
+  {
+    term: "Ring cairn",
+    def: "Cairn funéraire annulaire typique de l'Âge du Bronze des îles Britanniques, constitué d'une couronne circulaire de pierraille délimitant un espace central ouvert à ciel ouvert, entouré d'un cercle d'orthostates (ex. Clava Cairns).",
+    category: "Architecture funéraire britannique",
+    etymology: "De l'anglais ring (« anneau ») et cairn (« amas de pierres »)",
+    patterns: ['ring cairn', 'cairn annulaire']
+  },
+  {
+    term: "Amer",
+    def: "Repère visuel fixe et identifiable sur une côte rocheuse ou une avancée littorale (souvent matérialisé par un grand menhir dressé), servant aux navigateurs néolithiques pour s'orienter et éviter les écueils (ex. Beg er Goh Lannec).",
+    category: "Navigation & Paysage littoral",
+    etymology: "Du germanique amari, « signal lumineux ou repère »",
+    patterns: ['amer', 'amers']
+  },
+  {
+    term: "Cup-and-ring mark",
+    def: "Motif d'art rupestre néolithique et de l'Âge du Bronze composé d'une cupule hémisphérique centrale ceinturée d'un ou plusieurs cercles concentriques gravés par piquetage sur la pierre (ex. Clava Cairns).",
+    category: "Art rupestre néolithique",
+    etymology: "De l'anglais cup (« coupe ») et ring (« anneau »)",
+    patterns: ['cup-and-ring', 'cup and ring', 'cupules concentriques']
+  },
 ];
