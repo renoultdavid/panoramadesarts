@@ -3124,9 +3124,11 @@ function showCivPreview(civ) {
   hoverSidebar.classList.add(civ.sidePos || 'pos-left');
   hoverSidebar.classList.add('visible');
 
-  document.querySelectorAll('.sync-foyer-halo').forEach(h => h.classList.remove('active'));
-  const activeHalo = document.getElementById(civ.haloId);
-  if (activeHalo) activeHalo.classList.add('active');
+  document.querySelectorAll('.map-civ-beacon').forEach(b => b.classList.remove('is-selected'));
+  const activeBeacon = document.getElementById(`beacon-${civ.id}`);
+  if (activeBeacon) {
+    activeBeacon.classList.add('active', 'is-selected');
+  }
 
   // Compteur d'œuvres associées dans la Galerie (aligné exactement sur les filtres de la Galerie)
   const sidebarCivGalleryCount = document.getElementById('sidebar-civ-gallery-count');
@@ -3158,7 +3160,7 @@ function hideCivPreview() {
   hoverSidebar.classList.remove('visible');
   if (concurrentSidebar) concurrentSidebar.classList.remove('visible');
   if (tabReopenConcurrent) tabReopenConcurrent.hidden = true;
-  document.querySelectorAll('.sync-foyer-halo').forEach(h => h.classList.remove('active'));
+  document.querySelectorAll('.map-civ-beacon').forEach(b => b.classList.remove('is-selected'));
   selectedCiv = null;
 }
 
@@ -3334,6 +3336,66 @@ let startX = 0;
 let curRibbonX = -yearToPixel(-300) + window.innerWidth * 0.35;
 let prevRibbonX = curRibbonX;
 
+
+/* ==========================================================================
+   CONCEPT A : INITIALISATION DES BALISES & CARTOUCHES D'OR SUR L'ATLAS
+   ========================================================================== */
+function initMapBeacons() {
+  const container = document.getElementById('synchronous-halos-layer');
+  if (!container || !Array.isArray(CIVILISATIONS_REGISTRY)) return;
+  container.innerHTML = '';
+
+  CIVILISATIONS_REGISTRY.forEach(civ => {
+    if (!civ.travelingOrigin) return;
+    const parts = civ.travelingOrigin.trim().split(/\s+/);
+    if (parts.length < 2) return;
+    const left = parts[0];
+    const top = parts[1];
+
+    const numLeft = parseFloat(left);
+    const numTop = parseFloat(top);
+
+    // Orientation calculée pour éviter tout chevauchement entre voisins
+    let posClass = 'pos-top';
+    if (numLeft < 48.0) {
+      posClass = 'pos-left';   // Ouest : Canaries, Ibérie
+    } else if (numLeft > 55.5) {
+      posClass = 'pos-right';  // Est : Mésopotamie, Perse
+    } else if (numTop > 46.0) {
+      posClass = 'pos-bottom'; // Sud : Égypte, Crète, Islam
+    } else {
+      posClass = 'pos-top';    // Nord : Europe, Italie, Grèce
+    }
+
+    const beacon = document.createElement('div');
+    beacon.className = `map-civ-beacon ${posClass}`;
+    beacon.id = `beacon-${civ.id}`;
+    beacon.style.left = left;
+    beacon.style.top = top;
+    beacon.setAttribute('data-civ-id', civ.id);
+
+    // Titre allégé pour la carte (retrait du préfixe régional redondant)
+    const shortName = (civ.name || '').replace(/^(Égypte|Mésopotamie|Grèce|Italie|Étrurie|Iran|Islam|Occident|Péninsule Ibérique|Europe)\s*:\s*/i, '');
+
+    beacon.innerHTML = `
+      <div class="beacon-pulse"></div>
+      <div class="beacon-anchor"></div>
+      <div class="beacon-stem"></div>
+      <div class="beacon-card" title="Explorer ${escapeHtmlAttr(civ.name)}">
+        <span class="beacon-title">✦ ${shortName}</span>
+        <span class="beacon-dates">${civ.epoch || ''}</span>
+      </div>
+    `;
+
+    beacon.addEventListener('click', (e) => {
+      e.stopPropagation();
+      lockCivSidebar(civ);
+    });
+
+    container.appendChild(beacon);
+  });
+}
+
 function updateSynchronousState(screenX) {
   const ribbonRect = masterRibbon.getBoundingClientRect();
   const relativeX = screenX - ribbonRect.left;
@@ -3342,20 +3404,20 @@ function updateSynchronousState(screenX) {
   syncLine.style.left = `${screenX}px`;
   syncBubble.textContent = currentYear < 0 ? `${Math.abs(currentYear)} av. J.-C.` : `${currentYear} ap. J.-C.`;
 
-  const activeHaloIds = new Set();
+  const activeCivIds = new Set();
   CIVILISATIONS_REGISTRY.forEach(civ => {
     if (currentYear >= civ.yearStart && currentYear <= civ.yearEnd) {
-      if (civ.haloId) activeHaloIds.add(civ.haloId);
+      activeCivIds.add(civ.id);
     }
   });
 
-  document.querySelectorAll('.sync-foyer-halo').forEach(halo => {
-    if (activeHaloIds.has(halo.id)) {
-      halo.classList.add('active');
+  // Mise à jour synchrone des balises & cartouches d'or sur la carte (Concept A)
+  document.querySelectorAll('.map-civ-beacon').forEach(beacon => {
+    const cId = beacon.getAttribute('data-civ-id') || (beacon.dataset && beacon.dataset.civId);
+    if (activeCivIds.has(cId) || (selectedCiv && selectedCiv.id === cId)) {
+      beacon.classList.add('active');
     } else {
-      if (!isLockedSidebar || !selectedCiv || selectedCiv.haloId !== halo.id) {
-        halo.classList.remove('active');
-      }
+      beacon.classList.remove('active');
     }
   });
 
@@ -5416,6 +5478,7 @@ function initSearchEngine() {
 
   updatePeriodDropdown();
   updateTypeDropdown();
+  initMapBeacons();
 
   /* ==========================================================================
      INDEX ALPHABÉTIQUE DES ARTISTES (A-Z) & TIROIR DÉROULANT
