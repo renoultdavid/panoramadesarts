@@ -544,6 +544,8 @@ body {
 
 /* SCÈNE DE ZOOM CADRÉ (HOTSPOTS & CARTE SYNCHRONE) */
 #map-zoom-stage {
+  --map-zoom: 1;
+  --map-zoom-inv: 1;
   position: relative;
   display: inline-flex;
   align-items: center;
@@ -668,11 +670,12 @@ body {
    ========================================================= */
 .geo-beacon-jewel {
   position: absolute;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%) scale(var(--map-zoom-inv, 1));
+  transform-origin: center center;
   pointer-events: auto;
   opacity: 0;
   visibility: hidden;
-  transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s;
+  transition: opacity 0.3s ease, transform 0.8s cubic-bezier(0.16, 1, 0.3, 1), visibility 0.3s;
   cursor: pointer;
   z-index: 10;
   user-select: none;

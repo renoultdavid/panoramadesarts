@@ -3028,7 +3028,10 @@ function applyMapHotspot(key, customScale) {
   const hotspot = MAP_HOTSPOTS[key] || MAP_HOTSPOTS.monde;
   currentMapHotspot = key;
   currentMapScale = (customScale !== undefined) ? customScale : hotspot.scale;
+  const invScale = (1 / (currentMapScale || 1.0)).toFixed(4);
 
+  stage.style.setProperty('--map-zoom', currentMapScale);
+  stage.style.setProperty('--map-zoom-inv', invScale);
   stage.style.transformOrigin = hotspot.origin;
   stage.style.transform = `scale(${currentMapScale})`;
 
@@ -3040,6 +3043,8 @@ function applyMapHotspot(key, customScale) {
 
 // Initialisation des boutons de Hotspots et outils de zoom
 document.addEventListener('DOMContentLoaded', () => {
+  applyMapHotspot('monde', 1.0);
+
   document.querySelectorAll('.btn-hotspot').forEach(btn => {
     btn.addEventListener('click', (e) => {
       e.stopPropagation();
