@@ -989,7 +989,11 @@ const BANNERS_REGISTRY = {
   meso_assyrie: "https://lh3.googleusercontent.com/pw/AP1GczM9SPg7-oVPTBHclm8m2gEpJjlR9qfDGUvS0zXzoElJspULRPae_YvV3-kLzzr4yRztpVtvML3Hq8_O4oOrU1dJ8C8nwcK_5pdAUzuIdUbL16ntFFuq6TBv3793-8HTq4Mj5AuJNLdAbuXCUYsNsdDWxw=w1759-h745-s-no-gm?authuser=0",
 
   // 11. Levant précéramique (Aïn Ghazal)
-  neolithique_levant: "https://lh3.googleusercontent.com/pw/AP1GczOPeZnIjY1C_Ki0DMKfpQaJoWa5Pg3TN-8M-qpC0M7INEfxpxdpcxWPCV--j-uRbxgHXNfcouGgrv58GpF0U7mP-Ia5QDUOcC3b29pP9U-5v6Pq-klVbUxIEtN0FKR81eCz6mx2CTti_XH9pzbsuebc1Q=w1759-h745-s-no-gm?authuser=0" 
+  neolithique_levant: "https://lh3.googleusercontent.com/pw/AP1GczOPeZnIjY1C_Ki0DMKfpQaJoWa5Pg3TN-8M-qpC0M7INEfxpxdpcxWPCV--j-uRbxgHXNfcouGgrv58GpF0U7mP-Ia5QDUOcC3b29pP9U-5v6Pq-klVbUxIEtN0FKR81eCz6mx2CTti_XH9pzbsuebc1Q=w1759-h745-s-no-gm?authuser=0",
+
+  // 12. Occident chrétien, Cloîtres & Espaces sacrés
+  occ_cloitre: "https://lh3.googleusercontent.com/pw/AP1GczOFyKkksjiJ30bePVHIjD83HKI5G_xH1UXgnxJ00Bs5v6ylXlbDZumeeNXuoMScZV-P8ucOnWv7bCGgmzrccfhsFKUjEEOtz-5qFBb1kVVkK2Y0f1gph7TCFMCf0P3w3leD6GGtDVeM_SUd_w-1WXGmvw=w1742-h740-s-no-gm?authuser=0",
+  occ_roman: "https://lh3.googleusercontent.com/pw/AP1GczOFyKkksjiJ30bePVHIjD83HKI5G_xH1UXgnxJ00Bs5v6ylXlbDZumeeNXuoMScZV-P8ucOnWv7bCGgmzrccfhsFKUjEEOtz-5qFBb1kVVkK2Y0f1gph7TCFMCf0P3w3leD6GGtDVeM_SUd_w-1WXGmvw=w1742-h740-s-no-gm?authuser=0"
 };
 
 function getArtworkBanner(art) {
@@ -1117,6 +1121,11 @@ function getArtworkBanner(art) {
     if (pId === 'meso_paleo_babylone' || pId === 'meso_neo_babylone') return BANNERS_REGISTRY.meso_babylone;
     if (pId === 'meso_assyrie') return BANNERS_REGISTRY.meso_assyrie;
     return BANNERS_REGISTRY.meso_uruk;
+  }
+
+  // 12. OCCIDENT CHRÉTIEN : CLOÎTRES & ESPACES SACRÉS
+  if (fullText.includes('cloître') || fullText.includes('cloitre') || pId === 'occ_roman' || (cId === 'occident' && (fullText.includes('nef') || fullText.includes('portail') || fullText.includes('tympan') || fullText.includes('voûte')))) {
+    return BANNERS_REGISTRY.occ_cloitre;
   }
 
   // 7. Si l'objet a déjà son propre bandeau spécifique personnalisé (ex: Égypte, Canaries, Chypre, Celte)
@@ -2528,6 +2537,37 @@ const CIVILISATIONS_REGISTRY = [
     artifacts: []
   },
   {
+    id: "occ_roman",
+    name: "Occident : Art Roman",
+    epoch: "v. 950 à 1180 ap. J.-C.",
+    yearStart: 950,
+    yearEnd: 1180,
+    lane: "europe_ouest",
+    themeColor: "#6a4c93",
+    sidePos: "pos-left",
+    travelingOrigin: "48.5% 41.5%",
+    haloId: "halo-occident",
+    bannerImg: BANNERS_REGISTRY.occ_roman,
+    mapOverlayUrl: "",
+    albumUrl: "",
+    presentationHtml: `
+      <p><strong>L'âge d'or monastique, les cloîtres sculptés et la ferveur des pèlerinages</strong><br>
+      Épanoui entre le Xe et le XIIe siècle au cœur d'une Europe médiévale couverte d'un « blanc manteau d'églises », l'art roman consacre la puissance spirituelle et culturelle des grands ordres monastiques (Cluny, Cîteaux, les Bénédictins).</p>
+      <p>L'architecture se distingue par la solidité de ses voûtes en plein cintre et en berceau, ses murs épais percés d'étroites baies et surtout ses cloîtres majestueux, véritables oasis de silence, de méditation et de cheminement liturgique. Des galeries de Silos à Moissac, de Montmajour à Monreale, la sculpture s'épanouit avec une virtuosité stupéfiante sur les chapiteaux historiés et les piliers d'angle, mêlant cycles évangéliques, décors végétaux et bestiaire fantastique.</p>
+    `,
+    concurrentHtml: `
+      <p><strong>Le contexte mondial au temps de l'art roman</strong></p>
+      <p>Pendant que l'Europe occidentale bâtit ses abbayes romanes et ses cloîtres de silence, l'Islam fatimide rayonne au Caire et l'Empire byzantin connaît l'apogée des Comnènes.<br>
+      En Asie, la Chine des Song du Nord invente la boussole magnétique et développe la céramique céladon.<br>
+      En Amérique précolombienne, la civilisation toltèque s'épanouit au Mexique central.</p>
+    `,
+    themeAlbums: [
+      { label: "🏛️ Cloîtres & Abbayes romanes", url: "" },
+      { label: "🗿 Chapiteaux historiés & Portails", url: "" }
+    ],
+    artifacts: []
+  },
+  {
     id: "occ_gothique",
     name: "Occident : Art Gothique",
     epoch: "v. 1150 à 1450 ap. J.-C.",
@@ -2538,7 +2578,7 @@ const CIVILISATIONS_REGISTRY = [
     sidePos: "pos-left",
     travelingOrigin: "49.0% 41.5%",
     haloId: "halo-occident",
-    bannerImg: "",
+    bannerImg: BANNERS_REGISTRY.occ_cloitre,
     mapOverlayUrl: "",
     albumUrl: "",
     presentationHtml: `
@@ -5296,9 +5336,13 @@ const TAXONOMY_DOMAINS = {
   "espace_sacre": {
     label: "Espace sacré, Architecture & Décor religieux",
     types: [
-      "Cloître", "Enclos sacré / Temple", "Nef d'église / cathédrale",
-      "Plafond & Voûte peinte / astronomique", "Portail & Tympan d'église",
-      "Retable & Chaire", "Vitrail"
+      "Cloître",
+      "Nef d'église / cathédrale",
+      "Plafond & Voûte peinte / astronomique",
+      "Portail & Tympan d'église",
+      "Enclos sacré / Temple",
+      "Retable & Chaire",
+      "Vitrail"
     ]
   },
   "parures_metaux": {
@@ -6207,7 +6251,8 @@ function renderSearchGallery() {
       else if (selectedCiv === 'iran_perse' && !cId.startsWith('iran')) return false;
       else if (selectedCiv === 'islam' && !cId.startsWith('islam')) return false;
       else if (selectedCiv === 'mesopotamie' && !cId.startsWith('meso')) return false;
-      else if (!['egypte', 'egee', 'italie_etrusque', 'chypre', 'celte_europe', 'levant_phenicie', 'canaries', 'ibere', 'iran_perse', 'islam', 'mesopotamie'].includes(selectedCiv)) {
+      else if (selectedCiv === 'occident' && !cId.startsWith('occ') && cId !== 'occident') return false;
+      else if (!['egypte', 'egee', 'italie_etrusque', 'chypre', 'celte_europe', 'levant_phenicie', 'canaries', 'ibere', 'iran_perse', 'islam', 'mesopotamie', 'occident'].includes(selectedCiv)) {
         if (!cId.startsWith(selectedCiv)) return false;
       }
     }
@@ -6252,6 +6297,15 @@ function renderSearchGallery() {
         if (d !== 'peinture_mosaique' && !fullText.includes('peinture') && !fullText.includes('fresque') && !fullText.includes('mosaïque')) return false;
       } else if (selectedDomain === 'parures_metaux') {
         if (d !== 'parures_metaux' && !fullText.includes('orfèvrerie') && !fullText.includes('métallurgie') && !fullText.includes('dépôt')) return false;
+      } else if (selectedDomain === 'espace_sacre') {
+        const isSacre = d === 'espace_sacre' || fullText.includes('cloître') || fullText.includes('cloitre') ||
+                        fullText.includes('nef') || fullText.includes('portail') || fullText.includes('tympan') ||
+                        fullText.includes('plafond') || fullText.includes('voûte') || fullText.includes('voute') ||
+                        fullText.includes('temple') || fullText.includes('église') || fullText.includes('eglise') ||
+                        fullText.includes('cathédrale') || fullText.includes('cathedrale') || fullText.includes('retable') ||
+                        fullText.includes('vitrail') || fullText.includes('abbaye') || fullText.includes('monastère') ||
+                        fullText.includes('monastere') || fullText.includes('couvent');
+        if (!isSacre) return false;
       } else if (d) {
         if (d !== selectedDomain) return false;
       }
@@ -6267,9 +6321,17 @@ function renderSearchGallery() {
 
       let matched = full.includes(target);
 
-      // Correspondances intelligentes pour les mégalithes et variantes
+      // Correspondances intelligentes pour les espaces sacrés, cloîtres, mégalithes et variantes
       if (!matched) {
-        if (target.includes('dolmen')) {
+        if (target.includes('cloître') || target.includes('cloitre')) {
+          matched = full.includes('cloître') || full.includes('cloitre');
+        } else if (target.includes('nef')) {
+          matched = full.includes('nef');
+        } else if (target.includes('plafond') || target.includes('voûte') || target.includes('voute')) {
+          matched = full.includes('plafond') || full.includes('voûte') || full.includes('voute');
+        } else if (target.includes('portail') || target.includes('tympan')) {
+          matched = full.includes('portail') || full.includes('tympan');
+        } else if (target.includes('dolmen')) {
           matched = full.includes('dolmen');
         } else if (target.includes('allée couverte') || target.includes('allee couverte')) {
           matched = full.includes('allée couverte') || full.includes('allee couverte');
