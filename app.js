@@ -42,6 +42,10 @@ function switchView(targetViewId) {
   } else if (targetViewId === 'view-timeline') {
     btnBackHub.hidden = false;
     insigniaSubtitle.textContent = "Parcours Synchronique & Archives in situ";
+    if (typeof initMapBeacons === 'function') initMapBeacons();
+    if (typeof updateSynchronousState === 'function') {
+      setTimeout(() => updateSynchronousState(window.innerWidth * 0.35), 100);
+    }
   }
 }
 
@@ -2773,6 +2777,7 @@ window.addEventListener('DOMContentLoaded', () => {
   initConstellationData();
   renderConstellationLayer();
   updateTimelineLayout();
+  initMapBeacons();
   initSearchEngine();
 });
 
@@ -2817,7 +2822,7 @@ function buildTimelineBlocks() {
     const visibleEnd = Math.min(civ.yearEnd, YEAR_MAX);
     const x1 = yearToPixel(visibleStart);
     const x2 = yearToPixel(visibleEnd);
-    const width = Math.max(x2 - x1, 80);
+    const width = Math.max(x2 - x1, 14);
 
     const block = document.createElement('div');
     block.className = `civ-timespan-block track-${civ._trackIndex || 0} ${civ._laneIsDouble ? 'in-double-lane' : ''}`;
@@ -2885,6 +2890,10 @@ function buildTimelineBlocks() {
     mov._barEl = bar;
     laneEl.appendChild(bar);
   });
+
+  if (typeof initMapBeacons === 'function') {
+    initMapBeacons();
+  }
 }
 
 function updateStickyBlockTitles() {
@@ -2926,7 +2935,7 @@ function updateTimelineLayout() {
     const visibleEnd = Math.min(civ.yearEnd, YEAR_MAX);
     const x1 = yearToPixel(visibleStart);
     const x2 = yearToPixel(visibleEnd);
-    const width = Math.max(x2 - x1, 40);
+    const width = Math.max(x2 - x1, 14);
     civ._blockEl.style.left = `${x1}px`;
     civ._blockEl.style.width = `${width}px`;
   });
@@ -3162,6 +3171,11 @@ function hideCivPreview() {
   if (tabReopenConcurrent) tabReopenConcurrent.hidden = true;
   document.querySelectorAll('.map-civ-beacon').forEach(b => b.classList.remove('is-selected'));
   selectedCiv = null;
+  if (typeof updateSynchronousState === 'function') {
+    try {
+      updateSynchronousState(window.innerWidth * 0.35);
+    } catch (_) {}
+  }
 }
 
 let lastActiveCiv = null;
@@ -3343,63 +3357,89 @@ let prevRibbonX = curRibbonX;
 function initMapBeacons() {
   const container = document.getElementById('synchronous-halos-layer');
   if (!container || !Array.isArray(CIVILISATIONS_REGISTRY)) return;
-  container.innerHTML = '';
 
-  CIVILISATIONS_REGISTRY.forEach(civ => {
-    if (!civ.travelingOrigin) return;
-    const parts = civ.travelingOrigin.trim().split(/\s+/);
-    if (parts.length < 2) return;
-    const left = parts[0];
-    const top = parts[1];
-
-    const numLeft = parseFloat(left);
-    const numTop = parseFloat(top);
-
-    // Orientation calculée pour éviter tout chevauchement entre voisins
-    let posClass = 'pos-top';
-    if (numLeft < 48.0) {
-      posClass = 'pos-left';   // Ouest : Canaries, Ibérie
-    } else if (numLeft > 55.5) {
-      posClass = 'pos-right';  // Est : Mésopotamie, Perse
-    } else if (numTop > 46.0) {
-      posClass = 'pos-bottom'; // Sud : Égypte, Crète, Islam
-    } else {
-      posClass = 'pos-top';    // Nord : Europe, Italie, Grèce
-    }
-
-    const beacon = document.createElement('div');
-    beacon.className = `map-civ-beacon ${posClass}`;
-    beacon.id = `beacon-${civ.id}`;
-    beacon.style.left = left;
-    beacon.style.top = top;
-    beacon.setAttribute('data-civ-id', civ.id);
-
-    // Titre allégé pour la carte (retrait du préfixe régional redondant)
-    const shortName = (civ.name || '').replace(/^(Égypte|Mésopotamie|Grèce|Italie|Étrurie|Iran|Islam|Occident|Péninsule Ibérique|Europe)\s*:\s*/i, '');
-
-    beacon.innerHTML = `
-      <div class="beacon-pulse"></div>
-      <div class="beacon-anchor"></div>
-      <div class="beacon-stem"></div>
-      <div class="beacon-card" title="Explorer ${escapeHtmlAttr(civ.name)}">
-        <span class="beacon-title">✦ ${shortName}</span>
-        <span class="beacon-dates">${civ.epoch || ''}</span>
-      </div>
-    `;
-
-    beacon.addEventListener('click', (e) => {
-      e.stopPropagation();
-      lockCivSidebar(civ);
+  const existingBeacons = container.querySelectorAll('.map-civ-beacon');
+  if (existingBeacons.length > 0) {
+    // Les balises sont déjà pré-rendues dans le HTML : attacher les gestionnaires de clic
+    existingBeacons.forEach(beacon => {
+      const cId = beacon.getAttribute('data-civ-id');
+      const civ = CIVILISATIONS_REGISTRY.find(c => c.id === cId);
+      if (civ && !beacon._boundClick) {
+        beacon._boundClick = true;
+        beacon.addEventListener('click', (e) => {
+          e.stopPropagation();
+          lockCivSidebar(civ);
+        });
+      }
     });
+  } else {
+    container.innerHTML = '';
+    CIVILISATIONS_REGISTRY.forEach(civ => {
+      if (!civ.travelingOrigin) return;
+      const parts = civ.travelingOrigin.trim().split(/\s+/);
+      if (parts.length < 2) return;
+      const left = parts[0];
+      const top = parts[1];
 
-    container.appendChild(beacon);
-  });
+      const numLeft = parseFloat(left);
+      const numTop = parseFloat(top);
+
+      // Orientation calculée pour éviter tout chevauchement entre voisins
+      let posClass = 'pos-top';
+      if (numLeft < 48.0) {
+        posClass = 'pos-left';   // Ouest : Canaries, Ibérie
+      } else if (numLeft > 55.5) {
+        posClass = 'pos-right';  // Est : Mésopotamie, Perse
+      } else if (numTop > 46.0) {
+        posClass = 'pos-bottom'; // Sud : Égypte, Crète, Islam
+      } else {
+        posClass = 'pos-top';    // Nord : Europe, Italie, Grèce
+      }
+
+      const beacon = document.createElement('div');
+      beacon.className = `map-civ-beacon ${posClass}`;
+      beacon.id = `beacon-${civ.id}`;
+      beacon.style.left = left;
+      beacon.style.top = top;
+      beacon.setAttribute('data-civ-id', civ.id);
+
+      // Titre allégé pour la carte (retrait du préfixe régional redondant)
+      const shortName = (civ.name || '').replace(/^(Égypte|Mésopotamie|Grèce|Italie|Étrurie|Iran|Islam|Occident|Péninsule Ibérique|Europe)\s*:\s*/i, '');
+
+      beacon.innerHTML = `
+        <div class="beacon-pulse"></div>
+        <div class="beacon-anchor"></div>
+        <div class="beacon-stem"></div>
+        <div class="beacon-card" title="Explorer ${escapeHtmlAttr(civ.name)}">
+          <span class="beacon-title">✦ ${shortName}</span>
+          <span class="beacon-dates">${civ.epoch || ''}</span>
+        </div>
+      `;
+
+      beacon.addEventListener('click', (e) => {
+        e.stopPropagation();
+        lockCivSidebar(civ);
+      });
+
+      container.appendChild(beacon);
+    });
+  }
+
+  // Activer immédiatement l'affichage synchrone initial
+  setTimeout(() => {
+    if (typeof updateSynchronousState === 'function') {
+      try {
+        updateSynchronousState(window.innerWidth * 0.35);
+      } catch (_) {}
+    }
+  }, 50);
 }
 
 function updateSynchronousState(screenX) {
+  if (!masterRibbon || !syncLine || !syncBubble) return;
   const ribbonRect = masterRibbon.getBoundingClientRect();
-  const relativeX = screenX - ribbonRect.left;
-  const currentYear = pixelToYear(relativeX);
+  const relativeX = screenX - (ribbonRect.left || 0);
+  const currentYear = Math.round(pixelToYear(relativeX));
 
   syncLine.style.left = `${screenX}px`;
   syncBubble.textContent = currentYear < 0 ? `${Math.abs(currentYear)} av. J.-C.` : `${currentYear} ap. J.-C.`;
@@ -3413,7 +3453,7 @@ function updateSynchronousState(screenX) {
 
   // Mise à jour synchrone des balises & cartouches d'or sur la carte (Concept A)
   document.querySelectorAll('.map-civ-beacon').forEach(beacon => {
-    const cId = beacon.getAttribute('data-civ-id') || (beacon.dataset && beacon.dataset.civId);
+    const cId = (beacon.getAttribute && beacon.getAttribute('data-civ-id')) || (beacon.dataset && beacon.dataset.civId);
     if (activeCivIds.has(cId) || (selectedCiv && selectedCiv.id === cId)) {
       beacon.classList.add('active');
     } else {
