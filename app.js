@@ -3133,7 +3133,7 @@ function showCivPreview(civ) {
   hoverSidebar.classList.add(civ.sidePos || 'pos-left');
   hoverSidebar.classList.add('visible');
 
-  document.querySelectorAll('.map-civ-beacon').forEach(b => b.classList.remove('is-selected'));
+  document.querySelectorAll('.geo-beacon-jewel').forEach(b => b.classList.remove('is-selected'));
   const activeBeacon = document.getElementById(`beacon-${civ.id}`);
   if (activeBeacon) {
     activeBeacon.classList.add('active', 'is-selected');
@@ -3169,7 +3169,7 @@ function hideCivPreview() {
   hoverSidebar.classList.remove('visible');
   if (concurrentSidebar) concurrentSidebar.classList.remove('visible');
   if (tabReopenConcurrent) tabReopenConcurrent.hidden = true;
-  document.querySelectorAll('.map-civ-beacon').forEach(b => b.classList.remove('is-selected'));
+  document.querySelectorAll('.geo-beacon-jewel').forEach(b => b.classList.remove('is-selected'));
   selectedCiv = null;
   if (typeof updateSynchronousState === 'function') {
     try {
@@ -3352,80 +3352,27 @@ let prevRibbonX = curRibbonX;
 
 
 /* ==========================================================================
-   CONCEPT A : INITIALISATION DES BALISES & CARTOUCHES D'OR SUR L'ATLAS
+   INITIALISATION DES JOYAUX D'OR STELLAIRES SUR L'ATLAS
    ========================================================================== */
 function initMapBeacons() {
   const container = document.getElementById('synchronous-halos-layer');
   if (!container || !Array.isArray(CIVILISATIONS_REGISTRY)) return;
 
-  const existingBeacons = container.querySelectorAll('.map-civ-beacon');
-  if (existingBeacons.length > 0) {
-    // Les balises sont déjà pré-rendues dans le HTML : attacher les gestionnaires de clic
-    existingBeacons.forEach(beacon => {
-      const cId = beacon.getAttribute('data-civ-id');
+  const existingJewels = container.querySelectorAll('.geo-beacon-jewel');
+  if (existingJewels.length > 0) {
+    existingJewels.forEach(jewel => {
+      const cId = jewel.getAttribute('data-civ-id');
       const civ = CIVILISATIONS_REGISTRY.find(c => c.id === cId);
-      if (civ && !beacon._boundClick) {
-        beacon._boundClick = true;
-        beacon.addEventListener('click', (e) => {
+      if (civ && !jewel._boundClick) {
+        jewel._boundClick = true;
+        jewel.addEventListener('click', (e) => {
           e.stopPropagation();
           lockCivSidebar(civ);
         });
       }
     });
-  } else {
-    container.innerHTML = '';
-    CIVILISATIONS_REGISTRY.forEach(civ => {
-      if (!civ.travelingOrigin) return;
-      const parts = civ.travelingOrigin.trim().split(/\s+/);
-      if (parts.length < 2) return;
-      const left = parts[0];
-      const top = parts[1];
-
-      const numLeft = parseFloat(left);
-      const numTop = parseFloat(top);
-
-      // Orientation calculée pour éviter tout chevauchement entre voisins
-      let posClass = 'pos-top';
-      if (numLeft < 48.0) {
-        posClass = 'pos-left';   // Ouest : Canaries, Ibérie
-      } else if (numLeft > 55.5) {
-        posClass = 'pos-right';  // Est : Mésopotamie, Perse
-      } else if (numTop > 46.0) {
-        posClass = 'pos-bottom'; // Sud : Égypte, Crète, Islam
-      } else {
-        posClass = 'pos-top';    // Nord : Europe, Italie, Grèce
-      }
-
-      const beacon = document.createElement('div');
-      beacon.className = `map-civ-beacon ${posClass}`;
-      beacon.id = `beacon-${civ.id}`;
-      beacon.style.left = left;
-      beacon.style.top = top;
-      beacon.setAttribute('data-civ-id', civ.id);
-
-      // Titre allégé pour la carte (retrait du préfixe régional redondant)
-      const shortName = (civ.name || '').replace(/^(Égypte|Mésopotamie|Grèce|Italie|Étrurie|Iran|Islam|Occident|Péninsule Ibérique|Europe)\s*:\s*/i, '');
-
-      beacon.innerHTML = `
-        <div class="beacon-pulse"></div>
-        <div class="beacon-anchor"></div>
-        <div class="beacon-stem"></div>
-        <div class="beacon-card" title="Explorer ${escapeHtmlAttr(civ.name)}">
-          <span class="beacon-title">✦ ${shortName}</span>
-          <span class="beacon-dates">${civ.epoch || ''}</span>
-        </div>
-      `;
-
-      beacon.addEventListener('click', (e) => {
-        e.stopPropagation();
-        lockCivSidebar(civ);
-      });
-
-      container.appendChild(beacon);
-    });
   }
 
-  // Activer immédiatement l'affichage synchrone initial
   setTimeout(() => {
     if (typeof updateSynchronousState === 'function') {
       try {
@@ -3452,7 +3399,7 @@ function updateSynchronousState(screenX) {
   });
 
   // Mise à jour synchrone des balises & cartouches d'or sur la carte (Concept A)
-  document.querySelectorAll('.map-civ-beacon').forEach(beacon => {
+  document.querySelectorAll('.geo-beacon-jewel').forEach(beacon => {
     const cId = (beacon.getAttribute && beacon.getAttribute('data-civ-id')) || (beacon.dataset && beacon.dataset.civId);
     if (activeCivIds.has(cId) || (selectedCiv && selectedCiv.id === cId)) {
       beacon.classList.add('active');
