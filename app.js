@@ -3168,6 +3168,19 @@ function lockCivSidebar(civ) {
   isLockedSidebar = true;
   lastActiveCiv = civ;
   showCivPreview(civ);
+
+  // Assure que la voie temporelle de cette civilisation est centrée et visible (évite d'être coupée en bas)
+  if (civ && civ.lane && timelineSplitWrapper) {
+    const targetLane = document.querySelector(`.timeline-lane[data-lane="${civ.lane}"]`);
+    if (targetLane) {
+      const topPos = targetLane.offsetTop;
+      const viewH = timelineSplitWrapper.clientHeight;
+      timelineSplitWrapper.scrollTo({
+        top: Math.max(0, topPos - (viewH / 2) + 20),
+        behavior: 'smooth'
+      });
+    }
+  }
 }
 
 function collapseCivSidebar() {
@@ -3537,14 +3550,21 @@ function resetTimelineZoom() {
 const masterTimelineBar = document.getElementById('master-timeline-bar');
 if (masterTimelineBar) {
   masterTimelineBar.addEventListener('wheel', (e) => {
-    if (e.target.closest('#timeline-labels-column')) {
+    // 1. Zoom explicite : Ctrl / Cmd + Molette, ou molette au-dessus de la règle temporelle
+    const isOnRuler = e.target.closest('#ruler-scale-bar') || e.target.closest('#ruler-legend-strip');
+    const isPinchOrCtrl = e.ctrlKey || e.metaKey;
+
+    if (isPinchOrCtrl || isOnRuler) {
+      e.preventDefault();
+      zoomTimelineAt(e.clientX, e.deltaY);
       return;
     }
-    e.preventDefault();
 
-    // Détection d'un swipe horizontal trackpad à 2 doigts
-    if (Math.abs(e.deltaX) > Math.abs(e.deltaY) && Math.abs(e.deltaX) > 2) {
-      curRibbonX = curRibbonX - e.deltaX;
+    // 2. Défilement horizontal trackpad (swipe latéral) ou Shift + Molette
+    if (e.shiftKey || (Math.abs(e.deltaX) > Math.abs(e.deltaY) && Math.abs(e.deltaX) > 2)) {
+      e.preventDefault();
+      const delta = e.shiftKey ? e.deltaY : e.deltaX;
+      curRibbonX = curRibbonX - delta;
       const minX = -(getRibbonWidth() - masterContainer.clientWidth);
       curRibbonX = Math.max(minX, Math.min(0, curRibbonX));
       prevRibbonX = curRibbonX;
@@ -3555,9 +3575,13 @@ if (masterTimelineBar) {
       if (rulerSparksLayer) rulerSparksLayer.style.transform = `translateX(${curRibbonX}px)`;
       updateStickyBlockTitles();
       updateSynchronousState(e.clientX);
-    } else {
-      // Zoom temporel continu centré sur la position exacte de la souris
-      zoomTimelineAt(e.clientX, e.deltaY);
+      return;
+    }
+
+    // 3. Défilement vertical standard (molette haut/bas pour voir toutes les voies sans blocage)
+    if (timelineSplitWrapper) {
+      e.preventDefault();
+      timelineSplitWrapper.scrollTop += e.deltaY;
     }
   }, { passive: false });
 }

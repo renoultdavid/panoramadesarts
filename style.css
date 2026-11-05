@@ -1824,8 +1824,8 @@ body {
 }
 
 .timeline-lane-spacer {
-  height: 20px;
-  min-height: 20px;
+  height: 80px;
+  min-height: 80px;
   flex-shrink: 0;
   pointer-events: none;
 }
