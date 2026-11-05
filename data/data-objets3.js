@@ -1,7 +1,7 @@
 /* ==========================================================================
    REGISTRE COMPLET DES NOTICES D'ŒUVRES D'ART - VOLUME 3
    Arts du Levant, Lycie & Anatolie, Europe néolithique & Mégalithes,
-   Peuples italiques & Grande-Grèce
+   Peuples italiques & Grande-Grèce 
    ========================================================================== */
 window.ART_OBJECTS = [
 {
