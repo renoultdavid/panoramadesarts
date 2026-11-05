@@ -2781,7 +2781,108 @@ window.addEventListener('DOMContentLoaded', () => {
   initSearchEngine();
 });
 
+/* ==========================================================================
+   MODÈLE TERRE : NIVEAU 1 (GRANDS MONDES CULTURELS MACROSCOPIQUES)
+   ========================================================================== */
+const MACRO_MONDES_REGISTRY = [
+  {
+    id: "macro_orient",
+    name: "Proche-Orient & Mésopotamie",
+    subtitle: "Sumer • Akkad • Babylone • Assyrie",
+    yearStart: -3500,
+    yearEnd: -330,
+    color: "#b45309",
+    gradient: "linear-gradient(90deg, rgba(180, 83, 9, 0.45) 0%, rgba(217, 119, 6, 0.4) 100%)",
+    border: "#d97706"
+  },
+  {
+    id: "macro_egypte",
+    name: "Égypte des Pharaons & Nubie",
+    subtitle: "Ancien, Moyen & Nouvel Empire • Basse Époque",
+    yearStart: -3100,
+    yearEnd: -30,
+    color: "#0284c7",
+    gradient: "linear-gradient(90deg, rgba(2, 132, 199, 0.45) 0%, rgba(56, 189, 248, 0.4) 100%)",
+    border: "#38bdf8"
+  },
+  {
+    id: "macro_egee_rome",
+    name: "Méditerranée Antique & Monde Égéen",
+    subtitle: "Cyclades • Crète • Grèce • Étrurie • Rome",
+    yearStart: -3200,
+    yearEnd: 476,
+    color: "#4338ca",
+    gradient: "linear-gradient(90deg, rgba(67, 56, 202, 0.45) 0%, rgba(99, 102, 241, 0.4) 100%)",
+    border: "#818cf8"
+  },
+  {
+    id: "macro_perse",
+    name: "Iran Antique & Empires Perse",
+    subtitle: "Élam • Mèdes • Achéménides • Parthes • Sassanides",
+    yearStart: -2700,
+    yearEnd: 651,
+    color: "#9d174d",
+    gradient: "linear-gradient(90deg, rgba(157, 23, 77, 0.45) 0%, rgba(219, 39, 119, 0.4) 100%)",
+    border: "#f472b6"
+  },
+  {
+    id: "macro_islam",
+    name: "Mondes de l'Islam",
+    subtitle: "Omeyyades • Abbassides • Fatimides • Ottomans",
+    yearStart: 661,
+    yearEnd: 1922,
+    color: "#15803d",
+    gradient: "linear-gradient(90deg, rgba(21, 128, 61, 0.45) 0%, rgba(34, 197, 94, 0.4) 100%)",
+    border: "#4ade80"
+  },
+  {
+    id: "macro_occident",
+    name: "Occident & Europe (Mégalithes, Celtes & Modernité)",
+    subtitle: "Mégalithes • Âge du Fer • Moyen Âge • Temps Modernes",
+    yearStart: -4500,
+    yearEnd: 2000,
+    color: "#0f766e",
+    gradient: "linear-gradient(90deg, rgba(15, 118, 110, 0.45) 0%, rgba(20, 184, 166, 0.4) 100%)",
+    border: "#2dd4bf"
+  }
+];
+
 function buildTimelineBlocks() {
+  // 0. Rendu du niveau supérieur : Grands Mondes Culturels (Étage 1 Modèle Terre)
+  const macroLaneEl = document.querySelector('.timeline-lane[data-lane="macro_mondes"]');
+  if (macroLaneEl && Array.isArray(MACRO_MONDES_REGISTRY)) {
+    macroLaneEl.innerHTML = '';
+    const macroTrackEnds = [];
+
+    MACRO_MONDES_REGISTRY.forEach(m => {
+      let track = 0;
+      while (macroTrackEnds[track] !== undefined && macroTrackEnds[track] > m.yearStart) {
+        track++;
+      }
+      macroTrackEnds[track] = m.yearEnd;
+      m._track = track;
+
+      const visibleStart = Math.max(m.yearStart, YEAR_MIN);
+      const visibleEnd = Math.min(m.yearEnd, YEAR_MAX);
+      const x1 = yearToPixel(visibleStart);
+      const x2 = yearToPixel(visibleEnd);
+      const width = Math.max(x2 - x1, 40);
+
+      const block = document.createElement('div');
+      block.className = `macro-world-block track-${track}`;
+      block.style.left = `${x1}px`;
+      block.style.width = `${width}px`;
+      block.style.background = m.gradient;
+      block.style.border = `1px solid ${m.border}`;
+
+      block.innerHTML = `<span class="macro-world-title">✦ ${m.name}</span>`;
+      block.title = `${m.name} (${m.subtitle}) : ${m.yearStart < 0 ? Math.abs(m.yearStart) + ' av. J.-C.' : m.yearStart} à ${m.yearEnd < 0 ? Math.abs(m.yearEnd) + ' av. J.-C.' : m.yearEnd}`;
+
+      m._blockEl = block;
+      macroLaneEl.appendChild(block);
+    });
+  }
+
   // 1. Détection des chevauchements temporels et assignation des pistes (Multi-tracks anti-collision)
   const laneCivsMap = {};
   CIVILISATIONS_REGISTRY.forEach(civ => {
@@ -2814,6 +2915,19 @@ function buildTimelineBlocks() {
   });
 
   // 2. Création des blocs de frise
+  if (Array.isArray(MACRO_MONDES_REGISTRY)) {
+    MACRO_MONDES_REGISTRY.forEach(m => {
+      if (!m._blockEl) return;
+      const visibleStart = Math.max(m.yearStart, YEAR_MIN);
+      const visibleEnd = Math.min(m.yearEnd, YEAR_MAX);
+      const x1 = yearToPixel(visibleStart);
+      const x2 = yearToPixel(visibleEnd);
+      const width = Math.max(x2 - x1, 40);
+      m._blockEl.style.left = `${x1}px`;
+      m._blockEl.style.width = `${width}px`;
+    });
+  }
+
   CIVILISATIONS_REGISTRY.forEach((civ) => {
     const laneEl = document.querySelector(`.timeline-lane[data-lane="${civ.lane}"]`);
     if (!laneEl) return;
@@ -2897,6 +3011,19 @@ function buildTimelineBlocks() {
 }
 
 function updateStickyBlockTitles() {
+  if (Array.isArray(MACRO_MONDES_REGISTRY)) {
+    MACRO_MONDES_REGISTRY.forEach(m => {
+      if (!m._blockEl) return;
+      const visibleStart = Math.max(m.yearStart, YEAR_MIN);
+      const visibleEnd = Math.min(m.yearEnd, YEAR_MAX);
+      const x1 = yearToPixel(visibleStart);
+      const x2 = yearToPixel(visibleEnd);
+      const width = Math.max(x2 - x1, 40);
+      m._blockEl.style.left = `${x1}px`;
+      m._blockEl.style.width = `${width}px`;
+    });
+  }
+
   CIVILISATIONS_REGISTRY.forEach((civ) => {
     if (!civ._blockEl) return;
     const titleEl = civ._blockEl.querySelector('.civ-block-title');
@@ -2928,6 +3055,19 @@ function updateTimelineLayout() {
   if (rulerTrack) rulerTrack.style.width = `${totalW}px`;
   if (rulerEventsLayer) rulerEventsLayer.style.width = `${totalW}px`;
   if (rulerSparksLayer) rulerSparksLayer.style.width = `${totalW}px`;
+
+  if (Array.isArray(MACRO_MONDES_REGISTRY)) {
+    MACRO_MONDES_REGISTRY.forEach(m => {
+      if (!m._blockEl) return;
+      const visibleStart = Math.max(m.yearStart, YEAR_MIN);
+      const visibleEnd = Math.min(m.yearEnd, YEAR_MAX);
+      const x1 = yearToPixel(visibleStart);
+      const x2 = yearToPixel(visibleEnd);
+      const width = Math.max(x2 - x1, 40);
+      m._blockEl.style.left = `${x1}px`;
+      m._blockEl.style.width = `${width}px`;
+    });
+  }
 
   CIVILISATIONS_REGISTRY.forEach((civ) => {
     if (!civ._blockEl) return;
@@ -3133,7 +3273,7 @@ function showCivPreview(civ) {
   hoverSidebar.classList.add(civ.sidePos || 'pos-left');
   hoverSidebar.classList.add('visible');
 
-  document.querySelectorAll('.map-civ-beacon').forEach(b => b.classList.remove('is-selected'));
+  document.querySelectorAll('.geo-beacon-jewel').forEach(b => b.classList.remove('is-selected'));
   const activeBeacon = document.getElementById(`beacon-${civ.id}`);
   if (activeBeacon) {
     activeBeacon.classList.add('active', 'is-selected');
@@ -3169,7 +3309,7 @@ function hideCivPreview() {
   hoverSidebar.classList.remove('visible');
   if (concurrentSidebar) concurrentSidebar.classList.remove('visible');
   if (tabReopenConcurrent) tabReopenConcurrent.hidden = true;
-  document.querySelectorAll('.map-civ-beacon').forEach(b => b.classList.remove('is-selected'));
+  document.querySelectorAll('.geo-beacon-jewel').forEach(b => b.classList.remove('is-selected'));
   selectedCiv = null;
   if (typeof updateSynchronousState === 'function') {
     try {
@@ -3352,80 +3492,54 @@ let prevRibbonX = curRibbonX;
 
 
 /* ==========================================================================
-   CONCEPT A : INITIALISATION DES BALISES & CARTOUCHES D'OR SUR L'ATLAS
+   MODÈLE TERRE : INITIALISATION DU MÉDAILLON PIP & DES JOYAUX GÉOGRAPHIQUES
    ========================================================================== */
 function initMapBeacons() {
   const container = document.getElementById('synchronous-halos-layer');
-  if (!container || !Array.isArray(CIVILISATIONS_REGISTRY)) return;
-
-  const existingBeacons = container.querySelectorAll('.map-civ-beacon');
-  if (existingBeacons.length > 0) {
-    // Les balises sont déjà pré-rendues dans le HTML : attacher les gestionnaires de clic
-    existingBeacons.forEach(beacon => {
-      const cId = beacon.getAttribute('data-civ-id');
-      const civ = CIVILISATIONS_REGISTRY.find(c => c.id === cId);
-      if (civ && !beacon._boundClick) {
-        beacon._boundClick = true;
-        beacon.addEventListener('click', (e) => {
-          e.stopPropagation();
-          lockCivSidebar(civ);
-        });
-      }
-    });
-  } else {
-    container.innerHTML = '';
-    CIVILISATIONS_REGISTRY.forEach(civ => {
-      if (!civ.travelingOrigin) return;
-      const parts = civ.travelingOrigin.trim().split(/\s+/);
-      if (parts.length < 2) return;
-      const left = parts[0];
-      const top = parts[1];
-
-      const numLeft = parseFloat(left);
-      const numTop = parseFloat(top);
-
-      // Orientation calculée pour éviter tout chevauchement entre voisins
-      let posClass = 'pos-top';
-      if (numLeft < 48.0) {
-        posClass = 'pos-left';   // Ouest : Canaries, Ibérie
-      } else if (numLeft > 55.5) {
-        posClass = 'pos-right';  // Est : Mésopotamie, Perse
-      } else if (numTop > 46.0) {
-        posClass = 'pos-bottom'; // Sud : Égypte, Crète, Islam
-      } else {
-        posClass = 'pos-top';    // Nord : Europe, Italie, Grèce
-      }
-
-      const beacon = document.createElement('div');
-      beacon.className = `map-civ-beacon ${posClass}`;
-      beacon.id = `beacon-${civ.id}`;
-      beacon.style.left = left;
-      beacon.style.top = top;
-      beacon.setAttribute('data-civ-id', civ.id);
-
-      // Titre allégé pour la carte (retrait du préfixe régional redondant)
-      const shortName = (civ.name || '').replace(/^(Égypte|Mésopotamie|Grèce|Italie|Étrurie|Iran|Islam|Occident|Péninsule Ibérique|Europe)\s*:\s*/i, '');
-
-      beacon.innerHTML = `
-        <div class="beacon-pulse"></div>
-        <div class="beacon-anchor"></div>
-        <div class="beacon-stem"></div>
-        <div class="beacon-card" title="Explorer ${escapeHtmlAttr(civ.name)}">
-          <span class="beacon-title">✦ ${shortName}</span>
-          <span class="beacon-dates">${civ.epoch || ''}</span>
-        </div>
-      `;
-
-      beacon.addEventListener('click', (e) => {
-        e.stopPropagation();
-        lockCivSidebar(civ);
+  if (container && Array.isArray(CIVILISATIONS_REGISTRY)) {
+    const existingJewels = container.querySelectorAll('.geo-beacon-jewel');
+    if (existingJewels.length > 0) {
+      existingJewels.forEach(jewel => {
+        const cId = jewel.getAttribute('data-civ-id');
+        const civ = CIVILISATIONS_REGISTRY.find(c => c.id === cId);
+        if (civ && !jewel._boundClick) {
+          jewel._boundClick = true;
+          jewel.addEventListener('click', (e) => {
+            e.stopPropagation();
+            lockCivSidebar(civ);
+          });
+        }
       });
+    }
+  }
 
-      container.appendChild(beacon);
+  // Initialisation des contrôles du médaillon PIP
+  const btnPipExpand = document.getElementById('btn-pip-expand');
+  const btnPipToggle = document.getElementById('btn-pip-toggle');
+  const pipMedallion = document.getElementById('atlas-pip-medallion');
+
+  if (btnPipExpand && pipMedallion && !btnPipExpand._bound) {
+    btnPipExpand._bound = true;
+    btnPipExpand.addEventListener('click', (e) => {
+      e.stopPropagation();
+      pipMedallion.classList.toggle('is-expanded');
+      const isExp = pipMedallion.classList.contains('is-expanded');
+      btnPipExpand.textContent = isExp ? '✕' : '⛶';
+      btnPipExpand.title = isExp ? 'Fermer le plein écran' : 'Agrandir la carte';
     });
   }
 
-  // Activer immédiatement l'affichage synchrone initial
+  if (btnPipToggle && pipMedallion && !btnPipToggle._bound) {
+    btnPipToggle._bound = true;
+    btnPipToggle.addEventListener('click', (e) => {
+      e.stopPropagation();
+      pipMedallion.classList.toggle('is-collapsed');
+      const isCol = pipMedallion.classList.contains('is-collapsed');
+      btnPipToggle.textContent = isCol ? '▸' : '▾';
+      btnPipToggle.title = isCol ? 'Déplier la carte' : 'Minimiser la carte';
+    });
+  }
+
   setTimeout(() => {
     if (typeof updateSynchronousState === 'function') {
       try {
@@ -3451,8 +3565,20 @@ function updateSynchronousState(screenX) {
     }
   });
 
-  // Mise à jour synchrone des balises & cartouches d'or sur la carte (Concept A)
-  document.querySelectorAll('.map-civ-beacon').forEach(beacon => {
+  // Mise à jour du tag de foyer actif dans le médaillon PIP
+  const pipPill = document.getElementById('pip-focus-pill');
+  if (pipPill) {
+    if (selectedCiv) {
+      pipPill.textContent = (selectedCiv.name || '').split(':')[0].trim();
+    } else if (activeCivIds.size > 0) {
+      pipPill.textContent = `${activeCivIds.size} foyers actifs`;
+    } else {
+      pipPill.textContent = 'Monde';
+    }
+  }
+
+  // Mise à jour synchrone des joyaux d'or sur la carte (Modèle Terre)
+  document.querySelectorAll('.geo-beacon-jewel').forEach(beacon => {
     const cId = (beacon.getAttribute && beacon.getAttribute('data-civ-id')) || (beacon.dataset && beacon.dataset.civId);
     if (activeCivIds.has(cId) || (selectedCiv && selectedCiv.id === cId)) {
       beacon.classList.add('active');

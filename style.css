@@ -663,208 +663,346 @@ body {
 }
 
 /* =========================================================
-   CONCEPT A : BALISES D'OR & CARTOUCHES TYPOGRAPHIQUES SUR L'ATLAS
+   MODÈLE TERRE : MÉDAILLON ATLAS PIP & JOYAUX D'OR STELLAIRES
    ========================================================= */
-.map-civ-beacon {
+.atlas-pip-medallion {
+  position: absolute;
+  top: 14px;
+  right: 24px;
+  width: 330px;
+  height: 220px;
+  background: rgba(8, 11, 16, 0.94);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 1.5px solid rgba(212, 175, 55, 0.45);
+  border-radius: 8px;
+  box-shadow: 0 16px 45px rgba(0, 0, 0, 0.9), 0 0 20px rgba(212, 175, 55, 0.15);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  z-index: 35;
+  transition: width 0.35s cubic-bezier(0.16, 1, 0.3, 1), 
+              height 0.35s cubic-bezier(0.16, 1, 0.3, 1),
+              top 0.35s ease, right 0.35s ease, transform 0.35s ease;
+}
+
+.atlas-pip-medallion .pip-header {
+  height: 32px;
+  background: linear-gradient(135deg, rgba(22, 28, 42, 0.98) 0%, rgba(10, 14, 22, 0.99) 100%);
+  border-bottom: 1px solid rgba(212, 175, 55, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  flex-shrink: 0;
+  user-select: none;
+}
+
+.pip-title-box {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.pip-compass-icon {
+  font-size: 0.85rem;
+}
+
+.pip-title {
+  font-family: 'Cinzel', serif;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 1.1px;
+  color: var(--gold-pale, #d4af37);
+  text-transform: uppercase;
+}
+
+.pip-focus-pill {
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.55rem;
+  background: rgba(212, 175, 55, 0.15);
+  border: 1px solid rgba(212, 175, 55, 0.35);
+  color: #fff;
+  border-radius: 10px;
+  padding: 1px 7px;
+  max-width: 120px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.pip-controls {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.btn-pip-tool {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(212, 175, 55, 0.25);
+  color: var(--gold-pale, #d4af37);
+  border-radius: 4px;
+  width: 22px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-pip-tool:hover {
+  background: rgba(212, 175, 55, 0.3);
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.atlas-pip-medallion .pip-body {
+  position: relative;
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #020305;
+}
+
+/* HUD Hotspots miniature dans le médaillon */
+.pip-hotspot-hud {
+  position: absolute;
+  top: 6px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 25;
+  background: rgba(6, 9, 14, 0.88);
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  border-radius: 20px;
+  padding: 2px 6px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
+}
+
+.pip-hotspot-hud .hotspot-btn-group {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.pip-hotspot-hud .btn-hotspot {
+  background: transparent;
+  border: none;
+  font-size: 0.72rem;
+  padding: 2px 4px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.15s ease;
+}
+
+.pip-hotspot-hud .btn-hotspot:hover,
+.pip-hotspot-hud .btn-hotspot.active {
+  background: rgba(212, 175, 55, 0.25);
+}
+
+.pip-hotspot-hud .hotspot-zoom-tools {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  border-left: 1px solid rgba(212, 175, 55, 0.25);
+  padding-left: 4px;
+}
+
+.pip-hotspot-hud .btn-map-zoom-tool {
+  background: transparent;
+  border: none;
+  color: var(--gold-pale, #d4af37);
+  width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7rem;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.pip-hotspot-hud .btn-map-zoom-tool:hover {
+  background: rgba(212, 175, 55, 0.25);
+  color: #fff;
+}
+
+/* Mode Agrandissement Plein Écran de l'Atlas */
+.atlas-pip-medallion.is-expanded {
+  top: 50% !important;
+  left: 50% !important;
+  right: auto !important;
+  transform: translate(-50%, -50%) !important;
+  width: min(1120px, 94vw) !important;
+  height: min(720px, 84vh) !important;
+  z-index: 60 !important;
+  box-shadow: 0 25px 80px rgba(0, 0, 0, 0.98), 0 0 40px rgba(212, 175, 55, 0.4) !important;
+}
+
+/* Mode Replié / Minimisé */
+.atlas-pip-medallion.is-collapsed {
+  height: 32px !important;
+  width: 185px !important;
+}
+.atlas-pip-medallion.is-collapsed .pip-body {
+  display: none !important;
+}
+
+/* =========================================================
+   JOYAUX D'OR STELLAIRES SUR LA CARTE (ZÉRO ENCOMBREMENT)
+   ========================================================= */
+.geo-beacon-jewel {
   position: absolute;
   transform: translate(-50%, -50%);
   pointer-events: auto;
   opacity: 0;
   visibility: hidden;
-  transition: opacity 0.35s cubic-bezier(0.16, 1, 0.3, 1), transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), visibility 0.35s;
+  transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s;
   cursor: pointer;
   z-index: 10;
   user-select: none;
 }
 
-.map-civ-beacon.active {
+.geo-beacon-jewel.active {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
 }
 
-/* Le point d'ancrage or pur (Anchor Jewel) */
-.beacon-anchor {
-  position: absolute;
-  left: 50%;
-  top: 50%;
+.jewel-anchor {
   width: 8px;
   height: 8px;
   background: radial-gradient(circle, #fffbe6 0%, #d4af37 60%, #997819 100%);
   border: 1.5px solid #ffffff;
   border-radius: 50%;
-  transform: translate(-50%, -50%);
-  box-shadow: 0 0 10px rgba(212, 175, 55, 0.95), 0 0 20px rgba(212, 175, 55, 0.4);
-  z-index: 3;
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  box-shadow: 0 0 8px rgba(212, 175, 55, 0.95), 0 0 16px rgba(212, 175, 55, 0.5);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-/* Onde radiale dorée discrète */
-.beacon-pulse {
+.jewel-pulse {
   position: absolute;
   left: 50%;
   top: 50%;
-  width: 22px;
-  height: 22px;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
-  border: 1px solid rgba(212, 175, 55, 0.7);
-  transform: translate(-50%, -50%) scale(0.5);
+  border: 1px solid rgba(212, 175, 55, 0.65);
+  transform: translate(-50%, -50%) scale(0.4);
   opacity: 0;
   pointer-events: none;
   animation: beaconPulseAnim 2.8s cubic-bezier(0.2, 0.8, 0.4, 1) infinite;
 }
 
-@keyframes beaconPulseAnim {
-  0% {
-    transform: translate(-50%, -50%) scale(0.4);
-    opacity: 0.9;
-  }
-  70% {
-    transform: translate(-50%, -50%) scale(2.2);
-    opacity: 0;
-  }
-  100% {
-    transform: translate(-50%, -50%) scale(2.2);
-    opacity: 0;
-  }
-}
-
-/* Filet de connexion vers le cartouche */
-.beacon-stem {
+.jewel-tooltip {
   position: absolute;
-  pointer-events: none;
-  z-index: 2;
-}
-
-/* Le Cartouche d'Or Flottant */
-.beacon-card {
-  position: absolute;
-  background: linear-gradient(135deg, rgba(14, 18, 26, 0.95) 0%, rgba(6, 8, 12, 0.98) 100%);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border: 1px solid rgba(212, 175, 55, 0.5);
+  bottom: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%) translateY(4px);
+  background: rgba(10, 14, 22, 0.96);
+  backdrop-filter: blur(8px);
+  border: 1px solid var(--gold-pure, #d4af37);
   border-radius: 3px;
-  padding: 4px 8px;
-  white-space: nowrap;
-  display: flex;
-  flex-direction: column;
-  gap: 1px;
-  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.9), 0 0 10px rgba(212, 175, 55, 0.15);
-  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
-  pointer-events: auto;
-  z-index: 4;
-}
-
-.beacon-title {
+  padding: 3px 8px;
   font-family: 'Cinzel', serif;
   font-size: 0.62rem;
   font-weight: 700;
-  letter-spacing: 1.1px;
-  text-transform: uppercase;
-  color: #f7ebd0;
-  display: flex;
-  align-items: center;
-  gap: 5px;
+  color: #fff;
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.85);
+  z-index: 20;
 }
 
-.beacon-dates {
+.tooltip-epoch {
   font-family: 'Outfit', sans-serif;
   font-size: 0.55rem;
   color: var(--gold-pale, #d4af37);
-  letter-spacing: 0.4px;
-  font-weight: 500;
-  opacity: 0.88;
+  font-weight: 400;
+  margin-left: 4px;
 }
 
-/* Variantes d'orientation anti-chevauchement */
-/* 1. Pos-top (Nord) */
-.map-civ-beacon.pos-top .beacon-stem {
-  width: 1px;
-  height: 15px;
-  background: linear-gradient(to top, rgba(212, 175, 55, 0.9), rgba(212, 175, 55, 0.2));
-  left: 50%;
-  bottom: 50%;
-  transform: translateX(-50%);
-}
-.map-civ-beacon.pos-top .beacon-card {
-  bottom: calc(50% + 15px);
-  left: 50%;
-  transform: translateX(-50%);
+.geo-beacon-jewel:hover .jewel-tooltip,
+.geo-beacon-jewel.is-selected .jewel-tooltip {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) translateY(0);
 }
 
-/* 2. Pos-bottom (Sud : Égypte, Crète, Islam) */
-.map-civ-beacon.pos-bottom .beacon-stem {
-  width: 1px;
-  height: 15px;
-  background: linear-gradient(to bottom, rgba(212, 175, 55, 0.9), rgba(212, 175, 55, 0.2));
-  left: 50%;
-  top: 50%;
-  transform: translateX(-50%);
-}
-.map-civ-beacon.pos-bottom .beacon-card {
-  top: calc(50% + 15px);
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-/* 3. Pos-left (Ouest : Canaries, Ibérie) */
-.map-civ-beacon.pos-left .beacon-stem {
-  height: 1px;
-  width: 15px;
-  background: linear-gradient(to left, rgba(212, 175, 55, 0.9), rgba(212, 175, 55, 0.2));
-  right: 50%;
-  top: 50%;
-  transform: translateY(-50%);
-}
-.map-civ-beacon.pos-left .beacon-card {
-  right: calc(50% + 15px);
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-/* 4. Pos-right (Est : Mésopotamie, Perse) */
-.map-civ-beacon.pos-right .beacon-stem {
-  height: 1px;
-  width: 15px;
-  background: linear-gradient(to right, rgba(212, 175, 55, 0.9), rgba(212, 175, 55, 0.2));
-  left: 50%;
-  top: 50%;
-  transform: translateY(-50%);
-}
-.map-civ-beacon.pos-right .beacon-card {
-  left: calc(50% + 15px);
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-/* Survol & Sélection active d'une balise */
-.map-civ-beacon:hover .beacon-card,
-.map-civ-beacon.is-selected .beacon-card {
-  border-color: #ffe699;
-  background: linear-gradient(135deg, rgba(24, 30, 44, 0.98) 0%, rgba(10, 14, 22, 0.99) 100%);
-  transform: translateX(-50%) translateY(-2px) scale(1.06);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.95), 0 0 16px rgba(255, 230, 153, 0.5);
-}
-
-.map-civ-beacon.pos-left:hover .beacon-card,
-.map-civ-beacon.pos-left.is-selected .beacon-card {
-  transform: translateY(-50%) translateX(-2px) scale(1.06);
-}
-
-.map-civ-beacon.pos-right:hover .beacon-card,
-.map-civ-beacon.pos-right.is-selected .beacon-card {
-  transform: translateY(-50%) translateX(2px) scale(1.06);
-}
-
-.map-civ-beacon:hover .beacon-anchor,
-.map-civ-beacon.is-selected .beacon-anchor {
-  transform: translate(-50%, -50%) scale(1.35);
+.geo-beacon-jewel:hover .jewel-anchor,
+.geo-beacon-jewel.is-selected .jewel-anchor {
+  transform: scale(1.45);
   box-shadow: 0 0 16px rgba(255, 230, 153, 1);
 }
 
-.map-civ-beacon:hover .beacon-title,
-.map-civ-beacon.is-selected .beacon-title {
+/* =========================================================
+   NIVEAU 1 : GRANDS MONDES CULTURELS (MODÈLE TERRE)
+   ========================================================= */
+.timeline-lane.timeline-macro-lane {
+  height: 64px !important;
+  min-height: 64px !important;
+  background: rgba(10, 14, 22, 0.65);
+  border-bottom: 2px solid rgba(212, 175, 55, 0.35);
+  box-sizing: border-box;
+}
+
+.lane-fixed-label.lane-macro-label {
+  height: 64px !important;
+  min-height: 64px !important;
+  background: linear-gradient(135deg, rgba(22, 28, 44, 0.99) 0%, rgba(8, 11, 16, 1) 100%);
+  border-bottom: 2px solid rgba(212, 175, 55, 0.35);
+  font-weight: 700;
+  color: #fffbe6;
+  letter-spacing: 1.5px;
+  box-sizing: border-box;
+}
+
+.macro-world-block {
+  position: absolute;
+  height: 26px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  cursor: pointer;
+  white-space: nowrap;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.macro-world-block.track-0 {
+  top: 4px;
+}
+
+.macro-world-block.track-1 {
+  top: 34px;
+}
+
+.macro-world-block:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.2);
+  box-shadow: 0 5px 15px rgba(212, 175, 55, 0.4);
+}
+
+.macro-world-title {
+  font-family: 'Cinzel', serif;
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 1px;
   color: #ffffff;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.95);
+  text-transform: uppercase;
+  pointer-events: none;
 }
 
 #civilisation-map-overlay {
@@ -1245,11 +1383,16 @@ body {
 /* =========================================================
    BLOC BAS (TIROIR + FRISE)
    ========================================================= */
+#timeline-main-stage,
 #timeline-dock {
+  flex: 1;
   display: flex;
   flex-direction: column;
-  flex-shrink: 0;
-  z-index: 30;
+  height: 100%;
+  min-height: 0;
+  overflow: hidden;
+  position: relative;
+  z-index: 10;
 }
 
 #sub-timeline-drawer {
@@ -1485,15 +1628,16 @@ body {
   color: var(--gold-pure, #d4af37) !important;
 }
 
-/* FRISE MAÎTRESSE */
+/* FRISE MAÎTRESSE (MODÈLE TERRE - 80% À 100% DE HAUTEUR) */
 #master-timeline-bar {
-  height: 480px;
+  flex: 1 !important;
+  height: 100% !important;
+  min-height: 0 !important;
   background: linear-gradient(to top, rgba(4, 5, 7, 0.98) 0%, rgba(14, 17, 24, 0.94) 100%);
-  border-top: 1px solid rgba(212, 175, 55, 0.2);
+  border-top: none !important;
   display: flex;
   flex-direction: column;
   position: relative;
-  transition: height 0.4s ease;
 }
 
 #ruler-scale-bar {
