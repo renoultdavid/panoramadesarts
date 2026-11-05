@@ -991,9 +991,10 @@ const BANNERS_REGISTRY = {
   // 11. Levant précéramique (Aïn Ghazal)
   neolithique_levant: "https://lh3.googleusercontent.com/pw/AP1GczOPeZnIjY1C_Ki0DMKfpQaJoWa5Pg3TN-8M-qpC0M7INEfxpxdpcxWPCV--j-uRbxgHXNfcouGgrv58GpF0U7mP-Ia5QDUOcC3b29pP9U-5v6Pq-klVbUxIEtN0FKR81eCz6mx2CTti_XH9pzbsuebc1Q=w1759-h745-s-no-gm?authuser=0",
 
-  // 12. Occident chrétien, Cloîtres & Espaces sacrés
+  // 12. Occident chrétien, Cloîtres, Nefs & Espaces sacrés
   occ_cloitre: "https://lh3.googleusercontent.com/pw/AP1GczOFyKkksjiJ30bePVHIjD83HKI5G_xH1UXgnxJ00Bs5v6ylXlbDZumeeNXuoMScZV-P8ucOnWv7bCGgmzrccfhsFKUjEEOtz-5qFBb1kVVkK2Y0f1gph7TCFMCf0P3w3leD6GGtDVeM_SUd_w-1WXGmvw=w1742-h740-s-no-gm?authuser=0",
-  occ_roman: "https://lh3.googleusercontent.com/pw/AP1GczOFyKkksjiJ30bePVHIjD83HKI5G_xH1UXgnxJ00Bs5v6ylXlbDZumeeNXuoMScZV-P8ucOnWv7bCGgmzrccfhsFKUjEEOtz-5qFBb1kVVkK2Y0f1gph7TCFMCf0P3w3leD6GGtDVeM_SUd_w-1WXGmvw=w1742-h740-s-no-gm?authuser=0"
+  occ_roman: "https://lh3.googleusercontent.com/pw/AP1GczOFyKkksjiJ30bePVHIjD83HKI5G_xH1UXgnxJ00Bs5v6ylXlbDZumeeNXuoMScZV-P8ucOnWv7bCGgmzrccfhsFKUjEEOtz-5qFBb1kVVkK2Y0f1gph7TCFMCf0P3w3leD6GGtDVeM_SUd_w-1WXGmvw=w1742-h740-s-no-gm?authuser=0",
+  occ_nef: "https://lh3.googleusercontent.com/pw/AP1GczNkfhhZc46ccjVqBWq4p8tLyx95_T1fFFR5cf0yrOtH_5xubpuC8OwbWVBnJlt1FqiFMRUZhaI2-Hoc4yi3qlKy4hsojZMmNjPV4sIjW0HcWoZ9ukMlMv2Um74mranBpSO8RT6qpS75_R0eiA6AGa90EA=w1584-h672-s-no-gm?authuser=0"
 };
 
 function getArtworkBanner(art) {
@@ -1123,8 +1124,11 @@ function getArtworkBanner(art) {
     return BANNERS_REGISTRY.meso_uruk;
   }
 
-  // 12. OCCIDENT CHRÉTIEN : CLOÎTRES & ESPACES SACRÉS
-  if (fullText.includes('cloître') || fullText.includes('cloitre') || pId === 'occ_roman' || (cId === 'occident' && (fullText.includes('nef') || fullText.includes('portail') || fullText.includes('tympan') || fullText.includes('voûte')))) {
+  // 12. OCCIDENT CHRÉTIEN : NEFS & CLOÎTRES
+  if (art.artifactType === "Nef d'église / cathédrale" || (cId === 'occident' && (fullText.includes('nef') || fullText.includes('cathédrale') || fullText.includes('basilique')) && !fullText.includes('cloître'))) {
+    return BANNERS_REGISTRY.occ_nef;
+  }
+  if (fullText.includes('cloître') || fullText.includes('cloitre') || pId === 'occ_roman' || (cId === 'occident' && (fullText.includes('portail') || fullText.includes('tympan') || fullText.includes('voûte')))) {
     return BANNERS_REGISTRY.occ_cloitre;
   }
 
@@ -1337,7 +1341,7 @@ const CIVILISATIONS_REGISTRY = [
   },
   {
     id: "egypte_romaine",
-    name: "Égypte Romaine & Portraits du Fayoum",
+    name: "Égypte Romaine",
     epoch: "v. -30 av. J.-C. à +395 ap. J.-C.",
     yearStart: -30,
     yearEnd: 395,
@@ -5169,7 +5173,7 @@ const TAXONOMY_CIVILISATIONS = {
       { id: "egypte_nouvel", label: "Nouvel Empire (-1550 à -1069)" },
       { id: "egypte_tardive", label: "Troisième Période intermédiaire & Basse Époque (-1069 à -332)" },
       { id: "egypte_ptolemaique", label: "Époque ptolémaïque / Lagide (-332 à -30)" },
-      { id: "egypte_romaine", label: "Égypte romaine & Portraits du Fayoum (-30 à +395)" }
+      { id: "egypte_romaine", label: "Égypte romaine (-30 à +395)" }
     ]
   },
   "mesopotamie": {
@@ -5338,7 +5342,7 @@ const TAXONOMY_DOMAINS = {
     types: [
       "Cloître",
       "Nef d'église / cathédrale",
-      "Plafond & Voûte peinte / astronomique",
+      "Plafond & Voûte peinte",
       "Portail & Tympan d'église",
       "Enclos sacré / Temple",
       "Retable & Chaire",
