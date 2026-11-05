@@ -1598,10 +1598,13 @@ body {
 }
 
 @keyframes clusterPulse {
-  0%, 100% {
+
+  0%,
+  100% {
     box-shadow: 0 0 8px rgba(212, 175, 55, 0.4);
     transform: scale(1);
   }
+
   50% {
     box-shadow: 0 0 16px rgba(212, 175, 55, 0.85);
     transform: scale(1.08);
