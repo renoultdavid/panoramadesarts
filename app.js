@@ -3319,7 +3319,7 @@ function openRegionalMap(civ) {
   const titleText = document.getElementById('civ-map-title-text');
   if (!overlay || !img) return;
 
-  const targetUrl = civ.mapOverlayUrl || civ.bannerImg || '';
+  const targetUrl = civ.mapOverlayUrl || '';
   if (targetUrl) {
     img.src = targetUrl;
     if (titleText) titleText.textContent = `Carte Régionale : ${civ.name}`;
@@ -3335,6 +3335,154 @@ function closeRegionalMap() {
     overlay.classList.remove('active');
     overlay.setAttribute('hidden', 'true');
     overlay.style.display = 'none';
+  }
+}
+
+function getCivGeographicData(civ) {
+  const lane = civ.lane || civ.id || '';
+  const cid = civ.id || '';
+
+  if (cid.startsWith('grece') || lane === 'grece' || lane === 'egee') {
+    return {
+      basin: "Bassin égéen, Grèce continentale, Cyclades & Ionie",
+      territoryDesc: "Le monde grec antique s'étend sur une mosaïque de territoires maritimes et montagneux, structurée autour de la mer Égée, du Péloponnèse, de l'Attique, des îles des Cyclades et du littoral d'Ionie (Asie Mineure), relayée à l'ouest par les cités prospères de Grande-Grèce (Italie du Sud et Sicile).",
+      sites: [
+        { name: "Athènes & l'Acropole", type: "Cité-État & sanctuaire civique", desc: "Cœur politique et artistique de l'Attique, ateliers du Céramique" },
+        { name: "Delphes", type: "Sanctuaire panhellénique", desc: "Omphalos du monde grec, oracle d'Apollon et trésors votifs" },
+        { name: "Olympie", type: "Sanctuaire panhellénique", desc: "Sanctuaire de Zeus, concours athlétiques et ateliers de bronze" },
+        { name: "Sparte", type: "Cité du Péloponnèse", desc: "Puissance militaire laconienne, sanctuaire d'Artémis Orthia" },
+        { name: "Corinthe", type: "Carrefour maritime", desc: "Isthme commercial majeur, berceau de la céramique orientalisante" },
+        { name: "Éphèse & Milet", type: "Cités d'Ionie", desc: "Métropoles d'Asie Mineure, berceau des philosophes présocratiques" },
+        { name: "Samos & Naxos", type: "Îles des Cyclades", desc: "Carrières de marbre blanc, temples colossaux d'Héra et d'Apollon" }
+      ],
+      routes: "Voies maritimes égéennes reliant le Pirée aux colonies du Pont-Euxin (mer Noire), à l'Égypte (Naucratis) et à la Grande-Grèce (Pithécusses, Cumes, Sybaris)."
+    };
+  }
+
+  if (cid.startsWith('etrusque') || lane === 'italie_etrusque') {
+    return {
+      basin: "Péninsule italique, mer Tyrrhénienne & Toscane",
+      territoryDesc: "L'Étrurie s'étend entre le fleuve Arno au nord et le Tibre au sud, ouverte sur la mer Tyrrhénienne. Cette dodécapole confédérée fonde sa prospérité sur ses riches gisements miniers métallifères (collines métallifères, île d'Elbe) et son réseau d'échanges maritimes.",
+      sites: [
+        { name: "Tarquinia", type: "Métropole & nécropole", desc: "Fresques tombales exceptionnelles des Monterozzi" },
+        { name: "Cerveteri (Caere)", type: "Cité maritime", desc: "Nécropole de Banditaccia et tombes à tumulus" },
+        { name: "Véies", type: "Cité frontière", desc: "Sanctuaire de Portonaccio et Apollon en terre cuite" },
+        { name: "Vulci", type: "Foyer artistique", desc: "Ateliers de bronzes ciselés et importations de vases grecs" },
+        { name: "Populonia", type: "Port sidérurgique", desc: "Transformation et commerce du minerai de fer d'Elbe" }
+      ],
+      routes: "Réseau maritime tyrrhénien en concurrence et alliance avec Carthage et les comptoirs grecs de Campanie."
+    };
+  }
+
+  if (cid.startsWith('meso') || lane === 'mesopotamie') {
+    return {
+      basin: "Mésopotamie, plaine du Tigre et de l'Euphrate",
+      territoryDesc: "Le Croissant Fertile mésopotamien s'épanouit le long des vallées alluviales jumelles du Tigre et de l'Euphrate. L'irrigation savante et la terre d'argile permettent l'invention de la première architecture monumentale en briques et de l'écriture cunéiforme.",
+      sites: [
+        { name: "Uruk", type: "Première métropole urbaine", desc: "Sanctuaire de l'Eanna, invention des sceaux-cylindres et de l'écriture" },
+        { name: "Ur", type: "Capitale royale sumérienne", desc: "Ziggurat monumentale et tombes royales d'Ur" },
+        { name: "Babylone", type: "Capitale impériale", desc: "Porte d'Ishtar, voie processionnelle et jardins légendaires" },
+        { name: "Ninive & Khorsabad", type: "Capitales assyriennes", desc: "Palais colossaux des rois d'Assur et taureaux ailés lamassu" }
+      ],
+      routes: "Carrefours fluviaux du Golfe Persique vers la vallée de l'Indus (Meluhha) et routes caravanières vers le Levant."
+    };
+  }
+
+  if (cid.startsWith('iran') || lane === 'perse') {
+    return {
+      basin: "Plateau iranien, Zagros & Golfe Persique",
+      territoryDesc: "Du plateau d'Iran ceinturé par les monts Zagros et l'Elbourz jusqu'aux plaines susiennes, ce territoire carrefour relie la plaine mésopotamienne à l'Asie centrale et à l'Inde.",
+      sites: [
+        { name: "Suse", type: "Capitale antique et royale", desc: "Acropole millénaire, apogée proto-élamite et palais perse de Darius" },
+        { name: "Persépolis", type: "Capitale cérémonielle achéménide", desc: "Terrasse monumentale, Apadana et tributaires de l'empire" },
+        { name: "Pasargades", type: "Capitale de Cyrus le Grand", desc: "Tombeau de Cyrus et premiers jardins de paradis perses" }
+      ],
+      routes: "Voie Royale perse reliant Suse à Sardes en Asie Mineure sur 2700 km, jalonnée de relais de poste."
+    };
+  }
+
+  return {
+    basin: civ.lane ? civ.lane.toUpperCase() : "Bassin culturel & géographique historique",
+    territoryDesc: `Territoire et foyer d'influence de la civilisation ${civ.name}, actif entre ${civ.epoch}.`,
+    sites: [
+      { name: civ.name, type: "Foyer culturel majeur", desc: "Centre de production artistique et d'influence régionale" }
+    ],
+    routes: "Axes de communication régionaux, voies de cabotage maritime et routes caravanières."
+  };
+}
+
+function renderPavilionMap(civ) {
+  const mapImg = document.getElementById('pavilion-map-img');
+  const mapBox = document.getElementById('pavilion-map-box');
+  let placeholder = document.getElementById('pavilion-map-placeholder');
+
+  if (!placeholder && mapBox) {
+    placeholder = document.createElement('div');
+    placeholder.id = 'pavilion-map-placeholder';
+    placeholder.className = 'pavilion-map-placeholder';
+    mapBox.appendChild(placeholder);
+  }
+
+  if (civ.mapOverlayUrl) {
+    if (mapImg) {
+      mapImg.src = civ.mapOverlayUrl;
+      mapImg.style.display = 'block';
+    }
+    if (placeholder) {
+      placeholder.style.display = 'none';
+      placeholder.innerHTML = '';
+    }
+  } else {
+    // JAMAIS de bandeau à la place de la carte géographique !
+    if (mapImg) {
+      mapImg.src = '';
+      mapImg.style.display = 'none';
+    }
+    if (placeholder) {
+      const geoInfo = getCivGeographicData(civ);
+      placeholder.innerHTML = `
+        <div class="geo-card-container">
+          <div class="geo-card-header">
+            <span class="geo-compass-icon">🧭</span>
+            <div class="geo-card-titles">
+              <h3 class="geo-card-title">Foyer Géographique : ${escapeHtmlAttr(civ.name)}</h3>
+              <p class="geo-card-subtitle">${escapeHtmlAttr(civ.epoch)} • Bassin : ${escapeHtmlAttr(geoInfo.basin)}</p>
+            </div>
+          </div>
+
+          <div class="geo-card-body">
+            <div class="geo-notice-box">
+              <p><strong>🗺️ Cartographie régionale historique.</strong><br>
+              ${escapeHtmlAttr(geoInfo.territoryDesc)}</p>
+            </div>
+
+            <div class="geo-sites-section" style="margin-top: 14px;">
+              <div class="geo-sites-heading">
+                <span>📍 CITÉS, SANCTUAIRES &amp; SITES ARCHÉOLOGIQUES CLÉS</span>
+              </div>
+              <div class="geo-sites-pills">
+                ${geoInfo.sites.map(s => `
+                  <span class="geo-site-pill" title="${escapeHtmlAttr(s.desc || '')}">
+                    <span class="site-dot">✦</span>
+                    <strong>${escapeHtmlAttr(s.name)}</strong>
+                    ${s.type ? `<span class="site-type">(${escapeHtmlAttr(s.type)})</span>` : ''}
+                  </span>
+                `).join('')}
+              </div>
+            </div>
+
+            <div class="geo-routes-box" style="margin-top: 14px;">
+              <span class="geo-routes-icon">🌊</span>
+              <div class="geo-routes-info">
+                <strong>Axes d'échanges &amp; géostratégie :</strong>
+                <span>${escapeHtmlAttr(geoInfo.routes)}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      `;
+      placeholder.style.display = 'flex';
+    }
   }
 }
 
@@ -3380,13 +3528,23 @@ function openCivilisationPavilion(civ, initialTab = 'panoramic') {
     albumsGrid.innerHTML = '';
     if (civ.themeAlbums && civ.themeAlbums.length > 0) {
       civ.themeAlbums.forEach(item => {
-        const a = document.createElement('a');
-        a.className = 'btn-theme-album';
-        a.href = item.url;
-        a.target = '_blank';
-        a.rel = 'noopener noreferrer';
-        a.textContent = item.label;
-        albumsGrid.appendChild(a);
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'btn-theme-album';
+        btn.innerHTML = `<span>📖</span> <span>${escapeHtmlAttr(item.label || item.title || 'Dossier thématique')}</span>`;
+        btn.title = `Explorer : ${item.label || item.title}`;
+        btn.addEventListener('click', (e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          if (item.url && item.url.startsWith('http')) {
+            window.open(item.url, '_blank', 'noopener,noreferrer');
+          } else {
+            const civToOpen = civ;
+            closeCivilisationPavilion();
+            goToGalleryForCivAndTheme(civToOpen, item.label || item.title || '');
+          }
+        });
+        albumsGrid.appendChild(btn);
       });
       albumsGrid.style.display = 'grid';
     } else {
@@ -3394,12 +3552,8 @@ function openCivilisationPavilion(civ, initialTab = 'panoramic') {
     }
   }
 
-  // Volet 2 : Carte Régionale HD
-  const mapImg = document.getElementById('pavilion-map-img');
-  const targetMap = civ.mapOverlayUrl || civ.bannerImg || '';
-  if (mapImg) {
-    mapImg.src = targetMap;
-  }
+  // Volet 2 : Carte Régionale HD ou Carte Géographique Dédiée
+  renderPavilionMap(civ);
 
   // Volet 3 : Contexte Mondial & Repères Synchrones
   const concurrentText = document.getElementById('pavilion-concurrent-text');
@@ -3425,7 +3579,7 @@ function openCivilisationPavilion(civ, initialTab = 'panoramic') {
           <span>TOURNANTS &amp; ÉVÉNEMENTS HISTORIQUES CONTEMPORAINS</span>
         </div>
         <div class="concurrent-milestones-list">
-          ${contemporanMilestones.slice(0, 5).map(m => `
+          ${contemporanMilestones.slice(0, 8).map(m => `
             <div class="concurrent-milestone-item">
               <span class="concurrent-m-icon">${m.icon || '📜'}</span>
               <div class="concurrent-m-content">
@@ -3582,8 +3736,15 @@ function scrollTheatreCardIntoView(civId) {
   }
 }
 
+let lastTimelineCivilisation = null;
+let lastTimelineYear = null;
+
 function goToGalleryForCiv(civ) {
   if (!civ) return;
+  lastTimelineCivilisation = civ;
+  lastTimelineYear = (typeof timelineCursorYear !== 'undefined' && timelineCursorYear !== null)
+    ? timelineCursorYear
+    : (civ.yearStart ? Math.round((civ.yearStart + civ.yearEnd) / 2) : 0);
 
   // 1. Réinitialiser les filtres annexes qui pourraient vider ou fausser la recherche
   const filterText = document.getElementById('filter-text');
@@ -3601,29 +3762,40 @@ function goToGalleryForCiv(civ) {
   // 2. Basculer vers la vue Galerie
   switchView('view-search');
 
-  // 3. Activer la civilisation correspondante dans filter-civ
+  // 3. Activer la bannière de retour vers la frise
+  const returnBar = document.getElementById('gallery-return-timeline-bar');
+  const returnLabel = document.getElementById('gallery-return-timeline-label');
+  if (returnBar && returnLabel) {
+    returnLabel.textContent = `Revenir à la Frise Chronologique (${civ.name})`;
+    returnBar.style.display = 'flex';
+  }
+
+  // 4. Activer la civilisation correspondante dans filter-civ
   const filterCiv = document.getElementById('filter-civ');
   const filterPeriod = document.getElementById('filter-period');
 
   if (filterCiv) {
     let matchingCivKey = 'all';
-    if (civ.lane && TAXONOMY_CIVILISATIONS[civ.lane]) {
-      matchingCivKey = civ.lane;
-    } else if (civ.id && TAXONOMY_CIVILISATIONS[civ.id]) {
-      matchingCivKey = civ.id;
-    } else {
-      for (const [cKey, cData] of Object.entries(TAXONOMY_CIVILISATIONS)) {
-        if (cData.periods && cData.periods.some(p => p.id === civ.id)) {
-          matchingCivKey = cKey;
-          break;
-        }
+    // Priorité absolue : trouver la catégorie de TAXONOMY_CIVILISATIONS contenant cette sous-période civ.id
+    for (const [cKey, cData] of Object.entries(TAXONOMY_CIVILISATIONS)) {
+      if (cData.periods && cData.periods.some(p => p.id === civ.id)) {
+        matchingCivKey = cKey;
+        break;
+      }
+    }
+    // Si pas trouvé dans les périodes, tester civ.id ou civ.lane
+    if (matchingCivKey === 'all') {
+      if (civ.id && TAXONOMY_CIVILISATIONS[civ.id]) {
+        matchingCivKey = civ.id;
+      } else if (civ.lane && TAXONOMY_CIVILISATIONS[civ.lane]) {
+        matchingCivKey = civ.lane;
       }
     }
 
     filterCiv.value = matchingCivKey;
     filterCiv.dispatchEvent(new Event('change'));
 
-    // 4. Sélectionner la période exacte si disponible
+    // 5. Sélectionner la période exacte si disponible
     if (filterPeriod && civ.id) {
       const matchingPeriodOpt = Array.from(filterPeriod.options).find(opt => opt.value === civ.id);
       if (matchingPeriodOpt) {
@@ -3637,6 +3809,31 @@ function goToGalleryForCiv(civ) {
     renderSearchGallery();
   }
   window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function goToGalleryForCivAndTheme(civ, themeLabel) {
+  if (!civ) return;
+  goToGalleryForCiv(civ);
+  if (themeLabel) {
+    const cleanWord = themeLabel.replace(/[^\p{L}\p{N}\s]/gu, '').trim();
+    const catalog = window.ART_OBJECTS || [];
+    const civArts = catalog.filter(a => (a.periodId === civ.id || a.civId === civ.id));
+    const firstWord = cleanWord.split(/\s+/)[0].toLowerCase();
+    if (firstWord.length >= 3) {
+      const hasMatch = civArts.some(a =>
+        (a.title && a.title.toLowerCase().includes(firstWord)) ||
+        (a.desc && a.desc.toLowerCase().includes(firstWord)) ||
+        (a.category && a.category.toLowerCase().includes(firstWord))
+      );
+      if (hasMatch) {
+        const filterText = document.getElementById('filter-text');
+        if (filterText) {
+          filterText.value = firstWord;
+          filterText.dispatchEvent(new Event('input'));
+        }
+      }
+    }
+  }
 }
 
 let lastRenderedCivKey = null;
@@ -4318,6 +4515,23 @@ if (btnPavilionGallery) {
       closeCivilisationPavilion();
       goToGalleryForCiv(civToOpen);
     }
+  });
+}
+
+// Bouton de retour vers la frise chronologique depuis la galerie
+const btnGalleryReturnTimeline = document.getElementById('btn-gallery-return-timeline');
+if (btnGalleryReturnTimeline) {
+  btnGalleryReturnTimeline.addEventListener('click', (e) => {
+    e.stopPropagation();
+    switchView('view-timeline');
+    if (lastTimelineYear !== null && typeof centerTimelineOnYear === 'function') {
+      centerTimelineOnYear(lastTimelineYear);
+    }
+    if (lastTimelineCivilisation) {
+      openCivilisationPavilion(lastTimelineCivilisation, 'panoramic');
+    }
+    const returnBar = document.getElementById('gallery-return-timeline-bar');
+    if (returnBar) returnBar.style.display = 'none';
   });
 }
 

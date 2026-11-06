@@ -111,6 +111,14 @@
        VUE 2 : MOTEUR DE RECHERCHE & GALERIE (VOLET GAUCHE DÉPLOYÉ)
        ========================================================================= -->
   <section id="view-search" class="spa-view" hidden>
+    <!-- BANNIÈRE DE RETOUR VERS LA FRISE CHRONOLOGIQUE -->
+    <div id="gallery-return-timeline-bar" class="gallery-return-timeline-bar" style="display: none;">
+      <button type="button" id="btn-gallery-return-timeline" class="btn-gallery-return-timeline">
+        <span class="return-arrow">↩</span>
+        <span id="gallery-return-timeline-label">Revenir à la Frise Chronologique</span>
+      </button>
+    </div>
+
     <div id="search-top-panel" class="search-top-panel">
       <div class="search-engine-bar">
         <div class="filter-controls-grid">
@@ -481,6 +489,7 @@
             <div class="pavilion-panel-scroll map-panel-scroll">
               <div class="pavilion-map-frame" id="pavilion-map-box">
                 <img id="pavilion-map-img" src="" alt="Carte régionale HD" />
+                <div id="pavilion-map-placeholder" class="pavilion-map-placeholder" style="display: none;"></div>
                 <div class="map-atmospheric-glow"></div>
               </div>
             </div>
@@ -925,7 +934,7 @@
   <script src="data/data-objets3.js"></script>
 
   <!-- SCRIPT MAÎTRE -->
-  <script src="app.js?v=5.5"></script>
+  <script src="app.js?v=5.6"></script>
 </body>
 
 </html>

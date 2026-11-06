@@ -6945,8 +6945,8 @@ body {
 /* 1. VUE PANORAMIQUE (3 VOLETS CÔTE À CÔTE) */
 .pavilion-body[data-active-tab="panoramic"] {
   display: grid;
-  grid-template-columns: 1.18fr 1.1fr 0.95fr;
-  gap: 16px;
+  grid-template-columns: 1.15fr 1fr 1.05fr;
+  gap: 18px;
   height: 100%;
 }
 
@@ -6957,17 +6957,19 @@ body {
 .pavilion-body[data-active-tab="panoramic"] .notice-layout-wrapper {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 16px;
 }
 
 .pavilion-body[data-active-tab="panoramic"] .concurrent-layout-wrapper {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 16px;
 }
 
 .pavilion-body[data-active-tab="panoramic"] .concurrent-milestones-col {
-  display: none;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
 }
 
 /* 2. VUE PLEINE LARGEUR HISTOIRE & GENÈSE (2 COLONNES) */
@@ -6978,26 +6980,30 @@ body {
 .pavilion-body[data-active-tab="notice"] .pavilion-panel { display: none; }
 .pavilion-body[data-active-tab="notice"] .pavilion-panel-notice {
   display: flex;
-  max-width: 1400px;
+  max-width: 1440px;
   margin: 0 auto;
   height: 100%;
 }
 
 .pavilion-body[data-active-tab="notice"] .notice-layout-wrapper {
   display: grid;
-  grid-template-columns: minmax(320px, 380px) 1fr;
-  gap: 28px;
+  grid-template-columns: minmax(360px, 420px) 1fr;
+  gap: 36px;
   align-items: start;
 }
 
 .pavilion-body[data-active-tab="notice"] .pavilion-banner-frame {
-  height: 220px;
+  height: 240px;
 }
 
 .pavilion-body[data-active-tab="notice"] .pavilion-notice-text {
-  font-size: 0.96rem;
-  line-height: 1.75;
-  color: #e2e8f0;
+  font-size: 1.22rem;
+  line-height: 1.88;
+  color: #f1f5f9;
+}
+
+.pavilion-body[data-active-tab="notice"] .pavilion-notice-text strong {
+  font-size: 1.30rem;
 }
 
 /* 3. VUE PLEINE LARGEUR CARTE RÉGIONALE HD */
@@ -7017,7 +7023,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 10px;
+  padding: 14px;
   height: 100%;
 }
 
@@ -7048,56 +7054,72 @@ body {
 .pavilion-body[data-active-tab="concurrent"] .pavilion-panel { display: none; }
 .pavilion-body[data-active-tab="concurrent"] .pavilion-panel-concurrent {
   display: flex;
-  max-width: 1400px;
+  max-width: 1440px;
   margin: 0 auto;
   height: 100%;
 }
 
 .pavilion-body[data-active-tab="concurrent"] .concurrent-layout-wrapper {
   display: grid;
-  grid-template-columns: 1.1fr 0.9fr;
-  gap: 28px;
+  grid-template-columns: 1.15fr 0.95fr;
+  gap: 36px;
   align-items: start;
+}
+
+.pavilion-body[data-active-tab="concurrent"] .pavilion-concurrent-text {
+  font-size: 1.22rem;
+  line-height: 1.88;
+  color: #f1f5f9;
+}
+
+.pavilion-body[data-active-tab="concurrent"] .pavilion-concurrent-text strong {
+  font-size: 1.30rem;
 }
 
 .pavilion-body[data-active-tab="concurrent"] .concurrent-milestones-col {
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: 16px;
 }
 
 .concurrent-section-title {
   font-family: 'Cinzel', serif;
-  font-size: 0.82rem;
+  font-size: 0.88rem;
   font-weight: 700;
   color: var(--gold-pure, #d4af37);
   letter-spacing: 1px;
   display: flex;
   align-items: center;
   gap: 8px;
-  margin-bottom: 6px;
-  padding-bottom: 4px;
-  border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+  margin-bottom: 8px;
+  padding-bottom: 6px;
+  border-bottom: 1.5px solid rgba(212, 175, 55, 0.25);
 }
 
 .concurrent-milestones-list {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 10px;
 }
 
 .concurrent-milestone-item {
   display: flex;
   align-items: flex-start;
-  gap: 10px;
-  background: rgba(255, 255, 255, 0.04);
-  border: 1px solid rgba(212, 175, 55, 0.2);
-  border-radius: 6px;
-  padding: 8px 12px;
+  gap: 12px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(212, 175, 55, 0.25);
+  border-radius: 7px;
+  padding: 10px 14px;
+  transition: all 0.2s ease;
+}
+
+.concurrent-milestone-item:hover {
+  background: rgba(212, 175, 55, 0.08);
+  border-color: rgba(212, 175, 55, 0.45);
 }
 
 .concurrent-m-icon {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   line-height: 1;
   flex-shrink: 0;
   margin-top: 2px;
@@ -7108,41 +7130,42 @@ body {
 }
 
 .concurrent-m-year {
-  font-size: 0.72rem;
+  font-size: 0.82rem;
   font-weight: 700;
   color: var(--gold-pale, #eed88f);
+  letter-spacing: 0.5px;
 }
 
 .concurrent-m-title {
-  font-size: 0.82rem;
+  font-size: 0.98rem;
   font-weight: 700;
   color: #fff;
-  margin: 2px 0;
+  margin: 3px 0 4px 0;
 }
 
 .concurrent-m-desc {
-  font-size: 0.76rem;
-  color: #94a3b8;
-  line-height: 1.4;
+  font-size: 0.90rem;
+  color: #cbd5e1;
+  line-height: 1.55;
 }
 
 .concurrent-peers-strip {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 10px;
 }
 
 .concurrent-peer-pill {
   display: flex;
   align-items: center;
-  gap: 6px;
-  background: rgba(212, 175, 55, 0.1);
-  border: 1px solid rgba(212, 175, 55, 0.3);
-  border-radius: 18px;
-  padding: 5px 12px;
-  color: #e2e8f0;
+  gap: 8px;
+  background: rgba(212, 175, 55, 0.12);
+  border: 1px solid rgba(212, 175, 55, 0.35);
+  border-radius: 20px;
+  padding: 7px 14px;
+  color: #f1f5f9;
   font-family: 'Cinzel', serif;
-  font-size: 0.74rem;
+  font-size: 0.85rem;
   font-weight: 600;
   cursor: pointer;
   transition: all 0.2s ease;
@@ -7179,33 +7202,51 @@ body {
 
 .panel-tag {
   font-family: 'Cinzel', serif;
-  font-size: 0.72rem;
+  font-size: 0.84rem;
   font-weight: 700;
   color: var(--gold-pure, #d4af37);
-  letter-spacing: 1px;
+  letter-spacing: 1.2px;
 }
 
 .pavilion-panel-scroll {
   flex: 1;
-  overflow-y: auto;
-  padding: 16px 18px;
+  overflow-y: auto !important;
+  padding: 18px 22px;
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: 16px;
   min-height: 0;
   scrollbar-width: thin;
-  scrollbar-color: rgba(212, 175, 55, 0.3) transparent;
+  scrollbar-color: rgba(212, 175, 55, 0.45) rgba(0, 0, 0, 0.4);
+}
+
+.pavilion-panel-scroll::-webkit-scrollbar {
+  width: 7px;
+}
+
+.pavilion-panel-scroll::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.35);
+  border-radius: 4px;
+}
+
+.pavilion-panel-scroll::-webkit-scrollbar-thumb {
+  background: rgba(212, 175, 55, 0.45);
+  border-radius: 4px;
+}
+
+.pavilion-panel-scroll::-webkit-scrollbar-thumb:hover {
+  background: var(--gold-pure, #d4af37);
 }
 
 .pavilion-banner-frame {
   width: 100%;
-  height: 140px;
-  border-radius: 6px;
+  height: 160px;
+  border-radius: 7px;
   overflow: hidden;
-  border: 1px solid rgba(212, 175, 55, 0.3);
+  border: 1px solid rgba(212, 175, 55, 0.35);
   flex-shrink: 0;
   background: #000;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.85);
 }
 
 .pavilion-banner-frame img {
@@ -7215,59 +7256,67 @@ body {
 }
 
 .pavilion-notice-text {
-  font-size: 0.88rem;
-  line-height: 1.65;
-  color: #cbd5e1;
+  font-size: 1.12rem;
+  line-height: 1.8;
+  color: #f1f5f9;
+  letter-spacing: 0.2px;
 }
 
 .pavilion-notice-text p {
-  margin: 0 0 12px 0;
+  margin: 0 0 16px 0;
 }
 
 .pavilion-notice-text strong {
   color: #ffffff;
+  font-size: 1.18rem;
+  font-weight: 700;
 }
 
 .pavilion-albums-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
-  gap: 8px;
-  margin-top: 4px;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 10px;
+  margin-top: 6px;
 }
 
 .btn-theme-album {
-  background: rgba(212, 175, 55, 0.1);
-  border: 1px solid rgba(212, 175, 55, 0.35);
-  border-radius: 5px;
+  background: rgba(212, 175, 55, 0.12);
+  border: 1.5px solid rgba(212, 175, 55, 0.38);
+  border-radius: 7px;
   color: var(--gold-pale, #eed88f);
   font-family: 'Cinzel', serif;
-  font-size: 0.72rem;
+  font-size: 0.90rem;
   font-weight: 600;
-  padding: 7px 10px;
+  padding: 10px 14px;
+  min-height: 48px;
   text-decoration: none;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  transition: all 0.2s ease;
+  gap: 8px;
+  cursor: pointer;
+  transition: all 0.22s ease;
+  box-sizing: border-box;
 }
 
 .btn-theme-album:hover {
-  background: rgba(212, 175, 55, 0.28);
-  border-color: #fff;
-  color: #fff;
+  background: rgba(212, 175, 55, 0.32);
+  border-color: #ffffff;
+  color: #ffffff;
   transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
 }
 
 .pavilion-map-frame {
   width: 100%;
   height: 100%;
-  min-height: 200px;
-  border-radius: 6px;
+  min-height: 260px;
+  border-radius: 7px;
   overflow: hidden;
-  border: 1px solid rgba(212, 175, 55, 0.3);
+  border: 1.5px solid rgba(212, 175, 55, 0.35);
   position: relative;
-  background: #05070c;
+  background: radial-gradient(circle at center, rgba(16, 24, 40, 0.9) 0%, rgba(4, 6, 12, 0.98) 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -7279,6 +7328,141 @@ body {
   object-fit: contain;
 }
 
+/* CARTOUCHE & FICHE GÉOGRAPHIQUE ARCHÉOLOGIQUE */
+.pavilion-map-placeholder {
+  width: 100%;
+  height: 100%;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+
+.geo-card-container {
+  background: rgba(14, 20, 32, 0.95);
+  border: 1.5px solid rgba(212, 175, 55, 0.35);
+  border-radius: 8px;
+  padding: 20px 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  box-shadow: inset 0 0 40px rgba(0, 0, 0, 0.85), 0 8px 30px rgba(0, 0, 0, 0.85);
+}
+
+.geo-card-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  border-bottom: 1.5px solid rgba(212, 175, 55, 0.25);
+  padding-bottom: 12px;
+}
+
+.geo-compass-icon {
+  font-size: 2.2rem;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.geo-card-title {
+  font-family: 'Cinzel', serif;
+  font-size: 1.20rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0;
+  letter-spacing: 0.5px;
+}
+
+.geo-card-subtitle {
+  font-size: 0.90rem;
+  color: var(--gold-pale, #eed88f);
+  margin: 4px 0 0 0;
+}
+
+.geo-notice-box {
+  font-size: 1.05rem;
+  line-height: 1.75;
+  color: #e2e8f0;
+  background: rgba(255, 255, 255, 0.035);
+  border: 1px solid rgba(212, 175, 55, 0.22);
+  border-radius: 6px;
+  padding: 14px 18px;
+}
+
+.geo-notice-box strong {
+  color: var(--gold-pale, #eed88f);
+  font-size: 1.08rem;
+}
+
+.geo-sites-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.geo-sites-heading {
+  font-family: 'Cinzel', serif;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--gold-pure, #d4af37);
+  letter-spacing: 1px;
+}
+
+.geo-sites-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.geo-site-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(212, 175, 55, 0.12);
+  border: 1px solid rgba(212, 175, 55, 0.35);
+  border-radius: 20px;
+  padding: 6px 14px;
+  font-size: 0.88rem;
+  color: #ffffff;
+  transition: all 0.2s ease;
+}
+
+.geo-site-pill:hover {
+  background: rgba(212, 175, 55, 0.28);
+  border-color: #ffffff;
+  transform: translateY(-2px);
+}
+
+.geo-site-pill .site-dot {
+  color: var(--gold-pure, #d4af37);
+  font-size: 0.75rem;
+}
+
+.geo-site-pill .site-type {
+  color: #cbd5e1;
+  font-size: 0.78rem;
+  font-style: italic;
+}
+
+.geo-routes-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  background: rgba(14, 165, 233, 0.08);
+  border: 1px solid rgba(14, 165, 233, 0.3);
+  border-radius: 6px;
+  padding: 12px 16px;
+  font-size: 0.94rem;
+  line-height: 1.6;
+  color: #cbd5e1;
+}
+
+.geo-routes-box strong {
+  color: #7dd3fc;
+}
+
 .map-atmospheric-glow {
   position: absolute;
   inset: 0;
@@ -7287,31 +7471,35 @@ body {
 }
 
 .pavilion-concurrent-text {
-  font-size: 0.88rem;
-  line-height: 1.65;
-  color: #cbd5e1;
+  font-size: 1.12rem;
+  line-height: 1.8;
+  color: #f1f5f9;
+  letter-spacing: 0.2px;
 }
 
 .pavilion-concurrent-text p {
-  margin: 0 0 12px 0;
+  margin: 0 0 16px 0;
 }
 
 .pavilion-concurrent-text strong {
   color: #ffffff;
+  font-size: 1.18rem;
+  font-weight: 700;
 }
 
 /* =========================================================
    RUBAN INFÉRIEUR : CHEFS-D'ŒUVRE DE LA COLLECTION (FORMAT GRANDIOSE)
    ========================================================= */
 .pavilion-footer-strip {
-  padding: 10px 24px 12px 24px;
+  padding: 14px 24px 18px 24px;
+  min-height: 195px;
   background: rgba(6, 9, 15, 0.98);
-  border-top: 1.5px solid rgba(212, 175, 55, 0.35);
+  border-top: 1.5px solid rgba(212, 175, 55, 0.38);
   flex-shrink: 0;
   display: flex;
   flex-direction: column;
-  gap: 8px;
-  box-shadow: 0 -8px 24px rgba(0, 0, 0, 0.85);
+  gap: 10px;
+  box-shadow: 0 -8px 28px rgba(0, 0, 0, 0.88);
 }
 
 .pavilion-strip-heading {
@@ -7322,38 +7510,38 @@ body {
 
 .strip-sparkle {
   color: var(--gold-pure, #d4af37);
-  font-size: 0.85rem;
+  font-size: 1.1rem;
 }
 
 .strip-label {
   font-family: 'Cinzel', serif;
-  font-size: 0.76rem;
+  font-size: 0.88rem;
   font-weight: 700;
   color: var(--gold-pale, #eed88f);
-  letter-spacing: 1px;
+  letter-spacing: 1.2px;
 }
 
 .pavilion-art-track {
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 16px;
   overflow-x: auto;
   scrollbar-width: thin;
-  scrollbar-color: rgba(212, 175, 55, 0.4) transparent;
-  padding-bottom: 4px;
+  scrollbar-color: rgba(212, 175, 55, 0.45) transparent;
+  padding-bottom: 6px;
 }
 
 .pavilion-art-card {
   display: flex;
   align-items: center;
-  gap: 12px;
-  height: 94px;
-  min-width: 290px;
-  max-width: 360px;
+  gap: 14px;
+  height: 135px;
+  min-width: 360px;
+  max-width: 440px;
   background: linear-gradient(135deg, rgba(255, 255, 255, 0.08) 0%, rgba(18, 24, 38, 0.95) 100%);
-  border: 1.5px solid rgba(212, 175, 55, 0.32);
-  border-radius: 7px;
-  padding: 8px 12px 8px 8px;
+  border: 1.5px solid rgba(212, 175, 55, 0.35);
+  border-radius: 9px;
+  padding: 10px 16px 10px 12px;
   cursor: pointer;
   transition: all 0.22s ease;
   flex-shrink: 0;
@@ -7361,22 +7549,22 @@ body {
 }
 
 .pavilion-art-card:hover {
-  background: linear-gradient(135deg, rgba(212, 175, 55, 0.22) 0%, rgba(22, 30, 48, 0.98) 100%);
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.24) 0%, rgba(22, 30, 48, 0.98) 100%);
   border-color: var(--gold-pure, #d4af37);
   transform: translateY(-3px);
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.8), 0 0 12px rgba(212, 175, 55, 0.3);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.85), 0 0 14px rgba(212, 175, 55, 0.35);
 }
 
 .pavilion-art-thumb {
   position: relative;
-  width: 78px;
-  height: 78px;
-  border-radius: 5px;
+  width: 112px;
+  height: 112px;
+  border-radius: 8px;
   overflow: hidden;
   background: #000;
-  border: 1px solid rgba(212, 175, 55, 0.35);
+  border: 1.5px solid rgba(212, 175, 55, 0.4);
   flex-shrink: 0;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.85);
 }
 
 .pavilion-art-thumb img {
@@ -7392,14 +7580,14 @@ body {
 
 .pavilion-art-badge {
   position: absolute;
-  bottom: 2px;
-  right: 2px;
-  font-size: 0.8rem;
+  bottom: 4px;
+  right: 4px;
+  font-size: 1.05rem;
   line-height: 1;
-  background: rgba(0, 0, 0, 0.75);
-  border-radius: 4px;
-  padding: 1px 3px;
-  border: 1px solid rgba(212, 175, 55, 0.35);
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+  padding: 2px 6px;
+  border: 1px solid rgba(212, 175, 55, 0.4);
 }
 
 .pavilion-art-info {
@@ -7412,10 +7600,10 @@ body {
 
 .pavilion-art-title {
   font-family: 'Cinzel', serif;
-  font-size: 0.84rem;
+  font-size: 1.0rem;
   font-weight: 700;
   color: #ffffff;
-  line-height: 1.35;
+  line-height: 1.4;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
@@ -7424,17 +7612,18 @@ body {
 }
 
 .pavilion-art-date {
-  font-size: 0.74rem;
+  font-size: 0.86rem;
   color: var(--gold-pale, #eed88f);
-  margin-top: 3px;
+  margin-top: 5px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
 .pavilion-art-type {
-  font-size: 0.70rem;
+  font-size: 0.82rem;
   color: #94a3b8;
+  margin-top: 3px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -7444,17 +7633,17 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
-  height: 94px;
-  min-width: 220px;
-  background: linear-gradient(135deg, rgba(212, 175, 55, 0.2), rgba(212, 175, 55, 0.08));
+  gap: 10px;
+  height: 135px;
+  min-width: 270px;
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.22), rgba(212, 175, 55, 0.1));
   border: 1.5px dashed var(--gold-pure, #d4af37);
-  border-radius: 7px;
+  border-radius: 9px;
   color: #ffffff;
   font-family: 'Cinzel', serif;
-  font-size: 0.82rem;
+  font-size: 0.98rem;
   font-weight: 700;
-  padding: 12px 16px;
+  padding: 14px 20px;
   cursor: pointer;
   transition: all 0.22s ease;
   flex-shrink: 0;
@@ -7466,15 +7655,68 @@ body {
   color: #000;
   border-style: solid;
   transform: translateY(-3px);
-  box-shadow: 0 6px 18px rgba(212, 175, 55, 0.4);
+  box-shadow: 0 6px 20px rgba(212, 175, 55, 0.45);
 }
 
 .pavilion-no-art {
-  font-size: 0.85rem;
+  font-size: 0.95rem;
   color: #94a3b8;
   font-style: italic;
-  padding: 20px;
+  padding: 24px;
 }
+
+/* =========================================================
+   BANNIÈRE DE RETOUR VERS LA FRISE DEPUIS LA GALERIE
+   ========================================================= */
+.gallery-return-timeline-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  background: linear-gradient(180deg, rgba(16, 24, 40, 0.98) 0%, rgba(8, 12, 20, 0.96) 100%);
+  border-bottom: 1.5px solid rgba(212, 175, 55, 0.45);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.75);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.btn-gallery-return-timeline {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.25) 0%, rgba(212, 175, 55, 0.12) 100%);
+  border: 1.5px solid var(--gold-pure, #d4af37);
+  border-radius: 30px;
+  padding: 10px 26px;
+  color: #ffffff;
+  font-family: 'Cinzel', serif;
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  cursor: pointer;
+  box-shadow: 0 0 16px rgba(212, 175, 55, 0.35);
+  transition: all 0.25s ease;
+}
+
+.btn-gallery-return-timeline:hover {
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.45) 0%, rgba(212, 175, 55, 0.2) 100%);
+  border-color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 24px rgba(212, 175, 55, 0.55);
+}
+
+.btn-gallery-return-timeline .return-arrow {
+  font-size: 1.3rem;
+  line-height: 1;
+  color: var(--gold-pale, #eed88f);
+  transition: transform 0.2s ease;
+}
+
+.btn-gallery-return-timeline:hover .return-arrow {
+  transform: translateX(-4px);
+}
+
 
 
 
