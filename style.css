@@ -521,9 +521,9 @@ body {
    THÉÂTRE SYNCHRONIQUE DES ARTS (ESPACE SUPÉRIEUR)
    ========================================================= */
 #map-viewport {
-  flex: 0 0 clamp(260px, 34vh, 320px);
-  min-height: 260px;
-  max-height: 38vh;
+  flex: 0 0 clamp(310px, 44vh, 460px);
+  min-height: 310px;
+  max-height: 48vh;
   position: relative;
   overflow: hidden;
   display: flex;
@@ -549,7 +549,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 7px 18px 6px 18px;
+  padding: 8px 18px 7px 18px;
   background: rgba(6, 9, 15, 0.82);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
@@ -577,7 +577,7 @@ body {
 
 .theatre-title {
   font-family: 'Cinzel', serif;
-  font-size: 0.82rem;
+  font-size: 0.88rem;
   letter-spacing: 2px;
   font-weight: 700;
   color: #f8fafc;
@@ -585,8 +585,8 @@ body {
 }
 
 .theatre-subtitle {
-  font-size: 0.7rem;
-  color: #64748b;
+  font-size: 0.72rem;
+  color: #94a3b8;
   letter-spacing: 0.5px;
   margin-left: 6px;
   border-left: 1px solid rgba(212, 175, 55, 0.2);
@@ -605,7 +605,7 @@ body {
   color: #ffffff;
   font-family: 'Cinzel', serif;
   font-weight: 700;
-  font-size: 0.82rem;
+  font-size: 0.84rem;
   letter-spacing: 1px;
   padding: 3px 12px;
   border-radius: 20px;
@@ -616,7 +616,7 @@ body {
   background: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.12);
   color: #94a3b8;
-  font-size: 0.7rem;
+  font-size: 0.72rem;
   padding: 3px 9px;
   border-radius: 14px;
 }
@@ -625,8 +625,8 @@ body {
   flex: 1;
   display: flex;
   align-items: stretch;
-  gap: 12px;
-  padding: 8px 16px 10px 16px;
+  gap: 14px;
+  padding: 10px 18px 12px 18px;
   overflow-x: auto;
   overflow-y: hidden;
   scrollbar-width: thin;
@@ -660,53 +660,253 @@ body {
   width: 100%;
   color: #64748b;
   gap: 8px;
-  font-size: 0.85rem;
+  font-size: 0.88rem;
 }
 
 .theatre-empty-icon {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   opacity: 0.5;
 }
 
-.theatre-civ-card {
-  flex: 0 0 clamp(240px, 22vw, 300px);
-  max-width: 310px;
+/* =========================================================
+   CARTE UNIQUE : HERO PANORAMIQUE D'EXPOSITION (1 CIV SEULE)
+   ========================================================= */
+.synchro-theatre-track.is-single-hero {
+  justify-content: center !important;
+  align-items: center !important;
+  padding: 8px 20px 12px 20px !important;
+}
+
+.theatre-hero-card {
+  flex: 0 1 min(980px, 96%) !important;
+  max-width: 980px !important;
+  width: 100% !important;
+  height: 100% !important;
+  max-height: calc(100% - 4px) !important;
+  display: flex !important;
+  flex-direction: column !important;
+  background: linear-gradient(165deg, rgba(20, 26, 40, 0.96) 0%, rgba(9, 13, 20, 0.98) 100%) !important;
+  border: 1px solid var(--civ-card-color, rgba(212, 175, 55, 0.45)) !important;
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.85), 0 0 20px rgba(212, 175, 55, 0.15) !important;
+  padding: 12px 20px !important;
+  border-radius: 8px !important;
+  box-sizing: border-box !important;
+  overflow: hidden !important;
+}
+
+.theatre-hero-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  flex-shrink: 0;
+}
+
+.theatre-hero-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.theatre-hero-emblem {
+  font-size: 1.8rem;
+  line-height: 1;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1.5px solid var(--civ-card-color, rgba(212, 175, 55, 0.45));
+  border-radius: 50%;
+  box-shadow: 0 0 12px rgba(212, 175, 55, 0.25);
+  flex-shrink: 0;
+}
+
+.theatre-hero-titles h3 {
+  font-family: 'Cinzel', serif;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0 0 2px 0;
+  letter-spacing: 0.8px;
+}
+
+.theatre-hero-epoch {
+  font-size: 0.78rem;
+  color: var(--gold-pale, #eed88f);
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.theatre-hero-main {
+  display: grid;
+  grid-template-columns: minmax(260px, 340px) 1fr;
+  gap: 18px;
+  align-items: stretch;
+  flex: 1;
+  min-height: 0;
+  margin-bottom: 8px;
+}
+
+.theatre-hero-banner {
+  position: relative;
+  height: 100%;
+  min-height: 105px;
+  border-radius: 6px;
+  overflow: hidden;
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  background: #000;
+}
+
+.theatre-hero-banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.theatre-hero-banner:hover img {
+  transform: scale(1.04);
+}
+
+.theatre-hero-content {
   display: flex;
   flex-direction: column;
-  background: linear-gradient(165deg, rgba(17, 22, 34, 0.95) 0%, rgba(8, 11, 18, 0.98) 100%);
+  justify-content: space-between;
+  min-height: 0;
+}
+
+.theatre-hero-snippet {
+  font-size: 0.85rem;
+  line-height: 1.55;
+  color: #cbd5e1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.theatre-hero-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 6px;
+}
+
+.theatre-hero-actions .btn-theatre-act {
+  padding: 6px 14px;
+  font-size: 0.74rem;
+  border-radius: 5px;
+}
+
+.theatre-hero-art-strip {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-top: 8px;
+  border-top: 1px solid rgba(212, 175, 55, 0.18);
+  flex-shrink: 0;
+}
+
+.theatre-hero-art-title {
+  font-family: 'Cinzel', serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.8px;
+  color: var(--gold-pale, #eed88f);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.theatre-hero-art-scroll {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  flex: 1;
+}
+
+.theatre-hero-art-chip {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(212, 175, 55, 0.25);
+  border-radius: 4px;
+  padding: 3px 8px 3px 4px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.2s ease;
+  flex-shrink: 0;
+}
+
+.theatre-hero-art-chip:hover {
+  background: rgba(212, 175, 55, 0.2);
+  border-color: var(--gold-pure, #d4af37);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+}
+
+.theatre-hero-art-chip img {
+  width: 28px;
+  height: 28px;
+  border-radius: 3px;
+  object-fit: cover;
+}
+
+.theatre-chip-name {
+  font-size: 0.68rem;
+  color: #f1f5f9;
+  max-width: 140px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* =========================================================
+   CARTES NORMALES (QUAND 2+ CIVILISATIONS SONT ACTIVES)
+   ========================================================= */
+.theatre-civ-card {
+  flex: 0 0 clamp(290px, 28vw, 360px);
+  max-width: 380px;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(165deg, rgba(18, 23, 36, 0.96) 0%, rgba(8, 11, 18, 0.98) 100%);
   border: 1px solid var(--civ-card-color, rgba(212, 175, 55, 0.35));
   border-radius: 8px;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.75), 0 0 10px rgba(212, 175, 55, 0.1);
-  padding: 8px 10px;
+  padding: 10px 12px;
   transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
   cursor: pointer;
   box-sizing: border-box;
 }
 
-.theatre-civ-card:hover {
-  transform: translateY(-3px);
-  border-color: #fff;
-  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.9), 0 0 16px var(--civ-card-color, rgba(212, 175, 55, 0.4));
+.theatre-civ-card:hover,
+.theatre-civ-card.is-highlighted {
+  transform: translateY(-4px);
+  border-color: #fff !important;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.9), 0 0 18px var(--civ-card-color, rgba(212, 175, 55, 0.5)) !important;
 }
 
 .theatre-card-top {
   display: flex;
   align-items: center;
-  gap: 8px;
-  margin-bottom: 6px;
+  gap: 10px;
+  margin-bottom: 8px;
   flex-shrink: 0;
 }
 
 .theatre-card-emblem {
-  font-size: 1.25rem;
+  font-size: 1.35rem;
   line-height: 1;
-  width: 30px;
-  height: 30px;
+  width: 34px;
+  height: 34px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(212, 175, 55, 0.3);
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(212, 175, 55, 0.35);
   border-radius: 50%;
   flex-shrink: 0;
   box-shadow: 0 0 8px rgba(212, 175, 55, 0.2);
@@ -719,32 +919,32 @@ body {
 
 .theatre-card-name {
   font-family: 'Cinzel', serif;
-  font-size: 0.74rem;
+  font-size: 0.8rem;
   font-weight: 700;
   color: #ffffff;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  letter-spacing: 0.3px;
+  letter-spacing: 0.4px;
 }
 
 .theatre-card-epoch {
-  font-size: 0.64rem;
+  font-size: 0.68rem;
   color: #cbd5e1;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  opacity: 0.85;
+  opacity: 0.88;
 }
 
 .theatre-card-media {
   position: relative;
-  height: 75px;
+  height: 90px;
   width: 100%;
   border-radius: 5px;
   overflow: hidden;
-  border: 1px solid rgba(212, 175, 55, 0.2);
-  margin-bottom: 6px;
+  border: 1px solid rgba(212, 175, 55, 0.25);
+  margin-bottom: 8px;
   flex-shrink: 0;
   background: #000;
 }
@@ -768,36 +968,36 @@ body {
 }
 
 .theatre-card-snippet {
-  font-size: 0.67rem;
+  font-size: 0.72rem;
   color: #94a3b8;
-  line-height: 1.32;
-  height: 2.64em;
+  line-height: 1.38;
+  height: 2.76em;
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
-  margin-bottom: 7px;
+  margin-bottom: 8px;
   flex-shrink: 0;
 }
 
 .theatre-card-actions {
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 6px;
   margin-top: auto;
 }
 
 .btn-theatre-act {
   flex: 1;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(212, 175, 55, 0.25);
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(212, 175, 55, 0.28);
   border-radius: 4px;
   color: #e2e8f0;
   font-family: 'Cinzel', serif;
-  font-size: 0.62rem;
+  font-size: 0.66rem;
   font-weight: 600;
-  padding: 4px 5px;
+  padding: 5px 6px;
   cursor: pointer;
   white-space: nowrap;
   text-align: center;
@@ -807,7 +1007,7 @@ body {
 }
 
 .btn-theatre-act:hover {
-  background: rgba(212, 175, 55, 0.25);
+  background: rgba(212, 175, 55, 0.28);
   border-color: var(--gold-pure, #d4af37);
   color: #ffffff;
   box-shadow: 0 0 8px rgba(212, 175, 55, 0.35);
@@ -6323,4 +6523,161 @@ body {
 
 .btn-explore-civ-gallery strong {
   color: var(--gold-pure, #d4af37) !important;
+}
+/* =========================================================
+   MODAL NOTICE MUSÉOGRAPHIQUE DÉTAILLÉE
+   ========================================================= */
+.civ-notice-modal {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 65;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.civ-notice-modal.active,
+.civ-notice-modal:not([hidden]) {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.civ-notice-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(3, 6, 12, 0.85);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+.civ-notice-frame {
+  position: relative;
+  z-index: 2;
+  width: min(780px, 92%);
+  max-height: 88%;
+  background: linear-gradient(165deg, #0e131d 0%, #060910 100%);
+  border: 1px solid rgba(212, 175, 55, 0.45);
+  border-radius: 8px;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.95), 0 0 30px rgba(212, 175, 55, 0.2);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  animation: modalZoomIn 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.civ-notice-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 20px;
+  background: rgba(16, 22, 34, 0.95);
+  border-bottom: 1px solid rgba(212, 175, 55, 0.25);
+  flex-shrink: 0;
+}
+
+.civ-notice-era {
+  font-size: 0.75rem;
+  color: var(--gold-pure, #d4af37);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: block;
+}
+
+.civ-notice-title {
+  font-family: 'Cinzel', serif;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 2px 0 0 0;
+  letter-spacing: 0.5px;
+}
+
+.btn-close-notice {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(212, 175, 55, 0.4);
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 1.3rem;
+  line-height: 1;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-close-notice:hover {
+  background: rgba(212, 175, 55, 0.3);
+  border-color: #fff;
+  transform: scale(1.1);
+}
+
+.civ-notice-body {
+  padding: 18px 22px;
+  overflow-y: auto;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.civ-notice-banner-frame {
+  position: relative;
+  width: 100%;
+  height: 180px;
+  border-radius: 6px;
+  overflow: hidden;
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  background: #000;
+  flex-shrink: 0;
+}
+
+.civ-notice-banner-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.civ-notice-desc {
+  font-size: 0.88rem;
+  line-height: 1.65;
+  color: #cbd5e1;
+}
+
+.civ-notice-desc p {
+  margin: 0 0 10px 0;
+}
+
+.civ-notice-desc strong {
+  color: #fff;
+}
+
+.civ-notice-footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 12px;
+  padding: 12px 20px;
+  background: rgba(10, 14, 22, 0.95);
+  border-top: 1px solid rgba(212, 175, 55, 0.2);
+  flex-shrink: 0;
+}
+
+/* Accents sur les voies actives de la frise */
+.timeline-lane.has-active-civ {
+  background-color: rgba(212, 175, 55, 0.05) !important;
+}
+
+.lane-fixed-label.has-active-civ {
+  color: #ffffff !important;
+  border-left: 3px solid var(--gold-pure, #d4af37) !important;
+  background: rgba(212, 175, 55, 0.1) !important;
 }

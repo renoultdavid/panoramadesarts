@@ -410,35 +410,35 @@
         </button>
       </div>
 
-      <!-- CARTOUCHE LATÉRAL GAUCHE -->
-      <aside id="hover-sidebar-card" class="pos-left">
-        <div class="sidebar-header-actions">
-          <button type="button" class="btn-sidebar-tool btn-expand-sidebar" id="btn-expand-sidebar" title="Agrandir en grand format (admirer le bandeau)">⤢</button>
-          <button type="button" class="btn-sidebar-tool btn-collapse-sidebar" id="btn-collapse-sidebar" title="Replier le volet sur le bord">◀</button>
-          <button type="button" class="btn-sidebar-tool btn-close-sidebar" id="btn-close-sidebar" title="Fermer la fiche">&times;</button>
-        </div>
-        <div class="sidebar-scrollable-body">
-          <div class="hover-card-era" id="sidebar-era">Époque</div>
-          <div class="hover-card-title" id="sidebar-title">Civilisation</div>
-
-          <div class="hover-banner-frame" id="sidebar-banner-box">
-            <img id="sidebar-banner-img" src="" alt="Bandeau de la civilisation" loading="lazy" />
+      <!-- MODAL NOTICE MUSÉOGRAPHIQUE DÉTAILLÉE -->
+      <div id="civ-notice-modal" class="civ-notice-modal" hidden>
+        <div class="civ-notice-backdrop" id="civ-notice-backdrop"></div>
+        <div class="civ-notice-frame">
+          <div class="civ-notice-header">
+            <div class="civ-notice-titles">
+              <span class="civ-notice-era" id="sidebar-era">Époque</span>
+              <h2 class="civ-notice-title" id="sidebar-title">Civilisation</h2>
+            </div>
+            <button type="button" class="btn-close-notice" id="btn-close-sidebar" title="Fermer la notice">&times;</button>
           </div>
-
-          <div class="hover-card-desc" id="sidebar-desc">Notice muséographique...</div>
-          <div id="sidebar-album-grid" class="sidebar-album-grid"></div>
+          <div class="civ-notice-body">
+            <div class="civ-notice-banner-frame" id="sidebar-banner-box">
+              <img id="sidebar-banner-img" src="" alt="Bandeau de la civilisation" loading="lazy" />
+            </div>
+            <div class="civ-notice-desc" id="sidebar-desc">Notice muséographique...</div>
+            <div id="sidebar-album-grid" class="sidebar-album-grid"></div>
+          </div>
+          <div class="civ-notice-footer">
+            <button type="button" class="btn-enter-civ-map" id="btn-enter-civ">
+              🗺️ Explorer la carte régionale ➔
+            </button>
+            <button type="button" class="btn-explore-civ-gallery" id="btn-explore-civ-gallery" title="Voir toute la collection de cette civilisation dans la Galerie">
+              <span class="btn-civ-icon">🏛️</span>
+              <span>Voir dans la Galerie (<strong id="sidebar-civ-gallery-count">0</strong>)</span>
+            </button>
+          </div>
         </div>
-
-        <div class="sidebar-footer-action">
-          <button class="btn-enter-civ-map" id="btn-enter-civ">
-            Explorer la carte régionale ➔
-          </button>
-          <button type="button" class="btn-explore-civ-gallery" id="btn-explore-civ-gallery" title="Voir toutes les œuvres de cette civilisation dans la Galerie">
-            <span class="btn-civ-icon">🏛️</span>
-            <span>Explorer la Galerie (<strong id="sidebar-civ-gallery-count">0</strong>)</span>
-          </button>
-        </div>
-      </aside>
+      </div>
 
       <!-- LANGUETTES ÉLÉGANTES SUR LES BORDS POUR DÉPLIER LES VOLETS -->
       <button type="button" id="tab-reopen-civ" class="timeline-edge-tab tab-left" hidden title="Déplier la présentation de la civilisation">
