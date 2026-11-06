@@ -3210,7 +3210,15 @@ document.addEventListener('DOMContentLoaded', () => {
   const mapViewport = document.getElementById('map-viewport');
   if (mapViewport) {
     mapViewport.addEventListener('wheel', (e) => {
-      if (e.target.closest('#master-timeline-bar') || e.target.closest('#hover-sidebar-card') || e.target.closest('#concurrent-sidebar-card') || e.target.closest('#map-hotspot-hud')) {
+      if (
+        e.target.closest('#master-timeline-bar') ||
+        e.target.closest('#hover-sidebar-card') ||
+        e.target.closest('#concurrent-sidebar-card') ||
+        e.target.closest('#map-hotspot-hud') ||
+        e.target.closest('#civ-pavilion-stage') ||
+        e.target.closest('.pavilion-panel-scroll') ||
+        e.target.closest('#synchro-theatre')
+      ) {
         return;
       }
       e.preventDefault();
@@ -3685,9 +3693,6 @@ function openCivilisationPavilion(civ, initialTab = 'panoramic') {
     }
   }
 
-  // Onglet actif
-  setPavilionTab(initialTab);
-
   // Déplie le grand pavillon & replie la frise
   pavilion.removeAttribute('hidden');
   viewTimeline.classList.add('civ-pavilion-open');
@@ -3706,11 +3711,15 @@ function closeCivilisationPavilion() {
 }
 
 function setPavilionTab(tabKey) {
-  const body = document.getElementById('pavilion-body');
-  if (body) body.setAttribute('data-active-tab', tabKey);
-  document.querySelectorAll('.btn-pavilion-tab').forEach(btn => {
-    btn.classList.toggle('active', btn.getAttribute('data-tab') === tabKey);
-  });
+  // Tous les volets sont désormais présentés simultanément dans le grand écran unifié
+}
+
+const civPavilionStageEl = document.getElementById('civ-pavilion-stage');
+if (civPavilionStageEl) {
+  civPavilionStageEl.addEventListener('wheel', (e) => {
+    // Permet au défilement souris / trackpad de s'exécuter naturellement dans les cadres sans interférence
+    e.stopPropagation();
+  }, { passive: true });
 }
 
 function highlightTheatreCard(civId) {
