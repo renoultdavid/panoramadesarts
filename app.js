@@ -3723,263 +3723,278 @@ function goToGalleryForCiv(civ) {
 let lastRenderedCivKey = null;
 
 function renderSynchronousTheatre(activeCivs, currentYear) {
-  const theatreTrack = document.getElementById('synchro-theatre-track');
-  const theatreYearBadge = document.getElementById('theatre-year-badge');
-  const theatreActiveCount = document.getElementById('theatre-active-count');
+  try {
+    const theatreTrack = document.getElementById('synchro-theatre-track');
+    const theatreYearBadge = document.getElementById('theatre-year-badge');
+    const theatreActiveCount = document.getElementById('theatre-active-count');
 
-  if (theatreYearBadge) {
-    theatreYearBadge.textContent = currentYear < 0 ? `${Math.abs(currentYear)} av. J.-C.` : `${currentYear} ap. J.-C.`;
-  }
-
-  if (theatreActiveCount) {
-    if (activeCivs.length === 0) {
-      theatreActiveCount.textContent = 'Aucun foyer dans cette période';
-    } else if (activeCivs.length === 1) {
-      theatreActiveCount.textContent = '1 foyer artistique contemporain';
-    } else {
-      theatreActiveCount.textContent = `${activeCivs.length} foyers contemporains`;
-    }
-  }
-
-  if (!theatreTrack) return;
-
-  const currentCivKey = activeCivs.map(c => c.id).sort().join('|');
-  if (lastRenderedCivKey !== null && currentCivKey === lastRenderedCivKey && theatreTrack.children.length > 0) {
-    return;
-  }
-  lastRenderedCivKey = currentCivKey;
-
-  theatreTrack.innerHTML = '';
-
-  if (activeCivs.length === 0) {
-    theatreTrack.classList.remove('is-single-hero');
-    const emptyMsg = document.createElement('div');
-    emptyMsg.className = 'theatre-empty-state';
-    emptyMsg.innerHTML = `
-      <span class="theatre-empty-icon">⏳</span>
-      <div class="theatre-empty-text">Faites glisser la frise chronologique pour observer les civilisations et foyers artistiques en activité.</div>
-    `;
-    theatreTrack.appendChild(emptyMsg);
-    return;
-  }
-
-  const catalog = window.ART_OBJECTS || [];
-
-  // ========================================================
-  // CAS 1 : UNE SEULE CIVILISATION CONTEMPORAINE (MODE HERO GRAND FORMAT)
-  // ========================================================
-  if (activeCivs.length === 1) {
-    theatreTrack.classList.add('is-single-hero');
-    const civ = activeCivs[0];
-    const icon = civ.icon || getCivIcon(civ);
-    const bannerOrImg = civ.bannerImg || (civ.artifacts && civ.artifacts[0] ? civ.artifacts[0].imgSrc : '');
-
-    let snippet = '';
-    if (civ.presentationHtml) {
-      const tempDiv = document.createElement('div');
-      tempDiv.innerHTML = civ.presentationHtml;
-      const firstP = tempDiv.querySelector('p');
-      const rawText = (firstP && firstP.textContent) ? firstP.textContent : (tempDiv.textContent || '');
-      snippet = rawText ? rawText.replace(/\s+/g, ' ').trim() : '';
-      if (snippet.length > 280) snippet = snippet.slice(0, 275) + '…';
+    if (theatreYearBadge) {
+      theatreYearBadge.textContent = currentYear < 0 ? `${Math.abs(currentYear)} av. J.-C.` : `${currentYear} ap. J.-C.`;
     }
 
-    const count = catalog.filter(a => a.periodId === civ.id || a.civId === civ.id).length;
+    if (theatreActiveCount) {
+      if (!activeCivs || activeCivs.length === 0) {
+        theatreActiveCount.textContent = 'Aucun foyer dans cette période';
+      } else if (activeCivs.length === 1) {
+        theatreActiveCount.textContent = '1 foyer artistique contemporain';
+      } else {
+        theatreActiveCount.textContent = `${activeCivs.length} foyers contemporains`;
+      }
+    }
 
-    const card = document.createElement('div');
-    card.className = 'theatre-civ-card theatre-hero-card';
-    card.setAttribute('data-civ-id', civ.id);
-    card.style.setProperty('--civ-card-color', civ.themeColor || '#d4af37');
+    if (!theatreTrack) return;
 
-    let artChipsHtml = '';
-    if (civ.artifacts && civ.artifacts.length > 0) {
-      const sampleArts = civ.artifacts.slice(0, 6);
-      artChipsHtml = `
-        <div class="theatre-hero-art-strip">
-          <span class="theatre-hero-art-title">✦ Chefs-d'œuvre témoins :</span>
-          <div class="theatre-hero-art-scroll">
-            ${sampleArts.map((art, idx) => `
-              <div class="theatre-hero-art-chip" data-art-index="${idx}" title="${escapeHtmlAttr(art.title)} (${escapeHtmlAttr(art.centuryDisplay || art.century || '')})">
-                <img src="${art.imgSrc}" alt="${escapeHtmlAttr(art.title)}" loading="lazy" />
-                <span class="theatre-chip-name">${escapeHtmlAttr(art.title)}</span>
-              </div>
-            `).join('')}
+    const safeActive = Array.isArray(activeCivs) ? activeCivs : [];
+    const currentCivKey = safeActive.map(c => c.id).sort().join('|');
+    if (lastRenderedCivKey !== null && currentCivKey === lastRenderedCivKey && theatreTrack.children.length > 0) {
+      return;
+    }
+    lastRenderedCivKey = currentCivKey;
+
+    theatreTrack.innerHTML = '';
+
+    if (safeActive.length === 0) {
+      theatreTrack.classList.remove('is-single-hero');
+      const emptyMsg = document.createElement('div');
+      emptyMsg.className = 'theatre-empty-state';
+      emptyMsg.innerHTML = `
+        <span class="theatre-empty-icon">⏳</span>
+        <div class="theatre-empty-text">Faites glisser la frise chronologique pour observer les civilisations et foyers artistiques en activité.</div>
+      `;
+      theatreTrack.appendChild(emptyMsg);
+      return;
+    }
+
+    const catalog = Array.isArray(window.ART_OBJECTS) ? window.ART_OBJECTS : [];
+
+    // ========================================================
+    // CAS 1 : UNE SEULE CIVILISATION CONTEMPORAINE (MODE HERO GRAND FORMAT)
+    // ========================================================
+    if (safeActive.length === 1) {
+      theatreTrack.classList.add('is-single-hero');
+      const civ = safeActive[0];
+      const icon = civ.icon || (typeof getCivIcon === 'function' ? getCivIcon(civ) : '🏛️');
+      const bannerOrImg = civ.bannerImg || (civ.artifacts && civ.artifacts[0] ? civ.artifacts[0].imgSrc : '');
+
+      let snippet = '';
+      if (civ.presentationHtml) {
+        const tempDiv = document.createElement('div');
+        tempDiv.innerHTML = civ.presentationHtml;
+        const firstP = tempDiv.querySelector('p');
+        const rawText = (firstP && firstP.textContent) ? firstP.textContent : (tempDiv.textContent || '');
+        snippet = rawText ? rawText.replace(/\s+/g, ' ').trim() : '';
+        if (snippet.length > 280) snippet = snippet.slice(0, 275) + '…';
+      }
+
+      const count = catalog.filter(a => a && (a.periodId === civ.id || a.civId === civ.id)).length;
+
+      const card = document.createElement('div');
+      card.className = 'theatre-civ-card theatre-hero-card';
+      card.setAttribute('data-civ-id', civ.id);
+      card.style.setProperty('--civ-card-color', civ.themeColor || '#d4af37');
+
+      let artChipsHtml = '';
+      if (civ.artifacts && civ.artifacts.length > 0) {
+        const sampleArts = civ.artifacts.slice(0, 6);
+        artChipsHtml = `
+          <div class="theatre-hero-art-strip">
+            <span class="theatre-hero-art-title">✦ Chefs-d'œuvre témoins :</span>
+            <div class="theatre-hero-art-scroll">
+              ${sampleArts.map((art, idx) => `
+                <div class="theatre-hero-art-chip" data-art-index="${idx}" title="${escapeHtmlAttr(art.title)} (${escapeHtmlAttr(art.centuryDisplay || art.century || '')})">
+                  <img src="${art.imgSrc}" alt="${escapeHtmlAttr(art.title)}" loading="lazy" />
+                  <span class="theatre-chip-name">${escapeHtmlAttr(art.title)}</span>
+                </div>
+              `).join('')}
+            </div>
           </div>
+        `;
+      }
+
+      card.innerHTML = `
+        <div class="theatre-hero-top">
+          <div class="theatre-hero-left">
+            <span class="theatre-hero-emblem">${icon}</span>
+            <div class="theatre-hero-titles">
+              <h3>${escapeHtmlAttr(civ.name)}</h3>
+              <span class="theatre-hero-epoch">✦ ${escapeHtmlAttr(civ.epoch)}</span>
+            </div>
+          </div>
+        </div>
+        <div class="theatre-hero-main">
+          ${bannerOrImg ? `
+          <div class="theatre-hero-banner">
+            <img src="${bannerOrImg}" alt="${escapeHtmlAttr(civ.name)}" loading="lazy" />
+          </div>` : ''}
+          <div class="theatre-hero-content">
+            <div class="theatre-hero-snippet">${escapeHtmlAttr(snippet)}</div>
+            <div class="theatre-hero-actions">
+              ${civ.mapOverlayUrl ? `<button type="button" class="btn-theatre-act btn-theatre-map" title="Ouvrir la carte régionale HD">🗺️ Carte Régionale</button>` : ''}
+              <button type="button" class="btn-theatre-act btn-theatre-notice" title="Consulter la notice muséographique complète">📖 Notice Complète</button>
+              <button type="button" class="btn-theatre-act btn-theatre-gallery" title="Voir toute la collection dans la galerie">🏛️ Collection (${count} œuvres)</button>
+            </div>
+          </div>
+        </div>
+        ${artChipsHtml}
+      `;
+
+      const btnMap = card.querySelector('.btn-theatre-map');
+      if (btnMap) {
+        btnMap.addEventListener('click', (e) => {
+          e.stopPropagation();
+          openCivilisationPavilion(civ, 'map');
+        });
+      }
+
+      const btnNotice = card.querySelector('.btn-theatre-notice');
+      if (btnNotice) {
+        btnNotice.addEventListener('click', (e) => {
+          e.stopPropagation();
+          openCivilisationPavilion(civ, 'notice');
+        });
+      }
+
+      const btnGallery = card.querySelector('.btn-theatre-gallery');
+      if (btnGallery) {
+        btnGallery.addEventListener('click', (e) => {
+          e.stopPropagation();
+          goToGalleryForCiv(civ);
+        });
+      }
+
+      card.querySelectorAll('.theatre-hero-art-chip').forEach(chip => {
+        chip.addEventListener('click', (e) => {
+          e.stopPropagation();
+          const idx = parseInt(chip.getAttribute('data-art-index'), 10);
+          if (civ.artifacts && civ.artifacts[idx]) {
+            openCuratorModal(civ.artifacts[idx], civ.artifacts, true);
+          }
+        });
+      });
+
+      theatreTrack.appendChild(card);
+      return;
+    }
+
+    // ========================================================
+    // CAS 2 : PLUSIEURS CIVILISATIONS (CARTES LISIBLES EN BANDE)
+    // ========================================================
+    theatreTrack.classList.remove('is-single-hero');
+
+    safeActive.forEach(civ => {
+      const icon = civ.icon || (typeof getCivIcon === 'function' ? getCivIcon(civ) : '🏛️');
+      const bannerOrImg = civ.bannerImg || (civ.artifacts && civ.artifacts[0] ? civ.artifacts[0].imgSrc : '');
+
+      let snippet = '';
+      if (civ.presentationHtml) {
+        const tempDiv = document.createElement('div');
+        tempDiv.innerHTML = civ.presentationHtml;
+        const firstP = tempDiv.querySelector('p');
+        const rawText = (firstP && firstP.textContent) ? firstP.textContent : (tempDiv.textContent || '');
+        snippet = rawText ? rawText.replace(/\s+/g, ' ').trim() : '';
+        if (snippet.length > 140) snippet = snippet.slice(0, 137) + '…';
+      }
+
+      const count = catalog.filter(a => a && (a.periodId === civ.id || a.civId === civ.id)).length;
+
+      const card = document.createElement('div');
+      card.className = 'theatre-civ-card';
+      card.setAttribute('data-civ-id', civ.id);
+      card.style.setProperty('--civ-card-color', civ.themeColor || '#d4af37');
+
+      card.innerHTML = `
+        <div class="theatre-card-top">
+          <span class="theatre-card-emblem" title="${escapeHtmlAttr(civ.name)}">${icon}</span>
+          <div class="theatre-card-titles">
+            <div class="theatre-card-name" title="${escapeHtmlAttr(civ.name)}">${escapeHtmlAttr(civ.name)}</div>
+            <div class="theatre-card-epoch">${escapeHtmlAttr(civ.epoch)}</div>
+          </div>
+        </div>
+        ${bannerOrImg ? `
+        <div class="theatre-card-media">
+          <img src="${bannerOrImg}" alt="${escapeHtmlAttr(civ.name)}" loading="lazy" />
+          <div class="theatre-card-media-overlay"></div>
+        </div>` : ''}
+        ${snippet ? `<div class="theatre-card-snippet">${escapeHtmlAttr(snippet)}</div>` : ''}
+        <div class="theatre-card-actions">
+          ${civ.mapOverlayUrl ? `<button type="button" class="btn-theatre-act btn-theatre-map" data-civ-id="${civ.id}" title="Ouvrir la carte régionale ciblée">🗺️ Carte</button>` : ''}
+          <button type="button" class="btn-theatre-act btn-theatre-notice" data-civ-id="${civ.id}" title="Consulter la notice détaillée">📖 Notice</button>
+          <button type="button" class="btn-theatre-act btn-theatre-gallery" data-civ-id="${civ.id}" title="Explorer les œuvres dans la Galerie">🏛️ Galerie (${count})</button>
         </div>
       `;
-    }
 
-    card.innerHTML = `
-      <div class="theatre-hero-top">
-        <div class="theatre-hero-left">
-          <span class="theatre-hero-emblem">${icon}</span>
-          <div class="theatre-hero-titles">
-            <h3>${escapeHtmlAttr(civ.name)}</h3>
-            <span class="theatre-hero-epoch">✦ ${escapeHtmlAttr(civ.epoch)}</span>
-          </div>
-        </div>
-      </div>
-      <div class="theatre-hero-main">
-        ${bannerOrImg ? `
-        <div class="theatre-hero-banner">
-          <img src="${bannerOrImg}" alt="${escapeHtmlAttr(civ.name)}" loading="lazy" />
-        </div>` : ''}
-        <div class="theatre-hero-content">
-          <div class="theatre-hero-snippet">${escapeHtmlAttr(snippet)}</div>
-          <div class="theatre-hero-actions">
-            ${civ.mapOverlayUrl ? `<button type="button" class="btn-theatre-act btn-theatre-map" title="Ouvrir la carte régionale HD">🗺️ Carte Régionale</button>` : ''}
-            <button type="button" class="btn-theatre-act btn-theatre-notice" title="Consulter la notice muséographique complète">📖 Notice Complète</button>
-            <button type="button" class="btn-theatre-act btn-theatre-gallery" title="Voir toute la collection dans la galerie">🏛️ Collection (${count} œuvres)</button>
-          </div>
-        </div>
-      </div>
-      ${artChipsHtml}
-    `;
+      const btnMap = card.querySelector('.btn-theatre-map');
+      if (btnMap) {
+        btnMap.addEventListener('click', (e) => {
+          e.stopPropagation();
+          openCivilisationPavilion(civ, 'map');
+        });
+      }
 
-    const btnMap = card.querySelector('.btn-theatre-map');
-    if (btnMap) {
-      btnMap.addEventListener('click', (e) => {
-        e.stopPropagation();
-        openCivilisationPavilion(civ, 'map');
+      const btnNotice = card.querySelector('.btn-theatre-notice');
+      if (btnNotice) {
+        btnNotice.addEventListener('click', (e) => {
+          e.stopPropagation();
+          openCivilisationPavilion(civ, 'notice');
+        });
+      }
+
+      const btnGallery = card.querySelector('.btn-theatre-gallery');
+      if (btnGallery) {
+        btnGallery.addEventListener('click', (e) => {
+          e.stopPropagation();
+          goToGalleryForCiv(civ);
+        });
+      }
+
+      card.addEventListener('click', () => {
+        openCivilisationPavilion(civ, 'panoramic');
       });
-    }
 
-    const btnNotice = card.querySelector('.btn-theatre-notice');
-    if (btnNotice) {
-      btnNotice.addEventListener('click', (e) => {
-        e.stopPropagation();
-        openCivilisationPavilion(civ, 'notice');
-      });
-    }
-
-    const btnGallery = card.querySelector('.btn-theatre-gallery');
-    if (btnGallery) {
-      btnGallery.addEventListener('click', (e) => {
-        e.stopPropagation();
-        goToGalleryForCiv(civ);
-      });
-    }
-
-    card.querySelectorAll('.theatre-hero-art-chip').forEach(chip => {
-      chip.addEventListener('click', (e) => {
-        e.stopPropagation();
-        const idx = parseInt(chip.getAttribute('data-art-index'), 10);
-        if (civ.artifacts && civ.artifacts[idx]) {
-          openCuratorModal(civ.artifacts[idx], civ.artifacts, true);
-        }
-      });
+      theatreTrack.appendChild(card);
     });
-
-    theatreTrack.appendChild(card);
-    return;
+  } catch (err) {
+    console.error('Erreur dans renderSynchronousTheatre:', err);
   }
-
-  // ========================================================
-  // CAS 2 : PLUSIEURS CIVILISATIONS (CARTES LISIBLES EN BANDE)
-  // ========================================================
-  theatreTrack.classList.remove('is-single-hero');
-
-  activeCivs.forEach(civ => {
-    const icon = civ.icon || getCivIcon(civ);
-    const bannerOrImg = civ.bannerImg || (civ.artifacts && civ.artifacts[0] ? civ.artifacts[0].imgSrc : '');
-
-    let snippet = '';
-    if (civ.presentationHtml) {
-      const tempDiv = document.createElement('div');
-      tempDiv.innerHTML = civ.presentationHtml;
-      const firstP = tempDiv.querySelector('p');
-      const rawText = (firstP && firstP.textContent) ? firstP.textContent : (tempDiv.textContent || '');
-      snippet = rawText ? rawText.replace(/\s+/g, ' ').trim() : '';
-      if (snippet.length > 140) snippet = snippet.slice(0, 137) + '…';
-    }
-
-    const count = catalog.filter(a => a.periodId === civ.id || a.civId === civ.id).length;
-
-    const card = document.createElement('div');
-    card.className = 'theatre-civ-card';
-    card.setAttribute('data-civ-id', civ.id);
-    card.style.setProperty('--civ-card-color', civ.themeColor || '#d4af37');
-
-    card.innerHTML = `
-      <div class="theatre-card-top">
-        <span class="theatre-card-emblem" title="${escapeHtmlAttr(civ.name)}">${icon}</span>
-        <div class="theatre-card-titles">
-          <div class="theatre-card-name" title="${escapeHtmlAttr(civ.name)}">${escapeHtmlAttr(civ.name)}</div>
-          <div class="theatre-card-epoch">${escapeHtmlAttr(civ.epoch)}</div>
-        </div>
-      </div>
-      ${bannerOrImg ? `
-      <div class="theatre-card-media">
-        <img src="${bannerOrImg}" alt="${escapeHtmlAttr(civ.name)}" loading="lazy" />
-        <div class="theatre-card-media-overlay"></div>
-      </div>` : ''}
-      ${snippet ? `<div class="theatre-card-snippet">${escapeHtmlAttr(snippet)}</div>` : ''}
-      <div class="theatre-card-actions">
-        ${civ.mapOverlayUrl ? `<button type="button" class="btn-theatre-act btn-theatre-map" data-civ-id="${civ.id}" title="Ouvrir la carte régionale ciblée">🗺️ Carte</button>` : ''}
-        <button type="button" class="btn-theatre-act btn-theatre-notice" data-civ-id="${civ.id}" title="Consulter la notice détaillée">📖 Notice</button>
-        <button type="button" class="btn-theatre-act btn-theatre-gallery" data-civ-id="${civ.id}" title="Explorer les œuvres dans la Galerie">🏛️ Galerie (${count})</button>
-      </div>
-    `;
-
-    const btnMap = card.querySelector('.btn-theatre-map');
-    if (btnMap) {
-      btnMap.addEventListener('click', (e) => {
-        e.stopPropagation();
-        openCivilisationPavilion(civ, 'map');
-      });
-    }
-
-    const btnNotice = card.querySelector('.btn-theatre-notice');
-    if (btnNotice) {
-      btnNotice.addEventListener('click', (e) => {
-        e.stopPropagation();
-        openCivilisationPavilion(civ, 'notice');
-      });
-    }
-
-    const btnGallery = card.querySelector('.btn-theatre-gallery');
-    if (btnGallery) {
-      btnGallery.addEventListener('click', (e) => {
-        e.stopPropagation();
-        goToGalleryForCiv(civ);
-      });
-    }
-
-    card.addEventListener('click', () => {
-      openCivilisationPavilion(civ, 'panoramic');
-    });
-
-    theatreTrack.appendChild(card);
-  });
 }
 
 function updateSynchronousState(screenX) {
-  if (!masterRibbon || !syncLine || !syncBubble) return;
-  const ribbonRect = masterRibbon.getBoundingClientRect();
-  const relativeX = screenX - (ribbonRect.left || 0);
-  const currentYear = Math.round(pixelToYear(relativeX));
+  try {
+    if (!masterRibbon || !syncLine || !syncBubble) return;
+    const ribbonRect = masterRibbon.getBoundingClientRect();
+    const relativeX = screenX - (ribbonRect.left || 0);
+    const currentYear = Math.round(pixelToYear(relativeX));
 
-  syncLine.style.left = `${screenX}px`;
-  syncBubble.textContent = currentYear < 0 ? `${Math.abs(currentYear)} av. J.-C.` : `${currentYear} ap. J.-C.`;
+    syncLine.style.left = `${screenX}px`;
+    syncBubble.textContent = currentYear < 0 ? `${Math.abs(currentYear)} av. J.-C.` : `${currentYear} ap. J.-C.`;
 
-  const activeCivs = [];
-  CIVILISATIONS_REGISTRY.forEach(civ => {
-    if (currentYear >= civ.yearStart && currentYear <= civ.yearEnd) {
-      activeCivs.push(civ);
+    const activeCivs = [];
+    if (Array.isArray(CIVILISATIONS_REGISTRY)) {
+      CIVILISATIONS_REGISTRY.forEach(civ => {
+        if (currentYear >= civ.yearStart && currentYear <= civ.yearEnd) {
+          activeCivs.push(civ);
+        }
+      });
     }
-  });
 
-  // Mise en valeur des voies actives de la frise
-  const activeLanes = new Set(activeCivs.map(c => c.lane));
-  document.querySelectorAll('.timeline-lane').forEach(lane => {
-    lane.classList.toggle('has-active-civ', activeLanes.has(lane.dataset.lane));
-  });
-  document.querySelectorAll('.lane-fixed-label').forEach(label => {
-    label.classList.toggle('has-active-civ', activeLanes.has(label.dataset.lane));
-  });
+    // Mise en valeur des voies actives de la frise
+    const activeLanes = new Set(activeCivs.map(c => c.lane));
+    document.querySelectorAll('.timeline-lane').forEach(lane => {
+      if (lane && lane.dataset) {
+        lane.classList.toggle('has-active-civ', activeLanes.has(lane.dataset.lane));
+      }
+    });
+    document.querySelectorAll('.lane-fixed-label').forEach(label => {
+      if (label && label.dataset) {
+        label.classList.toggle('has-active-civ', activeLanes.has(label.dataset.lane));
+      }
+    });
 
-  // Mise à jour du Théâtre Synchronique des Arts
-  renderSynchronousTheatre(activeCivs, currentYear);
+    // Mise à jour du Théâtre Synchronique des Arts
+    renderSynchronousTheatre(activeCivs, currentYear);
+  } catch (err) {
+    console.error('Erreur dans updateSynchronousState:', err);
+  }
 }
 
 masterContainer.addEventListener('mousemove', (e) => {
