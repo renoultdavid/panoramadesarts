@@ -131,6 +131,7 @@ const rulerEventsLayer = document.getElementById('ruler-events-layer');
 const rulerSparksLayer = document.getElementById('ruler-sparks-layer');
 const syncLine = document.getElementById('sync-cursor-line');
 const syncBubble = document.getElementById('sync-bubble-tag');
+const timelineSplitWrapper = document.getElementById('timeline-split-wrapper');
 const milestoneTooltip = document.getElementById('milestone-tooltip');
 const mType = document.getElementById('milestone-type');
 const mYear = document.getElementById('milestone-year');
@@ -3718,7 +3719,7 @@ function goToGalleryForCiv(civ) {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
-let lastRenderedCivKey = '';
+let lastRenderedCivKey = null;
 
 function renderSynchronousTheatre(activeCivs, currentYear) {
   const theatreTrack = document.getElementById('synchro-theatre-track');
@@ -3742,7 +3743,7 @@ function renderSynchronousTheatre(activeCivs, currentYear) {
   if (!theatreTrack) return;
 
   const currentCivKey = activeCivs.map(c => c.id).sort().join('|');
-  if (currentCivKey === lastRenderedCivKey) {
+  if (lastRenderedCivKey !== null && currentCivKey === lastRenderedCivKey && theatreTrack.children.length > 0) {
     return;
   }
   lastRenderedCivKey = currentCivKey;
@@ -3976,20 +3977,6 @@ function updateSynchronousState(screenX) {
     label.classList.toggle('has-active-civ', activeLanes.has(label.dataset.lane));
   });
 
-  // Recentrage automatique doux sur la voie active s'il y a peu de civilisations
-  if (activeCivs.length > 0 && activeCivs[0].lane && timelineSplitWrapper) {
-    const targetLane = document.querySelector(`.timeline-lane[data-lane="${activeCivs[0].lane}"]`);
-    if (targetLane && (!timelineSplitWrapper._lastCenteredLane || timelineSplitWrapper._lastCenteredLane !== activeCivs[0].lane)) {
-      timelineSplitWrapper._lastCenteredLane = activeCivs[0].lane;
-      const topPos = targetLane.offsetTop;
-      const viewH = timelineSplitWrapper.clientHeight;
-      timelineSplitWrapper.scrollTo({
-        top: Math.max(0, topPos - (viewH / 2) + 20),
-        behavior: 'smooth'
-      });
-    }
-  }
-
   // Mise à jour du Théâtre Synchronique des Arts
   renderSynchronousTheatre(activeCivs, currentYear);
 }
@@ -3997,8 +3984,6 @@ function updateSynchronousState(screenX) {
 masterContainer.addEventListener('mousemove', (e) => {
   updateSynchronousState(e.clientX);
 });
-
-const timelineSplitWrapper = document.getElementById('timeline-split-wrapper');
 let startY = 0;
 let startScrollTop = 0;
 
