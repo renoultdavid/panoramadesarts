@@ -4038,6 +4038,7 @@ window.addEventListener('mousemove', (e) => {
   rulerEventsLayer.style.transform = `translateX(${curRibbonX}px)`;
   if (rulerSparksLayer) rulerSparksLayer.style.transform = `translateX(${curRibbonX}px)`;
   updateStickyBlockTitles();
+  updateSynchronousState(e.clientX);
 
   // 2. Navigation verticale (Pan 2D fluide sans ascenseur)
   if (timelineSplitWrapper) {
