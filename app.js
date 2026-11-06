@@ -365,7 +365,13 @@ function openClusterExplosionModal(cluster) {
   currentActiveCluster = cluster;
 
   const overlay = document.getElementById('cluster-exploded-overlay');
+  const viewTimeline = document.getElementById('view-timeline');
   if (!overlay) return;
+
+  // Réduire la frise chronologique à son strict minimum (44px) comme pour le pavillon
+  if (viewTimeline) {
+    viewTimeline.classList.add('cluster-stage-open');
+  }
 
   const headlineEl = document.getElementById('cluster-modal-headline');
   const sublineEl = document.getElementById('cluster-modal-subline');
@@ -411,7 +417,11 @@ function openClusterExplosionModal(cluster) {
 
     if (it.isArtwork && it.art) {
       const art = it.art;
-      const thumb = it.imgSrc || (art.imgSrc || 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><rect fill="%231a202c" width="100" height="100"/><text fill="%23d4af37" x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="28">🏛️</text></svg>');
+      const thumb = it.imgSrc || (art.imgSrc || '');
+      const blurBgHtml = thumb
+        ? `<div class="cluster-card-blur-bg" style="background-image: url('${thumb}');"></div>`
+        : `<div class="cluster-card-blur-bg" style="background: radial-gradient(circle, rgba(212,175,55,0.4), rgba(15,23,42,0.9));"></div>`;
+      const safeThumb = thumb || 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><rect fill="%231a202c" width="100" height="100"/><text fill="%23d4af37" x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="28">🏛️</text></svg>';
       const safeTitle = (art.title || it.title || '').replace(/"/g, '&quot;');
       const civName = art.civName || art.site || 'Civilisation antique';
       const dateText = art.centuryDisplay || fmtY(it.year);
@@ -419,7 +429,8 @@ function openClusterExplosionModal(cluster) {
 
       card.innerHTML = `
         <div class="cluster-card-thumb-wrap">
-          <img src="${thumb}" alt="${safeTitle}" class="cluster-card-thumb" loading="lazy" />
+          ${blurBgHtml}
+          <img src="${safeThumb}" alt="${safeTitle}" class="cluster-card-thumb" loading="lazy" />
           <span class="cluster-card-domain-badge">${it.icon} ${it.type || 'Art'}</span>
         </div>
         <div class="cluster-card-content">
@@ -453,8 +464,9 @@ function openClusterExplosionModal(cluster) {
       const catLabel = categoryLabels[it.category] || it.type || 'Repère Historique';
 
       card.innerHTML = `
-        <div class="cluster-milestone-header spark-${it.category || 'chantier'}">
-          <span class="cluster-milestone-icon">${it.icon || '⭐'}</span>
+        <div class="cluster-milestone-thumb-wrap spark-${it.category || 'chantier'}">
+          <div class="cluster-milestone-glow-bg"></div>
+          <span class="cluster-milestone-huge-icon">${it.icon || '⭐'}</span>
           <span class="cluster-milestone-tag">${catLabel.toUpperCase()}</span>
           <span class="cluster-milestone-year">${fmtY(it.year)}</span>
         </div>
@@ -481,6 +493,10 @@ function openClusterExplosionModal(cluster) {
 
 function closeClusterExplosionModal() {
   const overlay = document.getElementById('cluster-exploded-overlay');
+  const viewTimeline = document.getElementById('view-timeline');
+  if (viewTimeline) {
+    viewTimeline.classList.remove('cluster-stage-open');
+  }
   if (!overlay) return;
   overlay.classList.remove('active');
   setTimeout(() => {
@@ -4531,7 +4547,7 @@ const masterTimelineBar = document.getElementById('master-timeline-bar');
 
 function handleTimelineWheel(e) {
   const viewTimelineEl = document.getElementById('view-timeline');
-  if (viewTimelineEl && viewTimelineEl.classList.contains('civ-pavilion-open')) return;
+  if (viewTimelineEl && (viewTimelineEl.classList.contains('civ-pavilion-open') || viewTimelineEl.classList.contains('cluster-stage-open'))) return;
 
   // 1. Défilement horizontal trackpad (swipe latéral) ou Shift + Molette
   if (e.shiftKey || (Math.abs(e.deltaX) > Math.abs(e.deltaY) && Math.abs(e.deltaX) > 2)) {
@@ -4560,8 +4576,12 @@ if (timelineDock) {
   timelineDock.addEventListener('wheel', handleTimelineWheel, { passive: false });
   timelineDock.addEventListener('click', () => {
     const viewTimelineEl = document.getElementById('view-timeline');
-    if (viewTimelineEl && viewTimelineEl.classList.contains('civ-pavilion-open')) {
-      closeCivilisationPavilion();
+    if (viewTimelineEl) {
+      if (viewTimelineEl.classList.contains('civ-pavilion-open')) {
+        closeCivilisationPavilion();
+      } else if (viewTimelineEl.classList.contains('cluster-stage-open')) {
+        closeClusterExplosionModal();
+      }
     }
   });
 } else if (masterTimelineBar) {
@@ -4777,11 +4797,14 @@ document.querySelectorAll('.btn-pavilion-tab').forEach(btn => {
 // Clic sur la frise repliée pour la redéplier
 const timelineDockEl = document.getElementById('timeline-dock');
 if (timelineDockEl) {
-  timelineDockEl.addEventListener('click', (e) => {
+  timelineDockEl.addEventListener('click', () => {
     const viewTimeline = document.getElementById('view-timeline');
-    if (viewTimeline && viewTimeline.classList.contains('civ-pavilion-open')) {
-      // Si la frise est repliée, un clic dessus la redéplie
-      closeCivilisationPavilion();
+    if (viewTimeline) {
+      if (viewTimeline.classList.contains('civ-pavilion-open')) {
+        closeCivilisationPavilion();
+      } else if (viewTimeline.classList.contains('cluster-stage-open')) {
+        closeClusterExplosionModal();
+      }
     }
   });
 }
