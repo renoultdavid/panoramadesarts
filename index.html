@@ -447,9 +447,9 @@
           </div>
         </header>
 
-        <!-- CORPS MULTI-VOLETS PANORAMIQUE RÉAGENCÉ -->
+        <!-- CORPS DU PAVILLON : ARCHITECTURE MULTI-VOLETS RÉAGENCÉE -->
         <div class="pavilion-body" id="pavilion-body">
-          <!-- VOLET 1 (GAUCHE) : PRÉSENTATION & HISTOIRE -->
+          <!-- 1. VOLET DE GAUCHE : HISTOIRE & GENÈSE (Pleine hauteur) -->
           <article class="pavilion-panel pavilion-panel-notice" id="panel-notice">
             <div class="panel-header-strip">
               <span class="panel-tag">✦ HISTOIRE &amp; GENÈSE</span>
@@ -469,49 +469,45 @@
             </div>
           </article>
 
-          <!-- BLOC DROITE : CARTE EN HAUT, CONTEXTE ET TOURNANTS EN BAS -->
-          <div class="pavilion-right-grid">
-            <!-- HAUT DE DROITE : CARTE RÉGIONALE (2x plus large, format panoramique) -->
-            <article class="pavilion-panel pavilion-panel-map" id="panel-map">
-              <div class="panel-header-strip">
-                <span class="panel-tag">✦ CARTE RÉGIONALE &amp; GÉOGRAPHIE</span>
-              </div>
-              <div class="pavilion-panel-scroll map-panel-scroll">
-                <div class="pavilion-map-frame" id="pavilion-map-box">
-                  <img id="pavilion-map-img" src="" alt="Carte régionale HD" />
-                  <div id="pavilion-map-placeholder" class="pavilion-map-placeholder" style="display: none;"></div>
-                  <div class="map-atmospheric-glow"></div>
-                </div>
-              </div>
-            </article>
-
-            <!-- BAS DE DROITE : 2 COLONNES (ET PENDANT CE TEMPS-LÀ & TOURNANTS CONTEMPORAINS) -->
-            <div class="pavilion-lower-split">
-              <!-- BAS GAUCHE : ET PENDANT CE TEMPS-LÀ (RÉCIT SYNCHRONE) -->
-              <article class="pavilion-panel pavilion-panel-concurrent" id="panel-concurrent">
-                <div class="panel-header-strip">
-                  <span class="panel-tag">✦ ET PENDANT CE TEMPS-LÀ... (CONTEXTE MONDIAL)</span>
-                </div>
-                <div class="pavilion-panel-scroll concurrent-panel-scroll">
-                  <div class="pavilion-concurrent-text" id="pavilion-concurrent-text">
-                    <p>Contexte mondial en cours d'enrichissement pour cette époque.</p>
-                  </div>
-                </div>
-              </article>
-
-              <!-- BAS DROITE : TOURNANTS & ÉVÉNEMENTS CONTEMPORAINS -->
-              <article class="pavilion-panel pavilion-panel-milestones" id="panel-milestones">
-                <div class="panel-header-strip">
-                  <span class="panel-tag">✦ TOURNANTS &amp; ÉVÉNEMENTS CONTEMPORAINS</span>
-                </div>
-                <div class="pavilion-panel-scroll milestones-panel-scroll">
-                  <div class="concurrent-milestones-col" id="concurrent-milestones-col">
-                    <!-- Injecté dynamiquement en JS (événements contemporains + autres foyers du même siècle) -->
-                  </div>
-                </div>
-              </article>
+          <!-- 2. VOLET MILIEU HAUT : CARTE RÉGIONALE (Même largeur & hauteur que Contexte Mondial) -->
+          <article class="pavilion-panel pavilion-panel-map" id="panel-map">
+            <div class="panel-header-strip map-header-flex">
+              <span class="panel-tag">✦ CARTE RÉGIONALE &amp; GÉOGRAPHIE</span>
+              <span class="panel-tag-hint">🔍 Plein écran</span>
             </div>
-          </div>
+            <div class="pavilion-panel-scroll map-panel-scroll">
+              <div class="pavilion-map-frame" id="pavilion-map-box">
+                <img id="pavilion-map-img" src="" alt="Carte régionale HD" />
+                <div id="pavilion-map-placeholder" class="pavilion-map-placeholder" style="display: none;"></div>
+                <div class="map-atmospheric-glow"></div>
+                <div class="map-expand-pill" id="map-expand-pill">⛶ Plein écran HD</div>
+              </div>
+            </div>
+          </article>
+
+          <!-- 3. VOLET MILIEU BAS : ET PENDANT CE TEMPS-LÀ (Même taille largeur et hauteur que la carte) -->
+          <article class="pavilion-panel pavilion-panel-concurrent" id="panel-concurrent">
+            <div class="panel-header-strip">
+              <span class="panel-tag">✦ ET PENDANT CE TEMPS-LÀ... (CONTEXTE MONDIAL)</span>
+            </div>
+            <div class="pavilion-panel-scroll concurrent-panel-scroll">
+              <div class="pavilion-concurrent-text" id="pavilion-concurrent-text">
+                <p>Contexte mondial en cours d'enrichissement pour cette époque.</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- 4. VOLET DROITE : TOURNANTS & ÉVÉNEMENTS (Double de hauteur, pleine hauteur) -->
+          <article class="pavilion-panel pavilion-panel-milestones" id="panel-milestones">
+            <div class="panel-header-strip">
+              <span class="panel-tag">✦ TOURNANTS &amp; ÉVÉNEMENTS CONTEMPORAINS</span>
+            </div>
+            <div class="pavilion-panel-scroll milestones-panel-scroll">
+              <div class="concurrent-milestones-col" id="concurrent-milestones-col">
+                <!-- Injecté dynamiquement en JS (événements contemporains + autres foyers du même siècle) -->
+              </div>
+            </div>
+          </article>
         </div>
 
         <!-- RUBAN INFÉRIEUR : CHEFS-D'ŒUVRE TÉMOINS DE CETTE CIVILISATION -->
@@ -933,7 +929,7 @@
   <script src="data/data-objets3.js"></script>
 
   <!-- SCRIPT MAÎTRE -->
-  <script src="app.js?v=5.7"></script>
+  <script src="app.js?v=5.8"></script>
 </body>
 
 </html>

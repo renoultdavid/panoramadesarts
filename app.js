@@ -3431,10 +3431,33 @@ function renderPavilionMap(civ) {
     mapBox.appendChild(placeholder);
   }
 
+  const expandPill = document.getElementById('map-expand-pill');
+  const panelMapEl = document.getElementById('panel-map');
+
   if (civ.mapOverlayUrl) {
     if (mapImg) {
       mapImg.src = civ.mapOverlayUrl;
       mapImg.style.display = 'block';
+    }
+    if (mapBox) {
+      mapBox.style.cursor = 'zoom-in';
+      mapBox.title = 'Cliquer pour afficher la carte en plein écran HD';
+      mapBox.onclick = (e) => {
+        e.stopPropagation();
+        openRegionalMap(civ);
+      };
+    }
+    if (panelMapEl) {
+      panelMapEl.style.cursor = 'zoom-in';
+      panelMapEl.onclick = (e) => {
+        // Si le clic n'était pas sur un bouton spécifique, ouvrir la carte plein écran
+        if (!e.target.closest('button')) {
+          openRegionalMap(civ);
+        }
+      };
+    }
+    if (expandPill) {
+      expandPill.style.display = 'block';
     }
     if (placeholder) {
       placeholder.style.display = 'none';
@@ -3445,6 +3468,18 @@ function renderPavilionMap(civ) {
     if (mapImg) {
       mapImg.src = '';
       mapImg.style.display = 'none';
+    }
+    if (mapBox) {
+      mapBox.style.cursor = 'default';
+      mapBox.title = '';
+      mapBox.onclick = null;
+    }
+    if (panelMapEl) {
+      panelMapEl.style.cursor = 'default';
+      panelMapEl.onclick = null;
+    }
+    if (expandPill) {
+      expandPill.style.display = 'none';
     }
     if (placeholder) {
       const geoInfo = getCivGeographicData(civ);
@@ -3905,10 +3940,9 @@ function renderSynchronousTheatre(activeCivs, currentYear) {
       if (civ.presentationHtml) {
         const tempDiv = document.createElement('div');
         tempDiv.innerHTML = civ.presentationHtml;
-        const firstP = tempDiv.querySelector('p');
-        const rawText = (firstP && firstP.textContent) ? firstP.textContent : (tempDiv.textContent || '');
+        const rawText = tempDiv.textContent || '';
         snippet = rawText ? rawText.replace(/\s+/g, ' ').trim() : '';
-        if (snippet.length > 280) snippet = snippet.slice(0, 275) + '…';
+        if (snippet.length > 400) snippet = snippet.slice(0, 395) + '…';
       }
 
       const count = catalog.filter(a => a && (a.periodId === civ.id || a.civId === civ.id)).length;
@@ -4014,10 +4048,9 @@ function renderSynchronousTheatre(activeCivs, currentYear) {
       if (civ.presentationHtml) {
         const tempDiv = document.createElement('div');
         tempDiv.innerHTML = civ.presentationHtml;
-        const firstP = tempDiv.querySelector('p');
-        const rawText = (firstP && firstP.textContent) ? firstP.textContent : (tempDiv.textContent || '');
+        const rawText = tempDiv.textContent || '';
         snippet = rawText ? rawText.replace(/\s+/g, ' ').trim() : '';
-        if (snippet.length > 140) snippet = snippet.slice(0, 137) + '…';
+        if (snippet.length > 360) snippet = snippet.slice(0, 355) + '…';
       }
 
       const count = catalog.filter(a => a && (a.periodId === civ.id || a.civId === civ.id)).length;
