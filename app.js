@@ -318,13 +318,17 @@ function renderConstellationLayer() {
       badge.innerHTML = `<span>+${cluster.items.length}</span>`;
 
       pin.addEventListener('mouseenter', () => showClusterTooltip(cluster, pin));
-      pin.addEventListener('mouseleave', hidePinTooltip);
+      pin.addEventListener('mouseleave', () => {
+        const tooltip = document.getElementById('milestone-tooltip');
+        if (tooltip && tooltip.dataset.locked === 'true') return;
+        hidePinTooltip();
+      });
 
-      // Clic sur une grappe : dilatation immédiate au cœur de la grappe !
+      // Clic sur une grappe : centrage & dilatation immédiate + ouverture de l'éclatement complet
       pin.addEventListener('click', (e) => {
         e.stopPropagation();
-        const pinRect = pin.getBoundingClientRect();
-        zoomTimelineAt(pinRect.left + pinRect.width / 2, -1);
+        hidePinTooltip();
+        triggerClusterExplosion(cluster);
       });
     }
 
@@ -334,6 +338,155 @@ function renderConstellationLayer() {
   });
 
   rulerEventsLayer.replaceChildren(frag);
+}
+
+/* ==========================================================================
+   GESTION DES GRAPPES TEMPORELLES & ÉCLATEMENT MUSÉAL DÉTAILLÉ
+   ========================================================================== */
+let currentActiveCluster = null;
+
+function triggerClusterExplosion(cluster) {
+  if (!cluster || !cluster.items || cluster.items.length === 0) return;
+  const minYear = Math.min(...cluster.items.map(i => i.year));
+  const maxYear = Math.max(...cluster.items.map(i => i.year));
+  const focalYear = Math.round((minYear + maxYear) / 2);
+
+  // Dilater et centrer la frise chronologique sur cette époque
+  if (typeof centerTimelineOnYear === 'function') {
+    centerTimelineOnYear(focalYear, Math.max(timelineZoom, 2.5));
+  }
+
+  // Déployer la modale d'exposition éclatée de la grappe
+  openClusterExplosionModal(cluster);
+}
+
+function openClusterExplosionModal(cluster) {
+  if (!cluster || !cluster.items || cluster.items.length === 0) return;
+  currentActiveCluster = cluster;
+
+  const overlay = document.getElementById('cluster-exploded-overlay');
+  if (!overlay) return;
+
+  const headlineEl = document.getElementById('cluster-modal-headline');
+  const sublineEl = document.getElementById('cluster-modal-subline');
+  const cardsContainer = document.getElementById('cluster-exploded-cards');
+  if (!cardsContainer) return;
+
+  const minYear = Math.min(...cluster.items.map(i => i.year));
+  const maxYear = Math.max(...cluster.items.map(i => i.year));
+  const focalYear = Math.round((minYear + maxYear) / 2);
+  const fmtY = y => y < 0 ? `${Math.abs(y)} av. J.-C.` : `${y} ap. J.-C.`;
+  const yearStr = minYear === maxYear ? fmtY(minYear) : `${fmtY(minYear)} à ${fmtY(maxYear)}`;
+
+  const artworks = cluster.items.filter(it => it.isArtwork && it.art);
+  const milestones = cluster.items.filter(it => !it.isArtwork);
+
+  if (headlineEl) {
+    headlineEl.innerHTML = `✦ Grappe Temporelle • <span>${cluster.items.length} Œuvres & Jalons</span>`;
+  }
+  if (sublineEl) {
+    sublineEl.textContent = `Convergence artistique & historique majeure : ${yearStr} (${artworks.length} chef${artworks.length > 1 ? 's' : ''}-d'œuvre, ${milestones.length} jalon${milestones.length > 1 ? 's' : ''} contemporains)`;
+  }
+
+  // Bouton "Centrer la frise"
+  const btnCenter = document.getElementById('btn-cluster-center-timeline');
+  if (btnCenter) {
+    btnCenter.onclick = (e) => {
+      e.stopPropagation();
+      if (typeof centerTimelineOnYear === 'function') {
+        centerTimelineOnYear(focalYear, Math.max(timelineZoom, 2.5));
+      }
+      btnCenter.classList.add('pulse-active');
+      setTimeout(() => btnCenter.classList.remove('pulse-active'), 800);
+    };
+  }
+
+  // Remplissage des cartes
+  const frag = document.createDocumentFragment();
+  const clusterArtworksList = artworks.map(it => it.art);
+
+  cluster.items.forEach(it => {
+    const card = document.createElement('div');
+    card.className = `cluster-exploded-card ${it.isArtwork ? 'is-art-card' : 'is-milestone-card'}`;
+
+    if (it.isArtwork && it.art) {
+      const art = it.art;
+      const thumb = it.imgSrc || (art.imgSrc || 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><rect fill="%231a202c" width="100" height="100"/><text fill="%23d4af37" x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="28">🏛️</text></svg>');
+      const safeTitle = (art.title || it.title || '').replace(/"/g, '&quot;');
+      const civName = art.civName || art.site || 'Civilisation antique';
+      const dateText = art.centuryDisplay || fmtY(it.year);
+      const descSnippet = art.desc ? (art.desc.slice(0, 140) + '...') : (art.site || '');
+
+      card.innerHTML = `
+        <div class="cluster-card-thumb-wrap">
+          <img src="${thumb}" alt="${safeTitle}" class="cluster-card-thumb" loading="lazy" />
+          <span class="cluster-card-domain-badge">${it.icon} ${it.type || 'Art'}</span>
+        </div>
+        <div class="cluster-card-content">
+          <div class="cluster-card-civ">${civName}</div>
+          <h3 class="cluster-card-title">${art.title || it.title}</h3>
+          <div class="cluster-card-meta">
+            <span class="cluster-card-date">⏳ ${dateText}</span>
+            ${art.medium ? `<span class="cluster-card-medium">• ${art.medium}</span>` : ''}
+          </div>
+          <p class="cluster-card-desc">${descSnippet}</p>
+          <button type="button" class="btn-cluster-inspect-art">
+            <span>🏛️ Notice complète</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+          </button>
+        </div>
+      `;
+
+      card.addEventListener('click', () => {
+        closeClusterExplosionModal();
+        if (typeof openCuratorModal === 'function') {
+          openCuratorModal(art, clusterArtworksList, true);
+        }
+      });
+    } else {
+      const categoryLabels = {
+        'chantier': 'Chantier & Architecture',
+        'invention': 'Invention & Technique',
+        'conquete': 'Conquête & Bataille',
+        'cataclysme': 'Cataclysme & Séisme'
+      };
+      const catLabel = categoryLabels[it.category] || it.type || 'Repère Historique';
+
+      card.innerHTML = `
+        <div class="cluster-milestone-header spark-${it.category || 'chantier'}">
+          <span class="cluster-milestone-icon">${it.icon || '⭐'}</span>
+          <span class="cluster-milestone-tag">${catLabel.toUpperCase()}</span>
+          <span class="cluster-milestone-year">${fmtY(it.year)}</span>
+        </div>
+        <div class="cluster-card-content">
+          <h3 class="cluster-card-title">${it.title}</h3>
+          <p class="cluster-card-desc">${it.desc || 'Foyer créatif et tournant contemporain majeur de la période.'}</p>
+          <div class="cluster-milestone-footer">
+            <span class="cluster-milestone-hint">Jalon synchronique sur la frise</span>
+          </div>
+        </div>
+      `;
+    }
+
+    frag.appendChild(card);
+  });
+
+  cardsContainer.replaceChildren(frag);
+
+  overlay.removeAttribute('hidden');
+  requestAnimationFrame(() => {
+    overlay.classList.add('active');
+  });
+}
+
+function closeClusterExplosionModal() {
+  const overlay = document.getElementById('cluster-exploded-overlay');
+  if (!overlay) return;
+  overlay.classList.remove('active');
+  setTimeout(() => {
+    overlay.setAttribute('hidden', '');
+    currentActiveCluster = null;
+  }, 220);
 }
 
 function showPinTooltip(item, pinEl) {
@@ -396,11 +549,18 @@ function showClusterTooltip(cluster, pinEl) {
   const topTitles = cluster.items.slice(0, 3).map(i => `${i.icon} ${i.title}`).join('<br>');
   const remaining = cluster.items.length - 3;
   titleEl.innerHTML = topTitles + (remaining > 0 ? `<br><em style="color:#a0aec0;">...et ${remaining} autre(s)</em>` : '');
-  descEl.textContent = "Foyer de création artistique et historique dense sur cette période.";
+  descEl.textContent = "Convergence de chefs-d'œuvre et d'événements majeurs sur cette période.";
+
+  tooltip.classList.add('is-interactive');
 
   if (actionEl) {
-    actionEl.innerHTML = "🔍 <strong>Cliquez pour zoomer et faire éclater cette grappe</strong>";
+    actionEl.innerHTML = `🔍 <strong>Faire éclater cette grappe (${cluster.items.length} œuvres & jalons)</strong>`;
     actionEl.style.display = 'block';
+    actionEl.onclick = (e) => {
+      e.stopPropagation();
+      hidePinTooltip();
+      triggerClusterExplosion(cluster);
+    };
   }
 
   positionTooltipAtPin(tooltip, pinEl);
@@ -408,7 +568,10 @@ function showClusterTooltip(cluster, pinEl) {
 
 function hidePinTooltip() {
   const tooltip = document.getElementById('milestone-tooltip');
-  if (tooltip) tooltip.classList.remove('visible');
+  if (tooltip) {
+    tooltip.classList.remove('visible');
+    tooltip.classList.remove('is-interactive');
+  }
 }
 
 function positionTooltipAtPin(tooltip, pinEl) {
@@ -4336,6 +4499,32 @@ function resetTimelineZoom() {
   updateSynchronousState(targetX);
 }
 
+function centerTimelineOnYear(targetYear, targetZoom = null) {
+  if (!masterContainer) return;
+  if (targetZoom !== null && typeof targetZoom === 'number') {
+    timelineZoom = Math.max(0.4, Math.min(15.0, targetZoom));
+    updateTimelineLayout();
+  }
+  const containerWidth = masterContainer.clientWidth || window.innerWidth;
+  const targetPixel = yearToPixel(targetYear);
+  const minX = -(getRibbonWidth() - containerWidth);
+  const focalScreenX = containerWidth * 0.45;
+  curRibbonX = Math.max(minX, Math.min(0, focalScreenX - targetPixel));
+  prevRibbonX = curRibbonX;
+
+  if (masterRibbon) masterRibbon.style.transform = `translateX(${curRibbonX}px)`;
+  if (rulerTrack) rulerTrack.style.transform = `translateX(${curRibbonX}px)`;
+  if (rulerEventsLayer) rulerEventsLayer.style.transform = `translateX(${curRibbonX}px)`;
+  if (rulerSparksLayer) rulerSparksLayer.style.transform = `translateX(${curRibbonX}px)`;
+
+  if (typeof updateSynchronousState === 'function') {
+    updateSynchronousState(focalScreenX);
+  }
+  if (typeof updateStickyBlockTitles === 'function') {
+    updateStickyBlockTitles();
+  }
+}
+
 // Molette sur la frise (Zoom continu sous curseur ou défilement latéral trackpad)
 const timelineDock = document.getElementById('timeline-dock');
 const masterTimelineBar = document.getElementById('master-timeline-bar');
@@ -4601,6 +4790,9 @@ window.addEventListener('keydown', (e) => {
   if (e.key === 'Escape') {
     closeCivilisationPavilion();
     closeRegionalMap();
+    if (typeof closeClusterExplosionModal === 'function') {
+      closeClusterExplosionModal();
+    }
   }
 });
 
@@ -4617,6 +4809,26 @@ if (civMapBackdrop) {
   civMapBackdrop.addEventListener('click', (e) => {
     e.stopPropagation();
     closeRegionalMap();
+  });
+}
+
+// Écouteurs de fermeture pour la modale d'éclatement de grappe
+const btnCloseClusterModal = document.getElementById('btn-close-cluster-modal');
+if (btnCloseClusterModal) {
+  btnCloseClusterModal.addEventListener('click', (e) => {
+    e.stopPropagation();
+    if (typeof closeClusterExplosionModal === 'function') {
+      closeClusterExplosionModal();
+    }
+  });
+}
+const clusterExplodedBackdrop = document.getElementById('cluster-exploded-backdrop');
+if (clusterExplodedBackdrop) {
+  clusterExplodedBackdrop.addEventListener('click', (e) => {
+    e.stopPropagation();
+    if (typeof closeClusterExplosionModal === 'function') {
+      closeClusterExplosionModal();
+    }
   });
 }
 

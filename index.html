@@ -411,6 +411,31 @@
         </div>
       </div>
 
+      <!-- MODALE D'ÉCLATEMENT DE GRAPPE TEMPORELLE (ACCÈS DIRECT À TOUTES LES ŒUVRES DU CLUSTER) -->
+      <div id="cluster-exploded-overlay" class="cluster-exploded-overlay" hidden>
+        <div class="cluster-exploded-backdrop" id="cluster-exploded-backdrop"></div>
+        <div class="cluster-exploded-frame">
+          <div class="cluster-exploded-header">
+            <div class="cluster-exploded-title-group">
+              <span class="cluster-exploded-emblem">✦</span>
+              <div class="cluster-exploded-titles">
+                <h2 class="cluster-exploded-headline" id="cluster-modal-headline">Grappe Temporelle • <span>Œuvres & Jalons</span></h2>
+                <div class="cluster-exploded-subline" id="cluster-modal-subline">Convergence historique et artistique contemporaine</div>
+              </div>
+            </div>
+            <div class="cluster-exploded-header-actions">
+              <button type="button" class="btn-cluster-center-timeline" id="btn-cluster-center-timeline" title="Centrer et synchroniser la frise sur cette date">
+                <span>🎯 Centrer la frise</span>
+              </button>
+              <button type="button" class="btn-close-cluster-modal" id="btn-close-cluster-modal" title="Fermer la vue éclatée">✕</button>
+            </div>
+          </div>
+          <div class="cluster-exploded-body" id="cluster-exploded-cards">
+            <!-- Cartes d'œuvres et jalons contemporains injectées dynamiquement -->
+          </div>
+        </div>
+      </div>
+
       <!-- PASSERELLE RETOUR : Bouton flottant pour revenir à la notice de l'œuvre -->
       <div id="timeline-return-pill" class="timeline-return-pill" hidden>
         <button type="button" id="btn-timeline-return-art" class="btn-timeline-return-art"
@@ -929,7 +954,7 @@
   <script src="data/data-objets3.js"></script>
 
   <!-- SCRIPT MAÎTRE -->
-  <script src="app.js?v=5.9"></script>
+  <script src="app.js?v=6.0"></script>
 </body>
 
 </html>
