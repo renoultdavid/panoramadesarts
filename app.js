@@ -2857,6 +2857,81 @@ function buildTimelineBlocks() {
     }
   });
 
+function getCivIcon(civ) {
+  if (!civ) return '✦';
+  if (civ.icon) return civ.icon;
+  const id = civ.id || '';
+  const lane = civ.lane || '';
+
+  const ICON_MAP = {
+    'egypte_ancien': '☥',
+    'egypte_moyen': '⚱️',
+    'egypte_nouvel': '👑',
+    'egypte_tardive': '⚱️',
+    'egypte_ptolemaique': '🏺',
+    'egypte_romaine': '🖼️',
+    'cyclades': '🗿',
+    'crete': '🐂',
+    'mycenes': '👑',
+    'grece_geometrique': '🏺',
+    'grece_archaique': '🏺',
+    'grece_classique': '🏛️',
+    'grece_hellenistique': '🗽',
+    'etrusque_orientalisant': '🎭',
+    'etrusque_archaique': '🎭',
+    'etrusque_classique': '🎭',
+    'italie_grande_grece': '🏛️',
+    'chypre_bronze': '🕊️',
+    'chypre_archaique': '🕊️',
+    'amorrite': '📜',
+    'lycie_anatolie': '⛰️',
+    'iran_suse_proto': '🏺',
+    'iran_elam': '🏺',
+    'iran_fer': '🐴',
+    'iran_achemenide': '🦁',
+    'iran_parthe': '🏹',
+    'islam_omeyyade': '🕌',
+    'islam_abbasside_aghlabide': '✨',
+    'islam_fatimide': '🌙',
+    'islam_ottoman': '🕌',
+    'meso_uruk': '📜',
+    'meso_dyn_archaiques': '📜',
+    'meso_akkad': '👑',
+    'meso_neo_sumer': '🏛️',
+    'meso_paleo_babylone': '⚖️',
+    'meso_assyrie': '🦁',
+    'meso_neo_babylone': '🐉',
+    'neolithique_levant': '🌾',
+    'neolithique_megalithes': '🪨',
+    'celte_bronze': '🛡️',
+    'celte_fer': '⚔️',
+    'ibere_archaique': '🐴',
+    'occ_roman': '⛪',
+    'occ_gothique': '⛪',
+    'occ_renaissance': '🎨',
+    'occ_xixe': '🖌️',
+    'occ_xxe_moderne': '✨',
+    'canaries': '🌋'
+  };
+
+  if (ICON_MAP[id]) return ICON_MAP[id];
+  if (id.startsWith('egypte')) return '⚱️';
+  if (id.startsWith('grece')) return '🏛️';
+  if (id.startsWith('etrusque')) return '🎭';
+  if (id.startsWith('iran')) return '🦁';
+  if (id.startsWith('islam')) return '🕌';
+  if (id.startsWith('meso')) return '📜';
+  if (id.startsWith('celte')) return '⚔️';
+  if (lane === 'europe_ouest') return '⚔️';
+  if (lane === 'italie_etrusque') return '🏛️';
+  if (lane === 'grece_egee') return '🏛️';
+  if (lane === 'egypte') return '⚱️';
+  if (lane === 'mesopotamie') return '📜';
+  if (lane === 'iran_perse') return '🦁';
+  if (lane === 'islam') return '🕌';
+  return '✦';
+}
+
   // 2. Création des blocs de frise
   CIVILISATIONS_REGISTRY.forEach((civ) => {
     const laneEl = document.querySelector(`.timeline-lane[data-lane="${civ.lane}"]`);
@@ -2868,14 +2943,18 @@ function buildTimelineBlocks() {
     const x2 = yearToPixel(visibleEnd);
     const width = Math.max(x2 - x1, 14);
 
+    const civIcon = civ.icon || getCivIcon(civ);
+    civ.icon = civIcon;
+
     const block = document.createElement('div');
     block.className = `civ-timespan-block track-${civ._trackIndex || 0} ${civ._laneIsDouble ? 'in-double-lane' : ''}`;
     block.style.left = `${x1}px`;
     block.style.width = `${width}px`;
     block.style.backgroundColor = civ.themeColor + '35';
     block.style.borderColor = civ.themeColor;
+    block.title = `${civIcon} ${civ.name} (${civ.epoch})`;
 
-    block.innerHTML = `<span class="civ-block-title" style="color: #ffffff; text-shadow: 0 0 6px ${civ.themeColor}, 0 1px 3px rgba(0,0,0,0.95);">${civ.name}</span>`;
+    block.innerHTML = `<span class="civ-block-icon" aria-hidden="true">${civIcon}</span><span class="civ-block-title" style="color: #ffffff; text-shadow: 0 0 6px ${civ.themeColor}, 0 1px 3px rgba(0,0,0,0.95);">${civ.name}</span>`;
 
     block.addEventListener('mouseenter', () => {
       if (!isLockedSidebar) showCivPreview(civ);
@@ -3334,6 +3413,9 @@ if (tabReopenConcurrent) {
 
 btnEnterCiv.addEventListener('click', () => {
   if (selectedCiv) {
+    if (selectedCiv.mapOverlayUrl) {
+      openRegionalMap(selectedCiv);
+    }
     activateCivilisationView(selectedCiv);
     isLockedSidebar = false;
     hideCivPreview();
@@ -3431,6 +3513,165 @@ function initMapBeacons() {
   }, 50);
 }
 
+function openRegionalMap(civ) {
+  if (!civ) return;
+  const overlay = document.getElementById('civilisation-map-overlay');
+  const img = document.getElementById('civilisation-map-img');
+  const titleText = document.getElementById('civ-map-title-text');
+  if (!overlay || !img) return;
+
+  const targetUrl = civ.mapOverlayUrl || civ.bannerImg || '';
+  if (targetUrl) {
+    img.src = targetUrl;
+    if (titleText) titleText.textContent = `Carte Régionale : ${civ.name}`;
+    overlay.removeAttribute('hidden');
+    overlay.classList.add('active');
+  }
+}
+
+function closeRegionalMap() {
+  const overlay = document.getElementById('civilisation-map-overlay');
+  if (overlay) {
+    overlay.classList.remove('active');
+    overlay.setAttribute('hidden', 'true');
+  }
+}
+
+let lastRenderedCivKey = '';
+
+function renderSynchronousTheatre(activeCivs, currentYear) {
+  const theatreTrack = document.getElementById('synchro-theatre-track');
+  const theatreYearBadge = document.getElementById('theatre-year-badge');
+  const theatreActiveCount = document.getElementById('theatre-active-count');
+
+  if (theatreYearBadge) {
+    theatreYearBadge.textContent = currentYear < 0 ? `${Math.abs(currentYear)} av. J.-C.` : `${currentYear} ap. J.-C.`;
+  }
+
+  if (theatreActiveCount) {
+    if (activeCivs.length === 0) {
+      theatreActiveCount.textContent = 'Aucun foyer dans cette période';
+    } else if (activeCivs.length === 1) {
+      theatreActiveCount.textContent = '1 foyer artistique contemporain';
+    } else {
+      theatreActiveCount.textContent = `${activeCivs.length} foyers contemporains`;
+    }
+  }
+
+  if (!theatreTrack) return;
+
+  const currentCivKey = activeCivs.map(c => c.id).sort().join('|');
+  if (currentCivKey === lastRenderedCivKey) {
+    return;
+  }
+  lastRenderedCivKey = currentCivKey;
+
+  theatreTrack.innerHTML = '';
+
+  if (activeCivs.length === 0) {
+    const emptyMsg = document.createElement('div');
+    emptyMsg.className = 'theatre-empty-state';
+    emptyMsg.innerHTML = `
+      <span class="theatre-empty-icon">⏳</span>
+      <div class="theatre-empty-text">Faites glisser la frise chronologique pour observer les civilisations et foyers artistiques en activité.</div>
+    `;
+    theatreTrack.appendChild(emptyMsg);
+    return;
+  }
+
+  const catalog = window.ART_OBJECTS || [];
+
+  activeCivs.forEach(civ => {
+    const icon = civ.icon || getCivIcon(civ);
+    const bannerOrImg = civ.bannerImg || (civ.artifacts && civ.artifacts[0] ? civ.artifacts[0].imgSrc : '');
+
+    let snippet = '';
+    if (civ.presentationHtml) {
+      const tempDiv = document.createElement('div');
+      tempDiv.innerHTML = civ.presentationHtml;
+      const firstP = tempDiv.querySelector('p');
+      const rawText = firstP ? firstP.textContent : tempDiv.textContent;
+      snippet = rawText.replace(/\s+/g, ' ').trim();
+      if (snippet.length > 115) snippet = snippet.slice(0, 112) + '…';
+    }
+
+    const count = catalog.filter(a => a.periodId === civ.id || a.civId === civ.id).length;
+
+    const card = document.createElement('div');
+    card.className = 'theatre-civ-card';
+    card.setAttribute('data-civ-id', civ.id);
+    card.style.setProperty('--civ-card-color', civ.themeColor || '#d4af37');
+
+    card.innerHTML = `
+      <div class="theatre-card-top">
+        <span class="theatre-card-emblem" title="${escapeHtmlAttr(civ.name)}">${icon}</span>
+        <div class="theatre-card-titles">
+          <div class="theatre-card-name" title="${escapeHtmlAttr(civ.name)}">${escapeHtmlAttr(civ.name)}</div>
+          <div class="theatre-card-epoch">${escapeHtmlAttr(civ.epoch)}</div>
+        </div>
+      </div>
+      ${bannerOrImg ? `
+      <div class="theatre-card-media">
+        <img src="${bannerOrImg}" alt="${escapeHtmlAttr(civ.name)}" loading="lazy" />
+        <div class="theatre-card-media-overlay"></div>
+      </div>` : ''}
+      ${snippet ? `<div class="theatre-card-snippet">${escapeHtmlAttr(snippet)}</div>` : ''}
+      <div class="theatre-card-actions">
+        ${civ.mapOverlayUrl ? `<button type="button" class="btn-theatre-act btn-theatre-map" data-civ-id="${civ.id}" title="Ouvrir la carte régionale ciblée">🗺️ Carte</button>` : ''}
+        <button type="button" class="btn-theatre-act btn-theatre-notice" data-civ-id="${civ.id}" title="Consulter la notice détaillée">📖 Notice</button>
+        <button type="button" class="btn-theatre-act btn-theatre-gallery" data-civ-id="${civ.id}" title="Explorer les œuvres dans la Galerie">🏛️ Galerie (${count})</button>
+      </div>
+    `;
+
+    const btnMap = card.querySelector('.btn-theatre-map');
+    if (btnMap) {
+      btnMap.addEventListener('click', (e) => {
+        e.stopPropagation();
+        openRegionalMap(civ);
+      });
+    }
+
+    const btnNotice = card.querySelector('.btn-theatre-notice');
+    if (btnNotice) {
+      btnNotice.addEventListener('click', (e) => {
+        e.stopPropagation();
+        lockCivSidebar(civ);
+      });
+    }
+
+    const btnGallery = card.querySelector('.btn-theatre-gallery');
+    if (btnGallery) {
+      btnGallery.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const filterCiv = document.getElementById('filter-civ');
+        const filterPeriod = document.getElementById('filter-period');
+        switchView('view-search');
+        if (filterCiv) {
+          const matchingCivOpt = Array.from(filterCiv.options).find(opt => opt.value === civ.id || opt.value === civ.lane);
+          filterCiv.value = matchingCivOpt ? matchingCivOpt.value : 'all';
+          filterCiv.dispatchEvent(new Event('change'));
+
+          if (filterPeriod && civ.id) {
+            const matchingPeriodOpt = Array.from(filterPeriod.options).find(opt => opt.value === civ.id);
+            if (matchingPeriodOpt) {
+              filterPeriod.value = civ.id;
+              filterPeriod.dispatchEvent(new Event('change'));
+            }
+          }
+        }
+        if (typeof renderSearchGallery === 'function') renderSearchGallery();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    }
+
+    card.addEventListener('click', () => {
+      showCivPreview(civ);
+    });
+
+    theatreTrack.appendChild(card);
+  });
+}
+
 function updateSynchronousState(screenX) {
   if (!masterRibbon || !syncLine || !syncBubble) return;
   const ribbonRect = masterRibbon.getBoundingClientRect();
@@ -3440,22 +3681,15 @@ function updateSynchronousState(screenX) {
   syncLine.style.left = `${screenX}px`;
   syncBubble.textContent = currentYear < 0 ? `${Math.abs(currentYear)} av. J.-C.` : `${currentYear} ap. J.-C.`;
 
-  const activeCivIds = new Set();
+  const activeCivs = [];
   CIVILISATIONS_REGISTRY.forEach(civ => {
     if (currentYear >= civ.yearStart && currentYear <= civ.yearEnd) {
-      activeCivIds.add(civ.id);
+      activeCivs.push(civ);
     }
   });
 
-  // Mise à jour synchrone des balises & cartouches d'or sur la carte (Concept A)
-  document.querySelectorAll('.geo-beacon-jewel').forEach(beacon => {
-    const cId = (beacon.getAttribute && beacon.getAttribute('data-civ-id')) || (beacon.dataset && beacon.dataset.civId);
-    if (activeCivIds.has(cId) || (selectedCiv && selectedCiv.id === cId)) {
-      beacon.classList.add('active');
-    } else {
-      beacon.classList.remove('active');
-    }
-  });
+  // Mise à jour du Théâtre Synchronique des Arts
+  renderSynchronousTheatre(activeCivs, currentYear);
 
   if (!isLockedSidebar && !CIVILISATIONS_REGISTRY.some(c => currentYear >= c.yearStart && currentYear <= c.yearEnd)) {
     hoverSidebar.classList.remove('visible');
@@ -3778,14 +4012,14 @@ function activateCivilisationView(civ) {
     };
   }
 
-  globalMapImg.style.transformOrigin = civ.travelingOrigin;
-  globalMapImg.classList.add('traveling');
+  if (globalMapImg) {
+    globalMapImg.style.transformOrigin = civ.travelingOrigin;
+    globalMapImg.classList.add('traveling');
+  }
 
-  civMapImg.src = civ.mapOverlayUrl;
-  
-  setTimeout(() => {
-    civOverlayMap.classList.add('active');
-  }, 150);
+  if (civ.mapOverlayUrl) {
+    openRegionalMap(civ);
+  }
 
   if (civ.concurrentHtml) {
     concurrentDesc.innerHTML = civ.concurrentHtml;
@@ -3834,15 +4068,31 @@ function activateCivilisationView(civ) {
 function closeCivilisationView() {
   subDrawer.classList.remove('open');
   concurrentSidebar.classList.remove('visible');
-  civOverlayMap.classList.remove('active');
+  closeRegionalMap();
   civMapImg.src = '';
-  globalMapImg.classList.remove('traveling');
+  if (globalMapImg) globalMapImg.classList.remove('traveling');
   subStream.innerHTML = '';
   if (tabReopenConcurrent) tabReopenConcurrent.hidden = true;
   hideCivPreview();
 }
 
 document.getElementById('btn-close-drawer').addEventListener('click', closeCivilisationView);
+
+// Écouteurs de fermeture pour la carte régionale dédiée
+const btnCloseCivMap = document.getElementById('btn-close-civ-map');
+if (btnCloseCivMap) {
+  btnCloseCivMap.addEventListener('click', (e) => {
+    e.stopPropagation();
+    closeRegionalMap();
+  });
+}
+const civMapBackdrop = document.getElementById('civ-map-backdrop');
+if (civMapBackdrop) {
+  civMapBackdrop.addEventListener('click', (e) => {
+    e.stopPropagation();
+    closeRegionalMap();
+  });
+}
 
 /* ==========================================================================
    POP-UP D'EXPOSITION MUSÉALE UNIFIÉE (FRISE + MOTEUR DE RECHERCHE)

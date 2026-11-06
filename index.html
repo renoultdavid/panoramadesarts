@@ -364,276 +364,41 @@
   <section id="view-timeline" class="spa-view" hidden>
     <!-- SCÈNE CARTOGRAPHIQUE CENTRALE FIXÉE -->
     <main id="map-viewport">
-      <!-- HUD DE CADRAGE & ZOOM PAR FOYERS GÉOGRAPHIQUES (HOTSPOTS) -->
-      <div id="map-hotspot-hud" class="map-hotspot-hud">
-        <div class="hotspot-btn-group">
-          <button type="button" class="btn-hotspot active" data-hotspot="monde" title="Vue Monde globale">🌐 Monde</button>
-          <button type="button" class="btn-hotspot" data-hotspot="mediterranee" title="Zoom sur le bassin méditerranéen & Nil">🏛️ Méditerranée</button>
-          <button type="button" class="btn-hotspot" data-hotspot="orient" title="Zoom sur le Proche-Orient & l'Iran">🏺 Orient &amp; Perse</button>
-          <button type="button" class="btn-hotspot" data-hotspot="europe" title="Zoom sur l'Europe & Gaule">⚔️ Europe</button>
-          <button type="button" class="btn-hotspot" data-hotspot="atlantique" title="Zoom sur l'Atlantique & Canaries">🌋 Canaries</button>
-        </div>
-        <div class="hotspot-zoom-tools">
-          <button type="button" class="btn-map-zoom-tool" id="btn-map-zoom-in" title="Zoom avant">+</button>
-          <button type="button" class="btn-map-zoom-tool" id="btn-map-zoom-out" title="Zoom arrière">−</button>
-          <button type="button" class="btn-map-zoom-tool" id="btn-map-zoom-reset" title="Réinitialiser le cadrage">⟲</button>
-        </div>
-      </div>
-
-      <div id="map-canvas-frame">
-        <div id="map-zoom-stage">
-          <img id="global-map-img" src="https://lh3.googleusercontent.com/d/1QyvVo3lL18FPcqzLgR9qvyaHY5F63Spk"
-            alt="Carte du Monde" />
-
-          <!-- Balises et Cartouches d'Or synchrones mondiaux (Concept A) -->
-          <div id="synchronous-halos-layer">
-            <div class="geo-beacon-jewel" id="beacon-egypte_ancien" style="left: 54.8%; top: 48.8%;" data-civ-id="egypte_ancien" data-civ-name="Ancien Empire & Époque Thinite">
-              <div class="jewel-anchor"></div>
-              <div class="jewel-pulse"></div>
-              <div class="jewel-tooltip">✦ Ancien Empire & Époque Thinite <span class="tooltip-epoch">(v. -3100 à -2200 av. J.-C.)</span></div>
-            </div>
-            <div class="geo-beacon-jewel" id="beacon-egypte_moyen" style="left: 54.9%; top: 49.6%;" data-civ-id="egypte_moyen" data-civ-name="Moyen Empire & Périodes Intermédiaires">
-              <div class="jewel-anchor"></div>
-              <div class="jewel-pulse"></div>
-              <div class="jewel-tooltip">✦ Moyen Empire & Périodes Intermédiaires <span class="tooltip-epoch">(v. -2200 à -1550 av. J.-C.)</span></div>
-            </div>
-            <div class="geo-beacon-jewel" id="beacon-egypte_nouvel" style="left: 55.1%; top: 50.4%;" data-civ-id="egypte_nouvel" data-civ-name="Nouvel Empire">
-              <div class="jewel-anchor"></div>
-              <div class="jewel-pulse"></div>
-              <div class="jewel-tooltip">✦ Nouvel Empire <span class="tooltip-epoch">(v. -1550 à -1069 av. J.-C.)</span></div>
-            </div>
-            <div class="geo-beacon-jewel" id="beacon-egypte_tardive" style="left: 54.5%; top: 48.0%;" data-civ-id="egypte_tardive" data-civ-name="Basse Époque & 3e Période Intermédiaire">
-              <div class="jewel-anchor"></div>
-              <div class="jewel-pulse"></div>
-              <div class="jewel-tooltip">✦ Basse Époque & 3e Période Intermédiaire <span class="tooltip-epoch">(v. -1069 à -332 av. J.-C.)</span></div>
-            </div>
-            <div class="geo-beacon-jewel" id="beacon-egypte_ptolemaique" style="left: 54.5%; top: 48.0%;" data-civ-id="egypte_ptolemaique" data-civ-name="Époque Ptolémaïque & Lagide">
-              <div class="jewel-anchor"></div>
-              <div class="jewel-pulse"></div>
-              <div class="jewel-tooltip">✦ Époque Ptolémaïque & Lagide <span class="tooltip-epoch">(v. -332 à -30 av. J.-C.)</span></div>
-            </div>
-            <div class="geo-beacon-jewel" id="beacon-egypte_romaine" style="left: 54.5%; top: 48.0%;" data-civ-id="egypte_romaine" data-civ-name="Égypte Romaine">
-              <div class="jewel-anchor"></div>
-              <div class="jewel-pulse"></div>
-              <div class="jewel-tooltip">✦ Égypte Romaine <span class="tooltip-epoch">(v. -30 av. J.-C. à +395 ap. J.-C.)</span></div>
-            </div>
-            <div class="geo-beacon-jewel" id="beacon-cyclades" style="left: 53.0%; top: 43.8%;" data-civ-id="cyclades" data-civ-name="Art Cycladique (Mer Égée)">
-              <div class="jewel-anchor"></div>
-              <div class="jewel-pulse"></div>
-              <div class="jewel-tooltip">✦ Art Cycladique (Mer Égée) <span class="tooltip-epoch">(v. -3200 à -1900 av. J.-C.)</span></div>
-            </div>
-            <div class="geo-beacon-jewel" id="beacon-crete" style="left: 53.2%; top: 45.4%;" data-civ-id="crete" data-civ-name="Art Minoen (Crète)">
-              <div class="jewel-anchor"></div>
-              <div class="jewel-pulse"></div>
-              <div class="jewel-tooltip">✦ Art Minoen (Crète) <span class="tooltip-epoch">(v. -2000 à -1450 av. J.-C.)</span></div>
-            </div>
-            <div class="geo-beacon-jewel" id="beacon-mycenes" style="left: 52.2%; top: 42.6%;" data-civ-id="mycenes" data-civ-name="Art Mycénien (Grèce)">
-              <div class="jewel-anchor"></div>
-              <div class="jewel-pulse"></div>
-              <div class="jewel-tooltip">✦ Art Mycénien (Grèce) <span class="tooltip-epoch">(v. -1600 à -1100 av. J.-C.)</span></div>
-            </div>
-            <div class="geo-beacon-jewel" id="beacon-grece_geometrique" style="left: 52.8%; top: 44.5%;" data-civ-id="grece_geometrique" data-civ-name="Époque Géométrique">
-              <div class="jewel-anchor"></div>
-              <div class="jewel-pulse"></div>
-              <div class="jewel-tooltip">✦ Époque Géométrique <span class="tooltip-epoch">(v. -1050 à -700 av. J.-C.)</span></div>
-            </div>
-            <div class="geo-beacon-jewel" id="beacon-grece_archaique" style="left: 52.8%; top: 44.5%;" data-civ-id="grece_archaique" data-civ-name="Époque Archaïque">
-              <div class="jewel-anchor"></div>
-              <div class="jewel-pulse"></div>
-              <div class="jewel-tooltip">✦ Époque Archaïque <span class="tooltip-epoch">(v. -700 à -480 av. J.-C.)</span></div>
-            </div>
-            <div class="geo-beacon-jewel" id="beacon-grece_classique" style="left: 52.8%; top: 44.5%;" data-civ-id="grece_classique" data-civ-name="Époque Classique">
-              <div class="jewel-anchor"></div>
-              <div class="jewel-pulse"></div>
-              <div class="jewel-tooltip">✦ Époque Classique <span class="tooltip-epoch">(v. -480 à -323 av. J.-C.)</span></div>
-            </div>
-            <div class="geo-beacon-jewel" id="beacon-grece_hellenistique" style="left: 53.5%; top: 45.0%;" data-civ-id="grece_hellenistique" data-civ-name="Époque Hellénistique">
-              <div class="jewel-anchor"></div>
-              <div class="jewel-pulse"></div>
-              <div class="jewel-tooltip">✦ Époque Hellénistique <span class="tooltip-epoch">(v. -323 à -31 av. J.-C.)</span></div>
-            </div>
-            <div class="geo-beacon-jewel" id="beacon-etrusque_orientalisant" style="left: 50.8%; top: 41.5%;" data-civ-id="etrusque_orientalisant" data-civ-name="Époque Orientalisante">
-              <div class="jewel-anchor"></div>
-              <div class="jewel-pulse"></div>
-              <div class="jewel-tooltip">✦ Époque Orientalisante <span class="tooltip-epoch">(v. -750 à -600 av. J.-C.)</span></div>
-            </div>
-            <div class="geo-beacon-jewel" id="beacon-etrusque_archaique" style="left: 50.8%; top: 41.5%;" data-civ-id="etrusque_archaique" data-civ-name="Époque Archaïque">
-              <div class="jewel-anchor"></div>
-              <div class="jewel-pulse"></div>
-              <div class="jewel-tooltip">✦ Époque Archaïque <span class="tooltip-epoch">(v. -600 à -475 av. J.-C.)</span></div>
-            </div>
-            <div class="geo-beacon-jewel" id="beacon-etrusque_classique" style="left: 50.8%; top: 41.5%;" data-civ-id="etrusque_classique" data-civ-name="Époques Classique & Hellénistique">
-              <div class="jewel-anchor"></div>
-              <div class="jewel-pulse"></div>
-              <div class="jewel-tooltip">✦ Époques Classique & Hellénistique <span class="tooltip-epoch">(v. -475 à -264 av. J.-C.)</span></div>
-            </div>
-            <div class="geo-beacon-jewel" id="beacon-italie_grande_grece" style="left: 51.8%; top: 44.5%;" data-civ-id="italie_grande_grece" data-civ-name="Grande-Grèce & Peuples Italiques">
-              <div class="jewel-anchor"></div>
-              <div class="jewel-pulse"></div>
-              <div class="jewel-tooltip">✦ Grande-Grèce & Peuples Italiques <span class="tooltip-epoch">(v. -500 à -200 av. J.-C.)</span></div>
-            </div>
-            <div class="geo-beacon-jewel" id="beacon-chypre_bronze" style="left: 55.4%; top: 45.6%;" data-civ-id="chypre_bronze" data-civ-name="Art Chypriote (Âge du Bronze)">
-              <div class="jewel-anchor"></div>
-              <div class="jewel-pulse"></div>
-              <div class="jewel-tooltip">✦ Art Chypriote (Âge du Bronze) <span class="tooltip-epoch">(v. -2500 à -1050 av. J.-C.)</span></div>
-            </div>
-            <div class="geo-beacon-jewel" id="beacon-chypre_archaique" style="left: 55.4%; top: 45.6%;" data-civ-id="chypre_archaique" data-civ-name="Art Chypriote (Époque Archaïque)">
-              <div class="jewel-anchor"></div>
-              <div class="jewel-pulse"></div>
-              <div class="jewel-tooltip">✦ Art Chypriote (Époque Archaïque) <span class="tooltip-epoch">(v. -1050 à -480 av. J.-C.)</span></div>
-            </div>
-            <div class="geo-beacon-jewel" id="beacon-amorrite" style="left: 55.8%; top: 44.2%;" data-civ-id="amorrite" data-civ-name="Art Amorrite (Syrie)">
-              <div class="jewel-anchor"></div>
-              <div class="jewel-pulse"></div>
-              <div class="jewel-tooltip">✦ Art Amorrite (Syrie) <span class="tooltip-epoch">(v. -2000 à -1500 av. J.-C.)</span></div>
-            </div>
-            <div class="geo-beacon-jewel" id="beacon-lycie_anatolie" style="left: 53.2%; top: 43.8%;" data-civ-id="lycie_anatolie" data-civ-name="Civilisation de Lycie & Asie Mineure">
-              <div class="jewel-anchor"></div>
-              <div class="jewel-pulse"></div>
-              <div class="jewel-tooltip">✦ Civilisation de Lycie & Asie Mineure <span class="tooltip-epoch">(v. -600 à -300 av. J.-C.)</span></div>
-            </div>
-            <div class="geo-beacon-jewel" id="beacon-iran_suse_proto" style="left: 58.8%; top: 46.2%;" data-civ-id="iran_suse_proto" data-civ-name="Suse I & Proto-élamite">
-              <div class="jewel-anchor"></div>
-              <div class="jewel-pulse"></div>
-              <div class="jewel-tooltip">✦ Suse I & Proto-élamite <span class="tooltip-epoch">(v. -4000 à -2700 av. J.-C.)</span></div>
-            </div>
-            <div class="geo-beacon-jewel" id="beacon-iran_elam" style="left: 58.8%; top: 46.2%;" data-civ-id="iran_elam" data-civ-name="Royaume Élamite & Chogha Zanbil">
-              <div class="jewel-anchor"></div>
-              <div class="jewel-pulse"></div>
-              <div class="jewel-tooltip">✦ Royaume Élamite & Chogha Zanbil <span class="tooltip-epoch">(v. -2700 à -1100 av. J.-C.)</span></div>
-            </div>
-            <div class="geo-beacon-jewel" id="beacon-iran_fer" style="left: 58.2%; top: 45.8%;" data-civ-id="iran_fer" data-civ-name="Âge du Fer & Bronzes du Luristan">
-              <div class="jewel-anchor"></div>
-              <div class="jewel-pulse"></div>
-              <div class="jewel-tooltip">✦ Âge du Fer & Bronzes du Luristan <span class="tooltip-epoch">(v. -1000 à -550 av. J.-C.)</span></div>
-            </div>
-            <div class="geo-beacon-jewel" id="beacon-iran_achemenide" style="left: 59.2%; top: 47.8%;" data-civ-id="iran_achemenide" data-civ-name="Empire Perse Achéménide">
-              <div class="jewel-anchor"></div>
-              <div class="jewel-pulse"></div>
-              <div class="jewel-tooltip">✦ Empire Perse Achéménide <span class="tooltip-epoch">(v. -550 à -330 av. J.-C.)</span></div>
-            </div>
-            <div class="geo-beacon-jewel" id="beacon-iran_parthe" style="left: 59.5%; top: 46.5%;" data-civ-id="iran_parthe" data-civ-name="Empire Parthe Arsacide">
-              <div class="jewel-anchor"></div>
-              <div class="jewel-pulse"></div>
-              <div class="jewel-tooltip">✦ Empire Parthe Arsacide <span class="tooltip-epoch">(v. -247 av. J.-C. à +224 ap. J.-C.)</span></div>
-            </div>
-            <div class="geo-beacon-jewel" id="beacon-islam_omeyyade" style="left: 56.5%; top: 47.0%;" data-civ-id="islam_omeyyade" data-civ-name="Califat Omeyyade">
-              <div class="jewel-anchor"></div>
-              <div class="jewel-pulse"></div>
-              <div class="jewel-tooltip">✦ Califat Omeyyade <span class="tooltip-epoch">(661 à 750 ap. J.-C.)</span></div>
-            </div>
-            <div class="geo-beacon-jewel" id="beacon-islam_abbasside_aghlabide" style="left: 57.0%; top: 46.8%;" data-civ-id="islam_abbasside_aghlabide" data-civ-name="Périodes Abbasside & Aghlabide">
-              <div class="jewel-anchor"></div>
-              <div class="jewel-pulse"></div>
-              <div class="jewel-tooltip">✦ Périodes Abbasside & Aghlabide <span class="tooltip-epoch">(750 à 1258 ap. J.-C.)</span></div>
-            </div>
-            <div class="geo-beacon-jewel" id="beacon-islam_fatimide" style="left: 54.8%; top: 49.0%;" data-civ-id="islam_fatimide" data-civ-name="Califat Fatimide">
-              <div class="jewel-anchor"></div>
-              <div class="jewel-pulse"></div>
-              <div class="jewel-tooltip">✦ Califat Fatimide <span class="tooltip-epoch">(909 à 1171 ap. J.-C.)</span></div>
-            </div>
-            <div class="geo-beacon-jewel" id="beacon-islam_ottoman" style="left: 54.5%; top: 45.2%;" data-civ-id="islam_ottoman" data-civ-name="Empire Ottoman">
-              <div class="jewel-anchor"></div>
-              <div class="jewel-pulse"></div>
-              <div class="jewel-tooltip">✦ Empire Ottoman <span class="tooltip-epoch">(1299 à 1922 ap. J.-C.)</span></div>
-            </div>
-            <div class="geo-beacon-jewel" id="beacon-meso_uruk" style="left: 56.5%; top: 45.2%;" data-civ-id="meso_uruk" data-civ-name="Période d'Uruk">
-              <div class="jewel-anchor"></div>
-              <div class="jewel-pulse"></div>
-              <div class="jewel-tooltip">✦ Période d'Uruk <span class="tooltip-epoch">(v. -4000 à -3100 av. J.-C.)</span></div>
-            </div>
-            <div class="geo-beacon-jewel" id="beacon-meso_dyn_archaiques" style="left: 56.8%; top: 45.5%;" data-civ-id="meso_dyn_archaiques" data-civ-name="Dynasties Archaïques (Sumer)">
-              <div class="jewel-anchor"></div>
-              <div class="jewel-pulse"></div>
-              <div class="jewel-tooltip">✦ Dynasties Archaïques (Sumer) <span class="tooltip-epoch">(v. -2900 à -2340 av. J.-C.)</span></div>
-            </div>
-            <div class="geo-beacon-jewel" id="beacon-meso_akkad" style="left: 56.2%; top: 45.0%;" data-civ-id="meso_akkad" data-civ-name="Empire d'Akkad">
-              <div class="jewel-anchor"></div>
-              <div class="jewel-pulse"></div>
-              <div class="jewel-tooltip">✦ Empire d'Akkad <span class="tooltip-epoch">(v. -2340 à -2150 av. J.-C.)</span></div>
-            </div>
-            <div class="geo-beacon-jewel" id="beacon-meso_neo_sumer" style="left: 56.9%; top: 45.8%;" data-civ-id="meso_neo_sumer" data-civ-name="Renaissance néo-sumérienne (Ur III & Gudea)">
-              <div class="jewel-anchor"></div>
-              <div class="jewel-pulse"></div>
-              <div class="jewel-tooltip">✦ Renaissance néo-sumérienne (Ur III & Gudea) <span class="tooltip-epoch">(v. -2150 à -2000 av. J.-C.)</span></div>
-            </div>
-            <div class="geo-beacon-jewel" id="beacon-meso_paleo_babylone" style="left: 56.3%; top: 45.1%;" data-civ-id="meso_paleo_babylone" data-civ-name="Première dynastie de Babylone">
-              <div class="jewel-anchor"></div>
-              <div class="jewel-pulse"></div>
-              <div class="jewel-tooltip">✦ Première dynastie de Babylone <span class="tooltip-epoch">(v. -1894 à -1595 av. J.-C.)</span></div>
-            </div>
-            <div class="geo-beacon-jewel" id="beacon-meso_assyrie" style="left: 56.0%; top: 43.5%;" data-civ-id="meso_assyrie" data-civ-name="Empire Assyrien">
-              <div class="jewel-anchor"></div>
-              <div class="jewel-pulse"></div>
-              <div class="jewel-tooltip">✦ Empire Assyrien <span class="tooltip-epoch">(v. -1365 à -609 av. J.-C.)</span></div>
-            </div>
-            <div class="geo-beacon-jewel" id="beacon-meso_neo_babylone" style="left: 56.3%; top: 45.1%;" data-civ-id="meso_neo_babylone" data-civ-name="Empire Néo-Babylonien">
-              <div class="jewel-anchor"></div>
-              <div class="jewel-pulse"></div>
-              <div class="jewel-tooltip">✦ Empire Néo-Babylonien <span class="tooltip-epoch">(v. -626 à -539 av. J.-C.)</span></div>
-            </div>
-            <div class="geo-beacon-jewel" id="beacon-neolithique_levant" style="left: 55.8%; top: 44.5%;" data-civ-id="neolithique_levant" data-civ-name="Néolithique précéramique du Levant (Aïn Ghazal)">
-              <div class="jewel-anchor"></div>
-              <div class="jewel-pulse"></div>
-              <div class="jewel-tooltip">✦ Néolithique précéramique du Levant (Aïn Ghazal) <span class="tooltip-epoch">(v. -7500 à -5500 av. J.-C.)</span></div>
-            </div>
-            <div class="geo-beacon-jewel" id="beacon-neolithique_megalithes" style="left: 47.2%; top: 41.0%;" data-civ-id="neolithique_megalithes" data-civ-name="Europe néolithique & Mégalithes">
-              <div class="jewel-anchor"></div>
-              <div class="jewel-pulse"></div>
-              <div class="jewel-tooltip">✦ Europe néolithique & Mégalithes <span class="tooltip-epoch">(v. -4500 à -2200 av. J.-C.)</span></div>
-            </div>
-            <div class="geo-beacon-jewel" id="beacon-celte_bronze" style="left: 47.8%; top: 38.5%;" data-civ-id="celte_bronze" data-civ-name="Art Celte & Âge du Bronze Européen">
-              <div class="jewel-anchor"></div>
-              <div class="jewel-pulse"></div>
-              <div class="jewel-tooltip">✦ Art Celte & Âge du Bronze Européen <span class="tooltip-epoch">(v. -2200 à -800 av. J.-C.)</span></div>
-            </div>
-            <div class="geo-beacon-jewel" id="beacon-celte_fer" style="left: 47.8%; top: 38.5%;" data-civ-id="celte_fer" data-civ-name="Art Celte & Gaulois (Âge du Fer)">
-              <div class="jewel-anchor"></div>
-              <div class="jewel-pulse"></div>
-              <div class="jewel-tooltip">✦ Art Celte & Gaulois (Âge du Fer) <span class="tooltip-epoch">(v. -450 à -50 av. J.-C.)</span></div>
-            </div>
-            <div class="geo-beacon-jewel" id="beacon-ibere_archaique" style="left: 47.0%; top: 45.5%;" data-civ-id="ibere_archaique" data-civ-name="Art Ibère">
-              <div class="jewel-anchor"></div>
-              <div class="jewel-pulse"></div>
-              <div class="jewel-tooltip">✦ Art Ibère <span class="tooltip-epoch">(v. -700 à -400 av. J.-C.)</span></div>
-            </div>
-            <div class="geo-beacon-jewel" id="beacon-occ_roman" style="left: 48.5%; top: 41.5%;" data-civ-id="occ_roman" data-civ-name="Art Roman">
-              <div class="jewel-anchor"></div>
-              <div class="jewel-pulse"></div>
-              <div class="jewel-tooltip">✦ Art Roman <span class="tooltip-epoch">(v. 950 à 1180 ap. J.-C.)</span></div>
-            </div>
-            <div class="geo-beacon-jewel" id="beacon-occ_gothique" style="left: 49.0%; top: 41.5%;" data-civ-id="occ_gothique" data-civ-name="Art Gothique">
-              <div class="jewel-anchor"></div>
-              <div class="jewel-pulse"></div>
-              <div class="jewel-tooltip">✦ Art Gothique <span class="tooltip-epoch">(v. 1150 à 1450 ap. J.-C.)</span></div>
-            </div>
-            <div class="geo-beacon-jewel" id="beacon-occ_renaissance" style="left: 50.5%; top: 42.5%;" data-civ-id="occ_renaissance" data-civ-name="Renaissance Européenne">
-              <div class="jewel-anchor"></div>
-              <div class="jewel-pulse"></div>
-              <div class="jewel-tooltip">✦ Renaissance Européenne <span class="tooltip-epoch">(v. 1400 à 1600 ap. J.-C.)</span></div>
-            </div>
-            <div class="geo-beacon-jewel" id="beacon-occ_xixe" style="left: 49.5%; top: 42.0%;" data-civ-id="occ_xixe" data-civ-name="XIXe Siècle & Réalisme">
-              <div class="jewel-anchor"></div>
-              <div class="jewel-pulse"></div>
-              <div class="jewel-tooltip">✦ XIXe Siècle & Réalisme <span class="tooltip-epoch">(v. 1800 à 1900 ap. J.-C.)</span></div>
-            </div>
-            <div class="geo-beacon-jewel" id="beacon-occ_xxe_moderne" style="left: 49.5%; top: 42.0%;" data-civ-id="occ_xxe_moderne" data-civ-name="XXe Siècle & Avant-Gardes">
-              <div class="jewel-anchor"></div>
-              <div class="jewel-pulse"></div>
-              <div class="jewel-tooltip">✦ XXe Siècle & Avant-Gardes <span class="tooltip-epoch">(v. 1900 à 2000 ap. J.-C.)</span></div>
-            </div>
-            <div class="geo-beacon-jewel" id="beacon-canaries" style="left: 43.8%; top: 48.6%;" data-civ-id="canaries" data-civ-name="Art Canarien (Autochtone)">
-              <div class="jewel-anchor"></div>
-              <div class="jewel-pulse"></div>
-              <div class="jewel-tooltip">✦ Art Canarien (Autochtone) <span class="tooltip-epoch">(v. Ve s. av. J.-C. - 1496 ap. J.-C.)</span></div>
-            </div>
+      <!-- THÉÂTRE SYNCHRONIQUE DES ARTS -->
+      <div id="synchro-theatre" class="synchro-theatre">
+        <div class="theatre-header">
+          <div class="theatre-heading">
+            <span class="theatre-sparkle" aria-hidden="true">✦</span>
+            <span class="theatre-title">THÉÂTRE SYNCHRONIQUE DES ARTS</span>
+            <span class="theatre-subtitle">Foyers &amp; civilisations contemporains</span>
+          </div>
+          <div class="theatre-badges-group">
+            <div id="theatre-year-badge" class="theatre-year-badge">1000 ap. J.-C.</div>
+            <div id="theatre-active-count" class="theatre-count-badge">3 civilisations en activité</div>
           </div>
         </div>
 
-        <!-- Carte Régionale Dédiée -->
-        <div id="civilisation-map-overlay">
-          <img id="civilisation-map-img" src="" alt="Carte régionale" />
-          <div class="map-atmospheric-glow"></div>
+        <!-- PISTE CENTRALE DÉFILANTE DES CIVILISATIONS CONTEMPORAINES -->
+        <div id="synchro-theatre-track" class="synchro-theatre-track">
+          <!-- Cartes contemporaines injectées dynamiquement au glissement de la frise -->
+        </div>
+      </div>
+
+      <!-- CARTE RÉGIONALE DÉDIÉE (MODAL PLEIN ÉCRAN HD SUR DEMANDE) -->
+      <div id="civilisation-map-overlay" class="civilisation-map-overlay" hidden>
+        <div class="civ-map-modal-backdrop" id="civ-map-backdrop"></div>
+        <div class="civ-map-modal-frame">
+          <div class="civ-map-modal-header">
+            <div class="civ-map-modal-title">
+              <span class="civ-map-icon">🗺️</span>
+              <span id="civ-map-title-text">Carte Régionale</span>
+            </div>
+            <button type="button" id="btn-close-civ-map" class="btn-close-civ-map" title="Fermer la carte régionale">✕ Fermer</button>
+          </div>
+          <div class="civ-map-img-wrapper">
+            <img id="civilisation-map-img" src="" alt="Carte régionale HD" />
+            <div class="map-atmospheric-glow"></div>
+          </div>
         </div>
       </div>
 

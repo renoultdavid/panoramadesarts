@@ -518,297 +518,421 @@ body {
 }
 
 /* =========================================================
-   SCÈNE CARTOGRAPHIQUE CENTRALE (VUE TIMELINE)
+   THÉÂTRE SYNCHRONIQUE DES ARTS (ESPACE SUPÉRIEUR)
    ========================================================= */
 #map-viewport {
-  flex: 1 1 42%;
-  min-height: 250px;
-  max-height: 45vh;
+  flex: 0 0 clamp(260px, 34vh, 320px);
+  min-height: 260px;
+  max-height: 38vh;
   position: relative;
   overflow: hidden;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #020305;
-  padding: 8px;
-}
-
-#map-canvas-frame {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/* SCÈNE DE ZOOM CADRÉ (HOTSPOTS & CARTE SYNCHRONE) */
-#map-zoom-stage {
-  --map-zoom: 1;
-  --map-zoom-inv: 1;
-  position: relative;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  max-width: 100%;
-  max-height: 100%;
-  transform-origin: 50% 50%;
-  transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
-  will-change: transform;
-}
-
-/* HUD DE SÉLECTION DE HOTSPOTS & ZOOM */
-.map-hotspot-hud {
-  position: absolute;
-  bottom: 12px;
-  left: 50%;
-  transform: translateX(-50%);
-  right: auto;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  z-index: 25;
-  background: rgba(6, 9, 14, 0.88);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgba(212, 175, 55, 0.35);
-  border-radius: 30px;
-  padding: 4px 12px;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.8), 0 0 12px rgba(212, 175, 55, 0.2);
-}
-
-.hotspot-btn-group {
-  display: flex;
-  align-items: center;
-  gap: 4px;
-}
-
-.btn-hotspot {
-  background: transparent;
-  border: 1px solid transparent;
-  border-radius: 20px;
-  color: #cbd5e1;
-  font-family: 'Cinzel', serif;
-  font-size: 0.68rem;
-  letter-spacing: 0.8px;
-  font-weight: 600;
-  padding: 5px 11px;
-  cursor: pointer;
-  transition: all 0.25s ease;
-  white-space: nowrap;
-}
-
-.btn-hotspot:hover {
-  color: #fff;
-  background: rgba(212, 175, 55, 0.15);
-  border-color: rgba(212, 175, 55, 0.3);
-}
-
-.btn-hotspot.active {
-  background: linear-gradient(135deg, rgba(212, 175, 55, 0.35), rgba(212, 175, 55, 0.1));
-  color: #ffffff;
-  border-color: var(--gold-pure, #d4af37);
-  box-shadow: 0 0 10px rgba(212, 175, 55, 0.4);
-}
-
-.hotspot-zoom-tools {
-  display: flex;
-  align-items: center;
-  gap: 4px;
-  border-left: 1px solid rgba(212, 175, 55, 0.25);
-  padding-left: 8px;
-  margin-left: 2px;
-}
-
-.btn-map-zoom-tool {
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(212, 175, 55, 0.2);
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  color: #f1f5f9;
-  font-size: 0.82rem;
-  font-weight: bold;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.2s ease;
-}
-
-.btn-map-zoom-tool:hover {
-  background: rgba(212, 175, 55, 0.3);
-  border-color: var(--gold-pure, #d4af37);
-  color: #fff;
-}
-
-#global-map-img {
-  max-width: 100%;
-  max-height: 100%;
-  width: auto;
-  height: auto;
-  object-fit: contain;
-  display: block;
-  transition: transform 1.2s cubic-bezier(0.22, 1, 0.36, 1), filter 1.2s ease, opacity 1.2s ease;
-}
-
-#global-map-img.traveling {
-  transform: scale(1.35);
-  filter: blur(12px) brightness(0.25) contrast(1.1);
-  opacity: 0.3;
-}
-
-#synchronous-halos-layer {
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  z-index: 2;
-}
-
-/* =========================================================
-   JOYAUX D'OR STELLAIRES SUR LA CARTE (ZÉRO ENCOMBREMENT)
-   ========================================================= */
-.geo-beacon-jewel {
-  position: absolute;
-  transform: translate(-50%, -50%) scale(var(--map-zoom-inv, 1));
-  transform-origin: center center;
-  pointer-events: auto;
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity 0.3s ease, transform 0.8s cubic-bezier(0.16, 1, 0.3, 1), visibility 0.3s;
-  cursor: pointer;
-  z-index: 10;
-  user-select: none;
-}
-
-.geo-beacon-jewel.active {
-  opacity: 1;
-  visibility: visible;
-  pointer-events: auto;
-}
-
-.jewel-anchor {
-  width: 8px;
-  height: 8px;
-  background: radial-gradient(circle, #fffbe6 0%, #d4af37 60%, #997819 100%);
-  border: 1.5px solid #ffffff;
-  border-radius: 50%;
-  box-shadow: 0 0 8px rgba(212, 175, 55, 0.95), 0 0 16px rgba(212, 175, 55, 0.5);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.jewel-pulse {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  border: 1px solid rgba(212, 175, 55, 0.65);
-  transform: translate(-50%, -50%) scale(0.4);
-  opacity: 0;
-  pointer-events: none;
-  animation: beaconPulseAnim 2.8s cubic-bezier(0.2, 0.8, 0.4, 1) infinite;
-}
-
-.jewel-tooltip {
-  position: absolute;
-  bottom: calc(100% + 8px);
-  left: 50%;
-  transform: translateX(-50%) translateY(4px);
-  background: rgba(10, 14, 22, 0.96);
-  backdrop-filter: blur(8px);
-  border: 1px solid var(--gold-pure, #d4af37);
-  border-radius: 3px;
-  padding: 3px 8px;
-  font-family: 'Cinzel', serif;
-  font-size: 0.62rem;
-  font-weight: 700;
-  color: #fff;
-  white-space: nowrap;
-  pointer-events: none;
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.85);
+  flex-direction: column;
+  background: radial-gradient(ellipse at 50% 25%, #0e1422 0%, #04060a 90%);
+  border-bottom: 2px solid rgba(212, 175, 55, 0.28);
+  box-shadow: inset 0 -20px 40px rgba(0, 0, 0, 0.85);
+  padding: 0;
+  box-sizing: border-box;
   z-index: 20;
 }
 
-.tooltip-epoch {
-  font-family: 'Outfit', sans-serif;
-  font-size: 0.55rem;
-  color: var(--gold-pale, #d4af37);
-  font-weight: 400;
-  margin-left: 4px;
+.synchro-theatre {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
 }
 
-.geo-beacon-jewel:hover .jewel-tooltip,
-.geo-beacon-jewel.is-selected .jewel-tooltip {
-  opacity: 1;
-  visibility: visible;
-  transform: translateX(-50%) translateY(0);
+.theatre-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 7px 18px 6px 18px;
+  background: rgba(6, 9, 15, 0.82);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+  flex-shrink: 0;
+  z-index: 5;
 }
 
-.geo-beacon-jewel:hover .jewel-anchor,
-.geo-beacon-jewel.is-selected .jewel-anchor {
-  transform: scale(1.45);
-  box-shadow: 0 0 16px rgba(255, 230, 153, 1);
+.theatre-heading {
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
+.theatre-sparkle {
+  color: var(--gold-pure, #d4af37);
+  font-size: 0.95rem;
+  animation: pulseSparkle 2.5s ease-in-out infinite;
+}
+
+@keyframes pulseSparkle {
+  0%, 100% { opacity: 0.6; transform: scale(0.95); }
+  50% { opacity: 1; transform: scale(1.15); filter: drop-shadow(0 0 6px #d4af37); }
+}
+
+.theatre-title {
+  font-family: 'Cinzel', serif;
+  font-size: 0.82rem;
+  letter-spacing: 2px;
+  font-weight: 700;
+  color: #f8fafc;
+  text-transform: uppercase;
+}
+
+.theatre-subtitle {
+  font-size: 0.7rem;
+  color: #64748b;
+  letter-spacing: 0.5px;
+  margin-left: 6px;
+  border-left: 1px solid rgba(212, 175, 55, 0.2);
+  padding-left: 10px;
+}
+
+.theatre-badges-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.theatre-year-badge {
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.28), rgba(212, 175, 55, 0.08));
+  border: 1px solid rgba(212, 175, 55, 0.65);
+  color: #ffffff;
+  font-family: 'Cinzel', serif;
+  font-weight: 700;
+  font-size: 0.82rem;
+  letter-spacing: 1px;
+  padding: 3px 12px;
+  border-radius: 20px;
+  box-shadow: 0 0 14px rgba(212, 175, 55, 0.35);
+}
+
+.theatre-count-badge {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: #94a3b8;
+  font-size: 0.7rem;
+  padding: 3px 9px;
+  border-radius: 14px;
+}
+
+.synchro-theatre-track {
+  flex: 1;
+  display: flex;
+  align-items: stretch;
+  gap: 12px;
+  padding: 8px 16px 10px 16px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(212, 175, 55, 0.4) transparent;
+  scroll-behavior: smooth;
+  justify-content: flex-start;
+}
+
+.synchro-theatre-track:has(> .theatre-civ-card:nth-last-child(-n+4):first-child) {
+  justify-content: center;
+}
+
+.synchro-theatre-track::-webkit-scrollbar {
+  height: 5px;
+}
+
+.synchro-theatre-track::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.synchro-theatre-track::-webkit-scrollbar-thumb {
+  background: rgba(212, 175, 55, 0.35);
+  border-radius: 3px;
+}
+
+.theatre-empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color: #64748b;
+  gap: 8px;
+  font-size: 0.85rem;
+}
+
+.theatre-empty-icon {
+  font-size: 1.6rem;
+  opacity: 0.5;
+}
+
+.theatre-civ-card {
+  flex: 0 0 clamp(240px, 22vw, 300px);
+  max-width: 310px;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(165deg, rgba(17, 22, 34, 0.95) 0%, rgba(8, 11, 18, 0.98) 100%);
+  border: 1px solid var(--civ-card-color, rgba(212, 175, 55, 0.35));
+  border-radius: 8px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.75), 0 0 10px rgba(212, 175, 55, 0.1);
+  padding: 8px 10px;
+  transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.theatre-civ-card:hover {
+  transform: translateY(-3px);
+  border-color: #fff;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.9), 0 0 16px var(--civ-card-color, rgba(212, 175, 55, 0.4));
+}
+
+.theatre-card-top {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+  flex-shrink: 0;
+}
+
+.theatre-card-emblem {
+  font-size: 1.25rem;
+  line-height: 1;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  border-radius: 50%;
+  flex-shrink: 0;
+  box-shadow: 0 0 8px rgba(212, 175, 55, 0.2);
+}
+
+.theatre-card-titles {
+  flex: 1;
+  min-width: 0;
+}
+
+.theatre-card-name {
+  font-family: 'Cinzel', serif;
+  font-size: 0.74rem;
+  font-weight: 700;
+  color: #ffffff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  letter-spacing: 0.3px;
+}
+
+.theatre-card-epoch {
+  font-size: 0.64rem;
+  color: #cbd5e1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  opacity: 0.85;
+}
+
+.theatre-card-media {
+  position: relative;
+  height: 75px;
+  width: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  margin-bottom: 6px;
+  flex-shrink: 0;
+  background: #000;
+}
+
+.theatre-card-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.theatre-civ-card:hover .theatre-card-media img {
+  transform: scale(1.06);
+}
+
+.theatre-card-media-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6) 0%, transparent 60%);
+  pointer-events: none;
+}
+
+.theatre-card-snippet {
+  font-size: 0.67rem;
+  color: #94a3b8;
+  line-height: 1.32;
+  height: 2.64em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  margin-bottom: 7px;
+  flex-shrink: 0;
+}
+
+.theatre-card-actions {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: auto;
+}
+
+.btn-theatre-act {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(212, 175, 55, 0.25);
+  border-radius: 4px;
+  color: #e2e8f0;
+  font-family: 'Cinzel', serif;
+  font-size: 0.62rem;
+  font-weight: 600;
+  padding: 4px 5px;
+  cursor: pointer;
+  white-space: nowrap;
+  text-align: center;
+  transition: all 0.2s ease;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.btn-theatre-act:hover {
+  background: rgba(212, 175, 55, 0.25);
+  border-color: var(--gold-pure, #d4af37);
+  color: #ffffff;
+  box-shadow: 0 0 8px rgba(212, 175, 55, 0.35);
+  transform: translateY(-1px);
+}
+
+.btn-theatre-map {
+  background: rgba(212, 175, 55, 0.15);
+  border-color: rgba(212, 175, 55, 0.45);
+  color: #eed88f;
+}
+
+.btn-theatre-gallery {
+  background: rgba(30, 41, 59, 0.6);
+}
+
+/* =========================================================
+   CARTE RÉGIONALE DÉDIÉE (MODAL OVERLAY HD)
+   ========================================================= */
 #civilisation-map-overlay {
   position: absolute;
   inset: 0;
   width: 100%;
   height: 100%;
+  z-index: 60;
   display: flex;
   align-items: center;
   justify-content: center;
   opacity: 0;
   pointer-events: none;
-  transform: scale(0.98);
-  transition: opacity 0.5s ease, transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
-  z-index: 3;
+  transition: opacity 0.35s ease;
 }
 
 #civilisation-map-overlay.active {
   opacity: 1;
-  transform: scale(1);
   pointer-events: auto;
+}
+
+.civ-map-modal-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(3, 5, 8, 0.88);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+.civ-map-modal-frame {
+  position: relative;
+  z-index: 2;
+  width: min(920px, 94%);
+  max-height: 90%;
+  background: #080b11;
+  border: 1px solid rgba(212, 175, 55, 0.5);
+  border-radius: 8px;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.95), 0 0 30px rgba(212, 175, 55, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  animation: modalZoomIn 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes modalZoomIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.civ-map-modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 16px;
+  background: rgba(15, 20, 30, 0.95);
+  border-bottom: 1px solid rgba(212, 175, 55, 0.3);
+}
+
+.civ-map-modal-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: 'Cinzel', serif;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.8px;
+}
+
+.btn-close-civ-map {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(212, 175, 55, 0.4);
+  border-radius: 4px;
+  color: #fff;
+  font-family: 'Cinzel', serif;
+  font-size: 0.72rem;
+  font-weight: bold;
+  padding: 4px 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-close-civ-map:hover {
+  background: rgba(212, 175, 55, 0.3);
+  border-color: #fff;
+  transform: scale(1.05);
+}
+
+.civ-map-img-wrapper {
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #020305;
+  padding: 10px;
+  overflow: auto;
+  max-height: calc(85vh - 50px);
 }
 
 #civilisation-map-img {
   max-width: 100%;
   max-height: 100%;
-  width: auto;
-  height: auto;
   object-fit: contain;
-  display: block;
   border-radius: 4px;
-  box-shadow: 0 0 35px rgba(0, 0, 0, 0.9);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.9);
 }
 
-.map-atmospheric-glow {
-  position: absolute;
-  inset: -15px;
-  border-radius: 8px;
-  background: radial-gradient(ellipse at center, rgba(212, 175, 55, 0.08) 0%, transparent 70%);
-  pointer-events: none;
-  animation: glowBreath 6s ease-in-out infinite;
-}
-
-@keyframes glowBreath {
-
-  0%,
-  100% {
-    opacity: 0.35;
-    transform: scale(0.99);
-  }
-
-  50% {
-    opacity: 0.75;
-    transform: scale(1.01);
-  }
-}
 
 /* CARTOUCHES LATÉRAUX */
 #hover-sidebar-card,
@@ -1134,10 +1258,12 @@ body {
    BLOC BAS (TIROIR + FRISE)
    ========================================================= */
 #timeline-dock {
+  flex: 1 1 auto;
   display: flex;
   flex-direction: column;
-  flex-shrink: 0;
+  min-height: 0;
   z-index: 30;
+  overflow: hidden;
 }
 
 #sub-timeline-drawer {
@@ -1375,9 +1501,9 @@ body {
 
 /* FRISE MAÎTRESSE (ESPACE ÉQUILIBRÉ & GÉNÉREUX) */
 #master-timeline-bar {
-  flex: 1 1 58% !important;
-  min-height: 440px !important;
-  height: auto !important;
+  flex: 1 1 auto !important;
+  height: 100% !important;
+  min-height: 0 !important;
   background: linear-gradient(to top, rgba(4, 5, 7, 0.98) 0%, rgba(14, 17, 24, 0.94) 100%);
   border-top: 1px solid rgba(212, 175, 55, 0.25);
   display: flex;
@@ -2020,6 +2146,18 @@ body {
   z-index: 8;
 }
 
+.civ-block-icon {
+  font-size: 0.95rem;
+  line-height: 1;
+  margin-right: 6px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  filter: drop-shadow(0 0 3px rgba(255, 255, 255, 0.5));
+  flex-shrink: 0;
+  pointer-events: none;
+}
+
 .civ-block-title {
   font-family: 'Cinzel', serif;
   font-size: 0.66rem;
@@ -2486,6 +2624,18 @@ body {
   .civ-timespan-block.track-1 {
     top: 24px !important;
     height: 19px !important;
+  }
+
+  .civ-block-icon {
+    font-size: 0.8rem !important;
+    line-height: 1 !important;
+    margin-right: 4px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    filter: drop-shadow(0 0 3px rgba(255, 255, 255, 0.5)) !important;
+    flex-shrink: 0 !important;
+    pointer-events: none !important;
   }
 
   .civ-block-title {
