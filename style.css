@@ -6896,15 +6896,63 @@ body {
   overflow: hidden;
   display: grid;
   grid-template-columns: minmax(350px, 1.05fr) 1.25fr 1.15fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 175px 1fr 1fr;
   grid-template-areas:
-    "notice map        milestones"
-    "notice concurrent milestones";
+    "banner  banner     milestones"
+    "notice  map        milestones"
+    "notice  concurrent milestones";
   gap: 16px;
   height: 100%;
 }
 
-/* 1. GAUCHE (PLEINE HAUTEUR) : HISTOIRE & GENÈSE */
+/* 0. BANDEAU CINÉMATIQUE SUPÉRIEUR (Surplombe les 2 colonnes de gauche, 2x plus large) */
+#pavilion-banner-box {
+  grid-area: banner;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1.5px solid rgba(212, 175, 55, 0.4);
+  background: #000;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.85);
+}
+
+#pavilion-banner-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 25%;
+  transition: transform 0.4s ease;
+}
+
+#pavilion-banner-box:hover img {
+  transform: scale(1.02);
+}
+
+.hero-banner-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(4, 6, 12, 0.7) 0%, transparent 60%);
+  pointer-events: none;
+}
+
+.hero-banner-badge {
+  position: absolute;
+  bottom: 8px;
+  left: 14px;
+  background: rgba(8, 12, 20, 0.85);
+  border: 1px solid rgba(212, 175, 55, 0.4);
+  border-radius: 4px;
+  padding: 3px 8px;
+  font-family: 'Cinzel', serif;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--gold-pale, #eed88f);
+  letter-spacing: 0.8px;
+}
+
+/* 1. GAUCHE (SOUS LE BANDEAU) : HISTOIRE & GENÈSE */
 #panel-notice {
   grid-area: notice;
   display: flex;

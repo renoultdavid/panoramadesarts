@@ -449,22 +449,22 @@
 
         <!-- CORPS DU PAVILLON : ARCHITECTURE MULTI-VOLETS RÉAGENCÉE -->
         <div class="pavilion-body" id="pavilion-body">
-          <!-- 1. VOLET DE GAUCHE : HISTOIRE & GENÈSE (Pleine hauteur) -->
+          <!-- BANDEAU CINÉMATIQUE SUPÉRIEUR (Surplombe les 2 colonnes de gauche, 2x plus large) -->
+          <div class="pavilion-hero-banner-strip" id="pavilion-banner-box">
+            <img id="pavilion-banner-img" src="" alt="Bandeau de la civilisation" loading="lazy" />
+            <div class="hero-banner-overlay"></div>
+            <div class="hero-banner-badge">✦ RECONSTITUTION &amp; VIE HISTORIQUE</div>
+          </div>
+
+          <!-- 1. VOLET DE GAUCHE : HISTOIRE & GENÈSE (Sous le grand bandeau) -->
           <article class="pavilion-panel pavilion-panel-notice" id="panel-notice">
             <div class="panel-header-strip">
               <span class="panel-tag">✦ HISTOIRE &amp; GENÈSE</span>
             </div>
             <div class="pavilion-panel-scroll notice-panel-scroll">
-              <div class="notice-side-col">
-                <div class="pavilion-banner-frame" id="pavilion-banner-box">
-                  <img id="pavilion-banner-img" src="" alt="Bandeau de la civilisation" loading="lazy" />
-                </div>
-                <div id="pavilion-albums-grid" class="pavilion-albums-grid"></div>
-              </div>
-              <div class="notice-text-col">
-                <div class="pavilion-notice-text" id="pavilion-notice-text">
-                  Notice muséographique...
-                </div>
+              <div id="pavilion-albums-grid" class="pavilion-albums-grid"></div>
+              <div class="pavilion-notice-text" id="pavilion-notice-text">
+                Notice muséographique...
               </div>
             </div>
           </article>
@@ -929,7 +929,7 @@
   <script src="data/data-objets3.js"></script>
 
   <!-- SCRIPT MAÎTRE -->
-  <script src="app.js?v=5.8"></script>
+  <script src="app.js?v=5.9"></script>
 </body>
 
 </html>
