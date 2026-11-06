@@ -1031,6 +1031,10 @@ body {
 /* =========================================================
    CARTE RÉGIONALE DÉDIÉE (MODAL OVERLAY HD)
    ========================================================= */
+#civilisation-map-overlay[hidden] {
+  display: none !important;
+}
+
 #civilisation-map-overlay {
   position: absolute;
   inset: 0;
@@ -2483,10 +2487,14 @@ body {
 }
 
 /* MODALE D'EXPOSITION */
+#curator-modal[hidden] {
+  display: none !important;
+}
+
 #curator-modal {
   position: fixed;
   inset: 0;
-  z-index: 100;
+  z-index: 1000;
   background: rgba(4, 5, 8, 0.95);
   backdrop-filter: blur(30px);
   display: flex;
@@ -2494,7 +2502,7 @@ body {
   justify-content: center;
   opacity: 0;
   pointer-events: none;
-  transition: opacity 0.4s ease;
+  transition: opacity 0.3s ease;
   padding: 1rem;
 }
 

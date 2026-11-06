@@ -3112,25 +3112,31 @@ function updateTimelineLayout() {
 }
 
 /* ==========================================================================
-   CARTOUCHES LATÉRAUX & FRISE
+   GESTION DES APERÇUS & PAVILLON DE LA CIVILISATION
    ========================================================================== */
-const hoverSidebar = document.getElementById('hover-sidebar-card');
-const concurrentSidebar = document.getElementById('concurrent-sidebar-card');
-const concurrentDesc = document.getElementById('concurrent-desc');
-const sidebarEra = document.getElementById('sidebar-era');
-const sidebarTitle = document.getElementById('sidebar-title');
-const sidebarDesc = document.getElementById('sidebar-desc');
-const sidebarBannerBox = document.getElementById('sidebar-banner-box');
-const sidebarBannerImg = document.getElementById('sidebar-banner-img');
-const sidebarAlbumGrid = document.getElementById('sidebar-album-grid');
-const btnEnterCiv = document.getElementById('btn-enter-civ');
-const btnCloseSidebar = document.getElementById('btn-close-sidebar');
-const btnCloseConcurrent = document.getElementById('btn-close-concurrent');
-const btnExpandSidebar = document.getElementById('btn-expand-sidebar');
-const btnCollapseSidebar = document.getElementById('btn-collapse-sidebar');
-const tabReopenCiv = document.getElementById('tab-reopen-civ');
-const tabReopenCivLabel = document.getElementById('tab-reopen-civ-label');
-const tabReopenConcurrent = document.getElementById('tab-reopen-concurrent');
+let isLockedSidebar = false;
+let selectedCiv = null;
+let lastActiveCiv = null;
+
+function showCivPreview(civ) {
+  selectedCiv = civ;
+  lastActiveCiv = civ;
+}
+
+function hideCivPreview() {
+  selectedCiv = null;
+}
+
+function lockCivSidebar(civ) {
+  if (!civ) return;
+  selectedCiv = civ;
+  lastActiveCiv = civ;
+  openCivilisationPavilion(civ, 'panoramic');
+}
+
+function collapseCivSidebar() {
+  closeCivilisationPavilion();
+}
 
 /* ==========================================================================
    CADRAGE GÉOGRAPHIQUE PAR HOTSPOTS & ZOOM DE LA CARTE MONDIALE
@@ -3212,214 +3218,6 @@ document.addEventListener('DOMContentLoaded', () => {
       const newScale = Math.min(5.0, Math.max(1.0, (currentMapScale || 1.0) + delta));
       applyMapHotspot(currentMapHotspot, newScale);
     }, { passive: false });
-  }
-});
-
-let isLockedSidebar = false;
-let selectedCiv = null;
-
-function showCivPreview(civ) {
-  selectedCiv = civ;
-  if (tabReopenCiv) tabReopenCiv.hidden = true;
-  sidebarEra.textContent = civ.epoch;
-  sidebarTitle.textContent = civ.name;
-  sidebarDesc.innerHTML = civ.presentationHtml;
-
-  // Cadrage automatique par Hotspot sur la carte
-  let targetHotspot = civ.hotspot;
-  if (!targetHotspot) {
-    if (civ.lane === 'iran_perse' || civ.lane === 'mesopotamie' || civ.lane === 'islam') targetHotspot = 'orient';
-    else if (civ.lane === 'europe_ouest' || civ.lane === 'italie_etrusque') targetHotspot = 'europe';
-    else if (civ.lane === 'atlantique') targetHotspot = 'atlantique';
-    else targetHotspot = 'mediterranee';
-  }
-  applyMapHotspot(targetHotspot);
-
-  if (civ.bannerImg) {
-    sidebarBannerImg.src = civ.bannerImg;
-    sidebarBannerBox.style.display = 'block';
-  } else {
-    sidebarBannerBox.style.display = 'none';
-  }
-
-  sidebarAlbumGrid.innerHTML = '';
-  if (civ.themeAlbums && civ.themeAlbums.length > 0) {
-    civ.themeAlbums.forEach(item => {
-      const a = document.createElement('a');
-      a.className = 'btn-theme-album';
-      a.href = item.url;
-      a.target = '_blank';
-      a.rel = 'noopener noreferrer';
-      a.textContent = item.label;
-      sidebarAlbumGrid.appendChild(a);
-    });
-    sidebarAlbumGrid.style.display = 'grid';
-  } else {
-    sidebarAlbumGrid.style.display = 'none';
-  }
-
-  hoverSidebar.classList.remove('pos-left', 'pos-right');
-  hoverSidebar.classList.add(civ.sidePos || 'pos-left');
-  hoverSidebar.classList.add('visible');
-
-  document.querySelectorAll('.geo-beacon-jewel').forEach(b => b.classList.remove('is-selected'));
-  const activeBeacon = document.getElementById(`beacon-${civ.id}`);
-  if (activeBeacon) {
-    activeBeacon.classList.add('active', 'is-selected');
-  }
-
-  // Compteur d'œuvres associées dans la Galerie (aligné exactement sur les filtres de la Galerie)
-  const sidebarCivGalleryCount = document.getElementById('sidebar-civ-gallery-count');
-  if (sidebarCivGalleryCount) {
-    const catalog = window.ART_OBJECTS || [];
-    const count = catalog.filter(art => {
-      if (art.periodId === civ.id) return true;
-      if (art.civId === civ.id) return true;
-      return false;
-    }).length;
-    sidebarCivGalleryCount.textContent = count;
-  }
-
-  // Chargement immédiat du contexte mondial synchrone pour cette civilisation
-  if (civ.concurrentHtml) {
-    if (concurrentDesc) concurrentDesc.innerHTML = civ.concurrentHtml;
-    if (tabReopenConcurrent) {
-      const isRightOpen = concurrentSidebar && concurrentSidebar.classList.contains('visible');
-      tabReopenConcurrent.hidden = isRightOpen;
-    }
-  } else {
-    if (concurrentDesc) concurrentDesc.innerHTML = '<p>Contexte mondial en cours d\'enrichissement pour cette époque.</p>';
-    if (tabReopenConcurrent) tabReopenConcurrent.hidden = true;
-  }
-}
-
-function hideCivPreview() {
-  if (isLockedSidebar) return;
-  hoverSidebar.classList.remove('visible');
-  if (concurrentSidebar) concurrentSidebar.classList.remove('visible');
-  if (tabReopenConcurrent) tabReopenConcurrent.hidden = true;
-  document.querySelectorAll('.geo-beacon-jewel').forEach(b => b.classList.remove('is-selected'));
-  selectedCiv = null;
-  if (typeof updateSynchronousState === 'function') {
-    try {
-      updateSynchronousState(window.innerWidth * 0.35);
-    } catch (_) {}
-  }
-}
-
-let lastActiveCiv = null;
-
-function lockCivSidebar(civ) {
-  isLockedSidebar = true;
-  lastActiveCiv = civ;
-  showCivPreview(civ);
-
-  // Assure que la voie temporelle de cette civilisation est centrée et visible (évite d'être coupée en bas)
-  if (civ && civ.lane && timelineSplitWrapper) {
-    const targetLane = document.querySelector(`.timeline-lane[data-lane="${civ.lane}"]`);
-    if (targetLane) {
-      const topPos = targetLane.offsetTop;
-      const viewH = timelineSplitWrapper.clientHeight;
-      timelineSplitWrapper.scrollTo({
-        top: Math.max(0, topPos - (viewH / 2) + 20),
-        behavior: 'smooth'
-      });
-    }
-  }
-}
-
-function collapseCivSidebar() {
-  isLockedSidebar = false;
-  hoverSidebar.classList.remove('visible', 'is-expanded');
-  if (btnExpandSidebar) {
-    btnExpandSidebar.textContent = '⤢';
-    btnExpandSidebar.title = 'Agrandir en grand format (admirer le bandeau)';
-  }
-  if (lastActiveCiv && tabReopenCiv) {
-    tabReopenCiv.hidden = false;
-    if (tabReopenCivLabel) {
-      tabReopenCivLabel.textContent = lastActiveCiv.name.length > 22 ? (lastActiveCiv.name.slice(0, 22) + '…') : lastActiveCiv.name;
-    }
-  }
-}
-
-if (btnCloseSidebar) {
-  btnCloseSidebar.addEventListener('click', (e) => {
-    e.stopPropagation();
-    collapseCivSidebar();
-  });
-}
-
-if (btnCollapseSidebar) {
-  btnCollapseSidebar.addEventListener('click', (e) => {
-    e.stopPropagation();
-    if (hoverSidebar.classList.contains('is-expanded')) {
-      // Revenir à la position initiale : volet toujours ouvert en largeur normale avec son simple bandeau
-      hoverSidebar.classList.remove('is-expanded');
-      if (btnExpandSidebar) {
-        btnExpandSidebar.textContent = '⤢';
-        btnExpandSidebar.title = 'Agrandir en grand format (admirer le bandeau)';
-      }
-      btnCollapseSidebar.title = 'Replier le volet sur le bord';
-    } else {
-      collapseCivSidebar();
-    }
-  });
-}
-
-if (tabReopenCiv) {
-  tabReopenCiv.addEventListener('click', (e) => {
-    e.stopPropagation();
-    tabReopenCiv.hidden = true;
-    if (lastActiveCiv) {
-      lockCivSidebar(lastActiveCiv);
-    }
-  });
-}
-
-if (btnExpandSidebar) {
-  btnExpandSidebar.addEventListener('click', (e) => {
-    e.stopPropagation();
-    const isExpanded = hoverSidebar.classList.toggle('is-expanded');
-    btnExpandSidebar.textContent = isExpanded ? '⤡' : '⤢';
-    btnExpandSidebar.title = isExpanded ? 'Réduire à la largeur standard' : 'Agrandir en grand format (admirer le bandeau)';
-    if (btnCollapseSidebar) {
-      btnCollapseSidebar.title = isExpanded ? 'Revenir à la position initiale (simple bandeau)' : 'Replier le volet sur le bord';
-    }
-  });
-}
-
-if (btnCloseConcurrent) {
-  btnCloseConcurrent.addEventListener('click', (e) => {
-    e.stopPropagation();
-    if (concurrentSidebar) concurrentSidebar.classList.remove('visible');
-    const civ = selectedCiv || lastActiveCiv;
-    if (civ && civ.concurrentHtml && tabReopenConcurrent) {
-      tabReopenConcurrent.hidden = false;
-    }
-  });
-}
-
-if (tabReopenConcurrent) {
-  tabReopenConcurrent.addEventListener('click', (e) => {
-    e.stopPropagation();
-    const civ = selectedCiv || lastActiveCiv;
-    if (civ && civ.concurrentHtml && concurrentDesc) {
-      concurrentDesc.innerHTML = civ.concurrentHtml;
-    }
-    if (concurrentSidebar) concurrentSidebar.classList.add('visible');
-    tabReopenConcurrent.hidden = true;
-  });
-}
-
-btnEnterCiv.addEventListener('click', () => {
-  if (selectedCiv) {
-    if (selectedCiv.mapOverlayUrl) {
-      openRegionalMap(selectedCiv);
-    }
-    activateCivilisationView(selectedCiv);
-    isLockedSidebar = false;
-    hideCivPreview();
   }
 });
 
@@ -3526,6 +3324,7 @@ function openRegionalMap(civ) {
     img.src = targetUrl;
     if (titleText) titleText.textContent = `Carte Régionale : ${civ.name}`;
     overlay.removeAttribute('hidden');
+    overlay.style.display = 'flex';
     overlay.classList.add('active');
   }
 }
@@ -3535,6 +3334,7 @@ function closeRegionalMap() {
   if (overlay) {
     overlay.classList.remove('active');
     overlay.setAttribute('hidden', 'true');
+    overlay.style.display = 'none';
   }
 }
 
@@ -4179,31 +3979,46 @@ function resetTimelineZoom() {
 }
 
 // Molette sur la frise (Zoom continu sous curseur ou défilement latéral trackpad)
+const timelineDock = document.getElementById('timeline-dock');
 const masterTimelineBar = document.getElementById('master-timeline-bar');
-if (masterTimelineBar) {
-  masterTimelineBar.addEventListener('wheel', (e) => {
-    // 1. Défilement horizontal trackpad (swipe latéral) ou Shift + Molette
-    if (e.shiftKey || (Math.abs(e.deltaX) > Math.abs(e.deltaY) && Math.abs(e.deltaX) > 2)) {
-      e.preventDefault();
-      const delta = e.shiftKey ? e.deltaY : e.deltaX;
-      curRibbonX = curRibbonX - delta;
-      const minX = -(getRibbonWidth() - masterContainer.clientWidth);
-      curRibbonX = Math.max(minX, Math.min(0, curRibbonX));
-      prevRibbonX = curRibbonX;
 
-      masterRibbon.style.transform = `translateX(${curRibbonX}px)`;
-      rulerTrack.style.transform = `translateX(${curRibbonX}px)`;
-      rulerEventsLayer.style.transform = `translateX(${curRibbonX}px)`;
-      if (rulerSparksLayer) rulerSparksLayer.style.transform = `translateX(${curRibbonX}px)`;
-      updateStickyBlockTitles();
-      updateSynchronousState(e.clientX);
-      return;
-    }
+function handleTimelineWheel(e) {
+  const viewTimelineEl = document.getElementById('view-timeline');
+  if (viewTimelineEl && viewTimelineEl.classList.contains('civ-pavilion-open')) return;
 
-    // 2. Zoom direct et continu à la molette partout sur la frise (centré sous le curseur)
+  // 1. Défilement horizontal trackpad (swipe latéral) ou Shift + Molette
+  if (e.shiftKey || (Math.abs(e.deltaX) > Math.abs(e.deltaY) && Math.abs(e.deltaX) > 2)) {
     e.preventDefault();
-    zoomTimelineAt(e.clientX, e.deltaY);
-  }, { passive: false });
+    const delta = e.shiftKey ? e.deltaY : e.deltaX;
+    curRibbonX = curRibbonX - delta;
+    const minX = -(getRibbonWidth() - masterContainer.clientWidth);
+    curRibbonX = Math.max(minX, Math.min(0, curRibbonX));
+    prevRibbonX = curRibbonX;
+
+    masterRibbon.style.transform = `translateX(${curRibbonX}px)`;
+    rulerTrack.style.transform = `translateX(${curRibbonX}px)`;
+    rulerEventsLayer.style.transform = `translateX(${curRibbonX}px)`;
+    if (rulerSparksLayer) rulerSparksLayer.style.transform = `translateX(${curRibbonX}px)`;
+    updateStickyBlockTitles();
+    updateSynchronousState(e.clientX);
+    return;
+  }
+
+  // 2. Zoom direct et continu à la molette partout sur la frise (centré sous le curseur)
+  e.preventDefault();
+  zoomTimelineAt(e.clientX, e.deltaY);
+}
+
+if (timelineDock) {
+  timelineDock.addEventListener('wheel', handleTimelineWheel, { passive: false });
+  timelineDock.addEventListener('click', () => {
+    const viewTimelineEl = document.getElementById('view-timeline');
+    if (viewTimelineEl && viewTimelineEl.classList.contains('civ-pavilion-open')) {
+      closeCivilisationPavilion();
+    }
+  });
+} else if (masterTimelineBar) {
+  masterTimelineBar.addEventListener('wheel', handleTimelineWheel, { passive: false });
 }
 
 // Écouteurs pour les boutons de zoom de la barre
@@ -4833,8 +4648,8 @@ function openCuratorModal(art, siblingsList = [], fromTimeline = false, isHistor
 
   renderModalCurrentArt();
   if (modal) {
-    modal.hidden = false;
     modal.removeAttribute('hidden');
+    modal.style.display = 'flex';
     modal.classList.add('open');
   }
 }
@@ -5029,8 +4844,8 @@ function populateModalData(art) {
 
 btnModalClose.addEventListener('click', () => {
   modal.classList.remove('open');
-  modal.hidden = false;
-  modal.removeAttribute('hidden');
+  modal.setAttribute('hidden', 'true');
+  modal.style.display = 'none';
   modalImg.src = '';
   modalHistoryStack = [];
   if (btnModalHistoryBack) btnModalHistoryBack.style.display = 'none';
@@ -5039,8 +4854,8 @@ btnModalClose.addEventListener('click', () => {
 modal.addEventListener('click', (e) => {
   if (e.target === modal) {
     modal.classList.remove('open');
-    modal.hidden = false;
-    modal.removeAttribute('hidden');
+    modal.setAttribute('hidden', 'true');
+    modal.style.display = 'none';
     modalImg.src = '';
     modalHistoryStack = [];
     if (btnModalHistoryBack) btnModalHistoryBack.style.display = 'none';
@@ -5671,11 +5486,11 @@ function jumpFromArtworkToTimeline(art) {
   lastTimelineArtwork = art;
   lastTimelineContextList = (activeContextList && activeContextList.length > 0) ? [...activeContextList] : [art];
 
-  // 1. Fermer la modale d'œuvre si elle est ouverte (sans jamais poser hidden=true)
+  // 1. Fermer la modale d'œuvre si elle est ouverte
   if (modal) {
     modal.classList.remove('open');
-    modal.hidden = false;
-    modal.removeAttribute('hidden');
+    modal.setAttribute('hidden', 'true');
+    modal.style.display = 'none';
     if (modalImg) modalImg.src = '';
   }
 
@@ -5732,15 +5547,9 @@ function jumpFromArtworkToTimeline(art) {
     });
   }
 
-  // RÈGLE CRUCIALE : On ne se rabat JAMAIS aveuglément sur une civilisation étrangère (ex: Égypte au lieu de Grèce) !
-  if (matchedCiv && typeof lockCivSidebar === 'function') {
-    lockCivSidebar(matchedCiv);
-  } else {
-    // Si la civilisation n'est pas encore enregistrée sur la frise
-    if (typeof hideCivPreview === 'function') {
-      isLockedSidebar = false;
-      hideCivPreview();
-    }
+  // Mettre en valeur la carte correspondante dans le Théâtre Synchronique
+  if (matchedCiv) {
+    highlightTheatreCard(matchedCiv.id);
   }
 }
 
