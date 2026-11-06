@@ -6361,15 +6361,19 @@ body {
 /* Passerelle Retour : Bouton flottant de retour vers l'œuvre explorée */
 .timeline-return-pill {
   position: absolute !important;
-  top: 14px !important;
-  left: 50% !important;
-  transform: translateX(-50%) !important;
-  right: auto !important;
-  z-index: 30 !important;
+  top: 58px !important;
+  right: 24px !important;
+  left: auto !important;
+  transform: none !important;
+  z-index: 35 !important;
   display: flex !important;
   align-items: center !important;
   transition: all 0.3s ease !important;
   pointer-events: auto !important;
+}
+
+.timeline-return-pill[hidden] {
+  display: none !important;
 }
 
 .btn-timeline-return-art {

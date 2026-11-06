@@ -2826,38 +2826,6 @@ window.addEventListener('DOMContentLoaded', () => {
   initSearchEngine();
 });
 
-function buildTimelineBlocks() {
-  // 1. Détection des chevauchements temporels et assignation des pistes (Multi-tracks anti-collision)
-  const laneCivsMap = {};
-  CIVILISATIONS_REGISTRY.forEach(civ => {
-    if (!laneCivsMap[civ.lane]) laneCivsMap[civ.lane] = [];
-    laneCivsMap[civ.lane].push(civ);
-  });
-
-  Object.entries(laneCivsMap).forEach(([laneKey, civs]) => {
-    civs.sort((a, b) => a.yearStart - b.yearStart);
-    const trackEndYears = [];
-
-    civs.forEach(civ => {
-      let assignedTrack = 0;
-      while (trackEndYears[assignedTrack] !== undefined && trackEndYears[assignedTrack] > civ.yearStart) {
-        assignedTrack++;
-      }
-      civ._trackIndex = assignedTrack;
-      trackEndYears[assignedTrack] = civ.yearEnd;
-    });
-
-    const isDouble = trackEndYears.length > 1;
-    civs.forEach(civ => { civ._laneIsDouble = isDouble; });
-
-    const laneEl = document.querySelector(`.timeline-lane[data-lane="${laneKey}"]`);
-    const labelEl = document.querySelector(`.lane-fixed-label[data-lane="${laneKey}"]`);
-    if (isDouble) {
-      if (laneEl) laneEl.classList.add('is-double-track');
-      if (labelEl) labelEl.classList.add('is-double-track');
-    }
-  });
-
 function getCivIcon(civ) {
   if (!civ) return '✦';
   if (civ.icon) return civ.icon;
@@ -2932,6 +2900,39 @@ function getCivIcon(civ) {
   if (lane === 'islam') return '🕌';
   return '✦';
 }
+
+function buildTimelineBlocks() {
+  // 1. Détection des chevauchements temporels et assignation des pistes (Multi-tracks anti-collision)
+  const laneCivsMap = {};
+  CIVILISATIONS_REGISTRY.forEach(civ => {
+    if (!laneCivsMap[civ.lane]) laneCivsMap[civ.lane] = [];
+    laneCivsMap[civ.lane].push(civ);
+  });
+
+  Object.entries(laneCivsMap).forEach(([laneKey, civs]) => {
+    civs.sort((a, b) => a.yearStart - b.yearStart);
+    const trackEndYears = [];
+
+    civs.forEach(civ => {
+      let assignedTrack = 0;
+      while (trackEndYears[assignedTrack] !== undefined && trackEndYears[assignedTrack] > civ.yearStart) {
+        assignedTrack++;
+      }
+      civ._trackIndex = assignedTrack;
+      trackEndYears[assignedTrack] = civ.yearEnd;
+    });
+
+    const isDouble = trackEndYears.length > 1;
+    civs.forEach(civ => { civ._laneIsDouble = isDouble; });
+
+    const laneEl = document.querySelector(`.timeline-lane[data-lane="${laneKey}"]`);
+    const labelEl = document.querySelector(`.lane-fixed-label[data-lane="${laneKey}"]`);
+    if (isDouble) {
+      if (laneEl) laneEl.classList.add('is-double-track');
+      if (labelEl) labelEl.classList.add('is-double-track');
+    }
+  });
+
 
   // 2. Création des blocs de frise
   CIVILISATIONS_REGISTRY.forEach((civ) => {
@@ -3778,8 +3779,8 @@ function renderSynchronousTheatre(activeCivs, currentYear) {
       const tempDiv = document.createElement('div');
       tempDiv.innerHTML = civ.presentationHtml;
       const firstP = tempDiv.querySelector('p');
-      const rawText = firstP ? firstP.textContent : tempDiv.textContent;
-      snippet = rawText.replace(/\s+/g, ' ').trim();
+      const rawText = (firstP && firstP.textContent) ? firstP.textContent : (tempDiv.textContent || '');
+      snippet = rawText ? rawText.replace(/\s+/g, ' ').trim() : '';
       if (snippet.length > 280) snippet = snippet.slice(0, 275) + '…';
     }
 
@@ -3887,8 +3888,8 @@ function renderSynchronousTheatre(activeCivs, currentYear) {
       const tempDiv = document.createElement('div');
       tempDiv.innerHTML = civ.presentationHtml;
       const firstP = tempDiv.querySelector('p');
-      const rawText = firstP ? firstP.textContent : tempDiv.textContent;
-      snippet = rawText.replace(/\s+/g, ' ').trim();
+      const rawText = (firstP && firstP.textContent) ? firstP.textContent : (tempDiv.textContent || '');
+      snippet = rawText ? rawText.replace(/\s+/g, ' ').trim() : '';
       if (snippet.length > 140) snippet = snippet.slice(0, 137) + '…';
     }
 
