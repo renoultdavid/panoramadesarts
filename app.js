@@ -3401,10 +3401,77 @@ function openCivilisationPavilion(civ, initialTab = 'panoramic') {
     mapImg.src = targetMap;
   }
 
-  // Volet 3 : Contexte Mondial
+  // Volet 3 : Contexte Mondial & Repères Synchrones
   const concurrentText = document.getElementById('pavilion-concurrent-text');
   if (concurrentText) {
     concurrentText.innerHTML = civ.concurrentHtml || '<p>Contexte mondial synchrone en cours d\'enrichissement pour cette époque.</p>';
+  }
+
+  const concurrentMilestonesCol = document.getElementById('concurrent-milestones-col');
+  if (concurrentMilestonesCol) {
+    concurrentMilestonesCol.innerHTML = '';
+
+    // A. Événements historiques majeurs contemporains
+    const contemporanMilestones = Array.isArray(HISTORICAL_MILESTONES)
+      ? HISTORICAL_MILESTONES.filter(m => m.year >= (civ.yearStart - 120) && m.year <= (civ.yearEnd + 120))
+      : [];
+
+    if (contemporanMilestones.length > 0) {
+      const section1 = document.createElement('div');
+      section1.className = 'concurrent-section-block';
+      section1.innerHTML = `
+        <div class="concurrent-section-title">
+          <span>⚔️</span>
+          <span>TOURNANTS &amp; ÉVÉNEMENTS HISTORIQUES CONTEMPORAINS</span>
+        </div>
+        <div class="concurrent-milestones-list">
+          ${contemporanMilestones.slice(0, 5).map(m => `
+            <div class="concurrent-milestone-item">
+              <span class="concurrent-m-icon">${m.icon || '📜'}</span>
+              <div class="concurrent-m-content">
+                <span class="concurrent-m-year">${m.year < 0 ? `${Math.abs(m.year)} av. J.-C.` : `${m.year} ap. J.-C.`} • ${escapeHtmlAttr(m.type || '')}</span>
+                <div class="concurrent-m-title">${escapeHtmlAttr(m.title)}</div>
+                <div class="concurrent-m-desc">${escapeHtmlAttr(m.desc)}</div>
+              </div>
+            </div>
+          `).join('')}
+        </div>
+      `;
+      concurrentMilestonesCol.appendChild(section1);
+    }
+
+    // B. Autres foyers artistiques contemporains actifs au même siècle
+    const contemporanPeers = Array.isArray(CIVILISATIONS_REGISTRY)
+      ? CIVILISATIONS_REGISTRY.filter(c => c.id !== civ.id && !(c.yearEnd < civ.yearStart || c.yearStart > civ.yearEnd))
+      : [];
+
+    if (contemporanPeers.length > 0) {
+      const section2 = document.createElement('div');
+      section2.className = 'concurrent-section-block';
+      section2.innerHTML = `
+        <div class="concurrent-section-title" style="margin-top: 14px;">
+          <span>🌐</span>
+          <span>AUTRES FOYERS ARTISTIQUES ACTIFS AU MÊME SIÈCLE</span>
+        </div>
+        <div class="concurrent-peers-strip">
+          ${contemporanPeers.slice(0, 8).map(peer => `
+            <button type="button" class="concurrent-peer-pill" data-peer-id="${peer.id}" title="${escapeHtmlAttr(peer.name)} (${escapeHtmlAttr(peer.epoch)})">
+              <span>${peer.icon || getCivIcon(peer)}</span>
+              <span>${escapeHtmlAttr(peer.name)}</span>
+            </button>
+          `).join('')}
+        </div>
+      `;
+      section2.querySelectorAll('.concurrent-peer-pill').forEach(pill => {
+        pill.addEventListener('click', (e) => {
+          e.stopPropagation();
+          const pId = pill.getAttribute('data-peer-id');
+          const pCiv = CIVILISATIONS_REGISTRY.find(c => c.id === pId);
+          if (pCiv) openCivilisationPavilion(pCiv, 'panoramic');
+        });
+      });
+      concurrentMilestonesCol.appendChild(section2);
+    }
   }
 
   // Compteur global collection
@@ -3413,7 +3480,7 @@ function openCivilisationPavilion(civ, initialTab = 'panoramic') {
   const civCount = catalog.filter(a => a.periodId === civ.id || a.civId === civ.id).length;
   if (countEl) countEl.textContent = civCount;
 
-  // Ruban des chefs-d'œuvre témoins
+  // Ruban grandiose des chefs-d'œuvre témoins
   const artTrack = document.getElementById('pavilion-art-track');
   if (artTrack) {
     artTrack.innerHTML = '';
@@ -3424,9 +3491,9 @@ function openCivilisationPavilion(civ, initialTab = 'panoramic') {
         chip.className = 'pavilion-art-card';
         const dateStr = art.centuryDisplay || art.century || '';
         const domIcon = (typeof DOMAIN_ICONS !== 'undefined' && DOMAIN_ICONS[art.domain]) || '🏺';
-        const domLabel = art.artifactType || 'Chef-d\'œuvre';
+        const domLabel = art.artifactType || art.category || 'Chef-d\'œuvre';
 
-        chip.title = `${art.title} (${dateStr}) [${domLabel}]`;
+        chip.title = `${art.title} (${dateStr}) [${domLabel}] - Cliquer pour ouvrir la notice complète`;
         chip.innerHTML = `
           <div class="pavilion-art-thumb">
             <img src="${art.imgSrc}" alt="${escapeHtmlAttr(art.title)}" loading="lazy" />
@@ -3435,6 +3502,7 @@ function openCivilisationPavilion(civ, initialTab = 'panoramic') {
           <div class="pavilion-art-info">
             <div class="pavilion-art-title">${escapeHtmlAttr(art.title)}</div>
             <div class="pavilion-art-date">${escapeHtmlAttr(dateStr)}</div>
+            <div class="pavilion-art-type">${escapeHtmlAttr(domLabel)}</div>
           </div>
         `;
         chip.addEventListener('click', (e) => {
@@ -3443,6 +3511,21 @@ function openCivilisationPavilion(civ, initialTab = 'panoramic') {
         });
         artTrack.appendChild(chip);
       });
+
+      // Bouton carte spéciale à la fin du ruban pour explorer toute la collection
+      const allCard = document.createElement('div');
+      allCard.className = 'btn-pavilion-view-all-card';
+      allCard.innerHTML = `
+        <span>🏛️ Explorer toute la collection</span>
+        <strong>(${civCount} œuvres) ➔</strong>
+      `;
+      allCard.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const civToOpen = civ;
+        closeCivilisationPavilion();
+        goToGalleryForCiv(civToOpen);
+      });
+      artTrack.appendChild(allCard);
     } else {
       artTrack.innerHTML = '<span class="pavilion-no-art">Collection en cours d\'intégration pour cette époque.</span>';
     }
@@ -3500,14 +3583,47 @@ function scrollTheatreCardIntoView(civId) {
 }
 
 function goToGalleryForCiv(civ) {
+  if (!civ) return;
+
+  // 1. Réinitialiser les filtres annexes qui pourraient vider ou fausser la recherche
+  const filterText = document.getElementById('filter-text');
+  if (filterText) filterText.value = '';
+  activeMovementFilter = null;
+  activeChipExactFilter = '';
+  const btnFilterFocus = document.getElementById('btn-filter-focus-only');
+  if (btnFilterFocus) btnFilterFocus.classList.remove('is-active');
+
+  const filterDomain = document.getElementById('filter-domain');
+  if (filterDomain) filterDomain.value = 'all';
+  const filterType = document.getElementById('filter-type');
+  if (filterType) filterType.value = 'all';
+
+  // 2. Basculer vers la vue Galerie
+  switchView('view-search');
+
+  // 3. Activer la civilisation correspondante dans filter-civ
   const filterCiv = document.getElementById('filter-civ');
   const filterPeriod = document.getElementById('filter-period');
-  switchView('view-search');
+
   if (filterCiv) {
-    const matchingCivOpt = Array.from(filterCiv.options).find(opt => opt.value === civ.id || opt.value === civ.lane);
-    filterCiv.value = matchingCivOpt ? matchingCivOpt.value : 'all';
+    let matchingCivKey = 'all';
+    if (civ.lane && TAXONOMY_CIVILISATIONS[civ.lane]) {
+      matchingCivKey = civ.lane;
+    } else if (civ.id && TAXONOMY_CIVILISATIONS[civ.id]) {
+      matchingCivKey = civ.id;
+    } else {
+      for (const [cKey, cData] of Object.entries(TAXONOMY_CIVILISATIONS)) {
+        if (cData.periods && cData.periods.some(p => p.id === civ.id)) {
+          matchingCivKey = cKey;
+          break;
+        }
+      }
+    }
+
+    filterCiv.value = matchingCivKey;
     filterCiv.dispatchEvent(new Event('change'));
 
+    // 4. Sélectionner la période exacte si disponible
     if (filterPeriod && civ.id) {
       const matchingPeriodOpt = Array.from(filterPeriod.options).find(opt => opt.value === civ.id);
       if (matchingPeriodOpt) {
@@ -3516,7 +3632,10 @@ function goToGalleryForCiv(civ) {
       }
     }
   }
-  if (typeof renderSearchGallery === 'function') renderSearchGallery();
+
+  if (typeof renderSearchGallery === 'function') {
+    renderSearchGallery();
+  }
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
@@ -4195,8 +4314,9 @@ if (btnPavilionGallery) {
   btnPavilionGallery.addEventListener('click', (e) => {
     e.stopPropagation();
     if (currentPavilionCiv) {
+      const civToOpen = currentPavilionCiv;
       closeCivilisationPavilion();
-      goToGalleryForCiv(currentPavilionCiv);
+      goToGalleryForCiv(civToOpen);
     }
   });
 }
@@ -6605,7 +6725,7 @@ function renderSearchGallery() {
   const artistHeroName = document.getElementById('artist-hero-name');
 
   const isArtistView = Boolean(artistHero && !artistHero.hidden);
-  const activeArtistName = isArtistView && artistHeroName ? artistHeroName.textContent.toLowerCase().trim() : '';
+  const activeArtistName = isArtistView && artistHeroName && artistHeroName.textContent ? artistHeroName.textContent.toLowerCase().trim() : '';
 
   const selectedCiv = filterCiv ? filterCiv.value : 'all';
   const selectedPeriod = filterPeriod ? filterPeriod.value : 'all';

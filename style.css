@@ -870,17 +870,17 @@ body {
    CARTES NORMALES (QUAND 2+ CIVILISATIONS SONT ACTIVES)
    ========================================================= */
 .theatre-civ-card {
-  flex: 0 0 clamp(290px, 28vw, 360px);
-  max-width: 380px;
+  flex: 0 0 clamp(310px, 28vw, 380px);
+  max-width: 390px;
   height: 100%;
-  min-height: 220px;
+  min-height: 250px;
   display: flex;
   flex-direction: column;
   background: linear-gradient(165deg, rgba(18, 23, 36, 0.96) 0%, rgba(8, 11, 18, 0.98) 100%);
-  border: 1px solid var(--civ-card-color, rgba(212, 175, 55, 0.35));
+  border: 1.5px solid var(--civ-card-color, rgba(212, 175, 55, 0.35));
   border-radius: 8px;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.75), 0 0 10px rgba(212, 175, 55, 0.1);
-  padding: 10px 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.8), 0 0 12px rgba(212, 175, 55, 0.12);
+  padding: 12px 14px 10px 14px;
   transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
   cursor: pointer;
   box-sizing: border-box;
@@ -890,7 +890,7 @@ body {
 .theatre-civ-card.is-highlighted {
   transform: translateY(-4px);
   border-color: #fff !important;
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.9), 0 0 18px var(--civ-card-color, rgba(212, 175, 55, 0.5)) !important;
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.95), 0 0 20px var(--civ-card-color, rgba(212, 175, 55, 0.55)) !important;
 }
 
 .theatre-card-top {
@@ -902,18 +902,18 @@ body {
 }
 
 .theatre-card-emblem {
-  font-size: 1.35rem;
+  font-size: 1.45rem;
   line-height: 1;
-  width: 34px;
-  height: 34px;
+  width: 38px;
+  height: 38px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(255, 255, 255, 0.06);
-  border: 1px solid rgba(212, 175, 55, 0.35);
+  background: rgba(255, 255, 255, 0.07);
+  border: 1.5px solid var(--civ-card-color, rgba(212, 175, 55, 0.45));
   border-radius: 50%;
   flex-shrink: 0;
-  box-shadow: 0 0 8px rgba(212, 175, 55, 0.2);
+  box-shadow: 0 0 10px rgba(212, 175, 55, 0.25);
 }
 
 .theatre-card-titles {
@@ -923,34 +923,37 @@ body {
 
 .theatre-card-name {
   font-family: 'Cinzel', serif;
-  font-size: 0.8rem;
+  font-size: 0.92rem;
   font-weight: 700;
   color: #ffffff;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
   letter-spacing: 0.4px;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
 }
 
 .theatre-card-epoch {
-  font-size: 0.68rem;
-  color: #cbd5e1;
+  font-size: 0.74rem;
+  color: var(--gold-pale, #eed88f);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  opacity: 0.88;
+  opacity: 0.92;
+  margin-top: 1px;
 }
 
 .theatre-card-media {
   position: relative;
-  height: 90px;
+  height: 125px;
   width: 100%;
-  border-radius: 5px;
+  border-radius: 6px;
   overflow: hidden;
-  border: 1px solid rgba(212, 175, 55, 0.25);
-  margin-bottom: 8px;
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  margin-bottom: 9px;
   flex-shrink: 0;
   background: #000;
+  box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.8);
 }
 
 .theatre-card-media img {
@@ -967,41 +970,42 @@ body {
 .theatre-card-media-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.6) 0%, transparent 60%);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.65) 0%, transparent 55%);
   pointer-events: none;
 }
 
 .theatre-card-snippet {
-  font-size: 0.72rem;
-  color: #94a3b8;
-  line-height: 1.38;
-  height: 2.76em;
+  font-size: 0.82rem;
+  color: #cbd5e1;
+  line-height: 1.45;
+  height: auto;
+  max-height: 4.4em;
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
-  margin-bottom: 8px;
+  margin-bottom: 9px;
   flex-shrink: 0;
 }
 
 .theatre-card-actions {
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 8px;
   margin-top: auto;
 }
 
 .btn-theatre-act {
   flex: 1;
-  background: rgba(255, 255, 255, 0.06);
-  border: 1px solid rgba(212, 175, 55, 0.28);
-  border-radius: 4px;
-  color: #e2e8f0;
+  background: rgba(212, 175, 55, 0.12);
+  border: 1px solid rgba(212, 175, 55, 0.35);
+  border-radius: 5px;
+  color: #f1f5f9;
   font-family: 'Cinzel', serif;
-  font-size: 0.66rem;
+  font-size: 0.74rem;
   font-weight: 600;
-  padding: 5px 6px;
+  padding: 7px 10px;
   cursor: pointer;
   white-space: nowrap;
   text-align: center;
@@ -1011,10 +1015,10 @@ body {
 }
 
 .btn-theatre-act:hover {
-  background: rgba(212, 175, 55, 0.28);
+  background: rgba(212, 175, 55, 0.32);
   border-color: var(--gold-pure, #d4af37);
   color: #ffffff;
-  box-shadow: 0 0 8px rgba(212, 175, 55, 0.35);
+  box-shadow: 0 0 10px rgba(212, 175, 55, 0.35);
   transform: translateY(-1px);
 }
 
@@ -6751,123 +6755,105 @@ body {
 
 .pavilion-header {
   display: flex;
+  flex-direction: column;
+  padding: 10px 24px 8px 24px;
+  background: rgba(8, 12, 19, 0.96);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1.5px solid rgba(212, 175, 55, 0.3);
+  flex-shrink: 0;
+  z-index: 10;
+  gap: 10px;
+}
+
+.pavilion-header-top {
+  display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 22px;
-  background: rgba(8, 12, 19, 0.94);
-  backdrop-filter: blur(15px);
-  -webkit-backdrop-filter: blur(15px);
-  border-bottom: 1px solid rgba(212, 175, 55, 0.3);
-  flex-shrink: 0;
-  z-index: 5;
-  gap: 14px;
+  width: 100%;
+  gap: 20px;
 }
 
 .pavilion-header-left {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 14px;
   min-width: 0;
+  flex: 1 1 auto;
 }
 
 .pavilion-emblem {
-  font-size: 1.8rem;
+  font-size: 1.85rem;
   line-height: 1;
-  width: 44px;
-  height: 44px;
+  width: 48px;
+  height: 48px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(255, 255, 255, 0.06);
   border: 1.5px solid var(--civ-theme-color, #d4af37);
   border-radius: 50%;
-  box-shadow: 0 0 14px rgba(212, 175, 55, 0.25);
+  box-shadow: 0 0 16px rgba(212, 175, 55, 0.3);
   flex-shrink: 0;
 }
 
-.pavilion-titles h2 {
+.pavilion-titles {
+  min-width: 0;
+}
+
+.pavilion-titles h2,
+.pavilion-title {
   font-family: 'Cinzel', serif;
-  font-size: 1.15rem;
+  font-size: 1.25rem;
   font-weight: 700;
-  color: #fff;
+  color: #ffffff;
   margin: 0;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
   letter-spacing: 0.8px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
 }
 
 .pavilion-epoch {
-  font-size: 0.76rem;
+  font-size: 0.8rem;
   color: var(--gold-pale, #eed88f);
   font-weight: 500;
-  letter-spacing: 0.5px;
-}
-
-.pavilion-tabs {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  background: rgba(0, 0, 0, 0.4);
-  padding: 4px;
-  border-radius: 25px;
-  border: 1px solid rgba(212, 175, 55, 0.25);
-  flex-shrink: 0;
-}
-
-.btn-pavilion-tab {
-  background: transparent;
-  border: 1px solid transparent;
-  border-radius: 20px;
-  color: #94a3b8;
-  font-family: 'Cinzel', serif;
-  font-size: 0.72rem;
-  font-weight: 600;
-  padding: 5px 12px;
-  cursor: pointer;
-  transition: all 0.2s ease;
-  white-space: nowrap;
-}
-
-.btn-pavilion-tab:hover {
-  color: #fff;
-  background: rgba(212, 175, 55, 0.15);
-}
-
-.btn-pavilion-tab.active {
-  color: #000;
-  background: linear-gradient(135deg, #eed88f, #d4af37);
-  font-weight: 700;
-  box-shadow: 0 0 10px rgba(212, 175, 55, 0.4);
+  letter-spacing: 0.6px;
+  margin-top: 2px;
+  display: block;
 }
 
 .pavilion-header-right {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
   flex-shrink: 0;
 }
 
 .btn-pavilion-gallery {
-  background: rgba(30, 41, 59, 0.7);
-  border: 1px solid rgba(212, 175, 55, 0.35);
-  border-radius: 5px;
-  color: #e2e8f0;
+  background: linear-gradient(135deg, rgba(30, 41, 59, 0.9), rgba(15, 23, 42, 0.9));
+  border: 1.5px solid rgba(212, 175, 55, 0.45);
+  border-radius: 6px;
+  color: #f8fafc;
   font-family: 'Cinzel', serif;
-  font-size: 0.72rem;
-  font-weight: 600;
-  padding: 6px 12px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 8px 16px;
   cursor: pointer;
   display: flex;
   align-items: center;
-  gap: 6px;
-  transition: all 0.2s ease;
+  gap: 8px;
+  transition: all 0.22s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
 }
 
 .btn-pavilion-gallery:hover {
-  background: rgba(212, 175, 55, 0.2);
+  background: rgba(212, 175, 55, 0.25);
   border-color: var(--gold-pure, #d4af37);
-  color: #fff;
+  color: #ffffff;
+  box-shadow: 0 0 14px rgba(212, 175, 55, 0.4);
+  transform: translateY(-1px);
 }
 
 .btn-close-pavilion {
@@ -6878,38 +6864,88 @@ body {
   font-family: 'Cinzel', serif;
   font-size: 0.78rem;
   font-weight: 700;
-  padding: 7px 16px;
+  padding: 8px 16px;
   cursor: pointer;
   display: flex;
   align-items: center;
   gap: 8px;
-  box-shadow: 0 0 14px rgba(212, 175, 55, 0.3);
-  transition: all 0.25s ease;
+  transition: all 0.22s ease;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.7);
 }
 
 .btn-close-pavilion:hover {
-  background: var(--gold-pure, #d4af37);
+  background: linear-gradient(135deg, #d4af37, #eed88f);
   color: #000;
+  border-color: #fff;
+  box-shadow: 0 0 16px rgba(212, 175, 55, 0.6);
   transform: translateY(-1px);
-  box-shadow: 0 0 20px rgba(212, 175, 55, 0.6);
 }
 
-.btn-close-pavilion .close-icon {
+.close-icon {
   font-size: 0.95rem;
   font-weight: bold;
 }
 
+/* RANGÉE DÉDIÉE POUR LES ONGLETS (AUCUN CHEVAUCHEMENT AVEC LE TITRE) */
+.pavilion-nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.pavilion-tabs {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(0, 0, 0, 0.55);
+  padding: 5px 8px;
+  border-radius: 28px;
+  border: 1px solid rgba(212, 175, 55, 0.35);
+  box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+.btn-pavilion-tab {
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  color: #cbd5e1;
+  font-family: 'Cinzel', serif;
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 6px 16px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  letter-spacing: 0.4px;
+}
+
+.btn-pavilion-tab:hover {
+  color: #ffffff;
+  background: rgba(212, 175, 55, 0.15);
+}
+
+.btn-pavilion-tab.active {
+  color: #000000 !important;
+  background: linear-gradient(135deg, #eed88f, #d4af37) !important;
+  font-weight: 700 !important;
+  box-shadow: 0 0 14px rgba(212, 175, 55, 0.5) !important;
+}
+
+/* =========================================================
+   CORPS DU PAVILLON & VUES DES ONGLETS
+   ========================================================= */
 .pavilion-body {
   flex: 1;
-  padding: 12px 20px;
+  padding: 14px 24px;
   min-height: 0;
   overflow: hidden;
 }
 
-/* VUE PANORAMIQUE (3 VOLETS CÔTE À CÔTE) */
+/* 1. VUE PANORAMIQUE (3 VOLETS CÔTE À CÔTE) */
 .pavilion-body[data-active-tab="panoramic"] {
   display: grid;
-  grid-template-columns: 1.15fr 1.1fr 0.95fr;
+  grid-template-columns: 1.18fr 1.1fr 0.95fr;
   gap: 16px;
   height: 100%;
 }
@@ -6918,7 +6954,23 @@ body {
   display: flex;
 }
 
-/* VUE PLEINE LARGEUR PAR ONGLET */
+.pavilion-body[data-active-tab="panoramic"] .notice-layout-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.pavilion-body[data-active-tab="panoramic"] .concurrent-layout-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.pavilion-body[data-active-tab="panoramic"] .concurrent-milestones-col {
+  display: none;
+}
+
+/* 2. VUE PLEINE LARGEUR HISTOIRE & GENÈSE (2 COLONNES) */
 .pavilion-body[data-active-tab="notice"] {
   display: block;
   height: 100%;
@@ -6926,11 +6978,29 @@ body {
 .pavilion-body[data-active-tab="notice"] .pavilion-panel { display: none; }
 .pavilion-body[data-active-tab="notice"] .pavilion-panel-notice {
   display: flex;
-  max-width: 960px;
+  max-width: 1400px;
   margin: 0 auto;
   height: 100%;
 }
 
+.pavilion-body[data-active-tab="notice"] .notice-layout-wrapper {
+  display: grid;
+  grid-template-columns: minmax(320px, 380px) 1fr;
+  gap: 28px;
+  align-items: start;
+}
+
+.pavilion-body[data-active-tab="notice"] .pavilion-banner-frame {
+  height: 220px;
+}
+
+.pavilion-body[data-active-tab="notice"] .pavilion-notice-text {
+  font-size: 0.96rem;
+  line-height: 1.75;
+  color: #e2e8f0;
+}
+
+/* 3. VUE PLEINE LARGEUR CARTE RÉGIONALE HD */
 .pavilion-body[data-active-tab="map"] {
   display: block;
   height: 100%;
@@ -6938,9 +7008,39 @@ body {
 .pavilion-body[data-active-tab="map"] .pavilion-panel { display: none; }
 .pavilion-body[data-active-tab="map"] .pavilion-panel-map {
   display: flex;
+  max-width: 100%;
+  margin: 0 auto;
   height: 100%;
 }
 
+.pavilion-body[data-active-tab="map"] .map-panel-scroll {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  height: 100%;
+}
+
+.pavilion-body[data-active-tab="map"] .pavilion-map-frame {
+  width: 100%;
+  height: 100%;
+  max-height: calc(100% - 10px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle at center, rgba(16, 24, 40, 0.8) 0%, rgba(4, 6, 10, 0.95) 100%);
+  border: 1.5px solid rgba(212, 175, 55, 0.35);
+  border-radius: 8px;
+}
+
+.pavilion-body[data-active-tab="map"] .pavilion-map-frame img {
+  max-height: 100%;
+  max-width: 98%;
+  object-fit: contain;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+}
+
+/* 4. VUE PLEINE LARGEUR CONTEXTE MONDIAL (2 COLONNES : RÉCIT + REPÈRES & FOYERS) */
 .pavilion-body[data-active-tab="concurrent"] {
   display: block;
   height: 100%;
@@ -6948,32 +7048,138 @@ body {
 .pavilion-body[data-active-tab="concurrent"] .pavilion-panel { display: none; }
 .pavilion-body[data-active-tab="concurrent"] .pavilion-panel-concurrent {
   display: flex;
-  max-width: 960px;
+  max-width: 1400px;
   margin: 0 auto;
   height: 100%;
 }
 
+.pavilion-body[data-active-tab="concurrent"] .concurrent-layout-wrapper {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 28px;
+  align-items: start;
+}
+
+.pavilion-body[data-active-tab="concurrent"] .concurrent-milestones-col {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.concurrent-section-title {
+  font-family: 'Cinzel', serif;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--gold-pure, #d4af37);
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+}
+
+.concurrent-milestones-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.concurrent-milestone-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  border-radius: 6px;
+  padding: 8px 12px;
+}
+
+.concurrent-m-icon {
+  font-size: 1.2rem;
+  line-height: 1;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.concurrent-m-content {
+  flex: 1;
+}
+
+.concurrent-m-year {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--gold-pale, #eed88f);
+}
+
+.concurrent-m-title {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: #fff;
+  margin: 2px 0;
+}
+
+.concurrent-m-desc {
+  font-size: 0.76rem;
+  color: #94a3b8;
+  line-height: 1.4;
+}
+
+.concurrent-peers-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.concurrent-peer-pill {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(212, 175, 55, 0.1);
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  border-radius: 18px;
+  padding: 5px 12px;
+  color: #e2e8f0;
+  font-family: 'Cinzel', serif;
+  font-size: 0.74rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.concurrent-peer-pill:hover {
+  background: rgba(212, 175, 55, 0.28);
+  border-color: var(--gold-pure, #d4af37);
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+/* =========================================================
+   PANNEAUX COMMUNS
+   ========================================================= */
 .pavilion-panel {
-  background: rgba(13, 17, 26, 0.85);
-  border: 1px solid rgba(212, 175, 55, 0.25);
+  background: rgba(13, 17, 26, 0.88);
+  border: 1.5px solid rgba(212, 175, 55, 0.25);
   border-radius: 8px;
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 8px 26px rgba(0, 0, 0, 0.75);
   min-height: 0;
 }
 
 .panel-header-strip {
-  padding: 6px 14px;
-  background: rgba(18, 24, 36, 0.95);
-  border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+  padding: 7px 16px;
+  background: rgba(18, 24, 36, 0.98);
+  border-bottom: 1.5px solid rgba(212, 175, 55, 0.25);
   flex-shrink: 0;
 }
 
 .panel-tag {
   font-family: 'Cinzel', serif;
-  font-size: 0.68rem;
+  font-size: 0.72rem;
   font-weight: 700;
   color: var(--gold-pure, #d4af37);
   letter-spacing: 1px;
@@ -6982,10 +7188,10 @@ body {
 .pavilion-panel-scroll {
   flex: 1;
   overflow-y: auto;
-  padding: 14px 16px;
+  padding: 16px 18px;
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 14px;
   min-height: 0;
   scrollbar-width: thin;
   scrollbar-color: rgba(212, 175, 55, 0.3) transparent;
@@ -6993,12 +7199,13 @@ body {
 
 .pavilion-banner-frame {
   width: 100%;
-  height: 135px;
-  border-radius: 5px;
+  height: 140px;
+  border-radius: 6px;
   overflow: hidden;
-  border: 1px solid rgba(212, 175, 55, 0.25);
+  border: 1px solid rgba(212, 175, 55, 0.3);
   flex-shrink: 0;
   background: #000;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.8);
 }
 
 .pavilion-banner-frame img {
@@ -7008,13 +7215,13 @@ body {
 }
 
 .pavilion-notice-text {
-  font-size: 0.85rem;
-  line-height: 1.6;
+  font-size: 0.88rem;
+  line-height: 1.65;
   color: #cbd5e1;
 }
 
 .pavilion-notice-text p {
-  margin: 0 0 10px 0;
+  margin: 0 0 12px 0;
 }
 
 .pavilion-notice-text strong {
@@ -7023,55 +7230,88 @@ body {
 
 .pavilion-albums-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
   gap: 8px;
+  margin-top: 4px;
 }
 
-.pavilion-map-frame {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  min-height: 250px;
+.btn-theme-album {
+  background: rgba(212, 175, 55, 0.1);
+  border: 1px solid rgba(212, 175, 55, 0.35);
+  border-radius: 5px;
+  color: var(--gold-pale, #eed88f);
+  font-family: 'Cinzel', serif;
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 7px 10px;
+  text-decoration: none;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #020305;
-  border-radius: 5px;
-  overflow: hidden;
-  padding: 8px;
-  box-sizing: border-box;
+  text-align: center;
+  transition: all 0.2s ease;
 }
 
-#pavilion-map-img {
+.btn-theme-album:hover {
+  background: rgba(212, 175, 55, 0.28);
+  border-color: #fff;
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+.pavilion-map-frame {
+  width: 100%;
+  height: 100%;
+  min-height: 200px;
+  border-radius: 6px;
+  overflow: hidden;
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  position: relative;
+  background: #05070c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pavilion-map-frame img {
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
-  border-radius: 4px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+.map-atmospheric-glow {
+  position: absolute;
+  inset: 0;
+  box-shadow: inset 0 0 25px rgba(212, 175, 55, 0.15);
+  pointer-events: none;
 }
 
 .pavilion-concurrent-text {
-  font-size: 0.85rem;
-  line-height: 1.6;
+  font-size: 0.88rem;
+  line-height: 1.65;
   color: #cbd5e1;
 }
 
 .pavilion-concurrent-text p {
-  margin: 0 0 10px 0;
+  margin: 0 0 12px 0;
 }
 
 .pavilion-concurrent-text strong {
   color: #ffffff;
 }
 
+/* =========================================================
+   RUBAN INFÉRIEUR : CHEFS-D'ŒUVRE DE LA COLLECTION (FORMAT GRANDIOSE)
+   ========================================================= */
 .pavilion-footer-strip {
-  padding: 8px 22px 10px 22px;
-  background: rgba(7, 10, 16, 0.95);
-  border-top: 1px solid rgba(212, 175, 55, 0.25);
+  padding: 10px 24px 12px 24px;
+  background: rgba(6, 9, 15, 0.98);
+  border-top: 1.5px solid rgba(212, 175, 55, 0.35);
   flex-shrink: 0;
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 8px;
+  box-shadow: 0 -8px 24px rgba(0, 0, 0, 0.85);
 }
 
 .pavilion-strip-heading {
@@ -7080,93 +7320,161 @@ body {
   gap: 8px;
 }
 
+.strip-sparkle {
+  color: var(--gold-pure, #d4af37);
+  font-size: 0.85rem;
+}
+
 .strip-label {
   font-family: 'Cinzel', serif;
-  font-size: 0.7rem;
+  font-size: 0.76rem;
   font-weight: 700;
   color: var(--gold-pale, #eed88f);
-  letter-spacing: 0.8px;
+  letter-spacing: 1px;
 }
 
 .pavilion-art-track {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 14px;
   overflow-x: auto;
   scrollbar-width: thin;
-  scrollbar-color: rgba(212, 175, 55, 0.3) transparent;
-  padding-bottom: 2px;
+  scrollbar-color: rgba(212, 175, 55, 0.4) transparent;
+  padding-bottom: 4px;
 }
 
 .pavilion-art-card {
   display: flex;
   align-items: center;
-  gap: 8px;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(212, 175, 55, 0.25);
-  border-radius: 5px;
-  padding: 4px 10px 4px 4px;
+  gap: 12px;
+  height: 94px;
+  min-width: 290px;
+  max-width: 360px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.08) 0%, rgba(18, 24, 38, 0.95) 100%);
+  border: 1.5px solid rgba(212, 175, 55, 0.32);
+  border-radius: 7px;
+  padding: 8px 12px 8px 8px;
   cursor: pointer;
-  white-space: nowrap;
-  transition: all 0.2s ease;
+  transition: all 0.22s ease;
   flex-shrink: 0;
+  box-sizing: border-box;
 }
 
 .pavilion-art-card:hover {
-  background: rgba(212, 175, 55, 0.2);
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.22) 0%, rgba(22, 30, 48, 0.98) 100%);
   border-color: var(--gold-pure, #d4af37);
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.7);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.8), 0 0 12px rgba(212, 175, 55, 0.3);
 }
 
 .pavilion-art-thumb {
   position: relative;
-  width: 36px;
-  height: 36px;
-  border-radius: 3px;
+  width: 78px;
+  height: 78px;
+  border-radius: 5px;
   overflow: hidden;
   background: #000;
+  border: 1px solid rgba(212, 175, 55, 0.35);
   flex-shrink: 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
 }
 
 .pavilion-art-thumb img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.pavilion-art-card:hover .pavilion-art-thumb img {
+  transform: scale(1.08);
 }
 
 .pavilion-art-badge {
   position: absolute;
-  bottom: 1px;
-  right: 1px;
-  font-size: 0.65rem;
+  bottom: 2px;
+  right: 2px;
+  font-size: 0.8rem;
   line-height: 1;
-  filter: drop-shadow(0 0 2px #000);
+  background: rgba(0, 0, 0, 0.75);
+  border-radius: 4px;
+  padding: 1px 3px;
+  border: 1px solid rgba(212, 175, 55, 0.35);
 }
 
 .pavilion-art-info {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   min-width: 0;
+  flex: 1;
 }
 
 .pavilion-art-title {
-  font-size: 0.72rem;
-  font-weight: 600;
-  color: #fff;
-  max-width: 160px;
+  font-family: 'Cinzel', serif;
+  font-size: 0.84rem;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 1.35;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
 .pavilion-art-date {
-  font-size: 0.65rem;
+  font-size: 0.74rem;
+  color: var(--gold-pale, #eed88f);
+  margin-top: 3px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.pavilion-art-type {
+  font-size: 0.70rem;
   color: #94a3b8;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.btn-pavilion-view-all-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  height: 94px;
+  min-width: 220px;
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.2), rgba(212, 175, 55, 0.08));
+  border: 1.5px dashed var(--gold-pure, #d4af37);
+  border-radius: 7px;
+  color: #ffffff;
+  font-family: 'Cinzel', serif;
+  font-size: 0.82rem;
+  font-weight: 700;
+  padding: 12px 16px;
+  cursor: pointer;
+  transition: all 0.22s ease;
+  flex-shrink: 0;
+  text-align: center;
+}
+
+.btn-pavilion-view-all-card:hover {
+  background: linear-gradient(135deg, #d4af37, #eed88f);
+  color: #000;
+  border-style: solid;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(212, 175, 55, 0.4);
 }
 
 .pavilion-no-art {
-  font-size: 0.75rem;
-  color: #64748b;
+  font-size: 0.85rem;
+  color: #94a3b8;
   font-style: italic;
-  padding: 4px 0;
+  padding: 20px;
 }
+
+
+
