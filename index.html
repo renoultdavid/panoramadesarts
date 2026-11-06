@@ -410,59 +410,93 @@
         </button>
       </div>
 
-      <!-- MODAL NOTICE MUSÉOGRAPHIQUE DÉTAILLÉE -->
-      <div id="civ-notice-modal" class="civ-notice-modal" hidden>
-        <div class="civ-notice-backdrop" id="civ-notice-backdrop"></div>
-        <div class="civ-notice-frame">
-          <div class="civ-notice-header">
-            <div class="civ-notice-titles">
-              <span class="civ-notice-era" id="sidebar-era">Époque</span>
-              <h2 class="civ-notice-title" id="sidebar-title">Civilisation</h2>
+      <!-- GRAND PAVILLON MONOGRAPHIQUE DE LA CIVILISATION -->
+      <section id="civ-pavilion-stage" class="civ-pavilion-stage" hidden>
+        <div class="pavilion-header">
+          <div class="pavilion-header-left">
+            <span class="pavilion-emblem" id="pavilion-emblem">🏛️</span>
+            <div class="pavilion-titles">
+              <h2 class="pavilion-title" id="pavilion-title">Civilisation</h2>
+              <span class="pavilion-epoch" id="pavilion-epoch">Époque</span>
             </div>
-            <button type="button" class="btn-close-notice" id="btn-close-sidebar" title="Fermer la notice">&times;</button>
           </div>
-          <div class="civ-notice-body">
-            <div class="civ-notice-banner-frame" id="sidebar-banner-box">
-              <img id="sidebar-banner-img" src="" alt="Bandeau de la civilisation" loading="lazy" />
-            </div>
-            <div class="civ-notice-desc" id="sidebar-desc">Notice muséographique...</div>
-            <div id="sidebar-album-grid" class="sidebar-album-grid"></div>
+
+          <!-- ONGLETS DE NAVIGATION DANS LE PAVILLON -->
+          <div class="pavilion-tabs">
+            <button type="button" class="btn-pavilion-tab active" data-tab="panoramic">✦ Vue Panoramique</button>
+            <button type="button" class="btn-pavilion-tab" data-tab="notice">📖 Histoire &amp; Genèse</button>
+            <button type="button" class="btn-pavilion-tab" data-tab="map">🗺️ Carte Régionale</button>
+            <button type="button" class="btn-pavilion-tab" data-tab="concurrent">🌍 Contexte Mondial</button>
           </div>
-          <div class="civ-notice-footer">
-            <button type="button" class="btn-enter-civ-map" id="btn-enter-civ">
-              🗺️ Explorer la carte régionale ➔
-            </button>
-            <button type="button" class="btn-explore-civ-gallery" id="btn-explore-civ-gallery" title="Voir toute la collection de cette civilisation dans la Galerie">
+
+          <div class="pavilion-header-right">
+            <button type="button" class="btn-pavilion-gallery" id="btn-pavilion-gallery" title="Voir toute la collection de cette civilisation dans la Galerie">
               <span class="btn-civ-icon">🏛️</span>
-              <span>Voir dans la Galerie (<strong id="sidebar-civ-gallery-count">0</strong>)</span>
+              <span>Explorer la Collection (<strong id="pavilion-gallery-count">0</strong>)</span>
+            </button>
+            <button type="button" class="btn-close-pavilion" id="btn-close-pavilion" title="Fermer et revenir à la frise chronologique">
+              <span class="close-icon">✕</span>
+              <span>Fermer &amp; Revenir à la Frise</span>
             </button>
           </div>
         </div>
-      </div>
 
-      <!-- LANGUETTES ÉLÉGANTES SUR LES BORDS POUR DÉPLIER LES VOLETS -->
-      <button type="button" id="tab-reopen-civ" class="timeline-edge-tab tab-left" hidden title="Déplier la présentation de la civilisation">
-        <span class="tab-arrow">▶</span>
-        <span class="tab-label" id="tab-reopen-civ-label">Civilisation</span>
-      </button>
+        <!-- CORPS MULTI-VOLETS PANORAMIQUE -->
+        <div class="pavilion-body" id="pavilion-body" data-active-tab="panoramic">
+          <!-- VOLET 1 : PRÉSENTATION & HISTOIRE -->
+          <article class="pavilion-panel pavilion-panel-notice" id="panel-notice">
+            <div class="panel-header-strip">
+              <span class="panel-tag">✦ HISTOIRE &amp; GENÈSE</span>
+            </div>
+            <div class="pavilion-panel-scroll">
+              <div class="pavilion-banner-frame" id="pavilion-banner-box">
+                <img id="pavilion-banner-img" src="" alt="Bandeau de la civilisation" loading="lazy" />
+              </div>
+              <div class="pavilion-notice-text" id="pavilion-notice-text">
+                Notice muséographique...
+              </div>
+              <div id="pavilion-albums-grid" class="pavilion-albums-grid"></div>
+            </div>
+          </article>
 
-      <button type="button" id="tab-reopen-concurrent" class="timeline-edge-tab tab-right" hidden title="Déplier le contexte mondial">
-        <span class="tab-arrow">◀</span>
-        <span class="tab-label">Et pendant ce temps-là...</span>
-      </button>
+          <!-- VOLET 2 : CARTE RÉGIONALE DÉDIÉE -->
+          <article class="pavilion-panel pavilion-panel-map" id="panel-map">
+            <div class="panel-header-strip">
+              <span class="panel-tag">✦ CARTE RÉGIONALE &amp; GÉOGRAPHIE</span>
+            </div>
+            <div class="pavilion-panel-scroll map-panel-scroll">
+              <div class="pavilion-map-frame" id="pavilion-map-box">
+                <img id="pavilion-map-img" src="" alt="Carte régionale HD" />
+                <div class="map-atmospheric-glow"></div>
+              </div>
+            </div>
+          </article>
 
-      <!-- CARTOUCHE LATÉRAL DROIT : ET PENDANT CE TEMPS-LÀ... -->
-      <aside id="concurrent-sidebar-card">
-        <div class="sidebar-header-actions right-actions">
-          <button type="button" class="btn-sidebar-tool btn-close-sidebar" id="btn-close-concurrent" title="Fermer le volet mondial">&times;</button>
+          <!-- VOLET 3 : ET PENDANT CE TEMPS-LÀ (CONTEXTE MONDIAL) -->
+          <article class="pavilion-panel pavilion-panel-concurrent" id="panel-concurrent">
+            <div class="panel-header-strip">
+              <span class="panel-tag">✦ ET PENDANT CE TEMPS-LÀ... (CONTEXTE MONDIAL SYNCHRONE)</span>
+            </div>
+            <div class="pavilion-panel-scroll">
+              <div class="pavilion-concurrent-text" id="pavilion-concurrent-text">
+                <p>Contexte mondial en cours d'enrichissement pour cette époque.</p>
+              </div>
+            </div>
+          </article>
         </div>
-        <div class="sidebar-scrollable-body">
-          <div class="hover-card-era">Contexte Mondial Synchrone</div>
-          <div class="hover-card-title">Et pendant ce temps-là...</div>
-          <div class="hover-card-desc" id="concurrent-desc">Chargement du contexte mondial...</div>
-        </div>
-      </aside>
-    </main>
+
+        <!-- RUBAN INFÉRIEUR : CHEFS-D'ŒUVRE TÉMOINS DE CETTE CIVILISATION -->
+        <footer class="pavilion-footer-strip">
+          <div class="pavilion-strip-heading">
+            <span class="strip-sparkle">✦</span>
+            <span class="strip-label">CHEFS-D'ŒUVRE DE LA COLLECTION :</span>
+          </div>
+          <div class="pavilion-art-track" id="pavilion-art-track">
+            <!-- Injecté dynamiquement en JS (miniatures cliquables) -->
+          </div>
+        </footer>
+      </section>
+</main>
 
     <!-- FRISES AU BAS DE L'ÉCRAN -->
     <footer id="timeline-dock">

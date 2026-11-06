@@ -2966,8 +2966,7 @@ function getCivIcon(civ) {
 
     block.addEventListener('click', (e) => {
       e.stopPropagation();
-      scrollTheatreCardIntoView(civ.id);
-      highlightTheatreCard(civ.id);
+      openCivilisationPavilion(civ, 'panoramic');
     });
 
     civ._blockEl = block;
@@ -3537,24 +3536,46 @@ function closeRegionalMap() {
   }
 }
 
-function openCivNoticeModal(civ) {
-  if (!civ) return;
-  selectedCiv = civ;
-  const modal = document.getElementById('civ-notice-modal');
-  if (!modal) return;
-  if (sidebarEra) sidebarEra.textContent = civ.epoch;
-  if (sidebarTitle) sidebarTitle.textContent = civ.name;
-  if (sidebarDesc) sidebarDesc.innerHTML = civ.presentationHtml;
+let currentPavilionCiv = null;
 
-  if (civ.bannerImg && sidebarBannerImg && sidebarBannerBox) {
-    sidebarBannerImg.src = civ.bannerImg;
-    sidebarBannerBox.style.display = 'block';
-  } else if (sidebarBannerBox) {
-    sidebarBannerBox.style.display = 'none';
+function openCivilisationPavilion(civ, initialTab = 'panoramic') {
+  if (!civ) return;
+  currentPavilionCiv = civ;
+
+  const pavilion = document.getElementById('civ-pavilion-stage');
+  const viewTimeline = document.getElementById('view-timeline');
+  if (!pavilion || !viewTimeline) return;
+
+  // Applique la couleur de thème de la civilisation
+  pavilion.style.setProperty('--civ-theme-color', civ.themeColor || '#d4af37');
+
+  // En-tête du pavillon
+  const emblemEl = document.getElementById('pavilion-emblem');
+  const titleEl = document.getElementById('pavilion-title');
+  const epochEl = document.getElementById('pavilion-epoch');
+  if (emblemEl) emblemEl.textContent = civ.icon || getCivIcon(civ);
+  if (titleEl) titleEl.textContent = civ.name;
+  if (epochEl) epochEl.textContent = civ.epoch;
+
+  // Volet 1 : Présentation & Histoire
+  const bannerBox = document.getElementById('pavilion-banner-box');
+  const bannerImg = document.getElementById('pavilion-banner-img');
+  const noticeText = document.getElementById('pavilion-notice-text');
+  const albumsGrid = document.getElementById('pavilion-albums-grid');
+
+  if (civ.bannerImg && bannerImg && bannerBox) {
+    bannerImg.src = civ.bannerImg;
+    bannerBox.style.display = 'block';
+  } else if (bannerBox) {
+    bannerBox.style.display = 'none';
   }
 
-  if (sidebarAlbumGrid) {
-    sidebarAlbumGrid.innerHTML = '';
+  if (noticeText) {
+    noticeText.innerHTML = civ.presentationHtml || '<p>Notice muséographique en cours d\'enrichissement.</p>';
+  }
+
+  if (albumsGrid) {
+    albumsGrid.innerHTML = '';
     if (civ.themeAlbums && civ.themeAlbums.length > 0) {
       civ.themeAlbums.forEach(item => {
         const a = document.createElement('a');
@@ -3563,32 +3584,94 @@ function openCivNoticeModal(civ) {
         a.target = '_blank';
         a.rel = 'noopener noreferrer';
         a.textContent = item.label;
-        sidebarAlbumGrid.appendChild(a);
+        albumsGrid.appendChild(a);
       });
-      sidebarAlbumGrid.style.display = 'grid';
+      albumsGrid.style.display = 'grid';
     } else {
-      sidebarAlbumGrid.style.display = 'none';
+      albumsGrid.style.display = 'none';
     }
   }
 
-  const sidebarCivGalleryCount = document.getElementById('sidebar-civ-gallery-count');
-  if (sidebarCivGalleryCount) {
-    const catalog = window.ART_OBJECTS || [];
-    const count = catalog.filter(art => art.periodId === civ.id || art.civId === civ.id).length;
-    sidebarCivGalleryCount.textContent = count;
+  // Volet 2 : Carte Régionale HD
+  const mapImg = document.getElementById('pavilion-map-img');
+  const targetMap = civ.mapOverlayUrl || civ.bannerImg || '';
+  if (mapImg) {
+    mapImg.src = targetMap;
   }
 
-  modal.removeAttribute('hidden');
-  modal.classList.add('active');
+  // Volet 3 : Contexte Mondial
+  const concurrentText = document.getElementById('pavilion-concurrent-text');
+  if (concurrentText) {
+    concurrentText.innerHTML = civ.concurrentHtml || '<p>Contexte mondial synchrone en cours d\'enrichissement pour cette époque.</p>';
+  }
+
+  // Compteur global collection
+  const countEl = document.getElementById('pavilion-gallery-count');
+  const catalog = window.ART_OBJECTS || [];
+  const civCount = catalog.filter(a => a.periodId === civ.id || a.civId === civ.id).length;
+  if (countEl) countEl.textContent = civCount;
+
+  // Ruban des chefs-d'œuvre témoins
+  const artTrack = document.getElementById('pavilion-art-track');
+  if (artTrack) {
+    artTrack.innerHTML = '';
+    const artifacts = civ.artifacts || [];
+    if (artifacts.length > 0) {
+      artifacts.forEach((art) => {
+        const chip = document.createElement('div');
+        chip.className = 'pavilion-art-card';
+        const dateStr = art.centuryDisplay || art.century || '';
+        const domIcon = (typeof DOMAIN_ICONS !== 'undefined' && DOMAIN_ICONS[art.domain]) || '🏺';
+        const domLabel = art.artifactType || 'Chef-d\'œuvre';
+
+        chip.title = `${art.title} (${dateStr}) [${domLabel}]`;
+        chip.innerHTML = `
+          <div class="pavilion-art-thumb">
+            <img src="${art.imgSrc}" alt="${escapeHtmlAttr(art.title)}" loading="lazy" />
+            <span class="pavilion-art-badge">${domIcon}</span>
+          </div>
+          <div class="pavilion-art-info">
+            <div class="pavilion-art-title">${escapeHtmlAttr(art.title)}</div>
+            <div class="pavilion-art-date">${escapeHtmlAttr(dateStr)}</div>
+          </div>
+        `;
+        chip.addEventListener('click', (e) => {
+          e.stopPropagation();
+          openCuratorModal(art, artifacts, true);
+        });
+        artTrack.appendChild(chip);
+      });
+    } else {
+      artTrack.innerHTML = '<span class="pavilion-no-art">Collection en cours d\'intégration pour cette époque.</span>';
+    }
+  }
+
+  // Onglet actif
+  setPavilionTab(initialTab);
+
+  // Déplie le grand pavillon & replie la frise
+  pavilion.removeAttribute('hidden');
+  viewTimeline.classList.add('civ-pavilion-open');
 }
 
-function closeCivNoticeModal() {
-  const modal = document.getElementById('civ-notice-modal');
-  if (modal) {
-    modal.classList.remove('active');
-    modal.setAttribute('hidden', 'true');
+function closeCivilisationPavilion() {
+  const pavilion = document.getElementById('civ-pavilion-stage');
+  const viewTimeline = document.getElementById('view-timeline');
+  if (pavilion) {
+    pavilion.setAttribute('hidden', 'true');
   }
-  isLockedSidebar = false;
+  if (viewTimeline) {
+    viewTimeline.classList.remove('civ-pavilion-open');
+  }
+  currentPavilionCiv = null;
+}
+
+function setPavilionTab(tabKey) {
+  const body = document.getElementById('pavilion-body');
+  if (body) body.setAttribute('data-active-tab', tabKey);
+  document.querySelectorAll('.btn-pavilion-tab').forEach(btn => {
+    btn.classList.toggle('active', btn.getAttribute('data-tab') === tabKey);
+  });
 }
 
 function highlightTheatreCard(civId) {
@@ -3755,7 +3838,7 @@ function renderSynchronousTheatre(activeCivs, currentYear) {
     if (btnMap) {
       btnMap.addEventListener('click', (e) => {
         e.stopPropagation();
-        openRegionalMap(civ);
+        openCivilisationPavilion(civ, 'map');
       });
     }
 
@@ -3763,7 +3846,7 @@ function renderSynchronousTheatre(activeCivs, currentYear) {
     if (btnNotice) {
       btnNotice.addEventListener('click', (e) => {
         e.stopPropagation();
-        openCivNoticeModal(civ);
+        openCivilisationPavilion(civ, 'notice');
       });
     }
 
@@ -3840,7 +3923,7 @@ function renderSynchronousTheatre(activeCivs, currentYear) {
     if (btnMap) {
       btnMap.addEventListener('click', (e) => {
         e.stopPropagation();
-        openRegionalMap(civ);
+        openCivilisationPavilion(civ, 'map');
       });
     }
 
@@ -3848,7 +3931,7 @@ function renderSynchronousTheatre(activeCivs, currentYear) {
     if (btnNotice) {
       btnNotice.addEventListener('click', (e) => {
         e.stopPropagation();
-        openCivNoticeModal(civ);
+        openCivilisationPavilion(civ, 'notice');
       });
     }
 
@@ -3861,7 +3944,7 @@ function renderSynchronousTheatre(activeCivs, currentYear) {
     }
 
     card.addEventListener('click', () => {
-      highlightTheatreCard(civ.id);
+      openCivilisationPavilion(civ, 'panoramic');
     });
 
     theatreTrack.appendChild(card);
@@ -4281,24 +4364,49 @@ function closeCivilisationView() {
 
 document.getElementById('btn-close-drawer').addEventListener('click', closeCivilisationView);
 
-// Écouteurs pour la fermeture de la notice muséographique
-const btnCloseNoticeModal = document.getElementById('btn-close-sidebar');
-if (btnCloseNoticeModal) {
-  btnCloseNoticeModal.addEventListener('click', (e) => {
+// Écouteurs pour le Grand Pavillon Monographique
+const btnClosePavilion = document.getElementById('btn-close-pavilion');
+if (btnClosePavilion) {
+  btnClosePavilion.addEventListener('click', (e) => {
     e.stopPropagation();
-    closeCivNoticeModal();
+    closeCivilisationPavilion();
   });
 }
-const noticeBackdropEl = document.getElementById('civ-notice-backdrop');
-if (noticeBackdropEl) {
-  noticeBackdropEl.addEventListener('click', (e) => {
+
+const btnPavilionGallery = document.getElementById('btn-pavilion-gallery');
+if (btnPavilionGallery) {
+  btnPavilionGallery.addEventListener('click', (e) => {
     e.stopPropagation();
-    closeCivNoticeModal();
+    if (currentPavilionCiv) {
+      closeCivilisationPavilion();
+      goToGalleryForCiv(currentPavilionCiv);
+    }
   });
 }
+
+// Clic sur les onglets de vue du pavillon
+document.querySelectorAll('.btn-pavilion-tab').forEach(btn => {
+  btn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    setPavilionTab(btn.getAttribute('data-tab'));
+  });
+});
+
+// Clic sur la frise repliée pour la redéplier
+const timelineDockEl = document.getElementById('timeline-dock');
+if (timelineDockEl) {
+  timelineDockEl.addEventListener('click', (e) => {
+    const viewTimeline = document.getElementById('view-timeline');
+    if (viewTimeline && viewTimeline.classList.contains('civ-pavilion-open')) {
+      // Si la frise est repliée, un clic dessus la redéplie
+      closeCivilisationPavilion();
+    }
+  });
+}
+
 window.addEventListener('keydown', (e) => {
   if (e.key === 'Escape') {
-    closeCivNoticeModal();
+    closeCivilisationPavilion();
     closeRegionalMap();
   }
 });
