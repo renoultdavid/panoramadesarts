@@ -96,21 +96,42 @@ const HISTORICAL_MILESTONES = [
   { year: 1453, category: "war", icon: "💡", type: "Tournant de l'histoire", title: "Prise de Constantinople & Imprimerie", desc: "Chute de Byzance face aux Ottomans et diffusion révolutionnaire de la presse à caractères mobiles par Gutenberg en Europe." },
   { year: 1508, category: "gold", icon: "🎨", type: "Sommet artistique", title: "Michel-Ange : Chapelle Sixtine", desc: "Commande du pape Jules II à Rome, aboutissant à l'un des sommets absolus de la peinture monumentale de la Haute Renaissance." },
   { year: 1789, category: "war", icon: "⚔️", type: "Révolution politique", title: "Révolution Française", desc: "Bouleversement majeur de l'ordre politique européen, naissance des grands musées publics et redéfinition du patrimoine." },
-  { year: 1907, category: "tech", icon: "🎨", type: "Révolution esthétique", title: "Les Demoiselles d'Avignon & Naissance du Cubisme", desc: "Picasso brise la perspective linéaire classique sous l'influence des arts ibériques et africains, ouvrant la voie aux avant-gardes modernes." }
+  { year: 1895, category: "tech", icon: "🎬", type: "Invention des Frères Lumière", title: "Naissance du Cinématographe", desc: "Première projection publique payante à Paris au Grand Café, inaugurant l'ère de l'image en mouvement." },
+  { year: 1905, category: "tech", icon: "🦁", type: "Salon d'Automne", title: "Scandale du Fauvisme", desc: "Matisse, Derain et Vlaminck exposent leurs toiles aux couleurs pures (« la cage aux fauves » de Louis Vauxcelles)." },
+  { year: 1907, category: "tech", icon: "🎨", type: "Révolution esthétique", title: "Les Demoiselles d'Avignon & Naissance du Cubisme", desc: "Picasso brise la perspective linéaire classique sous l'influence des arts ibériques et africains, ouvrant la voie aux avant-gardes modernes." },
+  { year: 1913, category: "tech", icon: "🚲", type: "Invention du Ready-made", title: "Duchamp : Roue de bicyclette", desc: "Marcel Duchamp fixe une roue de bicyclette sur un tabouret, inventant le ready-made et la primauté du concept sur l'objet manufacturé." },
+  { year: 1916, category: "disaster", icon: "⚡", type: "Scandale & Dérision", title: "Fondation du Mouvement Dada", desc: "Au Cabaret Voltaire de Zurich, Hugo Ball, Tristan Tzara et Jean Arp contestent les absurdités de la guerre par le scandale et la poésie du hasard." },
+  { year: 1919, category: "tech", icon: "📐", type: "Utopie moderniste", title: "Fondation du Bauhaus à Weimar", desc: "Walter Gropius réunit arts majeurs et arts appliqués dans une vision architecturale unifiée au service de l'homme moderne." },
+  { year: 1924, category: "gold", icon: "🌙", type: "Manifeste artistique", title: "Premier Manifeste du Surréalisme", desc: "André Breton définit le surréalisme comme automatisme psychique pur, explorant l'inconscient, le rêve et l'amour fou." },
+  { year: 1947, category: "tech", icon: "🖌️", type: "Action Painting", title: "Pollock & le Dripping", desc: "Jackson Pollock pose la toile à même le sol et projette la peinture en volutes continues, inaugurant l'École de New York." },
+  { year: 1962, category: "gold", icon: "🥫", type: "Pop Art triomphant", title: "Warhol : Campbell's Soup Cans", desc: "Andy Warhol expose ses 32 toiles de boîtes de soupe sérigraphiées, consacrant l'appropriation ironique de la consommation industrielle." }
 ];
 
 /* ==========================================================================
-   MOTEUR DE LA FRISE CONTINU & ZOOM TEMPOREL (TIME-ZOOM DYNAMIQUE)
+   MOTEUR DE LA FRISE CONTINU & ZOOM TEMPOREL (DOUBLE MODE : CIVILISATIONS / AVANT-GARDES)
    ========================================================================== */
-const YEAR_MIN = -3500;
-const YEAR_MAX = 2000;
-const TOTAL_YEARS = YEAR_MAX - YEAR_MIN; // 5500 ans
-const BASE_USABLE_WIDTH = 4900;
+let currentTimelineEra = 'ancient'; // 'ancient' (-3500 à 1890) ou 'modern' (1890 à 2000)
+
+function getYearMin() {
+  return currentTimelineEra === 'modern' ? 1890 : -3500;
+}
+
+function getYearMax() {
+  return currentTimelineEra === 'modern' ? 2000 : 1890;
+}
+
+function getTotalYears() {
+  return getYearMax() - getYearMin();
+}
+
+function getBaseUsableWidth() {
+  return currentTimelineEra === 'modern' ? 3200 : 4900;
+}
 
 let timelineZoom = 1.0; // Niveau de dilatation temporelle (de 0.4x à 15.0x)
 
 function getUsableWidth() {
-  return BASE_USABLE_WIDTH * timelineZoom;
+  return getBaseUsableWidth() * timelineZoom;
 }
 
 function getRibbonWidth() {
@@ -118,11 +139,15 @@ function getRibbonWidth() {
 }
 
 function yearToPixel(year) {
-  return ((year - YEAR_MIN) / TOTAL_YEARS) * getUsableWidth() + 100;
+  const yMin = getYearMin();
+  const totalY = getTotalYears();
+  return ((year - yMin) / totalY) * getUsableWidth() + 100;
 }
 
 function pixelToYear(px) {
-  return Math.round(YEAR_MIN + ((px - 100) / getUsableWidth()) * TOTAL_YEARS);
+  const yMin = getYearMin();
+  const totalY = getTotalYears();
+  return Math.round(yMin + ((px - 100) / getUsableWidth()) * totalY);
 }
 
 const masterRibbon = document.getElementById('master-ribbon');
@@ -143,51 +168,78 @@ function renderRulerScale() {
   if (!rulerTrack) return;
   const frag = document.createDocumentFragment();
 
-  let step = 50;
-  let majorStep = 1000;
-  let mediumStep = 250;
-  let showDecades = false;
+  const yMin = getYearMin();
+  const yMax = getYearMax();
 
-  if (timelineZoom < 0.65) {
-    step = 250;
-    majorStep = 1000;
-    mediumStep = 500;
-  } else if (timelineZoom < 1.4) {
-    step = 50;
-    majorStep = 1000;
-    mediumStep = 250;
-  } else if (timelineZoom < 3.2) {
-    step = 25;
-    majorStep = 500;
-    mediumStep = 100;
-  } else if (timelineZoom < 6.5) {
-    step = 10;
-    majorStep = 100;
-    mediumStep = 50;
-    showDecades = true;
+  if (currentTimelineEra === 'modern') {
+    let step = 1;
+    let majorStep = 10;
+    let mediumStep = 5;
+
+    for (let y = yMin; y <= yMax; y += step) {
+      const isMajor = (y % majorStep === 0);
+      const isMedium = (y % mediumStep === 0);
+
+      const tick = document.createElement('div');
+      tick.className = `ruler-tick ${isMajor ? 'major' : (isMedium ? 'medium' : 'minor')}`;
+      tick.style.left = `${yearToPixel(y)}px`;
+      frag.appendChild(tick);
+
+      if (isMajor || (isMedium && timelineZoom >= 1.0)) {
+        const label = document.createElement('div');
+        label.className = `ruler-label ${isMajor ? 'major-label' : ''}`;
+        label.style.left = `${yearToPixel(y)}px`;
+        label.textContent = `${y}`;
+        frag.appendChild(label);
+      }
+    }
   } else {
-    // Zoom très fort (> 6.5x) : immersion fine par décennies et lustres
-    step = 5;
-    majorStep = 50;
-    mediumStep = 10;
-    showDecades = true;
-  }
+    let step = 50;
+    let majorStep = 1000;
+    let mediumStep = 250;
+    let showDecades = false;
 
-  for (let y = YEAR_MIN; y <= YEAR_MAX; y += step) {
-    const isMajor = (y % majorStep === 0);
-    const isMedium = (y % mediumStep === 0);
+    if (timelineZoom < 0.65) {
+      step = 250;
+      majorStep = 1000;
+      mediumStep = 500;
+    } else if (timelineZoom < 1.4) {
+      step = 50;
+      majorStep = 1000;
+      mediumStep = 250;
+    } else if (timelineZoom < 3.2) {
+      step = 25;
+      majorStep = 500;
+      mediumStep = 100;
+    } else if (timelineZoom < 6.5) {
+      step = 10;
+      majorStep = 100;
+      mediumStep = 50;
+      showDecades = true;
+    } else {
+      // Zoom très fort (> 6.5x) : immersion fine par décennies et lustres
+      step = 5;
+      majorStep = 50;
+      mediumStep = 10;
+      showDecades = true;
+    }
 
-    const tick = document.createElement('div');
-    tick.className = `ruler-tick ${isMajor ? 'major' : (isMedium ? 'medium' : 'minor')}`;
-    tick.style.left = `${yearToPixel(y)}px`;
-    frag.appendChild(tick);
+    for (let y = yMin; y <= yMax; y += step) {
+      const isMajor = (y % majorStep === 0);
+      const isMedium = (y % mediumStep === 0);
 
-    if (isMajor || (isMedium && timelineZoom >= 1.1) || (showDecades && y % 10 === 0 && timelineZoom >= 4.5)) {
-      const label = document.createElement('div');
-      label.className = `ruler-label ${isMajor ? 'major-label' : (y % 10 === 0 && !isMedium ? 'decade-label' : '')}`;
-      label.style.left = `${yearToPixel(y)}px`;
-      label.textContent = y < 0 ? `${y}` : (y === 0 ? "1" : `+${y}`);
-      frag.appendChild(label);
+      const tick = document.createElement('div');
+      tick.className = `ruler-tick ${isMajor ? 'major' : (isMedium ? 'medium' : 'minor')}`;
+      tick.style.left = `${yearToPixel(y)}px`;
+      frag.appendChild(tick);
+
+      if (isMajor || (isMedium && timelineZoom >= 1.1) || (showDecades && y % 10 === 0 && timelineZoom >= 4.5)) {
+        const label = document.createElement('div');
+        label.className = `ruler-label ${isMajor ? 'major-label' : (y % 10 === 0 && !isMedium ? 'decade-label' : '')}`;
+        label.style.left = `${yearToPixel(y)}px`;
+        label.textContent = y < 0 ? `${y}` : (y === 0 ? "1" : `+${y}`);
+        frag.appendChild(label);
+      }
     }
   }
 
@@ -627,7 +679,12 @@ function renderHistoricalSparks() {
   if (!rulerSparksLayer) return;
   const frag = document.createDocumentFragment();
 
+  const yMin = getYearMin();
+  const yMax = getYearMax();
+
   HISTORICAL_MILESTONES.forEach(m => {
+    if (m.year < yMin || m.year > yMax) return;
+
     const spark = document.createElement('div');
     spark.className = `ruler-event-spark spark-${m.category}`;
     spark.style.left = `${yearToPixel(m.year)}px`;
@@ -678,11 +735,11 @@ function renderHistoricalSparks() {
    PILIER 3 : DILATATION MULTI-ÉCHELLES & MOUVEMENTS ARTISTIQUES EN SOUS-BARRES
    ========================================================================== */
 const ART_MOVEMENTS = [
-  // --- OCCIDENT XXe SIÈCLE (lane: europe_ouest) ---
+  // --- OCCIDENT XXe SIÈCLE (FRISE DÉDIÉE DES AVANT-GARDES : 1890 à 2000) ---
   {
     id: "mov_fauvisme",
     parentCivId: "occ_xxe_moderne",
-    lane: "europe_ouest",
+    lane: "mod_peinture",
     name: "Fauvisme",
     yearStart: 1904,
     yearEnd: 1908,
@@ -695,7 +752,7 @@ const ART_MOVEMENTS = [
   {
     id: "mov_cubisme",
     parentCivId: "occ_xxe_moderne",
-    lane: "europe_ouest",
+    lane: "mod_peinture",
     name: "Cubisme",
     yearStart: 1907,
     yearEnd: 1919,
@@ -708,7 +765,7 @@ const ART_MOVEMENTS = [
   {
     id: "mov_dada",
     parentCivId: "occ_xxe_moderne",
-    lane: "europe_ouest",
+    lane: "mod_subversion",
     name: "Dadaïsme",
     yearStart: 1916,
     yearEnd: 1924,
@@ -721,7 +778,7 @@ const ART_MOVEMENTS = [
   {
     id: "mov_surrealisme",
     parentCivId: "occ_xxe_moderne",
-    lane: "europe_ouest",
+    lane: "mod_subversion",
     name: "Surréalisme",
     yearStart: 1924,
     yearEnd: 1969,
@@ -732,9 +789,22 @@ const ART_MOVEMENTS = [
     filterKeyword: "surréalisme"
   },
   {
+    id: "mov_art_conceptuel",
+    parentCivId: "occ_xxe_moderne",
+    lane: "mod_conceptuel",
+    name: "Art Conceptuel & Ready-made",
+    yearStart: 1913,
+    yearEnd: 1978,
+    tier: 0,
+    color: "#8b5cf6",
+    keyArtists: "Marcel Duchamp, Arman, Joseph Kosuth, Sol LeWitt, Piero Manzoni",
+    definition: "Révolution esthétique radicale affirmant que l'idée, le concept et le choix de l'artiste priment sur l'exécution matérielle, initiée par l'invention du ready-made par Marcel Duchamp et développée par le Nouveau Réalisme et l'art conceptuel.",
+    filterKeyword: "conceptuel"
+  },
+  {
     id: "mov_expressionnisme_abstrait",
     parentCivId: "occ_xxe_moderne",
-    lane: "europe_ouest",
+    lane: "mod_pop_masse",
     name: "Expressionnisme Abstrait",
     yearStart: 1943,
     yearEnd: 1965,
@@ -747,7 +817,7 @@ const ART_MOVEMENTS = [
   {
     id: "mov_pop_art",
     parentCivId: "occ_xxe_moderne",
-    lane: "europe_ouest",
+    lane: "mod_pop_masse",
     name: "Pop Art & Nouveau Réalisme",
     yearStart: 1956,
     yearEnd: 1975,
@@ -756,19 +826,6 @@ const ART_MOVEMENTS = [
     keyArtists: "Andy Warhol, Roy Lichtenstein, Yves Klein, César",
     definition: "Mouvement célébrant et détournant avec ironie l'imagerie populaire des médias de masse, de la publicité et de la consommation industrielle par la sérigraphie, le collage et les accumulations d'objets réels.",
     filterKeyword: "pop art"
-  },
-  {
-    id: "mov_art_conceptuel",
-    parentCivId: "occ_xxe_moderne",
-    lane: "europe_ouest",
-    name: "Art Conceptuel & Ready-made",
-    yearStart: 1913,
-    yearEnd: 1978,
-    tier: 2,
-    color: "#8b5cf6",
-    keyArtists: "Marcel Duchamp, Arman, Joseph Kosuth, Sol LeWitt, Piero Manzoni",
-    definition: "Révolution esthétique radicale affirmant que l'idée, le concept et le choix de l'artiste priment sur l'exécution matérielle, initiée par l'invention du ready-made par Marcel Duchamp et développée par le Nouveau Réalisme et l'art conceptuel.",
-    filterKeyword: "conceptuel"
   },
 
   // --- OCCIDENT XIXe SIÈCLE (lane: europe_ouest) ---
@@ -2863,9 +2920,9 @@ const CIVILISATIONS_REGISTRY = [
   {
     id: "occ_xixe",
     name: "Occident : XIXe Siècle & Réalisme",
-    epoch: "v. 1800 à 1900 ap. J.-C.",
+    epoch: "v. 1800 à 1890 ap. J.-C.",
     yearStart: 1800,
-    yearEnd: 1900,
+    yearEnd: 1890,
     lane: "europe_ouest",
     themeColor: "#c77dff",
     sidePos: "pos-left",
@@ -2895,8 +2952,8 @@ const CIVILISATIONS_REGISTRY = [
   {
     id: "occ_xxe_moderne",
     name: "Occident : XXe Siècle & Avant-Gardes",
-    epoch: "v. 1900 à 2000 ap. J.-C.",
-    yearStart: 1900,
+    epoch: "v. 1890 à 2000 ap. J.-C.",
+    yearStart: 1890,
     yearEnd: 2000,
     lane: "europe_ouest",
     themeColor: "#e0aaff",
@@ -3157,13 +3214,14 @@ function buildTimelineBlocks() {
   });
 
 
-  // 2. Création des blocs de frise
+  // 2. Création des blocs de frise des civilisations antiques (-3500 à 1890)
   CIVILISATIONS_REGISTRY.forEach((civ) => {
+    if (civ.yearStart >= 1890) return;
     const laneEl = document.querySelector(`.timeline-lane[data-lane="${civ.lane}"]`);
     if (!laneEl) return;
 
-    const visibleStart = Math.max(civ.yearStart, YEAR_MIN);
-    const visibleEnd = Math.min(civ.yearEnd, YEAR_MAX);
+    const visibleStart = Math.max(civ.yearStart, -3500);
+    const visibleEnd = Math.min(civ.yearEnd, 1890);
     const x1 = yearToPixel(visibleStart);
     const x2 = yearToPixel(visibleEnd);
     const width = Math.max(x2 - x1, 14);
@@ -3198,6 +3256,31 @@ function buildTimelineBlocks() {
     laneEl.appendChild(block);
   });
 
+  // 2b. Cartes-passerelles temporelles vers la frise contemporaine
+  const bridgeAncient = document.createElement('div');
+  bridgeAncient.className = 'timeline-era-bridge-card to-modern';
+  bridgeAncient.id = 'bridge-to-modern';
+  bridgeAncient.innerHTML = `<span class="bridge-icon">✨</span><span class="bridge-text">Ère des Avant-Gardes (1890 – 2000) ➔</span>`;
+  bridgeAncient.style.left = `${yearToPixel(1860)}px`;
+  bridgeAncient.addEventListener('click', (e) => {
+    e.stopPropagation();
+    switchTimelineEra('modern');
+  });
+  const europeLane = document.querySelector('.timeline-lane[data-lane="europe_ouest"]');
+  if (europeLane) europeLane.appendChild(bridgeAncient);
+
+  const bridgeModern = document.createElement('div');
+  bridgeModern.className = 'timeline-era-bridge-card to-ancient';
+  bridgeModern.id = 'bridge-to-ancient';
+  bridgeModern.innerHTML = `<span class="bridge-icon">🏛️</span><span class="bridge-text">← Civilisations & Empires (-3500 à 1890)</span>`;
+  bridgeModern.style.left = `${yearToPixel(1891)}px`;
+  bridgeModern.addEventListener('click', (e) => {
+    e.stopPropagation();
+    switchTimelineEra('ancient');
+  });
+  const modPeintureLane = document.querySelector('.timeline-lane[data-lane="mod_peinture"]');
+  if (modPeintureLane) modPeintureLane.appendChild(bridgeModern);
+
   // 3. Création des sous-barres de mouvements artistiques étagées (Pilier 3 démultiplication verticale)
   ART_MOVEMENTS.forEach(mov => {
     const laneEl = document.querySelector(`.timeline-lane[data-lane="${mov.lane}"]`);
@@ -3213,7 +3296,7 @@ function buildTimelineBlocks() {
     bar.style.width = `${width}px`;
     bar.style.backgroundColor = `${mov.color}35`;
     bar.style.borderColor = mov.color;
-    bar.style.display = 'none';
+    bar.style.display = mov.lane.startsWith('mod_') ? 'flex' : 'none';
 
     bar.innerHTML = `<span class="sub-mov-label">${mov.name}</span>`;
 
@@ -3244,13 +3327,16 @@ function buildTimelineBlocks() {
 }
 
 function updateStickyBlockTitles() {
+  const yMin = getYearMin();
+  const yMax = getYearMax();
   CIVILISATIONS_REGISTRY.forEach((civ) => {
     if (!civ._blockEl) return;
+    if (civ.yearStart >= 1890) return;
     const titleEl = civ._blockEl.querySelector('.civ-block-title');
     if (!titleEl) return;
 
-    const visibleStart = Math.max(civ.yearStart, YEAR_MIN);
-    const visibleEnd = Math.min(civ.yearEnd, YEAR_MAX);
+    const visibleStart = Math.max(civ.yearStart, yMin);
+    const visibleEnd = Math.min(civ.yearEnd, yMax);
     const x1 = yearToPixel(visibleStart);
     const x2 = yearToPixel(visibleEnd);
     const blockWidth = Math.max(x2 - x1, 40);
@@ -3276,10 +3362,14 @@ function updateTimelineLayout() {
   if (rulerEventsLayer) rulerEventsLayer.style.width = `${totalW}px`;
   if (rulerSparksLayer) rulerSparksLayer.style.width = `${totalW}px`;
 
+  const yMin = getYearMin();
+  const yMax = getYearMax();
+
   CIVILISATIONS_REGISTRY.forEach((civ) => {
     if (!civ._blockEl) return;
-    const visibleStart = Math.max(civ.yearStart, YEAR_MIN);
-    const visibleEnd = Math.min(civ.yearEnd, YEAR_MAX);
+    if (civ.yearStart >= 1890) return;
+    const visibleStart = Math.max(civ.yearStart, yMin);
+    const visibleEnd = Math.min(civ.yearEnd, yMax);
     const x1 = yearToPixel(visibleStart);
     const x2 = yearToPixel(visibleEnd);
     const width = Math.max(x2 - x1, 14);
@@ -3303,34 +3393,91 @@ function updateTimelineLayout() {
 
   updateStickyBlockTitles();
 
-  // 4. Démultiplication verticale des voies et sous-barres de mouvements (Pilier 3)
   const isExpandedZoom = timelineZoom >= 1.6;
-  const lanesWithMovements = new Set(ART_MOVEMENTS.map(m => m.lane));
 
-  lanesWithMovements.forEach(laneKey => {
-    const laneEl = document.querySelector(`.timeline-lane[data-lane="${laneKey}"]`);
-    const labelEl = document.querySelector(`.lane-fixed-label[data-lane="${laneKey}"]`);
-    if (laneEl) laneEl.classList.toggle('has-submovements-expanded', isExpandedZoom);
-    if (labelEl) labelEl.classList.toggle('has-submovements-expanded', isExpandedZoom);
-  });
+  if (currentTimelineEra === 'ancient') {
+    const lanesWithMovements = new Set(ART_MOVEMENTS.filter(m => !m.lane.startsWith('mod_')).map(m => m.lane));
+    lanesWithMovements.forEach(laneKey => {
+      const laneEl = document.querySelector(`.timeline-lane[data-lane="${laneKey}"]`);
+      const labelEl = document.querySelector(`.lane-fixed-label[data-lane="${laneKey}"]`);
+      if (laneEl) laneEl.classList.toggle('has-submovements-expanded', isExpandedZoom);
+      if (labelEl) labelEl.classList.toggle('has-submovements-expanded', isExpandedZoom);
+    });
+  }
 
   ART_MOVEMENTS.forEach(mov => {
     if (!mov._barEl) return;
-    if (isExpandedZoom) {
+    const isModern = mov.lane.startsWith('mod_');
+    if (currentTimelineEra === 'modern' && isModern) {
       const x1 = yearToPixel(mov.yearStart);
       const x2 = yearToPixel(mov.yearEnd);
       const width = Math.max(x2 - x1, 45);
       mov._barEl.style.left = `${x1}px`;
       mov._barEl.style.width = `${width}px`;
       mov._barEl.style.display = 'flex';
+    } else if (currentTimelineEra === 'ancient' && !isModern) {
+      if (isExpandedZoom) {
+        const x1 = yearToPixel(mov.yearStart);
+        const x2 = yearToPixel(mov.yearEnd);
+        const width = Math.max(x2 - x1, 45);
+        mov._barEl.style.left = `${x1}px`;
+        mov._barEl.style.width = `${width}px`;
+        mov._barEl.style.display = 'flex';
+      } else {
+        mov._barEl.style.display = 'none';
+      }
     } else {
       mov._barEl.style.display = 'none';
     }
   });
 
+  const bridgeAncient = document.getElementById('bridge-to-modern');
+  if (bridgeAncient) {
+    bridgeAncient.style.left = `${yearToPixel(1860)}px`;
+    bridgeAncient.style.display = currentTimelineEra === 'ancient' ? 'inline-flex' : 'none';
+  }
+  const bridgeModern = document.getElementById('bridge-to-ancient');
+  if (bridgeModern) {
+    bridgeModern.style.left = `${yearToPixel(1891)}px`;
+    bridgeModern.style.display = currentTimelineEra === 'modern' ? 'inline-flex' : 'none';
+  }
+
   const zoomBadge = document.getElementById('timeline-zoom-level');
   if (zoomBadge) {
     zoomBadge.textContent = `Zoom ${timelineZoom.toFixed(1)}x`;
+  }
+}
+
+function switchTimelineEra(newEra) {
+  if (currentTimelineEra === newEra) return;
+  currentTimelineEra = newEra;
+
+  const btnAncient = document.getElementById('btn-era-ancient');
+  const btnModern = document.getElementById('btn-era-modern');
+  if (btnAncient) btnAncient.classList.toggle('is-active', newEra === 'ancient');
+  if (btnModern) btnModern.classList.toggle('is-active', newEra === 'modern');
+
+  const ancientLabels = document.getElementById('labels-group-ancient');
+  const modernLabels = document.getElementById('labels-group-modern');
+  if (ancientLabels) ancientLabels.style.display = newEra === 'ancient' ? 'block' : 'none';
+  if (modernLabels) modernLabels.style.display = newEra === 'modern' ? 'block' : 'none';
+
+  const ancientLanes = document.getElementById('lanes-group-ancient');
+  const modernLanes = document.getElementById('lanes-group-modern');
+  if (ancientLanes) ancientLanes.style.display = newEra === 'ancient' ? 'block' : 'none';
+  if (modernLanes) modernLanes.style.display = newEra === 'modern' ? 'block' : 'none';
+
+  curRibbonX = 0;
+  prevRibbonX = 0;
+  timelineZoom = 1.0;
+
+  renderRulerScale();
+  renderHistoricalSparks();
+  updateTimelineLayout();
+
+  if (typeof updateSynchronousState === 'function') {
+    const initialScreenX = window.innerWidth * 0.35;
+    updateSynchronousState(initialScreenX);
   }
 }
 
@@ -4350,12 +4497,33 @@ function updateSynchronousState(screenX) {
     syncBubble.textContent = currentYear < 0 ? `${Math.abs(currentYear)} av. J.-C.` : `${currentYear} ap. J.-C.`;
 
     const activeCivs = [];
-    if (Array.isArray(CIVILISATIONS_REGISTRY)) {
-      CIVILISATIONS_REGISTRY.forEach(civ => {
-        if (currentYear >= civ.yearStart && currentYear <= civ.yearEnd) {
-          activeCivs.push(civ);
+    if (currentTimelineEra === 'modern') {
+      ART_MOVEMENTS.forEach(mov => {
+        if (mov.lane && mov.lane.startsWith('mod_') && currentYear >= mov.yearStart && currentYear <= mov.yearEnd) {
+          const matchingArts = typeof getArtworksForMovement === 'function' ? getArtworksForMovement(mov) : [];
+          activeCivs.push({
+            id: mov.id,
+            name: mov.name,
+            epoch: `${mov.yearStart} – ${mov.yearEnd}`,
+            themeColor: mov.color,
+            lane: mov.lane,
+            isMovement: true,
+            icon: '✨',
+            presentationHtml: `<p><strong>${escapeHtmlAttr(mov.name)} (${mov.yearStart} – ${mov.yearEnd})</strong><br>${escapeHtmlAttr(mov.definition)}</p><p><strong>Artistes majeurs :</strong> ${escapeHtmlAttr(mov.keyArtists || '')}</p>`,
+            artifacts: matchingArts,
+            bannerImg: matchingArts[0] ? matchingArts[0].imgSrc : '',
+            _mov: mov
+          });
         }
       });
+    } else {
+      if (Array.isArray(CIVILISATIONS_REGISTRY)) {
+        CIVILISATIONS_REGISTRY.forEach(civ => {
+          if (civ.yearStart < 1890 && currentYear >= civ.yearStart && currentYear <= civ.yearEnd) {
+            activeCivs.push(civ);
+          }
+        });
+      }
     }
 
     // Mise en valeur des voies actives de la frise
@@ -4655,6 +4823,24 @@ if (btnTimeZoomReset) {
   btnTimeZoomReset.addEventListener('click', (e) => {
     e.stopPropagation();
     resetTimelineZoom();
+  });
+}
+
+// Écouteurs pour le sélecteur d'ère (Civilisations Mondiales vs Avant-Gardes)
+const btnEraAncient = document.getElementById('btn-era-ancient');
+const btnEraModern = document.getElementById('btn-era-modern');
+
+if (btnEraAncient) {
+  btnEraAncient.addEventListener('click', (e) => {
+    e.stopPropagation();
+    switchTimelineEra('ancient');
+  });
+}
+
+if (btnEraModern) {
+  btnEraModern.addEventListener('click', (e) => {
+    e.stopPropagation();
+    switchTimelineEra('modern');
   });
 }
 

@@ -572,6 +572,20 @@
         </div>
 
         <div class="master-hint-strip">
+          <div class="timeline-era-switcher" id="timeline-era-switcher">
+            <button type="button" class="btn-era-toggle is-active" id="btn-era-ancient" data-era="ancient"
+              title="Afficher la frise des civilisations et empires mondiaux (-3500 à 1890)">
+              <span class="era-icon">🏛️</span>
+              <span class="era-title">Civilisations Mondiales</span>
+              <span class="era-badge">-3500 à 1890</span>
+            </button>
+            <button type="button" class="btn-era-toggle" id="btn-era-modern" data-era="modern"
+              title="Afficher la frise dédiée aux mouvements et avant-gardes (1890 à 2000)">
+              <span class="era-icon">✨</span>
+              <span class="era-title">Avant-Gardes &amp; XXᵉ Siècle</span>
+              <span class="era-badge">1890 à 2000</span>
+            </button>
+          </div>
           <div class="milestones-legend">
             <span class="legend-chip"><span class="legend-dot dot-gold"></span> Chantier / Politique</span>
             <span class="legend-chip"><span class="legend-dot dot-tech"></span> Invention / Technique</span>
@@ -596,31 +610,55 @@
 
         <div id="timeline-split-wrapper">
           <div id="timeline-labels-column">
-            <div class="lane-fixed-label is-double-track" data-lane="europe_ouest">Europe &amp; Gaule</div>
-            <div class="lane-fixed-label is-double-track" data-lane="italie_etrusque">Italie &amp; Étrurie</div>
-            <div class="lane-fixed-label" data-lane="atlantique">Canaries &amp; Îles</div>
-            <div class="lane-fixed-label is-double-track" data-lane="egee">Grèce &amp; Monde Égéen</div>
-            <div class="lane-fixed-label" data-lane="chypre">Chypre antique</div>
-            <div class="lane-fixed-label" data-lane="syrie">Levant &amp; Syrie</div>
-            <div class="lane-fixed-label" data-lane="egypte">Égypte &amp; Nubie</div>
-            <div class="lane-fixed-label is-double-track" data-lane="mesopotamie">Mésopotamie antique</div>
-            <div class="lane-fixed-label" data-lane="iran_perse">Perse &amp; Iran antique</div>
-            <div class="lane-fixed-label is-double-track" data-lane="islam">Mondes de l'Islam</div>
+            <!-- VOIES DU MODE CIVILISATIONS MONDIALES (-3500 à 1890) -->
+            <div id="labels-group-ancient">
+              <div class="lane-fixed-label is-double-track" data-lane="europe_ouest">Europe &amp; Gaule</div>
+              <div class="lane-fixed-label is-double-track" data-lane="italie_etrusque">Italie &amp; Étrurie</div>
+              <div class="lane-fixed-label" data-lane="atlantique">Canaries &amp; Îles</div>
+              <div class="lane-fixed-label is-double-track" data-lane="egee">Grèce &amp; Monde Égéen</div>
+              <div class="lane-fixed-label" data-lane="chypre">Chypre antique</div>
+              <div class="lane-fixed-label" data-lane="syrie">Levant &amp; Syrie</div>
+              <div class="lane-fixed-label" data-lane="egypte">Égypte &amp; Nubie</div>
+              <div class="lane-fixed-label is-double-track" data-lane="mesopotamie">Mésopotamie antique</div>
+              <div class="lane-fixed-label" data-lane="iran_perse">Perse &amp; Iran antique</div>
+              <div class="lane-fixed-label is-double-track" data-lane="islam">Mondes de l'Islam</div>
+            </div>
+
+            <!-- VOIES DU MODE AVANT-GARDES & XXE SIÈCLE (1890 à 2000) -->
+            <div id="labels-group-modern" style="display: none;">
+              <div class="lane-fixed-label is-modern-lane" data-lane="mod_peinture">🎨 Peinture &amp; Formes</div>
+              <div class="lane-fixed-label is-modern-lane" data-lane="mod_subversion">🎭 Subversion &amp; Rêve</div>
+              <div class="lane-fixed-label is-modern-lane" data-lane="mod_geometrie">📐 Géométrie &amp; Design</div>
+              <div class="lane-fixed-label is-modern-lane" data-lane="mod_conceptuel">💡 Concept &amp; Ready-Made</div>
+              <div class="lane-fixed-label is-modern-lane" data-lane="mod_pop_masse">💥 Pop Art &amp; Société</div>
+            </div>
             <div class="timeline-lane-spacer"></div>
           </div>
 
           <div id="master-drag-container">
             <div id="master-ribbon">
-              <div class="timeline-lane is-double-track" data-lane="europe_ouest"></div>
-              <div class="timeline-lane is-double-track" data-lane="italie_etrusque"></div>
-              <div class="timeline-lane" data-lane="atlantique"></div>
-              <div class="timeline-lane is-double-track" data-lane="egee"></div>
-              <div class="timeline-lane" data-lane="chypre"></div>
-              <div class="timeline-lane" data-lane="syrie"></div>
-              <div class="timeline-lane" data-lane="egypte"></div>
-              <div class="timeline-lane is-double-track" data-lane="mesopotamie"></div>
-              <div class="timeline-lane" data-lane="iran_perse"></div>
-              <div class="timeline-lane is-double-track" data-lane="islam"></div>
+              <!-- VOIES DU MODE CIVILISATIONS MONDIALES -->
+              <div id="lanes-group-ancient">
+                <div class="timeline-lane is-double-track" data-lane="europe_ouest"></div>
+                <div class="timeline-lane is-double-track" data-lane="italie_etrusque"></div>
+                <div class="timeline-lane" data-lane="atlantique"></div>
+                <div class="timeline-lane is-double-track" data-lane="egee"></div>
+                <div class="timeline-lane" data-lane="chypre"></div>
+                <div class="timeline-lane" data-lane="syrie"></div>
+                <div class="timeline-lane" data-lane="egypte"></div>
+                <div class="timeline-lane is-double-track" data-lane="mesopotamie"></div>
+                <div class="timeline-lane" data-lane="iran_perse"></div>
+                <div class="timeline-lane is-double-track" data-lane="islam"></div>
+              </div>
+
+              <!-- VOIES DU MODE AVANT-GARDES & XXE SIÈCLE -->
+              <div id="lanes-group-modern" style="display: none;">
+                <div class="timeline-lane is-modern-lane" data-lane="mod_peinture"></div>
+                <div class="timeline-lane is-modern-lane" data-lane="mod_subversion"></div>
+                <div class="timeline-lane is-modern-lane" data-lane="mod_geometrie"></div>
+                <div class="timeline-lane is-modern-lane" data-lane="mod_conceptuel"></div>
+                <div class="timeline-lane is-modern-lane" data-lane="mod_pop_masse"></div>
+              </div>
               <div class="timeline-lane-spacer"></div>
             </div>
           </div>

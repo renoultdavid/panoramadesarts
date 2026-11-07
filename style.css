@@ -2596,15 +2596,141 @@ body {
   height: 26px !important;
 }
 
+/* SÉLECTEUR DE MODE DE FRISE (CIVILISATIONS vs AVANT-GARDES) */
+.timeline-era-switcher {
+  display: inline-flex;
+  align-items: center;
+  background: rgba(14, 18, 26, 0.95);
+  border: 1px solid rgba(212, 175, 55, 0.35);
+  border-radius: 20px;
+  padding: 2px 4px;
+  gap: 4px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
+}
+
+.btn-era-toggle {
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 16px;
+  padding: 4px 12px;
+  color: var(--text-muted);
+  font-family: 'Cinzel', serif;
+  font-size: 0.65rem;
+  letter-spacing: 0.8px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  user-select: none;
+}
+
+.btn-era-toggle:hover {
+  color: #ffffff;
+  border-color: rgba(212, 175, 55, 0.3);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.btn-era-toggle.is-active {
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.28) 0%, rgba(212, 175, 55, 0.12) 100%);
+  border-color: var(--gold-pure, #d4af37);
+  color: #ffffff;
+  box-shadow: 0 0 10px rgba(212, 175, 55, 0.35);
+}
+
+.btn-era-toggle .era-icon {
+  font-size: 0.8rem;
+}
+
+.btn-era-toggle .era-badge {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 0.72rem;
+  font-style: italic;
+  color: var(--gold-pale);
+  opacity: 0.85;
+}
+
+.btn-era-toggle.is-active .era-badge {
+  color: #ffffff;
+  opacity: 1;
+}
+
+/* VOIES SPÉCIFIQUES AVANT-GARDES & XXE SIÈCLE */
+.timeline-lane.is-modern-lane,
+.lane-fixed-label.is-modern-lane {
+  height: 64px !important;
+  min-height: 64px !important;
+}
+
+.lane-fixed-label.is-modern-lane {
+  font-family: 'Cinzel', serif;
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.9px;
+  color: var(--gold-pale);
+  border-bottom: 1px solid rgba(212, 175, 55, 0.15);
+  display: flex;
+  align-items: center;
+  padding-left: 14px;
+}
+
+.timeline-lane.is-modern-lane {
+  border-bottom: 1px solid rgba(212, 175, 55, 0.12);
+  background: rgba(255, 255, 255, 0.015);
+}
+
+.timeline-lane.is-modern-lane .sub-movement-timespan-bar {
+  display: flex !important;
+}
+
+.timeline-lane.is-modern-lane .sub-movement-timespan-bar.tier-0 {
+  top: 6px !important;
+}
+
+.timeline-lane.is-modern-lane .sub-movement-timespan-bar.tier-1 {
+  top: 34px !important;
+}
+
+/* PONTS DE TRANSITION CHRONOLOGIQUES */
+.timeline-era-bridge-card {
+  position: absolute;
+  top: 5px;
+  height: 26px;
+  border-radius: 20px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 14px;
+  cursor: pointer;
+  z-index: 30;
+  font-family: 'Cinzel', serif;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  color: #ffffff;
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.35) 0%, rgba(212, 175, 55, 0.15) 100%);
+  border: 1.5px solid var(--gold-pure, #d4af37);
+  box-shadow: 0 0 15px rgba(212, 175, 55, 0.4);
+  transition: all 0.25s ease;
+  user-select: none;
+  white-space: nowrap;
+}
+
+.timeline-era-bridge-card:hover {
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.6) 0%, rgba(212, 175, 55, 0.3) 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(212, 175, 55, 0.6);
+}
+
 /* SOUS-BARRES DE MOUVEMENTS DÉMULTIPLIÉES VERTICALEMENT (PILIER 3) */
 .timeline-lane.has-submovements-expanded {
-  height: 112px !important;
-  min-height: 112px !important;
+  height: 84px !important;
+  min-height: 84px !important;
 }
 
 .lane-fixed-label.has-submovements-expanded {
-  height: 112px !important;
-  min-height: 112px !important;
+  height: 84px !important;
+  min-height: 84px !important;
 }
 
 .sub-movement-timespan-bar {
