@@ -208,6 +208,7 @@ function getArtDomainIcon(domain) {
   if (d.includes('mosaique') || d.includes('relief')) return '🏛️';
   if (d.includes('ivoire') || d.includes('bois')) return '🪵';
   if (d.includes('arme') || d.includes('militaire') || d.includes('bouclier')) return '⚔️';
+  if (d.includes('livre') || d.includes('manuscrit') || d.includes('codex') || d.includes('incunable')) return '📖';
   return '💎';
 }
 
@@ -756,6 +757,19 @@ const ART_MOVEMENTS = [
     definition: "Mouvement célébrant et détournant avec ironie l'imagerie populaire des médias de masse, de la publicité et de la consommation industrielle par la sérigraphie, le collage et les accumulations d'objets réels.",
     filterKeyword: "pop art"
   },
+  {
+    id: "mov_art_conceptuel",
+    parentCivId: "occ_xxe_moderne",
+    lane: "europe_ouest",
+    name: "Art Conceptuel & Ready-made",
+    yearStart: 1913,
+    yearEnd: 1978,
+    tier: 0,
+    color: "#8b5cf6",
+    keyArtists: "Marcel Duchamp, Arman, Joseph Kosuth, Sol LeWitt, Piero Manzoni",
+    definition: "Révolution esthétique radicale affirmant que l'idée, le concept et le choix de l'artiste priment sur l'exécution matérielle, initiée par l'invention du ready-made par Marcel Duchamp et développée par le Nouveau Réalisme et l'art conceptuel.",
+    filterKeyword: "conceptuel"
+  },
 
   // --- OCCIDENT XIXe SIÈCLE (lane: europe_ouest) ---
   {
@@ -1175,7 +1189,9 @@ const BANNERS_REGISTRY = {
   occ_cloitre: "https://lh3.googleusercontent.com/pw/AP1GczOFyKkksjiJ30bePVHIjD83HKI5G_xH1UXgnxJ00Bs5v6ylXlbDZumeeNXuoMScZV-P8ucOnWv7bCGgmzrccfhsFKUjEEOtz-5qFBb1kVVkK2Y0f1gph7TCFMCf0P3w3leD6GGtDVeM_SUd_w-1WXGmvw=w1742-h740-s-no-gm?authuser=0",
   occ_roman: "https://lh3.googleusercontent.com/pw/AP1GczOFyKkksjiJ30bePVHIjD83HKI5G_xH1UXgnxJ00Bs5v6ylXlbDZumeeNXuoMScZV-P8ucOnWv7bCGgmzrccfhsFKUjEEOtz-5qFBb1kVVkK2Y0f1gph7TCFMCf0P3w3leD6GGtDVeM_SUd_w-1WXGmvw=w1742-h740-s-no-gm?authuser=0",
   occ_nef: "https://lh3.googleusercontent.com/pw/AP1GczNkfhhZc46ccjVqBWq4p8tLyx95_T1fFFR5cf0yrOtH_5xubpuC8OwbWVBnJlt1FqiFMRUZhaI2-Hoc4yi3qlKy4hsojZMmNjPV4sIjW0HcWoZ9ukMlMv2Um74mranBpSO8RT6qpS75_R0eiA6AGa90EA=w1584-h672-s-no-gm?authuser=0",
-  occ_plafond: "https://lh3.googleusercontent.com/pw/AP1GczPh1p3dhk29p-uf_ba8faiJz8m_-XCpWiOVAn0esoiX-7iZB2gqrSsQfRKgSVZMi03-kSIWJci0ttuKetFzSb0Iw2LzCcsv4GUdE-OTRknnMTp5kQjtN7h10G6rT2Us9SGP68XDvoPBW7fTn-0j6FwBdA=w1724-h731-s-no-gm?authuser=0"
+  occ_plafond: "https://lh3.googleusercontent.com/pw/AP1GczPh1p3dhk29p-uf_ba8faiJz8m_-XCpWiOVAn0esoiX-7iZB2gqrSsQfRKgSVZMi03-kSIWJci0ttuKetFzSb0Iw2LzCcsv4GUdE-OTRknnMTp5kQjtN7h10G6rT2Us9SGP68XDvoPBW7fTn-0j6FwBdA=w1724-h731-s-no-gm?authuser=0",
+  occ_conceptuel: "https://lh3.googleusercontent.com/pw/AP1GczNFrnkU0CB_dyE9L9kLg4n4k3yz2MdGR99oZnTYNwONOOI50XSJFO35HAXs96VEqGpyioETNaU1Ca-jT4-s0kIkQ5_M3GfgH2P72zkEaggGGwp0M3gRyjwKyZraq8aKbNc7O85Lyx1Rc-uh1NHJZGIfJQ=w1724-h731-s-no-gm?authuser=0",
+  occ_livre: "https://lh3.googleusercontent.com/pw/AP1GczPAQ7fZcYAGY0QxJE9AZT4mNvgVg2uH-UezlC7DMeTje_QzQjLi_4u1ok0Nh2oExbARCeDvW2hxGNKrVA6GG6DL30GhfxR7khAtfKlJGI2PbPDNLAQ3GEraSF-wc2mpRfkyZtLLpYPdKnizWiTE9ng2zA=w1724-h731-s-no-gm?authuser=0"
 };
 
 function getArtworkBanner(art) {
@@ -1314,6 +1330,16 @@ function getArtworkBanner(art) {
   }
   if (fullText.includes('cloître') || fullText.includes('cloitre') || pId === 'occ_roman' || (cId === 'occident' && (fullText.includes('portail') || fullText.includes('tympan') || fullText.includes('voûte')))) {
     return BANNERS_REGISTRY.occ_cloitre;
+  }
+
+  // 13. ART CONCEPTUEL & READY-MADE (XXe SIÈCLE)
+  if (fullText.includes('conceptuel') || fullText.includes('ready-made') || fullText.includes('duchamp') || fullText.includes('porte-bouteille') || (fullText.includes('arman') && fullText.includes('accumulation'))) {
+    return BANNERS_REGISTRY.occ_conceptuel;
+  }
+
+  // 14. ARTS DU LIVRE, MANUSCRITS, ENLUMINURES & IMPRIMÉS
+  if (art.domain === "art_du_livre" || aType.includes("manuscrit") || aType.includes("livre") || aType.includes("codex") || aType.includes("incunable") || aType.includes("ostracon") || fullText.includes('gutenberg') || fullText.includes('enlumin') || fullText.includes('nag hammadi') || fullText.includes('folio de shakespeare')) {
+    return BANNERS_REGISTRY.occ_livre;
   }
 
   // 7. Si l'objet a déjà son propre bandeau spécifique personnalisé (ex: Égypte, Canaries, Chypre, Celte)
@@ -2926,7 +2952,8 @@ const DOMAIN_ICONS = {
   funeraire: "⚱️",
   parures_metaux: "👑",
   espace_sacre: "🏛️",
-  vie_quotidienne: "📜"
+  vie_quotidienne: "📜",
+  art_du_livre: "📖"
 };
 
 // Liaison sélective : sélection typologique équilibrée par grands domaines (sculpture, peinture, céramique, funéraire, orfèvrerie)
@@ -2939,6 +2966,7 @@ window.addEventListener('DOMContentLoaded', () => {
       "funeraire",
       "parures_metaux",
       "espace_sacre",
+      "art_du_livre",
       "vie_quotidienne"
     ];
 
@@ -6381,16 +6409,27 @@ const TAXONOMY_DOMAINS = {
   "sculpture_statuaire": {
     label: "Sculpture & Statuaire",
     types: [
+      "Assemblage & Sculpture moderne",
       "Bas-relief & Relief en creux",
       "Chapiteau-stèle votif / Relief biface",
       "Décor architectural (fronton, frise, métope, chapiteau)",
       "Figurine votive / Ex-voto", "Frise en briques émaillées",
       "Idole & Statuaire cycladique (marbre)",
       "Monolithe / Stèle sculptée",
+      "Ready-made & Art conceptuel",
       "Sculpture monumentale / Cuve de libation",
       "Sculpture monumentale extérieure (fontaine, calvaire, moaï)",
       "Statuaire animale & gardienne (ronde-bosse)", "Statuaire privée & portraits", "Statuaire royale & divine (ronde-bosse)",
       "Alignement mégalithique", "Cromlech / Enceinte mégalithique", "Menhir / Monolithe dressé", "Statue-menhir anthropomorphe"
+    ]
+  },
+  "art_du_livre": {
+    label: "Arts du Livre, Manuscrits & Typographie",
+    types: [
+      "Document liturgique & Partition musicale",
+      "Incunable & Livre imprimé ancien",
+      "Manuscrit enluminé & Codex",
+      "Ostracon & Archéologie de l'écrit"
     ]
   },
   "vie_quotidienne": {

@@ -454,6 +454,18 @@ window.ART_TYPOLOGY_DEFINITIONS = {
   },
 
   // --- SCULPTURE & STATUAIRE ---
+  "Ready-made & Art conceptuel": {
+    title: "Ready-made & Art conceptuel",
+    etymology: "De l'anglais ready-made, « tout fait, manufacturé »",
+    domain: "Avant-gardes & Art moderne",
+    def: "Révolution esthétique initiée en 1913 par Marcel Duchamp consistant à choisir un objet manufacturé usuel (roue de bicyclette, égouttoir à bouteilles, urinoir) et à l'élever au rang d'œuvre d'art par la seule décision mentale et le déplacement de contexte opéré par l'artiste, déplaçant l'essence de l'art du savoir-faire artisanal vers l'idée et le concept pur."
+  },
+  "Assemblage & Sculpture moderne": {
+    title: "Assemblage & Sculpture moderne",
+    etymology: "Accumulation et découpe d'objets du quotidien",
+    domain: "Nouveau Réalisme & Sculpture contemporaine",
+    def: "Démarche sculpturale (Nouveau Réalisme, Arman, César) utilisant des objets industriels et du quotidien fragmentés, découpés, compressés ou accumulés en série (souvent enfermés sous boîte vitrée ou plexiglas) pour révéler leur structure interne, leur rythme plastique et interroger la société de consommation."
+  },
   "Bas-relief & Relief en creux": {
     title: "Bas-relief & Relief dans le creux",
     etymology: "Sculpture murale en faible saillie ou en intaille",
@@ -644,6 +656,32 @@ window.ART_TYPOLOGY_DEFINITIONS = {
     domain: "Peinture funéraire de Paestum & Grande-Grèce",
     def: "Dalle de pierre peinte à la détrempe ornant les parois internes des tombes à caisson lucaniennes et paestanes, illustrant les rites d'adieu (prothesis), les combats guerriers et les jeux funéraires équestres (quadriges, biges)."
   },
+
+  // --- ARTS DU LIVRE, MANUSCRITS & TYPOGRAPHIE ---
+  "Manuscrit enluminé & Codex": {
+    title: "Manuscrit enluminé & Codex",
+    etymology: "Du latin manu scriptus (« écrit à la main ») et illuminare (« illuminer, faire briller »)",
+    domain: "Arts du Livre & Scriptoria",
+    def: "Ouvrage manuscrit sur papyrus ou parchemin assemblé en cahiers cousus (codex), calligraphié à la main et magnifié par des enlumineurs avec des pigments précieux (lapis-lazuli, cinabre) et des feuilles d'or pour orner lettrines historiées, miniatures et encadrements marginaux."
+  },
+  "Incunable & Livre imprimé ancien": {
+    title: "Incunable & Livre imprimé ancien",
+    etymology: "Du latin incunabula (« berceau, origines de l'imprimé »)",
+    domain: "Histoire du Livre & Typographie",
+    def: "Ouvrage imprimé en caractères typographiques mobiles métalliques fondus depuis la révolution de Johannes Gutenberg à Mayence (vers 1450-1455) jusqu'à la fin de l'an 1500 (incunable), ou édition princeps humaniste et scientifique illustrée de gravures sur bois ou cuivre des XVIe-XVIIIe siècles."
+  },
+  "Document liturgique & Partition musicale": {
+    title: "Document liturgique & Partition musicale",
+    etymology: "Du grec leitourgia (« célébration sacrée ») et partition",
+    domain: "Liturgie & Musicologie sacrée",
+    def: "Grand manuscrit d'autel ou de chœur (missel pontifical, graduel, antiphonaire) présentant les prières du culte (Canon de la messe, Te igitur) et des portées à quatre ou cinq lignes rouges recevant la notation neumatique et carrée pour le chant liturgique et polyphonique."
+  },
+  "Ostracon & Archéologie de l'écrit": {
+    title: "Ostracon & Écrit sur tesson",
+    etymology: "Du grec óstrakon (« coquille, tesson de poterie »)",
+    domain: "Épigraphie & Archéologie de l'écrit",
+    def: "Éclat de calcaire ou tesson de céramique utilisé dans l'Antiquité et l'Égypte chrétienne copte comme support d'écriture économique et abondant pour rédiger lettres familières, quittances fiscales, exercices d'écoliers, ordonnances et prières liturgiques."
+  }
 };
 
 // 2. Dictionnaire des termes techniques, iconographiques et architecturaux (détectés automatiquement dans les notices)
