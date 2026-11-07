@@ -113,11 +113,11 @@ const HISTORICAL_MILESTONES = [
 let currentTimelineEra = 'ancient'; // 'ancient' (-3500 à 1890) ou 'modern' (1890 à 2000)
 
 function getYearMin() {
-  return currentTimelineEra === 'modern' ? 1890 : -3500;
+  return currentTimelineEra === 'modern' ? 1000 : -3500;
 }
 
 function getYearMax() {
-  return currentTimelineEra === 'modern' ? 2000 : 1890;
+  return 2000;
 }
 
 function getTotalYears() {
@@ -125,7 +125,7 @@ function getTotalYears() {
 }
 
 function getBaseUsableWidth() {
-  return currentTimelineEra === 'modern' ? 3200 : 4900;
+  return currentTimelineEra === 'modern' ? 4800 : 5600;
 }
 
 let timelineZoom = 1.0; // Niveau de dilatation temporelle (de 0.4x à 15.0x)
@@ -172,9 +172,23 @@ function renderRulerScale() {
   const yMax = getYearMax();
 
   if (currentTimelineEra === 'modern') {
-    let step = 1;
-    let majorStep = 10;
-    let mediumStep = 5;
+    let step = 10;
+    let majorStep = 50;
+    let mediumStep = 25;
+
+    if (timelineZoom < 0.75) {
+      step = 25;
+      majorStep = 100;
+      mediumStep = 50;
+    } else if (timelineZoom < 2.0) {
+      step = 10;
+      majorStep = 50;
+      mediumStep = 25;
+    } else {
+      step = 5;
+      majorStep = 25;
+      mediumStep = 10;
+    }
 
     for (let y = yMin; y <= yMax; y += step) {
       const isMajor = (y % majorStep === 0);
@@ -185,7 +199,7 @@ function renderRulerScale() {
       tick.style.left = `${yearToPixel(y)}px`;
       frag.appendChild(tick);
 
-      if (isMajor || (isMedium && timelineZoom >= 1.0)) {
+      if (isMajor || (isMedium && timelineZoom >= 1.2)) {
         const label = document.createElement('div');
         label.className = `ruler-label ${isMajor ? 'major-label' : ''}`;
         label.style.left = `${yearToPixel(y)}px`;
@@ -735,7 +749,180 @@ function renderHistoricalSparks() {
    PILIER 3 : DILATATION MULTI-ÉCHELLES & MOUVEMENTS ARTISTIQUES EN SOUS-BARRES
    ========================================================================== */
 const ART_MOVEMENTS = [
-  // --- OCCIDENT XXe SIÈCLE (FRISE DÉDIÉE DES AVANT-GARDES : 1890 à 2000) ---
+  // =========================================================================
+  // VOIE 1 : mod_peinture (🎨 PEINTURE & GRANDS COURANTS : 1000 à 2000)
+  // =========================================================================
+  {
+    id: "mov_giotto_trecento",
+    parentCivId: "occ_gothique",
+    lane: "mod_peinture",
+    name: "Trecento & Révolution de Giotto",
+    yearStart: 1290,
+    yearEnd: 1400,
+    tier: 0,
+    color: "#38bdf8",
+    keyArtists: "Giotto di Bondone, Duccio di Buoninsegna, Simone Martini, Ambrogio Lorenzetti, Buffalmacco",
+    definition: "Rupture fondatrice avec le hiératisme byzantin à Florence, Padoue et Sienne : Giotto invente l'espace tridimensionnel, l'expressivité humaine, les raccourcis anatomiques et l'émotion profane.",
+    filterKeyword: "trecento"
+  },
+  {
+    id: "mov_quattrocento",
+    parentCivId: "occ_renaissance",
+    lane: "mod_peinture",
+    name: "Quattrocento & Perspective florentine",
+    yearStart: 1400,
+    yearEnd: 1490,
+    tier: 1,
+    color: "#ea580c",
+    keyArtists: "Masaccio, Fra Angelico, Sandro Botticelli, Paolo Uccello, Piero della Francesca",
+    definition: "Berceau de la Renaissance à Florence, marqué par la redécouverte des proportions antiques, la théorisation mathématique de la perspective linéaire par Brunelleschi et Alberti et l'affirmation de la dignité humaine.",
+    filterKeyword: "quattrocento"
+  },
+  {
+    id: "mov_primitifs_flamands",
+    parentCivId: "occ_renaissance",
+    lane: "mod_peinture",
+    name: "Primitifs flamands & Peinture à l'huile",
+    yearStart: 1420,
+    yearEnd: 1510,
+    tier: 0,
+    color: "#059669",
+    keyArtists: "Jan van Eyck, Rogier van der Weyden, Robert Campin, Hans Memling, Jérôme Bosch",
+    definition: "Révolution nordique de la peinture à l'huile aux Flandres : translucidité des glacis, lumière microscopique, précision tactile des matières et dévotion fervente.",
+    filterKeyword: "flamand"
+  },
+  {
+    id: "mov_haute_renaissance",
+    parentCivId: "occ_renaissance",
+    lane: "mod_peinture",
+    name: "Haute Renaissance",
+    yearStart: 1490,
+    yearEnd: 1527,
+    tier: 1,
+    color: "#ca8a04",
+    keyArtists: "Léonard de Vinci, Raphaël, Michel-Ange, Giorgione, Titien, Albrecht Dürer",
+    definition: "Apogée classique de l'art occidental entre Rome, Florence et Venise : monumentalité souveraine, sfumato atmosphérique, équilibre pyramidal et colorisme vénitien.",
+    filterKeyword: "renaissance"
+  },
+  {
+    id: "mov_manierisme",
+    parentCivId: "occ_renaissance",
+    lane: "mod_peinture",
+    name: "Maniérisme européen",
+    yearStart: 1520,
+    yearEnd: 1600,
+    tier: 0,
+    color: "#0d9488",
+    keyArtists: "Agnolo Bronzino, Jacopo Pontormo, Le Parmesan, Le Tintoret, Le Greco",
+    definition: "Courant sophistiqué né au lendemain du sac de Rome (1527), caractérisé par l'élongation serpentine des corps (figura serpentinata), l'irréalité spatiale et des coloris acides traduisant l'angoisse et l'artifice.",
+    filterKeyword: "maniérisme"
+  },
+  {
+    id: "mov_baroque_caravagisme",
+    parentCivId: "occ_baroque_classique",
+    lane: "mod_peinture",
+    name: "Baroque & Ténébrisme caravagesque",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczOI-kaE5mOicZKJP4DR9jrt7RG2tnK6JeklA0CxKn9JDetuCbebtb7pUdYzFvTcJ0u6OElMqgpPX80vhi5WkRsrMqRO8nDg10K7r_9NQJocRIfSR1f0D8Vpg5PXSUVOKxDuPnDiEevoSi4gqIZqko1ubg=w1660-h704-s-no-gm?authuser=0",
+    yearStart: 1595,
+    yearEnd: 1660,
+    tier: 1,
+    color: "#b45309",
+    keyArtists: "Le Caravage, Artemisia Gentileschi, Georges de La Tour, Rembrandt, Pierre Paul Rubens, Diego Vélasquez",
+    definition: "Séisme baroque refusant l'idéalisation classique pour imposer un réalisme cru, le choc dramatique du clair-obscur (ténébrisme) et une intensité psychologique universelle.",
+    filterKeyword: "caravage"
+  },
+  {
+    id: "mov_classicisme",
+    parentCivId: "occ_baroque_classique",
+    lane: "mod_peinture",
+    name: "Grand Siècle & Classicisme français",
+    yearStart: 1630,
+    yearEnd: 1715,
+    tier: 0,
+    color: "#2563eb",
+    keyArtists: "Nicolas Poussin, Claude Lorrain, Charles Le Brun, Philippe de Champaigne",
+    definition: "Triomphe de la raison, de la mesure et de la clarté sous Louis XIV. Harmonie des paysages héroïques, rigueur du dessin, sujets moraux et fondation de l'Académie royale.",
+    filterKeyword: "classicisme"
+  },
+  {
+    id: "mov_rococo",
+    parentCivId: "occ_xviiie",
+    lane: "mod_peinture",
+    name: "Rococo & Fêtes galantes",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczMlC03xq_KqjbDxQowX59mwY1pGkkhLuRpKT7ieme0v19Zt96wtTw_E5o2er6cEgtIYZgnm8AIrlp4DXWTZmeitzVyGd3SzLVqOhJhBcFxkvaq-hwkXRGCfeUKROvTX7oFfExehLunkQoDFIhRdXFPw1Q=w1660-h704-s-no-gm?authuser=0",
+    yearStart: 1715,
+    yearEnd: 1775,
+    tier: 1,
+    color: "#ec4899",
+    keyArtists: "François Boucher, Jean-Honoré Fragonard, Jean-Antoine Watteau, Canaletto, Jean-Siméon Chardin",
+    definition: "Légèreté, grâce et sensualité du siècle de Louis XV et des Lumières : pastorales enchantées, courbes asymétriques, tons poudrés et védutisme vénitien.",
+    filterKeyword: "rococo"
+  },
+  {
+    id: "mov_neoclassicisme",
+    parentCivId: "occ_xixe",
+    lane: "mod_peinture",
+    name: "Néoclassicisme & Révolution",
+    yearStart: 1770,
+    yearEnd: 1830,
+    tier: 0,
+    color: "#dc2626",
+    keyArtists: "Jacques-Louis David, Jean-Auguste-Dominique Ingres, Girodet, Alexandre Cabanel",
+    definition: "Retour à la vertu civique et à la sévérité antique sous la Révolution et l'Empire : primat du contour pur, composition en frise et grandeur stoïcienne.",
+    filterKeyword: "néoclassicisme"
+  },
+  {
+    id: "mov_romantisme",
+    parentCivId: "occ_xixe",
+    lane: "mod_peinture",
+    name: "Romantisme",
+    yearStart: 1800,
+    yearEnd: 1850,
+    tier: 1,
+    color: "#e11d48",
+    keyArtists: "Eugène Delacroix, Théodore Géricault, Caspar David Friedrich, William Turner, Francisco de Goya",
+    definition: "Primat absolu de la passion, du tumulte des sentiments, du sublime de la nature et de la quête de liberté face à l'ordre néoclassique.",
+    filterKeyword: "romantisme"
+  },
+  {
+    id: "mov_realisme",
+    parentCivId: "occ_xixe",
+    lane: "mod_peinture",
+    name: "Réalisme & Barbizon",
+    yearStart: 1848,
+    yearEnd: 1875,
+    tier: 0,
+    color: "#78350f",
+    keyArtists: "Gustave Courbet, Honoré Daumier, Jean-François Millet, Camille Corot",
+    definition: "Né des révolutions de 1848, le réalisme affirme le devoir de l'artiste de peindre fidèlement les réalités contemporaines et le monde du travail paysan et ouvrier sans idéalisation mythologique ni héroïsation artificielle.",
+    filterKeyword: "réalisme"
+  },
+  {
+    id: "mov_impressionnisme",
+    parentCivId: "occ_xixe",
+    lane: "mod_peinture",
+    name: "Impressionnisme",
+    yearStart: 1872,
+    yearEnd: 1886,
+    tier: 1,
+    color: "#0284c7",
+    keyArtists: "Claude Monet, Pierre-Auguste Renoir, Edgar Degas, Camille Pissarro, Gustave Caillebotte, Eugène Boudin, Berthe Morisot",
+    definition: "Révolution de la peinture de plein air rejetant l'académisme des Salons officiels pour saisir les variations instantanées de la lumière naturelle et des reflets de l'eau par des touches fragmentées de couleurs pures juxtaposées.",
+    filterKeyword: "impressionnisme"
+  },
+  {
+    id: "mov_symbolisme",
+    parentCivId: "occ_xixe",
+    lane: "mod_peinture",
+    name: "Post-Impressionnisme & Symbolisme",
+    yearStart: 1886,
+    yearEnd: 1905,
+    tier: 0,
+    color: "#7c3aed",
+    keyArtists: "Paul Cézanne, Vincent van Gogh, Paul Gauguin, Georges Seurat, Odilon Redon",
+    definition: "Réaction contre le matérialisme impressionniste explorant la dimension spirituelle, le mythe et les correspondances poétiques de l'âme, tout en jetant les bases structurales de l'art moderne (Cézanne et Gauguin).",
+    filterKeyword: "symbolisme"
+  },
   {
     id: "mov_fauvisme",
     parentCivId: "occ_xxe_moderne",
@@ -743,7 +930,7 @@ const ART_MOVEMENTS = [
     name: "Fauvisme",
     yearStart: 1904,
     yearEnd: 1908,
-    tier: 0,
+    tier: 1,
     color: "#f59e0b",
     keyArtists: "Henri Matisse, André Derain, Maurice de Vlaminck",
     definition: "Mouvement d'avant-garde caractérisé par l'émancipation totale de la couleur pure, appliquée en aplats violents et lumineux sans souci du réalisme imitatif, inauguré au Salon d'Automne de 1905 (« la cage aux fauves »).",
@@ -757,7 +944,7 @@ const ART_MOVEMENTS = [
     bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczMA3QhdmAe2AgBsSr69Z7B7hpCZuVFX4Wm2DPVzjTRujslDhVMAu_CIfBw6QodiB8qO74bxaxb1kMDK8OEKGPjMsfO966S6g-1fjflgSnaL7MpKEiL-PUc2RsruZtua4p2S1eE0fQQs6CqzAbyvk2zU2g=w1660-h704-s-no-gm?authuser=0",
     yearStart: 1907,
     yearEnd: 1919,
-    tier: 1,
+    tier: 0,
     color: "#06b6d4",
     keyArtists: "Pablo Picasso, Georges Braque, Juan Gris",
     definition: "Révolution esthétique initiée avec Les Demoiselles d'Avignon. Rompant avec la perspective illusionniste classique, le cubisme décompose les volumes en facettes géométriques et superpose simultanément plusieurs points de vue sur une surface plane.",
@@ -766,11 +953,11 @@ const ART_MOVEMENTS = [
   {
     id: "mov_dada",
     parentCivId: "occ_xxe_moderne",
-    lane: "mod_subversion",
+    lane: "mod_peinture",
     name: "Dadaïsme",
     yearStart: 1916,
     yearEnd: 1924,
-    tier: 0,
+    tier: 1,
     color: "#ef4444",
     keyArtists: "Marcel Duchamp, Jean Arp, Tristan Tzara, Man Ray",
     definition: "Mouvement international d'insoumission né à Zurich pendant la Grande Guerre, contestant avec dérision les fondements moraux et artistiques de la société bourgeoise à travers le scandale, le hasard et l'invention du ready-made.",
@@ -779,39 +966,25 @@ const ART_MOVEMENTS = [
   {
     id: "mov_surrealisme",
     parentCivId: "occ_xxe_moderne",
-    lane: "mod_subversion",
+    lane: "mod_peinture",
     name: "Surréalisme",
     bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczNncCSU6eI6kLKq7IOVLdEU4ZXP9nHzpY012Nws8P9qcKz-fiA7D0M1A07T0NS_b9lrSnqS6NqyUdHtI8KSPi-Jejbp5QsmSNKbFlO7r3ChiZovtS4RAXNF5EL-P3LpWwCryrlWotAuW3oyAE5KchnzbQ=w1660-h704-s-no-gm?authuser=0",
     yearStart: 1924,
     yearEnd: 1969,
-    tier: 1,
+    tier: 0,
     color: "#a855f7",
-    keyArtists: "Salvador Dalí, René Magritte, Max Ernst, Joan Miró",
+    keyArtists: "Salvador Dalí, René Magritte, Max Ernst, Joan Miró, Victor Brauner",
     definition: "Fondé par le Manifeste d'André Breton, le surréalisme explore la toute-puissance du rêve, l'automatisme psychique pur et les mystères de l'inconscient en libérant la création des entraves de la logique rationnelle.",
     filterKeyword: "surréalisme"
   },
   {
-    id: "mov_art_conceptuel",
-    parentCivId: "occ_xxe_moderne",
-    lane: "mod_conceptuel",
-    name: "Art Conceptuel & Ready-made",
-    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczNFrnkU0CB_dyE9L9kLg4n4k3yz2MdGR99oZnTYNwONOOI50XSJFO35HAXs96VEqGpyioETNaU1Ca-jT4-s0kIkQ5_M3GfgH2P72zkEaggGGwp0M3gRyjwKyZraq8aKbNc7O85Lyx1Rc-uh1NHJZGIfJQ=w1660-h704-s-no-gm?authuser=0",
-    yearStart: 1913,
-    yearEnd: 1978,
-    tier: 0,
-    color: "#8b5cf6",
-    keyArtists: "Marcel Duchamp, Arman, Joseph Kosuth, Sol LeWitt, Piero Manzoni",
-    definition: "Révolution esthétique radicale affirmant que l'idée, le concept et le choix de l'artiste priment sur l'exécution matérielle, initiée par l'invention du ready-made par Marcel Duchamp et développée par le Nouveau Réalisme et l'art conceptuel.",
-    filterKeyword: "conceptuel"
-  },
-  {
     id: "mov_expressionnisme_abstrait",
     parentCivId: "occ_xxe_moderne",
-    lane: "mod_pop_masse",
+    lane: "mod_peinture",
     name: "Expressionnisme Abstrait",
     yearStart: 1943,
     yearEnd: 1965,
-    tier: 0,
+    tier: 1,
     color: "#10b981",
     keyArtists: "Jackson Pollock, Mark Rothko, Willem de Kooning",
     definition: "Premier grand mouvement artistique américain d'après-guerre (École de New York), divisé entre l'énergie gestuelle de l'Action Painting (dripping de Pollock) et la contemplation mystique des aplats vibrants du Color Field (Rothko).",
@@ -820,113 +993,306 @@ const ART_MOVEMENTS = [
   {
     id: "mov_pop_art",
     parentCivId: "occ_xxe_moderne",
-    lane: "mod_pop_masse",
+    lane: "mod_peinture",
     name: "Pop Art & Nouveau Réalisme",
     yearStart: 1956,
     yearEnd: 1975,
-    tier: 1,
+    tier: 0,
     color: "#ec4899",
-    keyArtists: "Andy Warhol, Roy Lichtenstein, Yves Klein, César",
+    keyArtists: "Andy Warhol, Roy Lichtenstein, Yves Klein, Arman, César",
     definition: "Mouvement célébrant et détournant avec ironie l'imagerie populaire des médias de masse, de la publicité et de la consommation industrielle par la sérigraphie, le collage et les accumulations d'objets réels.",
     filterKeyword: "pop art"
   },
-
-  // --- OCCIDENT XIXe SIÈCLE (lane: europe_ouest) ---
   {
-    id: "mov_romantisme",
-    parentCivId: "occ_xixe",
-    lane: "europe_ouest",
-    name: "Romantisme",
-    yearStart: 1800,
-    yearEnd: 1850,
-    tier: 0,
-    color: "#e11d48",
-    keyArtists: "Eugène Delacroix, Théodore Géricault, Caspar David Friedrich",
-    definition: "Courant exaltant la sensibilité individuelle, le mystère, le tragique, la passion ardente et la force indomptable de la nature face à la froide rigueur du néo-classicisme académique.",
-    filterKeyword: "romantisme"
-  },
-  {
-    id: "mov_realisme",
-    parentCivId: "occ_xixe",
-    lane: "europe_ouest",
-    name: "Réalisme",
-    yearStart: 1848,
-    yearEnd: 1872,
-    tier: 1,
-    color: "#d97706",
-    keyArtists: "Gustave Courbet, Honoré Daumier, Jean-François Millet",
-    definition: "Né des révolutions de 1848, le réalisme affirme le devoir de l'artiste de peindre fidèlement les réalités contemporaines et le monde du travail paysan et ouvrier sans idéalisation mythologique ni héroïsation artificielle.",
-    filterKeyword: "réalisme"
-  },
-  {
-    id: "mov_impressionnisme",
-    parentCivId: "occ_xixe",
-    lane: "europe_ouest",
-    name: "Impressionnisme",
-    yearStart: 1872,
-    yearEnd: 1886,
-    tier: 0,
-    color: "#0284c7",
-    keyArtists: "Claude Monet, Pierre-Auguste Renoir, Edgar Degas, Camille Pissarro",
-    definition: "Révolution de la peinture de plein air rejetant l'académisme des Salons officiels pour saisir les variations instantanées de la lumière naturelle et des reflets de l'eau par des touches fragmentées de couleurs pures juxtaposées.",
-    filterKeyword: "impressionnisme"
-  },
-  {
-    id: "mov_symbolisme",
-    parentCivId: "occ_xixe",
-    lane: "europe_ouest",
-    name: "Post-Impressionnisme & Symbolisme",
-    yearStart: 1886,
-    yearEnd: 1905,
+    id: "mov_art_conceptuel",
+    parentCivId: "occ_xxe_moderne",
+    lane: "mod_peinture",
+    name: "Art Conceptuel & Nouveaux Médias",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczNFrnkU0CB_dyE9L9kLg4n4k3yz2MdGR99oZnTYNwONOOI50XSJFO35HAXs96VEqGpyioETNaU1Ca-jT4-s0kIkQ5_M3GfgH2P72zkEaggGGwp0M3gRyjwKyZraq8aKbNc7O85Lyx1Rc-uh1NHJZGIfJQ=w1660-h704-s-no-gm?authuser=0",
+    yearStart: 1960,
+    yearEnd: 1990,
     tier: 1,
     color: "#8b5cf6",
-    keyArtists: "Paul Cézanne, Vincent van Gogh, Paul Gauguin, Gustave Moreau",
-    definition: "Réaction contre le matérialisme impressionniste explorant la dimension spirituelle, le mythe et les correspondances poétiques de l'âme, tout en jetant les bases structurales de l'art moderne (Cézanne et Gauguin).",
-    filterKeyword: "symbolisme"
+    keyArtists: "Marcel Duchamp, Arman, Joseph Kosuth, Sol LeWitt, Piero Manzoni",
+    definition: "Révolution esthétique radicale affirmant que l'idée, le concept et le choix de l'artiste priment sur l'exécution matérielle, initiée par l'invention du ready-made par Marcel Duchamp et développée par le Nouveau Réalisme et l'art conceptuel.",
+    filterKeyword: "conceptuel"
   },
 
-  // --- RENAISSANCE EUROPÉENNE (lane: europe_ouest) ---
+  // =========================================================================
+  // VOIE 2 : mod_sculpture (🏛️ SCULPTURE & PLASTIQUE : 1000 à 2000)
+  // =========================================================================
   {
-    id: "mov_quattrocento",
-    parentCivId: "occ_renaissance",
-    lane: "europe_ouest",
-    name: "Quattrocento florentin",
-    yearStart: 1400,
-    yearEnd: 1490,
+    id: "mov_sculpture_romane_gothique",
+    parentCivId: "occ_gothique",
+    lane: "mod_sculpture",
+    name: "Statuaire romane & Portails gothiques",
+    yearStart: 1080,
+    yearEnd: 1400,
     tier: 0,
-    color: "#ea580c",
-    keyArtists: "Masaccio, Sandro Botticelli, Donatello, Fra Angelico",
-    definition: "Berceau de la Renaissance à Florence, marqué par la redécouverte des proportions antiques, la théorisation mathématique de la perspective linéaire par Brunelleschi et Alberti et l'affirmation de la dignité humaine.",
-    filterKeyword: "quattrocento"
+    color: "#a16207",
+    keyArtists: "Maître Gislebert d'Autun, Bâtisseurs de Chartres, Claus Sluter",
+    definition: "Des tympans romans de l'Apocalypse aux portails solennels des cathédrales de Chartres et Reims, la sculpture s'émancipe de la colonne pour conquérir l'autonomie et le drapé réaliste (Puits de Moïse).",
+    filterKeyword: "sculpture"
   },
   {
-    id: "mov_haute_renaissance",
+    id: "mov_sculpture_renaissance",
     parentCivId: "occ_renaissance",
-    lane: "europe_ouest",
-    name: "Haute Renaissance",
-    yearStart: 1490,
-    yearEnd: 1527,
+    lane: "mod_sculpture",
+    name: "Renaissance sculpturale : Donatello & Michel-Ange",
+    yearStart: 1400,
+    yearEnd: 1565,
     tier: 1,
-    color: "#ca8a04",
-    keyArtists: "Léonard de Vinci, Raphaël, Michel-Ange",
-    definition: "Apogée classique de l'art occidental entre Rome et Florence, où la perfection anatomique, la monumentalité sculpturale, la composition pyramidale et le sfumato atteignent une souveraine harmonie.",
-    filterKeyword: "renaissance"
+    color: "#d97706",
+    keyArtists: "Donatello, Lorenzo Ghiberti, Michel-Ange, Benvenuto Cellini",
+    definition: "Le renouveau du marbre et du bronze à Florence et Rome : le David de Donatello (premier nu autonome depuis l'Antiquité), les portes du Baptistère et le titanisme expressif de Michel-Ange.",
+    filterKeyword: "michel-ange"
   },
   {
-    id: "mov_manierisme",
+    id: "mov_sculpture_baroque",
+    parentCivId: "occ_baroque_classique",
+    lane: "mod_sculpture",
+    name: "Baroque théâtral : Le Bernin & Puget",
+    yearStart: 1600,
+    yearEnd: 1730,
+    tier: 0,
+    color: "#c026d3",
+    keyArtists: "Gian Lorenzo Bernini (Le Bernin), Pierre Puget, François Girardon",
+    definition: "Triomphe du mouvement dramatique et de l'illusionnisme sensoriel : Le Bernin transforme le marbre en chair vivante et en drapé tourbillonnant (L'Extase de sainte Thérèse, Apollon et Daphné).",
+    filterKeyword: "bernin"
+  },
+  {
+    id: "mov_sculpture_neoclassique",
+    parentCivId: "occ_xixe",
+    lane: "mod_sculpture",
+    name: "Néoclassicisme statuaire : Canova & Houdon",
+    yearStart: 1770,
+    yearEnd: 1845,
+    tier: 1,
+    color: "#475569",
+    keyArtists: "Antonio Canova, Jean-Antoine Houdon, Bertel Thorvaldsen",
+    definition: "Clarté idéale du marbre blanc poli, pureté des contours mythologiques et sérénité antique face à la grandiloquence baroque (Psyché ranimée par le baiser de l'Amour).",
+    filterKeyword: "canova"
+  },
+  {
+    id: "mov_sculpture_rodin_moderne",
+    parentCivId: "occ_xxe_moderne",
+    lane: "mod_sculpture",
+    name: "Révolution Rodin, Brancusi & Giacometti",
+    yearStart: 1880,
+    yearEnd: 1965,
+    tier: 0,
+    color: "#0891b2",
+    keyArtists: "Auguste Rodin, Camille Claudel, Constantin Brancusi, Alberto Giacometti, Alexander Calder",
+    definition: "Rupture totale avec l'académisme : Rodin révèle la puissance expressive de la matière brute et du non-finito ; Brancusi purifie la forme vers l'essence absolue ; Giacometti étire la silhouette humaine aux limites du vide.",
+    filterKeyword: "rodin"
+  },
+
+  // =========================================================================
+  // VOIE 3 : mod_architecture (📐 ARCHITECTURE & ESPACES : 1000 à 2000)
+  // =========================================================================
+  {
+    id: "mov_archi_romane",
+    parentCivId: "occ_roman",
+    lane: "mod_architecture",
+    name: "L'Âge roman & la Voûte de pierre",
+    yearStart: 1000,
+    yearEnd: 1150,
+    tier: 0,
+    color: "#92400e",
+    keyArtists: "Maîtres bâtisseurs de Cluny, Conques, Saint-Sernin de Toulouse",
+    definition: "Épopée de la pierre taillée et des pèlerinages : voûte en berceau, massivité des contreforts, pénombre mystique et sanctuaires monumentaux de la chrétienté médiévale.",
+    filterKeyword: "roman"
+  },
+  {
+    id: "mov_archi_gothique",
+    parentCivId: "occ_gothique",
+    lane: "mod_architecture",
+    name: "Croisée d'ogives & Cathédrales de lumière",
+    yearStart: 1140,
+    yearEnd: 1500,
+    tier: 1,
+    color: "#2563eb",
+    keyArtists: "Abbé Suger (Saint-Denis), Bâtisseurs de Chartres, Amiens, Reims, Notre-Dame de Paris",
+    definition: "Révolution technique de l'arc brisé, de la croisée d'ogives et des arcs-boutants : les murs s'effacent au profit de verrières colossales inondant la nef d'une lumière théologique céleste.",
+    filterKeyword: "gothique"
+  },
+  {
+    id: "mov_archi_renaissance",
     parentCivId: "occ_renaissance",
-    lane: "europe_ouest",
-    name: "Maniérisme européen",
-    yearStart: 1520,
+    lane: "mod_architecture",
+    name: "Renaissance classique, Dômes & Palladianisme",
+    yearStart: 1420,
     yearEnd: 1600,
     tier: 0,
-    color: "#0d9488",
-    keyArtists: "Jacopo Pontormo, Le Parmesan, Le Greco, Bronzino",
-    definition: "Courant sophistiqué né au lendemain du sac de Rome (1527), caractérisé par l'élongation serpentine des corps (figura serpentinata), l'irréalité spatiale et des coloris acides traduisant l'angoisse et l'artifice.",
-    filterKeyword: "maniérisme"
+    color: "#d97706",
+    keyArtists: "Filippo Brunelleschi, Leon Battista Alberti, Andrea Palladio, Donato Bramante",
+    definition: "Triomphe de la proportion harmonique, de la symétrie et des ordres antiques. Inventions de la coupole autoportante de Florence et des villas palladiennes qui influenceront le monde entier.",
+    filterKeyword: "palladio"
+  },
+  {
+    id: "mov_archi_baroque_versailles",
+    parentCivId: "occ_baroque_classique",
+    lane: "mod_architecture",
+    name: "Baroque romain & Classicisme versaillais",
+    yearStart: 1600,
+    yearEnd: 1760,
+    tier: 1,
+    color: "#9333ea",
+    keyArtists: "Francesco Borromini, Gian Lorenzo Bernini, Louis Le Vau, Jules Hardouin-Mansart",
+    definition: "Opposition féconde entre l'ondulation théâtrale des façades romaines (Borromini) et la majesté rectiligne du classicisme d'État à Versailles (Galerie des Glaces, Dôme des Invalides).",
+    filterKeyword: "versailles"
+  },
+  {
+    id: "mov_archi_fer_verre",
+    parentCivId: "occ_xixe",
+    lane: "mod_architecture",
+    name: "Révolution industrielle : Fer, Fonte & Verre",
+    yearStart: 1850,
+    yearEnd: 1910,
+    tier: 0,
+    color: "#0284c7",
+    keyArtists: "Gustave Eiffel, Joseph Paxton (Crystal Palace), Victor Baltard, Henri Labrouste",
+    definition: "L'essor des ingénieurs et des nouveaux matériaux métalliques : verrières de gares, pavillons d'expositions universelles et prouesse de la Tour Eiffel ouvrant l'ère moderne.",
+    filterKeyword: "eiffel"
+  },
+  {
+    id: "mov_archi_moderne_bauhaus",
+    parentCivId: "occ_xxe_moderne",
+    lane: "mod_architecture",
+    name: "Bauhaus & Mouvement Moderne",
+    yearStart: 1919,
+    yearEnd: 1975,
+    tier: 1,
+    color: "#10b981",
+    keyArtists: "Le Corbusier, Walter Gropius, Ludwig Mies van der Rohe, Frank Lloyd Wright",
+    definition: "« La forme suit la fonction » : rejet de tout ornement superflu, plan libre, béton armé, pilotis et façades rideaux en verre qui ont redéfini l'urbanisme et l'habitat contemporain.",
+    filterKeyword: "corbusier"
   },
 
-  // --- ÉGYPTE : NOUVEL EMPIRE (lane: egypte) ---
+  // =========================================================================
+  // VOIE 4 : mod_ruptures (⚡ RÉVOLUTIONS, INVENTIONS & MANIFESTES : 1000 à 2000)
+  // =========================================================================
+  {
+    id: "mov_rup_giotto_1305",
+    parentCivId: "occ_gothique",
+    lane: "mod_ruptures",
+    name: "1305 : La Révolution de Giotto à Padoue",
+    yearStart: 1303,
+    yearEnd: 1315,
+    tier: 0,
+    color: "#38bdf8",
+    keyArtists: "Giotto di Bondone",
+    definition: "À la Chapelle des Scrovegni de Padoue, Giotto brise le dogme byzantin en introduisant l'espace scénique tridimensionnel, les raccourcis corporels et des visages habités d'une douleur humaine bouleversante.",
+    filterKeyword: "giotto"
+  },
+  {
+    id: "mov_rup_perspective_1425",
+    parentCivId: "occ_renaissance",
+    lane: "mod_ruptures",
+    name: "1425 : Découverte de la Perspective linéaire",
+    yearStart: 1420,
+    yearEnd: 1435,
+    tier: 1,
+    color: "#f59e0b",
+    keyArtists: "Filippo Brunelleschi, Leon Battista Alberti, Masaccio",
+    definition: "Expérience du miroir par Brunelleschi au baptistère de Florence et traité De Pictura (1435) d'Alberti : pour la première fois dans l'histoire, la vision humaine est projetée selon des lois mathématiques et géométriques rigoureuses.",
+    filterKeyword: "perspective"
+  },
+  {
+    id: "mov_rup_huile_1430",
+    parentCivId: "occ_renaissance",
+    lane: "mod_ruptures",
+    name: "1430 : Révolution flamande de la Peinture à l'huile",
+    yearStart: 1425,
+    yearEnd: 1445,
+    tier: 0,
+    color: "#10b981",
+    keyArtists: "Jan van Eyck",
+    definition: "Van Eyck perfectionne le liant d'huile de lin et de résines siccatives. Les glacis translucides superposés capturent la lumière avec une brillance inaltérable et révolutionnent la pratique de la peinture dans toute l'Europe.",
+    filterKeyword: "huile"
+  },
+  {
+    id: "mov_rup_durer_1500",
+    parentCivId: "occ_renaissance",
+    lane: "mod_ruptures",
+    name: "1500 : Premier Autoportrait frontal autonome",
+    yearStart: 1498,
+    yearEnd: 1508,
+    tier: 1,
+    color: "#ec4899",
+    keyArtists: "Albrecht Dürer",
+    definition: "Dürer se peint à 28 ans dans une pose rigoureusement frontale jusqu'alors réservée au Christ (Salvator Mundi). Il affirme avec audace le statut divin de l'artiste créateur et la dignité de l'esprit intellectuel.",
+    filterKeyword: "durer"
+  },
+  {
+    id: "mov_rup_caravage_1600",
+    parentCivId: "occ_baroque_classique",
+    lane: "mod_ruptures",
+    name: "1600 : Ténébrisme & Modèle vivant du Caravage",
+    yearStart: 1595,
+    yearEnd: 1610,
+    tier: 0,
+    color: "#f97316",
+    keyArtists: "Michelangelo Merisi dit Le Caravage",
+    definition: "Refusant le dessin préparatoire académique, Caravage fait poser des prostituées et des mendiants dans son atelier obscur éclairé par un rais de lumière brutale : naissance du réalisme dramatique moderne.",
+    filterKeyword: "caravage"
+  },
+  {
+    id: "mov_rup_tube_1841",
+    parentCivId: "occ_xixe",
+    lane: "mod_ruptures",
+    name: "1841 : Invention du Tube de peinture souple",
+    yearStart: 1838,
+    yearEnd: 1855,
+    tier: 1,
+    color: "#06b6d4",
+    keyArtists: "John Goffe Rand, Eugène Boudin, Claude Monet",
+    definition: "Breveté par John Goffe Rand en 1841, le tube métallique souple remplace les vessies de porc fragiles. La peinture sort enfin des ateliers : les artistes peignent sur le motif en plein air, rendant possible l'Impressionnisme.",
+    filterKeyword: "plein air"
+  },
+  {
+    id: "mov_rup_refuses_1863",
+    parentCivId: "occ_xixe",
+    lane: "mod_ruptures",
+    name: "1863 : Le Salon des Refusés",
+    yearStart: 1860,
+    yearEnd: 1870,
+    tier: 0,
+    color: "#ef4444",
+    keyArtists: "Édouard Manet, James Whistler, Camille Pissarro",
+    definition: "Autorisé par Napoléon III pour les milliers d'œuvres rejetées par le jury de l'Académie, ce salon consacre le scandale du Déjeuner sur l'herbe de Manet et brise définitivement le monopole institutionnel sur l'art.",
+    filterKeyword: "refusés"
+  },
+  {
+    id: "mov_rup_readymade_1913",
+    parentCivId: "occ_xxe_moderne",
+    lane: "mod_ruptures",
+    name: "1913-1917 : L'Invention du Ready-Made de Duchamp",
+    yearStart: 1913,
+    yearEnd: 1920,
+    tier: 1,
+    color: "#8b5cf6",
+    keyArtists: "Marcel Duchamp",
+    definition: "Avec la Roue de bicyclette (1913) et Fontaine (1917), Duchamp décrète qu'un objet manufacturé devient œuvre d'art par la simple décision intellectuelle de l'artiste. Mort de l'art purement « rétinien ».",
+    filterKeyword: "ready-made"
+  },
+  {
+    id: "mov_rup_surrealisme_1924",
+    parentCivId: "occ_xxe_moderne",
+    lane: "mod_ruptures",
+    name: "1924 : Manifeste du Surréalisme d'André Breton",
+    yearStart: 1923,
+    yearEnd: 1930,
+    tier: 0,
+    color: "#a855f7",
+    keyArtists: "André Breton, Salvador Dalí, René Magritte, Max Ernst",
+    definition: "Parution du Premier Manifeste du Surréalisme : exploration de l'automatisme psychique pur, des rêves, de l'inconscient freudien et de l'amour fou, libérant l'imaginaire des censures de la raison.",
+    filterKeyword: "manifeste"
+  },
+
+  // =========================================================================
+  // MOUVEMENTS ANTIQUES HORS-OCCIDENT (Frise Civilisations Mondiales)
+  // =========================================================================
   {
     id: "mov_thoutmosis",
     parentCivId: "egypte_nouvel",
@@ -937,7 +1303,7 @@ const ART_MOVEMENTS = [
     tier: 0,
     color: "#0fa3b1",
     keyArtists: "Ateliers de Deir el-Médineh, Khaemhat, Sénenmout",
-    definition: "Apogée impérial de l'Égypte antique sous Hatchepsout, Thoutmosis III et Amenhotep III. Faste des temples colossaux de Karnak et Louxor, splendeur des tombes rupestres de la Vallée des Rois et raffinement suprême des arts textiles et du mobilier d'or.",
+    definition: "Apogée impérial de l'Égypte antique sous Hatchepsout, Thoutmosis III et Amenhotep III.",
     filterKeyword: "thèbes"
   },
   {
@@ -949,8 +1315,8 @@ const ART_MOVEMENTS = [
     yearEnd: -1336,
     tier: 1,
     color: "#14b8a6",
-    keyArtists: "Thoutmôsis (sculpteur royal de Néfertiti), Akhenaton",
-    definition: "Parenthèse religieuse et artistique révolutionnaire sous Akhenaton, imposant le culte solaire exclusif d'Aton et brisant les conventions millénaires par un expressionnisme naturaliste inédit, sensible et intimiste.",
+    keyArtists: "Thoutmôsis, Akhenaton",
+    definition: "Parenthèse religieuse et artistique révolutionnaire sous Akhenaton imposant le culte solaire d'Aton.",
     filterKeyword: "amarna"
   },
   {
@@ -963,7 +1329,7 @@ const ART_MOVEMENTS = [
     tier: 0,
     color: "#0891b2",
     keyArtists: "Bâtisseurs royaux de Pi-Ramsès et Thèbes",
-    definition: "Ère de la démesure monumentale et des batailles impériales sous Séthi Ier et Ramsès II : salle hypostyle de Karnak, temples solaires d'Abou Simbel et Ramesseum célébrant l'héroïsme pharaonique face aux Hittites.",
+    definition: "Ère de la démesure monumentale sous Séthi Ier et Ramsès II (Abou Simbel, Ramesseum).",
     filterKeyword: "ramses"
   }
 ];
@@ -3168,6 +3534,62 @@ const CIVILISATIONS_REGISTRY = [
     artifacts: []
   },
   {
+    id: "occ_baroque_classique",
+    name: "Occident : Grand Siècle & Époque Baroque",
+    epoch: "v. 1600 à 1715 ap. J.-C.",
+    yearStart: 1600,
+    yearEnd: 1715,
+    lane: "europe_ouest",
+    themeColor: "#b45309",
+    sidePos: "pos-left",
+    travelingOrigin: "50.5% 42.5%",
+    haloId: "halo-occident",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczNVhh4MM_6IHTDC5rUJoWccn1QU0bzPdy1-rM6pcC81NTDHBYiUYpx-ByFB_MXTGV8jEKbQgm9HcWeW9ff1hDdosL2YTwdOESqVF2E7AoOu-MCuj4izK9AMYBuA2F7nQefztKJRtVPS8VRt4EYDYGEeaA=w1660-h704-s-no-gm?authuser=0",
+    mapOverlayUrl: "",
+    albumUrl: "",
+    presentationHtml: `
+      <p><strong>Le triomphe du clair-obscur, de la théâtralité et de l'ordre classique</strong><br>
+      Le XVIIe siècle européen est marqué par l'émergence simultanée du Baroque flamboyant et du Classicisme majestueux. À Rome, Le Caravage révolutionne la peinture en imposant le ténébrisme et la vérité crue du modèle vivant. En France, sous Louis XIV, Poussin et Le Lorrain incarnent la clarté, l'harmonie et la mesure intellectuelle.</p>
+    `,
+    concurrentHtml: `
+      <p><strong>Le contexte mondial au XVIIe siècle</strong></p>
+      <p>Essor des empires coloniaux, guerre de Trente Ans en Europe centrale, fondation de la dynastie Qing en Chine et apogée de l'Empire moghol en Inde avec la construction du Taj Mahal.</p>
+    `,
+    themeAlbums: [
+      { label: "🎨 Ténébrisme & Clair-Obscur", url: "" },
+      { label: "🏛️ Classicisme & Paysages héroïques", url: "" }
+    ],
+    artifacts: []
+  },
+  {
+    id: "occ_xviiie",
+    name: "Occident : XVIIIe Siècle & Lumières",
+    epoch: "v. 1715 à 1789 ap. J.-C.",
+    yearStart: 1715,
+    yearEnd: 1789,
+    lane: "europe_ouest",
+    themeColor: "#ec4899",
+    sidePos: "pos-left",
+    travelingOrigin: "50.5% 42.5%",
+    haloId: "halo-occident",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczMlC03xq_KqjbDxQowX59mwY1pGkkhLuRpKT7ieme0v19Zt96wtTw_E5o2er6cEgtIYZgnm8AIrlp4DXWTZmeitzVyGd3SzLVqOhJhBcFxkvaq-hwkXRGCfeUKROvTX7oFfExehLunkQoDFIhRdXFPw1Q=w1660-h704-s-no-gm?authuser=0",
+    mapOverlayUrl: "",
+    albumUrl: "",
+    presentationHtml: `
+      <p><strong>L'esprit des Lumières, la fête galante et le védutisme vénitien</strong><br>
+      Le siècle de Louis XV et de l'Encyclopédie privilégie la légèreté, l'élégance et la sensualité avec le Rococo de Boucher, Fragonard et Watteau. À Venise, Canaletto sublime la vue urbaine (védutisme), tandis que la fin du siècle voit naître la rigueur morale du Néoclassicisme avec Jacques-Louis David.</p>
+    `,
+    concurrentHtml: `
+      <p><strong>Le contexte mondial au XVIIIe siècle</strong></p>
+      <p>Siècle des philosophes des Lumières, guerre d'Indépendance américaine (1776), Révolution française (1789) et début de la première Révolution industrielle en Grande-Bretagne.</p>
+    `,
+    themeAlbums: [
+      { label: "🎨 Fêtes galantes & Mythologie rococo", url: "" },
+      { label: "🏛️ Vues urbaines & Védutisme", url: "" }
+    ],
+    artifacts: []
+  },
+  {
     id: "occ_xixe",
     name: "Occident : XIXe Siècle & Réalisme",
     epoch: "v. 1800 à 1890 ap. J.-C.",
@@ -3510,8 +3932,8 @@ function buildTimelineBlocks() {
   const bridgeAncient = document.createElement('div');
   bridgeAncient.className = 'timeline-era-bridge-card to-modern';
   bridgeAncient.id = 'bridge-to-modern';
-  bridgeAncient.innerHTML = `<span class="bridge-icon">✨</span><span class="bridge-text">Ère des Avant-Gardes (1890 – 2000) ➔</span>`;
-  bridgeAncient.style.left = `${yearToPixel(1860)}px`;
+  bridgeAncient.innerHTML = `<span class="bridge-icon">🎨</span><span class="bridge-text">Zoom Occident : Histoire des Arts (1000 – 2000) ➔</span>`;
+  bridgeAncient.style.left = `${yearToPixel(1000)}px`;
   bridgeAncient.addEventListener('click', (e) => {
     e.stopPropagation();
     switchTimelineEra('modern');
@@ -3522,8 +3944,8 @@ function buildTimelineBlocks() {
   const bridgeModern = document.createElement('div');
   bridgeModern.className = 'timeline-era-bridge-card to-ancient';
   bridgeModern.id = 'bridge-to-ancient';
-  bridgeModern.innerHTML = `<span class="bridge-icon">🏛️</span><span class="bridge-text">← Civilisations & Empires (-3500 à 1890)</span>`;
-  bridgeModern.style.left = `${yearToPixel(1891)}px`;
+  bridgeModern.innerHTML = `<span class="bridge-icon">🏛️</span><span class="bridge-text">◀ Frise des Civilisations Mondiales (-3500 – 2000)</span>`;
+  bridgeModern.style.left = `${yearToPixel(1005)}px`;
   bridgeModern.addEventListener('click', (e) => {
     e.stopPropagation();
     switchTimelineEra('ancient');
@@ -3581,7 +4003,6 @@ function updateStickyBlockTitles() {
   const yMax = getYearMax();
   CIVILISATIONS_REGISTRY.forEach((civ) => {
     if (!civ._blockEl) return;
-    if (civ.yearStart >= 1890) return;
     const titleEl = civ._blockEl.querySelector('.civ-block-title');
     if (!titleEl) return;
 
@@ -3617,7 +4038,6 @@ function updateTimelineLayout() {
 
   CIVILISATIONS_REGISTRY.forEach((civ) => {
     if (!civ._blockEl) return;
-    if (civ.yearStart >= 1890) return;
     const visibleStart = Math.max(civ.yearStart, yMin);
     const visibleEnd = Math.min(civ.yearEnd, yMax);
     const x1 = yearToPixel(visibleStart);
@@ -4799,7 +5219,25 @@ function renderMovementArtists(civ, movData) {
   }
 
   if (placeholder) {
-    const artists = (movData && movData.artists) || [];
+    let artists = (movData && movData.artists) || [];
+    if (artists.length === 0 && (civ.keyArtists || (civ._mov && civ._mov.keyArtists))) {
+      const rawArtists = (civ.keyArtists || civ._mov.keyArtists || '').split(',');
+      const registry = window.ARTISTS_REGISTRY || {};
+      artists = rawArtists.map(rawName => {
+        const cleanName = rawName.replace(/\(.*?\)/g, '').trim();
+        const regMatch = Object.values(registry).find(
+          r => r.name.toLowerCase().includes(cleanName.toLowerCase()) || cleanName.toLowerCase().includes(r.name.toLowerCase().trim())
+        );
+        return {
+          name: cleanName,
+          artistId: regMatch ? regMatch.id : '',
+          role: 'Figure majeure du mouvement',
+          dates: regMatch ? regMatch.dates : '',
+          desc: `Créateur emblématique associé à l'essor et aux innovations de ${civ.name}.`,
+          icon: '🎨'
+        };
+      }).filter(a => a.name);
+    }
     placeholder.innerHTML = `
       <div class="mov-artists-container">
         <div class="mov-artists-header">
@@ -5244,7 +5682,7 @@ function updateSynchronousState(screenX) {
     } else {
       if (Array.isArray(CIVILISATIONS_REGISTRY)) {
         CIVILISATIONS_REGISTRY.forEach(civ => {
-          if (civ.yearStart < 1890 && currentYear >= civ.yearStart && currentYear <= civ.yearEnd) {
+          if (currentYear >= civ.yearStart && currentYear <= civ.yearEnd) {
             activeCivs.push(civ);
           }
         });
