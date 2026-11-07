@@ -1002,8 +1002,8 @@ function getArtworksForMovement(mov) {
 
     // 3. IDENTIFICATION DU MOUVEMENT OU DE L'ARTISTE (sans recherche dans le corps du texte narratif)
     // a. Artiste clé
-    if (art.artist) {
-      const artArtist = normalizeSearchStr(art.artist);
+    if (art.artist || art.creator) {
+      const artArtist = normalizeSearchStr(art.artist || art.creator);
       if (artistsList.some(a => a && (artArtist.includes(a) || a.includes(artArtist)))) {
         return true;
       }
@@ -3125,7 +3125,7 @@ function getCivIcon(civ) {
     'grece_geometrique': '🏺',
     'grece_archaique': '🏺',
     'grece_classique': '🏛️',
-    'grece_hellenistique': '🗽',
+    'grece_hellenistique': '🏛️',
     'etrusque_orientalisant': '🎭',
     'etrusque_archaique': '🎭',
     'etrusque_classique': '🎭',
@@ -6812,9 +6812,20 @@ function initSearchEngine() {
     });
 
     // 2. Décompte des œuvres présentes dans ART_OBJECTS
+    const EXCLUDED_NON_PAINTERS = [
+      'marcel duchamp',
+      'lello da orvieto',
+      'leonard de vinci',
+      'léonard de vinci',
+      'hans von wendelstorf',
+      'fra jacopo',
+      'domenico ghirlandaio',
+      'arman'
+    ];
     catalog.forEach(item => {
       if (!item.artist) return;
       const artName = item.artist.trim();
+      if (EXCLUDED_NON_PAINTERS.includes(artName.toLowerCase())) return;
       // On extrait la lettre de tri (soit le nom de famille s'il est spécifié, soit la première lettre)
       const regMatch = Object.values(registry).find(r =>
         (r.id && item.artistId && r.id === item.artistId) ||
@@ -7378,8 +7389,8 @@ function formatCardBadgeDate(art) {
   const raw = (art.centuryDisplay || art.century || '').trim();
   if (!raw && typeof art.centuryNumeric !== 'number') return '';
 
-  // Pour un peintre : privilégier l'année courte (ex: "1529", "v. 1530")
-  if (art.artist) {
+  // Pour un peintre ou créateur : privilégier l'année courte (ex: "1529", "v. 1530")
+  if (art.artist || art.creator) {
     const shortArtistDate = raw.replace(/\s*\([^)]*\)/g, '').trim();
     if (shortArtistDate && shortArtistDate.length <= 16) return shortArtistDate;
     if (typeof art.centuryNumeric === 'number') return String(art.centuryNumeric);
@@ -7431,7 +7442,7 @@ function createGalleryCardElement(art, modalList) {
     <div class="gallery-card-body">
       <div class="gallery-card-meta-top">
         ${tagMarkup}
-        <span class="gallery-card-civ">${art.artist || art.civName || ''}</span>
+        <span class="gallery-card-civ">${art.artist || art.creator || art.civName || ''}</span>
       </div>
       <div class="gallery-card-title">${art.title}</div>
       <div class="gallery-card-century">${art.centuryDisplay || art.century || ''}</div>
@@ -7625,14 +7636,14 @@ function renderSearchGallery() {
         });
         const matchTitle = normalizeSearchStr(item.title).includes(normQuery);
         const matchSite = normalizeSearchStr(item.site).includes(normQuery) || normalizeSearchStr(item.currentLocation).includes(normQuery);
-        const matchArtist = normalizeSearchStr(item.artist).includes(normQuery);
+        const matchArtist = normalizeSearchStr(item.artist || item.creator || '').includes(normQuery);
         if (!matchChip && !matchTitle && !matchSite && !matchArtist) return false;
       } else {
         const matchTitle = item.title && normalizeSearchStr(item.title).includes(normQuery);
         const matchSite = item.site && normalizeSearchStr(item.site).includes(normQuery);
         const matchNarrative = item.narrative && normalizeSearchStr(item.narrative).includes(normQuery);
         const matchChips = item.chips && item.chips.some(c => normalizeSearchStr(c).includes(normQuery));
-        const matchArtist = item.artist && normalizeSearchStr(item.artist).includes(normQuery);
+        const matchArtist = (item.artist || item.creator) && normalizeSearchStr(item.artist || item.creator).includes(normQuery);
         const matchCategory = item.category && normalizeSearchStr(item.category).includes(normQuery);
         const matchPeriod = (item.periodId && normalizeSearchStr(item.periodId).includes(normQuery)) ||
                             (item.civName && normalizeSearchStr(item.civName).includes(normQuery));
