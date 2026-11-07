@@ -678,7 +678,7 @@ function renderHistoricalSparks() {
    PILIER 3 : DILATATION MULTI-ÉCHELLES & MOUVEMENTS ARTISTIQUES EN SOUS-BARRES
    ========================================================================== */
 const ART_MOVEMENTS = [
-  // --- OCCIDENT XXe SIÈCLE (lane: europe_ouest) ---
+  // --- OCCIDENT XXe SIÈCLE (Piste 1 : Europe & Gaule - Peinture Moderne & Émancipation de la Forme) ---
   {
     id: "mov_fauvisme",
     parentCivId: "occ_xxe_moderne",
@@ -705,10 +705,12 @@ const ART_MOVEMENTS = [
     definition: "Révolution esthétique initiée avec Les Demoiselles d'Avignon. Rompant avec la perspective illusionniste classique, le cubisme décompose les volumes en facettes géométriques et superpose simultanément plusieurs points de vue sur une surface plane.",
     filterKeyword: "cubisme"
   },
+
+  // --- OCCIDENT XXe SIÈCLE (Piste 2 : Italie & Étrurie - Avant-Gardes Subversives, Dada & Surréalisme) ---
   {
     id: "mov_dada",
     parentCivId: "occ_xxe_moderne",
-    lane: "europe_ouest",
+    lane: "italie_etrusque",
     name: "Dadaïsme",
     yearStart: 1916,
     yearEnd: 1924,
@@ -721,7 +723,7 @@ const ART_MOVEMENTS = [
   {
     id: "mov_surrealisme",
     parentCivId: "occ_xxe_moderne",
-    lane: "europe_ouest",
+    lane: "italie_etrusque",
     name: "Surréalisme",
     yearStart: 1924,
     yearEnd: 1969,
@@ -731,10 +733,27 @@ const ART_MOVEMENTS = [
     definition: "Fondé par le Manifeste d'André Breton, le surréalisme explore la toute-puissance du rêve, l'automatisme psychique pur et les mystères de l'inconscient en libérant la création des entraves de la logique rationnelle.",
     filterKeyword: "surréalisme"
   },
+
+  // --- OCCIDENT XXe SIÈCLE (Piste 3 : Canaries & Îles - Ruptures : Art Conceptuel & Ready-Made) ---
+  {
+    id: "mov_art_conceptuel",
+    parentCivId: "occ_xxe_moderne",
+    lane: "atlantique",
+    name: "Art Conceptuel & Ready-made",
+    yearStart: 1913,
+    yearEnd: 1978,
+    tier: 0,
+    color: "#8b5cf6",
+    keyArtists: "Marcel Duchamp, Arman, Joseph Kosuth, Sol LeWitt, Piero Manzoni",
+    definition: "Révolution esthétique radicale affirmant que l'idée, le concept et le choix de l'artiste priment sur l'exécution matérielle, initiée par l'invention du ready-made par Marcel Duchamp et développée par le Nouveau Réalisme et l'art conceptuel.",
+    filterKeyword: "conceptuel"
+  },
+
+  // --- OCCIDENT XXe SIÈCLE (Piste 4 : Grèce & Monde Égéen - Après-Guerre, Abstraction & Pop Culture) ---
   {
     id: "mov_expressionnisme_abstrait",
     parentCivId: "occ_xxe_moderne",
-    lane: "europe_ouest",
+    lane: "egee",
     name: "Expressionnisme Abstrait",
     yearStart: 1943,
     yearEnd: 1965,
@@ -747,7 +766,7 @@ const ART_MOVEMENTS = [
   {
     id: "mov_pop_art",
     parentCivId: "occ_xxe_moderne",
-    lane: "europe_ouest",
+    lane: "egee",
     name: "Pop Art & Nouveau Réalisme",
     yearStart: 1956,
     yearEnd: 1975,
@@ -756,19 +775,6 @@ const ART_MOVEMENTS = [
     keyArtists: "Andy Warhol, Roy Lichtenstein, Yves Klein, César",
     definition: "Mouvement célébrant et détournant avec ironie l'imagerie populaire des médias de masse, de la publicité et de la consommation industrielle par la sérigraphie, le collage et les accumulations d'objets réels.",
     filterKeyword: "pop art"
-  },
-  {
-    id: "mov_art_conceptuel",
-    parentCivId: "occ_xxe_moderne",
-    lane: "europe_ouest",
-    name: "Art Conceptuel & Ready-made",
-    yearStart: 1913,
-    yearEnd: 1978,
-    tier: 2,
-    color: "#8b5cf6",
-    keyArtists: "Marcel Duchamp, Arman, Joseph Kosuth, Sol LeWitt, Piero Manzoni",
-    definition: "Révolution esthétique radicale affirmant que l'idée, le concept et le choix de l'artiste priment sur l'exécution matérielle, initiée par l'invention du ready-made par Marcel Duchamp et développée par le Nouveau Réalisme et l'art conceptuel.",
-    filterKeyword: "conceptuel"
   },
 
   // --- OCCIDENT XIXe SIÈCLE (lane: europe_ouest) ---
@@ -905,6 +911,36 @@ const ART_MOVEMENTS = [
     keyArtists: "Bâtisseurs royaux de Pi-Ramsès et Thèbes",
     definition: "Ère de la démesure monumentale et des batailles impériales sous Séthi Ier et Ramsès II : salle hypostyle de Karnak, temples solaires d'Abou Simbel et Ramesseum célébrant l'héroïsme pharaonique face aux Hittites.",
     filterKeyword: "ramses"
+  }
+];
+
+const CONTEMPORARY_TRACK_BANNERS = [
+  {
+    lane: "italie_etrusque",
+    icon: "🎭",
+    name: "Avant-Gardes : Dada, Surréalisme & Métaphysique",
+    epoch: "1910 – 1970",
+    yearStart: 1910,
+    yearEnd: 1970,
+    color: "#a855f7"
+  },
+  {
+    lane: "atlantique",
+    icon: "💡",
+    name: "Ruptures : Ready-Made, Art Conceptuel & Nouveaux Médias",
+    epoch: "1912 – 1980",
+    yearStart: 1912,
+    yearEnd: 1980,
+    color: "#8b5cf6"
+  },
+  {
+    lane: "egee",
+    icon: "💥",
+    name: "Après-Guerre : Expressionnisme Abstrait & Pop Culture",
+    epoch: "1940 – 1980",
+    yearStart: 1940,
+    yearEnd: 1980,
+    color: "#ec4899"
   }
 ];
 
@@ -3238,6 +3274,26 @@ function buildTimelineBlocks() {
     laneEl.appendChild(bar);
   });
 
+  // 3b. Création des bannières contemporaines d'Option A (Occident Polyphonique sur voies vacantes)
+  CONTEMPORARY_TRACK_BANNERS.forEach(tb => {
+    const laneEl = document.querySelector(`.timeline-lane[data-lane="${tb.lane}"]`);
+    if (!laneEl) return;
+    const x1 = yearToPixel(tb.yearStart);
+    const x2 = yearToPixel(tb.yearEnd);
+    const width = Math.max(x2 - x1, 80);
+
+    const banner = document.createElement('div');
+    banner.className = 'contemporary-track-banner';
+    banner.style.left = `${x1}px`;
+    banner.style.width = `${width}px`;
+    banner.style.borderColor = `${tb.color}77`;
+    banner.style.display = 'none';
+    banner.innerHTML = `<span class="banner-icon">${tb.icon}</span><span class="banner-title">${tb.name}</span><span class="banner-epoch">(${tb.epoch})</span>`;
+
+    tb._bannerEl = banner;
+    laneEl.appendChild(banner);
+  });
+
   if (typeof initMapBeacons === 'function') {
     initMapBeacons();
   }
@@ -3306,12 +3362,27 @@ function updateTimelineLayout() {
   // 4. Démultiplication verticale des voies et sous-barres de mouvements (Pilier 3)
   const isExpandedZoom = timelineZoom >= 1.6;
   const lanesWithMovements = new Set(ART_MOVEMENTS.map(m => m.lane));
+  CONTEMPORARY_TRACK_BANNERS.forEach(tb => lanesWithMovements.add(tb.lane));
 
   lanesWithMovements.forEach(laneKey => {
     const laneEl = document.querySelector(`.timeline-lane[data-lane="${laneKey}"]`);
     const labelEl = document.querySelector(`.lane-fixed-label[data-lane="${laneKey}"]`);
     if (laneEl) laneEl.classList.toggle('has-submovements-expanded', isExpandedZoom);
     if (labelEl) labelEl.classList.toggle('has-submovements-expanded', isExpandedZoom);
+  });
+
+  CONTEMPORARY_TRACK_BANNERS.forEach(tb => {
+    if (!tb._bannerEl) return;
+    if (isExpandedZoom) {
+      const x1 = yearToPixel(tb.yearStart);
+      const x2 = yearToPixel(tb.yearEnd);
+      const width = Math.max(x2 - x1, 80);
+      tb._bannerEl.style.left = `${x1}px`;
+      tb._bannerEl.style.width = `${width}px`;
+      tb._bannerEl.style.display = 'flex';
+    } else {
+      tb._bannerEl.style.display = 'none';
+    }
   });
 
   ART_MOVEMENTS.forEach(mov => {
@@ -4358,8 +4429,20 @@ function updateSynchronousState(screenX) {
       });
     }
 
-    // Mise en valeur des voies actives de la frise
+    // Mise en valeur des voies actives de la frise (incluant les voies contemporaines actives)
     const activeLanes = new Set(activeCivs.map(c => c.lane));
+    if (currentYear >= 1900) {
+      ART_MOVEMENTS.forEach(mov => {
+        if (currentYear >= mov.yearStart && currentYear <= mov.yearEnd) {
+          activeLanes.add(mov.lane);
+        }
+      });
+      CONTEMPORARY_TRACK_BANNERS.forEach(tb => {
+        if (currentYear >= tb.yearStart && currentYear <= tb.yearEnd) {
+          activeLanes.add(tb.lane);
+        }
+      });
+    }
     document.querySelectorAll('.timeline-lane').forEach(lane => {
       if (lane && lane.dataset) {
         lane.classList.toggle('has-active-civ', activeLanes.has(lane.dataset.lane));
