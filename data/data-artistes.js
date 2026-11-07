@@ -797,6 +797,66 @@ window.ARTISTS_REGISTRY = {
       sourceNotes: "Le catalogue raisonné qui fait autorité a été dressé par l'historienne de l'art Marie Berhaut. Sa version définitive et révisée, intitulée Gustave Caillebotte : Catalogue raisonné des peintures et pastels, a été publiée en 1994. Cet inventaire exhaustif recense très exactement 565 œuvres (les numéros couvrent l'intégralité de ses huiles sur toile et de ses pastels aboutis)."
     }
   },
+  "canaletto": {
+    id: "canaletto",
+    name: "Canaletto (Giovanni Antonio Canal)",
+    sortName: "Canaletto",
+    sortLetter: "C",
+    dates: "1697 – 1768",
+    movement: "Védutisme vénitien & Siècle des Lumières",
+    nationality: "Italien (Venise)",
+    techniques: "Huile sur toile, camera obscura, perspective géométrique, macchiette",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczOI-kaE5mOicZKJP4DR9jrt7RG2tnK6JeklA0CxKn9JDetuCbebtb7pUdYzFvTcJ0u6OElMqgpPX80vhi5WkRsrMqRO8nDg10K7r_9NQJocRIfSR1f0D8Vpg5PXSUVOKxDuPnDiEevoSi4gqIZqko1ubg=w1660-h704-s-no-gm?authuser=0",
+    portraitImg: "",
+    bio: `
+      <p><strong>Le maître absolu du védutisme et la gloire de la Sérénissime</strong><br>
+      Giovanni Antonio Canal, dit Canaletto, né en 1697 et mort en 1768 à Venise, est le maître incontesté du védutisme (la peinture de vues urbaines). Fils d'un créateur de décors de théâtre, il a transposé le sens de la perspective et de la mise en scène dans la représentation de sa ville natale. Son succès fut immense, porté notamment par les aristocrates britanniques du « Grand Tour » qui voyaient dans ses toiles le souvenir idéal de leur voyage. Bien qu'il ait passé une décennie à Londres, c'est son image de Venise, à la fois précise et magnifiée, qui a défini l'identité visuelle de la Sérénissime pour le reste du monde.</p>
+      <p><strong>La « veduta », précision d'orfèvre et lumière cristalline</strong><br>
+      Son genre pictural est la <em>veduta</em>, qu'il porte à un niveau de perfection technique et de clarté jamais égalé. Le style de Canaletto se caractérise par une précision quasi photographique du détail architectural, qu'il obtenait souvent à l'aide d'une <em>camera obscura</em>. Cependant, son génie réside dans sa maîtrise de la lumière et de l'atmosphère : il ne se contente pas de copier la réalité, il l'organise. Sa palette est lumineuse, ses ciels sont profonds et ses eaux scintillent de reflets argentés. Il peuple ses vues d'une multitude de petites figures (les <em>macchiette</em>) qui animent les places et les canaux, donnant vie à la pierre vénitienne.</p>
+      <p><strong>L'évolution du style : du réalisme contrasté à la synthèse poétique</strong><br>
+      L'évolution de son style marque un passage d'un réalisme vigoureux et contrasté vers une manière plus claire, presque cristalline. Ses premières œuvres sont caractérisées par une touche libre, des ombres marquées et un aspect parfois tourmenté. Avec le succès, son style devient plus précis, plus "propre" et systématique, répondant à la demande des collectionneurs pour des vues éclatantes de soleil. Vers la fin de sa vie, sa technique évolue encore vers une certaine schématisation, utilisant de petits points de lumière blanche pour rendre le scintillement de l'eau. Malgré les critiques sur son aspect parfois répétitif, il a su créer une poésie urbaine qui fait de chaque toile une fenêtre ouverte sur l'espace et le temps.</p>
+    `,
+    corpus: {
+      total: 521,
+      seen: 1,
+      paintingsCount: 521,
+      details: [
+        { label: "Peintures au catalogue raisonné (Constable / Links)", count: 521, icon: "🎨", color: "#d4af37", seen: 1, note: "521 peintures autographes répertoriées dans l'édition définitive" }
+      ],
+      sourceTitle: "Catalogue raisonné W.G. Constable (1962), révisé par J.G. Links (1976, 1989)",
+      sourceNotes: "Le catalogue raisonné de référence mondiale a été initialement établi par l'historien de l'art W.G. Constable en 1962, puis il a été minutieusement révisé, mis à jour et complété par J.G. Links (avec des éditions de référence en 1976 et 1989). L'édition définitive de ce catalogue monumental recense très exactement 521 peintures."
+    }
+  },
+  "caravage": {
+    id: "caravage",
+    name: "Caravage (Michelangelo Merisi)",
+    sortName: "Caravage",
+    sortLetter: "C",
+    dates: "1571 – 1610",
+    movement: "Caravagisme, Ténébrisme & Premier Baroque romain",
+    nationality: "Italien (Milan, Rome, Naples, Malte, Sicile)",
+    techniques: "Huile sur toile, ténébrisme, clair-obscur dramatique, peinture alla prima sans dessin préalable",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczNSi6NMFxWU4dJgr0hOQ5SfHpp1PJWl2T7oO9A_EHfs0dCBbap1rmrx9cs4VPCLVxez3N1lLnTCBxPPUhNBJvo-iTAe1pssy5lmuxHKQN-TpXbYgcKRTQinwQu5MCq2LEcz9yPaznf2ZCvoq5xMclBJRA=w1660-h704-s-no-gm?authuser=0",
+    portraitImg: "",
+    bio: `
+      <p><strong>Le génie révolutionnaire du Baroque et le maître du clair-obscur</strong><br>
+      Michelangelo Merisi, dit Le Caravage, né en 1571 à Milan et mort en 1610 à Porto Ercole, est l'un des peintres les plus révolutionnaires et controversés de l'histoire de l'art. Personnage au tempérament violent et à la vie tumultueuse, marqué par des duels et une fuite perpétuelle, il a rompu de manière radicale avec les idéaux de beauté et d'harmonie de la Renaissance. En imposant un réalisme brut et une dimension dramatique inédite, il a provoqué un choc visuel qui a transformé la peinture européenne, donnant naissance au « caravagisme » qui influencera des maîtres comme Rembrandt, Velázquez et Rubens.</p>
+      <p><strong>L'invention du ténébrisme et la vérité crue du modèle vivant</strong><br>
+      Son genre pictural repose sur une invention majeure : le ténébrisme. Son style se caractérise par l'utilisation de contrastes violents entre des ténèbres profondes et une lumière crue, presque artificielle, qui vient frapper les personnages comme un projecteur de théâtre. Refusant l'idéalisation, il choisit ses modèles parmi les gens du peuple — mendiants, courtisanes, ouvriers — pour représenter des saints ou des divinités, montrant des pieds sales, des ongles noirs ou des chairs flétries. Ce naturalisme radical, mêlé à une tension psychologique extrême, confère à ses scènes sacrées une présence physique et une émotion presque insoutenables pour ses contemporains.</p>
+      <p><strong>L'évolution du style : de la clarté d'atelier à la tragédie de l'exil</strong><br>
+      L'évolution de son style témoigne d'une radicalisation vers une obscurité de plus en plus envahissante. Ses premières œuvres romaines, comme <em>Le Jeune Bacchus malade</em>, présentent une lumière claire et une attention minutieuse aux détails des natures mortes. Cependant, après le meurtre qu'il commet en 1606, son exil à Naples, Malte et en Sicile transforme son art : ses compositions se dépouillent, l'espace vide devient immense et le noir finit par dévorer la toile. Dans ses derniers chefs-d'œuvre, comme <em>La Résurrection de Lazare</em>, la touche se fait plus rapide et fiévreuse, exprimant une spiritualité tragique et un sentiment de vulnérabilité qui semblent faire écho à sa propre détresse d'homme traqué.</p>
+    `,
+    corpus: {
+      total: 70,
+      seen: 9,
+      paintingsCount: 70,
+      details: [
+        { label: "Peintures formellement authentifiées et conservées", count: 70, icon: "🎨", color: "#d4af37", seen: 9, note: "Consensus scientifique moderne (65 à 70 peintures autographes)" }
+      ],
+      sourceTitle: "Consensus scientifique international (Longhi, Gregori, Ebert-Schifferer, Spike, Vodret)",
+      sourceNotes: "Les plus grands spécialistes mondiaux (de Roberto Longhi et Mina Gregori hier, à Sybille Ebert-Schifferer, John T. Spike ou Rossella Vodret aujourd'hui) s'accordent sur un consensus scientifique extrêmement resserré : on ne compte aujourd'hui qu'entre 65 et 70 peintures formellement reconnues comme étant de sa main et ayant survécu."
+    }
+  },
   "cassatt": {
     id: "cassatt",
     name: "Cassatt Mary",

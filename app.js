@@ -7531,6 +7531,8 @@ function renderSearchGallery() {
       const pId = item.periodId || item.civId || '';
       if (selectedPeriod === 'etrusque') {
         if (pId !== 'etrusque' && !pId.startsWith('etrusque_') && item.civId !== 'etrusque') return false;
+      } else if (selectedPeriod === 'occ_baroque_classique') {
+        if (pId !== 'occ_baroque_classique' && pId !== 'occ_baroque') return false;
       } else if (pId !== selectedPeriod) {
         return false;
       }
