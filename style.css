@@ -3997,6 +3997,31 @@ body {
   gap: 4px;
 }
 
+.alphabet-total-badge {
+  margin-left: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(212, 175, 55, 0.12);
+  border: 1px solid rgba(212, 175, 55, 0.35);
+  border-radius: 14px;
+  padding: 3px 10px;
+  font-family: 'Cinzel', serif;
+  font-size: 0.70rem;
+  letter-spacing: 0.8px;
+  color: var(--gold-pale);
+  white-space: nowrap;
+}
+
+.alphabet-total-badge .badge-icon {
+  font-size: 0.75rem;
+}
+
+.alphabet-total-badge .badge-count {
+  font-weight: 700;
+  color: var(--gold-pure);
+}
+
 .btn-alpha-letter {
   background: rgba(22, 26, 36, 0.8);
   border: 1px solid rgba(255, 255, 255, 0.1);

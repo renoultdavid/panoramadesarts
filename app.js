@@ -4645,7 +4645,7 @@ function openMonographForArtistRecord(artistRecord) {
   const corpusSourceDrawer = document.getElementById('corpus-source-drawer');
   const btnToggleCorpusSource = document.getElementById('btn-toggle-corpus-source');
 
-  if (filterText) filterText.value = artistRecord.name;
+  if (filterText) filterText.value = artistRecord.sortName || artistRecord.name.replace(/\(.*?\)/g, '').trim();
   if (filterCiv) filterCiv.value = 'all';
   if (filterDomain) filterDomain.value = 'all';
   if (filterSort) filterSort.value = 'chrono-asc';
@@ -7601,6 +7601,12 @@ function initSearchEngine() {
       }
       alphabetContainer.appendChild(btn);
     });
+
+    const totalCountEl = document.getElementById('alphabet-total-count');
+    const totalNotices = Object.keys(window.ARTISTS_REGISTRY || {}).length;
+    if (totalCountEl) {
+      totalCountEl.textContent = totalNotices;
+    }
   }
 
   /* ==========================================================================
@@ -7795,8 +7801,17 @@ function initSearchEngine() {
       chip.innerHTML = `<span>${art.name}</span> <span class="chip-count">(${art.count})</span>`;
 
       chip.addEventListener('click', () => {
-        // 1. Filtrer les œuvres de l'artiste
-        if (filterText) filterText.value = art.name;
+        // 1. Récupérer la fiche peintre correspondante
+        const registry = window.ARTISTS_REGISTRY || {};
+        const artistRecord = Object.values(registry).find(
+          a => a.name.toLowerCase().trim() === art.name.toLowerCase().trim() ||
+               (a.id && art.artistId && a.id === art.artistId)
+        );
+
+        // 2. Filtrer les œuvres de l'artiste
+        if (filterText) {
+          filterText.value = (artistRecord && artistRecord.sortName) ? artistRecord.sortName : art.name.replace(/\(.*?\)/g, '').trim();
+        }
         if (filterCiv) filterCiv.value = 'all';
         if (filterDomain) filterDomain.value = 'all';
         if (filterSort) filterSort.value = 'chrono-asc';
@@ -7808,11 +7823,6 @@ function initSearchEngine() {
         document.querySelectorAll('.btn-alpha-letter').forEach(b => b.classList.remove('active'));
 
         // 3. Déployer la Fiche Peintre en haut de page avec son bandeau panoramique
-        const registry = window.ARTISTS_REGISTRY || {};
-        const artistRecord = Object.values(registry).find(
-          a => a.name.toLowerCase().trim() === art.name.toLowerCase().trim()
-        );
-
         if (artistRecord && artistHero) {
           if (artistHeroBanner) {
             artistHeroBanner.style.backgroundImage = `url('${artistRecord.bannerImg}')`;
@@ -8202,6 +8212,14 @@ function renderSearchGallery() {
 
   const isArtistView = Boolean(artistHero && !artistHero.hidden);
   const activeArtistName = isArtistView && artistHeroName && artistHeroName.textContent ? artistHeroName.textContent.toLowerCase().trim() : '';
+  const registry = window.ARTISTS_REGISTRY || {};
+  const activeArtistRecord = isArtistView ? Object.values(registry).find(
+    a => a.name.toLowerCase().trim() === activeArtistName ||
+         (a.sortName && a.sortName.toLowerCase().trim() === activeArtistName) ||
+         activeArtistName.startsWith(a.name.toLowerCase().trim()) ||
+         (a.sortName && activeArtistName.startsWith(a.sortName.toLowerCase().trim())) ||
+         (a.id && activeArtistName.includes(a.id))
+  ) : null;
 
   const selectedCiv = filterCiv ? filterCiv.value : 'all';
   const selectedPeriod = filterPeriod ? filterPeriod.value : 'all';
@@ -8226,9 +8244,38 @@ function renderSearchGallery() {
     }
 
     // Si une fiche peintre est ouverte, verrouiller strictement sur les œuvres de ce peintre
-    if (isArtistView && activeArtistName) {
+    if (isArtistView && (activeArtistName || activeArtistRecord)) {
       const itemArtist = (item.artist || '').toLowerCase().trim();
-      if (itemArtist !== activeArtistName) return false;
+      const itemArtistId = (item.artistId || '').toLowerCase().trim();
+      let matches = false;
+
+      // A. Correspondance directe par identifiant d'artiste (artistId)
+      if (activeArtistRecord && itemArtistId && itemArtistId === activeArtistRecord.id.toLowerCase().trim()) {
+        matches = true;
+      }
+      // B. Correspondance par nom direct
+      else if (itemArtist && itemArtist === activeArtistName) {
+        matches = true;
+      }
+      // C. Correspondance avec la notice de référence (nom complet, nom de tri, ou nom épuré sans parenthèses)
+      else if (activeArtistRecord && itemArtist) {
+        const recName = (activeArtistRecord.name || '').toLowerCase().trim();
+        const recSort = (activeArtistRecord.sortName || '').toLowerCase().trim();
+        const recClean = recName.replace(/\(.*?\)/g, '').trim();
+        if (itemArtist === recName || itemArtist === recSort || itemArtist === recClean) {
+          matches = true;
+        } else if (recName.includes(itemArtist) || (recClean && itemArtist.includes(recClean))) {
+          matches = true;
+        } else if (itemArtist.includes(recSort) || (recSort && itemArtist.startsWith(recSort))) {
+          matches = true;
+        }
+      }
+      // D. Tolérance pour les parenthèses (ex: Caravage (Michelangelo Merisi))
+      else if (itemArtist && activeArtistName && (activeArtistName.includes(itemArtist) || itemArtist.includes(activeArtistName))) {
+        matches = true;
+      }
+
+      if (!matches) return false;
     }
 
     // 1. Filtre Civilisation (compatible civId "egypte_ancien" et civId "egypte")
