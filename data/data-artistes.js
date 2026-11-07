@@ -697,6 +697,106 @@ window.ARTISTS_REGISTRY = {
       sourceNotes: "L'expert mondial de la famille Brueghel, Klaus Ertz, a publié en 1988 puis réédité en 2000 le catalogue raisonné définitif en deux volumes (Pieter Brueghel der Jüngere: Die Gemälde mit kritischem Oeuvrekatalog). Ce travail d'inventaire scientifique recense très exactement 1 430 peintures authentifiées (pour l'écrasante majorité des huiles sur panneau de chêne) réalisées par lui-même ou avec l'aide active de ses assistants d'atelier."
     }
   },
+  "buffalmacco": {
+    id: "buffalmacco",
+    name: "Buffalmacco (Bonamico di Martino)",
+    sortName: "Buffalmacco",
+    sortLetter: "B",
+    dates: "v. 1290 – 1340",
+    movement: "Trecento toscan & Fresque narrative dramatique",
+    nationality: "Italien (Florence & Pise, Toscane)",
+    techniques: "Fresque monumentale (a fresco), sinopia, détrempe",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczMsbimWk-xnKD6XeKzA8NueP3tNlmc8ggQX6YJ290J84Yjn0tMDFvFxHBaWFcQAVn7eHB6z2bVoqIQbkJQQPXi56LwDXibnB8iursjnBpH6dXfDYuDdnVW26s3HGCzdLIqtcGKn2e3EcUVmPosVepThqg=w1660-h704-s-no-gm?authuser=0",
+    portraitImg: "",
+    bio: `
+      <p><strong>Le maître visionnaire du Trecento toscan et peintre truculent du Décaméron</strong><br>
+      Bonamico di Martino da Firenze, dit Buffalmacco (v. 1290 – 1340), est l'une des figures les plus fascinantes et truculentes du Trecento toscan. Rendu célèbre par la littérature médiévale — Boccace en fait un joyeux compère de farces dans le Décaméron, et Giorgio Vasari lui consacre une longue biographie pittoresque —, il a longtemps été considéré comme un personnage semi-légendaire avant que la critique moderne ne lui restitue l'un des sommets de la peinture médiévale : les monumentales fresques du Camposanto de Pise.</p>
+      <p><strong>Expressivité macabre, réalisme cru et veine populaire percutante</strong><br>
+      Son genre pictural se définit par la grande fresque narrative et allégorique et la peinture d'histoire sacrée. Son style se distingue par une expressivité brute, théâtrale et volontiers macabre, en rupture avec la rigueur solennelle de Giotto ou la préciosité élégante de l'école siennoise. Il privilégie une veine populaire et narrative percutante, peuplée de figures d'un réalisme cru, de cadavres en décomposition, de démons hybrides et de visages tordus par l'effroi ou l'angoisse morale.</p>
+      <p><strong>L'évolution du style : de l'atelier florentin au gigantisme visionnaire de Pise</strong><br>
+      L'évolution de son style marque un passage de l'atelier florentin vers un gigantisme dramatique sans équivalent :</p>
+      <p><strong>La formation florentine et l'ancrage toscan (années 1315-1325) :</strong> Formé dans l'orbite florentine, il travaille à Florence, Arezzo et Pise. Ses premières interventions à fresque témoignent déjà d'un tempérament narratif vif et d'un goût marqué pour l'anecdote vive et le relief des attitudes, s'émancipant du hiératisme byzantin.</p>
+      <p><strong>Le sommet du Camposanto de Pise (années 1330) :</strong> Réalisé pour le cimetière monumental de Pise, ce cycle monumental comprend <em>Le Triomphe de la Mort</em>, <em>Le Jugement dernier et l'Enfer</em> ainsi que <em>La Thébaïde</em>. Son style atteint une puissance visionnaire totale : la Mort surgit sous la forme d'une créature ailée aux griffes acérées fondue sur une cour aristocratique insouciante, tandis que des cavaliers découvrent avec stupeur trois cercueils ouverts grouillant de vers.</p>
+      <p><strong>Les dernières œuvres et la tradition de la fresque narrative (vers 1335 – 1340) :</strong> Il poursuit ses réalisations à Pise et Florence, déclinant des récits bibliques et monastiques (scènes d'ermites dans le désert). Son art maintient cette lisibilité immédiate et cette verve descriptive qui parlent directement à la dévotion populaire, quelques années seulement avant que la peste noire de 1348 ne vienne ravager la Toscane.</p>
+    `,
+    corpus: {
+      total: 20,
+      seen: 0,
+      paintingsCount: 20,
+      details: [
+        { label: "Grandes scènes à fresque conservées (Camposanto de Pise, etc.)", count: 20, icon: "🎨", color: "#d4af37", seen: 0, note: "Cycle du Triomphe de la Mort, Jugement dernier, Enfer et Thébaïde" }
+      ],
+      sourceTitle: "Consensus scientifique moderne & Attributions du Camposanto de Pise",
+      sourceNotes: "En comptabilisant chaque grande scène narrative monumentale et les rares fragments préservés dans d'autres villes, le consensus scientifique actuel attribue à Buffalmacco un corpus très restreint d'environ 20 œuvres principales (grandes scènes à fresque) qui nous sont parvenues."
+    }
+  },
+  "cabanel": {
+    id: "cabanel",
+    name: "Cabanel Alexandre",
+    sortName: "Cabanel Alexandre",
+    sortLetter: "C",
+    dates: "1823 – 1889",
+    movement: "Art académique français (Style pompier) & Second Empire",
+    nationality: "Français (Montpellier / Paris)",
+    techniques: "Huile sur toile, fini léché académique, dessin préparatoire, fresque",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczM_7kr2t_8o1C3H0csDBHm_Kncm51x7v_L3evlj1BZsf-wIiZwnURm8Qc6y9J3MGG_iQDduPSnLqby0i-8MsTwdLdBmFUF0N7j7JxAk07vji2nJFqWI7-2rRKrz6UbFzFhz-0JnzWQ6ZMSxRwPrjgyc7Q=w1660-h704-s-no-gm?authuser=0",
+    portraitImg: "",
+    bio: `
+      <p><strong>Le champion de la tradition classique et favori du Second Empire</strong><br>
+      Alexandre Cabanel (1823 – 1889) est l'une des figures de proue de l'art académique français sous le Second Empire. Peintre d'histoire, portraitiste de la haute société et professeur influent à l'École des Beaux-Arts, il a incarné le goût officiel de son époque, recevant les plus hautes distinctions et les faveurs personnelles de l'empereur Napoléon III.</p>
+      <p><strong>Le « style pompier », perfection du dessin et sensualité de la ligne</strong><br>
+      Son genre pictural se définit par le style pompier, caractérisé par une perfection technique absolue et un idéalisme hérité de la Renaissance et du classicisme. Son style se distingue par un dessin d'une précision chirurgicale, des surfaces lisses sans aucune trace de pinceau (le « léché » académique) et une palette de couleurs harmonieuse, souvent éthérée. Il excelle dans la représentation du corps humain, qu'il traite avec une grâce et une sensualité qui, bien que classiques, savaient séduire le public de son temps.</p>
+      <p><strong>L'évolution du style : de l'apothéose mythologique au grand drame religieux</strong><br>
+      L'évolution de son style montre une maîtrise constante mise au service de sujets variés, oscillant entre tradition et séduction :</p>
+      <p><strong>La mythologie sensuelle :</strong> Son plus grand triomphe, <em>La Naissance de Vénus</em> (1863), définit son style le plus célèbre : une nudité idéalisée, baignée d'une lumière nacrée, qui parvient à rendre l'érotisme acceptable sous couvert de sujet mythologique.</p>
+      <p><strong>Le portrait mondain :</strong> Devenu le peintre de l'aristocratie et de la bourgeoisie, il développe un style de portrait d'une élégance souveraine, où le rendu méticuleux des étoffes, des bijoux et de la distinction sociale du modèle prime sur la profondeur psychologique.</p>
+      <p><strong>Le drame romantique et religieux :</strong> Dans ses compositions historiques ou bibliques, comme son saisissant <em>Ange déchu</em> ou ses grands cartons pour la chapelle Saint-Louis de Vincennes, il fait preuve d'une intensité dramatique plus sombre. On y voit une musculature puissante et un regard chargé de défi, prouvant que son académisme pouvait aussi explorer des émotions plus complexes et tourmentées.</p>
+    `,
+    corpus: {
+      total: 578,
+      seen: 1,
+      paintingsCount: 502,
+      details: [
+        { label: "Huiles sur toile documentées et datées (cat. Jean Nougaret)", count: 502, icon: "🎨", color: "#d4af37", seen: 1, note: "502 huiles sur toile parfaitement répertoriées" },
+        { label: "Autres notices d'œuvres peintes et cartons", count: 76, icon: "📜", color: "#00b4d8", seen: 0, note: "Cartons d'études murales et grands décors" }
+      ],
+      sourceTitle: "Catalogue sommaire de l'œuvre peint — Jean Nougaret (Musée Fabre Montpellier)",
+      sourceNotes: "L'inventaire de référence moderne a été dressé par l'historien de l'art Jean Nougaret. Il a publié son Catalogue sommaire de l'œuvre peint d'Alexandre Cabanel au sein du monumental catalogue d'exposition Alexandre Cabanel 1823-1889 : La tradition du beau, édité sous la direction de Michel Hilaire et Sylvain Amic lors de la rétrospective du Musée Fabre à Montpellier. Cet inventaire exhaustif recense très exactement 578 notices d'œuvres peintes, dont 502 huiles sur toile parfaitement documentées et datées."
+    }
+  },
+  "caillebotte": {
+    id: "caillebotte",
+    name: "Caillebotte Gustave",
+    sortName: "Caillebotte Gustave",
+    sortLetter: "C",
+    dates: "1848 – 1894",
+    movement: "Impressionnisme & Réalisme urbain haussmannien",
+    nationality: "Français (Paris / Gennevilliers)",
+    techniques: "Huile sur toile, pastel, cadrages photographiques, perspective géométrique",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczMChflGbvYKUqWDnyw4ysKAIyw48ARRNhVYyGhTkpftsneFL8a97JThcmPVaFz9jc473e8Vh2J_QQHa9PVNNJSh6j2xaopmajjFTMwUAziXDnFkQ6A4l_IKq_auQys1DtnGqxwKnupWamA44JBuDnKnUg=w1660-h704-s-no-gm?authuser=0",
+    portraitImg: "",
+    bio: `
+      <p><strong>Le maître de l'espace moderne et le regard neuf de l'Impressionnisme</strong><br>
+      Gustave Caillebotte (1848 – 1894) occupe une place singulière au sein du groupe impressionniste. Riche héritier et mécène indispensable de ses amis (Monet, Renoir, Degas), il fut longtemps considéré comme un simple amateur avant d'être reconnu comme l'un des peintres les plus audacieux de son temps. Son œuvre se distingue par une alliance unique entre la touche impressionniste et une rigueur de construction presque photographique.</p>
+      <p><strong>Réalisme urbain, perspectives vertigineuses et dignité du travail moderne</strong><br>
+      Son genre pictural se définit par un réalisme urbain et des perspectives vertigineuses. Contrairement à ses confrères plus attachés à la dissolution de la forme, Caillebotte s'intéresse à la structure de l'espace moderne. Son style se caractérise par des cadrages insolites, des vues en plongée et une attention méticuleuse au Paris d'Haussmann. Il est l'un des premiers à peindre le travail ouvrier urbain avec une dignité monumentale, sans tomber dans le misérabilisme.</p>
+      <p><strong>L'évolution du style : de l'audace géométrique à la lumière du Petit Gennevilliers</strong><br>
+      L'évolution de son style montre un glissement de la précision architecturale vers une liberté plus proche du pleinairisme :</p>
+      <p><strong>Le choc de la perspective (années 1870) :</strong> C'est sa période la plus célèbre. Il compose des chefs-d'œuvre comme <em>Les Raboteurs de parquet</em> ou <em>Rue de Paris, temps de pluie</em>. Son dessin est ferme, ses compositions sont basées sur des lignes de fuite puissantes qui aspirent le regard du spectateur dans la toile.</p>
+      <p><strong>L'intimité et le jardin (années 1880) :</strong> Sa touche s'assouplit et devient plus vibrante. Il délaisse les grands boulevards pour des scènes d'intérieur plus calmes ou des vues depuis son balcon. Il commence à explorer le thème de la nature morte et du paysage avec une palette plus claire.</p>
+      <p><strong>Le retrait au Petit Gennevilliers :</strong> À la fin de sa vie, retiré dans sa propriété au bord de la Seine, il se consacre à la passion des jardins et du nautisme. Ses dernières œuvres sont des explosions de couleurs, où les fleurs et les reflets de l'eau sont traités avec une fragmentation de la touche qui le rapproche de l'impressionnisme pur de Monet.</p>
+    `,
+    corpus: {
+      total: 565,
+      seen: 2,
+      paintingsCount: 565,
+      details: [
+        { label: "Peintures et pastels au catalogue raisonné (Marie Berhaut 1994)", count: 565, icon: "🎨", color: "#d4af37", seen: 2, note: "565 huiles sur toile et pastels aboutis répertoriés" }
+      ],
+      sourceTitle: "Catalogue raisonné des peintures et pastels — Marie Berhaut (1994)",
+      sourceNotes: "Le catalogue raisonné qui fait autorité a été dressé par l'historienne de l'art Marie Berhaut. Sa version définitive et révisée, intitulée Gustave Caillebotte : Catalogue raisonné des peintures et pastels, a été publiée en 1994. Cet inventaire exhaustif recense très exactement 565 œuvres (les numéros couvrent l'intégralité de ses huiles sur toile et de ses pastels aboutis)."
+    }
+  },
   "cassatt": {
     id: "cassatt",
     name: "Cassatt Mary",
