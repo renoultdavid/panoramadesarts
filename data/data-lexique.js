@@ -346,6 +346,12 @@ window.ART_TYPOLOGY_DEFINITIONS = {
     domain: "Architecture chrétienne",
     def: "Vaisseau central longitudinal d'une église s'étendant du portail occidental jusqu'au transept et au chœur, accueillant l'assemblée des fidèles sous ses voûtes."
   },
+  "Plafond, Voûte & Coupole": {
+    title: "Plafond, Voûte & Coupole sacrée",
+    etymology: "Du latin volvita (« courbure »), cupula (« petite cuve ») et platum",
+    domain: "Architecture sacrée & Stéréotomie",
+    def: "Système de couvrement sommital d'un édifice religieux (coupole sur pendentifs ou trompes, tour-lanterne / cimborrio, voûte d'ogives quadripartite, sexpartite, étoilée à liernes et tiercerons, ou en éventail) magnifié par la sculpture des nervures, la mosaïque sur fond d'or ou la fresque illusionniste en trompe-l'œil (quadratura)."
+  },
   "Plafond & Voûte peinte / astronomique": {
     title: "Plafond & Voûte astronomique",
     etymology: "Cosmographie sacrée",

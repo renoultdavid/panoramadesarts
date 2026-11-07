@@ -1174,7 +1174,8 @@ const BANNERS_REGISTRY = {
   // 12. Occident chrétien, Cloîtres, Nefs & Espaces sacrés
   occ_cloitre: "https://lh3.googleusercontent.com/pw/AP1GczOFyKkksjiJ30bePVHIjD83HKI5G_xH1UXgnxJ00Bs5v6ylXlbDZumeeNXuoMScZV-P8ucOnWv7bCGgmzrccfhsFKUjEEOtz-5qFBb1kVVkK2Y0f1gph7TCFMCf0P3w3leD6GGtDVeM_SUd_w-1WXGmvw=w1742-h740-s-no-gm?authuser=0",
   occ_roman: "https://lh3.googleusercontent.com/pw/AP1GczOFyKkksjiJ30bePVHIjD83HKI5G_xH1UXgnxJ00Bs5v6ylXlbDZumeeNXuoMScZV-P8ucOnWv7bCGgmzrccfhsFKUjEEOtz-5qFBb1kVVkK2Y0f1gph7TCFMCf0P3w3leD6GGtDVeM_SUd_w-1WXGmvw=w1742-h740-s-no-gm?authuser=0",
-  occ_nef: "https://lh3.googleusercontent.com/pw/AP1GczNkfhhZc46ccjVqBWq4p8tLyx95_T1fFFR5cf0yrOtH_5xubpuC8OwbWVBnJlt1FqiFMRUZhaI2-Hoc4yi3qlKy4hsojZMmNjPV4sIjW0HcWoZ9ukMlMv2Um74mranBpSO8RT6qpS75_R0eiA6AGa90EA=w1584-h672-s-no-gm?authuser=0"
+  occ_nef: "https://lh3.googleusercontent.com/pw/AP1GczNkfhhZc46ccjVqBWq4p8tLyx95_T1fFFR5cf0yrOtH_5xubpuC8OwbWVBnJlt1FqiFMRUZhaI2-Hoc4yi3qlKy4hsojZMmNjPV4sIjW0HcWoZ9ukMlMv2Um74mranBpSO8RT6qpS75_R0eiA6AGa90EA=w1584-h672-s-no-gm?authuser=0",
+  occ_plafond: "https://lh3.googleusercontent.com/pw/AP1GczPh1p3dhk29p-uf_ba8faiJz8m_-XCpWiOVAn0esoiX-7iZB2gqrSsQfRKgSVZMi03-kSIWJci0ttuKetFzSb0Iw2LzCcsv4GUdE-OTRknnMTp5kQjtN7h10G6rT2Us9SGP68XDvoPBW7fTn-0j6FwBdA=w1724-h731-s-no-gm?authuser=0"
 };
 
 function getArtworkBanner(art) {
@@ -1304,7 +1305,10 @@ function getArtworkBanner(art) {
     return BANNERS_REGISTRY.meso_uruk;
   }
 
-  // 12. OCCIDENT CHRÉTIEN : NEFS & CLOÎTRES
+  // 12. OCCIDENT CHRÉTIEN : NEFS, CLOÎTRES, PLAFONDS & COUPOLES
+  if (art.artifactType === "Plafond, Voûte & Coupole" || aType.includes("plafond") || aType.includes("coupole") || aType.includes("cimborrio") || (cId === 'occident' && (fullText.includes('coupole') || fullText.includes('cimborrio') || fullText.includes('voûte étoilée') || fullText.includes('voûte en éventail')))) {
+    return BANNERS_REGISTRY.occ_plafond;
+  }
   if (art.artifactType === "Nef d'église / cathédrale" || (cId === 'occident' && (fullText.includes('nef') || fullText.includes('cathédrale') || fullText.includes('basilique')) && !fullText.includes('cloître'))) {
     return BANNERS_REGISTRY.occ_nef;
   }
@@ -6347,6 +6351,7 @@ const TAXONOMY_DOMAINS = {
     types: [
       "Cloître",
       "Nef d'église / cathédrale",
+      "Plafond, Voûte & Coupole",
       "Plafond & Voûte peinte",
       "Portail & Tympan d'église",
       "Enclos sacré / Temple",
