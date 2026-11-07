@@ -764,7 +764,7 @@ const ART_MOVEMENTS = [
     name: "Art Conceptuel & Ready-made",
     yearStart: 1913,
     yearEnd: 1978,
-    tier: 0,
+    tier: 2,
     color: "#8b5cf6",
     keyArtists: "Marcel Duchamp, Arman, Joseph Kosuth, Sol LeWitt, Piero Manzoni",
     definition: "Révolution esthétique radicale affirmant que l'idée, le concept et le choix de l'artiste priment sur l'exécution matérielle, initiée par l'invention du ready-made par Marcel Duchamp et développée par le Nouveau Réalisme et l'art conceptuel.",

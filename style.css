@@ -2598,13 +2598,13 @@ body {
 
 /* SOUS-BARRES DE MOUVEMENTS DÉMULTIPLIÉES VERTICALEMENT (PILIER 3) */
 .timeline-lane.has-submovements-expanded {
-  height: 84px !important;
-  min-height: 84px !important;
+  height: 112px !important;
+  min-height: 112px !important;
 }
 
 .lane-fixed-label.has-submovements-expanded {
-  height: 84px !important;
-  min-height: 84px !important;
+  height: 112px !important;
+  min-height: 112px !important;
 }
 
 .sub-movement-timespan-bar {
@@ -2629,6 +2629,14 @@ body {
 
 .sub-movement-timespan-bar.tier-1 {
   top: 56px;
+}
+
+.sub-movement-timespan-bar.tier-2 {
+  top: 82px;
+}
+
+.sub-movement-timespan-bar.tier-3 {
+  top: 108px;
 }
 
 .sub-movement-timespan-bar:hover {
