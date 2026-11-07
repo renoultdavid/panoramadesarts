@@ -754,6 +754,7 @@ const ART_MOVEMENTS = [
     parentCivId: "occ_xxe_moderne",
     lane: "mod_peinture",
     name: "Cubisme",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczMA3QhdmAe2AgBsSr69Z7B7hpCZuVFX4Wm2DPVzjTRujslDhVMAu_CIfBw6QodiB8qO74bxaxb1kMDK8OEKGPjMsfO966S6g-1fjflgSnaL7MpKEiL-PUc2RsruZtua4p2S1eE0fQQs6CqzAbyvk2zU2g=w1660-h704-s-no-gm?authuser=0",
     yearStart: 1907,
     yearEnd: 1919,
     tier: 1,
@@ -780,6 +781,7 @@ const ART_MOVEMENTS = [
     parentCivId: "occ_xxe_moderne",
     lane: "mod_subversion",
     name: "Surréalisme",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczNncCSU6eI6kLKq7IOVLdEU4ZXP9nHzpY012Nws8P9qcKz-fiA7D0M1A07T0NS_b9lrSnqS6NqyUdHtI8KSPi-Jejbp5QsmSNKbFlO7r3ChiZovtS4RAXNF5EL-P3LpWwCryrlWotAuW3oyAE5KchnzbQ=w1660-h704-s-no-gm?authuser=0",
     yearStart: 1924,
     yearEnd: 1969,
     tier: 1,
@@ -793,6 +795,7 @@ const ART_MOVEMENTS = [
     parentCivId: "occ_xxe_moderne",
     lane: "mod_conceptuel",
     name: "Art Conceptuel & Ready-made",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczNFrnkU0CB_dyE9L9kLg4n4k3yz2MdGR99oZnTYNwONOOI50XSJFO35HAXs96VEqGpyioETNaU1Ca-jT4-s0kIkQ5_M3GfgH2P72zkEaggGGwp0M3gRyjwKyZraq8aKbNc7O85Lyx1Rc-uh1NHJZGIfJQ=w1660-h704-s-no-gm?authuser=0",
     yearStart: 1913,
     yearEnd: 1978,
     tier: 0,
@@ -1426,6 +1429,253 @@ function getArtworkBanner(art) {
 
   return "https://lh3.googleusercontent.com/d/1564-Uow3YDKT2Bu7pkKvjlUbMhoJYue_";
 }
+
+/* ==========================================================================
+   RÉFÉRENTIEL CULTUREL & ARTISTIQUE DES MOUVEMENTS MODERNES (XXe SIÈCLE)
+   ========================================================================== */
+const MODERN_MOVEMENTS_DATA = {
+  "mov_art_conceptuel": {
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczNFrnkU0CB_dyE9L9kLg4n4k3yz2MdGR99oZnTYNwONOOI50XSJFO35HAXs96VEqGpyioETNaU1Ca-jT4-s0kIkQ5_M3GfgH2P72zkEaggGGwp0M3gRyjwKyZraq8aKbNc7O85Lyx1Rc-uh1NHJZGIfJQ=w1660-h704-s-no-gm?authuser=0",
+    badge: "✦ RÉVOLUTION DU CONCEPT & DÉMATÉRIALISATION DE L'OBJET D'ART",
+    noticeHtml: `
+      <p><strong>L'acte créateur réinventé : du « rétinien » à l'intellectuel</strong><br>
+      L'Art Conceptuel et l'invention du <em>ready-made</em> constituent le séisme philosophique le plus radical de toute l'histoire de l'art occidental. En 1913, lorsque Marcel Duchamp fixe une roue de bicyclette sur un tabouret de cuisine, puis en 1917 lorsqu'il renverse un urinoir industriel sous le titre <em>Fontaine</em> en le signant « R. Mutt », il pose une question vertigineuse qui anéantit cinq siècles d'académisme : <em>Qu'est-ce qu'une œuvre d'art ?</em></p>
+      <p>Pour Duchamp, l'art ne doit plus être simplement « rétinien » (plaire à l'œil ou faire preuve d'habileté manuelle d'artisan). L'art réside tout entier dans le <strong>choix</strong>, le <strong>regard</strong> et le <strong>concept mental</strong> de l'artiste. En extirpant un objet manufacturé de sa fonction utilitaire pour le déposer dans un espace d'exposition, l'artiste lui confère un statut ontologique nouveau par la seule puissance de la désignation.</p>
+      <p><strong>De l'objet au langage : l'art comme tautologie</strong><br>
+      Dans les années 1960 et 1970, cette révolution est théorisée et amplifiée par une nouvelle génération internationale d'artistes. Sol LeWitt affirme que « <em>l'idée devient une machine qui fait l'art</em> ». Joseph Kosuth pousse la logique jusqu'à son terme avec <em>One and Three Chairs</em> (1965), exposant simultanément une chaise en bois, sa photographie et l'agrandissement de sa définition dans le dictionnaire, démontrant que l'idée d'un objet prime sur sa matérialité physique.</p>
+      <p>En Europe, le <strong>Nouveau Réalisme</strong> (Arman, César, Yves Klein) s'empare des rebuts et des objets de la société de consommation en les accumulant ou en les compressant, tandis que Piero Manzoni pousse l'ironie jusqu'à la provocation marchande. L'art n'est plus un tableau qu'on admire au mur : il devient une expérience critique, un protocole d'instruction, une performance éphémère ou une phrase écrite sur un mur.</p>
+    `,
+    artists: [
+      {
+        name: "Marcel Duchamp",
+        dates: "1887 – 1968",
+        role: "Inventeur du ready-made & père spirituel de l'art contemporain",
+        desc: "Rompant avec la peinture traditionnelle, il invente le ready-made (Roue de bicyclette 1913, Porte-bouteilles 1914, Fontaine 1917) et pose les fondements de tout l'art conceptuel.",
+        artistId: "duchamp",
+        icon: "🚲"
+      },
+      {
+        name: "Arman (Armand Fernandez)",
+        dates: "1928 – 2005",
+        role: "Maître des accumulations & figure du Nouveau Réalisme",
+        desc: "Membre fondateur du Nouveau Réalisme en 1960, célèbre pour ses accumulations sérielles d'objets industriels du quotidien (montres, violons, tubes de peinture).",
+        artistId: "arman",
+        icon: "📦"
+      },
+      {
+        name: "Joseph Kosuth",
+        dates: "né en 1945",
+        role: "Théoricien majeur de l'art conceptuel pur & philosophie du langage",
+        desc: "Auteur de One and Three Chairs (1965) et du manifeste Art after Philosophy (1969), affirmant que l'art est une tautologie linguistique autoréférentielle.",
+        artistId: "",
+        icon: "🪑"
+      },
+      {
+        name: "Sol LeWitt",
+        dates: "1928 – 2007",
+        role: "Pionnier du minimalisme & des structures conceptuelles modulaires",
+        desc: "Célèbre pour ses Wall Drawings exécutés d'après des protocoles mathématiques écrits, séparant définitivement la conception de l'œuvre de sa réalisation manuelle.",
+        artistId: "",
+        icon: "📐"
+      },
+      {
+        name: "Piero Manzoni",
+        dates: "1933 – 1963",
+        role: "Enfant terrible de l'avant-garde italienne & provocation satirique",
+        desc: "Créateur des Achromes (toiles blanches immaculées sans pigment) et de la Merde d'artiste (1961), poussant à l'extrême la critique de la valeur marchande de l'art.",
+        artistId: "",
+        icon: "🥫"
+      }
+    ],
+    concurrentHtml: `
+      <p><strong>Le fracas de la modernité et les traumatismes du XXe siècle</strong><br>
+      L'éclosion du ready-made et de l'art conceptuel ne naît pas dans une tour d'ivoire : elle s'enracine dans les bouleversements géopolitiques et technologiques les plus violents de l'histoire moderne :</p>
+      <p><strong>1914 – 1918 : La Grande Guerre et la faillite des certitudes</strong><br>
+      Le carnage de la Première Guerre mondiale fauche les illusions de la foi positiviste dans le progrès humain. Réfugiés à Zurich puis à New York, les artistes répondent à la folie destructrice par l'insoumission Dada et la dérision subversive de Marcel Duchamp.</p>
+      <p><strong>1939 – 1945 : La Seconde Guerre mondiale et l'exil transatlantique</strong><br>
+      La barbarie nazie et la Shoah provoquent la fuite des plus grands créateurs européens vers New York. Cette transplantation historique fait basculer le centre mondial de la création artistique de Montparnasse à Manhattan.</p>
+      <p><strong>1950 – 1975 : Société de consommation, Guerre froide et contestation</strong><br>
+      L'après-guerre est dominé par l'équilibre de la terreur, la course à l'espace, la diffusion planétaire de la télévision et l'explosion de la consommation industrielle. En mai 68 et à travers les mouvements civiques, les artistes conceptuels interrogent l'omniprésence de la marchandise et la bureaucratisation de la société.</p>
+    `
+  },
+  "mov_surrealisme": {
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczNncCSU6eI6kLKq7IOVLdEU4ZXP9nHzpY012Nws8P9qcKz-fiA7D0M1A07T0NS_b9lrSnqS6NqyUdHtI8KSPi-Jejbp5QsmSNKbFlO7r3ChiZovtS4RAXNF5EL-P3LpWwCryrlWotAuW3oyAE5KchnzbQ=w1660-h704-s-no-gm?authuser=0",
+    badge: "✦ LIBÉRATION DE L'INCONSCIENT, DU RÊVE & AUTOMATISME PSYCHIQUE",
+    noticeHtml: `
+      <p><strong>Le triomphe de l'inconscient et la poétique de l'étrange</strong><br>
+      Lancé à Paris en 1924 par la publication du retentissant <em>Manifeste du surréalisme</em> d'André Breton, le surréalisme se définit comme un « automatisme psychique pur par lequel on se propose d'exprimer le fonctionnement réel de la pensée, en l'absence de tout contrôle exercé par la raison ».</p>
+      <p>Nourris par les théories psychanalytiques de Sigmund Freud, les peintres surréalistes font voler en éclats le rationalisme étriqué pour explorer les territoires vierges du rêve, des désirs refoulés, de l'hallucination et de la folie. Deux grandes voies esthétiques se dessinent : d'un côté, l'automatisme lyrique et gestuel (Miró, Masson) qui laisse glisser la ligne au gré du hasard ; de l'autre, l'illusionnisme méticuleux et quasi photographique (Dalí, Magritte, Ernst, Tanguy) qui juxtapose des objets incongrus dans des paysages désertiques et oniriques.</p>
+      <p><strong>Une révolution totale de l'esprit</strong><br>
+      Le surréalisme n'est pas un simple style pictural : c'est un mode de vie et une insurrection morale visant à réenchanter le monde. Par le cadavre exquis, le frottage, le collage et la méthode paranoïaque-critique de Dalí, les surréalistes créent un choc visuel permanent qui continue d'irriguer le cinéma, la littérature et l'imaginaire contemporain.</p>
+    `,
+    artists: [
+      {
+        name: "Salvador Dalí",
+        dates: "1904 – 1989",
+        role: "Maître du réalisme onirique & méthode paranoïaque-critique",
+        desc: "Virtuose du détail académique mis au service de délires hallucinatoires (montres molles, tiroirs secrets, paysages catalans de Cadaqués).",
+        artistId: "",
+        icon: "⏰"
+      },
+      {
+        name: "René Magritte",
+        dates: "1898 – 1967",
+        role: "Poète du paradoxe visuel & de la trahison des images",
+        desc: "Maître du surréalisme belge (Ceci n'est pas une pipe, Le Fils de l'homme), questionnant le rapport entre le mot, la pensée et la réalité visuelle.",
+        artistId: "",
+        icon: "🍏"
+      },
+      {
+        name: "Victor Brauner",
+        dates: "1903 – 1966",
+        role: "Surréalisme morphologique, visionnaire et totémique",
+        desc: "Peintre roumain intégré au groupe parisien en 1932, auteur d'autoportraits prémonitoires et de créatures hybrides fascinantes d'une intense puissance ésotérique.",
+        artistId: "brauner",
+        icon: "👁️"
+      },
+      {
+        name: "Max Ernst",
+        dates: "1891 – 1976",
+        role: "Inventeur du frottage, du grattage et des forêts fantastiques",
+        desc: "Passeur essentiel entre Dada et le surréalisme, il libère le hasard technique à travers le frottage et imagine d'immenses forêts pétrifiées peuplées d'oiseaux mythiques.",
+        artistId: "",
+        icon: "🦅"
+      },
+      {
+        name: "Joan Miró",
+        dates: "1893 – 1983",
+        role: "Automatisme poétique, signes célestes et constellations",
+        desc: "Qualifié par Breton du « plus surréaliste de tous », il invente un alphabet visuel féerique fait d'astres, de femmes, d'oiseaux et de lignes dansantes.",
+        artistId: "",
+        icon: "⭐"
+      }
+    ],
+    concurrentHtml: `
+      <p><strong>L'entre-deux-guerres, la montée des périls et l'exil</strong><br>
+      Le surréalisme traverse trois décennies cruciales du XXe siècle :</p>
+      <p><strong>1924 – 1929 : Les Années folles et l'euphorie fragile</strong><br>
+      Après le cataclysme de 1914-1918, Paris vit au rythme du jazz, des avant-gardes et de la fièvre créatrice. Le surréalisme s'organise en groupe militant et publie <em>La Révolution surréaliste</em>.</p>
+      <p><strong>1929 – 1939 : La Grande Dépression et la guerre civile espagnole</strong><br>
+      Le krach boursier de Wall Street en 1929 plonge l'Europe dans la crise et favorise l'avènement des régimes autoritaires. Dalí et Picasso peignent la violence montante (<em>Guernica</em> en 1937).</p>
+      <p><strong>1939 – 1945 : L'Occupation et le refuge de Marseille</strong><br>
+      La guerre disperse le groupe surréaliste. Réfugiés à la Villa Air-Bel à Marseille sous l'aile de Varian Fry, Breton, Ernst, Brauner et Masson attendent des visas d'exil vers l'Amérique, fertilisant à New York les futures avant-gardes.</p>
+    `
+  },
+  "mov_cubisme": {
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczMA3QhdmAe2AgBsSr69Z7B7hpCZuVFX4Wm2DPVzjTRujslDhVMAu_CIfBw6QodiB8qO74bxaxb1kMDK8OEKGPjMsfO966S6g-1fjflgSnaL7MpKEiL-PUc2RsruZtua4p2S1eE0fQQs6CqzAbyvk2zU2g=w1660-h704-s-no-gm?authuser=0",
+    badge: "✦ DÉCONSTRUCTION GÉOMÉTRIQUE & PERSPECTIVE SIMULTANÉE",
+    noticeHtml: `
+      <p><strong>La destruction de la perspective albertienne</strong><br>
+      Inauguré en 1907 par Pablo Picasso avec <em>Les Demoiselles d'Avignon</em> et développé dans une complicité intellectuelle totale avec Georges Braque (« cordée en montagne »), le cubisme constitue la rupture spatiale la plus décisive depuis la Renaissance italienne.</p>
+      <p>S'inspirant de la consigne célèbre de Paul Cézanne de « traiter la nature par le cylindre, la sphère et le cône » et foudroyés par la force stylisée des masques d'Afrique subsaharienne, Picasso et Braque refusent de copier l'apparence des objets selon un point de vue unique. Ils brisent les volumes en facettes géométriques juxtaposées, permettant de contempler simultanément un visage ou un instrument de musique de face, de profil et d'en haut.</p>
+      <p><strong>Du cubisme analytique au cubisme synthétique</strong><br>
+      Entre 1909 et 1912 (cubisme analytique), la palette se réduit à des camaïeux austères d'ocre, de gris et de brun, confinant presque à l'abstraction hermétique. Puis, à partir de 1912 (cubisme synthétique), Braque invente les <em>papiers collés</em> et les toiles s'ouvrent à nouveau à la couleur, incorporant des coupures de journaux réels, des partitions et des imitations de faux bois.</p>
+    `,
+    artists: [
+      {
+        name: "Georges Braque",
+        dates: "1882 – 1963",
+        role: "Co-fondateur du cubisme & inventeur des papiers collés",
+        desc: "Artiste normand essentiel, premier compagnon d'armes de Picasso, inventeur des premiers papiers collés et maître de la nature morte géométrique.",
+        artistId: "braque",
+        icon: "🎸"
+      },
+      {
+        name: "Pablo Picasso",
+        dates: "1881 – 1973",
+        role: "Génie protéiforme du XXe siècle & créateur des Demoiselles d'Avignon",
+        desc: "Peintre espagnol au Bateau-Lavoir à Montmartre, catalysant la rupture cubiste en 1907 avec Les Demoiselles d'Avignon.",
+        artistId: "",
+        icon: "🎭"
+      },
+      {
+        name: "Juan Gris",
+        dates: "1887 – 1927",
+        role: "Le mathématicien poétique du cubisme synthétique",
+        desc: "Peintre madrilène d'une rigueur absolue, donnant au cubisme une clarté harmonique et une pureté architecturale exemplaire.",
+        artistId: "",
+        icon: "📐"
+      }
+    ],
+    concurrentHtml: `
+      <p><strong>L'Europe d'avant 1914 : Belle Époque et effervescence technique</strong><br>
+      Le cubisme éclot au moment où le monde entre dans la modernité mécanique accélérée : l'automobile, l'aviation balbutiante (Blériot traverse la Manche en 1909), l'électricité et les théories de la relativité d'Einstein qui bouleversent la perception de l'espace et du temps.</p>
+    `
+  },
+  "mov_fauvisme": {
+    bannerImg: "",
+    badge: "✦ ÉMANCIPATION DE LA COULEUR PURE & LUMIÈRE INCANDESCENTE",
+    noticeHtml: `
+      <p><strong>« La cage aux fauves » au Salon d'Automne de 1905</strong><br>
+      Au Salon d'Automne de 1905 à Paris, devant les toiles incandescentes d'Henri Matisse, d'André Derain et de Maurice de Vlaminck exposées autour d'un buste classique, le critique Louis Vauxcelles s'écrie : « <em>Donatello parmi les fauves !</em> ». Le mot est lancé : le premier scandale esthétique du XXe siècle vient de naître.</p>
+      <p>Les Fauves libèrent la couleur de toute obligation imitative : un arbre peut être écarlate, un ciel jaune d'or, une ombre violette. La couleur devient une force expressive autonome, posée en aplats éclatants sortis du tube, traduisant l'ivresse sensorielle des artistes face au soleil du Midi (Collioure) ou aux bords de Seine.</p>
+    `,
+    artists: [
+      { name: "Henri Matisse", dates: "1869 – 1954", role: "Chef de file du fauvisme & maître du dessin et de la couleur", desc: "Auteur de La Femme au chapeau et de La Joie de vivre, il subordonne toute la composition au rythme joyeux de la couleur.", artistId: "", icon: "🎨" },
+      { name: "André Derain", dates: "1880 – 1954", role: "Virtuose des scènes de port et de Collioure", desc: "Partageant l'été 1905 avec Matisse à Collioure, il peint des marines et des vues de Londres aux tonalités flamboyantes.", artistId: "", icon: "⛵" },
+      { name: "Maurice de Vlaminck", dates: "1876 – 1958", role: "Tempérament fougueux et passion van goghienne", desc: "Autodidacte révolté, il revendique peindre « avec son cœur et ses tripes » dans une pâte épaisse aux couleurs incandescentes.", artistId: "", icon: "🔥" }
+    ],
+    concurrentHtml: `
+      <p><strong>1900 – 1910 : L'Exposition universelle et l'aube du siècle</strong><br>
+      Paris célèbre l'inauguration du métropolitain et la fée électricité. Les empires coloniaux atteignent leur apogée tandis que les tensions nationalistes se crispent en Europe.</p>
+    `
+  },
+  "mov_dada": {
+    bannerImg: "",
+    badge: "✦ INSURRECTION DU HASARD, SCANDALE & ANTI-ART",
+    noticeHtml: `
+      <p><strong>La révolte du Cabaret Voltaire (Zurich, 1916)</strong><br>
+      En pleine Première Guerre mondiale, dans la Suisse neutre, un groupe de poètes et d'artistes exilés (Hugo Ball, Tristan Tzara, Jean Arp, Marcel Janco) fonde le Cabaret Voltaire à Zurich. Face à la boucherie industrielle des tranchées cautionnée par les élites bourgeoises, ils choisissent au hasard le mot « Dada » dans un dictionnaire.</p>
+      <p>Dada n'est pas un mouvement : c'est un état d'esprit, une déflagration nihiliste et festive qui tourne en dérision les musées, la logique, la patrie et la morale. À New York, Duchamp et Picabia créent l'anti-art ; à Berlin, Grosz et Heartfield inventent le photomontage politique au vitriol.</p>
+    `,
+    artists: [
+      { name: "Marcel Duchamp", dates: "1887 – 1968", role: "Père spirituel de Dada à New York", desc: "Avec Picabia et Man Ray, il diffuse l'ironie dadaïste et détourne la Joconde (L.H.O.O.Q.).", artistId: "duchamp", icon: "🚲" },
+      { name: "Tristan Tzara", dates: "1896 – 1963", role: "Poète et porte-voix des manifestes Dada", desc: "Auteur des manifestes incendiaires prônant la poésie découpée au hasard dans les journaux.", artistId: "", icon: "📰" },
+      { name: "Jean Arp", dates: "1886 – 1966", role: "Pionnier du collage selon les lois du hasard", desc: "Sculpteur et peintre alsacien concevant des reliefs biomorphiques guidés par la nature.", artistId: "", icon: "🌿" }
+    ],
+    concurrentHtml: `
+      <p><strong>1914 – 1918 : Le suicide de l'Europe dans les tranchées</strong><br>
+      L'apocalypse de la Grande Guerre tue vingt millions d'hommes et emporte avec elle les empires tsariste, austro-hongrois et ottoman. En 1917, la Révolution russe éclate à Pétrograd.</p>
+    `
+  },
+  "mov_expressionnisme_abstrait": {
+    bannerImg: "",
+    badge: "✦ ACTION PAINTING, COLOR FIELD & ÉCOLE DE NEW YORK",
+    noticeHtml: `
+      <p><strong>L'École de New York et la souveraineté du geste</strong><br>
+      Au lendemain de la Seconde Guerre mondiale, New York s'affirme comme le nouveau centre mondial des avant-gardes artistiques. Des artistes marqués par le surréalisme en exil et la tragédie de la guerre inventent l'<em>Expressionnisme Abstrait</em>.</p>
+      <p>Deux grandes tendances majeures s'affrontent et se complètent : l'<strong>Action Painting</strong> de Jackson Pollock, qui pose sa toile au sol et invente le <em>dripping</em> (égouttement de peinture rythmé par tout le corps) et de Willem de Kooning ; et le <strong>Color Field Painting</strong> de Mark Rothko et Barnett Newman, déployant de monumentaux aplats de couleurs vibrantes et mystiques invitant à une contemplation quasi religieuse.</p>
+    `,
+    artists: [
+      { name: "Jackson Pollock", dates: "1912 – 1956", role: "Créateur du dripping & héros de l'Action Painting", desc: "Révolutionne l'acte de peindre en versant la peinture industrielle directement sur la toile posée à même le sol.", artistId: "", icon: "🎨" },
+      { name: "Mark Rothko", dates: "1903 – 1970", role: "Maître du Color Field & contemplation mystique", desc: "Immenses rectangles de couleurs suspendues aux bords vaporeux créant un champ émotionnel immersif.", artistId: "", icon: "🟥" },
+      { name: "Willem de Kooning", dates: "1904 – 1997", role: "Touche gestuelle violente & série des Women", desc: "Peintre d'origine néerlandaise conjuguant abstraction vigoureuse et réminiscences figuratives sauvages.", artistId: "", icon: "🖌️" }
+    ],
+    concurrentHtml: `
+      <p><strong>1945 – 1965 : L'après-guerre et la Guerre froide</strong><br>
+      Reconstruction de l'Europe sous le plan Marshall, émergence de la superpuissance américaine, rideau de fer, guerre de Corée et début de la guerre du Vietnam.</p>
+    `
+  },
+  "mov_pop_art": {
+    bannerImg: "",
+    badge: "✦ CULTURE DE MASSE, SÉRIGRAPHIE & NOUVEAU RÉALISME",
+    noticeHtml: `
+      <p><strong>L'art à l'heure de la consommation de masse</strong><br>
+      Né en Grande-Bretagne puis explosant aux États-Unis au tournant des années 1960, le <strong>Pop Art</strong> (Popular Art) prend pour sujet exclusif l'imagerie populaire des médias de masse, de la publicité, des comics et de la société de consommation industrielle.</p>
+      <p>Andy Warhol transforme son atelier en « Factory », reproduisant par la sérigraphie industrielle les boîtes de soupe Campbell, les bouteilles de Coca-Cola et les visages des stars (Marilyn Monroe, Elvis Presley). Roy Lichtenstein reproduit les cases de bandes dessinées à grands coups de points trame Ben-Day. Simultanément en France, le <strong>Nouveau Réalisme</strong> (Yves Klein, Arman, César, Niki de Saint Phalle) s'approprie directement le réel et les déchets de la ville moderne.</p>
+    `,
+    artists: [
+      { name: "Andy Warhol", dates: "1928 – 1987", role: "Pape du Pop Art & icône de la culture de masse", desc: "Désacralise l'unicité de l'œuvre d'art par la sérigraphie sérielle et érige la célébrité et la marchandise en nouveaux mythes.", artistId: "", icon: "🥫" },
+      { name: "Roy Lichtenstein", dates: "1923 – 1997", role: "Détournement des comic books & points Ben-Day", desc: "Agrandit à l'échelle monumentale les vignettes de bande dessinée populaire avec leurs trames d'imprimerie.", artistId: "", icon: "💥" },
+      { name: "Yves Klein", dates: "1928 – 1962", role: "L'inventeur de l'IKB (Bleu Klein) & anthropométries", desc: "Pionnier du Nouveau Réalisme, il brevète son bleu outremer pur et utilise le corps de modèles nus comme pinceaux vivants.", artistId: "", icon: "🟦" },
+      { name: "Arman", dates: "1928 – 2005", role: "Accumulations d'objets & colères", desc: "Accumule en vitrines et résines des objets sériels du quotidien, témoin critique de la société d'abondance.", artistId: "arman", icon: "📦" }
+    ],
+    concurrentHtml: `
+      <p><strong>1955 – 1975 : Les Trente Glorieuses, la télévision et Mai 68</strong><br>
+      Épanouissement de la société de consommation américaine et européenne, conquête de la Lune en 1969, guerre du Vietnam, festival de Woodstock et révolution des mœurs.</p>
+    `
+  }
+};
 
 /* ==========================================================================
    REGISTRE INTÉGRAL DES CIVILISATIONS (TEXTES COMPLETS & CONTEXTES MONDIAUX)
@@ -3909,7 +4159,12 @@ function openCivilisationPavilion(civ, initialTab = 'panoramic') {
   const viewTimeline = document.getElementById('view-timeline');
   if (!pavilion || !viewTimeline) return;
 
-  // Applique la couleur de thème de la civilisation
+  const isMov = Boolean(civ.isMovement);
+  const movData = isMov && typeof MODERN_MOVEMENTS_DATA !== 'undefined'
+    ? (MODERN_MOVEMENTS_DATA[civ.id] || MODERN_MOVEMENTS_DATA[civ._mov ? civ._mov.id : ''])
+    : null;
+
+  // Applique la couleur de thème de la civilisation ou du mouvement
   pavilion.style.setProperty('--civ-theme-color', civ.themeColor || '#d4af37');
 
   // En-tête du pavillon
@@ -3920,21 +4175,36 @@ function openCivilisationPavilion(civ, initialTab = 'panoramic') {
   if (titleEl) titleEl.textContent = civ.name;
   if (epochEl) epochEl.textContent = civ.epoch;
 
-  // Volet 1 : Présentation & Histoire
+  // Bandeau supérieur & badge
   const bannerBox = document.getElementById('pavilion-banner-box');
   const bannerImg = document.getElementById('pavilion-banner-img');
-  const noticeText = document.getElementById('pavilion-notice-text');
-  const albumsGrid = document.getElementById('pavilion-albums-grid');
+  const heroBadge = bannerBox ? bannerBox.querySelector('.hero-banner-badge') : null;
 
-  if (civ.bannerImg && bannerImg && bannerBox) {
-    bannerImg.src = civ.bannerImg;
+  const finalBannerUrl = (movData && movData.bannerImg) || civ.bannerImg || '';
+  if (finalBannerUrl && bannerImg && bannerBox) {
+    bannerImg.src = finalBannerUrl;
     bannerBox.style.display = 'block';
   } else if (bannerBox) {
     bannerBox.style.display = 'none';
   }
 
+  if (heroBadge) {
+    heroBadge.textContent = isMov
+      ? ((movData && movData.badge) || '✦ AVANT-GARDE & RÉVOLUTION ESTHÉTIQUE DU XXe SIÈCLE')
+      : '✦ RECONSTITUTION & VIE HISTORIQUE';
+  }
+
+  // 1. VOLET DE GAUCHE : NOTICE & HISTOIRE DU COURANT / DE LA CIVILISATION
+  const panelNoticeTag = document.querySelector('#panel-notice .panel-tag');
+  if (panelNoticeTag) {
+    panelNoticeTag.textContent = isMov ? '✦ HISTOIRE & MANIFESTE ESTHÉTIQUE' : '✦ HISTOIRE & GENÈSE';
+  }
+
+  const noticeText = document.getElementById('pavilion-notice-text');
+  const albumsGrid = document.getElementById('pavilion-albums-grid');
+
   if (noticeText) {
-    noticeText.innerHTML = civ.presentationHtml || '<p>Notice muséographique en cours d\'enrichissement.</p>';
+    noticeText.innerHTML = (movData && movData.noticeHtml) || civ.presentationHtml || '<p>Notice muséographique en cours d\'enrichissement.</p>';
   }
 
   if (albumsGrid) {
@@ -3965,13 +4235,38 @@ function openCivilisationPavilion(civ, initialTab = 'panoramic') {
     }
   }
 
-  // Volet 2 : Carte Régionale HD ou Carte Géographique Dédiée
-  renderPavilionMap(civ);
+  // 2. VOLET MILIEU HAUT : ARTISTES MAJEURS (MOUVEMENT) OU CARTE GÉOGRAPHIQUE (CIVILISATIONS)
+  const panelMapTag = document.querySelector('#panel-map .panel-tag');
+  const panelMapHint = document.querySelector('#panel-map .panel-tag-hint');
+  if (isMov) {
+    if (panelMapTag) panelMapTag.textContent = '✦ FIGURES DE PROUE & ARTISTES MAJEURS';
+    if (panelMapHint) panelMapHint.textContent = '🎨 Artistes phares';
+    renderMovementArtists(civ, movData);
+  } else {
+    if (panelMapTag) panelMapTag.textContent = '✦ CARTE RÉGIONALE & GÉOGRAPHIE';
+    if (panelMapHint) panelMapHint.textContent = '🔍 Plein écran';
+    renderPavilionMap(civ);
+  }
 
-  // Volet 3 : Contexte Mondial & Repères Synchrones
+  // 3. VOLET MILIEU BAS : ET PENDANT CE TEMPS-LÀ (CONTEXTE HISTORIQUE SYNCHRONE)
+  const panelConcurrentTag = document.querySelector('#panel-concurrent .panel-tag');
+  if (panelConcurrentTag) {
+    panelConcurrentTag.textContent = isMov
+      ? '✦ ET PENDANT CE TEMPS-LÀ... (CONTEXTE DU XXe SIÈCLE)'
+      : '✦ ET PENDANT CE TEMPS-LÀ... (CONTEXTE MONDIAL)';
+  }
+
   const concurrentText = document.getElementById('pavilion-concurrent-text');
   if (concurrentText) {
-    concurrentText.innerHTML = civ.concurrentHtml || '<p>Contexte mondial synchrone en cours d\'enrichissement pour cette époque.</p>';
+    concurrentText.innerHTML = (movData && movData.concurrentHtml) || civ.concurrentHtml || '<p>Contexte mondial synchrone en cours d\'enrichissement pour cette époque.</p>';
+  }
+
+  // 4. VOLET DE DROITE : TOURNANTS CONTEMPORAINS & ÉMULATION
+  const panelMilestonesTag = document.querySelector('#panel-milestones .panel-tag');
+  if (panelMilestonesTag) {
+    panelMilestonesTag.textContent = isMov
+      ? '✦ COURANTS & ÉVÉNEMENTS DU XXe SIÈCLE'
+      : '✦ TOURNANTS & ÉVÉNEMENTS CONTEMPORAINS';
   }
 
   const concurrentMilestonesCol = document.getElementById('concurrent-milestones-col');
@@ -3979,8 +4274,10 @@ function openCivilisationPavilion(civ, initialTab = 'panoramic') {
     concurrentMilestonesCol.innerHTML = '';
 
     // A. Événements historiques majeurs contemporains
+    const yStart = (typeof civ.yearStart === 'number') ? civ.yearStart : (civ._mov ? civ._mov.yearStart : 1900);
+    const yEnd = (typeof civ.yearEnd === 'number') ? civ.yearEnd : (civ._mov ? civ._mov.yearEnd : 1970);
     const contemporanMilestones = Array.isArray(HISTORICAL_MILESTONES)
-      ? HISTORICAL_MILESTONES.filter(m => m.year >= (civ.yearStart - 120) && m.year <= (civ.yearEnd + 120))
+      ? HISTORICAL_MILESTONES.filter(m => m.year >= (yStart - 15) && m.year <= (yEnd + 15))
       : [];
 
     if (contemporanMilestones.length > 0) {
@@ -3989,7 +4286,7 @@ function openCivilisationPavilion(civ, initialTab = 'panoramic') {
       section1.innerHTML = `
         <div class="concurrent-section-title">
           <span>⚔️</span>
-          <span>TOURNANTS &amp; ÉVÉNEMENTS HISTORIQUES CONTEMPORAINS</span>
+          <span>TOURNANTS HISTORIQUES DU SIÈCLE</span>
         </div>
         <div class="concurrent-milestones-list">
           ${contemporanMilestones.slice(0, 8).map(m => `
@@ -4007,51 +4304,128 @@ function openCivilisationPavilion(civ, initialTab = 'panoramic') {
       concurrentMilestonesCol.appendChild(section1);
     }
 
-    // B. Autres foyers artistiques contemporains actifs au même siècle
-    const contemporanPeers = Array.isArray(CIVILISATIONS_REGISTRY)
-      ? CIVILISATIONS_REGISTRY.filter(c => c.id !== civ.id && !(c.yearEnd < civ.yearStart || c.yearStart > civ.yearEnd))
-      : [];
+    // B. Autres foyers artistiques ou avant-gardes actives au même siècle
+    if (isMov) {
+      // Pour les mouvements du XXe siècle : afficher STRICTEMENT les autres avant-gardes contemporaines (JAMAIS l'Égypte antique !)
+      const otherMovements = ART_MOVEMENTS.filter(m =>
+        m.id !== civ.id &&
+        m.lane && m.lane.startsWith('mod_') &&
+        !(m.yearEnd < yStart || m.yearStart > yEnd)
+      );
 
-    if (contemporanPeers.length > 0) {
-      const section2 = document.createElement('div');
-      section2.className = 'concurrent-section-block';
-      section2.innerHTML = `
-        <div class="concurrent-section-title" style="margin-top: 14px;">
-          <span>🌐</span>
-          <span>AUTRES FOYERS ARTISTIQUES ACTIFS AU MÊME SIÈCLE</span>
-        </div>
-        <div class="concurrent-peers-strip">
-          ${contemporanPeers.slice(0, 8).map(peer => `
-            <button type="button" class="concurrent-peer-pill" data-peer-id="${peer.id}" title="${escapeHtmlAttr(peer.name)} (${escapeHtmlAttr(peer.epoch)})">
-              <span>${peer.icon || getCivIcon(peer)}</span>
-              <span>${escapeHtmlAttr(peer.name)}</span>
-            </button>
-          `).join('')}
-        </div>
-      `;
-      section2.querySelectorAll('.concurrent-peer-pill').forEach(pill => {
-        pill.addEventListener('click', (e) => {
-          e.stopPropagation();
-          const pId = pill.getAttribute('data-peer-id');
-          const pCiv = CIVILISATIONS_REGISTRY.find(c => c.id === pId);
-          if (pCiv) openCivilisationPavilion(pCiv, 'panoramic');
+      if (otherMovements.length > 0) {
+        const section2 = document.createElement('div');
+        section2.className = 'concurrent-section-block';
+        section2.innerHTML = `
+          <div class="concurrent-section-title" style="margin-top: 14px;">
+            <span>🌐</span>
+            <span>AUTRES AVANT-GARDES ACTIVES AU MÊME SIÈCLE</span>
+          </div>
+          <div class="concurrent-peers-strip">
+            ${otherMovements.map(pm => `
+              <button type="button" class="concurrent-peer-pill movement-peer-pill" data-mov-id="${pm.id}" style="border-left: 3.5px solid ${pm.color || '#a855f7'};" title="${escapeHtmlAttr(pm.name)} (${pm.yearStart} – ${pm.yearEnd})">
+                <span>✨</span>
+                <span>${escapeHtmlAttr(pm.name)}</span>
+              </button>
+            `).join('')}
+          </div>
+        `;
+        section2.querySelectorAll('.movement-peer-pill').forEach(pill => {
+          pill.addEventListener('click', (e) => {
+            e.stopPropagation();
+            const mId = pill.getAttribute('data-mov-id');
+            const targetMov = ART_MOVEMENTS.find(m => m.id === mId);
+            if (targetMov) {
+              const matchingArts = typeof getArtworksForMovement === 'function' ? getArtworksForMovement(targetMov) : [];
+              const tData = (typeof MODERN_MOVEMENTS_DATA !== 'undefined' && MODERN_MOVEMENTS_DATA[targetMov.id]) || {};
+              openCivilisationPavilion({
+                id: targetMov.id,
+                name: targetMov.name,
+                epoch: `${targetMov.yearStart} – ${targetMov.yearEnd}`,
+                yearStart: targetMov.yearStart,
+                yearEnd: targetMov.yearEnd,
+                themeColor: targetMov.color,
+                lane: targetMov.lane,
+                isMovement: true,
+                icon: '✨',
+                presentationHtml: tData.noticeHtml || `<p><strong>${escapeHtmlAttr(targetMov.name)} (${targetMov.yearStart} – ${targetMov.yearEnd})</strong><br>${escapeHtmlAttr(targetMov.definition)}</p>`,
+                concurrentHtml: tData.concurrentHtml || '',
+                artifacts: matchingArts,
+                bannerImg: targetMov.bannerImg || tData.bannerImg || (matchingArts[0] ? matchingArts[0].imgSrc : ''),
+                _mov: targetMov
+              }, 'panoramic');
+            }
+          });
         });
-      });
-      concurrentMilestonesCol.appendChild(section2);
+        concurrentMilestonesCol.appendChild(section2);
+      }
+    } else {
+      // Pour les civilisations historiques classiques
+      const contemporanPeers = Array.isArray(CIVILISATIONS_REGISTRY)
+        ? CIVILISATIONS_REGISTRY.filter(c => c.id !== civ.id && c.yearStart < 1890 && !(c.yearEnd < yStart || c.yearStart > yEnd))
+        : [];
+
+      if (contemporanPeers.length > 0) {
+        const section2 = document.createElement('div');
+        section2.className = 'concurrent-section-block';
+        section2.innerHTML = `
+          <div class="concurrent-section-title" style="margin-top: 14px;">
+            <span>🌐</span>
+            <span>AUTRES FOYERS ARTISTIQUES ACTIFS AU MÊME SIÈCLE</span>
+          </div>
+          <div class="concurrent-peers-strip">
+            ${contemporanPeers.slice(0, 8).map(peer => `
+              <button type="button" class="concurrent-peer-pill" data-peer-id="${peer.id}" title="${escapeHtmlAttr(peer.name)} (${escapeHtmlAttr(peer.epoch)})">
+                <span>${peer.icon || getCivIcon(peer)}</span>
+                <span>${escapeHtmlAttr(peer.name)}</span>
+              </button>
+            `).join('')}
+          </div>
+        `;
+        section2.querySelectorAll('.concurrent-peer-pill').forEach(pill => {
+          pill.addEventListener('click', (e) => {
+            e.stopPropagation();
+            const pId = pill.getAttribute('data-peer-id');
+            const pCiv = CIVILISATIONS_REGISTRY.find(c => c.id === pId);
+            if (pCiv) openCivilisationPavilion(pCiv, 'panoramic');
+          });
+        });
+        concurrentMilestonesCol.appendChild(section2);
+      }
     }
   }
 
-  // Compteur global collection
-  const countEl = document.getElementById('pavilion-gallery-count');
+  // Calcul dynamique et exact du nombre d'œuvres dans la collection
   const catalog = window.ART_OBJECTS || [];
-  const civCount = catalog.filter(a => a.periodId === civ.id || a.civId === civ.id).length;
+  const civCount = isMov
+    ? (typeof getArtworksForMovement === 'function' ? getArtworksForMovement(civ._mov || civ).length : (civ.artifacts ? civ.artifacts.length : 0))
+    : catalog.filter(a => a.periodId === civ.id || a.civId === civ.id).length;
+
+  const countEl = document.getElementById('pavilion-gallery-count');
   if (countEl) countEl.textContent = civCount;
+
+  // Bouton d'en-tête "Explorer la Collection"
+  const btnPavilionGallery = document.getElementById('btn-pavilion-gallery');
+  if (btnPavilionGallery) {
+    btnPavilionGallery.onclick = (e) => {
+      e.stopPropagation();
+      closeCivilisationPavilion();
+      if (isMov) {
+        goToGalleryForMovement(civ._mov || civ);
+      } else {
+        goToGalleryForCiv(civ);
+      }
+    };
+  }
 
   // Ruban grandiose des chefs-d'œuvre témoins
   const artTrack = document.getElementById('pavilion-art-track');
   if (artTrack) {
     artTrack.innerHTML = '';
-    const artifacts = civ.artifacts || [];
+    const artifacts = isMov && typeof getArtworksForMovement === 'function'
+      ? getArtworksForMovement(civ._mov || civ)
+      : (civ.artifacts || []);
+
     if (artifacts.length > 0) {
       artifacts.forEach((art) => {
         const chip = document.createElement('div');
@@ -4084,13 +4458,17 @@ function openCivilisationPavilion(civ, initialTab = 'panoramic') {
       allCard.className = 'btn-pavilion-view-all-card';
       allCard.innerHTML = `
         <span>🏛️ Explorer toute la collection</span>
-        <strong>(${civCount} œuvres) ➔</strong>
+        <strong>(${civCount} œuvre${civCount > 1 ? 's' : ''}) ➔</strong>
       `;
       allCard.addEventListener('click', (e) => {
         e.stopPropagation();
         const civToOpen = civ;
         closeCivilisationPavilion();
-        goToGalleryForCiv(civToOpen);
+        if (isMov) {
+          goToGalleryForMovement(civToOpen._mov || civToOpen);
+        } else {
+          goToGalleryForCiv(civToOpen);
+        }
       });
       artTrack.appendChild(allCard);
     } else {
@@ -4112,6 +4490,21 @@ function closeCivilisationPavilion() {
   if (viewTimeline) {
     viewTimeline.classList.remove('civ-pavilion-open');
   }
+
+  // Rétablir les labels des panneaux pour les civilisations classiques
+  const panelNoticeTag = document.querySelector('#panel-notice .panel-tag');
+  if (panelNoticeTag) panelNoticeTag.textContent = '✦ HISTOIRE & GENÈSE';
+  const panelMapTag = document.querySelector('#panel-map .panel-tag');
+  if (panelMapTag) panelMapTag.textContent = '✦ CARTE RÉGIONALE & GÉOGRAPHIE';
+  const panelMapHint = document.querySelector('#panel-map .panel-tag-hint');
+  if (panelMapHint) panelMapHint.textContent = '🔍 Plein écran';
+  const panelConcurrentTag = document.querySelector('#panel-concurrent .panel-tag');
+  if (panelConcurrentTag) panelConcurrentTag.textContent = '✦ ET PENDANT CE TEMPS-LÀ... (CONTEXTE MONDIAL)';
+  const panelMilestonesTag = document.querySelector('#panel-milestones .panel-tag');
+  if (panelMilestonesTag) panelMilestonesTag.textContent = '✦ TOURNANTS & ÉVÉNEMENTS CONTEMPORAINS';
+  const heroBadge = document.querySelector('#pavilion-banner-box .hero-banner-badge');
+  if (heroBadge) heroBadge.textContent = '✦ RECONSTITUTION & VIE HISTORIQUE';
+
   currentPavilionCiv = null;
 }
 
@@ -4152,6 +4545,322 @@ function scrollTheatreCardIntoView(civId) {
 
 let lastTimelineCivilisation = null;
 let lastTimelineYear = null;
+
+
+/* ==========================================================================
+   NAVIGATION & GESTION DÉDIÉE DES MOUVEMENTS & MONOGRAPHIES D'ARTISTES
+   ========================================================================== */
+function goToGalleryForMovement(mov) {
+  if (!mov) return;
+  lastTimelineCivilisation = mov;
+
+  // 1. Réinitialiser les filtres annexes
+  const filterCiv = document.getElementById('filter-civ');
+  if (filterCiv) filterCiv.value = 'all';
+  const filterPeriod = document.getElementById('filter-period');
+  if (filterPeriod) filterPeriod.value = 'all';
+  const filterDomain = document.getElementById('filter-domain');
+  if (filterDomain) filterDomain.value = 'all';
+  const filterType = document.getElementById('filter-type');
+  if (filterType) filterType.value = 'all';
+  const artistHero = document.getElementById('artist-monograph-hero');
+  if (artistHero) artistHero.hidden = true;
+
+  // 2. Définir le mouvement actif
+  activeMovementFilter = mov;
+  const filterText = document.getElementById('filter-text');
+  if (filterText) {
+    filterText.value = mov.name;
+  }
+  activeChipExactFilter = '';
+  focusOnlyActive = false;
+  const btnFocus = document.getElementById('btn-filter-focus-only');
+  if (btnFocus) btnFocus.classList.remove('is-active');
+
+  // 3. Activer la barre de retour vers la frise
+  const returnBar = document.getElementById('gallery-return-timeline-bar');
+  const returnLabel = document.getElementById('gallery-return-timeline-label');
+  if (returnBar && returnLabel) {
+    returnLabel.textContent = `Revenir à la Frise Chronologique (${mov.name})`;
+    returnBar.style.display = 'flex';
+  }
+
+  // 4. Basculer et faire le rendu
+  switchView('view-search');
+  renderSearchGallery();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function openMonographForArtistId(artistId) {
+  if (!artistId || !window.ARTISTS_REGISTRY) return;
+  const artistRecord = window.ARTISTS_REGISTRY[artistId];
+  if (!artistRecord) return;
+  openMonographForArtistRecord(artistRecord);
+}
+
+function searchArtistInGallery(artistName) {
+  if (!artistName) return;
+  const filterCiv = document.getElementById('filter-civ');
+  if (filterCiv) filterCiv.value = 'all';
+  const filterPeriod = document.getElementById('filter-period');
+  if (filterPeriod) filterPeriod.value = 'all';
+  const filterDomain = document.getElementById('filter-domain');
+  if (filterDomain) filterDomain.value = 'all';
+  const filterType = document.getElementById('filter-type');
+  if (filterType) filterType.value = 'all';
+  activeMovementFilter = null;
+  activeChipExactFilter = '';
+  const filterText = document.getElementById('filter-text');
+  if (filterText) filterText.value = artistName;
+
+  switchView('view-search');
+  renderSearchGallery();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function openMonographForArtistRecord(artistRecord) {
+  if (!artistRecord) return;
+  const filterText = document.getElementById('filter-text');
+  const filterCiv = document.getElementById('filter-civ');
+  const filterDomain = document.getElementById('filter-domain');
+  const filterSort = document.getElementById('filter-sort');
+  const artistsDrawer = document.getElementById('artists-alphabet-drawer');
+  const artistHero = document.getElementById('artist-monograph-hero');
+  const artistHeroBanner = document.getElementById('artist-hero-banner');
+  const artistHeroName = document.getElementById('artist-hero-name');
+  const artistHeroDates = document.getElementById('artist-hero-dates');
+  const artistHeroTags = document.getElementById('artist-hero-tags');
+  const artistHeroBio = document.getElementById('artist-hero-bio');
+  const corpusDashboard = document.getElementById('artist-corpus-dashboard');
+  const corpusStatTotal = document.getElementById('corpus-stat-total');
+  const corpusStatSeen = document.getElementById('corpus-stat-seen');
+  const corpusStatPercent = document.getElementById('corpus-stat-percent');
+  const corpusStatPercentLabel = document.getElementById('corpus-stat-percent-label');
+  const corpusProgressBar = document.getElementById('corpus-progress-bar');
+  const corpusBreakdownTrack = document.getElementById('corpus-breakdown-track');
+  const corpusBreakdownWrapper = document.getElementById('corpus-breakdown-wrapper');
+  const corpusDetailsRow = document.getElementById('corpus-details-row');
+  const corpusSourceTitle = document.getElementById('corpus-source-title');
+  const sourceDrawerText = document.getElementById('corpus-source-drawer-text');
+  const corpusSourceDrawer = document.getElementById('corpus-source-drawer');
+  const btnToggleCorpusSource = document.getElementById('btn-toggle-corpus-source');
+
+  if (filterText) filterText.value = artistRecord.name;
+  if (filterCiv) filterCiv.value = 'all';
+  if (filterDomain) filterDomain.value = 'all';
+  if (filterSort) filterSort.value = 'chrono-asc';
+  activeMovementFilter = null;
+  activeChipExactFilter = '';
+
+  if (typeof updatePeriodDropdown === 'function') updatePeriodDropdown();
+  if (typeof updateTypeDropdown === 'function') updateTypeDropdown();
+
+  if (artistsDrawer) artistsDrawer.hidden = true;
+  document.querySelectorAll('.btn-alpha-letter').forEach(b => b.classList.remove('active'));
+
+  if (artistRecord && artistHero) {
+    if (artistHeroBanner) {
+      artistHeroBanner.style.backgroundImage = `url('${artistRecord.bannerImg}')`;
+    }
+    if (artistHeroName) artistHeroName.textContent = artistRecord.name;
+    if (artistHeroDates) artistHeroDates.textContent = artistRecord.dates ? `(${artistRecord.dates})` : '';
+
+    if (artistHeroTags) {
+      artistHeroTags.innerHTML = '';
+      const tags = [artistRecord.nationality, artistRecord.movement, artistRecord.techniques].filter(Boolean);
+      tags.forEach(t => {
+        const tagEl = document.createElement('span');
+        tagEl.className = 'artist-hero-tag';
+        tagEl.textContent = t;
+        artistHeroTags.appendChild(tagEl);
+      });
+    }
+
+    if (corpusDashboard) {
+      if (artistRecord.corpus && artistRecord.corpus.total) {
+        const totalCorpus = artistRecord.corpus.total;
+        const seenCorpus = artistRecord.corpus.seen !== undefined ? artistRecord.corpus.seen : 0;
+        const percent = totalCorpus > 0 ? ((seenCorpus / totalCorpus) * 100).toFixed(1) : "0.0";
+
+        if (corpusStatTotal) corpusStatTotal.textContent = `~ ${totalCorpus.toLocaleString('fr-FR')}`;
+        if (corpusStatSeen) corpusStatSeen.textContent = seenCorpus.toLocaleString('fr-FR');
+        if (corpusStatPercent) corpusStatPercent.textContent = `${percent}%`;
+
+        if (corpusStatPercentLabel) {
+          if (artistRecord.corpus.paintingsCount) {
+            const paintSeen = artistRecord.corpus.details ? (artistRecord.corpus.details.find(d => d.icon === '🎨' || d.label.toLowerCase().includes('peinture'))?.seen || seenCorpus) : seenCorpus;
+            const paintPct = ((paintSeen / artistRecord.corpus.paintingsCount) * 100).toFixed(1);
+            corpusStatPercentLabel.innerHTML = `Taux global <span class="stat-subdetail">(${paintPct}% des peintures)</span>`;
+          } else {
+            corpusStatPercentLabel.textContent = "Taux d'observation";
+          }
+        }
+
+        if (corpusProgressBar) {
+          const barWidth = Math.min(100, Math.max(seenCorpus > 0 ? 1.5 : 0, parseFloat(percent)));
+          corpusProgressBar.style.width = `${barWidth}%`;
+        }
+
+        const defaultPalette = ['#d4af37', '#00b4d8', '#2ecc71', '#b5179e', '#f77f00', '#e63946', '#9c88ff'];
+
+        if (corpusBreakdownTrack && corpusBreakdownWrapper) {
+          corpusBreakdownTrack.innerHTML = '';
+          if (artistRecord.corpus.details && artistRecord.corpus.details.length > 0) {
+            artistRecord.corpus.details.forEach((det, idx) => {
+              const seg = document.createElement('div');
+              seg.className = 'corpus-breakdown-segment';
+              const segWidth = ((det.count / totalCorpus) * 100);
+              seg.style.width = `${segWidth}%`;
+              const segColor = det.color || defaultPalette[idx % defaultPalette.length];
+              seg.style.backgroundColor = segColor;
+              seg.setAttribute('title', `${det.label} : ~ ${det.count} (${segWidth.toFixed(1)}%)`);
+              corpusBreakdownTrack.appendChild(seg);
+            });
+            corpusBreakdownWrapper.hidden = false;
+          } else {
+            corpusBreakdownWrapper.hidden = true;
+          }
+        }
+
+        if (corpusDetailsRow) {
+          corpusDetailsRow.innerHTML = '';
+          if (artistRecord.corpus.details && artistRecord.corpus.details.length > 0) {
+            artistRecord.corpus.details.forEach((det, idx) => {
+              const pill = document.createElement('span');
+              pill.className = 'corpus-detail-pill';
+              const color = det.color || defaultPalette[idx % defaultPalette.length];
+              if (det.seen && det.seen > 0) pill.classList.add('has-seen');
+
+              const dot = `<span class="pill-dot" style="background:${color};"></span>`;
+              const icon = det.icon ? `<span class="pill-icon">${det.icon}</span> ` : '';
+              const seenBadge = (det.seen && det.seen > 0) ? ` <span class="pill-seen-tag">👁️ ${det.seen} vue</span>` : '';
+
+              pill.innerHTML = `${dot}${icon}<strong>~ ${det.count.toLocaleString('fr-FR')}</strong> ${det.label}${seenBadge}`;
+              if (det.note) pill.setAttribute('title', det.note);
+              corpusDetailsRow.appendChild(pill);
+            });
+            corpusDetailsRow.hidden = false;
+          } else {
+            corpusDetailsRow.hidden = true;
+          }
+        }
+
+        if (corpusSourceTitle) {
+          corpusSourceTitle.textContent = artistRecord.corpus.sourceTitle || "Source du catalogue";
+        }
+        if (sourceDrawerText) {
+          sourceDrawerText.innerHTML = `
+            <p><strong>${artistRecord.corpus.sourceTitle || 'Corpus de référence'}</strong></p>
+            <p>${artistRecord.corpus.sourceNotes || artistRecord.corpus.source || 'Aucun détail complémentaire.'}</p>
+          `;
+        }
+        if (corpusSourceDrawer) corpusSourceDrawer.hidden = true;
+        if (btnToggleCorpusSource) btnToggleCorpusSource.classList.remove('is-open');
+
+        corpusDashboard.hidden = false;
+      } else {
+        corpusDashboard.hidden = true;
+      }
+    }
+
+    if (artistHeroBio) {
+      const rawBio = artistRecord.bio || '';
+      artistHeroBio.innerHTML = (typeof enrichHTMLWithGlossary === 'function')
+        ? enrichHTMLWithGlossary(rawBio)
+        : rawBio;
+    }
+    artistHero.hidden = false;
+  }
+
+  switchView('view-search');
+  renderSearchGallery();
+  if (artistHero) {
+    artistHero.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+}
+
+function renderMovementArtists(civ, movData) {
+  const mapImg = document.getElementById('pavilion-map-img');
+  const mapBox = document.getElementById('pavilion-map-box');
+  const expandPill = document.getElementById('map-expand-pill');
+  const placeholder = document.getElementById('pavilion-map-placeholder');
+
+  if (mapImg) {
+    mapImg.src = '';
+    mapImg.style.display = 'none';
+  }
+  if (mapBox) {
+    mapBox.style.cursor = 'default';
+    mapBox.title = '';
+    mapBox.onclick = null;
+  }
+  if (expandPill) {
+    expandPill.style.display = 'none';
+  }
+
+  if (placeholder) {
+    const artists = (movData && movData.artists) || [];
+    placeholder.innerHTML = `
+      <div class="mov-artists-container">
+        <div class="mov-artists-header">
+          <span class="mov-header-icon">🎨</span>
+          <div class="mov-header-titles">
+            <h3 class="mov-header-title">Figures de Proue &amp; Créateurs Majeurs</h3>
+            <p class="mov-header-subtitle">${escapeHtmlAttr(civ.name)} (${escapeHtmlAttr(civ.epoch)})</p>
+          </div>
+        </div>
+
+        <div class="mov-artists-list">
+          ${artists.map(art => {
+            const hasMonograph = Boolean(art.artistId && window.ARTISTS_REGISTRY && window.ARTISTS_REGISTRY[art.artistId]);
+            return `
+              <div class="mov-artist-card" style="--civ-theme-color: ${civ.themeColor || '#a855f7'}">
+                <div class="mov-artist-card-top">
+                  <div class="mov-artist-name-wrap">
+                    <span class="mov-artist-icon">${art.icon || '✨'}</span>
+                    <span class="mov-artist-name">${escapeHtmlAttr(art.name)}</span>
+                    <span class="mov-artist-dates">${escapeHtmlAttr(art.dates)}</span>
+                  </div>
+                </div>
+                <div class="mov-artist-role">${escapeHtmlAttr(art.role)}</div>
+                <div class="mov-artist-desc">${escapeHtmlAttr(art.desc)}</div>
+                ${hasMonograph ? `
+                  <button type="button" class="mov-artist-btn btn-view-monograph" data-artist-id="${art.artistId}">
+                    📖 Consulter la monographie &amp; le corpus ➔
+                  </button>
+                ` : `
+                  <button type="button" class="mov-artist-btn btn-search-artist" data-artist-name="${escapeHtmlAttr(art.name)}">
+                    🏛️ Explorer ses œuvres dans la galerie ➔
+                  </button>
+                `}
+              </div>
+            `;
+          }).join('')}
+        </div>
+      </div>
+    `;
+
+    placeholder.querySelectorAll('.btn-view-monograph').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const aId = btn.getAttribute('data-artist-id');
+        closeCivilisationPavilion();
+        openMonographForArtistId(aId);
+      });
+    });
+
+    placeholder.querySelectorAll('.btn-search-artist').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const aName = btn.getAttribute('data-artist-name');
+        closeCivilisationPavilion();
+        searchArtistInGallery(aName);
+      });
+    });
+
+    placeholder.style.display = 'flex';
+  }
+}
 
 function goToGalleryForCiv(civ) {
   if (!civ) return;
@@ -4315,7 +5024,9 @@ function renderSynchronousTheatre(activeCivs, currentYear) {
         if (snippet.length > 400) snippet = snippet.slice(0, 395) + '…';
       }
 
-      const count = catalog.filter(a => a && (a.periodId === civ.id || a.civId === civ.id)).length;
+      const count = (civ.isMovement && typeof getArtworksForMovement === 'function')
+        ? getArtworksForMovement(civ._mov || civ).length
+        : (civ.artifacts ? civ.artifacts.length : catalog.filter(a => a && (a.periodId === civ.id || a.civId === civ.id)).length);
 
       const card = document.createElement('div');
       card.className = 'theatre-civ-card theatre-hero-card';
@@ -4387,7 +5098,11 @@ function renderSynchronousTheatre(activeCivs, currentYear) {
       if (btnGallery) {
         btnGallery.addEventListener('click', (e) => {
           e.stopPropagation();
-          goToGalleryForCiv(civ);
+          if (civ.isMovement) {
+            goToGalleryForMovement(civ._mov || civ);
+          } else {
+            goToGalleryForCiv(civ);
+          }
         });
       }
 
@@ -4423,7 +5138,9 @@ function renderSynchronousTheatre(activeCivs, currentYear) {
         if (snippet.length > 360) snippet = snippet.slice(0, 355) + '…';
       }
 
-      const count = catalog.filter(a => a && (a.periodId === civ.id || a.civId === civ.id)).length;
+      const count = (civ.isMovement && typeof getArtworksForMovement === 'function')
+        ? getArtworksForMovement(civ._mov || civ).length
+        : (civ.artifacts ? civ.artifacts.length : catalog.filter(a => a && (a.periodId === civ.id || a.civId === civ.id)).length);
 
       const card = document.createElement('div');
       card.className = 'theatre-civ-card';
@@ -4471,7 +5188,11 @@ function renderSynchronousTheatre(activeCivs, currentYear) {
       if (btnGallery) {
         btnGallery.addEventListener('click', (e) => {
           e.stopPropagation();
-          goToGalleryForCiv(civ);
+          if (civ.isMovement) {
+            goToGalleryForMovement(civ._mov || civ);
+          } else {
+            goToGalleryForCiv(civ);
+          }
         });
       }
 
@@ -4501,17 +5222,21 @@ function updateSynchronousState(screenX) {
       ART_MOVEMENTS.forEach(mov => {
         if (mov.lane && mov.lane.startsWith('mod_') && currentYear >= mov.yearStart && currentYear <= mov.yearEnd) {
           const matchingArts = typeof getArtworksForMovement === 'function' ? getArtworksForMovement(mov) : [];
+          const movData = (typeof MODERN_MOVEMENTS_DATA !== 'undefined' && MODERN_MOVEMENTS_DATA[mov.id]) || {};
           activeCivs.push({
             id: mov.id,
             name: mov.name,
             epoch: `${mov.yearStart} – ${mov.yearEnd}`,
+            yearStart: mov.yearStart,
+            yearEnd: mov.yearEnd,
             themeColor: mov.color,
             lane: mov.lane,
             isMovement: true,
             icon: '✨',
-            presentationHtml: `<p><strong>${escapeHtmlAttr(mov.name)} (${mov.yearStart} – ${mov.yearEnd})</strong><br>${escapeHtmlAttr(mov.definition)}</p><p><strong>Artistes majeurs :</strong> ${escapeHtmlAttr(mov.keyArtists || '')}</p>`,
+            presentationHtml: movData.noticeHtml || `<p><strong>${escapeHtmlAttr(mov.name)} (${mov.yearStart} – ${mov.yearEnd})</strong><br>${escapeHtmlAttr(mov.definition)}</p><p><strong>Artistes majeurs :</strong> ${escapeHtmlAttr(mov.keyArtists || '')}</p>`,
+            concurrentHtml: movData.concurrentHtml || '',
             artifacts: matchingArts,
-            bannerImg: matchingArts[0] ? matchingArts[0].imgSrc : '',
+            bannerImg: mov.bannerImg || movData.bannerImg || (matchingArts[0] ? matchingArts[0].imgSrc : ''),
             _mov: mov
           });
         }

@@ -8247,3 +8247,150 @@ body {
 
 
 
+
+/* ==========================================================================
+   PAVILLON DÉDIÉ AUX MOUVEMENTS MODERNES & AVANT-GARDES DU XXe SIÈCLE
+   ========================================================================== */
+.mov-artists-container {
+  background: rgba(14, 20, 32, 0.95);
+  border: 1.5px solid rgba(168, 85, 247, 0.4);
+  border-radius: 8px;
+  padding: 16px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  box-shadow: inset 0 0 40px rgba(0, 0, 0, 0.85), 0 8px 30px rgba(0, 0, 0, 0.85);
+  box-sizing: border-box;
+}
+
+.mov-artists-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border-bottom: 1.5px solid rgba(168, 85, 247, 0.3);
+  padding-bottom: 10px;
+}
+
+.mov-artists-header .mov-header-icon {
+  font-size: 2rem;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.mov-artists-header .mov-header-titles {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.mov-artists-header .mov-header-title {
+  font-family: 'Cinzel', serif;
+  font-size: 1.12rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0;
+  letter-spacing: 0.5px;
+}
+
+.mov-artists-header .mov-header-subtitle {
+  font-size: 0.85rem;
+  color: var(--gold-pale, #eed88f);
+  margin: 0;
+}
+
+.mov-artists-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.mov-artist-card {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(168, 85, 247, 0.25);
+  border-left: 3.5px solid var(--civ-theme-color, #a855f7);
+  border-radius: 6px;
+  padding: 10px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  transition: all 0.2s ease;
+}
+
+.mov-artist-card:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(168, 85, 247, 0.55);
+  transform: translateX(2px);
+}
+
+.mov-artist-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.mov-artist-name-wrap {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.mov-artist-icon {
+  font-size: 1.2rem;
+}
+
+.mov-artist-name {
+  font-size: 0.98rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.mov-artist-dates {
+  font-size: 0.8rem;
+  color: #94a3b8;
+}
+
+.mov-artist-role {
+  font-size: 0.85rem;
+  font-style: italic;
+  color: var(--gold-pale, #eed88f);
+}
+
+.mov-artist-desc {
+  font-size: 0.85rem;
+  line-height: 1.45;
+  color: #cbd5e1;
+}
+
+.mov-artist-btn {
+  align-self: flex-start;
+  margin-top: 4px;
+  padding: 5px 12px;
+  font-size: 0.8rem;
+  font-family: inherit;
+  font-weight: 600;
+  color: var(--gold-pale, #eed88f);
+  background: rgba(212, 175, 55, 0.12);
+  border: 1px solid rgba(212, 175, 55, 0.35);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.mov-artist-btn:hover {
+  background: rgba(212, 175, 55, 0.25);
+  border-color: var(--gold, #d4af37);
+  color: #ffffff;
+  transform: scale(1.02);
+}
+
+.movement-peer-pill {
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.movement-peer-pill:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.2);
+}
