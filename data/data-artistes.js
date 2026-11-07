@@ -435,6 +435,39 @@ window.ARTISTS_REGISTRY = {
       sourceNotes: "Aujourd'hui, l'inventaire de référence moderne, établi par l'historien de l'art Frank Zöllner dans son catalogue raisonné publié en 2005 et réédité en 2015, a resserré le corpus pour ne retenir que les œuvres incontestables. Le consensus scientifique s'accorde sur environ 155 peintures (réalisées à la tempera ou à l'huile, sur panneau de bois ou sur toile) entièrement de la main du maître."
     }
   },
+  "boucher": {
+    id: "boucher",
+    name: "Boucher François",
+    sortName: "Boucher François",
+    sortLetter: "B",
+    dates: "1703 – 1770",
+    movement: "Rococo français",
+    nationality: "Français (Paris)",
+    techniques: "Huile sur toile, pastel, dessin à la pierre noire et sanguine, cartons de tapisserie",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczMlC03xq_KqjbDxQowX59mwY1pGkkhLuRpKT7ieme0v19Zt96wtTw_E5o2er6cEgtIYZgnm8AIrlp4DXWTZmeitzVyGd3SzLVqOhJhBcFxkvaq-hwkXRGCfeUKROvTX7oFfExehLunkQoDFIhRdXFPw1Q=w1660-h704-s-no-gm?authuser=0",
+    portraitImg: "",
+    bio: `
+      <p><strong>Premier peintre du Roi et maître incontesté du Rococo français</strong><br>
+      François Boucher (1703 – 1770) est l'artiste le plus emblématique du style Rococo français sous le règne de Louis XV. Premier peintre du Roi et protégé de la Marquise de Pompadour, il incarne l'élégance, la légèreté et la sensualité du XVIIIe siècle. Artiste complet, il a exercé son talent aussi bien dans la peinture que dans le dessin, la gravure, ou la création de décors d'opéra et de cartons de tapisserie pour les manufactures de Beauvais et des Gobelins.</p>
+      <p><strong>Pastorales galantes, mythologie érotisée et palette poudrée</strong><br>
+      Son genre pictural se définit par un goût prononcé pour la pastorale galante et la mythologie érotisée. Boucher délaisse la gravité de la peinture d'histoire pour des scènes de jardins idylliques peuplées de bergers enrubannés et de divinités féminines à la peau nacrée. Son style se caractérise par des compositions en courbes et contre-courbes, une touche fluide et une palette de couleurs acidulées, dominée par les bleus poudrés et les roses tendres.</p>
+      <p><strong>L'évolution du style : de l'Italie aux critiques des Lumières</strong><br>
+      L'évolution de son style montre une maîtrise constante de l'art du décor, mais aussi une adaptation aux goûts de la cour :</p>
+      <p><strong>L'influence italienne :</strong> Ses débuts, après son séjour à Rome, sont marqués par une technique vigoureuse et un intérêt pour les paysages inspirés du XVIIe siècle.</p>
+      <p><strong>Le triomphe du Rococo :</strong> Dans sa maturité, il atteint une virtuosité décorative totale. Ses toiles deviennent des fenêtres ouvertes sur un monde imaginaire et voluptueux, où la nature est toujours domestiquée et les corps idéalisés.</p>
+      <p><strong>La critique des Lumières :</strong> Vers la fin de sa carrière, alors que le néoclassicisme émerge, son style est vivement critiqué par Diderot pour son aspect artificiel et son manque de "morale". Boucher reste pourtant fidèle jusqu'au bout à sa vision d'un art voué au plaisir des yeux et à la célébration de la beauté féminine.</p>
+    `,
+    corpus: {
+      total: 690,
+      seen: 6,
+      paintingsCount: 690,
+      details: [
+        { label: "Peintures au catalogue raisonné (Ananoff & Wildenstein 1976)", count: 690, icon: "🎨", color: "#d4af37", seen: 6, note: "Inventaire exhaustif en deux volumes recensant très exactement 690 peintures" }
+      ],
+      sourceTitle: "Catalogue raisonné Alexandre Ananoff & Daniel Wildenstein (1976)",
+      sourceNotes: "Le catalogue raisonné de référence a été établi par Alexandre Ananoff (en collaboration avec Daniel Wildenstein) et publié en 1976 en deux volumes monumentaux. Cet inventaire exhaustif, qui fait toujours autorité aujourd'hui, recense très exactement 690 peintures."
+    }
+  },
   "cassatt": {
     id: "cassatt",
     name: "Cassatt Mary",
