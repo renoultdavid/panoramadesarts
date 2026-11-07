@@ -1191,7 +1191,8 @@ const BANNERS_REGISTRY = {
   occ_nef: "https://lh3.googleusercontent.com/pw/AP1GczNkfhhZc46ccjVqBWq4p8tLyx95_T1fFFR5cf0yrOtH_5xubpuC8OwbWVBnJlt1FqiFMRUZhaI2-Hoc4yi3qlKy4hsojZMmNjPV4sIjW0HcWoZ9ukMlMv2Um74mranBpSO8RT6qpS75_R0eiA6AGa90EA=w1584-h672-s-no-gm?authuser=0",
   occ_plafond: "https://lh3.googleusercontent.com/pw/AP1GczPh1p3dhk29p-uf_ba8faiJz8m_-XCpWiOVAn0esoiX-7iZB2gqrSsQfRKgSVZMi03-kSIWJci0ttuKetFzSb0Iw2LzCcsv4GUdE-OTRknnMTp5kQjtN7h10G6rT2Us9SGP68XDvoPBW7fTn-0j6FwBdA=w1724-h731-s-no-gm?authuser=0",
   occ_conceptuel: "https://lh3.googleusercontent.com/pw/AP1GczNFrnkU0CB_dyE9L9kLg4n4k3yz2MdGR99oZnTYNwONOOI50XSJFO35HAXs96VEqGpyioETNaU1Ca-jT4-s0kIkQ5_M3GfgH2P72zkEaggGGwp0M3gRyjwKyZraq8aKbNc7O85Lyx1Rc-uh1NHJZGIfJQ=w1724-h731-s-no-gm?authuser=0",
-  occ_livre: "https://lh3.googleusercontent.com/pw/AP1GczPAQ7fZcYAGY0QxJE9AZT4mNvgVg2uH-UezlC7DMeTje_QzQjLi_4u1ok0Nh2oExbARCeDvW2hxGNKrVA6GG6DL30GhfxR7khAtfKlJGI2PbPDNLAQ3GEraSF-wc2mpRfkyZtLLpYPdKnizWiTE9ng2zA=w1724-h731-s-no-gm?authuser=0"
+  occ_livre: "https://lh3.googleusercontent.com/pw/AP1GczPAQ7fZcYAGY0QxJE9AZT4mNvgVg2uH-UezlC7DMeTje_QzQjLi_4u1ok0Nh2oExbARCeDvW2hxGNKrVA6GG6DL30GhfxR7khAtfKlJGI2PbPDNLAQ3GEraSF-wc2mpRfkyZtLLpYPdKnizWiTE9ng2zA=w1724-h731-s-no-gm?authuser=0",
+  occ_mosaique: "https://lh3.googleusercontent.com/pw/AP1GczOUe76szbL4GxtrkYlm4ZQSLqqHVimJIdfUA5uE_sACk078nujNuUcd0S5NDBVO4D7bT1ckedU0FcXvMNG_Eij2yk09oPDRW20L_Cv_AYIdrffQipLaaY46kFFL3JYC-7zWsnby7fullNatqvW4CH6YiA=w1724-h731-s-no-gm?authuser=0"
 };
 
 function getArtworkBanner(art) {
@@ -1321,7 +1322,12 @@ function getArtworkBanner(art) {
     return BANNERS_REGISTRY.meso_uruk;
   }
 
-  // 12. OCCIDENT CHRÉTIEN : NEFS, CLOÎTRES, PLAFONDS & COUPOLES
+  // 12. OCCIDENT CHRÉTIEN : MOSAÏQUES MONUMENTALES (PALÉOCHRÉTIEN, BYZANTIN, ROMAN, GOTHIQUE, RENAISSANCE)
+  if (cId === 'occident' && (aType.includes('mosaïque') || aType.includes('mosaique') || aType.includes('sectile') || aType.includes('tessellatum') || aType.includes('cuve baptismale') || fullText.includes('aquilée') || fullText.includes('san vitale') || fullText.includes('galla placidia') || fullText.includes('sant\'apollinare') || fullText.includes('saint-apollinaire') || fullText.includes('baptistère des orthodoxes') || fullText.includes('baptistère des ariens') || fullText.includes('cefalù') || fullText.includes('monreale') || fullText.includes('martorana') || fullText.includes('san miniato al monte') || fullText.includes('pomposa') || fullText.includes('bekalta') || fullText.includes('daphni') || fullText.includes('hosios loukas') || fullText.includes('porta della mandorla'))) {
+    return BANNERS_REGISTRY.occ_mosaique;
+  }
+
+  // 13. OCCIDENT CHRÉTIEN : NEFS, CLOÎTRES, PLAFONDS & COUPOLES
   if (art.artifactType === "Plafond, Voûte & Coupole" || aType.includes("plafond") || aType.includes("coupole") || aType.includes("cimborrio") || (cId === 'occident' && (fullText.includes('coupole') || fullText.includes('cimborrio') || fullText.includes('voûte étoilée') || fullText.includes('voûte en éventail')))) {
     return BANNERS_REGISTRY.occ_plafond;
   }
@@ -6401,8 +6407,14 @@ const TAXONOMY_DOMAINS = {
   "peinture_mosaique": {
     label: "Peinture murale, Tableaux & Mosaïque",
     types: [
-      "Mosaïque de pavement / murale", "Peinture murale / Fresque",
-      "Peinture pariétale rupestre", "Peinture sur panneau de bois",
+      "Cuve baptismale mosaïquée",
+      "Mosaïque de façade & de lunette",
+      "Mosaïque de pavement (opus tessellatum & sectile)",
+      "Mosaïque de pavement / murale",
+      "Mosaïque murale, d'abside & de voûte",
+      "Peinture murale / Fresque",
+      "Peinture pariétale rupestre",
+      "Peinture sur panneau de bois",
       "Peinture sur toile (chevalet)"
     ]
   },

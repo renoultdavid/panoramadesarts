@@ -422,6 +422,30 @@ window.ART_TYPOLOGY_DEFINITIONS = {
   },
 
   // --- PEINTURE MURALE, TABLEAUX & MOSAÏQUE ---
+  "Mosaïque de pavement (opus tessellatum & sectile)": {
+    title: "Mosaïque de pavement (Opus tessellatum & Opus sectile)",
+    etymology: "Du latin tessella (« petit dé ») et sectile (« découpé »)",
+    domain: "Pavements & Tapis liturgiques de pierre",
+    def: "Décor monumental au sol composé soit de milliers de petits cubes réguliers de calcaire, marbre et terre cuite assemblés dans un mortier fin (opus tessellatum à Aquilée, Ravenne, Bari), soit d'une marqueterie de plaques géométriques de marbres précieux, porphyre rouge et serpentine verte découpées selon le dessin (opus sectile et style cosmatesque à Pomposa et Venise)."
+  },
+  "Mosaïque murale, d'abside & de voûte": {
+    title: "Mosaïque murale, d'abside & de voûte céleste",
+    etymology: "Pâtes de verre polychromes et feuilles d'or",
+    domain: "Art monumental paléochrétien & byzantin",
+    def: "Revêtement sommital et pariétal par excellence des basiliques chrétiennes et des baptistères (Ravenne, Cefalù, Palerme, Monreale, Florence, Daphni). Les tesselles de pâte de verre colorée (smalts) et de verre doré à la feuille d'or sont posées avec de légères inclinaisons pour capter la lumière naturelle et celle des cierges, créant un espace sacré scintillant et immatériel."
+  },
+  "Mosaïque de façade & de lunette": {
+    title: "Mosaïque de façade & de lunette monumentale",
+    etymology: "Décor extérieur sur fond d'or",
+    domain: "Architecture sacrée & Façades",
+    def: "Composition en mosaïque insérée dans le tympan d'un portail ou le fronton supérieur d'une façade d'église (ex. San Miniato al Monte, Porta della Mandorla du Duomo de Florence par Domenico Ghirlandaio), agissant comme un phare spirituel et visuel protecteur pour la cité."
+  },
+  "Cuve baptismale mosaïquée": {
+    title: "Cuve baptismale polylobée en mosaïque",
+    etymology: "Mobilier liturgique paléochrétien",
+    domain: "Art sacré & Rites baptismaux",
+    def: "Bassin liturgique maçonné ou monoxyle à plan polylobé ou cruciforme (comme à Bekalta en Tunisie byzantine), entièrement tapissé de mosaïques figurant poissons, rinceaux paradisiaques et croix pour sanctifier le rite de la régénération et de la renaissance spirituelle."
+  },
   "Mosaïque de pavement / murale": {
     title: "Mosaïque (Opus tessellatum / vermiculatum)",
     etymology: "Du latin musivum opus, « ouvrage dédié aux Muses »",
