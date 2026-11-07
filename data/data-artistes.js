@@ -468,6 +468,105 @@ window.ARTISTS_REGISTRY = {
       sourceNotes: "Le catalogue raisonné de référence a été établi par Alexandre Ananoff (en collaboration avec Daniel Wildenstein) et publié en 1976 en deux volumes monumentaux. Cet inventaire exhaustif, qui fait toujours autorité aujourd'hui, recense très exactement 690 peintures."
     }
   },
+  "boudin": {
+    id: "boudin",
+    name: "Boudin Eugène",
+    sortName: "Boudin Eugène",
+    sortLetter: "B",
+    dates: "1824 – 1898",
+    movement: "Précurseur de l'Impressionnisme & Marines normandes",
+    nationality: "Français (Honfleur, Normandie)",
+    techniques: "Huile sur toile, sur panneau et carton, pastel sur papier, peinture sur le motif",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczMN6bP7JV5-Licu4xr2KX-5l7YG9BJ3TzgsAqh7esL7gizFynGOHGcNDc4jQCon1dlgZRwX2DuBCtXqm9ZeUVx3z-h0OLn9xKpNqrLvZKH_DGTbRAfhOG3r65OhS0gbDNGHrfEe38TWq39-pjlg9NOiCw=w1660-h704-s-no-gm?authuser=0",
+    portraitImg: "",
+    bio: `
+      <p><strong>Le « Roi des ciels » et maître initiateur de Claude Monet</strong><br>
+      Eugène Boudin (1824 – 1898) est le « Roi des ciels », selon les mots célèbres de Camille Corot. Fils d'un marin normand d'Honfleur, il a consacré sa vie à peindre la rencontre mouvante de la mer, de la terre et de l'air. Son rôle historique dans la révolution picturale moderne est immense : il est celui qui a sorti le jeune Claude Monet de l'atelier pour lui apprendre à peindre directement en plein air, devenant ainsi le précurseur indispensable et le père spirituel de l'impressionnisme.</p>
+      <p><strong>Primauté atmosphérique, vibration de la touche et vérité marine</strong><br>
+      Son genre pictural se définit par la marine, la scène de plage et l'étude atmosphérique. Son style se caractérise par une primauté absolue accordée au ciel, qui occupe souvent les deux tiers de la toile. Il utilise une touche rapide et fragmentée pour capturer l'instantanéité de la lumière, l'humidité de l'air normand et le mouvement des nuages, tout en conservant une précision marine exemplaire dans le dessin des coques et des gréements.</p>
+      <p><strong>L'évolution du style : de la chronique mondaine à la sensation pure</strong><br>
+      L'évolution de son style marque une libération progressive vers la peinture de pure sensation :</p>
+      <p><strong>La découverte du littoral (années 1850) :</strong> Ses premières œuvres sont des paysages de ferme ou de ports d'une facture encore assez traditionnelle, mais déjà habités par une lumière argentée très personnelle.</p>
+      <p><strong>L'invention de la « Scène de plage » (années 1860) :</strong> C'est sa période la plus célèbre. Il peint la haute société du Second Empire sur les plages de Trouville ou Deauville. Son style joue sur le contraste entre l'immensité du ciel changeant et les silhouettes colorées des élégantes en crinolines, traitées par petites touches vives.</p>
+      <p><strong>La maturité et le voyage (années 1870-1890) :</strong> Sa touche devient de plus en plus libre, presque vaporeuse. Il voyage à Venise, à Bordeaux ou sur la Côte d'Azur, mais revient toujours à la lumière grise et nacrée du Nord. À la fin de sa vie, ses études de ciels et de vagues, dépourvues de présence humaine, confinent à l'abstraction atmosphérique.</p>
+    `,
+    corpus: {
+      total: 4000,
+      seen: 3,
+      paintingsCount: 4000,
+      details: [
+        { label: "Peintures au catalogue raisonné (Robert Schmit 1973-1993)", count: 4000, icon: "🎨", color: "#d4af37", seen: 3, note: "Plus de 4 000 huiles sur toile, bois ou carton authentifiées et répertoriées" }
+      ],
+      sourceTitle: "Catalogue raisonné Robert Schmit (3 volumes 1973 + 2 suppléments 1984 & 1993)",
+      sourceNotes: "Le catalogue raisonné de référence pour son œuvre peint a été établi par Robert Schmit. Il s'agit d'une somme monumentale initialement publiée en 1973 en trois volumes, qui a ensuite été enrichie de deux suppléments parus en 1984 et 1993. En compilant l'ensemble de ces tomes, le nombre total d'huiles (sur toile, sur bois ou sur carton) authentifiées et répertoriées dépasse les 4 000 œuvres."
+    }
+  },
+  "braque": {
+    id: "braque",
+    name: "Braque Georges",
+    sortName: "Braque Georges",
+    sortLetter: "B",
+    dates: "1882 – 1963",
+    movement: "Cubisme (pionnier & cofondateur) & Art moderne",
+    nationality: "Français (Argenteuil / Paris)",
+    techniques: "Huile sur toile, papiers collés, ripolin, sable et sciure, gravure, décor monumental",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczMA3QhdmAe2AgBsSr69Z7B7hpCZuVFX4Wm2DPVzjTRujslDhVMAu_CIfBw6QodiB8qO74bxaxb1kMDK8OEKGPjMsfO966S6g-1fjflgSnaL7MpKEiL-PUc2RsruZtua4p2S1eE0fQQs6CqzAbyvk2zU2g=w1660-h704-s-no-gm?authuser=0",
+    portraitImg: "",
+    bio: `
+      <p><strong>Cofondateur du Cubisme et théoricien de la matérialité picturale</strong><br>
+      Georges Braque (1882 – 1963) est, avec Pablo Picasso, le père fondateur du Cubisme. Peintre, graveur et sculpteur français, il a mené une quête acharnée sur la perception de l'espace et la matérialité de l'objet. Contrairement à la fougue expressive de Picasso, Braque a apporté au cubisme une réflexion méthodique, une harmonie chromatique et une sensibilité poétique qui font de lui l'un des piliers majeurs de l'art moderne du XXe siècle.</p>
+      <p><strong>Déconstruction de la perspective, papiers collés et expérience tactile</strong><br>
+      Son genre pictural est indissociable de la déconstruction de la perspective monofocale. Braque ne cherche pas à copier l'objet, mais à en donner une expérience tactile globale. Son style se caractérise par une palette sobre (terres, gris, ocres), l'usage révolutionnaire de lettres d'imprimerie et l'invention des papiers collés (<em>papier collé</em>). Il fragmente les volumes pour les ramener à la surface de la toile, créant un espace dense où le spectateur doit reconstruire mentalement l'image.</p>
+      <p><strong>L'évolution du style : du fauvisme aux grands signes de l'envol</strong><br>
+      L'évolution de son style est une trajectoire magistrale allant de l'explosion de la couleur vers une méditation sur l'espace :</p>
+      <p><strong>La période Fauve :</strong> À ses débuts, influencé par Henri Matisse, il peint des paysages aux couleurs vibrantes et arbitraires.</p>
+      <p><strong>L'aventure Cubiste (1908 – 1914) :</strong> C'est la phase d'émulation et de collaboration étroite avec Picasso. Il passe du cubisme cézannien (formes géométrisées) au cubisme analytique (objets éclatés en facettes quasi illisibles), puis au cubisme synthétique où il réintroduit la lisibilité par des textures innovantes (peigne à faux bois, incorporation de sable) et des collages.</p>
+      <p><strong>La maturité et les Ateliers :</strong> Après la Première Guerre mondiale, son style s'assouplit. Il revient à des natures mortes plus amples, plus sereines, et termine sa vie sur la série monumentale des <em>Ateliers</em> et des <em>Oiseaux</em> (comme le plafond du Louvre de 1953), où la forme se simplifie jusqu'à devenir un signe pur, presque abstrait, volant dans un espace de couleur pure.</p>
+    `,
+    corpus: {
+      total: 1200,
+      seen: 2,
+      paintingsCount: 1200,
+      details: [
+        { label: "Peintures au catalogue raisonné (Nicole Worms de Romilly / Maeght)", count: 1200, icon: "🎨", color: "#d4af37", seen: 2, note: "Environ 1 200 huiles sur toile et sur panneau recensées à travers les 7 tomes" }
+      ],
+      sourceTitle: "Catalogue de l'œuvre de Georges Braque, Peintures (7 volumes, Maeght 1959-1982)",
+      sourceNotes: "Le catalogue raisonné de référence a été établi par Nicole Worms de Romilly (accompagnée de Jean Laude pour le premier volume) et publié par les éditions Maeght entre 1959 et 1982. Cet inventaire monumental est découpé chronologiquement en 7 grands volumes (1907-1914, 1916-1923, 1924-1927, 1928-1935, 1936-1941, 1942-1947, 1948-1957). En additionnant l'intégralité des huiles sur toile et sur panneau recensées dans ces sept tomes, le nombre total de ses peintures officielles est estimé à environ 1 200 toiles."
+    }
+  },
+  "brauner": {
+    id: "brauner",
+    name: "Brauner Victor",
+    sortName: "Brauner Victor",
+    sortLetter: "B",
+    dates: "1903 – 1966",
+    movement: "Surréalisme, Mythologie ésotérique & Art totémique",
+    nationality: "Roumain (naturalisé français, actif à Paris)",
+    techniques: "Huile sur toile, encaustique (cire gravée et peinte), dessin, objets surréalistes",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczNncCSU6eI6kLKq7IOVLdEU4ZXP9nHzpY012Nws8P9qcKz-fiA7D0M1A07T0NS_b9lrSnqS6NqyUdHtI8KSPi-Jejbp5QsmSNKbFlO7r3ChiZovtS4RAXNF5EL-P3LpWwCryrlWotAuW3oyAE5KchnzbQ=w1660-h704-s-no-gm?authuser=0",
+    portraitImg: "",
+    bio: `
+      <p><strong>Voyant surréaliste, mythologie personnelle et magie totémique</strong><br>
+      Victor Brauner (1903 – 1966), peintre d'origine roumaine installé à Paris, est une figure singulière et fascinante du Surréalisme. Marqué par une vie ponctuée d'événements tragiques et prémonitoires (comme la perte de son œil gauche en 1938 lors d'une rixe, blessure qu'il avait peinte avec une précision troublante sept ans plus tôt dans son <em>Autoportrait à l'œil énucléé</em>), il développe une œuvre profondément ésotérique, puisant ses racines dans la psychanalyse, l'alchimie, les sciences occultes et les arts primitifs.</p>
+      <p><strong>Créatures hybrides, écriture talismanique et peinture à la cire</strong><br>
+      Son genre pictural se définit par la création d'une mythologie personnelle peuplée de créatures hybrides, d'êtres androgynes et de symboles magiques. Il s'éloigne rapidement du surréalisme illusionniste de ses débuts pour inventer une iconographie plate, bidimensionnelle, souvent inspirée des hiéroglyphes ou des motifs précolombiens. Durant la Seconde Guerre mondiale, réfugié dans les Alpes pour échapper aux persécutions antisémites, il invente la technique de la peinture à la cire (encaustique sur papier ou carton), qui confère à ses œuvres un aspect d'objet archéologique, d'ex-voto ou de talisman protecteur.</p>
+      <p><strong>L'évolution du style : de l'angoisse prémonitoire à la synthèse hiératique</strong><br>
+      L'évolution de son style, dont témoigne l'œuvre <em>Arbre n° 2</em> (1957) conservée au MAMCS, montre un passage vers une simplification hiératique et apaisée :</p>
+      <p><strong>Géométrisation des formes :</strong> À cette période tardive, Brauner délaisse le foisonnement organique pour des structures plus rigides et symétriques, où les figures deviennent des signes totémiques presque abstraits.</p>
+      <p><strong>Intensité chromatique :</strong> Sa palette se radicalise avec des contrastes de couleurs pures (orange, violet, bleu) qui renforcent la dimension spirituelle et vibratoire de l'image.</p>
+      <p><strong>Synthèse finale :</strong> L'artiste cherche alors à atteindre une forme d'universalité primitive, transformant le sujet en une idole géométrique protectrice, libérée de toute perspective classique.</p>
+    `,
+    corpus: {
+      total: 1200,
+      seen: 10,
+      paintingsCount: 1200,
+      details: [
+        { label: "Peintures et œuvres à la cire (estimation référente Kinge)", count: 1200, icon: "🎨", color: "#d4af37", seen: 10, note: "Plafond estimatif de référence dans l'attente du catalogue raisonné officiel" }
+      ],
+      sourceTitle: "Plafond estimatif Samy Kinge (catalogue raisonné en cours)",
+      sourceNotes: "En attendant la publication historique du catalogue raisonné de Samy Kinge qui viendra sceller un total exact au tableau près, la jauge est établie sur un plafond estimatif de 1 200 œuvres (huiles, cires et tableaux-objets)."
+    }
+  },
   "cassatt": {
     id: "cassatt",
     name: "Cassatt Mary",
