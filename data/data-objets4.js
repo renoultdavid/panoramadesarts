@@ -1,5 +1,6 @@
 /* ==========================================================================
    REGISTRE COMPLET DES NOTICES D'ŒUVRES D'ART - VOLUME 4
+   - Orfèvrerie d'Occident & Trésors de cathédrales (Fribourg, etc.)
    - Mosaïques d'Occident & d'Italie chrétienne (Aquilée, Ravenne,
      Cefalù, Palerme, Monreale, Florence, Daphni, Hosios Loukas)
    - Art Conceptuel & Avant-Gardes du XXe Siècle (Duchamp, Arman)
@@ -8,6 +9,41 @@
      Rösel von Rosenhof)
    ========================================================================== */
 window.ART_OBJECTS = [
+  {
+    "id": "occ_orfevrerie_fribourg_buste_saint_lambert_1514",
+    "civId": "occident",
+    "periodId": "occ_renaissance",
+    "civName": "Occident : Renaissance & Débuts du XVIe Siècle",
+    "century": "XVIe siècle (vers 1514-1515, transition gothique tardif - Renaissance)",
+    "centuryDisplay": "XVIe s. (1514-15)",
+    "centuryNumeric": 1514,
+    "domain": "parures_metaux",
+    "artifactType": "Orfèvrerie sacrée & Reliquaire",
+    "title": "Buste-reliquaire de saint Lambert en argent doré, pierres précieuses et émaux par Hans von Wendelstorf",
+    "site": "Trésor de la cathédrale Notre-Dame (Fribourg-en-Brisgau, Bade-Wurtemberg, Allemagne)",
+    "originSite": "Fribourg-en-Brisgau (Allemagne)",
+    "locationType": "museum",
+    "currentLocation": "Trésor de la cathédrale de Fribourg-en-Brisgau (Allemagne)",
+    "category": "Orfèvrerie monumentale en argent partiellement doré, ciselure, repoussé, pierreries, cabochons et émaux",
+    "artist": "Hans von Wendelstorf",
+    "isHighlight": true,
+    "chips": [
+      "XVIe s.",
+      "1514",
+      "Orfèvrerie",
+      "Hans von Wendelstorf",
+      "Saint Lambert",
+      "Buste-reliquaire",
+      "Argent doré",
+      "Pierres précieuses",
+      "Fribourg-en-Brisgau",
+      "Trésor de cathédrale",
+      "Renaissance"
+    ],
+    "deptBanner": "https://lh3.googleusercontent.com/pw/AP1GczNb7yqJegPyFwUfZAYYYJKG40S4NfB3ckgjK-X0_0uzAd7WyGVTlr5VokccO_3a8CvDVxJRQAidY0WUCzBn9gWf_NSdmdYNscAWglITiRJpMz3ey-S_L1C2fvYWaqxFkIz7lr2-lLkQ49PuBf8WS-eFmA=w1724-h731-s-no-gm?authuser=0",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczP2uFf-w_0ndUrS6gGqmHqG9zLuuZIlsItK6Q8cvGcPsYl1isuJuzNmuJc_mImzXFTWSiEkYEaWBClEjwncV1jnbOttTz-n-QBk_FG5dZlXrrMjyOs9rjys8B3MnyqE8XiWSkD72FFwiCKLaKjAAlRbww=w1724-h1150-s-no-gm?authuser=0",
+    "narrative": "<p>Ce buste-reliquaire de saint Lambert est une pièce d'orfèvrerie exceptionnelle conservée dans le Trésor de la cathédrale de Fribourg-en-Brisgau. Réalisée au tout début du XVIe siècle, vers 1514-1515, cette œuvre est attribuée à l'orfèvre fribourgeois Hans von Wendelstorf. Elle s'inscrit dans la tradition des reliquaires anthropomorphes destinés à magnifier les restes sacrés tout en offrant aux fidèles une image saisissante du saint protecteur.</p>\n    <p>Le buste est exécuté en argent partiellement doré et richement serti de pierres précieuses et de cabochons de verre coloré. Le saint, évêque de Maastricht et martyr du VIIIe siècle, est représenté avec une grande dignité, revêtu de ses ornements épiscopaux. Il porte une mitre ornée de reliefs ciselés et un pallium, symbole de sa haute autorité ecclésiastique. Le réalisme du visage, avec ses traits marqués et son expression empreinte d'une certaine sévérité méditative, témoigne du passage de l'idéalisation gothique vers l'individualisme caractéristique de la Renaissance.</p>\n    <p>La base du reliquaire est une structure polygonale complexe qui sert de piédestal monumental. Elle est décorée de statuettes en ronde-bosse représentant d'autres saints et figures sacrées, créant un dialogue entre la figure principale et l'iconographie chrétienne plus large. Les bordures sont ciselées avec une précision extrême, mêlant des motifs de rinceaux et des inscriptions liturgiques qui renforcent le caractère sacré de l'objet. L'utilisation de l'émail et la variété des techniques de dorure créent des jeux de lumière destinés à éblouir le spectateur lors de l'exposition de la relique.</p>\n    <p>Sur le plan historique, cette œuvre illustre la prospérité de la ville de Fribourg à l'aube de la Réforme et le prestige de ses corporations d'orfèvres. En tant que réceptacle d'une relique insigne, ce buste était au cœur des rituels de vénération, porté en procession ou exposé sur l'autel lors des grandes fêtes. Sa conservation parfaite permet d'apprécier aujourd'hui l'un des rares témoins de l'orfèvrerie religieuse monumentale de cette période dans la région du Rhin supérieur.</p>\n    <p><strong>Siècle :</strong> XVIe siècle (vers 1514-1515) | <strong>Civilisation :</strong> Occident : Renaissance | <strong>Lieu de conservation :</strong> Trésor de la cathédrale Notre-Dame de Fribourg-en-Brisgau (Allemagne)</p>"
+  },
   {
     "id": "occ_mosaique_aquilee_pavement_general",
     "civId": "occident",

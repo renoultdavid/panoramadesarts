@@ -402,6 +402,12 @@ window.ART_TYPOLOGY_DEFINITIONS = {
     domain: "Monnaies & Médailles",
     def: "Flan métallique (électrum, or, argent, bronze) frappé au marteau entre deux coins gravés (droit/avers à l'effigie divine ou souveraine, et revers emblématique), garantissant son poids et sa valeur légale."
   },
+  "Orfèvrerie sacrée & Reliquaire": {
+    title: "Orfèvrerie sacrée & Reliquaire anthropomorphe",
+    etymology: "Du latin aurifaber (« artisan de l'or ») et reliquiae (« restes sacrés »)",
+    domain: "Orfèvrerie & Trésors d'église",
+    def: "Création d'orfèvrerie religieuse en métaux précieux (or, argent repoussé, ciselé et doré, vermeil) enrichie d'émaux, de cabochons et de pierreries, conçue pour abriter et magnifier les reliques des saints (buste-reliquaire, châsse, bras-reliquaire, ostensoir, ciboire)."
+  },
   "Parure en or / Argent / Bronze": {
     title: "Parure d'orfèvrerie (Or, Argent, Bronze)",
     etymology: "Travail du repoussé, filigrane et granulation",

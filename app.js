@@ -1192,7 +1192,8 @@ const BANNERS_REGISTRY = {
   occ_plafond: "https://lh3.googleusercontent.com/pw/AP1GczPh1p3dhk29p-uf_ba8faiJz8m_-XCpWiOVAn0esoiX-7iZB2gqrSsQfRKgSVZMi03-kSIWJci0ttuKetFzSb0Iw2LzCcsv4GUdE-OTRknnMTp5kQjtN7h10G6rT2Us9SGP68XDvoPBW7fTn-0j6FwBdA=w1724-h731-s-no-gm?authuser=0",
   occ_conceptuel: "https://lh3.googleusercontent.com/pw/AP1GczNFrnkU0CB_dyE9L9kLg4n4k3yz2MdGR99oZnTYNwONOOI50XSJFO35HAXs96VEqGpyioETNaU1Ca-jT4-s0kIkQ5_M3GfgH2P72zkEaggGGwp0M3gRyjwKyZraq8aKbNc7O85Lyx1Rc-uh1NHJZGIfJQ=w1724-h731-s-no-gm?authuser=0",
   occ_livre: "https://lh3.googleusercontent.com/pw/AP1GczPAQ7fZcYAGY0QxJE9AZT4mNvgVg2uH-UezlC7DMeTje_QzQjLi_4u1ok0Nh2oExbARCeDvW2hxGNKrVA6GG6DL30GhfxR7khAtfKlJGI2PbPDNLAQ3GEraSF-wc2mpRfkyZtLLpYPdKnizWiTE9ng2zA=w1724-h731-s-no-gm?authuser=0",
-  occ_mosaique: "https://lh3.googleusercontent.com/pw/AP1GczOUe76szbL4GxtrkYlm4ZQSLqqHVimJIdfUA5uE_sACk078nujNuUcd0S5NDBVO4D7bT1ckedU0FcXvMNG_Eij2yk09oPDRW20L_Cv_AYIdrffQipLaaY46kFFL3JYC-7zWsnby7fullNatqvW4CH6YiA=w1724-h731-s-no-gm?authuser=0"
+  occ_mosaique: "https://lh3.googleusercontent.com/pw/AP1GczOUe76szbL4GxtrkYlm4ZQSLqqHVimJIdfUA5uE_sACk078nujNuUcd0S5NDBVO4D7bT1ckedU0FcXvMNG_Eij2yk09oPDRW20L_Cv_AYIdrffQipLaaY46kFFL3JYC-7zWsnby7fullNatqvW4CH6YiA=w1724-h731-s-no-gm?authuser=0",
+  occ_orfevrerie: "https://lh3.googleusercontent.com/pw/AP1GczNb7yqJegPyFwUfZAYYYJKG40S4NfB3ckgjK-X0_0uzAd7WyGVTlr5VokccO_3a8CvDVxJRQAidY0WUCzBn9gWf_NSdmdYNscAWglITiRJpMz3ey-S_L1C2fvYWaqxFkIz7lr2-lLkQ49PuBf8WS-eFmA=w1724-h731-s-no-gm?authuser=0"
 };
 
 function getArtworkBanner(art) {
@@ -1346,6 +1347,11 @@ function getArtworkBanner(art) {
   // 14. ARTS DU LIVRE, MANUSCRITS, ENLUMINURES & IMPRIMÉS
   if (art.domain === "art_du_livre" || aType.includes("manuscrit") || aType.includes("livre") || aType.includes("codex") || aType.includes("incunable") || aType.includes("ostracon") || fullText.includes('gutenberg') || fullText.includes('enlumin') || fullText.includes('nag hammadi') || fullText.includes('folio de shakespeare')) {
     return BANNERS_REGISTRY.occ_livre;
+  }
+
+  // 15. ORFÈVRERIE D'OCCIDENT (MOYEN ÂGE, RENAISSANCE, TRÉSORS D'ÉGLISE)
+  if (cId === 'occident' && (art.domain === 'parures_metaux' || aType.includes('orfèvrerie') || aType.includes('orfevrerie') || aType.includes('reliquaire') || fullText.includes('orfèvrerie') || fullText.includes('reliquaire') || fullText.includes('buste-reliquaire') || fullText.includes('trésor de la cathédrale') || fullText.includes('hans von wendelstorf') || fullText.includes('argent doré') || fullText.includes('châsse'))) {
+    return BANNERS_REGISTRY.occ_orfevrerie;
   }
 
   // 7. Si l'objet a déjà son propre bandeau spécifique personnalisé (ex: Égypte, Canaries, Chypre, Celte)
@@ -6399,7 +6405,8 @@ const TAXONOMY_DOMAINS = {
       "Armement d'apparat (épée, poignard, casque)", "Ciste en bronze",
       "Dépôt métallurgique & Haches", "Glyptique (sceau-cylindre, intaille)",
       "Miroir gravé en bronze", "Mobilier d'apparat en bronze (trône, lit, trépied)",
-      "Numismatique (monnaie)", "Parure en or / Argent / Bronze",
+      "Numismatique (monnaie)", "Orfèvrerie sacrée & Reliquaire",
+      "Parure en or / Argent / Bronze",
       "Strigile & Instrument de toilette", "Torque & Bracelet",
       "Vaisselle d'or & d'argent"
     ]
