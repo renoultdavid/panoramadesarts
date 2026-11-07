@@ -567,6 +567,136 @@ window.ARTISTS_REGISTRY = {
       sourceNotes: "En attendant la publication historique du catalogue raisonné de Samy Kinge qui viendra sceller un total exact au tableau près, la jauge est établie sur un plafond estimatif de 1 200 œuvres (huiles, cires et tableaux-objets)."
     }
   },
+  "bronzino": {
+    id: "bronzino",
+    name: "Bronzino Agnolo",
+    sortName: "Bronzino Agnolo",
+    sortLetter: "B",
+    dates: "1503 – 1572",
+    movement: "Maniérisme florentin & Peinture de cour des Médicis",
+    nationality: "Italien (Florence, Toscane)",
+    techniques: "Huile sur panneau de bois, tempera grasse, dessin préparatoire d'atelier, fresque",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczNVhh4MM_6IHTDC5rUJoWccn1QU0bzPdy1-rM6pcC81NTDHBYiUYpx-ByFB_MXTGV8jEKbQgm9HcWeW9ff1hDdosL2YTwdOESqVF2E7AoOu-MCuj4izK9AMYBuA2F7nQefztKJRtVPS8VRt4EYDYGEeaA=w1660-h704-s-no-gm?authuser=0",
+    portraitImg: "",
+    bio: `
+      <p><strong>Maître absolu du Maniérisme toscan et peintre officiel de Cosme Ier</strong><br>
+      Agnolo di Cosimo, dit Bronzino (1503 – 1572), né et mort à Florence, est le maître absolu du Maniérisme toscan et le peintre de cour emblématique du duc Cosme Ier de Médicis. Protégé et élève le plus brillant du Pontormo, il a porté l'art du portrait d'apparat et de l'allégorie savante à un niveau de sophistication intellectuelle et de perfection technique rarement égalé dans l'histoire de la Renaissance. Figure centrale de l'Accademia del Disegno de Florence, il n'était pas seulement un peintre mais aussi un poète raffiné, ce qui imprègne son œuvre d'une complexité symbolique réservée à une élite érudite.</p>
+      <p><strong>Aristocratisme glacial, clarté porcelainée et rigueur formelle</strong><br>
+      Son genre pictural est caractérisé par un aristocratisme glacial et une clarté formelle presque irréelle. Le style de Bronzino se distingue par une finition de surface d'une précision chirurgicale, donnant à la peau des personnages l'apparence polie du marbre ou de l'ivoire. Il privilégie une lumière uniforme et froide qui souligne des contours nets et des volumes impeccables. Ses portraits sont célèbres pour leur impassibilité altière et leur distance psychologique : les sujets, parés de costumes aux tissus somptueux et aux détails d'orfèvrerie méticuleux, semblent figés dans une éternité impassible, symbolisant la stabilité et la rigueur du pouvoir médicéen.</p>
+      <p><strong>L'évolution du style : de l'inquiétude pontormesque à la perfection marmoréenne</strong><br>
+      L'évolution de son travail montre un passage de l'influence tourmentée et expressive de son maître Pontormo vers une esthétique de plus en plus stable, polie et intellectuelle :</p>
+      <p><strong>Les débuts et l'héritage du Pontormo :</strong> Ses premières œuvres conservent une certaine tension émotionnelle et une vibration lumineuse héritée de son maître, mais il s'en détache rapidement pour élaborer son propre langage formel, marqué par une élégance artificielle et des compositions savantes.</p>
+      <p><strong>L'apogée médicéen et l'allégorie érudite :</strong> Son chef-d'œuvre allégorique, <em>Vénus, Cupidon, la Folie et le Temps</em>, illustre parfaitement sa maturité : un érotisme sophistiqué caché derrière une morale complexe et une exécution technique éblouissante. Il laisse derrière lui une œuvre monumentale qui définit l'image du pouvoir absolu, où la beauté souveraine est indissociable d'une fascinante froideur intellectuelle.</p>
+    `,
+    corpus: {
+      total: 95,
+      seen: 1,
+      paintingsCount: 95,
+      details: [
+        { label: "Peintures autographes reconnues (consensus Brock, Falciani & Natali)", count: 95, icon: "🎨", color: "#d4af37", seen: 1, note: "Corpus restreint et très sélectif estimé entre 90 et 100 tableaux autographes" }
+      ],
+      sourceTitle: "Monographies modernes & Rétrospectives Carlo Falciani et Antonio Natali",
+      sourceNotes: "L'inventaire de son œuvre a d'abord été dressé par Edi Baccheschi dans les années 1970 (collection Classici dell'Arte), puis considérablement affiné par les monographies d'historiens comme Maurice Brock et les récentes grandes rétrospectives scientifiques dirigées par Carlo Falciani et Antonio Natali. Le consensus scientifique moderne est très sélectif : on estime aujourd'hui son œuvre peinte autographe à environ 90 à 100 tableaux."
+    }
+  },
+  "bruegel_pieter_ancien": {
+    id: "bruegel_pieter_ancien",
+    name: "Bruegel Pieter l'Ancien",
+    sortName: "Bruegel Pieter l'Ancien",
+    sortLetter: "B",
+    dates: "v. 1525 – 1569",
+    movement: "Renaissance flamande & Peinture de genre humaniste",
+    nationality: "Flamand (Brabant, Anvers / Bruxelles)",
+    techniques: "Huile sur panneau de chêne, détrempe sur toile fine (tüchlein), dessin à la plume",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczOde3nli64Iy0TpCaYP9xEwVbNEETcHpjLpMKE8qB4IorhQpCdisb3W6LUVhhDfncKpWXm8U7IEBTGNboCqN3TTkjm-qaGrBvQKkNuFI1NPI_uK1dgto0xrv1fAc6KAmQRRUaFb65Vq-QOKFGCDB2htHg=w1660-h704-s-no-gm?authuser=0",
+    portraitImg: "",
+    bio: `
+      <p><strong>Père de l'école flamande, maître du paysage cosmique et peintre du peuple</strong><br>
+      Pieter Bruegel l'Ancien (v. 1525 – 1569), souvent surnommé « Pierre le Drôle » ou « Bruegel le Paysan », est le génie fondateur et le maître incontesté de la Renaissance flamande. Établi à Anvers puis à Bruxelles, il rompt délibérément avec l'italianisme italianisant dominant pour puiser son inspiration dans les traditions locales, les proverbes populaires et la nature sauvage des Flandres, devenant le portraitiste universel de la condition humaine.</p>
+      <p><strong>Paysage narratif panoramique, allégories morales et vue plongeante</strong><br>
+      Son genre pictural se définit par l'invention du paysage narratif et de la peinture de genre monumentale. Bruegel place l'homme, et particulièrement le paysan, au cœur de compositions vertigineuses fourmillant de micro-récits. Ses œuvres sont des allégories morales profondes ou des commentaires satiriques sur la vanité, la folie et l'aveuglement humains, où le sacré biblique est transposé dans le rude quotidien brabançon du XVIe siècle, entre kermesses carnavalesques et labeur des saisons.</p>
+      <p><strong>L'évolution du style : de l'imaginaire boschien à la maturité synthétique</strong><br>
+      L'évolution de son art marque le passage d'une fantaisie médiévale foisonnante vers une observation magistrale de la réalité :</p>
+      <p><strong>L'héritage de Bosch :</strong> Ses premières créations sont peuplées de monstres et de créatures hybrides fantastiques, témoignant d'une fascination pour le génie satirique de Jérôme Bosch.</p>
+      <p><strong>L'espace et le paysage à vol d'oiseau :</strong> Après son voyage formateur à travers les Alpes et l'Italie, il invente une profondeur spatiale inédite. Ses paysages deviennent cosmiques, utilisant la célèbre vue plongeante à vol d'oiseau pour embrasser la terre entière.</p>
+      <p><strong>La maturité synthétique et la série des Saisons :</strong> Dans ses dernières années, ses figures gagnent en monumentalité, en volume et en dépouillement plastique. Il délaisse les foules microscopiques pour des personnages massifs, capturant l'essence du geste paysan avec une dignité monumentale qui préfigure le réalisme moderne.</p>
+    `,
+    corpus: {
+      total: 40,
+      seen: 2,
+      paintingsCount: 40,
+      details: [
+        { label: "Peintures autographes conservées (cat. Manfred Sellink & KHM 2018)", count: 40, icon: "🎨", color: "#d4af37", seen: 2, note: "Seules une quarantaine de peintures autographes sont universellement reconnues" }
+      ],
+      sourceTitle: "Catalogue raisonné Manfred Sellink (2007) & Rétrospective KHM Vienne (2018)",
+      sourceNotes: "Le consensus scientifique moderne, brillamment synthétisé par l'historien de l'art Manfred Sellink (Bruegel: The Complete Paintings, Drawings and Prints, 2007) et réaffirmé lors de la rétrospective du Kunsthistorisches Museum de Vienne en 2018 pour le 450e anniversaire de sa mort, est unanime : on ne recense aujourd'hui qu'environ 40 peintures entièrement autographes de la main du maître."
+    }
+  },
+  "brueghel_jan_ancien": {
+    id: "brueghel_jan_ancien",
+    name: "Brueghel Jan l'Ancien (de Velours)",
+    sortName: "Brueghel Jan l'Ancien",
+    sortLetter: "B",
+    dates: "1568 – 1625",
+    movement: "Baroque flamand, Natures mortes florales & Paysages encyclopédiques",
+    nationality: "Flamand (Bruxelles / Anvers)",
+    techniques: "Huile sur cuivre, huile sur panneau de chêne, miniaturisme, glacis précieux",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczPLPklgjHHuIYi-O4YuZSsWo1CuehOC0a2cAMThYY8aHkBCMkZDysBK-8CmIETDZJZnK0PYY0upl7sOBnabKlY6PgiT0u1nPmiQmmtesyMp8K0uPHm5BSQhN1Cnrrnh2j9soS7314eZEtrFOgLL8t40eA=w1660-h704-s-no-gm?authuser=0",
+    portraitImg: "",
+    bio: `
+      <p><strong>« Brueghel de Velours », pionnier de la nature morte florale et virtuose du cuivre</strong><br>
+      Jan Brueghel l'Ancien (1568 – 1625), surnommé universellement « Brueghel de Velours » pour la douceur soyeuse et la précision microscopique de sa touche, est le second fils de Pieter Bruegel l'Ancien. Peintre officiel de la cour des archiducs Albert et Isabelle à Bruxelles, doyen de la guilde de Saint-Luc d'Anvers, il fut l'un des artistes les plus fortunés et vénérés de son époque, ami intime et collaborateur privilégié de Pierre Paul Rubens.</p>
+      <p><strong>Bouquets botaniques autonomes, paysages animés et cabinets de curiosités</strong><br>
+      Son genre pictural se définit par l'invention du bouquet de fleurs comme sujet pictural autonome et la conception de paysages encyclopédiques cosmiques. D'une facture digne d'un orfèvre, il réalise des compositions botaniques d'une richesse scientifique inouïe où chaque pétale, chaque goutte de rosée et chaque insecte semblent vivants. Ses paysages de forêts, de rivières et de ports, peuplés de centaines de personnages et d'animaux méticuleusement peints, célèbrent la création dans un esprit de cabinet de curiosités aristocratique.</p>
+      <p><strong>L'évolution du style : de l'Italie borroméenne aux grandes allégories avec Rubens</strong><br>
+      L'évolution de son style marque l'affirmation d'une sophistication baroque éclatante :</p>
+      <p><strong>La période italienne et le paysage (années 1590) :</strong> Lors de son séjour en Italie sous le mécénat du cardinal Federico Borromeo, il affine sa touche et adopte le support lisse du cuivre, qui confère à ses paysages sylvestres et fluviaux une luminosité cristalline.</p>
+      <p><strong>L'invention des grands bouquets (années 1600) :</strong> À Anvers, il crée ses chefs-d'œuvre de natures mortes florales réunissant dans une harmonie idéale des espèces de saisons différentes.</p>
+      <p><strong>La collaboration avec Rubens et les Allégories :</strong> À sa maturité, il s'associe à Rubens (ce dernier peignant les figures et Brueghel les décors botaniques, paysagers et animaliers), culminant dans les séries mondialement célèbres des <em>Quatre Éléments</em> et des <em>Cinq Sens</em>.</p>
+    `,
+    corpus: {
+      total: 800,
+      seen: 4,
+      paintingsCount: 800,
+      details: [
+        { label: "Peintures au catalogue raisonné (Klaus & Christa Ertz 2008-2010)", count: 800, icon: "🎨", color: "#d4af37", seen: 4, note: "Près de 800 peintures recensées dans les 4 tomes du catalogue critique" }
+      ],
+      sourceTitle: "Catalogue raisonné Klaus Ertz & Christa Nitze-Ertz (4 volumes, 2008-2010)",
+      sourceNotes: "Le catalogue raisonné critique et exhaustif de référence a été publié par Klaus Ertz et Christa Nitze-Ertz en quatre volumes monumentaux entre 2008 et 2010 (Jan Brueghel der Ältere (1568-1625): Kritischer Katalog der Gemälde). Cet inventaire recense près de 800 peintures authentifiées de la main du maître et de son atelier immédiat."
+    }
+  },
+  "brueghel_pieter_jeune": {
+    id: "brueghel_pieter_jeune",
+    name: "Brueghel Pieter le Jeune (d'Enfer)",
+    sortName: "Brueghel Pieter le Jeune",
+    sortLetter: "B",
+    dates: "1564 – 1638",
+    movement: "Peinture de genre flamande & Scènes de village brabançonnes",
+    nationality: "Flamand (Bruxelles / Anvers)",
+    techniques: "Huile sur panneau de chêne, dessin au poncif, précision graphique, atelier prolifique",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczP1pyuaAf1CvtK_pJA96POV-haCDnKOQcoF82f52nuTnt2oAmgM8lr7sJAVciQ_5hB3_YWE8_DZE-_pg5ahjhgrtHND6obCv29dQpkosREkDU-jW58HR3qqnM7vq2rztYN3Fttbe12tZ3fIoEUaLpIPJA=w1660-h704-s-no-gm?authuser=0",
+    portraitImg: "",
+    bio: `
+      <p><strong>« Brueghel d'Enfer », passeur de génie et maître de la scène paysanne flamande</strong><br>
+      Pieter Brueghel le Jeune (1564 – 1638), né à Bruxelles et mort à Anvers, est le fils aîné de Pieter Bruegel l'Ancien. Surnommé au XIXe siècle « Brueghel d'Enfer » pour ses visions fantastiques de jugements et d'incendies nocturnes, il fut avant tout le grand passeur de l'art bruegélien. À la tête d'un atelier anversois florissant, il répondit à l'engouement immense des collectionneurs européens pour les compositions de son père, dont les originaux étaient déjà inaccessibles.</p>
+      <p><strong>Kermesses villageoises, proverbes satiriques et précision graphique</strong><br>
+      Son genre pictural perpétue la grande tradition de la peinture de genre flamande : danses de noces, rixes de paysans, <em>Actes de charité</em>, scènes de patinage hivernal et proverbes flamands. Son style se singularise par des contours graphiques d'une netteté impeccable, des contrastes de couleurs vifs et éclatants (rouges vifs, blancs purs) et un sens aigu de la dramaturgie anecdotique où chaque personnage exprime la vitalité populaire avec une saveur souvent caricaturale et réjouissante.</p>
+      <p><strong>L'évolution du style : de la fidélité filiale aux grandes compositions autonomes</strong><br>
+      L'évolution de son travail montre un passage progressif d'une reproduction scrupuleuse vers des créations personnelles émancipées :</p>
+      <p><strong>La diffusion du répertoire paternel :</strong> Formé auprès de Gillis van Coninxloo, il utilise les dessins et poncifs d'atelier pour recréer avec une fraîcheur nouvelle des chefs-d'œuvre comme le <em>Paysage d'hiver avec patineurs et trappe aux oiseaux</em>.</p>
+      <p><strong>L'affirmation d'un atelier d'excellence :</strong> En pleine Contre-Réforme, il enrichit son catalogue de grands formats narratifs comme <em>Les Actes de charité</em> ou <em>La Danse de noces</em>, devenant un témoin social et folklorique irremplaçable des Pays-Bas du Siècle d'or.</p>
+    `,
+    corpus: {
+      total: 1430,
+      seen: 4,
+      paintingsCount: 1430,
+      details: [
+        { label: "Peintures au catalogue raisonné (Klaus Ertz 1988/2000)", count: 1430, icon: "🎨", color: "#d4af37", seen: 4, note: "Exactement 1 430 peintures répertoriées de sa main et de son atelier" }
+      ],
+      sourceTitle: "Catalogue raisonné Klaus Ertz (2 volumes, 1988 / rééd. 2000)",
+      sourceNotes: "L'expert mondial de la famille Brueghel, Klaus Ertz, a publié en 1988 puis réédité en 2000 le catalogue raisonné définitif en deux volumes (Pieter Brueghel der Jüngere: Die Gemälde mit kritischem Oeuvrekatalog). Ce travail d'inventaire scientifique recense très exactement 1 430 peintures authentifiées (pour l'écrasante majorité des huiles sur panneau de chêne) réalisées par lui-même ou avec l'aide active de ses assistants d'atelier."
+    }
+  },
   "cassatt": {
     id: "cassatt",
     name: "Cassatt Mary",
