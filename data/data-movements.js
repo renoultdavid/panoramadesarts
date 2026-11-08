@@ -305,6 +305,7 @@ window.MOVEMENTS_DATA = {
     ]
   },
   "mov_classicisme": {
+    "bannerImg": "https://lh3.googleusercontent.com/d/1pIuInKgwApdt4o-xzSvZZTCqvHWUUzm_",
     "badge": "✦ L'ORDRE, LA RAISON & LA NOBLESSE DU GRAND SIÈCLE (1630 – 1715)",
     "noticeHtml": "<p><strong>La doctrine de la mesure, de la pureté morale et du dessin souverain</strong><br>En réaction au foisonnement passionnel et aux outrances du baroque italien, le classicisme français s'érige en modèle de mesure, de clarté intellectuelle et d'équilibre moral sous les règnes de Louis XIII et Louis XIV. Établis à Rome, Nicolas Poussin et Claude Lorrain bâtissent une peinture philosophique où le paysage idéal et l'histoire antique deviennent des méditations sur le destin, la grandeur morale et l'harmonie cosmique (<em>Les Bergers d'Arcadie</em>).</p><p>Sous l'impulsion de Colbert et de Charles Le Brun, l'Académie royale de peinture et de sculpture (fondée en 1648) codifie les arts au service de la gloire monarchique : primat absolu du dessin sur le coloris, hiérarchie stricte des genres (peinture d'histoire au sommet) et apothéose triomphale du château de Versailles.</p>",
     "concurrentHtml": "<p><strong>Pendant ce temps-là... Le règne de Louis XIV et la monarchie absolue</strong></p><p><strong>France :</strong> Louis XIV assume le pouvoir personnel en 1661 et transfère la cour à Versailles en 1682. Révocation de l'édit de Nantes en 1685. Molière, Corneille et Racine fondent le théâtre classique, Jean de La Fontaine publie ses <em>Fables</em>.</p><p><strong>Angleterre :</strong> Révolution anglaise, exécution de Charles Ier (1649) et Glorieuse Révolution de 1688 instaurant la monarchie parlementaire avec le <em>Bill of Rights</em> en 1689. Isaac Newton publie les <em>Principia Mathematica</em> (1687), théorisant la gravitation universelle.</p><p><strong>Monde :</strong> En Inde, l'empereur moghol Shah Jahan achève la construction du Taj Mahal (1648) en hommage à son épouse défunte.</p>",
@@ -345,6 +346,7 @@ window.MOVEMENTS_DATA = {
     ]
   },
   "mov_rococo": {
+    "bannerImg": "https://lh3.googleusercontent.com/d/1HBRKlnV39bhsr0jPvh0Wjuq9wznUyqoP",
     "badge": "✦ LÉGÈRETÉ, ÉLÉGANCE & SENSUALITÉ DU SIÈCLE DES LUMIÈRES (1715 – 1775)",
     "noticeHtml": "<p><strong>L'émancipation du plaisir intime et la poésie du fugitif</strong><br>À la mort de Louis XIV en 1715, la cour quitte la pesante solennité de Versailles pour regagner les hôtels particuliers parisiens. L'art s'affranchit des contraintes héroïques et monarchiques pour célébrer l'esprit, l'amour galant, l'intimité et la volupté. C'est le triomphe du style <strong>rococo</strong> (ou rocaille) et de la fête galante initiée par Jean-Antoine Watteau : compositions asymétriques aux courbes sinueuses en S, arabesques végétales et tons pastel soyeux (rose poudré, bleu céleste, jaune paille).</p><p>François Boucher, protégé de la marquise de Pompadour, peint des mythologies sensuelles d'une virtuosité éclatante, tandis que Jean-Honoré Fragonard saisit l'espièglerie amoureuse (<em>Les Hasards heureux de l'escarpolette</em>). À Venise, Canaletto et Guardi hissent le védutisme (vues urbaines) à un degré de précision lumineuse inégalé.</p>",
     "concurrentHtml": "<p><strong>Pendant ce temps-là... L'Encyclopédie et le Siècle des Lumières</strong></p><p><strong>Pensée & Philosophie :</strong> Diderot et d'Alembert publient <em>L'Encyclopédie</em> (1751-1772) pour diffuser le savoir et combattre l'obscurantisme. Voltaire ferraille pour la tolérance (Traité sur la tolérance en 1763), Rousseau publie <em>Du contrat social</em> et <em>Émile</em> (1762), Montesquieu théorise la séparation des pouvoirs dans <em>De l'esprit des lois</em> (1748).</p><p><strong>Europe & Géopolitique :</strong> Guerre de Sept Ans (1756-1763), premier conflit mondial opposant la France et la Grande-Bretagne. En Prusse, Frédéric II fait construire le palais rococo de Sanssouci à Potsdam. Catherine II monte sur le trône de Russie en 1762.</p><p><strong>Sciences & Découvertes :</strong> Redécouverte sensationnelle des ruines d'Herculanum (1738) et de Pompéi (1748), préparant le futur retour à l'antique.</p>",
@@ -403,7 +405,7 @@ window.MOVEMENTS_DATA = {
         "dates": "1748 – 1825",
         "role": "Chef de file du néoclassicisme et peintre de l'Empire",
         "desc": "Le Serment des Horaces, La Mort de Marat et Le Sacre de Napoléon.",
-        "artistId": "",
+        "artistId": "david",
         "icon": "🏛️"
       },
       {
@@ -565,6 +567,14 @@ window.MOVEMENTS_DATA = {
         "desc": "Le Marché aux chevaux, Labourage nivernais au musée d'Orsay.",
         "artistId": "bonheur",
         "icon": "🐎"
+      },
+      {
+        "name": "Honoré Daumier",
+        "dates": "1808 – 1879",
+        "role": "Observateur lucide et génie de la satire sociale et humaine",
+        "desc": "Don Quichotte, Le Wagon de troisième classe, scènes judiciaires.",
+        "artistId": "daumier",
+        "icon": "⚖️"
       }
     ]
   },

@@ -6100,6 +6100,362 @@ window.ARTISTS_REGISTRY = {
         }
       ]
     }
+  },
+  daumier: {
+    id: "daumier",
+    name: "Honoré Daumier",
+    sortName: "Daumier Honoré",
+    sortLetter: "D",
+    dates: "1808 – 1879",
+    movement: "Réalisme expressif, Caricature & Satire sociale",
+    nationality: "Français (Marseille / Paris)",
+    techniques: "Huile sur toile et panneau, modelé sculptural au trait noir, lithographie satirique, clair-obscur dramatique rembranesque, touche enlevée pré-impressionniste",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczMu4eBaQXhKXtx2D22U-sXQ2hec17VqkX2VR8_PLHYc2XsyBpZbDDHmfp6jx1YOdOGRbVSkIRFPLOWczqfJZGOD2CXA8lmfdtVwpGtfhmpg1_7VKrh6c7qIHiKgun9H2D1AmjBfpHmsPVuMJ_iV7NoTVQ=w1942-h824-s-no-gm?authuser=0",
+    bio: [
+      "Honoré Daumier (1808 – 1879) est l'un des observateurs les plus lucides de la société française du XIXe siècle. Surnommé le « Michel-Ange de la caricature », il a mené une double carrière : célèbre de son vivant pour ses milliers de lithographies satiriques dénonçant les travers du pouvoir et de la bourgeoisie, il est resté un peintre secret, dont l'œuvre sur toile n'a été véritablement reconnue qu'après sa mort.",
+      "Son genre pictural s'inscrit dans un réalisme expressif teinté de romantisme. À l'opposé du détail minutieux, Daumier privilégie la force du trait et le modelé sculptural. Il s'intéresse particulièrement aux types humains et à la vie urbaine parisienne : les avocats aux plaidoiries théâtrales, les passagers des wagons de troisième classe ou les saltimbanques. Son art ne cherche pas à plaire mais à révéler une vérité psychologique et sociale souvent amère.",
+      "L'évolution de son style montre une libération constante de la forme : la puissance du dessin de ses débuts structurée par des cernes noirs marqués ; le clair-obscur dramatique dense et sculpté sous l'influence de Rembrandt accentuant la fatigue et la solitude de ses personnages ; enfin la modernité pré-impressionniste de sa maturité où la touche enlevée et les visages simplifiés en masques de lumière ouvrent la voie à Van Gogh et Rouault."
+    ],
+    corpus: {
+      total: 300,
+      seen: 1,
+      paintingsCount: 300,
+      sourceTitle: "Catalogue Raisonné K. E. Maison (1968) & The Daumier Register",
+      sourceNotes: "L'établissement de son inventaire sur toile a été un véritable défi pour les historiens de l'art. Le catalogue raisonné historique de référence a été dressé par Karl Eric Maison (publié en 1968 sous le titre Honoré Daumier: Catalogue Raisonné of the Paintings, Watercolours and Drawings). Aujourd'hui, cet inventaire est poursuivi et mis à jour de manière exhaustive par le Daumier Register, le grand catalogue critique numérique mondial. Après un nettoyage drastique du corpus, le consensus scientifique actuel retient environ 300 peintures originales strictement autographes.",
+      details: [
+        {
+          label: "Don Quichotte & l'idéal chevaleresque",
+          count: 40,
+          icon: "🛡️",
+          color: "#d4af37",
+          seen: 1,
+          note: "Dont Don Quichotte (Munich Alte Pinakothek)"
+        },
+        {
+          label: "Scènes de tribunaux, avocats & justice",
+          count: 70,
+          icon: "⚖️",
+          color: "#e74c3c",
+          seen: 0,
+          note: "Plaidoiries, juges et justiciables parisiens"
+        },
+        {
+          label: "Vie urbaine, gares & vagons de 3e classe",
+          count: 110,
+          icon: "🚂",
+          color: "#00b4d8",
+          seen: 0,
+          note: "Lavandières, théâtres, saltimbanques et passagers du chemin de fer"
+        },
+        {
+          label: "Têtes d'expression, portraits & allégories",
+          count: 80,
+          icon: "🎭",
+          color: "#9b59b6",
+          seen: 0,
+          note: "Études physionomiques et figures satiriques"
+        }
+      ]
+    },
+    biographyTimeline: {
+      birth: 1808,
+      birthPlace: "Marseille (Bouches-du-Rhône, France)",
+      death: 1879,
+      deathPlace: "Valmondois (Val-d'Oise, France)",
+      periods: [
+        {
+          title: "Les Débuts Satiriques & La Caricature Politique",
+          years: "1808 – 1847",
+          color: "#d97706",
+          summary: "Montée à Paris, apprentissage de la lithographie et engagement républicain virulent contre la monarchie de Juillet qui lui vaut six mois de prison.",
+          events: [
+            {
+              year: 1808,
+              title: "Naissance à Marseille",
+              desc: "Fils d'un vitrier poète marseillais qui s'installe à Paris en 1814 pour tenter sa chance en littérature.",
+              type: "birth",
+              icon: "👶"
+            },
+            {
+              year: 1830,
+              title: "Débuts dans la presse satirique de Philipon",
+              desc: "Collabore à La Caricature et au Charivari, inventant des types satiriques mordants de la bourgeoisie orléaniste.",
+              type: "formation",
+              icon: "📰"
+            },
+            {
+              year: 1832,
+              title: "Six mois de prison à Sainte-Pélagie pour Gargantua",
+              desc: "Sa lithographie représentant Louis-Philippe en ogre avalant l'or du peuple lui vaut une condamnation et une immense notoriété militante.",
+              type: "turning_point",
+              icon: "⛓️"
+            },
+            {
+              year: 1834,
+              title: "Massacre de la rue Transnonain",
+              desc: "Chef-d'œuvre de reportage dramatique et d'accusation politique dénonçant la répression sanglante de l'insurrection ouvrière.",
+              type: "turning_point",
+              icon: "💥"
+            }
+          ]
+        },
+        {
+          title: "L'Engagement Réaliste & L'Observation Sociale",
+          years: "1848 – 1860",
+          color: "#e74c3c",
+          summary: "Révolution de 1848 et passage décisif à la peinture à l'huile avec ses amis de l'école de Barbizon.",
+          events: [
+            {
+              year: 1848,
+              title: "Concours pour La République & Fraternité avec Barbizon",
+              desc: "Remarqué au concours officiel pour la figure de la République ; se lie avec Corot, Millet et Daubigny.",
+              type: "turning_point",
+              icon: "🇫🇷"
+            },
+            {
+              year: 1855,
+              title: "Chronique picturale du peuple de Paris",
+              desc: "Peint en secret des lavandières, des passagers des omnibus et des wagons de troisième classe dans un clair-obscur sculptural.",
+              type: "turning_point",
+              icon: "🎨"
+            }
+          ]
+        },
+        {
+          title: "Le Cycle de Don Quichotte & La Modernité Tardive",
+          years: "1861 – 1879",
+          color: "#00b4d8",
+          summary: "Période d'épure picturale absolue autour du mythe de Don Quichotte, touché par la cécité avant d'être célébré par ses pairs.",
+          events: [
+            {
+              year: 1868,
+              title: "Don Quichotte (Alte Pinakothek de Munich)",
+              desc: "Sommet d'épure moderne où le chevalier errant devient le symbole universel de l'idéalisme obstiné face à la dureté du réel.",
+              type: "masterpiece",
+              icon: "🛡️",
+              artworkId: "daumier_don_quichotte_munich_1868"
+            },
+            {
+              year: 1878,
+              title: "Rétrospective triomphale chez Durand-Ruel",
+              desc: "Sous la présidence d'honneur de Victor Hugo, ses pairs célèbrent enfin le peintre secret au crépuscule de sa vie.",
+              type: "exhibition",
+              icon: "🏛️"
+            },
+            {
+              year: 1879,
+              title: "Mort à Valmondois",
+              desc: "S'éteint presque aveugle dans la maisonnette de campagne que son ami Camille Corot lui avait offerte pour lui épargner l'expulsion et la misère.",
+              type: "death",
+              icon: "🕊️"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  david: {
+    id: "david",
+    name: "Jacques-Louis David",
+    sortName: "David Jacques-Louis",
+    sortLetter: "D",
+    dates: "1748 – 1825",
+    movement: "Néoclassicisme, Peinture d'Histoire & Premier Empire",
+    nationality: "Français (Paris / Bruxelles)",
+    techniques: "Huile sur toile, composition géométrique sculpturale, dessin ferme à l'antique, lumière théâtrale latérale, bas-reliefs spatiaux, idéalisation héroïque stoïque",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczNaDca0nZX9owq5ElehQ9qKQlinCJu-jw-0TRtt2q6zu0QKOmV4WgFuRUiJmJfqr1-360fVz1gEfy7rp5GRwuBhgtgPiPCuQy56iGottlR_di-rxooVYyV51Khg08lJBMaqb6OlqEKZdPGu2Vg21H_oug=w1942-h824-s-no-gm?authuser=0",
+    bio: [
+      "Jacques-Louis David, né en 1748 à Paris et mort en 1825 à Bruxelles, est le maître incontesté du néoclassicisme. Véritable « dictateur des arts » durant la Révolution française, il a opéré une rupture radicale avec la légèreté du style rococo pour restaurer la grandeur de l'Antiquité. Artiste engagé et protéiforme, il fut successivement le peintre du Roi, le député régicide de la Convention, l'ordonnateur des fêtes révolutionnaires, puis le premier peintre de Napoléon Ier. Son œuvre n'est pas seulement esthétique, elle est un outil politique et moral destiné à régénérer la société par l'image de la vertu.",
+      "Son genre pictural est celui de la peinture d'histoire, qu'il porte à un degré de rigueur et de clarté jamais atteint. Son style se caractérise par une composition sculpturale, un dessin précis et ferme, et une lumière froide qui souligne la théâtralité des scènes. Il rejette la touche visible et les couleurs chatoyantes pour privilégier des formes nettes et une organisation spatiale souvent frontale, rappelant les bas-reliefs romains. Chaque détail, chaque geste héroïque est conçu pour frapper l'esprit du spectateur et transmettre un message de courage, de sacrifice ou de puissance.",
+      "L'évolution de son travail suit les soubresauts de l'histoire de France. À ses débuts, avec Le Serment des Horaces, il impose un idéal de vertu civique austère. Sous la Révolution, il immortalise les martyrs contemporains avec un réalisme saisissant, comme dans son célèbre Marat assassiné. L'ère impériale marque un tournant vers une plus grande magnificence et un faste décoratif, illustrés par le gigantisme du Sacre de Napoléon. Enfin, durant son exil à Bruxelles après la chute de l'Empire, son style s'adoucit, se tournant vers des sujets mythologiques plus gracieux et des portraits d'une finesse psychologique remarquable. Il laisse derrière lui une école qui dominera l'Europe pendant un demi-siècle, avec des élèves prestigieux comme Ingres et Gros."
+    ],
+    corpus: {
+      total: 130,
+      seen: 19,
+      paintingsCount: 130,
+      sourceTitle: "Inventaire Jules David (1880) & Catalogues Antoine Schnapper / Luc de Nanteuil (1989)",
+      sourceNotes: "Si son petit-fils, Jules David, a dressé un premier inventaire historique dès 1880, le consensus scientifique moderne s'appuie aujourd'hui sur les travaux de référence des historiens de l'art Antoine Schnapper (notamment lors de la monumentale rétrospective du Louvre-Versailles en 1989) et Luc de Nanteuil. En écartant les copies d'atelier, la production strictement autographe de David (incluant ses peintures d'histoire et ses quelque 80 portraits) est évaluée à environ 120 à 130 peintures (dont 19 chefs-d'œuvre contemplés in situ au Musée du Louvre, au Musée des Beaux-Arts de Rouen et au Château de Versailles).",
+      details: [
+        {
+          label: "Grandes peintures d'histoire antique & vertu civique",
+          count: 25,
+          icon: "⚔️",
+          color: "#d4af37",
+          seen: 5,
+          note: "Andromaque, Serment des Horaces, Brutus, Sabines, Léonidas"
+        },
+        {
+          label: "Épopée révolutionnaire & martyrs républicains",
+          count: 15,
+          icon: "🏛️",
+          color: "#e74c3c",
+          seen: 2,
+          note: "Marat assassiné, Autoportrait de captivité"
+        },
+        {
+          label: "Fastes impériaux de Napoléon Ier & grands décors",
+          count: 12,
+          icon: "👑",
+          color: "#00b4d8",
+          seen: 2,
+          note: "Couronnement de Napoléon (Louvre) & Sacre (Versailles)"
+        },
+        {
+          label: "Portraits civils, intimes & exil bruxellois",
+          count: 78,
+          icon: "🖼️",
+          color: "#9b59b6",
+          seen: 10,
+          note: "Juliette Récamier, Émilie et Pierre Sériziat, Juliette de Villeneuve"
+        }
+      ]
+    },
+    biographyTimeline: {
+      birth: 1748,
+      birthPlace: "Paris (France)",
+      death: 1825,
+      deathPlace: "Bruxelles (Belgique)",
+      periods: [
+        {
+          title: "L'Éveil Antique & Le Manifeste Néoclassique",
+          years: "1748 – 1788",
+          color: "#d97706",
+          summary: "Formation à l'Académie, voyage initiatique à Rome sous l'égide de Vien et triomphe fracassant du Serment des Horaces qui balaie le rococo.",
+          events: [
+            {
+              year: 1748,
+              title: "Naissance à Paris",
+              desc: "Issu d'une famille bourgeoise d'architectes et de maîtres-maçons ; élevé par ses oncles après la mort de son père en duel.",
+              type: "birth",
+              icon: "👶"
+            },
+            {
+              year: 1774,
+              title: "Grand Prix de Rome après plusieurs échecs",
+              desc: "Remporte le prix avec Antiochus et Stratonice après une tentative de suicide par dépit ; part pour l'Italie où la découverte d'Herculanum et de Pompéi le bouleverse.",
+              type: "formation",
+              icon: "🎓"
+            },
+            {
+              year: 1783,
+              title: "Andromaque pleurant Hector",
+              desc: "Morceau de réception à l'Académie royale affirmant une douleur noble et stoïque inspirée de l'Iliade.",
+              type: "masterpiece",
+              icon: "🏛️",
+              artworkId: "david_andromaque_louvre_1783"
+            },
+            {
+              year: 1784,
+              title: "Le Serment des Horaces",
+              desc: "Manifeste absolu du Néoclassicisme peint à Rome et exposé avec un retentissement mondial au Salon de Paris.",
+              type: "masterpiece",
+              icon: "⚔️",
+              artworkId: "david_le_serment_des_horaces_louvre_1784"
+            }
+          ]
+        },
+        {
+          title: "La Révolution Française, La Terreur & Le Directoire",
+          years: "1789 – 1799",
+          color: "#e74c3c",
+          summary: "Peintre officiel de la Révolution, député jacobin à la Convention, incarcéré après Thermidor avant d'appeler à la réconciliation avec Les Sabines.",
+          events: [
+            {
+              year: 1789,
+              title: "Les licteurs rapportent à Brutus les corps de ses fils",
+              desc: "Exposé au Salon au moment de la prise de la Bastille, le tableau devient le symbole suprême du sacrifice de l'intérêt privé à la patrie.",
+              type: "masterpiece",
+              icon: "🏛️",
+              artworkId: "david_brutus_louvre_1789"
+            },
+            {
+              year: 1793,
+              title: "Député régicide & Ordonnateur des fêtes révolutionnaires",
+              desc: "Vote la mort de Louis XVI, dissout l'Académie royale et met en scène les grandes célébrations civiques comme la Fête de l'Être suprême.",
+              type: "turning_point",
+              icon: "⚖️"
+            },
+            {
+              year: 1794,
+              title: "Autoportrait de l'artiste en prison",
+              desc: "Enfermé à l'hôtel des Fermes après la chute de Robespierre, il peint d'un trait fiévreux son visage marqué par l'épreuve.",
+              type: "masterpiece",
+              icon: "🎨",
+              artworkId: "david_autoportrait_louvre_1794"
+            },
+            {
+              year: 1795,
+              title: "Portrait de Pierre Sériziat",
+              desc: "Retour à la vie libre sous le Directoire dans la propriété de Saint-Ouen, magnifiant l'élégance naturelle de l'époque.",
+              type: "masterpiece",
+              icon: "🐎",
+              artworkId: "david_portrait_pierre_seriziat_louvre_1795"
+            },
+            {
+              year: 1799,
+              title: "Les Sabines",
+              desc: "Manifeste d'apaisement national où Hersilie s'interpose entre Romulus et Tatius pour briser le cycle de la guerre civile.",
+              type: "masterpiece",
+              icon: "🕊️",
+              artworkId: "david_les_sabines_louvre_1799"
+            }
+          ]
+        },
+        {
+          title: "Premier Peintre de l'Empire & L'Exil à Bruxelles",
+          years: "1800 – 1825",
+          color: "#00b4d8",
+          summary: "Fasciné par Bonaparte, il devient le scénographe grandiose de l'épopée napoléonienne avant d'achever sa vie en exil respecté.",
+          events: [
+            {
+              year: 1800,
+              title: "Portrait de Juliette Récamier & Marat assassiné",
+              desc: "L'épure néoclassique portée à sa quintessence avec la célèbre pose sur la méridienne, tout en rééditant en atelier son martyr laïc révolutionnaire.",
+              type: "masterpiece",
+              icon: "🪞",
+              artworkId: "david_portrait_juliette_recamier_louvre_1800"
+            },
+            {
+              year: 1804,
+              title: "Nommé Premier Peintre de l'Empereur Napoléon Ier",
+              desc: "Reçoit la commande officielle des quatre grands tableaux commémoratifs du couronnement impérial.",
+              type: "turning_point",
+              icon: "👑"
+            },
+            {
+              year: 1807,
+              title: "Le Couronnement de l'empereur Napoléon Ier",
+              desc: "Tour de force monumental de Notre-Dame de Paris rassemblant plus de 150 portraits dans un faste étourdissant.",
+              type: "masterpiece",
+              icon: "👑",
+              artworkId: "david_couronnement_napoleon_louvre_1807"
+            },
+            {
+              year: 1814,
+              title: "Léonidas aux Thermopyles",
+              desc: "Ultime grande méditation sur le sacrifice héroïque achevée au moment précis de l'effondrement militaire de l'Empire.",
+              type: "masterpiece",
+              icon: "🛡️",
+              artworkId: "david_leonidas_aux_thermopyles_louvre_1814"
+            },
+            {
+              year: 1816,
+              title: "Proscription et exil à Bruxelles",
+              desc: "Banni de France par la loi contre les régicides à la Restauration des Bourbons, il refuse les honneurs de Berlin pour vivre en maître révéré en Belgique.",
+              type: "travel",
+              icon: "🇧🇪"
+            },
+            {
+              year: 1825,
+              title: "Mort en exil à Bruxelles",
+              desc: "S'éteint à 77 ans entouré de ses disciples ; la France des Bourbons refuse le rapatriement de son corps, mais son cœur repose au Père-Lachaise à Paris.",
+              type: "death",
+              icon: "⚰️"
+            }
+          ]
+        }
+      ]
+    }
   }
 };
 
