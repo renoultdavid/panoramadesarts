@@ -2673,40 +2673,49 @@ body {
   opacity: 1;
 }
 
-/* VOIES SPÉCIFIQUES AVANT-GARDES & XXE SIÈCLE */
+/* VOIES SPÉCIFIQUES ZOOM OCCIDENT : HISTOIRE DES ARTS (AÉRATION & HAUTEUR ÉQUILIBRÉE) */
 .timeline-lane.is-modern-lane,
 .lane-fixed-label.is-modern-lane {
-  height: 64px !important;
-  min-height: 64px !important;
+  height: 86px !important;
+  min-height: 86px !important;
 }
 
 .lane-fixed-label.is-modern-lane {
   font-family: 'Cinzel', serif;
-  font-size: 0.66rem;
-  font-weight: 700;
-  letter-spacing: 0.9px;
-  color: var(--gold-pale);
-  border-bottom: 1px solid rgba(212, 175, 55, 0.15);
+  font-size: 0.78rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 1px !important;
+  color: var(--gold-pure, #d4af37) !important;
+  border-bottom: 1px solid rgba(212, 175, 55, 0.18) !important;
   display: flex;
   align-items: center;
-  padding-left: 14px;
+  padding-left: 16px;
+  text-transform: uppercase;
 }
 
 .timeline-lane.is-modern-lane {
-  border-bottom: 1px solid rgba(212, 175, 55, 0.12);
-  background: rgba(255, 255, 255, 0.015);
+  border-bottom: 1px solid rgba(212, 175, 55, 0.15) !important;
+  background: rgba(255, 255, 255, 0.02) !important;
 }
 
 .timeline-lane.is-modern-lane .sub-movement-timespan-bar {
   display: flex !important;
+  height: 28px !important;
+  border-radius: 5px !important;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.8) !important;
+}
+
+.timeline-lane.is-modern-lane .sub-movement-timespan-bar .sub-mov-label {
+  font-size: 0.72rem !important;
+  letter-spacing: 0.6px;
 }
 
 .timeline-lane.is-modern-lane .sub-movement-timespan-bar.tier-0 {
-  top: 6px !important;
+  top: 9px !important;
 }
 
 .timeline-lane.is-modern-lane .sub-movement-timespan-bar.tier-1 {
-  top: 34px !important;
+  top: 47px !important;
 }
 
 /* PONTS DE TRANSITION CHRONOLOGIQUES */

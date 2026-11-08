@@ -93,6 +93,7 @@ window.MOVEMENTS_DATA = {
     ]
   },
   "mov_primitifs_flamands": {
+    "bannerImg": "https://lh3.googleusercontent.com/d/1mcA6fFacDxqOdlQjLFjC5HVsT-SJoPb3",
     "badge": "✦ RÉVOLUTION DE LA PEINTURE À L'HUILE & NATURALISME FLAMAND (1420 – 1510)",
     "noticeHtml": "<p><strong>Le miroir du monde réel et la splendeur microscopique</strong><br>Pendant que Florence invente la perspective géométrique, la Flandre des ducs de Bourgogne accomplit une révolution picturale tout aussi magistrale. Grâce au perfectionnement de la <strong>peinture à l'huile</strong> (superposition de glacis translucides séchant lentement), Jan van Eyck et Robert Campin parviennent à capter la lumière, le velouté des étoffes, le scintillement des joyaux et les pores de la peau avec une acuité quasi microscopique.</p><p>Ce naturalisme prodigieux ne relève pas de la simple copie : chaque objet — un miroir convexe, une bougie allumée, une carafe d'eau — est investi d'une profonde charge théologique et spirituelle. Rogier van der Weyden y ajoute un pathétique dramatique poignant, tandis que Jérôme Bosch plonge dans l'imaginaire onirique et moraliste.</p>",
     "concurrentHtml": "<p><strong>Pendant ce temps-là... L'État bourguignon et le grand commerce hanséatique</strong></p><p><strong>Flandres & Bourgogne :</strong> Bruges, Gand et Bruxelles deviennent les capitales financières et textiles de l'Europe du Nord sous le mécénat opulent des ducs de Bourgogne (Philippe le Bon, Charles le Téméraire).</p><p><strong>France & Angleterre :</strong> Fin de la guerre de Cent Ans (bataille de Castillon en 1453). Jeanne d'Arc libère Orléans en 1429. Louis XI unifie le royaume de France en absorbant l'héritage bourguignon en 1477.</p><p><strong>Échanges Nord-Sud :</strong> La commande du <em>Triptyque Portinari</em> par un marchand florentin basé à Bruges provoque un choc artistique retentissant lors de son arrivée à Florence en 1483.</p>",
@@ -1178,6 +1179,14 @@ window.MOVEMENTS_DATA = {
         "desc": "Parc et grandes perspectives de Versailles, Vaux-le-Vicomte et Chantilly.",
         "artistId": "",
         "icon": "🌳"
+      },
+      {
+        "name": "Pierre de Cortone (Pietro da Cortona)",
+        "dates": "1596 – 1669",
+        "role": "Pilier fondateur du baroque romain et maître du plafond illusionniste",
+        "desc": "Voûte du Palais Barberini, Santa Maria della Pace, Palais Pitti.",
+        "artistId": "cortone",
+        "icon": "✨"
       }
     ]
   },
@@ -1296,6 +1305,7 @@ window.MOVEMENTS_DATA = {
     ]
   },
   "mov_rup_huile_1430": {
+    "bannerImg": "https://lh3.googleusercontent.com/d/1X5iCuCGXYHjgZDyTdFBpXrbjDhgF5LXt",
     "badge": "✦ 1430 : LA RÉVOLUTION FLAMANDE DE LA PEINTURE À L'HUILE (1425 – 1445)",
     "noticeHtml": "<p><strong>Van Eyck et le miroir microscopique du réel</strong><br>En 1432, les frères Jan et Hubert van Eyck achèvent le retable monumental de <em>L'Agneau Mystique</em> à Gand. Grâce au perfectionnement de la peinture à l'huile à base de lin et de noix combinée à des glacis transparents, Jan van Eyck parvient à restituer la texture tactile de la soie, la brillance de l'ambre, les reflets dans les miroirs convexes et la lumière filtrant à travers le cristal. C'est l'irruption du naturalisme absolu dans l'art européen.</p>",
     "concurrentHtml": "<p><strong>Contexte contemporain :</strong> Opulence de l'État bourguignon de Philippe le Bon, capitale financière de l'Europe du Nord à Bruges et Gand. Fondation de l'Ordre de la Toison d'or en 1430. Gutenberg prépare l'invention de l'imprimerie en Rhénanie.</p>",

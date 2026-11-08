@@ -5103,6 +5103,168 @@ window.ARTISTS_REGISTRY = {
         }
       ]
     }
+  },
+
+  cortone: {
+    id: "cortone",
+    name: "Pierre de Cortone",
+    sortName: "Cortone Pierre",
+    sortLetter: "C",
+    dates: "1596 – 1669",
+    movement: "Baroque romain, Plafonds illusionnistes & Grande décoration",
+    nationality: "Italien (Cortone / Rome / Florence)",
+    techniques: "Fresque monumentale, huile sur toile, stucs dorés, perspective en contre-plongée (sotto in su), trompe-l'œil",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczMeh1hBATMJ0pPn6NFBOojISwCuj3TNhS9sqAJ5NtSeeXp3FsvYmyUZoIPftDi9vQ7PNAaS6pYeobMV13AzJWnPfJ7_oCnxD1NHtKmep0HEObwIdD3YkFpmlL8SzzWbxJFmHaQPsK_nxLFP_Hsolur3eg=w2252-h956-s-no-gm?authuser=0",
+    bio: [
+      "Pietro Berrettini, dit Pierre de Cortone (Pietro da Cortona), né en 1596 à Cortone et mort en 1669 à Rome, est avec le Bernin et Borromini l'un des trois piliers fondateurs du Baroque romain. Artiste complet, à la fois peintre et architecte, il a orchestré les décors les plus spectaculaires de son temps pour les papes et les grandes familles princières comme les Barberini. Son génie réside dans sa capacité à transformer un plafond ou un mur en une vision céleste et infinie, imposant un style triomphal qui allait devenir le modèle de toutes les cours européennes, du palais de Versailles aux églises de Bavière.",
+      "Son genre pictural est celui de la grande décoration monumentale (fresque illusionniste en quadratura) et du grand tableau d'autel baroque. Alors que Le Caravage privilégiait le clair-obscur dramatique et Annibal Carrache la rigueur classique, Cortone invente un baroque flamboyant, exubérant et dynamique : des compositions tourbillonnantes peuplées de dizaines de figures drapées dans des soieries chatoyantes, baignées d'une lumière solaire dorée, où la peinture semble s'échapper du cadre architectural pour fusionner avec les stucs dorés et l'espace réel.",
+      "L'évolution de son style retrace cinquante ans de triomphe baroque à Rome et Florence : les années d'ascension et le grand saut barberinien (années 1620-1630) avec le plafond du salon Barberini (Le Triomphe de la Divine Providence) ; le séjour florentin et les Salles des Planètes (1637-1647) au Palais Pitti fusionnant fresque et stucs dorés ; et le retour triomphal à Rome (1647-1669) où il décore la Galerie Pamphili et l'église Santa Maria in Vallicella tout en bâtissant la façade baroque de Santa Maria della Pace."
+    ],
+    corpus: {
+      total: 150,
+      seen: 2,
+      paintingsCount: 150,
+      sourceTitle: "Catalogue Giuliano Briganti (1962 / 1982)",
+      sourceNotes: "L'inventaire absolu et le catalogue raisonné de référence mondiale ont été dressés par le grand historien de l'art italien Giuliano Briganti (Pietro da Cortona o della pittura barocca, Sansoni 1962, réédité et complété en 1982). Cet ouvrage fondamental recense l'intégralité des fresques murales, voûtes monumentales, retables d'églises, toiles de chevalet et allégories profanes réparties entre Rome, Florence, Paris et les grands musées européens.",
+      details: [
+        {
+          label: "Grands décors à fresque & plafonds illusionnistes",
+          count: 42,
+          icon: "🏛️",
+          color: "#d4af37",
+          seen: 0,
+          note: "Palais Barberini, Palais Pitti (Salles des Planètes), Galerie Pamphili, Santa Maria in Vallicella"
+        },
+        {
+          label: "Tableaux d'autel & scènes sacrées",
+          count: 68,
+          icon: "🎨",
+          color: "#00b4d8",
+          seen: 1,
+          note: "Dont La Sainte Famille avec saint Jean-Baptiste (Musée Fesch d'Ajaccio)"
+        },
+        {
+          label: "Peintures d'histoire, allégories & portraits",
+          count: 40,
+          icon: "👑",
+          color: "#2ecc71",
+          seen: 1,
+          note: "Dont L'Autoportrait de maturité (Musée Fesch d'Ajaccio)"
+        }
+      ]
+    },
+    biographyTimeline: {
+      birth: 1596,
+      birthPlace: "Cortone (Toscane)",
+      death: 1669,
+      deathPlace: "Rome",
+      periods: [
+        {
+          title: "La Formation Romaine & L'Ascension des Barberini",
+          years: "1612 – 1631",
+          color: "#d97706",
+          summary: "Arrivé jeune à Rome, il étudie l'antique et Raphaël tout en s'inspirant des grands maîtres vénitiens sous la haute protection des mécènes Sacchetti.",
+          events: [
+            {
+              year: 1612,
+              title: "Arrivée à Rome dans l'atelier de Baccio Ciarpi",
+              desc: "Étudie avec passion les marbres antiques, la colonne Trajane et les fresques de Raphaël à la Farnésine.",
+              type: "formation",
+              icon: "🏛️"
+            },
+            {
+              year: 1623,
+              title: "Protection des Sacchetti & Élection d'Urbain VIII Barberini",
+              desc: "Le marquis Marcello Sacchetti lui confie la décoration de la Villa du Pigneto et l'introduit auprès du cardinal Francesco Barberini et du nouveau pape.",
+              type: "key_event",
+              icon: "👑"
+            },
+            {
+              year: 1626,
+              title: "Fresques de l'église Santa Bibiana à Rome",
+              desc: "Première commande monumentale officielle confiée par le pape Urbain VIII, collaborant sur le chantier avec Le Bernin.",
+              type: "creation",
+              icon: "🎨"
+            }
+          ]
+        },
+        {
+          title: "L'Apothéose Baroque : Le Palais Barberini & Le Palais Pitti",
+          years: "1632 – 1647",
+          color: "#00b4d8",
+          summary: "L'apogée triomphal du grand décor baroque : Cortone réinvente l'illusionnisme céleste au salon Barberini puis révolutionne le palais grand-ducal des Médicis.",
+          events: [
+            {
+              year: 1633,
+              title: "Le Triomphe de la Divine Providence (Grand Salon du Palais Barberini, Rome)",
+              desc: "Plafond colossal célébrant la gloire d'Urbain VIII dans un tourbillon céleste de quadratura et de figures allégoriques en contre-plongée totale.",
+              type: "masterpiece",
+              icon: "✨"
+            },
+            {
+              year: 1637,
+              title: "Premier séjour à Florence & Début des décors du Palais Pitti",
+              desc: "Ferdinand II de Médicis l'engage pour peindre la Salle de la Stufa puis concevoir les fabuleuses Salles des Planètes.",
+              type: "key_event",
+              icon: "⚜️"
+            },
+            {
+              year: 1640,
+              title: "La Sainte Famille avec saint Jean-Baptiste (Palais Fesch, Ajaccio)",
+              desc: "Toile d'une rare délicatesse intimiste démontrant sa maîtrise des glacis dorés vénitiens et la tendresse des figures sacrées.",
+              type: "masterpiece",
+              icon: "🎨",
+              artworkId: "cortone_sainte_famille_ajaccio_1640"
+            },
+            {
+              year: 1641,
+              title: "Plafond du Salon de Vénus : L'Éducation du Prince (Palais Pitti, Florence)",
+              desc: "Sommet de la grande décoration médicéenne unissant stucs dorés en haut-relief et fresque allégorique où Minerve arrache le prince aux bras de Vénus.",
+              type: "masterpiece",
+              icon: "🏛️",
+              artworkId: "cortone_plafond_salon_venus_palais_pitti_1641"
+            }
+          ]
+        },
+        {
+          title: "Les Grands Chantiers Pontificaux & La Maturité Réflexive",
+          years: "1648 – 1669",
+          color: "#eab308",
+          summary: "Prince de l'Académie de Saint-Luc, architecte et peintre vénéré dans toute l'Europe, il consacre ses dernières années aux grands édifices romains.",
+          events: [
+            {
+              year: 1651,
+              title: "Fresques de la Galerie Pamphili (Place Navone, Rome)",
+              desc: "Immense cycle dédié à l'Énéide de Virgile commandé par le pape Innocent X dans son nouveau palais de la place Navone.",
+              type: "creation",
+              icon: "📜"
+            },
+            {
+              year: 1656,
+              title: "Façade de Santa Maria della Pace & Chantiers architecturaux",
+              desc: "Chef-d'œuvre d'architecture baroque théâtrale à pronaos semi-circulaire articulant la place comme un décor d'opéra.",
+              type: "creation",
+              icon: "🏛️"
+            },
+            {
+              year: 1664,
+              title: "Autoportrait de maturité (Palais Fesch, Ajaccio)",
+              desc: "Regard lucide, noble et introspectif du maître au sommet de sa gloire, légué à la postérité et conservé au Palais Fesch.",
+              type: "masterpiece",
+              icon: "🖼️",
+              artworkId: "cortone_autoportrait_ajaccio_1664"
+            },
+            {
+              year: 1669,
+              title: "Mort à Rome et sépulture à Santi Luca e Martina",
+              desc: "Inhumé au cœur de l'église des artistes qu'il avait lui-même dessinée et financée, laissant une empreinte indélébile sur tout l'art européen.",
+              type: "death",
+              icon: "⛪"
+            }
+          ]
+        }
+      ]
+    }
   }
 };
 
