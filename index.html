@@ -257,6 +257,10 @@
           title="Déployer les filtres et l'index A-Z">
           🔍 Filtres &amp; A-Z ▾
         </button>
+        <button id="btn-sticky-return-timeline" class="btn-sticky-return-timeline" type="button" hidden
+          title="Revenir à la frise chronologique">
+          ◀ Revenir à la Frise
+        </button>
         <button id="btn-sticky-close-artist" class="btn-sticky-close-artist" type="button" hidden
           title="Fermer la fiche peintre">
           ✕ Fermer la fiche
@@ -270,8 +274,15 @@
       <!-- Fiche Monographique Peintre (déroulée en tête des œuvres) -->
       <div class="artist-monograph-hero" id="artist-monograph-hero" hidden>
         <div class="artist-hero-banner" id="artist-hero-banner">
-          <button class="btn-close-artist-hero" id="btn-close-artist-hero" title="Fermer la fiche peintre">✕ Fermer la
-            fiche</button>
+          <div class="artist-hero-actions-top">
+            <button class="btn-return-timeline-artist" id="btn-return-timeline-artist" type="button"
+              title="Revenir à la frise chronologique">
+              ◀ Revenir à la Frise
+            </button>
+            <button class="btn-close-artist-hero" id="btn-close-artist-hero" title="Fermer la fiche peintre">
+              ✕ Fermer la fiche
+            </button>
+          </div>
           <div class="artist-hero-overlay-cartouche">
             <div class="artist-hero-header">
               <h2 class="artist-hero-name" id="artist-hero-name"></h2>

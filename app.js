@@ -4682,6 +4682,7 @@ let currentPavilionCiv = null;
 function openCivilisationPavilion(civ, initialTab = 'panoramic') {
   if (!civ) return;
   currentPavilionCiv = civ;
+  window.lastActivePavilionCiv = civ;
 
   const pavilion = document.getElementById('civ-pavilion-stage');
   const viewTimeline = document.getElementById('view-timeline');
@@ -5880,6 +5881,7 @@ function renderMovementArtistsTrack(civ, movData) {
     if (btn) {
       btn.addEventListener('click', (e) => {
         e.stopPropagation();
+        window.lastActivePavilionCiv = civ;
         closeCivilisationPavilion();
         if (artistRecord && typeof openMonographForArtistRecord === 'function') {
           openMonographForArtistRecord(artistRecord);
@@ -8776,6 +8778,8 @@ function initSearchEngine() {
       if (stickyBarSub) stickyBarSub.textContent = rec && rec.movement ? rec.movement : '';
       if (stickyBarCount) stickyBarCount.textContent = `${countVal} œuvre${Number(countVal) > 1 ? 's' : ''}`;
       if (btnStickyCloseArtist) btnStickyCloseArtist.hidden = false;
+      const btnStickyReturnTimeline = document.getElementById('btn-sticky-return-timeline');
+      if (btnStickyReturnTimeline) btnStickyReturnTimeline.hidden = false;
     } else {
       if (stickyBarIcon) stickyBarIcon.textContent = '🏛️';
       const q = filterText && filterText.value.trim() ? `« ${filterText.value.trim()} »` : 'CATALOGUE DES ARTS';
@@ -8784,6 +8788,8 @@ function initSearchEngine() {
       if (stickyBarSub) stickyBarSub.textContent = '';
       if (stickyBarCount) stickyBarCount.textContent = `${countVal} résultat${Number(countVal) > 1 ? 's' : ''}`;
       if (btnStickyCloseArtist) btnStickyCloseArtist.hidden = true;
+      const btnStickyReturnTimeline = document.getElementById('btn-sticky-return-timeline');
+      if (btnStickyReturnTimeline) btnStickyReturnTimeline.hidden = true;
     }
   }
 
@@ -8820,6 +8826,23 @@ function initSearchEngine() {
     btnStickyCloseArtist.addEventListener('click', () => {
       if (btnCloseArtistHero) btnCloseArtistHero.click();
     });
+  }
+
+  const btnReturnTimelineArtist = document.getElementById('btn-return-timeline-artist');
+  const btnStickyReturnTimeline = document.getElementById('btn-sticky-return-timeline');
+
+  function returnToTimelineView() {
+    switchView('view-timeline');
+    if (window.lastActivePavilionCiv && typeof openCivilisationPavilion === 'function') {
+      openCivilisationPavilion(window.lastActivePavilionCiv);
+    }
+  }
+
+  if (btnReturnTimelineArtist) {
+    btnReturnTimelineArtist.addEventListener('click', returnToTimelineView);
+  }
+  if (btnStickyReturnTimeline) {
+    btnStickyReturnTimeline.addEventListener('click', returnToTimelineView);
   }
 
   // Surveillance du défilement (conteneur interne sur desktop ET fenêtre sur iPad/mobile)

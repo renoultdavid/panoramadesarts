@@ -4419,11 +4419,44 @@ body {
   z-index: 2;
 }
 
-.btn-close-artist-hero {
+.artist-hero-actions-top {
   position: absolute;
   top: 14px;
   right: 14px;
   z-index: 10;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn-return-timeline-artist,
+.btn-sticky-return-timeline {
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.28) 0%, rgba(10, 15, 24, 0.95) 100%);
+  border: 1.5px solid var(--gold-pure, #d4af37);
+  color: var(--gold-pale, #eed88f);
+  padding: 6px 14px;
+  font-family: 'Cinzel', serif;
+  font-size: 0.78rem;
+  font-weight: 700;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+.btn-return-timeline-artist:hover,
+.btn-sticky-return-timeline:hover {
+  background: linear-gradient(135deg, #d4af37 0%, #eed88f 100%);
+  color: #0b1120;
+  border-color: #fff;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 14px rgba(212, 175, 55, 0.45);
+}
+
+.btn-close-artist-hero {
   background: rgba(10, 13, 18, 0.9);
   border: 1px solid var(--gold-pure);
   color: var(--gold-pure);
@@ -7497,21 +7530,19 @@ body {
 
 /* RANGÉE DÉDIÉE POUR LES ONGLETS (AUCUN CHEVAUCHEMENT AVEC LE TITRE) */
 /* =========================================================
-   CORPS DU PAVILLON : ARCHITECTURE MULTI-VOLETS RÉAGENCÉE & AÉRÉE
+   CORPS DU PAVILLON : ARCHITECTURE MULTI-VOLETS CALIBRÉE & ALIGNÉE
    ========================================================= */
 .pavilion-body {
-  padding: 22px 28px 16px 28px;
-  min-height: auto;
+  padding: 20px 28px 16px 28px;
   overflow: visible;
   display: grid;
   grid-template-columns: minmax(360px, 1.1fr) 1.25fr 1.15fr;
-  grid-template-rows: 210px minmax(320px, auto) minmax(320px, auto);
+  grid-template-rows: 210px 170px 460px;
   grid-template-areas:
     "banner  banner     milestones"
     "notice  map        milestones"
     "notice  concurrent milestones";
-  gap: 20px;
-  height: auto;
+  gap: 18px;
   box-sizing: border-box;
 }
 
@@ -7520,8 +7551,7 @@ body {
   grid-area: banner;
   position: relative;
   width: 100%;
-  height: 100%;
-  min-height: 210px;
+  height: 210px;
   border-radius: 8px;
   overflow: hidden;
   border: 1.5px solid rgba(212, 175, 55, 0.4);
@@ -7568,8 +7598,8 @@ body {
   grid-area: notice;
   display: flex;
   flex-direction: column;
-  min-height: 660px;
   height: 100%;
+  min-height: 0;
 }
 
 .notice-layout-wrapper {
@@ -7578,13 +7608,13 @@ body {
   gap: 14px;
 }
 
-/* 2. MILIEU HAUT : CARTE RÉGIONALE / FOYERS GÉOGRAPHIQUES */
+/* 2. MILIEU HAUT : CARTE RÉGIONALE / FOYERS GÉOGRAPHIQUES (Calibré compact à 170px) */
 #panel-map {
   grid-area: map;
   display: flex;
   flex-direction: column;
-  min-height: 320px;
   height: 100%;
+  min-height: 0;
 }
 
 .map-header-flex {
@@ -7635,13 +7665,13 @@ body {
   transform: scale(1.05);
 }
 
-/* 3. MILIEU BAS : ET PENDANT CE TEMPS-LÀ */
+/* 3. MILIEU BAS : ET PENDANT CE TEMPS-LÀ (Spacieux à 460px) */
 #panel-concurrent {
   grid-area: concurrent;
   display: flex;
   flex-direction: column;
-  min-height: 320px;
   height: 100%;
+  min-height: 0;
 }
 
 /* 4. DROITE (PLEINE HAUTEUR) : TOURNANTS & ÉVÉNEMENTS CONTEMPORAINS */
@@ -7649,8 +7679,8 @@ body {
   grid-area: milestones;
   display: flex;
   flex-direction: column;
-  min-height: 890px;
   height: 100%;
+  min-height: 0;
 }
 
 .concurrent-milestones-col {
