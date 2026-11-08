@@ -878,7 +878,7 @@ const ART_MOVEMENTS = [
     tier: 1,
     color: "#ca8a04",
     bannerImg: "https://lh3.googleusercontent.com/d/1sFMtLMZcJnbInk_gj9zDOFtoe5P3Uo0Y",
-    keyArtists: "Léonard de Vinci, Raphaël, Michel-Ange, Giorgione, Titien, Albrecht Dürer, Vittore Carpaccio, Jean Clouet",
+    keyArtists: "Léonard de Vinci, Raphaël, Michel-Ange, Giorgione, Titien, Albrecht Dürer, Vittore Carpaccio, Jean Clouet, Lucas Cranach l'Ancien",
     definition: "Apogée classique de l'art occidental entre Rome, Florence et Venise : monumentalité souveraine, sfumato atmosphérique, équilibre pyramidal et colorisme vénitien.",
     filterKeyword: "renaissance"
   },
@@ -1307,6 +1307,7 @@ const ART_MOVEMENTS = [
     yearEnd: 1508,
     tier: 1,
     color: "#ec4899",
+    bannerImg: "https://lh3.googleusercontent.com/d/1PS_8-DHjv_Yrorfw5yz3Yr28mOG-at_7",
     keyArtists: "Albrecht Dürer",
     definition: "Dürer se peint à 28 ans dans une pose rigoureusement frontale jusqu'alors réservée au Christ (Salvator Mundi). Il affirme avec audace le statut divin de l'artiste créateur et la dignité de l'esprit intellectuel.",
     filterKeyword: "durer"

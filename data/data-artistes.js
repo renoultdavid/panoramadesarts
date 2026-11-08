@@ -5540,6 +5540,200 @@ window.ARTISTS_REGISTRY = {
         }
       ]
     }
+  },
+
+  cranach: {
+    id: "cranach",
+    name: "Lucas Cranach l'Ancien",
+    sortName: "Cranach Lucas l'Ancien",
+    sortLetter: "C",
+    dates: "1472 – 1553",
+    movement: "Renaissance allemande, Peinture de la Réforme & Maniérisme courtois",
+    nationality: "Allemand (Kronach, Franconie / Wittenberg, Saxe)",
+    techniques: "Huile et détrempe sur panneau de bois (tilleul/hêtre), gravure sur bois, précision calligraphique, marque d'atelier au serpent ailé (dragon)",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczN9DQw58rgBR2SC3t6dO0DFp1wlOhsDaL1KRnPv30UZd5mMk4LJwIiLVnoPwcj-t_6m-qBB_C2FcJHTAXQrIOZibMfcBOZVoKUvxFCAsOYzaZTLyuVOLn7poAS2c1hbhw2JBkFLREMoc4auy454Ssyh2A=w1894-h803-s-no-gm?authuser=0",
+    bio: [
+      "Lucas Cranach l’Ancien, né en 1472 en Franconie et mort en 1553 à Weimar, est l'un des piliers de la Renaissance allemande. Peintre de cour des électeurs de Saxe à Wittenberg pendant près de cinquante ans, il fut un ami intime de Martin Luther et le principal architecte visuel de la Réforme protestante. Entrepreneur brillant, il dirigeait un atelier immense et productif, tout en exerçant des fonctions politiques comme bourgmestre. Sa position unique lui a permis de naviguer entre les commandes religieuses luthériennes, les portraits princiers et les scènes mythologiques destinées à une élite humaniste.",
+      "Son genre pictural se distingue par une esthétique originale qui rompt avec les canons de beauté de la Renaissance italienne. Cranach a inventé un type de nu féminin particulièrement reconnaissable : des silhouettes sveltes, aux courbes sinueuses et allongées, souvent parées de bijoux ou de chapeaux extravagants qui accentuent leur érotisme. Son style se caractérise par une précision graphique héritée de la gravure, des fonds souvent sombres qui font ressortir la pâleur des chairs, et un sens du détail décoratif poussé à l'extrême. Ses portraits sont d'une grande fidélité psychologique, capturant la rudesse et la dignité des figures clés de son époque.",
+      "L'évolution de son style marque un passage d'un expressionnisme tourmenté vers un maniérisme élégant et presque calligraphique. À ses débuts à Vienne, ses paysages étaient sauvages et ses compositions dynamiques, proches de l'école du Danube. Une fois installé à Wittenberg, son art s'est stabilisé pour devenir plus efficace et stylisé, répondant aux besoins de production de son atelier. Vers la fin de sa vie, ses compositions se sont simplifiées pour servir la clarté didactique des thèmes protestants, comme le contraste entre la Loi et la Grâce. Il laisse derrière lui une imagerie puissante qui a su concilier la nouvelle foi chrétienne et un imaginaire profane sophistiqué."
+    ],
+    corpus: {
+      total: 450,
+      seen: 6,
+      paintingsCount: 450,
+      sourceTitle: "Catalogue Max J. Friedländer & Jakob Rosenberg (1932 / 1978) & Cranach Digital Archive (CDA)",
+      sourceNotes: "Établir son corpus exact est un véritable casse-tête pour les historiens de l'art en raison de la production intense de son atelier de Wittenberg, secondé par ses fils et ses assistants, où chaque tableau portait à partir de 1508 la marque du serpent ailé. Si le Cranach Digital Archive (CDA) recense aujourd'hui plus de 2 200 peintures survivantes issues de la galaxie Cranach (père, fils et atelier), le catalogue raisonné historique de référence de Max J. Friedländer et Jakob Rosenberg (1932, révisé en 1978) restreint le corpus central strictement autographe ou prépondérant du père à environ 430 à 450 œuvres principales.",
+      details: [
+        {
+          label: "Nus bibliques, allégories profanes & scènes mythologiques",
+          count: 140,
+          icon: "🍎",
+          color: "#d4af37",
+          seen: 2,
+          note: "Dont Adam et Ève (Londres Courtauld & Florence Offices)"
+        },
+        {
+          label: "Héroïnes bibliques, femmes fortes & pouvoir des femmes",
+          count: 90,
+          icon: "🗡️",
+          color: "#e74c3c",
+          seen: 3,
+          note: "Dont Judith et Holopherne (Lisbonne MNAA & Tokyo NMWA), Salomé (Lisbonne)"
+        },
+        {
+          label: "Grands retables sacrés & scènes de la Passion",
+          count: 120,
+          icon: "✝️",
+          color: "#00b4d8",
+          seen: 1,
+          note: "Dont Le Jardin de Gethsémani (Tokyo NMWA)"
+        },
+        {
+          label: "Portraits de cour de Saxe & des Réformateurs luthériens",
+          count: 100,
+          icon: "👑",
+          color: "#9b59b6",
+          seen: 0,
+          note: "Portraits de Martin Luther, de Katharina von Bora et des Électeurs de Saxe"
+        }
+      ]
+    },
+    biographyTimeline: {
+      birth: 1472,
+      birthPlace: "Kronach (Franconie, Allemagne)",
+      death: 1553,
+      deathPlace: "Weimar (Thuringe, Allemagne)",
+      periods: [
+        {
+          title: "L'Ébullition Viennoise & L'École du Danube",
+          years: "1500 – 1504",
+          color: "#d97706",
+          summary: "Période expressionniste et passionnée à Vienne où il peint des paysages sauvages et tourmentés au contact des humanistes avant son appel à la cour de Saxe.",
+          events: [
+            {
+              year: 1501,
+              title: "Séjour à Vienne & Cercle des humanistes de Celtis",
+              desc: "Se lie d'amitié avec les poètes et savants de l'université de Vienne et signe ses premières gravures et panneaux sous le nom de Lucas Cranach (d'après sa ville natale de Kronach).",
+              type: "formation",
+              icon: "🏛️"
+            },
+            {
+              year: 1503,
+              title: "La Crucifixion & L'essor de l'école du Danube",
+              desc: "Peint des scènes sacrées d'un pathétique fiévreux intégrées dans une nature alpine sauvage aux ramures noueuses et aux horizons crépusculaires.",
+              type: "masterpiece",
+              icon: "🌲"
+            }
+          ]
+        },
+        {
+          title: "Peintre de Cour à Wittenberg, L'Atelier au Serpent Ailé & La Réforme",
+          years: "1505 – 1530",
+          color: "#00b4d8",
+          summary: "Nommé peintre officiel de Frédéric le Sage à Wittenberg : création du blason au serpent ailé (1508), amitié intime avec Martin Luther et invention d'une esthétique sensuelle et raffinée.",
+          events: [
+            {
+              year: 1505,
+              title: "Nomination comme peintre de cour des Électeurs de Saxe à Wittenberg",
+              desc: "Frédéric le Sage l'attache à sa cour princière où il restera au service de trois électeurs successifs pendant près d'un demi-siècle.",
+              type: "key_event",
+              icon: "👑"
+            },
+            {
+              year: 1508,
+              title: "Octroi des armoiries princières : le Serpent ailé",
+              desc: "L'électeur lui concède son fameux blason au dragon/serpent ailé tenant un anneau de rubis dans la gueule, qui devient la signature officielle de son atelier.",
+              type: "key_event",
+              icon: "🐉"
+            },
+            {
+              year: 1517,
+              title: "Affichage des 95 thèses de Luther & Alliance avec la Réforme",
+              desc: "Ami intime de Martin Luther à Wittenberg, Cranach met son atelier et son imprimerie au service exclusif de la diffusion visuelle des idées protestantes.",
+              type: "key_event",
+              icon: "📜"
+            },
+            {
+              year: 1518,
+              title: "Le Jardin de Gethsémani (Musée national de l'art occidental, Tokyo)",
+              desc: "Ferveur douloureuse du Christ agenouillé sous l'aube d'orage de l'école du Danube et sommeil lourd des apôtres aux draperies lumineuses.",
+              type: "masterpiece",
+              icon: "✝️",
+              artworkId: "cranach_jardin_gethsemani_tokyo_1518"
+            },
+            {
+              year: 1526,
+              title: "Adam et Ève au jardin d'Éden (The Courtauld Gallery, Londres)",
+              desc: "Apogée du nu sinueux nordique : la complicité psychologique du couple originel au milieu d'une ménagerie d'animaux symboliques du Paradis.",
+              type: "masterpiece",
+              icon: "🍎",
+              artworkId: "cranach_adam_et_eve_courtauld_1526"
+            },
+            {
+              year: 1528,
+              title: "Adam et Ève - Diptyque des Offices (Galerie des Offices, Florence)",
+              desc: "Diptyque souverain isolant les figures sur fond sombre dans une élégance linéaire serpentine et une grâce calligraphique inimitable.",
+              type: "masterpiece",
+              icon: "🌿",
+              artworkId: "cranach_adam_et_eve_offices_1528"
+            },
+            {
+              year: 1530,
+              title: "Judith et Holopherne (Musée national d'art ancien, Lisbonne)",
+              desc: "Héroïne biblique triomphante vêtue de velours de cour aux manches tailladées et chapeau de plumes, brandissant l'épée avec une sérénité fascinante.",
+              type: "masterpiece",
+              icon: "🗡️",
+              artworkId: "cranach_judith_et_holopherne_lisbonne_1530"
+            },
+            {
+              year: 1530,
+              title: "Judith avec la tête d'Holopherne (Musée national de l'art occidental, Tokyo)",
+              desc: "Allégorie courtoise de la vertu invincible : contraste saisissant entre la cruauté de la tête décapitée et le faste princier de la dame de cour saxonne.",
+              type: "masterpiece",
+              icon: "👑",
+              artworkId: "cranach_judith_tete_holopherne_tokyo_1530"
+            }
+          ]
+        },
+        {
+          title: "Le Pouvoir des Femmes, Le Bourgmestre & Le Crépuscule à Weimar",
+          years: "1531 – 1553",
+          color: "#eab308",
+          summary: "Élu bourgmestre de Wittenberg, il décline la thématique moralisatrice du pouvoir des femmes et de la grâce luthérienne, puis partage la captivité de son prince avant de s'éteindre à Weimar.",
+          events: [
+            {
+              year: 1537,
+              title: "Salomé avec la tête de saint Jean-Baptiste (Musée national d'art ancien, Lisbonne)",
+              desc: "Variation troublante sur le thème du pouvoir féminin : parée d'une pelisse de fourrure et de bijoux princiers, Salomé présente le plateau d'argent d'un regard énigmatique.",
+              type: "masterpiece",
+              icon: "👑",
+              artworkId: "cranach_salome_et_tete_jean_baptiste_lisbonne_1537"
+            },
+            {
+              year: 1537,
+              title: "Élection au rang de Bourgmestre de Wittenberg",
+              desc: "Consécration sociale et politique suprême : l'artiste-entrepreneur gère les finances, l'imprimerie et la pharmacie de la cité réformée.",
+              type: "key_event",
+              icon: "🏛️"
+            },
+            {
+              year: 1547,
+              title: "Bataille de Mühlberg & Captivité auprès de Jean-Frédéric de Saxe",
+              desc: "Fidélité indéfectible à son prince vaincu par Charles Quint : il le rejoint en captivité à Augsbourg et Innsbruck où il rencontre Titien.",
+              type: "key_event",
+              icon: "⚔️"
+            },
+            {
+              year: 1553,
+              title: "Mort à Weimar à l'âge de 81 ans",
+              desc: "Fin d'une longévité créatrice légendaire au palais de Weimar, son fils Lucas le Jeune reprenant le flambeau de l'atelier au serpent ailé.",
+              type: "death",
+              icon: "🕊️"
+            }
+          ]
+        }
+      ]
+    }
   }
 };
 

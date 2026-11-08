@@ -187,6 +187,14 @@ window.MOVEMENTS_DATA = {
         "desc": "Portrait de François Ier en saint Jean-Baptiste, Portrait officiel de François Ier au Louvre.",
         "artistId": "clouet_jean",
         "icon": "👑"
+      },
+      {
+        "name": "Lucas Cranach l'Ancien",
+        "dates": "1472 – 1553",
+        "role": "Pilier de la Renaissance allemande et maître visuel de la Réforme",
+        "desc": "Adam et Ève, Judith et Holopherne, Salomé et portraits de Luther.",
+        "artistId": "cranach",
+        "icon": "🐉"
       }
     ]
   },
@@ -1323,6 +1331,7 @@ window.MOVEMENTS_DATA = {
     ]
   },
   "mov_rup_durer_1500": {
+    "bannerImg": "https://lh3.googleusercontent.com/d/1PS_8-DHjv_Yrorfw5yz3Yr28mOG-at_7",
     "badge": "✦ 1500 : LE PREMIER AUTOPORTRAIT FRONTAL AUTONOME (1498 – 1508)",
     "noticeHtml": "<p><strong>Dürer et la dignité divine de l'artiste créateur</strong><br>En 1500 à Nuremberg, Albrecht Dürer peint son propre portrait de face, vêtu d'une pelisse de fourrure somptueuse, la chevelure ondoyante et la main droite repliée sur la poitrine. Cette composition frontale était jusqu'alors strictement réservée à l'iconographie sacrée du Christ Pantocrator. Par ce geste d'une audace inouïe, Dürer affirme que l'artiste n'est plus un simple artisan manuel médiéval, mais un créateur souverain habité par l'étincelle divine.</p>",
     "concurrentHtml": "<p><strong>Contexte contemporain :</strong> Le basculement vers le XVIe siècle : angoisse millénariste de l'an 1500, premiers voyages de Christophe Colomb vers l'Amérique (1492) et de Vasco de Gama vers l'Inde (1498). Début des guerres d'Italie menées par Louis XII.</p>",
@@ -1333,7 +1342,7 @@ window.MOVEMENTS_DATA = {
         "dates": "1471 – 1528",
         "role": "Génie de la Renaissance nordique et graveur universel",
         "desc": "Autoportrait à la pelisse (1500), Melencolia I et Rhinocéros.",
-        "artistId": "altdorfer",
+        "artistId": "",
         "icon": "🎨"
       }
     ]
