@@ -845,6 +845,7 @@ const ART_MOVEMENTS = [
     parentCivId: "occ_renaissance",
     lane: "mod_peinture",
     name: "Quattrocento & Perspective florentine",
+    bannerImg: "https://lh3.googleusercontent.com/d/1REH4GGICuHgtvPjip5aVwhqcc49ciMVM",
     yearStart: 1400,
     yearEnd: 1490,
     tier: 1,
@@ -1115,6 +1116,7 @@ const ART_MOVEMENTS = [
     parentCivId: "occ_renaissance",
     lane: "mod_sculpture",
     name: "Renaissance sculpturale : Donatello & Michel-Ange",
+    bannerImg: "https://lh3.googleusercontent.com/d/1mHxhlWjeR1rcFHUWRBg85W2QbJGnG2Od",
     yearStart: 1400,
     yearEnd: 1565,
     tier: 1,
@@ -1516,6 +1518,7 @@ function showMovementPopover(mov, barEl, isClick = false) {
   if (isClick) {
     isMovPopPinned = true;
     popover.dataset.pinned = 'true';
+    selectedTheatreCivId = mov.id;
   } else {
     isMovPopPinned = false;
     delete popover.dataset.pinned;
@@ -4111,7 +4114,11 @@ function buildTimelineBlocks() {
       e.stopPropagation();
       clearTimeout(movPopShowTimer);
       movPopShowTimer = null;
-      // Clic = ouverture instantanée (0ms) et épinglage
+      // Clic = sélection prioritaire : mettre la fiche en tête du Théâtre Synchronique
+      selectedTheatreCivId = mov.id;
+      lastRenderedCivKey = null;
+      updateSynchronousState(e.clientX);
+      // Ouverture instantanée (0ms) et épinglage du popover
       showMovementPopover(mov, bar, true);
     });
 
@@ -6053,6 +6060,7 @@ function goToGalleryForCivAndTheme(civ, themeLabel) {
 }
 
 let lastRenderedCivKey = null;
+let selectedTheatreCivId = null;
 
 function renderSynchronousTheatre(activeCivs, currentYear) {
   try {
@@ -6077,7 +6085,40 @@ function renderSynchronousTheatre(activeCivs, currentYear) {
     if (!theatreTrack) return;
 
     const safeActive = Array.isArray(activeCivs) ? activeCivs : [];
-    const currentCivKey = safeActive.map(c => c.id).sort().join('|');
+
+    // Réorganisation ergonomique : placer la fiche du mouvement sélectionné/cliqué EN TÊTE DE LISTE (index 0)
+    let orderedActive = [...safeActive];
+    if (selectedTheatreCivId) {
+      const selIdx = orderedActive.findIndex(c => c.id === selectedTheatreCivId);
+      if (selIdx > 0) {
+        const [selItem] = orderedActive.splice(selIdx, 1);
+        orderedActive.unshift(selItem);
+      } else if (selIdx === -1 && currentTimelineEra === 'modern') {
+        const matchedMov = ART_MOVEMENTS.find(m => m.id === selectedTheatreCivId);
+        if (matchedMov) {
+          const matchingArts = typeof getArtworksForMovement === 'function' ? getArtworksForMovement(matchedMov) : [];
+          const movData = (window.MOVEMENTS_DATA && window.MOVEMENTS_DATA[matchedMov.id]) || {};
+          orderedActive.unshift({
+            id: matchedMov.id,
+            name: matchedMov.name,
+            epoch: `${matchedMov.yearStart} – ${matchedMov.yearEnd}`,
+            yearStart: matchedMov.yearStart,
+            yearEnd: matchedMov.yearEnd,
+            themeColor: matchedMov.color,
+            lane: matchedMov.lane,
+            isMovement: true,
+            icon: '✨',
+            presentationHtml: movData.noticeHtml || `<p><strong>${escapeHtmlAttr(matchedMov.name)} (${matchedMov.yearStart} – ${matchedMov.yearEnd})</strong><br>${escapeHtmlAttr(matchedMov.definition)}</p><p><strong>Artistes majeurs :</strong> ${escapeHtmlAttr(matchedMov.keyArtists || '')}</p>`,
+            concurrentHtml: movData.concurrentHtml || '',
+            artifacts: matchingArts,
+            bannerImg: movData.bannerImg || matchedMov.bannerImg || (matchingArts[0] ? matchingArts[0].imgSrc : ''),
+            _mov: matchedMov
+          });
+        }
+      }
+    }
+
+    const currentCivKey = (selectedTheatreCivId ? `SEL:${selectedTheatreCivId}|` : '') + orderedActive.map(c => c.id).join('|');
     if (lastRenderedCivKey !== null && currentCivKey === lastRenderedCivKey && theatreTrack.children.length > 0) {
       return;
     }
@@ -6085,7 +6126,7 @@ function renderSynchronousTheatre(activeCivs, currentYear) {
 
     theatreTrack.innerHTML = '';
 
-    if (safeActive.length === 0) {
+    if (orderedActive.length === 0) {
       theatreTrack.classList.remove('is-single-hero');
       const emptyMsg = document.createElement('div');
       emptyMsg.className = 'theatre-empty-state';
@@ -6102,9 +6143,9 @@ function renderSynchronousTheatre(activeCivs, currentYear) {
     // ========================================================
     // CAS 1 : UNE SEULE CIVILISATION CONTEMPORAINE (MODE HERO GRAND FORMAT)
     // ========================================================
-    if (safeActive.length === 1) {
+    if (orderedActive.length === 1) {
       theatreTrack.classList.add('is-single-hero');
-      const civ = safeActive[0];
+      const civ = orderedActive[0];
       const icon = civ.icon || (typeof getCivIcon === 'function' ? getCivIcon(civ) : '🏛️');
       const bannerOrImg = civ.bannerImg || (civ.artifacts && civ.artifacts[0] ? civ.artifacts[0].imgSrc : '');
 
@@ -6222,7 +6263,7 @@ function renderSynchronousTheatre(activeCivs, currentYear) {
     // ========================================================
     theatreTrack.classList.remove('is-single-hero');
 
-    safeActive.forEach(civ => {
+    orderedActive.forEach(civ => {
       const icon = civ.icon || (typeof getCivIcon === 'function' ? getCivIcon(civ) : '🏛️');
       const bannerOrImg = civ.bannerImg || (civ.artifacts && civ.artifacts[0] ? civ.artifacts[0].imgSrc : '');
 
@@ -6241,6 +6282,9 @@ function renderSynchronousTheatre(activeCivs, currentYear) {
 
       const card = document.createElement('div');
       card.className = 'theatre-civ-card';
+      if (civ.id === selectedTheatreCivId) {
+        card.classList.add('is-highlighted');
+      }
       card.setAttribute('data-civ-id', civ.id);
       card.style.setProperty('--civ-card-color', civ.themeColor || '#d4af37');
 
@@ -6303,6 +6347,11 @@ function renderSynchronousTheatre(activeCivs, currentYear) {
 
       theatreTrack.appendChild(card);
     });
+
+    if (selectedTheatreCivId && theatreTrack) {
+      theatreTrack.scrollLeft = 0;
+      theatreTrack.scrollTo({ left: 0, behavior: 'smooth' });
+    }
   } catch (err) {
     console.error('Erreur dans renderSynchronousTheatre:', err);
   }
@@ -6365,6 +6414,11 @@ function updateSynchronousState(screenX) {
         label.classList.toggle('has-active-civ', activeLanes.has(label.dataset.lane));
       }
     });
+
+    // Réinitialisation de la sélection si l'on a navigué hors de l'époque du mouvement
+    if (selectedTheatreCivId && !activeCivs.some(c => c.id === selectedTheatreCivId)) {
+      selectedTheatreCivId = null;
+    }
 
     // Mise à jour du Théâtre Synchronique des Arts
     renderSynchronousTheatre(activeCivs, currentYear);
