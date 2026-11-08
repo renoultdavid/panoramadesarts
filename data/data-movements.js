@@ -48,6 +48,14 @@ window.MOVEMENTS_DATA = {
         "desc": "Le Triomphe de la Mort au Camposanto de Pise.",
         "artistId": "buffalmacco",
         "icon": "💀"
+      },
+      {
+        "name": "Bernardo Daddi",
+        "dates": "v. 1290 – 1348",
+        "role": "Chef de file florentin après Giotto & maître de la grâce dévotionnelle",
+        "desc": "L'Annonciation du Louvre, Maestà d'Orsanmichele et triptyques intimes.",
+        "artistId": "daddi",
+        "icon": "✨"
       }
     ]
   },
@@ -199,6 +207,7 @@ window.MOVEMENTS_DATA = {
     ]
   },
   "mov_manierisme": {
+    "bannerImg": "https://lh3.googleusercontent.com/d/1d3WwVwP4DoRHuj9fw9vQkXJ044r72tbW",
     "badge": "✦ L'INQUIÉTUDE RAFFINÉE DU MANIÉRISME EUROPÉEN (1520 – 1600)",
     "noticeHtml": "<p><strong>La crise de l'harmonie et l'audace de l'artifice</strong><br>Face à la perfection insurpassable atteinte par Raphaël et Michel-Ange, la génération suivante refuse de se limiter à une imitation servile de la nature. Profondément marquée par le sac tragique de Rome en 1527 et les angoisses religieuses de la Réforme, elle invente la <em>maniera</em> : une esthétique sophistiquée, intellectuelle et délibérément artificielle.</p><p>Les corps s'allongent en <em>figura serpentinata</em> serpentine, les perspectives se distordent vertigineusement, les couleurs deviennent acides ou glacées, et les compositions basculent dans l'instabilité (Pontormo, Rosso Fiorentino, Parmigianino). À la cour florentine de Cosme Ier, Bronzino fige l'aristocratie dans des portraits d'un marbre impénétrable, tandis que l'école de Fontainebleau diffuse ce maniérisme raffiné auprès des rois de France.</p>",
     "concurrentHtml": "<p><strong>Pendant ce temps-là... Concile de Trente et guerres de Religion</strong></p><p><strong>Europe & Religion :</strong> L'Église catholique réunit le <strong>Concile de Trente (1545-1563)</strong> pour orchestrer la Contre-Réforme, imposant un contrôle rigoureux des images religieuses qui condamne les licences maniéristes. En France, les guerres de Religion ensanglantent le royaume (massacre de la Saint-Barthélemy en 1572).</p><p><strong>Espagne :</strong> Philippe II fait édifier l'austère monastère de l'Escurial (1563-1584), symbole de la foi catholique intransigeante. À Tolède, Le Greco fusionne le maniérisme vénitien et le mysticisme ibérique en flammes spirituelles.</p><p><strong>Sciences & Lettres :</strong> En 1543, Copernic publie son modèle héliocentrique <em>De revolutionibus</em>, ébranlant la vision géocentrique du monde. Montaigne écrit ses <em>Essais</em> (1580).</p>",

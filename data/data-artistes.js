@@ -5734,6 +5734,133 @@ window.ARTISTS_REGISTRY = {
         }
       ]
     }
+  },
+
+  daddi: {
+    id: "daddi",
+    name: "Bernardo Daddi",
+    sortName: "Daddi Bernardo",
+    sortLetter: "D",
+    dates: "v. 1290 – 1348",
+    movement: "Trecento florentin, Naturalisme giottesque & Lyrisme siennois",
+    nationality: "Italien (Florence)",
+    techniques: "Détrempe et or sur panneau de bois, fonds d'or poinçonnés, triptyques portatifs dévotionnels, sfumato précoce et miniaturisme décoratif",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczMdJOz44t4O5o9uqiVjFln10Jf33qA9a_2t-VwJ-O_oLis0t7XtR4jN38MvmYf3jwhV94kXSkoW_HgM89aX4zyWHSV3Z7yURqxyVflp-iBxajXvcOX72msE69jtQonxVmG0Eg5ltanL_jYG2wM_8a6ACw=w1894-h803-s-no-gm?authuser=0",
+    bio: [
+      "Bernardo Daddi (v. 1290 – 1348) est l'un des peintres les plus influents de Florence durant la première moitié du XIVe siècle. Probablement formé dans l'atelier de Giotto, il s'impose comme le chef de file de la génération suivant celle du maître. Son art marque une transition majeure : tout en conservant le sens de la masse et du volume propre au naturalisme giottesque, Daddi y injecte une grâce inédite.",
+      "Son genre pictural se caractérise par une fusion entre la monumentalité florentine et le lyrisme de l'école siennoise (Pietro Lorenzetti). Il est particulièrement célèbre pour avoir popularisé les petits retables portatifs et les triptyques domestiques, destinés à la dévotion privée de la bourgeoisie montante.",
+      "L'évolution de son style montre un passage d'une certaine rigueur archaïque (fresques de la chapelle Pulci à Santa Croce) vers un raffinement extrême. Au fil de sa maturité, ses compositions deviennent plus élégantes, privilégiant des lignes sinueuses, des couleurs précieuses et une attention quasi miniaturiste aux détails, comme en témoigne son chef-d'œuvre pour l'église d'Orsanmichele. Il s'éteint en 1348, probablement victime de la Grande Peste."
+    ],
+    corpus: {
+      total: 100,
+      seen: 3,
+      paintingsCount: 100,
+      sourceTitle: "Corpus of Florentine Painting (Richard Offner & Miklós Boskovits)",
+      sourceNotes: "L'inventaire absolu et fondamental de référence est le titanesque A Critical and Historical Corpus of Florentine Painting, initié par l'historien de l'art Richard Offner dans les années 1930, puis révisé et augmenté par le grand spécialiste de la période, Miklós Boskovits. Une part colossale de ce travail de recherche (notamment la Section III, englobant les volumes 3, 4, 5 et 8) est intégralement consacrée à Daddi, à son atelier et à son cercle d'influence. Après avoir distingué la main pure du maître (l'autographie stricte) de la production de ses innombrables assistants, les historiens de l'art évaluent le corpus principal et certifié de Daddi à environ 100 œuvres.",
+      details: [
+        {
+          label: "Petits retables portatifs & triptyques domestiques",
+          count: 45,
+          icon: "📖",
+          color: "#d4af37",
+          seen: 1,
+          note: "Dont Madone entourée de quatre saints (Musée d'Arts de Nantes)"
+        },
+        {
+          label: "Grands retables d'autel, Maestà & panneaux sacrés",
+          count: 40,
+          icon: "👑",
+          color: "#00b4d8",
+          seen: 2,
+          note: "Dont Maestà d'Orsanmichele (Florence), L'Annonciation (Musée du Louvre)"
+        },
+        {
+          label: "Fresques murales & grands décors d'églises",
+          count: 15,
+          icon: "🏛️",
+          color: "#2ecc71",
+          seen: 0,
+          note: "Chapelle Pulci-Berardi à Santa Croce (Florence)"
+        }
+      ]
+    },
+    biographyTimeline: {
+      birth: 1290,
+      birthPlace: "Florence (Toscane, Italie)",
+      death: 1348,
+      deathPlace: "Florence (victime de la Grande Peste Noire)",
+      periods: [
+        {
+          title: "La Formation Giottesque & Les Premiers Chantiers Florentins",
+          years: "1315 – 1329",
+          color: "#d97706",
+          summary: "Formé aux côtés de Giotto à Florence, il assimile le sens de la plastique et du volume tridimensionnel tout en exécutant ses premières fresques à Santa Croce.",
+          events: [
+            {
+              year: 1319,
+              title: "Immatriculation dans la corporation des peintres (Arte dei Medici e Speziali)",
+              desc: "Établit son atelier indépendant à Florence et reçoit les premières commandes publiques de confréries et de familles patriciennes.",
+              type: "formation",
+              icon: "🏛️"
+            },
+            {
+              year: 1325,
+              title: "Fresques de la chapelle Pulci-Berardi à Santa Croce",
+              desc: "Martyre de saint Étienne et saint Laurent : composition giottesque monumentale alliant gravité expressive et géométrie spatiale.",
+              type: "creation",
+              icon: "🎨"
+            }
+          ]
+        },
+        {
+          title: "L'Essor des Triptyques Domestiques & La Rencontre Siennoise",
+          years: "1330 – 1342",
+          color: "#00b4d8",
+          summary: "Daddi révolutionne la dévotion privée en popularisant les petits retables portatifs, mariant la monumentalité toscane au lyrisme décoratif de Sienne.",
+          events: [
+            {
+              year: 1335,
+              title: "L'Annonciation (Musée du Louvre, Paris)",
+              desc: "Prédelle raffinée capturant l'intimité sacrée de la Vierge assise sous une loggia ouverte avec pavement fuyant et fond d'or céleste.",
+              type: "masterpiece",
+              icon: "🕊️",
+              artworkId: "daddi_annonciation_louvre_1335"
+            },
+            {
+              year: 1340,
+              title: "Madone entourée de quatre saints (Musée d'Arts de Nantes)",
+              desc: "Panneau de dévotion intime où l'Enfant Jésus s'anime avec tendresse sous le regard protecteur de saint Michel terrassant le dragon.",
+              type: "masterpiece",
+              icon: "✨",
+              artworkId: "daddi_madone_entouree_quatre_saints_nantes_1340"
+            }
+          ]
+        },
+        {
+          title: "Le Chef-d'Œuvre d'Orsanmichele & La Grande Peste Noire",
+          years: "1343 – 1348",
+          color: "#eab308",
+          summary: "Consécration suprême avec la Maestà monumentale d'Orsanmichele avant d'être emporté par la tragique épidémie de peste de 1348.",
+          events: [
+            {
+              year: 1347,
+              title: "Vierge à l'Enfant entourée d'anges (Tabernacle d'Orsanmichele, Florence)",
+              desc: "Sommet de l'art du Trecento achevé pour le somptueux tabernacle d'Andrea Orcagna, alliant hiératisme souverain et tendresse humaine.",
+              type: "masterpiece",
+              icon: "👑",
+              artworkId: "daddi_vierge_a_l_enfant_orsanmichele_1347"
+            },
+            {
+              year: 1348,
+              title: "Mort à Florence lors de la Grande Peste Noire",
+              desc: "La terrible épidémie qui décime Florence fauche le maître au faîte de sa gloire, marquant un tournant mystique dans tout l'art toscan.",
+              type: "death",
+              icon: "⛪"
+            }
+          ]
+        }
+      ]
+    }
   }
 };
 

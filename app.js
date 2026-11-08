@@ -836,7 +836,7 @@ const ART_MOVEMENTS = [
     yearEnd: 1400,
     tier: 0,
     color: "#38bdf8",
-    keyArtists: "Cimabue, Giotto di Bondone, Duccio di Buoninsegna, Simone Martini, Ambrogio Lorenzetti, Buffalmacco",
+    keyArtists: "Cimabue, Giotto di Bondone, Duccio di Buoninsegna, Simone Martini, Ambrogio Lorenzetti, Buffalmacco, Bernardo Daddi",
     definition: "Rupture fondatrice avec le hiératisme byzantin à Florence, Padoue et Sienne : Giotto invente l'espace tridimensionnel, l'expressivité humaine, les raccourcis anatomiques et l'émotion profane.",
     filterKeyword: "trecento"
   },
@@ -891,6 +891,7 @@ const ART_MOVEMENTS = [
     yearEnd: 1600,
     tier: 0,
     color: "#0d9488",
+    bannerImg: "https://lh3.googleusercontent.com/d/1d3WwVwP4DoRHuj9fw9vQkXJ044r72tbW",
     keyArtists: "Agnolo Bronzino, Jacopo Pontormo, François Clouet, Le Parmesan, Le Tintoret, Le Greco",
     definition: "Courant sophistiqué né au lendemain du sac de Rome (1527), caractérisé par l'élongation serpentine des corps (figura serpentinata), l'irréalité spatiale et des coloris acides traduisant l'angoisse et l'artifice.",
     filterKeyword: "maniérisme"
