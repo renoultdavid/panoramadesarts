@@ -4441,6 +4441,249 @@ window.ARTISTS_REGISTRY = {
         }
       ]
     }
+  },
+  "cimabue": {
+    id: "cimabue",
+    name: "Cimabue (Cenni di Pepo)",
+    sortName: "Cimabue (Cenni di Pepo)",
+    sortLetter: "C",
+    dates: "v. 1240 – 1302",
+    movement: "Prémices du Trecento & Rupture avec la Maniera Greca",
+    nationality: "Florentin (Toscane)",
+    techniques: "Détrempe (tempera) et or sur panneau de bois, fresques monumentales à fresque",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczNc8mJM-pPUImGgAa-nlKeCpwfSWO8zu2-S1FGb3amH3l5VwpbaTa42wjTR5TsALIAYloxTCBNNNNaMvBKzy6UrEcQW5hHSVQSWuh82W3BucQi7jVvv4b_NT6OdtXbxFharxmr65WQQtbUoRkSeT9ebCg=w1795-h761-s-no-gm?authuser=0",
+    portraitImg: "",
+    bio: `
+      <p><strong>Le dernier grand maître byzantin et le premier éveilleur de la peinture occidentale</strong><br>
+      Cenni di Pepo, dit Cimabue, né vers 1240 et mort en 1302 à Pise, est considéré par l'historiographie classique comme le dernier grand maître de la tradition byzantine et, simultanément, le premier éveilleur de la peinture occidentale. Actif principalement à Florence, Rome et Assise, il occupe une position charnière dans l'histoire de l'art. Célèbre pour avoir découvert et formé le jeune Giotto, il a été immortalisé par Dante dans la Divine Comédie comme l'artiste qui, avant d'être surpassé par son élève, dominait seul le champ de la peinture. Il incarne le moment où l'icône sacrée commence à s'animer d'un souffle humain.</p>
+      <p><strong>L'intensité dramatique au cœur de la maniera greca</strong><br>
+      Son genre pictural reste profondément ancré dans la maniera greca (le style byzantin), mais il y introduit une force dramatique et un début de relief inédits. Le style de Cimabue se reconnaît à ses figures majestueuses, souvent sur fond d'or, caractérisées par un dessin nerveux et une intensité d'expression presque tragique. S'il conserve les codes médiévaux comme la perspective hiérarchique (les personnages les plus importants sont les plus grands), il s'en distingue par un traitement plus souple des drapés et une recherche de volume dans les visages, amorçant une rupture avec la planéité rigide des siècles précédents.</p>
+      <p><strong>De la stylisation sacrée à l'émotion humaine d'Assise</strong><br>
+      L'évolution de son travail montre une quête progressive vers plus de naturalisme et de monumentalité. Dans ses premières œuvres, la stylisation byzantine prédomine. Cependant, son séjour à Rome et ses travaux monumentaux dans la Basilique Saint-François d'Assise marquent un tournant : ses fresques y déploient une puissance narrative et une émotion humaine saisissantes, notamment dans sa célèbre Crucifixion. À la fin de sa carrière, avec la Maestà de Santa Trinita, il parvient à une synthèse entre la gloire divine et une présence physique plus affirmée des figures. Il laisse une œuvre puissante qui, tout en clôturant l'ère de l'icône, pose les fondations de la révolution humaniste de la Renaissance.</p>
+    `,
+    corpus: {
+      total: 15,
+      seen: 2,
+      paintingsCount: 15,
+      details: [
+        { label: "Grands retables & panneaux sacrés sur bois", count: 8, icon: "👑", color: "#d4af37", seen: 2, note: "Maestà du Louvre, Crucifix de Santa Croce, Maestà de Santa Trinita, Crucifix d'Arezzo" },
+        { label: "Cycles de fresques monumentales murales", count: 7, icon: "🏛️", color: "#00b4d8", seen: 0, note: "Basilique Saint-François d'Assise (Crucifixion, Évangélistes, Transept)" }
+      ],
+      sourceTitle: "Monographie de référence Luciano Bellosi (1998)",
+      sourceNotes: "Le consensus scientifique moderne, magistralement synthétisé par le grand spécialiste Luciano Bellosi dans sa monographie de référence parue en 1998 (Cimabue), est extrêmement resserré. Aujourd'hui, l'histoire de l'art ne lui attribue formellement et unanimement qu'environ 12 à 15 œuvres majeures ayant survécu."
+    },
+    biographyTimeline: {
+      birth: {
+        year: 1240,
+        place: "Florence (République florentine)",
+        title: "Naissance de Cenni di Pepo dit Cimabue",
+        desc: "Issu d'une grande famille florentine. Formé auprès des maîtres grecs et byzantins travaillant aux mosaïques du baptistère de Florence."
+      },
+      death: {
+        year: 1302,
+        place: "Pise (Toscane)",
+        title: "Mort du premier éveilleur de la peinture occidentale",
+        desc: "S'éteint à Pise alors qu'il dirige les chantiers de la cathédrale. Dante consacre son aura universelle dans le chant XI du Purgatoire."
+      },
+      periods: [
+        {
+          title: "L'Atelier florentin & la rupture de Santa Croce",
+          years: "1240 – 1280",
+          color: "#d97706",
+          summary: "Cimabue émancipe la maniera greca en introduisant le modelé anatomique et le pathétique dans les grands panneaux de dévotion.",
+          events: [
+            {
+              year: 1272,
+              title: "Séjour attesté à Rome",
+              desc: "Présent à Rome comme témoin dans des actes notariés officiels ; il étudie les mosaïques de l'Antiquité tardive et du haut Moyen Âge.",
+              type: "life",
+              icon: "🏛️"
+            },
+            {
+              year: 1280,
+              title: "Crucifix peint de Santa Croce (Florence)",
+              desc: "Chef-d'œuvre fondateur du Christus patiens : le corps s'arque avec une souplesse et une souffrance humaine inédites. Symbole mondial du sauvetage artistique après la crue de 1966.",
+              type: "masterpiece",
+              icon: "✝️",
+              artworkId: "cimabue_crucifix_santa_croce_1280"
+            },
+            {
+              year: 1280,
+              title: "La Maestà de Pise (Musée du Louvre)",
+              desc: "Panneau d'autel monumental de près de 4 mètres de haut : Vierge en majesté entourée de six anges, transition magistrale entre l'icône byzantine et la gravité occidentale.",
+              type: "masterpiece",
+              icon: "👑",
+              artworkId: "cimabue_maesta_louvre_1280"
+            }
+          ]
+        },
+        {
+          title: "Le Grand chantier d'Assise & la découverte de Giotto",
+          years: "1281 – 1295",
+          color: "#2563eb",
+          summary: "Appelé à la basilique d'Assise, Cimabue peint des fresques d'une force tragique inouïe et prend sous sa protection le jeune Giotto.",
+          events: [
+            {
+              year: 1285,
+              title: "Fresques de la Basilique supérieure d'Assise",
+              desc: "Peint la colossale Crucifixion du transept : le ciel noirci par l'oxydation de la céruse confère aux anges éplorés une intensité dramatique visionnaire.",
+              type: "masterpiece",
+              icon: "🎨"
+            },
+            {
+              year: 1290,
+              title: "Découverte et formation du jeune Giotto",
+              desc: "Selon la tradition rapportée par Ghiberti et Vasari, Cimabue découvre le jeune Giotto dessinant une brebis sur un rocher et en fait son disciple le plus brillant.",
+              type: "peer",
+              icon: "🤝"
+            }
+          ]
+        },
+        {
+          title: "L'Apothéose de Santa Trinita & les mosaïques de Pise",
+          years: "1296 – 1302",
+          color: "#7c3aed",
+          summary: "Il couronne sa carrière par la grandiose Maestà de Santa Trinita et les cartons des mosaïques monumentales du Duomo de Pise.",
+          events: [
+            {
+              year: 1298,
+              title: "Maestà de Santa Trinita (Galerie des Offices)",
+              desc: "Synthèse suprême : le trône architectural en bois doré s'ouvre sur quatre prophètes en contrebas, inaugurant la profondeur spatiale florentine.",
+              type: "masterpiece",
+              icon: "✨"
+            },
+            {
+              year: 1301,
+              title: "Mosaïque monumentale du Duomo de Pise",
+              desc: "Conçoit et dirige l'immense figure de saint Jean l'Évangéliste pour l'abside de la cathédrale de Pise, sa dernière œuvre documentée.",
+              type: "life",
+              icon: "🏛️"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "clouet_francois": {
+    id: "clouet_francois",
+    name: "François Clouet",
+    sortName: "Clouet François",
+    sortLetter: "C",
+    dates: "v. 1515 – 1572",
+    movement: "Renaissance française, École de Fontainebleau & Maniérisme des Valois",
+    nationality: "Français (Tours / Paris)",
+    techniques: "Huile sur panneau de bois, dessin aux trois crayons (pierre noire, sanguine, craie blanche)",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczMbsRENPVNjT6kKF8MT9Yh0-eSZ6ptBSD990ewJYv57a0MTqpD_gJsBTKk_Z5DVzbTiN2UzX1Y-djvleLDWEyZ7QDy8j5tNvNooXL4PeVAgm-c7esNjPzYmZjTsyA3U2PF6Lsrd2ba9LOtKtbqO_hCEJA=w1795-h761-s-no-gm?authuser=0",
+    portraitImg: "",
+    bio: `
+      <p><strong>Le peintre officiel de quatre rois et le grand portraitiste des Valois</strong><br>
+      François Clouet (v. 1515 – 1572) est le fils de Jean Clouet, à qui il succède comme peintre officiel de la cour de France. S'il hérite de la précision flamande de son père, il porte l'art du portrait vers une sophistication maniériste et une sensualité inédites, devenant le témoin oculaire privilégié des règnes de François Ier, Henri II, François II et Charles IX.</p>
+      <p><strong>Psychologie de cour, rendu somptueux des parures et nu aristocratique</strong><br>
+      Son genre pictural se définit par le portrait psychologique de cour et la scène de genre aristocratique. Son style se caractérise par une ligne plus fluide que celle de son père, un goût prononcé pour le rendu luxueux des parures (bijoux, dentelles, soies) et une attention particulière aux mains. Il introduit également en France le portrait en pied et le nu féminin mis en scène dans un cadre domestique, mêlant naturalisme et idéalisation.</p>
+      <p><strong>De l'héritage paternel au maniérisme poétique de Fontainebleau</strong><br>
+      L'évolution de son style marque l'apogée de la Renaissance française sous la dynastie des Valois : la continuité avec Jean Clouet dans les années 1540 pour fixer l'image royale ; l'assimilation du raffinement italien sous Henri II avec des volumes plus plastiques (<em>Pierre Quthe</em>) ; et enfin l'érotisme courtois et intellectualisé des années 1560-1570 (<em>Le Bain de Diane</em>, <em>La Dame au bain</em>), insérant le portrait dans un univers allégorique préfigurant la seconde École de Fontainebleau.</p>
+    `,
+    corpus: {
+      total: 15,
+      seen: 1,
+      paintingsCount: 15,
+      details: [
+        { label: "Portraits royaux & effigies de cour autographes", count: 10, icon: "👑", color: "#d4af37", seen: 0, note: "Pierre Quthe (Louvre), Élisabeth d'Autriche (Louvre), Charles IX (Vienne)" },
+        { label: "Compositions mythologiques & nus allégoriques", count: 5, icon: "🛁", color: "#00b4d8", seen: 1, note: "Le Bain de Diane (Rouen), La Dame au bain (Washington)" }
+      ],
+      sourceTitle: "Recherches & Monographie Alexandra Zvereva",
+      sourceNotes: "Bien qu'on conserve de lui (et de son atelier) des centaines de remarquables portraits dessinés aux « trois crayons » (qui servaient d'études préparatoires et sont aujourd'hui notamment conservés dans l'immense fonds de Chantilly), ses peintures à l'huile sur panneau de bois sont d'une extrême rareté. Le consensus scientifique moderne (porté notamment par les travaux d'Alexandra Zvereva, spécialiste incontestée de la dynastie des Clouet) souligne une particularité frappante : François Clouet n'a officiellement signé que deux peintures dans toute sa vie. Il s'agit du portrait de son ami Pierre Quthe, apothicaire réalisé en 1562 (conservé au Louvre), et de sa célèbre Dame au bain peinte vers 1571 (conservée à la National Gallery of Art de Washington). En ajoutant à ces deux toiles fondatrices les rares tableaux formellement et universellement reconnus comme étant de sa seule main, sans l'intervention massive de son atelier (comme le somptueux portrait d'Élisabeth d'Autriche au Louvre ou celui de Charles IX grandeur nature au Kunsthistorisches Museum de Vienne), le nombre de peintures strictement autographes s'élève à une quinzaine d'œuvres seulement."
+    },
+    biographyTimeline: {
+      birth: {
+        year: 1515,
+        place: "Tours (Touraine)",
+        title: "Naissance de François Clouet",
+        desc: "Fils de Jean Clouet, valet de chambre et peintre du roi. Il se forme dans l'atelier royal auprès de son père."
+      },
+      death: {
+        year: 1572,
+        place: "Paris",
+        title: "Mort du maître du portrait Renaissance des Valois",
+        desc: "Disparaît en septembre 1572 à Paris, peu après la Saint-Barthélemy, laissant des portraits au crayon d'une acuité psychologique inégalée."
+      },
+      periods: [
+        {
+          title: "La Succession de Jean Clouet & François Ier",
+          years: "1515 – 1547",
+          color: "#d97706",
+          summary: "Nommé peintre du roi en 1540 à la mort de son père, il pérennise la tradition du portrait officiel de cour.",
+          events: [
+            {
+              year: 1540,
+              title: "Nomination comme peintre et valet de chambre du Roi",
+              desc: "Lettres patentes de François Ier lui accordant la succession de son père pour perpétuer l'effigie officielle de la monarchie française.",
+              type: "life",
+              icon: "👑"
+            },
+            {
+              year: 1543,
+              title: "Portraits officiels du dauphin Henri et de François Ier",
+              desc: "Fixe les traits souverains de la famille royale avec une précision graphique nordique rehaussée de la dignité française.",
+              type: "masterpiece",
+              icon: "🎨"
+            }
+          ]
+        },
+        {
+          title: "La Cour d'Henri II & Le Bain de Diane",
+          years: "1547 – 1559",
+          color: "#059669",
+          summary: "Sous le règne d'Henri II et l'ascendant de Diane de Poitiers, il enrichit son art d'allégories mythologiques sensuelles.",
+          events: [
+            {
+              year: 1550,
+              title: "Le Bain de Diane (Musée des Beaux-Arts de Rouen)",
+              desc: "Chef-d'œuvre maniériste de l'École de Fontainebleau : allégorie courtoise à Diane de Poitiers où les nymphes aux corps d'ivoire se déploient dans un paysage raffiné.",
+              type: "masterpiece",
+              icon: "🏹",
+              artworkId: "clouet_francois_bain_de_diane_rouen_1550"
+            },
+            {
+              year: 1552,
+              title: "Campagne de portraits au crayon de Catherine de Médicis",
+              desc: "Exécute pour la reine les dessins aux trois crayons qui immortalisent les princes et princesses Valois (fonds princier de Chantilly).",
+              type: "life",
+              icon: "✏️"
+            }
+          ]
+        },
+        {
+          title: "L'Apothéose maniériste, Pierre Quthe & Charles IX",
+          years: "1560 – 1572",
+          color: "#7c3aed",
+          summary: "Il signe ses deux chefs-d'œuvre historiques et hisse le portrait de Charles IX et d'Élisabeth d'Autriche au sommet de la Renaissance.",
+          events: [
+            {
+              year: 1562,
+              title: "Portrait de Pierre Quthe, apothicaire (Musée du Louvre)",
+              desc: "Première toile officiellement signée de sa main : pose fière accoudée à un herbier, modelé sculptural influencé par le maniérisme florentin de Bronzino.",
+              type: "masterpiece",
+              icon: "🌿"
+            },
+            {
+              year: 1571,
+              title: "La Dame au bain (National Gallery of Art, Washington)",
+              desc: "Seconde œuvre signée : scène de genre et nu aristocratique baigné d'érotisme discret, chef-d'œuvre absolu de l'art profane des Valois.",
+              type: "masterpiece",
+              icon: "🛁"
+            },
+            {
+              year: 1571,
+              title: "Portrait d'Élisabeth d'Autriche (Musée du Louvre)",
+              desc: "Épouse du roi Charles IX : virtuosité éblouissante dans la transparence du voile de gaze et le scintillement des joyaux d'orfèvrerie.",
+              type: "masterpiece",
+              icon: "💎"
+            }
+          ]
+        }
+      ]
+    }
   }
 };
 

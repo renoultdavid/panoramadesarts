@@ -10,6 +10,14 @@ window.MOVEMENTS_DATA = {
     "geographyHtml": "<div class='mov-focal-card'><div class='mov-focal-top'><span class='mov-focal-icon'>🏛️</span><div class='mov-focal-title'>Foyers Créateurs du Trecento</div></div><p class='mov-focal-desc'>Florence (Santa Croce, cathédrale), Padoue (Chapelle des Scrovegni, Basilique Saint-Antoine), Sienne (Palazzo Pubblico, Duomo), Pise (Camposanto monumental) et Assise (Basilique Saint-François).</p><div class='mov-focal-tags'><span class='mov-focal-tag'>📍 Florence</span><span class='mov-focal-tag'>📍 Padoue</span><span class='mov-focal-tag'>📍 Sienne</span><span class='mov-focal-tag'>📍 Pise</span><span class='mov-focal-tag'>📍 Assise</span></div></div>",
     "artists": [
       {
+        "name": "Cimabue (Cenni di Pepo)",
+        "dates": "v. 1240 – 1302",
+        "role": "Dernier maître byzantin et premier éveilleur de la peinture occidentale",
+        "desc": "Crucifix de Santa Croce, Maestà du Louvre et fresques de la basilique d'Assise.",
+        "artistId": "cimabue",
+        "icon": "✨"
+      },
+      {
         "name": "Giotto di Bondone",
         "dates": "1267 – 1337",
         "role": "Père de la peinture moderne occidentale",
@@ -209,6 +217,14 @@ window.MOVEMENTS_DATA = {
         "desc": "La Déposition de Santa Felicita à Florence et La Visitation.",
         "artistId": "",
         "icon": "💫"
+      },
+      {
+        "name": "François Clouet",
+        "dates": "v. 1515 – 1572",
+        "role": "Portraitiste officiel des Valois et maître du maniérisme français",
+        "desc": "Le Bain de Diane, Pierre Quthe, La Dame au bain et portraits royaux.",
+        "artistId": "clouet_francois",
+        "icon": "👑"
       }
     ]
   },
@@ -1086,6 +1102,7 @@ window.MOVEMENTS_DATA = {
   },
   "mov_archi_renaissance": {
     "badge": "✦ LA GÉOMÉTRIE CLASSIQUE, LES DÔMES & LE PALLADIANISME (1420 – 1600)",
+    "bannerImg": "https://lh3.googleusercontent.com/d/1ZmM3O-Sz7F1IQjA6BVK1HWad6c4w_ylv",
     "noticeHtml": "<p><strong>La redécouverte de Vitruve et l'harmonie des proportions antiques</strong><br>En 1420 à Florence, Filippo Brunelleschi accomplit l'un des plus grands exploits de l'histoire de l'art et de l'ingénierie : ériger sans cintre de bois la coupole colossale de Santa Maria del Fiore (le Duomo), coiffant la cité d'un dôme octogonal de 45 mètres de diamètre. L'architecture rompt avec le gothique pour renouer avec la clarté géométrique de la Rome antique : ordres classiques (dorique, ionique, corinthien), arcades en plein cintre et plans centrés basés sur le cercle et le carré.</p><p>Leon Battista Alberti théorise cette beauté comme l'accord harmonieux de toutes les parties. À Rome, Bramante et Michel-Ange conçoivent la nouvelle basilique Saint-Pierre. En Vénétie, <strong>Andrea Palladio</strong> révolutionne l'art de bâtir avec ses somptueuses villas de campagne (<em>Villa Rotonda</em>) et ses traités illustrés (<em>Les Quatre Livres de l'architecture</em>, 1570), qui influenceront durablement l'architecture européenne et américaine (le style palladien et le Capitole de Washington).</p>",
     "concurrentHtml": "<p><strong>Pendant ce temps-là... Châteaux de la Loire et imprimerie architecturale</strong></p><p><strong>France :</strong> François Ier fait venir des artistes et architectes italiens (Léonard de Vinci, Le Primatice, Serlio) pour transformer les forteresses médiévales en palais de plaisance ouverts sur la nature (Chambord, Fontainebleau, Chenonceau). Pierre Lescot dessine la façade Renaissance de la Cour Carrée du Louvre.</p><p><strong>Diffusion des traités :</strong> L'invention de l'imprimerie permet la publication illustrée des traités de Vitruve, Serlio, Vignole et Palladio, diffusant les règles de l'architecture classique dans le monde entier.</p><p><strong>Rome papale :</strong> Transformation urbanistique de Rome sous Jules II et Sixte Quint (tracé des grandes artères rectilignes, érection des obélisques antiques devant les basiliques majeures).</p>",
     "geographyHtml": "<div class='mov-focal-card'><div class='mov-focal-top'><span class='mov-focal-icon'>🏛️</span><div class='mov-focal-title'>Foyers Créateurs de l'Architecture Renaissance</div></div><p class='mov-focal-desc'>Florence (Duomo de Brunelleschi, Palais Pitti, Église San Lorenzo), Rome (Tempietto de Bramante, Dôme de Saint-Pierre par Michel-Ange, Palais Farnèse) et Vicence / Vénétie (Villa Rotonda, Théâtre Olympique de Palladio).</p><div class='mov-focal-tags'><span class='mov-focal-tag'>📍 Florence</span><span class='mov-focal-tag'>📍 Rome</span><span class='mov-focal-tag'>📍 Vicence</span><span class='mov-focal-tag'>📍 Venise</span><span class='mov-focal-tag'>📍 Fontainebleau</span></div></div>",
@@ -1218,6 +1235,14 @@ window.MOVEMENTS_DATA = {
     "concurrentHtml": "<p><strong>Contexte contemporain :</strong> Exil de la papauté en Avignon (1309). Dante Alighieri compose <em>La Divine Comédie</em>, saluant dans le Purgatoire le triomphe de Giotto sur Cimabue (« <em>Cimabue crut tenir le champ de la peinture, et maintenant Giotto a le cri</em> »). Philippe le Bel dissout l'ordre des Templiers en France (1307-1314).</p>",
     "geographyHtml": "<div class='mov-focal-card'><div class='mov-focal-top'><span class='mov-focal-icon'>🏛️</span><div class='mov-focal-title'>Haut Lieu de la Rupture</div></div><p class='mov-focal-desc'>Chapelle des Scrovegni (Padoue, Vénétie, Italie).</p><div class='mov-focal-tags'><span class='mov-focal-tag'>📍 Padoue</span><span class='mov-focal-tag'>📍 Florence</span></div></div>",
     "artists": [
+      {
+        "name": "Cimabue (Cenni di Pepo)",
+        "dates": "v. 1240 – 1302",
+        "role": "Dernier maître byzantin et premier éveilleur de la peinture occidentale",
+        "desc": "Crucifix de Santa Croce, Maestà du Louvre et fresques de la basilique d'Assise.",
+        "artistId": "cimabue",
+        "icon": "✨"
+      },
       {
         "name": "Giotto di Bondone",
         "dates": "1267 – 1337",
