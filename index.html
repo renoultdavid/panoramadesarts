@@ -350,9 +350,27 @@
           </div>
 
           <div class="artist-hero-bio" id="artist-hero-bio"></div>
-          <div class="artist-hero-collection-title">
+
+          <!-- COMMUTATEUR DOUBLE OPTION : DÉCENNIES (A) OU FRISE BIOGRAPHIQUE (B) -->
+          <div class="artist-view-mode-bar" id="artist-view-mode-bar">
+            <button type="button" class="btn-artist-mode is-active" id="btn-mode-decades" data-mode="decades">
+              <span class="mode-icon">🖼️</span>
+              <span class="mode-label">Option A • Œuvres par Décennies</span>
+              <span class="mode-badge" id="artist-mode-count-decades">0 œuvre</span>
+            </button>
+            <button type="button" class="btn-artist-mode" id="btn-mode-biography" data-mode="biography">
+              <span class="mode-icon">⏳</span>
+              <span class="mode-label">Option B • Frise Chronologique &amp; Vie du Maître</span>
+              <span class="mode-badge" id="artist-mode-count-milestones">Jalons &amp; Événements</span>
+            </button>
+          </div>
+
+          <div class="artist-hero-collection-title" id="artist-hero-collection-title">
             <span>🎨 ŒUVRES AU CATALOGUE CLASSÉES PAR ORDRE CHRONOLOGIQUE</span>
           </div>
+
+          <!-- OPTION B : FRISE BIOGRAPHIQUE VERTICALE DU PEINTRE -->
+          <div class="artist-vertical-timeline" id="artist-vertical-timeline" style="display: none;"></div>
         </div>
       </div>
 
@@ -723,13 +741,6 @@
       <div class="modal-title-bandeau">
         <div class="modal-header-top-row">
           <div class="modal-civ-line" id="modal-civ-title">Civilisation</div>
-          <button type="button" class="btn-modal-history-back" id="btn-modal-history-back" style="display: none;"
-            title="Revenir à l'œuvre précédente">
-            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-              <polyline points="15 18 9 12 15 6"></polyline>
-            </svg>
-            <span id="modal-history-back-label">Retour</span>
-          </button>
         </div>
         <h2 class="modal-headline" id="modal-artwork-title">Titre de l'Œuvre</h2>
         <div class="modal-gold-fade-line"></div>
@@ -743,6 +754,18 @@
           <img id="modal-artwork-img" src="" alt="Objet d'art" loading="lazy" />
         </div>
         <div class="modal-notes-col">
+          <!-- Lien cliquable vers la fiche peintre / créateur -->
+          <div class="modal-artist-strip" id="modal-artist-strip" style="display: none;">
+            <button type="button" class="btn-modal-artist-card" id="btn-modal-artist-card" title="Ouvrir la fiche monographique complète du maître">
+              <span class="artist-pill-emblem">🎨</span>
+              <div class="artist-pill-info">
+                <span class="artist-pill-role">MAÎTRE / CRÉATEUR</span>
+                <span class="artist-pill-name" id="modal-artist-name">Canaletto</span>
+              </div>
+              <span class="artist-pill-action">Consulter sa fiche &amp; corpus ➔</span>
+            </button>
+          </div>
+
           <!-- À droite : uniquement les étiquettes et le texte -->
           <div class="modal-chips-row" id="modal-chips-container"></div>
           <div class="modal-narrative" id="modal-narrative-text">Notice détaillée...</div>

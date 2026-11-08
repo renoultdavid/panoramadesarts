@@ -5038,6 +5038,290 @@ function searchArtistInGallery(artistName) {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
+
+/* ==========================================================================
+   OPTION B : FRISE BIOGRAPHIQUE VERTICALE & GESTION DU COMMUTATEUR DOUBLE OPTION
+   ========================================================================== */
+let activeArtistViewMode = 'decades'; // 'decades' (Option A) ou 'biography' (Option B)
+
+function initArtistViewModeSwitcher(artistRecord) {
+  const btnDecades = document.getElementById('btn-mode-decades');
+  const btnBio = document.getElementById('btn-mode-biography');
+  const collectionTitle = document.getElementById('artist-hero-collection-title');
+  const galleryGrid = document.getElementById('search-gallery-grid');
+  const vTimeline = document.getElementById('artist-vertical-timeline');
+  const badgeDecades = document.getElementById('artist-mode-count-decades');
+  const badgeMilestones = document.getElementById('artist-mode-count-milestones');
+
+  if (!btnDecades || !btnBio) return;
+
+  const catalog = window.ART_OBJECTS || [];
+  const artistArts = catalog.filter(item => {
+    const itemArtist = (item.artist || '').toLowerCase().trim();
+    const itemArtistId = (item.artistId || '').toLowerCase().trim();
+    const recName = (artistRecord.name || '').toLowerCase().trim();
+    const recSort = (artistRecord.sortName || '').toLowerCase().trim();
+    const recClean = recName.replace(/\(.*?\)/g, '').trim();
+
+    return (itemArtistId && itemArtistId === artistRecord.id) ||
+           (itemArtist && (itemArtist === recName || itemArtist === recSort || itemArtist === recClean)) ||
+           (recClean && itemArtist.includes(recClean)) ||
+           (recName && recName.includes(itemArtist));
+  });
+
+  if (badgeDecades) {
+    badgeDecades.textContent = `${artistArts.length} œuvre${artistArts.length > 1 ? 's' : ''}`;
+  }
+
+  const timelineData = (artistRecord.biographyTimeline)
+    ? artistRecord.biographyTimeline
+    : generateFallbackArtistTimeline(artistRecord, artistArts);
+
+  let totalEvents = 0;
+  if (timelineData && timelineData.periods) {
+    timelineData.periods.forEach(p => {
+      totalEvents += (p.events ? p.events.length : 0);
+    });
+  }
+  if (badgeMilestones) {
+    badgeMilestones.textContent = `${totalEvents} jalons & événements`;
+  }
+
+  // Activation du mode Décennies (Option A) par défaut
+  activeArtistViewMode = 'decades';
+  btnDecades.classList.add('is-active');
+  btnBio.classList.remove('is-active');
+  if (collectionTitle) collectionTitle.style.display = 'block';
+  if (galleryGrid) galleryGrid.style.display = 'grid';
+  if (vTimeline) {
+    vTimeline.style.display = 'none';
+    vTimeline.innerHTML = '';
+  }
+
+  btnDecades.onclick = (e) => {
+    e.stopPropagation();
+    activeArtistViewMode = 'decades';
+    btnDecades.classList.add('is-active');
+    btnBio.classList.remove('is-active');
+    if (collectionTitle) collectionTitle.style.display = 'block';
+    if (galleryGrid) galleryGrid.style.display = 'grid';
+    if (vTimeline) vTimeline.style.display = 'none';
+    renderSearchGallery();
+  };
+
+  btnBio.onclick = (e) => {
+    e.stopPropagation();
+    activeArtistViewMode = 'biography';
+    btnBio.classList.add('is-active');
+    btnDecades.classList.remove('is-active');
+    if (collectionTitle) collectionTitle.style.display = 'none';
+    if (galleryGrid) galleryGrid.style.display = 'none';
+    if (vTimeline) {
+      vTimeline.style.display = 'block';
+      renderArtistVerticalTimeline(artistRecord, timelineData, artistArts);
+    }
+  };
+}
+
+function renderArtistVerticalTimeline(artistRecord, timelineData, artistArts) {
+  const container = document.getElementById('artist-vertical-timeline');
+  if (!container) return;
+  container.innerHTML = '';
+
+  const birth = timelineData.birth || { year: '', place: '', title: `Naissance de ${artistRecord.name}`, desc: '' };
+  const death = timelineData.death || { year: '', place: '', title: `Fin de vie de ${artistRecord.name}`, desc: '' };
+
+  // 1. JALON DE NAISSANCE
+  const birthEl = document.createElement('div');
+  birthEl.className = 'artist-v-milestone is-birth';
+  birthEl.innerHTML = `
+    <div class="artist-v-node" style="--node-color: #ffd700;">
+      <span class="node-emblem">🌟</span>
+    </div>
+    <div class="artist-v-card">
+      <div class="v-card-top">
+        <span class="v-card-year">${escapeHtmlAttr(birth.year ? String(birth.year) : 'Origines')}</span>
+        <span class="v-card-type-tag">NAISSANCE DU MAÎTRE</span>
+      </div>
+      <div class="v-card-title">${escapeHtmlAttr(birth.title || `Naissance de ${artistRecord.name}`)}</div>
+      <div class="v-card-desc">${escapeHtmlAttr(birth.desc || `${birth.place ? 'Né à ' + birth.place : ''}`)}</div>
+    </div>
+  `;
+  container.appendChild(birthEl);
+
+  // 2. LES GRANDES PÉRIODES & JALONS DE VIE
+  if (timelineData.periods && timelineData.periods.length > 0) {
+    timelineData.periods.forEach(period => {
+      const pColor = period.color || '#d4af37';
+      const chapterEl = document.createElement('div');
+      chapterEl.className = 'artist-v-chapter';
+      chapterEl.style.setProperty('--chapter-color', pColor);
+
+      chapterEl.innerHTML = `
+        <div class="artist-v-chapter-header">
+          <div class="artist-v-chapter-years">${escapeHtmlAttr(period.years || '')}</div>
+          <h3 class="artist-v-chapter-title">${escapeHtmlAttr(period.title || 'Période')}</h3>
+          ${period.summary ? `<div class="artist-v-chapter-summary">${escapeHtmlAttr(period.summary)}</div>` : ''}
+        </div>
+      `;
+
+      if (period.events && period.events.length > 0) {
+        period.events.forEach(evt => {
+          const mEl = document.createElement('div');
+          mEl.className = 'artist-v-milestone';
+
+          const matchingArt = evt.artworkId
+            ? (window.ART_OBJECTS || []).find(a => a.id === evt.artworkId)
+            : null;
+
+          const isArtworkNode = Boolean(matchingArt || evt.type === 'masterpiece');
+          const nodeColor = isArtworkNode ? '#d4af37' : (evt.type === 'history' ? '#ef4444' : (evt.type === 'peer' ? '#38bdf8' : pColor));
+          const nodeIcon = evt.icon || (isArtworkNode ? '🎨' : (evt.type === 'history' ? '⚔️' : (evt.type === 'peer' ? '🤝' : '💎')));
+          const isDiamond = !isArtworkNode;
+
+          const card = document.createElement('div');
+          card.className = `artist-v-card ${matchingArt ? 'has-artwork-link' : ''}`;
+          if (matchingArt) {
+            card.title = `Cliquer pour ouvrir la notice complète de « ${matchingArt.title} »`;
+            card.addEventListener('click', (e) => {
+              e.stopPropagation();
+              openCuratorModal(matchingArt, [matchingArt], false);
+            });
+          }
+
+          card.innerHTML = `
+            <div class="v-card-top">
+              <span class="v-card-year">${evt.year ? `${evt.year}` : ''}</span>
+              <span class="v-card-type-tag" style="color: ${nodeColor}; border-color: ${nodeColor}40;">
+                ${isArtworkNode ? "CHEF-D'ŒUVRE" : (evt.type === 'history' ? 'HISTOIRE' : (evt.type === 'peer' ? 'RENCONTRE / RIVALITÉ' : 'TOURNANT DE VIE'))}
+              </span>
+            </div>
+            <div class="v-card-title">${escapeHtmlAttr(evt.title)}</div>
+            <div class="v-card-desc">${escapeHtmlAttr(evt.desc || '')}</div>
+            ${matchingArt ? `
+              <div class="v-card-artwork-preview">
+                <img class="v-card-art-thumb" src="${matchingArt.imgSrc}" alt="${escapeHtmlAttr(matchingArt.title)}" loading="lazy" />
+                <div class="v-card-art-meta">
+                  <span class="v-card-art-title">${escapeHtmlAttr(matchingArt.title)}</span>
+                  <span class="v-card-art-sub">${matchingArt.site || matchingArt.currentLocation || 'Collection'} • ${matchingArt.centuryDisplay || matchingArt.century || ''}</span>
+                  <span class="v-card-art-hint">🔎 Ouvrir la notice de l'œuvre ➔</span>
+                </div>
+              </div>
+            ` : ''}
+            ${evt.linkedArtist ? `
+              <div>
+                <button type="button" class="btn-v-linked-artist" data-linked-name="${escapeHtmlAttr(evt.linkedArtist)}">
+                  <span>🤝 Découvrir : ${escapeHtmlAttr(evt.linkedArtist)} ➔</span>
+                </button>
+              </div>
+            ` : ''}
+          `;
+
+          if (evt.linkedArtist) {
+            const btnLink = card.querySelector('.btn-v-linked-artist');
+            if (btnLink) {
+              btnLink.addEventListener('click', (e) => {
+                e.stopPropagation();
+                const lName = evt.linkedArtist.toLowerCase().trim();
+                const registry = window.ARTISTS_REGISTRY || {};
+                const linkedRec = Object.values(registry).find(r =>
+                  r.name.toLowerCase().includes(lName) || lName.includes(r.name.toLowerCase().trim()) ||
+                  (r.sortName && r.sortName.toLowerCase().includes(lName))
+                );
+                if (linkedRec && typeof openMonographForArtistRecord === 'function') {
+                  openMonographForArtistRecord(linkedRec);
+                } else if (typeof searchArtistInGallery === 'function') {
+                  searchArtistInGallery(evt.linkedArtist);
+                }
+              });
+            }
+          }
+
+          mEl.innerHTML = `
+            <div class="artist-v-node ${isDiamond ? 'diamond-node' : ''}" style="--node-color: ${nodeColor};">
+              <span class="node-emblem">${nodeIcon}</span>
+            </div>
+          `;
+          mEl.appendChild(card);
+          chapterEl.appendChild(mEl);
+        });
+      }
+
+      container.appendChild(chapterEl);
+    });
+  }
+
+  // 3. JALON DE FIN DE VIE & POSTÉRITÉ
+  const deathEl = document.createElement('div');
+  deathEl.className = 'artist-v-milestone is-death';
+  deathEl.innerHTML = `
+    <div class="artist-v-node" style="--node-color: #ef4444;">
+      <span class="node-emblem">⚰️</span>
+    </div>
+    <div class="artist-v-card">
+      <div class="v-card-top">
+        <span class="v-card-year">${escapeHtmlAttr(death.year ? String(death.year) : '')}</span>
+        <span class="v-card-type-tag">FIN DE VIE &amp; POSTÉRITÉ</span>
+      </div>
+      <div class="v-card-title">${escapeHtmlAttr(death.title || `Fin de vie de ${artistRecord.name}`)}</div>
+      <div class="v-card-desc">${escapeHtmlAttr(death.desc || `${death.place ? 'Décédé à ' + death.place : ''}`)}</div>
+    </div>
+  `;
+  container.appendChild(deathEl);
+}
+
+function generateFallbackArtistTimeline(artistRecord, artistArts) {
+  const datesMatch = (artistRecord.dates || '').match(/(-?\d+)\s*[–\-—]\s*(-?\d+)/);
+  const birthYear = datesMatch ? parseInt(datesMatch[1], 10) : null;
+  const deathYear = datesMatch ? parseInt(datesMatch[2], 10) : null;
+
+  const events = [];
+
+  if (Array.isArray(artistArts) && artistArts.length > 0) {
+    const sorted = [...artistArts].sort((a, b) => {
+      const ya = getArtworkYearNumeric(a) || 0;
+      const yb = getArtworkYearNumeric(b) || 0;
+      return ya - yb;
+    });
+
+    sorted.forEach(art => {
+      const y = getArtworkYearNumeric(art);
+      events.push({
+        year: Number.isFinite(y) ? y : null,
+        title: art.title,
+        desc: `${art.technique || art.domain || 'Peinture'} • ${art.site || art.currentLocation || 'Collection'}`,
+        type: 'masterpiece',
+        icon: '🎨',
+        artworkId: art.id
+      });
+    });
+  }
+
+  return {
+    birth: {
+      year: birthYear || '',
+      place: artistRecord.nationality || '',
+      title: `Naissance de ${artistRecord.name}`,
+      desc: `Début du parcours artistique de ${artistRecord.name} (${artistRecord.dates || ''}).`
+    },
+    death: {
+      year: deathYear || '',
+      place: '',
+      title: `Fin de vie & Postérité`,
+      desc: `Laisse une œuvre fondatrice associée au courant : ${artistRecord.movement || 'Peinture occidentale'}.`
+    },
+    periods: [
+      {
+        title: `${artistRecord.movement || 'Parcours artistique & chefs-d\'œuvre'}`,
+        years: artistRecord.dates || '',
+        color: '#d4af37',
+        summary: `Création et corpus de ${artistRecord.name}. Retrouvez ci-dessous les chefs-d'œuvre témoins répertoriés au catalogue.`,
+        events: events
+      }
+    ]
+  };
+}
+
 function openMonographForArtistRecord(artistRecord) {
   if (!artistRecord) return;
   const filterText = document.getElementById('filter-text');
@@ -5194,6 +5478,7 @@ function openMonographForArtistRecord(artistRecord) {
 
   switchView('view-search');
   renderSearchGallery();
+  initArtistViewModeSwitcher(artistRecord);
   if (artistHero) {
     artistHero.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
@@ -6753,6 +7038,51 @@ function populateModalData(art) {
   modalImg.alt = art.title;
   modalCivTitle.textContent = art.civName || '';
   modalArtworkTitle.textContent = art.title;
+
+  // Lien cliquable vers la fiche monographique du maître / créateur
+  const modalArtistStrip = document.getElementById('modal-artist-strip');
+  const modalArtistName = document.getElementById('modal-artist-name');
+  const btnModalArtistCard = document.getElementById('btn-modal-artist-card');
+
+  const creatorName = (art.artist || art.creator || '').trim();
+  if (modalArtistStrip && creatorName) {
+    if (modalArtistName) modalArtistName.textContent = creatorName;
+    modalArtistStrip.style.display = 'block';
+
+    if (btnModalArtistCard) {
+      btnModalArtistCard.onclick = (e) => {
+        e.stopPropagation();
+        // Fermer la modale d'œuvre
+        if (modal) {
+          modal.classList.remove('open');
+          modal.setAttribute('hidden', '');
+          modal.style.display = 'none';
+        }
+        // Basculer vers la galerie
+        if (typeof switchView === 'function') switchView('view-search');
+
+        // Trouver et ouvrir la fiche peintre correspondante
+        const registry = window.ARTISTS_REGISTRY || {};
+        const artistId = (art.artistId || '').toLowerCase().trim();
+        const aName = creatorName.toLowerCase().trim();
+
+        const rec = Object.values(registry).find(r =>
+          (r.id && artistId && r.id.toLowerCase() === artistId) ||
+          (r.name && r.name.toLowerCase().includes(aName)) ||
+          (r.sortName && r.sortName.toLowerCase() === aName) ||
+          (aName && r.name.toLowerCase().trim().startsWith(aName))
+        );
+
+        if (rec && typeof openMonographForArtistRecord === 'function') {
+          openMonographForArtistRecord(rec);
+        } else if (typeof searchArtistInGallery === 'function') {
+          searchArtistInGallery(creatorName);
+        }
+      };
+    }
+  } else if (modalArtistStrip) {
+    modalArtistStrip.style.display = 'none';
+  }
   
   modalChips.innerHTML = '';
   if (art.chips) {

@@ -825,6 +825,55 @@ window.ARTISTS_REGISTRY = {
       ],
       sourceTitle: "Catalogue raisonné W.G. Constable (1962), révisé par J.G. Links (1976, 1989)",
       sourceNotes: "Le catalogue raisonné de référence mondiale a été initialement établi par l'historien de l'art W.G. Constable en 1962, puis il a été minutieusement révisé, mis à jour et complété par J.G. Links (avec des éditions de référence en 1976 et 1989). L'édition définitive de ce catalogue monumental recense très exactement 521 peintures."
+    },
+    biographyTimeline: {
+      birth: { year: 1697, place: "Venise (Sérénissime)", title: "Naissance de Giovanni Antonio Canal", desc: "Né à Venise, fils de Bernardo Canal, peintre de décors de théâtre réputé." },
+      death: { year: 1768, place: "Venise (Italie)", title: "Mort du maître à Venise à 70 ans", desc: "Élu membre de l'Académie de Venise, célébré dans toute l'Europe comme le prince incontesté du védutisme." },
+      periods: [
+        {
+          title: "Formation théâtrale & Découverte de Rome",
+          years: "1697 – 1719",
+          color: "#f59e0b",
+          summary: "Apprentissage de la scénographie et de la perspective auprès de son père. Séjour décisif à Rome où la vue urbaine antique bouleverse sa vocation.",
+          events: [
+            { year: 1716, title: "Décors de théâtre avec son père", desc: "Peint les toiles de fond pour les opéras de Vivaldi à Venise.", type: "life", icon: "💎" },
+            { year: 1719, title: "Séjour à Rome & Révélation de la veduta", desc: "Décors d'opéra pour Scarlatti à Rome. Fascination devant les ruines antiques et les toiles de Giovanni Paolo Panini ; abandonne définitivement le théâtre pour la peinture de vues.", type: "turning_point", icon: "🏛️" }
+          ]
+        },
+        {
+          title: "L'Âge d'or du Védutisme vénitien & le Grand Tour",
+          years: "1720 – 1745",
+          color: "#06b6d4",
+          summary: "Apogée vénitienne. Perfectionnement de la camera obscura et partenariat décisif avec le consul britannique Joseph Smith.",
+          events: [
+            { year: 1720, title: "Inscription à la corporation des peintres de Venise", desc: "Inscrit à la Fraglia dei Pittori comme maître indépendant.", type: "life", icon: "💎" },
+            { year: 1725, title: "Lancement auprès des collectionneurs anglais", desc: "L'intermédiaire irlandais Owen Swiny lui commande ses premières vues vénitiennes pour des ducs britanniques.", type: "peer", icon: "🤝" },
+            { year: 1730, title: "Rencontre avec Joseph Smith & Mécénat princier", desc: "Joseph Smith, marchand et futur consul de Grande-Bretagne, devient son mécène exclusif et vend ses toiles à l'aristocratie du Grand Tour.", type: "peer", icon: "🤝" },
+            { year: 1740, title: "La guerre de Succession d'Autriche", desc: "Le conflit bloque les voyages des aristocrates britanniques en Italie, privant Canaletto de sa clientèle.", type: "history", icon: "⚔️" }
+          ]
+        },
+        {
+          title: "La Décennie anglaise à Londres",
+          years: "1746 – 1755",
+          color: "#a855f7",
+          summary: "Canaletto traverse la Manche pour rejoindre directement ses commanditaires à Londres et peindre la lumière de la Tamise.",
+          events: [
+            { year: 1746, title: "Arrivée triomphale à Londres", desc: "Accueilli par le duc de Richmond, il peint les vues du nouveau pont de Westminster.", type: "life", icon: "💎" },
+            { year: 1750, title: "Les châteaux et parcs de l'aristocratie anglaise", desc: "Vues splendides du château de Windsor, du château de Warwick et du parc de Badminton.", type: "masterpiece", icon: "🎨" }
+          ]
+        },
+        {
+          title: "Le Retour à Venise & Les Caprices architecturaux",
+          years: "1756 – 1768",
+          color: "#10b981",
+          summary: "Retour dans sa Sérénissime natale. Il explore le genre du Caprice en recomposant des monuments idéaux de Palladio.",
+          events: [
+            { year: 1756, title: "Caprice avec édifices palladiens", desc: "Chef-d'œuvre de maturité réunissant la Basilique de Vicence et le projet du pont du Rialto de Palladio.", type: "masterpiece", icon: "🎨", artworkId: "canaletto_caprice_edifices_palladiens_parme_1756", linkedArtist: "Andrea Palladio" },
+            { year: 1763, title: "Élection à l'Académie de Venise", desc: "Consécration officielle : élu à l'Accademia di Belle Arti de Venise.", type: "life", icon: "💎" },
+            { year: 1768, title: "Derniers chefs-d'œuvre & Postérité", desc: "Meurt le 19 avril 1768 dans sa maison de Venise, laissant un héritage universel pour la peinture de paysage urbain.", type: "life", icon: "🌟" }
+          ]
+        }
+      ]
     }
   },
   "caravage": {
@@ -855,6 +904,62 @@ window.ARTISTS_REGISTRY = {
       ],
       sourceTitle: "Consensus scientifique international (Longhi, Gregori, Ebert-Schifferer, Spike, Vodret)",
       sourceNotes: "Les plus grands spécialistes mondiaux (de Roberto Longhi et Mina Gregori hier, à Sybille Ebert-Schifferer, John T. Spike ou Rossella Vodret aujourd'hui) s'accordent sur un consensus scientifique extrêmement resserré : on ne compte aujourd'hui qu'entre 65 et 70 peintures formellement reconnues comme étant de sa main et ayant survécu."
+    },
+    biographyTimeline: {
+      birth: { year: 1571, place: "Milan (Lombardie)", title: "Naissance de Michelangelo Merisi", desc: "Né à Milan, fils de Fermo Merisi, intendant et maître-maçon du marquis de Caravaggio." },
+      death: { year: 1610, place: "Porto Ercole (Toscane)", title: "Mort tragique sur la plage toscane à 38 ans", desc: "Fiévreux et épuisé en attendant le pardon papal. Son art aura bouleversé toute la peinture européenne du XVIIe siècle (le caravagisme)." },
+      periods: [
+        {
+          title: "Jeunesse lombarde & Apprentissage chez Peterzano",
+          years: "1571 – 1592",
+          color: "#f59e0b",
+          summary: "Formation rigoureuse dans l'atelier milanais de Simone Peterzano, élève du Titien. Imprégnation du naturalisme lombard et de la lumière vénitienne.",
+          events: [
+            { year: 1576, title: "La peste de Milan", desc: "La grande épidémie décime sa famille, dont son père et son grand-père. La famille fuit à Caravaggio.", type: "history", icon: "⚔️" },
+            { year: 1584, title: "Contrat d'apprentissage chez Peterzano", desc: "Entre comme apprenti pour 4 ans chez Simone Peterzano, qui se disait disciple du Titien.", type: "life", icon: "🤝", linkedArtist: "Simone Peterzano" },
+            { year: 1592, title: "Départ pour Rome", desc: "Vente de ses biens familiaux et départ définitif pour la cité papale après un premier incident violent.", type: "life", icon: "💎" }
+          ]
+        },
+        {
+          title: "Les débuts romains : De la misère aux premiers chefs-d'œuvre",
+          years: "1592 – 1599",
+          color: "#06b6d4",
+          summary: "Arrivée à Rome sans le sou. Travail d'ouvrier peintre chez le Cavalier d'Arpin, puis découverte de son talent par le marchand d'art Maestro Valentino et le cardinal del Monte.",
+          events: [
+            { year: 1593, title: "Atelier du Cavalier d'Arpin", desc: "Peint fleurs et fruits pour Giuseppe Cesari, le peintre le plus couru de Rome.", type: "peer", icon: "🤝", linkedArtist: "Le Cavalier d'Arpin" },
+            { year: 1594, title: "Maladie & Le Jeune Bacchus malade", desc: "Hospitalisé à Santa Maria della Consolazione ; peint son propre visage convalescent.", type: "life", icon: "💎" },
+            { year: 1595, title: "La Diseuse de bonne aventure & Les Tricheurs", desc: "Prend des modèles directement dans la rue. Le cardinal del Monte achète Les Tricheurs et le loge dans son palais.", type: "masterpiece", icon: "🎨", artworkId: "caravage_diseuse_bonne_aventure_louvre_1595" },
+            { year: 1597, title: "Méduse sur bouclier de parade", desc: "Cadeau diplomatique du cardinal del Monte pour Ferdinand Ier de Médicis à Florence.", type: "masterpiece", icon: "🎨", artworkId: "caravage_meduse_offices_florence_1597" },
+            { year: 1598, title: "Bacchus des Offices & Saint Jean-Baptiste", desc: "Sublime ambiguïté païenne et pastorale dans une lumière oblique dorée.", type: "masterpiece", icon: "🎨", artworkId: "caravage_bacchus_offices_florence_1598" }
+          ]
+        },
+        {
+          title: "L'Apogée romaine & Le Séisme du Ténébrisme",
+          years: "1599 – 1606",
+          color: "#a855f7",
+          summary: "Commandes monumentales publiques. Le clair-obscur radical révolutionne l'art européen mais scandalise l'Académie et les fidèles par son réalisme sans fard.",
+          events: [
+            { year: 1599, title: "Chapelle Contarelli (Saint-Louis-des-Français)", desc: "La Vocation et le Martyre de saint Matthieu font sensation : l'obscurité totale transpercée par la lumière divine.", type: "masterpiece", icon: "🎨" },
+            { year: 1601, title: "La Mort de la Vierge", desc: "Refusée par les pères carmélites qui l'accusent d'avoir pris le cadavre d'une courtisane noyée comme modèle. Achetée aussitôt par Rubens pour le duc de Mantoue.", type: "masterpiece", icon: "🎨", artworkId: "caravage_mort_de_la_vierge_louvre_1601", linkedArtist: "Pierre Paul Rubens" },
+            { year: 1603, title: "Procès avec Giovanni Baglione & rivalités", desc: "Condamné pour diffamation après des poèmes satiriques contre Baglione.", type: "life", icon: "⚔️" },
+            { year: 1606, title: "Le Christ à la colonne", desc: "Prélude au drame, d'une tension physique et musculaire saisissante.", type: "masterpiece", icon: "🎨", artworkId: "caravage_christ_a_la_colonne_rouen_1606" },
+            { year: 1606, title: "Le meurtre de Ranuccio Tommasoni & la fuite", desc: "Le 28 mai 1606, lors d'une rixe au jeu de paume, Caravage tue Tommasoni. Condamné à mort par décapitation par le Pape (bando capitale), il s'enfuit de Rome.", type: "turning_point", icon: "💎" }
+          ]
+        },
+        {
+          title: "L'Exil tragique : Naples, Malte, Sicile et la fin tragique",
+          years: "1606 – 1610",
+          color: "#ef4444",
+          summary: "Traqué, hanté par la mort, Caravage peint dans l'urgence des chefs-d'œuvre à la facture de plus en plus sombre et fiévreuse.",
+          events: [
+            { year: 1607, title: "Les Sept Œuvres de miséricorde à Naples", desc: "Chef-d'œuvre de composition foisonnante pour le Pio Monte della Misericordia à Naples.", type: "masterpiece", icon: "🎨", artworkId: "caravage_sept_oeuvres_misericorde_naples_1607" },
+            { year: 1607, title: "Portrait d'Alof de Wignacourt à Malte", desc: "Reçu comme peintre officiel par le Grand Maître des Chevaliers de Malte.", type: "masterpiece", icon: "🎨", artworkId: "caravage_portrait_alof_de_wignacourt_louvre_1607" },
+            { year: 1608, title: "Chevalier de grâce puis prisonnier au Fort Saint-Ange", desc: "Fait chevalier de l'Ordre de Malte, puis déchu et emprisonné après une violente bagarre. Il s'évade spectaculairement et débarque en Sicile.", type: "life", icon: "⚔️" },
+            { year: 1609, title: "L'exil sicilien (Syracuse, Messine, Palerme)", desc: "L'enterrement de sainte Lucie et La Résurrection de Lazare : un espace immense et désolé où le noir dévore les figures.", type: "life", icon: "💎" },
+            { year: 1610, title: "David avec la tête de Goliath & Mort à Porto Ercole", desc: "Il envoie à Rome sa propre tête coupée peinte sous les traits de Goliath pour implorer la grâce papale. En route vers Rome, il meurt de fièvre et d'épuisement sur la plage de Porto Ercole à 38 ans.", type: "masterpiece", icon: "🎨", artworkId: "caravage_david_et_goliath_prado_madrid_1610" }
+          ]
+        }
+      ]
     }
   },
   "cassatt": {
