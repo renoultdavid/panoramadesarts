@@ -498,6 +498,14 @@ window.MOVEMENTS_DATA = {
         "desc": "Les Deux Sœurs, Vénus marine et fresques de la Cour des comptes.",
         "artistId": "chasseriau",
         "icon": "✨"
+      },
+      {
+        "name": "John Constable",
+        "dates": "1776 – 1837",
+        "role": "Père du paysage naturaliste anglais et des études atmosphériques",
+        "desc": "La Charrette de foin, La Baie de Weymouth, La Cathédrale de Salisbury.",
+        "artistId": "constable",
+        "icon": "🌦️"
       }
     ]
   },
@@ -528,7 +536,7 @@ window.MOVEMENTS_DATA = {
         "dates": "1796 – 1875",
         "role": "Patriarche bienveillant du paysage atmosphérique et poétique",
         "desc": "Souvenir de Mortefontaine, ponts de Narni et études romaines.",
-        "artistId": "",
+        "artistId": "corot",
         "icon": "🌳"
       },
       {
@@ -1238,6 +1246,7 @@ window.MOVEMENTS_DATA = {
     ]
   },
   "mov_rup_giotto_1305": {
+    "bannerImg": "https://lh3.googleusercontent.com/d/1jZxD4OJx2XqqUkPJwlSCu6jcO-YciTa9",
     "badge": "✦ 1305 : LA RÉVOLUTION DE GIOTTO À PADOUE (1303 – 1315)",
     "noticeHtml": "<p><strong>Le choc spatial et affectif de la chapelle des Scrovegni</strong><br>En 1305 à Padoue, Giotto di Bondone dévoile le cycle des fresques de la chapelle des Scrovegni. Pour la première fois depuis l'Antiquité, les figures sacrées ne flottent plus sur un fond d'or abstrait : elles ont un poids, un volume tridimensionnel, des pieds solidement ancrés au sol et des visages déchirés par des sentiments humains poignants. Dans la <em>Déploration du Christ mort</em>, les anges poussent des cris de douleur inouïs. Giotto invente la boîte spatiale et l'incarnation affective qui fondent toute la peinture occidentale.</p>",
     "concurrentHtml": "<p><strong>Contexte contemporain :</strong> Exil de la papauté en Avignon (1309). Dante Alighieri compose <em>La Divine Comédie</em>, saluant dans le Purgatoire le triomphe de Giotto sur Cimabue (« <em>Cimabue crut tenir le champ de la peinture, et maintenant Giotto a le cri</em> »). Philippe le Bel dissout l'ordre des Templiers en France (1307-1314).</p>",
@@ -1262,6 +1271,7 @@ window.MOVEMENTS_DATA = {
     ]
   },
   "mov_rup_perspective_1425": {
+    "bannerImg": "https://lh3.googleusercontent.com/d/1Gq31kLzFKGtX6UUnJpiw2_hIqmt4-2ID",
     "badge": "✦ 1425 : LA DÉCOUVERTE DE LA PERSPECTIVE LINÉAIRE (1420 – 1435)",
     "noticeHtml": "<p><strong>La géométrisation de l'œil : Brunelleschi et la tavola florentine</strong><br>Sur le parvis de la cathédrale de Florence vers 1425, Filippo Brunelleschi mène une expérience optique décisive à l'aide d'un panneau peint percé d'un œilleton et d'un miroir. Il démontre mathématiquement que les rayons visuels convergent vers un <strong>point de fuite central unique</strong>. En 1435, Leon Battista Alberti publie le traité <em>De Pictura</em>, formalisant la perspective comme une « fenêtre ouverte sur le monde ». Masaccio l'applique aussitôt sur la fresque de la <em>Trinité</em> à Santa Maria Novella, créant une illusion de profondeur qui stupéfie ses contemporains.</p>",
     "concurrentHtml": "<p><strong>Contexte contemporain :</strong> Âge d'or du mécénat florentin sous Cosme l'Ancien de Médicis. Fin du grand schisme d'Occident au Concile de Constance (1414-1418). En France, guerre de Cent Ans et épopée de Jeanne d'Arc libérant Orléans en 1429.</p>",

@@ -956,7 +956,7 @@ const ART_MOVEMENTS = [
     yearEnd: 1850,
     tier: 1,
     color: "#e11d48",
-    keyArtists: "Eugène Delacroix, Théodore Géricault, Caspar David Friedrich, William Turner, Francisco de Goya, Théodore Chassériau",
+    keyArtists: "Eugène Delacroix, Théodore Géricault, Caspar David Friedrich, William Turner, Francisco de Goya, Théodore Chassériau, John Constable",
     definition: "Primat absolu de la passion, du tumulte des sentiments, du sublime de la nature et de la quête de liberté face à l'ordre néoclassique.",
     filterKeyword: "romantisme"
   },
@@ -1263,6 +1263,7 @@ const ART_MOVEMENTS = [
     yearEnd: 1315,
     tier: 0,
     color: "#38bdf8",
+    bannerImg: "https://lh3.googleusercontent.com/d/1jZxD4OJx2XqqUkPJwlSCu6jcO-YciTa9",
     keyArtists: "Giotto di Bondone",
     definition: "À la Chapelle des Scrovegni de Padoue, Giotto brise le dogme byzantin en introduisant l'espace scénique tridimensionnel, les raccourcis corporels et des visages habités d'une douleur humaine bouleversante.",
     filterKeyword: "giotto"
@@ -1276,6 +1277,7 @@ const ART_MOVEMENTS = [
     yearEnd: 1435,
     tier: 1,
     color: "#f59e0b",
+    bannerImg: "https://lh3.googleusercontent.com/d/1Gq31kLzFKGtX6UUnJpiw2_hIqmt4-2ID",
     keyArtists: "Filippo Brunelleschi, Leon Battista Alberti, Masaccio",
     definition: "Expérience du miroir par Brunelleschi au baptistère de Florence et traité De Pictura (1435) d'Alberti : pour la première fois dans l'histoire, la vision humaine est projetée selon des lois mathématiques et géométriques rigoureuses.",
     filterKeyword: "perspective"

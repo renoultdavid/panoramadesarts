@@ -4808,6 +4808,301 @@ window.ARTISTS_REGISTRY = {
         }
       ]
     }
+  },
+  "constable": {
+    id: "constable",
+    name: "John Constable",
+    sortName: "Constable John",
+    sortLetter: "C",
+    dates: "1776 – 1837",
+    movement: "Romantisme britannique, Paysage naturaliste & Étude atmosphérique",
+    nationality: "Britannique (Suffolk / Londres)",
+    techniques: "Huile sur toile, esquisses en plein air, couteau à palette, « neige de Constable » (rehauts de blanc pur)",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczNFKMoTWj8uS4TWAmq4QJBqiESYdnyNgo2_ANxgR2RjHxqTgRoO7ujtRQJ0HHIvogLclcbKWUoD-1PtpUNiaUUXRTOZrwDpJEdwktydprMxtSXxbuiG4mK3nd_eFlqesSFdPSMmWBsI2S-NsgxF6SFb-w=w1795-h761-s-no-gm?authuser=0",
+    portraitImg: "",
+    bio: `
+      <p><strong>Le maître du paysage naturaliste anglais et le peintre de la vallée de la Stour</strong><br>
+      John Constable (1776 – 1837) est, avec William Turner, le plus grand paysagiste britannique et une figure cardinale de l'art occidental. Profondément attaché à sa vallée natale de la Stour dans le Suffolk (région aujourd'hui consacrée sous le nom de « Pays de Constable »), il a consacré sa vie à peindre la nature telle qu'il la voyait, en rupture délibérée avec l'idéalisation classique et pastorale héritée de Claude Lorrain. Son œuvre est une célébration ardente de la vie rurale anglaise, de la navigation fluviale, du mouvement impétueux des nuages et de la lumière changeante du ciel.</p>
+      <p><strong>Observation météorologique, touche vibrante et la « neige de Constable »</strong><br>
+      Son genre pictural se définit par le paysage naturaliste et l'étude atmosphérique directe. Son style novateur se caractérise par une observation scientifique des phénomènes météorologiques, une touche libre et vibrante ainsi que l'usage de la « neige de Constable » (petites touches de blanc pur posées au pinceau ou au couteau pour simuler le scintillement de la lumière sur les feuilles mouillées). Il cherchait par-dessus tout à rendre « le brillant, le frais et l'humidité » de la campagne anglaise après l'averse.</p>
+      <p><strong>Des Six-Footers du Salon de Paris aux ciels d'orage tourmentés</strong><br>
+      L'évolution de son style marque un passage de l'observation sereine vers une expressivité puissante et tourmentée. Après avoir conquis le réalisme sur le motif dans les années 1810, il s'impose dans les années 1820 avec ses célèbres <em>Six-Footers</em> (immenses toiles de deux mètres comme <em>La Charrette de foin</em>) qui triomphent au Salon de Paris de 1824, bouleversant Eugène Delacroix et inspirant la future École de Barbizon. Après la mort tragique de son épouse Maria en 1828, sa touche s'épaissit au couteau à palette et ses ciels deviennent orageux, traduisant une mélancolie poignante sous des arcs-en-ciel dramatiques.</p>
+    `,
+    corpus: {
+      total: 457,
+      seen: 1,
+      paintingsCount: 457,
+      sourceTitle: "Catalogue Robert Hoozee (Classici dell'Arte Rizzoli / Flammarion, 1979)",
+      sourceNotes: "Pour isoler strictement son corpus peint, la référence scientifique d'autorité absolue est le catalogue raisonné de Robert Hoozee (<em>L'opera completa di Constable</em> / <em>Tout l'œuvre peint de Constable</em>, collection Classici dell'Arte, Rizzoli / Flammarion, 1979). L'historien de l'art y recense très exactement 457 peintures autographes incontestables, distinguant avec rigueur les grands paysages monumentaux d'exposition pour la Royal Academy, les célèbres esquisses à l'huile sur le motif et les études météorologiques de ciels et de nuages.",
+      details: [
+        { label: "Grands paysages de salon & Six-Footers", count: 85, icon: "🏛️", color: "#d4af37", seen: 0, note: "Dont La Charrette de foin, Le Cheval blanc, La Cathédrale de Salisbury" },
+        { label: "Paysages côtiers & vues topographiques", count: 142, icon: "🌊", color: "#00b4d8", seen: 1, note: "Dont La Baie de Weymouth à l'approche de l'orage (Louvre)" },
+        { label: "Études atmosphériques & esquisses de nuages sur le motif", count: 230, icon: "☁️", color: "#2ecc71", seen: 0, note: "Études de ciels à Hampstead et variations de lumière" }
+      ]
+    },
+    biographyTimeline: {
+      birth: {
+        year: 1776,
+        place: "East Bergholt (Suffolk, Angleterre)",
+        title: "Naissance de John Constable",
+        desc: "Fils d'un prospère marchand de grains et meunier, Golding Constable. Il passe son enfance au bord de la rivière Stour, matrice de toute sa sensibilité paysagère."
+      },
+      death: {
+        year: 1837,
+        place: "Londres (Hampstead, Angleterre)",
+        title: "Mort du père du paysage moderne",
+        desc: "S'éteint subitement dans la nuit du 31 mars 1837 à Hampstead à l'âge de 60 ans. Il repose au cimetière de St John-at-Hampstead."
+      },
+      periods: [
+        {
+          title: "La Conquête du Réalisme & La Vallée de la Stour",
+          years: "1799 – 1818",
+          color: "#d4af37",
+          summary: "Il s'éloigne des conventions académiques pour peindre sur le motif la vie agricole et la navigation fluviale de son Suffolk natal.",
+          events: [
+            {
+              year: 1799,
+              title: "Entrée aux écoles de la Royal Academy de Londres",
+              desc: "Admis comme étudiant à la Royal Academy où il étudie les maîtres anciens (Ruysdael, Le Lorrain, Gainsborough) tout en affirmant sa volonté de peindre la nature sans artifice.",
+              type: "life",
+              icon: "🏛️"
+            },
+            {
+              year: 1816,
+              title: "Mariage avec Maria Bicknell & Lune de miel dans le Dorset",
+              desc: "Épouse Maria Bicknell après des années de résistance familiale. Le séjour à Osmington près de Weymouth lui inspire ses premières grandes toiles marines.",
+              type: "life",
+              icon: "💍"
+            },
+            {
+              year: 1818,
+              title: "La Baie de Weymouth à l'approche de l'orage (Musée du Louvre)",
+              desc: "Étude magistrale de l'atmosphère où le ciel d'orage tourmenté occupe les deux tiers de la toile, capturant avec force l'humidité et le vent.",
+              type: "masterpiece",
+              icon: "🌊",
+              artworkId: "constable_baie_de_weymouth_louvre_1818"
+            }
+          ]
+        },
+        {
+          title: "Les « Six-Footers » & Le Triomphe au Salon de Paris",
+          years: "1819 – 1827",
+          color: "#059669",
+          summary: "Il peint ses toiles monumentales de deux mètres de large, atteignant un équilibre parfait entre fidélité du détail et puissance émotionnelle.",
+          events: [
+            {
+              year: 1819,
+              title: "Le Cheval blanc (The White Horse) & Élection à la Royal Academy",
+              desc: "Inaugure la série des grands 'six-footers' sur la Stour, marquant sa percée critique et son élection comme membre associé de l'Académie.",
+              type: "creation",
+              icon: "🎨"
+            },
+            {
+              year: 1821,
+              title: "La Charrette de foin (The Hay Wain, National Gallery de Londres)",
+              desc: "Chef-d'œuvre absolu de l'art britannique : scène pastorale au moulin de Flatford où la vibration de l'eau et des feuillages éblouit la critique.",
+              type: "masterpiece",
+              icon: "✨"
+            },
+            {
+              year: 1824,
+              title: "Médaille d'or au Salon de Paris & Révolution romantique",
+              desc: "La Charrette de foin exposée à Paris remporte la médaille d'or de Charles X. Eugène Delacroix, subjugué par la touche de Constable, repeint en urgence le fond de ses Massacres de Scio.",
+              type: "peer",
+              icon: "🥇",
+              linkedArtist: "Eugène Delacroix"
+            }
+          ]
+        },
+        {
+          title: "L'Expressivité Tourmentée, Le Deuil & Les Ciels Tragiques",
+          years: "1828 – 1837",
+          color: "#7c3aed",
+          summary: "Après la perte de son épouse, sa touche s'épaissit au couteau à palette et ses paysages expriment une mélancolie profonde sous des ciels orageux.",
+          events: [
+            {
+              year: 1828,
+              title: "Mort de son épouse Maria Bicknell",
+              desc: "Perd sa femme emportée par la tuberculose. Dévasté par le chagrin, il porte le deuil jusqu'à sa mort et son style bascule vers un expressionnisme sombre.",
+              type: "life",
+              icon: "🖤"
+            },
+            {
+              year: 1831,
+              title: "La Cathédrale de Salisbury vue des prés (Tate Britain)",
+              desc: "Toile monumentale et dramatique où la flèche de la cathédrale s'élève au milieu d'un ciel d'apocalypse zébré par un arc-en-ciel d'espérance.",
+              type: "masterpiece",
+              icon: "⛪"
+            },
+            {
+              year: 1836,
+              title: "Le Cénotaphe à la mémoire de Sir Joshua Reynolds",
+              desc: "Ultime hommage poétique peint dans le parc de Coleorton, célébrant la communion entre la mémoire humaine et la majesté sylvestre.",
+              type: "masterpiece",
+              icon: "🌲"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "corot": {
+    id: "corot",
+    name: "Camille Corot",
+    sortName: "Corot Camille",
+    sortLetter: "C",
+    dates: "1796 – 1875",
+    movement: "École de Barbizon, Réalisme & Pré-impressionnisme",
+    nationality: "Français (Paris / Ville-d'Avray / Barbizon)",
+    techniques: "Huile sur toile, plein air, peinture de valeurs (gris et verts argentés), frottis vaporeux, point de lumière rouge",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczO2RKfAz1CMNyrPdu_daTpGEHc_bzd2Q999mBzIGyItr7cjBYvbFPBP1l-HT9Fv7ZRZVmY8JiZSgBYKQyclHcYjnsowhEfRRs03ZJLzqR9IGcYi5ysaUwe1mXxazFs5a3qQzBbKGJzq2_XuqNRvV0UNlg=w2252-h956-s-no-gm?authuser=0",
+    portraitImg: "",
+    bio: `
+      <p><strong>Le patriarche du paysage français et le précurseur indispensable de l'impressionnisme</strong><br>
+      Jean-Baptiste Camille Corot (1796 – 1875) est le « patriarche » du paysage français et le précurseur indispensable de l'impressionnisme. Figure de transition majeure entre l'idéalisme néoclassique et le réalisme, il a passé sa vie à parcourir la France et l'Italie, capturant la lumière avec une sensibilité si subtile qu'elle lui vaudra d'être salué de son vivant comme le « poète du paysage ».</p>
+      <p><strong>Paysage atmosphérique, primat des valeurs et magie des gris et des verts</strong><br>
+      Son genre pictural se définit par le paysage atmosphérique et une maîtrise souveraine des gris, des bruns et des verts argentés. Son style se caractérise par une lumière diffuse, une touche vaporeuse et un sens absolu de la « valeur » (le rapport subtil entre les ombres et les clartés) qui prime sur la saturation de la couleur pure. Bien que fidèle exposant au Salon officiel, il a introduit dans ses études d'après nature une liberté de facture et une vérité sensible qui ont révolutionné la perception de la nature.</p>
+      <p><strong>De la rigueur architecturale d'Italie au réalisme de Barbizon et aux Souvenirs d'argent</strong><br>
+      L'évolution de son œuvre dessine une admirable trajectoire poétique : après sa période italienne (1825–1828) marquée par une lumière limpide et une structure géométrique rigoureuse, il s'immerge avec ses amis de l'école de Barbizon dans la forêt de Fontainebleau pour peindre la vérité intime du sous-bois. À la fin de sa vie, son art culmine dans la période enchanteresse des « Souvenirs » — paysages brumeux baignés d'un argent vaporeux où les feuillages semblent frémir dans l'air, offrant une leçon magistrale dont s'inspireront directement Monet, Pissarro et Berthe Morisot.</p>
+    `,
+    corpus: {
+      total: 3000,
+      seen: 8,
+      paintingsCount: 3000,
+      sourceTitle: "Catalogue Alfred Robaut & Étienne Moreau-Nélaton (1905) / Martin Dieterle & Claire Lebeau",
+      sourceNotes: "Pour Jean-Baptiste-Camille Corot (1796–1875), l'immense paysagiste qui a tracé la voie entre le néo-classicisme et l'impressionnisme, le décompte des œuvres nous plonge dans l'un des plus grands défis de l'expertise en histoire de l'art. Peintre immensément admiré, il a été l'un des artistes les plus contrefaits de l'histoire, ce qui faisait dire à René Huyghe (ancien conservateur en chef du musée du Louvre) : « <em>Corot a peint 3 000 toiles, dont 10 000 ont été vendues en Amérique !</em> » L'inventaire d'autorité a été dressé en 1905 par Alfred Robaut et Étienne Moreau-Nélaton (<em>L'Œuvre de Corot, catalogue raisonné et illustré</em> en 4 volumes). Les révisions scientifiques contemporaines de Martin Dieterle et Claire Lebeau ont expurgé les faux et stabilisé le consensus mondial à environ 3 000 peintures autographes authentiques.",
+      details: [
+        { label: "Études de jeunesse & paysages d'Italie (1825-1834)", count: 480, icon: "🏛️", color: "#d4af37", seen: 1, note: "Dont L'Avant-port de Rouen (1834, Musée de Rouen)" },
+        { label: "Paysages historiques, pastorales & forêt de Barbizon", count: 820, icon: "🌲", color: "#00b4d8", seen: 2, note: "Dont Démocrite et les Abdéritains (Nantes) et Le Passage du gué (Rennes)" },
+        { label: "Manière vaporeuse, Souvenirs & Étangs de Ville-d'Avray", count: 1450, icon: "☁️", color: "#2ecc71", seen: 5, note: "Dont Soleil couchant (Nantes), Ville-d'Avray et Rue à Coulommiers (Rouen)" },
+        { label: "Portraits intimes & figures de fantaisie", count: 250, icon: "👑", color: "#b5179e", seen: 0, note: "Figures mélancoliques, La Femme à la perle" }
+      ]
+    },
+    biographyTimeline: {
+      birth: {
+        year: 1796,
+        place: "Paris (France)",
+        title: "Naissance de Jean-Baptiste Camille Corot",
+        desc: "Fils d'un marchand drapier et d'une célèbre modiste du quai Voltaire. Il obtient tardivement l'accord paternel pour se consacrer exclusivement à la peinture."
+      },
+      death: {
+        year: 1875,
+        place: "Paris (France)",
+        title: "Mort du « patriarche » du paysage moderne",
+        desc: "Disparaît en février 1875 à l'âge de 78 ans, vénéré par toute la jeune génération impressionniste qui le considérait comme leur maître et bienfaiteur spirituel."
+      },
+      periods: [
+        {
+          title: "L'Apprentissage & La Révélation d'Italie",
+          years: "1822 – 1834",
+          color: "#d4af37",
+          summary: "Ses études réalisées à Rome et dans la campagne romaine sont marquées par une lumière cristalline et une construction géométrique très moderne.",
+          events: [
+            {
+              year: 1825,
+              title: "Premier voyage en Italie & Les études de Rome sur le motif",
+              desc: "Séjour fondateur de trois ans à Rome, peignant sur le motif au Colisée et à Narni avec une pureté géométrique et une clarté lumineuse remarquables.",
+              type: "life",
+              icon: "🏛️"
+            },
+            {
+              year: 1834,
+              title: "Une Marine, ou L'Avant-port de Rouen (Musée des Beaux-Arts de Rouen)",
+              desc: "Marine aux tons d'eau et de brume argentée, marquant l'éloignement de la rigueur néoclassique vers la sensibilité atmosphérique normande.",
+              type: "masterpiece",
+              icon: "⛵",
+              artworkId: "corot_avant_port_rouen_1834"
+            }
+          ]
+        },
+        {
+          title: "Le Réalisme de Barbizon & Les Grands Paysages",
+          years: "1835 – 1855",
+          color: "#059669",
+          summary: "Proche des maîtres de Barbizon, il peint la forêt de Fontainebleau avec une fidélité nouvelle aux humeurs de la nature.",
+          events: [
+            {
+              year: 1841,
+              title: "Démocrite et les Abdéritains (Musée d'Arts de Nantes)",
+              desc: "Toile monumentale du Salon où la forêt majestueuse et dense devient le véritable protagoniste de la méditation philosophique.",
+              type: "masterpiece",
+              icon: "🌲",
+              artworkId: "corot_democrite_abderitains_nantes_1841"
+            },
+            {
+              year: 1846,
+              title: "Chevalier de la Légion d'honneur & Éloge de Baudelaire",
+              desc: "Distinction officielle saluant son rôle de chef de file de l'école moderne du paysage, ardemment défendu par Charles Baudelaire.",
+              type: "life",
+              icon: "🎖️"
+            },
+            {
+              year: 1853,
+              title: "Le Passage du gué le soir (Musée des Beaux-Arts de Rennes)",
+              desc: "Élégie pastorale crépusculaire où la célèbre touche vaporeuse de Corot capte les reflets d'argent du ciel sur l'eau, ponctuée du point rouge du vacher.",
+              type: "masterpiece",
+              icon: "🌅",
+              artworkId: "corot_passage_du_gue_rennes_1853"
+            }
+          ]
+        },
+        {
+          title: "La Période des « Souvenirs » & Les Étangs d'Argent",
+          years: "1856 – 1875",
+          color: "#7c3aed",
+          summary: "À la fin de sa vie, son style devient onirique et brumeux, peignant des paysages d'argent où les feuillages s'évaporent dans le ciel.",
+          events: [
+            {
+              year: 1858,
+              title: "Soleil couchant après la pluie (Musée d'Arts de Nantes)",
+              desc: "Recherche sur l'atmosphère et la translucidité de la lumière humide perçant les nuages après l'orage, illustration parfaite de sa manière grise.",
+              type: "masterpiece",
+              icon: "🌦️",
+              artworkId: "corot_soleil_couchant_apres_pluie_nantes_1858"
+            },
+            {
+              year: 1864,
+              title: "Souvenir de Mortefontaine (Musée du Louvre)",
+              desc: "Acquis pour les collections de Napoléon III : chef-d'œuvre de poésie élégiaque où la brume matinale enveloppe les arbres penchés sur l'étang.",
+              type: "masterpiece",
+              icon: "✨"
+            },
+            {
+              year: 1867,
+              title: "Les Étangs de Ville-d'Avray (Musée des Beaux-Arts de Rouen)",
+              desc: "Vue emblématique des étangs familiaux : harmonie pastorale et douce mélancolie baignée d'une brume feutrée sous une lumière argentée.",
+              type: "masterpiece",
+              icon: "💧",
+              artworkId: "corot_etangs_ville_davray_rouen_1867"
+            },
+            {
+              year: 1870,
+              title: "Souvenir de la plage de Naples (National Museum of Western Art, Tokyo)",
+              desc: "Paysannes napolitaines au tambourin s'avançant sous des arbres vaporeux ouvrant sur le golfe de Naples baigné d'une lumière nacrée.",
+              type: "masterpiece",
+              icon: "🏖️",
+              artworkId: "corot_souvenir_plage_naples_tokyo_1870"
+            },
+            {
+              year: 1871,
+              title: "Rue à Coulommiers (Musée des Beaux-Arts de Rouen)",
+              desc: "Ruelle paisible de province baignée de lumière chaude, peinte durant les tourments de la guerre franco-prussienne en quête de sérénité.",
+              type: "masterpiece",
+              icon: "🏘️",
+              artworkId: "corot_rue_coulommiers_rouen_1871"
+            },
+            {
+              year: 1872,
+              title: "Ville-d'Avray, l'étang au bouleau devant les villas (Musée de Rouen)",
+              desc: "Élégante silhouette du bouleau argenté et clarté cristalline unissant la nature idyllique aux villas contemporaines dans une vibration lumineuse.",
+              type: "masterpiece",
+              icon: "🌿",
+              artworkId: "corot_ville_davray_etang_au_bouleau_rouen_1872"
+            }
+          ]
+        }
+      ]
+    }
   }
 };
 
