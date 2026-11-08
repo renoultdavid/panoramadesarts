@@ -1421,11 +1421,26 @@ function getArtworksForMovement(mov) {
 }
 
 let movPopHideTimer = null;
+let movPopShowTimer = null;
+let isMovPopPinned = false;
+let currentMovPopBar = null;
 
-function showMovementPopover(mov, barEl) {
+function showMovementPopover(mov, barEl, isClick = false) {
   clearTimeout(movPopHideTimer);
+  clearTimeout(movPopShowTimer);
+  movPopShowTimer = null;
+
   const popover = document.getElementById('art-movement-popover');
   if (!popover) return;
+
+  currentMovPopBar = barEl;
+  if (isClick) {
+    isMovPopPinned = true;
+    popover.dataset.pinned = 'true';
+  } else {
+    isMovPopPinned = false;
+    delete popover.dataset.pinned;
+  }
 
   const titleEl = document.getElementById('mov-pop-title');
   const artistsListEl = document.getElementById('mov-pop-artists-list');
@@ -1458,6 +1473,7 @@ function showMovementPopover(mov, barEl) {
 
     btnExplore.onclick = (e) => {
       e.stopPropagation();
+      isMovPopPinned = false;
       hideMovementPopover(true);
 
       // Réinitialiser les filtres pour basculer en mode recherche du mouvement
@@ -1496,14 +1512,23 @@ function showMovementPopover(mov, barEl) {
   }
   leftPos = Math.max(15, leftPos);
 
-  const popHeight = 240;
-  let topPos = rect.top - popHeight - 10;
-  if (topPos < 10) {
+  const popHeight = 250;
+  // Positionnement intelligent pour dégager les voies du dessus et éviter les obstacles
+  let topPos;
+  if (rect.top < 380 || (window.innerHeight - rect.bottom > popHeight + 20)) {
+    // Si la barre est dans les voies du haut (ex: Sculpture ou Peinture), on ouvre en DESSOUS
     topPos = rect.bottom + 10;
+    if (topPos + popHeight > window.innerHeight - 10) {
+      topPos = rect.top - popHeight - 10;
+    }
+  } else {
+    // Sinon on ouvre au-dessus
+    topPos = rect.top - popHeight - 10;
+    if (topPos < 10) {
+      topPos = rect.bottom + 10;
+    }
   }
-  if (topPos + popHeight > window.innerHeight - 10) {
-    topPos = Math.max(10, window.innerHeight - popHeight - 10);
-  }
+  topPos = Math.max(10, Math.min(window.innerHeight - popHeight - 10, topPos));
 
   popover.style.left = `${leftPos}px`;
   popover.style.top = `${topPos}px`;
@@ -1513,24 +1538,34 @@ function showMovementPopover(mov, barEl) {
   });
 }
 
-function scheduleHideMovementPopover(delay = 180) {
+function scheduleHideMovementPopover(delay = 140) {
   clearTimeout(movPopHideTimer);
   movPopHideTimer = setTimeout(() => {
-    hideMovementPopover(true);
+    if (!isMovPopPinned) {
+      hideMovementPopover(true);
+    }
   }, delay);
 }
 
 function hideMovementPopover(force = false) {
   clearTimeout(movPopHideTimer);
+  clearTimeout(movPopShowTimer);
+  movPopShowTimer = null;
   const popover = document.getElementById('art-movement-popover');
   if (!popover) return;
+  if (force) {
+    isMovPopPinned = false;
+  }
+  if (isMovPopPinned) return;
+
   popover.style.opacity = '0';
   setTimeout(() => {
     if (popover.style.opacity === '0') {
       popover.style.display = 'none';
-      delete popover.dataset.locked;
+      delete popover.dataset.pinned;
+      currentMovPopBar = null;
     }
-  }, 180);
+  }, 140);
 }
 
 const movPopoverEl = document.getElementById('art-movement-popover');
@@ -1539,10 +1574,11 @@ if (movPopoverEl) {
     clearTimeout(movPopHideTimer);
   });
   movPopoverEl.addEventListener('mouseleave', (e) => {
+    if (isMovPopPinned) return;
     if (e.relatedTarget && e.relatedTarget.closest('.sub-movement-timespan-bar')) {
       return;
     }
-    scheduleHideMovementPopover(180);
+    scheduleHideMovementPopover(140);
   });
 }
 
@@ -1550,9 +1586,30 @@ const btnCloseMovPop = document.getElementById('btn-close-mov-pop');
 if (btnCloseMovPop) {
   btnCloseMovPop.addEventListener('click', (e) => {
     e.stopPropagation();
+    isMovPopPinned = false;
     hideMovementPopover(true);
   });
 }
+
+// Fermeture au clic extérieur et touche Échap
+document.addEventListener('click', (e) => {
+  const popover = document.getElementById('art-movement-popover');
+  if (!popover || popover.style.display === 'none') return;
+  if (!e.target.closest('#art-movement-popover') && !e.target.closest('.sub-movement-timespan-bar')) {
+    isMovPopPinned = false;
+    hideMovementPopover(true);
+  }
+});
+
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') {
+    const popover = document.getElementById('art-movement-popover');
+    if (popover && popover.style.display !== 'none') {
+      isMovPopPinned = false;
+      hideMovementPopover(true);
+    }
+  }
+});
 
 /* ==========================================================================
    BANQUE OFFICIELLE DES BANDEAUX PANORAMIQUES PAR CIVILISATION & TYPOLOGIE
@@ -3974,19 +4031,34 @@ function buildTimelineBlocks() {
 
     bar.addEventListener('mouseenter', () => {
       clearTimeout(movPopHideTimer);
-      showMovementPopover(mov, bar);
+      if (isMovPopPinned && currentMovPopBar !== bar) {
+        return; // Une autre barre a été verrouillée par un clic
+      }
+      // DÉLAI D'INTENTION DE SURVOL (Hover intent) : 320ms
+      // Si la souris glisse simplement vers une autre voie (ex: franchir Sculpture pour aller à Fauvisme),
+      // le curseur sort de la barre bien avant 320ms et AUCUN popover ne s'affiche en travers du chemin !
+      clearTimeout(movPopShowTimer);
+      movPopShowTimer = setTimeout(() => {
+        showMovementPopover(mov, bar, false);
+      }, 320);
     });
 
     bar.addEventListener('mouseleave', (e) => {
+      clearTimeout(movPopShowTimer);
+      movPopShowTimer = null;
+      if (isMovPopPinned) return;
       if (e.relatedTarget && e.relatedTarget.closest('#art-movement-popover')) {
         return;
       }
-      scheduleHideMovementPopover(180);
+      scheduleHideMovementPopover(140);
     });
 
     bar.addEventListener('click', (e) => {
       e.stopPropagation();
-      showMovementPopover(mov, bar);
+      clearTimeout(movPopShowTimer);
+      movPopShowTimer = null;
+      // Clic = ouverture instantanée (0ms) et épinglage
+      showMovementPopover(mov, bar, true);
     });
 
     mov._barEl = bar;
@@ -4462,6 +4534,13 @@ function getCivGeographicData(civ) {
 function renderPavilionMap(civ) {
   const mapImg = document.getElementById('pavilion-map-img');
   const mapBox = document.getElementById('pavilion-map-box');
+  const mapScroll = document.querySelector('#panel-map .map-panel-scroll');
+  if (mapScroll) {
+    mapScroll.classList.remove('is-text-scroll');
+  }
+  if (mapBox) {
+    mapBox.classList.remove('is-focal-text-mode');
+  }
   let placeholder = document.getElementById('pavilion-map-placeholder');
 
   if (!placeholder && mapBox) {
@@ -5595,12 +5674,24 @@ function renderMovementFocalCenters(civ, movData) {
   const mapBox = document.getElementById('pavilion-map-box');
   const expandPill = document.getElementById('map-expand-pill');
   const placeholder = document.getElementById('pavilion-map-placeholder');
+  const panelMapEl = document.getElementById('panel-map');
+  const mapScroll = document.querySelector('#panel-map .map-panel-scroll');
+
+  if (panelMapEl) {
+    panelMapEl.style.cursor = 'default';
+    panelMapEl.onclick = null;
+  }
+  if (mapScroll) {
+    mapScroll.classList.add('is-text-scroll');
+    mapScroll.scrollTop = 0;
+  }
 
   if (mapImg) {
     mapImg.src = '';
     mapImg.style.display = 'none';
   }
   if (mapBox) {
+    mapBox.classList.add('is-focal-text-mode');
     mapBox.style.cursor = 'default';
     mapBox.title = '';
     mapBox.onclick = null;
