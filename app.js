@@ -93,9 +93,57 @@ const HISTORICAL_MILESTONES = [
   { year: 79, category: "disaster", icon: "🌋", type: "Cataclysme naturel", title: "Éruption du Vésuve & Pompéi", desc: "L'éruption du Vésuve ensevelit Pompéi et Herculanum sous les cendres, figeant pour l'éternité les fresques et le cadre de vie romain." },
   { year: 330, category: "gold", icon: "🏛️", type: "Fondation impériale", title: "Inauguration de Constantinople", desc: "L'empereur Constantin transfère la capitale de l'Empire romain sur le Bosphore, inaugurant plus d'un millénaire de civilisation byzantine." },
   { year: 622, category: "gold", icon: "🌙", type: "Événement spirituel", title: "L'Hégire & Ère islamique", desc: "Départ du prophète Mahomet de La Mecque vers Médine, point de départ du calendrier musulman et de l'essor des arts de l'Islam." },
-  { year: 1453, category: "war", icon: "💡", type: "Tournant de l'histoire", title: "Prise de Constantinople & Imprimerie", desc: "Chute de Byzance face aux Ottomans et diffusion révolutionnaire de la presse à caractères mobiles par Gutenberg en Europe." },
-  { year: 1508, category: "gold", icon: "🎨", type: "Sommet artistique", title: "Michel-Ange : Chapelle Sixtine", desc: "Commande du pape Jules II à Rome, aboutissant à l'un des sommets absolus de la peinture monumentale de la Haute Renaissance." },
-  { year: 1789, category: "war", icon: "⚔️", type: "Révolution politique", title: "Révolution Française", desc: "Bouleversement majeur de l'ordre politique européen, naissance des grands musées publics et redéfinition du patrimoine." },
+
+  // --- XIVe SIÈCLE (TRECENTO & GOTHICITÉ ITALIENNE) ---
+  { year: 1309, category: "gold", icon: "🏛️", type: "Papauté en exil", title: "Installation des Papes en Avignon", desc: "Clément V installe la Curie pontificale en Avignon, faisant de la cité un carrefour majeur d'art gothique international et d'influence toscane." },
+  { year: 1337, category: "war", icon: "⚔️", type: "Guerre dynastique", title: "Déclenchement de la Guerre de Cent Ans", desc: "Le roi d'Angleterre Édouard III revendique la couronne de France, ouvrant un siècle de conflits qui redéfinit les frontières et les cours princières européennes." },
+  { year: 1348, category: "disaster", icon: "☠️", type: "Pandémie dévastatrice", title: "La Grande Peste Noire en Europe", desc: "La peste ravage l'Italie et l'Europe, décimant un tiers de la population et inspirant le Décaméron de Boccace ainsi qu'une iconographie macabre (Triomphe de la Mort de Buffalmacco)." },
+  { year: 1378, category: "gold", icon: "⚡", type: "Crise religieuse", title: "Le Grand Schisme d'Occident", desc: "Élection simultanée de deux papes à Rome et en Avignon, divisant l'Europe chrétienne jusqu'au concile de Constance en 1417." },
+
+  // --- XVe SIÈCLE (QUATTROCENTO & HUMANISME) ---
+  { year: 1401, category: "gold", icon: "🚪", type: "Concours fondateur", title: "Concours pour le Baptistère de Florence", desc: "Lorenzo Ghiberti l'emporte sur Brunelleschi pour les portes de bronze, scellant le renouveau de la sculpture et l'acte de naissance du Quattrocento." },
+  { year: 1436, category: "tech", icon: "🏛️", type: "Prouesse architecturale", title: "Inauguration de la Coupole de Florence", desc: "Brunelleschi achève la coupole de Santa Maria del Fiore sans échafaudage en bois, triomphe de la géométrie de perspective et de l'ingénierie renaissante." },
+  { year: 1453, category: "war", icon: "💡", type: "Tournant de l'histoire", title: "Prise de Constantinople & Imprimerie", desc: "Chute de Byzance face aux Ottomans, exil des savants grecs vers l'Italie et diffusion révolutionnaire de la presse à caractères mobiles par Gutenberg." },
+  { year: 1492, category: "gold", icon: "⛵", type: "Grandes Découvertes", title: "Voyage de Christophe Colomb & Fin de Grenade", desc: "Arrivée aux Antilles le 12 octobre 1492 et fin de la Reconquista en Espagne, inaugurant la mondialisation et l'afflux d'or en Europe." },
+  { year: 1498, category: "tech", icon: "🌊", type: "Route maritime des Indes", title: "Vasco de Gama atteint Calicut", desc: "Le navigateur portugais contourne le cap de Bonne-Espérance et relie directement l'Europe à l'Asie par voie maritime, enrichissant Lisbonne et Anvers." },
+
+  // --- XVIe SIÈCLE (CINQUECENTO, RENAISSANCE & MANIÉRISME) ---
+  { year: 1508, category: "gold", icon: "🎨", type: "Sommet artistique", title: "Michel-Ange : Chapelle Sixtine & Raphaël à Rome", desc: "Jules II rassemble à Rome Michel-Ange pour la voûte de la Sixtine et Raphaël pour la Chambre de la Signature, apogée de la Haute Renaissance." },
+  { year: 1517, category: "disaster", icon: "📜", type: "Rupture religieuse", title: "Martin Luther affiche ses 95 thèses", desc: "Luther dénonce le trafic des indulgences à Wittenberg, déclenchant la Réforme protestante qui divise l'Europe et transforme les commandes artistiques." },
+  { year: 1519, category: "gold", icon: "👑", type: "Dynastie & Exploration", title: "Mort de Léonard de Vinci & Tour du monde de Magellan", desc: "Disparition du maître florentin au Clos Lucé sous la protection de François Ier, tandis que la flotte de Magellan entame la première circumnavigation." },
+  { year: 1527, category: "war", icon: "⚔️", type: "Traumatisme politique", title: "Le Sac de Rome par Charles Quint", desc: "Les lansquenets impériaux mettent Rome à sac, provoquant la dispersion des peintres et l'essor du Maniérisme à Florence, Fontainebleau et Prague." },
+  { year: 1543, category: "tech", icon: "🔭", type: "Révolution astronomique", title: "Nicolas Copernic : De revolutionibus", desc: "Copernic démontre l'héliocentrisme en plaçant le Soleil au centre du système, renversant le géocentrisme antique millénaire." },
+  { year: 1545, category: "gold", icon: "⛪", type: "Contre-Réforme", title: "Ouverture du Concile de Trente", desc: "L'Église catholique réaffirme ses dogmes face à la Réforme et encourage un art religieux théâtral, expressif et pathétique, matrice du Baroque." },
+  { year: 1572, category: "war", icon: "⚔️", type: "Guerres de Religion", title: "Massacre de la Saint-Barthélemy", desc: "Massacre des huguenots à Paris et en province, marquant le paroxysme sanglant des guerres civiles en France." },
+  { year: 1598, category: "gold", icon: "📜", type: "Pacification politique", title: "Promulgation de l'Édit de Nantes", desc: "Henri IV instaure la tolérance religieuse en accordant aux protestants la liberté de conscience et de culte, restaurant la paix civile en France." },
+
+  // --- XVIIe SIÈCLE (ÂGE BAROQUE, CARAVAGE & GRAND SIÈCLE) ---
+  { year: 1609, category: "tech", icon: "🔭", type: "Révolution scientifique", title: "Lunette de Galilée & Lois de Kepler", desc: "Galilée observe les cratères de la Lune et les satellites de Jupiter, tandis que Kepler publie Astronomia Nova formulant les lois des orbites elliptiques." },
+  { year: 1610, category: "war", icon: "👑", type: "Régence de Médicis", title: "Assassinat d'Henri IV par Ravaillac", desc: "Disparition du roi et régence de Marie de Médicis, qui commande à Rubens son monumental cycle de toiles pour le Palais du Luxembourg à Paris." },
+  { year: 1618, category: "war", icon: "⚔️", type: "Guerre européenne", title: "Déclenchement de la Guerre de Trente Ans", desc: "La Défenestration de Prague embrase l'Europe centrale dans un conflit dévastateur entre puissances catholiques impériales et protestantes." },
+  { year: 1637, category: "tech", icon: "💡", type: "Révolution philosophique", title: "Descartes : Le Discours de la méthode", desc: "René Descartes pose les fondements du rationalisme moderne avec son célèbre « Cogito, ergo sum » (« Je pense, donc je suis »)." },
+  { year: 1648, category: "gold", icon: "🕊️", type: "Paix européenne", title: "Traités de Westphalie & Âge d'Or hollandais", desc: "Fin de la Guerre de Trente Ans, reconnaissance de l'indépendance des Provinces-Unies et fondation de l'équilibre diplomatique européen moderne." },
+  { year: 1661, category: "gold", icon: "👑", type: "Monarchie absolue", title: "Règne personnel de Louis XIV & Chantier de Versailles", desc: "Louis XIV prend seul le pouvoir à la mort de Mazarin et transforme Versailles avec Le Vau, Le Nôtre et Le Brun en vitrine éblouissante du Classicisme français." },
+  { year: 1687, category: "tech", icon: "🍎", type: "Gravitation universelle", title: "Isaac Newton : Principia Mathematica", desc: "Newton formule la loi de la gravitation universelle et les principes de la mécanique classique, parachevant la révolution scientifique du XVIIe siècle." },
+
+  // --- XVIIIe SIÈCLE (ROCOCO, LUMIÈRES & RÉVOLUTION) ---
+  { year: 1715, category: "gold", icon: "👑", type: "Transition politique", title: "Mort de Louis XIV & Régence", desc: "La cour quitte Versailles pour les salons parisiens, favorisant l'intimité, la grâce frivole des fêtes galantes de Watteau et l'éclosion du style Rococo." },
+  { year: 1748, category: "tech", icon: "🏺", type: "Archéologie fondatrice", title: "Redécouverte de Pompéi et Herculanum", desc: "L'excavation des fresques et villas antiques enfouies sous le Vésuve déclenche une fascination européenne pour l'Antiquité et fonde le Néoclassicisme." },
+  { year: 1751, category: "gold", icon: "📚", type: "Siècle des Lumières", title: "Parution de l'Encyclopédie de Diderot et d'Alembert", desc: "Lancement du Dictionnaire raisonné des sciences, des arts et des métiers, symbole du triomphe de la raison, du progrès et de l'esprit critique." },
+  { year: 1769, category: "tech", icon: "⚙️", type: "Révolution industrielle", title: "Machine à vapeur de James Watt", desc: "Dépôt du brevet de la machine à vapeur à condensation séparée, ouvrant l'ère de l'industrialisation, du charbon et de la mécanisation." },
+  { year: 1776, category: "war", icon: "📜", type: "Fondation républicaine", title: "Déclaration d'indépendance des États-Unis", desc: "Les treize colonies américaines proclament leur indépendance vis-à-vis de la couronne britannique, inspirées par les idéaux des philosophes des Lumières." },
+  { year: 1789, category: "war", icon: "⚔️", type: "Révolution politique", title: "Révolution Française & Prise de la Bastille", desc: "Bouleversement majeur de l'ordre politique européen, naissance de la souveraineté nationale et création du Musée du Louvre." },
+  { year: 1799, category: "gold", icon: "👑", type: "Consulat & Empire", title: "Coup d'État du 18 Brumaire par Bonaparte", desc: "Napoléon Bonaparte prend le pouvoir, ouvrant une épopée militaire et artistique dominée par la propagande néoclassique de Jacques-Louis David." },
+
+  // --- XIXe SIÈCLE (ROMANTISME, RÉALISME, IMPRESSIONNISME) ---
+  { year: 1804, category: "gold", icon: "👑", type: "Sacre impérial", title: "Sacre de Napoléon Ier & Code Civil", desc: "Napoléon est couronné empereur à Notre-Dame de Paris et promulgue le Code Civil, refondant le système juridique et administratif contemporain." },
+  { year: 1815, category: "war", icon: "⚔️", type: "Chute de l'Empire", title: "Bataille de Waterloo & Congrès de Vienne", desc: "Défaite finale de Napoléon et restauration conservatrice des monarchies européennes, sur fond d'éveil des nationalismes et du Romantisme." },
+  { year: 1839, category: "tech", icon: "📷", type: "Invention de l'image", title: "Présentation officielle du Daguerréotype", desc: "François Arago présente l'invention de Louis Daguerre à l'Académie des Sciences à Paris, marquant la naissance officielle de la Photographie." },
+  { year: 1848, category: "war", icon: "🚩", type: "Révolution populaire", title: "Le « Printemps des Peuples » en Europe", desc: "Vague insurrectionnelle balayant Paris, Vienne, Berlin et Rome, proclamant la IIe République en France et l'émancipation des peuples." },
+  { year: 1859, category: "tech", icon: "🧬", type: "Révolution biologique", title: "Charles Darwin : L'Origine des espèces", desc: "Darwin publie sa théorie de l'évolution par sélection naturelle, bouleversant à jamais la conception des origines du vivant et la place de l'homme." },
+  { year: 1871, category: "war", icon: "🔥", type: "Guerre & Insurrection", title: "Guerre Franco-Prussienne & Commune de Paris", desc: "Chute du Second Empire, incendie des Tuileries lors de la Commune et proclamation de l'Empire allemand dans la galerie des Glaces à Versailles." },
+  { year: 1874, category: "gold", icon: "🎨", type: "Révolution picturale", title: "Première exposition impressionniste chez Nadar", desc: "Monet, Renoir, Degas, Pissarro et Cézanne créent le scandale avec Impression, soleil levant, rompant avec le Salon officiel académique." },
+  { year: 1889, category: "tech", icon: "🗼", type: "Exposition universelle", title: "Inauguration de la Tour Eiffel à Paris", desc: "Chef-d'œuvre de fer de 300 mètres de haut érigé par Gustave Eiffel pour le centenaire de la Révolution, célébrant le triomphe industriel français." },
   { year: 1895, category: "tech", icon: "🎬", type: "Invention des Frères Lumière", title: "Naissance du Cinématographe", desc: "Première projection publique payante à Paris au Grand Café, inaugurant l'ère de l'image en mouvement." },
   { year: 1905, category: "tech", icon: "🦁", type: "Salon d'Automne", title: "Scandale du Fauvisme", desc: "Matisse, Derain et Vlaminck exposent leurs toiles aux couleurs pures (« la cage aux fauves » de Louis Vauxcelles)." },
   { year: 1907, category: "tech", icon: "🎨", type: "Révolution esthétique", title: "Les Demoiselles d'Avignon & Naissance du Cubisme", desc: "Picasso brise la perspective linéaire classique sous l'influence des arts ibériques et africains, ouvrant la voie aux avant-gardes modernes." },
@@ -4759,9 +4807,16 @@ function openCivilisationPavilion(civ, initialTab = 'panoramic') {
     concurrentMilestonesCol.innerHTML = '';
 
     // A. Événements historiques majeurs contemporains
-    const contemporanMilestones = Array.isArray(HISTORICAL_MILESTONES)
+    let contemporanMilestones = Array.isArray(HISTORICAL_MILESTONES)
       ? HISTORICAL_MILESTONES.filter(m => m.year >= (yStart - 15) && m.year <= (yEnd + 15))
       : [];
+
+    // Si la fourchette étroite ne donne rien, élargir au siècle tout entier
+    if (contemporanMilestones.length === 0 && Array.isArray(HISTORICAL_MILESTONES)) {
+      const centStart = Math.floor(yStart / 100) * 100;
+      const centEnd = centStart + 100;
+      contemporanMilestones = HISTORICAL_MILESTONES.filter(m => m.year >= (centStart - 5) && m.year <= centEnd);
+    }
 
     if (contemporanMilestones.length > 0) {
       const section1 = document.createElement('div');
