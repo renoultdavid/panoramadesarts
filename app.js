@@ -831,6 +831,7 @@ const ART_MOVEMENTS = [
     parentCivId: "occ_gothique",
     lane: "mod_peinture",
     name: "Trecento & Révolution de Giotto",
+    bannerImg: "https://lh3.googleusercontent.com/d/1CjdZ5Y1rcBTZx1BuMh9QLzfwJogArmIE",
     yearStart: 1290,
     yearEnd: 1400,
     tier: 0,
@@ -954,7 +955,7 @@ const ART_MOVEMENTS = [
     yearEnd: 1850,
     tier: 1,
     color: "#e11d48",
-    keyArtists: "Eugène Delacroix, Théodore Géricault, Caspar David Friedrich, William Turner, Francisco de Goya",
+    keyArtists: "Eugène Delacroix, Théodore Géricault, Caspar David Friedrich, William Turner, Francisco de Goya, Théodore Chassériau",
     definition: "Primat absolu de la passion, du tumulte des sentiments, du sublime de la nature et de la quête de liberté face à l'ordre néoclassique.",
     filterKeyword: "romantisme"
   },
@@ -1047,7 +1048,7 @@ const ART_MOVEMENTS = [
     yearEnd: 1969,
     tier: 0,
     color: "#a855f7",
-    keyArtists: "Salvador Dalí, René Magritte, Max Ernst, Joan Miró, Victor Brauner",
+    keyArtists: "Salvador Dalí, René Magritte, Max Ernst, Joan Miró, Victor Brauner, Marc Chagall",
     definition: "Fondé par le Manifeste d'André Breton, le surréalisme explore la toute-puissance du rêve, l'automatisme psychique pur et les mystères de l'inconscient en libérant la création des entraves de la logique rationnelle.",
     filterKeyword: "surréalisme"
   },

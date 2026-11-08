@@ -3979,6 +3979,468 @@ window.ARTISTS_REGISTRY = {
         }
       ]
     }
+  },
+  "chagall": {
+    id: "chagall",
+    name: "Marc Chagall",
+    sortName: "Chagall Marc",
+    sortLetter: "C",
+    dates: "1887 – 1985",
+    movement: "Avant-gardes du XXe siècle, Surréalisme onirique & Écoles de Paris",
+    nationality: "Franco-Russe / Biélorusse",
+    techniques: "Huile sur toile, gouache, vitrail monumental, céramique, mosaïque & décor d'opéra",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczN04COTuUr0zfAndTcwk0YlBarEwhQGqGcKZnshEFkH_gTfSbXkdIuOWVlkTeRLlDCkc-U-9OfPA2N36FSnAj4WAJkQHHkkNcHhP3kRFrJhL7u1liL78G_eeRPomIE5o1ep1209i4_tDPInEF-IkZ3ecA=w1795-h761-s-no-gm?authuser=0",
+    portraitImg: "",
+    bio: `
+      <p><strong>Le pont poétique entre le folklore juif et les avant-gardes parisiennes</strong><br>
+      Marc Chagall, né en 1887 en Biélorussie et mort en 1985 en France, est l'un des artistes les plus inclassables du XXe siècle, dont l'œuvre forme un pont poétique entre les traditions populaires juives d'Europe de l'Est et les avant-gardes parisiennes. Après une formation à Saint-Pétersbourg, il rejoint Paris en 1910 où il découvre le fauvisme et le cubisme. Témoin des bouleversements de son siècle, marqué par l'exil et la guerre, il a su créer un langage visuel universel où le rêve, la Bible et le folklore se mêlent dans une célébration constante de l'amour et de la liberté.</p>
+      <p><strong>Le surréalisme spirituel et la gravitation des songes</strong><br>
+      Son genre pictural se caractérise par un surréalisme spirituel et onirique, bien qu'il ait toujours refusé d'être officiellement rattaché à ce mouvement. Son style repose sur un répertoire iconographique récurrent : violonistes sur les toits, chèvres volantes, bouquets de fleurs géants et amants flottant dans le ciel. La couleur, chez Chagall, n'est pas descriptive mais émotionnelle : elle est une force vive qui structure l'espace et exprime la joie ou la mélancolie. Par sa capacité à défier les lois de la gravité et de la logique, il a transformé ses souvenirs d'enfance à Vitebsk en une mythologie personnelle d'une immense puissance évocatrice.</p>
+      <p><strong>De l'espace cubiste au vitrail et aux plafonds monumentaux</strong><br>
+      L'évolution de son travail témoigne d'une quête incessante de nouveaux supports pour exprimer sa vision. Après une période marquée par des compositions géométrisées influencées par le cubisme, son style s'est adouci pour devenir plus fluide et vaporeux. Dans la seconde moitié de sa vie, il a diversifié sa création de manière spectaculaire, se tournant vers la céramique, la tapisserie, les décors de théâtre (comme le plafond de l'Opéra Garnier) et surtout le vitrail. Ses réalisations monumentales à travers le monde montrent comment il a su porter son sens de la couleur vers la transparence, faisant de la lumière elle-même le matériau final de son œuvre.</p>
+    `,
+    corpus: {
+      total: 1100,
+      seen: 2,
+      paintingsCount: 1100,
+      details: [
+        { label: "Huiles sur toile & grands formats peints", count: 750, icon: "🎨", color: "#d4af37", seen: 1, note: "Dont Le Cheval rouge, Moi et le Village, La Promenade" },
+        { label: "Grandes gouaches, temperas & œuvres sur papier", count: 325, icon: "🖌️", color: "#00b4d8", seen: 0, note: "Compositions bibliques et projets de décors" },
+        { label: "Décors monumentaux, plafonds & scènes théâtrales", count: 15, icon: "🏛️", color: "#b5179e", seen: 1, note: "Plafond de l'Opéra Garnier (Paris), Metropolitan Opera (New York)" },
+        { label: "Vitraux d'églises & de cathédrales", count: 25, icon: "✨", color: "#2ecc71", seen: 0, note: "Cathédrales de Metz et Reims, Mayence, Jérusalem" }
+      ],
+      sourceTitle: "Comité Marc Chagall & Recensement Franz Meyer",
+      sourceNotes: "Le catalogue raisonné de référence de son œuvre peint (huiles et gouaches majeures) est aujourd'hui géré par le Comité Marc Chagall (qui s'appuie historiquement sur les travaux de Franz Meyer, le gendre de l'artiste). L'inventaire définitif et exhaustif des peintures est toujours en préparation, car le Comité déploie actuellement son catalogue en ligne par étapes (ils viennent tout juste d'achever le recensement de ses 97 sculptures, 350 céramiques et 28 mosaïques, et travaillent sur ses vitraux pour 2027). À l'échelle de ses 75 ans de carrière, Chagall a produit un nombre vertigineux d'environ 10 000 œuvres tous supports confondus (en comptant son immense production de lithographies, de dessins et de vitraux). Néanmoins, si l'on restreint le comptage strictement à ses peintures (ses huiles sur toile ou panneau, et ses très grandes gouaches abouties), les historiens de l'art et les grandes bases de données muséales estiment son corpus autour de 1 000 à 1 200 peintures."
+    },
+    biographyTimeline: {
+      birth: {
+        year: 1887,
+        place: "Peskovatiki / Vitebsk (Empire russe / Biélorussie)",
+        title: "Naissance de Moïche Zakharovitch Chagalov (Marc Chagall)",
+        desc: "Aîné d'une famille ouvrière juive hassidique de neuf enfants. L'atmosphère fervente et populaire du shtetl de Vitebsk deviendra la matrice poétique de toute sa vie."
+      },
+      death: {
+        year: 1985,
+        place: "Saint-Paul-de-Vence (Alpes-Maritimes)",
+        title: "Mort du patriarche des couleurs et des rêves",
+        desc: "Disparaît à l'âge de 97 ans après avoir illuminé le siècle de ses visions bibliques, de ses amants en lévitation et de ses vitraux de cathédrales à travers le monde."
+      },
+      periods: [
+        {
+          title: "Vitebsk, Saint-Pétersbourg & la Ruche parisienne",
+          years: "1887 – 1914",
+          color: "#d97706",
+          summary: "Des rives de la Daugava aux ateliers montparnos de La Ruche, Chagall assimile le fauvisme et le cubisme sans renier sa mémoire yiddish.",
+          events: [
+            {
+              year: 1910,
+              title: "Arrivée à Paris & installation à La Ruche",
+              desc: "S'installe au célèbre phalanstère d'artistes de La Ruche à Montparnasse ; il s'y lie d'amitié avec Apollinaire, Cendrars, Soutine, Modigliani et Fernand Léger.",
+              type: "life",
+              icon: "🐝"
+            },
+            {
+              year: 1911,
+              title: "Moi et le Village (MoMA, New York)",
+              desc: "Chef-d'œuvre fondateur : géométrisation cubiste translucide où la mémoire du village natal et le regard de la chèvre s'entrecroisent dans un conte féerique.",
+              type: "masterpiece",
+              icon: "🎨"
+            },
+            {
+              year: 1914,
+              title: "Première exposition personnelle à Berlin (Galerie Der Sturm)",
+              desc: "Herwarth Walden lui consacre sa première exposition personnelle majeure à Berlin, triomphe critique auprès de l'avant-garde expressionniste allemande.",
+              type: "life",
+              icon: "🌟"
+            }
+          ]
+        },
+        {
+          title: "Révolution russe, théâtre juif & retour à Paris",
+          years: "1914 – 1939",
+          color: "#2563eb",
+          summary: "Bloqué par la guerre en Russie, il célèbre son amour pour Bella, participe aux espoirs révolutionnaires avant de regagner définitivement la France.",
+          events: [
+            {
+              year: 1915,
+              title: "Mariage avec Bella Rosenfeld & La Promenade",
+              desc: "Épouse sa muse et grand amour Bella. Il peint les célèbres toiles des amoureux s'envolant au-dessus des toits de la ville, abolis de toute pesanteur terrestre.",
+              type: "life",
+              icon: "💍"
+            },
+            {
+              year: 1918,
+              title: "Commissaire aux Beaux-Arts & École d'art de Vitebsk",
+              desc: "Nommé commissaire des arts pour Vitebsk, il fonde l'école populaire où il invite Malevitch et El Lissitzky, puis réalise les décors du Théâtre d'art juif de Moscou.",
+              type: "history",
+              icon: "🎭"
+            },
+            {
+              year: 1923,
+              title: "Retour en France & les commandes d'Ambroise Vollard",
+              desc: "S'installe définitivement en France. Le grand marchand Ambroise Vollard lui commande les illustrations des Âmes mortes de Gogol, des Fables de La Fontaine et de la Bible.",
+              type: "life",
+              icon: "📖"
+            },
+            {
+              year: 1937,
+              title: "Naturalisation française & autodafés nazis",
+              desc: "Obtient la nationalité française. Au même moment, le régime nazi décroche ses œuvres des musées allemands pour les flétrir dans l'exposition de l'Art dégénéré.",
+              type: "history",
+              icon: "⚡"
+            },
+            {
+              year: 1938,
+              title: "Le Cheval rouge (Musée d'Arts de Nantes)",
+              desc: "Toile magistrale commencée en 1938 et achevée en 1944 : un cheval flamboyant porte un acrobate dans la nuit tandis que les mariés et le village s'abritent du chaos du monde.",
+              type: "masterpiece",
+              icon: "🐎",
+              artworkId: "chagall_cheval_rouge_nantes_1938"
+            }
+          ]
+        },
+        {
+          title: "L'Exil américain & la tragédie de Bella",
+          years: "1940 – 1948",
+          color: "#dc2626",
+          summary: "Réfugié aux États-Unis face à la Shoah, il traverse l'épreuve déchirante de la mort de son épouse avant de retrouver la ferveur créatrice.",
+          events: [
+            {
+              year: 1941,
+              title: "Sauvetage par Varian Fry & exil à New York",
+              desc: "Arrêté à Marseille sous Vichy, il est sauvé par le journaliste américain Varian Fry et le réseau de l'Emergency Rescue Committee pour rejoindre New York.",
+              type: "life",
+              icon: "🗽"
+            },
+            {
+              year: 1944,
+              title: "Mort brutale de Bella & silence pictural",
+              desc: "Bella succombe à une infection virale foudroyante. Dévasté par le chagrin, Chagall cesse de peindre pendant de longs mois et retourne ses toiles contre les murs.",
+              type: "life",
+              icon: "🖤"
+            },
+            {
+              year: 1945,
+              title: "Décors de L'Oiseau de feu d'Igor Stravinsky",
+              desc: "Conçoit les costumes et décors flamboyants du ballet de Stravinsky pour le Ballet Theatre de New York, renouant avec l'éclat pur de la couleur scénique.",
+              type: "peer",
+              icon: "🎵"
+            }
+          ]
+        },
+        {
+          title: "L'Éden méditerranéen & l'apothéose monumentale",
+          years: "1949 – 1985",
+          color: "#7c3aed",
+          summary: "Installé sur la Côte d'Azur, Chagall s'ouvre au vitrail, à la céramique et aux grandes commandes publiques d'État à l'échelle planétaire.",
+          events: [
+            {
+              year: 1950,
+              title: "Installation à Vence & essor du vitrail",
+              desc: "Découvre la lumière du Midi. Il se passionne pour la céramique et révolutionne l'art du vitrail avec les maîtres verriers Jacques et Brigitte Simon de Reims.",
+              type: "life",
+              icon: "☀️"
+            },
+            {
+              year: 1964,
+              title: "Plafond monumental de l'Opéra Garnier (Paris)",
+              desc: "Inauguration de la coupole de 220 m² commandée par André Malraux : une fleur monumentale célébrant quatorze maîtres de la musique et de la danse.",
+              type: "masterpiece",
+              icon: "🏛️",
+              artworkId: "chagall_plafond_opera_garnier_paris_1964"
+            },
+            {
+              year: 1973,
+              title: "Inauguration du Musée national Message Biblique à Nice",
+              desc: "Inauguration du premier musée national français consacré à un artiste de son vivant, abritant le cycle monumental des dix-sept toiles du Message biblique.",
+              type: "history",
+              icon: "🕊️"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "chardin": {
+    id: "chardin",
+    name: "Jean Siméon Chardin",
+    sortName: "Chardin Jean Siméon",
+    sortLetter: "C",
+    dates: "1699 – 1779",
+    movement: "Siècle des Lumières, Réalisme intimiste & Nature morte française",
+    nationality: "Français (Paris)",
+    techniques: "Huile sur toile, couches épaisses maçonnées, glacis superposés & pastels",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczOGlAXpIOc-61nbJoNXejTWctVbSt-uwddXumqUkukZVHsjStuJabMlJDwRsvEIwUIZWFSdxV_Zq6nI3P4X5yztgIuMZp2ibPlhwjksjeWZf91qywjP4OiKVAlDOX3F_8_0-UfAc6MBT5j_IHYaIWKfBA=w1795-h761-s-no-gm?authuser=0",
+    portraitImg: "",
+    bio: `
+      <p><strong>Le maître du silence et de la poésie du quotidien</strong><br>
+      Jean Siméon Chardin (1699 – 1779) est le maître du silence et de l'objet quotidien. À une époque dominée par l'exubérance du Rococo et les scènes galantes de Watteau ou Boucher, Chardin a pris le contre-pied total en se consacrant à la nature morte et aux scènes de genre de la vie domestique bourgeoise. Diderot, son plus grand admirateur, disait de lui : « C'est celui-là qui entend l'harmonie des couleurs et des reflets. »</p>
+      <p><strong>Le génie tactile du « maçonnisme » et la vérité des textures</strong><br>
+      Son genre pictural se définit par la poésie de l'objet et la peinture de mœurs. Son style se caractérise par une matière picturale épaisse, travaillée par couches successives (le « maçonnisme »), qui donne aux objets une densité et une présence tactile incroyables. Chardin ne cherche pas le brillant ou le précieux ; il peint la croûte d'un pain, le velouté d'une pêche ou le reflet mat d'un chaudron de cuivre avec une dignité presque religieuse.</p>
+      <p><strong>De la conquête des natures mortes au pastel moderne</strong><br>
+      L'évolution de son style montre une quête constante de simplicité et de vérité : la conquête de la nature morte dans les années 1720, où des œuvres comme <em>La Raie</em> frappent par leur réalisme cru ; l'intimité domestique des années 1730-1740, capturant la grâce d'un enfant aux bulles de savon ou d'un château de cartes ; et enfin le retour à l'objet et les pastels de vieillesse, atteignant une économie de moyens et une vibration de touche qui annoncent directement la modernité de Cézanne et Manet.</p>
+    `,
+    corpus: {
+      total: 400,
+      seen: 4,
+      paintingsCount: 400,
+      details: [
+        { label: "Natures mortes (ustensiles, fruits, gibier, trophées)", count: 240, icon: "🍑", color: "#d4af37", seen: 3, note: "La Raie, Le Buffet, Lièvre mort, Panier de fraises" },
+        { label: "Scènes de genre domestiques & scènes d'enfants", count: 120, icon: "🕯️", color: "#00b4d8", seen: 1, note: "Le Singe peintre, Le Bénédicité, La Pourvoyeuse, Bulles de savon" },
+        { label: "Portraits intimistes & chefs-d'œuvre au pastel", count: 40, icon: "🎨", color: "#2ecc71", seen: 0, note: "Autoportraits aux bésicles et portraits de vieillesse" }
+      ],
+      sourceTitle: "Catalogue raisonné Pierre Rosenberg (1983 / 1999)",
+      sourceNotes: "Pour Jean Siméon Chardin (1699–1779), le génie français de la nature morte et des scènes de genre intimistes, le décompte officiel de ses toiles est aujourd'hui parfaitement circonscrit grâce au travail de toute une vie d'un seul homme : l'historien de l'art Pierre Rosenberg, de l'Académie française, ancien président-directeur du musée du Louvre et spécialiste mondial incontesté de l'artiste. Dans son catalogue raisonné d'autorité mondiale publié initialement en 1983 (Tout l'œuvre peint de Chardin) puis actualisé lors de la grande rétrospective du tricentenaire en 1999, le nombre d'œuvres strictement autographes est remarquablement resserré : le consensus scientifique actuel fixe son corpus à environ 400 peintures (bien qu'il y ait eu depuis quelques très rares réapparitions ou redécouvertes sur le marché, comme le fameux Panier de fraises des bois récemment classé trésor national, la barre des 400 toiles demeure l'étalon scientifique absolu)."
+    },
+    biographyTimeline: {
+      birth: {
+        year: 1699,
+        place: "Paris (Rue de Seine)",
+        title: "Naissance de Jean Siméon Chardin",
+        desc: "Fils de Jean Chardin, maître menuisier du Roi et fabricant de billards. Élevé au cœur de l'artisanat parisien, il y forge son amour respectueux des matières nobles et de l'outil bien façonné."
+      },
+      death: {
+        year: 1779,
+        place: "Paris (Logements du Roi au Louvre)",
+        title: "Mort du maître du silence et de l'intimité",
+        desc: "S'éteint dans son appartement du Louvre à l'âge de 80 ans. Salué par Diderot comme le plus grand coloriste de France, son art humble et dense inspire toute la peinture moderne."
+      },
+      periods: [
+        {
+          title: "La Conquête de la nature morte & l'Académie royale",
+          years: "1699 – 1732",
+          color: "#d97706",
+          summary: "Formé auprès de Pierre-Jacques Cazes et Noël-Nicolas Coypel, Chardin s'impose d'un coup de maître à l'Académie avec La Raie et Le Buffet.",
+          events: [
+            {
+              year: 1728,
+              title: "La Raie (Musée du Louvre)",
+              desc: "Morceau de réception présenté à l'Académie royale : Chardin est agréé puis reçu le jour même pour ce chef-d'œuvre saisissant de réalisme cru et de génie tactile.",
+              type: "masterpiece",
+              icon: "🐟",
+              artworkId: "chardin_la_raie_louvre_1728"
+            },
+            {
+              year: 1728,
+              title: "Le Buffet (Musée du Louvre)",
+              desc: "Pendant d'apparat de La Raie : somptueuse pyramide de fruits, vaisselle d'argent et chien aux aguets, équilibrant la leçon flamande et la rigueur française.",
+              type: "masterpiece",
+              icon: "🍇",
+              artworkId: "chardin_le_buffet_louvre_1728"
+            },
+            {
+              year: 1730,
+              title: "Lièvre mort avec poire à poudre et gibecière (Louvre)",
+              desc: "Rupture avec les trophées aristocratiques de Desportes : une méditation silencieuse et dépouillée sur la mort animale et la matité de la pierre.",
+              type: "masterpiece",
+              icon: "🐇",
+              artworkId: "chardin_lievre_mort_poire_poudre_louvre_1730"
+            }
+          ]
+        },
+        {
+          title: "L'Intimité domestique, les enfants & les singeries",
+          years: "1733 – 1751",
+          color: "#059669",
+          summary: "Chardin délaisse un temps les bêtes mortes pour peindre les gestes simples de la maisonnée et les jeux méditatifs de l'enfance.",
+          events: [
+            {
+              year: 1734,
+              title: "Bulles de savon & Le Château de cartes",
+              desc: "Début de la célèbre série de scènes intimistes d'enfants absorbés par leurs jeux, symboles poétiques de la fragilité de l'existence.",
+              type: "masterpiece",
+              icon: "🫧"
+            },
+            {
+              year: 1739,
+              title: "Le Singe peintre (Musée du Louvre)",
+              desc: "Singerie philosophique satirique : un singe en habit de cour parodie le peintre d'histoire, méditation piquante sur les limites de l'imitation mécanique du réel.",
+              type: "masterpiece",
+              icon: "🐒",
+              artworkId: "chardin_le_singe_peintre_louvre_1739"
+            },
+            {
+              year: 1740,
+              title: "Présentation de La Pourvoyeuse et du Bénédicité au roi Louis XV",
+              desc: "Présenté à Versailles, le roi achète ses deux scènes de genre domestiques, consacrant son statut de peintre de premier rang auprès de la cour.",
+              type: "life",
+              icon: "👑"
+            }
+          ]
+        },
+        {
+          title: "L'Apothéose des Salons, Diderot & la révolution du pastel",
+          years: "1752 – 1779",
+          color: "#7c3aed",
+          summary: "Ordonnateur respecté du Salon du Louvre, chanté par Diderot, il réinvente le pastel dans ses dernières années face aux troubles de la vue.",
+          events: [
+            {
+              year: 1755,
+              title: "Trésorier de l'Académie & tapissier du Salon",
+              desc: "Chargé de la lourde tâche d'organiser l'accrochage des toiles au Salon carré du Louvre, fonction prestigieuse qu'il exercera près de vingt ans.",
+              type: "life",
+              icon: "🏛️"
+            },
+            {
+              year: 1759,
+              title: "Denis Diderot célèbre le « grand magicien »",
+              desc: "Dans ses Salons littéraires, Diderot s'extasie : « C'est celui-là qui entend l'harmonie des couleurs et des reflets. Ô Chardin ! ce n'est pas du blanc, du rouge, du noir que tu broies sur ta palette : c'est la substance même des objets. »",
+              type: "peer",
+              icon: "🖋️"
+            },
+            {
+              year: 1771,
+              title: "Passage au pastel & les Autoportraits aux bésicles",
+              desc: "Ses yeux fatigués supportant mal les émanations d'huile et de térébenthine, il adopte le pastel et peint d'admirables autoportraits sans concession.",
+              type: "masterpiece",
+              icon: "👓"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "chasseriau": {
+    id: "chasseriau",
+    name: "Théodore Chassériau",
+    sortName: "Chassériau Théodore",
+    sortLetter: "C",
+    dates: "1819 – 1856",
+    movement: "Romantisme, Classicisme ingresque & Orientalisme poétique",
+    nationality: "Français (né à Sainte-Barbe de Samaná, République dominicaine)",
+    techniques: "Peinture à l'huile sur toile, grand décor mural à fresque, dessin à la mine de plomb & lavis",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczNeT3-MAOhgk2l1QeOKhV80mtRV2f4wRq-rPg4mkcE7s5rn0-yKfr3CSL1xiaTAY2oP3vBUPrMFQ2NKzOtxLzuiqUdMToSgli9S2jtr7rnRk5E-eh8B6mzIoo0v1jni2EItj5tp8fu52KyH68XBtmN-tw=w1795-h761-s-no-gm?authuser=0",
+    portraitImg: "",
+    bio: `
+      <p><strong>L'impossible synthèse entre la ligne d'Ingres et la couleur de Delacroix</strong><br>
+      Théodore Chassériau (1819 – 1856) est la figure tragique et brillante qui a tenté l'impossible synthèse entre les deux géants rivaux de son temps : la pureté de la ligne d'Ingres, dont il fut le plus précoce et doué disciple, et la fougue colorée d'Eugène Delacroix. Mort prématurément à seulement 37 ans, il incarne une passerelle unique entre le néoclassicisme et le romantisme, ouvrant directement la voie au symbolisme de Gustave Moreau et de Puvis de Chavannes.</p>
+      <p><strong>L'élégance serpentine, le mystère mélancolique et les chairs nacrées</strong><br>
+      Son genre pictural se définit par le portrait intimiste, le grand décor mural allégorique, l'orientalisme poétique et le nu mythologique. Son style se caractérise par un dessin d'une grâce serpentine, une mélancolie contemplative dans les regards, des chairs nacrées et des accords chromatiques subtils (ocres chauds, roses passés, turquoises profonds) qui mêlent rigueur architecturale et sensualité vibrante.</p>
+      <p><strong>De l'élève prodige à l'Orient flamboyant et aux grands décors mystiques</strong><br>
+      L'évolution de son style marque un affranchissement progressif du dogme ingresque vers l'embrasement romantique et oriental : l'élève prodige des années 1830 exposant au Salon dès seize ans (<em>Suzanne au bain</em>, <em>Vénus Anadyomène</em>) ; le choc de l'Orient en 1846 après son voyage en Algérie, qui embrase sa palette de cavaliers arabes et de scènes de harem ; et enfin la maturité fiévreuse des grands décors d'églises parisiennes (Saint-Roch, Saint-Philippe-du-Roule), où son génie épuisé atteint une gravité poétique et funèbre préfigurant le symbolisme.</p>
+    `,
+    corpus: {
+      total: 400,
+      seen: 0,
+      paintingsCount: 400,
+      details: [
+        { label: "Tableaux d'histoire, sujets mythologiques & religieux", count: 180, icon: "🏛️", color: "#d4af37", seen: 0, note: "Suzanne au bain, Vénus marine, décors d'églises" },
+        { label: "Portraits intimistes & effigies de salon", count: 120, icon: "👑", color: "#00b4d8", seen: 0, note: "Les Deux Sœurs (Louvre), Mlle Cabarrus" },
+        { label: "Scènes orientales, cavaliers arabes & harems", count: 100, icon: "🐎", color: "#e63946", seen: 0, note: "Marchand arabe présentant une jument (cat. 358), Femmes d'Alger" }
+      ],
+      sourceTitle: "Catalogue raisonné Marc Sandoz (1974)",
+      sourceNotes: "Pour Théodore Chassériau (1819–1856), figure météore du XIXe siècle et génie inclassable qui a réussi la fusion parfaite entre le classicisme de son maître Ingres et le romantisme fougueux de Delacroix, l'inventaire de son œuvre peint a été remarquablement documenté. Le catalogue raisonné de référence mondiale a été établi par l'historien de l'art Marc Sandoz et publié en 1974 sous le titre Théodore Chassériau 1819-1856 : catalogue raisonné des peintures et estampes. Bien que foudroyé par la maladie à seulement 37 ans, Chassériau a laissé une production picturale foisonnante. Le catalogue scientifique de Sandoz recense près de 400 peintures (à titre indicatif, sa célèbre toile Marchand arabe présentant une jument, achevée en 1853 trois ans avant sa mort, y porte le numéro d'inventaire 358)."
+    },
+    biographyTimeline: {
+      birth: {
+        year: 1819,
+        place: "Sainte-Barbe de Samaná (Saint-Domingue / République dominicaine)",
+        title: "Naissance de Théodore Chassériau",
+        desc: "Fils de Benoît Chassériau, diplomate et aventurier français, et d'une mère créole de Saint-Domingue. La famille regagne Paris en 1822."
+      },
+      death: {
+        year: 1856,
+        place: "Paris (Rue de Fleurus)",
+        title: "Mort prématurée du jeune météore romantique",
+        desc: "Terrassé par l'épuisement et la maladie à seulement 37 ans. Théophile Gautier et Charles Baudelaire pleurent la perte de l'un des esprits les plus poétiques du siècle."
+      },
+      periods: [
+        {
+          title: "L'Élève prodige d'Ingres & le triomphe précoce",
+          years: "1819 – 1843",
+          color: "#d97706",
+          summary: "Entré à 11 ans chez Ingres qui voit en lui le nouveau génie de la peinture, il triomphe au Salon dès l'adolescence avec une sensualité troublante.",
+          events: [
+            {
+              year: 1830,
+              title: "Entrée dans l'atelier de Jean-Auguste-Dominique Ingres",
+              desc: "Admis à 11 ans, il fascine son maître qui s'écrie à ses élèves : « Venez voir, messieurs, venez voir : cet enfant sera le génie de la peinture ! »",
+              type: "peer",
+              icon: "🎨"
+            },
+            {
+              year: 1839,
+              title: "Suzanne au bain & Vénus Anadyomène",
+              desc: "Exposées au Salon alors qu'il n'a que vingt ans : la perfection linéaire ingresque se teinte d'un érotisme mélancolique et d'une grâce serpentine inédits.",
+              type: "masterpiece",
+              icon: "✨"
+            },
+            {
+              year: 1840,
+              title: "Séjour en Italie & début d'émancipation",
+              desc: "Retrouve Ingres à la Villa Médicis à Rome. Des désaccords esthétiques apparaissent : Chassériau aspire au lyrisme dramatique et à la vibration de la couleur.",
+              type: "life",
+              icon: "🏛️"
+            },
+            {
+              year: 1843,
+              title: "Les Deux Sœurs (Musée du Louvre)",
+              desc: "Sommet de son art du portrait : Adèle et Aline Chassériau vêtues de châles écarlates identiques, regard énigmatique et rigueur architecturale d'une saisissante modernité.",
+              type: "masterpiece",
+              icon: "👗"
+            }
+          ]
+        },
+        {
+          title: "Le Cycle de la Cour des comptes & le choc de l'Algérie",
+          years: "1844 – 1848",
+          color: "#ea580c",
+          summary: "La commande monumentale de la Cour des comptes et son voyage en Algérie consomment sa rupture avec Ingres et son ralliement au souffle romantique.",
+          events: [
+            {
+              year: 1844,
+              title: "Fresques monumentales de la Cour des comptes (Palais d'Orsay)",
+              desc: "Décor monumental de l'escalier d'honneur sur les thèmes de La Paix, La Guerre et Le Commerce (en grande partie détruit par l'incendie de la Commune en 1871).",
+              type: "masterpiece",
+              icon: "🏛️"
+            },
+            {
+              year: 1846,
+              title: "Voyage en Algérie & l'éblouissement d'Orient",
+              desc: "Invité par le calife de Constantine Ali Ben Ahmed, il découvre la lumière crue, les cavaliers arabes et les harems, rivalisant en audace chromatique avec Delacroix.",
+              type: "life",
+              icon: "☀️"
+            },
+            {
+              year: 1848,
+              title: "Rupture consommée avec le dogme ingresque",
+              desc: "Ingres le renie publiquement pour son ralliement au colorisme de Delacroix. Chassériau assume sa position solitaire au carrefour des deux esthétiques.",
+              type: "history",
+              icon: "⚡"
+            }
+          ]
+        },
+        {
+          title: "La Fièvre créatrice & les grands décors parisiens",
+          years: "1849 – 1856",
+          color: "#7c3aed",
+          summary: "Malgré une santé déclinante, il peint avec frénésie de grands décors d'églises et des toiles orientales préfigurant le symbolisme fin-de-siècle.",
+          events: [
+            {
+              year: 1852,
+              title: "Décors de l'église Saint-Roch à Paris",
+              desc: "Peint les fresques de la chapelle des Fonts baptismaux (Saint Philippe baptisant l'eunuque de la reine d'Éthiopie) avec un sens grandiose de l'espace.",
+              type: "masterpiece",
+              icon: "⛪"
+            },
+            {
+              year: 1853,
+              title: "Marchand arabe présentant une jument",
+              desc: "Chef-d'œuvre orientaliste (cat. Sandoz n° 358) : fougue équestre, élégance nerveuse du dessin et harmonies chatoyantes saluées par Théophile Gautier.",
+              type: "masterpiece",
+              icon: "🐎"
+            },
+            {
+              year: 1855,
+              title: "Décors de Saint-Philippe-du-Roule & Exposition universelle",
+              desc: "Participe à l'Exposition universelle de 1855 tout en achevant dans un état fébrile la Descent de croix de Saint-Philippe-du-Roule avant de succomber.",
+              type: "history",
+              icon: "🌟"
+            }
+          ]
+        }
+      ]
+    }
   }
 };
 

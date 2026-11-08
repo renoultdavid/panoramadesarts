@@ -4,6 +4,7 @@
 window.MOVEMENTS_DATA = {
   "mov_giotto_trecento": {
     "badge": "✦ RUPTURE FONDATRICE DU TRECENTO (1290 – 1400)",
+    "bannerImg": "https://lh3.googleusercontent.com/d/1CjdZ5Y1rcBTZx1BuMh9QLzfwJogArmIE",
     "noticeHtml": "<p><strong>L'acte de naissance de la peinture moderne occidentale</strong><br>À la charnière des XIIIe et XIVe siècles en Toscane et en Vénétie, la peinture occidentale accomplit sa plus formidable mutation depuis l'Antiquité. Rompant avec la <em>maniera greca</em> (la tradition byzantine hiératique aux figures plates suspendues sur fond d'or), Giotto di Bondone et les maîtres toscans réinventent l'espace, la pesanteur des corps et l'expression des sentiments humains.</p><p>Dans la chapelle des Scrovegni à Padoue (1305), Giotto peint des figures d'une densité sculpturale inédite : les dos se tournent vers le spectateur, les larmes déforment les visages des anges dans la <em>Déploration</em>, et les architectures créent une boîte spatiale tridimensionnelle.</p><p>Parallèlement, l'école siennoise menée par Duccio, Simone Martini et Ambrogio Lorenzetti déploie une sensibilité poétique incomparable, incarnée par la première fresque profane politique de l'Occident au Palazzo Pubblico de Sienne.</p>",
     "concurrentHtml": "<p><strong>Pendant ce temps-là... Guerres, pestes et humanisme naissant</strong></p><p><strong>Italie :</strong> La papauté s'exile en Avignon (1309-1377), laissant Rome à l'abandon. Dante Alighieri compose <em>La Divine Comédie</em> (1307-1321), Pétrarque chante Laure et Boccace rédige <em>Le Décaméron</em>.</p><p><strong>Europe :</strong> Début de la guerre de Cent Ans (1337). La <strong>Grande Peste Noire de 1348</strong> fauche entre un tiers et la moitié de la population européenne, provoquant une onde de choc mystique et macabre dans l'art (fresques du Triomphe de la Mort par Buffalmacco).</p><p><strong>Monde :</strong> En Chine, la dynastie Ming prend le pouvoir en 1368 et chasse les empereurs mongols Yuan. Essor de l'Empire ottoman au Proche-Orient.</p>",
     "geographyHtml": "<div class='mov-focal-card'><div class='mov-focal-top'><span class='mov-focal-icon'>🏛️</span><div class='mov-focal-title'>Foyers Créateurs du Trecento</div></div><p class='mov-focal-desc'>Florence (Santa Croce, cathédrale), Padoue (Chapelle des Scrovegni, Basilique Saint-Antoine), Sienne (Palazzo Pubblico, Duomo), Pise (Camposanto monumental) et Assise (Basilique Saint-François).</p><div class='mov-focal-tags'><span class='mov-focal-tag'>📍 Florence</span><span class='mov-focal-tag'>📍 Padoue</span><span class='mov-focal-tag'>📍 Sienne</span><span class='mov-focal-tag'>📍 Pise</span><span class='mov-focal-tag'>📍 Assise</span></div></div>",
@@ -336,6 +337,14 @@ window.MOVEMENTS_DATA = {
         "desc": "Caprices architecturaux, vues du Grand Canal et séjour à Londres.",
         "artistId": "canaletto",
         "icon": "⛵"
+      },
+      {
+        "name": "Jean Siméon Chardin",
+        "dates": "1699 – 1779",
+        "role": "Maître souverain du silence et de la nature morte",
+        "desc": "La Raie, Le Buffet, Lièvre mort, Le Singe peintre et scènes intimistes.",
+        "artistId": "chardin",
+        "icon": "🍑"
       }
     ]
   },
@@ -456,6 +465,14 @@ window.MOVEMENTS_DATA = {
         "desc": "Pluie, Vapeur et Vitesse, Le Dernier Voyage du Téméraire.",
         "artistId": "",
         "icon": "🌅"
+      },
+      {
+        "name": "Théodore Chassériau",
+        "dates": "1819 – 1856",
+        "role": "Météore brillant entre classicisme ingresque et romantisme",
+        "desc": "Les Deux Sœurs, Vénus marine et fresques de la Cour des comptes.",
+        "artistId": "chasseriau",
+        "icon": "✨"
       }
     ]
   },
@@ -696,6 +713,14 @@ window.MOVEMENTS_DATA = {
         "desc": "Autoportrait à l'œil énucléé (prémonitoire), chimères mythologiques.",
         "artistId": "brauner",
         "icon": "👁️"
+      },
+      {
+        "name": "Marc Chagall",
+        "dates": "1887 – 1985",
+        "role": "Poète céleste du surréalisme onirique et de la Bible",
+        "desc": "Le Cheval rouge, Moi et le Village et le plafond de l'Opéra Garnier.",
+        "artistId": "chagall",
+        "icon": "🕊️"
       }
     ],
     "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczNncCSU6eI6kLKq7IOVLdEU4ZXP9nHzpY012Nws8P9qcKz-fiA7D0M1A07T0NS_b9lrSnqS6NqyUdHtI8KSPi-Jejbp5QsmSNKbFlO7r3ChiZovtS4RAXNF5EL-P3LpWwCryrlWotAuW3oyAE5KchnzbQ=w1660-h704-s-no-gm?authuser=0"
