@@ -1319,6 +1319,7 @@ const ART_MOVEMENTS = [
     parentCivId: "occ_baroque_classique",
     lane: "mod_ruptures",
     name: "1600 : Ténébrisme & Modèle vivant du Caravage",
+    bannerImg: "https://lh3.googleusercontent.com/d/1IgRb4GP8JHAIaWt1OpMvyZNTBjP2kptL",
     yearStart: 1595,
     yearEnd: 1610,
     tier: 0,
@@ -7366,6 +7367,20 @@ function populateModalData(art) {
   modalImg.alt = art.title;
   modalCivTitle.textContent = art.civName || '';
   modalArtworkTitle.textContent = art.title;
+
+  // Affichage du lieu de conservation actuel à droite dans le bandeau supérieur
+  const modalCurrentLoc = document.getElementById('modal-current-location');
+  const modalCurrentLocText = document.getElementById('modal-current-location-text');
+  if (modalCurrentLoc && modalCurrentLocText) {
+    const locVal = (art.currentLocation || art.site || art.originSite || '').trim();
+    if (locVal) {
+      modalCurrentLocText.textContent = locVal;
+      modalCurrentLoc.setAttribute('title', `Lieu actuel de conservation : ${locVal}`);
+      modalCurrentLoc.style.display = 'inline-flex';
+    } else {
+      modalCurrentLoc.style.display = 'none';
+    }
+  }
 
   // Lien cliquable vers la fiche monographique du maître / créateur
   const modalArtistStrip = document.getElementById('modal-artist-strip');

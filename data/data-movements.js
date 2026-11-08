@@ -1358,6 +1358,7 @@ window.MOVEMENTS_DATA = {
     ]
   },
   "mov_rup_caravage_1600": {
+    "bannerImg": "https://lh3.googleusercontent.com/d/1IgRb4GP8JHAIaWt1OpMvyZNTBjP2kptL",
     "badge": "✦ 1600 : LE CHOC DU MODÈLE VIVANT & DU TÉNÉBRISME (1595 – 1610)",
     "noticeHtml": "<p><strong>Le scandale sacré de la chapelle Contarelli à Rome</strong><br>En 1600, dans l'église Saint-Louis-des-Français à Rome, le public découvre les deux premières toiles monumentales du Caravage : <em>La Vocation de saint Matthieu</em> et <em>Le Martyre de saint Matthieu</em>. C'est un séisme esthétique : la lumière crue pénètre comme un coup de sabre dans l'obscurité, éclairant des personnages vêtus à la mode contemporaine accoudés à une table de jeu. Le Caravage refuse tout dessin préparatoire et peint directement d'après le modèle vivant pris dans la rue.</p>",
     "concurrentHtml": "<p><strong>Contexte contemporain :</strong> Jubilé de l'an 1600 à Rome proclamé par le pape Clément VIII. Supplice de Giordano Bruno brûlé vif sur le Campo de' Fiori pour ses thèses sur l'infinité de l'univers. Édit de Nantes promulgué par Henri IV en France en 1598.</p>",
