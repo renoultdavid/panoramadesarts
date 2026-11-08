@@ -557,6 +557,7 @@ window.MOVEMENTS_DATA = {
     ]
   },
   "mov_realisme": {
+    "bannerImg": "https://lh3.googleusercontent.com/d/1vij19Oa5r9s_Xz1PljlDrep6-J5jBV0Z",
     "badge": "✦ LA VÉRITÉ DU MONDE SOCIAL & L'ÉCOLE DE BARBIZON (1848 – 1875)",
     "noticeHtml": "<p><strong>Refuser le mensonge de l'idéalisation : peindre ce que l'on voit</strong><br>Au lendemain de la Révolution ouvrière de 1848, un vent de fronde se lève contre les mythologies néoclassiques et les évasions romantiques. Gustave Courbet proclame le <strong>Réalisme</strong> : l'art doit témoigner de son temps, sans fard ni compromis. Avec <em>Un enterrement à Ornans</em> (1850) et <em>Les Casseurs de pierres</em>, il confère aux paysans, fossoyeurs et forçats du labeur les dimensions monumentales réservées jusqu'alors aux rois et aux dieux.</p><p>Parallèlement, dans la forêt de Fontainebleau, les peintres de l'<strong>École de Barbizon</strong> (Théodore Rousseau, Jean-François Millet, Camille Corot) s'immergent dans la nature pour peindre la terre vivante, les sous-bois secrets et la noblesse silencieuse du monde paysan (<em>L'Angélus</em> et <em>Des glaneuses</em> de Millet). Honoré Daumier pourfend quant à lui les travers judiciaires et politiques par une satire graphique féroce.</p>",
     "concurrentHtml": "<p><strong>Pendant ce temps-là... Le Second Empire et l'essor du prolétariat</strong></p><p><strong>France :</strong> Élection de Louis-Napoléon Bonaparte puis coup d'État du 2 décembre 1851 instaurant le <strong>Second Empire</strong> sous Napoléon III. Période de spectaculaire prospérité économique, d'industrialisation lourde et de fondation des grandes banques (Crédit Lyonnais, Société Générale).</p><p><strong>Social & Idées :</strong> Karl Marx et Friedrich Engels publient <em>Le Manifeste du Parti communiste</em> en 1848. Émergence de la question sociale, des premières lois sociales et des luttes pour le droit de grève (reconnu en 1864 en France).</p><p><strong>Littérature :</strong> Gustave Flaubert publie <em>Madame Bovary</em> en 1857 (procès pour outrage aux bonnes mœurs, même année que <em>Les Fleurs du Mal</em> de Baudelaire). Les frères Goncourt théorisent le naturalisme littéraire.</p>",
@@ -1420,6 +1421,7 @@ window.MOVEMENTS_DATA = {
     ]
   },
   "mov_rup_tube_1841": {
+    "bannerImg": "https://lh3.googleusercontent.com/d/1LxaBey7tygotJ2yqokJvyXEn53jEO54V",
     "badge": "✦ 1841 : L'INVENTION DU TUBE DE PEINTURE SOUPLE (1838 – 1855)",
     "noticeHtml": "<p><strong>La libération des peintres hors de l'atelier</strong><br>En 1841, le peintre portraitiste américain John Goffe Rand dépose un brevet à Londres pour un petit récipient compressible en étain fermé par un bouchon à vis : le <strong>tube de peinture souple</strong>. Jusqu'alors, les peintres devaient broyer leurs pigments manuellement en atelier et les conserver dans des vessies de porc qui séchaient rapidement. Cette invention technique modeste permet aux artistes de transporter facilement leurs couleurs dans la nature. Renoir déclarera plus tard : « <em>Sans les tubes de peinture, il n'y aurait eu ni Cézanne, ni Manet, ni Monet, ni l'Impressionnisme</em> ».</p>",
     "concurrentHtml": "<p><strong>Contexte contemporain :</strong> Apogée de la révolution industrielle, naissance de la photographie avec le daguerréotype de Daguerre en 1839. Règne de Louis-Philippe Ier en France et ère victorienne en Angleterre.</p>",
@@ -1444,6 +1446,7 @@ window.MOVEMENTS_DATA = {
     ]
   },
   "mov_rup_refuses_1863": {
+    "bannerImg": "https://lh3.googleusercontent.com/d/1zyxOQk_xw735_oIyCzy6w-busmX74-i8",
     "badge": "✦ 1863 : LE SALON DES REFUSÉS & LE CHOC DE MANET (1860 – 1870)",
     "noticeHtml": "<p><strong>L'acte de décès du monopole académique officiel</strong><br>Au printemps 1863, le jury officiel de l'Académie rejette plus de 3 000 œuvres soumises au Salon annuel. Face à la colère sans précédent des artistes, l'empereur Napoléon III ordonne l'ouverture d'un « Salon des Refusés » dans le Palais de l'Industrie pour laisser le public juger lui-même. C'est là qu'éclate le scandale retentissant du <em>Déjeuner sur l'herbe</em> d'Édouard Manet : une femme nue contemporaine pique-nique sereinement entre deux jeunes hommes habillés en bourgeois, regardant le spectateur dans les yeux sans aucun prétexte mythologique. L'art moderne est né de ce scandale fondateur.</p>",
     "concurrentHtml": "<p><strong>Contexte contemporain :</strong> Guerre de Sécession aux États-Unis (1861-1865) et Proclamation d'émancipation d'Abraham Lincoln. Deuxième révolution haussmannienne à Paris. Charles Baudelaire publie l'essai <em>Le Peintre de la vie moderne</em> (1863) consacré à Constantin Guys.</p>",
