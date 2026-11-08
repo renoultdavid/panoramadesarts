@@ -177,6 +177,14 @@ window.MOVEMENTS_DATA = {
         "desc": "La Légende de sainte Ursule, La Mort de la Vierge, La Prédication de saint Étienne.",
         "artistId": "carpaccio",
         "icon": "🛶"
+      },
+      {
+        "name": "Jean Clouet",
+        "dates": "v. 1480 – 1541",
+        "role": "Grand portraitiste de la cour de François Ier et maître des trois crayons",
+        "desc": "Portrait de François Ier en saint Jean-Baptiste, Portrait officiel de François Ier au Louvre.",
+        "artistId": "clouet_jean",
+        "icon": "👑"
       }
     ]
   },

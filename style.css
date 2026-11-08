@@ -2807,22 +2807,9 @@ body {
   color: var(--gold-pure, #d4af37);
 }
 
-/* POPOVER DE DÉFINITION DU MOUVEMENT ARTISTIQUE */
+/* POPOVER DE DÉFINITION DU MOUVEMENT ARTISTIQUE (MASQUÉ : SUPPRIMÉ À LA DEMANDE UTILISATEUR CAR REDONDANT AVEC LE THÉÂTRE SYNCHRONIQUE) */
 .art-movement-popover {
-  position: fixed;
-  z-index: 9999;
-  background: rgba(10, 14, 22, 0.98);
-  border: 1px solid var(--gold-pure);
-  border-radius: 8px;
-  padding: 14px 16px;
-  width: 320px;
-  max-width: calc(100vw - 30px);
-  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.95), 0 0 20px rgba(212, 175, 55, 0.25);
-  backdrop-filter: blur(12px);
-  transition: opacity 0.2s cubic-bezier(0.16, 1, 0.3, 1), transform 0.2s cubic-bezier(0.16, 1, 0.3, 1);
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
+  display: none !important;
 }
 
 .popover-header {

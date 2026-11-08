@@ -876,7 +876,7 @@ const ART_MOVEMENTS = [
     yearEnd: 1527,
     tier: 1,
     color: "#ca8a04",
-    keyArtists: "Léonard de Vinci, Raphaël, Michel-Ange, Giorgione, Titien, Albrecht Dürer, Vittore Carpaccio",
+    keyArtists: "Léonard de Vinci, Raphaël, Michel-Ange, Giorgione, Titien, Albrecht Dürer, Vittore Carpaccio, Jean Clouet",
     definition: "Apogée classique de l'art occidental entre Rome, Florence et Venise : monumentalité souveraine, sfumato atmosphérique, équilibre pyramidal et colorisme vénitien.",
     filterKeyword: "renaissance"
   },
@@ -1512,18 +1512,17 @@ function showMovementPopover(mov, barEl, isClick = false) {
   clearTimeout(movPopShowTimer);
   movPopShowTimer = null;
 
+  // L'encart jaune flottant a été supprimé à la demande de l'utilisateur (remplacé par le Théâtre Synchronique des Arts supérieur)
   const popover = document.getElementById('art-movement-popover');
-  if (!popover) return;
-
-  currentMovPopBar = barEl;
-  if (isClick) {
-    isMovPopPinned = true;
-    popover.dataset.pinned = 'true';
-    selectedTheatreCivId = mov.id;
-  } else {
-    isMovPopPinned = false;
-    delete popover.dataset.pinned;
+  if (popover) {
+    popover.style.display = 'none';
+    popover.style.opacity = '0';
   }
+  if (isClick && mov) {
+    selectedTheatreCivId = mov.id;
+    isTheatrePinned = true;
+  }
+}
 
   const titleEl = document.getElementById('mov-pop-title');
   const artistsListEl = document.getElementById('mov-pop-artists-list');
@@ -4087,40 +4086,16 @@ function buildTimelineBlocks() {
 
     bar.innerHTML = `<span class="sub-mov-label">${mov.name}</span>`;
 
-    bar.addEventListener('mouseenter', () => {
-      clearTimeout(movPopHideTimer);
-      if (isMovPopPinned && currentMovPopBar !== bar) {
-        return; // Une autre barre a été verrouillée par un clic
-      }
-      // DÉLAI D'INTENTION DE SURVOL (Hover intent) : 320ms
-      // Si la souris glisse simplement vers une autre voie (ex: franchir Sculpture pour aller à Fauvisme),
-      // le curseur sort de la barre bien avant 320ms et AUCUN popover ne s'affiche en travers du chemin !
-      clearTimeout(movPopShowTimer);
-      movPopShowTimer = setTimeout(() => {
-        showMovementPopover(mov, bar, false);
-      }, 320);
-    });
-
-    bar.addEventListener('mouseleave', (e) => {
-      clearTimeout(movPopShowTimer);
-      movPopShowTimer = null;
-      if (isMovPopPinned) return;
-      if (e.relatedTarget && e.relatedTarget.closest('#art-movement-popover')) {
-        return;
-      }
-      scheduleHideMovementPopover(140);
-    });
-
     bar.addEventListener('click', (e) => {
       e.stopPropagation();
       clearTimeout(movPopShowTimer);
       movPopShowTimer = null;
-      // Clic = sélection prioritaire : mettre la fiche en tête du Théâtre Synchronique
+      hideMovementPopover(true);
+      // Clic = sélection prioritaire verrouillée : placer la fiche en tête du Théâtre Synchronique (index 0)
       selectedTheatreCivId = mov.id;
+      isTheatrePinned = true;
       lastRenderedCivKey = null;
       updateSynchronousState(e.clientX);
-      // Ouverture instantanée (0ms) et épinglage du popover
-      showMovementPopover(mov, bar, true);
     });
 
     mov._barEl = bar;
@@ -6062,6 +6037,7 @@ function goToGalleryForCivAndTheme(civ, themeLabel) {
 
 let lastRenderedCivKey = null;
 let selectedTheatreCivId = null;
+let isTheatrePinned = false;
 
 function renderSynchronousTheatre(activeCivs, currentYear) {
   try {
@@ -6094,11 +6070,12 @@ function renderSynchronousTheatre(activeCivs, currentYear) {
       if (selIdx > 0) {
         const [selItem] = orderedActive.splice(selIdx, 1);
         orderedActive.unshift(selItem);
-      } else if (selIdx === -1 && currentTimelineEra === 'modern') {
+      } else if (selIdx === -1) {
         const matchedMov = ART_MOVEMENTS.find(m => m.id === selectedTheatreCivId);
         if (matchedMov) {
           const matchingArts = typeof getArtworksForMovement === 'function' ? getArtworksForMovement(matchedMov) : [];
-          const movData = (window.MOVEMENTS_DATA && window.MOVEMENTS_DATA[matchedMov.id]) || {};
+          const movData = (window.MOVEMENTS_DATA && window.MOVEMENTS_DATA[matchedMov.id]) ||
+                          (typeof MODERN_MOVEMENTS_DATA !== 'undefined' && MODERN_MOVEMENTS_DATA[matchedMov.id]) || {};
           orderedActive.unshift({
             id: matchedMov.id,
             name: matchedMov.name,
@@ -6416,8 +6393,8 @@ function updateSynchronousState(screenX) {
       }
     });
 
-    // Réinitialisation de la sélection si l'on a navigué hors de l'époque du mouvement
-    if (selectedTheatreCivId && !activeCivs.some(c => c.id === selectedTheatreCivId)) {
+    // Réinitialisation de la sélection si l'on a navigué hors de l'époque du mouvement (uniquement si non épinglé par un clic)
+    if (selectedTheatreCivId && !isTheatrePinned && !activeCivs.some(c => c.id === selectedTheatreCivId)) {
       selectedTheatreCivId = null;
     }
 
@@ -6436,7 +6413,7 @@ let startScrollTop = 0;
 
 function handleTimelinePanStart(e) {
   if (e.button !== 0) return;
-  if (e.target.closest('button, a, input, select')) return;
+  if (e.target.closest('button, a, input, select, .timeline-movement-bar, .sub-movement-timespan-bar')) return;
   isDragging = true;
   startX = e.clientX;
   startY = e.clientY;
@@ -6459,6 +6436,11 @@ window.addEventListener('mousemove', (e) => {
 
   // 1. Navigation horizontale (axe temporel)
   const deltaX = e.clientX - startX;
+  if (Math.abs(deltaX) > 15 && isTheatrePinned) {
+    isTheatrePinned = false;
+    selectedTheatreCivId = null;
+    lastRenderedCivKey = null;
+  }
   curRibbonX = prevRibbonX + deltaX;
   const containerW = masterContainer.clientWidth || window.innerWidth;
   const minX = -(getRibbonWidth() - containerW);

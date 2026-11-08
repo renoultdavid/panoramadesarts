@@ -4618,8 +4618,9 @@ window.ARTISTS_REGISTRY = {
               year: 1540,
               title: "Nomination comme peintre et valet de chambre du Roi",
               desc: "Lettres patentes de François Ier lui accordant la succession de son père pour perpétuer l'effigie officielle de la monarchie française.",
-              type: "life",
-              icon: "👑"
+              type: "peer",
+              icon: "👑",
+              linkedArtist: "Jean Clouet"
             },
             {
               year: 1543,
@@ -4679,6 +4680,129 @@ window.ARTISTS_REGISTRY = {
               desc: "Épouse du roi Charles IX : virtuosité éblouissante dans la transparence du voile de gaze et le scintillement des joyaux d'orfèvrerie.",
               type: "masterpiece",
               icon: "💎"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "clouet_jean": {
+    id: "clouet_jean",
+    name: "Jean Clouet",
+    sortName: "Clouet Jean",
+    sortLetter: "C",
+    dates: "v. 1480 – 1541",
+    movement: "Renaissance française, École de Tours & Portraits des Valois",
+    nationality: "Français d'origine flamande (Bruxelles / Tours / Paris)",
+    techniques: "Huile sur panneau de chêne, dessin aux trois crayons (pierre noire, sanguine, craie blanche), miniature sur vélin",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczPa2GvmOpwKDPXibc4SZ_cVMlTmqYjxVVSyCRff0ibvCDRPqeAWriKB92ndjIRnCZTdZd65cB92Nn6Afms-R_dRkjFzSU782RWJLBJC78KNREWqGpZ9KT_Ja8P4W5185_dQRpJhIfYJTLBwEt4s3lxNJg=w1795-h761-s-no-gm?authuser=0",
+    portraitImg: "",
+    bio: `
+      <p><strong>Le maître du portrait à la cour de François Ier et le fondateur d'une dynastie</strong><br>
+      Jean Clouet (v. 1480 – 1541), probablement d'origine flamande (fils de Jean Cloet de Bruxelles), est le grand maître du portrait à la cour de François Ier. Peintre et valet de chambre du Roi dès 1516, il a naturalisé en France l'esthétique du portrait de cour, mêlant la précision minutieuse du Nord à la noblesse de la Renaissance italienne. Il est le fondateur d'une dynastie illustre de peintres qui fixera pour l'éternité les visages de la dynastie des Valois.</p>
+      <p><strong>Vérité du visage, économie de moyens et dessin aux trois crayons</strong><br>
+      Son genre pictural se définit par le portrait d'apparat et le dessin au crayon (trois crayons : pierre noire, sanguine et craie blanche). Son style se caractérise par une économie de moyens et une grande sobriété : le modèle est souvent présenté en buste, de trois-quarts, sur un fond neutre. Clouet se concentre sur la vérité du visage et la dignité psychologique, tout en rendant avec une délicatesse extrême la texture des étoffes et les détails du costume royal sans jamais alourdir la présence humaine.</p>
+      <p><strong>L'icône royale et les chefs-d'œuvre du musée du Louvre</strong><br>
+      Parmi ses chefs-d'œuvre absolus figure le somptueux <em>Portrait de François Ier en saint Jean-Baptiste</em> (vers 1518-1520, musée du Louvre), où le monarque prête ses traits au précurseur dans un subtil clair-obscur d'inspiration léonardesque, ainsi que le monumental <em>Portrait officiel de François Ier</em> (vers 1530, musée du Louvre), image tutélaire de la Renaissance française où la magnificence du pourpoint d'or et de satin répond à la majesté sereine du regard royal.</p>
+    `,
+    corpus: {
+      total: 145,
+      seen: 2,
+      paintingsCount: 15,
+      sourceTitle: "Catalogue Peter Mellen (1971) & Alexandra Zvereva (2011)",
+      sourceNotes: "Catalogue raisonné de référence de Peter Mellen (<em>Jean Clouet: Complete Edition of the Drawings, Miniatures and Paintings</em>, Phaidon, 1971), réévalué et enrichi par les travaux majeurs d'Alexandra Zvereva (<em>Portraits dessinés de la Renaissance française</em>, 2011). Le corpus autographe réunit une quinzaine de peintures sur panneau conservées dans les plus prestigieux musées (musée du Louvre, Royal Collection de Windsor, Metropolitan Museum de New York) et le trésor incomparable des 130 dessins originaux aux trois crayons conservés au musée Condé à Chantilly.",
+      details: [
+        { label: "Peintures sur bois & portraits d'apparat", count: 15, icon: "🎨", color: "#d4af37", seen: 2, note: "Dont Portrait de François Ier en saint Jean-Baptiste et Portrait officiel de François Ier (Louvre)" },
+        { label: "Dessins préparatoires aux trois crayons (Chantilly)", count: 130, icon: "✏️", color: "#00b4d8", seen: 0, note: "Collection exceptionnelle du musée Condé de Chantilly" }
+      ]
+    },
+    biographyTimeline: {
+      birth: {
+        year: 1480,
+        place: "Bruxelles (Pays-Bas bourguignons) ou Tours",
+        title: "Naissance de Jean Clouet (dit Janet)",
+        desc: "Fils présumé du peintre flamand Jean Cloet. Il s'établit en Touraine et rejoint les artistes de la cour royale des Valois."
+      },
+      death: {
+        year: 1541,
+        place: "Paris (France)",
+        title: "Mort du premier peintre de François Ier",
+        desc: "S'éteint à Paris dans sa maison de la rue Sainte-Avoye. Son fils François Clouet lui succède immédiatement auprès du Roi."
+      },
+      periods: [
+        {
+          title: "Les Débuts à Tours & L'Entrée au Service de François Ier",
+          years: "v. 1515 – 1525",
+          color: "#d97706",
+          summary: "Établi à Tours, il entre au service royal dès l'avènement de François Ier et peint le portrait déguisé du jeune roi.",
+          events: [
+            {
+              year: 1516,
+              title: "Nomination comme peintre et valet de chambre du Roi",
+              desc: "Mentionné pour la première fois dans les comptes royaux aux côtés de Jean Perréal, recevant des gages annuels confortables.",
+              type: "life",
+              icon: "👑"
+            },
+            {
+              year: 1518,
+              title: "Portrait de François Ier en saint Jean-Baptiste (Musée du Louvre)",
+              desc: "Portrait allégorique où le jeune monarque prête ses traits au prophète, imprégné du sfumato et de la lumière de Léonard de Vinci alors présent au Clos Lucé.",
+              type: "masterpiece",
+              icon: "✨",
+              artworkId: "clouet_jean_francois_ier_saint_jean_baptiste_louvre_1518"
+            },
+            {
+              year: 1520,
+              title: "Les Héros de Marignan : miniatures des Préux de France",
+              desc: "Réalise la série de médaillons miniatures circulaires illustrant les Commentaires de la guerre gallique pour François Ier.",
+              type: "creation",
+              icon: "🎖️"
+            }
+          ]
+        },
+        {
+          title: "L'Apogée Parisien & L'Effigie Souveraine de François Ier",
+          years: "1525 – 1535",
+          color: "#059669",
+          summary: "Installé à Paris dans la paroisse Saint-Innocent, il crée le grand portrait d'apparat du roi qui devient l'icône de la monarchie.",
+          events: [
+            {
+              year: 1530,
+              title: "Portrait officiel de François Ier (Musée du Louvre)",
+              desc: "Chef-d'œuvre absolu de la Renaissance française : pourpoint brodé d'or, regard souverain et autorité magistrale.",
+              type: "masterpiece",
+              icon: "👑",
+              artworkId: "clouet_jean_francois_ier_louvre_1530"
+            },
+            {
+              year: 1533,
+              title: "Portrait de Guillaume Budé (Metropolitan Museum of Art, New York)",
+              desc: "Portrait du grand humaniste français et fondateur du futur Collège de France, tenant une plume et consignant ses réflexions.",
+              type: "masterpiece",
+              icon: "📜"
+            }
+          ]
+        },
+        {
+          title: "Maturité, Atelier & Transmission à son fils François Clouet",
+          years: "1535 – 1541",
+          color: "#7c3aed",
+          summary: "Dernières années de création intense et formation de son fils François qui lui succédera auprès de la couronne.",
+          events: [
+            {
+              year: 1537,
+              title: "Campagne des portraits princiers au crayon de Chantilly",
+              desc: "Multiplie les dessins préparatoires aux trois crayons pour immortaliser les enfants de France et les grands officiers du royaume.",
+              type: "creation",
+              icon: "✏️"
+            },
+            {
+              year: 1541,
+              title: "Mort à Paris et succession par son fils François Clouet",
+              desc: "Jean Clouet s'éteint à Paris. François Ier accorde par lettres patentes à son fils François la succession de ses biens et de son office de peintre ordinaire du Roi.",
+              type: "peer",
+              icon: "👑",
+              linkedArtist: "François Clouet"
             }
           ]
         }
