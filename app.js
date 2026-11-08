@@ -3985,31 +3985,6 @@ function buildTimelineBlocks() {
     laneEl.appendChild(block);
   });
 
-  // 2b. Cartes-passerelles temporelles vers la frise contemporaine
-  const bridgeAncient = document.createElement('div');
-  bridgeAncient.className = 'timeline-era-bridge-card to-modern';
-  bridgeAncient.id = 'bridge-to-modern';
-  bridgeAncient.innerHTML = `<span class="bridge-icon">🎨</span><span class="bridge-text">Zoom Occident : Histoire des Arts (1000 – 2000) ➔</span>`;
-  bridgeAncient.style.left = `${yearToPixel(1000)}px`;
-  bridgeAncient.addEventListener('click', (e) => {
-    e.stopPropagation();
-    switchTimelineEra('modern');
-  });
-  const europeLane = document.querySelector('.timeline-lane[data-lane="europe_ouest"]');
-  if (europeLane) europeLane.appendChild(bridgeAncient);
-
-  const bridgeModern = document.createElement('div');
-  bridgeModern.className = 'timeline-era-bridge-card to-ancient';
-  bridgeModern.id = 'bridge-to-ancient';
-  bridgeModern.innerHTML = `<span class="bridge-icon">🏛️</span><span class="bridge-text">◀ Frise des Civilisations Mondiales (-3500 – 2000)</span>`;
-  bridgeModern.style.left = `${yearToPixel(1005)}px`;
-  bridgeModern.addEventListener('click', (e) => {
-    e.stopPropagation();
-    switchTimelineEra('ancient');
-  });
-  const modPeintureLane = document.querySelector('.timeline-lane[data-lane="mod_peinture"]');
-  if (modPeintureLane) modPeintureLane.appendChild(bridgeModern);
-
   // 3. Création des sous-barres de mouvements artistiques étagées (Pilier 3 démultiplication verticale)
   ART_MOVEMENTS.forEach(mov => {
     const laneEl = document.querySelector(`.timeline-lane[data-lane="${mov.lane}"]`);
@@ -4172,17 +4147,6 @@ function updateTimelineLayout() {
       mov._barEl.style.display = 'none';
     }
   });
-
-  const bridgeAncient = document.getElementById('bridge-to-modern');
-  if (bridgeAncient) {
-    bridgeAncient.style.left = `${yearToPixel(1860)}px`;
-    bridgeAncient.style.display = currentTimelineEra === 'ancient' ? 'inline-flex' : 'none';
-  }
-  const bridgeModern = document.getElementById('bridge-to-ancient');
-  if (bridgeModern) {
-    bridgeModern.style.left = `${yearToPixel(1891)}px`;
-    bridgeModern.style.display = currentTimelineEra === 'modern' ? 'inline-flex' : 'none';
-  }
 
   const zoomBadge = document.getElementById('timeline-zoom-level');
   if (zoomBadge) {
@@ -5669,6 +5633,56 @@ function openMonographForArtistRecord(artistRecord) {
   }
 }
 
+function enrichFocalGeographyIcons(html) {
+  if (!html) return html;
+  const iconMap = [
+    { match: /📍\s*Paris/gi, replace: '🗼 Paris' },
+    { match: /📍\s*Rome/gi, replace: '🏛️ Rome' },
+    { match: /📍\s*Florence/gi, replace: '⚜️ Florence' },
+    { match: /📍\s*Venise/gi, replace: '🛶 Venise' },
+    { match: /📍\s*Bruxelles/gi, replace: '🏛️ Bruxelles' },
+    { match: /📍\s*Bruges/gi, replace: '⛵ Bruges' },
+    { match: /📍\s*Gand/gi, replace: '🏰 Gand' },
+    { match: /📍\s*Amsterdam/gi, replace: '🚲 Amsterdam' },
+    { match: /📍\s*Anvers/gi, replace: '⚓ Anvers' },
+    { match: /📍\s*Londres/gi, replace: '💂 Londres' },
+    { match: /📍\s*New York/gi, replace: '🗽 New York' },
+    { match: /📍\s*Madrid/gi, replace: '👑 Madrid' },
+    { match: /📍\s*Séville/gi, replace: '🏰 Séville' },
+    { match: /📍\s*Tolède/gi, replace: '⚔️ Tolède' },
+    { match: /📍\s*Naples/gi, replace: '🌋 Naples' },
+    { match: /📍\s*Milan/gi, replace: '🏰 Milan' },
+    { match: /📍\s*Vienne/gi, replace: '🎭 Vienne' },
+    { match: /📍\s*Berlin/gi, replace: '🏛️ Berlin' },
+    { match: /📍\s*Weimar/gi, replace: '📐 Weimar' },
+    { match: /📍\s*Dessau/gi, replace: '📐 Dessau' },
+    { match: /📍\s*Bauhaus/gi, replace: '📐 Bauhaus' },
+    { match: /📍\s*Mexico/gi, replace: '🌵 Mexico' },
+    { match: /📍\s*Cadaqués/gi, replace: '🌊 Cadaqués' },
+    { match: /📍\s*Figueres/gi, replace: '🌊 Figueres' },
+    { match: /📍\s*Collioure/gi, replace: '🌊 Collioure' },
+    { match: /📍\s*Chatou/gi, replace: '🌳 Chatou' },
+    { match: /📍\s*Barbizon/gi, replace: '🌳 Barbizon' },
+    { match: /📍\s*Fontainebleau/gi, replace: '🏰 Fontainebleau' },
+    { match: /📍\s*Zurich/gi, replace: '🎭 Zurich' },
+    { match: /📍\s*Moscou/gi, replace: '🏰 Moscou' },
+    { match: /📍\s*Chicago/gi, replace: '🏙️ Chicago' },
+    { match: /📍\s*Munich/gi, replace: '🍺 Munich' },
+    { match: /📍\s*Assise/gi, replace: '⛪ Assise' },
+    { match: /📍\s*Padoue/gi, replace: '📜 Padoue' },
+    { match: /📍\s*Sienne/gi, replace: '🐎 Sienne' },
+    { match: /📍\s*Pise/gi, replace: '🏛️ Pise' },
+    { match: /📍\s*Urbin/gi, replace: '🏰 Urbin' },
+    { match: /📍\s*Mantoue/gi, replace: '🎭 Mantoue' }
+  ];
+
+  let res = html;
+  iconMap.forEach(({ match, replace }) => {
+    res = res.replace(match, replace);
+  });
+  return res;
+}
+
 function renderMovementFocalCenters(civ, movData) {
   const mapImg = document.getElementById('pavilion-map-img');
   const mapBox = document.getElementById('pavilion-map-box');
@@ -5706,7 +5720,7 @@ function renderMovementFocalCenters(civ, movData) {
   placeholder.classList.add('has-artists-view');
 
   if (movData && movData.geographyHtml) {
-    placeholder.innerHTML = movData.geographyHtml;
+    placeholder.innerHTML = enrichFocalGeographyIcons(movData.geographyHtml);
     placeholder.style.display = 'flex';
     return;
   }
