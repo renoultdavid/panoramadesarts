@@ -5918,7 +5918,7 @@ window.ARTISTS_REGISTRY = {
         }
       ]
     },
-    biographyTimeline: {
+        biographyTimeline: {
       birth: 1904,
       birthPlace: "Figueras (Catalogne, Espagne)",
       death: 1989,
@@ -5938,59 +5938,48 @@ window.ARTISTS_REGISTRY = {
               icon: "👶"
             },
             {
-              year: 1920,
-              title: "Autoportrait de l'artiste adolescent",
-              desc: "Fusain et gouache intense marqué par la perte de sa mère et le clair-obscur dramatique.",
-              type: "masterpiece",
-              icon: "🎨",
-              artworkId: "dali_autoportrait_adolescent_figueras_1920"
-            },
-            {
               year: 1921,
-              title: "Autoportrait au cou raphaélesque & La Vénus qui sourit",
-              desc: "Hommage provocateur à Raphaël et exploration de la sensualité catalane à Figueras.",
-              type: "masterpiece",
-              icon: "🖼️",
-              artworkId: "dali_autoportrait_cou_raphaelesque_figueras_1921"
+              title: "Premières explorations picturales & autoportraits de jeunesse",
+              desc: "Après le décès prématuré de sa mère, il affirme sa vocation et multiplie les autoportraits intenses à Cadaqués et Figueras.",
+              type: "formation",
+              icon: "🎨"
             },
             {
               year: 1922,
               title: "Entrée à l'Académie royale San Fernando de Madrid",
-              desc: "Installation à la prestigieuse Residencia de Estudiantes où il noue une relation passionnée avec le poète Federico García Lorca et le futur cinéaste Luis Buñuel.",
+              desc: "Installation à la prestigieuse Residencia de Estudiantes où il noue une profonde amitié avec le poète Federico García Lorca et le cinéaste Luis Buñuel.",
               type: "formation",
               icon: "🎓"
             },
             {
               year: 1924,
-              title: "Portrait de Luis Buñuel & Nature morte puriste",
-              desc: "Maturité technique prodigieuse associant rigueur plastique et gravité psychologique du regard.",
+              title: "Portrait de Luis Buñuel",
+              desc: "Maturité technique prodigieuse associant la rigueur plastique du purisme et la gravité psychologique du regard du futur réalisateur.",
               type: "masterpiece",
               icon: "🎬",
               artworkId: "dali_portrait_luis_bunuel_reina_sofia_1924"
             },
             {
               year: 1925,
-              title: "Première exposition personnelle à Barcelone & Jeune fille à la fenêtre",
-              desc: "Triomphe aux galeries Dalmau avec les célèbres portraits de sa sœur Anna Maria contemplant la mer de Cadaqués.",
-              type: "exhibition",
+              title: "Jeune fille à la fenêtre (Anna Maria)",
+              desc: "Triomphe de sa première exposition personnelle à Barcelone avec cette vue contemplative de sa sœur devant la mer calme de Cadaqués.",
+              type: "masterpiece",
               icon: "🪟",
               artworkId: "dali_jeune_fille_a_la_fenetre_reina_sofia_1925"
             },
             {
               year: 1927,
-              title: "Petites Cendres (Cenicitas)",
-              desc: "Peinture charnière marquant le basculement vers l'imaginaire onirique, les chairs en décomposition et les apparitions fantomatiques.",
-              type: "masterpiece",
-              icon: "✨",
-              artworkId: "dali_petites_cendres_cenicitas_reina_sofia_1927"
+              title: "Séjour à Cadaqués & expérimentations des Petites Cendres",
+              desc: "Période de transition décisive avec Lorca, marquée par l'émergence des chairs molles, des formes putréfiées et des visions oniriques.",
+              type: "travel",
+              icon: "✨"
             },
             {
               year: 1928,
-              title: "Chair de poule inaugurale & Premier voyage à Paris",
-              desc: "Visite l'atelier de Picasso qu'il vénère, puis rompt définitivement avec l'académie pour plonger dans l'avant-garde surréaliste.",
+              title: "Premier voyage à Paris & visite de l'atelier de Picasso",
+              desc: "Rencontre vénérée avec Picasso puis découverte du groupe surréaliste ; il est exclu définitivement de l'Académie de Madrid pour indiscipline.",
               type: "travel",
-              icon: "⚡",
-              artworkId: "dali_chair_de_poule_inaugurale_figueras_1928"
+              icon: "⚡"
             }
           ]
         },
@@ -6002,59 +5991,49 @@ window.ARTISTS_REGISTRY = {
           events: [
             {
               year: 1929,
-              title: "Rencontre avec Gala, Le Grand Masturbateur & Un Chien andalou",
-              desc: "Coup de foudre pour Gala (épouse de Paul Éluard) à Cadaqués ; co-réalisation du film culte Un Chien andalou avec Buñuel et consécration immédiate du Grand Masturbateur.",
-              type: "turning_point",
+              title: "Coup de foudre pour Gala, Un Chien andalou & Le Grand Masturbateur",
+              desc: "Rencontre électrisante avec Gala à Cadaqués ; co-réalisation du film fondateur Un Chien andalou et révélation éclatante du Grand Masturbateur.",
+              type: "masterpiece",
               icon: "❤️",
               artworkId: "dali_le_grand_masturbateur_reina_sofia_1929"
             },
             {
-              year: 1932,
-              title: "Composition surréaliste avec personnages invisibles",
-              desc: "Perfectionnement du trompe-l'œil hallucinatoire et des déformations corporelles à Portlligat.",
-              type: "masterpiece",
-              icon: "👁️",
-              artworkId: "dali_composition_surrealiste_formes_molles_figueras_1932"
+              year: 1930,
+              title: "Théorisation de la méthode paranoïaque-critique",
+              desc: "Publication de La Femme visible : il définit son procédé de simulation d'un état délirant actif pour transformer le monde réel avec une précision photographique.",
+              type: "turning_point",
+              icon: "📖"
             },
             {
               year: 1933,
-              title: "L'Angélus de Millet & L'Homme invisible",
-              desc: "Application systématique de la méthode paranoïaque-critique à l'Angélus de Jean-François Millet, y décelant une tragédie érotique et funèbre refoulée.",
+              title: "L'Angélus architectonique de Millet",
+              desc: "Application spectaculaire de la paranoïa-critique au tableau de Millet, y décelant un monument érotique et funèbre enfoui.",
               type: "masterpiece",
               icon: "🔔",
               artworkId: "dali_angelus_architectonique_millet_reina_sofia_1933"
             },
             {
               year: 1934,
-              title: "Le Spectre du sex-appeal & Premier voyage aux États-Unis",
-              desc: "Triomphe sensationnel à New York ; le personnage dalinien devient une sensation médiatique internationale.",
-              type: "exhibition",
+              title: "Le Spectre du sex-appeal & Triomphe à New York",
+              desc: "Exploration psychanalytique de ses angoisses infantiles étayées par des béquilles ; début de la dalimania aux États-Unis.",
+              type: "masterpiece",
               icon: "🗽",
               artworkId: "dali_le_spectre_du_sex_appeal_figueras_1934"
             },
             {
               year: 1936,
-              title: "Métamorphose de Narcisse & Prémonition de la guerre civile",
-              desc: "Chef-d'œuvre de la méthode paranoïaque-critique acquis par Edward James et salué par Sigmund Freud lors de leur rencontre à Londres en 1938.",
+              title: "Métamorphose de Narcisse & Rencontre avec Sigmund Freud",
+              desc: "Sommet de la double image paranoïaque-critique ; en 1938 à Londres, Freud déclare : 'Je n'avais jamais vu un exemple plus parfait de fanatique'.",
               type: "masterpiece",
               icon: "🪞",
               artworkId: "dali_metamorphose_de_narcisse_tate_1936"
             },
             {
-              year: 1938,
-              title: "L'Énigme sans fin",
-              desc: "Démonstration magistrale d'images multiples superposées : jusqu'à six motifs simultanés se métamorphosent dans la même composition.",
-              type: "masterpiece",
-              icon: "🌀",
-              artworkId: "dali_l_enigme_sans_fin_reina_sofia_1938"
-            },
-            {
               year: 1939,
-              title: "L'Énigme d'Hitler & Exclusion du groupe surréaliste",
-              desc: "Face aux positions d'André Breton, Dalí revendique sa liberté absolue d'explorer les mythes contemporains ; Breton forge l'anagramme satirique Avida Dollars.",
+              title: "Rupture définitive avec André Breton",
+              desc: "Exclu du mouvement surréaliste par Breton qui lui reproche son apolitisme provocateur et invente l'anagramme satirique 'Avida Dollars'.",
               type: "breakthrough",
-              icon: "☎️",
-              artworkId: "dali_l_enigme_d_hitler_reina_sofia_1939"
+              icon: "☎️"
             }
           ]
         },
@@ -6067,87 +6046,53 @@ window.ARTISTS_REGISTRY = {
             {
               year: 1941,
               title: "Autoportrait mou avec du lard grillé & Rétrospective au MoMA",
-              desc: "Grande rétrospective triomphale à New York ; il publie sa célèbre autobiographie La Vie secrète de Salvador Dalí.",
-              type: "exhibition",
+              desc: "Exposition triomphale à New York et publication de La Vie secrète ; il se réinvente en maître classique américain.",
+              type: "masterpiece",
               icon: "🥓",
               artworkId: "dali_autoportrait_mou_lard_grille_figueras_1941"
             },
             {
-              year: 1943,
-              title: "Poésie d'Amérique (Les Athlètes cosmiques)",
-              desc: "Vision monumentale des États-Unis anticipant l'iconographie du Pop Art avec l'apparition d'une bouteille de Coca-Cola.",
-              type: "masterpiece",
-              icon: "🏈",
-              artworkId: "dali_poesie_d_amerique_figueras_1943"
-            },
-            {
               year: 1945,
-              title: "Galarina & Le Choc atomique d'Hiroshima",
-              desc: "Hommage à Raphaël à travers le portrait souverain de Gala aux seins découverts, tout en initiant son tournant vers la physique corpusculaire.",
-              type: "masterpiece",
-              icon: "👸",
-              artworkId: "dali_galarina_figueras_1945"
-            },
-            {
-              year: 1947,
-              title: "Portrait de Picasso au XXIe siècle",
-              desc: "Hommage allégorique vénéneux au titan catalan, mêlant admiration colossale et rivalité théâtrale.",
-              type: "masterpiece",
-              icon: "🎭",
-              artworkId: "dali_portrait_picasso_xxi_figueras_1947"
+              title: "Choc atomique d'Hiroshima & Début du cycle nucléaire",
+              desc: "La fission nucléaire bouleverse sa vision du cosmos : la matière discontinue et en lévitation devient le nouveau socle de son art.",
+              type: "turning_point",
+              icon: "⚛️"
             },
             {
               year: 1949,
               title: "Leda Atomica & Le Manifeste Mystique",
-              desc: "Sommet du mysticisme nucléaire : chaque élément pictural flotte en lévitation sous les lois divines de la proportion dorée.",
+              desc: "Chef-d'œuvre du mysticisme nucléaire : Gala en Léda flotte en apesanteur dans un équilibre mathématique réconciliant science et foi sacrée.",
               type: "masterpiece",
-              icon: "⚛️",
+              icon: "🦢",
               artworkId: "dali_leda_atomique_figueras_1949"
             },
             {
               year: 1952,
               title: "Galatée aux sphères",
-              desc: "Fragmentation du visage de Gala en une myriade de particules atomiques tridimensionnelles selon un axe géométrique parfait.",
+              desc: "Tour de force optique où le visage idéalisé de Gala se désintègre en une constellation de sphères atomiques tridimensionnelles.",
               type: "masterpiece",
               icon: "🔮",
               artworkId: "dali_galatee_aux_spheres_figueras_1952"
             },
             {
-              year: 1960,
-              title: "Gala nue de dos regardant la mer",
-              desc: "Élégie intime à Portlligat alliant monumentalité plastique et trompe-l'œil optique préfigurant Abraham Lincoln.",
-              type: "masterpiece",
-              icon: "🌊",
-              artworkId: "dali_gala_nue_de_dos_figueras_1960"
-            },
-            {
               year: 1972,
               title: "Plafond monumental du Théâtre-Musée : Le Palais du Vent",
-              desc: "Chef-d'œuvre in situ à Figueras où Dalí et Gala projettent leurs corps vus en contre-plongée vertigineuse vers un ciel d'or et de nuages.",
+              desc: "Création magistrale in situ à Figueras où Dalí et Gala se propulsent en perspective vertigineuse dans un ciel doré infini.",
               type: "masterpiece",
               icon: "🏛️",
               artworkId: "dali_le_palais_du_vent_plafond_figueras_1972"
             },
             {
-              year: 1973,
-              title: "Les Songes drolatiques de Pantagruel & Gravures fantastiques",
-              desc: "Série magistrale de lithographies et estampes réinterprétant François Rabelais dans une veine grotesque et jubilatoire.",
-              type: "masterpiece",
-              icon: "📜",
-              artworkId: "dali_songes_pantagruel_bouffon_figueras_1973"
-            },
-            {
               year: 1982,
-              title: "Mort de Gala & Écho géologique - La Piétà",
-              desc: "Dévasté par le décès de sa muse, il se retire au château de Púbol et peint ses ultimes toiles inspirées de Michel-Ange et de la théorie des catastrophes.",
-              type: "masterpiece",
-              icon: "🕊️",
-              artworkId: "dali_echo_geologique_la_pieta_figueras_1982"
+              title: "Mort de Gala au château de Púbol & Dernières toiles",
+              desc: "Dévasté par la disparition de sa compagne de toujours, il peint ses ultimes toiles mélancoliques inspirées de la théorie des catastrophes.",
+              type: "turning_point",
+              icon: "🕊️"
             },
             {
               year: 1989,
               title: "Mort à Figueras & Inhumation au Théâtre-Musée",
-              desc: "S'éteint à 84 ans au son de Tristan et Iseult de Wagner. Il repose selon sa volonté dans la crypte de son Théâtre-Musée de Figueras.",
+              desc: "S'éteint à 84 ans en écoutant Tristan et Iseult de Wagner. Il repose selon sa volonté dans la crypte au cœur même de son chef-d'œuvre architectural.",
               type: "death",
               icon: "⚰️"
             }

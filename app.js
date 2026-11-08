@@ -1219,6 +1219,7 @@ const ART_MOVEMENTS = [
     parentCivId: "occ_baroque_classique",
     lane: "mod_architecture",
     name: "Baroque romain & Classicisme versaillais",
+    bannerImg: "https://lh3.googleusercontent.com/d/15c6bAHhzSTURuto6tFJPw1bCe_G6z0Kx",
     yearStart: 1600,
     yearEnd: 1760,
     tier: 1,
