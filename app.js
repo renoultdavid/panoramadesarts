@@ -94,6 +94,32 @@ const HISTORICAL_MILESTONES = [
   { year: 330, category: "gold", icon: "🏛️", type: "Fondation impériale", title: "Inauguration de Constantinople", desc: "L'empereur Constantin transfère la capitale de l'Empire romain sur le Bosphore, inaugurant plus d'un millénaire de civilisation byzantine." },
   { year: 622, category: "gold", icon: "🌙", type: "Événement spirituel", title: "L'Hégire & Ère islamique", desc: "Départ du prophète Mahomet de La Mecque vers Médine, point de départ du calendrier musulman et de l'essor des arts de l'Islam." },
 
+  // --- IXe - Xe SIÈCLE (ÉPOQUE CAROLINGIENNE & AN MIL) ---
+  { year: 800, category: "gold", icon: "👑", type: "Sacre impérial", title: "Charlemagne couronné Empereur d'Occident", desc: "Le pape Léon III couronne Charlemagne à Rome, restaurant l'Empire romain d'Occident et impulsant la Renaissance carolingienne dans les arts et l'écriture." },
+  { year: 843, category: "war", icon: "📜", type: "Partage impérial", title: "Traité de Verdun & Partition de l'Europe", desc: "Les petits-fils de Charlemagne partagent l'Empire en Francie occidentale, Francie orientale et Lotharingie, matrice des futures nations européennes." },
+  { year: 910, category: "gold", icon: "⛪", type: "Fondation monastique", title: "Fondation de l'Abbaye de Cluny", desc: "Guillaume d'Aquitaine fonde Cluny sous la seule autorité papale, matrice d'un ordre monastique réformateur et bâtisseur d'églises romanes à travers toute l'Europe." },
+  { year: 987, category: "gold", icon: "👑", type: "Fondation capétienne", title: "Élection et Sacre d'Hugues Capet", desc: "Les grands du royaume élisent Hugues Capet roi des Francs, fondant la dynastie capétienne qui unifiera progressivement le royaume de France." },
+  { year: 1000, category: "gold", icon: "✨", type: "Passage de l'An Mil", title: "L'An Mil & l'essor de la Chrétienté", desc: "Renouveau démographique et économique de l'Occident, célébré par le moine Raoul Glaber décrivant la terre « se revêtant d'un blanc manteau d'églises »." },
+
+  // --- XIe SIÈCLE (ÂGE ROMAN, PÈLERINAGES & CROISADES) ---
+  { year: 1054, category: "disaster", icon: "⚡", type: "Schisme d'Orient", title: "Grand Schisme entre Rome et Constantinople", desc: "Excommunications mutuelles entre le patriarche de Constantinople et les légats du pape, scellant la séparation durable entre catholicisme et orthodoxie." },
+  { year: 1066, category: "war", icon: "⚔️", type: "Conquête normande", title: "Bataille d'Hastings & Guillaume le Conquérant", desc: "Guillaume de Normandie conquiert l'Angleterre, immortalisé sur la monumentale Tapisserie de Bayeux et déployant l'architecture anglo-normande (Durham, Caen)." },
+  { year: 1075, category: "gold", icon: "⚖️", type: "Réforme de l'Église", title: "Réforme Grégorienne (Dictatus Papae)", desc: "Grégoire VII affirme l'indépendance de l'Église face aux empereurs du Saint-Empire (Querelle des Investitures) et dynamise les chantiers romans." },
+  { year: 1095, category: "war", icon: "🛡️", type: "Appel de Clermont", title: "Urbain II prêche la Première Croisade", desc: "Le pape appelle la chevalerie chrétienne à libérer Jérusalem, ouvrant deux siècles d'échanges culturels et artistiques intenses entre Orient et Occident." },
+  { year: 1099, category: "war", icon: "⚔️", type: "Prise de Jérusalem", title: "Fondation des États Latins d'Orient", desc: "Prise de Jérusalem par Godefroy de Bouillon et naissance des royaumes croisés, stimulant le commerce maritime méditerranéen et les pèlerinages." },
+
+  // --- XIIe SIÈCLE (RENAISSANCE DU XIIe S., CÎTEAUX & ESSOR GOTHIQUE) ---
+  { year: 1115, category: "gold", icon: "🌿", type: "Réforme monastique", title: "Bernard de Clairvaux fonde l'Ordre Cistercien", desc: "Saint Bernard prône le dépouillement architectural et la pureté des lignes contre le luxe ornemental clunisien, diffusant l'art cistercien épuré." },
+  { year: 1144, category: "tech", icon: "✨", type: "Naissance du Gothique", title: "Inauguration de la Basilique Saint-Denis", desc: "L'abbé Suger consacre le chœur de Saint-Denis : la croisée d'ogives et les vitraux inventent la lumière théologique du premier art gothique." },
+  { year: 1152, category: "gold", icon: "👑", type: "Union politique", title: "Mariage d'Aliénor d'Aquitaine & Henri Plantagenêt", desc: "La duchesse d'Aquitaine épouse le futur roi d'Angleterre, créant l'Empire plantagenêt et favorisant la poésie courtoise des troubadours." },
+  { year: 1190, category: "gold", icon: "🏰", type: "Chantier royal", title: "Chantier du Louvre & Enceinte de Philippe Auguste", desc: "Philippe Auguste dresse l'enceinte fortifiée et le donjon médiéval du Louvre à Paris avant de partir pour la Troisième Croisade." },
+
+  // --- XIIIe SIÈCLE (APOGÉE GOTHIQUE & UNIVERSITÉS) ---
+  { year: 1200, category: "gold", icon: "📚", type: "Savoir médiéval", title: "Fondation de l'Université de Paris (Sorbonne)", desc: "Philippe Auguste accorde des privilèges aux maîtres et écoliers parisiens, faisant de la capitale le phare de la théologie et de la philosophie scolastique." },
+  { year: 1214, category: "war", icon: "⚔️", type: "Bataille fondatrice", title: "Victoire de Bouvines par Philippe Auguste", desc: "Le roi de France triomphe de la coalition anglo-flamando-germanique, affermissant l'autorité capétienne et l'unité territoriale du royaume." },
+  { year: 1215, category: "gold", icon: "⚖️", type: "Libertés publiques", title: "Promulgation de la Magna Carta en Angleterre", desc: "Les barons anglais imposent au roi Jean sans Terre la Grande Charte, limitant le pouvoir royal et posant les bases du constitutionnalisme." },
+  { year: 1248, category: "tech", icon: "💎", type: "Joyau du gothique rayonnant", title: "Consécration de la Sainte-Chapelle à Paris", desc: "Saint Louis bâtit en un temps record une châsse de verre et de lumière pour abriter la Couronne d'épines du Christ, sommet du gothique rayonnant." },
+
   // --- XIVe SIÈCLE (TRECENTO & GOTHICITÉ ITALIENNE) ---
   { year: 1309, category: "gold", icon: "🏛️", type: "Papauté en exil", title: "Installation des Papes en Avignon", desc: "Clément V installe la Curie pontificale en Avignon, faisant de la cité un carrefour majeur d'art gothique international et d'influence toscane." },
   { year: 1337, category: "war", icon: "⚔️", type: "Guerre dynastique", title: "Déclenchement de la Guerre de Cent Ans", desc: "Le roi d'Angleterre Édouard III revendique la couronne de France, ouvrant un siècle de conflits qui redéfinit les frontières et les cours princières européennes." },
@@ -870,7 +896,7 @@ const ART_MOVEMENTS = [
     parentCivId: "occ_baroque_classique",
     lane: "mod_peinture",
     name: "Baroque & Ténébrisme caravagesque",
-    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczOI-kaE5mOicZKJP4DR9jrt7RG2tnK6JeklA0CxKn9JDetuCbebtb7pUdYzFvTcJ0u6OElMqgpPX80vhi5WkRsrMqRO8nDg10K7r_9NQJocRIfSR1f0D8Vpg5PXSUVOKxDuPnDiEevoSi4gqIZqko1ubg=w1660-h704-s-no-gm?authuser=0",
+    bannerImg: "https://lh3.googleusercontent.com/d/16ZeVlhonwV6Qye_CMDQFOCCGeH0kTOLB",
     yearStart: 1595,
     yearEnd: 1660,
     tier: 1,
@@ -1100,6 +1126,7 @@ const ART_MOVEMENTS = [
     parentCivId: "occ_baroque_classique",
     lane: "mod_sculpture",
     name: "Baroque théâtral : Le Bernin & Puget",
+    bannerImg: "https://lh3.googleusercontent.com/d/1p8-HEoF-9E_EqNpcr3iNa0F0sa8L_TkB",
     yearStart: 1600,
     yearEnd: 1730,
     tier: 0,
@@ -1143,6 +1170,7 @@ const ART_MOVEMENTS = [
     parentCivId: "occ_roman",
     lane: "mod_architecture",
     name: "L'Âge roman & la Voûte de pierre",
+    bannerImg: "https://lh3.googleusercontent.com/d/1PsyofKpbytv2Gh5PMt38nkQpN_riaZz8",
     yearStart: 1000,
     yearEnd: 1150,
     tier: 0,
@@ -4705,7 +4733,6 @@ function openCivilisationPavilion(civ, initialTab = 'panoramic') {
   const emblemEl = document.getElementById('pavilion-emblem');
   const titleEl = document.getElementById('pavilion-title');
   const epochEl = document.getElementById('pavilion-epoch');
-  if (emblemEl) emblemEl.textContent = civ.icon || getCivIcon(civ);
   if (titleEl) titleEl.textContent = civ.name;
   if (epochEl) epochEl.textContent = civ.epoch;
 
@@ -4715,6 +4742,16 @@ function openCivilisationPavilion(civ, initialTab = 'panoramic') {
   const heroBadge = bannerBox ? bannerBox.querySelector('.hero-banner-badge') : null;
 
   const finalBannerUrl = (movData && movData.bannerImg) || civ.bannerImg || '';
+  if (emblemEl) {
+    if (finalBannerUrl) {
+      emblemEl.innerHTML = `<img src="${finalBannerUrl}" alt="${escapeHtmlAttr(civ.name)}" />`;
+      emblemEl.classList.add('has-img');
+    } else {
+      emblemEl.textContent = civ.icon || getCivIcon(civ);
+      emblemEl.classList.remove('has-img');
+    }
+  }
+
   if (finalBannerUrl && bannerImg && bannerBox) {
     bannerImg.src = finalBannerUrl;
     bannerBox.style.display = 'block';
@@ -6086,10 +6123,14 @@ function renderSynchronousTheatre(activeCivs, currentYear) {
         `;
       }
 
+      const heroEmblemHtml = bannerOrImg
+        ? `<img src="${bannerOrImg}" alt="${escapeHtmlAttr(civ.name)}" />`
+        : icon;
+
       card.innerHTML = `
         <div class="theatre-hero-top">
           <div class="theatre-hero-left">
-            <span class="theatre-hero-emblem">${icon}</span>
+            <span class="theatre-hero-emblem">${heroEmblemHtml}</span>
             <div class="theatre-hero-titles">
               <h3>${escapeHtmlAttr(civ.name)}</h3>
               <span class="theatre-hero-epoch">✦ ${escapeHtmlAttr(civ.epoch)}</span>
@@ -6182,9 +6223,13 @@ function renderSynchronousTheatre(activeCivs, currentYear) {
       card.setAttribute('data-civ-id', civ.id);
       card.style.setProperty('--civ-card-color', civ.themeColor || '#d4af37');
 
+      const cardEmblemHtml = bannerOrImg
+        ? `<img src="${bannerOrImg}" alt="${escapeHtmlAttr(civ.name)}" />`
+        : icon;
+
       card.innerHTML = `
         <div class="theatre-card-top">
-          <span class="theatre-card-emblem" title="${escapeHtmlAttr(civ.name)}">${icon}</span>
+          <span class="theatre-card-emblem" title="${escapeHtmlAttr(civ.name)}">${cardEmblemHtml}</span>
           <div class="theatre-card-titles">
             <div class="theatre-card-name" title="${escapeHtmlAttr(civ.name)}">${escapeHtmlAttr(civ.name)}</div>
             <div class="theatre-card-epoch">${escapeHtmlAttr(civ.epoch)}</div>
