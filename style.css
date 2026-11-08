@@ -8577,7 +8577,7 @@ body {
 
 .artist-v-chapter-years {
   font-family: 'Cinzel', serif;
-  font-size: 0.72rem;
+  font-size: 0.88rem;
   font-weight: 700;
   letter-spacing: 1.2px;
   color: var(--chapter-color, #d4af37);
@@ -8585,16 +8585,16 @@ body {
 
 .artist-v-chapter-title {
   font-family: 'Cinzel', serif;
-  font-size: 1.05rem;
+  font-size: 1.25rem;
   font-weight: 700;
   color: #fff;
-  margin: 3px 0 4px 0;
+  margin: 4px 0 6px 0;
 }
 
 .artist-v-chapter-summary {
-  font-size: 0.82rem;
-  line-height: 1.45;
-  color: rgba(255, 255, 255, 0.75);
+  font-size: 0.98rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.85);
 }
 
 /* Jalon / Événement le long de l'axe */
@@ -8602,22 +8602,22 @@ body {
   display: flex;
   align-items: flex-start;
   gap: 20px;
-  margin-bottom: 18px;
+  margin-bottom: 20px;
   position: relative;
 }
 
 .artist-v-node {
   position: relative;
   z-index: 2;
-  width: 28px;
-  height: 28px;
+  width: 32px;
+  height: 32px;
   border-radius: 50%;
   background: #11151e;
   border: 2px solid var(--node-color, #d4af37);
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 0 10px rgba(212, 175, 55, 0.3);
+  box-shadow: 0 0 12px rgba(212, 175, 55, 0.35);
   flex-shrink: 0;
   margin-left: -1px;
 }
@@ -8632,33 +8632,33 @@ body {
 }
 
 .artist-v-node .node-emblem {
-  font-size: 0.82rem;
+  font-size: 0.95rem;
 }
 
 .artist-v-card {
   flex-grow: 1;
-  background: rgba(18, 23, 33, 0.85);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 6px;
-  padding: 12px 16px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+  background: rgba(18, 23, 33, 0.88);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 14px 18px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.35);
   transition: all 0.25s ease;
 }
 
 .artist-v-card:hover {
-  border-color: rgba(212, 175, 55, 0.4);
-  background: rgba(22, 28, 40, 0.95);
+  border-color: rgba(212, 175, 55, 0.45);
+  background: rgba(22, 28, 40, 0.96);
   transform: translateX(3px);
 }
 
 .artist-v-card.has-artwork-link {
   cursor: pointer;
-  border-left: 3.5px solid var(--gold-pure, #d4af37);
+  border-left: 4px solid var(--gold-pure, #d4af37);
 }
 
 .artist-v-card.has-artwork-link:hover {
   border-left-color: #ffd700;
-  box-shadow: 0 4px 20px rgba(212, 175, 55, 0.25);
+  box-shadow: 0 4px 22px rgba(212, 175, 55, 0.3);
 }
 
 .v-card-top {
@@ -8666,60 +8666,60 @@ body {
   align-items: center;
   justify-content: space-between;
   gap: 10px;
-  margin-bottom: 5px;
+  margin-bottom: 6px;
 }
 
 .v-card-year {
   font-family: 'Cinzel', serif;
-  font-size: 0.82rem;
+  font-size: 1.0rem;
   font-weight: 700;
   color: var(--gold-pure, #d4af37);
   letter-spacing: 0.8px;
 }
 
 .v-card-type-tag {
-  font-size: 0.58rem;
+  font-size: 0.72rem;
   font-family: 'Cinzel', serif;
   text-transform: uppercase;
   letter-spacing: 1px;
-  padding: 1px 6px;
+  padding: 2px 8px;
   border-radius: 3px;
-  background: rgba(255, 255, 255, 0.06);
+  background: rgba(255, 255, 255, 0.08);
   color: var(--gold-pale, #f3e5ab);
 }
 
 .v-card-title {
   font-family: 'Cinzel', serif;
-  font-size: 0.92rem;
+  font-size: 1.08rem;
   font-weight: 700;
   color: #ffffff;
-  margin-bottom: 6px;
+  margin-bottom: 8px;
 }
 
 .v-card-desc {
-  font-size: 0.82rem;
-  line-height: 1.5;
-  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.98rem;
+  line-height: 1.65;
+  color: rgba(255, 255, 255, 0.88);
 }
 
 /* Aperçu de chef-d'œuvre intégré */
 .v-card-artwork-preview {
   display: flex;
-  gap: 12px;
-  margin-top: 10px;
-  padding: 8px 10px;
-  background: rgba(10, 14, 22, 0.7);
-  border: 1px solid rgba(212, 175, 55, 0.2);
-  border-radius: 4px;
+  gap: 14px;
+  margin-top: 12px;
+  padding: 10px 12px;
+  background: rgba(10, 14, 22, 0.75);
+  border: 1px solid rgba(212, 175, 55, 0.25);
+  border-radius: 6px;
   align-items: center;
 }
 
 .v-card-art-thumb {
-  width: 65px;
-  height: 52px;
+  width: 75px;
+  height: 60px;
   object-fit: cover;
-  border-radius: 3px;
-  border: 1px solid rgba(212, 175, 55, 0.3);
+  border-radius: 4px;
+  border: 1px solid rgba(212, 175, 55, 0.35);
   flex-shrink: 0;
 }
 
@@ -8730,37 +8730,38 @@ body {
 }
 
 .v-card-art-title {
-  font-size: 0.78rem;
+  font-size: 0.92rem;
   font-weight: 700;
   color: #fff;
-  line-height: 1.25;
+  line-height: 1.3;
 }
 
 .v-card-art-sub {
-  font-size: 0.68rem;
+  font-size: 0.82rem;
   color: var(--gold-pale, #f3e5ab);
-  margin-top: 2px;
+  margin-top: 3px;
 }
 
 .v-card-art-hint {
-  font-size: 0.65rem;
+  font-size: 0.78rem;
   color: var(--gold-pure, #d4af37);
   font-style: italic;
-  margin-top: 3px;
+  margin-top: 4px;
 }
 
 /* Bouton pour aller voir un autre artiste lié */
 .btn-v-linked-artist {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
-  margin-top: 8px;
-  padding: 4px 10px;
+  gap: 8px;
+  margin-top: 10px;
+  padding: 6px 14px;
   border-radius: 14px;
-  background: rgba(212, 175, 55, 0.12);
-  border: 1px solid rgba(212, 175, 55, 0.3);
+  background: rgba(212, 175, 55, 0.15);
+  border: 1px solid rgba(212, 175, 55, 0.35);
   color: var(--gold-pale, #f3e5ab);
-  font-size: 0.72rem;
+  font-size: 0.85rem;
+  font-weight: 600;
   cursor: pointer;
   transition: all 0.2s ease;
   font-family: inherit;
@@ -8858,34 +8859,34 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-width: 270px;
-  max-width: 330px;
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.06) 0%, rgba(18, 26, 42, 0.96) 100%);
-  border: 1.5px solid rgba(212, 175, 55, 0.3);
+  min-width: 300px;
+  max-width: 360px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.08) 0%, rgba(18, 26, 42, 0.96) 100%);
+  border: 1.5px solid rgba(212, 175, 55, 0.35);
   border-radius: 8px;
-  padding: 12px 14px;
+  padding: 14px 16px;
   flex-shrink: 0;
   transition: all 0.22s ease;
   box-sizing: border-box;
 }
 
 .pavilion-artist-vignette:hover {
-  background: linear-gradient(135deg, rgba(212, 175, 55, 0.2) 0%, rgba(22, 32, 52, 0.98) 100%);
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.22) 0%, rgba(22, 32, 52, 0.98) 100%);
   border-color: var(--gold-pure, #d4af37);
   transform: translateY(-2px);
-  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.75), 0 0 14px rgba(212, 175, 55, 0.3);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.75), 0 0 14px rgba(212, 175, 55, 0.35);
 }
 
 .p-art-top {
   display: flex;
   align-items: center;
-  gap: 10px;
-  margin-bottom: 8px;
+  gap: 12px;
+  margin-bottom: 10px;
 }
 
 .p-art-avatar {
-  width: 42px;
-  height: 42px;
+  width: 48px;
+  height: 48px;
   border-radius: 50%;
   object-fit: cover;
   background: rgba(212, 175, 55, 0.15);
@@ -8893,21 +8894,21 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.25rem;
+  font-size: 1.35rem;
   flex-shrink: 0;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
 }
 
 .p-art-avatar-fallback {
-  width: 42px;
-  height: 42px;
+  width: 48px;
+  height: 48px;
   border-radius: 50%;
   background: rgba(212, 175, 55, 0.15);
   border: 1.5px solid var(--gold-pure, #d4af37);
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.25rem;
+  font-size: 1.35rem;
   flex-shrink: 0;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
 }
@@ -8920,35 +8921,35 @@ body {
 
 .p-art-name {
   font-family: 'Cinzel', serif;
-  font-size: 0.88rem;
+  font-size: 1.05rem;
   font-weight: 700;
   color: #fff;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  line-height: 1.2;
-}
-
-.p-art-dates {
-  font-size: 0.72rem;
-  color: var(--gold-pale, #eed88f);
-  margin-top: 2px;
-}
-
-.p-art-role {
-  font-size: 0.72rem;
-  font-weight: 600;
-  color: #38bdf8;
-  letter-spacing: 0.3px;
-  margin-bottom: 6px;
   line-height: 1.25;
 }
 
+.p-art-dates {
+  font-size: 0.85rem;
+  color: var(--gold-pale, #eed88f);
+  margin-top: 3px;
+}
+
+.p-art-role {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: #38bdf8;
+  letter-spacing: 0.3px;
+  margin-bottom: 8px;
+  line-height: 1.35;
+}
+
 .p-art-desc {
-  font-size: 0.75rem;
-  line-height: 1.45;
-  color: rgba(255, 255, 255, 0.78);
-  margin-bottom: 10px;
+  font-size: 0.92rem;
+  line-height: 1.55;
+  color: rgba(255, 255, 255, 0.88);
+  margin-bottom: 12px;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
@@ -8960,14 +8961,14 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 6px;
-  padding: 6px 10px;
-  border-radius: 4px;
-  background: rgba(212, 175, 55, 0.15);
-  border: 1px solid rgba(212, 175, 55, 0.4);
+  gap: 8px;
+  padding: 8px 12px;
+  border-radius: 5px;
+  background: rgba(212, 175, 55, 0.16);
+  border: 1px solid rgba(212, 175, 55, 0.45);
   color: var(--gold-pale, #eed88f);
   font-family: 'Cinzel', serif;
-  font-size: 0.72rem;
+  font-size: 0.82rem;
   font-weight: 700;
   cursor: pointer;
   transition: all 0.2s ease;
@@ -8992,53 +8993,57 @@ body {
 
 /* Carte des foyers créateurs dans le volet central */
 .mov-focal-card {
-  padding: 14px 16px;
+  width: 100%;
+  padding: 18px 20px;
   height: 100%;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: rgba(14, 20, 32, 0.4);
+  background: rgba(14, 20, 32, 0.7);
+  border-radius: 6px;
+  border: 1px solid rgba(212, 175, 55, 0.25);
 }
 
 .mov-focal-top {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
   margin-bottom: 10px;
 }
 
 .mov-focal-icon {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
 }
 
 .mov-focal-title {
   font-family: 'Cinzel', serif;
-  font-size: 0.88rem;
+  font-size: 1.05rem;
   font-weight: 700;
   color: var(--gold-pure, #d4af37);
   letter-spacing: 0.5px;
 }
 
 .mov-focal-desc {
-  font-size: 0.82rem;
-  line-height: 1.55;
-  color: rgba(255, 255, 255, 0.85);
-  margin-bottom: 12px;
+  font-size: 0.96rem;
+  line-height: 1.6;
+  color: #f1f5f9;
+  margin-bottom: 14px;
 }
 
 .mov-focal-tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 6px;
+  gap: 8px;
 }
 
 .mov-focal-tag {
-  font-size: 0.7rem;
+  font-size: 0.82rem;
   font-family: 'Cinzel', serif;
-  padding: 3px 8px;
+  font-weight: 600;
+  padding: 4px 10px;
   border-radius: 12px;
-  background: rgba(212, 175, 55, 0.12);
-  border: 1px solid rgba(212, 175, 55, 0.3);
+  background: rgba(212, 175, 55, 0.18);
+  border: 1px solid rgba(212, 175, 55, 0.4);
   color: var(--gold-pale, #eed88f);
 }

@@ -5604,7 +5604,7 @@ function renderMovementFocalCenters(civ, movData) {
     mapBox.style.cursor = 'default';
     mapBox.title = '';
     mapBox.onclick = null;
-    mapBox.style.display = 'none';
+    mapBox.style.display = 'flex';
   }
   if (expandPill) {
     expandPill.style.display = 'none';
