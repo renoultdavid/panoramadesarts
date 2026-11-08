@@ -5360,11 +5360,10 @@ window.ARTISTS_REGISTRY = {
             },
             {
               year: 1849,
-              title: "L'Homme à la pipe - Tête nue (Musée Fabre, Montpellier)",
-              desc: "Variante intimiste léguée par Alfred Bruyas : chevelure ébouriffée et regard mélancolique défiant les conventions bourgeoises.",
-              type: "masterpiece",
-              icon: "🎨",
-              artworkId: "courbet_homme_a_la_pipe_montpellier_1849"
+              title: "L'Homme à la pipe (Variante de Montpellier)",
+              desc: "Variante intimiste léguée par Alfred Bruyas au Musée Fabre : chevelure ébouriffée et regard mélancolique défiant les conventions bourgeoises.",
+              type: "milestone",
+              icon: "🎨"
             }
           ]
         },
@@ -5408,9 +5407,8 @@ window.ARTISTS_REGISTRY = {
               year: 1854,
               title: "Portrait d'Alfred Bruyas de profil (Musée Fabre, Montpellier)",
               desc: "Profil hiératique et noble du mécène visionnaire à la barbe rousse, sculpté par une lumière latérale dramatique.",
-              type: "masterpiece",
-              icon: "👤",
-              artworkId: "courbet_portrait_bruyas_profil_montpellier_1854"
+              type: "milestone",
+              icon: "👤"
             },
             {
               year: 1854,
@@ -5440,9 +5438,8 @@ window.ARTISTS_REGISTRY = {
               year: 1854,
               title: "Portrait d'Alfred Bruyas malade (Musée Fabre, Montpellier)",
               desc: "Sensibilité poignante saisissant le mécène alité dans sa vulnérabilité humaine et son intimité contemplative.",
-              type: "masterpiece",
-              icon: "🛌",
-              artworkId: "courbet_portrait_bruyas_malade_montpellier_1854"
+              type: "milestone",
+              icon: "🛌"
             },
             {
               year: 1855,
@@ -5455,25 +5452,22 @@ window.ARTISTS_REGISTRY = {
               year: 1857,
               title: "Les Étangs à Palavas (Musée Fabre, Montpellier)",
               desc: "Vue panoramique contemplative des eaux calmes sous un ciel nuageux méridional, travaillée au couteau à palette.",
-              type: "masterpiece",
-              icon: "💧",
-              artworkId: "courbet_les_etangs_a_palavas_montpellier_1857"
+              type: "milestone",
+              icon: "💧"
             },
             {
               year: 1857,
               title: "Le Pont d'Ambrussum (Musée Fabre, Montpellier)",
               desc: "Vestige de l'arche romaine franchissant le Vidourle, alliant matérialité minérale brute et permanence du temps.",
-              type: "masterpiece",
-              icon: "🏛️",
-              artworkId: "courbet_le_pont_d_ambrussum_montpellier_1857"
+              type: "milestone",
+              icon: "🏛️"
             },
             {
               year: 1857,
               title: "Vue de la Tour de Farges (Musée Fabre, Montpellier)",
               desc: "Harmonie lumineuse de la campagne de Lunel-Viel dominée par le pin parasol et la clarté sereine du Languedoc.",
-              type: "masterpiece",
-              icon: "🌲",
-              artworkId: "courbet_vue_de_la_tour_de_farges_montpellier_1857"
+              type: "milestone",
+              icon: "🌲"
             }
           ]
         },
@@ -5518,9 +5512,8 @@ window.ARTISTS_REGISTRY = {
               year: 1873,
               title: "Paysage avec chasseur (Musée national de l'art occidental, Tokyo)",
               desc: "Affût silencieux du chasseur face aux falaises de la Loue avant le départ forcé en exil vers la Suisse.",
-              type: "masterpiece",
-              icon: "🎯",
-              artworkId: "courbet_paysage_avec_chasseur_tokyo_1873"
+              type: "milestone",
+              icon: "🎯"
             },
             {
               year: 1873,
@@ -6451,6 +6444,379 @@ window.ARTISTS_REGISTRY = {
               desc: "S'éteint à 77 ans entouré de ses disciples ; la France des Bourbons refuse le rapatriement de son corps, mais son cœur repose au Père-Lachaise à Paris.",
               type: "death",
               icon: "⚰️"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  champaigne: {
+    id: "champaigne",
+    name: "Philippe de Champaigne",
+    sortName: "Champaigne Philippe de",
+    sortLetter: "C",
+    dates: "1602 – 1674",
+    movement: "Classicisme français, Jansénisme & Peinture d'Âme",
+    nationality: "Français (né à Bruxelles / naturalisé en 1637)",
+    techniques: "Huile sur toile, rigueur géométrique classique, vérité morale du modèle, précision tactile flamande, accords froids (pourpres, bleus de lapis, gris austères), drapés solennels",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczMLSuXY_xf3Xvt0QgWfbRMuSc3ieMchvGVkd7NV35IlvuF25yx0K2oMMeCYNu5BTdL5thBHdq47-d0VPxKQnqC9mfxI-eAOXRowmc_i_71sv0pysT0hYEe1gcq3mk7jxi0ZWlBEaO_c0N46JUUHve1Ddw=w1942-h824-s-no-gm?authuser=0",
+    bio: [
+      "Philippe de Champaigne (1602 – 1674) est l'une des figures les plus importantes du classicisme français du XVIIe siècle. Né à Bruxelles mais naturalisé français, il fut le peintre favori de Marie de Médicis et du Cardinal de Richelieu avant de devenir le peintre attitré de l'abbaye de Port-Royal, centre du jansénisme, dont l'austérité spirituelle a profondément marqué son œuvre de maturité.",
+      "Son genre pictural se définit par un réalisme solennel et une grande clarté de composition. Champaigne rejette les artifices et les tourbillons baroques pour privilégier la mesure, l'ordre et une analyse psychologique pénétrante. Son style se caractérise par une précision quasi flamande dans le rendu des matières (soieries, dentelles, pierres), alliée à une rigueur monumentale. Ses portraits, d'une grande sobriété, cherchent à exprimer la vérité morale du modèle plutôt que la flatterie.",
+      "L'évolution de son style s'organise en trois grandes phases : les débuts parisiens marqués par les commandes officielles et le faste pour la régente et Richelieu ; la période médiane où son art se décante vers une monumentalité épurée ; et enfin la période janséniste (à partir des années 1640), où sa conversion spirituelle donne naissance à des chefs-d'œuvre de dépouillement mystique, comme le célèbre Ex-voto de 1662, tableau d'action de grâce pour la guérison miraculeuse de sa fille religieuse."
+    ],
+    corpus: {
+      total: 424,
+      seen: 18,
+      paintingsCount: 424,
+      sourceTitle: "Bernard Dorival, Philippe de Champaigne 1602-1674 : la vie, l'œuvre et le catalogue raisonné (1976 / 1992)",
+      sourceNotes: "L'œuvre de Philippe de Champaigne est magistralement documentée par le catalogue raisonné de Bernard Dorival en deux volumes (1976, réédité et complété en 1992). Dorival y recense 424 peintures strictement autographes de la main du maître, en écartant les copies et variantes d'atelier de son neveu Jean-Baptiste de Champaigne. Le corpus rassemble tant les prestigieux portraits d'apparat du pouvoir royal (Richelieu, Louis XIII, régente Marie de Médicis) que les cycles de dévotion pour les églises parisiennes et les toiles jansénistes de Port-Royal. 18 chefs-d'œuvre ont été contemplés in situ, notamment au Musée du Louvre, au Musée des Beaux-Arts de Rennes, au Musée d'arts de Nantes et au Musée National d'Art Occidental de Tokyo.",
+      details: [
+        {
+          label: "Portraits d'apparat, Richelieu & magistrats",
+          count: 110,
+          icon: "👑",
+          color: "#c0392b",
+          seen: 6,
+          note: "Cardinal de Richelieu, Louis XIII couronné par la Victoire, Jean-Antoine de Mesmes, magistrats et hommes d'État"
+        },
+        {
+          label: "Dévotion sacrée & grands retables d'églises",
+          count: 165,
+          icon: "✝️",
+          color: "#d4af37",
+          seen: 6,
+          note: "La Grande Cène, La Petite Cène, Le Christ au jardin des Oliviers, Le Christ mort sur son linceul"
+        },
+        {
+          label: "Port-Royal, dévotion janséniste & portraits de foi",
+          count: 75,
+          icon: "🕯️",
+          color: "#2980b9",
+          seen: 3,
+          note: "Ex-voto de 1662 (guérison de Sœur Catherine), Robert Arnauld d'Andilly, portraits des solitaires"
+        },
+        {
+          label: "Portraits intimes de famille & grands décors civils",
+          count: 74,
+          icon: "🖼️",
+          color: "#8e44ad",
+          seen: 3,
+          note: "Les Enfants Habert de Montmor (Rennes), décors du Palais du Luxembourg et du Palais-Cardinal"
+        }
+      ]
+    },
+    biographyTimeline: {
+      birth: 1602,
+      birthPlace: "Bruxelles (Pays-Bas espagnols)",
+      death: 1674,
+      deathPlace: "Paris (France)",
+      periods: [
+        {
+          title: "Les Années Royales & Le Service de Richelieu",
+          years: "1602 – 1642",
+          desc: "Formation flamande auprès de Jacques Fouquières, arrivée à Paris en 1621 sur le chantier du Luxembourg aux côtés de Nicolas Poussin, puis nomination comme premier peintre de la reine-mère Marie de Médicis et peintre exclusif du cardinal de Richelieu.",
+          events: [
+            {
+              year: 1602,
+              title: "Naissance à Bruxelles",
+              desc: "Issu d'une famille modeste, il étudie la peinture de paysage auprès de Jacques Fouquières avant de refuser de rejoindre l'atelier de Rubens à Anvers.",
+              type: "birth",
+              icon: "🇧🇪"
+            },
+            {
+              year: 1621,
+              title: "Arrivée à Paris & chantier du Luxembourg",
+              desc: "S'installe à Paris et travaille sous la direction de Nicolas Duchesne aux décors du Palais du Luxembourg, où il se lie d'amitié avec le jeune Nicolas Poussin.",
+              type: "milestone",
+              icon: "🏛️"
+            },
+            {
+              year: 1628,
+              title: "Premier peintre de la reine-mère",
+              desc: "À la mort de Duchesne dont il a épousé la fille, il reçoit la charge officielle de peintre de Marie de Médicis et commence à décorer l'église des Carmélites de la rue Saint-Jacques.",
+              type: "milestone",
+              icon: "👑"
+            },
+            {
+              year: 1633,
+              title: "Le Cardinal de Richelieu",
+              desc: "Portrait d'apparat magistral commandé pour le Palais-Cardinal : la pourpre cardinalice ondule avec une précision souveraine qui immortalise l'autorité du Premier ministre de Louis XIII.",
+              type: "masterpiece",
+              icon: "🔴",
+              artworkId: "champaigne_cardinal_richelieu_louvre_1633"
+            },
+            {
+              year: 1635,
+              title: "Louis XIII couronné par la Victoire",
+              desc: "Célébration du souverain vainqueur du siège de La Rochelle, couronné de lauriers célestes dans une armure étincelante sous la protection divine.",
+              type: "masterpiece",
+              icon: "🛡️",
+              artworkId: "champaigne_louis_xiii_victoire_louvre_1635"
+            }
+          ]
+        },
+        {
+          title: "La Maturité Classique & Le Tournant Janséniste",
+          years: "1643 – 1660",
+          desc: "À la mort de Richelieu et de Louis XIII, Champaigne fonde l'Académie royale de peinture et de sculpture (1648) tout en se rapprochant des solitaires et des religieuses de Port-Royal de Paris et Port-Royal des Champs.",
+          events: [
+            {
+              year: 1646,
+              title: "Le Christ au jardin des Oliviers",
+              desc: "Méditation poignante sur l'angoisse de Gethsémani, baignée d'un clair-obscur lunaire et mystique d'une rare intensité dramatique.",
+              type: "masterpiece",
+              icon: "🌙",
+              artworkId: "champaigne_christ_jardin_oliviers_rennes_1646"
+            },
+            {
+              year: 1648,
+              title: "Fondation de l'Académie royale",
+              desc: "Il est l'un des douze membres fondateurs de l'Académie royale de peinture et de sculpture aux côtés de Charles Le Brun et Sébastien Bourdon.",
+              type: "milestone",
+              icon: "📜"
+            },
+            {
+              year: 1649,
+              title: "Les Enfants Habert de Montmor",
+              desc: "Chef-d'œuvre de tendresse et de dignité familiale, représentant les fils du célèbre conseiller d'État et mécène avec leur lévrier.",
+              type: "masterpiece",
+              icon: "🖼️",
+              artworkId: "champaigne_enfants_habert_de_montmor_rennes_1649"
+            },
+            {
+              year: 1650,
+              title: "Le Christ mort sur son linceul",
+              desc: "D'un réalisme saisissant et d'une rigueur anatomique implacable, le corps du Christ étendu sur la pierre du tombeau incarne la solennité doloriste janséniste.",
+              type: "masterpiece",
+              icon: "✝️",
+              artworkId: "champaigne_le_christ_mort_louvre_1650"
+            },
+            {
+              year: 1651,
+              title: "La Cène (dite La Petite Cène)",
+              desc: "Composition d'une clarté géométrique absolue pour l'abbaye de Port-Royal de Paris, marquant l'apogée de sa foi eucharistique.",
+              type: "masterpiece",
+              icon: "🍞",
+              artworkId: "champaigne_la_petite_cene_louvre_1651"
+            },
+            {
+              year: 1653,
+              title: "Portrait de Jean-Antoine de Mesmes",
+              desc: "Le président au Parlement de Paris immortalisé dans sa robe d'écarlate et de fourrure avec une probité morale exemplaire.",
+              type: "masterpiece",
+              icon: "⚖️",
+              artworkId: "champaigne_jean_antoine_de_mesmes_louvre_1653"
+            }
+          ]
+        },
+        {
+          title: "Le Silence Mystique & L'Ex-Voto de Grâce",
+          years: "1661 – 1674",
+          desc: "Les dernières années de sa vie sont illuminées par la guérison miraculeuse de sa fille à Port-Royal et la consécration de son art au dépouillement spirituel le plus pur.",
+          events: [
+            {
+              year: 1662,
+              title: "La Cène (dite La Grande Cène)",
+              desc: "Monumentale réinterprétation destinée au maître-autel de Port-Royal des Champs, où chaque apôtre réagit à l'annonce de la trahison dans un silence recueilli.",
+              type: "masterpiece",
+              icon: "🍷",
+              artworkId: "champaigne_la_grande_cene_louvre_1662"
+            },
+            {
+              year: 1662,
+              title: "L'Ex-voto de 1662",
+              desc: "Sommet absolu de sa carrière : tableau d'action de grâce offert à Dieu et à Port-Royal après la guérison miraculeuse de sa fille Sœur Catherine de Sainte-Suzanne, percluse de paralysie.",
+              type: "masterpiece",
+              icon: "✨",
+              artworkId: "champaigne_ex_voto_1662_louvre_1662"
+            },
+            {
+              year: 1667,
+              title: "Portrait de Robert Arnauld d'Andilly",
+              desc: "Portrait d'une vérité bouleversante du vieil ermite de Port-Royal, dont le regard bienveillant et les mains ridées condensent la ferveur morale du monastère.",
+              type: "masterpiece",
+              icon: "👴",
+              artworkId: "champaigne_robert_arnauld_d_andilly_louvre_1667"
+            },
+            {
+              year: 1674,
+              title: "Mort pieuse à Paris",
+              desc: "S'éteint le 12 août 1674 dans son logis parisien. Les religieuses de Port-Royal inscrivent son éloge funèbre dans leur nécrologe, célébrant sa pureté et son détachement des vanités du monde.",
+              type: "death",
+              icon: "🕊️"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  chirico: {
+    id: "chirico",
+    name: "Giorgio de Chirico",
+    sortName: "Chirico Giorgio de",
+    sortLetter: "C",
+    dates: "1888 – 1978",
+    movement: "Peinture métaphysique (Pittura metafisica) & Pré-surréalisme",
+    nationality: "Italien (né à Volos, Grèce / mort à Rome)",
+    techniques: "Huile sur toile, perspective fuyante accélérée et inversée, ombres portées étirées, lumières crépusculaires froides, mannequins aveugles d'atelier, architecture d'arcades néo-classiques, architectures marines encastrées",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczNVLKjlQbou4H1D5tSIrxTm2kwH6QZbG_nZpWXF2nUno-XCf9OqaifRkQOUqQxRA8yzKP0dNuw_EeNc8U0SMsNp3elZBNSzb-Z1iPh9hEbz6BM08nWIC9QM0mQZ7tNyQW-4t0RKTITvocZPt-3fYkbIAQ=w1942-h824-s-no-gm?authuser=0",
+    bio: [
+      "Giorgio de Chirico (1888 – 1978), peintre et écrivain italien né en Grèce, est le fondateur de la peinture métaphysique (Pittura metafisica), l'un des mouvements les plus singuliers et influents de l'avant-garde du début du XXe siècle. En créant des paysages urbains déserts d'une mélancolie poignante, où le temps semble suspendu, il a exercé une fascination immédiate sur les futurs surréalistes — André Breton, René Magritte, Salvador Dalí et Max Ernst le tenant pour un précurseur visionnaire.",
+      "Son genre pictural se caractérise par des perspectives fuyantes vertigineuses, des arcades silencieuses baignées d'une lumière crépusculaire ou immobile, et la juxtaposition incongrue d'objets : statues antiques délaissées, horloges figées, trains au lointain et mannequins sans visage d'une théâtralité énigmatique. Influencé par la philosophie de Nietzsche et de Schopenhauer, de Chirico cherche à révéler la « non-sensibilité » des choses, le mystère caché derrière l'apparente banalité du réel.",
+      "L'évolution de son œuvre est complexe et volontairement provocatrice : après la période métaphysique fondatrice (1910-1918) à Florence, Paris et Ferrare, il opère un « retour à l'ordre » dès 1919 avec son essai Le Retour au métier, prônant la technique des maîtres de la Renaissance (Raphaël, Titien). Dans les années 1920 et 1930, il explore les thèmes des gladiateurs, des chevaux antiques et des natures mortes théâtrales, avant de revisiter de manière auto-référentielle ses propres icônes métaphysiques dans sa maturité néo-métaphysique."
+    ],
+    corpus: {
+      total: 4500,
+      seen: 2,
+      paintingsCount: 4500,
+      sourceTitle: "Claudio Bruni Sakraischik, Catalogo Generale Giorgio de Chirico (1971–1987) & Fondazione Giorgio e Isa de Chirico (Maretti Editore)",
+      sourceNotes: "L'œuvre picturale monumentale de Giorgio de Chirico a été cataloguée en 8 volumes par Claudio Bruni Sakraischik (1971-1987), puis prolongée par les travaux de la Fondazione Giorgio e Isa de Chirico sous la direction de Maurizio Calvesi et Paolo Picozza (Maretti Editore). Le corpus complet recense environ 4 500 peintures réparties sur près de sept décennies de création ininterrompue. Deux œuvres majeures sont ici répertoriées avec contemplation in situ : Les Muses inquiétantes (Pinakothek der Moderne de Munich) et Deux personnages (Musée d'arts de Nantes).",
+      details: [
+        {
+          label: "Places d'Italie, gares & énigmes métaphysiques (1910–1918)",
+          count: 250,
+          icon: "🏛️",
+          color: "#e67e22",
+          seen: 0,
+          note: "L'Énigme d'un jour, Mystère et mélancolie d'une rue, La Tour rouge, gares désertes"
+        },
+        {
+          label: "Mannequins, Muses & automates sans visage",
+          count: 380,
+          icon: "🎭",
+          color: "#d4af37",
+          seen: 1,
+          note: "Les Muses inquiétantes (Munich, 1917), Le Grand Métaphysicien, Hector et Andromaque"
+        },
+        {
+          label: "Retour au métier, figures hybrides & gladiateurs (1919–1939)",
+          count: 1200,
+          icon: "🏺",
+          color: "#2980b9",
+          seen: 1,
+          note: "Deux personnages (Nantes, 1920), Les Archéologues, combats de gladiateurs, bains mystérieux"
+        },
+        {
+          label: "Période néo-baroque & cycle néo-métaphysique (1940–1978)",
+          count: 2670,
+          icon: "🎨",
+          color: "#8e44ad",
+          seen: 0,
+          note: "Autoportraits en costume du XVIIe siècle, réinventions souveraines du vocabulaire métaphysique"
+        }
+      ]
+    },
+    biographyTimeline: {
+      birth: 1888,
+      birthPlace: "Volos (Thessalie, Grèce)",
+      death: 1978,
+      deathPlace: "Rome (Italie)",
+      periods: [
+        {
+          title: "La Révélation Métaphysique & L'Énigme du Temps",
+          years: "1888 – 1918",
+          desc: "Né en Grèce de parents italiens, il étudie à Munich où il découvre Nietzsche et Böcklin. En 1910 à Florence puis à Paris et Ferrare, il invente la Pittura metafisica qui éblouit Guillaume Apollinaire et prépare le surréalisme.",
+          events: [
+            {
+              year: 1888,
+              title: "Naissance à Volos en Grèce",
+              desc: "Fils d'un ingénieur de chemins de fer italien chargé des voies ferrées thessaliennes, il grandit au pays des Argonautes, ce qui marquera à jamais sa vision des navires et des gares.",
+              type: "birth",
+              icon: "🇬🇷"
+            },
+            {
+              year: 1906,
+              title: "Études à Munich & révélation nietzschéenne",
+              desc: "Rejoint l'Académie des Beaux-Arts de Munich ; il y est profondément influencé par la peinture symboliste d'Arnold Böcklin et la philosophie de Friedrich Nietzsche.",
+              type: "education",
+              icon: "🇩🇪"
+            },
+            {
+              year: 1910,
+              title: "Révélation de la Piazza Santa Croce à Florence",
+              desc: "Un après-midi d'automne sur la place Santa Croce, il a la sensation d'une énigme absolue : il peint L'Énigme d'un après-midi d'automne, acte de naissance de la Pittura metafisica.",
+              type: "milestone",
+              icon: "✨"
+            },
+            {
+              year: 1911,
+              title: "Arrivée à Paris & adhésion d'Apollinaire",
+              desc: "Expose au Salon d'Automne et au Salon des Indépendants. Guillaume Apollinaire est le premier à saluer son génie en qualifiant son art de « peinture métaphysique ».",
+              type: "milestone",
+              icon: "🇫🇷"
+            },
+            {
+              year: 1917,
+              title: "Les Muses inquiétantes (Munich)",
+              desc: "Chef-d'œuvre absolu peint à Ferrare : deux mannequins aveugles aux corps de statues hybrides veillent sur une estrade devant le château d'Este et des cheminées industrielles.",
+              type: "masterpiece",
+              icon: "🎭",
+              artworkId: "chirico_muses_inquietantes_munich_1917"
+            }
+          ]
+        },
+        {
+          title: "Le Retour au Métier & Les Figures Hybrides",
+          years: "1919 – 1939",
+          desc: "Dans son manifeste Il ritorno al mestiere (1919), il défend la grande tradition picturale des maîtres de la Renaissance. Il s'éloigne des avant-gardes et crée des figures d'archéologues et de géants aux torses chargés de monuments antiques.",
+          events: [
+            {
+              year: 1919,
+              title: "Manifeste « Le Retour au métier »",
+              desc: "Publication dans la revue Valori Plastici de son appel à redécouvrir la tempera grasse, le dessin rigoureux et la maîtrise artisanale des maîtres du Quattrocento.",
+              type: "milestone",
+              icon: "📜"
+            },
+            {
+              year: 1920,
+              title: "Deux personnages (Nantes)",
+              desc: "Toile monumentale de transition où deux figures sans visage abritent dans leur thorax des temples, des navires et des fragments de paysages marins et antiques.",
+              type: "masterpiece",
+              icon: "🏛️",
+              artworkId: "chirico_deux_personnages_nantes_1920"
+            },
+            {
+              year: 1928,
+              title: "Rupture avec André Breton et les surréalistes",
+              desc: "Breton condamne son évolution classique et traditionaliste ; de Chirico réplique avec dédain en affirmant son indépendance souveraine face aux diktats des avant-gardes.",
+              type: "milestone",
+              icon: "⚡"
+            },
+            {
+              year: 1929,
+              title: "Publication d'Hebdomeros",
+              desc: "Parution de son unique roman onirique Hebdomeros, considéré comme l'un des sommets littéraires du XXe siècle.",
+              type: "milestone",
+              icon: "📖"
+            }
+          ]
+        },
+        {
+          title: "Le Néobaroque & La Renaissance Néo-Métaphysique",
+          years: "1940 – 1978",
+          desc: "Installé définitivement piazza di Spagna à Rome, il peint des autoportraits somptueux dans le goût flamand et baroque, avant de revisiter avec ironie et fraîcheur tout son univers métaphysique des débuts.",
+          events: [
+            {
+              year: 1944,
+              title: "Installation définitive à Rome",
+              desc: "Établit son atelier au cœur de Rome, place d'Espagne, qui deviendra aujourd'hui la Maison-Musée Giorgio de Chirico.",
+              type: "milestone",
+              icon: "🇮🇹"
+            },
+            {
+              year: 1968,
+              title: "Le cycle néo-métaphysique",
+              desc: "À 80 ans, il entame une période féconde où il réexplore ses thèmes de jeunesse (le soleil sur le chevalet, les bains mystérieux, les mannequins) avec des coloris vifs et une liberté jubilatoire.",
+              type: "milestone",
+              icon: "☀️"
+            },
+            {
+              year: 1978,
+              title: "Mort à Rome à 90 ans",
+              desc: "S'éteint le 20 novembre 1978 à Rome à l'âge de 90 ans, laissant l'une des œuvres les plus singulières et inclassables de l'histoire de l'art mondial.",
+              type: "death",
+              icon: "🕊️"
             }
           ]
         }

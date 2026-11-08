@@ -342,6 +342,14 @@ window.MOVEMENTS_DATA = {
         "desc": "Le Nouveau-Né, La Madeleine pénitente et Le Tricheur à l'as de carreau.",
         "artistId": "",
         "icon": "🕯️"
+      },
+      {
+        "name": "Philippe de Champaigne",
+        "dates": "1602 – 1674",
+        "role": "Génie du réalisme solennel, de Port-Royal et du portrait d'apparat",
+        "desc": "Portrait de Richelieu, Louis XIII, Ex-voto de 1662, La Cène.",
+        "artistId": "champaigne",
+        "icon": "✝️"
       }
     ]
   },
@@ -395,6 +403,7 @@ window.MOVEMENTS_DATA = {
     ]
   },
   "mov_neoclassicisme": {
+    "bannerImg": "https://lh3.googleusercontent.com/d/146tOUJM45Pcq2pdHS-owhv1kN5ZBY4ml",
     "badge": "✦ LA VERTU CIVIQUE & L'HÉROÏSME DU NÉOCLASSICISME (1770 – 1830)",
     "noticeHtml": "<p><strong>Le retour à l'Antique contre les frivolités rocaille</strong><br>Sous l'effet du choc culturel provoqué par la redécouverte de Pompéi et d'Herculanum et les écrits théoriques de Johann Joachim Winckelmann (« noble simplicité et calme grandeur »), l'Europe artistique rejette les courbes mièvres du rococo. Le <strong>néoclassicisme</strong> s'impose comme une révolution éthique et formelle : restauration du contour net, géométrie rigoureuse, palette austère et primat de la vertu civique républicaine ou impériale.</p><p>Jacques-Louis David devient le héraut de cette mutation avec <em>Le Serment des Horaces</em> (1784), véritable manifeste visuel de l'engagement stoïque. Pendant la Révolution française puis sous le Premier Empire napoléonien, David, Girodet et Ingres mettent leur pinceau au service des héros antiques et de l'épopée contemporaine (<em>Le Sacre de Napoléon</em>), tandis qu'Antonio Canova sculpte dans le marbre blanc une pureté divine absolue.</p>",
     "concurrentHtml": "<p><strong>Pendant ce temps-là... Révolution française et épopée napoléonienne</strong></p><p><strong>1789 – 1799 :</strong> La <strong>Révolution française</strong> abolit les privilèges féodaux, proclame la Déclaration des droits de l'homme et du citoyen, fonde la Première République et crée le Muséum central des arts au Louvre (1793). Guerre de Vendée et Terreur jacobine.</p><p><strong>1799 – 1815 :</strong> Prise de pouvoir de Napoléon Bonaparte (coup d'État du 18 Brumaire), couronnement impérial en 1804 et conquête militaire de l'Europe jusqu'à la débâcle de Russie en 1812 et la défaite de Waterloo en 1815. Congrès de Vienne restaurant l'ordre monarchique européen.</p><p><strong>Monde :</strong> Déclaration d'indépendance des États-Unis d'Amérique (1776) rédigée par Thomas Jefferson. Début de la Révolution industrielle en Angleterre avec la machine à vapeur de James Watt.</p>",
@@ -475,6 +484,7 @@ window.MOVEMENTS_DATA = {
     ]
   },
   "mov_romantisme": {
+    "bannerImg": "https://lh3.googleusercontent.com/d/1VWnVAeEXUdLZwYQQoY1MvPIkrIDrWrvO",
     "badge": "✦ LA TEMPÊTE DES PASSIONS & LE SUBLIME ROMANTIQUE (1800 – 1850)",
     "noticeHtml": "<p><strong>Le triomphe de la subjectivité, du rêve et de l'effroi sublime</strong><br>Face à la rationalité froide des Lumières et à l'ordre géométrique du néoclassicisme, le <strong>romantisme</strong> éclate à travers toute l'Europe comme une délivrance des passions humaines. L'artiste ne cherche plus à plaire ou à instruire : il exprime son tourment intérieur, sa fascination pour la nuit, le mystère, la folie, les paysages indomptés et le concept kantien du « Sublime » — ce vertige de l'âme face à la grandeur terrifiante de la nature.</p><p>En France, Théodore Géricault choque le Salon avec <em>Le Radeau de La Méduse</em> (1819), dénonciation politique et drame universel, tandis qu'Eugène Delacroix exalte la fougue des combats pour la liberté (<em>La Liberté guidant le peuple</em>, 1830) par un lyrisme de la couleur hérité de Rubens. En Allemagne, Caspar David Friedrich peint le recueillement de l'homme solitaire contemplant les brumes de l'infini, tandis qu'en Angleterre William Turner dissout le monde dans des vortex de lumière et de vapeur incendiaire.</p>",
     "concurrentHtml": "<p><strong>Pendant ce temps-là... Printemps des peuples et rébellions européennes</strong></p><p><strong>Politique :</strong> Les Trois Glorieuses en France (1830) chassent Charles X au profit de Louis-Philippe Ier. Guerre d'indépendance de la Grèce contre l'Empire ottoman (1821-1829), chantée par Lord Byron qui y trouve la mort. Vague révolutionnaire du <strong>Printemps des Peuples en 1848</strong> qui embrase l'Europe (France, Autriche, Prusse, Hongrie, Italie).</p><p><strong>Lettres & Musique :</strong> Victor Hugo publie <em>Hernani</em> (1830) et <em>Notre-Dame de Paris</em> (1831). Baudelaire, Lord Byron, Mary Shelley (<em>Frankenstein</em> en 1818), Goethe et Hoffmann révolutionnent la littérature. En musique, Beethoven, Chopin, Schubert et Berlioz portent le romantisme musical à son paroxysme.</p><p><strong>Technique :</strong> Essor des premières lignes de chemin de fer et apparition des navires à vapeur transatlantiques.</p>",
@@ -783,6 +793,14 @@ window.MOVEMENTS_DATA = {
         "desc": "Le Cheval rouge, Moi et le Village et le plafond de l'Opéra Garnier.",
         "artistId": "chagall",
         "icon": "🕊️"
+      },
+      {
+        "name": "Giorgio de Chirico",
+        "dates": "1888 – 1978",
+        "role": "Fondateur de la peinture métaphysique et inspirateur du surréalisme",
+        "desc": "Les Muses inquiétantes, L'Énigme d'un jour, places d'Italie désertes.",
+        "artistId": "chirico",
+        "icon": "🏛️"
       }
     ],
     "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczNncCSU6eI6kLKq7IOVLdEU4ZXP9nHzpY012Nws8P9qcKz-fiA7D0M1A07T0NS_b9lrSnqS6NqyUdHtI8KSPi-Jejbp5QsmSNKbFlO7r3ChiZovtS4RAXNF5EL-P3LpWwCryrlWotAuW3oyAE5KchnzbQ=w1660-h704-s-no-gm?authuser=0"
@@ -1024,6 +1042,7 @@ window.MOVEMENTS_DATA = {
     ]
   },
   "mov_sculpture_neoclassique": {
+    "bannerImg": "https://lh3.googleusercontent.com/d/18GWmbY_c3Bwp0iTGly2x5pJb-881jICI",
     "badge": "✦ LA PURETÉ IDÉALE DU MARBRE BLANC & LA VÉRITÉ DES LUMIÈRES (1770 – 1845)",
     "noticeHtml": "<p><strong>La grâce virginale de Canova et le génie psychologique de Houdon</strong><br>Rejetant les drapés agités et le tumulte dramatique du baroque, la sculpture néoclassique renoue avec la pureté olympienne de la Grèce antique. Le maître vénitien <strong>Antonio Canova</strong> s'impose comme le sculpteur le plus célèbre d'Europe : travaillant le marbre blanc avec un ponçage d'une perfection tactile prodigieuse, il crée des mythes amoureux d'une douceur virginale (<em>Psyché ranimée par le baiser de l'Amour</em>, <em>Les Trois Grâces</em>) et immortalise Napoléon Bonaparte et sa sœur Pauline Borghese sous les traits de dieux antiques.</p><p>En France, Jean-Antoine Houdon apporte à cette rigueur une acuité psychologique éblouissante : ses bustes des grands hommes des Lumières (Voltaire assis, Diderot, Rousseau, George Washington, Benjamin Franklin) saisissent la flamme intellectuelle et l'étincelle de vie dans le regard avec un réalisme saisissant.</p>",
     "concurrentHtml": "<p><strong>Pendant ce temps-là... Guerres révolutionnaires et triomphe des républiques</strong></p><p><strong>Europe & Amériques :</strong> Naissance de la République américaine et rédaction de la Constitution des États-Unis en 1787. Révolution française de 1789 et décapitation de Louis XVI en 1793. Houdon traverse l'Atlantique en 1785 pour sculpter George Washington sur le vif à Mount Vernon.</p><p><strong>Empire :</strong> Napoléon Ier commande à Canova des portraits héroïques et fait ériger à Paris la colonne Vendôme et les arcs de triomphe célébrant la Grande Armée.</p><p><strong>Pensée :</strong> Émergence de l'archéologie moderne sous l'impulsion de Vivant Denon (premier directeur du musée du Louvre) et expédition d'Égypte (1798-1801) redécouvrant la pierre de Rosette.</p>",
