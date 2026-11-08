@@ -877,6 +877,7 @@ const ART_MOVEMENTS = [
     yearEnd: 1527,
     tier: 1,
     color: "#ca8a04",
+    bannerImg: "https://lh3.googleusercontent.com/d/1sFMtLMZcJnbInk_gj9zDOFtoe5P3Uo0Y",
     keyArtists: "Léonard de Vinci, Raphaël, Michel-Ange, Giorgione, Titien, Albrecht Dürer, Vittore Carpaccio, Jean Clouet",
     definition: "Apogée classique de l'art occidental entre Rome, Florence et Venise : monumentalité souveraine, sfumato atmosphérique, équilibre pyramidal et colorisme vénitien.",
     filterKeyword: "renaissance"

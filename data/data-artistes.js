@@ -5265,6 +5265,281 @@ window.ARTISTS_REGISTRY = {
         }
       ]
     }
+  },
+
+  courbet: {
+    id: "courbet",
+    name: "Gustave Courbet",
+    sortName: "Courbet Gustave",
+    sortLetter: "C",
+    dates: "1819 – 1877",
+    movement: "Réalisme & École de Barbizon",
+    nationality: "Français (Ornans, Franche-Comté)",
+    techniques: "Huile sur toile, travail au couteau à peindre, empâtements denses, palette terrienne et minérale, observation crue du réel",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczPSXKUimzYZZiF9OlQIdyfWREc2w63v9wTnBChzinXsEGcF8tsbMS1yoVGc-9vLaDO_fFhf3bh30thyKapwNJO43rE00J1HR6EX2dHoH1mEJvSM-T0YIHAC-qDb1UTi8Qa0yGHSk0m1Uj8OfK6oDfD-HQ=w1894-h803-s-no-gm?authuser=0",
+    bio: [
+      "Gustave Courbet, né en 1819 à Ornans et mort en 1877 en Suisse, est le chef de file incontesté du réalisme. Personnage provocateur, fier de ses origines franc-comtoises, il a radicalement transformé l'art du XIXe siècle en s'opposant à l'idéalisme romantique et au classicisme académique. Pour lui, la peinture ne devait représenter que des choses réelles et existantes : « Montrez-moi un ange, et j'en peindrai un », disait-il. Son engagement politique, notamment lors de la Commune de Paris, et son tempérament rebelle en ont fait une figure aussi admirée que contestée de la modernité.",
+      "Son genre pictural se définit par une représentation crue et sans concession de la réalité sociale et de la nature. Son style se caractérise par une matière épaisse, souvent travaillée au couteau, donnant à ses toiles une présence physique et tactile presque brutale. Il traite les sujets du quotidien (paysans, ouvriers, enterrements de province) avec le format monumental jusque-là réservé à la peinture d'histoire. En refusant d'embellir ses modèles et en assumant la « laideur » du réel, il a brisé les codes de la bienséance artistique, ouvrant la voie à une peinture centrée sur la vérité du monde matériel.",
+      "L'évolution de son travail montre une maîtrise de plus en plus grande de la force expressive de la peinture. Ses premières œuvres, comme L'Homme blessé, portent encore une trace de mélancolie romantique, mais il bascule vite vers de vastes manifestes réalistes comme Un enterrement à Ornans. Dans la seconde partie de sa carrière, il se consacre intensément au paysage et aux scènes de chasse, où il excelle à rendre la densité de la roche, la profondeur des forêts ou la puissance des vagues. Ses derniers travaux, réalisés en exil en Suisse, conservent une force mélancolique puissante. Son héritage est immense : en affirmant l'autonomie de l'artiste et la primauté du réel, il a ouvert la porte à l'impressionnisme et à toute la peinture moderne."
+    ],
+    corpus: {
+      total: 1100,
+      seen: 17,
+      paintingsCount: 1100,
+      sourceTitle: "Catalogue Robert Fernier (1977 – 1978) & Compléments Jean-Jacques Fernier",
+      sourceNotes: "Le catalogue raisonné de référence mondiale a été dressé par l'historien Robert Fernier (fondateur du Musée Courbet à Ornans). Publiée en deux tomes en 1977 et 1978, son œuvre monumentale La Vie et l'œuvre de Gustave Courbet : Catalogue raisonné recense très exactement 1 059 peintures. Avec les suppléments apportés par son fils Jean-Jacques Fernier et les réévaluations muséales (incluant les tableaux formellement autographes découverts depuis les années 1970 et les toiles peintes en collaboration), le consensus scientifique actuel évalue son corpus officiel à environ 1 100 œuvres peintes.",
+      details: [
+        {
+          label: "Manifestes réalistes, scènes de genre & figures sociales",
+          count: 280,
+          icon: "🌾",
+          color: "#d4af37",
+          seen: 2,
+          note: "Dont Les Cribleuses de blé (Musée d'Arts de Nantes), La Fileuse endormie (Musée Fabre)"
+        },
+        {
+          label: "Paysages naturels, falaises jurassiennes & marines",
+          count: 420,
+          icon: "🌊",
+          color: "#00b4d8",
+          seen: 7,
+          note: "Dont La Vague (Tokyo), Le Bord de mer à Palavas, Les Étangs, Pont d'Ambrussum, Tour de Farges, Solitude (Montpellier)"
+        },
+        {
+          label: "Portraits, autoportraits & effigies de mécènes",
+          count: 250,
+          icon: "🎨",
+          color: "#e67e22",
+          seen: 6,
+          note: "Dont Homme à la pipe (Lisbonne & Montpellier), Baudelaire, Bruyas profil & malade, Bonjour Monsieur Courbet"
+        },
+        {
+          label: "Scènes cynégétiques, faune sauvage & nus",
+          count: 150,
+          icon: "🦊",
+          color: "#9b59b6",
+          seen: 2,
+          note: "Dont Le Renard pris au piège (Tokyo), Les Baigneuses (Musée Fabre)"
+        }
+      ]
+    },
+    biographyTimeline: {
+      birth: 1819,
+      birthPlace: "Ornans (Doubs, Franche-Comté)",
+      death: 1877,
+      deathPlace: "La Tour-de-Peilz (Suisse)",
+      periods: [
+        {
+          title: "La Bohème Parisienne & L'Affirmation de Soi",
+          years: "1839 – 1849",
+          color: "#d97706",
+          summary: "Monté à Paris, Courbet rejette l'académisme, fréquente la bohème de la brasserie Andler et peint une série d'autoportraits et de portraits introspectifs d'une intensité brute.",
+          events: [
+            {
+              year: 1839,
+              title: "Arrivée à Paris & Refus des ateliers officiels",
+              desc: "Installe son atelier rue de la Harpe et étudie librement les maîtres anciens au Louvre (Vélasquez, Rembrandt, Hals, Titien).",
+              type: "formation",
+              icon: "🏛️"
+            },
+            {
+              year: 1848,
+              title: "L'Homme à la pipe (Musée Calouste-Gulbenkian, Lisbonne)",
+              desc: "Autoportrait emblématique du peintre en bohème assumé, fumant la pipe dans un clair-obscur sculptural et terreux.",
+              type: "masterpiece",
+              icon: "🎨",
+              artworkId: "courbet_homme_a_la_pipe_lisbonne_1848"
+            },
+            {
+              year: 1848,
+              title: "Portrait de Charles Baudelaire (Musée Fabre, Montpellier)",
+              desc: "Capture le poète des Fleurs du Mal en pleine concentration créative au milieu de ses livres et manuscrits.",
+              type: "masterpiece",
+              icon: "📖",
+              artworkId: "courbet_portrait_baudelaire_montpellier_1848"
+            },
+            {
+              year: 1849,
+              title: "L'Homme à la pipe - Tête nue (Musée Fabre, Montpellier)",
+              desc: "Variante intimiste léguée par Alfred Bruyas : chevelure ébouriffée et regard mélancolique défiant les conventions bourgeoises.",
+              type: "masterpiece",
+              icon: "🎨",
+              artworkId: "courbet_homme_a_la_pipe_montpellier_1849"
+            }
+          ]
+        },
+        {
+          title: "Les Grands Manifestes Réalistes & La Rencontre avec Bruyas",
+          years: "1850 – 1859",
+          color: "#00b4d8",
+          summary: "Le coup d'éclat du Réalisme : après le scandale d'Ornans, Courbet trouve en Alfred Bruyas son mécène absolu, découvre la lumière du Midi et scandalise le Salon.",
+          events: [
+            {
+              year: 1850,
+              title: "Un enterrement à Ornans & Les Casseurs de pierres (Salon de 1850)",
+              desc: "Manifeste fracassant qui donne au peuple de province les dimensions grandioses de la peinture d'histoire.",
+              type: "masterpiece",
+              icon: "⚡"
+            },
+            {
+              year: 1853,
+              title: "Les Baigneuses (Musée Fabre, Montpellier)",
+              desc: "Scandale absolu au Salon de 1853 où la crudité charnelle du nu féminin brise tous les canons académiques, acheté par Alfred Bruyas.",
+              type: "masterpiece",
+              icon: "🌊",
+              artworkId: "courbet_les_baigneuses_montpellier_1853"
+            },
+            {
+              year: 1853,
+              title: "La Fileuse endormie (Musée Fabre, Montpellier)",
+              desc: "Hommage intimiste et serein au labeur populaire, représentant la fatigue physique d'une ouvrière assoupie devant son rouet.",
+              type: "masterpiece",
+              icon: "🧵",
+              artworkId: "courbet_la_fileuse_endormie_montpellier_1853"
+            },
+            {
+              year: 1854,
+              title: "Premier voyage dans le Midi & Séjour chez Alfred Bruyas",
+              desc: "Invité à Montpellier, Courbet découvre la clarté éclatante de la Méditerranée et noue une amitié historique avec le collectionneur.",
+              type: "key_event",
+              icon: "☀️"
+            },
+            {
+              year: 1854,
+              title: "Portrait d'Alfred Bruyas de profil (Musée Fabre, Montpellier)",
+              desc: "Profil hiératique et noble du mécène visionnaire à la barbe rousse, sculpté par une lumière latérale dramatique.",
+              type: "masterpiece",
+              icon: "👤",
+              artworkId: "courbet_portrait_bruyas_profil_montpellier_1854"
+            },
+            {
+              year: 1854,
+              title: "Les Cribleuses de blé (Musée d'Arts de Nantes)",
+              desc: "Jalon monumental du Réalisme célébrant la vigueur physique du travail agricole à travers le geste dynamique de sa sœur triant le grain.",
+              type: "masterpiece",
+              icon: "🌾",
+              artworkId: "courbet_les_cribleuses_de_ble_nantes_1854"
+            },
+            {
+              year: 1854,
+              title: "Le Bord de mer à Palavas (Musée Fabre, Montpellier)",
+              desc: "Silhouette minuscule saluant l'infini de la Méditerranée : radicalité géométrique et liberté nouvelle du paysage moderne.",
+              type: "masterpiece",
+              icon: "🌅",
+              artworkId: "courbet_le_bord_de_mer_a_palavas_montpellier_1854"
+            },
+            {
+              year: 1854,
+              title: "La Rencontre ou Bonjour Monsieur Courbet ! (Musée Fabre, Montpellier)",
+              desc: "Manifeste de l'indépendance de l'artiste : l'artiste libre et voyageur salué avec déférence par son riche protecteur sur le chemin de Sète.",
+              type: "masterpiece",
+              icon: "🤝",
+              artworkId: "courbet_la_rencontre_bonjour_monsieur_courbet_montpellier_1854"
+            },
+            {
+              year: 1854,
+              title: "Portrait d'Alfred Bruyas malade (Musée Fabre, Montpellier)",
+              desc: "Sensibilité poignante saisissant le mécène alité dans sa vulnérabilité humaine et son intimité contemplative.",
+              type: "masterpiece",
+              icon: "🛌",
+              artworkId: "courbet_portrait_bruyas_malade_montpellier_1854"
+            },
+            {
+              year: 1855,
+              title: "Le Pavillon du Réalisme à l'Exposition Universelle",
+              desc: "Face au refus du jury officiel, Courbet fait ériger son propre pavillon avenue Montaigne pour exposer L'Atelier du peintre.",
+              type: "key_event",
+              icon: "🎪"
+            },
+            {
+              year: 1857,
+              title: "Les Étangs à Palavas (Musée Fabre, Montpellier)",
+              desc: "Vue panoramique contemplative des eaux calmes sous un ciel nuageux méridional, travaillée au couteau à palette.",
+              type: "masterpiece",
+              icon: "💧",
+              artworkId: "courbet_les_etangs_a_palavas_montpellier_1857"
+            },
+            {
+              year: 1857,
+              title: "Le Pont d'Ambrussum (Musée Fabre, Montpellier)",
+              desc: "Vestige de l'arche romaine franchissant le Vidourle, alliant matérialité minérale brute et permanence du temps.",
+              type: "masterpiece",
+              icon: "🏛️",
+              artworkId: "courbet_le_pont_d_ambrussum_montpellier_1857"
+            },
+            {
+              year: 1857,
+              title: "Vue de la Tour de Farges (Musée Fabre, Montpellier)",
+              desc: "Harmonie lumineuse de la campagne de Lunel-Viel dominée par le pin parasol et la clarté sereine du Languedoc.",
+              type: "masterpiece",
+              icon: "🌲",
+              artworkId: "courbet_vue_de_la_tour_de_farges_montpellier_1857"
+            }
+          ]
+        },
+        {
+          title: "La Matière Tellurique, Marines, Drames Cynégétiques & L'Exil",
+          years: "1860 – 1877",
+          color: "#eab308",
+          summary: "Le triomphe de la matière physique : scènes de chasse hivernales, rouleaux de vagues pétrifiés à Étretat, puis l'engagement politique sous la Commune et l'exil suisse.",
+          events: [
+            {
+              year: 1860,
+              title: "Le Renard pris au piège (Musée national de l'art occidental, Tokyo)",
+              desc: "Drame cynégétique sauvage dans les neiges jurassiennes où la souffrance de l'animal captif est peinte avec une vigueur organique sans concession.",
+              type: "masterpiece",
+              icon: "🦊",
+              artworkId: "courbet_le_renard_pris_au_piege_tokyo_1860"
+            },
+            {
+              year: 1866,
+              title: "Solitude, ou le ruisseau couvert (Musée Fabre, Montpellier)",
+              desc: "Immersion claustrophobique au fond d'un vallon jurassien maçonné au couteau, méditation charnelle sur la force silencieuse de la roche.",
+              type: "masterpiece",
+              icon: "🍃",
+              artworkId: "courbet_solitude_le_ruisseau_couvert_montpellier_1866"
+            },
+            {
+              year: 1869,
+              title: "La Vague (Musée national de l'art occidental, Tokyo)",
+              desc: "Chef-d'œuvre tellurique peint à Étretat : la masse liquide écumeuse acquiert la densité sculpturale et minérale du roc.",
+              type: "masterpiece",
+              icon: "🌊",
+              artworkId: "courbet_la_vague_tokyo_1869"
+            },
+            {
+              year: 1871,
+              title: "La Commune de Paris & La Colonne Vendôme",
+              desc: "Élu de la Commune et président de la Fédération des artistes, il participe aux événements révolutionnaires ; tenu responsable du déboulonnement de la colonne Vendôme.",
+              type: "key_event",
+              icon: "🚩"
+            },
+            {
+              year: 1873,
+              title: "Paysage avec chasseur (Musée national de l'art occidental, Tokyo)",
+              desc: "Affût silencieux du chasseur face aux falaises de la Loue avant le départ forcé en exil vers la Suisse.",
+              type: "masterpiece",
+              icon: "🎯",
+              artworkId: "courbet_paysage_avec_chasseur_tokyo_1873"
+            },
+            {
+              year: 1873,
+              title: "Exil en Suisse à La Tour-de-Peilz",
+              desc: "Condamné à payer des sommes colossales pour reconstruire la colonne Vendôme, il se réfugie au bord du lac Léman où il peint ses derniers paysages.",
+              type: "key_event",
+              icon: "🏔️"
+            },
+            {
+              year: 1877,
+              title: "Mort en exil à La Tour-de-Peilz",
+              desc: "Disparition du géant du Réalisme à la veille de la livraison de la colonne restaurée, laissant un héritage monumental qui annonce toute la modernité.",
+              type: "death",
+              icon: "🕊️"
+            }
+          ]
+        }
+      ]
+    }
   }
 };
 

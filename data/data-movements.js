@@ -134,6 +134,7 @@ window.MOVEMENTS_DATA = {
     ]
   },
   "mov_haute_renaissance": {
+    "bannerImg": "https://lh3.googleusercontent.com/d/1sFMtLMZcJnbInk_gj9zDOFtoe5P3Uo0Y",
     "badge": "✦ L'APOGÉE CLASSIQUE DE LA HAUTE RENAISSANCE (1490 – 1527)",
     "noticeHtml": "<p><strong>Le triomphe de la beauté idéale et de la synthèse universelle</strong><br>La Haute Renaissance représente le moment d'équilibre souverain de l'art occidental. À Florence, Milan, Venise et surtout à Rome sous le pontificat mécène de Jules II et Léon X, une poignée de géants réconcilie l'héritage chrétien et la perfection plastique de l'Antiquité classique.</p><p>Léonard de Vinci explore la nature et invente le <em>sfumato</em> vaporeux, Michel-Ange sculpte la ferveur anatomique sur la voûte de la Sixtine, et Raphaël peint aux Chambres du Vatican la synthèse suprême de la grâce, de la composition claire et de la philosophie humaniste (<em>L'École d'Athènes</em>).</p><p>À Venise, Giorgione et Titien fondent le primat de la couleur et de la pâte picturale sensorielle face au dessin intellectuel toscan.</p>",
     "concurrentHtml": "<p><strong>Pendant ce temps-là... Réforme protestante et guerres d'Italie</strong></p><p><strong>Italie :</strong> L'Italie devient le champ de bataille sanglant des puissances européennes (guerres d'Italie opposant François Ier et Charles Quint). Le Sac de Rome en mai 1527 par les troupes impériales met brutalement fin à cette parenthèse d'harmonie idéale.</p><p><strong>Religion & Pensée :</strong> En 1517 à Wittenberg, Martin Luther affiche ses 95 thèses contre les indulgences pontificales, allumant la Réforme protestante qui va déchirer la chrétienté européenne. Machiavel rédige <em>Le Prince</em> (1513) et Érasme publie son <em>Éloge de la Folie</em>.</p><p><strong>Explorations :</strong> Magellan accomplit le premier tour du monde (1519-1522). Conquête de l'empire aztèque par Cortés (1521).</p>",
@@ -521,7 +522,7 @@ window.MOVEMENTS_DATA = {
         "dates": "1819 – 1877",
         "role": "Maître et chef de file indomptable du Réalisme",
         "desc": "Un enterrement à Ornans, L'Atelier du peintre, Bonjour Monsieur Courbet.",
-        "artistId": "",
+        "artistId": "courbet",
         "icon": "⛏️"
       },
       {
