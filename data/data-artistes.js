@@ -6823,5 +6823,560 @@ window.ARTISTS_REGISTRY = {
       ]
     }
   }
+,
+  degas: {
+    id: "degas",
+    name: "Edgar Degas",
+    sortName: "Degas Edgar",
+    sortLetter: "D",
+    dates: "1834 – 1917",
+    movement: "Impressionnisme, Dessin Moderne & Réalisme Urbain",
+    nationality: "Français (Paris)",
+    techniques: "Huile sur toile, pastel sec et rehaussé, monotype, cire et bronze, cadrages asymétriques décentrés, raccourcis photographiques, vue plongeante, fascination pour la lumière artificielle de la scène",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczNu6Suqx9Plbgv2DK452HEMUhFIDLLMbYQQGOcZGKwTktPqbauI-FASaVG0YW4Kfj1-INeqNh1UWr3T10W0ofOj6yB6JITEW7WSF5GIs8qbBH6Y4AylUSrCZrGE7Lv2QenJUwpL_ZPhyIbiGOTjmUXqnw=w1942-h824-s-no-gm?authuser=0",
+    bio: [
+      "Edgar Degas (1834 – 1917) est une figure majeure de l'art moderne, associé au groupe des Impressionnistes bien qu'il s'en soit souvent distingué par son refus de la peinture sur le motif. Issu d'une famille bourgeoise cultivée, il reçoit une formation classique rigoureuse qu'il mettra au service d'une vision radicalement nouvelle de la vie urbaine parisienne.",
+      "Son genre pictural se définit par une obsession pour le mouvement et l'instantanéité. Contrairement à Monet, Degas s'intéresse moins à la lumière naturelle qu'à la structure des corps et aux éclairages artificiels. Ses sujets de prédilection — les coulisses de l'Opéra, les champs de courses, les blanchisseuses ou l'intimité de la toilette — lui permettent d'explorer des cadrages audacieux et décentrés, fortement influencés par la photographie naissante et les estampes japonaises.",
+      "L'évolution de son style marque un passage de la rigueur académique vers une liberté formelle totale : la période classique des débuts marquée par des portraits d'une grande finesse et des peintures d'histoire témoignant de son admiration pour Ingres ; l'expérimentation impressionniste où il délaisse les sujets historiques pour la vie moderne avec un dessin nerveux et des compositions asymétriques capturant l'éphémère d'un geste ; enfin le triomphe du pastel et de la sculpture à la fin de sa vie lorsque sa vue décline, libérant une touche plus large et des couleurs vibrantes presque fauves."
+    ],
+    corpus: {
+      total: 1600,
+      seen: 3,
+      paintingsCount: 1600,
+      sourceTitle: "Paul-André Lemoisne (1946), Brame & Reff (1984) et Michel Schulman (Catalogue critique numérique)",
+      sourceNotes: "Le catalogue raisonné historique de référence a été dressé par Paul-André Lemoisne en 1946 (en quatre volumes monumentaux, Degas et son œuvre), recensant 1 466 numéros. Ce travail titanesque a ensuite été complété en 1984 par le supplément de Philippe Brame et Theodore Reff (114 œuvres supplémentaires). Aujourd'hui, l'historien Michel Schulman a fusionné et mis à jour ces recherches au sein du grand catalogue raisonné critique numérique de l'artiste. En additionnant ses huiles sur toile et ses somptueux pastels aboutis, le consensus scientifique fixe son corpus peint officiel à environ 1 600 œuvres (dont 3 chefs-d'œuvre contemplés in situ au Musée des Beaux-Arts de Rouen, à l'Alte Pinakothek de Munich et au Musée National d'Art Occidental de Tokyo).",
+      details: [
+        {
+          label: "Danseuses, répétitions & coulisses de l'Opéra",
+          count: 600,
+          icon: "🩰",
+          color: "#e67e22",
+          seen: 1,
+          note: "Trois danseuses dans les coulisses (Tokyo), Danseuses à la barre, La Classe de danse"
+        },
+        {
+          label: "Champs de courses, jockeys & élégance équestre",
+          count: 250,
+          icon: "🏇",
+          color: "#27ae60",
+          seen: 0,
+          note: "Chevaux de courses à Longchamp, Défilé devant les tribunes, Jockeys sous la pluie"
+        },
+        {
+          label: "Vie moderne urbaine, repasseuses & portraits",
+          count: 450,
+          icon: "👔",
+          color: "#2980b9",
+          seen: 2,
+          note: "La Repasseuse (Munich), Renard mort couché dans le sous-bois (Rouen), L'Absinthe"
+        },
+        {
+          label: "Nus à la toilette, pastels tardifs & sculptures",
+          count: 300,
+          icon: "✨",
+          color: "#8e44ad",
+          seen: 0,
+          note: "Le Tub, Femme s'essuyant après le bain, Petite Danseuse de quatorze ans (cire et bronze)"
+        }
+      ]
+    },
+    biographyTimeline: {
+      birth: 1834,
+      birthPlace: "Paris (France)",
+      death: 1917,
+      deathPlace: "Paris (France)",
+      periods: [
+        {
+          title: "La Rigueur Classique & L'Héritage Ingresque",
+          years: "1834 – 1870",
+          desc: "Formation académique auprès de Louis Lamothe, disciple d'Ingres, longs séjours en Italie auprès de sa famille florentine et napolitaine, et copies passionnées des maîtres du Louvre.",
+          events: [
+            {
+              year: 1834,
+              title: "Naissance à Paris",
+              desc: "Né dans une famille de la haute bourgeoisie bancaire cultivée (son père est un amateur éclairé de musique et d'art).",
+              type: "birth",
+              icon: "🇫🇷"
+            },
+            {
+              year: 1855,
+              title: "Rencontre avec Ingres",
+              desc: "Le vieux maître lui prodigue son célèbre conseil : « Faites des lignes, jeune homme, beaucoup de lignes, de souvenir ou d'après nature. »",
+              type: "milestone",
+              icon: "🎨"
+            },
+            {
+              year: 1865,
+              title: "Renard mort couché dans le sous-bois",
+              desc: "Étude naturaliste saisissante d'une rare austérité, témoignant de sa virtuosité anatomique et de son sens de la matière brute en forêt.",
+              type: "masterpiece",
+              icon: "🦊",
+              artworkId: "degas_renard_mort_rouen_1865"
+            },
+            {
+              year: 1869,
+              title: "La Repasseuse (Munich)",
+              desc: "Premier jalon fondateur de sa série sur le labeur ouvrier féminin, alliant vérité sociale impitoyable et lumière d'atelier.",
+              type: "masterpiece",
+              icon: "👔",
+              artworkId: "degas_la_repasseuse_munich_1869"
+            }
+          ]
+        },
+        {
+          title: "L'Aventure Impressionniste & Les Coulisses du Spectacle",
+          years: "1871 – 1886",
+          desc: "Membre moteur des expositions impressionnistes indépendantes, Degas révolutionne la peinture en cadrant les angles morts du monde du spectacle et des courses hippiques.",
+          events: [
+            {
+              year: 1874,
+              title: "Première exposition impressionniste chez Nadar",
+              desc: "Participe activement à l'organisation de l'exposition dissidente boulevard des Capucines, tout en récusant le terme de « plein-airiste ».",
+              type: "milestone",
+              icon: "🏛️"
+            },
+            {
+              year: 1880,
+              title: "Trois danseuses dans les coulisses (Tokyo)",
+              desc: "Cadrage audacieux en plongée asymétrique coupant les figures à la manière d'une estampe japonaise pour surprendre le geste spontané.",
+              type: "masterpiece",
+              icon: "🩰",
+              artworkId: "degas_trois_danseuses_coulisses_tokyo_1880"
+            },
+            {
+              year: 1881,
+              title: "La Petite Danseuse de quatorze ans",
+              desc: "Présente sa célèbre sculpture de cire parée d'un vrai tutu de tulle et d'un ruban de satin, scandalisant la critique par son hyperréalisme.",
+              type: "milestone",
+              icon: "🎭"
+            }
+          ]
+        },
+        {
+          title: "Le Triomphe du Pastel & L'Obsession du Geste Pur",
+          years: "1887 – 1917",
+          desc: "Tandis que sa vue décline irrémédiablement, il se retire de la vie publique pour travailler le pastel en touches incandescentes et la sculpture tactile dans son atelier de Montmartre.",
+          events: [
+            {
+              year: 1886,
+              title: "Huitième et dernière exposition impressionniste",
+              desc: "Présente sa suite magistrale de nus féminins à la toilette (« la bête humaine qui se nettoie ») révolutionnant la vision du corps intime.",
+              type: "milestone",
+              icon: "🚿"
+            },
+            {
+              year: 1912,
+              title: "Vente Camondo & gloire muséale",
+              desc: "Ses œuvres entrent triomphalement au Louvre de son vivant grâce au legs du comte Isaac de Camondo.",
+              type: "milestone",
+              icon: "👑"
+            },
+            {
+              year: 1917,
+              title: "Mort à Paris en pleine guerre",
+              desc: "S'éteint le 27 septembre 1917 à 83 ans presque aveugle dans un Paris en guerre ; selon sa volonté, aucun discours n'est prononcé, Forain disant simplement : « Il aimait le dessin. »",
+              type: "death",
+              icon: "🕊️"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  de_hooch: {
+    id: "de_hooch",
+    name: "Pieter de Hooch",
+    sortName: "Hooch Pieter de",
+    sortLetter: "H",
+    dates: "1629 – 1684",
+    movement: "Siècle d'Or néerlandais, Peinture de Genre & Maîtrise de la Perspective",
+    nationality: "Hollandais (Rotterdam / Delft / Amsterdam)",
+    techniques: "Huile sur toile, maîtrise absolue de la perspective géométrique, effet de doorkijkje (vue à travers les portes et fenêtres), lumière dorée cristalline, textures tactiles (briques hollandaises, pavements de marbre, cuirs dorés de Cordoue), poétique du silence domestique",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczN5g5iED25Rl7JP9GYvPXVW0M5amtYHtFsWeXquVevkOPD-SGkRoF_FoHMYT6Q_2mw2z0BMJPGVuKvMP6WGnQPp4zd-qMHlXn32-jEs8CbV69BbhsDprBqN_hZgth4cSU-nf1WWkf6uG6AOx9kpBK3b4Q=w1942-h824-s-no-gm?authuser=0",
+    bio: [
+      "Pieter de Hooch (1629 – 1684) est, avec Vermeer, le plus grand maître de la peinture de genre néerlandaise du XVIIe siècle. Spécialiste des scènes d'intérieur et des vues de cours domestiques, il a immortalisé la tranquillité et la vertu de la vie bourgeoise à Delft, créant des œuvres où la lumière et l'architecture jouent un rôle aussi crucial que les personnages.",
+      "Son genre pictural se définit par l'intimisme et la maîtrise de la perspective. De Hooch est célèbre pour ses effets de « doorkijkje » (vue à travers), où une porte ou une fenêtre ouverte laisse entrevoir une autre pièce, une cour ou une rue, créant une profondeur spatiale complexe. Son style se caractérise par une lumière chaude et naturelle, un rendu minutieux des textures (briques, carrelages, étoffes) et une atmosphère de sérénité domestique presque sacrée.",
+      "L'évolution de son style marque un passage de la simplicité rustique vers un luxe de plus en plus sophistiqué : la période des corps de garde à ses débuts (tavernes et soldats dans des tons bruns sombres) ; l'apogée de Delft (1655 – 1660), sa période la plus admirée où il développe des intérieurs baignés d'une lumière dorée, des cours calmes et des scènes de maternité influençant le jeune Vermeer ; enfin la période d'Amsterdam (après 1661) où son style s'adapte à une clientèle patricienne richissime avec de vastes intérieurs aux sols de marbre et tentures de cuir doré."
+    ],
+    corpus: {
+      total: 165,
+      seen: 3,
+      paintingsCount: 165,
+      sourceTitle: "Peter C. Sutton, Pieter de Hooch: Complete Edition (Phaidon, 1980)",
+      sourceNotes: "L'inventaire scientifique et le catalogue raisonné de référence mondiale ont été rédigés par l'historien de l'art américain Peter C. Sutton en 1980 (Pieter de Hooch: Complete Edition, Phaidon). Ce travail monumental a permis de distinguer précisément sa main de celle des nombreux copistes ou contemporains aux thématiques très proches (Hendrik van der Burgh, Esaias Boursse). Le consensus scientifique fixe le corpus de Pieter de Hooch à environ 160 à 165 peintures autographes (3 chefs-d'œuvre majeurs contemplés in situ au Musée du Louvre à Paris).",
+      details: [
+        {
+          label: "Scènes d'intérieur & doorkijkje de Delft (1655–1660)",
+          count: 55,
+          icon: "🚪",
+          color: "#e67e22",
+          seen: 2,
+          note: "La Buveuse (Louvre), Femme préparant des légumes (Louvre), La Mère à côté d'un berceau"
+        },
+        {
+          label: "Cours de maisons de Delft & cours pavées en briques",
+          count: 35,
+          icon: "🧱",
+          color: "#27ae60",
+          seen: 0,
+          note: "Une cour de maison à Delft (Londres), Cour avec une servante et un enfant"
+        },
+        {
+          label: "Intérieurs patriciens de luxe à Amsterdam (1661–1684)",
+          count: 50,
+          icon: "👑",
+          color: "#d4af37",
+          seen: 1,
+          note: "Joueurs de cartes dans un riche intérieur (Louvre), Scène musicale avec pavement de marbre"
+        },
+        {
+          label: "Corps de garde & scènes d'auberges de jeunesse",
+          count: 25,
+          icon: "⚔️",
+          color: "#7f8c8d",
+          seen: 0,
+          note: "Soldats jouant aux dés, Scènes de tavernes influencées par Codde et Berchem"
+        }
+      ]
+    },
+    biographyTimeline: {
+      birth: 1629,
+      birthPlace: "Rotterdam (Provinces-Unies)",
+      death: 1684,
+      deathPlace: "Amsterdam (Provinces-Unies)",
+      periods: [
+        {
+          title: "Les Années de Formation & Les Corps de Garde",
+          years: "1629 – 1654",
+          desc: "Fils d'un maçon de Rotterdam, il apprend le métier à Haarlem auprès de Nicolaes Berchem avant de s'installer à Delft au service d'un riche marchand de draps.",
+          events: [
+            {
+              year: 1629,
+              title: "Naissance à Rotterdam",
+              desc: "Baptisé le 20 décembre 1629 à Rotterdam, il grandit dans un milieu artisanal attentif à la construction et aux matériaux.",
+              type: "birth",
+              icon: "🇳🇱"
+            },
+            {
+              year: 1652,
+              title: "Établissement à Delft",
+              desc: "Arrive à Delft comme peintre et valet de chambre du marchand Justus de la Grange, qui acquiert ses premières toiles de soldats.",
+              type: "milestone",
+              icon: "📍"
+            }
+          ]
+        },
+        {
+          title: "L'Apogée de Delft & La Magie du Doorkijkje",
+          years: "1655 – 1660",
+          desc: "Inscrit à la guilde de Saint-Luc de Delft en 1655, il invente sa poétique de la transparence domestique, influençant profondément son jeune confrère Johannes Vermeer.",
+          events: [
+            {
+              year: 1655,
+              title: "Entrée à la guilde de Saint-Luc de Delft",
+              desc: "Devient maître indépendant à Delft, se mariant avec Jannetje van der Burch dont la famille compte également des peintres.",
+              type: "milestone",
+              icon: "📜"
+            },
+            {
+              year: 1657,
+              title: "Femme préparant des légumes dans la pièce arrière",
+              desc: "Élévation poétique de la vertu domestique : la lumière traversante de la cour illumine le tablier et les tomettes avec une paix souveraine.",
+              type: "masterpiece",
+              icon: "🥕",
+              artworkId: "de_hooch_femme_preparant_legumes_louvre_1657"
+            },
+            {
+              year: 1658,
+              title: "La Buveuse (Louvre)",
+              desc: "Joyau absolu de Delft : le doorkijkje ouvre une enfilade lumineuse fascinante pendant que le verre de vin scintille dans la quiétude du foyer.",
+              type: "masterpiece",
+              icon: "🍷",
+              artworkId: "de_hooch_la_buveuse_louvre_1658"
+            }
+          ]
+        },
+        {
+          title: "La Métropole d'Amsterdam & Le Faste Patricien",
+          years: "1661 – 1684",
+          desc: "S'installe à Amsterdam vers 1660-1661 où il peint pour les riches régents de somptueux intérieurs à pavements de marbre et cuirs gaufrés d'or.",
+          events: [
+            {
+              year: 1661,
+              title: "Installation à Amsterdam",
+              desc: "Rejoint la grande métropole marchande d'Amsterdam pour répondre aux commandes prestigieuses des grandes familles patriciennes.",
+              type: "milestone",
+              icon: "🏛️"
+            },
+            {
+              year: 1663,
+              title: "Joueurs de cartes dans un riche intérieur",
+              desc: "Perfection du pavement de marbre en perspective et des tentures dorées de Cordoue, célébrant le raffinement suprême du Siècle d'Or.",
+              type: "masterpiece",
+              icon: "🃏",
+              artworkId: "de_hooch_joueurs_cartes_louvre_1663"
+            },
+            {
+              year: 1684,
+              title: "Fin de vie à Amsterdam",
+              desc: "S'éteint en mars 1684 à Amsterdam, laissant derrière lui l'une des leçons de géométrie et de lumière les plus pures de l'art européen.",
+              type: "death",
+              icon: "🕊️"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  delacroix: {
+    id: "delacroix",
+    name: "Eugène Delacroix",
+    sortName: "Delacroix Eugène",
+    sortLetter: "D",
+    dates: "1798 – 1863",
+    movement: "Romantisme français, Peinture d'Histoire & Révolution Chromatique",
+    nationality: "Français (Charenton-Saint-Maurice / Paris)",
+    techniques: "Huile sur toile, touche fougueuse et vibrante, loi du contraste des complémentaires et ombres colorées, compositions en diagonale tourbillonnantes, clair-obscur dramatique, exaltation du mouvement et du Sublime",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczN5l-UHssqjvmWJoXKsQw5JRtQizrcBJioXyrNeaaQXm9NBn-4enXfidu11PftPt7oJFvpqpa2DcIrWRVWOmCDow9DZvJYNYF9_AJ_cN9COrehNtq_i7ozfvTj4M6RT_vIJNTT1M1nsVknScuOQs8RJIQ=w1942-h824-s-no-gm?authuser=0",
+    bio: [
+      "Eugène Delacroix (1798 – 1863) est le chef de file incontesté du Romantisme français. Véritable « génie tourmenté », il s'est opposé toute sa vie à la rigueur d'Ingres en prônant la supériorité de la couleur et de l'émotion sur le dessin pur. Son œuvre, immense et passionnée, a ouvert la voie à l'art moderne en libérant la touche picturale.",
+      "Son genre pictural se définit par le lyrisme chromatique et le mouvement dramatique. Delacroix utilise la couleur non pas pour colorier une forme, mais pour la construire et transmettre une vibration psychologique. Son style se caractérise par des contrastes violents, des compositions en diagonale tourbillonnantes et une fascination pour l'exotisme, la littérature et la lutte entre l'homme et la nature.",
+      "L'évolution de son style marque un passage de la révolte politique vers une quête de lumière orientale et de synthèse classique : la fougue romantique et l'engagement des années 1820 avec des toiles monumentales comme La Barque de Dante, Les Massacres de Scio, La Mort de Sardanapale et La Liberté guidant le peuple ; le choc décisif du voyage au Maroc en 1832 transformant sa palette par la découverte de la lumière crue et des ombres colorées (Femmes d'Alger) ; enfin la maturité monumentale consacrée aux grands décors muraux (Palais Bourbon, église Saint-Sulpice) où la fougue du pinceau féconde une méditation spirituelle annonçant directement l'impressionnisme et Van Gogh."
+    ],
+    corpus: {
+      total: 850,
+      seen: 18,
+      paintingsCount: 850,
+      sourceTitle: "Lee Johnson, The Paintings of Eugène Delacroix: A Critical Catalogue (6 vol., Oxford, 1981–1989)",
+      sourceNotes: "L'inventaire de référence moderne pour sa peinture a été dressé par l'éminent historien de l'art britannique Lee Johnson. Son travail titanesque en six volumes (1981-1989) a permis de purger le catalogue historique d'Alfred Robaut (1885) des attributions douteuses tout en intégrant les découvertes récentes. Le consensus scientifique contemporain fixe son corpus peint officiel à environ 850 œuvres, dont 18 chefs-d'œuvre majeurs contemplés in situ au Musée du Louvre, au Musée Fabre de Montpellier, au Musée des Beaux-Arts de Rouen, au Musée d'arts de Nantes et au Musée National d'Art Occidental de Tokyo.",
+      details: [
+        {
+          label: "Grandes peintures d'histoire, mythes & drames romantiques",
+          count: 180,
+          icon: "⚔️",
+          color: "#c0392b",
+          seen: 6,
+          note: "La Barque de Dante, Les Massacres de Scio, La Mort de Sardanapale, La Liberté guidant le peuple, La Justice de Trajan, Don Juan"
+        },
+        {
+          label: "Voyage au Maroc, orientalisme & souvenirs d'Alger",
+          count: 220,
+          icon: "🕌",
+          color: "#d4af37",
+          seen: 5,
+          note: "Femmes d'Alger (Louvre & Montpellier), Fantasia marocaine, Le Kaïd (Nantes), Arabe syrien et son cheval (Tokyo)"
+        },
+        {
+          label: "Monde animalier, chasses aux fauves & chevaux indomptés",
+          count: 150,
+          icon: "🐯",
+          color: "#e67e22",
+          seen: 1,
+          note: "Jeune tigre jouant avec sa mère (Louvre), Chasse aux lions, Chevaux arabes se battant"
+        },
+        {
+          label: "Portraits, autoportraits, études intimes & grands décors",
+          count: 300,
+          icon: "🖼️",
+          color: "#8e44ad",
+          seen: 6,
+          note: "Autoportrait (Rouen), Portrait d'Alfred Bruyas (Montpellier), Aspasie, Michel-Ange dans son atelier, Ruines de Valmont"
+        }
+      ]
+    },
+    biographyTimeline: {
+      birth: 1798,
+      birthPlace: "Charenton-Saint-Maurice (France)",
+      death: 1863,
+      deathPlace: "Paris (France)",
+      periods: [
+        {
+          title: "La Fougue Romantique & Les Grands Manifestes",
+          years: "1798 – 1831",
+          desc: "Formation chez Guérin, découverte du génie de Géricault et de Constable, et série de scandales retentissants aux Salons de la Restauration imposant le primat absolu de la couleur et du sentiment.",
+          events: [
+            {
+              year: 1798,
+              title: "Naissance près de Paris",
+              desc: "Fils légal de Charles Delacroix mais selon une tradition persistante fils naturel de Talleyrand, qui veillera discrètement sur sa carrière.",
+              type: "birth",
+              icon: "🇫🇷"
+            },
+            {
+              year: 1816,
+              title: "Autoportrait de jeunesse (Rouen)",
+              desc: "À 18 ans, il peint son premier autoportrait ténébriste au Musée de Rouen, rompant déjà avec le classicisme lisse de Guérin.",
+              type: "milestone",
+              icon: "👤"
+            },
+            {
+              year: 1822,
+              title: "La Barque de Dante (Louvre)",
+              desc: "Coup d'éclat magistral au Salon de 1822 : les corps suppliciés des damnés et les gouttes d'eau juxtaposées de couleurs pures éblouissent Thiers.",
+              type: "masterpiece",
+              icon: "⛵",
+              artworkId: "delacroix_barque_de_dante_louvre_1822"
+            },
+            {
+              year: 1824,
+              title: "Scènes des massacres de Scio (Louvre)",
+              desc: "Manifeste philhellène bouleversant qui brise la perspective académique pour dénoncer l'atrocité guerrière par la puissance expressive du coloris.",
+              type: "masterpiece",
+              icon: "⚔️",
+              artworkId: "delacroix_massacres_de_scio_louvre_1824"
+            },
+            {
+              year: 1824,
+              title: "Aspasie (Montpellier)",
+              desc: "Étude intime au Musée Fabre où la présence charnelle et les reflets verdâtres de la chair préfigurent ses recherches sur les complémentaires.",
+              type: "milestone",
+              icon: "🌹"
+            },
+            {
+              year: 1827,
+              title: "La Mort de Sardanapale (Louvre)",
+              desc: "Apogée furieux du romantisme : diagonale vertigineuse et orgie de rouges sanglants où le suicide du monarque assyrien subjugue par sa violence sublime.",
+              type: "masterpiece",
+              icon: "🔥",
+              artworkId: "delacroix_mort_de_sardanapale_louvre_1827"
+            },
+            {
+              year: 1829,
+              title: "Arabe syrien et son cheval (Tokyo)",
+              desc: "Orientalisme byronien précoce au Musée de Tokyo alliant la fougue chevaline héritée de Géricault et le stoïcisme du bédouin face à l'orage.",
+              type: "milestone",
+              icon: "🏇"
+            },
+            {
+              year: 1830,
+              title: "La Liberté guidant le peuple (Louvre)",
+              desc: "Icône universelle de l'émancipation des peuples commémorant les barricades des Trois Glorieuses de juillet 1830.",
+              type: "masterpiece",
+              icon: "🚩",
+              artworkId: "delacroix_liberte_guidant_le_peuple_louvre_1830"
+            },
+            {
+              year: 1830,
+              title: "Jeune tigre jouant avec sa mère (Louvre)",
+              desc: "Fasciné par les fauves du Jardin des Plantes, il capte la vitalité sauvage et la dualité entre tendresse et férocité animale.",
+              type: "milestone",
+              icon: "🐯"
+            },
+            {
+              year: 1831,
+              title: "Ruines de la chapelle de l'abbaye de Valmont (Rouen)",
+              desc: "Méditation poétique sur les ruines gothiques normandes de sa famille maternelle, baignées d'une lumière dorée nostalgique.",
+              type: "milestone",
+              icon: "🏛️"
+            }
+          ]
+        },
+        {
+          title: "Le Choc de l'Orient & La Métamorphose Chromatique",
+          years: "1832 – 1848",
+          desc: "Son voyage au Maroc et en Algérie en 1832 bouleverse son esthétique : il y découvre une « Antiquité vivante » et fonde l'orientalisme moderne par l'expérimentation des ombres colorées.",
+          events: [
+            {
+              year: 1832,
+              title: "Exercices militaires des marocains (Montpellier)",
+              desc: "La Fantasia marocaine saisie sur le vif au Musée Fabre : cavalcade furieuse en galop volant sous la fumée de poudre et la poussière d'or.",
+              type: "masterpiece",
+              icon: "💥",
+              artworkId: "delacroix_exercices_militaires_marocains_montpellier_1832"
+            },
+            {
+              year: 1832,
+              title: "Femmes d'Alger dans leur appartement - Esquisse (Rouen)",
+              desc: "Croquis pris sur le vif après avoir pénétré dans un gynécée d'Alger, captant l'intimité suspendue d'une vérité ethnographique sans fard.",
+              type: "milestone",
+              icon: "🕌"
+            },
+            {
+              year: 1834,
+              title: "Femmes d'Alger dans leur appartement (Louvre)",
+              desc: "Chef-d'œuvre fondateur de l'art moderne : la théorie des complémentaires et le contraste simultané font vibrer la pénombre chaude du harem.",
+              type: "masterpiece",
+              icon: "✨",
+              artworkId: "delacroix_femmes_alger_appartement_louvre_1834"
+            },
+            {
+              year: 1837,
+              title: "Le Kaïd, chef marocain (Nantes)",
+              desc: "Noblesse équestre archaïque du chef recevant l'hommage de son peuple, vibrant de bannières éclatantes sous un ciel d'orage.",
+              type: "masterpiece",
+              icon: "👑",
+              artworkId: "delacroix_le_kaid_chef_marocain_nantes_1837"
+            },
+            {
+              year: 1840,
+              title: "Le Naufrage de Don Juan (Louvre)",
+              desc: "Vision oppressante inspirée de Byron : la détresse humaine absolue au milieu d'un océan vertigineux peinte par grandes touches liquides.",
+              type: "masterpiece",
+              icon: "🌊",
+              artworkId: "delacroix_naufrage_don_juan_louvre_1840"
+            },
+            {
+              year: 1840,
+              title: "La Justice de Trajan (Rouen)",
+              desc: "Gigantesque peinture d'histoire au Musée de Rouen : Trajan arrête son armée impériale pour rendre justice à une veuve en larmes.",
+              type: "masterpiece",
+              icon: "⚖️",
+              artworkId: "delacroix_justice_de_trajan_rouen_1840"
+            },
+            {
+              year: 1840,
+              title: "Michel-Ange dans son atelier (Montpellier)",
+              desc: "Méditation mélancolique au Musée Fabre sur le fardeau écrasant du génie créateur face aux statues inachevées.",
+              type: "milestone",
+              icon: "🗿"
+            }
+          ]
+        },
+        {
+          title: "La Plénitude Monumentale, Les Grands Décors & Bruyas",
+          years: "1849 – 1863",
+          desc: "Les dernières décennies voient la réalisation des décors monumentaux du Palais Bourbon, du Sénat et de la chapelle des Saints-Anges à Saint-Sulpice, ainsi que sa rencontre décisive avec son mécène Alfred Bruyas.",
+          events: [
+            {
+              year: 1849,
+              title: "Femmes d'Alger dans leur intérieur (Montpellier)",
+              desc: "Variation magistrale au Musée Fabre où la liberté de touche et la fusion des tons complémentaires annoncent Renoir et Matisse.",
+              type: "milestone",
+              icon: "🌺"
+            },
+            {
+              year: 1853,
+              title: "Portrait d'Alfred Bruyas (Montpellier)",
+              desc: "Image introspective poignante du mécène visionnaire : Delacroix rend hommage à celui qui sauva la liberté créatrice de son temps.",
+              type: "masterpiece",
+              icon: "🎩",
+              artworkId: "delacroix_portrait_alfred_bruyas_montpellier_1853"
+            },
+            {
+              year: 1855,
+              title: "Triomphe à l'Exposition Universelle de Paris",
+              desc: "Rétrospective monumentale de 35 toiles consacrant son génie en face d'Ingres, récompensé par la grande médaille d'honneur.",
+              type: "milestone",
+              icon: "🏅"
+            },
+            {
+              year: 1861,
+              title: "Achèvement des fresques de Saint-Sulpice",
+              desc: "Inauguration de La Lutte de Jacob avec l'ange et Héliodore chassé du temple dans la chapelle des Saints-Anges, son testament spirituel.",
+              type: "milestone",
+              icon: "⛪"
+            },
+            {
+              year: 1863,
+              title: "Mort à Paris place Furstenberg",
+              desc: "S'éteint le 13 août 1863 dans son appartement-atelier de la place Furstenberg (aujourd'hui Musée national Eugène-Delacroix).",
+              type: "death",
+              icon: "🕊️"
+            }
+          ]
+        }
+      ]
+    }
+  }
 };
 

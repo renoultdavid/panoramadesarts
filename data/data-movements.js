@@ -301,6 +301,14 @@ window.MOVEMENTS_DATA = {
         "desc": "Les Ménines, Les Fileuses et portraits royaux de Philippe IV.",
         "artistId": "",
         "icon": "🏛️"
+      },
+      {
+        "name": "Pieter de Hooch",
+        "dates": "1629 – 1684",
+        "role": "Maître du Siècle d'or hollandais, de l'intimisme et du doorkijkje",
+        "desc": "La Buveuse, Femme préparant des légumes, Joueurs de cartes.",
+        "artistId": "de_hooch",
+        "icon": "🚪"
       }
     ]
   },
@@ -480,6 +488,14 @@ window.MOVEMENTS_DATA = {
         "desc": "Précurseur indispensable du plein air sur les plages normandes.",
         "artistId": "boudin",
         "icon": "⛵"
+      },
+      {
+        "name": "Edgar Degas",
+        "dates": "1834 – 1917",
+        "role": "Maître du mouvement instantané, des coulisses de l'Opéra et du pastel",
+        "desc": "Trois danseuses dans les coulisses, La Repasseuse, Petite Danseuse de quatorze ans.",
+        "artistId": "degas",
+        "icon": "🩰"
       }
     ]
   },
@@ -495,7 +511,7 @@ window.MOVEMENTS_DATA = {
         "dates": "1798 – 1863",
         "role": "Chef de file du romantisme français et magicien de la couleur",
         "desc": "La Liberté guidant le peuple, La Mort de Sardanapale et Femmes d'Alger.",
-        "artistId": "",
+        "artistId": "delacroix",
         "icon": "🚩"
       },
       {
