@@ -739,7 +739,7 @@ window.MOVEMENTS_DATA = {
         "dates": "1904 – 1989",
         "role": "Génie théâtral de la paranoïa-critique et des montres molles",
         "desc": "La Persistance de la mémoire, Prémonition de la guerre civile.",
-        "artistId": "",
+        "artistId": "dali",
         "icon": "🕰️"
       },
       {

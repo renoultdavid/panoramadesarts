@@ -5861,6 +5861,300 @@ window.ARTISTS_REGISTRY = {
         }
       ]
     }
+  },
+  dali: {
+    id: "dali",
+    name: "Salvador Dalí",
+    sortName: "Dalí Salvador",
+    sortLetter: "D",
+    dates: "1904 – 1989",
+    movement: "Surréalisme, Méthode paranoïaque-critique & Mysticisme nucléaire",
+    nationality: "Espagnol (Figueras, Catalogne)",
+    techniques: "Huile sur toile, méthode paranoïaque-critique, dessin hyperréaliste, lévitation atomique, stéréoscopie, trompe-l'œil et images doubles",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczOKhbCMeb5lCvgIr1leULgeX79rPHMD0NCXMg-j7XOsomI454ez5ySu2puDJiKsZ80Txy6YDNjU_ePWjrNomP7zE3MaRKohvm43YMj-k-WuyPlIf-FsWoppRIQY9_YHpxYiDguGo8mceNFyQSGs4EmM8A=w1894-h803-s-no-gm?authuser=0",
+    bio: [
+      "Salvador Dalí (1904 – 1989), artiste catalan de génie, est la figure la plus célèbre et la plus provocatrice du Surréalisme. Personnalité excentrique au narcissisme savamment mis en scène, il a marqué l'histoire de l'art par sa virtuosité technique exceptionnelle, mise au service de l'exploration de l'inconscient, des rêves et des obsessions les plus profondes de l'esprit humain.",
+      "Son genre pictural est défini par ce qu'il appelait la méthode paranoïaque-critique : un procédé consistant à accéder à des visions irrationnelles et délirantes pour les retranscrire avec une précision photographique. Son style se caractérise par une technique académique digne des maîtres de la Renaissance, qu'il utilise pour créer des images d'un « onirisme concret » où les objets se déforment (montres molles), les corps s'ouvrent par des tiroirs et les paysages de sa Catalogne natale se transforment en décors métaphysiques.",
+      "L'évolution de son style montre une trajectoire allant de la rébellion surréaliste vers un mysticisme classique : la période surréaliste (1929 – 1939) avec des chefs-d'œuvre iconiques explorant la sexualité, la mort et les images doubles ; la période « classique » et atomique d'après-guerre où il s'intéresse aux découvertes de la physique nucléaire et revient à la foi catholique avec des compositions monumentales d'une complexité mathématique extrême ; enfin l'ère médiatique et holographique de sa maturité où il multiplie les expérimentations (stéréoscopie, hologrammes, bijoux) et devient une figure planétaire de la culture visuelle."
+    ],
+    corpus: {
+      total: 1000,
+      seen: 40,
+      paintingsCount: 1000,
+      sourceTitle: "Catalogue Raisonné de Peintures (Fondation Gala-Salvador Dalí, 2017)",
+      sourceNotes: "Contrairement aux maîtres anciens, le catalogue raisonné définitif de ses peintures est un projet numérique exhaustif porté par la Fondation Gala-Salvador Dalí. Achevé en 2017 après 17 années de recherches scientifiques acharnées, ce catalogue monumental couvre l'intégralité de sa création picturale de 1910 à 1983. Après avoir formellement écarté les nombreuses toiles peintes par des faussaires sur des toiles vierges que Dalí avait parfois signées d'avance à la fin de sa vie pour éponger ses dettes, ainsi que son immense production graphique, sculpturale et cinématographique, le comité scientifique a arrêté le compteur à très exactement 1 000 peintures répertoriées (dont 40 chefs-d'œuvre contemplés in situ au Théâtre-Musée de Figueras, au Musée Reina Sofía de Madrid et à la Tate Modern de Londres).",
+      details: [
+        {
+          label: "Période de jeunesse, Cadaqués, Madrid & avant-gardes (1910 – 1928)",
+          count: 220,
+          icon: "🎨",
+          color: "#d4af37",
+          seen: 12,
+          note: "Autoportraits, Jeune fille à la fenêtre, Luis Buñuel, Petites Cendres (Figueras & Madrid)"
+        },
+        {
+          label: "Apogée surréaliste & méthode paranoïaque-critique (1929 – 1939)",
+          count: 310,
+          icon: "🕰️",
+          color: "#e74c3c",
+          seen: 8,
+          note: "Le Grand Masturbateur, Métamorphose de Narcisse, Angélus, Énigme sans fin"
+        },
+        {
+          label: "Exil américain, mysticisme nucléaire & corpus classique (1940 – 1968)",
+          count: 280,
+          icon: "⚛️",
+          color: "#00b4d8",
+          seen: 10,
+          note: "Leda atomica, Galatée aux sphères, Galarina, Création de l'Homme (Figueras)"
+        },
+        {
+          label: "Plafonds monumentaux, stéréoscopie & dernières toiles (1969 – 1983)",
+          count: 190,
+          icon: "🏛️",
+          color: "#9b59b6",
+          seen: 10,
+          note: "Le Palais du Vent, Songes de Pantagruel, Chemin de l'énigme, Écho géologique (Figueras)"
+        }
+      ]
+    },
+    biographyTimeline: {
+      birth: 1904,
+      birthPlace: "Figueras (Catalogne, Espagne)",
+      death: 1989,
+      deathPlace: "Figueras (Catalogne, Espagne)",
+      periods: [
+        {
+          title: "La Jeunesse Catalane, Madrid & L'Éveil des Avant-Gardes",
+          years: "1904 – 1928",
+          color: "#d97706",
+          summary: "De la Catalogne natale à l'Académie royale des beaux-arts de Madrid, le jeune Dalí assimile l'impressionnisme, le cubisme et le purisme avant de forger sa signature provocatrice aux côtés de Federico García Lorca et Luis Buñuel.",
+          events: [
+            {
+              year: 1904,
+              title: "Naissance à Figueras",
+              desc: "Fils d'un notaire républicain de Catalogne, il reçoit le prénom de son frère aîné décédé neuf mois avant sa naissance, origine d'un trouble identitaire fondamental.",
+              type: "birth",
+              icon: "👶"
+            },
+            {
+              year: 1920,
+              title: "Autoportrait de l'artiste adolescent",
+              desc: "Fusain et gouache intense marqué par la perte de sa mère et le clair-obscur dramatique.",
+              type: "masterpiece",
+              icon: "🎨",
+              artworkId: "dali_autoportrait_adolescent_figueras_1920"
+            },
+            {
+              year: 1921,
+              title: "Autoportrait au cou raphaélesque & La Vénus qui sourit",
+              desc: "Hommage provocateur à Raphaël et exploration de la sensualité catalane à Figueras.",
+              type: "masterpiece",
+              icon: "🖼️",
+              artworkId: "dali_autoportrait_cou_raphaelesque_figueras_1921"
+            },
+            {
+              year: 1922,
+              title: "Entrée à l'Académie royale San Fernando de Madrid",
+              desc: "Installation à la prestigieuse Residencia de Estudiantes où il noue une relation passionnée avec le poète Federico García Lorca et le futur cinéaste Luis Buñuel.",
+              type: "formation",
+              icon: "🎓"
+            },
+            {
+              year: 1924,
+              title: "Portrait de Luis Buñuel & Nature morte puriste",
+              desc: "Maturité technique prodigieuse associant rigueur plastique et gravité psychologique du regard.",
+              type: "masterpiece",
+              icon: "🎬",
+              artworkId: "dali_portrait_luis_bunuel_reina_sofia_1924"
+            },
+            {
+              year: 1925,
+              title: "Première exposition personnelle à Barcelone & Jeune fille à la fenêtre",
+              desc: "Triomphe aux galeries Dalmau avec les célèbres portraits de sa sœur Anna Maria contemplant la mer de Cadaqués.",
+              type: "exhibition",
+              icon: "🪟",
+              artworkId: "dali_jeune_fille_a_la_fenetre_reina_sofia_1925"
+            },
+            {
+              year: 1927,
+              title: "Petites Cendres (Cenicitas)",
+              desc: "Peinture charnière marquant le basculement vers l'imaginaire onirique, les chairs en décomposition et les apparitions fantomatiques.",
+              type: "masterpiece",
+              icon: "✨",
+              artworkId: "dali_petites_cendres_cenicitas_reina_sofia_1927"
+            },
+            {
+              year: 1928,
+              title: "Chair de poule inaugurale & Premier voyage à Paris",
+              desc: "Visite l'atelier de Picasso qu'il vénère, puis rompt définitivement avec l'académie pour plonger dans l'avant-garde surréaliste.",
+              type: "travel",
+              icon: "⚡",
+              artworkId: "dali_chair_de_poule_inaugurale_figueras_1928"
+            }
+          ]
+        },
+        {
+          title: "L'Apothéose Surréaliste, Gala & La Paranoïa-Critique",
+          years: "1929 – 1939",
+          color: "#e74c3c",
+          summary: "L'irruption tonitruante dans le groupe surréaliste parisien d'André Breton, la rencontre fondatrice avec sa muse et compagne de vie Gala, et l'élaboration théorique de la méthode paranoïaque-critique.",
+          events: [
+            {
+              year: 1929,
+              title: "Rencontre avec Gala, Le Grand Masturbateur & Un Chien andalou",
+              desc: "Coup de foudre pour Gala (épouse de Paul Éluard) à Cadaqués ; co-réalisation du film culte Un Chien andalou avec Buñuel et consécration immédiate du Grand Masturbateur.",
+              type: "turning_point",
+              icon: "❤️",
+              artworkId: "dali_le_grand_masturbateur_reina_sofia_1929"
+            },
+            {
+              year: 1932,
+              title: "Composition surréaliste avec personnages invisibles",
+              desc: "Perfectionnement du trompe-l'œil hallucinatoire et des déformations corporelles à Portlligat.",
+              type: "masterpiece",
+              icon: "👁️",
+              artworkId: "dali_composition_surrealiste_formes_molles_figueras_1932"
+            },
+            {
+              year: 1933,
+              title: "L'Angélus de Millet & L'Homme invisible",
+              desc: "Application systématique de la méthode paranoïaque-critique à l'Angélus de Jean-François Millet, y décelant une tragédie érotique et funèbre refoulée.",
+              type: "masterpiece",
+              icon: "🔔",
+              artworkId: "dali_angelus_architectonique_millet_reina_sofia_1933"
+            },
+            {
+              year: 1934,
+              title: "Le Spectre du sex-appeal & Premier voyage aux États-Unis",
+              desc: "Triomphe sensationnel à New York ; le personnage dalinien devient une sensation médiatique internationale.",
+              type: "exhibition",
+              icon: "🗽",
+              artworkId: "dali_le_spectre_du_sex_appeal_figueras_1934"
+            },
+            {
+              year: 1936,
+              title: "Métamorphose de Narcisse & Prémonition de la guerre civile",
+              desc: "Chef-d'œuvre de la méthode paranoïaque-critique acquis par Edward James et salué par Sigmund Freud lors de leur rencontre à Londres en 1938.",
+              type: "masterpiece",
+              icon: "🪞",
+              artworkId: "dali_metamorphose_de_narcisse_tate_1936"
+            },
+            {
+              year: 1938,
+              title: "L'Énigme sans fin",
+              desc: "Démonstration magistrale d'images multiples superposées : jusqu'à six motifs simultanés se métamorphosent dans la même composition.",
+              type: "masterpiece",
+              icon: "🌀",
+              artworkId: "dali_l_enigme_sans_fin_reina_sofia_1938"
+            },
+            {
+              year: 1939,
+              title: "L'Énigme d'Hitler & Exclusion du groupe surréaliste",
+              desc: "Face aux positions d'André Breton, Dalí revendique sa liberté absolue d'explorer les mythes contemporains ; Breton forge l'anagramme satirique Avida Dollars.",
+              type: "breakthrough",
+              icon: "☎️",
+              artworkId: "dali_l_enigme_d_hitler_reina_sofia_1939"
+            }
+          ]
+        },
+        {
+          title: "L'Exil Américain, Le Mysticisme Nucléaire & Le Théâtre-Musée",
+          years: "1940 – 1989",
+          color: "#00b4d8",
+          summary: "Huit ans d'exil prolifique aux États-Unis, le basculement vers le mysticisme nucléaire inspiré de la physique quantique et des maîtres classiques, puis l'érection du somptueux Théâtre-Musée de Figueras.",
+          events: [
+            {
+              year: 1941,
+              title: "Autoportrait mou avec du lard grillé & Rétrospective au MoMA",
+              desc: "Grande rétrospective triomphale à New York ; il publie sa célèbre autobiographie La Vie secrète de Salvador Dalí.",
+              type: "exhibition",
+              icon: "🥓",
+              artworkId: "dali_autoportrait_mou_lard_grille_figueras_1941"
+            },
+            {
+              year: 1943,
+              title: "Poésie d'Amérique (Les Athlètes cosmiques)",
+              desc: "Vision monumentale des États-Unis anticipant l'iconographie du Pop Art avec l'apparition d'une bouteille de Coca-Cola.",
+              type: "masterpiece",
+              icon: "🏈",
+              artworkId: "dali_poesie_d_amerique_figueras_1943"
+            },
+            {
+              year: 1945,
+              title: "Galarina & Le Choc atomique d'Hiroshima",
+              desc: "Hommage à Raphaël à travers le portrait souverain de Gala aux seins découverts, tout en initiant son tournant vers la physique corpusculaire.",
+              type: "masterpiece",
+              icon: "👸",
+              artworkId: "dali_galarina_figueras_1945"
+            },
+            {
+              year: 1947,
+              title: "Portrait de Picasso au XXIe siècle",
+              desc: "Hommage allégorique vénéneux au titan catalan, mêlant admiration colossale et rivalité théâtrale.",
+              type: "masterpiece",
+              icon: "🎭",
+              artworkId: "dali_portrait_picasso_xxi_figueras_1947"
+            },
+            {
+              year: 1949,
+              title: "Leda Atomica & Le Manifeste Mystique",
+              desc: "Sommet du mysticisme nucléaire : chaque élément pictural flotte en lévitation sous les lois divines de la proportion dorée.",
+              type: "masterpiece",
+              icon: "⚛️",
+              artworkId: "dali_leda_atomique_figueras_1949"
+            },
+            {
+              year: 1952,
+              title: "Galatée aux sphères",
+              desc: "Fragmentation du visage de Gala en une myriade de particules atomiques tridimensionnelles selon un axe géométrique parfait.",
+              type: "masterpiece",
+              icon: "🔮",
+              artworkId: "dali_galatee_aux_spheres_figueras_1952"
+            },
+            {
+              year: 1960,
+              title: "Gala nue de dos regardant la mer",
+              desc: "Élégie intime à Portlligat alliant monumentalité plastique et trompe-l'œil optique préfigurant Abraham Lincoln.",
+              type: "masterpiece",
+              icon: "🌊",
+              artworkId: "dali_gala_nue_de_dos_figueras_1960"
+            },
+            {
+              year: 1972,
+              title: "Plafond monumental du Théâtre-Musée : Le Palais du Vent",
+              desc: "Chef-d'œuvre in situ à Figueras où Dalí et Gala projettent leurs corps vus en contre-plongée vertigineuse vers un ciel d'or et de nuages.",
+              type: "masterpiece",
+              icon: "🏛️",
+              artworkId: "dali_le_palais_du_vent_plafond_figueras_1972"
+            },
+            {
+              year: 1973,
+              title: "Les Songes drolatiques de Pantagruel & Gravures fantastiques",
+              desc: "Série magistrale de lithographies et estampes réinterprétant François Rabelais dans une veine grotesque et jubilatoire.",
+              type: "masterpiece",
+              icon: "📜",
+              artworkId: "dali_songes_pantagruel_bouffon_figueras_1973"
+            },
+            {
+              year: 1982,
+              title: "Mort de Gala & Écho géologique - La Piétà",
+              desc: "Dévasté par le décès de sa muse, il se retire au château de Púbol et peint ses ultimes toiles inspirées de Michel-Ange et de la théorie des catastrophes.",
+              type: "masterpiece",
+              icon: "🕊️",
+              artworkId: "dali_echo_geologique_la_pieta_figueras_1982"
+            },
+            {
+              year: 1989,
+              title: "Mort à Figueras & Inhumation au Théâtre-Musée",
+              desc: "S'éteint à 84 ans au son de Tristan et Iseult de Wagner. Il repose selon sa volonté dans la crypte de son Théâtre-Musée de Figueras.",
+              type: "death",
+              icon: "⚰️"
+            }
+          ]
+        }
+      ]
+    }
   }
 };
 
