@@ -226,6 +226,14 @@ window.MOVEMENTS_DATA = {
         "icon": "🗡️"
       },
       {
+        "name": "Annibale Carracci (Annibal Carrache)",
+        "dates": "1560 – 1609",
+        "role": "Père fondateur du classicisme bolonais et rénovateur du grand décor",
+        "desc": "Galerie Farnèse (Les Amours des dieux), Le Mangeur de haricots, La Fuite en Égypte.",
+        "artistId": "carrache_annibale",
+        "icon": "🏛️"
+      },
+      {
         "name": "Artemisia Gentileschi",
         "dates": "1593 – 1656",
         "role": "Héroïne virtuose du caravagisme dramatique",
@@ -502,7 +510,7 @@ window.MOVEMENTS_DATA = {
         "dates": "1839 – 1906",
         "role": "Père spirituel de l'art moderne et architecte des formes",
         "desc": "Montagne Sainte-Victoire, Les Grandes Baigneuses et natures mortes.",
-        "artistId": "",
+        "artistId": "cezanne",
         "icon": "⛰️"
       },
       {
@@ -1017,6 +1025,7 @@ window.MOVEMENTS_DATA = {
     ]
   },
   "mov_archi_gothique": {
+    "bannerImg": "https://lh3.googleusercontent.com/d/1IU-6sFjSdIw8u6sRqQ1080nwAxtjUjY5",
     "badge": "✦ LA LUMIÈRE DIVINE & L'ÉLAN VERTIGINEUX DE LA CROISÉE D'OGIVES (1140 – 1500)",
     "noticeHtml": "<p><strong>Vaincre la pesanteur pour faire ruisseler la lumière céleste</strong><br>Le 11 juin 1144, en présence du roi Louis VII et des évêques du royaume, l'abbé Suger consacre le nouveau chœur de la basilique Saint-Denis. L'acte de naissance de l'architecture gothique (appelée alors <em>opus francigenum</em>, art de France) est accompli : Suger proclame que « <em>Dieu est lumière</em> » et qu'il faut dissoudre les murs opaques pour laisser pénétrer la clarté divine.</p><p>Grâce à la combinaison géniale de la <strong>croisée d'ogives</strong>, de l'<strong>arc brisé</strong> et de l'<strong>arc-boutant</strong> extérieur qui reporte le poids des voûtes hors de l'édifice, les murs s'évidant se métamorphosent en d'immenses cages de verre et de plomb : les vitraux (Chartres, Notre-Dame de Paris, Sainte-Chapelle). Les cathédrales s'élancent vers les cieux à des hauteurs vertigineuses (Beauvais atteignant 48 mètres sous voûte), symbolisant la Jérusalem céleste descendue sur terre.</p>",
     "concurrentHtml": "<p><strong>Pendant ce temps-là... Siècle de Saint Louis et féodalité royale</strong></p><p><strong>France :</strong> Apogée du royaume capétien sous Philippe Auguste, Saint Louis (qui fait édifier la Sainte-Chapelle en un temps record de 6 ans pour abriter les reliques de la Passion) et Philippe le Bel. Paris devient la plus grande ville d'Occident et la capitale de la pensée théologique.</p><p><strong>Europe :</strong> Les ordres mendiants (Franciscains fondés par saint François d'Assise en 1209, Dominicains) réforment la vie spirituelle urbaine. L'art gothique se diffuse en Angleterre (Salisbury, Westminster), en Allemagne (Cologne, Strasbourg) et en Espagne (Tolède, Burgos).</p><p><strong>Commerce :</strong> Prospérité des foires de Champagne et création de la Hanse germanique unissant les ports de la mer Baltique et du Nord.</p>",

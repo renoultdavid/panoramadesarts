@@ -901,7 +901,7 @@ const ART_MOVEMENTS = [
     yearEnd: 1660,
     tier: 1,
     color: "#b45309",
-    keyArtists: "Le Caravage, Artemisia Gentileschi, Georges de La Tour, Rembrandt, Pierre Paul Rubens, Diego Vélasquez",
+    keyArtists: "Le Caravage, Annibale Carracci, Artemisia Gentileschi, Georges de La Tour, Rembrandt, Pierre Paul Rubens, Diego Vélasquez",
     definition: "Séisme baroque refusant l'idéalisation classique pour imposer un réalisme cru, le choc dramatique du clair-obscur (ténébrisme) et une intensité psychologique universelle.",
     filterKeyword: "caravage"
   },
@@ -1185,6 +1185,7 @@ const ART_MOVEMENTS = [
     parentCivId: "occ_gothique",
     lane: "mod_architecture",
     name: "Croisée d'ogives & Cathédrales de lumière",
+    bannerImg: "https://lh3.googleusercontent.com/d/1IU-6sFjSdIw8u6sRqQ1080nwAxtjUjY5",
     yearStart: 1140,
     yearEnd: 1500,
     tier: 1,
@@ -5335,6 +5336,41 @@ function initArtistViewModeSwitcher(artistRecord) {
   };
 }
 
+function findArtistInRegistry(query) {
+  if (!query) return null;
+  const registry = window.ARTISTS_REGISTRY || {};
+  const q = String(query).toLowerCase().trim();
+  const qSlug = q.replace(/[^a-z0-9]/g, '_').replace(/_+/g, '_').replace(/^_|_$/g, '');
+
+  if (registry[query]) return registry[query];
+  if (registry[qSlug]) return registry[qSlug];
+  const directId = Object.values(registry).find(r => r.id && (r.id.toLowerCase() === q || r.id.toLowerCase() === qSlug));
+  if (directId) return directId;
+
+  for (const r of Object.values(registry)) {
+    const rName = (r.name || '').toLowerCase().trim();
+    const rSort = (r.sortName || '').toLowerCase().trim();
+    const rClean = rName.replace(/\(.*?\)/g, '').trim();
+    if ((rClean && (q.includes(rClean) || rClean.includes(q))) ||
+        (rSort && (q.includes(rSort) || rSort.includes(q)))) {
+      return r;
+    }
+  }
+
+  const stopWords = ['dit', 'le', 'la', 'les', 'de', 'du', 'des', 'von', 'van', 'd', 'l'];
+  const qTokens = q.replace(/[(),\-–]/g, ' ').split(/\s+/).filter(w => w.length >= 3 && !stopWords.includes(w));
+  if (qTokens.length > 0) {
+    for (const r of Object.values(registry)) {
+      const rFull = `${r.id || ''} ${r.name || ''} ${r.sortName || ''}`.toLowerCase();
+      if (qTokens.every(token => rFull.includes(token))) {
+        return r;
+      }
+    }
+  }
+
+  return null;
+}
+
 function renderArtistVerticalTimeline(artistRecord, timelineData, artistArts) {
   const container = document.getElementById('artist-vertical-timeline');
   if (!container) return;
@@ -5404,15 +5440,7 @@ function renderArtistVerticalTimeline(artistRecord, timelineData, artistArts) {
           let linkedRec = null;
           let hasMonograph = false;
           if (evt.linkedArtist) {
-            const lName = evt.linkedArtist.toLowerCase().trim();
-            const registry = window.ARTISTS_REGISTRY || {};
-            linkedRec = Object.values(registry).find(r => {
-              const rName = (r.name || '').toLowerCase().trim();
-              const rSort = (r.sortName || '').toLowerCase().trim();
-              const rClean = rName.replace(/\(.*?\)/g, '').trim();
-              return (rClean && (lName.includes(rClean) || rClean.includes(lName))) ||
-                     (rSort && (lName.includes(rSort) || rSort.includes(lName)));
-            });
+            linkedRec = findArtistInRegistry(evt.linkedArtist);
             hasMonograph = Boolean(linkedRec);
           }
 
@@ -5586,7 +5614,7 @@ function openMonographForArtistRecord(artistRecord) {
   const corpusBreakdownWrapper = document.getElementById('corpus-breakdown-wrapper');
   const corpusDetailsRow = document.getElementById('corpus-details-row');
   const corpusSourceTitle = document.getElementById('corpus-source-title');
-  const sourceDrawerText = document.getElementById('corpus-source-drawer-text');
+  const sourceDrawerText = document.getElementById('source-drawer-text') || document.getElementById('corpus-source-drawer-text');
   const corpusSourceDrawer = document.getElementById('corpus-source-drawer');
   const btnToggleCorpusSource = document.getElementById('btn-toggle-corpus-source');
 
@@ -5879,16 +5907,7 @@ function renderMovementArtistsTrack(civ, movData) {
 
   artists.forEach(art => {
     const cleanName = (art.name || '').replace(/\(.*?\)/g, '').toLowerCase().trim();
-    const artistRecord = Object.values(registry).find(a => {
-      if (art.artistId && a.id && a.id.toLowerCase() === art.artistId.toLowerCase()) return true;
-      const aName = (a.name || '').toLowerCase().trim();
-      const aSort = (a.sortName || '').toLowerCase().trim();
-      const aClean = aName.replace(/\(.*?\)/g, '').trim();
-      return aName === art.name.toLowerCase().trim() ||
-             aClean === cleanName ||
-             (cleanName && (aClean.includes(cleanName) || cleanName.includes(aClean))) ||
-             (aSort && cleanName && (aSort.includes(cleanName) || cleanName.includes(aSort)));
-    });
+    const artistRecord = findArtistInRegistry(art.artistId || art.name);
 
     const card = document.createElement('div');
     card.className = 'pavilion-artist-vignette';

@@ -3664,6 +3664,321 @@ window.ARTISTS_REGISTRY = {
         }
       ]
     }
+  },
+  "carrache_annibale": {
+    id: "carrache_annibale",
+    name: "Carrache Annibale",
+    sortName: "Carrache Annibale",
+    sortLetter: "C",
+    dates: "1560 – 1609",
+    movement: "Baroque & Classicisme bolonais (Galerie Farnèse)",
+    nationality: "Italien (Bologne et Rome)",
+    techniques: "Fresque monumentale (quadratura & quadri riportati), huile sur toile, dessin d'après nature",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczMsbErjtU0D2UoNiWIxy2E7anrqymPob966QXQ-46oSodj_G5s37pYqK51cMWALYHWKhOvS0YlpkbD9MyB8k5Fr7sAWT3WU2-OXDPYprZAkVCrCTQdOAfYDueelld4LOrbHrF4gbFDcY0KB4Z8Na9rN9A=w1795-h761-s-no-gm?authuser=0",
+    portraitImg: "",
+    bio: `
+      <p><strong>Le réformateur bolonais et père du grand classicisme romain</strong><br>
+      Annibale Carracci, en français Annibal Carrache (1560 – 1609), est avec Le Caravage le grand réformateur de la peinture italienne au tournant des XVIe et XVIIe siècles. Fondateur à Bologne, avec son frère Agostino et son cousin Ludovico, de l'Académie des Incamminati, il a combattu l'artifice du maniérisme finissant en réhabilitant le dessin d'après nature, l'étude des maîtres de la Renaissance (Raphaël, Michel-Ange, Titien) et l'idéal classique, devenant ainsi le père fondateur du classicisme bolonais et romain.</p>
+      <p><strong>Vigueur plastique, quadratura et clarté de la Contre-Réforme</strong><br>
+      Son genre pictural se définit par le grand décor mythologique à fresque, le retable d'autel réformé, la peinture de genre naturaliste et le paysage composé idéal. Son style se caractérise par une vigueur plastique sculpturale, un dessin rigoureux et expressif, une harmonie chromatique chaleureuse héritée de Venise et une clarté narrative parfaitement lisible, propre aux exigences de la Contre-Réforme comme aux célébrations humanistes.</p>
+      <p><strong>Du naturalisme populaire au triomphe monumental du Palais Farnèse</strong><br>
+      L'évolution de son style marque un passage de l'observation populaire bolonaise vers le monumental triomphe romain :<br>
+      • <em>La période bolonaise et le naturalisme (années 1580) :</em> Rompant avec les formules stéréotypées de son époque, il peint des scènes de la vie quotidienne d'une franchise saisissante, comme <em>Le Mangeur de haricots</em> ou <em>La Boucherie</em>. Son style est alors marqué par une touche directe, un sens aigu de la matière et un colorisme dense influencé par le Corrège et les Vénitiens.<br>
+      • <em>Le chef-d'œuvre de la galerie Farnèse à Rome (1595 – 1604) :</em> Appelé à Rome par le cardinal Odoardo Farnese, il décore la voûte du palais Farnèse avec <em>Les Amours des dieux</em>. Son style atteint une apothéose monumentale : mêlant fausse architecture en trompe-l'œil (<em>quadratura</em>), statues feintes en grisaille et tableaux feints rapportés (<em>quadri riportati</em>), il fusionne la puissance musculaire de Michel-Ange et la grâce sensuelle de Raphaël dans un hymne jubilatoire à la mythologie païenne.<br>
+      • <em>Le classicisme idéal et les paysages tardifs (après 1604) :</em> Épuisé par le chantier Farnèse et frappé par la mélancolie, il invente avec des œuvres comme <em>La Fuite en Égypte</em> le concept de « paysage composé classique » : une nature majestueuse, équilibrée et ordonnée par la raison humaine, qui servira de matrice absolue à Nicolas Poussin et Claude Lorrain.</p>
+    `,
+    corpus: {
+      total: 190,
+      seen: 0,
+      paintingsCount: 160,
+      details: [
+        { label: "Grands cycles de fresques & décors plafonnants", count: 35, icon: "🏛️", color: "#d4af37", seen: 0, note: "Galerie Farnèse, Palais Fava et Palais Magnani à Bologne" },
+        { label: "Peintures de chevalet (toiles & retables d'autel)", count: 125, icon: "🎨", color: "#00b4d8", seen: 0, note: "Dont Le Mangeur de haricots (Rome), La Fuite en Égypte (Doria Pamphilj)" },
+        { label: "Dessins préparatoires & études d'après nature", count: 30, icon: "✏️", color: "#2ecc71", seen: 0 }
+      ],
+      sourceTitle: "Monographie Donald Posner (1971) & Catalogue Gianfranco Malafarina (1976)",
+      sourceNotes: "L'inventaire de référence mondiale pour l'œuvre d'Annibal a été dressé par l'historien de l'art Donald Posner en 1971 (dans sa monographie monumentale Annibale Carracci: A Study in the Reform of Italian Painting), et a été complété par le catalogue scientifique de Gianfranco Malafarina publié en 1976. Après avoir minutieusement démêlé les œuvres de jeunesse peintes « à six mains » avec son frère et son cousin (comme les décors des palais Fava et Magnani à Bologne) et isolé les innombrables copies de ses élèves, les experts s'accordent sur un corpus strictement autographe d'environ 180 à 200 œuvres (comprenant ses peintures de chevalet sur toile ou panneau, et ses grands cycles de fresques)."
+    },
+    biographyTimeline: {
+      "birth": {
+        "year": 1560,
+        "place": "Bologne (États pontificaux)",
+        "title": "Naissance d'Annibale Carracci",
+        "desc": "Fils d'un tailleur bolonais. Formé à l'orfèvrerie puis initié à la peinture par son cousin aîné Ludovico Carracci."
+      },
+      "death": {
+        "year": 1609,
+        "place": "Rome",
+        "title": "Mort d'Annibale Carracci",
+        "desc": "Épuisé par le labeur colossal de la Galerie Farnèse et miné par la mélancolie, il s'éteint à 49 ans et est inhumé au Panthéon de Rome aux côtés de Raphaël."
+      },
+      "periods": [
+        {
+          "title": "Bologne & l'Académie des Incamminati",
+          "years": "1582 – 1594",
+          "color": "#ea580c",
+          "summary": "Avec son frère Agostino et son cousin Ludovico, Annibale fonde l'Académie des Incamminati, réhabilitant l'observation directe du réel et la peinture de genre.",
+          "events": [
+            {
+              "year": 1582,
+              "title": "Fondation de l'Accademia degli Incamminati",
+              "desc": "Création de la célèbre académie bolonaise qui prône le dessin sur le vif (dal naturale) pour purger la peinture des maniérismes décadents.",
+              "type": "life",
+              "icon": "🎨"
+            },
+            {
+              "year": 1584,
+              "title": "Le Mangeur de haricots & La Boucherie",
+              "desc": "Chefs-d'œuvre de naturalisme franc et direct : il confère aux gestes du peuple bolonais une dignité picturale d'une vérité saisissante.",
+              "type": "masterpiece",
+              "icon": "🍲"
+            },
+            {
+              "year": 1590,
+              "title": "Fresques des Palais Fava et Magnani",
+              "desc": "Cycles collectifs monumentaux illustrant l'histoire de Jason et Romulus, salués comme la renaissance du grand récit héroïque en Italie du Nord.",
+              "type": "masterpiece",
+              "icon": "🏛️"
+            }
+          ]
+        },
+        {
+          "title": "L'Apothéose de la Galerie Farnèse à Rome",
+          "years": "1595 – 1604",
+          "color": "#d4af37",
+          "summary": "Appelé à Rome par les Farnèse, il peint la voûte la plus somptueuse depuis la Sixtine, fondant le grand décor baroque et triomphant.",
+          "events": [
+            {
+              "year": 1597,
+              "title": "Chantier de la voûte de la Galerie Farnèse",
+              "desc": "Il conçoit Les Amours des dieux, associant quadratura virtuose, statues feintes et quadri riportati dans une fête visuelle magistrale.",
+              "type": "masterpiece",
+              "icon": "⚡"
+            },
+            {
+              "year": 1601,
+              "title": "La Chapelle Cerasi à Santa Maria del Popolo",
+              "desc": "Il peint Le Retable de l'Assomption, côtoyant directement les toiles de son rival Le Caravage dans le même sanctuaire romain.",
+              "type": "peer",
+              "icon": "🤝",
+              "linkedArtist": "Le Caravage"
+            },
+            {
+              "year": 1604,
+              "title": "Achèvement de la Galerie Farnèse & crise mélancolique",
+              "desc": "Inauguration triomphale de la galerie, mais la pingrerie du cardinal Farnèse plonge l'artiste dans une prostration et un désespoir profonds.",
+              "type": "history",
+              "icon": "📜"
+            }
+          ]
+        },
+        {
+          "title": "Le Classicisme idéal & le paysage composé",
+          "years": "1604 – 1609",
+          "color": "#0284c7",
+          "summary": "Annibale invente le paysage classique ordonné par l'esprit humain, matrice fondatrice pour Nicolas Poussin et tout le Grand Siècle.",
+          "events": [
+            {
+              "year": 1604,
+              "title": "La Fuite en Égypte (Rome, Galerie Doria Pamphilj)",
+              "desc": "Acte de naissance du paysage composé classique : nature idéale, majestueuse et harmonieuse abritant le voyage sacré.",
+              "type": "masterpiece",
+              "icon": "🌄"
+            },
+            {
+              "year": 1609,
+              "title": "Obsèques solennelles au Panthéon",
+              "desc": "Inhumé au Panthéon selon son vœu le plus cher, son héritage fécondera le classicisme de Poussin, du Dominiquin et de Guido Reni.",
+              "type": "peer",
+              "icon": "👑",
+              "linkedArtist": "Nicolas Poussin"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "cezanne": {
+    id: "cezanne",
+    name: "Cézanne Paul",
+    sortName: "Cézanne Paul",
+    sortLetter: "C",
+    dates: "1839 – 1906",
+    movement: "Post-Impressionnisme & Père de l'art moderne",
+    nationality: "Français (Aix-en-Provence)",
+    techniques: "Huile sur toile, touche constructive en facettes, travail au couteau, aquarelle",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczNhsTv5R-OI4AE-9XdS5X7wQkcEIWIsHHXnjWx2K-75-g1mncqBVTbtuVvlyUnS0NNojbynRzAHis2Ezdpeuu_f5QacjAk1603kvb3yLyCxbN9vEKASWt3UO12yW8hw6H9uiAT9wVVWI5bGSPEo__DSEQ=w1795-h761-s-no-gm?authuser=0",
+    portraitImg: "",
+    bio: `
+      <p><strong>Le maître d'Aix et le « père de l'art moderne »</strong><br>
+      Paul Cézanne (1839 – 1906), né à Aix-en-Provence, est considéré comme le « père de l'art moderne ». Bien qu'il ait exposé avec les impressionnistes, il s'en détache rapidement pour chercher une voie plus structurelle, affirmant vouloir « faire de l'impressionnisme quelque chose de solide et de durable comme l'art des musées ». Son œuvre solitaire et exigeante a ouvert la voie au fauvisme et, plus directement encore, au cubisme.</p>
+      <p><strong>Le cylindre, la sphère et le cône : l'architecture de la couleur</strong><br>
+      Son genre pictural repose sur une analyse rigoureuse des formes et des volumes. Pour Cézanne, la nature doit être traitée par « le cylindre, la sphère et le cône ». Il délaisse la perspective traditionnelle pour construire ses compositions par la seule puissance de la couleur. Ses natures mortes, ses portraits et ses paysages ne cherchent pas à copier le réel, mais à créer une « harmonie parallèle à la nature », où chaque touche de pinceau participe à l'équilibre architectural de la toile.</p>
+      <p><strong>De la période couillarde à la synthèse de la Sainte-Victoire</strong><br>
+      L'évolution de son style est marquée par une conquête progressive de la clarté et de la synthèse :<br>
+      • <em>La période « couillarde » (romantique) :</em> Ses premières œuvres sont sombres, tourmentées, peintes avec une matière épaisse travaillée au couteau, exprimant une violence intérieure manifeste.<br>
+      • <em>L'influence impressionniste :</em> Sous l'égide de Pissarro, sa palette s'éclaircit. Il adopte la petite touche divisée mais commence déjà à l'organiser de manière géométrique (la « touche constructive »).<br>
+      • <em>La maturité (période synthétique) :</em> Installé à Aix, il simplifie les formes à l'extrême. Ses séries sur la Montagne Sainte-Victoire ou les Grandes Baigneuses montrent une dissolution des contours au profit d'un agencement de facettes colorées, où l'espace et l'objet fusionnent dans une structure pré-abstraite monumentale.</p>
+    `,
+    corpus: {
+      total: 954,
+      seen: 5,
+      paintingsCount: 954,
+      details: [
+        { label: "Natures mortes & pommes", count: 200, icon: "🍎", color: "#d4af37", seen: 1, note: "Dont Nature morte à la commode (Munich)" },
+        { label: "Paysages d'Aix & Sainte-Victoire", count: 320, icon: "⛰️", color: "#00b4d8", seen: 2, note: "Dont La Tranchée (Munich), Le Pont et déversoir à Pontoise (Tokyo)" },
+        { label: "Portraits & Autoportraits", count: 180, icon: "👤", color: "#2ecc71", seen: 2, note: "Dont Autoportrait au bonnet blanc (Munich), La Promenade (Tokyo)" },
+        { label: "Grandes Baigneuses & nus", count: 140, icon: "🌊", color: "#b5179e", seen: 0 },
+        { label: "Compositions & scènes de jeunesse", count: 114, icon: "🎨", color: "#f77f00", seen: 0 }
+      ],
+      sourceTitle: "The Paintings of Paul Cézanne: A Catalogue Raisonné (John Rewald, 1996) / FWC",
+      sourceNotes: "L'inventaire historique avait d'abord été dressé par Lionello Venturi en 1936. Cependant, le catalogue raisonné de référence mondiale et absolu a été publié en 1996 par l'éminent historien de l'art John Rewald (en collaboration avec Walter Feilchenfeldt et Jayne Warman). Ce travail titanesque, intitulé The Paintings of Paul Cézanne: A Catalogue Raisonné, est aujourd'hui maintenu et numérisé sous la forme du catalogue en ligne FWC, constamment mis à jour par la communauté scientifique. Ce catalogue d'autorité recense très exactement 954 peintures (exclusivement des huiles)."
+    },
+    biographyTimeline: {
+      "birth": {
+        "year": 1839,
+        "place": "Aix-en-Provence",
+        "title": "Naissance de Paul Cézanne",
+        "desc": "Fils de Louis-Auguste Cézanne, banquier aixois. Il se lie d'une amitié fraternelle avec Émile Zola sur les bancs du collège Bourbon."
+      },
+      "death": {
+        "year": 1906,
+        "place": "Aix-en-Provence",
+        "title": "Mort de Paul Cézanne",
+        "desc": "Foudroyé par une pneumonie après avoir peint sous un orage torrentiel face à la Sainte-Victoire, laissant la matrice esthétique du cubisme et de l'art moderne."
+      },
+      "periods": [
+        {
+          "title": "Jeunesse romantique & période couillarde",
+          "years": "1860 – 1871",
+          "color": "#ea580c",
+          "summary": "Monté à Paris, Cézanne peint avec fougue et matière au couteau des toiles dramatiques et puissantes, entre romantisme noir et vigueur provençale.",
+          "events": [
+            {
+              "year": 1861,
+              "title": "Montée à Paris & Académie Suisse",
+              "desc": "Rejoint son ami Zola à Paris et fréquente l'Académie Suisse où il rencontre Camille Pissarro, Guillaumin et Claude Monet.",
+              "type": "life",
+              "icon": "🎨"
+            },
+            {
+              "year": 1870,
+              "title": "La Tranchée avec la montagne Sainte-Victoire (Munich)",
+              "desc": "Peinte à l'Estaque durant la guerre : la saignée ferroviaire industrielle s'insère dans le paysage rude dominé par la Sainte-Victoire.",
+              "type": "masterpiece",
+              "icon": "⛰️",
+              "artworkId": "cezanne_tranchee_sainte_victoire_munich_1870"
+            },
+            {
+              "year": 1871,
+              "title": "La Promenade (Tokyo, Musée national d'art occidental)",
+              "desc": "Deux citadines en crinolines élégantes sous les pins provençaux : vigueur sculpturale de la matière et contours fermes affirmés.",
+              "type": "masterpiece",
+              "icon": "🌲",
+              "artworkId": "cezanne_la_promenade_tokyo_1871"
+            }
+          ]
+        },
+        {
+          "title": "L'assimilation impressionniste avec Pissarro",
+          "years": "1872 – 1881",
+          "color": "#0284c7",
+          "summary": "À Pontoise et Auvers-sur-Oise, Cézanne travaille sur le motif aux côtés de Pissarro, éclaircit sa palette et invente la touche constructive.",
+          "events": [
+            {
+              "year": 1872,
+              "title": "Séjour formateur à Pontoise avec Camille Pissarro",
+              "desc": "Pissarro lui apprend à discipliner sa fougue et à observer la lumière naturelle, initiant sa transition vers le plein air.",
+              "type": "peer",
+              "icon": "🤝",
+              "linkedArtist": "Camille Pissarro"
+            },
+            {
+              "year": 1874,
+              "title": "Première exposition impressionniste chez Nadar",
+              "desc": "Expose Une moderne Olympia et La Maison du pendu, déclenchant les quolibets féroces des critiques conservateurs.",
+              "type": "history",
+              "icon": "⚡"
+            },
+            {
+              "year": 1878,
+              "title": "Autoportrait au bonnet blanc (Munich)",
+              "desc": "Visage taillé dans la couleur par petites hachures parallèles : regard sévère d'un créateur en quête d'intransigeance géométrique.",
+              "type": "masterpiece",
+              "icon": "👤",
+              "artworkId": "cezanne_autoportrait_bonnet_blanc_munich_1878"
+            },
+            {
+              "year": 1881,
+              "title": "Le Pont et le déversoir à Pontoise (Tokyo)",
+              "desc": "Vue rigoureuse sur l'Oise où la charpente architecturale s'équilibre avec le miroir de l'eau et les frondaisons denses.",
+              "type": "masterpiece",
+              "icon": "🏛️",
+              "artworkId": "cezanne_pont_deversoir_pontoise_tokyo_1881"
+            }
+          ]
+        },
+        {
+          "title": "La période constructive & l'architecture des formes",
+          "years": "1882 – 1895",
+          "color": "#d4af37",
+          "summary": "Installé à Aix, Cézanne s'éloigne du groupe impressionniste pour construire une harmonie parallèle à la nature par la modulation de la couleur.",
+          "events": [
+            {
+              "year": 1883,
+              "title": "Nature morte à la commode (Munich, Alte Pinakothek)",
+              "desc": "Chef-d'œuvre de maturité : pommes aux facettes vibrantes, linge sculptural et perspective multifocale préfigurant le cubisme.",
+              "type": "masterpiece",
+              "icon": "🍎",
+              "artworkId": "cezanne_nature_morte_commode_munich_1883"
+            },
+            {
+              "year": 1886,
+              "title": "Rupture avec Émile Zola",
+              "desc": "Zola publie L'Œuvre, mettant en scène un peintre raté inspiré de Cézanne : leur amitié de trente ans se brise irrémédiablement.",
+              "type": "history",
+              "icon": "💔"
+            },
+            {
+              "year": 1895,
+              "title": "Révélation chez Ambroise Vollard à Paris",
+              "desc": "Première exposition personnelle majeure à Paris : Cézanne devient le maître secret vénéré par les jeunes artistes d'avant-garde.",
+              "type": "life",
+              "icon": "🌟"
+            }
+          ]
+        },
+        {
+          "title": "L'ermite des Lauves & la Sainte-Victoire",
+          "years": "1896 – 1906",
+          "color": "#7c3aed",
+          "summary": "Isolé dans son atelier des Lauves, Cézanne accomplit la synthèse monumentale des Grandes Baigneuses et de la Montagne Sainte-Victoire.",
+          "events": [
+            {
+              "year": 1902,
+              "title": "L'atelier des Lauves face à la Sainte-Victoire",
+              "desc": "Il bâtit son atelier sur les hauteurs d'Aix et peint inlassablement la montagne Sainte-Victoire dissoute en facettes de pure lumière.",
+              "type": "masterpiece",
+              "icon": "⛰️"
+            },
+            {
+              "year": 1904,
+              "title": "La leçon du cylindre, de la sphère et du cône",
+              "desc": "Lettre testamentaire à Émile Bernard formulant la règle fondamentale de réduction des formes qui fondera l'aventure cubiste.",
+              "type": "life",
+              "icon": "📐"
+            },
+            {
+              "year": 1906,
+              "title": "Mort à Aix & Rétrospective du Salon d'Automne (1907)",
+              "desc": "Disparaît à Aix. La rétrospective de 1907 bouleverse Picasso et Braque, déclenchant l'acte de naissance du cubisme moderne.",
+              "type": "history",
+              "icon": "👑"
+            }
+          ]
+        }
+      ]
+    }
   }
 };
 
