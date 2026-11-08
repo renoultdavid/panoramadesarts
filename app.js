@@ -5044,6 +5044,46 @@ function searchArtistInGallery(artistName) {
    ========================================================================== */
 let activeArtistViewMode = 'decades'; // 'decades' (Option A) ou 'biography' (Option B)
 
+function showArtNotification(msg) {
+  let toast = document.getElementById('art-floating-toast');
+  if (!toast) {
+    toast = document.createElement('div');
+    toast.id = 'art-floating-toast';
+    toast.className = 'art-floating-toast';
+    document.body.appendChild(toast);
+  }
+  toast.textContent = msg;
+  toast.classList.add('is-visible');
+  if (toast._timer) clearTimeout(toast._timer);
+  toast._timer = setTimeout(() => {
+    toast.classList.remove('is-visible');
+  }, 2800);
+}
+
+function getArtworksForArtistRecord(artistRecord, catalog) {
+  if (!artistRecord) return [];
+  const list = catalog || window.ART_OBJECTS || [];
+  const recId = (artistRecord.id || '').toLowerCase().trim();
+  const recName = (artistRecord.name || '').toLowerCase().trim();
+  const recSort = (artistRecord.sortName || '').toLowerCase().trim();
+  const recClean = recName.replace(/\(.*?\)/g, '').trim();
+
+  return list.filter(item => {
+    const itemArtistId = (item.artistId || '').toLowerCase().trim();
+    if (recId && itemArtistId && itemArtistId === recId) return true;
+
+    const itemArtist = (item.artist || '').toLowerCase().trim();
+    if (!itemArtist) return false;
+
+    if (itemArtist === recName || itemArtist === recSort || itemArtist === recClean) return true;
+    if (recClean && recClean.length >= 4 && (itemArtist.includes(recClean) || recClean.includes(itemArtist))) return true;
+    if (recSort && recSort.length >= 4 && (itemArtist.includes(recSort) || recSort.includes(itemArtist))) return true;
+    if (recName && recName.length >= 4 && itemArtist.includes(recName)) return true;
+
+    return false;
+  });
+}
+
 function initArtistViewModeSwitcher(artistRecord) {
   const btnDecades = document.getElementById('btn-mode-decades');
   const btnBio = document.getElementById('btn-mode-biography');
@@ -5056,18 +5096,7 @@ function initArtistViewModeSwitcher(artistRecord) {
   if (!btnDecades || !btnBio) return;
 
   const catalog = window.ART_OBJECTS || [];
-  const artistArts = catalog.filter(item => {
-    const itemArtist = (item.artist || '').toLowerCase().trim();
-    const itemArtistId = (item.artistId || '').toLowerCase().trim();
-    const recName = (artistRecord.name || '').toLowerCase().trim();
-    const recSort = (artistRecord.sortName || '').toLowerCase().trim();
-    const recClean = recName.replace(/\(.*?\)/g, '').trim();
-
-    return (itemArtistId && itemArtistId === artistRecord.id) ||
-           (itemArtist && (itemArtist === recName || itemArtist === recSort || itemArtist === recClean)) ||
-           (recClean && itemArtist.includes(recClean)) ||
-           (recName && recName.includes(itemArtist));
-  });
+  const artistArts = getArtworksForArtistRecord(artistRecord, catalog);
 
   if (badgeDecades) {
     badgeDecades.textContent = `${artistArts.length} œuvre${artistArts.length > 1 ? 's' : ''}`;
@@ -5189,6 +5218,21 @@ function renderArtistVerticalTimeline(artistRecord, timelineData, artistArts) {
             });
           }
 
+          let linkedRec = null;
+          let hasMonograph = false;
+          if (evt.linkedArtist) {
+            const lName = evt.linkedArtist.toLowerCase().trim();
+            const registry = window.ARTISTS_REGISTRY || {};
+            linkedRec = Object.values(registry).find(r => {
+              const rName = (r.name || '').toLowerCase().trim();
+              const rSort = (r.sortName || '').toLowerCase().trim();
+              const rClean = rName.replace(/\(.*?\)/g, '').trim();
+              return (rClean && (lName.includes(rClean) || rClean.includes(lName))) ||
+                     (rSort && (lName.includes(rSort) || rSort.includes(lName)));
+            });
+            hasMonograph = Boolean(linkedRec);
+          }
+
           card.innerHTML = `
             <div class="v-card-top">
               <span class="v-card-year">${evt.year ? `${evt.year}` : ''}</span>
@@ -5210,8 +5254,11 @@ function renderArtistVerticalTimeline(artistRecord, timelineData, artistArts) {
             ` : ''}
             ${evt.linkedArtist ? `
               <div>
-                <button type="button" class="btn-v-linked-artist" data-linked-name="${escapeHtmlAttr(evt.linkedArtist)}">
-                  <span>🤝 Découvrir : ${escapeHtmlAttr(evt.linkedArtist)} ➔</span>
+                <button type="button" class="btn-v-linked-artist ${hasMonograph ? 'is-available' : 'is-coming-soon'}" data-linked-name="${escapeHtmlAttr(evt.linkedArtist)}">
+                  ${hasMonograph 
+                    ? `<span>🤝 Découvrir : ${escapeHtmlAttr(evt.linkedArtist)} ➔</span>`
+                    : `<span>🤝 ${escapeHtmlAttr(evt.linkedArtist)} <small class="v-tag-soon">(Notice à venir)</small></span>`
+                  }
                 </button>
               </div>
             ` : ''}
@@ -5222,16 +5269,20 @@ function renderArtistVerticalTimeline(artistRecord, timelineData, artistArts) {
             if (btnLink) {
               btnLink.addEventListener('click', (e) => {
                 e.stopPropagation();
-                const lName = evt.linkedArtist.toLowerCase().trim();
-                const registry = window.ARTISTS_REGISTRY || {};
-                const linkedRec = Object.values(registry).find(r =>
-                  r.name.toLowerCase().includes(lName) || lName.includes(r.name.toLowerCase().trim()) ||
-                  (r.sortName && r.sortName.toLowerCase().includes(lName))
-                );
                 if (linkedRec && typeof openMonographForArtistRecord === 'function') {
                   openMonographForArtistRecord(linkedRec);
-                } else if (typeof searchArtistInGallery === 'function') {
-                  searchArtistInGallery(evt.linkedArtist);
+                } else {
+                  const lName = evt.linkedArtist.toLowerCase().trim();
+                  const catalogList = window.ART_OBJECTS || [];
+                  const hasWorksInCatalog = catalogList.some(item => {
+                    const iArt = (item.artist || '').toLowerCase().trim();
+                    return iArt && (iArt.includes(lName) || lName.includes(iArt));
+                  });
+                  if (hasWorksInCatalog && typeof searchArtistInGallery === 'function') {
+                    searchArtistInGallery(evt.linkedArtist);
+                  } else {
+                    showArtNotification(`💡 La notice monographique de « ${evt.linkedArtist} » est en cours d'intégration dans le corpus.`);
+                  }
                 }
               });
             }
@@ -5278,11 +5329,16 @@ function generateFallbackArtistTimeline(artistRecord, artistArts) {
   const events = [];
 
   if (Array.isArray(artistArts) && artistArts.length > 0) {
-    const sorted = [...artistArts].sort((a, b) => {
+    let sorted = [...artistArts].sort((a, b) => {
       const ya = getArtworkYearNumeric(a) || 0;
       const yb = getArtworkYearNumeric(b) || 0;
       return ya - yb;
     });
+
+    // Règle du corpus : se limiter de 8 à 10 œuvres les plus célèbres
+    if (sorted.length > 10) {
+      sorted = sorted.slice(0, 10);
+    }
 
     sorted.forEach(art => {
       const y = getArtworkYearNumeric(art);
