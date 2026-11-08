@@ -4569,6 +4569,23 @@ function renderPavilionMap(civ) {
   }
 }
 
+function getCenturyLabelForPeriod(yearStart, yearEnd) {
+  const yS = typeof yearStart === 'number' ? yearStart : 1500;
+  const yE = typeof yearEnd === 'number' ? yearEnd : yS;
+  const mid = (yS + yE) / 2;
+
+  if (mid < 0) return `${Math.abs(Math.floor(mid / 100))}e siècle av. J.-C.`;
+  if (mid < 1200) return "XIe – XIIe siècle (Époque Romane)";
+  if (mid < 1300) return "XIIIe siècle (Âge Gothique)";
+  if (mid < 1400) return "XIVe siècle (Trecento)";
+  if (mid < 1500) return "XVe siècle (Quattrocento)";
+  if (mid < 1600) return "XVIe siècle (Renaissance & Maniérisme)";
+  if (mid < 1700) return "XVIIe siècle (Grand Siècle & Âge Baroque)";
+  if (mid < 1800) return "XVIIIe siècle & Siècle des Lumières";
+  if (mid < 1900) return "XIXe siècle & Révolutions Modernes";
+  return "XXe siècle & Avant-gardes";
+}
+
 let currentPavilionCiv = null;
 
 function openCivilisationPavilion(civ, initialTab = 'panoramic') {
@@ -4579,10 +4596,15 @@ function openCivilisationPavilion(civ, initialTab = 'panoramic') {
   const viewTimeline = document.getElementById('view-timeline');
   if (!pavilion || !viewTimeline) return;
 
-  const isMov = Boolean(civ.isMovement);
-  const movData = isMov && typeof MODERN_MOVEMENTS_DATA !== 'undefined'
-    ? (MODERN_MOVEMENTS_DATA[civ.id] || MODERN_MOVEMENTS_DATA[civ._mov ? civ._mov.id : ''])
-    : null;
+  const isMov = Boolean(civ.isMovement || (civ.id && civ.id.startsWith('mov_')));
+  const movId = civ.id || (civ._mov ? civ._mov.id : '');
+  const movData = (window.MOVEMENTS_DATA && (window.MOVEMENTS_DATA[movId] || (civ._mov && window.MOVEMENTS_DATA[civ._mov.id]))) ||
+                  (typeof MODERN_MOVEMENTS_DATA !== 'undefined' && (MODERN_MOVEMENTS_DATA[movId] || (civ._mov && MODERN_MOVEMENTS_DATA[civ._mov.id]))) ||
+                  null;
+
+  const yStart = (typeof civ.yearStart === 'number') ? civ.yearStart : (civ._mov ? civ._mov.yearStart : 1500);
+  const yEnd = (typeof civ.yearEnd === 'number') ? civ.yearEnd : (civ._mov ? civ._mov.yearEnd : yStart);
+  const centuryLabel = getCenturyLabelForPeriod(yStart, yEnd);
 
   // Applique la couleur de thème de la civilisation ou du mouvement
   pavilion.style.setProperty('--civ-theme-color', civ.themeColor || '#d4af37');
@@ -4610,7 +4632,7 @@ function openCivilisationPavilion(civ, initialTab = 'panoramic') {
 
   if (heroBadge) {
     heroBadge.textContent = isMov
-      ? ((movData && movData.badge) || '✦ AVANT-GARDE & RÉVOLUTION ESTHÉTIQUE DU XXe SIÈCLE')
+      ? ((movData && movData.badge) || `✦ HISTOIRE DES ARTS & ÉVOLUTION ESTHÉTIQUE : ${centuryLabel.toUpperCase()}`)
       : '✦ RECONSTITUTION & VIE HISTORIQUE';
   }
 
@@ -4655,13 +4677,13 @@ function openCivilisationPavilion(civ, initialTab = 'panoramic') {
     }
   }
 
-  // 2. VOLET MILIEU HAUT : ARTISTES MAJEURS (MOUVEMENT) OU CARTE GÉOGRAPHIQUE (CIVILISATIONS)
+  // 2. VOLET MILIEU HAUT : FOYERS GÉOGRAPHIQUES (MOUVEMENTS) OU CARTE RÉGIONALE (CIVILISATIONS)
   const panelMapTag = document.querySelector('#panel-map .panel-tag');
   const panelMapHint = document.querySelector('#panel-map .panel-tag-hint');
   if (isMov) {
-    if (panelMapTag) panelMapTag.textContent = '✦ FIGURES DE PROUE & ARTISTES MAJEURS';
-    if (panelMapHint) panelMapHint.textContent = '🎨 Artistes phares';
-    renderMovementArtists(civ, movData);
+    if (panelMapTag) panelMapTag.textContent = '✦ FOYERS GÉOGRAPHIQUES & CENTRES CRÉATEURS';
+    if (panelMapHint) panelMapHint.textContent = '📍 Géographie artistique';
+    renderMovementFocalCenters(civ, movData);
   } else {
     if (panelMapTag) panelMapTag.textContent = '✦ CARTE RÉGIONALE & GÉOGRAPHIE';
     if (panelMapHint) panelMapHint.textContent = '🔍 Plein écran';
@@ -4672,20 +4694,20 @@ function openCivilisationPavilion(civ, initialTab = 'panoramic') {
   const panelConcurrentTag = document.querySelector('#panel-concurrent .panel-tag');
   if (panelConcurrentTag) {
     panelConcurrentTag.textContent = isMov
-      ? '✦ ET PENDANT CE TEMPS-LÀ... (CONTEXTE DU XXe SIÈCLE)'
+      ? `✦ ET PENDANT CE TEMPS-LÀ... (CONTEXTE DU ${centuryLabel.toUpperCase()})`
       : '✦ ET PENDANT CE TEMPS-LÀ... (CONTEXTE MONDIAL)';
   }
 
   const concurrentText = document.getElementById('pavilion-concurrent-text');
   if (concurrentText) {
-    concurrentText.innerHTML = (movData && movData.concurrentHtml) || civ.concurrentHtml || '<p>Contexte mondial synchrone en cours d\'enrichissement pour cette époque.</p>';
+    concurrentText.innerHTML = (movData && movData.concurrentHtml) || civ.concurrentHtml || '<p>Contexte historique et mondial synchrone en cours d\'enrichissement pour cette époque.</p>';
   }
 
-  // 4. VOLET DE DROITE : TOURNANTS CONTEMPORAINS & ÉMULATION
+  // 4. VOLET DE DROITE : TOURNANTS CONTEMPORAINS & ÉMULATION DU SIÈCLE
   const panelMilestonesTag = document.querySelector('#panel-milestones .panel-tag');
   if (panelMilestonesTag) {
     panelMilestonesTag.textContent = isMov
-      ? '✦ COURANTS & ÉVÉNEMENTS DU XXe SIÈCLE'
+      ? `✦ COURANTS & TOURNANTS DU ${centuryLabel.toUpperCase()}`
       : '✦ TOURNANTS & ÉVÉNEMENTS CONTEMPORAINS';
   }
 
@@ -4694,8 +4716,6 @@ function openCivilisationPavilion(civ, initialTab = 'panoramic') {
     concurrentMilestonesCol.innerHTML = '';
 
     // A. Événements historiques majeurs contemporains
-    const yStart = (typeof civ.yearStart === 'number') ? civ.yearStart : (civ._mov ? civ._mov.yearStart : 1900);
-    const yEnd = (typeof civ.yearEnd === 'number') ? civ.yearEnd : (civ._mov ? civ._mov.yearEnd : 1970);
     const contemporanMilestones = Array.isArray(HISTORICAL_MILESTONES)
       ? HISTORICAL_MILESTONES.filter(m => m.year >= (yStart - 15) && m.year <= (yEnd + 15))
       : [];
@@ -4726,10 +4746,10 @@ function openCivilisationPavilion(civ, initialTab = 'panoramic') {
 
     // B. Autres foyers artistiques ou avant-gardes actives au même siècle
     if (isMov) {
-      // Pour les mouvements du XXe siècle : afficher STRICTEMENT les autres avant-gardes contemporaines (JAMAIS l'Égypte antique !)
+      // Pour les mouvements occidentaux : afficher STRICTEMENT les autres courants artistiques contemporains
       const otherMovements = ART_MOVEMENTS.filter(m =>
         m.id !== civ.id &&
-        m.lane && m.lane.startsWith('mod_') &&
+        m.id !== movId &&
         !(m.yearEnd < yStart || m.yearStart > yEnd)
       );
 
@@ -4739,10 +4759,10 @@ function openCivilisationPavilion(civ, initialTab = 'panoramic') {
         section2.innerHTML = `
           <div class="concurrent-section-title" style="margin-top: 14px;">
             <span>🌐</span>
-            <span>AUTRES AVANT-GARDES ACTIVES AU MÊME SIÈCLE</span>
+            <span>AUTRES COURANTS ACTIFS AU MÊME SIÈCLE</span>
           </div>
           <div class="concurrent-peers-strip">
-            ${otherMovements.map(pm => `
+            ${otherMovements.slice(0, 10).map(pm => `
               <button type="button" class="concurrent-peer-pill movement-peer-pill" data-mov-id="${pm.id}" style="border-left: 3.5px solid ${pm.color || '#a855f7'};" title="${escapeHtmlAttr(pm.name)} (${pm.yearStart} – ${pm.yearEnd})">
                 <span>✨</span>
                 <span>${escapeHtmlAttr(pm.name)}</span>
@@ -4757,7 +4777,8 @@ function openCivilisationPavilion(civ, initialTab = 'panoramic') {
             const targetMov = ART_MOVEMENTS.find(m => m.id === mId);
             if (targetMov) {
               const matchingArts = typeof getArtworksForMovement === 'function' ? getArtworksForMovement(targetMov) : [];
-              const tData = (typeof MODERN_MOVEMENTS_DATA !== 'undefined' && MODERN_MOVEMENTS_DATA[targetMov.id]) || {};
+              const tData = (window.MOVEMENTS_DATA && window.MOVEMENTS_DATA[targetMov.id]) ||
+                            (typeof MODERN_MOVEMENTS_DATA !== 'undefined' && MODERN_MOVEMENTS_DATA[targetMov.id]) || {};
               openCivilisationPavilion({
                 id: targetMov.id,
                 name: targetMov.name,
@@ -4814,6 +4835,9 @@ function openCivilisationPavilion(civ, initialTab = 'panoramic') {
       }
     }
   }
+
+  // 5. RUBAN HORIZONTAL DES ARTISTES PHARES (AU-DESSUS DES CHEFS-D'ŒUVRE)
+  renderMovementArtistsTrack(civ, movData);
 
   // Calcul dynamique et exact du nombre d'œuvres dans la collection
   const catalog = window.ART_OBJECTS || [];
@@ -4910,6 +4934,12 @@ function closeCivilisationPavilion() {
   if (viewTimeline) {
     viewTimeline.classList.remove('civ-pavilion-open');
   }
+
+  // Masquer et vider le ruban horizontal des artistes
+  const artistsStrip = document.getElementById('pavilion-artists-strip');
+  if (artistsStrip) artistsStrip.style.display = 'none';
+  const artistsTrack = document.getElementById('pavilion-artists-track');
+  if (artistsTrack) artistsTrack.innerHTML = '';
 
   // Rétablir les labels des panneaux pour les civilisations classiques
   const panelNoticeTag = document.querySelector('#panel-notice .panel-tag');
@@ -5020,6 +5050,22 @@ function openMonographForArtistId(artistId) {
 
 function searchArtistInGallery(artistName) {
   if (!artistName) return;
+
+  const registry = window.ARTISTS_REGISTRY || {};
+  const clean = artistName.replace(/\(.*?\)/g, '').toLowerCase().trim();
+  const rec = Object.values(registry).find(r => {
+    const rName = (r.name || '').toLowerCase().trim();
+    const rSort = (r.sortName || '').toLowerCase().trim();
+    const rClean = rName.replace(/\(.*?\)/g, '').trim();
+    return rName === clean || rSort === clean || rClean === clean ||
+           (clean.length >= 4 && (rName.includes(clean) || clean.includes(rClean) || (rSort && rSort.includes(clean))));
+  });
+
+  if (rec && typeof openMonographForArtistRecord === 'function') {
+    openMonographForArtistRecord(rec);
+    return;
+  }
+
   const filterCiv = document.getElementById('filter-civ');
   if (filterCiv) filterCiv.value = 'all';
   const filterPeriod = document.getElementById('filter-period');
@@ -5382,7 +5428,9 @@ function openMonographForArtistRecord(artistRecord) {
   if (!artistRecord) return;
   const filterText = document.getElementById('filter-text');
   const filterCiv = document.getElementById('filter-civ');
+  const filterPeriod = document.getElementById('filter-period');
   const filterDomain = document.getElementById('filter-domain');
+  const filterType = document.getElementById('filter-type');
   const filterSort = document.getElementById('filter-sort');
   const artistsDrawer = document.getElementById('artists-alphabet-drawer');
   const artistHero = document.getElementById('artist-monograph-hero');
@@ -5407,7 +5455,9 @@ function openMonographForArtistRecord(artistRecord) {
 
   if (filterText) filterText.value = artistRecord.sortName || artistRecord.name.replace(/\(.*?\)/g, '').trim();
   if (filterCiv) filterCiv.value = 'all';
+  if (filterPeriod) filterPeriod.value = 'all';
   if (filterDomain) filterDomain.value = 'all';
+  if (filterType) filterType.value = 'all';
   if (filterSort) filterSort.value = 'chrono-asc';
   activeMovementFilter = null;
   activeChipExactFilter = '';
@@ -5540,7 +5590,7 @@ function openMonographForArtistRecord(artistRecord) {
   }
 }
 
-function renderMovementArtists(civ, movData) {
+function renderMovementFocalCenters(civ, movData) {
   const mapImg = document.getElementById('pavilion-map-img');
   const mapBox = document.getElementById('pavilion-map-box');
   const expandPill = document.getElementById('map-expand-pill');
@@ -5554,91 +5604,135 @@ function renderMovementArtists(civ, movData) {
     mapBox.style.cursor = 'default';
     mapBox.title = '';
     mapBox.onclick = null;
+    mapBox.style.display = 'none';
   }
   if (expandPill) {
     expandPill.style.display = 'none';
   }
 
-  if (placeholder) {
-    let artists = (movData && movData.artists) || [];
-    if (artists.length === 0 && (civ.keyArtists || (civ._mov && civ._mov.keyArtists))) {
-      const rawArtists = (civ.keyArtists || civ._mov.keyArtists || '').split(',');
-      const registry = window.ARTISTS_REGISTRY || {};
-      artists = rawArtists.map(rawName => {
-        const cleanName = rawName.replace(/\(.*?\)/g, '').trim();
-        const regMatch = Object.values(registry).find(
-          r => r.name.toLowerCase().includes(cleanName.toLowerCase()) || cleanName.toLowerCase().includes(r.name.toLowerCase().trim())
-        );
-        return {
-          name: cleanName,
-          artistId: regMatch ? regMatch.id : '',
-          role: 'Figure majeure du mouvement',
-          dates: regMatch ? regMatch.dates : '',
-          desc: `Créateur emblématique associé à l'essor et aux innovations de ${civ.name}.`,
-          icon: '🎨'
-        };
-      }).filter(a => a.name);
-    }
-    placeholder.innerHTML = `
-      <div class="mov-artists-container">
-        <div class="mov-artists-header">
-          <span class="mov-header-icon">🎨</span>
-          <div class="mov-header-titles">
-            <h3 class="mov-header-title">Figures de Proue &amp; Créateurs Majeurs</h3>
-            <p class="mov-header-subtitle">${escapeHtmlAttr(civ.name)} (${escapeHtmlAttr(civ.epoch)})</p>
-          </div>
-        </div>
+  if (!placeholder) return;
+  placeholder.innerHTML = '';
+  placeholder.classList.add('has-artists-view');
 
-        <div class="mov-artists-list">
-          ${artists.map(art => {
-            const hasMonograph = Boolean(art.artistId && window.ARTISTS_REGISTRY && window.ARTISTS_REGISTRY[art.artistId]);
-            return `
-              <div class="mov-artist-card" style="--civ-theme-color: ${civ.themeColor || '#a855f7'}">
-                <div class="mov-artist-card-top">
-                  <div class="mov-artist-name-wrap">
-                    <span class="mov-artist-icon">${art.icon || '✨'}</span>
-                    <span class="mov-artist-name">${escapeHtmlAttr(art.name)}</span>
-                    <span class="mov-artist-dates">${escapeHtmlAttr(art.dates)}</span>
-                  </div>
-                </div>
-                <div class="mov-artist-role">${escapeHtmlAttr(art.role)}</div>
-                <div class="mov-artist-desc">${escapeHtmlAttr(art.desc)}</div>
-                ${hasMonograph ? `
-                  <button type="button" class="mov-artist-btn btn-view-monograph" data-artist-id="${art.artistId}">
-                    📖 Consulter la monographie &amp; le corpus ➔
-                  </button>
-                ` : `
-                  <button type="button" class="mov-artist-btn btn-search-artist" data-artist-name="${escapeHtmlAttr(art.name)}">
-                    🏛️ Explorer ses œuvres dans la galerie ➔
-                  </button>
-                `}
-              </div>
-            `;
-          }).join('')}
+  if (movData && movData.geographyHtml) {
+    placeholder.innerHTML = movData.geographyHtml;
+    placeholder.style.display = 'flex';
+    return;
+  }
+
+  // Fallback élégant
+  placeholder.innerHTML = `
+    <div class="mov-focal-card">
+      <div class="mov-focal-top">
+        <span class="mov-focal-icon">🏛️</span>
+        <div class="mov-focal-title">Foyers &amp; Ateliers de Création</div>
+      </div>
+      <p class="mov-focal-desc">Courant fondateur de l'art occidental (${escapeHtmlAttr(civ.epoch || '')}), rayonnant à travers les grands ateliers, cours princières et académies européennes.</p>
+      <div class="mov-focal-tags">
+        <span class="mov-focal-tag">📍 Europe</span>
+        <span class="mov-focal-tag">📍 Ateliers Majeurs</span>
+      </div>
+    </div>
+  `;
+  placeholder.style.display = 'flex';
+}
+
+function renderMovementArtistsTrack(civ, movData) {
+  const strip = document.getElementById('pavilion-artists-strip');
+  const track = document.getElementById('pavilion-artists-track');
+  const countBadge = document.getElementById('pavilion-artists-count-badge');
+  if (!strip || !track) return;
+
+  const isMov = Boolean(civ.isMovement || (civ.id && civ.id.startsWith('mov_')));
+  let artists = (movData && movData.artists && movData.artists.length > 0) ? movData.artists : [];
+
+  if (artists.length === 0 && (civ.keyArtists || (civ._mov && civ._mov.keyArtists))) {
+    const rawArtists = (civ.keyArtists || civ._mov.keyArtists || '').split(',');
+    const registry = window.ARTISTS_REGISTRY || {};
+    artists = rawArtists.map(rawName => {
+      const cleanName = rawName.replace(/\(.*?\)/g, '').trim();
+      const regMatch = Object.values(registry).find(
+        r => r.name.toLowerCase().includes(cleanName.toLowerCase()) || cleanName.toLowerCase().includes(r.name.toLowerCase().trim())
+      );
+      return {
+        name: cleanName,
+        artistId: regMatch ? regMatch.id : '',
+        role: 'Figure majeure du mouvement',
+        dates: regMatch ? regMatch.dates : '',
+        desc: `Créateur emblématique associé à l'essor et aux innovations de ${civ.name}.`,
+        icon: '🎨'
+      };
+    }).filter(a => a.name);
+  }
+
+  if (!isMov || artists.length === 0) {
+    strip.style.display = 'none';
+    track.innerHTML = '';
+    return;
+  }
+
+  if (countBadge) {
+    countBadge.textContent = `${artists.length} figure${artists.length > 1 ? 's' : ''} de proue`;
+  }
+
+  track.innerHTML = '';
+  const registry = window.ARTISTS_REGISTRY || {};
+
+  artists.forEach(art => {
+    const cleanName = (art.name || '').replace(/\(.*?\)/g, '').toLowerCase().trim();
+    const artistRecord = Object.values(registry).find(a => {
+      if (art.artistId && a.id && a.id.toLowerCase() === art.artistId.toLowerCase()) return true;
+      const aName = (a.name || '').toLowerCase().trim();
+      const aSort = (a.sortName || '').toLowerCase().trim();
+      const aClean = aName.replace(/\(.*?\)/g, '').trim();
+      return aName === art.name.toLowerCase().trim() ||
+             aClean === cleanName ||
+             (cleanName && (aClean.includes(cleanName) || cleanName.includes(aClean))) ||
+             (aSort && cleanName && (aSort.includes(cleanName) || cleanName.includes(aSort)));
+    });
+
+    const card = document.createElement('div');
+    card.className = 'pavilion-artist-vignette';
+
+    const avatarHtml = (artistRecord && artistRecord.bannerImg)
+      ? `<img class="p-art-avatar" src="${artistRecord.bannerImg}" alt="${escapeHtmlAttr(art.name)}" loading="lazy" />`
+      : `<div class="p-art-avatar-fallback">${art.icon || '🎨'}</div>`;
+
+    card.innerHTML = `
+      <div class="p-art-top">
+        ${avatarHtml}
+        <div class="p-art-titles">
+          <div class="p-art-name">${escapeHtmlAttr(art.name)}</div>
+          <div class="p-art-dates">${escapeHtmlAttr(art.dates || '')}</div>
         </div>
+      </div>
+      <div class="p-art-role">${escapeHtmlAttr(art.role || 'Figure majeure du mouvement')}</div>
+      <div class="p-art-desc">${escapeHtmlAttr(art.desc || '')}</div>
+      <div class="p-art-actions">
+        <button type="button" class="btn-p-art-action ${artistRecord ? 'is-monograph' : ''}">
+          <span>${artistRecord ? '📖 Consulter la notice monographique' : '🏛️ Explorer ses œuvres dans la collection'}</span>
+          <span class="btn-p-art-arrow">➔</span>
+        </button>
       </div>
     `;
 
-    placeholder.querySelectorAll('.btn-view-monograph').forEach(btn => {
+    const btn = card.querySelector('.btn-p-art-action');
+    if (btn) {
       btn.addEventListener('click', (e) => {
         e.stopPropagation();
-        const aId = btn.getAttribute('data-artist-id');
         closeCivilisationPavilion();
-        openMonographForArtistId(aId);
+        if (artistRecord && typeof openMonographForArtistRecord === 'function') {
+          openMonographForArtistRecord(artistRecord);
+        } else if (typeof searchArtistInGallery === 'function') {
+          searchArtistInGallery(art.name);
+        }
       });
-    });
+    }
 
-    placeholder.querySelectorAll('.btn-search-artist').forEach(btn => {
-      btn.addEventListener('click', (e) => {
-        e.stopPropagation();
-        const aName = btn.getAttribute('data-artist-name');
-        closeCivilisationPavilion();
-        searchArtistInGallery(aName);
-      });
-    });
+    track.appendChild(card);
+  });
 
-    placeholder.style.display = 'flex';
-  }
+  strip.style.display = 'block';
 }
 
 function goToGalleryForCiv(civ) {
@@ -6001,7 +6095,8 @@ function updateSynchronousState(screenX) {
       ART_MOVEMENTS.forEach(mov => {
         if (mov.lane && mov.lane.startsWith('mod_') && currentYear >= mov.yearStart && currentYear <= mov.yearEnd) {
           const matchingArts = typeof getArtworksForMovement === 'function' ? getArtworksForMovement(mov) : [];
-          const movData = (typeof MODERN_MOVEMENTS_DATA !== 'undefined' && MODERN_MOVEMENTS_DATA[mov.id]) || {};
+          const movData = (window.MOVEMENTS_DATA && window.MOVEMENTS_DATA[mov.id]) ||
+                          (typeof MODERN_MOVEMENTS_DATA !== 'undefined' && MODERN_MOVEMENTS_DATA[mov.id]) || {};
           activeCivs.push({
             id: mov.id,
             name: mov.name,
@@ -6015,7 +6110,7 @@ function updateSynchronousState(screenX) {
             presentationHtml: movData.noticeHtml || `<p><strong>${escapeHtmlAttr(mov.name)} (${mov.yearStart} – ${mov.yearEnd})</strong><br>${escapeHtmlAttr(mov.definition)}</p><p><strong>Artistes majeurs :</strong> ${escapeHtmlAttr(mov.keyArtists || '')}</p>`,
             concurrentHtml: movData.concurrentHtml || '',
             artifacts: matchingArts,
-            bannerImg: mov.bannerImg || movData.bannerImg || (matchingArts[0] ? matchingArts[0].imgSrc : ''),
+            bannerImg: movData.bannerImg || mov.bannerImg || (matchingArts[0] ? matchingArts[0].imgSrc : ''),
             _mov: mov
           });
         }
@@ -8625,156 +8720,29 @@ function initSearchEngine() {
       chip.innerHTML = `<span>${art.name}</span> <span class="chip-count">(${art.count})</span>`;
 
       chip.addEventListener('click', () => {
-        // 1. Récupérer la fiche peintre correspondante
+        // 1. Récupérer la fiche peintre correspondante dans le registre
         const registry = window.ARTISTS_REGISTRY || {};
-        const artistRecord = Object.values(registry).find(
-          a => a.name.toLowerCase().trim() === art.name.toLowerCase().trim() ||
-               (a.id && art.artistId && a.id === art.artistId)
-        );
-
-        // 2. Filtrer les œuvres de l'artiste
-        if (filterText) {
-          filterText.value = (artistRecord && artistRecord.sortName) ? artistRecord.sortName : art.name.replace(/\(.*?\)/g, '').trim();
-        }
-        if (filterCiv) filterCiv.value = 'all';
-        if (filterDomain) filterDomain.value = 'all';
-        if (filterSort) filterSort.value = 'chrono-asc';
-        updatePeriodDropdown();
-        updateTypeDropdown();
+        const cleanName = (art.name || '').replace(/\(.*?\)/g, '').toLowerCase().trim();
+        const artistRecord = Object.values(registry).find(a => {
+          if (art.artistId && a.id && a.id.toLowerCase() === art.artistId.toLowerCase()) return true;
+          const aName = (a.name || '').toLowerCase().trim();
+          const aSort = (a.sortName || '').toLowerCase().trim();
+          const aClean = aName.replace(/\(.*?\)/g, '').trim();
+          return aName === art.name.toLowerCase().trim() ||
+                 aClean === cleanName ||
+                 (cleanName && (aClean.includes(cleanName) || cleanName.includes(aClean))) ||
+                 (aSort && cleanName && (aSort.includes(cleanName) || cleanName.includes(aSort)));
+        });
 
         // 2. Fermer le tiroir alphabétique
         artistsDrawer.hidden = true;
         document.querySelectorAll('.btn-alpha-letter').forEach(b => b.classList.remove('active'));
 
-        // 3. Déployer la Fiche Peintre en haut de page avec son bandeau panoramique
-        if (artistRecord && artistHero) {
-          if (artistHeroBanner) {
-            artistHeroBanner.style.backgroundImage = `url('${artistRecord.bannerImg}')`;
-          }
-          if (artistHeroName) artistHeroName.textContent = artistRecord.name;
-          if (artistHeroDates) artistHeroDates.textContent = artistRecord.dates ? `(${artistRecord.dates})` : '';
-
-          if (artistHeroTags) {
-            artistHeroTags.innerHTML = '';
-            const tags = [artistRecord.nationality, artistRecord.movement, artistRecord.techniques].filter(Boolean);
-            tags.forEach(t => {
-              const tagEl = document.createElement('span');
-              tagEl.className = 'artist-hero-tag';
-              tagEl.textContent = t;
-              artistHeroTags.appendChild(tagEl);
-            });
-          }
-
-          // Baromètre de Corpus & Catalogue Raisonné
-          if (corpusDashboard) {
-            if (artistRecord.corpus && artistRecord.corpus.total) {
-              const totalCorpus = artistRecord.corpus.total;
-              const seenCorpus = artistRecord.corpus.seen !== undefined ? artistRecord.corpus.seen : (art.count || 0);
-              const percent = totalCorpus > 0 ? ((seenCorpus / totalCorpus) * 100).toFixed(1) : "0.0";
-
-              if (corpusStatTotal) corpusStatTotal.textContent = `~ ${totalCorpus.toLocaleString('fr-FR')}`;
-              if (corpusStatSeen) corpusStatSeen.textContent = seenCorpus.toLocaleString('fr-FR');
-              if (corpusStatPercent) corpusStatPercent.textContent = `${percent}%`;
-
-              if (corpusStatPercentLabel) {
-                if (artistRecord.corpus.paintingsCount) {
-                  const paintSeen = artistRecord.corpus.details ? (artistRecord.corpus.details.find(d => d.icon === '🎨' || d.label.toLowerCase().includes('peinture'))?.seen || seenCorpus) : seenCorpus;
-                  const paintPct = ((paintSeen / artistRecord.corpus.paintingsCount) * 100).toFixed(1);
-                  corpusStatPercentLabel.innerHTML = `Taux global <span class="stat-subdetail">(${paintPct}% des peintures)</span>`;
-                } else {
-                  corpusStatPercentLabel.textContent = "Taux d'observation";
-                }
-              }
-
-              if (corpusProgressBar) {
-                const barWidth = Math.min(100, Math.max(seenCorpus > 0 ? 1.5 : 0, parseFloat(percent)));
-                corpusProgressBar.style.width = `${barWidth}%`;
-              }
-
-              const defaultPalette = ['#d4af37', '#00b4d8', '#2ecc71', '#b5179e', '#f77f00', '#e63946', '#9c88ff'];
-
-              // Jauge segmentée par technique (Stacked Bar)
-              if (corpusBreakdownTrack && corpusBreakdownWrapper) {
-                corpusBreakdownTrack.innerHTML = '';
-                if (artistRecord.corpus.details && artistRecord.corpus.details.length > 0) {
-                  artistRecord.corpus.details.forEach((det, idx) => {
-                    const seg = document.createElement('div');
-                    seg.className = 'corpus-breakdown-segment';
-                    const segWidth = ((det.count / totalCorpus) * 100);
-                    seg.style.width = `${segWidth}%`;
-                    const segColor = det.color || defaultPalette[idx % defaultPalette.length];
-                    seg.style.backgroundColor = segColor;
-                    seg.setAttribute('title', `${det.label} : ~ ${det.count} (${segWidth.toFixed(1)}%)`);
-                    corpusBreakdownTrack.appendChild(seg);
-                  });
-                  corpusBreakdownWrapper.hidden = false;
-                } else {
-                  corpusBreakdownWrapper.hidden = true;
-                }
-              }
-
-              // Sous-catégories / détails
-              if (corpusDetailsRow) {
-                corpusDetailsRow.innerHTML = '';
-                if (artistRecord.corpus.details && artistRecord.corpus.details.length > 0) {
-                  artistRecord.corpus.details.forEach((det, idx) => {
-                    const pill = document.createElement('span');
-                    pill.className = 'corpus-detail-pill';
-                    const color = det.color || defaultPalette[idx % defaultPalette.length];
-                    if (det.seen && det.seen > 0) pill.classList.add('has-seen');
-
-                    const dot = `<span class="pill-dot" style="background:${color};"></span>`;
-                    const icon = det.icon ? `<span class="pill-icon">${det.icon}</span> ` : '';
-                    const seenBadge = (det.seen && det.seen > 0) ? ` <span class="pill-seen-tag">👁️ ${det.seen} vue</span>` : '';
-
-                    pill.innerHTML = `${dot}${icon}<strong>~ ${det.count.toLocaleString('fr-FR')}</strong> ${det.label}${seenBadge}`;
-                    if (det.note) pill.setAttribute('title', det.note);
-                    corpusDetailsRow.appendChild(pill);
-                  });
-                  corpusDetailsRow.hidden = false;
-                } else {
-                  corpusDetailsRow.hidden = true;
-                }
-              }
-
-              // Source & notes bibliographiques
-              if (corpusSourceTitle) {
-                corpusSourceTitle.textContent = artistRecord.corpus.sourceTitle || "Source du catalogue";
-              }
-              if (sourceDrawerText) {
-                sourceDrawerText.innerHTML = `
-                  <p><strong>${artistRecord.corpus.sourceTitle || 'Corpus de référence'}</strong></p>
-                  <p>${artistRecord.corpus.sourceNotes || artistRecord.corpus.source || 'Aucun détail complémentaire.'}</p>
-                `;
-              }
-              if (corpusSourceDrawer) {
-                corpusSourceDrawer.hidden = true;
-              }
-              if (btnToggleCorpusSource) {
-                btnToggleCorpusSource.classList.remove('is-open');
-              }
-
-              corpusDashboard.hidden = false;
-            } else {
-              corpusDashboard.hidden = true;
-            }
-          }
-
-          if (artistHeroBio) {
-            const rawBio = artistRecord.bio || '';
-            artistHeroBio.innerHTML = (typeof enrichHTMLWithGlossary === 'function')
-              ? enrichHTMLWithGlossary(rawBio)
-              : rawBio;
-          }
-          artistHero.hidden = false;
-        }
-
-        // 4. Rendu de la galerie verrouillée sur ses toiles
-        currentRenderLimit = PAGE_CHUNK;
-        renderSearchGallery();
-        
-        if (artistHero) {
-          artistHero.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        // 3. Ouvrir la monographie complète avec options A & B et décompte exact
+        if (artistRecord && typeof openMonographForArtistRecord === 'function') {
+          openMonographForArtistRecord(artistRecord);
+        } else if (typeof searchArtistInGallery === 'function') {
+          searchArtistInGallery(art.name);
         }
       });
 
@@ -9275,6 +9243,10 @@ function renderSearchGallery() {
 
   if (searchCount) searchCount.textContent = filtered.length;
   if (totalObjCount) totalObjCount.textContent = catalog.length;
+  const badgeDecades = document.getElementById('artist-mode-count-decades');
+  if (isArtistView && badgeDecades) {
+    badgeDecades.textContent = `${filtered.length} œuvre${filtered.length > 1 ? 's' : ''}`;
+  }
   if (!galleryGrid) return;
   galleryGrid.innerHTML = '';
 

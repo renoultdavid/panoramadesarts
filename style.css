@@ -8830,3 +8830,215 @@ body {
   opacity: 1;
   transform: translateX(-50%) translateY(0);
 }
+
+/* ==========================================================================
+   RUBAN HORIZONTAL DES FIGURES DE PROUE & MAÎTRES DU COURANT (PAVILLON)
+   ========================================================================== */
+.pavilion-artists-strip {
+  margin-top: 14px;
+  margin-bottom: 6px;
+  padding: 12px 16px;
+  background: rgba(12, 18, 30, 0.85);
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  border-radius: 8px;
+  backdrop-filter: blur(10px);
+}
+
+.pavilion-artists-track {
+  display: flex;
+  align-items: stretch;
+  gap: 14px;
+  overflow-x: auto;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(212, 175, 55, 0.45) transparent;
+  padding: 6px 2px 4px 2px;
+}
+
+.pavilion-artist-vignette {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 270px;
+  max-width: 330px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.06) 0%, rgba(18, 26, 42, 0.96) 100%);
+  border: 1.5px solid rgba(212, 175, 55, 0.3);
+  border-radius: 8px;
+  padding: 12px 14px;
+  flex-shrink: 0;
+  transition: all 0.22s ease;
+  box-sizing: border-box;
+}
+
+.pavilion-artist-vignette:hover {
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.2) 0%, rgba(22, 32, 52, 0.98) 100%);
+  border-color: var(--gold-pure, #d4af37);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.75), 0 0 14px rgba(212, 175, 55, 0.3);
+}
+
+.p-art-top {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.p-art-avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: rgba(212, 175, 55, 0.15);
+  border: 1.5px solid var(--gold-pure, #d4af37);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  flex-shrink: 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.p-art-avatar-fallback {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: rgba(212, 175, 55, 0.15);
+  border: 1.5px solid var(--gold-pure, #d4af37);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  flex-shrink: 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.p-art-header {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.p-art-name {
+  font-family: 'Cinzel', serif;
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.2;
+}
+
+.p-art-dates {
+  font-size: 0.72rem;
+  color: var(--gold-pale, #eed88f);
+  margin-top: 2px;
+}
+
+.p-art-role {
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: #38bdf8;
+  letter-spacing: 0.3px;
+  margin-bottom: 6px;
+  line-height: 1.25;
+}
+
+.p-art-desc {
+  font-size: 0.75rem;
+  line-height: 1.45;
+  color: rgba(255, 255, 255, 0.78);
+  margin-bottom: 10px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.btn-p-art-action {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 6px 10px;
+  border-radius: 4px;
+  background: rgba(212, 175, 55, 0.15);
+  border: 1px solid rgba(212, 175, 55, 0.4);
+  color: var(--gold-pale, #eed88f);
+  font-family: 'Cinzel', serif;
+  font-size: 0.72rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-p-art-action:hover {
+  background: var(--gold-pure, #d4af37);
+  color: #000;
+  border-color: var(--gold-pure, #d4af37);
+}
+
+.btn-p-art-action.is-monograph {
+  background: rgba(56, 189, 248, 0.16);
+  border-color: rgba(56, 189, 248, 0.45);
+  color: #7dd3fc;
+}
+
+.btn-p-art-action.is-monograph:hover {
+  background: #38bdf8;
+  color: #0b1120;
+}
+
+/* Carte des foyers créateurs dans le volet central */
+.mov-focal-card {
+  padding: 14px 16px;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: rgba(14, 20, 32, 0.4);
+}
+
+.mov-focal-top {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.mov-focal-icon {
+  font-size: 1.3rem;
+}
+
+.mov-focal-title {
+  font-family: 'Cinzel', serif;
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--gold-pure, #d4af37);
+  letter-spacing: 0.5px;
+}
+
+.mov-focal-desc {
+  font-size: 0.82rem;
+  line-height: 1.55;
+  color: rgba(255, 255, 255, 0.85);
+  margin-bottom: 12px;
+}
+
+.mov-focal-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.mov-focal-tag {
+  font-size: 0.7rem;
+  font-family: 'Cinzel', serif;
+  padding: 3px 8px;
+  border-radius: 12px;
+  background: rgba(212, 175, 55, 0.12);
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  color: var(--gold-pale, #eed88f);
+}
