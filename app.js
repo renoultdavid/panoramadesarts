@@ -874,7 +874,7 @@ const ART_MOVEMENTS = [
     yearEnd: 1527,
     tier: 1,
     color: "#ca8a04",
-    keyArtists: "Léonard de Vinci, Raphaël, Michel-Ange, Giorgione, Titien, Albrecht Dürer",
+    keyArtists: "Léonard de Vinci, Raphaël, Michel-Ange, Giorgione, Titien, Albrecht Dürer, Vittore Carpaccio",
     definition: "Apogée classique de l'art occidental entre Rome, Florence et Venise : monumentalité souveraine, sfumato atmosphérique, équilibre pyramidal et colorisme vénitien.",
     filterKeyword: "renaissance"
   },
@@ -1100,6 +1100,7 @@ const ART_MOVEMENTS = [
     parentCivId: "occ_gothique",
     lane: "mod_sculpture",
     name: "Statuaire romane & Portails gothiques",
+    bannerImg: "https://lh3.googleusercontent.com/d/14P8hgJ4zpjkX3bnPFCpjmmosuU137YK4",
     yearStart: 1080,
     yearEnd: 1400,
     tier: 0,

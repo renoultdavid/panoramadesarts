@@ -159,6 +159,14 @@ window.MOVEMENTS_DATA = {
         "desc": "L'Assomption des Frari, La Vénus d'Urbin et portraits de Charles Quint.",
         "artistId": "",
         "icon": "👑"
+      },
+      {
+        "name": "Vittore Carpaccio",
+        "dates": "v. 1465 – 1525",
+        "role": "Chroniqueur poétique et conteur de la Venise des Scuole",
+        "desc": "La Légende de sainte Ursule, La Mort de la Vierge, La Prédication de saint Étienne.",
+        "artistId": "carpaccio",
+        "icon": "🛶"
       }
     ]
   },
@@ -814,6 +822,7 @@ window.MOVEMENTS_DATA = {
     "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczNFrnkU0CB_dyE9L9kLg4n4k3yz2MdGR99oZnTYNwONOOI50XSJFO35HAXs96VEqGpyioETNaU1Ca-jT4-s0kIkQ5_M3GfgH2P72zkEaggGGwp0M3gRyjwKyZraq8aKbNc7O85Lyx1Rc-uh1NHJZGIfJQ=w1660-h704-s-no-gm?authuser=0"
   },
   "mov_sculpture_romane_gothique": {
+    "bannerImg": "https://lh3.googleusercontent.com/d/14P8hgJ4zpjkX3bnPFCpjmmosuU137YK4",
     "badge": "✦ L'INCARNATION DU SACRÉ DANS LA PIERRE DES CATHÉDRALES (1080 – 1400)",
     "noticeHtml": "<p><strong>De la théophanie monumentale romane à l'humanisation gothique</strong><br>Après les siècles du haut Moyen Âge où la ronde-bosse monumentale avait presque disparu en Occident, les XIe et XIIe siècles voient ressurgir la sculpture monumentale sur les façades des églises romanes (Conques, Moissac, Autun, Vézelay). Les tympans sculptés y proclament la majesté terrifiante du Jugement dernier ou l'Ascension du Christ dans un style dynamique, expressif et riche en bestiaires fantastiques.</p><p>Avec l'essor du grand chantier gothique à partir de 1140 (Saint-Denis, Chartres, Reims, Amiens), la statuaire s'émancipe de la paroi : les statues-colonnes s'animent, les drapés se fluidifient et les visages s'éclairent d'un sourire bienveillant (<em>L'Ange au sourire</em> de Reims). Claus Sluter à la chartreuse de Champmol porte enfin le réalisme bourguignon à son sommet le plus dramatique (<em>Le Puits de Moïse</em>).</p>",
     "concurrentHtml": "<p><strong>Pendant ce temps-là... Les Croisades et l'essor des villes médiévales</strong></p><p><strong>Croisades & Méditerranée :</strong> Les Croisades en Terre Sainte (1095-1291) mettent l'Occident en contact avec le Levant byzantin et arabe, stimulant le commerce et les échanges intellectuels.</p><p><strong>Société & Pensée :</strong> Révolution agricole médiévale et essor des villes (communes affranchies des seigneurs féodaux). Fondation des premières grandes universités européennes (Bologne, Paris, Oxford, Salamanque). Saint Thomas d'Aquin élabore la scolastique dans sa <em>Somme théologique</em>, réconciliant la foi chrétienne et la philosophie d'Aristote.</p><p><strong>Pouvoir royal :</strong> Philippe Auguste fortifie Paris, bâtit la première forteresse du Louvre et triomphe à Bouvines en 1214. Règne de Saint Louis (Louis IX) qui fait édifier la Sainte-Chapelle à Paris pour abriter la Sainte Couronne d'épines.</p>",

@@ -1075,6 +1075,14 @@ window.ARTISTS_REGISTRY = {
                       "summary": "Peintre officiel de la République, il forme dans son atelier les deux géants de la Renaissance vénitienne : Giorgione et Le Titien.",
                       "events": [
                             {
+                                  "year": 1498,
+                                  "title": "L'Émulation des Scuole avec Vittore Carpaccio",
+                                  "desc": "Tandis que Bellini règne sur la peinture d'autel, le jeune Vittore Carpaccio s'impose comme le maître des grands cycles narratifs (teleri) pour les Scuole vénitiennes.",
+                                  "type": "peer",
+                                  "icon": "🤝",
+                                  "linkedArtist": "Vittore Carpaccio"
+                            },
+                            {
                                   "year": 1505,
                                   "title": "Le Retable de San Zaccaria",
                                   "desc": "Chef-d'œuvre absolu de paix contemplative et d'illusion spatiale dans l'église San Zaccaria de Venise.",
@@ -3494,6 +3502,167 @@ window.ARTISTS_REGISTRY = {
                       ]
                 }
           ]
+    }
+  },
+  "carpaccio": {
+    id: "carpaccio",
+    name: "Vittore Carpaccio",
+    sortName: "Carpaccio Vittore",
+    sortLetter: "C",
+    dates: "v. 1465 – 1525",
+    movement: "Première Renaissance vénitienne & Cycle des Scuole",
+    nationality: "Vénitien (République de Venise)",
+    techniques: "Peinture sur toile (teleri), huile sur bois, détrempe, perspective urbaine & miniaturisme",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczMgrKeEVdYGOm5iW0gXz44zMhZ0wwDfrIwFK5YKdLDf7UhI3GYcFpsr6ZekZQTwyX6Bo8O1cZ5bC5o2qjFhslrwtIo5OyWhhrZ7yMK7Bvc9F8jj5OqQ_JBhu_n7mZqYDoMX3Nuja8MmOsEBk6cwJXnUJA=w1795-h761-s-no-gm?authuser=0",
+    portraitImg: "",
+    bio: `
+      <p><strong>Le chroniqueur visuel inégalé de la Venise des Scuole</strong><br>
+      Vittore Carpaccio, né vers 1465 et mort en 1525 à Venise, est l'un des plus grands maîtres de l'école vénitienne du début de la Renaissance. Moins tourné vers la quête métaphysique que certains de ses contemporains, il s'est imposé comme le chroniqueur visuel inégalé de la vie vénitienne à son apogée. Formé probablement auprès de Lazzaro Bastiani ou des Bellini, il a passé l'essentiel de sa vie dans la Sérénissime, travaillant principalement pour les « Scuole », ces confréries religieuses et laïques qui lui commandaient de vastes cycles narratifs pour décorer leurs bâtiments.</p>
+      <p><strong>L'art du récit hagiographique et la minutie quasi photographique</strong><br>
+      Son genre pictural est avant tout celui de la peinture narrative et du récit hagiographique. Carpaccio est un conteur hors pair qui transforme les légendes des saints en scènes de genre fourmillant de détails quotidiens. Son style se caractérise par une précision quasi photographique dans le rendu de l'architecture, des costumes et des objets. Il possède un sens aigu de la mise en scène, créant des espaces urbains vastes et ordonnés où se mêlent l'exotisme de l'Orient et la réalité vénitienne, le tout baigné dans une lumière dorée et limpide qui donne à ses œuvres une atmosphère de calme sérénité.</p>
+      <p><strong>La poésie du décor vénitien et l'essor de la peinture à l'huile</strong><br>
+      L'évolution de son style montre une maîtrise croissante de la perspective et de l'intégration des figures dans le paysage, comme en témoigne son chef-d'œuvre, le cycle de <em>La Légende de sainte Ursule</em>. S'il reste fidèle à une certaine rigueur graphique héritée du Quattrocento, sa maturité voit l'introduction de compositions plus complexes et d'une palette chromatique plus riche, influencée par l'essor de la peinture à l'huile. Bien que son succès ait décliné à la fin de sa vie face à l'émergence du style plus moderne de Titien ou Giorgione, il demeure l'artiste qui a le mieux capturé l'éclat et la poésie du décor vénitien à l'aube du XVIe siècle.</p>
+    `,
+    corpus: {
+      total: 88,
+      seen: 2,
+      paintingsCount: 88,
+      details: [
+        { label: "Grands cycles de toiles (Teleri)", count: 32, icon: "🛶", color: "#d4af37", seen: 1, note: "Cycles de sainte Ursule, saint Georges, saint Jérôme, saint Étienne" },
+        { label: "Panneaux sacrés & retables sur bois", count: 36, icon: "🎨", color: "#00b4d8", seen: 1, note: "Dont La Mort de la Vierge (Ferrare) et Le Sang du Christ (Udine)" },
+        { label: "Tableaux de dévotion privée & portraits", count: 20, icon: "👑", color: "#2ecc71", seen: 0, note: "Dont Les Deux Vénitiennes (Museo Correr) et Le Chevalier (Madrid)" }
+      ],
+      sourceTitle: "Catalogue Peter Humfrey (1991) & Recensement Jan Lauts (1962)",
+      sourceNotes: "Pour Vittore Carpaccio (vers 1465–1525/1526), l'un des conteurs les plus fascinants de la Première Renaissance vénitienne, le décompte des œuvres présente une particularité typiquement lagunaire : la prépondérance des teleri. À Venise, l'air salin et l'humidité rongeaient très rapidement les fresques traditionnelles. Les grands peintres réalisaient donc d'immenses toiles narratives (les teleri) pour décorer les murs des confraternités laïques (les scuole). Carpaccio s'en est fait le spécialiste absolu, ce qui conditionne entièrement la morphologie de son catalogue. L'inventaire moderne de référence a été dressé par l'historien de l'art écossais Peter Humfrey, dont le Carpaccio : Catalogue complet des peintures a été publié en 1991 (prenant la suite du grand inventaire historique de Jan Lauts paru en 1962). Après un tri scientifique rigoureux pour écarter les œuvres plus tardives et de moindre qualité réalisées par son atelier (notamment avec l'aide de ses fils Benedetto et Pietro), le corpus des peintures incontestablement autographes et ayant survécu se limite à environ 85 à 90 œuvres."
+    },
+    biographyTimeline: {
+      "birth": {
+        "year": 1465,
+        "place": "Venise (République de Venise)",
+        "title": "Naissance de Vittore Carpaccio",
+        "desc": "Fils de Piero Scarpazza, marchand de cuir vénitien. Il humanise et italianise son patronyme en Carpaccio dans les cercles lettrés et artistiques de la Sérénissime."
+      },
+      "death": {
+        "year": 1525,
+        "place": "Venise ou Capodistria",
+        "title": "Mort de Vittore Carpaccio",
+        "desc": "Disparaît vers la fin de 1525 ou début 1526, léguant au monde les panoramas narratifs, hagiographiques et poétiques les plus éblouissants de la Venise de la Renaissance."
+      },
+      "periods": [
+        {
+          "title": "Formation lagunaire & le triomphe de Sainte-Ursule",
+          "years": "1485 – 1499",
+          "color": "#d4af37",
+          "summary": "Formé auprès des Bellini et de Lazzaro Bastiani, Carpaccio s'impose comme le maître absolu du telero narratif grâce au cycle prodigieux de la Scuola di Sant'Orsola.",
+          "events": [
+            {
+              "year": 1490,
+              "title": "L'Arrivée des ambassadeurs anglais (Accademia de Venise)",
+              "desc": "Premier chef-d'œuvre du cycle de sainte Ursule : mise en scène théâtrale grandiose où Venise se grime en cité royale britannique avec un réalisme architectural stupéfiant.",
+              "type": "masterpiece",
+              "icon": "🎨"
+            },
+            {
+              "year": 1495,
+              "title": "Le Songe de sainte Ursule (Venise, Gallerie dell'Accademia)",
+              "desc": "Intérieur vénitien d'une poésie intimiste insurpassable : l'ange franchit la porte baignée de lumière zénithale pour apporter la palme du martyre à la jeune princesse endormie.",
+              "type": "masterpiece",
+              "icon": "✨"
+            },
+            {
+              "year": 1496,
+              "title": "Chantiers communs avec l'atelier des Bellini",
+              "desc": "Carpaccio collabore aux grands programmes décoratifs de la Scuola Grande di San Giovanni Evangelista aux côtés de Gentile et Giovanni Bellini.",
+              "type": "peer",
+              "icon": "🤝",
+              "linkedArtist": "Giovanni Bellini"
+            }
+          ]
+        },
+        {
+          "title": "L'Orient à Venise & San Giorgio degli Schiavoni",
+          "years": "1500 – 1508",
+          "color": "#0284c7",
+          "summary": "Au service de la confrérie des Dalmates, Carpaccio fait triompher l'imaginaire orientaliste, mêlant faune exotique, minarets levantins et ferveur chevaleresque.",
+          "events": [
+            {
+              "year": 1502,
+              "title": "Cycle de San Giorgio degli Schiavoni",
+              "desc": "Il peint Saint Georges terrassant le dragon et Saint Jérôme et le lion apprivoisé : synthèse inimitable de légende dorée, de faune fabuleuse et de perspective rigoureuse.",
+              "type": "masterpiece",
+              "icon": "🐉"
+            },
+            {
+              "year": 1506,
+              "title": "Rencontre et émulation avec Albrecht Dürer",
+              "desc": "Albrecht Dürer séjourne à Venise et admire la virtuosité graphique et le sens du détail naturaliste des peintres vénitiens contemporains.",
+              "type": "peer",
+              "icon": "🤝",
+              "linkedArtist": "Albrecht Dürer"
+            },
+            {
+              "year": 1508,
+              "title": "La Mort de la Vierge (Pinacothèque de Ferrare)",
+              "desc": "Chef-d'œuvre à l'huile pour la Scuola degli Albanesi : Marie sur son lit de mort, apôtres recueillis et fond urbain orientaliste d'une précision documentaire fascinante.",
+              "type": "masterpiece",
+              "icon": "🎨",
+              "artworkId": "carpaccio_mort_de_la_vierge_ferrare_1508"
+            }
+          ]
+        },
+        {
+          "title": "Les grands cycles de maturité & la Scuola di Santo Stefano",
+          "years": "1509 – 1519",
+          "color": "#ca8a04",
+          "summary": "Maturité souveraine : Carpaccio conçoit le grand cycle de saint Étienne, déployant une Jérusalem idéalisée aux coupoles étincelantes sous une lumière cristalline.",
+          "events": [
+            {
+              "year": 1510,
+              "title": "Le Chevalier au paysage (Madrid, Thyssen-Bornemisza)",
+              "desc": "L'un des tout premiers portraits en pied grandeur nature de la peinture occidentale, peuplé d'un bestiaire symbolique fascinant.",
+              "type": "masterpiece",
+              "icon": "🗡️"
+            },
+            {
+              "year": 1514,
+              "title": "La Prédication de saint Étienne (Musée du Louvre)",
+              "desc": "Forum cosmopolite grandiose : saint Étienne prêchant devant des dignitaires en turbans orientaux au milieu d'édifices monumentaux sous une lumière claire.",
+              "type": "masterpiece",
+              "icon": "🏛️",
+              "artworkId": "carpaccio_predication_saint_etienne_louvre_1514"
+            },
+            {
+              "year": 1516,
+              "title": "Disparition de Giovanni Bellini et essor du Titien",
+              "desc": "La mort de Bellini consacre l'avènement du tonalisme sensuel de Giorgione et du jeune Titien, qui commence à éclipser la clarté graphique linéaire du Quattrocento.",
+              "type": "history",
+              "icon": "⚡"
+            }
+          ]
+        },
+        {
+          "title": "Commandes d'Istrie et postérité vénitienne",
+          "years": "1520 – 1525",
+          "color": "#7c3aed",
+          "summary": "Secondé par ses fils Benedetto et Pietro, le maître honore des commandes pour les cathédrales d'Istrie et lègue une mémoire visuelle inoubliable de la Sérénissime.",
+          "events": [
+            {
+              "year": 1523,
+              "title": "Retables pour la cathédrale de Capodistria",
+              "desc": "Carpaccio et son atelier réalisent les grandes toiles sacrées et le retable de la Vierge à l'Enfant trônant avec les saints en Istrie.",
+              "type": "masterpiece",
+              "icon": "⛪"
+            },
+            {
+              "year": 1525,
+              "title": "Mort du grand chroniqueur de Venise",
+              "desc": "Carpaccio s'éteint, laissant une vision festive, minutieuse et limpide de la Venise du XVIe siècle qui inspirera directement le védutisme de Canaletto.",
+              "type": "history",
+              "icon": "📜"
+            }
+          ]
+        }
+      ]
     }
   }
 };
