@@ -13308,6 +13308,7 @@ Other open documents:
     <p>Techniquement, l'œuvre témoigne de la maîtrise de la perspective et du dessin de Botticelli. Longtemps obscurcie par des repeints successifs, une restauration majeure en 1982 a permis de redécouvrir la finesse des coloris et de confirmer l'attribution au maître florentin. La scène est encadrée par une bordure décorative de guirlandes végétales qui souligne la forme en lunette (arc brisé) de la fresque.</p>`
   },
   {
+    dimensions: { h: 203, w: 314, display: "203 × 314 cm" },
     id: "botticelli_sandro_le_printemps_primavera_1480_florence",
     artistId: "botticelli",
     artist: "Botticelli Sandro",
@@ -13444,6 +13445,7 @@ Other open documents:
     <p>L'œuvre se distingue par sa dimension allégorique et philosophique. Elle ne représente pas seulement une scène de présentation, mais l'élévation de l'âme par la connaissance. La présence d'un petit amour (putto) en bas à gauche, portant un écusson effacé, souligne le caractère nuptial et privé de la commande. Par cette fresque, Botticelli transforme un décor domestique en un manifeste de l'idéal humaniste, où l'amour et le savoir s'unissent pour guider l'individu vers la vertu. C'est l'un des rares exemples de fresques de Botticelli conservées hors d'Italie, offrant un aperçu précieux de son génie décoratif à grande échelle.</p>`
   },
   {
+    dimensions: { h: 172.5, w: 278.5, display: "172,5 × 278,5 cm" },
     id: "botticelli_sandro_naissance_de_venus_1485_florence",
     artistId: "botticelli",
     artist: "Botticelli Sandro",

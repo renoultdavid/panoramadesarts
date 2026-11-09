@@ -7645,9 +7645,156 @@ function populateModalData(art) {
     ? enrichHTMLWithGlossary(rawNarrative)
     : rawNarrative;
 
+  // Gestion du Comparateur d'Échelle Humaine (Peintures aux dimensions mesurées)
+  const btnScale = document.getElementById('btn-artwork-human-scale');
+  const modalScaleDims = document.getElementById('modal-scale-dims');
+  const scaleStage = document.getElementById('artwork-scale-stage');
+
+  if (scaleStage) scaleStage.style.display = 'none';
+
+  const dims = art.dimensions || null;
+  if (btnScale && dims && dims.h && dims.w) {
+    const dimsText = dims.display || `${dims.h} × ${dims.w} cm`;
+    if (modalScaleDims) modalScaleDims.textContent = dimsText;
+    btnScale.style.display = 'inline-flex';
+    btnScale.onclick = (e) => {
+      e.stopPropagation();
+      openHumanScaleStage(art);
+    };
+  } else if (btnScale) {
+    btnScale.style.display = 'none';
+  }
+
   // Génération dynamique du ruban transversal "Au même moment dans le monde"
   renderContemporaneousRibbon(art);
   updateModalHistoryBackButton();
+}
+
+let currentScaleGender = 'neutral';
+
+function getHumanSvg(gender) {
+  if (gender === 'female') {
+    return `
+      <svg viewBox="0 0 100 280" class="scale-human-svg" aria-label="Silhouette féminine">
+        <defs>
+          <linearGradient id="humanGradFem" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#f472b6" stop-opacity="0.65"/>
+            <stop offset="100%" stop-color="#f472b6" stop-opacity="0.15"/>
+          </linearGradient>
+        </defs>
+        <circle cx="50" cy="28" r="14" fill="url(#humanGradFem)" stroke="#f472b6" stroke-width="2"/>
+        <path d="M50 46 C44 46 34 52 30 65 L22 125 C21 130 26 134 30 130 L35 98 L36 150 C36 160 30 170 28 270 C27 277 35 280 38 272 L47 175 L53 175 L62 272 C65 280 73 277 72 270 C70 170 64 160 64 150 L65 98 L70 130 C74 134 79 130 78 125 L70 65 C66 52 56 46 50 46 Z" 
+              fill="url(#humanGradFem)" stroke="#f472b6" stroke-width="1.8" stroke-linejoin="round"/>
+      </svg>
+    `;
+  }
+  if (gender === 'male') {
+    return `
+      <svg viewBox="0 0 100 280" class="scale-human-svg" aria-label="Silhouette masculine">
+        <defs>
+          <linearGradient id="humanGradMale" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.65"/>
+            <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.15"/>
+          </linearGradient>
+        </defs>
+        <circle cx="50" cy="27" r="15" fill="url(#humanGradMale)" stroke="#38bdf8" stroke-width="2"/>
+        <path d="M50 46 C41 46 27 52 23 66 L13 130 C12 136 18 140 23 135 L30 96 L31 165 L24 270 C23 277 32 280 35 272 L47 175 L53 175 L65 272 C68 280 77 277 76 270 L69 165 L70 96 L77 135 C82 140 88 136 87 130 L77 66 C73 52 59 46 50 46 Z" 
+              fill="url(#humanGradMale)" stroke="#38bdf8" stroke-width="1.8" stroke-linejoin="round"/>
+      </svg>
+    `;
+  }
+  // Silhouette neutre
+  return `
+    <svg viewBox="0 0 100 280" class="scale-human-svg" aria-label="Silhouette neutre">
+      <defs>
+        <linearGradient id="humanGradNeut" x1="0%" y1="0%" x2="0%" y2="100%">
+          <stop offset="0%" stop-color="#d4af37" stop-opacity="0.65"/>
+          <stop offset="100%" stop-color="#d4af37" stop-opacity="0.15"/>
+        </linearGradient>
+      </defs>
+      <circle cx="50" cy="28" r="15" fill="url(#humanGradNeut)" stroke="#d4af37" stroke-width="2"/>
+      <path d="M50 48 C42 48 30 54 26 68 L16 130 C15 136 21 140 26 135 L33 98 L33 165 L26 270 C25 277 34 280 37 272 L48 175 L52 175 L63 272 C66 280 75 277 74 270 L67 165 L67 98 L74 135 C79 140 85 136 84 130 L74 68 C70 54 58 48 50 48 Z" 
+            fill="url(#humanGradNeut)" stroke="#d4af37" stroke-width="1.8" stroke-linejoin="round"/>
+    </svg>
+  `;
+}
+
+function openHumanScaleStage(art) {
+  const stage = document.getElementById('artwork-scale-stage');
+  const dimsLead = document.getElementById('scale-stage-dims-lead');
+  const btnClose = document.getElementById('btn-scale-close');
+  const svgWrap = document.getElementById('scale-human-svg-wrap');
+  const tagEl = document.getElementById('scale-human-tag');
+  const thumbImg = document.getElementById('scale-artwork-thumb');
+  const frameEl = document.getElementById('scale-artwork-frame');
+  const hValEl = document.getElementById('scale-h-val');
+  const wValEl = document.getElementById('scale-w-val');
+  const genderBtns = document.querySelectorAll('.btn-scale-gender');
+  const footerText = document.getElementById('scale-stage-footer-text');
+
+  if (!stage || !art.dimensions) return;
+
+  const dims = art.dimensions;
+  if (dimsLead) dimsLead.textContent = dims.display || `${dims.h} × ${dims.w} cm`;
+  if (thumbImg) thumbImg.src = art.imgSrc;
+  if (hValEl) hValEl.textContent = `${dims.h} cm`;
+  if (wValEl) wValEl.textContent = `${dims.w} cm`;
+  if (footerText) {
+    footerText.innerHTML = `<strong>Dimensions certifiées :</strong> ${dims.h} cm (hauteur) × ${dims.w} cm (largeur) &bull; Mesures officielles de musée`;
+  }
+
+  function updateStage() {
+    let humanHeightCm = 170;
+    let label = '1,70 m';
+    if (currentScaleGender === 'female') {
+      humanHeightCm = 165;
+      label = '1,65 m';
+    } else if (currentScaleGender === 'male') {
+      humanHeightCm = 175;
+      label = '1,75 m';
+    }
+
+    if (svgWrap) svgWrap.innerHTML = getHumanSvg(currentScaleGender);
+    if (tagEl) tagEl.textContent = label;
+
+    // Calcul des proportions relatives par rapport au sol
+    const maxRealH = Math.max(humanHeightCm, dims.h);
+    const sceneMaxPx = 230;
+    const pxPerCm = sceneMaxPx / maxRealH;
+
+    const humanPx = Math.round(humanHeightCm * pxPerCm);
+    const artHPx = Math.max(16, Math.round(dims.h * pxPerCm));
+    const artWPx = Math.max(16, Math.min(Math.round(dims.w * pxPerCm), 250));
+
+    if (svgWrap) svgWrap.style.height = `${humanPx}px`;
+    if (frameEl) {
+      frameEl.style.height = `${artHPx}px`;
+      frameEl.style.width = `${artWPx}px`;
+    }
+
+    genderBtns.forEach(b => {
+      if (b.dataset.gender === currentScaleGender) b.classList.add('is-active');
+      else b.classList.remove('is-active');
+    });
+  }
+
+  genderBtns.forEach(btn => {
+    btn.onclick = (e) => {
+      e.stopPropagation();
+      currentScaleGender = btn.dataset.gender || 'neutral';
+      updateStage();
+    };
+  });
+
+  if (btnClose) {
+    btnClose.onclick = (e) => {
+      e.stopPropagation();
+      stage.style.display = 'none';
+    };
+  }
+
+  updateStage();
+  stage.style.display = 'flex';
 }
 
 btnModalClose.addEventListener('click', () => {

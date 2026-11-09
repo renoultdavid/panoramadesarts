@@ -33,7 +33,8 @@ window.ART_OBJECTS = [
   "originSite": "Rimini (Émilie-Romagne, Italie)",
   "locationType": "museum",
   "currentLocation": "Musée du Louvre (Paris)",
-  "category": "Peinture sur bois, Portrait humaniste princier de profil",
+  "dimensions": {"h": 44.5, "w": 34.5, "display": "44,5 × 34,5 cm"},
+    "category": "Peinture sur bois, Portrait humaniste princier de profil",
   "isHighlight": true,
   "chips": [
     "1451",
@@ -68,7 +69,8 @@ window.ART_OBJECTS = [
   "originSite": "Urbino (Marches, Italie)",
   "locationType": "museum",
   "currentLocation": "Galerie des Offices (Florence)",
-  "category": "Peinture sur bois, Double portrait d'apparat et allégorie triomphale",
+  "dimensions": {"h": 47, "w": 66, "display": "47 × 66 cm (diptyque)"},
+    "category": "Peinture sur bois, Double portrait d'apparat et allégorie triomphale",
   "isHighlight": true,
   "chips": [
     "1473",
@@ -102,7 +104,8 @@ window.ART_OBJECTS = [
   "originSite": "Paris (France)",
   "locationType": "museum",
   "currentLocation": "Musée d'Arts de Nantes (Nantes)",
-  "category": "Peinture sur toile, Portrait Art Déco néoclassique",
+  "dimensions": {"h": 116, "w": 73, "display": "116 × 73 cm"},
+    "category": "Peinture sur toile, Portrait Art Déco néoclassique",
   "isHighlight": true,
   "chips": [
     "1926",
@@ -137,7 +140,8 @@ window.ART_OBJECTS = [
   "originSite": "Parme (Italie) / Paris",
   "locationType": "museum",
   "currentLocation": "Musée d'Arts de Nantes (Nantes)",
-  "category": "Peinture sur toile, Portrait spirituel et religieux",
+  "dimensions": {"h": 30, "w": 20, "display": "30 × 20 cm"},
+    "category": "Peinture sur toile, Portrait spirituel et religieux",
   "isHighlight": true,
   "chips": [
     "1935",
@@ -172,7 +176,8 @@ window.ART_OBJECTS = [
   "originSite": "États-Unis",
   "locationType": "museum",
   "currentLocation": "Musée d'Arts de Nantes (Nantes)",
-  "category": "Peinture sur toile, Scène tragique de guerre et d'exil",
+  "dimensions": {"h": 51, "w": 40.5, "display": "51 × 40,5 cm"},
+    "category": "Peinture sur toile, Scène tragique de guerre et d'exil",
   "isHighlight": true,
   "chips": [
     "1940",
@@ -206,7 +211,8 @@ window.ART_OBJECTS = [
   "originSite": "États-Unis",
   "locationType": "museum",
   "currentLocation": "Musée d'Arts de Nantes (Nantes)",
-  "category": "Peinture sur bois, Nature morte au pichet de métal",
+  "dimensions": {"h": 38, "w": 46, "display": "38 × 46 cm"},
+    "category": "Peinture sur bois, Nature morte au pichet de métal",
   "isHighlight": true,
   "chips": [
     "1941",
@@ -240,7 +246,8 @@ window.ART_OBJECTS = [
   "originSite": "États-Unis",
   "locationType": "museum",
   "currentLocation": "Musée d'Arts de Nantes (Nantes)",
-  "category": "Peinture sur toile, Intérieur d'atelier rustique et nature morte",
+  "dimensions": {"h": 41, "w": 33, "display": "41 × 33 cm"},
+    "category": "Peinture sur toile, Intérieur d'atelier rustique et nature morte",
   "isHighlight": true,
   "chips": [
     "1941",
@@ -274,7 +281,8 @@ window.ART_OBJECTS = [
   "originSite": "États-Unis",
   "locationType": "museum",
   "currentLocation": "Musée d'Arts de Nantes (Nantes)",
-  "category": "Peinture sur bois, Portrait allégorique mélancolique",
+  "dimensions": {"h": 41, "w": 33, "display": "41 × 33 cm"},
+    "category": "Peinture sur bois, Portrait allégorique mélancolique",
   "isHighlight": true,
   "chips": [
     "1947",
@@ -308,7 +316,8 @@ window.ART_OBJECTS = [
   "originSite": "États-Unis",
   "locationType": "museum",
   "currentLocation": "Musée d'Arts de Nantes (Nantes)",
-  "category": "Peinture sur bois, Nature morte classique au cartellino feint",
+  "dimensions": {"h": 30, "w": 40, "display": "30 × 40 cm"},
+    "category": "Peinture sur bois, Nature morte classique au cartellino feint",
   "isHighlight": true,
   "chips": [
     "1949",
@@ -343,7 +352,8 @@ window.ART_OBJECTS = [
   "originSite": "Paris (France)",
   "locationType": "museum",
   "currentLocation": "Musée d'Arts de Nantes (Nantes)",
-  "category": "Peinture sur toile",
+  "dimensions": {"h": 65, "w": 99, "display": "65 × 99 cm"},
+    "category": "Peinture sur toile",
   "isHighlight": true,
   "chips": [
     "1908",
@@ -378,7 +388,8 @@ window.ART_OBJECTS = [
   "originSite": "Paris (France)",
   "locationType": "museum",
   "currentLocation": "Musée d'Arts de Nantes (Nantes)",
-  "category": "Peinture sur toile",
+  "dimensions": {"h": 130, "w": 260, "display": "130 × 260 cm"},
+    "category": "Peinture sur toile",
   "isHighlight": true,
   "chips": [
     "1971",
@@ -412,7 +423,8 @@ window.ART_OBJECTS = [
   "originSite": "Bretagne / Paris (France)",
   "locationType": "museum",
   "currentLocation": "Musée des Beaux-Arts de Rennes",
-  "category": "Peinture à l'huile sur toile",
+  "dimensions": {"h": 92, "w": 73, "display": "92 × 73 cm"},
+    "category": "Peinture à l'huile sur toile",
   "isHighlight": true,
   "chips": [
     "1905",
@@ -446,7 +458,8 @@ window.ART_OBJECTS = [
   "originSite": "Paris (France)",
   "locationType": "museum",
   "currentLocation": "Musée Fabre (Montpellier)",
-  "category": "Peinture à l'huile sur toile",
+  "dimensions": {"h": 64, "w": 60, "display": "64 × 60 cm"},
+    "category": "Peinture à l'huile sur toile",
   "isHighlight": true,
   "chips": [
     "1906",
@@ -480,7 +493,8 @@ window.ART_OBJECTS = [
   "originSite": "Vila do Conde (Portugal)",
   "locationType": "museum",
   "currentLocation": "Musée Fabre (Montpellier)",
-  "category": "Huile et encaustique sur toile",
+  "dimensions": {"h": 140, "w": 140, "display": "140 × 140 cm"},
+    "category": "Huile et encaustique sur toile",
   "isHighlight": true,
   "chips": [
     "1915",
@@ -515,7 +529,8 @@ window.ART_OBJECTS = [
   "originSite": "Lunéville (Lorraine, France)",
   "locationType": "museum",
   "currentLocation": "Musée d'Arts de Nantes",
-  "category": "Peinture à l'huile sur toile",
+  "dimensions": {"h": 186, "w": 138, "display": "186 × 138 cm"},
+    "category": "Peinture à l'huile sur toile",
   "isHighlight": true,
   "chips": [
     "1620",
@@ -548,7 +563,8 @@ window.ART_OBJECTS = [
   "originSite": "Lunéville (Lorraine, France)",
   "locationType": "museum",
   "currentLocation": "Musée du Louvre (Paris)",
-  "category": "Peinture à l'huile sur toile",
+  "dimensions": {"h": 106, "w": 146, "display": "106 × 146 cm"},
+    "category": "Peinture à l'huile sur toile",
   "isHighlight": true,
   "chips": [
     "1636",
@@ -581,7 +597,8 @@ window.ART_OBJECTS = [
   "originSite": "Lunéville (Lorraine, France)",
   "locationType": "museum",
   "currentLocation": "Musée d'Arts de Nantes",
-  "category": "Peinture à l'huile sur toile",
+  "dimensions": {"h": 93, "w": 81, "display": "93 × 81 cm"},
+    "category": "Peinture à l'huile sur toile",
   "isHighlight": true,
   "chips": [
     "1640",
@@ -615,7 +632,8 @@ window.ART_OBJECTS = [
   "originSite": "Lunéville (Lorraine, France)",
   "locationType": "museum",
   "currentLocation": "Musée du Louvre (Paris)",
-  "category": "Peinture à l'huile sur toile",
+  "dimensions": {"h": 137, "w": 102, "display": "137 × 102 cm"},
+    "category": "Peinture à l'huile sur toile",
   "isHighlight": true,
   "chips": [
     "1642",
@@ -649,7 +667,8 @@ window.ART_OBJECTS = [
   "originSite": "Lunéville (Lorraine, France)",
   "locationType": "museum",
   "currentLocation": "Musée du Louvre (Paris)",
-  "category": "Peinture à l'huile sur toile",
+  "dimensions": {"h": 128, "w": 94, "display": "128 × 94 cm"},
+    "category": "Peinture à l'huile sur toile",
   "isHighlight": true,
   "chips": [
     "1642",
@@ -684,7 +703,8 @@ window.ART_OBJECTS = [
   "originSite": "Lunéville (Lorraine, France)",
   "locationType": "museum",
   "currentLocation": "Musée du Louvre (Paris)",
-  "category": "Peinture à l'huile sur toile",
+  "dimensions": {"h": 107, "w": 131, "display": "107 × 131 cm"},
+    "category": "Peinture à l'huile sur toile",
   "isHighlight": true,
   "chips": [
     "1644",
@@ -719,7 +739,8 @@ window.ART_OBJECTS = [
   "originSite": "Lunéville (Lorraine, France)",
   "locationType": "museum",
   "currentLocation": "Musée des Beaux-Arts de Rennes",
-  "category": "Peinture à l'huile sur toile",
+  "dimensions": {"h": 76, "w": 91, "display": "76 × 91 cm"},
+    "category": "Peinture à l'huile sur toile",
   "isHighlight": true,
   "chips": [
     "1648",
@@ -753,7 +774,8 @@ window.ART_OBJECTS = [
   "originSite": "Lunéville (Lorraine, France)",
   "locationType": "museum",
   "currentLocation": "Musée du Louvre (Paris)",
-  "category": "Peinture à l'huile sur toile",
+  "dimensions": {"h": 167, "w": 131, "display": "167 × 131 cm"},
+    "category": "Peinture à l'huile sur toile",
   "isHighlight": true,
   "chips": [
     "1649",
@@ -787,7 +809,8 @@ window.ART_OBJECTS = [
   "originSite": "Lunéville (Lorraine, France)",
   "locationType": "museum",
   "currentLocation": "Musée d'Arts de Nantes",
-  "category": "Peinture à l'huile sur toile",
+  "dimensions": {"h": 120, "w": 160, "display": "120 × 160 cm"},
+    "category": "Peinture à l'huile sur toile",
   "isHighlight": true,
   "chips": [
     "1650",
@@ -821,6 +844,7 @@ window.ART_OBJECTS = [
     "originSite": "Paris / Normandie (France)",
     "locationType": "museum",
     "currentLocation": "Musée des Beaux-Arts (Rouen)",
+    "dimensions": {"h": 35, "w": 47, "display": "35 × 47 cm"},
     "category": "Huile sur toile, Scène naturaliste animalière, Nature morte cynégétique, Débuts réalistes",
     "isHighlight": true,
     "chips": [
@@ -855,6 +879,7 @@ window.ART_OBJECTS = [
     "originSite": "Paris (France)",
     "locationType": "museum",
     "currentLocation": "Alte Pinakothek (Munich)",
+    "dimensions": {"h": 92.5, "w": 73.5, "display": "92,5 × 73,5 cm"},
     "category": "Huile sur toile, Scène de genre urbaine, Travail ouvrier féminin, Transition impressionniste",
     "isHighlight": true,
     "chips": [
@@ -889,6 +914,7 @@ window.ART_OBJECTS = [
     "originSite": "Opéra Garnier / Paris (France)",
     "locationType": "museum",
     "currentLocation": "Musée National de l'Art Occidental (Tokyo)",
+    "dimensions": {"h": 69.2, "w": 49.5, "display": "69,2 × 49,5 cm"},
     "category": "Huile sur toile, Coulisses de l'Opéra, Danseuses et tutus, Cadrage asymétrique audacieux",
     "isHighlight": true,
     "chips": [
@@ -924,6 +950,7 @@ window.ART_OBJECTS = [
     "originSite": "Delft (Provinces-Unies / Pays-Bas)",
     "locationType": "museum",
     "currentLocation": "Musée du Louvre (Paris)",
+    "dimensions": {"h": 69, "w": 60, "display": "69 × 60 cm"},
     "category": "Huile sur toile, Scène de genre intimiste, Doorkijkje et perspective, Siècle d'or hollandais",
     "isHighlight": true,
     "chips": [
@@ -957,6 +984,7 @@ window.ART_OBJECTS = [
     "originSite": "Delft (Provinces-Unies / Pays-Bas)",
     "locationType": "museum",
     "currentLocation": "Musée du Louvre (Paris)",
+    "dimensions": {"h": 60, "w": 47, "display": "60 × 47 cm"},
     "category": "Huile sur toile, Vertu domestique et enfance, Lumière de cour et doorkijkje, Delft",
     "isHighlight": true,
     "chips": [
@@ -990,6 +1018,7 @@ window.ART_OBJECTS = [
     "originSite": "Amsterdam (Provinces-Unies / Pays-Bas)",
     "locationType": "museum",
     "currentLocation": "Musée du Louvre (Paris)",
+    "dimensions": {"h": 67, "w": 77, "display": "67 × 77 cm"},
     "category": "Huile sur toile, Intérieur luxueux d'Amsterdam, Pavement de marbre et cuir doré, Scène de société",
     "isHighlight": true,
     "chips": [
@@ -1023,6 +1052,7 @@ window.ART_OBJECTS = [
     "originSite": "Paris (France)",
     "locationType": "museum",
     "currentLocation": "Musée des Beaux-Arts (Rouen)",
+    "dimensions": {"h": 60.5, "w": 50.5, "display": "60,5 × 50,5 cm"},
     "category": "Huile sur toile, Autoportrait de jeunesse, Clair-obscur ténébriste, Éveil romantique",
     "isHighlight": true,
     "chips": [
@@ -1057,6 +1087,7 @@ window.ART_OBJECTS = [
     "originSite": "Paris (France)",
     "locationType": "museum",
     "currentLocation": "Musée du Louvre (Paris)",
+    "dimensions": {"h": 189, "w": 241, "display": "189 × 241 cm"},
     "category": "Huile sur toile, Romantisme littéraire, Enfers dantesques, Corps tourmentés et gouttes d'eau pures",
     "isHighlight": true,
     "chips": [
@@ -1090,6 +1121,7 @@ window.ART_OBJECTS = [
     "originSite": "Paris (France)",
     "locationType": "museum",
     "currentLocation": "Musée Fabre (Montpellier)",
+    "dimensions": {"h": 80, "w": 65, "display": "80 × 65 cm"},
     "category": "Huile sur toile, Étude de nu féminin, Présence charnelle et psychologique, Romantisme intimiste",
     "isHighlight": true,
     "chips": [
@@ -1124,6 +1156,7 @@ window.ART_OBJECTS = [
     "originSite": "Paris (France)",
     "locationType": "museum",
     "currentLocation": "Musée du Louvre (Paris)",
+    "dimensions": {"h": 419, "w": 354, "display": "419 × 354 cm"},
     "category": "Huile sur toile, Manifeste du romantisme engagé, Drame philhellène contemporain, Choc de la couleur",
     "isHighlight": true,
     "chips": [
@@ -1158,6 +1191,7 @@ window.ART_OBJECTS = [
     "originSite": "Paris (France)",
     "locationType": "museum",
     "currentLocation": "Musée du Louvre (Paris)",
+    "dimensions": {"h": 392, "w": 496, "display": "392 × 496 cm"},
     "category": "Huile sur toile, Romantisme paroxystique, Drame byronien, Diagonale tourbillonnante et orgie de rouges",
     "isHighlight": true,
     "chips": [
@@ -1192,6 +1226,7 @@ window.ART_OBJECTS = [
     "originSite": "Paris (France)",
     "locationType": "museum",
     "currentLocation": "Musée National de l'Art Occidental (Tokyo)",
+    "dimensions": {"h": 55, "w": 46, "display": "55 × 46 cm"},
     "category": "Huile sur toile, Orientalisme byronien, Fougue chevaline et guerrier du désert, Ciel d'orage",
     "isHighlight": true,
     "chips": [
@@ -1227,6 +1262,7 @@ window.ART_OBJECTS = [
     "originSite": "Paris (France)",
     "locationType": "museum",
     "currentLocation": "Musée du Louvre (Paris)",
+    "dimensions": {"h": 130, "w": 195, "display": "130 × 195 cm"},
     "category": "Huile sur toile, Félin et force brute, Tendresse et férocité animale, Romantisme sauvage",
     "isHighlight": true,
     "chips": [
@@ -1261,6 +1297,7 @@ window.ART_OBJECTS = [
     "originSite": "Paris (France)",
     "locationType": "museum",
     "currentLocation": "Musée du Louvre (Paris)",
+    "dimensions": {"h": 260, "w": 325, "display": "260 × 325 cm"},
     "category": "Huile sur toile, Icône universelle de la liberté, Révolution des Trois Glorieuses, Barricades et drapeau tricolore",
     "isHighlight": true,
     "chips": [
@@ -2968,6 +3005,7 @@ window.ART_OBJECTS = [
     "originSite": "Paris (France)",
     "locationType": "museum",
     "currentLocation": "Musée du Louvre (Paris)",
+    "dimensions": {"h": 395, "w": 531, "display": "395 × 531 cm"},
     "category": "Huile sur toile, Héroïsme spartiate et méditation morale, Chute du Premier Empire",
     "isHighlight": true,
     "chips": [
@@ -5926,6 +5964,7 @@ window.ART_OBJECTS = [
     "originSite": "Paris (France)",
     "locationType": "museum",
     "currentLocation": "Musée du Louvre (Paris)",
+    "dimensions": {"h": 114, "w": 146, "display": "114 × 146 cm"},
     "category": "Huile sur toile, Morceau de réception à l'Académie royale de peinture et de sculpture, Chef-d'œuvre de nature morte",
     "isHighlight": true,
     "chips": [
@@ -5960,6 +5999,7 @@ window.ART_OBJECTS = [
     "originSite": "Paris (France)",
     "locationType": "museum",
     "currentLocation": "Musée du Louvre (Paris)",
+    "dimensions": {"h": 194, "w": 129, "display": "194 × 129 cm"},
     "category": "Huile sur toile, Morceau de réception à l'Académie royale, Grande nature morte d'apparat au chien",
     "isHighlight": true,
     "chips": [
@@ -6028,6 +6068,7 @@ window.ART_OBJECTS = [
     "originSite": "Paris (France)",
     "locationType": "museum",
     "currentLocation": "Musée du Louvre (Paris)",
+    "dimensions": {"h": 73, "w": 59.5, "display": "73 × 59,5 cm"},
     "category": "Huile sur toile, Singerie satirique, Allégorie de la mimesis et réflexion sur le métier de peintre",
     "isHighlight": true,
     "chips": [
@@ -6796,6 +6837,7 @@ window.ART_OBJECTS = [
     "originSite": "Rome / Milan (Italie)",
     "locationType": "museum",
     "currentLocation": "Musée d'Arts de Nantes (France)",
+    "dimensions": {"h": 59, "w": 104, "display": "59 × 104 cm"},
     "category": "Huile sur cuivre, Paysage flamand & Scène de chasse",
     "isHighlight": true,
     "chips": [
@@ -6863,6 +6905,7 @@ window.ART_OBJECTS = [
     "originSite": "Anvers (Pays-Bas espagnols)",
     "locationType": "museum",
     "currentLocation": "Musée d'Arts de Nantes (France)",
+    "dimensions": {"h": 38, "w": 60, "display": "38 × 60 cm"},
     "category": "Huile sur cuivre, Scène portuaire fluviale & Marine flamande",
     "isHighlight": true,
     "chips": [
@@ -6897,6 +6940,7 @@ window.ART_OBJECTS = [
     "originSite": "Anvers / Bruxelles (cour des archiducs Albert et Isabelle)",
     "locationType": "museum",
     "currentLocation": "Musée du Louvre (Paris)",
+    "dimensions": {"h": 45, "w": 65, "display": "45 × 65 cm"},
     "category": "Huile sur bois, Allégorie encyclopédique & Cabinet de curiosités",
     "isHighlight": true,
     "chips": [
@@ -7064,6 +7108,7 @@ window.ART_OBJECTS = [
     "originSite": "Bruxelles (Pays-Bas méridionaux)",
     "locationType": "museum",
     "currentLocation": "Musée du Prado (Madrid)",
+    "dimensions": {"h": 117, "w": 162, "display": "117 × 162 cm"},
     "category": "Huile sur panneau de bois, Allégorie macabre & Chef-d'œuvre de la Renaissance flamande",
     "isHighlight": true,
     "chips": [
@@ -7097,6 +7142,7 @@ window.ART_OBJECTS = [
     "originSite": "Bruxelles (Pays-Bas méridionaux)",
     "locationType": "museum",
     "currentLocation": "Alte Pinakothek (Munich)",
+    "dimensions": {"h": 52, "w": 78, "display": "52 × 78 cm"},
     "category": "Huile sur panneau de chêne, Satire sociale & Satire des trois ordres",
     "isHighlight": true,
     "chips": [
@@ -7130,6 +7176,7 @@ window.ART_OBJECTS = [
     "originSite": "Trouville-sur-Mer (Normandie, France)",
     "locationType": "museum",
     "currentLocation": "Musée national d'Art occidental (Tokyo)",
+    "dimensions": {"h": 34.5, "w": 57.5, "display": "34,5 × 57,5 cm"},
     "category": "Huile sur panneau de bois, Scène de plage & Marine pré-impressionniste",
     "isHighlight": true,
     "chips": [
@@ -7200,6 +7247,7 @@ window.ART_OBJECTS = [
     "originSite": "Dordrecht (Hollande-Méridionale, Pays-Bas)",
     "locationType": "museum",
     "currentLocation": "Musée d'Arts de Nantes (France)",
+    "dimensions": {"h": 117, "w": 165, "display": "117 × 165 cm"},
     "category": "Huile sur toile, Paysage portuaire de Hollande & Ciel lumineux",
     "isHighlight": true,
     "chips": [
@@ -7644,6 +7692,7 @@ window.ART_OBJECTS = [
     "originSite": "Paris (France)",
     "locationType": "museum",
     "currentLocation": "Musée du Louvre (Paris)",
+    "dimensions": {"h": 252, "w": 175, "display": "252 × 175 cm"},
     "category": "Huile sur toile, Peinture d'histoire mythologique & Morceau de réception",
     "isHighlight": true,
     "chips": [
@@ -7679,6 +7728,7 @@ window.ART_OBJECTS = [
     "originSite": "Paris (France)",
     "locationType": "museum",
     "currentLocation": "Musée du Louvre (Paris)",
+    "dimensions": {"h": 57, "w": 73, "display": "57 × 73 cm"},
     "category": "Huile sur toile, Pastorale mythologique & Érotisme rococo",
     "isHighlight": true,
     "chips": [
@@ -7749,6 +7799,7 @@ window.ART_OBJECTS = [
     "originSite": "Paris (France)",
     "locationType": "museum",
     "currentLocation": "Musée du Louvre (Paris)",
+    "dimensions": {"h": 53, "w": 64, "display": "53 × 64 cm"},
     "category": "Huile sur toile, Scène de boudoir intimiste & Érotisme rococo",
     "isHighlight": true,
     "chips": [
@@ -7784,6 +7835,7 @@ window.ART_OBJECTS = [
     "originSite": "Versailles / Château de Bellevue (France)",
     "locationType": "museum",
     "currentLocation": "Alte Pinakothek (Munich)",
+    "dimensions": {"h": 201, "w": 157, "display": "201 × 157 cm"},
     "category": "Huile sur toile, Portrait officiel d'apparat & Manifeste des Lumières",
     "isHighlight": true,
     "chips": [
@@ -7819,6 +7871,7 @@ window.ART_OBJECTS = [
     "originSite": "Château de Bellevue (Meudon, commande de Mme de Pompadour)",
     "locationType": "museum",
     "currentLocation": "Musée du Louvre (Paris)",
+    "dimensions": {"h": 320, "w": 320, "display": "320 × 320 cm"},
     "category": "Huile sur toile, Grande décoration mythologique pour le château de Bellevue",
     "isHighlight": true,
     "chips": [

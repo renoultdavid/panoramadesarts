@@ -14756,6 +14756,7 @@ window.ART_OBJECTS.push(
     <p>Dans le contexte des cités gauloises du Maine, une jatte de cette qualité servait principalement à la présentation ou à la consommation d'aliments solides ou semi-liquides. Sa morphologie, alliant stabilité grâce au pied en S et volume généreux, en faisait un objet quotidien mais néanmoins esthétique, reflétant un certain art de vivre chez les populations cénomantes. Ce type de jatte s'inscrit parfaitement dans la tradition artisanale locale qui, tout en conservant ses racines celtiques, atteint une maturité technique exceptionnelle juste avant les mutations stylistiques apportées par la période gallo-romaine.</p>`
   },
    {
+    dimensions: { h: 158.4, w: 120.3, display: "158,4 × 120,3 cm" },
     id: "altdorfer_bataille_issus",
     artistId: "altdorfer",
     artist: "Altdorfer Albrecht",
