@@ -763,21 +763,34 @@
     </button>
 
     <div class="curator-frame">
-      <button class="btn-dismiss-modal" id="btn-modal-close">&times;</button>
-
       <!-- Ancien bandeau image conservé masqué pour la compatibilité JS -->
       <div id="modal-dept-banner-box" style="display: none;"><img id="modal-dept-banner-img" src="" alt="" /></div>
 
       <!-- Nouveau Bandeau Titre supérieur pleine largeur -->
       <div class="modal-title-bandeau">
-        <div class="modal-header-top-row">
-          <div class="modal-civ-line" id="modal-civ-title">Civilisation</div>
-          <div class="modal-current-location-badge" id="modal-current-location" title="Lieu de conservation actuel">
-            <span class="modal-loc-pin">📍</span>
-            <span id="modal-current-location-text"></span>
+        <div class="modal-header-main-grid">
+          <div class="modal-header-left-col">
+            <div class="modal-civ-line" id="modal-civ-title">Civilisation</div>
+            <h2 class="modal-headline" id="modal-artwork-title">Titre de l'Œuvre</h2>
           </div>
+          <div class="modal-header-right-col">
+            <div class="modal-header-artist-row" id="modal-header-artist-row" style="display: none;">
+              <button type="button" class="btn-modal-header-artist" id="btn-modal-header-artist" title="Consulter sa fiche &amp; corpus">
+                <span class="header-artist-icon">🎨</span>
+                <span class="header-artist-name" id="modal-header-artist-name">Artiste</span>
+                <span class="header-artist-arrow">➔</span>
+              </button>
+            </div>
+            <div class="modal-header-date-row" id="modal-header-date-row" style="display: none;">
+              <span id="modal-header-date-text"></span>
+            </div>
+            <div class="modal-header-location-row" id="modal-header-location-row" style="display: none;">
+              <span class="modal-loc-pin">📍</span>
+              <span id="modal-header-location-text"></span>
+            </div>
+          </div>
+          <button class="btn-dismiss-modal" id="btn-modal-close" title="Fermer la notice">&times;</button>
         </div>
-        <h2 class="modal-headline" id="modal-artwork-title">Titre de l'Œuvre</h2>
         <div class="modal-gold-fade-line"></div>
       </div>
 
@@ -787,40 +800,32 @@
         <div class="modal-pedestal-col">
           <div class="category-badge-chip" id="modal-category-badge">CATÉGORIE</div>
           <img id="modal-artwork-img" src="" alt="Objet d'art" loading="lazy" />
-
-          <!-- COMPARATEUR D'ÉCHELLE ÉPURÉ (EN BAS À GAUCHE DIRECTEMENT SUR LE FOND GRIS) -->
-          <div id="artwork-scale-stamp" class="artwork-scale-pedestal-stamp" style="display: none;">
-            <div class="scale-stamp-stage" id="scale-stamp-stage">
-              <div class="scale-stamp-human-col">
-                <div class="scale-stamp-human-svg-wrap" id="scale-stamp-human-svg-wrap"></div>
-                <div class="scale-stamp-floor-line"></div>
-                <span class="scale-stamp-human-label">1,75 m</span>
-              </div>
-              <div class="scale-stamp-frame-col">
-                <div class="scale-stamp-frame-box" id="scale-stamp-frame-box">
-                  <span class="scale-stamp-cote-h" id="scale-stamp-cote-h"></span>
+        </div>
+        <div class="modal-notes-col">
+          <!-- Format certifié rectangulaire et comparateur d'échelle intégré sans gêner la toile -->
+          <div class="modal-format-section" id="modal-format-section" style="display: none;">
+            <div class="modal-format-badge" id="modal-format-badge"></div>
+            <div id="artwork-scale-stamp" class="artwork-scale-integrated-stamp" style="display: none;">
+              <div class="scale-stamp-stage" id="scale-stamp-stage">
+                <div class="scale-stamp-human-col">
+                  <div class="scale-stamp-human-svg-wrap" id="scale-stamp-human-svg-wrap"></div>
+                  <div class="scale-stamp-floor-line"></div>
+                  <span class="scale-stamp-human-label">1,75 m</span>
                 </div>
-                <div class="scale-stamp-floor-line"></div>
-                <span class="scale-stamp-cote-w" id="scale-stamp-cote-w"></span>
+                <div class="scale-stamp-frame-col">
+                  <div class="scale-stamp-frame-box" id="scale-stamp-frame-box">
+                    <span class="scale-stamp-cote-h" id="scale-stamp-cote-h"></span>
+                  </div>
+                  <div class="scale-stamp-floor-line"></div>
+                  <span class="scale-stamp-cote-w" id="scale-stamp-cote-w"></span>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="modal-notes-col">
-          <!-- Lien cliquable vers la fiche peintre / créateur -->
-          <div class="modal-artist-strip" id="modal-artist-strip" style="display: none;">
-            <button type="button" class="btn-modal-artist-card" id="btn-modal-artist-card"
-              title="Ouvrir la fiche monographique complète du maître">
-              <span class="artist-pill-emblem">🎨</span>
-              <div class="artist-pill-info">
-                <span class="artist-pill-role">MAÎTRE / CRÉATEUR</span>
-                <span class="artist-pill-name" id="modal-artist-name">Canaletto</span>
-              </div>
-              <span class="artist-pill-action">Consulter sa fiche &amp; corpus ➔</span>
-            </button>
-          </div>
 
-          <!-- À droite : uniquement les étiquettes et le texte -->
+          <!-- Ancien strip conservé masqué pour compatibilité JS -->
+          <div id="modal-artist-strip" style="display: none;"><span id="modal-artist-name"></span></div>
+
           <div class="modal-chips-row" id="modal-chips-container"></div>
           <div class="modal-narrative" id="modal-narrative-text">Notice détaillée...</div>
 

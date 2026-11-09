@@ -8363,5 +8363,405 @@ window.ARTISTS_REGISTRY = {
       }
     ]
   }
+},
+  "dix": {
+  "id": "dix",
+  "name": "Dix Otto",
+  "sortName": "Dix Otto",
+  "sortLetter": "D",
+  "dates": "1891 – 1969",
+  "movement": "Nouvelle Objectivité (Neue Sachlichkeit), Dada & Expressionnisme",
+  "nationality": "Allemand (Untermhaus / Dresde)",
+  "techniques": "Détrempe et huile sur bois, glacis selon la technique des maîtres anciens de la Renaissance (Cranach, Grünewald, Dürer), réalisme chirurgical et grotesque, gravure à l'eau-forte",
+  "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczMNA-EmQq6EgCDeyS13dsrOkRGeJ29bpVzWb9cIDxnWujc0shHxDUscVbqEMfY_4q68I0OFeXrgU0tqWUavuEE1ztAFx_A7henGTPWpjoHCF4NnaX8KcDHfb4Ugxfc0QNoBWnngAuWyMlk3W3qNfqRX3Q=w1681-h713-s-no-gm?authuser=0",
+  "bio": [
+    "Otto Dix (1891 – 1969) est la figure de proue de la Nouvelle Objectivité (Neue Sachlichkeit) allemande et l'un des témoins les plus féroces de son temps. Vétéran profondément traumatisé par l'horreur des tranchées de la Première Guerre mondiale, il s'est fait le portraitiste impitoyable de la république de Weimar, auscultant sans fard la misère des mutilés de guerre, la corruption bourgeoise, le sexe tarifé et la déchéance morale, avant d'être qualifié d'artiste « dégénéré » par le régime nazi.",
+    "Son genre pictural se définit par le portrait critique et satirique, la scène de guerre, la peinture de mœurs urbaines et le retable profane. Son style se caractérise par un réalisme chirurgical et grotesque, hérité des maîtres allemands de la Renaissance (Cranach, Grünewald, Dürer). Utilisant la détrempe et l'huile sur bois pour obtenir un fini lisse et dur, il accentue les rides, les prothèses de bois, les chairs flétries et les regards concupiscents pour faire de chaque détail physique le reflet d'une faillite morale.",
+    "L'évolution de son style marque un passage de la rage expressionniste à la rigueur néoclassique et au retrait intérieur : L'expressionnisme, Dada et le choc des tranchées (1919 – 1923) où il exorcise la guerre avec des collages et des toiles aux angles acérés (Les Joueurs de skat, gueules cassées) ; L'apogée de la Nouvelle Objectivité (1924 – 1933), sa période la plus virtuose avec la suite gravée La Guerre (1924), les portraits magistraux (Sylvia von Harden) et les triptyques monumentaux (La Grande Ville, La Guerre) ; enfin L'exil intérieur et la peinture de paysage (après 1933), réfugié près du lac de Constance, où son style se tourne vers des paysages allégoriques et des thèmes religieux métaphoriques dénonçant la barbarie."
+  ],
+  "corpus": {
+    "total": 846,
+    "seen": 0,
+    "paintingsCount": 846,
+    "sourceTitle": "Catalogue raisonné Fritz Löffler (1981)",
+    "sourceNotes": "Le catalogue raisonné de référence mondiale pour ses peintures a été dressé par l'historien de l'art Fritz Löffler dans sa publication de 1981 intitulée Otto Dix 1891-1969 : Œuvre der Gemälde, qui dresse la nomenclature complète de ses toiles et panneaux de bois avec exactement 846 peintures recensées.",
+    "details": [
+      {
+        "label": "Peintures répertoriées (huiles & panneaux)",
+        "count": 846,
+        "icon": "🎨",
+        "color": "#d4af37",
+        "seen": 0,
+        "note": "Dont La Grande Ville, La Guerre, Portrait de la journaliste Sylvia von Harden"
+      }
+    ]
+  },
+  "biographyTimeline": {
+    "birth": {
+      "year": 1891,
+      "place": "Untermhaus près de Gera (Allemagne)",
+      "title": "Naissance d'Otto Dix",
+      "desc": "Issu d'un milieu ouvrier, il commence un apprentissage de peintre décorateur avant d'intégrer l'École des arts appliqués de Dresde."
+    },
+    "death": {
+      "year": 1969,
+      "place": "Singen (Allemagne)",
+      "title": "Mort d'Otto Dix",
+      "desc": "S'éteint au bord du lac de Constance après une carrière marquée par la confrontation sans concession avec la vérité de son siècle."
+    },
+    "periods": [
+      {
+        "title": "Expressionnisme, Dada & Choc des Tranchées",
+        "years": "1919 – 1923",
+        "color": "#e11d48",
+        "summary": "À Dresde et Berlin, Dix exorcise l'horreur des tranchées par des compositions dadaïstes et expressionnistes grinçantes.",
+        "events": [
+          {
+            "year": 1920,
+            "title": "Les Joueurs de skat",
+            "desc": "Chef-d'œuvre montrant des mutilés de guerre rapiécés jouant aux cartes."
+          }
+        ]
+      },
+      {
+        "title": "Apogée de la Nouvelle Objectivité (Neue Sachlichkeit)",
+        "years": "1924 – 1933",
+        "color": "#d4af37",
+        "summary": "Période berlinoise et professorat à Dresde. Il perfectionne sa technique des glacis sur bois et peint la société de Weimar.",
+        "events": [
+          {
+            "year": 1924,
+            "title": "Suite de gravures 'Der Krieg' (La Guerre)",
+            "desc": "Cinquante eaux-fortes dénonçant l'apocalypse des tranchées."
+          },
+          {
+            "year": 1926,
+            "title": "Portrait de la journaliste Sylvia von Harden",
+            "desc": "Icône de la femme moderne des Années folles."
+          },
+          {
+            "year": 1928,
+            "title": "Triptyque de la Grande Ville (Großstadt)",
+            "desc": "Confrontation brutale entre le luxe du jazz-club et la misère de la rue."
+          }
+        ]
+      },
+      {
+        "title": "Exil Intérieur & Paysages du Lac de Constance",
+        "years": "1933 – 1969",
+        "color": "#0284c7",
+        "summary": "Destitué par les nazis et qualifié d'artiste dégénéré, il se retire à Hemmenhofen au bord du lac de Constance.",
+        "events": [
+          {
+            "year": 1937,
+            "title": "Exposition 'Art dégénéré' à Munich",
+            "desc": "Plus de 260 œuvres de Dix sont confisquées par le régime nazi."
+          },
+          {
+            "year": 1945,
+            "title": "Mobilisation dans le Volkssturm et captivité",
+            "desc": "Fait prisonnier en France à Colmar, il est libéré en 1946."
+          }
+        ]
+      }
+    ]
+  }
+},
+
+  "dore": {
+  "id": "dore",
+  "name": "Doré Gustave",
+  "sortName": "Doré Gustave",
+  "sortLetter": "D",
+  "dates": "1832 – 1883",
+  "movement": "Romantisme visionnaire, Illustration littéraire & Paysage sublime",
+  "nationality": "Français (Strasbourg / Paris)",
+  "techniques": "Huile sur toile grand format, gravure sur bois de bout (xylographie), aquarelle, lavis d'encre, clair-obscur dramatique et mise en scène grandiose",
+  "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczNYiqij7DQtNx6f1ko4Bc5UTn3NTtJ4EwunpugJms82TrvVWNI0D0vDfy63qbtTXm_rKJFDKQJM4hw1u274W7tGkGYo2z6k0bX5ueFY8ghE9Frx58r1l91U7yazkyzySbv--_v7I92qyf4KgFFvj5rSIw=w1681-h713-s-no-gm?authuser=0",
+  "bio": [
+    "Gustave Doré (1832 – 1883) est l'un des artistes les plus prolifiques et les plus visionnaires du XIXe siècle. Enfant prodige, il a marqué l'imaginaire collectif mondial non seulement par sa peinture, mais surtout par ses illustrations monumentales. Surnommé le « plus grand illustrateur du monde », il a su donner un visage définitif aux plus grands chefs-d'œuvre de la littérature universelle, de la Bible à Dante, en passant par Perrault.",
+    "Son genre pictural se définit par le romantisme visionnaire, l'illustration littéraire et le paysage sublime. Son style se caractérise par un sens inné du spectaculaire, une maîtrise dramatique du clair-obscur et une profusion de détails qui confèrent à ses scènes une dimension épique. Qu'il utilise le pinceau ou le burin, Doré cherche à susciter l'effroi, l'émerveillement ou la pitié à travers des compositions souvent vertigineuses.",
+    "L'évolution de son style témoigne d'une ambition totale : L'ascension de l'illustrateur (années 1850-1860) où il révolutionne l'édition avec ses gravures sur bois pour L'Enfer de Dante ou Don Quichotte ; L'ambition picturale et la 'Doré Gallery' à Londres (années 1870) avec des toiles monumentales religieuses et tragiques ; enfin Le paysage et le réalisme social, explorant les montagnes d'Écosse et des Alpes pour peindre des paysages sublimes où la nature écrase l'homme, tout en documentant la misère des bas-fonds londoniens."
+  ],
+  "corpus": {
+    "total": 200,
+    "seen": 1,
+    "paintingsCount": 200,
+    "sourceTitle": "Inventaire Henri Leblanc (1931) & Rétrospective Musée d'Orsay (2014)",
+    "sourceNotes": "Le consensus scientifique moderne réévalué lors des rétrospectives de Brou (2012) et du Musée d'Orsay (2014) recense un peu plus de 200 peintures (huiles sur toile) authentifiées, aux côtés de dizaines de milliers de gravures et dessins.",
+    "details": [
+      {
+        "label": "Peintures à l'huile sur toile répertoriées",
+        "count": 200,
+        "icon": "🎨",
+        "color": "#d4af37",
+        "seen": 1,
+        "note": "Dont Paysage de montagne (Rouen), Le Christ quittant le prétoire (Strasbourg), Lac en Écosse (Grenoble)"
+      }
+    ]
+  },
+  "biographyTimeline": {
+    "birth": {
+      "year": 1832,
+      "place": "Strasbourg (France)",
+      "title": "Naissance de Gustave Doré",
+      "desc": "Fils d'un ingénieur des ponts et chaussées. Dessinateur prodige publiant ses premières lithographies à l'âge de 15 ans à Paris."
+    },
+    "death": {
+      "year": 1883,
+      "place": "Paris (France)",
+      "title": "Mort de Gustave Doré",
+      "desc": "Meurt prématurément à 51 ans d'une crise cardiaque dans son hôtel particulier parisien."
+    },
+    "periods": [
+      {
+        "title": "L'Essor de l'Illustrateur Prodige",
+        "years": "1850 – 1869",
+        "color": "#0284c7",
+        "summary": "Doré devient le maître incontesté de l'illustration européenne avec Dante, Rabelais, Perrault et la Bible.",
+        "events": [
+          {
+            "year": 1861,
+            "title": "L'Enfer de Dante",
+            "desc": "Triomphe éditorial magistral qui consacre sa renommée mondiale."
+          },
+          {
+            "year": 1866,
+            "title": "La Sainte Bible illustrée",
+            "desc": "Chef-d'œuvre graphique monumental traduit et diffusé dans le monde entier."
+          }
+        ]
+      },
+      {
+        "title": "L'Ambition Picturale & La Doré Gallery",
+        "years": "1868 – 1878",
+        "color": "#d4af37",
+        "summary": "Face aux réticences de la critique française, Doré triomphe à Londres où s'ouvre la prestigieuse Doré Gallery de New Bond Street.",
+        "events": [
+          {
+            "year": 1872,
+            "title": "London: A Pilgrimage",
+            "desc": "Plongée saisissante dans les bas-fonds londoniens avec Blanchard Jerrold."
+          },
+          {
+            "year": 1874,
+            "title": "Le Christ quittant le prétoire",
+            "desc": "Toile monumentale de 6 mètres sur 9 suscitant la ferveur du public londonien."
+          }
+        ]
+      },
+      {
+        "title": "Paysages Sublimes & Retraite Alpine",
+        "years": "1875 – 1883",
+        "color": "#2ecc71",
+        "summary": "Amoureux de la haute montagne, il parcourt l'Écosse, la Savoie et les Vosges pour immortaliser la majesté sauvage des cimes.",
+        "events": [
+          {
+            "year": 1875,
+            "title": "Paysage de montagne (Rouen)",
+            "desc": "Étude romantique de résineux et de pics rocheux brumeux."
+          }
+        ]
+      }
+    ]
+  }
+},
+
+  "dubuffet": {
+  "id": "dubuffet",
+  "name": "Dubuffet Jean",
+  "sortName": "Dubuffet Jean",
+  "sortLetter": "D",
+  "dates": "1901 – 1985",
+  "movement": "Art Brut, Matiérisme, Cycle de l'Hourloupe & Avant-garde d'après-guerre",
+  "nationality": "Français (Le Havre / Paris)",
+  "techniques": "Hautes pâtes (sable, gravier, goudron, pigments denses), tyrolage, acrylique sur papier marouflé sur toile, assemblages d'empreintes, sculpture monumentale en époxy, graphisme cellulaire cerné de noir",
+  "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczMPxto5UimFC5NnTM8AT2GZipbA5zskzCzxRijJ8VO_Vj7Lkx7QETqlDB1iCGDprbSD_Y_E37KADn5fvwvF4gKmGWI39Ni3uNwR4c6YwekEc7dbLco4JrIOKDFDUUy_irhrRWqGQDsv9GIJ1sZVW03kQg=w1681-h713-s-no-gm?authuser=0",
+  "bio": [
+    "Jean Dubuffet (1901 – 1985) est l'un des artistes les plus subversifs et prolifiques du XXe siècle. Théoricien de l'Art Brut, il a passé sa vie à rejeter la « culture étouffante » et les canons classiques pour célébrer une créativité instinctive, celle des enfants, des marginaux et des malades mentaux, qu'il considérait comme la seule forme d'art authentique.",
+    "Son genre pictural se définit par l'abstraction figurative et l'assemblage de matières. Son style se caractérise par l'utilisation de matériaux hétéroclites (sable, goudron, gravier, ailes de papillons) pour créer des textures épaisses et accidentées. Son dessin est volontairement rudimentaire, proche du graffiti ou du gribouillage, afin de retrouver une force d'expression brute et sauvage.",
+    "L'évolution de son style est marquée par des cycles radicalement différents : Les Hautes Pâtes (années 1940-1950) avec des empâtements sombres pétris dans la matière (Vaches, Texturologies) ; Le cycle de l'Hourloupe (1962 – 1974), son univers graphique le plus célèbre de cellules rouges, bleues et blanches cernées de noir ; enfin Les dernières séries (Mires, Non-Lieux) où son style s'épure en tracés nerveux sur fond sombre ou blanc, capturant les mécanismes purs de la pensée."
+  ],
+  "corpus": {
+    "total": 4800,
+    "seen": 4,
+    "paintingsCount": 4800,
+    "sourceTitle": "Catalogue des travaux de Jean Dubuffet (Max Loreau / Fondation Dubuffet)",
+    "sourceNotes": "En isolant strictement les œuvres peintes abouties (huiles, hautes pâtes, acryliques et grands assemblages sur panneaux) et en écartant son immense production graphique et architecturale, les experts évaluent le corpus pictural à environ 4 500 à 5 000 tableaux (environ 4 800 retenus).",
+    "details": [
+      {
+        "label": "Œuvres peintes autographes (tableaux)",
+        "count": 4800,
+        "icon": "🎨",
+        "color": "#d4af37",
+        "seen": 4,
+        "note": "Dont Texturologie (Rouen), Vache la belle queutée (Tokyo), Site avec 2 personnages (Nantes), Champ d expansion (Nantes)"
+      }
+    ]
+  },
+  "biographyTimeline": {
+    "birth": {
+      "year": 1901,
+      "place": "Le Havre (France)",
+      "title": "Naissance de Jean Dubuffet",
+      "desc": "Issu d'une famille de négociants en vin. S'initie à l'art à l'École des Beaux-Arts du Havre puis à l'Académie Julian à Paris."
+    },
+    "death": {
+      "year": 1985,
+      "place": "Paris (France)",
+      "title": "Mort de Jean Dubuffet",
+      "desc": "S'éteint à Paris à l'âge de 83 ans, laissant l'une des œuvres les plus révolutionnaires du siècle."
+    },
+    "periods": [
+      {
+        "title": "Les Hautes Pâtes & L'Art Brut",
+        "years": "1942 – 1961",
+        "color": "#b45309",
+        "summary": "Dubuffet forge la notion d'Art Brut et élabore ses célèbres séries matiéristes de portraits, paysages du sol et vaches.",
+        "events": [
+          {
+            "year": 1948,
+            "title": "Fondation de la Compagnie de l'Art Brut",
+            "desc": "Avec André Breton et Jean Paulhan pour collectionner et faire reconnaître les arts spontanés."
+          },
+          {
+            "year": 1954,
+            "title": "Série des Vaches (Manosque / Paris)",
+            "desc": "Création de Vache la belle queutée, sommet de jubilatoire dérision rustique."
+          },
+          {
+            "year": 1958,
+            "title": "Série des Texturologies",
+            "desc": "Exploration des micro-terrains et du sol par la technique du tyrolage (MBA Rouen)."
+          }
+        ]
+      },
+      {
+        "title": "Le Cycle de l'Hourloupe",
+        "years": "1962 – 1974",
+        "color": "#2563eb",
+        "summary": "Cycle mythique de douze années déployant un réseau infini d'alvéoles colorées en rouge, bleu et blanc.",
+        "events": [
+          {
+            "year": 1962,
+            "title": "Invention de l'Hourloupe",
+            "desc": "Gribouillages téléphoniques au stylo bille devenus un univers plastique total."
+          },
+          {
+            "year": 1973,
+            "title": "Coucou Bazar",
+            "desc": "Spectacle total d art vivant au musée Guggenheim de New York."
+          }
+        ]
+      },
+      {
+        "title": "Théâtres de mémoire, Mires & Non-Lieux",
+        "years": "1975 – 1985",
+        "color": "#7c3aed",
+        "summary": "Ultimes séries radicales où l'artiste abolit tout repère figuratif au profit d'un jaillissement d'énergie mentale.",
+        "events": [
+          {
+            "year": 1982,
+            "title": "Site avec 2 personnages (Site aléatoire F 106)",
+            "desc": "Déambulation mentale brute et intuitive (Musée d'Arts de Nantes)."
+          },
+          {
+            "year": 1984,
+            "title": "Champ d'expansion (Non-lieu L 33)",
+            "desc": "Filaments électriques primaires sur fond noir abyssal (Musée d'Arts de Nantes)."
+          }
+        ]
+      }
+    ]
+  }
+},
+
+  "duccio": {
+  "id": "duccio",
+  "name": "Duccio di Buoninsegna",
+  "sortName": "Duccio di Buoninsegna",
+  "sortLetter": "D",
+  "dates": "v. 1255 – 1318/1319",
+  "movement": "Gothique siennois, Pré-Renaissance italienne & Émancipation de la maniera greca",
+  "nationality": "Italien (Sienne / Toscane)",
+  "techniques": "Détrempe à l'œuf sur panneau de bois (tempera sur peuplier), dorure à la feuille d'or sur bolus, poinçonnage et damasquinures d'or, contours sinueux et élégance chromatique raffinée",
+  "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczMW_pALy4aZnCrM8q3BXZKCCkhbD0uF9IMPNeuPjl7aGu53Hog1hrSdy0yk9aYBXABCpxrm8pHJRcht3sJNjMsfECiE7Tm2Sv2aJv6M7PvTmNJXLQRApuAyZJVfBnxRRhLZB0ZOfl7GoLnlT4SXxLjCqA=w1681-h713-s-no-gm?authuser=0",
+  "bio": [
+    "Duccio di Buoninsegna (v. 1255 – 1318/1319) est le père fondateur de l'école siennoise et l'un des plus grands novateurs de la peinture occidentale au tournant du Trecento. Contemporain de Giotto, il réussit la synthèse magistrale entre la majesté byzantine hiératique et la grâce linéaire gothique, insufflant une délicatesse poétique et une humanité vibrante qui influenceront durablement toute la Renaissance toscane.",
+    "Son genre pictural se définit par le retable d'autel sur fond d'or, le panneau de dévotion privée et la peinture narrative sacrée. Son style se caractérise par la souplesse sinueuse de la ligne de contour, des drapés rythmés par de fines imbrications de fils d'or (damasquinure), une gamme chromatique raffinée (pourpres, roses lilas, verts amande) et une humanisation poignante des regards et des gestes, notamment dans les échanges affectueux entre la Vierge et l'Enfant.",
+    "L'évolution de son style marque l'émancipation progressive de la formule byzantine vers un espace narratif cohérent et habité : La formation et la Vierge Rucellai (années 1280) pour Santa Maria Novella de Florence où la monumentalité s'adoucit d'une ligne ondulante musicale ; Les petits panneaux de dévotion et l'intimité sacrée (années 1290 – 1300) comme la Madone des Franciscains ; enfin Le sommet de la Maestà de la cathédrale de Sienne (1308 – 1311), son chef-d'œuvre absolu, polyptyque géant peint sur deux faces porté en triomphe par le peuple de Sienne."
+  ],
+  "corpus": {
+    "total": 123,
+    "seen": 0,
+    "paintingsCount": 123,
+    "sourceTitle": "Catalogue raisonné Giovanna Ragionieri (1989) & James H. Stubblebine",
+    "sourceNotes": "L'inventaire scientifique et le catalogue complet dressé par l'historienne de l'art Giovanna Ragionieri (Duccio : Catalogo completo dei dipinti, 1989), complétant les travaux de James H. Stubblebine et en écartant la production des élèves, recense très exactement 123 peintures authentiques.",
+    "details": [
+      {
+        "label": "Panneaux peints autographes répertoriés",
+        "count": 123,
+        "icon": "🎨",
+        "color": "#d4af37",
+        "seen": 0,
+        "note": "Dont la monumentale Maestà de Sienne (Museo dell'Opera del Duomo), la Vierge Rucellai (Offices)"
+      }
+    ]
+  },
+  "biographyTimeline": {
+    "birth": {
+      "year": 1255,
+      "place": "Sienne (Toscane)",
+      "title": "Naissance de Duccio di Buoninsegna",
+      "desc": "Première mention documentaire en 1278 dans les registres de la commune de Sienne pour la peinture de coffres officiels (Biccherne)."
+    },
+    "death": {
+      "year": 1319,
+      "place": "Sienne (Toscane)",
+      "title": "Mort de Duccio di Buoninsegna",
+      "desc": "Ses enfants renoncent à son héritage grevé de dettes, mais son œuvre fonde l'âge d'or de la peinture siennoise."
+    },
+    "periods": [
+      {
+        "title": "La Vierge Rucellai & L'Affirmation Florentine",
+        "years": "1280 – 1295",
+        "color": "#0284c7",
+        "summary": "Commande prestigieuse pour l'église florentine Santa Maria Novella, manifestant une rupture précoce avec la sévérité byzantine.",
+        "events": [
+          {
+            "year": 1285,
+            "title": "La Madone Rucellai",
+            "desc": "Chef-d'œuvre commandé par la confrérie des Laudesi, conservé aujourd'hui aux Offices."
+          }
+        ]
+      },
+      {
+        "title": "Petits Panneaux de Dévotion & Intimité Sacrée",
+        "years": "1295 – 1307",
+        "color": "#d4af37",
+        "summary": "Duccio développe une tendresse gestuelle et un raffinement chromatique inédits dans des retables intimes.",
+        "events": [
+          {
+            "year": 1300,
+            "title": "La Madone des Franciscains",
+            "desc": "Les petits frères franciscains se blottissent avec humilité sous le manteau de la Vierge."
+          }
+        ]
+      },
+      {
+        "title": "Le Triomphe de la Maestà",
+        "years": "1308 – 1311",
+        "color": "#b91c1c",
+        "summary": "Réalisation du retable monumental destiné au maître-autel de la cathédrale de Sienne, apogée de la peinture gothique italienne.",
+        "events": [
+          {
+            "year": 1311,
+            "title": "Translation solennelle de la Maestà",
+            "desc": "Portée en procession triomphale à travers la cité de Sienne au son des cloches et des trompettes."
+          }
+        ]
+      }
+    ]
+  }
 }
 };

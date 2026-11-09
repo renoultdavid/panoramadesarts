@@ -7500,43 +7500,30 @@ function populateModalData(art) {
   modalCivTitle.textContent = art.civName || '';
   modalArtworkTitle.textContent = art.title;
 
-  // Affichage du lieu de conservation actuel à droite dans le bandeau supérieur
-  const modalCurrentLoc = document.getElementById('modal-current-location');
-  const modalCurrentLocText = document.getElementById('modal-current-location-text');
-  if (modalCurrentLoc && modalCurrentLocText) {
-    const locVal = (art.currentLocation || art.site || art.originSite || '').trim();
-    if (locVal) {
-      modalCurrentLocText.textContent = locVal;
-      modalCurrentLoc.setAttribute('title', `Lieu actuel de conservation : ${locVal}`);
-      modalCurrentLoc.style.display = 'inline-flex';
-    } else {
-      modalCurrentLoc.style.display = 'none';
-    }
-  }
-
-  // Lien cliquable vers la fiche monographique du maître / créateur
-  const modalArtistStrip = document.getElementById('modal-artist-strip');
-  const modalArtistName = document.getElementById('modal-artist-name');
-  const btnModalArtistCard = document.getElementById('btn-modal-artist-card');
-
+  // =========================================================================
+  // NOUVELLE GESTION DU BANDEAU SUPÉRIEUR (3 LIGNES ÉPURÉES À DROITE)
+  // =========================================================================
   const creatorName = (art.artist || art.creator || '').trim();
-  if (modalArtistStrip && creatorName) {
-    if (modalArtistName) modalArtistName.textContent = creatorName;
-    modalArtistStrip.style.display = 'block';
 
-    if (btnModalArtistCard) {
-      btnModalArtistCard.onclick = (e) => {
+  // Ligne 1 : Artiste en encadré rectangulaire doré cliquable
+  const headerArtistRow = document.getElementById('modal-header-artist-row');
+  const headerArtistName = document.getElementById('modal-header-artist-name');
+  const btnHeaderArtist = document.getElementById('btn-modal-header-artist');
+
+  if (headerArtistRow && creatorName) {
+    if (headerArtistName) headerArtistName.textContent = creatorName;
+    headerArtistRow.style.display = 'block';
+
+    if (btnHeaderArtist) {
+      btnHeaderArtist.onclick = (e) => {
         e.stopPropagation();
-        // Fermer la modale d'œuvre
         if (modal) {
           modal.classList.remove('open');
           modal.setAttribute('hidden', '');
           modal.style.display = 'none';
         }
-        // Basculer vers la galerie
         if (typeof switchView === 'function') switchView('view-search');
 
-        // Trouver et ouvrir la fiche peintre correspondante
         const registry = window.ARTISTS_REGISTRY || {};
         const artistId = (art.artistId || '').toLowerCase().trim();
         const aName = creatorName.toLowerCase().trim();
@@ -7555,39 +7542,61 @@ function populateModalData(art) {
         }
       };
     }
-  } else if (modalArtistStrip) {
-    modalArtistStrip.style.display = 'none';
+  } else if (headerArtistRow) {
+    headerArtistRow.style.display = 'none';
   }
-  
-  modalChips.innerHTML = '';
 
-  // Mention textuelle des dimensions certifiées
-  const dims = (art.dimensions && art.dimensions.h && art.dimensions.w)
+  // Ligne 2 : Date / Siècle en texte épuré sans encadré
+  const headerDateRow = document.getElementById('modal-header-date-row');
+  const headerDateText = document.getElementById('modal-header-date-text');
+  const dateVal = (art.centuryDisplay || art.century || '').trim();
+  if (headerDateRow && headerDateText) {
+    if (dateVal) {
+      headerDateText.textContent = dateVal;
+      headerDateRow.style.display = 'block';
+    } else {
+      headerDateRow.style.display = 'none';
+    }
+  }
+
+  // Ligne 3 : Lieu de conservation en texte épuré sans encadré
+  const headerLocRow = document.getElementById('modal-header-location-row');
+  const headerLocText = document.getElementById('modal-header-location-text');
+  const locVal = (art.currentLocation || art.site || art.originSite || '').trim();
+  if (headerLocRow && headerLocText) {
+    if (locVal) {
+      headerLocText.textContent = locVal;
+      headerLocRow.style.display = 'inline-flex';
+    } else {
+      headerLocRow.style.display = 'none';
+    }
+  }
+
+  // Compatibilité ancien élément
+  const modalArtistNameLegacy = document.getElementById('modal-artist-name');
+  if (modalArtistNameLegacy) modalArtistNameLegacy.textContent = creatorName;
+
+  // =========================================================================
+  // VOLET DROIT : FORMAT RECTANGULAIRE DORÉ EN TÊTE
+  // =========================================================================
+  const formatSection = document.getElementById('modal-format-section');
+  const formatBadge = document.getElementById('modal-format-badge');
+
+  const dims = (art.dimensions && (art.dimensions.display || (art.dimensions.h && art.dimensions.w)))
     ? art.dimensions
     : (typeof CERTIFIED_PAINTING_DIMENSIONS !== 'undefined' && CERTIFIED_PAINTING_DIMENSIONS[art.id] ? CERTIFIED_PAINTING_DIMENSIONS[art.id] : null);
 
-  if (dims && dims.h && dims.w) {
-    const btnDim = document.createElement('span');
-    btnDim.className = 'attr-chip is-dimension-chip';
-    btnDim.title = `Dimensions certifiées de l'œuvre : ${dims.display || `${dims.h} × ${dims.w} cm`}`;
-    btnDim.innerHTML = `📏 Format : <strong>${dims.display || `${dims.h} × ${dims.w} cm`}</strong>`;
-    btnDim.style.cssText = `
-      display: inline-flex !important;
-      align-items: center !important;
-      gap: 6px !important;
-      background: linear-gradient(135deg, rgba(56, 189, 248, 0.18) 0%, rgba(56, 189, 248, 0.08) 100%) !important;
-      border: 1.5px solid rgba(56, 189, 248, 0.5) !important;
-      color: #bae6fd !important;
-      font-family: 'Outfit', sans-serif !important;
-      font-size: 0.76rem !important;
-      font-weight: 600 !important;
-      letter-spacing: 0.5px !important;
-      padding: 5px 12px !important;
-      border-radius: 16px !important;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35) !important;
-    `;
-    modalChips.appendChild(btnDim);
+  if (formatSection && formatBadge) {
+    if (dims && (dims.display || (dims.h && dims.w))) {
+      const displayStr = dims.display || `${dims.h} × ${dims.w} cm`;
+      formatBadge.innerHTML = `📏 Format : <strong>${escapeHtmlAttr(displayStr)}</strong>`;
+      formatSection.style.display = 'flex';
+    } else {
+      formatSection.style.display = 'none';
+    }
   }
+
+  modalChips.innerHTML = '';
 
   if (art.chips) {
     art.chips.forEach(chip => {
@@ -7607,6 +7616,7 @@ function populateModalData(art) {
   }
 
   // PASSERELLE 1 : Bouton pour situer l'œuvre sur la Frise Chronologique
+    // PASSERELLE : Bouton pour situer l'œuvre sur la Frise Chronologique (encadré rectangulaire doré)
   const btnJumpTimeline = document.createElement('button');
   btnJumpTimeline.type = 'button';
   btnJumpTimeline.className = 'btn-jump-to-timeline';
@@ -7615,40 +7625,6 @@ function populateModalData(art) {
     <span>Situer sur la Frise</span>
   `;
   btnJumpTimeline.title = "Localiser l'époque et la civilisation de ce chef-d'œuvre sur la Frise Chronologique";
-  btnJumpTimeline.style.cssText = `
-    display: inline-flex !important;
-    align-items: center !important;
-    gap: 8px !important;
-    background: linear-gradient(135deg, rgba(212, 175, 55, 0.28) 0%, rgba(212, 175, 55, 0.12) 100%) !important;
-    border: 1.5px solid #d4af37 !important;
-    color: #fce8a6 !important;
-    border-radius: 20px !important;
-    font-family: 'Cinzel', serif !important;
-    font-size: 0.74rem !important;
-    font-weight: 700 !important;
-    letter-spacing: 1px !important;
-    text-transform: uppercase !important;
-    padding: 6px 14px !important;
-    cursor: pointer !important;
-    margin-left: 6px !important;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.15) !important;
-    vertical-align: middle !important;
-    transition: all 0.25s ease !important;
-  `;
-  btnJumpTimeline.addEventListener('mouseenter', () => {
-    btnJumpTimeline.style.background = 'linear-gradient(135deg, #d4af37 0%, #b8860b 100%)';
-    btnJumpTimeline.style.color = '#0d1117';
-    btnJumpTimeline.style.borderColor = '#ffffff';
-    btnJumpTimeline.style.transform = 'translateY(-2px)';
-    btnJumpTimeline.style.boxShadow = '0 4px 18px rgba(212, 175, 55, 0.5)';
-  });
-  btnJumpTimeline.addEventListener('mouseleave', () => {
-    btnJumpTimeline.style.background = 'linear-gradient(135deg, rgba(212, 175, 55, 0.28) 0%, rgba(212, 175, 55, 0.12) 100%)';
-    btnJumpTimeline.style.color = '#fce8a6';
-    btnJumpTimeline.style.borderColor = '#d4af37';
-    btnJumpTimeline.style.transform = 'translateY(0)';
-    btnJumpTimeline.style.boxShadow = '0 2px 10px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.15)';
-  });
   btnJumpTimeline.addEventListener('click', (e) => {
     e.stopPropagation();
     jumpFromArtworkToTimeline(art);
@@ -7684,6 +7660,11 @@ function populateModalData(art) {
 }
 
 const CERTIFIED_PAINTING_DIMENSIONS = {
+  "dore_paysage_montagne_rouen": { h: 0, w: 0, display: "Non documentées (Musée de Rouen)" },
+  "dubuffet_texturologie_duveteuse_rouen_1958": { h: 65, w: 105, display: "65 × 105 cm" },
+  "dubuffet_vache_la_belle_queutee_tokyo_1954": { h: 97, w: 130, display: "97 × 130 cm" },
+  "dubuffet_site_avec_2_personnages_f106_nantes_1982": { h: 68, w: 100, display: "68 × 100 cm" },
+  "dubuffet_champ_expansion_non_lieu_l33_nantes_1984": { h: 100.5, w: 67, display: "100,5 × 67 cm" },
   "altdorfer_bataille_issus": { h: 158.4, w: 120.3, display: "158,4 × 120,3 cm" },
   "anonyme_ecole_fontainebleau_gabrielle_estrees_soeur_louvre": { h: 96, w: 125, display: "96 × 125 cm" },
   "anonyme_fontainebleau_gabrielle_estree_soeur_1594_florence": { h: 96, w: 125, display: "96 × 125 cm" },
@@ -8759,15 +8740,20 @@ function jumpFromArtworkToTimeline(art) {
   // 3. Basculer instantanément sur la Frise Chronologique (Vue 3)
   switchView('view-timeline');
 
-  // 4. Déterminer l'année cible (-3500 à +1500)
+  // 4. Déterminer l'année cible
   const targetYear = (typeof art.centuryNumeric === 'number' && !isNaN(art.centuryNumeric))
     ? art.centuryNumeric
     : -1000;
 
+  // Si l'œuvre date de l'an 1000 ou après, passer sur l'ère moderne (1000 à 2000), sinon antique (-3500 à 1000)
+  if (typeof switchTimelineEra === 'function') {
+    switchTimelineEra(targetYear >= 1000 ? 'modern' : 'ancient');
+  }
+
   // 5. Centrer le ruban chronologique sur cette époque
   const containerWidth = masterContainer ? masterContainer.clientWidth : window.innerWidth;
   const targetPixel = yearToPixel(targetYear);
-  const minX = -(RIBBON_WIDTH - containerWidth);
+  const minX = -(getRibbonWidth() - containerWidth);
   curRibbonX = Math.max(minX, Math.min(0, (containerWidth / 2) - targetPixel));
   prevRibbonX = curRibbonX;
 
@@ -9860,6 +9846,10 @@ function renderSearchGallery() {
         const recSort = targetRecord ? (targetRecord.sortName || '').toLowerCase().trim() : '';
         const recClean = recName.replace(/\(.*?\)/g, '').trim();
 
+        // Séparation stricte pour Robert et Sonia Delaunay ou tout homonyme
+        if (recId === 'delaunay' && (itemArtist.includes('sonia') || itemArtistId === 'sonia_delaunay')) return false;
+        if (recId === 'sonia_delaunay' && (itemArtist.includes('robert') || itemArtistId === 'delaunay')) return false;
+
         let matches = false;
         if (itemArtist === recName || itemArtist === recSort || itemArtist === recClean || itemArtist === activeArtistName) {
           matches = true;
@@ -9952,13 +9942,22 @@ function renderSearchGallery() {
       const aType = (item.artifactType || '').toLowerCase();
       const cat = (item.category || '').toLowerCase();
       const tit = (item.title || '').toLowerCase();
-      const full = `${aType} ${cat} ${tit}`;
+      const chips = (item.chips || []).join(' ').toLowerCase();
+      const full = `${aType} ${cat} ${tit} ${chips}`;
 
       let matched = full.includes(target);
 
-      // Correspondances intelligentes pour les espaces sacrés, cloîtres, mégalithes et variantes
+      // Correspondances intelligentes pour les peintures sur toile, bois, fresques, espaces sacrés, cloîtres, mégalithes et variantes
       if (!matched) {
-        if (target.includes('cloître') || target.includes('cloitre')) {
+        if (target.includes('toile') || target.includes('chevalet')) {
+          matched = full.includes('toile') || full.includes('chevalet') || full.includes('canvas');
+        } else if (target.includes('panneau') || target.includes('bois')) {
+          matched = full.includes('panneau') || full.includes('bois');
+        } else if (target.includes('fresque') || target.includes('murale')) {
+          matched = full.includes('fresque') || full.includes('mural');
+        } else if (target.includes('pariétale') || target.includes('parietale') || target.includes('rupestre')) {
+          matched = full.includes('pariétal') || full.includes('parietal') || full.includes('rupestre') || full.includes('grotte');
+        } else if (target.includes('cloître') || target.includes('cloitre')) {
           matched = full.includes('cloître') || full.includes('cloitre');
         } else if (target.includes('nef')) {
           matched = full.includes('nef');

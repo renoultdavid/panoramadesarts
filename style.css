@@ -5044,41 +5044,166 @@ body {
 /* =========================================================
    NOUVEAU BANDEAU TITRE SUPÉRIEUR (MODALE D'EXPOSITION)
    ========================================================= */
+/* BANDEAU TITRE SUPÉRIEUR AVEC ARTISTE, DATE ET LIEU EN TÊTE */
 .modal-title-bandeau {
   position: relative;
   width: 100%;
-  padding: 24px 34px 18px 34px;
-  /* Fond texturé avec dégradé qui fond doucement vers le bas */
-  background: linear-gradient(180deg, rgba(20, 24, 34, 0.98) 0%, rgba(14, 17, 24, 0.85) 60%, rgba(10, 13, 18, 0) 100%);
+  padding: 16px 28px 14px 28px;
+  background: linear-gradient(180deg, rgba(20, 24, 34, 0.98) 0%, rgba(14, 17, 24, 0.88) 70%, rgba(10, 13, 18, 0.1) 100%);
   z-index: 2;
+  box-sizing: border-box;
 }
 
-.modal-title-bandeau .modal-civ-line {
+.modal-header-main-grid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%;
+}
+
+.modal-header-left-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 0;
+  flex: 1;
+}
+
+.modal-header-left-col .modal-civ-line {
   font-family: 'Cinzel', serif;
   font-size: 0.82rem;
   font-weight: 700;
-  letter-spacing: 2px;
+  letter-spacing: 1.8px;
   color: var(--gold-pale);
   text-transform: uppercase;
-  margin-bottom: 6px;
+  margin-bottom: 4px;
 }
 
-.modal-title-bandeau .modal-headline {
+.modal-header-left-col .modal-headline {
   font-family: 'Cinzel', serif;
-  font-size: 1.65rem;
+  font-size: 1.55rem;
   font-weight: 700;
   color: #fff;
-  letter-spacing: 1px;
+  letter-spacing: 0.8px;
   margin: 0;
-  line-height: 1.25;
+  line-height: 1.22;
   text-shadow: 0 2px 10px rgba(0, 0, 0, 0.8);
+}
+
+.modal-header-right-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 3px;
+  flex-shrink: 0;
+  text-align: right;
+}
+
+/* Ligne 1 : Artiste en encadré rectangulaire doré */
+.modal-header-artist-row {
+  margin-bottom: 1px;
+}
+
+.btn-modal-header-artist {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 3px 10px;
+  background: rgba(212, 175, 55, 0.12);
+  border: 1.2px solid #d4af37;
+  border-radius: 2px;
+  font-family: 'Cinzel', serif;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: #fce8a6;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: all 0.2s ease;
+}
+
+.btn-modal-header-artist:hover {
+  background: rgba(212, 175, 55, 0.28);
+  color: #ffffff;
+  border-color: #ffd700;
+  box-shadow: 0 0 10px rgba(212, 175, 55, 0.4);
+}
+
+.header-artist-icon {
+  font-size: 0.85rem;
+}
+
+.header-artist-arrow {
+  color: #d4af37;
+  font-size: 0.78rem;
+  transition: transform 0.2s ease;
+}
+
+.btn-modal-header-artist:hover .header-artist-arrow {
+  transform: translateX(3px);
+  color: #ffffff;
+}
+
+/* Ligne 2 : Date / Siècle en texte épuré sans encadré */
+.modal-header-date-row {
+  font-family: 'Cinzel', serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #d4af37;
+  letter-spacing: 0.5px;
+  margin: 0;
+  line-height: 1.2;
+}
+
+/* Ligne 3 : Lieu de conservation en texte épuré sans encadré */
+.modal-header-location-row {
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.78rem;
+  color: #cbd5e1;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin: 0;
+  line-height: 1.2;
+  opacity: 0.95;
+}
+
+.modal-header-location-row .modal-loc-pin {
+  font-size: 0.8rem;
+}
+
+/* Bouton fermer intégré à droite */
+.modal-header-main-grid .btn-dismiss-modal {
+  position: static !important;
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  color: #e2e8f0;
+  font-size: 1.35rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin-left: 6px;
+}
+
+.modal-header-main-grid .btn-dismiss-modal:hover {
+  background: rgba(212, 175, 55, 0.25);
+  color: #d4af37;
+  border-color: #d4af37;
 }
 
 /* Ligne dorée qui s'estompe vers la droite */
 .modal-gold-fade-line {
   width: 100%;
   height: 2px;
-  margin-top: 14px;
+  margin-top: 12px;
   background: linear-gradient(90deg, var(--gold-pure) 0%, rgba(212, 175, 55, 0.6) 35%, rgba(212, 175, 55, 0.15) 70%, transparent 100%);
   border-radius: 2px;
 }
@@ -9627,4 +9752,71 @@ body {
   #curator-modal.mode-timeline #modal-dept-banner-box {
     height: 70px !important;
   }
+}
+
+
+/* FORMAT CERTIFIÉ RECTANGULAIRE & COMPARATEUR D'ÉCHELLE INTÉGRÉ */
+.modal-format-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 12px;
+  padding: 2px 0;
+}
+
+.modal-format-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 12px;
+  background: rgba(212, 175, 55, 0.08);
+  border: 1.2px solid #d4af37;
+  border-radius: 2px;
+  color: #f8f9fa;
+  font-family: 'Cinzel', serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.modal-format-badge strong {
+  color: #d4af37;
+  font-weight: 700;
+}
+
+.artwork-scale-integrated-stamp {
+  display: inline-flex;
+  align-items: flex-end;
+  background: rgba(14, 18, 26, 0.6);
+  border: 1px solid rgba(212, 175, 55, 0.25);
+  border-radius: 2px;
+  padding: 4px 10px;
+}
+
+/* BOUTON SITUER SUR LA FRISE RECTANGULAIRE DORÉ */
+.btn-jump-to-timeline {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  background: rgba(212, 175, 55, 0.12) !important;
+  border: 1.2px solid #d4af37 !important;
+  border-radius: 2px !important;
+  color: #d4af37 !important;
+  font-family: 'Cinzel', serif !important;
+  font-size: 0.78rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.6px !important;
+  text-transform: uppercase !important;
+  padding: 5px 12px !important;
+  cursor: pointer !important;
+  transition: all 0.2s ease !important;
+}
+
+.btn-jump-to-timeline:hover {
+  background: rgba(212, 175, 55, 0.28) !important;
+  color: #ffffff !important;
+  border-color: #ffd700 !important;
+  box-shadow: 0 0 10px rgba(212, 175, 55, 0.3) !important;
 }
