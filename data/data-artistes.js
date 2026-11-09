@@ -8808,9 +8808,8 @@ window.ARTISTS_REGISTRY = {
       "place": "Neuilly-sur-Seine (Île-de-France)",
       "title": "Mort de Marcel Duchamp",
       "desc": "Inhumé au cimetière monumental de Rouen avec sa célèbre épitaphe : « D'ailleurs, c'est toujours les autres qui meurent »."
-    }
-  },
-  "periods": [
+    },
+    "periods": [
     {
         "title": "De la Normandie aux Débuts Parisiens & Le Choc Cubo-Futuriste",
         "years": "1887 – 1912",
@@ -9003,5 +9002,6 @@ window.ARTISTS_REGISTRY = {
         ]
     }
 ]
+  }
   }
 };

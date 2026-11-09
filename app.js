@@ -5136,7 +5136,13 @@ function initArtistViewModeSwitcher(artistRecord) {
     badgeDecades.textContent = `${artistArts.length} œuvre${artistArts.length > 1 ? 's' : ''}`;
   }
 
-  const rawTimeline = artistRecord.biographyTimeline || artistRecord.timeline;
+  const rawTimeline = (artistRecord.biographyTimeline && (artistRecord.biographyTimeline.periods || artistRecord.biographyTimeline.chapters))
+    ? artistRecord.biographyTimeline
+    : (artistRecord.timeline && (artistRecord.timeline.periods || artistRecord.timeline.chapters))
+      ? artistRecord.timeline
+      : (artistRecord.periods || artistRecord.chapters)
+        ? artistRecord
+        : (artistRecord.biographyTimeline || artistRecord.timeline);
   let timelineData;
   if (rawTimeline && (rawTimeline.periods || rawTimeline.chapters)) {
     timelineData = {
