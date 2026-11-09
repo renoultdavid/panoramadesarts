@@ -3979,6 +3979,7 @@ function buildTimelineBlocks() {
     });
 
     block.addEventListener('click', (e) => {
+      if (window.__hasDraggedTimeline) return;
       e.stopPropagation();
       openCivilisationPavilion(civ, 'panoramic');
     });
@@ -4007,6 +4008,7 @@ function buildTimelineBlocks() {
     bar.innerHTML = `<span class="sub-mov-label">${mov.name}</span>`;
 
     bar.addEventListener('click', (e) => {
+      if (window.__hasDraggedTimeline) return;
       e.stopPropagation();
       clearTimeout(movPopShowTimer);
       movPopShowTimer = null;
@@ -6356,6 +6358,9 @@ window.addEventListener('mousemove', (e) => {
 
   // 1. Navigation horizontale (axe temporel)
   const deltaX = e.clientX - startX;
+  if (Math.abs(deltaX) > 8) {
+    window.__hasDraggedTimeline = true;
+  }
   if (Math.abs(deltaX) > 15 && isTheatrePinned) {
     isTheatrePinned = false;
     selectedTheatreCivId = null;
@@ -6384,77 +6389,150 @@ window.addEventListener('mouseup', () => {
   if (!isDragging) return;
   isDragging = false;
   prevRibbonX = curRibbonX;
+  setTimeout(() => { window.__hasDraggedTimeline = false; }, 60);
 });
 
-/* Tactile pour tablettes */
+/* Tactile pour smartphones et tablettes : Panoramique 2D fluide (temps X + voies Y) & Pinch-to-zoom */
 let startTouchY = 0;
-let isDeterminedGesture = false;
-let isHorizontalDrag = false;
+let isPinching = false;
+let initialPinchDist = 0;
+let lastPinchDist = 0;
 
-masterContainer.addEventListener('touchstart', (e) => {
+function handleTimelineTouchStart(e) {
+  // Ignorer si clic direct sur un élément interactif
+  if (e.target.closest('button, a, input, select, .timeline-movement-bar, .sub-movement-timespan-bar')) return;
+
   if (e.touches.length === 1) {
+    isPinching = false;
     isDragging = true;
-    isDeterminedGesture = false;
-    isHorizontalDrag = false;
     startX = e.touches[0].clientX;
+    startY = e.touches[0].clientY;
     startTouchY = e.touches[0].clientY;
+    prevRibbonX = curRibbonX;
+    if (timelineSplitWrapper) {
+      startScrollTop = timelineSplitWrapper.scrollTop;
+    }
     updateSynchronousState(e.touches[0].clientX);
+    hideMovementPopover(true);
+  } else if (e.touches.length === 2) {
+    isDragging = false;
+    isPinching = true;
+    initialPinchDist = Math.hypot(
+      e.touches[0].clientX - e.touches[1].clientX,
+      e.touches[0].clientY - e.touches[1].clientY
+    );
+    lastPinchDist = initialPinchDist;
   }
-}, { passive: true });
+}
+
+if (masterContainer) {
+  masterContainer.addEventListener('touchstart', handleTimelineTouchStart, { passive: true });
+}
+if (timelineLabelsCol) {
+  timelineLabelsCol.addEventListener('touchstart', handleTimelineTouchStart, { passive: true });
+}
+const rulerScaleBarEl = document.getElementById('ruler-scale-bar');
+if (rulerScaleBarEl) {
+  rulerScaleBarEl.addEventListener('touchstart', handleTimelineTouchStart, { passive: true });
+}
 
 window.addEventListener('touchmove', (e) => {
-  if (!isDragging || e.touches.length !== 1) return;
-  const touchX = e.touches[0].clientX;
-  const touchY = e.touches[0].clientY;
-  const deltaX = Math.abs(touchX - startX);
-  const deltaY = Math.abs(touchY - startTouchY);
-
-  if (!isDeterminedGesture) {
-    if (deltaX > 8 || deltaY > 8) {
-      isDeterminedGesture = true;
-      if (deltaY > deltaX) {
-        isDragging = false;
-        return;
-      } else {
-        isHorizontalDrag = true;
-      }
-    } else {
-      return;
+  // 1. Zoom à 2 doigts (Pinch to Zoom)
+  if (isPinching && e.touches.length === 2) {
+    const curDist = Math.hypot(
+      e.touches[0].clientX - e.touches[1].clientX,
+      e.touches[0].clientY - e.touches[1].clientY
+    );
+    if (lastPinchDist > 0 && Math.abs(curDist - lastPinchDist) > 2) {
+      const pinchFactor = curDist / lastPinchDist;
+      const midX = (e.touches[0].clientX + e.touches[1].clientX) / 2;
+      zoomTimelineByFactor(midX, pinchFactor);
+      lastPinchDist = curDist;
     }
+    return;
   }
 
-  if (!isHorizontalDrag) return;
+  // 2. Défilement 2D à 1 doigt (Horizontale = temps, Verticale = voies)
+  if (!isDragging || e.touches.length !== 1) return;
 
-  curRibbonX = prevRibbonX + (touchX - startX);
-  const minX = -(getRibbonWidth() - masterContainer.clientWidth);
+  const touchX = e.touches[0].clientX;
+  const touchY = e.touches[0].clientY;
+  const deltaX = touchX - startX;
+  const deltaY = touchY - startTouchY;
+
+  if (Math.abs(deltaX) > 8 || Math.abs(deltaY) > 8) {
+    window.__hasDraggedTimeline = true;
+  }
+
+  // Déverrouiller le théâtre épinglé si déplacement significatif
+  if (Math.abs(deltaX) > 15 && isTheatrePinned) {
+    isTheatrePinned = false;
+    selectedTheatreCivId = null;
+    lastRenderedCivKey = null;
+  }
+
+  // Navigation temporelle horizontale
+  curRibbonX = prevRibbonX + deltaX;
+  const containerW = (masterContainer && masterContainer.clientWidth) || window.innerWidth;
+  const minX = -(getRibbonWidth() - containerW);
   curRibbonX = Math.max(minX, Math.min(0, curRibbonX));
-  
-  masterRibbon.style.transform = `translateX(${curRibbonX}px)`;
-  rulerTrack.style.transform = `translateX(${curRibbonX}px)`;
-  rulerEventsLayer.style.transform = `translateX(${curRibbonX}px)`;
+
+  if (masterRibbon) masterRibbon.style.transform = `translateX(${curRibbonX}px)`;
+  if (rulerTrack) rulerTrack.style.transform = `translateX(${curRibbonX}px)`;
+  if (rulerEventsLayer) rulerEventsLayer.style.transform = `translateX(${curRibbonX}px)`;
   if (rulerSparksLayer) rulerSparksLayer.style.transform = `translateX(${curRibbonX}px)`;
+
   updateStickyBlockTitles();
   updateSynchronousState(touchX);
+
+  // Navigation verticale synchronisée dans les voies
+  if (timelineSplitWrapper) {
+    timelineSplitWrapper.scrollTop = startScrollTop - deltaY;
+  }
 }, { passive: true });
 
-window.addEventListener('touchend', () => {
-  if (!isDragging) return;
-  isDragging = false;
-  prevRibbonX = curRibbonX;
+window.addEventListener('touchend', (e) => {
+  if (e.touches.length === 0) {
+    if (isDragging) {
+      isDragging = false;
+      prevRibbonX = curRibbonX;
+      setTimeout(() => { window.__hasDraggedTimeline = false; }, 60);
+    }
+    isPinching = false;
+    lastPinchDist = 0;
+  } else if (e.touches.length === 1 && isPinching) {
+    isPinching = false;
+    isDragging = true;
+    startX = e.touches[0].clientX;
+    startTouchY = e.touches[0].clientY;
+    prevRibbonX = curRibbonX;
+    if (timelineSplitWrapper) {
+      startScrollTop = timelineSplitWrapper.scrollTop;
+    }
+  }
+});
+
+window.addEventListener('touchcancel', () => {
+  if (isDragging) {
+    isDragging = false;
+    prevRibbonX = curRibbonX;
+    setTimeout(() => { window.__hasDraggedTimeline = false; }, 60);
+  }
+  isPinching = false;
+  lastPinchDist = 0;
 });
 
 /* ==========================================================================
    ZOOM TEMPOREL CONTINU (MOLETTE SOURIS, BOUTONS & GESTES TACTILES)
    ========================================================================== */
-function zoomTimelineAt(screenX, deltaY) {
+function zoomTimelineByFactor(screenX, factor) {
   if (!masterContainer) return;
   const ribbonRect = masterRibbon.getBoundingClientRect();
   const relX = screenX - ribbonRect.left;
   const focalYear = pixelToYear(relX);
 
-  const zoomFactor = deltaY < 0 ? 1.18 : (1 / 1.18);
   const oldZoom = timelineZoom;
-  timelineZoom = Math.max(0.4, Math.min(15.0, timelineZoom * zoomFactor));
+  timelineZoom = Math.max(0.4, Math.min(15.0, timelineZoom * factor));
   if (Math.abs(timelineZoom - oldZoom) < 0.001) return;
 
   const containerRect = masterContainer.getBoundingClientRect();
@@ -6469,6 +6547,11 @@ function zoomTimelineAt(screenX, deltaY) {
 
   updateTimelineLayout();
   updateSynchronousState(screenX);
+}
+
+function zoomTimelineAt(screenX, deltaY) {
+  const zoomFactor = deltaY < 0 ? 1.18 : (1 / 1.18);
+  zoomTimelineByFactor(screenX, zoomFactor);
 }
 
 function zoomTimelineByButton(factor) {

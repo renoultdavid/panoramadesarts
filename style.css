@@ -9233,3 +9233,309 @@ body {
   align-items: center;
   gap: 4px;
 }
+
+
+/* ==========================================================================
+   RESPONSIVE FRISE CHRONOLOGIQUE & ATLAS SUR MOBILE / SMARTPHONE (< 900px)
+   AUCUN IMPACT SUR ORDINATEUR DE BUREAU / DESKTOP
+   ========================================================================== */
+@media (max-width: 900px) {
+  /* 1. Théâtre synchronique & Espace supérieur en mode frise */
+  #map-viewport {
+    flex: 0 0 clamp(200px, 32vh, 260px) !important;
+    height: clamp(200px, 32vh, 260px) !important;
+    min-height: 200px !important;
+    max-height: 35vh !important;
+  }
+
+  .theatre-track {
+    padding: 8px 10px !important;
+    gap: 10px !important;
+  }
+
+  .theatre-civ-card {
+    flex: 0 0 clamp(240px, 78vw, 320px) !important;
+    max-width: 82vw !important;
+    min-height: 0 !important;
+  }
+
+  .theatre-hero-main {
+    grid-template-columns: 1fr !important;
+  }
+
+  .theatre-card-media {
+    height: 110px !important;
+  }
+
+  .theatre-card-body {
+    padding: 8px 10px !important;
+  }
+
+  /* 2. Dock inférieur et Frise chronologique */
+  #timeline-dock {
+    flex: 1 1 auto !important;
+    min-height: 0 !important;
+  }
+
+  #master-drag-container {
+    touch-action: none !important;
+  }
+
+  #timeline-split-wrapper {
+    touch-action: none !important;
+  }
+
+  #timeline-labels-column {
+    width: 85px !important;
+    min-width: 85px !important;
+    max-width: 85px !important;
+  }
+
+  .lane-fixed-label {
+    font-size: 0.56rem !important;
+    padding: 0 4px !important;
+    letter-spacing: 0 !important;
+    line-height: 1.15 !important;
+    white-space: normal !important;
+    text-align: center !important;
+    justify-content: center !important;
+  }
+
+  .lane-label-emblem {
+    display: none !important;
+  }
+
+  .master-hint-strip {
+    padding: 3px 6px !important;
+    gap: 4px !important;
+    overflow-x: auto !important;
+    justify-content: space-between !important;
+  }
+
+  .milestones-legend {
+    display: none !important;
+  }
+
+  .timeline-era-switcher {
+    padding: 2px 4px !important;
+    gap: 3px !important;
+  }
+
+  .btn-era-toggle {
+    font-size: 0.60rem !important;
+    padding: 3px 6px !important;
+  }
+
+  .btn-era-toggle .era-badge {
+    display: none !important;
+  }
+
+  .timeline-zoom-controls {
+    gap: 3px !important;
+  }
+
+  .btn-time-zoom {
+    padding: 2px 6px !important;
+    font-size: 0.60rem !important;
+  }
+
+  #btn-time-zoom-reset span {
+    display: none !important;
+  }
+
+  /* 3. Grand Pavillon Monographique déplié sur mobile (Plein écran scrollable sans tronquage) */
+  #view-timeline.civ-pavilion-open #map-viewport,
+  #view-timeline.cluster-stage-open #map-viewport {
+    flex: 1 1 auto !important;
+    height: calc(100dvh - 48px - 38px) !important;
+    max-height: calc(100dvh - 48px - 38px) !important;
+  }
+
+  #view-timeline.civ-pavilion-open #timeline-dock,
+  #view-timeline.cluster-stage-open #timeline-dock {
+    flex: 0 0 38px !important;
+    height: 38px !important;
+    min-height: 38px !important;
+    max-height: 38px !important;
+  }
+
+  .civ-pavilion-stage {
+    height: 100% !important;
+    overflow-y: auto !important;
+    -webkit-overflow-scrolling: touch !important;
+  }
+
+  .pavilion-header {
+    padding: 8px 12px !important;
+    gap: 8px !important;
+  }
+
+  .pavilion-header-top {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 8px !important;
+  }
+
+  .pavilion-header-left {
+    gap: 10px !important;
+  }
+
+  .pavilion-emblem {
+    width: 38px !important;
+    height: 38px !important;
+    font-size: 1.3rem !important;
+  }
+
+  .pavilion-titles h2,
+  .pavilion-title {
+    font-size: 0.95rem !important;
+    white-space: normal !important;
+    line-height: 1.25 !important;
+  }
+
+  .pavilion-epoch {
+    font-size: 0.72rem !important;
+  }
+
+  .pavilion-header-right {
+    width: 100% !important;
+    justify-content: space-between !important;
+    gap: 8px !important;
+  }
+
+  .btn-pavilion-gallery,
+  .btn-close-pavilion {
+    font-size: 0.70rem !important;
+    padding: 6px 10px !important;
+  }
+
+  .pavilion-body {
+    display: flex !important;
+    flex-direction: column !important;
+    grid-template-columns: none !important;
+    grid-template-rows: none !important;
+    grid-template-areas: none !important;
+    padding: 10px 10px 30px 10px !important;
+    gap: 14px !important;
+    height: auto !important;
+    overflow: visible !important;
+  }
+
+  #pavilion-banner-box {
+    width: 100% !important;
+    height: 160px !important;
+    flex-shrink: 0 !important;
+  }
+
+  .pavilion-panel {
+    width: 100% !important;
+    height: auto !important;
+    max-height: none !important;
+    min-height: 0 !important;
+  }
+
+  .pavilion-panel-scroll {
+    max-height: none !important;
+    height: auto !important;
+    overflow-y: visible !important;
+    padding: 12px 14px !important;
+  }
+
+  .geo-card-container {
+    padding: 12px 14px !important;
+    gap: 10px !important;
+  }
+
+  .geo-compass-icon {
+    font-size: 1.6rem !important;
+  }
+
+  .geo-card-title {
+    font-size: 1.05rem !important;
+  }
+
+  .geo-notice-box {
+    padding: 10px 12px !important;
+    font-size: 0.92rem !important;
+  }
+
+  .mov-artists-container {
+    padding: 12px 14px !important;
+  }
+
+  .pavilion-artists-strip {
+    margin: 10px 8px 14px 8px !important;
+    padding: 12px 10px !important;
+  }
+
+  .pavilion-artist-vignette {
+    min-width: 250px !important;
+    max-width: 280px !important;
+    padding: 10px 12px !important;
+  }
+
+  .pavilion-footer-strip {
+    margin: 10px 8px 30px 8px !important;
+    padding: 12px 10px !important;
+  }
+
+  .pavilion-art-card {
+    min-width: 260px !important;
+    max-width: 290px !important;
+    height: 110px !important;
+    padding: 8px 10px !important;
+  }
+
+  .pavilion-art-thumb {
+    width: 78px !important;
+    height: 78px !important;
+  }
+
+  .pavilion-art-title {
+    font-size: 0.85rem !important;
+  }
+
+  /* 4. Modale d'éclatement de grappe temporelle (Cluster) sur mobile */
+  .cluster-exploded-frame {
+    width: 100vw !important;
+    max-width: 100vw !important;
+    height: 100dvh !important;
+    max-height: 100dvh !important;
+    margin: 0 !important;
+    border-radius: 0 !important;
+    border: none !important;
+  }
+
+  .cluster-exploded-header {
+    padding: 8px 12px !important;
+  }
+
+  .cluster-exploded-headline {
+    font-size: 0.95rem !important;
+  }
+
+  .cluster-exploded-body {
+    grid-template-columns: 1fr !important;
+    padding: 10px !important;
+    gap: 10px !important;
+  }
+
+  .cluster-exploded-card {
+    min-width: 0 !important;
+  }
+
+  /* 5. Modale Carte Régionale HD sur mobile */
+  .civ-map-modal-frame {
+    width: 100vw !important;
+    max-width: 100vw !important;
+    height: 100dvh !important;
+    max-height: 100dvh !important;
+    border-radius: 0 !important;
+    border: none !important;
+  }
+
+  /* 6. Modale d'œuvre en mode frise */
+  #curator-modal.mode-timeline #modal-dept-banner-box {
+    height: 70px !important;
+  }
+}
