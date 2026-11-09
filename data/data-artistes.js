@@ -8103,4 +8103,265 @@ window.ARTISTS_REGISTRY = {
       ]
     }
   }
+,
+  messine: {
+  "id": "messine",
+  "name": "Antonello de Messine",
+  "sortName": "Messine Antonello de",
+  "sortLetter": "A",
+  "dates": "v. 1430 – 1479",
+  "movement": "Première Renaissance italienne, École vénitienne & Assimilation de l'huile flamande",
+  "nationality": "Italien (Messine / Sicile)",
+  "techniques": "Peinture à l'huile sur bois de peuplier et noyer, glacis flamands translucides, cadrage serré en buste de trois-quarts sur fond sombre, modelé sculptural par la lumière, analyse psychologique pénétrante et minutie microscopique",
+  "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczMJFasIrnv3gJHihTxjwooB4y9THOhKvjKLkxKRiJbWOEWhBQx6JTE7k3P1ettUhZmOTbkYR3Wyt8ZKZAakIpOOZ_GsT4O_4fQlSg1_95WXf1eKYNNqWd8ZxwedAqH4Li2TEcHgv8HxJcxplptmy4ZHyA=w1681-h713-s-no-gm?authuser=0",
+  "bio": [
+    "Antonello de Messine (v. 1430 – 1479) est le passeur de génie entre le Nord et le Sud. Originaire de Sicile, il est l'artiste qui a véritablement introduit et popularisé la peinture à l'huile flamande en Italie, transformant radicalement le cours de la Renaissance italienne, notamment à Venise.",
+    "Son genre pictural se définit par le portrait psychologique et la peinture sacrée humaniste. Son style se caractérise par une synthèse parfaite entre la précision analytique des Flamands (rendu des matières, des poils de barbe, de la lumière) et la rigueur monumentale italienne (géométrie des volumes, perspective). Ses portraits, souvent de trois-quarts sur fond sombre, fixent le spectateur d'un regard d'une intensité bouleversante.",
+    "L'évolution de son style marque une maîtrise croissante de l'espace et de la lumière : La formation napolitaine et l'influence flamande (années 1450-1460) où il découvre les œuvres de Van Eyck et adopte la technique de l'huile avec ses glacis transparents ; Le séjour vénitien et la maturité (1475 – 1476), véritable séisme artistique où il peint le Retable de San Cassiano et influence durablement Giovanni Bellini ; enfin La perfection du portrait jusqu'à sa mort, sculpté par une lumière directionnelle où chaque ride témoigne d'une présence vivante."
+  ],
+  "corpus": {
+    "total": 38,
+    "seen": 2,
+    "paintingsCount": 38,
+    "sourceTitle": "Catalogue Raisonné Mauro Lucco (2006) & Rétrospective Palazzo Reale Milan (2019)",
+    "sourceNotes": "L'inventaire scientifique de son œuvre fait l'objet d'un consensus très strict, porté notamment par les historiens Mauro Lucco (catalogue raisonné de référence de 2006) et Giovanni Carlo Federico Villa (exposition du Palazzo Reale de Milan en 2019 ayant rassemblé 19 de ses toiles). En incluant les ultimes redécouvertes validées (comme le petit panneau Visage d'un jeune saint en 2026), le corpus strictement autographe est évalué à seulement 38 œuvres parvenues jusqu'à nous.",
+    "details": [
+      {
+        "label": "Panneaux peints autographes répertoriés",
+        "count": 38,
+        "icon": "🎨",
+        "color": "#d4af37",
+        "seen": 2,
+        "note": "Dont Le Christ à la colonne (Louvre), Le Condottière (Louvre), L'Annonciation (Palerme), Saint Jérôme (Londres)"
+      }
+    ]
+  },
+  "biographyTimeline": {
+    "birth": {
+      "year": 1430,
+      "place": "Messine (Sicile)",
+      "title": "Naissance d'Antonello de Messine",
+      "desc": "Fils de Giovanni de Antonio Mazonus, tailleur de pierre. Se forme à Naples dans l'atelier de Colantonio."
+    },
+    "death": {
+      "year": 1479,
+      "place": "Messine (Sicile)",
+      "title": "Mort d'Antonello de Messine",
+      "desc": "S'éteint en Sicile à moins de 50 ans, au sommet de sa renommée européenne."
+    },
+    "periods": [
+      {
+        "title": "Formation Napolitaine & Assimilation de l'Huile Flamande",
+        "years": "1450 – 1474",
+        "color": "#0284c7",
+        "summary": "À Naples, carrefour des influences méditerranéennes et flamandes, il découvre la technique de l'huile et les œuvres de Van Eyck.",
+        "events": [
+          {
+            "year": 1450,
+            "title": "Apprentissage à Naples auprès de Colantonio",
+            "desc": "Assimile la technique des glacis à l'huile et le naturalisme des maîtres flamands et bourguignons.",
+            "type": "milestone",
+            "icon": "🎨"
+          },
+          {
+            "year": 1465,
+            "title": "Le Salvator Mundi (National Gallery, Londres)",
+            "desc": "Première œuvre datée démontrant la maîtrise absolue de la perspective et du modelé à l'huile.",
+            "type": "masterpiece",
+            "icon": "✨"
+          }
+        ]
+      },
+      {
+        "title": "Le Séjour Vénitien & la Révolution de la Couleur",
+        "years": "1475 – 1476",
+        "color": "#d97706",
+        "summary": "Son passage à Venise est un séisme artistique. Il peint le retable de San Cassiano et bouleverse l'art vénitien.",
+        "events": [
+          {
+            "year": 1475,
+            "title": "Arrivée triomphale à Venise",
+            "desc": "Introduit la technique de l'huile flamande auprès des maîtres vénitiens, marquant à jamais Giovanni Bellini.",
+            "type": "milestone",
+            "icon": "🏛️"
+          },
+          {
+            "year": 1475,
+            "title": "Le Condottière (Musée du Louvre)",
+            "desc": "Sommet du portrait psychologique de trois-quarts : regard d'acier et présence vivante inouïe.",
+            "type": "masterpiece",
+            "icon": "⚔️",
+            "artworkId": "condottiere_messine_louvre_1475"
+          },
+          {
+            "year": 1475,
+            "title": "Le Christ à la colonne (Musée du Louvre)",
+            "desc": "Gros plan bouleversant sur la souffrance humaine : larmes et sueur rendues avec une minutie prodigieuse.",
+            "type": "masterpiece",
+            "icon": "✝️",
+            "artworkId": "christ_colonne_messine_louvre_1475"
+          },
+          {
+            "year": 1476,
+            "title": "Le Retable de San Cassiano",
+            "desc": "Invention de la Sainte Conversation unifiée dans un espace perspectif monumental baigné de lumière.",
+            "type": "masterpiece",
+            "icon": "⛪"
+          }
+        ]
+      },
+      {
+        "title": "Dernières Années Siciliennes & Quintessence du Regard",
+        "years": "1476 – 1479",
+        "color": "#7c3aed",
+        "summary": "De retour à Messine, il achève ses ultimes chefs-d'œuvre de dévotion et de portrait.",
+        "events": [
+          {
+            "year": 1476,
+            "title": "La Vierge de l'Annonciation (Palerme)",
+            "desc": "Chef-d'œuvre universel de sobriété et de pudeur : le geste suspendu de la main devant le spectateur.",
+            "type": "masterpiece",
+            "icon": "📖"
+          },
+          {
+            "year": 1479,
+            "title": "Disparition à Messine",
+            "desc": "Rédige son testament en février 1479 et s'éteint, laissant une empreinte indélébile sur toute la Renaissance.",
+            "type": "death",
+            "icon": "🕊️"
+          }
+        ]
+      }
+    ]
+  }
+},
+  derain: {
+  "id": "derain",
+  "name": "Derain André",
+  "sortName": "Derain André",
+  "sortLetter": "D",
+  "dates": "1880 – 1954",
+  "movement": "Fauvisme, Avant-gardes du début du XXe siècle & Retour au Classicisme",
+  "nationality": "Français (Chatou / Chambourcy)",
+  "techniques": "Huile sur toile, touche pure sortie du tube, aplats flamboyants, détrempe, clair-obscur classique, modelé sculptural, paysages urbains et fluviaux, portraits intimistes, natures mortes austères, décors de théâtre",
+  "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczNrKN2beMBelPKbbU45xEuJMaW2lAT62cQDsKw1yAeBluxqLfs-jqlzhHrxenMDPf6puHMq-qEYmPBofkMOtRknrrvncQbEYnC617f4kWKKO3tHNlje84sQpv6RCCH7b9qSkG0GZ1KxtNei5AJuiOfSoQ=w1681-h713-s-no-gm?authuser=0",
+  "bio": [
+    "André Derain (1880 – 1954) est l'un des cofondateurs du Fauvisme aux côtés d'Henri Matisse et de Maurice de Vlaminck, avant de devenir l'artisan d'un spectaculaire « retour à l'ordre » et à la grande tradition muséale. Peintre, sculpteur, décorateur pour les Ballets russes et théoricien érudit, Derain incarne la trajectoire complexe d'une avant-garde qui choisit délibérément de revisiter les maîtres classiques pour retrouver la solidité et l'intemporalité de la forme.",
+    "Son genre pictural se définit par le paysage fauve urbain et portuaire, le portrait de caractère, la nature morte classique et le décor de scène. Son style se caractérise d'abord par des déflagrations de couleurs pures sorties du tube et un dessin synthétique, avant d'évoluer vers une palette austère d'ocres, de bruns et de terres, servie par un modelé sculptural, un clair-obscur rigoureux et un sens aigu de la hiérarchie classique.",
+    "L'évolution de son style marque un passage de l'incandescence chromatique à la méditation sur la permanence des maîtres anciens : L'explosion fauve et les vues de Londres (1904 – 1907) libérant la couleur de toute fonction descriptive ; La tentation cubiste et la période byzantine / gothique (1908 – 1914) avec une géométrisation sévère refusant la dissolution cubiste ; Le retour au classicisme et les natures mortes de maturité (après 1918) regardant vers Corot, Le Nain et la Renaissance."
+  ],
+  "corpus": {
+    "total": 2300,
+    "seen": 0,
+    "paintingsCount": 2300,
+    "sourceTitle": "Catalogue Raisonné de l'Œuvre Peint Michel Kellermann (1992–1999)",
+    "sourceNotes": "L'inventaire de référence mondiale est le Catalogue raisonné de l'œuvre peint établi par l'expert Michel Kellermann (Galerie Schmit, Paris, 1992–1999, publié en 3 volumes chronologiques : Tome I 1895-1914, Tome II 1915-1934, Tome III 1935-1954). Le consensus scientifique fixe le corpus officiel de ses peintures autographes à un peu plus de 2 300 œuvres.",
+    "details": [
+      {
+        "label": "Peintures répertoriées aux trois tomes du catalogue raisonné",
+        "count": 2300,
+        "icon": "🎨",
+        "color": "#d4af37",
+        "seen": 0,
+        "note": "Huiles sur toile, sur carton ou sur panneau (périodes fauve, cézannienne/gothique et classique)"
+      }
+    ]
+  },
+  "biographyTimeline": {
+    "birth": {
+      "year": 1880,
+      "place": "Chatou (Yvelines)",
+      "title": "Naissance d'André Derain",
+      "desc": "Fils d'un crémier aisé de Chatou. Reçoit une solide éducation classique au lycée Chaptal à Paris."
+    },
+    "death": {
+      "year": 1954,
+      "place": "Garches (Hauts-de-Seine)",
+      "title": "Mort d'André Derain",
+      "desc": "Renversé par une automobile, il s'éteint à l'hôpital de Garches le 8 septembre 1954."
+    },
+    "periods": [
+      {
+        "title": "L'Explosion Fauve & les Éclats de Collioure et Londres",
+        "years": "1900 – 1907",
+        "color": "#ef4444",
+        "summary": "Période révolutionnaire aux côtés de Vlaminck et Matisse : la couleur pure devient autonome.",
+        "events": [
+          {
+            "year": 1900,
+            "title": "Rencontre avec Maurice de Vlaminck",
+            "desc": "Partage un atelier à Chatou sur l'île de la Grande Jatte, posant les bases chromatiques du fauvisme.",
+            "type": "milestone",
+            "icon": "🚂"
+          },
+          {
+            "year": 1905,
+            "title": "L'été fauve de Collioure & le Salon d'Automne",
+            "desc": "Peint en émulation fraternelle avec Henri Matisse ; scandale retentissant dans la salle VII des « fauves ».",
+            "type": "masterpiece",
+            "icon": "🔥"
+          },
+          {
+            "year": 1906,
+            "title": "Série des vues de Londres sur la Tamise",
+            "desc": "Commandée par Ambroise Vollard pour égaler Monet : déflagration de jaunes, verts et bleus sur Big Ben et Charing Cross.",
+            "type": "masterpiece",
+            "icon": "⛵"
+          }
+        ]
+      },
+      {
+        "title": "Rigueur Cézannienne & Période Gothique",
+        "years": "1908 – 1914",
+        "color": "#0284c7",
+        "summary": "Installation au Bateau-Lavoir, influence de Cézanne et de l'art tribal, géométrisation austère des formes.",
+        "events": [
+          {
+            "year": 1908,
+            "title": "Atelier au Bateau-Lavoir à Montmartre",
+            "desc": "Dialogue avec Picasso, Braque et Apollinaire ; refuse le cubisme analytique pur pour garder l'intégrité de la figure.",
+            "type": "milestone",
+            "icon": "🏛️"
+          },
+          {
+            "year": 1912,
+            "title": "Période « byzantine » et gothique",
+            "desc": "Resserre sa palette vers les terres et les ocres ; peint Le Samedi et des figures hiératiques.",
+            "type": "masterpiece",
+            "icon": "📐"
+          }
+        ]
+      },
+      {
+        "title": "Le Retour à l'Ordre & la Quête des Maîtres Anciens",
+        "years": "1918 – 1954",
+        "color": "#475569",
+        "summary": "Après la Première Guerre mondiale, il rejette les avant-gardes éclatées pour embrasser la pérennité classique.",
+        "events": [
+          {
+            "year": 1919,
+            "title": "Décors des Ballets russes de Diaghilev",
+            "desc": "Triomphe scénique avec La Boutique fantasque à Londres.",
+            "type": "milestone",
+            "icon": "🎭"
+          },
+          {
+            "year": 1928,
+            "title": "Prix Carnegie International à Pittsburgh",
+            "desc": "Consécration mondiale pour La Chasse à la biche ; succès commercial éclatant entre les deux guerres.",
+            "type": "milestone",
+            "icon": "🏆"
+          },
+          {
+            "year": 1954,
+            "title": "Mort à Garches",
+            "desc": "Disparaît dans sa propriété de Chambourcy, laissant une œuvre monumentale enracinée dans l'histoire de l'art.",
+            "type": "death",
+            "icon": "🕊️"
+          }
+        ]
+      }
+    ]
+  }
+}
 };

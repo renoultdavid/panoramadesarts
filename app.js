@@ -7670,7 +7670,7 @@ function populateModalData(art) {
   updateModalHistoryBackButton();
 }
 
-let currentScaleGender = 'neutral';
+let currentScaleGender = 'female';
 
 function getHumanSvg(gender) {
   if (gender === 'female') {
@@ -7688,33 +7688,18 @@ function getHumanSvg(gender) {
       </svg>
     `;
   }
-  if (gender === 'male') {
-    return `
-      <svg viewBox="0 0 100 280" class="scale-human-svg" aria-label="Silhouette masculine">
-        <defs>
-          <linearGradient id="humanGradMale" x1="0%" y1="0%" x2="0%" y2="100%">
-            <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.65"/>
-            <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.15"/>
-          </linearGradient>
-        </defs>
-        <circle cx="50" cy="27" r="15" fill="url(#humanGradMale)" stroke="#38bdf8" stroke-width="2"/>
-        <path d="M50 46 C41 46 27 52 23 66 L13 130 C12 136 18 140 23 135 L30 96 L31 165 L24 270 C23 277 32 280 35 272 L47 175 L53 175 L65 272 C68 280 77 277 76 270 L69 165 L70 96 L77 135 C82 140 88 136 87 130 L77 66 C73 52 59 46 50 46 Z" 
-              fill="url(#humanGradMale)" stroke="#38bdf8" stroke-width="1.8" stroke-linejoin="round"/>
-      </svg>
-    `;
-  }
-  // Silhouette neutre
+  // Silhouette masculine par défaut
   return `
-    <svg viewBox="0 0 100 280" class="scale-human-svg" aria-label="Silhouette neutre">
+    <svg viewBox="0 0 100 280" class="scale-human-svg" aria-label="Silhouette masculine">
       <defs>
-        <linearGradient id="humanGradNeut" x1="0%" y1="0%" x2="0%" y2="100%">
-          <stop offset="0%" stop-color="#d4af37" stop-opacity="0.65"/>
-          <stop offset="100%" stop-color="#d4af37" stop-opacity="0.15"/>
+        <linearGradient id="humanGradMale" x1="0%" y1="0%" x2="0%" y2="100%">
+          <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.65"/>
+          <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.15"/>
         </linearGradient>
       </defs>
-      <circle cx="50" cy="28" r="15" fill="url(#humanGradNeut)" stroke="#d4af37" stroke-width="2"/>
-      <path d="M50 48 C42 48 30 54 26 68 L16 130 C15 136 21 140 26 135 L33 98 L33 165 L26 270 C25 277 34 280 37 272 L48 175 L52 175 L63 272 C66 280 75 277 74 270 L67 165 L67 98 L74 135 C79 140 85 136 84 130 L74 68 C70 54 58 48 50 48 Z" 
-            fill="url(#humanGradNeut)" stroke="#d4af37" stroke-width="1.8" stroke-linejoin="round"/>
+      <circle cx="50" cy="27" r="15" fill="url(#humanGradMale)" stroke="#38bdf8" stroke-width="2"/>
+      <path d="M50 46 C41 46 27 52 23 66 L13 130 C12 136 18 140 23 135 L30 96 L31 165 L24 270 C23 277 32 280 35 272 L47 175 L53 175 L65 272 C68 280 77 277 76 270 L69 165 L70 96 L77 135 C82 140 88 136 87 130 L77 66 C73 52 59 46 50 46 Z" 
+            fill="url(#humanGradMale)" stroke="#38bdf8" stroke-width="1.8" stroke-linejoin="round"/>
     </svg>
   `;
 }
@@ -7744,27 +7729,20 @@ function openHumanScaleStage(art) {
   }
 
   function updateStage() {
-    let humanHeightCm = 170;
-    let label = '1,70 m';
-    if (currentScaleGender === 'female') {
-      humanHeightCm = 165;
-      label = '1,65 m';
-    } else if (currentScaleGender === 'male') {
-      humanHeightCm = 175;
-      label = '1,75 m';
-    }
+    let humanHeightCm = (currentScaleGender === 'male') ? 175 : 165;
+    let label = (currentScaleGender === 'male') ? '1,75 m' : '1,65 m';
 
     if (svgWrap) svgWrap.innerHTML = getHumanSvg(currentScaleGender);
     if (tagEl) tagEl.textContent = label;
 
     // Calcul des proportions relatives par rapport au sol
     const maxRealH = Math.max(humanHeightCm, dims.h);
-    const sceneMaxPx = 230;
+    const sceneMaxPx = Math.min(270, Math.max(180, Math.round(window.innerHeight * 0.36)));
     const pxPerCm = sceneMaxPx / maxRealH;
 
     const humanPx = Math.round(humanHeightCm * pxPerCm);
     const artHPx = Math.max(16, Math.round(dims.h * pxPerCm));
-    const artWPx = Math.max(16, Math.min(Math.round(dims.w * pxPerCm), 250));
+    const artWPx = Math.max(16, Math.min(Math.round(dims.w * pxPerCm), 280));
 
     if (svgWrap) svgWrap.style.height = `${humanPx}px`;
     if (frameEl) {
@@ -7781,10 +7759,19 @@ function openHumanScaleStage(art) {
   genderBtns.forEach(btn => {
     btn.onclick = (e) => {
       e.stopPropagation();
-      currentScaleGender = btn.dataset.gender || 'neutral';
+      currentScaleGender = btn.dataset.gender === 'male' ? 'male' : 'female';
       updateStage();
     };
   });
+
+  // Clic sur le cadre ou l'image pour repasser au tableau plein cadre
+  if (frameEl) {
+    frameEl.title = "Cliquer pour revenir à l'œuvre plein cadre";
+    frameEl.onclick = (e) => {
+      e.stopPropagation();
+      stage.style.display = 'none';
+    };
+  }
 
   if (btnClose) {
     btnClose.onclick = (e) => {
@@ -7792,6 +7779,10 @@ function openHumanScaleStage(art) {
       stage.style.display = 'none';
     };
   }
+
+  updateStage();
+  stage.style.display = 'flex';
+}
 
   updateStage();
   stage.style.display = 'flex';

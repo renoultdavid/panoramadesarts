@@ -105,6 +105,14 @@ window.MOVEMENTS_DATA = {
         "desc": "Portrait de Sigismond Malatesta, Le Triomphe de la chasteté, fresques d'Arezzo.",
         "artistId": "piero_della_francesca",
         "icon": "📐"
+      },
+      {
+        "name": "Antonello de Messine",
+        "dates": "v. 1430 – 1479",
+        "role": "Passeur génial de l'huile flamande et maître du portrait psychologique",
+        "desc": "Le Christ à la colonne, Le Condottière, Retable de San Cassiano à Venise.",
+        "artistId": "messine",
+        "icon": "✨"
       }
     ]
   },
@@ -682,7 +690,7 @@ window.MOVEMENTS_DATA = {
         "dates": "1880 – 1954",
         "role": "Pionnier fougueux de Collioure et des vues de Londres",
         "desc": "Bateaux à Collioure, Le Pont de Charing Cross et scènes de port.",
-        "artistId": "",
+        "artistId": "derain",
         "icon": "⛵"
       },
       {
