@@ -7646,74 +7646,158 @@ function populateModalData(art) {
     : rawNarrative;
 
   // Encart d'Échelle Humaine intégrée dans la notice (colonne droite, référence homme 1,75 m)
-  renderScalePanel(art);
+  renderScaleStamp(art);
 
   // Génération dynamique du ruban transversal "Au même moment dans le monde"
   renderContemporaneousRibbon(art);
   updateModalHistoryBackButton();
 }
 
-function getHumanMaleSvg() {
+const CERTIFIED_PAINTING_DIMENSIONS = {
+  // Sandro Botticelli
+  "botticelli_sandro_le_printemps_primavera_1480_florence": { h: 203, w: 314, display: "203 × 314 cm" },
+  "botticelli_sandro_naissance_de_venus_1485_florence": { h: 172.5, w: 278.5, display: "172,5 × 278,5 cm" },
+  "botticelli_sandro_madone_du_magnificat_1481_florence": { h: 118, w: 119, display: "118 × 119 cm" },
+  
+  // Albrecht Altdorfer
+  "altdorfer_bataille_issus": { h: 158.4, w: 120.3, display: "158,4 × 120,3 cm" },
+
+  // Antonello de Messine
+  "christ_colonne_messine_louvre_1475": { h: 39, w: 31, display: "39 × 31 cm" },
+  "condottiere_messine_louvre_1475": { h: 36, w: 30, display: "36 × 30 cm" },
+
+  // Piero della Francesca
+  "piero_sigismond_malatesta_louvre_1451": { h: 44.5, w: 34.5, display: "44,5 × 34,5 cm" },
+  "piero_triomphe_chastete_offices_1473": { h: 47, w: 66, display: "47 × 66 cm" },
+
+  // Tamara de Lempicka
+  "lempicka_kizette_en_rose_nantes_1926": { h: 116, w: 73, display: "116 × 73 cm" },
+  "lempicka_mere_superieure_nantes_1935": { h: 30, w: 20, display: "30 × 20 cm" },
+  "lempicka_la_fuite_nantes_1940": { h: 51, w: 40.5, display: "51 × 40,5 cm" },
+  "lempicka_moulin_a_cafe_nantes_1941": { h: 38, w: 46, display: "38 × 46 cm" },
+  "lempicka_atelier_a_la_campagne_nantes_1941": { h: 41, w: 33, display: "41 × 33 cm" },
+  "lempicka_portrait_jeune_fille_nantes_1947": { h: 41, w: 33, display: "41 × 33 cm" },
+  "lempicka_fruits_sur_fond_noir_nantes_1949": { h: 30, w: 40, display: "30 × 40 cm" },
+
+  // Sonia Delaunay
+  "sonia_delaunay_nu_jaune_nantes_1908": { h: 65, w: 99, display: "65 × 99 cm" },
+  "sonia_delaunay_serpent_noir_nantes_1971": { h: 130, w: 260, display: "130 × 260 cm" },
+
+  // Robert Delaunay
+  "delaunay_fete_a_la_campagne_rennes_1905": { h: 92, w: 73, display: "92 × 73 cm" },
+  "delaunay_portrait_henri_carlier_montpellier_1906": { h: 64, w: 60, display: "64 × 60 cm" },
+  "delaunay_nature_morte_portugaise_montpellier_1915": { h: 140, w: 140, display: "140 × 140 cm" },
+
+  // Georges de La Tour
+  "la_tour_vielleur_au_chapeau_nantes_1620": { h: 186, w: 138, display: "186 × 138 cm" },
+  "la_tour_tricheur_as_de_carreau_louvre_1636": { h: 106, w: 146, display: "106 × 146 cm" },
+  "la_tour_songe_saint_joseph_nantes_1640": { h: 93, w: 81, display: "93 × 81 cm" },
+  "la_tour_saint_joseph_charpentier_louvre_1642": { h: 137, w: 102, display: "137 × 102 cm" },
+  "la_tour_madeleine_terff_louvre_1642": { h: 128, w: 94, display: "128 × 94 cm" },
+  "la_tour_adoration_des_bergers_louvre_1644": { h: 107, w: 131, display: "107 × 131 cm" },
+  "la_tour_le_nouveau_ne_rennes_1648": { h: 76, w: 91, display: "76 × 91 cm" },
+  "la_tour_saint_sebastien_soigne_irene_louvre_1649": { h: 167, w: 131, display: "167 × 131 cm" },
+  "la_tour_reniement_saint_pierre_nantes_1650": { h: 120, w: 160, display: "120 × 160 cm" },
+
+  // Edgar Degas
+  "degas_renard_mort_rouen_1865": { h: 35, w: 47, display: "35 × 47 cm" },
+  "degas_la_repasseuse_munich_1869": { h: 92.5, w: 73.5, display: "92,5 × 73,5 cm" },
+  "degas_trois_danseuses_coulisses_tokyo_1880": { h: 69.2, w: 49.5, display: "69,2 × 49,5 cm" },
+
+  // Pieter de Hooch
+  "de_hooch_la_buveuse_louvre_1658": { h: 69, w: 60, display: "69 × 60 cm" },
+  "de_hooch_femme_preparant_legumes_louvre_1657": { h: 60, w: 47, display: "60 × 47 cm" },
+  "de_hooch_joueurs_cartes_louvre_1663": { h: 67, w: 77, display: "67 × 77 cm" },
+
+  // Eugène Delacroix
+  "delacroix_autoportrait_rouen_1816": { h: 60.5, w: 50.5, display: "60,5 × 50,5 cm" },
+  "delacroix_barque_de_dante_louvre_1822": { h: 189, w: 241, display: "189 × 241 cm" }
+};
+
+function getHumanMaleSvg(hPx) {
   return `
-    <svg viewBox="0 0 100 280" class="scale-panel-human-svg-el" preserveAspectRatio="xMidYMax meet" aria-label="Silhouette masculine 1,75 m">
+    <svg viewBox="0 0 100 280" style="height: ${hPx}px; width: auto; display: block;" preserveAspectRatio="xMidYMax meet" aria-label="Silhouette masculine 1,75 m">
       <defs>
-        <linearGradient id="panelGradMale" x1="0%" y1="0%" x2="0%" y2="100%">
+        <linearGradient id="stampGradMale" x1="0%" y1="0%" x2="0%" y2="100%">
           <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.85"/>
           <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.25"/>
         </linearGradient>
       </defs>
-      <circle cx="50" cy="20" r="15" fill="url(#panelGradMale)" stroke="#38bdf8" stroke-width="2"/>
+      <circle cx="50" cy="20" r="15" fill="url(#stampGradMale)" stroke="#38bdf8" stroke-width="2"/>
       <path d="M50 40 C41 40 27 46 23 60 L13 124 C12 130 18 134 23 129 L30 90 L31 159 L24 274 C23 280 32 280 35 274 L47 175 L53 175 L65 274 C68 280 77 280 76 274 C69 159 70 90 77 129 C82 134 88 130 87 124 L77 60 C73 46 59 40 50 40 Z" 
-            fill="url(#panelGradMale)" stroke="#38bdf8" stroke-width="1.8" stroke-linejoin="round"/>
+            fill="url(#stampGradMale)" stroke="#38bdf8" stroke-width="1.8" stroke-linejoin="round"/>
     </svg>
   `;
 }
 
-function renderScalePanel(art) {
-  const panel = document.getElementById('modal-scale-panel');
-  const dimsEl = document.getElementById('scale-panel-dims');
-  const humanSvgWrap = document.getElementById('scale-panel-human-svg');
-  const frameEl = document.getElementById('scale-panel-frame');
-  const dimHEl = document.getElementById('scale-panel-dim-h');
-  const dimWEl = document.getElementById('scale-panel-dim-w');
+function renderScaleStamp(art) {
+  const stampEl = document.getElementById('artwork-scale-stamp');
+  if (!stampEl) return;
 
-  if (!panel || !art || !art.dimensions || !art.dimensions.h || !art.dimensions.w) {
-    if (panel) panel.style.display = 'none';
+  if (!art) {
+    stampEl.style.display = 'none';
     return;
   }
 
-  const dims = art.dimensions;
-  if (dimsEl) dimsEl.textContent = dims.display || `${dims.h} × ${dims.w} cm`;
-  if (dimHEl) dimHEl.textContent = `${dims.h} cm`;
-  if (dimWEl) dimWEl.textContent = `${dims.w} cm`;
-  if (humanSvgWrap) humanSvgWrap.innerHTML = getHumanMaleSvg();
+  // Vérifier si c'est une peinture
+  const isPainting = (art.domain === 'peinture') ||
+    (art.artifactType && /peinture|huile|toile|panneau|bois|fresque|tempera|détrempe/i.test(art.artifactType)) ||
+    (art.category && /peinture|huile|toile|panneau|bois|fresque|tempera|détrempe/i.test(art.category));
 
-  // Espace scénique disponible dans l'encart documentaire
-  const maxStageH = 76; // px max pour la hauteur
-  const maxStageW = 160; // px max pour la largeur du cadre
+  if (!isPainting) {
+    stampEl.style.display = 'none';
+    return;
+  }
+
+  // Récupérer les dimensions en cm
+  let h = 0, w = 0;
+  if (art.dimensions && art.dimensions.h && art.dimensions.w) {
+    h = parseFloat(art.dimensions.h);
+    w = parseFloat(art.dimensions.w);
+  } else if (CERTIFIED_PAINTING_DIMENSIONS[art.id]) {
+    const cert = CERTIFIED_PAINTING_DIMENSIONS[art.id];
+    h = cert.h;
+    w = cert.w;
+  }
+
+  if (!h || !w || h <= 0 || w <= 0) {
+    stampEl.style.display = 'none';
+    return;
+  }
+
+  // Calcul d'échelle STRICTEMENT uniforme posé sur la ligne de sol
+  const maxStageH = 72; // px max pour la hauteur
+  const maxStageW = 130; // px max pour la largeur du cadre
   const humanHeightCm = 175; // Homme 1,75 m uniquement
 
-  // Calcul d'échelle STRICTEMENT uniforme (pixels par centimètre)
-  const maxRealH = Math.max(humanHeightCm, dims.h);
-  const scaleH = maxStageH / maxRealH;
-  const scaleW = maxStageW / dims.w;
-  const pxPerCm = Math.min(scaleH, scaleW);
+  const maxRealH = Math.max(humanHeightCm, h);
+  const pxPerCm = Math.min(maxStageH / maxRealH, maxStageW / w);
 
-  // Dimensions en pixels rigoureusement proportionnelles
-  const humanHPx = Math.max(22, Math.round(humanHeightCm * pxPerCm));
-  const artHPx = Math.max(10, Math.round(dims.h * pxPerCm));
-  const artWPx = Math.max(10, Math.round(dims.w * pxPerCm));
+  const humanHPx = Math.max(20, Math.round(humanHeightCm * pxPerCm));
+  const frameHPx = Math.max(6, Math.round(h * pxPerCm));
+  const frameWPx = Math.max(6, Math.round(w * pxPerCm));
 
-  if (humanSvgWrap) {
-    humanSvgWrap.style.height = `${humanHPx}px`;
-    humanSvgWrap.style.width = `${Math.round(humanHPx * 0.35)}px`;
-  }
-  if (frameEl) {
-    frameEl.style.height = `${artHPx}px`;
-    frameEl.style.width = `${artWPx}px`;
+  // Injection du SVG homme
+  const svgWrap = document.getElementById('scale-stamp-human-svg-wrap');
+  if (svgWrap) {
+    svgWrap.style.height = `${humanHPx}px`;
+    svgWrap.innerHTML = getHumanMaleSvg(humanHPx);
   }
 
-  panel.style.display = 'flex';
+  // Dimensions du cadre stylisé
+  const frameBox = document.getElementById('scale-stamp-frame-box');
+  if (frameBox) {
+    frameBox.style.height = `${frameHPx}px`;
+    frameBox.style.width = `${frameWPx}px`;
+  }
+
+  const coteH = document.getElementById('scale-stamp-cote-h');
+  if (coteH) coteH.textContent = `${h} cm`;
+
+  const coteW = document.getElementById('scale-stamp-cote-w');
+  if (coteW) coteW.textContent = `${w} cm`;
+
+  stampEl.style.display = 'block';
 }
 
 btnModalClose.addEventListener('click', () => {
@@ -7723,8 +7807,8 @@ btnModalClose.addEventListener('click', () => {
   modalImg.src = '';
   modalHistoryStack = [];
   if (btnModalHistoryBack) btnModalHistoryBack.style.display = 'none';
-  const panel = document.getElementById('modal-scale-panel');
-  if (panel) panel.style.display = 'none';
+  const stamp = document.getElementById('artwork-scale-stamp');
+  if (stamp) stamp.style.display = 'none';
 });
 
 modal.addEventListener('click', (e) => {
@@ -7735,8 +7819,8 @@ modal.addEventListener('click', (e) => {
     modalImg.src = '';
     modalHistoryStack = [];
     if (btnModalHistoryBack) btnModalHistoryBack.style.display = 'none';
-    const panel = document.getElementById('modal-scale-panel');
-    if (panel) panel.style.display = 'none';
+    const stamp = document.getElementById('artwork-scale-stamp');
+    if (stamp) stamp.style.display = 'none';
   }
 });
 
@@ -8827,11 +8911,11 @@ function initSearchEngine() {
     const registry = window.ARTISTS_REGISTRY || {};
     const directory = {};
 
-    // 1. Intégration des fiches de ARTISTS_REGISTRY
+    // 1. Intégration stricte des fiches de ARTISTS_REGISTRY (Nom de famille en tête)
     Object.values(registry).forEach(reg => {
       if (!reg || !reg.name) return;
       const artName = reg.name.trim();
-      let sortKey = (reg.sortLetter || artName).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toUpperCase();
+      let sortKey = (reg.sortLetter || reg.sortName || artName).normalize('NFD').replace(/[̀-ͯ]/g, '').toUpperCase();
       let firstChar = sortKey.charAt(0);
       if (!/[A-Z]/.test(firstChar)) firstChar = '#';
 
@@ -8839,6 +8923,7 @@ function initSearchEngine() {
       if (!directory[firstChar][artName]) {
         directory[firstChar][artName] = {
           name: artName,
+          artistId: reg.id || '',
           sortName: reg.sortName || artName,
           count: 0,
           artistBio: reg.bio || '',
@@ -8848,43 +8933,47 @@ function initSearchEngine() {
       }
     });
 
-    // 2. Décompte des œuvres présentes dans ART_OBJECTS
-    const EXCLUDED_NON_PAINTERS = [
-      'marcel duchamp',
-      'lello da orvieto',
-      'leonard de vinci',
-      'léonard de vinci',
-      'hans von wendelstorf',
-      'fra jacopo',
-      'domenico ghirlandaio',
-      'arman'
+    // 2. Décompte STRICT des œuvres présentes dans ART_OBJECTS (SANS créer de nouvelles entrées pour les décorateurs/fresquistes)
+    const EXCLUDED_DECORATIVE_ARTISTS = [
+      'narozzi', 'barozzi', 'serafino barozzi',
+      'blanchard', 'louis-gabriel blanchard', 'gabriel blanchard',
+      'jean baptiste de champaigne', 'jean-baptiste de champaigne', 'champaigne jean-baptiste',
+      'michel corneille', 'michel corneille le jeune', 'corneille michel',
+      'costa', 'lorenzo costa', 'costa lorenzo',
+      'filippi', 'frères filippi', 'filippi frères',
+      'houasse', 'rené-antoine houasse', 'houasse rené-antoine',
+      'lemoyne', 'françois lemoyne', 'lemoyne françois',
+      'de la fosse', 'charles de la fosse', 'la fosse',
+      'rigaud', 'hyacinthe rigaud', 'rigaud hyacinthe',
+      'settevecchi', 'ludovico settevecchi', 'settevecchi ludovico',
+      'marcel duchamp', 'lello da orvieto', 'hans von wendelstorf', 'fra jacopo', 'arman'
     ];
+
     catalog.forEach(item => {
       if (!item.artist) return;
-      const artName = item.artist.trim();
-      if (EXCLUDED_NON_PAINTERS.includes(artName.toLowerCase())) return;
-      // On extrait la lettre de tri (soit le nom de famille s'il est spécifié, soit la première lettre)
-      const regMatch = Object.values(registry).find(r =>
-        (r.id && item.artistId && r.id === item.artistId) ||
-        (r.name && r.name.toLowerCase().trim() === artName.toLowerCase())
-      );
-      const canonicalName = regMatch ? regMatch.name.trim() : artName;
-      let sortKey = (item.artistSort || (regMatch && regMatch.sortLetter) || canonicalName).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toUpperCase();
-      let firstChar = sortKey.charAt(0);
-      if (!/[A-Z]/.test(firstChar)) firstChar = '#';
+      const rawArtist = item.artist.trim().toLowerCase();
+      if (EXCLUDED_DECORATIVE_ARTISTS.some(exc => rawArtist === exc || rawArtist.includes(exc))) return;
 
-      if (!directory[firstChar]) directory[firstChar] = {};
-      if (!directory[firstChar][canonicalName]) {
-        directory[firstChar][canonicalName] = {
-          name: canonicalName,
-          sortName: (regMatch && regMatch.sortName) || item.artistSort || canonicalName,
-          count: 0,
-          artistBio: item.artistBio || '',
-          artistDates: item.artistDates || '',
-          artistMovement: item.artistMovement || ''
-        };
+      // On recherche uniquement parmi les artistes enregistrés
+      const regMatch = Object.values(registry).find(r => {
+        if (r.id && item.artistId && r.id.toLowerCase() === item.artistId.toLowerCase()) return true;
+        const rName = (r.name || '').toLowerCase().trim();
+        const rSort = (r.sortName || '').toLowerCase().trim();
+        return rName === rawArtist || rSort === rawArtist ||
+               rName.split(' ')[0] === rawArtist.split(' ')[0] ||
+               (rawArtist.length > 4 && rName.includes(rawArtist));
+      });
+
+      if (regMatch && regMatch.name) {
+        const canonicalName = regMatch.name.trim();
+        let sortKey = (regMatch.sortLetter || regMatch.sortName || canonicalName).normalize('NFD').replace(/[̀-ͯ]/g, '').toUpperCase();
+        let firstChar = sortKey.charAt(0);
+        if (!/[A-Z]/.test(firstChar)) firstChar = '#';
+
+        if (directory[firstChar] && directory[firstChar][canonicalName]) {
+          directory[firstChar][canonicalName].count++;
+        }
       }
-      directory[firstChar][canonicalName].count++;
     });
 
     return directory;

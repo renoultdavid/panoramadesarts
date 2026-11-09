@@ -21,7 +21,7 @@
     href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;900&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap"
     rel="stylesheet">
 
-  <link rel="stylesheet" href="style.css?v=6.8">
+  <link rel="stylesheet" href="style.css?v=7.0">
 
   <!-- Icônes pour l'application mobile et tablette -->
   <link rel="icon" type="image/jpeg" sizes="512x512" href="icon-512.jpeg">
@@ -788,51 +788,23 @@
           <div class="category-badge-chip" id="modal-category-badge">CATÉGORIE</div>
           <img id="modal-artwork-img" src="" alt="Objet d'art" loading="lazy" />
 
-          <!-- MINI-COMPARATEUR D'ÉCHELLE HUMAINE INTÉGRÉ (EN BAS À GAUCHE DU TABLEAU) -->
-          <div id="artwork-scale-dock" class="artwork-scale-dock" style="display: none;">
-            <div class="scale-dock-header">
-              <div class="scale-dock-title-wrap">
-                <span class="scale-dock-badge">ÉCHELLE RÉELLE</span>
-                <span class="scale-dock-dims" id="scale-dock-dims"></span>
+          <!-- COMPARATEUR D'ÉCHELLE ÉPURÉ (EN BAS À GAUCHE DIRECTEMENT SUR LE FOND GRIS) -->
+          <div id="artwork-scale-stamp" class="artwork-scale-pedestal-stamp" style="display: none;">
+            <div class="scale-stamp-stage" id="scale-stamp-stage">
+              <div class="scale-stamp-human-col">
+                <div class="scale-stamp-human-svg-wrap" id="scale-stamp-human-svg-wrap"></div>
+                <div class="scale-stamp-floor-line"></div>
+                <span class="scale-stamp-human-label">1,75 m</span>
               </div>
-              <div class="scale-dock-gender-toggle" id="scale-dock-gender-toggle">
-                <button type="button" class="btn-dock-gender" data-gender="female"
-                  title="Silhouette féminine (1,65 m)">👩 1,65 m</button>
-                <button type="button" class="btn-dock-gender is-active" data-gender="male"
-                  title="Silhouette masculine (1,75 m)">👨 1,75 m</button>
-              </div>
-              <button type="button" class="btn-dock-minimize" id="btn-dock-minimize"
-                title="Masquer l'échelle pour admirer la toile seule">✕</button>
-            </div>
-
-            <div class="scale-dock-scene" id="scale-dock-scene">
-              <div class="scale-dock-floor"></div>
-              <div class="scale-dock-actors">
-                <!-- Silhouette humaine posée au sol -->
-                <div class="scale-dock-human" id="scale-dock-human">
-                  <span class="scale-dock-human-label" id="scale-dock-human-label">1,75 m</span>
-                  <div class="scale-dock-human-svg" id="scale-dock-human-svg"></div>
+              <div class="scale-stamp-frame-col">
+                <div class="scale-stamp-frame-box" id="scale-stamp-frame-box">
+                  <span class="scale-stamp-cote-h" id="scale-stamp-cote-h"></span>
                 </div>
-
-                <!-- Cadre stylisé de la peinture (géométrie pure sans photo) -->
-                <div class="scale-dock-frame-container" id="scale-dock-frame-container">
-                  <div class="scale-dock-frame" id="scale-dock-frame">
-                    <span class="scale-dock-frame-symb">🖼️</span>
-                  </div>
-                  <span class="scale-dock-dim-h" id="scale-dock-dim-h"></span>
-                  <span class="scale-dock-dim-w" id="scale-dock-dim-w"></span>
-                </div>
+                <div class="scale-stamp-floor-line"></div>
+                <span class="scale-stamp-cote-w" id="scale-stamp-cote-w"></span>
               </div>
             </div>
           </div>
-
-          <!-- BOUTON FLOTTANT POUR ROUVRIR L'ÉCHELLE QUAND MASQUÉE -->
-          <button type="button" class="btn-scale-dock-reopen" id="btn-scale-dock-reopen" style="display: none;"
-            title="Afficher la comparaison d'échelle humaine">
-            <span class="scale-dock-reopen-icon">📏</span>
-            <span class="scale-dock-reopen-text">ÉCHELLE</span>
-            <span class="scale-dock-reopen-dims" id="scale-dock-reopen-dims"></span>
-          </button>
         </div>
         <div class="modal-notes-col">
           <!-- Lien cliquable vers la fiche peintre / créateur -->
@@ -1092,15 +1064,15 @@
 
   <!-- CHARGEMENT DES DONNÉES AU KILOMÈTRE -->
   <script src="data/data-lexique.js"></script>
-  <script src="data/data-artistes.js?v=1.5"></script>
+  <script src="data/data-artistes.js?v=1.6"></script>
   <script src="data/data-movements.js?v=1.5"></script>
   <script src="data/data-objets.js?v=1.1"></script>
   <script src="data/data-objets2.js?v=1.1"></script>
   <script src="data/data-objets3.js"></script>
-  <script src="data/data-objets4.js?v=1.6"></script>
+  <script src="data/data-objets4.js?v=1.7"></script>
 
   <!-- SCRIPT MAÎTRE -->
-  <script src="app.js?v=8.1"></script>
+  <script src="app.js?v=8.3"></script>
 </body>
 
 </html>

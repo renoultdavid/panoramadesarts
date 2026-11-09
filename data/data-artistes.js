@@ -3506,7 +3506,7 @@ window.ARTISTS_REGISTRY = {
   },
   "carpaccio": {
     id: "carpaccio",
-    name: "Vittore Carpaccio",
+    name: "Carpaccio Vittore",
     sortName: "Carpaccio Vittore",
     sortLetter: "C",
     dates: "v. 1465 – 1525",
@@ -3982,7 +3982,7 @@ window.ARTISTS_REGISTRY = {
   },
   "chagall": {
     id: "chagall",
-    name: "Marc Chagall",
+    name: "Chagall Marc",
     sortName: "Chagall Marc",
     sortLetter: "C",
     dates: "1887 – 1985",
@@ -4163,7 +4163,7 @@ window.ARTISTS_REGISTRY = {
   },
   "chardin": {
     id: "chardin",
-    name: "Jean Siméon Chardin",
+    name: "Chardin Jean Siméon",
     sortName: "Chardin Jean Siméon",
     sortLetter: "C",
     dates: "1699 – 1779",
@@ -4302,7 +4302,7 @@ window.ARTISTS_REGISTRY = {
   },
   "chasseriau": {
     id: "chasseriau",
-    name: "Théodore Chassériau",
+    name: "Chassériau Théodore",
     sortName: "Chassériau Théodore",
     sortLetter: "C",
     dates: "1819 – 1856",
@@ -4566,7 +4566,7 @@ window.ARTISTS_REGISTRY = {
   },
   "clouet_francois": {
     id: "clouet_francois",
-    name: "François Clouet",
+    name: "Clouet François",
     sortName: "Clouet François",
     sortLetter: "C",
     dates: "v. 1515 – 1572",
@@ -4688,7 +4688,7 @@ window.ARTISTS_REGISTRY = {
   },
   "clouet_jean": {
     id: "clouet_jean",
-    name: "Jean Clouet",
+    name: "Clouet Jean",
     sortName: "Clouet Jean",
     sortLetter: "C",
     dates: "v. 1480 – 1541",
@@ -4811,7 +4811,7 @@ window.ARTISTS_REGISTRY = {
   },
   "constable": {
     id: "constable",
-    name: "John Constable",
+    name: "Constable John",
     sortName: "Constable John",
     sortLetter: "C",
     dates: "1776 – 1837",
@@ -4948,7 +4948,7 @@ window.ARTISTS_REGISTRY = {
   },
   "corot": {
     id: "corot",
-    name: "Camille Corot",
+    name: "Corot Camille",
     sortName: "Corot Camille",
     sortLetter: "C",
     dates: "1796 – 1875",
@@ -5107,8 +5107,8 @@ window.ARTISTS_REGISTRY = {
 
   cortone: {
     id: "cortone",
-    name: "Pierre de Cortone",
-    sortName: "Cortone Pierre",
+    name: "Cortone Pierre de",
+    sortName: "Cortone Pierre de",
     sortLetter: "C",
     dates: "1596 – 1669",
     movement: "Baroque romain, Plafonds illusionnistes & Grande décoration",
@@ -5269,7 +5269,7 @@ window.ARTISTS_REGISTRY = {
 
   courbet: {
     id: "courbet",
-    name: "Gustave Courbet",
+    name: "Courbet Gustave",
     sortName: "Courbet Gustave",
     sortLetter: "C",
     dates: "1819 – 1877",
@@ -5537,7 +5537,7 @@ window.ARTISTS_REGISTRY = {
 
   cranach: {
     id: "cranach",
-    name: "Lucas Cranach l'Ancien",
+    name: "Cranach Lucas l'Ancien",
     sortName: "Cranach Lucas l'Ancien",
     sortLetter: "C",
     dates: "1472 – 1553",
@@ -5731,7 +5731,7 @@ window.ARTISTS_REGISTRY = {
 
   daddi: {
     id: "daddi",
-    name: "Bernardo Daddi",
+    name: "Daddi Bernardo",
     sortName: "Daddi Bernardo",
     sortLetter: "D",
     dates: "v. 1290 – 1348",
@@ -5857,7 +5857,7 @@ window.ARTISTS_REGISTRY = {
   },
   dali: {
     id: "dali",
-    name: "Salvador Dalí",
+    name: "Dalí Salvador",
     sortName: "Dalí Salvador",
     sortLetter: "D",
     dates: "1904 – 1989",
@@ -6096,7 +6096,7 @@ window.ARTISTS_REGISTRY = {
   },
   daumier: {
     id: "daumier",
-    name: "Honoré Daumier",
+    name: "Daumier Honoré",
     sortName: "Daumier Honoré",
     sortLetter: "D",
     dates: "1808 – 1879",
@@ -6249,7 +6249,7 @@ window.ARTISTS_REGISTRY = {
   },
   david: {
     id: "david",
-    name: "Jacques-Louis David",
+    name: "David Jacques-Louis",
     sortName: "David Jacques-Louis",
     sortLetter: "D",
     dates: "1748 – 1825",
@@ -6452,7 +6452,7 @@ window.ARTISTS_REGISTRY = {
   },
   champaigne: {
     id: "champaigne",
-    name: "Philippe de Champaigne",
+    name: "Champaigne Philippe de",
     sortName: "Champaigne Philippe de",
     sortLetter: "C",
     dates: "1602 – 1674",
@@ -6653,7 +6653,7 @@ window.ARTISTS_REGISTRY = {
   },
   chirico: {
     id: "chirico",
-    name: "Giorgio de Chirico",
+    name: "Chirico Giorgio de",
     sortName: "Chirico Giorgio de",
     sortLetter: "C",
     dates: "1888 – 1978",
@@ -6826,7 +6826,7 @@ window.ARTISTS_REGISTRY = {
 ,
   degas: {
     id: "degas",
-    name: "Edgar Degas",
+    name: "Degas Edgar",
     sortName: "Degas Edgar",
     sortLetter: "D",
     dates: "1834 – 1917",
@@ -6985,7 +6985,7 @@ window.ARTISTS_REGISTRY = {
   },
   de_hooch: {
     id: "de_hooch",
-    name: "Pieter de Hooch",
+    name: "Hooch Pieter de",
     sortName: "Hooch Pieter de",
     sortLetter: "H",
     dates: "1629 – 1684",
@@ -7130,7 +7130,7 @@ window.ARTISTS_REGISTRY = {
   },
   delacroix: {
     id: "delacroix",
-    name: "Eugène Delacroix",
+    name: "Delacroix Eugène",
     sortName: "Delacroix Eugène",
     sortLetter: "D",
     dates: "1798 – 1863",
@@ -7380,7 +7380,7 @@ window.ARTISTS_REGISTRY = {
   },
   la_tour: {
     id: "la_tour",
-    name: "Georges de La Tour",
+    name: "La Tour Georges de",
     sortName: "La Tour Georges de",
     sortLetter: "L",
     dates: "1593 – 1652",
@@ -7551,7 +7551,7 @@ window.ARTISTS_REGISTRY = {
   },
   delaunay: {
     id: "delaunay",
-    name: "Robert Delaunay",
+    name: "Delaunay Robert",
     sortName: "Delaunay Robert",
     sortLetter: "D",
     dates: "1885 – 1941",
@@ -7705,7 +7705,7 @@ window.ARTISTS_REGISTRY = {
 
   sonia_delaunay: {
     id: "sonia_delaunay",
-    name: "Sonia Delaunay",
+    name: "Delaunay Sonia",
     sortName: "Delaunay Sonia",
     sortLetter: "D",
     dates: "1885 – 1979",
@@ -7830,7 +7830,7 @@ window.ARTISTS_REGISTRY = {
   },
   lempicka: {
     id: "lempicka",
-    name: "Tamara de Lempicka",
+    name: "Lempicka Tamara de",
     sortName: "Lempicka Tamara de",
     sortLetter: "L",
     dates: "1898 – 1980",
@@ -7973,7 +7973,7 @@ window.ARTISTS_REGISTRY = {
   },
   piero_della_francesca: {
     id: "piero_della_francesca",
-    name: "Piero della Francesca",
+    name: "Della Francesca Piero",
     sortName: "Della Francesca Piero",
     sortLetter: "D",
     dates: "v. 1415 – 1492",
@@ -8106,9 +8106,9 @@ window.ARTISTS_REGISTRY = {
 ,
   messine: {
   "id": "messine",
-  "name": "Antonello de Messine",
+  "name": "Messine Antonello de",
   "sortName": "Messine Antonello de",
-  "sortLetter": "A",
+  "sortLetter": "M",
   "dates": "v. 1430 – 1479",
   "movement": "Première Renaissance italienne, École vénitienne & Assimilation de l'huile flamande",
   "nationality": "Italien (Messine / Sicile)",
