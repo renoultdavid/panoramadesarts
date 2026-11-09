@@ -395,90 +395,8 @@ function initConstellationData() {
 
 function renderConstellationLayer() {
   if (!rulerEventsLayer) return;
-  if (!window.CONSTELLATION_ITEMS || window.CONSTELLATION_ITEMS.length === 0) {
-    initConstellationData();
-  }
-  const items = window.CONSTELLATION_ITEMS || [];
-  if (items.length === 0) return;
-
-  // Calculer position pixel sur la frise
-  const placed = items.map(it => ({
-    ...it,
-    px: yearToPixel(it.year)
-  }));
-
-  // Regroupement dynamique en grappes si distance écran < 36px
-  const CLUSTER_PX_THRESHOLD = 36;
-  const clusters = [];
-  let curCluster = null;
-
-  placed.forEach(it => {
-    if (!curCluster) {
-      curCluster = { px: it.px, items: [it] };
-    } else {
-      if (Math.abs(it.px - curCluster.px) < CLUSTER_PX_THRESHOLD) {
-        curCluster.items.push(it);
-        curCluster.px = curCluster.items.reduce((sum, item) => sum + item.px, 0) / curCluster.items.length;
-      } else {
-        clusters.push(curCluster);
-        curCluster = { px: it.px, items: [it] };
-      }
-    }
-  });
-  if (curCluster) clusters.push(curCluster);
-
-  const frag = document.createDocumentFragment();
-
-  clusters.forEach(cluster => {
-    const isSingle = cluster.items.length === 1;
-    const pin = document.createElement('div');
-    pin.className = `constellation-pin ${isSingle ? 'is-single' : 'is-cluster-group'}`;
-    pin.style.left = `${cluster.px}px`;
-
-    const badge = document.createElement('div');
-    badge.className = `pin-badge ${isSingle ? '' : 'is-cluster'}`;
-
-    const stem = document.createElement('div');
-    stem.className = 'pin-stem';
-
-    if (isSingle) {
-      const item = cluster.items[0];
-      badge.textContent = item.icon;
-      badge.title = `${item.title} (${item.year < 0 ? Math.abs(item.year) + ' av. J.-C.' : item.year + ' ap. J.-C.'})`;
-
-      pin.addEventListener('mouseenter', () => showPinTooltip(item, pin));
-      pin.addEventListener('mouseleave', hidePinTooltip);
-
-      if (item.isArtwork && item.art) {
-        pin.addEventListener('click', (e) => {
-          e.stopPropagation();
-          openCuratorModal(item.art, [item.art], true);
-        });
-      }
-    } else {
-      badge.innerHTML = `<span>+${cluster.items.length}</span>`;
-
-      pin.addEventListener('mouseenter', () => showClusterTooltip(cluster, pin));
-      pin.addEventListener('mouseleave', () => {
-        const tooltip = document.getElementById('milestone-tooltip');
-        if (tooltip && tooltip.dataset.locked === 'true') return;
-        hidePinTooltip();
-      });
-
-      // Clic sur une grappe : centrage & dilatation immédiate + ouverture de l'éclatement complet
-      pin.addEventListener('click', (e) => {
-        e.stopPropagation();
-        hidePinTooltip();
-        triggerClusterExplosion(cluster);
-      });
-    }
-
-    pin.appendChild(badge);
-    pin.appendChild(stem);
-    frag.appendChild(pin);
-  });
-
-  rulerEventsLayer.replaceChildren(frag);
+  rulerEventsLayer.replaceChildren();
+  rulerEventsLayer.style.display = 'none';
 }
 
 /* ==========================================================================
@@ -7435,8 +7353,14 @@ function renderModalCurrentArt() {
   }
 
   populateModalData(currentArt);
+  const notesCol = modal.querySelector('.modal-notes-col');
+  if (notesCol) notesCol.scrollTop = 0;
+  const pedCol = modal.querySelector('.modal-pedestal-col');
+  if (pedCol) pedCol.scrollTop = 0;
   const frame = modal.querySelector('.curator-frame');
   if (frame) frame.scrollTop = 0;
+  const modalContent = modal.querySelector('.curator-modal-content');
+  if (modalContent) modalContent.scrollTop = 0;
 }
 // Écouteurs pour les flèches Précédent / Suivant
 if (btnModalPrev) {
@@ -7501,72 +7425,69 @@ function populateModalData(art) {
   modalArtworkTitle.textContent = art.title;
 
   // =========================================================================
-  // NOUVELLE GESTION DU BANDEAU SUPÉRIEUR (3 LIGNES ÉPURÉES À DROITE)
+  // GESTION DU BANDEAU SUPÉRIEUR & DU PIÉDESTAL
   // =========================================================================
   const creatorName = (art.artist || art.creator || '').trim();
 
-  // Ligne 1 : Artiste en encadré rectangulaire doré cliquable
-  const headerArtistRow = document.getElementById('modal-header-artist-row');
-  const headerArtistName = document.getElementById('modal-header-artist-name');
-  const btnHeaderArtist = document.getElementById('btn-modal-header-artist');
+  // VOLET GAUCHE : Artiste en encadré rectangulaire doré cliquable à côté du type de peinture
+  const btnPedestalArtist = document.getElementById('btn-pedestal-artist');
+  const pedestalArtistName = document.getElementById('modal-pedestal-artist-name');
 
-  if (headerArtistRow && creatorName) {
-    if (headerArtistName) headerArtistName.textContent = creatorName;
-    headerArtistRow.style.display = 'block';
+  if (btnPedestalArtist && creatorName) {
+    if (pedestalArtistName) pedestalArtistName.textContent = creatorName.toUpperCase();
+    btnPedestalArtist.style.display = 'inline-flex';
 
-    if (btnHeaderArtist) {
-      btnHeaderArtist.onclick = (e) => {
-        e.stopPropagation();
-        if (modal) {
-          modal.classList.remove('open');
-          modal.setAttribute('hidden', '');
-          modal.style.display = 'none';
-        }
-        if (typeof switchView === 'function') switchView('view-search');
+    btnPedestalArtist.onclick = (e) => {
+      e.stopPropagation();
+      if (modal) {
+        modal.classList.remove('open');
+        modal.setAttribute('hidden', '');
+        modal.style.display = 'none';
+      }
+      if (typeof switchView === 'function') switchView('view-search');
 
-        const registry = window.ARTISTS_REGISTRY || {};
-        const artistId = (art.artistId || '').toLowerCase().trim();
-        const aName = creatorName.toLowerCase().trim();
+      const registry = window.ARTISTS_REGISTRY || {};
+      const artistId = (art.artistId || '').toLowerCase().trim();
+      const aName = creatorName.toLowerCase().trim();
 
-        const rec = Object.values(registry).find(r =>
-          (r.id && artistId && r.id.toLowerCase() === artistId) ||
-          (r.name && r.name.toLowerCase().includes(aName)) ||
-          (r.sortName && r.sortName.toLowerCase() === aName) ||
-          (aName && r.name.toLowerCase().trim().startsWith(aName))
-        );
+      const rec = Object.values(registry).find(r =>
+        (r.id && artistId && r.id.toLowerCase() === artistId) ||
+        (r.name && r.name.toLowerCase().includes(aName)) ||
+        (r.sortName && r.sortName.toLowerCase() === aName) ||
+        (aName && r.name.toLowerCase().trim().startsWith(aName))
+      );
 
-        if (rec && typeof openMonographForArtistRecord === 'function') {
-          openMonographForArtistRecord(rec);
-        } else if (typeof searchArtistInGallery === 'function') {
-          searchArtistInGallery(creatorName);
-        }
-      };
-    }
-  } else if (headerArtistRow) {
-    headerArtistRow.style.display = 'none';
+      if (rec && typeof openMonographForArtistRecord === 'function') {
+        openMonographForArtistRecord(rec);
+      } else if (typeof searchArtistInGallery === 'function') {
+        searchArtistInGallery(creatorName);
+      }
+    };
+  } else if (btnPedestalArtist) {
+    btnPedestalArtist.style.display = 'none';
   }
 
-  // Ligne 2 : Date / Siècle en texte épuré sans encadré
+  // BANDEAU SUPÉRIEUR DROIT : Ligne 1 Date / Siècle en typographie Cinzel dorée
   const headerDateRow = document.getElementById('modal-header-date-row');
   const headerDateText = document.getElementById('modal-header-date-text');
   const dateVal = (art.centuryDisplay || art.century || '').trim();
   if (headerDateRow && headerDateText) {
     if (dateVal) {
-      headerDateText.textContent = dateVal;
+      headerDateText.textContent = dateVal.toUpperCase();
       headerDateRow.style.display = 'block';
     } else {
       headerDateRow.style.display = 'none';
     }
   }
 
-  // Ligne 3 : Lieu de conservation en texte épuré sans encadré
+  // BANDEAU SUPÉRIEUR DROIT : Ligne 2 Lieu de conservation en typographie Cinzel sans épingle
   const headerLocRow = document.getElementById('modal-header-location-row');
   const headerLocText = document.getElementById('modal-header-location-text');
   const locVal = (art.currentLocation || art.site || art.originSite || '').trim();
   if (headerLocRow && headerLocText) {
     if (locVal) {
       headerLocText.textContent = locVal;
-      headerLocRow.style.display = 'inline-flex';
+      headerLocRow.style.display = 'block';
     } else {
       headerLocRow.style.display = 'none';
     }
@@ -7577,23 +7498,30 @@ function populateModalData(art) {
   if (modalArtistNameLegacy) modalArtistNameLegacy.textContent = creatorName;
 
   // =========================================================================
-  // VOLET DROIT : FORMAT RECTANGULAIRE DORÉ EN TÊTE
+  // VOLET DROIT : FORMAT RECTANGULAIRE & BOUTON SITUER SUR LA FRISE CÔTE À CÔTE
   // =========================================================================
-  const formatSection = document.getElementById('modal-format-section');
   const formatBadge = document.getElementById('modal-format-badge');
+  const btnJumpTimelineFixed = document.getElementById('btn-modal-jump-timeline');
 
   const dims = (art.dimensions && (art.dimensions.display || (art.dimensions.h && art.dimensions.w)))
     ? art.dimensions
     : (typeof CERTIFIED_PAINTING_DIMENSIONS !== 'undefined' && CERTIFIED_PAINTING_DIMENSIONS[art.id] ? CERTIFIED_PAINTING_DIMENSIONS[art.id] : null);
 
-  if (formatSection && formatBadge) {
+  if (formatBadge) {
     if (dims && (dims.display || (dims.h && dims.w))) {
       const displayStr = dims.display || `${dims.h} × ${dims.w} cm`;
-      formatBadge.innerHTML = `📏 Format : <strong>${escapeHtmlAttr(displayStr)}</strong>`;
-      formatSection.style.display = 'flex';
+      formatBadge.innerHTML = `📏 FORMAT : <strong>${escapeHtmlAttr(displayStr.toUpperCase())}</strong>`;
+      formatBadge.style.display = 'inline-flex';
     } else {
-      formatSection.style.display = 'none';
+      formatBadge.style.display = 'none';
     }
+  }
+
+  if (btnJumpTimelineFixed) {
+    btnJumpTimelineFixed.onclick = (e) => {
+      e.stopPropagation();
+      jumpFromArtworkToTimeline(art);
+    };
   }
 
   modalChips.innerHTML = '';
@@ -7614,22 +7542,6 @@ function populateModalData(art) {
       modalChips.appendChild(btnChip);
     });
   }
-
-  // PASSERELLE 1 : Bouton pour situer l'œuvre sur la Frise Chronologique
-    // PASSERELLE : Bouton pour situer l'œuvre sur la Frise Chronologique (encadré rectangulaire doré)
-  const btnJumpTimeline = document.createElement('button');
-  btnJumpTimeline.type = 'button';
-  btnJumpTimeline.className = 'btn-jump-to-timeline';
-  btnJumpTimeline.innerHTML = `
-    <span class="btn-jump-icon" aria-hidden="true">⏳</span>
-    <span>Situer sur la Frise</span>
-  `;
-  btnJumpTimeline.title = "Localiser l'époque et la civilisation de ce chef-d'œuvre sur la Frise Chronologique";
-  btnJumpTimeline.addEventListener('click', (e) => {
-    e.stopPropagation();
-    jumpFromArtworkToTimeline(art);
-  });
-  modalChips.appendChild(btnJumpTimeline);
 
   // AJOUT : Bouton Focus dans la modale si l'œuvre possède des hotspots
   if (art.hotspots && art.hotspots.length > 0) {
@@ -7660,6 +7572,8 @@ function populateModalData(art) {
 }
 
 const CERTIFIED_PAINTING_DIMENSIONS = {
+  "duchamp_portrait_dr_ferdinand_tribout_rouen_1910": { h: 54.5, w: 46, display: "54,5 × 46 cm" },
+  "duchamp_deux_nus_rouen_1910": { h: 73, w: 92, display: "73 × 92 cm" },
   "dore_paysage_montagne_rouen": { h: 0, w: 0, display: "Non documentées (Musée de Rouen)" },
   "dubuffet_texturologie_duveteuse_rouen_1958": { h: 65, w: 105, display: "65 × 105 cm" },
   "dubuffet_vache_la_belle_queutee_tokyo_1954": { h: 97, w: 130, display: "97 × 130 cm" },
@@ -9221,7 +9135,7 @@ function initSearchEngine() {
       'de la fosse', 'charles de la fosse', 'la fosse',
       'rigaud', 'hyacinthe rigaud', 'rigaud hyacinthe',
       'settevecchi', 'ludovico settevecchi', 'settevecchi ludovico',
-      'marcel duchamp', 'lello da orvieto', 'hans von wendelstorf', 'fra jacopo', 'arman'
+      'lello da orvieto', 'hans von wendelstorf', 'fra jacopo', 'arman'
     ];
 
     catalog.forEach(item => {

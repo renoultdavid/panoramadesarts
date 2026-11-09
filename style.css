@@ -3174,26 +3174,81 @@ body {
     inset 0 -30px 60px rgba(0, 0, 0, 0.55);
 }
 
-.category-badge-chip {
+.pedestal-top-bar {
   position: absolute;
-  top: 0.8rem;
-  left: 0.8rem;
-  background: rgba(10, 13, 18, 0.88);
-  border: 1px solid var(--gold-pure);
+  top: 12px;
+  left: 16px;
+  right: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.category-badge-chip {
+  position: static;
+  background: rgba(10, 13, 18, 0.9);
+  border: 1.2px solid #d4af37;
   color: var(--gold-pale);
   font-family: 'Cinzel', serif;
-  font-size: 0.7rem;
-  letter-spacing: 1.5px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 1.2px;
   text-transform: uppercase;
-  padding: 4px 10px;
-  border-radius: 3px;
+  padding: 5px 12px;
+  border-radius: 2px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.8);
-  z-index: 5;
+  pointer-events: auto;
+  white-space: nowrap;
 }
 
 .category-badge-chip.badge-amarna {
   border-color: #f39c12;
   color: #f39c12;
+}
+
+.btn-pedestal-artist {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(10, 13, 18, 0.9);
+  border: 1.2px solid #d4af37;
+  color: #fce8a6;
+  font-family: 'Cinzel', serif;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  padding: 5px 12px;
+  border-radius: 2px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+  pointer-events: auto;
+  white-space: nowrap;
+  transition: all 0.2s ease;
+}
+
+.btn-pedestal-artist:hover {
+  background: rgba(212, 175, 55, 0.25);
+  color: #ffffff;
+  border-color: #ffd700;
+  box-shadow: 0 0 12px rgba(212, 175, 55, 0.5);
+}
+
+.pedestal-artist-icon {
+  font-size: 0.82rem;
+}
+
+.pedestal-artist-arrow {
+  color: #d4af37;
+  font-size: 0.76rem;
+  transition: transform 0.2s ease;
+}
+
+.btn-pedestal-artist:hover .pedestal-artist-arrow {
+  transform: translateX(3px);
+  color: #ffffff;
 }
 
 .modal-pedestal-col img {
@@ -5146,28 +5201,30 @@ body {
   color: #ffffff;
 }
 
-/* Ligne 2 : Date / Siècle en texte épuré sans encadré */
+/* Ligne 1 : Date / Siècle en typographie Cinzel dorée affirmée */
 .modal-header-date-row {
   font-family: 'Cinzel', serif;
-  font-size: 0.8rem;
-  font-weight: 600;
-  color: #d4af37;
-  letter-spacing: 0.5px;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #fce8a6;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
   margin: 0;
   line-height: 1.2;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
 }
 
-/* Ligne 3 : Lieu de conservation en texte épuré sans encadré */
+/* Ligne 2 : Lieu de conservation en typographie Cinzel claire accordée */
 .modal-header-location-row {
-  font-family: 'Outfit', sans-serif;
-  font-size: 0.78rem;
-  color: #cbd5e1;
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
+  font-family: 'Cinzel', serif;
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: #e2e8f0;
+  letter-spacing: 0.8px;
   margin: 0;
   line-height: 1.2;
-  opacity: 0.95;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.7);
+}
 }
 
 .modal-header-location-row .modal-loc-pin {
@@ -9755,35 +9812,61 @@ body {
 }
 
 
-/* FORMAT CERTIFIÉ RECTANGULAIRE & COMPARATEUR D'ÉCHELLE INTÉGRÉ */
-.modal-format-section {
+/* FORMAT CERTIFIÉ RECTANGULAIRE & BOUTON SITUER SUR LA FRISE CÔTE À CÔTE */
+.modal-top-actions-row {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
-  gap: 14px;
-  margin-bottom: 12px;
-  padding: 2px 0;
+  gap: 12px;
+  margin-bottom: 14px;
+  flex-wrap: wrap;
 }
 
 .modal-format-badge {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  padding: 5px 12px;
-  background: rgba(212, 175, 55, 0.08);
+  padding: 6px 14px;
+  background: rgba(10, 13, 18, 0.9);
   border: 1.2px solid #d4af37;
   border-radius: 2px;
   color: #f8f9fa;
   font-family: 'Cinzel', serif;
-  font-size: 0.8rem;
+  font-size: 0.76rem;
   font-weight: 600;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.8px;
   text-transform: uppercase;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
 }
 
 .modal-format-badge strong {
   color: #d4af37;
   font-weight: 700;
+}
+
+.btn-jump-to-timeline {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  background: rgba(10, 13, 18, 0.9) !important;
+  border: 1.2px solid #d4af37 !important;
+  border-radius: 2px !important;
+  color: #d4af37 !important;
+  font-family: 'Cinzel', serif !important;
+  font-size: 0.76rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.8px !important;
+  text-transform: uppercase !important;
+  padding: 6px 14px !important;
+  cursor: pointer !important;
+  transition: all 0.2s ease !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4) !important;
+}
+
+.btn-jump-to-timeline:hover {
+  background: rgba(212, 175, 55, 0.25) !important;
+  color: #ffffff !important;
+  border-color: #ffd700 !important;
+  box-shadow: 0 0 12px rgba(212, 175, 55, 0.4) !important;
 }
 
 .artwork-scale-integrated-stamp {

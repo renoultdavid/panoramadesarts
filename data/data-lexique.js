@@ -2181,7 +2181,7 @@ window.ART_GLOSSARY = [
     def: "Ensemble monumental de monolithes de granite ou de quartzite dressés en files régulières parallèles ou convergentes s'étirant sur plusieurs centaines de mètres ou kilomètres (ex. Le Ménec, Kermario, Kerlescan à Carnac, Lagatjar).",
     category: "Mégalithisme & Sanctuaires",
     etymology: "Du français alignement, disposition en ligne droite",
-    patterns: ['alignement', 'alignements', 'alignement mégalithique', 'alignements mégalithiques']
+    patterns: ['alignement mégalithique', 'alignements mégalithiques', 'alignement de menhirs', 'alignements de menhirs', 'alignements de carnac', 'alignement de carnac']
   },
   {
     term: "Cromlech",

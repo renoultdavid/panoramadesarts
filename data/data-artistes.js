@@ -8763,5 +8763,108 @@ window.ARTISTS_REGISTRY = {
       }
     ]
   }
+},
+  "duchamp": {
+  "id": "duchamp",
+  "name": "Duchamp Marcel",
+  "sortName": "Duchamp Marcel",
+  "sortLetter": "D",
+  "dates": "1887 – 1968",
+  "movement": "Cubo-futurisme, Dadaïsme & Père de l'Art Conceptuel",
+  "nationality": "Français naturalisé Américain (Blainville-Crevon / Paris / New York)",
+  "techniques": "Peinture cubo-futuriste, huile sur toile, ready-made, huile et fil de plomb sur verre, boîtes en valise, installations conceptuelles",
+  "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczMhmbeYSb3xpjiJItw7cJgL0S-53Efn62UgisYXDtvibq1VkAu7qV4HK5mzI27RVuIFASQT1tde7XMjVHapFZHGDCg94ePYyYGf6v_iOSxAWIXaxbsBOOtlX5LZXng_eqEc3xrag_PksL9dFv8wS2wVCw=w1681-h713-s-no-gm?authuser=0",
+  "bio": [
+    "Marcel Duchamp (1887 – 1968) est l'un des artistes les plus révolutionnaires du XXe siècle, souvent considéré comme le père de l'art conceptuel. Il a radicalement déplacé le curseur de l'art du domaine de la rétine (ce que l'on voit) vers celui de l'intelligence (ce que l'on pense). En déclarant que l'idée est supérieure à la réalisation, il a ouvert la porte à toutes les formes d'expression contemporaines.",
+    "Son genre pictural se définit par le cubo-futurisme (à ses débuts) puis par l'anti-art et le readymade. Son style se caractérise par une rupture totale avec le \"beau\" traditionnel. Il utilise l'ironie, le hasard et des objets du quotidien qu'il détourne de leur fonction initiale pour interroger la nature même de l'œuvre d'art et le rôle du musée.",
+    "L'évolution de son style marque un passage fulgurant de la peinture à l'abandon volontaire de la toile : des débuts post-impressionnistes et fauves vers le scandale du Nu descendant un escalier à l'Armory Show de New York (1913) ; puis l'invention du ready-made (Roue de bicyclette, Fontaine signée R. Mutt) et l'élaboration de son grand œuvre hermétique Le Grand Verre (1915-1923), avant de consacrer les dernières décennies de sa vie aux échecs et à son installation secrète Étant donnés."
+  ],
+  "corpus": {
+    "total": 60,
+    "seen": 0,
+    "paintingsCount": 60,
+    "sourceTitle": "Catalogue raisonné Arturo Schwarz (The Complete Works of Marcel Duchamp)",
+    "sourceNotes": "Le catalogue raisonné établi par Arturo Schwarz répertorie très exactement environ 60 peintures pures sur toile et carton réalisées par Marcel Duchamp avant son abandon quasi-total de la peinture rétinienne traditionnelle vers 1913-1918.",
+    "details": [
+      {
+        "label": "Peintures pures répertoriées (huiles, cartons)",
+        "count": 60,
+        "icon": "🎨",
+        "color": "#d4af37",
+        "seen": 0,
+        "note": "Comprend les œuvres de jeunesse (fauves, cézanniennes) et la période cubo-futuriste menant au Nu descendant un escalier."
+      }
+    ]
+  },
+  "biographyTimeline": {
+    "birth": {
+      "year": 1887,
+      "place": "Blainville-Crevon (Normandie)",
+      "title": "Naissance de Marcel Duchamp",
+      "desc": "Fils de notaire et frère cadet de Jacques Villon et Raymond Duchamp-Villon."
+    },
+    "death": {
+      "year": 1968,
+      "place": "Neuilly-sur-Seine (Île-de-France)",
+      "title": "Mort de Marcel Duchamp",
+      "desc": "Inhumé au cimetière monumental de Rouen avec sa célèbre épitaphe : « D'ailleurs, c'est toujours les autres qui meurent »."
+    }
+  },
+  "periods": [
+    {
+      "title": "Formation, Fauvisme & Cubo-futurisme",
+      "years": "1902 – 1912",
+      "color": "#0284c7",
+      "summary": "Apprentissage à Rouen et Paris, assimilation ultra-rapide des avant-gardes (fauvisme, Cézanne) puis décomposition mécanique du mouvement.",
+      "events": [
+        {
+          "year": 1910,
+          "title": "Portrait du Dr Ferdinand Tribout & Deux nus",
+          "desc": "Période fauve et cézannienne aux tonalités sombres et audaces chromatiques."
+        },
+        {
+          "year": 1912,
+          "title": "Nu descendant un escalier n°2",
+          "desc": "Refusé au Salon des Indépendants par les cubistes orthodoxes, puis triomphe de scandale à New York."
+        }
+      ]
+    },
+    {
+      "title": "L'Invention du Ready-made & Le Grand Verre",
+      "years": "1913 – 1923",
+      "color": "#d4af37",
+      "summary": "Rupture radicale avec la peinture de chevalet, invention du concept d'an-art et de ready-made, travail sur La Mariée mise à nu par ses célibataires, même.",
+      "events": [
+        {
+          "year": 1913,
+          "title": "Roue de bicyclette",
+          "desc": "Premier ready-made assisté assemblé dans son atelier parisien."
+        },
+        {
+          "year": 1917,
+          "title": "Fontaine (signée R. Mutt)",
+          "desc": "Un urinoir en porcelaine renversé envoyé au Salon des artistes indépendants de New York."
+        }
+      ]
+    },
+    {
+      "title": "Rrose Sélavy, Passion des Échecs & Étant donnés",
+      "years": "1924 – 1968",
+      "color": "#b91c1c",
+      "summary": "Retrait officiel du monde de l'art, passion exclusive pour le jeu d'échecs de compétition et création clandestine pendant 20 ans de sa dernière installation.",
+      "events": [
+        {
+          "year": 1941,
+          "title": "La Boîte-en-valise",
+          "desc": "Musée portatif miniature rassemblant des reproductions de l'ensemble de ses œuvres."
+        },
+        {
+          "year": 1966,
+          "title": "Achèvement secret d'Étant donnés",
+          "desc": "Dernier chef-d'œuvre secret révélé après sa mort au Musée d'art de Philadelphie."
+        }
+      ]
+    }
+  ]
 }
 };

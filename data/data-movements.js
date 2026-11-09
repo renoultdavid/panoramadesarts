@@ -672,6 +672,7 @@ window.MOVEMENTS_DATA = {
     ]
   },
   "mov_fauvisme": {
+    "bannerImg": "https://lh3.googleusercontent.com/d/1hcgQhFwfAAIKn8vY_t2J0sSd0Kgm3iH3",
     "badge": "✦ L'ÉCLAT INCANDESCENT DU FAUVISME & LA COULEUR PURE (1904 – 1908)",
     "noticeHtml": "<p><strong>« La cage aux fauves » : émancipation absolue de la couleur</strong><br>Au Salon d'Automne de 1905 à Paris, dans la salle VII, le critique Louis Vauxcelles découvre au milieu de toiles aux teintes agressives et criardes un buste d'enfant en marbre de style classique. Il s'écrie : « <em>Donatello parmi les fauves !</em> ». Le baptême du premier grand mouvement d'avant-garde du XXe siècle est scellé.</p><p>Autour d'Henri Matisse, André Derain et Maurice de Vlaminck (rejoints par Kees van Dongen, Georges Braque et Raoul Dufy), ces jeunes peintres brisent le lien mimétique entre la couleur du tableau et celle de la réalité : l'arbre peut être vermillon, la mer écarlate, le ciel jaune citron et l'ombre d'un visage vert émeraude (<em>La Raie verte</em> de Matisse). Pour Vlaminck, la couleur est « <em>un bâton de dynamite</em> ». Le fauvisme ne dure que quelques années mais libère définitivement la peinture de la copie du monde visible.</p>",
     "concurrentHtml": "<p><strong>Pendant ce temps-là... Révolutions scientifiques et tensions impériales</strong></p><p><strong>Sciences :</strong> En 1905 (« l'année miraculeuse »), Albert Einstein publie sa théorie de la <strong>relativité restreinte</strong> et l'équation <em>E = mc²</em>, révolutionnant à jamais les concepts d'espace et de temps. Les frères Wright accomplissent leurs premiers vols motorisés contrôlés.</p><p><strong>Géopolitique :</strong> Révolution russe de 1905 (Dimanche rouge de Saint-Pétersbourg et mutinerie du cuirassé Potemkine). Tensions franco-allemandes lors de la crise de Tanger au Maroc (1905). En France, vote de la loi de séparation des Églises et de l'État (1905).</p><p><strong>Arts :</strong> Mort de Cézanne en 1906, suivie de la rétrospective fondatrice de 1907 qui va donner naissance au cubisme.</p>",
@@ -776,6 +777,7 @@ window.MOVEMENTS_DATA = {
     ]
   },
   "mov_dada": {
+    "bannerImg": "https://lh3.googleusercontent.com/d/1stFbmluSBVhmCoxbCM7XBCq9X6VbBhQX",
     "badge": "✦ L'INSOUCTION ABSOLUE & LA SUBVERSION RADICALE DE DADA (1916 – 1924)",
     "noticeHtml": "<p><strong>Le rire vengeur contre la boucherie des tranchées</strong><br>En février 1916, au cœur de la Suisse neutre à Zurich, un groupe de jeunes poètes, peintres et réfugiés fuyant l'hécatombe de la Première Guerre mondiale ouvre le <strong>Cabaret Voltaire</strong>. Hugo Ball, Tristan Tzara, Jean Arp, Marcel Janco et Sophie Taeuber ouvrent les vannes de la dérision absolue : <strong>Dada</strong> est né.</p><p>Dada n'est pas un style artistique : c'est un état d'esprit, une révolte viscérale et nihiliste contre les valeurs bourgeoises, le militarisme, la logique cartésienne et l'art institutionnel qui ont conduit l'Europe au suicide collectif. Dada utilise le scandale, le poème phonétique, le collage de rebuts de journaux, le photomontage (John Heartfield, Hannah Höch à Berlin) et le hasard objectif. À New York, Marcel Duchamp et Man Ray poussent la provocation jusqu'à l'extrême en exposant des objets industriels (le ready-made).</p>",
     "concurrentHtml": "<p><strong>Pendant ce temps-là... Le traumatisme de 14-18 et les révolutions d'après-guerre</strong></p><p><strong>La Guerre :</strong> La bataille de Verdun et celle de la Somme en 1916 fauchent des centaines de milliers de jeunes vies. La grippe espagnole de 1918 achève de ravager les populations européennes et mondiales (plus de 20 millions de morts, emportant notamment Egon Schiele et Guillaume Apollinaire).</p><p><strong>Révolutions :</strong> Armistice du 11 novembre 1918 et traité de Versailles de 1919. Chute des empires allemand, austro-hongrois, russe et ottoman. En Allemagne, la révolution spartakiste de Rosa Luxemburg et Karl Liebknecht est écrasée dans le sang en 1919 avant la naissance de la fragile République de Weimar.</p><p><strong>Arts :</strong> Fondation du Bauhaus à Weimar en 1919 par Walter Gropius pour reconstruire un monde nouveau unifié.</p>",
@@ -816,6 +818,7 @@ window.MOVEMENTS_DATA = {
     ]
   },
   "mov_surrealisme": {
+    "bannerImg": "https://lh3.googleusercontent.com/d/1zGpvPE_2AKmGRQF10Pp6TUhn0K2JmKWR",
     "badge": "✦ L'INCONSCIENT, LE RÊVE & LA TOUTE-PUISSANCE DU DÉSIR (1924 – 1969)",
     "noticeHtml": "<p><strong>« Changer la vie » (Rimbaud) et « Transformer le monde » (Marx)</strong><br>À l'automne 1924 à Paris, l'écrivain André Breton publie le premier <em>Manifeste du Surréalisme</em>. Définissant le mouvement comme un « <em>automatisme psychique pur par lequel on se propose d'exprimer le fonctionnement réel de la pensée</em> », Breton et ses compagnons se placent sous le patronage de Sigmund Freud pour libérer l'inconscient, le rêve, la pulsion érotique et la folie des chaînes de la logique rationnelle.</p><p>En peinture, deux voies majeures s'ouvrent : l'une onirique et illusionniste d'une précision photographique hallucinée (Salvador Dalí et sa « méthode paranoïaque-critique », René Magritte et ses pièges sémiotiques entre les mots et les images, Yves Tanguy et ses déserts intérieurs) ; l'autre organique, gestuelle et calligraphique (Joan Miró, André Masson, Max Ernst inventant le frottage et le raclage).</p>",
     "concurrentHtml": "<p><strong>Pendant ce temps-là... La montée des totalitarismes et l'exil américain</strong></p><p><strong>Économie & Crise :</strong> Le Krach de Wall Street d'octobre 1929 plonge le monde occidental dans la Grande Dépression des années 1930. Chômage de masse, paupérisation et montée des extrêmes en Europe.</p><p><strong>Totalitarismes :</strong> Adolf Hitler accède au pouvoir en Allemagne en 1933 et persécute l'« art dégénéré » (exposition de 1937 à Munich). Guerre civile espagnole (1936-1939) : le bombardement de Guernica inspire à Picasso son chef-d'œuvre. Procès staliniens de Moscou.</p><p><strong>Exil à New York :</strong> Dès 1940, Breton, Ernst, Dalí, Tanguy, Masson et Léger fuient la France occupée vers New York grâce au réseau de sauvetage de Varian Fry. Leur présence sur le sol américain féconde directement l'expressionnisme abstrait new-yorkais.</p>",
@@ -870,7 +873,6 @@ window.MOVEMENTS_DATA = {
         "icon": "🏛️"
       }
     ],
-    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczNncCSU6eI6kLKq7IOVLdEU4ZXP9nHzpY012Nws8P9qcKz-fiA7D0M1A07T0NS_b9lrSnqS6NqyUdHtI8KSPi-Jejbp5QsmSNKbFlO7r3ChiZovtS4RAXNF5EL-P3LpWwCryrlWotAuW3oyAE5KchnzbQ=w1660-h704-s-no-gm?authuser=0"
   },
   "mov_expressionnisme_abstrait": {
     "badge": "✦ L'ÉNERGIE GESTUELLE & LE COLOR FIELD DE L'ÉCOLE DE NEW YORK (1943 – 1965)",
@@ -1340,6 +1342,7 @@ window.MOVEMENTS_DATA = {
     ]
   },
   "mov_archi_moderne_bauhaus": {
+    "bannerImg": "https://lh3.googleusercontent.com/d/1HejR5tkagXfIr9k3izZehYHw9NlaRT09",
     "badge": "✦ L'UTOPIE FONCTIONNELLE DU BAUHAUS & DU STYLE INTERNATIONAL (1919 – 1975)",
     "noticeHtml": "<p><strong>La réconciliation de l'art et de l'industrie pour un monde nouveau</strong><br>En 1919 dans la ville de Weimar en Allemagne, l'architecte Walter Gropius fonde une école d'art révolutionnaire : le <strong>Bauhaus</strong> (« maison de la construction »). Rejetant tout ornement bourgeois superflu qu'Adolf Loos qualifiait de « crime », Gropius proclame l'union indissoluble des arts majeurs, de l'artisanat et de la production industrielle : « <em>la forme suit la fonction</em> ». Les ateliers (où enseignent Klee, Kandinsky, Moholy-Nagy, Marcel Breuer) conçoivent les prototypes du mobilier moderne en tube d'acier et des objets du quotidien démocratique.</p><p>En 1925, le Bauhaus s'installe à Dessau dans des bâtiments de verre et de béton devenus l'icône du Mouvement Moderne. En France, <strong>Le Corbusier</strong> formule en 1927 les <em>Cinq points de l'architecture moderne</em> (pilotis, toit-terrasse, plan libre, fenêtre en bandeau, façade libre) incarnés par la <em>Villa Savoye</em> à Poissy. Avec Ludwig Mies van der Rohe (« <em>Less is more</em> »), le gratte-ciel de verre et d'acier devient la syntaxe planétaire du Style International.</p>",
     "concurrentHtml": "<p><strong>Pendant ce temps-là... Les traumatismes du siècle et la reconstruction d'après-guerre</strong></p><p><strong>République de Weimar & Nazisme :</strong> En 1933, le régime hitlérien ferme brutalement le Bauhaus, considéré comme un foyer de bolchévisme culturel. Ses maîtres (Gropius, Mies van der Rohe, Breuer) s'exilent aux États-Unis (Harvard, Chicago), propageant la doctrine moderne dans le Nouveau Monde.</p><p><strong>Après-Guerre & Reconstruction :</strong> Les destructions massives de la Seconde Guerre mondiale imposent une reconstruction ultra-rapide de l'Europe. Le Corbusier conçoit la <em>Cité radieuse</em> à Marseille (Unité d'habitation, 1952) et la capitale de Chandigarh en Inde.</p><p><strong>Urbanisme moderne :</strong> Charte d'Athènes (1933) séparant strictement les fonctions urbaines (habiter, travailler, circuler, se recréer) et essor des grands ensembles.</p>",
@@ -1540,6 +1543,7 @@ window.MOVEMENTS_DATA = {
     "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczNFrnkU0CB_dyE9L9kLg4n4k3yz2MdGR99oZnTYNwONOOI50XSJFO35HAXs96VEqGpyioETNaU1Ca-jT4-s0kIkQ5_M3GfgH2P72zkEaggGGwp0M3gRyjwKyZraq8aKbNc7O85Lyx1Rc-uh1NHJZGIfJQ=w1660-h704-s-no-gm?authuser=0"
   },
   "mov_rup_surrealisme_1924": {
+    "bannerImg": "https://lh3.googleusercontent.com/d/1zGpvPE_2AKmGRQF10Pp6TUhn0K2JmKWR",
     "badge": "✦ 1924 : LE PREMIER MANIFESTE DU SURRÉALISME (1923 – 1930)",
     "noticeHtml": "<p><strong>La proclamation de la toute-puissance du rêve</strong><br>En octobre 1924 au 42 rue Fontaine à Paris, André Breton fait paraître aux Éditions du Sagittaire le premier <em>Manifeste du Surréalisme</em>. Définissant l'automatisme psychique pur dégagé de tout contrôle de la raison, Breton ouvre l'une des aventures intellectuelles et plastiques les plus fécondes du XXe siècle. L'inconscient, le désir érotique, le hasard objectif et le rêve deviennent les moteurs souverains de la création contre le rationalisme étriqué de la société bourgeoise.</p>",
     "concurrentHtml": "<p><strong>Contexte contemporain :</strong> Années folles d'après-guerre à Montparnasse et Montmartre. Mort de Lénine en URSS (1924) et prise en main du pouvoir par Staline. Les surréalistes adhèrent temporairement au Parti communiste français dans l'espoir d'unir la révolution de l'esprit à la révolution sociale.</p>",
@@ -1562,6 +1566,5 @@ window.MOVEMENTS_DATA = {
         "icon": "🦅"
       }
     ],
-    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczNncCSU6eI6kLKq7IOVLdEU4ZXP9nHzpY012Nws8P9qcKz-fiA7D0M1A07T0NS_b9lrSnqS6NqyUdHtI8KSPi-Jejbp5QsmSNKbFlO7r3ChiZovtS4RAXNF5EL-P3LpWwCryrlWotAuW3oyAE5KchnzbQ=w1660-h704-s-no-gm?authuser=0"
   }
 };
