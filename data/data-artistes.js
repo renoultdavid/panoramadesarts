@@ -7729,13 +7729,25 @@ window.ARTISTS_REGISTRY = {
         { label: "Œuvres textiles, gouaches & arts appliqués", count: 1200, icon: "🧵", color: "#00b4d8", seen: 0, note: "Robes simultanées, maquettes de mode, reliures et estampes" }
       ]
     },
-    timeline: {
-      title: "Parcours & Grandes Périodes Créatrices",
-      chapters: [
+    biographyTimeline: {
+      birth: {
+        year: 1885,
+        place: "Gradizhsk (Ukraine)",
+        title: "Naissance de Sonia Delaunay",
+        desc: "Née Sarah Ilinitchna Stern en Ukraine. Élevée à Saint-Pétersbourg par son oncle Henri Terk, elle reçoit une éducation artistique cosmopolite avant de gagner Paris en 1905."
+      },
+      death: {
+        year: 1979,
+        place: "Paris (France)",
+        title: "Mort de Sonia Delaunay",
+        desc: "S'éteint le 5 décembre 1979 à Paris à l'âge de 94 ans, célébrée universellement comme la grande pionnière du modernisme chromatique."
+      },
+      periods: [
         {
           title: "Les Débuts Fauves & Naissance du Simultanéisme",
           years: "1905 – 1914",
-          desc: "Formée en Allemagne puis à Paris, elle s'affranchit du naturalisme par la violence expressive de la couleur pure avant d'inventer avec Robert l'abstraction simultanée.",
+          color: "#f59e0b",
+          summary: "Formée en Allemagne puis à Paris, elle s'affranchit du naturalisme par la violence expressive de la couleur pure avant d'inventer avec Robert l'abstraction simultanée.",
           events: [
             {
               year: 1908,
@@ -7764,7 +7776,8 @@ window.ARTISTS_REGISTRY = {
         {
           title: "L'Exil Ibérique, la Mode & l'Atelier Simultané",
           years: "1915 – 1939",
-          desc: "Durant la guerre au Portugal et en Espagne, puis dans le Paris des Années folles, elle applique la théorie du contraste simultané aux vêtements, costumes et décors.",
+          color: "#06b6d4",
+          summary: "Durant la guerre au Portugal et en Espagne, puis dans le Paris des Années folles, elle applique la théorie du contraste simultané aux vêtements, costumes et décors.",
           events: [
             {
               year: 1917,
@@ -7785,7 +7798,8 @@ window.ARTISTS_REGISTRY = {
         {
           title: "Abstraction Monumentale & Consécration au Louvre",
           years: "1945 – 1979",
-          desc: "Après la disparition de Robert, elle déploie seule de grands formats rythmés d'une rigueur formelle éclatante et devient une icône vivante de l'art moderne.",
+          color: "#8b5cf6",
+          summary: "Après la disparition de Robert, elle déploie seule de grands formats rythmés d'une rigueur formelle éclatante et devient une icône vivante de l'art moderne.",
           events: [
             {
               year: 1964,
@@ -7806,6 +7820,281 @@ window.ARTISTS_REGISTRY = {
               year: 1979,
               title: "Mort à Paris",
               desc: "S'éteint le 5 décembre 1979 à Paris à l'âge de 94 ans, célébrée comme l'une des figures fondatrices de l'abstraction moderne.",
+              type: "death",
+              icon: "🕊️"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  lempicka: {
+    id: "lempicka",
+    name: "Tamara de Lempicka",
+    sortName: "Lempicka Tamara de",
+    sortLetter: "L",
+    dates: "1898 – 1980",
+    movement: "Art Déco, Cubisme synthétique de salon & Néoclassicisme moderne",
+    nationality: "Polonaise (Varsovie / Paris / Cuernavaca)",
+    techniques: "Huile sur toile, fini lisse et métallique quasi émaillé, volumes tubulaires sculpturaux aux arêtes vives, contrastes d'ombres portées acérées sous lumière artificielle rasante et théâtrale, drapés froids d'une précision géométrique, palette de roses métalliques, gris acier, blancs laqués et noirs profonds",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczNg53GQaWxpPjj0sjRDpE-mce_n8GsRwXQGQeAPQzedOuqpLt0WCDr1hSgkM6HcGBm2HUoui3cFQBRHMozSN-44eH_5BGAiBTooyaHVb8GtKA2PG4F52xu2dhD_qdsnyj9XNVq-82ysvmFsxZz5yDZUZA=w1901-h806-s-no-gm?authuser=0",
+    bio: [
+      "Tamara de Lempicka (1898 – 1980) est l'icône absolue de l'Art Déco. D'origine polonaise, elle a régné sur le Paris des Années Folles, créant un style qui fusionne le cubisme de salon, la rigueur néoclassique et une sensualité cinématographique. Surnommée la « baronne au pinceau », elle a immortalisé l'élite cosmopolite et la figure de la « femme moderne », indépendante et glaciale.",
+      "Son genre pictural se définit par le portrait mondain et le nu néoclassique. Son style se caractérise par des formes sculpturales aux arêtes vives, des couleurs vibrantes et un fini lisse, presque métallique, qui rappelle la carrosserie des automobiles de luxe ou le métal poli. Sa lumière est artificielle et théâtrale, sculptant les corps comme s'ils étaient de marbre ou de cuir.",
+      "L'évolution de son style suit la trajectoire de la modernité européenne entre les deux guerres : l'ascension et le Cubisme « doux » (années 1920) où élève d'André Lhote, elle adopte une géométrisation des volumes d'une redoutable efficacité publicitaire ; l'apogée du style Lempicka (1925 – 1935) où son art atteint une perfection technique où la chair semble pétrifiée et les drapés figés dans des plis coupants ; enfin la période américaine et le déclin (après 1939) où exilée aux États-Unis, son style s'assouplit vers des sujets religieux, des scènes d'exil et des natures mortes intimes."
+    ],
+    corpus: {
+      total: 520,
+      seen: 7,
+      paintingsCount: 520,
+      sourceTitle: "Catalogue Raisonné Alain Blondel (1999)",
+      sourceNotes: "Le catalogue raisonné de référence a été dressé par l'expert de l'artiste Alain Blondel. Publié en 1999 sous le titre Tamara de Lempicka : Catalogue Raisonné 1921-1979 (aux éditions Acatos), cet inventaire exhaustif a permis de rassembler une œuvre très largement dispersée chez les descendants de la haute bourgeoisie qu'elle peignait ou dans de prestigieuses collections privées. Dans ce volume monumental, Alain Blondel recense très exactement 520 peintures (tout en répertoriant rigoureusement, à part, 218 œuvres sur papier).",
+      details: [
+        { label: "Peintures recensées au catalogue", count: 520, icon: "🎨", color: "#d4af37", seen: 7, note: "Dont Kizette en rose, Mère supérieure, La fuite, natures mortes et portraits mondains" },
+        { label: "Œuvres sur papier (dessins, gouaches)", count: 218, icon: "✏️", color: "#00b4d8", seen: 0, note: "Répertoire graphique inventorié séparément par Alain Blondel" }
+      ]
+    },
+    biographyTimeline: {
+      birth: {
+        year: 1898,
+        place: "Varsovie (Pologne)",
+        title: "Naissance de Tamara Rosalia Gurwik-Górska",
+        desc: "Issue de la haute bourgeoisie polonaise. Fuyant la Révolution russe de 1917 à Saint-Pétersbourg, elle se réfugie à Paris avec son époux Tadeusz Łempicki."
+      },
+      death: {
+        year: 1980,
+        place: "Cuernavaca (Mexique)",
+        title: "Mort de Tamara de Lempicka",
+        desc: "Décède au Mexique dans sa demeure de Cuernavaca. Ses cendres sont dispersées selon son vœu au sommet du volcan Popocatépetl."
+      },
+      periods: [
+        {
+          title: "L'Ascension Parisienne & l'Atelier d'André Lhote",
+          years: "1920 – 1925",
+          color: "#ec4899",
+          summary: "Élève de Maurice Denis puis d'André Lhote, elle invente le cubisme synthétique mondain, alliant l'artifice du maniérisme italien à la vitesse de la modernité mécanique.",
+          events: [
+            {
+              year: 1922,
+              title: "Premières expositions au Salon d'Automne",
+              desc: "Elle attire l'attention des critiques par ses portraits sculpturaux et son sens aigu de la mode parisienne.",
+              type: "milestone",
+              icon: "🎨"
+            },
+            {
+              year: 1925,
+              title: "L'Exposition Internationale des Arts Décoratifs de Paris",
+              desc: "Le triomphe de l'Art Déco consacre son style : les commandes affluent de toute l'aristocratie européenne.",
+              type: "milestone",
+              icon: "✨"
+            }
+          ]
+        },
+        {
+          title: "L'Apogée du Style Lempicka & la Baronne au Pinceau",
+          years: "1925 – 1935",
+          color: "#d4af37",
+          summary: "Période de gloire flamboyante : portraits de milliardaires, nus sculpturaux pétrifiés et perfection absolue de la touche lisse.",
+          events: [
+            {
+              year: 1926,
+              title: "Kizette en rose (Nantes)",
+              desc: "Portrait magistral de sa fille : fusion virtuose entre le néoclassicisme froid et les volumes architecturaux de la modernité.",
+              type: "masterpiece",
+              icon: "🌸",
+              artworkId: "lempicka_kizette_en_rose_nantes_1926"
+            },
+            {
+              year: 1929,
+              title: "Autoportrait dans la Bugatti verte",
+              desc: "Icône absolue de la femme moderne émancipée, commandée pour la couverture du magazine allemand Die Dame.",
+              type: "masterpiece",
+              icon: "🏎️"
+            },
+            {
+              year: 1935,
+              title: "La Mère supérieure (Nantes)",
+              desc: "Tournant spirituel et mélancolique : portrait dépouillé aux larmes de nacre peint après une retraite dans un couvent de Parme.",
+              type: "masterpiece",
+              icon: "✝️",
+              artworkId: "lempicka_mere_superieure_nantes_1935"
+            }
+          ]
+        },
+        {
+          title: "L'Exil Américain, la Guerre & les Natures Mortes",
+          years: "1939 – 1980",
+          color: "#64748b",
+          summary: "Mariée au baron Kuffner, elle fuit le nazisme pour les États-Unis. Son art aborde le drame de la guerre avant de se tourner vers des natures mortes et des scènes intimistes.",
+          events: [
+            {
+              year: 1940,
+              title: "La Fuite (Nantes)",
+              desc: "Bouleversante scène de guerre peinte en exil : une mère et son nouveau-né symbolisant la tragédie universelle des réfugiés européens.",
+              type: "masterpiece",
+              icon: "👶",
+              artworkId: "lempicka_la_fuite_nantes_1940"
+            },
+            {
+              year: 1941,
+              title: "Nature morte au moulin à café & Atelier à la campagne (Nantes)",
+              desc: "Études rigoureuses de volumes et de matières au Musée de Nantes, célébrant la sérénité des objets du quotidien.",
+              type: "masterpiece",
+              icon: "☕",
+              artworkId: "lempicka_moulin_a_cafe_nantes_1941"
+            },
+            {
+              year: 1947,
+              title: "Portrait de jeune fille (Nantes)",
+              desc: "Visage sculptural sous un chapeau de paille échevelé, mariant réminiscences de la Renaissance et surréalisme poétique.",
+              type: "masterpiece",
+              icon: "👒",
+              artworkId: "lempicka_portrait_jeune_fille_nantes_1947"
+            },
+            {
+              year: 1949,
+              title: "Coupe de fruits sur fond noir (Nantes)",
+              desc: "Nature morte classique au cartellino feint, d'une précision photographique inspirée des maîtres flamands.",
+              type: "masterpiece",
+              icon: "🍇",
+              artworkId: "lempicka_fruits_sur_fond_noir_nantes_1949"
+            },
+            {
+              year: 1980,
+              title: "Mort à Cuernavaca",
+              desc: "Disparaît dans son sommeil au Mexique à l'âge de 81 ans.",
+              type: "death",
+              icon: "🕊️"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  piero_della_francesca: {
+    id: "piero_della_francesca",
+    name: "Piero della Francesca",
+    sortName: "Della Francesca Piero",
+    sortLetter: "D",
+    dates: "v. 1415 – 1492",
+    movement: "Première Renaissance italienne, Quattrocento & Géométrie perspective",
+    nationality: "Italien (Borgo San Sepolcro / Toscane)",
+    techniques: "Fresque monumentale, détrempe et huile sur bois, perspective linéaire mathématique rigoureuse, géométrisation euclidienne des corps (cylindres, cônes, sphères), lumière diurne zénithale égale abolissant le clair-obscur violent, hiératisme solennel et impassibilité des figures",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczNqJ0YFiXA3bft-4YFMe0_9fzLImn9dUBVYRKmbrK5Gb-BRao11yHUxb-LKAYElVhsjJr4a2mRHkf8ecx4PzHcPiiBQ3Yrs92wYZlsxbQXZ5J-YLMXzOtZfv7A473PZnPVzXUjaQ26C7Tw5_AsZrnShlw=w1901-h806-s-no-gm?authuser=0",
+    bio: [
+      "Piero della Francesca (v. 1415 – 1492), né à Borgo San Sepolcro en Toscane, est le grand théoricien et le poète de la géométrie du Quattrocento. Artiste intellectuel, il fut autant mathématicien que peintre, rédigeant des traités fondamentaux sur la perspective. Son œuvre, redécouverte au XXe siècle par les cubistes et les modernes, se situe à l'équilibre parfait entre la rigueur scientifique et une spiritualité d'une sérénité absolue. Il a passé l'essentiel de sa carrière dans les cours raffinées d'Urbino, de Ferrare et de Rimini, créant un art qui semble suspendu hors du temps.",
+      "Son genre pictural est marqué par une recherche de l'ordre universel. Son style se définit par une clarté cristalline, des formes simplifiées jusqu'à l'abstraction et une lumière diurne, égale, qui supprime les ombres tourmentées. Chez Piero, chaque personnage est traité comme une colonne ou une sphère, s'intégrant dans une architecture mathématique parfaite. Ses visages sont souvent impassibles, empreints d'une dignité hiératique qui confère à ses scènes religieuses ou profanes une dimension sacrée et immuable. Il est le maître du silence en peinture.",
+      "L'évolution de son travail montre un perfectionnement constant de la perspective et de l'intégration de la lumière : de ses débuts florentins (Baptême du Christ) vers son chef-d'œuvre absolu, le cycle de fresques de La Légende de la Vraie Croix à Arezzo, démontrant une maîtrise totale de la narration par la géométrie ; puis les portraits souverains d'Urbino (Le Triomphe de la chasteté) et la Pala de Brera ; enfin la fin de sa vie où, frappé par la cécité, il se consacre exclusivement à la rédaction de ses traités de géométrie et de perspective."
+    ],
+    corpus: {
+      total: 35,
+      seen: 2,
+      paintingsCount: 35,
+      sourceTitle: "Catalogue Raisonné Pierluigi De Vecchi & Études Roberto Longhi",
+      sourceNotes: "L'inventaire scientifique s'appuie historiquement sur les immenses travaux de l'historien Roberto Longhi (dont la monographie de 1927 a littéralement ressuscité l'artiste aux yeux de l'art moderne) et sur le catalogue raisonné dressé par Pierluigi De Vecchi (Tout l'œuvre peint de Piero della Francesca dans la célèbre collection Classici dell'Arte). En faisant la synthèse de ces recherches et des rares redécouvertes contemporaines, le consensus scientifique mondial fixe le corpus autographe de Piero della Francesca à environ 35 œuvres (panneaux sur bois et grands cycles de fresques).",
+      details: [
+        { label: "Panneaux sur bois et cycles de fresques autographes", count: 35, icon: "🎨", color: "#d4af37", seen: 2, note: "Dont Sigismond Malatesta (Louvre), Le Triomphe de la chasteté (Offices), La Flagellation, Les Fresques d'Arezzo" },
+        { label: "Traités théoriques majeurs de mathématiques", count: 3, icon: "📐", color: "#00b4d8", seen: 0, note: "De prospectiva pingendi, Trattato d'abaco, De quinque corporibus regularibus" }
+      ]
+    },
+    biographyTimeline: {
+      birth: {
+        year: 1415,
+        place: "Borgo San Sepolcro (Toscane)",
+        title: "Naissance de Piero della Francesca",
+        desc: "Fils de Benedetto de' Franceschi, riche marchand d'étoffes. Formé aux mathématiques et au calcul commercial avant d'entrer dans l'atelier de Domenico Veneziano."
+      },
+      death: {
+        year: 1492,
+        place: "Borgo San Sepolcro (Toscane)",
+        title: "Mort de Piero della Francesca",
+        desc: "S'éteint le 12 octobre 1492 (jour même de la découverte de l'Amérique par Christophe Colomb), frappé de cécité dans ses dernières années."
+      },
+      periods: [
+        {
+          title: "Les Débuts & la Révélation de la Lumière Florentine",
+          years: "1415 – 1450",
+          color: "#0284c7",
+          summary: "Collabore à Florence avec Domenico Veneziano et étudie les fresques de Masaccio et les théories géométriques de Brunelleschi et d'Alberti.",
+          events: [
+            {
+              year: 1439,
+              title: "Activité à Florence avec Domenico Veneziano",
+              desc: "Participe aux fresques de l'église Sant'Egidio, découvrant la lumière diurne et la pureté des tons clairs.",
+              type: "milestone",
+              icon: "⚜️"
+            },
+            {
+              year: 1445,
+              title: "Commande du Polyptyque de la Miséricorde",
+              desc: "Première grande commande pour sa ville natale de Sansepolcro : monumentalité plastique et puissance protectrice de la Vierge.",
+              type: "masterpiece",
+              icon: "👑"
+            }
+          ]
+        },
+        {
+          title: "Les Grandes Cours & la Maîtrise Géométrique",
+          years: "1450 – 1475",
+          color: "#d4af37",
+          summary: "Au service des princes d'Urbino, de Rimini et de Ferrare, il réalise ses plus grands chefs-d'œuvre de perspective mathématique.",
+          events: [
+            {
+              year: 1451,
+              title: "Portrait de Sigismond Malatesta (Louvre)",
+              desc: "Effigie princière de profil strict au Louvre : synthèse magistrale entre autorité politique et géométrie épurée.",
+              type: "masterpiece",
+              icon: "👑",
+              artworkId: "piero_sigismond_malatesta_louvre_1451"
+            },
+            {
+              year: 1452,
+              title: "Fresques de La Légende de la Vraie Croix à Arezzo",
+              desc: "Cycle mural monumental dans l'église San Francesco : sommet de la perspective rationnelle et de la narration spatiale du Quattrocento.",
+              type: "masterpiece",
+              icon: "⛪"
+            },
+            {
+              year: 1455,
+              title: "La Flagellation du Christ (Urbino)",
+              desc: "Énigme spatiale et chef-d'œuvre absolu de perspective albertienne au palais ducal d'Urbino.",
+              type: "masterpiece",
+              icon: "🏛️"
+            },
+            {
+              year: 1473,
+              title: "Le Triomphe de la chasteté / Diptyque des ducs d'Urbino (Offices)",
+              desc: "Double portrait légendaire de Federico da Montefeltro et Battista Sforza devant les paysages d'Urbino, chef-d'œuvre des Offices.",
+              type: "masterpiece",
+              icon: "⚜️",
+              artworkId: "piero_triomphe_chastete_offices_1473"
+            }
+          ]
+        },
+        {
+          title: "La Pala de Brera & les Traités Théoriques",
+          years: "1475 – 1492",
+          color: "#475569",
+          summary: "Dernières peintures pour Urbino, puis consécration exclusive à la rédaction de ses traités de géométrie et d'optique euclidienne.",
+          events: [
+            {
+              year: 1474,
+              title: "La Pala Montefeltro (Pinacothèque de Brera)",
+              desc: "Sainte Conversation sous une coquille d'où pend un œuf d'autruche, symbole de perfection cosmique et d'harmonie divine.",
+              type: "masterpiece",
+              icon: "🥚"
+            },
+            {
+              year: 1482,
+              title: "Rédaction du De prospectiva pingendi",
+              desc: "Premier traité scientifique posant les règles mathématiques de la perspective linéaire pour les peintres de la Renaissance.",
+              type: "milestone",
+              icon: "📐"
+            },
+            {
+              year: 1492,
+              title: "Mort à Sansepolcro",
+              desc: "S'éteint en Toscane, léguant au monde moderne les fondements de la géométrie de l'espace.",
               type: "death",
               icon: "🕊️"
             }

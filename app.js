@@ -5183,16 +5183,18 @@ function getArtworksForArtistRecord(artistRecord, catalog) {
   const recClean = recName.replace(/\(.*?\)/g, '').trim();
 
   return list.filter(item => {
+    if (!item) return false;
     const itemArtistId = (item.artistId || '').toLowerCase().trim();
-    if (recId && itemArtistId && itemArtistId === recId) return true;
+    if (recId && itemArtistId) {
+      return itemArtistId === recId;
+    }
 
     const itemArtist = (item.artist || '').toLowerCase().trim();
     if (!itemArtist) return false;
 
     if (itemArtist === recName || itemArtist === recSort || itemArtist === recClean) return true;
-    if (recClean && recClean.length >= 4 && (itemArtist.includes(recClean) || recClean.includes(itemArtist))) return true;
-    if (recSort && recSort.length >= 4 && (itemArtist.includes(recSort) || recSort.includes(itemArtist))) return true;
-    if (recName && recName.length >= 4 && itemArtist.includes(recName)) return true;
+    if (recClean && recClean.length >= 4 && (itemArtist === recClean || (itemArtist.startsWith(recClean) && !itemArtist.includes('robert') && !itemArtist.includes('sonia')))) return true;
+    if (recSort && recSort.length >= 4 && (itemArtist === recSort || itemArtist.startsWith(recSort))) return true;
 
     return false;
   });
@@ -5216,9 +5218,23 @@ function initArtistViewModeSwitcher(artistRecord) {
     badgeDecades.textContent = `${artistArts.length} œuvre${artistArts.length > 1 ? 's' : ''}`;
   }
 
-  const timelineData = (artistRecord.biographyTimeline)
-    ? artistRecord.biographyTimeline
-    : generateFallbackArtistTimeline(artistRecord, artistArts);
+  const rawTimeline = artistRecord.biographyTimeline || artistRecord.timeline;
+  let timelineData;
+  if (rawTimeline && (rawTimeline.periods || rawTimeline.chapters)) {
+    timelineData = {
+      birth: rawTimeline.birth || { year: (artistRecord.dates ? parseInt(artistRecord.dates) : ''), place: '', title: `Naissance de ${artistRecord.name}`, desc: '' },
+      death: rawTimeline.death || { year: '', place: '', title: `Fin de vie de ${artistRecord.name}`, desc: '' },
+      periods: (rawTimeline.periods || rawTimeline.chapters).map(ch => ({
+        title: ch.title,
+        years: ch.years,
+        color: ch.color || '#d4af37',
+        summary: ch.summary || ch.desc || '',
+        events: ch.events || []
+      }))
+    };
+  } else {
+    timelineData = generateFallbackArtistTimeline(artistRecord, artistArts);
+  }
 
   let totalEvents = 0;
   if (timelineData && timelineData.periods) {
@@ -5521,6 +5537,7 @@ function generateFallbackArtistTimeline(artistRecord, artistArts) {
 
 function openMonographForArtistRecord(artistRecord) {
   if (!artistRecord) return;
+  window.currentActiveArtistRecord = artistRecord;
   const filterText = document.getElementById('filter-text');
   const filterCiv = document.getElementById('filter-civ');
   const filterPeriod = document.getElementById('filter-period');
@@ -9147,9 +9164,20 @@ function initSearchEngine() {
     btnReset.addEventListener('click', () => {
       activeMovementFilter = null;
       activeChipExactFilter = '';
+      window.currentActiveArtistRecord = null;
       if (artistHero) artistHero.hidden = true;
       if (corpusDashboard) corpusDashboard.hidden = true;
       if (corpusSourceDrawer) corpusSourceDrawer.hidden = true;
+      const collectionTitle = document.getElementById('artist-hero-collection-title');
+      const galleryGrid = document.getElementById('search-gallery-grid');
+      const vTimeline = document.getElementById('artist-vertical-timeline');
+      if (collectionTitle) collectionTitle.style.display = '';
+      if (galleryGrid) {
+        galleryGrid.style.display = '';
+        galleryGrid.classList.remove('is-decade-view');
+      }
+      if (vTimeline) vTimeline.style.display = 'none';
+      document.querySelectorAll('.btn-alpha-letter').forEach(b => b.classList.remove('active'));
       if (filterCiv) filterCiv.value = 'all';
       if (filterDomain) filterDomain.value = 'all';
       updatePeriodDropdown();
@@ -9332,13 +9360,20 @@ function renderSearchGallery() {
   const isArtistView = Boolean(artistHero && !artistHero.hidden);
   const activeArtistName = isArtistView && artistHeroName && artistHeroName.textContent ? artistHeroName.textContent.toLowerCase().trim() : '';
   const registry = window.ARTISTS_REGISTRY || {};
-  const activeArtistRecord = isArtistView ? Object.values(registry).find(
-    a => a.name.toLowerCase().trim() === activeArtistName ||
-         (a.sortName && a.sortName.toLowerCase().trim() === activeArtistName) ||
-         activeArtistName.startsWith(a.name.toLowerCase().trim()) ||
-         (a.sortName && activeArtistName.startsWith(a.sortName.toLowerCase().trim())) ||
-         (a.id && activeArtistName.includes(a.id))
-  ) : null;
+  let activeArtistRecord = null;
+  if (isArtistView) {
+    if (window.currentActiveArtistRecord && (
+      window.currentActiveArtistRecord.name.toLowerCase().trim() === activeArtistName ||
+      (window.currentActiveArtistRecord.sortName && window.currentActiveArtistRecord.sortName.toLowerCase().trim() === activeArtistName)
+    )) {
+      activeArtistRecord = window.currentActiveArtistRecord;
+    } else {
+      activeArtistRecord = Object.values(registry).find(
+        a => a.name.toLowerCase().trim() === activeArtistName ||
+             (a.sortName && a.sortName.toLowerCase().trim() === activeArtistName)
+      ) || null;
+    }
+  }
 
   const selectedCiv = filterCiv ? filterCiv.value : 'all';
   const selectedPeriod = filterPeriod ? filterPeriod.value : 'all';
@@ -9363,38 +9398,27 @@ function renderSearchGallery() {
     }
 
     // Si une fiche peintre est ouverte, verrouiller strictement sur les œuvres de ce peintre
-    if (isArtistView && (activeArtistName || activeArtistRecord)) {
-      const itemArtist = (item.artist || '').toLowerCase().trim();
+    if (isArtistView && (activeArtistRecord || activeArtistName)) {
+      const targetRecord = activeArtistRecord || window.currentActiveArtistRecord;
       const itemArtistId = (item.artistId || '').toLowerCase().trim();
-      let matches = false;
+      const recId = targetRecord ? (targetRecord.id || '').toLowerCase().trim() : '';
 
-      // A. Correspondance directe par identifiant d'artiste (artistId)
-      if (activeArtistRecord && itemArtistId && itemArtistId === activeArtistRecord.id.toLowerCase().trim()) {
-        matches = true;
-      }
-      // B. Correspondance par nom direct
-      else if (itemArtist && itemArtist === activeArtistName) {
-        matches = true;
-      }
-      // C. Correspondance avec la notice de référence (nom complet, nom de tri, ou nom épuré sans parenthèses)
-      else if (activeArtistRecord && itemArtist) {
-        const recName = (activeArtistRecord.name || '').toLowerCase().trim();
-        const recSort = (activeArtistRecord.sortName || '').toLowerCase().trim();
+      if (recId && itemArtistId) {
+        if (itemArtistId !== recId) return false;
+      } else {
+        const itemArtist = (item.artist || '').toLowerCase().trim();
+        const recName = targetRecord ? (targetRecord.name || '').toLowerCase().trim() : activeArtistName;
+        const recSort = targetRecord ? (targetRecord.sortName || '').toLowerCase().trim() : '';
         const recClean = recName.replace(/\(.*?\)/g, '').trim();
-        if (itemArtist === recName || itemArtist === recSort || itemArtist === recClean) {
+
+        let matches = false;
+        if (itemArtist === recName || itemArtist === recSort || itemArtist === recClean || itemArtist === activeArtistName) {
           matches = true;
-        } else if (recName.includes(itemArtist) || (recClean && itemArtist.includes(recClean))) {
-          matches = true;
-        } else if (itemArtist.includes(recSort) || (recSort && itemArtist.startsWith(recSort))) {
+        } else if (targetRecord && recClean.length >= 4 && itemArtist === recClean) {
           matches = true;
         }
+        if (!matches) return false;
       }
-      // D. Tolérance pour les parenthèses (ex: Caravage (Michelangelo Merisi))
-      else if (itemArtist && activeArtistName && (activeArtistName.includes(itemArtist) || itemArtist.includes(activeArtistName))) {
-        matches = true;
-      }
-
-      if (!matches) return false;
     }
 
     // 1. Filtre Civilisation (compatible civId "egypte_ancien" et civId "egypte")

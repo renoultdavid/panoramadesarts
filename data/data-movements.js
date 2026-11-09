@@ -97,6 +97,14 @@ window.MOVEMENTS_DATA = {
         "desc": "La Chambre des Époux à Mantoue et Le Christ mort.",
         "artistId": "",
         "icon": "🏛️"
+      },
+      {
+        "name": "Piero della Francesca",
+        "dates": "v. 1415 – 1492",
+        "role": "Grand théoricien de la perspective et poète de la géométrie pure",
+        "desc": "Portrait de Sigismond Malatesta, Le Triomphe de la chasteté, fresques d'Arezzo.",
+        "artistId": "piero_della_francesca",
+        "icon": "📐"
       }
     ]
   },
@@ -748,6 +756,14 @@ window.MOVEMENTS_DATA = {
         "desc": "Nu jaune, Prismes électriques, Rythmes, Serpent noir et robes simultanées.",
         "artistId": "sonia_delaunay",
         "icon": "✨"
+      },
+      {
+        "name": "Tamara de Lempicka",
+        "dates": "1898 – 1980",
+        "role": "Icône absolue de l'Art Déco et du cubisme synthétique mondain",
+        "desc": "Kizette en rose, La Mère supérieure, La Fuite, natures mortes au Musée de Nantes.",
+        "artistId": "lempicka",
+        "icon": "🌸"
       }
     ]
   },
