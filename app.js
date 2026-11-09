@@ -5581,6 +5581,7 @@ function openMonographForArtistRecord(artistRecord) {
   document.querySelectorAll('.btn-alpha-letter').forEach(b => b.classList.remove('active'));
 
   if (artistRecord && artistHero) {
+    artistHero.dataset.artistId = artistRecord.id || '';
     if (artistHeroBanner) {
       artistHeroBanner.style.backgroundImage = `url('${artistRecord.bannerImg}')`;
     }
@@ -7559,6 +7560,35 @@ function populateModalData(art) {
   }
   
   modalChips.innerHTML = '';
+
+  // Mention textuelle des dimensions certifiées
+  const dims = (art.dimensions && art.dimensions.h && art.dimensions.w)
+    ? art.dimensions
+    : (typeof CERTIFIED_PAINTING_DIMENSIONS !== 'undefined' && CERTIFIED_PAINTING_DIMENSIONS[art.id] ? CERTIFIED_PAINTING_DIMENSIONS[art.id] : null);
+
+  if (dims && dims.h && dims.w) {
+    const btnDim = document.createElement('span');
+    btnDim.className = 'attr-chip is-dimension-chip';
+    btnDim.title = `Dimensions certifiées de l'œuvre : ${dims.display || `${dims.h} × ${dims.w} cm`}`;
+    btnDim.innerHTML = `📏 Format : <strong>${dims.display || `${dims.h} × ${dims.w} cm`}</strong>`;
+    btnDim.style.cssText = `
+      display: inline-flex !important;
+      align-items: center !important;
+      gap: 6px !important;
+      background: linear-gradient(135deg, rgba(56, 189, 248, 0.18) 0%, rgba(56, 189, 248, 0.08) 100%) !important;
+      border: 1.5px solid rgba(56, 189, 248, 0.5) !important;
+      color: #bae6fd !important;
+      font-family: 'Outfit', sans-serif !important;
+      font-size: 0.76rem !important;
+      font-weight: 600 !important;
+      letter-spacing: 0.5px !important;
+      padding: 5px 12px !important;
+      border-radius: 16px !important;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35) !important;
+    `;
+    modalChips.appendChild(btnDim);
+  }
+
   if (art.chips) {
     art.chips.forEach(chip => {
       const btnChip = document.createElement('button');
@@ -7654,64 +7684,323 @@ function populateModalData(art) {
 }
 
 const CERTIFIED_PAINTING_DIMENSIONS = {
-  // Sandro Botticelli
-  "botticelli_sandro_le_printemps_primavera_1480_florence": { h: 203, w: 314, display: "203 × 314 cm" },
-  "botticelli_sandro_naissance_de_venus_1485_florence": { h: 172.5, w: 278.5, display: "172,5 × 278,5 cm" },
-  "botticelli_sandro_madone_du_magnificat_1481_florence": { h: 118, w: 119, display: "118 × 119 cm" },
-  
-  // Albrecht Altdorfer
   "altdorfer_bataille_issus": { h: 158.4, w: 120.3, display: "158,4 × 120,3 cm" },
-
-  // Antonello de Messine
+  "anonyme_ecole_fontainebleau_gabrielle_estrees_soeur_louvre": { h: 96, w: 125, display: "96 × 125 cm" },
+  "anonyme_fontainebleau_gabrielle_estree_soeur_1594_florence": { h: 96, w: 125, display: "96 × 125 cm" },
+  "anonyme_portrait_jean_ii_le_bon_louvre": { h: 60, w: 44.5, display: "60 × 44,5 cm" },
+  "arcimboldo_ete_1555_munich": { h: 67, w: 50.8, display: "67 × 50,8 cm" },
+  "arcimboldo_ete_1573_louvre": { h: 76, w: 63.5, display: "76 × 63,5 cm" },
+  "arcimboldo_hiver_1563_munich": { h: 67, w: 51, display: "67 × 51 cm" },
+  "arcimboldo_hiver_1573_louvre": { h: 76, w: 63.5, display: "76 × 63,5 cm" },
+  "arcimboldo_printemps_1563_munich": { h: 66, w: 50, display: "66 × 50 cm" },
+  "bacon_crucifixion_1965_munich": { h: 197.5, w: 147, display: "197,5 × 147 cm (par panneau)" },
+  "bacon_lying_figure_1969_madrid": { h: 198, w: 147.5, display: "198 × 147,5 cm" },
+  "bacon_trois_etudes_figures_pied_crucifixion_1944_londres": { h: 94, w: 74, display: "94 × 74 cm (par panneau)" },
+  "barozzi_gloire_saint_vital_ravenne_1778": { h: 850, w: 850, display: "8,5 × 8,5 m (coupole)" },
+  "beckmann_avant_le_bal_masque_1922_munich": { h: 80.4, w: 130.5, display: "80,4 × 130,5 cm" },
+  "bellini_giovanni_christ_benissant_1460_louvre": { h: 58, w: 46, display: "58 × 46 cm" },
+  "bellini_giovanni_crucifixion_1465_louvre": { h: 71, w: 63, display: "71 × 63 cm" },
+  "bellini_giovanni_vierge_enfant_1475_ajaccio": { h: 65, w: 46.5, display: "65 × 46,5 cm" },
+  "bellini_giovanni_vierge_enfant_saint_pierre_saint_sebastien_1487_louvre": { h: 82.7, w: 58.7, display: "82,7 × 58,7 cm" },
+  "blanchard_salon_diane_versailles_1671": { h: 410, w: 630, display: "410 × 630 cm (voûte)" },
+  "blanchard_salon_diane_versailles_1672": { h: 410, w: 630, display: "410 × 630 cm (voûte)" },
+  "bonheur_rosa_la_traite_1887": { h: 65, w: 81, display: "65 × 81 cm" },
+  "bonnard_pierre_table_de_toilette_1908_nantes": { h: 52.4, w: 45.7, display: "52,4 × 45,7 cm" },
+  "bosch_jerome_jardin_des_delices_1490_prado": { h: 205.5, w: 386, display: "205,5 × 386 cm" },
+  "bosch_jerome_la_meule_chariot_de_foin_1512_prado": { h: 135, w: 200, display: "135 × 200 cm" },
+  "bosch_jerome_tentation_saint_antoine_1501_lisbonne": { h: 131.5, w: 238, display: "131,5 × 238 cm" },
+  "botticelli_sandro_adoration_enfant_endormi_1485_edimbourg": { h: 122, w: 80.3, display: "122 × 80,3 cm" },
+  "botticelli_sandro_lamentation_christ_mort_1490_munich": { h: 140, w: 209.2, display: "140 × 209,2 cm" },
+  "botticelli_sandro_madone_du_magnificat_1481_florence": { h: 118, w: 119, display: "118 × 119 cm" },
+  "botticelli_sandro_pallas_et_le_centaure_1482_florence": { h: 207, w: 148, display: "207 × 148 cm" },
+  "botticelli_sandro_retable_saint_ambroise_1470_florence": { h: 170, w: 194, display: "170 × 194 cm" },
+  "botticelli_sandro_venus_trois_graces_villa_lemmi_1483_louvre": { h: 211, w: 284, display: "211 × 284 cm" },
+  "botticelli_sandro_vierge_enfant_ange_guirlande_1467_ajaccio": { h: 112, w: 74, display: "112 × 74 cm" },
+  "botticelli_sandro_vierge_enfant_deux_anges_jean_baptiste_1470_academie": { h: 85, w: 62, display: "85 × 62 cm" },
+  "boucher_mariage_psyche_amour_rouen_1744": { h: 93, w: 130, display: "93 × 130 cm" },
+  "boudin_bateaux_peche_camaret_rouen": { h: 33, w: 42.5, display: "33 × 42,5 cm" },
+  "braque_les_oiseaux_plafond_louvre_1953": { h: 270, w: 210, display: "270 × 210 cm" },
+  "braque_nature_morte_tokyo_1910": { h: 81, w: 60, display: "81 × 60 cm" },
+  "brauner_animal_moderne_strasbourg_1942": { h: 53.8, w: 73, display: "53,8 × 73 cm" },
+  "brauner_antithese_nantes_1937": { h: 14, w: 18, display: "14 × 18 cm" },
+  "brauner_arbre_n2_strasbourg_1957": { h: 92, w: 73, display: "92 × 73 cm" },
+  "brauner_dernier_voyage_nantes_1937": { h: 13.9, w: 18, display: "13,9 × 18 cm" },
+  "brauner_envoyeur_nantes_1937": { h: 13.9, w: 18, display: "13,9 × 18 cm" },
+  "brauner_intervision_nantes_1955": { h: 129.5, w: 195, display: "129,5 × 195 cm" },
+  "brauner_mode_nantes_1937": { h: 13.9, w: 18, display: "13,9 × 18 cm" },
+  "brauner_parole_strasbourg_1938": { h: 73, w: 60, display: "73 × 60 cm" },
+  "brauner_trio_nantes_1937": { h: 18, w: 13.6, display: "18 × 13,6 cm" },
+  "brauner_ville_qui_reve_nantes_1937": { h: 13.7, w: 18, display: "13,7 × 18 cm" },
+  "bronzino_descente_christ_limbes_1552": { h: 443, w: 291, display: "443 × 291 cm" },
+  "brueghel_jan_abraham_isaac_tokyo_1599": { h: 49.5, w: 64.7, display: "49,5 × 64,7 cm" },
+  "brueghel_pieter_jeune_actes_charite_lisbonne_1616": { h: 41.5, w: 56, display: "41,5 × 56 cm" },
+  "brueghel_pieter_jeune_danse_noces_munich_1610": { h: 40.8, w: 55.8, display: "40,8 × 55,8 cm" },
+  "brueghel_pieter_jeune_paysage_hiver_patineurs_tokyo": { h: 40.6, w: 56.8, display: "40,6 × 56,8 cm" },
+  "brueghel_pieter_jeune_rixe_paysans_montpellier_1620": { h: 74.5, w: 103.5, display: "74,5 × 103,5 cm" },
+  "cabanel_glorification_saint_louis_montpellier_1855": { h: 428.5, w: 446.5, display: "428,5 × 446,5 cm" },
+  "caillebotte_dans_un_cafe_rouen_1880": { h: 155, w: 115, display: "155 × 115 cm" },
+  "caillebotte_pont_de_leurope_rennes_1876": { h: 32.9, w: 44.4, display: "32,9 × 44,4 cm" },
+  "canaletto_caprice_edifices_palladiens_parme_1756": { h: 58, w: 82, display: "58 × 82 cm" },
+  "canaletto_caprice_monuments_venise_1742_rouen": { h: 58, w: 82, display: "58 × 82 cm" },
+  "caravage_bacchus_offices_florence_1598": { h: 95, w: 85, display: "95 × 85 cm" },
+  "caravage_christ_a_la_colonne_rouen_1606": { h: 134.5, w: 175.5, display: "134,5 × 175,5 cm" },
+  "caravage_david_et_goliath_prado_madrid_1610": { h: 110.4, w: 91.3, display: "110,4 × 91,3 cm" },
+  "caravage_diseuse_bonne_aventure_louvre_1595": { h: 99, w: 131, display: "99 × 131 cm" },
+  "caravage_meduse_offices_florence_1597": { h: 60, w: 55, display: "60 × 55 cm (bouclier circulaire)" },
+  "caravage_mort_de_la_vierge_louvre_1601": { h: 369, w: 245, display: "369 × 245 cm" },
+  "caravage_portrait_alof_de_wignacourt_louvre_1607": { h: 194, w: 134, display: "194 × 134 cm" },
+  "caravage_saint_jean_baptiste_tolede_1598": { h: 169, w: 112, display: "169 × 112 cm" },
+  "caravage_sept_oeuvres_misericorde_naples_1607": { h: 390, w: 260, display: "390 × 260 cm" },
+  "carpaccio_mort_de_la_vierge_ferrare_1508": { h: 242, w: 147, display: "242 × 147 cm" },
+  "carpaccio_predication_saint_etienne_louvre_1514": { h: 148, w: 194, display: "148 × 194 cm" },
+  "cezanne_autoportrait_bonnet_blanc_munich_1878": { h: 55.5, w: 46.2, display: "55,5 × 46,2 cm" },
+  "cezanne_la_promenade_tokyo_1871": { h: 56.5, w: 47, display: "56,5 × 47 cm" },
+  "cezanne_nature_morte_commode_munich_1883": { h: 73.3, w: 92.2, display: "73,3 × 92,2 cm" },
+  "cezanne_pont_deversoir_pontoise_tokyo_1881": { h: 59.1, w: 72.1, display: "59,1 × 72,1 cm" },
+  "cezanne_tranchee_sainte_victoire_munich_1870": { h: 80, w: 129, display: "80 × 129 cm" },
+  "chagall_autoportrait_horloge_nantes_1947": { h: 86, w: 70.5, display: "86 × 70,5 cm" },
+  "chagall_cheval_rouge_nantes_1938": { h: 114.5, w: 103, display: "114,5 × 103 cm" },
+  "chagall_plafond_opera_garnier_paris_1964": { h: 1800, w: 1800, display: "220 m² (diamètre 18 m)" },
+  "champaigne_adoration_des_bergers_rouen_1645": { h: 235, w: 162, display: "235 × 162 cm" },
+  "champaigne_apparition_saint_gervais_protais_louvre_1657": { h: 357, w: 682, display: "357 × 682 cm" },
+  "champaigne_assomption_de_la_vierge_louvre_1638": { h: 225, w: 154, display: "225 × 154 cm" },
+  "champaigne_cardinal_richelieu_louvre_1633": { h: 222, w: 155, display: "222 × 155 cm" },
+  "champaigne_christ_jardin_oliviers_rennes_1646": { h: 134, w: 100, display: "134 × 100 cm" },
+  "champaigne_ecce_homo_rouen_1655": { h: 98, w: 75, display: "98 × 75 cm" },
+  "champaigne_enfants_habert_de_montmor_rennes_1649": { h: 122, w: 185, display: "122 × 185 cm" },
+  "champaigne_ex_voto_1662_louvre": { h: 165, w: 229, display: "165 × 229 cm" },
+  "champaigne_ex_voto_1662_louvre_1662": { h: 165, w: 229, display: "165 × 229 cm" },
+  "champaigne_jb_salon_mercure_versailles_1672": { h: 420, w: 650, display: "420 × 650 cm (voûte)" },
+  "champaigne_jb_salon_mercure_versailles_1674": { h: 420, w: 650, display: "420 × 650 cm (voûte)" },
+  "champaigne_jean_antoine_de_mesmes_louvre_1653": { h: 140, w: 110, display: "140 × 110 cm" },
+  "champaigne_la_cène_louvre_1652": { h: 158, w: 233, display: "158 × 233 cm" },
+  "champaigne_la_grande_cene_louvre_1662": { h: 158, w: 233, display: "158 × 233 cm" },
+  "champaigne_la_madeleine_penitente_rennes_1650": { h: 118, w: 88, display: "118 × 88 cm" },
+  "champaigne_la_petite_cene_louvre_1651": { h: 80, w: 149, display: "80 × 149 cm" },
+  "champaigne_la_vierge_de_douleur_louvre_1655": { h: 82, w: 65, display: "82 × 65 cm" },
+  "champaigne_le_bon_pasteur_tokyo_1650": { h: 115, w: 85, display: "115 × 85 cm" },
+  "champaigne_le_christ_mort_louvre_1650": { h: 68, w: 197, display: "68 × 197 cm" },
+  "champaigne_le_mariage_de_la_vierge_paris_1644": { h: 215, w: 150, display: "215 × 150 cm" },
+  "champaigne_le_repas_chez_simon_nantes_1656": { h: 215, w: 322, display: "215 × 322 cm" },
+  "champaigne_le_sommeil_de_saint_joseph_rennes_1642": { h: 210, w: 156, display: "210 × 156 cm" },
+  "champaigne_louis_xiii_couronne_victoire_louvre_1635": { h: 228, w: 175, display: "228 × 175 cm" },
+  "champaigne_louis_xiii_victoire_louvre_1635": { h: 228, w: 175, display: "228 × 175 cm" },
+  "champaigne_madeleine_penitente_rennes_1648": { h: 118, w: 88, display: "118 × 88 cm" },
+  "champaigne_marie_madeleine_penitente_tokyo_1668": { h: 121, w: 96, display: "121 × 96 cm" },
+  "champaigne_portrait_antoine_singlin_louvre_1646": { h: 79, w: 64, display: "79 × 64 cm" },
+  "champaigne_portrait_cardinal_richelieu_louvre_1639": { h: 222, w: 155, display: "222 × 155 cm" },
+  "champaigne_portrait_deux_hommes_louvre_1656": { h: 133, w: 187, display: "133 × 187 cm" },
+  "champaigne_portrait_homme_arnauld_andilly_louvre_1650": { h: 91, w: 72, display: "91 × 72 cm" },
+  "champaigne_presentation_au_temple_dijon_1648": { h: 111, w: 86, display: "111 × 86 cm" },
+  "champaigne_robert_arnauld_d_andilly_louvre_1667": { h: 131, w: 97, display: "131 × 97 cm" },
+  "champaigne_saint_augustin_los_angeles_1645": { h: 78.7, w: 62.2, display: "78,7 × 62,2 cm" },
+  "champaigne_saint_jean_baptiste_nantes_1660": { h: 131, w: 98, display: "131 × 98 cm" },
+  "champaigne_transfert_corps_saint_gervais_protais_louvre_1660": { h: 362, w: 678, display: "362 × 678 cm" },
+  "champaigne_triple_portrait_richelieu_londres_1642": { h: 58.7, w: 72.7, display: "58,7 × 72,7 cm" },
+  "champaigne_vanite_nature_morte_mans_1644": { h: 28, w: 37, display: "28 × 37 cm" },
+  "chardin_jean_simeon_lievre_mort_gibeciere_1730_louvre": { h: 98.5, w: 77, display: "98,5 × 77 cm" },
+  "chardin_lievre_mort_poire_poudre_louvre_1730": { h: 98.5, w: 77, display: "98,5 × 77 cm" },
+  "chirico_deux_personnages_nantes_1920": { h: 55, w: 46, display: "55 × 46 cm" },
+  "chirico_les_muses_inquietantes_munich_1917": { h: 97, w: 66, display: "97 × 66 cm" },
   "christ_colonne_messine_louvre_1475": { h: 39, w: 31, display: "39 × 31 cm" },
+  "cimabue_crucifix_santa_croce_1280": { h: 448, w: 390, display: "448 × 390 cm" },
+  "cimabue_maesta_louvre_1280": { h: 427, w: 280, display: "427 × 280 cm" },
+  "cimabue_maesta_vierge_louvre_1280": { h: 427, w: 280, display: "427 × 280 cm" },
+  "clouet_francois_bain_de_diane_1559_rouen": { h: 136, w: 196, display: "136 × 196 cm" },
+  "clouet_francois_bain_de_diane_rouen_1550": { h: 136, w: 196, display: "136 × 196 cm" },
+  "clouet_jean_francois_ier_louvre_1530": { h: 96, w: 74, display: "96 × 74 cm" },
+  "clouet_jean_francois_ier_saint_jean_baptiste_louvre_1518": { h: 47, w: 35, display: "47 × 35 cm" },
+  "clouet_jean_guillaume_bude_1536": { h: 39.7, w: 34.3, display: "39,7 × 34,3 cm" },
   "condottiere_messine_louvre_1475": { h: 36, w: 30, display: "36 × 30 cm" },
-
-  // Piero della Francesca
-  "piero_sigismond_malatesta_louvre_1451": { h: 44.5, w: 34.5, display: "44,5 × 34,5 cm" },
-  "piero_triomphe_chastete_offices_1473": { h: 47, w: 66, display: "47 × 66 cm" },
-
-  // Tamara de Lempicka
-  "lempicka_kizette_en_rose_nantes_1926": { h: 116, w: 73, display: "116 × 73 cm" },
-  "lempicka_mere_superieure_nantes_1935": { h: 30, w: 20, display: "30 × 20 cm" },
-  "lempicka_la_fuite_nantes_1940": { h: 51, w: 40.5, display: "51 × 40,5 cm" },
-  "lempicka_moulin_a_cafe_nantes_1941": { h: 38, w: 46, display: "38 × 46 cm" },
-  "lempicka_atelier_a_la_campagne_nantes_1941": { h: 41, w: 33, display: "41 × 33 cm" },
-  "lempicka_portrait_jeune_fille_nantes_1947": { h: 41, w: 33, display: "41 × 33 cm" },
-  "lempicka_fruits_sur_fond_noir_nantes_1949": { h: 30, w: 40, display: "30 × 40 cm" },
-
-  // Sonia Delaunay
-  "sonia_delaunay_nu_jaune_nantes_1908": { h: 65, w: 99, display: "65 × 99 cm" },
-  "sonia_delaunay_serpent_noir_nantes_1971": { h: 130, w: 260, display: "130 × 260 cm" },
-
-  // Robert Delaunay
-  "delaunay_fete_a_la_campagne_rennes_1905": { h: 92, w: 73, display: "92 × 73 cm" },
-  "delaunay_portrait_henri_carlier_montpellier_1906": { h: 64, w: 60, display: "64 × 60 cm" },
-  "delaunay_nature_morte_portugaise_montpellier_1915": { h: 140, w: 140, display: "140 × 140 cm" },
-
-  // Georges de La Tour
-  "la_tour_vielleur_au_chapeau_nantes_1620": { h: 186, w: 138, display: "186 × 138 cm" },
-  "la_tour_tricheur_as_de_carreau_louvre_1636": { h: 106, w: 146, display: "106 × 146 cm" },
-  "la_tour_songe_saint_joseph_nantes_1640": { h: 93, w: 81, display: "93 × 81 cm" },
-  "la_tour_saint_joseph_charpentier_louvre_1642": { h: 137, w: 102, display: "137 × 102 cm" },
-  "la_tour_madeleine_terff_louvre_1642": { h: 128, w: 94, display: "128 × 94 cm" },
-  "la_tour_adoration_des_bergers_louvre_1644": { h: 107, w: 131, display: "107 × 131 cm" },
-  "la_tour_le_nouveau_ne_rennes_1648": { h: 76, w: 91, display: "76 × 91 cm" },
-  "la_tour_saint_sebastien_soigne_irene_louvre_1649": { h: 167, w: 131, display: "167 × 131 cm" },
-  "la_tour_reniement_saint_pierre_nantes_1650": { h: 120, w: 160, display: "120 × 160 cm" },
-
-  // Edgar Degas
-  "degas_renard_mort_rouen_1865": { h: 35, w: 47, display: "35 × 47 cm" },
-  "degas_la_repasseuse_munich_1869": { h: 92.5, w: 73.5, display: "92,5 × 73,5 cm" },
-  "degas_trois_danseuses_coulisses_tokyo_1880": { h: 69.2, w: 49.5, display: "69,2 × 49,5 cm" },
-
-  // Pieter de Hooch
-  "de_hooch_la_buveuse_louvre_1658": { h: 69, w: 60, display: "69 × 60 cm" },
+  "constable_baie_de_weymouth_louvre_1818": { h: 88, w: 112, display: "88 × 112 cm" },
+  "constable_john_baie_de_weymouth_1816_louvre": { h: 88, w: 112, display: "88 × 112 cm" },
+  "corneille_salon_grand_couvert_versailles_1678": { h: 390, w: 580, display: "390 × 580 cm (voûte)" },
+  "corneille_salon_mercure_versailles_1672": { h: 390, w: 580, display: "390 × 580 cm (voûte)" },
+  "corot_avant_port_rouen_1834": { h: 110, w: 173, display: "110 × 173 cm" },
+  "corot_democrite_abderitains_nantes_1841": { h: 164, w: 131.7, display: "164 × 131,7 cm" },
+  "corot_etangs_ville_davray_rouen_1867": { h: 102, w: 155.4, display: "102 × 155,4 cm" },
+  "corot_passage_du_gue_rennes_1853": { h: 100, w: 133.5, display: "100 × 133,5 cm" },
+  "corot_rue_coulommiers_rouen_1871": { h: 39, w: 52, display: "39 × 52 cm" },
+  "corot_soleil_couchant_apres_pluie_nantes_1858": { h: 42, w: 32, display: "42 × 32 cm" },
+  "corot_souvenir_plage_naples_tokyo_1870": { h: 175, w: 84, display: "175 × 84 cm" },
+  "corot_ville_davray_etang_au_bouleau_rouen_1872": { h: 43.8, w: 82.8, display: "43,8 × 82,8 cm" },
+  "cortone_autoportrait_ajaccio_1664": { h: 77, w: 55, display: "77 × 55 cm" },
+  "cortone_plafond_salon_venus_palais_pitti_1641": { h: 680, w: 950, display: "6,8 × 9,5 m (fresque de voûte)" },
+  "cortone_sainte_famille_ajaccio_1640": { h: 45, w: 34, display: "45 × 34 cm" },
+  "costa_chapelle_bentivoglio_1490": { h: 450, w: 650, display: "450 × 650 cm (fresque)" },
+  "courbet_apres_diner_ornans_lille_1849": { h: 195, w: 257, display: "195 × 257 cm" },
+  "courbet_atelier_du_peintre_orsay_1855": { h: 361, w: 598, display: "361 × 598 cm" },
+  "courbet_autoportrait_au_chien_noir_paris_1842": { h: 46.3, w: 55.5, display: "46,3 × 55,5 cm" },
+  "courbet_enterrement_a_ornans_orsay_1849": { h: 315, w: 668, display: "315 × 668 cm" },
+  "courbet_falaises_etretat_orsay_1870": { h: 133, w: 162, display: "133 × 162 cm" },
+  "courbet_homme_a_la_pipe_lisbonne_1848": { h: 45, w: 37, display: "45 × 37 cm" },
+  "courbet_homme_a_la_pipe_montpellier_1849": { h: 46, w: 38, display: "46 × 38 cm" },
+  "courbet_l_origine_du_monde_orsay_1866": { h: 46, w: 55, display: "46 × 55 cm" },
+  "courbet_la_fileuse_endormie_montpellier_1853": { h: 91, w: 115, display: "91 × 115 cm" },
+  "courbet_la_rencontre_bonjour_m_courbet_montpellier_1854": { h: 129, w: 149, display: "129 × 149 cm" },
+  "courbet_la_rencontre_bonjour_monsieur_courbet_montpellier_1854": { h: 129, w: 149, display: "129 × 149 cm" },
+  "courbet_la_truite_orsay_1873": { h: 55.5, w: 89, display: "55,5 × 89 cm" },
+  "courbet_la_vague_orsay_1869": { h: 112, w: 144, display: "112 × 144 cm" },
+  "courbet_la_vague_tokyo_1869": { h: 66, w: 90, display: "66 × 90 cm" },
+  "courbet_le_bord_de_mer_a_palavas_montpellier_1854": { h: 27, w: 46, display: "27 × 46 cm" },
+  "courbet_le_desespere_collection_1843": { h: 45, w: 54, display: "45 × 54 cm" },
+  "courbet_le_pont_d_ambrussum_montpellier_1857": { h: 48, w: 64, display: "48 × 64 cm" },
+  "courbet_le_renard_pris_au_piege_tokyo_1860": { h: 72.5, w: 91.5, display: "72,5 × 91,5 cm" },
+  "courbet_le_sommeil_petit_palais_1866": { h: 135, w: 200, display: "135 × 200 cm" },
+  "courbet_les_baigneuses_montpellier_1853": { h: 227, w: 193, display: "227 × 193 cm" },
+  "courbet_les_casseurs_de_pierres_dresde_1849": { h: 165, w: 257, display: "165 × 257 cm" },
+  "courbet_les_cribleuses_de_ble_nantes_1854": { h: 131, w: 167, display: "131 × 167 cm" },
+  "courbet_les_demoiselles_bords_seine_petit_palais_1856": { h: 174, w: 206, display: "174 × 206 cm" },
+  "courbet_les_demoiselles_de_village_met_1852": { h: 194.9, w: 261, display: "194,9 × 261 cm" },
+  "courbet_les_etangs_a_palavas_montpellier_1857": { h: 46, w: 55, display: "46 × 55 cm" },
+  "courbet_paysage_avec_chasseur_tokyo_1873": { h: 86, w: 127, display: "86 × 127 cm" },
+  "courbet_paysans_de_flagey_besancon_1850": { h: 208, w: 275, display: "208 × 275 cm" },
+  "courbet_portrait_baudelaire_montpellier_1848": { h: 54, w: 65, display: "54 × 65 cm" },
+  "courbet_portrait_bruyas_malade_montpellier_1854": { h: 46, w: 38, display: "46 × 38 cm" },
+  "courbet_portrait_bruyas_profil_montpellier_1854": { h: 46, w: 38, display: "46 × 38 cm" },
+  "courbet_renard_pris_au_piege_tokyo_1860": { h: 72.5, w: 91.5, display: "72,5 × 91,5 cm" },
+  "courbet_solitude_le_ruisseau_couvert_montpellier_1866": { h: 94, w: 136, display: "94 × 136 cm" },
+  "courbet_vue_de_la_tour_de_farges_montpellier_1857": { h: 46, w: 55, display: "46 × 55 cm" },
+  "cranach_adam_et_eve_courtauld_1526": { h: 117.1, w: 80.8, display: "117,1 × 80,8 cm" },
+  "cranach_adam_et_eve_offices_1528": { h: 172, w: 63, display: "172 × 63 cm (chaque volet)" },
+  "cranach_jardin_gethsemani_tokyo_1518": { h: 54, w: 32, display: "54 × 32 cm" },
+  "cranach_judith_et_holopherne_lisbonne_1530": { h: 61, w: 49.5, display: "61 × 49,5 cm" },
+  "cranach_judith_tete_holopherne_tokyo_1530": { h: 37.2, w: 25, display: "37,2 × 25 cm" },
+  "cranach_salome_et_tete_jean_baptiste_lisbonne_1537": { h: 61, w: 49.5, display: "61 × 49,5 cm" },
+  "daddi_annonciation_louvre_1335": { h: 43.5, w: 70.5, display: "43,5 × 70,5 cm" },
+  "daddi_madone_entouree_quatre_saints_nantes_1340": { h: 37, w: 22, display: "37 × 22 cm" },
+  "daddi_vierge_a_l_enfant_orsanmichele_1347": { h: 250, w: 180, display: "250 × 180 cm" },
+  "dali_alice_au_pays_des_merveilles_chenille_figueras_1969": { h: 40, w: 28, display: "40 × 28 cm" },
+  "dali_angelus_architectonique_millet_reina_sofia_1933": { h: 73, w: 60, display: "73 × 60 cm" },
+  "dali_apotheose_du_dollar_figueras_1965": { h: 400, w: 300, display: "400 × 300 cm" },
+  "dali_autoportrait_adolescent_figueras_1920": { h: 47.5, w: 30.8, display: "47,5 × 30,8 cm" },
+  "dali_autoportrait_cou_raphaelesque_figueras_1921": { h: 40.5, w: 53, display: "40,5 × 53 cm" },
+  "dali_autoportrait_mou_lard_grille_figueras_1941": { h: 61, w: 51, display: "61 × 51 cm" },
+  "dali_chair_de_poule_inaugurale_figueras_1928": { h: 75.5, w: 62.5, display: "75,5 × 62,5 cm" },
+  "dali_composition_surrealiste_formes_molles_figueras_1932": { h: 16.2, w: 13.5, display: "16,2 × 13,5 cm" },
+  "dali_corbeille_de_pain_figueras_1945": { h: 33, w: 38, display: "33 × 38 cm" },
+  "dali_corpus_hypercubus_met_1954": { h: 194.3, w: 123.8, display: "194,3 × 123,8 cm" },
+  "dali_creation_de_l_homme_figueras_1954": { h: 80, w: 100, display: "80 × 100 cm" },
+  "dali_decouverte_amerique_colomb_saint_petersburg_1959": { h: 410, w: 284, display: "410 × 284 cm" },
+  "dali_echo_geologique_la_pieta_figueras_1982": { h: 100, w: 100, display: "100 × 100 cm" },
+  "dali_fil_rouge_et_pin_figueras_1975": { h: 100, w: 120, display: "100 × 120 cm" },
+  "dali_gala_nue_de_dos_figueras_1960": { h: 42, w: 32, display: "42 × 32 cm" },
+  "dali_galarina_figueras_1945": { h: 64, w: 50, display: "64 × 50 cm" },
+  "dali_galatee_aux_spheres_figueras_1952": { h: 65, w: 54, display: "65 × 54 cm" },
+  "dali_jeune_fille_a_la_fenetre_reina_sofia_1925": { h: 105, w: 74.5, display: "105 × 74,5 cm" },
+  "dali_jeune_fille_assise_de_dos_reina_sofia_1925": { h: 104, w: 75, display: "104 × 75 cm" },
+  "dali_l_enigme_d_hitler_reina_sofia_1939": { h: 51.2, w: 79.3, display: "51,2 × 79,3 cm" },
+  "dali_l_enigme_sans_fin_reina_sofia_1938": { h: 114.3, w: 144, display: "114,3 × 144 cm" },
+  "dali_l_homme_invisible_reina_sofia_1933": { h: 140, w: 81, display: "140 × 81 cm" },
+  "dali_la_cene_washington_1955": { h: 166.7, w: 267, display: "166,7 × 267 cm" },
+  "dali_le_chemin_de_l_enigme_figueras_1981": { h: 140, w: 94, display: "140 × 94 cm" },
+  "dali_le_cheval_tres_joyeux_figueras_1980": { h: 100, w: 125, display: "100 × 125 cm" },
+  "dali_le_grand_masturbateur_reina_sofia_1929": { h: 110, w: 150, display: "110 × 150 cm" },
+  "dali_le_palais_du_vent_plafond_figueras_1972": { h: 1200, w: 800, display: "12 × 8 m (plafond monumental)" },
+  "dali_le_spectre_du_sex_appeal_figueras_1934": { h: 17.9, w: 13.9, display: "17,9 × 13,9 cm" },
+  "dali_leda_atomica_figueras_1949": { h: 61, w: 46, display: "61 × 46 cm" },
+  "dali_leda_atomique_figueras_1949": { h: 61.1, w: 45.3, display: "61,1 × 45,3 cm" },
+  "dali_metamorphose_de_narcisse_tate_1936": { h: 51.1, w: 78.1, display: "51,1 × 78,1 cm" },
+  "dali_nature_morte_clair_de_lune_reina_sofia_1926": { h: 46, w: 60, display: "46 × 60 cm" },
+  "dali_nature_morte_puriste_figueras_1924": { h: 100, w: 100, display: "100 × 100 cm" },
+  "dali_peignant_gala_de_dos_figueras_1973": { h: 60.5, w: 60.5, display: "60,5 × 60,5 cm" },
+  "dali_petites_cendres_cenicitas_reina_sofia_1927": { h: 64, w: 48, display: "64 × 48 cm" },
+  "dali_pierrot_jouant_guitare_reina_sofia_1925": { h: 198, w: 149, display: "198 × 149 cm" },
+  "dali_poesie_d_amerique_figueras_1943": { h: 116.8, w: 78.7, display: "116,8 × 78,7 cm" },
+  "dali_portrait_de_ma_soeur_figueras_1925": { h: 99, w: 99, display: "99 × 99 cm" },
+  "dali_portrait_luis_bunuel_reina_sofia_1924": { h: 70, w: 60, display: "70 × 60 cm" },
+  "dali_portrait_picasso_figueras_1947": { h: 64.1, w: 54.7, display: "64,1 × 54,7 cm" },
+  "dali_portrait_picasso_xxi_figueras_1947": { h: 64.1, w: 54.7, display: "64,1 × 54,7 cm" },
+  "dali_songes_pantagruel_bouffon_figueras_1973": { h: 76, w: 54, display: "76 × 54 cm" },
+  "dali_songes_pantagruel_guerrier_rongeurs_figueras_1973": { h: 76, w: 54, display: "76 × 54 cm" },
+  "dali_songes_pantagruel_oeuf_fele_figueras_1973": { h: 76, w: 54, display: "76 × 54 cm" },
+  "dali_songes_pantagruel_rapace_trompettes_figueras_1973": { h: 76, w: 54, display: "76 × 54 cm" },
+  "dali_toreador_hallucinogene_saint_petersburg_1970": { h: 398.8, w: 299.7, display: "398,8 × 299,7 cm" },
+  "dali_tristan_et_iseult_figueras_1944": { h: 26.7, w: 48.2, display: "26,7 × 48,2 cm" },
+  "dali_trois_apparitions_visage_gala_figueras_1946": { h: 71, w: 85, display: "71 × 85 cm" },
+  "dali_venus_qui_sourit_figueras_1921": { h: 41.5, w: 53, display: "41,5 × 53 cm" },
+  "daumier_don_quichotte_munich_1868": { h: 52, w: 32, display: "52 × 32 cm" },
+  "daumier_honore_don_quichotte_mule_1867_louvre": { h: 52.2, w: 32.8, display: "52,2 × 32,8 cm" },
+  "david_amours_paris_helene_louvre_1788": { h: 146, w: 181, display: "146 × 181 cm" },
+  "david_andromaque_louvre_1783": { h: 275, w: 203, display: "275 × 203 cm" },
+  "david_autoportrait_louvre_1794": { h: 81, w: 64, display: "81 × 64 cm" },
+  "david_belisaire_demandant_aumone_lille_1781": { h: 288, w: 312, display: "288 × 312 cm" },
+  "david_bonaparte_au_grand_saint_bernard_versailles_1801": { h: 260, w: 221, display: "260 × 221 cm" },
+  "david_bonaparte_grand_saint_bernard_malmaison_1801": { h: 260, w: 221, display: "260 × 221 cm" },
+  "david_brutus_louvre_1789": { h: 323, w: 422, display: "323 × 422 cm" },
+  "david_combat_minerve_mars_louvre_1771": { h: 114, w: 140, display: "114 × 140 cm" },
+  "david_couronnement_napoleon_louvre_1807": { h: 621, w: 979, display: "621 × 979 cm" },
+  "david_distribution_des_aigles_versailles_1810": { h: 610, w: 970, display: "610 × 970 cm" },
+  "david_le_serment_des_horaces_louvre_1784": { h: 330, w: 425, display: "330 × 425 cm" },
+  "david_leonidas_aux_thermopyles_louvre_1814": { h: 395, w: 531, display: "395 × 531 cm" },
+  "david_les_sabines_louvre_1799": { h: 385, w: 522, display: "385 × 522 cm" },
+  "david_licteurs_brutus_louvre_1789": { h: 323, w: 422, display: "323 × 422 cm" },
+  "david_madame_recamier_louvre_1800": { h: 174, w: 244, display: "174 × 244 cm" },
+  "david_mars_desarme_par_venus_bruxelles_1824": { h: 308, w: 265, display: "308 × 265 cm" },
+  "david_mort_de_marat_bruxelles_1793": { h: 165, w: 128, display: "165 × 128 cm" },
+  "david_mort_de_socrate_met_1787": { h: 129.5, w: 196.2, display: "129,5 × 196,2 cm" },
+  "david_napoleon_dans_son_cabinet_tuileries_1812": { h: 203.9, w: 125.1, display: "203,9 × 125,1 cm" },
+  "david_portrait_docteur_delzeuze_enfant_rouen_1792": { h: 33, w: 25, display: "33 × 25 cm" },
+  "david_portrait_emilie_seriziat_louvre_1795": { h: 131, w: 96, display: "131 × 96 cm" },
+  "david_portrait_juliette_de_villeneuve_louvre_1824": { h: 197, w: 123, display: "197 × 123 cm" },
+  "david_portrait_madame_recamier_louvre_1800": { h: 174, w: 244, display: "174 × 244 cm" },
+  "david_portrait_marquise_orvilliers_louvre_1790": { h: 131, w: 98, display: "131 × 98 cm" },
+  "david_portrait_pierre_seriziat_louvre_1795": { h: 129, w: 95, display: "129 × 95 cm" },
+  "david_sabines_louvre_1799": { h: 385, w: 522, display: "385 × 522 cm" },
+  "david_sacre_de_napoleon_louvre_1807": { h: 621, w: 979, display: "621 × 979 cm" },
+  "david_serment_des_horaces_louvre_1784": { h: 330, w: 425, display: "330 × 425 cm" },
+  "david_serment_jeu_de_paume_versailles_1791": { h: 66, w: 101, display: "66 × 101 cm" },
   "de_hooch_femme_preparant_legumes_louvre_1657": { h: 60, w: 47, display: "60 × 47 cm" },
   "de_hooch_joueurs_cartes_louvre_1663": { h: 67, w: 77, display: "67 × 77 cm" },
-
-  // Eugène Delacroix
+  "de_hooch_la_buveuse_louvre_1658": { h: 69, w: 60, display: "69 × 60 cm" },
+  "degas_la_repasseuse_munich_1869": { h: 92.5, w: 73.5, display: "92,5 × 73,5 cm" },
+  "degas_renard_mort_rouen_1865": { h: 35, w: 47, display: "35 × 47 cm" },
+  "degas_trois_danseuses_coulisses_tokyo_1880": { h: 69.2, w: 49.5, display: "69,2 × 49,5 cm" },
   "delacroix_autoportrait_rouen_1816": { h: 60.5, w: 50.5, display: "60,5 × 50,5 cm" },
-  "delacroix_barque_de_dante_louvre_1822": { h: 189, w: 241, display: "189 × 241 cm" }
+  "delacroix_barque_de_dante_louvre_1822": { h: 189, w: 241, display: "189 × 241 cm" },
+  "delacroix_exercices_militaires_marocains_montpellier_1832": { h: 60, w: 73, display: "60 × 73 cm" },
+  "delacroix_femmes_alger_appartement_louvre_1834": { h: 180, w: 229, display: "180 × 229 cm" },
+  "delacroix_femmes_alger_esquisse_rouen_1832": { h: 27.5, w: 22, display: "27,5 × 22 cm" },
+  "delacroix_femmes_alger_interieur_montpellier_1849": { h: 84, w: 111, display: "84 × 111 cm" },
+  "delacroix_justice_de_trajan_rouen_1840": { h: 495, w: 396, display: "495 × 396 cm" },
+  "delacroix_le_kaid_chef_marocain_nantes_1837": { h: 98, w: 118, display: "98 × 118 cm" },
+  "delacroix_michel_ange_atelier_montpellier_1840": { h: 40.5, w: 33, display: "40,5 × 33 cm" },
+  "delacroix_naufrage_don_juan_louvre_1840": { h: 135, w: 196, display: "135 × 196 cm" },
+  "delacroix_portrait_alfred_bruyas_montpellier_1853": { h: 91, w: 73, display: "91 × 73 cm" },
+  "delacroix_ruines_abbaye_valmont_rouen_1831": { h: 47, w: 55, display: "47 × 55 cm" },
+  "delaunay_fete_a_la_campagne_rennes_1905": { h: 92, w: 73, display: "92 × 73 cm" },
+  "delaunay_nature_morte_portugaise_montpellier_1915": { h: 140, w: 140, display: "140 × 140 cm" },
+  "delaunay_portrait_henri_carlier_montpellier_1906": { h: 64, w: 60, display: "64 × 60 cm" },
+  "filippi_antichambre_gouvernement_1570": { h: 360, w: 540, display: "360 × 540 cm (plafond)" },
+  "houasse_salon_mars_versailles_1674": { h: 430, w: 680, display: "430 × 680 cm (voûte)" },
+  "houasse_salon_venus_versailles_1672": { h: 430, w: 680, display: "430 × 680 cm (voûte)" },
+  "la_tour_adoration_des_bergers_louvre_1644": { h: 107, w: 131, display: "107 × 131 cm" },
+  "la_tour_le_nouveau_ne_rennes_1648": { h: 76, w: 91, display: "76 × 91 cm" },
+  "la_tour_madeleine_terff_louvre_1642": { h: 128, w: 94, display: "128 × 94 cm" },
+  "la_tour_reniement_saint_pierre_nantes_1650": { h: 120, w: 160, display: "120 × 160 cm" },
+  "la_tour_saint_joseph_charpentier_louvre_1642": { h: 137, w: 102, display: "137 × 102 cm" },
+  "la_tour_saint_sebastien_soigne_irene_louvre_1649": { h: 167, w: 131, display: "167 × 131 cm" },
+  "la_tour_songe_saint_joseph_nantes_1640": { h: 93, w: 81, display: "93 × 81 cm" },
+  "la_tour_tricheur_as_de_carreau_louvre_1636": { h: 106, w: 146, display: "106 × 146 cm" },
+  "la_tour_vielleur_au_chapeau_nantes_1620": { h: 186, w: 138, display: "186 × 138 cm" },
+  "lafosse_blanchard_salon_apollon_versailles_1672": { h: 440, w: 720, display: "440 × 720 cm (voûte)" },
+  "lafosse_salon_apollon_versailles_1677": { h: 440, w: 720, display: "440 × 720 cm (voûte)" },
+  "lemoyne_apotheose_hercule_versailles_1733": { h: 1800, w: 2600, display: "480 m² (voûte 18 × 26 m)" },
+  "lemoyne_salon_hercule_versailles_1736": { h: 1800, w: 2600, display: "480 m² (voûte 18 × 26 m)" },
+  "lempicka_atelier_a_la_campagne_nantes_1941": { h: 41, w: 33, display: "41 × 33 cm" },
+  "lempicka_fruits_sur_fond_noir_nantes_1949": { h: 30, w: 40, display: "30 × 40 cm" },
+  "lempicka_kizette_en_rose_nantes_1926": { h: 116, w: 73, display: "116 × 73 cm" },
+  "lempicka_la_fuite_nantes_1940": { h: 51, w: 40.5, display: "51 × 40,5 cm" },
+  "lempicka_mere_superieure_nantes_1935": { h: 30, w: 20, display: "30 × 20 cm" },
+  "lempicka_moulin_a_cafe_nantes_1941": { h: 38, w: 46, display: "38 × 46 cm" },
+  "lempicka_portrait_jeune_fille_nantes_1947": { h: 41, w: 33, display: "41 × 33 cm" },
+  "piero_sigismond_malatesta_louvre_1451": { h: 44.5, w: 34.5, display: "44,5 × 34,5 cm" },
+  "piero_triomphe_chastete_offices_1473": { h: 47, w: 66, display: "47 × 66 cm" },
+  "settevecchi_camerino_baccanali_1570": { h: 320, w: 480, display: "320 × 480 cm (décor)" },
+  "settevecchi_chambre_aurore_1574": { h: 350, w: 520, display: "350 × 520 cm (plafond)" },
+  "settevecchi_saletta_giochi_1570": { h: 340, w: 510, display: "340 × 510 cm (plafond)" },
+  "sonia_delaunay_nu_jaune_nantes_1908": { h: 65, w: 99, display: "65 × 99 cm" },
+  "sonia_delaunay_serpent_noir_nantes_1971": { h: 130, w: 260, display: "130 × 260 cm" }
 };
 
 function getHumanMaleSvg(hPx) {
@@ -9521,15 +9810,16 @@ function renderSearchGallery() {
   const registry = window.ARTISTS_REGISTRY || {};
   let activeArtistRecord = null;
   if (isArtistView) {
-    if (window.currentActiveArtistRecord && (
-      window.currentActiveArtistRecord.name.toLowerCase().trim() === activeArtistName ||
-      (window.currentActiveArtistRecord.sortName && window.currentActiveArtistRecord.sortName.toLowerCase().trim() === activeArtistName)
-    )) {
+    const heroArtistId = artistHero ? artistHero.dataset.artistId : '';
+    if (heroArtistId && registry[heroArtistId]) {
+      activeArtistRecord = registry[heroArtistId];
+    } else if (window.currentActiveArtistRecord) {
       activeArtistRecord = window.currentActiveArtistRecord;
     } else {
       activeArtistRecord = Object.values(registry).find(
         a => a.name.toLowerCase().trim() === activeArtistName ||
-             (a.sortName && a.sortName.toLowerCase().trim() === activeArtistName)
+             (a.sortName && a.sortName.toLowerCase().trim() === activeArtistName) ||
+             (a.id && a.id.toLowerCase().trim() === activeArtistName)
       ) || null;
     }
   }
