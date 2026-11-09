@@ -7377,6 +7377,343 @@ window.ARTISTS_REGISTRY = {
         }
       ]
     }
-  }
-};
-
+  },
+  la_tour: {
+    id: "la_tour",
+    name: "Georges de La Tour",
+    sortName: "La Tour Georges de",
+    sortLetter: "L",
+    dates: "1593 – 1652",
+    movement: "Caravagisme français, Clair-obscur & Scènes nocturnes",
+    nationality: "Français (Lorrain / Vic-sur-Seille / Lunéville)",
+    techniques: "Huile sur toile, clair-obscur virtuose à la source lumineuse masquée, éclairage intimiste par une unique bougie ou veilleuse à huile, simplification géométrique des volumes, textures soyeuses et rustiques (bure, velours, brocarts d'or), palette chromatique d'ocres, rouges corail et bruns profonds",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczP-N9UbgJu_0Oew1zDaGslR06Tid-O-9Vecf23DuGuqAfI__brBWWXrslBqXaLix9iOVQ-iVHfwkjHTF3Pa9wK00RIVyIX2EGbLPrs-sreax5ADFPplF43BvPaVE6aGqMv3xtaJVKiEZLGG4cbqPhhqJQ=w1901-h806-s-no-gm?authuser=0",
+    bio: [
+      "Georges de La Tour (1593 – 1652) est le représentant le plus célèbre du Caravage français. Redécouvert tardivement au début du XXe siècle, cet artiste lorrain a mené une carrière prospère sous les règnes de Louis XIII et de la monarchie lorraine, devenant l'un des maîtres incontestés de la lumière et du silence dans la peinture occidentale.",
+      "Son genre pictural se définit par un usage magistral du clair-obscur. La Tour est célèbre pour ses compositions nocturnes où l'unique source de lumière — souvent une bougie ou une lampe à huile — sculpte les volumes et crée une atmosphère de recueillement intense. Son style se caractérise par une simplification géométrique des formes, des surfaces lisses et une palette chromatique réduite à des ocres, des rouges profonds et des noirs denses. Il traite les sujets religieux avec un naturalisme si dépouillé qu'ils se confondent souvent avec des scènes de la vie quotidienne.",
+      "L'évolution de son style marque un passage de la précision sociale vers une spiritualité presque abstraite : les scènes « diurnes » de jeunesse (Le Tricheur à l'as de carreau, Le Vielleur) dépeignent des types sociaux aux costumes luxueux ou rustiques avec une précision tactile dans une lumière claire révélant la ruse et le jeu social ; les scènes « nocturnes », sa période la plus emblématique, abandonnent les détails anecdotiques pour des ovales parfaits et des volumes massifs baignés d'une lumière dorée émanant de la flamme ; enfin l'épure finale où les compositions se figent dans un silence absolu et sacré, transformant chaque geste en un rituel universel."
+    ],
+    corpus: {
+      total: 40,
+      seen: 9,
+      paintingsCount: 40,
+      sourceTitle: "Catalogue raisonné Jacques Thuillier (1992) & Pierre Rosenberg (Grand Palais 1997)",
+      sourceNotes: "Totalement oublié pendant trois siècles, La Tour n'a été « ressuscité » qu'en 1915 par l'historien allemand Hermann Voss. Depuis, reconstituer son corpus a été un véritable travail de détective. Le catalogue raisonné de référence a été dressé par l'historien de l'art Jacques Thuillier (publié en 1992), puis affiné par Pierre Rosenberg lors de l'historique rétrospective du Grand Palais en 1997. Après avoir écarté les copies d'époque et démêlé le travail du père de celui de son fils et assistant (Étienne de La Tour), le consensus scientifique actuel est d'une extrême rigueur : le corpus strictement autographe de Georges de La Tour est évalué à seulement 40 peintures (dont 9 chefs-d'œuvre majeurs de la collection contemplés au Louvre, à Nantes et à Rennes).",
+      details: [
+        {
+          label: "Les Nuits & Méditations à la flamme (Nocturnes)",
+          count: 24,
+          icon: "🕯️",
+          color: "#d4af37",
+          seen: 7,
+          note: "Saint Joseph charpentier (Louvre), La Madeleine Terff (Louvre), Le Nouveau-né (Rennes), Le Songe de saint Joseph (Nantes), L'Adoration des bergers (Louvre), Saint Sébastien (Louvre), Le Reniement de saint Pierre (Nantes)"
+        },
+        {
+          label: "Scènes diurnes, Figures de genre & Tricheur (1620–1640)",
+          count: 10,
+          icon: "☀️",
+          color: "#e67e22",
+          seen: 2,
+          note: "Le Tricheur à l'as de carreau (Louvre), Le Vielleur au chapeau (Nantes), Rixe de musiciens"
+        },
+        {
+          label: "Figures d'apôtres & Portraits religieux isolés",
+          count: 6,
+          icon: "📜",
+          color: "#27ae60",
+          seen: 0,
+          note: "Série des Apôtres d'Albi (Saint Jude Thaddée, Saint Jacques le Mineur)"
+        }
+      ]
+    },
+    biographyTimeline: {
+      birth: 1593,
+      birthPlace: "Vic-sur-Seille (Duché de Lorraine)",
+      death: 1652,
+      deathPlace: "Lunéville (Duché de Lorraine)",
+      periods: [
+        {
+          title: "Les Scènes Diurnes & Le Caravage Lorrain",
+          years: "1593 – 1636",
+          desc: "Né à Vic-sur-Seille, il s'établit à Lunéville après un probable voyage en Italie ou aux Pays-Bas. Sa première manière se distingue par des scènes de genre d'une grande franchise tactile et lumineuse.",
+          events: [
+            {
+              year: 1593,
+              title: "Naissance à Vic-sur-Seille",
+              desc: "Baptisé le 14 mars 1593 à Vic-sur-Seille, fils d'un maître boulanger. Il reçoit une formation picturale solide et épouse Diane Le Nerf en 1617.",
+              type: "birth",
+              icon: "👶"
+            },
+            {
+              year: 1620,
+              title: "Établissement à Lunéville & Le Vielleur au chapeau (Nantes)",
+              desc: "Reconnu comme maître peintre par le duc Henri II de Lorraine, il peint Le Vielleur au chapeau, chef-d'œuvre de dignité humaine et de vérité documentaire.",
+              type: "masterpiece",
+              icon: "🪕",
+              artworkId: "la_tour_vielleur_au_chapeau_nantes_1620"
+            },
+            {
+              year: 1636,
+              title: "Le Tricheur à l'as de carreau (Louvre)",
+              desc: "Apogée de sa manière claire : ballet virtuose de regards et de mains dénonçant les pièges de l'illusion, du vin et du jeu.",
+              type: "masterpiece",
+              icon: "🃏",
+              artworkId: "la_tour_tricheur_as_de_carreau_louvre_1636"
+            }
+          ]
+        },
+        {
+          title: "Les Grandes Nuits & Le Mystère du Sacré Domestique",
+          years: "1637 – 1645",
+          desc: "Tandis que la Lorraine est ravagée par la peste et la guerre de Trente Ans, La Tour se réfugie à Paris puis à Lunéville et révolutionne le clair-obscur avec la bougie dissimulée.",
+          events: [
+            {
+              year: 1639,
+              title: "Titre de peintre ordinaire du roi Louis XIII",
+              desc: "Présente au roi un Saint Sébastien dans la nuit qui impressionne tellement le monarque qu'il fait retirer tous les autres tableaux de sa chambre.",
+              type: "milestone",
+              icon: "👑"
+            },
+            {
+              year: 1640,
+              title: "Le Songe de saint Joseph (Nantes)",
+              desc: "Rencontre nocturne et silencieuse entre le monde céleste de l'ange et la vulnérabilité humaine du vieil artisan endormi.",
+              type: "masterpiece",
+              icon: "✨",
+              artworkId: "la_tour_songe_saint_joseph_nantes_1640"
+            },
+            {
+              year: 1642,
+              title: "Saint Joseph charpentier (Louvre)",
+              desc: "Sommet absolu du caravagisme européen : la main translucide de l'Enfant éclairée par la bougie sacralise le geste du père travaillant le bois de la future Croix.",
+              type: "masterpiece",
+              icon: "🕯️",
+              artworkId: "la_tour_saint_joseph_charpentier_louvre_1642"
+            },
+            {
+              year: 1642,
+              title: "La Madeleine à la veilleuse dite La Madeleine Terff (Louvre)",
+              desc: "Méditation nocturne bouleversante sur le crâne et la fragilité de la vie humaine, baignée par la lueur hypnotique de la veilleuse.",
+              type: "masterpiece",
+              icon: "💀",
+              artworkId: "la_tour_madeleine_terff_louvre_1642"
+            },
+            {
+              year: 1644,
+              title: "L'Adoration des bergers (Louvre)",
+              desc: "Nuit de Noël d'une ferveur intime et paysanne, où la lumière ambrée unifie les regards recueillis autour de l'Enfant emmailloté.",
+              type: "masterpiece",
+              icon: "🐑",
+              artworkId: "la_tour_adoration_des_bergers_louvre_1644"
+            }
+          ]
+        },
+        {
+          title: "L'Épure Finale & Le Silence Absolu",
+          years: "1646 – 1652",
+          desc: "Dans les dernières années de sa vie, son style atteint un dépouillement monumental et géométrique d'une spiritualité universelle inégalée.",
+          events: [
+            {
+              year: 1648,
+              title: "Le Nouveau-né (Rennes)",
+              desc: "Chef-d'œuvre suprême conservé à Rennes : harmonie géométrique pure et tendresse sacrée contemplant le mystère de l'Incarnation.",
+              type: "masterpiece",
+              icon: "👶",
+              artworkId: "la_tour_le_nouveau_ne_rennes_1648"
+            },
+            {
+              year: 1649,
+              title: "Saint Sébastien soigné par Irène (Louvre)",
+              desc: "Monumentale tragédie nocturne où la charité féminine et la flamme verticale d'une torche percent les ténèbres du martyre.",
+              type: "masterpiece",
+              icon: "🔥",
+              artworkId: "la_tour_saint_sebastien_soigne_irene_louvre_1649"
+            },
+            {
+              year: 1650,
+              title: "Le Reniement de saint Pierre (Nantes)",
+              desc: "Toile datée de 1650 confrontant le drame intérieur de l'apôtre Pierre au jeu profane et indifférent des soldats romains aux dés.",
+              type: "masterpiece",
+              icon: "🎲",
+              artworkId: "la_tour_reniement_saint_pierre_nantes_1650"
+            },
+            {
+              year: 1652,
+              title: "Mort à Lunéville",
+              desc: "Emporté avec son épouse par une épidémie le 30 janvier 1652 à Lunéville, laissant un atelier repris brièvement par son fils Étienne.",
+              type: "death",
+              icon: "🕊️"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  delaunay: {
+    id: "delaunay",
+    name: "Robert Delaunay",
+    sortName: "Delaunay Robert",
+    sortLetter: "D",
+    dates: "1885 – 1941",
+    movement: "Orphisme, Cubisme orphique & Simultanéisme",
+    nationality: "Français (Paris)",
+    techniques: "Huile sur toile, encaustique (peinture à la cire), divisionnisme et contraste simultané des couleurs pures, formes circulaires et disques chromatiques rythmés",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczPEhPRv9sur_PeMWBg7pN4JDLFTqeu3-QU426qj8ZvqdTvUSirHLVN3fNXLP1hTSQr95ASN8ZuXR6q0OgpFno2Vxh2_gF4lJxyqKNPr1M1xBWccrIKCe8htZJZv8MatV4lxuJncaiYF48qnefwrOIlqvA=w1901-h806-s-no-gm?authuser=0",
+    bio: [
+      "Robert Delaunay (1885 – 1941) est le créateur, avec son épouse Sonia Delaunay, de l'Orphisme (ou cubisme orphique), un mouvement qui place la couleur et la lumière au centre de la création artistique. Partant du cubisme, il s'en détache pour explorer le pouvoir constructif de la couleur pure, ouvrant ainsi l'une des voies majeures vers l'abstraction totale.",
+      "Son genre pictural se définit par le simultanéisme, basé sur la théorie du contraste simultané des couleurs de Chevreul. Delaunay considère que la couleur est une forme d'énergie capable de créer du mouvement sans avoir recours à la figuration. Son style se caractérise par des formes circulaires (disques, anneaux) et des facettes colorées qui s'entrechoquent pour générer une vibration lumineuse. Il a fait de la modernité urbaine, et notamment de la Tour Eiffel, son sujet de prédilection.",
+      "L'évolution de son style marque un passage de la déconstruction architecturale vers une abstraction cosmique : la période de jeunesse néo-impressionniste et fauve (1904 – 1908) explorant la vibration de la touche ; la période des Villes et des Tours (1909 – 1912) fragmentant l'architecture parisienne sous l'influence du cubisme dynamique ; les Fenêtres et les Formes circulaires (dès 1912) franchissant le pas vers l'abstraction et le rythme pur des disques ; enfin le retour au monumental (années 1930) célébrant le progrès moderne, l'aviation et l'électricité lors de l'Exposition internationale de 1937."
+    ],
+    corpus: {
+      total: 500,
+      seen: 3,
+      paintingsCount: 500,
+      sourceTitle: "Catalogue raisonné Guy Habasque (1957) & Expertises Richard Riss",
+      sourceNotes: "Le catalogue raisonné de référence a été dressé par l'historien d'art Guy Habasque et publié en 1957 en annexe de l'ouvrage de Pierre Francastel (Robert Delaunay : Du cubisme à l'art abstrait). Bien que l'expert contemporain Richard Riss procède aujourd'hui aux authentifications modernes (notamment l'inventaire des Tours Eiffel), le catalogue historique d'Habasque demeure l'ossature scientifique des musées pour numéroter son œuvre. Après avoir rassemblé ses huiles sur toile, ses très grandes gouaches abouties et ses études picturales majeures (tout en excluant ses pures esquisses graphiques ou sa production d'arts appliqués tardive), l'inventaire d'Habasque clôture le corpus peint de Robert Delaunay à environ 500 œuvres (dont 3 chefs-d'œuvre majeurs de la collection contemplés aux Musées des Beaux-Arts de Rennes et Montpellier).",
+      details: [
+        {
+          label: "Période des Villes & Tours Eiffel (1909–1912)",
+          count: 85,
+          icon: "🗼",
+          color: "#d4af37",
+          seen: 0,
+          note: "Série magistrale des Tours Eiffel fracturées, La Ville de Paris"
+        },
+        {
+          label: "Fenêtres, Disques & Formes circulaires (1912–1930)",
+          count: 140,
+          icon: "⭕",
+          color: "#e67e22",
+          seen: 1,
+          note: "Disque simultané, Les Fenêtres sur la ville, Nature morte portugaise (Montpellier)"
+        },
+        {
+          label: "Rythmes monumentaux & Reliefs (années 1930)",
+          count: 110,
+          icon: "🌀",
+          color: "#7c3aed",
+          seen: 0,
+          note: "Rythmes sans fin, Décoration des Pavillons de l'Aviation et des Chemins de Fer (1937)"
+        },
+        {
+          label: "Période de jeunesse, Néo-impressionnisme & Fauvisme (1904–1908)",
+          count: 65,
+          icon: "🎨",
+          color: "#00b4d8",
+          seen: 2,
+          note: "La Fête à la campagne (Rennes), Portrait d'Henri Carlier (Montpellier)"
+        },
+        {
+          label: "Portraits, Coureurs & Scènes sportives",
+          count: 100,
+          icon: "🏃",
+          color: "#2ecc71",
+          seen: 0,
+          note: "L'Équipe de Cardiff, Manège de cochons"
+        }
+      ]
+    },
+    biographyTimeline: {
+      birth: 1885,
+      birthPlace: "Paris (France)",
+      death: 1941,
+      deathPlace: "Montpellier (Hérault, France)",
+      periods: [
+        {
+          title: "La Période de Jeunesse, Néo-Impressionnisme & Fauvisme",
+          years: "1904 – 1908",
+          desc: "Formé à Belleville, le jeune Delaunay s'imprègne des leçons de Seurat, Gauguin et Cézanne pour faire chanter la couleur en touches denses et lumineuses.",
+          events: [
+            {
+              year: 1885,
+              title: "Naissance à Paris",
+              desc: "Né le 12 avril 1885 à Paris dans une famille bourgeoise, élevé par son oncle et sa tante au château de La Rongère.",
+              type: "birth",
+              icon: "👶"
+            },
+            {
+              year: 1905,
+              title: "La fête à la campagne (Rennes)",
+              desc: "Peint en Bretagne sous l'influence du néo-impressionnisme et du fauvisme naissant : foule animée et contrastes éclatants au Musée de Rennes.",
+              type: "masterpiece",
+              icon: "🎉",
+              artworkId: "delaunay_fete_a_la_campagne_rennes_1905"
+            },
+            {
+              year: 1906,
+              title: "Portrait d'Henri Carlier (Montpellier)",
+              desc: "Toile divisionniste éclatante au Musée Fabre : décomposition de la lumière par le damier chromatique préfigurant l'orphisme.",
+              type: "masterpiece",
+              icon: "📰",
+              artworkId: "delaunay_portrait_henri_carlier_montpellier_1906"
+            }
+          ]
+        },
+        {
+          title: "Les Villes, Les Tours Eiffel & L'Invention de l'Orphisme",
+          years: "1909 – 1914",
+          desc: "Épouse Sonia Terk en 1910. Ensemble, ils créent le simultanéisme. Delaunay fait voler en éclats l'espace urbain avec ses célèbres Tours Eiffel avant de basculer dans l'abstraction pure.",
+          events: [
+            {
+              year: 1909,
+              title: "Début de la série mythique des Tours Eiffel",
+              desc: "La tour métallique devient son laboratoire plastique : il la fragmente sous de multiples angles simultanés sous la poussée de la modernité.",
+              type: "milestone",
+              icon: "🗼"
+            },
+            {
+              year: 1912,
+              title: "Apollinaire baptise l'Orphisme",
+              desc: "Le poète Guillaume Apollinaire consacre ses séries des Fenêtres et des Disques sous le nom de cubisme orphique, célébrant le langage musical de la couleur pure.",
+              type: "milestone",
+              icon: "✨"
+            }
+          ]
+        },
+        {
+          title: "L'Exil Ibérique, Simultanéisme & Rythmes Monumentaux",
+          years: "1915 – 1941",
+          desc: "Réfugié au Portugal et en Espagne durant la Grande Guerre, il enrichit son vocabulaire formel avant de concevoir dans les années 1930 de gigantesques reliefs décoratifs.",
+          events: [
+            {
+              year: 1915,
+              title: "Nature morte portugaise (Montpellier)",
+              desc: "Toile et encaustique peinte en exil au Portugal : synthèse magistrale entre les formes populaires et le dynamisme cosmique du simultanéisme.",
+              type: "masterpiece",
+              icon: "🏺",
+              artworkId: "delaunay_nature_morte_portugaise_montpellier_1915"
+            },
+            {
+              year: 1937,
+              title: "Triomphe à l'Exposition Internationale de Paris",
+              desc: "Réalise pour les Palais de l'Air et des Chemins de Fer d'immenses Rythmes monumentaux circulaires célébrant la vitesse et le progrès.",
+              type: "milestone",
+              icon: "✈️"
+            },
+            {
+              year: 1941,
+              title: "Mort à Montpellier",
+              desc: "Réfugié en zone libre face à l'avancée allemande, il meurt d'un cancer le 25 octobre 1941 à Montpellier.",
+              type: "death",
+              icon: "🕊️"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  la_tour: {
+    id: "la_tour",
+    name: "Georges de La Tour",
+    sortName: "La Tour Georges de",
+    sortLetter: "L",
+    dates: "1593 – 1652",
+    movement: "Caravagisme français, Clair-obscur & Scènes nocturnes",
+    nationality: "Français (Lorrain / Vic-sur-Seille / Lunéville)",
+    techniques: "Huile sur toile, clair-obscur virtuose à la source lumineuse masquée, éclairage intimiste par une unique bougie ou veilleuse à huile, simplification géométrique des volumes, textures soyeuses et rustiques (bure, velours, brocarts d'or), palette chromatique d'ocres, rouges corail et bruns profonds",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczP-N9UbgJu_0Oew1zDaGslR06Tid-O-9Vecf23DuGuqAfI__brBWWXrslBqXaLix9iOVQ-iVHfwkjHTF3Pa9wK00RIVyIX2EGbLPrs-sreax5ADFPplF43BvPaVE6aGqMv3xtaJVKiEZLGG4cbqPhhqJQ=w1901-h806-s-no-gm?authuser=0",
+    bio: [
+      "Georges de La Tour (1593 – 1652) est le représentant le plus célèbre du Caravage français. Redécouvert tardivement au début du XXe siècle, cet artiste lorrain a mené une carrière prospère sous les règnes de Louis XIII et de la monarchie lorraine, devenant l'un des maîtres incontestés de la lumière et du silence dans la peinture occidentale.",
+      "Son genre pictural se définit par un usage magistral du clair-obscur. La Tour est célèbre pour ses compositions nocturnes où l'unique source de lumière — souvent une bougie ou une lampe à huile — sculpte les volumes et crée une atmosphère de recueillement intense. Son style se caractérise par une simplification géométrique des formes, des surfaces lisses et une palette chromatique réduite à des ocres, des rouges profonds et des noirs denses. Il traite les sujets religieux avec un naturalisme si dépouillé qu'ils se confondent souvent avec des scènes de la vie quotidienne.",
+      "L'évolution de son style marque un passage de la précision sociale vers une spiritualité presque abstraite : les scènes « diurnes » de jeunesse (Le Tricheur à l'as de carreau, Le Vielleur) dépeignent des types sociaux aux costumes luxueux ou rustiques avec une précision tactile dans une lumière claire révélant la ruse et le jeu social ; les scènes « nocturnes », sa période la plus emblématique, abandonnent les détails
+... [truncated for diff preview]

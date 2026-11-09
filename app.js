@@ -985,6 +985,7 @@ const ART_MOVEMENTS = [
     parentCivId: "occ_xixe",
     lane: "mod_peinture",
     name: "Impressionnisme",
+    bannerImg: "https://lh3.googleusercontent.com/d/1BbaUOQRQ8dTX1x34SYYFanLJrld6DGhx",
     yearStart: 1872,
     yearEnd: 1886,
     tier: 1,
@@ -998,6 +999,7 @@ const ART_MOVEMENTS = [
     parentCivId: "occ_xixe",
     lane: "mod_peinture",
     name: "Post-Impressionnisme & Symbolisme",
+    bannerImg: "https://lh3.googleusercontent.com/d/1RycizxTMWCEl8M4s8_gVxBh9x3aol5MX",
     yearStart: 1886,
     yearEnd: 1905,
     tier: 0,
@@ -1165,6 +1167,7 @@ const ART_MOVEMENTS = [
     parentCivId: "occ_xxe_moderne",
     lane: "mod_sculpture",
     name: "Révolution Rodin, Brancusi & Giacometti",
+    bannerImg: "https://lh3.googleusercontent.com/d/1U7btThZqwGPJzIOJmhIX2RP3HrDjRWW4",
     yearStart: 1880,
     yearEnd: 1965,
     tier: 0,
@@ -1238,6 +1241,7 @@ const ART_MOVEMENTS = [
     parentCivId: "occ_xixe",
     lane: "mod_architecture",
     name: "Révolution industrielle : Fer, Fonte & Verre",
+    bannerImg: "https://lh3.googleusercontent.com/d/1kKCb13ThoOsZ7__LwOGagtcJiZzzB1Un",
     yearStart: 1850,
     yearEnd: 1910,
     tier: 0,
@@ -4624,6 +4628,9 @@ function openCivilisationPavilion(civ, initialTab = 'panoramic') {
   const viewTimeline = document.getElementById('view-timeline');
   if (!pavilion || !viewTimeline) return;
 
+  // Remise à zéro immédiate du scroll pour toujours ouvrir en haut
+  pavilion.scrollTop = 0;
+
   const isMov = Boolean(civ.isMovement || (civ.id && civ.id.startsWith('mov_')));
   const movId = civ.id || (civ._mov ? civ._mov.id : '');
   const movData = (window.MOVEMENTS_DATA && (window.MOVEMENTS_DATA[movId] || (civ._mov && window.MOVEMENTS_DATA[civ._mov.id]))) ||
@@ -4967,12 +4974,29 @@ function openCivilisationPavilion(civ, initialTab = 'panoramic') {
   // Déplie le grand pavillon & replie la frise
   pavilion.removeAttribute('hidden');
   viewTimeline.classList.add('civ-pavilion-open');
+
+  // Remise à zéro garantie du défilement (haut de page absolu)
+  pavilion.scrollTop = 0;
+  if (typeof pavilion.scrollTo === 'function') {
+    pavilion.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+  }
+  pavilion.querySelectorAll('.pavilion-panel-scroll, .map-panel-scroll').forEach(el => {
+    el.scrollTop = 0;
+  });
+  const pArtTrack = document.getElementById('pavilion-art-track');
+  if (pArtTrack) pArtTrack.scrollLeft = 0;
+  const pArtistsTrack = document.getElementById('pavilion-artists-track');
+  if (pArtistsTrack) pArtistsTrack.scrollLeft = 0;
+  requestAnimationFrame(() => {
+    if (pavilion) pavilion.scrollTop = 0;
+  });
 }
 
 function closeCivilisationPavilion() {
   const pavilion = document.getElementById('civ-pavilion-stage');
   const viewTimeline = document.getElementById('view-timeline');
   if (pavilion) {
+    pavilion.scrollTop = 0;
     pavilion.setAttribute('hidden', 'true');
   }
   if (viewTimeline) {

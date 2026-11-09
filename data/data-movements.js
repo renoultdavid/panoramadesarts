@@ -309,6 +309,14 @@ window.MOVEMENTS_DATA = {
         "desc": "La Buveuse, Femme préparant des légumes, Joueurs de cartes.",
         "artistId": "de_hooch",
         "icon": "🚪"
+      },
+      {
+        "name": "Georges de La Tour",
+        "dates": "1593 – 1652",
+        "role": "Maître absolu du clair-obscur, des nuits silencieuses et du sacré intime",
+        "desc": "Saint Joseph charpentier, Le Tricheur à l'as de carreau, Le Nouveau-né et La Madeleine Terff.",
+        "artistId": "la_tour",
+        "icon": "🕯️"
       }
     ]
   },
@@ -452,6 +460,7 @@ window.MOVEMENTS_DATA = {
     ]
   },
   "mov_impressionnisme": {
+    "bannerImg": "https://lh3.googleusercontent.com/d/1BbaUOQRQ8dTX1x34SYYFanLJrld6DGhx",
     "badge": "✦ LA LUMIÈRE VIVANTE & LA RÉVOLUTION DU PLEIN AIR (1872 – 1886)",
     "noticeHtml": "<p><strong>La capture de l'instant fugitif contre le carcan académique</strong><br>En avril 1874, rejetés par le Salon officiel, un groupe de jeunes peintres indépendants organise sa propre exposition dans les ateliers du photographe Nadar à Paris. Devant une toile de Claude Monet intitulée <em>Impression, soleil levant</em>, le critique Louis Leroy forge par dérision le terme d'« impressionnistes ». Une brèche irréversible s'ouvre dans l'histoire de la vision.</p><p>Abandonnant l'atelier fermé et les sujets historiques, Monet, Renoir, Pissarro, Sisley, Morisot, Degas et Caillebotte s'installent en plein air face au motif. Grâce à l'invention du tube de peinture souple, ils décomposent la touche en virgules de couleurs pures juxtaposées, captant l'humidité de la Seine, les reflets changeants du soleil, la fumée des gares modernes et la vibration de la vie urbaine parisienne.</p>",
     "concurrentHtml": "<p><strong>Pendant ce temps-là... Commune de Paris, Belle Époque et révolution industrielle</strong></p><p><strong>France :</strong> Chute du Second Empire après la défaite contre la Prusse (1870). Insurrection de la <strong>Commune de Paris (1871)</strong> et proclamation de la IIIe République. Transformation haussmannienne de Paris avec ses grands boulevards, ses parcs et ses grands magasins.</p><p><strong>Europe & Monde :</strong> Essor fulgurant de la seconde révolution industrielle (chemin de fer, électricité, téléphone d'Alexander Graham Bell en 1876, ampoule d'Edison en 1879). Progrès de la photographie qui libère définitivement la peinture de l'obligation de copier le réel.</p><p><strong>Arts & Lettres :</strong> Émile Zola publie la saga des <em>Rougon-Macquart</em> et défend ardemment ses amis peintres (Manet, Cézanne). Essor du japonisme avec l'ouverture des ports japonais sous l'ère Meiji.</p>",
@@ -606,6 +615,7 @@ window.MOVEMENTS_DATA = {
     ]
   },
   "mov_symbolisme": {
+    "bannerImg": "https://lh3.googleusercontent.com/d/1RycizxTMWCEl8M4s8_gVxBh9x3aol5MX",
     "badge": "✦ LES VOIES PLURIELLES DU POST-IMPRESSIONNISME & DU SYMBOLISME (1886 – 1905)",
     "noticeHtml": "<p><strong>Au-delà de la rétine : l'architecture formelle, l'émotion pure et le mystère</strong><br>Après la dernière exposition impressionniste de 1886, une nouvelle génération estime que la simple capture de l'impression visuelle superficielle a fait son temps. Quatre géants ouvrent chacun une voie monumentale qui va engendrer tout l'art moderne du XXe siècle :</p><p>Georges Seurat invente le <strong>pointillisme</strong> ou divisionnisme scientifique (<em>Un dimanche après-midi à l'Île de la Grande Jatte</em>) ; Paul Cézanne cherche à « faire de l'impressionnisme quelque chose de solide et de durable comme l'art des musées » en réduisant la nature aux cylindres, sphères et cônes (préfigurant le cubisme) ; Vincent van Gogh transfigure le réel par une touche tourbillonnante et des couleurs incandescentes chargées d'angoisse et d'extase (préfigurant l'expressionnisme) ; et Paul Gauguin fuit la civilisation occidentale pour la Bretagne puis Tahiti, créant le synthétisme aux larges aplats de couleur cernés (cloisonnisme).</p><p>Parallèlement, les <strong>Symbolistes</strong> (Gustave Moreau, Odilon Redon) et les <strong>Nabis</strong> (Bonnard, Vuillard) explorent le rêve, l'ésotérisme et l'intimité psychologique.</p>",
     "concurrentHtml": "<p><strong>Pendant ce temps-là... La tour Eiffel, l'Affaire Dreyfus et la psychanalyse</strong></p><p><strong>Technique & Triomphe :</strong> Exposition universelle de 1889 à Paris et inauguration de la <strong>tour Eiffel</strong>, chef-d'œuvre du fer forgé et symbole éclatant de la modernité triomphante. En 1895, les frères Lumière inventent le cinématographe au Grand Café de Paris.</p><p><strong>Politique & Société :</strong> En France, l'<strong>Affaire Dreyfus (1894-1906)</strong> fracture la nation en deux camps irréconciliables après le « J'accuse… ! » de Zola. Montée des nationalismes et des tensions géopolitiques impériales en Europe.</p><p><strong>Pensée & Esprit :</strong> Sigmund Freud fonde la <strong>psychanalyse</strong> et publie <em>L'Interprétation du rêve</em> en 1899. Friedrich Nietzsche critique la morale occidentale et proclame la mort des idoles.</p>",
@@ -722,6 +732,14 @@ window.MOVEMENTS_DATA = {
         "desc": "La Ville, Les Constructeurs, Le Mécanicien, contrastes de formes.",
         "artistId": "",
         "icon": "⚙️"
+      },
+      {
+        "name": "Robert Delaunay",
+        "dates": "1885 – 1941",
+        "role": "Créateur de l'Orphisme et pionnier de l'abstraction par la couleur pure",
+        "desc": "Série des Tours Eiffel, Formes circulaires, Rythmes et Nature morte portugaise.",
+        "artistId": "delaunay",
+        "icon": "⭕"
       }
     ]
   },
@@ -1092,6 +1110,7 @@ window.MOVEMENTS_DATA = {
     ]
   },
   "mov_sculpture_rodin_moderne": {
+    "bannerImg": "https://lh3.googleusercontent.com/d/1U7btThZqwGPJzIOJmhIX2RP3HrDjRWW4",
     "badge": "✦ LA RÉVOLUTION RODIN & L'ÉPURE DE LA FORME MODERNE (1880 – 1965)",
     "noticeHtml": "<p><strong>De la pâte convulsive de Rodin au dépouillement essentiel de Brancusi</strong><br>À la fin du XIXe siècle, Auguste Rodin opère à lui seul la rupture fondatrice qui engendre la sculpture moderne. Rejetant le fini lisse et académique des ateliers d'apparat, Rodin privilégie le modelage de l'argile et la fusion du bronze rugueux, laissant apparentes les traces de ses pouces et les coulures de matière. Avec <em>Le Penseur</em>, <em>Le Baiser</em> et <em>Les Bourgeois de Calais</em>, il insuffle au corps une charge émotionnelle tragique et invente le « non finito » moderne.</p><p>Au début du XXe siècle, son ancien praticien Constantin Brancusi prend le contre-pied absolu de son maître : pour Brancusi, il ne s'agit plus d'exprimer la tourmente de la chair, mais de trouver l'idée pure de la forme par un polissage miroitant dépouillé de toute anecdote (<em>L'Oiseau dans l'espace</em>, <em>Le Baiser</em>, <em>La Colonne sans fin</em>). Alberto Giacometti réduit ensuite la figure humaine à d'immenses silhouettes filiformes et fragiles marchant dans le vide de l'après-guerre.</p>",
     "concurrentHtml": "<p><strong>Pendant ce temps-là... Guerres mondiales, ère atomique et existentialisme</strong></p><p><strong>Histoire & Drame :</strong> Deux guerres mondiales embrasent le siècle. Les camps de concentration nazis et le feu nucléaire d'Hiroshima (1945) ébranlent la foi en l'humanité. Giacometti sculpte dans son minuscule atelier de Montparnasse des corps calcinés et décharnés en écho à l'angoisse existentielle théorisée par Jean-Paul Sartre.</p><p><strong>Technique & Abstraction :</strong> L'industrialisation de l'acier et du soudage permet à Alexander Calder d'inventer les mobiles suspendedus dans l'air, sculptures cinétiques animées par le vent que saluent Marcel Duchamp et Jean-Paul Sartre.</p><p><strong>Monde :</strong> Décolonisation de l'Afrique et de l'Asie, émergence de la société de consommation d'après-guerre.</p>",
@@ -1256,6 +1275,7 @@ window.MOVEMENTS_DATA = {
     ]
   },
   "mov_archi_fer_verre": {
+    "bannerImg": "https://lh3.googleusercontent.com/d/1kKCb13ThoOsZ7__LwOGagtcJiZzzB1Un",
     "badge": "✦ LA RÉVOLUTION INDUSTRIELLE DU FER, DE LA FONTE & DU VERRE (1850 – 1910)",
     "noticeHtml": "<p><strong>L'ingénieur détrône l'architecte : naissances des cathédrales industrielles</strong><br>Au milieu du XIXe siècle, la première révolution industrielle bouleverse de fond en comble l'art de bâtir. Avec la production de masse de la fonte, du fer puddlé puis de l'acier laminé, les ingénieurs accomplissent des portées immenses et des hauteurs inédites avec des structures d'une finesse aérienne. En 1851 à Londres, Joseph Paxton édifie le <strong>Crystal Palace</strong> pour la première Exposition universelle, prouvant qu'un gigantesque palais de fer et de verre peut être préfabriqué en quelques mois.</p><p>Gares ferroviaires, halles de marché (les Halles de Paris par Victor Baltard), serres botaniques et grands magasins s'érigent comme les nouvelles cathédrales de la modernité marchande. L'apothéose est atteinte lors de l'Exposition universelle de 1889 à Paris avec la <strong>tour Eiffel</strong> de 300 mètres et la monumentale Galerie des Machines de 115 mètres de portée sans appui intermédiaire.</p>",
     "concurrentHtml": "<p><strong>Pendant ce temps-là... Expositions universelles et triomphe du chemin de fer</strong></p><p><strong>Économie & Réseau :</strong> Le chemin de fer tisse sa toile à travers l'Europe et l'Amérique (inauguration du premier chemin de fer transcontinental américain en 1869). Révolution du commerce mondial avec l'ouverture du canal de Suez en 1869 percé par Ferdinand de Lesseps.</p><p><strong>Urbanisme :</strong> Sous Napoléon III, le baron Haussmann éventre le vieux Paris médiéval pour percer de grands boulevards rectilignes et aérer la ville. Émergence de l'École de Chicago après le grand incendie de 1871, inventant les premiers gratte-ciel à ossature métallique (Louis Sullivan : « la forme suit la fonction »).</p><p><strong>Art Nouveau :</strong> À la fin du siècle, Victor Horta à Bruxelles et Hector Guimard à Paris subliment le fer en courbes végétales sinueuses (entrées du métro parisien).</p>",
