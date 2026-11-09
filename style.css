@@ -3794,13 +3794,7 @@ body {
 }
 
 .lens-crosshair {
-  position: absolute !important;
-  inset: 0 !important;
-  pointer-events: none !important;
-  background:
-    radial-gradient(circle at center, transparent 94%, rgba(212, 175, 55, 0.4) 98%, transparent 100%),
-    linear-gradient(to right, transparent 48.5%, rgba(212, 175, 55, 0.25) 50%, transparent 51.5%),
-    linear-gradient(to bottom, transparent 48.5%, rgba(212, 175, 55, 0.25) 50%, transparent 51.5%) !important;
+  display: none !important;
 }
 
 .lens-badge {
