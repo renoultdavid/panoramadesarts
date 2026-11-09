@@ -7647,104 +7647,99 @@ function populateModalData(art) {
 
   // Gestion du Comparateur d'Échelle Humaine (Peintures aux dimensions mesurées)
   const btnScale = document.getElementById('btn-artwork-human-scale');
-  const modalScaleDims = document.getElementById('modal-scale-dims');
-  const scaleStage = document.getElementById('artwork-scale-stage');
-
-  if (scaleStage) scaleStage.style.display = 'none';
-
-  const dims = art.dimensions || null;
-  if (btnScale && dims && dims.h && dims.w) {
-    const dimsText = dims.display || `${dims.h} × ${dims.w} cm`;
-    if (modalScaleDims) modalScaleDims.textContent = dimsText;
-    btnScale.style.display = 'inline-flex';
-    btnScale.onclick = (e) => {
-      e.stopPropagation();
-      openHumanScaleStage(art);
-    };
-  } else if (btnScale) {
-    btnScale.style.display = 'none';
-  }
+  // Affichage du mini-dock d'échelle humaine intégrée (en bas à gauche du tableau)
+  renderScaleDock(art);
 
   // Génération dynamique du ruban transversal "Au même moment dans le monde"
   renderContemporaneousRibbon(art);
   updateModalHistoryBackButton();
 }
 
-let currentScaleGender = 'female';
+let currentScaleGender = 'male';
 
 function getHumanSvg(gender) {
   if (gender === 'female') {
     return `
-      <svg viewBox="0 0 100 280" class="scale-human-svg" aria-label="Silhouette féminine">
+      <svg viewBox="0 0 100 280" class="scale-dock-human-svg-el" preserveAspectRatio="xMidYMax meet" aria-label="Silhouette féminine">
         <defs>
-          <linearGradient id="humanGradFem" x1="0%" y1="0%" x2="0%" y2="100%">
-            <stop offset="0%" stop-color="#f472b6" stop-opacity="0.65"/>
-            <stop offset="100%" stop-color="#f472b6" stop-opacity="0.15"/>
+          <linearGradient id="dockGradFem" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#f472b6" stop-opacity="0.85"/>
+            <stop offset="100%" stop-color="#f472b6" stop-opacity="0.25"/>
           </linearGradient>
         </defs>
-        <circle cx="50" cy="28" r="14" fill="url(#humanGradFem)" stroke="#f472b6" stroke-width="2"/>
-        <path d="M50 46 C44 46 34 52 30 65 L22 125 C21 130 26 134 30 130 L35 98 L36 150 C36 160 30 170 28 270 C27 277 35 280 38 272 L47 175 L53 175 L62 272 C65 280 73 277 72 270 C70 170 64 160 64 150 L65 98 L70 130 C74 134 79 130 78 125 L70 65 C66 52 56 46 50 46 Z" 
-              fill="url(#humanGradFem)" stroke="#f472b6" stroke-width="1.8" stroke-linejoin="round"/>
+        <circle cx="50" cy="22" r="14" fill="url(#dockGradFem)" stroke="#f472b6" stroke-width="2"/>
+        <path d="M50 40 C44 40 34 46 30 59 L22 119 C21 124 26 128 30 124 L35 92 L36 144 C36 154 30 164 28 274 C27 280 35 280 38 274 L47 175 L53 175 L62 274 C65 280 73 280 72 274 C70 164 64 154 64 144 L65 92 L70 124 C74 128 79 124 78 119 L70 59 C66 46 56 40 50 40 Z" 
+              fill="url(#dockGradFem)" stroke="#f472b6" stroke-width="1.8" stroke-linejoin="round"/>
       </svg>
     `;
   }
-  // Silhouette masculine par défaut
+  // Silhouette masculine par défaut (1,75 m)
   return `
-    <svg viewBox="0 0 100 280" class="scale-human-svg" aria-label="Silhouette masculine">
+    <svg viewBox="0 0 100 280" class="scale-dock-human-svg-el" preserveAspectRatio="xMidYMax meet" aria-label="Silhouette masculine">
       <defs>
-        <linearGradient id="humanGradMale" x1="0%" y1="0%" x2="0%" y2="100%">
-          <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.65"/>
-          <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.15"/>
+        <linearGradient id="dockGradMale" x1="0%" y1="0%" x2="0%" y2="100%">
+          <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.85"/>
+          <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.25"/>
         </linearGradient>
       </defs>
-      <circle cx="50" cy="27" r="15" fill="url(#humanGradMale)" stroke="#38bdf8" stroke-width="2"/>
-      <path d="M50 46 C41 46 27 52 23 66 L13 130 C12 136 18 140 23 135 L30 96 L31 165 L24 270 C23 277 32 280 35 272 L47 175 L53 175 L65 272 C68 280 77 277 76 270 L69 165 L70 96 L77 135 C82 140 88 136 87 130 L77 66 C73 52 59 46 50 46 Z" 
-            fill="url(#humanGradMale)" stroke="#38bdf8" stroke-width="1.8" stroke-linejoin="round"/>
+      <circle cx="50" cy="20" r="15" fill="url(#dockGradMale)" stroke="#38bdf8" stroke-width="2"/>
+      <path d="M50 40 C41 40 27 46 23 60 L13 124 C12 130 18 134 23 129 L30 90 L31 159 L24 274 C23 280 32 280 35 274 L47 175 L53 175 L65 274 C68 280 77 280 76 274 C69 159 70 90 77 129 C82 134 88 130 87 124 L77 60 C73 46 59 40 50 40 Z" 
+            fill="url(#dockGradMale)" stroke="#38bdf8" stroke-width="1.8" stroke-linejoin="round"/>
     </svg>
   `;
 }
 
-function openHumanScaleStage(art) {
-  const stage = document.getElementById('artwork-scale-stage');
-  const dimsLead = document.getElementById('scale-stage-dims-lead');
-  const btnClose = document.getElementById('btn-scale-close');
-  const svgWrap = document.getElementById('scale-human-svg-wrap');
-  const tagEl = document.getElementById('scale-human-tag');
-  const thumbImg = document.getElementById('scale-artwork-thumb');
-  const frameEl = document.getElementById('scale-artwork-frame');
-  const hValEl = document.getElementById('scale-h-val');
-  const wValEl = document.getElementById('scale-w-val');
-  const genderBtns = document.querySelectorAll('.btn-scale-gender');
-  const footerText = document.getElementById('scale-stage-footer-text');
+function renderScaleDock(art) {
+  const dock = document.getElementById('artwork-scale-dock');
+  const btnReopen = document.getElementById('btn-scale-dock-reopen');
+  const dimsLead = document.getElementById('scale-dock-dims');
+  const reopenDims = document.getElementById('scale-dock-reopen-dims');
+  const humanLabel = document.getElementById('scale-dock-human-label');
+  const humanSvgWrap = document.getElementById('scale-dock-human-svg');
+  const frameEl = document.getElementById('scale-dock-frame');
+  const dimHEl = document.getElementById('scale-dock-dim-h');
+  const dimWEl = document.getElementById('scale-dock-dim-w');
+  const genderBtns = document.querySelectorAll('.btn-dock-gender');
+  const btnMin = document.getElementById('btn-dock-minimize');
 
-  if (!stage || !art.dimensions) return;
+  if (!dock || !art || !art.dimensions || !art.dimensions.h || !art.dimensions.w) {
+    if (dock) dock.style.display = 'none';
+    if (btnReopen) btnReopen.style.display = 'none';
+    return;
+  }
 
   const dims = art.dimensions;
   if (dimsLead) dimsLead.textContent = dims.display || `${dims.h} × ${dims.w} cm`;
-  if (thumbImg) thumbImg.src = art.imgSrc;
-  if (hValEl) hValEl.textContent = `${dims.h} cm`;
-  if (wValEl) wValEl.textContent = `${dims.w} cm`;
-  if (footerText) {
-    footerText.innerHTML = `<strong>Dimensions certifiées :</strong> ${dims.h} cm (hauteur) × ${dims.w} cm (largeur) &bull; Mesures officielles de musée`;
-  }
+  if (reopenDims) reopenDims.textContent = `${dims.h} × ${dims.w} cm`;
+  if (dimHEl) dimHEl.textContent = `${dims.h} cm`;
+  if (dimWEl) dimWEl.textContent = `${dims.w} cm`;
 
-  function updateStage() {
-    let humanHeightCm = (currentScaleGender === 'male') ? 175 : 165;
-    let label = (currentScaleGender === 'male') ? '1,75 m' : '1,65 m';
+  function updateDock() {
+    const humanHeightCm = (currentScaleGender === 'female') ? 165 : 175;
+    const humanLabelText = (currentScaleGender === 'female') ? '1,65 m' : '1,75 m';
 
-    if (svgWrap) svgWrap.innerHTML = getHumanSvg(currentScaleGender);
-    if (tagEl) tagEl.textContent = label;
+    if (humanLabel) humanLabel.textContent = humanLabelText;
+    if (humanSvgWrap) humanSvgWrap.innerHTML = getHumanSvg(currentScaleGender);
 
-    // Calcul des proportions relatives par rapport au sol
+    // Espace scénique disponible dans le mini-dock
+    const maxStageH = 74; // px max pour la hauteur
+    const maxStageW = 150; // px max pour la largeur du cadre
+
+    // Calcul d'échelle STRICTEMENT uniforme (pixels par centimètre)
     const maxRealH = Math.max(humanHeightCm, dims.h);
-    const sceneMaxPx = Math.min(270, Math.max(180, Math.round(window.innerHeight * 0.36)));
-    const pxPerCm = sceneMaxPx / maxRealH;
+    const scaleH = maxStageH / maxRealH;
+    const scaleW = maxStageW / dims.w;
+    const pxPerCm = Math.min(scaleH, scaleW);
 
-    const humanPx = Math.round(humanHeightCm * pxPerCm);
-    const artHPx = Math.max(16, Math.round(dims.h * pxPerCm));
-    const artWPx = Math.max(16, Math.min(Math.round(dims.w * pxPerCm), 280));
+    // Dimensions en pixels rigoureusement proportionnelles
+    const humanHPx = Math.max(22, Math.round(humanHeightCm * pxPerCm));
+    const artHPx = Math.max(10, Math.round(dims.h * pxPerCm));
+    const artWPx = Math.max(10, Math.round(dims.w * pxPerCm));
 
-    if (svgWrap) svgWrap.style.height = `${humanPx}px`;
+    if (humanSvgWrap) {
+      humanSvgWrap.style.height = `${humanHPx}px`;
+      humanSvgWrap.style.width = `${Math.round(humanHPx * 0.35)}px`;
+    }
     if (frameEl) {
       frameEl.style.height = `${artHPx}px`;
       frameEl.style.width = `${artWPx}px`;
@@ -7759,33 +7754,31 @@ function openHumanScaleStage(art) {
   genderBtns.forEach(btn => {
     btn.onclick = (e) => {
       e.stopPropagation();
-      currentScaleGender = btn.dataset.gender === 'male' ? 'male' : 'female';
-      updateStage();
+      currentScaleGender = btn.dataset.gender === 'female' ? 'female' : 'male';
+      updateDock();
     };
   });
 
-  // Clic sur le cadre ou l'image pour repasser au tableau plein cadre
-  if (frameEl) {
-    frameEl.title = "Cliquer pour revenir à l'œuvre plein cadre";
-    frameEl.onclick = (e) => {
+  if (btnMin) {
+    btnMin.onclick = (e) => {
       e.stopPropagation();
-      stage.style.display = 'none';
+      dock.style.display = 'none';
+      if (btnReopen) btnReopen.style.display = 'inline-flex';
     };
   }
 
-  if (btnClose) {
-    btnClose.onclick = (e) => {
+  if (btnReopen) {
+    btnReopen.onclick = (e) => {
       e.stopPropagation();
-      stage.style.display = 'none';
+      btnReopen.style.display = 'none';
+      dock.style.display = 'flex';
+      updateDock();
     };
   }
 
-  updateStage();
-  stage.style.display = 'flex';
-}
-
-  updateStage();
-  stage.style.display = 'flex';
+  updateDock();
+  dock.style.display = 'flex';
+  if (btnReopen) btnReopen.style.display = 'none';
 }
 
 btnModalClose.addEventListener('click', () => {
@@ -7795,6 +7788,10 @@ btnModalClose.addEventListener('click', () => {
   modalImg.src = '';
   modalHistoryStack = [];
   if (btnModalHistoryBack) btnModalHistoryBack.style.display = 'none';
+  const dock = document.getElementById('artwork-scale-dock');
+  const btnReopen = document.getElementById('btn-scale-dock-reopen');
+  if (dock) dock.style.display = 'none';
+  if (btnReopen) btnReopen.style.display = 'none';
 });
 
 modal.addEventListener('click', (e) => {
@@ -7805,6 +7802,10 @@ modal.addEventListener('click', (e) => {
     modalImg.src = '';
     modalHistoryStack = [];
     if (btnModalHistoryBack) btnModalHistoryBack.style.display = 'none';
+    const dock = document.getElementById('artwork-scale-dock');
+    const btnReopen = document.getElementById('btn-scale-dock-reopen');
+    if (dock) dock.style.display = 'none';
+    if (btnReopen) btnReopen.style.display = 'none';
   }
 });
 
