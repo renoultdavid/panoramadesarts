@@ -7640,145 +7640,80 @@ function populateModalData(art) {
     modalChips.appendChild(btnFocus);
   }
 
-  const rawNarrative = art.narrative || '';
+  const rawNarrative = art.narrative || art.description || '';
   modalNarrative.innerHTML = (typeof enrichHTMLWithGlossary === 'function')
     ? enrichHTMLWithGlossary(rawNarrative)
     : rawNarrative;
 
-  // Gestion du Comparateur d'Échelle Humaine (Peintures aux dimensions mesurées)
-  const btnScale = document.getElementById('btn-artwork-human-scale');
-  // Affichage du mini-dock d'échelle humaine intégrée (en bas à gauche du tableau)
-  renderScaleDock(art);
+  // Encart d'Échelle Humaine intégrée dans la notice (colonne droite, référence homme 1,75 m)
+  renderScalePanel(art);
 
   // Génération dynamique du ruban transversal "Au même moment dans le monde"
   renderContemporaneousRibbon(art);
   updateModalHistoryBackButton();
 }
 
-let currentScaleGender = 'male';
-
-function getHumanSvg(gender) {
-  if (gender === 'female') {
-    return `
-      <svg viewBox="0 0 100 280" class="scale-dock-human-svg-el" preserveAspectRatio="xMidYMax meet" aria-label="Silhouette féminine">
-        <defs>
-          <linearGradient id="dockGradFem" x1="0%" y1="0%" x2="0%" y2="100%">
-            <stop offset="0%" stop-color="#f472b6" stop-opacity="0.85"/>
-            <stop offset="100%" stop-color="#f472b6" stop-opacity="0.25"/>
-          </linearGradient>
-        </defs>
-        <circle cx="50" cy="22" r="14" fill="url(#dockGradFem)" stroke="#f472b6" stroke-width="2"/>
-        <path d="M50 40 C44 40 34 46 30 59 L22 119 C21 124 26 128 30 124 L35 92 L36 144 C36 154 30 164 28 274 C27 280 35 280 38 274 L47 175 L53 175 L62 274 C65 280 73 280 72 274 C70 164 64 154 64 144 L65 92 L70 124 C74 128 79 124 78 119 L70 59 C66 46 56 40 50 40 Z" 
-              fill="url(#dockGradFem)" stroke="#f472b6" stroke-width="1.8" stroke-linejoin="round"/>
-      </svg>
-    `;
-  }
-  // Silhouette masculine par défaut (1,75 m)
+function getHumanMaleSvg() {
   return `
-    <svg viewBox="0 0 100 280" class="scale-dock-human-svg-el" preserveAspectRatio="xMidYMax meet" aria-label="Silhouette masculine">
+    <svg viewBox="0 0 100 280" class="scale-panel-human-svg-el" preserveAspectRatio="xMidYMax meet" aria-label="Silhouette masculine 1,75 m">
       <defs>
-        <linearGradient id="dockGradMale" x1="0%" y1="0%" x2="0%" y2="100%">
+        <linearGradient id="panelGradMale" x1="0%" y1="0%" x2="0%" y2="100%">
           <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.85"/>
           <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.25"/>
         </linearGradient>
       </defs>
-      <circle cx="50" cy="20" r="15" fill="url(#dockGradMale)" stroke="#38bdf8" stroke-width="2"/>
+      <circle cx="50" cy="20" r="15" fill="url(#panelGradMale)" stroke="#38bdf8" stroke-width="2"/>
       <path d="M50 40 C41 40 27 46 23 60 L13 124 C12 130 18 134 23 129 L30 90 L31 159 L24 274 C23 280 32 280 35 274 L47 175 L53 175 L65 274 C68 280 77 280 76 274 C69 159 70 90 77 129 C82 134 88 130 87 124 L77 60 C73 46 59 40 50 40 Z" 
-            fill="url(#dockGradMale)" stroke="#38bdf8" stroke-width="1.8" stroke-linejoin="round"/>
+            fill="url(#panelGradMale)" stroke="#38bdf8" stroke-width="1.8" stroke-linejoin="round"/>
     </svg>
   `;
 }
 
-function renderScaleDock(art) {
-  const dock = document.getElementById('artwork-scale-dock');
-  const btnReopen = document.getElementById('btn-scale-dock-reopen');
-  const dimsLead = document.getElementById('scale-dock-dims');
-  const reopenDims = document.getElementById('scale-dock-reopen-dims');
-  const humanLabel = document.getElementById('scale-dock-human-label');
-  const humanSvgWrap = document.getElementById('scale-dock-human-svg');
-  const frameEl = document.getElementById('scale-dock-frame');
-  const dimHEl = document.getElementById('scale-dock-dim-h');
-  const dimWEl = document.getElementById('scale-dock-dim-w');
-  const genderBtns = document.querySelectorAll('.btn-dock-gender');
-  const btnMin = document.getElementById('btn-dock-minimize');
+function renderScalePanel(art) {
+  const panel = document.getElementById('modal-scale-panel');
+  const dimsEl = document.getElementById('scale-panel-dims');
+  const humanSvgWrap = document.getElementById('scale-panel-human-svg');
+  const frameEl = document.getElementById('scale-panel-frame');
+  const dimHEl = document.getElementById('scale-panel-dim-h');
+  const dimWEl = document.getElementById('scale-panel-dim-w');
 
-  if (!dock || !art || !art.dimensions || !art.dimensions.h || !art.dimensions.w) {
-    if (dock) dock.style.display = 'none';
-    if (btnReopen) btnReopen.style.display = 'none';
+  if (!panel || !art || !art.dimensions || !art.dimensions.h || !art.dimensions.w) {
+    if (panel) panel.style.display = 'none';
     return;
   }
 
   const dims = art.dimensions;
-  if (dimsLead) dimsLead.textContent = dims.display || `${dims.h} × ${dims.w} cm`;
-  if (reopenDims) reopenDims.textContent = `${dims.h} × ${dims.w} cm`;
+  if (dimsEl) dimsEl.textContent = dims.display || `${dims.h} × ${dims.w} cm`;
   if (dimHEl) dimHEl.textContent = `${dims.h} cm`;
   if (dimWEl) dimWEl.textContent = `${dims.w} cm`;
+  if (humanSvgWrap) humanSvgWrap.innerHTML = getHumanMaleSvg();
 
-  function updateDock() {
-    const humanHeightCm = (currentScaleGender === 'female') ? 165 : 175;
-    const humanLabelText = (currentScaleGender === 'female') ? '1,65 m' : '1,75 m';
+  // Espace scénique disponible dans l'encart documentaire
+  const maxStageH = 76; // px max pour la hauteur
+  const maxStageW = 160; // px max pour la largeur du cadre
+  const humanHeightCm = 175; // Homme 1,75 m uniquement
 
-    if (humanLabel) humanLabel.textContent = humanLabelText;
-    if (humanSvgWrap) humanSvgWrap.innerHTML = getHumanSvg(currentScaleGender);
+  // Calcul d'échelle STRICTEMENT uniforme (pixels par centimètre)
+  const maxRealH = Math.max(humanHeightCm, dims.h);
+  const scaleH = maxStageH / maxRealH;
+  const scaleW = maxStageW / dims.w;
+  const pxPerCm = Math.min(scaleH, scaleW);
 
-    // Espace scénique disponible dans le mini-dock
-    const maxStageH = 74; // px max pour la hauteur
-    const maxStageW = 150; // px max pour la largeur du cadre
+  // Dimensions en pixels rigoureusement proportionnelles
+  const humanHPx = Math.max(22, Math.round(humanHeightCm * pxPerCm));
+  const artHPx = Math.max(10, Math.round(dims.h * pxPerCm));
+  const artWPx = Math.max(10, Math.round(dims.w * pxPerCm));
 
-    // Calcul d'échelle STRICTEMENT uniforme (pixels par centimètre)
-    const maxRealH = Math.max(humanHeightCm, dims.h);
-    const scaleH = maxStageH / maxRealH;
-    const scaleW = maxStageW / dims.w;
-    const pxPerCm = Math.min(scaleH, scaleW);
-
-    // Dimensions en pixels rigoureusement proportionnelles
-    const humanHPx = Math.max(22, Math.round(humanHeightCm * pxPerCm));
-    const artHPx = Math.max(10, Math.round(dims.h * pxPerCm));
-    const artWPx = Math.max(10, Math.round(dims.w * pxPerCm));
-
-    if (humanSvgWrap) {
-      humanSvgWrap.style.height = `${humanHPx}px`;
-      humanSvgWrap.style.width = `${Math.round(humanHPx * 0.35)}px`;
-    }
-    if (frameEl) {
-      frameEl.style.height = `${artHPx}px`;
-      frameEl.style.width = `${artWPx}px`;
-    }
-
-    genderBtns.forEach(b => {
-      if (b.dataset.gender === currentScaleGender) b.classList.add('is-active');
-      else b.classList.remove('is-active');
-    });
+  if (humanSvgWrap) {
+    humanSvgWrap.style.height = `${humanHPx}px`;
+    humanSvgWrap.style.width = `${Math.round(humanHPx * 0.35)}px`;
+  }
+  if (frameEl) {
+    frameEl.style.height = `${artHPx}px`;
+    frameEl.style.width = `${artWPx}px`;
   }
 
-  genderBtns.forEach(btn => {
-    btn.onclick = (e) => {
-      e.stopPropagation();
-      currentScaleGender = btn.dataset.gender === 'female' ? 'female' : 'male';
-      updateDock();
-    };
-  });
-
-  if (btnMin) {
-    btnMin.onclick = (e) => {
-      e.stopPropagation();
-      dock.style.display = 'none';
-      if (btnReopen) btnReopen.style.display = 'inline-flex';
-    };
-  }
-
-  if (btnReopen) {
-    btnReopen.onclick = (e) => {
-      e.stopPropagation();
-      btnReopen.style.display = 'none';
-      dock.style.display = 'flex';
-      updateDock();
-    };
-  }
-
-  updateDock();
-  dock.style.display = 'flex';
-  if (btnReopen) btnReopen.style.display = 'none';
+  panel.style.display = 'flex';
 }
 
 btnModalClose.addEventListener('click', () => {
@@ -7788,10 +7723,8 @@ btnModalClose.addEventListener('click', () => {
   modalImg.src = '';
   modalHistoryStack = [];
   if (btnModalHistoryBack) btnModalHistoryBack.style.display = 'none';
-  const dock = document.getElementById('artwork-scale-dock');
-  const btnReopen = document.getElementById('btn-scale-dock-reopen');
-  if (dock) dock.style.display = 'none';
-  if (btnReopen) btnReopen.style.display = 'none';
+  const panel = document.getElementById('modal-scale-panel');
+  if (panel) panel.style.display = 'none';
 });
 
 modal.addEventListener('click', (e) => {
@@ -7802,10 +7735,8 @@ modal.addEventListener('click', (e) => {
     modalImg.src = '';
     modalHistoryStack = [];
     if (btnModalHistoryBack) btnModalHistoryBack.style.display = 'none';
-    const dock = document.getElementById('artwork-scale-dock');
-    const btnReopen = document.getElementById('btn-scale-dock-reopen');
-    if (dock) dock.style.display = 'none';
-    if (btnReopen) btnReopen.style.display = 'none';
+    const panel = document.getElementById('modal-scale-panel');
+    if (panel) panel.style.display = 'none';
   }
 });
 
