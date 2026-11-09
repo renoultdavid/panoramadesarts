@@ -8812,59 +8812,196 @@ window.ARTISTS_REGISTRY = {
   },
   "periods": [
     {
-      "title": "Formation, Fauvisme & Cubo-futurisme",
-      "years": "1902 – 1912",
-      "color": "#0284c7",
-      "summary": "Apprentissage à Rouen et Paris, assimilation ultra-rapide des avant-gardes (fauvisme, Cézanne) puis décomposition mécanique du mouvement.",
-      "events": [
-        {
-          "year": 1910,
-          "title": "Portrait du Dr Ferdinand Tribout & Deux nus",
-          "desc": "Période fauve et cézannienne aux tonalités sombres et audaces chromatiques."
-        },
-        {
-          "year": 1912,
-          "title": "Nu descendant un escalier n°2",
-          "desc": "Refusé au Salon des Indépendants par les cubistes orthodoxes, puis triomphe de scandale à New York."
-        }
-      ]
+        "title": "De la Normandie aux Débuts Parisiens & Le Choc Cubo-Futuriste",
+        "years": "1887 – 1912",
+        "color": "#0284c7",
+        "desc": "Fils d'un notaire de Blainville-Crevon, il grandit dans une famille d'artistes. Il assimile à Paris le fauvisme avant de rejoindre la Section d'Or et d'inventer une décomposition mécanique du mouvement qui stupéfie ses pairs.",
+        "summary": "Assimilation fulgurante du fauvisme puis rupture avec le cubisme de salon lors du scandale du Nu descendant un escalier.",
+        "events": [
+            {
+                "year": 1887,
+                "title": "Naissance à Blainville-Crevon en Normandie",
+                "desc": "Fils d'un notaire lettré et petit-fils de graveur, il grandit au sein d'une fratrie d'artistes illustres (Jacques Villon, Raymond Duchamp-Villon, Suzanne Duchamp).",
+                "type": "birth",
+                "icon": "🇫🇷"
+            },
+            {
+                "year": 1904,
+                "title": "Études à l'Académie Julian & caricaturiste à Montmartre",
+                "desc": "S'installe à Montmartre chez son frère Jacques Villon, suit les cours de l'Académie Julian et publie des dessins satiriques dans Le Rire et Le Courrier français.",
+                "type": "education",
+                "icon": "🎨"
+            },
+            {
+                "year": 1910,
+                "title": "Portraits fauves & Expressionnisme normand (Rouen)",
+                "desc": "Peint le Portrait du Dr Ferdinand Tribout et Deux nus, chefs-d'œuvre de jeunesse aux couleurs acides et touches épaisses sous l'influence de Matisse et Cézanne.",
+                "type": "masterpiece",
+                "icon": "✨",
+                "artworkId": "duchamp_portrait_dr_ferdinand_tribout_rouen_1910"
+            },
+            {
+                "year": 1911,
+                "title": "Le Groupe de Puteaux & La Section d'Or",
+                "desc": "Participe aux discussions théoriques du dimanche à Puteaux avec Léger, Gleizes, Metzinger et Picabia autour de la perspective non-euclidienne et de la 4e dimension.",
+                "type": "milestone",
+                "icon": "📐"
+            },
+            {
+                "year": 1912,
+                "title": "Le scandale du Nu descendant un escalier n°2",
+                "desc": "Refusé au Salon des Indépendants par ses propres amis cubistes qui jugent le mouvement contraire au dogme, Duchamp retire sa toile et rompt avec les institutions artistiques.",
+                "type": "masterpiece",
+                "icon": "⚡"
+            }
+        ]
     },
     {
-      "title": "L'Invention du Ready-made & Le Grand Verre",
-      "years": "1913 – 1923",
-      "color": "#d4af37",
-      "summary": "Rupture radicale avec la peinture de chevalet, invention du concept d'an-art et de ready-made, travail sur La Mariée mise à nu par ses célibataires, même.",
-      "events": [
-        {
-          "year": 1913,
-          "title": "Roue de bicyclette",
-          "desc": "Premier ready-made assisté assemblé dans son atelier parisien."
-        },
-        {
-          "year": 1917,
-          "title": "Fontaine (signée R. Mutt)",
-          "desc": "Un urinoir en porcelaine renversé envoyé au Salon des artistes indépendants de New York."
-        }
-      ]
+        "title": "L'Invention du Ready-made & L'Ébullition Dadaïste à New York",
+        "years": "1913 – 1923",
+        "color": "#d4af37",
+        "desc": "Rompant avec « l'art rétinien », il déplace le centre de gravité de l'art vers le concept et l'acte intellectuel de nomination, introduisant des objets manufacturés bruts dans les musées.",
+        "summary": "Invention du Ready-made (Roue de bicyclette, Porte-bouteilles, Fontaine) et élaboration du chef-d'œuvre hermétique Le Grand Verre.",
+        "events": [
+            {
+                "year": 1913,
+                "title": "Triomphe de scandale à l'Armory Show de New York",
+                "desc": "Le Nu descendant un escalier fait sensation aux États-Unis, qualifié par la presse d'« explosion dans une fabrique de bardeaux », faisant de lui une célébrité planétaire.",
+                "type": "milestone",
+                "icon": "🇺🇸"
+            },
+            {
+                "year": 1913,
+                "title": "Roue de bicyclette : Premier ready-made assisté",
+                "desc": "Fixe une roue de vélo inversée sur un tabouret de cuisine peint en blanc dans son atelier parisien de la rue Saint-Hippolyte.",
+                "type": "masterpiece",
+                "icon": "🚲"
+            },
+            {
+                "year": 1914,
+                "title": "Le Porte-bouteilles : Le ready-made pur",
+                "desc": "Achète un séchoir à bouteilles en fer galvanisé au Bazar de l'Hôtel de Ville (BHV) et le baptise œuvre d'art sans y apporter la moindre transformation.",
+                "type": "masterpiece",
+                "icon": "🍾"
+            },
+            {
+                "year": 1915,
+                "title": "Installation à New York & Foyer dadaïste",
+                "desc": "Rejoint New York en pleine guerre mondiale, accueilli par les mécènes Walter et Louise Arensberg. Il forme avec Man Ray et Francis Picabia le cœur de Dada New York.",
+                "type": "milestone",
+                "icon": "🗽"
+            },
+            {
+                "year": 1917,
+                "title": "L'Affaire de Fontaine (signée R. Mutt)",
+                "desc": "Envoie un urinoir en porcelaine renversé à la Société des artistes indépendants de New York. L'œuvre censurée devient l'acte fondateur de tout l'art contemporain.",
+                "type": "masterpiece",
+                "icon": "🚽"
+            },
+            {
+                "year": 1919,
+                "title": "L.H.O.O.Q. & La Joconde moustachue",
+                "desc": "Détourne la reproduction de la Joconde de Léonard de Vinci en lui ajoutant moustaches et barbiche au crayon avec un jeu de mots iconoclaste.",
+                "type": "milestone",
+                "icon": "🎭"
+            },
+            {
+                "year": 1923,
+                "title": "Achèvement définitif... inachevé du Grand Verre",
+                "desc": "Après huit années d'élaboration méticuleuse sur deux panneaux de verre (La Mariée mise à nu par ses célibataires, même), il déclare l'œuvre « définitivement inachevée ».",
+                "type": "masterpiece",
+                "icon": "🔮"
+            }
+        ]
     },
     {
-      "title": "Rrose Sélavy, Passion des Échecs & Étant donnés",
-      "years": "1924 – 1968",
-      "color": "#b91c1c",
-      "summary": "Retrait officiel du monde de l'art, passion exclusive pour le jeu d'échecs de compétition et création clandestine pendant 20 ans de sa dernière installation.",
-      "events": [
-        {
-          "year": 1941,
-          "title": "La Boîte-en-valise",
-          "desc": "Musée portatif miniature rassemblant des reproductions de l'ensemble de ses œuvres."
-        },
-        {
-          "year": 1966,
-          "title": "Achèvement secret d'Étant donnés",
-          "desc": "Dernier chef-d'œuvre secret révélé après sa mort au Musée d'art de Philadelphie."
-        }
-      ]
+        "title": "Rrose Sélavy, Passion des Échecs & Scénographies Surréalistes",
+        "years": "1924 – 1945",
+        "color": "#b91c1c",
+        "desc": "Revêtant l'alter ego féminin de Rrose Sélavy, il abandonne publiquement le marché de l'art pour devenir joueur d'échecs de niveau international tout en guidant les expositions surréalistes.",
+        "summary": "Alter ego Rrose Sélavy, carrière de joueur d'échecs de haut niveau et conception du musée miniature portatif La Boîte-en-valise.",
+        "events": [
+            {
+                "year": 1920,
+                "title": "Naissance de Rrose Sélavy",
+                "desc": "Photographié par Man Ray travesti en dame bourgeoise au manteau de fourrure et chapeau cloche, il signe désormais ses aphorismes (« Éros, c'est la vie »).",
+                "type": "milestone",
+                "icon": "💄"
+            },
+            {
+                "year": 1924,
+                "title": "Maître de la Fédération Française des Échecs",
+                "desc": "Délaisse la production artistique commerciale pour disputer les tournois de maîtres. Il représentera la France à quatre Olympiades d'échecs (1928, 1930, 1931, 1933).",
+                "type": "milestone",
+                "icon": "♟️"
+            },
+            {
+                "year": 1935,
+                "title": "Invention de la Boîte-en-valise",
+                "desc": "Conçoit un musée portatif miniature rassemblant 69 reproductions réduites et fac-similés de toute son œuvre dans un coffret de maroquinerie de voyage.",
+                "type": "masterpiece",
+                "icon": "🧳"
+            },
+            {
+                "year": 1938,
+                "title": "Scénographie de l'Exposition Surréaliste de Paris",
+                "desc": "Pour André Breton à la Galerie des Beaux-Arts, il suspend 1 200 sacs de charbon au plafond dans une salle plongée dans l'obscurité, les visiteurs munis de lampes torches.",
+                "type": "milestone",
+                "icon": "🦇"
+            },
+            {
+                "year": 1942,
+                "title": "Exil à New York & Le labyrinthe de ficelle",
+                "desc": "Pour l'exposition First Papers of Surrealism, il tisse seize miles de ficelle à travers les cimaises, obligeant le public à contourner une gigantesque toile d'araignée.",
+                "type": "milestone",
+                "icon": "🕸️"
+            }
+        ]
+    },
+    {
+        "title": "Le Secret d'Étant donnés & La Consécration Mondiale",
+        "years": "1946 – 1968",
+        "color": "#8b5cf6",
+        "desc": "Pendant que le monde le croit retiré dans le silence des échecs, il élabore clandestinement dans son atelier new-yorkais son testament plastique absolu pendant plus de vingt ans.",
+        "summary": "Création secrète d'Étant donnés pendant 20 ans, première rétrospective à Pasadena et révélation posthume de son dernier chef-d'œuvre.",
+        "events": [
+            {
+                "year": 1946,
+                "title": "Création clandestine d'Étant donnés (1946 – 1966)",
+                "desc": "Travaille dans le secret le plus absolu dans son atelier de la 14e rue à New York sur Étant donnés : 1. La chute d'eau, 2. Le gaz d'éclairage, une installation environnementale voyeuriste.",
+                "type": "masterpiece",
+                "icon": "🚪"
+            },
+            {
+                "year": 1955,
+                "title": "Naturalisation américaine & Étés à Cadaqués",
+                "desc": "Prend la citoyenneté américaine à New York tout en passant ses étés en Catalogne à Cadaqués avec son épouse Teeny et son vieil ami Salvador Dalí.",
+                "type": "milestone",
+                "icon": "🇺🇸"
+            },
+            {
+                "year": 1959,
+                "title": "Monographie fondatrice de Robert Lebel",
+                "desc": "Publication de Sur Marcel Duchamp, premier catalogue raisonné qui fait l'effet d'une bombe intellectuelle sur les jeunes créateurs pop et néo-dadaïstes (Johns, Rauschenberg).",
+                "type": "milestone",
+                "icon": "📚"
+            },
+            {
+                "year": 1963,
+                "title": "Rétrospective triomphale à Pasadena",
+                "desc": "Première rétrospective muséale majeure au Pasadena Art Museum, immortalisée par sa partie d'échecs face à Eve Babitz dénudée devant Le Grand Verre.",
+                "type": "milestone",
+                "icon": "🏆"
+            },
+            {
+                "year": 1968,
+                "title": "Mort à Neuilly & Révélation posthume à Philadelphie",
+                "desc": "S'éteint à 81 ans dans la nuit du 2 octobre 1968. Son épitaphe à Rouen proclame : « D'ailleurs, c'est toujours les autres qui meurent ». Son installation secrète est dévoilée en 1969.",
+                "type": "death",
+                "icon": "🕊️"
+            }
+        ]
     }
-  ]
-}
+]
+  }
 };

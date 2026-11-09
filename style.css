@@ -3317,14 +3317,62 @@ body {
   margin-bottom: 3px;
 }
 
-.scale-stamp-human-label {
-  font-size: 9px;
+.scale-stamp-human-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding-left: 36px;
+}
+
+.scale-stamp-human-box {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+/* Ligne pointillée de hauteur le long du corps de l'homme */
+.scale-stamp-human-cote-line {
+  position: absolute;
+  left: -8px;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  border-left: 1.5px dashed #38bdf8;
+  pointer-events: none;
+}
+
+.scale-stamp-human-cote-line::before,
+.scale-stamp-human-cote-line::after {
+  content: '';
+  position: absolute;
+  left: -3px;
+  width: 6px;
+  height: 1px;
+  background: #38bdf8;
+}
+
+.scale-stamp-human-cote-line::before {
+  top: 0;
+}
+
+.scale-stamp-human-cote-line::after {
+  bottom: 0;
+}
+
+/* Hauteur 175 cm le long du pointillé */
+.scale-stamp-human-cote-val {
+  position: absolute;
+  left: -42px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 8.5px;
   font-weight: 700;
   color: #38bdf8;
-  letter-spacing: 0.5px;
-  font-family: 'Cinzel', serif, sans-serif;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.95);
   white-space: nowrap;
+  font-family: system-ui, -apple-system, sans-serif;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.95);
 }
 
 .scale-stamp-frame-box {
@@ -3336,9 +3384,21 @@ body {
   box-sizing: border-box;
 }
 
+/* Ligne pointillée de hauteur le long du cadre */
+.scale-stamp-frame-box::after {
+  content: '';
+  position: absolute;
+  right: -8px;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  border-left: 1.5px dashed #38bdf8;
+  pointer-events: none;
+}
+
 .scale-stamp-cote-h {
   position: absolute;
-  right: -36px;
+  left: calc(100% + 12px);
   top: 50%;
   transform: translateY(-50%);
   font-size: 8.5px;
@@ -4385,34 +4445,32 @@ body {
 
 .sticky-bar-identity {
   display: flex;
-  align-items: baseline;
-  gap: 10px;
+  align-items: center;
+  gap: 12px;
   min-width: 0;
   flex: 1;
-  overflow: hidden;
 }
 
 .sticky-bar-icon {
-  font-size: 1rem;
+  font-size: 1.1rem;
   flex-shrink: 0;
   align-self: center;
 }
 
 .sticky-bar-title {
   font-family: 'Cinzel', serif;
-  font-size: 1.08rem;
+  font-size: 1.05rem;
   font-weight: 700;
   color: var(--gold-pure);
-  letter-spacing: 1.2px;
+  letter-spacing: 1px;
   text-transform: uppercase;
   white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  flex-shrink: 0;
 }
 
 .sticky-bar-dates {
   font-family: 'Cormorant Garamond', Georgia, serif;
-  font-size: 1.02rem;
+  font-size: 1.05rem;
   font-style: italic;
   color: var(--gold-pale);
   white-space: nowrap;
@@ -4420,14 +4478,13 @@ body {
 }
 
 .sticky-bar-sub {
-  font-family: 'Cinzel', serif;
-  font-size: 0.68rem;
-  color: var(--text-muted);
-  letter-spacing: 0.8px;
-  text-transform: uppercase;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  display: none !important;
+}
+
+/* Évite la redondance des boutons revenir à la frise / fermer quand la sticky bar est active */
+#search-top-panel.is-collapsed ~ #search-gallery-scroll .artist-hero-actions-top {
+  display: none !important;
+}
   padding-left: 8px;
   border-left: 1px solid rgba(212, 175, 55, 0.25);
 }

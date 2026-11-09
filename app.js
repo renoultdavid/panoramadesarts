@@ -9284,7 +9284,7 @@ function initSearchEngine() {
       if (stickyBarIcon) stickyBarIcon.textContent = '🎨';
       if (stickyBarTitle) stickyBarTitle.textContent = nameTxt;
       if (stickyBarDates) stickyBarDates.textContent = datesTxt;
-      if (stickyBarSub) stickyBarSub.textContent = rec && rec.movement ? rec.movement : '';
+      if (stickyBarSub) stickyBarSub.textContent = '';
       if (stickyBarCount) stickyBarCount.textContent = `${countVal} œuvre${Number(countVal) > 1 ? 's' : ''}`;
       if (btnStickyCloseArtist) btnStickyCloseArtist.hidden = false;
       const btnStickyReturnTimeline = document.getElementById('btn-sticky-return-timeline');
