@@ -740,6 +740,14 @@ window.MOVEMENTS_DATA = {
         "desc": "Série des Tours Eiffel, Formes circulaires, Rythmes et Nature morte portugaise.",
         "artistId": "delaunay",
         "icon": "⭕"
+      },
+      {
+        "name": "Sonia Delaunay",
+        "dates": "1885 – 1979",
+        "role": "Pionnière de l'abstraction, co-créatrice du Simultanéisme et virtuose des arts appliqués",
+        "desc": "Nu jaune, Prismes électriques, Rythmes, Serpent noir et robes simultanées.",
+        "artistId": "sonia_delaunay",
+        "icon": "✨"
       }
     ]
   },

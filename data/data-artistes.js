@@ -7702,18 +7702,116 @@ window.ARTISTS_REGISTRY = {
       ]
     }
   },
-  la_tour: {
-    id: "la_tour",
-    name: "Georges de La Tour",
-    sortName: "La Tour Georges de",
-    sortLetter: "L",
-    dates: "1593 – 1652",
-    movement: "Caravagisme français, Clair-obscur & Scènes nocturnes",
-    nationality: "Français (Lorrain / Vic-sur-Seille / Lunéville)",
-    techniques: "Huile sur toile, clair-obscur virtuose à la source lumineuse masquée, éclairage intimiste par une unique bougie ou veilleuse à huile, simplification géométrique des volumes, textures soyeuses et rustiques (bure, velours, brocarts d'or), palette chromatique d'ocres, rouges corail et bruns profonds",
-    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczP-N9UbgJu_0Oew1zDaGslR06Tid-O-9Vecf23DuGuqAfI__brBWWXrslBqXaLix9iOVQ-iVHfwkjHTF3Pa9wK00RIVyIX2EGbLPrs-sreax5ADFPplF43BvPaVE6aGqMv3xtaJVKiEZLGG4cbqPhhqJQ=w1901-h806-s-no-gm?authuser=0",
+
+  sonia_delaunay: {
+    id: "sonia_delaunay",
+    name: "Sonia Delaunay",
+    sortName: "Delaunay Sonia",
+    sortLetter: "D",
+    dates: "1885 – 1979",
+    movement: "Simultanéisme, Orphisme, Abstraction géométrique & Arts appliqués",
+    nationality: "Franco-ukrainienne (Gradizhsk / Paris)",
+    techniques: "Huile sur toile, encaustique, gouache, gouache sur papier, contrastes simultanés de couleurs pures, disques et arcs de cercle concentriques, collages, textiles brodés, reliures simultanées, lithographie",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczNwKEc5HR4gR7rJCiWGeJPT7lggZk_LGcZQoh-XS8-YLFIB23yvWcf7YPWsKeO24WZpp1O2EO1U_OJ_YeNZv7ocfl-raS0SA2wnaIgIDl-MvPdzWEGenaGN_lelbsdobZTFlcP3WmtLr-6C8PJ6WqIDdA=w1901-h806-s-no-gm?authuser=0",
     bio: [
-      "Georges de La Tour (1593 – 1652) est le représentant le plus célèbre du Caravage français. Redécouvert tardivement au début du XXe siècle, cet artiste lorrain a mené une carrière prospère sous les règnes de Louis XIII et de la monarchie lorraine, devenant l'un des maîtres incontestés de la lumière et du silence dans la peinture occidentale.",
-      "Son genre pictural se définit par un usage magistral du clair-obscur. La Tour est célèbre pour ses compositions nocturnes où l'unique source de lumière — souvent une bougie ou une lampe à huile — sculpte les volumes et crée une atmosphère de recueillement intense. Son style se caractérise par une simplification géométrique des formes, des surfaces lisses et une palette chromatique réduite à des ocres, des rouges profonds et des noirs denses. Il traite les sujets religieux avec un naturalisme si dépouillé qu'ils se confondent souvent avec des scènes de la vie quotidienne.",
-      "L'évolution de son style marque un passage de la précision sociale vers une spiritualité presque abstraite : les scènes « diurnes » de jeunesse (Le Tricheur à l'as de carreau, Le Vielleur) dépeignent des types sociaux aux costumes luxueux ou rustiques avec une précision tactile dans une lumière claire révélant la ruse et le jeu social ; les scènes « nocturnes », sa période la plus emblématique, abandonnent les détails
-... [truncated for diff preview]
+      "Sonia Delaunay (1885 – 1979) est l'une des pionnières de l'abstraction et la co-créatrice, avec son mari Robert Delaunay, du Simultanéisme. Artiste totale d'origine ukrainienne, elle a aboli les frontières entre les beaux-arts et les arts appliqués. Pour elle, la couleur est un langage autonome, une force dynamique capable de structurer non seulement la toile, mais aussi le vêtement, l'objet et l'espace urbain.",
+      "Son genre pictural se définit par l'abstraction orphique et le design textile. Son style se caractérise par l'utilisation de cercles concentriques, d'arcs de cercle et de formes géométriques pures juxtaposées selon la loi du contraste simultané des couleurs (théorisée par Chevreul). Ce procédé crée une sensation de mouvement et de vibration lumineuse sans recours à la perspective ou au dessin traditionnel.",
+      "L'évolution de son style marque une expansion de la couleur du tableau vers la vie quotidienne : la naissance du Simultanéisme (années 1910) où elle s'éloigne du fauvisme pour explorer la décomposition de la lumière (Prismes électriques) ; l'art dans la vie et la Mode (années 1920-1930) pendant l'exil en Espagne et au Portugal, puis de retour à Paris en appliquant ses recherches chromatiques aux tissus, aux costumes de scène et à la mode (les « robes simultanées ») ; enfin l'abstraction monumentale et les Rythmes (après 1945) où elle poursuit seule une œuvre monumentale aux grands formats où demi-cercles et rectangles de couleurs primaires s'emboîtent dans une danse géométrique d'une grande rigueur formelle."
+    ],
+    corpus: {
+      total: 250,
+      seen: 2,
+      paintingsCount: 250,
+      sourceTitle: "Rétrospectives MAMVP / Tate Modern & Estimations des experts du marché",
+      sourceNotes: "Les experts du marché de l'art et les grandes rétrospectives muséales estiment son corpus de toiles pures à une fourchette très resserrée. En l'absence de catalogue raisonné global exhaustif, le plafond officiel retenu pour sa production sur toile et encaustique se situe entre 200 et 250 œuvres peintes majeures, en excluant les travaux décoratifs et textiles dérivés.",
+      details: [
+        { label: "Peintures sur toile et encaustiques", count: 250, icon: "🎨", color: "#d4af37", seen: 2, note: "Corpus de peintures pures (dont Nu jaune, Serpent noir, Prismes électriques)" },
+        { label: "Œuvres textiles, gouaches & arts appliqués", count: 1200, icon: "🧵", color: "#00b4d8", seen: 0, note: "Robes simultanées, maquettes de mode, reliures et estampes" }
+      ]
+    },
+    timeline: {
+      title: "Parcours & Grandes Périodes Créatrices",
+      chapters: [
+        {
+          title: "Les Débuts Fauves & Naissance du Simultanéisme",
+          years: "1905 – 1914",
+          desc: "Formée en Allemagne puis à Paris, elle s'affranchit du naturalisme par la violence expressive de la couleur pure avant d'inventer avec Robert l'abstraction simultanée.",
+          events: [
+            {
+              year: 1908,
+              title: "Nu jaune (Nantes)",
+              desc: "Toile d'une audace chromatique totale : le corps féminin irradié d'ocres et de citron sous tension avec des ombres d'un violet intense, chef-d'œuvre de la période fauve.",
+              type: "masterpiece",
+              icon: "🟡",
+              artworkId: "sonia_delaunay_nu_jaune_nantes_1908"
+            },
+            {
+              year: 1911,
+              title: "La couverture de berceau en patchwork",
+              desc: "Création spontanée pour son fils Charles : assemblage géométrique de morceaux d'étoffes qui marque le passage décisif vers l'abstraction et les arts appliqués.",
+              type: "milestone",
+              icon: "🧩"
+            },
+            {
+              year: 1914,
+              title: "Prismes électriques",
+              desc: "Chef-d'œuvre absolu de l'orphisme traduisant le halo vibrant des nouveaux globes électriques du boulevard Saint-Michel en cercles de lumière pure.",
+              type: "masterpiece",
+              icon: "💡"
+            }
+          ]
+        },
+        {
+          title: "L'Exil Ibérique, la Mode & l'Atelier Simultané",
+          years: "1915 – 1939",
+          desc: "Durant la guerre au Portugal et en Espagne, puis dans le Paris des Années folles, elle applique la théorie du contraste simultané aux vêtements, costumes et décors.",
+          events: [
+            {
+              year: 1917,
+              title: "Costumes pour les Ballets Russes de Diaghilev",
+              desc: "Rencontre Serge de Diaghilev à Madrid et conçoit les somptueux costumes simultanés pour la reprise du ballet Cléopâtre.",
+              type: "milestone",
+              icon: "🎭"
+            },
+            {
+              year: 1925,
+              title: "La Boutique Simultanée à l'Exposition des Arts Décoratifs",
+              desc: "Triomphe international avec Jacques Heim à l'Exposition internationale de Paris : consécration de la mode simultanée et des tissus abstraits.",
+              type: "milestone",
+              icon: "👗"
+            }
+          ]
+        },
+        {
+          title: "Abstraction Monumentale & Consécration au Louvre",
+          years: "1945 – 1979",
+          desc: "Après la disparition de Robert, elle déploie seule de grands formats rythmés d'une rigueur formelle éclatante et devient une icône vivante de l'art moderne.",
+          events: [
+            {
+              year: 1964,
+              title: "Première rétrospective d'une femme vivante au Louvre",
+              desc: "Fait don d'un ensemble exceptionnel de 117 œuvres de Robert et d'elle-même à l'État français, exposé dans les salles du Musée du Louvre.",
+              type: "milestone",
+              icon: "🏛️"
+            },
+            {
+              year: 1971,
+              title: "Serpent noir (Nantes)",
+              desc: "Fresque magistrale de maturité : onde sinueuse et rythmes concentriques de couleurs saturées dans une composition monumentale.",
+              type: "masterpiece",
+              icon: "🐍",
+              artworkId: "sonia_delaunay_serpent_noir_nantes_1971"
+            },
+            {
+              year: 1979,
+              title: "Mort à Paris",
+              desc: "S'éteint le 5 décembre 1979 à Paris à l'âge de 94 ans, célébrée comme l'une des figures fondatrices de l'abstraction moderne.",
+              type: "death",
+              icon: "🕊️"
+            }
+          ]
+        }
+      ]
+    }
+  }
+};
