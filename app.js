@@ -7670,6 +7670,9 @@ function populateModalData(art) {
 }
 
 const CERTIFIED_PAINTING_DIMENSIONS = {
+  // Holbein Hans
+  "holbein_les_ambassadeurs_londres_1533": { h: 207.0, w: 209.5, display: "207 × 209,5 cm (The National Gallery, Londres)" },
+
       // David Hockney (Série 4 : Nouveaux Portraits de Proches & Créateurs 2023-2025)
   "hockney_portrait_richard_hockney_2023": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm (Collection David Hockney Foundation)" },
   "hockney_portrait_donatien_grau_2023": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm (Collection de l'artiste / Collection particulière)" },

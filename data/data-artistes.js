@@ -2,6 +2,157 @@
    REGISTRE DES PEINTRES & NOTICES MONOGRAPHIQUES
    ========================================================================== */
 window.ARTISTS_REGISTRY = {
+  "holbein": {
+    "id": "holbein",
+    "name": "Holbein Hans",
+    "sortName": "Holbein Hans",
+    "sortLetter": "H",
+    "dates": "1497 – 1543",
+    "movement": "Renaissance nordique, Humanisme rhénan, Réforme & Peintre de cour des Tudor",
+    "nationality": "Allemand / Suisse / Actif en Angleterre",
+    "techniques": "Huile et tempera sur panneau de chêne, détrempe, pierre noire, sanguine, lavis, gravure sur bois",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczNNVahG3peq3hAG4ZjgN7ABYeuuQPTcrK71OZqmv6SIla3ypoREIqD_vFkgGRAmwzZRO2qBfectiqoXS5pxzZ55fA9uNW_x_fPzN5XEpUCjbEZ5zuMvRJ2v8isoEnoZdEgx2qQk5YTLFtnARt6X-nxL4Q=w1681-h713-s-no-gm?authuser=0",
+    "bio": "<p>Hans Holbein le Jeune (1497 – 1543) est le maître absolu du portrait de la Renaissance nordique. Né en Allemagne à Augsbourg et formé à Bâle, il est devenu le peintre de cour attitré du roi Henri VIII en Angleterre. Son art représente le sommet de l'Humanisme pictural : une précision technique infaillible mise au service d'une analyse psychologique et intellectuelle d'une profondeur inégalée.</p><p>Son genre pictural se définit par le portrait diplomatique et royal, la peinture religieuse et la gravure (notamment ses célèbres <em>Danses macabres</em>). Son style se caractérise par un réalisme linéaire d'une précision chirurgicale, un rendu illusionniste des textures (fourrures de lynx, soies, velours, métaux et reflets) et une maîtrise magistrale de l'anamorphose et des symboles savants. Chez Holbein, le portrait ne se contente pas de figer une ressemblance : il met en scène le statut social, les ambitions intellectuelles et les tourments spirituels de son époque.</p><p>Son œuvre peint comprend environ 110 à 120 tableaux autographes parvenus jusqu'à nous (selon le catalogue raisonné de référence de John Rowlands, 1985), auxquels s'ajoutent une impressionnante collection de dessins préparatoires au crayon et à la craie conservés à la Royal Collection de Windsor, ainsi que ses gravures sur bois universellement admirées.</p><p>Trois périodes majeures structurent sa carrière :</p><p>1. Les débuts à Bâle et l'Humanisme rhénan (1515 – 1526) : Holbein s'installe à Bâle, centre majeur de l'imprimerie et de l'humanisme. Il y peint pour de riches bourgeois, illustre <em>L'Éloge de la folie</em> d'Érasme de Rotterdam (qui devient son protecteur) et réalise des chefs-d'œuvre religieux saisissants, marqués par un réalisme frontal et dépouillé.</p><p>2. Le premier séjour en Angleterre et la transition (1526 – 1532) : Recommandé par Érasme à Thomas More, Holbein séjourne à Londres (1526-1528) où il peint l'élite intellectuelle et politique des humanistes anglais. De retour à Bâle pendant les troubles iconoclastes de la Réforme, il termine d'importantes commandes avant de repartir définitivement pour Londres en 1532.</p><p>3. Le maître de cour d'Henri VIII et les portraits royaux (1532 – 1543) : Installé à Londres, il travaille d'abord pour les marchands de la Hanse au Steelyard, puis devient le peintre attitré du roi Henri VIII en 1536. Il réalise alors les portraits d'apparat les plus célèbres de la dynastie Tudor (Henri VIII, Jane Seymour, Anne de Clèves) ainsi que le chef-d'œuvre absolu de la peinture diplomatique, <em>Les Ambassadeurs</em> (1533), avant d'être emporté par la peste à Londres en 1543.</p>",
+    "totalOeuvresEstimees": "environ 110 à 120 peintures autographes",
+    "oeuvresConsensusNotice": "Son œuvre peint comprend environ 110 à 120 tableaux autographes parvenus jusqu'à nous (selon le catalogue raisonné de référence de John Rowlands, 1985), auxquels s'ajoutent une impressionnante collection de dessins préparatoires au crayon et à la craie conservés à la Royal Collection de Windsor, ainsi que ses gravures sur bois universellement admirées (notamment ses Danses macabres).",
+    "timeline": {
+        "periods": [
+            {
+                "title": "1515 – 1526 : Les débuts à Bâle et l'Humanisme rhénan",
+                "years": "1515 – 1526",
+                "color": "#0284c7",
+                "desc": "Installation à Bâle, amitié avec Érasme de Rotterdam, illustration de L'Éloge de la folie et peintures religieuses saisissantes.",
+                "summary": "Formé par son père à Augsbourg, Holbein s'établit à Bâle, carrefour européen de l'imprimerie. Soutenu par Érasme, il révolutionne le portrait humaniste et la peinture sacrée avec Le Corps du Christ mort dans la tombe avant que la Réforme n'interrompe les commandes d'église.",
+                "events": [
+                    {
+                        "year": 1497,
+                        "title": "Naissance à Augsbourg",
+                        "desc": "Naît à Augsbourg en Bavière, fils du peintre renommé Hans Holbein l'Ancien.",
+                        "icon": "🌟",
+                        "badge": "Origines"
+                    },
+                    {
+                        "year": 1515,
+                        "title": "Arrivée à Bâle & Dessins pour Érasme",
+                        "desc": "S'installe à Bâle et illustre en marge les exemplaires imprimés de L'Éloge de la folie d'Érasme.",
+                        "icon": "📖",
+                        "badge": "Humanisme"
+                    },
+                    {
+                        "year": 1519,
+                        "title": "Maître de la guilde des peintres",
+                        "desc": "Reçu maître de la guilde de Bâle et épouse Elsbeth Binsenstock.",
+                        "icon": "🎨",
+                        "badge": "Maîtrise"
+                    },
+                    {
+                        "year": 1521,
+                        "title": "Le Corps du Christ mort dans la tombe",
+                        "desc": "Peint l'inoubliable Christ mort d'un réalisme cadavérique bouleversant (Bâle, Kunstmuseum).",
+                        "icon": "✝️",
+                        "badge": "Chef-d'œuvre"
+                    },
+                    {
+                        "year": 1523,
+                        "title": "Portraits d'Érasme de Rotterdam",
+                        "desc": "Exécute les portraits iconiques d'Érasme écrivant, diffusés dans toute l'Europe humaniste.",
+                        "icon": "✍️",
+                        "badge": "Portrait"
+                    }
+                ]
+            },
+            {
+                "title": "1526 – 1532 : Premier séjour anglais et transition bâloise",
+                "years": "1526 – 1532",
+                "color": "#059669",
+                "desc": "Recommandé par Érasme à Thomas More, portraits du cercle humaniste londonien puis retour à Bâle sous la Réforme.",
+                "summary": "Muni d'une lettre d'Érasme, Holbein découvre Londres en 1526 et entre dans l'intimité de Thomas More. Après deux ans fructueux, il rentre à Bâle en 1528 confronté aux destructions iconoclastes avant de choisir l'exil définitif en Angleterre.",
+                "events": [
+                    {
+                        "year": 1526,
+                        "title": "Départ pour l'Angleterre & Accueil chez Thomas More",
+                        "desc": "Arrive à Londres et s'installe à Chelsea chez Thomas More qui devient son principal mécène.",
+                        "icon": "⛵",
+                        "badge": "Londres"
+                    },
+                    {
+                        "year": 1527,
+                        "title": "Portrait de Sir Thomas More",
+                        "desc": "Peint le grand portrait d'apparat de Thomas More arborant le collier de roses des Tudor (Frick Collection).",
+                        "icon": "👑",
+                        "badge": "Portrait"
+                    },
+                    {
+                        "year": 1528,
+                        "title": "Retour à Bâle & Portrait de sa famille",
+                        "desc": "Rentre à Bâle et peint Le Portrait de la femme de l'artiste avec ses deux enfants, d'un pathétique poignant.",
+                        "icon": "👨‍👩‍👧‍👦",
+                        "badge": "Intimité"
+                    },
+                    {
+                        "year": 1529,
+                        "title": "Crise iconoclaste à Bâle",
+                        "desc": "Témoin de la fureur iconoclaste réformée qui détruit les retables religieux bâlois.",
+                        "icon": "⚡",
+                        "badge": "Histoire"
+                    }
+                ]
+            },
+            {
+                "title": "1532 – 1543 : Peintre de cour d'Henri VIII et apogée Tudor",
+                "years": "1532 – 1543",
+                "color": "#d97706",
+                "desc": "Installation définitive à Londres, portraits des marchands de la Hanse, Les Ambassadeurs et gloire auprès d'Henri VIII.",
+                "summary": "Revenu à Londres en 1532, Holbein peint d'abord les marchands hanséatiques du Steelyard avant d'entrer en 1536 au service exclusif d'Henri VIII. Il crée les portraits officiels immortels de la cour Tudor et Les Ambassadeurs (1533) avant de succomber à la peste en 1543.",
+                "events": [
+                    {
+                        "year": 1532,
+                        "title": "Portraits du Steelyard de Londres",
+                        "desc": "Peint la colonie des marchands allemands de la Hanse à Londres, dont Georg Gisze.",
+                        "icon": "💼",
+                        "badge": "Hanse"
+                    },
+                    {
+                        "year": 1533,
+                        "title": "Les Ambassadeurs (Jean de Dinteville et Georges de Selve)",
+                        "desc": "Réalise à Londres son chef-d'œuvre absolu de double portrait diplomatique avec anamorphose de crâne.",
+                        "icon": "🏆",
+                        "badge": "Chef-d'œuvre",
+                        "artworkId": "holbein_les_ambassadeurs_londres_1533"
+                    },
+                    {
+                        "year": 1536,
+                        "title": "Peintre du Roi Henri VIII",
+                        "desc": "Nommé peintre officiel de la cour royale d'Angleterre avec pension attitrée.",
+                        "icon": "⚜️",
+                        "badge": "Cour Royale"
+                    },
+                    {
+                        "year": 1537,
+                        "title": "La Fresque dynastique de Whitehall & Jane Seymour",
+                        "desc": "Peint le portrait monumental d'Henri VIII en pose frontale iconique et celui de la reine Jane Seymour.",
+                        "icon": "👑",
+                        "badge": "Tudor"
+                    },
+                    {
+                        "year": 1539,
+                        "title": "Mission diplomatique : Portrait d'Anne de Clèves",
+                        "desc": "Envoyé sur le continent pour peindre Anne de Clèves afin d'éclairer le choix matrimonial du roi.",
+                        "icon": "💍",
+                        "badge": "Diplomatie"
+                    },
+                    {
+                        "year": 1543,
+                        "title": "Mort de la peste à Londres",
+                        "desc": "Rédige son testament le 7 octobre 1543 et meurt subitement à Londres lors d'une épidémie de peste.",
+                        "icon": "🕊️",
+                        "badge": "Disparition"
+                    }
+                ]
+            }
+        ]
+    }
+  },
   "hockney": {
     "id": "hockney",
     "name": "Hockney David",

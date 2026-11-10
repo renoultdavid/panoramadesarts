@@ -1,0 +1,42 @@
+/* ==========================================================================
+   PANORAMA DES ARTS - CATALOGUE D'OBJETS - FICHIER 5
+   Contient les acquisitions et chefs-d'œuvre récemment intégrés.
+   Ce fichier est concaténé en tête de collection (window.ART_OBJECTS).
+   ========================================================================== */
+
+window.ART_OBJECTS = [
+  {
+    "id": "holbein_les_ambassadeurs_londres_1533",
+    "artistId": "holbein",
+    "artist": "Holbein Hans",
+    "artistSort": "Holbein Hans",
+    "title": "Les Ambassadeurs (Jean de Dinteville et Georges de Selve)",
+    "date": "1533",
+    "dateDisplay": "1533",
+    "century": "XVIe siècle",
+    "centuryDisplay": "XVIe s. (1533)",
+    "centuryNumeric": 1533,
+    "medium": "Huile et tempera sur panneau de chêne",
+    "dimensions": "207 × 209,5 cm",
+    "location": "The National Gallery, Londres",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczPEz0Ortn4xMR24iTJ-mDekG0Kienuqa24cNSms-NoCuOTLavgi1u7wyBijfunpcCoTHFLbl0EoR_6h6_FH-4RMnHRBGSSoc3w99ksKhqnBVdOo9vpZe1rz1pPHhDzxn68l7zzOfHLcNpgllAuxoImVAw=w1681-h1692-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczPEz0Ortn4xMR24iTJ-mDekG0Kienuqa24cNSms-NoCuOTLavgi1u7wyBijfunpcCoTHFLbl0EoR_6h6_FH-4RMnHRBGSSoc3w99ksKhqnBVdOo9vpZe1rz1pPHhDzxn68l7zzOfHLcNpgllAuxoImVAw=w1681-h1692-s-no-gm?authuser=0",
+    "civilization": "Allemagne / Angleterre",
+    "subpart": "Renaissance nordique, Humanisme et portraits de cour des Tudor",
+    "type": "Peinture",
+    "domain": "peinture",
+    "artifactType": "Peinture",
+    "desc": "<p>Peint à Londres au printemps 1533, <em>Les Ambassadeurs</em> de Hans Holbein le Jeune est le monument indépassable du portrait humaniste de la Renaissance et l'une des compositions les plus fascinantes de toute l'histoire de la peinture occidentale. Ce double portrait en pied grandeur nature réunit deux éminents diplomates français envoyés à la cour des Tudor par François Ier : à gauche, <strong>Jean de Dinteville</strong> (1504-1555), seigneur de Polisy et ambassadeur officiel auprès d'Henri VIII ; à droite, son ami intime <strong>Georges de Selve</strong> (1508-1541), évêque de Lavaur, brillant érudit et diplomate ecclésiastique. Les deux hommes sont dans la fleur de l'âge : l'inscription discrète sur la garde de la dague dorée de Dinteville indique son âge (<em>AET. SVAE 29</em>, 29 ans), tandis que la tranche du livre sur lequel s'appuie Georges de Selve porte <em>AETATIS SVAE 25</em> (25 ans).</p><p>Le tableau déploie une virtuosité illusionniste stupéfiante dans le traitement des matières : la somptueuse pelisse de velours noir doublée de fourrure de lynx de Dinteville, son pourpoint de soie rose et son médaillon en or de l'ordre de Saint-Michel contrastent admirablement avec la robe d'apparat en damas brun soyeux de l'évêque. Entre eux se dresse un meuble d'acajou à double plateau recouvert d'un somptueux tapis anatolien (tapis 'Holbein'). Ce meuble matérialise l'idéal encyclopédique de l'Humanisme et les disciplines du <em>Quadrivium</em> : l'étagère supérieure rassemble les instruments du ciel et du temps (globe céleste, cadran solaire cylindrique, quadrant, polyèdre et torquetum) ; l'étagère inférieure abrite les sciences terrestres et les arts humains (un globe terrestre localisant précisément le domaine de Polisy, un livre d'arithmétique de Peter Apian ouvert et calé par une équerre, un étui de flûtes, et un livre de cantiques de Johann Walther contenant la traduction allemande luthérienne des hymnes chrétiens).</p><p>Mais ce sommet de la science et de la fierté politique est traversé d'une tension métaphysique et historique déchirante. L'année 1533 est celle du schisme anglican : Henri VIII épouse secrètement Anne Boleyn et rompt avec Rome. Holbein glisse alors des avertissements silencieux : une corde brisée sur le luth symbolise la discorde religieuse qui déchire l'Europe, et dans le coin supérieur gauche, à demi masqué par la tenture de damas vert, un crucifix d'argent rappelle la présence du Sauveur. Enfin, au centre inférieur du tableau, flottant au-dessus du pavage cosmatesque inspiré de l'abbaye de Westminster, apparaît l'anamorphose la plus célèbre de l'art mondial : une forme énigmatique en os de seiche qui, vue depuis le côté droit en perspective rasante, se révèle être un <strong>crâne humain</strong>. Ce <em>memento mori</em> fulgurant renverse toute la superbe terrestre des deux émissaires : science, pouvoir, jeunesse et élégance ne sont que vanité face à l'éternité et au jugement dernier.</p>",
+    "narrative": "<p>Peint à Londres au printemps 1533, <em>Les Ambassadeurs</em> de Hans Holbein le Jeune est le monument indépassable du portrait humaniste de la Renaissance et l'une des compositions les plus fascinantes de toute l'histoire de la peinture occidentale. Ce double portrait en pied grandeur nature réunit deux éminents diplomates français envoyés à la cour des Tudor par François Ier : à gauche, <strong>Jean de Dinteville</strong> (1504-1555), seigneur de Polisy et ambassadeur officiel auprès d'Henri VIII ; à droite, son ami intime <strong>Georges de Selve</strong> (1508-1541), évêque de Lavaur, brillant érudit et diplomate ecclésiastique. Les deux hommes sont dans la fleur de l'âge : l'inscription discrète sur la garde de la dague dorée de Dinteville indique son âge (<em>AET. SVAE 29</em>, 29 ans), tandis que la tranche du livre sur lequel s'appuie Georges de Selve porte <em>AETATIS SVAE 25</em> (25 ans).</p><p>Le tableau déploie une virtuosité illusionniste stupéfiante dans le traitement des matières : la somptueuse pelisse de velours noir doublée de fourrure de lynx de Dinteville, son pourpoint de soie rose et son médaillon en or de l'ordre de Saint-Michel contrastent admirablement avec la robe d'apparat en damas brun soyeux de l'évêque. Entre eux se dresse un meuble d'acajou à double plateau recouvert d'un somptueux tapis anatolien (tapis 'Holbein'). Ce meuble matérialise l'idéal encyclopédique de l'Humanisme et les disciplines du <em>Quadrivium</em> : l'étagère supérieure rassemble les instruments du ciel et du temps (globe céleste, cadran solaire cylindrique, quadrant, polyèdre et torquetum) ; l'étagère inférieure abrite les sciences terrestres et les arts humains (un globe terrestre localisant précisément le domaine de Polisy, un livre d'arithmétique de Peter Apian ouvert et calé par une équerre, un étui de flûtes, et un livre de cantiques de Johann Walther contenant la traduction allemande luthérienne des hymnes chrétiens).</p><p>Mais ce sommet de la science et de la fierté politique est traversé d'une tension métaphysique et historique déchirante. L'année 1533 est celle du schisme anglican : Henri VIII épouse secrètement Anne Boleyn et rompt avec Rome. Holbein glisse alors des avertissements silencieux : une corde brisée sur le luth symbolise la discorde religieuse qui déchire l'Europe, et dans le coin supérieur gauche, à demi masqué par la tenture de damas vert, un crucifix d'argent rappelle la présence du Sauveur. Enfin, au centre inférieur du tableau, flottant au-dessus du pavage cosmatesque inspiré de l'abbaye de Westminster, apparaît l'anamorphose la plus célèbre de l'art mondial : une forme énigmatique en os de seiche qui, vue depuis le côté droit en perspective rasante, se révèle être un <strong>crâne humain</strong>. Ce <em>memento mori</em> fulgurant renverse toute la superbe terrestre des deux émissaires : science, pouvoir, jeunesse et élégance ne sont que vanité face à l'éternité et au jugement dernier.</p>",
+    "contemporaryArt": {
+      "title": "La Renaissance rhénane & La Crise Tudor • Humanisme, Schisme et Réforme",
+      "events": [
+        "1517 : Martin Luther affiche ses 95 thèses à Wittenberg, déclenchant le séisme de la Réforme protestante.",
+        "1526 : Première arrivée d'Holbein à Londres avec des lettres de recommandation d'Érasme pour Thomas More.",
+        "1533 : Henri VIII épouse secrètement Anne Boleyn ; excommunication papale et rupture officielle de l'Église d'Angleterre avec Rome.",
+        "1533 : Exécution du chef-d'œuvre Les Ambassadeurs pour Jean de Dinteville lors de sa mission diplomatique londonienne.",
+        "1536 : Exécution de Thomas More et d'Anne Boleyn ; Holbein devient peintre officiel de la cour d'Henri VIII."
+      ]
+    }
+  }
+].concat(window.ART_OBJECTS || []);
