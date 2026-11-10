@@ -12073,4 +12073,86 @@ window.ARTISTS_REGISTRY = {
     }
   },
 
+
+  "gauguin": {
+    id: "gauguin",
+    name: "Paul Gauguin",
+    sortName: "Gauguin Paul",
+    sortLetter: "G",
+    dates: "1848 – 1903",
+    movement: "Post-impressionnisme, Synthétisme & Symbolisme",
+    nationality: "Français",
+    techniques: "Huile sur toile, cloisonnisme, sculpture sur bois, gravure sur bois, céramique",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczNdCEGsjzeY0U5jzQKbmPfaRb_4gYMEHA26IAS-9fCdfeDxyElPD-DX94fsMopOEnPzyNNatDVpHLPQ-JzWdFjNJhJxl6hs97Gan6Fn_X3rLekICsG1gQzJ5CwJe1NvBet1_KUZJr_3sO9t4lD3QdxaPQ=w1681-h713-s-no-gm?authuser=0",
+    bio: [
+      "Paul Gauguin (1848 – 1903) est une figure centrale du post-impressionnisme et l'un des précurseurs les plus radicaux de l'art moderne. Ancien agent de change ayant tout plaqué pour la peinture, il fuit la civilisation industrielle en quête d'un \"état sauvage\" originel, d'abord en Bretagne, puis en Polynésie. Son refus de la perspective classique et son usage symbolique de la couleur ont ouvert la voie au fauvisme et à l'expressionnisme.",
+      "Son genre pictural se définit par le synthétisme et le cloisonnisme. Gauguin rejette l'imitation de la nature pour privilégier la vision intérieure et la mémoire. Son style repose sur de grands aplats de couleurs pures, souvent arbitraires (comme un ciel rouge ou un chien bleu), délimités par des cernes noirs marqués. Il cherche à fusionner le sujet réel avec une dimension spirituelle ou mythologique, créant des œuvres au caractère décoratif et sacré.",
+      "L'évolution de son art s'accomplit en trois étapes fondatrices : ses débuts impressionnistes sous l'égide de Camille Pissarro, explorant les réfractions lumineuses et des sujets intimistes bourgeaois ; l'École de Pont-Aven et Le Pouldu en Bretagne, où il invente le synthétisme et brise l'espace tridimensionnel avec La Vision après le sermon (1888) et Bretonnes près de la mer (1889) ; enfin, la période tahitienne et marquisienne, apogée mystique et solaire où sa palette explose en harmonies ardentes et monumentales, culminant avec son testament universel D'où venons-nous ? Que sommes-nous ? Où allons-nous ? (1897) et Trois Tahitiens (1899)."
+    ],
+    totalOeuvresEstimees: "638 peintures achevées",
+    oeuvresConsensusNotice: "En écartant sa riche production polymorphe (céramiques brutes, sculptures sur bois polychromes, gravures et zincographies se comptant par centaines), le catalogue raisonné de référence mondiale établi par Georges Wildenstein et révisé par Daniel Wildenstein fixe le corpus global des peintures achevées de Paul Gauguin à très exactement 638 œuvres.",
+    timeline: {
+      periods: [
+        {
+          title: "Jeunesse voyageuse, Bourse de Paris & Éveil impressionniste",
+          years: "1848 – 1885",
+          color: "#0284c7",
+          desc: "Enfance péruvienne, marin au long cours, succès à la Bourse, mentorat de Pissarro et rupture avec la finance.",
+          summary: "Après une petite enfance à Lima et six ans dans la marine marchande, Gauguin mène une vie bourgeoise d'agent de change avant que le krach de 1882 ne le pousse à se vouer corps et âme à la peinture.",
+          events: [
+            { year: 1848, title: "Naissance à Paris & Exil au Pérou", desc: "Naît à Paris pendant la Révolution de 1848. Sa famille s'embarque pour le Pérou où il passe ses six premières années dans l'opulence créole de Lima.", icon: "⚓", badge: "Origines" },
+            { year: 1865, title: "Marin au long cours", desc: "S'engage comme novice dans la marine marchande puis matelot sur la corvette Jérôme-Napoléon, faisant le tour du globe.", icon: "🚢", badge: "Aventure" },
+            { year: 1871, title: "Courtier à la Bourse de Paris", desc: "Entre chez l'agent de change Paul Bertin, gagne confortablement sa vie et épouse la Danoise Mette-Sophie Gad en 1873.", icon: "💼", badge: "Finance" },
+            { year: 1874, title: "Rencontre de Camille Pissarro", desc: "Découvre la peinture moderne, commence à collectionner Manet, Monet, Cézanne et s'initie au plein air sous la tutelle de Pissarro.", icon: "🎨", badge: "Mentorat" },
+            { year: 1881, title: "Vase de fleurs à la fenêtre & Nature morte aux oranges", desc: "Peint deux natures mortes remarquables à l'écriture impressionniste affirmée, aujourd'hui joyaux du Musée des Beaux-Arts de Rennes.", icon: "🌸", badge: "Rennes" },
+            { year: 1882, title: "Le Krach boursier de l'Union Générale", desc: "La Bourse s'effondre. Gauguin décide d'abandonner définitivement les affaires pour se consacrer exclusivement à son art.", icon: "⚡", badge: "Rupture" },
+            { year: 1885, title: "Baigneuses à Dieppe", desc: "Après un hiver misérable à Copenhague, il séjourne à Dieppe et peint le rythme sculptural des baigneuses normandes face aux vagues.", icon: "🌊", badge: "Normandie" }
+          ]
+        },
+        {
+          title: "L'École de Pont-Aven, Le Pouldu & L'Invention du Synthétisme",
+          years: "1886 – 1890",
+          color: "#8b5cf6",
+          desc: "Découverte de la Bretagne archaïque, séjour à la Martinique, choc d'Émile Bernard et cohabitation avec Van Gogh à Arles.",
+          summary: "Fuyant Paris, Gauguin s'établit en Bretagne où il invente le synthétisme et le cloisonnisme : émancipation de la couleur pure, rejet du réalisme optique et simplification sacrée des formes.",
+          events: [
+            { year: 1886, title: "Premier séjour à Pont-Aven & Quatre femmes bretonnes", desc: "Découvre la rudesse mystique de la Bretagne et peint Quatre femmes bretonnes (Neue Pinakothek de Munich), préfigurant le cloisonnisme.", icon: "🌾", badge: "Bretagne" },
+            { year: 1887, title: "Voyage à Panama et en Martinique", desc: "Part avec Charles Laval aux Antilles ; la lumière tropicale et les harmonies intenses transforment irréversiblement sa palette.", icon: "🌴", badge: "Tropiques" },
+            { year: 1888, title: "La Vision après le sermon (La Lutte de Jacob avec l'ange)", desc: "Avec Émile Bernard à Pont-Aven, il peint sur fond rouge vermillon le manifeste absolu du symbolisme et du synthétisme moderne.", icon: "✨", badge: "Manifeste" },
+            { year: 1888, title: "L'Atelier du Midi avec Vincent van Gogh à Arles", desc: "Rejoint Van Gogh à la Maison Jaune d'octobre à décembre. La confrontation passionnée s'achève par le drame de l'oreille coupée.", icon: "🌻", badge: "Arles" },
+            { year: 1889, title: "Exposition du Café Volpini & Bretonnes près de la mer", desc: "Organise l'exposition dissidente du Groupe Impressionniste et Synthétiste et peint au Pouldu son chef-d'œuvre Bretonnes près de la mer.", icon: "🌊", badge: "Chef-d'œuvre" },
+            { year: 1889, title: "Le Christ jaune & Le Christ vert", desc: "Inspiré par les calvaires de pierre bretons, il peint des icônes primitives où la ferveur populaire s'incarne en jaune solaire.", icon: "✝️", badge: "Sacré" }
+          ]
+        },
+        {
+          title: "Le Premier Voyage à Tahiti & L'Éden polynésien",
+          years: "1891 – 1895",
+          color: "#d97706",
+          desc: "Vente aux enchères d'adieu, immersion à Mataiea, écriture de Noa Noa et retour tumultueux en France.",
+          summary: "Parti fuir la civilisation occidentale décadente, Gauguin débarque à Papeete en juin 1891, s'enfonce dans la brousse à Mataiea et réinvente les mythes maoris dans des toiles d'un éclat somptueux.",
+          events: [
+            { year: 1891, title: "Vente à l'Hôtel Drouot & Départ pour Tahiti", desc: "Vend trente toiles pour financer son exil colonial avec le soutien de Mallarmé et d'Octave Mirbeau.", icon: "🎫", badge: "Exil" },
+            { year: 1892, title: "Manao Tupapau (L'Esprit des morts veille)", desc: "Inspiré par sa compagne Teha'amana, il peint le pendant primitif de l'Olympia de Manet, hanté par les spectres ancestraux.", icon: "🌙", badge: "Tupapau" },
+            { year: 1893, title: "Rédaction de Noa Noa & Exposition Durand-Ruel", desc: "Rapatrié à Paris, il expose 44 toiles tahitiennes chez Durand-Ruel qui divisent violemment le public mais fascinent Degas.", icon: "📖", badge: "Paris" },
+            { year: 1894, title: "Bagarre à Concarneau & Fracture", desc: "Agressé par des marins lors d'un séjour breton, sa cheville broyée le fait souffrir le restant de ses jours ; il décide de fuir définitivement.", icon: "⚡", badge: "Rupture finale" }
+          ]
+        },
+        {
+          title: "Le Dernier Exil : Tahiti, Hiva Oa & Testament universel",
+          years: "1895 – 1903",
+          color: "#dc2626",
+          desc: "Retour définitif dans le Pacifique, chef-d'œuvre testamentaire, exil aux Marquises et combat anticolonial.",
+          summary: "Rongé par la maladie et le deuil de sa fille Aline, Gauguin peint ses œuvres testamentaires monumentales avant de se retirer aux Marquises dans sa Maison du Jouir, où il s'éteint en 1903.",
+          events: [
+            { year: 1895, title: "Départ sans retour pour le Pacifique", desc: "Quitte l'Europe pour toujours et s'installe sur la côte ouest de Tahiti au milieu des cocotiers.", icon: "🌺", badge: "Océanie" },
+            { year: 1896, title: "Te Tamari no Atua (La Nativité tahitienne)", desc: "Transposition magistrale du mystère chrétien dans la tiédeur polynésienne, aujourd'hui à la Neue Pinakothek de Munich.", icon: "👶", badge: "Munich" },
+            { year: 1897, title: "D'où venons-nous ? Que sommes-nous ? Où allons-nous ?", desc: "Apprenant la mort de sa fille Aline, il peint sa fresque testament de 4 mètres de large avant de tenter de s'empoisonner à l'arsenic.", icon: "🌌", badge: "Testament" },
+            { year: 1899, title: "Trois Tahitiens (ou Conversation)", desc: "Monumentale scène allégorique aux corps sculpturaux et drapés éclatants conservée à la National Gallery of Scotland d'Édimbourg.", icon: "👥", badge: "Édimbourg" },
+            { year: 1901, title: "Installation à Hiva Oa (Îles Marquises)", desc: "Gagne les Marquises à bord de la goélette La Croix-du-Sud et bâtit sa fameuse 'Maison du Jouir' ornée de panneaux de bois sculptés.", icon: "🛖", badge: "Marquises" },
+            { year: 1903, title: "Mort solitaire à Atuona", desc: "Après avoir pris la défense des Marquisiens contre les abus des gendarmes et des missionnaires, il s'éteint le 8 mai 1903 à l'âge de 54 ans.", icon: "🕊️", badge: "Éternité" }
+          ]
+        }
+      ]
+    }
+  },
 };

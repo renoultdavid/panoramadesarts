@@ -7646,7 +7646,16 @@ function populateModalData(art) {
 
 const CERTIFIED_PAINTING_DIMENSIONS = {
   
-  // Caspar David Friedrich (2 œuvres Louvre)
+  
+  // Paul Gauguin (7 œuvres)
+  "gauguin_vase_de_fleurs_a_la_fenetre_rennes_1881": { h: 19, w: 27, display: "19 × 27 cm (Musée de Rennes)" },
+  "gauguin_nature_morte_aux_oranges_rennes_1881": { h: 33, w: 46, display: "33 × 46 cm (Musée de Rennes)" },
+  "gauguin_baigneuses_a_dieppe_tokyo_1885": { h: 38.1, w: 46.2, display: "38,1 × 46,2 cm (Tokyo NMWA)" },
+  "gauguin_quatre_femmes_bretonnes_munich_1886": { h: 71.8, w: 91.4, display: "71,8 × 91,4 cm (Neue Pinakothek)" },
+  "gauguin_bretonnes_pres_de_la_mer_tokyo_1889": { h: 92.5, w: 73.6, display: "92,5 × 73,6 cm (Tokyo NMWA)" },
+  "gauguin_nativite_te_tamari_no_atua_munich_1896": { h: 96, w: 128, display: "96 × 128 cm (Neue Pinakothek)" },
+  "gauguin_trois_tahitiens_ou_conversation_edimbourg_1899": { h: 73, w: 94, display: "73 × 94 cm (National Gallery of Scotland)" },
+// Caspar David Friedrich (2 œuvres Louvre)
   "friedrich_bord_de_mer_clair_de_lune_louvre_1818": { h: 22, w: 30.5, display: "22 × 30,5 cm" },
   "friedrich_arbre_aux_corbeaux_louvre_1822": { h: 59, w: 73, display: "59 × 73 cm" },
 
