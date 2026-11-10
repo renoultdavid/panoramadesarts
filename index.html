@@ -157,7 +157,7 @@
           <!-- 5. Recherche libre : artiste, lieu, matière, titre -->
           <div class="filter-field">
             <label for="filter-text">🔎 Recherche libre</label>
-            <input type="text" id="filter-text" placeholder="Peintre, matériau, site, titre...">
+            <input type="text" id="filter-text" placeholder="Artiste, créateur, lieu, titre...">
           </div>
 
           <!-- 6. Tri -->
@@ -194,14 +194,14 @@
         </div>
       </div>
 
-      <!-- Index alphabétique A-Z pour les peintres -->
+      <!-- Index alphabétique A-Z pour les artistes -->
       <div class="artists-alphabet-bar" id="artists-alphabet-bar">
-        <span class="alphabet-title">🎨 PEINTRES (A-Z) :</span>
+        <span class="alphabet-title">🎨 ARTISTES (A-Z) :</span>
         <div class="alphabet-letters" id="alphabet-letters"></div>
         <div class="alphabet-total-badge" id="alphabet-total-badge"
-          title="Total des peintres documentés dans les notices monographiques">
+          title="Total des artistes documentés dans les notices monographiques">
           <span class="badge-icon">📖</span>
-          <span class="badge-count" id="alphabet-total-count">0</span> notices peintres
+          <span class="badge-count" id="alphabet-total-count">0</span> notices artistes
         </div>
       </div>
 
@@ -209,7 +209,7 @@
       <div class="artists-drawer" id="artists-drawer" hidden>
         <div class="artists-drawer-header">
           <span id="artists-drawer-letter" class="drawer-letter-badge">A</span>
-          <span class="drawer-letter-count" id="artists-drawer-count">0 peintre</span>
+          <span class="drawer-letter-count" id="artists-drawer-count">0 artiste</span>
           <button class="btn-close-drawer-letter" id="btn-close-artists-drawer" title="Fermer">✕</button>
         </div>
         <div class="artists-drawer-list" id="artists-drawer-list"></div>
@@ -263,7 +263,7 @@
           ◀ Revenir à la Frise
         </button>
         <button id="btn-sticky-close-artist" class="btn-sticky-close-artist" type="button" hidden
-          title="Fermer la fiche peintre">
+          title="Fermer la fiche artiste">
           ✕ Fermer la fiche
         </button>
       </div>
@@ -272,7 +272,7 @@
     <!-- Zone de défilement des œuvres avec ascenseur -->
     <div id="search-gallery-scroll" class="search-gallery-container">
 
-      <!-- Fiche Monographique Peintre (déroulée en tête des œuvres) -->
+      <!-- Fiche Monographique Artiste (déroulée en tête des œuvres) -->
       <div class="artist-monograph-hero" id="artist-monograph-hero" hidden>
         <div class="artist-hero-banner" id="artist-hero-banner">
           <div class="artist-hero-actions-top">
@@ -280,7 +280,7 @@
               title="Revenir à la frise chronologique">
               ◀ Revenir à la Frise
             </button>
-            <button class="btn-close-artist-hero" id="btn-close-artist-hero" title="Fermer la fiche peintre">
+            <button class="btn-close-artist-hero" id="btn-close-artist-hero" title="Fermer la fiche artiste">
               ✕ Fermer la fiche
             </button>
           </div>

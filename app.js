@@ -9410,7 +9410,7 @@ function initSearchEngine() {
 
     const artists = Object.values(artistsMap || {}).sort((a, b) => (a.sortName || a.name).localeCompare(b.sortName || b.name, 'fr'));
     const total = artists.length;
-    drawerCount.textContent = `${total} peintre${total > 1 ? 's' : ''}`;
+    drawerCount.textContent = `${total} artiste${total > 1 ? 's' : ''}`;
 
     artists.forEach(art => {
       const chip = document.createElement('button');
