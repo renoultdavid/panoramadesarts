@@ -9800,9 +9800,9 @@ function createGalleryCardElement(art, modalList) {
 
   const hasFocus = art.hotspots && art.hotspots.length > 0;
   const badgeDate = formatCardBadgeDate(art);
-  const tagText = art.artifactType || art.category || 'ART';
+  const tagText = art.artifactType || art.category || art.medium || art.type || 'Peinture à l\'huile sur toile';
   const lexEntry = (typeof getTypologyLexiconEntry === 'function')
-    ? (getTypologyLexiconEntry(art.artifactType) || getTypologyLexiconEntry(art.category))
+    ? (getTypologyLexiconEntry(art.artifactType) || getTypologyLexiconEntry(art.category) || getTypologyLexiconEntry(art.medium) || getTypologyLexiconEntry(art.type))
     : null;
 
   const tagMarkup = lexEntry
