@@ -166,89 +166,129 @@ window.ARTISTS_REGISTRY = {
       sourceNotes: "Ensemble estimé à environ 40 œuvres et scènes monumentales conservées, incluant les fresques de Sant'Anastasia à Vérone ainsi que les grands cycles narratifs de la chapelle Saint-Jacques (Basilique Saint-Antoine) et de l'Oratoire Saint-Georges à Padoue."
     },
     biographyTimeline: {
-          "birth": {
-                "year": 1330,
-                "place": "Zevio (près de Vérone)",
-                "title": "Naissance d'Altichiero da Zevio",
-                "desc": "Né dans le terroir véronais, il se forme au contact de la tradition giottesque et du milieu courtois des seigneurs della Scala."
-          },
-          "death": {
-                "year": 1393,
-                "place": "Vérone",
-                "title": "Mort d'Altichiero",
-                "desc": "Décède à Vérone après avoir fondé l'école de peinture padouane et inspiré la génération de Pisanello."
-          },
-          "periods": [
-                {
-                      "title": "Les Débuts Véronais sous les Scaliger",
-                      "years": "1330 – 1370",
-                      "color": "#d97706",
-                      "summary": "Actif à la cour brillante de Cangrande II et Cansignorio della Scala à Vérone, où il déploie un sens précoce du récit narratif.",
-                      "events": [
-                            {
-                                  "year": 1369,
-                                  "title": "Fresques du Palais Scaliger de Vérone",
-                                  "desc": "Peint la Guerre de Judée d'après Flavius Josèphe, très admirée par le poète Pétrarque.",
-                                  "type": "peer",
-                                  "icon": "🤝",
-                                  "linkedArtist": "Pétrarque"
-                            },
-                            {
-                                  "year": 1370,
-                                  "title": "Fresque Cavalli à Sant'Anastasia (Vérone)",
-                                  "desc": "Vierge à l'Enfant entourée de chevaliers en armure : précision magistrale des étoffes et armures.",
-                                  "type": "masterpiece",
-                                  "icon": "🎨"
-                            }
-                      ]
-                },
-                {
-                      "title": "Le Grand Cycle Padouan : Basilique Saint-Antoine",
-                      "years": "1371 – 1379",
-                      "color": "#3b82f6",
-                      "summary": "Appelé à Padoue, foyer intellectuel majeur d'Italie du Nord, pour exécuter le grand décor de la Chapelle San Giacomo (Saint-Félix).",
-                      "events": [
-                            {
-                                  "year": 1376,
-                                  "title": "Commande de Bonifacio Lupi",
-                                  "desc": "Le marquis de Soragna lui confie la chapelle San Giacomo dans la Basilique del Santo à Padoue.",
-                                  "type": "life",
-                                  "icon": "💎"
-                            },
-                            {
-                                  "year": 1379,
-                                  "title": "Achèvement de la Chapelle San Giacomo",
-                                  "desc": "Fresques monumentales marquant le sommet du Trecento tardif : architectures illusionnistes et foule réaliste.",
-                                  "type": "masterpiece",
-                                  "icon": "🎨"
-                            }
-                      ]
-                },
-                {
-                      "title": "L'Oratoire Saint-Georges & L'Aube de la Renaissance",
-                      "years": "1380 – 1393",
-                      "color": "#8b5cf6",
-                      "summary": "Réalisation du cycle de l'Oratoire Saint-Georges à Padoue avec Jacopo Avanzi, chef-d'œuvre annonçant la spatialité du Quattrocento.",
-                      "events": [
-                            {
-                                  "year": 1384,
-                                  "title": "Cycle de la Légende de saint Georges",
-                                  "desc": "Fresques de l'Oratoire San Giorgio : perspective hardie et individualisation psychologique des visages.",
-                                  "type": "masterpiece",
-                                  "icon": "🎨",
-                                  "linkedArtist": "Giotto"
-                            },
-                            {
-                                  "year": 1390,
-                                  "title": "Retour à Vérone",
-                                  "desc": "Dernières créations et transmission de son réalisme courtois à Stefano da Verona et Pisanello.",
-                                  "type": "life",
-                                  "icon": "📜"
-                            }
-                      ]
-                }
-          ]
-    }
+      "birth": {
+            "year": 1330,
+            "place": "Zevio près de Vérone (Vénétie, Italie)",
+            "title": "Naissance d'Altichiero da Zevio",
+            "desc": "Grand maître du Trecento en Italie du Nord, précurseur de la perspective spatiale et du réalisme monumental à Vérone et Padoue."
+      },
+      "death": {
+            "year": 1390,
+            "place": "Vérone (Italie)",
+            "title": "Mort d'Altichiero da Zevio",
+            "desc": "S'éteint après avoir doté Padoue et Vérone des plus grandioses cycles narratifs du XIVe siècle, admirés par Pétrarque."
+      },
+      "periods": [
+            {
+                  "title": "Les Débuts Véronais & Le Mécénat des Scaliger",
+                  "years": "1330 – 1370",
+                  "color": "#f59e0b",
+                  "summary": "Formé dans le milieu véronais, Altichiero assimile la monumentalité giottesque tout en développant une attention aiguë aux costumes chevaleresques et aux visages expressifs.",
+                  "events": [
+                        {
+                              "year": 1330,
+                              "title": "Naissance à Zevio",
+                              "desc": "Grandit dans le terroir véronais sous la seigneurie puissante et raffinée des della Scala (Scaliger).",
+                              "type": "birth",
+                              "icon": "🇮🇹"
+                        },
+                        {
+                              "year": 1369,
+                              "title": "Fresques du Palazzo Scaligero à Vérone",
+                              "desc": "Peint la grande salle d'apparat des seigneurs de Vérone avec des scènes de la Guerre des Juifs de Flavius Josèphe, saluées par Pétrarque.",
+                              "type": "masterpiece",
+                              "icon": "🏰"
+                        },
+                        {
+                              "year": 1370,
+                              "title": "Fresques de l'église Sant'Anastasia de Vérone",
+                              "desc": "Réalise la fresque votive de la famille Cavalli, chef-d'œuvre de perspective architecturale avec des chevaliers en armure scintillante.",
+                              "type": "masterpiece",
+                              "icon": "⚔️"
+                        },
+                        {
+                              "year": 1371,
+                              "title": "Appel à Padoue par la cour des Carrare",
+                              "desc": "La seigneurie des Da Carrara l'attire à Padoue, alors grand foyer intellectuel et universitaire humaniste.",
+                              "type": "milestone",
+                              "icon": "📜"
+                        }
+                  ]
+            },
+            {
+                  "title": "L'Apogée Padouan : La Chapelle Saint-Jacques au Santo",
+                  "years": "1372 – 1379",
+                  "color": "#10b981",
+                  "summary": "À la basilique Saint-Antoine de Padoue (Il Santo), Altichiero peint la chapelle Saint-Jacques, imposant une profondeur spatiale et un drame collectif sans égal avant Masaccio.",
+                  "events": [
+                        {
+                              "year": 1372,
+                              "title": "Commande de Bonifacio Lupi pour le Santo",
+                              "desc": "Le marquis de Soragna lui confie la décoration intégrale de la chapelle Saint-Jacques avec l'aide de Jacopo Avanzi.",
+                              "type": "milestone",
+                              "icon": "🏛️"
+                        },
+                        {
+                              "year": 1376,
+                              "title": "La Crucifixion monumentale du Santo",
+                              "desc": "Composition grandiose à trois arcs où grouille une foule de cavaliers, soldats jouant aux dés et saintes femmes éplorées.",
+                              "type": "masterpiece",
+                              "icon": "✝️"
+                        },
+                        {
+                              "year": 1377,
+                              "title": "Cycle de saint Jacques le Majeur",
+                              "desc": "Récit héroïque scandé par de puissants édifices gothiques en perspective, intégrant des portraits de ses contemporains padouans.",
+                              "type": "masterpiece",
+                              "icon": "🎨"
+                        },
+                        {
+                              "year": 1379,
+                              "title": "Règlement final des comptes du Santo",
+                              "desc": "Rémunération exceptionnelle de 792 ducats d'or attestant de son statut de premier peintre d'Italie du Nord.",
+                              "type": "history",
+                              "icon": "💰"
+                        }
+                  ]
+            },
+            {
+                  "title": "Le Chef-d'Œuvre de l'Oratoire Saint-Georges & Dernières Années",
+                  "years": "1380 – 1390",
+                  "color": "#6366f1",
+                  "summary": "Il édifie son testament pictural dans l'Oratoire Saint-Georges à Padoue : 22 grandes fresques narrant les martyres de saint Georges, sainte Catherine et sainte Lucie.",
+                  "events": [
+                        {
+                              "year": 1380,
+                              "title": "Chantier de l'Oratoire Saint-Georges à Padoue",
+                              "desc": "Chapelle funéraire de Raimondino de' Lupi couverte de la voûte au sol de fresques illustrant le martyre héroïque des saints chevaliers.",
+                              "type": "masterpiece",
+                              "icon": "🛡️"
+                        },
+                        {
+                              "year": 1382,
+                              "title": "Saint Georges décapité & Le Supplice de la roue de sainte Catherine",
+                              "desc": "Invention théâtrale saisissante : machines de torture brisées par les anges, bourreaux stupéfaits et architectures illusionnistes.",
+                              "type": "masterpiece",
+                              "icon": "⚡"
+                        },
+                        {
+                              "year": 1384,
+                              "title": "Retour triomphal à Vérone",
+                              "desc": "Retrouve sa ville natale où il achève des commandes pour les églises San Zeno et Sant'Eufemia.",
+                              "type": "life",
+                              "icon": "🏡"
+                        },
+                        {
+                              "year": 1390,
+                              "title": "Mort à Vérone & Rayonnement sur Pisanello",
+                              "desc": "Disparaît vers 1390 ; son art naturaliste et courtois prépare directement l'éclosion du gothique international de Pisanello.",
+                              "type": "life",
+                              "icon": "⚰️"
+                        }
+                  ]
+            }
+      ]
+}
   },
   "anonymes": {
     id: "anonymes",
@@ -523,88 +563,136 @@ window.ARTISTS_REGISTRY = {
       sourceNotes: "Pour Giovanni Battista Gaulli, dit Baciccia (1639–1709), grand maître du haut baroque romain, l'inventaire de référence moderne a été établi par l'historien de l'art Francesco Petrucci dans son catalogue raisonné monumental publié en 2009 (Baciccio. Giovan Battista Gaulli 1639-1709). Ce catalogue de référence recense environ 300 à 350 œuvres autographes qui nous sont parvenues."
     },
     biographyTimeline: {
-          "birth": {
-                "year": 1639,
-                "place": "Gênes (Ligurie)",
-                "title": "Naissance de Giovanni Battista Gaulli dit Il Baciccia",
-                "desc": "Né à Gênes où il grandit au contact du colorisme génois (Strozzi, De Ferrari) et de la leçon de Van Dyck."
-          },
-          "death": {
-                "year": 1709,
-                "place": "Rome",
-                "title": "Mort du Baciccia",
-                "desc": "Décède à Rome au faîte de sa gloire, considéré comme le maître inégalé de la fresque baroque en trompe-l'œil."
-          },
-          "periods": [
-                {
-                      "title": "Jeunesse Génoise & La Tragédie de la Peste",
-                      "years": "1639 – 1657",
-                      "color": "#0ea5e9",
-                      "summary": "Formé à Gênes, il perd toute sa famille lors de la peste dévastatrice de 1657 et trouve refuge à Rome.",
-                      "events": [
-                            {
-                                  "year": 1657,
-                                  "title": "La peste de Gênes & La fuite vers Rome",
-                                  "desc": "Toute sa famille périt de la peste. Orphelin, le jeune Gaulli part tenter sa chance dans la cité papale.",
-                                  "type": "history",
-                                  "icon": "⚔️"
-                            },
-                            {
-                                  "year": 1658,
-                                  "title": "Rencontre providentielle avec Le Bernin",
-                                  "desc": "Le génial sculpteur Gian Lorenzo Bernini le prend sous sa protection paternelle et guide son évolution stylistique.",
-                                  "type": "peer",
-                                  "icon": "🤝",
-                                  "linkedArtist": "Le Bernin"
-                            }
-                      ]
-                },
-                {
-                      "title": "L'Apothéose de l'Illusionnisme : Le Plafond du Gesù",
-                      "years": "1672 – 1685",
-                      "color": "#f59e0b",
-                      "summary": "Sous la recommandation du Bernin, les Jésuites lui confient le décor de l'église mère de l'Ordre à Rome : l'église du Gesù.",
-                      "events": [
-                            {
-                                  "year": 1672,
-                                  "title": "Attribution du chantier du Gesù",
-                                  "desc": "Le général des Jésuites, Gian Paolo Oliva, lui passe commande sur recommandation formelle du Bernin.",
-                                  "type": "life",
-                                  "icon": "💎"
-                            },
-                            {
-                                  "year": 1679,
-                                  "title": "Le Triomphe du Nom de Jésus (Gesù)",
-                                  "desc": "Chef-d'œuvre universel du baroque : les cieux s'ouvrent, la lumière divine éblouit la nef et précipite les damnés hors du cadre doré en stuc.",
-                                  "type": "masterpiece",
-                                  "icon": "🎨"
-                            }
-                      ]
-                },
-                {
-                      "title": "Portraitiste des Papes & Maître Émérite de l'Académie",
-                      "years": "1686 – 1709",
-                      "color": "#a855f7",
-                      "summary": "Recherché par toute l'aristocratie romaine, il peint sept papes successifs et devient prince de l'Académie de Saint-Luc.",
-                      "events": [
-                            {
-                                  "year": 1693,
-                                  "title": "Prince de l'Accademia di San Luca",
-                                  "desc": "Élu à la tête de la prestigieuse institution romaine des beaux-arts.",
-                                  "type": "life",
-                                  "icon": "👑"
-                            },
-                            {
-                                  "year": 1707,
-                                  "title": "Fresques de la coupole des Saints-Apôtres",
-                                  "desc": "Ultime commande grandiose à Rome, montrant la persistance de son énergie et de sa verve chromatique.",
-                                  "type": "masterpiece",
-                                  "icon": "🎨"
-                            }
-                      ]
-                }
-          ]
-    }
+      "birth": {
+            "year": 1639,
+            "place": "Gênes (République de Gênes, Italie)",
+            "title": "Naissance de Giovanni Battista Gaulli dit Il Baciccia",
+            "desc": "Maître absolu du baroque triomphant à Rome, protégé du Bernin, créateur de la voûte vertigineuse du Gesù."
+      },
+      "death": {
+            "year": 1709,
+            "place": "Rome (États pontificaux)",
+            "title": "Mort du Baciccia",
+            "desc": "Inhumé à Santa Maria in Campitelli à Rome après avoir incarné l'apothéose de l'illusionnisme céleste de la Contre-Réforme."
+      },
+      "periods": [
+            {
+                  "title": "L'Exil Génois de la Peste & La Protection Déterminante du Bernin",
+                  "years": "1639 – 1671",
+                  "color": "#f59e0b",
+                  "summary": "Après avoir perdu toute sa famille lors de la peste de Gênes en 1657, Gaulli fuit à Rome. Gian Lorenzo Bernini le prend sous son aile et le propulse au premier rang.",
+                  "events": [
+                        {
+                              "year": 1639,
+                              "title": "Naissance à Gênes",
+                              "desc": "Formé dans le riche milieu génois au contact des toiles de Rubens, Van Dyck et Bernardo Strozzi.",
+                              "type": "birth",
+                              "icon": "🇮🇹"
+                        },
+                        {
+                              "year": 1657,
+                              "title": "La grande peste de Gênes & La fuite à Rome",
+                              "desc": "Perd ses parents et ses frères dans l'épidémie ; ruiné et orphelin, il part chercher fortune à Rome.",
+                              "type": "history",
+                              "icon": "⛪"
+                        },
+                        {
+                              "year": 1660,
+                              "title": "Rencontre providentielle avec Le Bernin",
+                              "desc": "Le patriarche du baroque romain Gian Lorenzo Bernini s'émerveille de son talent et le traite comme son fils spirituel.",
+                              "type": "milestone",
+                              "icon": "🤝"
+                        },
+                        {
+                              "year": 1666,
+                              "title": "Fresques des quatre vertus cardinales à Sant'Agnese in Agone",
+                              "desc": "Commande prestigieuse sur la place Navone : figures allégoriques aux drapés tourbillonnants saluées par toute la curie.",
+                              "type": "masterpiece",
+                              "icon": "🏛️"
+                        },
+                        {
+                              "year": 1669,
+                              "title": "Voyage à Parme : La révélation du Corrège",
+                              "desc": "Sous le conseil du Bernin, il étudie la coupole de la cathédrale de Parme par Le Corrège, maître de l'illusion céleste.",
+                              "type": "education",
+                              "icon": "☁️"
+                        }
+                  ]
+            },
+            {
+                  "title": "Le Triomphe du Nom de Jésus : La Voûte du Gesù",
+                  "years": "1672 – 1685",
+                  "color": "#ef4444",
+                  "summary": "À l'église du Gesù, maison-mère des jésuites à Rome, Baciccia accomplit le chef-d'œuvre suprême du baroque : une trouée céleste où anges lumineux et damnés culbutent dans l'espace réel.",
+                  "events": [
+                        {
+                              "year": 1672,
+                              "title": "Contrat de la nef du Gesù avec le Père Général Oliva",
+                              "desc": "Sous l'arbitrage enthousiaste du Bernin, la Compagnie de Jésus lui confie l'ensemble de la voûte, de la coupole et de l'abside.",
+                              "type": "milestone",
+                              "icon": "📜"
+                        },
+                        {
+                              "year": 1679,
+                              "title": "Inauguration du Triomphe du Nom de Jésus (Église du Gesù)",
+                              "desc": "Stupéfaction totale à Rome : le monogramme IHS resplendit d'une lumière divine aveuglante, tandis que des ombres peintes projettent des damnés par-dessus les stucs dorés d'Antonio Raggi.",
+                              "type": "masterpiece",
+                              "icon": "🌟"
+                        },
+                        {
+                              "year": 1680,
+                              "title": "Mort de son mentor Gian Lorenzo Bernini",
+                              "desc": "Perd son indéfectible protecteur dont il a peint les plus beaux portraits intimes.",
+                              "type": "life",
+                              "icon": "🕊️"
+                        },
+                        {
+                              "year": 1683,
+                              "title": "Achèvement de la fresque de l'Apothéose de saint Ignace",
+                              "desc": "Termine les peintures de la tribune et de la coupole, consacrant le Gesù comme le modèle universel des églises jésuites.",
+                              "type": "masterpiece",
+                              "icon": "🎨"
+                        }
+                  ]
+            },
+            {
+                  "title": "Portraitiste des Papes & Les Saints-Apôtres",
+                  "years": "1686 – 1709",
+                  "color": "#10b981",
+                  "summary": "Élu prince de l'Académie de Saint-Luc, Gaulli peint les portraits officiels de sept papes successifs et achève son ultime grand cycle mural à la basilique des Saints-Apôtres.",
+                  "events": [
+                        {
+                              "year": 1693,
+                              "title": "Prince de l'Accademia di San Luca à Rome",
+                              "desc": "Consécration institutionnelle suprême : il dirige la plus prestigieuse académie d'art d'Italie.",
+                              "type": "milestone",
+                              "icon": "👑"
+                        },
+                        {
+                              "year": 1695,
+                              "title": "Portraitiste de sept souverains pontifes",
+                              "desc": "D'Alexandre VII à Clément XI, il immortalise les papes et les cardinaux dans un style vif, psychologique et sans artifice.",
+                              "type": "masterpiece",
+                              "icon": "🎭"
+                        },
+                        {
+                              "year": 1707,
+                              "title": "Voûte de la basilique des Saints-Apôtres (Santi Apostoli)",
+                              "desc": "Dernière grande commande illusionniste : Le Triomphe de l'Ordre franciscain, tourbillon de nuages et d'anges musiciens.",
+                              "type": "masterpiece",
+                              "icon": "☁️"
+                        },
+                        {
+                              "year": 1709,
+                              "title": "Mort à Rome & Obsèques solennelles",
+                              "desc": "S'éteint le 2 avril 1709 dans son palais romain de la via Parione, entouré de l'admiration générale.",
+                              "type": "life",
+                              "icon": "⚰️"
+                        }
+                  ]
+            }
+      ]
+}
   },
   "bacon": {
     id: "bacon",
@@ -639,98 +727,174 @@ window.ARTISTS_REGISTRY = {
       sourceNotes: "Le catalogue raisonné de référence a été publié tout récemment, en 2016, par l'historien de l'art Martin Harrison (Francis Bacon: Catalogue Raisonné). Après plus de dix ans de recherches, il recense très exactement 584 peintures qui nous sont parvenues."
     },
     biographyTimeline: {
-          "birth": {
-                "year": 1909,
-                "place": "Dublin (Irlande)",
-                "title": "Naissance de Francis Bacon",
-                "desc": "Fils d'un entraîneur de chevaux de course autoritaire. Rejeté très jeune par son père en raison de son homosexualité."
-          },
-          "death": {
-                "year": 1992,
-                "place": "Madrid (Espagne)",
-                "title": "Mort de Francis Bacon",
-                "desc": "Décède à Madrid d'un arrêt cardiaque à la clinique Ruber, alors qu'il effectuait un voyage en Espagne sur les traces de Vélasquez."
-          },
-          "periods": [
-                {
-                      "title": "Les Années d'Errance & La Révélation Parisienne",
-                      "years": "1909 – 1943",
-                      "color": "#64748b",
-                      "summary": "Après avoir quitté l'Irlande, il découvre Berlin et Paris en 1927 où l'exposition Picasso chez Paul Rosenberg déclenche sa vocation de peintre.",
-                      "events": [
-                            {
-                                  "year": 1927,
-                                  "title": "Le choc Picasso à Paris",
-                                  "desc": "Découvre les formes biomorphiques de Picasso à la galerie Paul Rosenberg : il décide de devenir peintre.",
-                                  "type": "peer",
-                                  "icon": "🤝",
-                                  "linkedArtist": "Pablo Picasso"
-                            },
-                            {
-                                  "year": 1933,
-                                  "title": "Crucifixion de 1933",
-                                  "desc": "Première œuvre remarquée, reproduite dans le livre d'Herbert Read 'Art Now'.",
-                                  "type": "life",
-                                  "icon": "💎"
-                            }
-                      ]
-                },
-                {
-                      "title": "Le Coup d'Éclat de 1944 & Les Papes Criants",
-                      "years": "1944 – 1960",
-                      "color": "#ef4444",
-                      "summary": "Le choc des 'Trois études' à la Lefevre Gallery en avril 1945 traumatise le public londonien. Bacon devient le peintre de la terreur moderne et de la chair suppliciée.",
-                      "events": [
-                            {
-                                  "year": 1944,
-                                  "title": "Trois études de figures au pied d'une crucifixion (Tate)",
-                                  "desc": "Triptyque fondateur sur fond orange strident : créatures monstrueuses et cris primaux incarnant le traumatisme de la guerre.",
-                                  "type": "masterpiece",
-                                  "icon": "🎨",
-                                  "artworkId": "bacon_trois_etudes_figures_pied_crucifixion_1944_londres"
-                            },
-                            {
-                                  "year": 1953,
-                                  "title": "Série d'après le Pape Innocent X de Vélasquez",
-                                  "desc": "Obsession pour le portrait de Vélasquez : le pontife est enfermé dans une cage de verre et hurle dans le néant.",
-                                  "type": "masterpiece",
-                                  "icon": "🎨"
-                            }
-                      ]
-                },
-                {
-                      "title": "L'Atelier de Reece Mews, George Dyer & La Gloire Mondiale",
-                      "years": "1961 – 1992",
-                      "color": "#a855f7",
-                      "summary": "Dans son atelier encombré de South Kensington, il peint ses grands triptyques sombres marqués par le suicide tragique de son amant George Dyer à Paris en 1971.",
-                      "events": [
-                            {
-                                  "year": 1965,
-                                  "title": "Crucifixion de Munich",
-                                  "desc": "Grand triptyque viscéral exposé à la Pinakothek der Moderne de Munich, confrontation de la violence et de la forme.",
-                                  "type": "masterpiece",
-                                  "icon": "🎨",
-                                  "artworkId": "bacon_crucifixion_1965_munich"
-                            },
-                            {
-                                  "year": 1969,
-                                  "title": "Lying Figure (Madrid, Reina Sofía)",
-                                  "desc": "Corps isolé sur un lit dans un espace clos aux aplats violets et jaunes, étude magistrale de l'isolement moderne.",
-                                  "type": "masterpiece",
-                                  "icon": "🎨",
-                                  "artworkId": "bacon_lying_figure_1969_madrid"
-                            },
-                            {
-                                  "year": 1971,
-                                  "title": "Rétrospective au Grand Palais & Mort de George Dyer",
-                                  "desc": "Deux jours avant le vernissage triomphal à Paris, Dyer est retrouvé mort d'overdose à leur hôtel. Naissance des triptyques noirs.",
-                                  "type": "life",
-                                  "icon": "💎"
-                            }
-                      ]
-                }
-          ]
-    }
+      "birth": {
+            "year": 1909,
+            "place": "Dublin (Irlande)",
+            "title": "Naissance de Francis Bacon",
+            "desc": "Descendant collatéral du philosophe éponyme, asthmatique et rejeté par son père en raison de son homosexualité, il devient le peintre le plus bouleversant de la condition humaine d'après-guerre."
+      },
+      "death": {
+            "year": 1992,
+            "place": "Madrid (Espagne)",
+            "title": "Mort de Francis Bacon",
+            "desc": "Succombe à une crise cardiaque à Madrid, laissant derrière lui son atelier mythique de Reece Mews à Londres, magma de pigments et de photographies froissées."
+      },
+      "periods": [
+            {
+                  "title": "La Fuite Familiale, Berlin, Paris & Le Choc des Crucifixions",
+                  "years": "1909 – 1950",
+                  "color": "#ef4444",
+                  "summary": "Chassé du domicile paternel à 16 ans, Bacon découvre l'avant-garde à Berlin et Paris avant de concevoir en 1944 le triptyque de la Crucifixion qui sidère le monde de l'art à Londres.",
+                  "events": [
+                        {
+                              "year": 1909,
+                              "title": "Naissance à Dublin",
+                              "desc": "Fils d'un entraîneur de chevaux de course autoritaire. Enfance solitaire marquée par de violentes crises d'asthme.",
+                              "type": "birth",
+                              "icon": "🇮🇪"
+                        },
+                        {
+                              "year": 1926,
+                              "title": "Rupture familiale brutale",
+                              "desc": "Surpris par son père en train d'essayer des sous-vêtements maternels, il est chassé du domaine avec une pension dérisoire.",
+                              "type": "life",
+                              "icon": "🚪"
+                        },
+                        {
+                              "year": 1927,
+                              "title": "Le séjour initiatique à Berlin et Paris",
+                              "desc": "Découvre la vie nocturne interlope de la République de Weimar, puis voit l'exposition de dessins de Picasso à la galerie Paul Rosenberg à Paris.",
+                              "type": "education",
+                              "icon": "🎨"
+                        },
+                        {
+                              "year": 1933,
+                              "title": "Crucifixion (reproduite dans 'Art Now' de Herbert Read)",
+                              "desc": "Première œuvre remarquée, squelette translucide flottant dans un espace ténébreux.",
+                              "type": "masterpiece",
+                              "icon": "✝️"
+                        },
+                        {
+                              "year": 1944,
+                              "title": "Trois études de figures au pied d'une crucifixion (Tate Britain, Londres)",
+                              "desc": "Coup de tonnerre pictural : créatures ophidiennes hurlantes sur fond orange criard incarnant l'angoisse indicible de l'Holocauste et d'Hiroshima.",
+                              "type": "masterpiece",
+                              "icon": "🎨",
+                              "artworkId": "bacon_trois_etudes_figures_pied_crucifixion_1944_londres"
+                        },
+                        {
+                              "year": 1949,
+                              "title": "Série des Têtes & Le premier Pape hurlant",
+                              "desc": "Obsession pour le Portrait d'Innocent X de Vélasquez combiné au cri de la nourrice du Cuirassé Potemkine d'Eisenstein.",
+                              "type": "masterpiece",
+                              "icon": "😱"
+                        }
+                  ]
+            },
+            {
+                  "title": "Les Papes Hurlants, Soho & La Tragédie de George Dyer",
+                  "years": "1951 – 1971",
+                  "color": "#f59e0b",
+                  "summary": "Résidant dans le quartier bohème de Soho, Bacon vit une passion orageuse avec George Dyer et expose ses corps musculeux enfermés dans des cages cubiques de verre mental.",
+                  "events": [
+                        {
+                              "year": 1953,
+                              "title": "Étude d'après le portrait du pape Innocent X (Des Moines Art Center)",
+                              "desc": "Le pape fantomatique enfermé dans une cage d'épingles d'or, bouche béante engloutie par des rideaux de pluie mauve.",
+                              "type": "masterpiece",
+                              "icon": "👑"
+                        },
+                        {
+                              "year": 1954,
+                              "title": "Pavillon britannique de la Biennale de Venise",
+                              "desc": "Représente la Grande-Bretagne aux côtés de Lucian Freud et Ben Nicholson.",
+                              "type": "history",
+                              "icon": "🇮🇹"
+                        },
+                        {
+                              "year": 1961,
+                              "title": "Installation à 7 Reece Mews (South Kensington)",
+                              "desc": "Installe son légendaire atelier londonien, minuscule capharnaüm où il peindra jusqu'à son dernier jour.",
+                              "type": "life",
+                              "icon": "🏠"
+                        },
+                        {
+                              "year": 1963,
+                              "title": "Rencontre de George Dyer",
+                              "desc": "Rencontre George Dyer, cambrioleur de petite envergure qui devient son amant, sa muse tourmentée et son modèle fétiche.",
+                              "type": "life",
+                              "icon": "🍷"
+                        },
+                        {
+                              "year": 1965,
+                              "title": "Crucifixion (Bayerische Staatsgemäldesammlungen, Munich)",
+                              "desc": "Triptyque monumental où des morceaux de viande sanguinolente et des corps désarticulés sont suspendus comme dans un abattoir rituel.",
+                              "type": "masterpiece",
+                              "icon": "🎨",
+                              "artworkId": "bacon_crucifixion_1965_munich"
+                        },
+                        {
+                              "year": 1969,
+                              "title": "Lying Figure (Musée Thyssen-Bornemisza, Madrid)",
+                              "desc": "Corps nu tordu sur un lit capitonné, entouré d'une géométrie implacable soulignant l'isolement charnel.",
+                              "type": "masterpiece",
+                              "icon": "🎨",
+                              "artworkId": "bacon_lying_figure_1969_madrid"
+                        },
+                        {
+                              "year": 1971,
+                              "title": "La Rétrospective au Grand Palais & Le Suicide de Dyer",
+                              "desc": "Triomphe historique à Paris, assombri par la mort de George Dyer, retrouvé mort d'overdose à l'hôtel des Saints-Pères la veille du vernissage.",
+                              "type": "history",
+                              "icon": "💔"
+                        }
+                  ]
+            },
+            {
+                  "title": "Les Triptyques Noirs, La Célébration Mondiale & La Fin Madrilène",
+                  "years": "1972 – 1992",
+                  "color": "#6366f1",
+                  "summary": "Hanté par le deuil, Bacon peint ses 'Triptyques Noirs' poignants, éclaircit sa palette vers des ocres lumineux et termine son parcours à Madrid auprès des maîtres espagnols.",
+                  "events": [
+                        {
+                              "year": 1972,
+                              "title": "Triptyque en mémoire de George Dyer",
+                              "desc": "Élégie funèbre poignante figurant l'agonie de son compagnon sur la cuvette d'un hôtel parisien, entouré d'ombres d'encre.",
+                              "type": "masterpiece",
+                              "icon": "🖤"
+                        },
+                        {
+                              "year": 1975,
+                              "title": "Rencontre avec Michel Leiris & Rétrospective au Met",
+                              "desc": "Profonde complicité intellectuelle avec Leiris qui traduit ses célèbres entretiens avec David Sylvester.",
+                              "type": "milestone",
+                              "icon": "📖"
+                        },
+                        {
+                              "year": 1985,
+                              "title": "Deuxième grande rétrospective à la Tate Gallery",
+                              "desc": "Consécration suprême de son vivant : le directeur de la Tate le qualifie de 'plus grand peintre vivant du monde'.",
+                              "type": "milestone",
+                              "icon": "🏛️"
+                        },
+                        {
+                              "year": 1988,
+                              "title": "Première exposition d'un artiste occidental à Moscou (Tretiakov)",
+                              "desc": "Sous la Perestroïka, ses œuvres provoquent un choc sans précédent auprès du public soviétique.",
+                              "type": "history",
+                              "icon": "🇷🇺"
+                        },
+                        {
+                              "year": 1992,
+                              "title": "Dernier voyage en Espagne & Mort à Madrid",
+                              "desc": "Parti visiter l'exposition Velázquez au Prado, il est hospitalisé à la clinique Ruber de Madrid où il succombe le 28 avril.",
+                              "type": "life",
+                              "icon": "🇪🇸"
+                        }
+                  ]
+            }
+      ]
+}
   },
   "bartolo": {
     id: "bartolo",
@@ -764,87 +928,122 @@ window.ARTISTS_REGISTRY = {
       sourceNotes: "Taddeo di Bartolo fut un artiste extrêmement prolifique. L'historienne de l'art Gail E. Solberg, qui fait autorité mondialement sur ce peintre, a publié en 2020 une monographie monumentale en deux volumes (Taddeo di Bartolo: Siena's Painter in the Early Quattrocento) qui tient lieu de catalogue raisonné définitif, établissant un plafond de référence d'environ 150 œuvres."
     },
     biographyTimeline: {
-          "birth": {
-                "year": 1362,
-                "place": "Sienne (Toscane)",
-                "title": "Naissance de Taddeo di Bartolo",
-                "desc": "Né à Sienne, fils du barbier Bartolo di Maestro Mino. Il grandit dans l'admiration des fresques d'Ambrogio Lorenzetti et de Simone Martini."
-          },
-          "death": {
-                "year": 1422,
-                "place": "Sienne",
-                "title": "Mort de Taddeo di Bartolo",
-                "desc": "Décède à 60 ans dans sa ville natale, après avoir été l'un des artistes les plus sollicités de Toscane, d'Ombrie et de Ligurie."
-          },
-          "periods": [
-                {
-                      "title": "L'Héritage Siennois & Les Pérégrinations en Toscane",
-                      "years": "1362 – 1400",
-                      "color": "#d97706",
-                      "summary": "Taddeo revitalise le Trecento siennois avec une rigueur formelle, un goût pour les couleurs gemmées et une expressivité pathétique.",
-                      "events": [
-                            {
-                                  "year": 1389,
-                                  "title": "Immatriculation aux peintres de Sienne",
-                                  "desc": "Inscrit au rôle des peintres de la République de Sienne ; premiers polyptyques d'église.",
-                                  "type": "life",
-                                  "icon": "💎"
-                            },
-                            {
-                                  "year": 1393,
-                                  "title": "Séjour à Gênes et Pise",
-                                  "desc": "Voyages itinérants où il diffuse l'élégance gothique siennoise sur toute la côte tyrrhénienne.",
-                                  "type": "life",
-                                  "icon": "⛵"
-                            }
-                      ]
-                },
-                {
-                      "title": "Le Polyptyque de Montepulciano & Les Grands Retables",
-                      "years": "1401 – 1406",
-                      "color": "#f59e0b",
-                      "summary": "Période de pleine maîtrise technique, marquée par la réalisation de retables polyptyques grandioses aux fonds d'or chatoyants.",
-                      "events": [
-                            {
-                                  "year": 1401,
-                                  "title": "Polyptyque de l'Assomption (Dôme de Montepulciano)",
-                                  "desc": "Son chef-d'œuvre de retable : monumental triptyque sur fond d'or couronnant le maître-autel de la cathédrale.",
-                                  "type": "masterpiece",
-                                  "icon": "🎨"
-                            },
-                            {
-                                  "year": 1403,
-                                  "title": "Retable de Pérouse (Galleria Nazionale dell'Umbria)",
-                                  "desc": "Vierge à l'Enfant entourée de saints et scènes de prédelle d'une finesse narrative exceptionnelle.",
-                                  "type": "masterpiece",
-                                  "icon": "🎨"
-                            }
-                      ]
-                },
-                {
-                      "title": "Les Fresques Civiques du Palazzo Pubblico de Sienne",
-                      "years": "1407 – 1422",
-                      "color": "#8b5cf6",
-                      "summary": "Consécration civique par la Seigneurie de Sienne : il décore la chapelle et l'antichapelle du Palazzo Pubblico d'allégories humanistes.",
-                      "events": [
-                            {
-                                  "year": 1407,
-                                  "title": "Fresques de la Chapelle des Seigneurs",
-                                  "desc": "Cycle de la Vie de la Vierge au Palazzo Pubblico : composition majestueuse au cœur du pouvoir républicain.",
-                                  "type": "masterpiece",
-                                  "icon": "🎨"
-                            },
-                            {
-                                  "year": 1414,
-                                  "title": "Les Hommes illustres de Rome antique",
-                                  "desc": "Antichapelle du Palazzo Pubblico : Cicéron, Caton et Scipion peints pour exalter les vertus républicaines siennoises.",
-                                  "type": "masterpiece",
-                                  "icon": "🎨"
-                            }
-                      ]
-                }
-          ]
-    }
+      "birth": {
+            "year": 1362,
+            "place": "Sienne (Toscane, Italie)",
+            "title": "Naissance de Taddeo di Bartolo",
+            "desc": "L'un des plus illustres maîtres siennois de la fin du Trecento, passeur infatigable du gothique toscan à travers toute la péninsule italienne."
+      },
+      "death": {
+            "year": 1422,
+            "place": "Sienne (Toscane)",
+            "title": "Mort de Taddeo di Bartolo",
+            "desc": "Inhumé à Sienne après avoir dirigé l'un des ateliers les plus prolifiques de Toscane et formé Gregorio di Cecco."
+      },
+      "periods": [
+            {
+                  "title": "La Formation Siennoise & L'Essor Itinérant en Ligurie et à Pise",
+                  "years": "1362 – 1395",
+                  "color": "#f59e0b",
+                  "summary": "Fils d'un barbier siennois, inscrit à la guilde des peintres en 1389, il voyage en Ligurie, à Pise et San Gimignano, diffusant la grâce expressive de Simone Martini.",
+                  "events": [
+                        {
+                              "year": 1362,
+                              "title": "Naissance à Sienne",
+                              "desc": "Issu du quartier de Porta Romana. Il s'imprègne de la tradition picturale de Duccio et des Lorenzetti.",
+                              "type": "birth",
+                              "icon": "🇮🇹"
+                        },
+                        {
+                              "year": 1389,
+                              "title": "Inscription à la Guilde des peintres de Sienne",
+                              "desc": "Première mention officielle comme maître indépendant prêt à assumer de grandes commandes religieuses.",
+                              "type": "milestone",
+                              "icon": "📜"
+                        },
+                        {
+                              "year": 1393,
+                              "title": "Séjour en Ligurie & Polyptyque de San Luca à Gênes",
+                              "desc": "Exécute d'importants retables pour les églises génoises et savonnaises, introduisant la somptuosité des fonds d'or toscans.",
+                              "type": "masterpiece",
+                              "icon": "🎨"
+                        },
+                        {
+                              "year": 1395,
+                              "title": "Fresques de la Collégiale de San Gimignano : L'Enfer",
+                              "desc": "Vision dantesque terrifiante des tourments infernaux sur les parois de la collégiale, rivalisant avec Orcagna.",
+                              "type": "masterpiece",
+                              "icon": "🔥"
+                        }
+                  ]
+            },
+            {
+                  "title": "Le Triomphe de Montepulciano & La Madone de Pérouse",
+                  "years": "1396 – 1405",
+                  "color": "#10b981",
+                  "summary": "À la tête d'un atelier réputé, Taddeo signe des polyptyques d'envergure monumentale pour la cathédrale de Montepulciano et les églises d'Ombrie.",
+                  "events": [
+                        {
+                              "year": 1401,
+                              "title": "L'Assomption de la Vierge (Duomo de Montepulciano)",
+                              "desc": "Triptyque colossal de plus de 4 mètres de large pour le maître-autel de la cathédrale, sommet de polychromie et de dorure poinçonnée.",
+                              "type": "masterpiece",
+                              "icon": "✨"
+                        },
+                        {
+                              "year": 1403,
+                              "title": "Polyptyque de San Francesco al Prato (Galerie nationale de l'Ombrie, Pérouse)",
+                              "desc": "Commandé par les franciscains de Pérouse : figures de saints aux drapés sinueux d'une élégance gothique suprême.",
+                              "type": "masterpiece",
+                              "icon": "🎨"
+                        },
+                        {
+                              "year": 1404,
+                              "title": "Élection au Conseil de la République de Sienne",
+                              "desc": "Reconnaissance civique : il intègre les instances politiques de sa cité en tant que citoyen honoré.",
+                              "type": "milestone",
+                              "icon": "🏛️"
+                        }
+                  ]
+            },
+            {
+                  "title": "Les Fresques du Palazzo Pubblico de Sienne & Postérité Civique",
+                  "years": "1406 – 1422",
+                  "color": "#6366f1",
+                  "summary": "Le gouvernement siennois lui confie le décor de la Chapelle des Neuf et de l'Antichambre du Palazzo Pubblico, où il illustre les héros de la République romaine.",
+                  "events": [
+                        {
+                              "year": 1406,
+                              "title": "Cycle de la Vierge à la Chapelle du Palazzo Pubblico",
+                              "desc": "Fresques de la Mort et des Funérailles de la Vierge au cœur du palais républicain de Sienne.",
+                              "type": "masterpiece",
+                              "icon": "👑"
+                        },
+                        {
+                              "year": 1414,
+                              "title": "Cycle des Hommes Illustres de la Rome républicaine",
+                              "desc": "Programme humaniste pionnier célébrant Cicéron, Caton, Scipion l'Africain et César pour exalter les vertus républicaines siennoises.",
+                              "type": "masterpiece",
+                              "icon": "🏛️"
+                        },
+                        {
+                              "year": 1420,
+                              "title": "Adoption et association avec Gregorio di Cecco",
+                              "desc": "Associe son fils adoptif à son atelier pour assurer la pérennité de son art.",
+                              "type": "life",
+                              "icon": "🤝"
+                        },
+                        {
+                              "year": 1422,
+                              "title": "Mort à Sienne à soixante ans",
+                              "desc": "S'éteint le 26 août 1422, laissant le souvenir d'un des piliers du rayonnement artistique siennois.",
+                              "type": "life",
+                              "icon": "⚰️"
+                        }
+                  ]
+            }
+      ]
+}
   },
   "beckmann": {
     id: "beckmann",
@@ -880,95 +1079,158 @@ window.ARTISTS_REGISTRY = {
       sourceNotes: "L'inventaire de référence absolu et le plus récent est le catalogue raisonné critique publié sous la direction de l'historienne de l'art Anja Tiedemann en 2021. Cet ouvrage exhaustif recense très exactement 843 peintures reconnues comme étant de sa main. Outre ses toiles, son corpus pictural compte également environ 150 aquarelles et pastels qui sont documentés et classés à part."
     },
     biographyTimeline: {
-          "birth": {
-                "year": 1884,
-                "place": "Leipzig (Saxe, Empire allemand)",
-                "title": "Naissance de Max Beckmann",
-                "desc": "Fils d'un meunier aisé. Après la mort précoce de son père, il s'impose contre l'avis familial à l'Académie des Beaux-Arts de Weimar."
-          },
-          "death": {
-                "year": 1950,
-                "place": "New York (États-Unis)",
-                "title": "Mort subite de Max Beckmann à Manhattan",
-                "desc": "Terrassé par une crise cardiaque à l'angle de Central Park West et de la 61e Rue, alors qu'il se rendait au Metropolitan Museum pour y voir son Autoportrait en veste bleue."
-          },
-          "periods": [
-                {
-                      "title": "La Sécession Berlinoise & Le Traumatisme de la Guerre",
-                      "years": "1884 – 1918",
-                      "color": "#64748b",
-                      "summary": "Jeune prodige de la Sécession berlinoise, il s'engage comme infirmier volontaire en 1914. L'horreur des Flandres provoque une dépression nerveuse et métamorphose son art.",
-                      "events": [
-                            {
-                                  "year": 1906,
-                                  "title": "Prix Villa Romana & Sécession berlinoise",
-                                  "desc": "Reçu triomphalement à Berlin, encouragé par Edvard Munch et Max Liebermann.",
-                                  "type": "peer",
-                                  "icon": "🤝"
-                            },
-                            {
-                                  "year": 1915,
-                                  "title": "Effondrement psychique sur le front d'Ypres",
-                                  "desc": "Démobilisé après une dépression ; son dessin devient anguleux, grinçant et acéré.",
-                                  "type": "history",
-                                  "icon": "⚔️"
-                            },
-                            {
-                                  "year": 1918,
-                                  "title": "La Nuit (Die Nacht)",
-                                  "desc": "Scène de torture domestique et métaphore glacée du chaos de l'Allemagne d'après-guerre.",
-                                  "type": "masterpiece",
-                                  "icon": "🎨"
-                            }
-                      ]
-                },
-                {
-                      "title": "L'Âge d'Or de Francfort & La Nouvelle Objectivité",
-                      "years": "1919 – 1932",
-                      "color": "#f59e0b",
-                      "summary": "Professeur révéré à l'école Städel de Francfort, il ausculte les faux-semblants et la comédie humaine de la République de Weimar.",
-                      "events": [
-                            {
-                                  "year": 1922,
-                                  "title": "Avant le bal masqué (Munich Pinakothek)",
-                                  "desc": "Carnaval grinçant où les masques révèlent l'angoisse sous le faste trompeur des Années folles.",
-                                  "type": "masterpiece",
-                                  "icon": "🎨",
-                                  "artworkId": "beckmann_avant_le_bal_masque_1922_munich"
-                            },
-                            {
-                                  "year": 1925,
-                                  "title": "Exposition historique 'Neue Sachlichkeit' à Mannheim",
-                                  "desc": "Figure de proue de l'art allemand aux côtés d'Otto Dix et George Grosz.",
-                                  "type": "life",
-                                  "icon": "💎"
-                            }
-                      ]
-                },
-                {
-                      "title": "L'Art Dégénéré, L'Exil à Amsterdam & L'Apothéose New-Yorkaise",
-                      "years": "1933 – 1950",
-                      "color": "#ef4444",
-                      "summary": "Destitué par les nazis en 1933, plus de 500 de ses œuvres sont confisquées. Il fuit à Amsterdam le lendemain du discours d'Hitler sur l'art dégénéré en 1937, puis gagne les USA en 1947.",
-                      "events": [
-                            {
-                                  "year": 1937,
-                                  "title": "L'Exposition de l'Art dégénéré & La fuite",
-                                  "desc": "Le 19 juillet 1937, il quitte définitivement l'Allemagne pour Amsterdam où il vivra reclus pendant dix ans.",
-                                  "type": "history",
-                                  "icon": "✈️"
-                            },
-                            {
-                                  "year": 1947,
-                                  "title": "Départ pour les États-Unis",
-                                  "desc": "Accueilli avec ferveur à Saint-Louis puis New York, où il enseigne et achève ses neuf triptyques monumentaux.",
-                                  "type": "life",
-                                  "icon": "🗽"
-                            }
-                      ]
-                }
-          ]
-    }
+      "birth": {
+            "year": 1884,
+            "place": "Leipzig (Saxe, Empire allemand)",
+            "title": "Naissance de Max Beckmann",
+            "desc": "Colosse de la peinture moderne allemande, refusant les étiquettes de l'expressionnisme pour créer des allégories énigmatiques et théâtrales de la comédie humaine."
+      },
+      "death": {
+            "year": 1950,
+            "place": "New York (États-Unis)",
+            "title": "Mort de Max Beckmann",
+            "desc": "Terrassé par une crise cardiaque en pleine rue à Manhattan au coin de Central Park West alors qu'il se rendait au Metropolitan Museum voir son autoportrait."
+      },
+      "periods": [
+            {
+                  "title": "La Jeunesse Rebelle, La Sécession & Le Traumatisme des Ambulances",
+                  "years": "1884 – 1918",
+                  "color": "#f59e0b",
+                  "summary": "Formé à Weimar, rival précoce des expressionnistes, Beckmann s'engage comme infirmier volontaire en 1914. L'effroi du front de Flandre brise ses nerfs et métamorphose son art.",
+                  "events": [
+                        {
+                              "year": 1884,
+                              "title": "Naissance à Leipzig",
+                              "desc": "Fils d'un meunier aisé. Après la mort de son père, il impose sa vocation artistique contre l'avis familial.",
+                              "type": "birth",
+                              "icon": "🇩🇪"
+                        },
+                        {
+                              "year": 1900,
+                              "title": "Études à l'École des Beaux-Arts de Weimar",
+                              "desc": "Formation académique solide axée sur la leçon des maîtres hollandais et le nu d'après modèle vivant.",
+                              "type": "education",
+                              "icon": "🎨"
+                        },
+                        {
+                              "year": 1906,
+                              "title": "Prix de la Villa Romana à Florence & Mariage",
+                              "desc": "Séjour en Italie ; il épouse Minna Tube et expose avec éclat à la Sécession de Berlin salué par Max Liebermann.",
+                              "type": "milestone",
+                              "icon": "🇮🇹"
+                        },
+                        {
+                              "year": 1914,
+                              "title": "Engagement comme infirmier volontaire en Flandre",
+                              "desc": "Refuse de porter les armes et sert dans les hôpitaux de campagne d'Ypres et d'Ostende au milieu des amputations et de la mort.",
+                              "type": "history",
+                              "icon": "🚑"
+                        },
+                        {
+                              "year": 1915,
+                              "title": "Dépression nerveuse aiguë & Réforme",
+                              "desc": "Victime d'un effondrement psychique total, il est démobilisé et s'installe à Francfort chez son ami Ugi Battenberg.",
+                              "type": "life",
+                              "icon": "⚡"
+                        },
+                        {
+                              "year": 1917,
+                              "title": "La Déposition de Croix (Städel Museum, Francfort)",
+                              "desc": "Mutation radicale : formes anguleuses brisées, perspective étouffante et figures lividement compressées.",
+                              "type": "masterpiece",
+                              "icon": "✝️"
+                        }
+                  ]
+            },
+            {
+                  "title": "L'Affirmation de Francfort, La Nuit & Les Triptyques Mythologiques",
+                  "years": "1919 – 1936",
+                  "color": "#10b981",
+                  "summary": "Professeur vénéré à l'école Städel, remarié avec Quappi, Beckmann conçoit ses chefs-d'œuvre allégoriques et invente le triptyque moderne, retable profane d'un monde au bord du gouffre.",
+                  "events": [
+                        {
+                              "year": 1919,
+                              "title": "La Nuit (Die Nacht, Kunstsammlung Nordrhein-Westfalen, Düsseldorf)",
+                              "desc": "Scène de torture atroce et claustrophobique condensant la terreur des corps francs et la détresse de l'après-guerre.",
+                              "type": "masterpiece",
+                              "icon": "🕯️"
+                        },
+                        {
+                              "year": 1922,
+                              "title": "Avant le bal masqué (Bayerische Staatsgemäldesammlungen, Munich)",
+                              "desc": "Carnaval étrange de masques dérisoires, miroirs déformants et regards fuyants scrutant la désillusion de l'époque.",
+                              "type": "masterpiece",
+                              "icon": "🎭",
+                              "artworkId": "beckmann_avant_le_bal_masque_1922_munich"
+                        },
+                        {
+                              "year": 1925,
+                              "title": "Mariage avec Mathilde von Kaulbach ('Quappi') & Professorat au Städel",
+                              "desc": "Quappi devient son égérie protectrice. Il prend la direction d'un atelier de maître réputé à Francfort.",
+                              "type": "life",
+                              "icon": "💍"
+                        },
+                        {
+                              "year": 1932,
+                              "title": "Départ (Abfahrt / Departure, MoMA, New York)",
+                              "desc": "Premier de ses neuf triptyques monumentaux : au centre, la traversée royale vers la lumière ; sur les côtés, la barbarie des geôles.",
+                              "type": "masterpiece",
+                              "icon": "👑"
+                        },
+                        {
+                              "year": 1933,
+                              "title": "Révocation par les nazis & Repli à Berlin",
+                              "desc": "Chassé de son poste par le régime nazi, ses toiles sont retirées des galeries publiques.",
+                              "type": "history",
+                              "icon": "🚫"
+                        }
+                  ]
+            },
+            {
+                  "title": "L'Exil Hollandais sous les Bombes & Le Triomphe Américain",
+                  "years": "1937 – 1950",
+                  "color": "#6366f1",
+                  "summary": "Fuyant l'Allemagne au lendemain du discours de Hitler sur l'Art dégénéré, Beckmann survit dix ans cloîtré à Amsterdam avant de vivre une apothéose créatrice aux États-Unis.",
+                  "events": [
+                        {
+                              "year": 1937,
+                              "title": "Fuite à Amsterdam au lendemain de l'exposition d'Art dégénéré",
+                              "desc": "Plus de 500 de ses œuvres sont saisies dans les musées allemands. Il quitte définitivement sa patrie pour les Pays-Bas.",
+                              "type": "history",
+                              "icon": "🚂"
+                        },
+                        {
+                              "year": 1940,
+                              "title": "L'Occupation nazie d'Amsterdam",
+                              "desc": "Isolé dans un ancien atelier de tabac du canal Rokin, menacé d'enrôlement, il peint fiévreusement cinq triptyques majeurs.",
+                              "type": "life",
+                              "icon": "🇳🇱"
+                        },
+                        {
+                              "year": 1947,
+                              "title": "Arrivée aux États-Unis : Washington University à Saint-Louis",
+                              "desc": "Acclamé comme un maître vivant, il traverse l'Atlantique et prend la chaire de peinture à Saint-Louis.",
+                              "type": "milestone",
+                              "icon": "🇺🇸"
+                        },
+                        {
+                              "year": 1949,
+                              "title": "Installation à New York (Brooklyn Museum School)",
+                              "desc": "Prend ses fonctions à New York, fasciné par la démesure des gratte-ciels et la pulsation métropolitaine.",
+                              "type": "milestone",
+                              "icon": "🗽"
+                        },
+                        {
+                              "year": 1950,
+                              "title": "Mort foudroyante à New York",
+                              "desc": "S'écroule à l'angle de la 69e Rue et de Central Park West le 27 décembre en allant au Metropolitan Museum.",
+                              "type": "life",
+                              "icon": "⚰️"
+                        }
+                  ]
+            }
+      ]
+}
   },
   "bellini_giovanni": {
     id: "bellini_giovanni",
@@ -1142,94 +1404,157 @@ window.ARTISTS_REGISTRY = {
       sourceNotes: "Le catalogue raisonné de référence mondiale pour son œuvre picturale a été établi par l'historien de l'art Martin Butlin et publié en 1981 sous le titre The Paintings and Drawings of William Blake. Ce catalogue monumental en deux volumes recense très exactement 882 notices d'œuvres."
     },
     biographyTimeline: {
-          "birth": {
-                "year": 1757,
-                "place": "Londres (Soho, Royaume-Uni)",
-                "title": "Naissance de William Blake",
-                "desc": "Fils d'un marchand bonnetier londonien. Dès l'enfance, il affirme avoir des visions d'anges perchés dans les arbres et d'Ézéchiel dans les champs."
-          },
-          "death": {
-                "year": 1827,
-                "place": "Londres (Fountain Court)",
-                "title": "Mort mystique de William Blake",
-                "desc": "Meurt en chantant ses propres cantiques célestes dans sa modeste chambre londonienne, tenant la main de son épouse dévouée Catherine Boucher."
-          },
-          "periods": [
-                {
-                      "title": "L'Apprentissage de la Gravure & L'Imagination Insoumise",
-                      "years": "1757 – 1788",
-                      "color": "#06b6d4",
-                      "summary": "Apprenti chez le graveur James Basire, il passe des heures à copier les tombeaux médiévaux de l'abbaye de Westminster, matrice de son style gothique et flamboyant.",
-                      "events": [
-                            {
-                                  "year": 1779,
-                                  "title": "Étudiant à la Royal Academy",
-                                  "desc": "Rebelles aux doctrines académiques de Sir Joshua Reynolds, il revendique le primat de l'imagination sur l'imitation servile de la nature.",
-                                  "type": "life",
-                                  "icon": "⚔️"
-                            },
-                            {
-                                  "year": 1782,
-                                  "title": "Mariage avec Catherine Boucher",
-                                  "desc": "Il lui apprend à lire, écrire et imprimer ses planches gravées : elle sera sa collaboratrice indéfectible.",
-                                  "type": "life",
-                                  "icon": "💎"
-                            }
-                      ]
-                },
-                {
-                      "title": "La Gravure Illuminée & Les Livres Prophétiques",
-                      "years": "1789 – 1804",
-                      "color": "#f59e0b",
-                      "summary": "Invention révolutionnaire de l'eau-forte en relief : il associe poésie, texte calligraphié et enluminure fantastique dans un geste artistique total.",
-                      "events": [
-                            {
-                                  "year": 1789,
-                                  "title": "Chants d'innocence (Songs of Innocence)",
-                                  "desc": "Premier recueil illustré selon son procédé d'impression illuminée.",
-                                  "type": "masterpiece",
-                                  "icon": "🎨"
-                            },
-                            {
-                                  "year": 1794,
-                                  "title": "L'Ancien des Jours (The Ancient of Days)",
-                                  "desc": "Urizen agenouillé dans le disque solaire mesurant l'univers au compas : l'un des archétypes visuels les plus puissants du romantisme.",
-                                  "type": "masterpiece",
-                                  "icon": "🎨"
-                            },
-                            {
-                                  "year": 1795,
-                                  "title": "Newton au fond des mers",
-                                  "desc": "Monotype célèbre fustigeant le rationalisme matérialiste froid au profit de l'œil spirituel.",
-                                  "type": "masterpiece",
-                                  "icon": "🎨"
-                            }
-                      ]
-                },
-                {
-                      "title": "Le Cercle des 'Anciens' & Les Visions de Job et de Dante",
-                      "years": "1805 – 1827",
-                      "color": "#8b5cf6",
-                      "summary": "Rejeté par le grand public, il est découvert dans ses dernières années par un groupe de jeunes peintres romantiques (The Ancients) menés par Samuel Palmer et John Linnell.",
-                      "events": [
-                            {
-                                  "year": 1821,
-                                  "title": "Les Gravures pour le Livre de Job",
-                                  "desc": "Suite de 21 gravures magistrales au burin, chef-d'œuvre de tension spirituelle.",
-                                  "type": "masterpiece",
-                                  "icon": "🎨"
-                            },
-                            {
-                                  "year": 1824,
-                                  "title": "Illustrations pour la Divine Comédie de Dante",
-                                  "desc": "Commandée par John Linnell, cette suite de 102 aquarelles visionnaires occupe ses dernières forces jusqu'à son lit de mort.",
-                                  "type": "masterpiece",
-                                  "icon": "🎨"
-                            }
-                      ]
-                }
-          ]
-    }
+      "birth": {
+            "year": 1757,
+            "place": "Londres (Grande-Bretagne)",
+            "title": "Naissance de William Blake",
+            "desc": "Génie visionnaire, poète, peintre et graveur, il invente un panthéon mythologique personnel pour libérer l'esprit humain du matérialisme rationnel."
+      },
+      "death": {
+            "year": 1827,
+            "place": "Londres (Royaume-Uni)",
+            "title": "Mort de William Blake",
+            "desc": "S'éteint en chantant des psaumes dans son humble logis de Fountain Court, admiré par un petit groupe de jeunes disciples, 'Les Anciens'."
+      },
+      "periods": [
+            {
+                  "title": "L'Apprentissage de Graveur, Les Visions & Les Chants d'Innocence",
+                  "years": "1757 – 1793",
+                  "color": "#f59e0b",
+                  "summary": "Formé auprès du graveur Basire à l'abbaye de Westminster, Blake invente l'impression enluminée pour unir indissolublement poésie mystique et dessin fantastique.",
+                  "events": [
+                        {
+                              "year": 1757,
+                              "title": "Naissance à Soho (Londres)",
+                              "desc": "Fils d'un bonnetier dissident. Dès l'enfance, il affirme avoir des visions d'arbres peuplés d'anges et de Dieu à sa fenêtre.",
+                              "type": "birth",
+                              "icon": "🇬🇧"
+                        },
+                        {
+                              "year": 1772,
+                              "title": "Apprentissage chez le graveur James Basire",
+                              "desc": "Passe sept ans à dessiner les monuments funéraires gothiques de l'abbaye de Westminster, qui marqueront à jamais son style linéaire.",
+                              "type": "education",
+                              "icon": "🏛️"
+                        },
+                        {
+                              "year": 1779,
+                              "title": "Admission à la Royal Academy",
+                              "desc": "Se heurte à l'académisme de Sir Joshua Reynolds, rejetant avec véhémence l'imitation servile de la nature et le clair-obscur vénitien.",
+                              "type": "education",
+                              "icon": "🎨"
+                        },
+                        {
+                              "year": 1782,
+                              "title": "Mariage avec Catherine Boucher",
+                              "desc": "Épouse Catherine, jeune femme illettrée qu'il apprend à lire et à graver, qui restera sa dévouée assistante d'imprimerie toute sa vie.",
+                              "type": "life",
+                              "icon": "💍"
+                        },
+                        {
+                              "year": 1788,
+                              "title": "Invention de l'impression illuminée (Illuminated Printing)",
+                              "desc": "Son frère défunt Robert lui apparaît en rêve pour lui révéler le procédé de gravure à l'eau-forte en relief sur plaques de cuivre.",
+                              "type": "milestone",
+                              "icon": "✨"
+                        },
+                        {
+                              "year": 1789,
+                              "title": "Chants d'Innocence et d'Expérience",
+                              "desc": "Chef-d'œuvre poétique et graphique confrontant la candeur originelle de l'enfance aux pièges corrupteurs de la société industrielle.",
+                              "type": "masterpiece",
+                              "icon": "📖"
+                        }
+                  ]
+            },
+            {
+                  "title": "La Mythologie Cosmique : Urizen, Los & Le Grand Dragon Rouge",
+                  "years": "1794 – 1809",
+                  "color": "#ef4444",
+                  "summary": "Période de création prophétique démiurgique : Blake invente ses propres dieux (Urizen le législateur tyrannique, Los l'imagination rédemptrice) et peint ses visions monumentales.",
+                  "events": [
+                        {
+                              "year": 1794,
+                              "title": "L'Ancien des Jours (The Ancient of Days, British Museum)",
+                              "desc": "Frontispice sublime d'Europe a Prophecy : Urizen penché depuis la sphère céleste mesurant le gouffre de l'univers avec un compas d'or.",
+                              "type": "masterpiece",
+                              "icon": "🌟"
+                        },
+                        {
+                              "year": 1795,
+                              "title": "La série des douze grandes estampes en couleur (Newton, Nabuchodonosor)",
+                              "desc": "Isaac Newton courbé sur le fond marin, esclave du calcul arithmétique, et le roi Nabuchodonosor bestial rampant parmi les herbes.",
+                              "type": "masterpiece",
+                              "icon": "🎨"
+                        },
+                        {
+                              "year": 1800,
+                              "title": "Séjour à Felpham & L'Accusation de sédition",
+                              "desc": "Retiré dans le Sussex chez son mécène William Hayley ; un soldat ivre l'accuse d'avoir maudit le roi George III : Blake est acquitté triomphalement.",
+                              "type": "life",
+                              "icon": "⚖️"
+                        },
+                        {
+                              "year": 1805,
+                              "title": "Le Grand Dragon Rouge et la Femme vêtue de soleil (Brooklyn Museum)",
+                              "desc": "Aquarelle hallucinante illustrant l'Apocalypse de saint Jean : le dragon ailé titanique prêt à dévorer l'enfant de la Vierge.",
+                              "type": "masterpiece",
+                              "icon": "🐉"
+                        },
+                        {
+                              "year": 1809,
+                              "title": "L'Exposition rétrospective solitaire chez son frère",
+                              "desc": "Organise une exposition de seize peintures à Broad Street ; boudée par le public, elle suscite un compte-rendu assassin qualifiant Blake de 'fou à lier'.",
+                              "type": "exhibition",
+                              "icon": "🏛️"
+                        }
+                  ]
+            },
+            {
+                  "title": "Le Livre de Job, La Divine Comédie & La Consécration Mystique",
+                  "years": "1810 – 1827",
+                  "color": "#6366f1",
+                  "summary": "Vivant dans la pauvreté mais entouré par de jeunes artistes fervents (Samuel Palmer, John Linnell), Blake accomplit ses ultimes monuments graphiques pour la Bible et Dante.",
+                  "events": [
+                        {
+                              "year": 1818,
+                              "title": "Rencontre de John Linnell & Le cercle 'The Ancients'",
+                              "desc": "Le jeune paysagiste Linnell lui apporte un soutien matériel fraternel et l'entoure d'un groupe d'admirateurs passionnés.",
+                              "type": "milestone",
+                              "icon": "🤝"
+                        },
+                        {
+                              "year": 1821,
+                              "title": "Illustrations pour les Pastorales de Virgile",
+                              "desc": "Série de gravures sur bois miniatures célébrant la paix rustique et la spiritualité de la terre anglaise.",
+                              "type": "masterpiece",
+                              "icon": "🌳"
+                        },
+                        {
+                              "year": 1825,
+                              "title": "Les 21 Gravures du Livre de Job",
+                              "desc": "Sommet de la gravure au burin du XIXe siècle : l'épreuve mystique du patriarche Job face à Dieu et au Léviathan.",
+                              "type": "masterpiece",
+                              "icon": "📜"
+                        },
+                        {
+                              "year": 1826,
+                              "title": "Les 102 Aquarelles pour La Divine Comédie de Dante",
+                              "desc": "Dernier chef-d'œuvre titanesque entrepris sur son lit de mort : vision flamboyante de l'Enfer, du Purgatoire et du Paradis.",
+                              "type": "masterpiece",
+                              "icon": "🔥"
+                        },
+                        {
+                              "year": 1827,
+                              "title": "Mort mystique à Londres",
+                              "desc": "S'éteint le 12 août 1827 en disant à son épouse : 'Je m'en vais vers ce pays que j'ai toujours désiré voir'. Inhumé dans la fosse commune de Bunhill Fields.",
+                              "type": "life",
+                              "icon": "⚰️"
+                        }
+                  ]
+            }
+      ]
+}
   },
   "bonheur": {
     id: "bonheur",
@@ -1264,95 +1589,158 @@ window.ARTISTS_REGISTRY = {
       sourceNotes: "En l'absence d'un catalogue raisonné moderne définitif, deux repères complémentaires permettent de mesurer son corpus : d'une part, la rigueur historique de l'inventaire officiel de son atelier dressé en 1900 après son décès, qui recense très exactement 892 peintures et études ; d'autre part, l'estimation scientifique retenue ici qui fixe un plafond réaliste à environ 1 500 œuvres, afin d'intégrer l'ampleur des grandes toiles et commandes vendues tout au long de sa carrière en France, en Angleterre et aux États-Unis."
     },
     biographyTimeline: {
-          "birth": {
-                "year": 1822,
-                "place": "Bordeaux (Gironde)",
-                "title": "Naissance de Rosa Bonheur",
-                "desc": "Fille du peintre saint-simonien Raymond Bonheur. Élevée dans des idéaux égalitaires précoces, elle revendique très tôt sa liberté d'artiste et de femme."
-          },
-          "death": {
-                "year": 1899,
-                "place": "Château de By (Thomery, Seine-et-Marne)",
-                "title": "Mort de Rosa Bonheur",
-                "desc": "Décède dans son château-atelier de Thomery entourée de ses animaux familiers. Première femme artiste promue officière de la Légion d'honneur."
-          },
-          "periods": [
-                {
-                      "title": "L'Apprentissage Naturaliste & La Vocation Pastorale",
-                      "years": "1822 – 1848",
-                      "color": "#10b981",
-                      "summary": "Formée par son père, elle étudie l'anatomie animale aux abattoirs de Paris et obtient une autorisation préfectorale de travestissement pour porter le pantalon sur le terrain.",
-                      "events": [
-                            {
-                                  "year": 1841,
-                                  "title": "Premier envoi au Salon",
-                                  "desc": "Expose deux plâtres animaliers au Salon officiel à l'âge de 19 ans.",
-                                  "type": "life",
-                                  "icon": "💎"
-                            },
-                            {
-                                  "year": 1848,
-                                  "title": "Médaille d'or du Salon",
-                                  "desc": "Consécration officielle sous la Deuxième République pour 'Bœufs et taureaux du Cantal'.",
-                                  "type": "life",
-                                  "icon": "🥇"
-                            }
-                      ]
-                },
-                {
-                      "title": "Le Triomphe International : Labourage Nivernais & Le Marché aux Chevaux",
-                      "years": "1849 – 1859",
-                      "color": "#f59e0b",
-                      "summary": "Deux chefs-d'œuvre monumentaux lui valent une gloire internationale : achetée par l'État français puis collectionnée par l'aristocratie britannique et américaine.",
-                      "events": [
-                            {
-                                  "year": 1849,
-                                  "title": "Labourage nivernais (Musée d'Orsay)",
-                                  "desc": "Commande de l'État : le sombre sol retourné par les bœufs sous la lumière matinale devient un hymne à la terre.",
-                                  "type": "masterpiece",
-                                  "icon": "🎨"
-                            },
-                            {
-                                  "year": 1853,
-                                  "title": "Le Marché aux chevaux (Metropolitan Museum, New York)",
-                                  "desc": "Toile monumentale de 5 mètres : tourbillon de percherons puissants exposé à travers toute la Grande-Bretagne et salué par la reine Victoria.",
-                                  "type": "masterpiece",
-                                  "icon": "🎨"
-                            }
-                      ]
-                },
-                {
-                      "title": "Le Sanctuaire de Thomery, Les Honneurs & Buffalo Bill",
-                      "years": "1860 – 1899",
-                      "color": "#8b5cf6",
-                      "summary": "Elle achète le château de By en lisière de la forêt de Fontainebleau, y installe sa ménagerie de lions, chevaux et cerfs, et reçoit l'impératrice Eugénie et Buffalo Bill.",
-                      "events": [
-                            {
-                                  "year": 1865,
-                                  "title": "Visite surprise de l'Impératrice Eugénie",
-                                  "desc": "L'impératrice lui remet en personne la croix de chevalier de la Légion d'honneur, première pour une femme peintre.",
-                                  "type": "history",
-                                  "icon": "👑"
-                            },
-                            {
-                                  "year": 1887,
-                                  "title": "La Traite ou L'Heure de la traite",
-                                  "desc": "Scène pastorale d'une grande plénitude lumineuse peinte dans la maturité de son art.",
-                                  "type": "masterpiece",
-                                  "icon": "🎨",
-                                  "artworkId": "bonheur_rosa_la_traite_1887"
-                            },
-                            {
-                                  "year": 1889,
-                                  "title": "Rencontre avec Buffalo Bill",
-                                  "desc": "Lors de l'Exposition universelle de 1889, Buffalo Bill vient camper à By : elle peint son célèbre portrait à cheval.",
-                                  "type": "peer",
-                                  "icon": "🤝"
-                            }
-                      ]
-                }
-          ]
-    }
+      "birth": {
+            "year": 1822,
+            "place": "Bordeaux (Gironde, France)",
+            "title": "Naissance de Rosa Bonheur",
+            "desc": "Pionnière de l'émancipation féminine, peintre animalière la plus célèbre du XIXe siècle, première femme artiste décorée de la Légion d'honneur."
+      },
+      "death": {
+            "year": 1899,
+            "place": "Thomery (Château de By, Seine-et-Marne)",
+            "title": "Mort de Rosa Bonheur",
+            "desc": "S'éteint au milieu de sa ménagerie privée dans son château de By près de Fontainebleau, saluée comme un géant de la peinture réaliste française."
+      },
+      "periods": [
+            {
+                  "title": "L'Apprentissage Rebelle, Les Abattoirs & Le Premier Triomphe Réaliste",
+                  "years": "1822 – 1850",
+                  "color": "#10b981",
+                  "summary": "Élevée dans les idéaux saint-simoniens par son père Raymond Bonheur, elle brave les interdits sociaux pour étudier l'anatomie animale aux abattoirs et dans les foires aux bestiaux.",
+                  "events": [
+                        {
+                              "year": 1822,
+                              "title": "Naissance à Bordeaux",
+                              "desc": "Fille aînée du peintre Raymond Bonheur, qui lui inculque dès le berceau l'égalité absolue entre hommes et femmes.",
+                              "type": "birth",
+                              "icon": "🇫🇷"
+                        },
+                        {
+                              "year": 1836,
+                              "title": "Formation dans l'atelier paternel à Paris",
+                              "desc": "Face au refus d'admettre les femmes à l'École des Beaux-Arts, son père lui fait copier les maîtres au Louvre et mouler le plâtre.",
+                              "type": "education",
+                              "icon": "🎨"
+                        },
+                        {
+                              "year": 1841,
+                              "title": "Première participation au Salon de Paris",
+                              "desc": "À dix-neuf ans, elle expose deux sculptures et deux toiles animalières qui attirent l'attention de la critique.",
+                              "type": "exhibition",
+                              "icon": "🏛️"
+                        },
+                        {
+                              "year": 1848,
+                              "title": "Médaille d'or du Salon pour 'Bœufs et taureaux du Cantal'",
+                              "desc": "L'État républicain de 1848 lui accorde une médaille de première classe et lui commande un grand tableau rural.",
+                              "type": "milestone",
+                              "icon": "🥇"
+                        },
+                        {
+                              "year": 1849,
+                              "title": "Le Labourage nivernais (Musée d'Orsay, Paris)",
+                              "desc": "Chef-d'œuvre commandé par l'État : deux attelages de six bœufs charolais fendant la glèbe sous un ciel d'automne radieux.",
+                              "type": "masterpiece",
+                              "icon": "🐂"
+                        }
+                  ]
+            },
+            {
+                  "title": "Le Marché aux Chevaux, La Permission de Travestissement & La Gloire Anglo-Saxonne",
+                  "years": "1851 – 1865",
+                  "color": "#f59e0b",
+                  "summary": "Obtenant l'autorisation préfectorale de porter le pantalon pour fréquenter les foires équestres, Rosa Bonheur peint Le Marché aux chevaux qui fait d'elle une star planétaire, adulée par la reine Victoria.",
+                  "events": [
+                        {
+                              "year": 1852,
+                              "title": "Obtention de la permission officielle de travestissement",
+                              "desc": "La préfecture de police de Paris lui accorde le permis renouvelable de porter le pantalon pour des raisons professionnelles.",
+                              "type": "milestone",
+                              "icon": "📜"
+                        },
+                        {
+                              "year": 1853,
+                              "title": "Le Marché aux chevaux (Metropolitan Museum of Art, New York)",
+                              "desc": "Toile monumentale de 5 mètres de large figurant la furie des percherons au marché de Paris : consécration universelle absolue.",
+                              "type": "masterpiece",
+                              "icon": "🐎"
+                        },
+                        {
+                              "year": 1855,
+                              "title": "Tournée triomphale en Angleterre & Audience privée avec la reine Victoria",
+                              "desc": "Le marchand Ernest Gambart organise une exposition itinérante à travers la Grande-Bretagne ; la reine Victoria demande à admirer la toile à Windsor.",
+                              "type": "history",
+                              "icon": "👑"
+                        },
+                        {
+                              "year": 1859,
+                              "title": "Achat du Domaine de By à Thomery (Fontainebleau)",
+                              "desc": "Grâce aux ventes record de ses toiles, elle achète un château en lisière de la forêt pour y installer son atelier et sa ménagerie.",
+                              "type": "life",
+                              "icon": "🏰"
+                        },
+                        {
+                              "year": 1865,
+                              "title": "Première femme promue Chevalier de la Légion d'honneur",
+                              "desc": "L'impératrice Eugénie se déplace en personne à son atelier de By pour lui épingler la croix, déclarant : 'Le génie n'a pas de sexe'.",
+                              "type": "milestone",
+                              "icon": "🎖️"
+                        }
+                  ]
+            },
+            {
+                  "title": "La Ménagerie Royale de By, Buffalo Bill & Les Lions Solitaires",
+                  "years": "1866 – 1899",
+                  "color": "#0284c7",
+                  "summary": "Vivant en toute indépendance avec Nathalie Micas puis Anna Klumpke, elle apprivoise des lions, des cerfs et des chevaux sauvages, reçoit Buffalo Bill et peint la fierté pastorale.",
+                  "events": [
+                        {
+                              "year": 1870,
+                              "title": "Patriotisme pendant la guerre franco-prussienne",
+                              "desc": "Elle organise un corps de volontaires armés à Thomery et refuse les sauf-conduits offerts par les officiers prussiens admirateurs de son art.",
+                              "type": "history",
+                              "icon": "🇫🇷"
+                        },
+                        {
+                              "year": 1879,
+                              "title": "L'Apprivoisement des lions (Fathma et Néron)",
+                              "desc": "Elle installe des fauves en liberté dans son parc pour étudier leur regard et peint Le Lion chez lui et Les Rois de la forêt.",
+                              "type": "masterpiece",
+                              "icon": "🦁"
+                        },
+                        {
+                              "year": 1887,
+                              "title": "La Traite ou L'Heure de la traite (Musée des Beaux-Arts)",
+                              "desc": "Pastorale monumentale montrant la communion paisible entre paysans montagnards et bétail dans la brume du crépuscule.",
+                              "type": "masterpiece",
+                              "icon": "🐄",
+                              "artworkId": "bonheur_rosa_la_traite_1887"
+                        },
+                        {
+                              "year": 1889,
+                              "title": "Rencontre avec Buffalo Bill & Portrait équestre",
+                              "desc": "Lors de l'Exposition universelle de Paris, William Cody ('Buffalo Bill') passe des semaines à son château ; elle peint son célèbre portrait sur son cheval blanc.",
+                              "type": "history",
+                              "icon": "🤠"
+                        },
+                        {
+                              "year": 1894,
+                              "title": "Première femme élevée au grade d'Officier de la Légion d'honneur",
+                              "desc": "Reconnaissance suprême de la République française saluant cinquante années de gloire internationale.",
+                              "type": "milestone",
+                              "icon": "🎖️"
+                        },
+                        {
+                              "year": 1899,
+                              "title": "Mort à Thomery & Repos au Père-Lachaise",
+                              "desc": "S'éteint le 25 mai 1899 d'une congestion pulmonaire. Elle repose au cimetière du Père-Lachaise aux côtés de ses compagnes Nathalie Micas et Anna Klumpke.",
+                              "type": "life",
+                              "icon": "⚰️"
+                        }
+                  ]
+            }
+      ]
+}
   },
   "bonnard": {
     id: "bonnard",
@@ -1386,97 +1774,151 @@ window.ARTISTS_REGISTRY = {
       sourceNotes: "Le Catalogue raisonné de l'œuvre peint de Pierre Bonnard a été initialement dressé par Jean et Henry Dauberville en quatre volumes monumentaux publiés entre 1965 et 1974. Cet inventaire scientifique reste vivant et continue d'être mis à jour au fil des découvertes : un deuxième supplément a été publié en 2021 par Guy-Patrice et Floriane Dauberville, et un troisième est en cours de préparation. En compilant les quatre volumes originaux et ces récents suppléments, le corpus officiel des peintures (huiles sur toile, sur panneau et sur carton) reconnues de la main de Bonnard approche les 2 400 œuvres."
     },
     biographyTimeline: {
-          "birth": {
-                "year": 1867,
-                "place": "Fontenay-aux-Roses (Hauts-de-Seine)",
-                "title": "Naissance de Pierre Bonnard",
-                "desc": "Fils d'un haut fonctionnaire au ministère de la Guerre. Poussé vers des études de droit, il choisit la peinture après son succès pour une affiche publicitaire."
-          },
-          "death": {
-                "year": 1947,
-                "place": "Le Cannet (Alpes-Maritimes)",
-                "title": "Mort de Pierre Bonnard",
-                "desc": "Décède dans sa villa 'Le Bosquet' au Cannet, après avoir peint son ultime 'Amandier en fleur', hymne solaire à la lumière méditerranéenne."
-          },
-          "periods": [
-                {
-                      "title": "L'Aventure Nabis & 'Le Nabi très japonard'",
-                      "years": "1867 – 1900",
-                      "color": "#ec4899",
-                      "summary": "Co-fondateur du groupe des Nabis avec Vuillard, Denis et Sérusier, il révolutionne la mise en page sous l'influence des estampes japonaises.",
-                      "events": [
-                            {
-                                  "year": 1889,
-                                  "title": "Affiche 'France-Champagne'",
-                                  "desc": "L'affiche fait sensation sur les murs de Paris et convertit Toulouse-Lautrec à la lithographie.",
-                                  "type": "peer",
-                                  "icon": "🤝",
-                                  "linkedArtist": "Henri de Toulouse-Lautrec"
-                            },
-                            {
-                                  "year": 1893,
-                                  "title": "Rencontre décisive avec Marthe de Méligny",
-                                  "desc": "Elle devient sa muse, sa compagne et son modèle quasi exclusif pour les cinquante années à venir.",
-                                  "type": "life",
-                                  "icon": "💎"
-                            }
-                      ]
-                },
-                {
-                      "title": "L'Intimisme Flamboyant : Nus au Bain & Salle à Manger",
-                      "years": "1901 – 1925",
-                      "color": "#f59e0b",
-                      "summary": "Quittant les théories nabis, Bonnard développe une peinture d'intimité sensuelle : miroirs, reflets d'eau et vibrations irisées.",
-                      "events": [
-                            {
-                                  "year": 1908,
-                                  "title": "La Table de toilette (Nantes)",
-                                  "desc": "Cadrage plongeant audacieux et intimité vibrante : Marthe et les flacons sous une lumière tamisée.",
-                                  "type": "masterpiece",
-                                  "icon": "🎨",
-                                  "artworkId": "bonnard_pierre_table_de_toilette_1908_nantes"
-                            },
-                            {
-                                  "year": 1912,
-                                  "title": "Achat de 'Ma Roulotte' à Vernon",
-                                  "desc": "Installation en Normandie près de Giverny, où il tisse des liens réguliers avec Claude Monet.",
-                                  "type": "peer",
-                                  "icon": "🤝",
-                                  "linkedArtist": "Claude Monet"
-                            }
-                      ]
-                },
-                {
-                      "title": "La Lumière Solaire du Cannet : Transfiguration de la Couleur",
-                      "years": "1926 – 1947",
-                      "color": "#06b6d4",
-                      "summary": "Établi sur la Côte d'Azur, il pousse la couleur jusqu'à l'incandescence, célébrant la communion de l'espace domestique et de la nature.",
-                      "events": [
-                            {
-                                  "year": 1926,
-                                  "title": "Installation à la villa 'Le Bosquet'",
-                                  "desc": "Achat de la maison du Cannet dominant la baie de Cannes : l'atelier aux fenêtres ouvertes sur l'azur.",
-                                  "type": "life",
-                                  "icon": "🏡"
-                            },
-                            {
-                                  "year": 1942,
-                                  "title": "Mort de Marthe",
-                                  "desc": "Bouleversé par le deuil, il continue de la peindre éternellement jeune dans la baignoire de lumière.",
-                                  "type": "life",
-                                  "icon": "💎"
-                            },
-                            {
-                                  "year": 1947,
-                                  "title": "L'Amandier en fleur",
-                                  "desc": "Ultime chef-d'œuvre testamentaire : une explosion de blanc et d'or sur fond de ciel pur.",
-                                  "type": "masterpiece",
-                                  "icon": "🎨"
-                            }
-                      ]
-                }
-          ]
-    }
+      "birth": {
+            "year": 1867,
+            "place": "Fontenay-aux-Roses (Hauts-de-Seine, France)",
+            "title": "Naissance de Pierre Bonnard",
+            "desc": "Le 'Nabi très japonard', maître incomparable de la couleur ardente, de la lumière intimiste et des cadrages audacieux du quotidien."
+      },
+      "death": {
+            "year": 1947,
+            "place": "Le Cannet (Alpes-Maritimes, France)",
+            "title": "Mort de Pierre Bonnard",
+            "desc": "S'éteint dans sa villa du Bosquet au Cannet, après avoir peint jusqu'à son dernier souffle l'amandier en fleurs sous la lumière éclatante du Midi."
+      },
+      "periods": [
+            {
+                  "title": "Le 'Nabi très Japonard', L'Affiche & La Revue Blanche",
+                  "years": "1867 – 1900",
+                  "color": "#f59e0b",
+                  "summary": "Abandonnant le droit après le succès fulgurant de son affiche France-Champagne, Bonnard fonde les Nabis avec Vuillard et Denis, révolutionnant l'art par des aplats inspirés d'Hiroshige.",
+                  "events": [
+                        {
+                              "year": 1867,
+                              "title": "Naissance à Fontenay-aux-Roses",
+                              "desc": "Fils d'un haut fonctionnaire au ministère de la Guerre. Enfance bourgeoise partagée entre Paris et la propriété familiale du Grand-Lemps en Dauphiné.",
+                              "type": "birth",
+                              "icon": "🇫🇷"
+                        },
+                        {
+                              "year": 1888,
+                              "title": "Fondation des Nabis à l'Académie Julian",
+                              "desc": "Rejoint Sérusier, Maurice Denis et Vuillard. Séduit par les estampes japonaises, ses amis le surnomment le 'Nabi très japonard'.",
+                              "type": "milestone",
+                              "icon": "🎨"
+                        },
+                        {
+                              "year": 1889,
+                              "title": "L'Affiche France-Champagne",
+                              "desc": "Affiche lithographique novatrice dont le succès immédiat décide de sa vocation et incite Henri de Toulouse-Lautrec à se lancer dans l'affiche.",
+                              "type": "masterpiece",
+                              "icon": "🍾"
+                        },
+                        {
+                              "year": 1893,
+                              "title": "Rencontre de Marthe de Méligny (Maria Boursin)",
+                              "desc": "Rencontre dans la rue une jeune ouvrière parisienne qui deviendra sa compagne secrète, son modèle exclusif et l'obsession de toute son œuvre peinte.",
+                              "type": "life",
+                              "icon": "❤️"
+                        },
+                        {
+                              "year": 1896,
+                              "title": "Première exposition personnelle chez Durand-Ruel",
+                              "desc": "Présente 49 tableaux intimistes parisiens, paravents décoratifs et lithographies aux cadrages asymétriques.",
+                              "type": "exhibition",
+                              "icon": "🏛️"
+                        }
+                  ]
+            },
+            {
+                  "title": "L'Intimisme Domestique, Les Miroirs & La Normandie",
+                  "years": "1901 – 1925",
+                  "color": "#10b981",
+                  "summary": "Éloigné des manifestes et des écoles, Bonnard peint l'intimité de son foyer : Marthe à sa toilette, les reflets des miroirs, les nappes à carreaux et les jardins normands.",
+                  "events": [
+                        {
+                              "year": 1904,
+                              "title": "Le Nu accroupi au tub",
+                              "desc": "Début de la grande série des nus féminins à la toilette saisis sur le vif dans la pénombre d'une pièce d'eau.",
+                              "type": "masterpiece",
+                              "icon": "🛁"
+                        },
+                        {
+                              "year": 1908,
+                              "title": "La Table de toilette (Musée d'Arts de Nantes)",
+                              "desc": "Cadrage audacieux où le miroir déploie l'espace intime : flacons, porcelaines et silhouette de Marthe baignée dans une lumière vaporeuse.",
+                              "type": "masterpiece",
+                              "icon": "🎨",
+                              "artworkId": "bonnard_pierre_table_de_toilette_1908_nantes"
+                        },
+                        {
+                              "year": 1912,
+                              "title": "Achat de 'Ma Roulotte' à Vernonnet (Normandie)",
+                              "desc": "Maisonnette sur les bords de Seine tout près de Giverny ; il noue une profonde amitié avec Claude Monet.",
+                              "type": "life",
+                              "icon": "🏡"
+                        },
+                        {
+                              "year": 1913,
+                              "title": "Voyage en Allemagne et en Russie avec Vuillard",
+                              "desc": "Admiration pour la collection Chtchoukine et Morosov à Moscou, où ses grands panneaux décoratifs sont célébrés.",
+                              "type": "history",
+                              "icon": "🚂"
+                        },
+                        {
+                              "year": 1925,
+                              "title": "Mariage officiel avec Marthe après trente ans de vie commune",
+                              "desc": "Découvre à cette occasion le véritable nom de Marthe (Maria Boursin), qu'elle lui avait caché pendant trois décennies.",
+                              "type": "life",
+                              "icon": "💍"
+                        }
+                  ]
+            },
+            {
+                  "title": "La Villa du Bosquet au Cannet & L'Incandescence du Midi",
+                  "years": "1926 – 1947",
+                  "color": "#ef4444",
+                  "summary": "Installé définitivement sur les hauteurs de Cannes, Bonnard sublime la lumière méditerranéenne : jaunes solaires, violets profonds et la série bouleversante de Marthe au bain.",
+                  "events": [
+                        {
+                              "year": 1926,
+                              "title": "Achat de la Villa 'Le Bosquet' au Cannet",
+                              "desc": "Maison rose aux volets verts surplombant la baie de Cannes, qui devient son laboratoire de lumière absolue.",
+                              "type": "life",
+                              "icon": "☀️"
+                        },
+                        {
+                              "year": 1936,
+                              "title": "Nu dans le bain (Musée d'Art moderne de Paris)",
+                              "desc": "Marthe immergée dans l'eau tiède comme dans un sarcophage de cristal irisé, mosaïque chatoyante de carreaux d'or et de turquoise.",
+                              "type": "masterpiece",
+                              "icon": "🎨"
+                        },
+                        {
+                              "year": 1942,
+                              "title": "Mort de Marthe & Solitude douloureuse",
+                              "desc": "Le décès de sa muse le plonge dans un désarroi immense ; il continuera de la peindre de mémoire, toujours jeune et rayonnante.",
+                              "type": "life",
+                              "icon": "🥀"
+                        },
+                        {
+                              "year": 1946,
+                              "title": "La Nappe blanche et le jardin",
+                              "desc": "Transfiguration du réel : la lumière méditerranéenne irradie la table jusqu'à dissoudre la matière en pure sensation colorée.",
+                              "type": "masterpiece",
+                              "icon": "🌟"
+                        },
+                        {
+                              "year": 1947,
+                              "title": "L'Amandier en fleurs & Mort au Cannet",
+                              "desc": "Ultime chef-d'œuvre : sur son lit d'agonie, il demande à son neveu d'ajouter une touche de jaune d'or sur le tronc de l'amandier en fleurs avant de s'éteindre le 23 janvier.",
+                              "type": "masterpiece",
+                              "icon": "🌸"
+                        }
+                  ]
+            }
+      ]
+}
   },
   "bosch": {
     id: "bosch",
@@ -1509,90 +1951,160 @@ window.ARTISTS_REGISTRY = {
       sourceNotes: "Le catalogue raisonné qui fait aujourd'hui autorité de manière indiscutable a été publié en 2016, à l'occasion du 500e anniversaire de sa mort, par le BRCP (Bosch Research and Conservation Project) sous la direction de l'historien de l'art Matthijs Ilsink. Après des années d'analyses scientifiques poussées (réflectographie infrarouge, dendrochronologie), ce comité a définitivement purifié son œuvre peinte. Le chiffre est vertigineusement bas : ce catalogue de référence ne reconnaît aujourd'hui qu'environ 25 peintures (panneaux et triptyques confondus) comme étant de la main du maître (le BRCP y ajoute également une vingtaine de dessins autographes)."
     },
     biographyTimeline: {
-          "birth": {
-                "year": 1450,
-                "place": "Bois-le-Duc ('s-Hertogenbosch, Brabant)",
-                "title": "Naissance de Jheronimus van Aken dit Jérôme Bosch",
-                "desc": "Issu d'une longue lignée de peintres d'origine allemande installés dans la riche cité drapière de Bois-le-Duc."
-          },
-          "death": {
-                "year": 1516,
-                "place": "Bois-le-Duc",
-                "title": "Messe funéraire de Jérôme Bosch",
-                "desc": "Inhumé solennellement dans l'église Saint-Jean de Bois-le-Duc avec les honneurs de l'illustre Confrérie Notre-Dame."
-          },
-          "periods": [
-                {
-                      "title": "L'Atelier van Aken & L'Illustre Confrérie Notre-Dame",
-                      "years": "1450 – 1488",
-                      "color": "#10b981",
-                      "summary": "Intégré à l'élite religieuse et intellectuelle de sa ville, il prend le nom de 'Bosch' et met son imagination diabolique au service de l'édification morale.",
-                      "events": [
-                            {
-                                  "year": 1481,
-                                  "title": "Mariage avec Aleid van de Meervenne",
-                                  "desc": "Épouse une riche aristocrate qui lui apporte l'aisance matérielle et le domaine d'Oirschot.",
-                                  "type": "life",
-                                  "icon": "💎"
-                            },
-                            {
-                                  "year": 1488,
-                                  "title": "Reçu comme 'frère juré' de la Confrérie Notre-Dame",
-                                  "desc": "Consécration sociale suprême : membre du cercle restreint des notables dévots de la cathédrale.",
-                                  "type": "life",
-                                  "icon": "📜"
-                            }
-                      ]
-                },
-                {
-                      "title": "Le Délire Visionnaire : Le Jardin des Délices & Les Tentations",
-                      "years": "1489 – 1505",
-                      "color": "#f59e0b",
-                      "summary": "Période des triptyques allégoriques les plus énigmatiques de l'histoire de l'art, combinant satire humaine, érotisme candide et enfers cauchemardesques.",
-                      "events": [
-                            {
-                                  "year": 1490,
-                                  "title": "Le Jardin des Délices (Madrid, Musée du Prado)",
-                                  "desc": "Chef-d'œuvre universel commandé par Engelbrecht II de Nassau : du Paradis terrestre aux Enfers musicaux en passant par le faux paradis des plaisirs éphémères.",
-                                  "type": "masterpiece",
-                                  "icon": "🎨",
-                                  "artworkId": "bosch_jerome_jardin_des_delices_1490_prado"
-                            },
-                            {
-                                  "year": 1501,
-                                  "title": "La Tentation de saint Antoine (Lisbonne)",
-                                  "desc": "Triptyque magistral où le saint ermite résiste aux assauts de créatures hybrides et démoniaques.",
-                                  "type": "masterpiece",
-                                  "icon": "🎨",
-                                  "artworkId": "bosch_jerome_tentation_saint_antoine_1501_lisbonne"
-                            }
-                      ]
-                },
-                {
-                      "title": "Les Grands Triptyques Moraux & Le Jugement Dernier",
-                      "years": "1506 – 1516",
-                      "color": "#ef4444",
-                      "summary": "Les cours européennes se disputent ses toiles, notamment Philippe le Beau et plus tard Philippe II d'Espagne qui collectionnera fiévreusement ses œuvres à l'Escurial.",
-                      "events": [
-                            {
-                                  "year": 1504,
-                                  "title": "Commande de Philippe le Beau",
-                                  "desc": "Le souverain des Pays-Bas bourguignons lui commande un grand Jugement dernier de 9 pieds de haut.",
-                                  "type": "history",
-                                  "icon": "👑"
-                            },
-                            {
-                                  "year": 1512,
-                                  "title": "Le Chariot de foin / La Meule (Madrid, Prado)",
-                                  "desc": "Allégorie féroce de la cupidité humaine : tous les ordres de la société courent après la paille éphémère vers le gouffre de l'enfer.",
-                                  "type": "masterpiece",
-                                  "icon": "🎨",
-                                  "artworkId": "bosch_jerome_la_meule_chariot_de_foin_1512_prado"
-                            }
-                      ]
-                }
-          ]
-    }
+      "birth": {
+            "year": 1450,
+            "place": "Bois-le-Duc ('s-Hertogenbosch, Brabant)",
+            "title": "Naissance de Jheronimus van Aken dit Jérôme Bosch",
+            "desc": "Issu d'une illustre dynastie de peintres et enlumineurs brabançons, il prend le nom de sa ville natale pour signer des visions qui marqueront à jamais l'imaginaire universel."
+      },
+      "death": {
+            "year": 1516,
+            "place": "Bois-le-Duc (Brabant)",
+            "title": "Messe funéraire de Jérôme Bosch",
+            "desc": "Inhumé solennellement dans l'église collégiale Saint-Jean avec tous les honneurs de la Confrérie Notre-Dame lors de l'épidémie de peste."
+      },
+      "periods": [
+            {
+                  "title": "L'Atelier van Aken & L'Élite de l'Illustre Confrérie Notre-Dame",
+                  "years": "1450 – 1488",
+                  "color": "#10b981",
+                  "summary": "Formé dans l'atelier familial de la place du Marché, Bosch s'allie à la haute aristocratie locale et intègre le cercle exclusif des notables dévots de la cathédrale de Bois-le-Duc.",
+                  "events": [
+                        {
+                              "year": 1450,
+                              "title": "Naissance à Bois-le-Duc",
+                              "desc": "Grandit dans une riche cité marchande du duché de Brabant, alors sous domination bourguignonne.",
+                              "type": "birth",
+                              "icon": "🇳🇱"
+                        },
+                        {
+                              "year": 1474,
+                              "title": "Première apparition dans les registres notariés",
+                              "desc": "Mentionné aux côtés de son père Anthonis van Aken et de ses frères pour la vente d'une maison.",
+                              "type": "milestone",
+                              "icon": "📜"
+                        },
+                        {
+                              "year": 1481,
+                              "title": "Mariage patricien avec Aleid van de Meervenne",
+                              "desc": "Épouse une riche héritière aristocrate d'Oirschot, lui apportant une fortune matérielle considérable et une indépendance créative totale.",
+                              "type": "life",
+                              "icon": "💍"
+                        },
+                        {
+                              "year": 1486,
+                              "title": "Entrée à l'Illustre Confrérie de Notre-Dame",
+                              "desc": "Rejoint la prestigieuse confrérie religieuse dédiée à la Vierge, regroupant l'élite ecclésiastique et la haute noblesse des Pays-Bas.",
+                              "type": "milestone",
+                              "icon": "⛪"
+                        },
+                        {
+                              "year": 1488,
+                              "title": "Élévation au rang de 'Frère juré' (Zwanenbroeder)",
+                              "desc": "Titre honorifique suprême réservé aux clercs et aux seigneurs : il participe aux banquets annuels des 'Frères du Cygne'.",
+                              "type": "milestone",
+                              "icon": "🦢"
+                        }
+                  ]
+            },
+            {
+                  "title": "Le Vertige Visionnaire : Le Jardin des Délices & Les Tentations Diaboliques",
+                  "years": "1489 – 1505",
+                  "color": "#f59e0b",
+                  "summary": "Période de création fébrile des grands triptyques allégoriques où foisonnent les créatures hybrides (grilli), les fruits géants, les alambics ésotériques et les tortures musicales infernales.",
+                  "events": [
+                        {
+                              "year": 1490,
+                              "title": "La Nef des fous (Musée du Louvre, Paris)",
+                              "desc": "Allégorie féroce inspirée du poème de Sébastien Brant, fustigeant la folie de l'humanité dérivant sans gouvernail vers sa perte.",
+                              "type": "masterpiece",
+                              "icon": "⛵"
+                        },
+                        {
+                              "year": 1490,
+                              "title": "Le Jardin des Délices (Musée du Prado, Madrid)",
+                              "desc": "Chef-d'œuvre absolu commandé par le comte Engelbrecht II de Nassau pour son palais bruxellois : création du monde, paradis trompeur et enfer musical.",
+                              "type": "masterpiece",
+                              "icon": "🎨",
+                              "artworkId": "bosch_jerome_jardin_des_delices_1490_prado"
+                        },
+                        {
+                              "year": 1495,
+                              "title": "L'Escamoteur (Musée municipal de Saint-Germain-en-Laye)",
+                              "desc": "Scène de mœurs satirique dénonçant la crédulité humaine : un badaud fasciné par un bateleur se fait détrousser sa bourse par un comparse.",
+                              "type": "masterpiece",
+                              "icon": "🎩"
+                        },
+                        {
+                              "year": 1501,
+                              "title": "La Tentation de saint Antoine (Museu Nacional de Arte Antiga, Lisbonne)",
+                              "desc": "Triptyque magistral où le saint ermite résiste à une prolifération cauchemardesque de démons mécaniques, d'arbres creux et de bêtes volantes.",
+                              "type": "masterpiece",
+                              "icon": "🎨",
+                              "artworkId": "bosch_jerome_tentation_saint_antoine_1501_lisbonne"
+                        },
+                        {
+                              "year": 1504,
+                              "title": "Commande princière de Philippe le Beau, duc de Bourgogne",
+                              "desc": "Le souverain des Pays-Bas commande à Bosch un Jugement Dernier gigantesque de neuf pieds de haut pour son palais de Bruxelles.",
+                              "type": "history",
+                              "icon": "👑"
+                        }
+                  ]
+            },
+            {
+                  "title": "Les Métaphores de la Cupidité, La Peste & La Dévotion Royale de Philippe II",
+                  "years": "1506 – 1516",
+                  "color": "#ef4444",
+                  "summary": "Bosch concentre son propos sur la vanité du monde et la rédemption spirituelle. Après sa mort, le roi Philippe II d'Espagne collectionnera fiévreusement ses toiles à l'Escurial.",
+                  "events": [
+                        {
+                              "year": 1508,
+                              "title": "Le Triptyque du Jugement dernier (Académie des Beaux-Arts de Vienne)",
+                              "desc": "Vision dantesque de la terre embrasée où anges et monstres dévorent les réprouvés dans des machines de supplice.",
+                              "type": "masterpiece",
+                              "icon": "🔥"
+                        },
+                        {
+                              "year": 1510,
+                              "title": "Le Triptyque de l'Adoration des Mages (Musée du Prado)",
+                              "desc": "Retable majestueux abritant à l'arrière-plan de l'étable la silhouette inquiétante de l'Antéchrist orné de perles et d'ulcères.",
+                              "type": "masterpiece",
+                              "icon": "👑"
+                        },
+                        {
+                              "year": 1512,
+                              "title": "Le Chariot de foin / La Meule (Musée du Prado, Madrid)",
+                              "desc": "Illustration du proverbe flamand sur la vanité terrestre : papes, rois et paysans se battent pour une poignée de foin menée à l'abîme.",
+                              "type": "masterpiece",
+                              "icon": "🌾",
+                              "artworkId": "bosch_jerome_la_meule_chariot_de_foin_1512_prado"
+                        },
+                        {
+                              "year": 1515,
+                              "title": "Le Portement de Croix (Musée des Beaux-Arts de Gand)",
+                              "desc": "Gros plans vertigineux de visages grotesques et vociférants encerclant la figure douce et résignée du Christ aux yeux clos.",
+                              "type": "masterpiece",
+                              "icon": "✝️"
+                        },
+                        {
+                              "year": 1516,
+                              "title": "Obsèques solennelles du 9 août 1516",
+                              "desc": "Messe de requiem célébrée dans la chapelle de la Confrérie Notre-Dame à Bois-le-Duc lors de la terrible vague de peste.",
+                              "type": "life",
+                              "icon": "⚰️"
+                        },
+                        {
+                              "year": 1570,
+                              "title": "La Passion dévote de Philippe II d'Espagne & L'Escurial",
+                              "desc": "Le roi très catholique installe les chefs-d'œuvre de Bosch dans sa chambre privée de l'Escurial, les considérant comme de saints avertissements moraux.",
+                              "type": "history",
+                              "icon": "🏰"
+                        }
+                  ]
+            }
+      ]
+}
   },
   "botticelli": {
     id: "botticelli",
@@ -2341,97 +2853,129 @@ window.ARTISTS_REGISTRY = {
       sourceNotes: "L'inventaire de son œuvre a d'abord été dressé par Edi Baccheschi dans les années 1970 (collection Classici dell'Arte), puis considérablement affiné par les monographies d'historiens comme Maurice Brock et les récentes grandes rétrospectives scientifiques dirigées par Carlo Falciani et Antonio Natali. Le consensus scientifique moderne est très sélectif : on estime aujourd'hui son œuvre peinte autographe à environ 90 à 100 tableaux."
     },
     biographyTimeline: {
-          "birth": {
-                "year": 1503,
-                "place": "Monticelli (près de Florence)",
-                "title": "Naissance d'Agnolo di Cosimo dit Bronzino",
-                "desc": "Fils d'un modeste boucher florentin. Reçu très jeune comme disciple préféré et fils adoptif de Jacopo Pontormo."
-          },
-          "death": {
-                "year": 1572,
-                "place": "Florence",
-                "title": "Mort du Bronzino",
-                "desc": "Inhumé dans l'église San Cristoforo degli Adimari à Florence. Son élève Alessandro Allori lui rend un hommage filial vibrant."
-          },
-          "periods": [
-                {
-                      "title": "L'Élève Adoré du Pontormo & La Chartreuse de Galluzzo",
-                      "years": "1503 – 1538",
-                      "color": "#f59e0b",
-                      "summary": "Pendant la peste de Florence en 1523, il s'enferme à la chartreuse de Galluzzo avec Pontormo pour y peindre les fresques de la Passion.",
-                      "events": [
-                            {
-                                  "year": 1523,
-                                  "title": "Retraite à la Chartreuse de Galluzzo",
-                                  "desc": "Années de formation ascétique et fusionnelle avec Jacopo Pontormo fuyant l'épidémie de peste.",
-                                  "type": "peer",
-                                  "icon": "🤝",
-                                  "linkedArtist": "Jacopo Pontormo"
-                            },
-                            {
-                                  "year": 1530,
-                                  "title": "Séjour à Urbino",
-                                  "desc": "Premiers portraits d'aristocrates à la cour des Della Rovere à Pesaro.",
-                                  "type": "life",
-                                  "icon": "💎"
-                            }
-                      ]
-                },
-                {
-                      "title": "Peintre de Cour de Cosme Ier & L'Aristocratisme Glacial",
-                      "years": "1539 – 1555",
-                      "color": "#06b6d4",
-                      "summary": "Peintre officiel du grand-duc Cosme Ier de Médicis et de la duchesse Éléonore de Tolède : il crée le portrait de cour maniériste au fini d'émail et de marbre.",
-                      "events": [
-                            {
-                                  "year": 1545,
-                                  "title": "Portrait d'Éléonore de Tolède et son fils (Offices)",
-                                  "desc": "Le chef-d'œuvre du portrait princier : robe de damas brodé d'or d'une virtuosité textile prodigieuse et regard hiératique.",
-                                  "type": "masterpiece",
-                                  "icon": "🎨"
-                            },
-                            {
-                                  "year": 1546,
-                                  "title": "Allégorie avec Vénus et Cupidon (Londres)",
-                                  "desc": "Énigme intellectuelle offerte à François Ier : érotisme glacial et sophistication morale du maniérisme toscan.",
-                                  "type": "masterpiece",
-                                  "icon": "🎨"
-                            },
-                            {
-                                  "year": 1552,
-                                  "title": "La Descente du Christ dans les Limbes (Florence)",
-                                  "desc": "Retable monumental d'autel pour la chapelle Zanchini à Santa Croce : virtuosité sculpturale des nus enchevêtrés.",
-                                  "type": "masterpiece",
-                                  "icon": "🎨",
-                                  "artworkId": "bronzino_descente_christ_limbes_1552"
-                            }
-                      ]
-                },
-                {
-                      "title": "L'Académie du Dessin & La Fin de la Renaissance Médicéenne",
-                      "years": "1556 – 1572",
-                      "color": "#8b5cf6",
-                      "summary": "Co-fondateur avec Vasari de l'Accademia delle Arti del Disegno de Florence, il compose des poèmes burlesques et achève les fresques de San Lorenzo.",
-                      "events": [
-                            {
-                                  "year": 1563,
-                                  "title": "Fondation de l'Accademia del Disegno",
-                                  "desc": "Participe avec Vasari à la création de la première académie officielle d'art d'Europe sous le patronage de Cosme Ier.",
-                                  "type": "life",
-                                  "icon": "🏛️",
-                                  "linkedArtist": "Giorgio Vasari"
-                            },
-                            {
-                                  "year": 1569,
-                                  "title": "Le Martyre de saint Laurent (San Lorenzo)",
-                                  "desc": "Dernière grande fresque publique florentine déployant une foule d'anatomies inspirées de Michel-Ange.",
-                                  "type": "masterpiece",
-                                  "icon": "🎨"
-                            }
-                      ]
-                }
-          ]
-    }
+      "birth": {
+            "year": 1503,
+            "place": "Monticelli près de Florence (Toscane, Italie)",
+            "title": "Naissance d'Agnolo di Cosimo dit Il Bronzino",
+            "desc": "Souverain du Maniérisme florentin et portraitiste officiel de Cosme Ier de Médicis, maître d'une facture émaillée, aristocratique et glaciale."
+      },
+      "death": {
+            "year": 1572,
+            "place": "Florence (Grand-duché de Toscane)",
+            "title": "Mort du Bronzino",
+            "desc": "Inhumé en l'église San Cristoforo degli Adimari à Florence dans les bras de son disciple et fils adoptif Alessandro Allori."
+      },
+      "periods": [
+            {
+                  "title": "L'Ombre Chérie de Pontormo & La Chapelle Capponi",
+                  "years": "1503 – 1538",
+                  "color": "#f59e0b",
+                  "summary": "Fils adoptif et élève vénéré du génial et névrosé Pontormo, Bronzino collabore à la chapelle Capponi de Santa Felicita et forge sa touche d'émail immaculé.",
+                  "events": [
+                        {
+                              "year": 1503,
+                              "title": "Naissance près de Florence",
+                              "desc": "Fils d'un boucher. Surnommé 'Bronzino' en raison de son teint sombre ou de sa chevelure aux reflets de bronze.",
+                              "type": "birth",
+                              "icon": "🇮🇹"
+                        },
+                        {
+                              "year": 1515,
+                              "title": "Entrée dans l'atelier de Jacopo Pontormo",
+                              "desc": "Rencontre capitale de sa vie : Pontormo l'adopte comme son fils et modèle ; ils partagent une intimité créatrice indéfectible.",
+                              "type": "education",
+                              "icon": "🎨"
+                        },
+                        {
+                              "year": 1526,
+                              "title": "Collaboration à la chapelle Capponi (Santa Felicita)",
+                              "desc": "Peint deux des quatre tondos d'Évangélistes aux côtés de la célèbre Déposition de Pontormo.",
+                              "type": "masterpiece",
+                              "icon": "✨"
+                        },
+                        {
+                              "year": 1530,
+                              "title": "Séjour à Pesaro pour le duc d'Urbino",
+                              "desc": "Décore la villa impériale de Pesaro pour Francesco Maria della Rovere et peint le portrait du prince Guidobaldo.",
+                              "type": "milestone",
+                              "icon": "🏰"
+                        }
+                  ]
+            },
+            {
+                  "title": "Peintre de Cour des Médicis & La Chapelle d'Éléonore de Tolède",
+                  "years": "1539 – 1555",
+                  "color": "#10b981",
+                  "summary": "Peintre officiel de Cosme Ier et d'Éléonore de Tolède au Palazzo Vecchio, Bronzino crée l'archétype du portrait de souverain absolu, impassible et paré de brocarts.",
+                  "events": [
+                        {
+                              "year": 1539,
+                              "title": "Décors somptueux pour le mariage de Cosme Ier et Éléonore",
+                              "desc": "Conçoit les arcs de triomphe et scénographies nuptiales qui éblouissent la cour ducale.",
+                              "type": "history",
+                              "icon": "👑"
+                        },
+                        {
+                              "year": 1545,
+                              "title": "Portrait d'Éléonore de Tolède et son fils (Offices, Florence)",
+                              "desc": "Sommet absolu du portrait princier : robe de damas blanc broché d'or et de velours noir restituée avec une précision d'orfèvre.",
+                              "type": "masterpiece",
+                              "icon": "💎"
+                        },
+                        {
+                              "year": 1545,
+                              "title": "Allégorie avec Vénus et Cupidon (National Gallery, Londres)",
+                              "desc": "Cadeau diplomatique pour François Ier : énigme érotique et morale glaciale mêlant sensualité perverse, jalousie et vérité du temps.",
+                              "type": "masterpiece",
+                              "icon": "💘"
+                        },
+                        {
+                              "year": 1545,
+                              "title": "Décoration de la chapelle privée d'Éléonore au Palazzo Vecchio",
+                              "desc": "Fresques éblouissantes sur l'Exode et la Manne céleste, triomphe de la grâce maniériste toscane.",
+                              "type": "masterpiece",
+                              "icon": "🏛️"
+                        }
+                  ]
+            },
+            {
+                  "title": "Le Poète Humaniste, L'Académie du Dessin & La Fin",
+                  "years": "1556 – 1572",
+                  "color": "#6366f1",
+                  "summary": "Membre éminent de l'Accademia del Disegno de Vasari et poète burlesque subtil, il veille sur les derniers jours de Pontormo et transmet son art à Alessandro Allori.",
+                  "events": [
+                        {
+                              "year": 1557,
+                              "title": "Mort de son maître Pontormo & Achèvement des fresques de San Lorenzo",
+                              "desc": "Bouleversé par la disparition de son père spirituel, il achève pieusement les fresques du chœur de San Lorenzo laissées inachevées.",
+                              "type": "life",
+                              "icon": "🥀"
+                        },
+                        {
+                              "year": 1563,
+                              "title": "Membre fondateur de l'Accademia delle Arti del Disegno",
+                              "desc": "Participe avec Vasari et Michel-Ange à la création de la première académie d'art officielle d'Europe.",
+                              "type": "milestone",
+                              "icon": "🎓"
+                        },
+                        {
+                              "year": 1569,
+                              "title": "Le Martyre de saint Laurent (San Lorenzo, Florence)",
+                              "desc": "Fresque monumentale foisonnante de corps nus aux postures complexes attestant de sa virtuosité anatomique.",
+                              "type": "masterpiece",
+                              "icon": "🔥"
+                        },
+                        {
+                              "year": 1572,
+                              "title": "Mort à Florence chez Alessandro Allori",
+                              "desc": "S'éteint le 23 novembre 1572 dans la maison de son disciple Allori, qu'il considérait comme son fils.",
+                              "type": "life",
+                              "icon": "⚰️"
+                        }
+                  ]
+            }
+      ]
+}
   },
   "bruegel_pieter_ancien": {
     id: "bruegel_pieter_ancien",
@@ -2730,98 +3274,122 @@ window.ARTISTS_REGISTRY = {
       sourceNotes: "L'expert mondial de la famille Brueghel, Klaus Ertz, a publié en 1988 puis réédité en 2000 le catalogue raisonné définitif en deux volumes (Pieter Brueghel der Jüngere: Die Gemälde mit kritischem Oeuvrekatalog). Ce travail d'inventaire scientifique recense très exactement 1 430 peintures authentifiées (pour l'écrasante majorité des huiles sur panneau de chêne) réalisées par lui-même ou avec l'aide active de ses assistants d'atelier."
     },
     biographyTimeline: {
-          "birth": {
-                "year": 1564,
-                "place": "Bruxelles (Brabant)",
-                "title": "Naissance de Pieter Brueghel le Jeune dit 'd'Enfer'",
-                "desc": "Fils aîné de Pieter Bruegel l'Ancien et frère aîné de Jan Brueghel de Velours. Il n'a que cinq ans à la mort de son père."
-          },
-          "death": {
-                "year": 1638,
-                "place": "Anvers",
-                "title": "Mort de Pieter Brueghel le Jeune",
-                "desc": "Décède à Anvers à 73 ans après avoir dirigé l'un des ateliers les plus prospères et prolifiques des Pays-Bas méridionaux."
-          },
-          "periods": [
-                {
-                      "title": "L'Orphelinat & L'Apprentissage chez Gillis van Coninxloo",
-                      "years": "1564 – 1585",
-                      "color": "#0ea5e9",
-                      "summary": "Élevé avec son frère par leur grand-mère Mayken Verhulst, il entre en apprentissage chez le grand paysagiste maniériste Gillis van Coninxloo à Anvers.",
-                      "events": [
-                            {
-                                  "year": 1585,
-                                  "title": "Reçu franc-maître à la Guilde de Saint-Luc d'Anvers",
-                                  "desc": "Émancipation professionnelle : il ouvre son atelier et signe de son nom patronymique.",
-                                  "type": "life",
-                                  "icon": "💎"
-                            },
-                            {
-                                  "year": 1588,
-                                  "title": "Mariage avec Elisabeth Goddelet",
-                                  "desc": "S'installe au cœur du quartier des artistes d'Anvers.",
-                                  "type": "life",
-                                  "icon": "💍"
-                            }
-                      ]
-                },
-                {
-                      "title": "La Diffusion du Génie Bruegélien & L'Atelier d'Anvers",
-                      "years": "1586 – 1615",
-                      "color": "#f59e0b",
-                      "summary": "Devant la demande colossale des collectionneurs européens pour les œuvres perdues ou inaccessibles de son père, il orchestre la diffusion magistrale du répertoire familial.",
-                      "events": [
-                            {
-                                  "year": 1600,
-                                  "title": "Le succès des scènes infernales",
-                                  "desc": "Ses représentations de feux nocturnes, incendies et Enfers lui valent son surnom populaire de 'Brueghel d'Enfer'.",
-                                  "type": "history",
-                                  "icon": "🔥"
-                            },
-                            {
-                                  "year": 1610,
-                                  "title": "La Danse de noces en plein air (Munich Alte Pinakothek)",
-                                  "desc": "Tourbillon jubilatoire de paysans dansant au son de la cornemuse sous une lumière franche.",
-                                  "type": "masterpiece",
-                                  "icon": "🎨",
-                                  "artworkId": "brueghel_pieter_jeune_danse_noces_munich_1610"
-                            }
-                      ]
-                },
-                {
-                      "title": "Les Chefs-d'Œuvre de Maturité : Charité & Scènes Paysannes",
-                      "years": "1616 – 1638",
-                      "color": "#10b981",
-                      "summary": "Période culminante où il affine sa facture personnelle : contours acérés, couleurs saturées et humanité chaleureuse.",
-                      "events": [
-                            {
-                                  "year": 1616,
-                                  "title": "Les Sept Œuvres de miséricorde (Lisbonne)",
-                                  "desc": "Fresque morale et sociale remarquable de la vie urbaine flamande : nourrir les affamés, vêtir les nus et visiter les prisonniers.",
-                                  "type": "masterpiece",
-                                  "icon": "🎨",
-                                  "artworkId": "brueghel_pieter_jeune_actes_charite_lisbonne_1616"
-                            },
-                            {
-                                  "year": 1620,
-                                  "title": "Rixe de paysans (Musée Fabre, Montpellier)",
-                                  "desc": "Scène de genre sur le vif montrant la brutalité et l'énergie brute des tavernes de village.",
-                                  "type": "masterpiece",
-                                  "icon": "🎨",
-                                  "artworkId": "brueghel_pieter_jeune_rixe_paysans_montpellier_1620"
-                            },
-                            {
-                                  "year": 1620,
-                                  "title": "Paysage d'hiver avec patineurs et trappe aux oiseaux (Tokyo)",
-                                  "desc": "Poème hivernal intemporel où l'homme glisse sur la glace fragile à côté du piège tendu.",
-                                  "type": "masterpiece",
-                                  "icon": "🎨",
-                                  "artworkId": "brueghel_pieter_jeune_paysage_hiver_patineurs_tokyo"
-                            }
-                      ]
-                }
-          ]
-    }
+      "birth": {
+            "year": 1564,
+            "place": "Bruxelles (Pays-Bas espagnols)",
+            "title": "Naissance de Pieter Brueghel le Jeune dit Brueghel d'Enfer",
+            "desc": "Fils aîné de Pieter Bruegel l'Ancien, maître d'un atelier anversois d'une extraordinaire virtuosité, perpétuateur génial de l'esprit satirique bruegélien."
+      },
+      "death": {
+            "year": 1638,
+            "place": "Anvers (Flandre)",
+            "title": "Mort de Pieter Brueghel le Jeune",
+            "desc": "Inhumé à Anvers après cinquante ans de carrière ayant fait rayonner les scènes de kermesses flamandes et les enfers satiriques dans toute l'Europe."
+      },
+      "periods": [
+            {
+                  "title": "L'Orphelin Prodigieux & L'Héritage du Père",
+                  "years": "1564 – 1588",
+                  "color": "#f59e0b",
+                  "summary": "Orphelin de père à cinq ans, élevé par sa grand-mère Mayken Verhulst, miniaturiste réputée, il s'inscrit comme franc-maître à la Guilde de Saint-Luc d'Anvers en 1585.",
+                  "events": [
+                        {
+                              "year": 1564,
+                              "title": "Naissance à Bruxelles",
+                              "desc": "Premier-né du grand Pieter Bruegel l'Ancien et de Mayken Coecke van Aelst.",
+                              "type": "birth",
+                              "icon": "🇧🇪"
+                        },
+                        {
+                              "year": 1569,
+                              "title": "Mort précoce de son père",
+                              "desc": "Son père meurt alors qu'il n'a que cinq ans, suivi bientôt par sa mère ; sa grand-mère Mayken Verhulst lui enseigne l'aquarelle et la miniature.",
+                              "type": "life",
+                              "icon": "🥀"
+                        },
+                        {
+                              "year": 1585,
+                              "title": "Reçu Franc-Maître à la Guilde de Saint-Luc d'Anvers",
+                              "desc": "Inscrit sous le nom de 'Peeter Brueghel', il ouvre son propre atelier dans la métropole hanséatique.",
+                              "type": "milestone",
+                              "icon": "📜"
+                        },
+                        {
+                              "year": 1588,
+                              "title": "Mariage avec Elisabeth Goddelet",
+                              "desc": "Fonde un foyer prolifique qui comptera sept enfants, dont Pieter Brueghel III qui poursuivra la lignée de peintres.",
+                              "type": "life",
+                              "icon": "💍"
+                        }
+                  ]
+            },
+            {
+                  "title": "L'Empire de l'Atelier Anversois & Le Surnom de 'Brueghel d'Enfer'",
+                  "years": "1589 – 1615",
+                  "color": "#ef4444",
+                  "summary": "Dirigeant un atelier comptant de nombreux apprentis, il peint des scènes nocturnes diaboliques, incendies et sabbats qui lui valent le surnom d'Enfer.",
+                  "events": [
+                        {
+                              "year": 1595,
+                              "title": "Les Scènes d'incendies et sabbats infernaux",
+                              "desc": "Spécialisation dans les incendies de villages, scènes de sorcellerie et gouffres de l'enfer d'inspiration boschienne.",
+                              "type": "masterpiece",
+                              "icon": "🔥"
+                        },
+                        {
+                              "year": 1600,
+                              "title": "L'Avocat du village / Le Paiement de la dîme",
+                              "desc": "Composition originale satirique montrant des paysans crédules apportant volailles et sacs de grains à un homme de loi cupide.",
+                              "type": "masterpiece",
+                              "icon": "📜"
+                        },
+                        {
+                              "year": 1605,
+                              "title": "La Danse de la mariée en plein air",
+                              "desc": "Célébration truculente de la fête paysanne aux couleurs vives, chapeaux de paille et danses débridées.",
+                              "type": "masterpiece",
+                              "icon": "🎻"
+                        },
+                        {
+                              "year": 1610,
+                              "title": "La réinterprétation fidèle des chefs-d'œuvre paternels",
+                              "desc": "Réalise des versions magistrales du Dénombrement de Bethléem et des Proverbes flamands pour satisfaire la demande des collectionneurs européens.",
+                              "type": "masterpiece",
+                              "icon": "🎨"
+                        }
+                  ]
+            },
+            {
+                  "title": "La Maturité Pastorale & La Fin d'une Époque",
+                  "years": "1616 – 1638",
+                  "color": "#10b981",
+                  "summary": "Établi comme l'un des artistes les plus célèbres d'Anvers aux côtés de son frère Jan Brueghel de Velours et de Rubens, il peint jusqu'à plus de soixante-dix ans.",
+                  "events": [
+                        {
+                              "year": 1620,
+                              "title": "La Rixe de paysans au jeu de cartes",
+                              "desc": "Scène de cabaret endiablée où les couteaux se tirent pour un broc de bière renversé.",
+                              "type": "masterpiece",
+                              "icon": "🍺"
+                        },
+                        {
+                              "year": 1626,
+                              "title": "Visite et portrait par Antoine van Dyck",
+                              "desc": "Van Dyck le grave pour son illustre Iconographie des hommes célèbres du siècle, saluant son rang de maître patriarche.",
+                              "type": "history",
+                              "icon": "🎨"
+                        },
+                        {
+                              "year": 1638,
+                              "title": "Mort à Anvers à 74 ans",
+                              "desc": "S'éteint en mars 1638, ayant immortalisé pour l'éternité la verve populaire et le folklore flamand.",
+                              "type": "life",
+                              "icon": "⚰️"
+                        }
+                  ]
+            }
+      ]
+}
   },
   "buffalmacco": {
     id: "buffalmacco",
@@ -2856,95 +3424,100 @@ window.ARTISTS_REGISTRY = {
       sourceNotes: "En comptabilisant chaque grande scène narrative monumentale et les rares fragments préservés dans d'autres villes, le consensus scientifique actuel attribue à Buffalmacco un corpus très restreint d'environ 20 œuvres principales (grandes scènes à fresque) qui nous sont parvenues."
     },
     biographyTimeline: {
-          "birth": {
-                "year": 1290,
-                "place": "Florence (Toscane)",
-                "title": "Naissance de Bonamico di Martino dit Buffalmacco",
-                "desc": "Né à Florence. Rendu célèbre par Boccace et Sacchetti comme un farceur truculent, avant que l'histoire de l'art ne redécouvre en lui un géant du Trecento."
-          },
-          "death": {
-                "year": 1340,
-                "place": "Florence",
-                "title": "Mort de Buffalmacco à l'hôpital Santa Maria Nuova",
-                "desc": "Meurt dans la misère selon Vasari, soigné par la confrérie de la Miséricorde, mais laissant les fresques les plus saisissantes du XIVe siècle italien."
-          },
-          "periods": [
-                {
-                      "title": "Le Joyeux Compère du Décaméron & Les Débuts Florentins",
-                      "years": "1290 – 1320",
-                      "color": "#d97706",
-                      "summary": "Élève supposé d'Andrea Tafi, il défie les conventions par son esprit satirique, immortalisé dans les nouvelles facétieuses de Boccace aux côtés de Calandrino.",
-                      "events": [
-                            {
-                                  "year": 1315,
-                                  "title": "Fresques de la Badia Fiorentina",
-                                  "desc": "Premiers cycles muraux remarqués par les corporations marchandes de Florence.",
-                                  "type": "life",
-                                  "icon": "💎"
-                            },
-                            {
-                                  "year": 1320,
-                                  "title": "Les facéties de l'atelier contées par Boccace",
-                                  "desc": "Boccace fait de Buffalmacco le héros de facéties mémorables dans la huitième journée du Décaméron.",
-                                  "type": "history",
-                                  "icon": "📜",
-                                  "linkedArtist": "Giotto"
-                            }
-                      ]
-                },
-                {
-                      "title": "Les Grands Chantiers d'Arezzo et de Toscane",
-                      "years": "1321 – 1335",
-                      "color": "#3b82f6",
-                      "summary": "Appelé à Arezzo par l'évêque Guido Tarlati, il déploie un sens dramatique nouveau, rompant avec la solennité hiératique de Giotto par un expressionnisme populaire saisissant.",
-                      "events": [
-                            {
-                                  "year": 1325,
-                                  "title": "Cycle de la cathédrale d'Arezzo",
-                                  "desc": "Fresques du baptistère et de l'abside : visages expressifs et vérité crue des attitudes.",
-                                  "type": "masterpiece",
-                                  "icon": "🎨"
-                            },
-                            {
-                                  "year": 1330,
-                                  "title": "Séjour à Pise",
-                                  "desc": "Reçoit les premières commandes des dominicains de Santa Caterina à Pise.",
-                                  "type": "life",
-                                  "icon": "🏛️"
-                            }
-                      ]
-                },
-                {
-                      "title": "Le Triomphe de la Mort au Camposanto de Pise",
-                      "years": "1336 – 1340",
-                      "color": "#ef4444",
-                      "summary": "Sur les murs du Camposanto monumental de Pise, il peint le chef-d'œuvre absolu de la peinture médiévale macabre : Le Triomphe de la Mort, Le Jugement dernier et La Thébaïde.",
-                      "events": [
-                            {
-                                  "year": 1336,
-                                  "title": "Le Triomphe de la Mort (Pise, Camposanto)",
-                                  "desc": "Des cavaliers élégants découvrent soudain trois cercueils ouverts aux cadavres purulents, tandis que la Mort fauche les vivants : choc visuel préfigurant la Grande Peste.",
-                                  "type": "masterpiece",
-                                  "icon": "🎨"
-                            },
-                            {
-                                  "year": 1338,
-                                  "title": "Le Jugement dernier & L'Enfer",
-                                  "desc": "Vision terrifiante du démon Lucifer dévorant les damnés, d'une puissance théâtrale inégalée au Trecento.",
-                                  "type": "masterpiece",
-                                  "icon": "🎨"
-                            },
-                            {
-                                  "year": 1340,
-                                  "title": "La Thébaïde (Vie des ermites au désert)",
-                                  "desc": "Poème pictural serein montrant le travail et la contemplation des pères du désert face aux tentations.",
-                                  "type": "masterpiece",
-                                  "icon": "🎨"
-                            }
-                      ]
-                }
-          ]
-    }
+      "birth": {
+            "year": 1290,
+            "place": "Florence (Toscane, Italie)",
+            "title": "Naissance de Bonamico di Martino dit Buffalmacco",
+            "desc": "Le peintre le plus facétieux et satirique du Trecento, héros des nouvelles de Boccace et Sacchetti, et créateur visionnaire du Triomphe de la Mort au Camposanto de Pise."
+      },
+      "death": {
+            "year": 1340,
+            "place": "Florence (Italie)",
+            "title": "Mort de Buffalmacco",
+            "desc": "Meurt à l'hôpital Santa Maria Nuova de Florence dans le dénuement après une existence d'inventions et de rires insouciants."
+      },
+      "periods": [
+            {
+                  "title": "La Bohème Florentine & Les Facéties Légendaires",
+                  "years": "1290 – 1330",
+                  "color": "#f59e0b",
+                  "summary": "Élève du maître Andrea Tafi, Buffalmacco est immortalisé dans Le Décaméron pour ses farces d'anthologie aux dépens de Calandrino et de ses commanditaires.",
+                  "events": [
+                        {
+                              "year": 1290,
+                              "title": "Naissance à Florence",
+                              "desc": "Entre très jeune dans l'atelier du mosaïste Andrea Tafi qu'il effraie la nuit avec des scarabées munis de bougies pour échapper au travail d'aube.",
+                              "type": "birth",
+                              "icon": "🇮🇹"
+                        },
+                        {
+                              "year": 1315,
+                              "title": "Inscription à la corporation des peintres",
+                              "desc": "Documenté sous le nom authentique de 'Bonamico di Martino' parmi les artistes actifs de Florence.",
+                              "type": "milestone",
+                              "icon": "📜"
+                        },
+                        {
+                              "year": 1320,
+                              "title": "Les facéties du Décaméron de Boccace",
+                              "desc": "Boccace en fait le héros de ses plus truculentes nouvelles, inventant l'héliotrope (la pierre qui rend invisible) avec Bruno et Calandrino.",
+                              "type": "life",
+                              "icon": "🎭"
+                        },
+                        {
+                              "year": 1325,
+                              "title": "Fresques du couvent des Carmes de Florence",
+                              "desc": "Peint l'histoire de sainte Catherine et des scènes de la Passion pour les églises d'Arezzo et Florence.",
+                              "type": "masterpiece",
+                              "icon": "🎨"
+                        }
+                  ]
+            },
+            {
+                  "title": "L'Apocalypse du Camposanto de Pise : Le Triomphe de la Mort",
+                  "years": "1336 – 1340",
+                  "color": "#ef4444",
+                  "summary": "Identifié définitivement par Luciano Bellosi, Buffalmacco peint au Camposanto de Pise le cycle eschatologique le plus halluciné et dramatique du Moyen Âge italien.",
+                  "events": [
+                        {
+                              "year": 1336,
+                              "title": "Début du grand chantier du Camposanto de Pise",
+                              "desc": "La république de Pise lui confie les immenses parois du cimetière monumental bordant la place du Duomo.",
+                              "type": "milestone",
+                              "icon": "🏛️"
+                        },
+                        {
+                              "year": 1338,
+                              "title": "Le Triomphe de la Mort (Camposanto Monumentale, Pise)",
+                              "desc": "Chef-d'œuvre titanesque : des nobles cavaliers découvrent trois cercueils ouverts grouillant de vers, tandis que la Mort ailée fauche les jouisseurs insouciants.",
+                              "type": "masterpiece",
+                              "icon": "💀"
+                        },
+                        {
+                              "year": 1338,
+                              "title": "Le Jugement Dernier & L'Enfer des damnés",
+                              "desc": "Le Christ et la Vierge jugent les peuples tandis que Lucifer dévore et expulse les damnés dans des chaudrons de poix bouillante.",
+                              "type": "masterpiece",
+                              "icon": "🔥"
+                        },
+                        {
+                              "year": 1339,
+                              "title": "La Thébaïde : La vie des saints ermites au désert",
+                              "desc": "Dernière fresque de la trilogie pisane montrant saint Antoine et les ermites conversant avec les animaux dans la paix des rochers.",
+                              "type": "masterpiece",
+                              "icon": "🌿"
+                        },
+                        {
+                              "year": 1340,
+                              "title": "Mort à Florence à l'hôpital Santa Maria Nuova",
+                              "desc": "Vasari raconte qu'il s'éteint sans un sou après avoir partagé tout ce qu'il possédait avec ses amis de bamboche.",
+                              "type": "life",
+                              "icon": "⚰️"
+                        }
+                  ]
+            }
+      ]
+}
   },
   "cabanel": {
     id: "cabanel",
@@ -2980,96 +3553,151 @@ window.ARTISTS_REGISTRY = {
       sourceNotes: "L'inventaire de référence moderne a été dressé par l'historien de l'art Jean Nougaret. Il a publié son Catalogue sommaire de l'œuvre peint d'Alexandre Cabanel au sein du monumental catalogue d'exposition Alexandre Cabanel 1823-1889 : La tradition du beau, édité sous la direction de Michel Hilaire et Sylvain Amic lors de la rétrospective du Musée Fabre à Montpellier. Cet inventaire exhaustif recense très exactement 578 notices d'œuvres peintes, dont 502 huiles sur toile parfaitement documentées et datées."
     },
     biographyTimeline: {
-          "birth": {
-                "year": 1823,
-                "place": "Montpellier (Hérault)",
-                "title": "Naissance d'Alexandre Cabanel",
-                "desc": "Fils d'un modeste menuisier montpelliérain. Révélé dès l'enfance par l'école de dessin de Montpellier sous la direction de François-Xavier Fabre."
-          },
-          "death": {
-                "year": 1889,
-                "place": "Paris (rue de Vigny)",
-                "title": "Mort d'Alexandre Cabanel",
-                "desc": "Inhumé au cimetière Saint-Lazare de Montpellier dans un monumental tombeau sculpté par Paul Dubois. La République lui rend de vibrants hommages."
-          },
-          "periods": [
-                {
-                      "title": "Du Musée Fabre au Grand Prix de Rome",
-                      "years": "1823 – 1852",
-                      "color": "#0ea5e9",
-                      "summary": "Élève brillant de Picot à l'École des Beaux-Arts de Paris, il remporte le second Grand Prix de Rome en 1845 et parfait son style classique à la Villa Médicis.",
-                      "events": [
-                            {
-                                  "year": 1845,
-                                  "title": "Lauréat du Prix de Rome",
-                                  "desc": "Part pour cinq années à la Villa Médicis à Rome, où il s'imprègne de la pureté de Raphaël.",
-                                  "type": "life",
-                                  "icon": "🏛️"
-                            },
-                            {
-                                  "year": 1852,
-                                  "title": "Retour à Paris & Premiers succès au Salon",
-                                  "desc": "La Mort de Moïse est remarquée par la critique officielle du Second Empire.",
-                                  "type": "life",
-                                  "icon": "💎"
-                            }
-                      ]
-                },
-                {
-                      "title": "Le Triomphe du Second Empire : La Naissance de Vénus",
-                      "years": "1853 – 1869",
-                      "color": "#f59e0b",
-                      "summary": "Peintre favori de Napoléon III et de la haute société impériale, il triomphe au Salon de 1863 face au scandale du Déjeuner sur l'herbe de Manet.",
-                      "events": [
-                            {
-                                  "year": 1855,
-                                  "title": "La Glorification de saint Louis (Montpellier, Musée Fabre)",
-                                  "desc": "Grande commande décorative pour la chapelle de l'hôpital général de Montpellier, éclat de son classicisme.",
-                                  "type": "masterpiece",
-                                  "icon": "🎨",
-                                  "artworkId": "cabanel_glorification_saint_louis_montpellier_1855"
-                            },
-                            {
-                                  "year": 1863,
-                                  "title": "La Naissance de Vénus (Salon de 1863, Musée d'Orsay)",
-                                  "desc": "Triomphe absolu : achetée immédiatement par Napoléon III pour sa collection personnelle le jour même où Manet scandalise les Refusés.",
-                                  "type": "masterpiece",
-                                  "icon": "🎨",
-                                  "linkedArtist": "Édouard Manet"
-                            },
-                            {
-                                  "year": 1864,
-                                  "title": "Nommé professeur chef d'atelier à l'École des Beaux-Arts",
-                                  "desc": "Il forme des centaines d'artistes français et étrangers pendant un quart de siècle.",
-                                  "type": "life",
-                                  "icon": "👑"
-                            }
-                      ]
-                },
-                {
-                      "title": "Maître de l'Académie & Les Grands Portraits d'Apparat",
-                      "years": "1870 – 1889",
-                      "color": "#8b5cf6",
-                      "summary": "Membre influent de l'Institut et pilier du jury du Salon, il peint l'aristocratie américaine et européenne tout en restant fidèle à la grande tradition d'histoire.",
-                      "events": [
-                            {
-                                  "year": 1878,
-                                  "title": "Plafond du Panthéon de Paris",
-                                  "desc": "Participe au grand programme républicain avec 'L'Histoire de saint Louis'.",
-                                  "type": "masterpiece",
-                                  "icon": "🎨"
-                            },
-                            {
-                                  "year": 1880,
-                                  "title": "Cléopâtre essayant des poisons sur des condamnés à mort (Anvers)",
-                                  "desc": "Sommet théâtral de l'orientalisme académique de la fin du siècle.",
-                                  "type": "masterpiece",
-                                  "icon": "🎨"
-                            }
-                      ]
-                }
-          ]
-    }
+      "birth": {
+            "year": 1823,
+            "place": "Montpellier (Hérault, France)",
+            "title": "Naissance d'Alexandre Cabanel",
+            "desc": "Archange du grand style académique et maître du Second Empire, virtuose du dessin d'histoire et rival direct de Manet au Salon de 1863."
+      },
+      "death": {
+            "year": 1889,
+            "place": "Paris (France)",
+            "title": "Mort d'Alexandre Cabanel",
+            "desc": "S'éteint à 65 ans dans son hôtel particulier parisien, salué par des obsèques nationales et laissant une cohorte de disciples célèbres."
+      },
+      "periods": [
+            {
+                  "title": "L'Enfant de Montpellier, La Villa Médicis & Les Grands Sujets Bibliques",
+                  "years": "1823 – 1855",
+                  "color": "#f59e0b",
+                  "summary": "Formé aux Beaux-Arts de Montpellier puis de Paris sous François-Édouard Picot, Prix de Rome en 1845, Cabanel s'imprègne de la Renaissance italienne à la Villa Médicis.",
+                  "events": [
+                        {
+                              "year": 1823,
+                              "title": "Naissance à Montpellier",
+                              "desc": "Fils d'un modeste menuisier. Remarqué très tôt pour ses dons au dessin, la ville de Montpellier lui accorde une bourse d'études.",
+                              "type": "birth",
+                              "icon": "🇫🇷"
+                        },
+                        {
+                              "year": 1840,
+                              "title": "Admission à l'École des Beaux-Arts de Paris",
+                              "desc": "Intègre l'atelier réputé de François-Édouard Picot et se consacre à l'idéal classique du grand genre historique.",
+                              "type": "education",
+                              "icon": "🏛️"
+                        },
+                        {
+                              "year": 1845,
+                              "title": "Second Grand Prix de Rome pour 'Le Christ au Prétoire'",
+                              "desc": "Accède au séjour tant convoité de cinq ans à la Villa Médicis à Rome, où il copie Raphaël et Michel-Ange.",
+                              "type": "milestone",
+                              "icon": "🇮🇹"
+                        },
+                        {
+                              "year": 1852,
+                              "title": "La Mort de Moïse (Musée Fabre, Montpellier)",
+                              "desc": "Envoi de Rome magistral : Dieu le Père soutenu par des anges emporte l'âme du patriarche sur les cimes du mont Nébo.",
+                              "type": "masterpiece",
+                              "icon": "📜"
+                        },
+                        {
+                              "year": 1855,
+                              "title": "La Glorification de saint Louis (Musée Fabre, Montpellier)",
+                              "desc": "Grande commande de l'État pour l'église Saint-Louis-des-Français à Rome, couronnée d'une médaille de première classe à l'Exposition universelle de 1855.",
+                              "type": "masterpiece",
+                              "icon": "👑",
+                              "artworkId": "cabanel_glorification_saint_louis_montpellier_1855"
+                        }
+                  ]
+            },
+            {
+                  "title": "La Naissance de Vénus, Le Triomphe Impérial & Le Patron de l'Institut",
+                  "years": "1856 – 1875",
+                  "color": "#10b981",
+                  "summary": "Au Salon de 1863, sa Naissance de Vénus subjugue Napoléon III qui l'achète pour sa collection personnelle. Devenu professeur tout-puissant, Cabanel règne sur l'art officiel.",
+                  "events": [
+                        {
+                              "year": 1863,
+                              "title": "La Naissance de Vénus (Musée d'Orsay, Paris)",
+                              "desc": "Triomphe absolu du Salon de 1863 : Napoléon III achète la toile pour sa cassette personnelle le jour même où Le Déjeuner sur l'herbe de Manet fait scandale au Salon des Refusés.",
+                              "type": "masterpiece",
+                              "icon": "🌊"
+                        },
+                        {
+                              "year": 1863,
+                              "title": "Élection à l'Institut de France & Nomination comme Professeur aux Beaux-Arts",
+                              "desc": "À quarante ans, il devient l'un des plus jeunes académiciens et prend la direction de l'atelier de peinture le plus influent de France.",
+                              "type": "milestone",
+                              "icon": "🎓"
+                        },
+                        {
+                              "year": 1865,
+                              "title": "Portrait officiel de l'empereur Napoléon III",
+                              "desc": "Portrait en pied dans son grand uniforme impérial, commandé pour les Tuileries.",
+                              "type": "masterpiece",
+                              "icon": "👑"
+                        },
+                        {
+                              "year": 1867,
+                              "title": "Médaille d'honneur à l'Exposition Universelle de 1867",
+                              "desc": "Consécration internationale suprême pour son Paradis Perdu commandé par le roi Maximilien II de Bavière.",
+                              "type": "history",
+                              "icon": "🥇"
+                        },
+                        {
+                              "year": 1870,
+                              "title": "La Chute du Second Empire & Maintien de son autorité",
+                              "desc": "Malgré la proclamation de la République, Cabanel demeure le maître le plus recherché par les collectionneurs américains et français.",
+                              "type": "history",
+                              "icon": "🇫🇷"
+                        }
+                  ]
+            },
+            {
+                  "title": "Les Portraits Mondains, Phèdre & Cléopâtre : L'Héritage d'un Grand Atelier",
+                  "years": "1876 – 1889",
+                  "color": "#ef4444",
+                  "summary": "Portraitiste courtisé de l'aristocratie et des millionnaires américains, il peint des tragédies somptueuses comme Cléopâtre et forme des élèves qui façonneront la modernité.",
+                  "events": [
+                        {
+                              "year": 1880,
+                              "title": "Phèdre (Musée Fabre, Montpellier)",
+                              "desc": "Relecture tragique de Racine : la reine livide et terrassée par sa passion coupable gît sur un lit à baldaquin somptueux.",
+                              "type": "masterpiece",
+                              "icon": "🎭"
+                        },
+                        {
+                              "year": 1882,
+                              "title": "Les Grandes commandes du Panthéon de Paris",
+                              "desc": "L'État républicain lui confie la réalisation du cycle mural monumental sur la vie de saint Louis pour la nef du Panthéon.",
+                              "type": "milestone",
+                              "icon": "🏛️"
+                        },
+                        {
+                              "year": 1887,
+                              "title": "Cléopâtre essayant des poisons sur des condamnés à mort (Musée royal d'Anvers)",
+                              "desc": "Sommet de l'orientalisme fin-de-siècle : cruauté glaciale de la reine d'Égypte observant l'agonie des captifs sur les dalles de marbre.",
+                              "type": "masterpiece",
+                              "icon": "👑"
+                        },
+                        {
+                              "year": 1888,
+                              "title": "Un atelier légendaire : Formateur de maîtres",
+                              "desc": "Au cours de sa carrière, il forme plus de 100 élèves illustres aux styles variés, dont Fernand Cormon, Jules Bastien-Lepage, Henri Le Sidaner et Aristide Maillol.",
+                              "type": "milestone",
+                              "icon": "👨‍🎨"
+                        },
+                        {
+                              "year": 1889,
+                              "title": "Mort à Paris & Legs exceptionnel au Musée Fabre",
+                              "desc": "S'éteint le 23 janvier 1889. Conformément à ses vœux, ses chefs-d'œuvre personnels rejoignent le Musée Fabre de sa ville natale.",
+                              "type": "life",
+                              "icon": "⚰️"
+                        }
+                  ]
+            }
+      ]
+}
   },
   "caillebotte": {
     id: "caillebotte",
@@ -4473,96 +5101,138 @@ window.ARTISTS_REGISTRY = {
       sourceNotes: "Le consensus scientifique moderne, magistralement synthétisé par le grand spécialiste Luciano Bellosi dans sa monographie de référence parue en 1998 (Cimabue), est extrêmement resserré. Aujourd'hui, l'histoire de l'art ne lui attribue formellement et unanimement qu'environ 12 à 15 œuvres majeures ayant survécu."
     },
     biographyTimeline: {
-      birth: {
-        year: 1240,
-        place: "Florence (République florentine)",
-        title: "Naissance de Cenni di Pepo dit Cimabue",
-        desc: "Issu d'une grande famille florentine. Formé auprès des maîtres grecs et byzantins travaillant aux mosaïques du baptistère de Florence."
+      "birth": {
+            "year": 1240,
+            "place": "Florence (Toscane, Italie)",
+            "title": "Naissance de Cenni di Pepo dit Cimabue",
+            "desc": "Père fondateur de la peinture toscane et maître présumé de Giotto, célébré par Dante dans La Divine Comédie comme le premier à avoir brisé la raideur byzantine."
       },
-      death: {
-        year: 1302,
-        place: "Pise (Toscane)",
-        title: "Mort du premier éveilleur de la peinture occidentale",
-        desc: "S'éteint à Pise alors qu'il dirige les chantiers de la cathédrale. Dante consacre son aura universelle dans le chant XI du Purgatoire."
+      "death": {
+            "year": 1302,
+            "place": "Pise (Toscane, Italie)",
+            "title": "Mort de Cimabue",
+            "desc": "S'éteint à Pise alors qu'il achevait la mosaïque monumentale du Christ Pantocrator dans l'abside de la cathédrale de Pise."
       },
-      periods: [
-        {
-          title: "L'Atelier florentin & la rupture de Santa Croce",
-          years: "1240 – 1280",
-          color: "#d97706",
-          summary: "Cimabue émancipe la maniera greca en introduisant le modelé anatomique et le pathétique dans les grands panneaux de dévotion.",
-          events: [
+      "periods": [
             {
-              year: 1272,
-              title: "Séjour attesté à Rome",
-              desc: "Présent à Rome comme témoin dans des actes notariés officiels ; il étudie les mosaïques de l'Antiquité tardive et du haut Moyen Âge.",
-              type: "life",
-              icon: "🏛️"
+                  "title": "La Renaissance du Duecento & Les Débuts Florentins",
+                  "years": "1240 – 1275",
+                  "color": "#f59e0b",
+                  "summary": "Formé auprès de peintres grecs à Florence, Cimabue insuffle un volume plastique et une intensité émotionnelle inédite aux modèles byzantins de la Vierge et du Crucifié.",
+                  "events": [
+                        {
+                              "year": 1240,
+                              "title": "Naissance à Florence",
+                              "desc": "Issu de la noble famille des Pepo. Dès sa jeunesse, Vasari raconte qu'il passait des journées entières à observer les peintres byzantins de Santa Maria Novella.",
+                              "type": "birth",
+                              "icon": "🇮🇹"
+                        },
+                        {
+                              "year": 1270,
+                              "title": "Le Crucifix de San Domenico à Arezzo",
+                              "desc": "Première œuvre maîtresse : le Christ souffrant (Christus patiens) se cambre avec une tension musculaire et un pathos qui surpassent Giunta Pisano.",
+                              "type": "masterpiece",
+                              "icon": "✝️"
+                        },
+                        {
+                              "year": 1272,
+                              "title": "Présence documentée à Rome",
+                              "desc": "Cité comme témoin dans un acte notarié romain auprès de la cour papale, où il découvre les fresques antiques et la mosaïque paléochrétienne.",
+                              "type": "milestone",
+                              "icon": "📜"
+                        },
+                        {
+                              "year": 1275,
+                              "title": "La découverte du jeune berger Giotto",
+                              "desc": "Selon la célèbre légende rapportée par Ghiberti et Vasari, Cimabue découvre le jeune Giotto dessinant une brebis sur une pierre et le prend dans son atelier.",
+                              "type": "life",
+                              "icon": "🐑"
+                        }
+                  ]
             },
             {
-              year: 1280,
-              title: "Crucifix peint de Santa Croce (Florence)",
-              desc: "Chef-d'œuvre fondateur du Christus patiens : le corps s'arque avec une souplesse et une souffrance humaine inédites. Symbole mondial du sauvetage artistique après la crue de 1966.",
-              type: "masterpiece",
-              icon: "✝️",
-              artworkId: "cimabue_crucifix_santa_croce_1280"
+                  "title": "Le Cycle Héroïque d'Assise & Les Grands Retables de Majesté",
+                  "years": "1276 – 1290",
+                  "color": "#10b981",
+                  "summary": "Appelé par les papes franciscains, Cimabue réalise à la basilique Saint-François d'Assise le plus grandiose ensemble de fresques de son siècle.",
+                  "events": [
+                        {
+                              "year": 1280,
+                              "title": "Le Crucifix de Santa Croce (Florence)",
+                              "desc": "Chef-d'œuvre absolu de douleur humaine : le corps du Christ s'incurve doucement dans un drapé transparent (tragiquement endommagé lors de la crue de 1966).",
+                              "type": "masterpiece",
+                              "icon": "✝️",
+                              "artworkId": "cimabue_crucifix_santa_croce_1280"
+                        },
+                        {
+                              "year": 1280,
+                              "title": "La Maestà du Louvre (Musée du Louvre, Paris)",
+                              "desc": "Panneau monumental peint pour San Francesco de Pise : Vierge en majesté entourée de six anges aux ailes étagées dans un rythme grandiose.",
+                              "type": "masterpiece",
+                              "icon": "🎨",
+                              "artworkId": "cimabue_maesta_louvre_1280"
+                        },
+                        {
+                              "year": 1285,
+                              "title": "Maestà de Santa Trinita (Galerie des Offices, Florence)",
+                              "desc": "Trône d'ivoire et de cèdre en perspective pyramidale abritant les prophètes de l'Ancien Testament sous les pieds de la Vierge.",
+                              "type": "masterpiece",
+                              "icon": "👑"
+                        },
+                        {
+                              "year": 1288,
+                              "title": "Fresques de la Basilique supérieure d'Assise : La Crucifixion",
+                              "desc": "Fresque apocalyptique du transept : le blanc de plomb ayant noirci avec les siècles transforme la scène en une vision fantomatique et tragique où saint François s'effondre.",
+                              "type": "masterpiece",
+                              "icon": "🔥"
+                        },
+                        {
+                              "year": 1290,
+                              "title": "Fresque de la Vierge aux anges et saint François (Basilique inférieure d'Assise)",
+                              "desc": "Considéré comme le portrait le plus fidèle et émouvant du 'Poverello' d'Assise, aux oreilles décollées et au regard perçant.",
+                              "type": "masterpiece",
+                              "icon": "✨"
+                        }
+                  ]
             },
             {
-              year: 1280,
-              title: "La Maestà de Pise (Musée du Louvre)",
-              desc: "Panneau d'autel monumental de près de 4 mètres de haut : Vierge en majesté entourée de six anges, transition magistrale entre l'icône byzantine et la gravité occidentale.",
-              type: "masterpiece",
-              icon: "👑",
-              artworkId: "cimabue_maesta_louvre_1280"
+                  "title": "L'Abside de Pise, La Gloire de Dante & La Postérité",
+                  "years": "1291 – 1302",
+                  "color": "#6366f1",
+                  "summary": "Maître officiel de l'Opera del Duomo de Pise, Cimabue dirige le chantier de la mosaïque absidiale. Dante immortalise sa gloire dans le Purgatoire.",
+                  "events": [
+                        {
+                              "year": 1300,
+                              "title": "La prophétie de Dante dans la Divine Comédie (Purgatoire, XI)",
+                              "desc": "Dante écrit les vers célèbres : 'Cimabue crut être le maître du champ de la peinture, et maintenant Giotto a le cri, de sorte que la gloire de l'autre est obscurcie'.",
+                              "type": "history",
+                              "icon": "📖"
+                        },
+                        {
+                              "year": 1301,
+                              "title": "Contrat de Magister pour la mosaïque de la cathédrale de Pise",
+                              "desc": "Nommé maître de l'Opera del Duomo de Pise pour concevoir la monumentale mosaïque absidiale du Christ en majesté entouré de la Vierge et de saint Jean.",
+                              "type": "milestone",
+                              "icon": "📜"
+                        },
+                        {
+                              "year": 1302,
+                              "title": "Saint Jean l'Évangéliste de l'abside de Pise",
+                              "desc": "Unique œuvre de Cimabue documentée par des pièces d'archives indiscutables conservées à l'Opera della Primaziale de Pise.",
+                              "type": "masterpiece",
+                              "icon": "✨"
+                        },
+                        {
+                              "year": 1302,
+                              "title": "Mort à Pise & Inhumation à Santa Maria del Fiore",
+                              "desc": "Inhumé avec les plus grands honneurs dans la cathédrale de Florence sous l'épitaphe : 'Cimabue tenait le champ de la peinture ; vivant, il fut le maître, et par ses œuvres il vit encore'.",
+                              "type": "life",
+                              "icon": "⚰️"
+                        }
+                  ]
             }
-          ]
-        },
-        {
-          title: "Le Grand chantier d'Assise & la découverte de Giotto",
-          years: "1281 – 1295",
-          color: "#2563eb",
-          summary: "Appelé à la basilique d'Assise, Cimabue peint des fresques d'une force tragique inouïe et prend sous sa protection le jeune Giotto.",
-          events: [
-            {
-              year: 1285,
-              title: "Fresques de la Basilique supérieure d'Assise",
-              desc: "Peint la colossale Crucifixion du transept : le ciel noirci par l'oxydation de la céruse confère aux anges éplorés une intensité dramatique visionnaire.",
-              type: "masterpiece",
-              icon: "🎨"
-            },
-            {
-              year: 1290,
-              title: "Découverte et formation du jeune Giotto",
-              desc: "Selon la tradition rapportée par Ghiberti et Vasari, Cimabue découvre le jeune Giotto dessinant une brebis sur un rocher et en fait son disciple le plus brillant.",
-              type: "peer",
-              icon: "🤝"
-            }
-          ]
-        },
-        {
-          title: "L'Apothéose de Santa Trinita & les mosaïques de Pise",
-          years: "1296 – 1302",
-          color: "#7c3aed",
-          summary: "Il couronne sa carrière par la grandiose Maestà de Santa Trinita et les cartons des mosaïques monumentales du Duomo de Pise.",
-          events: [
-            {
-              year: 1298,
-              title: "Maestà de Santa Trinita (Galerie des Offices)",
-              desc: "Synthèse suprême : le trône architectural en bois doré s'ouvre sur quatre prophètes en contrebas, inaugurant la profondeur spatiale florentine.",
-              type: "masterpiece",
-              icon: "✨"
-            },
-            {
-              year: 1301,
-              title: "Mosaïque monumentale du Duomo de Pise",
-              desc: "Conçoit et dirige l'immense figure de saint Jean l'Évangéliste pour l'abside de la cathédrale de Pise, sa dernière œuvre documentée.",
-              type: "life",
-              icon: "🏛️"
-            }
-          ]
-        }
       ]
-    }
+}
   },
   "clouet_francois": {
     id: "clouet_francois",
@@ -4595,96 +5265,122 @@ window.ARTISTS_REGISTRY = {
       sourceNotes: "Bien qu'on conserve de lui (et de son atelier) des centaines de remarquables portraits dessinés aux « trois crayons » (qui servaient d'études préparatoires et sont aujourd'hui notamment conservés dans l'immense fonds de Chantilly), ses peintures à l'huile sur panneau de bois sont d'une extrême rareté. Le consensus scientifique moderne (porté notamment par les travaux d'Alexandra Zvereva, spécialiste incontestée de la dynastie des Clouet) souligne une particularité frappante : François Clouet n'a officiellement signé que deux peintures dans toute sa vie. Il s'agit du portrait de son ami Pierre Quthe, apothicaire réalisé en 1562 (conservé au Louvre), et de sa célèbre Dame au bain peinte vers 1571 (conservée à la National Gallery of Art de Washington). En ajoutant à ces deux toiles fondatrices les rares tableaux formellement et universellement reconnus comme étant de sa seule main, sans l'intervention massive de son atelier (comme le somptueux portrait d'Élisabeth d'Autriche au Louvre ou celui de Charles IX grandeur nature au Kunsthistorisches Museum de Vienne), le nombre de peintures strictement autographes s'élève à une quinzaine d'œuvres seulement."
     },
     biographyTimeline: {
-      birth: {
-        year: 1515,
-        place: "Tours (Touraine)",
-        title: "Naissance de François Clouet",
-        desc: "Fils de Jean Clouet, valet de chambre et peintre du roi. Il se forme dans l'atelier royal auprès de son père."
+      "birth": {
+            "year": 1515,
+            "place": "Tours (Touraine, France)",
+            "title": "Naissance de François Clouet",
+            "desc": "Premier peintre du Roi, génie du portrait à la cour des Valois sous quatre règnes successifs (François Ier, Henri II, François II, Charles IX)."
       },
-      death: {
-        year: 1572,
-        place: "Paris",
-        title: "Mort du maître du portrait Renaissance des Valois",
-        desc: "Disparaît en septembre 1572 à Paris, peu après la Saint-Barthélemy, laissant des portraits au crayon d'une acuité psychologique inégalée."
+      "death": {
+            "year": 1572,
+            "place": "Paris (France)",
+            "title": "Mort de François Clouet",
+            "desc": "S'éteint à la veille de la Saint-Barthélemy après avoir fixé pour l'éternité les visages d'or, de perles et de velours de la Renaissance française."
       },
-      periods: [
-        {
-          title: "La Succession de Jean Clouet & François Ier",
-          years: "1515 – 1547",
-          color: "#d97706",
-          summary: "Nommé peintre du roi en 1540 à la mort de son père, il pérennise la tradition du portrait officiel de cour.",
-          events: [
+      "periods": [
             {
-              year: 1540,
-              title: "Nomination comme peintre et valet de chambre du Roi",
-              desc: "Lettres patentes de François Ier lui accordant la succession de son père pour perpétuer l'effigie officielle de la monarchie française.",
-              type: "peer",
-              icon: "👑",
-              linkedArtist: "Jean Clouet"
+                  "title": "L'Héritage Paternel & Les Rois de la Renaissance",
+                  "years": "1515 – 1550",
+                  "color": "#f59e0b",
+                  "summary": "Succédant à son père Jean Clouet en 1540 comme Peintre et Valet de chambre du Roi, François allie la finesse flamande du crayon au raffinement maniériste de Fontainebleau.",
+                  "events": [
+                        {
+                              "year": 1515,
+                              "title": "Naissance à Tours",
+                              "desc": "Fils de Jean Clouet, peintre officiel de François Ier. Formé dès le berceau au portrait aux trois crayons (pierre noire, sanguine, craie blanche).",
+                              "type": "birth",
+                              "icon": "🇫🇷"
+                        },
+                        {
+                              "year": 1540,
+                              "title": "Lettres de naturalité & Succession paternelle",
+                              "desc": "François Ier lui octroie des lettres de naturalité et le nomme Peintre et Valet de chambre ordinaire du Roi aux mêmes gages que son père.",
+                              "type": "milestone",
+                              "icon": "👑"
+                        },
+                        {
+                              "year": 1547,
+                              "title": "Masque mortuaire de François Ier & Portrait d'Henri II",
+                              "desc": "Moule le masque funéraire de François Ier à Rambouillet et peint le portrait officiel du nouveau monarque Henri II en pied (Musée des Offices).",
+                              "type": "masterpiece",
+                              "icon": "🎨"
+                        },
+                        {
+                              "year": 1550,
+                              "title": "Portrait équestre d'Henri II",
+                              "desc": "Toile d'apparat rivalisant avec le Charles Quint de Titien : le roi de France caparaçonné d'argent sur un étalon caracolant.",
+                              "type": "masterpiece",
+                              "icon": "🐎"
+                        }
+                  ]
             },
             {
-              year: 1543,
-              title: "Portraits officiels du dauphin Henri et de François Ier",
-              desc: "Fixe les traits souverains de la famille royale avec une précision graphique nordique rehaussée de la dignité française.",
-              type: "masterpiece",
-              icon: "🎨"
+                  "title": "Les Dessins de la Cour, Marie Stuart & Le Bain Mystérieux",
+                  "years": "1551 – 1565",
+                  "color": "#10b981",
+                  "summary": "Prisé par Catherine de Médicis qui collectionne frénétiquement ses feuilles de portraits, Clouet peint Marie Stuart en deuil blanc et invente le nu au bain aristocratique.",
+                  "events": [
+                        {
+                              "year": 1558,
+                              "title": "Le 'Deuil Blanc' de Marie Stuart (Bibliothèque nationale de France)",
+                              "desc": "Dessin au pastel et huile immortalisant la jeune reine d'Écosse vêtue de la guimpe de deuil royal blanc après la mort du dauphin.",
+                              "type": "masterpiece",
+                              "icon": "👑"
+                        },
+                        {
+                              "year": 1560,
+                              "title": "La collection insatiable de Catherine de Médicis",
+                              "desc": "La reine-mère commande des centaines de crayons de ses enfants et courtisans, formant la célèbre galerie de portraits de Chantilly.",
+                              "type": "milestone",
+                              "icon": "📝"
+                        },
+                        {
+                              "year": 1562,
+                              "title": "Portrait de Pierre Quthe, apothicaire (Musée du Louvre)",
+                              "desc": "Rare chef-d'œuvre signé : portrait d'un ami bourgeois devant un herbier, d'une sobriété digne de Holbein.",
+                              "type": "masterpiece",
+                              "icon": "🌿"
+                        },
+                        {
+                              "year": 1565,
+                              "title": "Le Bain de Diane / Dame à sa toilette (National Gallery of Art, Washington)",
+                              "desc": "Scène intimiste et allégorique : une noble dame nue accoudée dans sa baignoire drapée de soie nourrit un enfant tandis qu'une servante apporte l'eau tiède.",
+                              "type": "masterpiece",
+                              "icon": "🛁"
+                        }
+                  ]
+            },
+            {
+                  "title": "Charles IX, La Tourmente Religieuse & Le Testament",
+                  "years": "1566 – 1572",
+                  "color": "#6366f1",
+                  "summary": "Fidèle serviteur de Charles IX, il peint le portrait grandiose du jeune roi pour son mariage avec Élisabeth d'Autriche avant de s'éteindre à Paris.",
+                  "events": [
+                        {
+                              "year": 1569,
+                              "title": "Portrait en pied de Charles IX (Kunsthistorisches Museum, Vienne)",
+                              "desc": "Portrait d'apparat grandiose envoyé à Vienne pour négocier le mariage du roi avec Élisabeth d'Autriche.",
+                              "type": "masterpiece",
+                              "icon": "👑"
+                        },
+                        {
+                              "year": 1571,
+                              "title": "Portrait d'Élisabeth d'Autriche (Musée du Louvre)",
+                              "desc": "Sommet de délicatesse mélancolique : visage diaphane, fraise de dentelle et broderies de perles fines d'une minutie inouïe.",
+                              "type": "masterpiece",
+                              "icon": "💎"
+                        },
+                        {
+                              "year": 1572,
+                              "title": "Mort à Paris & Testament pour ses filles",
+                              "desc": "Rédige son testament le 21 septembre 1572, léguant ses biens à sa sœur et à ses deux filles naturelles, peu après les massacres de la Saint-Barthélemy.",
+                              "type": "life",
+                              "icon": "⚰️"
+                        }
+                  ]
             }
-          ]
-        },
-        {
-          title: "La Cour d'Henri II & Le Bain de Diane",
-          years: "1547 – 1559",
-          color: "#059669",
-          summary: "Sous le règne d'Henri II et l'ascendant de Diane de Poitiers, il enrichit son art d'allégories mythologiques sensuelles.",
-          events: [
-            {
-              year: 1550,
-              title: "Le Bain de Diane (Musée des Beaux-Arts de Rouen)",
-              desc: "Chef-d'œuvre maniériste de l'École de Fontainebleau : allégorie courtoise à Diane de Poitiers où les nymphes aux corps d'ivoire se déploient dans un paysage raffiné.",
-              type: "masterpiece",
-              icon: "🏹",
-              artworkId: "clouet_francois_bain_de_diane_rouen_1550"
-            },
-            {
-              year: 1552,
-              title: "Campagne de portraits au crayon de Catherine de Médicis",
-              desc: "Exécute pour la reine les dessins aux trois crayons qui immortalisent les princes et princesses Valois (fonds princier de Chantilly).",
-              type: "life",
-              icon: "✏️"
-            }
-          ]
-        },
-        {
-          title: "L'Apothéose maniériste, Pierre Quthe & Charles IX",
-          years: "1560 – 1572",
-          color: "#7c3aed",
-          summary: "Il signe ses deux chefs-d'œuvre historiques et hisse le portrait de Charles IX et d'Élisabeth d'Autriche au sommet de la Renaissance.",
-          events: [
-            {
-              year: 1562,
-              title: "Portrait de Pierre Quthe, apothicaire (Musée du Louvre)",
-              desc: "Première toile officiellement signée de sa main : pose fière accoudée à un herbier, modelé sculptural influencé par le maniérisme florentin de Bronzino.",
-              type: "masterpiece",
-              icon: "🌿"
-            },
-            {
-              year: 1571,
-              title: "La Dame au bain (National Gallery of Art, Washington)",
-              desc: "Seconde œuvre signée : scène de genre et nu aristocratique baigné d'érotisme discret, chef-d'œuvre absolu de l'art profane des Valois.",
-              type: "masterpiece",
-              icon: "🛁"
-            },
-            {
-              year: 1571,
-              title: "Portrait d'Élisabeth d'Autriche (Musée du Louvre)",
-              desc: "Épouse du roi Charles IX : virtuosité éblouissante dans la transparence du voile de gaze et le scintillement des joyaux d'orfèvrerie.",
-              type: "masterpiece",
-              icon: "💎"
-            }
-          ]
-        }
       ]
-    }
+}
   },
   "clouet_jean": {
     id: "clouet_jean",
@@ -4717,97 +5413,122 @@ window.ARTISTS_REGISTRY = {
       ]
     },
     biographyTimeline: {
-      birth: {
-        year: 1480,
-        place: "Bruxelles (Pays-Bas bourguignons) ou Tours",
-        title: "Naissance de Jean Clouet (dit Janet)",
-        desc: "Fils présumé du peintre flamand Jean Cloet. Il s'établit en Touraine et rejoint les artistes de la cour royale des Valois."
+      "birth": {
+            "year": 1480,
+            "place": "Bruxelles (Brabant, Pays-Bas bourguignons)",
+            "title": "Naissance de Jean Clouet dit Janet",
+            "desc": "Génie d'origine flamande venu s'établir en Touraine, inventeur du portrait royal humaniste sous François Ier et maître absolu du dessin aux trois crayons."
       },
-      death: {
-        year: 1541,
-        place: "Paris (France)",
-        title: "Mort du premier peintre de François Ier",
-        desc: "S'éteint à Paris dans sa maison de la rue Sainte-Avoye. Son fils François Clouet lui succède immédiatement auprès du Roi."
+      "death": {
+            "year": 1541,
+            "place": "Paris (France)",
+            "title": "Mort de Jean Clouet",
+            "desc": "Inhumé en l'église Saint-Innocent à Paris, laissant son fils François prêt à poursuivre la dynastie royale des peintres de la cour."
       },
-      periods: [
-        {
-          title: "Les Débuts à Tours & L'Entrée au Service de François Ier",
-          years: "v. 1515 – 1525",
-          color: "#d97706",
-          summary: "Établi à Tours, il entre au service royal dès l'avènement de François Ier et peint le portrait déguisé du jeune roi.",
-          events: [
+      "periods": [
             {
-              year: 1516,
-              title: "Nomination comme peintre et valet de chambre du Roi",
-              desc: "Mentionné pour la première fois dans les comptes royaux aux côtés de Jean Perréal, recevant des gages annuels confortables.",
-              type: "life",
-              icon: "👑"
+                  "title": "L'Arrivée en France & La Touraine des Châteaux de la Loire",
+                  "years": "1480 – 1515",
+                  "color": "#f59e0b",
+                  "summary": "Fils probable du peintre Michel Clouet de Valenciennes, Jean s'installe à Tours, carrefour royal des Valois, où il épouse Jeanne Boucault.",
+                  "events": [
+                        {
+                              "year": 1480,
+                              "title": "Naissance à Bruxelles",
+                              "desc": "Originaire des Pays-Bas bourguignons, formé dans la prestigieuse tradition du réalisme descriptif des van Eyck et Rogier van der Weyden.",
+                              "type": "birth",
+                              "icon": "🇧🇪"
+                        },
+                        {
+                              "year": 1509,
+                              "title": "Première mention en Touraine",
+                              "desc": "Documenté à Tours où il épouse la fille d'un orfèvre local et travaille pour la cour itinérante de Louis XII.",
+                              "type": "milestone",
+                              "icon": "🏰"
+                        },
+                        {
+                              "year": 1515,
+                              "title": "Avènement de François Ier & Premiers portraits du jeune roi",
+                              "desc": "Dès la victoire de Marignan, le jeune roi athlétique de 20 ans fait appel à son pinceau pour fixer son image héroïque.",
+                              "type": "history",
+                              "icon": "👑"
+                        }
+                  ]
             },
             {
-              year: 1518,
-              title: "Portrait de François Ier en saint Jean-Baptiste (Musée du Louvre)",
-              desc: "Portrait allégorique où le jeune monarque prête ses traits au prophète, imprégné du sfumato et de la lumière de Léonard de Vinci alors présent au Clos Lucé.",
-              type: "masterpiece",
-              icon: "✨",
-              artworkId: "clouet_jean_francois_ier_saint_jean_baptiste_louvre_1518"
+                  "title": "Peintre Ordinaire du Roi & Les Précieux Dessins de Chantilly",
+                  "years": "1516 – 1529",
+                  "color": "#10b981",
+                  "summary": "Nommé Peintre et Valet de chambre royal en 1516, Jean Clouet croque au vif toute l'aristocratie française au château de Blois et de Fontainebleau.",
+                  "events": [
+                        {
+                              "year": 1516,
+                              "title": "Nomination comme Peintre et Valet de chambre du Roi",
+                              "desc": "Titulaire de 180 livres tournois de gages annuels, rang privilégié lui conférant l'accès intime au souverain.",
+                              "type": "milestone",
+                              "icon": "📜"
+                        },
+                        {
+                              "year": 1519,
+                              "title": "Les Miniatures des Commentaires de la guerre gallique",
+                              "desc": "Sept médaillons circulaires illustrant les lieutenants héroïques du roi lors des campagnes d'Italie.",
+                              "type": "masterpiece",
+                              "icon": "📖"
+                        },
+                        {
+                              "year": 1520,
+                              "title": "L'Entrevue du Camp du Drap d'Or",
+                              "desc": "Accompagne la cour royale en Flandre lors de la rencontre somptueuse entre François Ier et Henri VIII d'Angleterre.",
+                              "type": "history",
+                              "icon": "🎪"
+                        },
+                        {
+                              "year": 1525,
+                              "title": "La captivité de François Ier à Madrid",
+                              "desc": "Pendant l'emprisonnement du roi après la défaite de Pavie, Clouet soutient la régente Louise de Savoie en dessinant les princes royaux.",
+                              "type": "history",
+                              "icon": "🇪🇸"
+                        }
+                  ]
             },
             {
-              year: 1520,
-              title: "Les Héros de Marignan : miniatures des Préux de France",
-              desc: "Réalise la série de médaillons miniatures circulaires illustrant les Commentaires de la guerre gallique pour François Ier.",
-              type: "creation",
-              icon: "🎖️"
+                  "title": "Le Portrait Monumental de François Ier & Le Séjour Parisien",
+                  "years": "1530 – 1541",
+                  "color": "#ef4444",
+                  "summary": "Installé à Paris rue Sainte-Avoye, il peint le portrait universel de François Ier en pourpoint d'or et le portrait du poète Guillaume Budé.",
+                  "events": [
+                        {
+                              "year": 1530,
+                              "title": "François Ier, roi de France (Musée du Louvre, Paris)",
+                              "desc": "Chef-d'œuvre absolu de la Renaissance française : le roi au regard narquois en pourpoint de satin blanc brodé d'or, incarnant la magnificence royale.",
+                              "type": "masterpiece",
+                              "icon": "👑"
+                        },
+                        {
+                              "year": 1536,
+                              "title": "Portrait de Guillaume Budé (Metropolitan Museum of Art, New York)",
+                              "desc": "L'illustre humaniste et fondateur du Collège de France surpris plume à la main annotant un livre d'heures.",
+                              "type": "masterpiece",
+                              "icon": "📚"
+                        },
+                        {
+                              "year": 1537,
+                              "title": "Portrait du dauphin François (Musée royal d'Anvers)",
+                              "desc": "Portrait émouvant du fils aîné du roi peu avant sa mort suspecte au château de Tournon.",
+                              "type": "masterpiece",
+                              "icon": "🎨"
+                        },
+                        {
+                              "year": 1541,
+                              "title": "Mort à Paris & Inhumation à Saint-Innocent",
+                              "desc": "S'éteint à l'automne 1541, laissant une œuvre dessinée de 130 feuilles admirables aujourd'hui conservées au Musée Condé de Chantilly.",
+                              "type": "life",
+                              "icon": "⚰️"
+                        }
+                  ]
             }
-          ]
-        },
-        {
-          title: "L'Apogée Parisien & L'Effigie Souveraine de François Ier",
-          years: "1525 – 1535",
-          color: "#059669",
-          summary: "Installé à Paris dans la paroisse Saint-Innocent, il crée le grand portrait d'apparat du roi qui devient l'icône de la monarchie.",
-          events: [
-            {
-              year: 1530,
-              title: "Portrait officiel de François Ier (Musée du Louvre)",
-              desc: "Chef-d'œuvre absolu de la Renaissance française : pourpoint brodé d'or, regard souverain et autorité magistrale.",
-              type: "masterpiece",
-              icon: "👑",
-              artworkId: "clouet_jean_francois_ier_louvre_1530"
-            },
-            {
-              year: 1533,
-              title: "Portrait de Guillaume Budé (Metropolitan Museum of Art, New York)",
-              desc: "Portrait du grand humaniste français et fondateur du futur Collège de France, tenant une plume et consignant ses réflexions.",
-              type: "masterpiece",
-              icon: "📜"
-            }
-          ]
-        },
-        {
-          title: "Maturité, Atelier & Transmission à son fils François Clouet",
-          years: "1535 – 1541",
-          color: "#7c3aed",
-          summary: "Dernières années de création intense et formation de son fils François qui lui succédera auprès de la couronne.",
-          events: [
-            {
-              year: 1537,
-              title: "Campagne des portraits princiers au crayon de Chantilly",
-              desc: "Multiplie les dessins préparatoires aux trois crayons pour immortaliser les enfants de France et les grands officiers du royaume.",
-              type: "creation",
-              icon: "✏️"
-            },
-            {
-              year: 1541,
-              title: "Mort à Paris et succession par son fils François Clouet",
-              desc: "Jean Clouet s'éteint à Paris. François Ier accorde par lettres patentes à son fils François la succession de ses biens et de son office de peintre ordinaire du Roi.",
-              type: "peer",
-              icon: "👑",
-              linkedArtist: "François Clouet"
-            }
-          ]
-        }
       ]
-    }
+}
   },
   "constable": {
     id: "constable",
@@ -5778,82 +6499,115 @@ window.ARTISTS_REGISTRY = {
       ]
     },
     biographyTimeline: {
-      birth: 1290,
-      birthPlace: "Florence (Toscane, Italie)",
-      death: 1348,
-      deathPlace: "Florence (victime de la Grande Peste Noire)",
-      periods: [
-        {
-          title: "La Formation Giottesque & Les Premiers Chantiers Florentins",
-          years: "1315 – 1329",
-          color: "#d97706",
-          summary: "Formé aux côtés de Giotto à Florence, il assimile le sens de la plastique et du volume tridimensionnel tout en exécutant ses premières fresques à Santa Croce.",
-          events: [
+      "birth": {
+            "year": 1290,
+            "place": "Florence (République florentine, Italie)",
+            "title": "Naissance de Bernardo Daddi",
+            "desc": "Disciple le plus subtil de Giotto, il insuffle à la monumentalité florentine la délicatesse lyrique et le goût des étoffes précieuses de l'art siennois."
+      },
+      "death": {
+            "year": 1348,
+            "place": "Florence (Toscane)",
+            "title": "Mort de Bernardo Daddi",
+            "desc": "Victime de la terrible Peste noire qui décime Florence en 1348, emportant toute une génération de génies toscans."
+      },
+      "periods": [
             {
-              year: 1319,
-              title: "Immatriculation dans la corporation des peintres (Arte dei Medici e Speziali)",
-              desc: "Établit son atelier indépendant à Florence et reçoit les premières commandes publiques de confréries et de familles patriciennes.",
-              type: "formation",
-              icon: "🏛️"
+                  "title": "L'Héritage Giottesque & Les Fresques de Santa Croce",
+                  "years": "1290 – 1330",
+                  "color": "#f59e0b",
+                  "summary": "Formé dans l'atelier effervescent de Giotto, Daddi apprend la solidité volumétrique avant d'adoucir son pinceau au contact de Sienne.",
+                  "events": [
+                        {
+                              "year": 1290,
+                              "title": "Naissance à Florence",
+                              "desc": "Grandit dans le grand siècle économique et artisanal de la cité du lys.",
+                              "type": "birth",
+                              "icon": "🇮🇹"
+                        },
+                        {
+                              "year": 1319,
+                              "title": "Inscription à l'Arte dei Medici e Speziali",
+                              "desc": "Inscrit à la prestigieuse corporation florentine des médecins et apothicaires dont dépendent les peintres.",
+                              "type": "milestone",
+                              "icon": "📜"
+                        },
+                        {
+                              "year": 1325,
+                              "title": "Fresques de la chapelle Pulci-Berardi à Santa Croce",
+                              "desc": "Décore la chapelle franciscaine avec les martyres de saint Étienne et saint Laurent, alliant la clarté spatiale de Giotto à un sens dramatique raffiné.",
+                              "type": "masterpiece",
+                              "icon": "⛪"
+                        },
+                        {
+                              "year": 1328,
+                              "title": "Le Triptyque Ognissanti (Galerie des Offices, Florence)",
+                              "desc": "Retable de la Vierge à l'Enfant entourée de saints dominicains, chef-d'œuvre d'équilibre formel.",
+                              "type": "masterpiece",
+                              "icon": "🎨"
+                        }
+                  ]
             },
             {
-              year: 1325,
-              title: "Fresques de la chapelle Pulci-Berardi à Santa Croce",
-              desc: "Martyre de saint Étienne et saint Laurent : composition giottesque monumentale alliant gravité expressive et géométrie spatiale.",
-              type: "creation",
-              icon: "🎨"
-            }
-          ]
-        },
-        {
-          title: "L'Essor des Triptyques Domestiques & La Rencontre Siennoise",
-          years: "1330 – 1342",
-          color: "#00b4d8",
-          summary: "Daddi révolutionne la dévotion privée en popularisant les petits retables portatifs, mariant la monumentalité toscane au lyrisme décoratif de Sienne.",
-          events: [
-            {
-              year: 1335,
-              title: "L'Annonciation (Musée du Louvre, Paris)",
-              desc: "Prédelle raffinée capturant l'intimité sacrée de la Vierge assise sous une loggia ouverte avec pavement fuyant et fond d'or céleste.",
-              type: "masterpiece",
-              icon: "🕊️",
-              artworkId: "daddi_annonciation_louvre_1335"
+                  "title": "L'Invention du Petit Tabernacle Domestique & Orsanmichele",
+                  "years": "1331 – 1342",
+                  "color": "#10b981",
+                  "summary": "Daddi invente le tabernacle portable pour la dévotion privée des riches marchands florentins et devient le peintre officiel de la confrérie d'Orsanmichele.",
+                  "events": [
+                        {
+                              "year": 1333,
+                              "title": "Le Tabernacle de 1333 (Musée du Bigallo, Florence)",
+                              "desc": "Triptyque portatif à volets pliants orné d'or et d'émaux raffinés, modèle copié dans toute l'Europe.",
+                              "type": "masterpiece",
+                              "icon": "✨"
+                        },
+                        {
+                              "year": 1335,
+                              "title": "Fondation de la Compagnie de Saint-Luc",
+                              "desc": "Parmi les fondateurs de la célèbre confrérie des peintres florentins (Compagnia di San Luca).",
+                              "type": "milestone",
+                              "icon": "🤝"
+                        },
+                        {
+                              "year": 1339,
+                              "title": "Polyptyque de San Pancrazio (Offices, Florence)",
+                              "desc": "Grand retable d'autel aux prédelles narratives fourmillant de détails vifs de la vie de la Vierge.",
+                              "type": "masterpiece",
+                              "icon": "🎨"
+                        }
+                  ]
             },
             {
-              year: 1340,
-              title: "Madone entourée de quatre saints (Musée d'Arts de Nantes)",
-              desc: "Panneau de dévotion intime où l'Enfant Jésus s'anime avec tendresse sous le regard protecteur de saint Michel terrassant le dragon.",
-              type: "masterpiece",
-              icon: "✨",
-              artworkId: "daddi_madone_entouree_quatre_saints_nantes_1340"
+                  "title": "La Vierge Miraculeuse d'Orsanmichele & La Peste Noire",
+                  "years": "1343 – 1348",
+                  "color": "#ef4444",
+                  "summary": "Consécration suprême avec la Vierge triomphale d'Orsanmichele abritée sous le tabernacle d'Orcagna, avant de succomber au fléau de 1348.",
+                  "events": [
+                        {
+                              "year": 1346,
+                              "title": "La Madone d'Orsanmichele (Église d'Orsanmichele, Florence)",
+                              "desc": "Peinte pour remplacer l'icône miraculeuse détruite lors de l'incendie ; elle devient l'objet de la vénération la plus fervente de la ville.",
+                              "type": "masterpiece",
+                              "icon": "👑"
+                        },
+                        {
+                              "year": 1347,
+                              "title": "Polyptyque pour la cathédrale de Florence (Santa Maria del Fiore)",
+                              "desc": "Commande solennelle de l'Opera del Duomo, attestant de son rang de premier peintre florentin.",
+                              "type": "masterpiece",
+                              "icon": "🏛️"
+                        },
+                        {
+                              "year": 1348,
+                              "title": "Tragique disparition lors de la Peste Noire",
+                              "desc": "Emporté à l'été 1348 par la grande peste racontée par Boccace dans le Décaméron.",
+                              "type": "life",
+                              "icon": "⚰️"
+                        }
+                  ]
             }
-          ]
-        },
-        {
-          title: "Le Chef-d'Œuvre d'Orsanmichele & La Grande Peste Noire",
-          years: "1343 – 1348",
-          color: "#eab308",
-          summary: "Consécration suprême avec la Maestà monumentale d'Orsanmichele avant d'être emporté par la tragique épidémie de peste de 1348.",
-          events: [
-            {
-              year: 1347,
-              title: "Vierge à l'Enfant entourée d'anges (Tabernacle d'Orsanmichele, Florence)",
-              desc: "Sommet de l'art du Trecento achevé pour le somptueux tabernacle d'Andrea Orcagna, alliant hiératisme souverain et tendresse humaine.",
-              type: "masterpiece",
-              icon: "👑",
-              artworkId: "daddi_vierge_a_l_enfant_orsanmichele_1347"
-            },
-            {
-              year: 1348,
-              title: "Mort à Florence lors de la Grande Peste Noire",
-              desc: "La terrible épidémie qui décime Florence fauche le maître au faîte de sa gloire, marquant un tournant mystique dans tout l'art toscan.",
-              type: "death",
-              icon: "⛪"
-            }
-          ]
-        }
       ]
-    }
+}
   },
   dali: {
     id: "dali",
@@ -8396,76 +9150,208 @@ window.ARTISTS_REGISTRY = {
       }
     ]
   },
-  "biographyTimeline": {
-    "birth": {
-      "year": 1891,
-      "place": "Untermhaus près de Gera (Allemagne)",
-      "title": "Naissance d'Otto Dix",
-      "desc": "Issu d'un milieu ouvrier, il commence un apprentissage de peintre décorateur avant d'intégrer l'École des arts appliqués de Dresde."
-    },
-    "death": {
-      "year": 1969,
-      "place": "Singen (Allemagne)",
-      "title": "Mort d'Otto Dix",
-      "desc": "S'éteint au bord du lac de Constance après une carrière marquée par la confrontation sans concession avec la vérité de son siècle."
-    },
-    "periods": [
-      {
-        "title": "Expressionnisme, Dada & Choc des Tranchées",
-        "years": "1919 – 1923",
-        "color": "#e11d48",
-        "summary": "À Dresde et Berlin, Dix exorcise l'horreur des tranchées par des compositions dadaïstes et expressionnistes grinçantes.",
-        "events": [
-          {
-            "year": 1920,
-            "title": "Les Joueurs de skat",
-            "desc": "Chef-d'œuvre montrant des mutilés de guerre rapiécés jouant aux cartes."
-          }
-        ]
+  biographyTimeline: {
+      "birth": {
+            "year": 1891,
+            "place": "Untermhaus près de Gera (Thuringe, Allemagne)",
+            "title": "Naissance d'Otto Dix",
+            "desc": "Fils d'un ouvrier fondeur et d'une mère passionnée de poésie, il grandit dans un milieu prolétaire saxon qui façonnera son regard social sans concession."
       },
-      {
-        "title": "Apogée de la Nouvelle Objectivité (Neue Sachlichkeit)",
-        "years": "1924 – 1933",
-        "color": "#d4af37",
-        "summary": "Période berlinoise et professorat à Dresde. Il perfectionne sa technique des glacis sur bois et peint la société de Weimar.",
-        "events": [
-          {
-            "year": 1924,
-            "title": "Suite de gravures 'Der Krieg' (La Guerre)",
-            "desc": "Cinquante eaux-fortes dénonçant l'apocalypse des tranchées."
-          },
-          {
-            "year": 1926,
-            "title": "Portrait de la journaliste Sylvia von Harden",
-            "desc": "Icône de la femme moderne des Années folles."
-          },
-          {
-            "year": 1928,
-            "title": "Triptyque de la Grande Ville (Großstadt)",
-            "desc": "Confrontation brutale entre le luxe du jazz-club et la misère de la rue."
-          }
-        ]
+      "death": {
+            "year": 1969,
+            "place": "Singen (Bade-Wurtemberg, Allemagne)",
+            "title": "Mort d'Otto Dix",
+            "desc": "S'éteint au bord du lac de Constance après une carrière marquée par la confrontation sans compromis avec les traumatismes et les vérités crues de son siècle."
       },
-      {
-        "title": "Exil Intérieur & Paysages du Lac de Constance",
-        "years": "1933 – 1969",
-        "color": "#0284c7",
-        "summary": "Destitué par les nazis et qualifié d'artiste dégénéré, il se retire à Hemmenhofen au bord du lac de Constance.",
-        "events": [
-          {
-            "year": 1937,
-            "title": "Exposition 'Art dégénéré' à Munich",
-            "desc": "Plus de 260 œuvres de Dix sont confisquées par le régime nazi."
-          },
-          {
-            "year": 1945,
-            "title": "Mobilisation dans le Volkssturm et captivité",
-            "desc": "Fait prisonnier en France à Colmar, il est libéré en 1946."
-          }
-        ]
-      }
-    ]
-  }
+      "periods": [
+            {
+                  "title": "Apprentissage, Avant-garde & L'Apocalypse des Tranchées",
+                  "years": "1891 – 1918",
+                  "color": "#ef4444",
+                  "summary": "Marqué par ses origines ouvrières et sa formation rigoureuse à Dresde, Dix s'engage en 1914. L'expérience dantesque des combats au front occidental bouleverse son être et devient la source inépuisable de son œuvre.",
+                  "events": [
+                        {
+                              "year": 1891,
+                              "title": "Naissance à Untermhaus près de Gera",
+                              "desc": "Enfance ouvrière en Thuringe. Très tôt fasciné par le dessin, il bénéficie du soutien de son maître d'école.",
+                              "type": "birth",
+                              "icon": "🇩🇪"
+                        },
+                        {
+                              "year": 1910,
+                              "title": "Études à l'École des Arts appliqués de Dresde",
+                              "desc": "Maîtrise le dessin virtuose et les techniques artisanales, assimilant la leçon des primitifs allemands (Cranach, Dürer) et la philosophie de Nietzsche.",
+                              "type": "education",
+                              "icon": "🎨"
+                        },
+                        {
+                              "year": 1914,
+                              "title": "Engagement volontaire sur le front de Champagne",
+                              "desc": "Fasciné et terrifié par le déchaînement technologique moderne : engagé dans l'artillerie puis sous-officier mitrailleur en première ligne.",
+                              "type": "history",
+                              "icon": "⚔️"
+                        },
+                        {
+                              "year": 1915,
+                              "title": "Les carnets de croquis du front (600 dessins)",
+                              "desc": "Dans la boue des tranchées de Champagne, d'Artois et de la Somme, il dessine sans relâche la chair déchiquetée, les masques à gaz et les cratères de mines.",
+                              "type": "milestone",
+                              "icon": "📝"
+                        },
+                        {
+                              "year": 1918,
+                              "title": "Blessure grave au cou & Croix de fer en Flandre",
+                              "desc": "Miraculé des combats de l'Ourcq et de Flandre, décoré de la Croix de fer, il termine la guerre hanté par des cauchemars récurrents.",
+                              "type": "life",
+                              "icon": "🎖️"
+                        }
+                  ]
+            },
+            {
+                  "title": "L'Insoumission Dada, Les 'Gueules Cassées' & La Bohème de Dresde",
+                  "years": "1919 – 1923",
+                  "color": "#f59e0b",
+                  "summary": "De retour à Dresde, il rejoint la Sécession expressionniste et le groupe Dada. Il scandalise l'opinion en dépeignant sans fard les vétérans mutilés, les mendiants estropiés et les bordels interlopes.",
+                  "events": [
+                        {
+                              "year": 1919,
+                              "title": "Fondation de la Sécession de Dresde & Groupe 1919",
+                              "desc": "Rejoint Conrad Felixmüller et Kokoschka. Il expose ses premières œuvres pacifistes enragées.",
+                              "type": "exhibition",
+                              "icon": "🏛️"
+                        },
+                        {
+                              "year": 1920,
+                              "title": "Les Joueurs de skat (Staatliche Museen zu Berlin)",
+                              "desc": "Chef-d'œuvre grotesque montrant trois officiers mutilés, morceaux de prothèses vissées et mâchoires de fer, jouant aux cartes dans un café.",
+                              "type": "masterpiece",
+                              "icon": "🎨"
+                        },
+                        {
+                              "year": 1920,
+                              "title": "La Rue de Prague (Kunstmuseum Stuttgart)",
+                              "desc": "Collage satirique où un mutilé de guerre cul-de-jatte mendie sur le trottoir tandis que des passants bourgeois l'ignorent avec mépris.",
+                              "type": "masterpiece",
+                              "icon": "🎨"
+                        },
+                        {
+                              "year": 1922,
+                              "title": "Installation à Düsseldorf & Mariage avec Martha Koch",
+                              "desc": "Rejoint le cercle de la marchande d'art avant-gardiste Johanna Ey. Il épouse Martha Koch, qui restera sa muse et complice.",
+                              "type": "life",
+                              "icon": "💍"
+                        },
+                        {
+                              "year": 1923,
+                              "title": "La Tranchée (Der Schützengraben)",
+                              "desc": "Toile monumentale d'une violence insoutenable figurant un charnier de tranchée déchiqueté, acquise puis violemment contestée au musée de Cologne.",
+                              "type": "masterpiece",
+                              "icon": "🎨"
+                        }
+                  ]
+            },
+            {
+                  "title": "L'Apogée de la Nouvelle Objectivité (Neue Sachlichkeit) & Les Années Folles",
+                  "years": "1924 – 1932",
+                  "color": "#10b981",
+                  "summary": "Considéré comme le chef de file de la Nouvelle Objectivité, Dix perfectionne sa technique des glacis à l'huile et détrempe sur panneau de bois, rivalisant avec Grünewald et Cranach pour radiographier la République de Weimar.",
+                  "events": [
+                        {
+                              "year": 1924,
+                              "title": "Portfolio 'Der Krieg' (50 eaux-fortes)",
+                              "desc": "Sommet absolu de la gravure moderne, suite d'eaux-fortes comparée aux 'Désastres de la guerre' de Goya, publiée par Karl Nierendorf.",
+                              "type": "masterpiece",
+                              "icon": "🖤"
+                        },
+                        {
+                              "year": 1925,
+                              "title": "L'Exposition historique 'Neue Sachlichkeit' à Mannheim",
+                              "desc": "Gustav Friedrich Hartlaub consacre Dix, Beckmann et Grosz comme les phares du nouveau réalisme social sans complaisance.",
+                              "type": "history",
+                              "icon": "📜"
+                        },
+                        {
+                              "year": 1926,
+                              "title": "Portrait de la journaliste Sylvia von Harden (Musée national d'art moderne, Paris)",
+                              "desc": "Icône absolue de la femme émancipée des Années folles : monocle, cigarette, robe à damier et coupe garçonne dans un café berlinois.",
+                              "type": "masterpiece",
+                              "icon": "🎨"
+                        },
+                        {
+                              "year": 1927,
+                              "title": "Nommé Professeur à l'Académie des Beaux-Arts de Dresde",
+                              "desc": "Reconnaissance institutionnelle prestigieuse. Il forme une nouvelle génération de peintres tout en poursuivant ses toiles sans compromis.",
+                              "type": "milestone",
+                              "icon": "🎓"
+                        },
+                        {
+                              "year": 1928,
+                              "title": "Triptyque de la Grande Ville (Großstadt, Kunstmuseum Stuttgart)",
+                              "desc": "Retable profane grandiose opposant le jazz-band et le luxe tapageur de l'élite berlinoise aux vétérans infirmes grelottant sous la pluie.",
+                              "type": "masterpiece",
+                              "icon": "🎨"
+                        },
+                        {
+                              "year": 1932,
+                              "title": "Le Triptyque de la Guerre (Der Krieg, Galerie Neue Meister, Dresde)",
+                              "desc": "Inspiré directement du Retable d'Issenheim de Grünewald : apocalypse chimique, cadavres suspendus aux barbelés et prédelle mortuaire.",
+                              "type": "masterpiece",
+                              "icon": "🎨"
+                        }
+                  ]
+            },
+            {
+                  "title": "Persécution Nazie, 'Art Dégénéré', Exil Intérieur & Derniers Paysages",
+                  "years": "1933 – 1969",
+                  "color": "#6366f1",
+                  "summary": "Destitué de son poste de professeur dès 1933, stigmatisé par le régime hitlérien et interdit d'exposer, Dix s'exile sur les rives du lac de Constance, peignant des paysages allégoriques avant de retrouver une touche expressive d'après-guerre.",
+                  "events": [
+                        {
+                              "year": 1933,
+                              "title": "Destitution par les nazis & Interdiction d'enseigner",
+                              "desc": "Parmi les premiers professeurs révoqués pour 'atteinte morale à la nation allemande et pacifisme criminel'.",
+                              "type": "history",
+                              "icon": "🚫"
+                        },
+                        {
+                              "year": 1936,
+                              "title": "Retraite forcée à Hemmenhofen (Lac de Constance)",
+                              "desc": "Exil intérieur en pleine campagne souabe. Il se consacre aux paysages brumeux et aux thèmes bibliques cryptés dénonçant la tyrannie.",
+                              "type": "life",
+                              "icon": "🏡"
+                        },
+                        {
+                              "year": 1937,
+                              "title": "Exposition infamante de 'l'Art dégénéré' (Entartete Kunst) à Munich",
+                              "desc": "260 œuvres de Dix sont saisies dans les musées allemands ; ses chefs-d'œuvre sont cloués au pilori et plusieurs sont brûlés.",
+                              "type": "history",
+                              "icon": "🔥"
+                        },
+                        {
+                              "year": 1939,
+                              "title": "Arrestation par la Gestapo après l'attentat de Bürgerbräukeller",
+                              "desc": "Incarcéré deux semaines à Dresde, soupçonné de complicité dans l'attentat de Georg Elser contre Hitler, puis relâché faute de preuves.",
+                              "type": "life",
+                              "icon": "⛓️"
+                        },
+                        {
+                              "year": 1945,
+                              "title": "Enrôlement dans le Volkssturm & Captivité à Colmar",
+                              "desc": "Enrôlé de force à 53 ans dans les derniers combats, fait prisonnier par l'armée française, il peint pour le commandant du camp avant sa libération en 1946.",
+                              "type": "history",
+                              "icon": "🇫🇷"
+                        },
+                        {
+                              "year": 1959,
+                              "title": "Grand-Croix du Mérite de la RFA & Hommages internationaux",
+                              "desc": "Consécration nationale et rétrospectives internationales en Allemagne de l'Ouest comme de l'Est, saluant l'œil le plus lucide du siècle.",
+                              "type": "milestone",
+                              "icon": "🎖️"
+                        }
+                  ]
+            }
+      ]
+}
 },
 
   "dore": {
@@ -8500,71 +9386,152 @@ window.ARTISTS_REGISTRY = {
       }
     ]
   },
-  "biographyTimeline": {
-    "birth": {
-      "year": 1832,
-      "place": "Strasbourg (France)",
-      "title": "Naissance de Gustave Doré",
-      "desc": "Fils d'un ingénieur des ponts et chaussées. Dessinateur prodige publiant ses premières lithographies à l'âge de 15 ans à Paris."
-    },
-    "death": {
-      "year": 1883,
-      "place": "Paris (France)",
-      "title": "Mort de Gustave Doré",
-      "desc": "Meurt prématurément à 51 ans d'une crise cardiaque dans son hôtel particulier parisien."
-    },
-    "periods": [
-      {
-        "title": "L'Essor de l'Illustrateur Prodige",
-        "years": "1850 – 1869",
-        "color": "#0284c7",
-        "summary": "Doré devient le maître incontesté de l'illustration européenne avec Dante, Rabelais, Perrault et la Bible.",
-        "events": [
-          {
-            "year": 1861,
-            "title": "L'Enfer de Dante",
-            "desc": "Triomphe éditorial magistral qui consacre sa renommée mondiale."
-          },
-          {
-            "year": 1866,
-            "title": "La Sainte Bible illustrée",
-            "desc": "Chef-d'œuvre graphique monumental traduit et diffusé dans le monde entier."
-          }
-        ]
+  biographyTimeline: {
+      "birth": {
+            "year": 1832,
+            "place": "Strasbourg (Alsace, France)",
+            "title": "Naissance de Gustave Doré",
+            "desc": "Prodige alsacien autodidacte, dessinateur génial doté d'une mémoire visuelle prodigieuse, il devient le plus grand illustrateur universel du XIXe siècle."
       },
-      {
-        "title": "L'Ambition Picturale & La Doré Gallery",
-        "years": "1868 – 1878",
-        "color": "#d4af37",
-        "summary": "Face aux réticences de la critique française, Doré triomphe à Londres où s'ouvre la prestigieuse Doré Gallery de New Bond Street.",
-        "events": [
-          {
-            "year": 1872,
-            "title": "London: A Pilgrimage",
-            "desc": "Plongée saisissante dans les bas-fonds londoniens avec Blanchard Jerrold."
-          },
-          {
-            "year": 1874,
-            "title": "Le Christ quittant le prétoire",
-            "desc": "Toile monumentale de 6 mètres sur 9 suscitant la ferveur du public londonien."
-          }
-        ]
+      "death": {
+            "year": 1883,
+            "place": "Paris (France)",
+            "title": "Mort de Gustave Doré",
+            "desc": "Foudroyé par une crise cardiaque à 51 ans, épuisé par une production herculéenne de toiles monumentales, sculptures et gravures visionnaires."
       },
-      {
-        "title": "Paysages Sublimes & Retraite Alpine",
-        "years": "1875 – 1883",
-        "color": "#2ecc71",
-        "summary": "Amoureux de la haute montagne, il parcourt l'Écosse, la Savoie et les Vosges pour immortaliser la majesté sauvage des cimes.",
-        "events": [
-          {
-            "year": 1875,
-            "title": "Paysage de montagne (Rouen)",
-            "desc": "Étude romantique de résineux et de pics rocheux brumeux."
-          }
-        ]
-      }
-    ]
-  }
+      "periods": [
+            {
+                  "title": "L'Enfant Prodige de Strasbourg & Le Sacre de la Gravure Parisienne",
+                  "years": "1832 – 1860",
+                  "color": "#0284c7",
+                  "summary": "Monté à Paris à quinze ans, il révolutionne l'art de l'illustration et la gravure sur bois de bout, subjuguant le public par sa virtuosité fantastique et sa démesure.",
+                  "events": [
+                        {
+                              "year": 1832,
+                              "title": "Naissance à Strasbourg",
+                              "desc": "Fils d'un ingénieur des Ponts et Chaussées. Dès cinq ans, il stupéfie son entourage par ses croquis satiriques.",
+                              "type": "birth",
+                              "icon": "🇫🇷"
+                        },
+                        {
+                              "year": 1847,
+                              "title": "Arrivée à Paris & Contrat avec Charles Philipon",
+                              "desc": "À quinze ans, il présente ses dessins au directeur du Journal pour rire, qui lui signe immédiatement un contrat régulier.",
+                              "type": "milestone",
+                              "icon": "📰"
+                        },
+                        {
+                              "year": 1854,
+                              "title": "L'Histoire pittoresque de la Sainte Russie",
+                              "desc": "Pamphlet satirique génial préfigurant la bande dessinée moderne par son dynamisme graphique débridé.",
+                              "type": "masterpiece",
+                              "icon": "📖"
+                        },
+                        {
+                              "year": 1855,
+                              "title": "Les Contes drolatiques de Balzac",
+                              "desc": "425 gravures sur bois ressuscitant le Moyen Âge gouailleur et grotesque, unanimement salué par Théophile Gautier.",
+                              "type": "masterpiece",
+                              "icon": "🎨"
+                        },
+                        {
+                              "year": 1859,
+                              "title": "Reportage de guerre en Italie (Bataille de Solférino)",
+                              "desc": "Envoyé par Napoléon III pour croquer les champs de bataille sanglants de la campagne d'Italie.",
+                              "type": "history",
+                              "icon": "⚔️"
+                        }
+                  ]
+            },
+            {
+                  "title": "Les Chefs-d'Œuvre Visionnaires : Dante, La Bible & Don Quichotte",
+                  "years": "1861 – 1870",
+                  "color": "#f59e0b",
+                  "summary": "Doré édifie les monuments de l'imaginaire occidental : Enfer de Dante, Bible monumentale, Don Quichotte et Perrault imprègnent définitivement la conscience visuelle planétaire.",
+                  "events": [
+                        {
+                              "year": 1861,
+                              "title": "L'Enfer de Dante Alighieri",
+                              "desc": "Publié à ses frais après le refus des éditeurs : succès foudroyant, vision hallucinée des cercles infernaux qui devient la référence mondiale.",
+                              "type": "masterpiece",
+                              "icon": "🔥"
+                        },
+                        {
+                              "year": 1862,
+                              "title": "Les Contes de Perrault",
+                              "desc": "Fixe à jamais dans la mémoire collective les silhouettes du Petit Chaperon Rouge, du Chat botté et de Barbe-Bleue.",
+                              "type": "masterpiece",
+                              "icon": "✨"
+                        },
+                        {
+                              "year": 1863,
+                              "title": "Don Quichotte de Cervantès",
+                              "desc": "Voyage en Espagne avec le baron Davillier : 370 compositions créant le visage canonique du chevalier à la triste figure.",
+                              "type": "masterpiece",
+                              "icon": "🇪🇸"
+                        },
+                        {
+                              "year": 1866,
+                              "title": "La Sainte Bible illustrée (Bible de Tours)",
+                              "desc": "Monument éditorial mondial en deux tomes géants, traduit dans toutes les langues, tiré à des millions d'exemplaires.",
+                              "type": "masterpiece",
+                              "icon": "📜"
+                        },
+                        {
+                              "year": 1868,
+                              "title": "Inauguration de la Doré Gallery à Londres",
+                              "desc": "Triomphe phénoménal à New Bond Street : ses toiles monumentales attirent des foules immenses pendant plus de vingt ans.",
+                              "type": "history",
+                              "icon": "🇬🇧"
+                        }
+                  ]
+            },
+            {
+                  "title": "Le Drame de 1870, Les Enfers Industriels de Londres & Le Peintre Sublime",
+                  "years": "1871 – 1883",
+                  "color": "#ef4444",
+                  "summary": "Meurtri par la perte de son Alsace natale en 1870, Doré s'adonne aux toiles monumentales religieuses, explore la misère victorienne à Londres et peint les cimes sublimes des Alpes et d'Écosse.",
+                  "events": [
+                        {
+                              "year": 1870,
+                              "title": "Siège de Paris & Garde National",
+                              "desc": "Engagé dans la défense de la capitale assaillie par les Prussiens ; il peint Le Chêne noir et La Défense de Paris.",
+                              "type": "history",
+                              "icon": "💣"
+                        },
+                        {
+                              "year": 1872,
+                              "title": "London: A Pilgrimage avec Blanchard Jerrold",
+                              "desc": "Plongée saisissante dans les bas-fonds londoniens, les docks fuligineux et les asiles de nuit, qui bouleverse Vincent van Gogh.",
+                              "type": "masterpiece",
+                              "icon": "🏭"
+                        },
+                        {
+                              "year": 1874,
+                              "title": "Le Christ quittant le prétoire (Musée d'Art moderne de Strasbourg)",
+                              "desc": "Toile gigantesque de 6 mètres sur 9, chef-d'œuvre de théâtralité religieuse acclamé par les foules à Londres et New York.",
+                              "type": "masterpiece",
+                              "icon": "🎨"
+                        },
+                        {
+                              "year": 1878,
+                              "title": "Paysage de montagne (Musée des Beaux-Arts de Rouen)",
+                              "desc": "Sommet de son art paysagiste romantique : confrontation grandiose entre la roche escarpée, la forêt de conifères et les cimes célestes.",
+                              "type": "masterpiece",
+                              "icon": "🏔️",
+                              "artworkId": "dore_paysage_montagne_rouen"
+                        },
+                        {
+                              "year": 1883,
+                              "title": "Mort subite à Paris & Hommage universel",
+                              "desc": "S'éteint rue Saint-Dominique alors qu'il achevait les illustrations du Corbeau d'Edgar Allan Poe.",
+                              "type": "life",
+                              "icon": "⚰️"
+                        }
+                  ]
+            }
+      ]
+}
 },
 
   "dubuffet": {
@@ -8599,81 +9566,191 @@ window.ARTISTS_REGISTRY = {
       }
     ]
   },
-  "biographyTimeline": {
-    "birth": {
-      "year": 1901,
-      "place": "Le Havre (France)",
-      "title": "Naissance de Jean Dubuffet",
-      "desc": "Issu d'une famille de négociants en vin. S'initie à l'art à l'École des Beaux-Arts du Havre puis à l'Académie Julian à Paris."
-    },
-    "death": {
-      "year": 1985,
-      "place": "Paris (France)",
-      "title": "Mort de Jean Dubuffet",
-      "desc": "S'éteint à Paris à l'âge de 83 ans, laissant l'une des œuvres les plus révolutionnaires du siècle."
-    },
-    "periods": [
-      {
-        "title": "Les Hautes Pâtes & L'Art Brut",
-        "years": "1942 – 1961",
-        "color": "#b45309",
-        "summary": "Dubuffet forge la notion d'Art Brut et élabore ses célèbres séries matiéristes de portraits, paysages du sol et vaches.",
-        "events": [
-          {
-            "year": 1948,
-            "title": "Fondation de la Compagnie de l'Art Brut",
-            "desc": "Avec André Breton et Jean Paulhan pour collectionner et faire reconnaître les arts spontanés."
-          },
-          {
-            "year": 1954,
-            "title": "Série des Vaches (Manosque / Paris)",
-            "desc": "Création de Vache la belle queutée, sommet de jubilatoire dérision rustique."
-          },
-          {
-            "year": 1958,
-            "title": "Série des Texturologies",
-            "desc": "Exploration des micro-terrains et du sol par la technique du tyrolage (MBA Rouen)."
-          }
-        ]
+  biographyTimeline: {
+      "birth": {
+            "year": 1901,
+            "place": "Le Havre (Normandie, France)",
+            "title": "Naissance de Jean Dubuffet",
+            "desc": "Fils d'un négociant en vin havrais. Révolté contre la culture académique et l'art 'asphyxiant', il fonde le concept d'Art Brut et bouleverse l'art moderne."
       },
-      {
-        "title": "Le Cycle de l'Hourloupe",
-        "years": "1962 – 1974",
-        "color": "#2563eb",
-        "summary": "Cycle mythique de douze années déployant un réseau infini d'alvéoles colorées en rouge, bleu et blanc.",
-        "events": [
-          {
-            "year": 1962,
-            "title": "Invention de l'Hourloupe",
-            "desc": "Gribouillages téléphoniques au stylo bille devenus un univers plastique total."
-          },
-          {
-            "year": 1973,
-            "title": "Coucou Bazar",
-            "desc": "Spectacle total d art vivant au musée Guggenheim de New York."
-          }
-        ]
+      "death": {
+            "year": 1985,
+            "place": "Paris (France)",
+            "title": "Mort de Jean Dubuffet",
+            "desc": "S'éteint à 83 ans après avoir légué une œuvre colossale d'inventions plastiques, textuelles et architecturales."
       },
-      {
-        "title": "Théâtres de mémoire, Mires & Non-Lieux",
-        "years": "1975 – 1985",
-        "color": "#7c3aed",
-        "summary": "Ultimes séries radicales où l'artiste abolit tout repère figuratif au profit d'un jaillissement d'énergie mentale.",
-        "events": [
-          {
-            "year": 1982,
-            "title": "Site avec 2 personnages (Site aléatoire F 106)",
-            "desc": "Déambulation mentale brute et intuitive (Musée d'Arts de Nantes)."
-          },
-          {
-            "year": 1984,
-            "title": "Champ d'expansion (Non-lieu L 33)",
-            "desc": "Filaments électriques primaires sur fond noir abyssal (Musée d'Arts de Nantes)."
-          }
-        ]
-      }
-    ]
-  }
+      "periods": [
+            {
+                  "title": "Le Rejet des Beaux-Arts, Le Vin & La Révélation Tardive",
+                  "years": "1901 – 1944",
+                  "color": "#f59e0b",
+                  "summary": "Après des débuts contrariés et deux abandons complets de la peinture pour reprendre le commerce du vin familial, Dubuffet choisit définitivement l'art en pleine Seconde Guerre mondiale.",
+                  "events": [
+                        {
+                              "year": 1901,
+                              "title": "Naissance au Havre",
+                              "desc": "Grandit dans une famille bourgeoise normande. Amitié précoce avec Georges Limbour et Raymond Queneau.",
+                              "type": "birth",
+                              "icon": "🇫🇷"
+                        },
+                        {
+                              "year": 1918,
+                              "title": "Arrivée à Paris & Académie Julian",
+                              "desc": "Quitte l'académie au bout de six mois, jugeant l'enseignement étriqué, pour s'instruire en solitaire en littérature et linguistique.",
+                              "type": "education",
+                              "icon": "📚"
+                        },
+                        {
+                              "year": 1924,
+                              "title": "Premier abandon : Voyage à Buenos Aires & Commerce",
+                              "desc": "Doutant de la valeur de l'art, il part en Argentine puis reprend le négoce familial de vin au Havre.",
+                              "type": "life",
+                              "icon": "🍷"
+                        },
+                        {
+                              "year": 1942,
+                              "title": "L'Appel irréversible : Atelier de la rue Lhomond",
+                              "desc": "Sous l'Occupation, il liquide ses affaires commerciales et se consacre exclusivement à la création picturale.",
+                              "type": "milestone",
+                              "icon": "🎨"
+                        },
+                        {
+                              "year": 1944,
+                              "title": "Première exposition scandale à la Galerie René Drouin",
+                              "desc": "Exposition inaugurale qui déclenche un tollé médiatique par ses figures enfantines maladroites et ses couleurs crues.",
+                              "type": "exhibition",
+                              "icon": "⚡"
+                        }
+                  ]
+            },
+            {
+                  "title": "L'Invention de l'Art Brut, Les Hautes Pâtes & Les Matériologies",
+                  "years": "1945 – 1961",
+                  "color": "#10b981",
+                  "summary": "Théorisant l'Art Brut lors de ses voyages en Suisse, Dubuffet triture la matière : sable, gravier, goudron, ailes de papillons et poussière deviennent le sol nourricier d'une peinture tellurique.",
+                  "events": [
+                        {
+                              "year": 1945,
+                              "title": "Voyage fondateur en Suisse & Naissance du terme 'Art Brut'",
+                              "desc": "Visite des hôpitaux psychiatriques avec Paulhan et Le Corbusier ; il découvre Aloïse Corbaz et Adolf Wölfli.",
+                              "type": "milestone",
+                              "icon": "💡"
+                        },
+                        {
+                              "year": 1946,
+                              "title": "Exposition des 'Mirobolus, Macadam et Cie, Hautes Pâtes'",
+                              "desc": "Mastic, chaux, goudron et ficelle triturés sur la toile créent une déflagration esthétique majeure à Paris.",
+                              "type": "exhibition",
+                              "icon": "🏛️"
+                        },
+                        {
+                              "year": 1947,
+                              "title": "Création du Foyer de l'Art Brut & Séjours au Sahara",
+                              "desc": "Trois voyages prolongés à El Goléa dans le désert algérien : fascination pour la terre nue, la calligraphie arabe et les bédouins.",
+                              "type": "life",
+                              "icon": "🏜️"
+                        },
+                        {
+                              "year": 1954,
+                              "title": "Série des Vaches & La Belle queutée (Tokyo, Ohara Museum)",
+                              "desc": "Célébration burlesque et cosmique de la bête ruminante aux yeux candides, peinte avec une pâte épaisse et savoureuse.",
+                              "type": "masterpiece",
+                              "icon": "🐄",
+                              "artworkId": "dubuffet_vache_la_belle_queutee_tokyo_1954"
+                        },
+                        {
+                              "year": 1958,
+                              "title": "Cycle des Texturologies & Texturologie duveteuse (Rouen)",
+                              "desc": "Exploration microscopique du sol minéral, semis de gouttelettes pulvérisées évoquant poussière cosmique et texture du réel.",
+                              "type": "masterpiece",
+                              "icon": "🌌",
+                              "artworkId": "dubuffet_texturologie_duveteuse_rouen_1958"
+                        }
+                  ]
+            },
+            {
+                  "title": "Le Cycle Gigantesque de L'Hourloupe & L'Architecture Peinte",
+                  "years": "1962 – 1974",
+                  "color": "#0284c7",
+                  "summary": "Inspiré par des gribouillages au stylo bille rouge et bleu en téléphonant, Dubuffet invente un univers graphique continu en alvéoles qui envahit la sculpture et l'espace monumental.",
+                  "events": [
+                        {
+                              "year": 1962,
+                              "title": "L'Étincelle de L'Hourloupe au stylo bille",
+                              "desc": "Naissance fortuite d'un langage cellulaire strié de blanc, rouge, bleu et noir qui occupera douze années de sa vie.",
+                              "type": "milestone",
+                              "icon": "🖊️"
+                        },
+                        {
+                              "year": 1967,
+                              "title": "Le Passage aux trois dimensions : Le Polystyrène expansé",
+                              "desc": "Découpe au fil chaud le polystyrène et le recouvre de résine époxy, créant des sculptures praticables.",
+                              "type": "milestone",
+                              "icon": "🗿"
+                        },
+                        {
+                              "year": 1971,
+                              "title": "La Donation de la Collection d'Art Brut à Lausanne",
+                              "desc": "Fait don de sa collection historique inestimable de milliers d'œuvres d'Art Brut à la Ville de Lausanne (Château de Beaulieu).",
+                              "type": "history",
+                              "icon": "🏰"
+                        },
+                        {
+                              "year": 1973,
+                              "title": "Le spectacle 'Coucou Bazar' & Rétrospective Guggenheim",
+                              "desc": "Ballet de 'praticables' animés et costumes sculptés présenté à New York et Paris au Grand Palais.",
+                              "type": "masterpiece",
+                              "icon": "🎭"
+                        },
+                        {
+                              "year": 1974,
+                              "title": "La Tour aux figures (Parc de l'Île Saint-Germain)",
+                              "desc": "Édifice monumental habitable de 24 mètres de hauteur aux parois sinueuses parcourues d'alvéoles colorées.",
+                              "type": "masterpiece",
+                              "icon": "🗼"
+                        }
+                  ]
+            },
+            {
+                  "title": "Théâtres de Mémoire, Mires & Non-Lieux : L'Ultime Dépouillement",
+                  "years": "1975 – 1985",
+                  "color": "#8b5cf6",
+                  "summary": "Dans sa dernière décennie, Dubuffet revient au papier et à la toile avec une énergie convulsive : collages géants, entrelacs de traits vifs et méditation sur le Non-Lieu.",
+                  "events": [
+                        {
+                              "year": 1975,
+                              "title": "Cycle des Théâtres de mémoire",
+                              "desc": "Immenses assemblages polyphoniques de fragments d'images découpées et superposées comme les strates de la pensée.",
+                              "type": "masterpiece",
+                              "icon": "🧩"
+                        },
+                        {
+                              "year": 1982,
+                              "title": "Site avec 2 personnages F106 (Musée d'Arts de Nantes)",
+                              "desc": "Acrylique nerveuse sur papier marouflé où deux silhouettes humaines émergent d'une vibration graphique pure.",
+                              "type": "masterpiece",
+                              "icon": "🎨",
+                              "artworkId": "dubuffet_site_avec_2_personnages_f106_nantes_1982"
+                        },
+                        {
+                              "year": 1984,
+                              "title": "Pavillon français de la Biennale de Venise & Champ d'expansion (Nantes)",
+                              "desc": "Représente la France avec la série vertigineuse des Mires et Non-Lieux, abolissant toute figuration au profit d'un espace mental infini.",
+                              "type": "masterpiece",
+                              "icon": "🇮🇹",
+                              "artworkId": "dubuffet_champ_expansion_non_lieu_l33_nantes_1984"
+                        },
+                        {
+                              "year": 1985,
+                              "title": "Publication de la 'Biographie au pas de course' & Mort à Paris",
+                              "desc": "Rédige en quelques semaines son autobiographie définitive avant de s'éteindre le 12 mai 1985 à Paris.",
+                              "type": "life",
+                              "icon": "✍️"
+                        }
+                  ]
+            }
+      ]
+}
 },
 
   "duccio": {
@@ -8708,61 +9785,144 @@ window.ARTISTS_REGISTRY = {
       }
     ]
   },
-  "biographyTimeline": {
-    "birth": {
-      "year": 1255,
-      "place": "Sienne (Toscane)",
-      "title": "Naissance de Duccio di Buoninsegna",
-      "desc": "Première mention documentaire en 1278 dans les registres de la commune de Sienne pour la peinture de coffres officiels (Biccherne)."
-    },
-    "death": {
-      "year": 1319,
-      "place": "Sienne (Toscane)",
-      "title": "Mort de Duccio di Buoninsegna",
-      "desc": "Ses enfants renoncent à son héritage grevé de dettes, mais son œuvre fonde l'âge d'or de la peinture siennoise."
-    },
-    "periods": [
-      {
-        "title": "La Vierge Rucellai & L'Affirmation Florentine",
-        "years": "1280 – 1295",
-        "color": "#0284c7",
-        "summary": "Commande prestigieuse pour l'église florentine Santa Maria Novella, manifestant une rupture précoce avec la sévérité byzantine.",
-        "events": [
-          {
-            "year": 1285,
-            "title": "La Madone Rucellai",
-            "desc": "Chef-d'œuvre commandé par la confrérie des Laudesi, conservé aujourd'hui aux Offices."
-          }
-        ]
+  biographyTimeline: {
+      "birth": {
+            "year": 1255,
+            "place": "Sienne (République de Sienne, Toscane)",
+            "title": "Naissance de Duccio di Buoninsegna",
+            "desc": "Premier grand maître de l'école siennoise, il révolutionne la tradition byzantine par une grâce linéaire, une douceur chromatique et une humanité inédites."
       },
-      {
-        "title": "Petits Panneaux de Dévotion & Intimité Sacrée",
-        "years": "1295 – 1307",
-        "color": "#d4af37",
-        "summary": "Duccio développe une tendresse gestuelle et un raffinement chromatique inédits dans des retables intimes.",
-        "events": [
-          {
-            "year": 1300,
-            "title": "La Madone des Franciscains",
-            "desc": "Les petits frères franciscains se blottissent avec humilité sous le manteau de la Vierge."
-          }
-        ]
+      "death": {
+            "year": 1319,
+            "place": "Sienne (Toscane)",
+            "title": "Mort de Duccio di Buoninsegna",
+            "desc": "Inhumé à Sienne après avoir fondé une dynastie stylistique éclatante qui inspirera Simone Martini et les frères Lorenzetti."
       },
-      {
-        "title": "Le Triomphe de la Maestà",
-        "years": "1308 – 1311",
-        "color": "#b91c1c",
-        "summary": "Réalisation du retable monumental destiné au maître-autel de la cathédrale de Sienne, apogée de la peinture gothique italienne.",
-        "events": [
-          {
-            "year": 1311,
-            "title": "Translation solennelle de la Maestà",
-            "desc": "Portée en procession triomphale à travers la cité de Sienne au son des cloches et des trompettes."
-          }
-        ]
-      }
-    ]
-  }
+      "periods": [
+            {
+                  "title": "L'Affranchissement de la Maniera Greca & Les Débuts Siennois",
+                  "years": "1255 – 1285",
+                  "color": "#f59e0b",
+                  "summary": "Probablement formé au contact de Cimabue, Duccio s'impose comme le peintre le plus novateur de Sienne, mêlant le hiératisme byzantin à la souplesse du gothique français.",
+                  "events": [
+                        {
+                              "year": 1255,
+                              "title": "Naissance à Sienne",
+                              "desc": "Grandit au cœur de la République siennoise florissante, rivale farouche de Florence.",
+                              "type": "birth",
+                              "icon": "🇮🇹"
+                        },
+                        {
+                              "year": 1278,
+                              "title": "Première mention officielle : Les Tavolette de Biccherna",
+                              "desc": "Payé par la commune de Sienne pour peindre les coffres et registres comptables de l'administration financière républicaine.",
+                              "type": "milestone",
+                              "icon": "📜"
+                        },
+                        {
+                              "year": 1280,
+                              "title": "Tempérament rebelle & Amendes municipales répétées",
+                              "desc": "Les archives siennoises attestent de nombreuses amendes pour refus de prêter serment d'allégeance au Capitaine du Peuple ou dettes impayées.",
+                              "type": "life",
+                              "icon": "⚖️"
+                        },
+                        {
+                              "year": 1285,
+                              "title": "Commande de la Madone Rucellai à Florence (Offices)",
+                              "desc": "Commandée par la confrérie des Laudesi pour Santa Maria Novella : chef-d'œuvre magistral surpassant Cimabue par l'ondulation d'or du manteau de la Vierge.",
+                              "type": "masterpiece",
+                              "icon": "🎨"
+                        }
+                  ]
+            },
+            {
+                  "title": "La Maturité Polyptyque & Le Grand Vitrail du Duomo",
+                  "years": "1286 – 1307",
+                  "color": "#10b981",
+                  "summary": "Établi à la tête d'un atelier prospère, Duccio conçoit les plus prestigieux chefs-d'œuvre de dévotion toscans et le vitrail monumental de la cathédrale de Sienne.",
+                  "events": [
+                        {
+                              "year": 1288,
+                              "title": "Carton du Vitrail circulaire du Duomo de Sienne",
+                              "desc": "Conçoit l'immense oculus du chœur de la cathédrale dédié à la Mort, l'Assomption et le Couronnement de la Vierge, jalon suprême du vitrail italien.",
+                              "type": "masterpiece",
+                              "icon": "✨"
+                        },
+                        {
+                              "year": 1295,
+                              "title": "Consultant officiel pour les chantiers de la République",
+                              "desc": "Nommé expert municipal pour décider de l'implantation de la fontaine publique de Fonte Nova.",
+                              "type": "history",
+                              "icon": "🏛️"
+                        },
+                        {
+                              "year": 1300,
+                              "title": "Madone des Franciscains (Pinacoteca Nazionale, Sienne)",
+                              "desc": "Petit panneau intime où trois frères franciscains s'abritent sous les plis protecteurs du manteau virginal.",
+                              "type": "masterpiece",
+                              "icon": "🎨"
+                        },
+                        {
+                              "year": 1302,
+                              "title": "Polyptyque pour la chapelle des Neuf au Palazzo Pubblico",
+                              "desc": "Commande prestigieuse du gouvernement républicain des Neuf pour le siège du pouvoir politique siennois.",
+                              "type": "masterpiece",
+                              "icon": "🏛️"
+                        },
+                        {
+                              "year": 1304,
+                              "title": "Polyptyque n° 28 (Pinacoteca Nazionale de Sienne)",
+                              "desc": "Retable polyptyque attestant de la transition vers des architectures gothiques tréflées et une monumentalité paisible.",
+                              "type": "masterpiece",
+                              "icon": "🎨"
+                        }
+                  ]
+            },
+            {
+                  "title": "Le Triomphe de la Maestà & La Gloire Siennoise",
+                  "years": "1308 – 1319",
+                  "color": "#6366f1",
+                  "summary": "Réalisation du plus grandiose retable de la chrétienté médiévale, peint recto-verso pour le maître-autel de la cathédrale, porté en triomphe au son des cloches.",
+                  "events": [
+                        {
+                              "year": 1308,
+                              "title": "Signature du contrat monumental de la Maestà",
+                              "desc": "Contrat d'une exigence absolue rédigé par Jacopo di messer Gilberto : Duccio s'engage à exécuter le panneau de sa propre main sans interruption.",
+                              "type": "milestone",
+                              "icon": "📜"
+                        },
+                        {
+                              "year": 1310,
+                              "title": "Élaboration des 26 panneaux narratifs de la Passion",
+                              "desc": "Au revers de la Maestà, il développe un sens dramatique bouleversant dans la Montée au Calvaire et la Crucifixion.",
+                              "type": "milestone",
+                              "icon": "🎨"
+                        },
+                        {
+                              "year": 1311,
+                              "title": "La Procession triomphale du 9 juin 1311",
+                              "desc": "Toute la ville de Sienne, boutiques fermées et cierges allumés, accompagne la Maestà depuis l'atelier de Duccio jusqu'à la cathédrale au son des trompettes.",
+                              "type": "history",
+                              "icon": "🎺"
+                        },
+                        {
+                              "year": 1311,
+                              "title": "La célèbre inscription de dédicace sur le trône",
+                              "desc": "Duccio inscrit sur le marchepied : 'Sainte Mère de Dieu, donne la paix à Sienne et la vie à Duccio qui t'a ainsi peinte'.",
+                              "type": "masterpiece",
+                              "icon": "✍️"
+                        },
+                        {
+                              "year": 1319,
+                              "title": "Mort à Sienne & Rayonnement européen de son style",
+                              "desc": "Ses sept enfants renoncent à la succession criblée de dettes, mais son génie fonde le prestige international du Trecento siennois.",
+                              "type": "life",
+                              "icon": "⚰️"
+                        }
+                  ]
+            }
+      ]
+}
 },
   "duchamp": {
   "id": "duchamp",
