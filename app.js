@@ -3744,6 +3744,12 @@ const DOMAIN_ICONS = {
 // Liaison sélective : sélection typologique équilibrée par grands domaines (sculpture, peinture, céramique, funéraire, orfèvrerie)
 window.addEventListener('DOMContentLoaded', () => {
   if (window.ART_OBJECTS && window.ART_OBJECTS.length > 0) {
+    // Normalisation préventive des images (fallback image / img vers imgSrc)
+    window.ART_OBJECTS.forEach(art => {
+      if (!art.imgSrc && (art.image || art.img)) {
+        art.imgSrc = art.image || art.img;
+      }
+    });
     const domainPriority = [
       "architecture",
       "sculpture_statuaire",

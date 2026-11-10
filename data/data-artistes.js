@@ -2,6 +2,268 @@
    REGISTRE DES PEINTRES & NOTICES MONOGRAPHIQUES
    ========================================================================== */
 window.ARTISTS_REGISTRY = {
+  "grosz": {
+    "id": "grosz",
+    "name": "Grosz George",
+    "sortName": "Grosz George",
+    "sortLetter": "G",
+    "dates": "1893 – 1959",
+    "movement": "Dadaïsme berlinois, Nouvelle Objectivité (Neue Sachlichkeit) & Satire expressionniste",
+    "nationality": "Allemand (naturalisé américain)",
+    "techniques": "Huile sur toile, photomontage dada, aquarelle corrosive, encre de Chine, lithographie",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczP2KdA-lf2d3RmpjqM8f8Gg6StDp7nFxJQ2OvLcC6GIyz0SjAHhuDPttxATu0hRmEEPJRXWNyfnlArPBX-1c-4Vv9zmBLi0CmreAhqH9rfOKb_y85OMy3-LMiIFW8JA0fq3L3yyC1TLXQR9Wr21GKL-Vg=w1681-h713-s-no-gm?authuser=0",
+    "bio": "<p>George Grosz (1893 – 1959) est le grand scalpel satirique de la république de Weimar, cofondateur du mouvement Dada berlinois et figure incontournable de la Nouvelle Objectivité (Neue Sachlichkeit). Révolté par l'absurdité du premier conflit mondial et le cynisme de la bourgeoisie allemande d'après-guerre, il a mis son trait au service d'un réquisitoire visuel féroce contre les profiteurs de guerre, l'armée prussienne, les politiciens corrompus et la déchéance urbaine.</p><p>Son genre pictural se définit par le portrait satirique, la scène de rue grinçante, le collage dadaïste et l'aquarelle engagée. Son style se caractérise par un dessin acéré, hérité à la fois des graffitis de latrines et de la rigueur du dessin industriel. Il découpe l'espace urbain en plans kaléidoscopiques et transparents où les crânes des puissants s'ouvrent sur des symboles d'appétit brutal (crottes, pièces de monnaie, bordels), tandis que les mutilés de guerre sont réduits à des silhouettes mécanisées.</p><p>L'évolution de son style marque un passage de la subversion révolutionnaire berlinoise à une désillusion amère en exil :</p><p>Le Dada berlinois et le pamphlet graphique (1918 – 1923) : Autoproclamé «Propagandada», il publie des portfolios de dessins lithographiques qui lui valent de multiples procès pour injure à l'armée et blasphème (Ecce Homo). Son style emprunte au futurisme sa dynamique éclatée pour dépeindre Berlin comme un cloaque moral et mécanique en perpétuelle convulsion.</p><p>L'apogée de la Nouvelle Objectivité (1924 – 1932) : Il compose ses toiles les plus emblématiques, comme Les Piliers de la société (1926). Son style se durcit dans une facture picturale plus léchée, presque classique, où chaque archétype social (le nazi en herbe, le journaliste vendu, le prêtre hypocrite) est figé dans une laideur impitoyable et grotesque.</p><p>L'exil américain et la désillusion (après 1933) : Fuyant le nazisme juste avant l'arrivée au pouvoir d'Hitler, il s'installe à New York. Classé parmi les artistes «dégénérés» en Allemagne, son style change en Amérique : il abandonne la satire politique directe pour des paysages urbains, des nus académiques et des allégories apocalyptiques sombres reflétant l'effondrement du monde européen.</p>",
+    "totalOeuvresEstimees": "environ 450 peintures à l'huile",
+    "oeuvresConsensusNotice": "L'inventaire de référence mondiale est actuellement en cours de refonte définitive par l'expert Ralph Jentsch, qui scinde son catalogue raisonné pour séparer les œuvres sur papier des huiles sur toile (le Volume II leur sera consacré). Historiquement, les grandes synthèses s'appuyaient sur le travail de l'historien Hans Hess (publié en 1974). En excluant délibérément ses milliers d'aquarelles acides, ses encres de Chine et ses dessins politiques, le corpus de ses véritables peintures à l'huile s'établit à environ 450 toiles.",
+    "timeline": {
+        "periods": [
+            {
+                "title": "1893 – 1917 : Jeunesse prussienne, les tranchées et le traumatisme de la guerre",
+                "years": "1893 – 1917",
+                "color": "#0284c7",
+                "desc": "Origines berlinoises, études d'art à Dresde et choc irréversible de l'enfer des tranchées.",
+                "summary": "Né Georg Ehrenfried Groß à Berlin, il étudie à l'Académie royale des arts de Dresde. Mobilisé en 1914 puis réformé après un internement psychiatrique causé par l'horreur du front, il américanise son nom en George Grosz en signe de protestation nationaliste.",
+                "events": [
+                    {
+                        "year": 1893,
+                        "title": "Naissance à Berlin",
+                        "desc": "Naît à Berlin dans un milieu modeste ; passe une partie de son enfance à Stolp en Poméranie.",
+                        "icon": "🌟",
+                        "badge": "Origines"
+                    },
+                    {
+                        "year": 1909,
+                        "title": "Académie des Beaux-Arts de Dresde",
+                        "desc": "Se forme au dessin de maître et copie les maîtres anciens, tout en dessinant des caricatures pour les journaux.",
+                        "icon": "🎨",
+                        "badge": "Formation"
+                    },
+                    {
+                        "year": 1914,
+                        "title": "Mobilisation & Choc du front",
+                        "desc": "Engagé dans l'armée impériale, il subit de plein fouet l'absurdité de la guerre qui nourrit sa révolte antimilitariste.",
+                        "icon": "⚔️",
+                        "badge": "Guerre"
+                    },
+                    {
+                        "year": 1916,
+                        "title": "Changement de nom en George Grosz",
+                        "desc": "Adopte l'orthographe anglophone « George Grosz » avec son ami John Heartfield pour défier la propagande anti-britannique.",
+                        "icon": "✊",
+                        "badge": "Révolte"
+                    }
+                ]
+            },
+            {
+                "title": "1918 – 1923 : Le Club Dada berlinois et le pamphlet graphique incendiaire",
+                "years": "1918 – 1923",
+                "color": "#10b981",
+                "desc": "Cofondation de Dada Berlin, « Propagandada », portfolios satiriques et procès pour blasphème.",
+                "summary": "Au lendemain de la capitulation allemande, Grosz fonde le Club Dada berlinois avec Heartfield, Huelsenbeck et Hausmann. Armé de son trait chirurgical, il pourfend les profiteurs de guerre et la république de Weimar dans des recueils au vitriol comme Ecce Homo.",
+                "events": [
+                    {
+                        "year": 1918,
+                        "title": "Cofondation de Dada Berlin",
+                        "desc": "Rejoint le mouvement Dada et le Parti communiste d'Allemagne (KPD), organisant la Première Foire internationale Dada en 1920.",
+                        "icon": "⚡",
+                        "badge": "Dada"
+                    },
+                    {
+                        "year": 1921,
+                        "title": "Voyage en Union soviétique",
+                        "desc": "Rencontre Lénine et Trotski à Moscou mais revient désillusionné par le dogmatisme bureaucratique bolchévique.",
+                        "icon": "🚩",
+                        "badge": "Moscou"
+                    },
+                    {
+                        "year": 1923,
+                        "title": "Publication d'Ecce Homo & Scandale judiciaire",
+                        "desc": "Son portfolio de lithographies au scalpel est saisi par la police républicaine ; il est condamné pour outrage aux bonnes mœurs.",
+                        "icon": "⚖️",
+                        "badge": "Procès"
+                    }
+                ]
+            },
+            {
+                "title": "1924 – 1932 : L'apogée de la Nouvelle Objectivité (Neue Sachlichkeit)",
+                "years": "1924 – 1932",
+                "color": "#d97706",
+                "desc": "Les chefs-d'œuvre à l'huile, Les Piliers de la société et la radiographie féroce de Weimar.",
+                "summary": "Figure centrale de l'exposition fondatrice de la Neue Sachlichkeit à Mannheim en 1925, Grosz délaisse l'éclatement dada pour une peinture lisse et impitoyable, dressant le tableau clinique de la corruption morale qui pave la voie au nazisme.",
+                "events": [
+                    {
+                        "year": 1925,
+                        "title": "Exposition de la Neue Sachlichkeit à Mannheim",
+                        "desc": "Participe à l'exposition historique orchestrée par Gustav Friedrich Hartlaub aux côtés d'Otto Dix et Max Beckmann.",
+                        "icon": "🏛️",
+                        "badge": "Mannheim"
+                    },
+                    {
+                        "year": 1926,
+                        "title": "Les Piliers de la société (Nationalgalerie Berlin)",
+                        "desc": "Peint son manifeste monumental clouant au pilori l'alliance des nazis, de la presse complaisante et du militarisme prussien.",
+                        "icon": "🏛️",
+                        "badge": "Chef-d'œuvre"
+                    },
+                    {
+                        "year": 1928,
+                        "title": "Le procès du Christ aux masques à gaz",
+                        "desc": "Inculpé pour blasphème après avoir dessiné le Christ crucifié portant un masque à gaz avec la légende « Taisez-vous et obéissez ».",
+                        "icon": "⚖️",
+                        "badge": "Censure"
+                    }
+                ]
+            },
+            {
+                "title": "1933 – 1959 : L'exil américain, l'Art dégénéré et la blessure d'un monde détruit",
+                "years": "1933 – 1959",
+                "color": "#dc2626",
+                "desc": "Fuite à New York, enseignement à l'Art Students League, allégories apocalyptiques et retour crépusculaire à Berlin.",
+                "summary": "Quelques jours avant l'arrivée au pouvoir de Hitler en janvier 1933, Grosz fuit aux États-Unis. Déchu de sa nationalité et exposé dans l'exposition nazie de l'Entartete Kunst (Art dégénéré), il enseigne à New York avant de revenir mourir à Berlin en 1959.",
+                "events": [
+                    {
+                        "year": 1933,
+                        "title": "Exil salvateur à New York",
+                        "desc": "S'établit aux États-Unis, invité à enseigner à l'Art Students League de New York ; échappe de peu aux arrestations nazies.",
+                        "icon": "🗽",
+                        "badge": "Exil"
+                    },
+                    {
+                        "year": 1937,
+                        "title": "Exposition de l'Art dégénéré (Entartete Kunst)",
+                        "desc": "Les nazis confisquent 285 de ses œuvres dans les musées allemands pour les clouer au pilori à Munich.",
+                        "icon": "🔥",
+                        "badge": "Persécution"
+                    },
+                    {
+                        "year": 1944,
+                        "title": "Visions apocalyptiques : Le Survivant",
+                        "desc": "Peint des allégories cauchemardesques de la guerre mondiale et de la destruction de l'Europe sous les ruines.",
+                        "icon": "🌑",
+                        "badge": "Apocalypse"
+                    },
+                    {
+                        "year": 1959,
+                        "title": "Retour et mort à Berlin",
+                        "desc": "Revient s'installer dans sa ville natale en mai 1959 ; il y meurt accidentellement quelques semaines plus tard le 6 juillet 1959.",
+                        "icon": "🕊️",
+                        "badge": "Éternité"
+                    }
+                ]
+            }
+        ]
+    }
+},
+  "guido_da_siena": {
+    "id": "guido_da_siena",
+    "name": "Guido da Siena",
+    "sortName": "Guido da Siena",
+    "sortLetter": "G",
+    "dates": "actif vers 1260 – 1290",
+    "movement": "Peinture siennoise du Duecento, Maniera greca & Précurseur de la Renaissance toscane",
+    "nationality": "Italien (Sienne)",
+    "techniques": "Tempera et fond d'or sur panneau de bois, dossale, maestà, polyptyque",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczP6X8toSUCQEDP_4AlM-d_RQVDjKl-dTXsdZ0n2YkRRJIUULgg0JmZadxb5587W37BcPXlNkgpKA2IScJNCM7cxnPrIwg9zHBqnhQmOjBP4gq9rggosQ23nMpsm3gXz5folaXaVSB7aHtWtP2vueSBPsQ=w1681-h713-s-no-gm?authuser=0",
+    "bio": "<p>Guido da Siena (actif vers 1260 – 1290) est la figure fondatrice de l'école siennoise du Duecento, le maître qui a posé les jalons picturaux sur lesquels s'appuiera ensuite Duccio di Buoninsegna. Actif au cœur d'un XIIIe siècle dominé par les formules byzantines de la maniera greca, il a amorcé un renouvellement décisif de la peinture sur panneau en introduisant un sens inédit de la narration, de l'animation des figures et de l'expressivité dramatique au service de la spiritualité franciscaine et dominicaine.</p><p>Son genre pictural se définit par le retable de dévotion sur fond d'or (dossale et maestà) et le panneau narratif christologique. Son style se caractérise par des lignes graphiques nerveuses soulignées d'or, une gamme chromatique vive aux contrastes affirmés, et un modelé des carnations qui s'émancipe de la sévérité byzantine grâce à un jeu plus souple sur les ombres et une recherche d'humanité dans les attitudes maternelles ou suppliantes.</p><p>L'évolution de son style marque le passage de la formule hiératique vers une narration vivante et structurée :</p><p>L'affirmation du retable de San Domenico (vers 1260 – 1270) : Sa célèbre Maestà de l'église San Domenico de Sienne (portant l'inscription disputée de 1221, traditionnellement réévaluée aux années 1270 par la critique moderne) pose le modèle de la Vierge en majesté siennoise. Le trône gagne en assise spatiale et l'interaction entre la Vierge et l'Enfant s'anime d'un geste tendre, bien que les visages aient été partiellement repeints au début du XIVe siècle par un suiveur de Duccio.</p><p>Le développement des cycles narratifs (années 1270) : Associé à son atelier, il conçoit des retables bas bordés d'épisodes de la vie du Christ (comme les scènes conservées à Sienne, Paris ou Utrecht). Son style y déploie une verve descriptive remarquable : les silhouettes s'agitent dans des architectures sommaires mais rythmées, traduisant la ferveur populaire et l'émotion des récits évangéliques.</p><p>La maturité et la diffusion de l'atelier siennois (années 1280) : Son atelier structure véritablement la production picturale de la cité toscane. Les polyptyques s'enrichissent de registres supérieurs abritant des bustes de saints et d'apôtres, préfigurant l'organisation des grands retables gothiques toscans et transmettant à la génération suivante la maîtrise du fond d'or ciselé et de la ligne rythmée.</p>",
+    "totalOeuvresEstimees": "environ 15 œuvres universellement attribuées",
+    "oeuvresConsensusNotice": "En regroupant les panneaux qui lui sont directement et universellement attribués, le consensus scientifique fixe le corpus de Guido da Siena à environ 15 œuvres (grands retables, tempera sur bois et panneaux narratifs christologiques).",
+    "timeline": {
+        "periods": [
+            {
+                "title": "Vers 1250 – 1265 : Les origines et l'héritage de la Maniera greca",
+                "years": "vers 1250 – 1265",
+                "color": "#0284c7",
+                "desc": "Formation toscane, assimilation des codes byzantins et premiers panneaux dévotionnels fond d'or.",
+                "summary": "Actif à Sienne au milieu du XIIIe siècle, Guido s'imprègne de la maniera greca importée de Constantinople. Il adopte le fond d'or ciselé et la hiérarchie sacrée byzantine tout en cherchant à adoucir la sévérité des icônes pour répondre aux attentes spirituelles des ordres mendiants.",
+                "events": [
+                    {
+                        "year": 1250,
+                        "title": "L'atelier siennois du Duecento",
+                        "desc": "Établit son atelier au cœur de la République de Sienne, rivale commerciale et artistique de Florence.",
+                        "icon": "🏛️",
+                        "badge": "Origines"
+                    },
+                    {
+                        "year": 1260,
+                        "title": "Bataille de Montaperti & Ferveur mariale",
+                        "desc": "Après la victoire siennoise de Montaperti contre Florence, le culte de la Vierge protectrice s'embrase et multiplie les commandes de Maestà.",
+                        "icon": "👑",
+                        "badge": "Histoire"
+                    }
+                ]
+            },
+            {
+                "title": "Vers 1260 – 1275 : L'affirmation du retable de San Domenico et la Maestà siennoise",
+                "years": "vers 1260 – 1275",
+                "color": "#10b981",
+                "desc": "La Maestà historique de San Domenico, inscription de 1221 et fondation de l'école de Sienne.",
+                "summary": "Guido exécute pour la basilique San Domenico sa magistrale Vierge en majesté. Bien que portant une date controversée de 1221, la critique moderne situe son exécution vers 1270, marquant l'avènement d'une monumentalité et d'une tendresse humaine inédites.",
+                "events": [
+                    {
+                        "year": 1270,
+                        "title": "La Maestà de San Domenico",
+                        "desc": "Monumentale Vierge à l'Enfant sur trône de bois ouvragé, jalon fondateur de l'art siennois (conservée à San Domenico, Sienne).",
+                        "icon": "🌟",
+                        "badge": "Maestà"
+                    },
+                    {
+                        "year": 1272,
+                        "title": "L'essor des commandes dominicaines",
+                        "desc": "L'Ordre des Prêcheurs promeut les innovations de Guido, favorisant des images chaleureuses et accessibles aux fidèles.",
+                        "icon": "📜",
+                        "badge": "Ordres mendiants"
+                    }
+                ]
+            },
+            {
+                "title": "Vers 1270 – 1285 : Le développement des cycles narratifs et de la Passion",
+                "years": "vers 1270 – 1285",
+                "color": "#d97706",
+                "desc": "Dossales de dévotion, scènes de la vie du Christ réparties entre Sienne, Paris et Utrecht.",
+                "summary": "Guido et ses collaborateurs conçoivent de vastes retables bas intégrant de multiples scènes narratives miniatures. Son génie narratif s'y épanouit : architectures étagées, gestes dramatiques et vivacité des expressions anticipent les récits de Duccio.",
+                "events": [
+                    {
+                        "year": 1275,
+                        "title": "Le Dossale de la Pinacothèque de Sienne",
+                        "desc": "Retable intégrant la Vierge entourée de saints et de scènes christologiques au dynamisme narratif exceptionnel.",
+                        "icon": "🎨",
+                        "badge": "Dossale"
+                    },
+                    {
+                        "year": 1280,
+                        "title": "Panneaux narratifs de la Passion (Louvre & Utrecht)",
+                        "desc": "Série d'épisodes miniatures de la Passion du Christ témoignant d'une dramaturgie intense et d'une gestuelle expressive.",
+                        "icon": "✝️",
+                        "badge": "Passion"
+                    }
+                ]
+            },
+            {
+                "title": "Vers 1280 – 1295 : La maturité de l'atelier siennois et le legs à Duccio",
+                "years": "vers 1280 – 1295",
+                "color": "#dc2626",
+                "desc": "Structure des polyptyques gothiques à registres supérieurs et passage de témoin à Duccio di Buoninsegna.",
+                "summary": "Dans sa dernière décennie, l'atelier de Guido structure la typologie des grands polyptyques toscans à couronnements d'apôtres et prophètes. Il forme une brillante génération de peintres parmi lesquels émerge le jeune Duccio di Buoninsegna.",
+                "events": [
+                    {
+                        "year": 1285,
+                        "title": "Polyptyque n° 7 de Sienne",
+                        "desc": "Organisation complexe sur plusieurs registres avec frontons triangulaires, matrice du grand retable gothique toscan.",
+                        "icon": "🏛️",
+                        "badge": "Polyptyque"
+                    },
+                    {
+                        "year": 1290,
+                        "title": "L'émergence de Duccio di Buoninsegna",
+                        "desc": "Duccio s'empare des conquêtes spatiales et narratives de Guido pour hisser l'école siennoise au sommet de l'art européen.",
+                        "icon": "🕊️",
+                        "badge": "Postérité"
+                    }
+                ]
+            }
+        ]
+    }
+},
   "gris": {
     "id": "gris",
     "name": "Gris Juan",
