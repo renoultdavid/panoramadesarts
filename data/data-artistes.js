@@ -2,6 +2,139 @@
    REGISTRE DES PEINTRES & NOTICES MONOGRAPHIQUES
    ========================================================================== */
 window.ARTISTS_REGISTRY = {
+  "goya": {
+    id: "goya",
+    name: "Goya Francisco",
+    sortName: "Goya Francisco",
+    sortLetter: "G",
+    dates: "1746 – 1828",
+    movement: "Peinture espagnole des Lumières & Romantisme sombre • Précurseur de l'art moderne",
+    nationality: "Espagnol",
+    techniques: "Huile sur toile, huile sur enduit mural (Peintures noires), fresque, eau-forte, aquatinte",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczNAq027eMmK8r2FeYPfwmcBRAIhqjuHD9HSPS35aOJwqB-6nzW4mY8_jk6kDXTpIsmKd-5WY9yfJQJoGpRVJksM_ks8-x3vhEh_FfzDipykpNYdQsWLfYwuEg3CRD55OUm_KvuTkWqAxXhOyWi_HE1tCg=w1681-h713-s-no-gm?authuser=0",
+    bio: "<p>Francisco de Goya (1746 – 1828) est l'un des peintres espagnols les plus essentiels, faisant le pont entre les maîtres anciens et la modernité. Peintre de la cour sous plusieurs règnes, il a été le témoin lucide et souvent tourmenté des bouleversements de son temps, de l'élégance des Lumières aux horreurs de la guerre d'indépendance espagnole contre Napoléon.</p><p>Son genre pictural est d'une diversité prodigieuse, embrassant le portrait officiel, les scènes de genre (cartons pour tapisseries), la peinture religieuse et la gravure satirique. Goya se distingue par son refus de l'idéalisation, préférant une exploration psychologique profonde de ses modèles et une dénonciation féroce de la superstition, de la cruauté humaine et de la folie, ce qui fait de lui un précurseur direct du romantisme et de l'expressionnisme.</p><p>L'évolution de son style est marquée par un assombrissement progressif, tant chromatique que thématique :</p><p>La période de lumière : Ses premières œuvres à Madrid sont colorées, joyeuses et légères, dépeignant les jeux et les fêtes de la société espagnole.</p><p>Le tournant de la surdité : À la suite d'une grave maladie en 1792 qui le laisse sourd, son style devient plus libre et critique, comme en témoignent ses séries de gravures (Les Caprices).</p><p>Les Peintures Noires : À la fin de sa vie, retiré dans sa maison (la «Quinta del Sordo«), il peint directement sur les murs des visions cauchemardesques et fantastiques. Sa touche devient alors de plus en plus rapide et épaisse, les formes se dissolvent dans des teintes sombres et terreuses, annonçant les révolutions artistiques du XXe siècle. Oeuvres : L'inventaire de référence mondiale est le fruit du travail des historiens de l'art Pierre Gassier et Juliet Wilson-Bareau (publié en 1970), souvent croisé avec le catalogue raisonné de José Gudiol (1971). En écartant délibérément ses milliers de dessins intimes et ses monumentales séries de gravures (comme Les Caprices, Les Désastres de la guerre ou La Tauromachie), leur recensement fixe le corpus de ses huiles sur toile, sur bois, sur fer-blanc et ses fresques à environ 700 peintures. Oeuvres :</p>",
+    totalOeuvresEstimees: "~700 peintures (catalogue Pierre Gassier & Juliet Wilson-Bareau 1970 / José Gudiol 1971)",
+    oeuvresConsensusNotice: "L'inventaire de référence mondiale dressé par Pierre Gassier, Juliet Wilson-Bareau (1970) et José Gudiol (1971) recense environ 700 peintures autographes (huiles sur toile, panneaux, fer-blanc et peintures murales), en excluant ses milliers de dessins et monumentales séries d'eaux-fortes.",
+    periods: [
+      {
+        title: "1746 – 1791 : Jeunesse aragonaise, les cartons de tapisserie et peintre de cour",
+        years: "1746 – 1791",
+        color: "#0284c7",
+        desc: "Né en Aragon, Goya se forme à Saragosse et voyage en Italie. Installé à Madrid, il peint plus de soixante cartons joyeux et ensoleillés pour la Manufacture royale de tapisseries de Santa Bárbara. Nommé peintre du roi en 1786 et peintre de chambre de Charles IV en 1789, il portraiture l'aristocratie éclairée des Lumières.",
+        summary: "Jeunesse, cartons de tapisserie à Madrid, ascension sociale et consécration comme peintre de la cour de Charles IV.",
+        events: [
+          { year: 1746, title: "Naissance à Fuendetodos (Aragon)", desc: "Né le 30 mars 1746 près de Saragosse dans une famille d'artisans doreurs.", type: "birth", icon: "🌱" },
+          { year: 1775, title: "Arrivée à Madrid & Cartons de tapisseries", desc: "Entreprend pour la Manufacture royale la célèbre série de cartons dépeignant les fêtes populaires et jeux madrilènes.", type: "life", icon: "🎨" },
+          { year: 1786, title: "Nomination comme peintre du roi Charles III", desc: "Reçoit le titre officiel de peintre du roi avec traitement régulier de la couronne espagnole.", type: "life", icon: "👑" },
+          { year: 1789, title: "Peintre de chambre de Charles IV", desc: "Atteint le sommet institutionnel sous le nouveau monarque et peint les grands portraits d'apparat royaux.", type: "masterpiece", icon: "🏆" }
+        ]
+      },
+      {
+        title: "1792 – 1807 : Le tournant de la surdité, Les Caprices et portraits de vérité psychologique",
+        years: "1792 – 1807",
+        color: "#d97706",
+        desc: "Frappé à 46 ans par une maladie foudroyante qui le prive à jamais de l'ouïe, Goya s'isole du monde des bruits pour sonder l'intériorité humaine. Sa palette s'épure en nuances argentées et vaporeuses. En 1799, il publie Les Caprices, féroce satire des vices et superstitions de l'Espagne, tout en peignant ses chefs-d'œuvre de délicatesse psychologique.",
+        summary: "Drame de la surdité en 1792, liberté satirique des Caprices et portraits majeurs de l'aristocratie (Solana, Osuna, Duchesse d'Albe).",
+        events: [
+          { year: 1792, title: "Maladie foudroyante & Surdité totale", desc: "Grave crise médicale en Andalousie le laissant définitivement sourd : événement fondateur qui libère son génie visionnaire.", type: "life", icon: "⚡" },
+          { year: 1794, title: "Portrait de la comtesse del Carpio, marquise de la Solana (Louvre)", desc: "Chef-d'œuvre de sobriété vaporeuse et d'émotion retenue au Louvre, montrant la femme de lettres peu avant sa mort précoce.", type: "masterpiece", icon: "🎨", artworkId: "goya_marquise_de_la_solana_louvre_1794" },
+          { year: 1799, title: "Publication des Caprices (Los Caprichos)", desc: "Suite de 80 eaux-fortes satiriques dénonçant l'obscurantisme, l'inquisition et les dérives de la raison humaine.", type: "masterpiece", icon: "🦇" },
+          { year: 1800, title: "La Famille de Charles IV (Prado)", desc: "Portrait de groupe royal d'une sincérité sans complaisance où la vérité psychologique surpasse la flatterie de cour.", type: "masterpiece", icon: "👑" }
+        ]
+      },
+      {
+        title: "1808 – 1818 : La Guerre d'indépendance, Les Désastres et Le Tres de Mayo",
+        years: "1808 – 1818",
+        color: "#b45309",
+        desc: "Témoin horrifié des massacres et de la famine provoqués par l'invasion napoléonienne, Goya consigne la sauvagerie dans Les Désastres de la guerre. À la libération en 1814, il livre pour l'histoire universelle El Dos de Mayo et El Tres de Mayo, manifeste déchirant contre la tyrannie et le massacre des innocents.",
+        summary: "L'épreuve sanglante de la guerre contre Napoléon, gravures des Désastres et apothéose tragique du Tres de Mayo.",
+        events: [
+          { year: 1808, title: "Soulèvement du 2 mai & Début de la guerre", desc: "Soulèvement du peuple madrilène contre les troupes de Murat : début de six années de guerre dévastatrice.", type: "history", icon: "⚔️" },
+          { year: 1810, title: "Les Désastres de la guerre", desc: "Grave clandestinement 82 planches d'une violence crue et sans gloire héroïque, cri universel contre la barbarie.", type: "masterpiece", icon: "💣" },
+          { year: 1814, title: "El Tres de Mayo (Prado)", desc: "Monument mondial de la résistance : la fusillade nocturne des patriotes au mont du Príncipe Pío face à un peloton d'exécution aveugle.", type: "masterpiece", icon: "🎨", artworkId: "goya_tres_de_mayo_prado_1814" },
+          { year: 1817, title: "Saintes Juste et Rufine (Cathédrale de Séville)", desc: "Grand retable religieux pour la cathédrale andalouse alliant monumentalité majestueuse et clair-obscur spirituel vibrant.", type: "masterpiece", icon: "🎨", artworkId: "goya_saintes_juste_et_rufine_seville_1817" }
+        ]
+      },
+      {
+        title: "1819 – 1828 : La Quinta del Sordo, Les Peintures Noires et l'exil bordelais",
+        years: "1819 – 1828",
+        color: "#991b1b",
+        desc: "Réfugié dans sa maison de campagne près de Madrid, Goya couvre les murs de sa salle à manger des quatorze terrifiantes Peintures Noires, dont Saturne dévorant un de ses fils. Fuyant la terreur absolutiste de Ferdinand VII, il s'exile en France à Bordeaux où il découvre la lithographie avant de mourir en patriarche vénéré.",
+        summary: "Isolement à la Quinta del Sordo, cycle visionnaire des Peintures Noires, exil à Bordeaux et triomphe posthume.",
+        events: [
+          { year: 1819, title: "Installation à la Quinta del Sordo", desc: "Acquiert sa propriété sur les bords du Manzanares où il peint ses visions nocturnes directement sur le plâtre des murs.", type: "life", icon: "🏚️" },
+          { year: 1823, title: "Saturne dévorant un de ses fils (Prado)", desc: "Vision paroxystique de folie et de dévoration brute : chef-d'œuvre des Peintures Noires préfigurant l'expressionnisme moderne.", type: "masterpiece", icon: "🎨", artworkId: "goya_saturne_devorant_un_de_ses_fils_prado_1823" },
+          { year: 1824, title: "Exil en France à Bordeaux", desc: "Quitte l'Espagne sous prétexte de cure thermale et s'installe à Bordeaux avec Leocadia Weiss.", type: "life", icon: "🇫🇷" },
+          { year: 1825, title: "Les Taureaux de Bordeaux & La Laitière", desc: "S'initie à 79 ans à la technique nouvelle de la lithographie et peint La Laitière de Bordeaux d'une touche impressionniste.", type: "masterpiece", icon: "🎨" },
+          { year: 1828, title: "Mort à Bordeaux", desc: "S'éteint le 16 avril 1828 à Bordeaux à l'âge de 82 ans ; ses restes reposent aujourd'hui à l'ermitage San Antonio de la Florida à Madrid.", type: "death", icon: "🕊️" }
+        ]
+      }
+    ]
+  },
+  "gozzoli": {
+    id: "gozzoli",
+    name: "Gozzoli Benozzo",
+    sortName: "Gozzoli Benozzo",
+    sortLetter: "G",
+    dates: "v. 1420 – 1497",
+    movement: "Première Renaissance florentine (Quattrocento) • Narration enchantée, faste médicis & détail d'orfèvre",
+    nationality: "Italien (Florence)",
+    techniques: "Fresque monumentale à fresque buono, détrempe sur panneau de bois, dorure à la feuille, pigments de lapis-lazuli",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczOxkWh4VViF9u7HgHc_M184eIHylnHBMRVnB0QO3peyaQ8irZejfFLn7J_Zo4vMANIIOQIjKUrliY0zhdYLtndx0U5fKMtZzvsulxwin_fs4lzZx1ZUsFt1223jp-ZkH1mR_xdcV_-xoENNTd7saPwcgg=w1681-h713-s-no-gm?authuser=0",
+    bio: "<p>Benozzo di Lese, dit Benozzo Gozzoli, né vers 1420 et mort en 1497 à Pistoia, est le maître de la narration enchantée et du détail profus de la Renaissance florentine. Élève et collaborateur de Fra Angelico, il a également travaillé avec Lorenzo Ghiberti, dont il a hérité une minutie d'orfèvre. Voyageur infatigable, il a laissé sa marque dans toute l'Italie centrale, d'Orvieto à Pise en passant par Rome. Bien qu'il ait vécu à l'époque des grandes révolutions perspectives, Gozzoli est resté fidèle à une esthétique du faste et du merveilleux, devenant le peintre préféré de ceux qui voulaient voir la piété religieuse transformée en une célébration du luxe et de la vie aristocratique.</p><p>Son genre pictural se définit par une horreur du vide et un goût immodéré pour le décoratif. Le style de Gozzoli se caractérise par des paysages foisonnants peuplés d'oiseaux, de fleurs et d'animaux exotiques, le tout traité avec une précision miniature. Il utilise une palette éclatante, riche en or et en pigments précieux, pour créer des compositions narratives d'une grande densité. Contrairement à la sobriété de son maître Fra Angelico, il cherche à éblouir par la multiplication des portraits contemporains, des costumes fastueux et des architectures fantastiques, faisant de ses fresques de véritables tapisseries murales où chaque centimètre carré est une invitation au voyage.</p><p>L'évolution de son travail montre un passage de la douceur mystique héritée de Fra Angelico vers un style de plus en plus narratif et profane. Ses premières œuvres à Montefalco conservent une certaine retenue spirituelle. Cependant, son apogée se situe dans la Chapelle des Mages à Florence (1459-1460), où il transforme un sujet biblique en une parade éblouissante à la gloire des Médicis. Vers la fin de sa vie, notamment avec le cycle monumental du Camposanto de Pise, son style gagne en ampleur et en ambition spatiale, sans jamais perdre cette verve de conteur qui fait son charme unique. Il laisse derrière lui une œuvre qui est le témoignage le plus joyeux et le plus coloré de l'élégance du Quattrocento. L'inventaire scientifique et le catalogue raisonné de référence mondiale s'appuient aujourd'hui sur deux travaux majeurs : le Catalogo completo dei dipinti de l'historienne italienne Anna Padoa Rizzo (1992) et la monographie exhaustive de la spécialiste américaine Diane Cole Ahl (Benozzo Gozzoli, 1996).   En faisant la synthèse de ces recherches, le consensus scientifique fixe le corpus officiel de ses œuvres autographes (panneaux sur bois et fresques, en comptant souvent les grands cycles narratifs par scènes ou ensembles architecturaux) à très exactement 125 œuvres.    Oeuvres :</p>",
+    totalOeuvresEstimees: "125 œuvres autographes (consensus Anna Padoa Rizzo 1992 & Diane Cole Ahl 1996)",
+    oeuvresConsensusNotice: "Les catalogues raisonnés de référence mondiale établis par Anna Padoa Rizzo (1992) et Diane Cole Ahl (1996) recensent très précisément 125 œuvres autographes (panneaux sur bois et fresques des grands cycles narratifs de Florence, Montefalco, San Gimignano et Pise).",
+    periods: [
+      {
+        title: "v. 1420 – 1448 : L'apprentissage d'orfèvre, la collaboration avec Ghiberti et Fra Angelico",
+        years: "1420 – 1448",
+        color: "#0284c7",
+        desc: "Né à Florence, Benozzo di Lese se forme comme orfèvre et collabore avec Lorenzo Ghiberti sur la célèbre Porte du Paradis du Baptistère. Il devient ensuite l'élève et principal assistant de Fra Angelico au couvent San Marco de Florence et à la chapelle Nicoline du Vatican.",
+        summary: "Formation auprès de Ghiberti, collaboration intime avec Fra Angelico à San Marco et à Rome.",
+        events: [
+          { year: 1420, title: "Naissance à Florence", desc: "Benozzo di Lese naît vers 1420 à Florence dans le quartier de San Frediano.", type: "birth", icon: "🌱" },
+          { year: 1444, title: "Chantier de la Porte du Paradis avec Ghiberti", desc: "Travaille trois ans auprès de Lorenzo Ghiberti sur les célèbres reliefs de bronze doré du Baptistère de Florence.", type: "life", icon: "🚪" },
+          { year: 1447, title: "Assistant majeur de Fra Angelico à Rome et Orvieto", desc: "Collabore avec le maître dominicain aux fresques de la chapelle Nicoline au Vatican et à la cathédrale d'Orvieto.", type: "life", icon: "🎨" }
+        ]
+      },
+      {
+        title: "1449 – 1458 : Les chantiers d'Ombrie et l'affirmation du conteur à Montefalco",
+        years: "1449 – 1458",
+        color: "#d97706",
+        desc: "Établi comme maître indépendant en Ombrie, Gozzoli décore l'abside de l'église San Francesco de Montefalco de fresques lumineuses racontant la vie de saint François, affirmant un sens aigu du paysage toscan et de l'anecdote savoureuse.",
+        summary: "Cycles à fresque ombriens à Montefalco et Viterbe, perfectionnement du détail narratif et paysager.",
+        events: [
+          { year: 1450, title: "Arrivée à Montefalco & Cycle de saint François", desc: "Reçoit la commande du cycle complet de la vie de saint François, rivalisant d'éclat chromatique avec Giotto.", type: "masterpiece", icon: "⛪" },
+          { year: 1453, title: "Commandes à Viterbe et Pérouse", desc: "Multiplie les retables de dévotion alliant grâce mystique et miniaturisme orfèvre.", type: "life", icon: "📜" }
+        ]
+      },
+      {
+        title: "1459 – 1464 : Le chef-d'œuvre de la Chapelle des Mages au Palais Médicis de Florence",
+        years: "1459 – 1464",
+        color: "#b45309",
+        desc: "Cosme l'Ancien et Pierre de Médicis lui confient le décor de leur chapelle privée au Palais Médicis. Gozzoli y peint Le Cortège des Mages, parade éblouissante où la noblesse florentine défile en vêtements de brocart d'or parmi des léopards et des châteaux féeriques.",
+        summary: "Apogée artistique absolu à Florence avec le cycle somptueux de la Chapelle des Mages pour les Médicis.",
+        events: [
+          { year: 1459, title: "Cortège des Mages : Le jeune Roi et le défilé des Médicis", desc: "Défilé féerique serpentant dans les collines toscanes, élevant la famille régnante des Médicis au rang d'acteurs de l'Épiphanie.", type: "masterpiece", icon: "🎨", artworkId: "gozzoli_cortege_des_mages_jeune_roi_florence_1459" },
+          { year: 1459, title: "Cortège des Mages : Chasse princière et guépard apprivoisé", desc: "Scène de cour fastueuse intégrant guépard de chasse en selle, singes et meutes de lévriers dans un paysage escarpé.", type: "masterpiece", icon: "🎨", artworkId: "gozzoli_cortege_des_mages_chasse_guepard_florence_1459" },
+          { year: 1459, title: "Cortège des Mages : Portraits de Cosme l'Ancien et des Médicis", desc: "Galerie de portraits authentiques du Quattrocento immortalisant Cosme l'Ancien, Pierre le Goutteux et le jeune Laurent.", type: "masterpiece", icon: "🎨", artworkId: "gozzoli_cortege_des_mages_portraits_medicis_florence_1459" },
+          { year: 1459, title: "Cortège des Mages : Le Roi Gaspard (Laurent le Magnifique)", desc: "Figure centrale du jeune roi Gaspard paré de brocarts d'or et d'une couronne sertie de joyaux sous les traits idéalisés de Laurent de Médicis.", type: "masterpiece", icon: "🎨", artworkId: "gozzoli_cortege_des_mages_roi_gaspard_laurent_florence_1459" }
+        ]
+      },
+      {
+        title: "1465 – 1497 : Les fresques de San Gimignano, le monumental Camposanto de Pise et crépuscule",
+        years: "1465 – 1497",
+        color: "#991b1b",
+        desc: "Après les fresques de saint Augustin à San Gimignano, Gozzoli consacre seize années au décor colossal du Camposanto monumental de Pise, peignant vingt-cinq fresques géantes de l'Ancien Testament. Il termine sa carrière respecté de tous avant de mourir à Pistoia en 1497.",
+        summary: "Cycle de saint Augustin à San Gimignano, fresques monumentales de l'Ancien Testament à Pise et fin de vie.",
+        events: [
+          { year: 1465, title: "Cycle de saint Augustin à San Gimignano", desc: "Dix-sept grandes scènes narratives dans le chœur de Sant'Agostino, modèle de clarté pédagogique et d'humanisme.", type: "masterpiece", icon: "🏛️" },
+          { year: 1468, title: "Grand chantier du Camposanto de Pise", desc: "Entreprend le plus vaste cycle de fresques de sa carrière sur les parois du cimetière monumental de Pise (La Tour de Babel, L'Ivresse de Noé).", type: "masterpiece", icon: "📐" },
+          { year: 1497, title: "Mort à Pistoia", desc: "S'éteint le 4 octobre 1497 à Pistoia emporté par la peste, honoré comme l'un des plus grands poètes décorateurs de la Renaissance.", type: "death", icon: "🕊️" }
+        ]
+      }
+    ]
+  },
   "giottino": {
     id: "giottino",
     name: "Giottino (Giotto di Stefano)",

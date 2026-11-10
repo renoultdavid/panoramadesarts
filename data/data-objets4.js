@@ -16,6 +16,466 @@
    ========================================================================== */
 window.ART_OBJECTS = [
   {
+    "id": "goya_marquise_de_la_solana_louvre_1794",
+    "artistId": "goya",
+    "artist": "Goya Francisco",
+    "artistSort": "Goya Francisco",
+    "civId": "occident",
+    "periodId": "occ_xviiie",
+    "civName": "Occident : Siècle des Lumières (Espagne des Bourbons)",
+    "title": "Portrait de la comtesse del Carpio, marquise de la Solana",
+    "date": 1795,
+    "dateDisplay": "v. 1794–1795",
+    "century": "XVIIIe siècle (1795)",
+    "centuryDisplay": "XVIIIe s. (vers 1794–1795)",
+    "centuryNumeric": 1795,
+    "period": "XVIIIe siècle",
+    "domain": "peinture",
+    "artifactType": "Peinture à l'huile sur toile",
+    "category": "Peinture à l'huile sur toile",
+    "type": "Peinture à l'huile",
+    "medium": "Huile sur toile",
+    "dimensions": {
+      "h": 181,
+      "w": 122,
+      "display": "181 × 122 cm (Musée du Louvre)"
+    },
+    "site": "Musée du Louvre (Paris, France)",
+    "originSite": "Madrid (Collection de la famille Beistegui)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczNPTRQtnXoBNKj_TCE5hzdhwmK9LZdUTB6M2iidBwXoxZI3dQdOPpYrlXBD6JiD9yJ5qu9U4l8iZ8zObwJBWT56lh1mhPbB4dfo6JYSRbMRiv2imNKZhzay-_XDwlzQorADeMuXZGsolz7XN7D3ewX2Kw=w1679-h2416-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczNPTRQtnXoBNKj_TCE5hzdhwmK9LZdUTB6M2iidBwXoxZI3dQdOPpYrlXBD6JiD9yJ5qu9U4l8iZ8zObwJBWT56lh1mhPbB4dfo6JYSRbMRiv2imNKZhzay-_XDwlzQorADeMuXZGsolz7XN7D3ewX2Kw=w1679-h2416-s-no-gm?authuser=0",
+    "tags": [
+      "peinture",
+      "goya",
+      "marquise de la solana",
+      "portrait",
+      "louvre",
+      "espagne"
+    ],
+    "chips": [
+      "XVIIIe s.",
+      "v. 1794",
+      "Portrait psychologique",
+      "Mantille & Dentelle",
+      "Musée du Louvre"
+    ],
+    "narrative": "<p>Peint vers 1794-1795 par Francisco de Goya y Lucientes, ce portrait est l'un des chefs-d'œuvre les plus émouvants de la période de maturité de l'artiste espagnol. La marquise de la Solana, femme de lettres et amie proche de Goya, est représentée ici peu de temps avant sa mort prématurée à l'âge de 37 ans. Cette œuvre marque un tournant dans l'art de Goya, où le portrait officiel s'efface devant une vérité psychologique et une économie de moyens qui annoncent la modernité.</p><p>La composition frappe par sa simplicité et sa dignité. La marquise se tient debout, en pied, sur un fond de paysage très dépouillé et brumeux, qui évoque la tradition des portraits de Velázquez. Elle porte une tenue de promenade sobre mais élégante : une robe noire ornée d'une mantille de dentelle et un grand ruban rose dans ses cheveux, seule touche de couleur vive qui vient rehausser la sobriété de l'ensemble. Son regard, direct et empreint d'une certaine mélancolie, confère à l'œuvre une profondeur humaine saisissante.</p><p>Techniquement, Goya déploie une palette presque monochrome, jouant sur d'infinies nuances de gris, de noirs et de blancs. La touche est fluide, presque vaporeuse dans le traitement de la dentelle, contrastant avec la précision du visage. La lumière, douce et diffuse, semble émaner de la figure elle-même, accentuant son aspect spectral et intemporel. Goya réussit ici le tour de force de rendre à la fois le rang social de son modèle et la fragilité de sa condition humaine.</p><p>Ce portrait a longtemps été considéré comme l'une des images les plus représentatives de l'âme espagnole de la fin du XVIIIe siècle. Donnée au Louvre par la Fondation Carlos de Beistegui en 1942, cette toile illustre le génie de Goya pour capturer l'essence d'un être au-delà des artifices du paraître. //</p>",
+    "desc": "<p>Peint vers 1794-1795 par Francisco de Goya y Lucientes, ce portrait est l'un des chefs-d'œuvre les plus émouvants de la période de maturité de l'artiste espagnol. La marquise de la Solana, femme de lettres et amie proche de Goya, est représentée ici peu de temps avant sa mort prématurée à l'âge de 37 ans. Cette œuvre marque un tournant dans l'art de Goya, où le portrait officiel s'efface devant une vérité psychologique et une économie de moyens qui annoncent la modernité.</p><p>La composition frappe par sa simplicité et sa dignité. La marquise se tient debout, en pied, sur un fond de paysage très dépouillé et brumeux, qui évoque la tradition des portraits de Velázquez. Elle porte une tenue de promenade sobre mais élégante : une robe noire ornée d'une mantille de dentelle et un grand ruban rose dans ses cheveux, seule touche de couleur vive qui vient rehausser la sobriété de l'ensemble. Son regard, direct et empreint d'une certaine mélancolie, confère à l'œuvre une profondeur humaine saisissante.</p><p>Techniquement, Goya déploie une palette presque monochrome, jouant sur d'infinies nuances de gris, de noirs et de blancs. La touche est fluide, presque vaporeuse dans le traitement de la dentelle, contrastant avec la précision du visage. La lumière, douce et diffuse, semble émaner de la figure elle-même, accentuant son aspect spectral et intemporel. Goya réussit ici le tour de force de rendre à la fois le rang social de son modèle et la fragilité de sa condition humaine.</p><p>Ce portrait a longtemps été considéré comme l'une des images les plus représentatives de l'âme espagnole de la fin du XVIIIe siècle. Donnée au Louvre par la Fondation Carlos de Beistegui en 1942, cette toile illustre le génie de Goya pour capturer l'essence d'un être au-delà des artifices du paraître. //</p>",
+    "contemporaryArt": {
+      "title": "Fin du XVIIIe siècle • Révolution française & Crépuscule de l'Ancien Régime",
+      "events": [
+        "1789 : Prise de la Bastille à Paris et début de la Révolution française.",
+        "1792 : Grave maladie de Goya en Andalousie qui le laisse totalement et définitivement sourd.",
+        "1794 : Chute de Robespierre et fin de la Terreur en France.",
+        "1795 : Goya peint le portrait immortel de la marquise de la Solana et devient directeur de l'Académie de San Fernando.",
+        "1799 : Goya publie sa première suite de gravures satiriques Les Caprices (Los Caprichos)."
+      ]
+    }
+  },
+  {
+    "id": "goya_tres_de_mayo_prado_1814",
+    "artistId": "goya",
+    "artist": "Goya Francisco",
+    "artistSort": "Goya Francisco",
+    "civId": "occident",
+    "periodId": "occ_xixe",
+    "civName": "Occident : Romantisme & Peinture d'histoire tragique",
+    "title": "El Tres de Mayo (Les Fusillades du 3 mai 1808)",
+    "date": 1814,
+    "dateDisplay": "1814",
+    "century": "XIXe siècle (1814)",
+    "centuryDisplay": "XIXe s. (1814)",
+    "centuryNumeric": 1814,
+    "period": "XIXe siècle",
+    "domain": "peinture",
+    "artifactType": "Peinture à l'huile sur toile",
+    "category": "Peinture à l'huile sur toile",
+    "type": "Peinture à l'huile",
+    "medium": "Huile sur toile",
+    "dimensions": {
+      "h": 268,
+      "w": 347,
+      "display": "268 × 347 cm (Musée du Prado, Madrid)"
+    },
+    "site": "Museo del Prado (Madrid, Espagne)",
+    "originSite": "Madrid (Commande du gouvernement provisoire espagnol)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczMp11Paz0bzOzc3HCbH6vhOc1UuoJmkYCFeywITaME7A2MjUjJ94FvQJfmAdgKwkF53tmJ_BJXucZvAfA69TowtakhbF0nPqbDRcCG_QoE9sTTU5xQJrfZ3XN-b6n1pliCi4ak3GRT1YK8u7ZD9uADYUA=w1681-h1375-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczMp11Paz0bzOzc3HCbH6vhOc1UuoJmkYCFeywITaME7A2MjUjJ94FvQJfmAdgKwkF53tmJ_BJXucZvAfA69TowtakhbF0nPqbDRcCG_QoE9sTTU5xQJrfZ3XN-b6n1pliCi4ak3GRT1YK8u7ZD9uADYUA=w1681-h1375-s-no-gm?authuser=0",
+    "tags": [
+      "peinture",
+      "romantisme",
+      "goya",
+      "tres de mayo",
+      "fusillade",
+      "prado",
+      "résistance"
+    ],
+    "chips": [
+      "XIXe s.",
+      "1814",
+      "Guerre d'Espagne",
+      "Chef-d'œuvre universel",
+      "Musée du Prado"
+    ],
+    "narrative": "<p>Peint en 1814 par Francisco de Goya, ce chef-d'œuvre exposé au musée du Prado est l'une des représentations les plus puissantes et les plus universelles de la résistance face à la tyrannie. Commandée par le gouvernement provisoire espagnol après l'expulsion de l'armée napoléonienne, l'œuvre commémore les exécutions sommaires de patriotes espagnols par les soldats de Napoléon, en représailles au soulèvement du 2 mai. Goya rompt ici avec la peinture d'histoire traditionnelle qui glorifiait souvent la guerre ; il choisit au contraire de montrer l'horreur nue, le sacrifice anonyme et la brutalité mécanique de la répression militaire.</p><p>La composition du tableau repose sur un contraste dramatique entre deux groupes distincts. À droite, le peloton d'exécution forme une ligne rigide, sombre et anonyme. Les soldats sont représentés de dos, leurs visages sont invisibles et leurs baïonnettes créent une ligne de force horizontale implacable qui pointe vers les condamnés. En face, à gauche, se tiennent les victimes, un groupe hétérogène de civils saisis dans une variété d'émotions : la prière, le désespoir, la colère ou la résignation. La figure centrale, un homme en chemise blanche éclatante dont les bras sont levés en croix, attire toute la lumière et l'attention du spectateur. Sa posture christique évoque le martyre et l'innocence face à la machine de mort aveugle qui lui fait face.</p><p>L'utilisation de la lumière et de la couleur est magistrale. Une grande lanterne carrée posée au sol entre les deux groupes projette une lumière crue sur les condamnés et sur le sang rouge vif des victimes déjà tombées au premier plan. Ce jeu de clair-obscur plonge le reste de la scène, notamment les collines et l'architecture de Madrid à l'arrière-plan, dans une pénombre oppressante qui souligne l'aspect nocturne et clandestin du massacre. Le traitement pictural de Goya, avec ses touches larges et son empâtement généreux, privilégie l'expression émotionnelle sur la précision du détail, faisant de ce tableau un précurseur direct de l'art moderne et une source d'inspiration majeure pour des artistes tels que Manet ou Picasso. //</p>",
+    "desc": "<p>Peint en 1814 par Francisco de Goya, ce chef-d'œuvre exposé au musée du Prado est l'une des représentations les plus puissantes et les plus universelles de la résistance face à la tyrannie. Commandée par le gouvernement provisoire espagnol après l'expulsion de l'armée napoléonienne, l'œuvre commémore les exécutions sommaires de patriotes espagnols par les soldats de Napoléon, en représailles au soulèvement du 2 mai. Goya rompt ici avec la peinture d'histoire traditionnelle qui glorifiait souvent la guerre ; il choisit au contraire de montrer l'horreur nue, le sacrifice anonyme et la brutalité mécanique de la répression militaire.</p><p>La composition du tableau repose sur un contraste dramatique entre deux groupes distincts. À droite, le peloton d'exécution forme une ligne rigide, sombre et anonyme. Les soldats sont représentés de dos, leurs visages sont invisibles et leurs baïonnettes créent une ligne de force horizontale implacable qui pointe vers les condamnés. En face, à gauche, se tiennent les victimes, un groupe hétérogène de civils saisis dans une variété d'émotions : la prière, le désespoir, la colère ou la résignation. La figure centrale, un homme en chemise blanche éclatante dont les bras sont levés en croix, attire toute la lumière et l'attention du spectateur. Sa posture christique évoque le martyre et l'innocence face à la machine de mort aveugle qui lui fait face.</p><p>L'utilisation de la lumière et de la couleur est magistrale. Une grande lanterne carrée posée au sol entre les deux groupes projette une lumière crue sur les condamnés et sur le sang rouge vif des victimes déjà tombées au premier plan. Ce jeu de clair-obscur plonge le reste de la scène, notamment les collines et l'architecture de Madrid à l'arrière-plan, dans une pénombre oppressante qui souligne l'aspect nocturne et clandestin du massacre. Le traitement pictural de Goya, avec ses touches larges et son empâtement généreux, privilégie l'expression émotionnelle sur la précision du détail, faisant de ce tableau un précurseur direct de l'art moderne et une source d'inspiration majeure pour des artistes tels que Manet ou Picasso. //</p>",
+    "contemporaryArt": {
+      "title": "Guerres napoléoniennes & Restauration • Le Drame espagnol",
+      "events": [
+        "1808 : Soulèvement populaire du 2 mai à Madrid et début de la guerre d'indépendance espagnole.",
+        "1812 : Promulgation de la Constitution libérale de Cadix.",
+        "1814 : Chute de Napoléon, retour du roi Ferdinand VII et présentation du Dos de Mayo et Tres de Mayo.",
+        "1815 : Congrès de Vienne réorganisant la carte de l'Europe après Waterloo.",
+        "1819 : Géricault expose Le Radeau de la Méduse au Salon de Paris."
+      ]
+    }
+  },
+  {
+    "id": "goya_saintes_juste_et_rufine_seville_1817",
+    "artistId": "goya",
+    "artist": "Goya Francisco",
+    "artistSort": "Goya Francisco",
+    "civId": "occident",
+    "periodId": "occ_xixe",
+    "civName": "Occident : Peinture religieuse & Réalisme espagnol",
+    "title": "Saintes Juste et Rufine (Patronnes de Séville)",
+    "date": 1817,
+    "dateDisplay": "1817",
+    "century": "XIXe siècle (1817)",
+    "centuryDisplay": "XIXe s. (1817)",
+    "centuryNumeric": 1817,
+    "period": "XIXe siècle",
+    "domain": "peinture",
+    "artifactType": "Peinture à l'huile sur toile",
+    "category": "Peinture à l'huile sur toile",
+    "type": "Peinture à l'huile",
+    "medium": "Huile sur toile",
+    "dimensions": {
+      "h": 309,
+      "w": 177,
+      "display": "309 × 177 cm (Cathédrale de Séville)"
+    },
+    "site": "Catedral de Sevilla (Séville, Espagne)",
+    "originSite": "Chapelle du Calvaire, Cathédrale de Séville",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczNqnowB7afB_-8Q1qayMM5WLP-jtL0ridUlIIiY0zDQCNImIqoCtcqVn0iFJKfc1ATnXU_MiAdytWuFEHtud2cs2OPnSKw77098j_xzjkVgLc9WIGNhAJ5Ati20SkR5epH1FhK10HSkhzebTW_oI6IBBQ=w1681-h1121-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczNqnowB7afB_-8Q1qayMM5WLP-jtL0ridUlIIiY0zDQCNImIqoCtcqVn0iFJKfc1ATnXU_MiAdytWuFEHtud2cs2OPnSKw77098j_xzjkVgLc9WIGNhAJ5Ati20SkR5epH1FhK10HSkhzebTW_oI6IBBQ=w1681-h1121-s-no-gm?authuser=0",
+    "tags": [
+      "peinture",
+      "goya",
+      "séville",
+      "saintes juste et rufine",
+      "martyre",
+      "giralda"
+    ],
+    "chips": [
+      "XIXe s.",
+      "1817",
+      "Martyres de Séville",
+      "Clair-obscur divin",
+      "Cathédrale de Séville"
+    ],
+    "narrative": "<p>Installée dans la chapelle du Calvaire, cette huile sur toile de grand format illustre le virage stylistique du peintre vers une maturité expressive, mêlant dévotion religieuse et réalisme saisissant. Goya y représente les deux sœurs martyres, saintes patronnes de Séville, qui furent condamnées au troisième siècle pour avoir refusé d'adorer une idole païenne.</p><p>La composition se distingue par son équilibre et sa charge symbolique. Au centre, Juste et Rufine sont représentées avec une dignité monumentale, tenant les palmes du martyre et des pièces de poterie, rappelant leur métier de céramistes dans le quartier de Triana. À leurs pieds gisent les débris de l'idole de Salambô qu'elles ont renversée, tandis qu'un lion, censé les dévorer dans l'amphithéâtre mais qui finit par leur lécher les pieds par miracle, est tapi avec une douceur surprenante. À l'arrière-plan, la silhouette de la Giralda se dessine sous un ciel tourmenté, rappelant la protection que les saintes sont censées accorder à la tour contre les tremblements de terre.</p><p>Goya utilise ici une palette de couleurs riches et contrastées, où les reflets satinés des vêtements se détachent sur un fond sombre et vaporeux. La lumière, typique du clair-obscur de l'artiste, ne provient pas d'une source naturelle mais semble émaner du divin, éclairant les visages des saintes d'une sérénité empreinte de gravité. Le traitement des textures et l'expression humaine des visages éloignent cette œuvre de l'idéalisation néoclassique rigide pour privilégier une émotion plus directe et moderne. Ce tableau demeure l'un des rares témoignages de la présence du génie aragonais au sein du trésor artistique de la cathédrale, fusionnant l'histoire locale de Séville avec l'esthétique tourmentée du début du dix-neuvième siècle. //</p>",
+    "desc": "<p>Installée dans la chapelle du Calvaire, cette huile sur toile de grand format illustre le virage stylistique du peintre vers une maturité expressive, mêlant dévotion religieuse et réalisme saisissant. Goya y représente les deux sœurs martyres, saintes patronnes de Séville, qui furent condamnées au troisième siècle pour avoir refusé d'adorer une idole païenne.</p><p>La composition se distingue par son équilibre et sa charge symbolique. Au centre, Juste et Rufine sont représentées avec une dignité monumentale, tenant les palmes du martyre et des pièces de poterie, rappelant leur métier de céramistes dans le quartier de Triana. À leurs pieds gisent les débris de l'idole de Salambô qu'elles ont renversée, tandis qu'un lion, censé les dévorer dans l'amphithéâtre mais qui finit par leur lécher les pieds par miracle, est tapi avec une douceur surprenante. À l'arrière-plan, la silhouette de la Giralda se dessine sous un ciel tourmenté, rappelant la protection que les saintes sont censées accorder à la tour contre les tremblements de terre.</p><p>Goya utilise ici une palette de couleurs riches et contrastées, où les reflets satinés des vêtements se détachent sur un fond sombre et vaporeux. La lumière, typique du clair-obscur de l'artiste, ne provient pas d'une source naturelle mais semble émaner du divin, éclairant les visages des saintes d'une sérénité empreinte de gravité. Le traitement des textures et l'expression humaine des visages éloignent cette œuvre de l'idéalisation néoclassique rigide pour privilégier une émotion plus directe et moderne. Ce tableau demeure l'un des rares témoignages de la présence du génie aragonais au sein du trésor artistique de la cathédrale, fusionnant l'histoire locale de Séville avec l'esthétique tourmentée du début du dix-neuvième siècle. //</p>",
+    "contemporaryArt": {
+      "title": "Restauration absolutiste en Espagne • Triennat libéral à l'horizon",
+      "events": [
+        "1814 : Rétablissement de l'Inquisition en Espagne par Ferdinand VII.",
+        "1817 : Commande et installation du retable de Saintes Juste et Rufine à la cathédrale de Séville.",
+        "1819 : Goya acquiert la Quinta del Sordo sur les rives du Manzanares près de Madrid.",
+        "1820 : Pronunciamiento de Rafael del Riego ouvrant le Triennat libéral en Espagne.",
+        "1824 : Goya quitte l'Espagne absolutiste pour s'exiler à Bordeaux."
+      ]
+    }
+  },
+  {
+    "id": "goya_saturne_devorant_un_de_ses_fils_prado_1823",
+    "artistId": "goya",
+    "artist": "Goya Francisco",
+    "artistSort": "Goya Francisco",
+    "civId": "occident",
+    "periodId": "occ_xixe",
+    "civName": "Occident : Les Peintures Noires & Précurseur de l'Expressionnisme",
+    "title": "Saturne dévorant un de ses fils (Peintures noires)",
+    "date": 1823,
+    "dateDisplay": "1819–1823",
+    "century": "XIXe siècle (1819-1823)",
+    "centuryDisplay": "XIXe s. (1819–1823)",
+    "centuryNumeric": 1823,
+    "period": "XIXe siècle",
+    "domain": "peinture",
+    "artifactType": "Peinture à l'huile transposée sur toile",
+    "category": "Peinture à l'huile sur toile",
+    "type": "Peinture à l'huile",
+    "medium": "Huile sur enduit mural transposée sur toile",
+    "dimensions": {
+      "h": 143.5,
+      "w": 81.4,
+      "display": "143,5 × 81,4 cm (Musée du Prado, Madrid)"
+    },
+    "site": "Museo del Prado (Madrid, Espagne)",
+    "originSite": "Salle à manger du rez-de-chaussée de la Quinta del Sordo (Madrid)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczMZaZwWViIJNeku-HzDir5m0uUf701oh6hss1XBAdAIf8lsZMHzaaw2qAuBdJrqWB9uzKzPzpWi382Sbd0G_iG85qeJDIcy50JYozEEJmFLD3G15f6Pi1TJ0-ma2lzSBAvPvADlub9niJwLONjgQVFiSw=w1316-h2416-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczMZaZwWViIJNeku-HzDir5m0uUf701oh6hss1XBAdAIf8lsZMHzaaw2qAuBdJrqWB9uzKzPzpWi382Sbd0G_iG85qeJDIcy50JYozEEJmFLD3G15f6Pi1TJ0-ma2lzSBAvPvADlub9niJwLONjgQVFiSw=w1316-h2416-s-no-gm?authuser=0",
+    "tags": [
+      "peinture",
+      "goya",
+      "saturne",
+      "peintures noires",
+      "mythe",
+      "prado",
+      "expressionnisme"
+    ],
+    "chips": [
+      "XIXe s.",
+      "1819-1823",
+      "Peintures Noires",
+      "Mythologie tragique",
+      "Musée du Prado"
+    ],
+    "narrative": "<p>Cette œuvre magistrale de Francisco de Goya, peinte entre 1819 et 1823, constitue l'un des piliers les plus terrifiants et fascinants de la série des Peintures noires. À l'origine réalisée à l'huile directement sur les murs de sa demeure, la Quinta del Sordo, près de Madrid, elle a été transférée sur toile à la fin du XIXe siècle avant de rejoindre les collections du musée du Prado. Le tableau illustre le mythe antique de Cronos qui, craignant d'être détrôné par l'un de ses enfants, décida de les dévorer à leur naissance. Goya s'éloigne toutefois de la représentation classique et académique de ce thème pour livrer une vision d'une violence psychologique et physique brute, marquant une rupture définitive avec les conventions esthétiques de son temps.</p><p>La composition se concentre sur une figure colossale et déformée émergeant d'une obscurité quasi totale. Saturne est représenté dans une posture accroupie, les jambes fléchies et les mains crispées sur le corps de sa progéniture. Contrairement aux versions antérieures de Rubens, où le dieu est dépeint avec une certaine noblesse tragique, le Saturne de Goya est un monstre aux yeux exorbités, dont l'expression mêle la folie, la terreur et une pulsion sauvage. Sa bouche béante est sur le point d'engloutir le bras restant d'un corps déjà mutilé, décapité, dont la chair blanche et exsangue contraste violemment avec le fond sombre et les teintes terreuses du corps du géant. Le sang rouge vif qui coule sur le cadavre constitue la seule note de couleur saturée, attirant irrémédiablement le regard vers l'acte de dévoration.</p><p>La technique employée par Goya renforce l'aspect cauchemardesque de la scène. Les coups de pinceau sont rapides, épais et semblent presque griffonner la surface, créant une texture nerveuse qui souligne l'instabilité mentale du protagoniste. La lumière ne provient d'aucune source naturelle identifiable ; elle semble émaner des corps eux-mêmes, isolant cette horreur dans un vide intemporel. Cette œuvre est souvent interprétée comme une allégorie du temps qui détruit tout, mais aussi comme une réflexion amère sur la situation politique de l'Espagne de l'époque ou sur la propre déchéance physique et la surdité de l'artiste. Par sa modernité radicale et sa puissance expressive, ce tableau préfigure les courants expressionnistes du XXe siècle. //  Gozzoli</p>",
+    "desc": "<p>Cette œuvre magistrale de Francisco de Goya, peinte entre 1819 et 1823, constitue l'un des piliers les plus terrifiants et fascinants de la série des Peintures noires. À l'origine réalisée à l'huile directement sur les murs de sa demeure, la Quinta del Sordo, près de Madrid, elle a été transférée sur toile à la fin du XIXe siècle avant de rejoindre les collections du musée du Prado. Le tableau illustre le mythe antique de Cronos qui, craignant d'être détrôné par l'un de ses enfants, décida de les dévorer à leur naissance. Goya s'éloigne toutefois de la représentation classique et académique de ce thème pour livrer une vision d'une violence psychologique et physique brute, marquant une rupture définitive avec les conventions esthétiques de son temps.</p><p>La composition se concentre sur une figure colossale et déformée émergeant d'une obscurité quasi totale. Saturne est représenté dans une posture accroupie, les jambes fléchies et les mains crispées sur le corps de sa progéniture. Contrairement aux versions antérieures de Rubens, où le dieu est dépeint avec une certaine noblesse tragique, le Saturne de Goya est un monstre aux yeux exorbités, dont l'expression mêle la folie, la terreur et une pulsion sauvage. Sa bouche béante est sur le point d'engloutir le bras restant d'un corps déjà mutilé, décapité, dont la chair blanche et exsangue contraste violemment avec le fond sombre et les teintes terreuses du corps du géant. Le sang rouge vif qui coule sur le cadavre constitue la seule note de couleur saturée, attirant irrémédiablement le regard vers l'acte de dévoration.</p><p>La technique employée par Goya renforce l'aspect cauchemardesque de la scène. Les coups de pinceau sont rapides, épais et semblent presque griffonner la surface, créant une texture nerveuse qui souligne l'instabilité mentale du protagoniste. La lumière ne provient d'aucune source naturelle identifiable ; elle semble émaner des corps eux-mêmes, isolant cette horreur dans un vide intemporel. Cette œuvre est souvent interprétée comme une allégorie du temps qui détruit tout, mais aussi comme une réflexion amère sur la situation politique de l'Espagne de l'époque ou sur la propre déchéance physique et la surdité de l'artiste. Par sa modernité radicale et sa puissance expressive, ce tableau préfigure les courants expressionnistes du XXe siècle. //  Gozzoli</p>",
+    "contemporaryArt": {
+      "title": "Années 1820 • L'Europe de la Sainte-Alliance & Les Visions crépusculaires de Goya",
+      "events": [
+        "1819 : Goya commence à peindre les quatorze visions hallucinées des Peintures Noires sur les murs de la Quinta del Sordo.",
+        "1821 : Mort de Napoléon Bonaparte à Sainte-Hélène.",
+        "1823 : Expédition française des Cent Mille Fils de Saint Louis rétablissant l'absolutisme en Espagne.",
+        "1824 : Goya s'exile volontairement en France et s'établit à Bordeaux.",
+        "1828 : Mort de Goya à Bordeaux à l'âge de 82 ans."
+      ]
+    }
+  },
+  {
+    "id": "gozzoli_cortege_des_mages_jeune_roi_florence_1459",
+    "artistId": "gozzoli",
+    "artist": "Gozzoli Benozzo",
+    "artistSort": "Gozzoli Benozzo",
+    "civId": "occident",
+    "periodId": "occ_renaissance",
+    "civName": "Occident : Première Renaissance florentine (Quattrocento)",
+    "title": "Cortège des Mages : Le jeune Roi et le défilé des Médicis",
+    "date": 1459,
+    "dateDisplay": "1459–1461",
+    "century": "XVe siècle (1459)",
+    "centuryDisplay": "XVe s. (1459–1461)",
+    "centuryNumeric": 1459,
+    "period": "XVe siècle",
+    "domain": "peinture",
+    "artifactType": "Fresque murale monumentale",
+    "category": "Fresque murale monumentale",
+    "type": "Fresque",
+    "medium": "Fresque rehaussée à l'or et lapis-lazuli",
+    "dimensions": {
+      "h": 400,
+      "w": 500,
+      "display": "400 × 500 cm (Fresque murale monumentale, Chapelle des Mages)"
+    },
+    "site": "Palazzo Medici-Riccardi (Florence, Italie)",
+    "originSite": "Chapelle des Mages, Palais Médicis (Florence)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczN7VYAUYcyYhnIjLUGyZs0EazSdSW419WgSwfXukVA2P1K-94P09gfbzrRF-asvxitG5-CIqC1_0gJ-xO3Jf17AGZnOeLn-QqMc9B1jrh9RqbjUIXYTO_kLvAadgsLLYzBZ62vfxY8ch165crXWLDaM1A=w1681-h1121-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczN7VYAUYcyYhnIjLUGyZs0EazSdSW419WgSwfXukVA2P1K-94P09gfbzrRF-asvxitG5-CIqC1_0gJ-xO3Jf17AGZnOeLn-QqMc9B1jrh9RqbjUIXYTO_kLvAadgsLLYzBZ62vfxY8ch165crXWLDaM1A=w1681-h1121-s-no-gm?authuser=0",
+    "tags": [
+      "peinture",
+      "fresque",
+      "gozzoli",
+      "chapelle des mages",
+      "médicis",
+      "florence"
+    ],
+    "chips": [
+      "XVe s.",
+      "1459",
+      "Chapelle des Mages",
+      "Cortège princier",
+      "Palais Médicis"
+    ],
+    "narrative": "<p>Cette fresque monumentale, fleuron du palais Medici-Riccardi à Florence, constitue l'un des cycles décoratifs les plus célèbres du Quattrocento. Commandée par les Médicis vers 1459 — la date de 1440 étant davantage associée aux débuts de l'artiste auprès de Fra Angelico — cette œuvre transforme la chapelle privée en un espace de célébration dynastique. Benozzo Gozzoli y déploie le cortège des rois mages avec une profusion de détails et une richesse de couleurs qui rappellent l'esthétique du gothique international tout en intégrant les innovations spatiales de la Renaissance florentine.</p><p>La scène dépeint une procession fastueuse qui serpente à travers un paysage rocheux et fantastique, évoquant une tapisserie vivante. Au centre de ce détail, le jeune mage, traditionnellement identifié à Laurent le Magnifique adolescent ou à une figure idéalisée de la jeunesse princière, chevauche un destrier blanc caparaçonné d'or et de rouge. Il est entouré d'une foule compacte composée de membres de la famille Médicis, de leurs alliés et de figures illustres de l'époque. Cette mise en scène permet d'associer la puissance temporelle de la famille au voyage spirituel des mages, légitimant ainsi leur autorité par le sacré.</p><p>Le paysage qui sert de décor est traité avec une minutie exceptionnelle, mêlant des éléments de la campagne toscane à des réminiscences de l'Orient biblique. On y observe des scènes de chasse au cerf, des oiseaux exotiques et une flore variée où chaque arbre et chaque bosquet semble peint avec la précision d'un enlumineur. Les rochers escarpés et les châteaux fortifiés à l'horizon accentuent la verticalité de la composition et créent une profondeur de champ rythmée par le mouvement sinueux du cortège. L'usage généreux de la feuille d'or et des pigments précieux comme le lapis-lazuli souligne le luxe inouï de la commande.</p><p>La force de cette œuvre réside dans sa capacité à fusionner le portrait contemporain et le récit religieux. Les visages des participants, dont certains sont des portraits authentiques de dignitaires florentins et byzantins, témoignent de la virtuosité de Gozzoli dans l'art de la physionomie. La fresque ne se contente pas d'illustrer une scène biblique, elle immortalise la splendeur de la cour des Médicis et le cosmopolitisme de Florence au milieu du XVe siècle, transformant la chapelle en un véritable manifeste politique et artistique. //</p>",
+    "desc": "<p>Cette fresque monumentale, fleuron du palais Medici-Riccardi à Florence, constitue l'un des cycles décoratifs les plus célèbres du Quattrocento. Commandée par les Médicis vers 1459 — la date de 1440 étant davantage associée aux débuts de l'artiste auprès de Fra Angelico — cette œuvre transforme la chapelle privée en un espace de célébration dynastique. Benozzo Gozzoli y déploie le cortège des rois mages avec une profusion de détails et une richesse de couleurs qui rappellent l'esthétique du gothique international tout en intégrant les innovations spatiales de la Renaissance florentine.</p><p>La scène dépeint une procession fastueuse qui serpente à travers un paysage rocheux et fantastique, évoquant une tapisserie vivante. Au centre de ce détail, le jeune mage, traditionnellement identifié à Laurent le Magnifique adolescent ou à une figure idéalisée de la jeunesse princière, chevauche un destrier blanc caparaçonné d'or et de rouge. Il est entouré d'une foule compacte composée de membres de la famille Médicis, de leurs alliés et de figures illustres de l'époque. Cette mise en scène permet d'associer la puissance temporelle de la famille au voyage spirituel des mages, légitimant ainsi leur autorité par le sacré.</p><p>Le paysage qui sert de décor est traité avec une minutie exceptionnelle, mêlant des éléments de la campagne toscane à des réminiscences de l'Orient biblique. On y observe des scènes de chasse au cerf, des oiseaux exotiques et une flore variée où chaque arbre et chaque bosquet semble peint avec la précision d'un enlumineur. Les rochers escarpés et les châteaux fortifiés à l'horizon accentuent la verticalité de la composition et créent une profondeur de champ rythmée par le mouvement sinueux du cortège. L'usage généreux de la feuille d'or et des pigments précieux comme le lapis-lazuli souligne le luxe inouï de la commande.</p><p>La force de cette œuvre réside dans sa capacité à fusionner le portrait contemporain et le récit religieux. Les visages des participants, dont certains sont des portraits authentiques de dignitaires florentins et byzantins, témoignent de la virtuosité de Gozzoli dans l'art de la physionomie. La fresque ne se contente pas d'illustrer une scène biblique, elle immortalise la splendeur de la cour des Médicis et le cosmopolitisme de Florence au milieu du XVe siècle, transformant la chapelle en un véritable manifeste politique et artistique. //</p>",
+    "contemporaryArt": {
+      "title": "Quattrocento • L'Âge de Cosme l'Ancien & Le Concile de Florence",
+      "events": [
+        "1439 : Concile œcuménique de Ferrare-Florence réunissant les délégations byzantines et occidentales.",
+        "1453 : Prise de Constantinople par les Ottomans ; afflux d'érudits grecs à Florence.",
+        "1459 : Cosme l'Ancien et Pierre de Médicis commandent à Benozzo Gozzoli le décor de la Chapelle des Mages.",
+        "1464 : Mort de Cosme l'Ancien, proclamé Pater Patriae par la Seigneurie de Florence.",
+        "1469 : Laurent le Magnifique prend la tête des affaires de l'État florentin."
+      ]
+    }
+  },
+  {
+    "id": "gozzoli_cortege_des_mages_chasse_guepard_florence_1459",
+    "artistId": "gozzoli",
+    "artist": "Gozzoli Benozzo",
+    "artistSort": "Gozzoli Benozzo",
+    "civId": "occident",
+    "periodId": "occ_renaissance",
+    "civName": "Occident : Première Renaissance florentine (Quattrocento)",
+    "title": "Cortège des Mages : Chasse princière et guépard apprivoisé",
+    "date": 1459,
+    "dateDisplay": "1459–1461",
+    "century": "XVe siècle (1459)",
+    "centuryDisplay": "XVe s. (1459–1461)",
+    "centuryNumeric": 1459,
+    "period": "XVe siècle",
+    "domain": "peinture",
+    "artifactType": "Fresque murale monumentale",
+    "category": "Fresque murale monumentale",
+    "type": "Fresque",
+    "medium": "Fresque rehaussée à l'or",
+    "dimensions": {
+      "h": 400,
+      "w": 500,
+      "display": "400 × 500 cm (Fresque murale monumentale, Chapelle des Mages)"
+    },
+    "site": "Palazzo Medici-Riccardi (Florence, Italie)",
+    "originSite": "Chapelle des Mages, Palais Médicis (Florence)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczPNzNLSnE4HIb2StAwpek4cvERV9eqQaFdDnciax9Lp2JSjidg3C4HfA2D34aZiRvEpEQJil128gfnDBuAltsfzJOn-KQOUFNvgUfky-_vxVEaMo1WFKs5GrAcRB3fgjJxMM1hD7_nUlR4KdHUm0oLikA=w1681-h1121-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczPNzNLSnE4HIb2StAwpek4cvERV9eqQaFdDnciax9Lp2JSjidg3C4HfA2D34aZiRvEpEQJil128gfnDBuAltsfzJOn-KQOUFNvgUfky-_vxVEaMo1WFKs5GrAcRB3fgjJxMM1hD7_nUlR4KdHUm0oLikA=w1681-h1121-s-no-gm?authuser=0",
+    "tags": [
+      "peinture",
+      "fresque",
+      "gozzoli",
+      "guépard",
+      "chasse",
+      "médicis",
+      "florence"
+    ],
+    "chips": [
+      "XVe s.",
+      "1459",
+      "Guépard & Chasse",
+      "Animaux exotiques",
+      "Palais Médicis"
+    ],
+    "narrative": "<p>Ce détail de la Chapelle des Mages, peinte par Benozzo Gozzoli vers 1459, illustre la densité narrative et la richesse décorative qui caractérisent ce cycle de fresques du palais Medici-Riccardi. L'artiste y déploie une procession foisonnante où l'aristocratie florentine se mêle aux figures bibliques dans un cadre d'une élégance absolue. Au premier plan, la figure d’un jeune cavalier, souvent identifié à un membre de la famille Médicis ou à un prince idéal, chevauche un cheval richement harnaché, tandis que derrière lui se presse une foule de dignitaires aux traits individualisés, témoignant du génie de Gozzoli pour le portrait.</p><p>L'aspect le plus fascinant de ce détail est l'intégration d'éléments exotiques et de scènes de genre au sein de la marche solennelle. On remarque notamment un guépard apprivoisé, assis à l'arrière de la selle d'un cavalier en bleu, symbole du luxe et des divertissements de cour prisés par la noblesse de l'époque. Plus loin, un singe est perché sur le caparaçon d'un autre cheval, ajoutant une touche de curiosité naturaliste. Ces animaux, tout comme les scènes de chasse au cerf visibles sur les pentes rocheuses à l'arrière-plan, transforment le voyage des mages en une véritable partie de plaisir princière, reflétant le mode de vie fastueux de la Renaissance.</p><p>Le paysage escarpé qui sert de toile de fond est structuré par des formations rocheuses stylisées, presque fantastiques, qui créent différents niveaux de lecture. Sur les hauteurs, des cavaliers miniatures et des châteaux fortifiés suggèrent la distance, tandis qu'au niveau du cortège, la végétation est traitée avec une précision botanique remarquable. Des arbres élancés et des arbustes chargés de fruits ponctuent la marche, offrant un contraste vertical avec l'avancée horizontale de la foule. La lumière semble émaner de la scène elle-même, faisant briller les étoffes brodées d'or, les parures de tête variées et les cuirs finement travaillés des harnachements.</p><p>L'œuvre de Gozzoli se distingue ici par son horreur du vide : chaque recoin de la fresque est occupé par un détail signifiant ou décoratif. Les expressions des personnages, tournées vers le spectateur ou engagées dans des conversations silencieuses, confèrent à cette procession religieuse une humanité et une présence immédiate. Par cette profusion de détails, Benozzo Gozzoli réussit à faire de cette chapelle un espace où le temps biblique et le temps présent des Médicis se rejoignent dans une célébration éternelle de la beauté et de la puissance. //</p>",
+    "desc": "<p>Ce détail de la Chapelle des Mages, peinte par Benozzo Gozzoli vers 1459, illustre la densité narrative et la richesse décorative qui caractérisent ce cycle de fresques du palais Medici-Riccardi. L'artiste y déploie une procession foisonnante où l'aristocratie florentine se mêle aux figures bibliques dans un cadre d'une élégance absolue. Au premier plan, la figure d’un jeune cavalier, souvent identifié à un membre de la famille Médicis ou à un prince idéal, chevauche un cheval richement harnaché, tandis que derrière lui se presse une foule de dignitaires aux traits individualisés, témoignant du génie de Gozzoli pour le portrait.</p><p>L'aspect le plus fascinant de ce détail est l'intégration d'éléments exotiques et de scènes de genre au sein de la marche solennelle. On remarque notamment un guépard apprivoisé, assis à l'arrière de la selle d'un cavalier en bleu, symbole du luxe et des divertissements de cour prisés par la noblesse de l'époque. Plus loin, un singe est perché sur le caparaçon d'un autre cheval, ajoutant une touche de curiosité naturaliste. Ces animaux, tout comme les scènes de chasse au cerf visibles sur les pentes rocheuses à l'arrière-plan, transforment le voyage des mages en une véritable partie de plaisir princière, reflétant le mode de vie fastueux de la Renaissance.</p><p>Le paysage escarpé qui sert de toile de fond est structuré par des formations rocheuses stylisées, presque fantastiques, qui créent différents niveaux de lecture. Sur les hauteurs, des cavaliers miniatures et des châteaux fortifiés suggèrent la distance, tandis qu'au niveau du cortège, la végétation est traitée avec une précision botanique remarquable. Des arbres élancés et des arbustes chargés de fruits ponctuent la marche, offrant un contraste vertical avec l'avancée horizontale de la foule. La lumière semble émaner de la scène elle-même, faisant briller les étoffes brodées d'or, les parures de tête variées et les cuirs finement travaillés des harnachements.</p><p>L'œuvre de Gozzoli se distingue ici par son horreur du vide : chaque recoin de la fresque est occupé par un détail signifiant ou décoratif. Les expressions des personnages, tournées vers le spectateur ou engagées dans des conversations silencieuses, confèrent à cette procession religieuse une humanité et une présence immédiate. Par cette profusion de détails, Benozzo Gozzoli réussit à faire de cette chapelle un espace où le temps biblique et le temps présent des Médicis se rejoignent dans une célébration éternelle de la beauté et de la puissance. //</p>",
+    "contemporaryArt": {
+      "title": "Quattrocento • L'Âge de Cosme l'Ancien & Le Concile de Florence",
+      "events": [
+        "1439 : Concile œcuménique de Ferrare-Florence réunissant les délégations byzantines et occidentales.",
+        "1453 : Prise de Constantinople par les Ottomans ; afflux d'érudits grecs à Florence.",
+        "1459 : Cosme l'Ancien et Pierre de Médicis commandent à Benozzo Gozzoli le décor de la Chapelle des Mages.",
+        "1464 : Mort de Cosme l'Ancien, proclamé Pater Patriae par la Seigneurie de Florence.",
+        "1469 : Laurent le Magnifique prend la tête des affaires de l'État florentin."
+      ]
+    }
+  },
+  {
+    "id": "gozzoli_cortege_des_mages_portraits_medicis_florence_1459",
+    "artistId": "gozzoli",
+    "artist": "Gozzoli Benozzo",
+    "artistSort": "Gozzoli Benozzo",
+    "civId": "occident",
+    "periodId": "occ_renaissance",
+    "civName": "Occident : Première Renaissance florentine (Quattrocento)",
+    "title": "Cortège des Mages : Portraits de Cosme l'Ancien et de la dynastie Médicis",
+    "date": 1459,
+    "dateDisplay": "1459–1461",
+    "century": "XVe siècle (1459)",
+    "centuryDisplay": "XVe s. (1459–1461)",
+    "centuryNumeric": 1459,
+    "period": "XVe siècle",
+    "domain": "peinture",
+    "artifactType": "Fresque murale monumentale",
+    "category": "Fresque murale monumentale",
+    "type": "Fresque",
+    "medium": "Fresque et or",
+    "dimensions": {
+      "h": 400,
+      "w": 500,
+      "display": "400 × 500 cm (Fresque murale monumentale, Chapelle des Mages)"
+    },
+    "site": "Palazzo Medici-Riccardi (Florence, Italie)",
+    "originSite": "Chapelle des Mages, Palais Médicis (Florence)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczPfSYumFcnq_99gNVcCwVBsw0OBKLwZYjc8Q63Ddflq49VYAEQrnyKzZ33h7q4OU9KuxCOwZDZZwCRrykcYbYKYQNELMdFRx1JGulmlOxjI_zi3_Rzv7SyrIskIe9i0ahtaBBs1WH_NHec9MyD02KZjvw=w1681-h1121-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczPfSYumFcnq_99gNVcCwVBsw0OBKLwZYjc8Q63Ddflq49VYAEQrnyKzZ33h7q4OU9KuxCOwZDZZwCRrykcYbYKYQNELMdFRx1JGulmlOxjI_zi3_Rzv7SyrIskIe9i0ahtaBBs1WH_NHec9MyD02KZjvw=w1681-h1121-s-no-gm?authuser=0",
+    "tags": [
+      "peinture",
+      "fresque",
+      "gozzoli",
+      "cosme l ancien",
+      "médicis",
+      "florence"
+    ],
+    "chips": [
+      "XVe s.",
+      "1459",
+      "Cosme l'Ancien",
+      "Portraits florentins",
+      "Palais Médicis"
+    ],
+    "narrative": "<p>Le panneau central ici représenté illustre une partie de la suite fastueuse accompagnant les rois mages, mais sous le couvert de l’iconographie religieuse, Gozzoli livre une chronique politique et sociale de la Florence des Médicis. La composition se caractérise par une densité exceptionnelle de personnages, créant une impression de mouvement et de richesse inouïe. L’artiste utilise une palette vive dominée par le rouge des bonnets florentins, l'or des harnachements et le bleu profond, reflétant la puissance financière de ses commanditaires.</p><p>Au centre de ce groupe, on distingue plusieurs portraits identifiables de la famille Médici et de leur entourage. Cosme l’Ancien, le patriarche, est traditionnellement identifié sur son âne, symbole d’humilité chrétienne paradoxalement entouré d’une suite princière. À ses côtés figurent ses fils, Pierre le Goutteux et Jean de Médicis, ainsi que le jeune Laurent, futur Magnifique. La précision du trait permet de saisir les traits individuels, marquant une transition importante entre le style gothique international, pour son goût du détail ornemental, et la Renaissance, pour l'affirmation du portrait réaliste.</p><p>Le traitement des textiles est particulièrement remarquable. Gozzoli détaille avec une minutie presque tactile les brocarts de soie, les damas et les velours rehaussés de fils d’or, témoignant du savoir-faire des manufactures textiles florentines qui faisaient la fortune de la cité. Les chevaux et les mules, richement caparaçonnés, sont représentés avec une anatomie soignée, leurs harnais étant ornés de devises et de symboles familiaux.</p><p>La présence de personnages aux origines diverses au sein du cortège rappelle l'ouverture cosmopolite de Florence après le Concile de 1439, qui avait vu défiler dans la ville des délégations venues d'Orient et d'Afrique. L’œuvre fonctionne ainsi comme une mise en scène de la légitimité des Médicis, se présentant comme les gardiens de la foi et les nouveaux rois de la cité toscane. Le paysage rocheux en arrière-plan, bien que stylisé, évoque les collines de Toscane tout en conservant une dimension onirique propre au voyage sacré des Mages. Cette fresque demeure l'un des témoignages les plus complets de l'art de cour florentin du XVe siècle. //</p>",
+    "desc": "<p>Le panneau central ici représenté illustre une partie de la suite fastueuse accompagnant les rois mages, mais sous le couvert de l’iconographie religieuse, Gozzoli livre une chronique politique et sociale de la Florence des Médicis. La composition se caractérise par une densité exceptionnelle de personnages, créant une impression de mouvement et de richesse inouïe. L’artiste utilise une palette vive dominée par le rouge des bonnets florentins, l'or des harnachements et le bleu profond, reflétant la puissance financière de ses commanditaires.</p><p>Au centre de ce groupe, on distingue plusieurs portraits identifiables de la famille Médici et de leur entourage. Cosme l’Ancien, le patriarche, est traditionnellement identifié sur son âne, symbole d’humilité chrétienne paradoxalement entouré d’une suite princière. À ses côtés figurent ses fils, Pierre le Goutteux et Jean de Médicis, ainsi que le jeune Laurent, futur Magnifique. La précision du trait permet de saisir les traits individuels, marquant une transition importante entre le style gothique international, pour son goût du détail ornemental, et la Renaissance, pour l'affirmation du portrait réaliste.</p><p>Le traitement des textiles est particulièrement remarquable. Gozzoli détaille avec une minutie presque tactile les brocarts de soie, les damas et les velours rehaussés de fils d’or, témoignant du savoir-faire des manufactures textiles florentines qui faisaient la fortune de la cité. Les chevaux et les mules, richement caparaçonnés, sont représentés avec une anatomie soignée, leurs harnais étant ornés de devises et de symboles familiaux.</p><p>La présence de personnages aux origines diverses au sein du cortège rappelle l'ouverture cosmopolite de Florence après le Concile de 1439, qui avait vu défiler dans la ville des délégations venues d'Orient et d'Afrique. L’œuvre fonctionne ainsi comme une mise en scène de la légitimité des Médicis, se présentant comme les gardiens de la foi et les nouveaux rois de la cité toscane. Le paysage rocheux en arrière-plan, bien que stylisé, évoque les collines de Toscane tout en conservant une dimension onirique propre au voyage sacré des Mages. Cette fresque demeure l'un des témoignages les plus complets de l'art de cour florentin du XVe siècle. //</p>",
+    "contemporaryArt": {
+      "title": "Quattrocento • L'Âge de Cosme l'Ancien & Le Concile de Florence",
+      "events": [
+        "1439 : Concile œcuménique de Ferrare-Florence réunissant les délégations byzantines et occidentales.",
+        "1453 : Prise de Constantinople par les Ottomans ; afflux d'érudits grecs à Florence.",
+        "1459 : Cosme l'Ancien et Pierre de Médicis commandent à Benozzo Gozzoli le décor de la Chapelle des Mages.",
+        "1464 : Mort de Cosme l'Ancien, proclamé Pater Patriae par la Seigneurie de Florence.",
+        "1469 : Laurent le Magnifique prend la tête des affaires de l'État florentin."
+      ]
+    }
+  },
+  {
+    "id": "gozzoli_cortege_des_mages_roi_gaspard_laurent_florence_1459",
+    "artistId": "gozzoli",
+    "artist": "Gozzoli Benozzo",
+    "artistSort": "Gozzoli Benozzo",
+    "civId": "occident",
+    "periodId": "occ_renaissance",
+    "civName": "Occident : Première Renaissance florentine (Quattrocento)",
+    "title": "Cortège des Mages : Le Roi Gaspard (Portrait présumé de Laurent le Magnifique)",
+    "date": 1459,
+    "dateDisplay": "1459–1461",
+    "century": "XVe siècle (1459)",
+    "centuryDisplay": "XVe s. (1459–1461)",
+    "centuryNumeric": 1459,
+    "period": "XVe siècle",
+    "domain": "peinture",
+    "artifactType": "Fresque murale monumentale",
+    "category": "Fresque murale monumentale",
+    "type": "Fresque",
+    "medium": "Fresque, or et lapis-lazuli",
+    "dimensions": {
+      "h": 400,
+      "w": 500,
+      "display": "400 × 500 cm (Fresque murale monumentale, Chapelle des Mages)"
+    },
+    "site": "Palazzo Medici-Riccardi (Florence, Italie)",
+    "originSite": "Chapelle des Mages, mur oriental, Palais Médicis (Florence)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczOL3Z7d9u7x1ARpb4M-jw0xLscbmrvLatTQR0LHe6hDZBs_ty-oIqZOXjGKziRftug0de3-SqwMbS4k74_n6FH9OFQDh2Ns6Vf7uaod-uQYp2ORaeNOdQjl76uZknlQT_cX2dQjGB-x1_dAjTZ-y9pWjQ=w1681-h1121-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczOL3Z7d9u7x1ARpb4M-jw0xLscbmrvLatTQR0LHe6hDZBs_ty-oIqZOXjGKziRftug0de3-SqwMbS4k74_n6FH9OFQDh2Ns6Vf7uaod-uQYp2ORaeNOdQjl76uZknlQT_cX2dQjGB-x1_dAjTZ-y9pWjQ=w1681-h1121-s-no-gm?authuser=0",
+    "tags": [
+      "peinture",
+      "fresque",
+      "gozzoli",
+      "gaspard",
+      "laurent le magnifique",
+      "médicis",
+      "florence"
+    ],
+    "chips": [
+      "XVe s.",
+      "1459",
+      "Roi Gaspard",
+      "Laurent le Magnifique",
+      "Palais Médicis"
+    ],
+    "narrative": "<p>Ce nouveau détail met en lumière la figure centrale et la plus célèbre de la fresque de Benozzo Gozzoli : Gaspard, le plus jeune des trois rois mages, représenté sur le mur oriental de la chapelle. Bien que la scène s'inscrive dans le récit biblique du voyage vers Bethléem, cette figure est largement interprétée comme un portrait idéalisé du jeune Laurent de Médicis, futur «Magnifique«.</p><p>L'œuvre, exécutée entre 1459 et 1461, témoigne de l'apogée du style de Gozzoli, mêlant le faste du gothique international à la précision de la Renaissance florentine. Le jeune roi est monté sur un cheval blanc aux harnais de cuir rouge richement ornés de motifs circulaires et dorés. Il porte une tenue d'apparat d'une complexité extrême : une tunique de brocart d'or et de soie blanche, surmontée d'un manteau assorti aux motifs floraux stylisés. Sa tête est ceinte d'une couronne d'or sertie de pierres précieuses sur un bonnet bleu foncé.</p><p>Le traitement du visage, encadré de boucles blondes soigneusement peintes, souligne sa noblesse et sa détermination. Il est entouré de pages et d'écuyers dont les traits sont également traités avec un réalisme de portraitiste. En arrière-plan, le paysage déploie une scène de chasse avec des chiens à la poursuite de gibier, une allusion aux loisirs de la noblesse de l'époque qui renforce le caractère profane et curial de cette fresque religieuse.</p><p>Cette partie du cycle de la Chapelle des Mages servait avant tout à glorifier la famille Médicis, les plaçant au cœur de l'histoire sainte. Le raffinement des couleurs, utilisant des pigments coûteux comme le lapis-lazuli et l'application abondante de feuilles d'or, visait à impressionner les hôtes illustres reçus dans cette pièce intime du palais. // </USER_REQUEST> <ADDITIONAL_METADATA> The current local time is: 2026-11-10T22:40:14+01:00.</p><p>The user's current state is as follows: Active Document: /Users/renoult/Desktop/monportailweb/panoramadesarts/app.js (LANGUAGE_UNSPECIFIED) Cursor is on line: 10791 Other open documents: - /Users/renoult/Desktop/monportailweb/panoramadesarts/style.css (LANGUAGE_UNSPECIFIED) - /Users/renoult/Desktop/monportailweb/panoramadesarts/data/data-artistes.js (LANGUAGE_UNSPECIFIED) - /Users/renoult/Desktop/monportailweb/panoramadesarts/data/data-objets2.js (LANGUAGE_UNSPECIFIED) - /Users/renoult/Desktop/monportailweb/panoramadesarts/data/data-objets3.js (LANGUAGE_UNSPECIFIED) - /Users/renoult/Desktop/monportailweb/panoramadesarts/data/data-objets4.js (LANGUAGE_UNSPECIFIED) </ADDITIONAL_METADATA></p>",
+    "desc": "<p>Ce nouveau détail met en lumière la figure centrale et la plus célèbre de la fresque de Benozzo Gozzoli : Gaspard, le plus jeune des trois rois mages, représenté sur le mur oriental de la chapelle. Bien que la scène s'inscrive dans le récit biblique du voyage vers Bethléem, cette figure est largement interprétée comme un portrait idéalisé du jeune Laurent de Médicis, futur «Magnifique«.</p><p>L'œuvre, exécutée entre 1459 et 1461, témoigne de l'apogée du style de Gozzoli, mêlant le faste du gothique international à la précision de la Renaissance florentine. Le jeune roi est monté sur un cheval blanc aux harnais de cuir rouge richement ornés de motifs circulaires et dorés. Il porte une tenue d'apparat d'une complexité extrême : une tunique de brocart d'or et de soie blanche, surmontée d'un manteau assorti aux motifs floraux stylisés. Sa tête est ceinte d'une couronne d'or sertie de pierres précieuses sur un bonnet bleu foncé.</p><p>Le traitement du visage, encadré de boucles blondes soigneusement peintes, souligne sa noblesse et sa détermination. Il est entouré de pages et d'écuyers dont les traits sont également traités avec un réalisme de portraitiste. En arrière-plan, le paysage déploie une scène de chasse avec des chiens à la poursuite de gibier, une allusion aux loisirs de la noblesse de l'époque qui renforce le caractère profane et curial de cette fresque religieuse.</p><p>Cette partie du cycle de la Chapelle des Mages servait avant tout à glorifier la famille Médicis, les plaçant au cœur de l'histoire sainte. Le raffinement des couleurs, utilisant des pigments coûteux comme le lapis-lazuli et l'application abondante de feuilles d'or, visait à impressionner les hôtes illustres reçus dans cette pièce intime du palais. // </USER_REQUEST> <ADDITIONAL_METADATA> The current local time is: 2026-11-10T22:40:14+01:00.</p><p>The user's current state is as follows: Active Document: /Users/renoult/Desktop/monportailweb/panoramadesarts/app.js (LANGUAGE_UNSPECIFIED) Cursor is on line: 10791 Other open documents: - /Users/renoult/Desktop/monportailweb/panoramadesarts/style.css (LANGUAGE_UNSPECIFIED) - /Users/renoult/Desktop/monportailweb/panoramadesarts/data/data-artistes.js (LANGUAGE_UNSPECIFIED) - /Users/renoult/Desktop/monportailweb/panoramadesarts/data/data-objets2.js (LANGUAGE_UNSPECIFIED) - /Users/renoult/Desktop/monportailweb/panoramadesarts/data/data-objets3.js (LANGUAGE_UNSPECIFIED) - /Users/renoult/Desktop/monportailweb/panoramadesarts/data/data-objets4.js (LANGUAGE_UNSPECIFIED) </ADDITIONAL_METADATA></p>",
+    "contemporaryArt": {
+      "title": "Quattrocento • L'Âge de Cosme l'Ancien & Le Concile de Florence",
+      "events": [
+        "1439 : Concile œcuménique de Ferrare-Florence réunissant les délégations byzantines et occidentales.",
+        "1453 : Prise de Constantinople par les Ottomans ; afflux d'érudits grecs à Florence.",
+        "1459 : Cosme l'Ancien et Pierre de Médicis commandent à Benozzo Gozzoli le décor de la Chapelle des Mages.",
+        "1464 : Mort de Cosme l'Ancien, proclamé Pater Patriae par la Seigneurie de Florence.",
+        "1469 : Laurent le Magnifique prend la tête des affaires de l'État florentin."
+      ]
+    }
+  },
+  {
     "id": "giottino_pieta_offices_florence_1360",
     "artistId": "giottino",
     "artist": "Giottino (Giotto di Stefano)",

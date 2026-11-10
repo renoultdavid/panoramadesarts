@@ -7645,6 +7645,18 @@ function populateModalData(art) {
 }
 
 const CERTIFIED_PAINTING_DIMENSIONS = {
+  // Francisco de Goya (4 œuvres - Musée du Louvre, Prado, Cathédrale de Séville)
+  "goya_marquise_de_la_solana_louvre_1794": { h: 181, w: 122, display: "181 × 122 cm (Musée du Louvre)" },
+  "goya_tres_de_mayo_prado_1814": { h: 268, w: 347, display: "268 × 347 cm (Musée du Prado, Madrid)" },
+  "goya_saintes_juste_et_rufine_seville_1817": { h: 309, w: 177, display: "309 × 177 cm (Cathédrale de Séville)" },
+  "goya_saturne_devorant_un_de_ses_fils_prado_1823": { h: 143.5, w: 81.4, display: "143,5 × 81,4 cm (Musée du Prado, Madrid)" },
+
+  // Benozzo Gozzoli (4 détails monumentaux - Chapelle des Mages, Florence)
+  "gozzoli_cortege_des_mages_jeune_roi_florence_1459": { h: 400, w: 500, display: "400 × 500 cm (Fresque monumentale, Chapelle des Mages, Palais Médicis)" },
+  "gozzoli_cortege_des_mages_chasse_guepard_florence_1459": { h: 400, w: 500, display: "400 × 500 cm (Fresque monumentale, Chapelle des Mages, Palais Médicis)" },
+  "gozzoli_cortege_des_mages_portraits_medicis_florence_1459": { h: 400, w: 500, display: "400 × 500 cm (Fresque monumentale, Chapelle des Mages, Palais Médicis)" },
+  "gozzoli_cortege_des_mages_roi_gaspard_laurent_florence_1459": { h: 400, w: 500, display: "400 × 500 cm (Fresque monumentale, Chapelle des Mages, Palais Médicis)" },
+
   // Giottino (1 œuvre - Galerie des Offices)
   "giottino_pieta_offices_florence_1360": { h: 195, w: 134, display: "195 × 134 cm (Galerie des Offices, Florence)" },
 
