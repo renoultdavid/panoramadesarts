@@ -16,6 +16,5576 @@
    ========================================================================== */
 window.ART_OBJECTS = [
 {
+  "id": "fresque_les_peres_du_desert_et_moines_en_priere__1",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "egypte",
+  "periodId": "egypte_romaine",
+  "civName": "Égypte Romaine, Chrétienne & Copte",
+  "century": "VIe siècle (vers 550 – 600)",
+  "centuryDisplay": "VIe s.",
+  "centuryNumeric": 575,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Les Pères du désert et moines en prière (Saqqarah)",
+  "site": "Musée copte du Caire (Le Caire, Égypte)",
+  "originSite": "Monastère de Saint-Jérémie à Saqqarah (Égypte)",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczP61eWIlIDkYtEDR5Q8FSQ7JpE90xsGzraHGZuHmx1Pu5I31xbnTlvohql2w63Cu2Ou1zHd7zrXdxVzNTkEJafRtowF_y5FkRDchzp9vHdO-bAeAjoEukvE50JmaGQmxshHgxjUZKQkrYypvxZdkQMIfg=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczP61eWIlIDkYtEDR5Q8FSQ7JpE90xsGzraHGZuHmx1Pu5I31xbnTlvohql2w63Cu2Ou1zHd7zrXdxVzNTkEJafRtowF_y5FkRDchzp9vHdO-bAeAjoEukvE50JmaGQmxshHgxjUZKQkrYypvxZdkQMIfg=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "copte",
+    "egypte",
+    "saqqarah",
+    "fresque",
+    "peinture murale",
+    "pères du désert",
+    "le caire"
+  ],
+  "chips": [
+    "VIe s.",
+    "Art copte d'Égypte",
+    "Peinture à la détrempe",
+    "Monastère Saint-Jérémie",
+    "Saqqarah"
+  ],
+  "narrative": "<p>Cette peinture murale à la détrempe, datée du VIe ou VIIe siècle, décorait initialement l'une des cellules ou l'un des oratoires du monastère de Saint-Jérémie à Saqqarah. Elle illustre la ferveur monastique qui animait la région memphite à la fin de l'Antiquité, avant que le site ne soit abandonné puis redécouvert lors des fouilles du début du XXe siècle.</p><p>La scène présente trois figures saintes, probablement des pères du désert ou des higoumènes (supérieurs) du monastère, dont les noms étaient originellement inscrits en copte à leurs côtés. Le personnage central, dans une attitude de prière intense, est flanqué de deux compagnons portant des manuscrits enluminés. Ces livres, dont les couvertures sont ornées de croix et de motifs gemmés, symbolisent la transmission de la parole divine et l'importance de la règle monastique.</p><p>Le traitement stylistique est caractéristique de l'école de Saqqarah, avec une attention particulière portée au rendu des étoffes et à la symétrie des visages. Les grands yeux ouverts, dirigés vers le spectateur, ainsi que l'utilisation de couleurs minérales contrastées créent une présence spirituelle presque hiératique. Cette œuvre est un témoignage précieux de l'art chrétien d'Égypte qui, tout en conservant certaines techniques de la peinture hellénistique, affirme une esthétique propre centrée sur le sacré et l'immuable.</p>",
+  "desc": "<p>Cette peinture murale à la détrempe, datée du VIe ou VIIe siècle, décorait initialement l'une des cellules ou l'un des oratoires du monastère de Saint-Jérémie à Saqqarah. Elle illustre la ferveur monastique qui animait la région memphite à la fin de l'Antiquité, avant que le site ne soit abandonné puis redécouvert lors des fouilles du début du XXe siècle.</p><p>La scène présente trois figures saintes, probablement des pères du désert ou des higoumènes (supérieurs) du monastère, dont les noms étaient originellement inscrits en copte à leurs côtés. Le personnage central, dans une attitude de prière intense, est flanqué de deux compagnons portant des manuscrits enluminés. Ces livres, dont les couvertures sont ornées de croix et de motifs gemmés, symbolisent la transmission de la parole divine et l'importance de la règle monastique.</p><p>Le traitement stylistique est caractéristique de l'école de Saqqarah, avec une attention particulière portée au rendu des étoffes et à la symétrie des visages. Les grands yeux ouverts, dirigés vers le spectateur, ainsi que l'utilisation de couleurs minérales contrastées créent une présence spirituelle presque hiératique. Cette œuvre est un témoignage précieux de l'art chrétien d'Égypte qui, tout en conservant certaines techniques de la peinture hellénistique, affirme une esthétique propre centrée sur le sacré et l'immuable.</p>",
+  "contemporaryArt": {
+    "title": "Haut Moyen Âge & Égypte copte",
+    "events": [
+      "Vers 527 – 565 : Règne de Justinien Ier et apogée de l'architecture byzantine avec Sainte-Sophie de Constantinople.",
+      "Vers 590 – 604 : Pontificat de Grégoire le Grand fixant la liturgie romaine et le chant grégorien.",
+      "Vers 622 : Début de l'ère musulmane (Hégire) et essor du monde islamique au Moyen-Orient.",
+      "Vers 641 : Conquête arabe de l'Égypte et maintien des communautés monastiques coptes."
+    ]
+  }
+},
+{
+  "id": "fresque_la_vierge_allaitant_l_enfant_galaktotrop_2",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "egypte",
+  "periodId": "egypte_romaine",
+  "civName": "Égypte Romaine, Chrétienne & Copte",
+  "century": "VIe – VIIe siècle",
+  "centuryDisplay": "VIe s.",
+  "centuryNumeric": 620,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "La Vierge allaitant l'Enfant (Galaktotrophousa)",
+  "site": "Musée copte du Caire (Le Caire, Égypte)",
+  "originSite": "Monastère copte (Égypte)",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczOOVgtnDMJc4--uH8nlZ_nxBz4MBflrMakWyh_fWBRS2Hw8vf-DJMG15HjlX2UbeiwEwx95T2ofp3VnKu66Ubehl7ctLtUnFwcP-n_zqjOtfRG7aq6ND_XBvjbb3xY0CadX8DivD7W5NnrSMbWXm3P9wQ=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczOOVgtnDMJc4--uH8nlZ_nxBz4MBflrMakWyh_fWBRS2Hw8vf-DJMG15HjlX2UbeiwEwx95T2ofp3VnKu66Ubehl7ctLtUnFwcP-n_zqjOtfRG7aq6ND_XBvjbb3xY0CadX8DivD7W5NnrSMbWXm3P9wQ=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "copte",
+    "egypte",
+    "galaktotrophousa",
+    "vierge allaitante",
+    "fresque",
+    "le caire"
+  ],
+  "chips": [
+    "VIe – VIIe s.",
+    "Art copte d'Égypte",
+    "Niche peinte à la détrempe",
+    "Vierge allaitante",
+    "Musée copte du Caire"
+  ],
+  "narrative": "<p>La scène centrale représente une figure maternelle trônant, identifiée comme la Vierge Marie, allaitant l'Enfant Jésus. Ce thème iconographique, connu sous le nom de Galaktotrophousa (ou Vierge allaitante), puise ses racines stylistiques et symboliques dans les représentations antiques de la déesse Isis allaitant son fils Horus, réinterprétées ici dans un contexte chrétien. L'Enfant est assis sur les genoux de sa mère, tandis qu'elle le soutient d'un geste protecteur.</p><p>Le décor architectural environnant renforce le caractère sacré de la scène. La niche est surmontée d'une série d'arcs concentriques ornés de motifs géométriques et végétaux. Dans la voussure supérieure, plusieurs visages auréolés sont représentés de face, évoquant probablement des saints ou des anges veillant sur la scène sainte.</p><p>Le style pictural est caractéristique de l'art copte du VIe au VIIIe siècle : des traits épais soulignant les yeux en amande, une palette de couleurs sobres utilisant des pigments naturels (terres, ocres et rouges) et une frontalité marquée qui privilégie la clarté du message spirituel sur le réalisme anatomique. Malgré l'usure des siècles et les lacunes du plâtre, la composition conserve une grande force d'expression et témoigne de la dévotion mariale intense qui caractérisait les communautés monastiques égyptiennes de l'époque tardo-antique.</p>",
+  "desc": "<p>La scène centrale représente une figure maternelle trônant, identifiée comme la Vierge Marie, allaitant l'Enfant Jésus. Ce thème iconographique, connu sous le nom de Galaktotrophousa (ou Vierge allaitante), puise ses racines stylistiques et symboliques dans les représentations antiques de la déesse Isis allaitant son fils Horus, réinterprétées ici dans un contexte chrétien. L'Enfant est assis sur les genoux de sa mère, tandis qu'elle le soutient d'un geste protecteur.</p><p>Le décor architectural environnant renforce le caractère sacré de la scène. La niche est surmontée d'une série d'arcs concentriques ornés de motifs géométriques et végétaux. Dans la voussure supérieure, plusieurs visages auréolés sont représentés de face, évoquant probablement des saints ou des anges veillant sur la scène sainte.</p><p>Le style pictural est caractéristique de l'art copte du VIe au VIIIe siècle : des traits épais soulignant les yeux en amande, une palette de couleurs sobres utilisant des pigments naturels (terres, ocres et rouges) et une frontalité marquée qui privilégie la clarté du message spirituel sur le réalisme anatomique. Malgré l'usure des siècles et les lacunes du plâtre, la composition conserve une grande force d'expression et témoigne de la dévotion mariale intense qui caractérisait les communautés monastiques égyptiennes de l'époque tardo-antique.</p>",
+  "contemporaryArt": {
+    "title": "Haut Moyen Âge & Égypte copte",
+    "events": [
+      "Vers 527 – 565 : Règne de Justinien Ier et apogée de l'architecture byzantine avec Sainte-Sophie de Constantinople.",
+      "Vers 590 – 604 : Pontificat de Grégoire le Grand fixant la liturgie romaine et le chant grégorien.",
+      "Vers 622 : Début de l'ère musulmane (Hégire) et essor du monde islamique au Moyen-Orient.",
+      "Vers 641 : Conquête arabe de l'Égypte et maintien des communautés monastiques coptes."
+    ]
+  }
+},
+{
+  "id": "fresque_saint_apollon_peres_du_desert_et_cavalie_3",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "egypte",
+  "periodId": "egypte_romaine",
+  "civName": "Égypte Romaine, Chrétienne & Copte",
+  "century": "VIe – VIIe siècle",
+  "centuryDisplay": "VIe s.",
+  "centuryNumeric": 620,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Saint Apollon, Pères du désert et cavaliers protecteurs (Baouit)",
+  "site": "Musée copte du Caire (Le Caire, Égypte)",
+  "originSite": "Monastère de Baouit (Moyenne-Égypte)",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczPv7fp-_O3maKpl_LwUkfCFLajm8ct8UICdxGuA3J4ADUUyvLp8I7hWXZp0R0I_1dRcJv9DabcdpnRvwAdSPLUSo6SRBplEVGAY384n3nkKk_F26sXSbFidXtetYoOLk5CStZm7Da0zsbyjcpNZ1CXDCQ=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczPv7fp-_O3maKpl_LwUkfCFLajm8ct8UICdxGuA3J4ADUUyvLp8I7hWXZp0R0I_1dRcJv9DabcdpnRvwAdSPLUSo6SRBplEVGAY384n3nkKk_F26sXSbFidXtetYoOLk5CStZm7Da0zsbyjcpNZ1CXDCQ=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "copte",
+    "egypte",
+    "baouit",
+    "fresque",
+    "peinture murale",
+    "le caire"
+  ],
+  "chips": [
+    "VIe – VIIe s.",
+    "Art copte d'Égypte",
+    "Peinture à la détrempe",
+    "Monastère de Baouit",
+    "Musée copte du Caire"
+  ],
+  "narrative": "<p>Cette lunette peinte à la détrempe, pièce maîtresse de la collection du Musée copte du Caire, provient du monastère de Baouit en Moyenne-Égypte et date du VIe ou VIIe siècle. Elle illustre parfaitement la transition entre l'art de l'Antiquité tardive et l'esthétique chrétienne médiévale égyptienne.</p><p>La composition est centrée sur trois figures masculines imposantes assises sur un large banc d'apparat. Il s'agit de trois pères du désert, figures fondatrices ou protectrices de la communauté monastique. Le personnage central, identifié par l'inscription grecque « Hagios Apollô », représente Saint Apollon, le fondateur du monastère de Baouit. Il est entouré de deux autres saints moines, tous trois tenant des évangéliaires richement reliés et levant la main droite dans un geste de bénédiction.</p><p>Aux extrémités de la fresque, deux cavaliers saints sont représentés à une échelle plus réduite. Ces figures de cavaliers protecteurs, thématique récurrente dans l'iconographie copte, symbolisent le triomphe du bien sur le mal et la protection divine accordée au monastère. Les chevaux, l'un brun et l'autre blanc, sont représentés au galop, créant un dynamisme qui contraste avec la stabilité solennelle des trois saints centraux.</p><p>Le style se caractérise par une linéarité marquée et une économie de moyens chromatiques, utilisant des ocres, des rouges terreux et des verts. Les visages sont traités avec les traits distinctifs de l'art copte : de grands yeux fixes soulignés de noir pour intensifier le regard spirituel, des nez fins et des barbes stylisées. Cette œuvre n'avait pas seulement une fonction décorative, mais servait de support à la prière et rappelait aux moines la présence constante de leurs guides spirituels et de leurs protecteurs célestes.</p>",
+  "desc": "<p>Cette lunette peinte à la détrempe, pièce maîtresse de la collection du Musée copte du Caire, provient du monastère de Baouit en Moyenne-Égypte et date du VIe ou VIIe siècle. Elle illustre parfaitement la transition entre l'art de l'Antiquité tardive et l'esthétique chrétienne médiévale égyptienne.</p><p>La composition est centrée sur trois figures masculines imposantes assises sur un large banc d'apparat. Il s'agit de trois pères du désert, figures fondatrices ou protectrices de la communauté monastique. Le personnage central, identifié par l'inscription grecque « Hagios Apollô », représente Saint Apollon, le fondateur du monastère de Baouit. Il est entouré de deux autres saints moines, tous trois tenant des évangéliaires richement reliés et levant la main droite dans un geste de bénédiction.</p><p>Aux extrémités de la fresque, deux cavaliers saints sont représentés à une échelle plus réduite. Ces figures de cavaliers protecteurs, thématique récurrente dans l'iconographie copte, symbolisent le triomphe du bien sur le mal et la protection divine accordée au monastère. Les chevaux, l'un brun et l'autre blanc, sont représentés au galop, créant un dynamisme qui contraste avec la stabilité solennelle des trois saints centraux.</p><p>Le style se caractérise par une linéarité marquée et une économie de moyens chromatiques, utilisant des ocres, des rouges terreux et des verts. Les visages sont traités avec les traits distinctifs de l'art copte : de grands yeux fixes soulignés de noir pour intensifier le regard spirituel, des nez fins et des barbes stylisées. Cette œuvre n'avait pas seulement une fonction décorative, mais servait de support à la prière et rappelait aux moines la présence constante de leurs guides spirituels et de leurs protecteurs célestes.</p>",
+  "contemporaryArt": {
+    "title": "Haut Moyen Âge & Égypte copte",
+    "events": [
+      "Vers 527 – 565 : Règne de Justinien Ier et apogée de l'architecture byzantine avec Sainte-Sophie de Constantinople.",
+      "Vers 590 – 604 : Pontificat de Grégoire le Grand fixant la liturgie romaine et le chant grégorien.",
+      "Vers 622 : Début de l'ère musulmane (Hégire) et essor du monde islamique au Moyen-Orient.",
+      "Vers 641 : Conquête arabe de l'Égypte et maintien des communautés monastiques coptes."
+    ]
+  }
+},
+{
+  "id": "fresque_christ_pantocrator_en_majeste_et_vierge__4",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "egypte",
+  "periodId": "egypte_romaine",
+  "civName": "Égypte Romaine, Chrétienne & Copte",
+  "century": "VIe – VIIe siècle",
+  "centuryDisplay": "VIe s.",
+  "centuryNumeric": 620,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Christ Pantocrator en majesté et Vierge entourée des Apôtres (Baouit)",
+  "site": "Musée copte du Caire (Le Caire, Égypte)",
+  "originSite": "Monastère de Baouit (Moyenne-Égypte)",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczOR3kIRVG5dDuuuuJEJwhB-4FOXuTVr1uaUjg_XXO1Kyfjv6QIQdClTY8P7XVuEPmoFKV5_BXH0gRRJ03W7aWG4VZ3wBlrLmrdtLJ3yt1B3lpzZCYqtHIiUYgRgKZhSbq-l7PF310VfLakvDZRzEdLVgg=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczOR3kIRVG5dDuuuuJEJwhB-4FOXuTVr1uaUjg_XXO1Kyfjv6QIQdClTY8P7XVuEPmoFKV5_BXH0gRRJ03W7aWG4VZ3wBlrLmrdtLJ3yt1B3lpzZCYqtHIiUYgRgKZhSbq-l7PF310VfLakvDZRzEdLVgg=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "copte",
+    "egypte",
+    "baouit",
+    "fresque",
+    "peinture murale",
+    "le caire"
+  ],
+  "chips": [
+    "VIe – VIIe s.",
+    "Art copte d'Égypte",
+    "Peinture à la détrempe",
+    "Monastère de Baouit",
+    "Musée copte du Caire"
+  ],
+  "narrative": "<p>Cette fresque du musée copte du Caire illustre la vision théophanique et la hiérarchie céleste selon la tradition copte antique.</p><p>La composition s'organise en deux registres superposés, créant un lien entre le monde divin et l'Église terrestre.</p><p>Au registre supérieur, le Christ en majesté (Pantocrator) trône au centre d'une mandorle circulaire. Il bénit de la main droite et tient un évangile richement orné de la main gauche. Il est entouré du Tétramorphe, les quatre créatures ailées de l'Apocalypse (l'homme, le lion, le bœuf et l'aigle), dont les ailes sont parsemées d'yeux symbolisant l'omniscience divine. De part et d'autre, les archanges Michel et Gabriel s'inclinent en signe d'adoration, agitant des encensoirs ou présentant des sceptres.</p><p>Le registre inférieur représente la Vierge Marie trônant avec l'Enfant Jésus sur ses genoux, dans une attitude de souveraineté. Elle est entourée d'une procession de douze apôtres et de deux saints locaux (probablement les fondateurs du monastère, Apollo et Phib). Chaque figure est individualisée par une inscription en grec ou en copte et tient un livre ou un rouleau, soulignant l'importance de la transmission de la Parole.</p><p>Le style est typique de l'école de Baouit : une frontalité rigoureuse, des rehauts de couleurs vives (ocres, rouges et bleus) et de grands yeux expressifs qui cherchent à établir un contact direct avec le fidèle. L'encadrement architectural, composé d'une frise de médaillons contenant des bustes de saints, complète cette représentation de la \"Communion des Saints\", transformant l'espace de la cellule monastique en un lieu de liturgie perpétuelle.</p>",
+  "desc": "<p>Cette fresque du musée copte du Caire illustre la vision théophanique et la hiérarchie céleste selon la tradition copte antique.</p><p>La composition s'organise en deux registres superposés, créant un lien entre le monde divin et l'Église terrestre.</p><p>Au registre supérieur, le Christ en majesté (Pantocrator) trône au centre d'une mandorle circulaire. Il bénit de la main droite et tient un évangile richement orné de la main gauche. Il est entouré du Tétramorphe, les quatre créatures ailées de l'Apocalypse (l'homme, le lion, le bœuf et l'aigle), dont les ailes sont parsemées d'yeux symbolisant l'omniscience divine. De part et d'autre, les archanges Michel et Gabriel s'inclinent en signe d'adoration, agitant des encensoirs ou présentant des sceptres.</p><p>Le registre inférieur représente la Vierge Marie trônant avec l'Enfant Jésus sur ses genoux, dans une attitude de souveraineté. Elle est entourée d'une procession de douze apôtres et de deux saints locaux (probablement les fondateurs du monastère, Apollo et Phib). Chaque figure est individualisée par une inscription en grec ou en copte et tient un livre ou un rouleau, soulignant l'importance de la transmission de la Parole.</p><p>Le style est typique de l'école de Baouit : une frontalité rigoureuse, des rehauts de couleurs vives (ocres, rouges et bleus) et de grands yeux expressifs qui cherchent à établir un contact direct avec le fidèle. L'encadrement architectural, composé d'une frise de médaillons contenant des bustes de saints, complète cette représentation de la \"Communion des Saints\", transformant l'espace de la cellule monastique en un lieu de liturgie perpétuelle.</p>",
+  "contemporaryArt": {
+    "title": "Haut Moyen Âge & Égypte copte",
+    "events": [
+      "Vers 527 – 565 : Règne de Justinien Ier et apogée de l'architecture byzantine avec Sainte-Sophie de Constantinople.",
+      "Vers 590 – 604 : Pontificat de Grégoire le Grand fixant la liturgie romaine et le chant grégorien.",
+      "Vers 622 : Début de l'ère musulmane (Hégire) et essor du monde islamique au Moyen-Orient.",
+      "Vers 641 : Conquête arabe de l'Égypte et maintien des communautés monastiques coptes."
+    ]
+  }
+},
+{
+  "id": "fresque_theophanie_celeste_et_vierge_orante_blac_5",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "egypte",
+  "periodId": "egypte_romaine",
+  "civName": "Égypte Romaine, Chrétienne & Copte",
+  "century": "VIe – VIIe siècle",
+  "centuryDisplay": "VIe s.",
+  "centuryNumeric": 620,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Théophanie céleste et Vierge orante Blachernitissa (Baouit)",
+  "site": "Musée copte du Caire (Le Caire, Égypte)",
+  "originSite": "Monastère de Baouit (Moyenne-Égypte)",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczPQAm7NGfewvHNVWKeq3Z690Sz-GA2-LC7WdGcJV5lx9n0py4-OlB2xqZWejRqU6Kgp8XMn5XjkcOLJWVc5NG0fJKr-l1AFMUkWgPXqDb1V1sIBEAYV3ico7GyzmPS8HxnHBRdeX2Ap7XamHA04Y9PgPA=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczPQAm7NGfewvHNVWKeq3Z690Sz-GA2-LC7WdGcJV5lx9n0py4-OlB2xqZWejRqU6Kgp8XMn5XjkcOLJWVc5NG0fJKr-l1AFMUkWgPXqDb1V1sIBEAYV3ico7GyzmPS8HxnHBRdeX2Ap7XamHA04Y9PgPA=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "copte",
+    "egypte",
+    "baouit",
+    "fresque",
+    "peinture murale",
+    "le caire"
+  ],
+  "chips": [
+    "VIe – VIIe s.",
+    "Art copte d'Égypte",
+    "Peinture à la détrempe",
+    "Monastère de Baouit",
+    "Musée copte du Caire"
+  ],
+  "narrative": "<p>La composition s'organise sur deux registres superposés qui symbolisent la hiérarchie céleste. La partie supérieure présente une théophanie : le Christ en majesté siège sur un trône serti de pierres précieuses, entouré d'une mandorle. Il est flanqué des quatre êtres vivants de l'Apocalypse et de deux bustes circulaires représentant le soleil et la lune. Cette scène évoque la vision d'Ézéchiel et le triomphe divin.</p><p>Le registre inférieur est centré sur la Vierge Marie en position d'orante, portant l'Enfant Jésus devant elle (type de la Vierge \"Blachernitissa\"). Elle est entourée des douze apôtres et de saints locaux, tous représentés de face avec de grands yeux expressifs, caractéristiques du style de Baouit. Cette juxtaposition souligne le rôle d'intercesseurs des figures terrestres auprès de la divinité souveraine.</p><p>L'œuvre se distingue par sa palette de couleurs chaudes, dominée par les ocres et les bruns, et par l'utilisation de traits noirs épais pour souligner les formes. Les inscriptions en grec et en copte qui parsèment la fresque permettaient aux moines d'identifier les figures sacrées lors de leurs méditations. L'ensemble témoigne d'une transition stylistique entre l'héritage hellénistique et la spiritualité byzantine naissante.</p>",
+  "desc": "<p>La composition s'organise sur deux registres superposés qui symbolisent la hiérarchie céleste. La partie supérieure présente une théophanie : le Christ en majesté siège sur un trône serti de pierres précieuses, entouré d'une mandorle. Il est flanqué des quatre êtres vivants de l'Apocalypse et de deux bustes circulaires représentant le soleil et la lune. Cette scène évoque la vision d'Ézéchiel et le triomphe divin.</p><p>Le registre inférieur est centré sur la Vierge Marie en position d'orante, portant l'Enfant Jésus devant elle (type de la Vierge \"Blachernitissa\"). Elle est entourée des douze apôtres et de saints locaux, tous représentés de face avec de grands yeux expressifs, caractéristiques du style de Baouit. Cette juxtaposition souligne le rôle d'intercesseurs des figures terrestres auprès de la divinité souveraine.</p><p>L'œuvre se distingue par sa palette de couleurs chaudes, dominée par les ocres et les bruns, et par l'utilisation de traits noirs épais pour souligner les formes. Les inscriptions en grec et en copte qui parsèment la fresque permettaient aux moines d'identifier les figures sacrées lors de leurs méditations. L'ensemble témoigne d'une transition stylistique entre l'héritage hellénistique et la spiritualité byzantine naissante.</p>",
+  "contemporaryArt": {
+    "title": "Haut Moyen Âge & Égypte copte",
+    "events": [
+      "Vers 527 – 565 : Règne de Justinien Ier et apogée de l'architecture byzantine avec Sainte-Sophie de Constantinople.",
+      "Vers 590 – 604 : Pontificat de Grégoire le Grand fixant la liturgie romaine et le chant grégorien.",
+      "Vers 622 : Début de l'ère musulmane (Hégire) et essor du monde islamique au Moyen-Orient.",
+      "Vers 641 : Conquête arabe de l'Égypte et maintien des communautés monastiques coptes."
+    ]
+  }
+},
+{
+  "id": "fresque_la_descente_de_croix_et_la_mise_au_tombe_6",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_medieval_paleo",
+  "civName": "Occident & Orient Chrétien : Renaissance Macédonienne",
+  "century": "XIe siècle (premier tiers, v. 1020 – 1040)",
+  "centuryDisplay": "XIe s.",
+  "centuryNumeric": 1030,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "La Descente de Croix et la Mise au tombeau (Crypte d'Hosios Loukas)",
+  "site": "Crypte du monastère d'Hosios Loukas (Béotie, Grèce)",
+  "originSite": "Crypte funéraire sous le catholicon d'Hosios Loukas",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczNHBcUrqV3RAUp0mfq2HOhJLtxlvsTxdvldUJlIIo6rqF79l0jwyJl22j2y7nnhSUFdccFs5R1e9-rVXJmg0S02xh9EJYzB48mdmGdZjQ8RSa3DPZpGk61Dgl5Z00YGWiy9rwb0sjKxi8hOoHXlVelxNQ=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczNHBcUrqV3RAUp0mfq2HOhJLtxlvsTxdvldUJlIIo6rqF79l0jwyJl22j2y7nnhSUFdccFs5R1e9-rVXJmg0S02xh9EJYzB48mdmGdZjQ8RSa3DPZpGk61Dgl5Z00YGWiy9rwb0sjKxi8hOoHXlVelxNQ=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "byzance",
+    "hosios loukas",
+    "crypte",
+    "descente de croix",
+    "passion",
+    "grèce"
+  ],
+  "chips": [
+    "XIe s.",
+    "Art byzantin",
+    "Crypte funéraire",
+    "Cycle de la Passion",
+    "Hosios Loukas (UNESCO)"
+  ],
+  "narrative": "<p>Cette fresque murale provient de la crypte du monastère d'Hosios Loukas, un espace souterrain situé directement sous le catholicon, conçu pour abriter le tombeau du saint fondateur. Contrairement aux mosaïques de l'église supérieure, les parois de la crypte sont entièrement recouvertes de peintures à l'eau réalisées sur un enduit frais, une technique de fresque qui permettait un cycle narratif extrêmement dense et détaillé. Cet ensemble iconographique est daté du premier tiers du XIe siècle, contemporain de la construction du catholicon, et constitue l'un des rares exemples de décoration picturale monumentale de cette période à nous être parvenu dans une telle cohérence.</p><p>La scène représentée ici traite du cycle de la Passion et des funérailles du Christ, un thème particulièrement approprié pour un espace funéraire. Sur la paroi de gauche, on observe la Descente de Croix (l'Apokathelosis) : le corps du Christ, marqué par une anatomie déjà plus souple que dans les mosaïques, est soutenu par Joseph d'Arimathie tandis que la Vierge Marie approche son visage de celui de son fils dans un geste d'une humanité poignante. À droite, la narration se poursuit avec la Mise au Tombeau ou les Saintes Femmes au Sépulcre, où les personnages se penchent sur le sarcophage décoré de motifs architecturaux, exprimant une douleur contenue à travers des inclinaisons de tête et des regards fixes.</p><p>Le style de la crypte se distingue par une palette chromatique plus sombre et terreuse que celle des espaces supérieurs, dominée par des fonds bleu nuit, des ocres rouges et des verts profonds. Les visages sont modelés avec une grande finesse, utilisant des traits de pinceau visibles pour souligner les expressions de deuil, ce qui confère à l'œuvre une dimension pathétique et intime propre à la fonction de la crypte. Bien que l'humidité et le passage du temps aient provoqué des lacunes dans l'enduit et une certaine décoloration des pigments, la force dramatique des compositions reste intacte, témoignant de l'excellence des ateliers de peintres actifs en Grèce centrale à l'époque byzantine.</p>",
+  "desc": "<p>Cette fresque murale provient de la crypte du monastère d'Hosios Loukas, un espace souterrain situé directement sous le catholicon, conçu pour abriter le tombeau du saint fondateur. Contrairement aux mosaïques de l'église supérieure, les parois de la crypte sont entièrement recouvertes de peintures à l'eau réalisées sur un enduit frais, une technique de fresque qui permettait un cycle narratif extrêmement dense et détaillé. Cet ensemble iconographique est daté du premier tiers du XIe siècle, contemporain de la construction du catholicon, et constitue l'un des rares exemples de décoration picturale monumentale de cette période à nous être parvenu dans une telle cohérence.</p><p>La scène représentée ici traite du cycle de la Passion et des funérailles du Christ, un thème particulièrement approprié pour un espace funéraire. Sur la paroi de gauche, on observe la Descente de Croix (l'Apokathelosis) : le corps du Christ, marqué par une anatomie déjà plus souple que dans les mosaïques, est soutenu par Joseph d'Arimathie tandis que la Vierge Marie approche son visage de celui de son fils dans un geste d'une humanité poignante. À droite, la narration se poursuit avec la Mise au Tombeau ou les Saintes Femmes au Sépulcre, où les personnages se penchent sur le sarcophage décoré de motifs architecturaux, exprimant une douleur contenue à travers des inclinaisons de tête et des regards fixes.</p><p>Le style de la crypte se distingue par une palette chromatique plus sombre et terreuse que celle des espaces supérieurs, dominée par des fonds bleu nuit, des ocres rouges et des verts profonds. Les visages sont modelés avec une grande finesse, utilisant des traits de pinceau visibles pour souligner les expressions de deuil, ce qui confère à l'œuvre une dimension pathétique et intime propre à la fonction de la crypte. Bien que l'humidité et le passage du temps aient provoqué des lacunes dans l'enduit et une certaine décoloration des pigments, la force dramatique des compositions reste intacte, témoignant de l'excellence des ateliers de peintres actifs en Grèce centrale à l'époque byzantine.</p>",
+  "contemporaryArt": {
+    "title": "Moyen Âge central • Âge d'or de l'Art Roman & Moines bâtisseurs",
+    "events": [
+      "1066 : Conquête normande de l'Angleterre par Guillaume le Conquérant et Tapisserie de Bayeux.",
+      "1095 : Appel de Clermont par le pape Urbain II et prédication de la Première Croisade.",
+      "1098 : Fondation de l'ordre de Cîteaux par Robert de Molesme et essor du monachisme cistercien.",
+      "1100 – 1150 : Essor des grands chantiers de pèlerinage vers Saint-Jacques-de-Compostelle et Rome."
+    ]
+  }
+},
+{
+  "id": "fresque_la_vierge_theotokos_en_majeste_et_le_pat_7",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_roman",
+  "civName": "Occident : Art Roman d'Italie du Nord",
+  "century": "XIe siècle (vers 1031)",
+  "centuryDisplay": "XIe s. (1031)",
+  "centuryNumeric": 1031,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "La Vierge Theotokos en majesté et le patriarche Poppon (Abside d'Aquilée)",
+  "site": "Basilique patriarcale d'Aquilée (Frioul, Italie)",
+  "originSite": "Cul-de-four de l'abside de la basilique d'Aquilée",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczM7tfx2OMh4LHbV9SbDuUHWXQPRkrKXozB_FPGWoYjdtCZXCWGUKGlCZM6CVKQWGtTPWQViVpJrSgyCpmYyoRns8cXlfcfWpTnwD-9qwSPs_7H2BXRnvcxe4aw10TlniHiZ8hFVlWnMbzrVERgOB8hHQw=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczM7tfx2OMh4LHbV9SbDuUHWXQPRkrKXozB_FPGWoYjdtCZXCWGUKGlCZM6CVKQWGtTPWQViVpJrSgyCpmYyoRns8cXlfcfWpTnwD-9qwSPs_7H2BXRnvcxe4aw10TlniHiZ8hFVlWnMbzrVERgOB8hHQw=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "italie",
+    "aquilée",
+    "roman",
+    "crypte",
+    "poppon",
+    "fresque"
+  ],
+  "chips": [
+    "1031",
+    "Art roman italo-byzantin",
+    "Abside monumentale",
+    "Patriarche Poppon",
+    "Aquilée (UNESCO)"
+  ],
+  "narrative": "<p>Cette fresque monumentale, ornant le cul-de-four de l'abside de la basilique patriarcale d'Aquilée, constitue un chef-d'œuvre de la peinture médiévale romane du XIe siècle, commandé par le patriarche Poppon lors de la reconstruction de l'édifice. La composition s'articule autour d'une imposante mandorle centrale, symbole de la gloire divine, au sein de laquelle trône la Vierge à l'Enfant. Marie est représentée en Theotokos, Mère de Dieu, assise sur un trône richement orné, tenant l'Enfant Jésus sur ses genoux. Le Christ enfant, de face, lève la main en signe de bénédiction, incarnant la Sagesse divine. Autour de cette figure centrale, le registre supérieur présente les symboles des quatre Évangélistes, le Tétramorphe, émergeant d'un fond de nuées stylisées qui marquent la limite entre le monde terrestre et le royaume céleste.</p><p>De part et d'autre de la mandorle, une procession solennelle de saints et de martyrs de l'Église d'Aquilée se déploie sur un fond vert symbolisant le jardin paradisiaque. On y identifie notamment saint Hermagore, premier évêque de la cité, et son diacre Fortunat, soulignant ainsi la continuité apostolique et l'autorité de l'Église locale. Parmi ces figures sacrées s'insèrent les membres de la famille impériale et le patriarche Poppon lui-même, représenté à une échelle plus réduite mais identifiable par son nimbe carré, signe qu'il était vivant au moment de la réalisation de l'œuvre. Poppon tient dans ses mains le modèle réduit de la basilique qu'il offre à la Vierge, un geste classique de donateur qui affirme son rôle de bâtisseur et de protecteur de la foi.</p><p>Sous cette scène de cour céleste, une frise composée de médaillons circulaires abritant des bustes de saints sert de transition vers le registre inférieur. Dans cette partie basse, entre les fenêtres de l'abside, se tiennent de grandes figures d'apôtres et de prophètes, conférant à l'ensemble une structure hiérarchique et théologique rigoureuse. La palette chromatique, dominée par les ocres rouges, les jaunes chauds et les verts profonds, témoigne d'une influence byzantine persistante dans le Nord de l'Italie, tout en adoptant la puissance graphique propre au style roman. Cette fresque n'est pas seulement un décor liturgique, mais une affirmation politique et spirituelle de la grandeur d'Aquilée, reliant le passé martyr de la cité à la puissance de son patriarcat médiéval.</p>",
+  "desc": "<p>Cette fresque monumentale, ornant le cul-de-four de l'abside de la basilique patriarcale d'Aquilée, constitue un chef-d'œuvre de la peinture médiévale romane du XIe siècle, commandé par le patriarche Poppon lors de la reconstruction de l'édifice. La composition s'articule autour d'une imposante mandorle centrale, symbole de la gloire divine, au sein de laquelle trône la Vierge à l'Enfant. Marie est représentée en Theotokos, Mère de Dieu, assise sur un trône richement orné, tenant l'Enfant Jésus sur ses genoux. Le Christ enfant, de face, lève la main en signe de bénédiction, incarnant la Sagesse divine. Autour de cette figure centrale, le registre supérieur présente les symboles des quatre Évangélistes, le Tétramorphe, émergeant d'un fond de nuées stylisées qui marquent la limite entre le monde terrestre et le royaume céleste.</p><p>De part et d'autre de la mandorle, une procession solennelle de saints et de martyrs de l'Église d'Aquilée se déploie sur un fond vert symbolisant le jardin paradisiaque. On y identifie notamment saint Hermagore, premier évêque de la cité, et son diacre Fortunat, soulignant ainsi la continuité apostolique et l'autorité de l'Église locale. Parmi ces figures sacrées s'insèrent les membres de la famille impériale et le patriarche Poppon lui-même, représenté à une échelle plus réduite mais identifiable par son nimbe carré, signe qu'il était vivant au moment de la réalisation de l'œuvre. Poppon tient dans ses mains le modèle réduit de la basilique qu'il offre à la Vierge, un geste classique de donateur qui affirme son rôle de bâtisseur et de protecteur de la foi.</p><p>Sous cette scène de cour céleste, une frise composée de médaillons circulaires abritant des bustes de saints sert de transition vers le registre inférieur. Dans cette partie basse, entre les fenêtres de l'abside, se tiennent de grandes figures d'apôtres et de prophètes, conférant à l'ensemble une structure hiérarchique et théologique rigoureuse. La palette chromatique, dominée par les ocres rouges, les jaunes chauds et les verts profonds, témoigne d'une influence byzantine persistante dans le Nord de l'Italie, tout en adoptant la puissance graphique propre au style roman. Cette fresque n'est pas seulement un décor liturgique, mais une affirmation politique et spirituelle de la grandeur d'Aquilée, reliant le passé martyr de la cité à la puissance de son patriarcat médiéval.</p>",
+  "contemporaryArt": {
+    "title": "Moyen Âge central • Âge d'or de l'Art Roman & Moines bâtisseurs",
+    "events": [
+      "1066 : Conquête normande de l'Angleterre par Guillaume le Conquérant et Tapisserie de Bayeux.",
+      "1095 : Appel de Clermont par le pape Urbain II et prédication de la Première Croisade.",
+      "1098 : Fondation de l'ordre de Cîteaux par Robert de Molesme et essor du monachisme cistercien.",
+      "1100 – 1150 : Essor des grands chantiers de pèlerinage vers Saint-Jacques-de-Compostelle et Rome."
+    ]
+  }
+},
+{
+  "id": "fresque_le_peche_originel_d_adam_et_eve_musee_co_8",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "egypte",
+  "periodId": "egypte_romaine",
+  "civName": "Égypte Romaine, Chrétienne & Copte",
+  "century": "XIe siècle",
+  "centuryDisplay": "XIe s.",
+  "centuryNumeric": 1050,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Le Péché originel d'Adam et Ève (Musée copte)",
+  "site": "Musée copte du Caire (Le Caire, Égypte)",
+  "originSite": "Contexte monastique copte (Égypte)",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczN6p8gOWwL0wbaqAUw9dmG0xYUaGTS9CwtxXAz83kZg_pEJHjt1dbx464oYueFbyAytwU5yq9MB-vmN5XTwjN40vf4Nk-xOAZDq7wDBuGwGh_xzvcPtu_G0p8ezwTfkEuNAQ9UNiIk0mRF7pFSxO11E1w=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczN6p8gOWwL0wbaqAUw9dmG0xYUaGTS9CwtxXAz83kZg_pEJHjt1dbx464oYueFbyAytwU5yq9MB-vmN5XTwjN40vf4Nk-xOAZDq7wDBuGwGh_xzvcPtu_G0p8ezwTfkEuNAQ9UNiIk0mRF7pFSxO11E1w=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "copte",
+    "egypte",
+    "adam et ève",
+    "péché originel",
+    "fresque",
+    "le caire"
+  ],
+  "chips": [
+    "XIe s.",
+    "Art copte médiéval",
+    "Fresque narrative",
+    "Genèse biblique",
+    "Musée copte du Caire"
+  ],
+  "narrative": "<p>Cette peinture murale, conservée au Musée copte du Caire, illustre le récit biblique de la Genèse à travers un style graphique caractéristique de l'Égypte chrétienne médiévale. Datant probablement du XIe siècle, elle provient d'un contexte monastique où elle servait de support à l'enseignement religieux.</p><p>La scène représente de manière narrative et séquentielle le péché originel d'Adam et Ève. À gauche, les deux figures sont représentées nues, se couvrant de feuilles de vigne, au moment où elles cueillent le fruit défendu de l'Arbre de la connaissance. À droite, l'épisode suivant montre le couple goûtant au fruit, marquant ainsi la chute de l'humanité.</p><p>Sur le plan stylistique, l'œuvre témoigne de la persistance de l'esthétique copte :</p><p>Les visages : On y retrouve les traits distinctifs avec de grands yeux ouverts, des sourcils épais et des chevelures abondantes, visant à exprimer l'intériorité des personnages.</p><p>La composition : La nature est stylisée de façon décorative, avec des arbres fruitiers aux formes simplifiées qui rythment l'espace.</p><p>Les inscriptions : En haut de la fresque, des textes en copte identifient les personnages et décrivent les actions, renforçant la fonction didactique de l'image.</p><p>Cette fresque est un témoignage rare de la peinture profane ou narrative au sein de l'art copte tardif, montrant comment les récits de l'Ancien Testament étaient visualisés pour la communauté.</p>",
+  "desc": "<p>Cette peinture murale, conservée au Musée copte du Caire, illustre le récit biblique de la Genèse à travers un style graphique caractéristique de l'Égypte chrétienne médiévale. Datant probablement du XIe siècle, elle provient d'un contexte monastique où elle servait de support à l'enseignement religieux.</p><p>La scène représente de manière narrative et séquentielle le péché originel d'Adam et Ève. À gauche, les deux figures sont représentées nues, se couvrant de feuilles de vigne, au moment où elles cueillent le fruit défendu de l'Arbre de la connaissance. À droite, l'épisode suivant montre le couple goûtant au fruit, marquant ainsi la chute de l'humanité.</p><p>Sur le plan stylistique, l'œuvre témoigne de la persistance de l'esthétique copte :</p><p>Les visages : On y retrouve les traits distinctifs avec de grands yeux ouverts, des sourcils épais et des chevelures abondantes, visant à exprimer l'intériorité des personnages.</p><p>La composition : La nature est stylisée de façon décorative, avec des arbres fruitiers aux formes simplifiées qui rythment l'espace.</p><p>Les inscriptions : En haut de la fresque, des textes en copte identifient les personnages et décrivent les actions, renforçant la fonction didactique de l'image.</p><p>Cette fresque est un témoignage rare de la peinture profane ou narrative au sein de l'art copte tardif, montrant comment les récits de l'Ancien Testament étaient visualisés pour la communauté.</p>",
+  "contemporaryArt": {
+    "title": "Moyen Âge central • Âge d'or de l'Art Roman & Moines bâtisseurs",
+    "events": [
+      "1066 : Conquête normande de l'Angleterre par Guillaume le Conquérant et Tapisserie de Bayeux.",
+      "1095 : Appel de Clermont par le pape Urbain II et prédication de la Première Croisade.",
+      "1098 : Fondation de l'ordre de Cîteaux par Robert de Molesme et essor du monachisme cistercien.",
+      "1100 – 1150 : Essor des grands chantiers de pèlerinage vers Saint-Jacques-de-Compostelle et Rome."
+    ]
+  }
+},
+{
+  "id": "fresque_les_voutes_peintes_du_pantheon_des_rois__9",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_roman",
+  "civName": "Occident : Art Roman hispanique",
+  "century": "XIIe siècle (première moitié, v. 1120 – 1140)",
+  "centuryDisplay": "XIIe s.",
+  "centuryNumeric": 1130,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Les Voûtes peintes du Panthéon des Rois (San Isidoro de León)",
+  "site": "Panthéon des Rois de la basilique San Isidoro (León, Espagne)",
+  "originSite": "Nécropole royale de San Isidoro de León",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczMAsmJX5tXPZLrLOSUntZYG9CM_XECLYHHymkfAbmC4gm-r0nsDDfjrG435gkU275is8Dv-cokV_nQmQJg_9cAb4QiA1K7bReyR_U5hWsSo3hHRWc-xopNkKb97eui2wjdM7Y5xxiTFj7RPrtkDOs83QA=w1050-h675-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczMAsmJX5tXPZLrLOSUntZYG9CM_XECLYHHymkfAbmC4gm-r0nsDDfjrG435gkU275is8Dv-cokV_nQmQJg_9cAb4QiA1K7bReyR_U5hWsSo3hHRWc-xopNkKb97eui2wjdM7Y5xxiTFj7RPrtkDOs83QA=w1050-h675-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "espagne",
+    "león",
+    "san isidoro",
+    "roman",
+    "fresque",
+    "panthéon des rois"
+  ],
+  "chips": [
+    "XIIe s.",
+    "Art roman espagnol",
+    "Nécropole royale",
+    "Annonce aux bergers",
+    "León (Espagne)"
+  ],
+  "narrative": "<p>Cet ensemble exceptionnel, qui recouvre les voûtes d'arêtes de la nécropole royale, constitue l'un des cycles picturaux les plus complets et les mieux conservés de l'Europe médiévale. Réalisées selon la technique de la fresque sur un enduit de chaux, les scènes se déploient dans un espace architectural robuste aux colonnes massives couronnées de chapiteaux sculptés de motifs végétaux et historiés. L'iconographie s'organise autour de trois cycles thématiques majeurs : l'Enfance du Christ, la Passion et la Glorification. On y observe des compositions célèbres comme l'Annonce aux bergers, remarquable pour son naturalisme précurseur montrant des animaux s'abreuvant et une flore stylisée, ou encore le Christ en majesté entouré des symboles des évangélistes. Le style se caractérise par une palette chromatique équilibrée d'ocres, de rouges, de jaunes et de blancs sur des fonds clairs, ainsi que par un dessin aux traits noirs vigoureux qui souligne l'expressivité des visages et le mouvement des figures. Le traitement des draperies et l'élégance des silhouettes témoignent d'une double influence, mêlant les traditions locales mozarabes aux courants artistiques venus de France et de Byzance. Au-delà de leur valeur esthétique, ces fresques transformaient le lieu de repos des monarques léonais en un espace de catéchèse visuelle permanent, où le divin et l'histoire terrestre se rejoignent sous des voûtes sanctifiées.</p>",
+  "desc": "<p>Cet ensemble exceptionnel, qui recouvre les voûtes d'arêtes de la nécropole royale, constitue l'un des cycles picturaux les plus complets et les mieux conservés de l'Europe médiévale. Réalisées selon la technique de la fresque sur un enduit de chaux, les scènes se déploient dans un espace architectural robuste aux colonnes massives couronnées de chapiteaux sculptés de motifs végétaux et historiés. L'iconographie s'organise autour de trois cycles thématiques majeurs : l'Enfance du Christ, la Passion et la Glorification. On y observe des compositions célèbres comme l'Annonce aux bergers, remarquable pour son naturalisme précurseur montrant des animaux s'abreuvant et une flore stylisée, ou encore le Christ en majesté entouré des symboles des évangélistes. Le style se caractérise par une palette chromatique équilibrée d'ocres, de rouges, de jaunes et de blancs sur des fonds clairs, ainsi que par un dessin aux traits noirs vigoureux qui souligne l'expressivité des visages et le mouvement des figures. Le traitement des draperies et l'élégance des silhouettes témoignent d'une double influence, mêlant les traditions locales mozarabes aux courants artistiques venus de France et de Byzance. Au-delà de leur valeur esthétique, ces fresques transformaient le lieu de repos des monarques léonais en un espace de catéchèse visuelle permanent, où le divin et l'histoire terrestre se rejoignent sous des voûtes sanctifiées.</p>",
+  "contemporaryArt": {
+    "title": "Moyen Âge central • Âge d'or de l'Art Roman & Moines bâtisseurs",
+    "events": [
+      "1066 : Conquête normande de l'Angleterre par Guillaume le Conquérant et Tapisserie de Bayeux.",
+      "1095 : Appel de Clermont par le pape Urbain II et prédication de la Première Croisade.",
+      "1098 : Fondation de l'ordre de Cîteaux par Robert de Molesme et essor du monachisme cistercien.",
+      "1100 – 1150 : Essor des grands chantiers de pèlerinage vers Saint-Jacques-de-Compostelle et Rome."
+    ]
+  }
+},
+{
+  "id": "fresque_le_christ_en_gloire_et_le_tetramorphe_ch_10",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_roman",
+  "civName": "Occident : Art Roman de Touraine",
+  "century": "XIIe siècle",
+  "centuryDisplay": "XIIe s.",
+  "centuryNumeric": 1150,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Le Christ en gloire et le Tétramorphe (Chœur de Lavardin)",
+  "site": "Église Saint-Genest de Lavardin (Loir-et-Cher, France)",
+  "originSite": "Église Saint-Genest de Lavardin",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczMwjdngl7xZMNbgJBONsXeux17Aw8S4h5KhyFfyD2sR08DFBFm7AD5c75rG8hKq_CA8QRzJIs7nh6Gf2QvLkDR5de1eQnXF2c1AFrUGPHwh1mvYgVX0LHdmb-eti5Hz04WBrB-pcHk6Wg59JiSJOfQxzg=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczMwjdngl7xZMNbgJBONsXeux17Aw8S4h5KhyFfyD2sR08DFBFm7AD5c75rG8hKq_CA8QRzJIs7nh6Gf2QvLkDR5de1eQnXF2c1AFrUGPHwh1mvYgVX0LHdmb-eti5Hz04WBrB-pcHk6Wg59JiSJOfQxzg=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "france",
+    "lavardin",
+    "saint-genest",
+    "roman",
+    "fresque",
+    "loir-et-cher"
+  ],
+  "chips": [
+    "XIIe s.",
+    "Art roman du Val de Loire",
+    "Fresque monumentale",
+    "Saint-Genest de Lavardin",
+    "France"
+  ],
+  "narrative": "<p>L'église Saint-Genest de Lavardin abrite un ensemble exceptionnel de peintures murales réalisées entre le XIIe et le XVIe siècle, redécouvertes au début du XXe siècle après avoir été longtemps préservées sous un badigeon de chaux. La première fresque, située sur la voûte du chœur, représente le Christ en majesté (ou Christ en gloire), une œuvre majeure de l'art roman. Le Christ est figuré au centre, trônant à l'intérieur d'une mandorle, cette forme en amande symbolisant le passage du monde terrestre au monde céleste. D'un geste de la main droite, il bénit les fidèles tandis qu'il tient de la main gauche le Livre ou le globe, affirmant sa souveraineté sur l'univers. Il est entouré du tétramorphe, la représentation symbolique des quatre évangélistes sous forme d'êtres ailés : l'homme ou l'ange pour saint Matthieu, le lion pour saint Marc, le taureau pour saint Luc et l'aigle pour saint Jean. Ces figures sont inscrites dans des médaillons circulaires aux quatre angles, formant une vision apocalyptique tirée des écrits d'Ézéchiel et de saint Jean. La palette chromatique utilise des ocres rouges et jaunes sur un fond clair, caractéristique des pigments médiévaux de la région.</p>",
+  "desc": "<p>L'église Saint-Genest de Lavardin abrite un ensemble exceptionnel de peintures murales réalisées entre le XIIe et le XVIe siècle, redécouvertes au début du XXe siècle après avoir été longtemps préservées sous un badigeon de chaux. La première fresque, située sur la voûte du chœur, représente le Christ en majesté (ou Christ en gloire), une œuvre majeure de l'art roman. Le Christ est figuré au centre, trônant à l'intérieur d'une mandorle, cette forme en amande symbolisant le passage du monde terrestre au monde céleste. D'un geste de la main droite, il bénit les fidèles tandis qu'il tient de la main gauche le Livre ou le globe, affirmant sa souveraineté sur l'univers. Il est entouré du tétramorphe, la représentation symbolique des quatre évangélistes sous forme d'êtres ailés : l'homme ou l'ange pour saint Matthieu, le lion pour saint Marc, le taureau pour saint Luc et l'aigle pour saint Jean. Ces figures sont inscrites dans des médaillons circulaires aux quatre angles, formant une vision apocalyptique tirée des écrits d'Ézéchiel et de saint Jean. La palette chromatique utilise des ocres rouges et jaunes sur un fond clair, caractéristique des pigments médiévaux de la région.</p>",
+  "contemporaryArt": {
+    "title": "Moyen Âge central • Âge d'or de l'Art Roman & Moines bâtisseurs",
+    "events": [
+      "1066 : Conquête normande de l'Angleterre par Guillaume le Conquérant et Tapisserie de Bayeux.",
+      "1095 : Appel de Clermont par le pape Urbain II et prédication de la Première Croisade.",
+      "1098 : Fondation de l'ordre de Cîteaux par Robert de Molesme et essor du monachisme cistercien.",
+      "1100 – 1150 : Essor des grands chantiers de pèlerinage vers Saint-Jacques-de-Compostelle et Rome."
+    ]
+  }
+},
+{
+  "id": "fresque_procession_des_apotres_et_decors_d_intra_11",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_roman",
+  "civName": "Occident : Art Roman de Touraine",
+  "century": "XIIe siècle",
+  "centuryDisplay": "XIIe s.",
+  "centuryNumeric": 1150,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Procession des Apôtres et décors d'intrados d'arcades (Lavardin)",
+  "site": "Église Saint-Genest de Lavardin (Loir-et-Cher, France)",
+  "originSite": "Église Saint-Genest de Lavardin",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczPJOwaGoatxZwDOC3l_c7fQLgBPdkR_Ps8utzEDbbRI2aDq-4TOu3RufakesJG5oiHFAwhShlPpY-VaRV4Pw-wjgMY2VpZQ7teDJJvtMCsb4WmtRiVBIl0e3GR1AsNEHBfcPvQ7O-lLirV0L3ZJilQOoQ=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczPJOwaGoatxZwDOC3l_c7fQLgBPdkR_Ps8utzEDbbRI2aDq-4TOu3RufakesJG5oiHFAwhShlPpY-VaRV4Pw-wjgMY2VpZQ7teDJJvtMCsb4WmtRiVBIl0e3GR1AsNEHBfcPvQ7O-lLirV0L3ZJilQOoQ=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "france",
+    "lavardin",
+    "saint-genest",
+    "roman",
+    "fresque",
+    "loir-et-cher"
+  ],
+  "chips": [
+    "XIIe s.",
+    "Art roman du Val de Loire",
+    "Fresque monumentale",
+    "Saint-Genest de Lavardin",
+    "France"
+  ],
+  "narrative": "<p>L’espace pictural s’organise en registres superposés, séparés par des frises géométriques et des rinceaux végétaux.</p><p>L’intrados des arcs est particulièrement soigné, présentant des motifs ornementaux complexes et des visages stylisés qui témoignent de la virtuosité des peintres anonymes. Sous les arcades, un autre registre présente une procession de personnages nimbés, probablement les Apôtres ou des figures prophétiques, dont les drapés linéaires soulignent le mouvement hiératique.</p><p>Cet ensemble ne se contente pas d'être une simple décoration ; il constitue une véritable \"Bible des pauvres\", destinée à l’instruction religieuse des fidèles par l’image. La force expressive des visages et la dynamique des scènes de combat entre le bien et le mal font de Lavardin l'un des sites majeurs de la peinture murale médiévale en France.</p>",
+  "desc": "<p>L’espace pictural s’organise en registres superposés, séparés par des frises géométriques et des rinceaux végétaux.</p><p>L’intrados des arcs est particulièrement soigné, présentant des motifs ornementaux complexes et des visages stylisés qui témoignent de la virtuosité des peintres anonymes. Sous les arcades, un autre registre présente une procession de personnages nimbés, probablement les Apôtres ou des figures prophétiques, dont les drapés linéaires soulignent le mouvement hiératique.</p><p>Cet ensemble ne se contente pas d'être une simple décoration ; il constitue une véritable \"Bible des pauvres\", destinée à l’instruction religieuse des fidèles par l’image. La force expressive des visages et la dynamique des scènes de combat entre le bien et le mal font de Lavardin l'un des sites majeurs de la peinture murale médiévale en France.</p>",
+  "contemporaryArt": {
+    "title": "Moyen Âge central • Âge d'or de l'Art Roman & Moines bâtisseurs",
+    "events": [
+      "1066 : Conquête normande de l'Angleterre par Guillaume le Conquérant et Tapisserie de Bayeux.",
+      "1095 : Appel de Clermont par le pape Urbain II et prédication de la Première Croisade.",
+      "1098 : Fondation de l'ordre de Cîteaux par Robert de Molesme et essor du monachisme cistercien.",
+      "1100 – 1150 : Essor des grands chantiers de pèlerinage vers Saint-Jacques-de-Compostelle et Rome."
+    ]
+  }
+},
+{
+  "id": "fresque_le_jugement_dernier_et_la_pesee_des_ames_12",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_roman",
+  "civName": "Occident : Art Roman de Touraine",
+  "century": "XIIe siècle",
+  "centuryDisplay": "XIIe s.",
+  "centuryNumeric": 1150,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Le Jugement dernier et la pesée des âmes (Nef de Lavardin)",
+  "site": "Église Saint-Genest de Lavardin (Loir-et-Cher, France)",
+  "originSite": "Église Saint-Genest de Lavardin",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczPjDsTV97Zu6uZmAJYNCcWAwVybsltHXufWm6DhUVpk1HNjrq9kFq2tIDkDr4kAwe5OBgsgAkfKHe-MkJsc8CjpV29-_jtbqWfiXwkgIyxdYvQHFYslJ2qjqKAvtz567BJM70NeB9jjAWFkBksDJCbofA=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczPjDsTV97Zu6uZmAJYNCcWAwVybsltHXufWm6DhUVpk1HNjrq9kFq2tIDkDr4kAwe5OBgsgAkfKHe-MkJsc8CjpV29-_jtbqWfiXwkgIyxdYvQHFYslJ2qjqKAvtz567BJM70NeB9jjAWFkBksDJCbofA=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "france",
+    "lavardin",
+    "saint-genest",
+    "roman",
+    "fresque",
+    "loir-et-cher"
+  ],
+  "chips": [
+    "XIIe s.",
+    "Art roman du Val de Loire",
+    "Fresque monumentale",
+    "Saint-Genest de Lavardin",
+    "France"
+  ],
+  "narrative": "<p>La scène illustre avec une force graphique remarquable le destin des âmes lors du Jugement dernier, une thématique centrale de la spiritualité médiévale destinée à l'édification des fidèles.</p><p>Dans le registre inférieur, la composition dépeint une colonne de damnés, représentés nus pour symboliser leur vulnérabilité et le dépouillement de toute dignité terrestre. Ils sont enchaînés par le cou et entraînés par des démons hideux aux traits anthropomorphes et bestiaux. Parmi les captifs, la présence d’un personnage portant une couronne souligne l’impartialité de la justice divine, rappelant que même les puissants de ce monde ne sont pas exempts du châtiment éternel s'ils ont péché. La gestuelle des mains jointes de certains réprouvés exprime une supplication tardive et désespérée face à la violence des créatures infernales, dont l'une, à droite, arbore une peau de bête et semble diriger la marche avec une autorité brutale.</p><p>Juste au-dessus, un second registre offre un contraste thématique et stylistique, montrant une procession de personnages drapés de tuniques longues, probablement des élus ou des âmes en attente de jugement, évoluant dans un espace plus apaisé. L'utilisation d'une palette restreinte — principalement des terres d'ombre, des ocres rouges et jaunes — confère à l'ensemble une unité visuelle puissante, tandis que les frises ornementales qui encadrent les scènes témoignent du soin apporté à la structure architecturale de l'œuvre.</p>",
+  "desc": "<p>La scène illustre avec une force graphique remarquable le destin des âmes lors du Jugement dernier, une thématique centrale de la spiritualité médiévale destinée à l'édification des fidèles.</p><p>Dans le registre inférieur, la composition dépeint une colonne de damnés, représentés nus pour symboliser leur vulnérabilité et le dépouillement de toute dignité terrestre. Ils sont enchaînés par le cou et entraînés par des démons hideux aux traits anthropomorphes et bestiaux. Parmi les captifs, la présence d’un personnage portant une couronne souligne l’impartialité de la justice divine, rappelant que même les puissants de ce monde ne sont pas exempts du châtiment éternel s'ils ont péché. La gestuelle des mains jointes de certains réprouvés exprime une supplication tardive et désespérée face à la violence des créatures infernales, dont l'une, à droite, arbore une peau de bête et semble diriger la marche avec une autorité brutale.</p><p>Juste au-dessus, un second registre offre un contraste thématique et stylistique, montrant une procession de personnages drapés de tuniques longues, probablement des élus ou des âmes en attente de jugement, évoluant dans un espace plus apaisé. L'utilisation d'une palette restreinte — principalement des terres d'ombre, des ocres rouges et jaunes — confère à l'ensemble une unité visuelle puissante, tandis que les frises ornementales qui encadrent les scènes témoignent du soin apporté à la structure architecturale de l'œuvre.</p>",
+  "contemporaryArt": {
+    "title": "Moyen Âge central • Âge d'or de l'Art Roman & Moines bâtisseurs",
+    "events": [
+      "1066 : Conquête normande de l'Angleterre par Guillaume le Conquérant et Tapisserie de Bayeux.",
+      "1095 : Appel de Clermont par le pape Urbain II et prédication de la Première Croisade.",
+      "1098 : Fondation de l'ordre de Cîteaux par Robert de Molesme et essor du monachisme cistercien.",
+      "1100 – 1150 : Essor des grands chantiers de pèlerinage vers Saint-Jacques-de-Compostelle et Rome."
+    ]
+  }
+},
+{
+  "id": "fresque_le_portement_de_croix_et_cycle_de_la_pas_13",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_roman",
+  "civName": "Occident : Art Roman de Touraine",
+  "century": "XIIe siècle",
+  "centuryDisplay": "XIIe s.",
+  "centuryNumeric": 1150,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Le Portement de Croix et cycle de la Passion (Lavardin)",
+  "site": "Église Saint-Genest de Lavardin (Loir-et-Cher, France)",
+  "originSite": "Église Saint-Genest de Lavardin",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczM9ZeM2UI3OHbsTvupAo52f7b30dJ07m6MxmDM63gz304i48S5biNQ8dGkb23BZ-M8uGgjWY47zF6Lo-KzzFqNh5snd8MIpL7uupNN7CZ6WR8awpXdhkrOYStmypb0JEgl_g3o_t4gm818vKBzjQHq2rA=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczM9ZeM2UI3OHbsTvupAo52f7b30dJ07m6MxmDM63gz304i48S5biNQ8dGkb23BZ-M8uGgjWY47zF6Lo-KzzFqNh5snd8MIpL7uupNN7CZ6WR8awpXdhkrOYStmypb0JEgl_g3o_t4gm818vKBzjQHq2rA=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "france",
+    "lavardin",
+    "saint-genest",
+    "roman",
+    "fresque",
+    "loir-et-cher"
+  ],
+  "chips": [
+    "XIIe s.",
+    "Art roman du Val de Loire",
+    "Fresque monumentale",
+    "Saint-Genest de Lavardin",
+    "France"
+  ],
+  "narrative": "<p>Le registre inférieur illustre les épisodes de la Passion avec une intensité dramatique remarquable. On y distingue la scène du Portement de Croix, où le Christ, nimbé et revêtu d'une tunique de pourpre, progresse au milieu d'une foule compacte. Les silhouettes, aux proportions allongées et aux drapés rythmés de lignes sombres, s'inscrivent dans une tradition romane qui privilégie la clarté du récit sur le réalisme spatial. Le travail des ocres et les fonds blancs soulignent le détachement des figures par rapport au mur, tandis que les piliers et chapiteaux peints encadrent la scène pour l'intégrer à l'architecture même de l'édifice.</p>",
+  "desc": "<p>Le registre inférieur illustre les épisodes de la Passion avec une intensité dramatique remarquable. On y distingue la scène du Portement de Croix, où le Christ, nimbé et revêtu d'une tunique de pourpre, progresse au milieu d'une foule compacte. Les silhouettes, aux proportions allongées et aux drapés rythmés de lignes sombres, s'inscrivent dans une tradition romane qui privilégie la clarté du récit sur le réalisme spatial. Le travail des ocres et les fonds blancs soulignent le détachement des figures par rapport au mur, tandis que les piliers et chapiteaux peints encadrent la scène pour l'intégrer à l'architecture même de l'édifice.</p>",
+  "contemporaryArt": {
+    "title": "Moyen Âge central • Âge d'or de l'Art Roman & Moines bâtisseurs",
+    "events": [
+      "1066 : Conquête normande de l'Angleterre par Guillaume le Conquérant et Tapisserie de Bayeux.",
+      "1095 : Appel de Clermont par le pape Urbain II et prédication de la Première Croisade.",
+      "1098 : Fondation de l'ordre de Cîteaux par Robert de Molesme et essor du monachisme cistercien.",
+      "1100 – 1150 : Essor des grands chantiers de pèlerinage vers Saint-Jacques-de-Compostelle et Rome."
+    ]
+  }
+},
+{
+  "id": "fresque_la_cene_et_la_trahison_de_judas_saint_ja_14",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_roman",
+  "civName": "Occident : Art Roman du Val de Loire",
+  "century": "XIIe siècle (fin du XIIe s., v. 1170 – 1190)",
+  "centuryDisplay": "Fin XIIe s.",
+  "centuryNumeric": 1180,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "La Cène et la trahison de Judas (Saint-Jacques-des-Guérets)",
+  "site": "Église Saint-Jacques-des-Guérets (Trôo, Loir-et-Cher, France)",
+  "originSite": "Abside et nef de l'église Saint-Jacques-des-Guérets",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczMksiMF5uAnsKWL0V2bNhDqkMds7ikQkj_pySUO5tctDzh4nINut-3QfIiAMzEszfCZVtAbqdSLtWXq2XPU8henZJGm4XwXQK_vLVfnDpuapND9WF2rM_UMdYbaOmuKn28CE8-Iwwz8HtkaCMlMnZnN0g=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczMksiMF5uAnsKWL0V2bNhDqkMds7ikQkj_pySUO5tctDzh4nINut-3QfIiAMzEszfCZVtAbqdSLtWXq2XPU8henZJGm4XwXQK_vLVfnDpuapND9WF2rM_UMdYbaOmuKn28CE8-Iwwz8HtkaCMlMnZnN0g=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "france",
+    "trôo",
+    "saint-jacques-des-guérets",
+    "roman",
+    "fresque"
+  ],
+  "chips": [
+    "Fin XIIe s.",
+    "Art roman Plantagenêt",
+    "Fresques de l'abside",
+    "Saint-Jacques-des-Guérets",
+    "Trôo"
+  ],
+  "narrative": "<p>L'église Saint-Jacques-des-Guérets, située à Trôo dans le Loir-et-Cher, abrite un ensemble exceptionnel de peintures murales romanes datant principalement de la fin du XIIe siècle. Ces fresques, redécouvertes au XIXe siècle, témoignent de la richesse iconographique et de la maîtrise technique des ateliers du Val de Loire à l'époque médiévale. La composition s'articule autour de l'abside, utilisant l'architecture du bâtiment pour structurer un récit théologique complexe destiné à l'instruction des fidèles.</p><p>La partie supérieure droite présente une majestueuse \"Majesté du Christ\" ou Christ en gloire, inscrit dans une mandorle polylobée. Le Christ est entouré du Tétramorphe, représentant les quatre évangélistes sous leurs formes symboliques : l'ange pour saint Matthieu, l'aigle pour saint Jean, le lion pour saint Marc et le bœuf pour saint Luc. Cette figure centrale domine l'espace sacré, symbolisant le règne éternel et le jugement.</p><p>Directement en dessous du Christ en gloire se déploie une représentation de la Cène. Les apôtres sont alignés derrière une table recouverte d'une nappe aux plis géométriques marqués, caractéristique du style de l'époque. On distingue Jean, s'appuyant traditionnellement sur la poitrine de Jésus, tandis que les autres figures expriment une solennité recueillie. Cette scène eucharistique fait le lien entre le sacrifice divin et le sacrement pratiqué dans le chœur de l'église.</p><p>Le registre de gauche est consacré au cycle de la Passion et de la Résurrection. On y observe une Crucifixion où le Christ en croix est flanqué de la Vierge Marie et de saint Jean l'Évangéliste, dont les postures traduisent une douleur contenue. Plus bas, une scène de la Mise au tombeau ou de la Résurrection complète ce cycle narratif, illustrant le passage de la mort à la vie, thématique centrale de la foi chrétienne.</p><p>L'ensemble se distingue par une palette chromatique dominée par les ocres jaunes et rouges, le blanc de chaux et des touches de bleu, créant une harmonie visuelle malgré les outrages du temps. Les lignes sont fermes, les drapés stylisés et les visages expressifs, s'inscrivant dans la tradition stylistique Plantagenêt qui rayonnait alors dans la région. Ces fresques constituent aujourd'hui l'un des joyaux de l'art mural roman en France.</p>",
+  "desc": "<p>L'église Saint-Jacques-des-Guérets, située à Trôo dans le Loir-et-Cher, abrite un ensemble exceptionnel de peintures murales romanes datant principalement de la fin du XIIe siècle. Ces fresques, redécouvertes au XIXe siècle, témoignent de la richesse iconographique et de la maîtrise technique des ateliers du Val de Loire à l'époque médiévale. La composition s'articule autour de l'abside, utilisant l'architecture du bâtiment pour structurer un récit théologique complexe destiné à l'instruction des fidèles.</p><p>La partie supérieure droite présente une majestueuse \"Majesté du Christ\" ou Christ en gloire, inscrit dans une mandorle polylobée. Le Christ est entouré du Tétramorphe, représentant les quatre évangélistes sous leurs formes symboliques : l'ange pour saint Matthieu, l'aigle pour saint Jean, le lion pour saint Marc et le bœuf pour saint Luc. Cette figure centrale domine l'espace sacré, symbolisant le règne éternel et le jugement.</p><p>Directement en dessous du Christ en gloire se déploie une représentation de la Cène. Les apôtres sont alignés derrière une table recouverte d'une nappe aux plis géométriques marqués, caractéristique du style de l'époque. On distingue Jean, s'appuyant traditionnellement sur la poitrine de Jésus, tandis que les autres figures expriment une solennité recueillie. Cette scène eucharistique fait le lien entre le sacrifice divin et le sacrement pratiqué dans le chœur de l'église.</p><p>Le registre de gauche est consacré au cycle de la Passion et de la Résurrection. On y observe une Crucifixion où le Christ en croix est flanqué de la Vierge Marie et de saint Jean l'Évangéliste, dont les postures traduisent une douleur contenue. Plus bas, une scène de la Mise au tombeau ou de la Résurrection complète ce cycle narratif, illustrant le passage de la mort à la vie, thématique centrale de la foi chrétienne.</p><p>L'ensemble se distingue par une palette chromatique dominée par les ocres jaunes et rouges, le blanc de chaux et des touches de bleu, créant une harmonie visuelle malgré les outrages du temps. Les lignes sont fermes, les drapés stylisés et les visages expressifs, s'inscrivant dans la tradition stylistique Plantagenêt qui rayonnait alors dans la région. Ces fresques constituent aujourd'hui l'un des joyaux de l'art mural roman en France.</p>",
+  "contemporaryArt": {
+    "title": "Moyen Âge central • Âge d'or de l'Art Roman & Moines bâtisseurs",
+    "events": [
+      "1066 : Conquête normande de l'Angleterre par Guillaume le Conquérant et Tapisserie de Bayeux.",
+      "1095 : Appel de Clermont par le pape Urbain II et prédication de la Première Croisade.",
+      "1098 : Fondation de l'ordre de Cîteaux par Robert de Molesme et essor du monachisme cistercien.",
+      "1100 – 1150 : Essor des grands chantiers de pèlerinage vers Saint-Jacques-de-Compostelle et Rome."
+    ]
+  }
+},
+{
+  "id": "fresque_la_cene_et_la_trahison_de_judas_saint_ja_15",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_roman",
+  "civName": "Occident : Art Roman du Val de Loire",
+  "century": "XIIe siècle (fin du XIIe s., v. 1170 – 1190)",
+  "centuryDisplay": "Fin XIIe s.",
+  "centuryNumeric": 1180,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "La Cène et la trahison de Judas (Saint-Jacques-des-Guérets)",
+  "site": "Église Saint-Jacques-des-Guérets (Trôo, Loir-et-Cher, France)",
+  "originSite": "Abside et nef de l'église Saint-Jacques-des-Guérets",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczM_gYeb8Do5NiXA4Khwie3W97edNEwXbIX4gKUO0n56VOnDAk6cXSrx6TWc8cVWHQkzEDco_4sAq3nUkx62hHpzfjk8vNBDWgi3oud2HK7fj71X8Pr7lla5AYbKP_e4khFVbIdIGr1LB5VHJQuknUGLKg=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczM_gYeb8Do5NiXA4Khwie3W97edNEwXbIX4gKUO0n56VOnDAk6cXSrx6TWc8cVWHQkzEDco_4sAq3nUkx62hHpzfjk8vNBDWgi3oud2HK7fj71X8Pr7lla5AYbKP_e4khFVbIdIGr1LB5VHJQuknUGLKg=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "france",
+    "trôo",
+    "saint-jacques-des-guérets",
+    "roman",
+    "fresque"
+  ],
+  "chips": [
+    "Fin XIIe s.",
+    "Art roman Plantagenêt",
+    "Fresques de l'abside",
+    "Saint-Jacques-des-Guérets",
+    "Trôo"
+  ],
+  "narrative": "<p>Cette scène de la Cène, située dans le registre inférieur de l'abside de l'église Saint-Jacques-des-Guérets, offre une composition linéaire et solennelle typique de l'iconographie romane du XIIe siècle. Les personnages sont disposés derrière une table rectangulaire qui traverse toute la largeur de la fresque, recouverte d'une nappe blanche ornée de plis en forme de \"V\" très stylisés et de motifs géométriques rappelant des broderies.</p><p>Au centre, le Christ se distingue par son nimbe crucifère et sa taille légèrement supérieure à celle des apôtres. Il est représenté dans une posture de bénédiction, tandis que saint Jean, l'apôtre préféré, est penché vers lui, reposant traditionnellement sa tête contre la poitrine du maître dans un geste d'affection et de recueillement. À la droite du Christ (gauche de l'image), on reconnaît saint Pierre, souvent représenté avec une barbe et des cheveux blancs, tandis qu'à sa gauche, un autre apôtre tient une croix, rappelant le martyre futur.</p><p>L'aspect le plus frappant de cette représentation est la figure de Judas, placée seule de l'autre côté de la table, au premier plan à droite. Contrairement aux autres apôtres dont les corps sont cachés par la table, Judas est représenté de profil, dans une posture dynamique, s'étirant pour tremper sa main dans le plat en même temps que le Christ, geste qui désigne le traître dans le récit évangélique.</p><p>La palette de couleurs reste fidèle au reste de l'ensemble avec des ocres rouges et jaunes, des tons terreux et des rehauts de blanc. La précision des traits, notamment dans le rendu des chevelures et des barbes, souligne la qualité de l'atelier ayant œuvré dans l'église. Malgré les lacunes dues au temps, la scène conserve une grande force narrative, figeant l'instant dramatique de l'annonce de la trahison.</p>",
+  "desc": "<p>Cette scène de la Cène, située dans le registre inférieur de l'abside de l'église Saint-Jacques-des-Guérets, offre une composition linéaire et solennelle typique de l'iconographie romane du XIIe siècle. Les personnages sont disposés derrière une table rectangulaire qui traverse toute la largeur de la fresque, recouverte d'une nappe blanche ornée de plis en forme de \"V\" très stylisés et de motifs géométriques rappelant des broderies.</p><p>Au centre, le Christ se distingue par son nimbe crucifère et sa taille légèrement supérieure à celle des apôtres. Il est représenté dans une posture de bénédiction, tandis que saint Jean, l'apôtre préféré, est penché vers lui, reposant traditionnellement sa tête contre la poitrine du maître dans un geste d'affection et de recueillement. À la droite du Christ (gauche de l'image), on reconnaît saint Pierre, souvent représenté avec une barbe et des cheveux blancs, tandis qu'à sa gauche, un autre apôtre tient une croix, rappelant le martyre futur.</p><p>L'aspect le plus frappant de cette représentation est la figure de Judas, placée seule de l'autre côté de la table, au premier plan à droite. Contrairement aux autres apôtres dont les corps sont cachés par la table, Judas est représenté de profil, dans une posture dynamique, s'étirant pour tremper sa main dans le plat en même temps que le Christ, geste qui désigne le traître dans le récit évangélique.</p><p>La palette de couleurs reste fidèle au reste de l'ensemble avec des ocres rouges et jaunes, des tons terreux et des rehauts de blanc. La précision des traits, notamment dans le rendu des chevelures et des barbes, souligne la qualité de l'atelier ayant œuvré dans l'église. Malgré les lacunes dues au temps, la scène conserve une grande force narrative, figeant l'instant dramatique de l'annonce de la trahison.</p>",
+  "contemporaryArt": {
+    "title": "Moyen Âge central • Âge d'or de l'Art Roman & Moines bâtisseurs",
+    "events": [
+      "1066 : Conquête normande de l'Angleterre par Guillaume le Conquérant et Tapisserie de Bayeux.",
+      "1095 : Appel de Clermont par le pape Urbain II et prédication de la Première Croisade.",
+      "1098 : Fondation de l'ordre de Cîteaux par Robert de Molesme et essor du monachisme cistercien.",
+      "1100 – 1150 : Essor des grands chantiers de pèlerinage vers Saint-Jacques-de-Compostelle et Rome."
+    ]
+  }
+},
+{
+  "id": "fresque_la_cene_et_la_trahison_de_judas_saint_ja_16",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_roman",
+  "civName": "Occident : Art Roman du Val de Loire",
+  "century": "XIIe siècle (fin du XIIe s., v. 1170 – 1190)",
+  "centuryDisplay": "Fin XIIe s.",
+  "centuryNumeric": 1180,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "La Cène et la trahison de Judas (Saint-Jacques-des-Guérets)",
+  "site": "Église Saint-Jacques-des-Guérets (Trôo, Loir-et-Cher, France)",
+  "originSite": "Abside et nef de l'église Saint-Jacques-des-Guérets",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczMdfuwSEt5RReOpK1Eprvwn735j-AcL3Qj_XBgWkA9zp5A40Lr3ALEprvEUs7dWuUf_MO7A9nvLiQrspLIK9slJ-yU42qCzbGlBmk0-vJ-8R8R2jwZD07c1o4ukbPFBU_ulNjHQLMM0KqgjechJMwEDWQ=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczMdfuwSEt5RReOpK1Eprvwn735j-AcL3Qj_XBgWkA9zp5A40Lr3ALEprvEUs7dWuUf_MO7A9nvLiQrspLIK9slJ-yU42qCzbGlBmk0-vJ-8R8R2jwZD07c1o4ukbPFBU_ulNjHQLMM0KqgjechJMwEDWQ=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "france",
+    "trôo",
+    "saint-jacques-des-guérets",
+    "roman",
+    "fresque"
+  ],
+  "chips": [
+    "Fin XIIe s.",
+    "Art roman Plantagenêt",
+    "Fresques de l'abside",
+    "Saint-Jacques-des-Guérets",
+    "Trôo"
+  ],
+  "narrative": "<p>Cette fresque illustre un épisode marquant de la vie de saint Jacques le Majeur, patron de l’édifice, confronté aux autorités temporelles.</p><p>La scène dépeint le moment où saint Jacques, reconnaissable à son nimbe et à sa posture digne, est conduit devant le roi Hérode Agrippa. Au centre, un garde ou un bourreau saisit l'apôtre, symbolisant son arrestation imminente. À droite, la figure royale est assise sur un trône, portant la couronne et les attributs de son pouvoir, s'apprêtant à rendre son jugement.</p><p>L’œuvre témoigne de la transition stylistique entre l’art roman et le début du gothique. On y observe une grande finesse dans le trait et une palette chromatique caractéristique de la région, dominée par les ocres jaunes et rouges. La fluidité des drapés et l’expressivité des visages, malgré l'érosion du temps, soulignent la qualité exceptionnelle de cet ensemble pictural, qui servait à l'époque d'enseignement visuel pour les pèlerins en route vers Saint-Jacques-de-Compostelle.</p>",
+  "desc": "<p>Cette fresque illustre un épisode marquant de la vie de saint Jacques le Majeur, patron de l’édifice, confronté aux autorités temporelles.</p><p>La scène dépeint le moment où saint Jacques, reconnaissable à son nimbe et à sa posture digne, est conduit devant le roi Hérode Agrippa. Au centre, un garde ou un bourreau saisit l'apôtre, symbolisant son arrestation imminente. À droite, la figure royale est assise sur un trône, portant la couronne et les attributs de son pouvoir, s'apprêtant à rendre son jugement.</p><p>L’œuvre témoigne de la transition stylistique entre l’art roman et le début du gothique. On y observe une grande finesse dans le trait et une palette chromatique caractéristique de la région, dominée par les ocres jaunes et rouges. La fluidité des drapés et l’expressivité des visages, malgré l'érosion du temps, soulignent la qualité exceptionnelle de cet ensemble pictural, qui servait à l'époque d'enseignement visuel pour les pèlerins en route vers Saint-Jacques-de-Compostelle.</p>",
+  "contemporaryArt": {
+    "title": "Moyen Âge central • Âge d'or de l'Art Roman & Moines bâtisseurs",
+    "events": [
+      "1066 : Conquête normande de l'Angleterre par Guillaume le Conquérant et Tapisserie de Bayeux.",
+      "1095 : Appel de Clermont par le pape Urbain II et prédication de la Première Croisade.",
+      "1098 : Fondation de l'ordre de Cîteaux par Robert de Molesme et essor du monachisme cistercien.",
+      "1100 – 1150 : Essor des grands chantiers de pèlerinage vers Saint-Jacques-de-Compostelle et Rome."
+    ]
+  }
+},
+{
+  "id": "fresque_la_cene_et_la_trahison_de_judas_saint_ja_17",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_roman",
+  "civName": "Occident : Art Roman du Val de Loire",
+  "century": "XIIe siècle (fin du XIIe s., v. 1170 – 1190)",
+  "centuryDisplay": "Fin XIIe s.",
+  "centuryNumeric": 1180,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "La Cène et la trahison de Judas (Saint-Jacques-des-Guérets)",
+  "site": "Église Saint-Jacques-des-Guérets (Trôo, Loir-et-Cher, France)",
+  "originSite": "Abside et nef de l'église Saint-Jacques-des-Guérets",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczMkWm3rt_GdknEYvqRW0SKjecPS3QCnAkrmgnQz6QgHmH139jSvEyPG-QRZv_ZBKFp8wgUcSi_K-IPHLNTkvMZA9YkwD3X_gnUGC5C7Rv3TnFaHFki2bAbj5C0OZvpnkr90_ClTgdydkUr1p-Z-5B3zcw=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczMkWm3rt_GdknEYvqRW0SKjecPS3QCnAkrmgnQz6QgHmH139jSvEyPG-QRZv_ZBKFp8wgUcSi_K-IPHLNTkvMZA9YkwD3X_gnUGC5C7Rv3TnFaHFki2bAbj5C0OZvpnkr90_ClTgdydkUr1p-Z-5B3zcw=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "france",
+    "trôo",
+    "saint-jacques-des-guérets",
+    "roman",
+    "fresque"
+  ],
+  "chips": [
+    "Fin XIIe s.",
+    "Art roman Plantagenêt",
+    "Fresques de l'abside",
+    "Saint-Jacques-des-Guérets",
+    "Trôo"
+  ],
+  "narrative": "<p>Cet ensemble de peintures murales de l'église Saint-Jacques-des-Guérets présente deux scènes superposées illustrant la puissance de la foi et de l'intervention divine. Le registre supérieur relate un miracle de saint Nicolas, protecteur des pauvres et des enfants, au moment où il sauve trois jeunes filles de la déchéance en leur offrant secrètement des bourses d'or. On y voit à gauche l'évêque de Myre, drapé de rouge, tendant les bourses vers le lit où reposent les trois sœurs sous une arcature architecturale. Juste en dessous, le registre inférieur est consacré à la Résurrection de Lazare, l'un des miracles les plus emblématiques du Nouveau Testament. Le Christ, situé à gauche avec ses disciples, commande d'un geste majestueux le retour à la vie de Lazare, lequel émerge de son tombeau encore enveloppé dans ses linceuls croisés. À la droite du Christ, les sœurs du défunt témoignent de la scène, illustrant la compassion et la victoire sur la mort. L'esthétique de ces fresques du XIIe siècle se caractérise par des silhouettes élancées et une palette d'ocres chauds qui confèrent à l'ensemble une grande solennité spirituelle.</p>",
+  "desc": "<p>Cet ensemble de peintures murales de l'église Saint-Jacques-des-Guérets présente deux scènes superposées illustrant la puissance de la foi et de l'intervention divine. Le registre supérieur relate un miracle de saint Nicolas, protecteur des pauvres et des enfants, au moment où il sauve trois jeunes filles de la déchéance en leur offrant secrètement des bourses d'or. On y voit à gauche l'évêque de Myre, drapé de rouge, tendant les bourses vers le lit où reposent les trois sœurs sous une arcature architecturale. Juste en dessous, le registre inférieur est consacré à la Résurrection de Lazare, l'un des miracles les plus emblématiques du Nouveau Testament. Le Christ, situé à gauche avec ses disciples, commande d'un geste majestueux le retour à la vie de Lazare, lequel émerge de son tombeau encore enveloppé dans ses linceuls croisés. À la droite du Christ, les sœurs du défunt témoignent de la scène, illustrant la compassion et la victoire sur la mort. L'esthétique de ces fresques du XIIe siècle se caractérise par des silhouettes élancées et une palette d'ocres chauds qui confèrent à l'ensemble une grande solennité spirituelle.</p>",
+  "contemporaryArt": {
+    "title": "Moyen Âge central • Âge d'or de l'Art Roman & Moines bâtisseurs",
+    "events": [
+      "1066 : Conquête normande de l'Angleterre par Guillaume le Conquérant et Tapisserie de Bayeux.",
+      "1095 : Appel de Clermont par le pape Urbain II et prédication de la Première Croisade.",
+      "1098 : Fondation de l'ordre de Cîteaux par Robert de Molesme et essor du monachisme cistercien.",
+      "1100 – 1150 : Essor des grands chantiers de pèlerinage vers Saint-Jacques-de-Compostelle et Rome."
+    ]
+  }
+},
+{
+  "id": "fresque_la_vierge_de_misericorde_au_manteau_prot_18",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident : Art Gothique normand",
+  "century": "XIVe siècle (vers 1370)",
+  "centuryDisplay": "v. 1370",
+  "centuryNumeric": 1370,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "La Vierge de Miséricorde au manteau protecteur (Saint-Céneri)",
+  "site": "Église Saint-Céneri (Saint-Céneri-le-Gérei, Orne, France)",
+  "originSite": "Église romane de Saint-Céneri-le-Gérei",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczP8bZmvnEghP_MxCiCFFZgSPpiFkrzbzkYFiNrm0LzzAJ5mSmBvw6dbmJEz6DZcnhIhXkcmA80l-gZ04qM4saB3wLOvqn0Trp0ERCqU2UUWTgeh5w7At2b5WMNO8CeT-ceZRzW5K7XYkdb33Z9ZU6uTNw=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczP8bZmvnEghP_MxCiCFFZgSPpiFkrzbzkYFiNrm0LzzAJ5mSmBvw6dbmJEz6DZcnhIhXkcmA80l-gZ04qM4saB3wLOvqn0Trp0ERCqU2UUWTgeh5w7At2b5WMNO8CeT-ceZRzW5K7XYkdb33Z9ZU6uTNw=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "france",
+    "normandie",
+    "saint-céneri",
+    "fresque",
+    "orne"
+  ],
+  "chips": [
+    "v. 1370",
+    "Gothique international",
+    "Vierge de Miséricorde",
+    "Fresque votive",
+    "Saint-Céneri-le-Gérei"
+  ],
+  "narrative": "<p>Cette fresque du XIVe siècle, située dans l'abside de l'église Saint-Céneri à Saint-Céneri-le-Gérei, constitue l'un des joyaux de l'art médiéval normand. La composition est dominée par une figure monumentale du Christ en Majesté (XII), ou Christ en gloire, s'inscrivant dans une large mandorle circulaire qui occupe le cul-de-four de l'abside. Le Christ est représenté assis sur un trône, vêtu d'une tunique blanche et d'un manteau rouge ocre aux plis schématiques, levant la main droite en signe de bénédiction tandis que sa main gauche repose sur un globe, symbole de sa domination sur l'univers. Le visage, encadré par une chevelure et une barbe rousses, dégage une solennité hiératique renforcée par un nimbe crucifère doré.</p><p>Aux quatre angles de la mandorle, les restes des symboles du Tétramorphe complètent cette vision céleste, tandis que des figures d'anges musiciens ou adorateurs occupent les espaces latéraux. Sur la paroi inférieure, de part et d'autre de la fenêtre axiale, se déploient des scènes narratives et des figures de saints plus fragmentaires, dont les tons ocre et terreux s'harmonisent avec la pierre calcaire de l'édifice. Le registre supérieur, sur le mur pignon surplombant l'arc triomphal, présente une scène de la vie de la Vierge ou de saint Céneri, traitée avec une grande liberté de trait. L'utilisation d'une palette restreinte mais puissante et le caractère linéaire du dessin témoignent d'une volonté de clarté spirituelle, visant à transformer l'architecture en un livre d'images à la gloire de la liturgie, tout en conservant la fraîcheur et la naïveté propre aux courants picturaux provinciaux du Moyen Âge.</p>",
+  "desc": "<p>Cette fresque du XIVe siècle, située dans l'abside de l'église Saint-Céneri à Saint-Céneri-le-Gérei, constitue l'un des joyaux de l'art médiéval normand. La composition est dominée par une figure monumentale du Christ en Majesté (XII), ou Christ en gloire, s'inscrivant dans une large mandorle circulaire qui occupe le cul-de-four de l'abside. Le Christ est représenté assis sur un trône, vêtu d'une tunique blanche et d'un manteau rouge ocre aux plis schématiques, levant la main droite en signe de bénédiction tandis que sa main gauche repose sur un globe, symbole de sa domination sur l'univers. Le visage, encadré par une chevelure et une barbe rousses, dégage une solennité hiératique renforcée par un nimbe crucifère doré.</p><p>Aux quatre angles de la mandorle, les restes des symboles du Tétramorphe complètent cette vision céleste, tandis que des figures d'anges musiciens ou adorateurs occupent les espaces latéraux. Sur la paroi inférieure, de part et d'autre de la fenêtre axiale, se déploient des scènes narratives et des figures de saints plus fragmentaires, dont les tons ocre et terreux s'harmonisent avec la pierre calcaire de l'édifice. Le registre supérieur, sur le mur pignon surplombant l'arc triomphal, présente une scène de la vie de la Vierge ou de saint Céneri, traitée avec une grande liberté de trait. L'utilisation d'une palette restreinte mais puissante et le caractère linéaire du dessin témoignent d'une volonté de clarté spirituelle, visant à transformer l'architecture en un livre d'images à la gloire de la liturgie, tout en conservant la fraîcheur et la naïveté propre aux courants picturaux provinciaux du Moyen Âge.</p>",
+  "contemporaryArt": {
+    "title": "Bas Moyen Âge • L'Essor du Gothique & l'aube du Trecento",
+    "events": [
+      "1250 – 1300 : Apogée de l'art gothique rayonnant en France et construction de la Sainte-Chapelle de Paris.",
+      "1305 – 1309 : Installation de la papauté en Avignon sous Clément V et grand schisme d'Occident.",
+      "1348 : La terrible épidémie de Peste noire frappe l'Italie et bouleverse la sensibilité spirituelle européenne.",
+      "1380 – 1400 : Diffusion européenne du style Gothique international entre Paris, Dijon, Prague et Florence."
+    ]
+  }
+},
+{
+  "id": "fresque_la_vierge_de_misericorde_au_manteau_prot_19",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident : Art Gothique normand",
+  "century": "XIVe siècle (vers 1370)",
+  "centuryDisplay": "v. 1370",
+  "centuryNumeric": 1370,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "La Vierge de Miséricorde au manteau protecteur (Saint-Céneri)",
+  "site": "Église Saint-Céneri (Saint-Céneri-le-Gérei, Orne, France)",
+  "originSite": "Église romane de Saint-Céneri-le-Gérei",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczMB0v0b56UWQ-ZsE7rGzAUiFodvAn7kzL0CXy45-yfD913dQRibOt__Ts8H_XzeNA3SeCVtAKyYVgKo15zrYWcX0kgk7zhw9CULxzNmMA0mW1D7jtMA9rN644SzlP2_XmnOhio1tw1PFNFvzYN4j0thCQ=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczMB0v0b56UWQ-ZsE7rGzAUiFodvAn7kzL0CXy45-yfD913dQRibOt__Ts8H_XzeNA3SeCVtAKyYVgKo15zrYWcX0kgk7zhw9CULxzNmMA0mW1D7jtMA9rN644SzlP2_XmnOhio1tw1PFNFvzYN4j0thCQ=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "france",
+    "normandie",
+    "saint-céneri",
+    "fresque",
+    "orne"
+  ],
+  "chips": [
+    "v. 1370",
+    "Gothique international",
+    "Vierge de Miséricorde",
+    "Fresque votive",
+    "Saint-Céneri-le-Gérei"
+  ],
+  "narrative": "<p>Datée de la fin du XIVe siècle, aux alentours de 1370, elle illustre le thème iconographique de la Vierge de Miséricorde, également appelée Vierge au manteau. Cette représentation, née au XIIIe siècle et devenue extrêmement populaire après les ravages de la Peste noire, montre Marie comme l'ultime rempart et protectrice de l'humanité face aux fléaux du monde et au jugement divin.</p><p>La composition est dominée par la figure centrale de la Vierge, représentée dans une échelle héroïque qui souligne sa supériorité spirituelle. Coiffée d'une couronne royale marquant son statut de Reine des Cieux, elle déploie ses bras pour ouvrir un vaste manteau ocre rouge. Ce vêtement crée un espace sacré et protecteur sous lequel s'abritent de nombreux fidèles représentés à une échelle réduite. La disposition des personnages respecte une hiérarchie sociale et religieuse stricte : on distingue sur la gauche les membres du clergé, identifiables par leurs tonsures et leurs habits sacerdotaux, dont un dignitaire portant une mitre d'évêque, tandis que la droite est occupée par les laïcs. Tous sont représentés les mains jointes, dans une attitude de prière et d'imploration.</p><p>L'œuvre témoigne de l'esthétique du style gothique international, caractérisée par une certaine élégance du trait et une simplification des formes. Deux anges en vol soutiennent les pans supérieurs du manteau, encadrant le visage de Marie dont les traits sont fins et le regard serein. Le fond de la scène ne reste pas vide ; il est orné de motifs répétitifs de fleurs de lys, de rosaces et d'étoiles, créant un effet décoratif semblable à une tapisserie précieuse. La palette de couleurs est principalement composée de pigments naturels extraits de terres locales, offrant des harmonies de rouge, de jaune et de blanc.</p><p>L'histoire de cette fresque est marquée par une longue période d'oubli. En 1650, pour se conformer aux nouvelles directives de l'Église ou par mesure de salubrité, l'ensemble des peintures murales de l'édifice fut recouvert d'un épais badigeon de chaux. Ce n'est qu'en 1856 que ce décor fut redécouvert fortuitement. Une campagne de restauration importante fut menée peu après par Pierre-Honoré Chadaigne, qui a parfois souligné les contours originaux, permettant à l'œuvre de retrouver sa lisibilité actuelle tout en conservant son âme médiévale. Aujourd'hui, cette fresque est considérée comme une pièce maîtresse du patrimoine ornais, témoignant de la ferveur religieuse et de l'art narratif du Moyen Âge.</p>",
+  "desc": "<p>Datée de la fin du XIVe siècle, aux alentours de 1370, elle illustre le thème iconographique de la Vierge de Miséricorde, également appelée Vierge au manteau. Cette représentation, née au XIIIe siècle et devenue extrêmement populaire après les ravages de la Peste noire, montre Marie comme l'ultime rempart et protectrice de l'humanité face aux fléaux du monde et au jugement divin.</p><p>La composition est dominée par la figure centrale de la Vierge, représentée dans une échelle héroïque qui souligne sa supériorité spirituelle. Coiffée d'une couronne royale marquant son statut de Reine des Cieux, elle déploie ses bras pour ouvrir un vaste manteau ocre rouge. Ce vêtement crée un espace sacré et protecteur sous lequel s'abritent de nombreux fidèles représentés à une échelle réduite. La disposition des personnages respecte une hiérarchie sociale et religieuse stricte : on distingue sur la gauche les membres du clergé, identifiables par leurs tonsures et leurs habits sacerdotaux, dont un dignitaire portant une mitre d'évêque, tandis que la droite est occupée par les laïcs. Tous sont représentés les mains jointes, dans une attitude de prière et d'imploration.</p><p>L'œuvre témoigne de l'esthétique du style gothique international, caractérisée par une certaine élégance du trait et une simplification des formes. Deux anges en vol soutiennent les pans supérieurs du manteau, encadrant le visage de Marie dont les traits sont fins et le regard serein. Le fond de la scène ne reste pas vide ; il est orné de motifs répétitifs de fleurs de lys, de rosaces et d'étoiles, créant un effet décoratif semblable à une tapisserie précieuse. La palette de couleurs est principalement composée de pigments naturels extraits de terres locales, offrant des harmonies de rouge, de jaune et de blanc.</p><p>L'histoire de cette fresque est marquée par une longue période d'oubli. En 1650, pour se conformer aux nouvelles directives de l'Église ou par mesure de salubrité, l'ensemble des peintures murales de l'édifice fut recouvert d'un épais badigeon de chaux. Ce n'est qu'en 1856 que ce décor fut redécouvert fortuitement. Une campagne de restauration importante fut menée peu après par Pierre-Honoré Chadaigne, qui a parfois souligné les contours originaux, permettant à l'œuvre de retrouver sa lisibilité actuelle tout en conservant son âme médiévale. Aujourd'hui, cette fresque est considérée comme une pièce maîtresse du patrimoine ornais, témoignant de la ferveur religieuse et de l'art narratif du Moyen Âge.</p>",
+  "contemporaryArt": {
+    "title": "Bas Moyen Âge • L'Essor du Gothique & l'aube du Trecento",
+    "events": [
+      "1250 – 1300 : Apogée de l'art gothique rayonnant en France et construction de la Sainte-Chapelle de Paris.",
+      "1305 – 1309 : Installation de la papauté en Avignon sous Clément V et grand schisme d'Occident.",
+      "1348 : La terrible épidémie de Peste noire frappe l'Italie et bouleverse la sensibilité spirituelle européenne.",
+      "1380 – 1400 : Diffusion européenne du style Gothique international entre Paris, Dijon, Prague et Florence."
+    ]
+  }
+},
+{
+  "id": "fresque_la_vierge_de_misericorde_au_manteau_prot_20",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident : Art Gothique normand",
+  "century": "XIVe siècle (vers 1370)",
+  "centuryDisplay": "v. 1370",
+  "centuryNumeric": 1370,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "La Vierge de Miséricorde au manteau protecteur (Saint-Céneri)",
+  "site": "Église Saint-Céneri (Saint-Céneri-le-Gérei, Orne, France)",
+  "originSite": "Église romane de Saint-Céneri-le-Gérei",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczPC5-OyNQBp9dpKTNMKxr3ptD02SZqaX1c515qJKMKOPZOf83gISQPI9FfSqQBk95dpU6wyO_Zjbtn4SYJoreohxfzaKLhiS8G5RoxOFgewnu4cMT07k2uPJQ3c_vLGBBNrTGW872svw6zauV7ZT2Ud_w=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczPC5-OyNQBp9dpKTNMKxr3ptD02SZqaX1c515qJKMKOPZOf83gISQPI9FfSqQBk95dpU6wyO_Zjbtn4SYJoreohxfzaKLhiS8G5RoxOFgewnu4cMT07k2uPJQ3c_vLGBBNrTGW872svw6zauV7ZT2Ud_w=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "france",
+    "normandie",
+    "saint-céneri",
+    "fresque",
+    "orne"
+  ],
+  "chips": [
+    "v. 1370",
+    "Gothique international",
+    "Vierge de Miséricorde",
+    "Fresque votive",
+    "Saint-Céneri-le-Gérei"
+  ],
+  "narrative": "<p>Cette peinture murale, située sur l'un des pans de la voûte ou du mur haut de l'église de Saint-Céneri-le-Gérei, présente un cycle narratif complexe datant de la fin du XIVe siècle, exécuté avec la même palette d'ocres rouges et jaunes que la Vierge de Miséricorde. La scène s'inscrit dans un espace architecturé et végétal, marqué par la présence d'arbres stylisés aux fruits rouges et d'une structure fortifiée en partie supérieure évoquant une cité céleste ou un château symbolique paré de motifs floraux. L'iconographie semble illustrer une scène de procession ou de vie hagiographique, où l'on observe plusieurs personnages en mouvement, certains tenant des croix de consécration ou des bâtons, vêtus de tuniques longues typiques de la mode médiévale tardive.</p><p>L'organisation spatiale de l'œuvre utilise les arbres comme des éléments de ponctuation pour séparer les différents groupes de figures, créant un rythme narratif qui guide le regard à travers la paroi. Sur la partie gauche, des silhouettes plus distinctes montrent des personnages aux drapés travaillés, tandis que la partie centrale semble représenter une interaction entre plusieurs figures devant l'édifice fortifié. La technique employée, mêlant la fresque pour les couches de base et la détrempe pour les détails ornementaux, révèle une volonté de mêler réalisme narratif et symbolisme religieux. Les motifs de croix pattées répartis entre les arbres renforcent la dimension sacrée de l'espace représenté, liant l'histoire terrestre des personnages à la protection divine.</p>",
+  "desc": "<p>Cette peinture murale, située sur l'un des pans de la voûte ou du mur haut de l'église de Saint-Céneri-le-Gérei, présente un cycle narratif complexe datant de la fin du XIVe siècle, exécuté avec la même palette d'ocres rouges et jaunes que la Vierge de Miséricorde. La scène s'inscrit dans un espace architecturé et végétal, marqué par la présence d'arbres stylisés aux fruits rouges et d'une structure fortifiée en partie supérieure évoquant une cité céleste ou un château symbolique paré de motifs floraux. L'iconographie semble illustrer une scène de procession ou de vie hagiographique, où l'on observe plusieurs personnages en mouvement, certains tenant des croix de consécration ou des bâtons, vêtus de tuniques longues typiques de la mode médiévale tardive.</p><p>L'organisation spatiale de l'œuvre utilise les arbres comme des éléments de ponctuation pour séparer les différents groupes de figures, créant un rythme narratif qui guide le regard à travers la paroi. Sur la partie gauche, des silhouettes plus distinctes montrent des personnages aux drapés travaillés, tandis que la partie centrale semble représenter une interaction entre plusieurs figures devant l'édifice fortifié. La technique employée, mêlant la fresque pour les couches de base et la détrempe pour les détails ornementaux, révèle une volonté de mêler réalisme narratif et symbolisme religieux. Les motifs de croix pattées répartis entre les arbres renforcent la dimension sacrée de l'espace représenté, liant l'histoire terrestre des personnages à la protection divine.</p>",
+  "contemporaryArt": {
+    "title": "Bas Moyen Âge • L'Essor du Gothique & l'aube du Trecento",
+    "events": [
+      "1250 – 1300 : Apogée de l'art gothique rayonnant en France et construction de la Sainte-Chapelle de Paris.",
+      "1305 – 1309 : Installation de la papauté en Avignon sous Clément V et grand schisme d'Occident.",
+      "1348 : La terrible épidémie de Peste noire frappe l'Italie et bouleverse la sensibilité spirituelle européenne.",
+      "1380 – 1400 : Diffusion européenne du style Gothique international entre Paris, Dijon, Prague et Florence."
+    ]
+  }
+},
+{
+  "id": "fresque_le_grand_cycle_de_l_ancien_testament_sur_21",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_roman",
+  "civName": "Occident : Art Roman poitevin",
+  "century": "XIIe siècle (vers 1100)",
+  "centuryDisplay": "XIIe s. (v. 1100)",
+  "centuryNumeric": 1100,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Le Grand Cycle de l'Ancien Testament sur la voûte en berceau (Saint-Savin)",
+  "site": "Abbaye de Saint-Savin-sur-Gartempe (Vienne, France)",
+  "originSite": "Voûte de la nef et chœur de l'abbatiale de Saint-Savin",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczOSV3zVtiAsBY35gRCy96D3A1YhoAqWZivoZU1zhq07SUE6ASYrLSxZdUnVA-HWvW8D1zy4507CxvhuyL1ElYEsEVugemxwoiWlxsOZWklYy-8KjEiZPwFCo4x5BVxE6R4e-F296simhUKRyl-4AZ0T0A=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczOSV3zVtiAsBY35gRCy96D3A1YhoAqWZivoZU1zhq07SUE6ASYrLSxZdUnVA-HWvW8D1zy4507CxvhuyL1ElYEsEVugemxwoiWlxsOZWklYy-8KjEiZPwFCo4x5BVxE6R4e-F296simhUKRyl-4AZ0T0A=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "france",
+    "saint-savin",
+    "roman",
+    "unesco",
+    "vienne",
+    "fresque",
+    "genèse"
+  ],
+  "chips": [
+    "v. 1100",
+    "Art roman poitevin",
+    "Voûte en berceau",
+    "Chef-d'œuvre UNESCO",
+    "Saint-Savin-sur-Gartempe"
+  ],
+  "narrative": "<p>Cette œuvre monumentale constitue l'un des fleurons les plus accomplis de la peinture murale romane en Europe, justifiant l'inscription de l'abbaye de Saint-Savin-sur-Gartempe au patrimoine mondial de l'UNESCO. Réalisées aux alentours de l'an 1100, ces fresques ornent la voûte en berceau de la nef, s'étendant sur une surface exceptionnelle qui leur a valu le surnom de Chapelle Sixtine du Moyen Âge. L'exécution technique repose sur une application de pigments naturels sur un enduit encore frais, une méthode exigeant une rapidité et une maîtrise chromatique remarquables, dominées ici par une palette d'ocres jaunes et rouges, de terres vertes et de blancs de chaux. L'iconographie se déploie selon un cycle narratif linéaire d'une fluidité rare, dépeignant les épisodes majeurs de l'Ancien Testament, principalement issus de la Genèse et de l'Exode. Les scènes représentées témoignent d'un sens aigu du mouvement et de la dramaturgie, s'éloignant de la rigidité hiératique souvent associée à l'art byzantin pour privilégier une gestuelle expressive et une élongation des silhouettes qui confèrent aux personnages une élégance dynamique. La composition utilise des registres superposés séparés par des frises décoratives à motifs végétaux ou géométriques, tandis que l'architecture même de la voûte est intégrée à la narration pour guider l'œil du fidèle dans une lecture ascendante et continue. Au-delà de leur fonction didactique destinée à une population largement illettrée, ces peintures manifestent une profonde unité stylistique malgré la présence probable de plusieurs mains au sein de l'atelier de peintres. La force des traits de contour, la simplification des formes et l'absence de perspective réelle soulignent une volonté de lisibilité immédiate et de transcendance spirituelle, faisant de cet ensemble un témoignage inégalé de la théologie visuelle du XIe siècle. L'état de conservation, bien que marqué par l'usure du temps et d'anciennes restaurations, permet encore d'apprécier la vivacité du trait et la clarté de la composition originale, affirmant la place centrale de Saint-Savin dans l'histoire de l'art médiéval occidental.</p>",
+  "desc": "<p>Cette œuvre monumentale constitue l'un des fleurons les plus accomplis de la peinture murale romane en Europe, justifiant l'inscription de l'abbaye de Saint-Savin-sur-Gartempe au patrimoine mondial de l'UNESCO. Réalisées aux alentours de l'an 1100, ces fresques ornent la voûte en berceau de la nef, s'étendant sur une surface exceptionnelle qui leur a valu le surnom de Chapelle Sixtine du Moyen Âge. L'exécution technique repose sur une application de pigments naturels sur un enduit encore frais, une méthode exigeant une rapidité et une maîtrise chromatique remarquables, dominées ici par une palette d'ocres jaunes et rouges, de terres vertes et de blancs de chaux. L'iconographie se déploie selon un cycle narratif linéaire d'une fluidité rare, dépeignant les épisodes majeurs de l'Ancien Testament, principalement issus de la Genèse et de l'Exode. Les scènes représentées témoignent d'un sens aigu du mouvement et de la dramaturgie, s'éloignant de la rigidité hiératique souvent associée à l'art byzantin pour privilégier une gestuelle expressive et une élongation des silhouettes qui confèrent aux personnages une élégance dynamique. La composition utilise des registres superposés séparés par des frises décoratives à motifs végétaux ou géométriques, tandis que l'architecture même de la voûte est intégrée à la narration pour guider l'œil du fidèle dans une lecture ascendante et continue. Au-delà de leur fonction didactique destinée à une population largement illettrée, ces peintures manifestent une profonde unité stylistique malgré la présence probable de plusieurs mains au sein de l'atelier de peintres. La force des traits de contour, la simplification des formes et l'absence de perspective réelle soulignent une volonté de lisibilité immédiate et de transcendance spirituelle, faisant de cet ensemble un témoignage inégalé de la théologie visuelle du XIe siècle. L'état de conservation, bien que marqué par l'usure du temps et d'anciennes restaurations, permet encore d'apprécier la vivacité du trait et la clarté de la composition originale, affirmant la place centrale de Saint-Savin dans l'histoire de l'art médiéval occidental.</p>",
+  "contemporaryArt": {
+    "title": "Moyen Âge central • Âge d'or de l'Art Roman & Moines bâtisseurs",
+    "events": [
+      "1066 : Conquête normande de l'Angleterre par Guillaume le Conquérant et Tapisserie de Bayeux.",
+      "1095 : Appel de Clermont par le pape Urbain II et prédication de la Première Croisade.",
+      "1098 : Fondation de l'ordre de Cîteaux par Robert de Molesme et essor du monachisme cistercien.",
+      "1100 – 1150 : Essor des grands chantiers de pèlerinage vers Saint-Jacques-de-Compostelle et Rome."
+    ]
+  }
+},
+{
+  "id": "fresque_l_arche_de_noe_la_sortie_du_deluge_et_l__22",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_roman",
+  "civName": "Occident : Art Roman poitevin",
+  "century": "XIIe siècle (vers 1100)",
+  "centuryDisplay": "XIIe s. (v. 1100)",
+  "centuryNumeric": 1100,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "L'Arche de Noé, la sortie du Déluge et l'ivresse du Patriarche (Saint-Savin)",
+  "site": "Abbaye de Saint-Savin-sur-Gartempe (Vienne, France)",
+  "originSite": "Voûte de la nef et chœur de l'abbatiale de Saint-Savin",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczOioCsGZHihFhTyZgqK5RTaeBU3Db_v5vh9LffOYG6LfCBMPPI0L5rYkEHjAi4Om6xlgzuwI2OMpevJhiLQYp_9x76SYRdHhBZN_5KLbGRSZ5dQuXf6TToAemkcfXIOFI8NjtUODC9e6Rz3ROyXGbzw-g=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczOioCsGZHihFhTyZgqK5RTaeBU3Db_v5vh9LffOYG6LfCBMPPI0L5rYkEHjAi4Om6xlgzuwI2OMpevJhiLQYp_9x76SYRdHhBZN_5KLbGRSZ5dQuXf6TToAemkcfXIOFI8NjtUODC9e6Rz3ROyXGbzw-g=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "france",
+    "saint-savin",
+    "roman",
+    "unesco",
+    "vienne",
+    "fresque",
+    "genèse"
+  ],
+  "chips": [
+    "v. 1100",
+    "Art roman poitevin",
+    "Voûte en berceau",
+    "Chef-d'œuvre UNESCO",
+    "Saint-Savin-sur-Gartempe"
+  ],
+  "narrative": "<p>Cette partie de la voûte met en scène le cycle de Noé, l'un des passages les plus emblématiques du récit de la Genèse à Saint-Savin. Le registre supérieur est dominé par la représentation spectaculaire de l'arche de Noé, figurée non comme un bâtiment mais comme un vaisseau à la proue en tête de monstre, évoquant les drakkars ou les nefs médiévales. Conformément au texte biblique, l'embarcation est divisée en trois étages distincts où s'organise le sauvetage du monde vivant. Au niveau supérieur, Noé et sa famille apparaissent derrière une série d'arcades, tandis que les registres inférieurs abritent les oiseaux et les quadrupèdes répartis dans des compartiments réguliers. Sous la coque rouge du navire, on distingue des silhouettes humaines flottant dans les eaux, rappelant la dimension tragique du déluge pour ceux restés hors de l'arche.</p><p>Immédiatement à droite de cette scène, le récit se poursuit par la sortie de l'arche. Une figure divine monumentale et protectrice, identifiable à son nimbe crucifère, accueille et bénit Noé et sa famille alors qu'ils retrouvent la terre ferme. Le geste de bénédiction du Créateur scelle l'alliance renouvelée avec l'humanité dans un paysage encore dépouillé. Cette séquence illustre parfaitement le style narratif de l'abbaye, où les épisodes s'enchaînent avec une fluidité cinématographique sur la courbure de la pierre.</p><p>Le registre inférieur présente les épisodes suivants de la geste humaine. À gauche, la scène de l'ivresse de Noé montre le patriarche dénudé et endormi après avoir découvert la culture de la vigne. Ses fils, Sem et Japhet, interviennent avec pudeur en le recouvrant d'un manteau tout en détournant le regard, tandis que Cham est châtié pour son manque de respect. Enfin, sur la droite, l'iconographie bascule vers l'orgueil des hommes avec le début de la construction de la Tour de Babel. On y voit les bâtisseurs s'affairer autour de la structure, utilisant des outils médiévaux pour ériger l'édifice qui provoquera la confusion des langues.</p><p>L'ensemble de ces fresques se caractérise par une gamme chromatique restreinte mais vibrante, utilisant principalement l'ocre jaune, l'ocre rouge et le vert pour donner du relief aux drapés. Les silhouettes allongées et les visages expressifs, typiques du \"Maître de la Nef\", confèrent une élégance particulière à ces scènes de survie et de renaissance, transformant le plafond de l'abbaye en un véritable catéchisme visuel d'une puissance artistique rare.</p>",
+  "desc": "<p>Cette partie de la voûte met en scène le cycle de Noé, l'un des passages les plus emblématiques du récit de la Genèse à Saint-Savin. Le registre supérieur est dominé par la représentation spectaculaire de l'arche de Noé, figurée non comme un bâtiment mais comme un vaisseau à la proue en tête de monstre, évoquant les drakkars ou les nefs médiévales. Conformément au texte biblique, l'embarcation est divisée en trois étages distincts où s'organise le sauvetage du monde vivant. Au niveau supérieur, Noé et sa famille apparaissent derrière une série d'arcades, tandis que les registres inférieurs abritent les oiseaux et les quadrupèdes répartis dans des compartiments réguliers. Sous la coque rouge du navire, on distingue des silhouettes humaines flottant dans les eaux, rappelant la dimension tragique du déluge pour ceux restés hors de l'arche.</p><p>Immédiatement à droite de cette scène, le récit se poursuit par la sortie de l'arche. Une figure divine monumentale et protectrice, identifiable à son nimbe crucifère, accueille et bénit Noé et sa famille alors qu'ils retrouvent la terre ferme. Le geste de bénédiction du Créateur scelle l'alliance renouvelée avec l'humanité dans un paysage encore dépouillé. Cette séquence illustre parfaitement le style narratif de l'abbaye, où les épisodes s'enchaînent avec une fluidité cinématographique sur la courbure de la pierre.</p><p>Le registre inférieur présente les épisodes suivants de la geste humaine. À gauche, la scène de l'ivresse de Noé montre le patriarche dénudé et endormi après avoir découvert la culture de la vigne. Ses fils, Sem et Japhet, interviennent avec pudeur en le recouvrant d'un manteau tout en détournant le regard, tandis que Cham est châtié pour son manque de respect. Enfin, sur la droite, l'iconographie bascule vers l'orgueil des hommes avec le début de la construction de la Tour de Babel. On y voit les bâtisseurs s'affairer autour de la structure, utilisant des outils médiévaux pour ériger l'édifice qui provoquera la confusion des langues.</p><p>L'ensemble de ces fresques se caractérise par une gamme chromatique restreinte mais vibrante, utilisant principalement l'ocre jaune, l'ocre rouge et le vert pour donner du relief aux drapés. Les silhouettes allongées et les visages expressifs, typiques du \"Maître de la Nef\", confèrent une élégance particulière à ces scènes de survie et de renaissance, transformant le plafond de l'abbaye en un véritable catéchisme visuel d'une puissance artistique rare.</p>",
+  "contemporaryArt": {
+    "title": "Moyen Âge central • Âge d'or de l'Art Roman & Moines bâtisseurs",
+    "events": [
+      "1066 : Conquête normande de l'Angleterre par Guillaume le Conquérant et Tapisserie de Bayeux.",
+      "1095 : Appel de Clermont par le pape Urbain II et prédication de la Première Croisade.",
+      "1098 : Fondation de l'ordre de Cîteaux par Robert de Molesme et essor du monachisme cistercien.",
+      "1100 – 1150 : Essor des grands chantiers de pèlerinage vers Saint-Jacques-de-Compostelle et Rome."
+    ]
+  }
+},
+{
+  "id": "fresque_l_arche_de_noe_la_sortie_du_deluge_et_l__23",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_roman",
+  "civName": "Occident : Art Roman poitevin",
+  "century": "XIIe siècle (vers 1100)",
+  "centuryDisplay": "XIIe s. (v. 1100)",
+  "centuryNumeric": 1100,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "L'Arche de Noé, la sortie du Déluge et l'ivresse du Patriarche (Saint-Savin)",
+  "site": "Abbaye de Saint-Savin-sur-Gartempe (Vienne, France)",
+  "originSite": "Voûte de la nef et chœur de l'abbatiale de Saint-Savin",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczM_YvFh9FxQAAtSZPtpopA73nxfc_34-PUCFO2zU3GKdeCmB1pl9kSTDZ3SKF5ur_slN0W9_klvK95OscENa2kbHNmdFY0BMgO3gKJCjGGrUmsDhqEsQshbKijQqqfje9MKxEFsNSJ06_eEgOl8FBUEWg=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczM_YvFh9FxQAAtSZPtpopA73nxfc_34-PUCFO2zU3GKdeCmB1pl9kSTDZ3SKF5ur_slN0W9_klvK95OscENa2kbHNmdFY0BMgO3gKJCjGGrUmsDhqEsQshbKijQqqfje9MKxEFsNSJ06_eEgOl8FBUEWg=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "france",
+    "saint-savin",
+    "roman",
+    "unesco",
+    "vienne",
+    "fresque",
+    "genèse"
+  ],
+  "chips": [
+    "v. 1100",
+    "Art roman poitevin",
+    "Voûte en berceau",
+    "Chef-d'œuvre UNESCO",
+    "Saint-Savin-sur-Gartempe"
+  ],
+  "narrative": "<p>Cet ensemble iconographique poursuit la narration biblique sur la voûte de la nef, se concentrant sur les cycles de Noé et de Moïse. Le registre supérieur prolonge l'histoire du Patriarche avec la scène de l'arche de Noé, représentée sous la forme d'un vaisseau aux lignes courbes rappelant les drakkars, dont la coque ocre rouge soutient une structure à trois étages. On y distingue nettement les visages humains à l'étage supérieur, tandis que les animaux sont répartis dans les compartiments inférieurs. Immédiatement à la suite du vaisseau, le récit montre la sortie de l'arche où Noé et sa famille sont accueillis par une figure divine imposante et nimbée, dont le geste ample symbolise la bénédiction et l'alliance renouvelée avec les hommes après le Déluge. À l'extrême droite de ce même registre, une scène plus fragmentaire dépeint le sacrifice d'action de grâce de Noé, agenouillé devant un autel, marquant la reconnaissance du survivant envers le Créateur.</p><p>Le registre inférieur opère une transition vers l'Exode et la figure de Moïse, illustrant le don de la Loi. La partie centrale de ce registre présente une scène solennelle où Moïse reçoit les Tables de la Loi des mains de Dieu. Le Prophète est figuré dans une posture d'humilité, tandis que la divinité apparaît dans une mandorle ou un cadre de lumière, soulignant le caractère sacré et transcendant de cet instant. Les silhouettes, aux proportions allongées et aux drapés rythmés par des lignes de couleur plus sombres, sont caractéristiques de la main du \"Maître de la Nef\". L'utilisation des fonds colorés, alternant entre le jaune ocre et le vert terre, permet de structurer l'espace narratif sans recours à la perspective, privilégiant une lisibilité théologique immédiate.</p>",
+  "desc": "<p>Cet ensemble iconographique poursuit la narration biblique sur la voûte de la nef, se concentrant sur les cycles de Noé et de Moïse. Le registre supérieur prolonge l'histoire du Patriarche avec la scène de l'arche de Noé, représentée sous la forme d'un vaisseau aux lignes courbes rappelant les drakkars, dont la coque ocre rouge soutient une structure à trois étages. On y distingue nettement les visages humains à l'étage supérieur, tandis que les animaux sont répartis dans les compartiments inférieurs. Immédiatement à la suite du vaisseau, le récit montre la sortie de l'arche où Noé et sa famille sont accueillis par une figure divine imposante et nimbée, dont le geste ample symbolise la bénédiction et l'alliance renouvelée avec les hommes après le Déluge. À l'extrême droite de ce même registre, une scène plus fragmentaire dépeint le sacrifice d'action de grâce de Noé, agenouillé devant un autel, marquant la reconnaissance du survivant envers le Créateur.</p><p>Le registre inférieur opère une transition vers l'Exode et la figure de Moïse, illustrant le don de la Loi. La partie centrale de ce registre présente une scène solennelle où Moïse reçoit les Tables de la Loi des mains de Dieu. Le Prophète est figuré dans une posture d'humilité, tandis que la divinité apparaît dans une mandorle ou un cadre de lumière, soulignant le caractère sacré et transcendant de cet instant. Les silhouettes, aux proportions allongées et aux drapés rythmés par des lignes de couleur plus sombres, sont caractéristiques de la main du \"Maître de la Nef\". L'utilisation des fonds colorés, alternant entre le jaune ocre et le vert terre, permet de structurer l'espace narratif sans recours à la perspective, privilégiant une lisibilité théologique immédiate.</p>",
+  "contemporaryArt": {
+    "title": "Moyen Âge central • Âge d'or de l'Art Roman & Moines bâtisseurs",
+    "events": [
+      "1066 : Conquête normande de l'Angleterre par Guillaume le Conquérant et Tapisserie de Bayeux.",
+      "1095 : Appel de Clermont par le pape Urbain II et prédication de la Première Croisade.",
+      "1098 : Fondation de l'ordre de Cîteaux par Robert de Molesme et essor du monachisme cistercien.",
+      "1100 – 1150 : Essor des grands chantiers de pèlerinage vers Saint-Jacques-de-Compostelle et Rome."
+    ]
+  }
+},
+{
+  "id": "fresque_la_mise_au_tombeau_de_saint_savin_et_sai_24",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_roman",
+  "civName": "Occident : Art Roman poitevin",
+  "century": "XIIe siècle (vers 1100)",
+  "centuryDisplay": "XIIe s. (v. 1100)",
+  "centuryNumeric": 1100,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "La Mise au tombeau de saint Savin et saint Cyprien (Chœur de Saint-Savin)",
+  "site": "Abbaye de Saint-Savin-sur-Gartempe (Vienne, France)",
+  "originSite": "Voûte de la nef et chœur de l'abbatiale de Saint-Savin",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczNkJOZnzn25nU2hYHAPJAL0fDd8RehN3voAWdxzDfyvRTbK_U2pgKLekXnVLz056vG19-XWwXw0oe_H5kgY4bFkvUKFBda941qAeSHBI0kZNvR40JmlqrG31e6rfk79KoM7q7QfTIfS8JNtEoBZjCp0jg=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczNkJOZnzn25nU2hYHAPJAL0fDd8RehN3voAWdxzDfyvRTbK_U2pgKLekXnVLz056vG19-XWwXw0oe_H5kgY4bFkvUKFBda941qAeSHBI0kZNvR40JmlqrG31e6rfk79KoM7q7QfTIfS8JNtEoBZjCp0jg=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "france",
+    "saint-savin",
+    "roman",
+    "unesco",
+    "vienne",
+    "fresque",
+    "genèse"
+  ],
+  "chips": [
+    "v. 1100",
+    "Art roman poitevin",
+    "Voûte en berceau",
+    "Chef-d'œuvre UNESCO",
+    "Saint-Savin-sur-Gartempe"
+  ],
+  "narrative": "<p>Cette peinture murale, située dans le chœur de l'abbaye, se détache du cycle narratif de la nef pour illustrer un épisode solennel de la vie de saint Savin et de saint Cyprien. La scène représente la mise au tombeau des deux martyrs, un thème central pour l'édifice qui abrite leurs reliques. La composition s'organise autour d'un linceul blanc formant une courbe profonde, au creux duquel repose le corps d'un saint, porté avec dévotion par deux figures nimbées aux extrémités. L'attitude des personnages, penchés vers le défunt, exprime une gravité sereine typique de l'art roman poitevin du début du XIIe siècle.</p><p>Au-dessus de la scène funéraire, une main divine surgit d'une nuée architecturée pour bénir la dépouille, symbolisant la reconnaissance céleste du sacrifice des martyrs. Le décor en arrière-plan suggère un environnement urbain ou ecclésial simplifié, avec des structures crénelées qui encadrent la composition. Cette architecture peinte renforce la stabilité de la scène et guide le regard vers le centre de l'action, tout en intégrant la fresque dans la verticalité du chœur.</p><p>Sur le plan technique et stylistique, l'œuvre conserve la palette chromatique caractéristique de l'abbaye, mêlant l'ocre rouge, le jaune et des fonds terreux. Le traitement des drapés, marqués par des lignes sombres et des rehauts clairs, souligne le volume des corps sans rompre avec la planéité murale. La bordure décorative sur la droite, ornée de motifs de rinceaux et d'entrelacs, témoigne du soin apporté aux finitions ornementales qui structurent l'espace sacré. Cette fresque du chœur, par sa position et son sujet, rappelle aux fidèles la sainteté des lieux et le lien direct entre la communauté monastique et ses protecteurs.</p>",
+  "desc": "<p>Cette peinture murale, située dans le chœur de l'abbaye, se détache du cycle narratif de la nef pour illustrer un épisode solennel de la vie de saint Savin et de saint Cyprien. La scène représente la mise au tombeau des deux martyrs, un thème central pour l'édifice qui abrite leurs reliques. La composition s'organise autour d'un linceul blanc formant une courbe profonde, au creux duquel repose le corps d'un saint, porté avec dévotion par deux figures nimbées aux extrémités. L'attitude des personnages, penchés vers le défunt, exprime une gravité sereine typique de l'art roman poitevin du début du XIIe siècle.</p><p>Au-dessus de la scène funéraire, une main divine surgit d'une nuée architecturée pour bénir la dépouille, symbolisant la reconnaissance céleste du sacrifice des martyrs. Le décor en arrière-plan suggère un environnement urbain ou ecclésial simplifié, avec des structures crénelées qui encadrent la composition. Cette architecture peinte renforce la stabilité de la scène et guide le regard vers le centre de l'action, tout en intégrant la fresque dans la verticalité du chœur.</p><p>Sur le plan technique et stylistique, l'œuvre conserve la palette chromatique caractéristique de l'abbaye, mêlant l'ocre rouge, le jaune et des fonds terreux. Le traitement des drapés, marqués par des lignes sombres et des rehauts clairs, souligne le volume des corps sans rompre avec la planéité murale. La bordure décorative sur la droite, ornée de motifs de rinceaux et d'entrelacs, témoigne du soin apporté aux finitions ornementales qui structurent l'espace sacré. Cette fresque du chœur, par sa position et son sujet, rappelle aux fidèles la sainteté des lieux et le lien direct entre la communauté monastique et ses protecteurs.</p>",
+  "contemporaryArt": {
+    "title": "Moyen Âge central • Âge d'or de l'Art Roman & Moines bâtisseurs",
+    "events": [
+      "1066 : Conquête normande de l'Angleterre par Guillaume le Conquérant et Tapisserie de Bayeux.",
+      "1095 : Appel de Clermont par le pape Urbain II et prédication de la Première Croisade.",
+      "1098 : Fondation de l'ordre de Cîteaux par Robert de Molesme et essor du monachisme cistercien.",
+      "1100 – 1150 : Essor des grands chantiers de pèlerinage vers Saint-Jacques-de-Compostelle et Rome."
+    ]
+  }
+},
+{
+  "id": "fresque_le_triomphe_de_joseph_sur_son_char_en_eg_25",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_roman",
+  "civName": "Occident : Art Roman poitevin",
+  "century": "XIIe siècle (vers 1100)",
+  "centuryDisplay": "XIIe s. (v. 1100)",
+  "centuryNumeric": 1100,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Le Triomphe de Joseph sur son char en Égypte (Saint-Savin)",
+  "site": "Abbaye de Saint-Savin-sur-Gartempe (Vienne, France)",
+  "originSite": "Voûte de la nef et chœur de l'abbatiale de Saint-Savin",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczO0VoTCx7OIo-nSGA9Rz_5Lfml1gp0axhPv6KTmVTilSWq5YJil2woDN3iTDP_w2rYtMRxcqiJbxHit5MJU2CuQG00HPolGHYILGQRsZIYYpkpBV1Omr4UM1dDy38gVVkUuyziDlyrmFlkwPlVqQ78g_g=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczO0VoTCx7OIo-nSGA9Rz_5Lfml1gp0axhPv6KTmVTilSWq5YJil2woDN3iTDP_w2rYtMRxcqiJbxHit5MJU2CuQG00HPolGHYILGQRsZIYYpkpBV1Omr4UM1dDy38gVVkUuyziDlyrmFlkwPlVqQ78g_g=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "france",
+    "saint-savin",
+    "roman",
+    "unesco",
+    "vienne",
+    "fresque",
+    "genèse"
+  ],
+  "chips": [
+    "v. 1100",
+    "Art roman poitevin",
+    "Voûte en berceau",
+    "Chef-d'œuvre UNESCO",
+    "Saint-Savin-sur-Gartempe"
+  ],
+  "narrative": "<p>Dans le registre supérieur, la scène dépeint avec une grande économie de moyens mais une force expressive intacte le moment où Joseph est vendu par ses frères à des marchands ismaélites, ou peut-être son emprisonnement ultérieur en Égypte. On y observe des silhouettes élancées, vêtues de tuniques aux plis schématiques mais dynamiques, évoluant dans un décor architectural stylisé évoquant des cités fortifiées par des tours crénelées. Le registre inférieur présente une scène de mouvement intense où Joseph, reconnaissable à sa dignité de port, est conduit sur un char antique à deux roues massives, symbolisant son ascension sociale auprès du Pharaon. À sa droite, une scène de rencontre ou de réconciliation, marquée par des gestes d'étreinte et de dialogue, souligne l'importance des mains et des regards dans la narration romane.</p><p>La palette chromatique est emblématique de l’école de Saint-Savin, limitée à une harmonie de pigments naturels tels que les ocres jaunes et rouges, le vert terre et le blanc de chaux. Cette gamme restreinte, loin d'être une limite, confère à l'ensemble une profonde unité visuelle et une lisibilité immédiate malgré les outrages du temps. Le dessin, marqué par des cernes sombres qui délimitent les formes, privilégie le profil et la gestuelle symbolique plutôt que le réalisme anatomique. Les décors de fond, alternant entre des bandes horizontales colorées et des motifs végétaux simplifiés comme les arbres squelettiques aux extrémités de la scène, servent de repères spatiaux sans encombrer la narration. L'œuvre témoigne d'une maîtrise technique exceptionnelle où la rapidité d'exécution, nécessaire au travail sur enduit, n'exclut pas une grande finesse dans le rendu des physionomies et des drapés, faisant de cet ensemble un témoignage inestimable de la spiritualité et de l'esthétique médiévale occidentale.</p>",
+  "desc": "<p>Dans le registre supérieur, la scène dépeint avec une grande économie de moyens mais une force expressive intacte le moment où Joseph est vendu par ses frères à des marchands ismaélites, ou peut-être son emprisonnement ultérieur en Égypte. On y observe des silhouettes élancées, vêtues de tuniques aux plis schématiques mais dynamiques, évoluant dans un décor architectural stylisé évoquant des cités fortifiées par des tours crénelées. Le registre inférieur présente une scène de mouvement intense où Joseph, reconnaissable à sa dignité de port, est conduit sur un char antique à deux roues massives, symbolisant son ascension sociale auprès du Pharaon. À sa droite, une scène de rencontre ou de réconciliation, marquée par des gestes d'étreinte et de dialogue, souligne l'importance des mains et des regards dans la narration romane.</p><p>La palette chromatique est emblématique de l’école de Saint-Savin, limitée à une harmonie de pigments naturels tels que les ocres jaunes et rouges, le vert terre et le blanc de chaux. Cette gamme restreinte, loin d'être une limite, confère à l'ensemble une profonde unité visuelle et une lisibilité immédiate malgré les outrages du temps. Le dessin, marqué par des cernes sombres qui délimitent les formes, privilégie le profil et la gestuelle symbolique plutôt que le réalisme anatomique. Les décors de fond, alternant entre des bandes horizontales colorées et des motifs végétaux simplifiés comme les arbres squelettiques aux extrémités de la scène, servent de repères spatiaux sans encombrer la narration. L'œuvre témoigne d'une maîtrise technique exceptionnelle où la rapidité d'exécution, nécessaire au travail sur enduit, n'exclut pas une grande finesse dans le rendu des physionomies et des drapés, faisant de cet ensemble un témoignage inestimable de la spiritualité et de l'esthétique médiévale occidentale.</p>",
+  "contemporaryArt": {
+    "title": "Moyen Âge central • Âge d'or de l'Art Roman & Moines bâtisseurs",
+    "events": [
+      "1066 : Conquête normande de l'Angleterre par Guillaume le Conquérant et Tapisserie de Bayeux.",
+      "1095 : Appel de Clermont par le pape Urbain II et prédication de la Première Croisade.",
+      "1098 : Fondation de l'ordre de Cîteaux par Robert de Molesme et essor du monachisme cistercien.",
+      "1100 – 1150 : Essor des grands chantiers de pèlerinage vers Saint-Jacques-de-Compostelle et Rome."
+    ]
+  }
+},
+{
+  "id": "fresque_le_chantier_de_la_tour_de_babel_et_l_his_26",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_roman",
+  "civName": "Occident : Art Roman poitevin",
+  "century": "XIIe siècle (vers 1100)",
+  "centuryDisplay": "XIIe s. (v. 1100)",
+  "centuryNumeric": 1100,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Le Chantier de la Tour de Babel et l'histoire de Joseph (Saint-Savin)",
+  "site": "Abbaye de Saint-Savin-sur-Gartempe (Vienne, France)",
+  "originSite": "Voûte de la nef et chœur de l'abbatiale de Saint-Savin",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczMh-nq4pPCd2c4Ohxzbr8Pe-Y2gPU98Cp6e7vDsPXYd7daag6bpiAIwhDux-CfifzhCotYnw-OU8s4NSc0T3jlzDmyTujgbtoW0sBACXf3AalftoQZW89LvNrbMIFLnrSk8iJiP354qcO94qd0ZzSUJRg=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczMh-nq4pPCd2c4Ohxzbr8Pe-Y2gPU98Cp6e7vDsPXYd7daag6bpiAIwhDux-CfifzhCotYnw-OU8s4NSc0T3jlzDmyTujgbtoW0sBACXf3AalftoQZW89LvNrbMIFLnrSk8iJiP354qcO94qd0ZzSUJRg=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "france",
+    "saint-savin",
+    "roman",
+    "unesco",
+    "vienne",
+    "fresque",
+    "genèse"
+  ],
+  "chips": [
+    "v. 1100",
+    "Art roman poitevin",
+    "Voûte en berceau",
+    "Chef-d'œuvre UNESCO",
+    "Saint-Savin-sur-Gartempe"
+  ],
+  "narrative": "<p>Cette nouvelle section de la voûte de l’abbatiale de Saint-Savin-sur-Gartempe poursuit le récit biblique de la Genèse avec une force narrative intacte, illustrant deux moments clés de l'Ancien Testament. Le registre supérieur est consacré à l'un des épisodes les plus célèbres et les plus impressionnants visuellement de l'ensemble : la construction de la Tour de Babel. À gauche, la figure monumentale de Dieu, désignée par son nimbe crucifère, s'adresse aux hommes pour condamner leur orgueil. La scène de chantier qui suit est d'une valeur documentaire inestimable pour l'histoire des techniques médiévales. On y observe des ouvriers en pleine action, certains portant de lourds blocs de pierre sur leurs épaules tandis que d'autres, au sommet d'une structure de briques déjà imposante, manipulent un treuil ou une poulie pour hisser les matériaux. Le dynamisme des postures, les jambes fléchies sous l'effort et l'alignement des porteurs créent une sensation de mouvement et de labeur collectif qui rompt avec la fixité habituelle de l'art roman.</p><p>Le registre inférieur, bien que plus fragmentaire, continue de retracer l'histoire de Joseph. À l'extrême gauche, l'inscription « IOSEPH » identifie clairement le personnage principal. La suite de la fresque semble dépeindre Joseph en Égypte, peut-être dans des scènes liées à son rôle d'intendant auprès du Pharaon. Les personnages y sont représentés avec une élégance linéaire, drapés dans des tuniques aux teintes ocre et vert terre qui ressortent sur le fond clair de l'enduit. Sur la bordure droite, une frise verticale présente une série de bustes inscrits dans des médaillons circulaires, représentant probablement des prophètes ou des ancêtres, qui assurent une transition visuelle avec les scènes voisines et renforcent la dimension généalogique et sacrée de l'œuvre.</p>",
+  "desc": "<p>Cette nouvelle section de la voûte de l’abbatiale de Saint-Savin-sur-Gartempe poursuit le récit biblique de la Genèse avec une force narrative intacte, illustrant deux moments clés de l'Ancien Testament. Le registre supérieur est consacré à l'un des épisodes les plus célèbres et les plus impressionnants visuellement de l'ensemble : la construction de la Tour de Babel. À gauche, la figure monumentale de Dieu, désignée par son nimbe crucifère, s'adresse aux hommes pour condamner leur orgueil. La scène de chantier qui suit est d'une valeur documentaire inestimable pour l'histoire des techniques médiévales. On y observe des ouvriers en pleine action, certains portant de lourds blocs de pierre sur leurs épaules tandis que d'autres, au sommet d'une structure de briques déjà imposante, manipulent un treuil ou une poulie pour hisser les matériaux. Le dynamisme des postures, les jambes fléchies sous l'effort et l'alignement des porteurs créent une sensation de mouvement et de labeur collectif qui rompt avec la fixité habituelle de l'art roman.</p><p>Le registre inférieur, bien que plus fragmentaire, continue de retracer l'histoire de Joseph. À l'extrême gauche, l'inscription « IOSEPH » identifie clairement le personnage principal. La suite de la fresque semble dépeindre Joseph en Égypte, peut-être dans des scènes liées à son rôle d'intendant auprès du Pharaon. Les personnages y sont représentés avec une élégance linéaire, drapés dans des tuniques aux teintes ocre et vert terre qui ressortent sur le fond clair de l'enduit. Sur la bordure droite, une frise verticale présente une série de bustes inscrits dans des médaillons circulaires, représentant probablement des prophètes ou des ancêtres, qui assurent une transition visuelle avec les scènes voisines et renforcent la dimension généalogique et sacrée de l'œuvre.</p>",
+  "contemporaryArt": {
+    "title": "Moyen Âge central • Âge d'or de l'Art Roman & Moines bâtisseurs",
+    "events": [
+      "1066 : Conquête normande de l'Angleterre par Guillaume le Conquérant et Tapisserie de Bayeux.",
+      "1095 : Appel de Clermont par le pape Urbain II et prédication de la Première Croisade.",
+      "1098 : Fondation de l'ordre de Cîteaux par Robert de Molesme et essor du monachisme cistercien.",
+      "1100 – 1150 : Essor des grands chantiers de pèlerinage vers Saint-Jacques-de-Compostelle et Rome."
+    ]
+  }
+},
+{
+  "id": "fresque_la_vocation_d_abraham_et_joseph_intendan_27",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_roman",
+  "civName": "Occident : Art Roman poitevin",
+  "century": "XIIe siècle (vers 1100)",
+  "centuryDisplay": "XIIe s. (v. 1100)",
+  "centuryNumeric": 1100,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "La Vocation d'Abraham et Joseph intendant en Égypte (Saint-Savin)",
+  "site": "Abbaye de Saint-Savin-sur-Gartempe (Vienne, France)",
+  "originSite": "Voûte de la nef et chœur de l'abbatiale de Saint-Savin",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczN18F9yAHdA99NK1o4F-c782g-ZHRpvOYMRYttkT30dgRBHoDbgFWanPPSJvh45__8ZTZDzNsAsyT8idm_TJa9uLQcdEYAsXAlBM36hBmKG0aBwBQSQ9u-53RPFgwXowVE-ft895Mu6AsSUA2pNLmKDzg=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczN18F9yAHdA99NK1o4F-c782g-ZHRpvOYMRYttkT30dgRBHoDbgFWanPPSJvh45__8ZTZDzNsAsyT8idm_TJa9uLQcdEYAsXAlBM36hBmKG0aBwBQSQ9u-53RPFgwXowVE-ft895Mu6AsSUA2pNLmKDzg=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "france",
+    "saint-savin",
+    "roman",
+    "unesco",
+    "vienne",
+    "fresque",
+    "genèse"
+  ],
+  "chips": [
+    "v. 1100",
+    "Art roman poitevin",
+    "Voûte en berceau",
+    "Chef-d'œuvre UNESCO",
+    "Saint-Savin-sur-Gartempe"
+  ],
+  "narrative": "<p>Cette nouvelle section murale de l'abbatiale de Saint-Savin-sur-Gartempe prolonge le récit biblique à travers deux registres horizontaux dont la clarté narrative illustre parfaitement le génie de l'art roman. Le registre supérieur met en scène la vocation et les pérégrinations d'Abraham, patriarche central du cycle de la Genèse. À l'extrême gauche, on distingue de nouveau la figure du Créateur, nimbée et majestueuse, s'adressant à Abraham pour lui ordonner de quitter son pays. La scène suivante montre la progression du patriarche et de son clan, incluant Sarah et son neveu Loth, vers la terre de Canaan. Les personnages sont animés d'une marche solennelle, leurs corps sveltes et légèrement penchés vers l'avant accentuant l'idée d'un voyage au long cours. Un arbre stylisé, aux formes organiques presque calligraphiques, sépare les moments de la narration tout en structurant l'espace.</p><p>Le registre inférieur continue de retracer l'épopée de Joseph en Égypte, illustrant ici des scènes de voyage et d'échanges. Une scène cavalière dynamique montre un personnage sur une monture au galop, soulignant l'importance de la mobilité dans ces récits de migration et de pouvoir. Plus loin, Joseph apparaît au sein de compositions architecturales simplifiées représentant des palais ou des entrepôts, en lien avec sa fonction de gestionnaire des récoltes durant les années de famine. À l'instar des sections précédentes, une bande verticale ornée de médaillons contenant des portraits de prophètes ou de figures saintes délimite la scène, créant un cadre sacré qui relie les différents épisodes de l'histoire du Salut.</p>",
+  "desc": "<p>Cette nouvelle section murale de l'abbatiale de Saint-Savin-sur-Gartempe prolonge le récit biblique à travers deux registres horizontaux dont la clarté narrative illustre parfaitement le génie de l'art roman. Le registre supérieur met en scène la vocation et les pérégrinations d'Abraham, patriarche central du cycle de la Genèse. À l'extrême gauche, on distingue de nouveau la figure du Créateur, nimbée et majestueuse, s'adressant à Abraham pour lui ordonner de quitter son pays. La scène suivante montre la progression du patriarche et de son clan, incluant Sarah et son neveu Loth, vers la terre de Canaan. Les personnages sont animés d'une marche solennelle, leurs corps sveltes et légèrement penchés vers l'avant accentuant l'idée d'un voyage au long cours. Un arbre stylisé, aux formes organiques presque calligraphiques, sépare les moments de la narration tout en structurant l'espace.</p><p>Le registre inférieur continue de retracer l'épopée de Joseph en Égypte, illustrant ici des scènes de voyage et d'échanges. Une scène cavalière dynamique montre un personnage sur une monture au galop, soulignant l'importance de la mobilité dans ces récits de migration et de pouvoir. Plus loin, Joseph apparaît au sein de compositions architecturales simplifiées représentant des palais ou des entrepôts, en lien avec sa fonction de gestionnaire des récoltes durant les années de famine. À l'instar des sections précédentes, une bande verticale ornée de médaillons contenant des portraits de prophètes ou de figures saintes délimite la scène, créant un cadre sacré qui relie les différents épisodes de l'histoire du Salut.</p>",
+  "contemporaryArt": {
+    "title": "Moyen Âge central • Âge d'or de l'Art Roman & Moines bâtisseurs",
+    "events": [
+      "1066 : Conquête normande de l'Angleterre par Guillaume le Conquérant et Tapisserie de Bayeux.",
+      "1095 : Appel de Clermont par le pape Urbain II et prédication de la Première Croisade.",
+      "1098 : Fondation de l'ordre de Cîteaux par Robert de Molesme et essor du monachisme cistercien.",
+      "1100 – 1150 : Essor des grands chantiers de pèlerinage vers Saint-Jacques-de-Compostelle et Rome."
+    ]
+  }
+},
+{
+  "id": "fresque_le_christ_pantocrator_en_majeste_et_l_ar_28",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_roman",
+  "civName": "Occident : Art Roman du Maine",
+  "century": "XIIe siècle",
+  "centuryDisplay": "XIIe s.",
+  "centuryNumeric": 1150,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Le Christ Pantocrator en Majesté et l'Arbre de Vie (Chapelle Saint-Crépin, Évron)",
+  "site": "Basilique Notre-Dame de l'Épine (Évron, Mayenne, France)",
+  "originSite": "Chapelle Saint-Crépin de la basilique d'Évron",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczNkGQ407O_FyWyH3Ld5zUaON08EtEU0uOOEbwmaX_Ww1SSV93VSdw2SSLDZ_eYmXEMGUVyUon-OIgTkw7_zi8zJwSG5FzuEN5Lpz3GoaBMyuDwcoi75UaEgXRFxDYNkPi67PuSStFq3jfJIqZVPA7qruQ=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczNkGQ407O_FyWyH3Ld5zUaON08EtEU0uOOEbwmaX_Ww1SSV93VSdw2SSLDZ_eYmXEMGUVyUon-OIgTkw7_zi8zJwSG5FzuEN5Lpz3GoaBMyuDwcoi75UaEgXRFxDYNkPi67PuSStFq3jfJIqZVPA7qruQ=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "france",
+    "évron",
+    "mayenne",
+    "roman",
+    "saint-crépin",
+    "fresque"
+  ],
+  "chips": [
+    "XIIe s.",
+    "Art roman du Maine",
+    "Chapelle Saint-Crépin",
+    "Christ Pantocrator",
+    "Évron (Mayenne)"
+  ],
+  "narrative": "<p>La fresque de la chapelle Saint-Crépin, située au sein de la basilique d'Évron, est l'un des exemples les plus achevés de la peinture murale romane dans l'ouest de la France. Dominant l'espace de l'abside, cette œuvre s'organise selon une composition théocentrique rigoureuse, conçue pour manifester la puissance divine aux fidèles. Le Christ en Majesté, ou Pantocrator, occupe le centre de la conque, trônant dans une mandorle perlée qui symbolise la séparation entre le monde terrestre et le monde céleste. Sa main droite est levée en signe de bénédiction tandis que sa main gauche soutient le Livre, affirmant son rôle de juge et de maître de l'Univers.</p><p>Autour de la figure centrale, le Tétramorphe déploie les symboles ailés des quatre évangélistes, créant une dynamique visuelle qui converge vers le Christ. On y distingue l'homme (saint Matthieu), le lion (saint Marc), le bœuf (saint Luc) et l'aigle (saint Jean), chacun portant parfois un phylactère ou un livre. Cette iconographie, directement inspirée des visions de l'Apocalypse, est complétée par des figures d'anges et de saints en prière sur les registres latéraux, intégrant ainsi l'histoire humaine dans le temps de l'éternité divine.</p><p>La technique picturale utilise une palette restreinte mais puissante de pigments naturels, où les terres d'ombre et de Sienne s'allient aux ocres pour souligner les volumes et les drapés. Le style se caractérise par un graphisme ferme, des visages aux yeux dilatés et une expressivité typique de l'art roman, cherchant davantage à transmettre une vérité spirituelle qu'à reproduire une réalité naturaliste. Au sommet de la voûte, un motif végétal rayonnant en forme de palmier ou d'arbre de vie vient couronner la scène, symbolisant la régénération et le paradis retrouvé.</p><p>La conservation de cet ensemble est remarquable, malgré les siècles et l'humidité inhérente aux parties basses de l'édifice. Les restaurations successives ont permis de stabiliser les couches de peinture tout en respectant la patine originelle, offrant ainsi au visiteur une immersion rare dans la spiritualité du Moyen Âge central. Cette fresque transforme la modeste chapelle en une véritable vision du cosmos médiéval, où l'architecture et l'image fusionnent pour créer un espace de méditation absolue.</p>",
+  "desc": "<p>La fresque de la chapelle Saint-Crépin, située au sein de la basilique d'Évron, est l'un des exemples les plus achevés de la peinture murale romane dans l'ouest de la France. Dominant l'espace de l'abside, cette œuvre s'organise selon une composition théocentrique rigoureuse, conçue pour manifester la puissance divine aux fidèles. Le Christ en Majesté, ou Pantocrator, occupe le centre de la conque, trônant dans une mandorle perlée qui symbolise la séparation entre le monde terrestre et le monde céleste. Sa main droite est levée en signe de bénédiction tandis que sa main gauche soutient le Livre, affirmant son rôle de juge et de maître de l'Univers.</p><p>Autour de la figure centrale, le Tétramorphe déploie les symboles ailés des quatre évangélistes, créant une dynamique visuelle qui converge vers le Christ. On y distingue l'homme (saint Matthieu), le lion (saint Marc), le bœuf (saint Luc) et l'aigle (saint Jean), chacun portant parfois un phylactère ou un livre. Cette iconographie, directement inspirée des visions de l'Apocalypse, est complétée par des figures d'anges et de saints en prière sur les registres latéraux, intégrant ainsi l'histoire humaine dans le temps de l'éternité divine.</p><p>La technique picturale utilise une palette restreinte mais puissante de pigments naturels, où les terres d'ombre et de Sienne s'allient aux ocres pour souligner les volumes et les drapés. Le style se caractérise par un graphisme ferme, des visages aux yeux dilatés et une expressivité typique de l'art roman, cherchant davantage à transmettre une vérité spirituelle qu'à reproduire une réalité naturaliste. Au sommet de la voûte, un motif végétal rayonnant en forme de palmier ou d'arbre de vie vient couronner la scène, symbolisant la régénération et le paradis retrouvé.</p><p>La conservation de cet ensemble est remarquable, malgré les siècles et l'humidité inhérente aux parties basses de l'édifice. Les restaurations successives ont permis de stabiliser les couches de peinture tout en respectant la patine originelle, offrant ainsi au visiteur une immersion rare dans la spiritualité du Moyen Âge central. Cette fresque transforme la modeste chapelle en une véritable vision du cosmos médiéval, où l'architecture et l'image fusionnent pour créer un espace de méditation absolue.</p>",
+  "contemporaryArt": {
+    "title": "Moyen Âge central • Âge d'or de l'Art Roman & Moines bâtisseurs",
+    "events": [
+      "1066 : Conquête normande de l'Angleterre par Guillaume le Conquérant et Tapisserie de Bayeux.",
+      "1095 : Appel de Clermont par le pape Urbain II et prédication de la Première Croisade.",
+      "1098 : Fondation de l'ordre de Cîteaux par Robert de Molesme et essor du monachisme cistercien.",
+      "1100 – 1150 : Essor des grands chantiers de pèlerinage vers Saint-Jacques-de-Compostelle et Rome."
+    ]
+  }
+},
+{
+  "id": "fresque_la_resurrection_des_morts_sortant_de_leu_29",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_roman",
+  "civName": "Occident : Art Roman de la Vallée du Loir",
+  "century": "XIIe siècle (fin du XIIe s., v. 1180 – 1190)",
+  "centuryDisplay": "Fin XIIe s.",
+  "centuryNumeric": 1185,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "La Résurrection des morts sortant de leurs sarcophages (Poncé-sur-Loir)",
+  "site": "Église Saint-Julien (Poncé-sur-Loir, Sarthe, France)",
+  "originSite": "Nef de l'église Saint-Julien de Poncé-sur-Loir",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczM72onaiCe3TLB9Nip3Pl9EXajNHGL7Pz03-RC-cI2SokuKau8SWquv681eoaVm9V7ThreJhOSRNgplOlkugX1ulr4E1HzPbAWfkwD9xywY96IUTEDfLbKSONirGNkF9QEUr9DFvuk_Sw92fm31u2GXyQ=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczM72onaiCe3TLB9Nip3Pl9EXajNHGL7Pz03-RC-cI2SokuKau8SWquv681eoaVm9V7ThreJhOSRNgplOlkugX1ulr4E1HzPbAWfkwD9xywY96IUTEDfLbKSONirGNkF9QEUr9DFvuk_Sw92fm31u2GXyQ=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "france",
+    "poncé-sur-loir",
+    "sarthe",
+    "roman",
+    "fresque"
+  ],
+  "chips": [
+    "Fin XIIe s.",
+    "Art roman de la Sarthe",
+    "Fresques sur tuffeau",
+    "Église Saint-Julien",
+    "Poncé-sur-Loir"
+  ],
+  "narrative": "<p>Cette fresque, située dans la nef de l'église Saint-Julien de Poncé-sur-Loir, illustre une scène saisissante de la résurrection des morts, un thème central de l'iconographie romane de la fin du XIIe siècle. Intégrée au vaste cycle pictural qui orne les écoinçons des grandes arcades, elle montre des défunts s'extrayant de leurs sarcophages. Les figures sont représentées dans un style linéaire et expressif, où le dessin à l'ocre rouge souligne l'anatomie émaciée des corps, accentuant la dimension dramatique de l'éveil spirituel.</p><p>L'artiste a utilisé une palette restreinte de pigments naturels, typique de la région, pour donner vie à ce récit eschatologique sur le mur de tuffeau. Les mouvements saccadés des bras soulevant les lourds couvercles de pierre créent une dynamique ascendante qui guide le regard vers le haut de la nef. En dessous de la scène principale, une frise décorative composée d'ondes et de motifs géométriques assure la transition avec l'architecture de l'arcade, ancrant fermement la narration dans la structure même de l'édifice.</p><p>Cette peinture murale ne servait pas seulement d'ornement, mais de véritable support pédagogique pour les fidèles médiévaux, leur rappelant la promesse de la vie éternelle. La conservation de ces détails, malgré l'usure du temps, permet encore aujourd'hui d'apprécier la finesse du trait et la force symbolique de l'art roman tardif dans cette église de la vallée du Loir.</p>",
+  "desc": "<p>Cette fresque, située dans la nef de l'église Saint-Julien de Poncé-sur-Loir, illustre une scène saisissante de la résurrection des morts, un thème central de l'iconographie romane de la fin du XIIe siècle. Intégrée au vaste cycle pictural qui orne les écoinçons des grandes arcades, elle montre des défunts s'extrayant de leurs sarcophages. Les figures sont représentées dans un style linéaire et expressif, où le dessin à l'ocre rouge souligne l'anatomie émaciée des corps, accentuant la dimension dramatique de l'éveil spirituel.</p><p>L'artiste a utilisé une palette restreinte de pigments naturels, typique de la région, pour donner vie à ce récit eschatologique sur le mur de tuffeau. Les mouvements saccadés des bras soulevant les lourds couvercles de pierre créent une dynamique ascendante qui guide le regard vers le haut de la nef. En dessous de la scène principale, une frise décorative composée d'ondes et de motifs géométriques assure la transition avec l'architecture de l'arcade, ancrant fermement la narration dans la structure même de l'édifice.</p><p>Cette peinture murale ne servait pas seulement d'ornement, mais de véritable support pédagogique pour les fidèles médiévaux, leur rappelant la promesse de la vie éternelle. La conservation de ces détails, malgré l'usure du temps, permet encore aujourd'hui d'apprécier la finesse du trait et la force symbolique de l'art roman tardif dans cette église de la vallée du Loir.</p>",
+  "contemporaryArt": {
+    "title": "Moyen Âge central • Âge d'or de l'Art Roman & Moines bâtisseurs",
+    "events": [
+      "1066 : Conquête normande de l'Angleterre par Guillaume le Conquérant et Tapisserie de Bayeux.",
+      "1095 : Appel de Clermont par le pape Urbain II et prédication de la Première Croisade.",
+      "1098 : Fondation de l'ordre de Cîteaux par Robert de Molesme et essor du monachisme cistercien.",
+      "1100 – 1150 : Essor des grands chantiers de pèlerinage vers Saint-Jacques-de-Compostelle et Rome."
+    ]
+  }
+},
+{
+  "id": "fresque_scenes_de_combat_equestre_et_repas_litur_30",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_roman",
+  "civName": "Occident : Art Roman de la Vallée du Loir",
+  "century": "XIIe siècle (fin du XIIe s., v. 1180 – 1190)",
+  "centuryDisplay": "Fin XIIe s.",
+  "centuryNumeric": 1185,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Scènes de combat équestre et repas liturgique (Poncé-sur-Loir)",
+  "site": "Église Saint-Julien (Poncé-sur-Loir, Sarthe, France)",
+  "originSite": "Nef de l'église Saint-Julien de Poncé-sur-Loir",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczNM2sd4IttYPP7lnWUezwg3lT-H7CwW6_3HEmr77tgbhKKoPccVTEGKSeqjXJyuHqWn0KP2ZtHwpVAE6AXp5hjM09v6rNFB5nNKhIrK6-RKllqgJd4z1kvg6ObpCecwHv2lmwIZNvDWSBa5VRfG4zLXug=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczNM2sd4IttYPP7lnWUezwg3lT-H7CwW6_3HEmr77tgbhKKoPccVTEGKSeqjXJyuHqWn0KP2ZtHwpVAE6AXp5hjM09v6rNFB5nNKhIrK6-RKllqgJd4z1kvg6ObpCecwHv2lmwIZNvDWSBa5VRfG4zLXug=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "france",
+    "poncé-sur-loir",
+    "sarthe",
+    "roman",
+    "fresque"
+  ],
+  "chips": [
+    "Fin XIIe s.",
+    "Art roman de la Sarthe",
+    "Fresques sur tuffeau",
+    "Église Saint-Julien",
+    "Poncé-sur-Loir"
+  ],
+  "narrative": "<p>Cette section de la nef de l'église Saint-Julien de Poncé-sur-Loir présente une superposition de registres narratifs qui témoignent de la densité du programme iconographique de la fin du XIIe siècle. Les peintures murales s'articulent autour des éléments structurels, utilisant l'écoinçon de la grande arcade comme un espace de transition entre les scènes terrestres et les représentations plus symboliques. Le style se caractérise par une économie de moyens où le trait, tantôt vigoureux pour souligner le mouvement, tantôt délicat pour les visages, prime sur le modelé, une approche typique de la peinture romane tardive dans l'ouest de la France.</p><p>Dans le registre supérieur, on distingue des scènes de combat équestre où des cavaliers, munis de lances et de boucliers, s'affrontent sur un fond de calcaire clair. Ces représentations pourraient illustrer des épisodes de la vie de saints militaires ou des scènes de la geste héroïque, réinterprétées dans un contexte sacré. La précision apportée à l'équipement des chevaux et à la posture des combattants offre un aperçu précieux de l'imagerie chevaleresque de l'époque, intégrée ici à la fonction pédagogique de l'église.</p><p>Le registre inférieur, situé immédiatement au-dessus de l'intrados de l'arcade, propose des scènes de la vie quotidienne ou liturgique, incluant ce qui semble être un repas ou une célébration. Les personnages y sont disposés de manière frontale ou de trois-quarts, souvent séparés par des éléments d'architecture peints qui structurent le récit. L'utilisation des pigments ocre et terre de Sienne crée une harmonie visuelle avec les motifs ornementaux des colonnes et des voussures, renforçant l'unité décorative de l'ensemble de la nef.</p><p>L'ensemble de ces fresques, protégées par la voûte lambrissée dont on aperçoit les motifs floraux sur les entraits, constitue un véritable tapis pictural. Chaque fragment conservé permet de reconstituer mentalement la splendeur originelle de cette nef, où aucun mur ne restait nu et où la couleur servait de lien entre le monde matériel des fidèles et l'univers spirituel des textes sacrés.</p>",
+  "desc": "<p>Cette section de la nef de l'église Saint-Julien de Poncé-sur-Loir présente une superposition de registres narratifs qui témoignent de la densité du programme iconographique de la fin du XIIe siècle. Les peintures murales s'articulent autour des éléments structurels, utilisant l'écoinçon de la grande arcade comme un espace de transition entre les scènes terrestres et les représentations plus symboliques. Le style se caractérise par une économie de moyens où le trait, tantôt vigoureux pour souligner le mouvement, tantôt délicat pour les visages, prime sur le modelé, une approche typique de la peinture romane tardive dans l'ouest de la France.</p><p>Dans le registre supérieur, on distingue des scènes de combat équestre où des cavaliers, munis de lances et de boucliers, s'affrontent sur un fond de calcaire clair. Ces représentations pourraient illustrer des épisodes de la vie de saints militaires ou des scènes de la geste héroïque, réinterprétées dans un contexte sacré. La précision apportée à l'équipement des chevaux et à la posture des combattants offre un aperçu précieux de l'imagerie chevaleresque de l'époque, intégrée ici à la fonction pédagogique de l'église.</p><p>Le registre inférieur, situé immédiatement au-dessus de l'intrados de l'arcade, propose des scènes de la vie quotidienne ou liturgique, incluant ce qui semble être un repas ou une célébration. Les personnages y sont disposés de manière frontale ou de trois-quarts, souvent séparés par des éléments d'architecture peints qui structurent le récit. L'utilisation des pigments ocre et terre de Sienne crée une harmonie visuelle avec les motifs ornementaux des colonnes et des voussures, renforçant l'unité décorative de l'ensemble de la nef.</p><p>L'ensemble de ces fresques, protégées par la voûte lambrissée dont on aperçoit les motifs floraux sur les entraits, constitue un véritable tapis pictural. Chaque fragment conservé permet de reconstituer mentalement la splendeur originelle de cette nef, où aucun mur ne restait nu et où la couleur servait de lien entre le monde matériel des fidèles et l'univers spirituel des textes sacrés.</p>",
+  "contemporaryArt": {
+    "title": "Moyen Âge central • Âge d'or de l'Art Roman & Moines bâtisseurs",
+    "events": [
+      "1066 : Conquête normande de l'Angleterre par Guillaume le Conquérant et Tapisserie de Bayeux.",
+      "1095 : Appel de Clermont par le pape Urbain II et prédication de la Première Croisade.",
+      "1098 : Fondation de l'ordre de Cîteaux par Robert de Molesme et essor du monachisme cistercien.",
+      "1100 – 1150 : Essor des grands chantiers de pèlerinage vers Saint-Jacques-de-Compostelle et Rome."
+    ]
+  }
+},
+{
+  "id": "fresque_grand_cycle_narratif_sur_le_mur_sud_de_l_31",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_roman",
+  "civName": "Occident : Art Roman de la Vallée du Loir",
+  "century": "XIIe siècle (fin du XIIe s., v. 1180 – 1190)",
+  "centuryDisplay": "Fin XIIe s.",
+  "centuryNumeric": 1185,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Grand cycle narratif sur le mur sud de la nef (Poncé-sur-Loir)",
+  "site": "Église Saint-Julien (Poncé-sur-Loir, Sarthe, France)",
+  "originSite": "Nef de l'église Saint-Julien de Poncé-sur-Loir",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczNEirrNDkldnKDBBbkoXIFHjgoJRVPYa6b8ceBQyy6BaqUaenl5gHRUDuNSN8ENhy_2v8U04JdnXBUp5YMYM4HYCvs9SGWQKqXQqSoYkzniZ81TvLZWGXaugCiVEKJc0QNyJfHuzdS8IBi2hsQC0VeolQ=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczNEirrNDkldnKDBBbkoXIFHjgoJRVPYa6b8ceBQyy6BaqUaenl5gHRUDuNSN8ENhy_2v8U04JdnXBUp5YMYM4HYCvs9SGWQKqXQqSoYkzniZ81TvLZWGXaugCiVEKJc0QNyJfHuzdS8IBi2hsQC0VeolQ=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "france",
+    "poncé-sur-loir",
+    "sarthe",
+    "roman",
+    "fresque"
+  ],
+  "chips": [
+    "Fin XIIe s.",
+    "Art roman de la Sarthe",
+    "Fresques sur tuffeau",
+    "Église Saint-Julien",
+    "Poncé-sur-Loir"
+  ],
+  "narrative": "<p>Cette scène murale, extraite du cycle monumental de l'église Saint-Julien de Poncé-sur-Loir, illustre la richesse de la narration visuelle à la fin du XIIe siècle. Située sur le mur sud de la nef, elle s'inscrit dans un registre narratif complexe où les épisodes se succèdent sans rupture architecturale, utilisant la surface du tuffeau comme une page ouverte sur l'histoire sainte. Le style pictural, par ses traits cernés d'ocre sombre et ses aplats de couleurs chaudes, est représentatif du dynamisme de l'art roman tardif dans la vallée du Loir.</p><p>La composition met en scène un groupe de personnages dont les postures et les gestes expriment une interaction intense. Au centre, une figure semble allongée ou inclinée, entourée d'autres personnages aux visages finement dessinés, dont certains portent des voiles ou des coiffes caractéristiques de l'époque médiévale. La fluidité des drapés et la gestuelle des mains, souvent disproportionnées pour souligner l'action, participent à la clarté didactique de la scène pour les fidèles de l'époque.</p><p>L'arrière-plan de la fresque révèle des éléments de décor suggérés, comme des architectures simplifiées ou des motifs végétaux, qui permettent de situer l'action dans un espace défini. On observe également, sur les bords de la scène principale, des fragments d'autres motifs décoratifs ou de textes peints qui servaient à identifier les épisodes ou à glorifier les figures représentées. Cette imbrication de l'image et du signe est typique de la fonction ornementale et éducative des murs d'églises au Moyen Âge.</p><p>Malgré les lacunes dues au temps, la fraîcheur des pigments d'origine — rouges, jaunes et ocres — témoigne de la qualité technique des ateliers de peintres ayant œuvré à Poncé-sur-Loir. Cette fresque, par son intégration parfaite aux courbes de l'arcade, démontre comment les artistes romans savaient exploiter les contraintes du bâti pour créer un univers spirituel immersif.</p>",
+  "desc": "<p>Cette scène murale, extraite du cycle monumental de l'église Saint-Julien de Poncé-sur-Loir, illustre la richesse de la narration visuelle à la fin du XIIe siècle. Située sur le mur sud de la nef, elle s'inscrit dans un registre narratif complexe où les épisodes se succèdent sans rupture architecturale, utilisant la surface du tuffeau comme une page ouverte sur l'histoire sainte. Le style pictural, par ses traits cernés d'ocre sombre et ses aplats de couleurs chaudes, est représentatif du dynamisme de l'art roman tardif dans la vallée du Loir.</p><p>La composition met en scène un groupe de personnages dont les postures et les gestes expriment une interaction intense. Au centre, une figure semble allongée ou inclinée, entourée d'autres personnages aux visages finement dessinés, dont certains portent des voiles ou des coiffes caractéristiques de l'époque médiévale. La fluidité des drapés et la gestuelle des mains, souvent disproportionnées pour souligner l'action, participent à la clarté didactique de la scène pour les fidèles de l'époque.</p><p>L'arrière-plan de la fresque révèle des éléments de décor suggérés, comme des architectures simplifiées ou des motifs végétaux, qui permettent de situer l'action dans un espace défini. On observe également, sur les bords de la scène principale, des fragments d'autres motifs décoratifs ou de textes peints qui servaient à identifier les épisodes ou à glorifier les figures représentées. Cette imbrication de l'image et du signe est typique de la fonction ornementale et éducative des murs d'églises au Moyen Âge.</p><p>Malgré les lacunes dues au temps, la fraîcheur des pigments d'origine — rouges, jaunes et ocres — témoigne de la qualité technique des ateliers de peintres ayant œuvré à Poncé-sur-Loir. Cette fresque, par son intégration parfaite aux courbes de l'arcade, démontre comment les artistes romans savaient exploiter les contraintes du bâti pour créer un univers spirituel immersif.</p>",
+  "contemporaryArt": {
+    "title": "Moyen Âge central • Âge d'or de l'Art Roman & Moines bâtisseurs",
+    "events": [
+      "1066 : Conquête normande de l'Angleterre par Guillaume le Conquérant et Tapisserie de Bayeux.",
+      "1095 : Appel de Clermont par le pape Urbain II et prédication de la Première Croisade.",
+      "1098 : Fondation de l'ordre de Cîteaux par Robert de Molesme et essor du monachisme cistercien.",
+      "1100 – 1150 : Essor des grands chantiers de pèlerinage vers Saint-Jacques-de-Compostelle et Rome."
+    ]
+  }
+},
+{
+  "id": "fresque_un_saint_eveque_benissant_et_fideles_en__32",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_roman",
+  "civName": "Occident : Art Roman de la Vallée du Loir",
+  "century": "XIIe siècle (fin du XIIe s., v. 1180 – 1190)",
+  "centuryDisplay": "Fin XIIe s.",
+  "centuryNumeric": 1185,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Un Saint évêque bénissant et fidèles en prière (Poncé-sur-Loir)",
+  "site": "Église Saint-Julien (Poncé-sur-Loir, Sarthe, France)",
+  "originSite": "Nef de l'église Saint-Julien de Poncé-sur-Loir",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczN8DYRceXvPkiFUnhVgh1R1F0m6OwA79pgyS2IKPO8XXSFucsF6At9NNbRRcdQBfhi5RBplGd49u95c6e5lojKgbBIKbzN3TYWuEsvcV80J-ra3xCfUW1JaRWWmrdexDrHbnx_y0krNt-EyS6iPmTU8AA=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczN8DYRceXvPkiFUnhVgh1R1F0m6OwA79pgyS2IKPO8XXSFucsF6At9NNbRRcdQBfhi5RBplGd49u95c6e5lojKgbBIKbzN3TYWuEsvcV80J-ra3xCfUW1JaRWWmrdexDrHbnx_y0krNt-EyS6iPmTU8AA=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "france",
+    "poncé-sur-loir",
+    "sarthe",
+    "roman",
+    "fresque"
+  ],
+  "chips": [
+    "Fin XIIe s.",
+    "Art roman de la Sarthe",
+    "Fresques sur tuffeau",
+    "Église Saint-Julien",
+    "Poncé-sur-Loir"
+  ],
+  "narrative": "<p>Cette fresque murale de l'église Saint-Julien de Poncé-sur-Loir illustre un autre volet du programme iconographique de la fin du XIIe siècle, se concentrant ici sur une scène de la vie d'un saint ou d'un évêque. À gauche de la composition, un personnage portant une mitre et tenant une crosse, attributs classiques d'un haut dignitaire ecclésiastique, semble engager un dialogue ou bénir un fidèle agenouillé devant lui. Le traitement des visages, marqué par des grands yeux expressifs et des traits de contour ocre, est caractéristique de l'art roman tardif qui privilégie la clarté du message spirituel sur le réalisme anatomique.</p><p>La partie centrale de la fresque montre des personnages en mouvement, dont un homme en tunique courte qui semble porter un objet ou un enfant, suggérant un acte de dévotion ou un miracle. Comme dans les scènes précédentes, l'artiste utilise des bandes de couleurs horizontales — vert, blanc et ocre — pour structurer l'espace et détacher les figures du fond de la paroi. Au-dessus de la scène principale, une frise décorative en dents de scie ou \"ondes rouges\" sépare ce registre d'un niveau supérieur dont il ne reste que des fragments de vêtements et d'architectures.</p><p>L'intégration de la peinture à l'architecture est particulièrement visible sur la droite, où la scène vient s'interrompre près d'une petite fenêtre en plein cintre ornée d'un vitrail géométrique. Cette proximité souligne comment le cycle pictural s'adaptait aux sources de lumière et aux ouvertures de la nef romane pour créer un environnement catéchétique total. La palette de pigments naturels, restée vibrante par endroits, témoigne de la technique de la peinture à fresque où les couleurs étaient appliquées sur un enduit encore frais, assurant ainsi leur pérennité à travers les siècles.</p><p>En bas de l'image, on aperçoit l'intrados de la grande arcade décoré de motifs floraux stylisés sur un fond blanc, qui fait écho aux motifs peints sur les entraits de la charpente. Cet ensemble décoratif cohérent fait de la nef de Poncé-sur-Loir un exemple exceptionnel de la \"maison de Dieu\" médiévale, où chaque surface peinte participe à l'édification des fidèles et à la glorification du sacré.</p>",
+  "desc": "<p>Cette fresque murale de l'église Saint-Julien de Poncé-sur-Loir illustre un autre volet du programme iconographique de la fin du XIIe siècle, se concentrant ici sur une scène de la vie d'un saint ou d'un évêque. À gauche de la composition, un personnage portant une mitre et tenant une crosse, attributs classiques d'un haut dignitaire ecclésiastique, semble engager un dialogue ou bénir un fidèle agenouillé devant lui. Le traitement des visages, marqué par des grands yeux expressifs et des traits de contour ocre, est caractéristique de l'art roman tardif qui privilégie la clarté du message spirituel sur le réalisme anatomique.</p><p>La partie centrale de la fresque montre des personnages en mouvement, dont un homme en tunique courte qui semble porter un objet ou un enfant, suggérant un acte de dévotion ou un miracle. Comme dans les scènes précédentes, l'artiste utilise des bandes de couleurs horizontales — vert, blanc et ocre — pour structurer l'espace et détacher les figures du fond de la paroi. Au-dessus de la scène principale, une frise décorative en dents de scie ou \"ondes rouges\" sépare ce registre d'un niveau supérieur dont il ne reste que des fragments de vêtements et d'architectures.</p><p>L'intégration de la peinture à l'architecture est particulièrement visible sur la droite, où la scène vient s'interrompre près d'une petite fenêtre en plein cintre ornée d'un vitrail géométrique. Cette proximité souligne comment le cycle pictural s'adaptait aux sources de lumière et aux ouvertures de la nef romane pour créer un environnement catéchétique total. La palette de pigments naturels, restée vibrante par endroits, témoigne de la technique de la peinture à fresque où les couleurs étaient appliquées sur un enduit encore frais, assurant ainsi leur pérennité à travers les siècles.</p><p>En bas de l'image, on aperçoit l'intrados de la grande arcade décoré de motifs floraux stylisés sur un fond blanc, qui fait écho aux motifs peints sur les entraits de la charpente. Cet ensemble décoratif cohérent fait de la nef de Poncé-sur-Loir un exemple exceptionnel de la \"maison de Dieu\" médiévale, où chaque surface peinte participe à l'édification des fidèles et à la glorification du sacré.</p>",
+  "contemporaryArt": {
+    "title": "Moyen Âge central • Âge d'or de l'Art Roman & Moines bâtisseurs",
+    "events": [
+      "1066 : Conquête normande de l'Angleterre par Guillaume le Conquérant et Tapisserie de Bayeux.",
+      "1095 : Appel de Clermont par le pape Urbain II et prédication de la Première Croisade.",
+      "1098 : Fondation de l'ordre de Cîteaux par Robert de Molesme et essor du monachisme cistercien.",
+      "1100 – 1150 : Essor des grands chantiers de pèlerinage vers Saint-Jacques-de-Compostelle et Rome."
+    ]
+  }
+},
+{
+  "id": "fresque_cycle_de_saint_hermagore_et_voutes_peint_33",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_roman",
+  "civName": "Occident : Art Roman d'Italie du Nord",
+  "century": "XIIe siècle (vers 1180)",
+  "centuryDisplay": "XIIe s. (v. 1180)",
+  "centuryNumeric": 1180,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Cycle de saint Hermagore et voûtes peintes (Crypte d'Aquilée)",
+  "site": "Crypte de la basilique patriarcale d'Aquilée (Frioul, Italie)",
+  "originSite": "Crypte des Patriarches de la basilique d'Aquilée",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczOVvPFcNbcdKJA_MX2JRss3ZyrMBvmts9kM7mZRua6VX_6jFmK9xu507PIKs_-YNMKEyVwm7PZKXG1IY9aZLb29QhZceiGwH8S4YHr3R9nPNPqezQ2ZEdhysyGAmScQL3Ka-tech1WlLlSBCIXAMgK8gg=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczOVvPFcNbcdKJA_MX2JRss3ZyrMBvmts9kM7mZRua6VX_6jFmK9xu507PIKs_-YNMKEyVwm7PZKXG1IY9aZLb29QhZceiGwH8S4YHr3R9nPNPqezQ2ZEdhysyGAmScQL3Ka-tech1WlLlSBCIXAMgK8gg=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "italie",
+    "aquilée",
+    "roman",
+    "crypte",
+    "poppon",
+    "fresque"
+  ],
+  "chips": [
+    "v. 1180",
+    "Art roman du Frioul",
+    "Crypte des Patriarches",
+    "Saint Hermagore",
+    "Aquilée (UNESCO)"
+  ],
+  "narrative": "<p>Cette fresque exceptionnelle, située dans la crypte de la basilique patriarcale d'Aquilée, appartient à un cycle pictural réalisé à la fin du XIIe siècle, sous l'épiscopat du patriarche Ulrich II. L'œuvre recouvre l'intégralité des voûtes d'arêtes et des parois, créant une immersion visuelle totale où le style byzantin rencontre la vigueur de l'art roman occidental. La scène principale illustre le cycle de la Passion et de la mort du Christ, mais aussi et surtout l'histoire des origines chrétiennes d'Aquilée à travers la vie de saint Hermagore et de son diacre Fortunat. Les figures, d'une grande élégance hiératique, se détachent sur des fonds colorés où alternent le bleu profond, le vert émeraude et les ocres chauds, structurés par des bordures ornementales aux motifs géométriques et végétaux d'une grande précision.</p><p>L'organisation iconographique suit une logique de sanctification de l'espace, où les voûtains accueillent des figures de saints, d'apôtres et d'anges en prière. Sur les piliers et les retombées des voûtes, on observe des personnages en pied, vêtus de tuniques aux plis savamment rythmés, tenant souvent des codex ou des instruments liturgiques. La technique de la fresque est ici poussée à un haut degré de raffinement : les visages sont modelés avec des ombres légères et des rehauts de blanc qui confèrent une intensité spirituelle au regard, typique de la \"manière grecque\" qui influençait alors fortement la région vénitienne et le Frioul.</p><p>Un aspect remarquable de cet ensemble est la narration des épisodes de l'évangélisation de la cité, montrant saint Pierre confiant à Hermagore la mission de guider la communauté locale. Cette mise en scène visait à légitimer l'indépendance et la primauté du patriarcat d'Aquilée face aux puissances voisines. Les scènes de martyre, bien que dramatiques, conservent une sérénité majestueuse, transformant la souffrance en une célébration de la victoire de la foi. Aujourd'hui, cet ensemble demeure l'un des témoignages les plus complets et les mieux préservés de la peinture murale médiévale en Italie septentrionale, offrant un condensé de la théologie et de l'histoire politique du Moyen Âge.</p>",
+  "desc": "<p>Cette fresque exceptionnelle, située dans la crypte de la basilique patriarcale d'Aquilée, appartient à un cycle pictural réalisé à la fin du XIIe siècle, sous l'épiscopat du patriarche Ulrich II. L'œuvre recouvre l'intégralité des voûtes d'arêtes et des parois, créant une immersion visuelle totale où le style byzantin rencontre la vigueur de l'art roman occidental. La scène principale illustre le cycle de la Passion et de la mort du Christ, mais aussi et surtout l'histoire des origines chrétiennes d'Aquilée à travers la vie de saint Hermagore et de son diacre Fortunat. Les figures, d'une grande élégance hiératique, se détachent sur des fonds colorés où alternent le bleu profond, le vert émeraude et les ocres chauds, structurés par des bordures ornementales aux motifs géométriques et végétaux d'une grande précision.</p><p>L'organisation iconographique suit une logique de sanctification de l'espace, où les voûtains accueillent des figures de saints, d'apôtres et d'anges en prière. Sur les piliers et les retombées des voûtes, on observe des personnages en pied, vêtus de tuniques aux plis savamment rythmés, tenant souvent des codex ou des instruments liturgiques. La technique de la fresque est ici poussée à un haut degré de raffinement : les visages sont modelés avec des ombres légères et des rehauts de blanc qui confèrent une intensité spirituelle au regard, typique de la \"manière grecque\" qui influençait alors fortement la région vénitienne et le Frioul.</p><p>Un aspect remarquable de cet ensemble est la narration des épisodes de l'évangélisation de la cité, montrant saint Pierre confiant à Hermagore la mission de guider la communauté locale. Cette mise en scène visait à légitimer l'indépendance et la primauté du patriarcat d'Aquilée face aux puissances voisines. Les scènes de martyre, bien que dramatiques, conservent une sérénité majestueuse, transformant la souffrance en une célébration de la victoire de la foi. Aujourd'hui, cet ensemble demeure l'un des témoignages les plus complets et les mieux préservés de la peinture murale médiévale en Italie septentrionale, offrant un condensé de la théologie et de l'histoire politique du Moyen Âge.</p>",
+  "contemporaryArt": {
+    "title": "Moyen Âge central • Âge d'or de l'Art Roman & Moines bâtisseurs",
+    "events": [
+      "1066 : Conquête normande de l'Angleterre par Guillaume le Conquérant et Tapisserie de Bayeux.",
+      "1095 : Appel de Clermont par le pape Urbain II et prédication de la Première Croisade.",
+      "1098 : Fondation de l'ordre de Cîteaux par Robert de Molesme et essor du monachisme cistercien.",
+      "1100 – 1150 : Essor des grands chantiers de pèlerinage vers Saint-Jacques-de-Compostelle et Rome."
+    ]
+  }
+},
+{
+  "id": "fresque_cycle_de_saint_hermagore_et_voutes_peint_34",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_roman",
+  "civName": "Occident : Art Roman d'Italie du Nord",
+  "century": "XIIe siècle (vers 1180)",
+  "centuryDisplay": "XIIe s. (v. 1180)",
+  "centuryNumeric": 1180,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Cycle de saint Hermagore et voûtes peintes (Crypte d'Aquilée)",
+  "site": "Crypte de la basilique patriarcale d'Aquilée (Frioul, Italie)",
+  "originSite": "Crypte des Patriarches de la basilique d'Aquilée",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczNGIdO6qVuhRvQ-D_U5SB579_tJOoXDxYGYV8Xr0CQnWpihiN6iJdhPfMpf9S737LF9SUvyXcwO5MgrMZCDGp_MrdNaw6YC4-Q93WHJfse_f2Xl87fkGQObpFN-m161kASRdGBDkrp_1ZK61iugRIRvmA=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczNGIdO6qVuhRvQ-D_U5SB579_tJOoXDxYGYV8Xr0CQnWpihiN6iJdhPfMpf9S737LF9SUvyXcwO5MgrMZCDGp_MrdNaw6YC4-Q93WHJfse_f2Xl87fkGQObpFN-m161kASRdGBDkrp_1ZK61iugRIRvmA=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "italie",
+    "aquilée",
+    "roman",
+    "crypte",
+    "poppon",
+    "fresque"
+  ],
+  "chips": [
+    "v. 1180",
+    "Art roman du Frioul",
+    "Crypte des Patriarches",
+    "Saint Hermagore",
+    "Aquilée (UNESCO)"
+  ],
+  "narrative": "<p>Cette fresque exceptionnelle, située dans la crypte de la basilique patriarcale d'Aquilée, appartient à un cycle pictural réalisé à la fin du XIIe siècle, sous l'épiscopat du patriarche Ulrich II. L'œuvre recouvre l'intégralité des voûtes d'arêtes et des parois, créant une immersion visuelle totale où le style byzantin rencontre la vigueur de l'art roman occidental. La scène principale illustre le cycle de la Passion et de la mort du Christ, mais aussi et surtout l'histoire des origines chrétiennes d'Aquilée à travers la vie de saint Hermagore et de son diacre Fortunat. Les figures, d'une grande élégance hiératique, se détachent sur des fonds colorés où alternent le bleu profond, le vert émeraude et les ocres chauds, structurés par des bordures ornementales aux motifs géométriques et végétaux d'une grande précision.</p><p>L'organisation iconographique suit une logique de sanctification de l'espace, où les voûtains accueillent des figures de saints, d'apôtres et d'anges en prière. Sur les piliers et les retombées des voûtes, on observe des personnages en pied, vêtus de tuniques aux plis savamment rythmés, tenant souvent des codex ou des instruments liturgiques. La technique de la fresque est ici poussée à un haut degré de raffinement : les visages sont modelés avec des ombres légères et des rehauts de blanc qui confèrent une intensité spirituelle au regard, typique de la \"manière grecque\" qui influençait alors fortement la région vénitienne et le Frioul.</p><p>Un aspect remarquable de cet ensemble est la narration des épisodes de l'évangélisation de la cité, montrant saint Pierre confiant à Hermagore la mission de guider la communauté locale. Cette mise en scène visait à légitimer l'indépendance et la primauté du patriarcat d'Aquilée face aux puissances voisines. Les scènes de martyre, bien que dramatiques, conservent une sérénité majestueuse, transformant la souffrance en une célébration de la victoire de la foi. Aujourd'hui, cet ensemble demeure l'un des témoignages les plus complets et les mieux préservés de la peinture murale médiévale en Italie septentrionale, offrant un condensé de la théologie et de l'histoire politique du Moyen Âge.</p>",
+  "desc": "<p>Cette fresque exceptionnelle, située dans la crypte de la basilique patriarcale d'Aquilée, appartient à un cycle pictural réalisé à la fin du XIIe siècle, sous l'épiscopat du patriarche Ulrich II. L'œuvre recouvre l'intégralité des voûtes d'arêtes et des parois, créant une immersion visuelle totale où le style byzantin rencontre la vigueur de l'art roman occidental. La scène principale illustre le cycle de la Passion et de la mort du Christ, mais aussi et surtout l'histoire des origines chrétiennes d'Aquilée à travers la vie de saint Hermagore et de son diacre Fortunat. Les figures, d'une grande élégance hiératique, se détachent sur des fonds colorés où alternent le bleu profond, le vert émeraude et les ocres chauds, structurés par des bordures ornementales aux motifs géométriques et végétaux d'une grande précision.</p><p>L'organisation iconographique suit une logique de sanctification de l'espace, où les voûtains accueillent des figures de saints, d'apôtres et d'anges en prière. Sur les piliers et les retombées des voûtes, on observe des personnages en pied, vêtus de tuniques aux plis savamment rythmés, tenant souvent des codex ou des instruments liturgiques. La technique de la fresque est ici poussée à un haut degré de raffinement : les visages sont modelés avec des ombres légères et des rehauts de blanc qui confèrent une intensité spirituelle au regard, typique de la \"manière grecque\" qui influençait alors fortement la région vénitienne et le Frioul.</p><p>Un aspect remarquable de cet ensemble est la narration des épisodes de l'évangélisation de la cité, montrant saint Pierre confiant à Hermagore la mission de guider la communauté locale. Cette mise en scène visait à légitimer l'indépendance et la primauté du patriarcat d'Aquilée face aux puissances voisines. Les scènes de martyre, bien que dramatiques, conservent une sérénité majestueuse, transformant la souffrance en une célébration de la victoire de la foi. Aujourd'hui, cet ensemble demeure l'un des témoignages les plus complets et les mieux préservés de la peinture murale médiévale en Italie septentrionale, offrant un condensé de la théologie et de l'histoire politique du Moyen Âge.</p>",
+  "contemporaryArt": {
+    "title": "Moyen Âge central • Âge d'or de l'Art Roman & Moines bâtisseurs",
+    "events": [
+      "1066 : Conquête normande de l'Angleterre par Guillaume le Conquérant et Tapisserie de Bayeux.",
+      "1095 : Appel de Clermont par le pape Urbain II et prédication de la Première Croisade.",
+      "1098 : Fondation de l'ordre de Cîteaux par Robert de Molesme et essor du monachisme cistercien.",
+      "1100 – 1150 : Essor des grands chantiers de pèlerinage vers Saint-Jacques-de-Compostelle et Rome."
+    ]
+  }
+},
+{
+  "id": "fresque_cycle_de_saint_hermagore_et_voutes_peint_35",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_roman",
+  "civName": "Occident : Art Roman d'Italie du Nord",
+  "century": "XIIe siècle (vers 1180)",
+  "centuryDisplay": "XIIe s. (v. 1180)",
+  "centuryNumeric": 1180,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Cycle de saint Hermagore et voûtes peintes (Crypte d'Aquilée)",
+  "site": "Crypte de la basilique patriarcale d'Aquilée (Frioul, Italie)",
+  "originSite": "Crypte des Patriarches de la basilique d'Aquilée",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczPnGqdVLEzNPTDZjidlB1rgzsyvIZy5xfxNOybC-tfpomj_4cEXuzFvjIjInt9K31BB5-bRZZw8YT55tdrIIrLE4toJI_kDWnQLIYYiw1ohyzIitfpsY7GZLglu31VZMVRsxq7EpNfwykoN2ODEiUW6sQ=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczPnGqdVLEzNPTDZjidlB1rgzsyvIZy5xfxNOybC-tfpomj_4cEXuzFvjIjInt9K31BB5-bRZZw8YT55tdrIIrLE4toJI_kDWnQLIYYiw1ohyzIitfpsY7GZLglu31VZMVRsxq7EpNfwykoN2ODEiUW6sQ=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "italie",
+    "aquilée",
+    "roman",
+    "crypte",
+    "poppon",
+    "fresque"
+  ],
+  "chips": [
+    "v. 1180",
+    "Art roman du Frioul",
+    "Crypte des Patriarches",
+    "Saint Hermagore",
+    "Aquilée (UNESCO)"
+  ],
+  "narrative": "<p>Cette fresque exceptionnelle, située dans la crypte de la basilique patriarcale d'Aquilée, appartient à un cycle pictural réalisé à la fin du XIIe siècle, sous l'épiscopat du patriarche Ulrich II. L'œuvre recouvre l'intégralité des voûtes d'arêtes et des parois, créant une immersion visuelle totale où le style byzantin rencontre la vigueur de l'art roman occidental. La scène principale illustre le cycle de la Passion et de la mort du Christ, mais aussi et surtout l'histoire des origines chrétiennes d'Aquilée à travers la vie de saint Hermagore et de son diacre Fortunat. Les figures, d'une grande élégance hiératique, se détachent sur des fonds colorés où alternent le bleu profond, le vert émeraude et les ocres chauds, structurés par des bordures ornementales aux motifs géométriques et végétaux d'une grande précision.</p><p>L'organisation iconographique suit une logique de sanctification de l'espace, où les voûtains accueillent des figures de saints, d'apôtres et d'anges en prière. Sur les piliers et les retombées des voûtes, on observe des personnages en pied, vêtus de tuniques aux plis savamment rythmés, tenant souvent des codex ou des instruments liturgiques. La technique de la fresque est ici poussée à un haut degré de raffinement : les visages sont modelés avec des ombres légères et des rehauts de blanc qui confèrent une intensité spirituelle au regard, typique de la \"manière grecque\" qui influençait alors fortement la région vénitienne et le Frioul.</p><p>Un aspect remarquable de cet ensemble est la narration des épisodes de l'évangélisation de la cité, montrant saint Pierre confiant à Hermagore la mission de guider la communauté locale. Cette mise en scène visait à légitimer l'indépendance et la primauté du patriarcat d'Aquilée face aux puissances voisines. Les scènes de martyre, bien que dramatiques, conservent une sérénité majestueuse, transformant la souffrance en une célébration de la victoire de la foi. Aujourd'hui, cet ensemble demeure l'un des témoignages les plus complets et les mieux préservés de la peinture murale médiévale en Italie septentrionale, offrant un condensé de la théologie et de l'histoire politique du Moyen Âge.</p>",
+  "desc": "<p>Cette fresque exceptionnelle, située dans la crypte de la basilique patriarcale d'Aquilée, appartient à un cycle pictural réalisé à la fin du XIIe siècle, sous l'épiscopat du patriarche Ulrich II. L'œuvre recouvre l'intégralité des voûtes d'arêtes et des parois, créant une immersion visuelle totale où le style byzantin rencontre la vigueur de l'art roman occidental. La scène principale illustre le cycle de la Passion et de la mort du Christ, mais aussi et surtout l'histoire des origines chrétiennes d'Aquilée à travers la vie de saint Hermagore et de son diacre Fortunat. Les figures, d'une grande élégance hiératique, se détachent sur des fonds colorés où alternent le bleu profond, le vert émeraude et les ocres chauds, structurés par des bordures ornementales aux motifs géométriques et végétaux d'une grande précision.</p><p>L'organisation iconographique suit une logique de sanctification de l'espace, où les voûtains accueillent des figures de saints, d'apôtres et d'anges en prière. Sur les piliers et les retombées des voûtes, on observe des personnages en pied, vêtus de tuniques aux plis savamment rythmés, tenant souvent des codex ou des instruments liturgiques. La technique de la fresque est ici poussée à un haut degré de raffinement : les visages sont modelés avec des ombres légères et des rehauts de blanc qui confèrent une intensité spirituelle au regard, typique de la \"manière grecque\" qui influençait alors fortement la région vénitienne et le Frioul.</p><p>Un aspect remarquable de cet ensemble est la narration des épisodes de l'évangélisation de la cité, montrant saint Pierre confiant à Hermagore la mission de guider la communauté locale. Cette mise en scène visait à légitimer l'indépendance et la primauté du patriarcat d'Aquilée face aux puissances voisines. Les scènes de martyre, bien que dramatiques, conservent une sérénité majestueuse, transformant la souffrance en une célébration de la victoire de la foi. Aujourd'hui, cet ensemble demeure l'un des témoignages les plus complets et les mieux préservés de la peinture murale médiévale en Italie septentrionale, offrant un condensé de la théologie et de l'histoire politique du Moyen Âge.</p>",
+  "contemporaryArt": {
+    "title": "Moyen Âge central • Âge d'or de l'Art Roman & Moines bâtisseurs",
+    "events": [
+      "1066 : Conquête normande de l'Angleterre par Guillaume le Conquérant et Tapisserie de Bayeux.",
+      "1095 : Appel de Clermont par le pape Urbain II et prédication de la Première Croisade.",
+      "1098 : Fondation de l'ordre de Cîteaux par Robert de Molesme et essor du monachisme cistercien.",
+      "1100 – 1150 : Essor des grands chantiers de pèlerinage vers Saint-Jacques-de-Compostelle et Rome."
+    ]
+  }
+},
+{
+  "id": "fresque_la_crucifixion_et_la_mise_au_tombeau_cry_36",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_roman",
+  "civName": "Occident : Art Roman d'Italie du Nord",
+  "century": "XIIe siècle (vers 1180)",
+  "centuryDisplay": "XIIe s. (v. 1180)",
+  "centuryNumeric": 1180,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "La Crucifixion et la Mise au tombeau (Crypte d'Aquilée)",
+  "site": "Crypte de la basilique patriarcale d'Aquilée (Frioul, Italie)",
+  "originSite": "Crypte des Patriarches de la basilique d'Aquilée",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczPyLjwvIzdJWd-BEsPLHUEWtJVWZOARJ8f8le6Xnn_Fj-aVtOwX8xaymJAAUrmTghyIaOGwr6bApR3TzyOBLzKbWtWGxxSrz3y1T_MYnrm5IpHcbhaHnDyTfHiDLv0jCSaaxKfogKIVEYpG-EQKB7nXjg=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczPyLjwvIzdJWd-BEsPLHUEWtJVWZOARJ8f8le6Xnn_Fj-aVtOwX8xaymJAAUrmTghyIaOGwr6bApR3TzyOBLzKbWtWGxxSrz3y1T_MYnrm5IpHcbhaHnDyTfHiDLv0jCSaaxKfogKIVEYpG-EQKB7nXjg=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "italie",
+    "aquilée",
+    "roman",
+    "crypte",
+    "poppon",
+    "fresque"
+  ],
+  "chips": [
+    "v. 1180",
+    "Art roman du Frioul",
+    "Crypte des Patriarches",
+    "Saint Hermagore",
+    "Aquilée (UNESCO)"
+  ],
+  "narrative": "<p>Sur cette section précise, on observe une Crucifixion d'une grande intensité dramatique où le Christ, au corps légèrement arqué, est entouré de la Vierge Marie et de saint Jean, dont les expressions de douleur contenue sont caractéristiques de la transition vers un art plus humanisé. À droite, les scènes de la Mise au tombeau et du Christ en majesté s'insèrent dans les lunettes et les écoinçons des voûtes d'arêtes, démontrant une maîtrise remarquable de l'adaptation des figures aux contraintes architecturales de l'espace souterrain. La palette chromatique, dominée par des ocres rouges et jaunes, des verts terreux et quelques rehauts de bleu, conserve une vivacité surprenante malgré les siècles, témoignant de la qualité de la technique de la fresque employée par les ateliers locaux influencés par les modèles constantinopolitains. Les lignes de contour sombres et les drapés stylisés soulignent la hiérarchie des personnages et la solennité théologique du lieu, qui servait alors de sanctuaire pour les reliques des martyrs locaux. Cette décoration picturale reflète l'importance politique et spirituelle du patriarcat d'Aquilée à l'époque médiévale, agissant comme un pont culturel entre l'Orient byzantin et l'Occident latin.</p>",
+  "desc": "<p>Sur cette section précise, on observe une Crucifixion d'une grande intensité dramatique où le Christ, au corps légèrement arqué, est entouré de la Vierge Marie et de saint Jean, dont les expressions de douleur contenue sont caractéristiques de la transition vers un art plus humanisé. À droite, les scènes de la Mise au tombeau et du Christ en majesté s'insèrent dans les lunettes et les écoinçons des voûtes d'arêtes, démontrant une maîtrise remarquable de l'adaptation des figures aux contraintes architecturales de l'espace souterrain. La palette chromatique, dominée par des ocres rouges et jaunes, des verts terreux et quelques rehauts de bleu, conserve une vivacité surprenante malgré les siècles, témoignant de la qualité de la technique de la fresque employée par les ateliers locaux influencés par les modèles constantinopolitains. Les lignes de contour sombres et les drapés stylisés soulignent la hiérarchie des personnages et la solennité théologique du lieu, qui servait alors de sanctuaire pour les reliques des martyrs locaux. Cette décoration picturale reflète l'importance politique et spirituelle du patriarcat d'Aquilée à l'époque médiévale, agissant comme un pont culturel entre l'Orient byzantin et l'Occident latin.</p>",
+  "contemporaryArt": {
+    "title": "Moyen Âge central • Âge d'or de l'Art Roman & Moines bâtisseurs",
+    "events": [
+      "1066 : Conquête normande de l'Angleterre par Guillaume le Conquérant et Tapisserie de Bayeux.",
+      "1095 : Appel de Clermont par le pape Urbain II et prédication de la Première Croisade.",
+      "1098 : Fondation de l'ordre de Cîteaux par Robert de Molesme et essor du monachisme cistercien.",
+      "1100 – 1150 : Essor des grands chantiers de pèlerinage vers Saint-Jacques-de-Compostelle et Rome."
+    ]
+  }
+},
+{
+  "id": "fresque_saints_en_pied_et_decor_absidal_eglise_s_37",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident & Orient Chrétien : Renaissance Paléologue",
+  "century": "XIIIe siècle (fin du XIIIe s., v. 1280)",
+  "centuryDisplay": "XIIIe s.",
+  "centuryNumeric": 1280,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Saints en pied et décor absidal (Église Sainte-Marie d'Apollonia)",
+  "site": "Église Sainte-Marie d'Apollonia (Fier, Albanie)",
+  "originSite": "Monastère Sainte-Marie d'Apollonia d'Illyrie",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczOw756EgYuqqyPxaM8pm53Q41se8WmIeNtd_s9CSs45ywaCjnEYOd2GMkzhwzhOyFAgVUYdPupq2pLIHo1gp_WQtPD5aWT3iE22a9l2JXQG-l8nGU9CE0fYNC6wAlVf7SSmUoYkWfJFbrDikgoygDn8yA=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczOw756EgYuqqyPxaM8pm53Q41se8WmIeNtd_s9CSs45ywaCjnEYOd2GMkzhwzhOyFAgVUYdPupq2pLIHo1gp_WQtPD5aWT3iE22a9l2JXQG-l8nGU9CE0fYNC6wAlVf7SSmUoYkWfJFbrDikgoygDn8yA=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "byzance",
+    "albanie",
+    "apollonia",
+    "fresque",
+    "paléologue"
+  ],
+  "chips": [
+    "XIIIe s.",
+    "Art byzantin des Balkans",
+    "Renaissance Paléologue",
+    "Apollonia",
+    "Albanie"
+  ],
+  "narrative": "<p>Cette vue intérieure de l'église Sainte-Marie, située au cœur du site archéologique d'Apollonia en Albanie, dévoile un ensemble exceptionnel de peintures murales byzantines datant de la fin du XIIIe siècle. L'édifice, qui constitue le noyau du monastère, présente une structure architecturale robuste où la pierre apparente et la brique s'entrelacent, soutenant une charpente de bois qui apporte une simplicité solennelle à l'espace sacré. Le programme iconographique, bien que fragmentaire par endroits, recouvre les parois et les arcs de scènes bibliques et de figures hagiographiques d'une grande finesse stylistique, caractéristiques de la Renaissance Paléologue. Autour de l'ouverture absidale, on distingue des registres superposés illustrant des saints en pied et des scènes de la vie de la Vierge, le tout traité avec une palette de pigments naturels où prédominent les terres d'ombre, les ocres et des bleus profonds. Le sol est orné d'une rosace centrale en marqueterie de pierre, une « rota » rayonnante qui marque le centre symbolique de la nef et témoigne de l'influence des modèles décoratifs byzantins et romans circulant dans l'Adriatique. La lumière latérale, filtrée par d'étroites ouvertures, souligne la texture des murs et la profondeur des regards des figures peintes, créant une atmosphère de recueillement propre à cette synthèse architecturale entre Orient et Occident. Ce monastère, construit en grande partie avec des matériaux de réemploi provenant de la cité antique voisine, demeure l'un des plus importants centres spirituels et artistiques de la période médiévale dans les Balkans.</p>",
+  "desc": "<p>Cette vue intérieure de l'église Sainte-Marie, située au cœur du site archéologique d'Apollonia en Albanie, dévoile un ensemble exceptionnel de peintures murales byzantines datant de la fin du XIIIe siècle. L'édifice, qui constitue le noyau du monastère, présente une structure architecturale robuste où la pierre apparente et la brique s'entrelacent, soutenant une charpente de bois qui apporte une simplicité solennelle à l'espace sacré. Le programme iconographique, bien que fragmentaire par endroits, recouvre les parois et les arcs de scènes bibliques et de figures hagiographiques d'une grande finesse stylistique, caractéristiques de la Renaissance Paléologue. Autour de l'ouverture absidale, on distingue des registres superposés illustrant des saints en pied et des scènes de la vie de la Vierge, le tout traité avec une palette de pigments naturels où prédominent les terres d'ombre, les ocres et des bleus profonds. Le sol est orné d'une rosace centrale en marqueterie de pierre, une « rota » rayonnante qui marque le centre symbolique de la nef et témoigne de l'influence des modèles décoratifs byzantins et romans circulant dans l'Adriatique. La lumière latérale, filtrée par d'étroites ouvertures, souligne la texture des murs et la profondeur des regards des figures peintes, créant une atmosphère de recueillement propre à cette synthèse architecturale entre Orient et Occident. Ce monastère, construit en grande partie avec des matériaux de réemploi provenant de la cité antique voisine, demeure l'un des plus importants centres spirituels et artistiques de la période médiévale dans les Balkans.</p>",
+  "contemporaryArt": {
+    "title": "Bas Moyen Âge • L'Essor du Gothique & l'aube du Trecento",
+    "events": [
+      "1250 – 1300 : Apogée de l'art gothique rayonnant en France et construction de la Sainte-Chapelle de Paris.",
+      "1305 – 1309 : Installation de la papauté en Avignon sous Clément V et grand schisme d'Occident.",
+      "1348 : La terrible épidémie de Peste noire frappe l'Italie et bouleverse la sensibilité spirituelle européenne.",
+      "1380 – 1400 : Diffusion européenne du style Gothique international entre Paris, Dijon, Prague et Florence."
+    ]
+  }
+},
+{
+  "id": "fresque_les_voutes_peintes_du_pantheon_des_rois__38",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_roman",
+  "civName": "Occident : Art Roman hispanique",
+  "century": "XIIe siècle (première moitié, v. 1120 – 1140)",
+  "centuryDisplay": "XIIe s.",
+  "centuryNumeric": 1130,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Les Voûtes peintes du Panthéon des Rois (San Isidoro de León)",
+  "site": "Panthéon des Rois de la basilique San Isidoro (León, Espagne)",
+  "originSite": "Nécropole royale de San Isidoro de León",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczOu99tAN5BNaHWja22Db_iDAR-3e84jOMKGdY9V5xyAQNCL2HoBeyDAapkqkr-Cxy1QM_LjsuyKn7F6xTXFfF5gXtCSe6MHl7PYc-mU1nYK9cyjH2qicC73fKGvaxPXxmc2_EEbY3kKMiKrOvQ5mJi-ow=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczOu99tAN5BNaHWja22Db_iDAR-3e84jOMKGdY9V5xyAQNCL2HoBeyDAapkqkr-Cxy1QM_LjsuyKn7F6xTXFfF5gXtCSe6MHl7PYc-mU1nYK9cyjH2qicC73fKGvaxPXxmc2_EEbY3kKMiKrOvQ5mJi-ow=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "espagne",
+    "león",
+    "san isidoro",
+    "roman",
+    "fresque",
+    "panthéon des rois"
+  ],
+  "chips": [
+    "XIIe s.",
+    "Art roman espagnol",
+    "Nécropole royale",
+    "Annonce aux bergers",
+    "León (Espagne)"
+  ],
+  "narrative": "<p>Cette fresque murale, située dans la Vieille Cathédrale (Catedral Vieja) de Salamanque, constitue un témoignage exceptionnel de la peinture linéaire de transition entre le roman et le gothique. L'œuvre se déploie sur une paroi de pierre de taille, utilisant une palette chromatique dominée par des rouges ocres, des terres de Sienne et des rehauts de blanc, typiques de la fresque médiévale ibérique. Bien que partiellement érodée par le temps, la composition conserve une lisibilité remarquable, s'insérant dans un cadre architectural peint qui simule des niches et des motifs géométriques, créant ainsi un lien visuel fort entre l'espace sacré et la narration hagiographique.</p><p>La scène principale illustre l'un des épisodes les plus célèbres de la vie de Saint Martin de Tours : la Charité. On y voit le saint, représenté comme un jeune chevalier à cheval, découpant son manteau avec son épée pour en offrir la moitié à un mendiant grelottant de froid. La figure du mendiant est traitée avec un certain naturalisme, ses membres étant décharnés pour souligner sa misère. Au-dessus de cette scène, des éléments architecturaux peints, tels que des frontons et des colonnettes, encadrent le récit, tandis que des motifs de rinceaux et de frises décoratives séparent les différents registres. La partie inférieure de la paroi présente des motifs de treillis et de fleurs stylisées, témoignant d'une influence possible des arts décoratifs mudéjars alors très présents dans la péninsule.</p><p>L'analyse stylistique révèle des caractéristiques propres au XIIIe siècle : une simplification des formes, un usage du cerne noir pour délimiter les figures et une recherche de clarté didactique. Les visages, bien qu'altérés, conservent une expression de piété sereine. Cette fresque n'était pas seulement une décoration, mais une \"Bible des pauvres\" destinée à enseigner les vertus de la charité et de l'humilité aux fidèles. Sa préservation au sein de la Vieille Cathédrale, miraculeusement épargnée par les remaniements de la Cathédrale Nouvelle adjacente, en fait un jalon précieux pour comprendre l'évolution de l'art mural en Castille-et-León à l'époque médiévale.</p>",
+  "desc": "<p>Cette fresque murale, située dans la Vieille Cathédrale (Catedral Vieja) de Salamanque, constitue un témoignage exceptionnel de la peinture linéaire de transition entre le roman et le gothique. L'œuvre se déploie sur une paroi de pierre de taille, utilisant une palette chromatique dominée par des rouges ocres, des terres de Sienne et des rehauts de blanc, typiques de la fresque médiévale ibérique. Bien que partiellement érodée par le temps, la composition conserve une lisibilité remarquable, s'insérant dans un cadre architectural peint qui simule des niches et des motifs géométriques, créant ainsi un lien visuel fort entre l'espace sacré et la narration hagiographique.</p><p>La scène principale illustre l'un des épisodes les plus célèbres de la vie de Saint Martin de Tours : la Charité. On y voit le saint, représenté comme un jeune chevalier à cheval, découpant son manteau avec son épée pour en offrir la moitié à un mendiant grelottant de froid. La figure du mendiant est traitée avec un certain naturalisme, ses membres étant décharnés pour souligner sa misère. Au-dessus de cette scène, des éléments architecturaux peints, tels que des frontons et des colonnettes, encadrent le récit, tandis que des motifs de rinceaux et de frises décoratives séparent les différents registres. La partie inférieure de la paroi présente des motifs de treillis et de fleurs stylisées, témoignant d'une influence possible des arts décoratifs mudéjars alors très présents dans la péninsule.</p><p>L'analyse stylistique révèle des caractéristiques propres au XIIIe siècle : une simplification des formes, un usage du cerne noir pour délimiter les figures et une recherche de clarté didactique. Les visages, bien qu'altérés, conservent une expression de piété sereine. Cette fresque n'était pas seulement une décoration, mais une \"Bible des pauvres\" destinée à enseigner les vertus de la charité et de l'humilité aux fidèles. Sa préservation au sein de la Vieille Cathédrale, miraculeusement épargnée par les remaniements de la Cathédrale Nouvelle adjacente, en fait un jalon précieux pour comprendre l'évolution de l'art mural en Castille-et-León à l'époque médiévale.</p>",
+  "contemporaryArt": {
+    "title": "Moyen Âge central • Âge d'or de l'Art Roman & Moines bâtisseurs",
+    "events": [
+      "1066 : Conquête normande de l'Angleterre par Guillaume le Conquérant et Tapisserie de Bayeux.",
+      "1095 : Appel de Clermont par le pape Urbain II et prédication de la Première Croisade.",
+      "1098 : Fondation de l'ordre de Cîteaux par Robert de Molesme et essor du monachisme cistercien.",
+      "1100 – 1150 : Essor des grands chantiers de pèlerinage vers Saint-Jacques-de-Compostelle et Rome."
+    ]
+  }
+},
+{
+  "id": "fresque_les_voutes_peintes_du_pantheon_des_rois__39",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_roman",
+  "civName": "Occident : Art Roman hispanique",
+  "century": "XIIe siècle (première moitié, v. 1120 – 1140)",
+  "centuryDisplay": "XIIe s.",
+  "centuryNumeric": 1130,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Les Voûtes peintes du Panthéon des Rois (San Isidoro de León)",
+  "site": "Panthéon des Rois de la basilique San Isidoro (León, Espagne)",
+  "originSite": "Nécropole royale de San Isidoro de León",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczMkXIFEBg2pg54NHu4S0r8q7KFp_5nvplLtxJAiAxzYXlGoTKhx1pM-HyTPvoZZPWBC_biW2Jg1QK2BXqL9xaWy7If79szDjtZvjPPb48IXJd61vJ5zQwqe0kRsoVpukBnut_jSEAHn6xIEUnVleCh-LA=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczMkXIFEBg2pg54NHu4S0r8q7KFp_5nvplLtxJAiAxzYXlGoTKhx1pM-HyTPvoZZPWBC_biW2Jg1QK2BXqL9xaWy7If79szDjtZvjPPb48IXJd61vJ5zQwqe0kRsoVpukBnut_jSEAHn6xIEUnVleCh-LA=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "espagne",
+    "león",
+    "san isidoro",
+    "roman",
+    "fresque",
+    "panthéon des rois"
+  ],
+  "chips": [
+    "XIIe s.",
+    "Art roman espagnol",
+    "Nécropole royale",
+    "Annonce aux bergers",
+    "León (Espagne)"
+  ],
+  "narrative": "<p>L'ensemble funéraire et pictural de la chapelle Saint-Martin, située dans la Vieille Cathédrale de Salamanque, constitue l'un des joyaux les plus denses et les mieux préservés du gothique linéaire espagnol. Cette vue d'ensemble présente un dialogue fascinant entre l'architecture funéraire monumentale, la sculpture polychrome et la peinture murale. Le point focal est le tombeau de l'évêque Rodrigo Díaz, encastré dans un enfeu sous un arc brisé richement décoré. L'usage de la polychromie, qui recouvre tant la pierre sculptée que les parois planes, crée une unité visuelle totale où la frontière entre le support architectural et l'œuvre narrative s'efface au profit d'une mise en scène sacrée de la mort et de l'au-delà.</p><p>Le monument funéraire lui-même se compose d'un sarcophage surmonté d'un gisant représentant l'évêque dans ses habits sacerdotaux, la tête reposant sur des coussins finement travaillés. Le devant du tombeau est orné de reliefs illustrant les funérailles du prélat, avec une procession de clercs et de pleurants. Dans l'intrados de l'arc, on distingue une peinture de l'Adoration des Mages, soulignant le lien entre le défunt et l'hommage à la divinité. Le gâble qui surmonte l'enfeu est décoré de motifs héraldiques (les châteaux et lions de Castille et León) et de motifs géométriques complexes, témoignant de l'importance politique et religieuse du commanditaire au sein du royaume.</p><p>Sur la paroi adjacente, un cycle de fresques monumentales déploie une iconographie complexe dominée par la figure du Christ en majesté inséré dans une mandorle. Ce Christ Pantocrator est entouré des symboles du Tétramorphe et de scènes hagiographiques, notamment celles liées à la vie de Saint Martin. On y retrouve l'esthétique du XIIIe siècle : des figures allongées, des gestes expressifs et une prédominance des aplats de couleurs vives qui devaient, à l'origine, illuminer l'obscurité de la cathédrale. À droite, une niche architecturale peinte simule un autel ou un reliquaire, renforçant l'aspect liturgique de cet espace. Cet ensemble est un témoignage rare de la \"chapelle totale\" médiévale, où chaque élément concourt à la glorification du saint patron et au salut de l'âme du défunt.</p>",
+  "desc": "<p>L'ensemble funéraire et pictural de la chapelle Saint-Martin, située dans la Vieille Cathédrale de Salamanque, constitue l'un des joyaux les plus denses et les mieux préservés du gothique linéaire espagnol. Cette vue d'ensemble présente un dialogue fascinant entre l'architecture funéraire monumentale, la sculpture polychrome et la peinture murale. Le point focal est le tombeau de l'évêque Rodrigo Díaz, encastré dans un enfeu sous un arc brisé richement décoré. L'usage de la polychromie, qui recouvre tant la pierre sculptée que les parois planes, crée une unité visuelle totale où la frontière entre le support architectural et l'œuvre narrative s'efface au profit d'une mise en scène sacrée de la mort et de l'au-delà.</p><p>Le monument funéraire lui-même se compose d'un sarcophage surmonté d'un gisant représentant l'évêque dans ses habits sacerdotaux, la tête reposant sur des coussins finement travaillés. Le devant du tombeau est orné de reliefs illustrant les funérailles du prélat, avec une procession de clercs et de pleurants. Dans l'intrados de l'arc, on distingue une peinture de l'Adoration des Mages, soulignant le lien entre le défunt et l'hommage à la divinité. Le gâble qui surmonte l'enfeu est décoré de motifs héraldiques (les châteaux et lions de Castille et León) et de motifs géométriques complexes, témoignant de l'importance politique et religieuse du commanditaire au sein du royaume.</p><p>Sur la paroi adjacente, un cycle de fresques monumentales déploie une iconographie complexe dominée par la figure du Christ en majesté inséré dans une mandorle. Ce Christ Pantocrator est entouré des symboles du Tétramorphe et de scènes hagiographiques, notamment celles liées à la vie de Saint Martin. On y retrouve l'esthétique du XIIIe siècle : des figures allongées, des gestes expressifs et une prédominance des aplats de couleurs vives qui devaient, à l'origine, illuminer l'obscurité de la cathédrale. À droite, une niche architecturale peinte simule un autel ou un reliquaire, renforçant l'aspect liturgique de cet espace. Cet ensemble est un témoignage rare de la \"chapelle totale\" médiévale, où chaque élément concourt à la glorification du saint patron et au salut de l'âme du défunt.</p>",
+  "contemporaryArt": {
+    "title": "Moyen Âge central • Âge d'or de l'Art Roman & Moines bâtisseurs",
+    "events": [
+      "1066 : Conquête normande de l'Angleterre par Guillaume le Conquérant et Tapisserie de Bayeux.",
+      "1095 : Appel de Clermont par le pape Urbain II et prédication de la Première Croisade.",
+      "1098 : Fondation de l'ordre de Cîteaux par Robert de Molesme et essor du monachisme cistercien.",
+      "1100 – 1150 : Essor des grands chantiers de pèlerinage vers Saint-Jacques-de-Compostelle et Rome."
+    ]
+  }
+},
+{
+  "id": "fresque_saint_martin_partageant_son_manteau_et_s_40",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident : Art Gothique d'Estrémadure",
+  "century": "XIIIe siècle",
+  "centuryDisplay": "XIIIe s.",
+  "centuryNumeric": 1260,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Saint Martin partageant son manteau et Sainte Anne (Crypte de Mérida)",
+  "site": "Basilique Sainte-Eulalie (Mérida, Estrémadure, Espagne)",
+  "originSite": "Crypte archéologique de la basilique Sainte-Eulalie de Mérida",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczNlkoYf_gwQECxhe61qB3m9PYeUDkDMwOn926WNb3tF5YsENhzBAdoutj2ym-JZHI-rn4r5Ma0KgYGoHzGrBj6m9fNuH7vjZ6B6Xee0MqAL_uP8nPTvM10tCTZKrWQmhR7jz75edhE_qR6bvVTT13WtIg=w1681-h1118-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczNlkoYf_gwQECxhe61qB3m9PYeUDkDMwOn926WNb3tF5YsENhzBAdoutj2ym-JZHI-rn4r5Ma0KgYGoHzGrBj6m9fNuH7vjZ6B6Xee0MqAL_uP8nPTvM10tCTZKrWQmhR7jz75edhE_qR6bvVTT13WtIg=w1681-h1118-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "espagne",
+    "mérida",
+    "crypte",
+    "sainte-eulalie",
+    "fresque"
+  ],
+  "chips": [
+    "XIIIe s.",
+    "Art médiéval espagnol",
+    "Crypte archéologique",
+    "Saint Martin & Sainte Anne",
+    "Mérida (Espagne)"
+  ],
+  "narrative": "<p>Cette série de peintures murales, située dans la crypte de la basilique Sainte-Eulalie à Mérida, témoigne de la continuité de l'occupation religieuse du site bien après l'époque romaine. Ces fresques, qui décorent les parois d'anciennes structures funéraires et de chapelles souterraines, illustrent une transition stylistique vers l'art médiéval chrétien. Le panneau central représente saint Martin de Tours, l'un des saints les plus populaires de la chrétienté occidentale, dans sa scène iconographique la plus célèbre : le partage du manteau. Le saint est figuré à cheval, vêtu d'une tunique blanche et nimbé, utilisant son épée pour couper son manteau afin d'en donner la moitié à un mendiant agenouillé à ses pieds. L'inscription \"S. MARTIN\" lève toute ambiguïté sur l'identité du personnage, tandis que deux arbres stylisés encadrent la scène, apportant une touche de perspective simplifiée à la composition.</p><p>À droite de ce panneau, une autre section présente une figure féminine voilée et nimbée, les mains jointes en signe de prière, identifiée par l'inscription \"S. ANA\". Sainte Anne est représentée avec une grande sobriété, soulignant la ferveur et la piété caractéristiques de l'art hagiographique de cette période. La palette de couleurs est dominée par des terres d'ocre, des rouges brique et des blancs calcaires, des pigments minéraux stables qui ont permis la conservation de ces œuvres dans l'environnement humide de la crypte. Le traitement des visages, avec des traits marqués et des yeux expressifs, ainsi que la présence de lettrages latins clairs, suggèrent une datation postérieure à la période wisigothique, probablement de l'époque médiévale romane ou gothique précoce. Ces fresques ne remplissaient pas seulement une fonction décorative, mais servaient de support à la dévotion des pèlerins venant se recueillir sur les tombes des martyrs, transformant l'espace funéraire en un lieu d'enseignement sacré et de mémoire visuelle.</p>",
+  "desc": "<p>Cette série de peintures murales, située dans la crypte de la basilique Sainte-Eulalie à Mérida, témoigne de la continuité de l'occupation religieuse du site bien après l'époque romaine. Ces fresques, qui décorent les parois d'anciennes structures funéraires et de chapelles souterraines, illustrent une transition stylistique vers l'art médiéval chrétien. Le panneau central représente saint Martin de Tours, l'un des saints les plus populaires de la chrétienté occidentale, dans sa scène iconographique la plus célèbre : le partage du manteau. Le saint est figuré à cheval, vêtu d'une tunique blanche et nimbé, utilisant son épée pour couper son manteau afin d'en donner la moitié à un mendiant agenouillé à ses pieds. L'inscription \"S. MARTIN\" lève toute ambiguïté sur l'identité du personnage, tandis que deux arbres stylisés encadrent la scène, apportant une touche de perspective simplifiée à la composition.</p><p>À droite de ce panneau, une autre section présente une figure féminine voilée et nimbée, les mains jointes en signe de prière, identifiée par l'inscription \"S. ANA\". Sainte Anne est représentée avec une grande sobriété, soulignant la ferveur et la piété caractéristiques de l'art hagiographique de cette période. La palette de couleurs est dominée par des terres d'ocre, des rouges brique et des blancs calcaires, des pigments minéraux stables qui ont permis la conservation de ces œuvres dans l'environnement humide de la crypte. Le traitement des visages, avec des traits marqués et des yeux expressifs, ainsi que la présence de lettrages latins clairs, suggèrent une datation postérieure à la période wisigothique, probablement de l'époque médiévale romane ou gothique précoce. Ces fresques ne remplissaient pas seulement une fonction décorative, mais servaient de support à la dévotion des pèlerins venant se recueillir sur les tombes des martyrs, transformant l'espace funéraire en un lieu d'enseignement sacré et de mémoire visuelle.</p>",
+  "contemporaryArt": {
+    "title": "Bas Moyen Âge • L'Essor du Gothique & l'aube du Trecento",
+    "events": [
+      "1250 – 1300 : Apogée de l'art gothique rayonnant en France et construction de la Sainte-Chapelle de Paris.",
+      "1305 – 1309 : Installation de la papauté en Avignon sous Clément V et grand schisme d'Occident.",
+      "1348 : La terrible épidémie de Peste noire frappe l'Italie et bouleverse la sensibilité spirituelle européenne.",
+      "1380 – 1400 : Diffusion européenne du style Gothique international entre Paris, Dijon, Prague et Florence."
+    ]
+  }
+},
+{
+  "id": "fresque_le_christ_pantocrator_et_la_cour_celeste_41",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident & Orient Chrétien : Renaissance Paléologue",
+  "century": "XIIIe – XIVe siècle (vers 1290 – 1310)",
+  "centuryDisplay": "Fin XIIIe s.",
+  "centuryNumeric": 1290,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Le Christ Pantocrator et la cour céleste (Coupole de la Métropole de Mystras)",
+  "site": "Église Saint-Démétrios (Métropole de Mystras, Grèce)",
+  "originSite": "Cité médiévale de Mystras (Despotat de Morée, Péloponnèse, Grèce)",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczNl1TqXGpv3NH6Du1MVn1z_HKU6_CP9ePatb0x_Tus7xBN8v2LN7nZQqKjhhX2YJ6rguDloC-y9NEUtqur0g4jpSgR5roLXrgYRDYCF1g8t87mZ93TAL-OqMpz-kTohdnipJSXGLx39XHJrN5TnzN0A1w=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczNl1TqXGpv3NH6Du1MVn1z_HKU6_CP9ePatb0x_Tus7xBN8v2LN7nZQqKjhhX2YJ6rguDloC-y9NEUtqur0g4jpSgR5roLXrgYRDYCF1g8t87mZ93TAL-OqMpz-kTohdnipJSXGLx39XHJrN5TnzN0A1w=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "byzance",
+    "mystras",
+    "mistra",
+    "paléologue",
+    "fresque",
+    "grèce"
+  ],
+  "chips": [
+    "Fin XIIIe s.",
+    "Art byzantin tardif",
+    "Renaissance Paléologue",
+    "Mystras (UNESCO)",
+    "Grèce"
+  ],
+  "narrative": "<p>Cette fresque monumentale orne la coupole de l'église Saint-Démétrios, la métropole de Mystras, site emblématique du despotat de Morée inscrit au patrimoine mondial de l'UNESCO. Datant de la fin du XIIIe siècle ou du début du XIVe siècle, cette œuvre s'inscrit dans le renouveau artistique de l'époque Paléologue, caractérisé par une recherche de profondeur et une humanisation des figures sacrées. Au sommet de la calotte se trouve le médaillon central figurant le Christ Pantocrator, le Tout-Puissant, représenté en buste et bénissant les fidèles. Autour de lui se déploie une composition céleste organisée en registres concentriques qui épousent la courbure de l'architecture. On y distingue les figures des prophètes et des anges qui semblent graviter autour de la divinité, créant une hiérarchie visuelle entre le monde terrestre et le monde divin. La palette chromatique est dominée par des ocres chauds, des terres de Sienne et des rouges profonds, contrastant avec les fonds sombres qui accentuent la solennité de la scène. La technique de la fresque, appliquée sur un enduit encore frais, a permis une conservation remarquable des pigments malgré les siècles et les aléas climatiques. Le style se distingue par une certaine souplesse des drapés et une expressivité des visages qui rompent avec la rigidité hiératique du style byzantin plus ancien, témoignant de l'effervescence intellectuelle et artistique de la cité de Mystras avant la chute de l'Empire. Cette coupole ne constitue pas seulement un décor architectural, mais une véritable théologie en images, visant à transcender l'espace liturgique pour en faire une fenêtre sur le royaume céleste.</p>",
+  "desc": "<p>Cette fresque monumentale orne la coupole de l'église Saint-Démétrios, la métropole de Mystras, site emblématique du despotat de Morée inscrit au patrimoine mondial de l'UNESCO. Datant de la fin du XIIIe siècle ou du début du XIVe siècle, cette œuvre s'inscrit dans le renouveau artistique de l'époque Paléologue, caractérisé par une recherche de profondeur et une humanisation des figures sacrées. Au sommet de la calotte se trouve le médaillon central figurant le Christ Pantocrator, le Tout-Puissant, représenté en buste et bénissant les fidèles. Autour de lui se déploie une composition céleste organisée en registres concentriques qui épousent la courbure de l'architecture. On y distingue les figures des prophètes et des anges qui semblent graviter autour de la divinité, créant une hiérarchie visuelle entre le monde terrestre et le monde divin. La palette chromatique est dominée par des ocres chauds, des terres de Sienne et des rouges profonds, contrastant avec les fonds sombres qui accentuent la solennité de la scène. La technique de la fresque, appliquée sur un enduit encore frais, a permis une conservation remarquable des pigments malgré les siècles et les aléas climatiques. Le style se distingue par une certaine souplesse des drapés et une expressivité des visages qui rompent avec la rigidité hiératique du style byzantin plus ancien, témoignant de l'effervescence intellectuelle et artistique de la cité de Mystras avant la chute de l'Empire. Cette coupole ne constitue pas seulement un décor architectural, mais une véritable théologie en images, visant à transcender l'espace liturgique pour en faire une fenêtre sur le royaume céleste.</p>",
+  "contemporaryArt": {
+    "title": "Bas Moyen Âge • L'Essor du Gothique & l'aube du Trecento",
+    "events": [
+      "1250 – 1300 : Apogée de l'art gothique rayonnant en France et construction de la Sainte-Chapelle de Paris.",
+      "1305 – 1309 : Installation de la papauté en Avignon sous Clément V et grand schisme d'Occident.",
+      "1348 : La terrible épidémie de Peste noire frappe l'Italie et bouleverse la sensibilité spirituelle européenne.",
+      "1380 – 1400 : Diffusion européenne du style Gothique international entre Paris, Dijon, Prague et Florence."
+    ]
+  }
+},
+{
+  "id": "fresque_la_vierge_platytera_et_la_communion_des__42",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident & Orient Chrétien : Renaissance Paléologue",
+  "century": "XIIIe – XIVe siècle (vers 1290 – 1310)",
+  "centuryDisplay": "Fin XIIIe s.",
+  "centuryNumeric": 1290,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "La Vierge Platytera et la Communion des Apôtres (Abside de Saint-Démétrios, Mystras)",
+  "site": "Église Saint-Démétrios (Métropole de Mystras, Grèce)",
+  "originSite": "Cité médiévale de Mystras (Despotat de Morée, Péloponnèse, Grèce)",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczPr_bH7kFn72glkQNSidzgNXdeJvZVbgvJhDjGOVtR477sOx7DC4GgFY0eQDgHEn4G3E07mFSupozr7v3gjkW2OCtkzjBio7IXZ0WNJvOaN_5OL1j52Myh6UiUHiTxfNX1kiF9LdouAxGuzoNUxM2eagQ=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczPr_bH7kFn72glkQNSidzgNXdeJvZVbgvJhDjGOVtR477sOx7DC4GgFY0eQDgHEn4G3E07mFSupozr7v3gjkW2OCtkzjBio7IXZ0WNJvOaN_5OL1j52Myh6UiUHiTxfNX1kiF9LdouAxGuzoNUxM2eagQ=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "byzance",
+    "mystras",
+    "mistra",
+    "paléologue",
+    "fresque",
+    "grèce"
+  ],
+  "chips": [
+    "Fin XIIIe s.",
+    "Art byzantin tardif",
+    "Renaissance Paléologue",
+    "Mystras (UNESCO)",
+    "Grèce"
+  ],
+  "narrative": "<p>. La composition s'articule sur plusieurs registres iconographiques superposés qui illustrent le dogme de l'Incarnation et le mystère de l'Eucharistie. Dans la conque supérieure, sur un fond sombre qui évoque la profondeur céleste, trône la Vierge Marie de type Platytera, présentant l'Enfant Jésus devant elle. Cette figure monumentale sert de pont entre le divin et l'humain, soulignant le rôle de la Mère de Dieu comme réceptacle du sacré. Juste en dessous, le registre médian est consacré à la Communion des Apôtres, une scène liturgique fondamentale où le Christ est représenté deux fois, distribuant le pain et le vin à ses disciples de part et d'autre d'un autel central. Les personnages, bien que partiellement érodés par le temps, conservent une dynamique propre à la Renaissance Paléologue, avec des postures légèrement inclinées et des drapés qui suggèrent le mouvement. Plus bas, dans la zone des fenêtres de l'abside, des figures de saints évêques et de pères de l'Église complètent l'ensemble, symbolisant la continuité de la tradition ecclésiastique. L'utilisation de pigments minéraux comme l'ocre rouge et le jaune, ainsi que les traces de bleu de lapis-lazuli, témoigne de la richesse décorative de la métropole à la fin du XIIIe siècle. L'ensemble de la paroi est structuré par des bandes décoratives et des inscriptions en grec byzantin qui encadrent les scènes, renforçant l'aspect didactique de l'œuvre pour les fidèles rassemblés dans le choeur.</p>",
+  "desc": "<p>. La composition s'articule sur plusieurs registres iconographiques superposés qui illustrent le dogme de l'Incarnation et le mystère de l'Eucharistie. Dans la conque supérieure, sur un fond sombre qui évoque la profondeur céleste, trône la Vierge Marie de type Platytera, présentant l'Enfant Jésus devant elle. Cette figure monumentale sert de pont entre le divin et l'humain, soulignant le rôle de la Mère de Dieu comme réceptacle du sacré. Juste en dessous, le registre médian est consacré à la Communion des Apôtres, une scène liturgique fondamentale où le Christ est représenté deux fois, distribuant le pain et le vin à ses disciples de part et d'autre d'un autel central. Les personnages, bien que partiellement érodés par le temps, conservent une dynamique propre à la Renaissance Paléologue, avec des postures légèrement inclinées et des drapés qui suggèrent le mouvement. Plus bas, dans la zone des fenêtres de l'abside, des figures de saints évêques et de pères de l'Église complètent l'ensemble, symbolisant la continuité de la tradition ecclésiastique. L'utilisation de pigments minéraux comme l'ocre rouge et le jaune, ainsi que les traces de bleu de lapis-lazuli, témoigne de la richesse décorative de la métropole à la fin du XIIIe siècle. L'ensemble de la paroi est structuré par des bandes décoratives et des inscriptions en grec byzantin qui encadrent les scènes, renforçant l'aspect didactique de l'œuvre pour les fidèles rassemblés dans le choeur.</p>",
+  "contemporaryArt": {
+    "title": "Bas Moyen Âge • L'Essor du Gothique & l'aube du Trecento",
+    "events": [
+      "1250 – 1300 : Apogée de l'art gothique rayonnant en France et construction de la Sainte-Chapelle de Paris.",
+      "1305 – 1309 : Installation de la papauté en Avignon sous Clément V et grand schisme d'Occident.",
+      "1348 : La terrible épidémie de Peste noire frappe l'Italie et bouleverse la sensibilité spirituelle européenne.",
+      "1380 – 1400 : Diffusion européenne du style Gothique international entre Paris, Dijon, Prague et Florence."
+    ]
+  }
+},
+{
+  "id": "fresque_la_lapidation_de_saint_etienne_et_le_col_43",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident : Art Gothique méridional",
+  "century": "XIVe siècle (vers 1315 – 1320)",
+  "centuryDisplay": "XIVe s. (v. 1320)",
+  "centuryNumeric": 1320,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "La Lapidation de saint Étienne et le collège des Prophètes (Coupole de Cahors)",
+  "site": "Cathédrale Saint-Étienne (Cahors, Lot, France)",
+  "originSite": "Coupole occidentale de la cathédrale de Cahors",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczOr3qiDSWeOQFz_04Lz8DJdScRDV8AIOj9o666Irnoj-5HPVBQpz1NRElyYbMd9-5PjtQ8Yyiyh9KTEXvgNPQi6pK3WnwHIh2qQH0nlXl3gE85MiEU3o-GL9k-DYcTwDRR7FqhET67-ysHxNppfeSQ2ow=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczOr3qiDSWeOQFz_04Lz8DJdScRDV8AIOj9o666Irnoj-5HPVBQpz1NRElyYbMd9-5PjtQ8Yyiyh9KTEXvgNPQi6pK3WnwHIh2qQH0nlXl3gE85MiEU3o-GL9k-DYcTwDRR7FqhET67-ysHxNppfeSQ2ow=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "france",
+    "cahors",
+    "coupole",
+    "gothique",
+    "saint-étienne",
+    "fresque"
+  ],
+  "chips": [
+    "v. 1320",
+    "Gothique méridional",
+    "Coupole monumentale (18 m)",
+    "Saint Étienne",
+    "Cahors (UNESCO)"
+  ],
+  "narrative": "<p>Cette vue en contre-plongée de la coupole occidentale de la cathédrale Saint-Étienne de Cahors dévoile l'un des ensembles picturaux les plus remarquables du Sud-Ouest, classé au patrimoine mondial de l'UNESCO. Peint au XIVe siècle, ce décor monumental orne une coupole de 18 mètres de diamètre, illustrant la transition entre la puissance de l'architecture romane et le raffinement de l'iconographie gothique.</p><p>La composition s'organise autour d'un médaillon central figurant la lapidation de saint Étienne, patron de la cathédrale, entouré d'une nuée d'anges. De ce centre rayonnent huit compartiments délimités par des bandes ornementales à motifs de rinceaux, dans lesquels se déploient les figures imposantes de huit prophètes de l'Ancien Testament. Chaque prophète, mesurant près de quatre mètres de haut, est représenté debout, vêtu de drapés aux couleurs chaudes — ocres, jaunes et rouges — et tenant un phylactère qui porte son nom.</p><p>Les figures sont placées sous des arcatures gothiques trilobées peintes en trompe-l'œil, créant une illusion de profondeur qui dialogue avec la courbure réelle de la pierre. Bien que restaurée avec soin, la fresque conserve la fluidité des lignes et l'expressivité des visages typiques de la peinture méridionale du XIVe siècle. Ce décor n'est pas seulement un chef-d'œuvre artistique, il remplit également une fonction didactique, reliant les prophéties anciennes au martyre du Nouveau Testament, le tout suspendu dans cet espace \"hors échelle\" que permettent les coupoles uniques de Cahors.</p>",
+  "desc": "<p>Cette vue en contre-plongée de la coupole occidentale de la cathédrale Saint-Étienne de Cahors dévoile l'un des ensembles picturaux les plus remarquables du Sud-Ouest, classé au patrimoine mondial de l'UNESCO. Peint au XIVe siècle, ce décor monumental orne une coupole de 18 mètres de diamètre, illustrant la transition entre la puissance de l'architecture romane et le raffinement de l'iconographie gothique.</p><p>La composition s'organise autour d'un médaillon central figurant la lapidation de saint Étienne, patron de la cathédrale, entouré d'une nuée d'anges. De ce centre rayonnent huit compartiments délimités par des bandes ornementales à motifs de rinceaux, dans lesquels se déploient les figures imposantes de huit prophètes de l'Ancien Testament. Chaque prophète, mesurant près de quatre mètres de haut, est représenté debout, vêtu de drapés aux couleurs chaudes — ocres, jaunes et rouges — et tenant un phylactère qui porte son nom.</p><p>Les figures sont placées sous des arcatures gothiques trilobées peintes en trompe-l'œil, créant une illusion de profondeur qui dialogue avec la courbure réelle de la pierre. Bien que restaurée avec soin, la fresque conserve la fluidité des lignes et l'expressivité des visages typiques de la peinture méridionale du XIVe siècle. Ce décor n'est pas seulement un chef-d'œuvre artistique, il remplit également une fonction didactique, reliant les prophéties anciennes au martyre du Nouveau Testament, le tout suspendu dans cet espace \"hors échelle\" que permettent les coupoles uniques de Cahors.</p>",
+  "contemporaryArt": {
+    "title": "Bas Moyen Âge • L'Essor du Gothique & l'aube du Trecento",
+    "events": [
+      "1250 – 1300 : Apogée de l'art gothique rayonnant en France et construction de la Sainte-Chapelle de Paris.",
+      "1305 – 1309 : Installation de la papauté en Avignon sous Clément V et grand schisme d'Occident.",
+      "1348 : La terrible épidémie de Peste noire frappe l'Italie et bouleverse la sensibilité spirituelle européenne.",
+      "1380 – 1400 : Diffusion européenne du style Gothique international entre Paris, Dijon, Prague et Florence."
+    ]
+  }
+},
+{
+  "id": "fresque_le_christ_en_gloire_pantocrator_dans_sa__44",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident : Art Gothique bourguignon",
+  "century": "XIVe siècle (fin du XIVe s., v. 1380 – 1400)",
+  "centuryDisplay": "Fin XIVe s.",
+  "centuryNumeric": 1390,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Le Christ en gloire Pantocrator dans sa mandorle losangée (Paray-le-Monial)",
+  "site": "Basilique du Sacré-Cœur (Paray-le-Monial, Saône-et-Loire, France)",
+  "originSite": "Voûte en cul-de-four de l'abside de Paray-le-Monial",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczN6nRZJJbBs0SsqKOCxA9LcG7kk2U7rjLpr6zv-qH88m95wMuZGnDfyTMYjm9MMi9LPK_3_plvEMcEmcUTbG3DPfohYSzJ-g5pptqyLJfBSWkrjNGUVcxud9STacrdJtTuaZg6gytqRuCpOvzbITqyZTw=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczN6nRZJJbBs0SsqKOCxA9LcG7kk2U7rjLpr6zv-qH88m95wMuZGnDfyTMYjm9MMi9LPK_3_plvEMcEmcUTbG3DPfohYSzJ-g5pptqyLJfBSWkrjNGUVcxud9STacrdJtTuaZg6gytqRuCpOvzbITqyZTw=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "france",
+    "paray-le-monial",
+    "bourgogne",
+    "gothique",
+    "fresque"
+  ],
+  "chips": [
+    "Fin XIVe s.",
+    "Gothique bourguignon",
+    "Abside monumentale",
+    "Christ Pantocrator",
+    "Paray-le-Monial"
+  ],
+  "narrative": "<p>Cette peinture murale monumentale, qui orne la voûte en cul-de-four de l'abside de la basilique de Paray-le-Monial, constitue un témoignage exceptionnel de l'art sacré de la fin du XIVe siècle ou du début du XVe siècle. Bien qu'elle s'insère dans un écrin architectural roman beaucoup plus ancien, cette fresque fut réalisée tardivement avant d'être occultée par un badigeon, puis remise au jour et restaurée de manière significative en 1935. L'œuvre représente un Christ en gloire, ou Pantocrator, dont la stature imposante domine l'espace liturgique du sanctuaire pour souligner sa toute-puissance divine. Assis sur un trône richement décoré qui s'élève au-dessus d'un sol figuré par un motif de damier, le Christ esquisse un geste de bénédiction de la main droite tandis qu'il maintient fermement le Livre de la Vie de la main gauche. Cette figure centrale est inscrite dans une mandorle de forme losangée qui symbolise la porte entre le monde terrestre et le royaume des cieux. Aux écoinçons de cette composition rayonnante se déploie le Tétramorphe, représentant les quatre évangélistes sous leurs formes symboliques respectives de l'homme, de l'aigle, du lion et du bœuf, chacun étant identifié par un phylactère portant son nom en latin. L'harmonie des tons ocre et la rigueur de la composition confèrent à l'ensemble une autorité spirituelle qui guide le regard du fidèle vers la promesse du salut éternel.</p>",
+  "desc": "<p>Cette peinture murale monumentale, qui orne la voûte en cul-de-four de l'abside de la basilique de Paray-le-Monial, constitue un témoignage exceptionnel de l'art sacré de la fin du XIVe siècle ou du début du XVe siècle. Bien qu'elle s'insère dans un écrin architectural roman beaucoup plus ancien, cette fresque fut réalisée tardivement avant d'être occultée par un badigeon, puis remise au jour et restaurée de manière significative en 1935. L'œuvre représente un Christ en gloire, ou Pantocrator, dont la stature imposante domine l'espace liturgique du sanctuaire pour souligner sa toute-puissance divine. Assis sur un trône richement décoré qui s'élève au-dessus d'un sol figuré par un motif de damier, le Christ esquisse un geste de bénédiction de la main droite tandis qu'il maintient fermement le Livre de la Vie de la main gauche. Cette figure centrale est inscrite dans une mandorle de forme losangée qui symbolise la porte entre le monde terrestre et le royaume des cieux. Aux écoinçons de cette composition rayonnante se déploie le Tétramorphe, représentant les quatre évangélistes sous leurs formes symboliques respectives de l'homme, de l'aigle, du lion et du bœuf, chacun étant identifié par un phylactère portant son nom en latin. L'harmonie des tons ocre et la rigueur de la composition confèrent à l'ensemble une autorité spirituelle qui guide le regard du fidèle vers la promesse du salut éternel.</p>",
+  "contemporaryArt": {
+    "title": "Bas Moyen Âge • L'Essor du Gothique & l'aube du Trecento",
+    "events": [
+      "1250 – 1300 : Apogée de l'art gothique rayonnant en France et construction de la Sainte-Chapelle de Paris.",
+      "1305 – 1309 : Installation de la papauté en Avignon sous Clément V et grand schisme d'Occident.",
+      "1348 : La terrible épidémie de Peste noire frappe l'Italie et bouleverse la sensibilité spirituelle européenne.",
+      "1380 – 1400 : Diffusion européenne du style Gothique international entre Paris, Dijon, Prague et Florence."
+    ]
+  }
+},
+{
+  "id": "fresque_la_navicella_la_barque_de_pierre_sur_les_45",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident : Art Gothique rhénan",
+  "century": "XIVe siècle (vers 1320 – 1340)",
+  "centuryDisplay": "XIVe s.",
+  "centuryNumeric": 1330,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "La Navicella : La Barque de Pierre sur les flots (Saint-Pierre-le-Jeune, Strasbourg)",
+  "site": "Église Saint-Pierre-le-Jeune (Strasbourg, Alsace, France)",
+  "originSite": "Chœur et nef nord de Saint-Pierre-le-Jeune de Strasbourg",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczOwPt4FyBW0h6I_OCRdbHgbvH7arIsg4RN9jdGlGM_0504xef195M3U4NY9mlHTQyJSjMLDhNskuyrmgfr7Yk14ohRc2T4vbTer-xIcF-f4Q_E5o2po1_grjvcRqc5STOgdc_FE1KSVp3TSBAyx69vKJA=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczOwPt4FyBW0h6I_OCRdbHgbvH7arIsg4RN9jdGlGM_0504xef195M3U4NY9mlHTQyJSjMLDhNskuyrmgfr7Yk14ohRc2T4vbTer-xIcF-f4Q_E5o2po1_grjvcRqc5STOgdc_FE1KSVp3TSBAyx69vKJA=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "france",
+    "alsace",
+    "strasbourg",
+    "saint-pierre-le-jeune",
+    "gothique",
+    "fresque"
+  ],
+  "chips": [
+    "XIVe s.",
+    "Gothique rhénan",
+    "École giottesque en Alsace",
+    "Saint-Pierre-le-Jeune",
+    "Strasbourg"
+  ],
+  "narrative": "<p>Cette fresque monumentale, située sur le mur nord du chœur de l'église Saint-Pierre-le-Jeune à Strasbourg, constitue l'un des témoignages les plus précieux de la peinture murale médiévale en Alsace, bien que son aspect actuel résulte d'une importante campagne de restauration menée à la fin du XIXe siècle par Carl Schäfer. L'œuvre illustre l'épisode biblique de la Navicella, ou la Barque de Pierre, un thème iconographique majeur de l'art chrétien symbolisant l'Église militante traversant les tempêtes du monde. La composition s'inscrit dans un tympan brisé délimité par les nervures de la voûte gothique, offrant une lecture ascendante et dynamique de la scène. Au centre de l'image, une barque robuste aux teintes dorées transporte les apôtres, dont les visages nimbés expriment une dévotion recueillie malgré l'agitation des flots. À la proue, on distingue la figure du Christ marchant sur les eaux, les pieds effleurant une mer stylisée par des ondes sinueuses d'un vert profond, peuplée de créatures marines fantastiques et de petits génies ailés qui semblent personnifier les vents ou les forces élémentaires. Le Christ tend la main à l'apôtre Pierre, lequel, ayant tenté de rejoindre son maître, commence à enfoncer dans l'onde, illustrant l'instant précis du doute et du salut par la foi. Dans les écoinçons supérieurs, deux anges buccinateurs survolent la scène, renforçant la dimension sacrée et eschatologique de l'événement. Le style graphique, caractérisé par des contours marqués et une palette de couleurs où dominent l'ocre, le bleu de cobalt et le rouge brique, évoque l'influence de l'école de Giotto, rappelant la célèbre mosaïque disparue de la basilique Saint-Pierre de Rome. Sous la scène principale, une frise décorative composée d'arcatures trilobées gothiques abrite une procession d'anges musiciens et de figures de donateurs, créant une transition visuelle avec l'architecture réelle de l'édifice. Cette œuvre ne se contente pas d'être une illustration didactique de l'Évangile ; elle agit comme un puissant symbole de la protection divine sur la cité de Strasbourg et ses fidèles, ancrant le récit biblique dans le cadre architectural et spirituel du XIVe siècle rhénan.</p>",
+  "desc": "<p>Cette fresque monumentale, située sur le mur nord du chœur de l'église Saint-Pierre-le-Jeune à Strasbourg, constitue l'un des témoignages les plus précieux de la peinture murale médiévale en Alsace, bien que son aspect actuel résulte d'une importante campagne de restauration menée à la fin du XIXe siècle par Carl Schäfer. L'œuvre illustre l'épisode biblique de la Navicella, ou la Barque de Pierre, un thème iconographique majeur de l'art chrétien symbolisant l'Église militante traversant les tempêtes du monde. La composition s'inscrit dans un tympan brisé délimité par les nervures de la voûte gothique, offrant une lecture ascendante et dynamique de la scène. Au centre de l'image, une barque robuste aux teintes dorées transporte les apôtres, dont les visages nimbés expriment une dévotion recueillie malgré l'agitation des flots. À la proue, on distingue la figure du Christ marchant sur les eaux, les pieds effleurant une mer stylisée par des ondes sinueuses d'un vert profond, peuplée de créatures marines fantastiques et de petits génies ailés qui semblent personnifier les vents ou les forces élémentaires. Le Christ tend la main à l'apôtre Pierre, lequel, ayant tenté de rejoindre son maître, commence à enfoncer dans l'onde, illustrant l'instant précis du doute et du salut par la foi. Dans les écoinçons supérieurs, deux anges buccinateurs survolent la scène, renforçant la dimension sacrée et eschatologique de l'événement. Le style graphique, caractérisé par des contours marqués et une palette de couleurs où dominent l'ocre, le bleu de cobalt et le rouge brique, évoque l'influence de l'école de Giotto, rappelant la célèbre mosaïque disparue de la basilique Saint-Pierre de Rome. Sous la scène principale, une frise décorative composée d'arcatures trilobées gothiques abrite une procession d'anges musiciens et de figures de donateurs, créant une transition visuelle avec l'architecture réelle de l'édifice. Cette œuvre ne se contente pas d'être une illustration didactique de l'Évangile ; elle agit comme un puissant symbole de la protection divine sur la cité de Strasbourg et ses fidèles, ancrant le récit biblique dans le cadre architectural et spirituel du XIVe siècle rhénan.</p>",
+  "contemporaryArt": {
+    "title": "Bas Moyen Âge • L'Essor du Gothique & l'aube du Trecento",
+    "events": [
+      "1250 – 1300 : Apogée de l'art gothique rayonnant en France et construction de la Sainte-Chapelle de Paris.",
+      "1305 – 1309 : Installation de la papauté en Avignon sous Clément V et grand schisme d'Occident.",
+      "1348 : La terrible épidémie de Peste noire frappe l'Italie et bouleverse la sensibilité spirituelle européenne.",
+      "1380 – 1400 : Diffusion européenne du style Gothique international entre Paris, Dijon, Prague et Florence."
+    ]
+  }
+},
+{
+  "id": "fresque_saint_pierre_aux_clefs_sainte_conversati_46",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident : Art Gothique rhénan",
+  "century": "XIVe siècle (vers 1320 – 1340)",
+  "centuryDisplay": "XIVe s.",
+  "centuryNumeric": 1330,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Saint Pierre aux clefs, sainte conversation et armoiries nobles (Strasbourg)",
+  "site": "Église Saint-Pierre-le-Jeune (Strasbourg, Alsace, France)",
+  "originSite": "Chœur et nef nord de Saint-Pierre-le-Jeune de Strasbourg",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczNnKhBqsQCkgwTDUWmmzpWqnCbZQqdUdwA4iTHFNuAg_HCWbe6wC-Fafsw6JM7xAzWEeKKTY3jIIl9MyYQ7LP6KhcxJL4LH135U4UKOjZTvIcRtC-PZb9UPlVRXHWGF9CansQfTnky5BEjcwiZxwIXBFA=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczNnKhBqsQCkgwTDUWmmzpWqnCbZQqdUdwA4iTHFNuAg_HCWbe6wC-Fafsw6JM7xAzWEeKKTY3jIIl9MyYQ7LP6KhcxJL4LH135U4UKOjZTvIcRtC-PZb9UPlVRXHWGF9CansQfTnky5BEjcwiZxwIXBFA=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "france",
+    "alsace",
+    "strasbourg",
+    "saint-pierre-le-jeune",
+    "gothique",
+    "fresque"
+  ],
+  "chips": [
+    "XIVe s.",
+    "Gothique rhénan",
+    "École giottesque en Alsace",
+    "Saint-Pierre-le-Jeune",
+    "Strasbourg"
+  ],
+  "narrative": "<p>Cette fresque murale, caractéristique de l'art rhénan du XIVe siècle, se déploie sur la paroi nord de l'église comme un grand livre d'images pédagogique. Sur la partie supérieure gauche, trois figures de saints se tiennent debout sur un fond gris-bleu parsemé d'étoiles rouges et blanches, une iconographie évoquant la Jérusalem céleste. Parmi eux, saint Pierre est immédiatement identifiable grâce à la clef monumentale qu'il tient fermement, symbole de son autorité spirituelle sur l'édifice qui porte son nom. À sa droite, un panneau narratif encadré d'une frise de feuilles de vigne représente un groupe de personnages en conversation devant une porte de ville fortifiée, illustrant probablement un épisode de la vie d'un saint ou une scène biblique urbaine.</p><p>La zone inférieure de la fresque est riche en détails historiques avec une série d'armoiries peintes qui rappellent le rôle des familles nobles strasbourgeoises dans le financement du décor de l'église. L'ensemble est marqué par une polychromie contrastée où les rouges ocre et les bleus profonds dominent, malgré l'usure naturelle du temps qui laisse poindre par endroits la structure de grès rouge. Une plaque funéraire baroque en marbre noir datée de 1701 vient s'insérer au centre de la composition médiévale, créant une superposition de styles typique de l'histoire mouvementée de ce lieu de culte. Sur le retour du pilier à droite, un petit cycle de personnages assis sur plusieurs registres renforce la densité iconographique de ce mur qui servait autrefois de support à la méditation des fidèles.</p>",
+  "desc": "<p>Cette fresque murale, caractéristique de l'art rhénan du XIVe siècle, se déploie sur la paroi nord de l'église comme un grand livre d'images pédagogique. Sur la partie supérieure gauche, trois figures de saints se tiennent debout sur un fond gris-bleu parsemé d'étoiles rouges et blanches, une iconographie évoquant la Jérusalem céleste. Parmi eux, saint Pierre est immédiatement identifiable grâce à la clef monumentale qu'il tient fermement, symbole de son autorité spirituelle sur l'édifice qui porte son nom. À sa droite, un panneau narratif encadré d'une frise de feuilles de vigne représente un groupe de personnages en conversation devant une porte de ville fortifiée, illustrant probablement un épisode de la vie d'un saint ou une scène biblique urbaine.</p><p>La zone inférieure de la fresque est riche en détails historiques avec une série d'armoiries peintes qui rappellent le rôle des familles nobles strasbourgeoises dans le financement du décor de l'église. L'ensemble est marqué par une polychromie contrastée où les rouges ocre et les bleus profonds dominent, malgré l'usure naturelle du temps qui laisse poindre par endroits la structure de grès rouge. Une plaque funéraire baroque en marbre noir datée de 1701 vient s'insérer au centre de la composition médiévale, créant une superposition de styles typique de l'histoire mouvementée de ce lieu de culte. Sur le retour du pilier à droite, un petit cycle de personnages assis sur plusieurs registres renforce la densité iconographique de ce mur qui servait autrefois de support à la méditation des fidèles.</p>",
+  "contemporaryArt": {
+    "title": "Bas Moyen Âge • L'Essor du Gothique & l'aube du Trecento",
+    "events": [
+      "1250 – 1300 : Apogée de l'art gothique rayonnant en France et construction de la Sainte-Chapelle de Paris.",
+      "1305 – 1309 : Installation de la papauté en Avignon sous Clément V et grand schisme d'Occident.",
+      "1348 : La terrible épidémie de Peste noire frappe l'Italie et bouleverse la sensibilité spirituelle européenne.",
+      "1380 – 1400 : Diffusion européenne du style Gothique international entre Paris, Dijon, Prague et Florence."
+    ]
+  }
+},
+{
+  "id": "fresque_la_vierge_a_l_enfant_tronant_et_peres_de_47",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident & Orient Chrétien : Renaissance Paléologue",
+  "century": "XIVe siècle (1312 – 1322)",
+  "centuryDisplay": "1312 – 1322",
+  "centuryNumeric": 1315,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "La Vierge à l'Enfant trônant et Pères de l'Église (Abside de l'Odigitria, Mystras)",
+  "site": "Église de l'Odigitria (Monastère du Vrontochion, Mystras, Grèce)",
+  "originSite": "Cité médiévale de Mystras (Despotat de Morée, Péloponnèse, Grèce)",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczPVX9hL2y306xhHCw66Wz5kGOdbWUi8Glzj2XaDFsRPm209xEk5mDcNT4VnfzFDLsoFcmw_1_w3wYIqnBKDI6g9fV8FimTH56rNftTa4VKnbI6kKj2tqUv7AOmtZBioEtwSECqWeVXPfK1ZNSDTWhotHw=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczPVX9hL2y306xhHCw66Wz5kGOdbWUi8Glzj2XaDFsRPm209xEk5mDcNT4VnfzFDLsoFcmw_1_w3wYIqnBKDI6g9fV8FimTH56rNftTa4VKnbI6kKj2tqUv7AOmtZBioEtwSECqWeVXPfK1ZNSDTWhotHw=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "byzance",
+    "mystras",
+    "mistra",
+    "paléologue",
+    "fresque",
+    "grèce"
+  ],
+  "chips": [
+    "1312 – 1322",
+    "Art byzantin tardif",
+    "Renaissance Paléologue",
+    "Mystras (UNESCO)",
+    "Grèce"
+  ],
+  "narrative": "<p>fresques de l'église de l'Odigitria, monument principal du monastère du Vrontochion à Mystras, dont le décor peint fut exécuté entre 1312 et 1322 sous le patronage de l'abbé Pachôme. Contrairement aux œuvres plus anciennes de la cité, ces peintures marquent l'apogée de la Renaissance Paléologue par une complexité narrative et une élégance formelle exceptionnelles. L'iconographie de l'abside présente la Vierge à l'Enfant trônant dans la conque, entourée d'archanges dont les mouvements graciles et les tuniques aux tons pastels témoignent de l'influence des ateliers constantinopolitains. Le registre inférieur décline la scène de la Communion des Apôtres où la répétition du Christ, de part et d'autre de l'autel, insiste sur la double nature de l'Eucharistie. Les parois latérales et les piliers sont ornés de portraits de saints évêques et de docteurs de l'Église, représentés en pied et revêtus de somptueux polystavria, des chasubles décorées de multiples croix. Ces figures se détachent sur un fond bleu profond, jadis rehaussé de feuilles d'or, dont les vestiges soulignent encore la richesse du programme initial. Le style se caractérise par une maîtrise de la perspective frontale et une individualisation marquée des visages, où les traits sont soulignés par de fins rehauts de blanc pour créer un modelé quasi sculptural. Les fresques du Vrontochion, par leur sens du rythme et leur harmonie chromatique, constituent l'un des ensembles les plus raffinés de la peinture byzantine tardive, reflétant le prestige de Mystras comme capitale intellectuelle de l'empire déclinant.</p>",
+  "desc": "<p>fresques de l'église de l'Odigitria, monument principal du monastère du Vrontochion à Mystras, dont le décor peint fut exécuté entre 1312 et 1322 sous le patronage de l'abbé Pachôme. Contrairement aux œuvres plus anciennes de la cité, ces peintures marquent l'apogée de la Renaissance Paléologue par une complexité narrative et une élégance formelle exceptionnelles. L'iconographie de l'abside présente la Vierge à l'Enfant trônant dans la conque, entourée d'archanges dont les mouvements graciles et les tuniques aux tons pastels témoignent de l'influence des ateliers constantinopolitains. Le registre inférieur décline la scène de la Communion des Apôtres où la répétition du Christ, de part et d'autre de l'autel, insiste sur la double nature de l'Eucharistie. Les parois latérales et les piliers sont ornés de portraits de saints évêques et de docteurs de l'Église, représentés en pied et revêtus de somptueux polystavria, des chasubles décorées de multiples croix. Ces figures se détachent sur un fond bleu profond, jadis rehaussé de feuilles d'or, dont les vestiges soulignent encore la richesse du programme initial. Le style se caractérise par une maîtrise de la perspective frontale et une individualisation marquée des visages, où les traits sont soulignés par de fins rehauts de blanc pour créer un modelé quasi sculptural. Les fresques du Vrontochion, par leur sens du rythme et leur harmonie chromatique, constituent l'un des ensembles les plus raffinés de la peinture byzantine tardive, reflétant le prestige de Mystras comme capitale intellectuelle de l'empire déclinant.</p>",
+  "contemporaryArt": {
+    "title": "Bas Moyen Âge • L'Essor du Gothique & l'aube du Trecento",
+    "events": [
+      "1250 – 1300 : Apogée de l'art gothique rayonnant en France et construction de la Sainte-Chapelle de Paris.",
+      "1305 – 1309 : Installation de la papauté en Avignon sous Clément V et grand schisme d'Occident.",
+      "1348 : La terrible épidémie de Peste noire frappe l'Italie et bouleverse la sensibilité spirituelle européenne.",
+      "1380 – 1400 : Diffusion européenne du style Gothique international entre Paris, Dijon, Prague et Florence."
+    ]
+  }
+},
+{
+  "id": "fresque_les_miracles_du_christ_et_scenes_liturgi_48",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident & Orient Chrétien : Renaissance Paléologue",
+  "century": "XIVe siècle (1312 – 1322)",
+  "centuryDisplay": "1312 – 1322",
+  "centuryNumeric": 1315,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Les Miracles du Christ et scènes liturgiques (Voûtes de l'Odigitria, Mystras)",
+  "site": "Église de l'Odigitria (Monastère du Vrontochion, Mystras, Grèce)",
+  "originSite": "Cité médiévale de Mystras (Despotat de Morée, Péloponnèse, Grèce)",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczN6jRrV_5cZZCN31maRV6tBYreRagCPlPVQSQTQ-9ZRAqCP6QtqjexXMoKnIxaFvrFtfM3xpf1YTt90i30F-d_BOp6EVgwkXfFFb1wxZsEyMLarWcH246v7030I_Z2yYenaSpPfVWf5hvY6hN2VE2GyLg=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczN6jRrV_5cZZCN31maRV6tBYreRagCPlPVQSQTQ-9ZRAqCP6QtqjexXMoKnIxaFvrFtfM3xpf1YTt90i30F-d_BOp6EVgwkXfFFb1wxZsEyMLarWcH246v7030I_Z2yYenaSpPfVWf5hvY6hN2VE2GyLg=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "byzance",
+    "mystras",
+    "mistra",
+    "paléologue",
+    "fresque",
+    "grèce"
+  ],
+  "chips": [
+    "1312 – 1322",
+    "Art byzantin tardif",
+    "Renaissance Paléologue",
+    "Mystras (UNESCO)",
+    "Grèce"
+  ],
+  "narrative": "<p>Les voûtes et les tympans illustrent quant à eux des cycles narratifs complexes, notamment les scènes des Miracles du Christ, où la densité des personnages et la recherche de profondeur spatiale témoignent d'un renouveau artistique sans précédent. Les visages, marqués par des expressions d'une grande intériorité, bénéficient d'un modelé délicat utilisant des rehauts de blanc pour souligner les volumes. Malgré les lacunes de l'enduit qui laissent apparaître la maçonnerie de pierre par endroits, la vivacité des pigments et la qualité du dessin confirment le statut de l'Odigitria comme laboratoire de la Renaissance Paléologue, alliant la rigueur théologique à une nouvelle sensibilité humaniste.</p>",
+  "desc": "<p>Les voûtes et les tympans illustrent quant à eux des cycles narratifs complexes, notamment les scènes des Miracles du Christ, où la densité des personnages et la recherche de profondeur spatiale témoignent d'un renouveau artistique sans précédent. Les visages, marqués par des expressions d'une grande intériorité, bénéficient d'un modelé délicat utilisant des rehauts de blanc pour souligner les volumes. Malgré les lacunes de l'enduit qui laissent apparaître la maçonnerie de pierre par endroits, la vivacité des pigments et la qualité du dessin confirment le statut de l'Odigitria comme laboratoire de la Renaissance Paléologue, alliant la rigueur théologique à une nouvelle sensibilité humaniste.</p>",
+  "contemporaryArt": {
+    "title": "Bas Moyen Âge • L'Essor du Gothique & l'aube du Trecento",
+    "events": [
+      "1250 – 1300 : Apogée de l'art gothique rayonnant en France et construction de la Sainte-Chapelle de Paris.",
+      "1305 – 1309 : Installation de la papauté en Avignon sous Clément V et grand schisme d'Occident.",
+      "1348 : La terrible épidémie de Peste noire frappe l'Italie et bouleverse la sensibilité spirituelle européenne.",
+      "1380 – 1400 : Diffusion européenne du style Gothique international entre Paris, Dijon, Prague et Florence."
+    ]
+  }
+},
+{
+  "id": "fresque_la_celebration_des_peres_de_l_eglise_et__49",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident & Orient Chrétien : Renaissance Paléologue",
+  "century": "XIVe siècle (fin du XIVe siècle)",
+  "centuryDisplay": "Fin XIVe s.",
+  "centuryNumeric": 1380,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "La Célébration des Pères de l'Église et polystavria (Saint-Nicolas, Mystras)",
+  "site": "Église Saint-Nicolas (Mystras, Grèce)",
+  "originSite": "Cité médiévale de Mystras (Despotat de Morée, Péloponnèse, Grèce)",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczPpe1qoQVHmdS0Kz32xauRgtaf738q4gZDB6Sh1JyqssE7hOc0UnJaAnma-Pv-sPizd9W3SnjfipDmEgLmpw6LMMJxTGIA8ascwX3-2Q0UIHfkZ_qBuc9WDc3IPoB7XDJxU_rjtmfp_Zd4AcbphWSygsw=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczPpe1qoQVHmdS0Kz32xauRgtaf738q4gZDB6Sh1JyqssE7hOc0UnJaAnma-Pv-sPizd9W3SnjfipDmEgLmpw6LMMJxTGIA8ascwX3-2Q0UIHfkZ_qBuc9WDc3IPoB7XDJxU_rjtmfp_Zd4AcbphWSygsw=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "byzance",
+    "mystras",
+    "mistra",
+    "paléologue",
+    "fresque",
+    "grèce"
+  ],
+  "chips": [
+    "Fin XIVe s.",
+    "Art byzantin tardif",
+    "Renaissance Paléologue",
+    "Mystras (UNESCO)",
+    "Grèce"
+  ],
+  "narrative": "<p>Cet ensemble de fresques, situé dans l’abside et sur les parois latérales de l’église Saint-Nicolas de Mystras, offre une vision panoramique de la maturité de l’art byzantin sous la dynastie des Paléologues au XIVe siècle. Le programme iconographique respecte la hiérarchie traditionnelle de l'espace ecclésial byzantin, avec une attention particulière portée à la narration hagiographique et à la liturgie.</p><p>Dans l'hémicycle de l'abside, le registre inférieur présente la Célébration des Pères de l'Église, où des figures monumentales d'évêques, tels que saint Basile ou saint Jean Chrysostome, sont représentées de trois-quarts, convergeant vers l'axe central de la fenêtre. Ils sont vêtus du polystavrion, ce manteau liturgique blanc orné de multiples croix noires, et tiennent des rouleaux déployés portant des inscriptions liturgiques en grec. Au-dessus, la conque de l'abside, bien que très érodée, accueillait traditionnellement la Vierge Platytera, faisant le lien entre le divin et l'humain.</p><p>Les parois latérales déploient un cycle narratif dense consacré à la vie de saint Nicolas. On y observe une succession de compartiments rectangulaires séparés par de fines bandes rouges, illustrant des épisodes célèbres comme le Miracle des trois officiers ou le saint apparaissant en songe à l'empereur. La précision des décors architecturaux en arrière-plan — tours crénelées, dômes et portiques — témoigne d'une volonté de spatialisation typique de cette époque, cherchant à situer le divin dans un cadre presque urbain.</p>",
+  "desc": "<p>Cet ensemble de fresques, situé dans l’abside et sur les parois latérales de l’église Saint-Nicolas de Mystras, offre une vision panoramique de la maturité de l’art byzantin sous la dynastie des Paléologues au XIVe siècle. Le programme iconographique respecte la hiérarchie traditionnelle de l'espace ecclésial byzantin, avec une attention particulière portée à la narration hagiographique et à la liturgie.</p><p>Dans l'hémicycle de l'abside, le registre inférieur présente la Célébration des Pères de l'Église, où des figures monumentales d'évêques, tels que saint Basile ou saint Jean Chrysostome, sont représentées de trois-quarts, convergeant vers l'axe central de la fenêtre. Ils sont vêtus du polystavrion, ce manteau liturgique blanc orné de multiples croix noires, et tiennent des rouleaux déployés portant des inscriptions liturgiques en grec. Au-dessus, la conque de l'abside, bien que très érodée, accueillait traditionnellement la Vierge Platytera, faisant le lien entre le divin et l'humain.</p><p>Les parois latérales déploient un cycle narratif dense consacré à la vie de saint Nicolas. On y observe une succession de compartiments rectangulaires séparés par de fines bandes rouges, illustrant des épisodes célèbres comme le Miracle des trois officiers ou le saint apparaissant en songe à l'empereur. La précision des décors architecturaux en arrière-plan — tours crénelées, dômes et portiques — témoigne d'une volonté de spatialisation typique de cette époque, cherchant à situer le divin dans un cadre presque urbain.</p>",
+  "contemporaryArt": {
+    "title": "Bas Moyen Âge • L'Essor du Gothique & l'aube du Trecento",
+    "events": [
+      "1250 – 1300 : Apogée de l'art gothique rayonnant en France et construction de la Sainte-Chapelle de Paris.",
+      "1305 – 1309 : Installation de la papauté en Avignon sous Clément V et grand schisme d'Occident.",
+      "1348 : La terrible épidémie de Peste noire frappe l'Italie et bouleverse la sensibilité spirituelle européenne.",
+      "1380 – 1400 : Diffusion européenne du style Gothique international entre Paris, Dijon, Prague et Florence."
+    ]
+  }
+},
+{
+  "id": "fresque_cycle_hagiographique_et_miracles_de_sain_50",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident & Orient Chrétien : Renaissance Paléologue",
+  "century": "XIVe siècle (fin du XIVe siècle)",
+  "centuryDisplay": "Fin XIVe s.",
+  "centuryNumeric": 1380,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Cycle hagiographique et miracles de saint Nicolas (Saint-Nicolas, Mystras)",
+  "site": "Église Saint-Nicolas (Mystras, Grèce)",
+  "originSite": "Cité médiévale de Mystras (Despotat de Morée, Péloponnèse, Grèce)",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczOfMhARKs9S0zjP9oBjJP1RT7-qZFfMNcXLBcXJq0eCiMBL4KlFjX3zZXhAglyjxybEkglXlS7zFp-ODTm-5rRzCy5DgPz8O_U7EHLgyEGDizcGYfL-NSYAdOH6D9kJBKQMX1WAnqHuT248oidFXMp0eA=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczOfMhARKs9S0zjP9oBjJP1RT7-qZFfMNcXLBcXJq0eCiMBL4KlFjX3zZXhAglyjxybEkglXlS7zFp-ODTm-5rRzCy5DgPz8O_U7EHLgyEGDizcGYfL-NSYAdOH6D9kJBKQMX1WAnqHuT248oidFXMp0eA=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "byzance",
+    "mystras",
+    "mistra",
+    "paléologue",
+    "fresque",
+    "grèce"
+  ],
+  "chips": [
+    "Fin XIVe s.",
+    "Art byzantin tardif",
+    "Renaissance Paléologue",
+    "Mystras (UNESCO)",
+    "Grèce"
+  ],
+  "narrative": "<p>Cette fresque murale, conservée dans l'église Saint-Nicolas de Mystras, constitue un cycle narratif et hagiographique majeur de l'art byzantin tardif, illustrant avec une grande clarté didactique les épisodes de la vie du saint protecteur de l'édifice. La composition s'articule en registres horizontaux rigoureusement délimités par des bandes ocres et brunes, une structure caractéristique du XIVe siècle qui permettait aux fidèles de suivre le récit sacré comme un livre ouvert. Dans le registre supérieur, une vaste scène de déesis ou de liturgie céleste rassemble une multitude de figures saintes organisées en rangs serrés ; on y distingue des apôtres identifiables à leurs visages de philosophes antiques et des figures féminines aux nimbes dorés, dont les silhouettes s'estompent avec élégance dans un paysage parsemé de cyprès stylisés. Le traitement des visages, d'une grande finesse psychologique, témoigne de l'influence humaniste de la Renaissance Paléologue, où chaque saint possède une physionomie propre malgré la répétition formelle de la foule.</p><p>Le registre inférieur se concentre sur des scènes narratives précises, notamment des épisodes de miracles ou de vie civique où saint Nicolas intervient. L'architecture peinte joue ici un rôle fondamental : des structures complexes avec dômes, loggias et arcades en plein cintre servent de cadre aux personnages, créant une profondeur spatiale novatrice pour l'époque. Une scène particulièrement remarquable montre le saint devant une grille de prison, illustrant son rôle d'intercesseur et de protecteur des innocents, tandis qu'une autre section dépeint une scène de lit funèbre ou de guérison, où le mouvement des mains et l'inclinaison des corps soulignent l'émotion contenue des protagonistes. La palette chromatique utilise des contrastes savants entre les rouges de Venise, les terres de Sienne et des rehauts de blanc pur qui font vibrer les drapés. Malgré les stigmates du temps et les zones de maçonnerie apparente qui morcellent l'image, l'ensemble conserve une cohérence stylistique remarquable, représentative de l'école de peinture de Mystras qui a su fusionner la rigueur dogmatique avec une sensibilité nouvelle pour la narration et le volume.</p>",
+  "desc": "<p>Cette fresque murale, conservée dans l'église Saint-Nicolas de Mystras, constitue un cycle narratif et hagiographique majeur de l'art byzantin tardif, illustrant avec une grande clarté didactique les épisodes de la vie du saint protecteur de l'édifice. La composition s'articule en registres horizontaux rigoureusement délimités par des bandes ocres et brunes, une structure caractéristique du XIVe siècle qui permettait aux fidèles de suivre le récit sacré comme un livre ouvert. Dans le registre supérieur, une vaste scène de déesis ou de liturgie céleste rassemble une multitude de figures saintes organisées en rangs serrés ; on y distingue des apôtres identifiables à leurs visages de philosophes antiques et des figures féminines aux nimbes dorés, dont les silhouettes s'estompent avec élégance dans un paysage parsemé de cyprès stylisés. Le traitement des visages, d'une grande finesse psychologique, témoigne de l'influence humaniste de la Renaissance Paléologue, où chaque saint possède une physionomie propre malgré la répétition formelle de la foule.</p><p>Le registre inférieur se concentre sur des scènes narratives précises, notamment des épisodes de miracles ou de vie civique où saint Nicolas intervient. L'architecture peinte joue ici un rôle fondamental : des structures complexes avec dômes, loggias et arcades en plein cintre servent de cadre aux personnages, créant une profondeur spatiale novatrice pour l'époque. Une scène particulièrement remarquable montre le saint devant une grille de prison, illustrant son rôle d'intercesseur et de protecteur des innocents, tandis qu'une autre section dépeint une scène de lit funèbre ou de guérison, où le mouvement des mains et l'inclinaison des corps soulignent l'émotion contenue des protagonistes. La palette chromatique utilise des contrastes savants entre les rouges de Venise, les terres de Sienne et des rehauts de blanc pur qui font vibrer les drapés. Malgré les stigmates du temps et les zones de maçonnerie apparente qui morcellent l'image, l'ensemble conserve une cohérence stylistique remarquable, représentative de l'école de peinture de Mystras qui a su fusionner la rigueur dogmatique avec une sensibilité nouvelle pour la narration et le volume.</p>",
+  "contemporaryArt": {
+    "title": "Bas Moyen Âge • L'Essor du Gothique & l'aube du Trecento",
+    "events": [
+      "1250 – 1300 : Apogée de l'art gothique rayonnant en France et construction de la Sainte-Chapelle de Paris.",
+      "1305 – 1309 : Installation de la papauté en Avignon sous Clément V et grand schisme d'Occident.",
+      "1348 : La terrible épidémie de Peste noire frappe l'Italie et bouleverse la sensibilité spirituelle européenne.",
+      "1380 – 1400 : Diffusion européenne du style Gothique international entre Paris, Dijon, Prague et Florence."
+    ]
+  }
+},
+{
+  "id": "fresque_effigie_doctorale_d_un_saint_evangeliste_51",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident & Orient Chrétien : Renaissance Paléologue",
+  "century": "XIVe siècle (fin du XIVe siècle)",
+  "centuryDisplay": "Fin XIVe s.",
+  "centuryNumeric": 1380,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Effigie doctorale d'un saint évangéliste sur pilier (Saint-Nicolas, Mystras)",
+  "site": "Église Saint-Nicolas (Mystras, Grèce)",
+  "originSite": "Cité médiévale de Mystras (Despotat de Morée, Péloponnèse, Grèce)",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczPzdMjBnyaUHCsB9e9KGmbVvgEeVtlaDVOvCcHTt62h-De6AtfLAWdq7Y4AHb1UzI1ALY-mBzM8AZJ6sqaRHj_Wb3UHDv8YyYLXZEuX-bgQVvIGdT_u-G0fIjQ7vObEjT-lbjbIJYj-gu9vjVXeej3PmA=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczPzdMjBnyaUHCsB9e9KGmbVvgEeVtlaDVOvCcHTt62h-De6AtfLAWdq7Y4AHb1UzI1ALY-mBzM8AZJ6sqaRHj_Wb3UHDv8YyYLXZEuX-bgQVvIGdT_u-G0fIjQ7vObEjT-lbjbIJYj-gu9vjVXeej3PmA=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "byzance",
+    "mystras",
+    "mistra",
+    "paléologue",
+    "fresque",
+    "grèce"
+  ],
+  "chips": [
+    "Fin XIVe s.",
+    "Art byzantin tardif",
+    "Renaissance Paléologue",
+    "Mystras (UNESCO)",
+    "Grèce"
+  ],
+  "narrative": "<p>Cette fresque murale, issue de l’église Saint-Nicolas située dans la cité médiévale de Mystras, constitue un témoignage précieux de la peinture byzantine tardive, probablement exécutée entre la fin du XIVe siècle et le début du XVe siècle. L'œuvre, réalisée selon la technique de l'al fresco sur un enduit de chaux, illustre la transition stylistique de l'époque Paléologue, caractérisée par un regain d'humanisme et une recherche de volume malgré les contraintes de l'iconographie religieuse traditionnelle. Le personnage central, représenté en buste sur un pilier, est un saint tenant un Évangile richement orné de motifs géométriques, symbole de sa fonction doctorale ou apostolique. Son visage, bien que partiellement altéré par les lacunes de l’enduit, laisse apparaître des traits d’une grande finesse : des yeux larges et expressifs, une barbe courte et soignée, ainsi qu’un front haut souligné par un halo doré cerclé de noir qui détache la figure du fond sombre.</p><p>La palette chromatique est dominée par des terres d'ombre, des ocres et un rouge ferreux profond utilisé pour le drapé de l'himation, dont les plis sont suggérés par des rehauts de blanc apportant une certaine dynamique au vêtement. En arrière-plan, sur la paroi du fond, se déploient des scènes hagiographiques ou bibliques organisées en registres horizontaux, où l'on distingue de petites silhouettes s'activant devant des architectures stylisées, typiques de la perspective inversée byzantine. L'état actuel de la fresque révèle les couches successives de la structure maçonnée, exposant la pierre brute et le mortier là où le décor peint a disparu, ce qui souligne la fragilité de ce patrimoine mondial de l'UNESCO. Malgré ces dégradations, la force du regard du saint et la précision des détails ornementaux sur le livre sacré témoignent de la haute technicité des ateliers de Mystras, qui fut l'un des derniers grands centres culturels et artistiques de l'Empire byzantin avant sa chute.</p>",
+  "desc": "<p>Cette fresque murale, issue de l’église Saint-Nicolas située dans la cité médiévale de Mystras, constitue un témoignage précieux de la peinture byzantine tardive, probablement exécutée entre la fin du XIVe siècle et le début du XVe siècle. L'œuvre, réalisée selon la technique de l'al fresco sur un enduit de chaux, illustre la transition stylistique de l'époque Paléologue, caractérisée par un regain d'humanisme et une recherche de volume malgré les contraintes de l'iconographie religieuse traditionnelle. Le personnage central, représenté en buste sur un pilier, est un saint tenant un Évangile richement orné de motifs géométriques, symbole de sa fonction doctorale ou apostolique. Son visage, bien que partiellement altéré par les lacunes de l’enduit, laisse apparaître des traits d’une grande finesse : des yeux larges et expressifs, une barbe courte et soignée, ainsi qu’un front haut souligné par un halo doré cerclé de noir qui détache la figure du fond sombre.</p><p>La palette chromatique est dominée par des terres d'ombre, des ocres et un rouge ferreux profond utilisé pour le drapé de l'himation, dont les plis sont suggérés par des rehauts de blanc apportant une certaine dynamique au vêtement. En arrière-plan, sur la paroi du fond, se déploient des scènes hagiographiques ou bibliques organisées en registres horizontaux, où l'on distingue de petites silhouettes s'activant devant des architectures stylisées, typiques de la perspective inversée byzantine. L'état actuel de la fresque révèle les couches successives de la structure maçonnée, exposant la pierre brute et le mortier là où le décor peint a disparu, ce qui souligne la fragilité de ce patrimoine mondial de l'UNESCO. Malgré ces dégradations, la force du regard du saint et la précision des détails ornementaux sur le livre sacré témoignent de la haute technicité des ateliers de Mystras, qui fut l'un des derniers grands centres culturels et artistiques de l'Empire byzantin avant sa chute.</p>",
+  "contemporaryArt": {
+    "title": "Bas Moyen Âge • L'Essor du Gothique & l'aube du Trecento",
+    "events": [
+      "1250 – 1300 : Apogée de l'art gothique rayonnant en France et construction de la Sainte-Chapelle de Paris.",
+      "1305 – 1309 : Installation de la papauté en Avignon sous Clément V et grand schisme d'Occident.",
+      "1348 : La terrible épidémie de Peste noire frappe l'Italie et bouleverse la sensibilité spirituelle européenne.",
+      "1380 – 1400 : Diffusion européenne du style Gothique international entre Paris, Dijon, Prague et Florence."
+    ]
+  }
+},
+{
+  "id": "fresque_liturgie_celeste_et_assemblee_de_saints__52",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident & Orient Chrétien : Renaissance Paléologue",
+  "century": "XIVe siècle (fin du XIVe siècle)",
+  "centuryDisplay": "Fin XIVe s.",
+  "centuryNumeric": 1380,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Liturgie céleste et assemblée de saints et souverains (Saint-Nicolas, Mystras)",
+  "site": "Église Saint-Nicolas (Mystras, Grèce)",
+  "originSite": "Cité médiévale de Mystras (Despotat de Morée, Péloponnèse, Grèce)",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczOefNIq5qfGt22KiFqHDBalfU0PrIYbrPfT9QeoG3gLrUlrilCB7Pnj0zUNpZELuMbVC96lYFGhwEKd_7edM6_hb_COa8nptBBuL6xAvD2PaCHHbC0DhlV1mkERQmWlRMWGzoPf8QxSisyonA2CxS4bGQ=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczOefNIq5qfGt22KiFqHDBalfU0PrIYbrPfT9QeoG3gLrUlrilCB7Pnj0zUNpZELuMbVC96lYFGhwEKd_7edM6_hb_COa8nptBBuL6xAvD2PaCHHbC0DhlV1mkERQmWlRMWGzoPf8QxSisyonA2CxS4bGQ=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "byzance",
+    "mystras",
+    "mistra",
+    "paléologue",
+    "fresque",
+    "grèce"
+  ],
+  "chips": [
+    "Fin XIVe s.",
+    "Art byzantin tardif",
+    "Renaissance Paléologue",
+    "Mystras (UNESCO)",
+    "Grèce"
+  ],
+  "narrative": "<p>Cette composition monumentale, située dans l’église Saint-Nicolas de Mystras, illustre une scène de liturgie céleste ou une assemblée de saints, caractéristique de l'apogée de l'art paléologue au tournant du XVe siècle. La fresque s’organise en plusieurs registres horizontaux superposés, créant une impression de foule ordonnée et de solennité intemporelle. Au registre inférieur, une série de figures masculines, probablement des apôtres ou des pères de l'Église, sont représentées en buste ou à mi-corps, tenant des codex précieux dont les couvertures sont rehaussées de motifs géométriques blancs simulant l'orfèvrerie. Le registre médian présente un groupe de figures féminines et de saints laïcs, dont certains portent des couronnes et des vêtements impériaux byzantins richement ornés, évoquant la cour céleste. Les visages, bien que marqués par l'érosion du temps, conservent une individualité frappante grâce à l'utilisation de fines lignes de contour et de modelés subtils dans les carnations, typiques du style humaniste de Mystras qui privilégie l'expression psychologique.</p><p>La partie supérieure de la fresque révèle des figures angéliques de plus grande échelle, aux ailes déployées et aux tuniques d'un bleu clair lumineux, qui semblent superviser ou bénir l'assemblée. La palette chromatique est d'une grande richesse, utilisant des pigments naturels tels que l'ocre jaune pour les nimbes, le rouge cinabre pour les drapés et des touches de bleu outremer qui contrastent avec le fond de roche calcaire laissé apparent par endroits. Le traitement des drapés, avec des plis profonds et des lumières vives posées au pinceau fin, confère un relief plastique aux personnages, les détachant de la paroi plane. Cette œuvre témoigne de la sophistication théologique et artistique de la dernière enclave de la culture byzantine, où la peinture murale servait à la fois d'instruction religieuse et de reflet de la splendeur impériale déclinante. L'intégration des figures dans un paysage suggéré par de rares éléments végétaux souligne la volonté des artistes de l'époque de relier le divin au monde sensible.</p>",
+  "desc": "<p>Cette composition monumentale, située dans l’église Saint-Nicolas de Mystras, illustre une scène de liturgie céleste ou une assemblée de saints, caractéristique de l'apogée de l'art paléologue au tournant du XVe siècle. La fresque s’organise en plusieurs registres horizontaux superposés, créant une impression de foule ordonnée et de solennité intemporelle. Au registre inférieur, une série de figures masculines, probablement des apôtres ou des pères de l'Église, sont représentées en buste ou à mi-corps, tenant des codex précieux dont les couvertures sont rehaussées de motifs géométriques blancs simulant l'orfèvrerie. Le registre médian présente un groupe de figures féminines et de saints laïcs, dont certains portent des couronnes et des vêtements impériaux byzantins richement ornés, évoquant la cour céleste. Les visages, bien que marqués par l'érosion du temps, conservent une individualité frappante grâce à l'utilisation de fines lignes de contour et de modelés subtils dans les carnations, typiques du style humaniste de Mystras qui privilégie l'expression psychologique.</p><p>La partie supérieure de la fresque révèle des figures angéliques de plus grande échelle, aux ailes déployées et aux tuniques d'un bleu clair lumineux, qui semblent superviser ou bénir l'assemblée. La palette chromatique est d'une grande richesse, utilisant des pigments naturels tels que l'ocre jaune pour les nimbes, le rouge cinabre pour les drapés et des touches de bleu outremer qui contrastent avec le fond de roche calcaire laissé apparent par endroits. Le traitement des drapés, avec des plis profonds et des lumières vives posées au pinceau fin, confère un relief plastique aux personnages, les détachant de la paroi plane. Cette œuvre témoigne de la sophistication théologique et artistique de la dernière enclave de la culture byzantine, où la peinture murale servait à la fois d'instruction religieuse et de reflet de la splendeur impériale déclinante. L'intégration des figures dans un paysage suggéré par de rares éléments végétaux souligne la volonté des artistes de l'époque de relier le divin au monde sensible.</p>",
+  "contemporaryArt": {
+    "title": "Bas Moyen Âge • L'Essor du Gothique & l'aube du Trecento",
+    "events": [
+      "1250 – 1300 : Apogée de l'art gothique rayonnant en France et construction de la Sainte-Chapelle de Paris.",
+      "1305 – 1309 : Installation de la papauté en Avignon sous Clément V et grand schisme d'Occident.",
+      "1348 : La terrible épidémie de Peste noire frappe l'Italie et bouleverse la sensibilité spirituelle européenne.",
+      "1380 – 1400 : Diffusion européenne du style Gothique international entre Paris, Dijon, Prague et Florence."
+    ]
+  }
+},
+{
+  "id": "fresque_l_ascension_et_le_christ_en_gloire_basil_53",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident & Orient Chrétien : Renaissance Paléologue",
+  "century": "XIVe siècle (vers 1350 – 1370)",
+  "centuryDisplay": "XIVe s.",
+  "centuryNumeric": 1360,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "L'Ascension et le Christ en gloire (Basilique Sainte-Sophie, Mystras)",
+  "site": "Basilique Sainte-Sophie de l'ensemble palatial (Mystras, Grèce)",
+  "originSite": "Cité médiévale de Mystras (Despotat de Morée, Péloponnèse, Grèce)",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczM97C-6ctDxV6cIyPEj2rHcwoKniKoAGL6q0NagnIY88e22S3wU5OgOFXORCHcKyjhyv05W5A9fM4gp1YzmJ-PPxlcbhpYyI3dm5dTESnZs81IvAgisJw-wNV2D1LYsQs8Pw23Vbt-UpXLtW6yA93gU6Q=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczM97C-6ctDxV6cIyPEj2rHcwoKniKoAGL6q0NagnIY88e22S3wU5OgOFXORCHcKyjhyv05W5A9fM4gp1YzmJ-PPxlcbhpYyI3dm5dTESnZs81IvAgisJw-wNV2D1LYsQs8Pw23Vbt-UpXLtW6yA93gU6Q=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "byzance",
+    "mystras",
+    "mistra",
+    "paléologue",
+    "fresque",
+    "grèce"
+  ],
+  "chips": [
+    "XIVe s.",
+    "Art byzantin tardif",
+    "Renaissance Paléologue",
+    "Mystras (UNESCO)",
+    "Grèce"
+  ],
+  "narrative": "<p>Ces fresques, situées dans la basilique de l’ensemble palatial de Mistra, constituent un témoignage exceptionnel de la peinture byzantine tardive, plus précisément de la période dite « renaissance paléologue » du XIVe siècle. L’œuvre s’articule selon une hiérarchie iconographique rigoureuse, caractéristique des édifices religieux de l’époque. Dans la partie supérieure, la voûte est occupée par une composition complexe illustrant l’Ascension ou le Christ en gloire, où la figure centrale est entourée d’anges en adoration dont les nimbes dorés tranchent sur un fond sombre, autrefois probablement d’un bleu profond. Plus bas, dans une niche semi-circulaire, se détache une figure monumentale du Christ Pantocrator ou d’un saint évangéliste, tenant le Livre, dont le regard frontal et la barbe bifide marquent une recherche de solennité et d’humanité propre à l’esthétique moréote.</p><p>La technique employée est celle de la fresque sur enduit de chaux, où les pigments minéraux ont été appliqués « a fresco » pour assurer leur pérennité. Malgré l’érosion naturelle et les dommages subis au fil des siècles par les murs de pierre apparente, on distingue encore la finesse du trait et la palette chromatique dominée par les ocres, les rouges terreux et les blancs de chaux. Le style se caractérise par une certaine fluidité des formes et un traitement plastique des volumes, s’éloignant de la rigidité hiératique des siècles précédents pour embrasser un dynamisme plus accentué, typique des ateliers impériaux de Constantinople qui influençaient alors directement le despotat de Morée. Cet ensemble décoratif ne se contentait pas d’orner l’espace sacré, il servait de support didactique et liturgique, transformant l'architecture de la basilique en une véritable image du cosmos où le divin surplombe le monde terrestre représenté par les fidèles.</p>",
+  "desc": "<p>Ces fresques, situées dans la basilique de l’ensemble palatial de Mistra, constituent un témoignage exceptionnel de la peinture byzantine tardive, plus précisément de la période dite « renaissance paléologue » du XIVe siècle. L’œuvre s’articule selon une hiérarchie iconographique rigoureuse, caractéristique des édifices religieux de l’époque. Dans la partie supérieure, la voûte est occupée par une composition complexe illustrant l’Ascension ou le Christ en gloire, où la figure centrale est entourée d’anges en adoration dont les nimbes dorés tranchent sur un fond sombre, autrefois probablement d’un bleu profond. Plus bas, dans une niche semi-circulaire, se détache une figure monumentale du Christ Pantocrator ou d’un saint évangéliste, tenant le Livre, dont le regard frontal et la barbe bifide marquent une recherche de solennité et d’humanité propre à l’esthétique moréote.</p><p>La technique employée est celle de la fresque sur enduit de chaux, où les pigments minéraux ont été appliqués « a fresco » pour assurer leur pérennité. Malgré l’érosion naturelle et les dommages subis au fil des siècles par les murs de pierre apparente, on distingue encore la finesse du trait et la palette chromatique dominée par les ocres, les rouges terreux et les blancs de chaux. Le style se caractérise par une certaine fluidité des formes et un traitement plastique des volumes, s’éloignant de la rigidité hiératique des siècles précédents pour embrasser un dynamisme plus accentué, typique des ateliers impériaux de Constantinople qui influençaient alors directement le despotat de Morée. Cet ensemble décoratif ne se contentait pas d’orner l’espace sacré, il servait de support didactique et liturgique, transformant l'architecture de la basilique en une véritable image du cosmos où le divin surplombe le monde terrestre représenté par les fidèles.</p>",
+  "contemporaryArt": {
+    "title": "Bas Moyen Âge • L'Essor du Gothique & l'aube du Trecento",
+    "events": [
+      "1250 – 1300 : Apogée de l'art gothique rayonnant en France et construction de la Sainte-Chapelle de Paris.",
+      "1305 – 1309 : Installation de la papauté en Avignon sous Clément V et grand schisme d'Occident.",
+      "1348 : La terrible épidémie de Peste noire frappe l'Italie et bouleverse la sensibilité spirituelle européenne.",
+      "1380 – 1400 : Diffusion européenne du style Gothique international entre Paris, Dijon, Prague et Florence."
+    ]
+  }
+},
+{
+  "id": "fresque_le_cycle_des_grandes_fetes_sur_les_voute_54",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident & Orient Chrétien : Renaissance Paléologue",
+  "century": "XIVe siècle (vers 1370 – 1380)",
+  "centuryDisplay": "v. 1370-1380",
+  "centuryNumeric": 1375,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Le Cycle des Grandes Fêtes sur les voûtes (Vierge Péribleptos, Mystras)",
+  "site": "Église de la Vierge Péribleptos (Mystras, Grèce)",
+  "originSite": "Cité médiévale de Mystras (Despotat de Morée, Péloponnèse, Grèce)",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczPoj7TVN0-MUtRrxcERMmwWD7NAaMmjKkdTnoCJl16E3OZ_AMCB3MnuzDYkbFBpajnk9jf2hbeXQ9N_qKSnqbdAU5Ym2wcTSQQF2Jb2ickbR_lAo3znxi8dYyAbvhdF2i8dnHctoy5yo6JGidjSLijnLQ=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczPoj7TVN0-MUtRrxcERMmwWD7NAaMmjKkdTnoCJl16E3OZ_AMCB3MnuzDYkbFBpajnk9jf2hbeXQ9N_qKSnqbdAU5Ym2wcTSQQF2Jb2ickbR_lAo3znxi8dYyAbvhdF2i8dnHctoy5yo6JGidjSLijnLQ=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "byzance",
+    "mystras",
+    "mistra",
+    "paléologue",
+    "fresque",
+    "grèce"
+  ],
+  "chips": [
+    "v. 1370-1380",
+    "Art byzantin tardif",
+    "Renaissance Paléologue",
+    "Mystras (UNESCO)",
+    "Grèce"
+  ],
+  "narrative": "<p>Cette perspective intérieure de l'église de la Vierge Péribleptos à Mystras met en lumière la complexité architecturale du monument et la densité de son programme iconographique, caractéristique de la fin du XIVe siècle. Le regard est immédiatement attiré par la voûte en berceau et les écoinçons où se déploie le cycle des Grandes Fêtes, traité ici avec une attention particulière au mouvement et à la narration spatiale. Les scènes se succèdent sans transition abrupte, épousant les courbes des arcs et créant une continuité visuelle qui guide le fidèle à travers l'histoire du Salut. On remarque notamment, sur la partie supérieure, la scène de la Descente aux Enfers ou de l'Ascension, où les figures s'élancent dans des postures dynamiques, leurs drapés légers soulignant l'agitation spirituelle du moment. Plus bas, dans les niches et sur les piliers, des portraits de saints en médaillon ou en pied assurent une présence protectrice constante. La palette chromatique, dominée par des terres d'ombre, des ocres rouges et des bleus profonds, témoigne du goût de l'époque paléologue pour les ambiances tamisées et mystiques, propices à la contemplation. La technique picturale se fait ici plus libre et plus expressive, utilisant des touches de blanc pur pour accentuer les reliefs du visage et donner une intensité presque dramatique aux regards. L'articulation entre les grandes scènes narratives et les portraits statiques illustre la maîtrise des artistes de Mystras, capables de transformer une structure architecturale contrainte en un livre ouvert sur la théologie orthodoxe. La préservation de ces pigments, malgré les infiltrations lumineuses et l'usure des siècles, permet encore aujourd'hui de saisir l'extraordinaire qualité des ateliers impériaux qui œuvrèrent dans ce bastion final de l'Empire byzantin.</p>",
+  "desc": "<p>Cette perspective intérieure de l'église de la Vierge Péribleptos à Mystras met en lumière la complexité architecturale du monument et la densité de son programme iconographique, caractéristique de la fin du XIVe siècle. Le regard est immédiatement attiré par la voûte en berceau et les écoinçons où se déploie le cycle des Grandes Fêtes, traité ici avec une attention particulière au mouvement et à la narration spatiale. Les scènes se succèdent sans transition abrupte, épousant les courbes des arcs et créant une continuité visuelle qui guide le fidèle à travers l'histoire du Salut. On remarque notamment, sur la partie supérieure, la scène de la Descente aux Enfers ou de l'Ascension, où les figures s'élancent dans des postures dynamiques, leurs drapés légers soulignant l'agitation spirituelle du moment. Plus bas, dans les niches et sur les piliers, des portraits de saints en médaillon ou en pied assurent une présence protectrice constante. La palette chromatique, dominée par des terres d'ombre, des ocres rouges et des bleus profonds, témoigne du goût de l'époque paléologue pour les ambiances tamisées et mystiques, propices à la contemplation. La technique picturale se fait ici plus libre et plus expressive, utilisant des touches de blanc pur pour accentuer les reliefs du visage et donner une intensité presque dramatique aux regards. L'articulation entre les grandes scènes narratives et les portraits statiques illustre la maîtrise des artistes de Mystras, capables de transformer une structure architecturale contrainte en un livre ouvert sur la théologie orthodoxe. La préservation de ces pigments, malgré les infiltrations lumineuses et l'usure des siècles, permet encore aujourd'hui de saisir l'extraordinaire qualité des ateliers impériaux qui œuvrèrent dans ce bastion final de l'Empire byzantin.</p>",
+  "contemporaryArt": {
+    "title": "Bas Moyen Âge • L'Essor du Gothique & l'aube du Trecento",
+    "events": [
+      "1250 – 1300 : Apogée de l'art gothique rayonnant en France et construction de la Sainte-Chapelle de Paris.",
+      "1305 – 1309 : Installation de la papauté en Avignon sous Clément V et grand schisme d'Occident.",
+      "1348 : La terrible épidémie de Peste noire frappe l'Italie et bouleverse la sensibilité spirituelle européenne.",
+      "1380 – 1400 : Diffusion européenne du style Gothique international entre Paris, Dijon, Prague et Florence."
+    ]
+  }
+},
+{
+  "id": "fresque_programme_iconographique_et_fresques_de__55",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident & Orient Chrétien : Renaissance Paléologue",
+  "century": "XIVe siècle (vers 1370 – 1380)",
+  "centuryDisplay": "v. 1370-1380",
+  "centuryNumeric": 1375,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Programme iconographique et fresques de la Vierge Péribleptos (Mystras)",
+  "site": "Église de la Vierge Péribleptos (Mystras, Grèce)",
+  "originSite": "Cité médiévale de Mystras (Despotat de Morée, Péloponnèse, Grèce)",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczMnVcGcj78ptU73xAHNb9X0EWWmhid1bucmswA5NVHHFujG4r4MV88jPPQjpgQPnRHAzc2PfQzdKQ2-x085JQRgl7GPT1ptkM26nDUvFPuXmovnBJ6794wPYt3gehjNY3ksVFPqaJbH3x88z5RArc2OnA=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczMnVcGcj78ptU73xAHNb9X0EWWmhid1bucmswA5NVHHFujG4r4MV88jPPQjpgQPnRHAzc2PfQzdKQ2-x085JQRgl7GPT1ptkM26nDUvFPuXmovnBJ6794wPYt3gehjNY3ksVFPqaJbH3x88z5RArc2OnA=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "byzance",
+    "mystras",
+    "mistra",
+    "paléologue",
+    "fresque",
+    "grèce"
+  ],
+  "chips": [
+    "v. 1370-1380",
+    "Art byzantin tardif",
+    "Renaissance Paléologue",
+    "Mystras (UNESCO)",
+    "Grèce"
+  ],
+  "narrative": "<p>Voici l'ensemble exceptionnel des fresques de l'église de la Vierge Péribleptos, située dans la cité médiévale de Mystras, dernier grand foyer de la culture byzantine avant la chute de l'Empire. Datant de la seconde moitié du XIVe siècle, probablement entre 1370 et 1380, ce cycle pictural constitue l'un des sommets de la « Renaissance paléologue ». Contrairement aux vastes compositions monumentales des siècles précédents, les fresques de la Péribleptos se distinguent par une recherche de raffinement, une multiplication des scènes et une réduction de l'échelle des figures qui confèrent à l'espace sacré une dimension plus intime et narrative. L'organisation iconographique suit scrupuleusement le programme byzantin classique, dominé dans la coupole par le Christ Pantocrator entouré des prophètes, tandis que l'abside accueille la Vierge en majesté. Les murs et les voûtes déploient les cycles des Grandes Fêtes, de la Passion et de la Vie de la Vierge. Le style de la Péribleptos est marqué par une technique d'une grande virtuosité, caractérisée par l'utilisation de couleurs vibrantes, des modelés souples et des contrastes de lumière audacieux qui donnent du relief aux visages et de la fluidité aux drapés. Les peintres, dont l'identité demeure anonyme mais dont le talent suggère un lien direct avec les ateliers de Constantinople, ont su insuffler une humanité nouvelle aux personnages. Les expressions sont empreintes d'une mélancolie spirituelle et les postures témoignent d'une élégance presque aristocratique. L'architecture complexe de l'église, avec ses renfoncements et ses voûtes, est mise à profit pour créer des jeux de perspective et des compositions dynamiques, comme l'illustre la scène de la Divine Liturgie dans le chœur, où les anges circulent dans un espace suggéré avec une rare maîtrise. Malgré les outrages du temps, la fraîcheur des pigments et la complexité théologique du programme font de la Péribleptos un témoin crucial de l'esthétique byzantine tardive, annonçant par certains aspects les recherches spatiales de la première Renaissance occidentale.</p>",
+  "desc": "<p>Voici l'ensemble exceptionnel des fresques de l'église de la Vierge Péribleptos, située dans la cité médiévale de Mystras, dernier grand foyer de la culture byzantine avant la chute de l'Empire. Datant de la seconde moitié du XIVe siècle, probablement entre 1370 et 1380, ce cycle pictural constitue l'un des sommets de la « Renaissance paléologue ». Contrairement aux vastes compositions monumentales des siècles précédents, les fresques de la Péribleptos se distinguent par une recherche de raffinement, une multiplication des scènes et une réduction de l'échelle des figures qui confèrent à l'espace sacré une dimension plus intime et narrative. L'organisation iconographique suit scrupuleusement le programme byzantin classique, dominé dans la coupole par le Christ Pantocrator entouré des prophètes, tandis que l'abside accueille la Vierge en majesté. Les murs et les voûtes déploient les cycles des Grandes Fêtes, de la Passion et de la Vie de la Vierge. Le style de la Péribleptos est marqué par une technique d'une grande virtuosité, caractérisée par l'utilisation de couleurs vibrantes, des modelés souples et des contrastes de lumière audacieux qui donnent du relief aux visages et de la fluidité aux drapés. Les peintres, dont l'identité demeure anonyme mais dont le talent suggère un lien direct avec les ateliers de Constantinople, ont su insuffler une humanité nouvelle aux personnages. Les expressions sont empreintes d'une mélancolie spirituelle et les postures témoignent d'une élégance presque aristocratique. L'architecture complexe de l'église, avec ses renfoncements et ses voûtes, est mise à profit pour créer des jeux de perspective et des compositions dynamiques, comme l'illustre la scène de la Divine Liturgie dans le chœur, où les anges circulent dans un espace suggéré avec une rare maîtrise. Malgré les outrages du temps, la fraîcheur des pigments et la complexité théologique du programme font de la Péribleptos un témoin crucial de l'esthétique byzantine tardive, annonçant par certains aspects les recherches spatiales de la première Renaissance occidentale.</p>",
+  "contemporaryArt": {
+    "title": "Bas Moyen Âge • L'Essor du Gothique & l'aube du Trecento",
+    "events": [
+      "1250 – 1300 : Apogée de l'art gothique rayonnant en France et construction de la Sainte-Chapelle de Paris.",
+      "1305 – 1309 : Installation de la papauté en Avignon sous Clément V et grand schisme d'Occident.",
+      "1348 : La terrible épidémie de Peste noire frappe l'Italie et bouleverse la sensibilité spirituelle européenne.",
+      "1380 – 1400 : Diffusion européenne du style Gothique international entre Paris, Dijon, Prague et Florence."
+    ]
+  }
+},
+{
+  "id": "fresque_la_vierge_platytera_et_la_communion_des__56",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident & Orient Chrétien : Renaissance Paléologue",
+  "century": "XIIIe – XIVe siècle (vers 1290 – 1310)",
+  "centuryDisplay": "Fin XIIIe s.",
+  "centuryNumeric": 1290,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "La Vierge Platytera et la Communion des Apôtres (Abside de Saint-Démétrios, Mystras)",
+  "site": "Église Saint-Démétrios (Métropole de Mystras, Grèce)",
+  "originSite": "Cité médiévale de Mystras (Despotat de Morée, Péloponnèse, Grèce)",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczOv4H7HojUQCrvIM9GikDicFWsGlG39R-pf-24n_bRDDIRZOfQOOB5XIDYdLw9MCnpAubbonfelYIoLIi94Mg_M1zg_zrdpOHoEOVLerBpEZHVN9Nm7l_5KX6K64Y_v47dB6JPQP82wgVdIsQTOv2NXcQ=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczOv4H7HojUQCrvIM9GikDicFWsGlG39R-pf-24n_bRDDIRZOfQOOB5XIDYdLw9MCnpAubbonfelYIoLIi94Mg_M1zg_zrdpOHoEOVLerBpEZHVN9Nm7l_5KX6K64Y_v47dB6JPQP82wgVdIsQTOv2NXcQ=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "byzance",
+    "mystras",
+    "mistra",
+    "paléologue",
+    "fresque",
+    "grèce"
+  ],
+  "chips": [
+    "Fin XIIIe s.",
+    "Art byzantin tardif",
+    "Renaissance Paléologue",
+    "Mystras (UNESCO)",
+    "Grèce"
+  ],
+  "narrative": "<p>Cette section murale de l'église de la Vierge Péribleptos illustre parfaitement la hiérarchie iconographique byzantine tardive, où le registre inférieur est traditionnellement réservé aux saints militaires et aux figures de dévotion directe. On y observe une file de saints guerriers représentés en pied, vêtus de l'équipement militaire romain stylisé de l'époque paléologue, incluant des cuirasses anatomiques détaillées, des tuniques courtes et des manteaux de couleur pourpre ou ocre. Ces figures, parmi lesquelles on reconnaît souvent Saint Georges, Saint Démétrios ou les deux Théodore, incarnent la fonction de gardiens de l'espace sacré, leurs auréoles dorées se détachant sur un fond bleu profond qui symbolise l'éternité céleste. Le travail des visages témoigne d'une volonté d'individualisation propre au XIVe siècle de Mystras, avec des traits fins et des regards dirigés vers le fidèle, créant un pont spirituel entre le monde terrestre et le divin. Au-dessus de ce registre solennel, des scènes narratives plus petites et plus dynamiques, bien que partiellement érodées par le temps, déploient des cycles hagiographiques ou christologiques. La juxtaposition de la stabilité monumentale des saints au premier plan avec la complexité gestuelle des scènes supérieures souligne la dualité du style de la Péribleptos : une rigueur théologique alliée à une élégance plastique qui fait la renommée des peintres de la Morée byzantine. L'usure de la couche picturale laisse apparaître par endroits la préparation de l'enduit, révélant la superposition des pigments et la rapidité d'exécution propre à la technique de la fresque. L'ensemble, baigné par la lumière naturelle qui pénètre les étroites ouvertures de l'église, conserve une force expressive intacte, témoignant du raffinement d'une civilisation alors à son crépuscule.</p>",
+  "desc": "<p>Cette section murale de l'église de la Vierge Péribleptos illustre parfaitement la hiérarchie iconographique byzantine tardive, où le registre inférieur est traditionnellement réservé aux saints militaires et aux figures de dévotion directe. On y observe une file de saints guerriers représentés en pied, vêtus de l'équipement militaire romain stylisé de l'époque paléologue, incluant des cuirasses anatomiques détaillées, des tuniques courtes et des manteaux de couleur pourpre ou ocre. Ces figures, parmi lesquelles on reconnaît souvent Saint Georges, Saint Démétrios ou les deux Théodore, incarnent la fonction de gardiens de l'espace sacré, leurs auréoles dorées se détachant sur un fond bleu profond qui symbolise l'éternité céleste. Le travail des visages témoigne d'une volonté d'individualisation propre au XIVe siècle de Mystras, avec des traits fins et des regards dirigés vers le fidèle, créant un pont spirituel entre le monde terrestre et le divin. Au-dessus de ce registre solennel, des scènes narratives plus petites et plus dynamiques, bien que partiellement érodées par le temps, déploient des cycles hagiographiques ou christologiques. La juxtaposition de la stabilité monumentale des saints au premier plan avec la complexité gestuelle des scènes supérieures souligne la dualité du style de la Péribleptos : une rigueur théologique alliée à une élégance plastique qui fait la renommée des peintres de la Morée byzantine. L'usure de la couche picturale laisse apparaître par endroits la préparation de l'enduit, révélant la superposition des pigments et la rapidité d'exécution propre à la technique de la fresque. L'ensemble, baigné par la lumière naturelle qui pénètre les étroites ouvertures de l'église, conserve une force expressive intacte, témoignant du raffinement d'une civilisation alors à son crépuscule.</p>",
+  "contemporaryArt": {
+    "title": "Bas Moyen Âge • L'Essor du Gothique & l'aube du Trecento",
+    "events": [
+      "1250 – 1300 : Apogée de l'art gothique rayonnant en France et construction de la Sainte-Chapelle de Paris.",
+      "1305 – 1309 : Installation de la papauté en Avignon sous Clément V et grand schisme d'Occident.",
+      "1348 : La terrible épidémie de Peste noire frappe l'Italie et bouleverse la sensibilité spirituelle européenne.",
+      "1380 – 1400 : Diffusion européenne du style Gothique international entre Paris, Dijon, Prague et Florence."
+    ]
+  }
+},
+{
+  "id": "fresque_fresques_votives_des_bas_cotes_saint_chr_57",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident : Trecento florentin",
+  "century": "XIVe – XVe siècle (1341 – 1387)",
+  "centuryDisplay": "XIVe s.",
+  "centuryNumeric": 1387,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Fresques votives des bas-côtés : Saint Christophe et Vierge en majesté (San Miniato)",
+  "site": "Basilique San Miniato al Monte (Florence, Toscane, Italie)",
+  "originSite": "Parois des bas-côtés et sacristie de San Miniato al Monte",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczObA3yHPMbO-5-Xe4W1FQeHKFEHDTSUIrFLPCrH1b2tHDJy1B2hVOjRNHCeM1KHASgK_MRzxY5BLSCYFcvHjdTbXxxDehytnvZJm4BVvB0JsvZYUMknkMWYYGpDlro2ZCYCdYLAtXvpBBu4kFVRLL70TQ=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczObA3yHPMbO-5-Xe4W1FQeHKFEHDTSUIrFLPCrH1b2tHDJy1B2hVOjRNHCeM1KHASgK_MRzxY5BLSCYFcvHjdTbXxxDehytnvZJm4BVvB0JsvZYUMknkMWYYGpDlro2ZCYCdYLAtXvpBBu4kFVRLL70TQ=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "italie",
+    "florence",
+    "san miniato",
+    "trecento",
+    "gothique",
+    "fresque"
+  ],
+  "chips": [
+    "XIVe s.",
+    "Trecento toscan",
+    "Taddeo Gaddi & Spinello Aretino",
+    "San Miniato al Monte",
+    "Florence"
+  ],
+  "narrative": "<p>Les fresques qui ornent les murs des bas-côtés de la basilique San Miniato al Monte, telles qu'elles apparaissent sur votre cliché, forment un ensemble hétérogène de panneaux votifs principalement réalisés entre le XIVe et le XVe siècle. Ces peintures n'ont pas été conçues comme un cycle narratif unique, mais résultent de commandes individuelles passées par des familles privées ou des donateurs souhaitant exprimer leur dévotion. Sur la paroi septentrionale, on distingue une succession de saints représentés sous des arcatures gothiques en trompe-l'œil, dont une imposante figure de Saint Christophe traditionnellement placée près de l'entrée pour protéger les fidèles de la mort subite. Parmi les œuvres notables de cette section figurent également des représentations de la Vierge en majesté entourée de saints, ainsi que des figures isolées comme Saint Jérôme ou Saint Jean Gualbert. Au-delà de ces parois, le programme décoratif de l'église se poursuit dans la sacristie avec le cycle majeur de la Vie de saint Benoît peint par Spinello Aretino en 1387, dont les seize scènes illustrent la vigueur du style gothique tardif. La crypte conserve quant à elle des figures de saints et de martyrs peintes dès 1341 par Taddeo Gaddi, l'un des plus illustres élèves de Giotto, témoignant d'une esthétique plus sobre et monumentale. Enfin, la Renaissance s'invite dans la Chapelle du Cardinal de Portugal avec les contributions d'Alesso Baldovinetti et des frères Pollaiuolo, qui introduisent des effets de perspective et de mise en scène théâtrale à travers des représentations de prophètes et d'anges. L'ensemble de ces fresques transforme ainsi l'austère structure romane en un riche conservatoire de la peinture florentine s'étendant sur plusieurs siècles.</p><p></USER_REQUEST></p><p><ADDITIONAL_METADATA></p><p>The current local time is: 2026-11-10T20:22:34+01:00.</p><p>The user's current state is as follows:</p><p>Active Document: /Users/renoult/Desktop/monportailweb/panoramadesarts/style.css (LANGUAGE_UNSPECIFIED)</p><p>Cursor is on line: 1</p><p>Other open documents:</p><p>- /Users/renoult/Desktop/monportailweb/panoramadesarts/data/data-artistes.js (LANGUAGE_UNSPECIFIED)</p><p>- /Users/renoult/Desktop/monportailweb/panoramadesarts/data/data-objets2.js (LANGUAGE_UNSPECIFIED)</p><p>- /Users/renoult/Desktop/monportailweb/panoramadesarts/data/data-objets3.js (LANGUAGE_UNSPECIFIED)</p><p>- /Users/renoult/Desktop/monportailweb/panoramadesarts/data/data-objets4.js (LANGUAGE_UNSPECIFIED)</p><p>- /Users/renoult/Desktop/monportailweb/panoramadesarts/data/data-movements.js (LANGUAGE_UNSPECIFIED)</p><p></ADDITIONAL_METADATA></p>",
+  "desc": "<p>Les fresques qui ornent les murs des bas-côtés de la basilique San Miniato al Monte, telles qu'elles apparaissent sur votre cliché, forment un ensemble hétérogène de panneaux votifs principalement réalisés entre le XIVe et le XVe siècle. Ces peintures n'ont pas été conçues comme un cycle narratif unique, mais résultent de commandes individuelles passées par des familles privées ou des donateurs souhaitant exprimer leur dévotion. Sur la paroi septentrionale, on distingue une succession de saints représentés sous des arcatures gothiques en trompe-l'œil, dont une imposante figure de Saint Christophe traditionnellement placée près de l'entrée pour protéger les fidèles de la mort subite. Parmi les œuvres notables de cette section figurent également des représentations de la Vierge en majesté entourée de saints, ainsi que des figures isolées comme Saint Jérôme ou Saint Jean Gualbert. Au-delà de ces parois, le programme décoratif de l'église se poursuit dans la sacristie avec le cycle majeur de la Vie de saint Benoît peint par Spinello Aretino en 1387, dont les seize scènes illustrent la vigueur du style gothique tardif. La crypte conserve quant à elle des figures de saints et de martyrs peintes dès 1341 par Taddeo Gaddi, l'un des plus illustres élèves de Giotto, témoignant d'une esthétique plus sobre et monumentale. Enfin, la Renaissance s'invite dans la Chapelle du Cardinal de Portugal avec les contributions d'Alesso Baldovinetti et des frères Pollaiuolo, qui introduisent des effets de perspective et de mise en scène théâtrale à travers des représentations de prophètes et d'anges. L'ensemble de ces fresques transforme ainsi l'austère structure romane en un riche conservatoire de la peinture florentine s'étendant sur plusieurs siècles.</p><p></USER_REQUEST></p><p><ADDITIONAL_METADATA></p><p>The current local time is: 2026-11-10T20:22:34+01:00.</p><p>The user's current state is as follows:</p><p>Active Document: /Users/renoult/Desktop/monportailweb/panoramadesarts/style.css (LANGUAGE_UNSPECIFIED)</p><p>Cursor is on line: 1</p><p>Other open documents:</p><p>- /Users/renoult/Desktop/monportailweb/panoramadesarts/data/data-artistes.js (LANGUAGE_UNSPECIFIED)</p><p>- /Users/renoult/Desktop/monportailweb/panoramadesarts/data/data-objets2.js (LANGUAGE_UNSPECIFIED)</p><p>- /Users/renoult/Desktop/monportailweb/panoramadesarts/data/data-objets3.js (LANGUAGE_UNSPECIFIED)</p><p>- /Users/renoult/Desktop/monportailweb/panoramadesarts/data/data-objets4.js (LANGUAGE_UNSPECIFIED)</p><p>- /Users/renoult/Desktop/monportailweb/panoramadesarts/data/data-movements.js (LANGUAGE_UNSPECIFIED)</p><p></ADDITIONAL_METADATA></p>",
+  "contemporaryArt": {
+    "title": "Bas Moyen Âge • L'Essor du Gothique & l'aube du Trecento",
+    "events": [
+      "1250 – 1300 : Apogée de l'art gothique rayonnant en France et construction de la Sainte-Chapelle de Paris.",
+      "1305 – 1309 : Installation de la papauté en Avignon sous Clément V et grand schisme d'Occident.",
+      "1348 : La terrible épidémie de Peste noire frappe l'Italie et bouleverse la sensibilité spirituelle européenne.",
+      "1380 – 1400 : Diffusion européenne du style Gothique international entre Paris, Dijon, Prague et Florence."
+    ]
+  }
+},
+{
+  "id": "fresque_vierge_de_misericorde_et_vierge_en_majes_58",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident : Gothique émilien & Trecento",
+  "century": "XIVe siècle (1302)",
+  "centuryDisplay": "1302",
+  "centuryNumeric": 1302,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Vierge de Miséricorde et Vierge en majesté par le Maître de Bianchi (Baptistère de Parme)",
+  "site": "Baptistère Saint-Jean de Parme (Parme, Émilie-Romagne, Italie)",
+  "originSite": "Niches et coupole du baptistère de Parme",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczPJZG45VWUbts7yF8HDRryT9XgEw04YqZj2ToIfCsTTSfovaMGj4wdWvF0CHkD5IaQTLg3KlT2R3Etkaecl3QfMIY7Az6mKtQGhBTi96TkZGiu0CuTLOYK-ZtwGOx2TQT5u8tIWGWf0AWuzu7BkQ03gUg=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczPJZG45VWUbts7yF8HDRryT9XgEw04YqZj2ToIfCsTTSfovaMGj4wdWvF0CHkD5IaQTLg3KlT2R3Etkaecl3QfMIY7Az6mKtQGhBTi96TkZGiu0CuTLOYK-ZtwGOx2TQT5u8tIWGWf0AWuzu7BkQ03gUg=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "italie",
+    "parme",
+    "baptistère",
+    "gothique",
+    "trecento",
+    "fresque"
+  ],
+  "chips": [
+    "1302",
+    "Gothique italien",
+    "Marbre rose de Vérone",
+    "Baptistère de Parme",
+    "Italie"
+  ],
+  "narrative": "<p>Ce décor exceptionnel, situé dans l'une des seize niches du baptistère de Parme, illustre la richesse de la peinture votive des XIVe et XVe siècles au sein de cet édifice emblématique. Ces fresques, commandées par des fidèles ou des corporations, témoignent de la piété médiévale et de la transition stylistique entre le gothique tardif et les premières influences de la Renaissance.</p><p>La partie gauche de la niche présente une composition sur trois registres superposés. Au sommet, dans le cul-de-four, figurent deux Docteurs de l'Église, probablement saint Ambroise et saint Jérôme, encadrant un ange sculpté. Le registre central est dominé par une Crucifixion au caractère solennel, où le Christ en croix est entouré de la Vierge, de saint Jean et de figures de donateurs ou de saints protecteurs. Le registre inférieur offre une représentation remarquable de la Vierge de Miséricorde, déployant son manteau protecteur pour abriter une foule de fidèles, symbole de l'intercession céleste face aux maux du temps.</p><p>La paroi droite de la niche est consacrée à une Vierge en majesté trônant dans une architecture gothique aux voûtes finement dessinées. La Vierge à l'Enfant est flanquée de deux figures ecclésiastiques d'une grande stature : un pape et un évêque, identifiés par leurs attributs liturgiques et leur tiare ou mitre. Cette œuvre est attribuée au Maître de Gerardo Bianchi (ou Maître de Bianchi), actif au début du XIVe siècle, dont le style se reconnaît à la noblesse des traits et à l'élégance des drapés.</p><p>L'ensemble frappe par sa vivacité chromatique, où les rouges profonds et les fonds sombres créent un contraste saisissant avec les colonnes en marbre rose de Vérone qui structurent l'espace. Ces cycles picturaux transforment chaque niche du baptistère en une chapelle privée, mêlant récits bibliques, dogmes théologiques et expressions de la foi populaire locale.</p>",
+  "desc": "<p>Ce décor exceptionnel, situé dans l'une des seize niches du baptistère de Parme, illustre la richesse de la peinture votive des XIVe et XVe siècles au sein de cet édifice emblématique. Ces fresques, commandées par des fidèles ou des corporations, témoignent de la piété médiévale et de la transition stylistique entre le gothique tardif et les premières influences de la Renaissance.</p><p>La partie gauche de la niche présente une composition sur trois registres superposés. Au sommet, dans le cul-de-four, figurent deux Docteurs de l'Église, probablement saint Ambroise et saint Jérôme, encadrant un ange sculpté. Le registre central est dominé par une Crucifixion au caractère solennel, où le Christ en croix est entouré de la Vierge, de saint Jean et de figures de donateurs ou de saints protecteurs. Le registre inférieur offre une représentation remarquable de la Vierge de Miséricorde, déployant son manteau protecteur pour abriter une foule de fidèles, symbole de l'intercession céleste face aux maux du temps.</p><p>La paroi droite de la niche est consacrée à une Vierge en majesté trônant dans une architecture gothique aux voûtes finement dessinées. La Vierge à l'Enfant est flanquée de deux figures ecclésiastiques d'une grande stature : un pape et un évêque, identifiés par leurs attributs liturgiques et leur tiare ou mitre. Cette œuvre est attribuée au Maître de Gerardo Bianchi (ou Maître de Bianchi), actif au début du XIVe siècle, dont le style se reconnaît à la noblesse des traits et à l'élégance des drapés.</p><p>L'ensemble frappe par sa vivacité chromatique, où les rouges profonds et les fonds sombres créent un contraste saisissant avec les colonnes en marbre rose de Vérone qui structurent l'espace. Ces cycles picturaux transforment chaque niche du baptistère en une chapelle privée, mêlant récits bibliques, dogmes théologiques et expressions de la foi populaire locale.</p>",
+  "contemporaryArt": {
+    "title": "Bas Moyen Âge • L'Essor du Gothique & l'aube du Trecento",
+    "events": [
+      "1250 – 1300 : Apogée de l'art gothique rayonnant en France et construction de la Sainte-Chapelle de Paris.",
+      "1305 – 1309 : Installation de la papauté en Avignon sous Clément V et grand schisme d'Occident.",
+      "1348 : La terrible épidémie de Peste noire frappe l'Italie et bouleverse la sensibilité spirituelle européenne.",
+      "1380 – 1400 : Diffusion européenne du style Gothique international entre Paris, Dijon, Prague et Florence."
+    ]
+  }
+},
+{
+  "id": "fresque_la_coupole_celeste_aux_six_cercles_conce_59",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident : Gothique émilien & Trecento",
+  "century": "XIIIe siècle (vers 1260 – 1280)",
+  "centuryDisplay": "XIIIe s.",
+  "centuryNumeric": 1270,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "La Coupole céleste aux six cercles concentriques (Baptistère de Parme)",
+  "site": "Baptistère Saint-Jean de Parme (Parme, Émilie-Romagne, Italie)",
+  "originSite": "Niches et coupole du baptistère de Parme",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczPz0dNXmeKacMzisOcqkyS4Pm9_OFYlalbRF0eX3voLNh1GhYygSSVq0a5lYdRs1UGmE-k-snZ_bKowkjZffB0vFomC0c8KGUwFriow4IYuSOucBcpbdpPRDThdaGO88DMu7GOyqw6KNlv4xx2xDUkkRw=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczPz0dNXmeKacMzisOcqkyS4Pm9_OFYlalbRF0eX3voLNh1GhYygSSVq0a5lYdRs1UGmE-k-snZ_bKowkjZffB0vFomC0c8KGUwFriow4IYuSOucBcpbdpPRDThdaGO88DMu7GOyqw6KNlv4xx2xDUkkRw=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "italie",
+    "parme",
+    "baptistère",
+    "gothique",
+    "trecento",
+    "fresque"
+  ],
+  "chips": [
+    "XIIIe s.",
+    "Gothique italien",
+    "Marbre rose de Vérone",
+    "Baptistère de Parme",
+    "Italie"
+  ],
+  "narrative": "<p>Ce décor magistral recouvre la coupole et les niches du baptistère de Parme, constituant l'un des cycles picturaux les plus significatifs du XIIIe et du XIVe siècle en Italie du Nord. La coupole, structurée par seize nervures rayonnantes en marbre rose, présente une organisation théologique rigoureuse divisée en six cercles concentriques. Au sommet, le ciel rouge étoilé entoure la clé de voûte, suivi par les hiérarchies angéliques, les apôtres et les évangélistes. Les registres inférieurs illustrent la vie de saint Jean-Baptiste, les prophètes et des scènes de la vie d'Abraham, créant un lien symbolique entre l'Ancien et le Nouveau Testament.</p>",
+  "desc": "<p>Ce décor magistral recouvre la coupole et les niches du baptistère de Parme, constituant l'un des cycles picturaux les plus significatifs du XIIIe et du XIVe siècle en Italie du Nord. La coupole, structurée par seize nervures rayonnantes en marbre rose, présente une organisation théologique rigoureuse divisée en six cercles concentriques. Au sommet, le ciel rouge étoilé entoure la clé de voûte, suivi par les hiérarchies angéliques, les apôtres et les évangélistes. Les registres inférieurs illustrent la vie de saint Jean-Baptiste, les prophètes et des scènes de la vie d'Abraham, créant un lien symbolique entre l'Ancien et le Nouveau Testament.</p>",
+  "contemporaryArt": {
+    "title": "Bas Moyen Âge • L'Essor du Gothique & l'aube du Trecento",
+    "events": [
+      "1250 – 1300 : Apogée de l'art gothique rayonnant en France et construction de la Sainte-Chapelle de Paris.",
+      "1305 – 1309 : Installation de la papauté en Avignon sous Clément V et grand schisme d'Occident.",
+      "1348 : La terrible épidémie de Peste noire frappe l'Italie et bouleverse la sensibilité spirituelle européenne.",
+      "1380 – 1400 : Diffusion européenne du style Gothique international entre Paris, Dijon, Prague et Florence."
+    ]
+  }
+},
+{
+  "id": "fresque_le_christ_enseignant_en_majeste_avec_la__60",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident : Trecento & École de Bologne",
+  "century": "XIVe siècle (vers 1320)",
+  "centuryDisplay": "v. 1320",
+  "centuryNumeric": 1320,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Le Christ enseignant en majesté avec la Vierge et saint Jean (Réfectoire de Pomposa)",
+  "site": "Abbaye Sainte-Marie de Pomposa (Codigoro, Ferrare, Italie)",
+  "originSite": "Église abbatiale et réfectoire de Pomposa",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczM9Pzfz3PkSSCbFiY6WvasDDTCbyLw2Ie4RAol4iW1N7-y_opZpjQdxnv0rH1tdWaj6DoNnFE42fdcrJlfPX4koZucbXa8HheHz9PdahdLvInUk1E7rl_d7yQZVggQJ1Uf8JvbZpPDEhiibrK3zkkhZpQ=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczM9Pzfz3PkSSCbFiY6WvasDDTCbyLw2Ie4RAol4iW1N7-y_opZpjQdxnv0rH1tdWaj6DoNnFE42fdcrJlfPX4koZucbXa8HheHz9PdahdLvInUk1E7rl_d7yQZVggQJ1Uf8JvbZpPDEhiibrK3zkkhZpQ=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "italie",
+    "pomposa",
+    "vitale da bologna",
+    "rimini",
+    "trecento",
+    "gothique",
+    "fresque"
+  ],
+  "chips": [
+    "v. 1320",
+    "Trecento italien",
+    "Vitale da Bologna & École de Rimini",
+    "Abbaye de Pomposa",
+    "Italie"
+  ],
+  "narrative": "<p>Cette fresque monumentale, réalisée au XIVe siècle par un maître de l'école de Rimini, orne la paroi du réfectoire de l'abbaye bénédictine de Pomposa. L'œuvre s'articule autour d'une figure centrale du Christ en majesté, ou Christ enseignant, trônant au cœur d'une composition rigoureusement symétrique typique du style giottesque de l'époque.</p><p>Le Christ est représenté de face, la main droite levée dans un geste de bénédiction tandis qu'il tient de la main gauche un livre ouvert présentant des écritures sacrées. Il est encadré par la Vierge Marie à sa droite et saint Jean-Baptiste à sa gauche, formant ainsi une variante de la \"Deisis\", thème iconographique traditionnel de l'intercession. De part et d'autre de ce groupe central se tiennent des figures de saints liés à l'ordre bénédictin, notamment saint Benoît et saint Guy (Guido d'Arezzo), vêtus de leurs robes sombres et tenant des attributs tels que la crosse abbatiale ou le livre de la Règle.</p><p>L'ensemble est délimité par des colonnes torsadées peintes en trompe-l'œil, qui confèrent une profondeur architecturale à la scène. Les bordures décoratives supérieures et inférieures, composées de motifs géométriques et de médaillons, témoignent du raffinement de l'ornementation médiévale italienne. Cette fresque n'avait pas seulement une fonction décorative, mais servait de support spirituel aux moines qui prenaient leurs repas en silence, leur rappelant la présence constante du divin et la hiérarchie céleste.</p>",
+  "desc": "<p>Cette fresque monumentale, réalisée au XIVe siècle par un maître de l'école de Rimini, orne la paroi du réfectoire de l'abbaye bénédictine de Pomposa. L'œuvre s'articule autour d'une figure centrale du Christ en majesté, ou Christ enseignant, trônant au cœur d'une composition rigoureusement symétrique typique du style giottesque de l'époque.</p><p>Le Christ est représenté de face, la main droite levée dans un geste de bénédiction tandis qu'il tient de la main gauche un livre ouvert présentant des écritures sacrées. Il est encadré par la Vierge Marie à sa droite et saint Jean-Baptiste à sa gauche, formant ainsi une variante de la \"Deisis\", thème iconographique traditionnel de l'intercession. De part et d'autre de ce groupe central se tiennent des figures de saints liés à l'ordre bénédictin, notamment saint Benoît et saint Guy (Guido d'Arezzo), vêtus de leurs robes sombres et tenant des attributs tels que la crosse abbatiale ou le livre de la Règle.</p><p>L'ensemble est délimité par des colonnes torsadées peintes en trompe-l'œil, qui confèrent une profondeur architecturale à la scène. Les bordures décoratives supérieures et inférieures, composées de motifs géométriques et de médaillons, témoignent du raffinement de l'ornementation médiévale italienne. Cette fresque n'avait pas seulement une fonction décorative, mais servait de support spirituel aux moines qui prenaient leurs repas en silence, leur rappelant la présence constante du divin et la hiérarchie céleste.</p>",
+  "contemporaryArt": {
+    "title": "Bas Moyen Âge • L'Essor du Gothique & l'aube du Trecento",
+    "events": [
+      "1250 – 1300 : Apogée de l'art gothique rayonnant en France et construction de la Sainte-Chapelle de Paris.",
+      "1305 – 1309 : Installation de la papauté en Avignon sous Clément V et grand schisme d'Occident.",
+      "1348 : La terrible épidémie de Peste noire frappe l'Italie et bouleverse la sensibilité spirituelle européenne.",
+      "1380 – 1400 : Diffusion européenne du style Gothique international entre Paris, Dijon, Prague et Florence."
+    ]
+  }
+},
+{
+  "id": "fresque_galerie_en_trompe_l_il_des_saints_et_pro_61",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident : Trecento & École de Bologne",
+  "century": "XIVe siècle (vers 1320)",
+  "centuryDisplay": "v. 1320",
+  "centuryNumeric": 1320,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Galerie en trompe-l'œil des saints et prophètes (Sacristie de Pomposa)",
+  "site": "Abbaye Sainte-Marie de Pomposa (Codigoro, Ferrare, Italie)",
+  "originSite": "Église abbatiale et réfectoire de Pomposa",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczNr9CqFGis52lR-utXLH_dLJkpBgjyzDUAs8NIPZRlgDljXVb5LCIw_DtLTj23Sw2RK00UEqyurnej03-2cj2ABU04TjjUzUG-Us1i1VQuhAUJSZQEAdTHkA6TpVrAzgL9AiNaTXrWJG8HyGOsK6_TFFg=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczNr9CqFGis52lR-utXLH_dLJkpBgjyzDUAs8NIPZRlgDljXVb5LCIw_DtLTj23Sw2RK00UEqyurnej03-2cj2ABU04TjjUzUG-Us1i1VQuhAUJSZQEAdTHkA6TpVrAzgL9AiNaTXrWJG8HyGOsK6_TFFg=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "italie",
+    "pomposa",
+    "vitale da bologna",
+    "rimini",
+    "trecento",
+    "gothique",
+    "fresque"
+  ],
+  "chips": [
+    "v. 1320",
+    "Trecento italien",
+    "Vitale da Bologna & École de Rimini",
+    "Abbaye de Pomposa",
+    "Italie"
+  ],
+  "narrative": "<p>Cet ensemble de fresques, situé dans la sacristie de l'abbaye de Pomposa, constitue un témoignage exceptionnel de la peinture du Trecento dans la région de Ferrare. Réalisé vers 1320 par un artiste de l'école de Rimini fortement influencé par les innovations de Giotto, le cycle se déploie sur les murs de la pièce, intégrant harmonieusement les ouvertures architecturales à la narration sacrée.</p><p>La paroi principale est dominée par une Crucifixion centrale, encadrée par deux fenêtres ogivales. La scène du Calvaire se détache sur un fond sombre, montrant le Christ en croix entouré d'anges recueillant son sang, tandis qu'au pied de la croix se pressent les figures affligées de la Vierge et des saintes femmes. L'artiste utilise un langage émotionnel direct, caractéristique de la sensibilité franciscaine et riminaise, où la douleur humaine est rendue avec une dignité solennelle.</p><p>De part et d'autre des fenêtres et sur les murs adjacents, des figures de saints et de prophètes sont représentées sous des arcatures peintes en trompe-l'œil, simulant des niches architecturales. On y reconnaît notamment saint Benoît et d'autres figures monastiques, rappelant la fonction de recueillement et de préparation liturgique de la sacristie. La partie inférieure des murs présente un soubassement décoratif plus sobre, tandis que le plafond à poutres apparentes complète l'atmosphère médiévale du lieu. La maîtrise de la perspective naissante et la richesse chromatique des pigments soulignent l'importance de l'abbaye de Pomposa comme centre culturel et artistique majeur de l'Italie du Nord au XIVe siècle.</p>",
+  "desc": "<p>Cet ensemble de fresques, situé dans la sacristie de l'abbaye de Pomposa, constitue un témoignage exceptionnel de la peinture du Trecento dans la région de Ferrare. Réalisé vers 1320 par un artiste de l'école de Rimini fortement influencé par les innovations de Giotto, le cycle se déploie sur les murs de la pièce, intégrant harmonieusement les ouvertures architecturales à la narration sacrée.</p><p>La paroi principale est dominée par une Crucifixion centrale, encadrée par deux fenêtres ogivales. La scène du Calvaire se détache sur un fond sombre, montrant le Christ en croix entouré d'anges recueillant son sang, tandis qu'au pied de la croix se pressent les figures affligées de la Vierge et des saintes femmes. L'artiste utilise un langage émotionnel direct, caractéristique de la sensibilité franciscaine et riminaise, où la douleur humaine est rendue avec une dignité solennelle.</p><p>De part et d'autre des fenêtres et sur les murs adjacents, des figures de saints et de prophètes sont représentées sous des arcatures peintes en trompe-l'œil, simulant des niches architecturales. On y reconnaît notamment saint Benoît et d'autres figures monastiques, rappelant la fonction de recueillement et de préparation liturgique de la sacristie. La partie inférieure des murs présente un soubassement décoratif plus sobre, tandis que le plafond à poutres apparentes complète l'atmosphère médiévale du lieu. La maîtrise de la perspective naissante et la richesse chromatique des pigments soulignent l'importance de l'abbaye de Pomposa comme centre culturel et artistique majeur de l'Italie du Nord au XIVe siècle.</p>",
+  "contemporaryArt": {
+    "title": "Bas Moyen Âge • L'Essor du Gothique & l'aube du Trecento",
+    "events": [
+      "1250 – 1300 : Apogée de l'art gothique rayonnant en France et construction de la Sainte-Chapelle de Paris.",
+      "1305 – 1309 : Installation de la papauté en Avignon sous Clément V et grand schisme d'Occident.",
+      "1348 : La terrible épidémie de Peste noire frappe l'Italie et bouleverse la sensibilité spirituelle européenne.",
+      "1380 – 1400 : Diffusion européenne du style Gothique international entre Paris, Dijon, Prague et Florence."
+    ]
+  }
+},
+{
+  "id": "fresque_galerie_en_trompe_l_il_des_saints_et_pro_62",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident : Trecento & École de Bologne",
+  "century": "XIVe siècle (vers 1320)",
+  "centuryDisplay": "v. 1320",
+  "centuryNumeric": 1320,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Galerie en trompe-l'œil des saints et prophètes (Sacristie de Pomposa)",
+  "site": "Abbaye Sainte-Marie de Pomposa (Codigoro, Ferrare, Italie)",
+  "originSite": "Église abbatiale et réfectoire de Pomposa",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczMcIr2lK-Yssgyy1qOyVdPlsTt7VEbRA7Q7da3CZR3EpvY_GpFFYjemZB_6C5isbJQTz5T6ocWG9GzS0c5TlZcjIjUg7TsL7yOlTkMSXmU5fRZk1sB7LybVoFS-2LMcHGbJwd9OXwYShTdSxgHtQL5i0Q=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczMcIr2lK-Yssgyy1qOyVdPlsTt7VEbRA7Q7da3CZR3EpvY_GpFFYjemZB_6C5isbJQTz5T6ocWG9GzS0c5TlZcjIjUg7TsL7yOlTkMSXmU5fRZk1sB7LybVoFS-2LMcHGbJwd9OXwYShTdSxgHtQL5i0Q=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "italie",
+    "pomposa",
+    "vitale da bologna",
+    "rimini",
+    "trecento",
+    "gothique",
+    "fresque"
+  ],
+  "chips": [
+    "v. 1320",
+    "Trecento italien",
+    "Vitale da Bologna & École de Rimini",
+    "Abbaye de Pomposa",
+    "Italie"
+  ],
+  "narrative": "<p>Sur les murs latéraux, des figures de saints et de prophètes sont représentées par paires sous des arcatures trilobées peintes en trompe-l'œil. Ces niches simulées, surmontées de roses décoratives, donnent l'illusion d'une galerie de statues intégrée à la structure même de la sacristie. Les personnages, drapés dans des tuniques aux plis travaillés, adoptent des postures solennelles et tiennent des phylactères ou des attributs liturgiques. La précision des motifs géométriques des bordures, mêlant frises de losanges et médaillons, encadre chaque scène avec une rigueur mathématique qui souligne la fonction ordonnée et rituelle de ce lieu de préparation au service divin. Abbaye de Pomposa</p>",
+  "desc": "<p>Sur les murs latéraux, des figures de saints et de prophètes sont représentées par paires sous des arcatures trilobées peintes en trompe-l'œil. Ces niches simulées, surmontées de roses décoratives, donnent l'illusion d'une galerie de statues intégrée à la structure même de la sacristie. Les personnages, drapés dans des tuniques aux plis travaillés, adoptent des postures solennelles et tiennent des phylactères ou des attributs liturgiques. La précision des motifs géométriques des bordures, mêlant frises de losanges et médaillons, encadre chaque scène avec une rigueur mathématique qui souligne la fonction ordonnée et rituelle de ce lieu de préparation au service divin. Abbaye de Pomposa</p>",
+  "contemporaryArt": {
+    "title": "Bas Moyen Âge • L'Essor du Gothique & l'aube du Trecento",
+    "events": [
+      "1250 – 1300 : Apogée de l'art gothique rayonnant en France et construction de la Sainte-Chapelle de Paris.",
+      "1305 – 1309 : Installation de la papauté en Avignon sous Clément V et grand schisme d'Occident.",
+      "1348 : La terrible épidémie de Peste noire frappe l'Italie et bouleverse la sensibilité spirituelle européenne.",
+      "1380 – 1400 : Diffusion européenne du style Gothique international entre Paris, Dijon, Prague et Florence."
+    ]
+  }
+},
+{
+  "id": "fresque_le_christ_pantocrator_et_la_cour_celeste_63",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident : Trecento & École de Bologne",
+  "century": "XIVe siècle (1351 – 1352)",
+  "centuryDisplay": "1351 – 1352",
+  "centuryNumeric": 1351,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Le Christ Pantocrator et la Cour céleste par Vitale da Bologna (Abside de Pomposa)",
+  "site": "Abbaye Sainte-Marie de Pomposa (Codigoro, Ferrare, Italie)",
+  "originSite": "Église abbatiale et réfectoire de Pomposa",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczP-UgPNH3_sSTu9UiFr4OoaaKyE_5QkoO1TgyvzEy35qKdV_1ADCe63dQEBgXzSw1vzIBx9wiy8ammqyHKNZ_ZCC5qUIVjIwYt6lQtFZvcCyRgCVtJGeekdvU598YdVEC0Sa1eX9Ztkofc1waFts92Kjg=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczP-UgPNH3_sSTu9UiFr4OoaaKyE_5QkoO1TgyvzEy35qKdV_1ADCe63dQEBgXzSw1vzIBx9wiy8ammqyHKNZ_ZCC5qUIVjIwYt6lQtFZvcCyRgCVtJGeekdvU598YdVEC0Sa1eX9Ztkofc1waFts92Kjg=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "italie",
+    "pomposa",
+    "vitale da bologna",
+    "rimini",
+    "trecento",
+    "gothique",
+    "fresque"
+  ],
+  "chips": [
+    "1351 – 1352",
+    "Trecento italien",
+    "Vitale da Bologna & École de Rimini",
+    "Abbaye de Pomposa",
+    "Italie"
+  ],
+  "narrative": "<p>Cette fresque monumentale, réalisée entre 1351 et 1352 par le peintre bolonais Vitale da Bologna et ses collaborateurs, orne le cul-de-four de l'abside de l'église abbatiale Santa Maria de Pomposa. Chef-d'œuvre du Trecento, elle témoigne du renouveau de l'école bolonaise, caractérisée par une expressivité vibrante et une certaine liberté narrative, rompant avec la rigueur byzantine.</p><p>Au centre de la composition trône le Christ en majesté, ou Pantocrator, enserré dans une mandorle de lumière polylobée. Il bénit de la main droite tandis qu'il tient, de la gauche, un livre ouvert portant l’inscription « Ego sum lux mundi » (Je suis la lumière du monde). Sa figure, aux proportions imposantes, impose une hiérarchie sacrée immédiate sur l'ensemble de l'espace absidal.</p><p>De part et d'autre du Christ, une foule céleste s'organise en registres superposés. On y distingue la Vierge Marie, présentée par un ange, ainsi qu'une procession de saints et de martyrs, parmi lesquels figurent saint Guy (l'un des abbés historiques de Pomposa) et saint Benoît. Les visages sont animés d'une humanité nouvelle pour l'époque, avec des traits individualisés et des regards empreints de dévotion.</p><p>La partie inférieure de l'abside, située entre les fenêtres, présente une galerie de figures de docteurs de l'Église et d'évangélistes assis à leur pupitre, ancrant la vision céleste dans la tradition doctrinale de l'Église. Les couleurs, dominées par les ocres, les rouges et les bleus profonds, bien que patinées par le temps, conservent une chaleur qui souligne l'élégance des drapés et la complexité des motifs décoratifs des bordures.</p>",
+  "desc": "<p>Cette fresque monumentale, réalisée entre 1351 et 1352 par le peintre bolonais Vitale da Bologna et ses collaborateurs, orne le cul-de-four de l'abside de l'église abbatiale Santa Maria de Pomposa. Chef-d'œuvre du Trecento, elle témoigne du renouveau de l'école bolonaise, caractérisée par une expressivité vibrante et une certaine liberté narrative, rompant avec la rigueur byzantine.</p><p>Au centre de la composition trône le Christ en majesté, ou Pantocrator, enserré dans une mandorle de lumière polylobée. Il bénit de la main droite tandis qu'il tient, de la gauche, un livre ouvert portant l’inscription « Ego sum lux mundi » (Je suis la lumière du monde). Sa figure, aux proportions imposantes, impose une hiérarchie sacrée immédiate sur l'ensemble de l'espace absidal.</p><p>De part et d'autre du Christ, une foule céleste s'organise en registres superposés. On y distingue la Vierge Marie, présentée par un ange, ainsi qu'une procession de saints et de martyrs, parmi lesquels figurent saint Guy (l'un des abbés historiques de Pomposa) et saint Benoît. Les visages sont animés d'une humanité nouvelle pour l'époque, avec des traits individualisés et des regards empreints de dévotion.</p><p>La partie inférieure de l'abside, située entre les fenêtres, présente une galerie de figures de docteurs de l'Église et d'évangélistes assis à leur pupitre, ancrant la vision céleste dans la tradition doctrinale de l'Église. Les couleurs, dominées par les ocres, les rouges et les bleus profonds, bien que patinées par le temps, conservent une chaleur qui souligne l'élégance des drapés et la complexité des motifs décoratifs des bordures.</p>",
+  "contemporaryArt": {
+    "title": "Bas Moyen Âge • L'Essor du Gothique & l'aube du Trecento",
+    "events": [
+      "1250 – 1300 : Apogée de l'art gothique rayonnant en France et construction de la Sainte-Chapelle de Paris.",
+      "1305 – 1309 : Installation de la papauté en Avignon sous Clément V et grand schisme d'Occident.",
+      "1348 : La terrible épidémie de Peste noire frappe l'Italie et bouleverse la sensibilité spirituelle européenne.",
+      "1380 – 1400 : Diffusion européenne du style Gothique international entre Paris, Dijon, Prague et Florence."
+    ]
+  }
+},
+{
+  "id": "fresque_le_christ_pantocrator_et_la_cour_celeste_64",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident : Trecento & École de Bologne",
+  "century": "XIVe siècle (1351 – 1352)",
+  "centuryDisplay": "1351 – 1352",
+  "centuryNumeric": 1351,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Le Christ Pantocrator et la Cour céleste par Vitale da Bologna (Abside de Pomposa)",
+  "site": "Abbaye Sainte-Marie de Pomposa (Codigoro, Ferrare, Italie)",
+  "originSite": "Église abbatiale et réfectoire de Pomposa",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczO1HfcQp12dPuNok3NPL2kU2wynZSiS2NztiqL_wC400Vgg1Svlr_7QsDfp2E0n2r5-N7Ve2Jfig6m2IXDo6IX-zl09O_HctTxUL1urd2P2677C9rBlGnzVkQ_yFFCVSBlntTDp43qX9fPMy6QrhWrh0Q=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczO1HfcQp12dPuNok3NPL2kU2wynZSiS2NztiqL_wC400Vgg1Svlr_7QsDfp2E0n2r5-N7Ve2Jfig6m2IXDo6IX-zl09O_HctTxUL1urd2P2677C9rBlGnzVkQ_yFFCVSBlntTDp43qX9fPMy6QrhWrh0Q=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "italie",
+    "pomposa",
+    "vitale da bologna",
+    "rimini",
+    "trecento",
+    "gothique",
+    "fresque"
+  ],
+  "chips": [
+    "1351 – 1352",
+    "Trecento italien",
+    "Vitale da Bologna & École de Rimini",
+    "Abbaye de Pomposa",
+    "Italie"
+  ],
+  "narrative": "<p>Cette fresque monumentale, qui occupe l'intégralité du mur occidental de la nef de l'abbaye de Pomposa  (le revers de la façade), représente le Jugement dernier. Réalisée au milieu du XIVe siècle par l'école de Vitale da Bologna, elle complète le programme iconographique de l'abbaye de Pomposa en offrant aux fidèles une vision spectaculaire de la fin des temps au moment où ils quittent l'édifice.</p><p>L'œuvre s'organise en plusieurs registres horizontaux rigoureusement hiérarchisés. Au sommet, dans la partie la plus proche de la charpente, le Christ apparaît en tant que Juge suprême, entouré d'anges et des symboles de la Passion. Juste au-dessous, il est représenté une seconde fois au centre d'une mandorle lumineuse, entouré de la cour céleste, des apôtres et de la Vierge, illustrant le triomphe de l'Église.</p><p>Le registre médian est consacré à la séparation des âmes. À la droite du Christ (gauche du spectateur), les élus sont accueillis par des anges vers le Paradis, représenté comme une cité ordonnée et paisible. À l'opposé, à sa gauche, les damnés sont précipités vers l'Enfer. Cette transition est marquée par une iconographie dynamique où le mouvement des corps exprime soit l'ascension sereine, soit la chute terrifiée.</p><p>La partie inférieure droite de la fresque est la plus saisissante : elle dépeint l'Enfer avec une verve narrative typique du style bolonais de l'époque. On y voit des démons grotesques infligeant divers supplices aux pécheurs, tandis qu'une figure monstrueuse de Satan dévore les condamnés. Ce réalisme dramatique, presque satirique par endroits, visait à frapper l'imagination et à inciter à la pénitence, contrastant avec la solennité hiératique des registres supérieurs.</p>",
+  "desc": "<p>Cette fresque monumentale, qui occupe l'intégralité du mur occidental de la nef de l'abbaye de Pomposa  (le revers de la façade), représente le Jugement dernier. Réalisée au milieu du XIVe siècle par l'école de Vitale da Bologna, elle complète le programme iconographique de l'abbaye de Pomposa en offrant aux fidèles une vision spectaculaire de la fin des temps au moment où ils quittent l'édifice.</p><p>L'œuvre s'organise en plusieurs registres horizontaux rigoureusement hiérarchisés. Au sommet, dans la partie la plus proche de la charpente, le Christ apparaît en tant que Juge suprême, entouré d'anges et des symboles de la Passion. Juste au-dessous, il est représenté une seconde fois au centre d'une mandorle lumineuse, entouré de la cour céleste, des apôtres et de la Vierge, illustrant le triomphe de l'Église.</p><p>Le registre médian est consacré à la séparation des âmes. À la droite du Christ (gauche du spectateur), les élus sont accueillis par des anges vers le Paradis, représenté comme une cité ordonnée et paisible. À l'opposé, à sa gauche, les damnés sont précipités vers l'Enfer. Cette transition est marquée par une iconographie dynamique où le mouvement des corps exprime soit l'ascension sereine, soit la chute terrifiée.</p><p>La partie inférieure droite de la fresque est la plus saisissante : elle dépeint l'Enfer avec une verve narrative typique du style bolonais de l'époque. On y voit des démons grotesques infligeant divers supplices aux pécheurs, tandis qu'une figure monstrueuse de Satan dévore les condamnés. Ce réalisme dramatique, presque satirique par endroits, visait à frapper l'imagination et à inciter à la pénitence, contrastant avec la solennité hiératique des registres supérieurs.</p>",
+  "contemporaryArt": {
+    "title": "Bas Moyen Âge • L'Essor du Gothique & l'aube du Trecento",
+    "events": [
+      "1250 – 1300 : Apogée de l'art gothique rayonnant en France et construction de la Sainte-Chapelle de Paris.",
+      "1305 – 1309 : Installation de la papauté en Avignon sous Clément V et grand schisme d'Occident.",
+      "1348 : La terrible épidémie de Peste noire frappe l'Italie et bouleverse la sensibilité spirituelle européenne.",
+      "1380 – 1400 : Diffusion européenne du style Gothique international entre Paris, Dijon, Prague et Florence."
+    ]
+  }
+},
+{
+  "id": "fresque_le_christ_pantocrator_et_la_cour_celeste_65",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident : Trecento & École de Bologne",
+  "century": "XIVe siècle (1351 – 1352)",
+  "centuryDisplay": "1351 – 1352",
+  "centuryNumeric": 1351,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Le Christ Pantocrator et la Cour céleste par Vitale da Bologna (Abside de Pomposa)",
+  "site": "Abbaye Sainte-Marie de Pomposa (Codigoro, Ferrare, Italie)",
+  "originSite": "Église abbatiale et réfectoire de Pomposa",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczMSlAEo7vUEmnG01WYq8AqefvprZyzq2VUaEwfO-9MMeVB2NskPYaWFYy1-mmyb8xA-B5WTAU9fY4gpi0N0S4P857UE3-lzQ0v-Zh-x84EDvqgc24T9ejPwTDyeDya9G2eopC4y941E2G569uUAntrOBw=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczMSlAEo7vUEmnG01WYq8AqefvprZyzq2VUaEwfO-9MMeVB2NskPYaWFYy1-mmyb8xA-B5WTAU9fY4gpi0N0S4P857UE3-lzQ0v-Zh-x84EDvqgc24T9ejPwTDyeDya9G2eopC4y941E2G569uUAntrOBw=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "italie",
+    "pomposa",
+    "vitale da bologna",
+    "rimini",
+    "trecento",
+    "gothique",
+    "fresque"
+  ],
+  "chips": [
+    "1351 – 1352",
+    "Trecento italien",
+    "Vitale da Bologna & École de Rimini",
+    "Abbaye de Pomposa",
+    "Italie"
+  ],
+  "narrative": "<p>Cette vaste composition murale orne les parois de la nef de l'église abbatiale de Pomposa et constitue l'un des cycles narratifs les plus denses de la peinture italienne du XIVe siècle. Réalisées par l'entourage de Vitale da Bologna, ces fresques sont organisées en registres horizontaux qui se lisent comme une Bible illustrée, destinée à l'instruction des fidèles et des moines.</p><p>Le registre supérieur est consacré aux scènes de l'Ancien Testament, tandis que le registre médian détaille la vie du Christ, du Nouveau Testament. Sur le détail présenté, on distingue nettement la scène de la Présentation au Temple, où la Vierge confie l'Enfant au vieux Siméon sous une architecture gothique délicate, suivie de la scène du Baptême du Christ dans le Jourdain. Le style se caractérise par une expressivité marquée, avec des personnages aux silhouettes allongées et des visages aux traits prononcés, typiques de l'école bolonaise qui privilégie le mouvement et l'émotion sur la statisme formel.</p><p>En bas de la composition, juste au-dessus des arcades, se déploie un troisième registre illustrant les scènes de l'Apocalypse selon saint Jean. Cette partie se distingue par son caractère fantastique et visionnaire, montrant des anges aux ailes déployées et des figures allégoriques évoluant dans un espace plus abstrait. Les inscriptions en latin courant sous les scènes servent de guide narratif, liant le texte sacré à l'image dans une unité didactique parfaite.</p><p>L'ensemble de la nef crée ainsi un parcours spirituel complet, partant de la Création au sommet pour descendre vers la Rédemption et se conclure par les visions prophétiques de la fin des temps. La palette chromatique utilise des pigments naturels où les terres d'ocre et de Sienne dominent, créant une atmosphère chaleureuse qui unifie visuellement la nef, malgré la diversité des récits représentés.</p>",
+  "desc": "<p>Cette vaste composition murale orne les parois de la nef de l'église abbatiale de Pomposa et constitue l'un des cycles narratifs les plus denses de la peinture italienne du XIVe siècle. Réalisées par l'entourage de Vitale da Bologna, ces fresques sont organisées en registres horizontaux qui se lisent comme une Bible illustrée, destinée à l'instruction des fidèles et des moines.</p><p>Le registre supérieur est consacré aux scènes de l'Ancien Testament, tandis que le registre médian détaille la vie du Christ, du Nouveau Testament. Sur le détail présenté, on distingue nettement la scène de la Présentation au Temple, où la Vierge confie l'Enfant au vieux Siméon sous une architecture gothique délicate, suivie de la scène du Baptême du Christ dans le Jourdain. Le style se caractérise par une expressivité marquée, avec des personnages aux silhouettes allongées et des visages aux traits prononcés, typiques de l'école bolonaise qui privilégie le mouvement et l'émotion sur la statisme formel.</p><p>En bas de la composition, juste au-dessus des arcades, se déploie un troisième registre illustrant les scènes de l'Apocalypse selon saint Jean. Cette partie se distingue par son caractère fantastique et visionnaire, montrant des anges aux ailes déployées et des figures allégoriques évoluant dans un espace plus abstrait. Les inscriptions en latin courant sous les scènes servent de guide narratif, liant le texte sacré à l'image dans une unité didactique parfaite.</p><p>L'ensemble de la nef crée ainsi un parcours spirituel complet, partant de la Création au sommet pour descendre vers la Rédemption et se conclure par les visions prophétiques de la fin des temps. La palette chromatique utilise des pigments naturels où les terres d'ocre et de Sienne dominent, créant une atmosphère chaleureuse qui unifie visuellement la nef, malgré la diversité des récits représentés.</p>",
+  "contemporaryArt": {
+    "title": "Bas Moyen Âge • L'Essor du Gothique & l'aube du Trecento",
+    "events": [
+      "1250 – 1300 : Apogée de l'art gothique rayonnant en France et construction de la Sainte-Chapelle de Paris.",
+      "1305 – 1309 : Installation de la papauté en Avignon sous Clément V et grand schisme d'Occident.",
+      "1348 : La terrible épidémie de Peste noire frappe l'Italie et bouleverse la sensibilité spirituelle européenne.",
+      "1380 – 1400 : Diffusion européenne du style Gothique international entre Paris, Dijon, Prague et Florence."
+    ]
+  }
+},
+{
+  "id": "fresque_le_christ_pantocrator_et_la_cour_celeste_66",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident : Trecento & École de Bologne",
+  "century": "XIVe siècle (1351 – 1352)",
+  "centuryDisplay": "1351 – 1352",
+  "centuryNumeric": 1351,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Le Christ Pantocrator et la Cour céleste par Vitale da Bologna (Abside de Pomposa)",
+  "site": "Abbaye Sainte-Marie de Pomposa (Codigoro, Ferrare, Italie)",
+  "originSite": "Église abbatiale et réfectoire de Pomposa",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczOacWX1b1vbbhIUbMr3KGymLvQJ4wH9qVi9yc8_Ht9DwoxWENjWee20kduBrVvP03y9epDTFM6q9CxUxEkgzsRN7h4v_O3IVXHksr-E-dckoFX8s3fioF8N1eTJLTibAYhggrq7oFsASGa9_Isl-OmlHA=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczOacWX1b1vbbhIUbMr3KGymLvQJ4wH9qVi9yc8_Ht9DwoxWENjWee20kduBrVvP03y9epDTFM6q9CxUxEkgzsRN7h4v_O3IVXHksr-E-dckoFX8s3fioF8N1eTJLTibAYhggrq7oFsASGa9_Isl-OmlHA=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "italie",
+    "pomposa",
+    "vitale da bologna",
+    "rimini",
+    "trecento",
+    "gothique",
+    "fresque"
+  ],
+  "chips": [
+    "1351 – 1352",
+    "Trecento italien",
+    "Vitale da Bologna & École de Rimini",
+    "Abbaye de Pomposa",
+    "Italie"
+  ],
+  "narrative": "<p>Cette section spécifique de la fresque du Jugement dernier, située au registre inférieur droit sur le mur du revers de la façade de l'abbaye de Pomposa, illustre la vision médiévale de l'Enfer avec une force expressive saisissante. Attribuée à l'école de Vitale da Bologna au XIVe siècle, cette scène s'éloigne de la solennité des registres supérieurs pour adopter un langage visuel cru et narratif, destiné à marquer durablement l'esprit du fidèle avant qu'il ne quitte l'abbatiale.</p><p>Le centre de la composition est dominé par la figure monstrueuse de Satan, représenté comme une créature cornue aux yeux exorbités. Dans une mise en scène terrifiante de la gloutonnerie infernale, il est montré en train de dévorer les âmes des condamnés, une iconographie classique destinée à symboliser l'anéantissement définitif. Son corps massif semble émerger d'un chaudron bouillonnant, entouré d'une nuée de démons s'activant à tourmenter les pécheurs.</p><p>Autour de cette figure centrale, la fresque détaille une série de supplices spécifiques. On y observe des corps désarticulés, suspendus ou jetés dans les flammes, où chaque geste des bourreaux démoniaques est rendu avec un dynamisme presque grotesque. L'utilisation de tons rouges et ocre chauds accentue l'atmosphère d'incendie permanent propre au royaume des ténèbres, créant un contraste violent avec le bleu céleste et l'or de la mandorle du Christ située plus haut sur le même mur.</p><p>Cette représentation de l'Enfer à Pomposa est particulièrement remarquable par son réalisme psychologique : la terreur sur les visages des damnés et la cruauté jubilatoire des démons témoignent de l'influence de la peinture bolonaise, plus attachée à l'émotion humaine qu'aux canons esthétiques rigides. Elle constitue un témoignage précieux sur les peurs eschatologiques de la fin du Moyen Âge, transformant la paroi de pierre en un avertissement moral impitoyable.</p>",
+  "desc": "<p>Cette section spécifique de la fresque du Jugement dernier, située au registre inférieur droit sur le mur du revers de la façade de l'abbaye de Pomposa, illustre la vision médiévale de l'Enfer avec une force expressive saisissante. Attribuée à l'école de Vitale da Bologna au XIVe siècle, cette scène s'éloigne de la solennité des registres supérieurs pour adopter un langage visuel cru et narratif, destiné à marquer durablement l'esprit du fidèle avant qu'il ne quitte l'abbatiale.</p><p>Le centre de la composition est dominé par la figure monstrueuse de Satan, représenté comme une créature cornue aux yeux exorbités. Dans une mise en scène terrifiante de la gloutonnerie infernale, il est montré en train de dévorer les âmes des condamnés, une iconographie classique destinée à symboliser l'anéantissement définitif. Son corps massif semble émerger d'un chaudron bouillonnant, entouré d'une nuée de démons s'activant à tourmenter les pécheurs.</p><p>Autour de cette figure centrale, la fresque détaille une série de supplices spécifiques. On y observe des corps désarticulés, suspendus ou jetés dans les flammes, où chaque geste des bourreaux démoniaques est rendu avec un dynamisme presque grotesque. L'utilisation de tons rouges et ocre chauds accentue l'atmosphère d'incendie permanent propre au royaume des ténèbres, créant un contraste violent avec le bleu céleste et l'or de la mandorle du Christ située plus haut sur le même mur.</p><p>Cette représentation de l'Enfer à Pomposa est particulièrement remarquable par son réalisme psychologique : la terreur sur les visages des damnés et la cruauté jubilatoire des démons témoignent de l'influence de la peinture bolonaise, plus attachée à l'émotion humaine qu'aux canons esthétiques rigides. Elle constitue un témoignage précieux sur les peurs eschatologiques de la fin du Moyen Âge, transformant la paroi de pierre en un avertissement moral impitoyable.</p>",
+  "contemporaryArt": {
+    "title": "Bas Moyen Âge • L'Essor du Gothique & l'aube du Trecento",
+    "events": [
+      "1250 – 1300 : Apogée de l'art gothique rayonnant en France et construction de la Sainte-Chapelle de Paris.",
+      "1305 – 1309 : Installation de la papauté en Avignon sous Clément V et grand schisme d'Occident.",
+      "1348 : La terrible épidémie de Peste noire frappe l'Italie et bouleverse la sensibilité spirituelle européenne.",
+      "1380 – 1400 : Diffusion européenne du style Gothique international entre Paris, Dijon, Prague et Florence."
+    ]
+  }
+},
+{
+  "id": "fresque_la_crucifixion_et_la_resurrection_du_chr_67",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident : Trecento florentin",
+  "century": "XIVe siècle (vers 1340)",
+  "centuryDisplay": "v. 1340",
+  "centuryNumeric": 1340,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "La Crucifixion et la Résurrection du Christ par Taddeo Gaddi (Sacristie de Santa Croce)",
+  "site": "Basilique Santa Croce (Florence, Toscane, Italie)",
+  "originSite": "Basilique Santa Croce de Florence",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczO6-iiLClI8JfprDbvIfYqOfv0dNG42lQYYi1UnoKq_9Q4Q6Hg0uk1W5nI9fhWsX7Pty3FF6iQgOQCFZWW6Zla6HUaibbbIbatzV-OJ6D7TmcwFlvck4kAbXMw1aa2CZqXH_prkKjv8bFpcjfkS_rDzaA=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczO6-iiLClI8JfprDbvIfYqOfv0dNG42lQYYi1UnoKq_9Q4Q6Hg0uk1W5nI9fhWsX7Pty3FF6iQgOQCFZWW6Zla6HUaibbbIbatzV-OJ6D7TmcwFlvck4kAbXMw1aa2CZqXH_prkKjv8bFpcjfkS_rDzaA=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "italie",
+    "florence",
+    "santa croce",
+    "taddeo gaddi",
+    "agnolo gaddi",
+    "trecento",
+    "fresque"
+  ],
+  "chips": [
+    "v. 1340",
+    "Trecento florentin",
+    "Héritage giottesque",
+    "Basilique Santa Croce",
+    "Florence"
+  ],
+  "narrative": "<p>Cette notice présente l'ensemble décoratif de la sacristie de la basilique Santa Croce à Florence, un espace conçu au XIVe siècle sous le patronage de la famille Peruzzi. L'œuvre centrale qui domine le mur méridional est un vaste cycle de fresques réalisé vers 1340 par l'artiste Taddeo Gaddi, le plus proche et fidèle disciple de Giotto. Cette composition monumentale s'inscrit dans la tradition du Trecento florentin, caractérisée par une recherche de profondeur spatiale et une humanisation des figures sacrées.</p><p>L'ensemble se structure autour de trois scènes majeures de la Passion et de la Résurrection du Christ, séparées par des frises décoratives raffinées. Au centre, la Crucifixion s'impose par sa solennité, présentant le Christ en croix entouré d'anges éplorés recueillant son sang, tandis qu'au pied de la croix se tiennent la Vierge Marie, saint Jean et les saintes femmes dans une attitude de recueillement hiératique. Sur le compartiment de gauche, le Chemin du Calvaire dépeint une foule compacte et dynamique, témoignant de l'habileté de Gaddi à orchestrer des compositions narratives complexes et à exprimer la tension dramatique à travers les postures des soldats et la douleur des suiveurs du Christ. À droite, la Résurrection montre le Sauveur s'élevant victorieux au-dessus de son tombeau, entouré de soldats romains plongés dans un sommeil catatonique, illustrant le triomphe de la vie sur la mort par des coloris clairs et une lumière symbolique.</p><p>Au sommet de cette paroi, le tympan triangulaire accueille une scène de l'Ascension qui parachève le programme iconographique, reliant le sacrifice terrestre à la gloire céleste. La sacristie elle-même conserve son mobilier d'origine, notamment les imposantes armoires en bois sculpté et marqueté datant du XVe siècle, qui servaient à ranger les parements liturgiques et les reliquaires. L'architecture de la salle, avec son plafond à charpente de bois apparente et ses fenêtres gothiques, crée une atmosphère de dignité monastique qui met en valeur la puissance visuelle des fresques. Ce cycle demeure l'un des témoignages les plus aboutis de l'héritage giottesque, où la rigueur géométrique et l'expressivité émotionnelle se conjuguent pour servir la spiritualité franciscaine.</p>",
+  "desc": "<p>Cette notice présente l'ensemble décoratif de la sacristie de la basilique Santa Croce à Florence, un espace conçu au XIVe siècle sous le patronage de la famille Peruzzi. L'œuvre centrale qui domine le mur méridional est un vaste cycle de fresques réalisé vers 1340 par l'artiste Taddeo Gaddi, le plus proche et fidèle disciple de Giotto. Cette composition monumentale s'inscrit dans la tradition du Trecento florentin, caractérisée par une recherche de profondeur spatiale et une humanisation des figures sacrées.</p><p>L'ensemble se structure autour de trois scènes majeures de la Passion et de la Résurrection du Christ, séparées par des frises décoratives raffinées. Au centre, la Crucifixion s'impose par sa solennité, présentant le Christ en croix entouré d'anges éplorés recueillant son sang, tandis qu'au pied de la croix se tiennent la Vierge Marie, saint Jean et les saintes femmes dans une attitude de recueillement hiératique. Sur le compartiment de gauche, le Chemin du Calvaire dépeint une foule compacte et dynamique, témoignant de l'habileté de Gaddi à orchestrer des compositions narratives complexes et à exprimer la tension dramatique à travers les postures des soldats et la douleur des suiveurs du Christ. À droite, la Résurrection montre le Sauveur s'élevant victorieux au-dessus de son tombeau, entouré de soldats romains plongés dans un sommeil catatonique, illustrant le triomphe de la vie sur la mort par des coloris clairs et une lumière symbolique.</p><p>Au sommet de cette paroi, le tympan triangulaire accueille une scène de l'Ascension qui parachève le programme iconographique, reliant le sacrifice terrestre à la gloire céleste. La sacristie elle-même conserve son mobilier d'origine, notamment les imposantes armoires en bois sculpté et marqueté datant du XVe siècle, qui servaient à ranger les parements liturgiques et les reliquaires. L'architecture de la salle, avec son plafond à charpente de bois apparente et ses fenêtres gothiques, crée une atmosphère de dignité monastique qui met en valeur la puissance visuelle des fresques. Ce cycle demeure l'un des témoignages les plus aboutis de l'héritage giottesque, où la rigueur géométrique et l'expressivité émotionnelle se conjuguent pour servir la spiritualité franciscaine.</p>",
+  "contemporaryArt": {
+    "title": "Bas Moyen Âge • L'Essor du Gothique & l'aube du Trecento",
+    "events": [
+      "1250 – 1300 : Apogée de l'art gothique rayonnant en France et construction de la Sainte-Chapelle de Paris.",
+      "1305 – 1309 : Installation de la papauté en Avignon sous Clément V et grand schisme d'Occident.",
+      "1348 : La terrible épidémie de Peste noire frappe l'Italie et bouleverse la sensibilité spirituelle européenne.",
+      "1380 – 1400 : Diffusion européenne du style Gothique international entre Paris, Dijon, Prague et Florence."
+    ]
+  }
+},
+{
+  "id": "fresque_la_crucifixion_et_la_resurrection_du_chr_68",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident : Trecento florentin",
+  "century": "XIVe siècle (vers 1340)",
+  "centuryDisplay": "v. 1340",
+  "centuryNumeric": 1340,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "La Crucifixion et la Résurrection du Christ par Taddeo Gaddi (Sacristie de Santa Croce)",
+  "site": "Basilique Santa Croce (Florence, Toscane, Italie)",
+  "originSite": "Basilique Santa Croce de Florence",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczP_TFr8APERKDA0wJfmAAdb9VdE4Wjkmm1gFRGdSNI6Co3gGsNxsfkjNXtbcqHBjrPHtmk_swBR3sCt5_Os6CDI1gPnl2pvxo_Fk-U7DH5L6QL35DVzXTntilkgKJ5qqIjjCZK8GI-vjURja3P-xv5icQ=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczP_TFr8APERKDA0wJfmAAdb9VdE4Wjkmm1gFRGdSNI6Co3gGsNxsfkjNXtbcqHBjrPHtmk_swBR3sCt5_Os6CDI1gPnl2pvxo_Fk-U7DH5L6QL35DVzXTntilkgKJ5qqIjjCZK8GI-vjURja3P-xv5icQ=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "italie",
+    "florence",
+    "santa croce",
+    "taddeo gaddi",
+    "agnolo gaddi",
+    "trecento",
+    "fresque"
+  ],
+  "chips": [
+    "v. 1340",
+    "Trecento florentin",
+    "Héritage giottesque",
+    "Basilique Santa Croce",
+    "Florence"
+  ],
+  "narrative": "<p>Cette vue rapprochée permet d'apprécier la finesse narrative et technique de Taddeo Gaddi dans deux des scènes principales du mur sud de la sacristie. À gauche, la Crucifixion se détache sur un fond d'un bleu profond, où le corps du Christ, marqué par une élongation élégante typique de l'influence gothique, est entouré d'anges dont les gestes désespérés accentuent le pathétique de la scène. Au pied de la croix, la transition vers le style de la Renaissance est visible dans le traitement des drapés et la présence physique des saints personnages, notamment saint François d'Assise reconnaissable à sa bure, rappelant l'importance de l'ordre franciscain dans la basilique Santa Croce.</p><p>À droite, la Résurrection témoigne d'une maîtrise remarquable de la lumière et du paysage. Le Christ s'élève dans une mandorle lumineuse, tenant l'étendard de la victoire, tandis que le premier plan offre un contraste saisissant avec les soldats romains endormis. Ces derniers sont représentés dans des poses complexes et raccourcies, démontrant la volonté de l'artiste de rompre avec la rigidité médiévale pour explorer le naturalisme anatomique. Le décor environnant, avec ses rochers escarpés et ses arbres stylisés, sert de cadre à une nature qui semble s'éveiller en même temps que le divin.</p><p>Les frises qui encadrent ces scènes sont ornées de motifs géométriques et de médaillons contenant des figures de prophètes ou de saints, témoignant du soin apporté à la structure architecturale peinte qui organise l'espace mural. La palette chromatique, dominée par des ocres, des rouges terreux et des bleus intenses, conserve ici une grande vivacité, illustrant la qualité de la technique de la fresque de l'école florentine. Ce gros plan souligne l'équilibre entre la monumentalité didactique nécessaire à un espace liturgique et la délicatesse des détails qui caractérise l'apogée de l'atelier des Gaddi.</p>",
+  "desc": "<p>Cette vue rapprochée permet d'apprécier la finesse narrative et technique de Taddeo Gaddi dans deux des scènes principales du mur sud de la sacristie. À gauche, la Crucifixion se détache sur un fond d'un bleu profond, où le corps du Christ, marqué par une élongation élégante typique de l'influence gothique, est entouré d'anges dont les gestes désespérés accentuent le pathétique de la scène. Au pied de la croix, la transition vers le style de la Renaissance est visible dans le traitement des drapés et la présence physique des saints personnages, notamment saint François d'Assise reconnaissable à sa bure, rappelant l'importance de l'ordre franciscain dans la basilique Santa Croce.</p><p>À droite, la Résurrection témoigne d'une maîtrise remarquable de la lumière et du paysage. Le Christ s'élève dans une mandorle lumineuse, tenant l'étendard de la victoire, tandis que le premier plan offre un contraste saisissant avec les soldats romains endormis. Ces derniers sont représentés dans des poses complexes et raccourcies, démontrant la volonté de l'artiste de rompre avec la rigidité médiévale pour explorer le naturalisme anatomique. Le décor environnant, avec ses rochers escarpés et ses arbres stylisés, sert de cadre à une nature qui semble s'éveiller en même temps que le divin.</p><p>Les frises qui encadrent ces scènes sont ornées de motifs géométriques et de médaillons contenant des figures de prophètes ou de saints, témoignant du soin apporté à la structure architecturale peinte qui organise l'espace mural. La palette chromatique, dominée par des ocres, des rouges terreux et des bleus intenses, conserve ici une grande vivacité, illustrant la qualité de la technique de la fresque de l'école florentine. Ce gros plan souligne l'équilibre entre la monumentalité didactique nécessaire à un espace liturgique et la délicatesse des détails qui caractérise l'apogée de l'atelier des Gaddi.</p>",
+  "contemporaryArt": {
+    "title": "Bas Moyen Âge • L'Essor du Gothique & l'aube du Trecento",
+    "events": [
+      "1250 – 1300 : Apogée de l'art gothique rayonnant en France et construction de la Sainte-Chapelle de Paris.",
+      "1305 – 1309 : Installation de la papauté en Avignon sous Clément V et grand schisme d'Occident.",
+      "1348 : La terrible épidémie de Peste noire frappe l'Italie et bouleverse la sensibilité spirituelle européenne.",
+      "1380 – 1400 : Diffusion européenne du style Gothique international entre Paris, Dijon, Prague et Florence."
+    ]
+  }
+},
+{
+  "id": "fresque_l_histoire_de_la_vierge_et_l_annonce_aux_69",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident : Trecento florentin",
+  "century": "XIVe siècle (vers 1328 – 1330)",
+  "centuryDisplay": "1328",
+  "centuryNumeric": 1328,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "L'Histoire de la Vierge et l'Annonce aux bergers nocturne (Chapelle Baroncelli, Santa Croce)",
+  "site": "Basilique Santa Croce (Florence, Toscane, Italie)",
+  "originSite": "Basilique Santa Croce de Florence",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczPIap9ZddIhbXTanFjAiZF31nGuddg9dcHcC62KGJmrMvb9BdrIt6hYzMHLi6mUUyuDcZAelrGDExY1ig1RUdA9Ls5Nkt_8UQilYd8lZWEOQrZbtrXHQE6LfV6ezb9Cvqve9ZkNjIW8pJq3hc9PK_SK4A=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczPIap9ZddIhbXTanFjAiZF31nGuddg9dcHcC62KGJmrMvb9BdrIt6hYzMHLi6mUUyuDcZAelrGDExY1ig1RUdA9Ls5Nkt_8UQilYd8lZWEOQrZbtrXHQE6LfV6ezb9Cvqve9ZkNjIW8pJq3hc9PK_SK4A=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "italie",
+    "florence",
+    "santa croce",
+    "taddeo gaddi",
+    "agnolo gaddi",
+    "trecento",
+    "fresque"
+  ],
+  "chips": [
+    "1328",
+    "Trecento florentin",
+    "Héritage giottesque",
+    "Basilique Santa Croce",
+    "Florence"
+  ],
+  "narrative": "<p>La chapelle Baroncelli, située à l'extrémité du transept sud de la basilique Santa Croce, représente un jalon fondamental de l'art occidental, marquant l'émancipation du style gothique vers un naturalisme inédit. Commandée par la puissante famille de banquiers Baroncelli et achevée autour de 1328, elle est l'œuvre maîtresse de Taddeo Gaddi, le plus proche collaborateur et disciple de Giotto. Contrairement à la chapelle Castellani, plus tardive, ce cycle se distingue par des innovations techniques et spatiales audacieuses pour l'époque, notamment dans la gestion de la lumière et de la perspective architecturale.</p><p>Le cycle pictural est consacré à l'Histoire de la Vierge, se déployant sur la paroi orientale avec une narration qui débute dans la lunette supérieure pour descendre vers le sol. Gaddi y démontre une maîtrise exceptionnelle de la scénographie urbaine, utilisant des structures architecturales complexes pour cadrer les scènes, comme dans la Présentation de la Vierge au Temple où l'escalier monumental crée une profondeur saisissante. L'une des scènes les plus célèbres de ce cycle est l'Annonce aux bergers, considérée comme l'une des premières représentations nocturnes de l'histoire de la peinture italienne ; l'artiste y expérimente les effets d'un éclairage dramatique et directionnel émanant de l'ange, qui vient frapper les figures et les rochers dans l'obscurité.</p><p>La voûte d'arêtes, peinte d'un bleu profond parsemé d'étoiles dorées, accueille dans ses médaillons les Vertus théologales et cardinales, rappelant la dimension morale et spirituelle du cycle marial. L'ensemble est complété par un vitrail monumental, également conçu par Taddeo Gaddi, qui inonde l'espace d'une lumière colorée changeante, interagissant avec la dorure des fresques. Au-delà de sa richesse iconographique, la chapelle Baroncelli témoigne de la volonté de la bourgeoisie florentine du XIVe siècle d'allier dévotion religieuse et ostentation artistique, confiant à Gaddi la mission de surpasser les modèles giottesques par une plus grande complexité narrative et une attention minutieuse aux détails du quotidien.</p>",
+  "desc": "<p>La chapelle Baroncelli, située à l'extrémité du transept sud de la basilique Santa Croce, représente un jalon fondamental de l'art occidental, marquant l'émancipation du style gothique vers un naturalisme inédit. Commandée par la puissante famille de banquiers Baroncelli et achevée autour de 1328, elle est l'œuvre maîtresse de Taddeo Gaddi, le plus proche collaborateur et disciple de Giotto. Contrairement à la chapelle Castellani, plus tardive, ce cycle se distingue par des innovations techniques et spatiales audacieuses pour l'époque, notamment dans la gestion de la lumière et de la perspective architecturale.</p><p>Le cycle pictural est consacré à l'Histoire de la Vierge, se déployant sur la paroi orientale avec une narration qui débute dans la lunette supérieure pour descendre vers le sol. Gaddi y démontre une maîtrise exceptionnelle de la scénographie urbaine, utilisant des structures architecturales complexes pour cadrer les scènes, comme dans la Présentation de la Vierge au Temple où l'escalier monumental crée une profondeur saisissante. L'une des scènes les plus célèbres de ce cycle est l'Annonce aux bergers, considérée comme l'une des premières représentations nocturnes de l'histoire de la peinture italienne ; l'artiste y expérimente les effets d'un éclairage dramatique et directionnel émanant de l'ange, qui vient frapper les figures et les rochers dans l'obscurité.</p><p>La voûte d'arêtes, peinte d'un bleu profond parsemé d'étoiles dorées, accueille dans ses médaillons les Vertus théologales et cardinales, rappelant la dimension morale et spirituelle du cycle marial. L'ensemble est complété par un vitrail monumental, également conçu par Taddeo Gaddi, qui inonde l'espace d'une lumière colorée changeante, interagissant avec la dorure des fresques. Au-delà de sa richesse iconographique, la chapelle Baroncelli témoigne de la volonté de la bourgeoisie florentine du XIVe siècle d'allier dévotion religieuse et ostentation artistique, confiant à Gaddi la mission de surpasser les modèles giottesques par une plus grande complexité narrative et une attention minutieuse aux détails du quotidien.</p>",
+  "contemporaryArt": {
+    "title": "Bas Moyen Âge • L'Essor du Gothique & l'aube du Trecento",
+    "events": [
+      "1250 – 1300 : Apogée de l'art gothique rayonnant en France et construction de la Sainte-Chapelle de Paris.",
+      "1305 – 1309 : Installation de la papauté en Avignon sous Clément V et grand schisme d'Occident.",
+      "1348 : La terrible épidémie de Peste noire frappe l'Italie et bouleverse la sensibilité spirituelle européenne.",
+      "1380 – 1400 : Diffusion européenne du style Gothique international entre Paris, Dijon, Prague et Florence."
+    ]
+  }
+},
+{
+  "id": "fresque_l_arbre_de_vie_lignum_vitae_et_la_cene_p_70",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident : Trecento florentin",
+  "century": "XIVe siècle (vers 1340 – 1345)",
+  "centuryDisplay": "v. 1340",
+  "centuryNumeric": 1340,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "L'Arbre de Vie (Lignum Vitae) et la Cène par Taddeo Gaddi (Réfectoire de Santa Croce)",
+  "site": "Basilique Santa Croce (Florence, Toscane, Italie)",
+  "originSite": "Basilique Santa Croce de Florence",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczMVWCKxG2WEzf33oM_ubU53h6KXED3FM86gzNE8NsTaI7OodIN74Qg7gTRJV_6gPfySKI2Hk7_tiGyDkIIFyopvLTem0TBmDd9qloVJrcdroyX5nDWZvu70if4mUWEcRtJppOqazubZuSXxKjnC-F5J7g=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczMVWCKxG2WEzf33oM_ubU53h6KXED3FM86gzNE8NsTaI7OodIN74Qg7gTRJV_6gPfySKI2Hk7_tiGyDkIIFyopvLTem0TBmDd9qloVJrcdroyX5nDWZvu70if4mUWEcRtJppOqazubZuSXxKjnC-F5J7g=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "italie",
+    "florence",
+    "santa croce",
+    "taddeo gaddi",
+    "agnolo gaddi",
+    "trecento",
+    "fresque"
+  ],
+  "chips": [
+    "v. 1340",
+    "Trecento florentin",
+    "Héritage giottesque",
+    "Basilique Santa Croce",
+    "Florence"
+  ],
+  "narrative": "<p>Imposante fresque de l'Arbre de Vie (Lignum Vitae), chef-d'œuvre de Taddeo Gaddi réalisé vers 1340-1345 pour le réfectoire de la basilique Santa Croce à Florence. Élève le plus fidèle de Giotto, Gaddi déploie ici une composition monumentale qui occupe tout le mur de fond de la salle, illustrant la complexité de la pensée franciscaine médiévale. L'œuvre s'inspire directement du traité mystique de saint Bonaventure, le Lignum Vitae, qui utilise l'image d'un arbre pour méditer sur la vie, la Passion et la gloire du Christ. Au centre de la composition se dresse le Christ crucifié sur un tronc dont partent douze branches chargées de phylactères et de médaillons, symbolisant les vertus et les enseignements découlant du sacrifice divin. À la base de l'arbre, la figure agenouillée de saint François d'Assise embrasse la croix, soulignant l'identification de l'ordre avec les souffrances du Christ, tandis qu'une foule de saints et de prophètes assiste à la scène dans une organisation hiérarchique rigoureuse.</p><p>La fresque centrale est entourée de quatre scènes narratives qui complètent ce programme iconographique : la stigmatisation de saint François, saint Louis de Toulouse servant à manger aux pauvres, le repas chez le Pharisien et l'épisode de saint Benoît au désert. Ces scènes célèbrent les thèmes de la charité et de l'ascèse, particulièrement appropriés pour le lieu de repas des moines. La partie inférieure de la paroi est occupée par une vaste Cène, l'une des plus anciennes représentations de ce sujet à cette échelle dans un réfectoire florentin, préfigurant une longue tradition artistique. Le style de Gaddi se manifeste par une recherche de volume et une solennité héritées de Giotto, bien que l'artiste y injecte une richesse décorative et une complexité graphique nouvelles, visibles dans l'entrelacs des branches et le raffinement des bordures ornementales. Cette œuvre constitue un exemple exceptionnel de la fonction didactique de la peinture religieuse, transformant le réfectoire en un espace de contemplation théologique profonde.</p>",
+  "desc": "<p>Imposante fresque de l'Arbre de Vie (Lignum Vitae), chef-d'œuvre de Taddeo Gaddi réalisé vers 1340-1345 pour le réfectoire de la basilique Santa Croce à Florence. Élève le plus fidèle de Giotto, Gaddi déploie ici une composition monumentale qui occupe tout le mur de fond de la salle, illustrant la complexité de la pensée franciscaine médiévale. L'œuvre s'inspire directement du traité mystique de saint Bonaventure, le Lignum Vitae, qui utilise l'image d'un arbre pour méditer sur la vie, la Passion et la gloire du Christ. Au centre de la composition se dresse le Christ crucifié sur un tronc dont partent douze branches chargées de phylactères et de médaillons, symbolisant les vertus et les enseignements découlant du sacrifice divin. À la base de l'arbre, la figure agenouillée de saint François d'Assise embrasse la croix, soulignant l'identification de l'ordre avec les souffrances du Christ, tandis qu'une foule de saints et de prophètes assiste à la scène dans une organisation hiérarchique rigoureuse.</p><p>La fresque centrale est entourée de quatre scènes narratives qui complètent ce programme iconographique : la stigmatisation de saint François, saint Louis de Toulouse servant à manger aux pauvres, le repas chez le Pharisien et l'épisode de saint Benoît au désert. Ces scènes célèbrent les thèmes de la charité et de l'ascèse, particulièrement appropriés pour le lieu de repas des moines. La partie inférieure de la paroi est occupée par une vaste Cène, l'une des plus anciennes représentations de ce sujet à cette échelle dans un réfectoire florentin, préfigurant une longue tradition artistique. Le style de Gaddi se manifeste par une recherche de volume et une solennité héritées de Giotto, bien que l'artiste y injecte une richesse décorative et une complexité graphique nouvelles, visibles dans l'entrelacs des branches et le raffinement des bordures ornementales. Cette œuvre constitue un exemple exceptionnel de la fonction didactique de la peinture religieuse, transformant le réfectoire en un espace de contemplation théologique profonde.</p>",
+  "contemporaryArt": {
+    "title": "Bas Moyen Âge • L'Essor du Gothique & l'aube du Trecento",
+    "events": [
+      "1250 – 1300 : Apogée de l'art gothique rayonnant en France et construction de la Sainte-Chapelle de Paris.",
+      "1305 – 1309 : Installation de la papauté en Avignon sous Clément V et grand schisme d'Occident.",
+      "1348 : La terrible épidémie de Peste noire frappe l'Italie et bouleverse la sensibilité spirituelle européenne.",
+      "1380 – 1400 : Diffusion européenne du style Gothique international entre Paris, Dijon, Prague et Florence."
+    ]
+  }
+},
+{
+  "id": "fresque_la_legende_de_la_vraie_croix_par_agnolo__71",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident : Trecento florentin",
+  "century": "XIVe siècle (vers 1380 – 1390)",
+  "centuryDisplay": "1380 – 1390",
+  "centuryNumeric": 1385,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "La Légende de la Vraie Croix par Agnolo Gaddi (Chapelle majeure de Santa Croce)",
+  "site": "Basilique Santa Croce (Florence, Toscane, Italie)",
+  "originSite": "Basilique Santa Croce de Florence",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczPlLV8nYWPYEiZDiqkwhJHXN37uEKpt6LpQcYwO2T_d0yK8KxYza_jXUTMMRN9Jt9QRFn_d1MesHI0hnEDZyNXs5nzouvqqESVKF3TzlTA3BPijy6zLFWGPHSFIZ15aTE2qbK9MHSFf7L36lo1d8F5VdQ=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczPlLV8nYWPYEiZDiqkwhJHXN37uEKpt6LpQcYwO2T_d0yK8KxYza_jXUTMMRN9Jt9QRFn_d1MesHI0hnEDZyNXs5nzouvqqESVKF3TzlTA3BPijy6zLFWGPHSFIZ15aTE2qbK9MHSFf7L36lo1d8F5VdQ=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "italie",
+    "florence",
+    "santa croce",
+    "taddeo gaddi",
+    "agnolo gaddi",
+    "trecento",
+    "fresque"
+  ],
+  "chips": [
+    "1380 – 1390",
+    "Trecento florentin",
+    "Héritage giottesque",
+    "Basilique Santa Croce",
+    "Florence"
+  ],
+  "narrative": "<p>La chapelle majeure de la basilique Santa Croce à Florence abrite l'un des cycles de fresques les plus vastes et les plus complexes du Trecento, consacré à la Légende de la Vraie Croix, réalisé par Agnolo Gaddi entre 1380 et 1390 environ. Cette œuvre monumentale, commandée par la famille Alberti, se déploie sur les deux parois latérales du chœur gothique, s'inspirant directement du récit de \"La Légende dorée\" de Jacques de Voragine. Le cycle narre l'histoire du bois de la Croix, depuis le rameau de l'Arbre de la connaissance planté sur la tombe d'Adam jusqu'à la restitution de la relique à Jérusalem par l'empereur Héraclius. Gaddi y déploie un style narratif foisonnant, caractéristique du goût pour le détail et l'anecdote qui annonce le gothique international.</p><p>Sur la paroi droite, illustrée par cette vue, les compositions superposent plusieurs épisodes dans de vastes paysages urbains et rocheux, témoignant d'une recherche de continuité spatiale malgré la division en registres. On y observe notamment le transport du bois sacré, la construction du pont par le roi Salomon, et plus haut, la rencontre entre la reine de Saba et le roi Salomon où la souveraine s'agenouille devant le bois dont elle a prophétisé l'importance. L'artiste utilise une palette chromatique lumineuse et variée, riche en tons pastels et en rehauts d'or, qui confère à l'ensemble une atmosphère féerique et courtoise. Les personnages, aux silhouettes allongées et élégantes, évoluent dans des architectures complexes aux perspectives encore empiriques mais d'une grande richesse décorative.</p><p>Le cycle de Gaddi se distingue par sa capacité à intégrer des éléments de la vie quotidienne florentine du XIVe siècle dans le récit biblique, offrant ainsi une lecture à la fois sacrée et contemporaine pour ses commanditaires. La présence de nombreux portraits et de costumes raffinés souligne le prestige de la famille Alberti. Malgré l'influence manifeste de son père Taddeo Gaddi et de Giotto, Agnolo s'en détache par une narration plus diffuse et moins dramatique, privilégiant la description minutieuse et le charme visuel. Cette œuvre monumentale, parfaitement intégrée à l'élan vertical de l'architecture de la basilique, demeure un jalon essentiel de la peinture tardo-gothique italienne, influençant durablement les cycles narratifs ultérieurs, dont celui, célèbre, de Piero della Francesca à Arezzo.</p>",
+  "desc": "<p>La chapelle majeure de la basilique Santa Croce à Florence abrite l'un des cycles de fresques les plus vastes et les plus complexes du Trecento, consacré à la Légende de la Vraie Croix, réalisé par Agnolo Gaddi entre 1380 et 1390 environ. Cette œuvre monumentale, commandée par la famille Alberti, se déploie sur les deux parois latérales du chœur gothique, s'inspirant directement du récit de \"La Légende dorée\" de Jacques de Voragine. Le cycle narre l'histoire du bois de la Croix, depuis le rameau de l'Arbre de la connaissance planté sur la tombe d'Adam jusqu'à la restitution de la relique à Jérusalem par l'empereur Héraclius. Gaddi y déploie un style narratif foisonnant, caractéristique du goût pour le détail et l'anecdote qui annonce le gothique international.</p><p>Sur la paroi droite, illustrée par cette vue, les compositions superposent plusieurs épisodes dans de vastes paysages urbains et rocheux, témoignant d'une recherche de continuité spatiale malgré la division en registres. On y observe notamment le transport du bois sacré, la construction du pont par le roi Salomon, et plus haut, la rencontre entre la reine de Saba et le roi Salomon où la souveraine s'agenouille devant le bois dont elle a prophétisé l'importance. L'artiste utilise une palette chromatique lumineuse et variée, riche en tons pastels et en rehauts d'or, qui confère à l'ensemble une atmosphère féerique et courtoise. Les personnages, aux silhouettes allongées et élégantes, évoluent dans des architectures complexes aux perspectives encore empiriques mais d'une grande richesse décorative.</p><p>Le cycle de Gaddi se distingue par sa capacité à intégrer des éléments de la vie quotidienne florentine du XIVe siècle dans le récit biblique, offrant ainsi une lecture à la fois sacrée et contemporaine pour ses commanditaires. La présence de nombreux portraits et de costumes raffinés souligne le prestige de la famille Alberti. Malgré l'influence manifeste de son père Taddeo Gaddi et de Giotto, Agnolo s'en détache par une narration plus diffuse et moins dramatique, privilégiant la description minutieuse et le charme visuel. Cette œuvre monumentale, parfaitement intégrée à l'élan vertical de l'architecture de la basilique, demeure un jalon essentiel de la peinture tardo-gothique italienne, influençant durablement les cycles narratifs ultérieurs, dont celui, célèbre, de Piero della Francesca à Arezzo.</p>",
+  "contemporaryArt": {
+    "title": "Bas Moyen Âge • L'Essor du Gothique & l'aube du Trecento",
+    "events": [
+      "1250 – 1300 : Apogée de l'art gothique rayonnant en France et construction de la Sainte-Chapelle de Paris.",
+      "1305 – 1309 : Installation de la papauté en Avignon sous Clément V et grand schisme d'Occident.",
+      "1348 : La terrible épidémie de Peste noire frappe l'Italie et bouleverse la sensibilité spirituelle européenne.",
+      "1380 – 1400 : Diffusion européenne du style Gothique international entre Paris, Dijon, Prague et Florence."
+    ]
+  }
+},
+{
+  "id": "fresque_vies_de_saint_jean_et_de_saint_nicolas_p_72",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident : Trecento florentin",
+  "century": "XIVe siècle (vers 1385 – 1390)",
+  "centuryDisplay": "1385 – 1390",
+  "centuryNumeric": 1385,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Vies de saint Jean et de saint Nicolas par Agnolo Gaddi (Chapelle Castellani, Santa Croce)",
+  "site": "Basilique Santa Croce (Florence, Toscane, Italie)",
+  "originSite": "Basilique Santa Croce de Florence",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczNR-qZCJ-IacaXCuqAYdaAWraP36UUr6K5R3IMhSyPkC9OZBdNNCPzrt8SUmFwfVMgrW5fE4boxX2wqTP8ramL3kPYpFBCPnt6JceIhZ5jWNbmu85gldU8HZdu3XbRXbiWf1OcaFGgYxzQNlenpzDRIaA=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczNR-qZCJ-IacaXCuqAYdaAWraP36UUr6K5R3IMhSyPkC9OZBdNNCPzrt8SUmFwfVMgrW5fE4boxX2wqTP8ramL3kPYpFBCPnt6JceIhZ5jWNbmu85gldU8HZdu3XbRXbiWf1OcaFGgYxzQNlenpzDRIaA=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "italie",
+    "florence",
+    "santa croce",
+    "taddeo gaddi",
+    "agnolo gaddi",
+    "trecento",
+    "fresque"
+  ],
+  "chips": [
+    "1385 – 1390",
+    "Trecento florentin",
+    "Héritage giottesque",
+    "Basilique Santa Croce",
+    "Florence"
+  ],
+  "narrative": "<p>La chapelle Castellani, située dans le bras droit du transept de la basilique Santa Croce à Florence, constitue l'un des ensembles picturaux les plus vastes et les mieux préservés du XIVe siècle toscan. Fondée en 1383 à la demande de Michele di Vanni Castellani pour honorer la mémoire de ses ancêtres, elle présente une architecture gothique rigoureuse avec une voûte d'arêtes dont les nervures convergent vers une clé de voûte ornée. L'intégralité du cycle de fresques, exécuté entre 1385 et 1390 environ, est l'œuvre d'Agnolo Gaddi, fils de Taddeo Gaddi et dernier grand héritier de la tradition giottesque directe.</p><p>Le programme iconographique se déploie avec une ampleur monumentale sur les parois latérales, organisant la narration en registres superposés qui célèbrent quatre figures majeures du christianisme. Sur la paroi gauche, les compositions illustrent la vie de saint Jean-Baptiste, précurseur du Christ, ainsi que celle de saint Jean l'Évangéliste. La paroi droite est quant à elle consacrée aux épisodes de la vie de saint Nicolas de Bari et de saint Antoine Abbé. Ces récits sont portés par un style narratif foisonnant, où Agnolo Gaddi délaisse la concentration dramatique de Giotto au profit d'une élégance décorative préfigurant le gothique international. Les scènes fourmillent de détails naturalistes, d'architectures complexes en perspective cavalière et de figures vêtues de drapés souples aux coloris pastels et lumineux.</p><p>Au sommet de cette structure, les voûtains accueillent les quatre Évangélistes ainsi que des Docteurs de l'Église, tandis que les piliers d'entrée présentent des figures de saints en pied, créant une transition visuelle entre l'espace sacré de la chapelle et la nef de la basilique. L'autel est surmonté d'un grand crucifix peint, attribué à Niccolò Gerini, qui s'intègre harmonieusement à l'ensemble. Cette chapelle témoigne du prestige de la famille Castellani, mais aussi de la pérennité de l'atelier des Gaddi, qui a su maintenir la suprématie du langage artistique florentin tout au long du Trecento en y injectant une nouvelle sensibilité pour le récit anecdotique et la richesse chromatique.</p>",
+  "desc": "<p>La chapelle Castellani, située dans le bras droit du transept de la basilique Santa Croce à Florence, constitue l'un des ensembles picturaux les plus vastes et les mieux préservés du XIVe siècle toscan. Fondée en 1383 à la demande de Michele di Vanni Castellani pour honorer la mémoire de ses ancêtres, elle présente une architecture gothique rigoureuse avec une voûte d'arêtes dont les nervures convergent vers une clé de voûte ornée. L'intégralité du cycle de fresques, exécuté entre 1385 et 1390 environ, est l'œuvre d'Agnolo Gaddi, fils de Taddeo Gaddi et dernier grand héritier de la tradition giottesque directe.</p><p>Le programme iconographique se déploie avec une ampleur monumentale sur les parois latérales, organisant la narration en registres superposés qui célèbrent quatre figures majeures du christianisme. Sur la paroi gauche, les compositions illustrent la vie de saint Jean-Baptiste, précurseur du Christ, ainsi que celle de saint Jean l'Évangéliste. La paroi droite est quant à elle consacrée aux épisodes de la vie de saint Nicolas de Bari et de saint Antoine Abbé. Ces récits sont portés par un style narratif foisonnant, où Agnolo Gaddi délaisse la concentration dramatique de Giotto au profit d'une élégance décorative préfigurant le gothique international. Les scènes fourmillent de détails naturalistes, d'architectures complexes en perspective cavalière et de figures vêtues de drapés souples aux coloris pastels et lumineux.</p><p>Au sommet de cette structure, les voûtains accueillent les quatre Évangélistes ainsi que des Docteurs de l'Église, tandis que les piliers d'entrée présentent des figures de saints en pied, créant une transition visuelle entre l'espace sacré de la chapelle et la nef de la basilique. L'autel est surmonté d'un grand crucifix peint, attribué à Niccolò Gerini, qui s'intègre harmonieusement à l'ensemble. Cette chapelle témoigne du prestige de la famille Castellani, mais aussi de la pérennité de l'atelier des Gaddi, qui a su maintenir la suprématie du langage artistique florentin tout au long du Trecento en y injectant une nouvelle sensibilité pour le récit anecdotique et la richesse chromatique.</p>",
+  "contemporaryArt": {
+    "title": "Bas Moyen Âge • L'Essor du Gothique & l'aube du Trecento",
+    "events": [
+      "1250 – 1300 : Apogée de l'art gothique rayonnant en France et construction de la Sainte-Chapelle de Paris.",
+      "1305 – 1309 : Installation de la papauté en Avignon sous Clément V et grand schisme d'Occident.",
+      "1348 : La terrible épidémie de Peste noire frappe l'Italie et bouleverse la sensibilité spirituelle européenne.",
+      "1380 – 1400 : Diffusion européenne du style Gothique international entre Paris, Dijon, Prague et Florence."
+    ]
+  }
+},
+{
+  "id": "fresque_miracles_de_saint_sylvestre_et_conversio_73",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident : Trecento florentin",
+  "century": "XIVe siècle (vers 1335 – 1340)",
+  "centuryDisplay": "v. 1335",
+  "centuryNumeric": 1335,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Miracles de saint Sylvestre et conversion de Constantin par Maso di Banco (Chapelle des Bardi)",
+  "site": "Basilique Santa Maria Novella (Florence, Toscane, Italie)",
+  "originSite": "Basilique Santa Maria Novella de Florence",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczMD0Z4UMZAEHwqTaCVnm4Avm9HUnda-lf8P1rBffP35vRgkpPLvhGFzeLFauXOGGZIexr-KE0iZe-3c559XUa6yXJUbIHj4E2NZT5sWhYbMVU30J_VnwlKYBk1yX3MiV5D8yGEULhYjL5JSX5PFrL0eqA=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczMD0Z4UMZAEHwqTaCVnm4Avm9HUnda-lf8P1rBffP35vRgkpPLvhGFzeLFauXOGGZIexr-KE0iZe-3c559XUa6yXJUbIHj4E2NZT5sWhYbMVU30J_VnwlKYBk1yX3MiV5D8yGEULhYjL5JSX5PFrL0eqA=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "italie",
+    "florence",
+    "santa maria novella",
+    "trecento",
+    "renaissance",
+    "fresque"
+  ],
+  "chips": [
+    "v. 1335",
+    "Trecento florentin",
+    "Maso di Banco",
+    "Chapelle des Bardi",
+    "Florence"
+  ],
+  "narrative": "<p>Nichée dans le transept gauche de la basilique Santa Maria Novella, la chapelle des Bardi de Vernio, dédiée à saint Sylvestre et à l'empereur Constantin, abrite l'un des cycles de fresques les plus significatifs du XIVe siècle florentin, réalisé par Maso di Banco vers 1335-1340. Disciple le plus doué de Giotto, l'artiste y déploie un sens de la synthèse spatiale et une clarté narrative qui annoncent déjà les recherches de la Renaissance. Le cycle illustre la conversion de Constantin et les miracles de saint Sylvestre, notamment la scène célèbre du saint domptant un dragon et ressuscitant deux mages, où l'économie des gestes et la solidité monumentale des figures créent une atmosphère d'une grande solennité. La paroi de droite est occupée par le tombeau à enfeu de la famille Bardi, surmonté d'une fresque du Jugement dernier où le donateur est représenté sortant de son sarcophage pour être jugé par le Christ. Contrairement au foisonnement ornemental des chapelles voisines plus tardives, Maso di Banco privilégie ici des volumes architecturaux épurés et une palette de tons clairs et lumineux qui confèrent à l'espace une harmonie quasi abstraite. Les décors en trompe-l'œil qui encadrent les scènes témoignent d'une maîtrise précoce de la perspective empirique, cherchant à percer le mur pour créer une extension crédible de l'espace sacré. La chapelle conserve également son vitrail d'origine et des marbres incrustés qui complètent ce programme iconographique rigoureux, faisant de ce lieu un sanctuaire de la pensée gothique à son apogée, où la dignité humaine rencontre la puissance du divin.</p>",
+  "desc": "<p>Nichée dans le transept gauche de la basilique Santa Maria Novella, la chapelle des Bardi de Vernio, dédiée à saint Sylvestre et à l'empereur Constantin, abrite l'un des cycles de fresques les plus significatifs du XIVe siècle florentin, réalisé par Maso di Banco vers 1335-1340. Disciple le plus doué de Giotto, l'artiste y déploie un sens de la synthèse spatiale et une clarté narrative qui annoncent déjà les recherches de la Renaissance. Le cycle illustre la conversion de Constantin et les miracles de saint Sylvestre, notamment la scène célèbre du saint domptant un dragon et ressuscitant deux mages, où l'économie des gestes et la solidité monumentale des figures créent une atmosphère d'une grande solennité. La paroi de droite est occupée par le tombeau à enfeu de la famille Bardi, surmonté d'une fresque du Jugement dernier où le donateur est représenté sortant de son sarcophage pour être jugé par le Christ. Contrairement au foisonnement ornemental des chapelles voisines plus tardives, Maso di Banco privilégie ici des volumes architecturaux épurés et une palette de tons clairs et lumineux qui confèrent à l'espace une harmonie quasi abstraite. Les décors en trompe-l'œil qui encadrent les scènes témoignent d'une maîtrise précoce de la perspective empirique, cherchant à percer le mur pour créer une extension crédible de l'espace sacré. La chapelle conserve également son vitrail d'origine et des marbres incrustés qui complètent ce programme iconographique rigoureux, faisant de ce lieu un sanctuaire de la pensée gothique à son apogée, où la dignité humaine rencontre la puissance du divin.</p>",
+  "contemporaryArt": {
+    "title": "Bas Moyen Âge • L'Essor du Gothique & l'aube du Trecento",
+    "events": [
+      "1250 – 1300 : Apogée de l'art gothique rayonnant en France et construction de la Sainte-Chapelle de Paris.",
+      "1305 – 1309 : Installation de la papauté en Avignon sous Clément V et grand schisme d'Occident.",
+      "1348 : La terrible épidémie de Peste noire frappe l'Italie et bouleverse la sensibilité spirituelle européenne.",
+      "1380 – 1400 : Diffusion européenne du style Gothique international entre Paris, Dijon, Prague et Florence."
+    ]
+  }
+},
+{
+  "id": "fresque_le_paradis_l_enfer_de_dante_et_le_jugeme_74",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident : Trecento florentin",
+  "century": "XIVe siècle (1351 – 1357)",
+  "centuryDisplay": "1351 – 1357",
+  "centuryNumeric": 1354,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Le Paradis, l'Enfer de Dante et le Jugement Dernier par Nardo di Cione (Chapelle Strozzi)",
+  "site": "Basilique Santa Maria Novella (Florence, Toscane, Italie)",
+  "originSite": "Basilique Santa Maria Novella de Florence",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczNiNOF0hTA2ony0CNrzZGXjFKSVu0Gao5iVlNqnq88KDDVENjrbOukVupcXaz-UME7G9OfXncNodBRkoO0fTeJK6WpQOpBCPGYYV9NxDunXs_QMFtpHhn64ta9gU81fIBt2M_POTIE_kftiSRI-rq8feA=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczNiNOF0hTA2ony0CNrzZGXjFKSVu0Gao5iVlNqnq88KDDVENjrbOukVupcXaz-UME7G9OfXncNodBRkoO0fTeJK6WpQOpBCPGYYV9NxDunXs_QMFtpHhn64ta9gU81fIBt2M_POTIE_kftiSRI-rq8feA=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "italie",
+    "florence",
+    "santa maria novella",
+    "trecento",
+    "renaissance",
+    "fresque"
+  ],
+  "chips": [
+    "1351 – 1357",
+    "Trecento florentin",
+    "Nardo di Cione",
+    "Enfer de Dante",
+    "Florence"
+  ],
+  "narrative": "<p>La chapelle Strozzi de Mantoue, située au fond du transept gauche de la basilique Santa Maria Novella à Florence, constitue l'un des ensembles picturaux les plus cohérents et impressionnants du milieu du XIVe siècle italien. Commanditée par la famille Strozzi, alors l'une des plus puissantes lignées de banquiers florentins, la décoration fut confiée aux frères Orcagna, Andrea di Cione et Nardo di Cione, qui y travaillèrent entre 1351 et 1357. Cet ensemble monumental se distingue par sa rupture avec le naturalisme de l'école de Giotto, privilégiant une esthétique plus rigide, hiératique et solennelle, marquée par l’atmosphère de dévotion intense qui suivit la Peste noire de 1348.</p><p>Le cycle de fresques, œuvre principale de Nardo di Cione, s'articule autour du thème eschatologique du salut et du jugement de l'âme. Sur la paroi de gauche, le Paradis est représenté comme une assemblée céleste ordonnée où les rangs de saints et d'anges, aux visages d'une douceur mélancolique, convergent vers les figures du Christ et de la Vierge. À l'opposé, sur le mur de droite, l'Enfer s'inspire directement de la structure de la Divine Comédie de Dante Alighieri. Les différents cercles et les supplices des damnés y sont dépeints avec une précision narrative qui servait d'avertissement moral aux fidèles. La paroi centrale, percée d'un vitrail également dessiné par Nardo, accueille une représentation du Jugement Dernier où le Christ juge, entouré d'apôtres et de la Vierge, surplombant la séparation des élus et des réprouvés.</p><p>Le point focal de la chapelle demeure l'imposant retable de l'autel, réalisé en 1357 par Andrea Orcagna. Ce polyptyque, intitulé Le Christ en gloire avec des saints, rompt avec la tradition des compartiments séparés pour créer un espace unifié. Le Christ y est représenté au centre, dans une mandorle de séraphins, remettant les clés à saint Pierre et le livre de la doctrine à saint Thomas d'Aquin, soulignant ainsi l'autorité de l'Église et l'importance de l'ordre dominicain, gardien de la basilique. Par ses couleurs denses, ses fonds d'or omniprésents et sa monumentalité sévère, la chapelle Strozzi de Mantoue demeure le témoignage majeur de la transition artistique florentine vers un style gothique international teinté d'une spiritualité dogmatique et visionnaire.</p>",
+  "desc": "<p>La chapelle Strozzi de Mantoue, située au fond du transept gauche de la basilique Santa Maria Novella à Florence, constitue l'un des ensembles picturaux les plus cohérents et impressionnants du milieu du XIVe siècle italien. Commanditée par la famille Strozzi, alors l'une des plus puissantes lignées de banquiers florentins, la décoration fut confiée aux frères Orcagna, Andrea di Cione et Nardo di Cione, qui y travaillèrent entre 1351 et 1357. Cet ensemble monumental se distingue par sa rupture avec le naturalisme de l'école de Giotto, privilégiant une esthétique plus rigide, hiératique et solennelle, marquée par l’atmosphère de dévotion intense qui suivit la Peste noire de 1348.</p><p>Le cycle de fresques, œuvre principale de Nardo di Cione, s'articule autour du thème eschatologique du salut et du jugement de l'âme. Sur la paroi de gauche, le Paradis est représenté comme une assemblée céleste ordonnée où les rangs de saints et d'anges, aux visages d'une douceur mélancolique, convergent vers les figures du Christ et de la Vierge. À l'opposé, sur le mur de droite, l'Enfer s'inspire directement de la structure de la Divine Comédie de Dante Alighieri. Les différents cercles et les supplices des damnés y sont dépeints avec une précision narrative qui servait d'avertissement moral aux fidèles. La paroi centrale, percée d'un vitrail également dessiné par Nardo, accueille une représentation du Jugement Dernier où le Christ juge, entouré d'apôtres et de la Vierge, surplombant la séparation des élus et des réprouvés.</p><p>Le point focal de la chapelle demeure l'imposant retable de l'autel, réalisé en 1357 par Andrea Orcagna. Ce polyptyque, intitulé Le Christ en gloire avec des saints, rompt avec la tradition des compartiments séparés pour créer un espace unifié. Le Christ y est représenté au centre, dans une mandorle de séraphins, remettant les clés à saint Pierre et le livre de la doctrine à saint Thomas d'Aquin, soulignant ainsi l'autorité de l'Église et l'importance de l'ordre dominicain, gardien de la basilique. Par ses couleurs denses, ses fonds d'or omniprésents et sa monumentalité sévère, la chapelle Strozzi de Mantoue demeure le témoignage majeur de la transition artistique florentine vers un style gothique international teinté d'une spiritualité dogmatique et visionnaire.</p>",
+  "contemporaryArt": {
+    "title": "Bas Moyen Âge • L'Essor du Gothique & l'aube du Trecento",
+    "events": [
+      "1250 – 1300 : Apogée de l'art gothique rayonnant en France et construction de la Sainte-Chapelle de Paris.",
+      "1305 – 1309 : Installation de la papauté en Avignon sous Clément V et grand schisme d'Occident.",
+      "1348 : La terrible épidémie de Peste noire frappe l'Italie et bouleverse la sensibilité spirituelle européenne.",
+      "1380 – 1400 : Diffusion européenne du style Gothique international entre Paris, Dijon, Prague et Florence."
+    ]
+  }
+},
+{
+  "id": "fresque_l_allegorie_de_l_eglise_militante_et_le__75",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident : Trecento florentin",
+  "century": "XIVe siècle (1365 – 1367)",
+  "centuryDisplay": "1365 – 1367",
+  "centuryNumeric": 1365,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "L'Allégorie de l'Église militante et le Triomphe de saint Thomas d'Aquin (Chapelle des Espagnols)",
+  "site": "Basilique Santa Maria Novella (Florence, Toscane, Italie)",
+  "originSite": "Basilique Santa Maria Novella de Florence",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczNUNsOpgybi8LBOr_a_TPWV_hd5PxHikoAi9aXjJYTJGN8Te-3zgA-RcTQHPFHurC_BdxsKHtV7oUHwNZiQKuOeGhlVIldri84oWOmcXOgBvxLH7pMJXXwE32SUn8Ex1eeURExP5w7HR6TJcSuYyHxhcA=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczNUNsOpgybi8LBOr_a_TPWV_hd5PxHikoAi9aXjJYTJGN8Te-3zgA-RcTQHPFHurC_BdxsKHtV7oUHwNZiQKuOeGhlVIldri84oWOmcXOgBvxLH7pMJXXwE32SUn8Ex1eeURExP5w7HR6TJcSuYyHxhcA=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "italie",
+    "florence",
+    "santa maria novella",
+    "trecento",
+    "renaissance",
+    "fresque"
+  ],
+  "chips": [
+    "1365 – 1367",
+    "Trecento florentin",
+    "Andrea di Bonaiuto",
+    "Salle capitulaire",
+    "Florence"
+  ],
+  "narrative": "<p>La chapelle des Espagnols, originellement salle capitulaire du couvent de Santa Maria Novella à Florence, constitue l'un des sommets de la peinture gothique tardive en Italie. Érigée entre 1343 et 1355 sous le patronage de Mico Guidalotti, elle fut entièrement décorée de fresques par Andrea di Bonaiuto (ou Andrea da Firenze) entre 1365 et 1367. Cet ensemble monumental ne prit son nom actuel qu'au XVIe siècle, lorsqu'il fut mis à la disposition de la suite espagnole d'Éléonore de Tolède, épouse du grand-duc Cosme Ier de Médicis. Le programme iconographique, d'une complexité rare, vise à l'exaltation doctrinale de l'ordre dominicain, les « Chiens du Seigneur » (Domini canes), gardiens de la foi face aux hérésies.</p><p>La décoration s'articule sur les quatre parois et la voûte avec une rigueur toute théologique. Sur le mur faisant face à l'entrée, Andrea di Bonaiuto a regroupé dans un vaste espace continu les scènes de la Passion du Christ : la Montée au Calvaire à gauche, la Crucifixion occupant le centre supérieur, et la Descente aux Limbes à droite. Cette paroi centrale ancre l'ensemble dans le mystère du Salut. La paroi de gauche est dédiée au Triomphe de saint Thomas d'Aquin, figure de proue de la pensée dominicaine, trônant au-dessus des quatorze allégories des Arts libéraux et des Sciences, chacune accompagnée d'un représentant illustre de sa discipline.</p><p>La paroi de droite, sans doute la plus célèbre, représente la Via Veritas ou l'Allégorie de l'Église militante et triomphante. On y voit, au pied d'une représentation du Duomo de Florence symbolisant l'Église, le pape et l'empereur entourés des fidèles. Des chiens noirs et blancs, jeux de mots visuels sur l'ordre dominicain, y chassent les loups (les hérétiques) pour protéger le troupeau. Plus haut, le chemin mène les âmes vers la porte du Paradis, gardée par saint Pierre. La voûte quadripartite complète ce cycle par des représentations de la Résurrection, de l'Ascension, de la Pentecôte et de la Navicella (le navire de l'Église). Par sa monumentalité et son didactisme, cette « chapelle » demeure le témoignage visuel le plus complet de la pensée médiévale à l'aube de la Renaissance.</p>",
+  "desc": "<p>La chapelle des Espagnols, originellement salle capitulaire du couvent de Santa Maria Novella à Florence, constitue l'un des sommets de la peinture gothique tardive en Italie. Érigée entre 1343 et 1355 sous le patronage de Mico Guidalotti, elle fut entièrement décorée de fresques par Andrea di Bonaiuto (ou Andrea da Firenze) entre 1365 et 1367. Cet ensemble monumental ne prit son nom actuel qu'au XVIe siècle, lorsqu'il fut mis à la disposition de la suite espagnole d'Éléonore de Tolède, épouse du grand-duc Cosme Ier de Médicis. Le programme iconographique, d'une complexité rare, vise à l'exaltation doctrinale de l'ordre dominicain, les « Chiens du Seigneur » (Domini canes), gardiens de la foi face aux hérésies.</p><p>La décoration s'articule sur les quatre parois et la voûte avec une rigueur toute théologique. Sur le mur faisant face à l'entrée, Andrea di Bonaiuto a regroupé dans un vaste espace continu les scènes de la Passion du Christ : la Montée au Calvaire à gauche, la Crucifixion occupant le centre supérieur, et la Descente aux Limbes à droite. Cette paroi centrale ancre l'ensemble dans le mystère du Salut. La paroi de gauche est dédiée au Triomphe de saint Thomas d'Aquin, figure de proue de la pensée dominicaine, trônant au-dessus des quatorze allégories des Arts libéraux et des Sciences, chacune accompagnée d'un représentant illustre de sa discipline.</p><p>La paroi de droite, sans doute la plus célèbre, représente la Via Veritas ou l'Allégorie de l'Église militante et triomphante. On y voit, au pied d'une représentation du Duomo de Florence symbolisant l'Église, le pape et l'empereur entourés des fidèles. Des chiens noirs et blancs, jeux de mots visuels sur l'ordre dominicain, y chassent les loups (les hérétiques) pour protéger le troupeau. Plus haut, le chemin mène les âmes vers la porte du Paradis, gardée par saint Pierre. La voûte quadripartite complète ce cycle par des représentations de la Résurrection, de l'Ascension, de la Pentecôte et de la Navicella (le navire de l'Église). Par sa monumentalité et son didactisme, cette « chapelle » demeure le témoignage visuel le plus complet de la pensée médiévale à l'aube de la Renaissance.</p>",
+  "contemporaryArt": {
+    "title": "Bas Moyen Âge • L'Essor du Gothique & l'aube du Trecento",
+    "events": [
+      "1250 – 1300 : Apogée de l'art gothique rayonnant en France et construction de la Sainte-Chapelle de Paris.",
+      "1305 – 1309 : Installation de la papauté en Avignon sous Clément V et grand schisme d'Occident.",
+      "1348 : La terrible épidémie de Peste noire frappe l'Italie et bouleverse la sensibilité spirituelle européenne.",
+      "1380 – 1400 : Diffusion européenne du style Gothique international entre Paris, Dijon, Prague et Florence."
+    ]
+  }
+},
+{
+  "id": "fresque_le_passage_de_la_mer_rouge_et_scenes_de__76",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident : Trecento siennois",
+  "century": "XIVe siècle (vers 1367)",
+  "centuryDisplay": "1367",
+  "centuryNumeric": 1367,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Le Passage de la Mer Rouge et scènes de l'Ancien Testament par Bartolo di Fredi (San Gimignano)",
+  "site": "Collégiale Santa Maria Assunta (San Gimignano, Toscane, Italie)",
+  "originSite": "Nef de la Collégiale de San Gimignano",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczP7WyanCrmK2I3sbXrMbCHN3BesiWZHULvOfOrMZluKf_q-n9h-falbg_Woc-BaOg1a0kPSdyZDKT00QTKWHBB103GznyrUKMCzIwF3KediuPawV46U0jaZbGxuj2o3izeomLI0oeTJlVjIF_yDyfzsJg=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczP7WyanCrmK2I3sbXrMbCHN3BesiWZHULvOfOrMZluKf_q-n9h-falbg_Woc-BaOg1a0kPSdyZDKT00QTKWHBB103GznyrUKMCzIwF3KediuPawV46U0jaZbGxuj2o3izeomLI0oeTJlVjIF_yDyfzsJg=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "italie",
+    "san gimignano",
+    "sienne",
+    "gothique",
+    "fresque"
+  ],
+  "chips": [
+    "1367",
+    "Trecento siennois",
+    "Bartolo di Fredi",
+    "Ancien Testament",
+    "San Gimignano"
+  ],
+  "narrative": "<p>Fresques de l'Ancien Testament situées dans la Collégiale de San Gimignano, œuvres majeures du XIVe siècle attribuées au peintre siennois Bartolo di Fredi. Réalisées vers 1367 sur le mur de la nef gauche, ces compositions narratives se déploient sur trois registres superposés, offrant une lecture didactique de la Genèse et de l'Exode. La scène du passage de la Mer Rouge, particulièrement dense, illustre la maîtrise de l'artiste dans la gestion des foules et du mouvement : une multitude de personnages, incluant femmes portant leurs enfants et animaux de bât, s'avance vers la gauche, tandis que les soldats égyptiens en armure sont engloutis par les flots à l'extrémité du panneau.</p><p>Le style de Bartolo di Fredi se caractérise par une palette chromatique vive et une attention scrupuleuse aux détails de la vie quotidienne médiévale, visibles dans les costumes, les harnachements des chameaux et les objets domestiques emportés par les Hébreux. Dans les registres supérieurs, les scènes consacrées à l'histoire d'Adam et Ève ou à celle de Noé utilisent des architectures simplifiées et des paysages rocheux pour structurer le récit. Les inscriptions en langue vernaculaire situées à la base de chaque panneau permettaient aux fidèles de suivre l'évolution de l'histoire sainte. Cet ensemble monumental, préservé dans son écrin d'origine, constitue l'un des cycles narratifs les plus complets et les mieux conservés de la peinture gothique tardive en Toscane, témoignant de la ferveur religieuse et de la richesse artistique de la cité des tours.</p>",
+  "desc": "<p>Fresques de l'Ancien Testament situées dans la Collégiale de San Gimignano, œuvres majeures du XIVe siècle attribuées au peintre siennois Bartolo di Fredi. Réalisées vers 1367 sur le mur de la nef gauche, ces compositions narratives se déploient sur trois registres superposés, offrant une lecture didactique de la Genèse et de l'Exode. La scène du passage de la Mer Rouge, particulièrement dense, illustre la maîtrise de l'artiste dans la gestion des foules et du mouvement : une multitude de personnages, incluant femmes portant leurs enfants et animaux de bât, s'avance vers la gauche, tandis que les soldats égyptiens en armure sont engloutis par les flots à l'extrémité du panneau.</p><p>Le style de Bartolo di Fredi se caractérise par une palette chromatique vive et une attention scrupuleuse aux détails de la vie quotidienne médiévale, visibles dans les costumes, les harnachements des chameaux et les objets domestiques emportés par les Hébreux. Dans les registres supérieurs, les scènes consacrées à l'histoire d'Adam et Ève ou à celle de Noé utilisent des architectures simplifiées et des paysages rocheux pour structurer le récit. Les inscriptions en langue vernaculaire situées à la base de chaque panneau permettaient aux fidèles de suivre l'évolution de l'histoire sainte. Cet ensemble monumental, préservé dans son écrin d'origine, constitue l'un des cycles narratifs les plus complets et les mieux conservés de la peinture gothique tardive en Toscane, témoignant de la ferveur religieuse et de la richesse artistique de la cité des tours.</p>",
+  "contemporaryArt": {
+    "title": "Bas Moyen Âge • L'Essor du Gothique & l'aube du Trecento",
+    "events": [
+      "1250 – 1300 : Apogée de l'art gothique rayonnant en France et construction de la Sainte-Chapelle de Paris.",
+      "1305 – 1309 : Installation de la papauté en Avignon sous Clément V et grand schisme d'Occident.",
+      "1348 : La terrible épidémie de Peste noire frappe l'Italie et bouleverse la sensibilité spirituelle européenne.",
+      "1380 – 1400 : Diffusion européenne du style Gothique international entre Paris, Dijon, Prague et Florence."
+    ]
+  }
+},
+{
+  "id": "fresque_la_crucifixion_monumentale_du_nouveau_te_77",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident : Trecento siennois",
+  "century": "XIVe siècle (1338 – 1340)",
+  "centuryDisplay": "1338 – 1340",
+  "centuryNumeric": 1339,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "La Crucifixion monumentale du Nouveau Testament par l'atelier Memmi (San Gimignano)",
+  "site": "Collégiale Santa Maria Assunta (San Gimignano, Toscane, Italie)",
+  "originSite": "Nef de la Collégiale de San Gimignano",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczOo1ozClhdMADPmR_QXD9xzyHw0IR0rtmU4aRfbZhSeqaJOoXHHmEPoVFzPwjqIUvCyfz_2-_a9kzSZ89N0ym2KMUFZqWqBz0vBQFTy6YcHFWmYz5eYfji7Ej3fwphbdH06rMLm0lMxShy9vzzqESCPzw=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczOo1ozClhdMADPmR_QXD9xzyHw0IR0rtmU4aRfbZhSeqaJOoXHHmEPoVFzPwjqIUvCyfz_2-_a9kzSZ89N0ym2KMUFZqWqBz0vBQFTy6YcHFWmYz5eYfji7Ej3fwphbdH06rMLm0lMxShy9vzzqESCPzw=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "italie",
+    "san gimignano",
+    "sienne",
+    "gothique",
+    "fresque"
+  ],
+  "chips": [
+    "1338 – 1340",
+    "École de Sienne",
+    "Atelier Memmi",
+    "Crucifixion",
+    "San Gimignano"
+  ],
+  "narrative": "<p>Fresques du Nouveau Testament situé sur le mur de la nef droite de la Collégiale de San Gimignano. Réalisé entre 1338 et 1340, cet ensemble monumental est traditionnellement attribué à Lippo Memmi et à son frère Tederigo Memmi, bien que l'ombre de leur beau-frère Simone Martini plane sur l'élégance des figures. Le cycle se déploie chronologiquement sur trois registres, commençant par l'enfance du Christ dans les lunettes supérieures pour descendre vers les scènes de la Passion et de la Résurrection. Chaque épisode est délimité par des bordures décoratives géométriques, créant une grille narrative d'une grande clarté visuelle.</p><p>La scène de la Résurrection de Lazare illustre parfaitement le style de l'école siennoise par l'utilisation de couleurs saturées et une expressivité contenue mais puissante des visages. Le Christ, drapé d'un bleu profond, commande au défunt de sortir du tombeau sous le regard stupéfait des apôtres et des proches, certains se couvrant le nez pour signifier la réalité physique du miracle. Juste à côté, l'Entrée à Jérusalem témoigne d'une recherche spatiale complexe, où une foule compacte sort des portes de la ville pour accueillir Jésus sur son ânon, tandis que des enfants grimpent aux arbres pour mieux voir la scène. Ces fresques se distinguent par une attention particulière portée à l'élégance des silhouettes et à la richesse des détails ornementaux, caractéristiques du gothique international naissant.</p><p>Dans le registre inférieur, le cycle de la Passion, incluant le Baiser de Judas et la Crucifixion, accentue le drame par des compositions plus denses et une multiplication des personnages. Les lances des soldats forment une forêt verticale qui renforce le sentiment d'oppression et d'agitation entourant le Christ. L'utilisation généreuse de pigments précieux et la finesse du trait confèrent à l'ensemble une dimension à la fois sacrée et aristocratique. Ce mur du Nouveau Testament répond point par point au mur de l'Ancien Testament situé en face, instaurant un dialogue théologique par l'image entre les deux alliances, typique de la pensée médiévale. L'état de conservation exceptionnel de ces peintures permet aujourd'hui d'admirer l'un des sommets de la narration picturale du XIVe siècle italien.</p>",
+  "desc": "<p>Fresques du Nouveau Testament situé sur le mur de la nef droite de la Collégiale de San Gimignano. Réalisé entre 1338 et 1340, cet ensemble monumental est traditionnellement attribué à Lippo Memmi et à son frère Tederigo Memmi, bien que l'ombre de leur beau-frère Simone Martini plane sur l'élégance des figures. Le cycle se déploie chronologiquement sur trois registres, commençant par l'enfance du Christ dans les lunettes supérieures pour descendre vers les scènes de la Passion et de la Résurrection. Chaque épisode est délimité par des bordures décoratives géométriques, créant une grille narrative d'une grande clarté visuelle.</p><p>La scène de la Résurrection de Lazare illustre parfaitement le style de l'école siennoise par l'utilisation de couleurs saturées et une expressivité contenue mais puissante des visages. Le Christ, drapé d'un bleu profond, commande au défunt de sortir du tombeau sous le regard stupéfait des apôtres et des proches, certains se couvrant le nez pour signifier la réalité physique du miracle. Juste à côté, l'Entrée à Jérusalem témoigne d'une recherche spatiale complexe, où une foule compacte sort des portes de la ville pour accueillir Jésus sur son ânon, tandis que des enfants grimpent aux arbres pour mieux voir la scène. Ces fresques se distinguent par une attention particulière portée à l'élégance des silhouettes et à la richesse des détails ornementaux, caractéristiques du gothique international naissant.</p><p>Dans le registre inférieur, le cycle de la Passion, incluant le Baiser de Judas et la Crucifixion, accentue le drame par des compositions plus denses et une multiplication des personnages. Les lances des soldats forment une forêt verticale qui renforce le sentiment d'oppression et d'agitation entourant le Christ. L'utilisation généreuse de pigments précieux et la finesse du trait confèrent à l'ensemble une dimension à la fois sacrée et aristocratique. Ce mur du Nouveau Testament répond point par point au mur de l'Ancien Testament situé en face, instaurant un dialogue théologique par l'image entre les deux alliances, typique de la pensée médiévale. L'état de conservation exceptionnel de ces peintures permet aujourd'hui d'admirer l'un des sommets de la narration picturale du XIVe siècle italien.</p>",
+  "contemporaryArt": {
+    "title": "Bas Moyen Âge • L'Essor du Gothique & l'aube du Trecento",
+    "events": [
+      "1250 – 1300 : Apogée de l'art gothique rayonnant en France et construction de la Sainte-Chapelle de Paris.",
+      "1305 – 1309 : Installation de la papauté en Avignon sous Clément V et grand schisme d'Occident.",
+      "1348 : La terrible épidémie de Peste noire frappe l'Italie et bouleverse la sensibilité spirituelle européenne.",
+      "1380 – 1400 : Diffusion européenne du style Gothique international entre Paris, Dijon, Prague et Florence."
+    ]
+  }
+},
+{
+  "id": "fresque_le_bapteme_du_christ_dans_le_jourdain_pa_78",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident : Trecento siennois",
+  "century": "XIVe siècle (1338 – 1340)",
+  "centuryDisplay": "1338 – 1340",
+  "centuryNumeric": 1338,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Le Baptême du Christ dans le Jourdain par Lippo et Tederigo Memmi (San Gimignano)",
+  "site": "Collégiale Santa Maria Assunta (San Gimignano, Toscane, Italie)",
+  "originSite": "Nef de la Collégiale de San Gimignano",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczPV3p8l2VD183K_lFUbrcbXMhQG9TCCStFMe5flGrX8xoBGRJf_fMYXq_AZw2cmJU4aMGC1IbOynBmNHij4BdHPsXL77f-nCqjpw9XLqJd9nv7hFzekbHKRJYkavRkwl46xYIGTYfD4O9J138RWSiA4tA=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczPV3p8l2VD183K_lFUbrcbXMhQG9TCCStFMe5flGrX8xoBGRJf_fMYXq_AZw2cmJU4aMGC1IbOynBmNHij4BdHPsXL77f-nCqjpw9XLqJd9nv7hFzekbHKRJYkavRkwl46xYIGTYfD4O9J138RWSiA4tA=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "italie",
+    "san gimignano",
+    "sienne",
+    "gothique",
+    "fresque"
+  ],
+  "chips": [
+    "1338 – 1340",
+    "École de Sienne",
+    "Lippo Memmi",
+    "Nouveau Testament",
+    "San Gimignano"
+  ],
+  "narrative": "<p>Cette notice muséale détaille la fresque du Baptême du Christ, située sur le mur droit de la nef de la Collégiale de San Gimignano. Cette œuvre fait partie intégrante du vaste cycle du Nouveau Testament réalisé entre 1338 et 1340 par les peintres siennois Lippo et Tederigo Memmi. La scène s'inscrit dans un compartiment rectangulaire délimité par des frises décoratives à motifs géométriques, caractéristiques de l'organisation narrative de l'époque.</p><p>La composition est centrée sur la figure du Christ, représenté debout au milieu du Jourdain, les eaux remontant jusqu'à sa taille selon une convention iconographique médiévale. À sa droite, Saint Jean-Baptiste, vêtu d'une peau de chameau et d'un manteau rouge, se tient sur une rive rocheuse escarpée et verse l'eau baptismale sur la tête de Jésus. Sur la rive opposée, deux anges aux ailes déployées assistent à la scène, tenant les vêtements du Christ, un détail qui souligne la solennité du sacrement.</p><p>Le style de cette fresque témoigne de l'influence prépondérante de Simone Martini, dont Lippo Memmi était le proche collaborateur. On y retrouve une élégance linéaire propre au gothique siennois, visible dans la silhouette allongée du Christ et la finesse des traits des visages. La palette chromatique utilise des contrastes doux, où le bleu profond du fond met en valeur la carnation claire du Christ et les tonalités ocre des rochers. Bien que la perspective reste simplifiée, l'artiste parvient à créer une profondeur spatiale par la superposition des plans et le mouvement fluide de l'eau. Cette scène du Baptême constitue une étape clé de la Bible illustrée de la Collégiale, marquant le début de la vie publique de Jésus dans le parcours spirituel offert aux fidèles.</p>",
+  "desc": "<p>Cette notice muséale détaille la fresque du Baptême du Christ, située sur le mur droit de la nef de la Collégiale de San Gimignano. Cette œuvre fait partie intégrante du vaste cycle du Nouveau Testament réalisé entre 1338 et 1340 par les peintres siennois Lippo et Tederigo Memmi. La scène s'inscrit dans un compartiment rectangulaire délimité par des frises décoratives à motifs géométriques, caractéristiques de l'organisation narrative de l'époque.</p><p>La composition est centrée sur la figure du Christ, représenté debout au milieu du Jourdain, les eaux remontant jusqu'à sa taille selon une convention iconographique médiévale. À sa droite, Saint Jean-Baptiste, vêtu d'une peau de chameau et d'un manteau rouge, se tient sur une rive rocheuse escarpée et verse l'eau baptismale sur la tête de Jésus. Sur la rive opposée, deux anges aux ailes déployées assistent à la scène, tenant les vêtements du Christ, un détail qui souligne la solennité du sacrement.</p><p>Le style de cette fresque témoigne de l'influence prépondérante de Simone Martini, dont Lippo Memmi était le proche collaborateur. On y retrouve une élégance linéaire propre au gothique siennois, visible dans la silhouette allongée du Christ et la finesse des traits des visages. La palette chromatique utilise des contrastes doux, où le bleu profond du fond met en valeur la carnation claire du Christ et les tonalités ocre des rochers. Bien que la perspective reste simplifiée, l'artiste parvient à créer une profondeur spatiale par la superposition des plans et le mouvement fluide de l'eau. Cette scène du Baptême constitue une étape clé de la Bible illustrée de la Collégiale, marquant le début de la vie publique de Jésus dans le parcours spirituel offert aux fidèles.</p>",
+  "contemporaryArt": {
+    "title": "Bas Moyen Âge • L'Essor du Gothique & l'aube du Trecento",
+    "events": [
+      "1250 – 1300 : Apogée de l'art gothique rayonnant en France et construction de la Sainte-Chapelle de Paris.",
+      "1305 – 1309 : Installation de la papauté en Avignon sous Clément V et grand schisme d'Occident.",
+      "1348 : La terrible épidémie de Peste noire frappe l'Italie et bouleverse la sensibilité spirituelle européenne.",
+      "1380 – 1400 : Diffusion européenne du style Gothique international entre Paris, Dijon, Prague et Florence."
+    ]
+  }
+},
+{
+  "id": "fresque_la_crucifixion_monumentale_du_nouveau_te_79",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident : Trecento siennois",
+  "century": "XIVe siècle (1338 – 1340)",
+  "centuryDisplay": "1338 – 1340",
+  "centuryNumeric": 1339,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "La Crucifixion monumentale du Nouveau Testament par l'atelier Memmi (San Gimignano)",
+  "site": "Collégiale Santa Maria Assunta (San Gimignano, Toscane, Italie)",
+  "originSite": "Nef de la Collégiale de San Gimignano",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczPX7qBTQJPmhPcC7vTOmw3XFJLiPqJ1xRFYSa9unI2arKz_s46LMRiHwNI6jzLP_xwEaxHEz3bCMJ0E1a5MzQ59wzR6JO-NaJFvcuJpsqvhqnHzpPZyZFh_wSdVxEOU3XmijdphasA54-9zkt43z_x2UQ=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczPX7qBTQJPmhPcC7vTOmw3XFJLiPqJ1xRFYSa9unI2arKz_s46LMRiHwNI6jzLP_xwEaxHEz3bCMJ0E1a5MzQ59wzR6JO-NaJFvcuJpsqvhqnHzpPZyZFh_wSdVxEOU3XmijdphasA54-9zkt43z_x2UQ=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "italie",
+    "san gimignano",
+    "sienne",
+    "gothique",
+    "fresque"
+  ],
+  "chips": [
+    "1338 – 1340",
+    "École de Sienne",
+    "Atelier Memmi",
+    "Crucifixion",
+    "San Gimignano"
+  ],
+  "narrative": "<p>Cette notice muséale porte sur la scène de la Crucifixion, pièce maîtresse du cycle du Nouveau Testament située sur le mur de la nef droite de la Collégiale de San Gimignano. Réalisée entre 1338 et 1340 par l'atelier de Lippo et Tederigo Memmi, cette fresque monumentale occupe une place privilégiée par sa taille, s'étendant sur la hauteur de deux registres habituels, soulignant ainsi l'importance théologique centrale du sacrifice du Christ.</p><p>La composition se déploie avec une intensité dramatique propre au gothique siennois. Au centre, le Christ en croix domine la scène, entouré d'une multitude d'anges en vol exprimant leur douleur. À ses pieds, on observe une division nette entre le sacré et le profane : à gauche, le groupe des fidèles et des saintes femmes soutient la Vierge Marie défaillante ; à droite, les soldats romains et la foule se disputent les vêtements du Christ. La verticalité des croix des deux larrons encadrant Jésus, ainsi que la forêt de lances brandies par les soldats, accentuent la tension et la violence de l'instant.</p><p>L'œuvre témoigne d'une grande maîtrise technique dans le rendu des émotions et des matières. Les visages des personnages sont marqués par une affliction profonde, tandis que les chevaux des centurions, représentés avec un réalisme saisissant pour l'époque, ajoutent au dynamisme de la scène. L'utilisation de pigments riches, malgré l'usure du temps, et la finesse des détails ornementaux sur les armures et les drapés révèlent l'influence directe de Simone Martini. Cette Crucifixion ne sert pas seulement de récit historique, mais constitue un support de méditation puissant pour le fidèle, au cœur du programme iconographique de la cathédrale.</p>",
+  "desc": "<p>Cette notice muséale porte sur la scène de la Crucifixion, pièce maîtresse du cycle du Nouveau Testament située sur le mur de la nef droite de la Collégiale de San Gimignano. Réalisée entre 1338 et 1340 par l'atelier de Lippo et Tederigo Memmi, cette fresque monumentale occupe une place privilégiée par sa taille, s'étendant sur la hauteur de deux registres habituels, soulignant ainsi l'importance théologique centrale du sacrifice du Christ.</p><p>La composition se déploie avec une intensité dramatique propre au gothique siennois. Au centre, le Christ en croix domine la scène, entouré d'une multitude d'anges en vol exprimant leur douleur. À ses pieds, on observe une division nette entre le sacré et le profane : à gauche, le groupe des fidèles et des saintes femmes soutient la Vierge Marie défaillante ; à droite, les soldats romains et la foule se disputent les vêtements du Christ. La verticalité des croix des deux larrons encadrant Jésus, ainsi que la forêt de lances brandies par les soldats, accentuent la tension et la violence de l'instant.</p><p>L'œuvre témoigne d'une grande maîtrise technique dans le rendu des émotions et des matières. Les visages des personnages sont marqués par une affliction profonde, tandis que les chevaux des centurions, représentés avec un réalisme saisissant pour l'époque, ajoutent au dynamisme de la scène. L'utilisation de pigments riches, malgré l'usure du temps, et la finesse des détails ornementaux sur les armures et les drapés révèlent l'influence directe de Simone Martini. Cette Crucifixion ne sert pas seulement de récit historique, mais constitue un support de méditation puissant pour le fidèle, au cœur du programme iconographique de la cathédrale.</p>",
+  "contemporaryArt": {
+    "title": "Bas Moyen Âge • L'Essor du Gothique & l'aube du Trecento",
+    "events": [
+      "1250 – 1300 : Apogée de l'art gothique rayonnant en France et construction de la Sainte-Chapelle de Paris.",
+      "1305 – 1309 : Installation de la papauté en Avignon sous Clément V et grand schisme d'Occident.",
+      "1348 : La terrible épidémie de Peste noire frappe l'Italie et bouleverse la sensibilité spirituelle européenne.",
+      "1380 – 1400 : Diffusion européenne du style Gothique international entre Paris, Dijon, Prague et Florence."
+    ]
+  }
+},
+{
+  "id": "fresque_la_fresque_monumentale_de_saint_christop_80",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident : Gothique tardif germanique",
+  "century": "XVe siècle (1491)",
+  "centuryDisplay": "1491",
+  "centuryNumeric": 1491,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "La Fresque monumentale de saint Christophe porteur du Christ (Augsbourg)",
+  "site": "Cathédrale de la Visitation (Augsbourg, Bavière, Allemagne)",
+  "originSite": "Bas-côté sud de la cathédrale d'Augsbourg",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczMVwEPjaWjT0SLWlI8dJje6Dfn4N5k34Yi4YEjhVGiGEhKypJth6ModVyNtB07urDAM_NoQ8EzOL2OYAGuyg-Pb2Z5cCaNg1zjWb8bVfIAhMVgHafSzXok2gjPWD0G3sVu5m6Kw0GCWbGM317hL2w-Nfg=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczMVwEPjaWjT0SLWlI8dJje6Dfn4N5k34Yi4YEjhVGiGEhKypJth6ModVyNtB07urDAM_NoQ8EzOL2OYAGuyg-Pb2Z5cCaNg1zjWb8bVfIAhMVgHafSzXok2gjPWD0G3sVu5m6Kw0GCWbGM317hL2w-Nfg=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "allemagne",
+    "augsbourg",
+    "saint christophe",
+    "gothique",
+    "fresque"
+  ],
+  "chips": [
+    "1491",
+    "Gothique tardif allemand",
+    "Saint Christophe colosse",
+    "Cathédrale d'Augsbourg",
+    "Bavière"
+  ],
+  "narrative": "<p>La fresque monumentale de saint Christophe, située dans le bas-côté sud de la cathédrale d'Augsbourg, constitue l'un des exemples les plus impressionnants de la peinture murale du gothique tardif en Allemagne. Mesurant plusieurs mètres de haut, cette représentation colossale répondait à une croyance populaire médiévale très ancrée : quiconque posait le regard sur une image du saint porteur du Christ était protégé de la « malemort » (la mort subite sans confession) pour la journée. C'est pour cette raison que les figures de saint Christophe étaient traditionnellement peintes à une échelle monumentale, souvent près des entrées ou dans des lieux de passage obligé, afin d'être visibles de loin par les fidèles et les voyageurs.</p><p>L'œuvre, datée de 1491, frappe par la force de sa composition et le dynamisme de son trait. Le saint est représenté selon l'iconographie traditionnelle, traversant un cours d'eau dangereux, appuyé sur un tronc d'arbre noueux qui lui sert de bâton. Sur ses épaules repose l'Enfant Jésus, dont le poids semble courber le géant, illustrant la légende selon laquelle Christophe, en portant l'enfant, portait en réalité le poids du monde entier. Les drapés rouges de son manteau, larges et anguleux, témoignent de l'influence du style « cassé » typique de la fin du XVe siècle, apportant une sensation de mouvement et de volume à la figure.</p><p>Un détail technique et historique remarquable est l'inscription de la date « 1491 » visible au sommet de la composition, sous la voûte d'ogive. La fresque s'intègre parfaitement dans l'architecture gothique de la cathédrale, utilisant la surface murale entre les nervures pour créer une présence quasi vivante. Bien que le temps ait partiellement estompé certaines couleurs, la puissance expressive du visage du saint, avec sa barbe fournie et son regard concentré, demeure intacte. Les phylactères (banderoles portant des inscriptions) qui serpentent au pied du saint ajoutent une dimension textuelle et didactique à l'image, renforçant son rôle de médiateur spirituel.</p><p>Cette fresque est un témoin précieux de la piété de la fin du Moyen Âge, une époque où l'image sacrée jouait un rôle protecteur et apotropaïque essentiel dans la vie quotidienne. Sa préservation au sein de la cathédrale d'Augsbourg, aux côtés d'autres trésors comme les vitraux des prophètes, permet d'appréhender la richesse et la diversité des supports artistiques utilisés pour transformer l'édifice en un espace sacré total.</p>",
+  "desc": "<p>La fresque monumentale de saint Christophe, située dans le bas-côté sud de la cathédrale d'Augsbourg, constitue l'un des exemples les plus impressionnants de la peinture murale du gothique tardif en Allemagne. Mesurant plusieurs mètres de haut, cette représentation colossale répondait à une croyance populaire médiévale très ancrée : quiconque posait le regard sur une image du saint porteur du Christ était protégé de la « malemort » (la mort subite sans confession) pour la journée. C'est pour cette raison que les figures de saint Christophe étaient traditionnellement peintes à une échelle monumentale, souvent près des entrées ou dans des lieux de passage obligé, afin d'être visibles de loin par les fidèles et les voyageurs.</p><p>L'œuvre, datée de 1491, frappe par la force de sa composition et le dynamisme de son trait. Le saint est représenté selon l'iconographie traditionnelle, traversant un cours d'eau dangereux, appuyé sur un tronc d'arbre noueux qui lui sert de bâton. Sur ses épaules repose l'Enfant Jésus, dont le poids semble courber le géant, illustrant la légende selon laquelle Christophe, en portant l'enfant, portait en réalité le poids du monde entier. Les drapés rouges de son manteau, larges et anguleux, témoignent de l'influence du style « cassé » typique de la fin du XVe siècle, apportant une sensation de mouvement et de volume à la figure.</p><p>Un détail technique et historique remarquable est l'inscription de la date « 1491 » visible au sommet de la composition, sous la voûte d'ogive. La fresque s'intègre parfaitement dans l'architecture gothique de la cathédrale, utilisant la surface murale entre les nervures pour créer une présence quasi vivante. Bien que le temps ait partiellement estompé certaines couleurs, la puissance expressive du visage du saint, avec sa barbe fournie et son regard concentré, demeure intacte. Les phylactères (banderoles portant des inscriptions) qui serpentent au pied du saint ajoutent une dimension textuelle et didactique à l'image, renforçant son rôle de médiateur spirituel.</p><p>Cette fresque est un témoin précieux de la piété de la fin du Moyen Âge, une époque où l'image sacrée jouait un rôle protecteur et apotropaïque essentiel dans la vie quotidienne. Sa préservation au sein de la cathédrale d'Augsbourg, aux côtés d'autres trésors comme les vitraux des prophètes, permet d'appréhender la richesse et la diversité des supports artistiques utilisés pour transformer l'édifice en un espace sacré total.</p>",
+  "contemporaryArt": {
+    "title": "Quattrocento & Première Renaissance européenne",
+    "events": [
+      "1453 : Prise de Constantinople par les Ottomans et dispersion des érudits byzantins vers l'Italie.",
+      "1455 : Invention de l'imprimerie à caractères mobiles métalliques par Johannes Gutenberg à Mayence.",
+      "1492 : Fin de la Reconquista en Espagne, expulsion de Grenade et premier voyage de Christophe Colomb.",
+      "1517 : Début de la Réforme protestante par Martin Luther à Wittenberg."
+    ]
+  }
+},
+{
+  "id": "fresque_anges_aux_armoiries_de_l_eveque_jean_pri_81",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident : Art Gothique breton",
+  "century": "XVe siècle (vers 1436 – 1439)",
+  "centuryDisplay": "v. 1436",
+  "centuryNumeric": 1436,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Anges aux armoiries de l'évêque Jean Prigent et ciel étoilé (Saint-Pol-de-Léon)",
+  "site": "Cathédrale Saint-Paul-Aurélien (Saint-Pol-de-Léon, Finistère, France)",
+  "originSite": "Voûte de la croisée du transept de Saint-Pol-de-Léon",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczMPFJIlrbzITMEsKMpzD8508cZwJ9FvdvsNhAsu0ETCMU92GbZzW1WZ2pAL2ZJ3kLO-yOlOJXl84WOupxegiL-fdnxacl2SapbeLsK6-M6_mJbqE0UclcwvWX46o6jPN5AhHY6o4QNktpaXxEgb8FT1IA=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczMPFJIlrbzITMEsKMpzD8508cZwJ9FvdvsNhAsu0ETCMU92GbZzW1WZ2pAL2ZJ3kLO-yOlOJXl84WOupxegiL-fdnxacl2SapbeLsK6-M6_mJbqE0UclcwvWX46o6jPN5AhHY6o4QNktpaXxEgb8FT1IA=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "france",
+    "bretagne",
+    "saint-pol-de-léon",
+    "gothique",
+    "fresque"
+  ],
+  "chips": [
+    "v. 1436",
+    "Gothique breton",
+    "Voûte céleste",
+    "Évêque Jean Prigent",
+    "Saint-Pol-de-Léon"
+  ],
+  "narrative": "<p>Les fresques de la cathédrale Saint-Paul-Aurélien de Saint-Pol-de-Léon, particulièrement visibles sur les voûtes, constituent un témoignage exceptionnel de l'art pictural de la fin du Moyen Âge en Bretagne. La voûte de la croisée du transept conserve un décor peint d'origine, réalisé au XVe siècle, où des anges aux ailes déployées sont représentés de part et d'autre des nervures. Ces figures célestes présentent les armoiries de Jean Prigent, évêque de Léon entre 1436 et 1439, dont la devise « M Dieu » (Aime Dieu) est inscrite sur des phylactères serpentant parmi des rameaux fleuris et un fond semé d'étoiles</p>",
+  "desc": "<p>Les fresques de la cathédrale Saint-Paul-Aurélien de Saint-Pol-de-Léon, particulièrement visibles sur les voûtes, constituent un témoignage exceptionnel de l'art pictural de la fin du Moyen Âge en Bretagne. La voûte de la croisée du transept conserve un décor peint d'origine, réalisé au XVe siècle, où des anges aux ailes déployées sont représentés de part et d'autre des nervures. Ces figures célestes présentent les armoiries de Jean Prigent, évêque de Léon entre 1436 et 1439, dont la devise « M Dieu » (Aime Dieu) est inscrite sur des phylactères serpentant parmi des rameaux fleuris et un fond semé d'étoiles</p>",
+  "contemporaryArt": {
+    "title": "Quattrocento & Première Renaissance européenne",
+    "events": [
+      "1453 : Prise de Constantinople par les Ottomans et dispersion des érudits byzantins vers l'Italie.",
+      "1455 : Invention de l'imprimerie à caractères mobiles métalliques par Johannes Gutenberg à Mayence.",
+      "1492 : Fin de la Reconquista en Espagne, expulsion de Grenade et premier voyage de Christophe Colomb.",
+      "1517 : Début de la Réforme protestante par Martin Luther à Wittenberg."
+    ]
+  }
+},
+{
+  "id": "fresque_saint_michel_terrassant_le_dragon_et_la__82",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident : Gothique insulaire corse",
+  "century": "XVe siècle (1458)",
+  "centuryDisplay": "1458",
+  "centuryNumeric": 1458,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Saint Michel terrassant le dragon et la pesée des âmes (Aregno, Corse)",
+  "site": "Église de la Trinité et de San Giovanni (Aregno, Haute-Corse, France)",
+  "originSite": "Église romane d'Aregno (Balagne)",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczNt5weRPeIC6hUItNVY8CW_BfO6WhoK7RdJkxI7qqbPlAzU_73q-y5vsmxn2br0XgYCY1cSp-ROW7awBST111eS4XyuJqns_TXSP-gXTt2zy-f162h-aCDHzGk3IlZfaQgwGy_kmUguOjlyRpoKtsVLQw=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczNt5weRPeIC6hUItNVY8CW_BfO6WhoK7RdJkxI7qqbPlAzU_73q-y5vsmxn2br0XgYCY1cSp-ROW7awBST111eS4XyuJqns_TXSP-gXTt2zy-f162h-aCDHzGk3IlZfaQgwGy_kmUguOjlyRpoKtsVLQw=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "france",
+    "corse",
+    "aregno",
+    "balagne",
+    "gothique",
+    "fresque"
+  ],
+  "chips": [
+    "1458",
+    "Art pictural corse",
+    "Balagne",
+    "Église romane de la Trinité",
+    "Aregno (Corse)"
+  ],
+  "narrative": "<p>Cette fresque murale, située dans l'église romane de la Trinité et de San Giovanni à Aregno, en Balagne, constitue un témoignage remarquable de l'art pictural médiéval en Corse. Datée précisément de 1458 grâce à l'inscription latine figurant à sa base, elle représente l'archange saint Michel dans sa double fonction iconographique traditionnelle.</p><p>L'œuvre dépeint le chef de la milice céleste sous les traits d'un jeune homme ailé, vêtu d'une armure de type romain avec des ptéryges et un manteau pourpre. L'archange est saisi dans l'acte de la psychostasie, le pesage des âmes, tenant d'une main une balance dont les plateaux semblent à l'équilibre. Simultanément, il accomplit sa mission de protecteur de la foi en terrassant le dragon, incarnation du Mal, qu'il foule aux pieds tout en le menaçant de son épée.</p><p>Le style de cette peinture, bien que réalisé au milieu du XVe siècle, conserve une facture archaïque aux influences italo-gothiques marquées par des contours sombres et une palette de couleurs terreuses. Cette fresque, avec celle représentant saint Pardulphe (saint Pardo) qui lui fait face, illustre la volonté de l'époque d'utiliser l'image comme un support pédagogique pour les fidèles, rappelant les enjeux du Jugement dernier et la victoire finale du bien sur les forces démoniaques.</p>",
+  "desc": "<p>Cette fresque murale, située dans l'église romane de la Trinité et de San Giovanni à Aregno, en Balagne, constitue un témoignage remarquable de l'art pictural médiéval en Corse. Datée précisément de 1458 grâce à l'inscription latine figurant à sa base, elle représente l'archange saint Michel dans sa double fonction iconographique traditionnelle.</p><p>L'œuvre dépeint le chef de la milice céleste sous les traits d'un jeune homme ailé, vêtu d'une armure de type romain avec des ptéryges et un manteau pourpre. L'archange est saisi dans l'acte de la psychostasie, le pesage des âmes, tenant d'une main une balance dont les plateaux semblent à l'équilibre. Simultanément, il accomplit sa mission de protecteur de la foi en terrassant le dragon, incarnation du Mal, qu'il foule aux pieds tout en le menaçant de son épée.</p><p>Le style de cette peinture, bien que réalisé au milieu du XVe siècle, conserve une facture archaïque aux influences italo-gothiques marquées par des contours sombres et une palette de couleurs terreuses. Cette fresque, avec celle représentant saint Pardulphe (saint Pardo) qui lui fait face, illustre la volonté de l'époque d'utiliser l'image comme un support pédagogique pour les fidèles, rappelant les enjeux du Jugement dernier et la victoire finale du bien sur les forces démoniaques.</p>",
+  "contemporaryArt": {
+    "title": "Quattrocento & Première Renaissance européenne",
+    "events": [
+      "1453 : Prise de Constantinople par les Ottomans et dispersion des érudits byzantins vers l'Italie.",
+      "1455 : Invention de l'imprimerie à caractères mobiles métalliques par Johannes Gutenberg à Mayence.",
+      "1492 : Fin de la Reconquista en Espagne, expulsion de Grenade et premier voyage de Christophe Colomb.",
+      "1517 : Début de la Réforme protestante par Martin Luther à Wittenberg."
+    ]
+  }
+},
+{
+  "id": "fresque_saint_michel_terrassant_le_dragon_et_la__83",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident : Gothique insulaire corse",
+  "century": "XVe siècle (1458)",
+  "centuryDisplay": "1458",
+  "centuryNumeric": 1458,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Saint Michel terrassant le dragon et la pesée des âmes (Aregno, Corse)",
+  "site": "Église de la Trinité et de San Giovanni (Aregno, Haute-Corse, France)",
+  "originSite": "Église romane d'Aregno (Balagne)",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczPKURZW9nyyOPMcQSRzqhz9GtCakPZniOQdFj3ssjg8dSp_NcAb6CU-1olkXIqRQ0_WWa8Ru5Vk5y76_cZPfe4qkhcDsSBAyiLmLSN6wv5gTv7dvmoKFWAdUm9Y6tDoLfwfQLLQ605d5G-hsAtjm-mN1A=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczPKURZW9nyyOPMcQSRzqhz9GtCakPZniOQdFj3ssjg8dSp_NcAb6CU-1olkXIqRQ0_WWa8Ru5Vk5y76_cZPfe4qkhcDsSBAyiLmLSN6wv5gTv7dvmoKFWAdUm9Y6tDoLfwfQLLQ605d5G-hsAtjm-mN1A=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "france",
+    "corse",
+    "aregno",
+    "balagne",
+    "gothique",
+    "fresque"
+  ],
+  "chips": [
+    "1458",
+    "Art pictural corse",
+    "Balagne",
+    "Église romane de la Trinité",
+    "Aregno (Corse)"
+  ],
+  "narrative": "<p>Réalisée au milieu du XVe siècle (vers 1458),  cette fresque s'inscrit dans le même programme iconographique que la fresque de saint Michel, visant à affirmer les fondements de la doctrine chrétienne au sein de l'édifice roman.</p><p>L'œuvre présente, de gauche à droite, saint Augustin, saint Grégoire le Grand, saint Jérôme et saint Ambroise. Les personnages sont représentés en position assise, identifiables par leurs attributs épiscopaux et hiérarchiques : la mitre et la crosse pour les évêques (Augustin et Ambroise), la tiare papale pour Grégoire, et le chapeau cardinalice pour Jérôme. Ils sont saisis dans une attitude de réflexion ou d'enseignement, tenant des livres ou des manuscrits qui symbolisent leurs écrits théologiques majeurs.</p><p>L'exécution stylistique témoigne d'une transition entre la tradition médiévale et les prémices de la Renaissance. Si les visages et les drapés conservent une certaine linéarité, l'alignement des figures sur un banc continu souligne une volonté de cohérence spatiale. L'inscription latine qui court sur toute la longueur de la base mentionne les noms des saints et, comme pour les autres fresques de l'église, fournit des indications précieuses sur la datation et l'origine de cette commande artistique. église Aregno Corse</p>",
+  "desc": "<p>Réalisée au milieu du XVe siècle (vers 1458),  cette fresque s'inscrit dans le même programme iconographique que la fresque de saint Michel, visant à affirmer les fondements de la doctrine chrétienne au sein de l'édifice roman.</p><p>L'œuvre présente, de gauche à droite, saint Augustin, saint Grégoire le Grand, saint Jérôme et saint Ambroise. Les personnages sont représentés en position assise, identifiables par leurs attributs épiscopaux et hiérarchiques : la mitre et la crosse pour les évêques (Augustin et Ambroise), la tiare papale pour Grégoire, et le chapeau cardinalice pour Jérôme. Ils sont saisis dans une attitude de réflexion ou d'enseignement, tenant des livres ou des manuscrits qui symbolisent leurs écrits théologiques majeurs.</p><p>L'exécution stylistique témoigne d'une transition entre la tradition médiévale et les prémices de la Renaissance. Si les visages et les drapés conservent une certaine linéarité, l'alignement des figures sur un banc continu souligne une volonté de cohérence spatiale. L'inscription latine qui court sur toute la longueur de la base mentionne les noms des saints et, comme pour les autres fresques de l'église, fournit des indications précieuses sur la datation et l'origine de cette commande artistique. église Aregno Corse</p>",
+  "contemporaryArt": {
+    "title": "Quattrocento & Première Renaissance européenne",
+    "events": [
+      "1453 : Prise de Constantinople par les Ottomans et dispersion des érudits byzantins vers l'Italie.",
+      "1455 : Invention de l'imprimerie à caractères mobiles métalliques par Johannes Gutenberg à Mayence.",
+      "1492 : Fin de la Reconquista en Espagne, expulsion de Grenade et premier voyage de Christophe Colomb.",
+      "1517 : Début de la Réforme protestante par Martin Luther à Wittenberg."
+    ]
+  }
+},
+{
+  "id": "fresque_le_martyre_de_saint_barthelemy_ecorche_v_84",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident : Gothique insulaire corse",
+  "century": "XVe siècle (1473)",
+  "centuryDisplay": "1473",
+  "centuryNumeric": 1473,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Le Martyre de saint Barthélemy écorché vif et théorie des Apôtres (Valle-di-Campoloro)",
+  "site": "Chapelle Santa Cristina (Valle-di-Campoloro, Haute-Corse, France)",
+  "originSite": "Absides géminées de la chapelle Santa Cristina",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczN_LDVK20XLXMd-wE_QW9ib9r7x0_t0IgFubMUR-YEVNocp-n-B8qE1Ri26B7liTdH6oGIzK0IbGzXmO5Lg81d8RTmYlaYE8-JBoboanV7zO57Xk8Y_WseoO0LAztYFEQKsxP9WaDExbc9WvZ9CtrcsOQ=w1681-h1093-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczN_LDVK20XLXMd-wE_QW9ib9r7x0_t0IgFubMUR-YEVNocp-n-B8qE1Ri26B7liTdH6oGIzK0IbGzXmO5Lg81d8RTmYlaYE8-JBoboanV7zO57Xk8Y_WseoO0LAztYFEQKsxP9WaDExbc9WvZ9CtrcsOQ=w1681-h1093-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "france",
+    "corse",
+    "valle-di-campoloro",
+    "santa cristina",
+    "gothique",
+    "fresque"
+  ],
+  "chips": [
+    "1473",
+    "Art populaire corse",
+    "Absides géminées",
+    "Saint Barthélemy",
+    "Valle-di-Campoloro"
+  ],
+  "narrative": "<p>La structure visuelle s'articule autour de deux absides géminées, un cas unique dans l'architecture religieuse de l'île, offrant une vaste surface narrative. Sur le mur pignon surplombant les deux voûtes, le registre supérieur est consacré à la Passion avec une Crucifixion centrale flanquée de figures saintes en pleurs, tandis qu'au registre intermédiaire, une Annonciation monumentale occupe les écoinçons. L'ange Gabriel, aux ailes ocellées majestueuses, se déploie à gauche de l'arc central, portant le message divin sur un phylactère qui semble flotter dans l'espace architectural.</p><p>L'abside de gauche présente, dans son cul-de-four, un Christ en Majesté ou une scène théophanique aujourd'hui partiellement érodée, dominant une théorie de six apôtres. Ces derniers sont représentés avec une monumentalité robuste, leurs nimbes perlés se détachant sur un fond vert saturé. On y distingue notamment saint Barthélemy, figuré de manière saisissante avec sa propre peau d'écorché jetée sur l'épaule. L'abside de droite, quant à elle, accueille dans sa voûte une représentation rarissime du \"Christ à deux têtes\" ou d'une Trinité singulière trônant sur un siège monumental, un livre ouvert sur les genoux. En dessous, une seconde rangée de six apôtres complète le collège apostolique, créant une procession continue qui semble soutenir spirituellement les visions célestes placées au-dessus d'eux.</p><p>L'ensemble de la composition est unifié par une palette chromatique de pigments naturels — ocre rouge, jaune, blanc de chaux et vert terre — et par des bordures décoratives à motifs de dents de scie et d'arcatures qui soulignent les lignes de force de l'édifice. Les visages, aux traits simplifiés mais aux regards fixes et pénétrants, ainsi que la gestuelle hiératique des mains tenant livres ou instruments du martyre, confèrent à cette chapelle une atmosphère de solennité archaïque. Cette œuvre témoigne de la persistance d'un style \"roman-gothique\" populaire qui privilégie l'efficacité didactique et la clarté symbolique sur les recherches de perspective de la Renaissance continentale contemporaine.</p>",
+  "desc": "<p>La structure visuelle s'articule autour de deux absides géminées, un cas unique dans l'architecture religieuse de l'île, offrant une vaste surface narrative. Sur le mur pignon surplombant les deux voûtes, le registre supérieur est consacré à la Passion avec une Crucifixion centrale flanquée de figures saintes en pleurs, tandis qu'au registre intermédiaire, une Annonciation monumentale occupe les écoinçons. L'ange Gabriel, aux ailes ocellées majestueuses, se déploie à gauche de l'arc central, portant le message divin sur un phylactère qui semble flotter dans l'espace architectural.</p><p>L'abside de gauche présente, dans son cul-de-four, un Christ en Majesté ou une scène théophanique aujourd'hui partiellement érodée, dominant une théorie de six apôtres. Ces derniers sont représentés avec une monumentalité robuste, leurs nimbes perlés se détachant sur un fond vert saturé. On y distingue notamment saint Barthélemy, figuré de manière saisissante avec sa propre peau d'écorché jetée sur l'épaule. L'abside de droite, quant à elle, accueille dans sa voûte une représentation rarissime du \"Christ à deux têtes\" ou d'une Trinité singulière trônant sur un siège monumental, un livre ouvert sur les genoux. En dessous, une seconde rangée de six apôtres complète le collège apostolique, créant une procession continue qui semble soutenir spirituellement les visions célestes placées au-dessus d'eux.</p><p>L'ensemble de la composition est unifié par une palette chromatique de pigments naturels — ocre rouge, jaune, blanc de chaux et vert terre — et par des bordures décoratives à motifs de dents de scie et d'arcatures qui soulignent les lignes de force de l'édifice. Les visages, aux traits simplifiés mais aux regards fixes et pénétrants, ainsi que la gestuelle hiératique des mains tenant livres ou instruments du martyre, confèrent à cette chapelle une atmosphère de solennité archaïque. Cette œuvre témoigne de la persistance d'un style \"roman-gothique\" populaire qui privilégie l'efficacité didactique et la clarté symbolique sur les recherches de perspective de la Renaissance continentale contemporaine.</p>",
+  "contemporaryArt": {
+    "title": "Quattrocento & Première Renaissance européenne",
+    "events": [
+      "1453 : Prise de Constantinople par les Ottomans et dispersion des érudits byzantins vers l'Italie.",
+      "1455 : Invention de l'imprimerie à caractères mobiles métalliques par Johannes Gutenberg à Mayence.",
+      "1492 : Fin de la Reconquista en Espagne, expulsion de Grenade et premier voyage de Christophe Colomb.",
+      "1517 : Début de la Réforme protestante par Martin Luther à Wittenberg."
+    ]
+  }
+},
+{
+  "id": "fresque_le_martyre_de_saint_barthelemy_ecorche_v_85",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident : Gothique insulaire corse",
+  "century": "XVe siècle (1473)",
+  "centuryDisplay": "1473",
+  "centuryNumeric": 1473,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Le Martyre de saint Barthélemy écorché vif et théorie des Apôtres (Valle-di-Campoloro)",
+  "site": "Chapelle Santa Cristina (Valle-di-Campoloro, Haute-Corse, France)",
+  "originSite": "Absides géminées de la chapelle Santa Cristina",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczNCBkBvqNHVHyilJcUePuSD8s3CkTTkHzGoG8zpkYB40jSnRPJ5jMOrsB1RgjAXl_8ugssboCKZsyc7p4TzRT5-hIqCszK3gqJqjD-LNsNFkRg4Msv0xZltcEDnTh8Rzr7pM5x6cTpnPAsL6v6fC6JHKQ=w1681-h1262-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczNCBkBvqNHVHyilJcUePuSD8s3CkTTkHzGoG8zpkYB40jSnRPJ5jMOrsB1RgjAXl_8ugssboCKZsyc7p4TzRT5-hIqCszK3gqJqjD-LNsNFkRg4Msv0xZltcEDnTh8Rzr7pM5x6cTpnPAsL6v6fC6JHKQ=w1681-h1262-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "france",
+    "corse",
+    "valle-di-campoloro",
+    "santa cristina",
+    "gothique",
+    "fresque"
+  ],
+  "chips": [
+    "1473",
+    "Art populaire corse",
+    "Absides géminées",
+    "Saint Barthélemy",
+    "Valle-di-Campoloro"
+  ],
+  "narrative": "<p>Cette fresque monumentale, ornant l'abside de la chapelle Santa Cristina de Valle-di-Campoloro en Corse, constitue l'un des témoignages les plus singuliers de l'art médiéval insulaire. Datée de 1473, elle représente une théorie d'apôtres s'inscrivant dans un registre horizontal qui épouse la courbure de l'édifice, témoignant d'une esthétique à la fois archaïsante et expressive. Les figures sont représentées debout, nimbées de larges auréoles ornées de motifs circulaires, et vêtues de tuniques et de manteaux aux drapés schématiques mais rythmés par des lignes de contour sombres. La palette chromatique, dominée par des ocres rouges, des terres de Sienne et des fonds vert émeraude, crée un contraste saisissant qui donne à l'ensemble une force graphique immédiate.</p><p>La scène centrale de ce groupe attire particulièrement l'attention par son iconographie rare et frappante : il s'agit du martyre de saint Barthélemy. Contrairement aux autres apôtres qui tiennent des livres ou des phylactères, le saint est ici représenté écorché vif, sa propre peau pendante, exhibant sa dépouille comme un attribut de son sacrifice. Un bourreau, dont la silhouette rouge se confond presque avec le sang du martyr, est représenté en pleine action, accentuant le caractère narratif et didactique de la peinture. Cette rudesse d'exécution, typique des courants populaires du XVe siècle en Corse, visait à marquer l'esprit des fidèles par une représentation brute de la foi. Malgré l'usure du temps qui a effacé certains visages et détails, la fresque conserve une intensité spirituelle remarquable, magnifiée par la simplicité de son cadre architectural.</p>",
+  "desc": "<p>Cette fresque monumentale, ornant l'abside de la chapelle Santa Cristina de Valle-di-Campoloro en Corse, constitue l'un des témoignages les plus singuliers de l'art médiéval insulaire. Datée de 1473, elle représente une théorie d'apôtres s'inscrivant dans un registre horizontal qui épouse la courbure de l'édifice, témoignant d'une esthétique à la fois archaïsante et expressive. Les figures sont représentées debout, nimbées de larges auréoles ornées de motifs circulaires, et vêtues de tuniques et de manteaux aux drapés schématiques mais rythmés par des lignes de contour sombres. La palette chromatique, dominée par des ocres rouges, des terres de Sienne et des fonds vert émeraude, crée un contraste saisissant qui donne à l'ensemble une force graphique immédiate.</p><p>La scène centrale de ce groupe attire particulièrement l'attention par son iconographie rare et frappante : il s'agit du martyre de saint Barthélemy. Contrairement aux autres apôtres qui tiennent des livres ou des phylactères, le saint est ici représenté écorché vif, sa propre peau pendante, exhibant sa dépouille comme un attribut de son sacrifice. Un bourreau, dont la silhouette rouge se confond presque avec le sang du martyr, est représenté en pleine action, accentuant le caractère narratif et didactique de la peinture. Cette rudesse d'exécution, typique des courants populaires du XVe siècle en Corse, visait à marquer l'esprit des fidèles par une représentation brute de la foi. Malgré l'usure du temps qui a effacé certains visages et détails, la fresque conserve une intensité spirituelle remarquable, magnifiée par la simplicité de son cadre architectural.</p>",
+  "contemporaryArt": {
+    "title": "Quattrocento & Première Renaissance européenne",
+    "events": [
+      "1453 : Prise de Constantinople par les Ottomans et dispersion des érudits byzantins vers l'Italie.",
+      "1455 : Invention de l'imprimerie à caractères mobiles métalliques par Johannes Gutenberg à Mayence.",
+      "1492 : Fin de la Reconquista en Espagne, expulsion de Grenade et premier voyage de Christophe Colomb.",
+      "1517 : Début de la Réforme protestante par Martin Luther à Wittenberg."
+    ]
+  }
+},
+{
+  "id": "fresque_l_archange_gabriel_de_l_annonciation_et__86",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident : Gothique insulaire corse",
+  "century": "XVe siècle (1473)",
+  "centuryDisplay": "1473",
+  "centuryNumeric": 1473,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "L'Archange Gabriel de l'Annonciation et la Crucifixion (Santa Cristina, Corse)",
+  "site": "Chapelle Santa Cristina (Valle-di-Campoloro, Haute-Corse, France)",
+  "originSite": "Absides géminées de la chapelle Santa Cristina",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczOz4m7pcy71KodGnucTk5vVvrnr3wOdOxeEFtPEjQ5rad06ipPOuA4OksNaaoJ7kWx-q03iL3O4FaLiNWPij24zgjSPQF1MHhqZIOzjpj_j-JP2N3XOuKjvltwKc7RHmQLlyWmrixXBKtD8DAFzqNykWQ=w1681-h1129-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczOz4m7pcy71KodGnucTk5vVvrnr3wOdOxeEFtPEjQ5rad06ipPOuA4OksNaaoJ7kWx-q03iL3O4FaLiNWPij24zgjSPQF1MHhqZIOzjpj_j-JP2N3XOuKjvltwKc7RHmQLlyWmrixXBKtD8DAFzqNykWQ=w1681-h1129-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "france",
+    "corse",
+    "valle-di-campoloro",
+    "santa cristina",
+    "gothique",
+    "fresque"
+  ],
+  "chips": [
+    "1473",
+    "Art populaire corse",
+    "Absides géminées",
+    "Saint Barthélemy",
+    "Valle-di-Campoloro"
+  ],
+  "narrative": "<p>Dominant la théorie des apôtres, la partie supérieure de la paroi de l'abside présente une composition narrative divisée par des registres horizontaux et des arcs architecturaux. Sur l'écoinçon gauche de l'arc triomphal, la figure de l'archange Gabriel, appartenant à une scène de l'Annonciation, se déploie avec une vigueur particulière : agenouillé, il tient un long phylactère qui serpente devant lui, tandis que ses ailes massives, décorées de motifs ocellés rappelant les plumes d'un paon, remplissent l'espace disponible. Le traitement des vêtements, avec des plis soulignés de rouge et des bordures perlées, témoigne du soin apporté aux détails ornementaux malgré la facture robuste de l'ensemble.</p><p>Au-dessus de cette scène, sur le mur pignon, se devine une Crucifixion simplifiée où le Christ en croix est entouré de figures en prière, dont la Vierge et saint Jean, se détachant sur un fond ocre qui unifie l'espace sacré. L'utilisation de bandes décoratives à motifs géométriques et de dents de scie pour délimiter les scènes souligne la structure de l'édifice tout en guidant l'œil du fidèle à travers le programme iconographique. L'ensemble de ces peintures murales, par leur style linéaire et leur palette de pigments naturels, illustre la persistance d'une tradition médiévale tardive qui privilégie la clarté du message religieux et la puissance symbolique des images sur le réalisme perspectif. chapelle Santa Cristina Valle di Campoloro  meme lieu :</p>",
+  "desc": "<p>Dominant la théorie des apôtres, la partie supérieure de la paroi de l'abside présente une composition narrative divisée par des registres horizontaux et des arcs architecturaux. Sur l'écoinçon gauche de l'arc triomphal, la figure de l'archange Gabriel, appartenant à une scène de l'Annonciation, se déploie avec une vigueur particulière : agenouillé, il tient un long phylactère qui serpente devant lui, tandis que ses ailes massives, décorées de motifs ocellés rappelant les plumes d'un paon, remplissent l'espace disponible. Le traitement des vêtements, avec des plis soulignés de rouge et des bordures perlées, témoigne du soin apporté aux détails ornementaux malgré la facture robuste de l'ensemble.</p><p>Au-dessus de cette scène, sur le mur pignon, se devine une Crucifixion simplifiée où le Christ en croix est entouré de figures en prière, dont la Vierge et saint Jean, se détachant sur un fond ocre qui unifie l'espace sacré. L'utilisation de bandes décoratives à motifs géométriques et de dents de scie pour délimiter les scènes souligne la structure de l'édifice tout en guidant l'œil du fidèle à travers le programme iconographique. L'ensemble de ces peintures murales, par leur style linéaire et leur palette de pigments naturels, illustre la persistance d'une tradition médiévale tardive qui privilégie la clarté du message religieux et la puissance symbolique des images sur le réalisme perspectif. chapelle Santa Cristina Valle di Campoloro  meme lieu :</p>",
+  "contemporaryArt": {
+    "title": "Quattrocento & Première Renaissance européenne",
+    "events": [
+      "1453 : Prise de Constantinople par les Ottomans et dispersion des érudits byzantins vers l'Italie.",
+      "1455 : Invention de l'imprimerie à caractères mobiles métalliques par Johannes Gutenberg à Mayence.",
+      "1492 : Fin de la Reconquista en Espagne, expulsion de Grenade et premier voyage de Christophe Colomb.",
+      "1517 : Début de la Réforme protestante par Martin Luther à Wittenberg."
+    ]
+  }
+},
+{
+  "id": "fresque_le_martyre_de_saint_barthelemy_ecorche_v_87",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident : Gothique insulaire corse",
+  "century": "XVe siècle (1473)",
+  "centuryDisplay": "1473",
+  "centuryNumeric": 1473,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Le Martyre de saint Barthélemy écorché vif et théorie des Apôtres (Valle-di-Campoloro)",
+  "site": "Chapelle Santa Cristina (Valle-di-Campoloro, Haute-Corse, France)",
+  "originSite": "Absides géminées de la chapelle Santa Cristina",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczNYn5TwsIuWzw91G9waHNF8-Y37rRuxbrJB4JAfn5sotSa_3U5SEm6yX7K_Ih0Usr-Ebu2G8Up5Z6nbBsk4d5znr_wHKLQfJWkSyL_KHEYc_oRNhdAikoj3Mp7kRvxQ9G3B6wF_cT_dRnFGxOeUqYK_tQ=w1681-h1129-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczNYn5TwsIuWzw91G9waHNF8-Y37rRuxbrJB4JAfn5sotSa_3U5SEm6yX7K_Ih0Usr-Ebu2G8Up5Z6nbBsk4d5znr_wHKLQfJWkSyL_KHEYc_oRNhdAikoj3Mp7kRvxQ9G3B6wF_cT_dRnFGxOeUqYK_tQ=w1681-h1129-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "france",
+    "corse",
+    "valle-di-campoloro",
+    "santa cristina",
+    "gothique",
+    "fresque"
+  ],
+  "chips": [
+    "1473",
+    "Art populaire corse",
+    "Absides géminées",
+    "Saint Barthélemy",
+    "Valle-di-Campoloro"
+  ],
+  "narrative": "<p>Le registre inférieur se déploie comme une procession solennelle de douze apôtres, répartis de part et d'autre de l'axe central. Chaque figure est isolée sur un fond vert émeraude, vêtue de drapés aux couleurs alternées de rouge ocre, de blanc et de terre de Sienne, créant un rythme visuel continu sur la paroi courbe. Leurs visages, marqués par de grands yeux expressifs, sont surmontés de nimbes ornés de motifs de perles blanches, une décoration que l'on retrouve également sur les encolures et les poignets de leurs tuniques. On remarque une grande attention portée aux mains, qui tiennent des livres ou des phylactères, à l'exception notable de la figure centrale écorchée qui souligne la dimension martyriale du collège apostolique.</p>",
+  "desc": "<p>Le registre inférieur se déploie comme une procession solennelle de douze apôtres, répartis de part et d'autre de l'axe central. Chaque figure est isolée sur un fond vert émeraude, vêtue de drapés aux couleurs alternées de rouge ocre, de blanc et de terre de Sienne, créant un rythme visuel continu sur la paroi courbe. Leurs visages, marqués par de grands yeux expressifs, sont surmontés de nimbes ornés de motifs de perles blanches, une décoration que l'on retrouve également sur les encolures et les poignets de leurs tuniques. On remarque une grande attention portée aux mains, qui tiennent des livres ou des phylactères, à l'exception notable de la figure centrale écorchée qui souligne la dimension martyriale du collège apostolique.</p>",
+  "contemporaryArt": {
+    "title": "Quattrocento & Première Renaissance européenne",
+    "events": [
+      "1453 : Prise de Constantinople par les Ottomans et dispersion des érudits byzantins vers l'Italie.",
+      "1455 : Invention de l'imprimerie à caractères mobiles métalliques par Johannes Gutenberg à Mayence.",
+      "1492 : Fin de la Reconquista en Espagne, expulsion de Grenade et premier voyage de Christophe Colomb.",
+      "1517 : Début de la Réforme protestante par Martin Luther à Wittenberg."
+    ]
+  }
+},
+{
+  "id": "fresque_le_christ_en_majeste_entoure_du_tetramor_88",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident : Gothique international piémonto-corse",
+  "century": "XVe siècle (fin du XVe siècle)",
+  "centuryDisplay": "Fin XVe s.",
+  "centuryNumeric": 1480,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Le Christ en Majesté entouré du Tétramorphe et des anges musiciens (Castello-di-Rostino)",
+  "site": "Église San Tumasgiu (Castello-di-Rostino, Haute-Corse, France)",
+  "originSite": "Église San Tumasgiu de Pastoreccia (Castello-di-Rostino)",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczMDP9_X2s2kh8R6RWVx13AiYIJDp0QGSZD58t_0k9LnOz9tLVlmlNRwTq7X8UEtPk_emWxqcKRVlt0vU59R-qbl6J7hwJ2R_UESOACaTUnAo3Qh6kMz0U9sN8wKBRCH3t1Zu_tFcP-AWQvMaWWoLOl_JA=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczMDP9_X2s2kh8R6RWVx13AiYIJDp0QGSZD58t_0k9LnOz9tLVlmlNRwTq7X8UEtPk_emWxqcKRVlt0vU59R-qbl6J7hwJ2R_UESOACaTUnAo3Qh6kMz0U9sN8wKBRCH3t1Zu_tFcP-AWQvMaWWoLOl_JA=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "france",
+    "corse",
+    "castello-di-rostino",
+    "san tumasgiu",
+    "gothique",
+    "fresque"
+  ],
+  "chips": [
+    "Fin XVe s.",
+    "Atelier piémontais en Corse",
+    "San Tumasgiu",
+    "Castello-di-Rostino",
+    "Corse"
+  ],
+  "narrative": "<p>Cette fresque monumentale ornant le cul-de-four de l'abside de l'église San Tumasgiu de Castello-di-Rostino représente un Christ en Majesté, ou Pantocrator, datant de la fin du XVe siècle. L'œuvre est attribuée à un atelier de peintres itinérants, probablement d'origine piémontaise, dont l'influence a marqué le renouveau artistique de la Corse médiévale. Le Christ trône au centre de la composition, bénissant de la main droite et présentant de la main gauche un livre ouvert affichant l'inscription latine Ego sum lux mundi. Il est entouré du Tétramorphe symbolisant les quatre Évangélistes, parmi lesquels on distingue clairement le bœuf ailé de saint Luc et l'aigle de saint Jean.</p><p>De part et d'autre de la figure centrale, des anges musiciens jouent du luth et de la viole, tandis que des figures de saints, dont la Vierge Marie en prière sur la droite, occupent les espaces latéraux. Un sol en damier noir et blanc apporte une tentative de perspective géométrique, caractéristique du style gothique tardif. La palette chromatique s'appuie sur des pigments naturels tels que l'ocre rouge et la terre de Sienne, rehaussés par des contrastes de blanc et de bleu. Bien que l'enduit présente des lacunes dues au passage du temps, l'ensemble conserve une grande force expressive et témoigne de la ferveur spirituelle du Rustinu à l'époque médiévale. Cette peinture murale est aujourd'hui protégée au titre des Monuments Historiques.</p>",
+  "desc": "<p>Cette fresque monumentale ornant le cul-de-four de l'abside de l'église San Tumasgiu de Castello-di-Rostino représente un Christ en Majesté, ou Pantocrator, datant de la fin du XVe siècle. L'œuvre est attribuée à un atelier de peintres itinérants, probablement d'origine piémontaise, dont l'influence a marqué le renouveau artistique de la Corse médiévale. Le Christ trône au centre de la composition, bénissant de la main droite et présentant de la main gauche un livre ouvert affichant l'inscription latine Ego sum lux mundi. Il est entouré du Tétramorphe symbolisant les quatre Évangélistes, parmi lesquels on distingue clairement le bœuf ailé de saint Luc et l'aigle de saint Jean.</p><p>De part et d'autre de la figure centrale, des anges musiciens jouent du luth et de la viole, tandis que des figures de saints, dont la Vierge Marie en prière sur la droite, occupent les espaces latéraux. Un sol en damier noir et blanc apporte une tentative de perspective géométrique, caractéristique du style gothique tardif. La palette chromatique s'appuie sur des pigments naturels tels que l'ocre rouge et la terre de Sienne, rehaussés par des contrastes de blanc et de bleu. Bien que l'enduit présente des lacunes dues au passage du temps, l'ensemble conserve une grande force expressive et témoigne de la ferveur spirituelle du Rustinu à l'époque médiévale. Cette peinture murale est aujourd'hui protégée au titre des Monuments Historiques.</p>",
+  "contemporaryArt": {
+    "title": "Quattrocento & Première Renaissance européenne",
+    "events": [
+      "1453 : Prise de Constantinople par les Ottomans et dispersion des érudits byzantins vers l'Italie.",
+      "1455 : Invention de l'imprimerie à caractères mobiles métalliques par Johannes Gutenberg à Mayence.",
+      "1492 : Fin de la Reconquista en Espagne, expulsion de Grenade et premier voyage de Christophe Colomb.",
+      "1517 : Début de la Réforme protestante par Martin Luther à Wittenberg."
+    ]
+  }
+},
+{
+  "id": "fresque_la_crucifixion_du_christ_devant_l_encein_89",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident : Gothique international piémonto-corse",
+  "century": "XVe siècle (fin du XVe siècle)",
+  "centuryDisplay": "Fin XVe s.",
+  "centuryNumeric": 1480,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "La Crucifixion du Christ devant l'enceinte de Jérusalem (Castello-di-Rostino)",
+  "site": "Église San Tumasgiu (Castello-di-Rostino, Haute-Corse, France)",
+  "originSite": "Église San Tumasgiu de Pastoreccia (Castello-di-Rostino)",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczObHEFM7vHfiQqsfm27JCiTmGm34Tl7FVEeHFg2aGhkb0Zk2dKXfDHhEssH7_SK3YcGiqkTIHpM2XqO1Am9dmzm_-xxjXud0LGHC05hELLzEcFHlsg_AfpS9XklLvMHjnNj58mMCK9FF7N6WJmgrfqEcg=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczObHEFM7vHfiQqsfm27JCiTmGm34Tl7FVEeHFg2aGhkb0Zk2dKXfDHhEssH7_SK3YcGiqkTIHpM2XqO1Am9dmzm_-xxjXud0LGHC05hELLzEcFHlsg_AfpS9XklLvMHjnNj58mMCK9FF7N6WJmgrfqEcg=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "france",
+    "corse",
+    "castello-di-rostino",
+    "san tumasgiu",
+    "gothique",
+    "fresque"
+  ],
+  "chips": [
+    "Fin XVe s.",
+    "Atelier piémontais en Corse",
+    "San Tumasgiu",
+    "Castello-di-Rostino",
+    "Corse"
+  ],
+  "narrative": "<p>Cette scène de la Crucifixion, située sur les parois latérales de l'église San Tumasgiu à Castello-di-Rostino, complète l'ensemble pictural du XVe siècle par une iconographie centrée sur la Passion. La fresque représente le Christ en croix, dont le corps longiligne et les détails anatomiques, comme la plaie au flanc, témoignent du style gothique international alors diffusé en Corse par les ateliers piémontais. À sa droite, on devine la figure de la Vierge Marie, la tête inclinée et nimbée d'un disque d'or, partageant la douleur de son fils dans une attitude de recueillement typique de l'époque.</p><p>L'arrière-plan révèle un détail architectural remarquable : une enceinte fortifiée aux créneaux en queue d'aronde, censée figurer la ville de Jérusalem mais reflétant en réalité l'architecture médiévale contemporaine des peintres. La palette chromatique reste fidèle au reste de l'édifice, utilisant des terres naturelles pour les carnations et un fond bleuté qui, bien qu'altéré par le temps et les pertes d'enduit, souligne encore la silhouette du Christ. Les fragments d'inscriptions visibles en partie haute suggèrent la présence originelle de phylactères ou de noms de saints, renforçant le rôle pédagogique de l'image pour les fidèles de la piève du Rustinu. Cette œuvre fragmentaire constitue un témoignage précieux de la peinture murale insulaire pré-renaissante, classée avec l'ensemble du décor de l'église.</p>",
+  "desc": "<p>Cette scène de la Crucifixion, située sur les parois latérales de l'église San Tumasgiu à Castello-di-Rostino, complète l'ensemble pictural du XVe siècle par une iconographie centrée sur la Passion. La fresque représente le Christ en croix, dont le corps longiligne et les détails anatomiques, comme la plaie au flanc, témoignent du style gothique international alors diffusé en Corse par les ateliers piémontais. À sa droite, on devine la figure de la Vierge Marie, la tête inclinée et nimbée d'un disque d'or, partageant la douleur de son fils dans une attitude de recueillement typique de l'époque.</p><p>L'arrière-plan révèle un détail architectural remarquable : une enceinte fortifiée aux créneaux en queue d'aronde, censée figurer la ville de Jérusalem mais reflétant en réalité l'architecture médiévale contemporaine des peintres. La palette chromatique reste fidèle au reste de l'édifice, utilisant des terres naturelles pour les carnations et un fond bleuté qui, bien qu'altéré par le temps et les pertes d'enduit, souligne encore la silhouette du Christ. Les fragments d'inscriptions visibles en partie haute suggèrent la présence originelle de phylactères ou de noms de saints, renforçant le rôle pédagogique de l'image pour les fidèles de la piève du Rustinu. Cette œuvre fragmentaire constitue un témoignage précieux de la peinture murale insulaire pré-renaissante, classée avec l'ensemble du décor de l'église.</p>",
+  "contemporaryArt": {
+    "title": "Quattrocento & Première Renaissance européenne",
+    "events": [
+      "1453 : Prise de Constantinople par les Ottomans et dispersion des érudits byzantins vers l'Italie.",
+      "1455 : Invention de l'imprimerie à caractères mobiles métalliques par Johannes Gutenberg à Mayence.",
+      "1492 : Fin de la Reconquista en Espagne, expulsion de Grenade et premier voyage de Christophe Colomb.",
+      "1517 : Début de la Réforme protestante par Martin Luther à Wittenberg."
+    ]
+  }
+},
+{
+  "id": "fresque_le_christ_en_majeste_entoure_du_tetramor_90",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident : Gothique international piémonto-corse",
+  "century": "XVe siècle (fin du XVe siècle)",
+  "centuryDisplay": "Fin XVe s.",
+  "centuryNumeric": 1480,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Le Christ en Majesté entouré du Tétramorphe et des anges musiciens (Castello-di-Rostino)",
+  "site": "Église San Tumasgiu (Castello-di-Rostino, Haute-Corse, France)",
+  "originSite": "Église San Tumasgiu de Pastoreccia (Castello-di-Rostino)",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczM-qR5bCbBsoGZsDzOi5yJKfDGBNtSQR2OoANtni0FDBZeabL5gmhMqvKp4UEASX_PV1OTRSJkLA2ngI9InRYWr1A6H8yqzXWPsPxibLFFPEQUV3Y2anDZAHUks0aWQAoRYqtNC1PVcWK4cZd3qY0L7Sg=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczM-qR5bCbBsoGZsDzOi5yJKfDGBNtSQR2OoANtni0FDBZeabL5gmhMqvKp4UEASX_PV1OTRSJkLA2ngI9InRYWr1A6H8yqzXWPsPxibLFFPEQUV3Y2anDZAHUks0aWQAoRYqtNC1PVcWK4cZd3qY0L7Sg=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "france",
+    "corse",
+    "castello-di-rostino",
+    "san tumasgiu",
+    "gothique",
+    "fresque"
+  ],
+  "chips": [
+    "Fin XVe s.",
+    "Atelier piémontais en Corse",
+    "San Tumasgiu",
+    "Castello-di-Rostino",
+    "Corse"
+  ],
+  "narrative": "<p>Cette scène impressionnante, située sur les parois de l'église San Tumasgiu à Castello-di-Rostino, illustre le Jugement Dernier et plus particulièrement les tourments de l'Enfer. Peinte à la fin du XVe siècle, cette fresque appartient au même cycle iconographique que le Christ en Majesté et la Crucifixion, reflétant la volonté pédagogique du clergé de l'époque d'enseigner les fins dernières aux fidèles à travers des images saisissantes. La composition dépeint une multitude de corps nus, représentant les damnés, livrés à des figures démoniaques aux traits bestiaux et cornus.</p><p>Le style s'inscrit dans une esthétique médiévale tardive où l'émotion et la terreur sont suggérées par l'enchevêtrement des corps et l'utilisation de flammes stylisées qui s'élèvent du sol. Les démons, peints dans des tons ocres sombres et rougeâtres, contrastent avec la pâleur des âmes suppliciées, créant une dynamique visuelle qui guide le regard à travers le chaos de la scène. On observe en bas à droite une figure dont la tête semble émerger ou être engloutie, illustrant la diversité des châtiments réservés aux pécheurs. Malgré l'usure de la paroi et la patine du temps, l'œuvre conserve une grande lisibilité et témoigne de la vigueur de l'art fresquiste en Corse, mêlant influences populaires et apports techniques des maîtres italiens du XVe siècle.</p>",
+  "desc": "<p>Cette scène impressionnante, située sur les parois de l'église San Tumasgiu à Castello-di-Rostino, illustre le Jugement Dernier et plus particulièrement les tourments de l'Enfer. Peinte à la fin du XVe siècle, cette fresque appartient au même cycle iconographique que le Christ en Majesté et la Crucifixion, reflétant la volonté pédagogique du clergé de l'époque d'enseigner les fins dernières aux fidèles à travers des images saisissantes. La composition dépeint une multitude de corps nus, représentant les damnés, livrés à des figures démoniaques aux traits bestiaux et cornus.</p><p>Le style s'inscrit dans une esthétique médiévale tardive où l'émotion et la terreur sont suggérées par l'enchevêtrement des corps et l'utilisation de flammes stylisées qui s'élèvent du sol. Les démons, peints dans des tons ocres sombres et rougeâtres, contrastent avec la pâleur des âmes suppliciées, créant une dynamique visuelle qui guide le regard à travers le chaos de la scène. On observe en bas à droite une figure dont la tête semble émerger ou être engloutie, illustrant la diversité des châtiments réservés aux pécheurs. Malgré l'usure de la paroi et la patine du temps, l'œuvre conserve une grande lisibilité et témoigne de la vigueur de l'art fresquiste en Corse, mêlant influences populaires et apports techniques des maîtres italiens du XVe siècle.</p>",
+  "contemporaryArt": {
+    "title": "Quattrocento & Première Renaissance européenne",
+    "events": [
+      "1453 : Prise de Constantinople par les Ottomans et dispersion des érudits byzantins vers l'Italie.",
+      "1455 : Invention de l'imprimerie à caractères mobiles métalliques par Johannes Gutenberg à Mayence.",
+      "1492 : Fin de la Reconquista en Espagne, expulsion de Grenade et premier voyage de Christophe Colomb.",
+      "1517 : Début de la Réforme protestante par Martin Luther à Wittenberg."
+    ]
+  }
+},
+{
+  "id": "fresque_le_jugement_dernier_et_la_vision_des_tou_91",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident : Gothique international piémonto-corse",
+  "century": "XVe siècle (fin du XVe siècle)",
+  "centuryDisplay": "Fin XVe s.",
+  "centuryNumeric": 1480,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Le Jugement Dernier et la vision des tourments de l'Enfer (Castello-di-Rostino)",
+  "site": "Église San Tumasgiu (Castello-di-Rostino, Haute-Corse, France)",
+  "originSite": "Église San Tumasgiu de Pastoreccia (Castello-di-Rostino)",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczOK3DhIUQYsUPcLahrZkXf8eEaTFFwZWn9dcU5dyBHRdO_bwuKBndYzaWXuUub5pe7Fg_lol6DgSPX6GjwzbAb6-zYhm5tIyyCbNmsj2kSnlq4ADwhlVN7PB3v70aSJuUJfPzNlpRq41Taf4z8aEKpJng=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczOK3DhIUQYsUPcLahrZkXf8eEaTFFwZWn9dcU5dyBHRdO_bwuKBndYzaWXuUub5pe7Fg_lol6DgSPX6GjwzbAb6-zYhm5tIyyCbNmsj2kSnlq4ADwhlVN7PB3v70aSJuUJfPzNlpRq41Taf4z8aEKpJng=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "france",
+    "corse",
+    "castello-di-rostino",
+    "san tumasgiu",
+    "gothique",
+    "fresque"
+  ],
+  "chips": [
+    "Fin XVe s.",
+    "Atelier piémontais en Corse",
+    "San Tumasgiu",
+    "Castello-di-Rostino",
+    "Corse"
+  ],
+  "narrative": "<p>Cette figure de l’archange saint Michel, située sur l’arc triomphal de l’église San Tumasgiu à Castello-di-Rostino, illustre le renouveau de l’art fresquiste en Corse à la fin du XVe siècle. Représenté en tant que chef des milices célestes, le saint apparaît ici vêtu d’une armure de fer et d’une cotte de mailles méticuleusement détaillées, caractéristiques de l'équipement militaire de l’époque médiévale tardive. Ses ailes aux plumes dorées et son nimbe rayonnant soulignent sa nature divine, tandis que son visage jeune aux cheveux blonds adopte une expression de calme détermination.</p><p>L’archange est traditionnellement représenté dans cette église terrassant le dragon, symbole du mal, bien que cette partie inférieure soit moins visible sur ce panneau. Il tient d'une main une lance et semble de l'autre manipuler une balance, attribut de la psychostase ou \"pesée des âmes\" lors du Jugement Dernier. La qualité de la ligne et la précision des ornements de l’armure témoignent de l’influence des maîtres italiens, probablement piémontais, qui ont réalisé ce cycle décoratif exceptionnel classé aux Monuments Historiques.</p>",
+  "desc": "<p>Cette figure de l’archange saint Michel, située sur l’arc triomphal de l’église San Tumasgiu à Castello-di-Rostino, illustre le renouveau de l’art fresquiste en Corse à la fin du XVe siècle. Représenté en tant que chef des milices célestes, le saint apparaît ici vêtu d’une armure de fer et d’une cotte de mailles méticuleusement détaillées, caractéristiques de l'équipement militaire de l’époque médiévale tardive. Ses ailes aux plumes dorées et son nimbe rayonnant soulignent sa nature divine, tandis que son visage jeune aux cheveux blonds adopte une expression de calme détermination.</p><p>L’archange est traditionnellement représenté dans cette église terrassant le dragon, symbole du mal, bien que cette partie inférieure soit moins visible sur ce panneau. Il tient d'une main une lance et semble de l'autre manipuler une balance, attribut de la psychostase ou \"pesée des âmes\" lors du Jugement Dernier. La qualité de la ligne et la précision des ornements de l’armure témoignent de l’influence des maîtres italiens, probablement piémontais, qui ont réalisé ce cycle décoratif exceptionnel classé aux Monuments Historiques.</p>",
+  "contemporaryArt": {
+    "title": "Quattrocento & Première Renaissance européenne",
+    "events": [
+      "1453 : Prise de Constantinople par les Ottomans et dispersion des érudits byzantins vers l'Italie.",
+      "1455 : Invention de l'imprimerie à caractères mobiles métalliques par Johannes Gutenberg à Mayence.",
+      "1492 : Fin de la Reconquista en Espagne, expulsion de Grenade et premier voyage de Christophe Colomb.",
+      "1517 : Début de la Réforme protestante par Martin Luther à Wittenberg."
+    ]
+  }
+},
+{
+  "id": "fresque_saint_michel_terrassant_le_dragon_aux_ai_92",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident : Art Gothique rhénan",
+  "century": "XVe siècle (fin du XVe siècle)",
+  "centuryDisplay": "Fin XVe s.",
+  "centuryNumeric": 1480,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Saint Michel terrassant le dragon aux ailes ocellées (Saint-Thomas, Strasbourg)",
+  "site": "Église Saint-Thomas (Strasbourg, Alsace, France)",
+  "originSite": "Pilier du bas-côté sud de l'église Saint-Thomas",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczPQfIGZAiOQFPHhmUsrCtIwMmGt8fQJxZml6TQEJ26bvxQmMytYkKidH-1DkGxqcEoJr1Epg0Xkv9QJw5ViRilWkuCDJjU0o81WBz4suImZDUyAjiraM-5-PmwXifG6cOuQkLGzdtdyyeJtTQrS4SZF7g=w1611-h2416-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczPQfIGZAiOQFPHhmUsrCtIwMmGt8fQJxZml6TQEJ26bvxQmMytYkKidH-1DkGxqcEoJr1Epg0Xkv9QJw5ViRilWkuCDJjU0o81WBz4suImZDUyAjiraM-5-PmwXifG6cOuQkLGzdtdyyeJtTQrS4SZF7g=w1611-h2416-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "france",
+    "alsace",
+    "strasbourg",
+    "saint-thomas",
+    "gothique",
+    "fresque"
+  ],
+  "chips": [
+    "Fin XVe s.",
+    "Gothique rhénan",
+    "Peinture sur pilier",
+    "Archange saint Michel",
+    "Strasbourg"
+  ],
+  "narrative": "<p>Cette peinture murale, située sur l'un des piliers du bas-côté sud de l'église Saint-Thomas de Strasbourg, représente Saint Michel terrassant le dragon, un thème classique de l'iconographie chrétienne symbolisant la victoire du Bien sur le Mal. Datant de la fin du XVe siècle, cette fresque monumentale frappe par la verticalité de sa composition et la silhouette longiligne de l'archange, qui occupe la majeure partie de la surface murale. Saint Michel est représenté en chevalier céleste, vêtu d'une armure de parade complète aux reflets dorés et ocres, portant une croix sur son plastron et un diadème crucifère sur sa chevelure bouclée. Ses ailes, déployées de part et d'autre, présentent un motif ocellé rappelant les plumes d'un paon, détail raffiné typique de l'art rhénan de cette période. D'une attitude calme et presque hiératique, il transperce de sa lance une créature démoniaque aux traits hybrides, mêlant des attributs de bouc et de dragon, qui gît à ses pieds dans un enchevêtrement de membres et de griffes. À ses côtés, une seconde figure démoniaque plus humaine mais grimaçante semble également soumise au pouvoir divin. La palette de couleurs est dominée par des terres d'ombre, des ocres et des grisés, créant un contraste doux avec l'enduit clair du support. Malgré une certaine bidimensionnalité propre à la peinture murale tardo-médiévale, l'œuvre dégage une grande force spirituelle et didactique, rappelant aux fidèles la protection constante des milices célestes. Cette fresque constitue l'un des rares vestiges de la décoration polychrome qui ornait autrefois l'ensemble des piliers de cette église-halle.</p>",
+  "desc": "<p>Cette peinture murale, située sur l'un des piliers du bas-côté sud de l'église Saint-Thomas de Strasbourg, représente Saint Michel terrassant le dragon, un thème classique de l'iconographie chrétienne symbolisant la victoire du Bien sur le Mal. Datant de la fin du XVe siècle, cette fresque monumentale frappe par la verticalité de sa composition et la silhouette longiligne de l'archange, qui occupe la majeure partie de la surface murale. Saint Michel est représenté en chevalier céleste, vêtu d'une armure de parade complète aux reflets dorés et ocres, portant une croix sur son plastron et un diadème crucifère sur sa chevelure bouclée. Ses ailes, déployées de part et d'autre, présentent un motif ocellé rappelant les plumes d'un paon, détail raffiné typique de l'art rhénan de cette période. D'une attitude calme et presque hiératique, il transperce de sa lance une créature démoniaque aux traits hybrides, mêlant des attributs de bouc et de dragon, qui gît à ses pieds dans un enchevêtrement de membres et de griffes. À ses côtés, une seconde figure démoniaque plus humaine mais grimaçante semble également soumise au pouvoir divin. La palette de couleurs est dominée par des terres d'ombre, des ocres et des grisés, créant un contraste doux avec l'enduit clair du support. Malgré une certaine bidimensionnalité propre à la peinture murale tardo-médiévale, l'œuvre dégage une grande force spirituelle et didactique, rappelant aux fidèles la protection constante des milices célestes. Cette fresque constitue l'un des rares vestiges de la décoration polychrome qui ornait autrefois l'ensemble des piliers de cette église-halle.</p>",
+  "contemporaryArt": {
+    "title": "Quattrocento & Première Renaissance européenne",
+    "events": [
+      "1453 : Prise de Constantinople par les Ottomans et dispersion des érudits byzantins vers l'Italie.",
+      "1455 : Invention de l'imprimerie à caractères mobiles métalliques par Johannes Gutenberg à Mayence.",
+      "1492 : Fin de la Reconquista en Espagne, expulsion de Grenade et premier voyage de Christophe Colomb.",
+      "1517 : Début de la Réforme protestante par Martin Luther à Wittenberg."
+    ]
+  }
+},
+{
+  "id": "fresque_la_resurrection_des_trois_enfants_au_sal_93",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident : Gothique tardif rhénan",
+  "century": "XVe siècle (1493)",
+  "centuryDisplay": "1493",
+  "centuryNumeric": 1493,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "La Résurrection des trois enfants au saloir par saint Nicolas (Hunawihr)",
+  "site": "Église Saint-Jacques-le-Majeur (Hunawihr, Haut-Rhin, France)",
+  "originSite": "Clocher fortifié de l'église d'Hunawihr",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczM7E6VfqaX74O_d8Kq_6IMp-OyDtxGSb8y_gcDlPxtMEU955O9ed0GqQjJhCt9cah29kD9Hh4r-XTOCQlsrT0izWTLaeMBcVlwKS-gwtslywQtDY5f_Kk2Zm6hkjhEu2dyGmA0ZQaOaGzupFdR7WHbAxw=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczM7E6VfqaX74O_d8Kq_6IMp-OyDtxGSb8y_gcDlPxtMEU955O9ed0GqQjJhCt9cah29kD9Hh4r-XTOCQlsrT0izWTLaeMBcVlwKS-gwtslywQtDY5f_Kk2Zm6hkjhEu2dyGmA0ZQaOaGzupFdR7WHbAxw=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "france",
+    "alsace",
+    "hunawihr",
+    "saint-nicolas",
+    "gothique",
+    "fresque"
+  ],
+  "chips": [
+    "1493",
+    "Gothique rhénan",
+    "Cycle de saint Nicolas",
+    "Église fortifiée",
+    "Hunawihr (Alsace)"
+  ],
+  "narrative": "<p>Cette scène murale de l'église Saint-Jacques-le-Majeur de Hunawihr appartient au cycle iconographique majeur réalisé en 1493, illustrant la légende de saint Nicolas. Elle représente le miracle le plus populaire du saint : la résurrection des trois enfants au saloir. Selon la tradition médiévale, trois petits enfants s'étant égarés furent tués et mis au saloir par un boucher malfaisant ; sept ans plus tard, saint Nicolas, de passage, obtint leur résurrection par sa prière. La peinture montre l'évêque de Myre, identifiable à ses attributs épiscopaux, faisant le geste de la bénédiction au-dessus d'un grand cuveau d'où émergent les trois jeunes garçons en position de prière. Cette œuvre de la fin du XVe siècle se distingue par son style narratif efficace et ses couleurs à base de pigments minéraux, typiques de l'art populaire rhénan de cette période. Bien que l'humidité ait altéré la vivacité des tons, la composition reste un témoignage précieux de la catéchèse par l'image, destinée à une population rurale largement analphabète. L'ensemble du cycle a été sauvé par un badigeon protecteur lors de la Réforme, avant d'être remis au jour à la fin du XIXe siècle.</p>",
+  "desc": "<p>Cette scène murale de l'église Saint-Jacques-le-Majeur de Hunawihr appartient au cycle iconographique majeur réalisé en 1493, illustrant la légende de saint Nicolas. Elle représente le miracle le plus populaire du saint : la résurrection des trois enfants au saloir. Selon la tradition médiévale, trois petits enfants s'étant égarés furent tués et mis au saloir par un boucher malfaisant ; sept ans plus tard, saint Nicolas, de passage, obtint leur résurrection par sa prière. La peinture montre l'évêque de Myre, identifiable à ses attributs épiscopaux, faisant le geste de la bénédiction au-dessus d'un grand cuveau d'où émergent les trois jeunes garçons en position de prière. Cette œuvre de la fin du XVe siècle se distingue par son style narratif efficace et ses couleurs à base de pigments minéraux, typiques de l'art populaire rhénan de cette période. Bien que l'humidité ait altéré la vivacité des tons, la composition reste un témoignage précieux de la catéchèse par l'image, destinée à une population rurale largement analphabète. L'ensemble du cycle a été sauvé par un badigeon protecteur lors de la Réforme, avant d'être remis au jour à la fin du XIXe siècle.</p>",
+  "contemporaryArt": {
+    "title": "Quattrocento & Première Renaissance européenne",
+    "events": [
+      "1453 : Prise de Constantinople par les Ottomans et dispersion des érudits byzantins vers l'Italie.",
+      "1455 : Invention de l'imprimerie à caractères mobiles métalliques par Johannes Gutenberg à Mayence.",
+      "1492 : Fin de la Reconquista en Espagne, expulsion de Grenade et premier voyage de Christophe Colomb.",
+      "1517 : Début de la Réforme protestante par Martin Luther à Wittenberg."
+    ]
+  }
+},
+{
+  "id": "fresque_le_miracle_des_trois_condamnes_sauves_pa_94",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident : Gothique tardif rhénan",
+  "century": "XVe siècle (1493)",
+  "centuryDisplay": "1493",
+  "centuryNumeric": 1493,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Le Miracle des trois condamnés sauvés par saint Nicolas (Hunawihr)",
+  "site": "Église Saint-Jacques-le-Majeur (Hunawihr, Haut-Rhin, France)",
+  "originSite": "Clocher fortifié de l'église d'Hunawihr",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczP8Jb5LxsD5K_1Cyuq63cl4PIqaugw1sdIQ_gxtwAl0BuvWDfPmemkYJA_h-qld1Nj0x_0IsWOFAE6JL8JlPClUEolzGaMmhjRoKa5S0LCmdQeI19zS3Rf9B10ucYbvBxdDBIM56SJfdCAw7bJJVE7VYA=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczP8Jb5LxsD5K_1Cyuq63cl4PIqaugw1sdIQ_gxtwAl0BuvWDfPmemkYJA_h-qld1Nj0x_0IsWOFAE6JL8JlPClUEolzGaMmhjRoKa5S0LCmdQeI19zS3Rf9B10ucYbvBxdDBIM56SJfdCAw7bJJVE7VYA=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "france",
+    "alsace",
+    "hunawihr",
+    "saint-nicolas",
+    "gothique",
+    "fresque"
+  ],
+  "chips": [
+    "1493",
+    "Gothique rhénan",
+    "Cycle de saint Nicolas",
+    "Église fortifiée",
+    "Hunawihr (Alsace)"
+  ],
+  "narrative": "<p>Cette scène de la vie de saint Nicolas, située dans l'enclos fortifié de l'église de Hunawihr, s'inscrit dans le cycle narratif exceptionnel achevé en 1493. Elle illustre l'un des miracles les plus célèbres de l'évêque de Myre, souvent désigné comme le miracle des trois officiers ou des trois condamnés. La composition gothique tardive utilise une narration simultanée où le saint intervient pour sauver des innocents de la décapitation, une thématique chère à l'iconographie médiévale rhénane qui souligne son rôle de protecteur et de justicier. Les figures sont représentées avec une expressivité caractéristique de la fin du XVe siècle, marquée par des traits simplifiés et des aplats de couleurs réalisés à la chaux directement sur l'enduit. On y distingue la silhouette de l'évêque, reconnaissable à sa mitre et sa crosse, dominant la scène pour arrêter le bras du bourreau, tandis que les paysages en arrière-plan suggèrent une perspective encore hésitante propre à l'art populaire de cette époque. Cette œuvre, préservée par les aléas de l'histoire et le régime du simultaneum, demeure un témoignage précieux de la piété populaire et de la richesse artistique des villages viticoles alsaciens à l'aube de la Renaissance.</p>",
+  "desc": "<p>Cette scène de la vie de saint Nicolas, située dans l'enclos fortifié de l'église de Hunawihr, s'inscrit dans le cycle narratif exceptionnel achevé en 1493. Elle illustre l'un des miracles les plus célèbres de l'évêque de Myre, souvent désigné comme le miracle des trois officiers ou des trois condamnés. La composition gothique tardive utilise une narration simultanée où le saint intervient pour sauver des innocents de la décapitation, une thématique chère à l'iconographie médiévale rhénane qui souligne son rôle de protecteur et de justicier. Les figures sont représentées avec une expressivité caractéristique de la fin du XVe siècle, marquée par des traits simplifiés et des aplats de couleurs réalisés à la chaux directement sur l'enduit. On y distingue la silhouette de l'évêque, reconnaissable à sa mitre et sa crosse, dominant la scène pour arrêter le bras du bourreau, tandis que les paysages en arrière-plan suggèrent une perspective encore hésitante propre à l'art populaire de cette époque. Cette œuvre, préservée par les aléas de l'histoire et le régime du simultaneum, demeure un témoignage précieux de la piété populaire et de la richesse artistique des villages viticoles alsaciens à l'aube de la Renaissance.</p>",
+  "contemporaryArt": {
+    "title": "Quattrocento & Première Renaissance européenne",
+    "events": [
+      "1453 : Prise de Constantinople par les Ottomans et dispersion des érudits byzantins vers l'Italie.",
+      "1455 : Invention de l'imprimerie à caractères mobiles métalliques par Johannes Gutenberg à Mayence.",
+      "1492 : Fin de la Reconquista en Espagne, expulsion de Grenade et premier voyage de Christophe Colomb.",
+      "1517 : Début de la Réforme protestante par Martin Luther à Wittenberg."
+    ]
+  }
+},
+{
+  "id": "fresque_la_resurrection_des_trois_enfants_au_sal_95",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident : Gothique tardif rhénan",
+  "century": "XVe siècle (1493)",
+  "centuryDisplay": "1493",
+  "centuryNumeric": 1493,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "La Résurrection des trois enfants au saloir par saint Nicolas (Hunawihr)",
+  "site": "Église Saint-Jacques-le-Majeur (Hunawihr, Haut-Rhin, France)",
+  "originSite": "Clocher fortifié de l'église d'Hunawihr",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczN-nj13pzIMT8zb4Mui2pmVIZxnCg9yeYOCjWzzxwuzXBjLNzA3TY1CL6InoTybh5Cp-AIgBhhKUESVwrPEJ5IfGRdR61D4KbAVN1wPe0_HbeBl6IZTXQg8KOMS_D_Cne6EgwQe9C_ZD6nzr4-pECDj3w=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczN-nj13pzIMT8zb4Mui2pmVIZxnCg9yeYOCjWzzxwuzXBjLNzA3TY1CL6InoTybh5Cp-AIgBhhKUESVwrPEJ5IfGRdR61D4KbAVN1wPe0_HbeBl6IZTXQg8KOMS_D_Cne6EgwQe9C_ZD6nzr4-pECDj3w=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "france",
+    "alsace",
+    "hunawihr",
+    "saint-nicolas",
+    "gothique",
+    "fresque"
+  ],
+  "chips": [
+    "1493",
+    "Gothique rhénan",
+    "Cycle de saint Nicolas",
+    "Église fortifiée",
+    "Hunawihr (Alsace)"
+  ],
+  "narrative": "<p>Les fresques de l’église Saint-Jacques-le-Majeur de Hunawihr, redécouvertes en 1878 lors de travaux dans le clocher, constituent un ensemble iconographique exceptionnel daté précisément de l’année 1493. Cet ensemble se compose de quinze tableaux peints à la chaux, répartis sur deux niveaux, dont quatorze retracent les épisodes marquants de la vie et des miracles de saint Nicolas, évêque de Myre. Le dernier tableau, que l'on voit sur votre photographie, représente une scène solennelle dont l'interprétation divise encore les historiens : il s'agit soit du Couronnement de la Vierge Marie par la Trinité, soit de la canonisation de sainte Hune par le Pape et des évêques. Les peintures illustrent avec une grande naïveté narrative des légendes célèbres telles que la résurrection des trois enfants au saloir ou le soutien financier apporté par le saint à trois jeunes filles pauvres. Le style gothique tardif de ces œuvres se manifeste par la simplicité des traits et l'utilisation de pigments naturels, créant une atmosphère de dévotion populaire typique de la fin du XVe siècle. Malgré l'usure du temps et les périodes de simultaneum, ces fresques ont conservé une lisibilité remarquable, faisant de la chapelle située sous le clocher un véritable livre d'images médiéval. Elles témoignent de l'importance du pèlerinage à Hunawihr avant la Réforme et de la persistance du culte des saints dans la culture rhénane.</p>",
+  "desc": "<p>Les fresques de l’église Saint-Jacques-le-Majeur de Hunawihr, redécouvertes en 1878 lors de travaux dans le clocher, constituent un ensemble iconographique exceptionnel daté précisément de l’année 1493. Cet ensemble se compose de quinze tableaux peints à la chaux, répartis sur deux niveaux, dont quatorze retracent les épisodes marquants de la vie et des miracles de saint Nicolas, évêque de Myre. Le dernier tableau, que l'on voit sur votre photographie, représente une scène solennelle dont l'interprétation divise encore les historiens : il s'agit soit du Couronnement de la Vierge Marie par la Trinité, soit de la canonisation de sainte Hune par le Pape et des évêques. Les peintures illustrent avec une grande naïveté narrative des légendes célèbres telles que la résurrection des trois enfants au saloir ou le soutien financier apporté par le saint à trois jeunes filles pauvres. Le style gothique tardif de ces œuvres se manifeste par la simplicité des traits et l'utilisation de pigments naturels, créant une atmosphère de dévotion populaire typique de la fin du XVe siècle. Malgré l'usure du temps et les périodes de simultaneum, ces fresques ont conservé une lisibilité remarquable, faisant de la chapelle située sous le clocher un véritable livre d'images médiéval. Elles témoignent de l'importance du pèlerinage à Hunawihr avant la Réforme et de la persistance du culte des saints dans la culture rhénane.</p>",
+  "contemporaryArt": {
+    "title": "Quattrocento & Première Renaissance européenne",
+    "events": [
+      "1453 : Prise de Constantinople par les Ottomans et dispersion des érudits byzantins vers l'Italie.",
+      "1455 : Invention de l'imprimerie à caractères mobiles métalliques par Johannes Gutenberg à Mayence.",
+      "1492 : Fin de la Reconquista en Espagne, expulsion de Grenade et premier voyage de Christophe Colomb.",
+      "1517 : Début de la Réforme protestante par Martin Luther à Wittenberg."
+    ]
+  }
+},
+{
+  "id": "fresque_le_concert_celeste_des_douze_anges_music_96",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident : Gothique tardif du Maine",
+  "century": "XVe siècle (vers 1485 – 1500)",
+  "centuryDisplay": "Fin XVe s.",
+  "centuryNumeric": 1490,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Le Concert céleste des douze anges musiciens et chanteurs (Coudrecieux)",
+  "site": "Église Saint-Martin des Loges (Coudrecieux, Sarthe, France)",
+  "originSite": "Voûte en berceau du chœur de Saint-Martin des Loges",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczPsdARL7pDoICtBKZctbfVy8aUzCzYHfHhfGvRDI5o-0SzwWj6DNqam2AKrogx52jMv65VS_tjNd0xZ2gqpiEjCY4GIfQvzMiSa0yIGgvmGdYFrmDyi3fLWnBEVlO844hPw_2ubqiV6V5WWgtLV9Gn0xA=w1681-h1262-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczPsdARL7pDoICtBKZctbfVy8aUzCzYHfHhfGvRDI5o-0SzwWj6DNqam2AKrogx52jMv65VS_tjNd0xZ2gqpiEjCY4GIfQvzMiSa0yIGgvmGdYFrmDyi3fLWnBEVlO844hPw_2ubqiV6V5WWgtLV9Gn0xA=w1681-h1262-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "france",
+    "sarthe",
+    "coudrecieux",
+    "anges musiciens",
+    "gothique",
+    "fresque"
+  ],
+  "chips": [
+    "Fin XVe s.",
+    "Gothique du Maine",
+    "Concert d'anges musiciens",
+    "Voûte en berceau",
+    "Coudrecieux (Sarthe)"
+  ],
+  "narrative": "<p>XV Peint sur la voûte en berceau du chœur de l'Église Saint-Martin des Loges, modeste sanctuaire roman du XIe siècle isolé dans la campagne de Coudrecieux en Sarthe, ce concert céleste de douze anges musiciens et chanteurs constitue l'un des témoignages les plus attachants de la peinture murale de la fin du Moyen Âge dans l'ancienne province du Maine. Exécuté à l'extrême fin du XVe siècle, probablement entre 1485 et 1500, cet ensemble s'inscrit dans le sillage artistique et spirituel de l'illustre chœur angélique peint un siècle plus tôt sur les voûtes de la chapelle de la Vierge à la cathédrale Saint-Julien du Mans, tout en adoptant une écriture graphique plus spontanée, propre aux ateliers ruraux de la fin de l'époque gothique. Miraculeusement préservé malgré l'abandon prolongé de l'édifice après sa vente comme bien national sous la Révolution, le décor se déploie avec une fraîcheur remarquable sur le badigeon clair de la voûte.</p><p>Réalisée selon une palette sobre et chaleureuse dominée par l'ocre jaune, l'ocre rouge, la terre de Sienne et le noir de carbone sur fond de chaux blanche, la composition répartit les figures ailées sur les deux versants de la voûte selon des orientations opposées afin d'envelopper le regard des fidèles réunis devant l'autel. Tous les anges, vêtus de longues aubes liturgiques blanches aux plis souples rehaussées d'une encolure rouge, portent un nimbe d'ocre cerné d'un trait noir et déploient de grandes ailes effilées aux teintes flamboyantes. Leur dessin linéaire, ferme et expressif, privilégie la lisibilité des silhouettes et des gestes musicaux dans la pénombre du sanctuaire.</p><p>Sur le plan iconographique et organologique, l'ensemble alterne des anges chantant, qui tendent à pleines mains de larges phylactères sinueux inscrits en caractères gothiques reprenant les hymnes de la liturgie céleste, et des anges instrumentistes formant un véritable orchestre médiéval. On y reconnaît avec précision les grandes familles de l'instrumentarium gothique tardif : les cordes pincées et frottées, illustrées par le luth à caisse piriforme et chevillier coudé ainsi que par la vièle à archet appuyée contre l'épaule ; les instruments à vent, tels que les chalemies, flûtes et trompes droites ; et enfin les percussions, représentées par un grand tambour suspendu sur le flanc et frappé d'une mailloche, détail d'une grande rareté iconographique dans les concerts angéliques médiévaux. Au-dessus de l'espace eucharistique, cette symphonie peinte donne corps à la théologie médiévale de la musique sacrée, conçue comme le reflet terrestre de l'harmonie éternelle du Paradis promise aux élus.</p>",
+  "desc": "<p>XV Peint sur la voûte en berceau du chœur de l'Église Saint-Martin des Loges, modeste sanctuaire roman du XIe siècle isolé dans la campagne de Coudrecieux en Sarthe, ce concert céleste de douze anges musiciens et chanteurs constitue l'un des témoignages les plus attachants de la peinture murale de la fin du Moyen Âge dans l'ancienne province du Maine. Exécuté à l'extrême fin du XVe siècle, probablement entre 1485 et 1500, cet ensemble s'inscrit dans le sillage artistique et spirituel de l'illustre chœur angélique peint un siècle plus tôt sur les voûtes de la chapelle de la Vierge à la cathédrale Saint-Julien du Mans, tout en adoptant une écriture graphique plus spontanée, propre aux ateliers ruraux de la fin de l'époque gothique. Miraculeusement préservé malgré l'abandon prolongé de l'édifice après sa vente comme bien national sous la Révolution, le décor se déploie avec une fraîcheur remarquable sur le badigeon clair de la voûte.</p><p>Réalisée selon une palette sobre et chaleureuse dominée par l'ocre jaune, l'ocre rouge, la terre de Sienne et le noir de carbone sur fond de chaux blanche, la composition répartit les figures ailées sur les deux versants de la voûte selon des orientations opposées afin d'envelopper le regard des fidèles réunis devant l'autel. Tous les anges, vêtus de longues aubes liturgiques blanches aux plis souples rehaussées d'une encolure rouge, portent un nimbe d'ocre cerné d'un trait noir et déploient de grandes ailes effilées aux teintes flamboyantes. Leur dessin linéaire, ferme et expressif, privilégie la lisibilité des silhouettes et des gestes musicaux dans la pénombre du sanctuaire.</p><p>Sur le plan iconographique et organologique, l'ensemble alterne des anges chantant, qui tendent à pleines mains de larges phylactères sinueux inscrits en caractères gothiques reprenant les hymnes de la liturgie céleste, et des anges instrumentistes formant un véritable orchestre médiéval. On y reconnaît avec précision les grandes familles de l'instrumentarium gothique tardif : les cordes pincées et frottées, illustrées par le luth à caisse piriforme et chevillier coudé ainsi que par la vièle à archet appuyée contre l'épaule ; les instruments à vent, tels que les chalemies, flûtes et trompes droites ; et enfin les percussions, représentées par un grand tambour suspendu sur le flanc et frappé d'une mailloche, détail d'une grande rareté iconographique dans les concerts angéliques médiévaux. Au-dessus de l'espace eucharistique, cette symphonie peinte donne corps à la théologie médiévale de la musique sacrée, conçue comme le reflet terrestre de l'harmonie éternelle du Paradis promise aux élus.</p>",
+  "contemporaryArt": {
+    "title": "Quattrocento & Première Renaissance européenne",
+    "events": [
+      "1453 : Prise de Constantinople par les Ottomans et dispersion des érudits byzantins vers l'Italie.",
+      "1455 : Invention de l'imprimerie à caractères mobiles métalliques par Johannes Gutenberg à Mayence.",
+      "1492 : Fin de la Reconquista en Espagne, expulsion de Grenade et premier voyage de Christophe Colomb.",
+      "1517 : Début de la Réforme protestante par Martin Luther à Wittenberg."
+    ]
+  }
+},
+{
+  "id": "fresque_voute_celeste_scenes_christologiques_et__97",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident & Orient Chrétien : Renaissance Paléologue",
+  "century": "XVe siècle (vers 1428 – 1445)",
+  "centuryDisplay": "XVe s.",
+  "centuryNumeric": 1440,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Voûte céleste, scènes christologiques et rinceaux de vigne (Pantanassa, Mystras)",
+  "site": "Église du monastère de la Pantanassa (Mystras, Grèce)",
+  "originSite": "Cité médiévale de Mystras (Despotat de Morée, Péloponnèse, Grèce)",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczNMyRcm_8Q601lHbLUNbYdSNJeH9c5BxWhTPuUn8t6uFLTJG-vfD44fhe7oLKKcO_5DMzp9yNMlAnsskDDHSNi2O82zV_GcxP1lVMSUG5wdCuYEB7LnZKsmk-fKN21k8URuKuwLdj967AmlubrA4n_FNg=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczNMyRcm_8Q601lHbLUNbYdSNJeH9c5BxWhTPuUn8t6uFLTJG-vfD44fhe7oLKKcO_5DMzp9yNMlAnsskDDHSNi2O82zV_GcxP1lVMSUG5wdCuYEB7LnZKsmk-fKN21k8URuKuwLdj967AmlubrA4n_FNg=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "byzance",
+    "mystras",
+    "mistra",
+    "paléologue",
+    "fresque",
+    "grèce"
+  ],
+  "chips": [
+    "XVe s.",
+    "Art byzantin tardif",
+    "Renaissance Paléologue",
+    "Mystras (UNESCO)",
+    "Grèce"
+  ],
+  "narrative": "<p>Cet ensemble pictural, daté du milieu du XVe siècle, représente l’un des ultimes et des plus brillants sommets de l’art byzantin avant la chute de l’Empire. Les fresques de l’église du monastère de la Pantanassa se distinguent par une maîtrise exceptionnelle de la couleur et du mouvement, caractéristiques de la période tardive de la dynastie des Paléologues. La voûte en berceau ici représentée déploie un programme iconographique dense, organisé en registres narratifs et médaillons circulaires. On y observe une recherche de profondeur architecturale inédite, où les scènes bibliques sont intégrées dans des décors urbains complexes aux perspectives fuyantes, témoignant d'une influence possible des contacts avec l'Occident. L'utilisation de pigments précieux, notamment des bleus profonds et des rouges vifs, souligne la richesse du commanditaire et le statut de Mistra comme centre culturel majeur.</p><p>Le style de la Pantanassa se reconnaît à l'allongement des silhouettes et à la vivacité des gestes qui confèrent aux scènes une atmosphère presque théâtrale. Les visages, aux traits fins et aux expressions nuancées, s'éloignent de la rigidité traditionnelle pour exprimer une humanité plus sensible. Les motifs décoratifs, visibles sur les arcs et les bordures, mêlent entrelacs végétaux et géométriques d'une grande finesse, rappelant le raffinement de l'art de cour. Cette décoration murale ne se limite pas à la simple illustration de textes sacrés ; elle crée un espace sacré vibrant où la lumière, jouant sur les volumes de la structure maçonnée, semble donner vie aux figures célestes. Malgré les zones de lacunes dues au temps, la cohérence stylistique demeure intacte, faisant de cette église un conservatoire unique de l'esthétique byzantine à son apogée créative juste avant son déclin politique.</p>",
+  "desc": "<p>Cet ensemble pictural, daté du milieu du XVe siècle, représente l’un des ultimes et des plus brillants sommets de l’art byzantin avant la chute de l’Empire. Les fresques de l’église du monastère de la Pantanassa se distinguent par une maîtrise exceptionnelle de la couleur et du mouvement, caractéristiques de la période tardive de la dynastie des Paléologues. La voûte en berceau ici représentée déploie un programme iconographique dense, organisé en registres narratifs et médaillons circulaires. On y observe une recherche de profondeur architecturale inédite, où les scènes bibliques sont intégrées dans des décors urbains complexes aux perspectives fuyantes, témoignant d'une influence possible des contacts avec l'Occident. L'utilisation de pigments précieux, notamment des bleus profonds et des rouges vifs, souligne la richesse du commanditaire et le statut de Mistra comme centre culturel majeur.</p><p>Le style de la Pantanassa se reconnaît à l'allongement des silhouettes et à la vivacité des gestes qui confèrent aux scènes une atmosphère presque théâtrale. Les visages, aux traits fins et aux expressions nuancées, s'éloignent de la rigidité traditionnelle pour exprimer une humanité plus sensible. Les motifs décoratifs, visibles sur les arcs et les bordures, mêlent entrelacs végétaux et géométriques d'une grande finesse, rappelant le raffinement de l'art de cour. Cette décoration murale ne se limite pas à la simple illustration de textes sacrés ; elle crée un espace sacré vibrant où la lumière, jouant sur les volumes de la structure maçonnée, semble donner vie aux figures célestes. Malgré les zones de lacunes dues au temps, la cohérence stylistique demeure intacte, faisant de cette église un conservatoire unique de l'esthétique byzantine à son apogée créative juste avant son déclin politique.</p>",
+  "contemporaryArt": {
+    "title": "Quattrocento & Première Renaissance européenne",
+    "events": [
+      "1453 : Prise de Constantinople par les Ottomans et dispersion des érudits byzantins vers l'Italie.",
+      "1455 : Invention de l'imprimerie à caractères mobiles métalliques par Johannes Gutenberg à Mayence.",
+      "1492 : Fin de la Reconquista en Espagne, expulsion de Grenade et premier voyage de Christophe Colomb.",
+      "1517 : Début de la Réforme protestante par Martin Luther à Wittenberg."
+    ]
+  }
+},
+{
+  "id": "fresque_voute_celeste_scenes_christologiques_et__98",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident & Orient Chrétien : Renaissance Paléologue",
+  "century": "XVe siècle (vers 1428 – 1445)",
+  "centuryDisplay": "XVe s.",
+  "centuryNumeric": 1440,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Voûte céleste, scènes christologiques et rinceaux de vigne (Pantanassa, Mystras)",
+  "site": "Église du monastère de la Pantanassa (Mystras, Grèce)",
+  "originSite": "Cité médiévale de Mystras (Despotat de Morée, Péloponnèse, Grèce)",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczMJ2fwugtZEKNGfbfomVeqb72sdhjAQwsz3MPYxTFTcIYXmEdSSky6Wlf_JOynztqlaX8oZNmRkRpLiCmHja0jcRducxfMEqclcTAAPcF6btduJPUvhVJyRlisLhgwq8ijcdR5eMhaM7fofmTZfvoBBZg=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczMJ2fwugtZEKNGfbfomVeqb72sdhjAQwsz3MPYxTFTcIYXmEdSSky6Wlf_JOynztqlaX8oZNmRkRpLiCmHja0jcRducxfMEqclcTAAPcF6btduJPUvhVJyRlisLhgwq8ijcdR5eMhaM7fofmTZfvoBBZg=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "byzance",
+    "mystras",
+    "mistra",
+    "paléologue",
+    "fresque",
+    "grèce"
+  ],
+  "chips": [
+    "XVe s.",
+    "Art byzantin tardif",
+    "Renaissance Paléologue",
+    "Mystras (UNESCO)",
+    "Grèce"
+  ],
+  "narrative": "<p>Cet ensemble pictural, daté du milieu du XVe siècle, représente l’un des ultimes et des plus brillants sommets de l’art byzantin avant la chute de l’Empire. Les fresques de l’église du monastère de la Pantanassa se distinguent par une maîtrise exceptionnelle de la couleur et du mouvement, caractéristiques de la période tardive de la dynastie des Paléologues. La voûte en berceau ici représentée déploie un programme iconographique dense, organisé en registres narratifs et médaillons circulaires. On y observe une recherche de profondeur architecturale inédite, où les scènes bibliques sont intégrées dans des décors urbains complexes aux perspectives fuyantes, témoignant d'une influence possible des contacts avec l'Occident. L'utilisation de pigments précieux, notamment des bleus profonds et des rouges vifs, souligne la richesse du commanditaire et le statut de Mistra comme centre culturel majeur.</p><p>Le style de la Pantanassa se reconnaît à l'allongement des silhouettes et à la vivacité des gestes qui confèrent aux scènes une atmosphère presque théâtrale. Les visages, aux traits fins et aux expressions nuancées, s'éloignent de la rigidité traditionnelle pour exprimer une humanité plus sensible. Les motifs décoratifs, visibles sur les arcs et les bordures, mêlent entrelacs végétaux et géométriques d'une grande finesse, rappelant le raffinement de l'art de cour. Cette décoration murale ne se limite pas à la simple illustration de textes sacrés ; elle crée un espace sacré vibrant où la lumière, jouant sur les volumes de la structure maçonnée, semble donner vie aux figures célestes. Malgré les zones de lacunes dues au temps, la cohérence stylistique demeure intacte, faisant de cette église un conservatoire unique de l'esthétique byzantine à son apogée créative juste avant son déclin politique.</p>",
+  "desc": "<p>Cet ensemble pictural, daté du milieu du XVe siècle, représente l’un des ultimes et des plus brillants sommets de l’art byzantin avant la chute de l’Empire. Les fresques de l’église du monastère de la Pantanassa se distinguent par une maîtrise exceptionnelle de la couleur et du mouvement, caractéristiques de la période tardive de la dynastie des Paléologues. La voûte en berceau ici représentée déploie un programme iconographique dense, organisé en registres narratifs et médaillons circulaires. On y observe une recherche de profondeur architecturale inédite, où les scènes bibliques sont intégrées dans des décors urbains complexes aux perspectives fuyantes, témoignant d'une influence possible des contacts avec l'Occident. L'utilisation de pigments précieux, notamment des bleus profonds et des rouges vifs, souligne la richesse du commanditaire et le statut de Mistra comme centre culturel majeur.</p><p>Le style de la Pantanassa se reconnaît à l'allongement des silhouettes et à la vivacité des gestes qui confèrent aux scènes une atmosphère presque théâtrale. Les visages, aux traits fins et aux expressions nuancées, s'éloignent de la rigidité traditionnelle pour exprimer une humanité plus sensible. Les motifs décoratifs, visibles sur les arcs et les bordures, mêlent entrelacs végétaux et géométriques d'une grande finesse, rappelant le raffinement de l'art de cour. Cette décoration murale ne se limite pas à la simple illustration de textes sacrés ; elle crée un espace sacré vibrant où la lumière, jouant sur les volumes de la structure maçonnée, semble donner vie aux figures célestes. Malgré les zones de lacunes dues au temps, la cohérence stylistique demeure intacte, faisant de cette église un conservatoire unique de l'esthétique byzantine à son apogée créative juste avant son déclin politique.</p>",
+  "contemporaryArt": {
+    "title": "Quattrocento & Première Renaissance européenne",
+    "events": [
+      "1453 : Prise de Constantinople par les Ottomans et dispersion des érudits byzantins vers l'Italie.",
+      "1455 : Invention de l'imprimerie à caractères mobiles métalliques par Johannes Gutenberg à Mayence.",
+      "1492 : Fin de la Reconquista en Espagne, expulsion de Grenade et premier voyage de Christophe Colomb.",
+      "1517 : Début de la Réforme protestante par Martin Luther à Wittenberg."
+    ]
+  }
+},
+{
+  "id": "fresque_voute_celeste_scenes_christologiques_et__99",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident & Orient Chrétien : Renaissance Paléologue",
+  "century": "XVe siècle (vers 1428 – 1445)",
+  "centuryDisplay": "XVe s.",
+  "centuryNumeric": 1440,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Voûte céleste, scènes christologiques et rinceaux de vigne (Pantanassa, Mystras)",
+  "site": "Église du monastère de la Pantanassa (Mystras, Grèce)",
+  "originSite": "Cité médiévale de Mystras (Despotat de Morée, Péloponnèse, Grèce)",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczMVOX9zdzm1mETIlF2zecudaD81VTvNZ6kZvgRK113J-ae0xGRhtBROFgNhFHOkG7KBSls9DFz-kDb4vbZUCxiXNSzrcnIrvswt0AOPbiMBVfu1t7is9-GDURL0clgUkFyaaZLdxAVBATVGzN5rrBVppA=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczMVOX9zdzm1mETIlF2zecudaD81VTvNZ6kZvgRK113J-ae0xGRhtBROFgNhFHOkG7KBSls9DFz-kDb4vbZUCxiXNSzrcnIrvswt0AOPbiMBVfu1t7is9-GDURL0clgUkFyaaZLdxAVBATVGzN5rrBVppA=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "byzance",
+    "mystras",
+    "mistra",
+    "paléologue",
+    "fresque",
+    "grèce"
+  ],
+  "chips": [
+    "XVe s.",
+    "Art byzantin tardif",
+    "Renaissance Paléologue",
+    "Mystras (UNESCO)",
+    "Grèce"
+  ],
+  "narrative": "<p>Les fresques de l’église du monastère de la Pantanassa se distinguent par une maîtrise exceptionnelle de la couleur et du mouvement, caractéristiques de la période tardive de la dynastie des Paléologues. La voûte en berceau ici représentée déploie un programme iconographique dense, organisé en registres narratifs et médaillons circulaires. On y observe une recherche de profondeur architecturale inédite, où les scènes bibliques, comme la Crucifixion ou des épisodes de la vie des saints, sont intégrées dans des décors urbains complexes aux perspectives fuyantes, témoignant d'une influence possible des contacts avec l'Occident. L'utilisation de pigments précieux, notamment des bleus profonds, des ocres et des rouges vifs, souligne la richesse du commanditaire et le statut de Mistra comme centre culturel majeur.</p><p>Le style de la Pantanassa se reconnaît à l'allongement des silhouettes et à la vivacité des gestes qui confèrent aux scènes une atmosphère presque théâtrale. Les visages, aux traits fins et aux expressions nuancées, s'éloignent de la rigidité traditionnelle pour exprimer une humanité plus sensible, particulièrement visible dans les portraits de saints en médaillons entourés de rinceaux de vigne chargés de grappes de raisin. Les motifs décoratifs mêlent entrelacs végétaux et géométriques d'une grande finesse, rappelant le raffinement de l'art de cour. Cette décoration murale ne se limite pas à la simple illustration de textes sacrés ; elle crée un espace sacré vibrant où la lumière, jouant sur les volumes de la structure maçonnée, semble donner vie aux figures célestes. Malgré les zones de lacunes dues au temps, la cohérence stylistique demeure intacte, faisant de cette église un conservatoire unique de l'esthétique byzantine à son apogée créative juste avant son déclin politique.</p>",
+  "desc": "<p>Les fresques de l’église du monastère de la Pantanassa se distinguent par une maîtrise exceptionnelle de la couleur et du mouvement, caractéristiques de la période tardive de la dynastie des Paléologues. La voûte en berceau ici représentée déploie un programme iconographique dense, organisé en registres narratifs et médaillons circulaires. On y observe une recherche de profondeur architecturale inédite, où les scènes bibliques, comme la Crucifixion ou des épisodes de la vie des saints, sont intégrées dans des décors urbains complexes aux perspectives fuyantes, témoignant d'une influence possible des contacts avec l'Occident. L'utilisation de pigments précieux, notamment des bleus profonds, des ocres et des rouges vifs, souligne la richesse du commanditaire et le statut de Mistra comme centre culturel majeur.</p><p>Le style de la Pantanassa se reconnaît à l'allongement des silhouettes et à la vivacité des gestes qui confèrent aux scènes une atmosphère presque théâtrale. Les visages, aux traits fins et aux expressions nuancées, s'éloignent de la rigidité traditionnelle pour exprimer une humanité plus sensible, particulièrement visible dans les portraits de saints en médaillons entourés de rinceaux de vigne chargés de grappes de raisin. Les motifs décoratifs mêlent entrelacs végétaux et géométriques d'une grande finesse, rappelant le raffinement de l'art de cour. Cette décoration murale ne se limite pas à la simple illustration de textes sacrés ; elle crée un espace sacré vibrant où la lumière, jouant sur les volumes de la structure maçonnée, semble donner vie aux figures célestes. Malgré les zones de lacunes dues au temps, la cohérence stylistique demeure intacte, faisant de cette église un conservatoire unique de l'esthétique byzantine à son apogée créative juste avant son déclin politique.</p>",
+  "contemporaryArt": {
+    "title": "Quattrocento & Première Renaissance européenne",
+    "events": [
+      "1453 : Prise de Constantinople par les Ottomans et dispersion des érudits byzantins vers l'Italie.",
+      "1455 : Invention de l'imprimerie à caractères mobiles métalliques par Johannes Gutenberg à Mayence.",
+      "1492 : Fin de la Reconquista en Espagne, expulsion de Grenade et premier voyage de Christophe Colomb.",
+      "1517 : Début de la Réforme protestante par Martin Luther à Wittenberg."
+    ]
+  }
+},
+{
+  "id": "fresque_l_annonciation_et_la_deisis_musee_byzant_100",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_renaissance",
+  "civName": "Occident & Orient Chrétien : Art Post-Byzantin",
+  "century": "XVe – XVIe siècle",
+  "centuryDisplay": "XVe s.",
+  "centuryNumeric": 1490,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "L'Annonciation et la Déisis (Musée byzantin de Corfou)",
+  "site": "Musée d’art byzantin Antivouniotissa (Corfou, Îles Ioniennes, Grèce)",
+  "originSite": "Édifice religieux insulaire de Corfou",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczMQxFuhdg4XqqyAQugWRYLI-lspu8EpuSpv_kePwyCLrYk3UT2rT2d4gB62XgqDMzSZ_Oz8LHR1v8XX_5O5SnrMRbVMxa8t64-97HPunA0z1QJ4rPHkfR0_F1Q0ruK1pDdb0lzBvq-zmkxpeBzY15nS_w=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczMQxFuhdg4XqqyAQugWRYLI-lspu8EpuSpv_kePwyCLrYk3UT2rT2d4gB62XgqDMzSZ_Oz8LHR1v8XX_5O5SnrMRbVMxa8t64-97HPunA0z1QJ4rPHkfR0_F1Q0ruK1pDdb0lzBvq-zmkxpeBzY15nS_w=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "byzance",
+    "corfou",
+    "antivouniotissa",
+    "fresque",
+    "déisis",
+    "grèce"
+  ],
+  "chips": [
+    "XVe – XVIe s.",
+    "Art post-byzantin",
+    "École créto-vénitienne",
+    "Corfou",
+    "Îles Ioniennes"
+  ],
+  "narrative": "<p>Cette fresque murale fragmentaire, conservée au Musée d’art byzantin de Corfou, constitue un témoignage exceptionnel de la peinture monumentale post-byzantine, illustrant la persistance et l’évolution des modèles iconographiques dans l’espace ionien. L’œuvre se divise en deux registres distincts qui synthétisent les piliers de la foi orthodoxe. À gauche, la scène de l'Annonciation dépeint l'archange Gabriel s'avançant vers la Vierge Marie dans une posture dynamique, marquant le début de l’économie du salut par l’Incarnation. À droite, le panneau présente une Déisis, ou Intercession, montrant le Christ en majesté entouré de la Vierge et de saint Jean-Baptiste. Ces figures sont représentées dans une attitude de supplication, les mains tendues vers le Christ pour intercéder en faveur de l'humanité, une composition centrale dans la liturgie et l’eschatologie byzantines.</p><p>Sur le plan stylistique, l'œuvre révèle une exécution technique qui privilégie la linéarité et une palette chromatique dominée par des ocres terreux, des rouges briques et des bleus minéraux, typiques des ateliers régionaux de la fin du XVe ou du XVIe siècle. Bien que les visages aient subi les outrages du temps, la fluidité des drapés et la majesté des nimbes dorés témoignent d'une maîtrise héritée de la tradition paléologue, tout en laissant transparaître une certaine simplification formelle propre à la diffusion de l'art crétois dans les îles Ioniennes. La présence de cette fresque dans le musée souligne l'importance historique de Corfou comme carrefour culturel où la rigueur spirituelle de Byzance a continué de s'épanouir sous l'influence vénitienne. Cette pièce n'est pas seulement un objet de dévotion, mais un vestige architectural crucial pour comprendre la décoration des édifices religieux corfiotes avant les grandes transformations baroques.</p>",
+  "desc": "<p>Cette fresque murale fragmentaire, conservée au Musée d’art byzantin de Corfou, constitue un témoignage exceptionnel de la peinture monumentale post-byzantine, illustrant la persistance et l’évolution des modèles iconographiques dans l’espace ionien. L’œuvre se divise en deux registres distincts qui synthétisent les piliers de la foi orthodoxe. À gauche, la scène de l'Annonciation dépeint l'archange Gabriel s'avançant vers la Vierge Marie dans une posture dynamique, marquant le début de l’économie du salut par l’Incarnation. À droite, le panneau présente une Déisis, ou Intercession, montrant le Christ en majesté entouré de la Vierge et de saint Jean-Baptiste. Ces figures sont représentées dans une attitude de supplication, les mains tendues vers le Christ pour intercéder en faveur de l'humanité, une composition centrale dans la liturgie et l’eschatologie byzantines.</p><p>Sur le plan stylistique, l'œuvre révèle une exécution technique qui privilégie la linéarité et une palette chromatique dominée par des ocres terreux, des rouges briques et des bleus minéraux, typiques des ateliers régionaux de la fin du XVe ou du XVIe siècle. Bien que les visages aient subi les outrages du temps, la fluidité des drapés et la majesté des nimbes dorés témoignent d'une maîtrise héritée de la tradition paléologue, tout en laissant transparaître une certaine simplification formelle propre à la diffusion de l'art crétois dans les îles Ioniennes. La présence de cette fresque dans le musée souligne l'importance historique de Corfou comme carrefour culturel où la rigueur spirituelle de Byzance a continué de s'épanouir sous l'influence vénitienne. Cette pièce n'est pas seulement un objet de dévotion, mais un vestige architectural crucial pour comprendre la décoration des édifices religieux corfiotes avant les grandes transformations baroques.</p>",
+  "contemporaryArt": {
+    "title": "Quattrocento & Première Renaissance européenne",
+    "events": [
+      "1453 : Prise de Constantinople par les Ottomans et dispersion des érudits byzantins vers l'Italie.",
+      "1455 : Invention de l'imprimerie à caractères mobiles métalliques par Johannes Gutenberg à Mayence.",
+      "1492 : Fin de la Reconquista en Espagne, expulsion de Grenade et premier voyage de Christophe Colomb.",
+      "1517 : Début de la Réforme protestante par Martin Luther à Wittenberg."
+    ]
+  }
+},
+{
+  "id": "fresque_figure_prophetique_et_niche_architectura_101",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_renaissance",
+  "civName": "Occident & Orient Chrétien : Art Post-Byzantin",
+  "century": "XVe – XVIe siècle",
+  "centuryDisplay": "XVe s.",
+  "centuryNumeric": 1490,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Figure prophétique et niche architecturale sacrée (Musée de Corfou)",
+  "site": "Musée d’art byzantin Antivouniotissa (Corfou, Îles Ioniennes, Grèce)",
+  "originSite": "Édifice religieux insulaire de Corfou",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczPYJTXZVjD6ezl-JnTiCQTfmMNj-xLpEzbJVc37BMgkW29HGSQ-yWtdSF4TJjyb_HngUC0nYsvIC6CakkdodyuqrIpwwum8l9AzINdfEoE0D0CEFX5V-cKytswPuF5h_w6Moau76hoEteQv0pcYZUfiQg=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczPYJTXZVjD6ezl-JnTiCQTfmMNj-xLpEzbJVc37BMgkW29HGSQ-yWtdSF4TJjyb_HngUC0nYsvIC6CakkdodyuqrIpwwum8l9AzINdfEoE0D0CEFX5V-cKytswPuF5h_w6Moau76hoEteQv0pcYZUfiQg=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "byzance",
+    "corfou",
+    "antivouniotissa",
+    "fresque",
+    "déisis",
+    "grèce"
+  ],
+  "chips": [
+    "XVe – XVIe s.",
+    "Art post-byzantin",
+    "École créto-vénitienne",
+    "Corfou",
+    "Îles Ioniennes"
+  ],
+  "narrative": "<p>Cette peinture murale fragmentaire, conservée au Musée d’art byzantin de Corfou (Antivouniotissa), présente un ensemble iconographique d'une grande rareté, centré sur une niche architecturale intégrée. À gauche, une figure prophétique, probablement saint Jean-Baptiste ou un prophète de l'Ancien Testament, est représentée debout, vêtue d'un drapé aux lignes verticales marquées et tenant un parchemin déployé, symbole de la parole révélée. Au centre, la niche en plein cintre abrite le buste d'un saint barbu, possiblement un Père de l'Église ou le Christ Pantocrator dans une forme simplifiée, les mains levées dans un geste de bénédiction ou d'enseignement. À droite, un fragment distinct laisse apparaître une figure féminine couronnée et richement parée, évoquant une sainte martyre ou une figure impériale, dont le visage conserve une grande finesse d'expression malgré les lacunes de l'enduit.</p><p>Le style de cette œuvre témoigne d'une phase de transition où l'esthétique byzantine rigoureuse s'adoucit par des influences locales. Le traitement des visages, caractérisé par des yeux larges et des traits soulignés de brun, ainsi que l'utilisation de colonnettes torsadées peintes à la base de la niche, suggèrent une datation de l'époque post-byzantine. La technique de la fresque, ici fragmentée, laisse voir la préparation du support et la superposition des couches picturales, offrant un aperçu précieux des pratiques artisanales dans les églises de Corfou. Ce vestige illustre la manière dont l'espace sacré était structuré autour de niches dévotionnelles, créant un dialogue entre la peinture plane et le relief architectural pour guider la piété des fidèles.</p>",
+  "desc": "<p>Cette peinture murale fragmentaire, conservée au Musée d’art byzantin de Corfou (Antivouniotissa), présente un ensemble iconographique d'une grande rareté, centré sur une niche architecturale intégrée. À gauche, une figure prophétique, probablement saint Jean-Baptiste ou un prophète de l'Ancien Testament, est représentée debout, vêtue d'un drapé aux lignes verticales marquées et tenant un parchemin déployé, symbole de la parole révélée. Au centre, la niche en plein cintre abrite le buste d'un saint barbu, possiblement un Père de l'Église ou le Christ Pantocrator dans une forme simplifiée, les mains levées dans un geste de bénédiction ou d'enseignement. À droite, un fragment distinct laisse apparaître une figure féminine couronnée et richement parée, évoquant une sainte martyre ou une figure impériale, dont le visage conserve une grande finesse d'expression malgré les lacunes de l'enduit.</p><p>Le style de cette œuvre témoigne d'une phase de transition où l'esthétique byzantine rigoureuse s'adoucit par des influences locales. Le traitement des visages, caractérisé par des yeux larges et des traits soulignés de brun, ainsi que l'utilisation de colonnettes torsadées peintes à la base de la niche, suggèrent une datation de l'époque post-byzantine. La technique de la fresque, ici fragmentée, laisse voir la préparation du support et la superposition des couches picturales, offrant un aperçu précieux des pratiques artisanales dans les églises de Corfou. Ce vestige illustre la manière dont l'espace sacré était structuré autour de niches dévotionnelles, créant un dialogue entre la peinture plane et le relief architectural pour guider la piété des fidèles.</p>",
+  "contemporaryArt": {
+    "title": "Quattrocento & Première Renaissance européenne",
+    "events": [
+      "1453 : Prise de Constantinople par les Ottomans et dispersion des érudits byzantins vers l'Italie.",
+      "1455 : Invention de l'imprimerie à caractères mobiles métalliques par Johannes Gutenberg à Mayence.",
+      "1492 : Fin de la Reconquista en Espagne, expulsion de Grenade et premier voyage de Christophe Colomb.",
+      "1517 : Début de la Réforme protestante par Martin Luther à Wittenberg."
+    ]
+  }
+},
+{
+  "id": "fresque_le_christ_pantocrator_et_le_cycle_des_ma_102",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_renaissance",
+  "civName": "Occident & Orient Chrétien : Art Post-Byzantin",
+  "century": "XVIe siècle (vers 1548 – 1552)",
+  "centuryDisplay": "XVIe s. (1548-1552)",
+  "centuryNumeric": 1548,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Le Christ Pantocrator et le cycle des martyres de l'École de Crète (Grand Météore)",
+  "site": "Église de la Transfiguration du Grand Météore (Météores, Grèce)",
+  "originSite": "Monastère du Grand Météore (Thessalie, Grèce)",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczPBuSgNyJVPNjIBuObBcnzkSKW5l_9pDQb8ftgdjNYSd62Vf8HeEc2xVwMns5aM4yW3CHB-XbSC-uNGhbKvFD6BMATtR9PMZJ7pGnWrjtXDy2o3FANjTygAtDoIAsLDM1awMrNgbbYzu7kC5jmlnyMXJw=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczPBuSgNyJVPNjIBuObBcnzkSKW5l_9pDQb8ftgdjNYSd62Vf8HeEc2xVwMns5aM4yW3CHB-XbSC-uNGhbKvFD6BMATtR9PMZJ7pGnWrjtXDy2o3FANjTygAtDoIAsLDM1awMrNgbbYzu7kC5jmlnyMXJw=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "byzance",
+    "météores",
+    "grand météore",
+    "varlaam",
+    "katelanos",
+    "école de crète",
+    "grèce"
+  ],
+  "chips": [
+    "v. 1552",
+    "Art post-byzantin",
+    "École de Crète",
+    "Grand Météore",
+    "Thessalie (UNESCO)"
+  ],
+  "narrative": "<p>L'église de Sainte-Parascève, perchée au bord du gouffre de Vikos à Monodendri, abrite un cycle de fresques datant de sa fondation en 1412, constituant l'un des témoignages les plus précieux de l'art provincial de l'Épire. Contrairement aux grandes compositions monumentales des Météores, ces peintures murales se distinguent par un style plus archaïque et une exécution aux lignes sobres, caractéristiques de l'époque des despotes d'Épire. Le registre inférieur des parois est remarquable pour sa galerie de saints militaires et de figures saintes, représentés de face avec une rigidité hiératique qui souligne leur fonction protectrice. Les pigments, bien que marqués par l'usure du temps, conservent des ocres terreux et des rouges profonds qui confèrent au sanctuaire une atmosphère d'humilité et de dévotion austère.</p><p>Une particularité historique majeure de ce décor réside dans la présence des portraits des donateurs, comme Michael Therianos, représenté avec sa famille dans une posture d'intercession. Ces figures laïques, vêtues de costumes d'époque détaillés, offrent un contraste saisissant avec les figures sacrées et témoignent de l'organisation sociale et religieuse de la région au XVe siècle. Au-dessus des saints en pied, les registres supérieurs déploient les scènes du cycle des Grandes Fêtes et de la Passion, où la narration se fait plus dense. Les visages, aux traits simplifiés mais expressifs, témoignent d'une volonté de rendre le message biblique accessible, loin de la sophistication parfois complexe de l'école crétoise plus tardive.</p><p>Le traitement des espaces et des volumes reste ici bidimensionnel, respectant les codes byzantins traditionnels sans les innovations spatiales que l'on retrouvera un siècle plus tard. Les inscriptions identifiant les scènes et les saints sont écrites avec une calligraphie claire, participant à la fonction pédagogique de l'ensemble. L'intégration des fresques dans la petite architecture de pierre de l'église crée une unité visuelle totale, où chaque centimètre de paroi raconte l'histoire du salut. Ce patrimoine, par sa conservation exceptionnelle dans un site aussi vertigineux, demeure un exemple fondamental de la continuité de la peinture religieuse dans les régions montagneuses de Grèce du Nord.</p>",
+  "desc": "<p>L'église de Sainte-Parascève, perchée au bord du gouffre de Vikos à Monodendri, abrite un cycle de fresques datant de sa fondation en 1412, constituant l'un des témoignages les plus précieux de l'art provincial de l'Épire. Contrairement aux grandes compositions monumentales des Météores, ces peintures murales se distinguent par un style plus archaïque et une exécution aux lignes sobres, caractéristiques de l'époque des despotes d'Épire. Le registre inférieur des parois est remarquable pour sa galerie de saints militaires et de figures saintes, représentés de face avec une rigidité hiératique qui souligne leur fonction protectrice. Les pigments, bien que marqués par l'usure du temps, conservent des ocres terreux et des rouges profonds qui confèrent au sanctuaire une atmosphère d'humilité et de dévotion austère.</p><p>Une particularité historique majeure de ce décor réside dans la présence des portraits des donateurs, comme Michael Therianos, représenté avec sa famille dans une posture d'intercession. Ces figures laïques, vêtues de costumes d'époque détaillés, offrent un contraste saisissant avec les figures sacrées et témoignent de l'organisation sociale et religieuse de la région au XVe siècle. Au-dessus des saints en pied, les registres supérieurs déploient les scènes du cycle des Grandes Fêtes et de la Passion, où la narration se fait plus dense. Les visages, aux traits simplifiés mais expressifs, témoignent d'une volonté de rendre le message biblique accessible, loin de la sophistication parfois complexe de l'école crétoise plus tardive.</p><p>Le traitement des espaces et des volumes reste ici bidimensionnel, respectant les codes byzantins traditionnels sans les innovations spatiales que l'on retrouvera un siècle plus tard. Les inscriptions identifiant les scènes et les saints sont écrites avec une calligraphie claire, participant à la fonction pédagogique de l'ensemble. L'intégration des fresques dans la petite architecture de pierre de l'église crée une unité visuelle totale, où chaque centimètre de paroi raconte l'histoire du salut. Ce patrimoine, par sa conservation exceptionnelle dans un site aussi vertigineux, demeure un exemple fondamental de la continuité de la peinture religieuse dans les régions montagneuses de Grèce du Nord.</p>",
+  "contemporaryArt": {
+    "title": "Quattrocento & Première Renaissance européenne",
+    "events": [
+      "1453 : Prise de Constantinople par les Ottomans et dispersion des érudits byzantins vers l'Italie.",
+      "1455 : Invention de l'imprimerie à caractères mobiles métalliques par Johannes Gutenberg à Mayence.",
+      "1492 : Fin de la Reconquista en Espagne, expulsion de Grenade et premier voyage de Christophe Colomb.",
+      "1517 : Début de la Réforme protestante par Martin Luther à Wittenberg."
+    ]
+  }
+},
+{
+  "id": "fresque_l_epopee_des_rois_mages_et_l_enfer_de_da_103",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident : Gothique international bolonais",
+  "century": "XVe siècle (1408 – 1415)",
+  "centuryDisplay": "1408 – 1415",
+  "centuryNumeric": 1408,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "L'Épopée des Rois Mages et l'Enfer de Dante par Giovanni da Modena (Bologne)",
+  "site": "Basilique San Petronio (Bologne, Émilie-Romagne, Italie)",
+  "originSite": "Chapelle des Rois Mages (Chapelle Bolognini), San Petronio",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczOvs4HatlYbrog-AJ-aKMy0FVXkAn_lbuLHnCjCRBPCKryFg_HshudlOeNNYSOIZIIWdujFtkfki8-_tH24PWpJtd91Ad6nb6CEELJQ-8GZOq2YqX1FxzemhedRKNYf_qXp8qeEONhB1DevCVmydBYCAg=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczOvs4HatlYbrog-AJ-aKMy0FVXkAn_lbuLHnCjCRBPCKryFg_HshudlOeNNYSOIZIIWdujFtkfki8-_tH24PWpJtd91Ad6nb6CEELJQ-8GZOq2YqX1FxzemhedRKNYf_qXp8qeEONhB1DevCVmydBYCAg=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "italie",
+    "bologne",
+    "san petronio",
+    "giovanni da modena",
+    "gothique",
+    "fresque"
+  ],
+  "chips": [
+    "1408 – 1415",
+    "Gothique international",
+    "Giovanni da Modena",
+    "Chapelle Bolognini",
+    "Bologne (Italie)"
+  ],
+  "narrative": "<p>Réalisée entre 1408 et 1415 par le peintre Giovanni da Modena, la chapelle des Mages, également connue sous le nom de chapelle Bolognini, constitue l'un des ensembles picturaux les plus emblématiques du gothique international en Italie. Commandée par le riche marchand de soie Bartolomeo Bolognini, cette chapelle située au sein de la basilique San Petronio déploie un vaste programme iconographique sur ses trois murs, alliant récits bibliques, hagiographie locale et visions eschatologiques saisissantes. Sur le mur de droite, l'artiste relate en six registres monumentaux l'odyssée des Rois Mages, depuis l'apparition de l'étoile jusqu'à leur retour par voie maritime pour échapper aux troupes d'Hérode. Le mur du fond est quant à lui dédié à la figure de Saint Pétrone, patron de Bologne, illustrant ses miracles et son rôle de protecteur de la cité médiévale.</p><p>La paroi de gauche demeure la partie la plus célèbre et la plus spectaculaire de l'ensemble, offrant une mise en image magistrale de la Divine Comédie de Dante. Dans la partie supérieure, le Paradis est représenté comme une cour céleste hiérarchisée où le Christ et la Vierge trônent au milieu d'une multitude de saints et d'anges. En bas, l'Enfer se déploie dans une vision de cauchemar dominée par la figure colossale de Lucifer, où les damnés subissent des supplices spécifiques à leurs péchés. Cette fresque est mondialement connue pour sa représentation virulente de Mahomet, torturé parmi les schismatiques conformément à l'interprétation médiévale du poème de Dante. Par son naturalisme parfois cruel, sa richesse chromatique et sa force narrative, le cycle de Giovanni da Modena témoigne de la vitalité de l'école bolonaise du XVe siècle et de la puissance spirituelle d'une œuvre conçue comme un véritable miroir de l'âme humaine face à l'éternité.</p>",
+  "desc": "<p>Réalisée entre 1408 et 1415 par le peintre Giovanni da Modena, la chapelle des Mages, également connue sous le nom de chapelle Bolognini, constitue l'un des ensembles picturaux les plus emblématiques du gothique international en Italie. Commandée par le riche marchand de soie Bartolomeo Bolognini, cette chapelle située au sein de la basilique San Petronio déploie un vaste programme iconographique sur ses trois murs, alliant récits bibliques, hagiographie locale et visions eschatologiques saisissantes. Sur le mur de droite, l'artiste relate en six registres monumentaux l'odyssée des Rois Mages, depuis l'apparition de l'étoile jusqu'à leur retour par voie maritime pour échapper aux troupes d'Hérode. Le mur du fond est quant à lui dédié à la figure de Saint Pétrone, patron de Bologne, illustrant ses miracles et son rôle de protecteur de la cité médiévale.</p><p>La paroi de gauche demeure la partie la plus célèbre et la plus spectaculaire de l'ensemble, offrant une mise en image magistrale de la Divine Comédie de Dante. Dans la partie supérieure, le Paradis est représenté comme une cour céleste hiérarchisée où le Christ et la Vierge trônent au milieu d'une multitude de saints et d'anges. En bas, l'Enfer se déploie dans une vision de cauchemar dominée par la figure colossale de Lucifer, où les damnés subissent des supplices spécifiques à leurs péchés. Cette fresque est mondialement connue pour sa représentation virulente de Mahomet, torturé parmi les schismatiques conformément à l'interprétation médiévale du poème de Dante. Par son naturalisme parfois cruel, sa richesse chromatique et sa force narrative, le cycle de Giovanni da Modena témoigne de la vitalité de l'école bolonaise du XVe siècle et de la puissance spirituelle d'une œuvre conçue comme un véritable miroir de l'âme humaine face à l'éternité.</p>",
+  "contemporaryArt": {
+    "title": "Bas Moyen Âge • L'Essor du Gothique & l'aube du Trecento",
+    "events": [
+      "1250 – 1300 : Apogée de l'art gothique rayonnant en France et construction de la Sainte-Chapelle de Paris.",
+      "1305 – 1309 : Installation de la papauté en Avignon sous Clément V et grand schisme d'Occident.",
+      "1348 : La terrible épidémie de Peste noire frappe l'Italie et bouleverse la sensibilité spirituelle européenne.",
+      "1380 – 1400 : Diffusion européenne du style Gothique international entre Paris, Dijon, Prague et Florence."
+    ]
+  }
+},
+{
+  "id": "fresque_cycle_de_saint_sebastien_protecteur_de_l_104",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident : Gothique international émilien",
+  "century": "XVe siècle (vers 1410 – 1420)",
+  "centuryDisplay": "1410 – 1420",
+  "centuryNumeric": 1410,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Cycle de saint Sébastien protecteur de la cité par Bertolino de' Grossi (Parme)",
+  "site": "Cathédrale Santa Maria Assunta (Parme, Émilie-Romagne, Italie)",
+  "originSite": "Chapelle de la Commune (Capella del Comune), Cathédrale de Parme",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczNfix2kLTUG3U4qVEgDTMa2M4fz2iRzv5_UKV9qT6b46D71vEe8ozYfJ_HA-Et8NmJzhutHLpxD2dGQxSgbLvOAb4jqOBqUiOfzS3si3RZSrZ_bi51-H5rTjIr0Vnr5RlwbdlcsXCSn12jCIChEfPwvFQ=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczNfix2kLTUG3U4qVEgDTMa2M4fz2iRzv5_UKV9qT6b46D71vEe8ozYfJ_HA-Et8NmJzhutHLpxD2dGQxSgbLvOAb4jqOBqUiOfzS3si3RZSrZ_bi51-H5rTjIr0Vnr5RlwbdlcsXCSn12jCIChEfPwvFQ=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "italie",
+    "parme",
+    "cathédrale",
+    "bertolino de grossi",
+    "gothique",
+    "fresque"
+  ],
+  "chips": [
+    "1410 – 1420",
+    "Gothique international",
+    "Bertolino de' Grossi",
+    "Cathédrale de Parme",
+    "Italie"
+  ],
+  "narrative": "<p>Cette œuvre magistrale, située dans la Chapelle de la Commune de la cathédrale de Parme, a été réalisée entre 1410 et 1420 par le peintre Bertolino de' Grossi et son atelier. Véritable joyau du style gothique international, cet ensemble de fresques se déploie sur plusieurs registres narratifs illustrant principalement la vie et le martyre de saint Sébastien, invoqué ici comme protecteur de la cité contre la peste.</p><p>La composition se caractérise par une architecture peinte complexe qui sert de cadre aux différents épisodes de la légende dorée. On y voit le saint évoluer au milieu de palais crénelés, de loggias élégantes et d'intérieurs médiévaux détaillés. L'artiste utilise une narration continue où le protagoniste apparaît plusieurs fois dans le même espace, guidant l'œil du spectateur à travers son parcours de foi, de ses fonctions de soldat romain à ses supplices successifs.</p><p>Le style de Bertolino de' Grossi se manifeste par un trait élégant, une attention méticuleuse portée à la mode vestimentaire du XVe siècle et une palette chromatique où dominent les ocres, les rouges et les terres. Bien que la perspective demeure empirique, l'œuvre témoigne d'une volonté de réalisme dans le rendu des tissus et l'expressivité des visages.</p><p>Commandé par les institutions municipales de Parme, ce décor monumental servait non seulement de support à la dévotion populaire, mais affirmait également le prestige de la ville. Le contraste avec l'autel baroque et le tableau plus tardif visibles sur la droite souligne la continuité historique du lieu et l'évolution des langages artistiques au sein de la cathédrale.</p>",
+  "desc": "<p>Cette œuvre magistrale, située dans la Chapelle de la Commune de la cathédrale de Parme, a été réalisée entre 1410 et 1420 par le peintre Bertolino de' Grossi et son atelier. Véritable joyau du style gothique international, cet ensemble de fresques se déploie sur plusieurs registres narratifs illustrant principalement la vie et le martyre de saint Sébastien, invoqué ici comme protecteur de la cité contre la peste.</p><p>La composition se caractérise par une architecture peinte complexe qui sert de cadre aux différents épisodes de la légende dorée. On y voit le saint évoluer au milieu de palais crénelés, de loggias élégantes et d'intérieurs médiévaux détaillés. L'artiste utilise une narration continue où le protagoniste apparaît plusieurs fois dans le même espace, guidant l'œil du spectateur à travers son parcours de foi, de ses fonctions de soldat romain à ses supplices successifs.</p><p>Le style de Bertolino de' Grossi se manifeste par un trait élégant, une attention méticuleuse portée à la mode vestimentaire du XVe siècle et une palette chromatique où dominent les ocres, les rouges et les terres. Bien que la perspective demeure empirique, l'œuvre témoigne d'une volonté de réalisme dans le rendu des tissus et l'expressivité des visages.</p><p>Commandé par les institutions municipales de Parme, ce décor monumental servait non seulement de support à la dévotion populaire, mais affirmait également le prestige de la ville. Le contraste avec l'autel baroque et le tableau plus tardif visibles sur la droite souligne la continuité historique du lieu et l'évolution des langages artistiques au sein de la cathédrale.</p>",
+  "contemporaryArt": {
+    "title": "Bas Moyen Âge • L'Essor du Gothique & l'aube du Trecento",
+    "events": [
+      "1250 – 1300 : Apogée de l'art gothique rayonnant en France et construction de la Sainte-Chapelle de Paris.",
+      "1305 – 1309 : Installation de la papauté en Avignon sous Clément V et grand schisme d'Occident.",
+      "1348 : La terrible épidémie de Peste noire frappe l'Italie et bouleverse la sensibilité spirituelle européenne.",
+      "1380 – 1400 : Diffusion européenne du style Gothique international entre Paris, Dijon, Prague et Florence."
+    ]
+  }
+},
+{
+  "id": "fresque_vies_de_la_vierge_et_de_saint_jean_bapti_105",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_renaissance",
+  "civName": "Occident : Première Renaissance florentine",
+  "century": "XVe siècle (1485 – 1490)",
+  "centuryDisplay": "1485 – 1490",
+  "centuryNumeric": 1485,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Vies de la Vierge et de saint Jean-Baptiste par Domenico Ghirlandaio (Chapelle Tornabuoni)",
+  "site": "Basilique Santa Maria Novella (Florence, Toscane, Italie)",
+  "originSite": "Basilique Santa Maria Novella de Florence",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczNDPhia36dcSYngbJZUejnxTYKCkoABWlK1qU58_09fhheBDQUTPucIUv3q4AWVG70djlCrV3p2Et2GncXWzxEwKeug2Sipu-Y0G35BFceComIeK1XpHIb-iz69RclQEvI4XWWl2utFS2qbCMKO2zelMg=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczNDPhia36dcSYngbJZUejnxTYKCkoABWlK1qU58_09fhheBDQUTPucIUv3q4AWVG70djlCrV3p2Et2GncXWzxEwKeug2Sipu-Y0G35BFceComIeK1XpHIb-iz69RclQEvI4XWWl2utFS2qbCMKO2zelMg=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "italie",
+    "florence",
+    "santa maria novella",
+    "trecento",
+    "renaissance",
+    "fresque"
+  ],
+  "chips": [
+    "1485 – 1490",
+    "Renaissance florentine",
+    "Domenico Ghirlandaio",
+    "Chapelle Tornabuoni",
+    "Florence"
+  ],
+  "narrative": "<p>Dominant majestueusement le chœur de la basilique Santa Maria Novella à Florence, la chapelle Tornabuoni abrite l’un des cycles de fresques les plus vastes et les mieux conservés de la Renaissance italienne. Réalisé entre 1485 et 1490 par Domenico Ghirlandaio et son important atelier — où le jeune Michel-Ange fit ses premières armes —, cet ensemble fut commandé par le riche banquier Giovanni Tornabuoni pour remplacer des fresques plus anciennes d'Orcagna. Le cycle déploie sur les trois parois monumentales deux récits parallèles : la Vie de la Vierge sur le mur gauche et la Vie de saint Jean-Baptiste, patron de Florence et de la famille commanditaire, sur le mur droit. La lunette du mur de fond illustre le Couronnement de la Vierge, tandis que les vitraux, également conçus par Ghirlandaio, complètent l'iconographie religieuse. L'œuvre se distingue par son caractère narratif foisonnant et son réalisme descriptif, transformant les épisodes bibliques en véritables chroniques de la vie florentine du XVe siècle. Ghirlandaio y intègre avec une habileté virtuose les membres de la famille Tornabuoni et de l'élite intellectuelle de l'époque, vêtus de costumes contemporains somptueux, au sein de décors architecturaux antiques et d'intérieurs bourgeois raffinés. L'utilisation d'une perspective rigoureuse et d'une lumière claire met en valeur la noblesse des attitudes et la richesse des détails, depuis les brocarts des robes jusqu'aux éléments de la vie domestique. Sous la voûte d'arêtes, où figurent les quatre Évangélistes, l'ensemble témoigne de la puissance de la bourgeoisie marchande florentine, utilisant l'art sacré comme un miroir de sa propre ascension sociale et de son raffinement culturel.</p>",
+  "desc": "<p>Dominant majestueusement le chœur de la basilique Santa Maria Novella à Florence, la chapelle Tornabuoni abrite l’un des cycles de fresques les plus vastes et les mieux conservés de la Renaissance italienne. Réalisé entre 1485 et 1490 par Domenico Ghirlandaio et son important atelier — où le jeune Michel-Ange fit ses premières armes —, cet ensemble fut commandé par le riche banquier Giovanni Tornabuoni pour remplacer des fresques plus anciennes d'Orcagna. Le cycle déploie sur les trois parois monumentales deux récits parallèles : la Vie de la Vierge sur le mur gauche et la Vie de saint Jean-Baptiste, patron de Florence et de la famille commanditaire, sur le mur droit. La lunette du mur de fond illustre le Couronnement de la Vierge, tandis que les vitraux, également conçus par Ghirlandaio, complètent l'iconographie religieuse. L'œuvre se distingue par son caractère narratif foisonnant et son réalisme descriptif, transformant les épisodes bibliques en véritables chroniques de la vie florentine du XVe siècle. Ghirlandaio y intègre avec une habileté virtuose les membres de la famille Tornabuoni et de l'élite intellectuelle de l'époque, vêtus de costumes contemporains somptueux, au sein de décors architecturaux antiques et d'intérieurs bourgeois raffinés. L'utilisation d'une perspective rigoureuse et d'une lumière claire met en valeur la noblesse des attitudes et la richesse des détails, depuis les brocarts des robes jusqu'aux éléments de la vie domestique. Sous la voûte d'arêtes, où figurent les quatre Évangélistes, l'ensemble témoigne de la puissance de la bourgeoisie marchande florentine, utilisant l'art sacré comme un miroir de sa propre ascension sociale et de son raffinement culturel.</p>",
+  "contemporaryArt": {
+    "title": "Quattrocento & Première Renaissance européenne",
+    "events": [
+      "1453 : Prise de Constantinople par les Ottomans et dispersion des érudits byzantins vers l'Italie.",
+      "1455 : Invention de l'imprimerie à caractères mobiles métalliques par Johannes Gutenberg à Mayence.",
+      "1492 : Fin de la Reconquista en Espagne, expulsion de Grenade et premier voyage de Christophe Colomb.",
+      "1517 : Début de la Réforme protestante par Martin Luther à Wittenberg."
+    ]
+  }
+},
+{
+  "id": "fresque_le_paradis_l_enfer_de_dante_et_le_jugeme_106",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident : Trecento florentin",
+  "century": "XIVe siècle (1351 – 1357)",
+  "centuryDisplay": "1351 – 1357",
+  "centuryNumeric": 1354,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Le Paradis, l'Enfer de Dante et le Jugement Dernier par Nardo di Cione (Chapelle Strozzi)",
+  "site": "Basilique Santa Maria Novella (Florence, Toscane, Italie)",
+  "originSite": "Basilique Santa Maria Novella de Florence",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczPVKmkIPrOHT61qQ-QivdMV7zvB4xka33QKC8wOW7cFHu7DsBM8t5KHw5Zqkqz8lI1MOGHiB0x8aD4DlBShc2QDnsFgrJ6bKgZOHstntZiUPsoCHMtRtNjofQ6DNpbbDS_9WAh_GZv0I5z5olcS6HpnyA=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczPVKmkIPrOHT61qQ-QivdMV7zvB4xka33QKC8wOW7cFHu7DsBM8t5KHw5Zqkqz8lI1MOGHiB0x8aD4DlBShc2QDnsFgrJ6bKgZOHstntZiUPsoCHMtRtNjofQ6DNpbbDS_9WAh_GZv0I5z5olcS6HpnyA=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "italie",
+    "florence",
+    "santa maria novella",
+    "trecento",
+    "renaissance",
+    "fresque"
+  ],
+  "chips": [
+    "1351 – 1357",
+    "Trecento florentin",
+    "Nardo di Cione",
+    "Enfer de Dante",
+    "Florence"
+  ],
+  "narrative": "<p>Située dans le transept droit de la basilique Santa Maria Novella, la chapelle Strozzi de Mantoue constitue l'un des témoignages les plus impressionnants du style gothique tardif à Florence, décorée par Filippino Lippi entre 1487 et 1502. Commandé par le riche banquier Filippo Strozzi l'Ancien, ce cycle de fresques est dédié aux vies de saint Philippe et de saint Jean l'Évangéliste, créant un dialogue visuel complexe entre l'hagiographie chrétienne et une érudition archéologique de l'Antiquité romaine. L'espace est saturé d'architectures fantastiques, de trophées militaires, de masques et de grotesques qui témoignent de la fascination de l'artiste pour les vestiges romains qu'il avait étudiés de près. Sur le mur gauche, la scène de \"Saint Jean l'Évangéliste ressuscitant Drusienne\" déploie une mise en scène théâtrale où le mouvement et les expressions des spectateurs traduisent une tension dramatique nouvelle. Sur le mur opposé, \"Saint Philippe chassant le dragon du temple de Mars\" frappe par son décor monumental d'autel païen chargé d'ornements dorés, illustrant le triomphe de la foi chrétienne sur l'idolâtrie. Filippino Lippi rompt ici avec la clarté sereine du Quattrocento pour explorer des formes plus tourmentées et une palette aux reflets changeants, préfigurant l'inquiétude du Maniérisme. Le mur de fond intègre un décor architectural en trompe-l'œil qui encadre le vitrail, mêlant figures allégoriques et emblèmes de la famille Strozzi, tandis que la voûte abrite les représentations des quatre Patriarches de l'Ancien Testament. L'ensemble forme une unité monumentale où la virtuosité technique sert une glorification familiale indissociable du message religieux, faisant de cette chapelle un chef-d'œuvre de la narration visuelle à l'aube du XVIe siècle.</p>",
+  "desc": "<p>Située dans le transept droit de la basilique Santa Maria Novella, la chapelle Strozzi de Mantoue constitue l'un des témoignages les plus impressionnants du style gothique tardif à Florence, décorée par Filippino Lippi entre 1487 et 1502. Commandé par le riche banquier Filippo Strozzi l'Ancien, ce cycle de fresques est dédié aux vies de saint Philippe et de saint Jean l'Évangéliste, créant un dialogue visuel complexe entre l'hagiographie chrétienne et une érudition archéologique de l'Antiquité romaine. L'espace est saturé d'architectures fantastiques, de trophées militaires, de masques et de grotesques qui témoignent de la fascination de l'artiste pour les vestiges romains qu'il avait étudiés de près. Sur le mur gauche, la scène de \"Saint Jean l'Évangéliste ressuscitant Drusienne\" déploie une mise en scène théâtrale où le mouvement et les expressions des spectateurs traduisent une tension dramatique nouvelle. Sur le mur opposé, \"Saint Philippe chassant le dragon du temple de Mars\" frappe par son décor monumental d'autel païen chargé d'ornements dorés, illustrant le triomphe de la foi chrétienne sur l'idolâtrie. Filippino Lippi rompt ici avec la clarté sereine du Quattrocento pour explorer des formes plus tourmentées et une palette aux reflets changeants, préfigurant l'inquiétude du Maniérisme. Le mur de fond intègre un décor architectural en trompe-l'œil qui encadre le vitrail, mêlant figures allégoriques et emblèmes de la famille Strozzi, tandis que la voûte abrite les représentations des quatre Patriarches de l'Ancien Testament. L'ensemble forme une unité monumentale où la virtuosité technique sert une glorification familiale indissociable du message religieux, faisant de cette chapelle un chef-d'œuvre de la narration visuelle à l'aube du XVIe siècle.</p>",
+  "contemporaryArt": {
+    "title": "Bas Moyen Âge • L'Essor du Gothique & l'aube du Trecento",
+    "events": [
+      "1250 – 1300 : Apogée de l'art gothique rayonnant en France et construction de la Sainte-Chapelle de Paris.",
+      "1305 – 1309 : Installation de la papauté en Avignon sous Clément V et grand schisme d'Occident.",
+      "1348 : La terrible épidémie de Peste noire frappe l'Italie et bouleverse la sensibilité spirituelle européenne.",
+      "1380 – 1400 : Diffusion européenne du style Gothique international entre Paris, Dijon, Prague et Florence."
+    ]
+  }
+},
+{
+  "id": "fresque_le_martyre_de_saint_sebastien_comme_ex_v_107",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_renaissance",
+  "civName": "Occident : Première Renaissance florentine",
+  "century": "XVe siècle (1465)",
+  "centuryDisplay": "1465",
+  "centuryNumeric": 1465,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Le Martyre de saint Sébastien comme ex-voto public par Benozzo Gozzoli (San Gimignano)",
+  "site": "Collégiale Santa Maria Assunta (San Gimignano, Toscane, Italie)",
+  "originSite": "Nef de la Collégiale de San Gimignano",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczOaewTZSWPzefsjLAi0PcTDXw6C9QAoyMFqNp5cMXIjyRQ9r3yMPVFBFLRunaAdAt2YxHEGCeRpuj7DXdpH3wn2VTytYbcOrm5m4PAb_lwpqIylaIj0W8hNN80QNPAX7DCv1ciyQzvItaeheqeobuuY5Q=w1611-h2416-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczOaewTZSWPzefsjLAi0PcTDXw6C9QAoyMFqNp5cMXIjyRQ9r3yMPVFBFLRunaAdAt2YxHEGCeRpuj7DXdpH3wn2VTytYbcOrm5m4PAb_lwpqIylaIj0W8hNN80QNPAX7DCv1ciyQzvItaeheqeobuuY5Q=w1611-h2416-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "italie",
+    "san gimignano",
+    "sienne",
+    "gothique",
+    "fresque"
+  ],
+  "chips": [
+    "1465",
+    "Renaissance toscane",
+    "Benozzo Gozzoli",
+    "Saint Sébastien",
+    "San Gimignano"
+  ],
+  "narrative": "<p>Martyre de saint Sébastien, située sur le revers de la façade (contre-façade) de la Collégiale de San Gimignano. Réalisée en 1465, cette œuvre est l'un des chefs-d'œuvre de Benozzo Gozzoli, commandée par la cité en action de grâce après la fin d'une épidémie de peste, saint Sébastien étant traditionnellement invoqué comme protecteur contre ce fléau.</p><p>La composition se déploie avec une symétrie et une clarté typiques du Quattrocento. Au centre, saint Sébastien est représenté debout sur un piédestal, le corps criblé de flèches mais le visage empreint d'une sérénité extatique, tourné vers le ciel. Il est entouré de ses bourreaux, des archers en costumes contemporains de la Renaissance, dont les postures dynamiques et les arcs bandés créent un réseau de lignes de force convergeant vers le martyr. Au-dessus de lui, dans une gloire céleste, le Christ et la Vierge Marie apparaissent entourés d'anges, dont certains descendent pour poser une couronne de laurier sur la tête du saint, symbolisant son triomphe spirituel.</p><p>L'œuvre se distingue par la richesse de ses détails narratifs et décoratifs. Le registre supérieur présente une rangée de saints et d'apôtres assis, tandis que les écoinçons des arcs et les piliers feints sont ornés de médaillons représentant d'autres figures saintes et des motifs de rinceaux. Gozzoli utilise une palette chromatique lumineuse et une perspective architecturale rigoureuse qui intègre la fresque dans l'espace réel de la nef. Cette fresque monumentale ne servait pas seulement de décoration, mais de véritable ex-voto public, rappelant aux fidèles la puissance de l'intercession des saints face aux malheurs du temps.</p>",
+  "desc": "<p>Martyre de saint Sébastien, située sur le revers de la façade (contre-façade) de la Collégiale de San Gimignano. Réalisée en 1465, cette œuvre est l'un des chefs-d'œuvre de Benozzo Gozzoli, commandée par la cité en action de grâce après la fin d'une épidémie de peste, saint Sébastien étant traditionnellement invoqué comme protecteur contre ce fléau.</p><p>La composition se déploie avec une symétrie et une clarté typiques du Quattrocento. Au centre, saint Sébastien est représenté debout sur un piédestal, le corps criblé de flèches mais le visage empreint d'une sérénité extatique, tourné vers le ciel. Il est entouré de ses bourreaux, des archers en costumes contemporains de la Renaissance, dont les postures dynamiques et les arcs bandés créent un réseau de lignes de force convergeant vers le martyr. Au-dessus de lui, dans une gloire céleste, le Christ et la Vierge Marie apparaissent entourés d'anges, dont certains descendent pour poser une couronne de laurier sur la tête du saint, symbolisant son triomphe spirituel.</p><p>L'œuvre se distingue par la richesse de ses détails narratifs et décoratifs. Le registre supérieur présente une rangée de saints et d'apôtres assis, tandis que les écoinçons des arcs et les piliers feints sont ornés de médaillons représentant d'autres figures saintes et des motifs de rinceaux. Gozzoli utilise une palette chromatique lumineuse et une perspective architecturale rigoureuse qui intègre la fresque dans l'espace réel de la nef. Cette fresque monumentale ne servait pas seulement de décoration, mais de véritable ex-voto public, rappelant aux fidèles la puissance de l'intercession des saints face aux malheurs du temps.</p>",
+  "contemporaryArt": {
+    "title": "Quattrocento & Première Renaissance européenne",
+    "events": [
+      "1453 : Prise de Constantinople par les Ottomans et dispersion des érudits byzantins vers l'Italie.",
+      "1455 : Invention de l'imprimerie à caractères mobiles métalliques par Johannes Gutenberg à Mayence.",
+      "1492 : Fin de la Reconquista en Espagne, expulsion de Grenade et premier voyage de Christophe Colomb.",
+      "1517 : Début de la Réforme protestante par Martin Luther à Wittenberg."
+    ]
+  }
+},
+{
+  "id": "fresque_le_christ_pantocrator_et_la_cour_celeste_108",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_renaissance",
+  "civName": "Occident & Orient Chrétien : Art Post-Byzantin",
+  "century": "XVIe siècle (décor du dôme)",
+  "centuryDisplay": "XVIe s.",
+  "centuryNumeric": 1540,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Le Christ Pantocrator et la Cour céleste (Coupole d'Hosios Loukas)",
+  "site": "Catholicon du monastère d'Hosios Loukas (Béotie, Grèce)",
+  "originSite": "Coupole centrale du catholicon d'Hosios Loukas",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczNxDOHwV5an9RyZvU4LhRU8ectWUZhyDfBoDrxeWS3Pn2KvDQV0CX920vBBCUOen9KXSNo9SnCqXbfKjHK6nJWb6_3RDCx7OWUPMietKLBdbULwbkQCkKgjcspmx9bx3F8ka9hbDaOYNvpfRmksrUw2yQ=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczNxDOHwV5an9RyZvU4LhRU8ectWUZhyDfBoDrxeWS3Pn2KvDQV0CX920vBBCUOen9KXSNo9SnCqXbfKjHK6nJWb6_3RDCx7OWUPMietKLBdbULwbkQCkKgjcspmx9bx3F8ka9hbDaOYNvpfRmksrUw2yQ=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "byzance",
+    "hosios loukas",
+    "pantocrator",
+    "coupole",
+    "grèce"
+  ],
+  "chips": [
+    "XVIe s.",
+    "Art byzantin",
+    "Coupole du catholicon",
+    "Christ Pantocrator",
+    "Hosios Loukas"
+  ],
+  "narrative": "<p>Cette fresque monumentale orne la coupole du catholicon du monastère d'Hosios Loukas, illustrant la vision céleste du Christ Pantocrateur trônant au sommet de la hiérarchie divine. Contrairement aux mosaïques du narthex, cette œuvre de la coupole est une peinture murale qui, bien que marquée par l'usure du temps, conserve la structure iconographique rigoureuse de la période méso-byzantine. Le Christ est représenté au centre exact du dôme, inscrit dans un grand médaillon circulaire, tenant le livre des Évangiles et levant la main droite dans un geste de bénédiction. Son regard omniscient embrasse l'ensemble de l'espace liturgique en contrebas, rappelant sa position de juge et de créateur de l'univers.</p><p>Autour du médaillon central se déploie une escorte céleste composée de figures angéliques et de la Vierge Marie, cette dernière étant placée dans l'axe principal en position d'intercession (Orante). Ces figures rayonnent à partir du centre, s'adaptant à la courbure de la calotte pour créer un effet de perspective spirituelle où le monde terrestre semble s'élever vers le divin. Sous cette première couronne céleste, au niveau du tambour de la coupole, une série de fenêtres laisse pénétrer la lumière naturelle, symbolisant la lumière incréée. Entre ces ouvertures sont peintes les figures des prophètes de l'Ancien Testament, qui ont annoncé la venue du Messie, établissant ainsi un lien généalogique et prophétique entre les deux Alliances.</p><p>Le passage de la base circulaire du tambour aux angles carrés de l'architecture est assuré par des pendentifs où sont traditionnellement représentés les quatre Évangélistes ou des scènes de la vie du Christ, comme on peut l'apercevoir sur les bords du cliché. L'utilisation de tons ocres, de terres de Sienne et de bleus profonds, bien que délavés par les siècles, témoigne d'une palette chromatique sobre mais efficace pour souligner la solennité du lieu. Cette fresque complète le programme des mosaïques en offrant une représentation plus accessible et narrative de la cour céleste, tout en maintenant l'unité théologique et esthétique qui fait la renommée mondiale de ce sanctuaire du XIe siècle.</p>",
+  "desc": "<p>Cette fresque monumentale orne la coupole du catholicon du monastère d'Hosios Loukas, illustrant la vision céleste du Christ Pantocrateur trônant au sommet de la hiérarchie divine. Contrairement aux mosaïques du narthex, cette œuvre de la coupole est une peinture murale qui, bien que marquée par l'usure du temps, conserve la structure iconographique rigoureuse de la période méso-byzantine. Le Christ est représenté au centre exact du dôme, inscrit dans un grand médaillon circulaire, tenant le livre des Évangiles et levant la main droite dans un geste de bénédiction. Son regard omniscient embrasse l'ensemble de l'espace liturgique en contrebas, rappelant sa position de juge et de créateur de l'univers.</p><p>Autour du médaillon central se déploie une escorte céleste composée de figures angéliques et de la Vierge Marie, cette dernière étant placée dans l'axe principal en position d'intercession (Orante). Ces figures rayonnent à partir du centre, s'adaptant à la courbure de la calotte pour créer un effet de perspective spirituelle où le monde terrestre semble s'élever vers le divin. Sous cette première couronne céleste, au niveau du tambour de la coupole, une série de fenêtres laisse pénétrer la lumière naturelle, symbolisant la lumière incréée. Entre ces ouvertures sont peintes les figures des prophètes de l'Ancien Testament, qui ont annoncé la venue du Messie, établissant ainsi un lien généalogique et prophétique entre les deux Alliances.</p><p>Le passage de la base circulaire du tambour aux angles carrés de l'architecture est assuré par des pendentifs où sont traditionnellement représentés les quatre Évangélistes ou des scènes de la vie du Christ, comme on peut l'apercevoir sur les bords du cliché. L'utilisation de tons ocres, de terres de Sienne et de bleus profonds, bien que délavés par les siècles, témoigne d'une palette chromatique sobre mais efficace pour souligner la solennité du lieu. Cette fresque complète le programme des mosaïques en offrant une représentation plus accessible et narrative de la cour céleste, tout en maintenant l'unité théologique et esthétique qui fait la renommée mondiale de ce sanctuaire du XIe siècle.</p>",
+  "contemporaryArt": {
+    "title": "Quattrocento & Première Renaissance européenne",
+    "events": [
+      "1453 : Prise de Constantinople par les Ottomans et dispersion des érudits byzantins vers l'Italie.",
+      "1455 : Invention de l'imprimerie à caractères mobiles métalliques par Johannes Gutenberg à Mayence.",
+      "1492 : Fin de la Reconquista en Espagne, expulsion de Grenade et premier voyage de Christophe Colomb.",
+      "1517 : Début de la Réforme protestante par Martin Luther à Wittenberg."
+    ]
+  }
+},
+{
+  "id": "fresque_le_christ_pantocrator_et_le_cycle_des_ma_109",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_renaissance",
+  "civName": "Occident & Orient Chrétien : Art Post-Byzantin",
+  "century": "XVIe siècle (vers 1548 – 1552)",
+  "centuryDisplay": "XVIe s. (1548-1552)",
+  "centuryNumeric": 1548,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Le Christ Pantocrator et le cycle des martyres de l'École de Crète (Grand Météore)",
+  "site": "Église de la Transfiguration du Grand Météore (Météores, Grèce)",
+  "originSite": "Monastère du Grand Météore (Thessalie, Grèce)",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczP5bcniXPADk4PhgyuueYPwNhO-JjSNbBKBciJjhIA0mqWG6JL2ZUrjADd_sWQVMljeiV7l8rwdBYF1MXinUVQmGsdzSZYdYhDQV__Cn8Oc0oVuaI0-UF_4jqiSIb3zr1IzSJyGm9NKggDx50ALK92Isg=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczP5bcniXPADk4PhgyuueYPwNhO-JjSNbBKBciJjhIA0mqWG6JL2ZUrjADd_sWQVMljeiV7l8rwdBYF1MXinUVQmGsdzSZYdYhDQV__Cn8Oc0oVuaI0-UF_4jqiSIb3zr1IzSJyGm9NKggDx50ALK92Isg=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "byzance",
+    "météores",
+    "grand météore",
+    "varlaam",
+    "katelanos",
+    "école de crète",
+    "grèce"
+  ],
+  "chips": [
+    "v. 1552",
+    "Art post-byzantin",
+    "École de Crète",
+    "Grand Météore",
+    "Thessalie (UNESCO)"
+  ],
+  "narrative": "<p>L'église de la Transfiguration, monument central du monastère du Grand Météore en Grèce, abrite un cycle de fresques dont la richesse iconographique et la maîtrise technique constituent l'un des sommets de l'art post-byzantin. Réalisées pour l'essentiel au milieu du XVIe siècle, vers 1552, ces peintures murales recouvrent l'intégralité du narthex et de l'église, créant un espace sacré où l'architecture semble s'effacer derrière le récit théologique. Le style est caractéristique de l'École de Crète, et plus particulièrement du maître Théophane le Crétois ou de son entourage immédiat, se distinguant par une précision du trait, des couleurs vibrantes à dominante de bleu d'azurite et de rouge brique, ainsi qu'une organisation rigoureuse des scènes dans les compartiments des voûtes et des arcs.</p><p>Le programme décoratif suit une hiérarchie céleste et historique rigoureuse, typique de la tradition orthodoxe. Dans les parties hautes, notamment les voûtes d'arêtes visibles sur les surfaces incurvées, se déploient les grandes fêtes liturgiques et les scènes de la Passion, tandis que les registres inférieurs sont consacrés aux figures de saints militaires et d'ascètes. Une attention particulière est portée aux détails architecturaux peints à l'intérieur des scènes, utilisant une perspective inversée qui projette l'action vers le spectateur. Les inscriptions en grec byzantin qui accompagnent chaque tableau ne se contentent pas d'identifier les personnages, mais transforment l'image en un véritable livre ouvert pour les moines et les pèlerins.</p><p>La singularité du Grand Météore réside également dans la représentation exhaustive et parfois crue des martyres. Sur les pans des piliers et les écoinçons, les scènes de torture des premiers saints chrétiens sont dépeintes avec un réalisme frappant, destiné à exalter la force de la foi face à l'adversité. Ces images de souffrance contrastent avec la sérénité des visages, dont le modelé délicat et les rehauts de lumière blanche sur les pommettes confèrent aux personnages une dimension intemporelle. L'ensemble monumental témoigne de la puissance spirituelle et économique du monastère à son apogée, servant à la fois de support à la méditation mystique et d'affirmation de l'identité culturelle grecque sous l'occupation ottomane.</p>",
+  "desc": "<p>L'église de la Transfiguration, monument central du monastère du Grand Météore en Grèce, abrite un cycle de fresques dont la richesse iconographique et la maîtrise technique constituent l'un des sommets de l'art post-byzantin. Réalisées pour l'essentiel au milieu du XVIe siècle, vers 1552, ces peintures murales recouvrent l'intégralité du narthex et de l'église, créant un espace sacré où l'architecture semble s'effacer derrière le récit théologique. Le style est caractéristique de l'École de Crète, et plus particulièrement du maître Théophane le Crétois ou de son entourage immédiat, se distinguant par une précision du trait, des couleurs vibrantes à dominante de bleu d'azurite et de rouge brique, ainsi qu'une organisation rigoureuse des scènes dans les compartiments des voûtes et des arcs.</p><p>Le programme décoratif suit une hiérarchie céleste et historique rigoureuse, typique de la tradition orthodoxe. Dans les parties hautes, notamment les voûtes d'arêtes visibles sur les surfaces incurvées, se déploient les grandes fêtes liturgiques et les scènes de la Passion, tandis que les registres inférieurs sont consacrés aux figures de saints militaires et d'ascètes. Une attention particulière est portée aux détails architecturaux peints à l'intérieur des scènes, utilisant une perspective inversée qui projette l'action vers le spectateur. Les inscriptions en grec byzantin qui accompagnent chaque tableau ne se contentent pas d'identifier les personnages, mais transforment l'image en un véritable livre ouvert pour les moines et les pèlerins.</p><p>La singularité du Grand Météore réside également dans la représentation exhaustive et parfois crue des martyres. Sur les pans des piliers et les écoinçons, les scènes de torture des premiers saints chrétiens sont dépeintes avec un réalisme frappant, destiné à exalter la force de la foi face à l'adversité. Ces images de souffrance contrastent avec la sérénité des visages, dont le modelé délicat et les rehauts de lumière blanche sur les pommettes confèrent aux personnages une dimension intemporelle. L'ensemble monumental témoigne de la puissance spirituelle et économique du monastère à son apogée, servant à la fois de support à la méditation mystique et d'affirmation de l'identité culturelle grecque sous l'occupation ottomane.</p>",
+  "contemporaryArt": {
+    "title": "Quattrocento & Première Renaissance européenne",
+    "events": [
+      "1453 : Prise de Constantinople par les Ottomans et dispersion des érudits byzantins vers l'Italie.",
+      "1455 : Invention de l'imprimerie à caractères mobiles métalliques par Johannes Gutenberg à Mayence.",
+      "1492 : Fin de la Reconquista en Espagne, expulsion de Grenade et premier voyage de Christophe Colomb.",
+      "1517 : Début de la Réforme protestante par Martin Luther à Wittenberg."
+    ]
+  }
+},
+{
+  "id": "fresque_le_christ_pantocrator_et_le_cycle_des_ma_110",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_renaissance",
+  "civName": "Occident & Orient Chrétien : Art Post-Byzantin",
+  "century": "XVIe siècle (vers 1548 – 1552)",
+  "centuryDisplay": "XVIe s. (1548-1552)",
+  "centuryNumeric": 1548,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Le Christ Pantocrator et le cycle des martyres de l'École de Crète (Grand Météore)",
+  "site": "Église de la Transfiguration du Grand Météore (Météores, Grèce)",
+  "originSite": "Monastère du Grand Météore (Thessalie, Grèce)",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczOQtNobRXpBICimgKK9JvLohXDtHWQTKyTnz-yta_5sYRYBIu33rPwWOyqpq9FqBSH7VR1W5FwJ63_vc-NP7jdKEgQRPIw3CDGz2jy096xSj5C8beRHJ-aDKGBp_GU6ukDGxHrX9C51tnIeuzEDD_QFeQ=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczOQtNobRXpBICimgKK9JvLohXDtHWQTKyTnz-yta_5sYRYBIu33rPwWOyqpq9FqBSH7VR1W5FwJ63_vc-NP7jdKEgQRPIw3CDGz2jy096xSj5C8beRHJ-aDKGBp_GU6ukDGxHrX9C51tnIeuzEDD_QFeQ=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "byzance",
+    "météores",
+    "grand météore",
+    "varlaam",
+    "katelanos",
+    "école de crète",
+    "grèce"
+  ],
+  "chips": [
+    "v. 1552",
+    "Art post-byzantin",
+    "École de Crète",
+    "Grand Météore",
+    "Thessalie (UNESCO)"
+  ],
+  "narrative": "<p>L'élévation vers la coupole centrale du catholicon du Grand Météore marque le point culminant du programme iconographique, où l'espace architectural se transforme en une représentation du cosmos divin. Dans cette partie de l'église, le regard est conduit depuis les registres narratifs des parois vers le sommet de la structure, symbolisant le passage du monde terrestre au royaume céleste. Les fresques, achevées au XVIe siècle, s'adaptent avec une virtuosité technique remarquable aux surfaces courbes des pendentifs et du tambour de la coupole. L'usage de couleurs profondes et de dorures, bien que patinées par le temps et la fumée des cierges, souligne la solennité de cet espace dédié à la Transfiguration du Christ, titulaire du monastère.</p><p>Au centre de la composition, le Christ Pantocrator (le Tout-Puissant) trône au sommet du dôme, entouré de puissances angéliques et de prophètes de l'Ancien Testament situés dans le tambour, créant une transition entre l'éternité et l'histoire humaine. Les pendentifs, sections triangulaires concaves supportant la coupole, accueillent traditionnellement les quatre Évangélistes, représentés ici dans l'acte d'écrire, rappelant que la parole divine est le fondement de l'édifice spirituel. Les scènes qui les entourent, riches en détails architecturaux byzantins et en paysages escarpés typiques de la peinture crétoise, illustrent des épisodes clés de la vie du Christ, traitées avec une densité narrative qui ne laisse aucun espace vide, selon le principe du horror vacui.</p><p>La structure est rythmée par des poutres de bois massives et des tirants métalliques, éléments de consolidation nécessaires dans cette zone sismique, qui s'intègrent désormais à l'esthétique du lieu. Ces éléments structurels découpent visuellement les fresques, mais n'en brisent pas l'unité théologique. Les détails des visages, caractérisés par des traits ascétiques et des regards pénétrants, témoignent de l'influence de la tradition hésychaste, très présente dans le monachisme des Météores. Cet ensemble monumental ne se contente pas de décorer le sanctuaire ; il fonctionne comme une liturgie visuelle permanente, où chaque figure et chaque couleur participent à la manifestation de la gloire divine au sein de la \"Cité du Ciel\" que représente le monastère.</p>",
+  "desc": "<p>L'élévation vers la coupole centrale du catholicon du Grand Météore marque le point culminant du programme iconographique, où l'espace architectural se transforme en une représentation du cosmos divin. Dans cette partie de l'église, le regard est conduit depuis les registres narratifs des parois vers le sommet de la structure, symbolisant le passage du monde terrestre au royaume céleste. Les fresques, achevées au XVIe siècle, s'adaptent avec une virtuosité technique remarquable aux surfaces courbes des pendentifs et du tambour de la coupole. L'usage de couleurs profondes et de dorures, bien que patinées par le temps et la fumée des cierges, souligne la solennité de cet espace dédié à la Transfiguration du Christ, titulaire du monastère.</p><p>Au centre de la composition, le Christ Pantocrator (le Tout-Puissant) trône au sommet du dôme, entouré de puissances angéliques et de prophètes de l'Ancien Testament situés dans le tambour, créant une transition entre l'éternité et l'histoire humaine. Les pendentifs, sections triangulaires concaves supportant la coupole, accueillent traditionnellement les quatre Évangélistes, représentés ici dans l'acte d'écrire, rappelant que la parole divine est le fondement de l'édifice spirituel. Les scènes qui les entourent, riches en détails architecturaux byzantins et en paysages escarpés typiques de la peinture crétoise, illustrent des épisodes clés de la vie du Christ, traitées avec une densité narrative qui ne laisse aucun espace vide, selon le principe du horror vacui.</p><p>La structure est rythmée par des poutres de bois massives et des tirants métalliques, éléments de consolidation nécessaires dans cette zone sismique, qui s'intègrent désormais à l'esthétique du lieu. Ces éléments structurels découpent visuellement les fresques, mais n'en brisent pas l'unité théologique. Les détails des visages, caractérisés par des traits ascétiques et des regards pénétrants, témoignent de l'influence de la tradition hésychaste, très présente dans le monachisme des Météores. Cet ensemble monumental ne se contente pas de décorer le sanctuaire ; il fonctionne comme une liturgie visuelle permanente, où chaque figure et chaque couleur participent à la manifestation de la gloire divine au sein de la \"Cité du Ciel\" que représente le monastère.</p>",
+  "contemporaryArt": {
+    "title": "Quattrocento & Première Renaissance européenne",
+    "events": [
+      "1453 : Prise de Constantinople par les Ottomans et dispersion des érudits byzantins vers l'Italie.",
+      "1455 : Invention de l'imprimerie à caractères mobiles métalliques par Johannes Gutenberg à Mayence.",
+      "1492 : Fin de la Reconquista en Espagne, expulsion de Grenade et premier voyage de Christophe Colomb.",
+      "1517 : Début de la Réforme protestante par Martin Luther à Wittenberg."
+    ]
+  }
+},
+{
+  "id": "fresque_l_entree_a_jerusalem_et_scenes_evangeliq_111",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_renaissance",
+  "civName": "Occident & Orient Chrétien : Art Post-Byzantin",
+  "century": "XVIe siècle (vers 1548 – 1552)",
+  "centuryDisplay": "XVIe s. (1548-1552)",
+  "centuryNumeric": 1548,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "L'Entrée à Jérusalem et scènes évangéliques par Frangos Katelanos (Varlaam)",
+  "site": "Catholicon de Tous-les-Saints du monastère de Varlaam (Météores, Grèce)",
+  "originSite": "Monastère de Varlaam (Les Météores, Thessalie, Grèce)",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczMUvdDh0tV4z_8cSfuAIC1ghfUcfGUQCCscqzv8g9TSwl5eKPLGycpg_T_KkAwziI_CosWpk5wzT_4wqIsiAuD7in5GBSOeoSB5gf1EDjySwW-ngki018HDh3yamXXE0IByodtxxnE3A304Adruuw5Uug=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczMUvdDh0tV4z_8cSfuAIC1ghfUcfGUQCCscqzv8g9TSwl5eKPLGycpg_T_KkAwziI_CosWpk5wzT_4wqIsiAuD7in5GBSOeoSB5gf1EDjySwW-ngki018HDh3yamXXE0IByodtxxnE3A304Adruuw5Uug=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "byzance",
+    "météores",
+    "grand météore",
+    "varlaam",
+    "katelanos",
+    "école de crète",
+    "grèce"
+  ],
+  "chips": [
+    "1548",
+    "Art post-byzantin",
+    "Frangos Katelanos",
+    "Monastère de Varlaam",
+    "Les Météores (UNESCO)"
+  ],
+  "narrative": "<p>Les fresques du catholicon du monastère de Varlaam, réalisées par Frangos Katelanos, constituent un ensemble exceptionnel qui se distingue par une densité narrative et une vigueur plastique propres à la maturité de l'art post-byzantin. Dans la partie haute de l'édifice, la transition vers le sacré s'opère par une série de scènes scripturaires denses où le Christ Pantocrator, entouré de prophètes et de hiérarchies angéliques, préside depuis la coupole centrale. Le tambour est percé de fenêtres étroites qui laissent filtrer une lumière naturelle, jouant sur les teintes ocre et rouge profond des compositions pour accentuer l'immersion spirituelle du fidèle. L'espace est rythmé par des arches et des pendentifs où sont logés les Évangélistes, chacun représenté dans un décor de scriptorium médiéval, soulignant l'importance de la transmission de la parole divine.</p><p>L'une des scènes les plus dynamiques de ce cycle est l'Entrée à Jérusalem, qui se déploie avec une vivacité remarquable sur les parois incurvées. Le Christ, monté sur un ânon, avance vers les portes d'une cité aux architectures stylisées, tandis qu'une foule dense l'accueille en jetant des rameaux et des vêtements sur son passage. On y retrouve la \"période de mouvement\" de Katelanos, où les postures des personnages, notamment les enfants grimpant aux arbres, rompent avec la statique byzantine traditionnelle. Juste au-dessous, la Crucifixion occupe une place centrale, traitée avec un sens tragique aiguisé par des fonds sombres et des silhouettes allongées qui renforcent la verticalité de la scène.</p><p>La partie inférieure du décor est structurée par des registres de saints en pied et des médaillons, créant une base solide à l'iconographie céleste supérieure. Les portraits de saints guerriers et d'ascètes, aux traits fins et aux regards pénétrants, témoignent de la précision du pinceau de l'école de l'Épire. Les détails décoratifs, tels que les motifs géométriques sur les arcs et les lustres massifs suspendus par de longues chaînes, complètent cet univers visuel total. L'ensemble de Varlaam réussit l'équilibre délicat entre la rigueur théologique imposée par la tradition monastique et l'inventivité artistique d'un peintre qui n'hésite pas à insuffler de l'émotion et de l'humanité dans ses figures sacrées.</p>",
+  "desc": "<p>Les fresques du catholicon du monastère de Varlaam, réalisées par Frangos Katelanos, constituent un ensemble exceptionnel qui se distingue par une densité narrative et une vigueur plastique propres à la maturité de l'art post-byzantin. Dans la partie haute de l'édifice, la transition vers le sacré s'opère par une série de scènes scripturaires denses où le Christ Pantocrator, entouré de prophètes et de hiérarchies angéliques, préside depuis la coupole centrale. Le tambour est percé de fenêtres étroites qui laissent filtrer une lumière naturelle, jouant sur les teintes ocre et rouge profond des compositions pour accentuer l'immersion spirituelle du fidèle. L'espace est rythmé par des arches et des pendentifs où sont logés les Évangélistes, chacun représenté dans un décor de scriptorium médiéval, soulignant l'importance de la transmission de la parole divine.</p><p>L'une des scènes les plus dynamiques de ce cycle est l'Entrée à Jérusalem, qui se déploie avec une vivacité remarquable sur les parois incurvées. Le Christ, monté sur un ânon, avance vers les portes d'une cité aux architectures stylisées, tandis qu'une foule dense l'accueille en jetant des rameaux et des vêtements sur son passage. On y retrouve la \"période de mouvement\" de Katelanos, où les postures des personnages, notamment les enfants grimpant aux arbres, rompent avec la statique byzantine traditionnelle. Juste au-dessous, la Crucifixion occupe une place centrale, traitée avec un sens tragique aiguisé par des fonds sombres et des silhouettes allongées qui renforcent la verticalité de la scène.</p><p>La partie inférieure du décor est structurée par des registres de saints en pied et des médaillons, créant une base solide à l'iconographie céleste supérieure. Les portraits de saints guerriers et d'ascètes, aux traits fins et aux regards pénétrants, témoignent de la précision du pinceau de l'école de l'Épire. Les détails décoratifs, tels que les motifs géométriques sur les arcs et les lustres massifs suspendus par de longues chaînes, complètent cet univers visuel total. L'ensemble de Varlaam réussit l'équilibre délicat entre la rigueur théologique imposée par la tradition monastique et l'inventivité artistique d'un peintre qui n'hésite pas à insuffler de l'émotion et de l'humanité dans ses figures sacrées.</p>",
+  "contemporaryArt": {
+    "title": "Quattrocento & Première Renaissance européenne",
+    "events": [
+      "1453 : Prise de Constantinople par les Ottomans et dispersion des érudits byzantins vers l'Italie.",
+      "1455 : Invention de l'imprimerie à caractères mobiles métalliques par Johannes Gutenberg à Mayence.",
+      "1492 : Fin de la Reconquista en Espagne, expulsion de Grenade et premier voyage de Christophe Colomb.",
+      "1517 : Début de la Réforme protestante par Martin Luther à Wittenberg."
+    ]
+  }
+},
+{
+  "id": "fresque_l_entree_a_jerusalem_et_scenes_evangeliq_112",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_renaissance",
+  "civName": "Occident & Orient Chrétien : Art Post-Byzantin",
+  "century": "XVIe siècle (vers 1548 – 1552)",
+  "centuryDisplay": "XVIe s. (1548-1552)",
+  "centuryNumeric": 1548,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "L'Entrée à Jérusalem et scènes évangéliques par Frangos Katelanos (Varlaam)",
+  "site": "Catholicon de Tous-les-Saints du monastère de Varlaam (Météores, Grèce)",
+  "originSite": "Monastère de Varlaam (Les Météores, Thessalie, Grèce)",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczPyksUk98u4mx12Frpzh4SItjmIaR-nsRSO2y7ENMANldbFKQJmwxDAyxmsN4RFyP2i9zkIIc9xCgKFlRLhhn7IdhyDtLBkUMqbdoXlwbDre90nQJGAc1hyEFXS-myIEzt_esWdeKDNXwGz9ll5XnDKvg=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczPyksUk98u4mx12Frpzh4SItjmIaR-nsRSO2y7ENMANldbFKQJmwxDAyxmsN4RFyP2i9zkIIc9xCgKFlRLhhn7IdhyDtLBkUMqbdoXlwbDre90nQJGAc1hyEFXS-myIEzt_esWdeKDNXwGz9ll5XnDKvg=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "byzance",
+    "météores",
+    "grand météore",
+    "varlaam",
+    "katelanos",
+    "école de crète",
+    "grèce"
+  ],
+  "chips": [
+    "1548",
+    "Art post-byzantin",
+    "Frangos Katelanos",
+    "Monastère de Varlaam",
+    "Les Météores (UNESCO)"
+  ],
+  "narrative": "<p>L'église de Tous-les-Saints du monastère de Varlaam présente un ensemble de fresques exécutées en 1548 par le célèbre peintre crétois Frangos Katelanos, marquant une étape majeure de la peinture post-byzantine aux Météores. Contrairement au style plus sobre de l'École de Crète classique, Katelanos introduit ici une dynamique nouvelle, caractérisée par des compositions denses, des mouvements amples et une expressivité dramatique des visages. Les voûtes et les coupoles sont saturées de figures sacrées, où les contrastes de lumière et l'utilisation de couleurs chaudes créent une atmosphère d'une intensité mystique profonde.</p><p>Dans la zone de la coupole et du tambour, le programme iconographique suit la tradition avec le Christ Pantocrator dominant l'édifice, entouré d'une cour céleste d'anges et de prophètes. On observe une attention méticuleuse portée aux détails des vêtements et des décors architecturaux, qui témoignent d'une influence de l'art occidental, notamment dans le rendu des volumes et de la perspective. Les scènes bibliques, comme l'Entrée à Jérusalem visible sur les parois latérales, déploient une foule de personnages aux postures variées, intégrant des paysages de roches escarpées qui font écho au site naturel des Météores lui-même.</p><p>Les parties inférieures et les écoinçons sont ornés de médaillons circulaires et de portraits de saints dont les traits, marqués par une certaine austérité, invitent à la contemplation. La complexité du cycle iconographique de Varlaam réside dans sa capacité à lier le dogme théologique à une narration visuelle presque théâtrale, où chaque recoin de la pierre est investi d'une présence divine. Cet héritage artistique, préservé malgré les siècles, demeure l'un des témoignages les plus vibrants de la Renaissance byzantine, illustrant la résistance culturelle et la ferveur spirituelle des communautés monastiques de l'époque.</p>",
+  "desc": "<p>L'église de Tous-les-Saints du monastère de Varlaam présente un ensemble de fresques exécutées en 1548 par le célèbre peintre crétois Frangos Katelanos, marquant une étape majeure de la peinture post-byzantine aux Météores. Contrairement au style plus sobre de l'École de Crète classique, Katelanos introduit ici une dynamique nouvelle, caractérisée par des compositions denses, des mouvements amples et une expressivité dramatique des visages. Les voûtes et les coupoles sont saturées de figures sacrées, où les contrastes de lumière et l'utilisation de couleurs chaudes créent une atmosphère d'une intensité mystique profonde.</p><p>Dans la zone de la coupole et du tambour, le programme iconographique suit la tradition avec le Christ Pantocrator dominant l'édifice, entouré d'une cour céleste d'anges et de prophètes. On observe une attention méticuleuse portée aux détails des vêtements et des décors architecturaux, qui témoignent d'une influence de l'art occidental, notamment dans le rendu des volumes et de la perspective. Les scènes bibliques, comme l'Entrée à Jérusalem visible sur les parois latérales, déploient une foule de personnages aux postures variées, intégrant des paysages de roches escarpées qui font écho au site naturel des Météores lui-même.</p><p>Les parties inférieures et les écoinçons sont ornés de médaillons circulaires et de portraits de saints dont les traits, marqués par une certaine austérité, invitent à la contemplation. La complexité du cycle iconographique de Varlaam réside dans sa capacité à lier le dogme théologique à une narration visuelle presque théâtrale, où chaque recoin de la pierre est investi d'une présence divine. Cet héritage artistique, préservé malgré les siècles, demeure l'un des témoignages les plus vibrants de la Renaissance byzantine, illustrant la résistance culturelle et la ferveur spirituelle des communautés monastiques de l'époque.</p>",
+  "contemporaryArt": {
+    "title": "Quattrocento & Première Renaissance européenne",
+    "events": [
+      "1453 : Prise de Constantinople par les Ottomans et dispersion des érudits byzantins vers l'Italie.",
+      "1455 : Invention de l'imprimerie à caractères mobiles métalliques par Johannes Gutenberg à Mayence.",
+      "1492 : Fin de la Reconquista en Espagne, expulsion de Grenade et premier voyage de Christophe Colomb.",
+      "1517 : Début de la Réforme protestante par Martin Luther à Wittenberg."
+    ]
+  }
+},
+{
+  "id": "fresque_la_chambre_de_sainte_catherine_et_decors_113",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_renaissance",
+  "civName": "Occident : Haute Renaissance parmesane",
+  "century": "XVIe siècle (1514)",
+  "centuryDisplay": "1514",
+  "centuryNumeric": 1514,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "La Chambre de sainte Catherine et décors de grotesques par Alessandro Araldi (Parme)",
+  "site": "Monastère San Paolo (Parme, Émilie-Romagne, Italie)",
+  "originSite": "Chambre de sainte Catherine (Appartements de l'abbesse Giovanna da Piacenza)",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczM7_hpLc96Ll_oX05DSbCsfe5tl8AYz1JrMybVFumXO4rNmwN0rcHtF6BTlMX6T6ZhuNIYv_Hspj2pns1kHxZsv3BKPQ_8kUXOT88dr7m4sJG3KjOO9QnmWixbnaildjwnghIrno5YUIJcB0Sxz30QXEw=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczM7_hpLc96Ll_oX05DSbCsfe5tl8AYz1JrMybVFumXO4rNmwN0rcHtF6BTlMX6T6ZhuNIYv_Hspj2pns1kHxZsv3BKPQ_8kUXOT88dr7m4sJG3KjOO9QnmWixbnaildjwnghIrno5YUIJcB0Sxz30QXEw=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "italie",
+    "parme",
+    "araldi",
+    "renaissance",
+    "grotesques",
+    "fresque"
+  ],
+  "chips": [
+    "1514",
+    "Haute Renaissance",
+    "Alessandro Araldi",
+    "Grotesques & Caissons",
+    "Parme (Italie)"
+  ],
+  "narrative": "<p>Le cycle décoratif de la Chambre de sainte Catherine, réalisé en 1514 par Alessandro Araldi, constitue l'un des sommets de la peinture de la Renaissance à Parme avant l'arrivée du Corrège. L'artiste a conçu un ensemble complet où les parois et la voûte s'articulent dans une harmonie parfaite. Les scènes de la vie de la sainte, peintes à la fresque, sont encadrées par une profusion de décors de grotesques, de candélabres et de motifs antiquisants exécutés avec une précision miniaturiste à la détrempe. Le plafond, divisé en caissons peints, illustre des épisodes de l'Ancien et du Nouveau Testament, créant un dialogue théologique complexe destiné à la dévotion privée de l'abbesse Giovanna da Piacenza. Le style d'Araldi se caractérise par une clarté narrative et une élégance formelle héritées de l'école d'Ombrie et d'artistes comme Mantegna. Ce décor, miraculeusement préservé, transforme l'espace architectural en un cabinet d'études humaniste où la rigueur géométrique des structures feintes met en valeur la délicatesse des figures et la richesse des détails ornementaux.</p>",
+  "desc": "<p>Le cycle décoratif de la Chambre de sainte Catherine, réalisé en 1514 par Alessandro Araldi, constitue l'un des sommets de la peinture de la Renaissance à Parme avant l'arrivée du Corrège. L'artiste a conçu un ensemble complet où les parois et la voûte s'articulent dans une harmonie parfaite. Les scènes de la vie de la sainte, peintes à la fresque, sont encadrées par une profusion de décors de grotesques, de candélabres et de motifs antiquisants exécutés avec une précision miniaturiste à la détrempe. Le plafond, divisé en caissons peints, illustre des épisodes de l'Ancien et du Nouveau Testament, créant un dialogue théologique complexe destiné à la dévotion privée de l'abbesse Giovanna da Piacenza. Le style d'Araldi se caractérise par une clarté narrative et une élégance formelle héritées de l'école d'Ombrie et d'artistes comme Mantegna. Ce décor, miraculeusement préservé, transforme l'espace architectural en un cabinet d'études humaniste où la rigueur géométrique des structures feintes met en valeur la délicatesse des figures et la richesse des détails ornementaux.</p>",
+  "contemporaryArt": {
+    "title": "Quattrocento & Première Renaissance européenne",
+    "events": [
+      "1453 : Prise de Constantinople par les Ottomans et dispersion des érudits byzantins vers l'Italie.",
+      "1455 : Invention de l'imprimerie à caractères mobiles métalliques par Johannes Gutenberg à Mayence.",
+      "1492 : Fin de la Reconquista en Espagne, expulsion de Grenade et premier voyage de Christophe Colomb.",
+      "1517 : Début de la Réforme protestante par Martin Luther à Wittenberg."
+    ]
+  }
+},
+{
+  "id": "fresque_saint_martin_partageant_son_manteau_et_s_114",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_gothique",
+  "civName": "Occident : Art Gothique d'Estrémadure",
+  "century": "XIIIe siècle",
+  "centuryDisplay": "XIIIe s.",
+  "centuryNumeric": 1260,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Saint Martin partageant son manteau et Sainte Anne (Crypte de Mérida)",
+  "site": "Basilique Sainte-Eulalie (Mérida, Estrémadure, Espagne)",
+  "originSite": "Crypte archéologique de la basilique Sainte-Eulalie de Mérida",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczONcaaDzUr_Uviu5gWh07nljo4hdQKOPMgkNUGCsSVl6MhOqC16KUfch3PPXEe7fcESgBs9J0XYKgpPVIgT8olgoxhZUDaRQx6XgD6e0quYHguS96NZG1HSW-KvtHMEA25ynfkDvRtTgKG1m7nqyjfXxg=w1611-h2416-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczONcaaDzUr_Uviu5gWh07nljo4hdQKOPMgkNUGCsSVl6MhOqC16KUfch3PPXEe7fcESgBs9J0XYKgpPVIgT8olgoxhZUDaRQx6XgD6e0quYHguS96NZG1HSW-KvtHMEA25ynfkDvRtTgKG1m7nqyjfXxg=w1611-h2416-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "espagne",
+    "mérida",
+    "crypte",
+    "sainte-eulalie",
+    "fresque"
+  ],
+  "chips": [
+    "XIIIe s.",
+    "Art médiéval espagnol",
+    "Crypte archéologique",
+    "Saint Martin & Sainte Anne",
+    "Mérida (Espagne)"
+  ],
+  "narrative": "<p>peinture murale située dans la salle dite « des Fresques » de la commanderie de Sainte-Eulalie-de-Cernon, dans l'Aveyron.</p><p>Exécutée au XVIIe siècle, probablement vers 1648 sous l'impulsion du commandeur Jean de Bernuy-Villeneuve, cette œuvre appartient à un cycle décoratif ornant la salle d'attente qui précédait la salle d'honneur. La peinture représente une figure féminine en pied, traitée en ocre rouge, s'inscrivant dans une arcade architecturale feinte qui témoigne du goût classique de l'époque.</p><p>Le personnage est une personnification de la Prudence, l'une des quatre vertus cardinales. Elle est identifiable grâce à ses deux attributs iconographiques traditionnels : le miroir, qu'elle tient dans sa main droite, symbolisant la connaissance de soi et la capacité à regarder en arrière pour mieux appréhender l'avenir, et le serpent, qui s'enroule le long de son bras gauche, évoquant la ruse et la vigilance nécessaires à l'exercice du jugement. La posture de la figure, à la fois stable et dynamique avec le jeu de ses drapés, ainsi que la présence d'un cartouche sommital aujourd'hui partiellement effacé, renforcent la dimension didactique de ce décor destiné à illustrer les valeurs morales et religieuses de l'ordre des Hospitaliers.</p>",
+  "desc": "<p>peinture murale située dans la salle dite « des Fresques » de la commanderie de Sainte-Eulalie-de-Cernon, dans l'Aveyron.</p><p>Exécutée au XVIIe siècle, probablement vers 1648 sous l'impulsion du commandeur Jean de Bernuy-Villeneuve, cette œuvre appartient à un cycle décoratif ornant la salle d'attente qui précédait la salle d'honneur. La peinture représente une figure féminine en pied, traitée en ocre rouge, s'inscrivant dans une arcade architecturale feinte qui témoigne du goût classique de l'époque.</p><p>Le personnage est une personnification de la Prudence, l'une des quatre vertus cardinales. Elle est identifiable grâce à ses deux attributs iconographiques traditionnels : le miroir, qu'elle tient dans sa main droite, symbolisant la connaissance de soi et la capacité à regarder en arrière pour mieux appréhender l'avenir, et le serpent, qui s'enroule le long de son bras gauche, évoquant la ruse et la vigilance nécessaires à l'exercice du jugement. La posture de la figure, à la fois stable et dynamique avec le jeu de ses drapés, ainsi que la présence d'un cartouche sommital aujourd'hui partiellement effacé, renforcent la dimension didactique de ce décor destiné à illustrer les valeurs morales et religieuses de l'ordre des Hospitaliers.</p>",
+  "contemporaryArt": {
+    "title": "Bas Moyen Âge • L'Essor du Gothique & l'aube du Trecento",
+    "events": [
+      "1250 – 1300 : Apogée de l'art gothique rayonnant en France et construction de la Sainte-Chapelle de Paris.",
+      "1305 – 1309 : Installation de la papauté en Avignon sous Clément V et grand schisme d'Occident.",
+      "1348 : La terrible épidémie de Peste noire frappe l'Italie et bouleverse la sensibilité spirituelle européenne.",
+      "1380 – 1400 : Diffusion européenne du style Gothique international entre Paris, Dijon, Prague et Florence."
+    ]
+  }
+},
+{
+  "id": "fresque_la_sala_urbana_galerie_heraldique_monume_115",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_baroque_classique",
+  "civName": "Occident : Âge Baroque & Classicisme",
+  "century": "XVIIe siècle (vers 1630)",
+  "centuryDisplay": "1630",
+  "centuryNumeric": 1630,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "La Sala Urbana : Galerie héraldique monumentale des armoiries pontificales (Bologne)",
+  "site": "Palais d'Accursio (Bologne, Émilie-Romagne, Italie)",
+  "originSite": "Sala Urbana du Palais d'Accursio",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczNU4RMEH3p5jqQYw-oP3b61nLKjTglOwy8tvqWKWDPyeAH4Yjnz_hjXeWPxuCO93LolBMFh_TTZ-6JFWUEUgzgNbpz9seLJC83L-uobMdgfkgaMwrZWK6pbFJQM59v3zE7rPWJm_Fqj8u0VOCbzBA4hCQ=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczNU4RMEH3p5jqQYw-oP3b61nLKjTglOwy8tvqWKWDPyeAH4Yjnz_hjXeWPxuCO93LolBMFh_TTZ-6JFWUEUgzgNbpz9seLJC83L-uobMdgfkgaMwrZWK6pbFJQM59v3zE7rPWJm_Fqj8u0VOCbzBA4hCQ=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "italie",
+    "bologne",
+    "palais accursio",
+    "sala urbana",
+    "héraldique",
+    "baroque",
+    "fresque"
+  ],
+  "chips": [
+    "1630",
+    "Baroque bolonais",
+    "Décor héraldique (200 blasons)",
+    "Palais d'Accursio",
+    "Bologne (Italie)"
+  ],
+  "narrative": "<p>La Sala Urbana, aménagée vers 1630 au sein du palais Accursio sous l'impulsion du cardinal-légat Bernardino Spada, constitue l'un des ensembles héraldiques les plus impressionnants et les plus complets de l'époque baroque en Italie. Conçue comme une célébration du pouvoir pontifical et une archive visuelle de l'administration bolonaise, cette salle doit son nom au pape Urbain VIII Barberini, dont le pontificat marqua l'apogée de l'influence de la famille Spada à Bologne. Le décor, unique en son genre, se déploie sur l'intégralité des parois sous la forme d'une collection systématique de près de deux cents blasons peints à fresque, représentant les armoiries des cardinaux-légats, des vice-légats et des figures ecclésiastiques majeures ayant gouverné la cité.</p><p>L'ordonnance architecturale de la salle, rythmée par des pilastres peints et des encadrements en trompe-l'œil, confère à cet inventaire héraldique une solennité monumentale, transformant l'espace en une véritable galerie de la légitimité politique. Chaque blason est exécuté avec une précision graphique remarquable, respectant les codes chromatiques et symboliques de la science du blason, tout en s'intégrant dans une esthétique baroque foisonnante. Au-delà de sa fonction décorative, la Sala Urbana servait de salle d'audience et de passage obligé vers les appartements privés du légat, rappelant à chaque visiteur la continuité du pouvoir papal et l'histoire séculaire du gouvernement de la ville. Bien que les noms des artisans ayant contribué à cette œuvre monumentale soient restés dans l'ombre des grands maîtres, la cohérence stylistique et la richesse de l'or et des pigments utilisés témoignent de l'importance de cette commande, véritable miroir de l'ordre théocratique et de la hiérarchie sociale de Bologne sous l'État pontifical.</p>",
+  "desc": "<p>La Sala Urbana, aménagée vers 1630 au sein du palais Accursio sous l'impulsion du cardinal-légat Bernardino Spada, constitue l'un des ensembles héraldiques les plus impressionnants et les plus complets de l'époque baroque en Italie. Conçue comme une célébration du pouvoir pontifical et une archive visuelle de l'administration bolonaise, cette salle doit son nom au pape Urbain VIII Barberini, dont le pontificat marqua l'apogée de l'influence de la famille Spada à Bologne. Le décor, unique en son genre, se déploie sur l'intégralité des parois sous la forme d'une collection systématique de près de deux cents blasons peints à fresque, représentant les armoiries des cardinaux-légats, des vice-légats et des figures ecclésiastiques majeures ayant gouverné la cité.</p><p>L'ordonnance architecturale de la salle, rythmée par des pilastres peints et des encadrements en trompe-l'œil, confère à cet inventaire héraldique une solennité monumentale, transformant l'espace en une véritable galerie de la légitimité politique. Chaque blason est exécuté avec une précision graphique remarquable, respectant les codes chromatiques et symboliques de la science du blason, tout en s'intégrant dans une esthétique baroque foisonnante. Au-delà de sa fonction décorative, la Sala Urbana servait de salle d'audience et de passage obligé vers les appartements privés du légat, rappelant à chaque visiteur la continuité du pouvoir papal et l'histoire séculaire du gouvernement de la ville. Bien que les noms des artisans ayant contribué à cette œuvre monumentale soient restés dans l'ombre des grands maîtres, la cohérence stylistique et la richesse de l'or et des pigments utilisés témoignent de l'importance de cette commande, véritable miroir de l'ordre théocratique et de la hiérarchie sociale de Bologne sous l'État pontifical.</p>",
+  "contemporaryArt": {
+    "title": "Temps Modernes • De la Renaissance au Siècle des Lumières",
+    "events": [
+      "1545 – 1563 : Concile de Trente et affirmation de l'art de la Contre-Réforme catholique.",
+      "1610 – 1643 : Règne de Louis XIII en France et essor du classicisme architectural en Europe.",
+      "1648 : Traités de Westphalie mettant fin à la guerre de Trente Ans.",
+      "1789 : Début de la Révolution française et émergence du style néoclassique."
+    ]
+  }
+},
+{
+  "id": "fresque_la_sala_urbana_galerie_heraldique_monume_116",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_baroque_classique",
+  "civName": "Occident : Âge Baroque & Classicisme",
+  "century": "XVIIe siècle (vers 1630)",
+  "centuryDisplay": "1630",
+  "centuryNumeric": 1630,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "La Sala Urbana : Galerie héraldique monumentale des armoiries pontificales (Bologne)",
+  "site": "Palais d'Accursio (Bologne, Émilie-Romagne, Italie)",
+  "originSite": "Sala Urbana du Palais d'Accursio",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczNtRtg_9P5IPbSuW04_UOx2OaCxPyzv52E2554eW5Xv2G0QC00wAudohLwTGOMXG2X5ioVuj6B0ERerttiZJD9EfT1NstimGVFgOpqMhPPM8pkitG1heqd61_iOTKm1Si1tbzVTM9xcLCwBNvAyLKzVZw=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczNtRtg_9P5IPbSuW04_UOx2OaCxPyzv52E2554eW5Xv2G0QC00wAudohLwTGOMXG2X5ioVuj6B0ERerttiZJD9EfT1NstimGVFgOpqMhPPM8pkitG1heqd61_iOTKm1Si1tbzVTM9xcLCwBNvAyLKzVZw=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "italie",
+    "bologne",
+    "palais accursio",
+    "sala urbana",
+    "héraldique",
+    "baroque",
+    "fresque"
+  ],
+  "chips": [
+    "1630",
+    "Baroque bolonais",
+    "Décor héraldique (200 blasons)",
+    "Palais d'Accursio",
+    "Bologne (Italie)"
+  ],
+  "narrative": "<p>La Sala Boschereccia (ou Salle de la Forêt), située au sein des Collections Communales d'Art du Palais d'Accursio, offre un contraste saisissant avec la solennité héraldique de la Sala Urbana.</p><p>Conçue entre 1797 et 1799 par le peintre Basoli (Antonio ou son frère Luigi), cette pièce constitue l'un des exemples les plus précoces et les plus aboutis du goût pour le « paysage de salle » ou décor illusionniste néoclassique. À la fin du XVIIIe siècle, alors que Bologne subit les transformations politiques de l'époque napoléonienne, le décor s'affranchit des représentations de pouvoir pour se tourner vers une célébration de la nature et de l'évasion.</p><p>Le programme décoratif repose sur une technique de trompe-l’œil magistrale qui annule les limites architecturales de la pièce pour la transformer en un pavillon de jardin ouvert. Les parois sont peintes d'une végétation luxuriante, de bosquets et de paysages verdoyants qui semblent s'étendre à l'infini, créant l'illusion d'une forêt entourant le spectateur. Les éléments structurels, tels que les montants des fenêtres ou les encadrements de portes, sont intégrés dans une architecture feinte composée de treillages et de pergolas, typique du style \"boscheréccio\". Cette immersion paysagère visait à offrir un espace de repos visuel et de fraîcheur, évoquant la sérénité des villas de campagne à l'intérieur même du centre administratif et urbain de la cité. La Sala Boschereccia demeure aujourd'hui un témoignage précieux de l'évolution de l'art décoratif bolonais vers un lyrisme bucolique et une recherche de bien-être spatial au tournant du XIXe siècle.</p>",
+  "desc": "<p>La Sala Boschereccia (ou Salle de la Forêt), située au sein des Collections Communales d'Art du Palais d'Accursio, offre un contraste saisissant avec la solennité héraldique de la Sala Urbana.</p><p>Conçue entre 1797 et 1799 par le peintre Basoli (Antonio ou son frère Luigi), cette pièce constitue l'un des exemples les plus précoces et les plus aboutis du goût pour le « paysage de salle » ou décor illusionniste néoclassique. À la fin du XVIIIe siècle, alors que Bologne subit les transformations politiques de l'époque napoléonienne, le décor s'affranchit des représentations de pouvoir pour se tourner vers une célébration de la nature et de l'évasion.</p><p>Le programme décoratif repose sur une technique de trompe-l’œil magistrale qui annule les limites architecturales de la pièce pour la transformer en un pavillon de jardin ouvert. Les parois sont peintes d'une végétation luxuriante, de bosquets et de paysages verdoyants qui semblent s'étendre à l'infini, créant l'illusion d'une forêt entourant le spectateur. Les éléments structurels, tels que les montants des fenêtres ou les encadrements de portes, sont intégrés dans une architecture feinte composée de treillages et de pergolas, typique du style \"boscheréccio\". Cette immersion paysagère visait à offrir un espace de repos visuel et de fraîcheur, évoquant la sérénité des villas de campagne à l'intérieur même du centre administratif et urbain de la cité. La Sala Boschereccia demeure aujourd'hui un témoignage précieux de l'évolution de l'art décoratif bolonais vers un lyrisme bucolique et une recherche de bien-être spatial au tournant du XIXe siècle.</p>",
+  "contemporaryArt": {
+    "title": "Temps Modernes • De la Renaissance au Siècle des Lumières",
+    "events": [
+      "1545 – 1563 : Concile de Trente et affirmation de l'art de la Contre-Réforme catholique.",
+      "1610 – 1643 : Règne de Louis XIII en France et essor du classicisme architectural en Europe.",
+      "1648 : Traités de Westphalie mettant fin à la guerre de Trente Ans.",
+      "1789 : Début de la Révolution française et émergence du style néoclassique."
+    ]
+  }
+},
+{
+  "id": "fresque_la_renommee_et_l_apotheose_des_vertus_de_117",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_baroque_classique",
+  "civName": "Occident : Âge Baroque florentin",
+  "century": "XVIIe siècle (1652 – 1660)",
+  "centuryDisplay": "1652 – 1660",
+  "centuryNumeric": 1655,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "La Renommée et l'apothéose des vertus des Médicis par Volterrano (Palais Pitti)",
+  "site": "Galerie Palatine du Palais Pitti (Florence, Toscane, Italie)",
+  "originSite": "Plafond de la chambre des Allégories (Appartements royaux du Palais Pitti)",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczMh1FJIyoGxemySYPqbTrego5c2sRX1tgtV8dq1f71QTXwV-lRcr45bP64Y_3UiKYsQrEOriiz-FEUMsYrZvpTdcDdeK_pK-j4n18Ep4WkAhRxhCgc29fwoj0zmg9227l5IoZPg8ylZ2XRrPvgLedykqQ=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczMh1FJIyoGxemySYPqbTrego5c2sRX1tgtV8dq1f71QTXwV-lRcr45bP64Y_3UiKYsQrEOriiz-FEUMsYrZvpTdcDdeK_pK-j4n18Ep4WkAhRxhCgc29fwoj0zmg9227l5IoZPg8ylZ2XRrPvgLedykqQ=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "italie",
+    "florence",
+    "palais pitti",
+    "volterrano",
+    "médicis",
+    "baroque",
+    "fresque"
+  ],
+  "chips": [
+    "1652 – 1660",
+    "Baroque florentin",
+    "Volterrano (Franceschini)",
+    "Palais Pitti",
+    "Florence"
+  ],
+  "narrative": "<p>L'immense fresque qui orne le plafond de la chambre des Allégories, au cœur des appartements royaux du Palazzo Pitti, constitue l'un des sommets de la décoration palatiale médicéenne du XVIIe siècle. Réalisée par Volterrano, de son vrai nom Baldassarre Franceschini, entre 1652 et 1660, cette œuvre monumentale s'inscrit dans la continuité du faste baroque voulu par le Grand-Duc Ferdinand II de Médicis. L'artiste y déploie une virtuosité technique remarquable, utilisant le raccourci perspectif pour briser la planéité du plafond et ouvrir l'espace vers un ciel azuré et tumultueux.</p><p>La composition centrale est dominée par la figure de la Renommée, qui s'élève au-dessus d'un ensemble complexe de figures allégoriques incarnant les vertus et les aspirations de la dynastie régnante. On y distingue notamment la Justice, la Prudence et la Force, entourées de putti virevoltants qui portent les attributs du pouvoir ducal. Volterrano utilise une palette chromatique vibrante, où les ocres chauds et les bleus profonds créent un dynamisme visuel saisissant, typique de l'école florentine de l'époque qui cherchait à rivaliser avec le baroque romain de Pierre de Cortone.</p><p>L'iconographie de l'ensemble est une célébration directe de la paix et de la prospérité retrouvées sous le règne des Médicis. Les angles de la voûte sont richement décorés de stucs blancs et dorés qui encadrent des scènes secondaires, renforçant l'impression de relief et d'opulence. Chaque détail, des draperies flottantes aux expressions théâtrales des personnages, est conçu pour subjuguer le spectateur et affirmer la légitimité divine du souverain. Cette fresque demeure aujourd'hui l'un des témoignages les plus éloquents du passage du maniérisme tardif vers la pleine exubérance baroque, faisant de cette chambre un passage obligé pour comprendre l'évolution du goût artistique à la cour de Florence.</p>",
+  "desc": "<p>L'immense fresque qui orne le plafond de la chambre des Allégories, au cœur des appartements royaux du Palazzo Pitti, constitue l'un des sommets de la décoration palatiale médicéenne du XVIIe siècle. Réalisée par Volterrano, de son vrai nom Baldassarre Franceschini, entre 1652 et 1660, cette œuvre monumentale s'inscrit dans la continuité du faste baroque voulu par le Grand-Duc Ferdinand II de Médicis. L'artiste y déploie une virtuosité technique remarquable, utilisant le raccourci perspectif pour briser la planéité du plafond et ouvrir l'espace vers un ciel azuré et tumultueux.</p><p>La composition centrale est dominée par la figure de la Renommée, qui s'élève au-dessus d'un ensemble complexe de figures allégoriques incarnant les vertus et les aspirations de la dynastie régnante. On y distingue notamment la Justice, la Prudence et la Force, entourées de putti virevoltants qui portent les attributs du pouvoir ducal. Volterrano utilise une palette chromatique vibrante, où les ocres chauds et les bleus profonds créent un dynamisme visuel saisissant, typique de l'école florentine de l'époque qui cherchait à rivaliser avec le baroque romain de Pierre de Cortone.</p><p>L'iconographie de l'ensemble est une célébration directe de la paix et de la prospérité retrouvées sous le règne des Médicis. Les angles de la voûte sont richement décorés de stucs blancs et dorés qui encadrent des scènes secondaires, renforçant l'impression de relief et d'opulence. Chaque détail, des draperies flottantes aux expressions théâtrales des personnages, est conçu pour subjuguer le spectateur et affirmer la légitimité divine du souverain. Cette fresque demeure aujourd'hui l'un des témoignages les plus éloquents du passage du maniérisme tardif vers la pleine exubérance baroque, faisant de cette chambre un passage obligé pour comprendre l'évolution du goût artistique à la cour de Florence.</p>",
+  "contemporaryArt": {
+    "title": "Temps Modernes • De la Renaissance au Siècle des Lumières",
+    "events": [
+      "1545 – 1563 : Concile de Trente et affirmation de l'art de la Contre-Réforme catholique.",
+      "1610 – 1643 : Règne de Louis XIII en France et essor du classicisme architectural en Europe.",
+      "1648 : Traités de Westphalie mettant fin à la guerre de Trente Ans.",
+      "1789 : Début de la Révolution française et émergence du style néoclassique."
+    ]
+  }
+},
+{
+  "id": "fresque_l_olympe_et_l_assemblee_des_dieux_grecs__118",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_xixe",
+  "civName": "Occident : XIXe Siècle & Néoclassicisme",
+  "century": "XIXe siècle (1819 – 1825)",
+  "centuryDisplay": "1819 – 1825",
+  "centuryNumeric": 1819,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "L'Olympe et l'Assemblée des Dieux grecs par Luigi Sabatelli (Palais Pitti)",
+  "site": "Galerie Palatine du Palais Pitti (Florence, Toscane, Italie)",
+  "originSite": "Plafond de la Salle de l'Iliade (Palais Pitti)",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczMqNZkOGSyz4fcPosPt6cKSjYI6cjmE1AEFofvWLXIl0AZWwx91FZnSATNyS_gYsudbVQ0CnBCdZV9sUpr4b2zRgO7_meFHY_QOdcCKu5B7w6c0FsLHIeG8e36E5soOiYQyH5ys7FP4sbO0CJPDeUU2Bw=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczMqNZkOGSyz4fcPosPt6cKSjYI6cjmE1AEFofvWLXIl0AZWwx91FZnSATNyS_gYsudbVQ0CnBCdZV9sUpr4b2zRgO7_meFHY_QOdcCKu5B7w6c0FsLHIeG8e36E5soOiYQyH5ys7FP4sbO0CJPDeUU2Bw=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "italie",
+    "florence",
+    "palais pitti",
+    "sabatelli",
+    "iliade",
+    "olympe",
+    "néoclassicisme",
+    "fresque"
+  ],
+  "chips": [
+    "1819 – 1825",
+    "Néoclassicisme italien",
+    "Luigi Sabatelli",
+    "Salle de l'Iliade",
+    "Palais Pitti (Florence)"
+  ],
+  "narrative": "<p>La décoration du plafond de la salle de l'Iliade (Sala dell'Iliade), située au sein de la Galerie Palatine du Palazzo Pitti, marque un tournant stylistique majeur par rapport aux cycles baroques des salles voisines. Cette œuvre monumentale, intitulée l'Olympe ou l'Assemblée des Dieux, a été réalisée par le peintre milanais Luigi Sabatelli entre 1819 et 1825. Elle illustre l'esthétique néoclassique en vigueur sous le règne du Grand-Duc Ferdinand III de Lorraine, qui souhaitait moderniser les appartements de parade après la période napoléonienne.</p><p>La fresque est centrée sur un immense tondo qui déchire le plafond pour révéler le sommet de l'Olympe, où siège Jupiter, maître des dieux, entouré de l'ensemble du panthéon antique. On y reconnaît notamment Junon à ses côtés, tandis que des figures comme Mars, Vénus, Apollon, Diane et Mercure sont disposées dans une composition circulaire d'une grande clarté. Cette assemblée céleste est censée représenter le Conseil des Dieux décidant du sort de la guerre de Troie, créant ainsi un lien thématique direct avec les épisodes de l'Iliade d'Homère peints dans les lunettes de la salle.</p><p>Techniquement, Sabatelli s'éloigne des illusions d'optique tumultueuses du XVIIe siècle pour adopter un dessin plus rigoureux et des formes sculpturales héritées de la statuaire antique. L'artiste utilise la technique de la fresque avec une précision de miniaturiste pour les détails des visages et des attributs divins, tout en maintenant une harmonie chromatique dominée par des tonalités claires et lumineuses. La structure même du plafond est complétée par des décors en stuc et des motifs de grotesques qui encadrent les scènes narratives, renforçant l'aspect ordonné et majestueux de la pièce.</p><p>Cette œuvre est considérée comme le chef-d'œuvre de la maturité de Sabatelli et l'un des plus beaux exemples de peinture d'histoire du XIXe siècle en Italie. Elle transforme la salle de l'Iliade en un espace de célébration non plus seulement de la puissance dynastique, mais de la culture classique et de la sagesse universelle. La présence au centre de la salle de la sculpture de La Charité par Lorenzo Bartolini souligne encore ce passage vers une sensibilité plus humaine et morale, propre à l'époque néoclassique.</p>",
+  "desc": "<p>La décoration du plafond de la salle de l'Iliade (Sala dell'Iliade), située au sein de la Galerie Palatine du Palazzo Pitti, marque un tournant stylistique majeur par rapport aux cycles baroques des salles voisines. Cette œuvre monumentale, intitulée l'Olympe ou l'Assemblée des Dieux, a été réalisée par le peintre milanais Luigi Sabatelli entre 1819 et 1825. Elle illustre l'esthétique néoclassique en vigueur sous le règne du Grand-Duc Ferdinand III de Lorraine, qui souhaitait moderniser les appartements de parade après la période napoléonienne.</p><p>La fresque est centrée sur un immense tondo qui déchire le plafond pour révéler le sommet de l'Olympe, où siège Jupiter, maître des dieux, entouré de l'ensemble du panthéon antique. On y reconnaît notamment Junon à ses côtés, tandis que des figures comme Mars, Vénus, Apollon, Diane et Mercure sont disposées dans une composition circulaire d'une grande clarté. Cette assemblée céleste est censée représenter le Conseil des Dieux décidant du sort de la guerre de Troie, créant ainsi un lien thématique direct avec les épisodes de l'Iliade d'Homère peints dans les lunettes de la salle.</p><p>Techniquement, Sabatelli s'éloigne des illusions d'optique tumultueuses du XVIIe siècle pour adopter un dessin plus rigoureux et des formes sculpturales héritées de la statuaire antique. L'artiste utilise la technique de la fresque avec une précision de miniaturiste pour les détails des visages et des attributs divins, tout en maintenant une harmonie chromatique dominée par des tonalités claires et lumineuses. La structure même du plafond est complétée par des décors en stuc et des motifs de grotesques qui encadrent les scènes narratives, renforçant l'aspect ordonné et majestueux de la pièce.</p><p>Cette œuvre est considérée comme le chef-d'œuvre de la maturité de Sabatelli et l'un des plus beaux exemples de peinture d'histoire du XIXe siècle en Italie. Elle transforme la salle de l'Iliade en un espace de célébration non plus seulement de la puissance dynastique, mais de la culture classique et de la sagesse universelle. La présence au centre de la salle de la sculpture de La Charité par Lorenzo Bartolini souligne encore ce passage vers une sensibilité plus humaine et morale, propre à l'époque néoclassique.</p>",
+  "contemporaryArt": {
+    "title": "Temps Modernes • De la Renaissance au Siècle des Lumières",
+    "events": [
+      "1545 – 1563 : Concile de Trente et affirmation de l'art de la Contre-Réforme catholique.",
+      "1610 – 1643 : Règne de Louis XIII en France et essor du classicisme architectural en Europe.",
+      "1648 : Traités de Westphalie mettant fin à la guerre de Trente Ans.",
+      "1789 : Début de la Révolution française et émergence du style néoclassique."
+    ]
+  }
+},
+{
+  "id": "fresque_allegorie_de_l_universite_et_de_la_sages_119",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_baroque_classique",
+  "civName": "Occident : Baroque tardif portugais",
+  "century": "XVIIIe siècle (1723)",
+  "centuryDisplay": "1723",
+  "centuryNumeric": 1723,
+  "domain": "peinture_mosaique",
+  "artifactType": "Peinture murale / Fresque",
+  "title": "Allégorie de l'Université et de la Sagesse divine en quadratura (Coimbra)",
+  "site": "Bibliothèque Joanina de l'Université de Coimbra (Coimbra, Portugal)",
+  "originSite": "Plafond de la Bibliothèque Joanina (Université de Coimbra)",
+  "dimensions": "Fresque murale monumentale in situ",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczMO7DqsxmvmdvBO30pstSrtNlmfgS4RbxvtOhnlrIlVjCzoP8hFY2YK4t8b-bM4bJG_7rstWxMTj7fUePAmVyZNv7598ZogjgPdxNslSmhDGwhwLmL_mTC1EwuB23_uap7UqTr-y4n_-a7hPbMO2M1edQ=w1681-h1125-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczMO7DqsxmvmdvBO30pstSrtNlmfgS4RbxvtOhnlrIlVjCzoP8hFY2YK4t8b-bM4bJG_7rstWxMTj7fUePAmVyZNv7598ZogjgPdxNslSmhDGwhwLmL_mTC1EwuB23_uap7UqTr-y4n_-a7hPbMO2M1edQ=w1681-h1125-s-no-gm?authuser=0",
+  "tags": [
+    "occident",
+    "portugal",
+    "coimbra",
+    "bibliothèque joanina",
+    "quadratura",
+    "baroque",
+    "fresque"
+  ],
+  "chips": [
+    "1723",
+    "Baroque tardif portugais",
+    "Quadratura illusionniste",
+    "Bibliothèque Joanina",
+    "Coimbra (UNESCO)"
+  ],
+  "narrative": "<p>Cette œuvre monumentale, intitulée Allégorie de l'Université, a été réalisée en 1723 par le peintre de cour António Simões Ribeiro en collaboration avec Vicente Nunes pour le plafond de la Bibliothèque Joanina de l'Université de Coimbra. Exécutée selon la technique de la fresque, cette composition s'inscrit dans le mouvement du baroque tardif portugais et se distingue par l'utilisation magistrale du trompe-l'œil, ou quadratura, visant à simuler une architecture céleste ouverte sur l'infini. La scène centrale est une glorification de la connaissance et du patronage royal de Jean V, où la figure de l'Université est entourée de représentations allégoriques des facultés de l'époque, de l'astronomie, des arts et des sciences. Les artistes ont ici créé une perspective ascendante complexe, utilisant des colonnes feintes et des balustrades illusoires qui semblent prolonger les rayonnages en bois précieux de la bibliothèque vers le ciel. La palette chromatique, riche en contrastes et en dorures, renforce l'aspect théâtral et sacré du lieu, transformant ce temple du savoir en un espace de célébration de la sagesse divine et humaine. Cette décoration plafonnante constitue l'un des exemples les plus achevés de la peinture illusionniste au Portugal, témoignant de l'influence des modèles italiens diffusés dans toute l'Europe au XVIIIe siècle pour magnifier les institutions de prestige.</p><p></USER_REQUEST></p><p><ADDITIONAL_METADATA></p><p>The current local time is: 2026-11-10T20:38:14+01:00.</p><p>The user's current state is as follows:</p><p>Active Document: /Users/renoult/Desktop/monportailweb/panoramadesarts/style.css (LANGUAGE_UNSPECIFIED)</p><p>Cursor is on line: 1</p><p>Other open documents:</p><p>- /Users/renoult/Desktop/monportailweb/panoramadesarts/data/data-artistes.js (LANGUAGE_UNSPECIFIED)</p><p>- /Users/renoult/Desktop/monportailweb/panoramadesarts/data/data-objets2.js (LANGUAGE_UNSPECIFIED)</p><p>- /Users/renoult/Desktop/monportailweb/panoramadesarts/data/data-objets3.js (LANGUAGE_UNSPECIFIED)</p><p>- /Users/renoult/Desktop/monportailweb/panoramadesarts/data/data-objets4.js (LANGUAGE_UNSPECIFIED)</p><p>- /Users/renoult/Desktop/monportailweb/panoramadesarts/data/data-movements.js (LANGUAGE_UNSPECIFIED)</p><p></ADDITIONAL_METADATA></p>",
+  "desc": "<p>Cette œuvre monumentale, intitulée Allégorie de l'Université, a été réalisée en 1723 par le peintre de cour António Simões Ribeiro en collaboration avec Vicente Nunes pour le plafond de la Bibliothèque Joanina de l'Université de Coimbra. Exécutée selon la technique de la fresque, cette composition s'inscrit dans le mouvement du baroque tardif portugais et se distingue par l'utilisation magistrale du trompe-l'œil, ou quadratura, visant à simuler une architecture céleste ouverte sur l'infini. La scène centrale est une glorification de la connaissance et du patronage royal de Jean V, où la figure de l'Université est entourée de représentations allégoriques des facultés de l'époque, de l'astronomie, des arts et des sciences. Les artistes ont ici créé une perspective ascendante complexe, utilisant des colonnes feintes et des balustrades illusoires qui semblent prolonger les rayonnages en bois précieux de la bibliothèque vers le ciel. La palette chromatique, riche en contrastes et en dorures, renforce l'aspect théâtral et sacré du lieu, transformant ce temple du savoir en un espace de célébration de la sagesse divine et humaine. Cette décoration plafonnante constitue l'un des exemples les plus achevés de la peinture illusionniste au Portugal, témoignant de l'influence des modèles italiens diffusés dans toute l'Europe au XVIIIe siècle pour magnifier les institutions de prestige.</p><p></USER_REQUEST></p><p><ADDITIONAL_METADATA></p><p>The current local time is: 2026-11-10T20:38:14+01:00.</p><p>The user's current state is as follows:</p><p>Active Document: /Users/renoult/Desktop/monportailweb/panoramadesarts/style.css (LANGUAGE_UNSPECIFIED)</p><p>Cursor is on line: 1</p><p>Other open documents:</p><p>- /Users/renoult/Desktop/monportailweb/panoramadesarts/data/data-artistes.js (LANGUAGE_UNSPECIFIED)</p><p>- /Users/renoult/Desktop/monportailweb/panoramadesarts/data/data-objets2.js (LANGUAGE_UNSPECIFIED)</p><p>- /Users/renoult/Desktop/monportailweb/panoramadesarts/data/data-objets3.js (LANGUAGE_UNSPECIFIED)</p><p>- /Users/renoult/Desktop/monportailweb/panoramadesarts/data/data-objets4.js (LANGUAGE_UNSPECIFIED)</p><p>- /Users/renoult/Desktop/monportailweb/panoramadesarts/data/data-movements.js (LANGUAGE_UNSPECIFIED)</p><p></ADDITIONAL_METADATA></p>",
+  "contemporaryArt": {
+    "title": "Temps Modernes • De la Renaissance au Siècle des Lumières",
+    "events": [
+      "1545 – 1563 : Concile de Trente et affirmation de l'art de la Contre-Réforme catholique.",
+      "1610 – 1643 : Règne de Louis XIII en France et essor du classicisme architectural en Europe.",
+      "1648 : Traités de Westphalie mettant fin à la guerre de Trente Ans.",
+      "1789 : Début de la Révolution française et émergence du style néoclassique."
+    ]
+  }
+},
+{
   "id": "fragonard_rouen_oeuvre_1",
   "artistId": "fragonard",
   "artist": "Fragonard Jean-Honoré",
