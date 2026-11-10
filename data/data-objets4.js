@@ -16,6 +16,349 @@
    ========================================================================== */
 window.ART_OBJECTS = [
   {
+    "id": "giacometti_caroline_tokyo_1962",
+    "artistId": "giacometti",
+    "artist": "Alberto Giacometti",
+    "artistSort": "Giacometti Alberto",
+    "civId": "occident",
+    "periodId": "occ_xxe",
+    "civName": "Occident : Art moderne & Existentialisme",
+    "title": "Caroline",
+    "date": 1962,
+    "dateDisplay": "1962",
+    "century": "XXe siècle (1962)",
+    "centuryDisplay": "XXe s. (1962)",
+    "centuryNumeric": 1962,
+    "period": "XXe siècle",
+    "domain": "peinture",
+    "artifactType": "Peinture à l'huile sur toile",
+    "category": "Peinture à l'huile sur toile",
+    "type": "Peinture à l'huile",
+    "medium": "Huile sur toile",
+    "dimensions": {
+      "h": 129.5,
+      "w": 96.5,
+      "display": "129,5 × 96,5 cm (Musée National d'Art Occidental de Tokyo)"
+    },
+    "site": "Musée National d'Art Occidental (Tokyo, Japon)",
+    "originSite": "Atelier de la rue Hippolyte-Maindron (Paris)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczMN9AOSFumMupBWS3gVJMIyyJ1STbjwoqJVNZEiQpHlVKQmvW7Z9jXKeXYKiYj4S2yM2qJyv_Evw3OreT8thvy-3Pkb21794mmrEJBKAXbzUk58qxtdQgXJDZ4csJdZbhyRCLt_DfdPB7UVOxrjuztfrg=w1681-h2119-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczMN9AOSFumMupBWS3gVJMIyyJ1STbjwoqJVNZEiQpHlVKQmvW7Z9jXKeXYKiYj4S2yM2qJyv_Evw3OreT8thvy-3Pkb21794mmrEJBKAXbzUk58qxtdQgXJDZ4csJdZbhyRCLt_DfdPB7UVOxrjuztfrg=w1681-h2119-s-no-gm?authuser=0",
+    "tags": [
+      "peinture",
+      "art moderne",
+      "giacometti",
+      "caroline",
+      "portrait",
+      "existentialisme",
+      "tokyo"
+    ],
+    "chips": [
+      "XXe s.",
+      "1962",
+      "Portrait existentiel",
+      "Cage spatiale",
+      "Tokyo NMWA"
+    ],
+    "narrative": "<p>Rencontrée en 1958 dans un bar de Montparnasse, Caroline (de son vrai prénom Yvonne-Marguerite Poiraudeau) devient jusqu'à la mort de l'artiste son ultime égérie, sa muse nocturne et le sujet obsessionnel d'innombrables séances de pose dans le modeste atelier de la rue Hippolyte-Maindron. Dans ce grand portrait peint en 1962 — année où Giacometti reçoit le grand prix de peinture à la Biennale de Venise —, l'artiste poursuit son inlassable quête de la ressemblance intérieure, cherchant à saisir la présence vivante et insaisissable de l'autre sans jamais figer l'illusionnisme du volume.</p><p>Le modèle apparaît de face, assis à mi-corps, les bras croisés sur le bas-ventre dans une attitude de contention frontale et hiératique. Le buste et les vêtements, esquissés d'un lacis nerveux de lignes grises et noires, semblent flotter dans un espace incertain. L'ensemble de la tension se concentre dans la tête, cernée d'une auréole claire et façonnée par une accumulation vertigineuse de traits hachurés, de repentirs et de griffures. Les yeux, grands cercles sombres et hypnotiques, fixent le peintre d'un regard impénétrable, traduisant le combat acharné de Giacometti pour capturer l'étincelle fugace de l'être.</p><p>L'espace pictural est strictement délimité par les cadres emboîtés et tracés au pinceau que l'artiste dessinait directement sur la toile, instaurant une cage spatiale autour de son modèle. La palette, d'un ascétisme rigoureux, fait dialoguer des tonalités d'ocre terreux, de sable et de terre de Sienne avec des gris ardoise, des blancs crayeux et des noirs profonds. Par cette matière liquide et frottée où le fond et la figure s'interpénètrent, Giacometti transforme le portrait intime en une méditation existentielle saisissante sur la solitude et l'apparition humaine. Tokyo musée Occident //// Giordano Luca</p>",
+    "desc": "<p>Rencontrée en 1958 dans un bar de Montparnasse, Caroline (de son vrai prénom Yvonne-Marguerite Poiraudeau) devient jusqu'à la mort de l'artiste son ultime égérie, sa muse nocturne et le sujet obsessionnel d'innombrables séances de pose dans le modeste atelier de la rue Hippolyte-Maindron. Dans ce grand portrait peint en 1962 — année où Giacometti reçoit le grand prix de peinture à la Biennale de Venise —, l'artiste poursuit son inlassable quête de la ressemblance intérieure, cherchant à saisir la présence vivante et insaisissable de l'autre sans jamais figer l'illusionnisme du volume.</p><p>Le modèle apparaît de face, assis à mi-corps, les bras croisés sur le bas-ventre dans une attitude de contention frontale et hiératique. Le buste et les vêtements, esquissés d'un lacis nerveux de lignes grises et noires, semblent flotter dans un espace incertain. L'ensemble de la tension se concentre dans la tête, cernée d'une auréole claire et façonnée par une accumulation vertigineuse de traits hachurés, de repentirs et de griffures. Les yeux, grands cercles sombres et hypnotiques, fixent le peintre d'un regard impénétrable, traduisant le combat acharné de Giacometti pour capturer l'étincelle fugace de l'être.</p><p>L'espace pictural est strictement délimité par les cadres emboîtés et tracés au pinceau que l'artiste dessinait directement sur la toile, instaurant une cage spatiale autour de son modèle. La palette, d'un ascétisme rigoureux, fait dialoguer des tonalités d'ocre terreux, de sable et de terre de Sienne avec des gris ardoise, des blancs crayeux et des noirs profonds. Par cette matière liquide et frottée où le fond et la figure s'interpénètrent, Giacometti transforme le portrait intime en une méditation existentielle saisissante sur la solitude et l'apparition humaine. Tokyo musée Occident //// Giordano Luca</p>",
+    "contemporaryArt": {
+      "title": "Années 1960 • Apogée de l'Existentialisme & Triomphe international de Giacometti",
+      "events": [
+        "1958 : Rencontre d'Alberto Giacometti et de Caroline dans un bar de Montparnasse.",
+        "1960 : Jean-Paul Sartre publie Critique de la raison dialectique.",
+        "1961 : Giacometti crée L'Homme qui marche I pour la fondation Chase Manhattan Bank.",
+        "1962 : Grand Prix de peinture de la 31e Biennale de Venise décerné à Alberto Giacometti.",
+        "1965 : Rétrospectives triomphales à la Tate Gallery de Londres, au MoMA de New York et au Musée Louisiana."
+      ]
+    }
+  },
+  {
+    "id": "giordano_le_bon_samaritain_rouen_1660",
+    "artistId": "giordano",
+    "artist": "Luca Giordano",
+    "artistSort": "Giordano Luca",
+    "civId": "occident",
+    "periodId": "occ_xviie",
+    "civName": "Occident : Baroque napolitain",
+    "title": "Le Bon Samaritain",
+    "date": 1660,
+    "dateDisplay": "v. 1660",
+    "century": "XVIIe siècle (1660)",
+    "centuryDisplay": "XVIIe s. (vers 1660)",
+    "centuryNumeric": 1660,
+    "period": "XVIIe siècle",
+    "domain": "peinture",
+    "artifactType": "Peinture à l'huile sur toile",
+    "category": "Peinture à l'huile sur toile",
+    "type": "Peinture à l'huile",
+    "medium": "Huile sur toile",
+    "dimensions": {
+      "h": 137,
+      "w": 170,
+      "display": "137 × 170 cm (Musée des Beaux-Arts de Rouen)"
+    },
+    "site": "Musée des Beaux-Arts de Rouen (France)",
+    "originSite": "Atelier napolitain de Giordano (Naples)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczMnnJ5yM5XVt26h9DD_yCU2SMRvPIF69tQA9EDOcm8XoaisAgE6vjiPoYRqrSyt68fDYOb9z503WASwK07zPShDi7n5JuSbirVgTzPhA36aXXALZ9-mYSXI-bLCMAWKD_UYLucfDYUuh6Za3uEgeINXCg=w1681-h1323-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczMnnJ5yM5XVt26h9DD_yCU2SMRvPIF69tQA9EDOcm8XoaisAgE6vjiPoYRqrSyt68fDYOb9z503WASwK07zPShDi7n5JuSbirVgTzPhA36aXXALZ9-mYSXI-bLCMAWKD_UYLucfDYUuh6Za3uEgeINXCg=w1681-h1323-s-no-gm?authuser=0",
+    "tags": [
+      "peinture",
+      "baroque",
+      "giordano",
+      "samaritain",
+      "charité",
+      "rouen"
+    ],
+    "chips": [
+      "XVIIe s.",
+      "v. 1660",
+      "Baroque napolitain",
+      "Parabole biblique",
+      "MBA Rouen"
+    ],
+    "narrative": "<p>Cette œuvre magistrale de Luca Giordano, surnommé Luca fa presto pour sa rapidité d'exécution, représente l'épisode biblique du Bon Samaritain. Conservée au Musée des Beaux-Arts de Rouen, cette toile du milieu du XVIIe siècle illustre la transition du baroque napolitain vers une esthétique plus lumineuse et mouvementée. Giordano y déploie une narration dynamique où la charité immédiate l'emporte sur l'indifférence, utilisant une composition en diagonale qui accentue la tension dramatique et l'urgence du secours.</p><p>La description du groupe central saisit le moment crucial où le Samaritain se penche sur l'homme blessé, laissé pour mort par des brigands. Le corps de la victime, d'une pâleur cadavérique, gît au sol dans une pose d'abandon total, sa nudité soulignant sa vulnérabilité extrême. Le Samaritain, vêtu d'une tunique aux couleurs chaudes, opère avec une concentration méticuleuse : il verse de l'huile et du vin sur les plaies du blessé pour les désinfecter. Le contraste entre le modelé puissant, presque sculptural, du corps du blessé et les gestes délicats de son sauveur crée une émotion profonde. Giordano parvient à rendre la texture de la chair meurtrie et la fluidité des liquides avec une virtuosité technique qui rappelle l'influence de Ribera, tout en y insufflant une élégance plus baroque.</p><p>Le paysage et les éléments de second plan renforcent la portée morale du récit. Dans le lointain, on devine les silhouettes fuyantes du prêtre et du lévite qui, par indifférence, n'ont pas porté secours à l'homme à terre. Ce contraste spatial entre l'action généreuse au premier plan et l'égoïsme qui s'éloigne dans le décor souligne le message de la parabole. Le ciel tourmenté, aux nuages lourds et aux percées lumineuses, participe à l'atmosphère de tension et de drame. La lumière, de nature théâtrale, frappe violemment le corps du blessé, en faisant le point focal de l'œuvre et attirant irrésistiblement l'œil du spectateur vers l'acte de miséricorde.</p><p>La technique de Giordano se manifeste par une touche libre et rapide, capable de suggérer les volumes et les matières avec une grande économie de moyens. Les ombres sont profondes mais jamais opaques, laissant circuler une lumière qui unifie les différents plans de la composition. L'utilisation de couleurs terreuses pour le sol et de teintes plus vives pour les vêtements crée un équilibre chromatique qui stabilise la scène malgré l'agitation des formes. Ce tableau est un témoignage essentiel de la capacité du baroque à transformer une leçon de morale en un spectacle visuel puissant, où la beauté de la peinture sert la noblesse du sentiment humain. //</p>",
+    "desc": "<p>Cette œuvre magistrale de Luca Giordano, surnommé Luca fa presto pour sa rapidité d'exécution, représente l'épisode biblique du Bon Samaritain. Conservée au Musée des Beaux-Arts de Rouen, cette toile du milieu du XVIIe siècle illustre la transition du baroque napolitain vers une esthétique plus lumineuse et mouvementée. Giordano y déploie une narration dynamique où la charité immédiate l'emporte sur l'indifférence, utilisant une composition en diagonale qui accentue la tension dramatique et l'urgence du secours.</p><p>La description du groupe central saisit le moment crucial où le Samaritain se penche sur l'homme blessé, laissé pour mort par des brigands. Le corps de la victime, d'une pâleur cadavérique, gît au sol dans une pose d'abandon total, sa nudité soulignant sa vulnérabilité extrême. Le Samaritain, vêtu d'une tunique aux couleurs chaudes, opère avec une concentration méticuleuse : il verse de l'huile et du vin sur les plaies du blessé pour les désinfecter. Le contraste entre le modelé puissant, presque sculptural, du corps du blessé et les gestes délicats de son sauveur crée une émotion profonde. Giordano parvient à rendre la texture de la chair meurtrie et la fluidité des liquides avec une virtuosité technique qui rappelle l'influence de Ribera, tout en y insufflant une élégance plus baroque.</p><p>Le paysage et les éléments de second plan renforcent la portée morale du récit. Dans le lointain, on devine les silhouettes fuyantes du prêtre et du lévite qui, par indifférence, n'ont pas porté secours à l'homme à terre. Ce contraste spatial entre l'action généreuse au premier plan et l'égoïsme qui s'éloigne dans le décor souligne le message de la parabole. Le ciel tourmenté, aux nuages lourds et aux percées lumineuses, participe à l'atmosphère de tension et de drame. La lumière, de nature théâtrale, frappe violemment le corps du blessé, en faisant le point focal de l'œuvre et attirant irrésistiblement l'œil du spectateur vers l'acte de miséricorde.</p><p>La technique de Giordano se manifeste par une touche libre et rapide, capable de suggérer les volumes et les matières avec une grande économie de moyens. Les ombres sont profondes mais jamais opaques, laissant circuler une lumière qui unifie les différents plans de la composition. L'utilisation de couleurs terreuses pour le sol et de teintes plus vives pour les vêtements crée un équilibre chromatique qui stabilise la scène malgré l'agitation des formes. Ce tableau est un témoignage essentiel de la capacité du baroque à transformer une leçon de morale en un spectacle visuel puissant, où la beauté de la peinture sert la noblesse du sentiment humain. //</p>",
+    "contemporaryArt": {
+      "title": "Seicento & Règne de Louis XIV • Rayonnement du Baroque européen",
+      "events": [
+        "1660 : Mariage de Louis XIV avec Marie-Thérèse d'Autriche à Saint-Jean-de-Luz.",
+        "1661 : Début du règne personnel de Louis XIV et lancement du chantier de Versailles.",
+        "1665 : Gian Lorenzo Bernini (Le Bernin) se rend à Paris pour les projets du Louvre.",
+        "1682 : La cour de France s'installe définitivement au château de Versailles.",
+        "1692 : Charles II d'Espagne nomme Luca Giordano peintre de la chambre royale à Madrid."
+      ]
+    }
+  },
+  {
+    "id": "giordano_saint_dominique_au_dessus_des_passions_nantes_1680",
+    "artistId": "giordano",
+    "artist": "Luca Giordano",
+    "artistSort": "Giordano Luca",
+    "civId": "occident",
+    "periodId": "occ_xviie",
+    "civName": "Occident : Baroque napolitain",
+    "title": "Saint Dominique s'élevant au-dessus des passions humaines",
+    "date": 1680,
+    "dateDisplay": "v. 1680–1685",
+    "century": "XVIIe siècle (1680)",
+    "centuryDisplay": "XVIIe s. (vers 1680–1685)",
+    "centuryNumeric": 1680,
+    "period": "XVIIe siècle",
+    "domain": "peinture",
+    "artifactType": "Peinture à l'huile sur toile",
+    "category": "Peinture à l'huile sur toile",
+    "type": "Peinture à l'huile",
+    "medium": "Huile sur toile",
+    "dimensions": {
+      "h": 120,
+      "w": 96,
+      "display": "120 × 96 cm (Musée d'Arts de Nantes)"
+    },
+    "site": "Musée d'Arts de Nantes (France)",
+    "originSite": "Couvent ou église dominicaine (Naples / Florence)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczN4ujoLE3AwfhxUxqasqDuySRrhvxt2RPvdqQBD5MAtJIAWU4Kc0EKic32eqLknbmZ_Gexxi3epJAxx7jIyesGYvLciE_zl4n3yPrgE0JmyAGJTERo6sMF_4C4sYVdeVXOVkP1SvJVjnZTuKgkCyYtsHQ=w1681-h2083-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczN4ujoLE3AwfhxUxqasqDuySRrhvxt2RPvdqQBD5MAtJIAWU4Kc0EKic32eqLknbmZ_Gexxi3epJAxx7jIyesGYvLciE_zl4n3yPrgE0JmyAGJTERo6sMF_4C4sYVdeVXOVkP1SvJVjnZTuKgkCyYtsHQ=w1681-h2083-s-no-gm?authuser=0",
+    "tags": [
+      "peinture",
+      "baroque",
+      "giordano",
+      "saint dominique",
+      "extase",
+      "nantes"
+    ],
+    "chips": [
+      "XVIIe s.",
+      "v. 1680",
+      "Baroque napolitain",
+      "Extase mystique",
+      "Nantes"
+    ],
+    "narrative": "<p>Cette œuvre de Luca Giordano, intitulée Saint Dominique s'élevant au-dessus des passions humaines, est une huile sur toile caractéristique du baroque tardif napolitain. Giordano, surnommé « Fa Presto » pour sa rapidité d'exécution, déploie ici une composition tourbillonnante où la lumière et le mouvement servent un message spirituel intense. Le tableau met en scène le fondateur de l'Ordre des Prêcheurs dans un moment d'extase et de résistance héroïque face aux tentations terrestres.</p><p>Au centre de la toile, Saint Dominique est représenté dans son habit traditionnel blanc et noir, les yeux levés vers une clarté céleste qui inonde le haut de la composition. Sa posture en légère torsion et ses mains portées à la poitrine traduisent un détachement total de la sphère matérielle. Cette élévation spirituelle est soulignée par le contraste entre la luminosité dorée des nuées supérieures et la pénombre agitée de la partie inférieure du tableau, où se débattent les allégories des passions.</p><p>Les figures qui entourent le saint incarnent les vices et les tourments de l'âme. À gauche, un démon musclé aux oreilles pointues tente de retenir le saint en tirant sur son vêtement, tandis qu'à droite, une figure féminine dénudée et parée de bijoux symbolise la luxure et la vanité des plaisirs charnels. Un autre démon gît terrassé au premier plan, accentuant la victoire de la vertu sur le péché. La touche de Giordano, libre et enlevée, donne à l'ensemble une énergie dramatique remarquable, où les drapés flottants et les chairs nacrées semblent vibrer sous l'effet de cette lutte métaphysique. //</p>",
+    "desc": "<p>Cette œuvre de Luca Giordano, intitulée Saint Dominique s'élevant au-dessus des passions humaines, est une huile sur toile caractéristique du baroque tardif napolitain. Giordano, surnommé « Fa Presto » pour sa rapidité d'exécution, déploie ici une composition tourbillonnante où la lumière et le mouvement servent un message spirituel intense. Le tableau met en scène le fondateur de l'Ordre des Prêcheurs dans un moment d'extase et de résistance héroïque face aux tentations terrestres.</p><p>Au centre de la toile, Saint Dominique est représenté dans son habit traditionnel blanc et noir, les yeux levés vers une clarté céleste qui inonde le haut de la composition. Sa posture en légère torsion et ses mains portées à la poitrine traduisent un détachement total de la sphère matérielle. Cette élévation spirituelle est soulignée par le contraste entre la luminosité dorée des nuées supérieures et la pénombre agitée de la partie inférieure du tableau, où se débattent les allégories des passions.</p><p>Les figures qui entourent le saint incarnent les vices et les tourments de l'âme. À gauche, un démon musclé aux oreilles pointues tente de retenir le saint en tirant sur son vêtement, tandis qu'à droite, une figure féminine dénudée et parée de bijoux symbolise la luxure et la vanité des plaisirs charnels. Un autre démon gît terrassé au premier plan, accentuant la victoire de la vertu sur le péché. La touche de Giordano, libre et enlevée, donne à l'ensemble une énergie dramatique remarquable, où les drapés flottants et les chairs nacrées semblent vibrer sous l'effet de cette lutte métaphysique. //</p>",
+    "contemporaryArt": {
+      "title": "Seicento & Règne de Louis XIV • Rayonnement du Baroque européen",
+      "events": [
+        "1660 : Mariage de Louis XIV avec Marie-Thérèse d'Autriche à Saint-Jean-de-Luz.",
+        "1661 : Début du règne personnel de Louis XIV et lancement du chantier de Versailles.",
+        "1665 : Gian Lorenzo Bernini (Le Bernin) se rend à Paris pour les projets du Louvre.",
+        "1682 : La cour de France s'installe définitivement au château de Versailles.",
+        "1692 : Charles II d'Espagne nomme Luca Giordano peintre de la chambre royale à Madrid."
+      ]
+    }
+  },
+  {
+    "id": "giordano_apotheose_des_medicis_palais_medici_riccardi_1683",
+    "artistId": "giordano",
+    "artist": "Luca Giordano",
+    "artistSort": "Giordano Luca",
+    "civId": "occident",
+    "periodId": "occ_xviie",
+    "civName": "Occident : Baroque tardif florentin",
+    "title": "L'Apothéose des Médicis (Galerie des Glaces)",
+    "date": 1683,
+    "dateDisplay": "1682–1685",
+    "century": "XVIIe siècle (1683)",
+    "centuryDisplay": "XVIIe s. (1682–1685)",
+    "centuryNumeric": 1683,
+    "period": "XVIIe siècle",
+    "domain": "peinture",
+    "artifactType": "Fresque murale monumentale",
+    "category": "Fresque murale monumentale",
+    "type": "Fresque",
+    "medium": "Fresque de plafond",
+    "dimensions": {
+      "h": 700,
+      "w": 2400,
+      "display": "700 × 2 400 cm (fresque monumentale, Palazzo Medici-Riccardi)"
+    },
+    "site": "Palazzo Medici-Riccardi (Florence, Italie)",
+    "originSite": "Galerie des Glaces (Galleria degli Specchi, Florence)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczNCLspGTYSxKb_YKkgpJfvuVNDwTml5INmTF4SYm28l5UfhWdYE7wUrYzGcWPH_6oIVn5OXbZqdRDRjHuQfLbkp5_sVWGx9amRwtoBL-5z1nMFOG9ao3VgGte5O6axFsflufZ5qQjR-Lg8XYzKwtMFqlA=w1681-h1121-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczNCLspGTYSxKb_YKkgpJfvuVNDwTml5INmTF4SYm28l5UfhWdYE7wUrYzGcWPH_6oIVn5OXbZqdRDRjHuQfLbkp5_sVWGx9amRwtoBL-5z1nMFOG9ao3VgGte5O6axFsflufZ5qQjR-Lg8XYzKwtMFqlA=w1681-h1121-s-no-gm?authuser=0",
+    "tags": [
+      "peinture",
+      "fresque",
+      "giordano",
+      "médicis",
+      "florence",
+      "galerie des glaces"
+    ],
+    "chips": [
+      "XVIIe s.",
+      "1682-1685",
+      "Fresque monumentale",
+      "Palais Medici-Riccardi",
+      "Apothéose"
+    ],
+    "narrative": "<p>Cette fresque monumentale, intitulée L'Apothéose des Médicis (ou Allégorie du progrès de l'humanité), a été réalisée par le maître napolitain Luca Giordano entre 1682 et 1685. Elle orne le plafond de la Galerie des Glaces (Galleria degli Specchi) du palais Medici-Riccardi, une salle de réception somptueuse conçue pour refléter la puissance de ses commanditaires.</p><p>L'œuvre constitue l'un des sommets du baroque tardif à Florence, caractérisé par une composition aérienne et un illusionnisme saisissant qui semble ouvrir le plafond sur un ciel infini. Giordano, surnommé « Luca fa presto » pour sa rapidité d'exécution, déploie ici un vaste récit mythologique et allégorique où les membres de la dynastie Médicis sont élevés au rang de divinités. Au centre de la composition, les figures de la famille régnante sont représentées entourées des Vertus cardinales, affirmant ainsi leur légitimité politique par la sagesse et la piété.</p><p>Le programme iconographique est d'une grande complexité. On y distingue des divinités de l'Olympe telles qu'Apollon sur son char solaire, marquant le passage du temps et l'éveil de la connaissance, ainsi que Mars et Vénus. Des figures allégoriques comme la Justice, la Prudence ou la Force occupent les angles, tandis que des scènes illustrant les arts, l'industrie et la vie humaine (la Grotte de l'Éternité) complètent cet ensemble didactique. Des étoiles brillent au-dessus de la tête des membres des Médicis, référence directe aux « étoiles médicéennes » (les satellites de Jupiter) découvertes par Galilée.</p><p>Techniquement, Giordano utilise une palette lumineuse et translucide, privilégiant les bleus azur et les blancs vaporeux pour les nuages, ce qui confère à l'ensemble une légèreté exceptionnelle malgré la densité des personnages. Cette fresque n'était pas seulement décorative ; elle servait d'instrument de persuasion visuelle, transformant la galerie en un théâtre de la gloire dynastique pour les invités de marque des Riccardi, qui avaient acquis le palais des Médicis quelques décennies plus tôt. //</p>",
+    "desc": "<p>Cette fresque monumentale, intitulée L'Apothéose des Médicis (ou Allégorie du progrès de l'humanité), a été réalisée par le maître napolitain Luca Giordano entre 1682 et 1685. Elle orne le plafond de la Galerie des Glaces (Galleria degli Specchi) du palais Medici-Riccardi, une salle de réception somptueuse conçue pour refléter la puissance de ses commanditaires.</p><p>L'œuvre constitue l'un des sommets du baroque tardif à Florence, caractérisé par une composition aérienne et un illusionnisme saisissant qui semble ouvrir le plafond sur un ciel infini. Giordano, surnommé « Luca fa presto » pour sa rapidité d'exécution, déploie ici un vaste récit mythologique et allégorique où les membres de la dynastie Médicis sont élevés au rang de divinités. Au centre de la composition, les figures de la famille régnante sont représentées entourées des Vertus cardinales, affirmant ainsi leur légitimité politique par la sagesse et la piété.</p><p>Le programme iconographique est d'une grande complexité. On y distingue des divinités de l'Olympe telles qu'Apollon sur son char solaire, marquant le passage du temps et l'éveil de la connaissance, ainsi que Mars et Vénus. Des figures allégoriques comme la Justice, la Prudence ou la Force occupent les angles, tandis que des scènes illustrant les arts, l'industrie et la vie humaine (la Grotte de l'Éternité) complètent cet ensemble didactique. Des étoiles brillent au-dessus de la tête des membres des Médicis, référence directe aux « étoiles médicéennes » (les satellites de Jupiter) découvertes par Galilée.</p><p>Techniquement, Giordano utilise une palette lumineuse et translucide, privilégiant les bleus azur et les blancs vaporeux pour les nuages, ce qui confère à l'ensemble une légèreté exceptionnelle malgré la densité des personnages. Cette fresque n'était pas seulement décorative ; elle servait d'instrument de persuasion visuelle, transformant la galerie en un théâtre de la gloire dynastique pour les invités de marque des Riccardi, qui avaient acquis le palais des Médicis quelques décennies plus tôt. //</p>",
+    "contemporaryArt": {
+      "title": "Seicento & Règne de Louis XIV • Rayonnement du Baroque européen",
+      "events": [
+        "1660 : Mariage de Louis XIV avec Marie-Thérèse d'Autriche à Saint-Jean-de-Luz.",
+        "1661 : Début du règne personnel de Louis XIV et lancement du chantier de Versailles.",
+        "1665 : Gian Lorenzo Bernini (Le Bernin) se rend à Paris pour les projets du Louvre.",
+        "1682 : La cour de France s'installe définitivement au château de Versailles.",
+        "1692 : Charles II d'Espagne nomme Luca Giordano peintre de la chambre royale à Madrid."
+      ]
+    }
+  },
+  {
+    "id": "giordano_triomphe_monarchie_espagnole_escurial_1692",
+    "artistId": "giordano",
+    "artist": "Luca Giordano",
+    "artistSort": "Giordano Luca",
+    "civId": "occident",
+    "periodId": "occ_xviie",
+    "civName": "Occident : Baroque espagnol (Cour de Charles II)",
+    "title": "Le Triomphe de la monarchie espagnole (Escalier de l'Escurial)",
+    "date": 1692,
+    "dateDisplay": "1692",
+    "century": "XVIIe siècle (1692)",
+    "centuryDisplay": "XVIIe s. (1692)",
+    "centuryNumeric": 1692,
+    "period": "XVIIe siècle",
+    "domain": "peinture",
+    "artifactType": "Fresque murale monumentale",
+    "category": "Fresque murale monumentale",
+    "type": "Fresque",
+    "medium": "Fresque de voûte",
+    "dimensions": {
+      "h": 1200,
+      "w": 1500,
+      "display": "1 200 × 1 500 cm (voûte monumentale, El Escorial)"
+    },
+    "site": "Monastère Royal de San Lorenzo de El Escorial (Espagne)",
+    "originSite": "Escalier Principal du Monastère de l'Escurial (Espagne)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczO-nk5jdS8Rvs7Og73I8YqyoPsK6rJaVCBgwJ6TOp9ZXoZK0onZ5t0nOm3bK8BoquYLg6jXhwviwDnCVrjlg3lC4RnvmyvATNsq9vUkE37lYZboFbh0qQs3BlyG8Sp24B67PdYN2N-ndF_6MXVgWMmQEA=w1681-h1121-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczO-nk5jdS8Rvs7Og73I8YqyoPsK6rJaVCBgwJ6TOp9ZXoZK0onZ5t0nOm3bK8BoquYLg6jXhwviwDnCVrjlg3lC4RnvmyvATNsq9vUkE37lYZboFbh0qQs3BlyG8Sp24B67PdYN2N-ndF_6MXVgWMmQEA=w1681-h1121-s-no-gm?authuser=0",
+    "tags": [
+      "peinture",
+      "fresque",
+      "giordano",
+      "escurial",
+      "espagne",
+      "charles ii"
+    ],
+    "chips": [
+      "XVIIe s.",
+      "1692",
+      "Fresque monumentale",
+      "El Escorial",
+      "Monarchie espagnole"
+    ],
+    "narrative": "<p>Située au-dessus de l'Escalier Principal du monastère de San Lorenzo de El Escorial, cette fresque monumentale exécutée par Luca Giordano en 1692 marque l'apogée du baroque décoratif à la cour des derniers Habsbourg d'Espagne. Appelé par le roi Charles II, le peintre napolitain, célèbre pour sa rapidité d'exécution (Luca Fa Presto), a conçu ici une composition virtuose qui transforme la voûte en un ciel infini. Cette œuvre glorifie la dynastie espagnole en fusionnant l'histoire sacrée, les allégories politiques et les portraits royaux dans un tourbillon de lumière et de couleurs.</p><p>La composition s'organise selon un mouvement ascensionnel typique du genre de la quadratura, où les limites architecturales réelles de la voûte semblent s'effacer au profit d'une ouverture céleste. Au centre du plafond, dans une gloire de lumière dorée, se déploient les symboles de la monarchie entourés de figures allégoriques représentant les vertus cardinales et les domaines de l'Empire espagnol. On y distingue Charles Quint et Philippe II, présentés comme des défenseurs de la foi, offrant le globe terrestre et leurs victoires militaires au Christ et à la Vierge. L'utilisation de raccourcis audacieux et de nuées peuplées d'anges confère à l'ensemble une dynamique théâtrale saisissante.</p><p>L'aspect technique de la fresque révèle l'influence du baroque italien, notamment celui de Pierre de Cortone, avec une palette lumineuse dominée par des bleus azuréens, des roses et des ors. Giordano utilise des effets de trompe-l'œil pour prolonger les corniches de granit gris de la basilique, créant une transition fluide entre la rigueur herrérienne de l'édifice et l'exubérance de la peinture. Les lunettes et les écoinçons sont peuplés de figures de prophètes, de rois bibliques et de scènes historiques, comme la reddition de Grenade ou la bataille de Saint-Quentin, qui ancrent le pouvoir royal dans une lignée providentielle et victorieuse. //</p>",
+    "desc": "<p>Située au-dessus de l'Escalier Principal du monastère de San Lorenzo de El Escorial, cette fresque monumentale exécutée par Luca Giordano en 1692 marque l'apogée du baroque décoratif à la cour des derniers Habsbourg d'Espagne. Appelé par le roi Charles II, le peintre napolitain, célèbre pour sa rapidité d'exécution (Luca Fa Presto), a conçu ici une composition virtuose qui transforme la voûte en un ciel infini. Cette œuvre glorifie la dynastie espagnole en fusionnant l'histoire sacrée, les allégories politiques et les portraits royaux dans un tourbillon de lumière et de couleurs.</p><p>La composition s'organise selon un mouvement ascensionnel typique du genre de la quadratura, où les limites architecturales réelles de la voûte semblent s'effacer au profit d'une ouverture céleste. Au centre du plafond, dans une gloire de lumière dorée, se déploient les symboles de la monarchie entourés de figures allégoriques représentant les vertus cardinales et les domaines de l'Empire espagnol. On y distingue Charles Quint et Philippe II, présentés comme des défenseurs de la foi, offrant le globe terrestre et leurs victoires militaires au Christ et à la Vierge. L'utilisation de raccourcis audacieux et de nuées peuplées d'anges confère à l'ensemble une dynamique théâtrale saisissante.</p><p>L'aspect technique de la fresque révèle l'influence du baroque italien, notamment celui de Pierre de Cortone, avec une palette lumineuse dominée par des bleus azuréens, des roses et des ors. Giordano utilise des effets de trompe-l'œil pour prolonger les corniches de granit gris de la basilique, créant une transition fluide entre la rigueur herrérienne de l'édifice et l'exubérance de la peinture. Les lunettes et les écoinçons sont peuplés de figures de prophètes, de rois bibliques et de scènes historiques, comme la reddition de Grenade ou la bataille de Saint-Quentin, qui ancrent le pouvoir royal dans une lignée providentielle et victorieuse. //</p>",
+    "contemporaryArt": {
+      "title": "Seicento & Règne de Louis XIV • Rayonnement du Baroque européen",
+      "events": [
+        "1660 : Mariage de Louis XIV avec Marie-Thérèse d'Autriche à Saint-Jean-de-Luz.",
+        "1661 : Début du règne personnel de Louis XIV et lancement du chantier de Versailles.",
+        "1665 : Gian Lorenzo Bernini (Le Bernin) se rend à Paris pour les projets du Louvre.",
+        "1682 : La cour de France s'installe définitivement au château de Versailles.",
+        "1692 : Charles II d'Espagne nomme Luca Giordano peintre de la chambre royale à Madrid."
+      ]
+    }
+  },
+  {
+    "id": "giordano_voute_sacristie_cathedrale_tolede_1692",
+    "artistId": "giordano",
+    "artist": "Luca Giordano",
+    "artistSort": "Giordano Luca",
+    "civId": "occident",
+    "periodId": "occ_xviie",
+    "civName": "Occident : Baroque espagnol (Cour de Charles II)",
+    "title": "Voûte de la sacristie de Tolède (Imposition de la chasuble à saint Ildefonse)",
+    "date": 1695,
+    "dateDisplay": "1692–1695",
+    "century": "XVIIe siècle (1692-1695)",
+    "centuryDisplay": "XVIIe s. (1692–1695)",
+    "centuryNumeric": 1695,
+    "period": "XVIIe siècle",
+    "domain": "peinture",
+    "artifactType": "Fresque murale monumentale",
+    "category": "Fresque murale monumentale",
+    "type": "Fresque",
+    "medium": "Fresque de voûte en quadratura",
+    "dimensions": {
+      "h": 1000,
+      "w": 2000,
+      "display": "1 000 × 2 000 cm (voûte monumentale, Cathédrale de Tolède)"
+    },
+    "site": "Cathédrale Sainte-Marie de Tolède (Espagne)",
+    "originSite": "Sacristie de la Cathédrale de Tolède (Espagne)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczOWOwws1_IccAQT5TFtUYWDCUn1M7UxuggkIOrQl5yjDMAKmTtBXJTWclrzZRbtHpgcfgj463x16LaTGfQFMer-AN75zl_4-g9TaSBditHCg1ddKzVjtMrOwyOr9qhQ2eTVO1QPOfCMkd5yLoJ9S9rczg=w1681-h1121-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczOWOwws1_IccAQT5TFtUYWDCUn1M7UxuggkIOrQl5yjDMAKmTtBXJTWclrzZRbtHpgcfgj463x16LaTGfQFMer-AN75zl_4-g9TaSBditHCg1ddKzVjtMrOwyOr9qhQ2eTVO1QPOfCMkd5yLoJ9S9rczg=w1681-h1121-s-no-gm?authuser=0",
+    "tags": [
+      "peinture",
+      "fresque",
+      "giordano",
+      "tolède",
+      "sacristie",
+      "saint ildefonse"
+    ],
+    "chips": [
+      "XVIIe s.",
+      "1692-1695",
+      "Fresque monumentale",
+      "Cathédrale de Tolède",
+      "Saint Ildefonse"
+    ],
+    "narrative": "<p>Peinte à la fin du XVIIe siècle, entre 1692 et 1695, la fresque monumentale qui orne la voûte de la sacristie de la Cathédrale Sainte-Marie de Tolède est l'un des sommets du baroque illusionniste en Espagne. Œuvre du maître napolitain Luca Giordano, surnommé «Luca fa presto« pour sa rapidité d'exécution légendaire, cette peinture murale transforme l'espace architectural en une vision céleste vertigineuse. Elle illustre l'apogée de la peinture décorative de la période Charles II, où le dynamisme italien vient s'unir à la ferveur religieuse de la cour d'Espagne.</p><p>Le thème central de la composition est l'Imposition de la chasuble à Saint Ildefonse par la Vierge Marie, un épisode miraculeux fondateur de la tradition religieuse tolédane. Giordano déploie une maîtrise exceptionnelle de la perspective sotto in su (vue du dessous), ouvrant le plafond vers un ciel infini peuplé de nuées d'anges, de saints et de figures allégoriques. La scène principale, située dans la partie centrale, baigne dans une lumière dorée et surnaturelle qui semble émaner de la Trinité située au sommet. Les personnages, drapés dans des étoffes aux couleurs vives et changeantes, flottent avec une légèreté aérienne, créant un mouvement ascendant qui entraîne le regard du spectateur vers le divin.</p><p>L'ornementation qui entoure la fresque principale est tout aussi riche, mêlant peinture et architecture feinte (quadratura). Giordano intègre des éléments sculpturaux peints, des guirlandes de fleurs, des putti et des médaillons qui assurent une transition fluide entre les murs de la sacristie et la voûte. La palette chromatique est d'une grande fraîcheur, dominée par des bleus azur, des roses tendres et des jaunes lumineux, caractéristiques du style rococo avant la lettre. Chaque recoin de la voûte est exploité pour raconter une part de l'histoire du salut ou glorifier l'Église espagnole, transformant la sacristie en une véritable chapelle royale de prestige.</p><p>Cette œuvre témoigne du génie de Luca Giordano pour organiser des compositions complexes et dynamiques à une échelle monumentale. La sacristie de Tolède, souvent comparée à une galerie d'art en raison des chefs-d'œuvre d'El Greco ou de Goya qu'elle abrite, trouve dans ce plafond son écrin le plus majestueux. En levant les yeux, le visiteur n'est plus face à une simple structure de pierre, mais face à une fenêtre ouverte sur l'invisible, où le triomphe de la foi s'exprime par la splendeur de la couleur et l'audace de la forme baroque. </USER_REQUEST> <ADDITIONAL_METADATA> The current local time is: 2026-11-10T22:15:26+01:00.</p><p>The user's current state is as follows: Active Document: /Users/renoult/Desktop/monportailweb/panoramadesarts/app.js (LANGUAGE_UNSPECIFIED) Cursor is on line: 10770 Other open documents: - /Users/renoult/Desktop/monportailweb/panoramadesarts/style.css (LANGUAGE_UNSPECIFIED) - /Users/renoult/Desktop/monportailweb/panoramadesarts/data/data-artistes.js (LANGUAGE_UNSPECIFIED) - /Users/renoult/Desktop/monportailweb/panoramadesarts/data/data-objets2.js (LANGUAGE_UNSPECIFIED) - /Users/renoult/Desktop/monportailweb/panoramadesarts/data/data-objets3.js (LANGUAGE_UNSPECIFIED) - /Users/renoult/Desktop/monportailweb/panoramadesarts/data/data-objets4.js (LANGUAGE_UNSPECIFIED)</p><p>The user has uploaded 1 image(s): - /Users/renoult/.gemini/antigravity/brain/e65634b1-d736-42dc-a39e-3b461620572a/.user_uploaded/media_1794344482836_c642b43a.jpg You can embed this image in an artifact if you need the USER to review it. </ADDITIONAL_METADATA></p>",
+    "desc": "<p>Peinte à la fin du XVIIe siècle, entre 1692 et 1695, la fresque monumentale qui orne la voûte de la sacristie de la Cathédrale Sainte-Marie de Tolède est l'un des sommets du baroque illusionniste en Espagne. Œuvre du maître napolitain Luca Giordano, surnommé «Luca fa presto« pour sa rapidité d'exécution légendaire, cette peinture murale transforme l'espace architectural en une vision céleste vertigineuse. Elle illustre l'apogée de la peinture décorative de la période Charles II, où le dynamisme italien vient s'unir à la ferveur religieuse de la cour d'Espagne.</p><p>Le thème central de la composition est l'Imposition de la chasuble à Saint Ildefonse par la Vierge Marie, un épisode miraculeux fondateur de la tradition religieuse tolédane. Giordano déploie une maîtrise exceptionnelle de la perspective sotto in su (vue du dessous), ouvrant le plafond vers un ciel infini peuplé de nuées d'anges, de saints et de figures allégoriques. La scène principale, située dans la partie centrale, baigne dans une lumière dorée et surnaturelle qui semble émaner de la Trinité située au sommet. Les personnages, drapés dans des étoffes aux couleurs vives et changeantes, flottent avec une légèreté aérienne, créant un mouvement ascendant qui entraîne le regard du spectateur vers le divin.</p><p>L'ornementation qui entoure la fresque principale est tout aussi riche, mêlant peinture et architecture feinte (quadratura). Giordano intègre des éléments sculpturaux peints, des guirlandes de fleurs, des putti et des médaillons qui assurent une transition fluide entre les murs de la sacristie et la voûte. La palette chromatique est d'une grande fraîcheur, dominée par des bleus azur, des roses tendres et des jaunes lumineux, caractéristiques du style rococo avant la lettre. Chaque recoin de la voûte est exploité pour raconter une part de l'histoire du salut ou glorifier l'Église espagnole, transformant la sacristie en une véritable chapelle royale de prestige.</p><p>Cette œuvre témoigne du génie de Luca Giordano pour organiser des compositions complexes et dynamiques à une échelle monumentale. La sacristie de Tolède, souvent comparée à une galerie d'art en raison des chefs-d'œuvre d'El Greco ou de Goya qu'elle abrite, trouve dans ce plafond son écrin le plus majestueux. En levant les yeux, le visiteur n'est plus face à une simple structure de pierre, mais face à une fenêtre ouverte sur l'invisible, où le triomphe de la foi s'exprime par la splendeur de la couleur et l'audace de la forme baroque. </USER_REQUEST> <ADDITIONAL_METADATA> The current local time is: 2026-11-10T22:15:26+01:00.</p><p>The user's current state is as follows: Active Document: /Users/renoult/Desktop/monportailweb/panoramadesarts/app.js (LANGUAGE_UNSPECIFIED) Cursor is on line: 10770 Other open documents: - /Users/renoult/Desktop/monportailweb/panoramadesarts/style.css (LANGUAGE_UNSPECIFIED) - /Users/renoult/Desktop/monportailweb/panoramadesarts/data/data-artistes.js (LANGUAGE_UNSPECIFIED) - /Users/renoult/Desktop/monportailweb/panoramadesarts/data/data-objets2.js (LANGUAGE_UNSPECIFIED) - /Users/renoult/Desktop/monportailweb/panoramadesarts/data/data-objets3.js (LANGUAGE_UNSPECIFIED) - /Users/renoult/Desktop/monportailweb/panoramadesarts/data/data-objets4.js (LANGUAGE_UNSPECIFIED)</p><p>The user has uploaded 1 image(s): - /Users/renoult/.gemini/antigravity/brain/e65634b1-d736-42dc-a39e-3b461620572a/.user_uploaded/media_1794344482836_c642b43a.jpg You can embed this image in an artifact if you need the USER to review it. </ADDITIONAL_METADATA></p>",
+    "contemporaryArt": {
+      "title": "Seicento & Règne de Louis XIV • Rayonnement du Baroque européen",
+      "events": [
+        "1660 : Mariage de Louis XIV avec Marie-Thérèse d'Autriche à Saint-Jean-de-Luz.",
+        "1661 : Début du règne personnel de Louis XIV et lancement du chantier de Versailles.",
+        "1665 : Gian Lorenzo Bernini (Le Bernin) se rend à Paris pour les projets du Louvre.",
+        "1682 : La cour de France s'installe définitivement au château de Versailles.",
+        "1692 : Charles II d'Espagne nomme Luca Giordano peintre de la chambre royale à Madrid."
+      ]
+    }
+  },
+  {
     "id": "gerome_tete_de_femme_cornes_de_belier_nantes_1853",
     "artistId": "gerome",
     "artist": "Jean-Léon Gérôme",

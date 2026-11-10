@@ -5387,8 +5387,8 @@ function renderArtistVerticalTimeline(artistRecord, timelineData, artistArts) {
                 ${isArtworkNode ? "CHEF-D'ŒUVRE" : (evt.type === 'history' ? 'HISTOIRE' : (evt.type === 'peer' ? 'RENCONTRE / RIVALITÉ' : 'TOURNANT DE VIE'))}
               </span>
             </div>
-            <div class="v-card-title">${escapeHtmlAttr(evt.title)}</div>
-            <div class="v-card-desc">${escapeHtmlAttr(evt.desc || '')}</div>
+            <div class="v-card-title">${escapeHtmlAttr(evt.title || evt.label || '')}</div>
+            <div class="v-card-desc">${escapeHtmlAttr(evt.desc || evt.text || '')}</div>
             ${matchingArt ? `
               <div class="v-card-artwork-preview">
                 <img class="v-card-art-thumb" src="${matchingArt.imgSrc}" alt="${escapeHtmlAttr(matchingArt.title)}" loading="lazy" />
@@ -7645,6 +7645,16 @@ function populateModalData(art) {
 }
 
 const CERTIFIED_PAINTING_DIMENSIONS = {
+  // Alberto Giacometti (1 œuvre - Tokyo NMWA)
+  "giacometti_caroline_tokyo_1962": { h: 129.5, w: 96.5, display: "129,5 × 96,5 cm (Musée National d'Art Occidental de Tokyo)" },
+
+  // Luca Giordano (5 œuvres - MBA Rouen, Nantes, Palazzo Medici-Riccardi, El Escorial, Tolède)
+  "giordano_le_bon_samaritain_rouen_1660": { h: 137, w: 170, display: "137 × 170 cm (Musée des Beaux-Arts de Rouen)" },
+  "giordano_saint_dominique_au_dessus_des_passions_nantes_1680": { h: 120, w: 96, display: "120 × 96 cm (Musée d'Arts de Nantes)" },
+  "giordano_apotheose_des_medicis_palais_medici_riccardi_1683": { h: 700, w: 2400, display: "700 × 2 400 cm (fresque monumentale, Galerie des Glaces, Florence)" },
+  "giordano_triomphe_monarchie_espagnole_escurial_1692": { h: 1200, w: 1500, display: "1 200 × 1 500 cm (voûte monumentale, El Escorial)" },
+  "giordano_voute_sacristie_cathedrale_tolede_1692": { h: 1000, w: 2000, display: "1 000 × 2 000 cm (voûte monumentale, Cathédrale de Tolède)" },
+
   // Jean-Léon Gérôme (4 œuvres - Musée d'Arts de Nantes & MBA Rouen)
   "gerome_tete_de_femme_cornes_de_belier_nantes_1853": { h: 47, w: 47, display: "47 × 47 cm (tondo, diamètre 46 cm)" },
   "gerome_vue_plaine_de_thebes_nantes_1857": { h: 77, w: 131, display: "77 × 131 cm (Musée d'Arts de Nantes)" },

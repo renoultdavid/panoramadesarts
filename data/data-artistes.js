@@ -2,6 +2,141 @@
    REGISTRE DES PEINTRES & NOTICES MONOGRAPHIQUES
    ========================================================================== */
 window.ARTISTS_REGISTRY = {
+  "giacometti": {
+    id: "giacometti",
+    name: "Alberto Giacometti",
+    sortName: "Giacometti Alberto",
+    sortLetter: "G",
+    dates: "1901 – 1966",
+    movement: "Art moderne • Sculpture filiforme, Peinture existentielle & Cage spatiale",
+    nationality: "Suisse (actif à Paris)",
+    techniques: "Huile sur toile, trait fiévreux et raturé, boîte spatiale, bronze, plâtre, terre cuite",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczMZYpcPlDtKLQ4RQTKeAQPCsNFCUkxGjB1to7e60w8S4qOLBmp-giStTUD-KNzs5Nx8XGUFmhs0ZIE9lOTulj-sp6m3aeFiPNnez_aLgmvt1hPUSfcqZD3n83m1CLTjW7wG2hmSPMd10-lPviAnbfAsEw=w1681-h713-s-no-gm?authuser=0",
+    bio: "<p>Alberto Giacometti (1901 – 1966), mondialement célèbre pour ses sculptures filiformes, a mené en parallèle une œuvre de peintre indissociable de sa recherche plastique. Pour lui, peindre n'était pas une alternative au modelage, mais le moyen le plus direct d'affronter l'impossibilité de reproduire fidèlement la réalité visuelle. Son œuvre picturale traduit le drame de la perception, où l'artiste cherche inlassablement à fixer la présence vivante de l'autre dans l'espace vide.</p><p>Son genre pictural se définit par le portrait d'atelier, le nu frontal et la nature morte. Son style se caractérise par une palette quasi monochrome dominée par les gris, les ocres, les noirs et les blancs crayeux. Le trait est fiévreux, raturé, repris sans cesse en une toile d'araignée de lignes qui emprisonnent le modèle. Il peint presque toujours ses sujets entourés d'un cadre fictif tracé à l'intérieur de la toile, créant une « boîte spatiale » qui repousse le sujet dans un lointain inaccessible tout en exaltant l'intensité perçante de son regard.</p><p>L'évolution de sa peinture suit une rupture radicale avec les avant-gardes pour revenir au face-à-face obsessionnel avec le modèle :</p><p>Les débuts post-impressionnistes et la parenthèse surréaliste (années 1920-1934) : Formé par son père Giovanni Giacometti, il peint d'abord dans une veine divisionniste avant de rejoindre le groupe surréaliste à Paris. Sa peinture se fait alors plus rare et schématique, subordonnée à ses recherches d'objets symboliques et oniriques en sculpture.</p><p>La crise du modèle et le retour au visible (1935 – 1945) : Exclu du surréalisme pour avoir voulu retravailler « d'après nature », il s'enferme dans son atelier avec son frère Diego et sa mère. La ressemblance lui échappe : les têtes rétrécissent, le trait s'intensifie. C'est durant cette décennie difficile que naît sa manière graphique faite d'effacements et de superpositions nerveuses.</p><p>La maturité existentielle (après 1945) : Soutenu par Jean-Paul Sartre, son art devient le symbole visuel de l'existentialisme. Il peint inlassablement les mêmes visages (Diego, sa femme Annette, le philosophe Yanaihara). La figure, isolée au centre d'un espace gris et vibrant, semble flotter entre apparition et disparition, réduite à l'essentiel d'une présence humaine vulnérable mais indélébile. Oeuvres mets peintures ET sculptures : Les Sculptures : On recense environ 500 à 600 modèles uniques de sculptures (plâtres, terres cuites, bois et prototypes). Cependant, Giacometti travaillant avec des fondeurs comme Susse Frères ou Alexis Rudier, chaque modèle (comme le mythique Homme qui marche I ou Le Chien) a souvent été coulé en bronze selon des tirages limités (généralement à 6 ou 8 exemplaires, plus les épreuves d'artiste). Si l'on compte chaque tirage en bronze comme une œuvre physique distincte, le nombre grimpe à plusieurs milliers.   Les Peintures : Moins nombreuses mais d'une intensité psychologique foudroyante, on dénombre environ 350 à 400 huiles sur toile.Comment paramétrer votre jauge pour Panorama des Arts :Puisque votre site recense les œuvres physiques, et en regroupant l'ensemble des toiles achevées et des modèles sculptés majeurs, je vous conseille de fixer le plafond officiel de votre compteur sur la base très solide d'environ 900 à 1 000 œuvres plastiques (peintures et sculptures confondues).  Oeuvres :</p>",
+    totalOeuvresEstimees: "~900 à 1 000 œuvres plastiques (350–400 peintures et 500–600 modèles sculptés majeurs)",
+    oeuvresConsensusNotice: "Le consensus scientifique et muséal (Fondation Giacometti, Paris) répertorie environ 350 à 400 peintures à l'huile achevées et 500 à 600 modèles originaux sculptés (plâtres et bronzes originaux), soit un plafond officiel de référence d'environ 900 à 1 000 œuvres plastiques majeures.",
+    periods: [
+      {
+        title: "1901 – 1934 : L'héritage grison, l'atelier Bourdelle et la parenthèse surréaliste",
+        years: "1901 – 1934",
+        color: "#0284c7",
+        desc: "Fils du peintre néo-impressionniste Giovanni Giacometti, Alberto grandit dans le val Bregaglia. Installé à Paris en 1922, élève d'Antoine Bourdelle à l'Académie de la Grande Chaumière, il rejoint le groupe surréaliste d'André Breton et conçoit des objets symboliques et oniriques célèbres comme La Boule suspendue.",
+        summary: "Jeunesse en Suisse, formation parisienne chez Bourdelle, gloire surréaliste et amitié avec André Breton.",
+        events: [
+          { year: 1901, title: "Naissance à Borgonovo (Stampa, Suisse)", desc: "Né le 10 octobre 1901 dans le canton des Grisons, aîné de quatre enfants d'une famille d'artistes éminents.", type: "birth", icon: "🌱" },
+          { year: 1922, title: "Installation à Paris & Atelier Bourdelle", desc: "Arrive à Montparnasse pour étudier la sculpture avec Antoine Bourdelle à l'Académie de la Grande Chaumière.", type: "life", icon: "🏛️" },
+          { year: 1926, title: "Installation au 46 rue Hippolyte-Maindron", desc: "Emménage avec son frère Diego dans le minuscule atelier légendaire de 23 m² qu'il occupera jusqu'à sa mort.", type: "life", icon: "🏠" },
+          { year: 1929, title: "Ralliement au mouvement surréaliste", desc: "André Breton et Salvador Dalí s'enthousiasment pour ses sculptures à fonctionnement symbolique (La Boule suspendue).", type: "masterpiece", icon: "✨" }
+        ]
+      },
+      {
+        title: "1935 – 1945 : La rupture avec le surréalisme, la crise du modèle et l'épreuve de la guerre",
+        years: "1935 – 1945",
+        color: "#b45309",
+        desc: "Exclu avec éclat du surréalisme pour avoir osé reprendre le travail d'après modèle vivant, Giacometti traverse une longue traversée du désert. Retranché avec son frère Diego et sa mère, les sculptures rétrécissent jusqu'à tenir dans des boîtes d'allumettes. Réfugié à Genève pendant la guerre, il rencontre Annette Arm, sa future épouse.",
+        summary: "Retour au réel, miniaturisation vertigineuse des figures, exil à Genève et genèse du style filiforme.",
+        events: [
+          { year: 1935, title: "Exclusion du groupe surréaliste", desc: "Rupture fracassante avec Breton : Giacometti réaffirme son besoin absolu de se confronter au visible d'après nature.", type: "life", icon: "⚡" },
+          { year: 1938, title: "Accident de la place des Pyramides", desc: "Renversé par une voiture, il conserve une claudication définitive qui accentue son rapport intime à la fragilité corporelle.", type: "life", icon: "🩹" },
+          { year: 1942, title: "Exil de guerre à Genève", desc: "Passe les années de guerre en Suisse dans une chambre d'hôtel où ses sculptures deviennent minuscules, défiant la disparition.", type: "life", icon: "🏔️" },
+          { year: 1945, title: "Retour triomphal à Paris", desc: "Rentre à Paris avec ses sculptures miniatures ; la vision filiforme et allongée émerge immédiatement après la Libération.", type: "life", icon: "🚂" }
+        ]
+      },
+      {
+        title: "1946 – 1957 : L'icône de l'existentialisme, Sartre et les grandes figures hiératiques",
+        years: "1946 – 1957",
+        color: "#4f46e5",
+        desc: "Soutenu par Jean-Paul Sartre qui publie son célèbre essai La Recherche de l'absolu, Giacometti impose ses silhouettes étirées et filiformes de bronze (L'Homme qui marche, La Cage). En peinture, il peint inlassablement Diego et Annette dans un espace vibrant de gris et d'ocres, cerné d'une boîte spatiale géométrique.",
+        summary: "Consécration existentialiste par Sartre, sculptures filiformes universelles et portraits d'atelier cernés de traits d'araignée.",
+        events: [
+          { year: 1947, title: "L'Homme qui pointe & L'Homme qui marche", desc: "Crée les icônes absolues de la sculpture du XXe siècle, figures émaciées incarnant l'angoisse et la résilience humaine.", type: "masterpiece", icon: "🚶" },
+          { year: 1948, title: "Essai de Sartre : La Recherche de l'absolu", desc: "Exposition historique chez Pierre Matisse à New York préfacée par Sartre, fondant le mythe existentialiste de Giacometti.", type: "life", icon: "📖" },
+          { year: 1949, title: "Mariage avec Annette Arm", desc: "Épouse Annette, qui devient avec son frère Diego son modèle quotidien et le visage de ses toiles les plus intimes.", type: "life", icon: "💍" },
+          { year: 1955, title: "Rétrospectives européennes & Dialogue avec Yanaihara", desc: "Grandes expositions à Londres, Zurich et Paris ; longues séances de pose intenses avec le philosophe japonais Isaku Yanaihara.", type: "masterpiece", icon: "🎨" }
+        ]
+      },
+      {
+        title: "1958 – 1966 : L'égérie Caroline, le triomphe mondial de Venise et le crépuscule",
+        years: "1958 – 1966",
+        color: "#991b1b",
+        desc: "Giacometti rencontre Caroline, sa muse nocturne qui devient l'obsession de ses dernières années d'atelier. En 1962, il reçoit le Grand Prix de peinture à la Biennale de Venise et peint son chef-d'œuvre Caroline conservé à Tokyo. Malgré la maladie, il poursuit son corps-à-corps acharné avec le portrait jusqu'à sa mort à Coire en 1966.",
+        summary: "Passion pour Caroline, Grand Prix de la Biennale de Venise en 1962, gloire planétaire et mort en Suisse.",
+        events: [
+          { year: 1958, title: "Rencontre avec Caroline", desc: "Rencontre Yvonne Poiraudeau (Caroline) dans un bar de Montparnasse ; elle devient l'obsession de ses séances de pose nocturnes.", type: "life", icon: "🌙" },
+          { year: 1962, title: "Grand Prix de la Biennale de Venise & Caroline (Tokyo)", desc: "Reçoit le prestigieux Grand Prix de peinture de la 31e Biennale de Venise et peint le grand portrait hiératique de Caroline (Musée d'Art Occidental de Tokyo).", type: "masterpiece", icon: "🎨", artworkId: "giacometti_caroline_tokyo_1962" },
+          { year: 1965, title: "Grand Prix National des Arts & Fondation Maeght", desc: "Inauguration de la cour Giacometti à Saint-Paul-de-Vence et voyage d'apothéose à New York pour sa rétrospective au MoMA.", type: "masterpiece", icon: "🏆" },
+          { year: 1966, title: "Mort à Coire & Inhumation à Borgonovo", desc: "S'éteint le 11 janvier 1966 à l'hôpital cantonal de Coire en Suisse ; il est inhumé auprès des siens dans son village natal de Borgonovo.", type: "death", icon: "🕊️" }
+        ]
+      }
+    ]
+  },
+  "giordano": {
+    id: "giordano",
+    name: "Luca Giordano",
+    sortName: "Giordano Luca",
+    sortLetter: "G",
+    dates: "1634 – 1705",
+    movement: "Baroque napolitain & européen • Grande décoration théâtrale & précurseur du Rococo",
+    nationality: "Italien (Naples)",
+    techniques: "Fresque monumentale en quadratura, huile sur toile, rapidité d'exécution virtuose (Luca fa presto)",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczN-izRYs6iXcedFqfvsSXpMiOHc4BxjChQzxl0NO31NK9cl6pME56MEpfvBknUys_exW05jL5PkpvHUG8VP6jCl4xDcBnZtmQp6DidjCCnMszQrPYPInDlZARkkHgaCZHFqHO7KILKhrCkWik_8eX0pmQ=w1681-h713-s-no-gm?authuser=0",
+    bio: "<p>Luca Giordano, né en 1634 à Naples et mort en 1705 dans la même ville, est l'un des peintres les plus prolifiques et les plus virtuoses de l'ère baroque. Surnommé « Luca fa presto » (Luca fait vite) en raison de son incroyable rapidité d'exécution, il a dominé la scène artistique européenne de la seconde moitié du XVIIe siècle. Formé initialement dans l'atelier de José de Ribera, il a voyagé à travers toute l'Italie et a passé dix ans en Espagne comme peintre de cour de Charles II. Son énergie inépuisable lui a permis de laisser une œuvre gigantesque, couvrant des milliers de mètres carrés de fresques et des centaines de toiles, faisant de lui le véritable précurseur du style Rococo.</p><p>Son genre pictural est celui de la grande décoration baroque, caractérisé par un éclectisme brillant. Le style de Giordano se distingue par une capacité phénoménale à assimiler et à réinterpréter les manières des plus grands maîtres : la puissance du clair-obscur de Ribera, la couleur dorée de Titien et le dynamisme spatial de Pierre de Cortone. Sa peinture est une explosion de lumière et de mouvement, utilisant des compositions aériennes où les figures semblent tourbillonner dans des ciels infinis. Il privilégie une touche fluide et légère, privilégiant l'effet d'ensemble et la séduction visuelle sur la précision rigoureuse du dessin.</p><p>L'évolution de son travail est marquée par un éclaircissement progressif de sa palette et une expansion de son ambition spatiale. Ses premières œuvres napolitaines sont imprégnées d'un naturalisme sombre et dramatique hérité du Caravage. Cependant, après ses voyages à Venise et à Rome, il adopte un style de plus en plus lumineux et festif. Son apogée se situe dans ses grandes entreprises décoratives, comme la galerie du Palais Medici-Riccardi à Florence ou l'Escorial en Espagne, où il déploie des allégories complexes avec une liberté totale. À la fin de sa vie, il revient à Naples en tant que maître absolu, influençant durablement les futures générations de peintres décorateurs par son sens de la mise en scène théâtrale et sa virtuosité technique. Oeurves :  L'inventaire scientifique qui a enfin permis de structurer ce vertige pictural est le monumental catalogue raisonné dressé par les historiens de l'art Oreste Ferrari et Giuseppe Scavizzi (Luca Giordano : L'opera completa, publié en 1992 et révisé au fil des décennies).   En triant impitoyablement les innombrables copies d'atelier, les travaux de ses collaborateurs et les faux, leur répertoire complet recense très précisément 1 088 œuvres autographes (peintures sur toile, sur cuivre et cycles de fresques).   Oeuvres :</p>",
+    totalOeuvresEstimees: "1 088 peintures autographes (catalogue raisonné Ferrari & Scavizzi 1992)",
+    oeuvresConsensusNotice: "L'inventaire scientifique de référence mondiale dressé par Oreste Ferrari et Giuseppe Scavizzi (Luca Giordano : L'opera completa, 1992) recense très rigoureusement 1 088 œuvres autographes (peintures sur toile, sur cuivre et cycles de fresques), isolées des innombrables copies d'atelier de l'époque.",
+    periods: [
+      {
+        title: "1634 – 1664 : L'apprentissage napolitain, l'empreinte de Ribera et le voyage à Venise",
+        years: "1634 – 1664",
+        color: "#0284c7",
+        desc: "Fils d'un modeste peintre napolitain, Luca montre un don précoce qui lui vaut dès l'enfance le surnom de Luca fa presto. Formé auprès de José de Ribera (L'Espagnolet), il s'imprègne d'un ténébrisme vigoureux avant de voyager à Rome, Florence et Venise où il découvre la liberté chromatique de Titien et Véronèse.",
+        summary: "Jeunesse napolitaine, atelier de Ribera, éclosion du surnom Fa Presto et révélation de la couleur vénitienne.",
+        events: [
+          { year: 1634, title: "Naissance à Naples", desc: "Né le 18 octobre 1634 à Naples, fils du peintre Antonio Giordano qui pousse son jeune fils à peindre sans relâche.", type: "birth", icon: "🌱" },
+          { year: 1650, title: "Formation chez José de Ribera", desc: "Assimile dans l'atelier du maître espagnol le naturalisme ténébriste, le modelé puissant des chairs et le clair-obscur dramatique.", type: "life", icon: "🎨" },
+          { year: 1653, title: "Voyage d'études à Rome et Venise", desc: "Copie les fresques de Pierre de Cortone à Rome et s'émerveille devant les ciels d'or et les étoffes soyeuses de Véronèse à Venise.", type: "life", icon: "🏛️" },
+          { year: 1660, title: "Le Bon Samaritain (Rouen)", desc: "Toile magistrale du Musée des Beaux-Arts de Rouen unissant la vigueur anatomique héritée de Ribera à une diagonale baroque dynamique et chaleureuse.", type: "masterpiece", icon: "🎨", artworkId: "giordano_le_bon_samaritain_rouen_1660" }
+        ]
+      },
+      {
+        title: "1665 – 1681 : La conquête des grands retables et l'hégémonie napolitaine",
+        years: "1665 – 1681",
+        color: "#d97706",
+        desc: "De retour à Naples, Giordano devient le maître incontesté de l'école locale, inondant les églises de retables foisonnants de lumière et de mouvement. Sa rapidité légendaire et sa capacité à imiter n'importe quel style lui valent des commandes de toute l'Italie et des cours européennes.",
+        summary: "Retables monumentaux pour les églises napolitaines, triomphe de la lumière dorée et réputation internationale.",
+        events: [
+          { year: 1671, title: "Fresques de San Gregorio Armeno", desc: "Décore la coupole et les voûtes de l'église San Gregorio Armeno à Naples, chef-d'œuvre d'illusionnisme céleste.", type: "masterpiece", icon: "⛪" },
+          { year: 1677, title: "Envois prestigieux pour Venise et Padoue", desc: "Peint pour la basilique Santa Maria della Salute de Venise plusieurs toiles grandioses rivalisant avec le Titien.", type: "life", icon: "🌊" },
+          { year: 1680, title: "Saint Dominique s'élevant au-dessus des passions humaines (Nantes)", desc: "Huile sur toile tourbillonnante du Musée de Nantes : le saint s'élève dans une gloire dorée tandis que démons et luxure sont terrassés.", type: "masterpiece", icon: "🎨", artworkId: "giordano_saint_dominique_au_dessus_des_passions_nantes_1680" }
+        ]
+      },
+      {
+        title: "1682 – 1691 : Le chef-d'œuvre florentin du Palais Medici-Riccardi",
+        years: "1682 – 1691",
+        color: "#b45309",
+        desc: "Appelé à Florence par la famille Riccardi qui vient d'acquérir l'ancien palais des Médicis, Giordano peint la voûte somptueuse de la Galerie des Glaces. Cette fresque allégorique colossale célébrant la dynastie médicéenne est l'un des sommets absolus du baroque européen, ouvrant directement la voie au Rococo.",
+        summary: "Séjour florentin, l'Apothéose des Médicis et triomphe du baroque illusionniste en quadratura.",
+        events: [
+          { year: 1682, title: "Arrivée à Florence & Commande des Riccardi", desc: "Le marquis Francesco Riccardi confie à Giordano le décor complet du plafond de la nouvelle Galerie des Glaces.", type: "life", icon: "👑" },
+          { year: 1683, title: "L'Apothéose des Médicis (Palazzo Medici-Riccardi)", desc: "Plafond colossal de 24 mètres : un ciel infini où les Médicis sont élevés au rang des dieux au milieu d'allégories des vertus et des arts.", type: "masterpiece", icon: "🎨", artworkId: "giordano_apotheose_des_medicis_palais_medici_riccardi_1683" },
+          { year: 1685, title: "Achèvement triomphal de la Galerie", desc: "Florence célèbre un chef-d'œuvre de grâce aérienne et de clarté translucide qui subjugue les voyageurs du Grand Tour.", type: "masterpiece", icon: "✨" }
+        ]
+      },
+      {
+        title: "1692 – 1705 : Peintre du roi d'Espagne à Madrid, l'Escurial, Tolède et retour à Naples",
+        years: "1692 – 1705",
+        color: "#991b1b",
+        desc: "En 1692, le roi Charles II d'Espagne l'appelle à Madrid comme Premier peintre de la chambre royale. Pendant dix ans, Giordano peint des milliers de mètres carrés de fresques à l'Escurial, au Buen Retiro et à la cathédrale de Tolède. Rentré richissime à Naples en 1702, il s'éteint en 1705 couvert de gloire.",
+        summary: "Décennie espagnole au service de Charles II, voûtes de l'Escurial et de Tolède, retour triomphal à Naples.",
+        events: [
+          { year: 1692, title: "Arrivée en Espagne & Nomination royale", desc: "Nommé peintre officiel de Charles II à Madrid avec des émoluments princiers et le titre de chevalier de Saint-Jacques.", type: "life", icon: "🇪🇸" },
+          { year: 1692, title: "Le Triomphe de la monarchie espagnole (El Escorial)", desc: "Fresque colossale de la voûte de l'escalier principal du monastère de l'Escurial célébrant la gloire de Charles Quint et Philippe II.", type: "masterpiece", icon: "🎨", artworkId: "giordano_triomphe_monarchie_espagnole_escurial_1692" },
+          { year: 1695, title: "Voûte de la sacristie de la Cathédrale de Tolède", desc: "Vision céleste en perspective sotto in su représentant l'Imposition de la chasuble à saint Ildefonse, sommet du baroque espagnol.", type: "masterpiece", icon: "🎨", artworkId: "giordano_voute_sacristie_cathedrale_tolede_1692" },
+          { year: 1702, title: "Retour glorieux à Naples", desc: "Rentre dans sa ville natale après la mort de Charles II, acclamé comme le plus grand maître vivant d'Italie.", type: "life", icon: "🏰" },
+          { year: 1705, title: "Mort à Naples", desc: "S'éteint le 3 janvier 1705 à Naples à 70 ans ; il est inhumé dans l'église Santa Brigida sous la coupole qu'il avait lui-même peinte.", type: "death", icon: "🕊️" }
+        ]
+      }
+    ]
+  },
   "gerome": {
     id: "gerome",
     name: "Jean-Léon Gérôme",
