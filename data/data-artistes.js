@@ -11929,5 +11929,148 @@ window.ARTISTS_REGISTRY = {
       }
     ]
   }
-}
+},
+  "friedrich": {
+    id: "friedrich",
+    name: "Caspar David Friedrich",
+    sortName: "Friedrich Caspar David",
+    sortLetter: "F",
+    dates: "1774 – 1840",
+    movement: "Romantisme allemand",
+    nationality: "Allemande",
+    techniques: "Huile sur toile, lavis sépia, dessin à la mine de plomb",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczNC82WNU3zBnspviVm55Y5rgT92Ng3F1JX0Ojp5JAA5OnR-VKSbiy6XWl2wX4r4XXrOrSibyXY06yadtpF0HwB4c-p-5pxpAxKKx_wIjLk31dzCWQ2bQalceaNZF1618nnZO0YE2GM3l9zIQL1aPT-DCQ=w1681-h713-s-no-gm?authuser=0",
+    bio: [
+      "Caspar David Friedrich (1774 – 1840) est le chef de file incontesté du Romantisme allemand. Profondément mystique et habité par une quête d'absolu, il a révolutionné la peinture occidentale en transformant le paysage en un miroir poignant de l'âme humaine et un vecteur privilégié de la transcendance divine. Pour Friedrich, la nature n'est jamais un simple décor pittoresque, mais la manifestation sensible du divin devant laquelle l'homme est appelé à se confronter à sa propre finitude et à contempler l'immensité de la Création.",
+      "Son genre pictural se définit par le paysage tragique, spirituel et contemplatif. Son style se caractérise par des compositions rigoureusement construites, souvent basées sur une symétrie parfaite, des axes géométriques invisibles et des lignes de force marquées. Il invente l'usage magistral de la Rückenfigur (figure humaine vue de dos), qui permet au spectateur de s'identifier directement au personnage et de partager avec lui le vertige de l'infini. Sa palette utilise des ciels vaporeux, des brumes d'aube ou de crépuscule, des clairs-obscurs lunaires et des silences habités qui suspendent le temps.",
+      "L'évolution de son art marque un passage décisif d'une observation minutieuse de la nature vers une abstraction spirituelle d'une radicalité sidérante. Après ses débuts à Greifswald et Copenhague, il s'installe à Dresde où il sidère le public avec Le Retable de Tetschen (1808) puis Le Moine au bord de la mer (1808-1810), où la réduction des plans frôle l'abstraction pure. Dans les années 1820, il atteint le sommet de sa gloire avec Le Voyageur contemplant une mer de nuages (1818), Bord de mer au clair de lune (1818, Louvre), L'Arbre aux corbeaux (1822, Louvre) et La Mer de glace (1823-1824). Dans les années 1830, diminué par un AVC et oublié par la mode, ses visions deviennent crépusculaires, peuplées de tombes, de ruines gothiques et de forêts mortes sous la neige."
+    ],
+    totalOeuvresEstimees: "~150 huiles préservées (~250 produites de son vivant)",
+    oeuvresConsensusNotice: "En excluant son vaste œuvre graphique (dessins à la mine de plomb et lavis sépia se comptant par centaines), le catalogue de référence recense historiquement environ 250 peintures à l'huile produites de son vivant. Le destin de son œuvre fut tragique : plusieurs chefs-d'œuvre disparurent dans l'incendie du Glaspalast de Munich en 1931 et lors des bombardements de Dresde et Berlin en 1945. Le consensus scientifique et muséal estime ainsi le corpus de ses huiles sur toile aujourd'hui préservées à environ 150 œuvres.",
+    timeline: {
+      periods: [
+        {
+          title: "Jeunesse en Poméranie, Formation à Copenhague & Premiers pas à Dresde",
+          years: "1774 – 1807",
+          color: "#0284c7",
+          desc: "Naissance sur la Baltique, deuils familiaux précoces, rigueur académique danoise et révélation des paysages de l'Elbe.",
+          summary: "Né à Greifswald au bord de la Baltique, Friedrich est marqué par la noyade de son frère cadet Johann Christoffer sous ses yeux en 1787. Après l'Académie royale des Beaux-Arts de Copenhague, il s'installe à Dresde en 1798 où il explore la Suisse saxonne et se lie avec les poètes Tieck et Novalis.",
+          events: [
+            { year: 1774, title: "Naissance à Greifswald", desc: "Naît le 5 septembre 1774 dans le duché de Poméranie suédoise, sixième d'une fratrie de dix enfants d'un savonnier et chandelier.", icon: "⚓", badge: "Origines" },
+            { year: 1787, title: "Drame formateur sur la glace", desc: "Son frère cadet se noie sous ses yeux en tentant de le sauver après une chute dans la glace : blessure intime et métaphysique indélébile.", icon: "❄️", badge: "Drame" },
+            { year: 1794, title: "Académie des Beaux-Arts de Copenhague", desc: "Étudie auprès de Christian August Lorentzen et Jens Juel, apprenant le dessin d'après nature et la rigueur topographique hollandaise.", icon: "🏛️", badge: "Formation" },
+            { year: 1798, title: "Installation définitive à Dresde", desc: "Établit son atelier à Dresde, capitale intellectuelle de l'éveil romantique allemand, et découvre les gorges de la Suisse saxonne.", icon: "🎨", badge: "Dresde" },
+            { year: 1805, title: "Prix au concours de Goethe à Weimar", desc: "Goethe lui décerne le premier prix des Amis des Arts de Weimar pour deux magnifiques dessins au lavis d'encre de Chine.", icon: "🏆", badge: "Reconnaissance" }
+          ]
+        },
+        {
+          title: "La Révolution romantique, Le Scandale de Tetschen & Triomphe prussien",
+          years: "1808 – 1819",
+          color: "#8b5cf6",
+          desc: "Invention du paysage sacré, scandale du Retable de Tetschen, acquisition royale à Berlin et choc du Moine au bord de la mer.",
+          summary: "Friedrich scandalise les critiques classiques en élevant le paysage au rang d'icône d'autel dans Le Retable de Tetschen. Le roi de Prusse acquiert Le Moine au bord de la mer et L'Abbaye dans une forêt de chênes, consacrant le peintre comme le maître de l'art national allemand.",
+          events: [
+            { year: 1808, title: "Le Retable de Tetschen (La Croix dans la montagne)", desc: "Pour la première fois dans l'histoire de l'art occidental, un pur paysage montagnard et crépusculaire sert de retable religieux d'église.", icon: "✝️", badge: "Révolution" },
+            { year: 1810, title: "Le Moine au bord de la mer & L'Abbaye dans une forêt de chênes", desc: "Chef-d'œuvre absolu de dépouillement et de vertige cosmique, acheté par le prince héritier de Prusse à l'Académie de Berlin.", icon: "🌊", badge: "Apogée" },
+            { year: 1816, title: "Membre de l'Académie de Dresde", desc: "Élu membre titulaire de l'Académie des Beaux-Arts de Dresde avec traitement annuel du royaume de Saxe.", icon: "📜", badge: "Honneur" },
+            { year: 1818, title: "Mariage avec Caroline Bommer & Voyageur sur la mer de nuages", desc: "Épouse Caroline Bommer, 25 ans. Peint Le Voyageur contemplant une mer de nuages, quintessence absolue de la Rückenfigur romantique.", icon: "💍", badge: "Chef-d'œuvre" },
+            { year: 1818, title: "Bord de mer au clair de lune (Louvre)", desc: "Peint l'un des nocturnes les plus poignants du romantisme européen, où filets et bateaux méditent sous le croissant lunaire (Louvre).", icon: "🌙", badge: "Louvre" }
+          ]
+        },
+        {
+          title: "L'Apogée des grands chefs-d'œuvre & Les Falaises de Rügen",
+          years: "1820 – 1829",
+          color: "#d97706",
+          desc: "Amitié avec Joukovski et Carus, drames politiques et symbolisme tragique du Grand Schafte et de la banquise.",
+          summary: "Bien que respecté par les cours de Prusse et de Russie, Friedrich subit les persécutions de la Restauration saxonne pour ses sympathies libérales. Il peint ses chefs-d'œuvre de tension cosmique et de désolation sublime.",
+          events: [
+            { year: 1820, title: "Visite du Grand-Duc Nicolas de Russie", desc: "Le futur tsar Nicolas Ier visite personnellement son atelier de Dresde et commande plusieurs toiles majeures pour Saint-Pétersbourg.", icon: "👑", badge: "Mécénat" },
+            { year: 1822, title: "L'Arbre aux corbeaux (Louvre)", desc: "Chef-d'œuvre tragique du Louvre : chêne tourmenté, crépuscule sur l'île de Rügen et nuée de corbeaux messagers de la finitude.", icon: "🦅", badge: "Louvre" },
+            { year: 1823, title: "Colocation avec Johan Christian Dahl", desc: "Partage sa maison à Dresde avec le grand peintre de paysages norvégien Dahl, stimulant un dialogue pictural fécond.", icon: "🤝", badge: "Amitié" },
+            { year: 1824, title: "La Mer de glace (Le Naufrage de l'Espoir)", desc: "Peint l'apothéose tragique du Romantisme : un navire broyé par les glaces éternelles de l'Arctique dans un silence cataclysmique.", icon: "🧊", badge: "Chef-d'œuvre" },
+            { year: 1826, title: "Séjour de cure à Rügen", desc: "Retourne sur l'île baltique de Rügen pour dessiner falaises de craie et tumulus mégalithiques préhistoriques.", icon: "🏖️", badge: "Baltique" }
+          ]
+        },
+        {
+          title: "Mélancolie tardive, Solitude & Visions d'éternité",
+          years: "1830 – 1840",
+          color: "#475569",
+          desc: "Accident vasculaire, repli solitaire, lavis sépia prophétiques et méditation suprême sur le passage du temps.",
+          summary: "Victime d'une attaque cérébrale en 1835 qui paralyse partiellement sa main droite, Friedrich doit renoncer à l'huile pour les sépias intimes. Dépassé par l'école réaliste de Düsseldorf, il s'éteint dans la pauvreté et la solitude le 7 mai 1840 à Dresde.",
+          events: [
+            { year: 1834, title: "Visite du sculpteur David d'Angers", desc: "David d'Angers s'exclame dans son atelier : 'Cet homme a découvert la tragédie du paysage !'", icon: "🗣️", badge: "Témoignage" },
+            { year: 1835, title: "Les Âges de la vie & Accident vasculaire", desc: "Peint son testament allégorique Les Âges de la vie puis subit un AVC majeur en juin qui paralyse partiellement son bras.", icon: "⏳", badge: "Testament" },
+            { year: 1836, title: "Retour au lavis sépia et aux thèmes funèbres", desc: "Affaibli mais indomptable, il peint au lavis des cimetières sous la neige, des hiboux sur des tombes et des ruines d'églises.", icon: "🦉", badge: "Méditation" },
+            { year: 1838, title: "Don charitable du Tsar", desc: "Le poète Joukovski convainc le tsar d'acheter ses derniers dessins pour sauver la famille du peintre de la famine.", icon: "❤️", badge: "Soutien" },
+            { year: 1840, title: "Mort solitaire à Dresde", desc: "S'éteint le 7 mai 1840 à Dresde, presque oublié de ses contemporains, avant d'être redécouvert en 1906 comme un géant de l'art mondial.", icon: "🕊️", badge: "Postérité" }
+          ]
+        }
+      ]
+    }
+  },
+  "gainsborough": {
+    id: "gainsborough",
+    name: "Thomas Gainsborough",
+    sortName: "Gainsborough Thomas",
+    sortLetter: "G",
+    dates: "1727 – 1788",
+    movement: "Rococo anglais / Siècle des Lumières",
+    nationality: "Britannique",
+    techniques: "Huile sur toile, lavis, craie, pastel",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczMC8DhL7e83Qkme1SVhaVWQ0Ktux26Sfewao2iSHZ6d_n2EDGAsiQysezC2lDeWeQkNMgJWKIu8ZWiwbDiuWezqqXUkZTPf6yyhefbj5gpf8wqJaeCEUcbLB93ud0SGfB7ptub8V8nrtHxnaylDoByj1Q=w1681-h713-s-no-gm?authuser=0",
+    bio: [
+      "Thomas Gainsborough (1727 – 1788) est avec Sir Joshua Reynolds l'une des figures majeures de la peinture britannique du XVIIIe siècle. Virtuose instinctif et farouchement indépendant, il a révolutionné le portrait et le paysage en y insufflant une grâce vaporeuse, un sens aigu de la lumière naturelle et une communion intime entre l'homme et son environnement.",
+      "Son œuvre se partage entre deux passions complémentaires : les portraits de commande aristocratiques, qui lui apportèrent gloire et fortune auprès de la cour de George III, et les paysages rustiques, sa véritable passion de cœur. Son style se distingue par une touche d'une prodigieuse liberté, nerveuse et liquide, où la matière picturale semble flotter. Contrairement aux poses sévères de l'académisme, ses modèles sont saisis dans des attitudes vivantes et détendues, vêtus de soies chatoyantes qui captent les moindres reflets d'une lumière argentée.",
+      "L'évolution de son art traverse trois grandes périodes : ses débuts dans le Suffolk et à Ipswich, marqués par les maîtres hollandais et l'invention des 'conversation pieces' intimes comme Conversation dans un parc (vers 1746, Louvre) et Robert Andrews et sa femme ; son triomphe mondain à Bath (1759-1774), où l'étude des toiles d'Anthony van Dyck métamorphose ses portraits en visions de pure féerie aristocratique (L'Enfant bleu, The Blue Boy) ; enfin sa maturité éclatante à Londres (1774-1788), peintre favori du roi George III et de la reine Charlotte, pionnier de la Royal Academy qu'il quittera pour exposer librement dans sa propre galerie de Schomberg House."
+    ],
+    totalOeuvresEstimees: "~1 300 peintures achevées",
+    oeuvresConsensusNotice: "Gainsborough ayant mené une carrière scindée entre portraits mondains et paysages, le décompte scientifique s'appuie sur deux catalogues raisonnés majeurs : celui d'Hugh Belsey (2019, Paul Mellon Centre) recensant plus de 1 100 portraits et scènes de genre ('fancy pictures'), et celui de John Hayes (1982) répertoriant environ 185 à 200 paysages. Le consensus scientifique et muséal fixe le corpus total des peintures achevées de Gainsborough à environ 1 300 œuvres.",
+    timeline: {
+      periods: [
+        {
+          title: "Les Origines dans le Suffolk & La Jeunesse à Ipswich",
+          years: "1727 – 1758",
+          color: "#0284c7",
+          desc: "Enfance à Sudbury, apprentissage londonien auprès de Gravelot, mariage avec Margaret Burr et conversation pieces champêtres.",
+          summary: "Né dans le Suffolk, Gainsborough manifeste un don précoce pour le dessin. À Londres, il se forme auprès du graveur rococo français Hubert Gravelot puis s'installe à Ipswich, peignant la gentry locale dans des décors pastoraux d'un charme frais et spontané.",
+          events: [
+            { year: 1727, title: "Naissance à Sudbury (Suffolk)", desc: "Baptisé le 14 mai 1727 à Sudbury, fils d'un marchand drapier et tisserand.", icon: "🌱", badge: "Origines" },
+            { year: 1740, title: "Atelier de Gravelot à Londres", desc: "Apprend l'élégance rococo, la précision graphique et la liberté du dessin auprès de l'illustrateur français Hubert Gravelot.", icon: "✏️", badge: "Formation" },
+            { year: 1746, title: "Mariage avec Margaret Burr", desc: "Épouse Margaret Burr, fille naturelle du duc de Beaufort qui lui assure une rente annuelle régulière de 200 livres.", icon: "💍", badge: "Mariage" },
+            { year: 1746, title: "Conversation dans un parc (Louvre)", desc: "Peint l'un des premiers chefs-d'œuvre de la 'conversation piece' anglaise, représentant un couple élégant en harmonie dans un parc naturel.", icon: "🌸", badge: "Louvre" },
+            { year: 1750, title: "Installation à Ipswich", desc: "S'établit comme portraitiste de la gentry locale tout en peignant ses paysages pastoraux inspirés de Jacob van Ruisdael et Wynants.", icon: "🏡", badge: "Suffolk" }
+          ]
+        },
+        {
+          title: "Le Triomphe mondain à Bath, L'Héritage de Van Dyck & La Société élégante",
+          years: "1759 – 1773",
+          color: "#d4af37",
+          desc: "Ascension fulgurante dans la cité thermale la plus chic d'Angleterre et maîtrise suprême du grand portrait.",
+          summary: "À Bath, ville d'eaux fréquentée par toute l'aristocratie du royaume, Gainsborough étudie passionnément les portraits d'Anthony van Dyck conservés dans les châteaux voisins. Il allonge ses figures et fait miroiter soies et velours.",
+          events: [
+            { year: 1759, title: "Installation à Bath", desc: "S'installe au Royal Circus de Bath. Les aristocrates, ducs et célébrités se pressent dans son atelier pour poser.", icon: "✨", badge: "Succès" },
+            { year: 1761, title: "Expositions à la Society of Artists", desc: "Envoie régulièrement ses grands portraits en pied aux salons londoniens, suscitant l'admiration de la critique.", icon: "🖼️", badge: "Salons" },
+            { year: 1768, title: "Fondateur de la Royal Academy", desc: "Fait partie des membres fondateurs historiques de la Royal Academy of Arts de Londres, invitée par le roi George III.", icon: "🏛️", badge: "Académie" },
+            { year: 1770, title: "L'Enfant bleu (The Blue Boy)", desc: "Peint son chef-d'œuvre iconique vêtu d'un costume aristocratique en satin bleu à la manière de Van Dyck.", icon: "💙", badge: "Chef-d'œuvre" }
+          ]
+        },
+        {
+          title: "La Gloire londonienne, Peintre favori du Roi & Paysages de fantaisie",
+          years: "1774 – 1788",
+          color: "#10b981",
+          desc: "Installation à Schomberg House, commandes de la famille royale et invention des 'fancy pictures'.",
+          summary: "Installé sur Pall Mall à Londres, Gainsborough devient le peintre préféré du roi George III et de la reine Charlotte. En rupture avec la Royal Academy de Reynolds, il organise ses propres expositions rétrospectives privées et développe ses scènes rustiques de fantaisie.",
+          events: [
+            { year: 1774, title: "Installation à Schomberg House (Pall Mall)", desc: "Aménage un atelier fastueux au cœur du Londres mondain et rivalise directement avec Joshua Reynolds.", icon: "🏛️", badge: "Londres" },
+            { year: 1777, title: "Portrait de Mary Graham", desc: "Sommet de la grâce aristocratique britannique, unanimement loué pour le chatoiement magique des étoffes.", icon: "👗", badge: "Succès" },
+            { year: 1781, title: "Commandes de George III", desc: "Reçoit les faveurs de la reine Charlotte et du roi George III, qui le préfèrent à Reynolds pour leurs portraits intimes.", icon: "👑", badge: "Cour royale" },
+            { year: 1784, title: "Rupture avec la Royal Academy", desc: "Retire ses tableaux de l'exposition officielle en raison de désaccords sur l'accrochage et fonde sa propre galerie privée.", icon: "⚡", badge: "Indépendance" },
+            { year: 1785, title: "La Promenade matinale (The Morning Walk)", desc: "Chef-d'œuvre absolu de communion entre le couple, le paysage boisé et le chien de compagnie (National Gallery, Londres).", icon: "🐕", badge: "Apogée" },
+            { year: 1788, title: "Réconciliation sur le lit de mort", desc: "Fait venir Reynolds à son chevet pour une réconciliation émouvante avant de s'éteindre paisiblement le 2 août 1788.", icon: "🕊️", badge: "Dernier adieu" }
+          ]
+        }
+      ]
+    }
+  },
+
 };

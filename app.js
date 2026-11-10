@@ -7641,7 +7641,14 @@ function populateModalData(art) {
 }
 
 const CERTIFIED_PAINTING_DIMENSIONS = {
-  // Jean-Honoré Fragonard (11 œuvres)
+  
+  // Caspar David Friedrich (2 œuvres Louvre)
+  "friedrich_bord_de_mer_clair_de_lune_louvre_1818": { h: 22, w: 30.5, display: "22 × 30,5 cm" },
+  "friedrich_arbre_aux_corbeaux_louvre_1822": { h: 59, w: 73, display: "59 × 73 cm" },
+
+  // Thomas Gainsborough (1 œuvre Louvre)
+  "gainsborough_conversation_dans_un_parc_louvre_1746": { h: 73, w: 68, display: "73 × 68 cm" },
+// Jean-Honoré Fragonard (11 œuvres)
   "fragonard_rouen_oeuvre_1": { h: 25, w: 33, display: "24,5 × 32,8 cm (Musée de Rouen)" },
   "fragonard_rouen_oeuvre_2": { h: 45, w: 110, display: "Format panoramique (Musée de Rouen)" },
   "fragonard_blanchisseuses_rouen_1758": { h: 59.5, w: 73.5, display: "59,5 × 73,5 cm" },
