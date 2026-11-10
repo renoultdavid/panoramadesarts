@@ -11689,5 +11689,245 @@ window.ARTISTS_REGISTRY = {
       }
     ]
   }
+},
+  "fragonard": {
+  "id": "fragonard",
+  "name": "Fragonard Jean-Honoré",
+  "sortName": "Fragonard Jean-Honoré",
+  "sortLetter": "F",
+  "dates": "1732 – 1806",
+  "movement": "Rococo français, Peinture galante & Précurseur de la modernité",
+  "nationality": "Français (Grasse, Provence / Paris / Rome / Tivoli)",
+  "techniques": "Peinture à l'huile, touche rapide (fa presto), lavis bistre vigoureux, clair-obscur atmosphérique, pastel poudré, brio pictural",
+  "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczP4hXMbeIzcJOHLHft26wwPh1_aCZbJN_NXJG0xIDnn_h6bG5Mab3-XxfHpUZAKx3LwA9hCnCEZs8vOtAO3iVJ8JpMTKkheCE9N53yoYOKEEuiE3BJ_25vrtywxxyu3Hn501kJLwxqQNR1s4r_nyTZ0sg=w2329-h988-s-no-gm?authuser=0",
+  "bio": [
+    "Jean-Honoré Fragonard (1732 – 1806) est l'un des peintres les plus emblématiques du Rococo français. Élève de Boucher et de Chardin, il a développé une virtuosité technique exceptionnelle qui lui a permis de passer de la peinture d'histoire monumentale aux scènes galantes les plus légères, capturant l'esprit de liberté et d'insouciance de l'aristocratie de la fin de l'Ancien Régime.",
+    "Son genre pictural se définit par la peinture galante et le lyrisme atmosphérique. Fragonard est le maître de la « touche rapide » et du mouvement. Son style se caractérise par une palette lumineuse, des compositions froufroutantes et une capacité unique à rendre la texture des étoffes, la fraîcheur des paysages et l'ardeur des sentiments. Contrairement à la rigueur académique, il privilégie l'émotion, le plaisir des yeux et une certaine forme de spontanéité picturale.",
+    "L'évolution de son style témoigne d'une curiosité insatiable et d'une grande adaptabilité : la période romaine et le paysage à la Villa Médicis et à Tivoli avec Hubert Robert ; l'apogée du Rococo (années 1760-1770) avec ses chefs-d'œuvre de la fête galante et champêtre ; la série fulgurante des « Figures de fantaisie » exécutées en une heure de temps avec une fougue pré-impressionniste ; puis le tournant néoclassique et moralisateur de la fin du siècle, avant que la Révolution française ne vienne clore l'âge d'or des Lumières."
+  ],
+  "corpus": {
+    "total": 400,
+    "seen": 11,
+    "paintingsCount": 400,
+    "sourceTitle": "Catalogues raisonnés de référence : Jean-Pierre Cuzin (1987) et Pierre Rosenberg (1989)",
+    "sourceNotes": "Si le catalogue historique de Georges Wildenstein (1960) lui accordait plus de 545 tableaux, les recherches modernes de Jean-Pierre Cuzin et Pierre Rosenberg ont purgé les copies d'atelier, pastiches du XIXe et toiles à quatre mains avec Marguerite Gérard pour fixer le corpus strictement authentique à environ 400 peintures.",
+    "details": [
+      {
+        "label": "Fêtes galantes, Pastorales & Allégories",
+        "count": 220,
+        "icon": "🌸",
+        "color": "#ec4899",
+        "seen": 6,
+        "note": "Scènes de séduction, jeux champêtres, pastorales lumineuses et poésies amoureuses."
+      },
+      {
+        "label": "Figures de fantaisie & Portraits expressifs",
+        "count": 80,
+        "icon": "🎭",
+        "color": "#d4af37",
+        "seen": 3,
+        "note": "Portraits exécutés en une heure au brio virtuose et empâtements fougueux."
+      },
+      {
+        "label": "Paysages italiens & Scènes populaires",
+        "count": 100,
+        "icon": "🏛️",
+        "color": "#10b981",
+        "seen": 2,
+        "note": "Jardins de Tivoli, lavandières et ruines antiques baignées de lumière dorée."
+      }
+    ]
+  },
+  "biographyTimeline": {
+    "birth": {
+      "year": 1732,
+      "place": "Grasse (Provence, Royaume de France)",
+      "title": "Naissance de Jean-Honoré Fragonard",
+      "desc": "Fils d'un marchand gantier et parfumeur provençal, il monte à Paris avec sa famille en 1738."
+    },
+    "death": {
+      "year": 1806,
+      "place": "Paris (Empire français)",
+      "title": "Mort de Jean-Honoré Fragonard",
+      "desc": "S'éteint dans son logement du Palais-Royal le 22 août 1806, après avoir été nommé conservateur du Muséum (le futur Musée du Louvre) par son ami David."
+    },
+    "periods": [
+      {
+        "title": "Formation parisienne, Ateliers de Chardin & Boucher & Prix de Rome",
+        "years": "1732 – 1755",
+        "color": "#0284c7",
+        "desc": "Apprentissage chez Chardin puis François Boucher, Grand Prix de peinture de l'Académie royale.",
+        "summary": "Élève le plus doué de François Boucher, passage à l'École royale des élèves protégés sous Carle Van Loo.",
+        "events": [
+          {
+            "year": 1732,
+            "title": "Naissance à Grasse",
+            "desc": "Naît le 5 avril 1732 dans la capitale provençale des parfums.",
+            "type": "birth",
+            "icon": "🇫🇷"
+          },
+          {
+            "year": 1748,
+            "title": "Apprentissage chez Chardin puis Boucher",
+            "desc": "Placé d'abord brièvement chez Chardin pour apprendre la préparation des couleurs et la nature morte, il entre dans l'atelier prestigieux de François Boucher qui décèle immédiatement son génie et lui confie la réalisation de cartons de tapisserie.",
+            "type": "art",
+            "icon": "🎨"
+          },
+          {
+            "year": 1752,
+            "title": "Grand Prix de Rome à l'âge de 20 ans",
+            "desc": "Remporte le prestigieux Grand Prix de l'Académie royale de peinture avec 'Jéroboam sacrifiant aux idoles', sans même être élève de l'Académie.",
+            "type": "award",
+            "icon": "🏆"
+          },
+          {
+            "year": 1753,
+            "title": "École des élèves protégés",
+            "desc": "Se perfectionne pendant trois ans sous la direction de Carle Van Loo avant son départ pour l'Italie.",
+            "type": "life",
+            "icon": "📚"
+          }
+        ]
+      },
+      {
+        "title": "Le Séjour d'Italie, Tivoli & L'Invention du Paysage Rococo",
+        "years": "1756 – 1761",
+        "color": "#10b981",
+        "desc": "Séjour à l'Académie de France à Rome (palais Mancini), amitié avec Hubert Robert et découverte des jardins de la Villa d'Este.",
+        "summary": "Dessins magistraux au lavis de sanguine, scènes populaires romaines et pastorales enchanteresses.",
+        "events": [
+          {
+            "year": 1756,
+            "title": "Arrivée à Rome",
+            "desc": "Pensionnaire du roi à l'Académie de France à Rome. Il étudie Michel-Ange, Raphaël et surtout les maîtres de l'école bolonaise et Pierre de Cortone.",
+            "type": "travel",
+            "icon": "🇮🇹"
+          },
+          {
+            "year": 1758,
+            "title": "Chef-d'œuvre : Les Blanchisseuses (Musée de Rouen)",
+            "desc": "Peint 'Les Blanchisseuses' (L'Étendage), scène de genre populaire romaine ténébriste baignée de clairs-obscurs inspirés de Rembrandt.",
+            "type": "masterpiece",
+            "icon": "🧺",
+            "artworkId": "fragonard_blanchisseuses_rouen_1758"
+          },
+          {
+            "year": 1760,
+            "title": "Séjour féerique à la Villa d'Este avec l'abbé de Saint-Non",
+            "desc": "Passe l'été à Tivoli avec son ami le peintre Hubert Robert et leur mécène l'abbé de Saint-Non, dessinant les cyprès géants et les cascades d'eaux des jardins de la Renaissance.",
+            "type": "travel",
+            "icon": "🌿"
+          },
+          {
+            "year": 1761,
+            "title": "Le Jeu de la palette & La Bascule (Musée Fabre)",
+            "desc": "Peint la célèbre paire de pendants pastoraux conservés à Montpellier, où les jeux galants s'intègrent aux vestiges des jardins italiens.",
+            "type": "masterpiece",
+            "icon": "🏸",
+            "artworkId": "fragonard_jeu_palette_montpellier_1761"
+          }
+        ]
+      },
+      {
+        "title": "L'Apogée du Rococo, Les Figures de Fantaisie & Les Fêtes Galantes",
+        "years": "1762 – 1779",
+        "color": "#ec4899",
+        "desc": "Succès foudroyant au Salon, refus de l'académisme au profit d'une clientèle privée aristocratique, Les Hasards heureux de l'escarpolette et Le Verrou.",
+        "summary": "Indépendance artistique souveraine, portraits en une heure et triomphe du libertinage éclairé.",
+        "events": [
+          {
+            "year": 1763,
+            "title": "Renaud dans les jardins d'Armide (Musée du Louvre)",
+            "desc": "Exécute sa brillante composition inspirée du Tasse, déployant une exubérance végétale et une touche en tourbillon.",
+            "type": "masterpiece",
+            "icon": "⚔️",
+            "artworkId": "fragonard_renaud_jardins_armide_louvre_1763"
+          },
+          {
+            "year": 1765,
+            "title": "Triomphe au Salon avec 'Corésus et Callirhoé'",
+            "desc": "Agréé à l'Académie royale avec ce tableau d'histoire monumental acquis par Louis XV. Diderot en fait un éloge dithyrambique dans son Salon.",
+            "type": "award",
+            "icon": "🏛️"
+          },
+          {
+            "year": 1767,
+            "title": "Les Hasards heureux de l'escarpolette",
+            "desc": "Peint sur commande privée du baron de Saint-Julien l'icône absolue de la galanterie rococo (The Wallace Collection, Londres).",
+            "type": "art",
+            "icon": "🪑"
+          },
+          {
+            "year": 1769,
+            "title": "Les Figures de fantaisie : La Musique & Jeune Artiste (Louvre)",
+            "desc": "Peint sa prodigieuse série de portraits de fantaisie en une heure de temps au brio gestuel fulgurant et costumes à l'espagnole.",
+            "type": "masterpiece",
+            "icon": "🎸",
+            "artworkId": "fragonard_musique_breteche_louvre_1769"
+          },
+          {
+            "year": 1771,
+            "title": "La Commande de Madame du Barry pour Louveciennes",
+            "desc": "Madame du Barry lui commande le cycle des 'Progrès de l'amour dans le cœur des jeunes filles' pour son pavillon de Louveciennes (aujourd'hui à la Frick Collection).",
+            "type": "art",
+            "icon": "🌹"
+          },
+          {
+            "year": 1777,
+            "title": "Chef-d'œuvre : Le Verrou (Musée du Louvre)",
+            "desc": "Achève 'Le Verrou', composition dramatique d'une intensité théâtrale inégalée, alliant le rouge carmin, le satin doré et le clair-obscur du désir.",
+            "type": "masterpiece",
+            "icon": "🗝️",
+            "artworkId": "fragonard_le_verrou_louvre_1777"
+          },
+          {
+            "year": 1778,
+            "title": "Le Feu aux poudres (Musée du Louvre)",
+            "desc": "Peint ce petit joyau libertin où deux Amours ailés embrasent les sens d'une jeune femme alanguie.",
+            "type": "masterpiece",
+            "icon": "🔥",
+            "artworkId": "fragonard_feu_aux_poudres_louvre_1778"
+          }
+        ]
+      },
+      {
+        "title": "Tournant Néoclassique, La Révolution & Sauvegarde du Louvre",
+        "years": "1780 – 1806",
+        "color": "#8b5cf6",
+        "desc": "Évolution vers une peinture intimiste et morale avec Marguerite Gérard, passage sous la tourmente révolutionnaire et rôle fondateur au Musée du Louvre.",
+        "summary": "Protection par David, nomination au Muséum central des arts et crépuscule d'un maître des Lumières.",
+        "events": [
+          {
+            "year": 1780,
+            "title": "Collaboration avec Marguerite Gérard",
+            "desc": "Forme sa jeune belle-sœur Marguerite Gérard à la peinture. Ils peignent plusieurs scènes intimistes et familiales au fini léché inspiré des Hollandais.",
+            "type": "personal",
+            "icon": "🤝"
+          },
+          {
+            "year": 1789,
+            "title": "La Révolution française & Perte de la clientèle aristocratique",
+            "desc": "La chute de la monarchie ruine ses commanditaires habituels. Il trouve refuge à Grasse dans la maison de son cousin Alexandre Maubert en 1790-1791.",
+            "type": "life",
+            "icon": "⚔️"
+          },
+          {
+            "year": 1793,
+            "title": "Nommé Conservateur du Muséum central des arts (futur Louvre)",
+            "desc": "Grâce à l'amitié indéfectible du peintre Jacques-Louis David, il est nommé membre de la Commission temporaire des arts puis conservateur du Muséum des arts.",
+            "type": "award",
+            "icon": "🏛️"
+          },
+          {
+            "year": 1806,
+            "title": "Mort à Paris sous l'Empire",
+            "desc": "Expulsé du Louvre avec les autres artistes par décret impérial, il s'éteint discrètement le 22 août 1806 au Palais-Royal à l'âge de 74 ans.",
+            "type": "death",
+            "icon": "🕊️"
+          }
+        ]
+      }
+    ]
+  }
 }
 };

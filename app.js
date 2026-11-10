@@ -7635,6 +7635,18 @@ function populateModalData(art) {
 }
 
 const CERTIFIED_PAINTING_DIMENSIONS = {
+  // Jean-Honoré Fragonard (11 œuvres)
+  "fragonard_rouen_oeuvre_1": { h: 25, w: 33, display: "24,5 × 32,8 cm (Musée de Rouen)" },
+  "fragonard_rouen_oeuvre_2": { h: 45, w: 110, display: "Format panoramique (Musée de Rouen)" },
+  "fragonard_blanchisseuses_rouen_1758": { h: 59.5, w: 73.5, display: "59,5 × 73,5 cm" },
+  "fragonard_jeu_palette_montpellier_1761": { h: 75, w: 94, display: "75 × 94 cm" },
+  "fragonard_bascule_montpellier_1761": { h: 75, w: 94, display: "75 × 94 cm (panneau pendant)" },
+  "fragonard_paysage_bergers_moutons_1763": { h: 52, w: 73, display: "52 × 73 cm" },
+  "fragonard_renaud_jardins_armide_louvre_1763": { h: 72, w: 90, display: "72 × 90 cm" },
+  "fragonard_musique_breteche_louvre_1769": { h: 80, w: 65, display: "80 × 65 cm" },
+  "fragonard_jeune_artiste_louvre_1769": { h: 81.5, w: 65.4, display: "81,5 × 65,4 cm" },
+  "fragonard_le_verrou_louvre_1777": { h: 73, w: 93, display: "73 × 93 cm" },
+  "fragonard_feu_aux_poudres_louvre_1778": { h: 37, w: 45, display: "37 × 45 cm" },
   // Max Ernst (1 œuvre)
   "ernst_foret_nantes_1925": { h: 114, w: 146, display: "114 × 146 cm" },
   // Fra Angelico (16 œuvres)

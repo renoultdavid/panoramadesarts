@@ -16,6 +16,537 @@
    ========================================================================== */
 window.ART_OBJECTS = [
 {
+  "id": "fragonard_rouen_oeuvre_1",
+  "artistId": "fragonard",
+  "artist": "Fragonard Jean-Honoré",
+  "artistSort": "Fragonard Jean-Honoré",
+  "civId": "occident",
+  "periodId": "occ_temps_modernes",
+  "civName": "Occident : Siècle des Lumières & Rococo",
+  "century": "XVIIIe siècle (vers 1765-1770)",
+  "centuryDisplay": "XVIIIe s. (v. 1765-1770)",
+  "centuryNumeric": 1765,
+  "domain": "peinture",
+  "artifactType": "Huile sur panneau de bois",
+  "title": "Le Songe de Plutarque (ou Allégorie morale)",
+  "site": "Musée des Beaux-Arts de Rouen (Rouen, France)",
+  "originSite": "Paris (France)",
+  "dimensions": "24,5 × 32,8 cm",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczNrVpVGIRKXLB4HqyHHRbY_SVHsjbvx090Rm-UeB1TLD4hOdtLu_BgUBplK7hloqz_CORk5pmm8eXRwaPVPB3SynuKbYBdJZ9AspXYFgkTyEyF73MUY4O5Iu3RHYf5cEn4Cmt43y1O_K-IjLGOC2rSO9g=w2075-h2416-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczNrVpVGIRKXLB4HqyHHRbY_SVHsjbvx090Rm-UeB1TLD4hOdtLu_BgUBplK7hloqz_CORk5pmm8eXRwaPVPB3SynuKbYBdJZ9AspXYFgkTyEyF73MUY4O5Iu3RHYf5cEn4Cmt43y1O_K-IjLGOC2rSO9g=w2075-h2416-s-no-gm?authuser=0",
+  "tags": [
+    "peinture",
+    "fragonard",
+    "rouen",
+    "songe de plutarque",
+    "allégorie",
+    "xviiie siècle",
+    "lumières",
+    "rococo"
+  ],
+  "chips": [
+    "XVIIIe s.",
+    "v. 1765-1770",
+    "Rococo français",
+    "Huile sur bois",
+    "Musée des Beaux-Arts de Rouen"
+  ],
+  "desc": "<p>Cette œuvre singulière conservée au Musée des Beaux-Arts de Rouen (inv. 818.1, acquise en 1818) illustre la veine allégorique et philosophique de Jean-Honoré Fragonard, trop souvent réduit à ses scènes galantes. Inspiré par les écrits de l'historien et moraliste grec Plutarque de Chéronée, l'artiste met en scène le savant antique en robe de chambre, méditant devant un lourd manuscrit ouvert d'où s'élève une vision onirique.</p><p>Dans la nuée vaporeuse surgit une balance allégorique où s'opposent deux destins : d'un côté la « Médiocrité » couronnée de roses douces, de l'autre la « Grandeur » ceinte d'épines douloureuses. Par une touche rapide, fluide et vibrante, Fragonard traduit la rêverie intellectuelle et le vertige moral du philosophe avec une intensité lumineuse caractéristique de sa maturité.</p>",
+  "contemporaryArt": {
+    "title": "XVIIIe siècle • L'Âge des Lumières et l'effervescence des Fêtes galantes",
+    "events": [
+      "1751 : Début de la publication de l'Encyclopédie ou Dictionnaire raisonné des sciences, des arts et des métiers par Diderot et d'Alembert.",
+      "1756 – 1763 : Guerre de Sept Ans opposant la France et l'Angleterre, bouleversant l'équilibre des puissances européennes.",
+      "1762 : Jean-Jacques Rousseau publie 'Du contrat social' et 'Émile ou De l'éducation' à Amsterdam.",
+      "1774 : Mort de Louis XV ; avènement de Louis XVI et de Marie-Antoinette sur le trône de France.",
+      "1784 : Jacques-Louis David peint 'Le Serment des Horaces' à Rome, consacrant le triomphe du néoclassicisme héroïque."
+    ]
+  }
+},
+{
+  "id": "fragonard_rouen_oeuvre_2",
+  "artistId": "fragonard",
+  "artist": "Fragonard Jean-Honoré",
+  "artistSort": "Fragonard Jean-Honoré",
+  "civId": "occident",
+  "periodId": "occ_temps_modernes",
+  "civName": "Occident : Siècle des Lumières & Rococo",
+  "century": "XVIIIe siècle",
+  "centuryDisplay": "XVIIIe s.",
+  "centuryNumeric": 1760,
+  "domain": "peinture",
+  "artifactType": "Huile sur toile (Panneau décoratif ou dessus-de-porte)",
+  "title": "Composition pastorale et champêtre (Rouen)",
+  "site": "Musée des Beaux-Arts de Rouen (Rouen, France)",
+  "originSite": "France",
+  "dimensions": "Format panoramique",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczPE52M1oGbfCMZ1e6AuUrI5bVvD_udpC0OW0B_m6kujCzqWn8YoAp3CMytQ98sEPZclGMDUKVUao1nVP2uGsBO3eiD6-e62zmKbB9xFfBHfrLpIw-HXbEXJTwt_7ccLv_VQJz5e6wtp9ASJ4XSUAyNYDg=w1681-h680-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczPE52M1oGbfCMZ1e6AuUrI5bVvD_udpC0OW0B_m6kujCzqWn8YoAp3CMytQ98sEPZclGMDUKVUao1nVP2uGsBO3eiD6-e62zmKbB9xFfBHfrLpIw-HXbEXJTwt_7ccLv_VQJz5e6wtp9ASJ4XSUAyNYDg=w1681-h680-s-no-gm?authuser=0",
+  "tags": [
+    "peinture",
+    "fragonard",
+    "rouen",
+    "pastorale",
+    "dessus-de-porte",
+    "paysage",
+    "rococo",
+    "xviiie siècle"
+  ],
+  "chips": [
+    "XVIIIe s.",
+    "Rococo français",
+    "Huile sur toile",
+    "Musée des Beaux-Arts de Rouen"
+  ],
+  "desc": "<p>Cette toile en format allongé panoramique, conservée au Musée des Beaux-Arts de Rouen, illustre l'art virtuose des décors d'intérieurs et des dessus-de-porte exécutés par Jean-Honoré Fragonard pour les résidences aristocratiques de son époque. L'artiste y déploie un paysage champêtre baigné d'une lumière blonde, où la légèreté des feuillages et la grâce atmosphérique enchantent l'espace architectural.</p><p>La spontanéité de l'écriture picturale, l'économie des moyens et la vibration des tons poudrés révèlent la maestria d'un peintre capable de transformer le moindre motif bucolique en une fête pour le regard, préfigurant la liberté d'expression des maîtres paysagistes du siècle suivant.</p>",
+  "contemporaryArt": {
+    "title": "XVIIIe siècle • L'Âge des Lumières et l'effervescence des Fêtes galantes",
+    "events": [
+      "1751 : Début de la publication de l'Encyclopédie ou Dictionnaire raisonné des sciences, des arts et des métiers par Diderot et d'Alembert.",
+      "1756 – 1763 : Guerre de Sept Ans opposant la France et l'Angleterre, bouleversant l'équilibre des puissances européennes.",
+      "1762 : Jean-Jacques Rousseau publie 'Du contrat social' et 'Émile ou De l'éducation' à Amsterdam.",
+      "1774 : Mort de Louis XV ; avènement de Louis XVI et de Marie-Antoinette sur le trône de France.",
+      "1784 : Jacques-Louis David peint 'Le Serment des Horaces' à Rome, consacrant le triomphe du néoclassicisme héroïque."
+    ]
+  }
+},
+{
+  "id": "fragonard_blanchisseuses_rouen_1758",
+  "artistId": "fragonard",
+  "artist": "Fragonard Jean-Honoré",
+  "artistSort": "Fragonard Jean-Honoré",
+  "civId": "occident",
+  "periodId": "occ_temps_modernes",
+  "civName": "Occident : Siècle des Lumières & Rococo",
+  "century": "XVIIIe siècle (vers 1758-1760)",
+  "centuryDisplay": "XVIIIe s. (v. 1758)",
+  "centuryNumeric": 1758,
+  "domain": "peinture",
+  "artifactType": "Huile sur toile",
+  "title": "Les Blanchisseuses (ou L'Étendage)",
+  "site": "Musée des Beaux-Arts de Rouen (Rouen, France)",
+  "originSite": "Rome (Italie)",
+  "dimensions": "59,5 × 73,5 cm",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczOcXGQoKzDYkjDAAL_8zFiBC4Km8DB9IG8grzPe7Gqtgs4GW4rgI1EOhp7STsiUllHfxQke_Lp_zaEhzRk4oiAltnrR0LUkflWWDMPjfykHff3hPuKdr_OKUN-sw7iTbeestk7TDuqWYMN4qnWdLEFICw=w1681-h1352-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczOcXGQoKzDYkjDAAL_8zFiBC4Km8DB9IG8grzPe7Gqtgs4GW4rgI1EOhp7STsiUllHfxQke_Lp_zaEhzRk4oiAltnrR0LUkflWWDMPjfykHff3hPuKdr_OKUN-sw7iTbeestk7TDuqWYMN4qnWdLEFICw=w1681-h1352-s-no-gm?authuser=0",
+  "tags": [
+    "peinture",
+    "fragonard",
+    "les blanchisseuses",
+    "l'étendage",
+    "rouen",
+    "rome",
+    "clair-obscur",
+    "rococo",
+    "xviiie siècle"
+  ],
+  "chips": [
+    "XVIIIe s.",
+    "v. 1758",
+    "Rococo français",
+    "Huile sur toile",
+    "Musée des Beaux-Arts de Rouen"
+  ],
+  "desc": "<p>L’œuvre intitulée Les Blanchisseuses, également connue sous le titre L'Étendage, est l'un des chefs-d'œuvre de la période de jeunesse de Jean-Honoré Fragonard, conservé au Musée des Beaux-Arts de Rouen. Peinte vers 1758, peu après son séjour à Rome, cette toile illustre parfaitement le passage du style rococo vers une observation plus naturelle et pittoresque de la vie quotidienne. Fragonard y transforme une tâche domestique banale en un spectacle visuel vibrant, où la lumière et le mouvement préfigurent déjà la liberté d'exécution qui fera sa renommée.</p><p>La description de la scène s'articule autour d'un groupe de femmes s'affairant dans ce qui semble être les ruines d'un palais romain ou une grange monumentale. Au centre, une blanchisseuse est occupée à étendre un grand drap blanc qui capte la lumière et devient le véritable point focal de la composition. Ce morceau de peinture, d'une blancheur éclatante, permet à l'artiste de jouer avec les reflets et les transparences. Autour d'elle, d'autres figures s'activent dans un désordre savamment orchestré : une femme se penche sur un baquet, tandis que des enfants jouent au milieu du linge et des ustensiles. Le traitement des visages et des corps est empreint d'une vitalité joyeuse, caractéristique de la manière de Fragonard qui privilégie l'expression et le mouvement sur la rigueur anatomique.</p><p>L'espace est structuré par une architecture de pierre massive, dont les voûtes sombres contrastent violemment avec les percées lumineuses venant du haut de la composition. Cette mise en scène, héritée des influences de Piranèse, donne au lieu une dimension presque théâtrale et monumentale. Les jeux d'ombre et de lumière (le clair-obscur) sculptent les formes et créent une profondeur atmosphérique remarquable. On y voit des volutes de vapeur s'élevant des cuves d'eau chaude, se mélangeant à la lumière poudrée pour créer une ambiance vaporeuse et vivante. La touche est ici rapide, nerveuse, laissant apparaître la trace du pinceau, ce qui confère à l'ensemble une modernité et une énergie saisissantes.</p><p>La palette chromatique est dominée par des tons de terre, de brun et de gris, réveillés par l'éclat des linges blancs et quelques touches de couleurs plus vives dans les vêtements des blanchisseuses. Fragonard ne cherche pas ici à délivrer un message moral ou social ; il s'attache à la poésie de l'instant, au charme du désordre quotidien et à la beauté des contrastes lumineux. Ce tableau est une transition essentielle entre l'héritage académique et une peinture plus personnelle, où le sujet devient un prétexte à l'exploration pure de la lumière et de la matière.</p>",
+  "contemporaryArt": {
+    "title": "XVIIIe siècle • L'Âge des Lumières et l'effervescence des Fêtes galantes",
+    "events": [
+      "1751 : Début de la publication de l'Encyclopédie ou Dictionnaire raisonné des sciences, des arts et des métiers par Diderot et d'Alembert.",
+      "1756 – 1763 : Guerre de Sept Ans opposant la France et l'Angleterre, bouleversant l'équilibre des puissances européennes.",
+      "1762 : Jean-Jacques Rousseau publie 'Du contrat social' et 'Émile ou De l'éducation' à Amsterdam.",
+      "1774 : Mort de Louis XV ; avènement de Louis XVI et de Marie-Antoinette sur le trône de France.",
+      "1784 : Jacques-Louis David peint 'Le Serment des Horaces' à Rome, consacrant le triomphe du néoclassicisme héroïque."
+    ]
+  }
+},
+{
+  "id": "fragonard_jeu_palette_montpellier_1761",
+  "artistId": "fragonard",
+  "artist": "Fragonard Jean-Honoré",
+  "artistSort": "Fragonard Jean-Honoré",
+  "civId": "occident",
+  "periodId": "occ_temps_modernes",
+  "civName": "Occident : Siècle des Lumières & Rococo",
+  "century": "XVIIIe siècle (1761)",
+  "centuryDisplay": "XVIIIe s. (1761)",
+  "centuryNumeric": 1761,
+  "domain": "peinture",
+  "artifactType": "Huile sur toile",
+  "title": "Le Jeu de la palette",
+  "site": "Musée Fabre (Montpellier, France)",
+  "originSite": "Villa d'Este, Tivoli (Italie)",
+  "dimensions": "75 × 94 cm",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczN64GVnL6HE-hhvylDt0aPWroYLMdH4kZTE16KRbbwWO4litK_MhuqHOuq7MfyGtIqbwYBSAdkOyr7BUyYKxwZNP_GMBceLTqC_Zv_qiGROO_UVBnzDjJsA4qJj3sk98-49Zp3xm0Wji2P3jyts3zF_7w=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczN64GVnL6HE-hhvylDt0aPWroYLMdH4kZTE16KRbbwWO4litK_MhuqHOuq7MfyGtIqbwYBSAdkOyr7BUyYKxwZNP_GMBceLTqC_Zv_qiGROO_UVBnzDjJsA4qJj3sk98-49Zp3xm0Wji2P3jyts3zF_7w=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "peinture",
+    "fragonard",
+    "le jeu de la palette",
+    "montpellier",
+    "musée fabre",
+    "tivoli",
+    "villa d'este",
+    "rococo",
+    "fête galante"
+  ],
+  "chips": [
+    "XVIIIe s.",
+    "1761",
+    "Rococo français",
+    "Huile sur toile",
+    "Musée Fabre, Montpellier"
+  ],
+  "desc": "<p>Cette œuvre, intitulée Le Jeu de la palette, est une huile sur toile réalisée en 1761 par Jean-Honoré Fragonard. Conservée au Musée Fabre de Montpellier, elle fut peinte lors du séjour de l'artiste à la Villa d'Este, à Tivoli, alors qu'il terminait sa formation de pensionnaire à l'Académie de France à Rome. Ce tableau est emblématique du style rococo tardif, où la nature devient un décor théâtral, à la fois sauvage et ordonné, propice aux divertissements de la haute société.</p><p>La composition est marquée par une verticalité imposante, dominée à gauche par de grands cyprès sombres et à droite par les structures massives et envahies par la végétation d'un jardin italien classique. Fragonard utilise l'architecture des jardins — balustrades, escaliers et arcades — pour structurer l'espace tout en laissant la nature reprendre ses droits par des cascades de feuillages légers. Au centre, une trouée lumineuse laisse apparaître un ciel pommelé aux teintes nacrées, créant une profondeur vaporeuse qui contraste avec la densité des masses arborées au premier plan.</p><p>Au pied de ces vestiges antiques, un groupe de jeunes gens s'adonne au 'jeu de la palette' (ou jeu de volant). Les figures sont traitées avec une grande liberté de touche, presque esquissées, ce qui accentue l'impression de mouvement et de spontanéité. Le personnage central, vêtu d'un habit jaune et d'un manteau rouge, semble en pleine action, tandis que des spectatrices assises observent la partie. Cette scène de genre galante est typique de l'art de Fragonard, qui parvient à capturer la légèreté d'un instant de plaisir au sein d'un paysage dont la grandeur rappelle le passage du temps et la mélancolie des ruines.</p><p>Techniquement, l'œuvre se distingue par une touche vibrante et nerveuse. Fragonard délaisse le fini minutieux au profit d'une écriture picturale rapide qui privilégie l'effet de lumière et l'atmosphère sur la précision anatomique. Les nuances de verts, de bruns et de jaunes dorés sont unifiées par une lumière chaude, presque méditerranéenne. Ce tableau illustre parfaitement la transition entre l'influence des maîtres hollandais du paysage et la sensibilité préromantique française.</p>",
+  "contemporaryArt": {
+    "title": "XVIIIe siècle • L'Âge des Lumières et l'effervescence des Fêtes galantes",
+    "events": [
+      "1751 : Début de la publication de l'Encyclopédie ou Dictionnaire raisonné des sciences, des arts et des métiers par Diderot et d'Alembert.",
+      "1756 – 1763 : Guerre de Sept Ans opposant la France et l'Angleterre, bouleversant l'équilibre des puissances européennes.",
+      "1762 : Jean-Jacques Rousseau publie 'Du contrat social' et 'Émile ou De l'éducation' à Amsterdam.",
+      "1774 : Mort de Louis XV ; avènement de Louis XVI et de Marie-Antoinette sur le trône de France.",
+      "1784 : Jacques-Louis David peint 'Le Serment des Horaces' à Rome, consacrant le triomphe du néoclassicisme héroïque."
+    ]
+  }
+},
+{
+  "id": "fragonard_bascule_montpellier_1761",
+  "artistId": "fragonard",
+  "artist": "Fragonard Jean-Honoré",
+  "artistSort": "Fragonard Jean-Honoré",
+  "civId": "occident",
+  "periodId": "occ_temps_modernes",
+  "civName": "Occident : Siècle des Lumières & Rococo",
+  "century": "XVIIIe siècle (1761)",
+  "centuryDisplay": "XVIIIe s. (1761)",
+  "centuryNumeric": 1761,
+  "domain": "peinture",
+  "artifactType": "Huile sur toile",
+  "title": "La Bascule",
+  "site": "Musée Fabre (Montpellier, France)",
+  "originSite": "Villa d'Este, Tivoli (Italie)",
+  "dimensions": "75 × 94 cm (pendant du Jeu de la palette)",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczMC_FvYyHZE8r8i0xi0lFfVt-gJnNSp__81xizMIpSe6ONmYTQHp5FxUhlxpB2ev697Yzxauxw7UI4oLQRl1urutBKHOE28P0aynCVe2-Ad42pBM22cGWHa68W6hK-Y4Qfj_t-jss0Ycu84h3Ls23LMQw=w1681-h1265-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczMC_FvYyHZE8r8i0xi0lFfVt-gJnNSp__81xizMIpSe6ONmYTQHp5FxUhlxpB2ev697Yzxauxw7UI4oLQRl1urutBKHOE28P0aynCVe2-Ad42pBM22cGWHa68W6hK-Y4Qfj_t-jss0Ycu84h3Ls23LMQw=w1681-h1265-s-no-gm?authuser=0",
+  "tags": [
+    "peinture",
+    "fragonard",
+    "la bascule",
+    "montpellier",
+    "musée fabre",
+    "tivoli",
+    "pendant",
+    "rococo",
+    "fête champêtre"
+  ],
+  "chips": [
+    "XVIIIe s.",
+    "1761",
+    "Rococo français",
+    "Huile sur toile",
+    "Musée Fabre, Montpellier"
+  ],
+  "desc": "<p>Cette œuvre, intitulée La Bascule, est une huile sur toile réalisée en 1761 par Jean-Honoré Fragonard. Conservée au Musée Fabre de Montpellier, elle forme un pendant direct avec Le Jeu de la palette. Peinte durant la même période féconde du séjour romain de l'artiste, cette composition illustre parfaitement le génie de Fragonard pour transformer les souvenirs des jardins de la Villa d'Este en un théâtre imaginaire où la nature et le divertissement fusionnent avec une énergie débordante.</p><p>La composition est structurée par l'imposante présence d'une architecture antique à droite, une colonnade envahie par une végétation luxuriante et des fleurs grimpantes qui semblent littéralement dévorer la pierre. Ces ruines monumentales servent de toile de fond à la scène de genre tandis qu'à gauche, des arbres aux silhouettes tourmentées s'élancent vers un ciel de nuages tumultueux. L'artiste utilise un contraste marqué entre l'ombre profonde des massifs végétaux et la lumière vive qui frappe le centre de la scène, créant un effet de profondeur spectaculaire qui aspire le regard vers l'horizon lointain.</p><p>Au cœur de ce paysage sauvage, un groupe de jeunes gens s'adonne au plaisir de la bascule. Au centre, une jeune femme est maintenue en équilibre sur une planche de bois, tandis que ses compagnons actionnent le mécanisme avec une fougue joyeuse. Les corps sont représentés dans des postures dynamiques et désordonnées, capturant l'instant fugace du mouvement et du rire. Fragonard parsème la scène de détails charmants, comme le panier de fruits renversé au premier plan à gauche ou le cheval à l'arrêt à droite, qui renforcent l'aspect pastoral et spontané de cette fête champêtre.</p><p>La technique de Fragonard se caractérise par une 'furia' de pinceau remarquable. Les touches sont larges, rapides et vibrantes, privilégiant l'émotion et l'atmosphère à la précision du détail. Par cette toile, Fragonard dépasse la simple représentation d'un jeu pour livrer une métaphore de la légèreté de l'existence et de la précarité de l'équilibre, thèmes centraux de la sensibilité rococo qu'il porte ici à son apogée.</p>",
+  "contemporaryArt": {
+    "title": "XVIIIe siècle • L'Âge des Lumières et l'effervescence des Fêtes galantes",
+    "events": [
+      "1751 : Début de la publication de l'Encyclopédie ou Dictionnaire raisonné des sciences, des arts et des métiers par Diderot et d'Alembert.",
+      "1756 – 1763 : Guerre de Sept Ans opposant la France et l'Angleterre, bouleversant l'équilibre des puissances européennes.",
+      "1762 : Jean-Jacques Rousseau publie 'Du contrat social' et 'Émile ou De l'éducation' à Amsterdam.",
+      "1774 : Mort de Louis XV ; avènement de Louis XVI et de Marie-Antoinette sur le trône de France.",
+      "1784 : Jacques-Louis David peint 'Le Serment des Horaces' à Rome, consacrant le triomphe du néoclassicisme héroïque."
+    ]
+  }
+},
+{
+  "id": "fragonard_paysage_bergers_moutons_1763",
+  "artistId": "fragonard",
+  "artist": "Fragonard Jean-Honoré",
+  "artistSort": "Fragonard Jean-Honoré",
+  "civId": "occident",
+  "periodId": "occ_temps_modernes",
+  "civName": "Occident : Siècle des Lumières & Rococo",
+  "century": "XVIIIe siècle (vers 1763-1765)",
+  "centuryDisplay": "XVIIIe s. (v. 1763)",
+  "centuryNumeric": 1763,
+  "domain": "peinture",
+  "artifactType": "Huile sur toile",
+  "title": "Paysage avec bergers et troupeau de moutons",
+  "site": "Collection particulière / France",
+  "originSite": "France / Italie",
+  "dimensions": "52 × 73 cm",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczOSAXqWA-D9AEiK79c9D9Hk2n507PKpkNp_CWnFJRJUDeTLO2ZaOzA_uySc9W_cJr-X95XZbcUdLxXPCiovwFPOEhGgOl6dS4RBfBdWApCJrt2GeYHBCV9wTuFObOYscihPwY_KnGY7oQy0KWcrk0PBpw=w1681-h1282-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczOSAXqWA-D9AEiK79c9D9Hk2n507PKpkNp_CWnFJRJUDeTLO2ZaOzA_uySc9W_cJr-X95XZbcUdLxXPCiovwFPOEhGgOl6dS4RBfBdWApCJrt2GeYHBCV9wTuFObOYscihPwY_KnGY7oQy0KWcrk0PBpw=w1681-h1282-s-no-gm?authuser=0",
+  "tags": [
+    "peinture",
+    "fragonard",
+    "paysage",
+    "bergers",
+    "moutons",
+    "pastorale",
+    "lumières",
+    "rococo"
+  ],
+  "chips": [
+    "XVIIIe s.",
+    "v. 1763",
+    "Rococo français",
+    "Huile sur toile",
+    "Pastorale bucolique"
+  ],
+  "desc": "<p>Peinte peu après le premier séjour romain de Fragonard (1756-1761), cette pastorale lumineuse témoigne de la profonde admiration de l'artiste pour les maîtres hollandais du Siècle d'or, en particulier Rembrandt et Jacob van Ruisdael, qu'il réinterprète avec la virtuosité et la légèreté propres au goût rococo français. La composition est structurée par un vaste tertre herbeux et accidenté qui s'élève en diagonale depuis le centre vers la droite. Sur ce chemin sablonneux et escarpé, un berger juché sur la crête guide la descente d'un troupeau compact de brebis, dont les dos laineux accrochent une vive traînée de clarté zénithale.</p><p>Au pied de la butte, au premier plan, la vie rurale s'organise autour d'un groupe intimiste éclairé par une trouée lumineuse. Une jeune bergère vêtue d'un corsage carmin éclatant — touche chromatique pure servant de point focal à l'ensemble — est assise près de son compagnon et d'un chien de garde, tandis que des vaches brunes et des moutons s'abreuvent ou se reposent parmi les broussailles. La touche de Fragonard, enlevée et crémeuse, saisit la texture des toisons, la fraîcheur des feuillages et la poussière soulevée par le bétail avec une spontanéité vibrante qui annonce les libertés formelles de sa maturité.</p><p>Le ciel d'azur, occupant toute la moitié supérieure gauche de la toile, apporte une remarquable respiration spatiale. De grands cumulus blancs et cotonneux montent en volutes vaporeuses, leurs ombres bleutées répondant aux masses sombres des bosquets d'arbres touffus qui ponctuent la colline. Dans l'échappée lointaine à gauche, au-delà d'un arbre isolé aux ramures sinueuses, les crêtes montagneuses s'estompent dans un dégradé atmosphérique argenté, conférant à cette scène champêtre une poésie bucolique à la fois grandiose et familière.</p>",
+  "contemporaryArt": {
+    "title": "XVIIIe siècle • L'Âge des Lumières et l'effervescence des Fêtes galantes",
+    "events": [
+      "1751 : Début de la publication de l'Encyclopédie ou Dictionnaire raisonné des sciences, des arts et des métiers par Diderot et d'Alembert.",
+      "1756 – 1763 : Guerre de Sept Ans opposant la France et l'Angleterre, bouleversant l'équilibre des puissances européennes.",
+      "1762 : Jean-Jacques Rousseau publie 'Du contrat social' et 'Émile ou De l'éducation' à Amsterdam.",
+      "1774 : Mort de Louis XV ; avènement de Louis XVI et de Marie-Antoinette sur le trône de France.",
+      "1784 : Jacques-Louis David peint 'Le Serment des Horaces' à Rome, consacrant le triomphe du néoclassicisme héroïque."
+    ]
+  }
+},
+{
+  "id": "fragonard_renaud_jardins_armide_louvre_1763",
+  "artistId": "fragonard",
+  "artist": "Fragonard Jean-Honoré",
+  "artistSort": "Fragonard Jean-Honoré",
+  "civId": "occident",
+  "periodId": "occ_temps_modernes",
+  "civName": "Occident : Siècle des Lumières & Rococo",
+  "century": "XVIIIe siècle (vers 1763)",
+  "centuryDisplay": "XVIIIe s. (v. 1763)",
+  "centuryNumeric": 1763,
+  "domain": "peinture",
+  "artifactType": "Huile sur toile",
+  "title": "Renaud dans les jardins d'Armide",
+  "site": "Musée du Louvre (Paris, France)",
+  "originSite": "Paris (France)",
+  "dimensions": "72 × 90 cm",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczORJGXHB2mL0jO_GvJrS5-mGzHdxMYvJdOZxiRC39G9kaD1c1xAihR8yG7Aux2v60RkDNsCyR1MX0LcKQCHvdKLRaB84JuvXIdXAJGAwhT2WbfoJsL-DbU1aVa7JLiUFxYP5_L8EKJHD54JiMMkTlJkHA=w1681-h1262-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczORJGXHB2mL0jO_GvJrS5-mGzHdxMYvJdOZxiRC39G9kaD1c1xAihR8yG7Aux2v60RkDNsCyR1MX0LcKQCHvdKLRaB84JuvXIdXAJGAwhT2WbfoJsL-DbU1aVa7JLiUFxYP5_L8EKJHD54JiMMkTlJkHA=w1681-h1262-s-no-gm?authuser=0",
+  "tags": [
+    "peinture",
+    "fragonard",
+    "renaud et armide",
+    "le tasse",
+    "louvre",
+    "peinture d'histoire",
+    "rococo",
+    "xviiie siècle"
+  ],
+  "chips": [
+    "XVIIIe s.",
+    "v. 1763",
+    "Rococo français",
+    "Huile sur toile",
+    "Musée du Louvre"
+  ],
+  "desc": "<p>Peinte vers 1763, l'œuvre Renaud dans les jardins d'Armide est une pièce magistrale de Jean-Honoré Fragonard, illustrant sa transition entre le grand style académique et la liberté fougueuse du rococo tardif. Inspiré par La Jérusalem délivrée du Tasse, ce tableau relate l'épisode où le chevalier croisé Renaud, ensorcelé par la magicienne Armide, oublie ses devoirs guerriers pour se livrer aux délices d'un jardin enchanté. Fragonard utilise ce prétexte littéraire pour déployer une composition d'une exubérance visuelle rare, où la nature et le sentiment se confondent dans un tourbillon de couleurs et de lumières.</p><p>La composition s'organise autour de Renaud, à droite, coiffé d'un casque empanaché et vêtu d'une armure de parade, déambulant au milieu d'une troupe de nymphes et d'amours. Il semble guidé ou retenu par ces figures féminines légères qui l'entourent de fleurs. À gauche, une figure féminine s'élève, peut-être Armide elle-même ou une allégorie du plaisir, émergeant d'une végétation luxuriante qui semble animée d'une vie propre. Au premier plan, des personnages sont allongés parmi des instruments de musique et des victuailles, renforçant l'idée d'un lieu dédié uniquement aux sens. L'espace est saturé par une architecture végétale vaporeuse qui se fond dans un ciel azur tourmenté.</p><p>Sur le plan descriptif, Fragonard fait preuve d'une technique de 'pinceau volant' absolument éblouissante. La touche est rapide, nerveuse, presque impressionniste avant l'heure. Les formes ne sont pas délimitées par des contours nets mais suggérées par des taches de lumière et de couleur. La palette est dominée par des bleus profonds, des ocres dorés et des touches de rose carmin, créant une atmosphère onirique et vibrante. La lumière semble jaillir du centre de la toile, inondant les corps et faisant scintiller les étoffes soyeuses.</p><p>L'œuvre se distingue par son incroyable dynamisme baroque revu par la sensibilité légère du XVIIIe siècle. Contrairement aux versions plus statiques de ses prédécesseurs, le jardin de Fragonard est un chaos organisé, une explosion de vie où les corps semblent flotter. C'est un hymne à l'imaginaire, à la magie et à la puissance de la peinture à créer des mondes éthérés.</p>",
+  "contemporaryArt": {
+    "title": "XVIIIe siècle • L'Âge des Lumières et l'effervescence des Fêtes galantes",
+    "events": [
+      "1751 : Début de la publication de l'Encyclopédie ou Dictionnaire raisonné des sciences, des arts et des métiers par Diderot et d'Alembert.",
+      "1756 – 1763 : Guerre de Sept Ans opposant la France et l'Angleterre, bouleversant l'équilibre des puissances européennes.",
+      "1762 : Jean-Jacques Rousseau publie 'Du contrat social' et 'Émile ou De l'éducation' à Amsterdam.",
+      "1774 : Mort de Louis XV ; avènement de Louis XVI et de Marie-Antoinette sur le trône de France.",
+      "1784 : Jacques-Louis David peint 'Le Serment des Horaces' à Rome, consacrant le triomphe du néoclassicisme héroïque."
+    ]
+  }
+},
+{
+  "id": "fragonard_musique_breteche_louvre_1769",
+  "artistId": "fragonard",
+  "artist": "Fragonard Jean-Honoré",
+  "artistSort": "Fragonard Jean-Honoré",
+  "civId": "occident",
+  "periodId": "occ_temps_modernes",
+  "civName": "Occident : Siècle des Lumières & Rococo",
+  "century": "XVIIIe siècle (1769)",
+  "centuryDisplay": "XVIIIe s. (1769)",
+  "centuryNumeric": 1769,
+  "domain": "peinture",
+  "artifactType": "Huile sur toile",
+  "title": "La Musique (Portrait de fantaisie de M. de La Bretèche)",
+  "site": "Musée du Louvre (Paris, France)",
+  "originSite": "Paris (France)",
+  "dimensions": "80 × 65 cm",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczOsl1EYp0veP8oY4lNSTUR0sJ_ws25tWhsL3t2ySOv4Gc_kBe1Z0_K2AFzp5A11SWyC6J8xJ2F8D0wwRkRSGnXrJqG_AUvBE9G2w2nbv_1blvBUHogcPi0W3diYFaOPkp8ucusIUbrA6vXhTXoQT19Z8g=w1681-h2007-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczOsl1EYp0veP8oY4lNSTUR0sJ_ws25tWhsL3t2ySOv4Gc_kBe1Z0_K2AFzp5A11SWyC6J8xJ2F8D0wwRkRSGnXrJqG_AUvBE9G2w2nbv_1blvBUHogcPi0W3diYFaOPkp8ucusIUbrA6vXhTXoQT19Z8g=w1681-h2007-s-no-gm?authuser=0",
+  "tags": [
+    "peinture",
+    "fragonard",
+    "la musique",
+    "portrait de fantaisie",
+    "la bretèche",
+    "louvre",
+    "fa presto",
+    "rococo"
+  ],
+  "chips": [
+    "XVIIIe s.",
+    "1769",
+    "Rococo français",
+    "Huile sur toile",
+    "Musée du Louvre"
+  ],
+  "desc": "<p>La Musique, peinte en 1769 par Jean-Honoré Fragonard, appartient à la célèbre série des « Portraits de fantaisie » réalisés par l'artiste en un temps record, selon la légende en une heure seulement par portrait. Cette œuvre, qui représente probablement M. de La Bretèche, frère du protecteur de l'artiste l'abbé de Saint-Non, témoigne de la virtuosité fulgurante de Fragonard. Elle marque une rupture avec le portrait traditionnel d'apparat pour privilégier l'expression de la vie, du mouvement et de l'enthousiasme créateur.</p><p>La composition présente un jeune homme à mi-corps, assis de dos mais tournant brusquement le visage vers le spectateur dans un mouvement de torsion dynamique. Il tient une guitare dont on devine le manche à gauche, tandis qu'à droite, une partition de musique aux pages blanches simplement esquissées semble flotter dans l'ombre. Le modèle porte un costume « à l'espagnole », fantaisie vestimentaire très en vogue à l'époque, composée d'un pourpoint jaune vif à manches tailladées et d'une fraise de dentelle blanche empesée. Son chapeau est orné d'imposantes plumes rouges qui accentuent le caractère flamboyant et théâtral de la figure.</p><p>L'aspect descriptif de la toile est une apothéose de la « fa presto » (exécution rapide). Fragonard utilise une touche large, grasse et visible, où le pinceau semble sculpter la matière directement sur la toile. Le jaune du vêtement est posé avec une assurance incroyable, captant la lumière par des empâtements vigoureux. Le visage est traité avec des couleurs fraîches et vives, des pommettes rosées et un regard brillant qui confèrent au modèle une présence presque électrique. Le fond sombre et indéterminé fait ressortir l'éclat des coloris et la force du trait, laissant la part belle à l'énergie du geste pictural.</p><p>Cette œuvre se distingue par sa modernité radicale. Plus qu'un portrait fidèle, c'est une allégorie de l'inspiration musicale et de la fougue artistique. La technique libérée de Fragonard, qui laisse apparaître par endroits la préparation de la toile, annonce les recherches des peintres du XIXe siècle.</p>",
+  "contemporaryArt": {
+    "title": "XVIIIe siècle • L'Âge des Lumières et l'effervescence des Fêtes galantes",
+    "events": [
+      "1751 : Début de la publication de l'Encyclopédie ou Dictionnaire raisonné des sciences, des arts et des métiers par Diderot et d'Alembert.",
+      "1756 – 1763 : Guerre de Sept Ans opposant la France et l'Angleterre, bouleversant l'équilibre des puissances européennes.",
+      "1762 : Jean-Jacques Rousseau publie 'Du contrat social' et 'Émile ou De l'éducation' à Amsterdam.",
+      "1774 : Mort de Louis XV ; avènement de Louis XVI et de Marie-Antoinette sur le trône de France.",
+      "1784 : Jacques-Louis David peint 'Le Serment des Horaces' à Rome, consacrant le triomphe du néoclassicisme héroïque."
+    ]
+  }
+},
+{
+  "id": "fragonard_jeune_artiste_louvre_1769",
+  "artistId": "fragonard",
+  "artist": "Fragonard Jean-Honoré",
+  "artistSort": "Fragonard Jean-Honoré",
+  "civId": "occident",
+  "periodId": "occ_temps_modernes",
+  "civName": "Occident : Siècle des Lumières & Rococo",
+  "century": "XVIIIe siècle (vers 1769)",
+  "centuryDisplay": "XVIIIe s. (v. 1769)",
+  "centuryNumeric": 1769,
+  "domain": "peinture",
+  "artifactType": "Huile sur toile",
+  "title": "Portrait d'un jeune artiste (Portrait de fantaisie)",
+  "site": "Musée du Louvre (Paris, France)",
+  "originSite": "Paris (France)",
+  "dimensions": "81,5 × 65,4 cm",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczMMPqLIOv2oHX0U1XPMt2Fwj8XPVyVtHM2BCl2b6X66xpPRrkKJlk51rQOjKL3zmo05L4-nAwGIv4TFDdvQsNT4QMK4tfSAzS8MQgN74x40cSP5B_9OISRWMk7UHPrpz_4x6x7Xv3M2_BshQj4Y55Jk5A=w1681-h2043-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczMMPqLIOv2oHX0U1XPMt2Fwj8XPVyVtHM2BCl2b6X66xpPRrkKJlk51rQOjKL3zmo05L4-nAwGIv4TFDdvQsNT4QMK4tfSAzS8MQgN74x40cSP5B_9OISRWMk7UHPrpz_4x6x7Xv3M2_BshQj4Y55Jk5A=w1681-h2043-s-no-gm?authuser=0",
+  "tags": [
+    "peinture",
+    "fragonard",
+    "portrait d'un jeune artiste",
+    "portrait de fantaisie",
+    "louvre",
+    "fa presto",
+    "brio",
+    "rococo"
+  ],
+  "chips": [
+    "XVIIIe s.",
+    "v. 1769",
+    "Rococo français",
+    "Huile sur toile",
+    "Musée du Louvre"
+  ],
+  "desc": "<p>Peint vers 1769 par Jean-Honoré Fragonard, ce tableau appartient à la célèbre série des « Portraits de fantaisie ». Réalisée, selon la légende, en une heure seulement (« en une heure de temps » comme l’indiquaient certaines inscriptions au dos des toiles), cette série marque un sommet de la virtuosité technique au XVIIIe siècle. L'œuvre ne cherche pas la ressemblance physique exacte, mais capture l'énergie créatrice et la fougue de l'esprit.</p><p>La composition est dynamique et théâtrale. Le jeune homme, traditionnellement identifié comme un artiste ou un écrivain, est saisi dans un moment d'arrêt soudain, le regard tourné vers une source d'inspiration invisible. Son costume, avec son grand col et ses tons chauds, n'est pas celui de l'époque de Fragonard, mais une évocation 'à l'espagnole' ou à la mode du XVIIe siècle, renforçant le caractère intemporel et romanesque de la figure.</p><p>Techniquement, Fragonard fait preuve d'une liberté d'exécution prodigieuse. La peinture est appliquée par touches larges, rapides et nerveuses, laissant parfois deviner le grain de la toile. On parle ici de 'brio' : la capacité à rendre la forme et la lumière par le seul mouvement du pinceau. Les reflets dorés sur le vêtement et le traitement vaporeux de la chevelure créent une vibration lumineuse qui semble émaner du personnage lui-même.</p><p>Ce portrait est une célébration du génie et de la liberté artistique. Loin des portraits de commande figés, Fragonard propose une vision de l'artiste comme un être habité par une force intérieure. Entrée au Louvre grâce au legs du Dr Louis La Caze en 1869, cette œuvre a exercé une influence majeure sur les peintres modernes par son audace picturale et sa modernité d'expression.</p>",
+  "contemporaryArt": {
+    "title": "XVIIIe siècle • L'Âge des Lumières et l'effervescence des Fêtes galantes",
+    "events": [
+      "1751 : Début de la publication de l'Encyclopédie ou Dictionnaire raisonné des sciences, des arts et des métiers par Diderot et d'Alembert.",
+      "1756 – 1763 : Guerre de Sept Ans opposant la France et l'Angleterre, bouleversant l'équilibre des puissances européennes.",
+      "1762 : Jean-Jacques Rousseau publie 'Du contrat social' et 'Émile ou De l'éducation' à Amsterdam.",
+      "1774 : Mort de Louis XV ; avènement de Louis XVI et de Marie-Antoinette sur le trône de France.",
+      "1784 : Jacques-Louis David peint 'Le Serment des Horaces' à Rome, consacrant le triomphe du néoclassicisme héroïque."
+    ]
+  }
+},
+{
+  "id": "fragonard_le_verrou_louvre_1777",
+  "artistId": "fragonard",
+  "artist": "Fragonard Jean-Honoré",
+  "artistSort": "Fragonard Jean-Honoré",
+  "civId": "occident",
+  "periodId": "occ_temps_modernes",
+  "civName": "Occident : Siècle des Lumières & Rococo",
+  "century": "XVIIIe siècle (vers 1777-1778)",
+  "centuryDisplay": "XVIIIe s. (v. 1777)",
+  "centuryNumeric": 1777,
+  "domain": "peinture",
+  "artifactType": "Huile sur toile",
+  "title": "Le Verrou",
+  "site": "Musée du Louvre (Paris, France)",
+  "originSite": "Paris (France)",
+  "dimensions": "73 × 93 cm",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczMPmmu_vtyUK9m08wbo372DhyZ6BM7o0sja8vaLAn8YI6a7Xi5KLEidtAZHfqSmQaVsIFMQkk_2CVNb7pIknkeQVwJgr5Kk3RxRO2omPO0BKTILQvjzTKMyBhJ6yB_ad5flyX7EZ3RUIjQim_zoQJAWDg=w1681-h1305-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczMPmmu_vtyUK9m08wbo372DhyZ6BM7o0sja8vaLAn8YI6a7Xi5KLEidtAZHfqSmQaVsIFMQkk_2CVNb7pIknkeQVwJgr5Kk3RxRO2omPO0BKTILQvjzTKMyBhJ6yB_ad5flyX7EZ3RUIjQim_zoQJAWDg=w1681-h1305-s-no-gm?authuser=0",
+  "tags": [
+    "peinture",
+    "fragonard",
+    "le verrou",
+    "louvre",
+    "scène galante",
+    "désir",
+    "clair-obscur",
+    "rococo",
+    "chef-d'œuvre"
+  ],
+  "chips": [
+    "XVIIIe s.",
+    "v. 1777",
+    "Rococo français",
+    "Huile sur toile",
+    "Musée du Louvre"
+  ],
+  "desc": "<p>Considéré comme l'un des chefs-d'œuvre absolus de Jean-Honoré Fragonard, Le Verrou, peint vers 1777-1778, constitue l'une des compositions les plus célèbres et les plus énigmatiques de l'art du XVIIIe siècle. Cette toile, qui s'inscrit dans la veine des scènes galantes, dépasse largement le simple cadre de la frivolité rococo pour proposer une mise en scène dramatique d'une intensité exceptionnelle. L'œuvre est souvent opposée, par son sujet et son traitement, à son pendant spirituel, L'Adoration des bergers, illustrant ainsi la dualité entre l'amour sacré et l'amour profane.</p><p>La composition est structurée sur une dynamique de diagonales violentes qui traduisent l'urgence et la passion de la scène. À droite, un jeune homme en chemise blanche, le corps tendu dans un effort physique marqué, s'élance pour pousser le verrou de la porte d'une chambre. De son autre bras, il enlace une jeune femme vêtue d'une robe de satin jaune doré qui semble osciller entre la résistance et l'abandon. Son visage, renversé, exprime une émotion complexe. À gauche, l'espace est envahi par un lit monumental aux lourds rideaux de velours rouge carmin, dont le désordre des draps froissés et des oreillers suggère un tumulte imminent ou passé.</p><p>Sur le plan descriptif, Fragonard fait preuve d'une maestria technique éblouissante, particulièrement dans le rendu des matières. Le contraste entre le blanc éclatant de la chemise d'homme, le soyeux nacré de la robe féminine et le rouge profond, presque théâtral, des draperies crée un choc visuel puissant. La lumière est le véritable moteur dramatique de la toile : un faisceau rasant vient frapper le bras du jeune homme et le verrou, laissant le reste de la pièce dans une pénombre suggestive. On remarque au premier plan, sur une table, une pomme solitaire, clin d'œil iconographique au fruit défendu et à la chute originelle, renforçant la dimension morale ou allégorique du sujet.</p><p>L'œuvre se distingue par son incroyable modernité de touche. Fragonard utilise une facture fougueuse, où les coups de pinceau visibles apportent une vibration d'énergie à l'ensemble de la scène. Cette ambiguïté, servie par une mise en scène digne d'un décor d'opéra, fait du Verrou une méditation complexe sur le désir, la transgression et l'intimité, affirmant le génie de Fragonard à saisir l'instant où tout bascule.</p>",
+  "contemporaryArt": {
+    "title": "XVIIIe siècle • L'Âge des Lumières et l'effervescence des Fêtes galantes",
+    "events": [
+      "1751 : Début de la publication de l'Encyclopédie ou Dictionnaire raisonné des sciences, des arts et des métiers par Diderot et d'Alembert.",
+      "1756 – 1763 : Guerre de Sept Ans opposant la France et l'Angleterre, bouleversant l'équilibre des puissances européennes.",
+      "1762 : Jean-Jacques Rousseau publie 'Du contrat social' et 'Émile ou De l'éducation' à Amsterdam.",
+      "1774 : Mort de Louis XV ; avènement de Louis XVI et de Marie-Antoinette sur le trône de France.",
+      "1784 : Jacques-Louis David peint 'Le Serment des Horaces' à Rome, consacrant le triomphe du néoclassicisme héroïque."
+    ]
+  }
+},
+{
+  "id": "fragonard_feu_aux_poudres_louvre_1778",
+  "artistId": "fragonard",
+  "artist": "Fragonard Jean-Honoré",
+  "artistSort": "Fragonard Jean-Honoré",
+  "civId": "occident",
+  "periodId": "occ_temps_modernes",
+  "civName": "Occident : Siècle des Lumières & Rococo",
+  "century": "XVIIIe siècle (avant 1778)",
+  "centuryDisplay": "XVIIIe s. (av. 1778)",
+  "centuryNumeric": 1778,
+  "domain": "peinture",
+  "artifactType": "Huile sur toile",
+  "title": "Le Feu aux poudres",
+  "site": "Musée du Louvre (Paris, France)",
+  "originSite": "Paris (France)",
+  "dimensions": "37 × 45 cm",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczPZWK00HTX4yObKQ-kv5veJaOkR2ioJdnZ_wzwytuTljLAaGgVWX0-mVxeDTuA6OLOY2xLKc2Y9ingxiXp4KgxSTnvczdZN2LzPBDhJ8vM31dVG2eCbt8bghT7zzTyndFsyTPrUjuxi9nSOWx2OuTa0Bw=w1681-h1420-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczPZWK00HTX4yObKQ-kv5veJaOkR2ioJdnZ_wzwytuTljLAaGgVWX0-mVxeDTuA6OLOY2xLKc2Y9ingxiXp4KgxSTnvczdZN2LzPBDhJ8vM31dVG2eCbt8bghT7zzTyndFsyTPrUjuxi9nSOWx2OuTa0Bw=w1681-h1420-s-no-gm?authuser=0",
+  "tags": [
+    "peinture",
+    "fragonard",
+    "le feu aux poudres",
+    "louvre",
+    "libertinage",
+    "amours",
+    "rococo",
+    "xviiie siècle"
+  ],
+  "chips": [
+    "XVIIIe s.",
+    "av. 1778",
+    "Rococo français",
+    "Huile sur toile",
+    "Musée du Louvre"
+  ],
+  "desc": "<p>Peinte avant 1778 par Jean-Honoré Fragonard, cette huile sur toile de petit format (37 × 45 cm) est l'une des expressions les plus audacieuses et licencieuses de l'esprit libertin du XVIIIe siècle. Elle illustre parfaitement la 'manière de faire' de Fragonard : une exécution rapide, presque fiévreuse, où la touche de peinture semble aussi libre que le sujet qu'elle représente.</p><p>La scène se déroule dans une alcôve baignée d'une lumière chaude et tamisée. Une jeune femme, dont la nudité est partiellement dévoilée par une chemise glissant sur ses épaules, est étendue sur un lit de repos. Elle est entourée de deux petits Amours (ou putti) ailés. L'un d'eux brandit une torche allumée, symbole explicite du désir naissant, tandis que l'autre semble s'amuser du trouble de la jeune femme. Le titre, 'Le Feu aux poudres', est une métaphore transparente de l'embrasement des sens et de l'irruption de la passion.</p><p>Techniquement, l'œuvre est un festival de textures et de reflets. Fragonard utilise une palette dominée par des ocres, des blancs nacrés pour la chair et des rouges profonds pour les draperies du baldaquin. Le traitement des draps, jetés en désordre, témoigne d'une virtuosité incroyable : la peinture est appliquée avec une telle rapidité que l'on sent encore le mouvement du pinceau. Cette liberté formelle renforce l'aspect éphémère et instinctif de la scène.</p><p>Ce tableau incarne la 'petite manière' de Fragonard, destinée à des cabinets de collectionneurs privés cherchant des œuvres à la fois spirituelles et galantes. Loin des grandes compositions académiques, il célèbre une forme de bonheur terrestre et de plaisir sans culpabilité. Entré au Louvre en 1942 (collection Carlos de Beistegui), il reste l'un des témoignages les plus vibrants de la France des Lumières.</p>",
+  "contemporaryArt": {
+    "title": "XVIIIe siècle • L'Âge des Lumières et l'effervescence des Fêtes galantes",
+    "events": [
+      "1751 : Début de la publication de l'Encyclopédie ou Dictionnaire raisonné des sciences, des arts et des métiers par Diderot et d'Alembert.",
+      "1756 – 1763 : Guerre de Sept Ans opposant la France et l'Angleterre, bouleversant l'équilibre des puissances européennes.",
+      "1762 : Jean-Jacques Rousseau publie 'Du contrat social' et 'Émile ou De l'éducation' à Amsterdam.",
+      "1774 : Mort de Louis XV ; avènement de Louis XVI et de Marie-Antoinette sur le trône de France.",
+      "1784 : Jacques-Louis David peint 'Le Serment des Horaces' à Rome, consacrant le triomphe du néoclassicisme héroïque."
+    ]
+  }
+},
+{
   "id": "fra_angelico_bapteme_christ_cellule24_san_marco_1440",
   "artistId": "fra_angelico",
   "artist": "Fra Angelico (Guido di Pietro)",
