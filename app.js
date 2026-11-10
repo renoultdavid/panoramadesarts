@@ -3744,10 +3744,13 @@ const DOMAIN_ICONS = {
 // Liaison sélective : sélection typologique équilibrée par grands domaines (sculpture, peinture, céramique, funéraire, orfèvrerie)
 window.addEventListener('DOMContentLoaded', () => {
   if (window.ART_OBJECTS && window.ART_OBJECTS.length > 0) {
-    // Normalisation préventive des images (fallback image / img vers imgSrc) et des types d'œuvres
+    // Normalisation préventive des images (fallback image / img vers imgSrc et réciproque) et des types d'œuvres
     window.ART_OBJECTS.forEach(art => {
       if (!art.imgSrc && (art.image || art.img)) {
         art.imgSrc = art.image || art.img;
+      }
+      if (!art.image && art.imgSrc) {
+        art.image = art.imgSrc;
       }
       if (!art.domain && (art.type || art.medium)) {
         art.domain = 'peinture';
@@ -5392,6 +5395,9 @@ function renderArtistVerticalTimeline(artistRecord, timelineData, artistArts) {
             hasMonograph = Boolean(linkedRec);
           }
 
+          const eventTitle = evt.title || evt.label || (matchingArt ? matchingArt.title : (evt.year ? `Jalon ${evt.year}` : 'Événement marquant'));
+          const eventDesc = evt.desc || evt.text || (matchingArt ? (matchingArt.site || matchingArt.currentLocation || '') : '');
+
           card.innerHTML = `
             <div class="v-card-top">
               <span class="v-card-year">${evt.year ? `${evt.year}` : ''}</span>
@@ -5399,11 +5405,11 @@ function renderArtistVerticalTimeline(artistRecord, timelineData, artistArts) {
                 ${isArtworkNode ? "CHEF-D'ŒUVRE" : (evt.type === 'history' ? 'HISTOIRE' : (evt.type === 'peer' ? 'RENCONTRE / RIVALITÉ' : 'TOURNANT DE VIE'))}
               </span>
             </div>
-            <div class="v-card-title">${escapeHtmlAttr(evt.title || evt.label || '')}</div>
-            <div class="v-card-desc">${escapeHtmlAttr(evt.desc || evt.text || '')}</div>
+            <div class="v-card-title">${escapeHtmlAttr(eventTitle)}</div>
+            ${eventDesc ? `<div class="v-card-desc">${escapeHtmlAttr(eventDesc)}</div>` : ''}
             ${matchingArt ? `
               <div class="v-card-artwork-preview">
-                <img class="v-card-art-thumb" src="${matchingArt.imgSrc}" alt="${escapeHtmlAttr(matchingArt.title)}" loading="lazy" />
+                <img class="v-card-art-thumb" src="${matchingArt.imgSrc || matchingArt.image || ''}" alt="${escapeHtmlAttr(matchingArt.title)}" loading="lazy" />
                 <div class="v-card-art-meta">
                   <span class="v-card-art-title">${escapeHtmlAttr(matchingArt.title)}</span>
                   <span class="v-card-art-sub">${matchingArt.site || matchingArt.currentLocation || 'Collection'} • ${matchingArt.centuryDisplay || matchingArt.century || ''}</span>
@@ -10015,7 +10021,7 @@ function createGalleryCardElement(art, modalList) {
 
   card.innerHTML = `
     <div class="gallery-card-pedestal" style="position: relative;">
-      <img src="${art.imgSrc}" alt="${art.title}" loading="lazy" />
+      <img src="${art.imgSrc || art.image || ''}" alt="${escapeHtmlAttr(art.title)}" loading="lazy" />
       ${hasFocus ? `
         <span class="badge-corner-focus" title="Mode Focus disponible">
           <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
