@@ -7651,6 +7651,13 @@ function populateModalData(art) {
 }
 
 const CERTIFIED_PAINTING_DIMENSIONS = {
+  // Frans Hals (4 chefs-d'œuvre - Musée du Louvre, Paris)
+  "hals_paulus_van_beresteyn_louvre_1619": { h: 139.5, w: 102.5, display: "139,5 × 102,5 cm (Musée du Louvre, Paris)" },
+  "hals_le_bouffon_au_luth_louvre_1624": { h: 70, w: 62, display: "70 × 62 cm (Musée du Louvre, Paris)" },
+  "hals_la_bohemienne_louvre_1628": { h: 58, w: 52, display: "58 × 52 cm (Musée du Louvre, Paris)" },
+  "hals_portrait_de_femme_louvre_1650": { h: 108, w: 80, display: "108 × 80 cm (Musée du Louvre, Paris)" },
+
+
   // Juan Gris (Musée des Beaux-Arts de Rennes / Centre Pompidou MNAM)
   "gris_le_livre_ouvert_rennes_1925": { h: 33.3, w: 40.8, display: "33,3 × 40,8 cm (Musée des Beaux-Arts de Rennes / Centre Pompidou)" },
 

@@ -2,6 +2,162 @@
    REGISTRE DES PEINTRES & NOTICES MONOGRAPHIQUES
    ========================================================================== */
 window.ARTISTS_REGISTRY = {
+  "hals": {
+    "id": "hals",
+    "name": "Hals Frans",
+    "sortName": "Hals Frans",
+    "sortLetter": "H",
+    "dates": "vers 1582 – 1666",
+    "movement": "Âge d'or hollandais, Baroque des Provinces-Unies & Peinture de portrait alla prima",
+    "nationality": "Néerlandais",
+    "techniques": "Huile sur toile, huile sur panneau de chêne, touche alla prima en pâte fraîche, tronies",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczO-tPoDCukxJdyCNxQ8pKFMXdJZ_CnkRNcYq7ffJNjrfSpmRXUD3HHVja0ujNLjunCfkR3qPv6DXXmqTm8W9P32IghldjbQ39udZ6B_7DB8CWonSYwXDMghrsDN-soAVegdeyz6CeyvqQt6g0u4gKSj0Q=w1681-h713-s-no-gm?authuser=0",
+    "bio": "<p>Frans Hals (v. 1582 – 1666) est le grand maître du portrait baroque néerlandais et l'un des peintres les plus novateurs de l'Âge d'or. Établi à Haarlem, il a révolutionné l'art du portrait en y introduisant une vitalité et une spontanéité jusque-là inconnues, capturant l'instant fugace d'un rire ou d'un mouvement avec une liberté de pinceau qui fascinera les impressionnistes deux siècles plus tard.</p><p>Son genre pictural se définit par le portrait psychologique et le portrait de groupe. Contrairement à la précision léchée de ses contemporains, Hals utilise une touche «alla prima« (dans le frais), visible et vigoureuse. Son style se caractérise par une économie de moyens extraordinaire : quelques traits de pinceau audacieux suffisent à rendre le brillant d'une collerette en dentelle ou l'étincelle dans le regard d'un modèle. Il est le peintre de l'immédiateté et de la présence physique.</p><p>L'évolution de son style marque un passage de l'exubérance colorée vers une sobriété sombre et monumentale :</p><p>L'éclat des milices (années 1610-1630) : Ses premiers grands portraits de groupe, comme ceux des officiers de Saint-Georges, sont des explosions de couleurs et de joie de vivre. Les personnages semblent surpris en pleine conversation, brisant la rigidité habituelle des portraits de confréries.</p><p>La maturité et le portrait de genre (années 1630-1650) : Il peint des figures populaires (musiciens, enfants riant, buveurs) avec une technique de plus en plus libre. C'est l'époque du célèbre Cavalier souriant, où il démontre une virtuosité technique époustouflante dans les détails vestimentaires tout en conservant une expression vive.</p><p>La période sombre et dépouillée (fin de carrière) : À la fin de sa vie, sa palette se restreint presque exclusivement aux noirs, aux blancs et aux gris. Ses derniers portraits de groupe (les régentes et régents de l'hospice de vieillards) atteignent une profondeur tragique. La touche devient plus large, presque abstraite, se concentrant sur l'essence psychologique des modèles plutôt que sur leur apparence sociale. Oeuvres : L'inventaire mondial s'appuie aujourd'hui sur un véritable duel scientifique entre deux immenses spécialistes. D'un côté, le catalogue raisonné classique de l'historien de l'art américain Seymour Slive (publié entre 1970 et 1974), qui a fait autorité pendant des décennies. De l'autre, l'expert allemand Claus Grimm (qui vient d'achever en 2023-2024 un nouveau catalogue raisonné numérique monumental avec l'Institut néerlandais d'histoire de l'art, le RKD).</p><p>Alors que Seymour Slive avait validé 222 peintures, Claus Grimm a mené une purge impitoyable des œuvres d'atelier pour réduire le corpus strictement autographe du maître à environ 145 œuvres. Donc 145. Oeuvres :</p>",
+    "totalOeuvresEstimees": "145 peintures autographes",
+    "oeuvresConsensusNotice": "L'inventaire mondial s'appuie aujourd'hui sur un véritable duel scientifique entre deux immenses spécialistes. D'un côté, le catalogue raisonné classique de l'historien de l'art américain Seymour Slive (publié entre 1970 et 1974), qui a fait autorité pendant des décennies avec 222 peintures validées. De l'autre, l'expert allemand Claus Grimm (qui a achevé en 2023-2024 un nouveau catalogue raisonné numérique monumental avec l'Institut néerlandais d'histoire de l'art, le RKD) a mené une purge impitoyable des œuvres d'atelier pour réduire le corpus strictement autographe du maître à environ 145 œuvres. Donc 145.",
+    "timeline": {
+        "periods": [
+            {
+                "title": "Vers 1582 – 1618 : La jeunesse anversoise, l'installation à Haarlem et la guilde de Saint-Luc",
+                "years": "vers 1582 – 1618",
+                "color": "#0284c7",
+                "desc": "Origines flamandes, apprentissage chez Karel van Mander et entrée à la guilde de Saint-Luc de Haarlem.",
+                "summary": "Né à Anvers, Frans Hals fuit les Flandres espagnoles après 1585 pour s'établir avec sa famille dans la dynamique cité calviniste de Haarlem. Formé par Karel van Mander, il entre dans la guilde des peintres en 1610 et révolutionne d'emblée le portrait de milice avec le Banquet des officiers du corps des archers de Saint-Georges (1616).",
+                "events": [
+                    {
+                        "year": 1582,
+                        "title": "Naissance à Anvers",
+                        "desc": "Naît vers 1582/1583 à Anvers dans une famille de marchands drapiers.",
+                        "icon": "🌟",
+                        "badge": "Origines"
+                    },
+                    {
+                        "year": 1585,
+                        "title": "Exil de la famille vers Haarlem",
+                        "desc": "Fuyant la prise d'Anvers par les troupes espagnoles du duc de Parme, la famille s'installe en Hollande.",
+                        "icon": "⚓",
+                        "badge": "Exil"
+                    },
+                    {
+                        "year": 1600,
+                        "title": "Apprentissage chez Karel van Mander",
+                        "desc": "Se forme auprès du grand théoricien et peintre maniériste Karel van Mander.",
+                        "icon": "🎨",
+                        "badge": "Formation"
+                    },
+                    {
+                        "year": 1610,
+                        "title": "Maître à la Guilde de Saint-Luc de Haarlem",
+                        "desc": "Reçu maître peintre indépendant et épouse Anneke Harmensdochter.",
+                        "icon": "📜",
+                        "badge": "Guilde"
+                    },
+                    {
+                        "year": 1616,
+                        "title": "Le Banquet des officiers de Saint-Georges",
+                        "desc": "Célèbre portrait de groupe qui brise la rigidité traditionnelle et fonde sa renommée magistrale.",
+                        "icon": "⚔️",
+                        "badge": "Milice"
+                    }
+                ]
+            },
+            {
+                "title": "1619 – 1630 : L'éclat des milices, l'invention du portrait baroque et les tronies musicales",
+                "years": "1619 – 1630",
+                "color": "#10b981",
+                "desc": "Le portrait de Beresteyn, Le Bouffon au luth, La Bohémienne et la vitalité virtuose de la touche.",
+                "summary": "Durant cette décennie d'or, Hals devient le maître adulé des élites et du peuple de Haarlem. Il capture avec une spontanéité photographique avant l'heure la gaieté des tronies populaires, des musiciens et des marchands, inventant une touche enlevée alla prima sans équivalent.",
+                "events": [
+                    {
+                        "year": 1619,
+                        "title": "Portrait de Paulus van Beresteyn (Louvre)",
+                        "desc": "Monumental portrait d'un homme de loi influent de Haarlem alliant dignité patricienne et éclat des dentelles (Louvre).",
+                        "type": "masterpiece",
+                        "icon": "🎨",
+                        "artworkId": "hals_paulus_van_beresteyn_louvre_1619"
+                    },
+                    {
+                        "year": 1624,
+                        "title": "Le Cavalier souriant & Le Bouffon au luth (Louvre)",
+                        "desc": "Chef-d'œuvre absolu de tronie musicale saisissant le rire communicatif et la virtuosité des touches rapides (Louvre).",
+                        "type": "masterpiece",
+                        "icon": "🎨",
+                        "artworkId": "hals_le_bouffon_au_luth_louvre_1624"
+                    },
+                    {
+                        "year": 1628,
+                        "title": "La Bohémienne (Musée du Louvre)",
+                        "desc": "Icône révolutionnaire de la peinture occidentale : sourire malicieux, décolleté libre et liberté gestuelle saisissante (Louvre).",
+                        "type": "masterpiece",
+                        "icon": "🎨",
+                        "artworkId": "hals_la_bohemienne_louvre_1628"
+                    }
+                ]
+            },
+            {
+                "title": "1631 – 1649 : La maturité triomphante, la facture libre et les portraits bourgeois",
+                "years": "1631 – 1649",
+                "color": "#d97706",
+                "desc": "Commandes prestigieuses d'Amsterdam, portraits de régents et portrait de René Descartes.",
+                "summary": "Frans Hals reçoit des commandes au-delà de Haarlem, peignant la Compagnie du capitaine Reynier Reael pour Amsterdam (La Maigre Compagnie). Sa palette s'assagit pour explorer la somptueuse gamme des noirs, des gris et des blancs crayeux qui éblouiront les peintres modernes.",
+                "events": [
+                    {
+                        "year": 1633,
+                        "title": "Banquet des officiers du corps des archers de Saint-Adrien",
+                        "desc": "Troisième grand chef-d'œuvre de groupe pour les gardes civiques de Haarlem.",
+                        "icon": "🏛️",
+                        "badge": "Corporation"
+                    },
+                    {
+                        "year": 1636,
+                        "title": "La Maigre Compagnie (Rijksmuseum Amsterdam)",
+                        "desc": "Prestigieuse commande amstellodamoise commencée par Hals et achevée par Pieter Codde.",
+                        "icon": "🎨",
+                        "badge": "Amsterdam"
+                    },
+                    {
+                        "year": 1649,
+                        "title": "Portrait du philosophe René Descartes",
+                        "desc": "Saisit les traits vifs et pénétrants de l'auteur du Discours de la méthode alors en exil aux Pays-Bas (Copenhague/Louvre).",
+                        "icon": "📖",
+                        "badge": "Philosophie"
+                    }
+                ]
+            },
+            {
+                "title": "1650 – 1666 : La manière large, l'austérité crépusculaire et la gloire posthume",
+                "years": "1650 – 1666",
+                "color": "#dc2626",
+                "desc": "Le Portrait de femme du Louvre, les Régents et Régentes de l'hospice et la fin solitaire à Haarlem.",
+                "summary": "Bien que frappé par la pauvreté et recevant une pension municipale de Haarlem, le vieux maître peint ses testaments les plus profonds : des portraits austères d'une puissance psychologique tragique, annonçant par leur pâte brossée l'expressionnisme et la modernité picturale.",
+                "events": [
+                    {
+                        "year": 1650,
+                        "title": "Portrait d'une femme de trente-cinq ans (Louvre)",
+                        "desc": "Magistrale étude de présence humaine et de modulation des noirs et blancs calvinistes (Musée du Louvre).",
+                        "type": "masterpiece",
+                        "icon": "🎨",
+                        "artworkId": "hals_portrait_de_femme_louvre_1650"
+                    },
+                    {
+                        "year": 1664,
+                        "title": "Les Régents et Régentes de l'hospice des vieillards",
+                        "desc": "Derniers chefs-d'œuvre absolus de Hals, peints à plus de 80 ans au sommet d'une liberté picturale tragique.",
+                        "icon": "🏛️",
+                        "badge": "Testament"
+                    },
+                    {
+                        "year": 1666,
+                        "title": "Mort de Frans Hals à Haarlem",
+                        "desc": "Inhumé le 1er septembre 1666 dans le chœur de l'église Saint-Bavon de Haarlem ; son génie sera redécouvert au XIXe siècle par Manet et les impressionnistes.",
+                        "icon": "🕊️",
+                        "badge": "Éternité"
+                    }
+                ]
+            }
+        ]
+    }
+},
   "grosz": {
     "id": "grosz",
     "name": "Grosz George",

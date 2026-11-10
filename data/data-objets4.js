@@ -16,6 +16,134 @@
    ========================================================================== */
 window.ART_OBJECTS = [
 {
+    "id": "hals_paulus_van_beresteyn_louvre_1619",
+    "artistId": "hals",
+    "artist": "Hals Frans",
+    "artistSort": "Hals Frans",
+    "title": "Portrait de Paulus van Beresteyn (Homme de loi à Haarlem)",
+    "date": "1619",
+    "dateDisplay": "1619",
+    "century": "XVIIe siècle",
+    "centuryDisplay": "XVIIe s. (1619)",
+    "centuryNumeric": 1619,
+    "medium": "Peinture à l'huile sur toile",
+    "dimensions": "139,5 × 102,5 cm",
+    "location": "Musée du Louvre, Paris",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczPfpcruQ7xiA_102hYnt8QLKLNcCRg32CkIYpDDvH0EcfT8lAkSqWgwgBmhDVEjLVl5oC5v3BqgItd8cKePoiQE6YTE0O2B59w4kne51WVp8N-cPFcNKkgTL51v151z4sO98cNettmxq7jJUhiUOEwlXg=w1681-h2232-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczPfpcruQ7xiA_102hYnt8QLKLNcCRg32CkIYpDDvH0EcfT8lAkSqWgwgBmhDVEjLVl5oC5v3BqgItd8cKePoiQE6YTE0O2B59w4kne51WVp8N-cPFcNKkgTL51v151z4sO98cNettmxq7jJUhiUOEwlXg=w1681-h2232-s-no-gm?authuser=0",
+    "civilization": "Pays-Bas",
+    "subpart": "Portraits de notables et corporations du Siècle d'or hollandais",
+    "type": "Peinture",
+    "desc": "<p>Peint en 1619, ce portrait est l'un des premiers chefs-d'œuvre de Frans Hals à son arrivée à Haarlem. Paulus van Beresteyn était un éminent homme de loi et un membre influent de la bourgeoisie locale. Cette œuvre, qui forme une paire avec le portrait de son épouse Catharina Both van der Eem (également au Louvre), illustre parfaitement la naissance du portrait baroque hollandais : une alliance entre la dignité du rang et une vitalité nouvelle dans l'exécution.</p><p>L'analyse de la composition montre un homme sûr de lui, posant de trois-quarts, la main droite sur la hanche dans une attitude de commandement alors que la main gauche tient son chapeau. Hals utilise ici un cadrage aux trois-quarts qui donne une stature monumentale au modèle. Le blason familial, situé en haut à droite, rappelle les origines nobles ou patriciennes du sujet. Ce qui frappe, c'est le contraste entre la sévérité du costume noir — symbole de probité et de richesse — et l'incroyable exécution de la fraise (le col de dentelle) et des manchettes.</p><p>La technique de Hals, bien que plus contenue que dans ses œuvres tardives, montre déjà sa fascination pour la lumière et la texture. La dentelle du col est rendue avec une précision qui suggère la transparence et la finesse sans être laborieuse. On note également le travail sur les broderies d'or des manches, où la touche du peintre se fait plus libre. Le visage est traité avec une grande finesse psychologique ; le regard est vif, presque malicieux, typique de cette capacité de Hals à rendre ses modèles «vivants«. Cette œuvre marque le début d'une carrière où Hals deviendra le portraitiste préféré des élites de Haarlem, révolutionnant le genre par l'énergie de son pinceau.</p>",
+    "narrative": "<p>Peint en 1619, ce portrait est l'un des premiers chefs-d'œuvre de Frans Hals à son arrivée à Haarlem. Paulus van Beresteyn était un éminent homme de loi et un membre influent de la bourgeoisie locale. Cette œuvre, qui forme une paire avec le portrait de son épouse Catharina Both van der Eem (également au Louvre), illustre parfaitement la naissance du portrait baroque hollandais : une alliance entre la dignité du rang et une vitalité nouvelle dans l'exécution.</p><p>L'analyse de la composition montre un homme sûr de lui, posant de trois-quarts, la main droite sur la hanche dans une attitude de commandement alors que la main gauche tient son chapeau. Hals utilise ici un cadrage aux trois-quarts qui donne une stature monumentale au modèle. Le blason familial, situé en haut à droite, rappelle les origines nobles ou patriciennes du sujet. Ce qui frappe, c'est le contraste entre la sévérité du costume noir — symbole de probité et de richesse — et l'incroyable exécution de la fraise (le col de dentelle) et des manchettes.</p><p>La technique de Hals, bien que plus contenue que dans ses œuvres tardives, montre déjà sa fascination pour la lumière et la texture. La dentelle du col est rendue avec une précision qui suggère la transparence et la finesse sans être laborieuse. On note également le travail sur les broderies d'or des manches, où la touche du peintre se fait plus libre. Le visage est traité avec une grande finesse psychologique ; le regard est vif, presque malicieux, typique de cette capacité de Hals à rendre ses modèles «vivants«. Cette œuvre marque le début d'une carrière où Hals deviendra le portraitiste préféré des élites de Haarlem, révolutionnant le genre par l'énergie de son pinceau.</p>",
+    "contemporaryArt": {
+      "title": "Le Siècle d'Or hollandais • L'Essor des Provinces-Unies & La Paix de Westphalie",
+      "events": [
+        "1609 : Trêve de douze ans entre les Provinces-Unies et l'Empire espagnol.",
+        "1619 : Exécution de Van Oldenbarnevelt ; affirmation de la bourgeoisie calviniste de Haarlem et d'Amsterdam.",
+        "1628 : Capture de la flotte d'argent espagnole par Piet Hein ; apogée commercial de la VOC.",
+        "1648 : Traité de Münster (Paix de Westphalie) consacrant l'indépendance totale des Provinces-Unies.",
+        "1666 : Mort de Frans Hals à Haarlem, laissant une descendance de peintres et un atelier influent."
+      ]
+    }
+  },
+  {
+    "id": "hals_le_bouffon_au_luth_louvre_1624",
+    "artistId": "hals",
+    "artist": "Hals Frans",
+    "artistSort": "Hals Frans",
+    "title": "Le Bouffon au luth (Le Joueur de luth)",
+    "date": "1624",
+    "dateDisplay": "vers 1623–1624",
+    "century": "XVIIe siècle",
+    "centuryDisplay": "XVIIe s. (vers 1623–1624)",
+    "centuryNumeric": 1624,
+    "medium": "Peinture à l'huile sur toile",
+    "dimensions": "70 × 62 cm",
+    "location": "Musée du Louvre, Paris",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczPZZ4egk1gK_556o5aQ8ETUB1taIHanAW_4oylQh0fKmD63ssQvDOMJ46KL19cMbwUihW2X1pI4vydDpf0eMcgAz8b4UMB2Ozx8B4XE8_18hGrNy0aP6HWQ59itlTc1QrhkFmXzIAfiAaXLPXWXsBhbVg=w1681-h2090-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczPZZ4egk1gK_556o5aQ8ETUB1taIHanAW_4oylQh0fKmD63ssQvDOMJ46KL19cMbwUihW2X1pI4vydDpf0eMcgAz8b4UMB2Ozx8B4XE8_18hGrNy0aP6HWQ59itlTc1QrhkFmXzIAfiAaXLPXWXsBhbVg=w1681-h2090-s-no-gm?authuser=0",
+    "civilization": "Pays-Bas",
+    "subpart": "Tronies et scènes de genre musicales du Siècle d'or hollandais",
+    "type": "Peinture",
+    "desc": "<p>Le Bouffon au luth de Frans Hals Chef-d'œuvre de la période de maturité précoce de Frans Hals, Le Bouffon au luth (peint vers 1623-1624) est une démonstration éclatante de la capacité de l'artiste à capturer l'éphémère : un rire, un regard, un mouvement. Cette œuvre appartient au genre des tronies, où le peintre s'intéresse moins à l'identité précise du modèle qu'à l'étude d'une expression ou d'un type social. Ici, il s'agit d'un musicien vêtu d'un costume de bouffon rayé de rouge et de noir, un sujet très populaire au XVIIe siècle, influencé par les «Caravagesques d'Utrecht« comme Gerard van Honthorst.</p><p>L'analyse de la composition souligne une spontanéité presque photographique. Le musicien est représenté dans un cadrage serré, tourné de trois-quarts, le visage levé vers la gauche avec un sourire malicieux et les yeux brillants d'une joie communicative. Cette posture crée une dynamique diagonale qui donne vie au personnage. La main droite gratte les cordes tandis que la gauche pince le manche du luth, un instrument rendu avec une précision technique qui témoigne de la connaissance musicale de l'époque. La lumière, venant de la gauche, sculpte le visage et fait ressortir les reflets sur le bois verni de l'instrument.</p><p>La technique de Hals, faite de touches rapides et apparentes, atteint ici une virtuosité stupéfiante. Observez le traitement des manchettes et du col : les coups de pinceau sont posés avec une liberté qui, de près, semble abstraite, mais qui, à distance, restitue parfaitement le volume et la texture du tissu. La palette est vibrante, dominée par le contraste entre le noir profond, le rouge vif du costume et les tons dorés du luth. Par cette œuvre, Frans Hals ne se contente pas d'illustrer une scène de divertissement ; il parvient à matérialiser le son et la gaieté, faisant de ce bouffon l'une des images les plus vivantes et les plus sympathiques de l'art hollandais.</p>",
+    "narrative": "<p>Le Bouffon au luth de Frans Hals Chef-d'œuvre de la période de maturité précoce de Frans Hals, Le Bouffon au luth (peint vers 1623-1624) est une démonstration éclatante de la capacité de l'artiste à capturer l'éphémère : un rire, un regard, un mouvement. Cette œuvre appartient au genre des tronies, où le peintre s'intéresse moins à l'identité précise du modèle qu'à l'étude d'une expression ou d'un type social. Ici, il s'agit d'un musicien vêtu d'un costume de bouffon rayé de rouge et de noir, un sujet très populaire au XVIIe siècle, influencé par les «Caravagesques d'Utrecht« comme Gerard van Honthorst.</p><p>L'analyse de la composition souligne une spontanéité presque photographique. Le musicien est représenté dans un cadrage serré, tourné de trois-quarts, le visage levé vers la gauche avec un sourire malicieux et les yeux brillants d'une joie communicative. Cette posture crée une dynamique diagonale qui donne vie au personnage. La main droite gratte les cordes tandis que la gauche pince le manche du luth, un instrument rendu avec une précision technique qui témoigne de la connaissance musicale de l'époque. La lumière, venant de la gauche, sculpte le visage et fait ressortir les reflets sur le bois verni de l'instrument.</p><p>La technique de Hals, faite de touches rapides et apparentes, atteint ici une virtuosité stupéfiante. Observez le traitement des manchettes et du col : les coups de pinceau sont posés avec une liberté qui, de près, semble abstraite, mais qui, à distance, restitue parfaitement le volume et la texture du tissu. La palette est vibrante, dominée par le contraste entre le noir profond, le rouge vif du costume et les tons dorés du luth. Par cette œuvre, Frans Hals ne se contente pas d'illustrer une scène de divertissement ; il parvient à matérialiser le son et la gaieté, faisant de ce bouffon l'une des images les plus vivantes et les plus sympathiques de l'art hollandais.</p>",
+    "contemporaryArt": {
+      "title": "Le Siècle d'Or hollandais • L'Essor des Provinces-Unies & La Paix de Westphalie",
+      "events": [
+        "1609 : Trêve de douze ans entre les Provinces-Unies et l'Empire espagnol.",
+        "1619 : Exécution de Van Oldenbarnevelt ; affirmation de la bourgeoisie calviniste de Haarlem et d'Amsterdam.",
+        "1628 : Capture de la flotte d'argent espagnole par Piet Hein ; apogée commercial de la VOC.",
+        "1648 : Traité de Münster (Paix de Westphalie) consacrant l'indépendance totale des Provinces-Unies.",
+        "1666 : Mort de Frans Hals à Haarlem, laissant une descendance de peintres et un atelier influent."
+      ]
+    }
+  },
+  {
+    "id": "hals_la_bohemienne_louvre_1628",
+    "artistId": "hals",
+    "artist": "Hals Frans",
+    "artistSort": "Hals Frans",
+    "title": "La Bohémienne (La Malle Babbe / Tronie)",
+    "date": "1628",
+    "dateDisplay": "vers 1628–1630",
+    "century": "XVIIe siècle",
+    "centuryDisplay": "XVIIe s. (vers 1628–1630)",
+    "centuryNumeric": 1628,
+    "medium": "Peinture à l'huile sur bois (panneau de chêne)",
+    "dimensions": "58 × 52 cm",
+    "location": "Musée du Louvre, Paris",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczOsZQ4f2-5_2Z27QfSwHD7tcOcIiQYntGOQKTB4Ui-50QDkJNBa5llTjZcML5mb0el2msKJBXTd_flcOKbZAYdA3EbTgvf_aTf-VbE8qDYcATjJAN2lAIvY5QFovgYDY2E08izbOyrb4Qq3S9ep--3xnQ=w1681-h1847-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczOsZQ4f2-5_2Z27QfSwHD7tcOcIiQYntGOQKTB4Ui-50QDkJNBa5llTjZcML5mb0el2msKJBXTd_flcOKbZAYdA3EbTgvf_aTf-VbE8qDYcATjJAN2lAIvY5QFovgYDY2E08izbOyrb4Qq3S9ep--3xnQ=w1681-h1847-s-no-gm?authuser=0",
+    "civilization": "Pays-Bas",
+    "subpart": "Tronies, portraits populaires et peinture alla prima",
+    "type": "Peinture",
+    "desc": "<p>Peinte entre 1628 et 1630, cette huile sur bois est l'une des œuvres les plus célèbres et les plus révolutionnaires de Frans Hals. Le peintre de Haarlem rompt ici avec les conventions du portrait de son époque pour créer une image d'une vitalité et d'une spontanéité inédites. Il ne s'agit pas d'un portrait commandé, mais d'une tronie, une étude de caractère et d'expression où l'artiste laisse libre cours à sa virtuosité technique. La jeune femme, représentée en buste, tourne son regard vers le côté avec un sourire malicieux et une attitude d'une liberté totale, capturant un instantané de vie qui semble presque photographique avant l'heure.</p><p>L'analyse stylistique met en lumière le génie de Hals pour la touche «enlevée« (alla prima). Contrairement à la précision minutieuse de certains de ses contemporains, Hals utilise des coups de pinceau rapides, larges et apparents, qui donnent une impression de mouvement et de fraîcheur. Observez le rendu de la chemise blanche : quelques traits de peinture blanche suffisent à suggérer le volume et le froissé du tissu. Le bustier rouge vif, brossé avec la même vigueur, crée un contraste chromatique puissant avec le teint rosé des joues et la chevelure brune ébouriffée. Cette technique audacieuse permet de traduire l'éclat du regard et l'aspect fugace du rire, conférant au personnage une présence charnelle et une sympathie immédiate.</p><p>Sur le plan social et iconographique, La Bohémienne occupe une place singulière. Son décolleté généreux, inhabituel pour les portraits bourgeois de l'époque, et son expression provocante ont longtemps alimenté les débats sur son identité et sa fonction. Elle incarne une figure de la marginalité joyeuse, loin de l'austérité calviniste. L'absence de fond détaillé concentre toute l'attention sur l'humeur du personnage et sur la lumière qui semble vibrer à la surface de la toile. Par sa modernité technique, Frans Hals a exercé une influence colossale sur les peintres du XIXe siècle, notamment Manet et les Impressionnistes, qui voyaient en lui le père de la peinture de tempérament et de la liberté du geste.</p>",
+    "narrative": "<p>Peinte entre 1628 et 1630, cette huile sur bois est l'une des œuvres les plus célèbres et les plus révolutionnaires de Frans Hals. Le peintre de Haarlem rompt ici avec les conventions du portrait de son époque pour créer une image d'une vitalité et d'une spontanéité inédites. Il ne s'agit pas d'un portrait commandé, mais d'une tronie, une étude de caractère et d'expression où l'artiste laisse libre cours à sa virtuosité technique. La jeune femme, représentée en buste, tourne son regard vers le côté avec un sourire malicieux et une attitude d'une liberté totale, capturant un instantané de vie qui semble presque photographique avant l'heure.</p><p>L'analyse stylistique met en lumière le génie de Hals pour la touche «enlevée« (alla prima). Contrairement à la précision minutieuse de certains de ses contemporains, Hals utilise des coups de pinceau rapides, larges et apparents, qui donnent une impression de mouvement et de fraîcheur. Observez le rendu de la chemise blanche : quelques traits de peinture blanche suffisent à suggérer le volume et le froissé du tissu. Le bustier rouge vif, brossé avec la même vigueur, crée un contraste chromatique puissant avec le teint rosé des joues et la chevelure brune ébouriffée. Cette technique audacieuse permet de traduire l'éclat du regard et l'aspect fugace du rire, conférant au personnage une présence charnelle et une sympathie immédiate.</p><p>Sur le plan social et iconographique, La Bohémienne occupe une place singulière. Son décolleté généreux, inhabituel pour les portraits bourgeois de l'époque, et son expression provocante ont longtemps alimenté les débats sur son identité et sa fonction. Elle incarne une figure de la marginalité joyeuse, loin de l'austérité calviniste. L'absence de fond détaillé concentre toute l'attention sur l'humeur du personnage et sur la lumière qui semble vibrer à la surface de la toile. Par sa modernité technique, Frans Hals a exercé une influence colossale sur les peintres du XIXe siècle, notamment Manet et les Impressionnistes, qui voyaient en lui le père de la peinture de tempérament et de la liberté du geste.</p>",
+    "contemporaryArt": {
+      "title": "Le Siècle d'Or hollandais • L'Essor des Provinces-Unies & La Paix de Westphalie",
+      "events": [
+        "1609 : Trêve de douze ans entre les Provinces-Unies et l'Empire espagnol.",
+        "1619 : Exécution de Van Oldenbarnevelt ; affirmation de la bourgeoisie calviniste de Haarlem et d'Amsterdam.",
+        "1628 : Capture de la flotte d'argent espagnole par Piet Hein ; apogée commercial de la VOC.",
+        "1648 : Traité de Münster (Paix de Westphalie) consacrant l'indépendance totale des Provinces-Unies.",
+        "1666 : Mort de Frans Hals à Haarlem, laissant une descendance de peintres et un atelier influent."
+      ]
+    }
+  },
+  {
+    "id": "hals_portrait_de_femme_louvre_1650",
+    "artistId": "hals",
+    "artist": "Hals Frans",
+    "artistSort": "Hals Frans",
+    "title": "Portrait d'une femme de trente-cinq ans",
+    "date": "1650",
+    "dateDisplay": "vers 1648–1650",
+    "century": "XVIIe siècle",
+    "centuryDisplay": "XVIIe s. (vers 1648–1650)",
+    "centuryNumeric": 1650,
+    "medium": "Peinture à l'huile sur toile",
+    "dimensions": "108 × 80 cm",
+    "location": "Musée du Louvre, Paris",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczO1ZRknp5zEAyqmrhdxW2MbbwwobkHsVTDHyo0c_ERokMJhuQ4eYZrDe2WGWvjpsWAWhYdP4AAsRINQrOmpJhxmJXZNyCpHl7f5tIta5VD2AkTsUbR2jBKf3_8kqr5p64M_nO2xbwH6N3ykuXTfwiYdgg=w1681-h2232-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczO1ZRknp5zEAyqmrhdxW2MbbwwobkHsVTDHyo0c_ERokMJhuQ4eYZrDe2WGWvjpsWAWhYdP4AAsRINQrOmpJhxmJXZNyCpHl7f5tIta5VD2AkTsUbR2jBKf3_8kqr5p64M_nO2xbwH6N3ykuXTfwiYdgg=w1681-h2232-s-no-gm?authuser=0",
+    "civilization": "Pays-Bas",
+    "subpart": "Portraits de la bourgeoisie calviniste et manière large",
+    "type": "Peinture",
+    "desc": "<p>Réalisé vers 1650, ce portrait témoigne de la maîtrise absolue de Frans Hals dans l'art de rendre la présence humaine avec une économie de moyens fascinante. Contrairement aux figures pittoresques comme La Bohémienne ou Le Bouffon, nous sommes ici face à une commande officielle, un portrait de la bourgeoisie hollandaise. Pourtant, Hals insuffle à ce sujet solennel une vitalité extraordinaire. La femme est représentée à mi-corps, vêtue de la robe noire austère et du grand col de dentelle blanche typiques de la mode calviniste de l'époque. Elle tient ses gants dans sa main gauche, un attribut classique de distinction sociale.</p><p>L'intérêt majeur de l'œuvre réside dans le traitement du visage et des mains. Hals utilise sa célèbre «manière large« : des touches de peinture rapides, franches, qui ne cherchent pas à dissimuler le geste du peintre. Le teint rosé des joues est obtenu par des traits vigoureux qui, vus de près, semblent presque abstraits, mais qui donnent à distance une impression de vie et de santé éclatante. Son regard, légèrement de côté, et le début de sourire qui anime ses lèvres confèrent au portrait une dimension psychologique chaleureuse, loin de la rigidité habituelle des portraits de cette période.</p><p>La virtuosité de Hals éclate également dans le rendu des noirs et des blancs. Le noir de la robe n'est jamais plat ; il est modulé par des variations de gris et de bruns qui suggèrent le volume et la texture du tissu. Le col blanc, quant à lui, est peint avec une liberté déconcertante, captant la lumière de manière sculpturale. Cette capacité à donner de l'esprit et du mouvement à un portrait de commande est la signature du maître de Haarlem, qui parvient à transformer une image de statut social en une rencontre humaine vibrante et intemporelle.</p>",
+    "narrative": "<p>Réalisé vers 1650, ce portrait témoigne de la maîtrise absolue de Frans Hals dans l'art de rendre la présence humaine avec une économie de moyens fascinante. Contrairement aux figures pittoresques comme La Bohémienne ou Le Bouffon, nous sommes ici face à une commande officielle, un portrait de la bourgeoisie hollandaise. Pourtant, Hals insuffle à ce sujet solennel une vitalité extraordinaire. La femme est représentée à mi-corps, vêtue de la robe noire austère et du grand col de dentelle blanche typiques de la mode calviniste de l'époque. Elle tient ses gants dans sa main gauche, un attribut classique de distinction sociale.</p><p>L'intérêt majeur de l'œuvre réside dans le traitement du visage et des mains. Hals utilise sa célèbre «manière large« : des touches de peinture rapides, franches, qui ne cherchent pas à dissimuler le geste du peintre. Le teint rosé des joues est obtenu par des traits vigoureux qui, vus de près, semblent presque abstraits, mais qui donnent à distance une impression de vie et de santé éclatante. Son regard, légèrement de côté, et le début de sourire qui anime ses lèvres confèrent au portrait une dimension psychologique chaleureuse, loin de la rigidité habituelle des portraits de cette période.</p><p>La virtuosité de Hals éclate également dans le rendu des noirs et des blancs. Le noir de la robe n'est jamais plat ; il est modulé par des variations de gris et de bruns qui suggèrent le volume et la texture du tissu. Le col blanc, quant à lui, est peint avec une liberté déconcertante, captant la lumière de manière sculpturale. Cette capacité à donner de l'esprit et du mouvement à un portrait de commande est la signature du maître de Haarlem, qui parvient à transformer une image de statut social en une rencontre humaine vibrante et intemporelle.</p>",
+    "contemporaryArt": {
+      "title": "Le Siècle d'Or hollandais • L'Essor des Provinces-Unies & La Paix de Westphalie",
+      "events": [
+        "1609 : Trêve de douze ans entre les Provinces-Unies et l'Empire espagnol.",
+        "1619 : Exécution de Van Oldenbarnevelt ; affirmation de la bourgeoisie calviniste de Haarlem et d'Amsterdam.",
+        "1628 : Capture de la flotte d'argent espagnole par Piet Hein ; apogée commercial de la VOC.",
+        "1648 : Traité de Münster (Paix de Westphalie) consacrant l'indépendance totale des Provinces-Unies.",
+        "1666 : Mort de Frans Hals à Haarlem, laissant une descendance de peintres et un atelier influent."
+      ]
+    }
+  },
+{
   "id": "gris_le_livre_ouvert_rennes_1925",
   "artistId": "gris",
   "artist": "Gris Juan",
