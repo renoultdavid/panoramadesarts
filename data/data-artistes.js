@@ -10163,5 +10163,576 @@ window.ARTISTS_REGISTRY = {
     }
 ]
   }
+  },
+  "dufy": {
+  "id": "dufy",
+  "name": "Dufy Raoul",
+  "sortName": "Dufy Raoul",
+  "sortLetter": "D",
+  "dates": "1877 – 1953",
+  "movement": "Fauvisme, Cézannisme & Peinture de la Joie de Vivre",
+  "nationality": "Français (Le Havre / Paris / Forcalquier)",
+  "techniques": "Peinture à l'huile, technique de dissociation couleur/dessin, aquarelle, céramique, tapisserie, décors monumentaux",
+  "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczOPvzS10Edy77H9ErlhKWWi5JXhFxs7Qt41Sh1TOx2_zzwFjpX1Y73XDsclVFSe9AMed4erg7T-YYTl1dqyLS8oLnU17CN2y-Xo3s30QBtsEzl6ygGAluSE2ZtVn7sWAGhep3g4u4h5C0nd-NtYQHTvZQ=w1681-h713-s-no-gm?authuser=0",
+  "bio": [
+    "Raoul Dufy (1877 – 1953) est le peintre de la joie de vivre, de la lumière méditerranéenne et de la modernité élégante. Membre éminent du fauvisme à ses débuts, il a su s'affranchir des théories pour créer un langage visuel unique, où la couleur se libère du dessin pour traduire le mouvement et l'effervescence de la vie mondaine et populaire.",
+    "Son genre pictural se définit par le paysage maritime, les scènes de loisirs (régates, courses hippiques, concerts) et la décoration monumentale. Son style se caractérise par la « dissociation » : la couleur est posée en larges taches fluides et lumineuses, tandis que le dessin, nerveux et calligraphique, vient se superposer par-dessus, souvent sans coïncider exactement avec les contours. Cette technique donne à ses œuvres une légèreté et une vibration incomparables.",
+    "L'évolution de son style marque une libération progressive de la forme au profit de la sensation : de la période fauve (1905–1908) sous l'influence de Matisse, à l'expérience cubiste et cézannienne (1908–1912) aux côtés de Braque, jusqu'à sa maturité éblouissante après 1920 où il invente sa manière définitive, faite de transparence et d'arabesques virtuoses, culminant dans des chefs-d'œuvre monumentaux comme La Fée Électricité."
+  ],
+  "corpus": {
+    "total": 2000,
+    "seen": 5,
+    "paintingsCount": 2000,
+    "sourceTitle": "Catalogue raisonné de l'œuvre peint (Maurice Laffaille & Fanny Guillon-Laffaille)",
+    "sourceNotes": "Pour isoler strictement ses peintures (huiles sur toile et panneaux), l'inventaire de référence mondiale est le Catalogue raisonné de l'œuvre peint établi par l'expert Maurice Laffaille (4 volumes, 1972–1977), parachevé par le supplément de Fanny Guillon-Laffaille en 1985. Le consensus scientifique fixe le corpus de ses œuvres peintes officielles à environ 2 000 peintures.",
+    "details": [
+      {
+        "label": "Peintures à l'huile et panneaux répertoriés",
+        "count": 2000,
+        "icon": "🎨",
+        "color": "#d4af37",
+        "seen": 5,
+        "note": "Comprend la période fauve, cézannienne, les scènes balnéaires, régates, orchestres et décors monumentaux."
+      }
+    ]
+  },
+  "biographyTimeline": {
+    "birth": {
+      "year": 1877,
+      "place": "Le Havre (Normandie)",
+      "title": "Naissance de Raoul Dufy",
+      "desc": "Né dans une famille modeste et passionnée de musique, fils d'un comptable et maître de chœur."
+    },
+    "death": {
+      "year": 1953,
+      "place": "Forcalquier (Haute-Provence)",
+      "title": "Mort de Raoul Dufy",
+      "desc": "Inhumé au cimetière de Cimiez à Nice, face à la Méditerranée."
+    },
+    "periods": [
+      {
+        "title": "Les Débuts Normands & L'Émancipation Post-Impressionniste",
+        "years": "1877 – 1904",
+        "color": "#0284c7",
+        "desc": "Du Havre à Paris, apprentissage et premières toiles influencées par Boudin, Monet et Pissarro.",
+        "summary": "Formation havraise, bourse de la ville pour Paris et émancipation progressive vers la liberté du geste.",
+        "events": [
+          {
+            "year": 1877,
+            "title": "Naissance au Havre",
+            "desc": "Naît le 3 juin 1877 dans le port normand du Havre au sein d'une fratrie de musiciens.",
+            "type": "birth",
+            "icon": "🇫🇷"
+          },
+          {
+            "year": 1891,
+            "title": "Cours du soir & Amitié avec Othon Friesz",
+            "desc": "Travaille dès quatorze ans dans une maison d'importation de café et suit les cours du soir de Charles Lhuillier avec Othon Friesz et Georges Braque.",
+            "type": "education",
+            "icon": "🎨"
+          },
+          {
+            "year": 1900,
+            "title": "Entrée aux Beaux-Arts de Paris (Atelier Bonnat)",
+            "desc": "Obtient une bourse de la ville du Havre et rejoint Paris, étudiant à l'École des Beaux-Arts dans l'atelier de Léon Bonnat.",
+            "type": "education",
+            "icon": "🏛️"
+          },
+          {
+            "year": 1901,
+            "title": "Premier Salon des artistes français",
+            "desc": "Expose son premier envoi officiel, encore marqué par les tonalités subtiles de l'impressionnisme et de Manet.",
+            "type": "exhibition",
+            "icon": "🖼️"
+          },
+          {
+            "year": 1904,
+            "title": "La Plage de Sainte-Adresse (Rouen)",
+            "desc": "Peint la station balnéaire normande en plongée, marquant la transition entre post-impressionnisme et audace chromatique.",
+            "type": "masterpiece",
+            "icon": "✨",
+            "artworkId": "dufy_plage_sainte_adresse_1904"
+          }
+        ]
+      },
+      {
+        "title": "La Révolution Fauve & L'Épreuve Cézannienne",
+        "years": "1905 – 1919",
+        "color": "#ea580c",
+        "desc": "L'illumination matissienne au Salon des Indépendants, la cage aux fauves et l'expérience constructive de L'Estaque.",
+        "summary": "Explosion de la couleur pure aux côtés des Fauves, suivie d'une phase cézannienne rigoureuse avec Braque.",
+        "events": [
+          {
+            "year": 1905,
+            "title": "Le Choc de Luxe, Calme et Volupté de Matisse",
+            "desc": "Découvre au Salon des Indépendants la toile de Matisse : « J'ai compris toutes les nouvelles raisons de peindre, le réalisme impressionniste perdit pour moi son charme ».",
+            "type": "milestone",
+            "icon": "⚡"
+          },
+          {
+            "year": 1906,
+            "title": "Le Port du Havre (Nantes)",
+            "desc": "Peint au Havre une composition fauve magistrale où la couleur pure s'émancipe du dessin pour animer les quais et pavillons tricolores.",
+            "type": "masterpiece",
+            "icon": "✨",
+            "artworkId": "dufy_port_du_havre_1906"
+          },
+          {
+            "year": 1908,
+            "title": "Séjour à L'Estaque avec Georges Braque",
+            "desc": "Travaille sur les motifs de Cézanne en Provence ; simplifie géométriquement les volumes et assombrit sa palette vers des ocres et verts profonds.",
+            "type": "voyage",
+            "icon": "🌿"
+          },
+          {
+            "year": 1910,
+            "title": "Le Bestiaire d'Apollinaire",
+            "desc": "Grave 30 xylographies d'une concision graphique remarquable pour illustrer Le Bestiaire ou Cortège d'Orphée de Guillaume Apollinaire.",
+            "type": "masterpiece",
+            "icon": "📖"
+          },
+          {
+            "year": 1911,
+            "title": "Atelier de La Petite Usine avec Paul Poiret",
+            "desc": "Fonde avec le grand couturier Paul Poiret un atelier d'impression sur tissus, avant d'entamer une collaboration féconde avec la maison de soieries Bianchini-Férier.",
+            "type": "milestone",
+            "icon": "🧵"
+          },
+          {
+            "year": 1914,
+            "title": "Mobilisation & Gravures de guerre",
+            "desc": "Mobilisé dans le service postal de l'armée pendant la Première Guerre mondiale, il réalise des lithographies et gravures documentaires.",
+            "type": "personal",
+            "icon": "⚔️"
+          }
+        ]
+      },
+      {
+        "title": "L'Invention du Style Dissocié & Les Années Folles",
+        "years": "1920 – 1936",
+        "color": "#d97706",
+        "desc": "Mise au point de la dissociation couleur/contour, chroniques des régates, courses d'Ascot et de Deauville, et triomphe méditerranéen.",
+        "summary": "Éclosion du style Dufy définitif : aplats de couleur éclatante survolés par un dessin calligraphique virtuose.",
+        "events": [
+          {
+            "year": 1920,
+            "title": "Séjours à Vence & Découverte de la lumière du Midi",
+            "desc": "Installe son chevalet sur la Côte d'Azur ; il constate que la lumière et la couleur se déplacent plus vite dans l'œil que le contour, fondant sa technique de « dissociation ».",
+            "type": "milestone",
+            "icon": "☀️"
+          },
+          {
+            "year": 1922,
+            "title": "L'Univers des Régates & Hippodromes de Deauville",
+            "desc": "Devient le peintre incontesté des fêtes nautiques, des paddocks et de l'élégance balnéaire de Deauville à Ascot.",
+            "type": "milestone",
+            "icon": "⛵"
+          },
+          {
+            "year": 1925,
+            "title": "Coquillages au bord de la mer (Nantes)",
+            "desc": "Composition poétique rythmée où la mer stylisée en chevrons dialogue avec la matière tactile de deux coquillages sur le rivage.",
+            "type": "masterpiece",
+            "icon": "✨",
+            "artworkId": "dufy_coquillages_bord_mer_1925"
+          },
+          {
+            "year": 1926,
+            "title": "Céramiques avec Josep Llorens Artigas",
+            "desc": "Entame une étroite collaboration avec le grand céramiste catalan Artigas, créant des fontaines de jardin, vases et carreaux émaillés.",
+            "type": "milestone",
+            "icon": "🏺"
+          },
+          {
+            "year": 1930,
+            "title": "Série des Orchestres & Concerts parisiens",
+            "desc": "Traduit sa passion intime pour Mozart, Bach et Debussy en toiles vibrantes où les instruments et musiciens baignent dans des vagues de rouge et de bleu pur.",
+            "type": "masterpiece",
+            "icon": "🎻"
+          },
+          {
+            "year": 1935,
+            "title": "Mise au point du Médium Maroger",
+            "desc": "Adopte le médium à l'huile et résine mis au point par le restaurateur Jacques Maroger, lui permettant une rapidité d'exécution et une transparence proches de l'aquarelle.",
+            "type": "tech",
+            "icon": "🧪"
+          }
+        ]
+      },
+      {
+        "title": "L'Apothéose Monumentale & Les Années de Guerre",
+        "years": "1937 – 1953",
+        "color": "#10b981",
+        "desc": "La Fée Électricité, triptyques monumentaux, exil intérieur dans le Midi et consécration à la Biennale de Venise.",
+        "summary": "Commandes monumentales historiques, résistance face à la maladie et consécration internationale absolue.",
+        "events": [
+          {
+            "year": 1937,
+            "title": "La Fée Électricité (Paris) & La Seine de Paris à la mer (Rouen)",
+            "desc": "Réalise la gigantesque fresque de La Fée Électricité (600 m²) pour l'Exposition internationale et peint le triptyque La Seine de Paris à la mer célébrant la Normandie.",
+            "type": "masterpiece",
+            "icon": "✨",
+            "artworkId": "dufy_seine_paris_mer_1937"
+          },
+          {
+            "year": 1940,
+            "title": "Refuge en zone libre (Nice, Perpignan)",
+            "desc": "Face à l'Occupation et aux premières atteintes invalidantes de la polyarthrite rhumatoïde, il se replie dans le Midi, peignant sans relâche malgré la douleur.",
+            "type": "personal",
+            "icon": "🕊️"
+          },
+          {
+            "year": 1948,
+            "title": "Cargo noir, baigneuses et tentes de plage (Nantes)",
+            "desc": "Méditation picturale puissante confrontant la silhouette monumentale et sombre d'un vapeur aux silhouettes lumineuses des plaisirs balnéaires.",
+            "type": "masterpiece",
+            "icon": "✨",
+            "artworkId": "dufy_cargo_noir_baigneuses_1948"
+          },
+          {
+            "year": 1950,
+            "title": "Séjour médical aux États-Unis",
+            "desc": "Part à Boston pour bénéficier d'un traitement expérimental à la cortisone qui améliore miraculeusement sa motricité ; il expose avec succès à New York.",
+            "type": "voyage",
+            "icon": "🇺🇸"
+          },
+          {
+            "year": 1952,
+            "title": "Grand Prix de la 26e Biennale de Venise",
+            "desc": "Reçoit le prestigieux Grand Prix international de peinture de Venise et reverse généreusement l'intégralité de sa dotation à de jeunes artistes peintres.",
+            "type": "award",
+            "icon": "🏆"
+          },
+          {
+            "year": 1953,
+            "title": "Mort à Forcalquier",
+            "desc": "S'éteint le 23 mars 1953 à Forcalquier en Haute-Provence à l'âge de 75 ans. Il lègue une œuvre immense illuminée par la joie de vivre.",
+            "type": "death",
+            "icon": "🕊️"
+          }
+        ]
+      }
+    ]
   }
+},
+  "durer": {
+  "id": "durer",
+  "name": "Dürer Albrecht",
+  "sortName": "Dürer Albrecht",
+  "sortLetter": "D",
+  "dates": "1471 – 1528",
+  "movement": "Renaissance germanique & Humanisme",
+  "nationality": "Allemand (Nuremberg, Saint-Empire)",
+  "techniques": "Huile sur panneau de tilleul, de sapin et de chêne, détrempe, gravure sur cuivre (burin, pointe sèche, eau-forte), xylographie, aquarelle naturaliste, traités mathématiques",
+  "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczMZ_Udyn4GSaJ1bUFrDm3JJ5rP8huNRyf2VC7sQYcdfMCsl8d6rNaGZDFWP6EgQ_ohXQu_cvA5rztwrN7XJnLT3v7vYam-ZTW7qpvxCeU84MFXd6YDFRMcDu_1wuSPWTKHEJqHA9rXVZUAtLXIQcnE3Bw=w1681-h713-s-no-gm?authuser=0",
+  "bio": [
+    "Albrecht Dürer, né en 1471 et mort en 1528 à Nuremberg, est le géant de la Renaissance germanique et l'un des premiers artistes européens à acquérir une stature de théoricien et d'intellectuel. Fils d'orfèvre, il a su marier la précision artisanale du Nord avec les innovations humanistes découvertes lors de ses voyages en Italie. Esprit curieux et rigoureux, il a révolutionné le statut de l'artiste en Allemagne, passant de simple artisan à celui de créateur reconnu, tout en devenant le premier maître de l'autoportrait systématique et de l'estampe comme art majeur.",
+    "Son genre pictural se caractérise par une synthèse unique entre le réalisme analytique flamand et la quête de proportions idéales de la Renaissance italienne. S'il excelle dans la peinture religieuse et le portrait, c'est dans la gravure (sur bois et sur cuivre) qu'il atteint une renommée universelle. Son style est marqué par une précision linéaire virtuose, capable de rendre la texture des poils d'un lièvre, l'écorce d'un arbre ou la complexité d'une draperie avec une minutie scientifique. Ses œuvres, comme ses célèbres « Gravures de maître », sont imprégnées d'un symbolisme profond et d'une réflexion métaphysique sur la condition humaine, le temps et la mélancolie.",
+    "L'évolution de son style témoigne d'une recherche constante de la « beauté absolue » à travers les mathématiques et la géométrie. Après une période de jeunesse marquée par le goût gothique pour le détail foisonnant, ses séjours à Venise l'orientent vers une plus grande clarté monumentale et une meilleure compréhension de la perspective. Sa maturité est consacrée à la rédaction de traités sur les proportions et les fortifications, tandis que ses dernières œuvres, comme Les Quatre Apôtres, affichent un dépouillement et une force sculpturale qui préfigurent le classicisme. Il laisse derrière lui un héritage technique et théorique immense, ayant prouvé que l'observation rigoureuse de la nature était la seule voie vers la vérité artistique."
+  ],
+  "corpus": {
+    "total": 80,
+    "seen": 8,
+    "paintingsCount": 80,
+    "sourceTitle": "Catalogue raisonné Fedja Anzelewsky (Albrecht Dürer: Das malerische Werk)",
+    "sourceNotes": "L'inventaire scientifique et le catalogue raisonné de référence mondiale pour ses peintures ont été établis par l'historien de l'art Fedja Anzelewsky (publié en 1971 et révisé en 1991). Après avoir rigoureusement trié les nombreuses copies d'atelier et écarté les tableaux documentés mais détruits (comme le panneau central du Retable Heller), le consensus scientifique fixe le corpus de ses peintures strictement autographes à environ 70 à 90 œuvres (le chiffre de 80 peintures achevées étant la jauge la plus cohérente et couramment retenue).",
+    "details": [
+      {
+        "label": "Peintures achevées autographes (panneaux, retables)",
+        "count": 80,
+        "icon": "🎨",
+        "color": "#d4af37",
+        "seen": 8,
+        "note": "Dont les grands retables (Paumgartner, Landauer), les autoportraits et Les Quatre Apôtres."
+      },
+      {
+        "label": "Gravures sur bois (xylographies)",
+        "count": 346,
+        "icon": "🪵",
+        "color": "#2ecc71",
+        "seen": 0,
+        "note": "Dont les suites monumentales de L'Apocalypse, La Grande Passion et La Vie de la Vierge."
+      },
+      {
+        "label": "Gravures sur cuivre (burins, eaux-fortes)",
+        "count": 105,
+        "icon": "🪚",
+        "color": "#00b4d8",
+        "seen": 0,
+        "note": "Dont les trois célèbres Meisterstiche (Melencolia I, Le Chevalier et Saint Jérôme)."
+      },
+      {
+        "label": "Dessins & Aquarelles documentés",
+        "count": 970,
+        "icon": "✏️",
+        "color": "#b5179e",
+        "seen": 0,
+        "note": "Conservés principalement à l'Albertina de Vienne, au British Museum et à Berlin."
+      }
+    ]
+  },
+  "biographyTimeline": {
+    "birth": {
+      "year": 1471,
+      "place": "Nuremberg (Saint-Empire romain germanique)",
+      "title": "Naissance d'Albrecht Dürer",
+      "desc": "Troisième des dix-huit enfants de l'orfèvre nurembergeois Albrecht Dürer l'Ancien (originaire de Hongrie) et de Barbara Holper."
+    },
+    "death": {
+      "year": 1528,
+      "place": "Nuremberg",
+      "title": "Mort d'Albrecht Dürer",
+      "desc": "Inhumé au cimetière Saint-Jean de Nuremberg avec l'épitaphe célèbre de Pirckheimer : « Ce qui était mortel en Albrecht Dürer repose sous ce tertre »."
+    },
+    "periods": [
+      {
+        "title": "Jeunesse, Orfèvrerie & Compagnonnage Rhénan",
+        "years": "1471 – 1494",
+        "color": "#0284c7",
+        "desc": "Formation auprès de son père orfèvre, apprentissage chez Wolgemut et voyage initiatique en Rhénanie et en Suisse.",
+        "summary": "Précocité géniale du dessin à la pointe d'argent, maîtrise de la xylographie et pérégrinations du compagnonnage germanique.",
+        "events": [
+          {
+            "year": 1471,
+            "title": "Naissance à Nuremberg",
+            "desc": "Naît le 21 mai 1471 à Nuremberg, grand carrefour commercial, intellectuel et métallurgique d'Europe centrale.",
+            "type": "birth",
+            "icon": "🇩🇪"
+          },
+          {
+            "year": 1484,
+            "title": "Autoportrait à la pointe d'argent (Vienne, Albertina)",
+            "desc": "Dessine à treize ans son propre visage dans un miroir, inaugurant la tradition de l'autoportrait d'enfant dans l'art occidental.",
+            "type": "masterpiece",
+            "icon": "✏️"
+          },
+          {
+            "year": 1486,
+            "title": "Apprentissage chez Michael Wolgemut",
+            "desc": "Entre dans le plus grand atelier de peinture et de gravure de Nuremberg ; il participe aux gravures de la monumentale Chronique de Nuremberg (1493).",
+            "type": "education",
+            "icon": "🎨"
+          },
+          {
+            "year": 1490,
+            "title": "Le Grand Tour de Compagnonnage (Wanderjahre)",
+            "desc": "Parcourt la vallée du Rhin, Bâle, Colmar et Strasbourg pour parfaire son art de la gravure et rencontrer l'entourage de Martin Schongauer.",
+            "type": "voyage",
+            "icon": "🚶"
+          },
+          {
+            "year": 1494,
+            "title": "Mariage à Nuremberg avec Agnes Frey",
+            "desc": "Épouse Agnes Frey, fille d'un orfèvre et mécanicien de précision nurembergeois, lui ouvrant le statut de maître artisan bourgeois.",
+            "type": "personal",
+            "icon": "💍"
+          }
+        ]
+      },
+      {
+        "title": "Le Premier Séjour Italien, L'Apocalypse & Les Grands Autoportraits",
+        "years": "1494 – 1504",
+        "color": "#ea580c",
+        "desc": "Voyage fondateur à Venise, création de son propre atelier nurembergeois, triomphe de L'Apocalypse et révolution de l'autoportrait.",
+        "summary": "Assimilation de la perspective vénitienne, triomphe de l'estampe et affirmation du statut intellectuel de l'artiste.",
+        "events": [
+          {
+            "year": 1494,
+            "title": "Premier voyage à Venise & Aquarelles alpines",
+            "desc": "Franchit les Alpes pour fuir la peste et découvrir Venise ; peint sur le trajet les premières aquarelles de paysage pures de l'art occidental.",
+            "type": "voyage",
+            "icon": "🏔️"
+          },
+          {
+            "year": 1495,
+            "title": "Fondation de l'atelier autonome à Nuremberg",
+            "desc": "Installe son atelier avec presse d'imprimerie et adopte son monogramme universel AD pour protéger ses créations du plagiat.",
+            "type": "milestone",
+            "icon": "🏛️"
+          },
+          {
+            "year": 1498,
+            "title": "Publication de la suite gravée de L'Apocalypse",
+            "desc": "Publie 15 xylographies monumentales dont Les Quatre Cavaliers de l'Apocalypse, qui bouleversent l'Europe par leur puissance visionnaire.",
+            "type": "masterpiece",
+            "icon": "🔥"
+          },
+          {
+            "year": 1498,
+            "title": "Retable Paumgartner (Munich, Alte Pinakothek)",
+            "desc": "Triptyque colossal commandé par les frères Paumgartner, mêlant une Nativité en ruines perspectives et les volets héroïques de saint Georges et saint Eustache.",
+            "type": "masterpiece",
+            "icon": "✨",
+            "artworkId": "durer_maitre_autel_paumgartner_1498"
+          },
+          {
+            "year": 1498,
+            "title": "Autoportrait aux gants (Madrid, Prado)",
+            "desc": "Se représente en gentilhomme aristocratique aux gants de chevreau et coiffe brodée devant une fenêtre ouverte sur les Alpes, affirmant la noblesse de la peinture.",
+            "type": "masterpiece",
+            "icon": "✨",
+            "artworkId": "durer_autoportrait_aux_gants_1498"
+          },
+          {
+            "year": 1499,
+            "title": "Portrait d'Oswolt Krel (Munich, Alte Pinakothek)",
+            "desc": "Triptyque au fond écarlate encadré de volets d'hommes sauvages héraldiques, sondant avec une intensité sans pareille la psychologie de l'élite marchande.",
+            "type": "masterpiece",
+            "icon": "✨",
+            "artworkId": "durer_portrait_oswolt_krel_1499"
+          },
+          {
+            "year": 1500,
+            "title": "Autoportrait à la pelisse de fourrure (Munich, Alte Pinakothek)",
+            "desc": "Chef-d'œuvre absolu à la frontalité christique stricte, proclamant le don créateur de l'artiste comme étincelle du divin.",
+            "type": "masterpiece",
+            "icon": "✨",
+            "artworkId": "durer_autoportrait_fourrure_1500"
+          },
+          {
+            "year": 1500,
+            "title": "Lamentation du Christ - Épitaphe Glimm (Munich, Alte Pinakothek)",
+            "desc": "Commande de l'orfèvre Albrecht Glimm au pied du Golgotha, fusionnant la douleur pathétique germanique et la monumentalité spatiale classique.",
+            "type": "masterpiece",
+            "icon": "✨",
+            "artworkId": "durer_lamentation_du_christ_1500"
+          },
+          {
+            "year": 1500,
+            "title": "Portrait d'un jeune homme (Munich, Alte Pinakothek)",
+            "desc": "Panneau intime sur fond noir profond, incarnation épurée de la dignité et de la retenue morale humaniste.",
+            "type": "masterpiece",
+            "icon": "✨",
+            "artworkId": "durer_portrait_jeune_homme_1500"
+          },
+          {
+            "year": 1502,
+            "title": "Le Lièvre & La Grande Touffe d'herbes (Vienne)",
+            "desc": "Études à l'aquarelle et gouache d'une vérité naturaliste prodigieuse, érigeant l'observation de la création en sacerdoce scientifique.",
+            "type": "masterpiece",
+            "icon": "🐇"
+          },
+          {
+            "year": 1504,
+            "title": "Burin d'Adam et Ève",
+            "desc": "Gravure sur cuivre théorique établissant le canon des proportions humaines parfaites selon Vitruve et la statuaire antique.",
+            "type": "masterpiece",
+            "icon": "🍎"
+          }
+        ]
+      },
+      {
+        "title": "Le Triomphe Vénitien, Le Mécénat Impérial & Les Gravures de Maître",
+        "years": "1505 – 1519",
+        "color": "#d97706",
+        "desc": "Second séjour à Venise, reconnaissance par Giovanni Bellini, peintre de cour de l'empereur Maximilien Ier et trilogie des Meisterstiche.",
+        "summary": "Apogée vénitien, commandes impériales monumentales et création des sommets philosophiques du burin européen.",
+        "events": [
+          {
+            "year": 1505,
+            "title": "Second séjour à Venise & La Vierge de la fête du rosaire",
+            "desc": "Peint pour l'église San Bartolomeo des marchands allemands la monumentale Fête du rosaire (Prague), ovationnée par Giovanni Bellini et le doge Loredan.",
+            "type": "voyage",
+            "icon": "🇮🇹"
+          },
+          {
+            "year": 1511,
+            "title": "L'Adoration de la Sainte Trinité - Retable Landauer (Vienne)",
+            "desc": "Panneau d'autel grandiose pour la chapelle des Douze Frères, où l'artiste se représente en bas à droite tenant un cartel dédicatoire.",
+            "type": "masterpiece",
+            "icon": "☁️"
+          },
+          {
+            "year": 1512,
+            "title": "Peintre officiel de l'empereur Maximilien Ier",
+            "desc": "L'empereur lui octroie une pension annuelle de 100 florins et lui confie la réalisation graphique de L'Arc de triomphe de Maximilien Ier (192 planches sur bois).",
+            "type": "award",
+            "icon": "👑"
+          },
+          {
+            "year": 1513,
+            "title": "Le Chevalier, la Mort et le Diable",
+            "desc": "Premier chef-d'œuvre de la trilogie des Meisterstiche au burin, allégorie héroïque du miles christianus (chevalier chrétien) d'Érasme.",
+            "type": "masterpiece",
+            "icon": "🗡️"
+          },
+          {
+            "year": 1514,
+            "title": "Saint Jérôme dans sa cellule & Melencolia I",
+            "desc": "Achève les deux autres gravures de maître, dont Melencolia I, méditation ésotérique vertigineuse sur le génie créateur, la géométrie et l'angoisse métaphysique.",
+            "type": "masterpiece",
+            "icon": "🪐"
+          },
+          {
+            "year": 1515,
+            "title": "Le Rhinocéros",
+            "desc": "Grave sur bois le célèbre pachyderme indien d'après un simple croquis venu de Lisbonne, créant l'image animale la plus reproduite de la Renaissance.",
+            "type": "masterpiece",
+            "icon": "🦏"
+          },
+          {
+            "year": 1518,
+            "title": "Diète d'Augsbourg & Rencontre avec la Réforme",
+            "desc": "Dessine les portraits des princes de l'Empire à Augsbourg et découvre avec enthousiasme les écrits de Martin Luther.",
+            "type": "milestone",
+            "icon": "📜"
+          }
+        ]
+      },
+      {
+        "title": "Le Voyage aux Pays-Bas, La Réforme & Le Testament des Quatre Apôtres",
+        "years": "1520 – 1528",
+        "color": "#10b981",
+        "desc": "Périple triomphal en Flandre, rencontre avec Érasme, engagement réformé et testament pictural offert à la cité de Nuremberg.",
+        "summary": "Dernier grand voyage d'hommages aux Pays-Bas, traités théoriques géométriques et diptyque monumental des Quatre Apôtres.",
+        "events": [
+          {
+            "year": 1520,
+            "title": "Voyage triomphal aux Pays-Bas",
+            "desc": "Rejoint Anvers, Bruxelles et Gand avec son épouse ; accueilli en prince par les corporations de peintres, il assiste au couronnement de Charles Quint à Aix-la-Chapelle.",
+            "type": "voyage",
+            "icon": "🇧🇪"
+          },
+          {
+            "year": 1521,
+            "title": "Saint Jérôme dans son cabinet d'étude (Lisbonne, Museu Nacional de Arte Antiga)",
+            "desc": "Chef-d'œuvre peint à Anvers pour le facteur commercial portugais Rui Fernandes de Almada, méditation poignante sur la vanité et la vieillesse d'après un modèle de 93 ans.",
+            "type": "masterpiece",
+            "icon": "✨",
+            "artworkId": "durer_saint_jerome_1521"
+          },
+          {
+            "year": 1525,
+            "title": "Traité de géométrie Unterweisung der Messung",
+            "desc": "Publie en allemand le premier manuel de géométrie descriptive et de perspective scientifique au compas et à la règle pour les artistes et artisans.",
+            "type": "tech",
+            "icon": "📐"
+          },
+          {
+            "year": 1526,
+            "title": "Les Quatre Apôtres (Munich, Alte Pinakothek)",
+            "desc": "Diptyque monumental testamentaire offert aux magistrats de Nuremberg, avertissement solennel contre les faux prophètes et manifeste sublime de la Renaissance germanique.",
+            "type": "masterpiece",
+            "icon": "✨",
+            "artworkId": "durer_quatre_apotres_1526"
+          },
+          {
+            "year": 1527,
+            "title": "Traité sur la fortification des villes",
+            "desc": "Publie ses réflexions architecturales et militaires sur les bastions face à l'avancée des armées ottomanes en Europe centrale.",
+            "type": "tech",
+            "icon": "🏰"
+          },
+          {
+            "year": 1528,
+            "title": "Mort à Nuremberg & Postérité universelle",
+            "desc": "S'éteint le 6 avril 1528 à Nuremberg à l'âge de 56 ans. Son Traité des proportions du corps humain est publié à titre posthume quelques mois plus tard.",
+            "type": "death",
+            "icon": "🕊️"
+          }
+        ]
+      }
+    ]
+  }
+}
 };

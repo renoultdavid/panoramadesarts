@@ -1541,6 +1541,9 @@ document.addEventListener('keydown', (e) => {
    BANQUE OFFICIELLE DES BANDEAUX PANORAMIQUES PAR CIVILISATION & TYPOLOGIE
    ========================================================================== */
 const BANNERS_REGISTRY = {
+  // Japon & Mondes d'Asie
+  japon_momoyama: "https://lh3.googleusercontent.com/d/1UljcU6PG_BxteZqrVduo4fA8oT62Y5a-",
+
   // 1. Étrusques
   etrusque: "https://lh3.googleusercontent.com/pw/AP1GczMagPC7ALz9ZSByTfCxcyiPK5nAkyXFrDt8j77Iv8s5Mre53djafrKvgT7j9qlaUW6wcBf0-u6yhF-rCQKRfjruslYUhA78A0DUDOqBELTxhNr-S8_f0hJi-VJ3iSZNts1qapfafvgx7kRaZOlxjS0YjQ=w1890-h801-s-no-gm?authuser=0",
 
@@ -3062,9 +3065,20 @@ const CIVILISATIONS_REGISTRY = [
     sidePos: "pos-right",
     travelingOrigin: "85.0% 45.0%",
     haloId: "halo-japon",
-    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczP7mEkpxiMB1kX-SviMEcGLi6Ciq9VusDScSkhhn9Z_CyPXznPdhbFiTbAROY5A-P_304_sK55B_e6sR4pNN7ZV2vvs-JfOf1hJieiadTuFoyYJ1-2tlTmBrHaVkewHyAmGTPkDDITDk7SOKx5lwCo5Uw=w1611-h2416-s-no-gm?authuser=0",
+    bannerImg: "https://lh3.googleusercontent.com/d/1UljcU6PG_BxteZqrVduo4fA8oT62Y5a-",
     mapOverlayUrl: "",
     albumUrl: "",
+    historicalMilestones: [
+      { year: 1573, category: "gold", icon: "⚔️", type: "Révolution politique", title: "Chute du shogunat Ashikaga", desc: "Oda Nobunaga destitue le dernier shogun Ashikaga Yoshiaki et l'expulse de Kyoto, scellant la fin du shogunat de Muromachi et lançant l'unification politique de l'archipel." },
+      { year: 1575, category: "gold", icon: "💥", type: "Révolution militaire", title: "Bataille de Nagashino", desc: "Nobunaga et Tokugawa Ieyasu écrasent la cavalerie d'élite du clan Takeda grâce au premier déploiement massif et discipliné d'arquebuses à mèche (Tanegashima)." },
+      { year: 1576, category: "gold", icon: "🏯", type: "Chantier d'apparat", title: "Édification du château d'Azuchi", desc: "Nobunaga fait ériger sur les rives du lac Biwa la première forteresse monumentale aux fastes ostentatoires, parée d'or et de peintures de Kanō Eitoku, ouvrant l'ère nouvelle." },
+      { year: 1582, category: "disaster", icon: "🔥", type: "Coup d'État & Drame", title: "Incident du Honnō-ji", desc: "Trahison d'Akechi Mitsuhide : encerclé au temple Honnō-ji de Kyoto, Oda Nobunaga est contraint au seppuku. Toyotomi Hideyoshi venge son maître à Yamazaki et prend les rênes du pouvoir." },
+      { year: 1583, category: "gold", icon: "🏯", type: "Fondation castrale", title: "Construction du Château d'Osaka", desc: "Hideyoshi débute le chantier titanesque de son donjon monumental (Tenshukaku) et de ses murailles cyclopéennes (Ishigaki), symbole absolu de sa toute-puissance politique et militaire." },
+      { year: 1587, category: "gold", icon: "🍵", type: "Apogée culturel", title: "Grand banquet du thé de Kitano", desc: "Hideyoshi réunit au sanctuaire de Kitano tous les amateurs de thé de l'empire, consacrant le magistère esthétique du grand maître Sen no Rikyū et le style wabi-cha." },
+      { year: 1588, category: "tech", icon: "🗡️", type: "Ordre social", title: "Chasse aux sabres (Katanagari)", desc: "Édit de désarmement de la paysannerie confisquant armes blanches et arquebuses pour figer la stricte séparation entre la caste guerrière (samouraïs) et le peuple des campagnes." },
+      { year: 1590, category: "gold", icon: "👑", type: "Unification du Japon", title: "Siège d'Odawara & Pacification totale", desc: "Soumission du clan Go-Hōjō : l'archipel nippon est intégralement unifié sous la bannière de Hideyoshi, proclamé régent impérial (Kanpaku) puis Taikō." },
+      { year: 1600, category: "gold", icon: "⚔️", type: "Bataille décisive", title: "Bataille de Sekigahara", desc: "Tokugawa Ieyasu défait la coalition des fidèles aux Toyotomi lors de la plus gigantesque bataille de l'histoire du Japon féodal, prélude à la fondation du shogunat d'Edo (1603)." }
+    ],
     presentationHtml: `
       <p><strong>L'unification du Japon et la magnificence des châteaux forts</strong><br>
       Sous l'impulsion décisive d'Oda Nobunaga puis de Toyotomi Hideyoshi, le Japon sort d'un siècle de guerres intestines (époque Sengoku) pour entrer dans une ère de faste et de réunification politique sans précédent.</p>
@@ -4716,9 +4730,11 @@ function openCivilisationPavilion(civ, initialTab = 'panoramic') {
     concurrentMilestonesCol.innerHTML = '';
 
     // A. Événements historiques majeurs contemporains
-    let contemporanMilestones = Array.isArray(HISTORICAL_MILESTONES)
-      ? HISTORICAL_MILESTONES.filter(m => m.year >= (yStart - 15) && m.year <= (yEnd + 15))
-      : [];
+    let contemporanMilestones = (Array.isArray(civ.historicalMilestones) && civ.historicalMilestones.length > 0)
+      ? civ.historicalMilestones
+      : (Array.isArray(HISTORICAL_MILESTONES)
+          ? HISTORICAL_MILESTONES.filter(m => m.year >= (yStart - 15) && m.year <= (yEnd + 15))
+          : []);
 
     // Si la fourchette étroite ne donne rien, élargir au siècle tout entier
     if (contemporanMilestones.length === 0 && Array.isArray(HISTORICAL_MILESTONES)) {
@@ -7617,6 +7633,21 @@ function populateModalData(art) {
 }
 
 const CERTIFIED_PAINTING_DIMENSIONS = {
+  // Raoul Dufy (5 œuvres)
+  "dufy_plage_sainte_adresse_1904": { h: 65, w: 81, display: "65 × 81 cm" },
+  "dufy_port_du_havre_1906": { h: 65, w: 81, display: "65 × 81 cm" },
+  "dufy_coquillages_bord_mer_1925": { h: 46, w: 38, display: "46 × 38 cm" },
+  "dufy_seine_paris_mer_1937": { h: 100, w: 300, display: "100 × 300 cm (triptyque panoramique)" },
+  "dufy_cargo_noir_baigneuses_1948": { h: 65, w: 81, display: "65 × 81 cm" },
+  // Albrecht Dürer (8 œuvres)
+  "durer_maitre_autel_paumgartner_1498": { h: 157, w: 250, display: "157 × 250 cm (triptyque ouvert)" },
+  "durer_autoportrait_aux_gants_1498": { h: 52, w: 41, display: "52 × 41 cm" },
+  "durer_portrait_oswolt_krel_1499": { h: 50, w: 78, display: "50 × 78 cm (triptyque ouvert)" },
+  "durer_autoportrait_fourrure_1500": { h: 67.1, w: 48.9, display: "67,1 × 48,9 cm" },
+  "durer_lamentation_du_christ_1500": { h: 151, w: 121, display: "151 × 121 cm" },
+  "durer_portrait_jeune_homme_1500": { h: 29.1, w: 21.8, display: "29,1 × 21,8 cm" },
+  "durer_saint_jerome_1521": { h: 60, w: 48, display: "60 × 48 cm" },
+  "durer_quatre_apotres_1526": { h: 215, w: 152, display: "215 × 152 cm (diptyque, 215 × 76 cm ch.)" },
   "chateau_osaka_tenshukaku_1583": { h: 5800, w: 4500, display: "58 m (hauteur totale) • Base 20 m + Donjon 38 m" },
   "duchamp_portrait_dr_ferdinand_tribout_rouen_1910": { h: 54.5, w: 46, display: "54,5 × 46 cm" },
   "duchamp_deux_nus_rouen_1910": { h: 73, w: 92, display: "73 × 92 cm" },
