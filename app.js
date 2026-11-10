@@ -7621,7 +7621,7 @@ function populateModalData(art) {
     modalChips.appendChild(btnFocus);
   }
 
-  const rawNarrative = art.narrative || art.description || '';
+  const rawNarrative = art.narrative || art.desc || art.description || '';
   modalNarrative.innerHTML = (typeof enrichHTMLWithGlossary === 'function')
     ? enrichHTMLWithGlossary(rawNarrative)
     : rawNarrative;
@@ -8260,7 +8260,7 @@ function getArtworkSubjectTraits(art) {
     art.category || '',
     art.artifactType || '',
     (art.chips ? art.chips.join(' ') : ''),
-    art.narrative ? art.narrative.substring(0, 450) : ''
+    (art.narrative || art.desc || '').substring(0, 450)
   ].join(' ').toLowerCase();
 
   const traits = [];
