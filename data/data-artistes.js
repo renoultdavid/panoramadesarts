@@ -10734,5 +10734,433 @@ window.ARTISTS_REGISTRY = {
       }
     ]
   }
+},
+  "el_greco": {
+  "id": "el_greco",
+  "name": "El Greco (Domenikos Theotokopoulos)",
+  "sortName": "El Greco",
+  "sortLetter": "E",
+  "dates": "1541 – 1614",
+  "movement": "Maniérisme, Ferveur Mystique & Précurseur de l'Expressionnisme",
+  "nationality": "Grec / Espagnol (Candie, Crète / Venise / Rome / Tolède)",
+  "techniques": "Huile sur toile, détrempe sur bois, maniérisme mystique, figures étirées en flamme, draperies aux reflets métalliques, lumières spectrales",
+  "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczNxCRU37xg-srYzUULxvpkH91GFB7t5oviu32z5Q9cuz500P2_QeMEfupIs2DcEHN_yW62pKrGwroM3QbgPMF4AsubHYb-vD4BW5_-dhlt5yqFe2O6AvCfE-4p_2pmh5SmFn71wZEMFmtoxFd7MqIRl1w=w1584-h672-s-no-gm?authuser=0",
+  "bio": [
+    "Domenikos Theotokopoulos, universellement connu sous le nom d'El Greco, est un artiste visionnaire né en Crète en 1541 et mort à Tolède en 1614. Après avoir été formé à l'art des icônes byzantines, il séjourne à Venise et à Rome, où il s'imprègne des leçons de Titien et de Michel-Ange, avant de s'établir définitivement en Espagne en 1577. Ce parcours géographique et culturel unique a fait de lui un peintre inclassable, dont le génie n'a été pleinement redécouvert qu'au début du XXe siècle par les avant-gardes modernes.",
+    "Son genre pictural est profondément marqué par le maniérisme, qu'il pousse à des sommets d'expressionnisme spirituel. El Greco se spécialise dans les compositions religieuses monumentales et les portraits d'une intensité psychologique rare. Son style se reconnaît immédiatement à ses figures allongées, presque immatérielles, et à son usage de couleurs acides et contrastées qui semblent vibrer d'une lumière surnaturelle. Contrairement aux peintres de la Renaissance qui cherchaient la proportion idéale, il utilise la déformation et le mouvement pour traduire l'extase mystique et la ferveur religieuse de l'Espagne de la Contre-Réforme.",
+    "L'évolution de son style est une trajectoire fascinante allant d'un certain naturalisme vénitien vers une abstraction spirituelle totale. À mesure qu'il s'isole à Tolède, son art s'affranchit des règles de la perspective classique pour privilégier une organisation spatiale rythmée par des nuages tourmentés et des draperies aux reflets métalliques. Dans ses dernières œuvres, comme L'Ouverture du cinquième sceau, les formes se dissolvent presque dans l'énergie du pinceau, préfigurant de plusieurs siècles l'expressionnisme moderne. Cette quête de transcendance par la couleur et la forme a fait de lui l'un des artistes les plus originaux et les plus puissants de toute l'histoire de la peinture."
+  ],
+  "corpus": {
+    "total": 290,
+    "seen": 5,
+    "paintingsCount": 290,
+    "sourceTitle": "Catalogue raisonné José Álvarez Lopera & Harold Wethey",
+    "sourceNotes": "Les recherches modernes (portées notamment par l'historien espagnol José Álvarez Lopera au début des années 2000, actualisant le catalogue fondateur d'Harold Wethey) fixent le corpus des peintures strictement autographes d'El Greco à environ 285 à 300 œuvres, distinguées des répliques d'atelier de son fils Jorge Manuel.",
+    "details": [
+      {
+        "label": "Peintures à l'huile et panneaux autographes",
+        "count": 290,
+        "icon": "🎨",
+        "color": "#d4af37",
+        "seen": 5,
+        "note": "Comprend la période crétoise, vénitienne, romaine et les grands chefs-d'œuvre tolédans."
+      }
+    ]
+  },
+  "biographyTimeline": {
+    "birth": {
+      "year": 1541,
+      "place": "Candie (Héraklion, Crète vénitienne)",
+      "title": "Naissance de Domenikos Theotokopoulos",
+      "desc": "Fils d'un percepteur d'impôts et marchand crétois, il grandit dans l'île sous souveraineté vénitienne."
+    },
+    "death": {
+      "year": 1614,
+      "place": "Tolède (Castille, Espagne)",
+      "title": "Mort d'El Greco",
+      "desc": "Inhumé au monastère Santo Domingo el Antiguo à Tolède, laissant un atelier colossal et une renommée légendaire."
+    },
+    "periods": [
+      {
+        "title": "La Crète Byzantine & L'Apprentissage Vénitien",
+        "years": "1541 – 1570",
+        "color": "#0284c7",
+        "desc": "Maître enlumineur et peintre d'icônes à Candie, puis départ pour Venise dans le sillage de Titien et du Tintoret.",
+        "summary": "Assimilation de la tradition post-byzantine et apprentissage de la lumière et du coloris vénitien.",
+        "events": [
+          {
+            "year": 1541,
+            "title": "Naissance à Candie en Crète",
+            "desc": "Naît au cœur de la capitale crétoise alors possession de la République de Venise, creuset unique entre Orient orthodoxe et Occident catholique.",
+            "type": "birth",
+            "icon": "🇬🇷"
+          },
+          {
+            "year": 1563,
+            "title": "Maître peintre d'icônes certifié",
+            "desc": "Un document notarié de Candie le qualifie de 'maître Ménégos Théotokopoulos, peintre', attestant de son rang au sein de la corporation des iconographes.",
+            "type": "education",
+            "icon": "📜"
+          },
+          {
+            "year": 1567,
+            "title": "Départ pour Venise & Triptyque de Modène",
+            "desc": "Rejoint la métropole lagunique où il s'imprègne de la liberté de touche du Titien et peint le célèbre Triptyque de Modène (Scènes de la vie du Christ).",
+            "type": "masterpiece",
+            "icon": "✨",
+            "artworkId": "el_greco_triptyque_modene_1567"
+          },
+          {
+            "year": 1569,
+            "title": "Assimilation du coloris vénitien",
+            "desc": "Adopte la peinture à l'huile sur toile et étudie le clair-obscur dramatique de Tintoret et les raccourcis expressifs de Bassano.",
+            "type": "milestone",
+            "icon": "🎨"
+          }
+        ]
+      },
+      {
+        "title": "Le Séjour Romain & La Querelle de Michel-Ange",
+        "years": "1570 – 1576",
+        "color": "#ea580c",
+        "desc": "Hébergé au Palais Farnèse à Rome, il s'oppose au culte exclusif du dessin michelangelesque et affirme sa propre voie.",
+        "summary": "Protection du cardinal Farnèse, admission à l'Académie Saint-Luc et audace envers Michel-Ange.",
+        "events": [
+          {
+            "year": 1570,
+            "title": "Arrivée à Rome & Entrée au Palais Farnèse",
+            "desc": "Recommandé par le miniaturiste Giulio Clovio comme 'un jeune Crétois disciple de Titien d'un talent rare', il est logé par le cardinal Alexandre Farnèse.",
+            "type": "voyage",
+            "icon": "🏛️"
+          },
+          {
+            "year": 1572,
+            "title": "Académie Saint-Luc & Conflit esthétique",
+            "desc": "Inscrit à la guilde des peintres de Rome. Il choque l'entourage romain en affirmant que Michel-Ange 'était un homme d'honneur mais ne savait pas peindre' et propose de repeindre le Jugement dernier.",
+            "type": "milestone",
+            "icon": "⚡"
+          },
+          {
+            "year": 1573,
+            "title": "La Guérison de l'aveugle-né (Parme)",
+            "desc": "Peint pour la collection Farnèse une composition virtuose intégrant des portraits de la dynastie ducale et son propre autoportrait présumé.",
+            "type": "masterpiece",
+            "icon": "✨",
+            "artworkId": "el_greco_guerison_aveugle_parme_1573"
+          },
+          {
+            "year": 1576,
+            "title": "Rencontre avec Diego de Castilla & Appel de l'Espagne",
+            "desc": "Rencontre des lettrés ecclésiastiques espagnols à Rome qui l'incitent à tenter sa chance en Espagne, où Philippe II bâtit l'immense Escurial.",
+            "type": "milestone",
+            "icon": "🇪🇸"
+          }
+        ]
+      },
+      {
+        "title": "L'Enracinement à Tolède & Les Grands Triomphes",
+        "years": "1577 – 1595",
+        "color": "#d97706",
+        "desc": "Installation dans l'ancienne capitale impériale castillane, gloire d'El Espolio et chef-d'œuvre de l'Enterrement du comte d'Orgaz.",
+        "summary": "Rupture avec la cour de Philippe II mais triomphe auprès du clergé et de l'aristocratie tolédane.",
+        "events": [
+          {
+            "year": 1577,
+            "title": "Arrivée à Tolède & Retable de Santo Domingo",
+            "desc": "Reçoit ses premières grandes commandes de retables d'autel pour Santo Domingo el Antiguo et la Cathédrale de Tolède.",
+            "type": "milestone",
+            "icon": "⛪"
+          },
+          {
+            "year": 1577,
+            "title": "Le Dépouillement du Christ (El Espolio)",
+            "desc": "Chef-d'œuvre incandescent de la Sacristie de Tolède : le Christ en rouge carmin au milieu de la meute des bourreaux.",
+            "type": "masterpiece",
+            "icon": "✨",
+            "artworkId": "el_greco_espolio_depouillement_tolede_1577"
+          },
+          {
+            "year": 1578,
+            "title": "Naissance de son fils Jorge Manuel",
+            "desc": "Naissance de son fils et futur collaborateur Jorge Manuel Theotocópuli, né de sa liaison avec Jerónima de las Cuevas.",
+            "type": "personal",
+            "icon": "👶"
+          },
+          {
+            "year": 1580,
+            "title": "Le Martyre de saint Maurice pour l'Escurial",
+            "desc": "Commande de Philippe II pour le monastère de l'Escurial ; le roi n'apprécie pas la dématérialisation mystique du sujet et n'accordera plus de commande royale.",
+            "type": "milestone",
+            "icon": "👑"
+          },
+          {
+            "year": 1586,
+            "title": "L'Enterrement du comte d'Orgaz (Santo Tomé)",
+            "desc": "Sommet absolu de la peinture universelle unissant le monde terrestre des gentilshommes en armure et la gloire céleste baignée de lumière mystique.",
+            "type": "masterpiece",
+            "icon": "✨",
+            "artworkId": "el_greco_enterrement_comte_orgaz_tolede_1586"
+          }
+        ]
+      },
+      {
+        "title": "L'Extase Mystique & La Dématérialisation Tardive",
+        "years": "1596 – 1614",
+        "color": "#10b981",
+        "desc": "Figures en flammes, perspectives cosmiques tourmentées et préfiguration géniale de l'expressionnisme moderne.",
+        "summary": "Retables du collège Doña María d'Aragon, Crucifixions cosmiques et apothéose visionnaire de l'Ouverture du cinquième sceau.",
+        "events": [
+          {
+            "year": 1596,
+            "title": "Retable du collège Doña María de Aragón (Madrid)",
+            "desc": "Commande prestigieuse pour Madrid où les figures s'étirent de façon démesurée dans une ascension verticale surnaturelle.",
+            "type": "masterpiece",
+            "icon": "🏛️"
+          },
+          {
+            "year": 1600,
+            "title": "Le Christ en croix (Tokyo, Musée national d'art occidental)",
+            "desc": "Vision cosmologique dépouillée où le Sauveur s'élève en flamme sacrée contre un ciel d'orage déchiré au-dessus de Tolède.",
+            "type": "masterpiece",
+            "icon": "✨",
+            "artworkId": "el_greco_christ_en_croix_tokyo_1600"
+          },
+          {
+            "year": 1603,
+            "title": "Retable de l'Hôpital de la Charité d'Illescas",
+            "desc": "Ensemble décoratif total mêlant architecture, sculpture dorée et toiles de saintes visions dans une unité scénographique baroque avant l'heure.",
+            "type": "masterpiece",
+            "icon": "🌟"
+          },
+          {
+            "year": 1608,
+            "title": "L'Ouverture du cinquième sceau (New York, Met)",
+            "desc": "Chef-d'œuvre testamentaire prophétique d'une modernité absolue qui inspirera directement Pablo Picasso pour Les Demoiselles d'Avignon.",
+            "type": "masterpiece",
+            "icon": "🔥"
+          },
+          {
+            "year": 1614,
+            "title": "Mort à Tolède & Gloire posthume",
+            "desc": "S'éteint le 7 avril 1614 à Tolède à l'âge de 73 ans. Ses toiles inspireront Cézanne, Van Gogh, Picasso et les expressionnistes du XXe siècle.",
+            "type": "death",
+            "icon": "🕊️"
+          }
+        ]
+      }
+    ]
+  }
+},
+  "ensor": {
+  "id": "ensor",
+  "name": "Ensor James",
+  "sortName": "Ensor James",
+  "sortLetter": "E",
+  "dates": "1860 – 1949",
+  "movement": "Symbolisme, Précurseur de l'Expressionnisme & du Surréalisme",
+  "nationality": "Belge (Ostende / Bruxelles)",
+  "techniques": "Peinture à l'huile, palette stridente et nacrée, empâtements nerveux, grotesque carnavalesque, masques et squelettes, eau-forte",
+  "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczN2jWrznRiMc9jpE4hqv7qwSuZ3hwRSJ1hOw2OVzoKKgmXJM6ET-yUs_YvAAxJ78srGsH0dOcoTg9yiXyObWUw-4TVdTfCFaixHhllLYnFccppYc8d_U7Yb9tvekxLq9u01NDnLuwPxl9_rdJo6jdY8eg=w1681-h713-s-no-gm?authuser=0",
+  "bio": [
+    "James Ensor (1860 – 1949), figure majeure de l'art belge, est un précurseur solitaire de l'expressionnisme et du surréalisme. Ayant passé la quasi-totalité de sa vie dans sa ville natale d'Ostende, au milieu du magasin de souvenirs et de masques tenu par sa famille, il a développé une œuvre singulière, acide et visionnaire, en rupture totale avec les conventions esthétiques de son temps.",
+    "Son genre pictural se caractérise par un usage subversif de l'ironie et du grotesque. Il délaisse rapidement le réalisme pour un monde peuplé de masques de carnaval, de squelettes et de figures de la commedia dell'arte. Pour Ensor, le masque ne sert pas à cacher, mais à révéler la laideur intérieure, l'hypocrisie et la cruauté de la société bourgeoise. Sa peinture est une mise en scène théâtrale et macabre de la condition humaine.",
+    "L'évolution de son style est marquée par un passage de l'ombre à une lumière stridente : des débuts sombres influencés par le réalisme flamand des scènes d'intérieur bourgeoises, à l'explosion fantastique des années 1885–1890 aux couleurs pures et acides (dont le sommet est L'Entrée du Christ à Bruxelles), jusqu'à la cristallisation de sa maturité où son dessin devient plus linéaire et ses teintes nacrées, faisant de lui l'un des pères fondateurs de la modernité européenne."
+  ],
+  "corpus": {
+    "total": 880,
+    "seen": 1,
+    "paintingsCount": 880,
+    "sourceTitle": "Catalogue raisonné Xavier Tricot (James Ensor: Catalogue raisonné des peintures)",
+    "sourceNotes": "En excluant volontairement son œuvre graphique titanesque (plus d'une centaine d'eaux-fortes et des milliers de dessins), le catalogue raisonné de référence établi par l'expert Xavier Tricot recense environ 850 à 900 peintures achevées.",
+    "details": [
+      {
+        "label": "Peintures à l'huile répertoriées",
+        "count": 880,
+        "icon": "🎨",
+        "color": "#d4af37",
+        "seen": 1,
+        "note": "Comprend la période sombre, l'explosion fantastique des masques et la période nacrée."
+      }
+    ]
+  },
+  "biographyTimeline": {
+    "birth": {
+      "year": 1860,
+      "place": "Ostende (Flandre-Occidentale, Belgique)",
+      "title": "Naissance de James Ensor",
+      "desc": "Fils d'un ingénieur britannique lettré et d'une commerçante flamande tenant une boutique de curiosités et masques de carnaval."
+    },
+    "death": {
+      "year": 1949,
+      "place": "Ostende",
+      "title": "Mort de James Ensor",
+      "desc": "Inhumé au cimetière Notre-Dame des Dunes à Mariakerke près d'Ostende, salué comme le 'Prince des peintres belges'."
+    },
+    "periods": [
+      {
+        "title": "L'Enfance d'Ostende & La Période Sombre",
+        "years": "1860 – 1884",
+        "color": "#0284c7",
+        "desc": "Boutique familiale de coquillages et masques, formation à l'Académie de Bruxelles et scènes bourgeoises intimes.",
+        "summary": "Apprentissage académique, intérieurs flamands sombres et découverte de la matière picturale.",
+        "events": [
+          {
+            "year": 1860,
+            "title": "Naissance à Ostende",
+            "desc": "Naît le 13 avril 1860 dans la célèbre cité balnéaire de la mer du Nord, au-dessus du magasin de souvenirs de sa grand-mère maternelle.",
+            "type": "birth",
+            "icon": "🇧🇪"
+          },
+          {
+            "year": 1877,
+            "title": "Académie Royale des Beaux-Arts de Bruxelles",
+            "desc": "Étudie pendant trois ans à Bruxelles auprès de Jean-François Portaels ; il y rencontre ses futurs pairs Fernand Khnopff et Théo van Rysselberghe.",
+            "type": "education",
+            "icon": "🏛️"
+          },
+          {
+            "year": 1880,
+            "title": "Retour définitif à Ostende & Atelier sous les combles",
+            "desc": "Installe son atelier dans les combles de la maison familiale de la rue de Flandre, d'où il observe la foule estivale et le carnaval.",
+            "type": "milestone",
+            "icon": "🏠"
+          },
+          {
+            "year": 1881,
+            "title": "La Mangeuse d'huîtres (Anvers)",
+            "desc": "Chef-d'œuvre de sa période sombre : une toile lumineuse rejetée par le Salon d'Anvers pour sa touche trop libre et audacieuse.",
+            "type": "masterpiece",
+            "icon": "🦪"
+          },
+          {
+            "year": 1883,
+            "title": "Fondation du Groupe des XX à Bruxelles",
+            "desc": "Cofondateur de la célèbre société avant-gardiste des Vingt, tribune majeure pour la modernité européenne (Seurat, Gauguin, Van Gogh).",
+            "type": "milestone",
+            "icon": "✨"
+          }
+        ]
+      },
+      {
+        "title": "L'Explosion Fantastique, Les Masques & Le Scandale",
+        "years": "1885 – 1899",
+        "color": "#ea580c",
+        "desc": "La couleur s'émancipe vers des tons stridents ; apparition des masques, des squelettes et création de L'Entrée du Christ à Bruxelles.",
+        "summary": "Subversion totale de la peinture bourgeoise par le carnaval macabre et l'incompréhension critique.",
+        "events": [
+          {
+            "year": 1885,
+            "title": "Apparition des premiers masques",
+            "desc": "Rupture fondatrice : les masques carnavalesques de la boutique maternelle envahissent ses toiles pour démasquer l'hypocrisie humaine.",
+            "type": "milestone",
+            "icon": "🎭"
+          },
+          {
+            "year": 1888,
+            "title": "L'Entrée du Christ à Bruxelles (Getty Museum)",
+            "desc": "Toile monumentale colossale (2,5 × 4,3 m) saturée d'une foule carnavalesque grotesque entourant un Christ ignoré, manifeste d'Ensor.",
+            "type": "masterpiece",
+            "icon": "🚩"
+          },
+          {
+            "year": 1889,
+            "title": "Nature morte au studio - Nature morte aux masques (Munich)",
+            "desc": "Chef-d'œuvre de l'Alte Pinakothek de Munich transformant l'atelier d'Ostende en théâtre de masques, de flacons et de crânes aux couleurs acides.",
+            "type": "masterpiece",
+            "icon": "✨",
+            "artworkId": "ensor_nature_morte_studio_munich_1889"
+          },
+          {
+            "year": 1890,
+            "title": "L'Intrigue & Les Masques scandalisés",
+            "desc": "Peint des compositions grinçantes de couples masqués aux expressions terrifiantes ou gouailleuses, célébrées aujourd'hui à Anvers et Paris.",
+            "type": "masterpiece",
+            "icon": "👺"
+          },
+          {
+            "year": 1893,
+            "title": "Dissolution des XX & La Libre Esthétique",
+            "desc": "Rejeté même par ses pairs des XX qui tentent d'exclure L'Entrée du Christ, Ensor s'enferme dans une solitude rebelle et altière.",
+            "type": "personal",
+            "icon": "⚔️"
+          }
+        ]
+      },
+      {
+        "title": "La Cristallisation Nacrée & La Reconnaissance Tardive",
+        "years": "1900 – 1928",
+        "color": "#d97706",
+        "desc": "Adoucissement de la palette vers des reflets nacrés, premières rétrospectives européennes et hommage des artistes expressionnistes.",
+        "summary": "Élégance nacrée des compositions tardives et reconnaissance par Nolde, Klee et Kandinsky.",
+        "events": [
+          {
+            "year": 1903,
+            "title": "Chevalier de l'Ordre de Léopold",
+            "desc": "Première distinction officielle belge marquant le début de la réhabilitation institutionnelle du maître rebelle d'Ostende.",
+            "type": "award",
+            "icon": "🎖️"
+          },
+          {
+            "year": 1911,
+            "title": "Visite d'Emil Nolde à Ostende",
+            "desc": "Le grand peintre expressionniste allemand Emil Nolde lui rend visite dans son atelier et reconnaît en Ensor le prophète de l'art nouveau.",
+            "type": "voyage",
+            "icon": "🤝"
+          },
+          {
+            "year": 1917,
+            "title": "Installation rue de Flandre",
+            "desc": "Hérite de la maison de son oncle au 27 rue de Flandre (aujourd'hui Musée Ensor) et y reconstitue son univers intact de curiosités et coquillages.",
+            "type": "personal",
+            "icon": "🐚"
+          },
+          {
+            "year": 1920,
+            "title": "Rétrospectives à Bruxelles et Paris",
+            "desc": "Grandes expositions rétrospectives qui consacrent son autorité magistrale sur les jeunes surréalistes belges (Magritte, Delvaux).",
+            "type": "exhibition",
+            "icon": "🖼️"
+          }
+        ]
+      },
+      {
+        "title": "L'Apothéose Nationale & Le Baron Ensor",
+        "years": "1929 – 1949",
+        "color": "#10b981",
+        "desc": "Anoblissement par le roi Albert Ier, triomphe au Palais des Beaux-Arts et culte vivant du patriarche d'Ostende.",
+        "summary": "Titre de baron, statue inaugurée de son vivant et apothéose d'une légende vivante de l'art moderne.",
+        "events": [
+          {
+            "year": 1929,
+            "title": "Créé Baron par le Roi Albert Ier",
+            "desc": "Le roi des Belges Albert Ier lui confère le titre de baron. Ensor choisit pour devise héraldique : 'Pro Luce' (Pour la Lumière).",
+            "type": "award",
+            "icon": "👑"
+          },
+          {
+            "year": 1930,
+            "title": "Inauguration de son monument à Ostende",
+            "desc": "Une statue en bronze à son effigie est érigée de son vivant dans le parc Léopold d'Ostende en présence des autorités royales.",
+            "type": "award",
+            "icon": "🗽"
+          },
+          {
+            "year": 1940,
+            "title": "Refus de quitter Ostende durant la guerre",
+            "desc": "Pendant la Seconde Guerre mondiale et les bombardements côtiers, il refuse catégoriquement d'évacuer sa ville et protège ses toiles.",
+            "type": "personal",
+            "icon": "⚓"
+          },
+          {
+            "year": 1949,
+            "title": "Mort à Ostende à l'âge de 89 ans",
+            "desc": "S'éteint le 19 novembre 1949 à Ostende. La Belgique lui rend des funérailles quasi nationales saluant l'un des esprits les plus visionnaires de la peinture.",
+            "type": "death",
+            "icon": "🕊️"
+          }
+        ]
+      }
+    ]
+  }
 }
 };

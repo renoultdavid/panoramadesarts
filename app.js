@@ -26,8 +26,10 @@ function switchView(targetViewId) {
   });
 
   if (targetViewId === 'view-timeline') {
+    document.documentElement.classList.add('view-timeline-active');
     document.body.classList.add('view-timeline-active');
   } else {
+    document.documentElement.classList.remove('view-timeline-active');
     document.body.classList.remove('view-timeline-active');
     window.scrollTo({ top: 0, behavior: 'instant' });
   }
@@ -7633,6 +7635,14 @@ function populateModalData(art) {
 }
 
 const CERTIFIED_PAINTING_DIMENSIONS = {
+  // El Greco (5 œuvres)
+  "el_greco_triptyque_modene_1567": { h: 37, w: 58, display: "37 × 58 cm (triptyque ouvert)" },
+  "el_greco_guerison_aveugle_parme_1573": { h: 50, w: 61, display: "50 × 61 cm" },
+  "el_greco_espolio_depouillement_tolede_1577": { h: 285, w: 173, display: "285 × 173 cm" },
+  "el_greco_enterrement_comte_orgaz_tolede_1586": { h: 480, w: 360, display: "480 × 360 cm" },
+  "el_greco_christ_en_croix_tokyo_1600": { h: 193, w: 116, display: "193 × 116 cm" },
+  // James Ensor (1 œuvre)
+  "ensor_nature_morte_studio_munich_1889": { h: 83, w: 113.5, display: "83 × 113,5 cm" },
   // Raoul Dufy (5 œuvres)
   "dufy_plage_sainte_adresse_1904": { h: 65, w: 81, display: "65 × 81 cm" },
   "dufy_port_du_havre_1906": { h: 65, w: 81, display: "65 × 81 cm" },

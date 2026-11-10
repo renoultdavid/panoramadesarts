@@ -1894,7 +1894,7 @@ body {
   flex-direction: column;
   min-height: 0;
   z-index: 30;
-  overflow: hidden;
+  overflow: hidden !important;
 }
 
 #sub-timeline-drawer {
@@ -2140,6 +2140,7 @@ body {
   display: flex;
   flex-direction: column;
   position: relative;
+  overflow: hidden !important;
 }
 
 #ruler-scale-bar {
@@ -5884,10 +5885,14 @@ body {
     -webkit-overflow-scrolling: touch !important;
   }
 
+  html.view-timeline-active,
   body.view-timeline-active,
+  html:has(#view-timeline.active:not([hidden])),
   body:has(#view-timeline.active:not([hidden])) {
     overflow: hidden !important;
+    height: 100% !important;
     height: 100dvh !important;
+    max-height: 100dvh !important;
   }
 
   /* Répétition stricte de la règle de masquage SPA */
@@ -5916,13 +5921,24 @@ body {
     letter-spacing: 1.5px !important;
   }
 
-  /* Vues SPA défilables (uniquement si actives et non masquées) */
-  .spa-view.active:not([hidden]) {
+  /* Vues SPA défilables (Hub & Recherche uniquement) */
+  #view-hub.active:not([hidden]),
+  #view-search.active:not([hidden]) {
     height: auto !important;
     min-height: calc(100dvh - 48px) !important;
     overflow-x: hidden !important;
     overflow-y: visible !important;
     -webkit-overflow-scrolling: touch !important;
+  }
+
+  /* La frise chronologique reste un cockpit à hauteur fixe sans scroll externe */
+  #view-timeline,
+  #view-timeline.active:not([hidden]) {
+    height: calc(100vh - 48px) !important;
+    height: calc(100dvh - 48px) !important;
+    max-height: calc(100vh - 48px) !important;
+    max-height: calc(100dvh - 48px) !important;
+    overflow: hidden !important;
   }
 
   /* 2. VUE 1 : PORTAIL HUB (TABLETTE) */
