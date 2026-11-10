@@ -985,6 +985,7 @@ const ART_MOVEMENTS = [
     parentCivId: "occ_xxe_moderne",
     lane: "mod_peinture",
     name: "Expressionnisme Abstrait",
+    bannerImg: "https://lh3.googleusercontent.com/d/1v7-GmvyKlkhInWLwMxdX-G__W4fTdQDR",
     yearStart: 1943,
     yearEnd: 1965,
     tier: 1,
@@ -998,6 +999,7 @@ const ART_MOVEMENTS = [
     parentCivId: "occ_xxe_moderne",
     lane: "mod_peinture",
     name: "Pop Art & Nouveau Réalisme",
+    bannerImg: "https://lh3.googleusercontent.com/d/1yUORlbnSB4rd4Ou5BOrHXh9Y5kErrekA",
     yearStart: 1956,
     yearEnd: 1975,
     tier: 0,
@@ -1986,7 +1988,7 @@ const MODERN_MOVEMENTS_DATA = {
     `
   },
   "mov_expressionnisme_abstrait": {
-    bannerImg: "",
+    bannerImg: "https://lh3.googleusercontent.com/d/1v7-GmvyKlkhInWLwMxdX-G__W4fTdQDR",
     badge: "✦ ACTION PAINTING, COLOR FIELD & ÉCOLE DE NEW YORK",
     noticeHtml: `
       <p><strong>L'École de New York et la souveraineté du geste</strong><br>
@@ -2004,7 +2006,7 @@ const MODERN_MOVEMENTS_DATA = {
     `
   },
   "mov_pop_art": {
-    bannerImg: "",
+    bannerImg: "https://lh3.googleusercontent.com/d/1yUORlbnSB4rd4Ou5BOrHXh9Y5kErrekA",
     badge: "✦ CULTURE DE MASSE, SÉRIGRAPHIE & NOUVEAU RÉALISME",
     noticeHtml: `
       <p><strong>L'art à l'heure de la consommation de masse</strong><br>
@@ -3048,6 +3050,40 @@ const CIVILISATIONS_REGISTRY = [
     ],
     artifacts: []
   },
+  // --- JAPON & MONDES D'ASIE (sur lane: "asie") ---
+  {
+    id: "japon_momoyama",
+    name: "Japon : Époque Azuchi-Momoyama",
+    epoch: "1568 à 1600 ap. J.-C.",
+    yearStart: 1568,
+    yearEnd: 1600,
+    lane: "asie",
+    themeColor: "#d97706",
+    sidePos: "pos-right",
+    travelingOrigin: "85.0% 45.0%",
+    haloId: "halo-japon",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczP7mEkpxiMB1kX-SviMEcGLi6Ciq9VusDScSkhhn9Z_CyPXznPdhbFiTbAROY5A-P_304_sK55B_e6sR4pNN7ZV2vvs-JfOf1hJieiadTuFoyYJ1-2tlTmBrHaVkewHyAmGTPkDDITDk7SOKx5lwCo5Uw=w1611-h2416-s-no-gm?authuser=0",
+    mapOverlayUrl: "",
+    albumUrl: "",
+    presentationHtml: `
+      <p><strong>L'unification du Japon et la magnificence des châteaux forts</strong><br>
+      Sous l'impulsion décisive d'Oda Nobunaga puis de Toyotomi Hideyoshi, le Japon sort d'un siècle de guerres intestines (époque Sengoku) pour entrer dans une ère de faste et de réunification politique sans précédent.</p>
+      <p>L'architecture militaire et castrale atteint son apogée absolu avec l'édification de forteresses colossales dominées par des donjons monumentaux (<em>Tenshukaku</em>) tels que le château d'Osaka : soubassements cyclopéens taillés sans mortier (<em>ishigaki</em>), toitures étagées ornées de dauphins fantastiques dorés (<em>kinshachi</em>) et façades aux contrastes saisissants de laque noire, de plâtre blanc et d'or pur.</p>
+      <p>Cette période d'ébullition voit également naître la quintessence de la cérémonie du thé (<em>chanoyu</em>) codifiée par Sen no Rikyū, prônant le dépouillement du wabi-cha en contrepoint fascinant au luxe tapageur des grands paravents dorés de l'école Kanō (Kanō Eitoku) qui parent les salles d'apparat des seigneurs de la guerre.</p>
+    `,
+    concurrentHtml: `
+      <p><strong>Le monde à la fin du XVIe siècle (1568 – 1600)</strong></p>
+      <p>Tandis que Hideyoshi unifie le Japon et bâtit le donjon d'Osaka, l'Europe occidentale vit la fin de la Renaissance et l'essor de la Contre-Réforme.<br>
+      En Espagne, Philippe II achève le monumental monastère-palais de l'Escurial, tandis qu'en Angleterre s'épanouit le théâtre de William Shakespeare sous le règne d'Élisabeth Ire.<br>
+      En Inde, l'empereur moghol Akbar le Grand réunit lettrés et artistes à Fatehpur Sikri dans une tolérance religieuse et artistique remarquable.</p>
+    `,
+    themeAlbums: [
+      { label: "🏯 Châteaux forts & Donjons Tenshukaku", url: "" },
+      { label: "🍵 Cérémonie du thé & Wabi-sabi", url: "" },
+      { label: "✨ Paravents dorés de l'École Kanō", url: "" }
+    ],
+    artifacts: []
+  },
   // --- MÉSOPOTAMIE (7 Périodes Fondatrices sur lane: "mesopotamie") ---
   {
     id: "meso_uruk",
@@ -3683,6 +3719,7 @@ const DOMAIN_ICONS = {
 window.addEventListener('DOMContentLoaded', () => {
   if (window.ART_OBJECTS && window.ART_OBJECTS.length > 0) {
     const domainPriority = [
+      "architecture",
       "sculpture_statuaire",
       "peinture_mosaique",
       "ceramique",
@@ -7435,12 +7472,13 @@ function populateModalData(art) {
   // GESTION DU BANDEAU SUPÉRIEUR & DU PIÉDESTAL
   // =========================================================================
   const creatorName = (art.artist || art.creator || '').trim();
+  const isCommanditaire = creatorName.toLowerCase().includes('commanditaire');
 
   // VOLET GAUCHE : Artiste en encadré rectangulaire doré cliquable à côté du type de peinture
   const btnPedestalArtist = document.getElementById('btn-pedestal-artist');
   const pedestalArtistName = document.getElementById('modal-pedestal-artist-name');
 
-  if (btnPedestalArtist && creatorName) {
+  if (btnPedestalArtist && creatorName && !isCommanditaire) {
     if (pedestalArtistName) pedestalArtistName.textContent = creatorName.toUpperCase();
     btnPedestalArtist.style.display = 'inline-flex';
 

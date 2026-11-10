@@ -18,8 +18,8 @@ window.ART_OBJECTS = [
 {
   "id": "chateau_osaka_tenshukaku_1583",
   "artistId": "",
-  "artist": "Toyotomi Hideyoshi (Commanditaire)",
-  "artistSort": "Hideyoshi Toyotomi",
+  "artist": "",
+  "artistSort": "",
   "civId": "japon_asie",
   "periodId": "japon_momoyama",
   "civName": "Japon & Mondes d'Asie : Époque Azuchi-Momoyama",
