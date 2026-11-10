@@ -7635,6 +7635,25 @@ function populateModalData(art) {
 }
 
 const CERTIFIED_PAINTING_DIMENSIONS = {
+  // Max Ernst (1 œuvre)
+  "ernst_foret_nantes_1925": { h: 114, w: 146, display: "114 × 146 cm" },
+  // Fra Angelico (16 œuvres)
+  "fra_angelico_couronnement_vierge_louvre_1430": { h: 213, w: 211, display: "213 × 211 cm (panneau central avec prédelle)" },
+  "fra_angelico_ange_adoration_gauche_louvre_1430": { h: 37, w: 23, display: "37 × 23 cm" },
+  "fra_angelico_ange_adoration_droite_louvre_1430": { h: 37, w: 23, display: "37 × 23 cm (panneau pendant)" },
+  "fra_angelico_decollation_saint_jean_louvre_1430": { h: 21, w: 32, display: "21 × 32 cm (panneau de prédelle)" },
+  "fra_angelico_christ_benissant_louvre_1435": { h: 28, w: 22, display: "28 × 22 cm" },
+  "fra_angelico_crucifixion_capitulaire_san_marco_1441": { h: 550, w: 950, display: "550 × 950 cm (fresque monumentale)" },
+  "fra_angelico_annonciation_couloir_san_marco_1440": { h: 230, w: 321, display: "230 × 321 cm (fresque)" },
+  "fra_angelico_christ_limbes_cellule31_san_marco_1441": { h: 183, w: 166, display: "183 × 166 cm (fresque de cellule)" },
+  "fra_angelico_sermon_montagne_cellule32_san_marco_1441": { h: 171, w: 159, display: "171 × 159 cm (fresque de cellule)" },
+  "fra_angelico_crucifixion_cellule_privee_san_marco_1441": { h: 152, w: 117, display: "152 × 117 cm (fresque de cellule)" },
+  "fra_angelico_crucifixion_lance_cellule35_san_marco_1441": { h: 178, w: 150, display: "178 × 150 cm (fresque de cellule)" },
+  "fra_angelico_crucifixion_saints_corridor_nord_san_marco_1441": { h: 176, w: 136, display: "176 × 136 cm (fresque de corridor)" },
+  "fra_angelico_christ_mont_oliviers_cellule34_san_marco_1440": { h: 177, w: 147, display: "177 × 147 cm (fresque de cellule)" },
+  "fra_angelico_communion_apotres_cellule35_san_marco_1440": { h: 186, w: 160, display: "186 × 160 cm (fresque de cellule)" },
+  "fra_angelico_crucifixion_cellule17_san_marco_1440": { h: 168, w: 124, display: "168 × 124 cm (fresque de cellule)" },
+  "fra_angelico_annonciation_cellule3_san_marco_1440": { h: 176, w: 148, display: "176 × 148 cm (fresque de cellule)" },
   // El Greco (5 œuvres)
   "el_greco_triptyque_modene_1567": { h: 37, w: 58, display: "37 × 58 cm (triptyque ouvert)" },
   "el_greco_guerison_aveugle_parme_1573": { h: 50, w: 61, display: "50 × 61 cm" },

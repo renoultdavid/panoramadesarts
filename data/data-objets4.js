@@ -16,6 +16,835 @@
    ========================================================================== */
 window.ART_OBJECTS = [
 {
+  "id": "ernst_foret_nantes_1925",
+  "artistId": "ernst",
+  "artist": "Ernst Max",
+  "artistSort": "Ernst Max",
+  "civId": "occident",
+  "periodId": "occ_contemporain",
+  "civName": "Occident : Avant-Gardes & Surréalisme",
+  "century": "XXe siècle (1925)",
+  "centuryDisplay": "XXe s. (1925)",
+  "centuryNumeric": 1925,
+  "domain": "peinture",
+  "artifactType": "Huile et frottage sur toile",
+  "title": "Forêt",
+  "site": "Musée d'arts de Nantes (Nantes, France)",
+  "originSite": "Paris / Pornic (France)",
+  "dimensions": "114 × 146 cm",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczOyosszxYAiYX2OxptDObxDvOa7wTNZoQxBt-EGO_Qpp0M68Fft2ahNc_rWm2Vf9f6vO5C32fcyLpv_Owmq3JMxIuEcg5sLbQCjrYapUEFgTRNpoRc0iV9TrbHMjv1T5ZHgnTJkYySSLjVm1lMwCfLWrg=w1681-h2122-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczOyosszxYAiYX2OxptDObxDvOa7wTNZoQxBt-EGO_Qpp0M68Fft2ahNc_rWm2Vf9f6vO5C32fcyLpv_Owmq3JMxIuEcg5sLbQCjrYapUEFgTRNpoRc0iV9TrbHMjv1T5ZHgnTJkYySSLjVm1lMwCfLWrg=w1681-h2122-s-no-gm?authuser=0",
+  "tags": [
+    "peinture",
+    "max ernst",
+    "forêt",
+    "surréalisme",
+    "frottage",
+    "dada",
+    "nantes",
+    "musée d'arts de nantes",
+    "xxe siècle"
+  ],
+  "chips": [
+    "XXe s.",
+    "1925",
+    "Surréalisme",
+    "Frottage & Huile sur toile",
+    "Musée d'arts de Nantes"
+  ],
+  "desc": "<p>Cette œuvre intitulée Forêt, réalisée par Max Ernst en 1925 et conservée au Musée d'arts de Nantes, est une pièce emblématique du début de la période surréaliste de l'artiste. À cette époque, Ernst développe la technique du frottage, consistant à passer une mine de plomb ou un pigment sur un support placé sur une surface texturée — comme des lattes de bois ou des nervures de feuilles —, afin de faire émerger des formes involontaires guidées par le hasard. Avec Forêt, il transpose cette méthode expérimentale à la peinture à l'huile et au dessin sur papier ou carton, créant un paysage végétal dense et mystérieux où la matière brute semble prendre vie.</p><p>La structure centrale se compose de plusieurs masses élancées aux contours noirs et charbonneux, dont l'une se détache par un bleu intense et vibrant. Cette touche de couleur primaire rompt la monotonie des tons beiges et grisés du fond, attirant l'œil vers le cœur de ce bois imaginaire. Les formes verticales, à la fois troncs pétrifiés et totems archaïques, se dressent comme des sentinelles impénétrables, évoquant une nature primitive et menaçante. L'utilisation de textures frottées crée des striations organiques qui confèrent aux troncs une texture rugueuse, presque tactile, oscillant entre l'écorce végétale et la roche minérale.</p><p>En haut de la composition, des traits horizontaux esquissés au crayon jaune et vert suggèrent une frondaison ou une lueur crépusculaire filtrant à travers les cimes. Le sol est rendu par des hachures sombres et nerveuses qui ancrent les structures dans un espace défini, bien que le fond neutre laisse flotter la scène hors de toute temporalité terrestre. Par ce travail pionnier sur l'automatisme et la texture, Max Ernst transforme le motif inquiétant et merveilleux de la forêt, thème obsessionnel de son enfance allemande, en une vision moderne et dépouillée.</p>",
+  "contemporaryArt": {
+    "title": "1925 • L'Automatisme psychique pur et l'essor de la peinture surréaliste",
+    "events": [
+      "1924 : André Breton publie le premier « Manifeste du surréalisme » à Paris, théorisant l'automatisme psychique pur.",
+      "1925 : Première exposition collective surréaliste à la galerie Pierre à Paris avec Ernst, Miró, Arp, Man Ray et Picasso.",
+      "1925 : Exposition internationale des Arts décoratifs et industriels modernes à Paris, consacrant l'Art déco.",
+      "1925 : Fondation de la Nouvelle Objectivité (Neue Sachlichkeit) en Allemagne lors de la grande exposition de Mannheim."
+    ]
+  }
+},
+{
+  "id": "fra_angelico_couronnement_vierge_louvre_1430",
+  "artistId": "fra_angelico",
+  "artist": "Fra Angelico (Guido di Pietro)",
+  "artistSort": "Fra Angelico",
+  "civId": "occident",
+  "periodId": "occ_renaissance",
+  "civName": "Occident : Première Renaissance florentine",
+  "century": "XVe siècle (1430-1432)",
+  "centuryDisplay": "XVe s. (1430-1432)",
+  "centuryNumeric": 1430,
+  "domain": "peinture",
+  "artifactType": "Détrempe et or sur panneau de bois (Retable)",
+  "title": "Le Couronnement de la Vierge",
+  "site": "Musée du Louvre (Paris, France)",
+  "originSite": "Couvent San Domenico de Fiesole (Toscane, Italie)",
+  "dimensions": "213 × 211 cm (panneau central avec prédelle)",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczOIHkdbHNHvnlkp9Gllwedj5omHw3d2I5BWrr2dkynagh0KV4_C-FAgBWF3bQ6RhVcUFbkZcI53ulywS3ultzKbUqi1SZafiZWmefotNiE_jvao5Oa9udmB4TIdj7V-Hi9Rb3ZRDESfkSyHqDFJKuD-0g=w1681-h2061-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczOIHkdbHNHvnlkp9Gllwedj5omHw3d2I5BWrr2dkynagh0KV4_C-FAgBWF3bQ6RhVcUFbkZcI53ulywS3ultzKbUqi1SZafiZWmefotNiE_jvao5Oa9udmB4TIdj7V-Hi9Rb3ZRDESfkSyHqDFJKuD-0g=w1681-h2061-s-no-gm?authuser=0",
+  "tags": [
+    "peinture",
+    "fra angelico",
+    "couronnement de la vierge",
+    "louvre",
+    "fiesole",
+    "quattrocento",
+    "renaissance florentine",
+    "art sacré"
+  ],
+  "chips": [
+    "XVe s.",
+    "1430-1432",
+    "Renaissance florentine",
+    "Détrempe sur bois",
+    "Musée du Louvre"
+  ],
+  "desc": "<p>Réalisé par Fra Angelico entre 1430 et 1432, ce retable monumental est un chef-d’œuvre de la Renaissance florentine. Originaire du couvent San Domenico de Fiesole, il illustre le passage de l'esthétique gothique internationale vers la modernité de la Renaissance. Fra Angelico, moine dominicain autant que peintre d'exception, y déploie une vision céleste où la rigueur géométrique s'accorde parfaitement avec la ferveur mystique. Cette œuvre maîtresse a exercé une influence déterminante sur le traitement de la lumière et de l'espace dans la peinture toscane du Quattrocento.</p><p>La composition s'organise autour d'un imposant trône gothique en marbre polychrome, surmonté d'un dais architectural richement sculpté sous lequel le Christ dépose une couronne dorée sur la tête de la Vierge Marie humblement inclinée. La scène se déroule au sommet d'une volée de marches en marbre incrusté dont la fuite perspective rigoureuse ancre résolument le couronnement dans un espace tridimensionnel rationnel. Tout autour, une foule dense d'anges musiciens et de saints en adoration forme une haie d'honneur céleste. Parmi eux, on reconnaît saint Dominique tenant un lys immaculé, saint Pierre martyr, saint Nicolas avec ses bourses d'or, saint Louis de Toulouse coiffé de sa mitre fleurdelisée et sainte Catherine d'Alexandrie près de sa roue dentée.</p><p>La palette chromatique est d'une splendeur éblouissante, dominée par la réverbération de la feuille d'or des auréoles et du fond, ainsi que par les accords vibrants d'outremer précieux, de pourpre, d'oranger et de vert tendre des draperies. La prédelle inférieure déroule sept compartiments peints avec une minutie virtuose, retraçant les épisodes majeurs de la vie de saint Dominique (le songe d'Innocent III, l'apparition des apôtres Pierre et Paul, la résurrection du jeune Napoléon, le miracle du livre sauvé des flammes, le repas servi par des anges et la mort du saint), encadrant un poignant Christ au tombeau. Cet ensemble forme l'un des sommets incontestés de l'art chrétien occidental.</p>",
+  "contemporaryArt": {
+    "title": "Quattrocento • L'Éclosion de la Renaissance et l'humanisme florentin",
+    "events": [
+      "1430 – 1436 : Filippo Brunelleschi achève l'érection de la coupole monumentale de Santa Maria del Fiore à Florence.",
+      "1434 : Cosme l'Ancien de Médicis revient d'exil et fonde l'âge d'or du mécénat humaniste à Florence.",
+      "1439 : Concile œcuménique de Ferrare-Florence réunissant les Églises d'Orient et d'Occident sous Eugène IV.",
+      "1440 : Donatello achève son David en bronze nu, premier nu autonome en ronde-bosse de la Renaissance.",
+      "1444 : Début de la construction du Palais Médicis-Riccardi par Michelozzo, architecte de San Marco."
+    ]
+  }
+},
+{
+  "id": "fra_angelico_ange_adoration_gauche_louvre_1430",
+  "artistId": "fra_angelico",
+  "artist": "Fra Angelico (Guido di Pietro)",
+  "artistSort": "Fra Angelico",
+  "civId": "occident",
+  "periodId": "occ_renaissance",
+  "civName": "Occident : Première Renaissance florentine",
+  "century": "XVe siècle (vers 1430-1440)",
+  "centuryDisplay": "XVe s. (v. 1430-1440)",
+  "centuryNumeric": 1430,
+  "domain": "peinture",
+  "artifactType": "Tempera et or sur panneau de bois (Peuplier)",
+  "title": "Ange en adoration (tourné vers la droite)",
+  "site": "Musée du Louvre (Paris, France)",
+  "originSite": "Florence / Fiesole (Toscane, Italie)",
+  "dimensions": "37 × 23 cm",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczMIdATjLBWjAry-IaPevR_1BK9uZ89QChUdj1Nyj0mR0p0xZDwqcduKPLreaNnL_F_kNh586cogLDj77pxDVRMuFGmxHwLd87kN4HoK_N7C8D0VApoEQq24UkuNw9o2kA-QMP3mKCdKCTAeRdzOrITjig=w1622-h2416-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczMIdATjLBWjAry-IaPevR_1BK9uZ89QChUdj1Nyj0mR0p0xZDwqcduKPLreaNnL_F_kNh586cogLDj77pxDVRMuFGmxHwLd87kN4HoK_N7C8D0VApoEQq24UkuNw9o2kA-QMP3mKCdKCTAeRdzOrITjig=w1622-h2416-s-no-gm?authuser=0",
+  "tags": [
+    "peinture",
+    "fra angelico",
+    "ange en adoration",
+    "louvre",
+    "quattrocento",
+    "renaissance florentine",
+    "tempera",
+    "or"
+  ],
+  "chips": [
+    "XVe s.",
+    "v. 1430-1440",
+    "Renaissance florentine",
+    "Tempera et or sur bois",
+    "Musée du Louvre"
+  ],
+  "desc": "<p>Fragment d'un ensemble plus vaste, probablement un retable ou un encadrement de tabernacle (inv. RF 970), cet Ange en adoration est une œuvre caractéristique de la piété et de la délicatesse de Fra Angelico. Peint vers 1430-1440, ce panneau témoigne de la capacité du maître dominicain à insuffler une vie spirituelle intense à des figures isolées. Bien que de dimensions réduites, l'œuvre conserve toute la force monumentale et la pureté chromatique qui ont fait la renommée de l'artiste au-delà des murs de son couvent de San Marco à Florence.</p><p>La figure angélique est représentée de profil, les mains jointes dans un geste de prière recueillie. Le visage, d'une grande finesse juvénile, est empreint d'une sérénité absolue, les yeux légèrement baissés en signe d'humilité devant le divin. La chevelure blonde, dont chaque mèche semble avoir été ciselée à la pointe du pinceau, est ceinte d'un diadème discret. Ce profil pur, aux lignes nettes et fluides, rappelle les recherches de Fra Angelico sur la clarté de la forme, héritées à la fois du gothique tardif et des premières avancées de la Renaissance.</p><p>La tunique de l'ange est d'un bleu azur profond, parsemée de motifs dorés qui captent la lumière. Ce choix de couleurs, associé à l'utilisation généreuse de la feuille d'or pour les ailes et l'auréole, confère à l'œuvre un aspect précieux et immatériel. Les ailes sont traitées avec une minutie exceptionnelle, chaque plume étant soulignée par des traits d'or qui suggèrent un chatoiement céleste. L'éclairage, doux et frontal, modèle le visage sans créer d'ombres portées brutales, renforçant l'impression de transparence et de pureté d'une créature divine figée dans un acte d'adoration perpétuelle.</p>",
+  "contemporaryArt": {
+    "title": "Quattrocento • L'Éclosion de la Renaissance et l'humanisme florentin",
+    "events": [
+      "1430 – 1436 : Filippo Brunelleschi achève l'érection de la coupole monumentale de Santa Maria del Fiore à Florence.",
+      "1434 : Cosme l'Ancien de Médicis revient d'exil et fonde l'âge d'or du mécénat humaniste à Florence.",
+      "1439 : Concile œcuménique de Ferrare-Florence réunissant les Églises d'Orient et d'Occident sous Eugène IV.",
+      "1440 : Donatello achève son David en bronze nu, premier nu autonome en ronde-bosse de la Renaissance.",
+      "1444 : Début de la construction du Palais Médicis-Riccardi par Michelozzo, architecte de San Marco."
+    ]
+  }
+},
+{
+  "id": "fra_angelico_ange_adoration_droite_louvre_1430",
+  "artistId": "fra_angelico",
+  "artist": "Fra Angelico (Guido di Pietro)",
+  "artistSort": "Fra Angelico",
+  "civId": "occident",
+  "periodId": "occ_renaissance",
+  "civName": "Occident : Première Renaissance florentine",
+  "century": "XVe siècle (vers 1430-1440)",
+  "centuryDisplay": "XVe s. (v. 1430-1440)",
+  "centuryNumeric": 1430,
+  "domain": "peinture",
+  "artifactType": "Tempera et or sur panneau de bois (Peuplier)",
+  "title": "Ange en adoration (pendant, tourné vers la gauche)",
+  "site": "Musée du Louvre (Paris, France)",
+  "originSite": "Florence / Fiesole (Toscane, Italie)",
+  "dimensions": "37 × 23 cm (panneau pendant)",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczM_pDvMVJ_-VHrNpCYGB5NQ8NxHRJTxKxC81QAc-E_jZLfZk8LFbsxwdad2kpogX02yYhSeTLFJ6G8r2oq6TvQgll4RPWt8dEI2F9DZjlFHRsfnyqPpGdXXPkXvOWKIxnrG7tdYBluO7Tm553whxGlusA=w1451-h2416-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczM_pDvMVJ_-VHrNpCYGB5NQ8NxHRJTxKxC81QAc-E_jZLfZk8LFbsxwdad2kpogX02yYhSeTLFJ6G8r2oq6TvQgll4RPWt8dEI2F9DZjlFHRsfnyqPpGdXXPkXvOWKIxnrG7tdYBluO7Tm553whxGlusA=w1451-h2416-s-no-gm?authuser=0",
+  "tags": [
+    "peinture",
+    "fra angelico",
+    "ange en adoration",
+    "pendant",
+    "louvre",
+    "quattrocento",
+    "renaissance florentine",
+    "tempera",
+    "or"
+  ],
+  "chips": [
+    "XVe s.",
+    "v. 1430-1440",
+    "Renaissance florentine",
+    "Tempera et or sur bois",
+    "Musée du Louvre"
+  ],
+  "desc": "<p>Pendant indissociable du panneau précédent (inv. RF 971), cet Ange en adoration tourné vers la gauche formait avec son vis-à-vis le couronnement liturgique ou l'encadrement supérieur d'un retable ou d'un tabernacle eucharistique. Les deux anges se faisaient face de part et d'autre de la figure sacrée centrale (une Vierge à l'Enfant ou un Christ glorieux), créant un dialogue visuel et dévotionnel d'une harmonie parfaite.</p><p>La figure céleste incline doucement le buste et joint les mains dans une prière fervente. Son profil d'une pureté idéale se détache sur un fond d'or gravé et poinçonné avec une virtuosité magistrale. Les cheveux blonds ondulés, le modelé subtil des paupières baissées et la douceur de la carnation témoignent du pinceau d'une sensibilité inouïe de Fra Angelico, où la lumière n'est pas un simple artifice optique mais l'incarnation de la clarté spirituelle.</p><p>Le vêtement de l'ange, drapé avec une grande élégance linéaire, dialogue avec les ailes dorées dont les rémiges sont incisées avec une minutie d'orfèvre. Acquis par le Musée du Louvre au XIXe siècle en même temps que son pendant, ce chef-d'œuvre miniature incarne la perfection poétique et théologique du maître florentin, méritant pleinement le qualificatif d'Angelico décerné par ses contemporains.</p>",
+  "contemporaryArt": {
+    "title": "Quattrocento • L'Éclosion de la Renaissance et l'humanisme florentin",
+    "events": [
+      "1430 – 1436 : Filippo Brunelleschi achève l'érection de la coupole monumentale de Santa Maria del Fiore à Florence.",
+      "1434 : Cosme l'Ancien de Médicis revient d'exil et fonde l'âge d'or du mécénat humaniste à Florence.",
+      "1439 : Concile œcuménique de Ferrare-Florence réunissant les Églises d'Orient et d'Occident sous Eugène IV.",
+      "1440 : Donatello achève son David en bronze nu, premier nu autonome en ronde-bosse de la Renaissance.",
+      "1444 : Début de la construction du Palais Médicis-Riccardi par Michelozzo, architecte de San Marco."
+    ]
+  }
+},
+{
+  "id": "fra_angelico_decollation_saint_jean_louvre_1430",
+  "artistId": "fra_angelico",
+  "artist": "Fra Angelico (Guido di Pietro)",
+  "artistSort": "Fra Angelico",
+  "civId": "occident",
+  "periodId": "occ_renaissance",
+  "civName": "Occident : Première Renaissance florentine",
+  "century": "XVe siècle (vers 1430-1435)",
+  "centuryDisplay": "XVe s. (v. 1430-1435)",
+  "centuryNumeric": 1430,
+  "domain": "peinture",
+  "artifactType": "Détrempe sur panneau de bois (Prédelle)",
+  "title": "La Décollation de saint Jean Baptiste et le Banquet d'Hérode",
+  "site": "Musée du Louvre (Paris, France)",
+  "originSite": "Florence / Fiesole (Toscane, Italie)",
+  "dimensions": "21 × 32 cm (panneau de prédelle)",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczPWY3AZ76ibf4JK1546EQPmMxWEEz2bDQewRZpqFaf5WulbftnWQjTnRuSkVy7Ng69O53Pa9OKKWeKp_xqg-ygFSdDcVXxE75b7ReJ7RTBKwnNzBmn6gyMj3QxqLdJ6e4d0xTsAFfm10--DsVmSi9GR1g=w1681-h1046-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczPWY3AZ76ibf4JK1546EQPmMxWEEz2bDQewRZpqFaf5WulbftnWQjTnRuSkVy7Ng69O53Pa9OKKWeKp_xqg-ygFSdDcVXxE75b7ReJ7RTBKwnNzBmn6gyMj3QxqLdJ6e4d0xTsAFfm10--DsVmSi9GR1g=w1681-h1046-s-no-gm?authuser=0",
+  "tags": [
+    "peinture",
+    "fra angelico",
+    "décollation",
+    "saint jean baptiste",
+    "banquet d'hérode",
+    "salomé",
+    "prédelle",
+    "louvre"
+  ],
+  "chips": [
+    "XVe s.",
+    "v. 1430-1435",
+    "Renaissance florentine",
+    "Détrempe sur bois",
+    "Musée du Louvre"
+  ],
+  "desc": "<p>Peinte entre 1430 et 1435, cette œuvre est un précieux panneau de prédelle (inv. MI 584) attribué à Fra Angelico et son entourage immédiat. D'une remarquable finesse d'exécution malgré ses dimensions miniatures (21 × 32 cm), ce panneau illustre avec une éloquence dramatique le martyre de saint Jean-Baptiste et les événements qui ont conduit à son exécution tragique sous les ordres du tétrarque Hérode Antipas.</p><p>L'espace pictural est structuré par une architecture de palais Renaissance rigoureusement ordonnée selon les règles de la perspective centrale. La scène réunit en une narration continue deux moments distincts : au premier plan à droite, le bourreau décapite saint Jean-Baptiste dont le corps repose sur le dallage de la prison, tandis qu'au centre, Salomé présente la tête tranchée sur un plateau d'argent lors du banquet présidé par Hérode et ses convives stupéfaits.</p><p>L'unité de l'œuvre est assurée par une lumière cristalline et une palette chromatique raffinée où dominent le rouge vermillon, le bleu azur et les ocres chauds de l'architecture. La tension dramatique est accentuée par la gestuelle expressive des convives, partagés entre l'effroi et la fascination morbide face au plateau sanglant, contrastant avec la sérénité solennelle qui se dégage du martyr. Ce panneau constitue un exemple majeur de l'art du récit miniature au début du Quattrocento florentin.</p>",
+  "contemporaryArt": {
+    "title": "Quattrocento • L'Éclosion de la Renaissance et l'humanisme florentin",
+    "events": [
+      "1430 – 1436 : Filippo Brunelleschi achève l'érection de la coupole monumentale de Santa Maria del Fiore à Florence.",
+      "1434 : Cosme l'Ancien de Médicis revient d'exil et fonde l'âge d'or du mécénat humaniste à Florence.",
+      "1439 : Concile œcuménique de Ferrare-Florence réunissant les Églises d'Orient et d'Occident sous Eugène IV.",
+      "1440 : Donatello achève son David en bronze nu, premier nu autonome en ronde-bosse de la Renaissance.",
+      "1444 : Début de la construction du Palais Médicis-Riccardi par Michelozzo, architecte de San Marco."
+    ]
+  }
+},
+{
+  "id": "fra_angelico_christ_benissant_louvre_1435",
+  "artistId": "fra_angelico",
+  "artist": "Fra Angelico (Guido di Pietro)",
+  "artistSort": "Fra Angelico",
+  "civId": "occident",
+  "periodId": "occ_renaissance",
+  "civName": "Occident : Première Renaissance florentine",
+  "century": "XVe siècle (vers 1435-1440)",
+  "centuryDisplay": "XVe s. (v. 1435-1440)",
+  "centuryNumeric": 1435,
+  "domain": "peinture",
+  "artifactType": "Détrempe et or sur panneau de bois (Peuplier)",
+  "title": "Le Christ bénissant",
+  "site": "Musée du Louvre (Paris, France)",
+  "originSite": "Florence (Toscane, Italie)",
+  "dimensions": "28 × 22 cm",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczMTJ2PpzOz1XwY67WFmCwWCHzVCVqOZWYrBsbX-6pyPHL-zppJh7nzxRZtfJlyPrjx-Ck5xJOoNcSa1LLh1ctxM0nB_Xp-Jxi6RrE0D9tThfLmVYSCfFNZzShXKEMbi3BmPUqCZV1aSzrTQH1xNcPsBOQ=w1681-h1687-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczMTJ2PpzOz1XwY67WFmCwWCHzVCVqOZWYrBsbX-6pyPHL-zppJh7nzxRZtfJlyPrjx-Ck5xJOoNcSa1LLh1ctxM0nB_Xp-Jxi6RrE0D9tThfLmVYSCfFNZzShXKEMbi3BmPUqCZV1aSzrTQH1xNcPsBOQ=w1681-h1687-s-no-gm?authuser=0",
+  "tags": [
+    "peinture",
+    "fra angelico",
+    "christ bénissant",
+    "louvre",
+    "sauveur",
+    "tempera",
+    "fond d'or",
+    "quattrocento"
+  ],
+  "chips": [
+    "XVe s.",
+    "v. 1435-1440",
+    "Renaissance florentine",
+    "Détrempe et or sur bois",
+    "Musée du Louvre"
+  ],
+  "desc": "<p>Ce petit panneau de bois (inv. RF 972), peint à la tempera par Fra Angelico vers 1435-1440, est une œuvre d'une extraordinaire intensité spirituelle et dévotionnelle. Présenté en buste serré et frontal, le Christ bénit le fidèle de la main droite tandis que sa main gauche retient un livre liturgique relié d'or, symbole du Verbe incarné et de la Nouvelle Alliance.</p><p>Le travail chromatique est d'une sobriété magistrale au service de l'efficacité symbolique : le Christ est vêtu d'une tunique rouge carmin, couleur de la Passion et du sacrifice salvateur, recouverte d'un manteau bleu outremer profond qui symbolise sa nature céleste et divine. L'auréole crucifère, incisée et poinçonnée dans l'épaisseur de la feuille d'or, irradie une clarté surnaturelle qui auréole le visage du Rédempteur.</p><p>Le visage du Christ se caractérise par une régularité géométrique parfaite et un regard d'une douceur infinie qui fixe directement le spectateur. Le modelé subtil de la barbe brune et des cheveux tombant sur les épaules traduit la maîtrise souveraine du sfumato précoce et de la lumière unifiée de Fra Angelico. Cette œuvre de dévotion privée était conçue pour susciter la méditation personnelle et le recueillement intime face au mystère de l'Incarnation.</p>",
+  "contemporaryArt": {
+    "title": "Quattrocento • L'Éclosion de la Renaissance et l'humanisme florentin",
+    "events": [
+      "1430 – 1436 : Filippo Brunelleschi achève l'érection de la coupole monumentale de Santa Maria del Fiore à Florence.",
+      "1434 : Cosme l'Ancien de Médicis revient d'exil et fonde l'âge d'or du mécénat humaniste à Florence.",
+      "1439 : Concile œcuménique de Ferrare-Florence réunissant les Églises d'Orient et d'Occident sous Eugène IV.",
+      "1440 : Donatello achève son David en bronze nu, premier nu autonome en ronde-bosse de la Renaissance.",
+      "1444 : Début de la construction du Palais Médicis-Riccardi par Michelozzo, architecte de San Marco."
+    ]
+  }
+},
+{
+  "id": "fra_angelico_crucifixion_capitulaire_san_marco_1441",
+  "artistId": "fra_angelico",
+  "artist": "Fra Angelico (Guido di Pietro)",
+  "artistSort": "Fra Angelico",
+  "civId": "occident",
+  "periodId": "occ_renaissance",
+  "civName": "Occident : Première Renaissance florentine",
+  "century": "XVe siècle (1441-1442)",
+  "centuryDisplay": "XVe s. (1441-1442)",
+  "centuryNumeric": 1441,
+  "domain": "peinture",
+  "artifactType": "Fresque murale monumentale",
+  "title": "Crucifixion avec saints (Salle capitulaire)",
+  "site": "Museo Nazionale di San Marco (Florence, Italie)",
+  "originSite": "Salle capitulaire du couvent San Marco (Florence, Italie)",
+  "dimensions": "550 × 950 cm (fresque monumentale en demi-lune)",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczOJyEPatd9Lq1H27WHoUPLaBUYldHe1-s6Fbo13veOGAIQNI6DnsJznpl5Fh2wPybndUJ2hZTVYpMcE98sXFCkaMdhR9rxEViNHgNI339ch3LbBWn8NesBK9gD0wq6CGDeuSGAMgSm92WM82jIVm9ND2A=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczOJyEPatd9Lq1H27WHoUPLaBUYldHe1-s6Fbo13veOGAIQNI6DnsJznpl5Fh2wPybndUJ2hZTVYpMcE98sXFCkaMdhR9rxEViNHgNI339ch3LbBWn8NesBK9gD0wq6CGDeuSGAMgSm92WM82jIVm9ND2A=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "peinture",
+    "fresque",
+    "fra angelico",
+    "crucifixion",
+    "san marco",
+    "salle capitulaire",
+    "florence",
+    "médicis",
+    "ordre dominicain"
+  ],
+  "chips": [
+    "XVe s.",
+    "1441-1442",
+    "Renaissance florentine",
+    "Fresque monumentale",
+    "San Marco, Florence"
+  ],
+  "desc": "<p>Cette fresque monumentale, réalisée entre 1441 et 1442, orne la paroi nord de la salle capitulaire du couvent de San Marco à Florence. Mesurant près de dix mètres d'envergure sous une vaste arcade cintrée, cette composition colossale constituait le centre spirituel et théologique des réunions solennelles de la communauté dominicaine, placée sous le patronage direct de Cosme l'Ancien de Médicis.</p><p>Au centre se dressent les trois croix du Golgotha, détachées sur un ciel crépusculaire d'un rouge violacé sombre (dû à l'altération chimique de l'azurite d'origine). Au pied de la croix du Christ, la Vierge Marie s'évanouit de douleur, soutenue par saint Jean l'Évangéliste, Marie-Madeleine et les saintes femmes. À gauche se tiennent les saints patrons de Florence et des Médicis : saint Jean-Baptiste, saint Marc, saint Laurent, saint Côme et saint Damien. À droite s'agenouillent les fondateurs des grands ordres religieux de l'Occident chrétien : saint Dominique, saint Jérôme, saint François d'Assise, saint Bernard, saint Jean Gualbert, saint Romuald et saint Pierre martyr.</p><p>Fra Angelico orchestre ici une savante méditation anachronique où les pères spirituels de l'Église contemplent le sacrifice du Sauveur par-delà les siècles. La frise inférieure en médaillons déploie l'arbre généalogique des illustres membres de l'ordre dominicain, avec saint Dominique en son centre entouré de cardinaux, papes et théologiens prêcheurs. Cette fresque grandiose représente le monument le plus vaste et le plus complexe jamais peint par Fra Angelico.</p>",
+  "contemporaryArt": {
+    "title": "Quattrocento • L'Éclosion de la Renaissance et l'humanisme florentin",
+    "events": [
+      "1430 – 1436 : Filippo Brunelleschi achève l'érection de la coupole monumentale de Santa Maria del Fiore à Florence.",
+      "1434 : Cosme l'Ancien de Médicis revient d'exil et fonde l'âge d'or du mécénat humaniste à Florence.",
+      "1439 : Concile œcuménique de Ferrare-Florence réunissant les Églises d'Orient et d'Occident sous Eugène IV.",
+      "1440 : Donatello achève son David en bronze nu, premier nu autonome en ronde-bosse de la Renaissance.",
+      "1444 : Début de la construction du Palais Médicis-Riccardi par Michelozzo, architecte de San Marco."
+    ]
+  }
+},
+{
+  "id": "fra_angelico_annonciation_couloir_san_marco_1440",
+  "artistId": "fra_angelico",
+  "artist": "Fra Angelico (Guido di Pietro)",
+  "artistSort": "Fra Angelico",
+  "civId": "occident",
+  "periodId": "occ_renaissance",
+  "civName": "Occident : Première Renaissance florentine",
+  "century": "XVe siècle (vers 1440-1450)",
+  "centuryDisplay": "XVe s. (v. 1440-1450)",
+  "centuryNumeric": 1440,
+  "domain": "peinture",
+  "artifactType": "Fresque murale",
+  "title": "L'Annonciation (Corridor nord du dortoir)",
+  "site": "Museo Nazionale di San Marco (Florence, Italie)",
+  "originSite": "Palier haut du dortoir, couvent San Marco (Florence, Italie)",
+  "dimensions": "230 × 321 cm (fresque)",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczNjtnKGiBKXc-Gi8l79JycunQZfsTyb_BzB59zXxpJQNwcECBTT-_KlJrvZ26zb4dnv3gCWNP1hdGjAitxxkJw8vvf0l67L-_zPa_frv3JOds5d6BIgeY0ahUMlZVOgMpY2TgWbjXP-y6XDCwxniVw9xw=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczNjtnKGiBKXc-Gi8l79JycunQZfsTyb_BzB59zXxpJQNwcECBTT-_KlJrvZ26zb4dnv3gCWNP1hdGjAitxxkJw8vvf0l67L-_zPa_frv3JOds5d6BIgeY0ahUMlZVOgMpY2TgWbjXP-y6XDCwxniVw9xw=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "peinture",
+    "fresque",
+    "fra angelico",
+    "annonciation",
+    "san marco",
+    "florence",
+    "archange gabriel",
+    "vierge marie",
+    "hortus conclusus"
+  ],
+  "chips": [
+    "XVe s.",
+    "v. 1440-1450",
+    "Renaissance florentine",
+    "Fresque murale",
+    "San Marco, Florence"
+  ],
+  "desc": "<p>Cette célèbre fresque monumentale, réalisée par Fra Angelico entre 1440 et 1450, se situe en haut de l’escalier menant au dortoir des frères dominicains du couvent San Marco. Conçue pour être vue dès l'accès à l'étage des cellules, elle servait d'injonction visuelle et contemplative à chaque moine, comme le rappelle l'inscription latine peinte au bas de la loggia : « Virginis Intactae Cvm Veneris Ante Figvram Pretereundo Cave Ne Sileatvr Ave » (Lorsque tu passeras devant la figure de la Vierge immaculée, veille à ne pas oublier de dire un Ave).</p><p>La composition se déploie sous un élégant portique à arcades Renaissance aux colonnes composites inspirées des architectures de Michelozzo et Brunelleschi. L'archange Gabriel, aux ailes multicolores irisées de rose, d'or et de turquoise, s'incline respectueusement devant Marie assise sur un modeste banc de bois, les bras croisés sur la poitrine en signe de soumission humble à la volonté divine. À gauche, un jardin fleuri clôturé d'une palissade de bois évoque l'hortus conclusus, symbole traditionnel de la virginité perpétuelle de la Vierge.</p><p>L'économie de moyens et la clarté lumineuse de cette fresque en font l'un des sommets universels de l'histoire de l'art. Rejetant les ornements dorés superflus de ses premiers retables pour s'adapter à la règle de pauvreté dominicaine, Fra Angelico privilégie la lumière pure du jour toscan qui modèle les corps et les arcades avec une douceur géométrique souveraine, créant un climat de silence sacré et de suspension du temps.</p>",
+  "contemporaryArt": {
+    "title": "Quattrocento • L'Éclosion de la Renaissance et l'humanisme florentin",
+    "events": [
+      "1430 – 1436 : Filippo Brunelleschi achève l'érection de la coupole monumentale de Santa Maria del Fiore à Florence.",
+      "1434 : Cosme l'Ancien de Médicis revient d'exil et fonde l'âge d'or du mécénat humaniste à Florence.",
+      "1439 : Concile œcuménique de Ferrare-Florence réunissant les Églises d'Orient et d'Occident sous Eugène IV.",
+      "1440 : Donatello achève son David en bronze nu, premier nu autonome en ronde-bosse de la Renaissance.",
+      "1444 : Début de la construction du Palais Médicis-Riccardi par Michelozzo, architecte de San Marco."
+    ]
+  }
+},
+{
+  "id": "fra_angelico_christ_limbes_cellule31_san_marco_1441",
+  "artistId": "fra_angelico",
+  "artist": "Fra Angelico (Guido di Pietro)",
+  "artistSort": "Fra Angelico",
+  "civId": "occident",
+  "periodId": "occ_renaissance",
+  "civName": "Occident : Première Renaissance florentine",
+  "century": "XVe siècle (1441-1442)",
+  "centuryDisplay": "XVe s. (1441-1442)",
+  "centuryNumeric": 1441,
+  "domain": "peinture",
+  "artifactType": "Fresque de cellule",
+  "title": "Le Christ dans les limbes (Cellule 31)",
+  "site": "Museo Nazionale di San Marco (Florence, Italie)",
+  "originSite": "Cellule 31 du dortoir, couvent San Marco (Florence, Italie)",
+  "dimensions": "183 × 166 cm (fresque)",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczOYB8pSN7BPfHy0krVGxJlmkhfBgkB1QLG0dUPEvTROhSrsg47LXRgsysob1THUSDhFPgD-2yJMTX8wZ4Mkz-NmFAoCd3i7P1Z4Wcc7uqPrAaAIwxbC2Gly81Sj8Az_Ox6HUbizc9jryAWw1OlSCXudaA=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczOYB8pSN7BPfHy0krVGxJlmkhfBgkB1QLG0dUPEvTROhSrsg47LXRgsysob1THUSDhFPgD-2yJMTX8wZ4Mkz-NmFAoCd3i7P1Z4Wcc7uqPrAaAIwxbC2Gly81Sj8Az_Ox6HUbizc9jryAWw1OlSCXudaA=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "peinture",
+    "fresque",
+    "fra angelico",
+    "christ dans les limbes",
+    "anastasis",
+    "cellule 31",
+    "san marco",
+    "florence",
+    "adam"
+  ],
+  "chips": [
+    "XVe s.",
+    "1441-1442",
+    "Renaissance florentine",
+    "Fresque de cellule",
+    "San Marco, Florence"
+  ],
+  "desc": "<p>Cette fresque monumentale, peinte par Fra Angelico et ses assistants entre 1441 et 1442, orne la cellule 31 du dortoir du couvent San Marco à Florence. Elle dépeint la Descente aux Enfers (l'Anastasis chrétienne), moment solennel où le Christ ressuscité fait voler en éclats les portes de fer de la mort pour délivrer les justes de l'Ancien Testament retenus dans les limbes.</p><p>Vêtu d'une tunique blanche immaculée et tenant la bannière crucifère de la Résurrection, le Christ foule aux pieds la porte brisée qui a écrasé un démon cornu. D'un geste plein d'autorité et de bienveillance, il saisit la main du patriarche Adam, tandis qu'Ève, David, Salomon et les prophètes s'avancent avec reconnaissance hors de la caverne ténébreuse vers la clarté salvatrice. À droite, les démons terrifiés fuient en désordre dans les anfractuosités des rochers.</p><p>L'espace pictural est marqué par un contraste dramatique puissant entre la blancheur éblouissante émanant du Sauveur et les tonalités rocheuses et sombres du séjour des morts. Destinée à nourrir la prière quotidienne du moine occupant la cellule, cette fresque magnifie la victoire absolue de la grâce divine sur la damnation, offrant un soutien spirituel fondamental pour la méditation sur le salut éternel.</p>",
+  "contemporaryArt": {
+    "title": "Quattrocento • L'Éclosion de la Renaissance et l'humanisme florentin",
+    "events": [
+      "1430 – 1436 : Filippo Brunelleschi achève l'érection de la coupole monumentale de Santa Maria del Fiore à Florence.",
+      "1434 : Cosme l'Ancien de Médicis revient d'exil et fonde l'âge d'or du mécénat humaniste à Florence.",
+      "1439 : Concile œcuménique de Ferrare-Florence réunissant les Églises d'Orient et d'Occident sous Eugène IV.",
+      "1440 : Donatello achève son David en bronze nu, premier nu autonome en ronde-bosse de la Renaissance.",
+      "1444 : Début de la construction du Palais Médicis-Riccardi par Michelozzo, architecte de San Marco."
+    ]
+  }
+},
+{
+  "id": "fra_angelico_sermon_montagne_cellule32_san_marco_1441",
+  "artistId": "fra_angelico",
+  "artist": "Fra Angelico (Guido di Pietro)",
+  "artistSort": "Fra Angelico",
+  "civId": "occident",
+  "periodId": "occ_renaissance",
+  "civName": "Occident : Première Renaissance florentine",
+  "century": "XVe siècle (1441-1442)",
+  "centuryDisplay": "XVe s. (1441-1442)",
+  "centuryNumeric": 1441,
+  "domain": "peinture",
+  "artifactType": "Fresque de cellule",
+  "title": "Le Sermon sur la montagne (Cellule 32)",
+  "site": "Museo Nazionale di San Marco (Florence, Italie)",
+  "originSite": "Cellule 32 du dortoir, couvent San Marco (Florence, Italie)",
+  "dimensions": "171 × 159 cm (fresque)",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczO4-Z7Ex3_dhbM_ePqyQRoPgF5bD3mwiFYi1QrH34I0R4XtODH39zEDtgeDpY-ZH55racMlxJd_zXXc0q5LGquZprbSUjEwxg0Tb4AI_xTCmrLt2EsrIvyWZO8jdS93eg3M7-IMmUZek5pCU1HIBWmBpA=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczO4-Z7Ex3_dhbM_ePqyQRoPgF5bD3mwiFYi1QrH34I0R4XtODH39zEDtgeDpY-ZH55racMlxJd_zXXc0q5LGquZprbSUjEwxg0Tb4AI_xTCmrLt2EsrIvyWZO8jdS93eg3M7-IMmUZek5pCU1HIBWmBpA=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "peinture",
+    "fresque",
+    "fra angelico",
+    "sermon sur la montagne",
+    "béatitudes",
+    "cellule 32",
+    "san marco",
+    "florence",
+    "apôtres"
+  ],
+  "chips": [
+    "XVe s.",
+    "1441-1442",
+    "Renaissance florentine",
+    "Fresque de cellule",
+    "San Marco, Florence"
+  ],
+  "desc": "<p>Cette fresque d'une saisissante sobriété, réalisée par Fra Angelico et ses collaborateurs entre 1441 et 1442, se trouve dans la cellule 32 du couvent San Marco à Florence. Elle met en scène le Christ proclamant les Béatitudes devant le collège apostolique réuni sur un monticule rocheux baigné d'une clarté matinale limpide.</p><p>Le Christ est assis au sommet de la composition, revêtu d'une toge rouge et d'un manteau sombre, le bras droit levé dans le geste universel de l'enseignement magistral. Les douze apôtres, tous nimbés d'or gravé, sont disposés en cercle autour de lui dans diverses attitudes d'écoute attentive, d'émerveillement et de recueillement méditatif, certains assis à même le sol, d'autres debout, créant une ronde humaine harmonieuse qui épouse le relief du terrain.</p><p>La simplification du décor — un paysage rocheux épuré dépourvu d'anecdote champêtre — traduit la volonté de Fra Angelico d'extraire le message évangélique de tout contexte terrestre immédiat. L'accent est porté sur la parole divine et son accueil dans les cœurs, résonnant directement avec la vocation d'enseignant et de prédicateur propre à l'ordre dominicain.</p>",
+  "contemporaryArt": {
+    "title": "Quattrocento • L'Éclosion de la Renaissance et l'humanisme florentin",
+    "events": [
+      "1430 – 1436 : Filippo Brunelleschi achève l'érection de la coupole monumentale de Santa Maria del Fiore à Florence.",
+      "1434 : Cosme l'Ancien de Médicis revient d'exil et fonde l'âge d'or du mécénat humaniste à Florence.",
+      "1439 : Concile œcuménique de Ferrare-Florence réunissant les Églises d'Orient et d'Occident sous Eugène IV.",
+      "1440 : Donatello achève son David en bronze nu, premier nu autonome en ronde-bosse de la Renaissance.",
+      "1444 : Début de la construction du Palais Médicis-Riccardi par Michelozzo, architecte de San Marco."
+    ]
+  }
+},
+{
+  "id": "fra_angelico_crucifixion_cellule_privee_san_marco_1441",
+  "artistId": "fra_angelico",
+  "artist": "Fra Angelico (Guido di Pietro)",
+  "artistSort": "Fra Angelico",
+  "civId": "occident",
+  "periodId": "occ_renaissance",
+  "civName": "Occident : Première Renaissance florentine",
+  "century": "XVe siècle (1441-1442)",
+  "centuryDisplay": "XVe s. (1441-1442)",
+  "centuryNumeric": 1441,
+  "domain": "peinture",
+  "artifactType": "Fresque de cellule",
+  "title": "Crucifixion avec saint Dominique (Cellule dortoir)",
+  "site": "Museo Nazionale di San Marco (Florence, Italie)",
+  "originSite": "Cellule du dortoir des moines, couvent San Marco (Florence, Italie)",
+  "dimensions": "152 × 117 cm (fresque)",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczPLlGZDCN8I3aiHn_GVtO0b98zAqorN90Na2_10yKPWpxBK09rqjEIaJRTcoDNJnJdVALPu2ew274guOzLU2jrZw-Pz1PvVyWgErgfgK-9OX1pw6vMasU6I3aoS29M5WY3iMqTpLYwmzhPRQ5mdoYpoxA=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczPLlGZDCN8I3aiHn_GVtO0b98zAqorN90Na2_10yKPWpxBK09rqjEIaJRTcoDNJnJdVALPu2ew274guOzLU2jrZw-Pz1PvVyWgErgfgK-9OX1pw6vMasU6I3aoS29M5WY3iMqTpLYwmzhPRQ5mdoYpoxA=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "peinture",
+    "fresque",
+    "fra angelico",
+    "crucifixion",
+    "saint dominique",
+    "san marco",
+    "florence",
+    "méditation",
+    "cellule"
+  ],
+  "chips": [
+    "XVe s.",
+    "1441-1442",
+    "Renaissance florentine",
+    "Fresque de cellule",
+    "San Marco, Florence"
+  ],
+  "desc": "<p>Cette fresque dépouillée, réalisée par Fra Angelico et son atelier entre 1441 et 1442, orne l'une des cellules du dortoir des moines de San Marco. Conçue comme un instrument exclusif d'oraison personnelle, elle réduit le drame du Calvaire à ses acteurs spirituels essentiels : le Christ en croix et saint Dominique agenouillé à ses pieds.</p><p>Le corps du Christ, modelé avec une délicatesse anatomique exemplaire héritée des études de Masaccio, est fixé sur une croix de bois brut érigée sur un sol neutre. À sa base, saint Dominique enlace le montant vertical de la croix, le visage levé vers le Sauveur dans une expression mêlant compassion infinie et contrition profonde. Cette posture est directement issue du manuel spirituel dominicain « De modo orandi » (Des neuf manières de prier de saint Dominique).</p><p>En éliminant tout paysage, foule ou soldat romain, Fra Angelico invite le moine à s'identifier intimement au père fondateur de son ordre. L'image cesse d'être une reconstitution historique pour devenir une présence vivante et intemporelle dans la cellule, transformant chaque moment de solitude en une communion mystique avec le Christ souffrant.</p>",
+  "contemporaryArt": {
+    "title": "Quattrocento • L'Éclosion de la Renaissance et l'humanisme florentin",
+    "events": [
+      "1430 – 1436 : Filippo Brunelleschi achève l'érection de la coupole monumentale de Santa Maria del Fiore à Florence.",
+      "1434 : Cosme l'Ancien de Médicis revient d'exil et fonde l'âge d'or du mécénat humaniste à Florence.",
+      "1439 : Concile œcuménique de Ferrare-Florence réunissant les Églises d'Orient et d'Occident sous Eugène IV.",
+      "1440 : Donatello achève son David en bronze nu, premier nu autonome en ronde-bosse de la Renaissance.",
+      "1444 : Début de la construction du Palais Médicis-Riccardi par Michelozzo, architecte de San Marco."
+    ]
+  }
+},
+{
+  "id": "fra_angelico_crucifixion_lance_cellule35_san_marco_1441",
+  "artistId": "fra_angelico",
+  "artist": "Fra Angelico (Guido di Pietro)",
+  "artistSort": "Fra Angelico",
+  "civId": "occident",
+  "periodId": "occ_renaissance",
+  "civName": "Occident : Première Renaissance florentine",
+  "century": "XVe siècle (1441-1442)",
+  "centuryDisplay": "XVe s. (1441-1442)",
+  "centuryNumeric": 1441,
+  "domain": "peinture",
+  "artifactType": "Fresque de cellule",
+  "title": "Crucifixion avec saint Dominique et le coup de lance (Cellule 35)",
+  "site": "Museo Nazionale di San Marco (Florence, Italie)",
+  "originSite": "Cellule 35 du dortoir, couvent San Marco (Florence, Italie)",
+  "dimensions": "178 × 150 cm (fresque)",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczPEPrvUAirt1Afl0DzD2BqpIoqvsf9d8PvIllGyRHCglLLA2KqsMQmoclNK3nNRlBVdBwQ2pjYyk-wCDzfHS09nTAI7qZIZ_gCwhXNBsqFy9bpfeA6EKK6hgBU4RJSGXXfIBDsrwNrN9LnpyFukAX-Nrg=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczPEPrvUAirt1Afl0DzD2BqpIoqvsf9d8PvIllGyRHCglLLA2KqsMQmoclNK3nNRlBVdBwQ2pjYyk-wCDzfHS09nTAI7qZIZ_gCwhXNBsqFy9bpfeA6EKK6hgBU4RJSGXXfIBDsrwNrN9LnpyFukAX-Nrg=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "peinture",
+    "fresque",
+    "fra angelico",
+    "crucifixion",
+    "coup de lance",
+    "longin",
+    "cellule 35",
+    "san marco",
+    "florence"
+  ],
+  "chips": [
+    "XVe s.",
+    "1441-1442",
+    "Renaissance florentine",
+    "Fresque de cellule",
+    "San Marco, Florence"
+  ],
+  "desc": "<p>Cette fresque monumentale, peinte par Fra Angelico et ses assistants entre 1441 et 1442, orne la cellule 35 du couvent San Marco à Florence. Œuvre de haute intensité dramatique, elle fige l'instant précis où le soldat Longin perce de sa lance le flanc du Christ expirant, d'où jaillissent le sang et l'eau, symboles fondateurs de l'Eucharistie et du Baptême chrétiens.</p><p>À gauche de la croix, la Vierge Marie chancelle sous le choc de la douleur, soutenue par les saintes femmes et saint Jean, tandis qu'à droite, saint Dominique se tient prosterné dans une attitude d'adoration immobile et méditative, formant un contrepoids spirituel apaisé face au tumulte des événements historiques. La silhouette imposante du cavalier romain tenant la lance se détache avec une netteté sculpturale sur le fond clair.</p><p>Fra Angelico combine ici la rigueur spatiale du premier Quattrocento avec une profonde pudeur émotionnelle. Aucun excès sanguinolent ne vient troubler la solennité de l'offrande divine : la blessure est suggérée avec retenue, focalisant l'attention du religieux sur la rédemption universelle qui s'accomplit à travers le sacrifice du Fils de Dieu.</p>",
+  "contemporaryArt": {
+    "title": "Quattrocento • L'Éclosion de la Renaissance et l'humanisme florentin",
+    "events": [
+      "1430 – 1436 : Filippo Brunelleschi achève l'érection de la coupole monumentale de Santa Maria del Fiore à Florence.",
+      "1434 : Cosme l'Ancien de Médicis revient d'exil et fonde l'âge d'or du mécénat humaniste à Florence.",
+      "1439 : Concile œcuménique de Ferrare-Florence réunissant les Églises d'Orient et d'Occident sous Eugène IV.",
+      "1440 : Donatello achève son David en bronze nu, premier nu autonome en ronde-bosse de la Renaissance.",
+      "1444 : Début de la construction du Palais Médicis-Riccardi par Michelozzo, architecte de San Marco."
+    ]
+  }
+},
+{
+  "id": "fra_angelico_crucifixion_saints_corridor_nord_san_marco_1441",
+  "artistId": "fra_angelico",
+  "artist": "Fra Angelico (Guido di Pietro)",
+  "artistSort": "Fra Angelico",
+  "civId": "occident",
+  "periodId": "occ_renaissance",
+  "civName": "Occident : Première Renaissance florentine",
+  "century": "XVe siècle (1441-1442)",
+  "centuryDisplay": "XVe s. (1441-1442)",
+  "centuryNumeric": 1441,
+  "domain": "peinture",
+  "artifactType": "Fresque de corridor",
+  "title": "Crucifixion avec saint Dominique et saint Thomas d'Aquin (Corridor nord)",
+  "site": "Museo Nazionale di San Marco (Florence, Italie)",
+  "originSite": "Corridor nord du dortoir, couvent San Marco (Florence, Italie)",
+  "dimensions": "176 × 136 cm (fresque)",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczM0Ua3hQjqV_vFiDp_DaSTPnn4Jt06Qai623Ga9b1wl717P-qbZnMvsPyFzb1pigMQYn1IPuIBOg5MuiPPJZEUu2vYpLG34hDvwLpj3bS32qSZoKZH_dleN24B_LXtge3QhbDCLq8sBDDnYez4k6pMIlg=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczM0Ua3hQjqV_vFiDp_DaSTPnn4Jt06Qai623Ga9b1wl717P-qbZnMvsPyFzb1pigMQYn1IPuIBOg5MuiPPJZEUu2vYpLG34hDvwLpj3bS32qSZoKZH_dleN24B_LXtge3QhbDCLq8sBDDnYez4k6pMIlg=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "peinture",
+    "fresque",
+    "fra angelico",
+    "crucifixion",
+    "saint dominique",
+    "saint thomas d'aquin",
+    "corridor nord",
+    "san marco",
+    "florence"
+  ],
+  "chips": [
+    "XVe s.",
+    "1441-1442",
+    "Renaissance florentine",
+    "Fresque de corridor",
+    "San Marco, Florence"
+  ],
+  "desc": "<p>Cette fresque monumentale, réalisée entre 1441 et 1442 par Fra Angelico, orne le corridor nord du couvent San Marco à Florence. Fidèle aux idéaux de la théologie dominicaine, l’œuvre réunit au pied du Christ en croix les deux plus grands piliers intellectuels et spirituels de l'ordre : saint Dominique de Guzmán et le docteur angélique saint Thomas d'Aquin.</p><p>Le Christ, fixé sur une croix de bois sobre, incline doucement la tête dans un repos serein après la souffrance. À gauche, saint Dominique contemple son Maître les mains croisées sur la poitrine, incarnant la prière contemplative et la ferveur ardente. À droite, saint Thomas d'Aquin tient un livre ouvert contre lui, le regard tourné vers le Christ dans une attitude d'étude et de méditation théologique profonde, symbolisant l'alliance indissoluble entre la foi et la raison.</p><p>Par sa clarté lumineuse et son équilibre géométrique parfait, cette fresque offrait aux frères circulant dans le corridor un rappel permanent de leur double vocation : allier la vie contemplative et l'étude savante de la doctrine pour éclairer le monde par la prédication.</p>",
+  "contemporaryArt": {
+    "title": "Quattrocento • L'Éclosion de la Renaissance et l'humanisme florentin",
+    "events": [
+      "1430 – 1436 : Filippo Brunelleschi achève l'érection de la coupole monumentale de Santa Maria del Fiore à Florence.",
+      "1434 : Cosme l'Ancien de Médicis revient d'exil et fonde l'âge d'or du mécénat humaniste à Florence.",
+      "1439 : Concile œcuménique de Ferrare-Florence réunissant les Églises d'Orient et d'Occident sous Eugène IV.",
+      "1440 : Donatello achève son David en bronze nu, premier nu autonome en ronde-bosse de la Renaissance.",
+      "1444 : Début de la construction du Palais Médicis-Riccardi par Michelozzo, architecte de San Marco."
+    ]
+  }
+},
+{
+  "id": "fra_angelico_christ_mont_oliviers_cellule34_san_marco_1440",
+  "artistId": "fra_angelico",
+  "artist": "Fra Angelico (Guido di Pietro)",
+  "artistSort": "Fra Angelico",
+  "civId": "occident",
+  "periodId": "occ_renaissance",
+  "civName": "Occident : Première Renaissance florentine",
+  "century": "XVe siècle (vers 1440-1442)",
+  "centuryDisplay": "XVe s. (v. 1440-1442)",
+  "centuryNumeric": 1440,
+  "domain": "peinture",
+  "artifactType": "Fresque de cellule",
+  "title": "Le Christ au mont des Oliviers (Cellule 34)",
+  "site": "Museo Nazionale di San Marco (Florence, Italie)",
+  "originSite": "Cellule 34 du dortoir, couvent San Marco (Florence, Italie)",
+  "dimensions": "177 × 147 cm (fresque)",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczNuSCDG9agncGUaz80ulDl6RjqN1ZfCMXS647adWuELtjv2H8sUw7xrCQ2W2-pstTQIQXO5s2j-3a-HdcAZgyR-itpYDgbjN9TWQTtmBaoRgWTtV-FcPWWYGDC3vIZzA69Lhjma_tRose7GnL9Xk3btpQ=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczNuSCDG9agncGUaz80ulDl6RjqN1ZfCMXS647adWuELtjv2H8sUw7xrCQ2W2-pstTQIQXO5s2j-3a-HdcAZgyR-itpYDgbjN9TWQTtmBaoRgWTtV-FcPWWYGDC3vIZzA69Lhjma_tRose7GnL9Xk3btpQ=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "peinture",
+    "fresque",
+    "fra angelico",
+    "christ au mont des oliviers",
+    "agonie",
+    "gethsémani",
+    "cellule 34",
+    "san marco",
+    "florence"
+  ],
+  "chips": [
+    "XVe s.",
+    "v. 1440-1442",
+    "Renaissance florentine",
+    "Fresque de cellule",
+    "San Marco, Florence"
+  ],
+  "desc": "<p>Cette fresque, exécutée par Fra Angelico et son atelier entre 1440 et 1442, se situe dans la cellule 34 du couvent San Marco à Florence. L’œuvre illustre l'épisode de l'Agonie dans le jardin de Gethsémani, moment de solitude tragique où le Christ, conscient de sa passion imminente, prie son Père d'éloigner de lui ce calice tout en acceptant pleinement Sa volonté.</p><p>Au sommet d'une éminence rocheuse dépouillée, Jésus est agenouillé en prière face à un ange céleste qui lui tend le calice eucharistique. En contrebas, Pierre, Jacques et Jean sont plongés dans un lourd sommeil, incapables de veiller ne serait-ce qu'une heure avec leur Maître. À gauche, dans une cellule architecturale séparée, la Vierge Marie et sainte Marthe sont représentées en prière silencieuse, créant un parallèle dévotionnel entre la Passion du Christ et la fidélité des femmes saintes.</p><p>Le traitement dépouillé du paysage et la palette feutrée de gris, d'ocres et de verts sourds participent de la volonté de l'artiste de ne pas distraire l'esprit du moine, concentrant toute l'intensité dramatique dans l'intériorité et la soumission filiale du Sauveur face à l'épreuve.</p>",
+  "contemporaryArt": {
+    "title": "Quattrocento • L'Éclosion de la Renaissance et l'humanisme florentin",
+    "events": [
+      "1430 – 1436 : Filippo Brunelleschi achève l'érection de la coupole monumentale de Santa Maria del Fiore à Florence.",
+      "1434 : Cosme l'Ancien de Médicis revient d'exil et fonde l'âge d'or du mécénat humaniste à Florence.",
+      "1439 : Concile œcuménique de Ferrare-Florence réunissant les Églises d'Orient et d'Occident sous Eugène IV.",
+      "1440 : Donatello achève son David en bronze nu, premier nu autonome en ronde-bosse de la Renaissance.",
+      "1444 : Début de la construction du Palais Médicis-Riccardi par Michelozzo, architecte de San Marco."
+    ]
+  }
+},
+{
+  "id": "fra_angelico_communion_apotres_cellule35_san_marco_1440",
+  "artistId": "fra_angelico",
+  "artist": "Fra Angelico (Guido di Pietro)",
+  "artistSort": "Fra Angelico",
+  "civId": "occident",
+  "periodId": "occ_renaissance",
+  "civName": "Occident : Première Renaissance florentine",
+  "century": "XVe siècle (vers 1440-1442)",
+  "centuryDisplay": "XVe s. (v. 1440-1442)",
+  "centuryNumeric": 1440,
+  "domain": "peinture",
+  "artifactType": "Fresque de cellule",
+  "title": "La Communion des Apôtres (Cellule 35)",
+  "site": "Museo Nazionale di San Marco (Florence, Italie)",
+  "originSite": "Cellule 35 du dortoir, couvent San Marco (Florence, Italie)",
+  "dimensions": "186 × 160 cm (fresque)",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczMzwwDXNtSgCKQJ43vmxQODgcr5EoCupUTcrNTvU3l1d4O4EWdos3uyf_xr4e6jsD2jzySb7CJONTSqirc4gVQLsMRds-3ROEbpcM63M9ViaSXkf_nfU3N0Bbt9mbz54I0JDD_S_i5p0mnx3Vt0VPwHgA=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczMzwwDXNtSgCKQJ43vmxQODgcr5EoCupUTcrNTvU3l1d4O4EWdos3uyf_xr4e6jsD2jzySb7CJONTSqirc4gVQLsMRds-3ROEbpcM63M9ViaSXkf_nfU3N0Bbt9mbz54I0JDD_S_i5p0mnx3Vt0VPwHgA=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "peinture",
+    "fresque",
+    "fra angelico",
+    "communion des apôtres",
+    "institution de l'eucharistie",
+    "cène",
+    "cellule 35",
+    "san marco",
+    "florence"
+  ],
+  "chips": [
+    "XVe s.",
+    "v. 1440-1442",
+    "Renaissance florentine",
+    "Fresque de cellule",
+    "San Marco, Florence"
+  ],
+  "desc": "<p>Cette fresque, peinte par Fra Angelico entre 1440 et 1442 pour la cellule 35 du couvent San Marco à Florence, propose une interprétation singulière et profondément liturgique de la Cène. Contrairement aux représentations narratives traditionnelles du banquet pascal et de la trahison de Judas, Fra Angelico choisit de représenter l'Institution de l'Eucharistie sous la forme d'une messe solennelle.</p><p>Le Christ, debout au centre dans une attitude hiératique de prêtre officiant, distribue l'hostie consacrée directement dans la bouche des apôtres qui s'avancent un à un et s'agenouillent avec dévotion. À l'arrière-plan, la pièce est rythmée par une architecture de cloître Renaissance aux baies cintrées ouvrant sur un mur crénelé, baignée d'une lumière cristalline qui unifie les volumes.</p><p>Judas est reconnaissable à gauche, isolé par son auréole sombre, contrastant avec la ferveur lumineuse de Pierre et de ses compagnons. Cette œuvre rappelait quotidiennement au prêtre dominicain occupant la cellule la sainteté du sacrement eucharistique qu'il s'apprêtait à célébrer à l'autel de l'église conventuelle.</p>",
+  "contemporaryArt": {
+    "title": "Quattrocento • L'Éclosion de la Renaissance et l'humanisme florentin",
+    "events": [
+      "1430 – 1436 : Filippo Brunelleschi achève l'érection de la coupole monumentale de Santa Maria del Fiore à Florence.",
+      "1434 : Cosme l'Ancien de Médicis revient d'exil et fonde l'âge d'or du mécénat humaniste à Florence.",
+      "1439 : Concile œcuménique de Ferrare-Florence réunissant les Églises d'Orient et d'Occident sous Eugène IV.",
+      "1440 : Donatello achève son David en bronze nu, premier nu autonome en ronde-bosse de la Renaissance.",
+      "1444 : Début de la construction du Palais Médicis-Riccardi par Michelozzo, architecte de San Marco."
+    ]
+  }
+},
+{
+  "id": "fra_angelico_crucifixion_cellule17_san_marco_1440",
+  "artistId": "fra_angelico",
+  "artist": "Fra Angelico (Guido di Pietro)",
+  "artistSort": "Fra Angelico",
+  "civId": "occident",
+  "periodId": "occ_renaissance",
+  "civName": "Occident : Première Renaissance florentine",
+  "century": "XVe siècle (vers 1440-1442)",
+  "centuryDisplay": "XVe s. (v. 1440-1442)",
+  "centuryNumeric": 1440,
+  "domain": "peinture",
+  "artifactType": "Fresque de cellule",
+  "title": "Crucifixion avec saint Dominique et la Vierge (Cellule 17)",
+  "site": "Museo Nazionale di San Marco (Florence, Italie)",
+  "originSite": "Cellule 17 du dortoir, couvent San Marco (Florence, Italie)",
+  "dimensions": "168 × 124 cm (fresque)",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczMESnAfcsJZ-KlGDGwDpJKKbWsor-5rY-bQPSAxCBTzcv57v1qK7-qijInj3zDX_mzkUVBwHy64K_BdtuUCtAefGivydYfrPiP3uxy7w4R1ePIT2t7DM7DKLNr3SV_DuNqObgfBZ8cnnvoz9V0U9DwBhg=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczMESnAfcsJZ-KlGDGwDpJKKbWsor-5rY-bQPSAxCBTzcv57v1qK7-qijInj3zDX_mzkUVBwHy64K_BdtuUCtAefGivydYfrPiP3uxy7w4R1ePIT2t7DM7DKLNr3SV_DuNqObgfBZ8cnnvoz9V0U9DwBhg=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "peinture",
+    "fresque",
+    "fra angelico",
+    "crucifixion",
+    "saint dominique",
+    "vierge marie",
+    "cellule 17",
+    "san marco",
+    "florence"
+  ],
+  "chips": [
+    "XVe s.",
+    "v. 1440-1442",
+    "Renaissance florentine",
+    "Fresque de cellule",
+    "San Marco, Florence"
+  ],
+  "desc": "<p>Cette fresque, située dans la cellule 17 du couvent San Marco à Florence, constitue l'une des versions les plus pures et les plus contemplatives de la Crucifixion peintes par Fra Angelico entre 1440 et 1442. Contrairement aux scènes de foule du Calvaire, la composition est rigoureusement cantonnée à trois figures : le Christ en croix, la Vierge Marie debout à gauche et saint Dominique agenouillé à droite.</p><p>Le corps du Christ, suspendu sans crispation morbide, se détache sur un fond monochrome neutre qui annule toute contingence géographique. À gauche, Marie drapée dans son ample manteau sombre incline la tête dans une méditation silencieuse sur le mystère de la rédemption, tandis que saint Dominique lève un regard confiant et plein d'amour vers le Sauveur, illustrant la prière de componction et d'adoration.</p><p>Fra Angelico transforme ici l'image peinte en un miroir spirituel destiné à guider le moine dans son tête-à-tête quotidien avec Dieu. L'absence de décor superflu et l'harmonie des tons clairs favorisent le silence intérieur indispensable à l'oraison dominicaine.</p>",
+  "contemporaryArt": {
+    "title": "Quattrocento • L'Éclosion de la Renaissance et l'humanisme florentin",
+    "events": [
+      "1430 – 1436 : Filippo Brunelleschi achève l'érection de la coupole monumentale de Santa Maria del Fiore à Florence.",
+      "1434 : Cosme l'Ancien de Médicis revient d'exil et fonde l'âge d'or du mécénat humaniste à Florence.",
+      "1439 : Concile œcuménique de Ferrare-Florence réunissant les Églises d'Orient et d'Occident sous Eugène IV.",
+      "1440 : Donatello achève son David en bronze nu, premier nu autonome en ronde-bosse de la Renaissance.",
+      "1444 : Début de la construction du Palais Médicis-Riccardi par Michelozzo, architecte de San Marco."
+    ]
+  }
+},
+{
+  "id": "fra_angelico_annonciation_cellule3_san_marco_1440",
+  "artistId": "fra_angelico",
+  "artist": "Fra Angelico (Guido di Pietro)",
+  "artistSort": "Fra Angelico",
+  "civId": "occident",
+  "periodId": "occ_renaissance",
+  "civName": "Occident : Première Renaissance florentine",
+  "century": "XVe siècle (vers 1440-1450)",
+  "centuryDisplay": "XVe s. (v. 1440-1450)",
+  "centuryNumeric": 1440,
+  "domain": "peinture",
+  "artifactType": "Fresque de cellule",
+  "title": "L'Annonciation (Cellule 3)",
+  "site": "Museo Nazionale di San Marco (Florence, Italie)",
+  "originSite": "Cellule 3 du dortoir, couvent San Marco (Florence, Italie)",
+  "dimensions": "176 × 148 cm (fresque)",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczPpubpxYoG41Qzsy1ggyC_uPSPRx0fd9MH-r_s1fOmvHmnxvoqZcpC8ei9BG-tD7AG4PqecidFCrrHvwsfF8gJxhtUUnVPP_zHeBY2LSDeYjgdJRvSgFGwFBdI1sThDM_KbdZFfs5rNMlJIhTq01NvGrw=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczPpubpxYoG41Qzsy1ggyC_uPSPRx0fd9MH-r_s1fOmvHmnxvoqZcpC8ei9BG-tD7AG4PqecidFCrrHvwsfF8gJxhtUUnVPP_zHeBY2LSDeYjgdJRvSgFGwFBdI1sThDM_KbdZFfs5rNMlJIhTq01NvGrw=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "peinture",
+    "fresque",
+    "fra angelico",
+    "annonciation",
+    "cellule 3",
+    "san marco",
+    "florence",
+    "archange gabriel",
+    "vierge marie",
+    "saint pierre martyr"
+  ],
+  "chips": [
+    "XVe s.",
+    "v. 1440-1450",
+    "Renaissance florentine",
+    "Fresque de cellule",
+    "San Marco, Florence"
+  ],
+  "desc": "<p>Cette fresque, peinte par Fra Angelico entre 1440 et 1450 pour la cellule 3 du couvent San Marco à Florence, offre une vision d'une sobriété absolue du mystère de l'Incarnation. Contrairement à la version célèbre du corridor nord, la loggia est ici dépouillée de tout ornement : un simple voûtement d'arêtes blanchi à la chaux reposant sur des corbeaux nus accueille la rencontre divine.</p><p>L'archange Gabriel, vêtu d'une tunique rose pâle sans dorure, s'incline devant la Vierge assise sur un banc de bois spartiate. À gauche, saint Pierre martyr assiste à la scène dans une attitude de recueillement, sa présence servant d'intermédiaire spirituel entre le mystère évangélique et le frère dominicain occupant la cellule. Une minuscule fenêtre à meneau laisse entrer une lumière douce et rasante qui modèle avec subtilité les drapés.</p><p>Cette Annonciation incarne le sommet du minimalisme mystique de Fra Angelico : en supprimant les ailes irisées, les riches brocarts et le jardin fleuri, le maître concentre tout le drame sacré dans le dialogue muet et l'échange de regards empreints d'humilité entre l'ange et la Vierge, faisant de la modeste cellule un sanctuaire inviolable de pureté contemplative.</p>",
+  "contemporaryArt": {
+    "title": "Quattrocento • L'Éclosion de la Renaissance et l'humanisme florentin",
+    "events": [
+      "1430 – 1436 : Filippo Brunelleschi achève l'érection de la coupole monumentale de Santa Maria del Fiore à Florence.",
+      "1434 : Cosme l'Ancien de Médicis revient d'exil et fonde l'âge d'or du mécénat humaniste à Florence.",
+      "1439 : Concile œcuménique de Ferrare-Florence réunissant les Églises d'Orient et d'Occident sous Eugène IV.",
+      "1440 : Donatello achève son David en bronze nu, premier nu autonome en ronde-bosse de la Renaissance.",
+      "1444 : Début de la construction du Palais Médicis-Riccardi par Michelozzo, architecte de San Marco."
+    ]
+  }
+},
+{
   "id": "el_greco_triptyque_modene_1567",
   "artistId": "el_greco",
   "artist": "El Greco (Domenikos Theotokopoulos)",

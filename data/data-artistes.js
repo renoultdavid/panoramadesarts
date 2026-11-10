@@ -11162,5 +11162,524 @@ window.ARTISTS_REGISTRY = {
       }
     ]
   }
+},
+  "ernst": {
+  "id": "ernst",
+  "name": "Ernst Max",
+  "sortName": "Ernst Max",
+  "sortLetter": "E",
+  "dates": "1891 – 1976",
+  "movement": "Dadaïsme, Surréalisme visionnaire & Paysage onirique",
+  "nationality": "Allemand / Français / Américain (Brühl / Cologne / Paris / New York / Sedona / Huismes)",
+  "techniques": "Collage subversif, frottage (calquage de textures), grattage, décalcomanie, dripping précurseur, huile sur toile",
+  "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczPzkJcXP9MYlMZ4C4imG_tfYcdHQYyeZFleoM3xPr5HkudPNE-cZSGSI9w_Pl6LePMy8nboI8ZKen2T7L7Yp1WjhkECZSb6t9AmErnvzLh5Zr2vvMM42R6AUyn2QIooDlstn6LDYmibMxBSJiaWPWWp8Q=w1681-h713-s-no-gm?authuser=0",
+  "bio": [
+    "Max Ernst (1891 – 1976) est l'un des piliers fondamentaux du Dadaïsme et du Surréalisme. Artiste autodidacte d'une curiosité insatiable, il a cherché à court-circuiter la raison pour faire émerger les images de l'inconscient. Véritable inventeur de formes, il a passé sa vie à traquer « le merveilleux » à travers des techniques expérimentales destinées à provoquer l'hallucination et l'automatisme.",
+    "Son genre pictural se définit par le surréalisme visionnaire et le paysage onirique. Son style se caractérise par le refus de la touche traditionnelle au profit de procédés mécaniques ou aléatoires : le collage, le frottage (calquage de textures), le grattage et la décalcomanie. Ces méthodes lui permettent de faire surgir des forêts pétrifiées, des oiseaux anthropomorphes (comme son alter ego Loplop) et des architectures fantastiques.",
+    "L'évolution de son style est une succession de découvertes techniques au service de l'imaginaire : la période Dada et le collage (1919-1922) à Cologne où il détourne des gravures anciennes et manuels techniques pour créer des chocs visuels absurdes ; l'invention du Frottage et les Forêts (1925-1930) laissant parler les structures du monde organique et hostile ; la décalcomanie et l'exil américain (1940-1950) créant des jungles luxuriantes et des visions apocalyptiques d'un monde en décomposition, culminant avec son retour en France et le Grand Prix de la Biennale de Venise en 1954."
+  ],
+  "corpus": {
+    "total": 1200,
+    "seen": 1,
+    "paintingsCount": 1200,
+    "sourceTitle": "Catalogue raisonné Werner Spies, Sigrid et Günter Metken (Max Ernst: Oeuvre-Katalog, 6 vol.)",
+    "sourceNotes": "En isolant strictement ses toiles (huiles, grattages et décalcomanies sur toile ou sur panneau de bois), le consensus scientifique et muséal évalue le corpus de ses peintures achevées à environ 1 200 œuvres répertoriées.",
+    "details": [
+      {
+        "label": "Peintures achevées (huiles, frottages & décalcomanies)",
+        "count": 1200,
+        "icon": "🌲",
+        "color": "#10b981",
+        "seen": 1,
+        "note": "Corpus complet des toiles et panneaux majeurs documentés par Werner Spies."
+      }
+    ]
+  },
+  "biographyTimeline": {
+    "birth": {
+      "year": 1891,
+      "place": "Brühl (Rhénanie, Empire allemand)",
+      "title": "Naissance de Max Ernst",
+      "desc": "Fils d'un peintre sourd-muet et enseignant strict, il grandit en lisière de la forêt rhénane qui marquera à jamais son imaginaire."
+    },
+    "death": {
+      "year": 1976,
+      "place": "Paris (France)",
+      "title": "Mort de Max Ernst",
+      "desc": "S'éteint la veille de son 85e anniversaire à Paris. Ses cendres reposent au columbarium du cimetière du Père-Lachaise."
+    },
+    "periods": [
+      {
+        "title": "Jeunesse rhénane & L'Explosion Dada à Cologne",
+        "years": "1891 – 1921",
+        "color": "#ef4444",
+        "desc": "Études de philosophie à Bonn, choc traumatique de la Grande Guerre et fondation du foyer Dada de Cologne.",
+        "summary": "Éveil artistique autodidacte, tranchées de 14-18, collages subversifs et scandale Dada.",
+        "events": [
+          {
+            "year": 1891,
+            "title": "Naissance à Brühl",
+            "desc": "Naît le 2 avril 1891 en Rhénanie près de Cologne.",
+            "type": "birth",
+            "icon": "🇩🇪"
+          },
+          {
+            "year": 1910,
+            "title": "Études de philosophie et psychiatrie à Bonn",
+            "desc": "S'inscrit à l'université de Bonn où il étudie l'histoire de l'art, la philosophie et visite les asiles d'aliénés dont les productions artistiques le fascinent.",
+            "type": "life",
+            "icon": "📚"
+          },
+          {
+            "year": 1912,
+            "title": "Rencontre avec August Macke et Jean Arp",
+            "desc": "Rejoint le groupe expressionniste Das Junge Rheinland et expose à la première exposition du Sonderbund à Cologne.",
+            "type": "art",
+            "icon": "🤝"
+          },
+          {
+            "year": 1914,
+            "title": "Mobilisation et traumatisme de la guerre",
+            "desc": "Mobilisé dans l'artillerie allemande durant quatre ans sur les fronts occidental et oriental. Il écrira plus tard : 'Max Ernst mourut le 1er août 1914. Il ressuscita le 11 novembre 1918'.",
+            "type": "personal",
+            "icon": "⚔️"
+          },
+          {
+            "year": 1919,
+            "title": "Fondation de la centrale Dada à Cologne",
+            "desc": "Fonde avec Johannes Theodor Baargeld et Jean Arp le groupe Dada de Cologne sous le pseudonyme de 'Dadamax'.",
+            "type": "art",
+            "icon": "⚡"
+          },
+          {
+            "year": 1920,
+            "title": "L'Exposition Dada scandaleuse de la brasserie Winter",
+            "desc": "Organise une exposition mémorable accessible uniquement par les urinoirs publics d'une brasserie, où le public est invité à détruire les œuvres à coups de hachette.",
+            "type": "art",
+            "icon": "🔥"
+          }
+        ]
+      },
+      {
+        "title": "Le Paris surréaliste, le Frottage & Loplop",
+        "years": "1922 – 1938",
+        "color": "#0284c7",
+        "desc": "Installation à Paris, invention du frottage et du grattage, création de l'avatar Loplop et romans-collages.",
+        "summary": "Piliers du mouvement surréaliste, exploration systématique de l'automatisme et vision des forêts pétrifiées.",
+        "events": [
+          {
+            "year": 1922,
+            "title": "Arrivée clandestine à Paris chez les Éluard",
+            "desc": "Rejoint clandestinement Paris avec les papiers de Paul Éluard. Il s'installe chez Paul et Gala Éluard avec qui il forme un célèbre ménage à trois.",
+            "type": "personal",
+            "icon": "🇫🇷"
+          },
+          {
+            "year": 1924,
+            "title": "Adhésion fondatrice au Surréalisme",
+            "desc": "Participe activement à la fondation du mouvement surréaliste aux côtés d'André Breton, Philippe Soupault et Louis Aragon.",
+            "type": "art",
+            "icon": "👁️"
+          },
+          {
+            "year": 1925,
+            "title": "Invention de la technique du Frottage à Pornic",
+            "desc": "Dans une auberge de Pornic, fasciné par les lattes usées du plancher, il dépose des feuilles de papier qu'il frotte à la mine de plomb, inventant l'équivalent graphique de l'écriture automatique.",
+            "type": "art",
+            "icon": "✏️"
+          },
+          {
+            "year": 1925,
+            "title": "Chef-d'œuvre : Forêt (Musée d'arts de Nantes)",
+            "desc": "Peint 'Forêt', chef-d'œuvre fondateur appliquant le frottage à l'huile et figurant des troncs totémiques dressés comme des sentinelles primitives.",
+            "type": "masterpiece",
+            "icon": "🌲",
+            "artworkId": "ernst_foret_nantes_1925"
+          },
+          {
+            "year": 1926,
+            "title": "Publication d'« Histoire naturelle » & Décors de Ballets",
+            "desc": "Publie le portfolio mythique 'Histoire naturelle' préfacé par Jean Arp et conçoit avec Joan Miró les décors de Roméo et Juliette pour les Ballets russes de Diaghilev.",
+            "type": "art",
+            "icon": "📖"
+          },
+          {
+            "year": 1929,
+            "title": "Naissance de Loplop & « La Femme 100 têtes »",
+            "desc": "Crée son alter ego mythologique 'Loplop, Supérieur des Oiseaux' et publie son premier grand roman-collage 'La Femme 100 têtes'.",
+            "type": "art",
+            "icon": "🦅"
+          },
+          {
+            "year": 1934,
+            "title": "Publication d'« Une semaine de bonté »",
+            "desc": "Achève son chef-d'œuvre du roman-collage découpé dans des gravures victoriennes et romans-feuilletons populaires.",
+            "type": "art",
+            "icon": "✂️"
+          }
+        ]
+      },
+      {
+        "title": "La Guerre, la Décalcomanie & L'Exil américain",
+        "years": "1939 – 1952",
+        "color": "#8b5cf6",
+        "desc": "Internement au camp des Milles, fuite aux États-Unis avec Peggy Guggenheim et retraite dans le désert de Sedona.",
+        "summary": "Perfectionnement de la décalcomanie, paysages coralliens apocalyptiques et fécondation de l'art américain.",
+        "events": [
+          {
+            "year": 1939,
+            "title": "Internement au camp des Milles",
+            "desc": "Considéré comme ressortissant allemand ennemi par les autorités françaises, il est interné au camp des Milles près d'Aix-en-Provence aux côtés de Hans Bellmer.",
+            "type": "personal",
+            "icon": "⛓️"
+          },
+          {
+            "year": 1941,
+            "title": "Exil à New York sauvé par Varian Fry et Peggy Guggenheim",
+            "desc": "Échappe aux persécutions nazies grâce au réseau de Varian Fry et gagne New York grâce à Peggy Guggenheim qu'il épouse la même année.",
+            "type": "travel",
+            "icon": "🗽"
+          },
+          {
+            "year": 1942,
+            "title": "Apogée de la décalcomanie : « L'Europe après la pluie II »",
+            "desc": "Achève sa monumentale vision apocalyptique prophétisant la dévastation de l'Europe par le totalitarisme et la guerre.",
+            "type": "art",
+            "icon": "🌋"
+          },
+          {
+            "year": 1946,
+            "title": "Mariage avec Dorothea Tanning & Retraite à Sedona",
+            "desc": "Épouse l'artiste Dorothea Tanning lors d'un double mariage avec Man Ray et Juliet Browner. Ils s'installent dans les roches rouges du désert d'Arizona à Sedona.",
+            "type": "personal",
+            "icon": "🏜️"
+          }
+        ]
+      },
+      {
+        "title": "Le Retour triomphal en France & Le Grand Prix de Venise",
+        "years": "1953 – 1976",
+        "color": "#d4af37",
+        "desc": "Grand Prix de la Biennale de Venise en 1954, installation en Touraine et consécration patrimoniale mondiale.",
+        "summary": "Rupture avec Breton, rétrospectives internationales et apaisement lumineux d'un géant du siècle.",
+        "events": [
+          {
+            "year": 1953,
+            "title": "Retour définitif en France",
+            "desc": "Quitte l'Amérique et s'établit définitivement à Paris puis en Touraine dans le village d'Huismes.",
+            "type": "travel",
+            "icon": "🏰"
+          },
+          {
+            "year": 1954,
+            "title": "Grand Prix de peinture à la Biennale de Venise",
+            "desc": "Reçoit le prestigieux Grand Prix de la Biennale de Venise. Ce couronnement officiel entraîne son exclusion immédiate du groupe surréaliste par un André Breton intransigeant.",
+            "type": "award",
+            "icon": "🦁"
+          },
+          {
+            "year": 1958,
+            "title": "Naturalisation française",
+            "desc": "Obtient la nationalité française avec Dorothea Tanning.",
+            "type": "personal",
+            "icon": "🇫🇷"
+          },
+          {
+            "year": 1975,
+            "title": "Grande rétrospective au Grand Palais et au Guggenheim",
+            "desc": "Consécration mondiale avec de gigantesques rétrospectives d'hommage à Paris et New York.",
+            "type": "award",
+            "icon": "🏛️"
+          },
+          {
+            "year": 1976,
+            "title": "Mort à Paris à la veille de ses 85 ans",
+            "desc": "S'éteint le 1er avril 1976 à Paris, laissant l'une des œuvres les plus libres et fécondes du XXe siècle.",
+            "type": "death",
+            "icon": "🕊️"
+          }
+        ]
+      }
+    ]
+  }
+},
+  "fra_angelico": {
+  "id": "fra_angelico",
+  "name": "Fra Angelico (Guido di Pietro)",
+  "sortName": "Fra Angelico",
+  "sortLetter": "F",
+  "dates": "v. 1395 – 1455",
+  "movement": "Première Renaissance florentine (Quattrocento) & Art sacré dominicain",
+  "nationality": "Italien (Vicchio di Mugello / Fiesole / Florence / Rome)",
+  "techniques": "Tempera et or sur panneau de bois, fresque sur enduit à la chaux, perspective mathématique linéaire, palette céleste azurée, lumière spirituelle unifiée",
+  "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczPjOWo9m1sOoqe1ktbj88RitPudDdkU4VUzc2XzvfB9IY9IeUdcw2JAGz_1FDKLSLyqztQGYNurdX1W2MsqX7mWYB7R0ajElprNLtP4lomsVJDnoQOHiGcEtU-AcqzRLotKBknNNSJxja7tAxC2loWUug=w1681-h713-s-no-gm?authuser=0",
+  "bio": [
+    "Fra Giovanni da Fiesole, dit Fra Angelico, né Guido di Pietro vers 1395 et mort en 1455 à Rome, est le peintre de la lumière divine et de la pureté angélique. Moine dominicain, il a mené de front une vie de dévotion exemplaire et une carrière d'artiste majeur de la première Renaissance florentine. Surnommé « le Bienheureux » (Beato Angelico), il a mis son génie au service de l'ordre des Prêcheurs, décorant notamment le couvent de San Marco à Florence. Son art, profondément spirituel, ne se limite pas à la piété médiévale mais intègre avec brio les innovations de son temps, faisant de lui un pont souverain entre le sacré et l'humanisme.",
+    "Son genre pictural se caractérise par une fusion unique entre la grâce médiévale et la modernité perspective. Le style de Fra Angelico se distingue par une palette de couleurs paradisiaques, aux tons clairs et azurés, et une utilisation magistrale de la feuille d'or pour rendre le rayonnement céleste. Cependant, sous cette apparente douceur se cache une rigueur géométrique absolue : influencé par Masaccio et Brunelleschi, il applique avec une grande maîtrise les lois de la perspective linéaire pour structurer des architectures classiques et ordonner l'espace sacré.",
+    "L'évolution de son travail montre un passage d'un raffinement ornemental vers une sobriété méditative. Ses premières œuvres, comme ses retables dorés de Fiesole, célèbrent la magnificence divine par la richesse des détails. Dans sa maturité, notamment lors de la décoration des cellules du couvent de San Marco, il épure radicalement ses compositions pour ne conserver que l'essence théologique de l'événement, invitant le fidèle à une prière silencieuse et dépouillée. Ses dernières fresques romaines pour le pape Nicolas V au Vatican allient la monumentalité classique à une souveraine plénitude narrative."
+  ],
+  "corpus": {
+    "total": 150,
+    "seen": 16,
+    "paintingsCount": 150,
+    "sourceTitle": "Monographies de référence : Sir John Pope-Hennessy (Phaidon), John T. Spike et Laurence Kanter",
+    "sourceNotes": "L'inventaire scientifique de référence a été historiquement dressé par l'expert britannique Sir John Pope-Hennessy, puis affiné par John T. Spike. En isolant strictement les œuvres autographes du maître (panneaux, retables d'autel et cycles de fresques), le consensus scientifique évalue le corpus achevé entre 140 et 150 œuvres.",
+    "details": [
+      {
+        "label": "Fresques conventuelles (San Marco, Vatican)",
+        "count": 95,
+        "icon": "🏛️",
+        "color": "#0284c7",
+        "seen": 11,
+        "note": "Cycle monumental du couvent San Marco (dortoir, cloître, salle capitulaire) et chapelle Niccoline à Rome."
+      },
+      {
+        "label": "Retables d'autel & Panneaux sur bois",
+        "count": 55,
+        "icon": "✨",
+        "color": "#d4af37",
+        "seen": 5,
+        "note": "Retables monumentaux, prédelles narratives et panneaux de dévotion sur fond d'or."
+      }
+    ]
+  },
+  "biographyTimeline": {
+    "birth": {
+      "year": 1395,
+      "place": "Vicchio di Mugello (Toscane, République de Florence)",
+      "title": "Naissance de Guido di Pietro",
+      "desc": "Naît vers 1395 dans le Mugello, berceau de Giotto, sous le nom de Guido di Pietro."
+    },
+    "death": {
+      "year": 1455,
+      "place": "Rome (États pontificaux)",
+      "title": "Mort de Fra Angelico",
+      "desc": "S'éteint le 18 février 1455 au couvent Santa Maria sopra Minerva à Rome où se dresse son tombeau sculpté."
+    },
+    "periods": [
+      {
+        "title": "Jeunesse, Formation & Vœux dominicains à Fiesole",
+        "years": "v. 1395 – 1429",
+        "color": "#0284c7",
+        "desc": "Formation d'enlumineur à Florence, entrée dans l'ordre des Prêcheurs et premières commandes d'autel.",
+        "summary": "Apprentissage auprès de Lorenzo Monaco et Starnina, vœux monastiques sous le nom de Fra Giovanni.",
+        "events": [
+          {
+            "year": 1395,
+            "title": "Naissance dans le Mugello",
+            "desc": "Guido di Pietro naît aux environs de 1395 à Vicchio di Mugello au nord-est de Florence.",
+            "type": "birth",
+            "icon": "🇮🇹"
+          },
+          {
+            "year": 1417,
+            "title": "Première mention comme peintre à Florence",
+            "desc": "Documenté sous le nom de peintre séculier 'Guido di Pietro da San Michele Bisdomini', rejoignant la confrérie de San Niccolò del Carmine.",
+            "type": "art",
+            "icon": "📜"
+          },
+          {
+            "year": 1420,
+            "title": "Entrée chez les Frères Prêcheurs de Fiesole",
+            "desc": "Prononce ses vœux monastiques au couvent réformé de San Domenico de Fiesole et prend le nom religieux de Fra Giovanni da Fiesole.",
+            "type": "personal",
+            "icon": "⛪"
+          },
+          {
+            "year": 1425,
+            "title": "Ordonné prêtre & Retable de Fiesole",
+            "desc": "Ordonné prêtre de l'ordre dominicain. Il peint le grand retable du maître-autel de San Domenico de Fiesole, intégrant la pureté linéaire de Lorenzo Monaco.",
+            "type": "art",
+            "icon": "🎨"
+          },
+          {
+            "year": 1427,
+            "title": "L'Onde de choc de Masaccio",
+            "desc": "Découvre les fresques révolutionnaires de Masaccio à la chapelle Brancacci de Florence et intègre la perspective géométrique et le modelé d'ombres.",
+            "type": "art",
+            "icon": "💡"
+          }
+        ]
+      },
+      {
+        "title": "Les Grands Retables du Louvre & La Révolution Perspective",
+        "years": "1430 – 1438",
+        "color": "#d4af37",
+        "desc": "Le Couronnement de la Vierge, le Tabernacle des Linaioli et la maîtrise magistrale de l'espace sacré.",
+        "summary": "Création des chefs-d'œuvre majeurs sur bois conservés au Musée du Louvre et consécration florentine.",
+        "events": [
+          {
+            "year": 1430,
+            "title": "Chef-d'œuvre : Le Couronnement de la Vierge (Musée du Louvre)",
+            "desc": "Peint pour le couvent San Domenico de Fiesole ce retable magistral où la perspective de marches de marbre et le chœur d'anges marquent une révolution spatiale.",
+            "type": "masterpiece",
+            "icon": "👑",
+            "artworkId": "fra_angelico_couronnement_vierge_louvre_1430"
+          },
+          {
+            "year": 1430,
+            "title": "Les Anges en adoration (Musée du Louvre)",
+            "desc": "Réalise la célèbre paire de panneaux pendants d'anges en adoration de profil (RF 970 & RF 971) aux ailes dorées et tuniques azurées.",
+            "type": "masterpiece",
+            "icon": "👼",
+            "artworkId": "fra_angelico_ange_adoration_gauche_louvre_1430"
+          },
+          {
+            "year": 1430,
+            "title": "La Décollation de saint Jean Baptiste (Musée du Louvre)",
+            "desc": "Peint le panneau de prédelle miniature narrant avec un sens dramatique aigu le banquet d'Hérode et le martyre du Précurseur.",
+            "type": "masterpiece",
+            "icon": "⚔️",
+            "artworkId": "fra_angelico_decollation_saint_jean_louvre_1430"
+          },
+          {
+            "year": 1433,
+            "title": "Le Tabernacle des Linaioli",
+            "desc": "Reçoit la commande colossale de la guilde des marchands de lin (Linaioli) pour un tabernacle monumental sculpté par Lorenzo Ghiberti.",
+            "type": "art",
+            "icon": "🏛️"
+          },
+          {
+            "year": 1435,
+            "title": "Le Christ bénissant (Musée du Louvre)",
+            "desc": "Peint le célèbre panneau dévotionnel du Sauveur tenant les Écritures saintes nimbé d'un fond d'or poinçonné.",
+            "type": "masterpiece",
+            "icon": "✝️",
+            "artworkId": "fra_angelico_christ_benissant_louvre_1435"
+          },
+          {
+            "year": 1438,
+            "title": "La Retable de San Marco pour Cosme de Médicis",
+            "desc": "Cosme l'Ancien lui confie la réalisation du maître-autel de l'église conventuelle San Marco, créant l'une des premières 'Sacra Conversazione' unifiées de la Renaissance.",
+            "type": "art",
+            "icon": "🌟"
+          }
+        ]
+      },
+      {
+        "title": "Le Grand Cycle Mystique du Couvent San Marco de Florence",
+        "years": "1439 – 1445",
+        "color": "#10b981",
+        "desc": "Décoration intégrale à fresque du couvent San Marco reconstruit par Michelozzo sous le mécénat des Médicis.",
+        "summary": "Cycle des cellules, cloître et salle capitulaire : sommet absolu de la peinture contemplative chrétienne.",
+        "events": [
+          {
+            "year": 1439,
+            "title": "Le Chantier monumental de San Marco",
+            "desc": "S'installe avec sa communauté au nouveau couvent San Marco et entreprend la décoration murale intégrale des cellules et corridors.",
+            "type": "art",
+            "icon": "🧱"
+          },
+          {
+            "year": 1440,
+            "title": "L'Annonciation du Corridor nord (San Marco)",
+            "desc": "Peint sur le palier d'accès aux cellules la célébrissime fresque de l'Annonciation sous une loggia Renaissance ouvrant sur l'hortus conclusus.",
+            "type": "masterpiece",
+            "icon": "🕊️",
+            "artworkId": "fra_angelico_annonciation_couloir_san_marco_1440"
+          },
+          {
+            "year": 1440,
+            "title": "L'Annonciation de la Cellule 3 (San Marco)",
+            "desc": "Réalise la version intimiste et épurée de l'Annonciation sous une voûte nue en présence de saint Pierre martyr.",
+            "type": "masterpiece",
+            "icon": "✨",
+            "artworkId": "fra_angelico_annonciation_cellule3_san_marco_1440"
+          },
+          {
+            "year": 1441,
+            "title": "La Crucifixion de la Salle capitulaire",
+            "desc": "Achève la fresque monumentale en demi-cercle de dix mètres réunissant les trois croix et les saints fondateurs des grands ordres religieux.",
+            "type": "masterpiece",
+            "icon": "✝️",
+            "artworkId": "fra_angelico_crucifixion_capitulaire_san_marco_1441"
+          },
+          {
+            "year": 1441,
+            "title": "Le Christ dans les limbes (Cellule 31)",
+            "desc": "Peint l'Anastasis où le Christ ressuscité en blanc brise les portes d'airain des enfers pour délivrer Adam et les patriarches.",
+            "type": "masterpiece",
+            "icon": "🚪",
+            "artworkId": "fra_angelico_christ_limbes_cellule31_san_marco_1441"
+          },
+          {
+            "year": 1441,
+            "title": "Le Sermon sur la montagne (Cellule 32)",
+            "desc": "Figure le Christ assis dispensant les Béatitudes aux apôtres assemblés en cercle sur une colline épurée.",
+            "type": "masterpiece",
+            "icon": "⛰️",
+            "artworkId": "fra_angelico_sermon_montagne_cellule32_san_marco_1441"
+          },
+          {
+            "year": 1441,
+            "title": "Crucifixions méditatives des Cellules & Corridors",
+            "desc": "Déploie les admirables fresques de dévotion : la Crucifixion avec le coup de lance (Cellule 35), la Crucifixion avec saints du corridor nord et l'oraison de saint Dominique.",
+            "type": "masterpiece",
+            "icon": "🩸",
+            "artworkId": "fra_angelico_crucifixion_lance_cellule35_san_marco_1441"
+          },
+          {
+            "year": 1442,
+            "title": "La Cène et la Communion des Apôtres (Cellule 35)",
+            "desc": "Peint l'Institution de l'Eucharistie sous les traits d'une liturgie sacrée où le Christ donne directement la communion à ses apôtres.",
+            "type": "masterpiece",
+            "icon": "🍞",
+            "artworkId": "fra_angelico_communion_apotres_cellule35_san_marco_1440"
+          }
+        ]
+      },
+      {
+        "title": "Les Fresques Papales à Rome, Orvieto & Postérité Céleste",
+        "years": "1446 – 1455",
+        "color": "#8b5cf6",
+        "desc": "Appelé au Vatican par Eugène IV puis Nicolas V, chapelle Niccoline et apothéose finale à Rome.",
+        "summary": "Prieur de Fiesole, décors papaux au Vatican, mort au couvent de la Minerve et béatification comme patron des artistes.",
+        "events": [
+          {
+            "year": 1446,
+            "title": "Appel à Rome par le Pape Eugène IV",
+            "desc": "Le souverain pontife l'invite à Rome pour décorer la chapelle du Saint-Sacrement au palais du Vatican.",
+            "type": "travel",
+            "icon": "🇻🇦"
+          },
+          {
+            "year": 1447,
+            "title": "Fresques de la Cathédrale d'Orvieto",
+            "desc": "Peint avec son atelier et le jeune Benozzo Gozzoli la voûte de la chapelle San Brizio à la cathédrale d'Orvieto figurant le Christ juge.",
+            "type": "art",
+            "icon": "⛪"
+          },
+          {
+            "year": 1448,
+            "title": "La Chapelle Niccoline au Vatican",
+            "desc": "Exécute pour le pape humaniste Nicolas V le cycle somptueux des vies de saint Étienne et saint Laurent, alliant rigueur archéologique et clarté architecturale classique.",
+            "type": "art",
+            "icon": "🏛️"
+          },
+          {
+            "year": 1450,
+            "title": "Élu Prieur du couvent San Domenico de Fiesole",
+            "desc": "Retourne en Toscane où ses frères l'élisent supérieur (prieur) de son cher couvent de Fiesole pour un mandat de trois ans.",
+            "type": "award",
+            "icon": "🕊️"
+          },
+          {
+            "year": 1455,
+            "title": "Mort à Rome au couvent Santa Maria sopra Minerva",
+            "desc": "S'éteint le 18 février 1455 à Rome à l'âge d'environ 60 ans. Il est inhumé dans l'église dominicaine de la Minerve sous une dalle de marbre gravée.",
+            "type": "death",
+            "icon": "✝️"
+          },
+          {
+            "year": 1982,
+            "title": "Béatification & Proclamation comme Saint Patron des Artistes",
+            "desc": "Le pape Jean-Paul II le béatifie solennellement et le proclame par motu proprio saint patron universel de tous les artistes chrétiens.",
+            "type": "award",
+            "icon": "🌟"
+          }
+        ]
+      }
+    ]
+  }
 }
 };
