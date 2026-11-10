@@ -11420,7 +11420,7 @@ window.ARTISTS_REGISTRY = {
   ],
   "corpus": {
     "total": 150,
-    "seen": 16,
+    "seen": 17,
     "paintingsCount": 150,
     "sourceTitle": "Monographies de référence : Sir John Pope-Hennessy (Phaidon), John T. Spike et Laurence Kanter",
     "sourceNotes": "L'inventaire scientifique de référence a été historiquement dressé par l'expert britannique Sir John Pope-Hennessy, puis affiné par John T. Spike. En isolant strictement les œuvres autographes du maître (panneaux, retables d'autel et cycles de fresques), le consensus scientifique évalue le corpus achevé entre 140 et 150 œuvres.",
@@ -11430,7 +11430,7 @@ window.ARTISTS_REGISTRY = {
         "count": 95,
         "icon": "🏛️",
         "color": "#0284c7",
-        "seen": 11,
+        "seen": 12,
         "note": "Cycle monumental du couvent San Marco (dortoir, cloître, salle capitulaire) et chapelle Niccoline à Rome."
       },
       {
@@ -11585,6 +11585,14 @@ window.ARTISTS_REGISTRY = {
             "type": "masterpiece",
             "icon": "✨",
             "artworkId": "fra_angelico_annonciation_cellule3_san_marco_1440"
+          },
+          {
+                    "year": 1440,
+                    "title": "Le Baptême du Christ (Cellule 24)",
+                    "desc": "Peint dans la cellule 24 du dortoir le Baptême dans le Jourdain, entouré d'anges tenant les vêtements du Sauveur et des figures de sainte Marie et saint Dominique.",
+                    "type": "masterpiece",
+                    "icon": "🌊",
+                    "artworkId": "fra_angelico_bapteme_christ_cellule24_san_marco_1440"
           },
           {
             "year": 1441,

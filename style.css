@@ -2539,13 +2539,20 @@ body {
 }
 
 #master-drag-container {
-  flex: 1;
+  flex: 1 1 0 !important;
   cursor: grab;
   position: relative;
-  overflow-x: hidden;
-  overflow-y: visible;
+  overflow: hidden !important;
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
   min-height: 100%;
   touch-action: pan-y;
+}
+
+#master-drag-container::-webkit-scrollbar {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
 }
 
 #master-drag-container:active {
@@ -9976,4 +9983,21 @@ body {
   color: #ffffff !important;
   border-color: #ffd700 !important;
   box-shadow: 0 0 10px rgba(212, 175, 55, 0.3) !important;
+}
+
+/* Sanctuarisation anti-double ascenseur : seul #timeline-split-wrapper a un ascenseur stylisé */
+#master-timeline-bar,
+#timeline-dock,
+#sub-timeline-drawer {
+  overflow: hidden !important;
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+}
+
+#master-timeline-bar::-webkit-scrollbar,
+#timeline-dock::-webkit-scrollbar,
+#sub-timeline-drawer::-webkit-scrollbar {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
 }

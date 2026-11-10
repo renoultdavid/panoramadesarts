@@ -7638,6 +7638,7 @@ const CERTIFIED_PAINTING_DIMENSIONS = {
   // Max Ernst (1 œuvre)
   "ernst_foret_nantes_1925": { h: 114, w: 146, display: "114 × 146 cm" },
   // Fra Angelico (16 œuvres)
+  "fra_angelico_bapteme_christ_cellule24_san_marco_1440": { h: 178, w: 148, display: "178 × 148 cm (fresque de cellule)" },
   "fra_angelico_couronnement_vierge_louvre_1430": { h: 213, w: 211, display: "213 × 211 cm (panneau central avec prédelle)" },
   "fra_angelico_ange_adoration_gauche_louvre_1430": { h: 37, w: 23, display: "37 × 23 cm" },
   "fra_angelico_ange_adoration_droite_louvre_1430": { h: 37, w: 23, display: "37 × 23 cm (panneau pendant)" },

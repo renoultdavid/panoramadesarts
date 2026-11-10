@@ -16,6 +16,56 @@
    ========================================================================== */
 window.ART_OBJECTS = [
 {
+  "id": "fra_angelico_bapteme_christ_cellule24_san_marco_1440",
+  "artistId": "fra_angelico",
+  "artist": "Fra Angelico (Guido di Pietro)",
+  "artistSort": "Fra Angelico",
+  "civId": "occident",
+  "periodId": "occ_renaissance",
+  "civName": "Occident : Première Renaissance florentine",
+  "century": "XVe siècle (vers 1440-1442)",
+  "centuryDisplay": "XVe s. (v. 1440-1442)",
+  "centuryNumeric": 1440,
+  "domain": "peinture",
+  "artifactType": "Fresque de cellule",
+  "title": "Le Baptême du Christ (Cellule 24)",
+  "site": "Museo Nazionale di San Marco (Florence, Italie)",
+  "originSite": "Cellule 24 du dortoir, couvent San Marco (Florence, Italie)",
+  "dimensions": "178 × 148 cm (fresque de cellule)",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczMRuKjI1-XL3KrFycvg8sZfaWjsiZWkSE9y5ZyXhYsf9nFqGKGgiSAucU0pAGJmXKZhR80dTDoyPjBXtU9eBOZ9ONyLpj5xd7gsho9FuGDmzX9cN-_1J40026MUT-QgjsZkeLfBAzQWcw51F1EtrZ6D3Q=w1681-h1121-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczMRuKjI1-XL3KrFycvg8sZfaWjsiZWkSE9y5ZyXhYsf9nFqGKGgiSAucU0pAGJmXKZhR80dTDoyPjBXtU9eBOZ9ONyLpj5xd7gsho9FuGDmzX9cN-_1J40026MUT-QgjsZkeLfBAzQWcw51F1EtrZ6D3Q=w1681-h1121-s-no-gm?authuser=0",
+  "tags": [
+    "peinture",
+    "fresque",
+    "fra angelico",
+    "baptême du christ",
+    "saint jean baptiste",
+    "saint esprit",
+    "cellule 24",
+    "san marco",
+    "florence",
+    "saint dominique"
+  ],
+  "chips": [
+    "XVe s.",
+    "v. 1440-1442",
+    "Renaissance florentine",
+    "Fresque de cellule",
+    "San Marco, Florence"
+  ],
+  "desc": "<p>Cette fresque, réalisée par Fra Angelico et ses collaborateurs entre 1440 et 1442, orne la paroi de la cellule 24 du couvent San Marco à Florence. L'œuvre illustre le Baptême du Christ dans le Jourdain avec une économie de moyens et une clarté spirituelle destinées à soutenir la méditation privée du frère dominicain occupant la cellule. Au centre de la composition, le Christ se tient debout dans les eaux du fleuve, les mains jointes en un geste de prière et d'humilité, tandis que saint Jean-Baptiste, sur la rive droite, verse l'eau baptismale sur sa tête. La scène est surmontée par une représentation symbolique des cieux s'ouvrant, d'où émane une lumière divine sous la forme de rayons dorés et d'une colombe figurant le Saint-Esprit.</p><p>À gauche, deux anges agenouillés assistent à la scène, tenant les vêtements du Christ, tandis qu'à droite, au second plan, apparaissent sainte Marie et saint Dominique. La présence de ces figures anachroniques transforme le récit historique en un événement spirituel permanent pour la communauté monastique, Dominique tenant un livre et un lys, attributs de la pureté et de la doctrine. Le paysage est réduit à des formes géométriques simples, avec des montagnes escarpées et dépouillées qui encadrent le fleuve, concentrant toute l'attention sur la solennité du sacrement.</p><p>La lumière, caractéristique du style de Fra Angelico, est diffuse et égale, conférant aux personnages une présence sculpturale et sereine. La palette chromatique utilise des contrastes doux entre le rose du manteau du Baptiste, le bleu-vert de l'eau et les tons terreux du décor, créant une harmonie visuelle propice au silence et au recueillement.</p>",
+  "contemporaryArt": {
+    "title": "Quattrocento • L'Éclosion de la Renaissance et l'humanisme florentin",
+    "events": [
+      "1430 – 1436 : Filippo Brunelleschi achève l'érection de la coupole monumentale de Santa Maria del Fiore à Florence.",
+      "1434 : Cosme l'Ancien de Médicis revient d'exil et fonde l'âge d'or du mécénat humaniste à Florence.",
+      "1439 : Concile œcuménique de Ferrare-Florence réunissant les Églises d'Orient et d'Occident sous Eugène IV.",
+      "1440 : Donatello achève son David en bronze nu, premier nu autonome en ronde-bosse de la Renaissance.",
+      "1444 : Début de la construction du Palais Médicis-Riccardi par Michelozzo, architecte de San Marco."
+    ]
+  }
+},
+{
   "id": "ernst_foret_nantes_1925",
   "artistId": "ernst",
   "artist": "Ernst Max",
