@@ -7670,7 +7670,21 @@ function populateModalData(art) {
 }
 
 const CERTIFIED_PAINTING_DIMENSIONS = {
-    // David Hockney (Série 3 : Période Normande, Portraits de Proches & Toiles Récentes 2018-2025)
+      // David Hockney (Série 4 : Nouveaux Portraits de Proches & Créateurs 2023-2025)
+  "hockney_portrait_richard_hockney_2023": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm (Collection David Hockney Foundation)" },
+  "hockney_portrait_donatien_grau_2023": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm (Collection de l'artiste / Collection particulière)" },
+  "hockney_portrait_philip_hockney_2023": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm (Collection David Hockney Foundation)" },
+  "hockney_portrait_richard_hockney_ii_2023": { h: 91.4, w: 91.4, display: "91,4 × 91,4 cm (Collection David Hockney Foundation)" },
+  "hockney_portrait_john_cox_2024": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm (Collection de l'artiste)" },
+  "hockney_portrait_pierre_saint_jean_2024": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm (Collection David Hockney Foundation)" },
+  "hockney_portrait_sir_norman_rosenthal_2024": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm (Collection de l'artiste / Royal Academy of Arts)" },
+  "hockney_portrait_harry_clark_2024": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm (Collection de l'artiste)" },
+  "hockney_portrait_ben_torrens_2024": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm (Collection de l'artiste)" },
+  "hockney_portrait_albert_clark_2024": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm (Collection de l'artiste)" },
+  "hockney_portrait_lewis_dube_2025": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm (Collection de l'artiste / The David Hockney Foundation)" },
+  "hockney_portrait_sonia_mathews_2025": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm (Collection de l'artiste / The David Hockney Foundation)" },
+
+// David Hockney (Série 3 : Période Normande, Portraits de Proches & Toiles Récentes 2018-2025)
   "hockney_la_petite_niche_2023": { h: 91.4, w: 121.9, display: "91,4 × 121,9 cm (Collection David Hockney Foundation)" },
   "hockney_giverny_2023": { h: 91.4, w: 121.9, display: "91,4 × 121,9 cm (Collection David Hockney Foundation)" },
   "hockney_vent_sur_la_mare_2023": { h: 91.4, w: 121.9, display: "91,4 × 121,9 cm (Collection David Hockney Foundation)" },
