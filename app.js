@@ -1608,7 +1608,11 @@ const BANNERS_REGISTRY = {
   occ_livre: "https://lh3.googleusercontent.com/pw/AP1GczPAQ7fZcYAGY0QxJE9AZT4mNvgVg2uH-UezlC7DMeTje_QzQjLi_4u1ok0Nh2oExbARCeDvW2hxGNKrVA6GG6DL30GhfxR7khAtfKlJGI2PbPDNLAQ3GEraSF-wc2mpRfkyZtLLpYPdKnizWiTE9ng2zA=w1724-h731-s-no-gm?authuser=0",
   occ_mosaique: "https://lh3.googleusercontent.com/pw/AP1GczOUe76szbL4GxtrkYlm4ZQSLqqHVimJIdfUA5uE_sACk078nujNuUcd0S5NDBVO4D7bT1ckedU0FcXvMNG_Eij2yk09oPDRW20L_Cv_AYIdrffQipLaaY46kFFL3JYC-7zWsnby7fullNatqvW4CH6YiA=w1724-h731-s-no-gm?authuser=0",
   occ_fresque: "https://lh3.googleusercontent.com/pw/AP1GczMvPhXDmL-JQJW9xx0etcx3S3Dnn94HCB2HpEVJBhMSFpyt__UTMDA57W01a06s99ArRkoXwDhhZwsUzEM96sNqaZokaOSz3qP0EjepHpA8mesDmSLQpPNW4RtkZ8w_CnybezUVwAvtecfwfp6HhnX-tA=w1681-h713-s-no-gm?authuser=0",
-  occ_orfevrerie: "https://lh3.googleusercontent.com/pw/AP1GczNb7yqJegPyFwUfZAYYYJKG40S4NfB3ckgjK-X0_0uzAd7WyGVTlr5VokccO_3a8CvDVxJRQAidY0WUCzBn9gWf_NSdmdYNscAWglITiRJpMz3ey-S_L1C2fvYWaqxFkIz7lr2-lLkQ49PuBf8WS-eFmA=w1724-h731-s-no-gm?authuser=0"
+  occ_orfevrerie: "https://lh3.googleusercontent.com/pw/AP1GczNb7yqJegPyFwUfZAYYYJKG40S4NfB3ckgjK-X0_0uzAd7WyGVTlr5VokccO_3a8CvDVxJRQAidY0WUCzBn9gWf_NSdmdYNscAWglITiRJpMz3ey-S_L1C2fvYWaqxFkIz7lr2-lLkQ49PuBf8WS-eFmA=w1724-h731-s-no-gm?authuser=0",
+
+  // 13. Voie Occidentale (Renaissance & XIXe Réalisme)
+  occ_renaissance: "https://lh3.googleusercontent.com/d/1fF4IimcuCoDeZ9aqrLxXEqu_Kg9kkFEp",
+  occ_xixe: "https://lh3.googleusercontent.com/d/1D3lvCtzmQDj3HMwjQkJb2ocBp33j-ljN"
 };
 
 function getArtworkBanner(art) {
@@ -3549,7 +3553,7 @@ const CIVILISATIONS_REGISTRY = [
     sidePos: "pos-left",
     travelingOrigin: "50.5% 42.5%",
     haloId: "halo-occident",
-    bannerImg: "",
+    bannerImg: "https://lh3.googleusercontent.com/d/1fF4IimcuCoDeZ9aqrLxXEqu_Kg9kkFEp",
     mapOverlayUrl: "",
     albumUrl: "",
     presentationHtml: `
@@ -3639,7 +3643,7 @@ const CIVILISATIONS_REGISTRY = [
     sidePos: "pos-left",
     travelingOrigin: "49.5% 42.0%",
     haloId: "halo-occident",
-    bannerImg: "",
+    bannerImg: "https://lh3.googleusercontent.com/d/1D3lvCtzmQDj3HMwjQkJb2ocBp33j-ljN",
     mapOverlayUrl: "",
     albumUrl: "",
     presentationHtml: `
@@ -8850,7 +8854,7 @@ const TAXONOMY_CIVILISATIONS = {
       { id: "egypte_nouvel", label: "Nouvel Empire (-1550 à -1069)" },
       { id: "egypte_tardive", label: "Troisième Période intermédiaire & Basse Époque (-1069 à -332)" },
       { id: "egypte_ptolemaique", label: "Époque ptolémaïque / Lagide (-332 à -30)" },
-      { id: "egypte_romaine", label: "Égypte romaine (-30 à +395)" }
+      { id: "egypte_romaine", label: "Égypte romaine & chrétienne copte (-30 à +640)" }
     ]
   },
   "mesopotamie": {
@@ -8956,10 +8960,10 @@ const TAXONOMY_CIVILISATIONS = {
   "occident": {
     name: "Occident chrétien & moderne",
     periods: [
-      { id: "occ_medieval_paleo", label: "Paléochrétien & Mérovingien (Ve - VIIIe s.)" },
-      { id: "occ_roman", label: "Art roman (Xe - XIIe s.)" },
-      { id: "occ_gothique", label: "Art gothique (XIIe - XVe s.)" },
-      { id: "occ_renaissance", label: "Renaissance (XVe - XVIe s.)" },
+      { id: "occ_medieval_paleo", label: "Paléochrétien, Byzance macédonienne & Mérovingien (Ve - VIIIe s.)" },
+      { id: "occ_roman", label: "Art roman & fresques médiévales (Xe - XIIe s.)" },
+      { id: "occ_gothique", label: "Art gothique & Renaissance byzantine paléologue (XIIe - XVe s.)" },
+      { id: "occ_renaissance", label: "Renaissance européenne & Art post-byzantin (XVe - XVIe s.)" },
       { id: "occ_baroque_classique", label: "Âge baroque & Classicisme (XVIIe s.)" },
       { id: "occ_xviiie", label: "XVIIIe siècle & Siècle des Lumières" },
       { id: "occ_xixe", label: "XIXe siècle (Romantisme, Réalisme, Symbolisme)" },
@@ -10077,15 +10081,30 @@ function renderSearchGallery() {
         const matchArtist = normalizeSearchStr(item.artist || item.creator || '').includes(normQuery);
         if (!matchChip && !matchTitle && !matchSite && !matchArtist) return false;
       } else {
-        const matchTitle = item.title && normalizeSearchStr(item.title).includes(normQuery);
-        const matchSite = item.site && normalizeSearchStr(item.site).includes(normQuery);
-        const matchNarrative = item.narrative && normalizeSearchStr(item.narrative).includes(normQuery);
-        const matchChips = item.chips && item.chips.some(c => normalizeSearchStr(c).includes(normQuery));
-        const matchArtist = (item.artist || item.creator) && normalizeSearchStr(item.artist || item.creator).includes(normQuery);
-        const matchCategory = item.category && normalizeSearchStr(item.category).includes(normQuery);
-        const matchPeriod = (item.periodId && normalizeSearchStr(item.periodId).includes(normQuery)) ||
-                            (item.civName && normalizeSearchStr(item.civName).includes(normQuery));
-        if (!matchTitle && !matchSite && !matchNarrative && !matchChips && !matchArtist && !matchCategory && !matchPeriod) return false;
+        // Recherche enrichie multi-termes & pluriel/féminin tolérant
+        const chipsText = (item.chips || []).join(' ');
+        const tagsText = (item.tags || []).join(' ');
+        const badgesText = (item.badges || []).join(' ');
+        const fullDoc = normalizeSearchStr([
+          item.title, item.site, item.currentLocation, item.narrative, item.desc,
+          item.artist, item.creator, item.category, item.type, item.domain,
+          item.periodId, item.civName, item.civId, chipsText, tagsText, badgesText
+        ].filter(Boolean).join(' '));
+
+        if (fullDoc.includes(normQuery)) {
+          // Correspondance exacte directe
+        } else {
+          // Décomposition en mots-clés avec tolérance pluriels et accords
+          const words = normQuery.split(/\s+/).filter(w => w.length > 0);
+          const allWordsMatch = words.length > 0 && words.every(w => {
+            if (fullDoc.includes(w)) return true;
+            if (w.endsWith('s') && fullDoc.includes(w.slice(0, -1))) return true;
+            if (w.endsWith('es') && fullDoc.includes(w.slice(0, -2))) return true;
+            if (w.endsWith('e') && fullDoc.includes(w.slice(0, -1))) return true;
+            return false;
+          });
+          if (!allWordsMatch) return false;
+        }
       }
     }
 
