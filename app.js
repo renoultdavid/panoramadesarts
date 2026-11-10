@@ -7645,6 +7645,10 @@ function populateModalData(art) {
 }
 
 const CERTIFIED_PAINTING_DIMENSIONS = {
+  // Juan Gris (Musée des Beaux-Arts de Rennes / Centre Pompidou MNAM)
+  "gris_le_livre_ouvert_rennes_1925": { h: 33.3, w: 40.8, display: "33,3 × 40,8 cm (Musée des Beaux-Arts de Rennes / Centre Pompidou)" },
+
+
   // Jean-Baptiste Greuze (6 œuvres - Musée du Louvre, Musée Fabre Montpellier, Musée d'Arts de Nantes)
   "greuze_le_guitariste_nantes_1757": { h: 71, w: 56, display: "71 × 56 cm (Musée d'Arts de Nantes)" },
   "greuze_accordee_de_village_louvre_1761": { h: 92, w: 117, display: "92 × 117 cm (Musée du Louvre, Paris)" },

@@ -2,6 +2,159 @@
    REGISTRE DES PEINTRES & NOTICES MONOGRAPHIQUES
    ========================================================================== */
 window.ARTISTS_REGISTRY = {
+  "gris": {
+    "id": "gris",
+    "name": "Gris Juan",
+    "sortName": "Gris Juan",
+    "sortLetter": "G",
+    "dates": "1887 – 1927",
+    "movement": "Cubisme synthétique, Cubisme cristallin & Avant-garde parisienne",
+    "nationality": "Espagnol",
+    "techniques": "Huile sur toile, papier collé, gouache, fusain, craie, mine de plomb",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczN0-brL7lRNBmXjry-S_Jhs3dKJsXGvWHox-PMXbqYovaAhofi5jQE4ojt1WmVG0qLdCeubrfVDJv3s34rwWtCPaBODzyAPc-Lj66Uj5Ewm4tQKK6Q-HmlzZOOcjG35D6P0zp2svSviFYuuijJ0yO-E5Q=w1681-h713-s-no-gm?authuser=0",
+    "bio": "<p>Juan Gris (1887 – 1927), né José Victoriano González-Pérez, est le « troisième mousquetaire » du Cubisme. Arrivé à Paris en 1906, il s'installe au Bateau-Lavoir aux côtés de Picasso et Braque. S'il rejoint le mouvement après ses fondateurs, il y apporte une rigueur intellectuelle, une clarté mathématique et une harmonie colorée qui lui valent d'être considéré comme le théoricien le plus pur du cubisme.</p><p>Son genre pictural se définit par le cubisme synthétique et une approche déductive de la composition. Contrairement à Picasso qui part de l'objet pour le fragmenter, Gris part de formes abstraites et de structures géométriques pour « inventer » l'objet dans un second temps. Son style se caractérise par une organisation architecturale de la toile, des lignes de force très marquées et une palette souvent plus vive et contrastée que celle de ses contemporains.</p><p>L'évolution de son style marque une transition de l'analyse rigoureuse vers une poésie des formes :</p><p>Le cubisme analytique et le collage (1911 – 1914) : Ses débuts sont marqués par une décomposition méthodique de l'objet. Il utilise fréquemment le collage et intègre des fragments de miroirs ou de journaux pour confronter la réalité brute à la peinture.</p><p>L'architecture du tableau (1915 – 1920) : C'est sa période la plus aboutie, dite du cubisme « cristallin ». Il simplifie ses compositions, utilise des aplats de couleurs franches et joue sur l'imbrication des plans. Ses natures mortes deviennent des constructions intellectuelles d'une grande sérénité.</p><p>Le retour au lyrisme (années 1920) : Vers la fin de sa vie, son style s'assouplit. Il introduit plus de courbes et d'humanité dans ses œuvres, notamment à travers ses personnages de la commedia dell'arte (Arlequins et Pierrots). Sa touche devient plus onctueuse et ses compositions, tout en restant géométriques, dégagent une mélancolie plus profonde. Oeuvres : En écartant sa première vie d'illustrateur satirique pour les journaux parisiens (L'Assiette au beurre, Le Charivari) et ses nombreux dessins préparatoires, le catalogue de Douglas Cooper dénombre très précisément 626 peintures et 6 sculptures, achevées par l'artiste avant que la maladie (l'urémie) ne l'emporte prématurément à seulement quarante ans. Oeuvre :</p>",
+    "totalOeuvresEstimees": "626 peintures et 6 sculptures",
+    "oeuvresConsensusNotice": "En écartant sa première vie d'illustrateur satirique pour les journaux parisiens (L'Assiette au beurre, Le Charivari) et ses nombreux dessins préparatoires, le catalogue raisonné de Douglas Cooper dénombre très précisément 626 peintures et 6 sculptures, achevées par l'artiste avant que la maladie (l'urémie) ne l'emporte prématurément à seulement quarante ans.",
+    "timeline": {
+        "periods": [
+            {
+                "title": "1887 – 1910 : La jeunesse madrilène, l'arrivée à Paris et le Bateau-Lavoir",
+                "years": "1887 – 1910",
+                "color": "#0284c7",
+                "desc": "Origines à Madrid, études d'ingénieur, installation à Montmartre et illustrations satiriques.",
+                "summary": "Né José Victoriano González-Pérez à Madrid, il étudie le dessin industriel avant de fuir en France en 1906 pour échapper au service militaire. Installé au Bateau-Lavoir auprès de Picasso et Max Jacob, il gagne sa vie comme illustrateur satirique tout en observant la naissance du cubisme.",
+                "events": [
+                    {
+                        "year": 1887,
+                        "title": "Naissance à Madrid",
+                        "desc": "Naît le 23 mars 1887 à Madrid dans une famille bourgeoise commerçante.",
+                        "icon": "🌟",
+                        "badge": "Origines"
+                    },
+                    {
+                        "year": 1902,
+                        "title": "École des Arts et Métiers de Madrid",
+                        "desc": "Suit des études de dessin technique et de géométrie industrielle qui forgeront sa vision constructive de l'espace.",
+                        "icon": "📐",
+                        "badge": "Formation"
+                    },
+                    {
+                        "year": 1906,
+                        "title": "Arrivée à Paris & Le Bateau-Lavoir",
+                        "desc": "Arrive à Montmartre sans passeport, emménage au légendaire Bateau-Lavoir et se lie d'amitié avec Pablo Picasso et Guillaume Apollinaire.",
+                        "icon": "🎨",
+                        "badge": "Paris"
+                    },
+                    {
+                        "year": 1908,
+                        "title": "Dessinateur satirique de presse",
+                        "desc": "Publie des caricatures élégantes et acérées dans L'Assiette au beurre, Le Cri de Paris et Le Charivari.",
+                        "icon": "📰",
+                        "badge": "Illustration"
+                    }
+                ]
+            },
+            {
+                "title": "1911 – 1914 : L'affirmation cubiste, le Salon des Indépendants et le collage",
+                "years": "1911 – 1914",
+                "color": "#10b981",
+                "desc": "Passage décisif à la peinture à l'huile, contrat Kahnweiler et invention de collages géométriques virtuoses.",
+                "summary": "Gris abandonne le dessin de presse en 1911 pour se consacrer exclusivement à la peinture. Exposé au Salon des Indépendants en 1912 avec son Hommage à Picasso, il signe un contrat avec le marchand Daniel-Henry Kahnweiler et enrichit le cubisme de papiers collés aux couleurs franches.",
+                "events": [
+                    {
+                        "year": 1911,
+                        "title": "Premières peintures cubistes",
+                        "desc": "Adopte une grille géométrique stricte pour décomposer méthodiquement les objets quotidiens.",
+                        "icon": "🔷",
+                        "badge": "Cubisme"
+                    },
+                    {
+                        "year": 1912,
+                        "title": "Hommage à Picasso & Contrat Kahnweiler",
+                        "desc": "Triomphe au Salon des Indépendants et à la Section d'Or ; Daniel-Henry Kahnweiler lui offre un contrat exclusif.",
+                        "icon": "📜",
+                        "badge": "Reconnaissance"
+                    },
+                    {
+                        "year": 1913,
+                        "title": "Séjour à Céret avec Picasso",
+                        "desc": "Travaille dans les Pyrénées-Orientales et révolutionne ses toiles par l'intégration de fragments de miroirs et de gravures de journaux.",
+                        "icon": "✂️",
+                        "badge": "Papiers collés"
+                    }
+                ]
+            },
+            {
+                "title": "1915 – 1920 : L'architecture du tableau et le cubisme « cristallin »",
+                "years": "1915 – 1920",
+                "color": "#d97706",
+                "desc": "Épuration géométrique, méthode déductive, séjour à Collioure avec Matisse et Sérénité classique.",
+                "summary": "Isolé pendant la Première Guerre mondiale, Gris théorise son cubisme synthétique déductif : partir d'une abstraction pure pour faire émerger l'objet. Ses natures mortes de cette période cristalline atteignent une majesté architecturale et un équilibre géométrique absolu.",
+                "events": [
+                    {
+                        "year": 1915,
+                        "title": "Séjour à Collioure auprès d'Henri Matisse",
+                        "desc": "Confrontation féconde avec Matisse qui enrichit sa palette de noirs veloutés et de bleus profonds.",
+                        "icon": "🌊",
+                        "badge": "Collioure"
+                    },
+                    {
+                        "year": 1916,
+                        "title": "L'apogée du cubisme cristallin",
+                        "desc": "Épuration radicale : chaque élément pictural est déduit mathématiquement des proportions de la toile.",
+                        "icon": "💎",
+                        "badge": "Cristallin"
+                    },
+                    {
+                        "year": 1919,
+                        "title": "Exposition personnelle chez Léonce Rosenberg",
+                        "desc": "Première grande exposition rétrospective à la Galerie de L'Effort Moderne, consacrant son statut de maître.",
+                        "icon": "🏛️",
+                        "badge": "Galerie"
+                    }
+                ]
+            },
+            {
+                "title": "1920 – 1927 : Le retour au lyrisme, la Commedia dell'arte et la fin tragique",
+                "years": "1920 – 1927",
+                "color": "#dc2626",
+                "desc": "Ballets russes, conférence à la Sorbonne, Le Livre ouvert et mort prématurée à 40 ans.",
+                "summary": "Bien que fragilisé par la pleurésie et l'urémie, Gris adoucit sa géométrie par des courbes harmonieuses et des personnages mélancoliques. Après sa conférence historique à la Sorbonne en 1924, il peint Le Livre ouvert en 1925 avant de s'éteindre en 1927 à Boulogne-Billancourt.",
+                "events": [
+                    {
+                        "year": 1921,
+                        "title": "Décors pour les Ballets russes de Diaghilev",
+                        "desc": "Conçoit décors et costumes somptueux pour Les Tentations de la bergère et La Fête merveilleuse à Versailles.",
+                        "icon": "🎭",
+                        "badge": "Scénographie"
+                    },
+                    {
+                        "year": 1924,
+                        "title": "Conférence historique à la Sorbonne",
+                        "desc": "Prononce sa célèbre leçon « Des possibilités de la peinture », déclarant : « Je fais d'un cylindre une bouteille ».",
+                        "icon": "🎓",
+                        "badge": "Théorie"
+                    },
+                    {
+                        "year": 1925,
+                        "title": "Le Livre ouvert (Musée des Beaux-Arts de Rennes)",
+                        "desc": "Sommet de sa maturité cubiste synthétique : sérénité classique, dialogue entre bois veiné et pureté géométrique.",
+                        "type": "masterpiece",
+                        "icon": "🎨",
+                        "artworkId": "gris_le_livre_ouvert_rennes_1925"
+                    },
+                    {
+                        "year": 1927,
+                        "title": "Mort prématurée à Boulogne-Billancourt",
+                        "desc": "Emporté par l'urémie le 11 mai 1927 à seulement 40 ans, laissant une œuvre admirée pour sa rigueur et sa poésie intemporelle.",
+                        "icon": "🕊️",
+                        "badge": "Éternité"
+                    }
+                ]
+            }
+        ]
+    }
+},
   "greuze": {
     "id": "greuze",
     "name": "Greuze Jean-Baptiste",

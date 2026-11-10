@@ -16,6 +16,37 @@
    ========================================================================== */
 window.ART_OBJECTS = [
 {
+  "id": "gris_le_livre_ouvert_rennes_1925",
+  "artistId": "gris",
+  "artist": "Gris Juan",
+  "artistSort": "Gris Juan",
+  "title": "Le Livre ouvert",
+  "date": "1925",
+  "dateDisplay": "octobre 1925",
+  "century": "XXe siècle",
+  "centuryDisplay": "XXe s. (1925)",
+  "centuryNumeric": 1925,
+  "medium": "Peinture à l'huile sur toile",
+  "dimensions": "33,3 × 40,8 cm",
+  "location": "Musée des Beaux-Arts de Rennes (Dépôt du Centre Pompidou MNAM)",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczONjHEJ5HdP4AJnDw0fOz8bixw8s3cS2Su5BMejXTK4LWnBGmdqgFV-PytFmvLkLGbe41imJTofARJ4hMPq3e4KNyflxDRmWwEouNZiBKTuwLH8mc3KqRgA9izEQSFeTzwlSvNVBNfhUt1UNNoY9pOqOw=w1681-h1372-s-no-gm?authuser=0",
+  "civilization": "France",
+  "subpart": "Cubisme synthétique et avant-garde des années 1920",
+  "type": "Peinture",
+  "desc": "<p>Cette nature morte, peinte par Juan Gris en 1925 et conservée au Musée des Beaux-Arts de Rennes, est une illustration parfaite du cubisme synthétique dans sa phase de pleine maturité. L'œuvre rassemble des objets familiers de l'univers de l'artiste : un livre largement ouvert, une pipe, un encrier et un autre volume posé sur le côté, le tout disposé sur une table dont le grain du bois est rendu avec une précision graphique. Juan Gris, souvent considéré comme le théoricien le plus pur du cubisme, ne cherche pas ici à décomposer l'objet de manière analytique, mais à reconstruire une réalité nouvelle, architecturée et autonome, où chaque élément répond à une logique mathématique interne.</p><p>La technique employée témoigne d'une grande rigueur formelle et d'un sens aigu de l'équilibre. Contrairement aux premiers temps du cubisme, la palette est ici riche et contrastée, jouant sur des tons de terre cuite, de bruns profonds et d'ocres, rehaussés par le blanc lumineux des pages du livre et de l'encrier. Gris utilise une superposition de plans géométriques qui s'imbriquent les uns dans les autres, créant une profondeur sans recourir à la perspective traditionnelle. Le traitement du bois de la table, avec ses veines sinueuses, apporte une touche de réalisme qui vient ancrer la composition abstraite dans une dimension concrète, créant un dialogue entre la matière et la forme pure.</p><p>L'intérêt historique du «Livre ouvert« réside dans la démarche déductive propre à Juan Gris : il part de la structure géométrique pour arriver à l'objet, déclarant souvent qu'il fait « d'un cylindre un verre » plutôt que l'inverse. Dans cette toile de 1925, l'artiste atteint une sérénité classique où les objets semblent dotés d'une vie silencieuse et éternelle. Cette œuvre, réalisée peu de temps avant sa disparition prématurée, représente l'aboutissement de ses recherches sur la lumière et la couleur, faisant de Juan Gris l'un des piliers indispensables de l'art moderne pour sa capacité à transformer le quotidien en une architecture poétique et intellectuelle de haut vol.</p>",
+  "narrative": "<p>Cette nature morte, peinte par Juan Gris en 1925 et conservée au Musée des Beaux-Arts de Rennes, est une illustration parfaite du cubisme synthétique dans sa phase de pleine maturité. L'œuvre rassemble des objets familiers de l'univers de l'artiste : un livre largement ouvert, une pipe, un encrier et un autre volume posé sur le côté, le tout disposé sur une table dont le grain du bois est rendu avec une précision graphique. Juan Gris, souvent considéré comme le théoricien le plus pur du cubisme, ne cherche pas ici à décomposer l'objet de manière analytique, mais à reconstruire une réalité nouvelle, architecturée et autonome, où chaque élément répond à une logique mathématique interne.</p><p>La technique employée témoigne d'une grande rigueur formelle et d'un sens aigu de l'équilibre. Contrairement aux premiers temps du cubisme, la palette est ici riche et contrastée, jouant sur des tons de terre cuite, de bruns profonds et d'ocres, rehaussés par le blanc lumineux des pages du livre et de l'encrier. Gris utilise une superposition de plans géométriques qui s'imbriquent les uns dans les autres, créant une profondeur sans recourir à la perspective traditionnelle. Le traitement du bois de la table, avec ses veines sinueuses, apporte une touche de réalisme qui vient ancrer la composition abstraite dans une dimension concrète, créant un dialogue entre la matière et la forme pure.</p><p>L'intérêt historique du «Livre ouvert« réside dans la démarche déductive propre à Juan Gris : il part de la structure géométrique pour arriver à l'objet, déclarant souvent qu'il fait « d'un cylindre un verre » plutôt que l'inverse. Dans cette toile de 1925, l'artiste atteint une sérénité classique où les objets semblent dotés d'une vie silencieuse et éternelle. Cette œuvre, réalisée peu de temps avant sa disparition prématurée, représente l'aboutissement de ses recherches sur la lumière et la couleur, faisant de Juan Gris l'un des piliers indispensables de l'art moderne pour sa capacité à transformer le quotidien en une architecture poétique et intellectuelle de haut vol.</p>",
+  "contemporaryArt": {
+    "title": "Les Années Folles • L'Entre-deux-guerres & Le Rayonnement de l'École de Paris",
+    "events": [
+      "1919 : Fondation du Bauhaus à Weimar par Walter Gropius ; effervescence des avant-gardes européennes.",
+      "1924 : Publication du premier Manifeste du surréalisme par André Breton.",
+      "1924 : Conférence fondatrice de Juan Gris à la Sorbonne : « Des possibilités de la peinture ».",
+      "1925 : Exposition internationale des Arts décoratifs et industriels modernes à Paris.",
+      "1927 : Disparition prématurée de Juan Gris à Boulogne-Billancourt à l'âge de 40 ans."
+    ]
+  }
+},
+{
     "id": "greuze_le_guitariste_nantes_1757",
     "artistId": "greuze",
     "artist": "Greuze Jean-Baptiste",
