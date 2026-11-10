@@ -15,7 +15,921 @@
      Rösel von Rosenhof)
    ========================================================================== */
 window.ART_OBJECTS = [
-
+  {
+    "id": "gericault_char_antique_rouen_1808",
+    "artistId": "gericault",
+    "artist": "Théodore Géricault",
+    "artistSort": "Géricault Théodore",
+    "civId": "occident",
+    "periodId": "occ_xixe",
+    "civName": "Occident : Romantisme français",
+    "title": "Char antique",
+    "date": 1808,
+    "dateDisplay": "v. 1808",
+    "century": "XIXe siècle (1808)",
+    "centuryDisplay": "XIXe s. (vers 1808)",
+    "centuryNumeric": 1808,
+    "period": "XIXe siècle",
+    "domain": "peinture",
+    "artifactType": "Peinture à l'huile sur toile",
+    "category": "Peinture à l'huile sur toile",
+    "type": "Peinture à l'huile",
+    "medium": "Huile sur toile",
+    "dimensions": {
+      "h": 38,
+      "w": 46,
+      "display": "38 × 46 cm"
+    },
+    "site": "Musée des Beaux-Arts de Rouen (France)",
+    "originSite": "Atelier de Carle Vernet / Pierre-Narcisse Guérin (Paris)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczNIAKKtLcmK7LFlb7fzqGvRdflvQXy8XCLBg-nMQAbh08PtkI3NrPsT3Pxt_8ecAFfqnFbUXZ-WiYO-hxUy936RFZVqq5wUqZDleirUua92ttfT0QR3uSzhgN45cK_rLil0Qv9uSw1yzrg8uUKnpXezkQ=w1681-h1265-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczNIAKKtLcmK7LFlb7fzqGvRdflvQXy8XCLBg-nMQAbh08PtkI3NrPsT3Pxt_8ecAFfqnFbUXZ-WiYO-hxUy936RFZVqq5wUqZDleirUua92ttfT0QR3uSzhgN45cK_rLil0Qv9uSw1yzrg8uUKnpXezkQ=w1681-h1265-s-no-gm?authuser=0",
+    "tags": [
+      "peinture",
+      "romantisme",
+      "géricault",
+      "char",
+      "antiquité",
+      "cheval",
+      "rouen"
+    ],
+    "chips": [
+      "XIXe s.",
+      "v. 1808",
+      "Romantisme français",
+      "Antiquité héroïque",
+      "MBA Rouen"
+    ],
+    "narrative": "<p>Cette œuvre, intitulée Char antique, a été peinte par Théodore Géricault vers 1808. Actuellement conservée au Musée des Beaux-Arts de Rouen, elle illustre une étape charnière dans l'évolution de l'artiste. À cette époque, Géricault est encore imprégné par l'enseignement néoclassique de ses maîtres, Vernet et Guérin, mais il laisse déjà entrevoir une fascination pour le mouvement et l'énergie qui deviendront sa signature. La toile représente un char lancé à pleine vitesse, conduit par deux figures drapées à l'antique, évoquant les scènes de courses de chars de la Grèce ou de la Rome antique, un sujet de prédilection pour les artistes de l'époque formés à la tradition classique.</p><p>L'intérêt majeur de cette composition réside dans le traitement des chevaux et du mouvement. Géricault, passionné d'hippologie, ne se contente pas d'une représentation statique ou purement décorative. Les deux chevaux au premier plan, aux robes sombres et aux harnais dorés, sont saisis dans un élan fougueux, les sabots ne touchant presque plus le sol. Le rendu des muscles en tension et des crinières au vent apporte une dimension épique à la scène. Le paysage en arrière-plan, composé de montagnes et d'architectures classiques suggérées, reste volontairement flou pour accentuer l'effet de vitesse et de profondeur, plaçant le dynamisme du sujet au centre de l'œuvre.</p><p>Le travail sur la lumière et la matière annonce déjà les recherches futures de l'artiste. On observe une touche plus libre et une palette de couleurs terreuses, rythmée par les rehauts de lumière sur les personnages et les chevaux. Cette œuvre témoigne de la capacité de Géricault à réinterpréter les codes de la peinture d'histoire pour y insuffler une force vitale nouvelle. Le passage du néoclassicisme rigoureux au romantisme passionné se dessine ici à travers l'étude de la puissance animale et du mouvement dramatique, faisant de ce tableau une pièce maîtresse de sa production précoce. //</p>",
+    "desc": "<p>Cette œuvre, intitulée Char antique, a été peinte par Théodore Géricault vers 1808. Actuellement conservée au Musée des Beaux-Arts de Rouen, elle illustre une étape charnière dans l'évolution de l'artiste. À cette époque, Géricault est encore imprégné par l'enseignement néoclassique de ses maîtres, Vernet et Guérin, mais il laisse déjà entrevoir une fascination pour le mouvement et l'énergie qui deviendront sa signature. La toile représente un char lancé à pleine vitesse, conduit par deux figures drapées à l'antique, évoquant les scènes de courses de chars de la Grèce ou de la Rome antique, un sujet de prédilection pour les artistes de l'époque formés à la tradition classique.</p><p>L'intérêt majeur de cette composition réside dans le traitement des chevaux et du mouvement. Géricault, passionné d'hippologie, ne se contente pas d'une représentation statique ou purement décorative. Les deux chevaux au premier plan, aux robes sombres et aux harnais dorés, sont saisis dans un élan fougueux, les sabots ne touchant presque plus le sol. Le rendu des muscles en tension et des crinières au vent apporte une dimension épique à la scène. Le paysage en arrière-plan, composé de montagnes et d'architectures classiques suggérées, reste volontairement flou pour accentuer l'effet de vitesse et de profondeur, plaçant le dynamisme du sujet au centre de l'œuvre.</p><p>Le travail sur la lumière et la matière annonce déjà les recherches futures de l'artiste. On observe une touche plus libre et une palette de couleurs terreuses, rythmée par les rehauts de lumière sur les personnages et les chevaux. Cette œuvre témoigne de la capacité de Géricault à réinterpréter les codes de la peinture d'histoire pour y insuffler une force vitale nouvelle. Le passage du néoclassicisme rigoureux au romantisme passionné se dessine ici à travers l'étude de la puissance animale et du mouvement dramatique, faisant de ce tableau une pièce maîtresse de sa production précoce. //</p>",
+    "contemporaryArt": {
+      "title": "Consulat, Premier Empire & Restauration • Épopée napoléonienne & Romantisme",
+      "events": [
+        "1804 : Sacre de Napoléon Ier empereur des Français par le pape Pie VII à Notre-Dame de Paris.",
+        "1808 : Début de la guerre d'Espagne ; essor du romantisme militaire dans les ateliers parisiens.",
+        "1812 : Campagne de Russie ; triomphe de Géricault au Salon avec l'Officier de chasseurs chargeant.",
+        "1814 – 1815 : Première abdication impériale, Cent-Jours, Waterloo et Restauration des Bourbons.",
+        "1816 : Naufrage tragique de la frégate royale La Méduse au large des côtes de Mauritanie.",
+        "1819 : Présentation événementielle du Radeau de la Méduse au Salon de Paris sous Louis XVIII.",
+        "1821 : Mort de Napoléon à Sainte-Hélène ; Géricault expose avec éclat son Radeau à l'Egyptian Hall de Londres.",
+        "1824 : Salon historique de 1824 marquant l'apogée du Romantisme français (Delacroix, Constable) l'année de la mort de Géricault."
+      ]
+    }
+  },
+  {
+    "id": "gericault_academie_d_homme_rouen_1808",
+    "artistId": "gericault",
+    "artist": "Théodore Géricault",
+    "artistSort": "Géricault Théodore",
+    "civId": "occident",
+    "periodId": "occ_xixe",
+    "civName": "Occident : Romantisme français",
+    "title": "Académie d'homme",
+    "date": 1808,
+    "dateDisplay": "v. 1808",
+    "century": "XIXe siècle (1808)",
+    "centuryDisplay": "XIXe s. (vers 1808)",
+    "centuryNumeric": 1808,
+    "period": "XIXe siècle",
+    "domain": "peinture",
+    "artifactType": "Peinture à l'huile sur toile",
+    "category": "Peinture à l'huile sur toile",
+    "type": "Peinture à l'huile",
+    "medium": "Huile sur toile",
+    "dimensions": {
+      "h": 81,
+      "w": 65,
+      "display": "81 × 65 cm"
+    },
+    "site": "Musée des Beaux-Arts de Rouen (France)",
+    "originSite": "Atelier de Pierre-Narcisse Guérin (Paris)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczNpu3H_SlLcLAC5kVw8P3OkSBJ9jx8Fzg5SJq-dgxtb85xp_bZ1LiLPhkCcklUnj51fSk7mdzGT1gud4cv_c7HNiGDEhmt7jNlgKQnxWJwMcB2RTyp2s9gMw_2q5FlfM_FItLjobWRywKzOTSmL78Ptuw=w1681-h2165-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczNpu3H_SlLcLAC5kVw8P3OkSBJ9jx8Fzg5SJq-dgxtb85xp_bZ1LiLPhkCcklUnj51fSk7mdzGT1gud4cv_c7HNiGDEhmt7jNlgKQnxWJwMcB2RTyp2s9gMw_2q5FlfM_FItLjobWRywKzOTSmL78Ptuw=w1681-h2165-s-no-gm?authuser=0",
+    "tags": [
+      "peinture",
+      "romantisme",
+      "géricault",
+      "académie",
+      "nu masculin",
+      "anatomie",
+      "rouen"
+    ],
+    "chips": [
+      "XIXe s.",
+      "v. 1808",
+      "Romantisme français",
+      "Étude académique",
+      "MBA Rouen"
+    ],
+    "narrative": "<p>Cette académie d'homme, peinte par Théodore Géricault vers 1808, constitue un jalon essentiel pour comprendre la genèse du génie romantique français. Conservée au Musée des Beaux-Arts de Rouen, cette huile sur toile témoigne de la période où le jeune artiste, alors âgé d'environ dix-sept ans, fréquentait l'atelier de Pierre-Narcisse Guérin. Si l'exercice de l'académie est alors une figure imposée de l'enseignement artistique — visant à maîtriser la morphologie humaine par l'étude du modèle vivant — Géricault s'y distingue déjà par une rupture nette avec l'idéalisme néoclassique. Là où ses contemporains recherchent une ligne pure et une musculature harmonieuse héritée de la statuaire antique, Géricault impose une vision charnelle, presque brute, où la vérité du corps l'emporte sur la perfection du canon.</p><p>L'œuvre frappe par sa puissance plastique et son intensité dramatique. Le modèle est saisi dans une pose de contrapposto accentuée, les jambes largement écartées et le torse en torsion, créant une dynamique de force contenue. Le traitement de la lumière est ici fondamental : un éclairage latéral violent vient sculpter les reliefs musculaires, laissant de larges zones d'ombre qui confèrent à la figure une dimension monumentale. Cette technique du clair-obscur, qui rappelle l'influence des maîtres baroques et de Caravage, permet à Géricault de détacher le corps d'un arrière-plan sombre et indéterminé, focalisant toute l'attention sur la tension des fibres et la densité de la chair.</p><p>Au-delà de la simple virtuosité anatomique, on perçoit dans cette toile les prémices du tempérament tourmenté de l'artiste. Le visage du modèle, incliné et partiellement plongé dans la pénombre, dérobe son regard au spectateur, conférant à cette étude d'atelier une profondeur psychologique inhabituelle pour un simple exercice scolaire. Cette mélancolie sourde, alliée à la vigueur de la touche, annonce déjà les grandes compositions futures de l'artiste, notamment ses recherches sur la souffrance et l'héroïsme humain. Géricault ne se contente pas de représenter un corps ; il met en scène une présence physique vibrante qui préfigure le passage définitif vers le Romantisme. //</p>",
+    "desc": "<p>Cette académie d'homme, peinte par Théodore Géricault vers 1808, constitue un jalon essentiel pour comprendre la genèse du génie romantique français. Conservée au Musée des Beaux-Arts de Rouen, cette huile sur toile témoigne de la période où le jeune artiste, alors âgé d'environ dix-sept ans, fréquentait l'atelier de Pierre-Narcisse Guérin. Si l'exercice de l'académie est alors une figure imposée de l'enseignement artistique — visant à maîtriser la morphologie humaine par l'étude du modèle vivant — Géricault s'y distingue déjà par une rupture nette avec l'idéalisme néoclassique. Là où ses contemporains recherchent une ligne pure et une musculature harmonieuse héritée de la statuaire antique, Géricault impose une vision charnelle, presque brute, où la vérité du corps l'emporte sur la perfection du canon.</p><p>L'œuvre frappe par sa puissance plastique et son intensité dramatique. Le modèle est saisi dans une pose de contrapposto accentuée, les jambes largement écartées et le torse en torsion, créant une dynamique de force contenue. Le traitement de la lumière est ici fondamental : un éclairage latéral violent vient sculpter les reliefs musculaires, laissant de larges zones d'ombre qui confèrent à la figure une dimension monumentale. Cette technique du clair-obscur, qui rappelle l'influence des maîtres baroques et de Caravage, permet à Géricault de détacher le corps d'un arrière-plan sombre et indéterminé, focalisant toute l'attention sur la tension des fibres et la densité de la chair.</p><p>Au-delà de la simple virtuosité anatomique, on perçoit dans cette toile les prémices du tempérament tourmenté de l'artiste. Le visage du modèle, incliné et partiellement plongé dans la pénombre, dérobe son regard au spectateur, conférant à cette étude d'atelier une profondeur psychologique inhabituelle pour un simple exercice scolaire. Cette mélancolie sourde, alliée à la vigueur de la touche, annonce déjà les grandes compositions futures de l'artiste, notamment ses recherches sur la souffrance et l'héroïsme humain. Géricault ne se contente pas de représenter un corps ; il met en scène une présence physique vibrante qui préfigure le passage définitif vers le Romantisme. //</p>",
+    "contemporaryArt": {
+      "title": "Consulat, Premier Empire & Restauration • Épopée napoléonienne & Romantisme",
+      "events": [
+        "1804 : Sacre de Napoléon Ier empereur des Français par le pape Pie VII à Notre-Dame de Paris.",
+        "1808 : Début de la guerre d'Espagne ; essor du romantisme militaire dans les ateliers parisiens.",
+        "1812 : Campagne de Russie ; triomphe de Géricault au Salon avec l'Officier de chasseurs chargeant.",
+        "1814 – 1815 : Première abdication impériale, Cent-Jours, Waterloo et Restauration des Bourbons.",
+        "1816 : Naufrage tragique de la frégate royale La Méduse au large des côtes de Mauritanie.",
+        "1819 : Présentation événementielle du Radeau de la Méduse au Salon de Paris sous Louis XVIII.",
+        "1821 : Mort de Napoléon à Sainte-Hélène ; Géricault expose avec éclat son Radeau à l'Egyptian Hall de Londres.",
+        "1824 : Salon historique de 1824 marquant l'apogée du Romantisme français (Delacroix, Constable) l'année de la mort de Géricault."
+      ]
+    }
+  },
+  {
+    "id": "gericault_officier_de_chasseurs_chargeant_esquisse_nantes_1812",
+    "artistId": "gericault",
+    "artist": "Théodore Géricault",
+    "artistSort": "Géricault Théodore",
+    "civId": "occident",
+    "periodId": "occ_xixe",
+    "civName": "Occident : Romantisme français",
+    "title": "Officier de chasseurs à cheval de la garde impériale chargeant (esquisse)",
+    "date": 1812,
+    "dateDisplay": "v. 1812",
+    "century": "XIXe siècle (1812)",
+    "centuryDisplay": "XIXe s. (vers 1812)",
+    "centuryNumeric": 1812,
+    "period": "XIXe siècle",
+    "domain": "peinture",
+    "artifactType": "Peinture à l'huile sur toile",
+    "category": "Peinture à l'huile sur toile",
+    "type": "Peinture à l'huile",
+    "medium": "Huile sur toile",
+    "dimensions": {
+      "h": 52.5,
+      "w": 40.5,
+      "display": "52,5 × 40,5 cm"
+    },
+    "site": "Musée d'Arts de Nantes (France)",
+    "originSite": "Atelier de Géricault (Paris)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczMIwDOBTjQT0rHhcejT-6xO8sfa0o1iJLumqMRgxQk7jg9TaEno8D8txckIud3sc-dihyXFq9AK2ZjCS4D44zl98JGFH7WDmprLw8wl-ZfvMbFO96RXoxtuULC8DAGp73goF3VgUvOPyGBY4p2KOeJ9zQ=w1681-h2011-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczMIwDOBTjQT0rHhcejT-6xO8sfa0o1iJLumqMRgxQk7jg9TaEno8D8txckIud3sc-dihyXFq9AK2ZjCS4D44zl98JGFH7WDmprLw8wl-ZfvMbFO96RXoxtuULC8DAGp73goF3VgUvOPyGBY4p2KOeJ9zQ=w1681-h2011-s-no-gm?authuser=0",
+    "tags": [
+      "peinture",
+      "romantisme",
+      "géricault",
+      "officier",
+      "chasseurs",
+      "cheval",
+      "nantes"
+    ],
+    "chips": [
+      "XIXe s.",
+      "v. 1812",
+      "Romantisme français",
+      "Épopée impériale",
+      "Nantes"
+    ],
+    "narrative": "<p>Cette esquisse à l'huile de Théodore Géricault, réalisée vers 1812, constitue une étude préparatoire pour son célèbre tableau présenté au Salon de la même année. L'œuvre frappe par sa fougue et son énergie brute, caractéristiques du romantisme naissant. On y voit un officier de chasseurs à cheval de la Garde impériale dans une posture de combat dynamique, le corps pivotant vers l'arrière pour commander la charge alors que sa monture s'élance vers l'avant. Le fond, brossé à grands traits, évoque un champ de bataille embrumé de fumée et de poussière, où les lueurs rougeâtres suggèrent l'incendie et le fracas de l'artillerie.</p><p>Le traitement du cavalier témoigne d'une recherche sur le mouvement et la tension dramatique. L'officier brandit son sabre incurvé, le bras tendu, tandis que son regard est tourné vers l'action invisible qui se déroule derrière lui. Sa tenue de chasseur, avec le dolman vert et la pelisse bordée de fourrure qui vole au vent, est rendue par des touches de peinture épaisses et rapides, presque nerveuses. Le colback de fourrure noire à flamme rouge accentue la verticalité et l'aspect martial du personnage, dont la silhouette se détache vigoureusement sur le ciel tourmenté.</p><p>Le cheval, véritable double héroïque du cavalier, occupe une place centrale dans la composition. Cabré dans un mouvement de torsion audacieux, son pelage gris pommelé capte la lumière crue de la scène. La musculature puissante et le regard farouche de l'animal traduisent une impétuosité que Géricault, passionné d'équitation, savait rendre avec une précision rare pour l'époque. Les détails du harnachement, notamment la peau de panthère servant de chabraque, ajoutent une note d'exotisme et de luxe militaire à cette vision de guerre.</p><p>Cette esquisse, conservée au Musée d'Arts de Nantes, permet d'apprécier la genèse d'un chef-d'œuvre qui rompit avec la statique néoclassique pour embrasser la passion et le mouvement. Elle révèle la virtuosité technique de Géricault qui, par une économie de moyens et une touche libérée, parvient à insuffler une intensité dramatique exceptionnelle à son sujet. Le siècle de cet objet est le XIXe siècle. La civilisation est la France et la sous-partie pour le classement de la photo est la Peinture romantique et militaire. //</p>",
+    "desc": "<p>Cette esquisse à l'huile de Théodore Géricault, réalisée vers 1812, constitue une étude préparatoire pour son célèbre tableau présenté au Salon de la même année. L'œuvre frappe par sa fougue et son énergie brute, caractéristiques du romantisme naissant. On y voit un officier de chasseurs à cheval de la Garde impériale dans une posture de combat dynamique, le corps pivotant vers l'arrière pour commander la charge alors que sa monture s'élance vers l'avant. Le fond, brossé à grands traits, évoque un champ de bataille embrumé de fumée et de poussière, où les lueurs rougeâtres suggèrent l'incendie et le fracas de l'artillerie.</p><p>Le traitement du cavalier témoigne d'une recherche sur le mouvement et la tension dramatique. L'officier brandit son sabre incurvé, le bras tendu, tandis que son regard est tourné vers l'action invisible qui se déroule derrière lui. Sa tenue de chasseur, avec le dolman vert et la pelisse bordée de fourrure qui vole au vent, est rendue par des touches de peinture épaisses et rapides, presque nerveuses. Le colback de fourrure noire à flamme rouge accentue la verticalité et l'aspect martial du personnage, dont la silhouette se détache vigoureusement sur le ciel tourmenté.</p><p>Le cheval, véritable double héroïque du cavalier, occupe une place centrale dans la composition. Cabré dans un mouvement de torsion audacieux, son pelage gris pommelé capte la lumière crue de la scène. La musculature puissante et le regard farouche de l'animal traduisent une impétuosité que Géricault, passionné d'équitation, savait rendre avec une précision rare pour l'époque. Les détails du harnachement, notamment la peau de panthère servant de chabraque, ajoutent une note d'exotisme et de luxe militaire à cette vision de guerre.</p><p>Cette esquisse, conservée au Musée d'Arts de Nantes, permet d'apprécier la genèse d'un chef-d'œuvre qui rompit avec la statique néoclassique pour embrasser la passion et le mouvement. Elle révèle la virtuosité technique de Géricault qui, par une économie de moyens et une touche libérée, parvient à insuffler une intensité dramatique exceptionnelle à son sujet. Le siècle de cet objet est le XIXe siècle. La civilisation est la France et la sous-partie pour le classement de la photo est la Peinture romantique et militaire. //</p>",
+    "contemporaryArt": {
+      "title": "Consulat, Premier Empire & Restauration • Épopée napoléonienne & Romantisme",
+      "events": [
+        "1804 : Sacre de Napoléon Ier empereur des Français par le pape Pie VII à Notre-Dame de Paris.",
+        "1808 : Début de la guerre d'Espagne ; essor du romantisme militaire dans les ateliers parisiens.",
+        "1812 : Campagne de Russie ; triomphe de Géricault au Salon avec l'Officier de chasseurs chargeant.",
+        "1814 – 1815 : Première abdication impériale, Cent-Jours, Waterloo et Restauration des Bourbons.",
+        "1816 : Naufrage tragique de la frégate royale La Méduse au large des côtes de Mauritanie.",
+        "1819 : Présentation événementielle du Radeau de la Méduse au Salon de Paris sous Louis XVIII.",
+        "1821 : Mort de Napoléon à Sainte-Hélène ; Géricault expose avec éclat son Radeau à l'Egyptian Hall de Londres.",
+        "1824 : Salon historique de 1824 marquant l'apogée du Romantisme français (Delacroix, Constable) l'année de la mort de Géricault."
+      ]
+    }
+  },
+  {
+    "id": "gericault_officier_de_chasseurs_chargeant_louvre_1812",
+    "artistId": "gericault",
+    "artist": "Théodore Géricault",
+    "artistSort": "Géricault Théodore",
+    "civId": "occident",
+    "periodId": "occ_xixe",
+    "civName": "Occident : Romantisme français",
+    "title": "Officier de chasseurs à cheval de la garde impériale chargeant",
+    "date": 1812,
+    "dateDisplay": "1812",
+    "century": "XIXe siècle (1812)",
+    "centuryDisplay": "XIXe s. (1812)",
+    "centuryNumeric": 1812,
+    "period": "XIXe siècle",
+    "domain": "peinture",
+    "artifactType": "Peinture à l'huile sur toile",
+    "category": "Peinture à l'huile sur toile",
+    "type": "Peinture à l'huile",
+    "medium": "Huile sur toile",
+    "dimensions": {
+      "h": 349,
+      "w": 266,
+      "display": "349 × 266 cm"
+    },
+    "site": "Musée du Louvre (Paris, France)",
+    "originSite": "Salon de Paris de 1812 (Médaille d'or)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczO5h50Ampj_Zhu1MFGFrQrZavh-SFTq4Suy9aFkyDsjiMlgzgap7GPxZ4ApMLyDpT1MBVxrBfCfSpfK-cAc3kA_SvSyS5wxJjz57fk4IgBoT7bBqTVawCZ1iX1ZWEnkVggKHtcmkYGlBMyc1Mds0nG_7A=w1681-h1976-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczO5h50Ampj_Zhu1MFGFrQrZavh-SFTq4Suy9aFkyDsjiMlgzgap7GPxZ4ApMLyDpT1MBVxrBfCfSpfK-cAc3kA_SvSyS5wxJjz57fk4IgBoT7bBqTVawCZ1iX1ZWEnkVggKHtcmkYGlBMyc1Mds0nG_7A=w1681-h1976-s-no-gm?authuser=0",
+    "tags": [
+      "peinture",
+      "romantisme",
+      "géricault",
+      "officier",
+      "garde impériale",
+      "cheval",
+      "louvre"
+    ],
+    "chips": [
+      "XIXe s.",
+      "1812",
+      "Romantisme français",
+      "Chef-d'œuvre monumental",
+      "Musée du Louvre"
+    ],
+    "narrative": "<p>Exposé au Salon de 1812, ce tableau est la première œuvre majeure de Théodore Géricault, peinte alors qu'il n'avait que 21 ans. Il s'agit d'une œuvre audacieuse qui rompt avec les portraits équestres traditionnels. Plutôt que de représenter un général ou un empereur dans une pose statique et majestueuse, Géricault choisit de représenter un officier anonyme (le lieutenant Dieudonné) en plein feu de l'action, capturant l'énergie brute et le chaos de la guerre napoléonienne.</p><p>La composition est d'un dynamisme fulgurant, construite sur une ligne oblique qui traverse la toile. Le cheval, cabré et tourné vers l'arrière dans un mouvement de torsion complexe, semble bondir hors du cadre. L'officier, sabre au clair, se retourne pour diriger la charge, créant un lien entre le spectateur et la bataille invisible qui fait rage à l'arrière-plan. Ce mouvement de spirale confère à l'œuvre une puissance dramatique qui préfigure le romantisme.</p><p>Techniquement, Géricault fait preuve d'une virtuosité stupéfiante pour son jeune âge. La touche est large, grasse et rapide, traduisant la fureur du combat. Le traitement de la peau du léopard qui sert de housse de selle, les reflets sur le sabre et la crinière au vent du cheval témoignent d'une attention portée au mouvement et à la matière plutôt qu'au fini lisse académique. La palette, dominée par des gris de fumée et des rouges sang, est illuminée par les rehauts d'or de l'uniforme, créant un contraste héroïque et tragique.</p><p>Ce tableau fut peint en seulement quelques semaines, dans un élan de création fiévreux. S'il célèbre la gloire militaire de l'Empire, il en montre aussi la face sombre par son atmosphère crépusculaire et tourmentée. Entré au Louvre en 1891, il reste l'un des exemples les plus vibrants de la peinture équestre, où l'animal et l'homme fusionnent dans un même souffle épique. //</p>",
+    "desc": "<p>Exposé au Salon de 1812, ce tableau est la première œuvre majeure de Théodore Géricault, peinte alors qu'il n'avait que 21 ans. Il s'agit d'une œuvre audacieuse qui rompt avec les portraits équestres traditionnels. Plutôt que de représenter un général ou un empereur dans une pose statique et majestueuse, Géricault choisit de représenter un officier anonyme (le lieutenant Dieudonné) en plein feu de l'action, capturant l'énergie brute et le chaos de la guerre napoléonienne.</p><p>La composition est d'un dynamisme fulgurant, construite sur une ligne oblique qui traverse la toile. Le cheval, cabré et tourné vers l'arrière dans un mouvement de torsion complexe, semble bondir hors du cadre. L'officier, sabre au clair, se retourne pour diriger la charge, créant un lien entre le spectateur et la bataille invisible qui fait rage à l'arrière-plan. Ce mouvement de spirale confère à l'œuvre une puissance dramatique qui préfigure le romantisme.</p><p>Techniquement, Géricault fait preuve d'une virtuosité stupéfiante pour son jeune âge. La touche est large, grasse et rapide, traduisant la fureur du combat. Le traitement de la peau du léopard qui sert de housse de selle, les reflets sur le sabre et la crinière au vent du cheval témoignent d'une attention portée au mouvement et à la matière plutôt qu'au fini lisse académique. La palette, dominée par des gris de fumée et des rouges sang, est illuminée par les rehauts d'or de l'uniforme, créant un contraste héroïque et tragique.</p><p>Ce tableau fut peint en seulement quelques semaines, dans un élan de création fiévreux. S'il célèbre la gloire militaire de l'Empire, il en montre aussi la face sombre par son atmosphère crépusculaire et tourmentée. Entré au Louvre en 1891, il reste l'un des exemples les plus vibrants de la peinture équestre, où l'animal et l'homme fusionnent dans un même souffle épique. //</p>",
+    "contemporaryArt": {
+      "title": "Consulat, Premier Empire & Restauration • Épopée napoléonienne & Romantisme",
+      "events": [
+        "1804 : Sacre de Napoléon Ier empereur des Français par le pape Pie VII à Notre-Dame de Paris.",
+        "1808 : Début de la guerre d'Espagne ; essor du romantisme militaire dans les ateliers parisiens.",
+        "1812 : Campagne de Russie ; triomphe de Géricault au Salon avec l'Officier de chasseurs chargeant.",
+        "1814 – 1815 : Première abdication impériale, Cent-Jours, Waterloo et Restauration des Bourbons.",
+        "1816 : Naufrage tragique de la frégate royale La Méduse au large des côtes de Mauritanie.",
+        "1819 : Présentation événementielle du Radeau de la Méduse au Salon de Paris sous Louis XVIII.",
+        "1821 : Mort de Napoléon à Sainte-Hélène ; Géricault expose avec éclat son Radeau à l'Egyptian Hall de Londres.",
+        "1824 : Salon historique de 1824 marquant l'apogée du Romantisme français (Delacroix, Constable) l'année de la mort de Géricault."
+      ]
+    }
+  },
+  {
+    "id": "gericault_cheval_arabe_gris_blanc_rouen_1812",
+    "artistId": "gericault",
+    "artist": "Théodore Géricault",
+    "artistSort": "Géricault Théodore",
+    "civId": "occident",
+    "periodId": "occ_xixe",
+    "civName": "Occident : Romantisme français",
+    "title": "Cheval arabe gris-blanc",
+    "date": 1812,
+    "dateDisplay": "v. 1812",
+    "century": "XIXe siècle (1812)",
+    "centuryDisplay": "XIXe s. (vers 1812)",
+    "centuryNumeric": 1812,
+    "period": "XIXe siècle",
+    "domain": "peinture",
+    "artifactType": "Peinture à l'huile sur toile",
+    "category": "Peinture à l'huile sur toile",
+    "type": "Peinture à l'huile",
+    "medium": "Huile sur toile",
+    "dimensions": {
+      "h": 60,
+      "w": 73,
+      "display": "60 × 73 cm"
+    },
+    "site": "Musée des Beaux-Arts de Rouen (France)",
+    "originSite": "Écuries impériales / Atelier de Géricault (Paris)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczMW7bVPM28PEkrmxJEikBMdqos0qtdMMNxfp40grOL8NZOqCLzyWilDaasfd6XN7JKYm-HzahCYNfS7HwMqHCi4MS7McYg13QzZoSpeGIf4nbyArN592jj4SckFc6GeXSt5v4uamtPzsmvQhMKPXK6Q5w=w1681-h1343-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczMW7bVPM28PEkrmxJEikBMdqos0qtdMMNxfp40grOL8NZOqCLzyWilDaasfd6XN7JKYm-HzahCYNfS7HwMqHCi4MS7McYg13QzZoSpeGIf4nbyArN592jj4SckFc6GeXSt5v4uamtPzsmvQhMKPXK6Q5w=w1681-h1343-s-no-gm?authuser=0",
+    "tags": [
+      "peinture",
+      "romantisme",
+      "géricault",
+      "cheval",
+      "arabe",
+      "écurie",
+      "rouen"
+    ],
+    "chips": [
+      "XIXe s.",
+      "v. 1812",
+      "Romantisme français",
+      "Art équestre",
+      "MBA Rouen"
+    ],
+    "narrative": "<p>L’œuvre intitulée Cheval arabe gris-blanc, peinte par Théodore Géricault vers 1812, est un témoignage éclatant de la passion de l'artiste pour l'anatomie équine et de son rôle de précurseur du romantisme français. Conservée au Musée des Beaux-Arts de Rouen, cette toile appartient à une série d'études réalisées par le jeune Géricault, fasciné par la noblesse et l'énergie sauvage des chevaux, sujet qu'il traitera toute sa vie avec une intensité sans pareille. Ici, l'animal n'est pas un simple accessoire de portrait ou de scène historique, mais le sujet unique et héroïque d'une véritable «biographie« picturale.</p><p>La description du cheval révèle une observation scientifique doublée d'une sensibilité vibrante. L'animal est représenté de profil, sa robe gris-blanc captant une lumière vive qui met en relief la structure osseuse et la musculature puissante. Géricault excelle dans le rendu des textures : le soyeux de la crinière, la finesse de la peau laissant deviner les veines, et l'humidité de l'œil qui confère au cheval une expression presque humaine d'intelligence et de nervosité. La posture, bien que statique, suggère une force contenue, prête à se libérer. Le traitement de la robe, avec ses nuances de blanc, de gris perle et ses touches de brun, montre une liberté de pinceau qui annonce déjà la fougue de ses grandes compositions futures.</p><p>L'espace autour du cheval est traité de manière sobre afin de ne pas détourner l'attention du sujet. L'arrière-plan, composé de tons terreux et d'un ciel bas, crée un contraste qui fait ressortir la silhouette lumineuse de l'animal. Cette simplicité du décor renforce la monumentalité du cheval, lui donnant une stature sculpturale. La lumière, venant de la gauche, sculpte les volumes avec une précision qui rappelle les études anatomiques, tout en créant des zones d'ombre douce qui apportent de la profondeur et du mystère à la composition.</p><p>La technique de Géricault se caractérise par une pâte riche et une touche nerveuse. On sent dans chaque coup de brosse l'admiration du peintre pour la fougue et la liberté de l'animal. Contrairement aux représentations classiques et policées de l'époque, Géricault cherche à exprimer l'âme équine, sa part d'indomptable. Ce tableau est une étape essentielle vers ses chefs-d'œuvre ultérieurs comme l'Officier de chasseurs à cheval, montrant comment il a su transformer l'étude animalière en un genre noble et dramatique. L'œuvre de Rouen demeure l'une des images les plus pures et les plus émouvantes de la symbiose entre l'artiste et son modèle favori. //</p>",
+    "desc": "<p>L’œuvre intitulée Cheval arabe gris-blanc, peinte par Théodore Géricault vers 1812, est un témoignage éclatant de la passion de l'artiste pour l'anatomie équine et de son rôle de précurseur du romantisme français. Conservée au Musée des Beaux-Arts de Rouen, cette toile appartient à une série d'études réalisées par le jeune Géricault, fasciné par la noblesse et l'énergie sauvage des chevaux, sujet qu'il traitera toute sa vie avec une intensité sans pareille. Ici, l'animal n'est pas un simple accessoire de portrait ou de scène historique, mais le sujet unique et héroïque d'une véritable «biographie« picturale.</p><p>La description du cheval révèle une observation scientifique doublée d'une sensibilité vibrante. L'animal est représenté de profil, sa robe gris-blanc captant une lumière vive qui met en relief la structure osseuse et la musculature puissante. Géricault excelle dans le rendu des textures : le soyeux de la crinière, la finesse de la peau laissant deviner les veines, et l'humidité de l'œil qui confère au cheval une expression presque humaine d'intelligence et de nervosité. La posture, bien que statique, suggère une force contenue, prête à se libérer. Le traitement de la robe, avec ses nuances de blanc, de gris perle et ses touches de brun, montre une liberté de pinceau qui annonce déjà la fougue de ses grandes compositions futures.</p><p>L'espace autour du cheval est traité de manière sobre afin de ne pas détourner l'attention du sujet. L'arrière-plan, composé de tons terreux et d'un ciel bas, crée un contraste qui fait ressortir la silhouette lumineuse de l'animal. Cette simplicité du décor renforce la monumentalité du cheval, lui donnant une stature sculpturale. La lumière, venant de la gauche, sculpte les volumes avec une précision qui rappelle les études anatomiques, tout en créant des zones d'ombre douce qui apportent de la profondeur et du mystère à la composition.</p><p>La technique de Géricault se caractérise par une pâte riche et une touche nerveuse. On sent dans chaque coup de brosse l'admiration du peintre pour la fougue et la liberté de l'animal. Contrairement aux représentations classiques et policées de l'époque, Géricault cherche à exprimer l'âme équine, sa part d'indomptable. Ce tableau est une étape essentielle vers ses chefs-d'œuvre ultérieurs comme l'Officier de chasseurs à cheval, montrant comment il a su transformer l'étude animalière en un genre noble et dramatique. L'œuvre de Rouen demeure l'une des images les plus pures et les plus émouvantes de la symbiose entre l'artiste et son modèle favori. //</p>",
+    "contemporaryArt": {
+      "title": "Consulat, Premier Empire & Restauration • Épopée napoléonienne & Romantisme",
+      "events": [
+        "1804 : Sacre de Napoléon Ier empereur des Français par le pape Pie VII à Notre-Dame de Paris.",
+        "1808 : Début de la guerre d'Espagne ; essor du romantisme militaire dans les ateliers parisiens.",
+        "1812 : Campagne de Russie ; triomphe de Géricault au Salon avec l'Officier de chasseurs chargeant.",
+        "1814 – 1815 : Première abdication impériale, Cent-Jours, Waterloo et Restauration des Bourbons.",
+        "1816 : Naufrage tragique de la frégate royale La Méduse au large des côtes de Mauritanie.",
+        "1819 : Présentation événementielle du Radeau de la Méduse au Salon de Paris sous Louis XVIII.",
+        "1821 : Mort de Napoléon à Sainte-Hélène ; Géricault expose avec éclat son Radeau à l'Egyptian Hall de Londres.",
+        "1824 : Salon historique de 1824 marquant l'apogée du Romantisme français (Delacroix, Constable) l'année de la mort de Géricault."
+      ]
+    }
+  },
+  {
+    "id": "gericault_cheval_cabre_au_tapis_rouge_rouen_1812",
+    "artistId": "gericault",
+    "artist": "Théodore Géricault",
+    "artistSort": "Géricault Théodore",
+    "civId": "occident",
+    "periodId": "occ_xixe",
+    "civName": "Occident : Romantisme français",
+    "title": "Cheval cabré au tapis de selle rouge",
+    "date": 1812,
+    "dateDisplay": "v. 1812",
+    "century": "XIXe siècle (1812)",
+    "centuryDisplay": "XIXe s. (vers 1812)",
+    "centuryNumeric": 1812,
+    "period": "XIXe siècle",
+    "domain": "peinture",
+    "artifactType": "Peinture à l'huile sur toile",
+    "category": "Peinture à l'huile sur toile",
+    "type": "Peinture à l'huile",
+    "medium": "Huile sur toile",
+    "dimensions": {
+      "h": 45,
+      "w": 37,
+      "display": "45 × 37 cm"
+    },
+    "site": "Musée des Beaux-Arts de Rouen (France)",
+    "originSite": "Atelier de Géricault (Paris)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczOCekQ_U2YTYAyeKGiT-OlWHZ9fMZmAz3Hp5_iCCzoCoZIHqpdVx7NV3ksaPWpGH60dqi5MQn6bqtLvl1lcvSuSHVtUughcr0IDo6yeG92eAirDOu9Em428j31aRqK1BKb2z5T2C9AKd7QCyclqLZNpkw=w1681-h1967-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczOCekQ_U2YTYAyeKGiT-OlWHZ9fMZmAz3Hp5_iCCzoCoZIHqpdVx7NV3ksaPWpGH60dqi5MQn6bqtLvl1lcvSuSHVtUughcr0IDo6yeG92eAirDOu9Em428j31aRqK1BKb2z5T2C9AKd7QCyclqLZNpkw=w1681-h1967-s-no-gm?authuser=0",
+    "tags": [
+      "peinture",
+      "romantisme",
+      "géricault",
+      "cheval",
+      "cabré",
+      "tapis rouge",
+      "rouen"
+    ],
+    "chips": [
+      "XIXe s.",
+      "v. 1812",
+      "Romantisme français",
+      "Fougue équestre",
+      "MBA Rouen"
+    ],
+    "narrative": "<p>L’œuvre intitulée Cheval cabré au tapis de selle rouge, peinte par Théodore Géricault vers 1812, est une étude d'une puissance expressive remarquable conservée au Musée des Beaux-Arts de Rouen. Réalisée durant les années de formation de l'artiste, cette toile illustre sa fascination précoce pour la figure équine, qu'il traite non pas comme un simple sujet naturaliste, mais comme une incarnation de la force vitale et du mouvement pur. Ce tableau préfigure les grandes envolées épiques du romantisme français, où l'animal devient le miroir des passions humaines.</p><p>La description du cheval saisit l'instant précis du cabré, une posture qui exige une connaissance parfaite de l'anatomie et de l'équilibre. L'animal, d'une robe sombre aux reflets changeants, se dresse avec une énergie impétueuse. Géricault souligne la tension des muscles des membres postérieurs et le déploiement nerveux de l'encolure. Le point focal chromatique est constitué par le tapis de selle d'un rouge vibrant, qui apporte une note de chaleur et de noblesse à la composition. Le travail sur la crinière et la queue, peintes avec une touche libre et fougueuse, accentue l'impression de vent et de vitesse, donnant à l'image une dimension quasi dramatique.</p><p>L'espace est traité avec une économie de moyens qui renforce l'impact du sujet. L'arrière-plan, brossé rapidement dans des tonalités de gris et de brun, évoque un ciel d'orage ou un terrain vague, plaçant le cheval dans un environnement sauvage et indéterminé. La lumière, venant de la gauche, frappe de manière sélective le poitrail de l'animal et les plis du tapis rouge, créant un jeu de contrastes qui sculpte la forme et lui donne une présence tridimensionnelle. Géricault évite ici tout détail anecdotique pour se concentrer sur l'essence même de la fougue équine.</p><p>Techniquement, cette œuvre témoigne d'une grande liberté d'exécution. La pâte est riche, posée avec une rapidité qui trahit l'enthousiasme du peintre devant son modèle. Contrairement aux représentations académiques de son temps, Géricault ne cherche pas la finition léchée, mais la vérité du mouvement et l'émotion visuelle. Ce Cheval cabré est une étape cruciale dans son exploration de la force animale, montrant comment il parvient à transformer une étude d'atelier en une œuvre d'art autonome, vibrante de vie et de promesses romantiques. //</p>",
+    "desc": "<p>L’œuvre intitulée Cheval cabré au tapis de selle rouge, peinte par Théodore Géricault vers 1812, est une étude d'une puissance expressive remarquable conservée au Musée des Beaux-Arts de Rouen. Réalisée durant les années de formation de l'artiste, cette toile illustre sa fascination précoce pour la figure équine, qu'il traite non pas comme un simple sujet naturaliste, mais comme une incarnation de la force vitale et du mouvement pur. Ce tableau préfigure les grandes envolées épiques du romantisme français, où l'animal devient le miroir des passions humaines.</p><p>La description du cheval saisit l'instant précis du cabré, une posture qui exige une connaissance parfaite de l'anatomie et de l'équilibre. L'animal, d'une robe sombre aux reflets changeants, se dresse avec une énergie impétueuse. Géricault souligne la tension des muscles des membres postérieurs et le déploiement nerveux de l'encolure. Le point focal chromatique est constitué par le tapis de selle d'un rouge vibrant, qui apporte une note de chaleur et de noblesse à la composition. Le travail sur la crinière et la queue, peintes avec une touche libre et fougueuse, accentue l'impression de vent et de vitesse, donnant à l'image une dimension quasi dramatique.</p><p>L'espace est traité avec une économie de moyens qui renforce l'impact du sujet. L'arrière-plan, brossé rapidement dans des tonalités de gris et de brun, évoque un ciel d'orage ou un terrain vague, plaçant le cheval dans un environnement sauvage et indéterminé. La lumière, venant de la gauche, frappe de manière sélective le poitrail de l'animal et les plis du tapis rouge, créant un jeu de contrastes qui sculpte la forme et lui donne une présence tridimensionnelle. Géricault évite ici tout détail anecdotique pour se concentrer sur l'essence même de la fougue équine.</p><p>Techniquement, cette œuvre témoigne d'une grande liberté d'exécution. La pâte est riche, posée avec une rapidité qui trahit l'enthousiasme du peintre devant son modèle. Contrairement aux représentations académiques de son temps, Géricault ne cherche pas la finition léchée, mais la vérité du mouvement et l'émotion visuelle. Ce Cheval cabré est une étape cruciale dans son exploration de la force animale, montrant comment il parvient à transformer une étude d'atelier en une œuvre d'art autonome, vibrante de vie et de promesses romantiques. //</p>",
+    "contemporaryArt": {
+      "title": "Consulat, Premier Empire & Restauration • Épopée napoléonienne & Romantisme",
+      "events": [
+        "1804 : Sacre de Napoléon Ier empereur des Français par le pape Pie VII à Notre-Dame de Paris.",
+        "1808 : Début de la guerre d'Espagne ; essor du romantisme militaire dans les ateliers parisiens.",
+        "1812 : Campagne de Russie ; triomphe de Géricault au Salon avec l'Officier de chasseurs chargeant.",
+        "1814 – 1815 : Première abdication impériale, Cent-Jours, Waterloo et Restauration des Bourbons.",
+        "1816 : Naufrage tragique de la frégate royale La Méduse au large des côtes de Mauritanie.",
+        "1819 : Présentation événementielle du Radeau de la Méduse au Salon de Paris sous Louis XVIII.",
+        "1821 : Mort de Napoléon à Sainte-Hélène ; Géricault expose avec éclat son Radeau à l'Egyptian Hall de Londres.",
+        "1824 : Salon historique de 1824 marquant l'apogée du Romantisme français (Delacroix, Constable) l'année de la mort de Géricault."
+      ]
+    }
+  },
+  {
+    "id": "gericault_portrait_d_un_carabinier_rouen_1814",
+    "artistId": "gericault",
+    "artist": "Théodore Géricault",
+    "artistSort": "Géricault Théodore",
+    "civId": "occident",
+    "periodId": "occ_xixe",
+    "civName": "Occident : Romantisme français",
+    "title": "Portrait d'un carabinier",
+    "date": 1814,
+    "dateDisplay": "v. 1814",
+    "century": "XIXe siècle (1814)",
+    "centuryDisplay": "XIXe s. (vers 1814)",
+    "centuryNumeric": 1814,
+    "period": "XIXe siècle",
+    "domain": "peinture",
+    "artifactType": "Peinture à l'huile sur toile",
+    "category": "Peinture à l'huile sur toile",
+    "type": "Peinture à l'huile",
+    "medium": "Huile sur toile",
+    "dimensions": {
+      "h": 101,
+      "w": 85,
+      "display": "101 × 85 cm"
+    },
+    "site": "Musée des Beaux-Arts de Rouen (France)",
+    "originSite": "Caserne des Carabiniers / Atelier de Géricault (Paris)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczNf6TYS16RLpXr836P0A7LV9KEqfbRDPM1BI_Ch_zRkiUbxUcaB7w5n9cHSctXGMDgfy_5Llkf0eIdKPGz_AfmoNL0uMMfZ1g5EDmrG15fxClJZ90qQgDnnN8WxbhYNk3IYb_oBMNurWk1Mpqye4eb-fQ=w1681-h1908-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczNf6TYS16RLpXr836P0A7LV9KEqfbRDPM1BI_Ch_zRkiUbxUcaB7w5n9cHSctXGMDgfy_5Llkf0eIdKPGz_AfmoNL0uMMfZ1g5EDmrG15fxClJZ90qQgDnnN8WxbhYNk3IYb_oBMNurWk1Mpqye4eb-fQ=w1681-h1908-s-no-gm?authuser=0",
+    "tags": [
+      "peinture",
+      "romantisme",
+      "géricault",
+      "carabinier",
+      "militaire",
+      "cuirasse",
+      "rouen"
+    ],
+    "chips": [
+      "XIXe s.",
+      "v. 1814",
+      "Romantisme français",
+      "Portrait militaire",
+      "MBA Rouen"
+    ],
+    "narrative": "<p>Cette œuvre, intitulée Portrait d'un carabinier, est une huile sur toile réalisée par Théodore Géricault vers 1814. Peinte au moment de la chute de l'Empire napoléonien, elle témoigne du tournant décisif que l'artiste impose à la peinture militaire. Loin des portraits de généraux héroïsés et victorieux, Géricault choisit ici de représenter un simple soldat, saisissant une dimension plus humaine et mélancolique du métier des armes. Le regard du carabinier, empreint d'une certaine gravité, semble refléter l'incertitude d'une époque marquée par la fin d'une épopée guerrière monumentale.</p><p>La composition met en avant la maîtrise technique de Géricault dans le rendu des matières. Le contraste entre le métal froid de la cuirasse et la texture sombre du manteau de fourrure, jeté sur l'épaule, crée une profondeur visuelle saisissante. Le visage, traité avec une touche vigoureuse et des contrastes de lumière marqués, souligne la psychologie du modèle. L'utilisation d'une palette de couleurs sobres et terreuses renforce l'aspect solennel du portrait, caractéristique du romantisme naissant qui privilégie l'expression de l'âme individuelle sur la gloire collective.</p><p>Conservé au Musée des Beaux-Arts de Rouen, ce portrait illustre parfaitement l'intérêt de Géricault pour le monde équestre et militaire, thèmes qu'il traitera tout au long de sa courte carrière. L'œuvre s'écarte des conventions académiques de l'époque par sa franchise et son refus de l'idéalisation. Elle annonce les recherches futures de l'artiste sur la représentation de la condition humaine, qu'il explorera plus tard avec une intensité sans précédent dans ses portraits de monomanes ou ses scènes de naufrage. //</p>",
+    "desc": "<p>Cette œuvre, intitulée Portrait d'un carabinier, est une huile sur toile réalisée par Théodore Géricault vers 1814. Peinte au moment de la chute de l'Empire napoléonien, elle témoigne du tournant décisif que l'artiste impose à la peinture militaire. Loin des portraits de généraux héroïsés et victorieux, Géricault choisit ici de représenter un simple soldat, saisissant une dimension plus humaine et mélancolique du métier des armes. Le regard du carabinier, empreint d'une certaine gravité, semble refléter l'incertitude d'une époque marquée par la fin d'une épopée guerrière monumentale.</p><p>La composition met en avant la maîtrise technique de Géricault dans le rendu des matières. Le contraste entre le métal froid de la cuirasse et la texture sombre du manteau de fourrure, jeté sur l'épaule, crée une profondeur visuelle saisissante. Le visage, traité avec une touche vigoureuse et des contrastes de lumière marqués, souligne la psychologie du modèle. L'utilisation d'une palette de couleurs sobres et terreuses renforce l'aspect solennel du portrait, caractéristique du romantisme naissant qui privilégie l'expression de l'âme individuelle sur la gloire collective.</p><p>Conservé au Musée des Beaux-Arts de Rouen, ce portrait illustre parfaitement l'intérêt de Géricault pour le monde équestre et militaire, thèmes qu'il traitera tout au long de sa courte carrière. L'œuvre s'écarte des conventions académiques de l'époque par sa franchise et son refus de l'idéalisation. Elle annonce les recherches futures de l'artiste sur la représentation de la condition humaine, qu'il explorera plus tard avec une intensité sans précédent dans ses portraits de monomanes ou ses scènes de naufrage. //</p>",
+    "contemporaryArt": {
+      "title": "Consulat, Premier Empire & Restauration • Épopée napoléonienne & Romantisme",
+      "events": [
+        "1804 : Sacre de Napoléon Ier empereur des Français par le pape Pie VII à Notre-Dame de Paris.",
+        "1808 : Début de la guerre d'Espagne ; essor du romantisme militaire dans les ateliers parisiens.",
+        "1812 : Campagne de Russie ; triomphe de Géricault au Salon avec l'Officier de chasseurs chargeant.",
+        "1814 – 1815 : Première abdication impériale, Cent-Jours, Waterloo et Restauration des Bourbons.",
+        "1816 : Naufrage tragique de la frégate royale La Méduse au large des côtes de Mauritanie.",
+        "1819 : Présentation événementielle du Radeau de la Méduse au Salon de Paris sous Louis XVIII.",
+        "1821 : Mort de Napoléon à Sainte-Hélène ; Géricault expose avec éclat son Radeau à l'Egyptian Hall de Londres.",
+        "1824 : Salon historique de 1824 marquant l'apogée du Romantisme français (Delacroix, Constable) l'année de la mort de Géricault."
+      ]
+    }
+  },
+  {
+    "id": "gericault_cuirassier_blesse_quittant_le_feu_louvre_1814",
+    "artistId": "gericault",
+    "artist": "Théodore Géricault",
+    "artistSort": "Géricault Théodore",
+    "civId": "occident",
+    "periodId": "occ_xixe",
+    "civName": "Occident : Romantisme français",
+    "title": "Cuirassier blessé, quittant le feu",
+    "date": 1814,
+    "dateDisplay": "1814",
+    "century": "XIXe siècle (1814)",
+    "centuryDisplay": "XIXe s. (1814)",
+    "centuryNumeric": 1814,
+    "period": "XIXe siècle",
+    "domain": "peinture",
+    "artifactType": "Peinture à l'huile sur toile",
+    "category": "Peinture à l'huile sur toile",
+    "type": "Peinture à l'huile",
+    "medium": "Huile sur toile",
+    "dimensions": {
+      "h": 358,
+      "w": 294,
+      "display": "358 × 294 cm"
+    },
+    "site": "Musée du Louvre (Paris, France)",
+    "originSite": "Salon de Paris de 1814 (Chute de l'Empire)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczMSHfAtdekNGLuYQcWVOhSPfI8VQfSEaca8qCkKKKlLqQlk9DOeBteQK06ntQqApnl4hjw1NVecS34DCukiG8iJyjDvqjKaVYpbmEKSZk7EV1kKVnO-RZ585PxJLdj8l699m5Q-e4fw-yBHPvabBCq4Gw=w1681-h2009-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczMSHfAtdekNGLuYQcWVOhSPfI8VQfSEaca8qCkKKKlLqQlk9DOeBteQK06ntQqApnl4hjw1NVecS34DCukiG8iJyjDvqjKaVYpbmEKSZk7EV1kKVnO-RZ585PxJLdj8l699m5Q-e4fw-yBHPvabBCq4Gw=w1681-h2009-s-no-gm?authuser=0",
+    "tags": [
+      "peinture",
+      "romantisme",
+      "géricault",
+      "cuirassier",
+      "guerre",
+      "défaite",
+      "louvre"
+    ],
+    "chips": [
+      "XIXe s.",
+      "1814",
+      "Romantisme français",
+      "Drame historique",
+      "Musée du Louvre"
+    ],
+    "narrative": "<p>Peint par Théodore Géricault et exposé au Salon de 1814, ce tableau constitue le pendant thématique et spirituel de l' Officier de chasseurs à cheval présenté deux ans plus tôt. Alors que la première œuvre célébrait l'élan et la gloire des conquêtes napoléoniennes, celle-ci illustre le déclin et la défaite de l'Empire. Géricault capture ici un moment de vulnérabilité : un soldat blessé, contraint de se retirer du champ de bataille, s'appuyant sur son sabre alors qu'il descend une pente avec son cheval.</p><p>La composition est marquée par une inversion du mouvement héroïque. Contrairement à la diagonale ascendante et foudroyante du chasseur, le cuirassier s'inscrit dans une ligne descendante et instable. Le soldat se retourne avec une expression d'inquiétude, voire de crainte, cherchant du regard le danger qu'il laisse derrière lui. Le cheval, d'ordinaire fier compagnon de guerre, semble ici nerveux et solidaire de la détresse de son maître, les yeux écarquillés par le tumulte invisible de la bataille.</p><p>Techniquement, l'œuvre préfigure le romantisme par son traitement dramatique de la lumière et de la matière. La palette est sombre, presque terreuse, dominée par des gris de cendre et des bruns qui évoquent la boue et le chaos de la retraite. La touche est plus lourde et moins fougueuse que dans ses œuvres précédentes, soulignant la fatigue et la gravité du sujet. Le contraste entre l'éclat métallique de la cuirasse et le ciel d'orage renforce la dimension tragique de la scène.</p><p>Ce tableau est une étape cruciale dans la carrière de Géricault, car il humanise le soldat de la Grande Armée, le transformant d'icône de gloire en figure de souffrance universelle. Exposé juste après la première chute de Napoléon, il résonnait alors comme un constat amer sur la fin d'une époque. Entré au Louvre en 1891, il demeure l'une des images les plus poignantes de la solitude du combattant face à la défaite. //</p>",
+    "desc": "<p>Peint par Théodore Géricault et exposé au Salon de 1814, ce tableau constitue le pendant thématique et spirituel de l' Officier de chasseurs à cheval présenté deux ans plus tôt. Alors que la première œuvre célébrait l'élan et la gloire des conquêtes napoléoniennes, celle-ci illustre le déclin et la défaite de l'Empire. Géricault capture ici un moment de vulnérabilité : un soldat blessé, contraint de se retirer du champ de bataille, s'appuyant sur son sabre alors qu'il descend une pente avec son cheval.</p><p>La composition est marquée par une inversion du mouvement héroïque. Contrairement à la diagonale ascendante et foudroyante du chasseur, le cuirassier s'inscrit dans une ligne descendante et instable. Le soldat se retourne avec une expression d'inquiétude, voire de crainte, cherchant du regard le danger qu'il laisse derrière lui. Le cheval, d'ordinaire fier compagnon de guerre, semble ici nerveux et solidaire de la détresse de son maître, les yeux écarquillés par le tumulte invisible de la bataille.</p><p>Techniquement, l'œuvre préfigure le romantisme par son traitement dramatique de la lumière et de la matière. La palette est sombre, presque terreuse, dominée par des gris de cendre et des bruns qui évoquent la boue et le chaos de la retraite. La touche est plus lourde et moins fougueuse que dans ses œuvres précédentes, soulignant la fatigue et la gravité du sujet. Le contraste entre l'éclat métallique de la cuirasse et le ciel d'orage renforce la dimension tragique de la scène.</p><p>Ce tableau est une étape cruciale dans la carrière de Géricault, car il humanise le soldat de la Grande Armée, le transformant d'icône de gloire en figure de souffrance universelle. Exposé juste après la première chute de Napoléon, il résonnait alors comme un constat amer sur la fin d'une époque. Entré au Louvre en 1891, il demeure l'une des images les plus poignantes de la solitude du combattant face à la défaite. //</p>",
+    "contemporaryArt": {
+      "title": "Consulat, Premier Empire & Restauration • Épopée napoléonienne & Romantisme",
+      "events": [
+        "1804 : Sacre de Napoléon Ier empereur des Français par le pape Pie VII à Notre-Dame de Paris.",
+        "1808 : Début de la guerre d'Espagne ; essor du romantisme militaire dans les ateliers parisiens.",
+        "1812 : Campagne de Russie ; triomphe de Géricault au Salon avec l'Officier de chasseurs chargeant.",
+        "1814 – 1815 : Première abdication impériale, Cent-Jours, Waterloo et Restauration des Bourbons.",
+        "1816 : Naufrage tragique de la frégate royale La Méduse au large des côtes de Mauritanie.",
+        "1819 : Présentation événementielle du Radeau de la Méduse au Salon de Paris sous Louis XVIII.",
+        "1821 : Mort de Napoléon à Sainte-Hélène ; Géricault expose avec éclat son Radeau à l'Egyptian Hall de Londres.",
+        "1824 : Salon historique de 1824 marquant l'apogée du Romantisme français (Delacroix, Constable) l'année de la mort de Géricault."
+      ]
+    }
+  },
+  {
+    "id": "gericault_cheval_arrete_par_des_jeunes_gens_rouen_1817",
+    "artistId": "gericault",
+    "artist": "Théodore Géricault",
+    "artistSort": "Géricault Théodore",
+    "civId": "occident",
+    "periodId": "occ_xixe",
+    "civName": "Occident : Romantisme français",
+    "title": "Cheval arrêté par des jeunes gens",
+    "date": 1817,
+    "dateDisplay": "v. 1817",
+    "century": "XIXe siècle (1817)",
+    "centuryDisplay": "XIXe s. (vers 1817)",
+    "centuryNumeric": 1817,
+    "period": "XIXe siècle",
+    "domain": "peinture",
+    "artifactType": "Peinture à l'huile sur toile",
+    "category": "Peinture à l'huile sur toile",
+    "type": "Peinture à l'huile",
+    "medium": "Huile sur toile",
+    "dimensions": {
+      "h": 45,
+      "w": 60,
+      "display": "45 × 60 cm"
+    },
+    "site": "Musée des Beaux-Arts de Rouen (France)",
+    "originSite": "Séjour romain • Corso de Rome (Course des Barberi)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczNKARAflg37XDEVc506Yn5pfc3ERAQMBrcAB3xi3R8qKbSAryEDwmCwVEk_zJh67BwSEW9ncA81kjOL1w4ub2QLJVLpH9pl7Z1numPFuLBTPAs7RHnPKukvyUYyzIEeyCTWaYr_9eTD-XYicsvYquxO7w=w1681-h1256-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczNKARAflg37XDEVc506Yn5pfc3ERAQMBrcAB3xi3R8qKbSAryEDwmCwVEk_zJh67BwSEW9ncA81kjOL1w4ub2QLJVLpH9pl7Z1numPFuLBTPAs7RHnPKukvyUYyzIEeyCTWaYr_9eTD-XYicsvYquxO7w=w1681-h1256-s-no-gm?authuser=0",
+    "tags": [
+      "peinture",
+      "romantisme",
+      "géricault",
+      "cheval",
+      "rome",
+      "barberi",
+      "rouen"
+    ],
+    "chips": [
+      "XIXe s.",
+      "v. 1817",
+      "Romantisme français",
+      "Course des Barberi",
+      "MBA Rouen"
+    ],
+    "narrative": "<p>Cette œuvre, intitulée Cheval arrêté par des jeunes gens, a été réalisée par Théodore Géricault vers 1817. Conservée au Musée des Beaux-Arts de Rouen, elle illustre une thématique centrale dans la carrière de l'artiste : la lutte primale entre l'homme et l'animal. Cette peinture s'inscrit dans le sillage de son séjour en Italie, où il fut profondément marqué par les œuvres de Michel-Ange et par le spectacle des courses de chevaux barbes durant le carnaval de Rome. Géricault délaisse ici les sujets purement académiques pour explorer une forme de classicisme vigoureux et tourmenté, prémices de son engagement total dans le romantisme.</p><p>La composition est d'une grande force dramatique, organisée autour de la masse imposante du cheval blanc et tacheté qui tente de s'échapper. Quatre jeunes gens, aux corps athlétiques rappelant la statuaire antique, s'emploient à maîtriser la bête dans un mouvement de tension circulaire. Le contraste entre la blancheur lumineuse de la robe du cheval et les tons ocres des carnations humaines accentue l'intensité de l'effort. L'utilisation d'une ligne d'horizon basse permet de détacher les figures sur un ciel nuageux, conférant à cette scène de rue une dimension héroïque et intemporelle, presque mythologique.</p><p>Le traitement pictural révèle une évolution majeure dans la technique de Géricault. La touche se fait plus grasse, plus libre, et l'attention portée au rendu des muscles, tant humains qu'équins, témoigne de ses recherches incessantes sur l'anatomie en mouvement. Contrairement à la raideur parfois observée dans ses œuvres de jeunesse, cette toile de 1817 vibre d'une énergie organique. L'artiste parvient à capturer l'instant précis où la force sauvage de l'animal rencontre la volonté humaine, faisant de cette œuvre une métaphore de la maîtrise des passions, sujet cher au courant romantique naissant. //</p>",
+    "desc": "<p>Cette œuvre, intitulée Cheval arrêté par des jeunes gens, a été réalisée par Théodore Géricault vers 1817. Conservée au Musée des Beaux-Arts de Rouen, elle illustre une thématique centrale dans la carrière de l'artiste : la lutte primale entre l'homme et l'animal. Cette peinture s'inscrit dans le sillage de son séjour en Italie, où il fut profondément marqué par les œuvres de Michel-Ange et par le spectacle des courses de chevaux barbes durant le carnaval de Rome. Géricault délaisse ici les sujets purement académiques pour explorer une forme de classicisme vigoureux et tourmenté, prémices de son engagement total dans le romantisme.</p><p>La composition est d'une grande force dramatique, organisée autour de la masse imposante du cheval blanc et tacheté qui tente de s'échapper. Quatre jeunes gens, aux corps athlétiques rappelant la statuaire antique, s'emploient à maîtriser la bête dans un mouvement de tension circulaire. Le contraste entre la blancheur lumineuse de la robe du cheval et les tons ocres des carnations humaines accentue l'intensité de l'effort. L'utilisation d'une ligne d'horizon basse permet de détacher les figures sur un ciel nuageux, conférant à cette scène de rue une dimension héroïque et intemporelle, presque mythologique.</p><p>Le traitement pictural révèle une évolution majeure dans la technique de Géricault. La touche se fait plus grasse, plus libre, et l'attention portée au rendu des muscles, tant humains qu'équins, témoigne de ses recherches incessantes sur l'anatomie en mouvement. Contrairement à la raideur parfois observée dans ses œuvres de jeunesse, cette toile de 1817 vibre d'une énergie organique. L'artiste parvient à capturer l'instant précis où la force sauvage de l'animal rencontre la volonté humaine, faisant de cette œuvre une métaphore de la maîtrise des passions, sujet cher au courant romantique naissant. //</p>",
+    "contemporaryArt": {
+      "title": "Consulat, Premier Empire & Restauration • Épopée napoléonienne & Romantisme",
+      "events": [
+        "1804 : Sacre de Napoléon Ier empereur des Français par le pape Pie VII à Notre-Dame de Paris.",
+        "1808 : Début de la guerre d'Espagne ; essor du romantisme militaire dans les ateliers parisiens.",
+        "1812 : Campagne de Russie ; triomphe de Géricault au Salon avec l'Officier de chasseurs chargeant.",
+        "1814 – 1815 : Première abdication impériale, Cent-Jours, Waterloo et Restauration des Bourbons.",
+        "1816 : Naufrage tragique de la frégate royale La Méduse au large des côtes de Mauritanie.",
+        "1819 : Présentation événementielle du Radeau de la Méduse au Salon de Paris sous Louis XVIII.",
+        "1821 : Mort de Napoléon à Sainte-Hélène ; Géricault expose avec éclat son Radeau à l'Egyptian Hall de Londres.",
+        "1824 : Salon historique de 1824 marquant l'apogée du Romantisme français (Delacroix, Constable) l'année de la mort de Géricault."
+      ]
+    }
+  },
+  {
+    "id": "gericault_etude_de_pieds_et_de_mains_montpellier_1817",
+    "artistId": "gericault",
+    "artist": "Théodore Géricault",
+    "artistSort": "Géricault Théodore",
+    "civId": "occident",
+    "periodId": "occ_xixe",
+    "civName": "Occident : Romantisme français",
+    "title": "Étude de pieds et de mains",
+    "date": 1817,
+    "dateDisplay": "1817–1819",
+    "century": "XIXe siècle (1817-1819)",
+    "centuryDisplay": "XIXe s. (1817–1819)",
+    "centuryNumeric": 1817,
+    "period": "XIXe siècle",
+    "domain": "peinture",
+    "artifactType": "Peinture à l'huile sur toile",
+    "category": "Peinture à l'huile sur toile",
+    "type": "Peinture à l'huile",
+    "medium": "Huile sur toile",
+    "dimensions": {
+      "h": 52,
+      "w": 64,
+      "display": "52 × 64 cm"
+    },
+    "site": "Musée Fabre (Montpellier, France)",
+    "originSite": "Hôpital Beaujon / Atelier de la rue du Faubourg-du-Roule (Paris)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczO0gs3C4VMmnySIPg5AuGYgKT67Yjs9_q7A23dOxepfI3bJ4IWvAmygyvTKNKwmIYlmYU4iHNLox86S9c7wUvKIcqsnQovhvvqDHbBY8mERiUAFIiSP7-KkS6FMisqQiDwZ-pglYSZ_TbFZTRPlxO5Dcg=w1681-h1121-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczO0gs3C4VMmnySIPg5AuGYgKT67Yjs9_q7A23dOxepfI3bJ4IWvAmygyvTKNKwmIYlmYU4iHNLox86S9c7wUvKIcqsnQovhvvqDHbBY8mERiUAFIiSP7-KkS6FMisqQiDwZ-pglYSZ_TbFZTRPlxO5Dcg=w1681-h1121-s-no-gm?authuser=0",
+    "tags": [
+      "peinture",
+      "romantisme",
+      "géricault",
+      "anatomie",
+      "mains",
+      "pieds",
+      "montpellier"
+    ],
+    "chips": [
+      "XIXe s.",
+      "1817-1819",
+      "Romantisme français",
+      "Anatomie & Réalisme",
+      "Musée Fabre"
+    ],
+    "narrative": "<p>Cette œuvre saisissante, intitulée Étude de pieds et de mains, est une huile sur toile réalisée entre 1817 et 1819 par Théodore Géricault. Conservée au Musée Fabre de Montpellier, elle constitue l'un des témoignages les plus radicaux et fascinants de la préparation de son chef-d'œuvre, Le Radeau de la Méduse. Géricault s'éloigne ici radicalement des conventions académiques pour explorer une vérité anatomique crue, presque insoutenable, s'inscrivant dans une démarche pré-réaliste où la mort est traitée sans artifice ni idéalisation.</p><p>La composition présente un entrelacement de membres sectionnés — deux mains et deux pieds — disposés de manière compacte sur un fond sombre et indéterminé. Ce regroupement forcé crée une forme de nature morte macabre où l'humanité est réduite à sa matérialité organique. L'artiste utilise un éclairage latéral dramatique qui sculpte les muscles, les tendons et les articulations avec une précision chirurgicale. Les mains, aux doigts légèrement recroquevillés, et les pieds, dont les plantes sont tournées vers le spectateur, conservent une tension post-mortem qui confère à l'image une force de présence troublante.</p><p>La technique de Géricault se distingue par une touche énergique et une palette chromatique de tons rompus : des ocres jaunâtres, des bruns terreux et des nuances livides qui évoquent la décomposition de la chair. Le contraste entre les zones lumineuses, presque brillantes, et les ombres profondes souligne la rigidité cadavérique. Un fragment de linge blanc taché de sang à droite vient renforcer le caractère tragique et médical de l'étude. Cette recherche obsessionnelle de la «vérité du cadavre« n'est pas seulement technique ; elle reflète l'intérêt de l'époque pour les sciences médicales et la volonté de l'artiste de traduire la souffrance physique absolue.</p><p>Historiquement, cette étude illustre le passage du néoclassicisme au romantisme noir. Pour peindre ces membres, Géricault s'est fait livrer des restes humains provenant de l'hôpital Beaujon dans son atelier, vivant au quotidien avec l'odeur et la vue de la mort pour mieux en saisir l'essence. En isolant ces membres de tout contexte narratif, il parvient à créer une œuvre d'une modernité frappante, où l'esthétique du fragment préfigure les recherches artistiques du XXe siècle sur le corps et sa déconstruction. //</p>",
+    "desc": "<p>Cette œuvre saisissante, intitulée Étude de pieds et de mains, est une huile sur toile réalisée entre 1817 et 1819 par Théodore Géricault. Conservée au Musée Fabre de Montpellier, elle constitue l'un des témoignages les plus radicaux et fascinants de la préparation de son chef-d'œuvre, Le Radeau de la Méduse. Géricault s'éloigne ici radicalement des conventions académiques pour explorer une vérité anatomique crue, presque insoutenable, s'inscrivant dans une démarche pré-réaliste où la mort est traitée sans artifice ni idéalisation.</p><p>La composition présente un entrelacement de membres sectionnés — deux mains et deux pieds — disposés de manière compacte sur un fond sombre et indéterminé. Ce regroupement forcé crée une forme de nature morte macabre où l'humanité est réduite à sa matérialité organique. L'artiste utilise un éclairage latéral dramatique qui sculpte les muscles, les tendons et les articulations avec une précision chirurgicale. Les mains, aux doigts légèrement recroquevillés, et les pieds, dont les plantes sont tournées vers le spectateur, conservent une tension post-mortem qui confère à l'image une force de présence troublante.</p><p>La technique de Géricault se distingue par une touche énergique et une palette chromatique de tons rompus : des ocres jaunâtres, des bruns terreux et des nuances livides qui évoquent la décomposition de la chair. Le contraste entre les zones lumineuses, presque brillantes, et les ombres profondes souligne la rigidité cadavérique. Un fragment de linge blanc taché de sang à droite vient renforcer le caractère tragique et médical de l'étude. Cette recherche obsessionnelle de la «vérité du cadavre« n'est pas seulement technique ; elle reflète l'intérêt de l'époque pour les sciences médicales et la volonté de l'artiste de traduire la souffrance physique absolue.</p><p>Historiquement, cette étude illustre le passage du néoclassicisme au romantisme noir. Pour peindre ces membres, Géricault s'est fait livrer des restes humains provenant de l'hôpital Beaujon dans son atelier, vivant au quotidien avec l'odeur et la vue de la mort pour mieux en saisir l'essence. En isolant ces membres de tout contexte narratif, il parvient à créer une œuvre d'une modernité frappante, où l'esthétique du fragment préfigure les recherches artistiques du XXe siècle sur le corps et sa déconstruction. //</p>",
+    "contemporaryArt": {
+      "title": "Consulat, Premier Empire & Restauration • Épopée napoléonienne & Romantisme",
+      "events": [
+        "1804 : Sacre de Napoléon Ier empereur des Français par le pape Pie VII à Notre-Dame de Paris.",
+        "1808 : Début de la guerre d'Espagne ; essor du romantisme militaire dans les ateliers parisiens.",
+        "1812 : Campagne de Russie ; triomphe de Géricault au Salon avec l'Officier de chasseurs chargeant.",
+        "1814 – 1815 : Première abdication impériale, Cent-Jours, Waterloo et Restauration des Bourbons.",
+        "1816 : Naufrage tragique de la frégate royale La Méduse au large des côtes de Mauritanie.",
+        "1819 : Présentation événementielle du Radeau de la Méduse au Salon de Paris sous Louis XVIII.",
+        "1821 : Mort de Napoléon à Sainte-Hélène ; Géricault expose avec éclat son Radeau à l'Egyptian Hall de Londres.",
+        "1824 : Salon historique de 1824 marquant l'apogée du Romantisme français (Delacroix, Constable) l'année de la mort de Géricault."
+      ]
+    }
+  },
+  {
+    "id": "gericault_etude_de_bras_et_de_jambes_rouen_1818",
+    "artistId": "gericault",
+    "artist": "Théodore Géricault",
+    "artistSort": "Géricault Théodore",
+    "civId": "occident",
+    "periodId": "occ_xixe",
+    "civName": "Occident : Romantisme français",
+    "title": "Étude de bras et de jambes, peinte à la lumière de la lampe (pour le Radeau de la Méduse)",
+    "date": 1818,
+    "dateDisplay": "1818",
+    "century": "XIXe siècle (1818)",
+    "centuryDisplay": "XIXe s. (1818)",
+    "centuryNumeric": 1818,
+    "period": "XIXe siècle",
+    "domain": "peinture",
+    "artifactType": "Peinture à l'huile sur toile",
+    "category": "Peinture à l'huile sur toile",
+    "type": "Peinture à l'huile",
+    "medium": "Huile sur toile",
+    "dimensions": {
+      "h": 48,
+      "w": 60,
+      "display": "48 × 60 cm"
+    },
+    "site": "Musée des Beaux-Arts de Rouen (France)",
+    "originSite": "Atelier du Roule (Paris)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczOhyNtEWVTTKxi6ypQzVgDSpTZwP0bRIBt4jOzH-QWuocQ7THvAuOAbxzwohHdfJqSADcYFuKWMHBtNVGoN03uJQSg2Xnki7TJiD6ZI_DOQaHzP0QnoFMM9Khy01cGcX9Ww-gIU9hkT2WGJ0TYR2CwPuQ=w1681-h1415-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczOhyNtEWVTTKxi6ypQzVgDSpTZwP0bRIBt4jOzH-QWuocQ7THvAuOAbxzwohHdfJqSADcYFuKWMHBtNVGoN03uJQSg2Xnki7TJiD6ZI_DOQaHzP0QnoFMM9Khy01cGcX9Ww-gIU9hkT2WGJ0TYR2CwPuQ=w1681-h1415-s-no-gm?authuser=0",
+    "tags": [
+      "peinture",
+      "romantisme",
+      "géricault",
+      "bras",
+      "jambes",
+      "méduse",
+      "rouen"
+    ],
+    "chips": [
+      "XIXe s.",
+      "1818",
+      "Romantisme français",
+      "Étude préparatoire",
+      "MBA Rouen"
+    ],
+    "narrative": "<p>Cette huile sur toile, intitulée Étude de bras et de jambes, a été réalisée par Théodore Géricault en 1818. Elle constitue l'un des témoignages les plus fascinants et les plus crus de la préparation obsessionnelle du peintre pour son chef-d'œuvre, Le Radeau de la Méduse. Pour traduire l'horreur du naufrage avec une vérité absolue, Géricault s'est livré à une étude quasi scientifique de la décomposition et de la mort, allant jusqu'à ramener des fragments de corps humains dans son atelier pour en observer les nuances chromatiques et les tensions musculaires.</p><p>La composition se concentre sur l'enchevêtrement de membres sectionnés, baignés dans une lumière artificielle qui accentue le relief et la morbidité de la scène. L'artiste utilise une touche grasse et des contrastes de clair-obscur violents pour rendre la texture de la peau et la raideur des muscles. Cette approche, qualifiée de « peinte à la lumière de la lampe », confère aux membres une présence physique presque insoutenable, transformant des fragments anatomiques en objets d'étude esthétique et tragique. Loin d'être une simple esquisse technique, cette œuvre dégage une puissance expressive qui préfigure le réalisme moderne.</p><p>Conservée au Musée des Beaux-Arts de Rouen, cette étude illustre la rupture radicale de Géricault avec l'idéalisme néoclassique. En plaçant la réalité brute de la chair au centre de son art, il explore les limites de la représentation du corps humain et de sa finitude. Cette toile occupe une place cruciale dans l'histoire de l'art romantique, car elle montre comment l'observation directe de la mort est devenue, pour Géricault, le moyen ultime de susciter l'émotion et de dénoncer l'indifférence politique et humaine face au drame de la Méduse. //</p>",
+    "desc": "<p>Cette huile sur toile, intitulée Étude de bras et de jambes, a été réalisée par Théodore Géricault en 1818. Elle constitue l'un des témoignages les plus fascinants et les plus crus de la préparation obsessionnelle du peintre pour son chef-d'œuvre, Le Radeau de la Méduse. Pour traduire l'horreur du naufrage avec une vérité absolue, Géricault s'est livré à une étude quasi scientifique de la décomposition et de la mort, allant jusqu'à ramener des fragments de corps humains dans son atelier pour en observer les nuances chromatiques et les tensions musculaires.</p><p>La composition se concentre sur l'enchevêtrement de membres sectionnés, baignés dans une lumière artificielle qui accentue le relief et la morbidité de la scène. L'artiste utilise une touche grasse et des contrastes de clair-obscur violents pour rendre la texture de la peau et la raideur des muscles. Cette approche, qualifiée de « peinte à la lumière de la lampe », confère aux membres une présence physique presque insoutenable, transformant des fragments anatomiques en objets d'étude esthétique et tragique. Loin d'être une simple esquisse technique, cette œuvre dégage une puissance expressive qui préfigure le réalisme moderne.</p><p>Conservée au Musée des Beaux-Arts de Rouen, cette étude illustre la rupture radicale de Géricault avec l'idéalisme néoclassique. En plaçant la réalité brute de la chair au centre de son art, il explore les limites de la représentation du corps humain et de sa finitude. Cette toile occupe une place cruciale dans l'histoire de l'art romantique, car elle montre comment l'observation directe de la mort est devenue, pour Géricault, le moyen ultime de susciter l'émotion et de dénoncer l'indifférence politique et humaine face au drame de la Méduse. //</p>",
+    "contemporaryArt": {
+      "title": "Consulat, Premier Empire & Restauration • Épopée napoléonienne & Romantisme",
+      "events": [
+        "1804 : Sacre de Napoléon Ier empereur des Français par le pape Pie VII à Notre-Dame de Paris.",
+        "1808 : Début de la guerre d'Espagne ; essor du romantisme militaire dans les ateliers parisiens.",
+        "1812 : Campagne de Russie ; triomphe de Géricault au Salon avec l'Officier de chasseurs chargeant.",
+        "1814 – 1815 : Première abdication impériale, Cent-Jours, Waterloo et Restauration des Bourbons.",
+        "1816 : Naufrage tragique de la frégate royale La Méduse au large des côtes de Mauritanie.",
+        "1819 : Présentation événementielle du Radeau de la Méduse au Salon de Paris sous Louis XVIII.",
+        "1821 : Mort de Napoléon à Sainte-Hélène ; Géricault expose avec éclat son Radeau à l'Egyptian Hall de Londres.",
+        "1824 : Salon historique de 1824 marquant l'apogée du Romantisme français (Delacroix, Constable) l'année de la mort de Géricault."
+      ]
+    }
+  },
+  {
+    "id": "gericault_tete_d_un_jeune_homme_mort_rouen_1818",
+    "artistId": "gericault",
+    "artist": "Théodore Géricault",
+    "artistSort": "Géricault Théodore",
+    "civId": "occident",
+    "periodId": "occ_xixe",
+    "civName": "Occident : Romantisme français",
+    "title": "Tête d'un jeune homme mort",
+    "date": 1818,
+    "dateDisplay": "v. 1818",
+    "century": "XIXe siècle (1818)",
+    "centuryDisplay": "XIXe s. (vers 1818)",
+    "centuryNumeric": 1818,
+    "period": "XIXe siècle",
+    "domain": "peinture",
+    "artifactType": "Peinture à l'huile sur toile",
+    "category": "Peinture à l'huile sur toile",
+    "type": "Peinture à l'huile",
+    "medium": "Huile sur toile",
+    "dimensions": {
+      "h": 32,
+      "w": 24,
+      "display": "32 × 24 cm"
+    },
+    "site": "Musée des Beaux-Arts de Rouen (France)",
+    "originSite": "Hôpital Beaujon / Atelier du Roule (Paris)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczMvsLFkmMm5HwfvCN8_i4omS4b5iZrjl7pgjGgRVYRVLnYCzFPfbt9ocsNEcs2nUBXlvt3-v9RFmUz7xJ1kKPnecwLPWF3a_ezPB5yHCl3b760LCfAghUh2UGyFxb2K-ktEWyTCDYMSjAJBhaoWeDw5mA=w1681-h1771-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczMvsLFkmMm5HwfvCN8_i4omS4b5iZrjl7pgjGgRVYRVLnYCzFPfbt9ocsNEcs2nUBXlvt3-v9RFmUz7xJ1kKPnecwLPWF3a_ezPB5yHCl3b760LCfAghUh2UGyFxb2K-ktEWyTCDYMSjAJBhaoWeDw5mA=w1681-h1771-s-no-gm?authuser=0",
+    "tags": [
+      "peinture",
+      "romantisme",
+      "géricault",
+      "tête",
+      "mort",
+      "méduse",
+      "rouen"
+    ],
+    "chips": [
+      "XIXe s.",
+      "v. 1818",
+      "Romantisme français",
+      "Étude cadavérique",
+      "MBA Rouen"
+    ],
+    "narrative": "<p>Cette huile sur toile, intitulée Tête d'un jeune homme mort, est une œuvre de Théodore Géricault réalisée vers 1818. Elle appartient à la série d'études anatomiques rigoureuses menées par l'artiste dans le cadre de la préparation de son œuvre majeure, Le Radeau de la Méduse. Pour ce projet, Géricault a transformé son atelier en une sorte de morgue, étudiant de près les effets de la mort et de la décomposition sur les traits humains afin de retranscrire la tragédie des naufragés avec une exactitude troublante.</p><p>L'œuvre se concentre sur le visage d'un défunt, saisi dans une immobilité radicale. La composition, serrée sur le buste et la tête, accentue le silence et la solennité de l'instant. L'artiste utilise des tons livides et des ombres profondes pour modeler les volumes du visage, rendant avec une précision clinique le relâchement des muscles et la pâleur de la peau. Le contraste entre le sujet macabre et la beauté technique de la touche picturale crée une tension caractéristique du romantisme, où le sublime se mêle à l'horrible.</p><p>Conservé au Musée des Beaux-Arts de Rouen, ce portrait témoigne de l'engagement total de Géricault dans sa quête de vérité. Au-delà de l'exercice technique, cette étude possède une force émotionnelle qui dépasse le simple cadre documentaire. Elle interroge le spectateur sur la fragilité de l'existence et la réalité physique de la finitude. En isolant ainsi cette tête, Géricault confère au sujet anonyme une dimension universelle, faisant de cette dépouille un symbole de la condition humaine face au destin. //</p>",
+    "desc": "<p>Cette huile sur toile, intitulée Tête d'un jeune homme mort, est une œuvre de Théodore Géricault réalisée vers 1818. Elle appartient à la série d'études anatomiques rigoureuses menées par l'artiste dans le cadre de la préparation de son œuvre majeure, Le Radeau de la Méduse. Pour ce projet, Géricault a transformé son atelier en une sorte de morgue, étudiant de près les effets de la mort et de la décomposition sur les traits humains afin de retranscrire la tragédie des naufragés avec une exactitude troublante.</p><p>L'œuvre se concentre sur le visage d'un défunt, saisi dans une immobilité radicale. La composition, serrée sur le buste et la tête, accentue le silence et la solennité de l'instant. L'artiste utilise des tons livides et des ombres profondes pour modeler les volumes du visage, rendant avec une précision clinique le relâchement des muscles et la pâleur de la peau. Le contraste entre le sujet macabre et la beauté technique de la touche picturale crée une tension caractéristique du romantisme, où le sublime se mêle à l'horrible.</p><p>Conservé au Musée des Beaux-Arts de Rouen, ce portrait témoigne de l'engagement total de Géricault dans sa quête de vérité. Au-delà de l'exercice technique, cette étude possède une force émotionnelle qui dépasse le simple cadre documentaire. Elle interroge le spectateur sur la fragilité de l'existence et la réalité physique de la finitude. En isolant ainsi cette tête, Géricault confère au sujet anonyme une dimension universelle, faisant de cette dépouille un symbole de la condition humaine face au destin. //</p>",
+    "contemporaryArt": {
+      "title": "Consulat, Premier Empire & Restauration • Épopée napoléonienne & Romantisme",
+      "events": [
+        "1804 : Sacre de Napoléon Ier empereur des Français par le pape Pie VII à Notre-Dame de Paris.",
+        "1808 : Début de la guerre d'Espagne ; essor du romantisme militaire dans les ateliers parisiens.",
+        "1812 : Campagne de Russie ; triomphe de Géricault au Salon avec l'Officier de chasseurs chargeant.",
+        "1814 – 1815 : Première abdication impériale, Cent-Jours, Waterloo et Restauration des Bourbons.",
+        "1816 : Naufrage tragique de la frégate royale La Méduse au large des côtes de Mauritanie.",
+        "1819 : Présentation événementielle du Radeau de la Méduse au Salon de Paris sous Louis XVIII.",
+        "1821 : Mort de Napoléon à Sainte-Hélène ; Géricault expose avec éclat son Radeau à l'Egyptian Hall de Londres.",
+        "1824 : Salon historique de 1824 marquant l'apogée du Romantisme français (Delacroix, Constable) l'année de la mort de Géricault."
+      ]
+    }
+  },
+  {
+    "id": "gericault_portrait_le_charpentier_de_la_meduse_rouen_1818",
+    "artistId": "gericault",
+    "artist": "Théodore Géricault",
+    "artistSort": "Géricault Théodore",
+    "civId": "occident",
+    "periodId": "occ_xixe",
+    "civName": "Occident : Romantisme français",
+    "title": "Portrait d'homme en buste, dit Le charpentier de la Méduse",
+    "date": 1818,
+    "dateDisplay": "v. 1818",
+    "century": "XIXe siècle (1818)",
+    "centuryDisplay": "XIXe s. (vers 1818)",
+    "centuryNumeric": 1818,
+    "period": "XIXe siècle",
+    "domain": "peinture",
+    "artifactType": "Peinture à l'huile sur toile",
+    "category": "Peinture à l'huile sur toile",
+    "type": "Peinture à l'huile",
+    "medium": "Huile sur toile",
+    "dimensions": {
+      "h": 46.5,
+      "w": 38,
+      "display": "46,5 × 38 cm"
+    },
+    "site": "Musée des Beaux-Arts de Rouen (France)",
+    "originSite": "Atelier du Roule (Paris)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczMqGoKd8Nr1ky9kxaXisSLhZxPQG5sbrlXtQibnReLtmbVSK1Do4kaTjy77zAE7uR-Gq91hpzgeLtt491HxsxIAh6LmmQ8qt3csmZvZyTpGJ9sx4m4MWWVv4WFWcbc3-EBNxzJjjQt-Hcg1LrqefPGArQ=w1681-h2007-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczMqGoKd8Nr1ky9kxaXisSLhZxPQG5sbrlXtQibnReLtmbVSK1Do4kaTjy77zAE7uR-Gq91hpzgeLtt491HxsxIAh6LmmQ8qt3csmZvZyTpGJ9sx4m4MWWVv4WFWcbc3-EBNxzJjjQt-Hcg1LrqefPGArQ=w1681-h2007-s-no-gm?authuser=0",
+    "tags": [
+      "peinture",
+      "romantisme",
+      "géricault",
+      "charpentier",
+      "méduse",
+      "survivant",
+      "rouen"
+    ],
+    "chips": [
+      "XIXe s.",
+      "v. 1818",
+      "Romantisme français",
+      "Portrait psychologique",
+      "MBA Rouen"
+    ],
+    "narrative": "<p>Ce tableau, intitulé Portrait d'homme en buste, est une huile sur toile de Théodore Géricault peinte vers 1818. Il est traditionnellement identifié comme le portrait du charpentier de la Méduse, l'un des rares survivants du célèbre naufrage de la frégate française survenu en 1816. Cette œuvre s'inscrit directement dans la phase préparatoire monumentale de l'artiste pour son chef-d'œuvre, Le Radeau de la Méduse. Géricault a multiplié ces études d'après nature pour insuffler une vérité psychologique et physique poignante à sa composition finale.</p><p>L'artiste privilégie ici une approche d'un réalisme saisissant, loin des portraits mondains de son époque. Le visage de l'homme, marqué par l'épreuve, est traité avec une touche large et généreuse qui souligne les volumes et la texture de la peau. Le regard perdu, dirigé vers l'extérieur du cadre, semble habité par le traumatisme et la fatigue, conférant au modèle une dignité héroïque et tragique. La palette, dominée par des tons chauds et sombres, ainsi que l'utilisation d'un éclairage dramatique, renforcent cette atmosphère de recueillement et de gravité.</p><p>Conservée au Musée des Beaux-Arts de Rouen, cette toile illustre la méthode de travail rigoureuse de Géricault, qui cherchait à documenter la souffrance humaine avec une précision presque scientifique tout en conservant une ferveur romantique. Au-delà de sa fonction d'étude, le portrait s'impose comme une œuvre autonome puissante. Il témoigne de l'empathie profonde du peintre pour ses contemporains et de sa volonté de faire de l'individu anonyme, victime de l'histoire, le sujet central de la grande peinture. //</p>",
+    "desc": "<p>Ce tableau, intitulé Portrait d'homme en buste, est une huile sur toile de Théodore Géricault peinte vers 1818. Il est traditionnellement identifié comme le portrait du charpentier de la Méduse, l'un des rares survivants du célèbre naufrage de la frégate française survenu en 1816. Cette œuvre s'inscrit directement dans la phase préparatoire monumentale de l'artiste pour son chef-d'œuvre, Le Radeau de la Méduse. Géricault a multiplié ces études d'après nature pour insuffler une vérité psychologique et physique poignante à sa composition finale.</p><p>L'artiste privilégie ici une approche d'un réalisme saisissant, loin des portraits mondains de son époque. Le visage de l'homme, marqué par l'épreuve, est traité avec une touche large et généreuse qui souligne les volumes et la texture de la peau. Le regard perdu, dirigé vers l'extérieur du cadre, semble habité par le traumatisme et la fatigue, conférant au modèle une dignité héroïque et tragique. La palette, dominée par des tons chauds et sombres, ainsi que l'utilisation d'un éclairage dramatique, renforcent cette atmosphère de recueillement et de gravité.</p><p>Conservée au Musée des Beaux-Arts de Rouen, cette toile illustre la méthode de travail rigoureuse de Géricault, qui cherchait à documenter la souffrance humaine avec une précision presque scientifique tout en conservant une ferveur romantique. Au-delà de sa fonction d'étude, le portrait s'impose comme une œuvre autonome puissante. Il témoigne de l'empathie profonde du peintre pour ses contemporains et de sa volonté de faire de l'individu anonyme, victime de l'histoire, le sujet central de la grande peinture. //</p>",
+    "contemporaryArt": {
+      "title": "Consulat, Premier Empire & Restauration • Épopée napoléonienne & Romantisme",
+      "events": [
+        "1804 : Sacre de Napoléon Ier empereur des Français par le pape Pie VII à Notre-Dame de Paris.",
+        "1808 : Début de la guerre d'Espagne ; essor du romantisme militaire dans les ateliers parisiens.",
+        "1812 : Campagne de Russie ; triomphe de Géricault au Salon avec l'Officier de chasseurs chargeant.",
+        "1814 – 1815 : Première abdication impériale, Cent-Jours, Waterloo et Restauration des Bourbons.",
+        "1816 : Naufrage tragique de la frégate royale La Méduse au large des côtes de Mauritanie.",
+        "1819 : Présentation événementielle du Radeau de la Méduse au Salon de Paris sous Louis XVIII.",
+        "1821 : Mort de Napoléon à Sainte-Hélène ; Géricault expose avec éclat son Radeau à l'Egyptian Hall de Londres.",
+        "1824 : Salon historique de 1824 marquant l'apogée du Romantisme français (Delacroix, Constable) l'année de la mort de Géricault."
+      ]
+    }
+  },
+  {
+    "id": "gericault_le_radeau_de_la_meduse_louvre_1818",
+    "artistId": "gericault",
+    "artist": "Théodore Géricault",
+    "artistSort": "Géricault Théodore",
+    "civId": "occident",
+    "periodId": "occ_xixe",
+    "civName": "Occident : Romantisme français",
+    "title": "Le Radeau de la Méduse",
+    "date": 1819,
+    "dateDisplay": "1818–1819",
+    "century": "XIXe siècle (1818-1819)",
+    "centuryDisplay": "XIXe s. (1818–1819)",
+    "centuryNumeric": 1819,
+    "period": "XIXe siècle",
+    "domain": "peinture",
+    "artifactType": "Peinture à l'huile sur toile",
+    "category": "Peinture à l'huile sur toile",
+    "type": "Peinture à l'huile",
+    "medium": "Huile sur toile",
+    "dimensions": {
+      "h": 491,
+      "w": 716,
+      "display": "491 × 716 cm"
+    },
+    "site": "Musée du Louvre (Paris, France)",
+    "originSite": "Salon de Paris de 1819 (Acquis par le Louvre en 1824)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczOWk9w2xq2vMH-Xr3VBk1m0X45hbv91Tt-Vj602j8nXKPuL_kNBBEODWZtseACLQMtKEVYmUqyrK35NbHL9qJKqzT7uVvhPVNJ5mXEKTUhfplKPZmUCYHAlkZAM4yVcVes-40LXv35IIqSma3JacZ2ZVA=w1681-h1265-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczOWk9w2xq2vMH-Xr3VBk1m0X45hbv91Tt-Vj602j8nXKPuL_kNBBEODWZtseACLQMtKEVYmUqyrK35NbHL9qJKqzT7uVvhPVNJ5mXEKTUhfplKPZmUCYHAlkZAM4yVcVes-40LXv35IIqSma3JacZ2ZVA=w1681-h1265-s-no-gm?authuser=0",
+    "tags": [
+      "peinture",
+      "romantisme",
+      "géricault",
+      "radeau",
+      "méduse",
+      "naufrage",
+      "louvre"
+    ],
+    "chips": [
+      "XIXe s.",
+      "1818-1819",
+      "Romantisme français",
+      "Chef-d'œuvre universel",
+      "Musée du Louvre"
+    ],
+    "narrative": "<p>Présenté au Salon de 1819, ce chef-d'œuvre de Théodore Géricault est l'un des piliers du romantisme français. Il relate un fait divers tragique et scandaleux de l'époque : le naufrage de la frégate La Méduse en 1816. Sur les 147 passagers abandonnés sur un radeau de fortune, seuls 15 survécurent après treize jours d'horreur marqués par la faim, la folie et le cannibalisme. Géricault a mené une enquête quasi journalistique pour réaliser cette œuvre, allant jusqu'à étudier des fragments de corps humains dans son atelier.</p><p>La composition est construite sur deux pyramides de forces opposées. La première, à gauche, est celle du désespoir et de la mort, avec des corps affaissés et un père pleurant son fils. La seconde, à droite, culmine avec la figure d'un homme agitant un chiffon vers l'horizon, symbolisant l'espoir ténu d'être aperçu par le navire L'Argus (un point minuscule à l'horizon). Ce mouvement ascendant, de l'agonie vers le salut, donne au tableau une tension dramatique exceptionnelle.</p><p>Techniquement, Géricault utilise un clair-obscur violent influencé par Caravage, qui accentue le réalisme macabre des chairs livides. La palette est volontairement restreinte à des tons de terre, de brun et de bitume, renforçant l'aspect tragique de la scène. Les dimensions monumentales (environ 5 mètres sur 7) imposent une confrontation physique entre le spectateur et le drame, brisant la distance habituelle de la peinture d'histoire classique.</p><p>L'œuvre fut perçue comme une critique virulente de l'incompétence de la monarchie restaurée (le capitaine étant un émigré protégé par le régime). Au-delà de l'aspect politique, elle reste une méditation universelle sur la survie et la fragilité humaine face aux éléments. Entré au Louvre en 1824, peu après la mort prématurée de l'artiste, le tableau demeure l'un des symboles les plus puissants du génie romantique. //</p>",
+    "desc": "<p>Présenté au Salon de 1819, ce chef-d'œuvre de Théodore Géricault est l'un des piliers du romantisme français. Il relate un fait divers tragique et scandaleux de l'époque : le naufrage de la frégate La Méduse en 1816. Sur les 147 passagers abandonnés sur un radeau de fortune, seuls 15 survécurent après treize jours d'horreur marqués par la faim, la folie et le cannibalisme. Géricault a mené une enquête quasi journalistique pour réaliser cette œuvre, allant jusqu'à étudier des fragments de corps humains dans son atelier.</p><p>La composition est construite sur deux pyramides de forces opposées. La première, à gauche, est celle du désespoir et de la mort, avec des corps affaissés et un père pleurant son fils. La seconde, à droite, culmine avec la figure d'un homme agitant un chiffon vers l'horizon, symbolisant l'espoir ténu d'être aperçu par le navire L'Argus (un point minuscule à l'horizon). Ce mouvement ascendant, de l'agonie vers le salut, donne au tableau une tension dramatique exceptionnelle.</p><p>Techniquement, Géricault utilise un clair-obscur violent influencé par Caravage, qui accentue le réalisme macabre des chairs livides. La palette est volontairement restreinte à des tons de terre, de brun et de bitume, renforçant l'aspect tragique de la scène. Les dimensions monumentales (environ 5 mètres sur 7) imposent une confrontation physique entre le spectateur et le drame, brisant la distance habituelle de la peinture d'histoire classique.</p><p>L'œuvre fut perçue comme une critique virulente de l'incompétence de la monarchie restaurée (le capitaine étant un émigré protégé par le régime). Au-delà de l'aspect politique, elle reste une méditation universelle sur la survie et la fragilité humaine face aux éléments. Entré au Louvre en 1824, peu après la mort prématurée de l'artiste, le tableau demeure l'un des symboles les plus puissants du génie romantique. //</p>",
+    "contemporaryArt": {
+      "title": "Consulat, Premier Empire & Restauration • Épopée napoléonienne & Romantisme",
+      "events": [
+        "1804 : Sacre de Napoléon Ier empereur des Français par le pape Pie VII à Notre-Dame de Paris.",
+        "1808 : Début de la guerre d'Espagne ; essor du romantisme militaire dans les ateliers parisiens.",
+        "1812 : Campagne de Russie ; triomphe de Géricault au Salon avec l'Officier de chasseurs chargeant.",
+        "1814 – 1815 : Première abdication impériale, Cent-Jours, Waterloo et Restauration des Bourbons.",
+        "1816 : Naufrage tragique de la frégate royale La Méduse au large des côtes de Mauritanie.",
+        "1819 : Présentation événementielle du Radeau de la Méduse au Salon de Paris sous Louis XVIII.",
+        "1821 : Mort de Napoléon à Sainte-Hélène ; Géricault expose avec éclat son Radeau à l'Egyptian Hall de Londres.",
+        "1824 : Salon historique de 1824 marquant l'apogée du Romantisme français (Delacroix, Constable) l'année de la mort de Géricault."
+      ]
+    }
+  },
+  {
+    "id": "gericault_deux_leopards_rouen_1820",
+    "artistId": "gericault",
+    "artist": "Théodore Géricault",
+    "artistSort": "Géricault Théodore",
+    "civId": "occident",
+    "periodId": "occ_xixe",
+    "civName": "Occident : Romantisme français",
+    "title": "Deux léopards",
+    "date": 1820,
+    "dateDisplay": "v. 1820",
+    "century": "XIXe siècle (1820)",
+    "centuryDisplay": "XIXe s. (vers 1820)",
+    "centuryNumeric": 1820,
+    "period": "XIXe siècle",
+    "domain": "peinture",
+    "artifactType": "Peinture à l'huile sur toile",
+    "category": "Peinture à l'huile sur toile",
+    "type": "Peinture à l'huile",
+    "medium": "Huile sur toile",
+    "dimensions": {
+      "h": 59,
+      "w": 72.5,
+      "display": "59 × 72,5 cm"
+    },
+    "site": "Musée des Beaux-Arts de Rouen (France)",
+    "originSite": "Ménagerie royale de Londres (Tour de Londres) / Paris",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczMe3mMOWiHbYPhyuAFA9SwGDA0GJfLK1Spga22uIvlCNiMiJGdNsDLEATPNMOMj9nV2mF5PN8Iyko_2Qy8DqsrTZ2q3XIzRWP7w2DZ3oHoCc0U1eEMjhflIW0hBFPcuZIru2CKKepOUWzhzPZfYWcGQ9A=w1681-h1507-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczMe3mMOWiHbYPhyuAFA9SwGDA0GJfLK1Spga22uIvlCNiMiJGdNsDLEATPNMOMj9nV2mF5PN8Iyko_2Qy8DqsrTZ2q3XIzRWP7w2DZ3oHoCc0U1eEMjhflIW0hBFPcuZIru2CKKepOUWzhzPZfYWcGQ9A=w1681-h1507-s-no-gm?authuser=0",
+    "tags": [
+      "peinture",
+      "romantisme",
+      "géricault",
+      "léopards",
+      "fauves",
+      "animaux",
+      "rouen"
+    ],
+    "chips": [
+      "XIXe s.",
+      "v. 1820",
+      "Romantisme français",
+      "Peinture animalière",
+      "MBA Rouen"
+    ],
+    "narrative": "<p>L’œuvre intitulée Deux léopards, peinte par Théodore Géricault vers 1820, est une étude animalière d'une puissance saisissante conservée au Musée des Beaux-Arts de Rouen. Réalisée durant la pleine maturité de l'artiste, après son séjour en Angleterre, cette toile témoigne de son intérêt pour les bêtes sauvages et de sa capacité à insuffler une âme et une tension dramatique à des sujets naturels. Géricault s'éloigne ici de la simple planche d'histoire naturelle pour proposer une véritable scène de vie sauvage, où l'instinct et la force sont palpables.</p><p>La description des félins révèle une observation anatomique d'une précision remarquable. Les deux léopards sont représentés dans un moment de repos vigilant. L'un, au premier plan, est couché, sa tête tournée vers le spectateur avec un regard d'une intensité fixe et presque menaçante. Le second, légèrement en retrait, semble surveiller les environs. Géricault excelle dans le rendu du pelage : les taches sombres se détachent sur une robe ocre-fauve avec une fluidité de touche qui suggère la souplesse et la densité de la fourrure. Les muscles puissants des épaules et des pattes sont perceptibles sous la peau, conférant aux animaux une présence physique monumentale malgré le format restreint de l'étude.</p><p>L'espace est traité de manière minimaliste pour accentuer la silhouette des fauves. L'arrière-plan sombre et terreux évoque l'entrée d'une grotte ou un sous-bois dense, isolant les animaux dans une atmosphère de mystère et de sauvagerie. La lumière, venant d'une source latérale, accroche le relief des corps et fait briller les yeux des félins, renforçant l'impression de vie et de danger. Cette utilisation du clair-obscur, typique de la manière de Géricault, donne à la scène une profondeur psychologique rare dans la peinture animalière de l'époque.</p><p>Techniquement, l'œuvre se caractérise par une pâte riche et une exécution nerveuse. L'artiste utilise des rehauts de peinture plus épaisse pour marquer les zones de lumière, tandis que les ombres sont traitées avec des glacis profonds. On sent dans cette toile l'influence des maîtres baroques que Géricault admirait, mais aussi une modernité dans la manière de considérer l'animal comme un sujet héroïque à part entière. Deux léopards n'est pas seulement une étude de formes et de couleurs ; c'est une exploration de la force indomptée de la nature, capturée par l'un des pinceaux les plus fougueux du romantisme. // </USER_REQUEST> <ADDITIONAL_METADATA> The current local time is: 2026-11-10T21:48:20+01:00.</p><p>The user's current state is as follows: Active Document: /Users/renoult/Desktop/monportailweb/panoramadesarts/app.js (LANGUAGE_UNSPECIFIED) Cursor is on line: 10740 Other open documents: - /Users/renoult/Desktop/monportailweb/panoramadesarts/style.css (LANGUAGE_UNSPECIFIED) - /Users/renoult/Desktop/monportailweb/panoramadesarts/data/data-artistes.js (LANGUAGE_UNSPECIFIED) - /Users/renoult/Desktop/monportailweb/panoramadesarts/data/data-objets2.js (LANGUAGE_UNSPECIFIED) - /Users/renoult/Desktop/monportailweb/panoramadesarts/data/data-objets3.js (LANGUAGE_UNSPECIFIED) - /Users/renoult/Desktop/monportailweb/panoramadesarts/data/data-objets4.js (LANGUAGE_UNSPECIFIED) </ADDITIONAL_METADATA></p>",
+    "desc": "<p>L’œuvre intitulée Deux léopards, peinte par Théodore Géricault vers 1820, est une étude animalière d'une puissance saisissante conservée au Musée des Beaux-Arts de Rouen. Réalisée durant la pleine maturité de l'artiste, après son séjour en Angleterre, cette toile témoigne de son intérêt pour les bêtes sauvages et de sa capacité à insuffler une âme et une tension dramatique à des sujets naturels. Géricault s'éloigne ici de la simple planche d'histoire naturelle pour proposer une véritable scène de vie sauvage, où l'instinct et la force sont palpables.</p><p>La description des félins révèle une observation anatomique d'une précision remarquable. Les deux léopards sont représentés dans un moment de repos vigilant. L'un, au premier plan, est couché, sa tête tournée vers le spectateur avec un regard d'une intensité fixe et presque menaçante. Le second, légèrement en retrait, semble surveiller les environs. Géricault excelle dans le rendu du pelage : les taches sombres se détachent sur une robe ocre-fauve avec une fluidité de touche qui suggère la souplesse et la densité de la fourrure. Les muscles puissants des épaules et des pattes sont perceptibles sous la peau, conférant aux animaux une présence physique monumentale malgré le format restreint de l'étude.</p><p>L'espace est traité de manière minimaliste pour accentuer la silhouette des fauves. L'arrière-plan sombre et terreux évoque l'entrée d'une grotte ou un sous-bois dense, isolant les animaux dans une atmosphère de mystère et de sauvagerie. La lumière, venant d'une source latérale, accroche le relief des corps et fait briller les yeux des félins, renforçant l'impression de vie et de danger. Cette utilisation du clair-obscur, typique de la manière de Géricault, donne à la scène une profondeur psychologique rare dans la peinture animalière de l'époque.</p><p>Techniquement, l'œuvre se caractérise par une pâte riche et une exécution nerveuse. L'artiste utilise des rehauts de peinture plus épaisse pour marquer les zones de lumière, tandis que les ombres sont traitées avec des glacis profonds. On sent dans cette toile l'influence des maîtres baroques que Géricault admirait, mais aussi une modernité dans la manière de considérer l'animal comme un sujet héroïque à part entière. Deux léopards n'est pas seulement une étude de formes et de couleurs ; c'est une exploration de la force indomptée de la nature, capturée par l'un des pinceaux les plus fougueux du romantisme. // </USER_REQUEST> <ADDITIONAL_METADATA> The current local time is: 2026-11-10T21:48:20+01:00.</p><p>The user's current state is as follows: Active Document: /Users/renoult/Desktop/monportailweb/panoramadesarts/app.js (LANGUAGE_UNSPECIFIED) Cursor is on line: 10740 Other open documents: - /Users/renoult/Desktop/monportailweb/panoramadesarts/style.css (LANGUAGE_UNSPECIFIED) - /Users/renoult/Desktop/monportailweb/panoramadesarts/data/data-artistes.js (LANGUAGE_UNSPECIFIED) - /Users/renoult/Desktop/monportailweb/panoramadesarts/data/data-objets2.js (LANGUAGE_UNSPECIFIED) - /Users/renoult/Desktop/monportailweb/panoramadesarts/data/data-objets3.js (LANGUAGE_UNSPECIFIED) - /Users/renoult/Desktop/monportailweb/panoramadesarts/data/data-objets4.js (LANGUAGE_UNSPECIFIED) </ADDITIONAL_METADATA></p>",
+    "contemporaryArt": {
+      "title": "Consulat, Premier Empire & Restauration • Épopée napoléonienne & Romantisme",
+      "events": [
+        "1804 : Sacre de Napoléon Ier empereur des Français par le pape Pie VII à Notre-Dame de Paris.",
+        "1808 : Début de la guerre d'Espagne ; essor du romantisme militaire dans les ateliers parisiens.",
+        "1812 : Campagne de Russie ; triomphe de Géricault au Salon avec l'Officier de chasseurs chargeant.",
+        "1814 – 1815 : Première abdication impériale, Cent-Jours, Waterloo et Restauration des Bourbons.",
+        "1816 : Naufrage tragique de la frégate royale La Méduse au large des côtes de Mauritanie.",
+        "1819 : Présentation événementielle du Radeau de la Méduse au Salon de Paris sous Louis XVIII.",
+        "1821 : Mort de Napoléon à Sainte-Hélène ; Géricault expose avec éclat son Radeau à l'Egyptian Hall de Londres.",
+        "1824 : Salon historique de 1824 marquant l'apogée du Romantisme français (Delacroix, Constable) l'année de la mort de Géricault."
+      ]
+    }
+  },
   
   {
     "id": "gauguin_vase_de_fleurs_a_la_fenetre_rennes_1881",

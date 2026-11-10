@@ -7645,6 +7645,23 @@ function populateModalData(art) {
 }
 
 const CERTIFIED_PAINTING_DIMENSIONS = {
+  // Théodore Géricault (15 œuvres - Louvre, MBA Rouen, Musée Fabre)
+  "gericault_char_antique_rouen_1808": { h: 38, w: 46, display: "38 × 46 cm (Musée des Beaux-Arts de Rouen)" },
+  "gericault_academie_d_homme_rouen_1808": { h: 81, w: 65, display: "81 × 65 cm (Musée des Beaux-Arts de Rouen)" },
+  "gericault_officier_de_chasseurs_chargeant_esquisse_nantes_1812": { h: 52.5, w: 40.5, display: "52,5 × 40,5 cm (Musée d'Arts de Nantes)" },
+  "gericault_officier_de_chasseurs_chargeant_louvre_1812": { h: 349, w: 266, display: "349 × 266 cm (Musée du Louvre)" },
+  "gericault_cheval_arabe_gris_blanc_rouen_1812": { h: 60, w: 73, display: "60 × 73 cm (Musée des Beaux-Arts de Rouen)" },
+  "gericault_cheval_cabre_au_tapis_rouge_rouen_1812": { h: 45, w: 37, display: "45 × 37 cm (Musée des Beaux-Arts de Rouen)" },
+  "gericault_portrait_d_un_carabinier_rouen_1814": { h: 101, w: 85, display: "101 × 85 cm (Musée des Beaux-Arts de Rouen)" },
+  "gericault_cuirassier_blesse_quittant_le_feu_louvre_1814": { h: 358, w: 294, display: "358 × 294 cm (Musée du Louvre)" },
+  "gericault_cheval_arrete_par_des_jeunes_gens_rouen_1817": { h: 45, w: 60, display: "45 × 60 cm (Musée des Beaux-Arts de Rouen)" },
+  "gericault_etude_de_pieds_et_de_mains_montpellier_1817": { h: 52, w: 64, display: "52 × 64 cm (Musée Fabre Montpellier)" },
+  "gericault_etude_de_bras_et_de_jambes_rouen_1818": { h: 48, w: 60, display: "48 × 60 cm (Musée des Beaux-Arts de Rouen)" },
+  "gericault_tete_d_un_jeune_homme_mort_rouen_1818": { h: 32, w: 24, display: "32 × 24 cm (Musée des Beaux-Arts de Rouen)" },
+  "gericault_portrait_le_charpentier_de_la_meduse_rouen_1818": { h: 46.5, w: 38, display: "46,5 × 38 cm (Musée des Beaux-Arts de Rouen)" },
+  "gericault_le_radeau_de_la_meduse_louvre_1818": { h: 491, w: 716, display: "491 × 716 cm (Musée du Louvre)" },
+  "gericault_deux_leopards_rouen_1820": { h: 59, w: 72.5, display: "59 × 72,5 cm (Musée des Beaux-Arts de Rouen)" },
+
   
   
   // Paul Gauguin (7 œuvres)

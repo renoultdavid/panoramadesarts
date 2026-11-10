@@ -2,6 +2,80 @@
    REGISTRE DES PEINTRES & NOTICES MONOGRAPHIQUES
    ========================================================================== */
 window.ARTISTS_REGISTRY = {
+  "gericault": {
+    id: "gericault",
+    name: "Théodore Géricault",
+    sortName: "Géricault Théodore",
+    sortLetter: "G",
+    dates: "1791 – 1824",
+    movement: "Romantisme français • Réalisme héroïque & anatomique",
+    nationality: "Français",
+    techniques: "Huile sur toile, esquisse vive à l'huile, lavis d'encre, mine de plomb, lithographie pionnière",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczM2h3HJtlVN87JnlE8DNo3jxsQk0oeRP2Fv8UdASeTJzklwbPevXQDli3aEwD4lgDlv_cgKnIlcQ-XCTiO3n6UKfg_oWiW3ZZxIF0p4RJyt3LWSeXVjh6nGblaHKl5k16b3DKl3U1z5RkghQz5Jklh7qA=w1681-h713-s-no-gm?authuser=0",
+    bio: "<p>Théodore Géricault (1791 – 1824) est le météore du Romantisme français. Malgré une carrière fulgurante interrompue par une mort précoce à 32 ans, il a brisé les codes du classicisme pour imposer une peinture de la passion, du drame et de la réalité crue. Cavalier émérite et esprit tourmenté, il a réintroduit la force brute et l'émotion dans l'art du XIXe siècle.</p><p>Son genre pictural se définit par le réalisme dramatique et une fascination pour l'énergie vitale sous toutes ses formes. Son style se caractérise par des contrastes de lumière violents, une touche vigoureuse et un sens de l'anatomie hérité de Michel-Ange, qu'il applique tant aux hommes qu'aux chevaux. Il est l'un des premiers à traiter des sujets d'actualité ou des faits divers avec la grandeur habituellement réservée à la peinture d'histoire.</p><p>L'évolution de son style, bien que brève, montre une quête d'authenticité de plus en plus radicale :</p><p>La fougue militaire et hippique : Ses débuts sont marqués par des figures héroïques comme l' Officier de chasseurs à cheval. Il y exprime une fougue incroyable où le mouvement du cheval et de l'homme fusionne dans une atmosphère de bataille.</p><p>Le choc du réel et le naufrage : Son chef-d'œuvre, Le Radeau de la Méduse (1819), marque le sommet de son art. Pour le peindre, il étudie des cadavres et des membres coupés afin de rendre la vérité de la souffrance. Il passe d'un romantisme épique à un naturalisme sombre et politique.</p><p>L'exploration de l'âme (Les Monomanes) : À la fin de sa vie, il réalise une série de portraits de malades mentaux. Son style s'épure pour se concentrer sur la vérité psychologique et la dignité humaine. La touche se fait plus sobre, presque clinique, capturant l'aliénation avec une empathie révolutionnaire pour l'époque. Oeuvres : L'inventaire de référence mondiale est le monumental catalogue raisonné dressé par l'éminent historien de l'art Germain Bazin (ancien conservateur en chef au Louvre). Publiée entre 1987 et 1997 en 7 volumes (Théodore Géricault : Étude critique, documents et catalogue raisonné), cette somme scientifique vertigineuse est venue remplacer l'ancien catalogue historique de Charles Clément (1868). En faisant la synthèse des travaux de Bazin (et en excluant ses milliers de magnifiques dessins à la plume, ses lavis ou ses lithographies), le consensus scientifique évalue le corpus de ses huiles sur toile et sur panneau à environ 300 peintures. Oeuvres :</p>",
+    totalOeuvresEstimees: "~300 peintures (catalogue raisonné Germain Bazin)",
+    oeuvresConsensusNotice: "Le catalogue raisonné de référence mondiale établi par Germain Bazin (7 volumes, Wildenstein Institute, 1987-1997) recense environ 300 peintures authentifiées, complétées par des milliers d'études sur papier et lithographies.",
+    periods: [
+      {
+        title: "1791 – 1815 : La jeunesse rouennaise, l'atelier Guérin et la fougue impériale",
+        years: "1791 – 1815",
+        color: "#d97706",
+        desc: "Né à Rouen dans une famille bourgeoise aisée, Géricault grandit à Paris et se passionne très jeune pour l'art équestre et le spectacle militaire. Élève de Carle Vernet puis de Pierre-Narcisse Guérin, il rejette la froideur néoclassique davidienne pour s'inspirer de Rubens et des maîtres flamands. Dès 1812, à seulement 21 ans, il électrise le Salon de Paris avec son Officier de chasseurs chargeant.",
+        summary: "Apprentissage chez Guérin, passion équestre, révélation au Salon de 1812 et désillusion militaire à la chute de l'Empire.",
+        events: [
+          { year: 1791, label: "Naissance à Rouen", text: "Théodore Géricault naît le 26 septembre 1791 à Rouen dans un milieu aisé qui lui assurera une indépendance financière totale." },
+          { year: 1808, label: "Atelier de Carle Vernet", text: "Entre dans l'atelier de Carle Vernet, peintre équestre réputé, où il perfectionne sa fascination anatomique pour le cheval." },
+          { year: 1810, label: "Formation chez Pierre-Narcisse Guérin", text: "Rejoint l'atelier néoclassique rigoureux de Guérin, tout en copiant passionnément Rubens, Titien et Rembrandt au Louvre." },
+          { year: 1812, label: "Triomphe au Salon : Officier de chasseurs", text: "Présente l'Officier de chasseurs à cheval chargeant au Salon : coup d'éclat couronné d'une médaille d'or impériale." },
+          { year: 1814, label: "Le revers militaire : Cuirassier blessé", text: "Expose au Salon son Cuirassier blessé quittant le feu, miroir tragique et sombre de la débâcle napoléonienne." },
+          { year: 1814, label: "Engagement dans les Mousquetaires royaux", text: "S'engage brièvement dans la compagnie des Mousquetaires gris de Louis XVIII lors de la première Restauration." }
+        ]
+      },
+      {
+        title: "1816 – 1817 : Le voyage en Italie, le choc de Michel-Ange et la course des Barberi",
+        years: "1816 – 1817",
+        color: "#b45309",
+        desc: "Après un échec au Prix de Rome et une liaison amoureuse tourmentée avec sa tante Alexandrine Modeste Caruel, Géricault part pour l'Italie à ses propres frais. À Rome et à Florence, il reçoit le choc esthétique absolu devant la voûte et le Jugement dernier de Michel-Ange. Fasciné par le Carnaval de Rome, il compose la spectaculaire série de la Course des chevaux barbes, fusionnant monumentalité antique et énergie brute.",
+        summary: "Séjour fondateur à Florence et Rome, fascination pour Michel-Ange et cycle magistral de la Course des chevaux barbes.",
+        events: [
+          { year: 1816, label: "Départ pour l'Italie", text: "Quitte Paris pour l'Italie afin d'échapper à une crise familiale intime et financer lui-même son grand voyage d'artiste." },
+          { year: 1816, label: "Révélation de la Chapelle Sixtine", text: "Étudie avec passion Michel-Ange à Rome, dont les musculatures monumentales et les tensions héroïques bouleversent sa manière." },
+          { year: 1817, label: "Le Carnaval romain & les Barberi", text: "Assiste à la course traditionnelle des chevaux sans bride sur le Corso romain ; exécute des dizaines d'études sur le vif." },
+          { year: 1817, label: "Cheval arrêté par des jeunes gens", text: "Peint plusieurs versions du domptage des chevaux barbes, élevant une scène populaire à la solennité d'un bas-relief antique." },
+          { year: 1817, label: "Retour précipité à Paris", text: "Rentre à Paris à l'automne 1817 imprégné d'un style monumental, synthétique et sculptural unique." }
+        ]
+      },
+      {
+        title: "1818 – 1820 : Le Radeau de la Méduse, l'anatomie morbide et l'exil londonien",
+        years: "1818 – 1820",
+        color: "#4f46e5",
+        desc: "De retour en France, Géricault s'empare d'un scandale d'État : le naufrage de la frégate La Méduse en 1816. Retranché dans son atelier du Faubourg-du-Roule, il fait construire un modèle réduit du radeau, interroge les survivants (Corréard et Savigny) et étudie des cadavres et membres amputés à l'hôpital Beaujon. Présenté au Salon de 1819, Le Radeau de la Méduse choque par son naturalisme tragique. Déçu par l'accueil officiel, Géricault part en Angleterre exposer l'œuvre avec un retentissant succès populaire.",
+        summary: "Genèse forcenée du Radeau de la Méduse, immersion dans la morgue de Beaujon, scandale au Salon et triomphe à Londres.",
+        events: [
+          { year: 1818, label: "Enquête sur le naufrage de la Méduse", text: "Rencontre les rescapés Savigny et Corréard, commande une maquette du radeau et s'isole entièrement dans son atelier." },
+          { year: 1818, label: "Études anatomiques à l'Hôpital Beaujon", text: "Peint des études stupéfiantes de membres coupés et de têtes de suppliciés pour saisir la pâleur et la rigidité de la mort." },
+          { year: 1819, label: "Salon de 1819 : Le Radeau de la Méduse", text: "Expose sa toile monumentale de 7 mètres sous le titre neutre Scène de naufrage, provoquant une immense controverse politique." },
+          { year: 1820, label: "Exposition triomphale à Londres", text: "Expose Le Radeau à l'Egyptian Hall de Londres : plus de 40 000 visiteurs s'y pressent, lui rapportant gloire et revenus." },
+          { year: 1820, label: "Découverte de l'art anglais", text: "Séjourne en Angleterre, admire Turner, Constable et Wilkie, et s'initie à l'art équestre moderne des courses d'Epsom." }
+        ]
+      },
+      {
+        title: "1821 – 1824 : Les Monomanes, les dernières lithographies et le crépuscule fulgurant",
+        years: "1821 – 1824",
+        color: "#991b1b",
+        desc: "Ruiné par des spéculations hasardeuses et affaibli par une dépression, Géricault rentre à Paris. À la demande du docteur Étienne-Jean Georget, aliéniste à la Salpêtrière, il réalise sa célèbre série des Monomanes, cinq portraits bouleversants d'aliénés mentaux traités avec une empathie et une vérité clinique inédites. Victime de plusieurs chutes de cheval répétées et d'une carie vertébrale, il s'éteint le 26 janvier 1824 à seulement 32 ans, laissant une œuvre révolutionnaire qui ouvrira la voie à Delacroix et Courbet.",
+        summary: "Série magistrale des Monomanes pour le Dr Georget, pionnier de la lithographie, chutes de cheval et fin tragique à 32 ans.",
+        events: [
+          { year: 1821, label: "Le Derby d'Epsom", text: "Peint Le Derby d'Epsom avec ses chevaux en galop volant, chef-d'œuvre de vitesse et d'illusion spatiale." },
+          { year: 1821, label: "Pionnier de la lithographie", text: "Publie la célèbre suite anglaise de lithographies, explorant la condition du peuple londonien et des bêtes de somme." },
+          { year: 1822, label: "La série des Monomanes", text: "Peint les portraits d'aliénés pour le Dr Georget (Monomanie du vol, de l'envie, du commandement militaire, du jeu)." },
+          { year: 1823, label: "Chutes de cheval et alitement", text: "Victime de violentes chutes de cheval successives, il développe une affection osseuse qui le paralyse dans son lit." },
+          { year: 1824, label: "Derniers dessins sur son lit de mort", text: "Continue de dessiner et dicte des compositions jusqu'à ses derniers jours, entouré de ses amis Ary Scheffer et Dedreux-Dorcy." },
+          { year: 1824, label: "Mort prématurée à 32 ans", text: "S'éteint le 26 janvier 1824 à Paris ; il est inhumé au cimetière du Père-Lachaise avec un gisant sculpté par Antoine Étex." }
+        ]
+      }
+    ]
+  },
   "altdorfer": {
     id: "altdorfer",
     name: "Altdorfer Albrecht",
