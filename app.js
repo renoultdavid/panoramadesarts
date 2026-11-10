@@ -3668,6 +3668,7 @@ const CIVILISATIONS_REGISTRY = [
 ];
 
 const DOMAIN_ICONS = {
+  architecture: "🏯",
   sculpture_statuaire: "🗿",
   peinture_mosaique: "🎨",
   ceramique: "🏺",
@@ -7578,6 +7579,7 @@ function populateModalData(art) {
 }
 
 const CERTIFIED_PAINTING_DIMENSIONS = {
+  "chateau_osaka_tenshukaku_1583": { h: 5800, w: 4500, display: "58 m (hauteur totale) • Base 20 m + Donjon 38 m" },
   "duchamp_portrait_dr_ferdinand_tribout_rouen_1910": { h: 54.5, w: 46, display: "54,5 × 46 cm" },
   "duchamp_deux_nus_rouen_1910": { h: 73, w: 92, display: "73 × 92 cm" },
   "dore_paysage_montagne_rouen": { h: 0, w: 0, display: "Non documentées (Musée de Rouen)" },
@@ -8846,11 +8848,32 @@ const TAXONOMY_CIVILISATIONS = {
       { id: "canaries", label: "Anciens Canariens (Guanches) (Ve s. av. J.-C. - XVe s.)" },
       { id: "rapa_nui", label: "Culture de Rapa Nui (Île de Pâques) (XIe - XVIIe s.)" }
     ]
+  },
+  "japon_asie": {
+    name: "Japon & Mondes d'Asie",
+    periods: [
+      { id: "japon_classique", label: "Époques Heian & Kamakura (794 – 1333)" },
+      { id: "japon_muromachi", label: "Époque de Muromachi (1336 – 1573)" },
+      { id: "japon_momoyama", label: "Époque Azuchi-Momoyama (1568 – 1600)" },
+      { id: "japon_edo", label: "Époque d'Edo & Shogunat Tokugawa (1603 – 1868)" },
+      { id: "japon_moderne", label: "Ère Meiji & Époque contemporaine (1868 – XXe s.)" }
+    ]
   }
 };
 
 // 2. Référentiel des domaines techniques et typologies d'artefacts
 const TAXONOMY_DOMAINS = {
+  "architecture": {
+    label: "Architecture & Grands Monuments",
+    types: [
+      "Château fort japonais & Donjon (Tenshukaku)",
+      "Château fort & Forteresse médiévale",
+      "Édifice & Gratte-ciel moderne",
+      "Merveille du monde & Pyramide",
+      "Palais royal & Résidence impériale",
+      "Temple monumental & Sanctuaire"
+    ]
+  },
   "megalithes": {
     label: "Mégalithisme & Architecture de pierre",
     types: [
@@ -9851,6 +9874,12 @@ function renderSearchGallery() {
                         fullText.includes('vitrail') || fullText.includes('abbaye') || fullText.includes('monastère') ||
                         fullText.includes('monastere') || fullText.includes('couvent');
         if (!isSacre) return false;
+      } else if (selectedDomain === 'architecture') {
+        const isArchi = d === 'architecture' || d === 'monument' || fullText.includes('architecture') ||
+                        fullText.includes('château') || fullText.includes('chateau') || fullText.includes('monument') ||
+                        fullText.includes('donjon') || fullText.includes('palais') || fullText.includes('pyramide') ||
+                        fullText.includes('édifice') || fullText.includes('edifice') || fullText.includes('tenshukaku');
+        if (!isArchi) return false;
       } else if (d) {
         if (d !== selectedDomain) return false;
       }

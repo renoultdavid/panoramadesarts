@@ -16,6 +16,36 @@
    ========================================================================== */
 window.ART_OBJECTS = [
 {
+  "id": "chateau_osaka_tenshukaku_1583",
+  "artistId": "",
+  "artist": "Toyotomi Hideyoshi (Commanditaire)",
+  "artistSort": "Hideyoshi Toyotomi",
+  "civId": "japon_asie",
+  "periodId": "japon_momoyama",
+  "civName": "Japon & Mondes d'Asie : Époque Azuchi-Momoyama",
+  "century": "XVIe siècle (1583)",
+  "centuryDisplay": "XVIe s. (1583)",
+  "centuryNumeric": 1583,
+  "domain": "architecture",
+  "artifactType": "Château fort japonais & Donjon (Tenshukaku)",
+  "title": "Le Château d'Osaka (Donjon monumental Tenshukaku & Murailles cyclopéennes)",
+  "site": "Parc du Château d'Osaka (Chūō-ku, Osaka, Japon)",
+  "originSite": "Japon (Ancienne province de Settsu / Osaka)",
+  "dimensions": "58 m (hauteur totale) • Base 20 m + Donjon 38 m",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczP7mEkpxiMB1kX-SviMEcGLi6Ciq9VusDScSkhhn9Z_CyPXznPdhbFiTbAROY5A-P_304_sK55B_e6sR4pNN7ZV2vvs-JfOf1hJieiadTuFoyYJ1-2tlTmBrHaVkewHyAmGTPkDDITDk7SOKx5lwCo5Uw=w1611-h2416-s-no-gm?authuser=0",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczP7mEkpxiMB1kX-SviMEcGLi6Ciq9VusDScSkhhn9Z_CyPXznPdhbFiTbAROY5A-P_304_sK55B_e6sR4pNN7ZV2vvs-JfOf1hJieiadTuFoyYJ1-2tlTmBrHaVkewHyAmGTPkDDITDk7SOKx5lwCo5Uw=w1611-h2416-s-no-gm?authuser=0",
+  "tags": ["architecture", "château", "monument", "japon", "osaka", "samouraï", "toyotomi hideyoshi", "tenshukaku", "azuchi-momoyama", "or"],
+  "chips": ["Architecture militaire", "Donjon Tenshukaku", "Murailles cyclopéennes (Ishigaki)", "Tuiles de cuivre patiné", "Dauphins dorés (Kinshachi)", "Faste d'Azuchi-Momoyama"],
+  "narrative": "<p>Érigé à partir de 1583 sur l'ordre de <strong>Toyotomi Hideyoshi</strong>, le deuxième grand unificateur du Japon féodal, le <strong>Château d'Osaka (大坂城, <em>Ōsaka-jō</em>)</strong> constitue le chef-d'œuvre le plus spectaculaire et le plus grandiose de l'architecture castrale de l'époque <strong>Azuchi-Momoyama</strong>. Bâtie sur le site stratégique de l'ancien temple fortifié d'Ishiyama Hongan-ji, au confluent des fleuves Yodo et Yamato ouvrant sur la mer intérieure de Seto, cette forteresse titanesque avait pour vocation d'incarner la suprématie politique absolue de Hideyoshi sur l'ensemble de l'archipel nippon et d'impressionner tant ses vassaux que les émissaires étrangers.</p><p>Le cœur névralgique du château est son donjon principal monumental (<strong>Tenshukaku</strong>), s'élevant à <strong>58 mètres de hauteur</strong>. Il repose sur un soubassement cyclopéen impressionnant de 20 mètres de haut, constitué de blocs de granit gigantesques taillés et assemblés sans mortier selon la technique <em>uchikomi-hagi</em> — dont l'immense mégalithe <em>Takoishi</em> (la 'Pierre de la Pieuvre'), pesant à elle seule près de 108 tonnes. Au-dessus de ces remparts de pierre indestructibles se dresse la tour à charpente de bois noble (cyprès du Japon <em>hinoki</em>), étagée sur cinq niveaux extérieurs masquant huit étages intérieurs.</p><p>L'esthétique de l'édifice incarne à la perfection le goût somptueux et flamboyant de l'époque Momoyama : les parois laquées de noir et de blanc pur contrastent avec l'éclat des toitures étagées à pignons incurvés (<em>irimoya-zukuri</em>), parées de tuiles en cuivre à la patine vert-de-gris caractéristique. Les faîtages sont couronnés par d'éblouissants <strong>kinshachi</strong> (ou <em>shachihoko</em>), créatures mythologiques marines protectrices à tête de tigre et corps de carpe entièrement dorées à la feuille d'or, ainsi que par des frises d'ornements floraux et des tigres d'or rampant le long des façades du dernier étage.</p><p>Théâtre du dramatique et colossal <strong>Siège d'Osaka (1614–1615)</strong>, où plus de 200 000 guerriers s'affrontèrent, le château vit l'anéantissement du clan Toyotomi et scella le triomphe définitif du shogunat des Tokugawa. Reconstruit par Tokugawa Hidetada en 1620, frappé par la foudre en 1665, le donjon a été fidèlement réédifié en 1931 grâce à une souscription civique des habitants d'Osaka, avant de faire l'objet de la grande restauration Heisei achevée en 1997, lui restituant toute sa splendeur originelle.</p>",
+  "contemporaryArt": {
+    "title": "Le Monastère royal de l'Escurial (Espagne)",
+    "artist": "Juan Bautista de Toledo & Juan de Herrera",
+    "year": "1583",
+    "civ": "Occident (Madrid, Espagne)",
+    "desc": "Au même moment en 1583, le roi Philippe II d'Espagne achève le gigantesque palais-monastère de l'Escurial près de Madrid, sommet de l'architecture classique austère et symbole de la toute-puissance de la monarchie espagnole."
+  }
+},
+{
   "id": "duchamp_portrait_dr_ferdinand_tribout_rouen_1910",
   "artistId": "duchamp",
   "artist": "Marcel Duchamp",
