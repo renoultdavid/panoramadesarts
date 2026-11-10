@@ -3744,10 +3744,16 @@ const DOMAIN_ICONS = {
 // Liaison sélective : sélection typologique équilibrée par grands domaines (sculpture, peinture, céramique, funéraire, orfèvrerie)
 window.addEventListener('DOMContentLoaded', () => {
   if (window.ART_OBJECTS && window.ART_OBJECTS.length > 0) {
-    // Normalisation préventive des images (fallback image / img vers imgSrc)
+    // Normalisation préventive des images (fallback image / img vers imgSrc) et des types d'œuvres
     window.ART_OBJECTS.forEach(art => {
       if (!art.imgSrc && (art.image || art.img)) {
         art.imgSrc = art.image || art.img;
+      }
+      if (!art.domain && (art.type || art.medium)) {
+        art.domain = 'peinture';
+      }
+      if (!art.artifactType) {
+        art.artifactType = art.medium || art.type || 'Peinture';
       }
     });
     const domainPriority = [
@@ -7579,16 +7585,23 @@ function populateModalData(art) {
   // =========================================================================
   // VOLET DROIT : FORMAT RECTANGULAIRE & BOUTON SITUER SUR LA FRISE CÔTE À CÔTE
   // =========================================================================
+  // GESTION DU FORMAT / DIMENSIONS & ÉCHELLE HUMAINE
+  // =========================================================================
   const formatBadge = document.getElementById('modal-format-badge');
   const btnJumpTimelineFixed = document.getElementById('btn-modal-jump-timeline');
 
-  const dims = (art.dimensions && (art.dimensions.display || (art.dimensions.h && art.dimensions.w)))
-    ? art.dimensions
-    : (typeof CERTIFIED_PAINTING_DIMENSIONS !== 'undefined' && CERTIFIED_PAINTING_DIMENSIONS[art.id] ? CERTIFIED_PAINTING_DIMENSIONS[art.id] : null);
+  let displayStr = '';
+  if (art.dimensions && typeof art.dimensions === 'object' && (art.dimensions.display || (art.dimensions.h && art.dimensions.w))) {
+    displayStr = art.dimensions.display || `${art.dimensions.h} × ${art.dimensions.w} cm`;
+  } else if (typeof CERTIFIED_PAINTING_DIMENSIONS !== 'undefined' && CERTIFIED_PAINTING_DIMENSIONS[art.id]) {
+    const cert = CERTIFIED_PAINTING_DIMENSIONS[art.id];
+    displayStr = cert.display || `${cert.h} × ${cert.w} cm`;
+  } else if (art.dimensions && typeof art.dimensions === 'string') {
+    displayStr = art.dimensions;
+  }
 
   if (formatBadge) {
-    if (dims && (dims.display || (dims.h && dims.w))) {
-      const displayStr = dims.display || `${dims.h} × ${dims.w} cm`;
+    if (displayStr) {
       formatBadge.innerHTML = `📏 FORMAT : <strong>${escapeHtmlAttr(displayStr.toUpperCase())}</strong>`;
       formatBadge.style.display = 'inline-flex';
     } else {
@@ -7651,6 +7664,31 @@ function populateModalData(art) {
 }
 
 const CERTIFIED_PAINTING_DIMENSIONS = {
+  // David Hockney (Série 2 : Grands Formats du Yorkshire, Retours aux Maîtres & Années 2010)
+  "hockney_le_tunnel_debut_automne_2005": { h: 91.4, w: 121.9, display: "91,4 × 121,9 cm (Collection particulière / The David Hockney Foundation)" },
+  "hockney_le_tunnel_debut_juillet_2006": { h: 121.9, w: 182.9, display: "121,9 × 182,9 cm (diptyque) (Collection particulière / The David Hockney Foundation)" },
+  "hockney_de_plus_grands_arbres_pres_de_warter_tate_2007": { h: 457.2, w: 1219.2, display: "457,2 × 1219,2 cm (50 toiles) (Tate Britain, Londres (Donation David Hockney))" },
+  "hockney_arbres_plus_grands_plus_pres_de_warter_ete_2008": { h: 274.3, w: 365.8, display: "274,3 × 365,8 cm (9 toiles) (Collection particulière / The David Hockney Foundation)" },
+  "hockney_aubepines_en_fleurs_pres_de_rudston_2008": { h: 121.9, w: 182.9, display: "121,9 × 182,9 cm (diptyque) (Collection particulière / The David Hockney Foundation)" },
+  "hockney_la_grande_aubepine_2008": { h: 274.3, w: 365.8, display: "274,3 × 365,8 cm (9 toiles) (Collection particulière / The David Hockney Foundation)" },
+  "hockney_arbres_plus_grands_plus_pres_de_warter_hiver_2008": { h: 274.3, w: 365.8, display: "274,3 × 365,8 cm (9 toiles) (Collection particulière / The David Hockney Foundation)" },
+  "hockney_arbres_abattus_2008": { h: 91.4, w: 121.9, display: "91,4 × 121,9 cm (Collection particulière / The David Hockney Foundation)" },
+  "hockney_arbres_abattus_a_woldgate_2008": { h: 121.9, w: 182.9, display: "121,9 × 182,9 cm (diptyque) (Collection particulière / The David Hockney Foundation)" },
+  "hockney_winter_timber_2009": { h: 274.3, w: 609.6, display: "274,3 × 609,6 cm (15 toiles) (Collection particulière / The David Hockney Foundation)" },
+  "hockney_floraison_de_mai_sur_la_route_romaine_2009": { h: 182.9, w: 487.7, display: "182,9 × 487,7 cm (8 toiles) (Collection particulière / The David Hockney Foundation)" },
+  "hockney_a_bigger_message_after_claude_lorrain_2010": { h: 205.7, w: 744.2, display: "205,7 × 744,2 cm (30 toiles) (Collection particulière / The David Hockney Foundation)" },
+  "hockney_le_sermon_sur_la_montagne_vii_2010": { h: 147.3, w: 182.9, display: "147,3 × 182,9 cm (Collection particulière / The David Hockney Foundation)" },
+  "hockney_sans_titre_2_l_arrivee_du_printemps_2011": { h: 365.8, w: 975.4, display: "365,8 × 975,4 cm (installation monumentale) (Centre Pompidou, Paris / Tate Britain / Collection de l'artiste)" },
+  "hockney_l_arrivee_du_printemps_a_woldgate_ipad_2011": { h: 236.2, w: 177.8, display: "236,2 × 177,8 cm (4 panneaux) (The David Hockney Foundation / Tate Britain / Centre Pompidou)" },
+  "hockney_l_arrivee_du_printemps_en_2013_fusain_i": { h: 57.2, w: 76.2, display: "57,2 × 76,2 cm (The David Hockney Foundation)" },
+  "hockney_l_arrivee_du_printemps_en_2013_fusain_ii": { h: 57.2, w: 76.2, display: "57,2 × 76,2 cm (The David Hockney Foundation)" },
+  "hockney_l_arrivee_du_printemps_en_2013_fusain_iii": { h: 57.2, w: 76.2, display: "57,2 × 76,2 cm (The David Hockney Foundation)" },
+  "hockney_garrowby_hill_chassis_hexagonal_2017": { h: 152.4, w: 274.3, display: "152,4 × 274,3 cm (Collection particulière / The David Hockney Foundation)" },
+  "hockney_annonciation_ii_d_apres_fra_angelico_2017": { h: 121.9, w: 243.8, display: "121,9 × 243,8 cm (Collection particulière / The David Hockney Foundation)" },
+  "hockney_grands_arbres_flamands_d_apres_hobbema_2017": { h: 167.6, w: 259.1, display: "167,6 × 259,1 cm (Collection particulière / The David Hockney Foundation)" },
+  "hockney_le_chemin_de_l_atelier_2018": { h: 274.3, w: 365.8, display: "274,3 × 365,8 cm (9 toiles) (Collection particulière / The David Hockney Foundation)" },
+
+
   // David Hockney (Rétrospective Tate Britain / Centre Pompidou / MET)
   "hockney_portrait_de_mon_pere_1955": { h: 50.8, w: 40.6, display: "50,8 × 40,6 cm (The David Hockney Foundation, Los Angeles)" },
   "hockney_bolton_junction_eccleshill_1956": { h: 122, w: 101.6, display: "122 × 101,6 cm (Bradford District Museums and Galleries (Cartwright Hall, Bradford))" },
@@ -8212,10 +8250,13 @@ function renderScaleStamp(art) {
     return;
   }
 
-  // Vérifier si c'est une peinture
+  // Vérifier si c'est une peinture ou assimilé, ou si elle possède des dimensions certifiées
   const isPainting = (art.domain === 'peinture') ||
-    (art.artifactType && /peinture|huile|toile|panneau|bois|fresque|tempera|détrempe/i.test(art.artifactType)) ||
-    (art.category && /peinture|huile|toile|panneau|bois|fresque|tempera|détrempe/i.test(art.category));
+    (art.type && /peinture|huile|toile|fresque|tableau|aquarelle|gouache|acrylique/i.test(art.type)) ||
+    (art.medium && /peinture|huile|toile|panneau|bois|fresque|tempera|détrempe|aquarelle|gouache|acrylique/i.test(art.medium)) ||
+    (art.artifactType && /peinture|huile|toile|panneau|bois|fresque|tempera|détrempe|aquarelle|gouache|acrylique/i.test(art.artifactType)) ||
+    (art.category && /peinture|huile|toile|panneau|bois|fresque|tempera|détrempe|aquarelle|gouache|acrylique/i.test(art.category)) ||
+    (typeof CERTIFIED_PAINTING_DIMENSIONS !== 'undefined' && CERTIFIED_PAINTING_DIMENSIONS[art.id] != null);
 
   if (!isPainting) {
     stampEl.style.display = 'none';
@@ -8224,13 +8265,19 @@ function renderScaleStamp(art) {
 
   // Récupérer les dimensions en cm
   let h = 0, w = 0;
-  if (art.dimensions && art.dimensions.h && art.dimensions.w) {
+  if (art.dimensions && typeof art.dimensions === 'object' && art.dimensions.h && art.dimensions.w) {
     h = parseFloat(art.dimensions.h);
     w = parseFloat(art.dimensions.w);
-  } else if (CERTIFIED_PAINTING_DIMENSIONS[art.id]) {
+  } else if (typeof CERTIFIED_PAINTING_DIMENSIONS !== 'undefined' && CERTIFIED_PAINTING_DIMENSIONS[art.id]) {
     const cert = CERTIFIED_PAINTING_DIMENSIONS[art.id];
-    h = cert.h;
-    w = cert.w;
+    h = parseFloat(cert.h);
+    w = parseFloat(cert.w);
+  } else if (art.dimensions && typeof art.dimensions === 'string') {
+    const m = art.dimensions.match(/([0-9]+(?:[.,][0-9]+)?)\s*[×xX*]\s*([0-9]+(?:[.,][0-9]+)?)/);
+    if (m) {
+      h = parseFloat(m[1].replace(',', '.'));
+      w = parseFloat(m[2].replace(',', '.'));
+    }
   }
 
   if (!h || !w || h <= 0 || w <= 0) {
