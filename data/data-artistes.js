@@ -2,6 +2,259 @@
    REGISTRE DES PEINTRES & NOTICES MONOGRAPHIQUES
    ========================================================================== */
 window.ARTISTS_REGISTRY = {
+  "hockney": {
+    "id": "hockney",
+    "name": "Hockney David",
+    "sortName": "Hockney David",
+    "sortLetter": "H",
+    "dates": "né en 1937",
+    "movement": "Pop Art britannique, Figuration narrative, École de Londres & Réalisme californien",
+    "nationality": "Britannique",
+    "techniques": "Acrylique sur toile, huile sur toile, huile sur panneau, aquarelle, collage photo (joiners), iPad",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczMX0uf5-gPdNUaSCPoLqulcNXJEV5XCYmVvvldzf91OUkS7FJQe-eHaGFNswzO6HdvAd7kPi3fC9LHtT057c6mWg3_C6rH49sV5lBhlQB-mKKo6f6DPOitJCUhAOmvx7uNWT3XNuL_whIOGR9AIGy2MiA=w1681-h720-s-no-gm?authuser=0",
+    "bio": "<p>David Hockney, né en 1937 à Bradford au Royaume-Uni, s'est imposé comme l'un des artistes les plus influents et populaires de notre époque. Après des études remarquées au Royal College of Art de Londres, il s'installe en Californie au milieu des années 1960. Ce départ vers Los Angeles agit comme un révélateur : séduit par le soleil éclatant et l'hédonisme ambiant, il délaisse les teintes sombres de l'Angleterre pour une palette vibrante et lumineuse qui deviendra sa véritable signature visuelle.</p><p>Son travail est indissociable du mouvement Pop Art, bien qu'il ait toujours conservé une approche très personnelle et figurative. Il est mondialement célèbre pour ses représentations iconiques de piscines californiennes, où il explore avec virtuosité la transparence de l'eau et les jeux de reflets. Parallèlement, il excelle dans l'art du portrait, capturant souvent ses proches dans des compositions épurées et théâtrales qui interrogent la perspective et les relations humaines.</p><p>L’évolution de son style témoigne d'une curiosité technique insatiable et d'un refus de la stagnation. Après avoir expérimenté le collage photographique dans les années 1980, il est revenu à une peinture de paysages monumentaux, notamment lors de son retour dans le Yorkshire. Toujours à l'avant-garde, Hockney a su embrasser les nouvelles technologies en troquant parfois ses pinceaux pour un iPad, prouvant que sa quête de la couleur et de la lumière reste constante, quel que soit le support utilisé. Oeuvres : L'inventaire absolu est en plein bouleversement. La Fondation David Hockney supervise actuellement la rédaction d'un monumental catalogue raisonné exhaustif, dont le premier volume, consacré strictement à la peinture, est justement attendu pour la fin de l'année 2026. Pour évaluer son œuvre, il faut impitoyablement écarter du décompte ses milliers d'œuvres sur papier, ses fameux photocollages cubistes (joiners), ses gravures, et bien entendu son immense production numérique récente sur iPad.   En isolant strictement ses huiles et ses acryliques sur toile, le consensus scientifique et les estimations des experts fixent aujourd'hui le corpus de ses peintures achevées à environ 600 œuvres. Oeuvres :</p>",
+    "totalOeuvresEstimees": "environ 600 peintures achevées",
+    "oeuvresConsensusNotice": "L'inventaire absolu est en plein bouleversement. La Fondation David Hockney supervise actuellement la rédaction d'un monumental catalogue raisonné exhaustif, dont le premier volume, consacré strictement à la peinture, est justement attendu pour la fin de l'année 2026. Pour évaluer son œuvre, il faut impitoyablement écarter du décompte ses milliers d'œuvres sur papier, ses fameux photocollages cubistes (joiners), ses gravures, et bien entendu son immense production numérique récente sur iPad. En isolant strictement ses huiles et ses acryliques sur toile, le consensus scientifique et les estimations des experts fixent aujourd'hui le corpus de ses peintures achevées à environ 600 œuvres.",
+    "timeline": {
+        "periods": [
+            {
+                "title": "1937 – 1963 : Bradford, le Royal College of Art et les manifestes de jeunesse",
+                "years": "1937 – 1963",
+                "color": "#0284c7",
+                "desc": "Origines ouvrières dans le Yorkshire, études londoniennes au RCA, audace queer et reconnaissance précoce.",
+                "summary": "Né à Bradford, Hockney étudie au Royal College of Art où il fait sensation avec ses toiles mêlant graffiti urbain, poésie de Walt Whitman et affirmation identitaire. Dès 1962, il s'impose comme la figure de proue du jeune Pop Art britannique.",
+                "events": [
+                    {
+                        "year": 1937,
+                        "title": "Naissance à Bradford dans le Yorkshire",
+                        "desc": "Naît le 9 juillet 1937 dans une famille ouvrière anticonformiste et engagée.",
+                        "icon": "🌟",
+                        "badge": "Origines"
+                    },
+                    {
+                        "year": 1955,
+                        "title": "Portrait of My Father (Portrait de mon père)",
+                        "desc": "Premier portrait magistral peint à 18 ans au Bradford College of Art (The David Hockney Foundation).",
+                        "type": "masterpiece",
+                        "icon": "🎨",
+                        "artworkId": "hockney_portrait_de_mon_pere_1955"
+                    },
+                    {
+                        "year": 1956,
+                        "title": "Bolton Junction, Eccleshill (Bradford Museums)",
+                        "desc": "Paysage urbain du nord industriel influencé par le réalisme social du Kitchen Sink (Bradford).",
+                        "type": "masterpiece",
+                        "icon": "🎨",
+                        "artworkId": "hockney_bolton_junction_eccleshill_1956"
+                    },
+                    {
+                        "year": 1959,
+                        "title": "Entrée au Royal College of Art de Londres",
+                        "desc": "Rejoint le prestigieux RCA aux côtés de R.B. Kitaj, Allen Jones et Peter Phillips.",
+                        "icon": "🏛️",
+                        "badge": "Londres"
+                    },
+                    {
+                        "year": 1960,
+                        "title": "Going to Be a Queen for Tonight (RCA)",
+                        "desc": "Palimpseste textuel audacieux revendiquant l'identité homosexuelle face aux lois de l'époque.",
+                        "type": "masterpiece",
+                        "icon": "🎨",
+                        "artworkId": "hockney_going_to_be_a_queen_for_tonight_1960"
+                    },
+                    {
+                        "year": 1961,
+                        "title": "We Two Boys Together Clinging (Arts Council)",
+                        "desc": "Toile iconique inspirée par Walt Whitman scellant le lyrisme romantique de sa jeunesse.",
+                        "type": "masterpiece",
+                        "icon": "🎨",
+                        "artworkId": "hockney_we_two_boys_together_clinging_1961"
+                    },
+                    {
+                        "year": 1962,
+                        "title": "The First Marriage (Tate Britain)",
+                        "desc": "Chef-d'œuvre exposé au diplôme du RCA explorant la confrontation des styles et de l'Égypte antique.",
+                        "type": "masterpiece",
+                        "icon": "🎨",
+                        "artworkId": "hockney_the_first_marriage_tate_1962"
+                    },
+                    {
+                        "year": 1963,
+                        "title": "Première exposition personnelle chez John Kasmin",
+                        "desc": "Triomphe commercial et critique complet à la galerie Kasmin de Bond Street.",
+                        "icon": "📜",
+                        "badge": "Consécration"
+                    }
+                ]
+            },
+            {
+                "title": "1964 – 1973 : L'Éden californien, les piscines et les grands doubles portraits",
+                "years": "1964 – 1973",
+                "color": "#10b981",
+                "desc": "Installation à Los Angeles, passage à l'acrylique, iconographie des piscines et sommets du double portrait.",
+                "summary": "Séduit par l'hédonisme et la lumière solaire de Los Angeles, Hockney adopte la peinture acrylique. Il invente l'esthétique visuelle de la côte Ouest avec ses piscines cristallines et peint à Notting Hill ses monumentaux doubles portraits de couples modernes.",
+                "events": [
+                    {
+                        "year": 1964,
+                        "title": "Installation à Los Angeles & Découverte de l'acrylique",
+                        "desc": "Arrive en Californie du Sud ; la luminosité éclatante le pousse à abandonner l'huile pour l'acrylique.",
+                        "icon": "🌴",
+                        "badge": "Californie"
+                    },
+                    {
+                        "year": 1967,
+                        "title": "A Bigger Splash (Tate Britain)",
+                        "desc": "Icône absolue du Pop Art mondial figeant l'éclaboussure éphémère d'un plongeon dans une piscine (Tate).",
+                        "type": "masterpiece",
+                        "icon": "🎨",
+                        "artworkId": "hockney_a_bigger_splash_tate_1967"
+                    },
+                    {
+                        "year": 1968,
+                        "title": "Christopher Isherwood and Don Bachardy",
+                        "desc": "Double portrait monumental pionnier immortalisant l'intimité du célèbre couple à Santa Monica.",
+                        "type": "masterpiece",
+                        "icon": "🎨",
+                        "artworkId": "hockney_christopher_isherwood_don_bachardy_1968"
+                    },
+                    {
+                        "year": 1970,
+                        "title": "Mr and Mrs Clark and Percy (Tate Britain)",
+                        "desc": "Chef-d'œuvre du Swinging London peignant le couple formé par Ossie Clark et Celia Birtwell à Notting Hill.",
+                        "type": "masterpiece",
+                        "icon": "🎨",
+                        "artworkId": "hockney_mr_and_mrs_clark_and_percy_tate_1970"
+                    },
+                    {
+                        "year": 1972,
+                        "title": "Portrait of an Artist - Pool with Two Figures",
+                        "desc": "Sommet de sa période californienne alliant tension amoureuse, paysage méditerranéen et eau transparente.",
+                        "type": "masterpiece",
+                        "icon": "🎨",
+                        "artworkId": "hockney_portrait_of_an_artist_pool_with_two_figures_1972"
+                    }
+                ]
+            },
+            {
+                "title": "1974 – 1996 : La déconstruction spatiale, les photocollages et le retour fauve",
+                "years": "1974 – 1996",
+                "color": "#d97706",
+                "desc": "Scénographies d'opéra, perspective cubiste inversée, photocollages joiners et paysages fauves de Los Angeles.",
+                "summary": "Hockney remet en cause la perspective renaissante à point de fuite unique. Après ses célèbres collages photographiques polaroid (joiners) et ses décors pour Glyndebourne et le MET, il revient à la peinture avec des toiles aux couleurs fauves saisissant la vitesse de Nichols Canyon.",
+                "events": [
+                    {
+                        "year": 1975,
+                        "title": "Kerby d'après Hogarth (connaissances utiles)",
+                        "desc": "Démonstration virtuose sur les paradoxes de la vision et les erreurs délibérées de perspective.",
+                        "type": "masterpiece",
+                        "icon": "🎨",
+                        "artworkId": "hockney_kerby_after_hogarth_useful_knowledge_1975"
+                    },
+                    {
+                        "year": 1980,
+                        "title": "Nichols Canyon (Paysage en mouvement)",
+                        "desc": "Transposition sensorielle et fauve de la conduite quotidienne le long des lacets de Hollywood Hills.",
+                        "type": "masterpiece",
+                        "icon": "🎨",
+                        "artworkId": "hockney_nichols_canyon_1980"
+                    },
+                    {
+                        "year": 1982,
+                        "title": "Invention des photocollages (Joiners)",
+                        "desc": "Révolutionne la photographie en assemblant des centaines de clichés Polaroïd pour simuler le temps et le regard en mouvement.",
+                        "icon": "📸",
+                        "badge": "Joiners"
+                    },
+                    {
+                        "year": 1985,
+                        "title": "La Chaise (The Chair)",
+                        "desc": "Recherche spatiale cubiste appliquant la multiplicité des points de vue à un meuble de son atelier.",
+                        "type": "masterpiece",
+                        "icon": "🎨",
+                        "artworkId": "hockney_la_chaise_the_chair_1985"
+                    },
+                    {
+                        "year": 1990,
+                        "title": "Pacific Coast Highway et Santa Monica",
+                        "desc": "Fresque monumentale de la côte californienne fusionnant rouleaux chinois et énergie contemporaine.",
+                        "type": "masterpiece",
+                        "icon": "🎨",
+                        "artworkId": "hockney_pacific_coast_highway_and_santa_monica_1990"
+                    },
+                    {
+                        "year": 1996,
+                        "title": "30 tournesols (30 Sunflowers)",
+                        "desc": "Célébration incandescente de la vie et dialogue direct avec Vincent van Gogh après la perte d'amis chers.",
+                        "type": "masterpiece",
+                        "icon": "🎨",
+                        "artworkId": "hockney_30_sunflowers_1996"
+                    }
+                ]
+            },
+            {
+                "title": "Depuis 1997 : Les Wolds du Yorkshire, les grands panoramas et la révolution iPad",
+                "years": "Depuis 1997",
+                "color": "#dc2626",
+                "desc": "A Bigger Grand Canyon, retour à Bridlington, paysages en plein air des Wolds et peinture numérique sur iPad.",
+                "summary": "Installé à Bridlington dans son Yorkshire natal, Hockney renoue avec la peinture sur le motif. Il peint le vertige de Garrowby Hill, compose l'immensité de A Bigger Grand Canyon en 60 toiles, capture les saisons des Wolds et pionnier mondial, peint des chefs-d'œuvre sur iPad.",
+                "events": [
+                    {
+                        "year": 1998,
+                        "title": "Garrowby Hill (Museum of Fine Arts, Boston)",
+                        "desc": "Perspective plongeante vertigineuse au sommet des Wolds, chef-d'œuvre absolu du paysage contemporain.",
+                        "type": "masterpiece",
+                        "icon": "🎨",
+                        "artworkId": "hockney_garrowby_hill_boston_1998"
+                    },
+                    {
+                        "year": 1998,
+                        "title": "A Bigger Grand Canyon (60 toiles, NGA Canberra)",
+                        "desc": "Monumental panorama de plus de sept mètres de large réinventant le sublime pictural face au gouffre de l'Arizona.",
+                        "type": "masterpiece",
+                        "icon": "🎨",
+                        "artworkId": "hockney_a_bigger_grand_canyon_canberra_1998"
+                    },
+                    {
+                        "year": 2004,
+                        "title": "Série des Wolds à l'aquarelle en plein air",
+                        "desc": "Parcourt les routes du Yorkshire pour figer la lumière d'été sur des feuilles d'aquarelle grand format.",
+                        "icon": "🖌️",
+                        "badge": "Yorkshire"
+                    },
+                    {
+                        "year": 2005,
+                        "title": "Série magistrale à l'huile : Tunnel d'arbres & Les routes du Yorkshire",
+                        "desc": "Peint sur toiles au format standard d'extérieur (91 × 122 cm) les nef végétales et les sentiers des Wolds.",
+                        "type": "masterpiece",
+                        "icon": "🎨",
+                        "artworkId": "hockney_tunnel_d_arbres_2005"
+                    },
+                    {
+                        "year": 2007,
+                        "title": "Bigger Trees Near Warter (Tate Britain)",
+                        "desc": "Peinture monumentale de 50 toiles (4,6 × 12 mètres) offerte à la Tate Britain.",
+                        "icon": "🌳",
+                        "badge": "Tate"
+                    },
+                    {
+                        "year": 2010,
+                        "title": "Pionnier de la peinture sur iPad & Fresques numériques",
+                        "desc": "Adopte la tablette numérique pour peindre l'aube et les fleurs avec une spontanéité lumineuse totale.",
+                        "icon": "📱",
+                        "badge": "Numérique"
+                    },
+                    {
+                        "year": 2017,
+                        "title": "Grande Rétrospective internationale des 80 ans",
+                        "desc": "Exposition triomphale réunissant ses chefs-d'œuvre à la Tate Britain, au Centre Pompidou et au Metropolitan Museum of Art.",
+                        "icon": "🏛️",
+                        "badge": "Rétrospective"
+                    }
+                ]
+            }
+        ]
+    }
+},
   "hals": {
     "id": "hals",
     "name": "Hals Frans",
