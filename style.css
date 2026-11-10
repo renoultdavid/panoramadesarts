@@ -5291,7 +5291,6 @@ body {
   line-height: 1.2;
   text-shadow: 0 1px 6px rgba(0, 0, 0, 0.7);
 }
-}
 
 .modal-header-location-row .modal-loc-pin {
   font-size: 0.8rem;
@@ -10001,3 +10000,254 @@ body {
   width: 0 !important;
   height: 0 !important;
 }
+
+/* ==========================================================================
+   OPTION C : PANORAMA DES THÈMES & SUJETS DE PRÉDILECTION + PASTILLES DE FILTRE
+   ========================================================================== */
+.artist-theme-filter-pills {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 18px 0;
+  padding: 12px 16px;
+  background: rgba(15, 20, 30, 0.72);
+  border: 1px solid rgba(212, 175, 55, 0.24);
+  border-radius: 6px;
+}
+
+.artist-theme-pills-label {
+  font-family: 'Cinzel', serif;
+  font-size: 0.74rem;
+  font-weight: 700;
+  color: #d4af37;
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+  margin-right: 6px;
+}
+
+.btn-artist-theme-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 13px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(212, 175, 55, 0.28);
+  border-radius: 20px;
+  color: #e2e8f0;
+  font-size: 0.8rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-artist-theme-pill:hover {
+  background: rgba(212, 175, 55, 0.16);
+  border-color: #d4af37;
+  color: #ffffff;
+  transform: translateY(-1px);
+}
+
+.btn-artist-theme-pill.is-active {
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.32), rgba(212, 175, 55, 0.15));
+  border-color: #ffd700;
+  color: #fce8a6;
+  font-weight: 700;
+  box-shadow: 0 2px 10px rgba(212, 175, 55, 0.28);
+}
+
+.btn-artist-theme-pill .pill-count {
+  font-size: 0.72rem;
+  padding: 1px 7px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.45);
+  color: #d4af37;
+  font-weight: 700;
+}
+
+.artist-themes-showcase {
+  margin-top: 18px;
+  padding: 28px 26px;
+  background: linear-gradient(180deg, rgba(16, 21, 32, 0.95) 0%, rgba(11, 15, 23, 0.98) 100%);
+  border: 1px solid rgba(212, 175, 55, 0.32);
+  border-radius: 8px;
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.55);
+}
+
+.artist-themes-showcase-header {
+  margin-bottom: 28px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgba(212, 175, 55, 0.22);
+}
+
+.artist-themes-showcase-title {
+  font-family: 'Cinzel', serif;
+  font-size: 1.45rem;
+  font-weight: 700;
+  color: #fce8a6;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  margin: 0 0 8px 0;
+}
+
+.artist-themes-showcase-sub {
+  font-size: 0.92rem;
+  color: #94a3b8;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.artist-themes-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px 28px;
+}
+
+@media (max-width: 1100px) {
+  .artist-themes-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.artist-theme-block {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(212, 175, 55, 0.18);
+  border-radius: 6px;
+  padding: 18px 18px 20px 18px;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.artist-theme-block:hover {
+  border-color: rgba(212, 175, 55, 0.45);
+  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.4);
+}
+
+.artist-theme-block-top {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 14px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.artist-theme-block-title-wrap {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.artist-theme-block-title {
+  font-family: 'Cinzel', serif;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #f8fafc;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  margin: 0;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.artist-theme-block-title:hover {
+  color: #ffd700;
+}
+
+.artist-theme-block-count {
+  font-size: 0.82rem;
+  color: #d4af37;
+  font-weight: 600;
+}
+
+.btn-artist-theme-filter-all {
+  background: rgba(212, 175, 55, 0.12);
+  border: 1px solid rgba(212, 175, 55, 0.38);
+  color: #fce8a6;
+  font-family: 'Cinzel', serif;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.2s ease;
+}
+
+.btn-artist-theme-filter-all:hover {
+  background: rgba(212, 175, 55, 0.28);
+  border-color: #ffd700;
+  color: #ffffff;
+}
+
+.artist-theme-samples-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+@media (max-width: 640px) {
+  .artist-theme-samples-row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.artist-theme-sample-card {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  group: true;
+}
+
+.artist-theme-sample-thumb {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  border-radius: 3px;
+  background: #0b0f17;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  margin-bottom: 8px;
+  position: relative;
+}
+
+.artist-theme-sample-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.35s ease, filter 0.3s ease;
+}
+
+.artist-theme-sample-card:hover .artist-theme-sample-thumb {
+  border-color: #d4af37;
+}
+
+.artist-theme-sample-card:hover .artist-theme-sample-thumb img {
+  transform: scale(1.06);
+}
+
+.artist-theme-sample-title {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #e2e8f0;
+  line-height: 1.32;
+  margin-bottom: 4px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  transition: color 0.2s ease;
+}
+
+.artist-theme-sample-card:hover .artist-theme-sample-title {
+  color: #fce8a6;
+}
+
+.artist-theme-sample-meta {
+  font-size: 0.71rem;
+  color: #94a3b8;
+  line-height: 1.28;
+}
+

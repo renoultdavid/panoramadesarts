@@ -21,7 +21,7 @@
     href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;900&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap"
     rel="stylesheet">
 
-  <link rel="stylesheet" href="style.css?v=7.1">
+  <link rel="stylesheet" href="style.css?v=7.2">
 
   <!-- Icônes pour l'application mobile et tablette -->
   <link rel="icon" type="image/jpeg" sizes="512x512" href="icon-512.jpeg">
@@ -363,7 +363,7 @@
 
           <div class="artist-hero-bio" id="artist-hero-bio"></div>
 
-          <!-- COMMUTATEUR DOUBLE OPTION : DÉCENNIES (A) OU FRISE BIOGRAPHIQUE (B) -->
+          <!-- COMMUTATEUR TRIPLE OPTION : DÉCENNIES (A), FRISE BIOGRAPHIQUE (B) OU THÈMES & SUJETS (C) -->
           <div class="artist-view-mode-bar" id="artist-view-mode-bar">
             <button type="button" class="btn-artist-mode is-active" id="btn-mode-decades" data-mode="decades">
               <span class="mode-icon">🖼️</span>
@@ -375,14 +375,25 @@
               <span class="mode-label">Option B • Frise Chronologique &amp; Vie du Maître</span>
               <span class="mode-badge" id="artist-mode-count-milestones">Jalons &amp; Événements</span>
             </button>
+            <button type="button" class="btn-artist-mode" id="btn-mode-themes" data-mode="themes">
+              <span class="mode-icon">🏷️</span>
+              <span class="mode-label">Option C • Sujets &amp; Thèmes de Prédilection</span>
+              <span class="mode-badge" id="artist-mode-count-themes">Thèmes</span>
+            </button>
           </div>
 
           <div class="artist-hero-collection-title" id="artist-hero-collection-title">
             <span>🎨 ŒUVRES AU CATALOGUE CLASSÉES PAR ORDRE CHRONOLOGIQUE</span>
           </div>
 
+          <!-- BARRE DE FILTRES RAPIDES PAR THÈMES EN HAUT DE LA GALERIE (OPTION A) -->
+          <div class="artist-theme-filter-pills" id="artist-theme-filter-pills" style="display: none;"></div>
+
           <!-- OPTION B : FRISE BIOGRAPHIQUE VERTICALE DU PEINTRE -->
           <div class="artist-vertical-timeline" id="artist-vertical-timeline" style="display: none;"></div>
+
+          <!-- OPTION C : PANORAMA DES THÈMES & SUJETS DE PRÉDILECTION DU MAÎTRE -->
+          <div class="artist-themes-showcase" id="artist-themes-showcase" style="display: none;"></div>
         </div>
       </div>
 
@@ -1085,11 +1096,11 @@
   <script src="data/data-objets.js?v=2.0"></script>
   <script src="data/data-objets2.js?v=2.0"></script>
   <script src="data/data-objets3.js?v=2.0"></script>
-  <script src="data/data-objets4.js?v=2.2"></script>
-  <script src="data/data-objets5.js?v=1.0"></script>
+  <script src="data/data-objets4.js?v=2.3"></script>
+  <script src="data/data-objets5.js?v=1.1"></script>
 
   <!-- SCRIPT MAÎTRE -->
-  <script src="app.js?v=8.8"></script>
+  <script src="app.js?v=8.9"></script>
 </body>
 
 </html>

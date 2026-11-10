@@ -3755,8 +3755,14 @@ window.addEventListener('DOMContentLoaded', () => {
       if (!art.domain && (art.type || art.medium)) {
         art.domain = 'peinture';
       }
-      if (!art.artifactType) {
+      if (!art.artifactType || (art.artifactType === 'Peinture' && art.medium)) {
         art.artifactType = art.medium || art.type || 'Peinture';
+      }
+      if (!art.currentLocation && art.location) {
+        art.currentLocation = art.location;
+      }
+      if (!art.location && art.currentLocation) {
+        art.location = art.currentLocation;
       }
     });
     const domainPriority = [
@@ -5199,22 +5205,446 @@ function getArtworksForArtistRecord(artistRecord, catalog) {
   });
 }
 
+window.activeArtistThemeId = null;
+window.activeArtistThemeSet = null;
+window.activeArtistThemeLabel = '';
+
+function computeArtistThemes(artistRecord, artistArts) {
+  if (!artistArts || artistArts.length === 0) return [];
+  const recId = (artistRecord && artistRecord.id || '').toLowerCase().trim();
+
+  // Définition sur-mesure pour David Hockney (168 œuvres)
+  if (recId === 'hockney') {
+    const hockneyDefs = [
+      {
+        id: 'portraits_proches',
+        icon: '👤',
+        title: 'Portraits de Proches, Amis & Doubles Portraits',
+        featuredIds: [
+          'hockney_mr_and_mrs_clark_and_percy_tate_1970',
+          'hockney_christopher_isherwood_don_bachardy_1968',
+          'hockney_portrait_celia_birtwell_2023',
+          'hockney_portrait_donatien_grau_2023'
+        ],
+        match: (a, full) => (
+          (full.includes('portrait') && !full.includes('autoportrait') && !full.includes('fleurs') && !full.includes('ingres') && !full.includes('pool with two figures')) ||
+          full.includes('isherwood') || full.includes('clark and percy') || full.includes('henry and raymond')
+        )
+      },
+      {
+        id: 'jardin_normand',
+        icon: '🌿',
+        title: 'Jardin Normand, Printemps & « 220 for 2020 »',
+        featuredIds: [
+          'hockney_la_grande_cour_2019',
+          'hockney_la_petite_niche_2023',
+          'hockney_souvenir_de_normandie_2023_2025',
+          'hockney_220_for_2020_vue_ensemble_2020'
+        ],
+        match: (a, full) => (
+          !/portrait/i.test(a.title || '') || /fleurs/i.test(a.title || '')
+        ) && (
+          full.includes('normand') || full.includes('220 for 2020') || full.includes('grande cour') ||
+          full.includes('beuvron') || full.includes('giverny') || full.includes('petite niche') ||
+          full.includes('mare') || full.includes('pommier') || full.includes('cognassier') ||
+          full.includes('poirier') || full.includes('fleurs') || full.includes('gerbes') ||
+          full.includes('etang') || full.includes('étang') || full.includes('floraison sur des arbres') ||
+          full.includes('livres et de la pluie') || full.includes('coucher de soleil') || full.includes('atelier à l\'aube') || full.includes('l\'entrée')
+        )
+      },
+      {
+        id: 'paysages_yorkshire',
+        icon: '🌳',
+        title: 'Paysages du Yorkshire, Bois de Woldgate & Tunnels',
+        featuredIds: [
+          'hockney_de_plus_grands_arbres_pres_de_warter_tate_2007',
+          'hockney_garrowby_hill_boston_1998',
+          'hockney_le_tunnel_debut_automne_2005',
+          'hockney_sans_titre_2_l_arrivee_du_printemps_2011'
+        ],
+        match: (a, full) => (
+          !/portrait/i.test(a.title || '') && !/autoportrait/i.test(a.title || '')
+        ) && (
+          full.includes('yorkshire') || full.includes('woldgate') || full.includes('warter') ||
+          full.includes('rudston') || full.includes('sledmere') || full.includes('kilham') ||
+          full.includes('langtoft') || full.includes('garrowby') || full.includes('tunnel') ||
+          full.includes('aubépine') || full.includes('aubepine') || full.includes('winter timber') ||
+          full.includes('route romaine') || full.includes('arrivée du printemps') || full.includes('arrivee du printemps') ||
+          full.includes('wolds') || full.includes('haie')
+        )
+      },
+      {
+        id: 'maitres_perspective',
+        icon: '🎭',
+        title: 'Dialogues avec les Maîtres, Scénographies & Perspective',
+        featuredIds: [
+          'hockney_quatre_danseurs_jouant_avec_les_balles_2018_2024',
+          'hockney_d_apres_munch_moins_qu_on_ne_pense_2023',
+          'hockney_annonciation_ii_d_apres_fra_angelico_2017',
+          'hockney_portraits_d_apres_ingres_uniformes_1999_2000'
+        ],
+        match: (a, full) => (
+          full.includes('d\'après') || full.includes('d_apres') || full.includes('after ') ||
+          full.includes('munch') || full.includes('blake') || full.includes('ingres') ||
+          full.includes('fra angelico') || full.includes('hobbema') || full.includes('claude lorrain') ||
+          full.includes('hogarth') || full.includes('danseurs') || full.includes('miroir') ||
+          full.includes('perspective inversée') || full.includes('groupe iv') || full.includes('la chaise') ||
+          full.includes('hypnotist') || full.includes('marriage') || full.includes('mariage') ||
+          full.includes('play within') || full.includes('point d\'ironie') || full.includes('massacre') ||
+          full.includes('renaissance head')
+        )
+      },
+      {
+        id: 'californie_piscines',
+        icon: '🏊',
+        title: 'Californie, Piscines & Lumière de Los Angeles',
+        featuredIds: [
+          'hockney_a_bigger_splash_tate_1967',
+          'hockney_portrait_of_an_artist_pool_with_two_figures_1972',
+          'hockney_nichols_canyon_1980',
+          'hockney_a_lawn_being_sprinkled_1967'
+        ],
+        match: (a, full) => (
+          full.includes('splash') || full.includes('pool') || full.includes('piscine') ||
+          full.includes('shower') || full.includes('douche') || full.includes('lawn') ||
+          full.includes('sprinkled') || full.includes('tarzana') || full.includes('savings and loan') ||
+          full.includes('cushions') || full.includes('nichols canyon') || full.includes('pacific coast') ||
+          full.includes('grand canyon') || full.includes('banlieues de los angeles')
+        )
+      },
+      {
+        id: 'autoportraits_jeunesse',
+        icon: '🎨',
+        title: 'Autoportraits, Manifestes de Jeunesse & Atelier',
+        featuredIds: [
+          'hockney_une_piece_dans_une_piece_et_moi_avec_cigarette_2025',
+          'hockney_autoportrait_debout_avec_bretelles_2005',
+          'hockney_we_two_boys_together_clinging_1961',
+          'hockney_30_sunflowers_1996'
+        ],
+        match: (a, full) => (
+          full.includes('autoportrait') || full.includes('moi avec une cigarette') ||
+          full.includes('queen for tonight') || full.includes('adhesiveness') ||
+          full.includes('we two boys') || full.includes('labor omnia') ||
+          full.includes('bolton junction') || full.includes('chemin de l\'atelier') ||
+          full.includes('sunflowers') || full.includes('tournesols')
+        )
+      }
+    ];
+
+    const results = [];
+    hockneyDefs.forEach(def => {
+      const matched = artistArts.filter(a => {
+        const full = `${a.id || ''} ${a.title || ''} ${a.subpart || ''} ${a.medium || ''}`.toLowerCase();
+        return def.match(a, full);
+      });
+      if (matched.length > 0) {
+        // Ordonner pour mettre les featuredIds en tête d'aperçu
+        const sortedSamples = [...matched].sort((x, y) => {
+          const ix = def.featuredIds.indexOf(x.id);
+          const iy = def.featuredIds.indexOf(y.id);
+          if (ix !== -1 && iy !== -1) return ix - iy;
+          if (ix !== -1) return -1;
+          if (iy !== -1) return 1;
+          return 0;
+        });
+        results.push({
+          id: def.id,
+          icon: def.icon,
+          title: def.title,
+          items: matched,
+          samples: sortedSamples.slice(0, 4)
+        });
+      }
+    });
+    return results;
+  }
+
+  // Moteur thématique universel pour tous les autres artistes
+  const universalDefs = [
+    {
+      id: 'portraits_figures',
+      icon: '👤',
+      title: 'Portraits, Figures & Psychologie',
+      match: (a, full) => /portrait|ambassadeur|dame|homme|femme|jeune fille|époux|epoux|prince|roi|reine|cardinal|duc|comtesse|monsieur|madame|docteur|tête d'expression|buveur|bohémienne/i.test(full) && !/autoportrait/i.test(a.title || '')
+    },
+    {
+      id: 'autoportraits_atelier',
+      icon: '🪞',
+      title: 'Autoportraits, Atelier & Introspection',
+      match: (a, full) => /autoportrait|self-portrait|atelier du peintre|l'atelier|moi-même/i.test(full)
+    },
+    {
+      id: 'paysages_nature',
+      icon: '🌳',
+      title: 'Paysages, Mer, Jardins & Saisons',
+      match: (a, full) => /paysage|marine|mer|plage|montagne|forêt|foret|arbre|jardin|campagne|vallée|vallee|fleuve|rivière| pont |tempête|tempete|brume|soleil|neige|printemps|automne|hiver|été|port de|falaises|canal|venise/i.test(full)
+    },
+    {
+      id: 'sacre_religion',
+      icon: '✝️',
+      title: 'Art Sacré, Récits Bibliques & Spiritualité',
+      match: (a, full) => /christ|vierge|madone|saint |sainte |annonciation|nativité|nativite|crucifixion|déposition|deposition|pietà|pieta|jugement dernier|apocalypse|ange|retable|passion|résurrection|resurrection|cène|martyre|bibli|évangile|evangile|prière|priere/i.test(full)
+    },
+    {
+      id: 'mythologie_histoire',
+      icon: '🏛️',
+      title: 'Mythologie, Histoire, Drames & Allégories',
+      match: (a, full) => /mytholog|allégor|allegor|vénus|venus|apollon|bacchus|jupiter|mars|nymphe|bataille|guerre|massacre|exécution|execution|radeau|liberté|liberte|histoire|empereur|héros|heros|triomphe|sabines|serment|mort de/i.test(full)
+    },
+    {
+      id: 'vie_quotidienne_genre',
+      icon: '🎭',
+      title: 'Scènes de Genre, Vie Quotidienne & Société',
+      match: (a, full) => /scène de genre|scene de genre|vie quotidienne|village|cabaret|café|cafe|rue|danse|musique|guitare|accordée|accordee|famille|intérieur|interieur|fête|fete|bal|satir|caricature|bourgeois|peuple|travail|marché|marche/i.test(full)
+    },
+    {
+      id: 'natures_mortes_vanites',
+      icon: '🍎',
+      title: 'Natures Mortes, Fleurs, Objets & Vanités',
+      match: (a, full) => /nature morte|vanité|vanite|crâne|crane|bouquet|vase|fleurs|fruits|pommes|oranges|table|livre ouvert|pipe|bouteille|violon|guitare et/i.test(full)
+    },
+    {
+      id: 'animaux_mouvement',
+      icon: '🐎',
+      title: 'Chevaux, Animaux & Études de Mouvement',
+      match: (a, full) => /cheval|chevaux|course|derby|cavalier|chien|chat|taureau|lion|vache|oiseau|chasse|bétail|labour/i.test(full)
+    }
+  ];
+
+  const results = [];
+  universalDefs.forEach(def => {
+    const matched = artistArts.filter(a => {
+      const full = `${a.title || ''} ${a.subpart || ''} ${a.category || ''} ${(a.chips || []).join(' ')}`.toLowerCase();
+      return def.match(a, full);
+    });
+    if (matched.length > 0) {
+      results.push({
+        id: def.id,
+        icon: def.icon,
+        title: def.title,
+        items: matched,
+        samples: matched.slice(0, 4)
+      });
+    }
+  });
+
+  // Si moins de 2 thèmes détectés, regrouper par subpart ou périodes
+  if (results.length < 2 && artistArts.length >= 2) {
+    const subMap = new Map();
+    artistArts.forEach(a => {
+      const key = (a.subpart || a.medium || 'Chefs-d\'œuvre du maître').trim();
+      if (!subMap.has(key)) subMap.set(key, []);
+      subMap.get(key).push(a);
+    });
+    subMap.forEach((items, label) => {
+      if (!results.some(r => r.title.toLowerCase() === label.toLowerCase())) {
+        results.push({
+          id: 'sub_' + results.length,
+          icon: '🎨',
+          title: label,
+          items,
+          samples: items.slice(0, 4)
+        });
+      }
+    });
+  }
+
+  results.sort((a, b) => b.items.length - a.items.length);
+  return results;
+}
+
+function renderArtistThemeFilterPills(artistRecord, themes, allArts) {
+  const pillsBox = document.getElementById('artist-theme-filter-pills');
+  const collectionTitle = document.getElementById('artist-hero-collection-title');
+  if (!pillsBox) return;
+
+  if (!themes || themes.length <= 1 || allArts.length < 3) {
+    pillsBox.style.display = 'none';
+    pillsBox.innerHTML = '';
+    return;
+  }
+
+  pillsBox.style.display = (activeArtistViewMode === 'decades') ? 'flex' : 'none';
+  pillsBox.innerHTML = `<span class="artist-theme-pills-label">🏷️ Filtrer par thème :</span>`;
+
+  const btnAll = document.createElement('button');
+  btnAll.type = 'button';
+  btnAll.className = 'btn-artist-theme-pill' + (!window.activeArtistThemeId ? ' is-active' : '');
+  btnAll.innerHTML = `Tous les sujets <span class="pill-count">${allArts.length}</span>`;
+  btnAll.onclick = (e) => {
+    e.stopPropagation();
+    window.activeArtistThemeId = null;
+    window.activeArtistThemeSet = null;
+    window.activeArtistThemeLabel = '';
+    if (collectionTitle) {
+      collectionTitle.innerHTML = `<span>🎨 ŒUVRES AU CATALOGUE CLASSÉES PAR ORDRE CHRONOLOGIQUE</span>`;
+    }
+    renderArtistThemeFilterPills(artistRecord, themes, allArts);
+    renderSearchGallery();
+  };
+  pillsBox.appendChild(btnAll);
+
+  themes.forEach(th => {
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'btn-artist-theme-pill' + (window.activeArtistThemeId === th.id ? ' is-active' : '');
+    btn.innerHTML = `${th.icon} ${escapeHtmlAttr(th.title)} <span class="pill-count">${th.items.length}</span>`;
+    btn.onclick = (e) => {
+      e.stopPropagation();
+      if (window.activeArtistThemeId === th.id) {
+        window.activeArtistThemeId = null;
+        window.activeArtistThemeSet = null;
+        window.activeArtistThemeLabel = '';
+        if (collectionTitle) {
+          collectionTitle.innerHTML = `<span>🎨 ŒUVRES AU CATALOGUE CLASSÉES PAR ORDRE CHRONOLOGIQUE</span>`;
+        }
+      } else {
+        window.activeArtistThemeId = th.id;
+        window.activeArtistThemeSet = new Set(th.items.map(i => i.id));
+        window.activeArtistThemeLabel = th.title;
+        if (collectionTitle) {
+          collectionTitle.innerHTML = `<span>${th.icon} THÈME SÉLECTIONNÉ : ${escapeHtmlAttr(th.title.toUpperCase())} (${th.items.length} ŒUVRE${th.items.length > 1 ? 'S' : ''})</span>`;
+        }
+      }
+      renderArtistThemeFilterPills(artistRecord, themes, allArts);
+      renderSearchGallery();
+    };
+    pillsBox.appendChild(btn);
+  });
+}
+
+function renderArtistThemesShowcase(artistRecord, themes, allArts) {
+  const showcase = document.getElementById('artist-themes-showcase');
+  if (!showcase) return;
+  showcase.innerHTML = '';
+
+  const header = document.createElement('div');
+  header.className = 'artist-themes-showcase-header';
+  header.innerHTML = `
+    <h3 class="artist-themes-showcase-title">Les sujets de prédilection de ${escapeHtmlAttr(artistRecord.name)}</h3>
+    <p class="artist-themes-showcase-sub">Les thèmes et motifs majeurs qui reviennent le plus souvent parmi ses ${allArts.length} œuvre${allArts.length > 1 ? 's' : ''} au catalogue, illustrés par leurs exemples emblématiques.</p>
+  `;
+  showcase.appendChild(header);
+
+  const grid = document.createElement('div');
+  grid.className = 'artist-themes-grid';
+
+  themes.forEach(th => {
+    const block = document.createElement('div');
+    block.className = 'artist-theme-block';
+
+    const top = document.createElement('div');
+    top.className = 'artist-theme-block-top';
+
+    const titleWrap = document.createElement('div');
+    titleWrap.className = 'artist-theme-block-title-wrap';
+
+    const h4 = document.createElement('h4');
+    h4.className = 'artist-theme-block-title';
+    h4.textContent = `${th.icon} ${th.title}`;
+
+    const countSpan = document.createElement('span');
+    countSpan.className = 'artist-theme-block-count';
+    countSpan.textContent = `${th.items.length} œuvre${th.items.length > 1 ? 's' : ''}`;
+
+    titleWrap.appendChild(h4);
+    titleWrap.appendChild(countSpan);
+
+    const btnFilter = document.createElement('button');
+    btnFilter.type = 'button';
+    btnFilter.className = 'btn-artist-theme-filter-all';
+    btnFilter.textContent = `Filtrer ces ${th.items.length} œuvres →`;
+
+    const activateThemeFilter = (e) => {
+      e.stopPropagation();
+      window.activeArtistThemeId = th.id;
+      window.activeArtistThemeSet = new Set(th.items.map(i => i.id));
+      window.activeArtistThemeLabel = th.title;
+      const btnDecades = document.getElementById('btn-mode-decades');
+      if (btnDecades) btnDecades.click();
+      const collectionTitle = document.getElementById('artist-hero-collection-title');
+      if (collectionTitle) {
+        collectionTitle.innerHTML = `<span>${th.icon} THÈME SÉLECTIONNÉ : ${escapeHtmlAttr(th.title.toUpperCase())} (${th.items.length} ŒUVRE${th.items.length > 1 ? 'S' : ''})</span>`;
+        collectionTitle.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+      renderArtistThemeFilterPills(artistRecord, themes, allArts);
+      renderSearchGallery();
+    };
+
+    h4.onclick = activateThemeFilter;
+    btnFilter.onclick = activateThemeFilter;
+
+    top.appendChild(titleWrap);
+    top.appendChild(btnFilter);
+    block.appendChild(top);
+
+    const samplesRow = document.createElement('div');
+    samplesRow.className = 'artist-theme-samples-row';
+
+    th.samples.forEach((art, idx) => {
+      const sCard = document.createElement('div');
+      sCard.className = 'artist-theme-sample-card';
+
+      const yearStr = formatCardBadgeDate(art) || art.date || '';
+      const certEntry = (typeof CERTIFIED_PAINTING_DIMENSIONS !== 'undefined' && CERTIFIED_PAINTING_DIMENSIONS[art.id]) ? CERTIFIED_PAINTING_DIMENSIONS[art.id] : null;
+      const locStr = (art.location || art.currentLocation || art.site || (certEntry && certEntry.loc) || '').trim();
+      const metaParts = [yearStr, locStr].filter(Boolean).join(' • ');
+
+      sCard.innerHTML = `
+        <div class="artist-theme-sample-thumb">
+          <img src="${art.imgSrc || art.image || ''}" alt="${escapeHtmlAttr(art.title)}" loading="lazy" />
+        </div>
+        <div class="artist-theme-sample-title">#${idx + 1} ${escapeHtmlAttr(art.title)}</div>
+        <div class="artist-theme-sample-meta">${escapeHtmlAttr(metaParts)}</div>
+      `;
+
+      sCard.onclick = (e) => {
+        e.stopPropagation();
+        if (typeof openCuratorModal === 'function') {
+          openCuratorModal(art, th.items);
+        }
+      };
+
+      samplesRow.appendChild(sCard);
+    });
+
+    block.appendChild(samplesRow);
+    grid.appendChild(block);
+  });
+
+  showcase.appendChild(grid);
+}
+
 function initArtistViewModeSwitcher(artistRecord) {
   const btnDecades = document.getElementById('btn-mode-decades');
   const btnBio = document.getElementById('btn-mode-biography');
+  const btnThemes = document.getElementById('btn-mode-themes');
   const collectionTitle = document.getElementById('artist-hero-collection-title');
   const galleryGrid = document.getElementById('search-gallery-grid');
   const vTimeline = document.getElementById('artist-vertical-timeline');
+  const themesShowcase = document.getElementById('artist-themes-showcase');
+  const pillsBox = document.getElementById('artist-theme-filter-pills');
+  const loadMoreBox = document.getElementById('load-more-container');
   const badgeDecades = document.getElementById('artist-mode-count-decades');
   const badgeMilestones = document.getElementById('artist-mode-count-milestones');
+  const badgeThemes = document.getElementById('artist-mode-count-themes');
 
   if (!btnDecades || !btnBio) return;
 
+  window.activeArtistThemeId = null;
+  window.activeArtistThemeSet = null;
+  window.activeArtistThemeLabel = '';
+
   const catalog = window.ART_OBJECTS || [];
   const artistArts = getArtworksForArtistRecord(artistRecord, catalog);
+  const artistThemes = computeArtistThemes(artistRecord, artistArts);
 
   if (badgeDecades) {
     badgeDecades.textContent = `${artistArts.length} œuvre${artistArts.length > 1 ? 's' : ''}`;
+  }
+  if (badgeThemes) {
+    badgeThemes.textContent = `${artistThemes.length} thème${artistThemes.length > 1 ? 's' : ''}`;
   }
 
   const rawTimeline = (artistRecord.biographyTimeline && (artistRecord.biographyTimeline.periods || artistRecord.biographyTimeline.chapters))
@@ -5255,21 +5685,33 @@ function initArtistViewModeSwitcher(artistRecord) {
   activeArtistViewMode = 'decades';
   btnDecades.classList.add('is-active');
   btnBio.classList.remove('is-active');
-  if (collectionTitle) collectionTitle.style.display = 'block';
+  if (btnThemes) btnThemes.classList.remove('is-active');
+  if (collectionTitle) {
+    collectionTitle.style.display = 'block';
+    collectionTitle.innerHTML = `<span>🎨 ŒUVRES AU CATALOGUE CLASSÉES PAR ORDRE CHRONOLOGIQUE</span>`;
+  }
   if (galleryGrid) galleryGrid.style.display = 'grid';
   if (vTimeline) {
     vTimeline.style.display = 'none';
     vTimeline.innerHTML = '';
   }
+  if (themesShowcase) {
+    themesShowcase.style.display = 'none';
+    themesShowcase.innerHTML = '';
+  }
+  renderArtistThemeFilterPills(artistRecord, artistThemes, artistArts);
 
   btnDecades.onclick = (e) => {
     e.stopPropagation();
     activeArtistViewMode = 'decades';
     btnDecades.classList.add('is-active');
     btnBio.classList.remove('is-active');
+    if (btnThemes) btnThemes.classList.remove('is-active');
     if (collectionTitle) collectionTitle.style.display = 'block';
     if (galleryGrid) galleryGrid.style.display = 'grid';
     if (vTimeline) vTimeline.style.display = 'none';
+    if (themesShowcase) themesShowcase.style.display = 'none';
+    renderArtistThemeFilterPills(artistRecord, artistThemes, artistArts);
     renderSearchGallery();
   };
 
@@ -5278,13 +5720,36 @@ function initArtistViewModeSwitcher(artistRecord) {
     activeArtistViewMode = 'biography';
     btnBio.classList.add('is-active');
     btnDecades.classList.remove('is-active');
+    if (btnThemes) btnThemes.classList.remove('is-active');
     if (collectionTitle) collectionTitle.style.display = 'none';
+    if (pillsBox) pillsBox.style.display = 'none';
     if (galleryGrid) galleryGrid.style.display = 'none';
+    if (loadMoreBox) loadMoreBox.hidden = true;
+    if (themesShowcase) themesShowcase.style.display = 'none';
     if (vTimeline) {
       vTimeline.style.display = 'block';
       renderArtistVerticalTimeline(artistRecord, timelineData, artistArts);
     }
   };
+
+  if (btnThemes) {
+    btnThemes.onclick = (e) => {
+      e.stopPropagation();
+      activeArtistViewMode = 'themes';
+      btnThemes.classList.add('is-active');
+      btnDecades.classList.remove('is-active');
+      btnBio.classList.remove('is-active');
+      if (collectionTitle) collectionTitle.style.display = 'none';
+      if (pillsBox) pillsBox.style.display = 'none';
+      if (galleryGrid) galleryGrid.style.display = 'none';
+      if (loadMoreBox) loadMoreBox.hidden = true;
+      if (vTimeline) vTimeline.style.display = 'none';
+      if (themesShowcase) {
+        themesShowcase.style.display = 'block';
+        renderArtistThemesShowcase(artistRecord, artistThemes, artistArts);
+      }
+    };
+  }
 }
 
 function findArtistInRegistry(query) {
@@ -7482,9 +7947,9 @@ window.addEventListener('keydown', (e) => {
 function populateModalData(art) {
   modalDeptBannerImg.src = getArtworkBanner(art);
 
-  const badgeLabel = art.artifactType || art.category || 'ŒUVRE D\'ART';
+  const badgeLabel = (art.artifactType && art.artifactType !== 'Peinture' ? art.artifactType : '') || art.medium || art.artifactType || art.category || 'ŒUVRE D\'ART';
   const lexEntry = (typeof getTypologyLexiconEntry === 'function')
-    ? (getTypologyLexiconEntry(art.artifactType) || getTypologyLexiconEntry(art.category))
+    ? (getTypologyLexiconEntry(badgeLabel) || getTypologyLexiconEntry(art.artifactType) || getTypologyLexiconEntry(art.category) || getTypologyLexiconEntry(art.medium))
     : null;
 
   if (lexEntry) {
@@ -7574,7 +8039,8 @@ function populateModalData(art) {
   // BANDEAU SUPÉRIEUR DROIT : Ligne 2 Lieu de conservation en typographie Cinzel sans épingle
   const headerLocRow = document.getElementById('modal-header-location-row');
   const headerLocText = document.getElementById('modal-header-location-text');
-  const locVal = (art.currentLocation || art.site || art.originSite || '').trim();
+  const certEntry = (typeof CERTIFIED_PAINTING_DIMENSIONS !== 'undefined' && CERTIFIED_PAINTING_DIMENSIONS[art.id]) ? CERTIFIED_PAINTING_DIMENSIONS[art.id] : null;
+  const locVal = (art.location || art.currentLocation || art.site || art.originSite || (certEntry && certEntry.loc) || '').trim();
   if (headerLocRow && headerLocText) {
     if (locVal) {
       headerLocText.textContent = locVal;
@@ -7599,9 +8065,8 @@ function populateModalData(art) {
   let displayStr = '';
   if (art.dimensions && typeof art.dimensions === 'object' && (art.dimensions.display || (art.dimensions.h && art.dimensions.w))) {
     displayStr = art.dimensions.display || `${art.dimensions.h} × ${art.dimensions.w} cm`;
-  } else if (typeof CERTIFIED_PAINTING_DIMENSIONS !== 'undefined' && CERTIFIED_PAINTING_DIMENSIONS[art.id]) {
-    const cert = CERTIFIED_PAINTING_DIMENSIONS[art.id];
-    displayStr = cert.display || `${cert.h} × ${cert.w} cm`;
+  } else if (certEntry) {
+    displayStr = certEntry.display || `${certEntry.h} × ${certEntry.w} cm`;
   } else if (art.dimensions && typeof art.dimensions === 'string') {
     displayStr = art.dimensions;
   }
@@ -7671,279 +8136,279 @@ function populateModalData(art) {
 
 const CERTIFIED_PAINTING_DIMENSIONS = {
   // Holbein Hans
-  "holbein_les_ambassadeurs_londres_1533": { h: 207.0, w: 209.5, display: "207 × 209,5 cm (The National Gallery, Londres)" },
+  "holbein_les_ambassadeurs_londres_1533": { h: 207.0, w: 209.5, display: "207 × 209,5 cm", loc: "The National Gallery, Londres" },
 
       // David Hockney (Série 4 : Nouveaux Portraits de Proches & Créateurs 2023-2025)
-  "hockney_portrait_richard_hockney_2023": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm (Collection David Hockney Foundation)" },
-  "hockney_portrait_donatien_grau_2023": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm (Collection de l'artiste / Collection particulière)" },
-  "hockney_portrait_philip_hockney_2023": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm (Collection David Hockney Foundation)" },
-  "hockney_portrait_richard_hockney_ii_2023": { h: 91.4, w: 91.4, display: "91,4 × 91,4 cm (Collection David Hockney Foundation)" },
-  "hockney_portrait_john_cox_2024": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm (Collection de l'artiste)" },
-  "hockney_portrait_pierre_saint_jean_2024": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm (Collection David Hockney Foundation)" },
-  "hockney_portrait_sir_norman_rosenthal_2024": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm (Collection de l'artiste / Royal Academy of Arts)" },
-  "hockney_portrait_harry_clark_2024": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm (Collection de l'artiste)" },
-  "hockney_portrait_ben_torrens_2024": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm (Collection de l'artiste)" },
-  "hockney_portrait_albert_clark_2024": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm (Collection de l'artiste)" },
-  "hockney_portrait_lewis_dube_2025": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm (Collection de l'artiste / The David Hockney Foundation)" },
-  "hockney_portrait_sonia_mathews_2025": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm (Collection de l'artiste / The David Hockney Foundation)" },
+  "hockney_portrait_richard_hockney_2023": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm", loc: "Collection David Hockney Foundation" },
+  "hockney_portrait_donatien_grau_2023": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm", loc: "Collection de l'artiste / Collection particulière" },
+  "hockney_portrait_philip_hockney_2023": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm", loc: "Collection David Hockney Foundation" },
+  "hockney_portrait_richard_hockney_ii_2023": { h: 91.4, w: 91.4, display: "91,4 × 91,4 cm", loc: "Collection David Hockney Foundation" },
+  "hockney_portrait_john_cox_2024": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm", loc: "Collection de l'artiste" },
+  "hockney_portrait_pierre_saint_jean_2024": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm", loc: "Collection David Hockney Foundation" },
+  "hockney_portrait_sir_norman_rosenthal_2024": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm", loc: "Collection de l'artiste / Royal Academy of Arts" },
+  "hockney_portrait_harry_clark_2024": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm", loc: "Collection de l'artiste" },
+  "hockney_portrait_ben_torrens_2024": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm", loc: "Collection de l'artiste" },
+  "hockney_portrait_albert_clark_2024": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm", loc: "Collection de l'artiste" },
+  "hockney_portrait_lewis_dube_2025": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm", loc: "Collection de l'artiste / The David Hockney Foundation" },
+  "hockney_portrait_sonia_mathews_2025": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm", loc: "Collection de l'artiste / The David Hockney Foundation" },
 
 // David Hockney (Série 3 : Période Normande, Portraits de Proches & Toiles Récentes 2018-2025)
-  "hockney_la_petite_niche_2023": { h: 91.4, w: 121.9, display: "91,4 × 121,9 cm (Collection David Hockney Foundation)" },
-  "hockney_giverny_2023": { h: 91.4, w: 121.9, display: "91,4 × 121,9 cm (Collection David Hockney Foundation)" },
-  "hockney_vent_sur_la_mare_2023": { h: 91.4, w: 121.9, display: "91,4 × 121,9 cm (Collection David Hockney Foundation)" },
-  "hockney_petits_arbres_2023": { h: 91.4, w: 121.9, display: "91,4 × 121,9 cm (Collection David Hockney Foundation)" },
-  "hockney_15_mai_coucher_de_soleil_2023": { h: 91.4, w: 121.9, display: "91,4 × 121,9 cm (Collection David Hockney Foundation)" },
-  "hockney_d_apres_munch_moins_qu_on_ne_pense_2023": { h: 122.0, w: 183.0, display: "122 × 183 cm (Collection David Hockney Foundation)" },
-  "hockney_souvenir_de_normandie_2023_2025": { h: 122.0, w: 305.0, display: "122 × 305 cm (Collection David Hockney Foundation)" },
-  "hockney_d_apres_blake_moins_qu_on_ne_pense_2024": { h: 183.0, w: 122.0, display: "183 × 122 cm (Collection David Hockney Foundation)" },
-  "hockney_une_piece_dans_une_piece_et_moi_avec_cigarette_2025": { h: 107.0, w: 152.4, display: "107 × 152,4 cm (Collection David Hockney Foundation)" },
-  "hockney_portraits_d_apres_ingres_uniformes_1999_2000": { h: 56.0, w: 76.0, display: "56 × 76 cm (National Portrait Gallery, Londres / Collection de l'artiste)" },
-  "hockney_autoportrait_debout_avec_bretelles_2005": { h: 183.0, w: 91.4, display: "183 × 91,4 cm (Collection David Hockney Foundation)" },
-  "hockney_portrait_charlie_scheips_2005": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm (Collection particulière)" },
-  "hockney_portrait_matthias_weischer_2005": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm (Collection particulière)" },
-  "hockney_portrait_ann_et_david_2005": { h: 91.4, w: 121.9, display: "91,4 × 121,9 cm (Collection particulière)" },
-  "hockney_portrait_sid_et_joni_assis_pres_d_une_table_2005": { h: 91.4, w: 121.9, display: "91,4 × 121,9 cm (Collection particulière)" },
-  "hockney_portrait_sid_et_joni_2005": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm (Collection particulière)" },
-  "hockney_portrait_jean_pierre_goncalves_de_lima_2008": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm (Collection David Hockney Foundation)" },
-  "hockney_portrait_maurice_payne_2008": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm (Collection David Hockney Foundation)" },
-  "hockney_portrait_margaret_hockney_2008": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm (Collection David Hockney Foundation)" },
-  "hockney_portrait_du_matelot_kevin_druez_2009": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm (Collection David Hockney Foundation)" },
-  "hockney_portrait_paul_hockney_2009": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm (Collection David Hockney Foundation)" },
-  "hockney_autoportraits_ipad_2012": { h: 200.0, w: 300.0, display: "200 × 300 cm (Collection David Hockney Foundation)" },
-  "hockney_portrait_john_baldessari_2013": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm (Royal Academy of Arts / Collection de l'artiste)" },
-  "hockney_portrait_jonathan_wilkinson_2013": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm (Collection de l'artiste)" },
-  "hockney_portrait_jean_pierre_goncalves_de_lima_2013": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm (Collection de l'artiste)" },
-  "hockney_le_groupe_iv_2014": { h: 108.0, w: 176.0, display: "108 × 176 cm (Tate, Londres / Collection de l'artiste)" },
-  "hockney_portrait_stephanie_barron_2014": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm (Collection de l'artiste)" },
-  "hockney_portrait_rufus_hale_2015": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm (Collection de l'artiste)" },
-  "hockney_portrait_margaret_hockney_2015": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm (Collection de l'artiste)" },
-  "hockney_portrait_frank_gehry_2016": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm (Collection de l'artiste)" },
-  "hockney_portrait_bing_mcgilvray_2017": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm (Collection de l'artiste)" },
-  "hockney_portrait_jean_pierre_goncalves_de_lima_ii_2018": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm (Collection de l'artiste)" },
-  "hockney_portrait_erica_bolton_2018": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm (Collection de l'artiste)" },
-  "hockney_portrait_jean_richardson_2018": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm (Collection de l'artiste)" },
-  "hockney_portrait_derek_boshier_2019": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm (Collection de l'artiste)" },
-  "hockney_portrait_rufus_hale_2019": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm (Collection de l'artiste)" },
-  "hockney_portrait_jean_pierre_goncalves_de_lima_ipad_2021": { h: 107.0, w: 89.0, display: "107 × 89 cm (Collection David Hockney Foundation)" },
-  "hockney_portrait_aline_laine_2021": { h: 107.0, w: 89.0, display: "107 × 89 cm (Collection David Hockney Foundation)" },
-  "hockney_portrait_brian_hastings_et_douglas_baxter_2021": { h: 89.0, w: 107.0, display: "89 × 107 cm (Collection David Hockney Foundation)" },
-  "hockney_portrait_jonathan_wilkinson_ipad_2021": { h: 107.0, w: 89.0, display: "107 × 89 cm (Collection David Hockney Foundation)" },
-  "hockney_autoportrait_10_decembre_2021": { h: 107.0, w: 89.0, display: "107 × 89 cm (Collection David Hockney Foundation)" },
-  "hockney_autoportrait_20_juin_2022": { h: 107.0, w: 89.0, display: "107 × 89 cm (Collection David Hockney Foundation)" },
-  "hockney_portrait_harry_styles_2022": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm (National Portrait Gallery, Londres / Collection de l'artiste)" },
-  "hockney_portrait_lucie_lune_et_louis_martin_lambouley_2022": { h: 91.4, w: 121.9, display: "91,4 × 121,9 cm (Collection de l'artiste)" },
-  "hockney_portrait_jp_and_little_tess_2023": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm (Collection David Hockney Foundation)" },
-  "hockney_portrait_celia_birtwell_2023": { h: 91.4, w: 91.4, display: "91,4 × 91,4 cm (Collection de l'artiste)" },
-  "hockney_portrait_albert_clark_2023": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm (Collection de l'artiste)" },
-  "hockney_portrait_jonathan_wilkinson_2023": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm (Collection de l'artiste)" },
-  "hockney_portrait_lola_clark_2023": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm (Collection de l'artiste)" },
-  "hockney_quatre_danseurs_jouant_avec_les_balles_2018_2024": { h: 274.3, w: 365.8, display: "274,3 × 365,8 cm (Collection David Hockney Foundation)" },
-  "hockney_rassemblement_photographie_avec_miroir_2018": { h: 147.0, w: 277.0, display: "147 × 277 cm (Tate, Londres / The David Hockney Foundation)" },
-  "hockney_spectateurs_regardant_ready_made_crane_miroirs_2018": { h: 147.0, w: 277.0, display: "147 × 277 cm (Collection David Hockney Foundation)" },
-  "hockney_vue_de_l_atelier_a_l_aube_ii_2019": { h: 107.0, w: 152.4, display: "107 × 152,4 cm (Collection David Hockney Foundation)" },
-  "hockney_l_entree_2019": { h: 122.0, w: 305.0, display: "122 × 305 cm (Collection David Hockney Foundation)" },
-  "hockney_beuvron_en_auge_panorama_2019": { h: 122.0, w: 305.0, display: "122 × 305 cm (Collection David Hockney Foundation)" },
-  "hockney_la_grande_cour_2019": { h: 107.0, w: 500.0, display: "107 × 500 cm (Collection David Hockney Foundation)" },
-  "hockney_pommier_normandie_2019": { h: 122.0, w: 91.4, display: "122 × 91,4 cm (Collection David Hockney Foundation)" },
-  "hockney_cognassier_normandie_2019": { h: 122.0, w: 91.4, display: "122 × 91,4 cm (Collection David Hockney Foundation)" },
-  "hockney_poirier_normandie_2019": { h: 122.0, w: 91.4, display: "122 × 91,4 cm (Collection David Hockney Foundation)" },
-  "hockney_arbres_avec_moins_de_brume_2019": { h: 107.0, w: 152.4, display: "107 × 152,4 cm (Collection David Hockney Foundation)" },
-  "hockney_arbres_dans_la_brume_2019": { h: 107.0, w: 152.4, display: "107 × 152,4 cm (Collection David Hockney Foundation)" },
-  "hockney_point_d_ironie_n64_3d_sans_lunettes_2021": { h: 120.0, w: 180.0, display: "120 × 180 cm (Collection agnès b. / The David Hockney Foundation)" },
-  "hockney_portraits_de_fleurs_planche_i_2021": { h: 107.0, w: 89.0, display: "107 × 89 cm (Musée de l'Orangerie, Paris / Collection de l'artiste)" },
-  "hockney_portraits_de_fleurs_planche_ii_2021": { h: 107.0, w: 89.0, display: "107 × 89 cm (Musée de l'Orangerie, Paris / Collection de l'artiste)" },
-  "hockney_220_for_2020_vue_ensemble_2020": { h: 90.0, w: 9000.0, display: "90 × 9000 cm (Musée de l'Orangerie, Paris / Royal Academy of Arts, Londres)" },
-  "hockney_220_for_2020_no_220_13th_april_2020": { h: 107.0, w: 89.0, display: "107 × 89 cm (Musée de l'Orangerie, Paris / Collection de l'artiste)" },
-  "hockney_220_for_2020_planche_iii_2020": { h: 89.0, w: 107.0, display: "89 × 107 cm (Musée de l'Orangerie, Paris / Royal Academy of Arts)" },
-  "hockney_220_for_2020_planche_iv_2020": { h: 89.0, w: 107.0, display: "89 × 107 cm (Musée de l'Orangerie, Paris / Royal Academy of Arts)" },
-  "hockney_220_for_2020_planche_v_2020": { h: 89.0, w: 107.0, display: "89 × 107 cm (Musée de l'Orangerie, Paris / Royal Academy of Arts)" },
-  "hockney_220_for_2020_planche_vi_2020": { h: 89.0, w: 107.0, display: "89 × 107 cm (Musée de l'Orangerie, Paris / Royal Academy of Arts)" },
-  "hockney_220_for_2020_planche_vii_2020": { h: 89.0, w: 107.0, display: "89 × 107 cm (Musée de l'Orangerie, Paris / Royal Academy of Arts)" },
-  "hockney_220_for_2020_planche_viii_2020": { h: 89.0, w: 107.0, display: "89 × 107 cm (Musée de l'Orangerie, Paris / Royal Academy of Arts)" },
-  "hockney_220_for_2020_planche_ix_2020": { h: 89.0, w: 107.0, display: "89 × 107 cm (Musée de l'Orangerie, Paris / Royal Academy of Arts)" },
-  "hockney_220_for_2020_planche_x_2020": { h: 89.0, w: 107.0, display: "89 × 107 cm (Musée de l'Orangerie, Paris / Royal Academy of Arts)" },
-  "hockney_220_for_2020_planche_xi_2020": { h: 89.0, w: 107.0, display: "89 × 107 cm (Musée de l'Orangerie, Paris / Royal Academy of Arts)" },
-  "hockney_220_for_2020_planche_xii_2020": { h: 89.0, w: 107.0, display: "89 × 107 cm (Musée de l'Orangerie, Paris / Royal Academy of Arts)" },
-  "hockney_220_for_2020_planche_xiii_2020": { h: 89.0, w: 107.0, display: "89 × 107 cm (Musée de l'Orangerie, Paris / Royal Academy of Arts)" },
-  "hockney_quelques_gerbes_plus_petites_2020": { h: 122.0, w: 91.4, display: "122 × 91,4 cm (Collection David Hockney Foundation)" },
-  "hockney_l_etang_et_l_arbre_2023": { h: 91.4, w: 121.9, display: "91,4 × 121,9 cm (Collection David Hockney Foundation)" },
-  "hockney_un_arbre_en_fleurs_2023": { h: 122.0, w: 91.4, display: "122 × 91,4 cm (Collection David Hockney Foundation)" },
-  "hockney_beaucoup_de_floraison_sur_des_arbres_2023": { h: 91.4, w: 121.9, display: "91,4 × 121,9 cm (Collection David Hockney Foundation)" },
-  "hockney_des_livres_et_de_la_pluie_2023": { h: 91.4, w: 121.9, display: "91,4 × 121,9 cm (Collection David Hockney Foundation)" },
+  "hockney_la_petite_niche_2023": { h: 91.4, w: 121.9, display: "91,4 × 121,9 cm", loc: "Collection David Hockney Foundation" },
+  "hockney_giverny_2023": { h: 91.4, w: 121.9, display: "91,4 × 121,9 cm", loc: "Collection David Hockney Foundation" },
+  "hockney_vent_sur_la_mare_2023": { h: 91.4, w: 121.9, display: "91,4 × 121,9 cm", loc: "Collection David Hockney Foundation" },
+  "hockney_petits_arbres_2023": { h: 91.4, w: 121.9, display: "91,4 × 121,9 cm", loc: "Collection David Hockney Foundation" },
+  "hockney_15_mai_coucher_de_soleil_2023": { h: 91.4, w: 121.9, display: "91,4 × 121,9 cm", loc: "Collection David Hockney Foundation" },
+  "hockney_d_apres_munch_moins_qu_on_ne_pense_2023": { h: 122.0, w: 183.0, display: "122 × 183 cm", loc: "Collection David Hockney Foundation" },
+  "hockney_souvenir_de_normandie_2023_2025": { h: 122.0, w: 305.0, display: "122 × 305 cm", loc: "Collection David Hockney Foundation" },
+  "hockney_d_apres_blake_moins_qu_on_ne_pense_2024": { h: 183.0, w: 122.0, display: "183 × 122 cm", loc: "Collection David Hockney Foundation" },
+  "hockney_une_piece_dans_une_piece_et_moi_avec_cigarette_2025": { h: 107.0, w: 152.4, display: "107 × 152,4 cm", loc: "Collection David Hockney Foundation" },
+  "hockney_portraits_d_apres_ingres_uniformes_1999_2000": { h: 56.0, w: 76.0, display: "56 × 76 cm", loc: "National Portrait Gallery, Londres / Collection de l'artiste" },
+  "hockney_autoportrait_debout_avec_bretelles_2005": { h: 183.0, w: 91.4, display: "183 × 91,4 cm", loc: "Collection David Hockney Foundation" },
+  "hockney_portrait_charlie_scheips_2005": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm", loc: "Collection particulière" },
+  "hockney_portrait_matthias_weischer_2005": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm", loc: "Collection particulière" },
+  "hockney_portrait_ann_et_david_2005": { h: 91.4, w: 121.9, display: "91,4 × 121,9 cm", loc: "Collection particulière" },
+  "hockney_portrait_sid_et_joni_assis_pres_d_une_table_2005": { h: 91.4, w: 121.9, display: "91,4 × 121,9 cm", loc: "Collection particulière" },
+  "hockney_portrait_sid_et_joni_2005": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm", loc: "Collection particulière" },
+  "hockney_portrait_jean_pierre_goncalves_de_lima_2008": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm", loc: "Collection David Hockney Foundation" },
+  "hockney_portrait_maurice_payne_2008": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm", loc: "Collection David Hockney Foundation" },
+  "hockney_portrait_margaret_hockney_2008": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm", loc: "Collection David Hockney Foundation" },
+  "hockney_portrait_du_matelot_kevin_druez_2009": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm", loc: "Collection David Hockney Foundation" },
+  "hockney_portrait_paul_hockney_2009": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm", loc: "Collection David Hockney Foundation" },
+  "hockney_autoportraits_ipad_2012": { h: 200.0, w: 300.0, display: "200 × 300 cm", loc: "Collection David Hockney Foundation" },
+  "hockney_portrait_john_baldessari_2013": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm", loc: "Royal Academy of Arts / Collection de l'artiste" },
+  "hockney_portrait_jonathan_wilkinson_2013": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm", loc: "Collection de l'artiste" },
+  "hockney_portrait_jean_pierre_goncalves_de_lima_2013": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm", loc: "Collection de l'artiste" },
+  "hockney_le_groupe_iv_2014": { h: 108.0, w: 176.0, display: "108 × 176 cm", loc: "Tate, Londres / Collection de l'artiste" },
+  "hockney_portrait_stephanie_barron_2014": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm", loc: "Collection de l'artiste" },
+  "hockney_portrait_rufus_hale_2015": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm", loc: "Collection de l'artiste" },
+  "hockney_portrait_margaret_hockney_2015": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm", loc: "Collection de l'artiste" },
+  "hockney_portrait_frank_gehry_2016": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm", loc: "Collection de l'artiste" },
+  "hockney_portrait_bing_mcgilvray_2017": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm", loc: "Collection de l'artiste" },
+  "hockney_portrait_jean_pierre_goncalves_de_lima_ii_2018": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm", loc: "Collection de l'artiste" },
+  "hockney_portrait_erica_bolton_2018": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm", loc: "Collection de l'artiste" },
+  "hockney_portrait_jean_richardson_2018": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm", loc: "Collection de l'artiste" },
+  "hockney_portrait_derek_boshier_2019": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm", loc: "Collection de l'artiste" },
+  "hockney_portrait_rufus_hale_2019": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm", loc: "Collection de l'artiste" },
+  "hockney_portrait_jean_pierre_goncalves_de_lima_ipad_2021": { h: 107.0, w: 89.0, display: "107 × 89 cm", loc: "Collection David Hockney Foundation" },
+  "hockney_portrait_aline_laine_2021": { h: 107.0, w: 89.0, display: "107 × 89 cm", loc: "Collection David Hockney Foundation" },
+  "hockney_portrait_brian_hastings_et_douglas_baxter_2021": { h: 89.0, w: 107.0, display: "89 × 107 cm", loc: "Collection David Hockney Foundation" },
+  "hockney_portrait_jonathan_wilkinson_ipad_2021": { h: 107.0, w: 89.0, display: "107 × 89 cm", loc: "Collection David Hockney Foundation" },
+  "hockney_autoportrait_10_decembre_2021": { h: 107.0, w: 89.0, display: "107 × 89 cm", loc: "Collection David Hockney Foundation" },
+  "hockney_autoportrait_20_juin_2022": { h: 107.0, w: 89.0, display: "107 × 89 cm", loc: "Collection David Hockney Foundation" },
+  "hockney_portrait_harry_styles_2022": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm", loc: "National Portrait Gallery, Londres / Collection de l'artiste" },
+  "hockney_portrait_lucie_lune_et_louis_martin_lambouley_2022": { h: 91.4, w: 121.9, display: "91,4 × 121,9 cm", loc: "Collection de l'artiste" },
+  "hockney_portrait_jp_and_little_tess_2023": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm", loc: "Collection David Hockney Foundation" },
+  "hockney_portrait_celia_birtwell_2023": { h: 91.4, w: 91.4, display: "91,4 × 91,4 cm", loc: "Collection de l'artiste" },
+  "hockney_portrait_albert_clark_2023": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm", loc: "Collection de l'artiste" },
+  "hockney_portrait_jonathan_wilkinson_2023": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm", loc: "Collection de l'artiste" },
+  "hockney_portrait_lola_clark_2023": { h: 121.9, w: 91.4, display: "121,9 × 91,4 cm", loc: "Collection de l'artiste" },
+  "hockney_quatre_danseurs_jouant_avec_les_balles_2018_2024": { h: 274.3, w: 365.8, display: "274,3 × 365,8 cm", loc: "Collection David Hockney Foundation" },
+  "hockney_rassemblement_photographie_avec_miroir_2018": { h: 147.0, w: 277.0, display: "147 × 277 cm", loc: "Tate, Londres / The David Hockney Foundation" },
+  "hockney_spectateurs_regardant_ready_made_crane_miroirs_2018": { h: 147.0, w: 277.0, display: "147 × 277 cm", loc: "Collection David Hockney Foundation" },
+  "hockney_vue_de_l_atelier_a_l_aube_ii_2019": { h: 107.0, w: 152.4, display: "107 × 152,4 cm", loc: "Collection David Hockney Foundation" },
+  "hockney_l_entree_2019": { h: 122.0, w: 305.0, display: "122 × 305 cm", loc: "Collection David Hockney Foundation" },
+  "hockney_beuvron_en_auge_panorama_2019": { h: 122.0, w: 305.0, display: "122 × 305 cm", loc: "Collection David Hockney Foundation" },
+  "hockney_la_grande_cour_2019": { h: 107.0, w: 500.0, display: "107 × 500 cm", loc: "Collection David Hockney Foundation" },
+  "hockney_pommier_normandie_2019": { h: 122.0, w: 91.4, display: "122 × 91,4 cm", loc: "Collection David Hockney Foundation" },
+  "hockney_cognassier_normandie_2019": { h: 122.0, w: 91.4, display: "122 × 91,4 cm", loc: "Collection David Hockney Foundation" },
+  "hockney_poirier_normandie_2019": { h: 122.0, w: 91.4, display: "122 × 91,4 cm", loc: "Collection David Hockney Foundation" },
+  "hockney_arbres_avec_moins_de_brume_2019": { h: 107.0, w: 152.4, display: "107 × 152,4 cm", loc: "Collection David Hockney Foundation" },
+  "hockney_arbres_dans_la_brume_2019": { h: 107.0, w: 152.4, display: "107 × 152,4 cm", loc: "Collection David Hockney Foundation" },
+  "hockney_point_d_ironie_n64_3d_sans_lunettes_2021": { h: 120.0, w: 180.0, display: "120 × 180 cm", loc: "Collection agnès b. / The David Hockney Foundation" },
+  "hockney_portraits_de_fleurs_planche_i_2021": { h: 107.0, w: 89.0, display: "107 × 89 cm", loc: "Musée de l'Orangerie, Paris / Collection de l'artiste" },
+  "hockney_portraits_de_fleurs_planche_ii_2021": { h: 107.0, w: 89.0, display: "107 × 89 cm", loc: "Musée de l'Orangerie, Paris / Collection de l'artiste" },
+  "hockney_220_for_2020_vue_ensemble_2020": { h: 90.0, w: 9000.0, display: "90 × 9000 cm", loc: "Musée de l'Orangerie, Paris / Royal Academy of Arts, Londres" },
+  "hockney_220_for_2020_no_220_13th_april_2020": { h: 107.0, w: 89.0, display: "107 × 89 cm", loc: "Musée de l'Orangerie, Paris / Collection de l'artiste" },
+  "hockney_220_for_2020_planche_iii_2020": { h: 89.0, w: 107.0, display: "89 × 107 cm", loc: "Musée de l'Orangerie, Paris / Royal Academy of Arts" },
+  "hockney_220_for_2020_planche_iv_2020": { h: 89.0, w: 107.0, display: "89 × 107 cm", loc: "Musée de l'Orangerie, Paris / Royal Academy of Arts" },
+  "hockney_220_for_2020_planche_v_2020": { h: 89.0, w: 107.0, display: "89 × 107 cm", loc: "Musée de l'Orangerie, Paris / Royal Academy of Arts" },
+  "hockney_220_for_2020_planche_vi_2020": { h: 89.0, w: 107.0, display: "89 × 107 cm", loc: "Musée de l'Orangerie, Paris / Royal Academy of Arts" },
+  "hockney_220_for_2020_planche_vii_2020": { h: 89.0, w: 107.0, display: "89 × 107 cm", loc: "Musée de l'Orangerie, Paris / Royal Academy of Arts" },
+  "hockney_220_for_2020_planche_viii_2020": { h: 89.0, w: 107.0, display: "89 × 107 cm", loc: "Musée de l'Orangerie, Paris / Royal Academy of Arts" },
+  "hockney_220_for_2020_planche_ix_2020": { h: 89.0, w: 107.0, display: "89 × 107 cm", loc: "Musée de l'Orangerie, Paris / Royal Academy of Arts" },
+  "hockney_220_for_2020_planche_x_2020": { h: 89.0, w: 107.0, display: "89 × 107 cm", loc: "Musée de l'Orangerie, Paris / Royal Academy of Arts" },
+  "hockney_220_for_2020_planche_xi_2020": { h: 89.0, w: 107.0, display: "89 × 107 cm", loc: "Musée de l'Orangerie, Paris / Royal Academy of Arts" },
+  "hockney_220_for_2020_planche_xii_2020": { h: 89.0, w: 107.0, display: "89 × 107 cm", loc: "Musée de l'Orangerie, Paris / Royal Academy of Arts" },
+  "hockney_220_for_2020_planche_xiii_2020": { h: 89.0, w: 107.0, display: "89 × 107 cm", loc: "Musée de l'Orangerie, Paris / Royal Academy of Arts" },
+  "hockney_quelques_gerbes_plus_petites_2020": { h: 122.0, w: 91.4, display: "122 × 91,4 cm", loc: "Collection David Hockney Foundation" },
+  "hockney_l_etang_et_l_arbre_2023": { h: 91.4, w: 121.9, display: "91,4 × 121,9 cm", loc: "Collection David Hockney Foundation" },
+  "hockney_un_arbre_en_fleurs_2023": { h: 122.0, w: 91.4, display: "122 × 91,4 cm", loc: "Collection David Hockney Foundation" },
+  "hockney_beaucoup_de_floraison_sur_des_arbres_2023": { h: 91.4, w: 121.9, display: "91,4 × 121,9 cm", loc: "Collection David Hockney Foundation" },
+  "hockney_des_livres_et_de_la_pluie_2023": { h: 91.4, w: 121.9, display: "91,4 × 121,9 cm", loc: "Collection David Hockney Foundation" },
 
 // David Hockney (Série 2 : Grands Formats du Yorkshire, Retours aux Maîtres & Années 2010)
-  "hockney_le_tunnel_debut_automne_2005": { h: 91.4, w: 121.9, display: "91,4 × 121,9 cm (Collection particulière / The David Hockney Foundation)" },
-  "hockney_le_tunnel_debut_juillet_2006": { h: 121.9, w: 182.9, display: "121,9 × 182,9 cm (diptyque) (Collection particulière / The David Hockney Foundation)" },
-  "hockney_de_plus_grands_arbres_pres_de_warter_tate_2007": { h: 457.2, w: 1219.2, display: "457,2 × 1219,2 cm (50 toiles) (Tate Britain, Londres (Donation David Hockney))" },
-  "hockney_arbres_plus_grands_plus_pres_de_warter_ete_2008": { h: 274.3, w: 365.8, display: "274,3 × 365,8 cm (9 toiles) (Collection particulière / The David Hockney Foundation)" },
-  "hockney_aubepines_en_fleurs_pres_de_rudston_2008": { h: 121.9, w: 182.9, display: "121,9 × 182,9 cm (diptyque) (Collection particulière / The David Hockney Foundation)" },
-  "hockney_la_grande_aubepine_2008": { h: 274.3, w: 365.8, display: "274,3 × 365,8 cm (9 toiles) (Collection particulière / The David Hockney Foundation)" },
-  "hockney_arbres_plus_grands_plus_pres_de_warter_hiver_2008": { h: 274.3, w: 365.8, display: "274,3 × 365,8 cm (9 toiles) (Collection particulière / The David Hockney Foundation)" },
-  "hockney_arbres_abattus_2008": { h: 91.4, w: 121.9, display: "91,4 × 121,9 cm (Collection particulière / The David Hockney Foundation)" },
-  "hockney_arbres_abattus_a_woldgate_2008": { h: 121.9, w: 182.9, display: "121,9 × 182,9 cm (diptyque) (Collection particulière / The David Hockney Foundation)" },
-  "hockney_winter_timber_2009": { h: 274.3, w: 609.6, display: "274,3 × 609,6 cm (15 toiles) (Collection particulière / The David Hockney Foundation)" },
-  "hockney_floraison_de_mai_sur_la_route_romaine_2009": { h: 182.9, w: 487.7, display: "182,9 × 487,7 cm (8 toiles) (Collection particulière / The David Hockney Foundation)" },
-  "hockney_a_bigger_message_after_claude_lorrain_2010": { h: 205.7, w: 744.2, display: "205,7 × 744,2 cm (30 toiles) (Collection particulière / The David Hockney Foundation)" },
-  "hockney_le_sermon_sur_la_montagne_vii_2010": { h: 147.3, w: 182.9, display: "147,3 × 182,9 cm (Collection particulière / The David Hockney Foundation)" },
-  "hockney_sans_titre_2_l_arrivee_du_printemps_2011": { h: 365.8, w: 975.4, display: "365,8 × 975,4 cm (installation monumentale) (Centre Pompidou, Paris / Tate Britain / Collection de l'artiste)" },
-  "hockney_l_arrivee_du_printemps_a_woldgate_ipad_2011": { h: 236.2, w: 177.8, display: "236,2 × 177,8 cm (4 panneaux) (The David Hockney Foundation / Tate Britain / Centre Pompidou)" },
-  "hockney_l_arrivee_du_printemps_en_2013_fusain_i": { h: 57.2, w: 76.2, display: "57,2 × 76,2 cm (The David Hockney Foundation)" },
-  "hockney_l_arrivee_du_printemps_en_2013_fusain_ii": { h: 57.2, w: 76.2, display: "57,2 × 76,2 cm (The David Hockney Foundation)" },
-  "hockney_l_arrivee_du_printemps_en_2013_fusain_iii": { h: 57.2, w: 76.2, display: "57,2 × 76,2 cm (The David Hockney Foundation)" },
-  "hockney_garrowby_hill_chassis_hexagonal_2017": { h: 152.4, w: 274.3, display: "152,4 × 274,3 cm (Collection particulière / The David Hockney Foundation)" },
-  "hockney_annonciation_ii_d_apres_fra_angelico_2017": { h: 121.9, w: 243.8, display: "121,9 × 243,8 cm (Collection particulière / The David Hockney Foundation)" },
-  "hockney_grands_arbres_flamands_d_apres_hobbema_2017": { h: 167.6, w: 259.1, display: "167,6 × 259,1 cm (Collection particulière / The David Hockney Foundation)" },
-  "hockney_le_chemin_de_l_atelier_2018": { h: 274.3, w: 365.8, display: "274,3 × 365,8 cm (9 toiles) (Collection particulière / The David Hockney Foundation)" },
+  "hockney_le_tunnel_debut_automne_2005": { h: 91.4, w: 121.9, display: "91,4 × 121,9 cm", loc: "Collection particulière / The David Hockney Foundation" },
+  "hockney_le_tunnel_debut_juillet_2006": { h: 121.9, w: 182.9, display: "121,9 × 182,9 cm (diptyque)", loc: "Collection particulière / The David Hockney Foundation" },
+  "hockney_de_plus_grands_arbres_pres_de_warter_tate_2007": { h: 457.2, w: 1219.2, display: "457,2 × 1219,2 cm (50 toiles)", loc: "Tate Britain, Londres (Donation David Hockney)" },
+  "hockney_arbres_plus_grands_plus_pres_de_warter_ete_2008": { h: 274.3, w: 365.8, display: "274,3 × 365,8 cm (9 toiles)", loc: "Collection particulière / The David Hockney Foundation" },
+  "hockney_aubepines_en_fleurs_pres_de_rudston_2008": { h: 121.9, w: 182.9, display: "121,9 × 182,9 cm (diptyque)", loc: "Collection particulière / The David Hockney Foundation" },
+  "hockney_la_grande_aubepine_2008": { h: 274.3, w: 365.8, display: "274,3 × 365,8 cm (9 toiles)", loc: "Collection particulière / The David Hockney Foundation" },
+  "hockney_arbres_plus_grands_plus_pres_de_warter_hiver_2008": { h: 274.3, w: 365.8, display: "274,3 × 365,8 cm (9 toiles)", loc: "Collection particulière / The David Hockney Foundation" },
+  "hockney_arbres_abattus_2008": { h: 91.4, w: 121.9, display: "91,4 × 121,9 cm", loc: "Collection particulière / The David Hockney Foundation" },
+  "hockney_arbres_abattus_a_woldgate_2008": { h: 121.9, w: 182.9, display: "121,9 × 182,9 cm (diptyque)", loc: "Collection particulière / The David Hockney Foundation" },
+  "hockney_winter_timber_2009": { h: 274.3, w: 609.6, display: "274,3 × 609,6 cm (15 toiles)", loc: "Collection particulière / The David Hockney Foundation" },
+  "hockney_floraison_de_mai_sur_la_route_romaine_2009": { h: 182.9, w: 487.7, display: "182,9 × 487,7 cm (8 toiles)", loc: "Collection particulière / The David Hockney Foundation" },
+  "hockney_a_bigger_message_after_claude_lorrain_2010": { h: 205.7, w: 744.2, display: "205,7 × 744,2 cm (30 toiles)", loc: "Collection particulière / The David Hockney Foundation" },
+  "hockney_le_sermon_sur_la_montagne_vii_2010": { h: 147.3, w: 182.9, display: "147,3 × 182,9 cm", loc: "Collection particulière / The David Hockney Foundation" },
+  "hockney_sans_titre_2_l_arrivee_du_printemps_2011": { h: 365.8, w: 975.4, display: "365,8 × 975,4 cm (installation monumentale)", loc: "Centre Pompidou, Paris / Tate Britain / Collection de l'artiste" },
+  "hockney_l_arrivee_du_printemps_a_woldgate_ipad_2011": { h: 236.2, w: 177.8, display: "236,2 × 177,8 cm (4 panneaux)", loc: "The David Hockney Foundation / Tate Britain / Centre Pompidou" },
+  "hockney_l_arrivee_du_printemps_en_2013_fusain_i": { h: 57.2, w: 76.2, display: "57,2 × 76,2 cm", loc: "The David Hockney Foundation" },
+  "hockney_l_arrivee_du_printemps_en_2013_fusain_ii": { h: 57.2, w: 76.2, display: "57,2 × 76,2 cm", loc: "The David Hockney Foundation" },
+  "hockney_l_arrivee_du_printemps_en_2013_fusain_iii": { h: 57.2, w: 76.2, display: "57,2 × 76,2 cm", loc: "The David Hockney Foundation" },
+  "hockney_garrowby_hill_chassis_hexagonal_2017": { h: 152.4, w: 274.3, display: "152,4 × 274,3 cm", loc: "Collection particulière / The David Hockney Foundation" },
+  "hockney_annonciation_ii_d_apres_fra_angelico_2017": { h: 121.9, w: 243.8, display: "121,9 × 243,8 cm", loc: "Collection particulière / The David Hockney Foundation" },
+  "hockney_grands_arbres_flamands_d_apres_hobbema_2017": { h: 167.6, w: 259.1, display: "167,6 × 259,1 cm", loc: "Collection particulière / The David Hockney Foundation" },
+  "hockney_le_chemin_de_l_atelier_2018": { h: 274.3, w: 365.8, display: "274,3 × 365,8 cm (9 toiles)", loc: "Collection particulière / The David Hockney Foundation" },
 
 
   // David Hockney (Rétrospective Tate Britain / Centre Pompidou / MET)
-  "hockney_portrait_de_mon_pere_1955": { h: 50.8, w: 40.6, display: "50,8 × 40,6 cm (The David Hockney Foundation, Los Angeles)" },
-  "hockney_bolton_junction_eccleshill_1956": { h: 122, w: 101.6, display: "122 × 101,6 cm (Bradford District Museums and Galleries (Cartwright Hall, Bradford))" },
-  "hockney_going_to_be_a_queen_for_tonight_1960": { h: 122, w: 91.5, display: "122 × 91,5 cm (Royal College of Art Collection, Londres)" },
-  "hockney_adhesiveness_1960": { h: 127, w: 101.6, display: "127 × 101,6 cm (Modern Art Museum of Fort Worth, Texas)" },
-  "hockney_labor_omnia_vincit_1960": { h: 91.5, w: 61, display: "91,5 × 61 cm (Collection particulière)" },
-  "hockney_we_two_boys_together_clinging_1961": { h: 122, w: 152.4, display: "122 × 152,4 cm (Arts Council Collection, Southbank Centre, Londres)" },
-  "hockney_flight_into_italy_swiss_landscape_1962": { h: 183, w: 183, display: "183 × 183 cm (Museum Frieder Burda, Baden-Baden / Collection particulière)" },
-  "hockney_the_first_marriage_tate_1962": { h: 182.9, w: 213.4, display: "182,9 × 213,4 cm (Tate Modern / Tate Britain, Londres)" },
-  "hockney_berlin_a_memory_1962": { h: 213.4, w: 213.4, display: "213,4 × 213,4 cm (Collection particulière)" },
-  "hockney_the_hypnotist_1963": { h: 213.4, w: 213.4, display: "213,4 × 213,4 cm (Collection particulière)" },
-  "hockney_renaissance_head_lisbonne_1963": { h: 106.7, w: 121.9, display: "106,7 × 121,9 cm (CAM - Centro de Arte Moderna Gulbenkian, Lisbonne)" },
-  "hockney_two_men_in_a_shower_walker_1963": { h: 152.4, w: 152.4, display: "152,4 × 152,4 cm (Walker Art Center, Minneapolis)" },
-  "hockney_the_second_marriage_melbourne_1963": { h: 197.5, w: 228.6, display: "197,5 × 228,6 cm (National Gallery of Victoria, Melbourne)" },
-  "hockney_play_within_a_play_1963": { h: 198, w: 198, display: "198 × 198 cm (Collection particulière (Portrait de John Kasmin))" },
-  "hockney_boy_about_to_take_a_shower_1964": { h: 91.4, w: 91.4, display: "91,4 × 91,4 cm (Collection particulière)" },
-  "hockney_a_lawn_being_sprinkled_1967": { h: 152.4, w: 152.4, display: "152,4 × 152,4 cm (Collection particulière)" },
-  "hockney_savings_and_loan_building_1967": { h: 122, w: 122, display: "122 × 122 cm (Smithsonian American Art Museum, Washington D.C.)" },
-  "hockney_some_neat_cushions_1967": { h: 152.4, w: 152.4, display: "152,4 × 152,4 cm (Collection particulière)" },
-  "hockney_a_bigger_splash_tate_1967": { h: 242.5, w: 243.9, display: "242,5 × 243,9 cm (Tate Britain, Londres)" },
-  "hockney_the_room_tarzana_1967": { h: 243.8, w: 243.8, display: "243,8 × 243,8 cm (Collection particulière)" },
-  "hockney_christopher_isherwood_don_bachardy_1968": { h: 212, w: 304, display: "212 × 304 cm (Collection particulière)" },
-  "hockney_mr_and_mrs_clark_and_percy_tate_1970": { h: 213.4, w: 304.8, display: "213,4 × 304,8 cm (Tate Britain, Londres)" },
-  "hockney_portrait_of_an_artist_pool_with_two_figures_1972": { h: 213.5, w: 305, display: "213,5 × 305 cm (Collection particulière (Vente historique Christie's 2018))" },
-  "hockney_kerby_after_hogarth_useful_knowledge_1975": { h: 182.9, w: 152.4, display: "182,9 × 152,4 cm (Museum of Modern Art (MoMA), New York / Collection particulière)" },
-  "hockney_henry_and_raymond_1979": { h: 152.4, w: 152.4, display: "152,4 × 152,4 cm (Collection particulière)" },
-  "hockney_nichols_canyon_1980": { h: 213.4, w: 152.4, display: "213,4 × 152,4 cm (Collection particulière (Vente Phillips New York 2020))" },
-  "hockney_la_chaise_the_chair_1985": { h: 122, w: 91.5, display: "122 × 91,5 cm (Collection particulière / The David Hockney Foundation)" },
-  "hockney_pacific_coast_highway_and_santa_monica_1990": { h: 198.1, w: 304.8, display: "198,1 × 304,8 cm (Collection particulière (Vente Sotheby's New York 2018))" },
-  "hockney_30_sunflowers_1996": { h: 182.9, w: 182.9, display: "182,9 × 182,9 cm (Collection particulière (Vente Sotheby's Hong Kong 2020))" },
-  "hockney_the_road_to_york_through_sledmere_1997": { h: 121.9, w: 152.4, display: "121,9 × 152,4 cm (Collection particulière)" },
-  "hockney_garrowby_hill_boston_1998": { h: 152.4, w: 193, display: "152,4 × 193 cm (Museum of Fine Arts, Boston)" },
-  "hockney_a_bigger_grand_canyon_canberra_1998": { h: 207, w: 744.2, display: "207 × 744,2 cm (60 toiles) (National Gallery of Australia, Canberra)" },
-  "hockney_le_massacre_et_les_problemes_de_representation_2003": { h: 182.9, w: 274.3, display: "182,9 × 274,3 cm (Collection particulière)" },
-  "hockney_soleil_de_minuit_norvege_2003": { h: 61, w: 91.4, display: "61 × 91,4 cm (Collection de l'artiste / The David Hockney Foundation)" },
-  "hockney_route_et_champ_de_mais_yorkshire_2004": { h: 38.1, w: 57.2, display: "38,1 × 57,2 cm (The David Hockney Foundation)" },
-  "hockney_route_de_rudston_fin_de_l_ete_2004": { h: 38.1, w: 57.2, display: "38,1 × 57,2 cm (The David Hockney Foundation)" },
-  "hockney_route_avec_deux_maisons_yorkshire_2004": { h: 38.1, w: 57.2, display: "38,1 × 57,2 cm (The David Hockney Foundation)" },
-  "hockney_passage_dans_la_haie_2004": { h: 38.1, w: 57.2, display: "38,1 × 57,2 cm (The David Hockney Foundation)" },
-  "hockney_talus_enchevetre_et_arbres_yorkshire_2004": { h: 38.1, w: 57.2, display: "38,1 × 57,2 cm (The David Hockney Foundation)" },
-  "hockney_la_maison_rouge_yorkshire_2004": { h: 38.1, w: 57.2, display: "38,1 × 57,2 cm (The David Hockney Foundation)" },
-  "hockney_rudston_trees_ii_2005": { h: 91.4, w: 121.9, display: "91,4 × 121,9 cm (The David Hockney Foundation / Collection particulière)" },
-  "hockney_vue_de_woldgate_2005": { h: 91.4, w: 121.9, display: "91,4 × 121,9 cm (Collection particulière)" },
-  "hockney_de_rudston_a_sledmere_2005": { h: 91.4, w: 121.9, display: "91,4 × 121,9 cm (Collection particulière)" },
-  "hockney_kilham_a_langtoft_2005": { h: 91.4, w: 121.9, display: "91,4 × 121,9 cm (Collection particulière)" },
-  "hockney_kilham_a_langtoft_ii_2005": { h: 91.4, w: 121.9, display: "91,4 × 121,9 cm (Collection particulière)" },
-  "hockney_vue_de_sledmere_2005": { h: 91.4, w: 121.9, display: "91,4 × 121,9 cm (Collection particulière)" },
-  "hockney_de_langtoft_a_kilham_2005": { h: 91.4, w: 121.9, display: "91,4 × 121,9 cm (Collection particulière)" },
-  "hockney_kilham_2005": { h: 91.4, w: 121.9, display: "91,4 × 121,9 cm (Collection particulière)" },
-  "hockney_sans_titre_paysage_yorkshire_2005": { h: 91.4, w: 121.9, display: "91,4 × 121,9 cm (The David Hockney Foundation)" },
-  "hockney_de_sledmere_a_malton_2005": { h: 91.4, w: 121.9, display: "91,4 × 121,9 cm (Collection particulière)" },
-  "hockney_de_kilham_a_langtoft_variante_2005": { h: 91.4, w: 121.9, display: "91,4 × 121,9 cm (Collection particulière)" },
-  "hockney_tunnel_d_arbres_2005": { h: 91.4, w: 121.9, display: "91,4 × 121,9 cm (Collection particulière / The David Hockney Foundation)" },
+  "hockney_portrait_de_mon_pere_1955": { h: 50.8, w: 40.6, display: "50,8 × 40,6 cm", loc: "The David Hockney Foundation, Los Angeles" },
+  "hockney_bolton_junction_eccleshill_1956": { h: 122, w: 101.6, display: "122 × 101,6 cm", loc: "Bradford District Museums and Galleries (Cartwright Hall, Bradford)" },
+  "hockney_going_to_be_a_queen_for_tonight_1960": { h: 122, w: 91.5, display: "122 × 91,5 cm", loc: "Royal College of Art Collection, Londres" },
+  "hockney_adhesiveness_1960": { h: 127, w: 101.6, display: "127 × 101,6 cm", loc: "Modern Art Museum of Fort Worth, Texas" },
+  "hockney_labor_omnia_vincit_1960": { h: 91.5, w: 61, display: "91,5 × 61 cm", loc: "Collection particulière" },
+  "hockney_we_two_boys_together_clinging_1961": { h: 122, w: 152.4, display: "122 × 152,4 cm", loc: "Arts Council Collection, Southbank Centre, Londres" },
+  "hockney_flight_into_italy_swiss_landscape_1962": { h: 183, w: 183, display: "183 × 183 cm", loc: "Museum Frieder Burda, Baden-Baden / Collection particulière" },
+  "hockney_the_first_marriage_tate_1962": { h: 182.9, w: 213.4, display: "182,9 × 213,4 cm", loc: "Tate Modern / Tate Britain, Londres" },
+  "hockney_berlin_a_memory_1962": { h: 213.4, w: 213.4, display: "213,4 × 213,4 cm", loc: "Collection particulière" },
+  "hockney_the_hypnotist_1963": { h: 213.4, w: 213.4, display: "213,4 × 213,4 cm", loc: "Collection particulière" },
+  "hockney_renaissance_head_lisbonne_1963": { h: 106.7, w: 121.9, display: "106,7 × 121,9 cm", loc: "CAM - Centro de Arte Moderna Gulbenkian, Lisbonne" },
+  "hockney_two_men_in_a_shower_walker_1963": { h: 152.4, w: 152.4, display: "152,4 × 152,4 cm", loc: "Walker Art Center, Minneapolis" },
+  "hockney_the_second_marriage_melbourne_1963": { h: 197.5, w: 228.6, display: "197,5 × 228,6 cm", loc: "National Gallery of Victoria, Melbourne" },
+  "hockney_play_within_a_play_1963": { h: 198, w: 198, display: "198 × 198 cm", loc: "Collection particulière (Portrait de John Kasmin)" },
+  "hockney_boy_about_to_take_a_shower_1964": { h: 91.4, w: 91.4, display: "91,4 × 91,4 cm", loc: "Collection particulière" },
+  "hockney_a_lawn_being_sprinkled_1967": { h: 152.4, w: 152.4, display: "152,4 × 152,4 cm", loc: "Collection particulière" },
+  "hockney_savings_and_loan_building_1967": { h: 122, w: 122, display: "122 × 122 cm", loc: "Smithsonian American Art Museum, Washington D.C." },
+  "hockney_some_neat_cushions_1967": { h: 152.4, w: 152.4, display: "152,4 × 152,4 cm", loc: "Collection particulière" },
+  "hockney_a_bigger_splash_tate_1967": { h: 242.5, w: 243.9, display: "242,5 × 243,9 cm", loc: "Tate Britain, Londres" },
+  "hockney_the_room_tarzana_1967": { h: 243.8, w: 243.8, display: "243,8 × 243,8 cm", loc: "Collection particulière" },
+  "hockney_christopher_isherwood_don_bachardy_1968": { h: 212, w: 304, display: "212 × 304 cm", loc: "Collection particulière" },
+  "hockney_mr_and_mrs_clark_and_percy_tate_1970": { h: 213.4, w: 304.8, display: "213,4 × 304,8 cm", loc: "Tate Britain, Londres" },
+  "hockney_portrait_of_an_artist_pool_with_two_figures_1972": { h: 213.5, w: 305, display: "213,5 × 305 cm", loc: "Collection particulière (Vente historique Christie's 2018)" },
+  "hockney_kerby_after_hogarth_useful_knowledge_1975": { h: 182.9, w: 152.4, display: "182,9 × 152,4 cm", loc: "Museum of Modern Art (MoMA), New York / Collection particulière" },
+  "hockney_henry_and_raymond_1979": { h: 152.4, w: 152.4, display: "152,4 × 152,4 cm", loc: "Collection particulière" },
+  "hockney_nichols_canyon_1980": { h: 213.4, w: 152.4, display: "213,4 × 152,4 cm", loc: "Collection particulière (Vente Phillips New York 2020)" },
+  "hockney_la_chaise_the_chair_1985": { h: 122, w: 91.5, display: "122 × 91,5 cm", loc: "Collection particulière / The David Hockney Foundation" },
+  "hockney_pacific_coast_highway_and_santa_monica_1990": { h: 198.1, w: 304.8, display: "198,1 × 304,8 cm", loc: "Collection particulière (Vente Sotheby's New York 2018)" },
+  "hockney_30_sunflowers_1996": { h: 182.9, w: 182.9, display: "182,9 × 182,9 cm", loc: "Collection particulière (Vente Sotheby's Hong Kong 2020)" },
+  "hockney_the_road_to_york_through_sledmere_1997": { h: 121.9, w: 152.4, display: "121,9 × 152,4 cm", loc: "Collection particulière" },
+  "hockney_garrowby_hill_boston_1998": { h: 152.4, w: 193, display: "152,4 × 193 cm", loc: "Museum of Fine Arts, Boston" },
+  "hockney_a_bigger_grand_canyon_canberra_1998": { h: 207, w: 744.2, display: "207 × 744,2 cm (60 toiles)", loc: "National Gallery of Australia, Canberra" },
+  "hockney_le_massacre_et_les_problemes_de_representation_2003": { h: 182.9, w: 274.3, display: "182,9 × 274,3 cm", loc: "Collection particulière" },
+  "hockney_soleil_de_minuit_norvege_2003": { h: 61, w: 91.4, display: "61 × 91,4 cm", loc: "Collection de l'artiste / The David Hockney Foundation" },
+  "hockney_route_et_champ_de_mais_yorkshire_2004": { h: 38.1, w: 57.2, display: "38,1 × 57,2 cm", loc: "The David Hockney Foundation" },
+  "hockney_route_de_rudston_fin_de_l_ete_2004": { h: 38.1, w: 57.2, display: "38,1 × 57,2 cm", loc: "The David Hockney Foundation" },
+  "hockney_route_avec_deux_maisons_yorkshire_2004": { h: 38.1, w: 57.2, display: "38,1 × 57,2 cm", loc: "The David Hockney Foundation" },
+  "hockney_passage_dans_la_haie_2004": { h: 38.1, w: 57.2, display: "38,1 × 57,2 cm", loc: "The David Hockney Foundation" },
+  "hockney_talus_enchevetre_et_arbres_yorkshire_2004": { h: 38.1, w: 57.2, display: "38,1 × 57,2 cm", loc: "The David Hockney Foundation" },
+  "hockney_la_maison_rouge_yorkshire_2004": { h: 38.1, w: 57.2, display: "38,1 × 57,2 cm", loc: "The David Hockney Foundation" },
+  "hockney_rudston_trees_ii_2005": { h: 91.4, w: 121.9, display: "91,4 × 121,9 cm", loc: "The David Hockney Foundation / Collection particulière" },
+  "hockney_vue_de_woldgate_2005": { h: 91.4, w: 121.9, display: "91,4 × 121,9 cm", loc: "Collection particulière" },
+  "hockney_de_rudston_a_sledmere_2005": { h: 91.4, w: 121.9, display: "91,4 × 121,9 cm", loc: "Collection particulière" },
+  "hockney_kilham_a_langtoft_2005": { h: 91.4, w: 121.9, display: "91,4 × 121,9 cm", loc: "Collection particulière" },
+  "hockney_kilham_a_langtoft_ii_2005": { h: 91.4, w: 121.9, display: "91,4 × 121,9 cm", loc: "Collection particulière" },
+  "hockney_vue_de_sledmere_2005": { h: 91.4, w: 121.9, display: "91,4 × 121,9 cm", loc: "Collection particulière" },
+  "hockney_de_langtoft_a_kilham_2005": { h: 91.4, w: 121.9, display: "91,4 × 121,9 cm", loc: "Collection particulière" },
+  "hockney_kilham_2005": { h: 91.4, w: 121.9, display: "91,4 × 121,9 cm", loc: "Collection particulière" },
+  "hockney_sans_titre_paysage_yorkshire_2005": { h: 91.4, w: 121.9, display: "91,4 × 121,9 cm", loc: "The David Hockney Foundation" },
+  "hockney_de_sledmere_a_malton_2005": { h: 91.4, w: 121.9, display: "91,4 × 121,9 cm", loc: "Collection particulière" },
+  "hockney_de_kilham_a_langtoft_variante_2005": { h: 91.4, w: 121.9, display: "91,4 × 121,9 cm", loc: "Collection particulière" },
+  "hockney_tunnel_d_arbres_2005": { h: 91.4, w: 121.9, display: "91,4 × 121,9 cm", loc: "Collection particulière / The David Hockney Foundation" },
 
 
   // Frans Hals (4 chefs-d'œuvre - Musée du Louvre, Paris)
-  "hals_paulus_van_beresteyn_louvre_1619": { h: 139.5, w: 102.5, display: "139,5 × 102,5 cm (Musée du Louvre, Paris)" },
-  "hals_le_bouffon_au_luth_louvre_1624": { h: 70, w: 62, display: "70 × 62 cm (Musée du Louvre, Paris)" },
-  "hals_la_bohemienne_louvre_1628": { h: 58, w: 52, display: "58 × 52 cm (Musée du Louvre, Paris)" },
-  "hals_portrait_de_femme_louvre_1650": { h: 108, w: 80, display: "108 × 80 cm (Musée du Louvre, Paris)" },
+  "hals_paulus_van_beresteyn_louvre_1619": { h: 139.5, w: 102.5, display: "139,5 × 102,5 cm", loc: "Musée du Louvre, Paris" },
+  "hals_le_bouffon_au_luth_louvre_1624": { h: 70, w: 62, display: "70 × 62 cm", loc: "Musée du Louvre, Paris" },
+  "hals_la_bohemienne_louvre_1628": { h: 58, w: 52, display: "58 × 52 cm", loc: "Musée du Louvre, Paris" },
+  "hals_portrait_de_femme_louvre_1650": { h: 108, w: 80, display: "108 × 80 cm", loc: "Musée du Louvre, Paris" },
 
 
   // Juan Gris (Musée des Beaux-Arts de Rennes / Centre Pompidou MNAM)
-  "gris_le_livre_ouvert_rennes_1925": { h: 33.3, w: 40.8, display: "33,3 × 40,8 cm (Musée des Beaux-Arts de Rennes / Centre Pompidou)" },
+  "gris_le_livre_ouvert_rennes_1925": { h: 33.3, w: 40.8, display: "33,3 × 40,8 cm", loc: "Musée des Beaux-Arts de Rennes / Centre Pompidou" },
 
 
   // Jean-Baptiste Greuze (6 œuvres - Musée du Louvre, Musée Fabre Montpellier, Musée d'Arts de Nantes)
-  "greuze_le_guitariste_nantes_1757": { h: 71, w: 56, display: "71 × 56 cm (Musée d'Arts de Nantes)" },
-  "greuze_accordee_de_village_louvre_1761": { h: 92, w: 117, display: "92 × 117 cm (Musée du Louvre, Paris)" },
-  "greuze_jeune_fille_aux_mains_jointes_montpellier_1780": { h: 46, w: 38, display: "46 × 38 cm (Musée Fabre, Montpellier)" },
-  "greuze_la_priere_du_matin_montpellier_1780": { h: 66.5, w: 52, display: "66,5 × 52 cm (Musée Fabre, Montpellier)" },
-  "greuze_portrait_saint_morys_nantes_1782": { h: 65, w: 54, display: "65 × 54 cm (Musée d'Arts de Nantes)" },
-  "greuze_portrait_michel_nicolas_hussard_nantes_1805": { h: 72.5, w: 58.8, display: "72,5 × 58,8 cm (Musée d'Arts de Nantes)" },
+  "greuze_le_guitariste_nantes_1757": { h: 71, w: 56, display: "71 × 56 cm", loc: "Musée d'Arts de Nantes" },
+  "greuze_accordee_de_village_louvre_1761": { h: 92, w: 117, display: "92 × 117 cm", loc: "Musée du Louvre, Paris" },
+  "greuze_jeune_fille_aux_mains_jointes_montpellier_1780": { h: 46, w: 38, display: "46 × 38 cm", loc: "Musée Fabre, Montpellier" },
+  "greuze_la_priere_du_matin_montpellier_1780": { h: 66.5, w: 52, display: "66,5 × 52 cm", loc: "Musée Fabre, Montpellier" },
+  "greuze_portrait_saint_morys_nantes_1782": { h: 65, w: 54, display: "65 × 54 cm", loc: "Musée d'Arts de Nantes" },
+  "greuze_portrait_michel_nicolas_hussard_nantes_1805": { h: 72.5, w: 58.8, display: "72,5 × 58,8 cm", loc: "Musée d'Arts de Nantes" },
 
 
   // Francisco de Goya (4 œuvres - Musée du Louvre, Prado, Cathédrale de Séville)
-  "goya_marquise_de_la_solana_louvre_1794": { h: 181, w: 122, display: "181 × 122 cm (Musée du Louvre)" },
-  "goya_tres_de_mayo_prado_1814": { h: 268, w: 347, display: "268 × 347 cm (Musée du Prado, Madrid)" },
-  "goya_saintes_juste_et_rufine_seville_1817": { h: 309, w: 177, display: "309 × 177 cm (Cathédrale de Séville)" },
-  "goya_saturne_devorant_un_de_ses_fils_prado_1823": { h: 143.5, w: 81.4, display: "143,5 × 81,4 cm (Musée du Prado, Madrid)" },
+  "goya_marquise_de_la_solana_louvre_1794": { h: 181, w: 122, display: "181 × 122 cm", loc: "Musée du Louvre" },
+  "goya_tres_de_mayo_prado_1814": { h: 268, w: 347, display: "268 × 347 cm", loc: "Musée du Prado, Madrid" },
+  "goya_saintes_juste_et_rufine_seville_1817": { h: 309, w: 177, display: "309 × 177 cm", loc: "Cathédrale de Séville" },
+  "goya_saturne_devorant_un_de_ses_fils_prado_1823": { h: 143.5, w: 81.4, display: "143,5 × 81,4 cm", loc: "Musée du Prado, Madrid" },
 
   // Benozzo Gozzoli (4 détails monumentaux - Chapelle des Mages, Florence)
-  "gozzoli_cortege_des_mages_jeune_roi_florence_1459": { h: 400, w: 500, display: "400 × 500 cm (Fresque monumentale, Chapelle des Mages, Palais Médicis)" },
-  "gozzoli_cortege_des_mages_chasse_guepard_florence_1459": { h: 400, w: 500, display: "400 × 500 cm (Fresque monumentale, Chapelle des Mages, Palais Médicis)" },
-  "gozzoli_cortege_des_mages_portraits_medicis_florence_1459": { h: 400, w: 500, display: "400 × 500 cm (Fresque monumentale, Chapelle des Mages, Palais Médicis)" },
-  "gozzoli_cortege_des_mages_roi_gaspard_laurent_florence_1459": { h: 400, w: 500, display: "400 × 500 cm (Fresque monumentale, Chapelle des Mages, Palais Médicis)" },
+  "gozzoli_cortege_des_mages_jeune_roi_florence_1459": { h: 400, w: 500, display: "400 × 500 cm", loc: "Fresque monumentale, Chapelle des Mages, Palais Médicis" },
+  "gozzoli_cortege_des_mages_chasse_guepard_florence_1459": { h: 400, w: 500, display: "400 × 500 cm", loc: "Fresque monumentale, Chapelle des Mages, Palais Médicis" },
+  "gozzoli_cortege_des_mages_portraits_medicis_florence_1459": { h: 400, w: 500, display: "400 × 500 cm", loc: "Fresque monumentale, Chapelle des Mages, Palais Médicis" },
+  "gozzoli_cortege_des_mages_roi_gaspard_laurent_florence_1459": { h: 400, w: 500, display: "400 × 500 cm", loc: "Fresque monumentale, Chapelle des Mages, Palais Médicis" },
 
   // Giottino (1 œuvre - Galerie des Offices)
-  "giottino_pieta_offices_florence_1360": { h: 195, w: 134, display: "195 × 134 cm (Galerie des Offices, Florence)" },
+  "giottino_pieta_offices_florence_1360": { h: 195, w: 134, display: "195 × 134 cm", loc: "Galerie des Offices, Florence" },
 
   // Giotto di Bondone (6 œuvres - Santa Maria Novella, Louvre, Offices, Santa Croce)
-  "giotto_crucifix_santa_maria_novella_florence_1290": { h: 578, w: 406, display: "578 × 406 cm (Basilique Santa Maria Novella, Florence)" },
-  "giotto_croix_peinte_louvre_1300": { h: 277, w: 225, display: "277 × 225 cm (Musée du Louvre)" },
-  "giotto_stigmates_saint_francois_louvre_1295": { h: 313, w: 163, display: "313 × 163 cm (Musée du Louvre)" },
-  "giotto_crucifixion_louvre_1300": { h: 54, w: 33, display: "54 × 33 cm (Musée du Louvre)" },
-  "giotto_vierge_d_ognissanti_maesta_offices_1310": { h: 325, w: 204, display: "325 × 204 cm (Galerie des Offices, Florence)" },
-  "giotto_chapelle_peruzzi_santa_croce_1318": { h: 600, w: 450, display: "600 × 450 cm (fresque monumentale, Santa Croce, Florence)" },
+  "giotto_crucifix_santa_maria_novella_florence_1290": { h: 578, w: 406, display: "578 × 406 cm", loc: "Basilique Santa Maria Novella, Florence" },
+  "giotto_croix_peinte_louvre_1300": { h: 277, w: 225, display: "277 × 225 cm", loc: "Musée du Louvre" },
+  "giotto_stigmates_saint_francois_louvre_1295": { h: 313, w: 163, display: "313 × 163 cm", loc: "Musée du Louvre" },
+  "giotto_crucifixion_louvre_1300": { h: 54, w: 33, display: "54 × 33 cm", loc: "Musée du Louvre" },
+  "giotto_vierge_d_ognissanti_maesta_offices_1310": { h: 325, w: 204, display: "325 × 204 cm", loc: "Galerie des Offices, Florence" },
+  "giotto_chapelle_peruzzi_santa_croce_1318": { h: 600, w: 450, display: "600 × 450 cm", loc: "fresque monumentale, Santa Croce, Florence" },
 
   // Alberto Giacometti (1 œuvre - Tokyo NMWA)
-  "giacometti_caroline_tokyo_1962": { h: 129.5, w: 96.5, display: "129,5 × 96,5 cm (Musée National d'Art Occidental de Tokyo)" },
+  "giacometti_caroline_tokyo_1962": { h: 129.5, w: 96.5, display: "129,5 × 96,5 cm", loc: "Musée National d'Art Occidental de Tokyo" },
 
   // Luca Giordano (5 œuvres - MBA Rouen, Nantes, Palazzo Medici-Riccardi, El Escorial, Tolède)
-  "giordano_le_bon_samaritain_rouen_1660": { h: 137, w: 170, display: "137 × 170 cm (Musée des Beaux-Arts de Rouen)" },
-  "giordano_saint_dominique_au_dessus_des_passions_nantes_1680": { h: 120, w: 96, display: "120 × 96 cm (Musée d'Arts de Nantes)" },
-  "giordano_apotheose_des_medicis_palais_medici_riccardi_1683": { h: 700, w: 2400, display: "700 × 2 400 cm (fresque monumentale, Galerie des Glaces, Florence)" },
+  "giordano_le_bon_samaritain_rouen_1660": { h: 137, w: 170, display: "137 × 170 cm", loc: "Musée des Beaux-Arts de Rouen" },
+  "giordano_saint_dominique_au_dessus_des_passions_nantes_1680": { h: 120, w: 96, display: "120 × 96 cm", loc: "Musée d'Arts de Nantes" },
+  "giordano_apotheose_des_medicis_palais_medici_riccardi_1683": { h: 700, w: 2400, display: "700 × 2 400 cm", loc: "fresque monumentale, Galerie des Glaces, Florence" },
   "giordano_triomphe_monarchie_espagnole_escurial_1692": { h: 1200, w: 1500, display: "1 200 × 1 500 cm (voûte monumentale, El Escorial)" },
-  "giordano_voute_sacristie_cathedrale_tolede_1692": { h: 1000, w: 2000, display: "1 000 × 2 000 cm (voûte monumentale, Cathédrale de Tolède)" },
+  "giordano_voute_sacristie_cathedrale_tolede_1692": { h: 1000, w: 2000, display: "1 000 × 2 000 cm", loc: "voûte monumentale, Cathédrale de Tolède" },
 
   // Jean-Léon Gérôme (4 œuvres - Musée d'Arts de Nantes & MBA Rouen)
   "gerome_tete_de_femme_cornes_de_belier_nantes_1853": { h: 47, w: 47, display: "47 × 47 cm (tondo, diamètre 46 cm)" },
-  "gerome_vue_plaine_de_thebes_nantes_1857": { h: 77, w: 131, display: "77 × 131 cm (Musée d'Arts de Nantes)" },
-  "gerome_le_prisonnier_nantes_1861": { h: 45, w: 78, display: "45 × 78 cm (Musée d'Arts de Nantes)" },
-  "gerome_pere_et_fils_devant_porte_rouen_1866": { h: 55, w: 46, display: "55 × 46 cm (Musée des Beaux-Arts de Rouen)" },
+  "gerome_vue_plaine_de_thebes_nantes_1857": { h: 77, w: 131, display: "77 × 131 cm", loc: "Musée d'Arts de Nantes" },
+  "gerome_le_prisonnier_nantes_1861": { h: 45, w: 78, display: "45 × 78 cm", loc: "Musée d'Arts de Nantes" },
+  "gerome_pere_et_fils_devant_porte_rouen_1866": { h: 55, w: 46, display: "55 × 46 cm", loc: "Musée des Beaux-Arts de Rouen" },
 
   // Domenico Ghirlandaio (5 œuvres - Musée du Louvre & San Marco Florence)
-  "ghirlandaio_vierge_a_l_enfant_louvre_1473": { h: 71, w: 49, display: "71 × 49 cm (Musée du Louvre)" },
-  "ghirlandaio_la_cene_san_marco_florence_1486": { h: 400, w: 810, display: "400 × 810 cm (fresque monumentale, San Marco Florence)" },
-  "ghirlandaio_portrait_vieillard_et_jeune_garcon_louvre_1490": { h: 62.7, w: 45.5, display: "62,7 × 45,5 cm (Musée du Louvre)" },
-  "ghirlandaio_apparition_christ_ressuscite_a_la_vierge_louvre_1490": { h: 45, w: 41.5, display: "45 × 41,5 cm (Musée du Louvre)" },
-  "ghirlandaio_visitation_vierge_elisabeth_louvre_1491": { h: 172, w: 165, display: "172 × 165 cm (Musée du Louvre)" },
+  "ghirlandaio_vierge_a_l_enfant_louvre_1473": { h: 71, w: 49, display: "71 × 49 cm", loc: "Musée du Louvre" },
+  "ghirlandaio_la_cene_san_marco_florence_1486": { h: 400, w: 810, display: "400 × 810 cm", loc: "fresque monumentale, San Marco Florence" },
+  "ghirlandaio_portrait_vieillard_et_jeune_garcon_louvre_1490": { h: 62.7, w: 45.5, display: "62,7 × 45,5 cm", loc: "Musée du Louvre" },
+  "ghirlandaio_apparition_christ_ressuscite_a_la_vierge_louvre_1490": { h: 45, w: 41.5, display: "45 × 41,5 cm", loc: "Musée du Louvre" },
+  "ghirlandaio_visitation_vierge_elisabeth_louvre_1491": { h: 172, w: 165, display: "172 × 165 cm", loc: "Musée du Louvre" },
 
   // Théodore Géricault (15 œuvres - Louvre, MBA Rouen, Musée Fabre)
-  "gericault_char_antique_rouen_1808": { h: 38, w: 46, display: "38 × 46 cm (Musée des Beaux-Arts de Rouen)" },
-  "gericault_academie_d_homme_rouen_1808": { h: 81, w: 65, display: "81 × 65 cm (Musée des Beaux-Arts de Rouen)" },
-  "gericault_officier_de_chasseurs_chargeant_esquisse_nantes_1812": { h: 52.5, w: 40.5, display: "52,5 × 40,5 cm (Musée d'Arts de Nantes)" },
-  "gericault_officier_de_chasseurs_chargeant_louvre_1812": { h: 349, w: 266, display: "349 × 266 cm (Musée du Louvre)" },
-  "gericault_cheval_arabe_gris_blanc_rouen_1812": { h: 60, w: 73, display: "60 × 73 cm (Musée des Beaux-Arts de Rouen)" },
-  "gericault_cheval_cabre_au_tapis_rouge_rouen_1812": { h: 45, w: 37, display: "45 × 37 cm (Musée des Beaux-Arts de Rouen)" },
-  "gericault_portrait_d_un_carabinier_rouen_1814": { h: 101, w: 85, display: "101 × 85 cm (Musée des Beaux-Arts de Rouen)" },
-  "gericault_cuirassier_blesse_quittant_le_feu_louvre_1814": { h: 358, w: 294, display: "358 × 294 cm (Musée du Louvre)" },
-  "gericault_cheval_arrete_par_des_jeunes_gens_rouen_1817": { h: 45, w: 60, display: "45 × 60 cm (Musée des Beaux-Arts de Rouen)" },
-  "gericault_etude_de_pieds_et_de_mains_montpellier_1817": { h: 52, w: 64, display: "52 × 64 cm (Musée Fabre Montpellier)" },
-  "gericault_etude_de_bras_et_de_jambes_rouen_1818": { h: 48, w: 60, display: "48 × 60 cm (Musée des Beaux-Arts de Rouen)" },
-  "gericault_tete_d_un_jeune_homme_mort_rouen_1818": { h: 32, w: 24, display: "32 × 24 cm (Musée des Beaux-Arts de Rouen)" },
-  "gericault_portrait_le_charpentier_de_la_meduse_rouen_1818": { h: 46.5, w: 38, display: "46,5 × 38 cm (Musée des Beaux-Arts de Rouen)" },
-  "gericault_le_radeau_de_la_meduse_louvre_1818": { h: 491, w: 716, display: "491 × 716 cm (Musée du Louvre)" },
-  "gericault_deux_leopards_rouen_1820": { h: 59, w: 72.5, display: "59 × 72,5 cm (Musée des Beaux-Arts de Rouen)" },
+  "gericault_char_antique_rouen_1808": { h: 38, w: 46, display: "38 × 46 cm", loc: "Musée des Beaux-Arts de Rouen" },
+  "gericault_academie_d_homme_rouen_1808": { h: 81, w: 65, display: "81 × 65 cm", loc: "Musée des Beaux-Arts de Rouen" },
+  "gericault_officier_de_chasseurs_chargeant_esquisse_nantes_1812": { h: 52.5, w: 40.5, display: "52,5 × 40,5 cm", loc: "Musée d'Arts de Nantes" },
+  "gericault_officier_de_chasseurs_chargeant_louvre_1812": { h: 349, w: 266, display: "349 × 266 cm", loc: "Musée du Louvre" },
+  "gericault_cheval_arabe_gris_blanc_rouen_1812": { h: 60, w: 73, display: "60 × 73 cm", loc: "Musée des Beaux-Arts de Rouen" },
+  "gericault_cheval_cabre_au_tapis_rouge_rouen_1812": { h: 45, w: 37, display: "45 × 37 cm", loc: "Musée des Beaux-Arts de Rouen" },
+  "gericault_portrait_d_un_carabinier_rouen_1814": { h: 101, w: 85, display: "101 × 85 cm", loc: "Musée des Beaux-Arts de Rouen" },
+  "gericault_cuirassier_blesse_quittant_le_feu_louvre_1814": { h: 358, w: 294, display: "358 × 294 cm", loc: "Musée du Louvre" },
+  "gericault_cheval_arrete_par_des_jeunes_gens_rouen_1817": { h: 45, w: 60, display: "45 × 60 cm", loc: "Musée des Beaux-Arts de Rouen" },
+  "gericault_etude_de_pieds_et_de_mains_montpellier_1817": { h: 52, w: 64, display: "52 × 64 cm", loc: "Musée Fabre Montpellier" },
+  "gericault_etude_de_bras_et_de_jambes_rouen_1818": { h: 48, w: 60, display: "48 × 60 cm", loc: "Musée des Beaux-Arts de Rouen" },
+  "gericault_tete_d_un_jeune_homme_mort_rouen_1818": { h: 32, w: 24, display: "32 × 24 cm", loc: "Musée des Beaux-Arts de Rouen" },
+  "gericault_portrait_le_charpentier_de_la_meduse_rouen_1818": { h: 46.5, w: 38, display: "46,5 × 38 cm", loc: "Musée des Beaux-Arts de Rouen" },
+  "gericault_le_radeau_de_la_meduse_louvre_1818": { h: 491, w: 716, display: "491 × 716 cm", loc: "Musée du Louvre" },
+  "gericault_deux_leopards_rouen_1820": { h: 59, w: 72.5, display: "59 × 72,5 cm", loc: "Musée des Beaux-Arts de Rouen" },
 
   
   
   // Paul Gauguin (7 œuvres)
-  "gauguin_vase_de_fleurs_a_la_fenetre_rennes_1881": { h: 19, w: 27, display: "19 × 27 cm (Musée de Rennes)" },
-  "gauguin_nature_morte_aux_oranges_rennes_1881": { h: 33, w: 46, display: "33 × 46 cm (Musée de Rennes)" },
-  "gauguin_baigneuses_a_dieppe_tokyo_1885": { h: 38.1, w: 46.2, display: "38,1 × 46,2 cm (Tokyo NMWA)" },
-  "gauguin_quatre_femmes_bretonnes_munich_1886": { h: 71.8, w: 91.4, display: "71,8 × 91,4 cm (Neue Pinakothek)" },
-  "gauguin_bretonnes_pres_de_la_mer_tokyo_1889": { h: 92.5, w: 73.6, display: "92,5 × 73,6 cm (Tokyo NMWA)" },
-  "gauguin_nativite_te_tamari_no_atua_munich_1896": { h: 96, w: 128, display: "96 × 128 cm (Neue Pinakothek)" },
-  "gauguin_trois_tahitiens_ou_conversation_edimbourg_1899": { h: 73, w: 94, display: "73 × 94 cm (National Gallery of Scotland)" },
+  "gauguin_vase_de_fleurs_a_la_fenetre_rennes_1881": { h: 19, w: 27, display: "19 × 27 cm", loc: "Musée de Rennes" },
+  "gauguin_nature_morte_aux_oranges_rennes_1881": { h: 33, w: 46, display: "33 × 46 cm", loc: "Musée de Rennes" },
+  "gauguin_baigneuses_a_dieppe_tokyo_1885": { h: 38.1, w: 46.2, display: "38,1 × 46,2 cm", loc: "Tokyo NMWA" },
+  "gauguin_quatre_femmes_bretonnes_munich_1886": { h: 71.8, w: 91.4, display: "71,8 × 91,4 cm", loc: "Neue Pinakothek" },
+  "gauguin_bretonnes_pres_de_la_mer_tokyo_1889": { h: 92.5, w: 73.6, display: "92,5 × 73,6 cm", loc: "Tokyo NMWA" },
+  "gauguin_nativite_te_tamari_no_atua_munich_1896": { h: 96, w: 128, display: "96 × 128 cm", loc: "Neue Pinakothek" },
+  "gauguin_trois_tahitiens_ou_conversation_edimbourg_1899": { h: 73, w: 94, display: "73 × 94 cm", loc: "National Gallery of Scotland" },
 // Caspar David Friedrich (2 œuvres Louvre)
   "friedrich_bord_de_mer_clair_de_lune_louvre_1818": { h: 22, w: 30.5, display: "22 × 30,5 cm" },
   "friedrich_arbre_aux_corbeaux_louvre_1822": { h: 59, w: 73, display: "59 × 73 cm" },
@@ -7951,8 +8416,8 @@ const CERTIFIED_PAINTING_DIMENSIONS = {
   // Thomas Gainsborough (1 œuvre Louvre)
   "gainsborough_conversation_dans_un_parc_louvre_1746": { h: 73, w: 68, display: "73 × 68 cm" },
 // Jean-Honoré Fragonard (11 œuvres)
-  "fragonard_rouen_oeuvre_1": { h: 25, w: 33, display: "24,5 × 32,8 cm (Musée de Rouen)" },
-  "fragonard_rouen_oeuvre_2": { h: 45, w: 110, display: "Format panoramique (Musée de Rouen)" },
+  "fragonard_rouen_oeuvre_1": { h: 25, w: 33, display: "24,5 × 32,8 cm", loc: "Musée de Rouen" },
+  "fragonard_rouen_oeuvre_2": { h: 45, w: 110, display: "Format panoramique", loc: "Musée de Rouen" },
   "fragonard_blanchisseuses_rouen_1758": { h: 59.5, w: 73.5, display: "59,5 × 73,5 cm" },
   "fragonard_jeu_palette_montpellier_1761": { h: 75, w: 94, display: "75 × 94 cm" },
   "fragonard_bascule_montpellier_1761": { h: 75, w: 94, display: "75 × 94 cm (panneau pendant)" },
@@ -8008,7 +8473,7 @@ const CERTIFIED_PAINTING_DIMENSIONS = {
   "chateau_osaka_tenshukaku_1583": { h: 5800, w: 4500, display: "58 m (hauteur totale) • Base 20 m + Donjon 38 m" },
   "duchamp_portrait_dr_ferdinand_tribout_rouen_1910": { h: 54.5, w: 46, display: "54,5 × 46 cm" },
   "duchamp_deux_nus_rouen_1910": { h: 73, w: 92, display: "73 × 92 cm" },
-  "dore_paysage_montagne_rouen": { h: 0, w: 0, display: "Non documentées (Musée de Rouen)" },
+  "dore_paysage_montagne_rouen": { h: 0, w: 0, display: "Non documentées", loc: "Musée de Rouen" },
   "dubuffet_texturologie_duveteuse_rouen_1958": { h: 65, w: 105, display: "65 × 105 cm" },
   "dubuffet_vache_la_belle_queutee_tokyo_1954": { h: 97, w: 130, display: "97 × 130 cm" },
   "dubuffet_site_avec_2_personnages_f106_nantes_1982": { h: 68, w: 100, display: "68 × 100 cm" },
@@ -8022,9 +8487,9 @@ const CERTIFIED_PAINTING_DIMENSIONS = {
   "arcimboldo_hiver_1563_munich": { h: 67, w: 51, display: "67 × 51 cm" },
   "arcimboldo_hiver_1573_louvre": { h: 76, w: 63.5, display: "76 × 63,5 cm" },
   "arcimboldo_printemps_1563_munich": { h: 66, w: 50, display: "66 × 50 cm" },
-  "bacon_crucifixion_1965_munich": { h: 197.5, w: 147, display: "197,5 × 147 cm (par panneau)" },
+  "bacon_crucifixion_1965_munich": { h: 197.5, w: 147, display: "197,5 × 147 cm", loc: "par panneau" },
   "bacon_lying_figure_1969_madrid": { h: 198, w: 147.5, display: "198 × 147,5 cm" },
-  "bacon_trois_etudes_figures_pied_crucifixion_1944_londres": { h: 94, w: 74, display: "94 × 74 cm (par panneau)" },
+  "bacon_trois_etudes_figures_pied_crucifixion_1944_londres": { h: 94, w: 74, display: "94 × 74 cm", loc: "par panneau" },
   "barozzi_gloire_saint_vital_ravenne_1778": { h: 850, w: 850, display: "8,5 × 8,5 m (coupole)" },
   "beckmann_avant_le_bal_masque_1922_munich": { h: 80.4, w: 130.5, display: "80,4 × 130,5 cm" },
   "bellini_giovanni_christ_benissant_1460_louvre": { h: 58, w: 46, display: "58 × 46 cm" },
@@ -8075,7 +8540,7 @@ const CERTIFIED_PAINTING_DIMENSIONS = {
   "caravage_christ_a_la_colonne_rouen_1606": { h: 134.5, w: 175.5, display: "134,5 × 175,5 cm" },
   "caravage_david_et_goliath_prado_madrid_1610": { h: 110.4, w: 91.3, display: "110,4 × 91,3 cm" },
   "caravage_diseuse_bonne_aventure_louvre_1595": { h: 99, w: 131, display: "99 × 131 cm" },
-  "caravage_meduse_offices_florence_1597": { h: 60, w: 55, display: "60 × 55 cm (bouclier circulaire)" },
+  "caravage_meduse_offices_florence_1597": { h: 60, w: 55, display: "60 × 55 cm", loc: "bouclier circulaire" },
   "caravage_mort_de_la_vierge_louvre_1601": { h: 369, w: 245, display: "369 × 245 cm" },
   "caravage_portrait_alof_de_wignacourt_louvre_1607": { h: 194, w: 134, display: "194 × 134 cm" },
   "caravage_saint_jean_baptiste_tolede_1598": { h: 169, w: 112, display: "169 × 112 cm" },
@@ -8191,7 +8656,7 @@ const CERTIFIED_PAINTING_DIMENSIONS = {
   "courbet_solitude_le_ruisseau_couvert_montpellier_1866": { h: 94, w: 136, display: "94 × 136 cm" },
   "courbet_vue_de_la_tour_de_farges_montpellier_1857": { h: 46, w: 55, display: "46 × 55 cm" },
   "cranach_adam_et_eve_courtauld_1526": { h: 117.1, w: 80.8, display: "117,1 × 80,8 cm" },
-  "cranach_adam_et_eve_offices_1528": { h: 172, w: 63, display: "172 × 63 cm (chaque volet)" },
+  "cranach_adam_et_eve_offices_1528": { h: 172, w: 63, display: "172 × 63 cm", loc: "chaque volet" },
   "cranach_jardin_gethsemani_tokyo_1518": { h: 54, w: 32, display: "54 × 32 cm" },
   "cranach_judith_et_holopherne_lisbonne_1530": { h: 61, w: 49.5, display: "61 × 49,5 cm" },
   "cranach_judith_tete_holopherne_tokyo_1530": { h: 37.2, w: 25, display: "37,2 × 25 cm" },
@@ -8225,7 +8690,7 @@ const CERTIFIED_PAINTING_DIMENSIONS = {
   "dali_le_chemin_de_l_enigme_figueras_1981": { h: 140, w: 94, display: "140 × 94 cm" },
   "dali_le_cheval_tres_joyeux_figueras_1980": { h: 100, w: 125, display: "100 × 125 cm" },
   "dali_le_grand_masturbateur_reina_sofia_1929": { h: 110, w: 150, display: "110 × 150 cm" },
-  "dali_le_palais_du_vent_plafond_figueras_1972": { h: 1200, w: 800, display: "12 × 8 m (plafond monumental)" },
+  "dali_le_palais_du_vent_plafond_figueras_1972": { h: 1200, w: 800, display: "12 × 8 m", loc: "plafond monumental" },
   "dali_le_spectre_du_sex_appeal_figueras_1934": { h: 17.9, w: 13.9, display: "17,9 × 13,9 cm" },
   "dali_leda_atomica_figueras_1949": { h: 61, w: 46, display: "61 × 46 cm" },
   "dali_leda_atomique_figueras_1949": { h: 61.1, w: 45.3, display: "61,1 × 45,3 cm" },
@@ -8300,7 +8765,7 @@ const CERTIFIED_PAINTING_DIMENSIONS = {
   "delaunay_fete_a_la_campagne_rennes_1905": { h: 92, w: 73, display: "92 × 73 cm" },
   "delaunay_nature_morte_portugaise_montpellier_1915": { h: 140, w: 140, display: "140 × 140 cm" },
   "delaunay_portrait_henri_carlier_montpellier_1906": { h: 64, w: 60, display: "64 × 60 cm" },
-  "filippi_antichambre_gouvernement_1570": { h: 360, w: 540, display: "360 × 540 cm (plafond)" },
+  "filippi_antichambre_gouvernement_1570": { h: 360, w: 540, display: "360 × 540 cm", loc: "plafond" },
   "houasse_salon_mars_versailles_1674": { h: 430, w: 680, display: "430 × 680 cm (voûte)" },
   "houasse_salon_venus_versailles_1672": { h: 430, w: 680, display: "430 × 680 cm (voûte)" },
   "la_tour_adoration_des_bergers_louvre_1644": { h: 107, w: 131, display: "107 × 131 cm" },
@@ -8325,9 +8790,9 @@ const CERTIFIED_PAINTING_DIMENSIONS = {
   "lempicka_portrait_jeune_fille_nantes_1947": { h: 41, w: 33, display: "41 × 33 cm" },
   "piero_sigismond_malatesta_louvre_1451": { h: 44.5, w: 34.5, display: "44,5 × 34,5 cm" },
   "piero_triomphe_chastete_offices_1473": { h: 47, w: 66, display: "47 × 66 cm" },
-  "settevecchi_camerino_baccanali_1570": { h: 320, w: 480, display: "320 × 480 cm (décor)" },
-  "settevecchi_chambre_aurore_1574": { h: 350, w: 520, display: "350 × 520 cm (plafond)" },
-  "settevecchi_saletta_giochi_1570": { h: 340, w: 510, display: "340 × 510 cm (plafond)" },
+  "settevecchi_camerino_baccanali_1570": { h: 320, w: 480, display: "320 × 480 cm", loc: "décor" },
+  "settevecchi_chambre_aurore_1574": { h: 350, w: 520, display: "350 × 520 cm", loc: "plafond" },
+  "settevecchi_saletta_giochi_1570": { h: 340, w: 510, display: "340 × 510 cm", loc: "plafond" },
   "sonia_delaunay_nu_jaune_nantes_1908": { h: 65, w: 99, display: "65 × 99 cm" },
   "sonia_delaunay_serpent_noir_nantes_1971": { h: 130, w: 260, display: "130 × 260 cm" }
 };
@@ -9709,6 +10174,13 @@ function initSearchEngine() {
       if (artistHero) artistHero.hidden = true;
       if (corpusDashboard) corpusDashboard.hidden = true;
       if (corpusSourceDrawer) corpusSourceDrawer.hidden = true;
+      window.activeArtistThemeId = null;
+      window.activeArtistThemeSet = null;
+      window.activeArtistThemeLabel = '';
+      const pillsBox = document.getElementById('artist-theme-filter-pills');
+      if (pillsBox) pillsBox.style.display = 'none';
+      const themesShowcase = document.getElementById('artist-themes-showcase');
+      if (themesShowcase) themesShowcase.style.display = 'none';
       if (filterText) filterText.value = '';
       currentRenderLimit = PAGE_CHUNK;
       renderSearchGallery();
@@ -10107,9 +10579,9 @@ function createGalleryCardElement(art, modalList) {
 
   const hasFocus = art.hotspots && art.hotspots.length > 0;
   const badgeDate = formatCardBadgeDate(art);
-  const tagText = art.artifactType || art.category || art.medium || art.type || 'Peinture à l\'huile sur toile';
+  const tagText = (art.artifactType && art.artifactType !== 'Peinture' ? art.artifactType : '') || art.medium || art.artifactType || art.category || art.type || 'Peinture à l\'huile sur toile';
   const lexEntry = (typeof getTypologyLexiconEntry === 'function')
-    ? (getTypologyLexiconEntry(art.artifactType) || getTypologyLexiconEntry(art.category) || getTypologyLexiconEntry(art.medium) || getTypologyLexiconEntry(art.type))
+    ? (getTypologyLexiconEntry(tagText) || getTypologyLexiconEntry(art.artifactType) || getTypologyLexiconEntry(art.category) || getTypologyLexiconEntry(art.medium) || getTypologyLexiconEntry(art.type))
     : null;
 
   const tagMarkup = lexEntry
@@ -10235,6 +10707,11 @@ function renderSearchGallery() {
           matches = true;
         }
         if (!matches) return false;
+      }
+
+      // Filtre thématique actif au sein de la monographie du peintre
+      if (window.activeArtistThemeId && window.activeArtistThemeSet) {
+        if (!window.activeArtistThemeSet.has(item.id)) return false;
       }
     }
 
