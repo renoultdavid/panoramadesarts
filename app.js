@@ -1607,6 +1607,7 @@ const BANNERS_REGISTRY = {
   occ_conceptuel: "https://lh3.googleusercontent.com/pw/AP1GczNFrnkU0CB_dyE9L9kLg4n4k3yz2MdGR99oZnTYNwONOOI50XSJFO35HAXs96VEqGpyioETNaU1Ca-jT4-s0kIkQ5_M3GfgH2P72zkEaggGGwp0M3gRyjwKyZraq8aKbNc7O85Lyx1Rc-uh1NHJZGIfJQ=w1724-h731-s-no-gm?authuser=0",
   occ_livre: "https://lh3.googleusercontent.com/pw/AP1GczPAQ7fZcYAGY0QxJE9AZT4mNvgVg2uH-UezlC7DMeTje_QzQjLi_4u1ok0Nh2oExbARCeDvW2hxGNKrVA6GG6DL30GhfxR7khAtfKlJGI2PbPDNLAQ3GEraSF-wc2mpRfkyZtLLpYPdKnizWiTE9ng2zA=w1724-h731-s-no-gm?authuser=0",
   occ_mosaique: "https://lh3.googleusercontent.com/pw/AP1GczOUe76szbL4GxtrkYlm4ZQSLqqHVimJIdfUA5uE_sACk078nujNuUcd0S5NDBVO4D7bT1ckedU0FcXvMNG_Eij2yk09oPDRW20L_Cv_AYIdrffQipLaaY46kFFL3JYC-7zWsnby7fullNatqvW4CH6YiA=w1724-h731-s-no-gm?authuser=0",
+  occ_fresque: "https://lh3.googleusercontent.com/pw/AP1GczMvPhXDmL-JQJW9xx0etcx3S3Dnn94HCB2HpEVJBhMSFpyt__UTMDA57W01a06s99ArRkoXwDhhZwsUzEM96sNqaZokaOSz3qP0EjepHpA8mesDmSLQpPNW4RtkZ8w_CnybezUVwAvtecfwfp6HhnX-tA=w1681-h713-s-no-gm?authuser=0",
   occ_orfevrerie: "https://lh3.googleusercontent.com/pw/AP1GczNb7yqJegPyFwUfZAYYYJKG40S4NfB3ckgjK-X0_0uzAd7WyGVTlr5VokccO_3a8CvDVxJRQAidY0WUCzBn9gWf_NSdmdYNscAWglITiRJpMz3ey-S_L1C2fvYWaqxFkIz7lr2-lLkQ49PuBf8WS-eFmA=w1724-h731-s-no-gm?authuser=0"
 };
 
@@ -1740,6 +1741,11 @@ function getArtworkBanner(art) {
   // 12. OCCIDENT CHRÉTIEN : MOSAÏQUES MONUMENTALES (PALÉOCHRÉTIEN, BYZANTIN, ROMAN, GOTHIQUE, RENAISSANCE)
   if (cId === 'occident' && (aType.includes('mosaïque') || aType.includes('mosaique') || aType.includes('sectile') || aType.includes('tessellatum') || aType.includes('cuve baptismale') || fullText.includes('aquilée') || fullText.includes('san vitale') || fullText.includes('galla placidia') || fullText.includes('sant\'apollinare') || fullText.includes('saint-apollinaire') || fullText.includes('baptistère des orthodoxes') || fullText.includes('baptistère des ariens') || fullText.includes('cefalù') || fullText.includes('monreale') || fullText.includes('martorana') || fullText.includes('san miniato al monte') || fullText.includes('pomposa') || fullText.includes('bekalta') || fullText.includes('daphni') || fullText.includes('hosios loukas') || fullText.includes('porta della mandorla'))) {
     return BANNERS_REGISTRY.occ_mosaique;
+  }
+
+  // 12 bis. OCCIDENT CHRÉTIEN & ORIENT : PEINTURES MURALES & FRESQUES MÉDIÉVALES
+  if ((aType.includes('fresque') || aType.includes('peinture murale') || aType.includes('détrempe') || aType.includes('detrempe')) && !aType.includes('mosaïque') && !aType.includes('mosaique')) {
+    return BANNERS_REGISTRY.occ_fresque;
   }
 
   // 13. OCCIDENT CHRÉTIEN : NEFS, CLOÎTRES, PLAFONDS & COUPOLES
