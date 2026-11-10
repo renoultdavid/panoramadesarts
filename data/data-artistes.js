@@ -2,6 +2,178 @@
    REGISTRE DES PEINTRES & NOTICES MONOGRAPHIQUES
    ========================================================================== */
 window.ARTISTS_REGISTRY = {
+  "greuze": {
+    "id": "greuze",
+    "name": "Greuze Jean-Baptiste",
+    "sortName": "Greuze Jean-Baptiste",
+    "sortLetter": "G",
+    "dates": "1725 – 1805",
+    "movement": "Peinture morale, Drame bourgeois, Sensibilisme & Transition néoclassique",
+    "nationality": "Français",
+    "techniques": "Huile sur toile, huile sur panneau de bois, têtes d'expression, sanguine, pierre noire, lavis",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczOCIxeFNwYAZTO_GraxNn4-HqdEiJ-xVur7tD-pJJUXqafOW8CCgLo4y2GqS7BG82edLBqElsaGbmIJuNuQuZyNjn3e-6YKnr9K1h8TQunWLPFnfW5FXEh-xWjAwIYqARW2ItTPrqycT0gugUmI8iGQaQ=w1681-h713-s-no-gm?authuser=0",
+    "bio": "<p>Jean-Baptiste Greuze (1725 – 1805) est le maître incontesté de la peinture morale et du drame bourgeois au XVIIIe siècle. Encensé par le philosophe Denis Diderot, il a rompu avec la légèreté du Rococo pour proposer un art qui vise à « rendre la vertu attrayante et le vice odieux », préfigurant par son sérieux et son intensité le néoclassicisme à venir.</p><p>Son genre pictural se définit par le sensibilerisme et la narration théâtrale. Greuze traite les sujets de la vie quotidienne comme s'il s'agissait de scènes d'histoire antique. Son style se caractérise par une attention minutieuse aux expressions du visage (les « physionomies »), des compositions souvent organisées comme une scène de théâtre et une touche qui sait se faire onctueuse pour les chairs ou plus rugueuse pour les intérieurs rustiques.</p><p>L'évolution de son style marque un passage de la scène de genre moralisatrice vers un sentimentalisme parfois ambigu :</p><p>Le succès du «drame bourgeois« (années 1750-1760) : Il devient célèbre avec des toiles comme L'Accordée de village. Il y met en scène les vertus familiales, le respect des aînés et l'honnêteté des gens de peu, avec une mise en scène rigoureuse et émouvante.</p><p>La quête du Grand Genre : Soucieux de reconnaissance académique, il tente de s'imposer comme peintre d'histoire avec Septime Sévère et Caracalla. L'échec de cette œuvre le blesse profondément et le pousse à se retirer de l'Académie pour exposer de manière indépendante.</p><p>Les «Têtes d'expression« et le déclin : Dans sa maturité, il multiplie les portraits de jeunes filles à la sensibilité exacerbée (pleurs, regards au ciel). Ce style, plus larmoyant et parfois équivoque, rencontre un immense succès commercial mais l'éloigne de la rigueur de ses débuts. À la fin de sa vie, dépassé par la révolution néoclassique de David, il meurt dans une relative pauvreté. Oeuvres : L'inventaire scientifique moderne repose en grande partie sur les travaux monumentaux de l'historien de l'art américain Edgar Munhall (ancien conservateur de la Frick Collection, qui a consacré sa vie à réhabiliter le peintre). En écartant son œuvre graphique titanesque (ses somptueux dessins à la sanguine ou aux trois crayons qui s'arrachaient chez les collectionneurs), le corpus des peintures (huiles sur toile et sur panneau) strictement autographes de Greuze est aujourd'hui fixé à environ 400 à 450 œuvres. Oeuvres :</p>",
+    "totalOeuvresEstimees": "400 à 450 peintures autographes",
+    "oeuvresConsensusNotice": "L'inventaire scientifique moderne repose en grande partie sur les travaux monumentaux de l'historien de l'art américain Edgar Munhall (ancien conservateur de la Frick Collection, qui a consacré sa vie à réhabiliter le peintre). En écartant son œuvre graphique titanesque (ses somptueux dessins à la sanguine ou aux trois crayons qui s'arrachaient chez les collectionneurs), le corpus des peintures (huiles sur toile et sur panneau) strictement autographes de Greuze est aujourd'hui fixé à environ 400 à 450 œuvres.",
+    "timeline": {
+        "periods": [
+            {
+                "title": "1725 – 1755 : La jeunesse bourguignonne, Lyon et l’ascension parisienne",
+                "years": "1725 – 1755",
+                "color": "#0284c7",
+                "desc": "Origines à Tournus, formation lyonnaise chez Grandon, montée à Paris et triomphe du Père de famille à l'Académie.",
+                "summary": "Né à Tournus, Jean-Baptiste Greuze brave l'autorité paternelle pour se vouer à la peinture. Après s'être formé à Lyon auprès de Charles Grandon, il s'installe à Paris et fait sensation à l'Académie royale en 1755 avec ses scènes de la vie populaire imprégnées d'une dignité morale inédite.",
+                "events": [
+                    {
+                        "year": 1725,
+                        "title": "Naissance à Tournus en Bourgogne",
+                        "desc": "Naît le 21 août 1725 à Tournus dans une famille d'entrepreneurs et de carreleurs.",
+                        "icon": "🌟",
+                        "badge": "Origines"
+                    },
+                    {
+                        "year": 1745,
+                        "title": "Apprentissage à Lyon chez Charles Grandon",
+                        "desc": "Se forme au portrait d'atelier et au dessin rigoureux auprès du peintre lyonnais Charles Grandon.",
+                        "icon": "🎨",
+                        "badge": "Formation"
+                    },
+                    {
+                        "year": 1750,
+                        "title": "Montée à Paris & Académie royale",
+                        "desc": "Gagne la capitale, fréquente les cours de l'Académie royale de peinture et attire l'attention du sculpteur Pigalle.",
+                        "icon": "🏛️",
+                        "badge": "Paris"
+                    },
+                    {
+                        "year": 1755,
+                        "title": "Agrément à l'Académie royale de peinture",
+                        "desc": "Agréé à l'Académie royale grâce au Père de famille expliquant la Bible à ses enfants, acclamé par la critique.",
+                        "icon": "📜",
+                        "badge": "Académie"
+                    }
+                ]
+            },
+            {
+                "title": "1755 – 1768 : Le succès du drame bourgeois, Diderot et l'apogée moral",
+                "years": "1755 – 1768",
+                "color": "#10b981",
+                "desc": "Séjour d'études en Italie, triomphe de L'Accordée de village au Salon de 1761 et consécration par les Lumières.",
+                "summary": "Accompagnant l'abbé Gougenot en Italie de 1755 à 1757, Greuze en revient pour révolutionner le Salon du Louvre. Avec le soutien fervent du philosophe Denis Diderot, il impose le drame bourgeois, élevant le quotidien des humbles à la solennité de la grande peinture d'histoire.",
+                "events": [
+                    {
+                        "year": 1755,
+                        "title": "Voyage d'études en Italie",
+                        "desc": "Séjourne à Rome, Florence et Naples avec le collectionneur abbé Gougenot, observant les maîtres anciens et la lumière méditerranéenne.",
+                        "icon": "🇮🇹",
+                        "badge": "Italie"
+                    },
+                    {
+                        "year": 1757,
+                        "title": "Le Guitariste (L'Oiseleur qui accorde sa guitare)",
+                        "desc": "Chef-d'œuvre du Salon de 1757 mêlant réalisme flamand et sensibilité intime, conservé au Musée d'Arts de Nantes.",
+                        "type": "masterpiece",
+                        "icon": "🎨",
+                        "artworkId": "greuze_le_guitariste_nantes_1757"
+                    },
+                    {
+                        "year": 1761,
+                        "title": "L'Accordée de village (Musée du Louvre)",
+                        "desc": "Triomphe historique au Salon de 1761, encensé par Denis Diderot comme le manifeste absolu du sentimentalisme des Lumières et du drame bourgeois.",
+                        "type": "masterpiece",
+                        "icon": "🎨",
+                        "artworkId": "greuze_accordee_de_village_louvre_1761"
+                    },
+                    {
+                        "year": 1765,
+                        "title": "La Piété filiale (Le Paralytique)",
+                        "desc": "Chef-d'œuvre acquis par Catherine II de Russie ; Diderot s'exclame : 'Voilà mon peintre et le vôtre !'",
+                        "icon": "📜",
+                        "badge": "Consécration"
+                    }
+                ]
+            },
+            {
+                "title": "1769 – 1789 : La quête du Grand Genre, rupture et Têtes d’expression",
+                "years": "1769 – 1789",
+                "color": "#d97706",
+                "desc": "La crise de Septime Sévère, l'indépendance d'atelier, les Têtes d'expression et la ferveur des collectionneurs.",
+                "summary": "Reçu à l'Académie royale en 1769 comme simple peintre de genre plutôt que peintre d'histoire, Greuze, profondément humilié, refuse désormais d'exposer au Salon officiel. Dans son atelier personnel, il attire l'Europe entière avec ses portraits raffinés et ses têtes de jeunes filles à la sensibilité exacerbée.",
+                "events": [
+                    {
+                        "year": 1769,
+                        "title": "La querelle de Septime Sévère et rupture avec l'Académie",
+                        "desc": "Présente Septime Sévère et Caracalla pour sa réception ; l'Académie le rétrograde peintre de genre. Greuze quitte le Salon officiel.",
+                        "icon": "⚡",
+                        "badge": "Rupture"
+                    },
+                    {
+                        "year": 1780,
+                        "title": "Jeune fille aux mains jointes (Montpellier)",
+                        "desc": "Emblématique tête d'expression sentimentale explorant l'ambiguïté entre piété et rêverie amoureuse (Musée Fabre de Montpellier).",
+                        "type": "masterpiece",
+                        "icon": "🎨",
+                        "artworkId": "greuze_jeune_fille_aux_mains_jointes_montpellier_1780"
+                    },
+                    {
+                        "year": 1780,
+                        "title": "La Prière du matin (Montpellier)",
+                        "desc": "Scène intime au pied du lit captant la vulnérabilité et la ferveur domestique à la veille de la Révolution (Musée Fabre).",
+                        "type": "masterpiece",
+                        "icon": "🎨",
+                        "artworkId": "greuze_la_priere_du_matin_montpellier_1780"
+                    },
+                    {
+                        "year": 1782,
+                        "title": "Portrait de Charles-Paul-Jean-Baptiste de Saint-Morys",
+                        "desc": "Somptueux portrait en robe écarlate de magistrat au Parlement de Paris et illustre collectionneur d'art (Musée d'Arts de Nantes).",
+                        "type": "masterpiece",
+                        "icon": "🎨",
+                        "artworkId": "greuze_portrait_saint_morys_nantes_1782"
+                    }
+                ]
+            },
+            {
+                "title": "1789 – 1805 : La Révolution, le crépuscule napoléonien et la postérité",
+                "years": "1789 – 1805",
+                "color": "#dc2626",
+                "desc": "Ruine financière sous la Révolution, isolement face au néoclassicisme davidien et derniers chefs-d'œuvre de l'Empire.",
+                "summary": "La tourmente révolutionnaire ruine ses rentes et disperse sa clientèle aristocratique. Dépassé par la montée triomphale de Jacques-Louis David, Greuze demeure fidèle à son atelier du Louvre et peint jusqu'à la fin de sa vie des portraits d'une prodigieuse vérité psychologique.",
+                "events": [
+                    {
+                        "year": 1789,
+                        "title": "La Révolution française & Ruine financière",
+                        "desc": "La suppression des privilèges et la faillite des assignats anéantissent ses économies ; ses mécènes émigrent.",
+                        "icon": "⚔️",
+                        "badge": "Révolution"
+                    },
+                    {
+                        "year": 1800,
+                        "title": "Retour au Salon sous le Consulat",
+                        "desc": "Expose à nouveau au Salon du Louvre sous Bonaparte, admiré des jeunes générations pour sa virtuosité de touche.",
+                        "icon": "🏛️",
+                        "badge": "Consulat"
+                    },
+                    {
+                        "year": 1805,
+                        "title": "Portrait de Michel-Nicolas Hussard (Nantes)",
+                        "desc": "Ultime chef-d'œuvre de Greuze : portrait bourgeois du Premier Empire alliant vérité tactile du XVIIIe siècle et rigueur néoclassique.",
+                        "type": "masterpiece",
+                        "icon": "🎨",
+                        "artworkId": "greuze_portrait_michel_nicolas_hussard_nantes_1805"
+                    },
+                    {
+                        "year": 1805,
+                        "title": "Mort de Jean-Baptiste Greuze au Louvre",
+                        "desc": "S'éteint le 21 mars 1805 dans son logement du Louvre à l'âge de 79 ans, entouré de ses fidèles élèves dont Marie-Geneviève Bouliar.",
+                        "icon": "🕊️",
+                        "badge": "Éternité"
+                    }
+                ]
+            }
+        ]
+    }
+},
   "goya": {
     id: "goya",
     name: "Goya Francisco",

@@ -7645,6 +7645,15 @@ function populateModalData(art) {
 }
 
 const CERTIFIED_PAINTING_DIMENSIONS = {
+  // Jean-Baptiste Greuze (6 œuvres - Musée du Louvre, Musée Fabre Montpellier, Musée d'Arts de Nantes)
+  "greuze_le_guitariste_nantes_1757": { h: 71, w: 56, display: "71 × 56 cm (Musée d'Arts de Nantes)" },
+  "greuze_accordee_de_village_louvre_1761": { h: 92, w: 117, display: "92 × 117 cm (Musée du Louvre, Paris)" },
+  "greuze_jeune_fille_aux_mains_jointes_montpellier_1780": { h: 46, w: 38, display: "46 × 38 cm (Musée Fabre, Montpellier)" },
+  "greuze_la_priere_du_matin_montpellier_1780": { h: 66.5, w: 52, display: "66,5 × 52 cm (Musée Fabre, Montpellier)" },
+  "greuze_portrait_saint_morys_nantes_1782": { h: 65, w: 54, display: "65 × 54 cm (Musée d'Arts de Nantes)" },
+  "greuze_portrait_michel_nicolas_hussard_nantes_1805": { h: 72.5, w: 58.8, display: "72,5 × 58,8 cm (Musée d'Arts de Nantes)" },
+
+
   // Francisco de Goya (4 œuvres - Musée du Louvre, Prado, Cathédrale de Séville)
   "goya_marquise_de_la_solana_louvre_1794": { h: 181, w: 122, display: "181 × 122 cm (Musée du Louvre)" },
   "goya_tres_de_mayo_prado_1814": { h: 268, w: 347, display: "268 × 347 cm (Musée du Prado, Madrid)" },
