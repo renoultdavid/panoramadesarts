@@ -16,9 +16,411 @@
    ========================================================================== */
 window.ART_OBJECTS = [
   {
+    "id": "giottino_pieta_offices_florence_1360",
+    "artistId": "giottino",
+    "artist": "Giottino (Giotto di Stefano)",
+    "artistSort": "Giottino (Giotto di Stefano)",
+    "civId": "occident",
+    "periodId": "occ_medieval_gothique",
+    "civName": "Occident : Trecento florentin (Tardo-Gothique)",
+    "title": "Pietà (Déploration du Christ)",
+    "date": 1360,
+    "dateDisplay": "v. 1360–1365",
+    "century": "XIVe siècle (1360)",
+    "centuryDisplay": "XIVe s. (vers 1360–1365)",
+    "centuryNumeric": 1360,
+    "period": "XIVe siècle",
+    "domain": "peinture",
+    "artifactType": "Détrempe sur panneau de bois",
+    "category": "Détrempe sur panneau de bois",
+    "type": "Détrempe (tempera)",
+    "medium": "Détrempe et or sur panneau de bois",
+    "dimensions": {
+      "h": 195,
+      "w": 134,
+      "display": "195 × 134 cm (Galerie des Offices, Florence)"
+    },
+    "site": "Galleria degli Uffizi (Florence, Italie)",
+    "originSite": "Église San Remigio (Florence, Italie)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczOORBT8htgIK5lvtQaRgB_ejS2Rqtk7Zd_aaasZweU-kmqCumA61mujC9GgPmjxC-uGTutA3xdw9pvllbS3thW26_6uJy_LkXn_96gmSV8d-TEn-pntmEYDbTeRIOfELuYQBp2NfU3vubQ41z3sU5QONg=w1681-h1859-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczOORBT8htgIK5lvtQaRgB_ejS2Rqtk7Zd_aaasZweU-kmqCumA61mujC9GgPmjxC-uGTutA3xdw9pvllbS3thW26_6uJy_LkXn_96gmSV8d-TEn-pntmEYDbTeRIOfELuYQBp2NfU3vubQ41z3sU5QONg=w1681-h1859-s-no-gm?authuser=0",
+    "tags": [
+      "peinture",
+      "moyen-âge",
+      "giottino",
+      "pietà",
+      "christ",
+      "offices",
+      "florence"
+    ],
+    "chips": [
+      "XIVe s.",
+      "v. 1360",
+      "Trecento florentin",
+      "Pietà",
+      "Offices, Florence"
+    ],
+    "narrative": "<p>Cette œuvre magistrale, conservée à la Galerie des Offices de Florence, est l'un des sommets de la peinture florentine du XIVe siècle. Réalisée vers 1360-1365 par Giotto di Stefano, plus connu sous le nom de Giottino, cette Pietà (ou Déploration du Christ) témoigne de l'héritage de Giotto tout en introduisant une sensibilité nouvelle, plus dramatique et naturaliste. La composition s'articule autour du corps rigide du Christ, déposé au pied de la Croix, dont le bois sombre structure verticalement le fond d'or. L'artiste parvient à une intensité émotionnelle rare en isolant chaque personnage dans sa propre expression du deuil : la Vierge qui serre le visage de son fils contre le sien, Marie-Madeleine aux pieds du Christ, et saint Jean l'Évangéliste qui joint les mains dans un geste de douleur contenue. La particularité de ce panneau réside également dans la présence des deux donatrices, représentées à une échelle plus petite et présentées par leurs saints patrons, qui s'intègrent à la scène sacrée avec une dévotion silencieuse.</p><p>Techniquement, Giottino se distingue par une utilisation sophistiquée de la couleur et du volume. Les drapés des vêtements possèdent une densité sculpturale, tandis que les visages sont modelés avec une finesse qui préfigure le style international. Le fond d'or, traité avec une grande minutie, ne sert pas seulement de décor abstrait mais accentue la solennité de l'instant. Cette œuvre demeure un exemple exceptionnel de la manière dont les successeurs de Giotto ont su faire évoluer la représentation humaine vers une dimension plus psychologique et humaine, marquant une étape cruciale vers la Renaissance. // ajout Giotto :</p>",
+    "desc": "<p>Cette œuvre magistrale, conservée à la Galerie des Offices de Florence, est l'un des sommets de la peinture florentine du XIVe siècle. Réalisée vers 1360-1365 par Giotto di Stefano, plus connu sous le nom de Giottino, cette Pietà (ou Déploration du Christ) témoigne de l'héritage de Giotto tout en introduisant une sensibilité nouvelle, plus dramatique et naturaliste. La composition s'articule autour du corps rigide du Christ, déposé au pied de la Croix, dont le bois sombre structure verticalement le fond d'or. L'artiste parvient à une intensité émotionnelle rare en isolant chaque personnage dans sa propre expression du deuil : la Vierge qui serre le visage de son fils contre le sien, Marie-Madeleine aux pieds du Christ, et saint Jean l'Évangéliste qui joint les mains dans un geste de douleur contenue. La particularité de ce panneau réside également dans la présence des deux donatrices, représentées à une échelle plus petite et présentées par leurs saints patrons, qui s'intègrent à la scène sacrée avec une dévotion silencieuse.</p><p>Techniquement, Giottino se distingue par une utilisation sophistiquée de la couleur et du volume. Les drapés des vêtements possèdent une densité sculpturale, tandis que les visages sont modelés avec une finesse qui préfigure le style international. Le fond d'or, traité avec une grande minutie, ne sert pas seulement de décor abstrait mais accentue la solennité de l'instant. Cette œuvre demeure un exemple exceptionnel de la manière dont les successeurs de Giotto ont su faire évoluer la représentation humaine vers une dimension plus psychologique et humaine, marquant une étape cruciale vers la Renaissance. // ajout Giotto :</p>",
+    "contemporaryArt": {
+      "title": "Trecento florentin • L'Après-Peste noire & L'Éveil de l'humanisme",
+      "events": [
+        "1348 : La terrible Peste noire décime plus de la moitié de la population de Florence.",
+        "1353 : Boccace achève le Décaméron, monument de la prose vernaculaire toscane.",
+        "1360 : Giottino peint sa célèbre Pietà pour l'église San Remigio de Florence.",
+        "1374 : Mort du poète et humaniste Pétrarque.",
+        "1378 : Révolte des Ciompi à Florence, soulèvement des artisans du textile."
+      ]
+    }
+  },
+  {
+    "id": "giotto_crucifix_santa_maria_novella_florence_1290",
+    "artistId": "giotto",
+    "artist": "Giotto di Bondone",
+    "artistSort": "Giotto di Bondone",
+    "civId": "occident",
+    "periodId": "occ_medieval_gothique",
+    "civName": "Occident : Trecento florentin & Révolution giottesque",
+    "title": "Crucifix de Santa Maria Novella",
+    "date": 1290,
+    "dateDisplay": "v. 1290–1295",
+    "century": "XIIIe siècle (1290)",
+    "centuryDisplay": "XIIIe s. (vers 1290–1295)",
+    "centuryNumeric": 1290,
+    "period": "XIIIe siècle",
+    "domain": "peinture",
+    "artifactType": "Détrempe sur panneau de bois profilé",
+    "category": "Détrempe sur panneau de bois profilé",
+    "type": "Détrempe (tempera)",
+    "medium": "Détrempe et or sur panneau de bois profilé",
+    "dimensions": {
+      "h": 578,
+      "w": 406,
+      "display": "578 × 406 cm (Basilique Santa Maria Novella, Florence)"
+    },
+    "site": "Basilica di Santa Maria Novella (Florence, Italie)",
+    "originSite": "Nef de la Basilique Santa Maria Novella (Florence, Italie)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczNSY4eXb_4JJ4qLtMXIuqVRcw5v8G34JPPoJkGyvBwct2f62HzChCdQuaNeckrCXueUU6eJRXdQD1hh1mD6ZxX4hC3azQu_VpLEfVOg3J9nkz04WSbM6I9GcKwyCPGwix6csQe6FJzh7-wxwylTY79OTQ=w1611-h2416-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczNSY4eXb_4JJ4qLtMXIuqVRcw5v8G34JPPoJkGyvBwct2f62HzChCdQuaNeckrCXueUU6eJRXdQD1hh1mD6ZxX4hC3azQu_VpLEfVOg3J9nkz04WSbM6I9GcKwyCPGwix6csQe6FJzh7-wxwylTY79OTQ=w1611-h2416-s-no-gm?authuser=0",
+    "tags": [
+      "peinture",
+      "moyen-âge",
+      "giotto",
+      "crucifix",
+      "santa maria novella",
+      "florence"
+    ],
+    "chips": [
+      "XIIIe s.",
+      "v. 1290",
+      "Christus patiens",
+      "Monumental",
+      "Santa Maria Novella"
+    ],
+    "narrative": "<p>Giotto di Bondone a révolutionné la peinture occidentale avec ce Crucifix de Santa Maria Novella, réalisé vers 1290-1295. Cette œuvre monumentale, haute de plus de cinq mètres, marque une rupture définitive avec la tradition byzantine du Christus triumphans (le Christ triomphant, insensible à la douleur). Giotto y impose une vision radicalement nouvelle : le Christus patiens, un homme souffrant dont le corps subit réellement les lois de la gravité et de l'agonie.</p><p>Le genre pictural de ce crucifix est le réalisme sacré. Le style de Giotto se manifeste ici par une attention sans précédent à l'anatomie et à la matérialité. Pour la première fois, le corps du Christ n'est plus une silhouette élégante et cambrée de manière artificielle, mais une masse pesante qui s'affaisse, faisant tirer les bras et gonfler l'abdomen. Les nuances de vert et de gris dans la chair soulignent la mort imminente, tandis que le sang coule de manière réaliste sur le bois, s'accumulant à la base de la croix sur le rocher du Golgotha où repose le crâne d'Adam.</p><p>L'évolution du style de Giotto à travers cette œuvre montre son passage d'une influence encore proche de son maître Cimabue vers une humanisation totale du divin. Contrairement aux crucifix plus anciens où le fond était richement décoré, Giotto utilise ici un motif de textile rouge sobre derrière le corps pour mieux faire ressortir le relief sculptural du Christ. Aux extrémités de la croix, la Vierge et Saint Jean sont représentés dans une douleur contenue, leurs visages exprimant une tristesse humaine profonde qui renforce la dimension dramatique de la scène. Cette œuvre a servi de modèle absolu pour tous les peintres de la Renaissance, établissant de nouveaux standards pour la représentation de la figure humaine dans l'espace. //</p>",
+    "desc": "<p>Giotto di Bondone a révolutionné la peinture occidentale avec ce Crucifix de Santa Maria Novella, réalisé vers 1290-1295. Cette œuvre monumentale, haute de plus de cinq mètres, marque une rupture définitive avec la tradition byzantine du Christus triumphans (le Christ triomphant, insensible à la douleur). Giotto y impose une vision radicalement nouvelle : le Christus patiens, un homme souffrant dont le corps subit réellement les lois de la gravité et de l'agonie.</p><p>Le genre pictural de ce crucifix est le réalisme sacré. Le style de Giotto se manifeste ici par une attention sans précédent à l'anatomie et à la matérialité. Pour la première fois, le corps du Christ n'est plus une silhouette élégante et cambrée de manière artificielle, mais une masse pesante qui s'affaisse, faisant tirer les bras et gonfler l'abdomen. Les nuances de vert et de gris dans la chair soulignent la mort imminente, tandis que le sang coule de manière réaliste sur le bois, s'accumulant à la base de la croix sur le rocher du Golgotha où repose le crâne d'Adam.</p><p>L'évolution du style de Giotto à travers cette œuvre montre son passage d'une influence encore proche de son maître Cimabue vers une humanisation totale du divin. Contrairement aux crucifix plus anciens où le fond était richement décoré, Giotto utilise ici un motif de textile rouge sobre derrière le corps pour mieux faire ressortir le relief sculptural du Christ. Aux extrémités de la croix, la Vierge et Saint Jean sont représentés dans une douleur contenue, leurs visages exprimant une tristesse humaine profonde qui renforce la dimension dramatique de la scène. Cette œuvre a servi de modèle absolu pour tous les peintres de la Renaissance, établissant de nouveaux standards pour la représentation de la figure humaine dans l'espace. //</p>",
+    "contemporaryArt": {
+      "title": "Dernier XIIIe siècle & Aube du Trecento • Révolution spirituelle franciscaine & Giotto",
+      "events": [
+        "1282 : Établissement du gouvernement des Prieurs des Arts à Florence.",
+        "1290 : Giotto peint le Crucifix révolutionnaire de Santa Maria Novella.",
+        "1294 : Pose de la première pierre de la basilique Santa Croce à Florence par Arnolfo di Cambio.",
+        "1296 : Début de la construction de la cathédrale Santa Maria del Fiore à Florence.",
+        "1300 : Premier Jubilé universel décrété à Rome par le pape Boniface VIII."
+      ]
+    }
+  },
+  {
+    "id": "giotto_croix_peinte_louvre_1300",
+    "artistId": "giotto",
+    "artist": "Giotto di Bondone",
+    "artistSort": "Giotto di Bondone",
+    "civId": "occident",
+    "periodId": "occ_medieval_gothique",
+    "civName": "Occident : Trecento florentin & Révolution giottesque",
+    "title": "Croix peinte (San Francesco de Pise)",
+    "date": 1300,
+    "dateDisplay": "v. 1300–1325",
+    "century": "XIVe siècle (1300)",
+    "centuryDisplay": "XIVe s. (vers 1300–1325)",
+    "centuryNumeric": 1300,
+    "period": "XIVe siècle",
+    "domain": "peinture",
+    "artifactType": "Détrempe sur panneau de bois profilé",
+    "category": "Détrempe sur panneau de bois profilé",
+    "type": "Détrempe (tempera)",
+    "medium": "Détrempe et or sur panneau de bois",
+    "dimensions": {
+      "h": 277,
+      "w": 225,
+      "display": "277 × 225 cm (Musée du Louvre)"
+    },
+    "site": "Musée du Louvre (Paris, France)",
+    "originSite": "Église San Francesco de Pise (Italie)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczOv8pEfAujU2segDLQAzrjyYv_WoY6MjLG97w1Ac7wSormFfh1UFvKLQK5kOb-yNqEk9bX1hOzWk9gwu4Cc6PLKNDWbBGvYe7Zl24UYDPes6w9sRU6oUQrQNm9ODQvgzV0LPmhphnH0sNH1if0bbV5T-g=w1681-h2131-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczOv8pEfAujU2segDLQAzrjyYv_WoY6MjLG97w1Ac7wSormFfh1UFvKLQK5kOb-yNqEk9bX1hOzWk9gwu4Cc6PLKNDWbBGvYe7Zl24UYDPes6w9sRU6oUQrQNm9ODQvgzV0LPmhphnH0sNH1if0bbV5T-g=w1681-h2131-s-no-gm?authuser=0",
+    "tags": [
+      "peinture",
+      "moyen-âge",
+      "giotto",
+      "croix",
+      "louvre",
+      "pise"
+    ],
+    "chips": [
+      "XIVe s.",
+      "v. 1300",
+      "Christus patiens",
+      "Polylobé",
+      "Musée du Louvre"
+    ],
+    "narrative": "<p>Cette Croix peinte, réalisée par Giotto di Bondone et son atelier entre 1300 et 1325, est un exemple monumental du type Christus patiens (le Christ souffrant), qui s'impose en Italie sous l'influence des ordres mendiants. Provenant probablement de l'église de San Francesco à Pise, cette œuvre illustre la rupture définitive opérée par Giotto avec la tradition byzantine. L'artiste substitue à la stylisation abstraite un naturalisme saisissant, conférant au corps divin une réalité charnelle et une pesanteur dramatique qui bouleversent la piété du XIVe siècle.</p><p>La structure de la croix est de type polylobé, avec des extensions aux extrémités des bras et au sommet. Au centre, le corps du Christ est représenté avec une précision anatomique novatrice : les muscles du thorax sont saillants, le ventre est légèrement distendu par l'asphyxie et les jambes se croisent, fixées par un seul clou, ce qui accentue la torsion du bassin. Cette recherche de tridimensionnalité est renforcée par l'usage du clair-obscur, qui modèle le corps comme une sculpture. Le Christ ne semble plus flotter devant la croix mais y est véritablement suspendu, son propre poids entraînant l'affaissement des bras.</p><p>Sur le plan descriptif, l'œuvre brille par la richesse de ses ornements. Le fond de la croix est décoré d'un motif géométrique complexe en or sur fond sombre, créant un contraste avec la pâleur livide du corps. Aux extrémités des bras de la croix (les tabelloni), on trouve les figures de la Vierge à gauche et de Saint Jean à droite, représentés à mi-corps dans une attitude de douleur contenue. Au sommet, dans le médaillon supérieur, figure le pélican mystique se perçant le flanc pour nourrir ses petits, symbole traditionnel du sacrifice du Christ. La partie inférieure de la croix montre la base du poteau fichée dans un rocher, figurant le mont Golgotha.</p><p>L'œuvre se distingue par son intensité psychologique. Le visage du Christ, aux yeux clos et à la bouche entrouverte, n'est plus un masque d'impassibilité mais le portrait d'une agonie humaine. Giotto parvient à concilier la majesté divine, soulignée par le nimbe crucifère doré, avec la vérité de la souffrance physique. Cette croix n'est pas seulement un objet liturgique mais un instrument de médiation émotionnelle, invitant le fidèle à une identification profonde avec le Sauveur. Par sa monumentalité et sa force plastique, elle annonce les grandes réalisations de la Renaissance italienne. //</p>",
+    "desc": "<p>Cette Croix peinte, réalisée par Giotto di Bondone et son atelier entre 1300 et 1325, est un exemple monumental du type Christus patiens (le Christ souffrant), qui s'impose en Italie sous l'influence des ordres mendiants. Provenant probablement de l'église de San Francesco à Pise, cette œuvre illustre la rupture définitive opérée par Giotto avec la tradition byzantine. L'artiste substitue à la stylisation abstraite un naturalisme saisissant, conférant au corps divin une réalité charnelle et une pesanteur dramatique qui bouleversent la piété du XIVe siècle.</p><p>La structure de la croix est de type polylobé, avec des extensions aux extrémités des bras et au sommet. Au centre, le corps du Christ est représenté avec une précision anatomique novatrice : les muscles du thorax sont saillants, le ventre est légèrement distendu par l'asphyxie et les jambes se croisent, fixées par un seul clou, ce qui accentue la torsion du bassin. Cette recherche de tridimensionnalité est renforcée par l'usage du clair-obscur, qui modèle le corps comme une sculpture. Le Christ ne semble plus flotter devant la croix mais y est véritablement suspendu, son propre poids entraînant l'affaissement des bras.</p><p>Sur le plan descriptif, l'œuvre brille par la richesse de ses ornements. Le fond de la croix est décoré d'un motif géométrique complexe en or sur fond sombre, créant un contraste avec la pâleur livide du corps. Aux extrémités des bras de la croix (les tabelloni), on trouve les figures de la Vierge à gauche et de Saint Jean à droite, représentés à mi-corps dans une attitude de douleur contenue. Au sommet, dans le médaillon supérieur, figure le pélican mystique se perçant le flanc pour nourrir ses petits, symbole traditionnel du sacrifice du Christ. La partie inférieure de la croix montre la base du poteau fichée dans un rocher, figurant le mont Golgotha.</p><p>L'œuvre se distingue par son intensité psychologique. Le visage du Christ, aux yeux clos et à la bouche entrouverte, n'est plus un masque d'impassibilité mais le portrait d'une agonie humaine. Giotto parvient à concilier la majesté divine, soulignée par le nimbe crucifère doré, avec la vérité de la souffrance physique. Cette croix n'est pas seulement un objet liturgique mais un instrument de médiation émotionnelle, invitant le fidèle à une identification profonde avec le Sauveur. Par sa monumentalité et sa force plastique, elle annonce les grandes réalisations de la Renaissance italienne. //</p>",
+    "contemporaryArt": {
+      "title": "Trecento • L'Essor des ordres mendiants & L'Humanisation du divin",
+      "events": [
+        "1300 : Giotto exécute ses croix monumentales pour les couvents mendiants toscans.",
+        "1302 : Dante Alighieri est condamné à l'exil perpétuel hors de Florence.",
+        "1305 : Décoration à fresque de la Chapelle des Scrovegni à Padoue par Giotto.",
+        "1309 : Installation de la papauté en Avignon sous Clément V.",
+        "1311 : Duccio di Buoninsegna livre la monumentale Maestà pour la cathédrale de Sienne."
+      ]
+    }
+  },
+  {
+    "id": "giotto_stigmates_saint_francois_louvre_1295",
+    "artistId": "giotto",
+    "artist": "Giotto di Bondone",
+    "artistSort": "Giotto di Bondone",
+    "civId": "occident",
+    "periodId": "occ_medieval_gothique",
+    "civName": "Occident : Trecento florentin & Révolution giottesque",
+    "title": "Saint François d'Assise recevant les stigmates",
+    "date": 1295,
+    "dateDisplay": "v. 1295–1300",
+    "century": "XIIIe siècle (1295)",
+    "centuryDisplay": "XIIIe s. (vers 1295–1300)",
+    "centuryNumeric": 1295,
+    "period": "XIIIe siècle",
+    "domain": "peinture",
+    "artifactType": "Détrempe sur panneau de bois avec prédelle",
+    "category": "Détrempe sur panneau de bois avec prédelle",
+    "type": "Détrempe (tempera)",
+    "medium": "Détrempe et or sur panneau de peuplier",
+    "dimensions": {
+      "h": 313,
+      "w": 163,
+      "display": "313 × 163 cm (Musée du Louvre)"
+    },
+    "site": "Musée du Louvre (Paris, France)",
+    "originSite": "Église San Francesco de Pise (Italie)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczMRaqusSemo1GkYcF6VrcBFFnIhxMeJzRftbpA1m4loXRsXDc9vyYVlNzRW9gEVHuTUOSRGu0BKnyEB4uZwfOJUUfMHi2P4kmhSD1tWg3sO7GX1vRhLCMOPczNV2trO8PMptClgOlryMJHjycQeF4eXNg=w1458-h2416-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczMRaqusSemo1GkYcF6VrcBFFnIhxMeJzRftbpA1m4loXRsXDc9vyYVlNzRW9gEVHuTUOSRGu0BKnyEB4uZwfOJUUfMHi2P4kmhSD1tWg3sO7GX1vRhLCMOPczNV2trO8PMptClgOlryMJHjycQeF4eXNg=w1458-h2416-s-no-gm?authuser=0",
+    "tags": [
+      "peinture",
+      "moyen-âge",
+      "giotto",
+      "saint françois",
+      "stigmates",
+      "louvre",
+      "pise"
+    ],
+    "chips": [
+      "XIIIe s.",
+      "v. 1295",
+      "Saint François",
+      "Retable & Prédelle",
+      "Musée du Louvre"
+    ],
+    "narrative": "<p>Cette œuvre monumentale, peinte par Giotto di Bondone vers la fin du XIIIe siècle, constitue l'un des jalons fondamentaux de la peinture occidentale. Provenant initialement de l'église San Francesco de Pise, ce panneau de bois de grandes dimensions témoigne de la révolution stylistique opérée par le maître florentin. En s'éloignant de la raideur byzantine alors prédominante, Giotto introduit ici une recherche de naturalisme, de volume et d'émotion humaine qui préfigure les innovations de la Renaissance. L'œuvre servait de retable et permettait aux fidèles de contempler les épisodes clés de la vie du saint le plus populaire de l'époque, dont le culte se propageait rapidement à travers l'Europe.</p><p>La composition centrale illustre l'épisode mystique survenu sur le mont Alverne en 1224. Saint François est représenté agenouillé, le corps de trois-quarts, dans une posture de réception à la fois physique et spirituelle. Ses mains levées et son regard intense sont dirigés vers une figure céleste : un séraphin aux six ailes flamboyantes au milieu duquel apparaît le Christ crucifié. De cette apparition émanent des rayons d'or rectilignes qui viennent frapper les mains, les pieds et le flanc du saint, lui transmettant ainsi les stigmates, les plaies de la Passion. Le paysage, bien que stylisé sur un fond d'or symbolisant le divin, montre une volonté de rendre la rudesse de la montagne par des rochers escarpés et quelques arbres isolés, marquant une rupture avec l'abstraction des décors antérieurs.</p><p>La partie inférieure du panneau, appelée prédelle, se divise en trois scènes narratives qui complètent la biographie du saint et renforcent son autorité spirituelle. À gauche, la Vision de l'église en ruine montre le pape Innocent III rêvant de saint François soutenant à bout de bras la basilique du Latran, soulignant le rôle salvateur du saint pour l'Église institutionnelle. La scène centrale dépeint l'Approbation de la règle de l'ordre par le pape, un moment de reconnaissance officielle crucial pour les Franciscains. Enfin, la scène de droite illustre le célèbre Prêche aux oiseaux, soulignant la dimension universelle de la charité franciscaine et son lien unique avec la création.</p><p>L'ensemble de l'œuvre se distingue par une gestion novatrice de l'espace et du poids des corps. Les figures possèdent une densité réelle, presque sculpturale, soulignée par des jeux de plis sur les bures brunes des moines. Les architectures représentées dans la prédelle, bien que respectant encore des conventions de perspective médiévales, tentent de définir un espace clos et cohérent. Par cette capacité à lier le sacré au sensible, Giotto transforme l'image de dévotion en un récit humain et dramatique d'une puissance inédite. //</p>",
+    "desc": "<p>Cette œuvre monumentale, peinte par Giotto di Bondone vers la fin du XIIIe siècle, constitue l'un des jalons fondamentaux de la peinture occidentale. Provenant initialement de l'église San Francesco de Pise, ce panneau de bois de grandes dimensions témoigne de la révolution stylistique opérée par le maître florentin. En s'éloignant de la raideur byzantine alors prédominante, Giotto introduit ici une recherche de naturalisme, de volume et d'émotion humaine qui préfigure les innovations de la Renaissance. L'œuvre servait de retable et permettait aux fidèles de contempler les épisodes clés de la vie du saint le plus populaire de l'époque, dont le culte se propageait rapidement à travers l'Europe.</p><p>La composition centrale illustre l'épisode mystique survenu sur le mont Alverne en 1224. Saint François est représenté agenouillé, le corps de trois-quarts, dans une posture de réception à la fois physique et spirituelle. Ses mains levées et son regard intense sont dirigés vers une figure céleste : un séraphin aux six ailes flamboyantes au milieu duquel apparaît le Christ crucifié. De cette apparition émanent des rayons d'or rectilignes qui viennent frapper les mains, les pieds et le flanc du saint, lui transmettant ainsi les stigmates, les plaies de la Passion. Le paysage, bien que stylisé sur un fond d'or symbolisant le divin, montre une volonté de rendre la rudesse de la montagne par des rochers escarpés et quelques arbres isolés, marquant une rupture avec l'abstraction des décors antérieurs.</p><p>La partie inférieure du panneau, appelée prédelle, se divise en trois scènes narratives qui complètent la biographie du saint et renforcent son autorité spirituelle. À gauche, la Vision de l'église en ruine montre le pape Innocent III rêvant de saint François soutenant à bout de bras la basilique du Latran, soulignant le rôle salvateur du saint pour l'Église institutionnelle. La scène centrale dépeint l'Approbation de la règle de l'ordre par le pape, un moment de reconnaissance officielle crucial pour les Franciscains. Enfin, la scène de droite illustre le célèbre Prêche aux oiseaux, soulignant la dimension universelle de la charité franciscaine et son lien unique avec la création.</p><p>L'ensemble de l'œuvre se distingue par une gestion novatrice de l'espace et du poids des corps. Les figures possèdent une densité réelle, presque sculpturale, soulignée par des jeux de plis sur les bures brunes des moines. Les architectures représentées dans la prédelle, bien que respectant encore des conventions de perspective médiévales, tentent de définir un espace clos et cohérent. Par cette capacité à lier le sacré au sensible, Giotto transforme l'image de dévotion en un récit humain et dramatique d'une puissance inédite. //</p>",
+    "contemporaryArt": {
+      "title": "Dernier XIIIe siècle & Aube du Trecento • Révolution spirituelle franciscaine & Giotto",
+      "events": [
+        "1282 : Établissement du gouvernement des Prieurs des Arts à Florence.",
+        "1290 : Giotto peint le Crucifix révolutionnaire de Santa Maria Novella.",
+        "1294 : Pose de la première pierre de la basilique Santa Croce à Florence par Arnolfo di Cambio.",
+        "1296 : Début de la construction de la cathédrale Santa Maria del Fiore à Florence.",
+        "1300 : Premier Jubilé universel décrété à Rome par le pape Boniface VIII."
+      ]
+    }
+  },
+  {
+    "id": "giotto_crucifixion_louvre_1300",
+    "artistId": "giotto",
+    "artist": "Giotto di Bondone",
+    "artistSort": "Giotto di Bondone",
+    "civId": "occident",
+    "periodId": "occ_medieval_gothique",
+    "civName": "Occident : Trecento florentin & Révolution giottesque",
+    "title": "La Crucifixion",
+    "date": 1300,
+    "dateDisplay": "v. 1300",
+    "century": "XIVe siècle (1300)",
+    "centuryDisplay": "XIVe s. (vers 1300)",
+    "centuryNumeric": 1300,
+    "period": "XIVe siècle",
+    "domain": "peinture",
+    "artifactType": "Détrempe sur panneau de bois",
+    "category": "Détrempe sur panneau de bois",
+    "type": "Détrempe (tempera)",
+    "medium": "Détrempe et or sur panneau de peuplier",
+    "dimensions": {
+      "h": 54,
+      "w": 33,
+      "display": "54 × 33 cm (Musée du Louvre)"
+    },
+    "site": "Musée du Louvre (Paris, France)",
+    "originSite": "Dévotion privée florentine / Collection d'un riche patricien",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczObEuKkfi4HoY2ngiwk4FOburhE0zSXEYHXIYgjhWzuSi4oMJqQRUGrYyxt-w7psroLQJ6B5NSCH61Y6Svy7FC-JbHiF6Py2jzssdj0Borh9BbR1IGdCFXUoHOFRTODzoNQOD2XfvGY9OKxc0Anj5mseA=w1681-h1994-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczObEuKkfi4HoY2ngiwk4FOburhE0zSXEYHXIYgjhWzuSi4oMJqQRUGrYyxt-w7psroLQJ6B5NSCH61Y6Svy7FC-JbHiF6Py2jzssdj0Borh9BbR1IGdCFXUoHOFRTODzoNQOD2XfvGY9OKxc0Anj5mseA=w1681-h1994-s-no-gm?authuser=0",
+    "tags": [
+      "peinture",
+      "moyen-âge",
+      "giotto",
+      "crucifixion",
+      "louvre",
+      "passion"
+    ],
+    "chips": [
+      "XIVe s.",
+      "v. 1300",
+      "Crucifixion",
+      "Dévotion privée",
+      "Musée du Louvre"
+    ],
+    "narrative": "<p>Cette Crucifixion, peinte vers 1300, est une œuvre charnière attribuée à Giotto di Bondone ou à son entourage immédiat. Elle témoigne de la révolution picturale opérée par le maître florentin au seuil du XIVe siècle. Rompant avec les conventions rigides de la peinture byzantine (maniera greca), Giotto introduit ici une humanité nouvelle, une profondeur spatiale et une intensité dramatique qui jettent les bases de la Renaissance italienne. Cette toile faisait probablement partie d'un grand polyptyque ou d'un ensemble destiné à la dévotion privée d'une riche famille florentine.</p><p>La composition est dense et s'organise autour de la figure centrale du Christ en croix, dont le corps possède une pesanteur et une anatomie réalistes jusque-là inédites. Il est flanqué des deux larrons, dont les corps sont contorsionnés par la douleur. Au pied des croix, la scène est divisée en deux groupes distincts. À gauche, la sphère de la douleur sainte avec la Vierge qui s'évanouit, soutenue par les saintes femmes et saint Jean, tous nimbés d'or. À droite, la sphère du monde profane représentée par les soldats romains et les dignitaires, parmi lesquels certains se disputent la tunique du Christ au premier plan.</p><p>Sur le plan descriptif, l'œuvre frappe par l'utilisation de couleurs vives, notamment des rouges profonds et des bleus intenses, qui se détachent sur un fond de montagnes arides et un ciel qui a conservé une partie de son or d'origine. Le traitement des visages marque une étape cruciale : les expressions de souffrance ne sont plus des masques stylisés, mais des reflets de l'âme. On remarque également la présence d'anges volant autour du Christ, recueillant son sang dans des calices ou exprimant leur désespoir par des gestes pathétiques. La perspective, bien qu'encore intuitive, est suggérée par le chevauchement des chevaux et des figures, créant une véritable profondeur de champ.</p><p>L'œuvre se distingue par son sens du récit et sa capacité à humaniser le sacré. Le geste du centurion Longin, levant la main vers le Christ en signe de reconnaissance de sa divinité, apporte une tension spirituelle à la scène. Chaque détail, des drapés lourds qui soulignent le volume des corps aux lances des soldats qui rythment le haut de la composition, contribue à faire de cette Crucifixion un drame vivant. En plaçant le spectateur face à une réalité tangible et émotionnelle, Giotto transforme l'image de dévotion en une expérience humaine universelle, marquant le passage irréversible vers la modernité picturale. //</p>",
+    "desc": "<p>Cette Crucifixion, peinte vers 1300, est une œuvre charnière attribuée à Giotto di Bondone ou à son entourage immédiat. Elle témoigne de la révolution picturale opérée par le maître florentin au seuil du XIVe siècle. Rompant avec les conventions rigides de la peinture byzantine (maniera greca), Giotto introduit ici une humanité nouvelle, une profondeur spatiale et une intensité dramatique qui jettent les bases de la Renaissance italienne. Cette toile faisait probablement partie d'un grand polyptyque ou d'un ensemble destiné à la dévotion privée d'une riche famille florentine.</p><p>La composition est dense et s'organise autour de la figure centrale du Christ en croix, dont le corps possède une pesanteur et une anatomie réalistes jusque-là inédites. Il est flanqué des deux larrons, dont les corps sont contorsionnés par la douleur. Au pied des croix, la scène est divisée en deux groupes distincts. À gauche, la sphère de la douleur sainte avec la Vierge qui s'évanouit, soutenue par les saintes femmes et saint Jean, tous nimbés d'or. À droite, la sphère du monde profane représentée par les soldats romains et les dignitaires, parmi lesquels certains se disputent la tunique du Christ au premier plan.</p><p>Sur le plan descriptif, l'œuvre frappe par l'utilisation de couleurs vives, notamment des rouges profonds et des bleus intenses, qui se détachent sur un fond de montagnes arides et un ciel qui a conservé une partie de son or d'origine. Le traitement des visages marque une étape cruciale : les expressions de souffrance ne sont plus des masques stylisés, mais des reflets de l'âme. On remarque également la présence d'anges volant autour du Christ, recueillant son sang dans des calices ou exprimant leur désespoir par des gestes pathétiques. La perspective, bien qu'encore intuitive, est suggérée par le chevauchement des chevaux et des figures, créant une véritable profondeur de champ.</p><p>L'œuvre se distingue par son sens du récit et sa capacité à humaniser le sacré. Le geste du centurion Longin, levant la main vers le Christ en signe de reconnaissance de sa divinité, apporte une tension spirituelle à la scène. Chaque détail, des drapés lourds qui soulignent le volume des corps aux lances des soldats qui rythment le haut de la composition, contribue à faire de cette Crucifixion un drame vivant. En plaçant le spectateur face à une réalité tangible et émotionnelle, Giotto transforme l'image de dévotion en une expérience humaine universelle, marquant le passage irréversible vers la modernité picturale. //</p>",
+    "contemporaryArt": {
+      "title": "Trecento • L'Essor des ordres mendiants & L'Humanisation du divin",
+      "events": [
+        "1300 : Giotto exécute ses croix monumentales pour les couvents mendiants toscans.",
+        "1302 : Dante Alighieri est condamné à l'exil perpétuel hors de Florence.",
+        "1305 : Décoration à fresque de la Chapelle des Scrovegni à Padoue par Giotto.",
+        "1309 : Installation de la papauté en Avignon sous Clément V.",
+        "1311 : Duccio di Buoninsegna livre la monumentale Maestà pour la cathédrale de Sienne."
+      ]
+    }
+  },
+  {
+    "id": "giotto_vierge_d_ognissanti_maesta_offices_1310",
+    "artistId": "giotto",
+    "artist": "Giotto di Bondone",
+    "artistSort": "Giotto di Bondone",
+    "civId": "occident",
+    "periodId": "occ_medieval_gothique",
+    "civName": "Occident : Trecento florentin & Révolution giottesque",
+    "title": "Vierge d'Ognissanti (Maestà)",
+    "date": 1310,
+    "dateDisplay": "v. 1310",
+    "century": "XIVe siècle (1310)",
+    "centuryDisplay": "XIVe s. (vers 1310)",
+    "centuryNumeric": 1310,
+    "period": "XIVe siècle",
+    "domain": "peinture",
+    "artifactType": "Détrempe sur panneau de bois de grand format",
+    "category": "Détrempe sur panneau de bois de grand format",
+    "type": "Détrempe (tempera)",
+    "medium": "Détrempe et or sur panneau de bois",
+    "dimensions": {
+      "h": 325,
+      "w": 204,
+      "display": "325 × 204 cm (Galerie des Offices, Florence)"
+    },
+    "site": "Galleria degli Uffizi (Florence, Italie)",
+    "originSite": "Église d'Ognissanti (Florence, Italie)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczPIqrOUxFf1v2_-6w5aYZBMpr3yssk2AWccIB_k-Eq01Kn6ms7wBDMCcLmPAevWBWCAFITk7QftQIVgyei08kwTJvrJrZxVge8Qm4DTaZeiDahbdpjF-6Syer75kRE5zLE7VoJST5R5ehUjvgbQj9RNsQ=w1681-h2324-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczPIqrOUxFf1v2_-6w5aYZBMpr3yssk2AWccIB_k-Eq01Kn6ms7wBDMCcLmPAevWBWCAFITk7QftQIVgyei08kwTJvrJrZxVge8Qm4DTaZeiDahbdpjF-6Syer75kRE5zLE7VoJST5R5ehUjvgbQj9RNsQ=w1681-h2324-s-no-gm?authuser=0",
+    "tags": [
+      "peinture",
+      "moyen-âge",
+      "giotto",
+      "maestà",
+      "ognissanti",
+      "offices",
+      "florence"
+    ],
+    "chips": [
+      "XIVe s.",
+      "v. 1310",
+      "Maestà",
+      "Trône gothique",
+      "Offices, Florence"
+    ],
+    "narrative": "<p>Cette œuvre magistrale, intitulée la Vierge d’Ognissanti ou Maestà, a été réalisée par Giotto di Bondone vers 1310 pour l’église d'Ognissanti à Florence et est aujourd'hui conservée à la Galerie des Offices. Peinte à la détrempe et à l'or sur des panneaux de bois, elle marque un tournant décisif dans l'histoire de la peinture occidentale en s'éloignant des codes rigides de la manière byzantine pour embrasser un naturalisme précurseur de la Renaissance.</p><p>La composition monumentale s'articule autour de la figure centrale de la Vierge, trônant en majesté avec l'Enfant Jésus sur ses genoux. Contrairement aux représentations antérieures où les corps paraissaient éthérés et sans poids, Giotto confère ici à Marie une présence physique imposante et une solidité sculpturale presque architecturale. Son corps est défini par des drapés aux plis profonds qui suggèrent un volume réel, tandis que son visage, bien que hiératique, dégage une humanité nouvelle. L'Enfant, vêtu d'une tunique rose délicate, est représenté avec une robustesse enfantine, tenant un rouleau de la main gauche et esquissant un geste de bénédiction de la droite.</p><p>L'innovation majeure réside également dans le traitement de l'espace. Le trône gothique en marbre blanc, orné de motifs cosmatesques multicolores, n'est plus un simple symbole mais une structure tridimensionnelle crédible qui semble s'ouvrir comme une niche pour accueillir la Vierge. L'utilisation d'une perspective intuitive crée une profondeur réelle dans laquelle s'insèrent les figures secondaires. De part et d'autre du trône, des anges et des saints sont disposés de manière étagée, non plus seulement superposés verticalement, mais placés les uns derrière les autres, renforçant l'illusion de relief. Au premier plan, deux anges agenouillés offrent des vases de fleurs — des lys et des roses évoquant la pureté et la passion — dirigeant le regard du spectateur vers le centre de la scène.</p><p>Le fond d'or, héritage de la tradition médiévale représentant la lumière divine, contraste avec la matérialité des personnages, créant un dialogue entre le sacré intemporel et la réalité terrestre. Giotto utilise une palette riche où le bleu profond du manteau de la Vierge, obtenu grâce au précieux lapis-lazuli, domine l'ensemble. La précision des détails, comme la transparence des vêtements des anges ou la finesse des dorures sur les nimbes, témoigne d'une maîtrise technique exceptionnelle. En humanisant le divin par le poids des corps et la clarté de la mise en scène, Giotto transforme l'icône en un drame spatial et émotionnel, posant les fondements de la peinture moderne. //</p>",
+    "desc": "<p>Cette œuvre magistrale, intitulée la Vierge d’Ognissanti ou Maestà, a été réalisée par Giotto di Bondone vers 1310 pour l’église d'Ognissanti à Florence et est aujourd'hui conservée à la Galerie des Offices. Peinte à la détrempe et à l'or sur des panneaux de bois, elle marque un tournant décisif dans l'histoire de la peinture occidentale en s'éloignant des codes rigides de la manière byzantine pour embrasser un naturalisme précurseur de la Renaissance.</p><p>La composition monumentale s'articule autour de la figure centrale de la Vierge, trônant en majesté avec l'Enfant Jésus sur ses genoux. Contrairement aux représentations antérieures où les corps paraissaient éthérés et sans poids, Giotto confère ici à Marie une présence physique imposante et une solidité sculpturale presque architecturale. Son corps est défini par des drapés aux plis profonds qui suggèrent un volume réel, tandis que son visage, bien que hiératique, dégage une humanité nouvelle. L'Enfant, vêtu d'une tunique rose délicate, est représenté avec une robustesse enfantine, tenant un rouleau de la main gauche et esquissant un geste de bénédiction de la droite.</p><p>L'innovation majeure réside également dans le traitement de l'espace. Le trône gothique en marbre blanc, orné de motifs cosmatesques multicolores, n'est plus un simple symbole mais une structure tridimensionnelle crédible qui semble s'ouvrir comme une niche pour accueillir la Vierge. L'utilisation d'une perspective intuitive crée une profondeur réelle dans laquelle s'insèrent les figures secondaires. De part et d'autre du trône, des anges et des saints sont disposés de manière étagée, non plus seulement superposés verticalement, mais placés les uns derrière les autres, renforçant l'illusion de relief. Au premier plan, deux anges agenouillés offrent des vases de fleurs — des lys et des roses évoquant la pureté et la passion — dirigeant le regard du spectateur vers le centre de la scène.</p><p>Le fond d'or, héritage de la tradition médiévale représentant la lumière divine, contraste avec la matérialité des personnages, créant un dialogue entre le sacré intemporel et la réalité terrestre. Giotto utilise une palette riche où le bleu profond du manteau de la Vierge, obtenu grâce au précieux lapis-lazuli, domine l'ensemble. La précision des détails, comme la transparence des vêtements des anges ou la finesse des dorures sur les nimbes, témoigne d'une maîtrise technique exceptionnelle. En humanisant le divin par le poids des corps et la clarté de la mise en scène, Giotto transforme l'icône en un drame spatial et émotionnel, posant les fondements de la peinture moderne. //</p>",
+    "contemporaryArt": {
+      "title": "Trecento • L'Essor des ordres mendiants & L'Humanisation du divin",
+      "events": [
+        "1300 : Giotto exécute ses croix monumentales pour les couvents mendiants toscans.",
+        "1302 : Dante Alighieri est condamné à l'exil perpétuel hors de Florence.",
+        "1305 : Décoration à fresque de la Chapelle des Scrovegni à Padoue par Giotto.",
+        "1309 : Installation de la papauté en Avignon sous Clément V.",
+        "1311 : Duccio di Buoninsegna livre la monumentale Maestà pour la cathédrale de Sienne."
+      ]
+    }
+  },
+  {
+    "id": "giotto_chapelle_peruzzi_santa_croce_1318",
+    "artistId": "giotto",
+    "artist": "Giotto di Bondone",
+    "artistSort": "Giotto di Bondone",
+    "civId": "occident",
+    "periodId": "occ_medieval_gothique",
+    "civName": "Occident : Trecento florentin & Révolution giottesque",
+    "title": "Fresques de la chapelle Peruzzi",
+    "date": 1318,
+    "dateDisplay": "v. 1318–1322",
+    "century": "XIVe siècle (1318)",
+    "centuryDisplay": "XIVe s. (vers 1318–1322)",
+    "centuryNumeric": 1318,
+    "period": "XIVe siècle",
+    "domain": "peinture",
+    "artifactType": "Fresque murale monumentale (a secco)",
+    "category": "Fresque murale monumentale (a secco)",
+    "type": "Fresque",
+    "medium": "Peinture murale a secco",
+    "dimensions": {
+      "h": 600,
+      "w": 450,
+      "display": "600 × 450 cm (Fresque murale monumentale, Santa Croce)"
+    },
+    "site": "Basilica di Santa Croce (Florence, Italie)",
+    "originSite": "Chapelle Peruzzi, transept droit de Santa Croce (Florence)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczPWDiospsF4VidRjxauWQJ-SIO-IkObeyZgxBjtK-iBp_fljf2uVmv-Y3fGd1CbSDNyPIMqURudUWtcDMKBChJO2Iu0DyWaq7rQCmHnRfJf5JjFJGMD4kvLKSPv4OK8aBx1IFPfY2h01G2MwW8rGMx74Q=w1611-h2416-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczPWDiospsF4VidRjxauWQJ-SIO-IkObeyZgxBjtK-iBp_fljf2uVmv-Y3fGd1CbSDNyPIMqURudUWtcDMKBChJO2Iu0DyWaq7rQCmHnRfJf5JjFJGMD4kvLKSPv4OK8aBx1IFPfY2h01G2MwW8rGMx74Q=w1611-h2416-s-no-gm?authuser=0",
+    "tags": [
+      "peinture",
+      "fresque",
+      "giotto",
+      "santa croce",
+      "peruzzi",
+      "florence"
+    ],
+    "chips": [
+      "XIVe s.",
+      "1318-1322",
+      "Fresque monumentale",
+      "Santa Croce",
+      "Banquet d'Hérode"
+    ],
+    "narrative": "<p>La chapelle Peruzzi, située dans le transept droit de la basilique Santa Croce à Florence, constitue l'un des sommets de la peinture monumentale du XIVe siècle, réalisée par Giotto di Bondone vers 1318-1322. Cette œuvre, commande de la puissante famille de banquiers Peruzzi, se déploie sur les parois d'une architecture gothique étroite et profonde, témoignant de la maturité stylistique du maître alors au faîte de sa gloire. Le cycle iconographique est dédié à deux figures majeures du christianisme : saint Jean-Baptiste sur la paroi gauche et saint Jean l'Évangéliste sur la paroi droite, créant un dialogue hagiographique entre le dernier des prophètes et l'apôtre visionnaire.</p><p>L'analyse technique révèle une particularité historique majeure : contrairement aux fresques de la chapelle Bardi voisine, Giotto a ici largement utilisé la technique de la peinture «a secco« (sur enduit sec). Si ce choix permettait une plus grande finesse de détails et une gamme chromatique plus riche, il a rendu l'œuvre extrêmement vulnérable au temps, entraînant d'importantes lacunes qui furent aggravées par des badigeonnages au XVIIIe siècle et des restaurations invasives au XIXe siècle. Malgré ces dommages, la puissance de la composition demeure intacte. Giotto y révolutionne l'espace pictural en adaptant ses scènes à l'étroitesse du lieu et au point de vue oblique du spectateur situé à l'entrée de la chapelle. Il utilise des raccourcis architecturaux audacieux et des structures monumentales, comme dans la scène du «Banquet d'Hérode« ou de la «Résurrection de Drusienne«, où les édifices ne sont plus de simples décors mais des volumes habités définissant la profondeur.</p><p>Le style de la chapelle Peruzzi se distingue par une solennité héroïque et une monumentalité des figures qui annoncent déjà les recherches de la Renaissance. Les personnages, drapés dans des tuniques aux volumes sculpturaux, possèdent une gravité psychologique et une présence physique qui rompent définitivement avec la tradition byzantine. Dans l'épisode de «L'Ascension de saint Jean l'Évangéliste«, la force ascensionnelle est rendue avec une dynamique saisissante, tandis que les témoins de la scène manifestent une stupéfaction traduite par des gestes d'une grande vérité humaine. Cette œuvre a exercé une influence déterminante sur les générations futures d'artistes, notamment sur Masaccio et Michel-Ange, qui vinrent y étudier les raccourcis et la gestion des volumes. Aujourd'hui, la chapelle Peruzzi demeure un témoignage essentiel du génie de Giotto, illustrant sa capacité à transformer un espace liturgique en un théâtre sacré où la clarté narrative s'allie à une rigueur plastique sans précédent dans l'histoire de l'art occidental. /// tu as recommencé à ranger les artistes en commencant par le prénom, je veux le NOM DE FAMILLE en tete !!!! </USER_REQUEST> <ADDITIONAL_METADATA> The current local time is: 2026-11-10T22:21:31+01:00.</p><p>The user's current state is as follows: Active Document: /Users/renoult/Desktop/monportailweb/panoramadesarts/app.js (LANGUAGE_UNSPECIFIED) Cursor is on line: 10780 Other open documents: - /Users/renoult/Desktop/monportailweb/panoramadesarts/style.css (LANGUAGE_UNSPECIFIED) - /Users/renoult/Desktop/monportailweb/panoramadesarts/data/data-artistes.js (LANGUAGE_UNSPECIFIED) - /Users/renoult/Desktop/monportailweb/panoramadesarts/data/data-objets2.js (LANGUAGE_UNSPECIFIED) - /Users/renoult/Desktop/monportailweb/panoramadesarts/data/data-objets3.js (LANGUAGE_UNSPECIFIED) - /Users/renoult/Desktop/monportailweb/panoramadesarts/data/data-objets4.js (LANGUAGE_UNSPECIFIED) </ADDITIONAL_METADATA></p>",
+    "desc": "<p>La chapelle Peruzzi, située dans le transept droit de la basilique Santa Croce à Florence, constitue l'un des sommets de la peinture monumentale du XIVe siècle, réalisée par Giotto di Bondone vers 1318-1322. Cette œuvre, commande de la puissante famille de banquiers Peruzzi, se déploie sur les parois d'une architecture gothique étroite et profonde, témoignant de la maturité stylistique du maître alors au faîte de sa gloire. Le cycle iconographique est dédié à deux figures majeures du christianisme : saint Jean-Baptiste sur la paroi gauche et saint Jean l'Évangéliste sur la paroi droite, créant un dialogue hagiographique entre le dernier des prophètes et l'apôtre visionnaire.</p><p>L'analyse technique révèle une particularité historique majeure : contrairement aux fresques de la chapelle Bardi voisine, Giotto a ici largement utilisé la technique de la peinture «a secco« (sur enduit sec). Si ce choix permettait une plus grande finesse de détails et une gamme chromatique plus riche, il a rendu l'œuvre extrêmement vulnérable au temps, entraînant d'importantes lacunes qui furent aggravées par des badigeonnages au XVIIIe siècle et des restaurations invasives au XIXe siècle. Malgré ces dommages, la puissance de la composition demeure intacte. Giotto y révolutionne l'espace pictural en adaptant ses scènes à l'étroitesse du lieu et au point de vue oblique du spectateur situé à l'entrée de la chapelle. Il utilise des raccourcis architecturaux audacieux et des structures monumentales, comme dans la scène du «Banquet d'Hérode« ou de la «Résurrection de Drusienne«, où les édifices ne sont plus de simples décors mais des volumes habités définissant la profondeur.</p><p>Le style de la chapelle Peruzzi se distingue par une solennité héroïque et une monumentalité des figures qui annoncent déjà les recherches de la Renaissance. Les personnages, drapés dans des tuniques aux volumes sculpturaux, possèdent une gravité psychologique et une présence physique qui rompent définitivement avec la tradition byzantine. Dans l'épisode de «L'Ascension de saint Jean l'Évangéliste«, la force ascensionnelle est rendue avec une dynamique saisissante, tandis que les témoins de la scène manifestent une stupéfaction traduite par des gestes d'une grande vérité humaine. Cette œuvre a exercé une influence déterminante sur les générations futures d'artistes, notamment sur Masaccio et Michel-Ange, qui vinrent y étudier les raccourcis et la gestion des volumes. Aujourd'hui, la chapelle Peruzzi demeure un témoignage essentiel du génie de Giotto, illustrant sa capacité à transformer un espace liturgique en un théâtre sacré où la clarté narrative s'allie à une rigueur plastique sans précédent dans l'histoire de l'art occidental. /// tu as recommencé à ranger les artistes en commencant par le prénom, je veux le NOM DE FAMILLE en tete !!!! </USER_REQUEST> <ADDITIONAL_METADATA> The current local time is: 2026-11-10T22:21:31+01:00.</p><p>The user's current state is as follows: Active Document: /Users/renoult/Desktop/monportailweb/panoramadesarts/app.js (LANGUAGE_UNSPECIFIED) Cursor is on line: 10780 Other open documents: - /Users/renoult/Desktop/monportailweb/panoramadesarts/style.css (LANGUAGE_UNSPECIFIED) - /Users/renoult/Desktop/monportailweb/panoramadesarts/data/data-artistes.js (LANGUAGE_UNSPECIFIED) - /Users/renoult/Desktop/monportailweb/panoramadesarts/data/data-objets2.js (LANGUAGE_UNSPECIFIED) - /Users/renoult/Desktop/monportailweb/panoramadesarts/data/data-objets3.js (LANGUAGE_UNSPECIFIED) - /Users/renoult/Desktop/monportailweb/panoramadesarts/data/data-objets4.js (LANGUAGE_UNSPECIFIED) </ADDITIONAL_METADATA></p>",
+    "contemporaryArt": {
+      "title": "Trecento tardif & Gloire florentine • Dante & Le Trecento mature",
+      "events": [
+        "1318 : Giotto entreprend le décor prestigieux de la chapelle Peruzzi à Santa Croce.",
+        "1321 : Mort de Dante Alighieri à Ravenne après avoir achevé la Divine Comédie.",
+        "1328 : Giotto est appelé à Naples par le roi Robert d'Anjou comme premier peintre de cour.",
+        "1334 : Giotto est nommé Maître de l'Œuvre de Santa Maria del Fiore et conçoit le Campanile.",
+        "1337 : Mort solennelle de Giotto à Florence ; inhumation dans la cathédrale avec les honneurs républicains."
+      ]
+    }
+  },
+  {
     "id": "giacometti_caroline_tokyo_1962",
     "artistId": "giacometti",
-    "artist": "Alberto Giacometti",
+    "artist": "Giacometti Alberto",
     "artistSort": "Giacometti Alberto",
     "civId": "occident",
     "periodId": "occ_xxe",
@@ -76,7 +478,7 @@ window.ART_OBJECTS = [
   {
     "id": "giordano_le_bon_samaritain_rouen_1660",
     "artistId": "giordano",
-    "artist": "Luca Giordano",
+    "artist": "Giordano Luca",
     "artistSort": "Giordano Luca",
     "civId": "occident",
     "periodId": "occ_xviie",
@@ -133,7 +535,7 @@ window.ART_OBJECTS = [
   {
     "id": "giordano_saint_dominique_au_dessus_des_passions_nantes_1680",
     "artistId": "giordano",
-    "artist": "Luca Giordano",
+    "artist": "Giordano Luca",
     "artistSort": "Giordano Luca",
     "civId": "occident",
     "periodId": "occ_xviie",
@@ -190,7 +592,7 @@ window.ART_OBJECTS = [
   {
     "id": "giordano_apotheose_des_medicis_palais_medici_riccardi_1683",
     "artistId": "giordano",
-    "artist": "Luca Giordano",
+    "artist": "Giordano Luca",
     "artistSort": "Giordano Luca",
     "civId": "occident",
     "periodId": "occ_xviie",
@@ -247,7 +649,7 @@ window.ART_OBJECTS = [
   {
     "id": "giordano_triomphe_monarchie_espagnole_escurial_1692",
     "artistId": "giordano",
-    "artist": "Luca Giordano",
+    "artist": "Giordano Luca",
     "artistSort": "Giordano Luca",
     "civId": "occident",
     "periodId": "occ_xviie",
@@ -304,7 +706,7 @@ window.ART_OBJECTS = [
   {
     "id": "giordano_voute_sacristie_cathedrale_tolede_1692",
     "artistId": "giordano",
-    "artist": "Luca Giordano",
+    "artist": "Giordano Luca",
     "artistSort": "Giordano Luca",
     "civId": "occident",
     "periodId": "occ_xviie",
@@ -361,7 +763,7 @@ window.ART_OBJECTS = [
   {
     "id": "gerome_tete_de_femme_cornes_de_belier_nantes_1853",
     "artistId": "gerome",
-    "artist": "Jean-Léon Gérôme",
+    "artist": "Gérôme Jean-Léon",
     "artistSort": "Gérôme Jean-Léon",
     "civId": "occident",
     "periodId": "occ_xixe",
@@ -421,7 +823,7 @@ window.ART_OBJECTS = [
   {
     "id": "gerome_vue_plaine_de_thebes_nantes_1857",
     "artistId": "gerome",
-    "artist": "Jean-Léon Gérôme",
+    "artist": "Gérôme Jean-Léon",
     "artistSort": "Gérôme Jean-Léon",
     "civId": "occident",
     "periodId": "occ_xixe",
@@ -481,7 +883,7 @@ window.ART_OBJECTS = [
   {
     "id": "gerome_le_prisonnier_nantes_1861",
     "artistId": "gerome",
-    "artist": "Jean-Léon Gérôme",
+    "artist": "Gérôme Jean-Léon",
     "artistSort": "Gérôme Jean-Léon",
     "civId": "occident",
     "periodId": "occ_xixe",
@@ -541,7 +943,7 @@ window.ART_OBJECTS = [
   {
     "id": "gerome_pere_et_fils_devant_porte_rouen_1866",
     "artistId": "gerome",
-    "artist": "Jean-Léon Gérôme",
+    "artist": "Gérôme Jean-Léon",
     "artistSort": "Gérôme Jean-Léon",
     "civId": "occident",
     "periodId": "occ_xixe",
@@ -601,7 +1003,7 @@ window.ART_OBJECTS = [
   {
     "id": "ghirlandaio_vierge_a_l_enfant_louvre_1473",
     "artistId": "ghirlandaio",
-    "artist": "Domenico Ghirlandaio (Bigordi)",
+    "artist": "Ghirlandaio Domenico",
     "artistSort": "Ghirlandaio Domenico",
     "civId": "occident",
     "periodId": "occ_renaissance",
@@ -660,7 +1062,7 @@ window.ART_OBJECTS = [
   {
     "id": "ghirlandaio_la_cene_san_marco_florence_1486",
     "artistId": "ghirlandaio",
-    "artist": "Domenico Ghirlandaio (Bigordi)",
+    "artist": "Ghirlandaio Domenico",
     "artistSort": "Ghirlandaio Domenico",
     "civId": "occident",
     "periodId": "occ_renaissance",
@@ -719,7 +1121,7 @@ window.ART_OBJECTS = [
   {
     "id": "ghirlandaio_portrait_vieillard_et_jeune_garcon_louvre_1490",
     "artistId": "ghirlandaio",
-    "artist": "Domenico Ghirlandaio (Bigordi)",
+    "artist": "Ghirlandaio Domenico",
     "artistSort": "Ghirlandaio Domenico",
     "civId": "occident",
     "periodId": "occ_renaissance",
@@ -779,7 +1181,7 @@ window.ART_OBJECTS = [
   {
     "id": "ghirlandaio_apparition_christ_ressuscite_a_la_vierge_louvre_1490",
     "artistId": "ghirlandaio",
-    "artist": "Domenico Ghirlandaio (Bigordi)",
+    "artist": "Ghirlandaio Domenico",
     "artistSort": "Ghirlandaio Domenico",
     "civId": "occident",
     "periodId": "occ_renaissance",
@@ -839,7 +1241,7 @@ window.ART_OBJECTS = [
   {
     "id": "ghirlandaio_visitation_vierge_elisabeth_louvre_1491",
     "artistId": "ghirlandaio",
-    "artist": "Domenico Ghirlandaio (Bigordi)",
+    "artist": "Ghirlandaio Domenico",
     "artistSort": "Ghirlandaio Domenico",
     "civId": "occident",
     "periodId": "occ_renaissance",
@@ -899,7 +1301,7 @@ window.ART_OBJECTS = [
   {
     "id": "gericault_char_antique_rouen_1808",
     "artistId": "gericault",
-    "artist": "Théodore Géricault",
+    "artist": "Géricault Théodore",
     "artistSort": "Géricault Théodore",
     "civId": "occident",
     "periodId": "occ_xixe",
@@ -960,7 +1362,7 @@ window.ART_OBJECTS = [
   {
     "id": "gericault_academie_d_homme_rouen_1808",
     "artistId": "gericault",
-    "artist": "Théodore Géricault",
+    "artist": "Géricault Théodore",
     "artistSort": "Géricault Théodore",
     "civId": "occident",
     "periodId": "occ_xixe",
@@ -1021,7 +1423,7 @@ window.ART_OBJECTS = [
   {
     "id": "gericault_officier_de_chasseurs_chargeant_esquisse_nantes_1812",
     "artistId": "gericault",
-    "artist": "Théodore Géricault",
+    "artist": "Géricault Théodore",
     "artistSort": "Géricault Théodore",
     "civId": "occident",
     "periodId": "occ_xixe",
@@ -1082,7 +1484,7 @@ window.ART_OBJECTS = [
   {
     "id": "gericault_officier_de_chasseurs_chargeant_louvre_1812",
     "artistId": "gericault",
-    "artist": "Théodore Géricault",
+    "artist": "Géricault Théodore",
     "artistSort": "Géricault Théodore",
     "civId": "occident",
     "periodId": "occ_xixe",
@@ -1143,7 +1545,7 @@ window.ART_OBJECTS = [
   {
     "id": "gericault_cheval_arabe_gris_blanc_rouen_1812",
     "artistId": "gericault",
-    "artist": "Théodore Géricault",
+    "artist": "Géricault Théodore",
     "artistSort": "Géricault Théodore",
     "civId": "occident",
     "periodId": "occ_xixe",
@@ -1204,7 +1606,7 @@ window.ART_OBJECTS = [
   {
     "id": "gericault_cheval_cabre_au_tapis_rouge_rouen_1812",
     "artistId": "gericault",
-    "artist": "Théodore Géricault",
+    "artist": "Géricault Théodore",
     "artistSort": "Géricault Théodore",
     "civId": "occident",
     "periodId": "occ_xixe",
@@ -1265,7 +1667,7 @@ window.ART_OBJECTS = [
   {
     "id": "gericault_portrait_d_un_carabinier_rouen_1814",
     "artistId": "gericault",
-    "artist": "Théodore Géricault",
+    "artist": "Géricault Théodore",
     "artistSort": "Géricault Théodore",
     "civId": "occident",
     "periodId": "occ_xixe",
@@ -1326,7 +1728,7 @@ window.ART_OBJECTS = [
   {
     "id": "gericault_cuirassier_blesse_quittant_le_feu_louvre_1814",
     "artistId": "gericault",
-    "artist": "Théodore Géricault",
+    "artist": "Géricault Théodore",
     "artistSort": "Géricault Théodore",
     "civId": "occident",
     "periodId": "occ_xixe",
@@ -1387,7 +1789,7 @@ window.ART_OBJECTS = [
   {
     "id": "gericault_cheval_arrete_par_des_jeunes_gens_rouen_1817",
     "artistId": "gericault",
-    "artist": "Théodore Géricault",
+    "artist": "Géricault Théodore",
     "artistSort": "Géricault Théodore",
     "civId": "occident",
     "periodId": "occ_xixe",
@@ -1448,7 +1850,7 @@ window.ART_OBJECTS = [
   {
     "id": "gericault_etude_de_pieds_et_de_mains_montpellier_1817",
     "artistId": "gericault",
-    "artist": "Théodore Géricault",
+    "artist": "Géricault Théodore",
     "artistSort": "Géricault Théodore",
     "civId": "occident",
     "periodId": "occ_xixe",
@@ -1509,7 +1911,7 @@ window.ART_OBJECTS = [
   {
     "id": "gericault_etude_de_bras_et_de_jambes_rouen_1818",
     "artistId": "gericault",
-    "artist": "Théodore Géricault",
+    "artist": "Géricault Théodore",
     "artistSort": "Géricault Théodore",
     "civId": "occident",
     "periodId": "occ_xixe",
@@ -1570,7 +1972,7 @@ window.ART_OBJECTS = [
   {
     "id": "gericault_tete_d_un_jeune_homme_mort_rouen_1818",
     "artistId": "gericault",
-    "artist": "Théodore Géricault",
+    "artist": "Géricault Théodore",
     "artistSort": "Géricault Théodore",
     "civId": "occident",
     "periodId": "occ_xixe",
@@ -1631,7 +2033,7 @@ window.ART_OBJECTS = [
   {
     "id": "gericault_portrait_le_charpentier_de_la_meduse_rouen_1818",
     "artistId": "gericault",
-    "artist": "Théodore Géricault",
+    "artist": "Géricault Théodore",
     "artistSort": "Géricault Théodore",
     "civId": "occident",
     "periodId": "occ_xixe",
@@ -1692,7 +2094,7 @@ window.ART_OBJECTS = [
   {
     "id": "gericault_le_radeau_de_la_meduse_louvre_1818",
     "artistId": "gericault",
-    "artist": "Théodore Géricault",
+    "artist": "Géricault Théodore",
     "artistSort": "Géricault Théodore",
     "civId": "occident",
     "periodId": "occ_xixe",
@@ -1753,7 +2155,7 @@ window.ART_OBJECTS = [
   {
     "id": "gericault_deux_leopards_rouen_1820",
     "artistId": "gericault",
-    "artist": "Théodore Géricault",
+    "artist": "Géricault Théodore",
     "artistSort": "Géricault Théodore",
     "civId": "occident",
     "periodId": "occ_xixe",
@@ -1815,7 +2217,7 @@ window.ART_OBJECTS = [
   {
     "id": "gauguin_vase_de_fleurs_a_la_fenetre_rennes_1881",
     "title": "Vase de fleurs à la fenêtre",
-    "artist": "Paul Gauguin",
+    "artist": "Gauguin Paul",
     "artistId": "gauguin",
     "artistSort": "Gauguin Paul",
     "civId": "occident",
@@ -1846,7 +2248,7 @@ window.ART_OBJECTS = [
   {
     "id": "gauguin_nature_morte_aux_oranges_rennes_1881",
     "title": "Nature morte aux oranges",
-    "artist": "Paul Gauguin",
+    "artist": "Gauguin Paul",
     "artistId": "gauguin",
     "artistSort": "Gauguin Paul",
     "civId": "occident",
@@ -1877,7 +2279,7 @@ window.ART_OBJECTS = [
   {
     "id": "gauguin_baigneuses_a_dieppe_tokyo_1885",
     "title": "Baigneuses à Dieppe",
-    "artist": "Paul Gauguin",
+    "artist": "Gauguin Paul",
     "artistId": "gauguin",
     "artistSort": "Gauguin Paul",
     "civId": "occident",
@@ -1908,7 +2310,7 @@ window.ART_OBJECTS = [
   {
     "id": "gauguin_quatre_femmes_bretonnes_munich_1886",
     "title": "Quatre femmes bretonnes",
-    "artist": "Paul Gauguin",
+    "artist": "Gauguin Paul",
     "artistId": "gauguin",
     "artistSort": "Gauguin Paul",
     "civId": "occident",
@@ -1939,7 +2341,7 @@ window.ART_OBJECTS = [
   {
     "id": "gauguin_bretonnes_pres_de_la_mer_tokyo_1889",
     "title": "Bretonnes près de la mer",
-    "artist": "Paul Gauguin",
+    "artist": "Gauguin Paul",
     "artistId": "gauguin",
     "artistSort": "Gauguin Paul",
     "civId": "occident",
@@ -1970,7 +2372,7 @@ window.ART_OBJECTS = [
   {
     "id": "gauguin_nativite_te_tamari_no_atua_munich_1896",
     "title": "Nativité (Te Tamari no Atua)",
-    "artist": "Paul Gauguin",
+    "artist": "Gauguin Paul",
     "artistId": "gauguin",
     "artistSort": "Gauguin Paul",
     "civId": "occident",
@@ -2001,7 +2403,7 @@ window.ART_OBJECTS = [
   {
     "id": "gauguin_trois_tahitiens_ou_conversation_edimbourg_1899",
     "title": "Trois Tahitiens (ou Conversation)",
-    "artist": "Paul Gauguin",
+    "artist": "Gauguin Paul",
     "artistId": "gauguin",
     "artistSort": "Gauguin Paul",
     "civId": "occident",
@@ -2032,7 +2434,7 @@ window.ART_OBJECTS = [
 {
     "id": "friedrich_bord_de_mer_clair_de_lune_louvre_1818",
     "title": "Bord de mer au clair de lune",
-    "artist": "Caspar David Friedrich",
+    "artist": "Friedrich Caspar David",
     "artistId": "friedrich",
     "artistSort": "Friedrich Caspar David",
     "civId": "occident",
@@ -2063,7 +2465,7 @@ window.ART_OBJECTS = [
   {
     "id": "friedrich_arbre_aux_corbeaux_louvre_1822",
     "title": "L'Arbre aux corbeaux",
-    "artist": "Caspar David Friedrich",
+    "artist": "Friedrich Caspar David",
     "artistId": "friedrich",
     "artistSort": "Friedrich Caspar David",
     "civId": "occident",
@@ -2094,7 +2496,7 @@ window.ART_OBJECTS = [
   {
     "id": "gainsborough_conversation_dans_un_parc_louvre_1746",
     "title": "Conversation dans un parc",
-    "artist": "Thomas Gainsborough",
+    "artist": "Gainsborough Thomas",
     "artistId": "gainsborough",
     "artistSort": "Gainsborough Thomas",
     "civId": "occident",

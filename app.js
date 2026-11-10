@@ -7645,6 +7645,17 @@ function populateModalData(art) {
 }
 
 const CERTIFIED_PAINTING_DIMENSIONS = {
+  // Giottino (1 œuvre - Galerie des Offices)
+  "giottino_pieta_offices_florence_1360": { h: 195, w: 134, display: "195 × 134 cm (Galerie des Offices, Florence)" },
+
+  // Giotto di Bondone (6 œuvres - Santa Maria Novella, Louvre, Offices, Santa Croce)
+  "giotto_crucifix_santa_maria_novella_florence_1290": { h: 578, w: 406, display: "578 × 406 cm (Basilique Santa Maria Novella, Florence)" },
+  "giotto_croix_peinte_louvre_1300": { h: 277, w: 225, display: "277 × 225 cm (Musée du Louvre)" },
+  "giotto_stigmates_saint_francois_louvre_1295": { h: 313, w: 163, display: "313 × 163 cm (Musée du Louvre)" },
+  "giotto_crucifixion_louvre_1300": { h: 54, w: 33, display: "54 × 33 cm (Musée du Louvre)" },
+  "giotto_vierge_d_ognissanti_maesta_offices_1310": { h: 325, w: 204, display: "325 × 204 cm (Galerie des Offices, Florence)" },
+  "giotto_chapelle_peruzzi_santa_croce_1318": { h: 600, w: 450, display: "600 × 450 cm (fresque monumentale, Santa Croce, Florence)" },
+
   // Alberto Giacometti (1 œuvre - Tokyo NMWA)
   "giacometti_caroline_tokyo_1962": { h: 129.5, w: 96.5, display: "129,5 × 96,5 cm (Musée National d'Art Occidental de Tokyo)" },
 

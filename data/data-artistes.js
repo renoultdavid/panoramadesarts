@@ -2,9 +2,135 @@
    REGISTRE DES PEINTRES & NOTICES MONOGRAPHIQUES
    ========================================================================== */
 window.ARTISTS_REGISTRY = {
+  "giottino": {
+    id: "giottino",
+    name: "Giottino (Giotto di Stefano)",
+    sortName: "Giottino (Giotto di Stefano)",
+    sortLetter: "G",
+    dates: "v. 1320 – v. 1370",
+    movement: "Trecento florentin • Peinture religieuse & transition vers le gothique international",
+    nationality: "Italien (Florence)",
+    techniques: "Détrempe (tempera) et or sur panneau de bois, fresque monumentale, modelé psychologique",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczNse396rPziDl4K29CJPV2vTw88IWhYbk6aKwMUMUNmscECUQYDuECltdJSK5YoINWy2_1xaYSL3ct2r2ntbs6qXTDldvJFUQfFFUXzWeiwtKLcpCE-r__WnIWbmy7pG1A_sdIkIQXMibK8HwZLX04jMA=w1681-h713-s-no-gm?authuser=0",
+    bio: "<p>Giottino, de son vrai nom Giotto di Stefano (actif vers 1320-1370), est une figure aussi mystérieuse qu'essentielle de la peinture florentine du Trecento. Longtemps confondu par les historiens de l'art avec son père Stefano ou avec Maso di Banco, il est celui qui a su recueillir l'héritage de Giotto pour le porter vers une sensibilité plus complexe et mélancolique. Bien que peu d'œuvres lui soient attribuées avec certitude, il occupe une place charnière dans la transition entre la rigueur monumentale de la première moitié du XIVe siècle et le raffinement plus nuancé qui précède l'éclosion de la Renaissance.</p><p>Son genre pictural s'inscrit dans la grande tradition de la fresque et du panneau religieux florentin, mais avec une dimension humaine et psychologique nouvelle. Son style se distingue par une utilisation exceptionnelle de la couleur et de la lumière pour créer du volume. Contrairement à certains de ses contemporains qui restaient figés dans une certaine raideur, Giottino insuffle à ses personnages une intériorité poignante. Il est particulièrement reconnu pour sa capacité à rendre l'expression de la douleur et de la compassion, non pas par des gestes théâtraux, mais par une retenue et une douceur de modelé qui annoncent déjà les recherches de la fin du siècle.</p><p>L'évolution de son travail témoigne d'une recherche d'espace et de profondeur qui dépasse la simple perspective géométrique. Dans son chef-d'œuvre, la Pietà (aujourd'hui aux Offices), on observe une rupture avec le fond d'or traditionnel au profit d'une mise en scène où les figures, aux visages presque transparents, semblent réellement habiter l'espace. La finesse de sa touche, presque évanescente, et son sens des nuances chromatiques (des roses pâles aux bleus profonds) contrastent avec la force plastique des disciples directs de Giotto. Bien que sa carrière semble avoir été courte, peut-être interrompue par la peste, il a laissé une empreinte durable sur l'art florentin, prouvant que la monumentalité n'excluait pas la délicatesse des sentiments. Oeuvres : Il a fallu attendre le XXe siècle et le travail d'historiens de l'art majeurs, comme Richard Offner ou Roberto Longhi, pour démêler les deux personnalités et rendre à Maso di Banco ce qui lui appartenait. Conséquence de cette purge drastique, le consensus scientifique fixe aujourd'hui le catalogue des œuvres strictement autographes de Giottino à moins d'une dizaine de pièces (généralement évalué entre 5 et 8 peintures certifiées) Oeuvres :</p>",
+    totalOeuvresEstimees: "5 à 8 peintures autographes (consensus Roberto Longhi & Richard Offner)",
+    oeuvresConsensusNotice: "Longtemps confondu avec Maso di Banco et son père Stefano, le catalogue strictement autographe de Giottino a été rigoureusement révisé au XXe siècle par Richard Offner et Roberto Longhi, fixant le corpus à seulement 5 à 8 peintures certifiées.",
+    periods: [
+      {
+        title: "v. 1320 – 1345 : Les origines florentines et l'héritage de Stefano Fiorentino",
+        years: "1320 – 1345",
+        color: "#0284c7",
+        desc: "Fils du peintre Stefano (lui-même disciple direct de Giotto célèbre pour son modelé doux), Giottino assimile la leçon giottesque tout en développant une attention aiguë à la psychologie intime et aux transparences de tons.",
+        summary: "Apprentissage auprès de son père Stefano, filiation avec Giotto et émergence d'un modelé atmosphérique nouveau.",
+        events: [
+          { year: 1324, title: "Naissance à Florence", desc: "Né vers 1320-1324 à Florence dans l'entourage immédiat des suiveurs de Giotto.", type: "birth", icon: "🌱" },
+          { year: 1340, title: "Formation d'atelier & Imitation de Giotto", desc: "Surnommé Giottino pour son aptitude virtuose à recueillir la manière de Giotto avec une grâce plus douce.", type: "life", icon: "🎨" }
+        ]
+      },
+      {
+        title: "1346 – 1355 : L'épreuve de la Peste noire et les chantiers de fresques",
+        years: "1346 – 1355",
+        color: "#d97706",
+        desc: "Survit à la terrible épidémie de Peste noire de 1348 qui bouleverse la société toscane. Il participe à des décors à fresque à Assise et Florence où la ferveur religieuse s'accompagne d'une gravité méditative.",
+        summary: "Impact de la peste de 1348, commandes votives et fresques de recueillement spirituel.",
+        events: [
+          { year: 1348, title: "La Grande Peste de Florence", desc: "La Peste noire ravage la Toscane : Giottino survit et oriente son art vers un sentiment de deuil retenu et de compassion sacrée.", type: "history", icon: "⚔️" },
+          { year: 1352, title: "Fresques de la crypte de Santa Croce", desc: "Exécute des peintures murales empreintes d'un clair-obscur feutré et d'une douceur d'expression singulière.", type: "masterpiece", icon: "🏛️" }
+        ]
+      },
+      {
+        title: "1356 – 1365 : Le chef-d'œuvre de la Pietà de San Remigio (Offices)",
+        years: "1356 – 1365",
+        color: "#b45309",
+        desc: "Au sommet de sa maturité, Giottino peint pour l'église San Remigio de Florence son chef-d'œuvre absolu, la Pietà conservée aux Offices. Il y transcende le hiératisme médiéval en peignant la douleur silencieuse et l'amour maternel avec une délicatesse chromatique sans égale au XIVe siècle.",
+        summary: "Apogée artistique, création de la célèbre Pietà de San Remigio et fusion unique entre monumentalité et sensibilité.",
+        events: [
+          { year: 1360, title: "Pietà de San Remigio (Offices)", desc: "Chef-d'œuvre immortel du XIVe siècle florentin : la Déploration du Christ au pied de la Croix alliant intensité émotionnelle poignante, volumes sculpturaux et visages d'une douceur quasi transparente.", type: "masterpiece", icon: "🎨", artworkId: "giottino_pieta_offices_florence_1360" },
+          { year: 1365, title: "Inscription à la corporation des peintres", desc: "Inscrit parmi les maîtres reconnus de l'art florentin du Trecento avant l'arrivée du style gothique international.", type: "life", icon: "📜" }
+        ]
+      },
+      {
+        title: "1366 – 1370 : Dernières années et postérité légendaire chez Vasari",
+        years: "1366 – 1370",
+        color: "#991b1b",
+        desc: "Giorgio Vasari consacrera à Giottino une biographie admirative dans ses Vies, louant sa mélancolie et sa maîtrise de la douleur chrétienne. Sa disparition précoce vers 1369-1370 laisse un corpus raréfié mais vénéré comme un pont vers Masaccio et Fra Angelico.",
+        summary: "Fin de carrière mystérieuse, disparition précoce et éloge historique de Vasari.",
+        events: [
+          { year: 1369, title: "Dernières mentions documentaires à Florence", desc: "Dernières traces d'activité picturale avant sa disparition des registres florentins.", type: "life", icon: "🏛️" },
+          { year: 1370, title: "Mort présumée à Florence", desc: "S'éteint vers 1370 à Florence, laissant une empreinte émotionnelle indélébile sur la peinture toscane.", type: "death", icon: "🕊️" }
+        ]
+      }
+    ]
+  },
+  "giotto": {
+    id: "giotto",
+    name: "Giotto di Bondone",
+    sortName: "Giotto di Bondone",
+    sortLetter: "G",
+    dates: "v. 1267 – 1337",
+    movement: "Trecento florentin • Révolution fondatrice de la peinture occidentale & Naturalisme sacré",
+    nationality: "Italien (Florence)",
+    techniques: "Fresque monumentale à fresque buono, détrempe (tempera) et or sur panneau de bois, architecture",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczO5O5WTumQWAnZQIe4rTqerx0iUIxOcj-hk8vxOpW3t8iwMiF0TG0dNUyweNGLPVxRda_IqPzT8DTAXJ2zexFJXFMCT44yvHwzvHVD9pHZ1Sh45VV59bWZx3SrWtgMLLblbdHe0g2iwCKNe8ClplxinMg=w1681-h713-s-no-gm?authuser=0",
+    bio: "<p>Giotto di Bondone, né vers 1267 à Vespignano et mort en 1337 à Florence, est le séisme initial de l'histoire de l'art occidental. On le considère comme le père de la peinture moderne car il a brisé, presque à lui seul, la domination millénaire de la «manière byzantine« (statique, symbolique et plate). Disciple de Cimabue, il a été célébré dès son vivant par Dante comme le plus grand des artistes. En réintroduisant l'humanité, le poids des corps et la profondeur spatiale, il a permis à la peinture de quitter le ciel abstrait des icônes pour redescendre sur terre, ouvrant la voie qui mènera directement à la Renaissance.</p><p>Son genre pictural est essentiellement la fresque narrative, qu'il utilise pour raconter les vies de saints ou du Christ comme de véritables drames humains. Son style se caractérise par une monumentalité sculpturale : ses personnages possèdent une présence physique réelle, avec des corps volumineux drapés dans des étoffes pesantes. Pour la première fois, les figures ont un dos, une épaisseur, et occupent un espace tridimensionnel crédible, bien que la perspective ne soit pas encore mathématique. Mais sa plus grande force réside dans l'expression des émotions : la douleur, la tendresse ou la peur sont lues sur les visages et dans les gestes, créant un lien empathique inédit avec le spectateur.</p><p>L'évolution de son travail montre une maîtrise croissante de la mise en scène et de la psychologie. Dans le cycle de Saint François à Assise (dont l'attribution est encore débattue mais porte sa marque), il explore le naturalisme des paysages et des architectures. Cependant, c'est dans la Chapelle des Scrovegni à Padoue qu'il atteint son apogée : chaque scène est construite comme une pièce de théâtre où le vide et le silence comptent autant que l'action. Vers la fin de sa vie, à Florence, son style se fait encore plus sobre et imposant, influençant des générations de peintres, de Masaccio jusqu'à Michel-Ange. Il laisse derrière lui une révolution : la peinture n'est plus un symbole à déchiffrer, mais une expérience à vivre. Oeuvres : En faisant la synthèse de ces travaux, si l'on comptait chaque chapelle ou retable comme une seule œuvre globale, Giotto ne dépasserait pas les 30 numéros. Mais les historiens et les musées scindent traditionnellement ses gigantesques cycles à fresque en scènes narratives individuelles. En adoptant ce décompte, le consensus scientifique fixe le corpus de Giotto à environ 130 à 135 œuvres (scènes peintes à fresque et panneaux de bois). Oeurves :</p>",
+    totalOeuvresEstimees: "130 à 135 œuvres (scènes peintes à fresque et panneaux de bois au consensus muséal)",
+    oeuvresConsensusNotice: "En comptabilisant chaque scène narrative des grands cycles de fresques (Assise, Scrovegni à Padoue, chapelles Bardi et Peruzzi à Santa Croce) et les panneaux sur bois autographes, le consensus scientifique fixe le corpus de Giotto à environ 130 à 135 œuvres majeures.",
+    periods: [
+      {
+        title: "1267 – 1295 : La jeunesse au Mugello, l'atelier Cimabue et le Crucifix de Santa Maria Novella",
+        years: "1267 – 1295",
+        color: "#0284c7",
+        desc: "Né dans le Mugello, repéré selon la légende par Cimabue alors qu'il dessinait une brebis sur une pierre, Giotto révolutionne l'art toscan dès 1290 en peignant le colossal Crucifix de Santa Maria Novella, où le Christ devient pour la première fois un homme souffrant sous le poids réel de la pesanteur.",
+        summary: "Jeunesse, apprentissage auprès de Cimabue, rupture avec la manière byzantine et triomphe du Crucifix de Santa Maria Novella.",
+        events: [
+          { year: 1267, title: "Naissance à Colle di Vespignano (Mugello)", desc: "Né vers 1267 près de Florence, fils d'un forgeron nommé Bondone.", type: "birth", icon: "🌱" },
+          { year: 1280, title: "Apprentissage chez Cimabue", desc: "Entre dans l'atelier florentin de Cimabue qu'il accompagne à Rome et Assise, dépassant rapidement son maître en réalisme.", type: "life", icon: "🎨" },
+          { year: 1290, title: "Crucifix de Santa Maria Novella (Florence)", desc: "Chef-d'œuvre fondateur de 5,78 m : rupture radicale avec l'abstraction byzantine, imposant le Christus patiens dont le corps s'affaisse sous son poids véritable.", type: "masterpiece", icon: "🎨", artworkId: "giotto_crucifix_santa_maria_novella_florence_1290" },
+          { year: 1295, title: "Saint François d'Assise recevant les stigmates (Louvre)", desc: "Panneau monumental provenant de Pise : le miracle du mont Alverne surmontant une prédelle narrative novatrice aux architectures tridimensionnelles.", type: "masterpiece", icon: "🎨", artworkId: "giotto_stigmates_saint_francois_louvre_1295" }
+        ]
+      },
+      {
+        title: "1296 – 1309 : Le cycle d'Assise, les croix peintes et l'apogée des Scrovegni à Padoue",
+        years: "1296 – 1309",
+        color: "#d97706",
+        desc: "Giotto peint les célèbres fresques de la basilique d'Assise, puis est appelé à Padoue par Enrico Scrovegni pour décorer l'Arena. Ce cycle de fresques de 1305 constitue le sommet universel de son art théâtral, où le ciel bleu d'azur remplace l'or médiéval et où chaque regard traduit l'intensité du drame divin.",
+        summary: "Fresques de la basilique Saint-François d'Assise, croix de dévotion et chef-d'œuvre absolu de la Chapelle des Scrovegni à Padoue.",
+        events: [
+          { year: 1296, title: "Cycle de la Vie de saint François (Assise)", desc: "Peint les 28 célèbres scènes de la nef de la basilique supérieure d'Assise, révolutionnant la narration visuelle occidentale.", type: "masterpiece", icon: "⛪" },
+          { year: 1300, title: "Croix peinte (San Francesco de Pise, Louvre)", desc: "Croix polylobée monumentale du Louvre : anatomie saisissante et clair-obscur sculptural invitant à une compassion humaine profonde.", type: "masterpiece", icon: "🎨", artworkId: "giotto_croix_peinte_louvre_1300" },
+          { year: 1300, title: "La Crucifixion (Louvre)", desc: "Panneau de dévotion privée alliant l'intensité dramatique des saintes femmes au désespoir des anges éplorés dans le ciel d'or.", type: "masterpiece", icon: "🎨", artworkId: "giotto_crucifixion_louvre_1300" },
+          { year: 1305, title: "Chapelle des Scrovegni à Padoue (L'Arène)", desc: "Sommet absolu de la peinture occidentale : L'Étreinte à la Porte Dorée, La Trahison de Judas et La Déploration sur le Christ mort sous un ciel d'outremer.", type: "masterpiece", icon: "👑" }
+        ]
+      },
+      {
+        title: "1310 – 1327 : La Vierge d'Ognissanti et les grands cycles des banquiers à Santa Croce",
+        years: "1310 – 1327",
+        color: "#b45309",
+        desc: "Rentré à Florence au sommet de la gloire, Giotto livre la Maestà d'Ognissanti (Offices) avec son trône gothique en marbre habité d'une majesté monumentale. Pour les grandes dynasties de banquiers Bardi et Peruzzi, il décore les chapelles de Santa Croce de fresques magistrales aux raccourcis audacieux.",
+        summary: "Maestà d'Ognissanti, fresques des chapelles Bardi et Peruzzi à Santa Croce et autorité incontestée sur l'Europe.",
+        events: [
+          { year: 1310, title: "Vierge d'Ognissanti - Maestà (Offices)", desc: "Chef-d'œuvre des Offices : Marie trône avec une solidité pyramidale et une présence humaine tangible au sein d'une niche de marbre gothique en perspective réelle.", type: "masterpiece", icon: "🎨", artworkId: "giotto_vierge_d_ognissanti_maesta_offices_1310" },
+          { year: 1318, title: "Fresques de la chapelle Peruzzi (Santa Croce)", desc: "Cycle peint a secco pour les banquiers Peruzzi : scènes monumentales du Banquet d'Hérode et de saint Jean qui inspireront Masaccio et Michel-Ange.", type: "masterpiece", icon: "🎨", artworkId: "giotto_chapelle_peruzzi_santa_croce_1318" },
+          { year: 1325, title: "Chapelle Bardi (Santa Croce)", desc: "Cycle consacré à saint François d'Assise, sommet de retenue classique et de composition spatiale sobre et solennelle.", type: "masterpiece", icon: "🏛️" }
+        ]
+      },
+      {
+        title: "1328 – 1337 : Peintre du roi de Naples, Maître de l'Œuvre du Campanile et apothéose",
+        years: "1328 – 1337",
+        color: "#991b1b",
+        desc: "Appelé à Naples par le roi Robert d'Anjou comme premier peintre de cour, puis à Bologne et Milan, Giotto est nommé en 1334 architecte en chef de la République de Florence et dessine le Campanile de Santa Maria del Fiore avant de s'éteindre en 1337, immortalisé par Dante dans la Divine Comédie.",
+        summary: "Séjour royal à Naples, conception du Campanile de Florence, célébration par Dante et obsèques d'État.",
+        events: [
+          { year: 1328, title: "Premier peintre du roi Robert d'Anjou à Naples", desc: "Séjourne cinq ans au Castel Nuovo de Naples avec titre d'officier royal et pension princière.", type: "life", icon: "👑" },
+          { year: 1334, title: "Architecte en chef de Florence & Campanile de Giotto", desc: "Nommé 'Capomaestro' de la cathédrale Santa Maria del Fiore ; il pose la première pierre du célèbre campanile qui porte son nom.", type: "masterpiece", icon: "📐" },
+          { year: 1337, title: "Mort solennelle à Florence", desc: "S'éteint le 8 janvier 1337 à Florence ; la République lui réserve des funérailles d'État et l'inhume avec les plus grands honneurs dans la cathédrale.", type: "death", icon: "🕊️" }
+        ]
+      }
+    ]
+  },
   "giacometti": {
     id: "giacometti",
-    name: "Alberto Giacometti",
+    name: "Giacometti Alberto",
     sortName: "Giacometti Alberto",
     sortLetter: "G",
     dates: "1901 – 1966",
@@ -72,7 +198,7 @@ window.ARTISTS_REGISTRY = {
   },
   "giordano": {
     id: "giordano",
-    name: "Luca Giordano",
+    name: "Giordano Luca",
     sortName: "Giordano Luca",
     sortLetter: "G",
     dates: "1634 – 1705",
@@ -139,7 +265,7 @@ window.ARTISTS_REGISTRY = {
   },
   "gerome": {
     id: "gerome",
-    name: "Jean-Léon Gérôme",
+    name: "Gérôme Jean-Léon",
     sortName: "Gérôme Jean-Léon",
     sortLetter: "G",
     dates: "1824 – 1904",
@@ -209,7 +335,7 @@ window.ARTISTS_REGISTRY = {
   },
   "ghirlandaio": {
     id: "ghirlandaio",
-    name: "Domenico Ghirlandaio (Bigordi)",
+    name: "Ghirlandaio Domenico",
     sortName: "Ghirlandaio Domenico",
     sortLetter: "G",
     dates: "1448 – 1494",
@@ -278,7 +404,7 @@ window.ARTISTS_REGISTRY = {
   },
   "gericault": {
     id: "gericault",
-    name: "Théodore Géricault",
+    name: "Géricault Théodore",
     sortName: "Géricault Théodore",
     sortLetter: "G",
     dates: "1791 – 1824",
@@ -12283,7 +12409,7 @@ window.ARTISTS_REGISTRY = {
 },
   "friedrich": {
     id: "friedrich",
-    name: "Caspar David Friedrich",
+    name: "Friedrich Caspar David",
     sortName: "Friedrich Caspar David",
     sortLetter: "F",
     dates: "1774 – 1840",
@@ -12361,7 +12487,7 @@ window.ARTISTS_REGISTRY = {
   },
   "gainsborough": {
     id: "gainsborough",
-    name: "Thomas Gainsborough",
+    name: "Gainsborough Thomas",
     sortName: "Gainsborough Thomas",
     sortLetter: "G",
     dates: "1727 – 1788",
@@ -12427,7 +12553,7 @@ window.ARTISTS_REGISTRY = {
 
   "gauguin": {
     id: "gauguin",
-    name: "Paul Gauguin",
+    name: "Gauguin Paul",
     sortName: "Gauguin Paul",
     sortLetter: "G",
     dates: "1848 – 1903",
