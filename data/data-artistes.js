@@ -2,6 +2,145 @@
    REGISTRE DES PEINTRES & NOTICES MONOGRAPHIQUES
    ========================================================================== */
 window.ARTISTS_REGISTRY = {
+  "gerome": {
+    id: "gerome",
+    name: "Jean-Léon Gérôme",
+    sortName: "Gérôme Jean-Léon",
+    sortLetter: "G",
+    dates: "1824 – 1904",
+    movement: "Académisme français • Peinture d'histoire, Néo-Grec & Orientalisme",
+    nationality: "Français",
+    techniques: "Huile sur toile, manière lisse (finish), sculpture polychrome, bronze, ivoire, marbre",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczNMBnqeWagDJywW8FoAKu4CGVsiBirXcELFDOSijq3M5dZ0W_2HTleRbRS-nXdIAyaQk1yAzo-Ka6Vt8EDf6UgHFbLKLgFd2Y2CH9pIx_ITvJ0Qq6d5czOLaEGz883jIQeyNcMP1i7eW0mSAHraXwkKDg=w1681-h713-s-no-gm?authuser=0",
+    bio: "<p>Jean-Léon Gérôme (1824 – 1904) est l'une des figures les plus influentes et contestées de l'art académique français sous le Second Empire et la IIIe République. Maître de l'illusionnisme et du détail, il a dominé la scène artistique par sa virtuosité technique et son refus obstiné de l'impressionnisme, qu'il considérait comme la « déchéance de l'art ».</p><p>Son genre pictural se définit par la peinture d'histoire, l'orientalisme et la sculpture polychrome. Son style se caractérise par une «manière lisse« (finish), où toute trace de pinceau disparaît au profit d'une précision photographique. Ses compositions sont souvent théâtrales, avec une attention maniaque à l'exactitude archéologique et ethnographique, qu'il met au service d'une narration puissante et parfois provocante.</p><p>L'évolution de son style marque un passage du néo-grec vers un réalisme spectaculaire :</p><p>Le courant Néo-Grec (années 1840-1850) : Il se fait connaître avec Le Combat de coqs. Son style est alors léger, gracieux et érudit, revisitant l'Antiquité sous un angle anecdotique et quotidien plutôt que héroïque.</p><p>L'Orient et l'Histoire (années 1860-1880) : Ses voyages en Égypte et au Proche-Orient nourrissent un orientalisme d'une précision documentaire inouïe. Parallèlement, il réinvente la peinture d'histoire avec des scènes de la Rome antique (comme Pollice Verso) qui ont durablement fixé notre imaginaire du péplum cinématographique.</p><p>La maturité et la sculpture (fin de carrière) : Il se tourne vers la sculpture, explorant la polychromie et l'assemblage de matériaux précieux (ivoire, or, marbres colorés). Ses peintures tardives mettent souvent en scène son propre atelier et ses sculptures, brouillant les frontières entre réalité et fiction artistique. Oeuvres : L'inventaire de référence mondiale est le fruit du travail colossal de l'historien de l'art américain Gerald M. Ackerman. Son Catalogue raisonné (publié initialement en 1986 et dont la monographie a été rigoureusement révisée et mise à jour en 2000 aux éditions ACR) fait autorité dans tous les musées du monde.   En excluant de cet inventaire la soixantaine de sculptures majeures (en bronze, marbre ou chryséléphantines) qu'il a réalisées dans la dernière partie de sa carrière, le consensus scientifique fixe le corpus de ses peintures achevées à très exactement 700 œuvres.    Oeurves :</p>",
+    totalOeuvresEstimees: "~700 peintures (catalogue raisonné Gerald M. Ackerman, ACR 2000)",
+    oeuvresConsensusNotice: "L'inventaire de référence mondiale dressé par Gerald M. Ackerman (ACR Édition 2000) fixe le corpus des peintures de chevalet achevées à 700 œuvres autographes (en excluant sa production de sculptures polychromes tardives).",
+    periods: [
+      {
+        title: "1824 – 1855 : Jeunesse vésulienne, atelier Delaroche et l'éclosion du courant Néo-Grec",
+        years: "1824 – 1855",
+        color: "#0284c7",
+        desc: "Né à Vesoul, Gérôme entre à Paris dans l'atelier de Paul Delaroche qu'il suit en Italie. Au Salon de 1847, il fait sensation avec Un combat de coqs, fondant avec Hamon et Picou le mouvement Néo-Grec caractérisé par une Antiquité intimiste et charmante.",
+        summary: "Formation chez Delaroche, voyage d'Italie, triomphe du Combat de coqs au Salon de 1847 et virtuosité néo-grecque.",
+        events: [
+          { year: 1824, title: "Naissance à Vesoul", desc: "Né le 11 mai 1824 à Vesoul (Haute-Saône), fils d'un orfèvre qui l'initie très tôt à la rigueur du dessin.", type: "birth", icon: "🌱" },
+          { year: 1840, title: "Entrée chez Paul Delaroche", desc: "Arrive à Paris et intègre l'atelier du grand peintre d'histoire Delaroche, son maître vénéré.", type: "life", icon: "🎓" },
+          { year: 1844, title: "Séjour initiatique en Italie", desc: "Accompagne Delaroche à Rome et Naples, se passionnant pour l'archéologie et les fresques de Pompéi.", type: "life", icon: "🏛️" },
+          { year: 1847, title: "Triomphe du Combat de coqs au Salon", desc: "Médaille de 3e classe au Salon : le jeune peintre de 23 ans est salué par Théophile Gautier comme le chef de file des Néo-Grecs.", type: "masterpiece", icon: "🏆" },
+          { year: 1853, title: "Tête de femme coiffée de cornes de bélier (Nantes)", desc: "Tondo néo-grec au modelé d'albâtre : figure hybride dionysiaque d'une virtuosité archéologique et tactile fascinante.", type: "masterpiece", icon: "🎨", artworkId: "gerome_tete_de_femme_cornes_de_belier_nantes_1853" }
+        ]
+      },
+      {
+        title: "1856 – 1869 : Les voyages en Orient, l'archéologie nilotique et l'apogée sous le Second Empire",
+        years: "1856 – 1869",
+        color: "#d97706",
+        desc: "Gérôme découvre l'Égypte en 1856 et remonte le Nil en cange. Il en rapporte des centaines de croquis qui nourrissent un orientalisme documentaire d'une précision inouïe. Il devient le peintre officiel de l'aristocratie impériale et épouse Marie Goupil, fille du puissant marchand d'art international.",
+        summary: "Voyages sur le Nil, alliance avec la maison Goupil, paysages monumentaux et drames orientalistes.",
+        events: [
+          { year: 1856, title: "Premier grand voyage en Égypte", desc: "Huit mois d'expédition sur le Nil avec le sculpteur Bartholdi : révélation de la lumière orientale et des ruines pharaoniques.", type: "life", icon: "🐪" },
+          { year: 1857, title: "Vue de la plaine de Thèbes (Nantes)", desc: "Panoramas monumentaux de Haute-Égypte où les colosses de Memnon émergent sous une lumière zénithale implacable.", type: "masterpiece", icon: "🎨", artworkId: "gerome_vue_plaine_de_thebes_nantes_1857" },
+          { year: 1861, title: "Le Prisonnier (Nantes)", desc: "Chef-d'œuvre orientaliste saisissant le contraste tragique entre le captif résigné et l'insouciance du joueur de rebab au fil du Nil.", type: "masterpiece", icon: "🎨", artworkId: "gerome_le_prisonnier_nantes_1861" },
+          { year: 1863, title: "Mariage avec Marie Goupil & Nomination aux Beaux-Arts", desc: "Épouse la fille d'Adolphe Goupil, éditeur d'estampes qui diffusera ses tableaux dans le monde entier ; nommé professeur chef d'atelier à l'ENSBA.", type: "life", icon: "💍" },
+          { year: 1866, title: "Le père et le fils de l'artiste devant la porte de sa maison (Rouen)", desc: "Tableau intimiste exceptionnel montrant son père et son fils sur le perron, magistrale maîtrise de la manière lisse et des glycines.", type: "masterpiece", icon: "🎨", artworkId: "gerome_pere_et_fils_devant_porte_rouen_1866" }
+        ]
+      },
+      {
+        title: "1870 – 1885 : Maître de l'École des Beaux-Arts, grands drames antiques et péplums peints",
+        years: "1870 – 1885",
+        color: "#b45309",
+        desc: "Professeur vénéré à l'École des Beaux-Arts, Gérôme forme plus de 2 000 élèves français et étrangers. Il réinvente l'iconographie de l'Antiquité romaine avec Pollice Verso et La Mort de César, qui serviront de modèles directs au cinéma hollywoodien du XXe siècle.",
+        summary: "Enseignement prestigieux, reconstitution archéologique de l'arène romaine et genèse du péplum visuel.",
+        events: [
+          { year: 1872, title: "Pollice Verso (Le pouce levé)", desc: "Scène de gladiateurs dans le Colisée : vision archéologique si saisissante qu'elle inspirera directement le péplum moderne.", type: "masterpiece", icon: "⚔️" },
+          { year: 1874, title: "Réception du Grand Prix de sculpture & Médaille d'or", desc: "Consacré comme l'un des artistes les plus célèbres et récompensés d'Europe et d'Amérique.", type: "life", icon: "🥇" },
+          { year: 1878, title: "Exposition universelle de 1878", desc: "Présente son premier groupe sculpté monumental Les Gladiateurs, marquant son virage officiel vers la statuaire.", type: "masterpiece", icon: "🏛️" },
+          { year: 1884, title: "Défense de l'académisme", desc: "Combat farouchement la reconnaissance institutionnelle de l'impressionnisme et la rétrocession de la collection Caillebotte.", type: "life", icon: "🛡️" }
+        ]
+      },
+      {
+        title: "1886 – 1904 : Révolution de la sculpture polychrome, l'atelier mis en scène et crépuscule",
+        years: "1886 – 1904",
+        color: "#991b1b",
+        desc: "Dans les deux dernières décennies de sa vie, Gérôme révolutionne la sculpture par l'usage audacieux de la polychromie (ivoire, onyx, cire colorée, marbres rares). Il met en scène son propre atelier dans des toiles réflexives comme Pygmalion et Galatée, avant de s'éteindre dans son atelier parisien en 1904.",
+        summary: "Sculptures chryséléphantines, mythe de Pygmalion, l'artiste face à sa création et mort en pleine gloire.",
+        events: [
+          { year: 1890, title: "Tanagra & Révolution polychrome", desc: "Sculpture en marbre teinté évoquant les figurines hellénistiques, sensation au Salon de la Société des Artistes Français.", type: "masterpiece", icon: "🏺" },
+          { year: 1890, title: "Pygmalion et Galatée", desc: "Autoportrait métaphorique où la statue de marbre s'anime et s'incline sous le baiser de son créateur.", type: "masterpiece", icon: "🎨" },
+          { year: 1892, title: "Bellone en ivoire, bronze et verre coloré", desc: "Chef-d'œuvre chryséléphantin réanimant la grande sculpture de l'Antiquité grecque.", type: "masterpiece", icon: "👑" },
+          { year: 1904, title: "Mort dans son atelier parisien", desc: "S'éteint le 10 janvier 1904 à Paris devant un tableau de Rembrandt, salué par des obsèques nationales.", type: "death", icon: "🕊️" }
+        ]
+      }
+    ]
+  },
+  "ghirlandaio": {
+    id: "ghirlandaio",
+    name: "Domenico Ghirlandaio (Bigordi)",
+    sortName: "Ghirlandaio Domenico",
+    sortLetter: "G",
+    dates: "1448 – 1494",
+    movement: "Première Renaissance florentine (Quattrocento) • Fresque narrative monumentale",
+    nationality: "Italien (Florence)",
+    techniques: "Fresque à fresque buono, détrempe (tempera) sur panneau de peuplier, dessin d'orfèvre",
+    bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczMwyOSdBSeox6-muy6w9gYxTSuHPnCUgQTX1NW_mFsExC2Hzv3b_4vUR8YrXRZJh0GAdzHFGjdmjV_6SWyMhK2FiqelcWl-3FJJbrpViUKMpbOBFu7UZQFwtgXEs_cJuvIMc7u62OPDGoiZ19xUljX6Gw=w1681-h713-s-no-gm?authuser=0",
+    bio: "<p>Domenico Bigordi, dit Ghirlandaio, né en 1448 et mort en 1494 à Florence, est le grand chroniqueur visuel de la Renaissance florentine à l'époque de Laurent le Magnifique. Surnommé ainsi car son père créait des guirlandes de tête pour les jeunes filles, il a dirigé l'un des ateliers les plus prolifiques de la ville, où le jeune Michel-Ange fera ses premières armes. Artiste de la clarté et du détail, il est devenu le peintre favori des grandes familles de banquiers et de marchands, comme les Tornabuoni ou les Sassetti, immortalisant leur puissance au sein même des récits bibliques.</p><p>Son genre pictural est celui de la fresque narrative monumentale, traitée avec une précision d'orfèvre. Le style de Ghirlandaio se distingue par un sens aigu de l'observation et un goût prononcé pour le portrait réaliste. Il insère systématiquement ses contemporains, vêtus à la dernière mode, dans des décors d'une architecture antique ou bourgeoise d'une grande rigueur perspective. Sa palette est équilibrée, privilégiant des couleurs solides et une lumière limpide qui rend chaque texture, chaque trait de visage et chaque objet avec une netteté presque flamande, sans jamais sacrifier l'harmonie d'ensemble.</p><p>L'évolution de son travail montre une maîtrise croissante de la mise en scène complexe et de l'intégration du paysage. Ses premières œuvres à San Gimignano révèlent déjà une narration fluide, mais c'est à Rome, dans la Chapelle Sixtine, qu'il acquiert une dimension plus épique. Son apogée se situe dans les cycles de fresques de Santa Trinita et de Santa Maria Novella à Florence, où il parvient à fusionner le sacré et le profane avec une aisance totale. Vers la fin de sa vie, ses compositions se font plus denses et ses portraits plus psychologiques, laissant derrière lui une œuvre qui constitue le miroir le plus fidèle de la société florentine du Quattrocento. Oeuvres : L'inventaire de référence mondiale est le catalogue raisonné dressé par l'historienne de l'art Jeanne K. Cadogan (publié en 2000 sous le titre Domenico Ghirlandaio: Artist and Artisan). Ce travail fondamental a permis d'isoler la main du maître de l'intense production de ses frères (Davide et Benedetto) et de son beau-frère (Bastiano Mainardi) qui l'assistaient quotidiennement.   En faisant la synthèse de cet inventaire exhaustif, le consensus scientifique fixe le corpus de ses œuvres strictement autographes (comprenant les panneaux de bois et les grands cycles de fresques) à environ 45 à 50 œuvres. Oeuvres :</p>",
+    totalOeuvresEstimees: "45 à 50 œuvres autographes (catalogue raisonné Jeanne K. Cadogan 2000)",
+    oeuvresConsensusNotice: "Le catalogue raisonné de référence mondiale établi par Jeanne K. Cadogan (Domenico Ghirlandaio: Artist and Artisan, 2000) isole la main strictement autographe du maître pour environ 45 à 50 peintures sur panneau et grands cycles de fresques.",
+    periods: [
+      {
+        title: "1448 – 1475 : L'apprentissage d'orfèvre, l'atelier de Verrocchio et les premières madones",
+        years: "1448 – 1475",
+        color: "#0284c7",
+        desc: "Fils de l'orfèvre Tommaso Bigordi (qui créait des guirlandes pour les dames de Florence), Domenico grandit dans le culte de la précision linéaire. Formé selon Vasari auprès d'Alesso Baldovinetti et d'Andrea del Verrocchio, il absorbe l'influence des maîtres flamands et peint ses premières madones intimes.",
+        summary: "Origines d'orfèvre, formation auprès de Baldovinetti et Verrocchio, débuts dans le panneau de dévotion.",
+        events: [
+          { year: 1448, title: "Naissance à Florence", desc: "Domenico di Tommaso di Currado Bigordi naît à Florence en 1448 dans une famille d'artisans réputés.", type: "birth", icon: "🌱" },
+          { year: 1465, title: "Apprentissage de l'orfèvrerie & de la perspective", desc: "Acquiert le surnom de Ghirlandaio dans l'atelier paternel et développe son dessin méticuleux.", type: "life", icon: "💎" },
+          { year: 1472, title: "Immatriculation à la Compagnie de Saint-Luc", desc: "Inscrit comme peintre indépendant à la corporation des artistes florentins.", type: "life", icon: "📜" },
+          { year: 1473, title: "Vierge à l'Enfant (Louvre)", desc: "Panneau de dévotion privée d'une clarté précoce, alliant tendresse maternelle et solennité sculpturale sur fond de paysage toscan.", type: "masterpiece", icon: "🎨", artworkId: "ghirlandaio_vierge_a_l_enfant_louvre_1473" },
+          { year: 1475, title: "Fresques de la Chapelle Santa Fina à San Gimignano", desc: "Premier chef-d'œuvre à fresque : La Mort de sainte Fina frappe par sa clarté narrative et sa noblesse spatiale.", type: "masterpiece", icon: "🏛️" }
+        ]
+      },
+      {
+        title: "1476 – 1482 : Les réfectoires florentins et l'appel de Sixte IV à Rome",
+        years: "1476 – 1482",
+        color: "#d97706",
+        desc: "Ghirlandaio s'impose comme le fresquiste le plus fiable et prolifique de Toscane. Après la Cène d'Ognissanti, le pape Sixte IV le convoque à Rome avec Botticelli et Pérugin pour peindre les parois de la Chapelle Sixtine, où il signe la célèbre Vocation des premiers apôtres.",
+        summary: "La Cène d'Ognissanti, commande pontificale pour la Sixtine et étude des ruines antiques de Rome.",
+        events: [
+          { year: 1480, title: "Saint Jérôme dans son cabinet & Cène d'Ognissanti", desc: "Peint pour l'église d'Ognissanti à Florence une fresque de saint Jérôme rivalisant avec le Saint Augustin de Botticelli.", type: "masterpiece", icon: "📖" },
+          { year: 1481, title: "Départ pour Rome & Commande de la Chapelle Sixtine", desc: "Convoqué par le pape Sixte IV pour participer au prestigieux décor des parois latérales de la Sixtine.", type: "life", icon: "🏛️" },
+          { year: 1482, title: "La Vocation des apôtres Pierre et André", desc: "Fresque majestueuse de la Sixtine : le Christ appelle les pêcheurs au bord d'un lac bordé de montagnes et de portraits contemporains.", type: "masterpiece", icon: "🎨" }
+        ]
+      },
+      {
+        title: "1483 – 1486 : Le chef-d'œuvre de la Chapelle Sassetti et la monumentale Cène de San Marco",
+        years: "1483 – 1486",
+        color: "#b45309",
+        desc: "De retour à Florence, Francesco Sassetti, directeur de la banque Médicis, lui confie la chapelle familiale de Santa Trinita. Ghirlandaio y intègre les portraits saisissants de Laurent le Magnifique et de ses enfants. En 1486, il réalise la Cène monumentale du couvent dominicain San Marco.",
+        summary: "L'apogée de la chapelle Sassetti, L'Adoration des bergers et la Cène solennelle de San Marco.",
+        events: [
+          { year: 1485, title: "Cycle de saint François à la Chapelle Sassetti", desc: "Achève les fresques de Santa Trinita, immortalisant la société florentine au cœur de la légende franciscaine.", type: "masterpiece", icon: "🏛️" },
+          { year: 1485, title: "L'Adoration des bergers (Santa Trinita)", desc: "Retable majeur intégrant le réalisme du Retable Portinari de Hugo van der Goes avec un sarcophage romain antique.", type: "masterpiece", icon: "🎨" },
+          { year: 1486, title: "La Cène (Réfectoire du Couvent San Marco)", desc: "Fresque monumentale déployant le dernier repas sous une double voûte ouverte sur un jardin d'orangers, de cyprès et d'oiseaux symboliques.", type: "masterpiece", icon: "🎨", artworkId: "ghirlandaio_la_cene_san_marco_florence_1486" }
+        ]
+      },
+      {
+        title: "1486 – 1494 : Le grand cycle Tornabuoni à Santa Maria Novella, portraits humanistes et héritage pour Michel-Ange",
+        years: "1486 – 1494",
+        color: "#991b1b",
+        desc: "Giovanni Tornabuoni lui commande le plus vaste cycle de fresques de la Renaissance dans le chœur de Santa Maria Novella. Dans son atelier en pleine effervescence, il accueille en 1488 comme apprenti le jeune Michel-Ange âgé de 13 ans. Ghirlandaio s'éteint prématurément de la peste en 1494 à 45 ans.",
+        summary: "Fresques colossales de Santa Maria Novella, formation du jeune Michel-Ange, portraits humanistes et mort de la peste.",
+        events: [
+          { year: 1488, title: "Entrée du jeune Michel-Ange dans l'atelier", desc: "Prend comme apprenti le jeune Michel-Ange Buonarroti pour un contrat de trois ans, lui transmettant la technique de la fresque.", type: "peer", icon: "🤝", linkedArtist: "Michel-Ange" },
+          { year: 1490, title: "Portrait d'un vieillard et d'un jeune garçon (Louvre)", desc: "Chef-d'œuvre absolu de tendresse familiale et de vérité psychologique, confrontant la vieillesse altérée par la maladie et la grâce de l'enfance.", type: "masterpiece", icon: "🎨", artworkId: "ghirlandaio_portrait_vieillard_et_jeune_garcon_louvre_1490" },
+          { year: 1490, title: "L'Apparition du Christ ressuscité à la Vierge (Louvre)", desc: "Panneau de dévotion privé d'une symétrie cristalline illustrant l'épisode de la Légende dorée avec une piété mesurée.", type: "masterpiece", icon: "🎨", artworkId: "ghirlandaio_apparition_christ_ressuscite_a_la_vierge_louvre_1490" },
+          { year: 1490, title: "Achèvement du cycle Tornabuoni (Santa Maria Novella)", desc: "Inauguration des scènes grandioses de la Vie de la Vierge et de saint Jean-Baptiste, miroir triomphal de la Florence médicéenne.", type: "masterpiece", icon: "🏛️" },
+          { year: 1491, title: "Visitation de la Vierge Marie à sa cousine Élisabeth (Louvre)", desc: "Retable de la chapelle Tornabuoni à Cestello, encadré d'un arc de triomphe antique et baigné d'une lumière florentine éclatante.", type: "masterpiece", icon: "🎨", artworkId: "ghirlandaio_visitation_vierge_elisabeth_louvre_1491" },
+          { year: 1494, title: "Mort prématurée de la peste à 45 ans", desc: "S'éteint le 11 janvier 1494 à Florence emporté par la peste, laissant la direction de l'atelier à ses frères Davide et Benedetto.", type: "death", icon: "🕊️" }
+        ]
+      }
+    ]
+  },
   "gericault": {
     id: "gericault",
     name: "Théodore Géricault",
@@ -23,55 +162,58 @@ window.ARTISTS_REGISTRY = {
         desc: "Né à Rouen dans une famille bourgeoise aisée, Géricault grandit à Paris et se passionne très jeune pour l'art équestre et le spectacle militaire. Élève de Carle Vernet puis de Pierre-Narcisse Guérin, il rejette la froideur néoclassique davidienne pour s'inspirer de Rubens et des maîtres flamands. Dès 1812, à seulement 21 ans, il électrise le Salon de Paris avec son Officier de chasseurs chargeant.",
         summary: "Apprentissage chez Guérin, passion équestre, révélation au Salon de 1812 et désillusion militaire à la chute de l'Empire.",
         events: [
-          { year: 1791, label: "Naissance à Rouen", text: "Théodore Géricault naît le 26 septembre 1791 à Rouen dans un milieu aisé qui lui assurera une indépendance financière totale." },
-          { year: 1808, label: "Atelier de Carle Vernet", text: "Entre dans l'atelier de Carle Vernet, peintre équestre réputé, où il perfectionne sa fascination anatomique pour le cheval." },
-          { year: 1810, label: "Formation chez Pierre-Narcisse Guérin", text: "Rejoint l'atelier néoclassique rigoureux de Guérin, tout en copiant passionnément Rubens, Titien et Rembrandt au Louvre." },
-          { year: 1812, label: "Triomphe au Salon : Officier de chasseurs", text: "Présente l'Officier de chasseurs à cheval chargeant au Salon : coup d'éclat couronné d'une médaille d'or impériale." },
-          { year: 1814, label: "Le revers militaire : Cuirassier blessé", text: "Expose au Salon son Cuirassier blessé quittant le feu, miroir tragique et sombre de la débâcle napoléonienne." },
-          { year: 1814, label: "Engagement dans les Mousquetaires royaux", text: "S'engage brièvement dans la compagnie des Mousquetaires gris de Louis XVIII lors de la première Restauration." }
+          { year: 1791, title: "Naissance à Rouen", desc: "Théodore Géricault naît le 26 septembre 1791 à Rouen dans un milieu aisé lui assurant une indépendance financière totale.", type: "birth", icon: "🌱" },
+          { year: 1808, title: "Char antique (Rouen)", desc: "Étude héroïque à l'huile d'un char de combat antique tiré par deux chevaux au galop, d'après les bas-reliefs romains.", type: "masterpiece", icon: "🎨", artworkId: "gericault_char_antique_rouen_1808" },
+          { year: 1808, title: "Académie d'homme (Rouen)", desc: "Nu masculin athlétique peint d'après modèle vivant chez Guérin, montrant la puissance musculaire héritée de Michel-Ange.", type: "masterpiece", icon: "🎨", artworkId: "gericault_academie_d_homme_rouen_1808" },
+          { year: 1810, title: "Formation chez Pierre-Narcisse Guérin", desc: "Rejoint l'atelier néoclassique rigoureux de Guérin, tout en copiant passionnément Rubens, Titien et Rembrandt au Louvre.", type: "life", icon: "🎓" },
+          { year: 1812, title: "Officier de chasseurs à cheval chargeant (esquisse de Nantes)", desc: "Esquisse fougueuse et nerveuse saisie sur le vif pour préparer le grand tableau du Salon.", type: "masterpiece", icon: "🎨", artworkId: "gericault_officier_de_chasseurs_chargeant_esquisse_nantes_1812" },
+          { year: 1812, title: "Officier de chasseurs à cheval chargeant (Louvre)", desc: "Triomphe au Salon de 1812 : toile colossale couronnée d'une médaille d'or impériale.", type: "masterpiece", icon: "🎨", artworkId: "gericault_officier_de_chasseurs_chargeant_louvre_1812" },
+          { year: 1812, title: "Cheval arabe gris-blanc (Rouen)", desc: "Étude équestre saisissante peinte aux écuries impériales montrant la beauté et la noblesse du pur-sang arabe.", type: "masterpiece", icon: "🎨", artworkId: "gericault_cheval_arabe_gris_blanc_rouen_1812" },
+          { year: 1812, title: "Cheval cabré au tapis de selle rouge (Rouen)", desc: "Étude d'énergie pure capturant la tension nerveuse et la musculature d'un étalon se dressant.", type: "masterpiece", icon: "🎨", artworkId: "gericault_cheval_cabre_au_tapis_rouge_rouen_1812" },
+          { year: 1814, title: "Portrait d'un carabinier (Rouen)", desc: "Portrait psychologique puissant d'un carabinier au regard sombre, marqué par la fatigue des batailles napoléoniennes.", type: "masterpiece", icon: "🎨", artworkId: "gericault_portrait_d_un_carabinier_rouen_1814" },
+          { year: 1814, title: "Cuirassier blessé, quittant le feu (Louvre)", desc: "Toile monumentale du Salon de 1814 incarnant la défaite héroïque et le crépuscule de l'Empire.", type: "masterpiece", icon: "🎨", artworkId: "gericault_cuirassier_blesse_quittant_le_feu_louvre_1814" }
         ]
       },
       {
         title: "1816 – 1817 : Le voyage en Italie, le choc de Michel-Ange et la course des Barberi",
         years: "1816 – 1817",
         color: "#b45309",
-        desc: "Après un échec au Prix de Rome et une liaison amoureuse tourmentée avec sa tante Alexandrine Modeste Caruel, Géricault part pour l'Italie à ses propres frais. À Rome et à Florence, il reçoit le choc esthétique absolu devant la voûte et le Jugement dernier de Michel-Ange. Fasciné par le Carnaval de Rome, il compose la spectaculaire série de la Course des chevaux barbes, fusionnant monumentalité antique et énergie brute.",
+        desc: "Après un échec au Prix de Rome et une crise familiale intime, Géricault part pour l'Italie à ses frais. À Rome et Florence, il reçoit le choc esthétique absolu devant Michel-Ange. Fasciné par le Carnaval de Rome, il compose la spectaculaire série de la Course des chevaux barbes.",
         summary: "Séjour fondateur à Florence et Rome, fascination pour Michel-Ange et cycle magistral de la Course des chevaux barbes.",
         events: [
-          { year: 1816, label: "Départ pour l'Italie", text: "Quitte Paris pour l'Italie afin d'échapper à une crise familiale intime et financer lui-même son grand voyage d'artiste." },
-          { year: 1816, label: "Révélation de la Chapelle Sixtine", text: "Étudie avec passion Michel-Ange à Rome, dont les musculatures monumentales et les tensions héroïques bouleversent sa manière." },
-          { year: 1817, label: "Le Carnaval romain & les Barberi", text: "Assiste à la course traditionnelle des chevaux sans bride sur le Corso romain ; exécute des dizaines d'études sur le vif." },
-          { year: 1817, label: "Cheval arrêté par des jeunes gens", text: "Peint plusieurs versions du domptage des chevaux barbes, élevant une scène populaire à la solennité d'un bas-relief antique." },
-          { year: 1817, label: "Retour précipité à Paris", text: "Rentre à Paris à l'automne 1817 imprégné d'un style monumental, synthétique et sculptural unique." }
+          { year: 1816, title: "Départ pour l'Italie & Choc de Michel-Ange", desc: "Quitte Paris pour l'Italie ; étudie avec passion la voûte et le Jugement dernier de la Chapelle Sixtine à Rome.", type: "life", icon: "🏛️" },
+          { year: 1817, title: "Le Carnaval romain & Course des Barberi", desc: "Assiste à la course traditionnelle des chevaux sans bride sur le Corso romain ; exécute des dizaines d'études sur le vif.", type: "life", icon: "🐎" },
+          { year: 1817, title: "Cheval arrêté par des jeunes gens (Rouen)", desc: "Cycle des Barberi : domptage héroïque des chevaux sans bride sur le Corso de Rome, élevé à la solennité antique.", type: "masterpiece", icon: "🎨", artworkId: "gericault_cheval_arrete_par_des_jeunes_gens_rouen_1817" },
+          { year: 1817, title: "Étude de pieds et de mains (Musée Fabre)", desc: "Études anatomiques directes peintes à l'Hôpital Beaujon pour préparer la vérité des souffrances du Radeau.", type: "masterpiece", icon: "🎨", artworkId: "gericault_etude_de_pieds_et_de_mains_montpellier_1817" }
         ]
       },
       {
         title: "1818 – 1820 : Le Radeau de la Méduse, l'anatomie morbide et l'exil londonien",
         years: "1818 – 1820",
         color: "#4f46e5",
-        desc: "De retour en France, Géricault s'empare d'un scandale d'État : le naufrage de la frégate La Méduse en 1816. Retranché dans son atelier du Faubourg-du-Roule, il fait construire un modèle réduit du radeau, interroge les survivants (Corréard et Savigny) et étudie des cadavres et membres amputés à l'hôpital Beaujon. Présenté au Salon de 1819, Le Radeau de la Méduse choque par son naturalisme tragique. Déçu par l'accueil officiel, Géricault part en Angleterre exposer l'œuvre avec un retentissant succès populaire.",
+        desc: "De retour en France, Géricault s'empare d'un scandale d'État : le naufrage de la frégate La Méduse en 1816. Retranché dans son atelier du Faubourg-du-Roule, il fait construire une maquette du radeau, interroge les rescapés et étudie des cadavres à l'hôpital Beaujon. Présenté au Salon de 1819, Le Radeau de la Méduse choque par son naturalisme tragique avant de triompher à Londres.",
         summary: "Genèse forcenée du Radeau de la Méduse, immersion dans la morgue de Beaujon, scandale au Salon et triomphe à Londres.",
         events: [
-          { year: 1818, label: "Enquête sur le naufrage de la Méduse", text: "Rencontre les rescapés Savigny et Corréard, commande une maquette du radeau et s'isole entièrement dans son atelier." },
-          { year: 1818, label: "Études anatomiques à l'Hôpital Beaujon", text: "Peint des études stupéfiantes de membres coupés et de têtes de suppliciés pour saisir la pâleur et la rigidité de la mort." },
-          { year: 1819, label: "Salon de 1819 : Le Radeau de la Méduse", text: "Expose sa toile monumentale de 7 mètres sous le titre neutre Scène de naufrage, provoquant une immense controverse politique." },
-          { year: 1820, label: "Exposition triomphale à Londres", text: "Expose Le Radeau à l'Egyptian Hall de Londres : plus de 40 000 visiteurs s'y pressent, lui rapportant gloire et revenus." },
-          { year: 1820, label: "Découverte de l'art anglais", text: "Séjourne en Angleterre, admire Turner, Constable et Wilkie, et s'initie à l'art équestre moderne des courses d'Epsom." }
+          { year: 1818, title: "Étude de bras et de jambes (Rouen)", desc: "Étude nocturne peinte à la lampe dans l'atelier du Roule pour saisir les reflets glauques de la décomposition.", type: "masterpiece", icon: "🎨", artworkId: "gericault_etude_de_bras_et_de_jambes_rouen_1818" },
+          { year: 1818, title: "Tête d'un jeune homme mort (Rouen)", desc: "Visage cadavérique d'un réalisme bouleversant et tragique, fixant la pâleur de l'agonie.", type: "masterpiece", icon: "🎨", artworkId: "gericault_tete_d_un_jeune_homme_mort_rouen_1818" },
+          { year: 1818, title: "Portrait d'homme, Le charpentier de la Méduse (Rouen)", desc: "Portrait intime et émouvant d'un rescapé de la frégate royale La Méduse.", type: "masterpiece", icon: "🎨", artworkId: "gericault_portrait_le_charpentier_de_la_meduse_rouen_1818" },
+          { year: 1819, title: "Le Radeau de la Méduse (Louvre)", desc: "Chef-d'œuvre universel du Romantisme français : le drame de la survie humaine face à l'immensité de l'océan.", type: "masterpiece", icon: "🎨", artworkId: "gericault_le_radeau_de_la_meduse_louvre_1818" },
+          { year: 1820, title: "Exposition triomphale à Londres", desc: "Expose Le Radeau à l'Egyptian Hall de Londres : plus de 40 000 visiteurs s'y pressent, lui rapportant gloire et revenus.", type: "masterpiece", icon: "🏆" },
+          { year: 1820, title: "Deux léopards (Rouen)", desc: "Étude animalière virtuose peinte d'après les fauves de la ménagerie royale de la Tour de Londres.", type: "masterpiece", icon: "🎨", artworkId: "gericault_deux_leopards_rouen_1820" }
         ]
       },
       {
         title: "1821 – 1824 : Les Monomanes, les dernières lithographies et le crépuscule fulgurant",
         years: "1821 – 1824",
         color: "#991b1b",
-        desc: "Ruiné par des spéculations hasardeuses et affaibli par une dépression, Géricault rentre à Paris. À la demande du docteur Étienne-Jean Georget, aliéniste à la Salpêtrière, il réalise sa célèbre série des Monomanes, cinq portraits bouleversants d'aliénés mentaux traités avec une empathie et une vérité clinique inédites. Victime de plusieurs chutes de cheval répétées et d'une carie vertébrale, il s'éteint le 26 janvier 1824 à seulement 32 ans, laissant une œuvre révolutionnaire qui ouvrira la voie à Delacroix et Courbet.",
+        desc: "Ruiné par des spéculations hasardeuses et affaibli par une dépression, Géricault rentre à Paris. À la demande du docteur Georget, il réalise sa célèbre série des Monomanes, cinq portraits bouleversants d'aliénés mentaux. Victime de chutes de cheval répétées, il s'éteint le 26 janvier 1824 à seulement 32 ans.",
         summary: "Série magistrale des Monomanes pour le Dr Georget, pionnier de la lithographie, chutes de cheval et fin tragique à 32 ans.",
         events: [
-          { year: 1821, label: "Le Derby d'Epsom", text: "Peint Le Derby d'Epsom avec ses chevaux en galop volant, chef-d'œuvre de vitesse et d'illusion spatiale." },
-          { year: 1821, label: "Pionnier de la lithographie", text: "Publie la célèbre suite anglaise de lithographies, explorant la condition du peuple londonien et des bêtes de somme." },
-          { year: 1822, label: "La série des Monomanes", text: "Peint les portraits d'aliénés pour le Dr Georget (Monomanie du vol, de l'envie, du commandement militaire, du jeu)." },
-          { year: 1823, label: "Chutes de cheval et alitement", text: "Victime de violentes chutes de cheval successives, il développe une affection osseuse qui le paralyse dans son lit." },
-          { year: 1824, label: "Derniers dessins sur son lit de mort", text: "Continue de dessiner et dicte des compositions jusqu'à ses derniers jours, entouré de ses amis Ary Scheffer et Dedreux-Dorcy." },
-          { year: 1824, label: "Mort prématurée à 32 ans", text: "S'éteint le 26 janvier 1824 à Paris ; il est inhumé au cimetière du Père-Lachaise avec un gisant sculpté par Antoine Étex." }
+          { year: 1821, title: "Le Derby d'Epsom", desc: "Peint Le Derby d'Epsom avec ses chevaux en galop volant, chef-d'œuvre de vitesse et d'illusion spatiale.", type: "masterpiece", icon: "🐎" },
+          { year: 1821, title: "Pionnier de la lithographie", desc: "Publie la célèbre suite anglaise de lithographies, explorant la condition du peuple londonien et des bêtes de somme.", type: "masterpiece", icon: "🖼️" },
+          { year: 1822, title: "La série des Monomanes", desc: "Peint les portraits d'aliénés pour le Dr Georget (Monomanie du vol, de l'envie, du commandement militaire, du jeu).", type: "masterpiece", icon: "🧠" },
+          { year: 1823, title: "Chutes de cheval et alitement", desc: "Victime de violentes chutes de cheval successives, il développe une affection osseuse qui le paralyse dans son lit.", type: "life", icon: "🩹" },
+          { year: 1824, title: "Mort prématurée à 32 ans", desc: "S'éteint le 26 janvier 1824 à Paris ; inhumé au cimetière du Père-Lachaise avec un gisant sculpté par Antoine Étex.", type: "death", icon: "🕊️" }
         ]
       }
     ]
@@ -12048,7 +12190,7 @@ window.ARTISTS_REGISTRY = {
             { year: 1810, title: "Le Moine au bord de la mer & L'Abbaye dans une forêt de chênes", desc: "Chef-d'œuvre absolu de dépouillement et de vertige cosmique, acheté par le prince héritier de Prusse à l'Académie de Berlin.", icon: "🌊", badge: "Apogée" },
             { year: 1816, title: "Membre de l'Académie de Dresde", desc: "Élu membre titulaire de l'Académie des Beaux-Arts de Dresde avec traitement annuel du royaume de Saxe.", icon: "📜", badge: "Honneur" },
             { year: 1818, title: "Mariage avec Caroline Bommer & Voyageur sur la mer de nuages", desc: "Épouse Caroline Bommer, 25 ans. Peint Le Voyageur contemplant une mer de nuages, quintessence absolue de la Rückenfigur romantique.", icon: "💍", badge: "Chef-d'œuvre" },
-            { year: 1818, title: "Bord de mer au clair de lune (Louvre)", desc: "Peint l'un des nocturnes les plus poignants du romantisme européen, où filets et bateaux méditent sous le croissant lunaire (Louvre).", icon: "🌙", badge: "Louvre" }
+            { year: 1818, title: "Bord de mer au clair de lune (Louvre)", desc: "Peint l'un des nocturnes les plus poignants du romantisme européen, où filets et bateaux méditent sous le croissant lunaire (Louvre).", type: "masterpiece", icon: "🎨", artworkId: "friedrich_bord_de_mer_clair_de_lune_louvre_1818" }
           ]
         },
         {
@@ -12059,7 +12201,7 @@ window.ARTISTS_REGISTRY = {
           summary: "Bien que respecté par les cours de Prusse et de Russie, Friedrich subit les persécutions de la Restauration saxonne pour ses sympathies libérales. Il peint ses chefs-d'œuvre de tension cosmique et de désolation sublime.",
           events: [
             { year: 1820, title: "Visite du Grand-Duc Nicolas de Russie", desc: "Le futur tsar Nicolas Ier visite personnellement son atelier de Dresde et commande plusieurs toiles majeures pour Saint-Pétersbourg.", icon: "👑", badge: "Mécénat" },
-            { year: 1822, title: "L'Arbre aux corbeaux (Louvre)", desc: "Chef-d'œuvre tragique du Louvre : chêne tourmenté, crépuscule sur l'île de Rügen et nuée de corbeaux messagers de la finitude.", icon: "🦅", badge: "Louvre" },
+            { year: 1822, title: "L'Arbre aux corbeaux (Louvre)", desc: "Chef-d'œuvre tragique du Louvre : chêne tourmenté, crépuscule sur l'île de Rügen et nuée de corbeaux messagers de la finitude.", type: "masterpiece", icon: "🎨", artworkId: "friedrich_arbre_aux_corbeaux_louvre_1822" },
             { year: 1823, title: "Colocation avec Johan Christian Dahl", desc: "Partage sa maison à Dresde avec le grand peintre de paysages norvégien Dahl, stimulant un dialogue pictural fécond.", icon: "🤝", badge: "Amitié" },
             { year: 1824, title: "La Mer de glace (Le Naufrage de l'Espoir)", desc: "Peint l'apothéose tragique du Romantisme : un navire broyé par les glaces éternelles de l'Arctique dans un silence cataclysmique.", icon: "🧊", badge: "Chef-d'œuvre" },
             { year: 1826, title: "Séjour de cure à Rügen", desc: "Retourne sur l'île baltique de Rügen pour dessiner falaises de craie et tumulus mégalithiques préhistoriques.", icon: "🏖️", badge: "Baltique" }
@@ -12111,7 +12253,7 @@ window.ARTISTS_REGISTRY = {
             { year: 1727, title: "Naissance à Sudbury (Suffolk)", desc: "Baptisé le 14 mai 1727 à Sudbury, fils d'un marchand drapier et tisserand.", icon: "🌱", badge: "Origines" },
             { year: 1740, title: "Atelier de Gravelot à Londres", desc: "Apprend l'élégance rococo, la précision graphique et la liberté du dessin auprès de l'illustrateur français Hubert Gravelot.", icon: "✏️", badge: "Formation" },
             { year: 1746, title: "Mariage avec Margaret Burr", desc: "Épouse Margaret Burr, fille naturelle du duc de Beaufort qui lui assure une rente annuelle régulière de 200 livres.", icon: "💍", badge: "Mariage" },
-            { year: 1746, title: "Conversation dans un parc (Louvre)", desc: "Peint l'un des premiers chefs-d'œuvre de la 'conversation piece' anglaise, représentant un couple élégant en harmonie dans un parc naturel.", icon: "🌸", badge: "Louvre" },
+            { year: 1746, title: "Conversation dans un parc (Louvre)", desc: "Peint l'un des premiers chefs-d'œuvre de la 'conversation piece' anglaise, représentant un couple élégant en harmonie dans un parc naturel.", type: "masterpiece", icon: "🎨", artworkId: "gainsborough_conversation_dans_un_parc_louvre_1746" },
             { year: 1750, title: "Installation à Ipswich", desc: "S'établit comme portraitiste de la gentry locale tout en peignant ses paysages pastoraux inspirés de Jacob van Ruisdael et Wynants.", icon: "🏡", badge: "Suffolk" }
           ]
         },
@@ -12178,9 +12320,10 @@ window.ARTISTS_REGISTRY = {
             { year: 1865, title: "Marin au long cours", desc: "S'engage comme novice dans la marine marchande puis matelot sur la corvette Jérôme-Napoléon, faisant le tour du globe.", icon: "🚢", badge: "Aventure" },
             { year: 1871, title: "Courtier à la Bourse de Paris", desc: "Entre chez l'agent de change Paul Bertin, gagne confortablement sa vie et épouse la Danoise Mette-Sophie Gad en 1873.", icon: "💼", badge: "Finance" },
             { year: 1874, title: "Rencontre de Camille Pissarro", desc: "Découvre la peinture moderne, commence à collectionner Manet, Monet, Cézanne et s'initie au plein air sous la tutelle de Pissarro.", icon: "🎨", badge: "Mentorat" },
-            { year: 1881, title: "Vase de fleurs à la fenêtre & Nature morte aux oranges", desc: "Peint deux natures mortes remarquables à l'écriture impressionniste affirmée, aujourd'hui joyaux du Musée des Beaux-Arts de Rennes.", icon: "🌸", badge: "Rennes" },
+            { year: 1881, title: "Vase de fleurs à la fenêtre (Rennes)", desc: "Peinture intimiste impressionniste réalisée sous le mentorat de Pissarro (Musée des Beaux-Arts de Rennes).", type: "masterpiece", icon: "🎨", artworkId: "gauguin_vase_de_fleurs_a_la_fenetre_rennes_1881" },
+            { year: 1881, title: "Nature morte aux oranges (Rennes)", desc: "Étude d'objets et de fruits aux volumes fermes et lumineux conservée au Musée des Beaux-Arts de Rennes.", type: "masterpiece", icon: "🎨", artworkId: "gauguin_nature_morte_aux_oranges_rennes_1881" },
             { year: 1882, title: "Le Krach boursier de l'Union Générale", desc: "La Bourse s'effondre. Gauguin décide d'abandonner définitivement les affaires pour se consacrer exclusivement à son art.", icon: "⚡", badge: "Rupture" },
-            { year: 1885, title: "Baigneuses à Dieppe", desc: "Après un hiver misérable à Copenhague, il séjourne à Dieppe et peint le rythme sculptural des baigneuses normandes face aux vagues.", icon: "🌊", badge: "Normandie" }
+            { year: 1885, title: "Baigneuses à Dieppe (Tokyo)", desc: "Après un hiver misérable à Copenhague, il séjourne à Dieppe et peint le rythme sculptural des baigneuses normandes face aux vagues (Tokyo NMWA).", type: "masterpiece", icon: "🎨", artworkId: "gauguin_baigneuses_a_dieppe_tokyo_1885" }
           ]
         },
         {
@@ -12190,11 +12333,11 @@ window.ARTISTS_REGISTRY = {
           desc: "Découverte de la Bretagne archaïque, séjour à la Martinique, choc d'Émile Bernard et cohabitation avec Van Gogh à Arles.",
           summary: "Fuyant Paris, Gauguin s'établit en Bretagne où il invente le synthétisme et le cloisonnisme : émancipation de la couleur pure, rejet du réalisme optique et simplification sacrée des formes.",
           events: [
-            { year: 1886, title: "Premier séjour à Pont-Aven & Quatre femmes bretonnes", desc: "Découvre la rudesse mystique de la Bretagne et peint Quatre femmes bretonnes (Neue Pinakothek de Munich), préfigurant le cloisonnisme.", icon: "🌾", badge: "Bretagne" },
+            { year: 1886, title: "Quatre femmes bretonnes (Munich)", desc: "Découvre la rudesse mystique de la Bretagne et peint Quatre femmes bretonnes (Neue Pinakothek de Munich), préfigurant le cloisonnisme.", type: "masterpiece", icon: "🎨", artworkId: "gauguin_quatre_femmes_bretonnes_munich_1886" },
             { year: 1887, title: "Voyage à Panama et en Martinique", desc: "Part avec Charles Laval aux Antilles ; la lumière tropicale et les harmonies intenses transforment irréversiblement sa palette.", icon: "🌴", badge: "Tropiques" },
             { year: 1888, title: "La Vision après le sermon (La Lutte de Jacob avec l'ange)", desc: "Avec Émile Bernard à Pont-Aven, il peint sur fond rouge vermillon le manifeste absolu du symbolisme et du synthétisme moderne.", icon: "✨", badge: "Manifeste" },
             { year: 1888, title: "L'Atelier du Midi avec Vincent van Gogh à Arles", desc: "Rejoint Van Gogh à la Maison Jaune d'octobre à décembre. La confrontation passionnée s'achève par le drame de l'oreille coupée.", icon: "🌻", badge: "Arles" },
-            { year: 1889, title: "Exposition du Café Volpini & Bretonnes près de la mer", desc: "Organise l'exposition dissidente du Groupe Impressionniste et Synthétiste et peint au Pouldu son chef-d'œuvre Bretonnes près de la mer.", icon: "🌊", badge: "Chef-d'œuvre" },
+            { year: 1889, title: "Bretonnes près de la mer (Tokyo)", desc: "Chef-d'œuvre synthétiste peint au Pouldu : grands aplats de couleurs pures, cerne noir et cadrage japonais audacieux (Tokyo NMWA).", type: "masterpiece", icon: "🎨", artworkId: "gauguin_bretonnes_pres_de_la_mer_tokyo_1889" },
             { year: 1889, title: "Le Christ jaune & Le Christ vert", desc: "Inspiré par les calvaires de pierre bretons, il peint des icônes primitives où la ferveur populaire s'incarne en jaune solaire.", icon: "✝️", badge: "Sacré" }
           ]
         },
@@ -12219,9 +12362,9 @@ window.ARTISTS_REGISTRY = {
           summary: "Rongé par la maladie et le deuil de sa fille Aline, Gauguin peint ses œuvres testamentaires monumentales avant de se retirer aux Marquises dans sa Maison du Jouir, où il s'éteint en 1903.",
           events: [
             { year: 1895, title: "Départ sans retour pour le Pacifique", desc: "Quitte l'Europe pour toujours et s'installe sur la côte ouest de Tahiti au milieu des cocotiers.", icon: "🌺", badge: "Océanie" },
-            { year: 1896, title: "Te Tamari no Atua (La Nativité tahitienne)", desc: "Transposition magistrale du mystère chrétien dans la tiédeur polynésienne, aujourd'hui à la Neue Pinakothek de Munich.", icon: "👶", badge: "Munich" },
+            { year: 1896, title: "Te Tamari no Atua - Nativité tahitienne (Munich)", desc: "Transposition magistrale du mystère chrétien dans la tiédeur polynésienne, aujourd'hui à la Neue Pinakothek de Munich.", type: "masterpiece", icon: "🎨", artworkId: "gauguin_nativite_te_tamari_no_atua_munich_1896" },
             { year: 1897, title: "D'où venons-nous ? Que sommes-nous ? Où allons-nous ?", desc: "Apprenant la mort de sa fille Aline, il peint sa fresque testament de 4 mètres de large avant de tenter de s'empoisonner à l'arsenic.", icon: "🌌", badge: "Testament" },
-            { year: 1899, title: "Trois Tahitiens (ou Conversation)", desc: "Monumentale scène allégorique aux corps sculpturaux et drapés éclatants conservée à la National Gallery of Scotland d'Édimbourg.", icon: "👥", badge: "Édimbourg" },
+            { year: 1899, title: "Trois Tahitiens ou Conversation (Édimbourg)", desc: "Monumentale scène allégorique aux corps sculpturaux et drapés éclatants conservée à la National Gallery of Scotland d'Édimbourg.", type: "masterpiece", icon: "🎨", artworkId: "gauguin_trois_tahitiens_ou_conversation_edimbourg_1899" },
             { year: 1901, title: "Installation à Hiva Oa (Îles Marquises)", desc: "Gagne les Marquises à bord de la goélette La Croix-du-Sud et bâtit sa fameuse 'Maison du Jouir' ornée de panneaux de bois sculptés.", icon: "🛖", badge: "Marquises" },
             { year: 1903, title: "Mort solitaire à Atuona", desc: "Après avoir pris la défense des Marquisiens contre les abus des gendarmes et des missionnaires, il s'éteint le 8 mai 1903 à l'âge de 54 ans.", icon: "🕊️", badge: "Éternité" }
           ]

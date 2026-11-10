@@ -16,6 +16,544 @@
    ========================================================================== */
 window.ART_OBJECTS = [
   {
+    "id": "gerome_tete_de_femme_cornes_de_belier_nantes_1853",
+    "artistId": "gerome",
+    "artist": "Jean-Léon Gérôme",
+    "artistSort": "Gérôme Jean-Léon",
+    "civId": "occident",
+    "periodId": "occ_xixe",
+    "civName": "Occident : Académisme, Néo-Grec & Orientalisme",
+    "title": "Tête de femme coiffée de cornes de bélier",
+    "date": 1853,
+    "dateDisplay": "1853",
+    "century": "XIXe siècle (1853)",
+    "centuryDisplay": "XIXe s. (1853)",
+    "centuryNumeric": 1853,
+    "period": "XIXe siècle",
+    "domain": "peinture",
+    "artifactType": "Peinture à l'huile sur toile",
+    "category": "Peinture à l'huile sur toile",
+    "type": "Peinture à l'huile",
+    "medium": "Huile sur toile",
+    "dimensions": {
+      "h": 47,
+      "w": 47,
+      "display": "47 × 47 cm (tondo, diamètre 46 cm)"
+    },
+    "site": "Musée d'Arts de Nantes (France)",
+    "originSite": "Atelier de Gérôme (Paris)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczN853ksFkI0g5GsixHjsCr9ccoouKgA4fuNziCeJMx6DLQg3ypHZOVJjUITlzZQoch3qFCyirNncj5eeQrXCY6tCpd1lv5WJg3NhzHassD_09DOdhRhpULSG5gRpA1Bd4Elj41SuyHHmNGGb6O4TeAteg=w1681-h2057-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczN853ksFkI0g5GsixHjsCr9ccoouKgA4fuNziCeJMx6DLQg3ypHZOVJjUITlzZQoch3qFCyirNncj5eeQrXCY6tCpd1lv5WJg3NhzHassD_09DOdhRhpULSG5gRpA1Bd4Elj41SuyHHmNGGb6O4TeAteg=w1681-h2057-s-no-gm?authuser=0",
+    "tags": [
+      "peinture",
+      "académisme",
+      "gérôme",
+      "tondo",
+      "néo-grec",
+      "dionysos",
+      "nantes"
+    ],
+    "chips": [
+      "XIXe s.",
+      "1853",
+      "Courant Néo-Grec",
+      "Tondo mythologique",
+      "Nantes"
+    ],
+    "narrative": "<p>Cette œuvre singulière de Jean-Léon Gérôme, peinte en 1853, s'inscrit dans le courant du courant «néo-grec« dont l'artiste fut l'un des chefs de file. Présentée dans un format circulaire (tondo) qui accentue l'aspect précieux et intime du portrait, la toile représente une jeune femme de profil, la tête légèrement inclinée vers le bas. La composition est marquée par un contraste saisissant entre la peau d'albâtre du modèle et le fond sombre, presque noir, qui confère à la figure une présence sculpturale évoquant les camées antiques.</p><p>Le sujet central de l'œuvre réside dans l'ornementation fantastique de la coiffe. La chevelure rousse, soigneusement tressée, est surmontée d'imposantes cornes de bélier qui s'enroulent autour des oreilles. Ce motif hybride confère au modèle une dimension mythologique, évoquant une bacchante ou une divinité sylvestre liée au culte de Dionysos. Le visage, aux traits fins et à l'expression pensive, presque mélancolique, tempère l'étrangeté de l'attribut animal par une douceur profondément humaine. Le travail sur le modelé du cou et de l'épaule dénudée témoigne de la précision académique de Gérôme.</p><p>Le traitement des matières souligne le goût de l'artiste pour l'archéologie et l'exotisme. La jeune femme porte une tunique de soie blanche aux plis délicatement travaillés, sur laquelle est jetée une peau de bête à la fourrure rousse, rappelant les attributs des faunes. Le cadre original en bois doré, orné de feuilles de lierre, participe pleinement à la mise en scène symbolique de l'œuvre, le lierre étant traditionnellement associé à l'immortalité et aux rituels antiques. La lumière, venant de la gauche, glisse sur les surfaces lisses des cornes et de la peau, créant un jeu de textures d'une grande virtuosité.</p><p>Cette peinture, conservée au Musée d'Arts de Nantes, illustre la volonté de Gérôme de renouveler l'inspiration antique par une approche à la fois érudite et insolite. Entre portrait réaliste et vision onirique, cette «Tête de femme« préfigure le goût de la fin du siècle pour le symbolisme tout en restant ancrée dans la perfection technique de l'école française. Le siècle de cet objet est le XIXe siècle. La civilisation est la France et la sous-partie pour le classement de la photo est la Peinture néo-grecque et académique. //</p>",
+    "desc": "<p>Cette œuvre singulière de Jean-Léon Gérôme, peinte en 1853, s'inscrit dans le courant du courant «néo-grec« dont l'artiste fut l'un des chefs de file. Présentée dans un format circulaire (tondo) qui accentue l'aspect précieux et intime du portrait, la toile représente une jeune femme de profil, la tête légèrement inclinée vers le bas. La composition est marquée par un contraste saisissant entre la peau d'albâtre du modèle et le fond sombre, presque noir, qui confère à la figure une présence sculpturale évoquant les camées antiques.</p><p>Le sujet central de l'œuvre réside dans l'ornementation fantastique de la coiffe. La chevelure rousse, soigneusement tressée, est surmontée d'imposantes cornes de bélier qui s'enroulent autour des oreilles. Ce motif hybride confère au modèle une dimension mythologique, évoquant une bacchante ou une divinité sylvestre liée au culte de Dionysos. Le visage, aux traits fins et à l'expression pensive, presque mélancolique, tempère l'étrangeté de l'attribut animal par une douceur profondément humaine. Le travail sur le modelé du cou et de l'épaule dénudée témoigne de la précision académique de Gérôme.</p><p>Le traitement des matières souligne le goût de l'artiste pour l'archéologie et l'exotisme. La jeune femme porte une tunique de soie blanche aux plis délicatement travaillés, sur laquelle est jetée une peau de bête à la fourrure rousse, rappelant les attributs des faunes. Le cadre original en bois doré, orné de feuilles de lierre, participe pleinement à la mise en scène symbolique de l'œuvre, le lierre étant traditionnellement associé à l'immortalité et aux rituels antiques. La lumière, venant de la gauche, glisse sur les surfaces lisses des cornes et de la peau, créant un jeu de textures d'une grande virtuosité.</p><p>Cette peinture, conservée au Musée d'Arts de Nantes, illustre la volonté de Gérôme de renouveler l'inspiration antique par une approche à la fois érudite et insolite. Entre portrait réaliste et vision onirique, cette «Tête de femme« préfigure le goût de la fin du siècle pour le symbolisme tout en restant ancrée dans la perfection technique de l'école française. Le siècle de cet objet est le XIXe siècle. La civilisation est la France et la sous-partie pour le classement de la photo est la Peinture néo-grecque et académique. //</p>",
+    "contemporaryArt": {
+      "title": "Second Empire & IIIe République • Triomphe de l'Académie & Essor de l'Orientalisme",
+      "events": [
+        "1852 : Proclamation du Second Empire par Napoléon III.",
+        "1853 : Mariage de Napoléon III avec Eugénie de Montijo ; consécration du courant Néo-Grec.",
+        "1856 – 1857 : Voyages de Gérôme en Égypte ; expéditions archéologiques sur le Nil.",
+        "1861 : Triomphe de Gérôme au Salon avec Le Prisonnier.",
+        "1863 : Création du mythique Salon des Refusés par décret impérial.",
+        "1869 : Inauguration en grande pompe du Canal de Suez par Ferdinand de Lesseps et l'impératrice Eugénie.",
+        "1874 : Première exposition impressionniste chez Nadar ; Gérôme s'érige en défenseur de la tradition."
+      ]
+    }
+  },
+  {
+    "id": "gerome_vue_plaine_de_thebes_nantes_1857",
+    "artistId": "gerome",
+    "artist": "Jean-Léon Gérôme",
+    "artistSort": "Gérôme Jean-Léon",
+    "civId": "occident",
+    "periodId": "occ_xixe",
+    "civName": "Occident : Académisme, Néo-Grec & Orientalisme",
+    "title": "Vue de la plaine de Thèbes",
+    "date": 1857,
+    "dateDisplay": "1857",
+    "century": "XIXe siècle (1857)",
+    "centuryDisplay": "XIXe s. (1857)",
+    "centuryNumeric": 1857,
+    "period": "XIXe siècle",
+    "domain": "peinture",
+    "artifactType": "Peinture à l'huile sur toile",
+    "category": "Peinture à l'huile sur toile",
+    "type": "Peinture à l'huile",
+    "medium": "Huile sur toile",
+    "dimensions": {
+      "h": 77,
+      "w": 131,
+      "display": "77 × 131 cm"
+    },
+    "site": "Musée d'Arts de Nantes (France)",
+    "originSite": "Haute-Égypte • Colosses de Memnon / Atelier de Gérôme (Paris)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczO3Ltduv3HhWPu6b5VosMLwnuYwD_bF7hnjiU2mfDZgPSTyVkNDmLGnZ7BfwwPXXZW8rK9p-dlP7FTsZsvqqvIGe0qjkhg0aJkwmnIYkxBWKL0TeGD09DUTyWCbsQksHaBAcUddTjPhtmxRmdkGzqZ_-Q=w1681-h1024-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczO3Ltduv3HhWPu6b5VosMLwnuYwD_bF7hnjiU2mfDZgPSTyVkNDmLGnZ7BfwwPXXZW8rK9p-dlP7FTsZsvqqvIGe0qjkhg0aJkwmnIYkxBWKL0TeGD09DUTyWCbsQksHaBAcUddTjPhtmxRmdkGzqZ_-Q=w1681-h1024-s-no-gm?authuser=0",
+    "tags": [
+      "peinture",
+      "orientalisme",
+      "gérôme",
+      "égypte",
+      "thèbes",
+      "memnon",
+      "nantes"
+    ],
+    "chips": [
+      "XIXe s.",
+      "1857",
+      "Orientalisme & Paysage",
+      "Colosses de Memnon",
+      "Nantes"
+    ],
+    "narrative": "<p>Cette œuvre magistrale de Jean-Léon Gérôme, exécutée en 1857, offre une vision panoramique et monumentale de la Haute-Égypte. La composition est structurée par une ligne d'horizon basse qui laisse une place prédominante à un ciel d'un bleu délavé, écrasé par la chaleur. Au second plan, les colosses de Memnon se dressent comme des sentinelles immuables au milieu de la plaine aride, leur masse sombre contrastant avec la clarté du sol sablonneux. L'artiste utilise une perspective atmosphérique subtile pour rendre l'immensité de l'espace, où les montagnes lointaines se fondent dans une brume de chaleur violacée.</p><p>Le premier plan est traité avec une minutie archéologique, révélant des fragments de colonnes et des blocs de pierre sculptés à demi ensevelis, témoins silencieux d'une civilisation disparue. Sur une digue qui traverse horizontalement le paysage, une caravane de dromadaires s'étire en une file indienne régulière, apportant une échelle humaine à l'immensité du décor. Le mouvement lent de la caravane accentue l'impression de silence et de solitude qui se dégage de cette terre antique. On note au loin, dans le ciel, un vol d'oiseaux migrateurs qui ajoute une note de vie éphémère face à l'éternité des pierres.</p><p>La lumière est l'élément central de cette toile, une lumière crue et zénithale qui unifie les différents plans et souligne la sécheresse de l'air. Gérôme déploie ici toute sa science du détail et sa précision topographique, acquises lors de ses voyages sur les bords du Nil. La palette chromatique, faite d'ocres, de beiges et de terres brûlées, est rythmée par les ombres portées très nettes, caractéristiques du soleil égyptien. Chaque élément, de la texture des rochers au grain du sable, est rendu avec une objectivité quasi scientifique qui n'exclut pas une profonde poésie mélancolique.</p><p>Conservé au Musée d'Arts de Nantes, ce paysage constitue l'un des sommets de la peinture orientaliste du milieu du siècle. Gérôme y délaisse l'anecdote pour se concentrer sur la grandeur pure du site historique, proposant une méditation sur le temps et les ruines. L'œuvre témoigne de la fascination des artistes du XIXe siècle pour l'archéologie et l'Orient, perçu comme un conservatoire de l'histoire du monde. Le siècle de cet objet est le XIXe siècle. La civilisation est la France et la sous-partie pour le classement de la photo est la Peinture orientaliste et de paysage. //</p>",
+    "desc": "<p>Cette œuvre magistrale de Jean-Léon Gérôme, exécutée en 1857, offre une vision panoramique et monumentale de la Haute-Égypte. La composition est structurée par une ligne d'horizon basse qui laisse une place prédominante à un ciel d'un bleu délavé, écrasé par la chaleur. Au second plan, les colosses de Memnon se dressent comme des sentinelles immuables au milieu de la plaine aride, leur masse sombre contrastant avec la clarté du sol sablonneux. L'artiste utilise une perspective atmosphérique subtile pour rendre l'immensité de l'espace, où les montagnes lointaines se fondent dans une brume de chaleur violacée.</p><p>Le premier plan est traité avec une minutie archéologique, révélant des fragments de colonnes et des blocs de pierre sculptés à demi ensevelis, témoins silencieux d'une civilisation disparue. Sur une digue qui traverse horizontalement le paysage, une caravane de dromadaires s'étire en une file indienne régulière, apportant une échelle humaine à l'immensité du décor. Le mouvement lent de la caravane accentue l'impression de silence et de solitude qui se dégage de cette terre antique. On note au loin, dans le ciel, un vol d'oiseaux migrateurs qui ajoute une note de vie éphémère face à l'éternité des pierres.</p><p>La lumière est l'élément central de cette toile, une lumière crue et zénithale qui unifie les différents plans et souligne la sécheresse de l'air. Gérôme déploie ici toute sa science du détail et sa précision topographique, acquises lors de ses voyages sur les bords du Nil. La palette chromatique, faite d'ocres, de beiges et de terres brûlées, est rythmée par les ombres portées très nettes, caractéristiques du soleil égyptien. Chaque élément, de la texture des rochers au grain du sable, est rendu avec une objectivité quasi scientifique qui n'exclut pas une profonde poésie mélancolique.</p><p>Conservé au Musée d'Arts de Nantes, ce paysage constitue l'un des sommets de la peinture orientaliste du milieu du siècle. Gérôme y délaisse l'anecdote pour se concentrer sur la grandeur pure du site historique, proposant une méditation sur le temps et les ruines. L'œuvre témoigne de la fascination des artistes du XIXe siècle pour l'archéologie et l'Orient, perçu comme un conservatoire de l'histoire du monde. Le siècle de cet objet est le XIXe siècle. La civilisation est la France et la sous-partie pour le classement de la photo est la Peinture orientaliste et de paysage. //</p>",
+    "contemporaryArt": {
+      "title": "Second Empire & IIIe République • Triomphe de l'Académie & Essor de l'Orientalisme",
+      "events": [
+        "1852 : Proclamation du Second Empire par Napoléon III.",
+        "1853 : Mariage de Napoléon III avec Eugénie de Montijo ; consécration du courant Néo-Grec.",
+        "1856 – 1857 : Voyages de Gérôme en Égypte ; expéditions archéologiques sur le Nil.",
+        "1861 : Triomphe de Gérôme au Salon avec Le Prisonnier.",
+        "1863 : Création du mythique Salon des Refusés par décret impérial.",
+        "1869 : Inauguration en grande pompe du Canal de Suez par Ferdinand de Lesseps et l'impératrice Eugénie.",
+        "1874 : Première exposition impressionniste chez Nadar ; Gérôme s'érige en défenseur de la tradition."
+      ]
+    }
+  },
+  {
+    "id": "gerome_le_prisonnier_nantes_1861",
+    "artistId": "gerome",
+    "artist": "Jean-Léon Gérôme",
+    "artistSort": "Gérôme Jean-Léon",
+    "civId": "occident",
+    "periodId": "occ_xixe",
+    "civName": "Occident : Académisme, Néo-Grec & Orientalisme",
+    "title": "Le Prisonnier",
+    "date": 1861,
+    "dateDisplay": "1861",
+    "century": "XIXe siècle (1861)",
+    "centuryDisplay": "XIXe s. (1861)",
+    "centuryNumeric": 1861,
+    "period": "XIXe siècle",
+    "domain": "peinture",
+    "artifactType": "Peinture à l'huile sur toile",
+    "category": "Peinture à l'huile sur toile",
+    "type": "Peinture à l'huile",
+    "medium": "Huile sur toile",
+    "dimensions": {
+      "h": 45,
+      "w": 78,
+      "display": "45 × 78 cm"
+    },
+    "site": "Musée d'Arts de Nantes (France)",
+    "originSite": "Bords du Nil (Égypte) / Atelier de Gérôme (Paris)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczMaEFBlt4l5RCesjyDkyQkXQBvwpK_TgN8YdgsUYUaPz12qSQ1_6D0Y8hYMEwy6QywSAIIkanob-nqh1ZiovzNSmVmbrgSV9r04H8feNVq4iQQIr3ctAVQ_-BB8W0DgR0J-5r0PLtdxrHOh2O75ho_ZdQ=w1681-h994-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczMaEFBlt4l5RCesjyDkyQkXQBvwpK_TgN8YdgsUYUaPz12qSQ1_6D0Y8hYMEwy6QywSAIIkanob-nqh1ZiovzNSmVmbrgSV9r04H8feNVq4iQQIr3ctAVQ_-BB8W0DgR0J-5r0PLtdxrHOh2O75ho_ZdQ=w1681-h994-s-no-gm?authuser=0",
+    "tags": [
+      "peinture",
+      "orientalisme",
+      "gérôme",
+      "prisonnier",
+      "nil",
+      "barque",
+      "nantes"
+    ],
+    "chips": [
+      "XIXe s.",
+      "1861",
+      "Orientalisme français",
+      "Drame sur le Nil",
+      "Nantes"
+    ],
+    "narrative": "<p>Cette œuvre emblématique de Jean-Léon Gérôme, réalisée en 1861, plonge le spectateur dans une scène de genre orientaliste d'une grande intensité dramatique. La composition est horizontale, dominée par la silhouette d'une barque glissant sur les eaux calmes du Nil au crépuscule. À l'arrière-plan, la rive se découpe en ombre chinoise contre un ciel aux teintes pales, laissant deviner les colonnes d'un temple antique et des minarets, symbolisant la superposition des époques dans cette Égypte que l'artiste a longuement parcourue.</p><p>Au cœur de l'embarcation se joue un contraste saisissant entre la captivité et l'insouciance. Le prisonnier, dont les pieds sont liés, gît au centre, immobile et tourné vers le ciel, dans une posture de résignation totale. À la proue, un musicien assis joue du rebab avec une apparente légèreté, ses vêtements amples et colorés contrastant avec le dénuement du captif. Les rameurs, saisis dans l'effort, et le garde assis à la poupe, le regard sévère et la main sur son arme, complètent cette scène où la cruauté du destin semble se dissoudre dans la beauté sereine du paysage.</p><p>La maîtrise technique de Gérôme s'exprime ici par un rendu presque photographique de la lumière et des reflets. La surface de l'eau, à peine ridée par le passage de la barque et des rames, renvoie les tons mordorés du couchant avec une précision magistrale. L'artiste utilise une palette subtile de gris bleutés et d'ocres, ponctuée par les touches vives des costumes orientaux, pour créer une atmosphère de silence suspendu. Chaque détail, des cordages au mât nu, est traité avec la rigueur documentaire propre au courant académique dont Gérôme est l'un des plus illustres représentants.</p><p>Considérée comme l'une des images les plus fortes de l'orientalisme français, cette toile conservée au Musée d'Arts de Nantes traite du thème de la fortune changeante et de l'indifférence de la nature face aux souffrances humaines. Le réalisme des figures et la mélancolie qui s'en dégage ont assuré à cette œuvre un succès immédiat lors de sa présentation. Le siècle de cet objet est le XIXe siècle. La civilisation est la France et la sous-partie pour le classement de la photo est la Peinture orientaliste. //</p>",
+    "desc": "<p>Cette œuvre emblématique de Jean-Léon Gérôme, réalisée en 1861, plonge le spectateur dans une scène de genre orientaliste d'une grande intensité dramatique. La composition est horizontale, dominée par la silhouette d'une barque glissant sur les eaux calmes du Nil au crépuscule. À l'arrière-plan, la rive se découpe en ombre chinoise contre un ciel aux teintes pales, laissant deviner les colonnes d'un temple antique et des minarets, symbolisant la superposition des époques dans cette Égypte que l'artiste a longuement parcourue.</p><p>Au cœur de l'embarcation se joue un contraste saisissant entre la captivité et l'insouciance. Le prisonnier, dont les pieds sont liés, gît au centre, immobile et tourné vers le ciel, dans une posture de résignation totale. À la proue, un musicien assis joue du rebab avec une apparente légèreté, ses vêtements amples et colorés contrastant avec le dénuement du captif. Les rameurs, saisis dans l'effort, et le garde assis à la poupe, le regard sévère et la main sur son arme, complètent cette scène où la cruauté du destin semble se dissoudre dans la beauté sereine du paysage.</p><p>La maîtrise technique de Gérôme s'exprime ici par un rendu presque photographique de la lumière et des reflets. La surface de l'eau, à peine ridée par le passage de la barque et des rames, renvoie les tons mordorés du couchant avec une précision magistrale. L'artiste utilise une palette subtile de gris bleutés et d'ocres, ponctuée par les touches vives des costumes orientaux, pour créer une atmosphère de silence suspendu. Chaque détail, des cordages au mât nu, est traité avec la rigueur documentaire propre au courant académique dont Gérôme est l'un des plus illustres représentants.</p><p>Considérée comme l'une des images les plus fortes de l'orientalisme français, cette toile conservée au Musée d'Arts de Nantes traite du thème de la fortune changeante et de l'indifférence de la nature face aux souffrances humaines. Le réalisme des figures et la mélancolie qui s'en dégage ont assuré à cette œuvre un succès immédiat lors de sa présentation. Le siècle de cet objet est le XIXe siècle. La civilisation est la France et la sous-partie pour le classement de la photo est la Peinture orientaliste. //</p>",
+    "contemporaryArt": {
+      "title": "Second Empire & IIIe République • Triomphe de l'Académie & Essor de l'Orientalisme",
+      "events": [
+        "1852 : Proclamation du Second Empire par Napoléon III.",
+        "1853 : Mariage de Napoléon III avec Eugénie de Montijo ; consécration du courant Néo-Grec.",
+        "1856 – 1857 : Voyages de Gérôme en Égypte ; expéditions archéologiques sur le Nil.",
+        "1861 : Triomphe de Gérôme au Salon avec Le Prisonnier.",
+        "1863 : Création du mythique Salon des Refusés par décret impérial.",
+        "1869 : Inauguration en grande pompe du Canal de Suez par Ferdinand de Lesseps et l'impératrice Eugénie.",
+        "1874 : Première exposition impressionniste chez Nadar ; Gérôme s'érige en défenseur de la tradition."
+      ]
+    }
+  },
+  {
+    "id": "gerome_pere_et_fils_devant_porte_rouen_1866",
+    "artistId": "gerome",
+    "artist": "Jean-Léon Gérôme",
+    "artistSort": "Gérôme Jean-Léon",
+    "civId": "occident",
+    "periodId": "occ_xixe",
+    "civName": "Occident : Académisme, Néo-Grec & Orientalisme",
+    "title": "Le père et le fils de l'artiste devant la porte de sa maison",
+    "date": 1866,
+    "dateDisplay": "1866",
+    "century": "XIXe siècle (1866)",
+    "centuryDisplay": "XIXe s. (1866)",
+    "centuryNumeric": 1866,
+    "period": "XIXe siècle",
+    "domain": "peinture",
+    "artifactType": "Peinture à l'huile sur toile",
+    "category": "Peinture à l'huile sur toile",
+    "type": "Peinture à l'huile",
+    "medium": "Huile sur toile",
+    "dimensions": {
+      "h": 55,
+      "w": 46,
+      "display": "55 × 46 cm"
+    },
+    "site": "Musée des Beaux-Arts de Rouen (France)",
+    "originSite": "Maison familiale de Gérôme / Atelier de Gérôme (Paris)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczNgx8fl8BI_rdhb42G5jrR9VMk1Zvd7dP2IEs8yIM8K9gWY8pkOAIPFBzCZg_qE8HGACjqGbJAQz5tslr6g38hC7zj8t7ybIttut5M8CucvGokMXrnEig3ub5DB4oRHo4AS6t32tcrG1HYRrxGFZyLBMQ=w1681-h1964-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczNgx8fl8BI_rdhb42G5jrR9VMk1Zvd7dP2IEs8yIM8K9gWY8pkOAIPFBzCZg_qE8HGACjqGbJAQz5tslr6g38hC7zj8t7ybIttut5M8CucvGokMXrnEig3ub5DB4oRHo4AS6t32tcrG1HYRrxGFZyLBMQ=w1681-h1964-s-no-gm?authuser=0",
+    "tags": [
+      "peinture",
+      "académisme",
+      "gérôme",
+      "famille",
+      "glycines",
+      "chien",
+      "rouen"
+    ],
+    "chips": [
+      "XIXe s.",
+      "1866",
+      "Scène intimiste",
+      "Manière lisse",
+      "MBA Rouen"
+    ],
+    "narrative": "<p>Cette œuvre de Jean-Léon Gérôme, réalisée en 1866, se distingue par son caractère intimiste, s'éloignant des vastes compositions historiques ou orientalisantes qui ont fait la renommée du maître de l'académisme. Le tableau nous plonge dans le cadre privé de l'artiste, devant le perron de sa maison. La scène est construite autour de la figure centrale du père de l'artiste, Pierre-Gérôme, assis sur un banc de bois. Son attitude, jambe croisée et canne à la main, dégage une certaine autorité tranquille et une élégance bourgeoise, accentuée par son chapeau haut-de-forme et son costume sombre.</p><p>La composition joue habilement sur le contraste entre la lumière vive qui frappe la façade et l'obscurité profonde du vestibule derrière la porte ouverte. À droite, le fils de l'artiste, encore tout jeune enfant, apparaît timidement sur le seuil, créant un lien symbolique et visuel entre l'intérieur domestique et l'extérieur public. Le traitement de la végétation, avec les glycines qui retombent en cascades délicates au-dessus de la porte, apporte une touche de douceur et de vie organique qui vient rompre la rigueur géométrique des marches en pierre et de l'architecture.</p><p>La précision technique de Gérôme est ici remarquable, fidèle à son style dit de la «manière lisse« où la trace du pinceau disparaît au profit d'une illusion de réalité presque photographique. Les détails, comme le pelage des chiens (un lévrier assis au premier plan et un autre couché sur les marches), la texture de la pierre calcaire ou le grain du bois de la porte, sont rendus avec une minutie extrême. La palette de couleurs est sobre, dominée par des tons ocres et gris, ce qui permet de mettre en valeur les nuances de vert de la plante grimpante et les éclats de lumière sur le perron. /// artiste Ghirlandaio</p>",
+    "desc": "<p>Cette œuvre de Jean-Léon Gérôme, réalisée en 1866, se distingue par son caractère intimiste, s'éloignant des vastes compositions historiques ou orientalisantes qui ont fait la renommée du maître de l'académisme. Le tableau nous plonge dans le cadre privé de l'artiste, devant le perron de sa maison. La scène est construite autour de la figure centrale du père de l'artiste, Pierre-Gérôme, assis sur un banc de bois. Son attitude, jambe croisée et canne à la main, dégage une certaine autorité tranquille et une élégance bourgeoise, accentuée par son chapeau haut-de-forme et son costume sombre.</p><p>La composition joue habilement sur le contraste entre la lumière vive qui frappe la façade et l'obscurité profonde du vestibule derrière la porte ouverte. À droite, le fils de l'artiste, encore tout jeune enfant, apparaît timidement sur le seuil, créant un lien symbolique et visuel entre l'intérieur domestique et l'extérieur public. Le traitement de la végétation, avec les glycines qui retombent en cascades délicates au-dessus de la porte, apporte une touche de douceur et de vie organique qui vient rompre la rigueur géométrique des marches en pierre et de l'architecture.</p><p>La précision technique de Gérôme est ici remarquable, fidèle à son style dit de la «manière lisse« où la trace du pinceau disparaît au profit d'une illusion de réalité presque photographique. Les détails, comme le pelage des chiens (un lévrier assis au premier plan et un autre couché sur les marches), la texture de la pierre calcaire ou le grain du bois de la porte, sont rendus avec une minutie extrême. La palette de couleurs est sobre, dominée par des tons ocres et gris, ce qui permet de mettre en valeur les nuances de vert de la plante grimpante et les éclats de lumière sur le perron. /// artiste Ghirlandaio</p>",
+    "contemporaryArt": {
+      "title": "Second Empire & IIIe République • Triomphe de l'Académie & Essor de l'Orientalisme",
+      "events": [
+        "1852 : Proclamation du Second Empire par Napoléon III.",
+        "1853 : Mariage de Napoléon III avec Eugénie de Montijo ; consécration du courant Néo-Grec.",
+        "1856 – 1857 : Voyages de Gérôme en Égypte ; expéditions archéologiques sur le Nil.",
+        "1861 : Triomphe de Gérôme au Salon avec Le Prisonnier.",
+        "1863 : Création du mythique Salon des Refusés par décret impérial.",
+        "1869 : Inauguration en grande pompe du Canal de Suez par Ferdinand de Lesseps et l'impératrice Eugénie.",
+        "1874 : Première exposition impressionniste chez Nadar ; Gérôme s'érige en défenseur de la tradition."
+      ]
+    }
+  },
+  {
+    "id": "ghirlandaio_vierge_a_l_enfant_louvre_1473",
+    "artistId": "ghirlandaio",
+    "artist": "Domenico Ghirlandaio (Bigordi)",
+    "artistSort": "Ghirlandaio Domenico",
+    "civId": "occident",
+    "periodId": "occ_renaissance",
+    "civName": "Occident : Première Renaissance florentine",
+    "title": "Vierge à l'Enfant",
+    "date": 1473,
+    "dateDisplay": "v. 1470–1475",
+    "century": "XVe siècle (1473)",
+    "centuryDisplay": "XVe s. (vers 1470–1475)",
+    "centuryNumeric": 1473,
+    "period": "XVe siècle",
+    "domain": "peinture",
+    "artifactType": "Détrempe sur panneau de bois",
+    "category": "Détrempe sur panneau de bois",
+    "type": "Détrempe (tempera)",
+    "medium": "Détrempe sur panneau de peuplier",
+    "dimensions": {
+      "h": 71,
+      "w": 49,
+      "display": "71 × 49 cm"
+    },
+    "site": "Musée du Louvre (Paris, France)",
+    "originSite": "Atelier florentin de Verrocchio / Dévotion privée (Florence)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczN2Z91FS2x9zVSY_ywJUEq-kFSlI9LZq-ddaZICZyHjJuHoPSacdTP7Ma25_Ij7OemiVslnvgnrWPWD-lB7nR4DLQb_o1Y1eXSN8XVT50FYQMPqBJWItIaWBPgD2pO5SyTCrOgLrQv0OAuQ2eYDcy_uag=w1681-h2291-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczN2Z91FS2x9zVSY_ywJUEq-kFSlI9LZq-ddaZICZyHjJuHoPSacdTP7Ma25_Ij7OemiVslnvgnrWPWD-lB7nR4DLQb_o1Y1eXSN8XVT50FYQMPqBJWItIaWBPgD2pO5SyTCrOgLrQv0OAuQ2eYDcy_uag=w1681-h2291-s-no-gm?authuser=0",
+    "tags": [
+      "peinture",
+      "renaissance",
+      "ghirlandaio",
+      "vierge",
+      "enfant",
+      "louvre"
+    ],
+    "chips": [
+      "XVe s.",
+      "v. 1473",
+      "Renaissance florentine",
+      "Dévotion privée",
+      "Musée du Louvre"
+    ],
+    "narrative": "<p>Peinte vers 1470-1475, cette Vierge à l'Enfant est l'une des œuvres de jeunesse de Domenico Ghirlandaio. Elle témoigne de la formation de l'artiste dans l'effervescence des ateliers florentins du milieu du XVe siècle, où l'influence d'Andrea del Verrocchio était prédominante. Ce panneau de dévotion privée, de format vertical, illustre déjà la clarté et la sérénité qui deviendront la marque de fabrique du peintre. L'œuvre frappe par son équilibre entre la tendresse maternelle et une certaine solennité sculpturale, marquant une étape importante avant les grandes fresques narratives qui feront plus tard la gloire de l'artiste.</p><p>La composition présente la Vierge à mi-corps, tenant l'Enfant Jésus qui repose sur un rebord de marbre au premier plan. Marie est vêtue d'une robe rouge éclatante et d'un manteau bleu sombre bordé de broderies dorées, maintenu par un fermoir précieux. Son visage, aux traits fins et au regard empreint d'une douce mélancolie, est encadré par un voile de gaze transparente d'une incroyable finesse. L'Enfant, potelé et vigoureux, lève une main vers sa mère tandis que l'autre repose sur un coussin, son attitude étant à la fois naturelle et majestueuse. Le modelé des chairs, doux et progressif, révèle l'attention que Ghirlandaio portait déjà à la lumière pour définir le volume des corps.</p><p>L'arrière-plan s'ouvre sur un paysage de collines et d'eau qui s'étend vers un horizon lointain, une caractéristique que l'on retrouve souvent dans les portraits de cette époque pour apporter de l'air et de la profondeur à l'espace intérieur. À gauche, une fenêtre ou une ouverture laisse entrevoir des éléments architecturaux et une végétation délicate. Les détails, comme les mèches de cheveux dorées de l'Enfant ou les plis cassants du manteau de la Vierge, montrent une précision technique héritée de l'orfèvrerie. La lumière, venant de la gauche, unifie la scène et souligne la pureté des profils.</p><p>Cette œuvre se distingue par sa capacité à rendre le divin accessible par la beauté formelle. Le parapet de marbre au premier plan sert de transition entre le monde du spectateur et l'espace sacré, tout en offrant au peintre l'occasion de démontrer sa maîtrise des textures minérales. L'harmonie des couleurs et la stabilité de la structure pyramidale confèrent à l'ensemble une impression de paix immuable. C'est un exemple parfait du goût florentin pour une dévotion élégante, où la rigueur mathématique de la Renaissance n'exclut jamais la sensibilité humaine. //</p>",
+    "desc": "<p>Peinte vers 1470-1475, cette Vierge à l'Enfant est l'une des œuvres de jeunesse de Domenico Ghirlandaio. Elle témoigne de la formation de l'artiste dans l'effervescence des ateliers florentins du milieu du XVe siècle, où l'influence d'Andrea del Verrocchio était prédominante. Ce panneau de dévotion privée, de format vertical, illustre déjà la clarté et la sérénité qui deviendront la marque de fabrique du peintre. L'œuvre frappe par son équilibre entre la tendresse maternelle et une certaine solennité sculpturale, marquant une étape importante avant les grandes fresques narratives qui feront plus tard la gloire de l'artiste.</p><p>La composition présente la Vierge à mi-corps, tenant l'Enfant Jésus qui repose sur un rebord de marbre au premier plan. Marie est vêtue d'une robe rouge éclatante et d'un manteau bleu sombre bordé de broderies dorées, maintenu par un fermoir précieux. Son visage, aux traits fins et au regard empreint d'une douce mélancolie, est encadré par un voile de gaze transparente d'une incroyable finesse. L'Enfant, potelé et vigoureux, lève une main vers sa mère tandis que l'autre repose sur un coussin, son attitude étant à la fois naturelle et majestueuse. Le modelé des chairs, doux et progressif, révèle l'attention que Ghirlandaio portait déjà à la lumière pour définir le volume des corps.</p><p>L'arrière-plan s'ouvre sur un paysage de collines et d'eau qui s'étend vers un horizon lointain, une caractéristique que l'on retrouve souvent dans les portraits de cette époque pour apporter de l'air et de la profondeur à l'espace intérieur. À gauche, une fenêtre ou une ouverture laisse entrevoir des éléments architecturaux et une végétation délicate. Les détails, comme les mèches de cheveux dorées de l'Enfant ou les plis cassants du manteau de la Vierge, montrent une précision technique héritée de l'orfèvrerie. La lumière, venant de la gauche, unifie la scène et souligne la pureté des profils.</p><p>Cette œuvre se distingue par sa capacité à rendre le divin accessible par la beauté formelle. Le parapet de marbre au premier plan sert de transition entre le monde du spectateur et l'espace sacré, tout en offrant au peintre l'occasion de démontrer sa maîtrise des textures minérales. L'harmonie des couleurs et la stabilité de la structure pyramidale confèrent à l'ensemble une impression de paix immuable. C'est un exemple parfait du goût florentin pour une dévotion élégante, où la rigueur mathématique de la Renaissance n'exclut jamais la sensibilité humaine. //</p>",
+    "contemporaryArt": {
+      "title": "Quattrocento • L'Âge d'or de Laurent le Magnifique à Florence",
+      "events": [
+        "1469 : Début du mécénat éclatant de Laurent le Magnifique à la tête de la République de Florence.",
+        "1475 : Naissance de Michel-Ange Buonarroti à Caprese, futur élève prodige dans l'atelier de Ghirlandaio.",
+        "1478 : Conjuration des Pazzi contre les Médicis dans la cathédrale Santa Maria del Fiore.",
+        "1481 – 1482 : Les plus grands peintres florentins (Botticelli, Ghirlandaio, Pérugin) décorent la Chapelle Sixtine à Rome.",
+        "1486 : Achèvement des fresques de la chapelle Sassetti à Santa Trinita.",
+        "1492 : Mort de Laurent le Magnifique et découverte de l'Amérique par Christophe Colomb.",
+        "1494 : Entrée des troupes françaises de Charles VIII à Florence et chute des Médicis sous Savonarole."
+      ]
+    }
+  },
+  {
+    "id": "ghirlandaio_la_cene_san_marco_florence_1486",
+    "artistId": "ghirlandaio",
+    "artist": "Domenico Ghirlandaio (Bigordi)",
+    "artistSort": "Ghirlandaio Domenico",
+    "civId": "occident",
+    "periodId": "occ_renaissance",
+    "civName": "Occident : Première Renaissance florentine",
+    "title": "La Cène (Réfectoire de San Marco)",
+    "date": 1486,
+    "dateDisplay": "1486",
+    "century": "XVe siècle (1486)",
+    "centuryDisplay": "XVe s. (1486)",
+    "centuryNumeric": 1486,
+    "period": "XVe siècle",
+    "domain": "peinture",
+    "artifactType": "Fresque murale monumentale",
+    "category": "Fresque murale monumentale",
+    "type": "Fresque",
+    "medium": "Fresque",
+    "dimensions": {
+      "h": 400,
+      "w": 810,
+      "display": "400 × 810 cm (fresque monumentale)"
+    },
+    "site": "Museo Nazionale di San Marco (Florence, Italie)",
+    "originSite": "Réfectoire du Petit Couvent San Marco (Florence, Italie)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczMtsuQOaoyueM0agSkW6mnlP27u_y6bj7e1MDBpd_D7VLxSXHCFBtMa9thXbOpkU5EG8TpdYKH7T7_CyeU1b6sE2njOQbDFwoAVwJxxwRpnbfpgu2fS5ID1iaDDSZ0rpaMFAk1LxZMubVN0koaZlckJBQ=w1681-h1121-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczMtsuQOaoyueM0agSkW6mnlP27u_y6bj7e1MDBpd_D7VLxSXHCFBtMa9thXbOpkU5EG8TpdYKH7T7_CyeU1b6sE2njOQbDFwoAVwJxxwRpnbfpgu2fS5ID1iaDDSZ0rpaMFAk1LxZMubVN0koaZlckJBQ=w1681-h1121-s-no-gm?authuser=0",
+    "tags": [
+      "peinture",
+      "fresque",
+      "ghirlandaio",
+      "cène",
+      "san marco",
+      "florence"
+    ],
+    "chips": [
+      "XVe s.",
+      "1486",
+      "Fresque monumentale",
+      "San Marco, Florence",
+      "Cène"
+    ],
+    "narrative": "<p>Cette fresque monumentale, réalisée en 1486 par Domenico Ghirlandaio, orne le réfectoire du couvent San Marco à Florence. Œuvre de la pleine maturité de l’artiste, elle s'inscrit dans la tradition florentine des représentations du dernier repas du Christ, tout en manifestant une maîtrise spatiale et un naturalisme caractéristiques de la Renaissance. Ghirlandaio utilise ici l’architecture réelle de la salle pour créer une illusion de continuité, inscrivant la scène sous deux voûtes d’arêtes qui semblent ouvrir le mur sur une loggia aérée.</p><p>La composition suit une rigueur géométrique où les apôtres sont disposés le long d'une table en U, recouverte d'une nappe damassée dont les plis et les broderies témoignent d'un souci du détail presque flamand. Au centre, le Christ préside l'assemblée, entouré de ses disciples dont les expressions oscillent entre la gravité et la méditation. Fidèle à l'iconographie traditionnelle avant l'innovation de Léonard de Vinci, Judas est représenté seul, assis de l'autre côté de la table, faisant face au Christ, une figure isolée qui souligne sa trahison imminente.</p><p>L’arrière-plan est l’un des éléments les plus remarquables de l’œuvre. À travers les ouvertures de la loggia, Ghirlandaio dépeint un jardin luxuriant peuplé d'arbres chargés de fruits, de cyprès et d'une multitude d'oiseaux en vol. Ce décor n'est pas seulement décoratif mais chargé de symbolisme chrétien : les palmiers évoquent le martyre, les orangers la pureté, tandis que le faucon fondant sur une proie et le paon perché à droite symbolisent respectivement le sacrifice et l'immortalité de l'âme. La présence d'un chat assis aux pieds de Judas renforce l'idée du mal et de la ruse, s'opposant à la sérénité divine de la scène centrale.</p><p>La palette chromatique est riche, dominée par des tons chauds et des jeux de lumière subtils qui modèlent les drapés des vêtements avec une grande plasticité. L'inscription latine qui court sur la frise supérieure rappelle le caractère sacré du repas et la promesse du royaume des cieux, liant l'image à la fonction liturgique et communautaire du réfectoire. Par sa clarté narrative et son équilibre parfait entre réalisme et spiritualité, cette version de la Cène demeure l'un des sommets de l'art fresquiste du Quattrocento, témoignant de l'habileté de Ghirlandaio à transformer un espace fonctionnel en une fenêtre ouverte sur le sacré. //</p>",
+    "desc": "<p>Cette fresque monumentale, réalisée en 1486 par Domenico Ghirlandaio, orne le réfectoire du couvent San Marco à Florence. Œuvre de la pleine maturité de l’artiste, elle s'inscrit dans la tradition florentine des représentations du dernier repas du Christ, tout en manifestant une maîtrise spatiale et un naturalisme caractéristiques de la Renaissance. Ghirlandaio utilise ici l’architecture réelle de la salle pour créer une illusion de continuité, inscrivant la scène sous deux voûtes d’arêtes qui semblent ouvrir le mur sur une loggia aérée.</p><p>La composition suit une rigueur géométrique où les apôtres sont disposés le long d'une table en U, recouverte d'une nappe damassée dont les plis et les broderies témoignent d'un souci du détail presque flamand. Au centre, le Christ préside l'assemblée, entouré de ses disciples dont les expressions oscillent entre la gravité et la méditation. Fidèle à l'iconographie traditionnelle avant l'innovation de Léonard de Vinci, Judas est représenté seul, assis de l'autre côté de la table, faisant face au Christ, une figure isolée qui souligne sa trahison imminente.</p><p>L’arrière-plan est l’un des éléments les plus remarquables de l’œuvre. À travers les ouvertures de la loggia, Ghirlandaio dépeint un jardin luxuriant peuplé d'arbres chargés de fruits, de cyprès et d'une multitude d'oiseaux en vol. Ce décor n'est pas seulement décoratif mais chargé de symbolisme chrétien : les palmiers évoquent le martyre, les orangers la pureté, tandis que le faucon fondant sur une proie et le paon perché à droite symbolisent respectivement le sacrifice et l'immortalité de l'âme. La présence d'un chat assis aux pieds de Judas renforce l'idée du mal et de la ruse, s'opposant à la sérénité divine de la scène centrale.</p><p>La palette chromatique est riche, dominée par des tons chauds et des jeux de lumière subtils qui modèlent les drapés des vêtements avec une grande plasticité. L'inscription latine qui court sur la frise supérieure rappelle le caractère sacré du repas et la promesse du royaume des cieux, liant l'image à la fonction liturgique et communautaire du réfectoire. Par sa clarté narrative et son équilibre parfait entre réalisme et spiritualité, cette version de la Cène demeure l'un des sommets de l'art fresquiste du Quattrocento, témoignant de l'habileté de Ghirlandaio à transformer un espace fonctionnel en une fenêtre ouverte sur le sacré. //</p>",
+    "contemporaryArt": {
+      "title": "Quattrocento • L'Âge d'or de Laurent le Magnifique à Florence",
+      "events": [
+        "1469 : Début du mécénat éclatant de Laurent le Magnifique à la tête de la République de Florence.",
+        "1475 : Naissance de Michel-Ange Buonarroti à Caprese, futur élève prodige dans l'atelier de Ghirlandaio.",
+        "1478 : Conjuration des Pazzi contre les Médicis dans la cathédrale Santa Maria del Fiore.",
+        "1481 – 1482 : Les plus grands peintres florentins (Botticelli, Ghirlandaio, Pérugin) décorent la Chapelle Sixtine à Rome.",
+        "1486 : Achèvement des fresques de la chapelle Sassetti à Santa Trinita.",
+        "1492 : Mort de Laurent le Magnifique et découverte de l'Amérique par Christophe Colomb.",
+        "1494 : Entrée des troupes françaises de Charles VIII à Florence et chute des Médicis sous Savonarole."
+      ]
+    }
+  },
+  {
+    "id": "ghirlandaio_portrait_vieillard_et_jeune_garcon_louvre_1490",
+    "artistId": "ghirlandaio",
+    "artist": "Domenico Ghirlandaio (Bigordi)",
+    "artistSort": "Ghirlandaio Domenico",
+    "civId": "occident",
+    "periodId": "occ_renaissance",
+    "civName": "Occident : Première Renaissance florentine",
+    "title": "Portrait d'un vieillard et d'un jeune garçon",
+    "date": 1490,
+    "dateDisplay": "v. 1490",
+    "century": "XVe siècle (1490)",
+    "centuryDisplay": "XVe s. (vers 1490)",
+    "centuryNumeric": 1490,
+    "period": "XVe siècle",
+    "domain": "peinture",
+    "artifactType": "Détrempe sur panneau de bois",
+    "category": "Détrempe sur panneau de bois",
+    "type": "Détrempe (tempera)",
+    "medium": "Détrempe sur panneau de peuplier",
+    "dimensions": {
+      "h": 62.7,
+      "w": 45.5,
+      "display": "62,7 × 45,5 cm"
+    },
+    "site": "Musée du Louvre (Paris, France)",
+    "originSite": "Palais patricien florentin (Collection Sassetti ou Tornabuoni)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczMpfBQvZMRse_x8MDvK3dmRohok2bUAZzA1CqSYzihHI6VpjJHliZMhYIAh9BrXHBemga4jA6RI8pjWCa2vjlEz38Hw24fEremcmN1BvQqFQd2KgsAAn3uSY5fzoSF0lnHTR2kIGeHnnBfLXPJJWq1yRw=w1681-h2140-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczMpfBQvZMRse_x8MDvK3dmRohok2bUAZzA1CqSYzihHI6VpjJHliZMhYIAh9BrXHBemga4jA6RI8pjWCa2vjlEz38Hw24fEremcmN1BvQqFQd2KgsAAn3uSY5fzoSF0lnHTR2kIGeHnnBfLXPJJWq1yRw=w1681-h2140-s-no-gm?authuser=0",
+    "tags": [
+      "peinture",
+      "renaissance",
+      "ghirlandaio",
+      "portrait",
+      "vieillard",
+      "enfant",
+      "louvre"
+    ],
+    "chips": [
+      "XVe s.",
+      "v. 1490",
+      "Renaissance florentine",
+      "Chef-d'œuvre du portrait",
+      "Musée du Louvre"
+    ],
+    "narrative": "<p>Ce panneau, peint par Domenico Ghirlandaio vers 1490, est l'un des portraits les plus célèbres et les plus émouvants de la Renaissance florentine. Œuvre de maturité, elle illustre la capacité du peintre à allier un réalisme sans concession à une profonde tendresse psychologique. Le tableau est remarquable par le contraste saisissant qu'il établit entre le déclin physique dû à l'âge et la fraîcheur de la jeunesse, le tout s'inscrivant dans un cadre domestique apaisé qui témoigne des valeurs de transmission et d'affection familiale au sein de la haute société florentine.</p><p>La composition est centrée sur l'interaction intime entre un homme âgé et un jeune enfant, probablement son petit-fils. Le vieillard, dont le visage est marqué par une rhinophyma (déformation du nez) rendue avec une honnêteté chirurgicale, regarde l'enfant avec une douceur infinie. Ce traitement naturaliste, loin de chercher à idéaliser le modèle, renforce paradoxalement la noblesse et l'humanité du personnage. En réponse, l'enfant pose sa main sur la poitrine de l'homme et lève les yeux vers lui avec une expression de confiance et d'affection totale. Cette diagonale de regards et le contact physique entre les deux figures créent un lien émotionnel puissant qui domine toute la scène.</p><p>Les deux protagonistes sont vêtus de robes rouges de même tonalité, ce qui unifie visuellement le groupe et souligne leur lien de parenté. L'homme porte une pelisse bordée de fourrure, signe de son rang social, tandis que l'enfant arbore une chevelure blonde aux boucles finement détaillées. Le soin apporté par Ghirlandaio à la texture des tissus et à la carnation des visages témoigne de l'influence de la peinture flamande sur son travail. L'éclairage vient de la gauche, modelant les formes et accentuant le relief des traits du vieillard tout en lissant ceux de l'enfant.</p><p>À droite, une fenêtre ouverte sur un paysage lointain apporte de la profondeur et de l'air à la composition. On y distingue des collines verdoyantes, un chemin sinueux et une église au bord de l'eau, éléments typiques des paysages toscans que le peintre affectionnait. Cette ouverture vers l'extérieur, technique courante dans le portrait de la Renaissance, symbolise peut-être aussi le passage du temps et l'avenir qui s'offre à la jeunesse, alors que le vieillard reste ancré dans l'espace intérieur. L'équilibre parfait entre la précision du détail et l'intensité du sentiment fait de ce tableau un témoignage universel sur le lien intergénérationnel. //</p>",
+    "desc": "<p>Ce panneau, peint par Domenico Ghirlandaio vers 1490, est l'un des portraits les plus célèbres et les plus émouvants de la Renaissance florentine. Œuvre de maturité, elle illustre la capacité du peintre à allier un réalisme sans concession à une profonde tendresse psychologique. Le tableau est remarquable par le contraste saisissant qu'il établit entre le déclin physique dû à l'âge et la fraîcheur de la jeunesse, le tout s'inscrivant dans un cadre domestique apaisé qui témoigne des valeurs de transmission et d'affection familiale au sein de la haute société florentine.</p><p>La composition est centrée sur l'interaction intime entre un homme âgé et un jeune enfant, probablement son petit-fils. Le vieillard, dont le visage est marqué par une rhinophyma (déformation du nez) rendue avec une honnêteté chirurgicale, regarde l'enfant avec une douceur infinie. Ce traitement naturaliste, loin de chercher à idéaliser le modèle, renforce paradoxalement la noblesse et l'humanité du personnage. En réponse, l'enfant pose sa main sur la poitrine de l'homme et lève les yeux vers lui avec une expression de confiance et d'affection totale. Cette diagonale de regards et le contact physique entre les deux figures créent un lien émotionnel puissant qui domine toute la scène.</p><p>Les deux protagonistes sont vêtus de robes rouges de même tonalité, ce qui unifie visuellement le groupe et souligne leur lien de parenté. L'homme porte une pelisse bordée de fourrure, signe de son rang social, tandis que l'enfant arbore une chevelure blonde aux boucles finement détaillées. Le soin apporté par Ghirlandaio à la texture des tissus et à la carnation des visages témoigne de l'influence de la peinture flamande sur son travail. L'éclairage vient de la gauche, modelant les formes et accentuant le relief des traits du vieillard tout en lissant ceux de l'enfant.</p><p>À droite, une fenêtre ouverte sur un paysage lointain apporte de la profondeur et de l'air à la composition. On y distingue des collines verdoyantes, un chemin sinueux et une église au bord de l'eau, éléments typiques des paysages toscans que le peintre affectionnait. Cette ouverture vers l'extérieur, technique courante dans le portrait de la Renaissance, symbolise peut-être aussi le passage du temps et l'avenir qui s'offre à la jeunesse, alors que le vieillard reste ancré dans l'espace intérieur. L'équilibre parfait entre la précision du détail et l'intensité du sentiment fait de ce tableau un témoignage universel sur le lien intergénérationnel. //</p>",
+    "contemporaryArt": {
+      "title": "Quattrocento • L'Âge d'or de Laurent le Magnifique à Florence",
+      "events": [
+        "1469 : Début du mécénat éclatant de Laurent le Magnifique à la tête de la République de Florence.",
+        "1475 : Naissance de Michel-Ange Buonarroti à Caprese, futur élève prodige dans l'atelier de Ghirlandaio.",
+        "1478 : Conjuration des Pazzi contre les Médicis dans la cathédrale Santa Maria del Fiore.",
+        "1481 – 1482 : Les plus grands peintres florentins (Botticelli, Ghirlandaio, Pérugin) décorent la Chapelle Sixtine à Rome.",
+        "1486 : Achèvement des fresques de la chapelle Sassetti à Santa Trinita.",
+        "1492 : Mort de Laurent le Magnifique et découverte de l'Amérique par Christophe Colomb.",
+        "1494 : Entrée des troupes françaises de Charles VIII à Florence et chute des Médicis sous Savonarole."
+      ]
+    }
+  },
+  {
+    "id": "ghirlandaio_apparition_christ_ressuscite_a_la_vierge_louvre_1490",
+    "artistId": "ghirlandaio",
+    "artist": "Domenico Ghirlandaio (Bigordi)",
+    "artistSort": "Ghirlandaio Domenico",
+    "civId": "occident",
+    "periodId": "occ_renaissance",
+    "civName": "Occident : Première Renaissance florentine",
+    "title": "L'Apparition du Christ ressuscité à la Vierge",
+    "date": 1490,
+    "dateDisplay": "v. 1490",
+    "century": "XVe siècle (1490)",
+    "centuryDisplay": "XVe s. (vers 1490)",
+    "centuryNumeric": 1490,
+    "period": "XVe siècle",
+    "domain": "peinture",
+    "artifactType": "Détrempe sur panneau de bois",
+    "category": "Détrempe sur panneau de bois",
+    "type": "Détrempe (tempera)",
+    "medium": "Détrempe sur panneau de peuplier",
+    "dimensions": {
+      "h": 45,
+      "w": 41.5,
+      "display": "45 × 41,5 cm"
+    },
+    "site": "Musée du Louvre (Paris, France)",
+    "originSite": "Dévotion privée (Florence) / Collection Campana",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczOV7AEBfcEKrz5UobQbxhj6U9gzKD-7yyJwn0P93SxL2PT7LgH8wp6DfOyOAdjQNPJe-FSZB4aMDyrm-UCqcGhPZdGp9bC3G_5yD6SreVsCvyqXrvAuOspqS_iyuoQVYnkwvZ2AD_QhKJ6Xg7yH5elfdA=w1681-h1867-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczOV7AEBfcEKrz5UobQbxhj6U9gzKD-7yyJwn0P93SxL2PT7LgH8wp6DfOyOAdjQNPJe-FSZB4aMDyrm-UCqcGhPZdGp9bC3G_5yD6SreVsCvyqXrvAuOspqS_iyuoQVYnkwvZ2AD_QhKJ6Xg7yH5elfdA=w1681-h1867-s-no-gm?authuser=0",
+    "tags": [
+      "peinture",
+      "renaissance",
+      "ghirlandaio",
+      "résurrection",
+      "christ",
+      "vierge",
+      "louvre"
+    ],
+    "chips": [
+      "XVe s.",
+      "v. 1490",
+      "Renaissance florentine",
+      "Légende dorée",
+      "Musée du Louvre"
+    ],
+    "narrative": "<p>Ce panneau, attribué à Domenico Ghirlandaio ou à son atelier vers 1490, illustre un épisode qui n'apparaît pas dans les Évangiles canoniques mais qui fut largement popularisé par la Légende dorée de Jacques de Voragine : la première visite du Christ après sa Résurrection à sa mère. Cette œuvre témoigne de la clarté narrative et de l'élégance formelle propres au maître florentin. Elle s'inscrit dans une période où Ghirlandaio, à la tête de l'un des ateliers les plus productifs de Florence, perfectionne un art de la dévotion à la fois accessible et techniquement impeccable.</p><p>La composition est marquée par une symétrie rigoureuse qui insuffle un sentiment de sérénité et d'équilibre. Le Christ, au centre, se tient debout, le corps légèrement de trois-quarts pour montrer la plaie de son flanc. Il porte un manteau pourpre qui contraste avec la blancheur éclatante de son périzonium. À sa droite, la Vierge Marie est agenouillée dans une posture d'adoration et de profonde émotion, ses mains jointes soulignant sa piété. L'interaction entre les deux figures est empreinte d'une dignité retenue, typique de l'idéal classique florentin de la fin du XVe siècle.</p><p>Le décor architectural et paysager renforce la profondeur de la scène. Les personnages sont placés devant un muret de pierre qui délimite l'espace sacré, tandis qu'à l'arrière-plan s'ouvre un paysage de collines douces et d'arbres isolés sous un ciel lumineux. Le traitement des drapés est particulièrement soigné : les plis de la robe bleue de la Vierge et du manteau du Christ possèdent une densité sculpturale qui donne du poids aux figures. La lumière, homogène et diffuse, modèle les chairs avec douceur, conférant aux visages une clarté quasi cristalline.</p><p>L'œuvre se distingue par son sens du détail décoratif, notamment dans le rendu des auréoles discrètes et des carnations délicates. Ghirlandaio parvient à transformer un moment de mystère théologique en une scène d'une grande humanité, où la majesté du Ressuscité rencontre la dévotion maternelle. Cette clarté de lecture faisait de ses peintures des modèles particulièrement appréciés pour la méditation privée ou les autels latéraux des églises florentines, alliant la rigueur de la perspective à la douceur du sentiment. //</p>",
+    "desc": "<p>Ce panneau, attribué à Domenico Ghirlandaio ou à son atelier vers 1490, illustre un épisode qui n'apparaît pas dans les Évangiles canoniques mais qui fut largement popularisé par la Légende dorée de Jacques de Voragine : la première visite du Christ après sa Résurrection à sa mère. Cette œuvre témoigne de la clarté narrative et de l'élégance formelle propres au maître florentin. Elle s'inscrit dans une période où Ghirlandaio, à la tête de l'un des ateliers les plus productifs de Florence, perfectionne un art de la dévotion à la fois accessible et techniquement impeccable.</p><p>La composition est marquée par une symétrie rigoureuse qui insuffle un sentiment de sérénité et d'équilibre. Le Christ, au centre, se tient debout, le corps légèrement de trois-quarts pour montrer la plaie de son flanc. Il porte un manteau pourpre qui contraste avec la blancheur éclatante de son périzonium. À sa droite, la Vierge Marie est agenouillée dans une posture d'adoration et de profonde émotion, ses mains jointes soulignant sa piété. L'interaction entre les deux figures est empreinte d'une dignité retenue, typique de l'idéal classique florentin de la fin du XVe siècle.</p><p>Le décor architectural et paysager renforce la profondeur de la scène. Les personnages sont placés devant un muret de pierre qui délimite l'espace sacré, tandis qu'à l'arrière-plan s'ouvre un paysage de collines douces et d'arbres isolés sous un ciel lumineux. Le traitement des drapés est particulièrement soigné : les plis de la robe bleue de la Vierge et du manteau du Christ possèdent une densité sculpturale qui donne du poids aux figures. La lumière, homogène et diffuse, modèle les chairs avec douceur, conférant aux visages une clarté quasi cristalline.</p><p>L'œuvre se distingue par son sens du détail décoratif, notamment dans le rendu des auréoles discrètes et des carnations délicates. Ghirlandaio parvient à transformer un moment de mystère théologique en une scène d'une grande humanité, où la majesté du Ressuscité rencontre la dévotion maternelle. Cette clarté de lecture faisait de ses peintures des modèles particulièrement appréciés pour la méditation privée ou les autels latéraux des églises florentines, alliant la rigueur de la perspective à la douceur du sentiment. //</p>",
+    "contemporaryArt": {
+      "title": "Quattrocento • L'Âge d'or de Laurent le Magnifique à Florence",
+      "events": [
+        "1469 : Début du mécénat éclatant de Laurent le Magnifique à la tête de la République de Florence.",
+        "1475 : Naissance de Michel-Ange Buonarroti à Caprese, futur élève prodige dans l'atelier de Ghirlandaio.",
+        "1478 : Conjuration des Pazzi contre les Médicis dans la cathédrale Santa Maria del Fiore.",
+        "1481 – 1482 : Les plus grands peintres florentins (Botticelli, Ghirlandaio, Pérugin) décorent la Chapelle Sixtine à Rome.",
+        "1486 : Achèvement des fresques de la chapelle Sassetti à Santa Trinita.",
+        "1492 : Mort de Laurent le Magnifique et découverte de l'Amérique par Christophe Colomb.",
+        "1494 : Entrée des troupes françaises de Charles VIII à Florence et chute des Médicis sous Savonarole."
+      ]
+    }
+  },
+  {
+    "id": "ghirlandaio_visitation_vierge_elisabeth_louvre_1491",
+    "artistId": "ghirlandaio",
+    "artist": "Domenico Ghirlandaio (Bigordi)",
+    "artistSort": "Ghirlandaio Domenico",
+    "civId": "occident",
+    "periodId": "occ_renaissance",
+    "civName": "Occident : Première Renaissance florentine",
+    "title": "Visitation de la Vierge Marie à sa cousine Élisabeth",
+    "date": 1491,
+    "dateDisplay": "1491",
+    "century": "XVe siècle (1491)",
+    "centuryDisplay": "XVe s. (1491)",
+    "centuryNumeric": 1491,
+    "period": "XVe siècle",
+    "domain": "peinture",
+    "artifactType": "Détrempe sur panneau de bois",
+    "category": "Détrempe sur panneau de bois",
+    "type": "Détrempe (tempera)",
+    "medium": "Détrempe sur panneau de bois",
+    "dimensions": {
+      "h": 172,
+      "w": 165,
+      "display": "172 × 165 cm"
+    },
+    "site": "Musée du Louvre (Paris, France)",
+    "originSite": "Église Santa Maria Maddalena dei Pazzi (Cestello, Florence)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczNwUlEQJz4vNeWTAH_zljD_1Vs5bIC9ypP25hGjAazK8A7q3BEiLkdNSe7EVeexRD7s8hmR47g9tKEkNiwT9c67PlQcbFzu1lKRSUhsNKW9ZYdImIw9TVrQ41D7FEIWuRfOLHndB2ZdgjvWUryLyMIw7Q=w1681-h1951-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczNwUlEQJz4vNeWTAH_zljD_1Vs5bIC9ypP25hGjAazK8A7q3BEiLkdNSe7EVeexRD7s8hmR47g9tKEkNiwT9c67PlQcbFzu1lKRSUhsNKW9ZYdImIw9TVrQ41D7FEIWuRfOLHndB2ZdgjvWUryLyMIw7Q=w1681-h1951-s-no-gm?authuser=0",
+    "tags": [
+      "peinture",
+      "renaissance",
+      "ghirlandaio",
+      "visitation",
+      "marie",
+      "élisabeth",
+      "louvre"
+    ],
+    "chips": [
+      "XVe s.",
+      "1491",
+      "Renaissance florentine",
+      "Chapelle Tornabuoni",
+      "Musée du Louvre"
+    ],
+    "narrative": "<p>Cette œuvre magistrale, achevée en 1491 par Domenico Ghirlandaio et son atelier, fut commandée par Lorenzo Tornabuoni pour l'autel de la chapelle familiale dans l'église de Cestello à Florence. La scène illustre l'épisode biblique de la rencontre entre la Vierge Marie et sa cousine Élisabeth, toutes deux enceintes. Ce panneau incarne l'apogée du style de Ghirlandaio, caractérisé par une clarté classique, une élégance des drapés et une intégration parfaite des figures dans un cadre architectural rigoureux, typique de la Renaissance florentine.</p><p>La composition est centrée sur l'étreinte des deux femmes au premier plan. Marie, à gauche, et Élisabeth, à droite, se font face dans une attitude de respect et d'affection mutuelle. Élisabeth, plus âgée, s'incline légèrement devant la jeunesse de la Vierge. Leurs vêtements, aux couleurs primaires puissantes — rouge, bleu et jaune — créent un triangle chromatique qui stabilise l'image. Le rendu des étoffes est particulièrement remarquable, avec des plis profonds et lourds qui confèrent une dignité sculpturale aux personnages. À leurs côtés, deux autres femmes, dont l'une est traditionnellement identifiée comme Marie-Salomé, observent la scène avec une sérénité contemplative.</p><p>Le décor architectural joue un rôle crucial dans l'organisation de l'espace. Un arc de triomphe à l'antique, orné de pilastres et de bas-reliefs, encadre les protagonistes et ouvre la vue sur un paysage urbain et maritime au lointain. Cette structure, inspirée des vestiges romains que Ghirlandaio avait étudiés, souligne la pérennité du message chrétien s'inscrivant dans l'histoire humaine. La perspective est conduite vers l'horizon par une lumière cristalline qui baigne chaque détail, des perles ornant les coiffures jusqu'aux navires minuscules sur l'eau, témoignant de la précision miniaturiste du peintre.</p><p>L'œuvre se distingue par son équilibre parfait entre le sacré et le profane. Si le sujet est religieux, le traitement des visages et des parures reflète la haute société florentine de l'époque des Médicis. La douceur des traits, la clarté de la peau et la noblesse des attitudes font de ce panneau un hymne à la beauté et à l'harmonie. Ghirlandaio parvient ici à transformer un récit de dévotion en un spectacle solennel et apaisé, où la géométrie de l'architecture et la grâce des corps s'unissent pour célébrer un moment de révélation. </USER_REQUEST> <ADDITIONAL_METADATA> The current local time is: 2026-11-10T22:00:35+01:00.</p><p>The user's current state is as follows: Active Document: /Users/renoult/Desktop/monportailweb/panoramadesarts/app.js (LANGUAGE_UNSPECIFIED) Cursor is on line: 10757 Other open documents: - /Users/renoult/Desktop/monportailweb/panoramadesarts/style.css (LANGUAGE_UNSPECIFIED) - /Users/renoult/Desktop/monportailweb/panoramadesarts/data/data-artistes.js (LANGUAGE_UNSPECIFIED) - /Users/renoult/Desktop/monportailweb/panoramadesarts/data/data-objets2.js (LANGUAGE_UNSPECIFIED) - /Users/renoult/Desktop/monportailweb/panoramadesarts/data/data-objets3.js (LANGUAGE_UNSPECIFIED) - /Users/renoult/Desktop/monportailweb/panoramadesarts/data/data-objets4.js (LANGUAGE_UNSPECIFIED) </ADDITIONAL_METADATA></p>",
+    "desc": "<p>Cette œuvre magistrale, achevée en 1491 par Domenico Ghirlandaio et son atelier, fut commandée par Lorenzo Tornabuoni pour l'autel de la chapelle familiale dans l'église de Cestello à Florence. La scène illustre l'épisode biblique de la rencontre entre la Vierge Marie et sa cousine Élisabeth, toutes deux enceintes. Ce panneau incarne l'apogée du style de Ghirlandaio, caractérisé par une clarté classique, une élégance des drapés et une intégration parfaite des figures dans un cadre architectural rigoureux, typique de la Renaissance florentine.</p><p>La composition est centrée sur l'étreinte des deux femmes au premier plan. Marie, à gauche, et Élisabeth, à droite, se font face dans une attitude de respect et d'affection mutuelle. Élisabeth, plus âgée, s'incline légèrement devant la jeunesse de la Vierge. Leurs vêtements, aux couleurs primaires puissantes — rouge, bleu et jaune — créent un triangle chromatique qui stabilise l'image. Le rendu des étoffes est particulièrement remarquable, avec des plis profonds et lourds qui confèrent une dignité sculpturale aux personnages. À leurs côtés, deux autres femmes, dont l'une est traditionnellement identifiée comme Marie-Salomé, observent la scène avec une sérénité contemplative.</p><p>Le décor architectural joue un rôle crucial dans l'organisation de l'espace. Un arc de triomphe à l'antique, orné de pilastres et de bas-reliefs, encadre les protagonistes et ouvre la vue sur un paysage urbain et maritime au lointain. Cette structure, inspirée des vestiges romains que Ghirlandaio avait étudiés, souligne la pérennité du message chrétien s'inscrivant dans l'histoire humaine. La perspective est conduite vers l'horizon par une lumière cristalline qui baigne chaque détail, des perles ornant les coiffures jusqu'aux navires minuscules sur l'eau, témoignant de la précision miniaturiste du peintre.</p><p>L'œuvre se distingue par son équilibre parfait entre le sacré et le profane. Si le sujet est religieux, le traitement des visages et des parures reflète la haute société florentine de l'époque des Médicis. La douceur des traits, la clarté de la peau et la noblesse des attitudes font de ce panneau un hymne à la beauté et à l'harmonie. Ghirlandaio parvient ici à transformer un récit de dévotion en un spectacle solennel et apaisé, où la géométrie de l'architecture et la grâce des corps s'unissent pour célébrer un moment de révélation. </USER_REQUEST> <ADDITIONAL_METADATA> The current local time is: 2026-11-10T22:00:35+01:00.</p><p>The user's current state is as follows: Active Document: /Users/renoult/Desktop/monportailweb/panoramadesarts/app.js (LANGUAGE_UNSPECIFIED) Cursor is on line: 10757 Other open documents: - /Users/renoult/Desktop/monportailweb/panoramadesarts/style.css (LANGUAGE_UNSPECIFIED) - /Users/renoult/Desktop/monportailweb/panoramadesarts/data/data-artistes.js (LANGUAGE_UNSPECIFIED) - /Users/renoult/Desktop/monportailweb/panoramadesarts/data/data-objets2.js (LANGUAGE_UNSPECIFIED) - /Users/renoult/Desktop/monportailweb/panoramadesarts/data/data-objets3.js (LANGUAGE_UNSPECIFIED) - /Users/renoult/Desktop/monportailweb/panoramadesarts/data/data-objets4.js (LANGUAGE_UNSPECIFIED) </ADDITIONAL_METADATA></p>",
+    "contemporaryArt": {
+      "title": "Quattrocento • L'Âge d'or de Laurent le Magnifique à Florence",
+      "events": [
+        "1469 : Début du mécénat éclatant de Laurent le Magnifique à la tête de la République de Florence.",
+        "1475 : Naissance de Michel-Ange Buonarroti à Caprese, futur élève prodige dans l'atelier de Ghirlandaio.",
+        "1478 : Conjuration des Pazzi contre les Médicis dans la cathédrale Santa Maria del Fiore.",
+        "1481 – 1482 : Les plus grands peintres florentins (Botticelli, Ghirlandaio, Pérugin) décorent la Chapelle Sixtine à Rome.",
+        "1486 : Achèvement des fresques de la chapelle Sassetti à Santa Trinita.",
+        "1492 : Mort de Laurent le Magnifique et découverte de l'Amérique par Christophe Colomb.",
+        "1494 : Entrée des troupes françaises de Charles VIII à Florence et chute des Médicis sous Savonarole."
+      ]
+    }
+  },
+  {
     "id": "gericault_char_antique_rouen_1808",
     "artistId": "gericault",
     "artist": "Théodore Géricault",

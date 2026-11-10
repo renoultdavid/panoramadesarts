@@ -7645,6 +7645,19 @@ function populateModalData(art) {
 }
 
 const CERTIFIED_PAINTING_DIMENSIONS = {
+  // Jean-Léon Gérôme (4 œuvres - Musée d'Arts de Nantes & MBA Rouen)
+  "gerome_tete_de_femme_cornes_de_belier_nantes_1853": { h: 47, w: 47, display: "47 × 47 cm (tondo, diamètre 46 cm)" },
+  "gerome_vue_plaine_de_thebes_nantes_1857": { h: 77, w: 131, display: "77 × 131 cm (Musée d'Arts de Nantes)" },
+  "gerome_le_prisonnier_nantes_1861": { h: 45, w: 78, display: "45 × 78 cm (Musée d'Arts de Nantes)" },
+  "gerome_pere_et_fils_devant_porte_rouen_1866": { h: 55, w: 46, display: "55 × 46 cm (Musée des Beaux-Arts de Rouen)" },
+
+  // Domenico Ghirlandaio (5 œuvres - Musée du Louvre & San Marco Florence)
+  "ghirlandaio_vierge_a_l_enfant_louvre_1473": { h: 71, w: 49, display: "71 × 49 cm (Musée du Louvre)" },
+  "ghirlandaio_la_cene_san_marco_florence_1486": { h: 400, w: 810, display: "400 × 810 cm (fresque monumentale, San Marco Florence)" },
+  "ghirlandaio_portrait_vieillard_et_jeune_garcon_louvre_1490": { h: 62.7, w: 45.5, display: "62,7 × 45,5 cm (Musée du Louvre)" },
+  "ghirlandaio_apparition_christ_ressuscite_a_la_vierge_louvre_1490": { h: 45, w: 41.5, display: "45 × 41,5 cm (Musée du Louvre)" },
+  "ghirlandaio_visitation_vierge_elisabeth_louvre_1491": { h: 172, w: 165, display: "172 × 165 cm (Musée du Louvre)" },
+
   // Théodore Géricault (15 œuvres - Louvre, MBA Rouen, Musée Fabre)
   "gericault_char_antique_rouen_1808": { h: 38, w: 46, display: "38 × 46 cm (Musée des Beaux-Arts de Rouen)" },
   "gericault_academie_d_homme_rouen_1808": { h: 81, w: 65, display: "81 × 65 cm (Musée des Beaux-Arts de Rouen)" },
