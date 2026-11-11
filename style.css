@@ -4379,6 +4379,216 @@ body {
 }
 
 /* =========================================================
+   EXPLORATEUR THÉMATIQUE TRANSVERSAL (3 NIVEAUX : THÈME -> SOUS-THÈME -> ARTISTES)
+   ========================================================= */
+.btn-themes-explorer-toggle {
+  margin-left: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.22), rgba(212, 175, 55, 0.08));
+  border: 1px solid rgba(212, 175, 55, 0.65);
+  border-radius: 16px;
+  padding: 5px 13px;
+  font-family: 'Cinzel', serif;
+  font-size: 0.70rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: var(--gold-pure);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.22s ease;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.35);
+}
+
+.btn-themes-explorer-toggle:hover,
+.btn-themes-explorer-toggle.active {
+  background: var(--gold-pure);
+  color: #0b0e14;
+  border-color: var(--gold-pure);
+  box-shadow: 0 0 14px rgba(212, 175, 55, 0.45);
+  transform: translateY(-1px);
+}
+
+.btn-themes-explorer-toggle + .alphabet-total-badge {
+  margin-left: 0;
+}
+
+.themes-explorer-drawer {
+  background: rgba(12, 15, 22, 0.98);
+  border: 1px solid rgba(212, 175, 55, 0.65);
+  border-radius: 6px;
+  padding: 14px 18px;
+  margin-bottom: 14px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.92);
+  animation: fadeInDrawer 0.25s ease-out;
+}
+
+.themes-explorer-drawer[hidden] {
+  display: none !important;
+}
+
+.themes-drawer-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding-bottom: 10px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid rgba(212, 175, 55, 0.22);
+  flex-wrap: wrap;
+}
+
+.themes-drawer-title-group {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.themes-drawer-badge {
+  font-family: 'Cinzel', serif;
+  font-size: 0.80rem;
+  font-weight: 800;
+  letter-spacing: 1.2px;
+  color: var(--gold-pure);
+}
+
+.themes-drawer-subtitle {
+  font-size: 0.82rem;
+  color: var(--gold-pale);
+  font-style: italic;
+}
+
+.themes-drawer-header-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn-reset-theme-explorer {
+  background: rgba(212, 175, 55, 0.14);
+  border: 1px solid rgba(212, 175, 55, 0.45);
+  color: var(--gold-pure);
+  font-family: 'Cinzel', serif;
+  font-size: 0.68rem;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-reset-theme-explorer:hover {
+  background: var(--gold-pure);
+  color: #000;
+}
+
+.themes-level-block {
+  margin-top: 10px;
+}
+
+.themes-level-block:first-of-type {
+  margin-top: 0;
+}
+
+.themes-sublevel {
+  padding-top: 10px;
+  border-top: 1px dashed rgba(212, 175, 55, 0.22);
+}
+
+.themes-level-label-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 7px;
+  flex-wrap: wrap;
+}
+
+.themes-level-label {
+  font-family: 'Cinzel', serif;
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  color: rgba(212, 175, 55, 0.85);
+  margin-bottom: 7px;
+  display: block;
+}
+
+.themes-level-label-row .themes-level-label {
+  margin-bottom: 0;
+}
+
+.themes-level-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.theme-explorer-pill {
+  background: rgba(22, 27, 38, 0.92);
+  border: 1px solid rgba(212, 175, 55, 0.28);
+  color: #f3efe6;
+  font-family: 'Cinzel', serif;
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: 16px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  transition: all 0.2s ease;
+}
+
+.theme-explorer-pill:hover {
+  background: rgba(212, 175, 55, 0.2);
+  border-color: var(--gold-pure);
+  transform: translateY(-1px);
+}
+
+.theme-explorer-pill.is-active {
+  background: linear-gradient(135deg, #d4af37, #b8860b);
+  color: #0b0e14;
+  border-color: #ffe082;
+  font-weight: 800;
+  box-shadow: 0 0 12px rgba(212, 175, 55, 0.4);
+}
+
+.theme-explorer-pill .pill-count {
+  font-size: 0.66rem;
+  padding: 1px 6px;
+  border-radius: 10px;
+  background: rgba(212, 175, 55, 0.16);
+  color: var(--gold-pure);
+  font-weight: 700;
+}
+
+.theme-explorer-pill.is-active .pill-count {
+  background: rgba(0, 0, 0, 0.25);
+  color: #fff;
+}
+
+.btn-open-theme-artist-monograph {
+  background: rgba(212, 175, 55, 0.16);
+  border: 1px solid var(--gold-pure);
+  color: var(--gold-pure);
+  font-family: 'Cinzel', serif;
+  font-size: 0.68rem;
+  font-weight: 700;
+  padding: 4px 11px;
+  border-radius: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-open-theme-artist-monograph:hover {
+  background: var(--gold-pure);
+  color: #0b0e14;
+}
+
+/* =========================================================
    SYSTÈME DE REPLI INTELLIGENT DES FILTRES & LIGNE FIGÉE (IPAD / DESKTOP)
    ========================================================= */
 .search-top-panel {
