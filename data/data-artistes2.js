@@ -1377,6 +1377,7 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
   "lanfranco": {
     "id": "lanfranco",
     "name": "Giovanni Lanfranco",
+    "sortName": "Lanfranco Giovanni",
     "dates": "1582 – 1647",
     "century": "XVIIe siècle",
     "nationality": "Italien (Parme / Rome / Naples)",
@@ -1469,6 +1470,7 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
   "lastman": {
     "id": "lastman",
     "name": "Pieter Lastman",
+    "sortName": "Lastman Pieter",
     "dates": "v. 1583 – 1633",
     "century": "XVIIe siècle",
     "nationality": "Néerlandais (Amsterdam)",
@@ -1561,6 +1563,7 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
   "le_brun": {
     "id": "le_brun",
     "name": "Charles Le Brun",
+    "sortName": "Le Brun Charles",
     "dates": "1619 – 1690",
     "century": "XVIIe siècle",
     "nationality": "Français (Paris)",
@@ -1656,6 +1659,441 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
               "title": "Mort aux Gobelins & Publication de « L'Expression des passions »",
               "desc": "S'éteint dans son hôtel des Gobelins. Son traité illustré sur la physionomie et les passions de l'âme deviendra le manuel de référence des académies européennes pendant deux siècles.",
               "icon": "📖"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "correggio": {
+    "id": "correggio",
+    "name": "Le Corrège",
+    "sortName": "Corrège Antonio Allegri",
+    "dates": "v. 1489 – 1534",
+    "century": "XVIe siècle",
+    "nationality": "Italien (Parme)",
+    "movement": "Haute Renaissance & Proto-Baroque de Parme",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczMBss1WFXPlTzVshD2xXV7E02-9jI8BxHE2BdlgaLwVhDj6WEK9TYGVDunJrlHBSecjFwVhvwxWgwQPupyYJO3WbAOM5KidNS771Zcr_eOrMbtQbe8jGYpTli8bmrAnJbfC9P_KOKy9VPz09RzxV-indw=w1681-h713-s-no-gm?authuser=0",
+    "bio": "<p><strong>Le génie isolé de Parme & les coupoles qui ouvrent le ciel</strong><br>Antonio Allegri, dit Le Corrège (v. 1489 – 1534), est l'un des artistes les plus visionnaires et novateurs de la Haute Renaissance. Bien qu'il ait passé l'essentiel de sa vie loin des grands centres comme Rome ou Venise, il a développé un style d'une modernité stupéfiante qui a préfiguré, avec un siècle d'avance, les effets dynamiques du Baroque et la sensualité du Rococo. Maître incontesté de la lumière et du mouvement, il a transformé la ville de Parme en un foyer artistique majeur, laissant derrière lui des coupoles qui semblent littéralement s'ouvrir sur l'infini.</p><p><strong>La douceur lumineuse & le sfumato au service de la vie</strong><br>Son genre pictural se caractérise par une recherche de douceur lumineuse et une sensualité poétique inédite. Son style repose sur un usage magistral du clair-obscur, mais là où Léonard de Vinci utilisait le sfumato pour créer du mystère, Le Corrège l'utilise pour donner de la vie, de la chaleur et une souplesse presque palpable aux chairs. Ses compositions se distinguent par une grâce fluide, des sourires tendres et des regards d'une grande expressivité. Il excelle aussi bien dans les grandes fresques religieuses que dans les scènes mythologiques à caractère érotique, traitant chaque sujet avec une délicatesse qui privilégie l'émotion et le plaisir visuel sur la rigueur intellectuelle.</p><p><strong>Le sotto in su & la révolution de l'espace pictural</strong><br>L'évolution de son style marque un passage de l'expérimentation spatiale vers une liberté totale de la forme. Ses premières œuvres montrent l'influence de Mantegna (pour la perspective) et de Léonard (pour le modelé). Cependant, ses grandes décorations à Parme, comme la coupole de la Cathédrale, marquent une rupture historique : il y invente la perspective « sotto in sù » (de bas en haut), où les personnages semblent flotter et tourbillonner dans un ciel sans limites, brisant la barrière physique de l'architecture. Dans ses dernières années, ses peintures mythologiques atteignent un sommet de raffinement chromatique et de fluidité, influençant durablement des artistes comme Carrache, Lanfranco ou Watteau.</p>",
+    "corpus": {
+      "total": 45,
+      "seen": 5,
+      "paintingsCount": 45,
+      "details": [
+        {
+          "label": "Tableaux de dévotion, toiles mythologiques et cycles de fresques autographes",
+          "count": 45,
+          "icon": "🎨",
+          "color": "#d4af37",
+          "seen": 5
+        }
+      ],
+      "sourceTitle": "Catalogue raisonné de David Ekserdjian (1997), fondé sur les recherches de Cecil Gould (1976)",
+      "sourceNotes": "L'inventaire de référence mondiale repose sur les fondations posées par la monographie de Cecil Gould (1976), dont les recherches ont été magistralement prolongées par le grand catalogue de David Ekserdjian (1997). En écartant les innombrables copies d'époque et en comptant ses grands décors muraux comme des entités globales, le consensus scientifique fixe le corpus de ses œuvres autographes à environ 45 œuvres."
+    },
+    "biographyTimeline": {
+      "periods": [
+        {
+          "title": "Formation & Premières Recherches : Mantegna, Léonard et la Camera di San Paolo",
+          "years": "v. 1489 – 1519",
+          "color": "#0284c7",
+          "summary": "Formé à Mantoue et à Milan sous l'influence de Mantegna et de Léonard, il réalise à Parme son premier chef-d'œuvre décoratif pour l'abbesse Giovanna Piacenza.",
+          "events": [
+            {
+              "year": 1506,
+              "title": "Apprentissage à Mantoue & découverte de Mantegna",
+              "desc": "Se forme à Mantoue en étudiant les grandes fresques de la Camera degli Sposi d'Andrea Mantegna, source fondatrice de son goût pour l'illusionnisme perspectif.",
+              "icon": "🎨"
+            },
+            {
+              "year": 1518,
+              "title": "La Camera di San Paolo à Parme : la tonnelle illusionniste",
+              "desc": "Peint pour l'abbesse bénédictine Giovanna Piacenza une voûte de seize segments percés d'oculi simulés avec des putti vifs, préfigurant son invention du plafond ouvert.",
+              "type": "masterpiece",
+              "artworkId": "correggio_camera_san_paolo_parme_1518"
+            }
+          ]
+        },
+        {
+          "title": "La Révolution de la Coupole : San Giovanni et la Cathédrale de Parme",
+          "years": "1520 – 1530",
+          "color": "#d97706",
+          "summary": "Avec ses deux coupoles parmésiennes, il invente la perspective sotto in sù et préfigure le haut baroque d'un siècle.",
+          "events": [
+            {
+              "year": 1520,
+              "title": "Vision de saint Jean à Patmos, coupole de San Giovanni Evangelista",
+              "desc": "Peint la première grande coupole tourbillonnante de l'histoire : le Christ en raccourci spectaculaire au sommet, les apôtres sur des nuées, avec saint Jean au pied du tambour regardant vers le ciel.",
+              "type": "masterpiece",
+              "artworkId": "correggio_vision_saint_jean_patmos_parme_1520"
+            },
+            {
+              "year": 1524,
+              "title": "Vénus, Satyre et Cupidon (Paris, Louvre)",
+              "desc": "Chef-d'œuvre de la peinture érotique et poétique de la Renaissance : le sfumato corporel de Vénus dépasse Léonard par sa sensualité charnelle.",
+              "type": "masterpiece",
+              "artworkId": "correggio_venus_satyre_cupidon_louvre_1524"
+            },
+            {
+              "year": 1526,
+              "title": "L'Assomption de la Vierge, coupole de la Cathédrale de Parme",
+              "desc": "Culmination historique du sotto in sù : tourbillon vertigineux de 500 figures, sans cadres architecturaux, ouvrant le plafond sur l'infini céleste — surnommé « ragoût de grenouilles » par un chanoine scandalisé.",
+              "type": "masterpiece",
+              "artworkId": "correggio_assomption_vierge_cathedrale_parme_1526"
+            },
+            {
+              "year": 1526,
+              "title": "Mariage mystique de sainte Catherine (Paris, Louvre)",
+              "desc": "Sommet de la tendresse familière des sujets sacrés : chaque sourire, chaque drapé, chaque main témoigne de la magie du sfumato au service de l'émotion divine.",
+              "type": "masterpiece",
+              "artworkId": "correggio_mariage_mystique_sainte_catherine_louvre_1526"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "leger": {
+    "id": "leger",
+    "name": "Fernand Léger",
+    "sortName": "Léger Fernand",
+    "dates": "1881 – 1955",
+    "century": "XXe siècle",
+    "nationality": "Français (Argentan / Paris)",
+    "movement": "Cubisme Tubiste & Peinture Monumentale Populaire",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczNVtDWoMn35lXFy-JNSGrzU_m403982IAIjxaNGdaf7ybjIIQSS9D_1yEXTBWl-7-sZ4XO1-wFhxAc0nCNnrHoB3A2ecT2PXIWeA5H4o4xfQQedkBI_6peSbjL9G4s89mEmrNTJ_k0BioUANRQ7xqEpgA=w1681-h713-s-no-gm?authuser=0",
+    "bio": "<p><strong>Le peintre de la vie moderne & la beauté de la machine</strong><br>Fernand Léger (1881 – 1955) est le peintre de la vie moderne, de la machine et de la cité industrielle. Après avoir traversé l'épreuve de la Grande Guerre, il a développé un art optimiste et monumental, cherchant à réconcilier l'homme avec son environnement mécanique. Pour lui, l'objet industriel possède une beauté propre, égale à celle des objets classiques, s'il est traité avec la rigueur de la forme et de la couleur pure.</p><p><strong>Le Tubisme & la couleur en dehors</strong><br>Son genre pictural se définit par le cubisme « tubiste », le réalisme d'objet et la peinture monumentale. Son style se caractérise par des formes cylindriques et tubulaires, des couleurs primaires (bleu, rouge, jaune) posées en aplats, et des contours noirs puissants. Il a également inventé la « couleur en dehors », où les taches colorées se détachent du dessin pour créer un rythme visuel indépendant.</p><p><strong>Des Constructeurs aux Loisirs : l'art au service du peuple</strong><br>L'évolution de son style marque une volonté constante d'ancrer l'art dans la réalité sociale. Du Tubisme de la guerre à la Période Mécanique des années 1920 (Le Grand Déjeuner), jusqu'au retour à la figure après 1945, Léger célèbre le travail collectif dans ses grandes séries des Constructeurs et des Loisirs. Exilé aux États-Unis durant la Seconde Guerre mondiale, il revient en France en 1945 avec un art assoupli, plus monumental et serein, utilisant la couleur comme une force de libération populaire.</p>",
+    "corpus": {
+      "total": 400,
+      "seen": 2,
+      "paintingsCount": 400,
+      "details": [
+        {
+          "label": "Peintures à l'huile, gouaches et cartons de mosaïques autographes",
+          "count": 400,
+          "icon": "🎨",
+          "color": "#d4af37",
+          "seen": 2
+        }
+      ],
+      "sourceTitle": "Catalogue raisonné des peintures de Fernand Léger (Éditions Maeght / Musée National Fernand Léger, Biot)",
+      "sourceNotes": "Le catalogue raisonné de référence a été établi par les soins du Musée National Fernand Léger de Biot (Alpes-Maritimes, France) et des archives de la Fondation Léger. En excluant ses œuvres sur papier, céramiques, tapisseries et vitraux, le corpus de ses toiles à l'huile strictement autographes est estimé à environ 400 peintures."
+    },
+    "biographyTimeline": {
+      "periods": [
+        {
+          "title": "Du Cubisme au Tubisme : L'École de Paris et la Grande Guerre",
+          "years": "1881 – 1920",
+          "color": "#0284c7",
+          "summary": "Passé par les Beaux-Arts de Caen et de Paris, il rejoint le Bateau-Lavoir et développe un cubisme propre aux volumes cylindriques après son expérience du front.",
+          "events": [
+            {
+              "year": 1909,
+              "title": "Rencontre avec Picasso et Braque au Bateau-Lavoir",
+              "desc": "Intègre le cercle cubiste parisien, mais s'oriente immédiatement vers des volumes géométriques simples et des contrastes de formes pures.",
+              "type": "peer",
+              "linkedArtist": "Pablo Picasso"
+            },
+            {
+              "year": 1914,
+              "title": "Mobilisation au front : la révélation de la beauté métallique",
+              "desc": "Envoyé comme brancardier en Argonne et à Verdun. La culasse d'un canon, le masque à gaz, la mitraillette — leur beauté fonctionnelle et métallique va définir sa peinture des années 1920.",
+              "icon": "⚔️"
+            }
+          ]
+        },
+        {
+          "title": "La Période Mécanique & Le Purisme de la Machine",
+          "years": "1921 – 1944",
+          "color": "#d97706",
+          "summary": "Atelier de la rue Notre-Dame-des-Champs : il impose le Grand Genre mécanique, fréquente Le Corbusier et dirige son propre atelier d'enseignement.",
+          "events": [
+            {
+              "year": 1921,
+              "title": "Le Grand Déjeuner (MoMA, New York)",
+              "desc": "Chef-d'œuvre de la Période Mécanique : trois femmes nues aux corps sculptés comme des pistons, dans un intérieur aux lignes d'acier.",
+              "type": "masterpiece",
+              "icon": "✨"
+            },
+            {
+              "year": 1940,
+              "title": "Exil aux États-Unis (New York et Yale)",
+              "desc": "Fuit l'occupation nazie pour New York, enseigne à Yale et à Mills College. Il y développe une fascination pour la vie populaire américaine.",
+              "icon": "🌍"
+            }
+          ]
+        },
+        {
+          "title": "Le Retour en France : Les Constructeurs, les Loisirs & La Maturité Populaire",
+          "years": "1945 – 1955",
+          "color": "#dc2626",
+          "summary": "Revenu en France, il adhère au PCF et dédicace son art au peuple : loisirs, cirque, chantiers métalliques et vitraux d'église.",
+          "events": [
+            {
+              "year": 1945,
+              "title": "La Feuille verte (Nantes, Musée d'Arts)",
+              "desc": "Synthèse post-exil : les formes organiques du végétal et les formes géométriques de l'industrie s'affrontent dans la couleur en dehors.",
+              "type": "masterpiece",
+              "artworkId": "leger_feuille_verte_nantes_1945"
+            },
+            {
+              "year": 1950,
+              "title": "La Grande Parade & Les Constructeurs",
+              "desc": "Chef-d'œuvre testamentaire : des ouvriers montent dans des structures d'acier vers le ciel bleu — la couleur y est totalement libérée de la forme.",
+              "type": "masterpiece",
+              "icon": "🏗️"
+            },
+            {
+              "year": 1953,
+              "title": "Le Coq rouge et le ciel bleu",
+              "desc": "Hymne à la vitalité champêtre et à l'art décoratif moderne : un coq de basse-cour érigé en signe graphique puissant cernée de noir sur fond de ciel céruléen.",
+              "type": "masterpiece",
+              "artworkId": "leger_coq_rouge_ciel_bleu_1953"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "guerchin": {
+    "id": "guerchin",
+    "name": "Le Guerchin",
+    "sortName": "Guerchin Giovanni Francesco Barbieri",
+    "dates": "1591 – 1666",
+    "century": "XVIIe siècle",
+    "nationality": "Italien (Cento / Bologne)",
+    "movement": "Baroque Bolonais & Néo-Caravagisme",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczNx_Ngjk9GWFXyqbL6lBVRu7syDMtvXcb3ut8ZeNKqHdRf8K8jmNbuhEc1Aux5GdZ8PYTedgEchaegQPf0FDcJGufmzGDzrtEbId83ulmyQD82hMy8O0ZZjJ3ZhDv4_5vbbzLRzmxr9qVm-1GZP4fbS4A=w1681-h713-s-no-gm?authuser=0",
+    "bio": "<p><strong>Le génie autodidacte & la transition entre Caravage et le classicisme bolonais</strong><br>Giovanni Francesco Barbieri, dit Le Guerchin (Il Guercino), né en 1591 à Cento et mort en 1666 à Bologne, est l'un des maîtres les plus fascinants du Baroque italien. Surnommé ainsi en raison d'un strabisme prononcé, ce génie autodidacte a su faire la transition entre l'énergie brute du Caravage et l'élégance classique de l'école bolonaise. Après avoir travaillé à Rome pour le pape Grégoire XV, où il a réalisé des fresques révolutionnaires, il s'est imposé comme l'un des artistes les plus prolifiques et respectés de son temps, finissant sa carrière à la tête de l'atelier de Bologne après la mort de son grand rival, Guido Reni.</p><p><strong>Le clair-obscur vibrant & la vitalité émotionnelle intense</strong><br>Son genre pictural se définit par une maîtrise exceptionnelle de la lumière et une vitalité émotionnelle intense. Son style se reconnaît à son usage du clair-obscur, non pas sombre et statique, mais vibrant et atmosphérique. Ses personnages possèdent une présence physique charnelle, souvent saisis dans des mouvements spontanés ou des expressions d'une grande vérité psychologique. Il utilise une palette riche, faite de tons chauds et de contrastes audacieux, tout en apportant un soin particulier au rendu des textures et des paysages.</p><p><strong>Deux manières : de l'exubérance ténébreuse à la clarté classique</strong><br>L'évolution de son style est l'une des plus marquées de l'époque. Sa période de jeunesse est caractérisée par une touche vigoureuse, presque empâtée, et un style ténébreux plein de force et de drame. Après son séjour romain et sous la pression du goût du public, son style évolue vers un classicisme plus clair et ordonné. Ses dernières œuvres sont plus lumineuses, les compositions plus symétriques et les formes plus lisses, se rapprochant de la « manière douce » de Guido Reni.</p>",
+    "corpus": {
+      "total": 400,
+      "seen": 4,
+      "paintingsCount": 400,
+      "details": [
+        {
+          "label": "Toiles et fresques autographes (hors dessins à la sanguine)",
+          "count": 400,
+          "icon": "🎨",
+          "color": "#d4af37",
+          "seen": 4
+        }
+      ],
+      "sourceTitle": "Corpus établi par Denis Mahon & Nicholas Turner (Royal Collection / British Museum)",
+      "sourceNotes": "En excluant sa production graphique absolument vertigineuse (la Royal Collection en Angleterre conserve à elle seule des centaines de ses sublimes dessins à la sanguine et à la plume), le consensus scientifique fixe aujourd'hui le corpus de ses toiles et fresques autographes à environ 400 œuvres."
+    },
+    "biographyTimeline": {
+      "periods": [
+        {
+          "title": "Jeunesse à Cento & La Première Manière Ténébreuse",
+          "years": "1591 – 1620",
+          "color": "#0284c7",
+          "summary": "Autodidacte de Cento, il découvre les œuvres de Caravage et de Ludovico Carracci et développe une première manière d'une force brute inégalée.",
+          "events": [
+            {
+              "year": 1615,
+              "title": "Rencontre avec Ludovico Carracci à Bologne",
+              "desc": "Sous l'influence du doyen des Carrache, il synthétise le ténébrisme caravagesque et la grâce classique bolonaise dans une première manière puissante.",
+              "icon": "🎨"
+            },
+            {
+              "year": 1619,
+              "title": "L'Et in Arcadia ego (Galleria Nazionale d'Arte Antica, Rome)",
+              "desc": "Symbole de la première manière : lumière charbonneuse, touche grasse et empâtée, présence physique irrésistible des figures.",
+              "type": "masterpiece",
+              "icon": "✨"
+            }
+          ]
+        },
+        {
+          "title": "Le Triomphe Romain : Grégoire XV & La Révolution Baroque Pontificale",
+          "years": "1621 – 1623",
+          "color": "#d97706",
+          "summary": "Appelé à Rome par le pape Grégoire XV et le cardinal Ludovisi, il y peint la fresque de l'Aurore — chef-d'œuvre absolu du plafond baroque.",
+          "events": [
+            {
+              "year": 1621,
+              "title": "L'Aurore, Villa Ludovisi (Rome) : premier grand plafond baroque",
+              "desc": "Peint la fresque de l'Aurore sur le plafond de la villa du cardinal Ludovisi : une composition en sotto in sù qui révolutionne la peinture murale romaine.",
+              "type": "masterpiece",
+              "icon": "🌅"
+            }
+          ]
+        },
+        {
+          "title": "La Seconde Manière Classique & L'Atelier de Bologne",
+          "years": "1624 – 1666",
+          "color": "#dc2626",
+          "summary": "Revenu à Cento puis établi à Bologne après la mort de Guido Reni, il adopte une palette plus claire et dirige le plus grand atelier d'Italie.",
+          "events": [
+            {
+              "year": 1632,
+              "title": "La Visitation (Musée des Beaux-Arts de Rouen)",
+              "desc": "Témoignage de la transition vers la seconde manière : lumière plus douce et classique, composition pyramidale et tendresse émotionnelle.",
+              "type": "masterpiece",
+              "artworkId": "guerchin_visitation_rouen_1632"
+            },
+            {
+              "year": 1637,
+              "title": "Salomé recevant la tête de Saint Jean-Baptiste (Rennes)",
+              "desc": "Chef-d'œuvre dramatique en transition : le bourreau vu de dos, Salomé mélancolique — une méditation sur la fatalité des désirs.",
+              "type": "masterpiece",
+              "artworkId": "guerchin_salome_tete_saint_jean_baptiste_rennes_1637"
+            },
+            {
+              "year": 1639,
+              "title": "Cléopâtre (Ferrare / Collection privée)",
+              "desc": "Payé 40 scudi e mezzo le 21 décembre 1639 : la seconde manière à son apogée, palette ocre et brune, regard vers le ciel, composition serrée.",
+              "type": "masterpiece",
+              "artworkId": "guerchin_cleopatre_ferrare_1639"
+            },
+            {
+              "year": 1642,
+              "title": "Prend la tête de l'atelier de Bologne après la mort de Guido Reni",
+              "desc": "Devient l'artiste incontesté de Bologne, commandité par les grandes familles, les papes et les princes d'Italie.",
+              "icon": "👑"
+            },
+            {
+              "year": 1651,
+              "title": "Le Roi David (Musée des Beaux-Arts de Rouen)",
+              "desc": "Méditation sur la sagesse, la vieillesse et la prière : le roi psalmiste regarde le ciel, ses mains sur la harpe, dans une atmosphère de silence et de lumière.",
+              "type": "masterpiece",
+              "artworkId": "guerchin_roi_david_rouen_1651"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "claude_lorrain": {
+    "id": "claude_lorrain",
+    "name": "Claude Lorrain",
+    "sortName": "Lorrain Claude",
+    "dates": "v. 1600 – 1682",
+    "century": "XVIIe siècle",
+    "nationality": "Français (Lorraine), actif à Rome",
+    "movement": "Classicisme français & Paysage idéal romain",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczNQeCvftee_AmtHSKK2DQlu4nfacYa99Cv5AXpQZJyjQ8b8NjlhREOdBIS0gx08steJ8Y5C61DBdwkPEhdyBWb-hq_28ypOPhqmZjm8-pF3KVO-f2KE_4UuvSpZGFnRQ_dwWI7-kr2tc0iUM7nqdibEUw=w1681-h713-s-no-gm?authuser=0",
+    "bio": "<p><strong>Le peintre de la lumière & le maître du paysage idéal romain</strong><br>Claude Lorrain (Claude Gellée, v. 1600 – 1682) est le maître absolu du paysage classique et l'un des premiers artistes à avoir fait du soleil le sujet central de ses toiles. Originaire de Lorraine mais installé à Rome presque toute sa vie, il a exercé une influence colossale sur l'art européen, notamment en Angleterre, en inventant une nature idéalisée, baignée d'une lumière divine et poétique.</p><p><strong>Le port de mer, les coulisses & l'horizon infini</strong><br>Son genre pictural se définit par le paysage historique et l'architecture imaginaire. Contrairement à son contemporain Poussin, plus intellectuel et rigoureux, le Lorrain privilégie l'émotion visuelle née de la lumière. Son style se caractérise par des compositions encadrées d'arbres majestueux ou de palais antiques (les « coulisses »), ouvrant sur un horizon lointain où le soleil, souvent placé au centre, irradie et unifie tout l'espace. Il tient son Liber Veritatis — un carnet de dessins au lavis reproduisant chaque tableau — pour déjouer les faussaires dès 1635.</p><p><strong>De la topographie à la vision : lumière atmosphérique & héritage de Turner</strong><br>L'évolution de son style marque une quête constante de la lumière atmosphérique. Des premiers ports de mer documentaires (Gênes, 1627) aux grandes compositions mytho-bibliques de maturité (Cléopâtre, Embarquement de la Reine de Saba), jusqu'au style tardif vaporeux dominé par les bleus et gris argentés annonçant Turner, Claude ne cesse d'approfondir la fusion entre la permanence de la pierre antique et l'impermanence de la lumière.</p>",
+    "corpus": {
+      "total": 300,
+      "seen": 13,
+      "paintingsCount": 300,
+      "details": [
+        {
+          "label": "Peintures à l'huile documentées (dont ~250 survivantes) — Catalogue Roethlisberger 1961",
+          "count": 300,
+          "icon": "🎨",
+          "color": "#d4af37",
+          "seen": 13
+        }
+      ],
+      "sourceTitle": "Catalogue raisonné en deux volumes de Marcel Roethlisberger (1961), appuyé sur le Liber Veritatis",
+      "sourceNotes": "L'inventaire scientifique mondial repose sur le monumental catalogue raisonné en deux volumes de Marcel Roethlisberger (Claude Lorrain : The Paintings, 1961). Ce travail s'appuie directement sur le Liber Veritatis, le carnet dans lequel Claude reproduisait au lavis chaque tableau achevé sortant de son atelier à partir de 1635. En compilant les 195 dessins originaux du Liber Veritatis et les toiles de jeunesse validées, le consensus scientifique fixe le corpus à environ 300 peintures (dont environ 250 ont survécu jusqu'à nos jours)."
+    },
+    "biographyTimeline": {
+      "periods": [
+        {
+          "title": "Formation à Rome, Séjour Napolitain & Premiers Ports de Mer",
+          "years": "v. 1600 – 1635",
+          "color": "#0284c7",
+          "summary": "Apprenti chez Agostino Tassi à Rome, il effectue un séjour formateur à Naples et Gênes, et conquiert rapidement les amateurs romains par ses lumières atmosphériques.",
+          "events": [
+            {
+              "year": 1619,
+              "title": "Apprentissage auprès d'Agostino Tassi (peintre de marines) à Rome",
+              "desc": "Arrive à Rome, entre dans l'atelier du peintre de marines et de perspectives Agostino Tassi, et apprend les rudiments de la veduta et de l'espace lumineux.",
+              "icon": "🏛️"
+            },
+            {
+              "year": 1627,
+              "title": "Le Port de Gênes, vu de la mer (Louvre)",
+              "desc": "Première peinture connue, encore topographique : la Lanterna de Gênes sous un ciel contre-jour, fondatrice de son obsession pour la lumière rasante sur l'eau.",
+              "type": "masterpiece",
+              "artworkId": "claude_lorrain_port_genes_vue_mer_louvre_1627"
+            },
+            {
+              "year": 1630,
+              "title": "Marine. Soleil couchant (Louvre, format ovale)",
+              "desc": "La colonne de lumière nacrée sur les eaux sombres : premier grand accomplissement du contre-jour atmosphérique.",
+              "type": "masterpiece",
+              "artworkId": "claude_lorrain_marine_soleil_couchant_louvre_1630"
+            },
+            {
+              "year": 1630,
+              "title": "Paysage avec pâtre et troupeau (Louvre, format ovale)",
+              "desc": "Pendant pastoral de la marine : la campagne romaine transfigurée par une lumière matinale cristalline, fondatrice du paysage arcadien.",
+              "type": "masterpiece",
+              "artworkId": "claude_lorrain_paysage_patre_troupeau_louvre_1630"
+            },
+            {
+              "year": 1630,
+              "title": "Siège de la Rochelle & Pas de Suse forcé par Louis XIII (Louvre, ovales)",
+              "desc": "Rares peintures d'histoire contemporaine : l'artiste transforme des victoires royales en panoramas atmosphériques d'une sérénité absolue.",
+              "type": "masterpiece",
+              "artworkId": "claude_lorrain_siege_rochelle_louis_xiii_louvre_1630"
+            }
+          ]
+        },
+        {
+          "title": "La Pleine Maturité : Le Liber Veritatis & Les Grands Chefs-d'œuvre Romains",
+          "years": "1635 – 1650",
+          "color": "#d97706",
+          "summary": "Commandes pour les plus grands commanditaires (papes, cardinaux, ambassadeurs) et ouverture du Liber Veritatis pour déjouer les faussaires.",
+          "events": [
+            {
+              "year": 1635,
+              "title": "Ouverture du Liber Veritatis : la guerre aux faussaires",
+              "desc": "Agacé de voir son style copié, il commence à reproduire au lavis brun chaque tableau sortant de son atelier — 195 dessins constituent aujourd'hui la pierre angulaire de son catalogue raisonné.",
+              "icon": "📖"
+            },
+            {
+              "year": 1636,
+              "title": "Vue du Campo Vaccino & Vue d'un port avec le Capitole (Louvre)",
+              "desc": "Dyptique topographique et imaginaire : le Forum romain envahi par la vie quotidienne, et le Capitole déplacé au bord d'une mer fictive.",
+              "type": "masterpiece",
+              "artworkId": "claude_lorrain_campo_vaccino_louvre_1636"
+            },
+            {
+              "year": 1639,
+              "title": "La Fête villageoise & Port de mer au soleil couchant (Louvre)",
+              "desc": "Doubles chefs-d'œuvre : la pastorale champêtre pour le cardinal Rospigliosi, et le port de mer crépusculaire pour Urbain VIII — le soleil et la lumière scintillante à leur apogée.",
+              "type": "masterpiece",
+              "artworkId": "claude_lorrain_port_mer_soleil_couchant_louvre_1639"
+            },
+            {
+              "year": 1642,
+              "title": "Le Débarquement de Cléopâtre à Tarse (Louvre)",
+              "desc": "Commande du cardinal Giori : le soleil au centre de l'horizon inonde tout de nacre dorée — la mer est un miroir, les formes se dissolvent dans la brume.",
+              "type": "masterpiece",
+              "artworkId": "claude_lorrain_debarquement_cleopatre_tarse_louvre_1642"
+            },
+            {
+              "year": 1643,
+              "title": "David sacré roi par le prophète Samuel (Louvre)",
+              "desc": "Paysage pastoral monumental : le portique classique, la vallée et la ville fortifiée baignés d'une lumière divine, pour le même cardinal Giori.",
+              "type": "masterpiece",
+              "artworkId": "claude_lorrain_david_sacre_roi_samuel_louvre_1643"
+            },
+            {
+              "year": 1644,
+              "title": "Ulysse remet Chryséis à son père (Louvre)",
+              "desc": "Commandé par le duc de Liancourt : contre-jour solaire magistral sur le quai homérique, sommet de la perspective atmosphérique chromatique.",
+              "type": "masterpiece",
+              "artworkId": "claude_lorrain_ulysse_chryseis_louvre_1644"
+            },
+            {
+              "year": 1646,
+              "title": "Paysage avec satyres et nymphes dansant",
+              "desc": "Bacchanale arcadienne dans la campagne romaine au soleil d'or : nymphes, satyres et musiciens en ronde dans une clairière face à une vallée fluviale vaporisée.",
+              "type": "masterpiece",
+              "artworkId": "claude_lorrain_paysage_satyres_nymphes_1646"
+            },
+            {
+              "year": 1648,
+              "title": "L'Embarquement de la reine de Saba (Louvre)",
+              "desc": "Chef-d'œuvre absolu commandé par le duc de Bouillon : soleil levant nacrée, sillage scintillant, architecture monumentale — Turner le juge sans égal.",
+              "type": "masterpiece",
+              "artworkId": "claude_lorrain_embarquement_reine_saba_louvre_1648"
             }
           ]
         }
