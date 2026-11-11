@@ -9208,179 +9208,271 @@ function updateModalHistoryBackButton() {
    MODULES TRANSVERSAUX : SMART ECHO, FACE-À-FACE & PASSERELLES CHRONOLOGIQUES
    ========================================================================== */
 
-// Normalise l'identifiant de civilisation pour garantir qu'on ne compare que des civilisations distinctes
+// Normalise l'identifiant de civilisation pour distinguer les aires culturelles
 function getCivGroupKey(art) {
   if (!art) return '';
   const cid = (art.civId || '').toLowerCase().trim();
   if (cid.startsWith('egypte')) return 'egypte';
   if (cid.startsWith('grece')) return 'grece';
   if (cid.startsWith('egee') || cid.startsWith('mycene') || cid.startsWith('mino')) return 'egee';
-  if (cid.startsWith('etrusque') || cid.startsWith('italie')) return 'etrusque';
+  if (cid.startsWith('etrusque') || cid.startsWith('italie_etrusque')) return 'etrusque';
   if (cid.startsWith('iran') || cid.startsWith('perse') || cid.startsWith('elam')) return 'iran_perse';
   if (cid.startsWith('islam')) return 'islam';
   if (cid.startsWith('ibere')) return 'ibere';
   if (cid.startsWith('chypre')) return 'chypre';
-  if (cid.startsWith('celte') || cid.startsWith('gaule')) return 'celte';
-  if (cid.startsWith('occident') || cid.startsWith('europe')) return 'occident';
+  if (cid.startsWith('celte') || cid.startsWith('gaule') || cid.startsWith('neolithique')) return 'celte';
+  if (cid.startsWith('occident') || cid.startsWith('occ_') || cid.startsWith('europe')) return 'occident';
   if (cid.startsWith('canaries')) return 'canaries';
-  if (cid.startsWith('levant') || cid.startsWith('phenicie')) return 'levant';
+  if (cid.startsWith('levant') || cid.startsWith('phenicie') || cid.startsWith('amorrite') || cid.startsWith('syrie') || cid.startsWith('lycie')) return 'levant';
+  if (cid.startsWith('meso')) return 'mesopotamie';
+  if (art.artist || art.artistId) return 'occident';
+  const civRaw = (art.civilization || art.civName || '').toLowerCase();
+  if (/france|italie|espagne|flandres|pays-bas|allemagne|royaume-uni|angleterre|états-unis|autriche|belgique|norvège|occident/i.test(civRaw)) {
+    return 'occident';
+  }
   return cid || 'autre';
 }
 
+// Retourne l'étiquette identitaire claire (Nom du Maître ou Civilisation) — ne retourne JAMAIS "Civilisation"
+function getSyncCardBadgeLabel(art) {
+  if (!art) return '';
+  const artist = (art.artist || '').trim();
+  if (artist && !artist.toLowerCase().includes('commanditaire')) {
+    return `🎨 ${artist}`;
+  }
+  if (art.civName && art.civName.trim()) {
+    return art.civName.replace(/^Civilisation\s*:\s*/i, '').trim();
+  }
+  if (art.civilization && art.civilization.trim()) {
+    return art.civilization.trim();
+  }
+  return 'Patrimoine Mondial';
+}
+
+function getSyncCardLocationLabel(art) {
+  if (!art) return '';
+  const certEntry = (typeof CERTIFIED_PAINTING_DIMENSIONS !== 'undefined' && CERTIFIED_PAINTING_DIMENSIONS[art.id]) ? CERTIFIED_PAINTING_DIMENSIONS[art.id] : null;
+  return (art.location || art.currentLocation || art.site || art.originSite || (certEntry && certEntry.loc) || '').trim();
+}
+
 // --------------------------------------------------------------------------
-// 1. TAXONOMIE SÉMANTIQUE & AFFINITÉ DE SUJET (FACE-À-FACE MIROIR)
+// 1. TAXONOMIE SÉMANTIQUE & AFFINITÉ DE SUJET (FACE-À-FACE MIROIR RIGOUREUX)
 // --------------------------------------------------------------------------
 const ART_SUBJECT_TAXONOMY = [
   {
     key: "fauve",
-    label: "Félin & Lion sacré",
+    label: "Félin & Fauve",
     icon: "🦁",
-    keywords: ["lion", "lionne", "fauve", "panthère", "léopard", "tigre"]
+    keywords: ["lion", "lionne", "fauve", "panthère", "léopard", "léopards", "tigre", "guépard"]
   },
   {
     key: "bovide",
-    label: "Taureau & Bovidé sacré",
+    label: "Taureau & Bovidé",
     icon: "🐂",
-    keywords: ["taureau", "bœuf", "vache", "zébu", "hathor", "veau", "bovidé", "bovidés"]
+    keywords: ["taureau", "bœuf", "vache", "zébu", "veau", "bovidé", "bovidés"]
   },
   {
     key: "equide",
     label: "Cheval & Cavalier",
     icon: "🐎",
-    keywords: ["cheval", "chevaux", "cavalier", "char", "attelage", "équidé", "jument", "poulain"]
+    keywords: ["cheval", "chevaux", "cavalier", "char", "attelage", "équidé", "jument"]
   },
   {
     key: "faune",
     label: "Bestiaire & Faune",
     icon: "🦌",
-    keywords: ["biche", "cerf", "faucon", "canard", "oiseau", "serpent", "bouquetin", "capridé", "bélier", "saluki", "chien", "lièvre", "poisson", "tortue", "animalier"]
+    keywords: ["biche", "cerf", "faucon", "canard", "oiseau", "oiseaux", "serpent", "bouquetin", "capridé", "bélier", "saluki", "chien", "lièvre", "renard", "singe", "moutons"]
   },
   {
     key: "creature",
-    label: "Créature fabuleuse",
+    label: "Créature mythique",
     icon: "🦅",
-    keywords: ["sphinx", "griffon", "centaure", "sirène", "gorgone", "méduse", "chimère", "pégase", "monstre"]
+    keywords: ["sphinx", "griffon", "centaure", "sirène", "gorgone", "méduse", "chimère", "pégase"]
   },
   {
     key: "vase",
     label: "Vase & Art du Banquet",
     icon: "🏺",
-    keywords: ["vase", "cratère", "amphore", "coupe", "kylix", "rhyton", "dinos", "oenochoé", "œnochoé", "lécythe", "aryballe", "hydrie", "plat", "cruche", "askos", "pyxis", "symposion", "banquet", "libation"]
+    keywords: ["cratère", "amphore", "kylix", "rhyton", "dinos", "oenochoé", "œnochoé", "lécythe", "aryballe", "hydrie", "askos", "pyxis", "symposion"]
   },
   {
     key: "guerrier",
-    label: "Guerrier & Armes",
+    label: "Guerrier, Armes & Batailles",
     icon: "⚔️",
-    keywords: ["guerrier", "hoplite", "archer", "mélophore", "soldat", "combattant", "casque", "bouclier", "épée", "cuirasse", "lance", "armure", "amazone", "combat"]
+    keywords: ["guerrier", "hoplite", "archer", "mélophore", "soldat", "combattant", "casque", "bouclier", "épée", "cuirasse", "armure", "amazone", "bataille", "chasseurs à cheval"]
   },
   {
     key: "statue_homme",
     label: "Statue masculine / Kouros",
     icon: "🗿",
-    keywords: ["kouros", "éphèbe", "athlète", "orant", "scribe", "dignitaire", "pharaon", "roi", "dieu", "buste d'homme", "zeus", "apollon", "poséidon", "hermès", "dionysos"]
+    ancientSculptureOnly: true,
+    keywords: ["kouros", "éphèbe", "statue d'orant", "scribe", "pharaon", "statue masculine", "statuette masculine"]
   },
   {
     key: "statue_femme",
     label: "Statue féminine / Koré",
     icon: "👸",
-    keywords: ["koré", "korai", "déesse", "dame", "femme", "reine", "danseuse", "pleureuse", "aphrodite", "vénus", "athéna", "artémis", "isis", "hathor", "maternité"]
+    ancientSculptureOnly: true,
+    keywords: ["koré", "korai", "dame d'auxerre", "dame d'elche", "dame de baza", "statue féminine", "figurine féminine"]
   },
   {
     key: "funeraire",
     label: "Rites funéraires & Au-delà",
     icon: "⚱️",
-    keywords: ["sarcophage", "tombe", "urne", "stèle", "cippe", "momie", "larnax", "canope", "plangon", "masque funéraire", "défunt", "épitaphe", "nécropole"]
+    ancientSculptureOnly: true,
+    keywords: ["sarcophage", "urne funéraire", "stèle funéraire", "cippe", "momie", "larnax", "canope", "masque funéraire", "nécropole"]
   },
   {
     key: "orfevrerie",
     label: "Orfèvrerie & Parure royale",
     icon: "💎",
-    keywords: ["collier", "pectoral", "diadème", "couronne", "bracelet", "torque", "bague", "boucle d'oreille", "or martelé", "bijou", "orfèvrerie", "trésor"]
+    keywords: ["pectoral", "diadème", "torque", "or martelé", "orfèvrerie", "trésor"]
   },
   {
     key: "science",
     label: "Science & Instruments",
     icon: "⚙️",
-    keywords: ["anticythère", "astrolabe", "cadran", "mesure", "engrenages", "différentiel", "machine", "calcul", "horloge"]
+    keywords: ["anticythère", "astrolabe", "cadran", "engrenages", "horloge"]
   }
 ];
 
 function getArtworkSubjectTraits(art) {
   if (!art) return [];
-  const textCorpus = [
+  // Recherche uniquement sur les champs d'intitulé/typologie (jamais de sous-chaîne floue dans desc où "trois" matchait "roi")
+  const headerCorpus = [
     art.title || '',
     art.category || '',
     art.artifactType || '',
-    (art.chips ? art.chips.join(' ') : ''),
-    (art.narrative || art.desc || '').substring(0, 450)
+    (art.chips ? art.chips.join(' ') : '')
   ].join(' ').toLowerCase();
+
+  const isPaintingOrArtistWork = Boolean(art.artist || art.artistId || (art.domain || '').toLowerCase().includes('peinture') || (art.type || '').toLowerCase().includes('peinture'));
+  const isAncient = Number(art.centuryNumeric || 0) < 500 && !isPaintingOrArtistWork;
 
   const traits = [];
   for (const item of ART_SUBJECT_TAXONOMY) {
-    if (item.keywords.some(kw => textCorpus.includes(kw))) {
+    if (item.ancientSculptureOnly && !isAncient) continue;
+    const pattern = item.keywords.map(k => k.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|');
+    if (hasWholeTermGlobal(headerCorpus, pattern)) {
       traits.push(item);
     }
   }
   return traits;
 }
 
-function calculateArtworkAffinity(artA, artB) {
-  if (!artA || !artB) return { affinityScore: 0, sharedLabel: '', sharedIcon: '✦' };
-
-  const traitsA = getArtworkSubjectTraits(artA);
-  const traitsB = getArtworkSubjectTraits(artB);
-
-  // Recherche de traits thématiques partagés
-  let matchTrait = null;
-  for (const tA of traitsA) {
-    const found = traitsB.find(tB => tB.key === tA.key);
-    if (found) {
-      matchTrait = found;
-      break;
+// Retourne le thème/sous-thème principal d'une œuvre pour l'étiquette informative de sa carte
+function getPrimaryThemePillForArtwork(art) {
+  if (!art) return { icon: '✦', label: '' };
+  const isArtistWork = Boolean(art.artist || art.artistId);
+  if (isArtistWork && typeof classifyGlobalThemesAndSubthemes === 'function') {
+    const classified = classifyGlobalThemesAndSubthemes(art, art.artistId);
+    // Chercher le premier sous-thème puis le premier grand thème
+    for (const th of GLOBAL_THEMES_TAXONOMY) {
+      for (const sub of (th.subthemes || [])) {
+        if (classified.subthemes.has(sub.id)) {
+          return { icon: sub.icon, label: sub.title };
+        }
+      }
+    }
+    for (const th of GLOBAL_THEMES_TAXONOMY) {
+      if (classified.themes.has(th.id)) {
+        return { icon: th.icon, label: th.title };
+      }
     }
   }
+  const traits = getArtworkSubjectTraits(art);
+  if (traits.length > 0) {
+    return { icon: traits[0].icon, label: traits[0].label };
+  }
+  return {
+    icon: '🏛️',
+    label: art.category || art.artifactType || art.type || 'Chef-d\'œuvre'
+  };
+}
+
+function calculateArtworkAffinity(artA, artB) {
+  if (!artA || !artB) return { affinityScore: 0, sharedLabel: '', sharedIcon: '✦' };
 
   let affinityScore = 0;
   let sharedLabel = '';
   let sharedIcon = '✦';
 
-  if (matchTrait) {
-    affinityScore += 120; // Fort bonus de sujet identique !
-    sharedLabel = matchTrait.label;
-    sharedIcon = matchTrait.icon;
-  } else {
-    // Si pas de sujet identique direct, on compare la typologie ou le domaine
-    const domA = (artA.domain || '').toLowerCase();
-    const domB = (artB.domain || '').toLowerCase();
-    const typeA = (artA.artifactType || artA.category || '').toLowerCase();
-    const typeB = (artB.artifactType || artB.category || '').toLowerCase();
+  const isArtistA = Boolean(artA.artist || artA.artistId);
+  const isArtistB = Boolean(artB.artist || artB.artistId);
 
-    if (typeA && typeA === typeB) {
-      affinityScore += 50;
-      sharedLabel = artA.artifactType || 'Typologie miroir';
-      sharedIcon = '🏛️';
-    } else if (domA && domA === domB) {
-      affinityScore += 25;
-      sharedLabel = artA.domain || 'Même discipline';
-      sharedIcon = '🎨';
+  // 1. Si les deux œuvres sont des œuvres de Maîtres : comparer via notre taxonomie thématique & sous-thématique rigoureuse
+  if (isArtistA && isArtistB && typeof classifyGlobalThemesAndSubthemes === 'function') {
+    const classA = classifyGlobalThemesAndSubthemes(artA, artA.artistId);
+    const classB = classifyGlobalThemesAndSubthemes(artB, artB.artistId);
+
+    // a) Sous-thème partagé exact (ex: Chevaux & Cavaliers, Batailles & Révolutions, Portraits individuels...)
+    for (const th of GLOBAL_THEMES_TAXONOMY) {
+      for (const sub of (th.subthemes || [])) {
+        if (classA.subthemes.has(sub.id) && classB.subthemes.has(sub.id)) {
+          affinityScore += 140;
+          sharedLabel = sub.title;
+          sharedIcon = sub.icon;
+          break;
+        }
+      }
+      if (sharedLabel) break;
+    }
+
+    // b) Sinon Grand Thème partagé (ex: Mythologie & Histoire, Portraits, Paysages, Art Sacré...)
+    if (!sharedLabel) {
+      for (const th of GLOBAL_THEMES_TAXONOMY) {
+        if (classA.themes.has(th.id) && classB.themes.has(th.id)) {
+          affinityScore += 95;
+          sharedLabel = th.title;
+          sharedIcon = th.icon;
+          break;
+        }
+      }
     }
   }
 
-  // Bonus si civilisations distinctes (confrontation enrichissante)
+  // 2. Sinon comparer via les traits archéologiques/thématiques aux frontières de mots entiers
+  if (!sharedLabel) {
+    const traitsA = getArtworkSubjectTraits(artA);
+    const traitsB = getArtworkSubjectTraits(artB);
+    for (const tA of traitsA) {
+      const found = traitsB.find(tB => tB.key === tA.key);
+      if (found) {
+        affinityScore += 120;
+        sharedLabel = found.label;
+        sharedIcon = found.icon;
+        break;
+      }
+    }
+  }
+
+  // 3. Si les deux œuvres n'ont pas le même sujet, afficher le vrai thème/sujet propre de l'œuvre B (sans inventer un faux sujet commun !)
+  if (!sharedLabel) {
+    const ownThemeB = getPrimaryThemePillForArtwork(artB);
+    sharedLabel = ownThemeB.label;
+    sharedIcon = ownThemeB.icon;
+
+    const domA = (artA.domain || '').toLowerCase();
+    const domB = (artB.domain || '').toLowerCase();
+    if (domA && domA === domB) {
+      affinityScore += 25;
+    }
+  }
+
+  // Bonus si civilisations ou maîtres distincts
   if (getCivGroupKey(artA) !== getCivGroupKey(artB)) {
     affinityScore += 20;
   }
 
-  // Bonus si chef-d'oeuvre phare
   if (artB.isHighlight) {
     affinityScore += 10;
   }
 
-  // Pénalité d'écart chronologique
+  // Pénalité d'écart chronologique (privilégier les œuvres les plus proches en date)
   const cA = Number(artA.centuryNumeric || 0);
   const cB = Number(artB.centuryNumeric || 0);
   const diffYears = Math.abs(cA - cB);
-  affinityScore -= Math.min(60, diffYears / 12);
+  affinityScore -= Math.min(75, diffYears * 1.2);
 
   return { affinityScore, sharedLabel, sharedIcon };
 }
@@ -9394,8 +9486,62 @@ function getContemporariesForArtwork(targetArt) {
   if (isNaN(targetC)) return [];
 
   const targetGroup = getCivGroupKey(targetArt);
+  const isTargetArtistWork = Boolean(targetArt.artist || targetArt.artistId || targetGroup === 'occident');
+  const targetArtistKey = (targetArt.artistId || targetArt.artist || '').toLowerCase().trim();
   const allArts = window.ART_OBJECTS || [];
 
+  // CAS A : Œuvre d'un Peintre / Maître (XIVe – XXIe s.)
+  // On recherche les œuvres contemporaines des AUTRES grands maîtres à la même époque (± 15 ans, ± 30 ans, ± 55 ans)
+  // ainsi que les œuvres contemporaines d'autres civilisations (ex: Arts de l'Islam)
+  if (isTargetArtistWork && targetC >= 1250) {
+    const spans = [15, 30, 55];
+    let byActorOrCiv = {};
+
+    for (const span of spans) {
+      const candidates = allArts.filter(a => {
+        if (a.id === targetArt.id || !a.imgSrc) return false;
+        if (a.centuryNumeric === undefined || a.centuryNumeric === null || isNaN(Number(a.centuryNumeric))) return false;
+        if (Math.abs(Number(a.centuryNumeric) - targetC) > span) return false;
+
+        const candArtistKey = (a.artistId || a.artist || '').toLowerCase().trim();
+        // Exclure les œuvres du même peintre
+        if (targetArtistKey && candArtistKey && (candArtistKey === targetArtistKey || candArtistKey.includes(targetArtistKey) || targetArtistKey.includes(candArtistKey))) {
+          return false;
+        }
+        return true;
+      });
+
+      byActorOrCiv = {};
+      for (const c of candidates) {
+        const cGroup = getCivGroupKey(c);
+        const key = (c.artistId || c.artist) ? `artist_${(c.artistId || c.artist).toLowerCase().trim()}` : `civ_${cGroup}`;
+        if (!byActorOrCiv[key]) byActorOrCiv[key] = [];
+        byActorOrCiv[key].push(c);
+      }
+
+      if (Object.keys(byActorOrCiv).length >= 4 || span === spans[spans.length - 1]) {
+        break;
+      }
+    }
+
+    const selected = [];
+    for (const k of Object.keys(byActorOrCiv)) {
+      const arts = byActorOrCiv[k];
+      arts.forEach(cand => {
+        const aff = calculateArtworkAffinity(targetArt, cand);
+        cand._affinityScore = aff.affinityScore;
+        cand._affinityLabel = aff.sharedLabel;
+        cand._affinityIcon = aff.sharedIcon;
+      });
+      arts.sort((a, b) => (b._affinityScore || 0) - (a._affinityScore || 0));
+      selected.push(arts[0]);
+    }
+
+    selected.sort((a, b) => (b._affinityScore || 0) - (a._affinityScore || 0));
+    return selected.slice(0, 6);
+  }
+
+  // CAS B : Œuvre de l'Antiquité ou des Civilisations extra-européennes
   let baseSpan = 70;
   if (targetC < -1000) baseSpan = 250;
   else if (targetC < 500) baseSpan = 120;
@@ -9426,7 +9572,6 @@ function getContemporariesForArtwork(targetArt) {
     }
   }
 
-  // Pour chaque civilisation distincte, sélectionner la meilleure représentante en valorisant l'affinité
   const selected = [];
   for (const g of Object.keys(byGroup)) {
     const arts = byGroup[g];
@@ -9441,7 +9586,6 @@ function getContemporariesForArtwork(targetArt) {
     selected.push(arts[0]);
   }
 
-  // Trier les candidats finaux : ceux ayant le même sujet en tête !
   selected.sort((a, b) => (b._affinityScore || 0) - (a._affinityScore || 0));
   return selected.slice(0, 6);
 }
@@ -9462,6 +9606,15 @@ function renderContemporaneousRibbon(currentArt) {
     modalSyncEpochBadge.textContent = currentArt.centuryDisplay || (currentArt.centuryNumeric ? `${currentArt.centuryNumeric}` : '');
   }
 
+  const modalSyncSubtitle = document.getElementById('modal-sync-subtitle');
+  if (modalSyncSubtitle) {
+    if (currentArt.artist || currentArt.artistId) {
+      modalSyncSubtitle.textContent = 'Pendant la création de cette œuvre, découvrez ce que réalisaient les autres maîtres et civilisations à la même époque :';
+    } else {
+      modalSyncSubtitle.textContent = 'Pendant la création de cette œuvre, découvrez ce qui prenait forme dans les autres civilisations :';
+    }
+  }
+
   const targetC = Number(currentArt.centuryNumeric);
 
   modalSyncRibbon.innerHTML = contemporaries.map(card => {
@@ -9469,15 +9622,16 @@ function renderContemporaneousRibbon(currentArt) {
     const diff = Math.abs(cardC - targetC);
     let diffLabel = '';
     if (diff === 0) diffLabel = 'Contemporain exact';
-    else if (diff <= 35) diffLabel = 'Même siècle';
+    else if (diff <= 15) diffLabel = `± ${diff} an${diff > 1 ? 's' : ''}`;
+    else if (diff <= 35) diffLabel = 'Même génération';
     else diffLabel = `± ${diff} ans`;
 
     const cleanTitle = (card.title || '').replace(/"/g, '&quot;');
-    const cleanCiv = (card.civName || 'Civilisation').replace(/"/g, '&quot;');
+    const cleanCiv = getSyncCardBadgeLabel(card).replace(/"/g, '&quot;');
     const cleanCentury = (card.centuryDisplay || '').replace(/"/g, '&quot;');
-    const cleanSite = (card.originSite || card.site || '').replace(/"/g, '&quot;');
+    const cleanSite = getSyncCardLocationLabel(card).replace(/"/g, '&quot;');
     const affinityBadge = card._affinityLabel
-      ? `<span class="sync-card-subject-pill" title="Même sujet ou typologie">${card._affinityIcon || '✦'} ${card._affinityLabel}</span>`
+      ? `<span class="sync-card-subject-pill" title="Thème ou typologie de l'œuvre">${card._affinityIcon || '✦'} ${card._affinityLabel}</span>`
       : '';
 
     return `
@@ -9616,12 +9770,12 @@ function openComparator(artA, artB, contemporariesList = []) {
     compLeftImg.src = artA.imgSrc;
     compLeftImg.alt = artA.title || '';
   }
-  if (compLeftCiv) compLeftCiv.textContent = artA.civName || '';
+  if (compLeftCiv) compLeftCiv.textContent = getSyncCardBadgeLabel(artA);
   if (compLeftEpoch) compLeftEpoch.textContent = artA.centuryDisplay || '';
   if (compLeftTitle) compLeftTitle.textContent = artA.title || '';
-  if (compLeftSite) compLeftSite.textContent = artA.originSite || artA.site || '';
-  if (compLeftCat) compLeftCat.textContent = artA.category || artA.artifactType || 'Chef-d\'œuvre';
-  if (compLeftExcerpt) compLeftExcerpt.textContent = extractCleanExcerpt(artA.narrative);
+  if (compLeftSite) compLeftSite.textContent = getSyncCardLocationLabel(artA);
+  if (compLeftCat) compLeftCat.textContent = artA.category || artA.artifactType || artA.medium || 'Chef-d\'œuvre';
+  if (compLeftExcerpt) compLeftExcerpt.textContent = extractCleanExcerpt(artA.narrative || artA.desc);
 
   // Panneau droit (Œuvre B)
   if (currentCompArtB) {
@@ -9641,12 +9795,12 @@ function renderComparatorRightPanel(artB) {
     compRightImg.src = artB.imgSrc;
     compRightImg.alt = artB.title || '';
   }
-  if (compRightCiv) compRightCiv.textContent = artB.civName || '';
+  if (compRightCiv) compRightCiv.textContent = getSyncCardBadgeLabel(artB);
   if (compRightEpoch) compRightEpoch.textContent = artB.centuryDisplay || '';
   if (compRightTitle) compRightTitle.textContent = artB.title || '';
-  if (compRightSite) compRightSite.textContent = artB.originSite || artB.site || '';
-  if (compRightCat) compRightCat.textContent = artB.category || artB.artifactType || 'Chef-d\'œuvre';
-  if (compRightExcerpt) compRightExcerpt.textContent = extractCleanExcerpt(artB.narrative);
+  if (compRightSite) compRightSite.textContent = getSyncCardLocationLabel(artB);
+  if (compRightCat) compRightCat.textContent = artB.category || artB.artifactType || artB.medium || 'Chef-d\'œuvre';
+  if (compRightExcerpt) compRightExcerpt.textContent = extractCleanExcerpt(artB.narrative || artB.desc);
 
   // Différentiel chronologique
   if (compDividerEmblem && currentCompArtA) {
@@ -9663,7 +9817,7 @@ function renderComparatorRightPanel(artB) {
   if (compSubtitle && currentCompArtA) {
     const aff = calculateArtworkAffinity(currentCompArtA, artB);
     const subjectMention = aff.sharedLabel ? ` • [ ${aff.sharedIcon} ${aff.sharedLabel} ]` : '';
-    compSubtitle.textContent = `${currentCompArtA.civName || 'Civilisation A'} vs ${artB.civName || 'Civilisation B'}${subjectMention}`;
+    compSubtitle.textContent = `${getSyncCardBadgeLabel(currentCompArtA)} vs ${getSyncCardBadgeLabel(artB)}${subjectMention}`;
   }
 
   // Mise à jour de l'état actif dans le ruban switcher
@@ -9697,7 +9851,7 @@ function renderComparatorSwitcher(mode = 'subject') {
     return `
       <button type="button" class="comp-switcher-thumb ${isActive ? 'is-active' : ''}" data-comp-id="${c.id}" title="Comparer avec : ${escapeHtmlAttr(c.title)}">
         <img src="${c.imgSrc}" alt="" />
-        <span>${escapeHtmlAttr(c.civName || 'Autre')}</span>
+        <span>${escapeHtmlAttr(getSyncCardBadgeLabel(c))}</span>
         ${tag}
       </button>
     `;
