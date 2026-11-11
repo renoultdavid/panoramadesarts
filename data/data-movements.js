@@ -454,7 +454,7 @@ window.MOVEMENTS_DATA = {
         "dates": "1780 – 1867",
         "role": "Génie souverain de la ligne serpentine et du portrait",
         "desc": "La Grande Odalisque, Le Bain turc et portraits bourgeois au Louvre.",
-        "artistId": "",
+        "artistId": "ingres",
         "icon": "📐"
       },
       {

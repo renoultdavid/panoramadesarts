@@ -8123,6 +8123,22 @@ function populateModalData(art) {
 }
 
 const CERTIFIED_PAINTING_DIMENSIONS = {
+  // Ingres Jean-Auguste-Dominique (14 œuvres)
+  "ingres_mademoiselle_caroline_riviere_louvre_1805": { h: 100.0, w: 70.0, display: "100 × 70 cm", loc: "Musée du Louvre, Paris" },
+  "ingres_madame_riviere_louvre_1805": { h: 116.0, w: 89.0, display: "116 × 89 cm (ovale)", loc: "Musée du Louvre, Paris" },
+  "ingres_la_belle_zelie_rouen_1806": { h: 59.0, w: 49.0, display: "59 × 49 cm (ovale)", loc: "Musée des Beaux-Arts de Rouen" },
+  "ingres_oedipe_explique_enigme_du_sphinx_louvre_1808": { h: 189.0, w: 144.0, display: "189 × 144 cm", loc: "Musée du Louvre, Paris" },
+  "ingres_portrait_madame_panckoucke_louvre_1811": { h: 93.0, w: 68.0, display: "93 × 68 cm", loc: "Musée du Louvre, Paris" },
+  "ingres_la_grande_odalisque_louvre_1814": { h: 91.0, w: 162.0, display: "91 × 162 cm", loc: "Musée du Louvre, Paris" },
+  "ingres_portrait_madame_de_senonnes_nantes_1814": { h: 106.0, w: 84.0, display: "106 × 84 cm", loc: "Musée d'Arts de Nantes" },
+  "ingres_roger_delivrant_angelique_louvre_1819": { h: 147.0, w: 190.0, display: "147 × 190 cm", loc: "Musée du Louvre, Paris" },
+  "ingres_lorenzo_bartolini_louvre_1820": { h: 108.0, w: 85.7, display: "108 × 85,7 cm", loc: "Musée du Louvre, Paris" },
+  "ingres_apotheose_d_homere_louvre_1827": { h: 386.0, w: 512.0, display: "386 × 512 cm", loc: "Musée du Louvre, Paris" },
+  "ingres_ferdinand_philippe_duc_d_orleans_louvre_1842": { h: 158.0, w: 122.0, display: "158 × 122 cm", loc: "Musée du Louvre, Paris" },
+  "ingres_jeanne_d_arc_sacre_charles_vii_louvre_1854": { h: 240.0, w: 178.0, display: "240 × 178 cm", loc: "Musée du Louvre, Paris" },
+  "ingres_etudes_jesus_au_milieu_des_docteurs_montpellier_1862": { h: 34.0, w: 47.0, display: "34 × 47 cm", loc: "Musée Fabre, Montpellier" },
+  "ingres_antiochus_et_stratonice_montpellier_1866": { h: 61.0, w: 92.0, display: "61 × 92 cm", loc: "Musée Fabre, Montpellier" },
+
   // Holbein Hans
   "holbein_les_ambassadeurs_londres_1533": { h: 207.0, w: 209.5, display: "207 × 209,5 cm", loc: "The National Gallery, Londres" },
 
