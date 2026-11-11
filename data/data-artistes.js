@@ -7913,11 +7913,14 @@ window.ARTISTS_REGISTRY = {
     nationality: "Italien (Cortone / Rome / Florence)",
     techniques: "Fresque monumentale, huile sur toile, stucs dorés, perspective en contre-plongée (sotto in su), trompe-l'œil",
     bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczMeh1hBATMJ0pPn6NFBOojISwCuj3TNhS9sqAJ5NtSeeXp3FsvYmyUZoIPftDi9vQ7PNAaS6pYeobMV13AzJWnPfJ7_oCnxD1NHtKmep0HEObwIdD3YkFpmlL8SzzWbxJFmHaQPsK_nxLFP_Hsolur3eg=w2252-h956-s-no-gm?authuser=0",
-    bio: [
-      "Pietro Berrettini, dit Pierre de Cortone (Pietro da Cortona), né en 1596 à Cortone et mort en 1669 à Rome, est avec le Bernin et Borromini l'un des trois piliers fondateurs du Baroque romain. Artiste complet, à la fois peintre et architecte, il a orchestré les décors les plus spectaculaires de son temps pour les papes et les grandes familles princières comme les Barberini. Son génie réside dans sa capacité à transformer un plafond ou un mur en une vision céleste et infinie, imposant un style triomphal qui allait devenir le modèle de toutes les cours européennes, du palais de Versailles aux églises de Bavière.",
-      "Son genre pictural est celui de la grande décoration monumentale (fresque illusionniste en quadratura) et du grand tableau d'autel baroque. Alors que Le Caravage privilégiait le clair-obscur dramatique et Annibal Carrache la rigueur classique, Cortone invente un baroque flamboyant, exubérant et dynamique : des compositions tourbillonnantes peuplées de dizaines de figures drapées dans des soieries chatoyantes, baignées d'une lumière solaire dorée, où la peinture semble s'échapper du cadre architectural pour fusionner avec les stucs dorés et l'espace réel.",
-      "L'évolution de son style retrace cinquante ans de triomphe baroque à Rome et Florence : les années d'ascension et le grand saut barberinien (années 1620-1630) avec le plafond du salon Barberini (Le Triomphe de la Divine Providence) ; le séjour florentin et les Salles des Planètes (1637-1647) au Palais Pitti fusionnant fresque et stucs dorés ; et le retour triomphal à Rome (1647-1669) où il décore la Galerie Pamphili et l'église Santa Maria in Vallicella tout en bâtissant la façade baroque de Santa Maria della Pace."
-    ],
+    bio: `
+      <p><strong>Un pilier fondateur du Baroque romain</strong><br>
+      Pietro Berrettini, dit Pierre de Cortone (Pietro da Cortona), né en 1596 à Cortone et mort en 1669 à Rome, est avec le Bernin et Borromini l'un des trois piliers fondateurs du Baroque romain. Artiste complet, à la fois peintre et architecte, il a orchestré les décors les plus spectaculaires de son temps pour les papes et les grandes familles princières comme les Barberini. Son génie réside dans sa capacité à transformer un plafond ou un mur en une vision céleste et infinie, imposant un style triomphal qui allait devenir le modèle de toutes les cours européennes, du palais de Versailles aux églises de Bavière.</p>
+      <p><strong>La décoration monumentale et l'illusionnisme triomphant</strong><br>
+      Son genre pictural est celui de la grande décoration monumentale (fresque illusionniste en quadratura) et du grand tableau d'autel baroque. Alors que Le Caravage privilégiait le clair-obscur dramatique et Annibal Carrache la rigueur classique, Cortone invente un baroque flamboyant, exubérant et dynamique : des compositions tourbillonnantes peuplées de dizaines de figures drapées dans des soieries chatoyantes, baignées d'une lumière solaire dorée, où la peinture semble s'échapper du cadre architectural pour fusionner avec les stucs dorés et l'espace réel.</p>
+      <p><strong>Cinquante ans de triomphe baroque entre Rome et Florence</strong><br>
+      L'évolution de son style retrace cinquante ans de triomphe baroque à Rome et Florence : les années d'ascension et le grand saut barberinien (années 1620-1630) avec le plafond du salon Barberini (Le Triomphe de la Divine Providence) ; le séjour florentin et les Salles des Planètes (1637-1647) au Palais Pitti fusionnant fresque et stucs dorés ; et le retour triomphal à Rome (1647-1669) où il décore la Galerie Pamphili et l'église Santa Maria in Vallicella tout en bâtissant la façade baroque de Santa Maria della Pace.</p>
+    `,
     corpus: {
       total: 150,
       seen: 2,
@@ -8075,11 +8078,14 @@ window.ARTISTS_REGISTRY = {
     nationality: "Français (Ornans, Franche-Comté)",
     techniques: "Huile sur toile, travail au couteau à peindre, empâtements denses, palette terrienne et minérale, observation crue du réel",
     bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczPSXKUimzYZZiF9OlQIdyfWREc2w63v9wTnBChzinXsEGcF8tsbMS1yoVGc-9vLaDO_fFhf3bh30thyKapwNJO43rE00J1HR6EX2dHoH1mEJvSM-T0YIHAC-qDb1UTi8Qa0yGHSk0m1Uj8OfK6oDfD-HQ=w1894-h803-s-no-gm?authuser=0",
-    bio: [
-      "Gustave Courbet, né en 1819 à Ornans et mort en 1877 en Suisse, est le chef de file incontesté du réalisme. Personnage provocateur, fier de ses origines franc-comtoises, il a radicalement transformé l'art du XIXe siècle en s'opposant à l'idéalisme romantique et au classicisme académique. Pour lui, la peinture ne devait représenter que des choses réelles et existantes : « Montrez-moi un ange, et j'en peindrai un », disait-il. Son engagement politique, notamment lors de la Commune de Paris, et son tempérament rebelle en ont fait une figure aussi admirée que contestée de la modernité.",
-      "Son genre pictural se définit par une représentation crue et sans concession de la réalité sociale et de la nature. Son style se caractérise par une matière épaisse, souvent travaillée au couteau, donnant à ses toiles une présence physique et tactile presque brutale. Il traite les sujets du quotidien (paysans, ouvriers, enterrements de province) avec le format monumental jusque-là réservé à la peinture d'histoire. En refusant d'embellir ses modèles et en assumant la « laideur » du réel, il a brisé les codes de la bienséance artistique, ouvrant la voie à une peinture centrée sur la vérité du monde matériel.",
-      "L'évolution de son travail montre une maîtrise de plus en plus grande de la force expressive de la peinture. Ses premières œuvres, comme L'Homme blessé, portent encore une trace de mélancolie romantique, mais il bascule vite vers de vastes manifestes réalistes comme Un enterrement à Ornans. Dans la seconde partie de sa carrière, il se consacre intensément au paysage et aux scènes de chasse, où il excelle à rendre la densité de la roche, la profondeur des forêts ou la puissance des vagues. Ses derniers travaux, réalisés en exil en Suisse, conservent une force mélancolique puissante. Son héritage est immense : en affirmant l'autonomie de l'artiste et la primauté du réel, il a ouvert la porte à l'impressionnisme et à toute la peinture moderne."
-    ],
+    bio: `
+      <p><strong>Le chef de file provocateur du Réalisme</strong><br>
+      Gustave Courbet, né en 1819 à Ornans et mort en 1877 en Suisse, est le chef de file incontesté du réalisme. Personnage provocateur, fier de ses origines franc-comtoises, il a radicalement transformé l'art du XIXe siècle en s'opposant à l'idéalisme romantique et au classicisme académique. Pour lui, la peinture ne devait représenter que des choses réelles et existantes : « Montrez-moi un ange, et j'en peindrai un », disait-il. Son engagement politique, notamment lors de la Commune de Paris, et son tempérament rebelle en ont fait une figure aussi admirée que contestée de la modernité.</p>
+      <p><strong>Une réalité crue, une matière épaisse</strong><br>
+      Son genre pictural se définit par une représentation crue et sans concession de la réalité sociale et de la nature. Son style se caractérise par une matière épaisse, souvent travaillée au couteau, donnant à ses toiles une présence physique et tactile presque brutale. Il traite les sujets du quotidien (paysans, ouvriers, enterrements de province) avec le format monumental jusque-là réservé à la peinture d'histoire. En refusant d'embellir ses modèles et en assumant la « laideur » du réel, il a brisé les codes de la bienséance artistique, ouvrant la voie à une peinture centrée sur la vérité du monde matériel.</p>
+      <p><strong>Vers la primauté du réel et l'impressionnisme</strong><br>
+      L'évolution de son travail montre une maîtrise de plus en plus grande de la force expressive de la peinture. Ses premières œuvres, comme L'Homme blessé, portent encore une trace de mélancolie romantique, mais il bascule vite vers de vastes manifestes réalistes comme Un enterrement à Ornans. Dans la seconde partie de sa carrière, il se consacre intensément au paysage et aux scènes de chasse, où il excelle à rendre la densité de la roche, la profondeur des forêts ou la puissance des vagues. Ses derniers travaux, réalisés en exil en Suisse, conservent une force mélancolique puissante. Son héritage est immense : en affirmant l'autonomie de l'artiste et la primauté du réel, il a ouvert la porte à l'impressionnisme et à toute la peinture moderne.</p>
+    `,
     corpus: {
       total: 1100,
       seen: 17,
@@ -8343,11 +8349,14 @@ window.ARTISTS_REGISTRY = {
     nationality: "Allemand (Kronach, Franconie / Wittenberg, Saxe)",
     techniques: "Huile et détrempe sur panneau de bois (tilleul/hêtre), gravure sur bois, précision calligraphique, marque d'atelier au serpent ailé (dragon)",
     bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczN9DQw58rgBR2SC3t6dO0DFp1wlOhsDaL1KRnPv30UZd5mMk4LJwIiLVnoPwcj-t_6m-qBB_C2FcJHTAXQrIOZibMfcBOZVoKUvxFCAsOYzaZTLyuVOLn7poAS2c1hbhw2JBkFLREMoc4auy454Ssyh2A=w1894-h803-s-no-gm?authuser=0",
-    bio: [
-      "Lucas Cranach l’Ancien, né en 1472 en Franconie et mort en 1553 à Weimar, est l'un des piliers de la Renaissance allemande. Peintre de cour des électeurs de Saxe à Wittenberg pendant près de cinquante ans, il fut un ami intime de Martin Luther et le principal architecte visuel de la Réforme protestante. Entrepreneur brillant, il dirigeait un atelier immense et productif, tout en exerçant des fonctions politiques comme bourgmestre. Sa position unique lui a permis de naviguer entre les commandes religieuses luthériennes, les portraits princiers et les scènes mythologiques destinées à une élite humaniste.",
-      "Son genre pictural se distingue par une esthétique originale qui rompt avec les canons de beauté de la Renaissance italienne. Cranach a inventé un type de nu féminin particulièrement reconnaissable : des silhouettes sveltes, aux courbes sinueuses et allongées, souvent parées de bijoux ou de chapeaux extravagants qui accentuent leur érotisme. Son style se caractérise par une précision graphique héritée de la gravure, des fonds souvent sombres qui font ressortir la pâleur des chairs, et un sens du détail décoratif poussé à l'extrême. Ses portraits sont d'une grande fidélité psychologique, capturant la rudesse et la dignité des figures clés de son époque.",
-      "L'évolution de son style marque un passage d'un expressionnisme tourmenté vers un maniérisme élégant et presque calligraphique. À ses débuts à Vienne, ses paysages étaient sauvages et ses compositions dynamiques, proches de l'école du Danube. Une fois installé à Wittenberg, son art s'est stabilisé pour devenir plus efficace et stylisé, répondant aux besoins de production de son atelier. Vers la fin de sa vie, ses compositions se sont simplifiées pour servir la clarté didactique des thèmes protestants, comme le contraste entre la Loi et la Grâce. Il laisse derrière lui une imagerie puissante qui a su concilier la nouvelle foi chrétienne et un imaginaire profane sophistiqué."
-    ],
+    bio: `
+      <p><strong>Peintre de cour des électeurs de Saxe et de la Réforme</strong><br>
+      Lucas Cranach l’Ancien, né en 1472 en Franconie et mort en 1553 à Weimar, est l'un des piliers de la Renaissance allemande. Peintre de cour des électeurs de Saxe à Wittenberg pendant près de cinquante ans, il fut un ami intime de Martin Luther et le principal architecte visuel de la Réforme protestante. Entrepreneur brillant, il dirigeait un atelier immense et productif, tout en exerçant des fonctions politiques comme bourgmestre. Sa position unique lui a permis de naviguer entre les commandes religieuses luthériennes, les portraits princiers et les scènes mythologiques destinées à une élite humaniste.</p>
+      <p><strong>Un idéal féminin inédit et des portraits d'une rare fidélité</strong><br>
+      Son genre pictural se distingue par une esthétique originale qui rompt avec les canons de beauté de la Renaissance italienne. Cranach a inventé un type de nu féminin particulièrement reconnaissable : des silhouettes sveltes, aux courbes sinueuses et allongées, souvent parées de bijoux ou de chapeaux extravagants qui accentuent leur érotisme. Son style se caractérise par une précision graphique héritée de la gravure, des fonds souvent sombres qui font ressortir la pâleur des chairs, et un sens du détail décoratif poussé à l'extrême. Ses portraits sont d'une grande fidélité psychologique, capturant la rudesse et la dignité des figures clés de son époque.</p>
+      <p><strong>De l'expressionnisme tourmenté au maniérisme élégant</strong><br>
+      L'évolution de son style marque un passage d'un expressionnisme tourmenté vers un maniérisme élégant et presque calligraphique. À ses débuts à Vienne, ses paysages étaient sauvages et ses compositions dynamiques, proches de l'école du Danube. Une fois installé à Wittenberg, son art s'est stabilisé pour devenir plus efficace et stylisé, répondant aux besoins de production de son atelier. Vers la fin de sa vie, ses compositions se sont simplifiées pour servir la clarté didactique des thèmes protestants, comme le contraste entre la Loi et la Grâce. Il laisse derrière lui une imagerie puissante qui a su concilier la nouvelle foi chrétienne et un imaginaire profane sophistiqué.</p>
+    `,
     corpus: {
       total: 450,
       seen: 6,
@@ -8537,11 +8546,14 @@ window.ARTISTS_REGISTRY = {
     nationality: "Italien (Florence)",
     techniques: "Détrempe et or sur panneau de bois, fonds d'or poinçonnés, triptyques portatifs dévotionnels, sfumato précoce et miniaturisme décoratif",
     bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczMdJOz44t4O5o9uqiVjFln10Jf33qA9a_2t-VwJ-O_oLis0t7XtR4jN38MvmYf3jwhV94kXSkoW_HgM89aX4zyWHSV3Z7yURqxyVflp-iBxajXvcOX72msE69jtQonxVmG0Eg5ltanL_jYG2wM_8a6ACw=w1894-h803-s-no-gm?authuser=0",
-    bio: [
-      "Bernardo Daddi (v. 1290 – 1348) est l'un des peintres les plus influents de Florence durant la première moitié du XIVe siècle. Probablement formé dans l'atelier de Giotto, il s'impose comme le chef de file de la génération suivant celle du maître. Son art marque une transition majeure : tout en conservant le sens de la masse et du volume propre au naturalisme giottesque, Daddi y injecte une grâce inédite.",
-      "Son genre pictural se caractérise par une fusion entre la monumentalité florentine et le lyrisme de l'école siennoise (Pietro Lorenzetti). Il est particulièrement célèbre pour avoir popularisé les petits retables portatifs et les triptyques domestiques, destinés à la dévotion privée de la bourgeoisie montante.",
-      "L'évolution de son style montre un passage d'une certaine rigueur archaïque (fresques de la chapelle Pulci à Santa Croce) vers un raffinement extrême. Au fil de sa maturité, ses compositions deviennent plus élégantes, privilégiant des lignes sinueuses, des couleurs précieuses et une attention quasi miniaturiste aux détails, comme en témoigne son chef-d'œuvre pour l'église d'Orsanmichele. Il s'éteint en 1348, probablement victime de la Grande Peste."
-    ],
+    bio: `
+      <p><strong>Un héritier de Giotto au cœur du Trecento florentin</strong><br>
+      Bernardo Daddi (v. 1290 – 1348) est l'un des peintres les plus influents de Florence durant la première moitié du XIVe siècle. Probablement formé dans l'atelier de Giotto, il s'impose comme le chef de file de la génération suivant celle du maître. Son art marque une transition majeure : tout en conservant le sens de la masse et du volume propre au naturalisme giottesque, Daddi y injecte une grâce inédite.</p>
+      <p><strong>Monumentalité florentine et lyrisme siennois</strong><br>
+      Son genre pictural se caractérise par une fusion entre la monumentalité florentine et le lyrisme de l'école siennoise (Pietro Lorenzetti). Il est particulièrement célèbre pour avoir popularisé les petits retables portatifs et les triptyques domestiques, destinés à la dévotion privée de la bourgeoisie montante.</p>
+      <p><strong>De la rigueur archaïque au raffinement extrême</strong><br>
+      L'évolution de son style montre un passage d'une certaine rigueur archaïque (fresques de la chapelle Pulci à Santa Croce) vers un raffinement extrême. Au fil de sa maturité, ses compositions deviennent plus élégantes, privilégiant des lignes sinueuses, des couleurs précieuses et une attention quasi miniaturiste aux détails, comme en témoigne son chef-d'œuvre pour l'église d'Orsanmichele. Il s'éteint en 1348, probablement victime de la Grande Peste.</p>
+    `,
     corpus: {
       total: 100,
       seen: 3,
@@ -8696,11 +8708,14 @@ window.ARTISTS_REGISTRY = {
     nationality: "Espagnol (Figueras, Catalogne)",
     techniques: "Huile sur toile, méthode paranoïaque-critique, dessin hyperréaliste, lévitation atomique, stéréoscopie, trompe-l'œil et images doubles",
     bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczOKhbCMeb5lCvgIr1leULgeX79rPHMD0NCXMg-j7XOsomI454ez5ySu2puDJiKsZ80Txy6YDNjU_ePWjrNomP7zE3MaRKohvm43YMj-k-WuyPlIf-FsWoppRIQY9_YHpxYiDguGo8mceNFyQSGs4EmM8A=w1894-h803-s-no-gm?authuser=0",
-    bio: [
-      "Salvador Dalí (1904 – 1989), artiste catalan de génie, est la figure la plus célèbre et la plus provocatrice du Surréalisme. Personnalité excentrique au narcissisme savamment mis en scène, il a marqué l'histoire de l'art par sa virtuosité technique exceptionnelle, mise au service de l'exploration de l'inconscient, des rêves et des obsessions les plus profondes de l'esprit humain.",
-      "Son genre pictural est défini par ce qu'il appelait la méthode paranoïaque-critique : un procédé consistant à accéder à des visions irrationnelles et délirantes pour les retranscrire avec une précision photographique. Son style se caractérise par une technique académique digne des maîtres de la Renaissance, qu'il utilise pour créer des images d'un « onirisme concret » où les objets se déforment (montres molles), les corps s'ouvrent par des tiroirs et les paysages de sa Catalogne natale se transforment en décors métaphysiques.",
-      "L'évolution de son style montre une trajectoire allant de la rébellion surréaliste vers un mysticisme classique : la période surréaliste (1929 – 1939) avec des chefs-d'œuvre iconiques explorant la sexualité, la mort et les images doubles ; la période « classique » et atomique d'après-guerre où il s'intéresse aux découvertes de la physique nucléaire et revient à la foi catholique avec des compositions monumentales d'une complexité mathématique extrême ; enfin l'ère médiatique et holographique de sa maturité où il multiplie les expérimentations (stéréoscopie, hologrammes, bijoux) et devient une figure planétaire de la culture visuelle."
-    ],
+    bio: `
+      <p><strong>La figure la plus provocatrice du Surréalisme</strong><br>
+      Salvador Dalí (1904 – 1989), artiste catalan de génie, est la figure la plus célèbre et la plus provocatrice du Surréalisme. Personnalité excentrique au narcissisme savamment mis en scène, il a marqué l'histoire de l'art par sa virtuosité technique exceptionnelle, mise au service de l'exploration de l'inconscient, des rêves et des obsessions les plus profondes de l'esprit humain.</p>
+      <p><strong>La méthode paranoïaque-critique</strong><br>
+      Son genre pictural est défini par ce qu'il appelait la méthode paranoïaque-critique : un procédé consistant à accéder à des visions irrationnelles et délirantes pour les retranscrire avec une précision photographique. Son style se caractérise par une technique académique digne des maîtres de la Renaissance, qu'il utilise pour créer des images d'un « onirisme concret » où les objets se déforment (montres molles), les corps s'ouvrent par des tiroirs et les paysages de sa Catalogne natale se transforment en décors métaphysiques.</p>
+      <p><strong>De la rébellion surréaliste au mysticisme classique</strong><br>
+      L'évolution de son style montre une trajectoire allant de la rébellion surréaliste vers un mysticisme classique : la période surréaliste (1929 – 1939) avec des chefs-d'œuvre iconiques explorant la sexualité, la mort et les images doubles ; la période « classique » et atomique d'après-guerre où il s'intéresse aux découvertes de la physique nucléaire et revient à la foi catholique avec des compositions monumentales d'une complexité mathématique extrême ; enfin l'ère médiatique et holographique de sa maturité où il multiplie les expérimentations (stéréoscopie, hologrammes, bijoux) et devient une figure planétaire de la culture visuelle.</p>
+    `,
     corpus: {
       total: 1000,
       seen: 40,
@@ -8935,11 +8950,14 @@ window.ARTISTS_REGISTRY = {
     nationality: "Français (Marseille / Paris)",
     techniques: "Huile sur toile et panneau, modelé sculptural au trait noir, lithographie satirique, clair-obscur dramatique rembranesque, touche enlevée pré-impressionniste",
     bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczMu4eBaQXhKXtx2D22U-sXQ2hec17VqkX2VR8_PLHYc2XsyBpZbDDHmfp6jx1YOdOGRbVSkIRFPLOWczqfJZGOD2CXA8lmfdtVwpGtfhmpg1_7VKrh6c7qIHiKgun9H2D1AmjBfpHmsPVuMJ_iV7NoTVQ=w1942-h824-s-no-gm?authuser=0",
-    bio: [
-      "Honoré Daumier (1808 – 1879) est l'un des observateurs les plus lucides de la société française du XIXe siècle. Surnommé le « Michel-Ange de la caricature », il a mené une double carrière : célèbre de son vivant pour ses milliers de lithographies satiriques dénonçant les travers du pouvoir et de la bourgeoisie, il est resté un peintre secret, dont l'œuvre sur toile n'a été véritablement reconnue qu'après sa mort.",
-      "Son genre pictural s'inscrit dans un réalisme expressif teinté de romantisme. À l'opposé du détail minutieux, Daumier privilégie la force du trait et le modelé sculptural. Il s'intéresse particulièrement aux types humains et à la vie urbaine parisienne : les avocats aux plaidoiries théâtrales, les passagers des wagons de troisième classe ou les saltimbanques. Son art ne cherche pas à plaire mais à révéler une vérité psychologique et sociale souvent amère.",
-      "L'évolution de son style montre une libération constante de la forme : la puissance du dessin de ses débuts structurée par des cernes noirs marqués ; le clair-obscur dramatique dense et sculpté sous l'influence de Rembrandt accentuant la fatigue et la solitude de ses personnages ; enfin la modernité pré-impressionniste de sa maturité où la touche enlevée et les visages simplifiés en masques de lumière ouvrent la voie à Van Gogh et Rouault."
-    ],
+    bio: `
+      <p><strong>Le « Michel-Ange de la caricature »</strong><br>
+      Honoré Daumier (1808 – 1879) est l'un des observateurs les plus lucides de la société française du XIXe siècle. Surnommé le « Michel-Ange de la caricature », il a mené une double carrière : célèbre de son vivant pour ses milliers de lithographies satiriques dénonçant les travers du pouvoir et de la bourgeoisie, il est resté un peintre secret, dont l'œuvre sur toile n'a été véritablement reconnue qu'après sa mort.</p>
+      <p><strong>Un réalisme expressif teinté de romantisme</strong><br>
+      Son genre pictural s'inscrit dans un réalisme expressif teinté de romantisme. À l'opposé du détail minutieux, Daumier privilégie la force du trait et le modelé sculptural. Il s'intéresse particulièrement aux types humains et à la vie urbaine parisienne : les avocats aux plaidoiries théâtrales, les passagers des wagons de troisième classe ou les saltimbanques. Son art ne cherche pas à plaire mais à révéler une vérité psychologique et sociale souvent amère.</p>
+      <p><strong>Un peintre secret reconnu après sa mort</strong><br>
+      L'évolution de son style montre une libération constante de la forme : la puissance du dessin de ses débuts structurée par des cernes noirs marqués ; le clair-obscur dramatique dense et sculpté sous l'influence de Rembrandt accentuant la fatigue et la solitude de ses personnages ; enfin la modernité pré-impressionniste de sa maturité où la touche enlevée et les visages simplifiés en masques de lumière ouvrent la voie à Van Gogh et Rouault.</p>
+    `,
     corpus: {
       total: 300,
       seen: 1,
@@ -9088,11 +9106,14 @@ window.ARTISTS_REGISTRY = {
     nationality: "Français (Paris / Bruxelles)",
     techniques: "Huile sur toile, composition géométrique sculpturale, dessin ferme à l'antique, lumière théâtrale latérale, bas-reliefs spatiaux, idéalisation héroïque stoïque",
     bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczNaDca0nZX9owq5ElehQ9qKQlinCJu-jw-0TRtt2q6zu0QKOmV4WgFuRUiJmJfqr1-360fVz1gEfy7rp5GRwuBhgtgPiPCuQy56iGottlR_di-rxooVYyV51Khg08lJBMaqb6OlqEKZdPGu2Vg21H_oug=w1942-h824-s-no-gm?authuser=0",
-    bio: [
-      "Jacques-Louis David, né en 1748 à Paris et mort en 1825 à Bruxelles, est le maître incontesté du néoclassicisme. Véritable « dictateur des arts » durant la Révolution française, il a opéré une rupture radicale avec la légèreté du style rococo pour restaurer la grandeur de l'Antiquité. Artiste engagé et protéiforme, il fut successivement le peintre du Roi, le député régicide de la Convention, l'ordonnateur des fêtes révolutionnaires, puis le premier peintre de Napoléon Ier. Son œuvre n'est pas seulement esthétique, elle est un outil politique et moral destiné à régénérer la société par l'image de la vertu.",
-      "Son genre pictural est celui de la peinture d'histoire, qu'il porte à un degré de rigueur et de clarté jamais atteint. Son style se caractérise par une composition sculpturale, un dessin précis et ferme, et une lumière froide qui souligne la théâtralité des scènes. Il rejette la touche visible et les couleurs chatoyantes pour privilégier des formes nettes et une organisation spatiale souvent frontale, rappelant les bas-reliefs romains. Chaque détail, chaque geste héroïque est conçu pour frapper l'esprit du spectateur et transmettre un message de courage, de sacrifice ou de puissance.",
-      "L'évolution de son travail suit les soubresauts de l'histoire de France. À ses débuts, avec Le Serment des Horaces, il impose un idéal de vertu civique austère. Sous la Révolution, il immortalise les martyrs contemporains avec un réalisme saisissant, comme dans son célèbre Marat assassiné. L'ère impériale marque un tournant vers une plus grande magnificence et un faste décoratif, illustrés par le gigantisme du Sacre de Napoléon. Enfin, durant son exil à Bruxelles après la chute de l'Empire, son style s'adoucit, se tournant vers des sujets mythologiques plus gracieux et des portraits d'une finesse psychologique remarquable. Il laisse derrière lui une école qui dominera l'Europe pendant un demi-siècle, avec des élèves prestigieux comme Ingres et Gros."
-    ],
+    bio: `
+      <p><strong>Le maître du Néoclassicisme et de la peinture d'histoire</strong><br>
+      Jacques-Louis David, né en 1748 à Paris et mort en 1825 à Bruxelles, est le maître incontesté du néoclassicisme. Véritable « dictateur des arts » durant la Révolution française, il a opéré une rupture radicale avec la légèreté du style rococo pour restaurer la grandeur de l'Antiquité. Artiste engagé et protéiforme, il fut successivement le peintre du Roi, le député régicide de la Convention, l'ordonnateur des fêtes révolutionnaires, puis le premier peintre de Napoléon Ier. Son œuvre n'est pas seulement esthétique, elle est un outil politique et moral destiné à régénérer la société par l'image de la vertu.</p>
+      <p><strong>La rigueur antique au service de la vertu civique</strong><br>
+      Son genre pictural est celui de la peinture d'histoire, qu'il porte à un degré de rigueur et de clarté jamais atteint. Son style se caractérise par une composition sculpturale, un dessin précis et ferme, et une lumière froide qui souligne la théâtralité des scènes. Il rejette la touche visible et les couleurs chatoyantes pour privilégier des formes nettes et une organisation spatiale souvent frontale, rappelant les bas-reliefs romains. Chaque détail, chaque geste héroïque est conçu pour frapper l'esprit du spectateur et transmettre un message de courage, de sacrifice ou de puissance.</p>
+      <p><strong>De la Révolution à l'Empire, puis à l'exil</strong><br>
+      L'évolution de son travail suit les soubresauts de l'histoire de France. À ses débuts, avec Le Serment des Horaces, il impose un idéal de vertu civique austère. Sous la Révolution, il immortalise les martyrs contemporains avec un réalisme saisissant, comme dans son célèbre Marat assassiné. L'ère impériale marque un tournant vers une plus grande magnificence et un faste décoratif, illustrés par le gigantisme du Sacre de Napoléon. Enfin, durant son exil à Bruxelles après la chute de l'Empire, son style s'adoucit, se tournant vers des sujets mythologiques plus gracieux et des portraits d'une finesse psychologique remarquable. Il laisse derrière lui une école qui dominera l'Europe pendant un demi-siècle, avec des élèves prestigieux comme Ingres et Gros.</p>
+    `,
     corpus: {
       total: 130,
       seen: 19,
@@ -9291,11 +9312,14 @@ window.ARTISTS_REGISTRY = {
     nationality: "Français (né à Bruxelles / naturalisé en 1637)",
     techniques: "Huile sur toile, rigueur géométrique classique, vérité morale du modèle, précision tactile flamande, accords froids (pourpres, bleus de lapis, gris austères), drapés solennels",
     bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczMLSuXY_xf3Xvt0QgWfbRMuSc3ieMchvGVkd7NV35IlvuF25yx0K2oMMeCYNu5BTdL5thBHdq47-d0VPxKQnqC9mfxI-eAOXRowmc_i_71sv0pysT0hYEe1gcq3mk7jxi0ZWlBEaO_c0N46JUUHve1Ddw=w1942-h824-s-no-gm?authuser=0",
-    bio: [
-      "Philippe de Champaigne (1602 – 1674) est l'une des figures les plus importantes du classicisme français du XVIIe siècle. Né à Bruxelles mais naturalisé français, il fut le peintre favori de Marie de Médicis et du Cardinal de Richelieu avant de devenir le peintre attitré de l'abbaye de Port-Royal, centre du jansénisme, dont l'austérité spirituelle a profondément marqué son œuvre de maturité.",
-      "Son genre pictural se définit par un réalisme solennel et une grande clarté de composition. Champaigne rejette les artifices et les tourbillons baroques pour privilégier la mesure, l'ordre et une analyse psychologique pénétrante. Son style se caractérise par une précision quasi flamande dans le rendu des matières (soieries, dentelles, pierres), alliée à une rigueur monumentale. Ses portraits, d'une grande sobriété, cherchent à exprimer la vérité morale du modèle plutôt que la flatterie.",
-      "L'évolution de son style s'organise en trois grandes phases : les débuts parisiens marqués par les commandes officielles et le faste pour la régente et Richelieu ; la période médiane où son art se décante vers une monumentalité épurée ; et enfin la période janséniste (à partir des années 1640), où sa conversion spirituelle donne naissance à des chefs-d'œuvre de dépouillement mystique, comme le célèbre Ex-voto de 1662, tableau d'action de grâce pour la guérison miraculeuse de sa fille religieuse."
-    ],
+    bio: `
+      <p><strong>Le grand portraitiste du Classicisme français</strong><br>
+      Philippe de Champaigne (1602 – 1674) est l'une des figures les plus importantes du classicisme français du XVIIe siècle. Né à Bruxelles mais naturalisé français, il fut le peintre favori de Marie de Médicis et du Cardinal de Richelieu avant de devenir le peintre attitré de l'abbaye de Port-Royal, centre du jansénisme, dont l'austérité spirituelle a profondément marqué son œuvre de maturité.</p>
+      <p><strong>Rigueur, sobriété et peinture d'âme</strong><br>
+      Son genre pictural se définit par un réalisme solennel et une grande clarté de composition. Champaigne rejette les artifices et les tourbillons baroques pour privilégier la mesure, l'ordre et une analyse psychologique pénétrante. Son style se caractérise par une précision quasi flamande dans le rendu des matières (soieries, dentelles, pierres), alliée à une rigueur monumentale. Ses portraits, d'une grande sobriété, cherchent à exprimer la vérité morale du modèle plutôt que la flatterie.</p>
+      <p><strong>De la cour de Louis XIII à Port-Royal</strong><br>
+      L'évolution de son style s'organise en trois grandes phases : les débuts parisiens marqués par les commandes officielles et le faste pour la régente et Richelieu ; la période médiane où son art se décante vers une monumentalité épurée ; et enfin la période janséniste (à partir des années 1640), où sa conversion spirituelle donne naissance à des chefs-d'œuvre de dépouillement mystique, comme le célèbre Ex-voto de 1662, tableau d'action de grâce pour la guérison miraculeuse de sa fille religieuse.</p>
+    `,
     corpus: {
       total: 424,
       seen: 18,
@@ -9492,11 +9516,14 @@ window.ARTISTS_REGISTRY = {
     nationality: "Italien (né à Volos, Grèce / mort à Rome)",
     techniques: "Huile sur toile, perspective fuyante accélérée et inversée, ombres portées étirées, lumières crépusculaires froides, mannequins aveugles d'atelier, architecture d'arcades néo-classiques, architectures marines encastrées",
     bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczNVLKjlQbou4H1D5tSIrxTm2kwH6QZbG_nZpWXF2nUno-XCf9OqaifRkQOUqQxRA8yzKP0dNuw_EeNc8U0SMsNp3elZBNSzb-Z1iPh9hEbz6BM08nWIC9QM0mQZ7tNyQW-4t0RKTITvocZPt-3fYkbIAQ=w1942-h824-s-no-gm?authuser=0",
-    bio: [
-      "Giorgio de Chirico (1888 – 1978), peintre et écrivain italien né en Grèce, est le fondateur de la peinture métaphysique (Pittura metafisica), l'un des mouvements les plus singuliers et influents de l'avant-garde du début du XXe siècle. En créant des paysages urbains déserts d'une mélancolie poignante, où le temps semble suspendu, il a exercé une fascination immédiate sur les futurs surréalistes — André Breton, René Magritte, Salvador Dalí et Max Ernst le tenant pour un précurseur visionnaire.",
-      "Son genre pictural se caractérise par des perspectives fuyantes vertigineuses, des arcades silencieuses baignées d'une lumière crépusculaire ou immobile, et la juxtaposition incongrue d'objets : statues antiques délaissées, horloges figées, trains au lointain et mannequins sans visage d'une théâtralité énigmatique. Influencé par la philosophie de Nietzsche et de Schopenhauer, de Chirico cherche à révéler la « non-sensibilité » des choses, le mystère caché derrière l'apparente banalité du réel.",
-      "L'évolution de son œuvre est complexe et volontairement provocatrice : après la période métaphysique fondatrice (1910-1918) à Florence, Paris et Ferrare, il opère un « retour à l'ordre » dès 1919 avec son essai Le Retour au métier, prônant la technique des maîtres de la Renaissance (Raphaël, Titien). Dans les années 1920 et 1930, il explore les thèmes des gladiateurs, des chevaux antiques et des natures mortes théâtrales, avant de revisiter de manière auto-référentielle ses propres icônes métaphysiques dans sa maturité néo-métaphysique."
-    ],
+    bio: `
+      <p><strong>Le fondateur de la peinture métaphysique</strong><br>
+      Giorgio de Chirico (1888 – 1978), peintre et écrivain italien né en Grèce, est le fondateur de la peinture métaphysique (Pittura metafisica), l'un des mouvements les plus singuliers et influents de l'avant-garde du début du XXe siècle. En créant des paysages urbains déserts d'une mélancolie poignante, où le temps semble suspendu, il a exercé une fascination immédiate sur les futurs surréalistes — André Breton, René Magritte, Salvador Dalí et Max Ernst le tenant pour un précurseur visionnaire.</p>
+      <p><strong>Places désertes, ombres longues et mannequins</strong><br>
+      Son genre pictural se caractérise par des perspectives fuyantes vertigineuses, des arcades silencieuses baignées d'une lumière crépusculaire ou immobile, et la juxtaposition incongrue d'objets : statues antiques délaissées, horloges figées, trains au lointain et mannequins sans visage d'une théâtralité énigmatique. Influencé par la philosophie de Nietzsche et de Schopenhauer, de Chirico cherche à révéler la « non-sensibilité » des choses, le mystère caché derrière l'apparente banalité du réel.</p>
+      <p><strong>De l'énigme métaphysique au retour à la tradition</strong><br>
+      L'évolution de son œuvre est complexe et volontairement provocatrice : après la période métaphysique fondatrice (1910-1918) à Florence, Paris et Ferrare, il opère un « retour à l'ordre » dès 1919 avec son essai Le Retour au métier, prônant la technique des maîtres de la Renaissance (Raphaël, Titien). Dans les années 1920 et 1930, il explore les thèmes des gladiateurs, des chevaux antiques et des natures mortes théâtrales, avant de revisiter de manière auto-référentielle ses propres icônes métaphysiques dans sa maturité néo-métaphysique.</p>
+    `,
     corpus: {
       total: 4500,
       seen: 2,
@@ -9665,11 +9692,14 @@ window.ARTISTS_REGISTRY = {
     nationality: "Français (Paris)",
     techniques: "Huile sur toile, pastel sec et rehaussé, monotype, cire et bronze, cadrages asymétriques décentrés, raccourcis photographiques, vue plongeante, fascination pour la lumière artificielle de la scène",
     bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczNu6Suqx9Plbgv2DK452HEMUhFIDLLMbYQQGOcZGKwTktPqbauI-FASaVG0YW4Kfj1-INeqNh1UWr3T10W0ofOj6yB6JITEW7WSF5GIs8qbBH6Y4AylUSrCZrGE7Lv2QenJUwpL_ZPhyIbiGOTjmUXqnw=w1942-h824-s-no-gm?authuser=0",
-    bio: [
-      "Edgar Degas (1834 – 1917) est une figure majeure de l'art moderne, associé au groupe des Impressionnistes bien qu'il s'en soit souvent distingué par son refus de la peinture sur le motif. Issu d'une famille bourgeoise cultivée, il reçoit une formation classique rigoureuse qu'il mettra au service d'une vision radicalement nouvelle de la vie urbaine parisienne.",
-      "Son genre pictural se définit par une obsession pour le mouvement et l'instantanéité. Contrairement à Monet, Degas s'intéresse moins à la lumière naturelle qu'à la structure des corps et aux éclairages artificiels. Ses sujets de prédilection — les coulisses de l'Opéra, les champs de courses, les blanchisseuses ou l'intimité de la toilette — lui permettent d'explorer des cadrages audacieux et décentrés, fortement influencés par la photographie naissante et les estampes japonaises.",
-      "L'évolution de son style marque un passage de la rigueur académique vers une liberté formelle totale : la période classique des débuts marquée par des portraits d'une grande finesse et des peintures d'histoire témoignant de son admiration pour Ingres ; l'expérimentation impressionniste où il délaisse les sujets historiques pour la vie moderne avec un dessin nerveux et des compositions asymétriques capturant l'éphémère d'un geste ; enfin le triomphe du pastel et de la sculpture à la fin de sa vie lorsque sa vue décline, libérant une touche plus large et des couleurs vibrantes presque fauves."
-    ],
+    bio: `
+      <p><strong>L'observateur moderne de la vie parisienne</strong><br>
+      Edgar Degas (1834 – 1917) est une figure majeure de l'art moderne, associé au groupe des Impressionnistes bien qu'il s'en soit souvent distingué par son refus de la peinture sur le motif. Issu d'une famille bourgeoise cultivée, il reçoit une formation classique rigoureuse qu'il mettra au service d'une vision radicalement nouvelle de la vie urbaine parisienne.</p>
+      <p><strong>Le dessin, le cadrage inattendu et le mouvement</strong><br>
+      Son genre pictural se définit par une obsession pour le mouvement et l'instantanéité. Contrairement à Monet, Degas s'intéresse moins à la lumière naturelle qu'à la structure des corps et aux éclairages artificiels. Ses sujets de prédilection — les coulisses de l'Opéra, les champs de courses, les blanchisseuses ou l'intimité de la toilette — lui permettent d'explorer des cadrages audacieux et décentrés, fortement influencés par la photographie naissante et les estampes japonaises.</p>
+      <p><strong>De la peinture d'histoire aux danseuses et aux pastels</strong><br>
+      L'évolution de son style marque un passage de la rigueur académique vers une liberté formelle totale : la période classique des débuts marquée par des portraits d'une grande finesse et des peintures d'histoire témoignant de son admiration pour Ingres ; l'expérimentation impressionniste où il délaisse les sujets historiques pour la vie moderne avec un dessin nerveux et des compositions asymétriques capturant l'éphémère d'un geste ; enfin le triomphe du pastel et de la sculpture à la fin de sa vie lorsque sa vue décline, libérant une touche plus large et des couleurs vibrantes presque fauves.</p>
+    `,
     corpus: {
       total: 1600,
       seen: 3,
@@ -9824,11 +9854,14 @@ window.ARTISTS_REGISTRY = {
     nationality: "Hollandais (Rotterdam / Delft / Amsterdam)",
     techniques: "Huile sur toile, maîtrise absolue de la perspective géométrique, effet de doorkijkje (vue à travers les portes et fenêtres), lumière dorée cristalline, textures tactiles (briques hollandaises, pavements de marbre, cuirs dorés de Cordoue), poétique du silence domestique",
     bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczN5g5iED25Rl7JP9GYvPXVW0M5amtYHtFsWeXquVevkOPD-SGkRoF_FoHMYT6Q_2mw2z0BMJPGVuKvMP6WGnQPp4zd-qMHlXn32-jEs8CbV69BbhsDprBqN_hZgth4cSU-nf1WWkf6uG6AOx9kpBK3b4Q=w1942-h824-s-no-gm?authuser=0",
-    bio: [
-      "Pieter de Hooch (1629 – 1684) est, avec Vermeer, le plus grand maître de la peinture de genre néerlandaise du XVIIe siècle. Spécialiste des scènes d'intérieur et des vues de cours domestiques, il a immortalisé la tranquillité et la vertu de la vie bourgeoise à Delft, créant des œuvres où la lumière et l'architecture jouent un rôle aussi crucial que les personnages.",
-      "Son genre pictural se définit par l'intimisme et la maîtrise de la perspective. De Hooch est célèbre pour ses effets de « doorkijkje » (vue à travers), où une porte ou une fenêtre ouverte laisse entrevoir une autre pièce, une cour ou une rue, créant une profondeur spatiale complexe. Son style se caractérise par une lumière chaude et naturelle, un rendu minutieux des textures (briques, carrelages, étoffes) et une atmosphère de sérénité domestique presque sacrée.",
-      "L'évolution de son style marque un passage de la simplicité rustique vers un luxe de plus en plus sophistiqué : la période des corps de garde à ses débuts (tavernes et soldats dans des tons bruns sombres) ; l'apogée de Delft (1655 – 1660), sa période la plus admirée où il développe des intérieurs baignés d'une lumière dorée, des cours calmes et des scènes de maternité influençant le jeune Vermeer ; enfin la période d'Amsterdam (après 1661) où son style s'adapte à une clientèle patricienne richissime avec de vastes intérieurs aux sols de marbre et tentures de cuir doré."
-    ],
+    bio: `
+      <p><strong>Le poète des intérieurs du Siècle d'Or</strong><br>
+      Pieter de Hooch (1629 – 1684) est, avec Vermeer, le plus grand maître de la peinture de genre néerlandaise du XVIIe siècle. Spécialiste des scènes d'intérieur et des vues de cours domestiques, il a immortalisé la tranquillité et la vertu de la vie bourgeoise à Delft, créant des œuvres où la lumière et l'architecture jouent un rôle aussi crucial que les personnages.</p>
+      <p><strong>Perspective, lumière et vie domestique</strong><br>
+      Son genre pictural se définit par l'intimisme et la maîtrise de la perspective. De Hooch est célèbre pour ses effets de « doorkijkje » (vue à travers), où une porte ou une fenêtre ouverte laisse entrevoir une autre pièce, une cour ou une rue, créant une profondeur spatiale complexe. Son style se caractérise par une lumière chaude et naturelle, un rendu minutieux des textures (briques, carrelages, étoffes) et une atmosphère de sérénité domestique presque sacrée.</p>
+      <p><strong>De Delft à Amsterdam : l'évolution d'une manière</strong><br>
+      L'évolution de son style marque un passage de la simplicité rustique vers un luxe de plus en plus sophistiqué : la période des corps de garde à ses débuts (tavernes et soldats dans des tons bruns sombres) ; l'apogée de Delft (1655 – 1660), sa période la plus admirée où il développe des intérieurs baignés d'une lumière dorée, des cours calmes et des scènes de maternité influençant le jeune Vermeer ; enfin la période d'Amsterdam (après 1661) où son style s'adapte à une clientèle patricienne richissime avec de vastes intérieurs aux sols de marbre et tentures de cuir doré.</p>
+    `,
     corpus: {
       total: 165,
       seen: 3,
@@ -9969,11 +10002,14 @@ window.ARTISTS_REGISTRY = {
     nationality: "Français (Charenton-Saint-Maurice / Paris)",
     techniques: "Huile sur toile, touche fougueuse et vibrante, loi du contraste des complémentaires et ombres colorées, compositions en diagonale tourbillonnantes, clair-obscur dramatique, exaltation du mouvement et du Sublime",
     bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczN5l-UHssqjvmWJoXKsQw5JRtQizrcBJioXyrNeaaQXm9NBn-4enXfidu11PftPt7oJFvpqpa2DcIrWRVWOmCDow9DZvJYNYF9_AJ_cN9COrehNtq_i7ozfvTj4M6RT_vIJNTT1M1nsVknScuOQs8RJIQ=w1942-h824-s-no-gm?authuser=0",
-    bio: [
-      "Eugène Delacroix (1798 – 1863) est le chef de file incontesté du Romantisme français. Véritable « génie tourmenté », il s'est opposé toute sa vie à la rigueur d'Ingres en prônant la supériorité de la couleur et de l'émotion sur le dessin pur. Son œuvre, immense et passionnée, a ouvert la voie à l'art moderne en libérant la touche picturale.",
-      "Son genre pictural se définit par le lyrisme chromatique et le mouvement dramatique. Delacroix utilise la couleur non pas pour colorier une forme, mais pour la construire et transmettre une vibration psychologique. Son style se caractérise par des contrastes violents, des compositions en diagonale tourbillonnantes et une fascination pour l'exotisme, la littérature et la lutte entre l'homme et la nature.",
-      "L'évolution de son style marque un passage de la révolte politique vers une quête de lumière orientale et de synthèse classique : la fougue romantique et l'engagement des années 1820 avec des toiles monumentales comme La Barque de Dante, Les Massacres de Scio, La Mort de Sardanapale et La Liberté guidant le peuple ; le choc décisif du voyage au Maroc en 1832 transformant sa palette par la découverte de la lumière crue et des ombres colorées (Femmes d'Alger) ; enfin la maturité monumentale consacrée aux grands décors muraux (Palais Bourbon, église Saint-Sulpice) où la fougue du pinceau féconde une méditation spirituelle annonçant directement l'impressionnisme et Van Gogh."
-    ],
+    bio: `
+      <p><strong>Le chef de file du Romantisme français</strong><br>
+      Eugène Delacroix (1798 – 1863) est le chef de file incontesté du Romantisme français. Véritable « génie tourmenté », il s'est opposé toute sa vie à la rigueur d'Ingres en prônant la supériorité de la couleur et de l'émotion sur le dessin pur. Son œuvre, immense et passionnée, a ouvert la voie à l'art moderne en libérant la touche picturale.</p>
+      <p><strong>La couleur et le mouvement contre la ligne</strong><br>
+      Son genre pictural se définit par le lyrisme chromatique et le mouvement dramatique. Delacroix utilise la couleur non pas pour colorier une forme, mais pour la construire et transmettre une vibration psychologique. Son style se caractérise par des contrastes violents, des compositions en diagonale tourbillonnantes et une fascination pour l'exotisme, la littérature et la lutte entre l'homme et la nature.</p>
+      <p><strong>De la peinture d'histoire aux grands décors</strong><br>
+      L'évolution de son style marque un passage de la révolte politique vers une quête de lumière orientale et de synthèse classique : la fougue romantique et l'engagement des années 1820 avec des toiles monumentales comme La Barque de Dante, Les Massacres de Scio, La Mort de Sardanapale et La Liberté guidant le peuple ; le choc décisif du voyage au Maroc en 1832 transformant sa palette par la découverte de la lumière crue et des ombres colorées (Femmes d'Alger) ; enfin la maturité monumentale consacrée aux grands décors muraux (Palais Bourbon, église Saint-Sulpice) où la fougue du pinceau féconde une méditation spirituelle annonçant directement l'impressionnisme et Van Gogh.</p>
+    `,
     corpus: {
       total: 850,
       seen: 18,
@@ -10219,11 +10255,14 @@ window.ARTISTS_REGISTRY = {
     nationality: "Français (Lorrain / Vic-sur-Seille / Lunéville)",
     techniques: "Huile sur toile, clair-obscur virtuose à la source lumineuse masquée, éclairage intimiste par une unique bougie ou veilleuse à huile, simplification géométrique des volumes, textures soyeuses et rustiques (bure, velours, brocarts d'or), palette chromatique d'ocres, rouges corail et bruns profonds",
     bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczP-N9UbgJu_0Oew1zDaGslR06Tid-O-9Vecf23DuGuqAfI__brBWWXrslBqXaLix9iOVQ-iVHfwkjHTF3Pa9wK00RIVyIX2EGbLPrs-sreax5ADFPplF43BvPaVE6aGqMv3xtaJVKiEZLGG4cbqPhhqJQ=w1901-h806-s-no-gm?authuser=0",
-    bio: [
-      "Georges de La Tour (1593 – 1652) est le représentant le plus célèbre du Caravage français. Redécouvert tardivement au début du XXe siècle, cet artiste lorrain a mené une carrière prospère sous les règnes de Louis XIII et de la monarchie lorraine, devenant l'un des maîtres incontestés de la lumière et du silence dans la peinture occidentale.",
-      "Son genre pictural se définit par un usage magistral du clair-obscur. La Tour est célèbre pour ses compositions nocturnes où l'unique source de lumière — souvent une bougie ou une lampe à huile — sculpte les volumes et crée une atmosphère de recueillement intense. Son style se caractérise par une simplification géométrique des formes, des surfaces lisses et une palette chromatique réduite à des ocres, des rouges profonds et des noirs denses. Il traite les sujets religieux avec un naturalisme si dépouillé qu'ils se confondent souvent avec des scènes de la vie quotidienne.",
-      "L'évolution de son style marque un passage de la précision sociale vers une spiritualité presque abstraite : les scènes « diurnes » de jeunesse (Le Tricheur à l'as de carreau, Le Vielleur) dépeignent des types sociaux aux costumes luxueux ou rustiques avec une précision tactile dans une lumière claire révélant la ruse et le jeu social ; les scènes « nocturnes », sa période la plus emblématique, abandonnent les détails anecdotiques pour des ovales parfaits et des volumes massifs baignés d'une lumière dorée émanant de la flamme ; enfin l'épure finale où les compositions se figent dans un silence absolu et sacré, transformant chaque geste en un rituel universel."
-    ],
+    bio: `
+      <p><strong>Le maître des scènes nocturnes</strong><br>
+      Georges de La Tour (1593 – 1652) est le représentant le plus célèbre du Caravage français. Redécouvert tardivement au début du XXe siècle, cet artiste lorrain a mené une carrière prospère sous les règnes de Louis XIII et de la monarchie lorraine, devenant l'un des maîtres incontestés de la lumière et du silence dans la peinture occidentale.</p>
+      <p><strong>Clair-obscur, silence et dépouillement des formes</strong><br>
+      Son genre pictural se définit par un usage magistral du clair-obscur. La Tour est célèbre pour ses compositions nocturnes où l'unique source de lumière — souvent une bougie ou une lampe à huile — sculpte les volumes et crée une atmosphère de recueillement intense. Son style se caractérise par une simplification géométrique des formes, des surfaces lisses et une palette chromatique réduite à des ocres, des rouges profonds et des noirs denses. Il traite les sujets religieux avec un naturalisme si dépouillé qu'ils se confondent souvent avec des scènes de la vie quotidienne.</p>
+      <p><strong>Du réalisme brutal à la contemplation nocturne</strong><br>
+      L'évolution de son style marque un passage de la précision sociale vers une spiritualité presque abstraite : les scènes « diurnes » de jeunesse (Le Tricheur à l'as de carreau, Le Vielleur) dépeignent des types sociaux aux costumes luxueux ou rustiques avec une précision tactile dans une lumière claire révélant la ruse et le jeu social ; les scènes « nocturnes », sa période la plus emblématique, abandonnent les détails anecdotiques pour des ovales parfaits et des volumes massifs baignés d'une lumière dorée émanant de la flamme ; enfin l'épure finale où les compositions se figent dans un silence absolu et sacré, transformant chaque geste en un rituel universel.</p>
+    `,
     corpus: {
       total: 40,
       seen: 9,
@@ -10390,11 +10429,14 @@ window.ARTISTS_REGISTRY = {
     nationality: "Français (Paris)",
     techniques: "Huile sur toile, encaustique (peinture à la cire), divisionnisme et contraste simultané des couleurs pures, formes circulaires et disques chromatiques rythmés",
     bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczPEhPRv9sur_PeMWBg7pN4JDLFTqeu3-QU426qj8ZvqdTvUSirHLVN3fNXLP1hTSQr95ASN8ZuXR6q0OgpFno2Vxh2_gF4lJxyqKNPr1M1xBWccrIKCe8htZJZv8MatV4lxuJncaiYF48qnefwrOIlqvA=w1901-h806-s-no-gm?authuser=0",
-    bio: [
-      "Robert Delaunay (1885 – 1941) est le créateur, avec son épouse Sonia Delaunay, de l'Orphisme (ou cubisme orphique), un mouvement qui place la couleur et la lumière au centre de la création artistique. Partant du cubisme, il s'en détache pour explorer le pouvoir constructif de la couleur pure, ouvrant ainsi l'une des voies majeures vers l'abstraction totale.",
-      "Son genre pictural se définit par le simultanéisme, basé sur la théorie du contraste simultané des couleurs de Chevreul. Delaunay considère que la couleur est une forme d'énergie capable de créer du mouvement sans avoir recours à la figuration. Son style se caractérise par des formes circulaires (disques, anneaux) et des facettes colorées qui s'entrechoquent pour générer une vibration lumineuse. Il a fait de la modernité urbaine, et notamment de la Tour Eiffel, son sujet de prédilection.",
-      "L'évolution de son style marque un passage de la déconstruction architecturale vers une abstraction cosmique : la période de jeunesse néo-impressionniste et fauve (1904 – 1908) explorant la vibration de la touche ; la période des Villes et des Tours (1909 – 1912) fragmentant l'architecture parisienne sous l'influence du cubisme dynamique ; les Fenêtres et les Formes circulaires (dès 1912) franchissant le pas vers l'abstraction et le rythme pur des disques ; enfin le retour au monumental (années 1930) célébrant le progrès moderne, l'aviation et l'électricité lors de l'Exposition internationale de 1937."
-    ],
+    bio: `
+      <p><strong>L'inventeur de l'Orphisme</strong><br>
+      Robert Delaunay (1885 – 1941) est le créateur, avec son épouse Sonia Delaunay, de l'Orphisme (ou cubisme orphique), un mouvement qui place la couleur et la lumière au centre de la création artistique. Partant du cubisme, il s'en détache pour explorer le pouvoir constructif de la couleur pure, ouvrant ainsi l'une des voies majeures vers l'abstraction totale.</p>
+      <p><strong>La couleur pure et le contraste simultané</strong><br>
+      Son genre pictural se définit par le simultanéisme, basé sur la théorie du contraste simultané des couleurs de Chevreul. Delaunay considère que la couleur est une forme d'énergie capable de créer du mouvement sans avoir recours à la figuration. Son style se caractérise par des formes circulaires (disques, anneaux) et des facettes colorées qui s'entrechoquent pour générer une vibration lumineuse. Il a fait de la modernité urbaine, et notamment de la Tour Eiffel, son sujet de prédilection.</p>
+      <p><strong>De la Tour Eiffel aux Disques et aux Formes circulaires</strong><br>
+      L'évolution de son style marque un passage de la déconstruction architecturale vers une abstraction cosmique : la période de jeunesse néo-impressionniste et fauve (1904 – 1908) explorant la vibration de la touche ; la période des Villes et des Tours (1909 – 1912) fragmentant l'architecture parisienne sous l'influence du cubisme dynamique ; les Fenêtres et les Formes circulaires (dès 1912) franchissant le pas vers l'abstraction et le rythme pur des disques ; enfin le retour au monumental (années 1930) célébrant le progrès moderne, l'aviation et l'électricité lors de l'Exposition internationale de 1937.</p>
+    `,
     corpus: {
       total: 500,
       seen: 3,
@@ -10544,11 +10586,14 @@ window.ARTISTS_REGISTRY = {
     nationality: "Franco-ukrainienne (Gradizhsk / Paris)",
     techniques: "Huile sur toile, encaustique, gouache, gouache sur papier, contrastes simultanés de couleurs pures, disques et arcs de cercle concentriques, collages, textiles brodés, reliures simultanées, lithographie",
     bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczNwKEc5HR4gR7rJCiWGeJPT7lggZk_LGcZQoh-XS8-YLFIB23yvWcf7YPWsKeO24WZpp1O2EO1U_OJ_YeNZv7ocfl-raS0SA2wnaIgIDl-MvPdzWEGenaGN_lelbsdobZTFlcP3WmtLr-6C8PJ6WqIDdA=w1901-h806-s-no-gm?authuser=0",
-    bio: [
-      "Sonia Delaunay (1885 – 1979) est l'une des pionnières de l'abstraction et la co-créatrice, avec son mari Robert Delaunay, du Simultanéisme. Artiste totale d'origine ukrainienne, elle a aboli les frontières entre les beaux-arts et les arts appliqués. Pour elle, la couleur est un langage autonome, une force dynamique capable de structurer non seulement la toile, mais aussi le vêtement, l'objet et l'espace urbain.",
-      "Son genre pictural se définit par l'abstraction orphique et le design textile. Son style se caractérise par l'utilisation de cercles concentriques, d'arcs de cercle et de formes géométriques pures juxtaposées selon la loi du contraste simultané des couleurs (théorisée par Chevreul). Ce procédé crée une sensation de mouvement et de vibration lumineuse sans recours à la perspective ou au dessin traditionnel.",
-      "L'évolution de son style marque une expansion de la couleur du tableau vers la vie quotidienne : la naissance du Simultanéisme (années 1910) où elle s'éloigne du fauvisme pour explorer la décomposition de la lumière (Prismes électriques) ; l'art dans la vie et la Mode (années 1920-1930) pendant l'exil en Espagne et au Portugal, puis de retour à Paris en appliquant ses recherches chromatiques aux tissus, aux costumes de scène et à la mode (les « robes simultanées ») ; enfin l'abstraction monumentale et les Rythmes (après 1945) où elle poursuit seule une œuvre monumentale aux grands formats où demi-cercles et rectangles de couleurs primaires s'emboîtent dans une danse géométrique d'une grande rigueur formelle."
-    ],
+    bio: `
+      <p><strong>Pionnière de l'abstraction géométrique et du Simultanéisme</strong><br>
+      Sonia Delaunay (1885 – 1979) est l'une des pionnières de l'abstraction et la co-créatrice, avec son mari Robert Delaunay, du Simultanéisme. Artiste totale d'origine ukrainienne, elle a aboli les frontières entre les beaux-arts et les arts appliqués. Pour elle, la couleur est un langage autonome, une force dynamique capable de structurer non seulement la toile, mais aussi le vêtement, l'objet et l'espace urbain.</p>
+      <p><strong>La couleur en mouvement, de la toile aux arts appliqués</strong><br>
+      Son genre pictural se définit par l'abstraction orphique et le design textile. Son style se caractérise par l'utilisation de cercles concentriques, d'arcs de cercle et de formes géométriques pures juxtaposées selon la loi du contraste simultané des couleurs (théorisée par Chevreul). Ce procédé crée une sensation de mouvement et de vibration lumineuse sans recours à la perspective ou au dessin traditionnel.</p>
+      <p><strong>Une carrière créatrice portée par un siècle de modernité</strong><br>
+      L'évolution de son style marque une expansion de la couleur du tableau vers la vie quotidienne : la naissance du Simultanéisme (années 1910) où elle s'éloigne du fauvisme pour explorer la décomposition de la lumière (Prismes électriques) ; l'art dans la vie et la Mode (années 1920-1930) pendant l'exil en Espagne et au Portugal, puis de retour à Paris en appliquant ses recherches chromatiques aux tissus, aux costumes de scène et à la mode (les « robes simultanées ») ; enfin l'abstraction monumentale et les Rythmes (après 1945) où elle poursuit seule une œuvre monumentale aux grands formats où demi-cercles et rectangles de couleurs primaires s'emboîtent dans une danse géométrique d'une grande rigueur formelle.</p>
+    `,
     corpus: {
       total: 250,
       seen: 2,
@@ -10669,11 +10714,14 @@ window.ARTISTS_REGISTRY = {
     nationality: "Polonaise (Varsovie / Paris / Cuernavaca)",
     techniques: "Huile sur toile, fini lisse et métallique quasi émaillé, volumes tubulaires sculpturaux aux arêtes vives, contrastes d'ombres portées acérées sous lumière artificielle rasante et théâtrale, drapés froids d'une précision géométrique, palette de roses métalliques, gris acier, blancs laqués et noirs profonds",
     bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczNg53GQaWxpPjj0sjRDpE-mce_n8GsRwXQGQeAPQzedOuqpLt0WCDr1hSgkM6HcGBm2HUoui3cFQBRHMozSN-44eH_5BGAiBTooyaHVb8GtKA2PG4F52xu2dhD_qdsnyj9XNVq-82ysvmFsxZz5yDZUZA=w1901-h806-s-no-gm?authuser=0",
-    bio: [
-      "Tamara de Lempicka (1898 – 1980) est l'icône absolue de l'Art Déco. D'origine polonaise, elle a régné sur le Paris des Années Folles, créant un style qui fusionne le cubisme de salon, la rigueur néoclassique et une sensualité cinématographique. Surnommée la « baronne au pinceau », elle a immortalisé l'élite cosmopolite et la figure de la « femme moderne », indépendante et glaciale.",
-      "Son genre pictural se définit par le portrait mondain et le nu néoclassique. Son style se caractérise par des formes sculpturales aux arêtes vives, des couleurs vibrantes et un fini lisse, presque métallique, qui rappelle la carrosserie des automobiles de luxe ou le métal poli. Sa lumière est artificielle et théâtrale, sculptant les corps comme s'ils étaient de marbre ou de cuir.",
-      "L'évolution de son style suit la trajectoire de la modernité européenne entre les deux guerres : l'ascension et le Cubisme « doux » (années 1920) où élève d'André Lhote, elle adopte une géométrisation des volumes d'une redoutable efficacité publicitaire ; l'apogée du style Lempicka (1925 – 1935) où son art atteint une perfection technique où la chair semble pétrifiée et les drapés figés dans des plis coupants ; enfin la période américaine et le déclin (après 1939) où exilée aux États-Unis, son style s'assouplit vers des sujets religieux, des scènes d'exil et des natures mortes intimes."
-    ],
+    bio: `
+      <p><strong>L'icône de l'Art Déco</strong><br>
+      Tamara de Lempicka (1898 – 1980) est l'icône absolue de l'Art Déco. D'origine polonaise, elle a régné sur le Paris des Années Folles, créant un style qui fusionne le cubisme de salon, la rigueur néoclassique et une sensualité cinématographique. Surnommée la « baronne au pinceau », elle a immortalisé l'élite cosmopolite et la figure de la « femme moderne », indépendante et glaciale.</p>
+      <p><strong>Un cubisme de salon, froid et sculptural</strong><br>
+      Son genre pictural se définit par le portrait mondain et le nu néoclassique. Son style se caractérise par des formes sculpturales aux arêtes vives, des couleurs vibrantes et un fini lisse, presque métallique, qui rappelle la carrosserie des automobiles de luxe ou le métal poli. Sa lumière est artificielle et théâtrale, sculptant les corps comme s'ils étaient de marbre ou de cuir.</p>
+      <p><strong>De la gloire des Années folles à l'exil américain</strong><br>
+      L'évolution de son style suit la trajectoire de la modernité européenne entre les deux guerres : l'ascension et le Cubisme « doux » (années 1920) où élève d'André Lhote, elle adopte une géométrisation des volumes d'une redoutable efficacité publicitaire ; l'apogée du style Lempicka (1925 – 1935) où son art atteint une perfection technique où la chair semble pétrifiée et les drapés figés dans des plis coupants ; enfin la période américaine et le déclin (après 1939) où exilée aux États-Unis, son style s'assouplit vers des sujets religieux, des scènes d'exil et des natures mortes intimes.</p>
+    `,
     corpus: {
       total: 520,
       seen: 7,
@@ -10812,11 +10860,14 @@ window.ARTISTS_REGISTRY = {
     nationality: "Italien (Borgo San Sepolcro / Toscane)",
     techniques: "Fresque monumentale, détrempe et huile sur bois, perspective linéaire mathématique rigoureuse, géométrisation euclidienne des corps (cylindres, cônes, sphères), lumière diurne zénithale égale abolissant le clair-obscur violent, hiératisme solennel et impassibilité des figures",
     bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczNqJ0YFiXA3bft-4YFMe0_9fzLImn9dUBVYRKmbrK5Gb-BRao11yHUxb-LKAYElVhsjJr4a2mRHkf8ecx4PzHcPiiBQ3Yrs92wYZlsxbQXZ5J-YLMXzOtZfv7A473PZnPVzXUjaQ26C7Tw5_AsZrnShlw=w1901-h806-s-no-gm?authuser=0",
-    bio: [
-      "Piero della Francesca (v. 1415 – 1492), né à Borgo San Sepolcro en Toscane, est le grand théoricien et le poète de la géométrie du Quattrocento. Artiste intellectuel, il fut autant mathématicien que peintre, rédigeant des traités fondamentaux sur la perspective. Son œuvre, redécouverte au XXe siècle par les cubistes et les modernes, se situe à l'équilibre parfait entre la rigueur scientifique et une spiritualité d'une sérénité absolue. Il a passé l'essentiel de sa carrière dans les cours raffinées d'Urbino, de Ferrare et de Rimini, créant un art qui semble suspendu hors du temps.",
-      "Son genre pictural est marqué par une recherche de l'ordre universel. Son style se définit par une clarté cristalline, des formes simplifiées jusqu'à l'abstraction et une lumière diurne, égale, qui supprime les ombres tourmentées. Chez Piero, chaque personnage est traité comme une colonne ou une sphère, s'intégrant dans une architecture mathématique parfaite. Ses visages sont souvent impassibles, empreints d'une dignité hiératique qui confère à ses scènes religieuses ou profanes une dimension sacrée et immuable. Il est le maître du silence en peinture.",
-      "L'évolution de son travail montre un perfectionnement constant de la perspective et de l'intégration de la lumière : de ses débuts florentins (Baptême du Christ) vers son chef-d'œuvre absolu, le cycle de fresques de La Légende de la Vraie Croix à Arezzo, démontrant une maîtrise totale de la narration par la géométrie ; puis les portraits souverains d'Urbino (Le Triomphe de la chasteté) et la Pala de Brera ; enfin la fin de sa vie où, frappé par la cécité, il se consacre exclusivement à la rédaction de ses traités de géométrie et de perspective."
-    ],
+    bio: `
+      <p><strong>Le géomètre de la Première Renaissance</strong><br>
+      Piero della Francesca (v. 1415 – 1492), né à Borgo San Sepolcro en Toscane, est le grand théoricien et le poète de la géométrie du Quattrocento. Artiste intellectuel, il fut autant mathématicien que peintre, rédigeant des traités fondamentaux sur la perspective. Son œuvre, redécouverte au XXe siècle par les cubistes et les modernes, se situe à l'équilibre parfait entre la rigueur scientifique et une spiritualité d'une sérénité absolue. Il a passé l'essentiel de sa carrière dans les cours raffinées d'Urbino, de Ferrare et de Rimini, créant un art qui semble suspendu hors du temps.</p>
+      <p><strong>Perspective, lumière et monumentalité sereine</strong><br>
+      Son genre pictural est marqué par une recherche de l'ordre universel. Son style se définit par une clarté cristalline, des formes simplifiées jusqu'à l'abstraction et une lumière diurne, égale, qui supprime les ombres tourmentées. Chez Piero, chaque personnage est traité comme une colonne ou une sphère, s'intégrant dans une architecture mathématique parfaite. Ses visages sont souvent impassibles, empreints d'une dignité hiératique qui confère à ses scènes religieuses ou profanes une dimension sacrée et immuable. Il est le maître du silence en peinture.</p>
+      <p><strong>Une évolution tournée vers l'ordre et le silence</strong><br>
+      L'évolution de son travail montre un perfectionnement constant de la perspective et de l'intégration de la lumière : de ses débuts florentins (Baptême du Christ) vers son chef-d'œuvre absolu, le cycle de fresques de La Légende de la Vraie Croix à Arezzo, démontrant une maîtrise totale de la narration par la géométrie ; puis les portraits souverains d'Urbino (Le Triomphe de la chasteté) et la Pala de Brera ; enfin la fin de sa vie où, frappé par la cécité, il se consacre exclusivement à la rédaction de ses traités de géométrie et de perspective.</p>
+    `,
     corpus: {
       total: 35,
       seen: 2,
@@ -10945,11 +10996,14 @@ window.ARTISTS_REGISTRY = {
   "nationality": "Italien (Messine / Sicile)",
   "techniques": "Peinture à l'huile sur bois de peuplier et noyer, glacis flamands translucides, cadrage serré en buste de trois-quarts sur fond sombre, modelé sculptural par la lumière, analyse psychologique pénétrante et minutie microscopique",
   "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczMJFasIrnv3gJHihTxjwooB4y9THOhKvjKLkxKRiJbWOEWhBQx6JTE7k3P1ettUhZmOTbkYR3Wyt8ZKZAakIpOOZ_GsT4O_4fQlSg1_95WXf1eKYNNqWd8ZxwedAqH4Li2TEcHgv8HxJcxplptmy4ZHyA=w1681-h713-s-no-gm?authuser=0",
-  "bio": [
-    "Antonello de Messine (v. 1430 – 1479) est le passeur de génie entre le Nord et le Sud. Originaire de Sicile, il est l'artiste qui a véritablement introduit et popularisé la peinture à l'huile flamande en Italie, transformant radicalement le cours de la Renaissance italienne, notamment à Venise.",
-    "Son genre pictural se définit par le portrait psychologique et la peinture sacrée humaniste. Son style se caractérise par une synthèse parfaite entre la précision analytique des Flamands (rendu des matières, des poils de barbe, de la lumière) et la rigueur monumentale italienne (géométrie des volumes, perspective). Ses portraits, souvent de trois-quarts sur fond sombre, fixent le spectateur d'un regard d'une intensité bouleversante.",
-    "L'évolution de son style marque une maîtrise croissante de l'espace et de la lumière : La formation napolitaine et l'influence flamande (années 1450-1460) où il découvre les œuvres de Van Eyck et adopte la technique de l'huile avec ses glacis transparents ; Le séjour vénitien et la maturité (1475 – 1476), véritable séisme artistique où il peint le Retable de San Cassiano et influence durablement Giovanni Bellini ; enfin La perfection du portrait jusqu'à sa mort, sculpté par une lumière directionnelle où chaque ride témoigne d'une présence vivante."
-  ],
+  "bio": `
+      <p><strong>Le passeur de l'huile flamande en Italie</strong><br>
+      Antonello de Messine (v. 1430 – 1479) est le passeur de génie entre le Nord et le Sud. Originaire de Sicile, il est l'artiste qui a véritablement introduit et popularisé la peinture à l'huile flamande en Italie, transformant radicalement le cours de la Renaissance italienne, notamment à Venise.</p>
+      <p><strong>Précision flamande et monumentalité italienne</strong><br>
+      Son genre pictural se définit par le portrait psychologique et la peinture sacrée humaniste. Son style se caractérise par une synthèse parfaite entre la précision analytique des Flamands (rendu des matières, des poils de barbe, de la lumière) et la rigueur monumentale italienne (géométrie des volumes, perspective). Ses portraits, souvent de trois-quarts sur fond sombre, fixent le spectateur d'un regard d'une intensité bouleversante.</p>
+      <p><strong>De la Sicile à Venise : une influence décisive</strong><br>
+      L'évolution de son style marque une maîtrise croissante de l'espace et de la lumière : La formation napolitaine et l'influence flamande (années 1450-1460) où il découvre les œuvres de Van Eyck et adopte la technique de l'huile avec ses glacis transparents ; Le séjour vénitien et la maturité (1475 – 1476), véritable séisme artistique où il peint le Retable de San Cassiano et influence durablement Giovanni Bellini ; enfin La perfection du portrait jusqu'à sa mort, sculpté par une lumière directionnelle où chaque ride témoigne d'une présence vivante.</p>
+    `,
   "corpus": {
     "total": 38,
     "seen": 2,
@@ -11076,11 +11130,14 @@ window.ARTISTS_REGISTRY = {
   "nationality": "Français (Chatou / Chambourcy)",
   "techniques": "Huile sur toile, touche pure sortie du tube, aplats flamboyants, détrempe, clair-obscur classique, modelé sculptural, paysages urbains et fluviaux, portraits intimistes, natures mortes austères, décors de théâtre",
   "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczNrKN2beMBelPKbbU45xEuJMaW2lAT62cQDsKw1yAeBluxqLfs-jqlzhHrxenMDPf6puHMq-qEYmPBofkMOtRknrrvncQbEYnC617f4kWKKO3tHNlje84sQpv6RCCH7b9qSkG0GZ1KxtNei5AJuiOfSoQ=w1681-h713-s-no-gm?authuser=0",
-  "bio": [
-    "André Derain (1880 – 1954) est l'un des cofondateurs du Fauvisme aux côtés d'Henri Matisse et de Maurice de Vlaminck, avant de devenir l'artisan d'un spectaculaire « retour à l'ordre » et à la grande tradition muséale. Peintre, sculpteur, décorateur pour les Ballets russes et théoricien érudit, Derain incarne la trajectoire complexe d'une avant-garde qui choisit délibérément de revisiter les maîtres classiques pour retrouver la solidité et l'intemporalité de la forme.",
-    "Son genre pictural se définit par le paysage fauve urbain et portuaire, le portrait de caractère, la nature morte classique et le décor de scène. Son style se caractérise d'abord par des déflagrations de couleurs pures sorties du tube et un dessin synthétique, avant d'évoluer vers une palette austère d'ocres, de bruns et de terres, servie par un modelé sculptural, un clair-obscur rigoureux et un sens aigu de la hiérarchie classique.",
-    "L'évolution de son style marque un passage de l'incandescence chromatique à la méditation sur la permanence des maîtres anciens : L'explosion fauve et les vues de Londres (1904 – 1907) libérant la couleur de toute fonction descriptive ; La tentation cubiste et la période byzantine / gothique (1908 – 1914) avec une géométrisation sévère refusant la dissolution cubiste ; Le retour au classicisme et les natures mortes de maturité (après 1918) regardant vers Corot, Le Nain et la Renaissance."
-  ],
+  "bio": `
+      <p><strong>Le cofondateur du Fauvisme</strong><br>
+      André Derain (1880 – 1954) est l'un des cofondateurs du Fauvisme aux côtés d'Henri Matisse et de Maurice de Vlaminck, avant de devenir l'artisan d'un spectaculaire « retour à l'ordre » et à la grande tradition muséale. Peintre, sculpteur, décorateur pour les Ballets russes et théoricien érudit, Derain incarne la trajectoire complexe d'une avant-garde qui choisit délibérément de revisiter les maîtres classiques pour retrouver la solidité et l'intemporalité de la forme.</p>
+      <p><strong>Couleurs pures puis structure et retenue</strong><br>
+      Son genre pictural se définit par le paysage fauve urbain et portuaire, le portrait de caractère, la nature morte classique et le décor de scène. Son style se caractérise d'abord par des déflagrations de couleurs pures sorties du tube et un dessin synthétique, avant d'évoluer vers une palette austère d'ocres, de bruns et de terres, servie par un modelé sculptural, un clair-obscur rigoureux et un sens aigu de la hiérarchie classique.</p>
+      <p><strong>Du Fauvisme au retour au Classicisme</strong><br>
+      L'évolution de son style marque un passage de l'incandescence chromatique à la méditation sur la permanence des maîtres anciens : L'explosion fauve et les vues de Londres (1904 – 1907) libérant la couleur de toute fonction descriptive ; La tentation cubiste et la période byzantine / gothique (1908 – 1914) avec une géométrisation sévère refusant la dissolution cubiste ; Le retour au classicisme et les natures mortes de maturité (après 1918) regardant vers Corot, Le Nain et la Renaissance.</p>
+    `,
   "corpus": {
     "total": 2300,
     "seen": 0,
@@ -11205,11 +11262,14 @@ window.ARTISTS_REGISTRY = {
   "nationality": "Allemand (Untermhaus / Dresde)",
   "techniques": "Détrempe et huile sur bois, glacis selon la technique des maîtres anciens de la Renaissance (Cranach, Grünewald, Dürer), réalisme chirurgical et grotesque, gravure à l'eau-forte",
   "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczMNA-EmQq6EgCDeyS13dsrOkRGeJ29bpVzWb9cIDxnWujc0shHxDUscVbqEMfY_4q68I0OFeXrgU0tqWUavuEE1ztAFx_A7henGTPWpjoHCF4NnaX8KcDHfb4Ugxfc0QNoBWnngAuWyMlk3W3qNfqRX3Q=w1681-h713-s-no-gm?authuser=0",
-  "bio": [
-    "Otto Dix (1891 – 1969) est la figure de proue de la Nouvelle Objectivité (Neue Sachlichkeit) allemande et l'un des témoins les plus féroces de son temps. Vétéran profondément traumatisé par l'horreur des tranchées de la Première Guerre mondiale, il s'est fait le portraitiste impitoyable de la république de Weimar, auscultant sans fard la misère des mutilés de guerre, la corruption bourgeoise, le sexe tarifé et la déchéance morale, avant d'être qualifié d'artiste « dégénéré » par le régime nazi.",
-    "Son genre pictural se définit par le portrait critique et satirique, la scène de guerre, la peinture de mœurs urbaines et le retable profane. Son style se caractérise par un réalisme chirurgical et grotesque, hérité des maîtres allemands de la Renaissance (Cranach, Grünewald, Dürer). Utilisant la détrempe et l'huile sur bois pour obtenir un fini lisse et dur, il accentue les rides, les prothèses de bois, les chairs flétries et les regards concupiscents pour faire de chaque détail physique le reflet d'une faillite morale.",
-    "L'évolution de son style marque un passage de la rage expressionniste à la rigueur néoclassique et au retrait intérieur : L'expressionnisme, Dada et le choc des tranchées (1919 – 1923) où il exorcise la guerre avec des collages et des toiles aux angles acérés (Les Joueurs de skat, gueules cassées) ; L'apogée de la Nouvelle Objectivité (1924 – 1933), sa période la plus virtuose avec la suite gravée La Guerre (1924), les portraits magistraux (Sylvia von Harden) et les triptyques monumentaux (La Grande Ville, La Guerre) ; enfin L'exil intérieur et la peinture de paysage (après 1933), réfugié près du lac de Constance, où son style se tourne vers des paysages allégoriques et des thèmes religieux métaphoriques dénonçant la barbarie."
-  ],
+  "bio": `
+      <p><strong>Le chroniqueur impitoyable de la Nouvelle Objectivité</strong><br>
+      Otto Dix (1891 – 1969) est la figure de proue de la Nouvelle Objectivité (Neue Sachlichkeit) allemande et l'un des témoins les plus féroces de son temps. Vétéran profondément traumatisé par l'horreur des tranchées de la Première Guerre mondiale, il s'est fait le portraitiste impitoyable de la république de Weimar, auscultant sans fard la misère des mutilés de guerre, la corruption bourgeoise, le sexe tarifé et la déchéance morale, avant d'être qualifié d'artiste « dégénéré » par le régime nazi.</p>
+      <p><strong>Un réalisme cru hérité des maîtres anciens</strong><br>
+      Son genre pictural se définit par le portrait critique et satirique, la scène de guerre, la peinture de mœurs urbaines et le retable profane. Son style se caractérise par un réalisme chirurgical et grotesque, hérité des maîtres allemands de la Renaissance (Cranach, Grünewald, Dürer). Utilisant la détrempe et l'huile sur bois pour obtenir un fini lisse et dur, il accentue les rides, les prothèses de bois, les chairs flétries et les regards concupiscents pour faire de chaque détail physique le reflet d'une faillite morale.</p>
+      <p><strong>De Dada à la satire sociale, puis à l'exil intérieur</strong><br>
+      L'évolution de son style marque un passage de la rage expressionniste à la rigueur néoclassique et au retrait intérieur : L'expressionnisme, Dada et le choc des tranchées (1919 – 1923) où il exorcise la guerre avec des collages et des toiles aux angles acérés (Les Joueurs de skat, gueules cassées) ; L'apogée de la Nouvelle Objectivité (1924 – 1933), sa période la plus virtuose avec la suite gravée La Guerre (1924), les portraits magistraux (Sylvia von Harden) et les triptyques monumentaux (La Grande Ville, La Guerre) ; enfin L'exil intérieur et la peinture de paysage (après 1933), réfugié près du lac de Constance, où son style se tourne vers des paysages allégoriques et des thèmes religieux métaphoriques dénonçant la barbarie.</p>
+    `,
   "corpus": {
     "total": 846,
     "seen": 0,
@@ -11441,11 +11501,14 @@ window.ARTISTS_REGISTRY = {
   "nationality": "Français (Strasbourg / Paris)",
   "techniques": "Huile sur toile grand format, gravure sur bois de bout (xylographie), aquarelle, lavis d'encre, clair-obscur dramatique et mise en scène grandiose",
   "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczNYiqij7DQtNx6f1ko4Bc5UTn3NTtJ4EwunpugJms82TrvVWNI0D0vDfy63qbtTXm_rKJFDKQJM4hw1u274W7tGkGYo2z6k0bX5ueFY8ghE9Frx58r1l91U7yazkyzySbv--_v7I92qyf4KgFFvj5rSIw=w1681-h713-s-no-gm?authuser=0",
-  "bio": [
-    "Gustave Doré (1832 – 1883) est l'un des artistes les plus prolifiques et les plus visionnaires du XIXe siècle. Enfant prodige, il a marqué l'imaginaire collectif mondial non seulement par sa peinture, mais surtout par ses illustrations monumentales. Surnommé le « plus grand illustrateur du monde », il a su donner un visage définitif aux plus grands chefs-d'œuvre de la littérature universelle, de la Bible à Dante, en passant par Perrault.",
-    "Son genre pictural se définit par le romantisme visionnaire, l'illustration littéraire et le paysage sublime. Son style se caractérise par un sens inné du spectaculaire, une maîtrise dramatique du clair-obscur et une profusion de détails qui confèrent à ses scènes une dimension épique. Qu'il utilise le pinceau ou le burin, Doré cherche à susciter l'effroi, l'émerveillement ou la pitié à travers des compositions souvent vertigineuses.",
-    "L'évolution de son style témoigne d'une ambition totale : L'ascension de l'illustrateur (années 1850-1860) où il révolutionne l'édition avec ses gravures sur bois pour L'Enfer de Dante ou Don Quichotte ; L'ambition picturale et la 'Doré Gallery' à Londres (années 1870) avec des toiles monumentales religieuses et tragiques ; enfin Le paysage et le réalisme social, explorant les montagnes d'Écosse et des Alpes pour peindre des paysages sublimes où la nature écrase l'homme, tout en documentant la misère des bas-fonds londoniens."
-  ],
+  "bio": `
+      <p><strong>Le génie visionnaire de l'illustration</strong><br>
+      Gustave Doré (1832 – 1883) est l'un des artistes les plus prolifiques et les plus visionnaires du XIXe siècle. Enfant prodige, il a marqué l'imaginaire collectif mondial non seulement par sa peinture, mais surtout par ses illustrations monumentales. Surnommé le « plus grand illustrateur du monde », il a su donner un visage définitif aux plus grands chefs-d'œuvre de la littérature universelle, de la Bible à Dante, en passant par Perrault.</p>
+      <p><strong>Gravure, peinture et paysages sublimes</strong><br>
+      Son genre pictural se définit par le romantisme visionnaire, l'illustration littéraire et le paysage sublime. Son style se caractérise par un sens inné du spectaculaire, une maîtrise dramatique du clair-obscur et une profusion de détails qui confèrent à ses scènes une dimension épique. Qu'il utilise le pinceau ou le burin, Doré cherche à susciter l'effroi, l'émerveillement ou la pitié à travers des compositions souvent vertigineuses.</p>
+      <p><strong>Du succès de l'illustration à la reconnaissance picturale</strong><br>
+      L'évolution de son style témoigne d'une ambition totale : L'ascension de l'illustrateur (années 1850-1860) où il révolutionne l'édition avec ses gravures sur bois pour L'Enfer de Dante ou Don Quichotte ; L'ambition picturale et la 'Doré Gallery' à Londres (années 1870) avec des toiles monumentales religieuses et tragiques ; enfin Le paysage et le réalisme social, explorant les montagnes d'Écosse et des Alpes pour peindre des paysages sublimes où la nature écrase l'homme, tout en documentant la misère des bas-fonds londoniens.</p>
+    `,
   "corpus": {
     "total": 200,
     "seen": 1,
@@ -11621,11 +11684,14 @@ window.ARTISTS_REGISTRY = {
   "nationality": "Français (Le Havre / Paris)",
   "techniques": "Hautes pâtes (sable, gravier, goudron, pigments denses), tyrolage, acrylique sur papier marouflé sur toile, assemblages d'empreintes, sculpture monumentale en époxy, graphisme cellulaire cerné de noir",
   "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczMPxto5UimFC5NnTM8AT2GZipbA5zskzCzxRijJ8VO_Vj7Lkx7QETqlDB1iCGDprbSD_Y_E37KADn5fvwvF4gKmGWI39Ni3uNwR4c6YwekEc7dbLco4JrIOKDFDUUy_irhrRWqGQDsv9GIJ1sZVW03kQg=w1681-h713-s-no-gm?authuser=0",
-  "bio": [
-    "Jean Dubuffet (1901 – 1985) est l'un des artistes les plus subversifs et prolifiques du XXe siècle. Théoricien de l'Art Brut, il a passé sa vie à rejeter la « culture étouffante » et les canons classiques pour célébrer une créativité instinctive, celle des enfants, des marginaux et des malades mentaux, qu'il considérait comme la seule forme d'art authentique.",
-    "Son genre pictural se définit par l'abstraction figurative et l'assemblage de matières. Son style se caractérise par l'utilisation de matériaux hétéroclites (sable, goudron, gravier, ailes de papillons) pour créer des textures épaisses et accidentées. Son dessin est volontairement rudimentaire, proche du graffiti ou du gribouillage, afin de retrouver une force d'expression brute et sauvage.",
-    "L'évolution de son style est marquée par des cycles radicalement différents : Les Hautes Pâtes (années 1940-1950) avec des empâtements sombres pétris dans la matière (Vaches, Texturologies) ; Le cycle de l'Hourloupe (1962 – 1974), son univers graphique le plus célèbre de cellules rouges, bleues et blanches cernées de noir ; enfin Les dernières séries (Mires, Non-Lieux) où son style s'épure en tracés nerveux sur fond sombre ou blanc, capturant les mécanismes purs de la pensée."
-  ],
+  "bio": `
+      <p><strong>L'inventeur de l'Art Brut</strong><br>
+      Jean Dubuffet (1901 – 1985) est l'un des artistes les plus subversifs et prolifiques du XXe siècle. Théoricien de l'Art Brut, il a passé sa vie à rejeter la « culture étouffante » et les canons classiques pour célébrer une créativité instinctive, celle des enfants, des marginaux et des malades mentaux, qu'il considérait comme la seule forme d'art authentique.</p>
+      <p><strong>Matiérisme et refus de la culture savante</strong><br>
+      Son genre pictural se définit par l'abstraction figurative et l'assemblage de matières. Son style se caractérise par l'utilisation de matériaux hétéroclites (sable, goudron, gravier, ailes de papillons) pour créer des textures épaisses et accidentées. Son dessin est volontairement rudimentaire, proche du graffiti ou du gribouillage, afin de retrouver une force d'expression brute et sauvage.</p>
+      <p><strong>Des Texturologies à l'Hourloupe</strong><br>
+      L'évolution de son style est marquée par des cycles radicalement différents : Les Hautes Pâtes (années 1940-1950) avec des empâtements sombres pétris dans la matière (Vaches, Texturologies) ; Le cycle de l'Hourloupe (1962 – 1974), son univers graphique le plus célèbre de cellules rouges, bleues et blanches cernées de noir ; enfin Les dernières séries (Mires, Non-Lieux) où son style s'épure en tracés nerveux sur fond sombre ou blanc, capturant les mécanismes purs de la pensée.</p>
+    `,
   "corpus": {
     "total": 4800,
     "seen": 4,
@@ -11840,11 +11906,14 @@ window.ARTISTS_REGISTRY = {
   "nationality": "Italien (Sienne / Toscane)",
   "techniques": "Détrempe à l'œuf sur panneau de bois (tempera sur peuplier), dorure à la feuille d'or sur bolus, poinçonnage et damasquinures d'or, contours sinueux et élégance chromatique raffinée",
   "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczMW_pALy4aZnCrM8q3BXZKCCkhbD0uF9IMPNeuPjl7aGu53Hog1hrSdy0yk9aYBXABCpxrm8pHJRcht3sJNjMsfECiE7Tm2Sv2aJv6M7PvTmNJXLQRApuAyZJVfBnxRRhLZB0ZOfl7GoLnlT4SXxLjCqA=w1681-h713-s-no-gm?authuser=0",
-  "bio": [
-    "Duccio di Buoninsegna (v. 1255 – 1318/1319) est le père fondateur de l'école siennoise et l'un des plus grands novateurs de la peinture occidentale au tournant du Trecento. Contemporain de Giotto, il réussit la synthèse magistrale entre la majesté byzantine hiératique et la grâce linéaire gothique, insufflant une délicatesse poétique et une humanité vibrante qui influenceront durablement toute la Renaissance toscane.",
-    "Son genre pictural se définit par le retable d'autel sur fond d'or, le panneau de dévotion privée et la peinture narrative sacrée. Son style se caractérise par la souplesse sinueuse de la ligne de contour, des drapés rythmés par de fines imbrications de fils d'or (damasquinure), une gamme chromatique raffinée (pourpres, roses lilas, verts amande) et une humanisation poignante des regards et des gestes, notamment dans les échanges affectueux entre la Vierge et l'Enfant.",
-    "L'évolution de son style marque l'émancipation progressive de la formule byzantine vers un espace narratif cohérent et habité : La formation et la Vierge Rucellai (années 1280) pour Santa Maria Novella de Florence où la monumentalité s'adoucit d'une ligne ondulante musicale ; Les petits panneaux de dévotion et l'intimité sacrée (années 1290 – 1300) comme la Madone des Franciscains ; enfin Le sommet de la Maestà de la cathédrale de Sienne (1308 – 1311), son chef-d'œuvre absolu, polyptyque géant peint sur deux faces porté en triomphe par le peuple de Sienne."
-  ],
+  "bio": `
+      <p><strong>Le fondateur de la peinture siennoise</strong><br>
+      Duccio di Buoninsegna (v. 1255 – 1318/1319) est le père fondateur de l'école siennoise et l'un des plus grands novateurs de la peinture occidentale au tournant du Trecento. Contemporain de Giotto, il réussit la synthèse magistrale entre la majesté byzantine hiératique et la grâce linéaire gothique, insufflant une délicatesse poétique et une humanité vibrante qui influenceront durablement toute la Renaissance toscane.</p>
+      <p><strong>L'émancipation de la maniera greca</strong><br>
+      Son genre pictural se définit par le retable d'autel sur fond d'or, le panneau de dévotion privée et la peinture narrative sacrée. Son style se caractérise par la souplesse sinueuse de la ligne de contour, des drapés rythmés par de fines imbrications de fils d'or (damasquinure), une gamme chromatique raffinée (pourpres, roses lilas, verts amande) et une humanisation poignante des regards et des gestes, notamment dans les échanges affectueux entre la Vierge et l'Enfant.</p>
+      <p><strong>De la Maestà de Sienne à la narration humaine</strong><br>
+      L'évolution de son style marque l'émancipation progressive de la formule byzantine vers un espace narratif cohérent et habité : La formation et la Vierge Rucellai (années 1280) pour Santa Maria Novella de Florence où la monumentalité s'adoucit d'une ligne ondulante musicale ; Les petits panneaux de dévotion et l'intimité sacrée (années 1290 – 1300) comme la Madone des Franciscains ; enfin Le sommet de la Maestà de la cathédrale de Sienne (1308 – 1311), son chef-d'œuvre absolu, polyptyque géant peint sur deux faces porté en triomphe par le peuple de Sienne.</p>
+    `,
   "corpus": {
     "total": 123,
     "seen": 0,
@@ -12011,11 +12080,14 @@ window.ARTISTS_REGISTRY = {
   "nationality": "Français naturalisé Américain (Blainville-Crevon / Paris / New York)",
   "techniques": "Peinture cubo-futuriste, huile sur toile, ready-made, huile et fil de plomb sur verre, boîtes en valise, installations conceptuelles",
   "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczMhmbeYSb3xpjiJItw7cJgL0S-53Efn62UgisYXDtvibq1VkAu7qV4HK5mzI27RVuIFASQT1tde7XMjVHapFZHGDCg94ePYyYGf6v_iOSxAWIXaxbsBOOtlX5LZXng_eqEc3xrag_PksL9dFv8wS2wVCw=w1681-h713-s-no-gm?authuser=0",
-  "bio": [
-    "Marcel Duchamp (1887 – 1968) est l'un des artistes les plus révolutionnaires du XXe siècle, souvent considéré comme le père de l'art conceptuel. Il a radicalement déplacé le curseur de l'art du domaine de la rétine (ce que l'on voit) vers celui de l'intelligence (ce que l'on pense). En déclarant que l'idée est supérieure à la réalisation, il a ouvert la porte à toutes les formes d'expression contemporaines.",
-    "Son genre pictural se définit par le cubo-futurisme (à ses débuts) puis par l'anti-art et le readymade. Son style se caractérise par une rupture totale avec le \"beau\" traditionnel. Il utilise l'ironie, le hasard et des objets du quotidien qu'il détourne de leur fonction initiale pour interroger la nature même de l'œuvre d'art et le rôle du musée.",
-    "L'évolution de son style marque un passage fulgurant de la peinture à l'abandon volontaire de la toile : des débuts post-impressionnistes et fauves vers le scandale du Nu descendant un escalier à l'Armory Show de New York (1913) ; puis l'invention du ready-made (Roue de bicyclette, Fontaine signée R. Mutt) et l'élaboration de son grand œuvre hermétique Le Grand Verre (1915-1923), avant de consacrer les dernières décennies de sa vie aux échecs et à son installation secrète Étant donnés."
-  ],
+  "bio": `
+      <p><strong>Le père de l'art conceptuel</strong><br>
+      Marcel Duchamp (1887 – 1968) est l'un des artistes les plus révolutionnaires du XXe siècle, souvent considéré comme le père de l'art conceptuel. Il a radicalement déplacé le curseur de l'art du domaine de la rétine (ce que l'on voit) vers celui de l'intelligence (ce que l'on pense). En déclarant que l'idée est supérieure à la réalisation, il a ouvert la porte à toutes les formes d'expression contemporaines.</p>
+      <p><strong>Le readymade et la remise en cause de l'œuvre</strong><br>
+      Son genre pictural se définit par le cubo-futurisme (à ses débuts) puis par l'anti-art et le readymade. Son style se caractérise par une rupture totale avec le "beau" traditionnel. Il utilise l'ironie, le hasard et des objets du quotidien qu'il détourne de leur fonction initiale pour interroger la nature même de l'œuvre d'art et le rôle du musée.</p>
+      <p><strong>Du cubo-futurisme à l'abandon de la peinture</strong><br>
+      L'évolution de son style marque un passage fulgurant de la peinture à l'abandon volontaire de la toile : des débuts post-impressionnistes et fauves vers le scandale du Nu descendant un escalier à l'Armory Show de New York (1913) ; puis l'invention du ready-made (Roue de bicyclette, Fontaine signée R. Mutt) et l'élaboration de son grand œuvre hermétique Le Grand Verre (1915-1923), avant de consacrer les dernières décennies de sa vie aux échecs et à son installation secrète Étant donnés.</p>
+    `,
   "corpus": {
     "total": 60,
     "seen": 0,
@@ -12251,11 +12323,14 @@ window.ARTISTS_REGISTRY = {
   "nationality": "Français (Le Havre / Paris / Forcalquier)",
   "techniques": "Peinture à l'huile, technique de dissociation couleur/dessin, aquarelle, céramique, tapisserie, décors monumentaux",
   "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczOPvzS10Edy77H9ErlhKWWi5JXhFxs7Qt41Sh1TOx2_zzwFjpX1Y73XDsclVFSe9AMed4erg7T-YYTl1dqyLS8oLnU17CN2y-Xo3s30QBtsEzl6ygGAluSE2ZtVn7sWAGhep3g4u4h5C0nd-NtYQHTvZQ=w1681-h713-s-no-gm?authuser=0",
-  "bio": [
-    "Raoul Dufy (1877 – 1953) est le peintre de la joie de vivre, de la lumière méditerranéenne et de la modernité élégante. Membre éminent du fauvisme à ses débuts, il a su s'affranchir des théories pour créer un langage visuel unique, où la couleur se libère du dessin pour traduire le mouvement et l'effervescence de la vie mondaine et populaire.",
-    "Son genre pictural se définit par le paysage maritime, les scènes de loisirs (régates, courses hippiques, concerts) et la décoration monumentale. Son style se caractérise par la « dissociation » : la couleur est posée en larges taches fluides et lumineuses, tandis que le dessin, nerveux et calligraphique, vient se superposer par-dessus, souvent sans coïncider exactement avec les contours. Cette technique donne à ses œuvres une légèreté et une vibration incomparables.",
-    "L'évolution de son style marque une libération progressive de la forme au profit de la sensation : de la période fauve (1905–1908) sous l'influence de Matisse, à l'expérience cubiste et cézannienne (1908–1912) aux côtés de Braque, jusqu'à sa maturité éblouissante après 1920 où il invente sa manière définitive, faite de transparence et d'arabesques virtuoses, culminant dans des chefs-d'œuvre monumentaux comme La Fée Électricité."
-  ],
+  "bio": `
+      <p><strong>Le peintre de la joie de vivre</strong><br>
+      Raoul Dufy (1877 – 1953) est le peintre de la joie de vivre, de la lumière méditerranéenne et de la modernité élégante. Membre éminent du fauvisme à ses débuts, il a su s'affranchir des théories pour créer un langage visuel unique, où la couleur se libère du dessin pour traduire le mouvement et l'effervescence de la vie mondaine et populaire.</p>
+      <p><strong>Un dessin enlevé et une couleur libérée</strong><br>
+      Son genre pictural se définit par le paysage maritime, les scènes de loisirs (régates, courses hippiques, concerts) et la décoration monumentale. Son style se caractérise par la « dissociation » : la couleur est posée en larges taches fluides et lumineuses, tandis que le dessin, nerveux et calligraphique, vient se superposer par-dessus, souvent sans coïncider exactement avec les contours. Cette technique donne à ses œuvres une légèreté et une vibration incomparables.</p>
+      <p><strong>Du Fauvisme à un style aux arabesques légères</strong><br>
+      L'évolution de son style marque une libération progressive de la forme au profit de la sensation : de la période fauve (1905–1908) sous l'influence de Matisse, à l'expérience cubiste et cézannienne (1908–1912) aux côtés de Braque, jusqu'à sa maturité éblouissante après 1920 où il invente sa manière définitive, faite de transparence et d'arabesques virtuoses, culminant dans des chefs-d'œuvre monumentaux comme La Fée Électricité.</p>
+    `,
   "corpus": {
     "total": 2000,
     "seen": 5,
@@ -12502,11 +12577,14 @@ window.ARTISTS_REGISTRY = {
   "nationality": "Allemand (Nuremberg, Saint-Empire)",
   "techniques": "Huile sur panneau de tilleul, de sapin et de chêne, détrempe, gravure sur cuivre (burin, pointe sèche, eau-forte), xylographie, aquarelle naturaliste, traités mathématiques",
   "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczMZ_Udyn4GSaJ1bUFrDm3JJ5rP8huNRyf2VC7sQYcdfMCsl8d6rNaGZDFWP6EgQ_ohXQu_cvA5rztwrN7XJnLT3v7vYam-ZTW7qpvxCeU84MFXd6YDFRMcDu_1wuSPWTKHEJqHA9rXVZUAtLXIQcnE3Bw=w1681-h713-s-no-gm?authuser=0",
-  "bio": [
-    "Albrecht Dürer, né en 1471 et mort en 1528 à Nuremberg, est le géant de la Renaissance germanique et l'un des premiers artistes européens à acquérir une stature de théoricien et d'intellectuel. Fils d'orfèvre, il a su marier la précision artisanale du Nord avec les innovations humanistes découvertes lors de ses voyages en Italie. Esprit curieux et rigoureux, il a révolutionné le statut de l'artiste en Allemagne, passant de simple artisan à celui de créateur reconnu, tout en devenant le premier maître de l'autoportrait systématique et de l'estampe comme art majeur.",
-    "Son genre pictural se caractérise par une synthèse unique entre le réalisme analytique flamand et la quête de proportions idéales de la Renaissance italienne. S'il excelle dans la peinture religieuse et le portrait, c'est dans la gravure (sur bois et sur cuivre) qu'il atteint une renommée universelle. Son style est marqué par une précision linéaire virtuose, capable de rendre la texture des poils d'un lièvre, l'écorce d'un arbre ou la complexité d'une draperie avec une minutie scientifique. Ses œuvres, comme ses célèbres « Gravures de maître », sont imprégnées d'un symbolisme profond et d'une réflexion métaphysique sur la condition humaine, le temps et la mélancolie.",
-    "L'évolution de son style témoigne d'une recherche constante de la « beauté absolue » à travers les mathématiques et la géométrie. Après une période de jeunesse marquée par le goût gothique pour le détail foisonnant, ses séjours à Venise l'orientent vers une plus grande clarté monumentale et une meilleure compréhension de la perspective. Sa maturité est consacrée à la rédaction de traités sur les proportions et les fortifications, tandis que ses dernières œuvres, comme Les Quatre Apôtres, affichent un dépouillement et une force sculpturale qui préfigurent le classicisme. Il laisse derrière lui un héritage technique et théorique immense, ayant prouvé que l'observation rigoureuse de la nature était la seule voie vers la vérité artistique."
-  ],
+  "bio": `
+      <p><strong>Le grand humaniste de la Renaissance germanique</strong><br>
+      Albrecht Dürer, né en 1471 et mort en 1528 à Nuremberg, est le géant de la Renaissance germanique et l'un des premiers artistes européens à acquérir une stature de théoricien et d'intellectuel. Fils d'orfèvre, il a su marier la précision artisanale du Nord avec les innovations humanistes découvertes lors de ses voyages en Italie. Esprit curieux et rigoureux, il a révolutionné le statut de l'artiste en Allemagne, passant de simple artisan à celui de créateur reconnu, tout en devenant le premier maître de l'autoportrait systématique et de l'estampe comme art majeur.</p>
+      <p><strong>Un dessin d'une précision absolue</strong><br>
+      Son genre pictural se caractérise par une synthèse unique entre le réalisme analytique flamand et la quête de proportions idéales de la Renaissance italienne. S'il excelle dans la peinture religieuse et le portrait, c'est dans la gravure (sur bois et sur cuivre) qu'il atteint une renommée universelle. Son style est marqué par une précision linéaire virtuose, capable de rendre la texture des poils d'un lièvre, l'écorce d'un arbre ou la complexité d'une draperie avec une minutie scientifique. Ses œuvres, comme ses célèbres « Gravures de maître », sont imprégnées d'un symbolisme profond et d'une réflexion métaphysique sur la condition humaine, le temps et la mélancolie.</p>
+      <p><strong>De Nuremberg à Venise, une carrière européenne</strong><br>
+      L'évolution de son style témoigne d'une recherche constante de la « beauté absolue » à travers les mathématiques et la géométrie. Après une période de jeunesse marquée par le goût gothique pour le détail foisonnant, ses séjours à Venise l'orientent vers une plus grande clarté monumentale et une meilleure compréhension de la perspective. Sa maturité est consacrée à la rédaction de traités sur les proportions et les fortifications, tandis que ses dernières œuvres, comme Les Quatre Apôtres, affichent un dépouillement et une force sculpturale qui préfigurent le classicisme. Il laisse derrière lui un héritage technique et théorique immense, ayant prouvé que l'observation rigoureuse de la nature était la seule voie vers la vérité artistique.</p>
+    `,
   "corpus": {
     "total": 80,
     "seen": 8,
@@ -12822,11 +12900,14 @@ window.ARTISTS_REGISTRY = {
   "nationality": "Grec / Espagnol (Candie, Crète / Venise / Rome / Tolède)",
   "techniques": "Huile sur toile, détrempe sur bois, maniérisme mystique, figures étirées en flamme, draperies aux reflets métalliques, lumières spectrales",
   "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczNxCRU37xg-srYzUULxvpkH91GFB7t5oviu32z5Q9cuz500P2_QeMEfupIs2DcEHN_yW62pKrGwroM3QbgPMF4AsubHYb-vD4BW5_-dhlt5yqFe2O6AvCfE-4p_2pmh5SmFn71wZEMFmtoxFd7MqIRl1w=w1584-h672-s-no-gm?authuser=0",
-  "bio": [
-    "Domenikos Theotokopoulos, universellement connu sous le nom d'El Greco, est un artiste visionnaire né en Crète en 1541 et mort à Tolède en 1614. Après avoir été formé à l'art des icônes byzantines, il séjourne à Venise et à Rome, où il s'imprègne des leçons de Titien et de Michel-Ange, avant de s'établir définitivement en Espagne en 1577. Ce parcours géographique et culturel unique a fait de lui un peintre inclassable, dont le génie n'a été pleinement redécouvert qu'au début du XXe siècle par les avant-gardes modernes.",
-    "Son genre pictural est profondément marqué par le maniérisme, qu'il pousse à des sommets d'expressionnisme spirituel. El Greco se spécialise dans les compositions religieuses monumentales et les portraits d'une intensité psychologique rare. Son style se reconnaît immédiatement à ses figures allongées, presque immatérielles, et à son usage de couleurs acides et contrastées qui semblent vibrer d'une lumière surnaturelle. Contrairement aux peintres de la Renaissance qui cherchaient la proportion idéale, il utilise la déformation et le mouvement pour traduire l'extase mystique et la ferveur religieuse de l'Espagne de la Contre-Réforme.",
-    "L'évolution de son style est une trajectoire fascinante allant d'un certain naturalisme vénitien vers une abstraction spirituelle totale. À mesure qu'il s'isole à Tolède, son art s'affranchit des règles de la perspective classique pour privilégier une organisation spatiale rythmée par des nuages tourmentés et des draperies aux reflets métalliques. Dans ses dernières œuvres, comme L'Ouverture du cinquième sceau, les formes se dissolvent presque dans l'énergie du pinceau, préfigurant de plusieurs siècles l'expressionnisme moderne. Cette quête de transcendance par la couleur et la forme a fait de lui l'un des artistes les plus originaux et les plus puissants de toute l'histoire de la peinture."
-  ],
+  "bio": `
+      <p><strong>Le visionnaire du Maniérisme espagnol</strong><br>
+      Domenikos Theotokopoulos, universellement connu sous le nom d'El Greco, est un artiste visionnaire né en Crète en 1541 et mort à Tolède en 1614. Après avoir été formé à l'art des icônes byzantines, il séjourne à Venise et à Rome, où il s'imprègne des leçons de Titien et de Michel-Ange, avant de s'établir définitivement en Espagne en 1577. Ce parcours géographique et culturel unique a fait de lui un peintre inclassable, dont le génie n'a été pleinement redécouvert qu'au début du XXe siècle par les avant-gardes modernes.</p>
+      <p><strong>Allongements, couleurs acides et ferveur mystique</strong><br>
+      Son genre pictural est profondément marqué par le maniérisme, qu'il pousse à des sommets d'expressionnisme spirituel. El Greco se spécialise dans les compositions religieuses monumentales et les portraits d'une intensité psychologique rare. Son style se reconnaît immédiatement à ses figures allongées, presque immatérielles, et à son usage de couleurs acides et contrastées qui semblent vibrer d'une lumière surnaturelle. Contrairement aux peintres de la Renaissance qui cherchaient la proportion idéale, il utilise la déformation et le mouvement pour traduire l'extase mystique et la ferveur religieuse de l'Espagne de la Contre-Réforme.</p>
+      <p><strong>De la Crète à Tolède : un style de plus en plus visionnaire</strong><br>
+      L'évolution de son style est une trajectoire fascinante allant d'un certain naturalisme vénitien vers une abstraction spirituelle totale. À mesure qu'il s'isole à Tolède, son art s'affranchit des règles de la perspective classique pour privilégier une organisation spatiale rythmée par des nuages tourmentés et des draperies aux reflets métalliques. Dans ses dernières œuvres, comme L'Ouverture du cinquième sceau, les formes se dissolvent presque dans l'énergie du pinceau, préfigurant de plusieurs siècles l'expressionnisme moderne. Cette quête de transcendance par la couleur et la forme a fait de lui l'un des artistes les plus originaux et les plus puissants de toute l'histoire de la peinture.</p>
+    `,
   "corpus": {
     "total": 290,
     "seen": 5,
@@ -13038,11 +13119,14 @@ window.ARTISTS_REGISTRY = {
   "nationality": "Belge (Ostende / Bruxelles)",
   "techniques": "Peinture à l'huile, palette stridente et nacrée, empâtements nerveux, grotesque carnavalesque, masques et squelettes, eau-forte",
   "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczN2jWrznRiMc9jpE4hqv7qwSuZ3hwRSJ1hOw2OVzoKKgmXJM6ET-yUs_YvAAxJ78srGsH0dOcoTg9yiXyObWUw-4TVdTfCFaixHhllLYnFccppYc8d_U7Yb9tvekxLq9u01NDnLuwPxl9_rdJo6jdY8eg=w1681-h713-s-no-gm?authuser=0",
-  "bio": [
-    "James Ensor (1860 – 1949), figure majeure de l'art belge, est un précurseur solitaire de l'expressionnisme et du surréalisme. Ayant passé la quasi-totalité de sa vie dans sa ville natale d'Ostende, au milieu du magasin de souvenirs et de masques tenu par sa famille, il a développé une œuvre singulière, acide et visionnaire, en rupture totale avec les conventions esthétiques de son temps.",
-    "Son genre pictural se caractérise par un usage subversif de l'ironie et du grotesque. Il délaisse rapidement le réalisme pour un monde peuplé de masques de carnaval, de squelettes et de figures de la commedia dell'arte. Pour Ensor, le masque ne sert pas à cacher, mais à révéler la laideur intérieure, l'hypocrisie et la cruauté de la société bourgeoise. Sa peinture est une mise en scène théâtrale et macabre de la condition humaine.",
-    "L'évolution de son style est marquée par un passage de l'ombre à une lumière stridente : des débuts sombres influencés par le réalisme flamand des scènes d'intérieur bourgeoises, à l'explosion fantastique des années 1885–1890 aux couleurs pures et acides (dont le sommet est L'Entrée du Christ à Bruxelles), jusqu'à la cristallisation de sa maturité où son dessin devient plus linéaire et ses teintes nacrées, faisant de lui l'un des pères fondateurs de la modernité européenne."
-  ],
+  "bio": `
+      <p><strong>Le solitaire d'Ostende</strong><br>
+      James Ensor (1860 – 1949), figure majeure de l'art belge, est un précurseur solitaire de l'expressionnisme et du surréalisme. Ayant passé la quasi-totalité de sa vie dans sa ville natale d'Ostende, au milieu du magasin de souvenirs et de masques tenu par sa famille, il a développé une œuvre singulière, acide et visionnaire, en rupture totale avec les conventions esthétiques de son temps.</p>
+      <p><strong>Masques, squelettes et couleurs vives</strong><br>
+      Son genre pictural se caractérise par un usage subversif de l'ironie et du grotesque. Il délaisse rapidement le réalisme pour un monde peuplé de masques de carnaval, de squelettes et de figures de la commedia dell'arte. Pour Ensor, le masque ne sert pas à cacher, mais à révéler la laideur intérieure, l'hypocrisie et la cruauté de la société bourgeoise. Sa peinture est une mise en scène théâtrale et macabre de la condition humaine.</p>
+      <p><strong>De la sombre peinture de jeunesse au Symbolisme</strong><br>
+      L'évolution de son style est marquée par un passage de l'ombre à une lumière stridente : des débuts sombres influencés par le réalisme flamand des scènes d'intérieur bourgeoises, à l'explosion fantastique des années 1885–1890 aux couleurs pures et acides (dont le sommet est L'Entrée du Christ à Bruxelles), jusqu'à la cristallisation de sa maturité où son dessin devient plus linéaire et ses teintes nacrées, faisant de lui l'un des pères fondateurs de la modernité européenne.</p>
+    `,
   "corpus": {
     "total": 880,
     "seen": 1,
@@ -13250,11 +13334,14 @@ window.ARTISTS_REGISTRY = {
   "nationality": "Allemand / Français / Américain (Brühl / Cologne / Paris / New York / Sedona / Huismes)",
   "techniques": "Collage subversif, frottage (calquage de textures), grattage, décalcomanie, dripping précurseur, huile sur toile",
   "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczPzkJcXP9MYlMZ4C4imG_tfYcdHQYyeZFleoM3xPr5HkudPNE-cZSGSI9w_Pl6LePMy8nboI8ZKen2T7L7Yp1WjhkECZSb6t9AmErnvzLh5Zr2vvMM42R6AUyn2QIooDlstn6LDYmibMxBSJiaWPWWp8Q=w1681-h713-s-no-gm?authuser=0",
-  "bio": [
-    "Max Ernst (1891 – 1976) est l'un des piliers fondamentaux du Dadaïsme et du Surréalisme. Artiste autodidacte d'une curiosité insatiable, il a cherché à court-circuiter la raison pour faire émerger les images de l'inconscient. Véritable inventeur de formes, il a passé sa vie à traquer « le merveilleux » à travers des techniques expérimentales destinées à provoquer l'hallucination et l'automatisme.",
-    "Son genre pictural se définit par le surréalisme visionnaire et le paysage onirique. Son style se caractérise par le refus de la touche traditionnelle au profit de procédés mécaniques ou aléatoires : le collage, le frottage (calquage de textures), le grattage et la décalcomanie. Ces méthodes lui permettent de faire surgir des forêts pétrifiées, des oiseaux anthropomorphes (comme son alter ego Loplop) et des architectures fantastiques.",
-    "L'évolution de son style est une succession de découvertes techniques au service de l'imaginaire : la période Dada et le collage (1919-1922) à Cologne où il détourne des gravures anciennes et manuels techniques pour créer des chocs visuels absurdes ; l'invention du Frottage et les Forêts (1925-1930) laissant parler les structures du monde organique et hostile ; la décalcomanie et l'exil américain (1940-1950) créant des jungles luxuriantes et des visions apocalyptiques d'un monde en décomposition, culminant avec son retour en France et le Grand Prix de la Biennale de Venise en 1954."
-  ],
+  "bio": `
+      <p><strong>Le visionnaire du Dadaïsme et du Surréalisme</strong><br>
+      Max Ernst (1891 – 1976) est l'un des piliers fondamentaux du Dadaïsme et du Surréalisme. Artiste autodidacte d'une curiosité insatiable, il a cherché à court-circuiter la raison pour faire émerger les images de l'inconscient. Véritable inventeur de formes, il a passé sa vie à traquer « le merveilleux » à travers des techniques expérimentales destinées à provoquer l'hallucination et l'automatisme.</p>
+      <p><strong>Collage, frottage et paysages oniriques</strong><br>
+      Son genre pictural se définit par le surréalisme visionnaire et le paysage onirique. Son style se caractérise par le refus de la touche traditionnelle au profit de procédés mécaniques ou aléatoires : le collage, le frottage (calquage de textures), le grattage et la décalcomanie. Ces méthodes lui permettent de faire surgir des forêts pétrifiées, des oiseaux anthropomorphes (comme son alter ego Loplop) et des architectures fantastiques.</p>
+      <p><strong>Une succession de découvertes techniques au service de l'imaginaire</strong><br>
+      L'évolution de son style est une succession de découvertes techniques au service de l'imaginaire : la période Dada et le collage (1919-1922) à Cologne où il détourne des gravures anciennes et manuels techniques pour créer des chocs visuels absurdes ; l'invention du Frottage et les Forêts (1925-1930) laissant parler les structures du monde organique et hostile ; la décalcomanie et l'exil américain (1940-1950) créant des jungles luxuriantes et des visions apocalyptiques d'un monde en décomposition, culminant avec son retour en France et le Grand Prix de la Biennale de Venise en 1954.</p>
+    `,
   "corpus": {
     "total": 1200,
     "seen": 1,
@@ -13490,11 +13577,14 @@ window.ARTISTS_REGISTRY = {
   "nationality": "Italien (Vicchio di Mugello / Fiesole / Florence / Rome)",
   "techniques": "Tempera et or sur panneau de bois, fresque sur enduit à la chaux, perspective mathématique linéaire, palette céleste azurée, lumière spirituelle unifiée",
   "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczPjOWo9m1sOoqe1ktbj88RitPudDdkU4VUzc2XzvfB9IY9IeUdcw2JAGz_1FDKLSLyqztQGYNurdX1W2MsqX7mWYB7R0ajElprNLtP4lomsVJDnoQOHiGcEtU-AcqzRLotKBknNNSJxja7tAxC2loWUug=w1681-h713-s-no-gm?authuser=0",
-  "bio": [
-    "Fra Giovanni da Fiesole, dit Fra Angelico, né Guido di Pietro vers 1395 et mort en 1455 à Rome, est le peintre de la lumière divine et de la pureté angélique. Moine dominicain, il a mené de front une vie de dévotion exemplaire et une carrière d'artiste majeur de la première Renaissance florentine. Surnommé « le Bienheureux » (Beato Angelico), il a mis son génie au service de l'ordre des Prêcheurs, décorant notamment le couvent de San Marco à Florence. Son art, profondément spirituel, ne se limite pas à la piété médiévale mais intègre avec brio les innovations de son temps, faisant de lui un pont souverain entre le sacré et l'humanisme.",
-    "Son genre pictural se caractérise par une fusion unique entre la grâce médiévale et la modernité perspective. Le style de Fra Angelico se distingue par une palette de couleurs paradisiaques, aux tons clairs et azurés, et une utilisation magistrale de la feuille d'or pour rendre le rayonnement céleste. Cependant, sous cette apparente douceur se cache une rigueur géométrique absolue : influencé par Masaccio et Brunelleschi, il applique avec une grande maîtrise les lois de la perspective linéaire pour structurer des architectures classiques et ordonner l'espace sacré.",
-    "L'évolution de son travail montre un passage d'un raffinement ornemental vers une sobriété méditative. Ses premières œuvres, comme ses retables dorés de Fiesole, célèbrent la magnificence divine par la richesse des détails. Dans sa maturité, notamment lors de la décoration des cellules du couvent de San Marco, il épure radicalement ses compositions pour ne conserver que l'essence théologique de l'événement, invitant le fidèle à une prière silencieuse et dépouillée. Ses dernières fresques romaines pour le pape Nicolas V au Vatican allient la monumentalité classique à une souveraine plénitude narrative."
-  ],
+  "bio": `
+      <p><strong>Le peintre de la lumière divine</strong><br>
+      Fra Giovanni da Fiesole, dit Fra Angelico, né Guido di Pietro vers 1395 et mort en 1455 à Rome, est le peintre de la lumière divine et de la pureté angélique. Moine dominicain, il a mené de front une vie de dévotion exemplaire et une carrière d'artiste majeur de la première Renaissance florentine. Surnommé « le Bienheureux » (Beato Angelico), il a mis son génie au service de l'ordre des Prêcheurs, décorant notamment le couvent de San Marco à Florence. Son art, profondément spirituel, ne se limite pas à la piété médiévale mais intègre avec brio les innovations de son temps, faisant de lui un pont souverain entre le sacré et l'humanisme.</p>
+      <p><strong>Grâce médiévale et modernité perspective</strong><br>
+      Son genre pictural se caractérise par une fusion unique entre la grâce médiévale et la modernité perspective. Le style de Fra Angelico se distingue par une palette de couleurs paradisiaques, aux tons clairs et azurés, et une utilisation magistrale de la feuille d'or pour rendre le rayonnement céleste. Cependant, sous cette apparente douceur se cache une rigueur géométrique absolue : influencé par Masaccio et Brunelleschi, il applique avec une grande maîtrise les lois de la perspective linéaire pour structurer des architectures classiques et ordonner l'espace sacré.</p>
+      <p><strong>D'un raffinement ornemental à une sobriété méditative</strong><br>
+      L'évolution de son travail montre un passage d'un raffinement ornemental vers une sobriété méditative. Ses premières œuvres, comme ses retables dorés de Fiesole, célèbrent la magnificence divine par la richesse des détails. Dans sa maturité, notamment lors de la décoration des cellules du couvent de San Marco, il épure radicalement ses compositions pour ne conserver que l'essence théologique de l'événement, invitant le fidèle à une prière silencieuse et dépouillée. Ses dernières fresques romaines pour le pape Nicolas V au Vatican allient la monumentalité classique à une souveraine plénitude narrative.</p>
+    `,
   "corpus": {
     "total": 150,
     "seen": 17,
@@ -13777,11 +13867,14 @@ window.ARTISTS_REGISTRY = {
   "nationality": "Français (Grasse, Provence / Paris / Rome / Tivoli)",
   "techniques": "Peinture à l'huile, touche rapide (fa presto), lavis bistre vigoureux, clair-obscur atmosphérique, pastel poudré, brio pictural",
   "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczP4hXMbeIzcJOHLHft26wwPh1_aCZbJN_NXJG0xIDnn_h6bG5Mab3-XxfHpUZAKx3LwA9hCnCEZs8vOtAO3iVJ8JpMTKkheCE9N53yoYOKEEuiE3BJ_25vrtywxxyu3Hn501kJLwxqQNR1s4r_nyTZ0sg=w2329-h988-s-no-gm?authuser=0",
-  "bio": [
-    "Jean-Honoré Fragonard (1732 – 1806) est l'un des peintres les plus emblématiques du Rococo français. Élève de Boucher et de Chardin, il a développé une virtuosité technique exceptionnelle qui lui a permis de passer de la peinture d'histoire monumentale aux scènes galantes les plus légères, capturant l'esprit de liberté et d'insouciance de l'aristocratie de la fin de l'Ancien Régime.",
-    "Son genre pictural se définit par la peinture galante et le lyrisme atmosphérique. Fragonard est le maître de la « touche rapide » et du mouvement. Son style se caractérise par une palette lumineuse, des compositions froufroutantes et une capacité unique à rendre la texture des étoffes, la fraîcheur des paysages et l'ardeur des sentiments. Contrairement à la rigueur académique, il privilégie l'émotion, le plaisir des yeux et une certaine forme de spontanéité picturale.",
-    "L'évolution de son style témoigne d'une curiosité insatiable et d'une grande adaptabilité : la période romaine et le paysage à la Villa Médicis et à Tivoli avec Hubert Robert ; l'apogée du Rococo (années 1760-1770) avec ses chefs-d'œuvre de la fête galante et champêtre ; la série fulgurante des « Figures de fantaisie » exécutées en une heure de temps avec une fougue pré-impressionniste ; puis le tournant néoclassique et moralisateur de la fin du siècle, avant que la Révolution française ne vienne clore l'âge d'or des Lumières."
-  ],
+  "bio": `
+      <p><strong>Le maître du Rococo galant</strong><br>
+      Jean-Honoré Fragonard (1732 – 1806) est l'un des peintres les plus emblématiques du Rococo français. Élève de Boucher et de Chardin, il a développé une virtuosité technique exceptionnelle qui lui a permis de passer de la peinture d'histoire monumentale aux scènes galantes les plus légères, capturant l'esprit de liberté et d'insouciance de l'aristocratie de la fin de l'Ancien Régime.</p>
+      <p><strong>La touche rapide et le lyrisme atmosphérique</strong><br>
+      Son genre pictural se définit par la peinture galante et le lyrisme atmosphérique. Fragonard est le maître de la « touche rapide » et du mouvement. Son style se caractérise par une palette lumineuse, des compositions froufroutantes et une capacité unique à rendre la texture des étoffes, la fraîcheur des paysages et l'ardeur des sentiments. Contrairement à la rigueur académique, il privilégie l'émotion, le plaisir des yeux et une certaine forme de spontanéité picturale.</p>
+      <p><strong>D'Italie à Paris : une curiosité insatiable</strong><br>
+      L'évolution de son style témoigne d'une curiosité insatiable et d'une grande adaptabilité : la période romaine et le paysage à la Villa Médicis et à Tivoli avec Hubert Robert ; l'apogée du Rococo (années 1760-1770) avec ses chefs-d'œuvre de la fête galante et champêtre ; la série fulgurante des « Figures de fantaisie » exécutées en une heure de temps avec une fougue pré-impressionniste ; puis le tournant néoclassique et moralisateur de la fin du siècle, avant que la Révolution française ne vienne clore l'âge d'or des Lumières.</p>
+    `,
   "corpus": {
     "total": 400,
     "seen": 11,
@@ -14017,11 +14110,29 @@ window.ARTISTS_REGISTRY = {
     nationality: "Allemande",
     techniques: "Huile sur toile, lavis sépia, dessin à la mine de plomb",
     bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczNC82WNU3zBnspviVm55Y5rgT92Ng3F1JX0Ojp5JAA5OnR-VKSbiy6XWl2wX4r4XXrOrSibyXY06yadtpF0HwB4c-p-5pxpAxKKx_wIjLk31dzCWQ2bQalceaNZF1618nnZO0YE2GM3l9zIQL1aPT-DCQ=w1681-h713-s-no-gm?authuser=0",
-    bio: [
-      "Caspar David Friedrich (1774 – 1840) est le chef de file incontesté du Romantisme allemand. Profondément mystique et habité par une quête d'absolu, il a révolutionné la peinture occidentale en transformant le paysage en un miroir poignant de l'âme humaine et un vecteur privilégié de la transcendance divine. Pour Friedrich, la nature n'est jamais un simple décor pittoresque, mais la manifestation sensible du divin devant laquelle l'homme est appelé à se confronter à sa propre finitude et à contempler l'immensité de la Création.",
-      "Son genre pictural se définit par le paysage tragique, spirituel et contemplatif. Son style se caractérise par des compositions rigoureusement construites, souvent basées sur une symétrie parfaite, des axes géométriques invisibles et des lignes de force marquées. Il invente l'usage magistral de la Rückenfigur (figure humaine vue de dos), qui permet au spectateur de s'identifier directement au personnage et de partager avec lui le vertige de l'infini. Sa palette utilise des ciels vaporeux, des brumes d'aube ou de crépuscule, des clairs-obscurs lunaires et des silences habités qui suspendent le temps.",
-      "L'évolution de son art marque un passage décisif d'une observation minutieuse de la nature vers une abstraction spirituelle d'une radicalité sidérante. Après ses débuts à Greifswald et Copenhague, il s'installe à Dresde où il sidère le public avec Le Retable de Tetschen (1808) puis Le Moine au bord de la mer (1808-1810), où la réduction des plans frôle l'abstraction pure. Dans les années 1820, il atteint le sommet de sa gloire avec Le Voyageur contemplant une mer de nuages (1818), Bord de mer au clair de lune (1818, Louvre), L'Arbre aux corbeaux (1822, Louvre) et La Mer de glace (1823-1824). Dans les années 1830, diminué par un AVC et oublié par la mode, ses visions deviennent crépusculaires, peuplées de tombes, de ruines gothiques et de forêts mortes sous la neige."
-    ],
+    bio: `
+      <p><strong>Le chef de file du Romantisme allemand</strong><br>
+      Caspar David Friedrich (1774 – 1840) est le chef de file incontesté du Romantisme allemand. Profondément mystique et habité par une quête d'absolu, il a révolutionné la peinture occidentale en transformant le paysage en un miroir poignant de l'âme humaine et un vecteur privilégié de la transcendance divine. Pour Friedrich, la nature n'est jamais un simple décor pittoresque, mais la manifestation sensible du divin devant laquelle l'homme est appelé à se confronter à sa propre finitude et à contempler l'immensité de la Création.</p>
+      <p><strong>Le paysage tragique, spirituel et contemplatif</strong><br>
+      Son genre pictural se définit par le paysage tragique, spirituel et contemplatif. Son style se caractérise par des compositions rigoureusement construites, souvent basées sur une symétrie parfaite, des axes géométriques invisibles et des lignes de force marquées. Il invente l'usage magistral de la Rückenfigur (figure humaine vue de dos), qui permet au spectateur de s'identifier directement au personnage et de partager avec lui le vertige de l'infini. Sa palette utilise des ciels vaporeux, des brumes d'aube ou de crépuscule, des clairs-obscurs lunaires et des silences habités qui suspendent le temps.</p>
+      <p><strong>De l'observation de la nature à l'abstraction spirituelle</strong><br>
+      L'évolution de son art marque un passage décisif d'une observation minutieuse de la nature vers une abstraction spirituelle d'une radicalité sidérante. Après ses débuts à Greifswald et Copenhague, il s'installe à Dresde où il sidère le public avec Le Retable de Tetschen (1808) puis Le Moine au bord de la mer (1808-1810), où la réduction des plans frôle l'abstraction pure. Dans les années 1820, il atteint le sommet de sa gloire avec Le Voyageur contemplant une mer de nuages (1818), Bord de mer au clair de lune (1818, Louvre), L'Arbre aux corbeaux (1822, Louvre) et La Mer de glace (1823-1824). Dans les années 1830, diminué par un AVC et oublié par la mode, ses visions deviennent crépusculaires, peuplées de tombes, de ruines gothiques et de forêts mortes sous la neige.</p>
+    `,
+    corpus: {
+      "total": 150,
+      "paintingsCount": 150,
+      "details": [
+        {
+          "label": "Huiles sur toile préservées",
+          "count": 150,
+          "icon": "🎨",
+          "color": "#d4af37",
+          "note": "~250 produites de son vivant"
+        }
+      ],
+      "sourceTitle": "Catalogue de référence & recensement muséal",
+      "sourceNotes": "En excluant son vaste œuvre graphique, le catalogue de référence recense historiquement environ 250 peintures à l'huile produites de son vivant. Plusieurs chefs-d'œuvre ont disparu dans l'incendie du Glaspalast de Munich (1931) et lors des bombardements de Dresde et Berlin (1945). Le consensus scientifique et muséal estime le corpus des huiles préservées à environ 150 œuvres."
+    },
     totalOeuvresEstimees: "~150 huiles préservées (~250 produites de son vivant)",
     oeuvresConsensusNotice: "En excluant son vaste œuvre graphique (dessins à la mine de plomb et lavis sépia se comptant par centaines), le catalogue de référence recense historiquement environ 250 peintures à l'huile produites de son vivant. Le destin de son œuvre fut tragique : plusieurs chefs-d'œuvre disparurent dans l'incendie du Glaspalast de Munich en 1931 et lors des bombardements de Dresde et Berlin en 1945. Le consensus scientifique et muséal estime ainsi le corpus de ses huiles sur toile aujourd'hui préservées à environ 150 œuvres.",
     timeline: {
@@ -14095,11 +14206,28 @@ window.ARTISTS_REGISTRY = {
     nationality: "Britannique",
     techniques: "Huile sur toile, lavis, craie, pastel",
     bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczMC8DhL7e83Qkme1SVhaVWQ0Ktux26Sfewao2iSHZ6d_n2EDGAsiQysezC2lDeWeQkNMgJWKIu8ZWiwbDiuWezqqXUkZTPf6yyhefbj5gpf8wqJaeCEUcbLB93ud0SGfB7ptub8V8nrtHxnaylDoByj1Q=w1681-h713-s-no-gm?authuser=0",
-    bio: [
-      "Thomas Gainsborough (1727 – 1788) est avec Sir Joshua Reynolds l'une des figures majeures de la peinture britannique du XVIIIe siècle. Virtuose instinctif et farouchement indépendant, il a révolutionné le portrait et le paysage en y insufflant une grâce vaporeuse, un sens aigu de la lumière naturelle et une communion intime entre l'homme et son environnement.",
-      "Son œuvre se partage entre deux passions complémentaires : les portraits de commande aristocratiques, qui lui apportèrent gloire et fortune auprès de la cour de George III, et les paysages rustiques, sa véritable passion de cœur. Son style se distingue par une touche d'une prodigieuse liberté, nerveuse et liquide, où la matière picturale semble flotter. Contrairement aux poses sévères de l'académisme, ses modèles sont saisis dans des attitudes vivantes et détendues, vêtus de soies chatoyantes qui captent les moindres reflets d'une lumière argentée.",
-      "L'évolution de son art traverse trois grandes périodes : ses débuts dans le Suffolk et à Ipswich, marqués par les maîtres hollandais et l'invention des 'conversation pieces' intimes comme Conversation dans un parc (vers 1746, Louvre) et Robert Andrews et sa femme ; son triomphe mondain à Bath (1759-1774), où l'étude des toiles d'Anthony van Dyck métamorphose ses portraits en visions de pure féerie aristocratique (L'Enfant bleu, The Blue Boy) ; enfin sa maturité éclatante à Londres (1774-1788), peintre favori du roi George III et de la reine Charlotte, pionnier de la Royal Academy qu'il quittera pour exposer librement dans sa propre galerie de Schomberg House."
-    ],
+    bio: `
+      <p><strong>L'une des grandes figures de la peinture britannique</strong><br>
+      Thomas Gainsborough (1727 – 1788) est avec Sir Joshua Reynolds l'une des figures majeures de la peinture britannique du XVIIIe siècle. Virtuose instinctif et farouchement indépendant, il a révolutionné le portrait et le paysage en y insufflant une grâce vaporeuse, un sens aigu de la lumière naturelle et une communion intime entre l'homme et son environnement.</p>
+      <p><strong>Portraits de commande et paysages de cœur</strong><br>
+      Son œuvre se partage entre deux passions complémentaires : les portraits de commande aristocratiques, qui lui apportèrent gloire et fortune auprès de la cour de George III, et les paysages rustiques, sa véritable passion de cœur. Son style se distingue par une touche d'une prodigieuse liberté, nerveuse et liquide, où la matière picturale semble flotter. Contrairement aux poses sévères de l'académisme, ses modèles sont saisis dans des attitudes vivantes et détendues, vêtus de soies chatoyantes qui captent les moindres reflets d'une lumière argentée.</p>
+      <p><strong>Du Suffolk à Londres, trois grandes périodes</strong><br>
+      L'évolution de son art traverse trois grandes périodes : ses débuts dans le Suffolk et à Ipswich, marqués par les maîtres hollandais et l'invention des 'conversation pieces' intimes comme Conversation dans un parc (vers 1746, Louvre) et Robert Andrews et sa femme ; son triomphe mondain à Bath (1759-1774), où l'étude des toiles d'Anthony van Dyck métamorphose ses portraits en visions de pure féerie aristocratique (L'Enfant bleu, The Blue Boy) ; enfin sa maturité éclatante à Londres (1774-1788), peintre favori du roi George III et de la reine Charlotte, pionnier de la Royal Academy qu'il quittera pour exposer librement dans sa propre galerie de Schomberg House.</p>
+    `,
+    corpus: {
+      "total": 1300,
+      "paintingsCount": 1300,
+      "details": [
+        {
+          "label": "Peintures achevées",
+          "count": 1300,
+          "icon": "🎨",
+          "color": "#d4af37"
+        }
+      ],
+      "sourceTitle": "Catalogues raisonnés Hugh Belsey (2019) & John Hayes (1982)",
+      "sourceNotes": "Le décompte s'appuie sur le catalogue d'Hugh Belsey (2019, Paul Mellon Centre) recensant plus de 1 100 portraits et scènes de genre (« fancy pictures »), et sur celui de John Hayes (1982) répertoriant environ 185 à 200 paysages. Corpus total d'environ 1 300 peintures achevées."
+    },
     totalOeuvresEstimees: "~1 300 peintures achevées",
     oeuvresConsensusNotice: "Gainsborough ayant mené une carrière scindée entre portraits mondains et paysages, le décompte scientifique s'appuie sur deux catalogues raisonnés majeurs : celui d'Hugh Belsey (2019, Paul Mellon Centre) recensant plus de 1 100 portraits et scènes de genre ('fancy pictures'), et celui de John Hayes (1982) répertoriant environ 185 à 200 paysages. Le consensus scientifique et muséal fixe le corpus total des peintures achevées de Gainsborough à environ 1 300 œuvres.",
     timeline: {
@@ -14161,11 +14289,28 @@ window.ARTISTS_REGISTRY = {
     nationality: "Français",
     techniques: "Huile sur toile, cloisonnisme, sculpture sur bois, gravure sur bois, céramique",
     bannerImg: "https://lh3.googleusercontent.com/pw/AP1GczNdCEGsjzeY0U5jzQKbmPfaRb_4gYMEHA26IAS-9fCdfeDxyElPD-DX94fsMopOEnPzyNNatDVpHLPQ-JzWdFjNJhJxl6hs97Gan6Fn_X3rLekICsG1gQzJ5CwJe1NvBet1_KUZJr_3sO9t4lD3QdxaPQ=w1681-h713-s-no-gm?authuser=0",
-    bio: [
-      "Paul Gauguin (1848 – 1903) est une figure centrale du post-impressionnisme et l'un des précurseurs les plus radicaux de l'art moderne. Ancien agent de change ayant tout plaqué pour la peinture, il fuit la civilisation industrielle en quête d'un \"état sauvage\" originel, d'abord en Bretagne, puis en Polynésie. Son refus de la perspective classique et son usage symbolique de la couleur ont ouvert la voie au fauvisme et à l'expressionnisme.",
-      "Son genre pictural se définit par le synthétisme et le cloisonnisme. Gauguin rejette l'imitation de la nature pour privilégier la vision intérieure et la mémoire. Son style repose sur de grands aplats de couleurs pures, souvent arbitraires (comme un ciel rouge ou un chien bleu), délimités par des cernes noirs marqués. Il cherche à fusionner le sujet réel avec une dimension spirituelle ou mythologique, créant des œuvres au caractère décoratif et sacré.",
-      "L'évolution de son art s'accomplit en trois étapes fondatrices : ses débuts impressionnistes sous l'égide de Camille Pissarro, explorant les réfractions lumineuses et des sujets intimistes bourgeaois ; l'École de Pont-Aven et Le Pouldu en Bretagne, où il invente le synthétisme et brise l'espace tridimensionnel avec La Vision après le sermon (1888) et Bretonnes près de la mer (1889) ; enfin, la période tahitienne et marquisienne, apogée mystique et solaire où sa palette explose en harmonies ardentes et monumentales, culminant avec son testament universel D'où venons-nous ? Que sommes-nous ? Où allons-nous ? (1897) et Trois Tahitiens (1899)."
-    ],
+    bio: `
+      <p><strong>Un précurseur radical de l'art moderne</strong><br>
+      Paul Gauguin (1848 – 1903) est une figure centrale du post-impressionnisme et l'un des précurseurs les plus radicaux de l'art moderne. Ancien agent de change ayant tout plaqué pour la peinture, il fuit la civilisation industrielle en quête d'un "état sauvage" originel, d'abord en Bretagne, puis en Polynésie. Son refus de la perspective classique et son usage symbolique de la couleur ont ouvert la voie au fauvisme et à l'expressionnisme.</p>
+      <p><strong>Le synthétisme et le cloisonnisme</strong><br>
+      Son genre pictural se définit par le synthétisme et le cloisonnisme. Gauguin rejette l'imitation de la nature pour privilégier la vision intérieure et la mémoire. Son style repose sur de grands aplats de couleurs pures, souvent arbitraires (comme un ciel rouge ou un chien bleu), délimités par des cernes noirs marqués. Il cherche à fusionner le sujet réel avec une dimension spirituelle ou mythologique, créant des œuvres au caractère décoratif et sacré.</p>
+      <p><strong>Des débuts impressionnistes à Tahiti et aux Marquises</strong><br>
+      L'évolution de son art s'accomplit en trois étapes fondatrices : ses débuts impressionnistes sous l'égide de Camille Pissarro, explorant les réfractions lumineuses et des sujets intimistes bourgeaois ; l'École de Pont-Aven et Le Pouldu en Bretagne, où il invente le synthétisme et brise l'espace tridimensionnel avec La Vision après le sermon (1888) et Bretonnes près de la mer (1889) ; enfin, la période tahitienne et marquisienne, apogée mystique et solaire où sa palette explose en harmonies ardentes et monumentales, culminant avec son testament universel D'où venons-nous ? Que sommes-nous ? Où allons-nous ? (1897) et Trois Tahitiens (1899).</p>
+    `,
+    corpus: {
+      "total": 638,
+      "paintingsCount": 638,
+      "details": [
+        {
+          "label": "Peintures achevées",
+          "count": 638,
+          "icon": "🎨",
+          "color": "#d4af37"
+        }
+      ],
+      "sourceTitle": "Catalogue raisonné Georges & Daniel Wildenstein",
+      "sourceNotes": "Sont écartées sa production polymorphe (céramiques, sculptures sur bois polychromes, gravures et zincographies). Le catalogue raisonné établi par Georges Wildenstein et révisé par Daniel Wildenstein fixe le corpus des peintures achevées à 638 œuvres."
+    },
     totalOeuvresEstimees: "638 peintures achevées",
     oeuvresConsensusNotice: "En écartant sa riche production polymorphe (céramiques brutes, sculptures sur bois polychromes, gravures et zincographies se comptant par centaines), le catalogue raisonné de référence mondiale établi par Georges Wildenstein et révisé par Daniel Wildenstein fixe le corpus global des peintures achevées de Paul Gauguin à très exactement 638 œuvres.",
     timeline: {
