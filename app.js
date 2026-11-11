@@ -5360,63 +5360,159 @@ function computeArtistThemes(artistRecord, artistArts) {
     return results;
   }
 
-  // Moteur thématique universel pour tous les autres artistes
-  const universalDefs = [
-    {
-      id: 'portraits_figures',
-      icon: '👤',
-      title: 'Portraits, Figures & Psychologie',
-      match: (a, full) => /portrait|ambassadeur|dame|homme|femme|jeune fille|époux|epoux|prince|roi|reine|cardinal|duc|comtesse|monsieur|madame|docteur|tête d'expression|buveur|bohémienne/i.test(full) && !/autoportrait/i.test(a.title || '')
-    },
-    {
-      id: 'autoportraits_atelier',
-      icon: '🪞',
-      title: 'Autoportraits, Atelier & Introspection',
-      match: (a, full) => /autoportrait|self-portrait|atelier du peintre|l'atelier|moi-même/i.test(full)
-    },
-    {
-      id: 'paysages_nature',
-      icon: '🌳',
-      title: 'Paysages, Mer, Jardins & Saisons',
-      match: (a, full) => /paysage|marine|mer|plage|montagne|forêt|foret|arbre|jardin|campagne|vallée|vallee|fleuve|rivière| pont |tempête|tempete|brume|soleil|neige|printemps|automne|hiver|été|port de|falaises|canal|venise/i.test(full)
-    },
-    {
-      id: 'sacre_religion',
-      icon: '✝️',
-      title: 'Art Sacré, Récits Bibliques & Spiritualité',
-      match: (a, full) => /christ|vierge|madone|saint |sainte |annonciation|nativité|nativite|crucifixion|déposition|deposition|pietà|pieta|jugement dernier|apocalypse|ange|retable|passion|résurrection|resurrection|cène|martyre|bibli|évangile|evangile|prière|priere/i.test(full)
-    },
-    {
-      id: 'mythologie_histoire',
-      icon: '🏛️',
-      title: 'Mythologie, Histoire, Drames & Allégories',
-      match: (a, full) => /mytholog|allégor|allegor|vénus|venus|apollon|bacchus|jupiter|mars|nymphe|bataille|guerre|massacre|exécution|execution|radeau|liberté|liberte|histoire|empereur|héros|heros|triomphe|sabines|serment|mort de/i.test(full)
-    },
-    {
-      id: 'vie_quotidienne_genre',
-      icon: '🎭',
-      title: 'Scènes de Genre, Vie Quotidienne & Société',
-      match: (a, full) => /scène de genre|scene de genre|vie quotidienne|village|cabaret|café|cafe|rue|danse|musique|guitare|accordée|accordee|famille|intérieur|interieur|fête|fete|bal|satir|caricature|bourgeois|peuple|travail|marché|marche/i.test(full)
-    },
-    {
-      id: 'natures_mortes_vanites',
-      icon: '🍎',
-      title: 'Natures Mortes, Fleurs, Objets & Vanités',
-      match: (a, full) => /nature morte|vanité|vanite|crâne|crane|bouquet|vase|fleurs|fruits|pommes|oranges|table|livre ouvert|pipe|bouteille|violon|guitare et/i.test(full)
-    },
-    {
-      id: 'animaux_mouvement',
-      icon: '🐎',
-      title: 'Chevaux, Animaux & Études de Mouvement',
-      match: (a, full) => /cheval|chevaux|course|derby|cavalier|chien|chat|taureau|lion|vache|oiseau|chasse|bétail|labour/i.test(full)
+  // Moteur thématique rigoureux et historiquement exact pour tous les autres artistes
+  // Règle d'or : classification aux frontières de mots entiers sur le titre et le genre réel de l'œuvre
+  // (évite les faux positifs de sous-chaînes comme "mer" dans "Premier Empire", "rivière" dans "Mme Rivière",
+  // "cène" dans "scène", "ange" dans "orange", "chat" dans "château", "table" dans "retable", etc.)
+  function hasWholeTerm(text, pattern) {
+    if (!text) return false;
+    const re = new RegExp('(?:^|[^a-zA-Z0-9àâäéèêëîïôöùûüÿçœæÀÂÄÉÈÊËÎÏÔÖÙÛÜŸÇŒÆ])(?:' + pattern + ')(?=$|[^a-zA-Z0-9àâäéèêëîïôöùûüÿçœæÀÂÄÉÈÊËÎÏÔÖÙÛÜŸÇŒÆ])', 'i');
+    return re.test(text);
+  }
+
+  function classifyArtworkThemes(a) {
+    const title = (a.title || '').trim();
+    const titleLow = title.toLowerCase();
+    const cat = `${a.category || ''} ${a.subpart || ''}`.toLowerCase();
+    const themes = new Set();
+
+    // 1. AUTOPORTRAITS, ATELIER & INTROSPECTION
+    const isSelfPortraitOrStudio =
+      hasWholeTerm(titleLow, 'autoportrait|self-portrait') ||
+      /homme à la pipe|bonjour monsieur courbet|michel-ange dans son atelier|atelier à la campagne|nature morte au studio|le singe peintre/i.test(titleLow);
+    if (isSelfPortraitOrStudio) {
+      themes.add('autoportraits_atelier');
     }
+
+    // 2. VRAIS PORTRAITS, TRONIES & ÉTUDES DE FIGURES / TÊTES
+    // Exclusion stricte des peintures d'histoire, scènes sacrées, mythologiques ou de genre dont le titre contient un rang ou un nom
+    const isHistoryOrSacralSceneNotPortrait =
+      /jeanne d'arc|couronnement|sacre de l'empereur|apothéose|apotheose|mort de|massacre|bataille|radeau|liberté guidant|barque de|naufrage|serment des|sabines|brutus|andromaque|léonidas|leonidas|pâris et d'hélène|paris et d'helene|justice de trajan|exercices militaires|antiochus|roger délivrant|oedipe|œdipe|crucifix|vierge|annonciation|nativité|nativite|visitation|cène|cene|décollation|decollation|baptême|bapteme|sermon|communion|apparition|transfert des corps|repas chez simon|ex-voto|adoration|songe de saint|reniement|enterrement du comte|dépouillement|guérison|triptyque de modène|sept œuvres de miséricorde|retable|lamentation|pietà|piétà|pieta|descente du christ|tentation de saint|jardin des délices|chariot de foin|triomphe de la mort|pays de cocagne|saint joseph charpentier|composition pastorale|plafond de l'opéra|alice au pays des merveilles/i.test(titleLow);
+
+    const isPortraitTitle =
+      !isHistoryOrSacralSceneNotPortrait && (
+        hasWholeTerm(titleLow, 'portrait|portraits|ambassadeurs|madame|mademoiselle|monsieur|marquise|comtesse|duc|cardinal|condottière|condottiere|bohémienne|bohemienne|malle babbe|carabinier|charpentier|geôlier|geolier|mère supérieure|mere superieure|kizette|galarina|luis buñuel|pablo picasso') ||
+        /^jean ii le bon|^caroline$|^aspasie$|^la belle zélie|^lorenzo bartolini|^jean-antoine de mesmes|^les enfants habert|^louis xiii couronné|^tête d|^académie d|^études pour « jésus|^trois apparitions du visage|^jeune fille|^le jeune roi|^portraits de cosme|^le roi gaspard/i.test(titleLow) ||
+        (recId === 'arcimboldo') ||
+        (hasWholeTerm(cat, 'portrait|portraits|tronie|tronies|tête d\'expression') && !hasWholeTerm(titleLow, 'odalisque|paysage|plage|port|nature morte|fleurs|fruits|vase|renard|cheval|vache|tigre'))
+      );
+    if (isPortraitTitle) {
+      themes.add('portraits_figures');
+    }
+
+    // 3. NUS, ODALISQUES & ACADÉMIES DU CORPS
+    // Exclusion de "tête nue" (ex: L'Homme à la pipe variante tête nue) et des scènes de plage ("tentes de plage", "à dieppe")
+    const titleForNude = titleLow.replace(/tête\s+nue|baigneuses\s+et\s+tentes\s+de\s+plage|baigneuses\s+à\s+dieppe/g, '');
+    const isNudeOrOdalisque =
+      hasWholeTerm(titleForNude, 'odalisque|nu|nus|nue|baigneuse|baigneuses|lying figure') ||
+      /diane sortant du bain|bain de diane|adam et ève|adam et eve|gabrielle d'estrée|vénus qui sourit|naissance de vénus|aspasie|académie d'homme|étude de pieds|étude de bras/i.test(titleLow);
+    if (isNudeOrOdalisque) {
+      themes.add('nus_corps_odalisques');
+    }
+
+    // 4. ART SACRÉ, RÉCITS BIBLIQUES & SPIRITUALITÉ
+    // Exclusion des noms de lieux/patronymes composés ("Saint-Morys", "Sainte-Victoire", "Sainte-Adresse") et de "Michel-Ange"
+    const titleForSacred = titleLow
+      .replace(/sainte?-(?:victoire|adresse|morys|chapelle|baume|hélène)/g, '')
+      .replace(/michel-ange/g, '');
+    const isSacred =
+      hasWholeTerm(titleForSacred, 'christ|jésus|jesus|vierge|madone|maestà|maesta|saint|sainte|saints|saintes|apôtres|apotres|annonciation|nativité|nativite|visitation|crucifix|crucifixion|croix peinte|pietà|piétà|pieta|lamentation|déploration|deploration|dépouillement|depouillement|espolio|cène|cene|retable|anges|ange|baptême|bapteme|limbes|sermon|oliviers|gethsémani|gethsemani|communion|madeleine|martyre|stigmates|bon samaritain|judith|holopherne|salomé|salome|david avec la tête de goliath|abraham et isaac|ex-voto|sacristie|enterrement du comte d\'orgaz|triptyque de modène|guérison de l\'aveugle|sept œuvres de miséricorde|jeanne d\'arc|mère supérieure|prière du matin|angélus|adoration|cortège des mages|repas chez simon|jardin des délices|chariot de foin') ||
+      (recId === 'giotto' || recId === 'giottino' || recId === 'cimabue' || recId === 'daddi' || recId === 'fra_angelico');
+    if (isSacred) {
+      themes.add('sacre_religion');
+    }
+
+    // 5. MYTHOLOGIE, HISTOIRE, DRAMES & ALLÉGORIES
+    const isMythOrHistory =
+      hasWholeTerm(titleLow, 'vénus|venus|diane|apollon|bacchus|vulcain|psyché|psyche|méduse|meduse|saturne|oedipe|œdipe|sphinx|homère|homere|apothéose|apotheose|antiochus|stratonice|andromaque|hector|horaces|pâris|helene|hélène|brutus|sabines|léonidas|leonidas|thermopyles|trajan|démocrite|democrite|plutarque|narcisse|léda|leda|galatée|galatee|tristan et iseult|don quichotte|don juan|dante|bataille|issus|massacres|sardanapale|liberté guidant|tres de mayo|fusillades|marat assassiné|sacre de l\'empereur|couronnement de l\'empereur|jeanne d\'arc|roger délivrant angélique|renaud dans les jardins d\'armide|pallas et le centaure|printemps|triomphe|allégorie|allegorie|muses inquiétantes|énigme d\'hitler|la fuite|cuirassier blessé|officier de chasseurs|char antique|jardin des délices|chariot de foin|plafond de l\'opéra|alice au pays des merveilles') ||
+      (recId === 'arcimboldo');
+    if (isMythOrHistory) {
+      themes.add('mythologie_histoire');
+    }
+
+    // 6. PAYSAGES, MARINES, JARDINS & SAISONS
+    // Exclusion stricte des portraits (ex: Madame Rivière, Mlle Caroline Rivière, Mme Panckoucke), des natures mortes et du Sermon sur la montagne
+    const titleForLandscape = titleLow
+      .replace(/(?:madame|mademoiselle|caroline|famille)\s+rivière/g, '')
+      .replace(/sermon\s+sur\s+la\s+montagne/g, '');
+    const isLandscapeOrMarine =
+      !isPortraitTitle && !isSelfPortraitOrStudio && !/nature morte/i.test(titleLow) && (
+        hasWholeTerm(titleForLandscape, 'paysage|marine|mer|plage|port|avant-port|baie|étang|etang|étangs|etangs|vague|bateaux|cargo|seine|pont|montagne|forêt|foret|arbre|arbres|bois|sous-bois|jardin|campagne|vallée|vallee|plaine|gué|gue|ruisseau|soleil couchant|clair de lune|orage|neige|hiver|ruines|tour de farges|ville-d\'avray|coulommiers|caprice|édifices|embarquement|retour de chasse|composition pastorale')
+      );
+    if (isLandscapeOrMarine) {
+      themes.add('paysages_nature');
+    }
+
+    // 7. SCÈNES DE GENRE, VIE QUOTIDIENNE & SOCIÉTÉ
+    const isGenreOrSociety =
+      hasWholeTerm(titleLow, 'accordée de village|guitariste|prière du matin|bouffon au luth|diseuse de bonne aventure|buveuse|joueurs de cartes|femme préparant des légumes|repasseuse|danseuses|dans un café|fête à la campagne|marché|blanchisseuses|jeu de la palette|bascule|verrou|feu aux poudres|musique|conversation dans un parc|promenade|fileuse endormie|cribleuses de blé|rencontre|bonjour monsieur courbet|vielleur|tricheur|nouveau-né|danse de noces|rixe de paysans|patineurs|pays de cocagne|bal masqué|table de toilette|pierrot|femmes d\'alger|kaïd|fantasia|exercices militaires|arabe syrien|prisonnier|père et le fils|quatre femmes bretonnes|bretonnes près de la mer|baigneuses à dieppe|tentes de plage|trois tahitiens|composition pastorale|plafond de l\'opéra');
+    if (isGenreOrSociety) {
+      themes.add('vie_quotidienne_genre');
+    }
+
+    // 8. NATURES MORTES, FLEURS, OBJETS & VANITÉS
+    const isStillLife =
+      hasWholeTerm(titleLow, 'nature morte|raie|buffet|lièvre mort|renard mort|livre ouvert|vase de fleurs|coupe de fruits|fruits sur fond noir|moulin à café|coquillages|bacchus') ||
+      (recId === 'arcimboldo');
+    if (isStillLife) {
+      themes.add('natures_mortes_vanites');
+    }
+
+    // 9. CHEVAUX, ANIMAUX & ÉTUDES DE MOUVEMENT
+    const isAnimal =
+      hasWholeTerm(titleLow, 'cheval|chevaux|léopards|leopards|tigre|renard|lièvre|lievre|vache|oiseaux|singe|moutons|guépard|guepard|centaure|chasse|traite|char antique|officier de chasseurs');
+    if (isAnimal) {
+      themes.add('animaux_mouvement');
+    }
+
+    // 10. VISIONS ONIRIQUES, SURRÉALISME & ABSTRACTION
+    const isEarlyClassicalOrCubistDali =
+      /nature morte puriste|nature morte au clair de lune|portrait de luis buñuel|jeune fille à la fenêtre|jeune fille assise|portrait de ma sœur|pierrot jouant|autoportrait de l'artiste adolescent|autoportrait au cou raphaélesque/i.test(titleLow);
+    const isSurrealOrAbstract =
+      !isEarlyClassicalOrCubistDali && (
+        hasWholeTerm(cat, 'surréalisme|surrealisme|paranoïaque|paranoiaque|métaphysique|metaphysique|mysticisme nucléaire|art brut|texturologie|orphisme|simultanéisme') ||
+        hasWholeTerm(titleLow, 'trio|envoyeur|ville qui rêve|la mode|dernier voyage|antithèse|la parole|animal moderne|intervision|arbre n° 2|texturologie|site avec 2 personnages|champ d\'expansion|serpent noir|petites cendres|chair de poule|grand masturbateur|formes molles|homme invisible|spectre du sex-appeal|énigme sans fin|poésie d\'amérique|palais du vent|songes drolatiques|chemin de l\'énigme|muses inquiétantes|deux personnages|alice au pays des merveilles')
+      );
+    if (isSurrealOrAbstract) {
+      themes.add('surrealisme_onirisme');
+    }
+
+    // Fallback de sécurité si aucun thème n'a été déclenché
+    if (themes.size === 0) {
+      if (hasWholeTerm(cat, 'portrait')) themes.add('portraits_figures');
+      else if (hasWholeTerm(cat, 'paysage|marine')) themes.add('paysages_nature');
+      else if (hasWholeTerm(cat, 'nature morte')) themes.add('natures_mortes_vanites');
+      else if (hasWholeTerm(cat, 'mythologie|histoire|allégorie')) themes.add('mythologie_histoire');
+      else if (hasWholeTerm(cat, 'sacré|religieux|biblique|retable|fresque')) themes.add('sacre_religion');
+      else themes.add('portraits_figures');
+    }
+
+    return themes;
+  }
+
+  const themeDefs = [
+    { id: 'portraits_figures', icon: '👤', title: 'Portraits, Figures & Psychologie' },
+    { id: 'mythologie_histoire', icon: '🏛️', title: 'Mythologie, Histoire, Drames & Allégories' },
+    { id: 'sacre_religion', icon: '✝️', title: 'Art Sacré, Récits Bibliques & Spiritualité' },
+    { id: 'paysages_nature', icon: '🌳', title: 'Paysages, Marines, Jardins & Saisons' },
+    { id: 'vie_quotidienne_genre', icon: '🎭', title: 'Scènes de Genre, Vie Quotidienne & Société' },
+    { id: 'nus_corps_odalisques', icon: '💃', title: 'Nus, Odalisques & Académies du Corps' },
+    { id: 'natures_mortes_vanites', icon: '🍎', title: 'Natures Mortes, Fleurs, Objets & Vanités' },
+    { id: 'animaux_mouvement', icon: '🐎', title: 'Chevaux, Animaux & Études de Mouvement' },
+    { id: 'autoportraits_atelier', icon: '🪞', title: 'Autoportraits, Atelier & Introspection' },
+    { id: 'surrealisme_onirisme', icon: '👁️', title: 'Visions Oniriques, Surréalisme & Abstraction' }
   ];
 
+  const artThemesMap = new Map();
+  artistArts.forEach(a => {
+    artThemesMap.set(a.id, classifyArtworkThemes(a));
+  });
+
   const results = [];
-  universalDefs.forEach(def => {
+  themeDefs.forEach(def => {
     const matched = artistArts.filter(a => {
-      const full = `${a.title || ''} ${a.subpart || ''} ${a.category || ''} ${(a.chips || []).join(' ')}`.toLowerCase();
-      return def.match(a, full);
+      const s = artThemesMap.get(a.id);
+      return s && s.has(def.id);
     });
     if (matched.length > 0) {
       results.push({
@@ -5428,27 +5524,6 @@ function computeArtistThemes(artistRecord, artistArts) {
       });
     }
   });
-
-  // Si moins de 2 thèmes détectés, regrouper par subpart ou périodes
-  if (results.length < 2 && artistArts.length >= 2) {
-    const subMap = new Map();
-    artistArts.forEach(a => {
-      const key = (a.subpart || a.medium || 'Chefs-d\'œuvre du maître').trim();
-      if (!subMap.has(key)) subMap.set(key, []);
-      subMap.get(key).push(a);
-    });
-    subMap.forEach((items, label) => {
-      if (!results.some(r => r.title.toLowerCase() === label.toLowerCase())) {
-        results.push({
-          id: 'sub_' + results.length,
-          icon: '🎨',
-          title: label,
-          items,
-          samples: items.slice(0, 4)
-        });
-      }
-    });
-  }
 
   results.sort((a, b) => b.items.length - a.items.length);
   return results;
