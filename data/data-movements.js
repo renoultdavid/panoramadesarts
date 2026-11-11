@@ -668,6 +668,14 @@ window.MOVEMENTS_DATA = {
         "desc": "Nus au bain, intérieurs baignés de soleil et jardins du Cannet.",
         "artistId": "bonnard",
         "icon": "🛁"
+      },
+      {
+        "name": "Gustav Klimt",
+        "dates": "1862 – 1918",
+        "role": "Chef de file de la Sécession viennoise et maître du Symbolisme doré",
+        "desc": "Le Baiser, Portrait d'Adèle Bloch-Bauer I, Frise Beethoven et paysages de l'Attersee.",
+        "artistId": "klimt",
+        "icon": "✨"
       }
     ]
   },
@@ -773,6 +781,14 @@ window.MOVEMENTS_DATA = {
         "desc": "Kizette en rose, La Mère supérieure, La Fuite, natures mortes au Musée de Nantes.",
         "artistId": "lempicka",
         "icon": "🌸"
+      },
+      {
+        "name": "František Kupka",
+        "dates": "1871 – 1957",
+        "role": "Pionnier majeur de l'abstraction cosmique et des plans orphiques",
+        "desc": "Amorpha, fugue à deux couleurs (Salon d'Automne 1912), Plans verticaux et disques cinétiques.",
+        "artistId": "kupka",
+        "icon": "🌀"
       }
     ]
   },

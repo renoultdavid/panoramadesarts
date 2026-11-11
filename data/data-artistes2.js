@@ -1112,6 +1112,267 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
         }
       ]
     }
+  },
+  "klimt": {
+    "id": "klimt",
+    "name": "Klimt Gustav",
+    "sortName": "Klimt Gustav",
+    "sortLetter": "K",
+    "dates": "1862 – 1918",
+    "movement": "Sécession viennoise, Symbolisme, Art Nouveau (Jugendstil) & Cycle d'Or",
+    "nationality": "Autrichien",
+    "techniques": "Huile sur toile, feuille d'or et d'argent, détrempe, fresque murale, craie et crayon sur papier",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczNleybmV113PZ2Wxk2vmfZP2t4YusEdpGwynPIqUgsTvYfHFL2gcSUrRJDoNY6Pyq_rlVI-RDHluoq6JFS3riqEYEqttlB9t7V9f_M1wp5p_QjkqWjGXk59OY5RvvBb3oCSaoPqj3ZHbI7_BG82kRn6HQ=w1681-h713-s-no-gm?authuser=0",
+    "portraitImg": "https://lh3.googleusercontent.com/pw/AP1GczMp8zRzGLdcdGlgk6PuQSS-_eAY0drbrAl5XKB8x_uf-IZcsAwL2vzwTaq8swnM6-DzRXHDFGxPFRPJ43FFYDvwfO5_JAv5brj7ELsZzNO37QvLRszH1IzAAv__em8ScBqXByFbCK7u3_mDhiMmBB6N5Q=w1201-h2416-s-no-gm?authuser=0",
+    "bio": `
+      <p><strong>La Sécession viennoise et le triomphe de l'art total moderne</strong><br>
+      Gustav Klimt (1862 – 1918) est la figure centrale de la Sécession viennoise, mouvement qui visait à rompre avec l'académisme historique pour créer un art total et moderne. Fils d'un orfèvre-ciseleur, il reçoit une formation de décorateur avant de devenir le peintre le plus célèbre et le plus controversé de Vienne, transformant la surface de la toile en une mosaïque précieuse mêlant érotisme, symbolisme et ornementation.</p>
+      <p><strong>Allégories de la vie, mosaïques byzantines et parures ornementales</strong><br>
+      Son genre pictural se définit par le Symbolisme et l'Art nouveau, avec une attention particulière pour le portrait féminin et l'allégorie. Son style repose sur un contraste saisissant entre le rendu naturaliste des visages ou des mains et le traitement totalement abstrait et décoratif des vêtements et des fonds. Il explore les thèmes universels du cycle de la vie, de l'amour et de la mort, intégrant souvent des motifs inspirés de l'art byzantin, des estampes japonaises et de la biologie.</p>
+      <p><strong>Des décors académiques au Cycle d'or et à l'exubérance coloriste</strong><br>
+      L'évolution de son style marque un passage de la perfection technique vers une opulence décorative puis une liberté expressive. La période académique : Ses débuts sont marqués par de grandes fresques décoratives pour les monuments viennois (Burgtheater), réalisées avec une virtuosité classique remarquable. Le Cycle d'Or : C'est sa période la plus célèbre, inspirée par les mosaïques de Ravenne. Il utilise massivement la feuille d'or et d'argent pour créer des œuvres iconiques comme <em>Le Baiser</em>, où le sujet se fond dans une parure ornementale plane et luxueuse. La maturité coloriste : À la fin de sa vie, il délaisse l'or pour une palette plus vive et fleurie, influencée par les fauves français et Van Gogh. Ses compositions deviennent plus libres, avec une touche plus nerveuse et une atmosphère plus mélancolique, tout en conservant son sens inné du décor.</p>
+    `,
+    "corpus": {
+      "total": 250,
+      "seen": 2,
+      "paintingsCount": 250,
+      "details": [
+        {
+          "label": "Peintures à l'huile et fresques murales (cat. Novotny-Dobai / Natter)",
+          "count": 250,
+          "icon": "🎨",
+          "color": "#d4af37",
+          "seen": 2
+        }
+      ],
+      "sourceTitle": "Catalogue raisonné Novotny & Dobai (1967) révisé par Tobias G. Natter (2012)",
+      "sourceNotes": "L'inventaire de référence mondiale repose historiquement sur le catalogue raisonné de Fritz Novotny et Johannes Dobai (1967), magistralement révisé et complété par l'historien de l'art autrichien Tobias G. Natter (Gustav Klimt : Tout l'œuvre peint, Taschen, 2012). En excluant délibérément sa production colossale de dessins érotiques et préparatoires (plus de 4 000 feuilles d'une virtuosité bouleversante), le consensus scientifique fixe le corpus de ses huiles sur toile et de ses fresques murales à environ 250 peintures."
+    },
+    "biographyTimeline": {
+      "birth": {
+        "year": 1862,
+        "place": "Baumgarten (près de Vienne, Empire d'Autriche)",
+        "title": "Naissance à Vienne d'un père orfèvre",
+        "desc": "Naît le 14 juillet 1862 près de Vienne, deuxième de sept enfants d'un orfèvre et ciseleur de métaux précieux d'origine bohème. Il se forme à l'École des arts appliqués (Kunstgewerbeschule) de Vienne."
+      },
+      "death": {
+        "year": 1918,
+        "place": "Vienne (Autriche-Hongrie)",
+        "title": "Mort à Vienne & Crépuscule de l'Empire des Habsbourg",
+        "desc": "Victime d'une attaque cérébrale puis emporté par la grippe espagnole le 6 février 1918 à 55 ans, quelques mois avant la chute de l'Empire austro-hongrois et les morts précoces d'Egon Schiele, Otto Wagner et Kolo Moser."
+      },
+      "periods": [
+        {
+          "title": "La Compagnie des Artistes & Le Décor des Grands Théâtres Viennois",
+          "years": "1883 – 1896",
+          "color": "#b45309",
+          "summary": "Avec son frère Ernst et Franz Matsch, il remporte un succès académique éclatant en peignant les plafonds du Burgtheater et l'escalier monumental du Kunsthistorisches Museum de Vienne.",
+          "events": [
+            {
+              "year": 1888,
+              "title": "Triomphe au Burgtheater & Médaille impériale d'or",
+              "desc": "L'empereur François-Joseph Ier lui décerne l'Ordre d'or du Mérite pour le décor du grand théâtre impérial de la Ringstraße.",
+              "icon": "🏛️"
+            },
+            {
+              "year": 1894,
+              "title": "Commande des Peintures des Facultés pour l'Université de Vienne",
+              "desc": "Commande d'État pour trois plafonds monumentaux (La Philosophie, La Médecine, La Jurisprudence) qui déclenchent un scandale sans précédent face à leur audace érotique.",
+              "icon": "⚡"
+            }
+          ]
+        },
+        {
+          "title": "Fondation de la Sécession Viennoise, L'Attersee & Le Cycle d'Or",
+          "years": "1897 – 1908",
+          "color": "#d97706",
+          "summary": "Premier président de la Sécession, Klimt fait ériger le Palais de la Sécession (« À chaque siècle son art, à l'art sa liberté ») et fusionne mosaïque byzantine et feuille d'or.",
+          "events": [
+            {
+              "year": 1897,
+              "title": "Création de la Sécession viennoise & Revue Ver Sacrum",
+              "desc": "Cofonde le mouvement avec Joseph Maria Olbrich, Josef Hoffmann et Koloman Moser pour libérer la création viennoise du carcan historiciste.",
+              "icon": "🌟"
+            },
+            {
+              "year": 1901,
+              "title": "Île dans l'Attersee (Tokyo, Musée national d'Art occidental)",
+              "desc": "Paysage radical au format carré peignant la surface du lac en une mosaïque optique scintillante de touches pointillistes turquoise et dorées.",
+              "type": "masterpiece",
+              "artworkId": "klimt_ile_dans_l_attersee_tokyo_1901"
+            },
+            {
+              "year": 1902,
+              "title": "La Frise Beethoven au Palais de la Sécession",
+              "desc": "Frise monumentale de 34 mètres célébrant la 9e Symphonie de Beethoven et l'aspiration de l'humanité au bonheur à travers la poésie et l'amour.",
+              "type": "masterpiece",
+              "icon": "🎶"
+            },
+            {
+              "year": 1905,
+              "title": "Portrait de Margarethe Stonborough-Wittgenstein (Munich, Neue Pinakothek)",
+              "desc": "Sommet du portrait mondain sécessionniste opposant le visage naturaliste d'une grande héritière à une robe et un intérieur architecturés de motifs dorés.",
+              "type": "masterpiece",
+              "artworkId": "klimt_margarethe_stonborough_wittgenstein_munich_1905"
+            },
+            {
+              "year": 1908,
+              "title": "Le Baiser (Der Kuss, Galerie du Belvédère, Vienne)",
+              "desc": "Icône absolue de l'art viennois unissant deux amants sous une parure scintillante de feuilles d'or au bord d'un parterre de fleurs.",
+              "type": "masterpiece",
+              "icon": "💋"
+            }
+          ]
+        },
+        {
+          "title": "La Mosaïque du Palais Stoclet & La Maturité Coloriste",
+          "years": "1909 – 1918",
+          "color": "#dc2626",
+          "summary": "Après la frise du Palais Stoclet à Bruxelles, Klimt délaisse l'or pour des palettes flamboyantes influencées par les fauves et parraine la jeune avant-garde viennoise (Schiele, Kokoschka).",
+          "events": [
+            {
+              "year": 1911,
+              "title": "Achèvement de la Frise du Palais Stoclet à Bruxelles",
+              "desc": "Chef-d'œuvre de la Wiener Werkstätte intégrant marbre, émaux et pierres semi-précieuses autour du motif de L'Arbre de Vie.",
+              "icon": "🏛️"
+            },
+            {
+              "year": 1912,
+              "title": "Mentorat d'Egon Schiele & Derniers grands portraits fleuris",
+              "desc": "Soutient activement le jeune Egon Schiele et peint La Vierge (1913) et Les Amies (1916) dans une apothéose de couleurs chatoyantes.",
+              "icon": "🌸"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "kupka": {
+    "id": "kupka",
+    "name": "Kupka František",
+    "sortName": "Kupka František",
+    "sortLetter": "K",
+    "dates": "1871 – 1957",
+    "movement": "Abstraction géométrique, Orphisme, Synchronisme chromatique & Abstraction-Création",
+    "nationality": "Tchèque (installé en France)",
+    "techniques": "Huile sur toile, gouache, aquarelle, dessin à l'encre, gravure sur bois et eau-forte",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczPHoGTV_FVpP7ijZykiZpJnLVq33GAU4BAmBu-_5khjae1lp5T52M97rLgtVoi5mHeH8tpNIzrEK7X0xrsLGwmyJ8gLzH9noQIeJB9f3BxH4BTDTMdeDN_op8bGaEPr8Zo9ISJsSUchjc2HIanzB2B7sw=w1681-h713-s-no-gm?authuser=0",
+    "portraitImg": "",
+    "bio": `
+      <p><strong>Pionnier fondateur de l'abstraction et des rythmes cosmiques</strong><br>
+      František Kupka (1871 – 1957) est l'un des pionniers fondateurs de l'abstraction picturale, aux côtés de Kandinsky, Mondrian et Delaunay. D'origine tchèque et installé en France, cet esprit érudit, passionné de théosophie, d'occultisme, de biologie et d'astronomie, a mené une quête méthodique pour libérer la peinture de l'obligation de copier le réel, concevant la couleur et la ligne comme des équivalents visuels du son et du mouvement cosmique.</p>
+      <p><strong>Synchronisme chromatique, disques cinétiques et rigueur mathématique</strong><br>
+      Son genre pictural se définit par l'abstraction géométrique, le synchronisme chromatique et l'orphisme (bien qu'il ait toujours rejeté les étiquettes de groupe). Son style se caractérise par une rigueur mathématique alliée à une vibration poétique : il organise la toile selon des plans verticaux, des disques cinétiques et des harmonies rythmiques où les couleurs pures vibrent comme des accords musicaux, visualisant les forces invisibles de l'univers et de la matière.</p>
+      <p><strong>De la satire symboliste à Amorpha et au groupe Abstraction-Création</strong><br>
+      L'évolution de son style marque un passage rigoureux de l'académisme symboliste vers la géométrie pure. Le symbolisme, l'affiche et la satire (années 1890 – 1908) : Formé à Prague et à Vienne, il commence sa carrière à Paris comme illustrateur de presse satirique et dessinateur symboliste. Ses œuvres explorent le mystère de l'âme, les mythes ésotériques et la critique sociale dans un trait sinueux et expressionniste influencé par la Sécession viennoise. Le passage à l'abstraction et le Salon d'Automne (1909 – 1913) : Analysant la décomposition du mouvement (chronophotographie) et la théorie des ondes, il franchit le seuil de la non-figuration. Au Salon d'Automne de 1912, il expose <em>Amorpha, fugue à deux couleurs</em>, considérée comme l'un des tout premiers tableaux abstraits de l'histoire, matérialisant la trajectoire d'une balle en arabesques circulaires de rouge et de bleu. La géométrisation rigoureuse et le groupe Abstraction-Création (après 1920) : Retiré à Puteaux, il rejoint dans les années 1930 le mouvement international Abstraction-Création. Son style se dépouille des réminiscences organiques pour s'ordonner autour de lignes verticales pures, de plans orthogonaux et de tensions spatiales strictes, anticipant le minimalisme de la seconde moitié du XXe siècle.</p>
+    `,
+    "corpus": {
+      "total": 359,
+      "seen": 0,
+      "paintingsCount": 359,
+      "details": [
+        {
+          "label": "Peintures à l'huile autographes (Catalogue scientifique officiel)",
+          "count": 359,
+          "icon": "🎨",
+          "color": "#d4af37",
+          "seen": 0
+        }
+      ],
+      "sourceTitle": "Catalogue raisonné František Kupka (Musée d'Orsay, Centre Pompidou & Galerie nationale de Prague)",
+      "sourceNotes": "Le consensus scientifique international fixe le corpus officiel des toiles strictement autographes de František Kupka à très exactement 359 peintures (hors œuvres sur papier, gravures et illustrations de presse)."
+    },
+    "biographyTimeline": {
+      "birth": {
+        "year": 1871,
+        "place": "Opočno (Bohême orientale, Empire austro-hongrois)",
+        "title": "Naissance en Bohême & Formation académique à Prague et Vienne",
+        "desc": "Naît le 23 septembre 1871 à Opočno. Formé à l'Académie des beaux-arts de Prague puis de Vienne, il est très tôt initié à la théosophie et au spiritisme, qui nourriront toute sa recherche sur les forces invisibles."
+      },
+      "death": {
+        "year": 1957,
+        "place": "Puteaux (Hauts-de-Seine, France)",
+        "title": "Mort à Puteaux & Legs aux musées nationaux",
+        "desc": "S'éteint le 24 juin 1957 à 85 ans dans sa maison-atelier de Puteaux. La donation Kupka constitue l'un des trésors majeurs de la Galerie nationale de Prague et du Centre Pompidou à Paris."
+      },
+      "periods": [
+        {
+          "title": "Paris, L'Illustration Satirique & Le Symbolisme Éotérique",
+          "years": "1896 – 1908",
+          "color": "#0284c7",
+          "summary": "Installé à Montmartre puis à Puteaux, il gagne sa vie comme dessinateur de presse (L'Assiette au Beurre) tout en explorant les mythes de l'âme et la métaphysique de la lumière.",
+          "events": [
+            {
+              "year": 1896,
+              "title": "Installation à Paris & Carrière d'illustrateur satirique",
+              "desc": "S'établit à Montmartre et collabore activement à la célèbre revue anarchiste et satirique L'Assiette au Beurre avec des compositions percutantes.",
+              "icon": "🖋️"
+            },
+            {
+              "year": 1906,
+              "title": "Installation définitive à Puteaux",
+              "desc": "Emménage à Puteaux où il a pour voisins les frères Duchamp (Jacques Villon, Raymond Duchamp-Villon et Marcel Duchamp).",
+              "type": "peer",
+              "linkedArtist": "Marcel Duchamp"
+            }
+          ]
+        },
+        {
+          "title": "La Naissance de l'Abstraction : Le Salon d'Automne de 1912 & Amorpha",
+          "years": "1909 – 1919",
+          "color": "#d97706",
+          "summary": "Kupka analyse la dynamique du mouvement, la décomposition de la lumière et franchit le seuil de l'art abstrait mondial avec Amorpha.",
+          "events": [
+            {
+              "year": 1912,
+              "title": "Le Scandale d'Amorpha, fugue à deux couleurs au Salon d'Automne",
+              "desc": "Expose dans la salle cubiste la toile monumentale Amorpha, fugue à deux couleurs : première présentation publique d'une œuvre purement abstraite à Paris.",
+              "type": "masterpiece",
+              "icon": "🌀"
+            },
+            {
+              "year": 1913,
+              "title": "Plans verticaux & Série des Disques de Newton",
+              "desc": "Conçoit des compositions rigoureusement construites sur l'orthogonalité et le rayonnement des couleurs primaires décomposées au prisme.",
+              "type": "masterpiece",
+              "icon": "📐"
+            },
+            {
+              "year": 1914,
+              "title": "Engagement volontaire dans la Légion étrangère (1914-1918)",
+              "desc": "S'engage pour la liberté de la Tchécoslovaquie sur le front de l'Aisne aux côtés du poète Blaise Cendrars.",
+              "icon": "⚔️"
+            }
+          ]
+        },
+        {
+          "title": "L'Enseignement, Le Groupe Abstraction-Création & La Géométrie Pure",
+          "years": "1920 – 1957",
+          "color": "#dc2626",
+          "summary": "Professeur pour les boursiers de Prague à Paris, il cofonde le mouvement Abstraction-Création en 1931 et épure son art vers un constructivisme géométrique intemporel.",
+          "events": [
+            {
+              "year": 1923,
+              "title": "Publication du manifeste « La Création dans les arts plastiques »",
+              "desc": "Théorise sa conception de la peinture autonome, émancipée de l'imitation de la nature et régie par des lois intérieures comparables à la musique.",
+              "icon": "📖"
+            },
+            {
+              "year": 1931,
+              "title": "Cofondateur du mouvement Abstraction-Création",
+              "desc": "Fonde le collectif international aux côtés d'Auguste Herbin, Jean Arp, Theo van Doesburg et Albert Gleizes.",
+              "icon": "🌟"
+            },
+            {
+              "year": 1936,
+              "title": "Exposition « Cubism and Abstract Art » au MoMA de New York",
+              "desc": "Alfred Barr consacre Kupka comme l'un des quatre pères fondateurs de l'art abstrait mondial dans le célèbre diagramme du MoMA.",
+              "icon": "🏛️"
+            }
+          ]
+        }
+      ]
+    }
   }
 });
 

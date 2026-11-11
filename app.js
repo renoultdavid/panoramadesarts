@@ -924,7 +924,7 @@ const ART_MOVEMENTS = [
     yearEnd: 1905,
     tier: 0,
     color: "#7c3aed",
-    keyArtists: "Paul Cézanne, Vincent van Gogh, Paul Gauguin, Georges Seurat, Odilon Redon",
+    keyArtists: "Paul Cézanne, Vincent van Gogh, Paul Gauguin, Georges Seurat, Gustav Klimt, Odilon Redon",
     definition: "Réaction contre le matérialisme impressionniste explorant la dimension spirituelle, le mythe et les correspondances poétiques de l'âme, tout en jetant les bases structurales de l'art moderne (Cézanne et Gauguin).",
     filterKeyword: "symbolisme"
   },
@@ -951,7 +951,7 @@ const ART_MOVEMENTS = [
     yearEnd: 1919,
     tier: 0,
     color: "#06b6d4",
-    keyArtists: "Pablo Picasso, Georges Braque, Juan Gris",
+    keyArtists: "Pablo Picasso, Georges Braque, Juan Gris, Fernand Léger, Robert Delaunay, František Kupka",
     definition: "Révolution esthétique initiée avec Les Demoiselles d'Avignon. Rompant avec la perspective illusionniste classique, le cubisme décompose les volumes en facettes géométriques et superpose simultanément plusieurs points de vue sur une surface plane.",
     filterKeyword: "cubisme"
   },

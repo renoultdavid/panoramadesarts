@@ -7,6 +7,105 @@
 
 window.ART_OBJECTS = [
   {
+    "id": "klimt_ile_dans_l_attersee_tokyo_1901",
+    "artistId": "klimt",
+    "artist": "Klimt Gustav",
+    "artistSort": "Klimt Gustav",
+    "civId": "occident",
+    "periodId": "occ_xxe_moderne",
+    "civName": "Occident : Sécession Viennoise & Symbolisme",
+    "civilization": "Autriche",
+    "subpart": "Paysages contemplatifs de l'Attersee (1901)",
+    "title": "Île dans l'Attersee",
+    "date": "1901",
+    "dateDisplay": "1901",
+    "century": "XXe siècle",
+    "centuryDisplay": "XXe s. (1901)",
+    "centuryNumeric": 1901,
+    "period": "XXe siècle",
+    "domain": "peinture",
+    "type": "Peinture",
+    "artifactType": "Peinture à l'huile sur toile",
+    "category": "Paysage lacustre au format carré et mosaïque pointilliste",
+    "medium": "Huile sur toile",
+    "dimensions": {
+      "h": 100,
+      "w": 100,
+      "display": "100 × 100 cm"
+    },
+    "location": "Musée national d'Art occidental, Tokyo",
+    "currentLocation": "Musée national d'Art occidental, Tokyo",
+    "site": "Musée national d'Art occidental (Tokyo, Japon)",
+    "originSite": "Attersee, Salzkammergut (Autriche)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczP5zD32B5sC92OUmyQKgAMISyZOpmEPqMHsK24J9RFOppy6hYd8BsGEzqqvemOx1atJ_wUHA8sCbIHjOLosSQHj05LkKgkqaRySca3u3J8uC1649uupHwvUeCOJh8UUyLinXOGXIvNepxQLIWepkCDqyw=w1681-h1584-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczP5zD32B5sC92OUmyQKgAMISyZOpmEPqMHsK24J9RFOppy6hYd8BsGEzqqvemOx1atJ_wUHA8sCbIHjOLosSQHj05LkKgkqaRySca3u3J8uC1649uupHwvUeCOJh8UUyLinXOGXIvNepxQLIWepkCDqyw=w1681-h1584-s-no-gm?authuser=0",
+    "chips": [
+      "XXe s.",
+      "1901",
+      "Gustav Klimt",
+      "Île dans l'Attersee",
+      "Musée d'Art occidental Tokyo"
+    ],
+    "themes": [
+      "paysages_nature"
+    ],
+    "subthemes": [
+      "marines_plages_ports",
+      "campagne_forets_montagnes"
+    ],
+    "desc": "<p>Peinte au cours de l'un des séjours estivaux de Klimt au bord de l'Attersee dans le Salzkammergut en compagnie d'Emilie Flöge, cette œuvre constitue l'un des paysages les plus radicaux et contemplatifs du maître viennois. Adoptant le format rigoureusement carré cher aux artistes de la Sécession viennoise, Klimt rejette la profondeur atmosphérique conventionnelle pour repousser la ligne d'horizon à l'extrême limite supérieure du tableau. L'espace est presque exclusivement dédié à la nappe d'eau, transformant la surface du lac en un immense panneau décoratif et méditatif.</p><p>Dans l'angle supérieur droit, la petite île boisée de Litzlberg émerge comme une masse compacte et sombre de végétation vert olive et brune, bordée par une frange de rive claire. Son reflet flou descend légèrement dans l'eau avant de se fondre dans la translucidité du courant. En arrière-plan, une bande infime de berge opposée se noie sous une brume laiteuse aux nuances violacées et grises, écrasant délibérément le ciel pour accentuer l'effet de cadrage télescopique, souvent obtenu par le peintre à l'aide d'une longue-vue ou d'un viseur en carton.</p><p>Tout le reste de la toile déploie une extraordinaire mosaïque optique de touches pointillistes et de virgules horizontales. L'eau scintille d'une infinité de micro-variations chromatiques : des turquoises limpides, des verts d'eau et des bleus ardoise s'entremêlent à des reflets jaune d'or, rose poudré et argentés qui matérialisent le clapotis de l'onde sous la brise. En faisant osciller la vision entre illusion d'un miroir aquatique vibrant et planéité abstraite d'un tapis de tesselles scintillantes, Klimt livre une synthèse poétique magistrale entre impressionnisme et modernité ornementale sécessionniste.</p>",
+    "narrative": "<p>Peinte au cours de l'un des séjours estivaux de Klimt au bord de l'Attersee dans le Salzkammergut en compagnie d'Emilie Flöge, cette œuvre constitue l'un des paysages les plus radicaux et contemplatifs du maître viennois. Adoptant le format rigoureusement carré cher aux artistes de la Sécession viennoise, Klimt rejette la profondeur atmosphérique conventionnelle pour repousser la ligne d'horizon à l'extrême limite supérieure du tableau. L'espace est presque exclusivement dédié à la nappe d'eau, transformant la surface du lac en un immense panneau décoratif et méditatif.</p><p>Dans l'angle supérieur droit, la petite île boisée de Litzlberg émerge comme une masse compacte et sombre de végétation vert olive et brune, bordée par une frange de rive claire. Son reflet flou descend légèrement dans l'eau avant de se fondre dans la translucidité du courant. En arrière-plan, une bande infime de berge opposée se noie sous une brume laiteuse aux nuances violacées et grises, écrasant délibérément le ciel pour accentuer l'effet de cadrage télescopique, souvent obtenu par le peintre à l'aide d'une longue-vue ou d'un viseur en carton.</p><p>Tout le reste de la toile déploie une extraordinaire mosaïque optique de touches pointillistes et de virgules horizontales. L'eau scintille d'une infinité de micro-variations chromatiques : des turquoises limpides, des verts d'eau et des bleus ardoise s'entremêlent à des reflets jaune d'or, rose poudré et argentés qui matérialisent le clapotis de l'onde sous la brise. En faisant osciller la vision entre illusion d'un miroir aquatique vibrant et planéité abstraite d'un tapis de tesselles scintillantes, Klimt livre une synthèse poétique magistrale entre impressionnisme et modernité ornementale sécessionniste.</p>"
+  },
+  {
+    "id": "klimt_margarethe_stonborough_wittgenstein_munich_1905",
+    "artistId": "klimt",
+    "artist": "Klimt Gustav",
+    "artistSort": "Klimt Gustav",
+    "civId": "occident",
+    "periodId": "occ_xxe_moderne",
+    "civName": "Occident : Sécession Viennoise & Symbolisme",
+    "civilization": "Autriche",
+    "subpart": "Portraits de la haute société viennoise & Cycle d'Or (1905)",
+    "title": "Portrait de Margarethe Stonborough-Wittgenstein",
+    "date": "1905",
+    "dateDisplay": "1905",
+    "century": "XXe siècle",
+    "centuryDisplay": "XXe s. (1905)",
+    "centuryNumeric": 1905,
+    "period": "XXe siècle",
+    "domain": "peinture",
+    "type": "Peinture",
+    "artifactType": "Peinture à l'huile sur toile",
+    "category": "Grand portrait féminin en pied et composition architecturée",
+    "medium": "Huile sur toile",
+    "dimensions": {
+      "h": 180,
+      "w": 90,
+      "display": "180 × 90 cm"
+    },
+    "location": "Neue Pinakothek, Munich",
+    "currentLocation": "Neue Pinakothek, Munich",
+    "site": "Neue Pinakothek (Munich, Allemagne)",
+    "originSite": "Vienne (Autriche)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczMp8zRzGLdcdGlgk6PuQSS-_eAY0drbrAl5XKB8x_uf-IZcsAwL2vzwTaq8swnM6-DzRXHDFGxPFRPJ43FFYDvwfO5_JAv5brj7ELsZzNO37QvLRszH1IzAAv__em8ScBqXByFbCK7u3_mDhiMmBB6N5Q=w1201-h2416-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczMp8zRzGLdcdGlgk6PuQSS-_eAY0drbrAl5XKB8x_uf-IZcsAwL2vzwTaq8swnM6-DzRXHDFGxPFRPJ43FFYDvwfO5_JAv5brj7ELsZzNO37QvLRszH1IzAAv__em8ScBqXByFbCK7u3_mDhiMmBB6N5Q=w1201-h2416-s-no-gm?authuser=0",
+    "chips": [
+      "XXe s.",
+      "1905",
+      "Gustav Klimt",
+      "Margarethe Stonborough-Wittgenstein",
+      "Neue Pinakothek"
+    ],
+    "themes": [
+      "portraits_figures"
+    ],
+    "subthemes": [
+      "portraits_individuels"
+    ],
+    "desc": "<p>Ce portrait monumental, conservé à la Neue Pinakothek de Munich, est l'une des œuvres les plus emblématiques de la période de maturité de Gustav Klimt. Peint en 1905, il représente Margarethe Stonborough-Wittgenstein, fille du richissime industriel Karl Wittgenstein et sœur du futur philosophe Ludwig Wittgenstein, à l'occasion de son mariage. Cette toile incarne l'apogée de la Sécession viennoise, où le portrait mondain devient un prétexte à une recherche esthétique radicale, mêlant naturalisme du visage et abstraction décorative du décor.</p><p>La composition se distingue par son format vertical étiré et sa structure géométrique rigoureuse. Margarethe se tient debout, de trois-quarts, vêtue d'une somptueuse robe de soirée en taffetas blanc qui occupe une large partie de la moitié inférieure du tableau. Le fond est divisé en registres horizontaux et verticaux rappelant l'architecture d'un intérieur moderne, aux accents presque japonisants. Les motifs ornementaux, notamment les carrés et les spirales dorées en haut de la toile, créent un cadre formel qui contraste avec la douceur des traits du modèle, isolant la figure dans une élégance hiératique et distante.</p><p>Techniquement, Klimt déploie ici toute sa virtuosité dans le traitement des textures. La robe est une prouesse de nuances de blanc, de gris et de crème, où la lumière semble se prendre dans les plis du tissu vaporeux. En revanche, le visage et les mains sont peints avec une précision quasi photographique, rendant compte de la personnalité affirmée et de l'intelligence du modèle. Cette dualité entre le réalisme du corps et le traitement plat, presque abstrait, de l'espace environnant est la signature de Klimt à cette époque, annonçant les compositions encore plus stylisées de son « cycle d'or ».</p><p>L'histoire de ce tableau est aussi celle d'une rencontre entre deux mondes : l'avant-garde artistique et la haute bourgeoisie intellectuelle viennoise. Bien que la famille Wittgenstein ait été l'un des plus grands soutiens des arts, il est notoire que Margarethe n'appréciait guère ce portrait, le trouvant trop sévère ou ne correspondant pas à l'image qu'elle se faisait d'elle-même. Elle finit par le reléguer dans un grenier avant qu'il ne rejoigne les collections nationales. Pourtant, l'œuvre demeure aujourd'hui un témoignage inégalé du raffinement de la Vienne \"Fin de Siècle\" et du génie de Klimt à transformer un portrait de commande en une icône de la modernité.</p>",
+    "narrative": "<p>Ce portrait monumental, conservé à la Neue Pinakothek de Munich, est l'une des œuvres les plus emblématiques de la période de maturité de Gustav Klimt. Peint en 1905, il représente Margarethe Stonborough-Wittgenstein, fille du richissime industriel Karl Wittgenstein et sœur du futur philosophe Ludwig Wittgenstein, à l'occasion de son mariage. Cette toile incarne l'apogée de la Sécession viennoise, où le portrait mondain devient un prétexte à une recherche esthétique radicale, mêlant naturalisme du visage et abstraction décorative du décor.</p><p>La composition se distingue par son format vertical étiré et sa structure géométrique rigoureuse. Margarethe se tient debout, de trois-quarts, vêtue d'une somptueuse robe de soirée en taffetas blanc qui occupe une large partie de la moitié inférieure du tableau. Le fond est divisé en registres horizontaux et verticaux rappelant l'architecture d'un intérieur moderne, aux accents presque japonisants. Les motifs ornementaux, notamment les carrés et les spirales dorées en haut de la toile, créent un cadre formel qui contraste avec la douceur des traits du modèle, isolant la figure dans une élégance hiératique et distante.</p><p>Techniquement, Klimt déploie ici toute sa virtuosité dans le traitement des textures. La robe est une prouesse de nuances de blanc, de gris et de crème, où la lumière semble se prendre dans les plis du tissu vaporeux. En revanche, le visage et les mains sont peints avec une précision quasi photographique, rendant compte de la personnalité affirmée et de l'intelligence du modèle. Cette dualité entre le réalisme du corps et le traitement plat, presque abstrait, de l'espace environnant est la signature de Klimt à cette époque, annonçant les compositions encore plus stylisées de son « cycle d'or ».</p><p>L'histoire de ce tableau est aussi celle d'une rencontre entre deux mondes : l'avant-garde artistique et la haute bourgeoisie intellectuelle viennoise. Bien que la famille Wittgenstein ait été l'un des plus grands soutiens des arts, il est notoire que Margarethe n'appréciait guère ce portrait, le trouvant trop sévère ou ne correspondant pas à l'image qu'elle se faisait d'elle-même. Elle finit par le reléguer dans un grenier avant qu'il ne rejoigne les collections nationales. Pourtant, l'œuvre demeure aujourd'hui un témoignage inégalé du raffinement de la Vienne \"Fin de Siècle\" et du génie de Klimt à transformer un portrait de commande en une icône de la modernité.</p>"
+  },
+  {
     "id": "klee_pleine_lune_munich_1919",
     "artistId": "klee",
     "artist": "Klee Paul",
