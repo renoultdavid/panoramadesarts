@@ -7,6 +7,435 @@
 
 window.ART_OBJECTS = [
   {
+    "id": "jordaens_la_sainte_famille_1620_1628",
+    "artistId": "jordaens",
+    "artist": "Jordaens Jacob",
+    "artistSort": "Jordaens Jacob",
+    "civId": "occident",
+    "periodId": "occ_xviie",
+    "civName": "Occident : Baroque flamand (École d'Anvers)",
+    "civilization": "Flandres (Anvers)",
+    "subpart": "Le premier baroque anversois et l'empreinte caravagesque (années 1620)",
+    "title": "La Sainte Famille",
+    "date": "1620–1628",
+    "dateDisplay": "1620–1628",
+    "century": "XVIIe siècle",
+    "centuryDisplay": "XVIIe s. (1620–1628)",
+    "centuryNumeric": 1624,
+    "period": "XVIIe siècle",
+    "domain": "peinture",
+    "type": "Peinture",
+    "artifactType": "Peinture à l'huile sur panneau de bois",
+    "category": "Peinture religieuse baroque flamande à mi-corps",
+    "medium": "Huile sur panneau de chêne",
+    "dimensions": {
+      "h": 123,
+      "w": 93,
+      "display": "123 × 93 cm"
+    },
+    "location": "Musée des Beaux-Arts",
+    "currentLocation": "Musée des Beaux-Arts",
+    "site": "Musée des Beaux-Arts",
+    "originSite": "Anvers (Flandres)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczOu9SRuO62HR0et7E_FhWwuy4NY4PYfVKyUzbTSPf-7pal7_NSjt6pDMU_hUNCpeUZ0_NsHqOo2xNCcb_OgDWr2O3fb5FibKRQcdUpCMU7QPGkn1B_N0zh1TcZynPxTPMcy83KAFBKsMkkgaOCuIFXodw=w1681-h2374-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczOu9SRuO62HR0et7E_FhWwuy4NY4PYfVKyUzbTSPf-7pal7_NSjt6pDMU_hUNCpeUZ0_NsHqOo2xNCcb_OgDWr2O3fb5FibKRQcdUpCMU7QPGkn1B_N0zh1TcZynPxTPMcy83KAFBKsMkkgaOCuIFXodw=w1681-h2374-s-no-gm?authuser=0",
+    "chips": [
+      "XVIIe s.",
+      "1620–1628",
+      "Jordaens",
+      "Sainte Famille",
+      "Baroque flamand",
+      "Clair-obscur caravagesque",
+      "École d'Anvers"
+    ],
+    "themes": [
+      "sacre_religion"
+    ],
+    "subthemes": [
+      "vierge_nativite"
+    ],
+    "desc": "<p>Cette composition intimiste et serrée resserre les trois figures sacrées dans un cadrage à mi-corps typique du premier baroque anversois, fortement marqué par la leçon caravagesque. La Vierge Marie, assise sur la droite et enveloppée d'un ample manteau carmin aux plis amples et soyeux, retient tendrement contre son giron l'Enfant Jésus. Son visage serein et plein, aux pommettes légèrement rosées et au regard doux dirigé vers le spectateur, illustre le type féminin flamand robuste et bienveillant cher à l'artiste, inspiré de son épouse Catharina van Noort. Sa chemise de lin blanc, légèrement découverte, rappelle son rôle nourricier.</p><p>Au centre de l'œuvre et placé sous une vive source lumineuse, l'Enfant Jésus se tient assis, vêtu d'une simple tunique claire relevée sur ses jambes potelées. Les boucles blondes de sa chevelure captent les reflets dorés de la lumière, tandis que sa main droite s'élève dans un geste d'adresse ou d'enseignement. Autour de son cou repose un collier de grains de corail rouge muni d'une petite croix : cet ornement traditionnel, porté à l'époque comme une amulette prophylactique protégeant les nourrissons des maladies, préfigure également dans l'iconographie chrétienne le sang versé lors de la future Passion.</p><p>En retrait sur la gauche, saint Joseph émerge de la pénombre, le corps enveloppé d'une cape brune austère. Le père nourricier est dépeint sous les traits d'un vieillard au crâne dégarni, au front ridé et à la barbe grise fournie, la tête appuyée sur son poing fermé dans une attitude pensive et vigilante. Ce contraste puissant entre la jeunesse rayonnante de la mère et de l'enfant et les traits burinés du charpentier accentue la dimension humaine du drame sacré, le tout magnifié par un fond sombre et nocturne où filtre seulement une discrète raie de lueur crépusculaire.</p>",
+    "narrative": "<p>Cette composition intimiste et serrée resserre les trois figures sacrées dans un cadrage à mi-corps typique du premier baroque anversois, fortement marqué par la leçon caravagesque. La Vierge Marie, assise sur la droite et enveloppée d'un ample manteau carmin aux plis amples et soyeux, retient tendrement contre son giron l'Enfant Jésus. Son visage serein et plein, aux pommettes légèrement rosées et au regard doux dirigé vers le spectateur, illustre le type féminin flamand robuste et bienveillant cher à l'artiste, inspiré de son épouse Catharina van Noort. Sa chemise de lin blanc, légèrement découverte, rappelle son rôle nourricier.</p><p>Au centre de l'œuvre et placé sous une vive source lumineuse, l'Enfant Jésus se tient assis, vêtu d'une simple tunique claire relevée sur ses jambes potelées. Les boucles blondes de sa chevelure captent les reflets dorés de la lumière, tandis que sa main droite s'élève dans un geste d'adresse ou d'enseignement. Autour de son cou repose un collier de grains de corail rouge muni d'une petite croix : cet ornement traditionnel, porté à l'époque comme une amulette prophylactique protégeant les nourrissons des maladies, préfigure également dans l'iconographie chrétienne le sang versé lors de la future Passion.</p><p>En retrait sur la gauche, saint Joseph émerge de la pénombre, le corps enveloppé d'une cape brune austère. Le père nourricier est dépeint sous les traits d'un vieillard au crâne dégarni, au front ridé et à la barbe grise fournie, la tête appuyée sur son poing fermé dans une attitude pensive et vigilante. Ce contraste puissant entre la jeunesse rayonnante de la mère et de l'enfant et les traits burinés du charpentier accentue la dimension humaine du drame sacré, le tout magnifié par un fond sombre et nocturne où filtre seulement une discrète raie de lueur crépusculaire.</p>",
+    "contemporaryArt": {
+      "title": "L'École d'Anvers des Années 1620 • Le Clair-Obscur Flamand",
+      "events": [
+        "1616 : Jacob Jordaens épouse Catharina van Noort, fille de son maître Adam van Noort, dont le visage inspire ses figures de la Vierge.",
+        "1620–1628 : Exécution de plusieurs variations intimistes de La Sainte Famille cadrées à mi-corps sous un éclairage caravagesque.",
+        "1621 : Anthony van Dyck part pour l'Italie tandis que Jordaens demeure fidèle à Anvers.",
+        "1628 : Jordaens peint le grand retable du Martyre de sainte Apolline pour l'église des Augustins d'Anvers aux côtés de Rubens et Van Dyck."
+      ]
+    }
+  },
+  {
+    "id": "jordaens_les_quatre_evangelistes_louvre_1625_1630",
+    "artistId": "jordaens",
+    "artist": "Jordaens Jacob",
+    "artistSort": "Jordaens Jacob",
+    "civId": "occident",
+    "periodId": "occ_xviie",
+    "civName": "Occident : Baroque flamand (École d'Anvers)",
+    "civilization": "Flandres (Anvers)",
+    "subpart": "Le naturalisme monumental et le clair-obscur sacré (années 1625–1630)",
+    "title": "Les Quatre Évangélistes",
+    "date": "1625–1630",
+    "dateDisplay": "vers 1625–1630",
+    "century": "XVIIe siècle",
+    "centuryDisplay": "XVIIe s. (vers 1625–1630)",
+    "centuryNumeric": 1628,
+    "period": "XVIIe siècle",
+    "domain": "peinture",
+    "type": "Peinture",
+    "artifactType": "Peinture à l'huile sur toile",
+    "category": "Peinture religieuse baroque flamande",
+    "medium": "Huile sur toile",
+    "dimensions": {
+      "h": 134,
+      "w": 118,
+      "display": "134 × 118 cm"
+    },
+    "location": "Musée du Louvre, Paris",
+    "currentLocation": "Musée du Louvre, Paris",
+    "site": "Musée du Louvre (Paris, France)",
+    "originSite": "Anvers (Flandres)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczOhMxnkSeVb-LyaDe-oS119fISjbnIy9Iocbf7zvSuIbm3N8X-tj3O8kbpbH-TIIZoDbOGBvbZkGc64pp6_IPVlL4s6goYa0IabjngdcycvELl89RQURxQTpBt0ThaQkrSGOVQo5VruezCyg5s31quGyQ=w1681-h2014-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczOhMxnkSeVb-LyaDe-oS119fISjbnIy9Iocbf7zvSuIbm3N8X-tj3O8kbpbH-TIIZoDbOGBvbZkGc64pp6_IPVlL4s6goYa0IabjngdcycvELl89RQURxQTpBt0ThaQkrSGOVQo5VruezCyg5s31quGyQ=w1681-h2014-s-no-gm?authuser=0",
+    "chips": [
+      "XVIIe s.",
+      "1625–1630",
+      "Jordaens",
+      "Quatre Évangélistes",
+      "Baroque flamand",
+      "Caravagisme",
+      "Musée du Louvre"
+    ],
+    "themes": [
+      "sacre_religion"
+    ],
+    "subthemes": [
+      "saints_martyrs_devotion"
+    ],
+    "desc": "<p>Cette œuvre majeure, peinte vers 1625-1630, illustre la capacité de Jacob Jordaens à renouveler l'iconographie religieuse par un naturalisme puissant et une composition resserrée. L'artiste choisit de représenter Matthieu, Marc, Luc et Jean non pas isolés dans leurs études respectives, mais réunis dans un effort intellectuel et spirituel commun. La composition est bâtie sur une succession de plans rapprochés qui créent une sensation d'immersion immédiate. Les quatre figures sont soudées par une dynamique de lecture : les regards convergent vers le manuscrit ouvert en bas à gauche, instaurant une tension dramatique centrée sur la Parole sacrée. L'absence de décor architectural ou de paysage à l'arrière-plan renforce cette atmosphère de concentration absolue, où seuls les visages et les mains deviennent les vecteurs du sens.</p><p>L'analyse descriptive révèle un travail de la lumière et de la couleur typique du baroque flamand influencé par le caravagisme. Une lumière latérale vigoureuse, venant de la gauche, sculpte les visages des évangélistes, soulignant avec une franchise presque crue les rides des fronts, le creux des orbites et la texture des barbes blanches. Le traitement des chairs est particulièrement saisissant : Jordaens utilise des carnations ambrées et des ombres terreuses pour donner à ces figures une présence charnelle et humaine, loin de toute idéalisation éthérée. Saint Jean, le plus jeune, est drapé dans un manteau blanc dont les plis profonds et tourmentés accrochent la lumière, créant un pivot central lumineux. À sa droite, l'évangéliste plus âgé, probablement Saint Matthieu, porte un manteau d'un rouge carmin sombre dont la richesse chromatique répond aux tonalités brunes et ocre des autres personnages.</p><p>Le travail de la touche est ici généreux et affirmé. Jordaens emploie une matière onctueuse pour rendre la souplesse du papier des vieux manuscrits, dont les coins cornés et les pages jaunies sont peints avec un réalisme tactile saisissant. Les mains, noueuses et puissantes, sont traitées avec une attention particulière ; l'une tient une plume, prête à écrire, tandis que l'autre soutient un livre pesant, soulignant la dimension physique du travail des Évangélistes. Cette densité de la matière picturale, alliée à une palette chaude et contrastée, transforme une scène de réflexion théologique en une rencontre humaine vibrante. Par cette œuvre, Jordaens parvient à matérialiser l'inspiration divine comme un acte de labeur et de solidarité, ancrant le sacré dans la vérité du monde sensible.</p>",
+    "narrative": "<p>Cette œuvre majeure, peinte vers 1625-1630, illustre la capacité de Jacob Jordaens à renouveler l'iconographie religieuse par un naturalisme puissant et une composition resserrée. L'artiste choisit de représenter Matthieu, Marc, Luc et Jean non pas isolés dans leurs études respectives, mais réunis dans un effort intellectuel et spirituel commun. La composition est bâtie sur une succession de plans rapprochés qui créent une sensation d'immersion immédiate. Les quatre figures sont soudées par une dynamique de lecture : les regards convergent vers le manuscrit ouvert en bas à gauche, instaurant une tension dramatique centrée sur la Parole sacrée. L'absence de décor architectural ou de paysage à l'arrière-plan renforce cette atmosphère de concentration absolue, où seuls les visages et les mains deviennent les vecteurs du sens.</p><p>L'analyse descriptive révèle un travail de la lumière et de la couleur typique du baroque flamand influencé par le caravagisme. Une lumière latérale vigoureuse, venant de la gauche, sculpte les visages des évangélistes, soulignant avec une franchise presque crue les rides des fronts, le creux des orbites et la texture des barbes blanches. Le traitement des chairs est particulièrement saisissant : Jordaens utilise des carnations ambrées et des ombres terreuses pour donner à ces figures une présence charnelle et humaine, loin de toute idéalisation éthérée. Saint Jean, le plus jeune, est drapé dans un manteau blanc dont les plis profonds et tourmentés accrochent la lumière, créant un pivot central lumineux. À sa droite, l'évangéliste plus âgé, probablement Saint Matthieu, porte un manteau d'un rouge carmin sombre dont la richesse chromatique répond aux tonalités brunes et ocre des autres personnages.</p><p>Le travail de la touche est ici généreux et affirmé. Jordaens emploie une matière onctueuse pour rendre la souplesse du papier des vieux manuscrits, dont les coins cornés et les pages jaunies sont peints avec un réalisme tactile saisissant. Les mains, noueuses et puissantes, sont traitées avec une attention particulière ; l'une tient une plume, prête à écrire, tandis que l'autre soutient un livre pesant, soulignant la dimension physique du travail des Évangélistes. Cette densité de la matière picturale, alliée à une palette chaude et contrastée, transforme une scène de réflexion théologique en une rencontre humaine vibrante. Par cette œuvre, Jordaens parvient à matérialiser l'inspiration divine comme un acte de labeur et de solidarité, ancrant le sacré dans la vérité du monde sensible.</p>",
+    "contemporaryArt": {
+      "title": "Humanisme Biblique & Réalisme Flamand • Les Quatre Évangélistes",
+      "events": [
+        "1625–1630 : Jordaens peint Les Quatre Évangélistes à partir d'études d'après nature de modèles anversois.",
+        "1768 : L'œuvre est acquise par le roi Louis XV pour les collections de la Couronne de France.",
+        "1793 : Exposée dès l'ouverture du Muséum central des arts au palais du Louvre.",
+        "1882 : Le jeune Vincent van Gogh exprime son admiration pour la gravité humaine des Évangélistes de Jordaens."
+      ]
+    }
+  },
+  {
+    "id": "jordaens_l_enfance_de_jupiter_louvre_1630_1635",
+    "artistId": "jordaens",
+    "artist": "Jordaens Jacob",
+    "artistSort": "Jordaens Jacob",
+    "civId": "occident",
+    "periodId": "occ_xviie",
+    "civName": "Occident : Baroque flamand (École d'Anvers)",
+    "civilization": "Flandres (Anvers)",
+    "subpart": "Mythologie pastorale et vitalité charnelle (années 1630)",
+    "title": "L'Enfance de Jupiter",
+    "date": "1630–1635",
+    "dateDisplay": "vers 1630–1635",
+    "century": "XVIIe siècle",
+    "centuryDisplay": "XVIIe s. (vers 1630–1635)",
+    "centuryNumeric": 1633,
+    "period": "XVIIe siècle",
+    "domain": "peinture",
+    "type": "Peinture",
+    "artifactType": "Peinture à l'huile sur toile",
+    "category": "Peinture mythologique et pastorale baroque",
+    "medium": "Huile sur toile",
+    "dimensions": {
+      "h": 150,
+      "w": 203,
+      "display": "150 × 203 cm"
+    },
+    "location": "Musée du Louvre, Paris",
+    "currentLocation": "Musée du Louvre, Paris",
+    "site": "Musée du Louvre (Paris, France)",
+    "originSite": "Anvers (Flandres)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczPcYNQ09IRA7C7uhetGPd1qFIZB8L-tPA2fI4Q-oMga2QKp-TCPkcYTqMFi5htqrClEKPwqLiwrmQXQZVu93jwjgU7A00PO6Xj8RIAPoGGwXM8JuSClAmjymzFu-kz4xDsIkEozzl4EmB_K_AciAExiKA=w1681-h1265-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczPcYNQ09IRA7C7uhetGPd1qFIZB8L-tPA2fI4Q-oMga2QKp-TCPkcYTqMFi5htqrClEKPwqLiwrmQXQZVu93jwjgU7A00PO6Xj8RIAPoGGwXM8JuSClAmjymzFu-kz4xDsIkEozzl4EmB_K_AciAExiKA=w1681-h1265-s-no-gm?authuser=0",
+    "chips": [
+      "XVIIe s.",
+      "1630–1635",
+      "Jordaens",
+      "Mythologie",
+      "Jupiter & Amalthée",
+      "Baroque flamand",
+      "Musée du Louvre"
+    ],
+    "themes": [
+      "mythologie_histoire",
+      "animaux_mouvement"
+    ],
+    "subthemes": [
+      "mythologie_antique",
+      "oiseaux_betail_singes"
+    ],
+    "desc": "<p>Peinte vers 1630-1635, cette œuvre de Jacob Jordaens revisite un épisode de la mythologie antique avec la verve et le naturalisme charnel propres à l'école d'Anvers. Le tableau illustre l'éducation du jeune Jupiter sur le mont Ida : caché pour échapper à son père Saturne qui dévorait ses enfants, le futur roi des dieux est nourri par le lait de la chèvre Amalthée. Jordaens délaisse ici toute solennité olympienne pour transformer ce récit sacré en une scène pastorale vibrante de vie. La composition est structurée par une pyramide humaine et animale resserrée, où les corps s'imbriquent dans un mouvement fluide, créant une proximité immédiate qui place le spectateur au cœur de cet environnement sauvage et nourricier.</p><p>L'analyse plastique souligne un contraste saisissant dans le traitement des épidermes et des matières. La lumière, venant de la gauche, inonde le corps potelé du jeune Jupiter et celui de la nymphe qui l'accompagne, faisant ressortir la blancheur nacrée de leurs chairs. Ce modelé souple et lumineux s'oppose vigoureusement à la peau sombre et tannée du satyre situé à droite, dont la musculature saillante témoigne d'une nature rustique et indomptée. Le travail sur les textures est d'une richesse remarquable : le pinceau de Jordaens rend avec une égale précision le soyeux du pelage de la chèvre, le froissé du linge blanc de la nymphe et la rudesse de l'écorce de l'arbre qui ferme la composition à gauche. Au premier plan, une petite nature morte composée de légumes et d'une corbeille ancre la scène dans une réalité terrestre et domestique.</p><p>Techniquement, l'œuvre se caractérise par une palette chaude et une touche d'une grande liberté. L'artiste utilise des rouges profonds pour le drapé sur lequel repose l'enfant et des ocres terreux pour le sol, créant une harmonie chromatique qui renforce l'aspect organique de la scène. Les rehauts de blanc, appliqués avec générosité sur le corps de Jupiter et sur le lait qui s'écoule, attirent l'œil vers le point focal de la narration. Le ciel à l'arrière-plan, brossé de manière vaporeuse avec des gris bleutés et des blancs nuageux, apporte une respiration atmosphérique à cette composition par ailleurs très dense. Par cette interprétation, Jordaens parvient à humaniser le mythe, faisant de l'allaitement d'un dieu un moment de tendresse rustique et de vitalité débordante, typique de son génie à exalter la force de la nature.</p>",
+    "narrative": "<p>Peinte vers 1630-1635, cette œuvre de Jacob Jordaens revisite un épisode de la mythologie antique avec la verve et le naturalisme charnel propres à l'école d'Anvers. Le tableau illustre l'éducation du jeune Jupiter sur le mont Ida : caché pour échapper à son père Saturne qui dévorait ses enfants, le futur roi des dieux est nourri par le lait de la chèvre Amalthée. Jordaens délaisse ici toute solennité olympienne pour transformer ce récit sacré en une scène pastorale vibrante de vie. La composition est structurée par une pyramide humaine et animale resserrée, où les corps s'imbriquent dans un mouvement fluide, créant une proximité immédiate qui place le spectateur au cœur de cet environnement sauvage et nourricier.</p><p>L'analyse plastique souligne un contraste saisissant dans le traitement des épidermes et des matières. La lumière, venant de la gauche, inonde le corps potelé du jeune Jupiter et celui de la nymphe qui l'accompagne, faisant ressortir la blancheur nacrée de leurs chairs. Ce modelé souple et lumineux s'oppose vigoureusement à la peau sombre et tannée du satyre situé à droite, dont la musculature saillante témoigne d'une nature rustique et indomptée. Le travail sur les textures est d'une richesse remarquable : le pinceau de Jordaens rend avec une égale précision le soyeux du pelage de la chèvre, le froissé du linge blanc de la nymphe et la rudesse de l'écorce de l'arbre qui ferme la composition à gauche. Au premier plan, une petite nature morte composée de légumes et d'une corbeille ancre la scène dans une réalité terrestre et domestique.</p><p>Techniquement, l'œuvre se caractérise par une palette chaude et une touche d'une grande liberté. L'artiste utilise des rouges profonds pour le drapé sur lequel repose l'enfant et des ocres terreux pour le sol, créant une harmonie chromatique qui renforce l'aspect organique de la scène. Les rehauts de blanc, appliqués avec générosité sur le corps de Jupiter et sur le lait qui s'écoule, attirent l'œil vers le point focal de la narration. Le ciel à l'arrière-plan, brossé de manière vaporeuse avec des gris bleutés et des blancs nuageux, apporte une respiration atmosphérique à cette composition par ailleurs très dense. Par cette interprétation, Jordaens parvient à humaniser le mythe, faisant de l'allaitement d'un dieu un moment de tendresse rustique et de vitalité débordante, typique de son génie à exalter la force de la nature.</p>",
+    "contemporaryArt": {
+      "title": "Ovide en terre flamande • L'Enfance de Jupiter sur le Mont Ida",
+      "events": [
+        "1630–1635 : Jordaens multiplie les variations joyeuses autour de Jupiter nourri par la chèvre Amalthée (Louvre, Cassel).",
+        "1635 : Collaboration majeure de Jordaens avec Rubens pour la Joyeuse Entrée du Cardinal-Infant Ferdinand à Anvers.",
+        "1636–1638 : Participation au cycle mythologique des Métamorphoses d'Ovide pour la Torre de la Parada près de Madrid."
+      ]
+    }
+  },
+  {
+    "id": "jordaens_les_jeunes_piaillent_comme_chantent_les_vieux_1639",
+    "artistId": "jordaens",
+    "artist": "Jordaens Jacob",
+    "artistSort": "Jordaens Jacob",
+    "civId": "occident",
+    "periodId": "occ_xviie",
+    "civName": "Occident : Baroque flamand (École d'Anvers)",
+    "civilization": "Flandres (Anvers)",
+    "subpart": "L'apogée des proverbes populaires et des banquets familiaux (années 1630–1640)",
+    "title": "Les jeunes piaillent comme chantent les vieux",
+    "date": "1639",
+    "dateDisplay": "1639",
+    "century": "XVIIe siècle",
+    "centuryDisplay": "XVIIe s. (1639)",
+    "centuryNumeric": 1639,
+    "period": "XVIIe siècle",
+    "domain": "peinture",
+    "type": "Peinture",
+    "artifactType": "Peinture à l'huile sur toile",
+    "category": "Scène de genre proverbiale et banquet familial baroque",
+    "medium": "Huile sur toile",
+    "dimensions": {
+      "h": 154,
+      "w": 209,
+      "display": "154 × 209 cm"
+    },
+    "location": "Musée des Beaux-Arts de Valenciennes (vu à Nantes)",
+    "currentLocation": "Musée des Beaux-Arts de Valenciennes (vu à Nantes)",
+    "site": "Musée des Beaux-Arts de Valenciennes (vu au Musée d'Arts de Nantes)",
+    "originSite": "Anvers (Flandres)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczN2DE-mNfRbWkxKs8tzIg-xTj5z_Vn9aHmJ8bDx_r9IJkRC3xY9YFqkQWKenONJrli_NpQ-c_Qq2BM5xpCA4g9xSuJsOA188u1blMjQMESedK7wAK-8PX6hfsXkl2-5vWEYKw0L5WGKrREMBZPa4i2sxA=w1681-h1237-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczN2DE-mNfRbWkxKs8tzIg-xTj5z_Vn9aHmJ8bDx_r9IJkRC3xY9YFqkQWKenONJrli_NpQ-c_Qq2BM5xpCA4g9xSuJsOA188u1blMjQMESedK7wAK-8PX6hfsXkl2-5vWEYKw0L5WGKrREMBZPa4i2sxA=w1681-h1237-s-no-gm?authuser=0",
+    "chips": [
+      "XVIIe s.",
+      "1639",
+      "Jordaens",
+      "Proverbe flamand",
+      "Scène de genre",
+      "Concert familial",
+      "MBA Valenciennes"
+    ],
+    "themes": [
+      "vie_quotidienne_genre",
+      "animaux_mouvement"
+    ],
+    "subthemes": [
+      "fetes_musique_spectacles",
+      "interieurs_famille_travail",
+      "chiens_renards_chasse",
+      "oiseaux_betail_singes"
+    ],
+    "desc": "<p>Cette huile sur toile monumentale, réalisée en 1639 par Jacob Jordaens, illustre l'un des thèmes favoris du maître anversois : la mise en image de proverbes populaires flamands. Le titre, <em>Les jeunes piaillent comme chantent les vieux</em> (<em>Soo d'oude songen, soo pypen de jongen</em>), explicite le message moralisateur de l'œuvre. Jordaens délaisse ici la solennité religieuse pour une scène de genre truculente et foisonnante, typique du baroque flamand, où la composition saturée et les contrastes de lumière accentuent le caractère joyeux et désordonné de cette réunion de famille.</p><p>La scène est organisée autour d'une table richement garnie où trois générations cohabitent dans une cacophonie joyeuse. Au premier plan à gauche, une vieille femme aux traits marqués lit une partition à l'aide de lunettes, tandis qu'au centre, un vieillard à la barbe blanche entonne un chant en tenant une cruche en étain. À droite, une jeune femme élégante, parée d'un collier de perles et d'une robe de velours rouge, observe le spectateur avec un sourire complice, tenant sur ses genoux un enfant qui s'essaie déjà à souffler dans un pipeau. Cette transmission des vices et des plaisirs par l'exemple est soulignée par la présence d'autres enfants et de musiciens à l'arrière-plan, notamment un joueur de cornemuse, instrument souvent associé à l'intempérance.</p><p>La richesse des détails iconographiques renforce le sens de l'œuvre. Un hibou, symbole de l'aveuglement ou de la bêtise lorsqu'il est associé à la fête, est perché sur le haut dossier d'un siège en osier, tandis qu'un chien au premier plan semble quémander de la nourriture, ajoutant au réalisme de la scène. En haut du tableau, un cartel inscrit en latin rappelle la leçon morale : la jeunesse ne fait que reproduire les comportements, bons ou mauvais, de ses aînés. Par la vigueur de sa touche et la chaleur de sa palette, Jordaens transforme ce qui pourrait être une simple leçon de morale en une célébration vibrante de la vie et des sens.</p>",
+    "narrative": "<p>Cette huile sur toile monumentale, réalisée en 1639 par Jacob Jordaens, illustre l'un des thèmes favoris du maître anversois : la mise en image de proverbes populaires flamands. Le titre, <em>Les jeunes piaillent comme chantent les vieux</em> (<em>Soo d'oude songen, soo pypen de jongen</em>), explicite le message moralisateur de l'œuvre. Jordaens délaisse ici la solennité religieuse pour une scène de genre truculente et foisonnante, typique du baroque flamand, où la composition saturée et les contrastes de lumière accentuent le caractère joyeux et désordonné de cette réunion de famille.</p><p>La scène est organisée autour d'une table richement garnie où trois générations cohabitent dans une cacophonie joyeuse. Au premier plan à gauche, une vieille femme aux traits marqués lit une partition à l'aide de lunettes, tandis qu'au centre, un vieillard à la barbe blanche entonne un chant en tenant une cruche en étain. À droite, une jeune femme élégante, parée d'un collier de perles et d'une robe de velours rouge, observe le spectateur avec un sourire complice, tenant sur ses genoux un enfant qui s'essaie déjà à souffler dans un pipeau. Cette transmission des vices et des plaisirs par l'exemple est soulignée par la présence d'autres enfants et de musiciens à l'arrière-plan, notamment un joueur de cornemuse, instrument souvent associé à l'intempérance.</p><p>La richesse des détails iconographiques renforce le sens de l'œuvre. Un hibou, symbole de l'aveuglement ou de la bêtise lorsqu'il est associé à la fête, est perché sur le haut dossier d'un siège en osier, tandis qu'un chien au premier plan semble quémander de la nourriture, ajoutant au réalisme de la scène. En haut du tableau, un cartel inscrit en latin rappelle la leçon morale : la jeunesse ne fait que reproduire les comportements, bons ou mauvais, de ses aînés. Par la vigueur de sa touche et la chaleur de sa palette, Jordaens transforme ce qui pourrait être une simple leçon de morale en une célébration vibrante de la vie et des sens.</p>",
+    "contemporaryArt": {
+      "title": "La Sagesse Populaire en Fête • Proverbes de Jacob Cats & Banquets Anversois",
+      "events": [
+        "1632 : Publication du recueil d'emblèmes moraux Spiegel van den Ouden ende Nieuwen Tijdt du poète hollandais Jacob Cats.",
+        "1638–1640 : Jordaens crée ses deux grands cycles proverbiaux jumeaux : Le Roi boit et Comme les vieux chantent, les jeunes piaillent.",
+        "1639 : Exécution de cette toile où son beau-père Adam van Noort prête ses traits au patriarche chantant au centre."
+      ]
+    }
+  },
+  {
+    "id": "jordaens_portrait_d_un_homme_obese_louvre_1640_1650",
+    "artistId": "jordaens",
+    "artist": "Jordaens Jacob",
+    "artistSort": "Jordaens Jacob",
+    "civId": "occident",
+    "periodId": "occ_xviie",
+    "civName": "Occident : Baroque flamand (École d'Anvers)",
+    "civilization": "Flandres (Anvers)",
+    "subpart": "L'art du portrait bourgeois et la vérité charnelle (années 1640–1650)",
+    "title": "Portrait d'un homme obèse",
+    "date": "1640–1650",
+    "dateDisplay": "vers 1640–1650",
+    "century": "XVIIe siècle",
+    "centuryDisplay": "XVIIe s. (vers 1640–1650)",
+    "centuryNumeric": 1645,
+    "period": "XVIIe siècle",
+    "domain": "peinture",
+    "type": "Peinture",
+    "artifactType": "Peinture à l'huile sur toile",
+    "category": "Portrait bourgeois baroque en buste",
+    "medium": "Huile sur toile",
+    "dimensions": {
+      "h": 77,
+      "w": 61,
+      "display": "77 × 61 cm"
+    },
+    "location": "Musée du Louvre, Paris",
+    "currentLocation": "Musée du Louvre, Paris",
+    "site": "Musée du Louvre (Paris, France)",
+    "originSite": "Anvers (Flandres)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczPPgTd2pql8t_n8041rsoteVSLc9-lWrAmQZrg7H9HlEo7ek0HuAs5hMl2hRcUVDOKhp2PZxyKHrwzch9qLsOAhVi8m6y6KwAWlsazbbKQ3H-VPUkFtwKNW5v03yJTZ9ef56hkzdCouajlMyQFmNjzjmA=w1681-h2232-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczPPgTd2pql8t_n8041rsoteVSLc9-lWrAmQZrg7H9HlEo7ek0HuAs5hMl2hRcUVDOKhp2PZxyKHrwzch9qLsOAhVi8m6y6KwAWlsazbbKQ3H-VPUkFtwKNW5v03yJTZ9ef56hkzdCouajlMyQFmNjzjmA=w1681-h2232-s-no-gm?authuser=0",
+    "chips": [
+      "XVIIe s.",
+      "1640–1650",
+      "Jordaens",
+      "Portrait",
+      "Bourgeoisie anversoise",
+      "Baroque flamand",
+      "Musée du Louvre"
+    ],
+    "themes": [
+      "portraits_figures"
+    ],
+    "subthemes": [
+      "portraits_individuels"
+    ],
+    "desc": "<p>Réalisé vers 1640-1650, ce portrait illustre la manière dont Jacob Jordaens, l'un des trois géants de l'école anversoise avec Rubens et Van Dyck, traite le genre du portrait avec une franchise et une vitalité débordantes. Contrairement à Van Dyck qui cherchait à idéaliser ses modèles par une élégance éthérée, Jordaens embrasse ici une esthétique du « vrai » et du charnel. Le modèle, un homme de la haute bourgeoisie flamande dont l'identité précise n'est pas certaine, est représenté en buste, de trois-quarts. Sa silhouette massive occupe une place prépondérante dans le cadre, imposant une présence physique quasi tactile qui témoigne de son aisance sociale et de sa bonhomie.</p><p>L'analyse plastique de cette œuvre souligne une maîtrise remarquable du modelé et des carnations. Jordaens utilise une lumière franche, venant de la gauche, qui sculpte les volumes du visage avec une précision presque sculpturale. Il ne dissimule rien de l'embonpoint du modèle : les chairs sont rendues avec des tonalités de rose, d'ocre et de blanc qui suggèrent la chaleur et la vie. Le traitement des mains est particulièrement expressif : la main gauche repose sur la poitrine, tandis que la main droite, entrouverte en bas du cadre, semble amorcer un geste de bienvenue ou de conversation, une caractéristique du style de Jordaens qui aime insuffler du mouvement et de l'oralité à ses portraits.</p><p>Le contraste chromatique est bâti sur l'opposition entre le noir profond du vêtement et la clarté du teint. Le costume, bien que sombre, est riche en nuances grâce à un travail sur les reflets du tissu (probablement du velours ou de la soie). On remarque l'élégance des détails : le petit col blanc plat, les glands de dentelle qui tombent sur le plastron, et la bague imposante à l'annulaire gauche, qui sont autant de signes de distinction. La chevelure brune et bouclée, traitée avec une touche libre et vigoureuse, encadre le visage et accentue l'aspect jovial et sanguin du personnage. Par ce portrait, Jordaens livre une image puissante de la prospérité anversoise du milieu du XVIIe siècle, où la santé physique est indissociable de la réussite sociale.</p>",
+    "narrative": "<p>Réalisé vers 1640-1650, ce portrait illustre la manière dont Jacob Jordaens, l'un des trois géants de l'école anversoise avec Rubens et Van Dyck, traite le genre du portrait avec une franchise et une vitalité débordantes. Contrairement à Van Dyck qui cherchait à idéaliser ses modèles par une élégance éthérée, Jordaens embrasse ici une esthétique du « vrai » et du charnel. Le modèle, un homme de la haute bourgeoisie flamande dont l'identité précise n'est pas certaine, est représenté en buste, de trois-quarts. Sa silhouette massive occupe une place prépondérante dans le cadre, imposant une présence physique quasi tactile qui témoigne de son aisance sociale et de sa bonhomie.</p><p>L'analyse plastique de cette œuvre souligne une maîtrise remarquable du modelé et des carnations. Jordaens utilise une lumière franche, venant de la gauche, qui sculpte les volumes du visage avec une précision presque sculpturale. Il ne dissimule rien de l'embonpoint du modèle : les chairs sont rendues avec des tonalités de rose, d'ocre et de blanc qui suggèrent la chaleur et la vie. Le traitement des mains est particulièrement expressif : la main gauche repose sur la poitrine, tandis que la main droite, entrouverte en bas du cadre, semble amorcer un geste de bienvenue ou de conversation, une caractéristique du style de Jordaens qui aime insuffler du mouvement et de l'oralité à ses portraits.</p><p>Le contraste chromatique est bâti sur l'opposition entre le noir profond du vêtement et la clarté du teint. Le costume, bien que sombre, est riche en nuances grâce à un travail sur les reflets du tissu (probablement du velours ou de la soie). On remarque l'élégance des détails : le petit col blanc plat, les glands de dentelle qui tombent sur le plastron, et la bague imposante à l'annulaire gauche, qui sont autant de signes de distinction. La chevelure brune et bouclée, traitée avec une touche libre et vigoureuse, encadre le visage et accentue l'aspect jovial et sanguin du personnage. Par ce portrait, Jordaens livre une image puissante de la prospérité anversoise du milieu du XVIIe siècle, où la santé physique est indissociable de la réussite sociale.</p>",
+    "contemporaryArt": {
+      "title": "La Bourgeoisie d'Anvers • Vérité Charnelle & Prospérité Flamande",
+      "events": [
+        "1640–1641 : Disparitions successives de Pierre Paul Rubens (1640) et d'Anthony van Dyck (1641) ; Jordaens devient le premier peintre d'Anvers.",
+        "1641 : Jordaens achète et fait bâtir sa somptueuse demeure-atelier dans la Hoogstraat d'Anvers.",
+        "1648 : Les traités de Westphalie (paix de Münster) mettent fin à la guerre de Quatre-Vingts Ans entre l'Espagne et les Provinces-Unies."
+      ]
+    }
+  },
+  {
+    "id": "jordaens_le_repos_de_diane_louvre_1645_1655",
+    "artistId": "jordaens",
+    "artist": "Jordaens Jacob",
+    "artistSort": "Jordaens Jacob",
+    "civId": "occident",
+    "periodId": "occ_xviie",
+    "civName": "Occident : Baroque flamand (École d'Anvers)",
+    "civilization": "Flandres (Anvers)",
+    "subpart": "Grandes bacchanales mythologiques et trophées de chasse (années 1645–1655)",
+    "title": "Le Repos de Diane",
+    "date": "1645–1655",
+    "dateDisplay": "vers 1645–1655",
+    "century": "XVIIe siècle",
+    "centuryDisplay": "XVIIe s. (vers 1645–1655)",
+    "centuryNumeric": 1650,
+    "period": "XVIIe siècle",
+    "domain": "peinture",
+    "type": "Peinture",
+    "artifactType": "Peinture à l'huile sur toile",
+    "category": "Peinture mythologique monumentale et nature morte de chasse",
+    "medium": "Huile sur toile",
+    "dimensions": {
+      "h": 203,
+      "w": 264,
+      "display": "203 × 264 cm"
+    },
+    "location": "Musée du Louvre, Paris",
+    "currentLocation": "Musée du Louvre, Paris",
+    "site": "Musée du Louvre (Paris, France)",
+    "originSite": "Anvers (Flandres)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczMKJC3_p12gwnCpK9Fsydw3Fa_x7c9VhDxJQWOLtl_bytd3m8Y1VMzUtYR1Ig-8BN2BDy_dWX5g66F9oLRrwfSo12Zj3Vq1nVtkeKfe21nhpKsznAMP113k9BEmML4aIxXVxj4yrG-ioXrqKjMJpuN7_Q=w1681-h1269-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczMKJC3_p12gwnCpK9Fsydw3Fa_x7c9VhDxJQWOLtl_bytd3m8Y1VMzUtYR1Ig-8BN2BDy_dWX5g66F9oLRrwfSo12Zj3Vq1nVtkeKfe21nhpKsznAMP113k9BEmML4aIxXVxj4yrG-ioXrqKjMJpuN7_Q=w1681-h1269-s-no-gm?authuser=0",
+    "chips": [
+      "XVIIe s.",
+      "1645–1655",
+      "Jordaens",
+      "Diane chasseresse",
+      "Mythologie",
+      "Trophée de chasse",
+      "Musée du Louvre"
+    ],
+    "themes": [
+      "mythologie_histoire",
+      "nus_corps_odalisques",
+      "natures_mortes_vanites",
+      "animaux_mouvement"
+    ],
+    "subthemes": [
+      "mythologie_antique",
+      "odalisques_baigneuses",
+      "fruits_tables_gibier",
+      "chiens_renards_chasse"
+    ],
+    "desc": "<p>Cette œuvre monumentale, exécutée vers 1645-1655, constitue une démonstration de force du baroque flamand où Jacob Jordaens exprime son goût pour l'abondance et la matérialité. La scène s'articule autour d'une diagonale descendante partant des satyres en haut à gauche pour aboutir au trophée de chasse au premier plan à droite. Diane, la déesse chasseresse, est assise au centre d'une composition dense, presque saturée, où chaque recoin de la toile est occupé par une figure, un animal ou un élément de végétation. L'artiste rejette ici l'idéalisme gracieux pour privilégier des morphologies robustes et des chairs ambrées, ancrant le récit mythologique dans une réalité physique immédiate et vigoureuse.</p><p>L'analyse plastique révèle un travail de la lumière particulièrement dynamique. Une clarté franche frappe les corps dénudés des nymphes, créant des contrastes marqués avec les zones d'ombre où se dissimulent les satyres. Le modelé des chairs est obtenu par des passages de tons chauds et des reflets nacrés qui soulignent la puissance des musculatures et la souplesse des courbes féminines. Au premier plan, la nature morte de gibier bénéficie d'un éclairage rasant qui fait ressortir la texture rugueuse du pelage du sanglier, le soyeux des plumes des oiseaux et l'éclat vitreux des yeux des animaux morts. Cette précision descriptive dans le traitement des dépouilles animales contraste avec la touche plus large et vibrante utilisée pour les feuillages et le ciel orageux à l'arrière-plan.</p><p>Le travail de la touche chez Jordaens se caractérise par une générosité de la matière picturale. Les empâtements sont visibles sur les rehauts de lumière, notamment sur le croissant de lune dans les cheveux de Diane et sur les fruits offerts par le satyre. Les rouges éclatants des drapés et les bruns profonds de la terre créent une harmonie chromatique chaleureuse qui unifie la scène malgré la multiplicité des détails. L'artiste parvient à équilibrer le chaos apparent de cette fin de chasse en utilisant des rappels de couleurs et des jeux de regards entre les protagonistes. Cette toile n'est pas seulement une illustration d'un mythe antique, c'est un poème visuel sur la fertilité, la domination de la nature et le plaisir des sens, traité avec une franchise technique qui préfigure la modernité des grandes compositions décoratives.</p>",
+    "narrative": "<p>Cette œuvre monumentale, exécutée vers 1645-1655, constitue une démonstration de force du baroque flamand où Jacob Jordaens exprime son goût pour l'abondance et la matérialité. La scène s'articule autour d'une diagonale descendante partant des satyres en haut à gauche pour aboutir au trophée de chasse au premier plan à droite. Diane, la déesse chasseresse, est assise au centre d'une composition dense, presque saturée, où chaque recoin de la toile est occupé par une figure, un animal ou un élément de végétation. L'artiste rejette ici l'idéalisme gracieux pour privilégier des morphologies robustes et des chairs ambrées, ancrant le récit mythologique dans une réalité physique immédiate et vigoureuse.</p><p>L'analyse plastique révèle un travail de la lumière particulièrement dynamique. Une clarté franche frappe les corps dénudés des nymphes, créant des contrastes marqués avec les zones d'ombre où se dissimulent les satyres. Le modelé des chairs est obtenu par des passages de tons chauds et des reflets nacrés qui soulignent la puissance des musculatures et la souplesse des courbes féminines. Au premier plan, la nature morte de gibier bénéficie d'un éclairage rasant qui fait ressortir la texture rugueuse du pelage du sanglier, le soyeux des plumes des oiseaux et l'éclat vitreux des yeux des animaux morts. Cette précision descriptive dans le traitement des dépouilles animales contraste avec la touche plus large et vibrante utilisée pour les feuillages et le ciel orageux à l'arrière-plan.</p><p>Le travail de la touche chez Jordaens se caractérise par une générosité de la matière picturale. Les empâtements sont visibles sur les rehauts de lumière, notamment sur le croissant de lune dans les cheveux de Diane et sur les fruits offerts par le satyre. Les rouges éclatants des drapés et les bruns profonds de la terre créent une harmonie chromatique chaleureuse qui unifie la scène malgré la multiplicité des détails. L'artiste parvient à équilibrer le chaos apparent de cette fin de chasse en utilisant des rappels de couleurs et des jeux de regards entre les protagonistes. Cette toile n'est pas seulement une illustration d'un mythe antique, c'est un poème visuel sur la fertilité, la domination de la nature et le plaisir des sens, traité avec une franchise technique qui préfigure la modernité des grandes compositions décoratives.</p>",
+    "contemporaryArt": {
+      "title": "Faste Mythologique & Nature Morte de Chasse • Le Repos de Diane",
+      "events": [
+        "1645–1655 : Jordaens orchestre de grandes compositions mythologiques célébrant l'abondance de la nature et le retour de chasse de Diane.",
+        "1648 : Commandes royales de la reine Christine de Suède et d'Amélie de Solms pour le palais Huis ten Bosch à La Haye.",
+        "1652 : Achèvement du Triomphe de Frédéric-Henri d'Orange, chef-d'œuvre décoratif de sa maturité."
+      ]
+    }
+  },
+  {
+    "id": "jordaens_le_christ_chassant_les_marchands_du_temple_louvre_1650",
+    "artistId": "jordaens",
+    "artist": "Jordaens Jacob",
+    "artistSort": "Jordaens Jacob",
+    "civId": "occident",
+    "periodId": "occ_xviie",
+    "civName": "Occident : Baroque flamand (École d'Anvers)",
+    "civilization": "Flandres (Anvers)",
+    "subpart": "Grandes machines religieuses et théâtre sacré de la maturité (vers 1650)",
+    "title": "Le Christ chassant les marchands du Temple",
+    "date": "1650",
+    "dateDisplay": "vers 1650",
+    "century": "XVIIe siècle",
+    "centuryDisplay": "XVIIe s. (vers 1650)",
+    "centuryNumeric": 1650,
+    "period": "XVIIe siècle",
+    "domain": "peinture",
+    "type": "Peinture",
+    "artifactType": "Peinture à l'huile sur toile",
+    "category": "Peinture d'histoire biblique monumentale",
+    "medium": "Huile sur toile",
+    "dimensions": {
+      "h": 288,
+      "w": 436,
+      "display": "288 × 436 cm"
+    },
+    "location": "Musée du Louvre, Paris",
+    "currentLocation": "Musée du Louvre, Paris",
+    "site": "Musée du Louvre (Paris, France)",
+    "originSite": "Anvers (Flandres)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczNrUhCHy1QrPteGINdnHHBiHXvRfvvqXS6tWNhbQkEKBgu3rXqco1fIrIOcem7sxPTApBY_VIyryadS3hQfT--2VimcFDkgEPujdXh9q7YxnTugjtK6p7EPIujjpQim4HgFgzLjg0tYU12Vk9FV3VCf6w=w1681-h1265-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczNrUhCHy1QrPteGINdnHHBiHXvRfvvqXS6tWNhbQkEKBgu3rXqco1fIrIOcem7sxPTApBY_VIyryadS3hQfT--2VimcFDkgEPujdXh9q7YxnTugjtK6p7EPIujjpQim4HgFgzLjg0tYU12Vk9FV3VCf6w=w1681-h1265-s-no-gm?authuser=0",
+    "chips": [
+      "XVIIe s.",
+      "vers 1650",
+      "Jordaens",
+      "Vie du Christ",
+      "Marchands du Temple",
+      "Baroque flamand",
+      "Musée du Louvre"
+    ],
+    "themes": [
+      "sacre_religion",
+      "animaux_mouvement"
+    ],
+    "subthemes": [
+      "passion_christ",
+      "oiseaux_betail_singes"
+    ],
+    "desc": "<p>Cette œuvre monumentale de Jacob Jordaens, intitulée <em>Le Christ chassant les marchands du Temple</em>, est l'une des compositions les plus dynamiques du baroque flamand conservées au Louvre. Peinte vers 1650, elle illustre l'épisode biblique où Jésus, indigné par la transformation du lieu sacré en lieu de commerce, expulse les changeurs et les vendeurs d'animaux. Jordaens déploie ici toute sa fougue picturale en organisant une scène d'une confusion apparente, mais savamment orchestrée, où les corps s'entremêlent dans un mouvement diagonal puissant qui traverse toute la toile, soulignant la force physique et l'autorité spirituelle du Christ.</p><p>Le traitement des personnages est caractéristique du style de Jordaens, marqué par un réalisme robuste et une certaine bonhomie populaire. Contrairement à la noblesse académique de Rubens, Jordaens insuffle à ses figures une présence charnelle presque rustique : les marchands renversés, les animaux effrayés (bœufs, moutons, oiseaux) et les spectateurs aux visages expressifs créent une scène de genre à l'échelle monumentale. La lumière, vive et contrastée, accroche les plis du manteau rouge éclatant de Jésus, pivot central de l'action, tout en modelant les musculatures saillantes des protagonistes dans un esprit caravagesque tardif.</p><p>L'arrière-plan architectural, composé de colonnes corinthiennes et d'arcades massives, rappelle le cadre grandiose du Temple de Jérusalem tout en évoquant l'influence de l'Italie sur les peintres nordiques. Cette mise en scène théâtrale permet à l'artiste de jouer sur plusieurs niveaux de profondeur, intégrant des figures dans les tribunes qui observent la scène avec stupeur. Par cette œuvre, Jordaens ne se contente pas de relater un fait religieux ; il offre une réflexion sur la pureté du culte et la déchéance morale, tout en affirmant sa maîtrise des grands formats et sa capacité à capturer la vie dans ce qu'elle a de plus bouillonnant et de plus tactile.</p>",
+    "narrative": "<p>Cette œuvre monumentale de Jacob Jordaens, intitulée <em>Le Christ chassant les marchands du Temple</em>, est l'une des compositions les plus dynamiques du baroque flamand conservées au Louvre. Peinte vers 1650, elle illustre l'épisode biblique où Jésus, indigné par la transformation du lieu sacré en lieu de commerce, expulse les changeurs et les vendeurs d'animaux. Jordaens déploie ici toute sa fougue picturale en organisant une scène d'une confusion apparente, mais savamment orchestrée, où les corps s'entremêlent dans un mouvement diagonal puissant qui traverse toute la toile, soulignant la force physique et l'autorité spirituelle du Christ.</p><p>Le traitement des personnages est caractéristique du style de Jordaens, marqué par un réalisme robuste et une certaine bonhomie populaire. Contrairement à la noblesse académique de Rubens, Jordaens insuffle à ses figures une présence charnelle presque rustique : les marchands renversés, les animaux effrayés (bœufs, moutons, oiseaux) et les spectateurs aux visages expressifs créent une scène de genre à l'échelle monumentale. La lumière, vive et contrastée, accroche les plis du manteau rouge éclatant de Jésus, pivot central de l'action, tout en modelant les musculatures saillantes des protagonistes dans un esprit caravagesque tardif.</p><p>L'arrière-plan architectural, composé de colonnes corinthiennes et d'arcades massives, rappelle le cadre grandiose du Temple de Jérusalem tout en évoquant l'influence de l'Italie sur les peintres nordiques. Cette mise en scène théâtrale permet à l'artiste de jouer sur plusieurs niveaux de profondeur, intégrant des figures dans les tribunes qui observent la scène avec stupeur. Par cette œuvre, Jordaens ne se contente pas de relater un fait religieux ; il offre une réflexion sur la pureté du culte et la déchéance morale, tout en affirmant sa maîtrise des grands formats et sa capacité à capturer la vie dans ce qu'elle a de plus bouillonnant et de plus tactile.</p>",
+    "contemporaryArt": {
+      "title": "Réforme Morale & Fougue Monumentale • Le Christ chassant les marchands du Temple",
+      "events": [
+        "Vers 1650 : Jordaens adhère secrètement à la foi réformée calviniste ; ce thème de la purification du Temple résonne fortement avec ses convictions spirituelles.",
+        "1751 : La toile monumentale (288 × 436 cm) est acquise par le roi Louis XV auprès du peintre et marchand Jacques Ignace Parrocel.",
+        "1793 : Exposée dans la Grande Galerie du Louvre dès l'ouverture du musée."
+      ]
+    }
+  },
+  {
     "id": "ingres_mademoiselle_caroline_riviere_louvre_1805",
     "artistId": "ingres",
     "artist": "Ingres Jean-Auguste-Dominique",

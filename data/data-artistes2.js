@@ -381,6 +381,300 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
         }
       ]
     }
+  },
+  "jordaens": {
+    "id": "jordaens",
+    "name": "Jordaens Jacob",
+    "sortName": "Jordaens Jacob",
+    "sortLetter": "J",
+    "dates": "1593 – 1678",
+    "movement": "Baroque flamand (École d'Anvers) & Naturalisme monumental",
+    "nationality": "Flamand (Anvers)",
+    "techniques": "Huile sur toile, huile sur panneau de bois, carton de tapisserie, aquarelle et gouache, dessin aux trois crayons",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczPqZ6mLVUiH4v3veR1uCI3OQ7z-TPCJDwaXxjiLQK_ExpO_uEsG6rVOLmBVrX1U76Cfl9AUw9UUw45ELubHooa2Err40e96zgaO37P9iYeN2VfGMgWuVSDvAhExCG25TDuP9wy1ggNKygyeA0zxa7PMCw=w1681-h713-s-no-gm?authuser=0",
+    "portraitImg": "https://lh3.googleusercontent.com/pw/AP1GczPPgTd2pql8t_n8041rsoteVSLc9-lWrAmQZrg7H9HlEo7ek0HuAs5hMl2hRcUVDOKhp2PZxyKHrwzch9qLsOAhVi8m6y6KwAWlsazbbKQ3H-VPUkFtwKNW5v03yJTZ9ef56hkzdCouajlMyQFmNjzjmA=w1681-h2232-s-no-gm?authuser=0",
+    "bio": `
+      <p><strong>L'un des « trois géants » d'Anvers et la truculence flamande</strong><br>
+      Jacob Jordaens (1593 – 1678) est, aux côtés de Rubens et d'Anthony van Dyck, l'un des « trois géants » de l'école d'Anvers. Contrairement à ses deux confrères, il n'a jamais fait le voyage en Italie, ce qui confère à son œuvre un caractère profondément flamand, ancré dans un réalisme vigoureux, une bonhomie bourgeoise et une certaine truculence populaire.</p>
+      <p><strong>Naturalisme monumental, chairs généreuses et compositions saturées</strong><br>
+      Son genre pictural se définit par le Baroque flamand poussé vers une forme de naturalisme monumental. Jordaens est le peintre de la vie matérielle, des chairs généreuses et des banquets bruyants. Son style se caractérise par des compositions denses, souvent saturées de personnages au premier plan, une lumière chaleureuse et une palette de couleurs riches où les rouges et les bruns prédominent. Il possède un sens aigu de l'observation qu'il applique même à ses sujets mythologiques ou religieux, leur donnant un aspect étonnamment familier et terrestre.</p>
+      <p><strong>Du clair-obscur caravagesque à l'apogée des proverbes et des grands décors</strong><br>
+      L'évolution de son style montre une transition de l'influence caravagesque vers une maturité de plus en plus libre et narrative. La période des contrastes (années 1620) : Fortement marqué par le clair-obscur de Caravage (qu'il découvre à travers les œuvres de Rubens), il peint des scènes aux ombres profondes et à la lumière théâtrale, avec une précision tactile dans le rendu des visages ridés et des peaux burinées. L'apogée des proverbes et de la fête (années 1630-1650) : C'est sa période la plus emblématique. Il crée des séries célèbres illustrant des dictons populaires, comme <em>Le Roi boit</em> ou <em>Comme les vieux chantent, les jeunes pépient</em>. Son style devient plus clair, plus exubérant, célébrant les plaisirs de la table et la vitalité flamande avec une ironie bienveillante. La maturité tardive et le calvinisme : À la fin de sa vie, bien que converti secrètement au calvinisme, il continue de recevoir des commandes prestigieuses pour des décors monumentaux (comme la Maison du Bois à La Haye). Son style s'assouplit, sa touche devient plus large et ses compositions plus aérées, tout en conservant cette puissance expressive qui fait sa signature.</p>
+    `,
+    "corpus": {
+      "total": 400,
+      "seen": 7,
+      "paintingsCount": 400,
+      "details": [
+        {
+          "label": "Peintures autographes (toiles et panneaux — corpus d'Hulst)",
+          "count": 400,
+          "icon": "🎨",
+          "color": "#d4af37",
+          "seen": 7
+        }
+      ],
+      "sourceTitle": "Corpus scientifique R.-A. d'Hulst & Jordaens Van Dyck Panel Paintings Project",
+      "sourceNotes": "En écartant ses splendides et très nombreux cartons de tapisseries, son œuvre graphique exhaustif et les innombrables copies exécutées par ses assistants pour satisfaire la demande bourgeoise, le consensus scientifique fixe le corpus de ses toiles et panneaux de bois de facture strictement autographe à environ 400 peintures."
+    },
+    "biographyTimeline": {
+      "birth": {
+        "year": 1593,
+        "place": "Anvers (Pays-Bas espagnols, actuelle Belgique)",
+        "title": "Naissance dans une famille de marchands de toile d'Anvers",
+        "desc": "Naît le 19 mai 1593 à Anvers, aîné des onze enfants de Jacob Jordaens l'Ancien, prospère marchand de drap et de lin dans la Hoogstraat."
+      },
+      "death": {
+        "year": 1678,
+        "place": "Anvers (enterré en terre protestante à Putte)",
+        "title": "Mort du doyen de l'école d'Anvers",
+        "desc": "S'éteint le 18 octobre 1678 à 85 ans, emporté le même soir que sa fille Élisabeth par la « suette anversoise ». Converti au calvinisme, il est inhumé en terre protestante à Putte, juste au-delà de la frontière des Provinces-Unies."
+      },
+      "periods": [
+        {
+          "title": "L'Atelier d'Adam van Noort & L'Impact Caravagesque",
+          "years": "1607 – 1629",
+          "color": "#b45309",
+          "summary": "Formé chez Adam van Noort dont il épouse la fille Catharina, Jordaens est reçu franc-maître à la guilde de Saint-Luc en 1615 et développe un naturalisme caravagesque d'une densité plastique saisissante.",
+          "events": [
+            {
+              "year": 1607,
+              "title": "Apprentissage chez Adam van Noort (le maître de Rubens)",
+              "desc": "Entre à 14 ans dans l'atelier d'Adam van Noort, qui fut également le maître de Pierre Paul Rubens.",
+              "type": "peer",
+              "linkedArtist": "Rubens Pierre Paul"
+            },
+            {
+              "year": 1616,
+              "title": "Mariage avec Catharina van Noort & Franc-maître à Anvers",
+              "desc": "Reçu à la guilde de Saint-Luc comme waterschilder (peintre à la détrempe et à l'aquarelle pour cartons de tapisserie), il épouse la fille de son maître, qui inspire ses figures féminines.",
+              "icon": "💍"
+            },
+            {
+              "year": 1624,
+              "title": "La Sainte Famille",
+              "desc": "Composition intimiste à mi-corps baignée d'un clair-obscur caravagesque où la Vierge aux traits flamands veille sur l'Enfant paré d'un collier de corail prophylactique.",
+              "type": "masterpiece",
+              "artworkId": "jordaens_la_sainte_famille_1620_1628"
+            },
+            {
+              "year": 1628,
+              "title": "Les Quatre Évangélistes (Louvre)",
+              "desc": "Chef-d'œuvre de concentration spirituelle réunissant Matthieu, Marc, Luc et Jean autour du manuscrit sacré dans une lumière latérale qui sculpte les fronts ridés et les mains noueuses.",
+              "type": "masterpiece",
+              "artworkId": "jordaens_les_quatre_evangelistes_louvre_1625_1630"
+            }
+          ]
+        },
+        {
+          "title": "L'Apogée des Proverbes, des Banquets & du Mythologique Charnel",
+          "years": "1630 – 1649",
+          "color": "#d97706",
+          "summary": "Au sommet de sa gloire anversoise, Jordaens collabore avec Rubens aux décors royaux et célèbre la vitalité flamande dans ses banquets proverbiaux et ses bacchanales pastorales.",
+          "events": [
+            {
+              "year": 1633,
+              "title": "L'Enfance de Jupiter (Louvre)",
+              "desc": "Scène pastorale vibrante où le jeune Jupiter est nourri par le lait de la chèvre Amalthée aux côtés d'une nymphe nacrée et d'un satyre rustique.",
+              "type": "masterpiece",
+              "artworkId": "jordaens_l_enfance_de_jupiter_louvre_1630_1635"
+            },
+            {
+              "year": 1635,
+              "title": "Joyeuse Entrée du Cardinal-Infant Ferdinand & Collaboration avec Rubens",
+              "desc": "Dirige aux côtés de Rubens les décors monumentaux d'Anvers puis exécute plusieurs toiles pour la Torre de la Parada de Philippe IV d'Espagne.",
+              "type": "peer",
+              "linkedArtist": "Rubens Pierre Paul"
+            },
+            {
+              "year": 1639,
+              "title": "Les jeunes piaillent comme chantent les vieux (Valenciennes)",
+              "desc": "Mise en scène truculente du proverbe flamand Soo d'oude songen, soo pypen de jongen réunissant trois générations en fête.",
+              "type": "masterpiece",
+              "artworkId": "jordaens_les_jeunes_piaillent_comme_chantent_les_vieux_1639"
+            },
+            {
+              "year": 1645,
+              "title": "Portrait d'un homme obèse (Louvre)",
+              "desc": "Portrait en buste d'un notable anversois à la présence charnelle et joviale, aux antipodes de l'idéalisation courtoise de Van Dyck.",
+              "type": "masterpiece",
+              "artworkId": "jordaens_portrait_d_un_homme_obese_louvre_1640_1650"
+            }
+          ]
+        },
+        {
+          "title": "Premier Peintre d'Anvers, Grands Décors & Foi Réformée",
+          "years": "1650 – 1678",
+          "color": "#dc2626",
+          "summary": "Après la mort de Rubens (1640) et de Van Dyck (1641), Jordaens règne sans partage sur l'école d'Anvers, honorant les commandes royales d'Europe du Nord tout en adhérant au calvinisme.",
+          "events": [
+            {
+              "year": 1650,
+              "title": "Le Repos de Diane (Louvre)",
+              "desc": "Grand déploiement baroque mêlant les chairs ambrées des nymphes, les satyres dans l'ombre et un somptueux trophée de chasse au premier plan.",
+              "type": "masterpiece",
+              "artworkId": "jordaens_le_repos_de_diane_louvre_1645_1655"
+            },
+            {
+              "year": 1650,
+              "title": "Le Christ chassant les marchands du Temple (Louvre)",
+              "desc": "Tourbillon dramatique et populaire où bœufs, moutons et changeurs renversés s'entrechoquent sous le geste souverain du Christ dans un temple à colonnes corinthiennes.",
+              "type": "masterpiece",
+              "artworkId": "jordaens_le_christ_chassant_les_marchands_du_temple_louvre_1650"
+            },
+            {
+              "year": 1652,
+              "title": "Le Triomphe de Frédéric-Henri d'Orange (Huis ten Bosch, La Haye)",
+              "desc": "Peint la toile monumentale de 7 mètres de haut qui couronne l'Oranjezaal du palais de la Maison du Bois à La Haye.",
+              "type": "masterpiece",
+              "icon": "🏛️"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "kahlo": {
+    "id": "kahlo",
+    "name": "Kahlo Frida",
+    "sortName": "Kahlo Frida",
+    "sortLetter": "K",
+    "dates": "1907 – 1954",
+    "movement": "Art moderne mexicain, Réalisme magique, Indigénisme (Mexicanidad) & Surréalisme autobiographique",
+    "nationality": "Mexicaine",
+    "techniques": "Huile sur toile, huile sur masonite (isorel), huile sur métal (fer-blanc votif), aquarelle, dessin et journal illustré",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczN8PNigPTAzOItWGIMp-WskqNlXtci-We6uTMEEdsdXE3vM1dQBytZf0JipsG6R-BHn-UJx_m-QjGuYP5ctgqn6M5xCO43bbP91RGqWYp2nDtPQCeQmVknc_IkQs0fJycCuiBVyshpCR6--OjLRRrpJmg=w1681-h713-s-no-gm?authuser=0",
+    "portraitImg": "",
+    "bio": `
+      <p><strong>Icône universelle de l'art moderne mexicain, d'émancipation et de résilience</strong><br>
+      Frida Kahlo (1907 – 1954) est l'une des artistes les plus emblématiques du XXe siècle, figure majeure de l'art moderne mexicain et icône universelle d'émancipation et de résilience. Marquée dès sa jeunesse par un accident d'autobus dévastateur et une vie ponctuée d'opérations chirurgicales et de douleurs chroniques, elle a transformé sa souffrance corporelle et sa tumultueuse passion avec Diego Rivera en une œuvre autobiographique d'une puissance symbolique viscérale. Rejetant l'étiquette surréaliste formulée par André Breton, elle affirmait ne pas peindre ses rêves, mais sa propre réalité.</p>
+      <p><strong>Autoportrait psychologique, ex-voto populaire et vocabulaire symbolique à vif</strong><br>
+      Son genre pictural se définit par l'autoportrait psychologique, la nature morte allégorique et la peinture votive populaire. Son style se caractérise par une ligne précise, un regard frontal et hypnotique dominé par son monosourcil signature, une palette éclatante empruntée au folklore mexicain et un vocabulaire symbolique cru : artères à vif, corsets orthopédiques, racines nourricières, clous plantés dans la chair et éléments de la mythologie précolombienne.</p>
+      <p><strong>Du chevalet de convalescence aux chefs-d'œuvre de la Casa Azul</strong><br>
+      L'évolution de son style marque un passage de la découverte intime de la peinture vers l'affirmation politique et la métaphore organique. L'accident, la convalescence et l'affirmation de soi (1925 – 1930) : Clouée au lit après son accident, elle commence à peindre grâce à un chevalet adapté et un miroir fixé au baldaquin de son lit. Ses premiers autoportraits (<em>Autoportrait en robe de velours</em>) révèlent une influence Renaissance européenne adoucie, où elle explore son image comme seul sujet véritablement à sa portée. Le séjour aux États-Unis, le folklore et l'apogée symbolique (années 1930 – 1940) : Suivant Diego Rivera à Détroit et New York, elle se sent exilée et affirme violemment son identité indigène à travers les vêtements traditionnels tehuana. Elle peint des toiles complexes comme <em>Les Deux Frida</em> ou <em>La Colonne brisée</em>, où s'entremêlent déchirure sentimentale, chair martyrisée et double identité culturelle avec une frontalité déroutante. Le sanctuaire de la Casa Azul et la décomposition corporelle (années 1950) : Réfugiée dans sa maison bleue de Coyoacán, affaiblie et amputée d'une jambe, sa touche se fait plus lourde et fiévreuse. Elle se tourne vers des natures mortes de fruits tropicaux gorgés de sève et de sang, culminant avec son ultime hommage à l'existence, gravé sur la pulpe d'une pastèque quelques jours avant sa mort : <em>Viva la Vida</em>.</p>
+    `,
+    "corpus": {
+      "total": 152,
+      "seen": 0,
+      "paintingsCount": 152,
+      "details": [
+        {
+          "label": "Peintures à l'huile (sur toile, masonite ou métal — cat. Prignitz-Poda)",
+          "count": 152,
+          "icon": "🎨",
+          "color": "#d4af37",
+          "seen": 0
+        }
+      ],
+      "sourceTitle": "Catalogue raisonné Helga Prignitz-Poda, Salomon Grimberg & Andrea Kettenmann (1988)",
+      "sourceNotes": "En écartant ses pages de journal intime, ses dessins et ses aquarelles, le consensus scientifique fixe le corpus officiel de ses huiles (peintes sur toile, sur masonite ou sur métal) à très exactement 152 peintures."
+    },
+    "biographyTimeline": {
+      "birth": {
+        "year": 1907,
+        "place": "Coyoacán, Mexico (Mexique)",
+        "title": "Naissance à la Casa Azul de Coyoacán",
+        "desc": "Naît le 6 juillet 1907 à Coyoacán (elle déclarera plus tard être née en 1910, année du déclenchement de la Révolution mexicaine), fille du photographe d'origine allemande Guillermo Kahlo et de Matilde Calderón y González."
+      },
+      "death": {
+        "year": 1954,
+        "place": "Casa Azul, Coyoacán, Mexico (Mexique)",
+        "title": "Mort à la Casa Azul & Viva la Vida",
+        "desc": "S'éteint dans la nuit du 13 juillet 1954 à 47 ans dans sa Maison Bleue de Coyoacán, quelques jours après avoir inscrit « Viva la Vida » sur sa dernière nature morte aux pastèques."
+      },
+      "periods": [
+        {
+          "title": "L'Accident Brisé, Le Miroir du Baldaquin & La Rencontre de Diego Rivera",
+          "years": "1925 – 1930",
+          "color": "#0284c7",
+          "summary": "Transpercée à 18 ans lors d'une collision entre son bus et un tramway, Frida Kahlo apprend à peindre alitée dans un corset de plâtre avant d'épouser le muraliste Diego Rivera.",
+          "events": [
+            {
+              "year": 1925,
+              "title": "L'Accident d'autobus du 17 septembre 1925",
+              "desc": "Une barre de fer lui transperce le bassin et brise sa colonne vertébrale en trois endroits : immobilisée des mois durant, elle peint grâce à un miroir fixé au ciel de son lit.",
+              "icon": "⚡"
+            },
+            {
+              "year": 1926,
+              "title": "Autoportrait en robe de velours",
+              "desc": "Premier autoportrait majeur aux inflexions maniéristes inspirées de Bronzino et Botticelli, peint pour retenir Alejandro Gómez Arias.",
+              "type": "masterpiece",
+              "icon": "🎨"
+            },
+            {
+              "year": 1929,
+              "title": "Mariage avec le muraliste Diego Rivera",
+              "desc": "Épouse le géant du muralisme mexicain le 21 août 1929 — union tumultueuse que sa mère qualifie de « mariage entre un éléphant et une colombe ».",
+              "icon": "💍"
+            }
+          ]
+        },
+        {
+          "title": "L'Exil Américain, La Mexicanidad Tehuana & Les Chefs-d'Œuvre Viscéraux",
+          "years": "1931 – 1944",
+          "color": "#d97706",
+          "summary": "De San Francisco à Détroit et New York, puis de retour au Mexique et à Paris, elle forge un langage pictural nourri d'ex-voto sur fer-blanc et d'anatomie symbolique.",
+          "events": [
+            {
+              "year": 1932,
+              "title": "Hôpital Henry Ford (La Cama Volando) à Détroit",
+              "desc": "Après une fausse couche traumatique à Détroit, elle peint sur une plaque de métal votive son corps en larmes relié par six rubans rouges semblables à des artères.",
+              "type": "masterpiece",
+              "icon": "🎨"
+            },
+            {
+              "year": 1938,
+              "title": "Rencontre d'André Breton & Expositions à New York et Paris (1939)",
+              "desc": "Expose à la galerie Julien Levy à New York puis à Paris ; le Musée du Louvre acquiert Le Cadre (The Frame), première œuvre d'un artiste mexicain du XXe siècle à entrer dans ses collections.",
+              "icon": "🏛️"
+            },
+            {
+              "year": 1939,
+              "title": "Les Deux Frida (Las Dos Fridas, Museo de Arte Moderno, Mexico)",
+              "desc": "Peinte lors de son divorce suivi d'un remariage en 1940 avec Rivera : double autoportrait monumental reliant par une artère à vif la Frida européenne en robe blanche déchirée et la Frida tehuana.",
+              "type": "masterpiece",
+              "icon": "🎨"
+            },
+            {
+              "year": 1944,
+              "title": "La Colonne brisée (Museo Dolores Olmedo)",
+              "desc": "Son rachis est remplacé par une colonne ionique fissurée tandis que son corps entravé dans un corset d'acier est criblé de clous sur un paysage aride.",
+              "type": "masterpiece",
+              "icon": "🎨"
+            }
+          ]
+        },
+        {
+          "title": "Le Sanctuaire de la Casa Azul, Les Natures Mortes & Viva la Vida",
+          "years": "1945 – 1954",
+          "color": "#dc2626",
+          "summary": "Entourée de ses élèves (« Los Fridos ») et de sa collection d'art précolombien à Coyoacán, elle affronte trente-deux opérations et l'amputation en célébrant la sève de la vie.",
+          "events": [
+            {
+              "year": 1946,
+              "title": "Le Cerf blessé (El Venado Herido)",
+              "desc": "Se représente sous les traits d'un jeune cerf percé de neuf flèches dans une forêt fermée, fusionnant le martyre chrétien de saint Sébastien et le tonal (animal-double) aztèque.",
+              "type": "masterpiece",
+              "icon": "🦌"
+            },
+            {
+              "year": 1953,
+              "title": "Première exposition personnelle au Mexique & Amputation",
+              "desc": "Incapable de marcher, elle se fait transporter sur son lit à baldaquin jusqu'à la galerie de Lola Álvarez Bravo pour le vernissage de sa première rétrospective mexicaine.",
+              "icon": "🌟"
+            },
+            {
+              "year": 1954,
+              "title": "Viva la Vida (Pastèques, Museo Frida Kahlo)",
+              "desc": "Huit jours avant sa mort, elle inscrit en lettres capitales sur la chair écarlate d'une pastèque son ultime hymne solaire : « VIVA LA VIDA – Coyoacán 1954 ».",
+              "type": "masterpiece",
+              "icon": "🍉"
+            }
+          ]
+        }
+      ]
+    }
   }
 });
 
