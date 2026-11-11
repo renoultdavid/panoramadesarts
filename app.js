@@ -826,7 +826,7 @@ const ART_MOVEMENTS = [
     yearEnd: 1660,
     tier: 1,
     color: "#b45309",
-    keyArtists: "Le Caravage, Annibale Carracci, Artemisia Gentileschi, Georges de La Tour, Rembrandt, Pierre Paul Rubens, Diego Vélasquez",
+    keyArtists: "Le Caravage, Annibale Carracci, Artemisia Gentileschi, Georges de La Tour, Giovanni Lanfranco, Pieter Lastman, Rembrandt, Pierre Paul Rubens, Diego Vélasquez",
     definition: "Séisme baroque refusant l'idéalisation classique pour imposer un réalisme cru, le choc dramatique du clair-obscur (ténébrisme) et une intensité psychologique universelle.",
     filterKeyword: "caravage"
   },

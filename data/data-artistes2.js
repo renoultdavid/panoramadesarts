@@ -1373,6 +1373,294 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
         }
       ]
     }
+  },
+  "lanfranco": {
+    "id": "lanfranco",
+    "name": "Giovanni Lanfranco",
+    "dates": "1582 – 1647",
+    "century": "XVIIe siècle",
+    "nationality": "Italien (Parme / Rome / Naples)",
+    "movement": "Baroque italien & Illusionnisme des Coupoles",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczM-MDtjjazflYJAoaGgVnxXz2iWTiO4_4ls2uEqZurHpj__rSwN8Lsn2guFZuu9ZnF9uJZhVMjP6uDDsPoaSvNiVrxaii1gPYR15bugInCTMnlPIzpCzezgWhtYDFLo_fSi0wAI25Sf6Ft1886z3WJGSg=w1681-h713-s-no-gm?authuser=0",
+    "bio": "<p><strong>Formation chez les Carrache & rupture illusionniste</strong><br>Giovanni Lanfranco (1582 – 1647) est l'un des pionniers les plus audacieux du Baroque romain. Formé à l'école des Carrache à Bologne, il a su s'émanciper de leur rigueur classique pour développer un style fondé sur le mouvement et l'illusionnisme spatial. Son tempérament fougueux et sa rivalité légendaire avec Le Dominiquin ont rythmé la vie artistique de Rome et de Naples. Il est aujourd'hui célébré comme celui qui a véritablement « ouvert » les plafonds des églises, créant des visions célestes qui semblent aspirer le spectateur vers l'infini.</p><p><strong>La spirale baroque & l'héritage du Corrège</strong><br>Son genre pictural est la grande fresque de coupole et la peinture religieuse monumentale. Son style se définit par une maîtrise exceptionnelle du clair-obscur et une composition dynamique en spirale. Héritier du Corrège, il pousse l'utilisation de la lumière à son paroxysme pour créer une profondeur atmosphérique. Ses personnages, aux gestes amples et aux drapés tourmentés, sont souvent vus en raccourci héroïque. La peinture de Lanfranco ne cherche pas la précision du détail, mais l'effet d'ensemble, la vibration des masses colorées et l'émotion mystique provoquée par une mise en scène théâtrale.</p><p><strong>Le triomphe des coupoles romaines et napolitaines</strong><br>L'évolution de son travail montre une transition spectaculaire entre la tradition bolonaise et l'explosion baroque. Ses premières œuvres, comme celles réalisées au Palais Farnèse, sont marquées par une certaine retenue. Cependant, son chef-d'œuvre à la coupole de Sant'Andrea della Valle (1625-1627) marque un tournant historique : il y supprime les divisions structurelles pour créer une nuée de saints et d'anges tourbillonnant vers le Christ. Dans sa période napolitaine, son art devient plus sombre et plus intense, influençant profondément l'école locale. Il laisse derrière lui une conception de l'espace pictural qui servira de fondement à tous les grands décorateurs du XVIIe siècle, de Pierre de Cortone à Gaulli.</p>",
+    "corpus": {
+      "total": 120,
+      "seen": 1,
+      "paintingsCount": 120,
+      "details": [
+        {
+          "label": "Peintures à l'huile et grands cycles de fresques plafonnantes",
+          "count": 120,
+          "icon": "🎨",
+          "color": "#d4af37",
+          "seen": 1
+        }
+      ],
+      "sourceTitle": "Monographie et catalogue scientifique d'Erich Schleier (Electa, 2001)",
+      "sourceNotes": "L'inventaire de référence mondiale repose sur les travaux fondamentaux de l'historien de l'art Erich Schleier (Giovanni Lanfranco : Un pittore barocco tra Parma, Roma e Napoli, Electa, 2001). En excluant les nombreux dessins préparatoires et les copies d'atelier, le consensus scientifique fixe le corpus de ses toiles autonomes et de ses grands cycles de fresques plafonnantes autographes à environ 120 œuvres."
+    },
+    "biographyTimeline": {
+      "periods": [
+        {
+          "title": "Jeunesse à Parme, Formation chez Agostino & Annibale Carracci",
+          "years": "1582 – 1612",
+          "color": "#0284c7",
+          "summary": "Page du comte Scotti à Parme, il est repéré par Agostino Carracci puis rejoint le grand chantier du Palais Farnèse à Rome aux côtés d'Annibale.",
+          "events": [
+            {
+              "year": 1597,
+              "title": "Apprentissage auprès d'Agostino Carracci à Parme",
+              "desc": "Entre dans l'atelier d'Agostino Carracci et étudie de près les coupoles illusionnistes du Corrège dans la cathédrale de Parme.",
+              "icon": "🎨"
+            },
+            {
+              "year": 1602,
+              "title": "Chantier de la Galerie Farnèse à Rome avec Annibale Carracci",
+              "desc": "À la mort d'Agostino, il rejoint Rome et participe activement aux fresques du Palais Farnèse sous la conduite d'Annibale Carracci.",
+              "icon": "🏛️"
+            }
+          ]
+        },
+        {
+          "title": "Le Triomphe Romain : Sant'Andrea della Valle & La Révolution de la Coupole",
+          "years": "1613 – 1633",
+          "color": "#d97706",
+          "summary": "Consécration papale sous Paul V Borghese et Urbain VIII Barberini. Il révolutionne la peinture de plafond avec l'Assomption de la Vierge.",
+          "events": [
+            {
+              "year": 1621,
+              "title": "Chantiers pontificaux au Quirinal et à la Villa Borghèse",
+              "desc": "Reçoit d'importantes commandes des Borghese et développe une première manière théâtrale marquée par des raccourcis audacieux.",
+              "icon": "👑"
+            },
+            {
+              "year": 1625,
+              "title": "La Coupole de Sant'Andrea della Valle (1625 – 1627)",
+              "desc": "Chef-d'œuvre fondateur du haut baroque : une vision céleste en spirale continue abolissant les cadres architecturaux rigides au détriment de son rival Le Dominiquin.",
+              "type": "masterpiece",
+              "icon": "✨"
+            }
+          ]
+        },
+        {
+          "title": "La Période Napolitaine & La Gloire du Trésor de San Gennaro",
+          "years": "1634 – 1647",
+          "color": "#dc2626",
+          "summary": "Établi à Naples, il devient le peintre le plus admiré de la cité parthénopéenne et réalise le couronnement de son art dans la chapelle royale.",
+          "events": [
+            {
+              "year": 1641,
+              "title": "Coupole de la Chapelle Royale du Trésor de San Gennaro à Naples",
+              "desc": "Réalise la fresque colossale du Paradis en nuages concentriques et l'intercession de saint Janvier sauvant Naples de la colère du Vésuve.",
+              "type": "masterpiece",
+              "artworkId": "lanfranco_coupole_chapelle_san_gennaro_naples_1641"
+            },
+            {
+              "year": 1646,
+              "title": "Retour à Rome et fresque de San Carlo ai Catinari",
+              "desc": "Regagne Rome pour peindre la gloire de l'abside de San Carlo ai Catinari, son ultime chef-d'œuvre achevé peu avant sa mort en 1647.",
+              "icon": "⛪"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "lastman": {
+    "id": "lastman",
+    "name": "Pieter Lastman",
+    "dates": "v. 1583 – 1633",
+    "century": "XVIIe siècle",
+    "nationality": "Néerlandais (Amsterdam)",
+    "movement": "Siècle d'or néerlandais & Précaravagisme",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczNoLqcFPNSLIJUSkVk8FGYigpQf9pvU-GZsm4wmNNG-h-1T93LmSV_azFQkkBtutpm3WTrcEDWJOFe7IBeVu_DJaz_ay9pD4vUUV38267I_8sUWTzIZ7PmjXFUCNYGaOq5p09gIc0IyWZD4ysVOp_vgMw=w1681-h713-s-no-gm?authuser=0",
+    "bio": "<p><strong>Maître d'histoire à Amsterdam & formateur de Rembrandt</strong><br>Pieter Lastman (v. 1583 – 1633) est le maître incontesté de la peinture d'histoire à Amsterdam au cours du premier tiers du Siècle d'or néerlandais. Bien qu'il soit souvent célébré pour avoir été le maître formateur de Rembrandt van Rijn et de Jan Lievens, Lastman est avant tout un pionnier qui a révolutionné la narration biblique et mythologique aux Provinces-Unies, en important et adaptant les leçons du caravagisme et du classicisme italien.</p><p><strong>Le Grand Genre en format intime & la dramaturgie sacrée</strong><br>Son genre pictural se définit par la peinture d'histoire sacrée et profane (épisodes bibliques rares, récits mythologiques et historiques) de moyen et petit format. Son style se caractérise par des compositions denses, une grande précision dans le rendu des étoffes chatoyantes et des costumes orientalisants, des drapés aux plis cassés et rigides, ainsi qu'un sens aigu du geste dramatique et de l'expressivité théâtrale des visages, baignés d'une lumière franche qui détache nettement les volumes.</p><p><strong>De Rome à Amsterdam : l'assimilation fondatrice</strong><br>L'évolution de son style marque l'assimilation du foyer romain vers une éloquence dramatique propre au Siècle d'or. Après son voyage en Italie (vers 1603-1607) sous l'influence d'Elsheimer et de Caravage, son style s'affirme à Amsterdam dans les années 1610 avec des couleurs émaillées et le choix du moment paroxystique. Devenu l'atelier le plus réputé de la cité, il accueille en 1624-1625 le jeune Rembrandt, dont la première manière portera l'empreinte directe et indélébile de sa mise en scène psychologique et de ses drapés précieux.</p>",
+    "corpus": {
+      "total": 120,
+      "seen": 0,
+      "paintingsCount": 120,
+      "details": [
+        {
+          "label": "Panneaux de chêne et toiles autographes (Catalogue Tümpel 1991)",
+          "count": 120,
+          "icon": "🎨",
+          "color": "#d4af37",
+          "seen": 0
+        }
+      ],
+      "sourceTitle": "Monographie et catalogue raisonné d'Astrid Tümpel (1991)",
+      "sourceNotes": "L'inventaire de référence a longtemps reposé sur le vieux catalogue de l'historien allemand Kurt Freise (1911), mais il a été magistralement épuré et actualisé par l'historienne de l'art Astrid Tümpel à l'occasion de la grande exposition monographique de 1991 (Pieter Lastman : Leermeester van Rembrandt). En écartant les œuvres de son immense cercle d'imitateurs et d'élèves (comme Jan Tengnagel ou les frères Pynas), le consensus scientifique fixe aujourd'hui le corpus de ses panneaux de chêne et toiles strictement autographes à environ 120 peintures."
+    },
+    "biographyTimeline": {
+      "periods": [
+        {
+          "title": "Jeunesse amstellodamoise & Le Voyage Initiatique en Italie",
+          "years": "v. 1583 – 1607",
+          "color": "#0284c7",
+          "summary": "Fils d'un greffier catholique révoqué d'Amsterdam, il se forme auprès de Gerrit Sweelinck avant de partir pour Rome et Venise.",
+          "events": [
+            {
+              "year": 1603,
+              "title": "Séjour à Rome & Fréquentation du cercle d'Adam Elsheimer",
+              "desc": "Arrive à Rome où il se lie avec le peintre allemand Adam Elsheimer. Il y apprend l'art du paysage intime illuminé d'une lumière mystique et découvre les nouveautés du Caravage.",
+              "icon": "🏛️"
+            },
+            {
+              "year": 1607,
+              "title": "Retour définitif à Amsterdam",
+              "desc": "Rentre aux Provinces-Unies porteur de la nouvelle culture figurative romaine et installe son atelier dans la Sint Antoniesbreestraat.",
+              "icon": "⛵"
+            }
+          ]
+        },
+        {
+          "title": "L'Épanouissement de la Peinture d'Histoire & La Gloire des Années 1610",
+          "years": "1608 – 1623",
+          "color": "#d97706",
+          "summary": "S'impose comme le peintre d'histoire le plus célébré d'Amsterdam grâce à ses compositions denses et ses coloris émaillés éclatants.",
+          "events": [
+            {
+              "year": 1612,
+              "title": "Le Jugement de Midas & Scènes bibliques d'avant-garde",
+              "desc": "Développe une narration psychologique percutante avec des costumes exotiques orientalisants et des poses très expressives.",
+              "icon": "📖"
+            },
+            {
+              "year": 1622,
+              "title": "L'Ânesse de Balaam (Paris, Fondation Custodia)",
+              "desc": "Chef-d'œuvre dramatique saisissant le moment précis où l'ange apparaît avec une épée flamboyante, matrice directe de la toile de Rembrandt de 1626.",
+              "type": "masterpiece",
+              "icon": "✨"
+            }
+          ]
+        },
+        {
+          "title": "L'Atelier Maître : La Formation de Rembrandt & Les Dernières Années",
+          "years": "1624 – 1633",
+          "color": "#dc2626",
+          "summary": "Au sommet de sa renommée, il forme les futurs géants de la peinture hollandaise : Rembrandt van Rijn et Jan Lievens.",
+          "events": [
+            {
+              "year": 1624,
+              "title": "Accueil de Rembrandt comme apprenti dans son atelier",
+              "desc": "Rembrandt, âgé de 18 ans, quitte Leyde pour étudier six mois auprès de Lastman, apprenant de lui la composition d'histoire, la gestuelle théâtrale et le rendu des étoffes.",
+              "type": "peer",
+              "linkedArtist": "Rembrandt van Rijn"
+            },
+            {
+              "year": 1633,
+              "title": "Mort à Amsterdam et inhumation à l'Oude Kerk",
+              "desc": "Disparaît au faîte des honneurs, laissant une école de narration historique qui fécondera tout le Siècle d'or néerlandais.",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "le_brun": {
+    "id": "le_brun",
+    "name": "Charles Le Brun",
+    "dates": "1619 – 1690",
+    "century": "XVIIe siècle",
+    "nationality": "Français (Paris)",
+    "movement": "Classicisme français & Grand Siècle de Louis XIV",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczPOo_iSNf0Q-2DckjkLW8h4hEZ7B0GKX8cWSlczQmXXDMzH4gwwiurMHOdIjvzQUQtwSDxMFzMlcWhSbUuCot1xFFi78AJQlRDmEFUM5-f0INPucmZEhdaiXbNpYWRw6YDgAmLittTNOIAkgF7AKI1GLA=w1681-h713-s-no-gm?authuser=0",
+    "bio": "<p><strong>Le Premier Peintre du Roi & l'ordonnateur du Grand Siècle</strong><br>Charles Le Brun (1619 – 1690) est l'incarnation même de l'art officiel sous le règne de Louis XIV. Premier peintre du Roi, directeur de l'Académie royale de peinture et de sculpture et de la Manufacture des Gobelins, il a exercé une véritable dictature esthétique en France pendant près de trente ans, codifiant le goût classique pour servir la gloire du « plus grand roi du monde ».</p><p><strong>La Rhétorique visuelle & l'expression des passions</strong><br>Son genre pictural se définit par le Grand Genre (la peinture d'histoire) et une maîtrise totale de la rhétorique visuelle. Le Brun considérait que la peinture devait s'adresser à l'esprit avant les yeux. Son style se caractérise par des compositions rigoureusement ordonnées, un dessin précis influencé par Poussin et une codification systématique des expressions humaines (sa célèbre théorie des « passions de l'âme »). Il conçoit l'art comme une œuvre totale, capable de décorer les plus vastes palais.</p><p><strong>De Vaux-le-Vicomte à Versailles : l'apogée monarchique</strong><br>L'évolution de son style marque l'ascension de l'absolutisme, de la décoration privée à la mise en scène royale. Après le coup d'éclat de Vaux-le-Vicomte pour Fouquet, il devient sous l'égide de Colbert le maître d'œuvre tout-puissant de la Galerie des Glaces et des Grands Appartements de Versailles. À la fin de sa vie, après la mort de Colbert et face à l'ascension de Pierre Mignard, son style gagne en sobriété, en émotion religieuse et en recueillement intérieur.</p>",
+    "corpus": {
+      "total": 275,
+      "seen": 1,
+      "paintingsCount": 275,
+      "details": [
+        {
+          "label": "Peintures à l'huile autonomes (tableaux d'autel, portraits & toiles d'histoire)",
+          "count": 275,
+          "icon": "🎨",
+          "color": "#d4af37",
+          "seen": 1
+        }
+      ],
+      "sourceTitle": "Consensus scientifique (Jacques Thuillier & Lydia Beauvais)",
+      "sourceNotes": "En excluant ses milliers de dessins préparatoires (le Louvre en conserve plus de 3 000 catalogués par Lydia Beauvais), ses immenses cycles de fresques plafonnantes (Versailles, Vaux-le-Vicomte, galerie d'Apollon au Louvre) et ses cartons de tapisserie purs, le consensus scientifique estime le corpus de ses peintures à l'huile autonomes (tableaux d'autel, portraits et grandes compositions narratives) à environ 250 à 300 œuvres (médiane à 275)."
+    },
+    "biographyTimeline": {
+      "periods": [
+        {
+          "title": "Jeunesse, Séjour Romain auprès de Nicolas Poussin & Retour à Paris",
+          "years": "1619 – 1656",
+          "color": "#0284c7",
+          "summary": "Protégé du chancelier Séguier, il se forme chez Vouet puis passe quatre années à Rome avec Poussin avant de cofonder l'Académie royale.",
+          "events": [
+            {
+              "year": 1642,
+              "title": "Séjour romain sous la tutelle de Nicolas Poussin",
+              "desc": "Part pour l'Italie grâce au chancelier Séguier. À Rome, il travaille en étroite collaboration avec Nicolas Poussin, étudiant les antiques et Raphaël.",
+              "icon": "🏛️"
+            },
+            {
+              "year": 1648,
+              "title": "Cofondateur de l'Académie royale de peinture et de sculpture",
+              "desc": "Fonde l'Académie royale avec un groupe de peintres du roi pour émanciper les artistes du carcan médiéval de la corporation de Saint-Luc.",
+              "icon": "👑"
+            }
+          ]
+        },
+        {
+          "title": "Le Chef-d'œuvre de Vaux-le-Vicomte & L'Avènement du Roi-Soleil",
+          "years": "1657 – 1682",
+          "color": "#d97706",
+          "summary": "Ordonnateur absolu des arts sous Colbert : Premier peintre du roi, directeur des Gobelins et concepteur du décor de Versailles.",
+          "events": [
+            {
+              "year": 1658,
+              "title": "Le Grand Décor du château de Vaux-le-Vicomte pour Nicolas Fouquet",
+              "desc": "Conçoit un ensemble décoratif sans précédent alliant stucs, plafonds peints et allégories, admiré et jalousé par Louis XIV.",
+              "icon": "🏰"
+            },
+            {
+              "year": 1662,
+              "title": "Nommé Premier Peintre du Roi & Directeur des Gobelins",
+              "desc": "Louis XIV et Colbert lui confient la direction suprême des arts royaux, de l'ameublement et des manufactures de la Couronne.",
+              "icon": "🌟"
+            },
+            {
+              "year": 1679,
+              "title": "La Descente de Croix commandée par Mme de Montespan (Rennes)",
+              "desc": "Peint pour le maître-autel des Capucins de la rue Saint-Honoré une composition monumentale illustrant sa théorie de l'expression des passions.",
+              "type": "masterpiece",
+              "artworkId": "le_brun_descente_de_croix_mise_au_tombeau_rennes_1679"
+            },
+            {
+              "year": 1680,
+              "title": "Plafond de la Galerie des Glaces au Château de Versailles",
+              "desc": "Apothéose de l'art monarchique : 30 compositions peintes célébrant les hauts faits et les vertus de Louis XIV.",
+              "type": "masterpiece",
+              "icon": "✨"
+            }
+          ]
+        },
+        {
+          "title": "Maturité Tardive, Méditations Sacrées & Postérité Théorique",
+          "years": "1683 – 1690",
+          "color": "#dc2626",
+          "summary": "Après la disparition de Colbert, il se consacre à des tableaux d'autel empreints de ferveur et publie sa conférence sur l'expression des passions.",
+          "events": [
+            {
+              "year": 1686,
+              "title": "L'Adoration des bergers & Cycle de la vie du Christ",
+              "desc": "Se tourne vers une peinture religieuse plus sobre, intime et méditative, rivalisant avec Pierre Mignard.",
+              "icon": "✝️"
+            },
+            {
+              "year": 1690,
+              "title": "Mort aux Gobelins & Publication de « L'Expression des passions »",
+              "desc": "S'éteint dans son hôtel des Gobelins. Son traité illustré sur la physionomie et les passions de l'âme deviendra le manuel de référence des académies européennes pendant deux siècles.",
+              "icon": "📖"
+            }
+          ]
+        }
+      ]
+    }
   }
 });
 

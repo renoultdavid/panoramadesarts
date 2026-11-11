@@ -333,6 +333,22 @@ window.MOVEMENTS_DATA = {
         "desc": "Saint Joseph charpentier, Le Tricheur à l'as de carreau, Le Nouveau-né et La Madeleine Terff.",
         "artistId": "la_tour",
         "icon": "🕯️"
+      },
+      {
+        "name": "Giovanni Lanfranco",
+        "dates": "1582 – 1647",
+        "role": "Pionnier du baroque romain et virtuose de l'illusionnisme céleste en coupole",
+        "desc": "Coupole de Sant'Andrea della Valle, fresques de la chapelle royale San Gennaro à Naples.",
+        "artistId": "lanfranco",
+        "icon": "✨"
+      },
+      {
+        "name": "Pieter Lastman",
+        "dates": "v. 1583 – 1633",
+        "role": "Maître incontesté de la peinture d'histoire à Amsterdam et formateur de Rembrandt",
+        "desc": "L'Ânesse de Balaam, Le Jugement de Midas, Le Sacrifice d'Abraham.",
+        "artistId": "lastman",
+        "icon": "📖"
       }
     ]
   },
@@ -364,7 +380,7 @@ window.MOVEMENTS_DATA = {
         "dates": "1619 – 1690",
         "role": "Premier peintre du Roi-Soleil et ordonnateur de Versailles",
         "desc": "Plafonds de la Galerie des Glaces et direction de la Manufacture des Gobelins.",
-        "artistId": "",
+        "artistId": "le_brun",
         "icon": "👑"
       },
       {

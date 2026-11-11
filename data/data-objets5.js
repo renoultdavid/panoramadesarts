@@ -7,6 +7,106 @@
 
 window.ART_OBJECTS = [
   {
+    "id": "lanfranco_coupole_chapelle_san_gennaro_naples_1641",
+    "artistId": "lanfranco",
+    "artist": "Lanfranco Giovanni",
+    "artistSort": "Lanfranco Giovanni",
+    "civId": "occident",
+    "periodId": "occ_baroque_classique",
+    "civName": "Occident : Baroque & Illusionnisme Sacré",
+    "civilization": "Italie",
+    "subpart": "Le Paradis & L'Intercession de San Gennaro (1641 – 1643)",
+    "title": "Coupole de la Chapelle Royale du Trésor de San Gennaro : Le Paradis",
+    "date": "1641 – 1643",
+    "dateDisplay": "1641 – 1643",
+    "century": "XVIIe siècle",
+    "centuryDisplay": "XVIIe s. (1641)",
+    "centuryNumeric": 1641,
+    "period": "XVIIe siècle",
+    "domain": "peinture",
+    "type": "Fresque",
+    "artifactType": "Fresque monumentale de coupole",
+    "category": "Grande coupole baroque et gloire céleste illusionniste",
+    "medium": "Fresque",
+    "dimensions": {
+      "h": 1400,
+      "w": 1400,
+      "display": "Diamètre env. 14 m (Coupole)"
+    },
+    "location": "Chapelle Royale du Trésor de San Gennaro, Naples",
+    "currentLocation": "Chapelle Royale du Trésor de San Gennaro, Cathédrale Notre-Dame-de-l'Assomption, Naples",
+    "site": "Chapelle Royale du Trésor de San Gennaro (Naples, Italie)",
+    "originSite": "Naples (Italie)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczOixP5N9OmdIWbdOrQckvHh_1gWOC-Lr9XU4x5FJZ5oF2KmTnLs911FBpZ6ayUPC8y944Ay7Ub064W8XE8z5OX5FIos70WcUaQLhDQiec6OjnZJm07kMGgFL1ieYDLpvlkvA_lrm_ZHvw3dynzIHCaP_w=w1681-h1121-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczOixP5N9OmdIWbdOrQckvHh_1gWOC-Lr9XU4x5FJZ5oF2KmTnLs911FBpZ6ayUPC8y944Ay7Ub064W8XE8z5OX5FIos70WcUaQLhDQiec6OjnZJm07kMGgFL1ieYDLpvlkvA_lrm_ZHvw3dynzIHCaP_w=w1681-h1121-s-no-gm?authuser=0",
+    "chips": [
+      "XVIIe s.",
+      "1641",
+      "Giovanni Lanfranco",
+      "Coupole San Gennaro",
+      "Le Paradis",
+      "Cathédrale de Naples"
+    ],
+    "themes": [
+      "spiritualite_religions"
+    ],
+    "subthemes": [
+      "scenes_bibliques_chretiennes",
+      "symboles_sacre_mystique"
+    ],
+    "desc": "<p>Cette fresque monumentale, réalisée par Giovanni Lanfranco entre 1641 et 1643, orne la coupole de la Chapelle Royale du Trésor de San Gennaro au sein de la cathédrale de Naples. Chef-d’œuvre du baroque napolitain, cette œuvre illustre le Paradis et l'intercession de saint Janvier (San Gennaro) auprès du Christ pour la protection de la ville.</p><p>La composition s'organise selon un puissant mouvement ascensionnel et circulaire qui semble abolir les limites physiques de l'architecture. Lanfranco déploie une multitude de figures — saints, anges et personnages bibliques — disposées sur des bancs de nuages concentriques. Au sommet, dans une lumière dorée éblouissante, le Christ accueille la Vierge et saint Janvier, ce dernier étant représenté en posture de suppliant. Ce dispositif illusionniste, hérité des recherches du Corrège à Parme, crée une profondeur infinie et une dynamique tourbillonnante caractéristique du style de l'artiste.</p><p>Sur le plan technique, la fresque se distingue par sa richesse chromatique et son traitement magistral de la lumière. Lanfranco utilise des contrastes de clair-obscur pour donner du relief aux corps et créer une atmosphère éthérée. Les personnages situés à la base de la coupole sont peints avec des couleurs plus denses et des formes plus massives, tandis que ceux qui s'approchent du centre divin se dissolvent progressivement dans la clarté. L'ensemble est soutenu par des pendentifs représentant les vertus et des épisodes de la vie du saint patron.</p><p>Cette œuvre monumentale fut l'une des commandes les plus prestigieuses de l'époque, affirmant la dévotion inconditionnelle des Napolitains envers San Gennaro, particulièrement après que la ville eut été épargnée par une éruption du Vésuve en 1631. Malgré les défis techniques et les rivalités artistiques locales, Lanfranco a réussi à transformer la voûte en une vision mystique grandiose, faisant de cette chapelle l'un des sommets de l'art sacré européen du XVIIe siècle.</p>",
+    "narrative": "<p>Cette fresque monumentale, réalisée par Giovanni Lanfranco entre 1641 et 1643, orne la coupole de la Chapelle Royale du Trésor de San Gennaro au sein de la cathédrale de Naples. Chef-d’œuvre du baroque napolitain, cette œuvre illustre le Paradis et l'intercession de saint Janvier (San Gennaro) auprès du Christ pour la protection de la ville.</p><p>La composition s'organise selon un puissant mouvement ascensionnel et circulaire qui semble abolir les limites physiques de l'architecture. Lanfranco déploie une multitude de figures — saints, anges et personnages bibliques — disposées sur des bancs de nuages concentriques. Au sommet, dans une lumière dorée éblouissante, le Christ accueille la Vierge et saint Janvier, ce dernier étant représenté en posture de suppliant. Ce dispositif illusionniste, hérité des recherches du Corrège à Parme, crée une profondeur infinie et une dynamique tourbillonnante caractéristique du style de l'artiste.</p><p>Sur le plan technique, la fresque se distingue par sa richesse chromatique et son traitement magistral de la lumière. Lanfranco utilise des contrastes de clair-obscur pour donner du relief aux corps et créer une atmosphère éthérée. Les personnages situés à la base de la coupole sont peints avec des couleurs plus denses et des formes plus massives, tandis que ceux qui s'approchent du centre divin se dissolvent progressivement dans la clarté. L'ensemble est soutenu par des pendentifs représentant les vertus et des épisodes de la vie du saint patron.</p><p>Cette œuvre monumentale fut l'une des commandes les plus prestigieuses de l'époque, affirmant la dévotion inconditionnelle des Napolitains envers San Gennaro, particulièrement après que la ville eut été épargnée par une éruption du Vésuve en 1631. Malgré les défis techniques et les rivalités artistiques locales, Lanfranco a réussi à transformer la voûte en une vision mystique grandiose, faisant de cette chapelle l'un des sommets de l'art sacré européen du XVIIe siècle.</p>"
+  },
+  {
+    "id": "le_brun_descente_de_croix_mise_au_tombeau_rennes_1679",
+    "artistId": "le_brun",
+    "artist": "Le Brun Charles",
+    "artistSort": "Le Brun Charles",
+    "civId": "occident",
+    "periodId": "occ_baroque_classique",
+    "civName": "Occident : Classicisme & Grand Siècle Français",
+    "civilization": "France",
+    "subpart": "Grands retables religieux & Peinture d'histoire (1679)",
+    "title": "La Descente de Croix (La Mise au tombeau)",
+    "date": "1679",
+    "dateDisplay": "1679",
+    "century": "XVIIe siècle",
+    "centuryDisplay": "XVIIe s. (1679)",
+    "centuryNumeric": 1679,
+    "period": "XVIIe siècle",
+    "domain": "peinture",
+    "type": "Peinture",
+    "artifactType": "Peinture à l'huile sur toile",
+    "category": "Grand retable d'autel et composition dramatique sacrée",
+    "medium": "Huile sur toile",
+    "dimensions": {
+      "h": 545,
+      "w": 329,
+      "display": "545 × 329 cm"
+    },
+    "location": "Musée des Beaux-Arts, Rennes",
+    "currentLocation": "Musée des Beaux-Arts, Rennes",
+    "site": "Musée des Beaux-Arts (Rennes, France)",
+    "originSite": "Église des Capucins de la rue Saint-Honoré, Paris",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczOq7WL_POd1k1LsQ50-hXzjckMQEh5FbvzSy0j2e5ysUNUDvU_7oaXi4hunJj0GuPtpaMpdSmkZY9GUsIJiXfuA_d7o9NzwjZHx4ur70XTDCHAL4clVRv1mflwE5bgOuDxM17vHzVMyPwD8SPTF-L_bVQ=w1611-h2416-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczOq7WL_POd1k1LsQ50-hXzjckMQEh5FbvzSy0j2e5ysUNUDvU_7oaXi4hunJj0GuPtpaMpdSmkZY9GUsIJiXfuA_d7o9NzwjZHx4ur70XTDCHAL4clVRv1mflwE5bgOuDxM17vHzVMyPwD8SPTF-L_bVQ=w1611-h2416-s-no-gm?authuser=0",
+    "chips": [
+      "XVIIe s.",
+      "1679",
+      "Charles Le Brun",
+      "Descente de Croix",
+      "Musée des Beaux-Arts de Rennes"
+    ],
+    "themes": [
+      "spiritualite_religions"
+    ],
+    "subthemes": [
+      "scenes_bibliques_chretiennes"
+    ],
+    "desc": "<p>Cette œuvre monumentale de Charles Le Brun, premier peintre du roi Louis XIV, a été commandée par la marquise de Montespan pour le maître-autel de l'église des Capucins de la rue Saint-Honoré à Paris. Conservée aujourd'hui au Musée des Beaux-Arts de Rennes, cette toile de 1679 illustre la Descente de Croix (plutôt que la Mise au tombeau, dont elle constitue l'étape immédiatement antérieure). Elle s'inscrit dans la pleine maturité de l'artiste, alors au sommet de sa gloire, et témoigne de sa capacité à orchestrer de grandes compositions sacrées où la rigueur classique rencontre l'intensité dramatique du baroque.</p><p>La structure du tableau est organisée selon une série de diagonales convergentes formées par les échelles et les corps des personnages, créant un mouvement descendant qui guide l'œil vers le corps livide du Christ. Ce dernier, d'une pâleur cadavérique qui contraste avec les tons chauds des personnages masculins qui le soutiennent (Joseph d'Arimathie et Nicodème), semble glisser le long du linceul blanc. Le Brun déploie ici toute sa science de « l'expression des passions », une théorie qu'il a lui-même théorisée : chaque visage, chaque geste, des pleurs de Marie-Madeleine au pied de la croix à l'imploration de la Vierge drapée de bleu, exprime une nuance précise de l'affliction et de la douleur sainte.</p><p>Techniquement, l'œuvre est un tour de force de coloris et de lumière. Les drapés aux couleurs saturées — rouge ardent, jaune safran et bleu profond — rythment la partie inférieure de la toile et répondent à la clarté crépusculaire du ciel. La précision du dessin, marque de fabrique de l'académisme prôné par Le Brun, se retrouve dans l'anatomie puissante des hommes sur les échelles et dans le traitement méticuleux des objets liturgiques au premier plan, comme la bassine et les éponges. Cette composition, par son équilibre parfait entre ordre et émotion, constitue un exemple canonique du Grand Style français, visant à édifier le fidèle par la noblesse des formes et la clarté du message théologique.</p>",
+    "narrative": "<p>Cette œuvre monumentale de Charles Le Brun, premier peintre du roi Louis XIV, a été commandée par la marquise de Montespan pour le maître-autel de l'église des Capucins de la rue Saint-Honoré à Paris. Conservée aujourd'hui au Musée des Beaux-Arts de Rennes, cette toile de 1679 illustre la Descente de Croix (plutôt que la Mise au tombeau, dont elle constitue l'étape immédiatement antérieure). Elle s'inscrit dans la pleine maturité de l'artiste, alors au sommet de sa gloire, et témoigne de sa capacité à orchestrer de grandes compositions sacrées où la rigueur classique rencontre l'intensité dramatique du baroque.</p><p>La structure du tableau est organisée selon une série de diagonales convergentes formées par les échelles et les corps des personnages, créant un mouvement descendant qui guide l'œil vers le corps livide du Christ. Ce dernier, d'une pâleur cadavérique qui contraste avec les tons chauds des personnages masculins qui le soutiennent (Joseph d'Arimathie et Nicodème), semble glisser le long du linceul blanc. Le Brun déploie ici toute sa science de « l'expression des passions », une théorie qu'il a lui-même théorisée : chaque visage, chaque geste, des pleurs de Marie-Madeleine au pied de la croix à l'imploration de la Vierge drapée de bleu, exprime une nuance précise de l'affliction et de la douleur sainte.</p><p>Techniquement, l'œuvre est un tour de force de coloris et de lumière. Les drapés aux couleurs saturées — rouge ardent, jaune safran et bleu profond — rythment la partie inférieure de la toile et répondent à la clarté crépusculaire du ciel. La précision du dessin, marque de fabrique de l'académisme prôné par Le Brun, se retrouve dans l'anatomie puissante des hommes sur les échelles et dans le traitement méticuleux des objets liturgiques au premier plan, comme la bassine et les éponges. Cette composition, par son équilibre parfait entre ordre et émotion, constitue un exemple canonique du Grand Style français, visant à édifier le fidèle par la noblesse des formes et la clarté du message théologique.</p>"
+  },
+  {
     "id": "klimt_ile_dans_l_attersee_tokyo_1901",
     "artistId": "klimt",
     "artist": "Klimt Gustav",
