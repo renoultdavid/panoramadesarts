@@ -219,6 +219,14 @@ window.MOVEMENTS_DATA = {
         "desc": "Adam et Ève, Judith et Holopherne, Salomé et portraits de Luther.",
         "artistId": "cranach",
         "icon": "🐉"
+      },
+      {
+        "name": "Corrège (Le)",
+        "dates": "v. 1489 – 1534",
+        "role": "Visionnaire de la coupole ouverte et père du plafond baroque",
+        "desc": "Camera di San Paolo, coupoles de San Giovanni et de la Cathédrale de Parme, Vénus Satyre et Cupidon.",
+        "artistId": "correggio",
+        "icon": "☁️"
       }
     ]
   },
@@ -335,7 +343,7 @@ window.MOVEMENTS_DATA = {
         "icon": "🕯️"
       },
       {
-        "name": "Giovanni Lanfranco",
+        "name": "Lanfranco Giovanni",
         "dates": "1582 – 1647",
         "role": "Pionnier du baroque romain et virtuose de l'illusionnisme céleste en coupole",
         "desc": "Coupole de Sant'Andrea della Valle, fresques de la chapelle royale San Gennaro à Naples.",
@@ -343,12 +351,20 @@ window.MOVEMENTS_DATA = {
         "icon": "✨"
       },
       {
-        "name": "Pieter Lastman",
+        "name": "Lastman Pieter",
         "dates": "v. 1583 – 1633",
         "role": "Maître incontesté de la peinture d'histoire à Amsterdam et formateur de Rembrandt",
         "desc": "L'Ânesse de Balaam, Le Jugement de Midas, Le Sacrifice d'Abraham.",
         "artistId": "lastman",
         "icon": "📖"
+      },
+      {
+        "name": "Guerchin (Le)",
+        "dates": "1591 – 1666",
+        "role": "Maître bolonais du clair-obscur vibrant et successeur de Guido Reni",
+        "desc": "L'Aurore (Villa Ludovisi), La Visitation (Rouen), Salomé (Rennes), Le Roi David (Rouen).",
+        "artistId": "guerchin",
+        "icon": "🌅"
       }
     ]
   },
@@ -368,15 +384,15 @@ window.MOVEMENTS_DATA = {
         "icon": "📜"
       },
       {
-        "name": "Claude Gellée, dit Le Lorrain",
+        "name": "Lorrain Claude (Claude Gellée)",
         "dates": "1600 – 1682",
         "role": "Poète solaire du paysage idéal et des ports antiques",
-        "desc": "Le Débarquement de Cléopâtre à Tarse et pastorales baignées de soleil.",
-        "artistId": "",
+        "desc": "Le Débarquement de Cléopâtre à Tarse, L'Embarquement de la reine de Saba, pastorales baignées de soleil.",
+        "artistId": "claude_lorrain",
         "icon": "🌅"
       },
       {
-        "name": "Charles Le Brun",
+        "name": "Le Brun Charles",
         "dates": "1619 – 1690",
         "role": "Premier peintre du Roi-Soleil et ordonnateur de Versailles",
         "desc": "Plafonds de la Galerie des Glaces et direction de la Manufacture des Gobelins.",
@@ -767,11 +783,11 @@ window.MOVEMENTS_DATA = {
         "icon": "📐"
       },
       {
-        "name": "Fernand Léger",
+        "name": "Léger Fernand",
         "dates": "1881 – 1955",
         "role": "Le peintre de la modernité mécanique et des formes tubulaires",
-        "desc": "La Ville, Les Constructeurs, Le Mécanicien, contrastes de formes.",
-        "artistId": "",
+        "desc": "La Ville, Les Constructeurs, Le Mécanicien, La Feuille verte, Le Coq rouge.",
+        "artistId": "leger",
         "icon": "⚙️"
       },
       {

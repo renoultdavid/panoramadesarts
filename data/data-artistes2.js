@@ -1376,8 +1376,9 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
   },
   "lanfranco": {
     "id": "lanfranco",
-    "name": "Giovanni Lanfranco",
+    "name": "Lanfranco Giovanni",
     "sortName": "Lanfranco Giovanni",
+    "sortLetter": "L",
     "dates": "1582 – 1647",
     "century": "XVIIe siècle",
     "nationality": "Italien (Parme / Rome / Naples)",
@@ -1469,8 +1470,9 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
   },
   "lastman": {
     "id": "lastman",
-    "name": "Pieter Lastman",
+    "name": "Lastman Pieter",
     "sortName": "Lastman Pieter",
+    "sortLetter": "L",
     "dates": "v. 1583 – 1633",
     "century": "XVIIe siècle",
     "nationality": "Néerlandais (Amsterdam)",
@@ -1562,8 +1564,9 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
   },
   "le_brun": {
     "id": "le_brun",
-    "name": "Charles Le Brun",
+    "name": "Le Brun Charles",
     "sortName": "Le Brun Charles",
+    "sortLetter": "L",
     "dates": "1619 – 1690",
     "century": "XVIIe siècle",
     "nationality": "Français (Paris)",
@@ -1667,8 +1670,9 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
   },
   "correggio": {
     "id": "correggio",
-    "name": "Le Corrège",
-    "sortName": "Corrège Antonio Allegri",
+    "name": "Corrège (Le)",
+    "sortName": "Corrège (Le)",
+    "sortLetter": "C",
     "dates": "v. 1489 – 1534",
     "century": "XVIe siècle",
     "nationality": "Italien (Parme)",
@@ -1755,8 +1759,9 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
   },
   "leger": {
     "id": "leger",
-    "name": "Fernand Léger",
+    "name": "Léger Fernand",
     "sortName": "Léger Fernand",
+    "sortLetter": "L",
     "dates": "1881 – 1955",
     "century": "XXe siècle",
     "nationality": "Français (Argentan / Paris)",
@@ -1857,8 +1862,9 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
   },
   "guerchin": {
     "id": "guerchin",
-    "name": "Le Guerchin",
-    "sortName": "Guerchin Giovanni Francesco Barbieri",
+    "name": "Guerchin (Le)",
+    "sortName": "Guerchin (Le)",
+    "sortLetter": "G",
     "dates": "1591 – 1666",
     "century": "XVIIe siècle",
     "nationality": "Italien (Cento / Bologne)",
@@ -1966,8 +1972,9 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
   },
   "claude_lorrain": {
     "id": "claude_lorrain",
-    "name": "Claude Lorrain",
+    "name": "Lorrain Claude",
     "sortName": "Lorrain Claude",
+    "sortLetter": "L",
     "dates": "v. 1600 – 1682",
     "century": "XVIIe siècle",
     "nationality": "Français (Lorraine), actif à Rome",
@@ -1976,7 +1983,7 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
     "bio": "<p><strong>Le peintre de la lumière & le maître du paysage idéal romain</strong><br>Claude Lorrain (Claude Gellée, v. 1600 – 1682) est le maître absolu du paysage classique et l'un des premiers artistes à avoir fait du soleil le sujet central de ses toiles. Originaire de Lorraine mais installé à Rome presque toute sa vie, il a exercé une influence colossale sur l'art européen, notamment en Angleterre, en inventant une nature idéalisée, baignée d'une lumière divine et poétique.</p><p><strong>Le port de mer, les coulisses & l'horizon infini</strong><br>Son genre pictural se définit par le paysage historique et l'architecture imaginaire. Contrairement à son contemporain Poussin, plus intellectuel et rigoureux, le Lorrain privilégie l'émotion visuelle née de la lumière. Son style se caractérise par des compositions encadrées d'arbres majestueux ou de palais antiques (les « coulisses »), ouvrant sur un horizon lointain où le soleil, souvent placé au centre, irradie et unifie tout l'espace. Il tient son Liber Veritatis — un carnet de dessins au lavis reproduisant chaque tableau — pour déjouer les faussaires dès 1635.</p><p><strong>De la topographie à la vision : lumière atmosphérique & héritage de Turner</strong><br>L'évolution de son style marque une quête constante de la lumière atmosphérique. Des premiers ports de mer documentaires (Gênes, 1627) aux grandes compositions mytho-bibliques de maturité (Cléopâtre, Embarquement de la Reine de Saba), jusqu'au style tardif vaporeux dominé par les bleus et gris argentés annonçant Turner, Claude ne cesse d'approfondir la fusion entre la permanence de la pierre antique et l'impermanence de la lumière.</p>",
     "corpus": {
       "total": 300,
-      "seen": 13,
+      "seen": 14,
       "paintingsCount": 300,
       "details": [
         {
@@ -1984,7 +1991,7 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
           "count": 300,
           "icon": "🎨",
           "color": "#d4af37",
-          "seen": 13
+          "seen": 14
         }
       ],
       "sourceTitle": "Catalogue raisonné en deux volumes de Marcel Roethlisberger (1961), appuyé sur le Liber Veritatis",
@@ -2027,10 +2034,17 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
             },
             {
               "year": 1630,
-              "title": "Siège de la Rochelle & Pas de Suse forcé par Louis XIII (Louvre, ovales)",
-              "desc": "Rares peintures d'histoire contemporaine : l'artiste transforme des victoires royales en panoramas atmosphériques d'une sérénité absolue.",
+              "title": "Siège de la Rochelle par Louis XIII (Louvre, format ovale)",
+              "desc": "Rare peinture d'histoire contemporaine : l'artiste transforme une opération militaire et le blocus maritime en un vaste panorama atmosphérique d'une grande sérénité.",
               "type": "masterpiece",
               "artworkId": "claude_lorrain_siege_rochelle_louis_xiii_louvre_1630"
+            },
+            {
+              "year": 1630,
+              "title": "Le Pas de Suse forcé par Louis XIII (Louvre, format ovale)",
+              "desc": "Pendant militaire alpin : démonstration de force royale dans les défilés étroits des Alpes, magnifiée par la majesté de la nature et une lumière matinale limpide.",
+              "type": "masterpiece",
+              "artworkId": "claude_lorrain_pas_de_suse_louvre_1630"
             }
           ]
         },
@@ -2048,15 +2062,29 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
             },
             {
               "year": 1636,
-              "title": "Vue du Campo Vaccino & Vue d'un port avec le Capitole (Louvre)",
-              "desc": "Dyptique topographique et imaginaire : le Forum romain envahi par la vie quotidienne, et le Capitole déplacé au bord d'une mer fictive.",
+              "title": "Vue du Campo Vaccino (Louvre)",
+              "desc": "Vue topographique de l'ancien Forum romain envahi par la vie quotidienne et le marché aux bestiaux, baigné d'une clarté blonde et chaude de fin d'après-midi.",
               "type": "masterpiece",
               "artworkId": "claude_lorrain_campo_vaccino_louvre_1636"
             },
             {
+              "year": 1636,
+              "title": "Vue d'un port avec le Capitole (Louvre)",
+              "desc": "Caprice architectural où le palais du Capitole est audacieusement transposé au bord d'une mer idéale, irradié par une lumière argentée matinale.",
+              "type": "masterpiece",
+              "artworkId": "claude_lorrain_port_capitole_louvre_1636"
+            },
+            {
               "year": 1639,
-              "title": "La Fête villageoise & Port de mer au soleil couchant (Louvre)",
-              "desc": "Doubles chefs-d'œuvre : la pastorale champêtre pour le cardinal Rospigliosi, et le port de mer crépusculaire pour Urbain VIII — le soleil et la lumière scintillante à leur apogée.",
+              "title": "La Fête villageoise (Louvre)",
+              "desc": "Idylle pastorale réalisée pour le cardinal Rospigliosi (futur Clément IX) : ronde festive dans une clairière romaine baignée d'une clarté dorée.",
+              "type": "masterpiece",
+              "artworkId": "claude_lorrain_fete_villageoise_louvre_1639"
+            },
+            {
+              "year": 1639,
+              "title": "Port de mer au soleil couchant (Louvre)",
+              "desc": "Chef-d'œuvre crépusculaire pour la cour papale d'Urbain VIII : le soleil très bas sur l'horizon trace un sillage scintillant sur les flots calmes.",
               "type": "masterpiece",
               "artworkId": "claude_lorrain_port_mer_soleil_couchant_louvre_1639"
             },
@@ -2072,7 +2100,7 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
               "title": "David sacré roi par le prophète Samuel (Louvre)",
               "desc": "Paysage pastoral monumental : le portique classique, la vallée et la ville fortifiée baignés d'une lumière divine, pour le même cardinal Giori.",
               "type": "masterpiece",
-              "artworkId": "claude_lorrain_david_sacre_roi_samuel_louvre_1643"
+              "artworkId": "claude_lorrain_david_sacre_roi_louvre_1643"
             },
             {
               "year": 1644,
@@ -2093,7 +2121,7 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
               "title": "L'Embarquement de la reine de Saba (Louvre)",
               "desc": "Chef-d'œuvre absolu commandé par le duc de Bouillon : soleil levant nacrée, sillage scintillant, architecture monumentale — Turner le juge sans égal.",
               "type": "masterpiece",
-              "artworkId": "claude_lorrain_embarquement_reine_saba_louvre_1648"
+              "artworkId": "claude_lorrain_embarquement_reine_de_saba_louvre_1648"
             }
           ]
         }

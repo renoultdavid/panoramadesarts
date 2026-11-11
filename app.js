@@ -798,7 +798,7 @@ const ART_MOVEMENTS = [
     tier: 1,
     color: "#ca8a04",
     bannerImg: "https://lh3.googleusercontent.com/d/1sFMtLMZcJnbInk_gj9zDOFtoe5P3Uo0Y",
-    keyArtists: "Léonard de Vinci, Raphaël, Michel-Ange, Giorgione, Titien, Albrecht Dürer, Vittore Carpaccio, Jean Clouet, Lucas Cranach l'Ancien",
+    keyArtists: "Léonard de Vinci, Raphaël, Michel-Ange, Le Corrège, Giorgione, Titien, Albrecht Dürer, Vittore Carpaccio, Jean Clouet, Lucas Cranach l'Ancien",
     definition: "Apogée classique de l'art occidental entre Rome, Florence et Venise : monumentalité souveraine, sfumato atmosphérique, équilibre pyramidal et colorisme vénitien.",
     filterKeyword: "renaissance"
   },
@@ -826,7 +826,7 @@ const ART_MOVEMENTS = [
     yearEnd: 1660,
     tier: 1,
     color: "#b45309",
-    keyArtists: "Le Caravage, Annibale Carracci, Artemisia Gentileschi, Georges de La Tour, Giovanni Lanfranco, Pieter Lastman, Rembrandt, Pierre Paul Rubens, Diego Vélasquez",
+    keyArtists: "Le Caravage, Annibale Carracci, Artemisia Gentileschi, Le Guerchin, Georges de La Tour, Giovanni Lanfranco, Pieter Lastman, Rembrandt, Pierre Paul Rubens, Diego Vélasquez",
     definition: "Séisme baroque refusant l'idéalisation classique pour imposer un réalisme cru, le choc dramatique du clair-obscur (ténébrisme) et une intensité psychologique universelle.",
     filterKeyword: "caravage"
   },
