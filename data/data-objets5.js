@@ -7,6 +7,705 @@
 
 window.ART_OBJECTS = [
   {
+    "id": "kandinsky_improvisation_revee_munich_1913",
+    "artistId": "kandinsky",
+    "artist": "Kandinsky Vassily",
+    "artistSort": "Kandinsky Vassily",
+    "civId": "occident",
+    "periodId": "occ_xxe_moderne",
+    "civName": "Occident : Art Moderne & Abstraction",
+    "civilization": "Russie / Allemagne / France",
+    "subpart": "Le Cavalier Bleu (Der Blaue Reiter) et la naissance de l'abstraction lyrique",
+    "title": "Improvisation rêvée",
+    "date": "1913",
+    "dateDisplay": "1913",
+    "century": "XXe siècle",
+    "centuryDisplay": "XXe s. (1913)",
+    "centuryNumeric": 1913,
+    "period": "XXe siècle",
+    "domain": "peinture",
+    "type": "Peinture",
+    "artifactType": "Peinture à l'huile sur toile",
+    "category": "Abstraction lyrique à l'huile sur toile",
+    "medium": "Huile sur toile",
+    "dimensions": {
+      "h": 130,
+      "w": 130,
+      "display": "130 × 130 cm"
+    },
+    "location": "Pinakothek der Moderne, Munich",
+    "currentLocation": "Pinakothek der Moderne, Munich",
+    "site": "Pinakothek der Moderne (Munich, Allemagne)",
+    "originSite": "Munich (Allemagne)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczMjKPk5w6FGLev8UJ_f2tQNsL8xpDvJWNe3tWKSzN8Jz_1WV039gkFiD0KXWGHvMijY_jnkPJvj1ug-14YyHd1U0PBTzbo8PnSbMoW-_v2N8Un3WbNvFa8rTGI6LGd6uTPrO-K0-Lb_x_5RmduMr_--Eg=w1681-h1615-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczMjKPk5w6FGLev8UJ_f2tQNsL8xpDvJWNe3tWKSzN8Jz_1WV039gkFiD0KXWGHvMijY_jnkPJvj1ug-14YyHd1U0PBTzbo8PnSbMoW-_v2N8Un3WbNvFa8rTGI6LGd6uTPrO-K0-Lb_x_5RmduMr_--Eg=w1681-h1615-s-no-gm?authuser=0",
+    "chips": [
+      "XXe s.",
+      "1913",
+      "Kandinsky",
+      "Abstraction lyrique",
+      "Der Blaue Reiter",
+      "Pinakothek der Moderne"
+    ],
+    "themes": [
+      "surrealisme_onirisme"
+    ],
+    "subthemes": [
+      "abstraction_matiere",
+      "onirisme_metamorphoses"
+    ],
+    "desc": "<p>Cette toile magistrale de Wassily Kandinsky, conservée à la Pinakothek der Moderne de Munich, est une œuvre clé de la naissance de l'abstraction lyrique. Peinte en 1913, l'année même où l'artiste publie son ouvrage théorique fondamental <em>Du spirituel dans l'art</em>, elle illustre sa volonté de détacher la peinture de la représentation du monde visible pour en faire un langage purement émotionnel et spirituel, comparable à la musique.</p><p>La composition semble jaillir du centre de la toile dans un mouvement d'expansion dynamique. On ne distingue plus d'objets identifiables, mais des lignes nerveuses, des arabesques et des taches colorées qui s'entremêlent. Certaines formes organiques évoquent encore vaguement des éléments naturels, mais elles sont transcendées par le rythme de l'ensemble. Kandinsky organise l'espace comme une partition musicale : les lignes noires, tantôt fines et filiformes, tantôt épaisses et saccadées, agissent comme des contrepoints aux masses colorées, créant une tension entre ordre et chaos. Une forme bleue centrale semble agir comme un noyau gravitationnel autour duquel gravitent des éclats de jaune, de rouge et de vert, créant une sensation de profondeur sans utiliser la perspective traditionnelle.</p><p>L'artiste applique les couleurs avec une grande liberté, jouant sur les contrastes et les résonances chromatiques. Fidèle à ses théories, Kandinsky attribue des propriétés psychologiques aux couleurs : le bleu apporte une dimension spirituelle et calme, tandis que le jaune exprime une énergie terrestre et dynamique. La peinture est appliquée par endroits de manière fluide, presque comme une aquarelle, et ailleurs avec plus de densité, laissant apparaître la trace du geste créateur. Cette variété de textures accentue l'impression de rêve et de flux de conscience suggérée par le titre.</p><p><em>Improvisation rêvée</em> est un jalon essentiel car elle montre le passage définitif vers une peinture qui ne signifie rien d'autre qu'elle-même. Pour Kandinsky, l'improvisation est une expression inconsciente et spontanée de « caractère intérieur ». Cette œuvre de Munich témoigne de l'audace d'un artiste qui a brisé les chaînes de la figuration pour ouvrir la voie à une exploration infinie de la subjectivité et de la vibration de l'âme à travers la couleur pure.</p>",
+    "narrative": "<p>Cette toile magistrale de Wassily Kandinsky, conservée à la Pinakothek der Moderne de Munich, est une œuvre clé de la naissance de l'abstraction lyrique. Peinte en 1913, l'année même où l'artiste publie son ouvrage théorique fondamental <em>Du spirituel dans l'art</em>, elle illustre sa volonté de détacher la peinture de la représentation du monde visible pour en faire un langage purement émotionnel et spirituel, comparable à la musique.</p><p>La composition semble jaillir du centre de la toile dans un mouvement d'expansion dynamique. On ne distingue plus d'objets identifiables, mais des lignes nerveuses, des arabesques et des taches colorées qui s'entremêlent. Certaines formes organiques évoquent encore vaguement des éléments naturels, mais elles sont transcendées par le rythme de l'ensemble. Kandinsky organise l'espace comme une partition musicale : les lignes noires, tantôt fines et filiformes, tantôt épaisses et saccadées, agissent comme des contrepoints aux masses colorées, créant une tension entre ordre et chaos. Une forme bleue centrale semble agir comme un noyau gravitationnel autour duquel gravitent des éclats de jaune, de rouge et de vert, créant une sensation de profondeur sans utiliser la perspective traditionnelle.</p><p>L'artiste applique les couleurs avec une grande liberté, jouant sur les contrastes et les résonances chromatiques. Fidèle à ses théories, Kandinsky attribue des propriétés psychologiques aux couleurs : le bleu apporte une dimension spirituelle et calme, tandis que le jaune exprime une énergie terrestre et dynamique. La peinture est appliquée par endroits de manière fluide, presque comme une aquarelle, et ailleurs avec plus de densité, laissant apparaître la trace du geste créateur. Cette variété de textures accentue l'impression de rêve et de flux de conscience suggérée par le titre.</p><p><em>Improvisation rêvée</em> est un jalon essentiel car elle montre le passage définitif vers une peinture qui ne signifie rien d'autre qu'elle-même. Pour Kandinsky, l'improvisation est une expression inconsciente et spontanée de « caractère intérieur ». Cette œuvre de Munich témoigne de l'audace d'un artiste qui a brisé les chaînes de la figuration pour ouvrir la voie à une exploration infinie de la subjectivité et de la vibration de l'âme à travers la couleur pure.</p>",
+    "contemporaryArt": {
+      "title": "1913 • L'Apogée du Cavalier Bleu & La Révolution Abstraite",
+      "events": [
+        "1911 : Première exposition du Blaue Reiter à la galerie Thannhauser de Munich.",
+        "1912 : Publication du traité Du spirituel dans l'art et de l'Almanach du Cavalier Bleu.",
+        "1913 : Kandinsky peint Improvisation rêvée et Composition VII, sommets de l'abstraction lyrique.",
+        "1914 : Éclatement de la Première Guerre mondiale : Kandinsky doit quitter l'Allemagne et rentrer en Russie."
+      ]
+    }
+  },
+  {
+    "id": "kandinsky_trame_noire_nantes_1922",
+    "artistId": "kandinsky",
+    "artist": "Kandinsky Vassily",
+    "artistSort": "Kandinsky Vassily",
+    "civId": "occident",
+    "periodId": "occ_xxe_moderne",
+    "civName": "Occident : Art Moderne & Abstraction",
+    "civilization": "Russie / Allemagne / France",
+    "subpart": "L'arrivée au Bauhaus de Weimar et la géométrisation constructiviste",
+    "title": "Trame noire",
+    "date": "1922",
+    "dateDisplay": "1922",
+    "century": "XXe siècle",
+    "centuryDisplay": "XXe s. (1922)",
+    "centuryNumeric": 1922,
+    "period": "XXe siècle",
+    "domain": "peinture",
+    "type": "Peinture",
+    "artifactType": "Peinture à l'huile sur toile",
+    "category": "Abstraction géométrique et lyrique à l'huile sur toile",
+    "medium": "Huile sur toile",
+    "dimensions": {
+      "h": 138,
+      "w": 139,
+      "display": "138 × 139 cm"
+    },
+    "location": "Musée d'arts de Nantes",
+    "currentLocation": "Musée d'arts de Nantes",
+    "site": "Musée d'arts de Nantes (Nantes, France)",
+    "originSite": "Weimar (Allemagne)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczMA76Nr-HHUas0qt4d3WZOw6W4IS24mjJpHCUH0WYmhBwUAr4wRxElxNbAn_jsOBjjQC25T9XVV68J9wneesfYKBCPu7sybrRPDwISZiygsKzrUH8KvPjOHk_gX30gC7DE2W7fSzYv5yt0xjlIfBYlnGA=w1681-h1498-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczMA76Nr-HHUas0qt4d3WZOw6W4IS24mjJpHCUH0WYmhBwUAr4wRxElxNbAn_jsOBjjQC25T9XVV68J9wneesfYKBCPu7sybrRPDwISZiygsKzrUH8KvPjOHk_gX30gC7DE2W7fSzYv5yt0xjlIfBYlnGA=w1681-h1498-s-no-gm?authuser=0",
+    "chips": [
+      "XXe s.",
+      "1922",
+      "Kandinsky",
+      "Bauhaus Weimar",
+      "Trame noire",
+      "Musée d'arts de Nantes"
+    ],
+    "themes": [
+      "surrealisme_onirisme"
+    ],
+    "subthemes": [
+      "abstraction_matiere"
+    ],
+    "desc": "<p>Cette œuvre, intitulée <em>Trame noire</em>, a été réalisée en 1922 par Vassily Kandinsky. Elle marque une année charnière dans la carrière de l'artiste, correspondant à son arrivée au Bauhaus de Weimar après son retour de Russie. Ce tableau est emblématique de la transition vers un style plus lyrique et géométrique, où l'explosion des couleurs de sa période expressionniste commence à se structurer sous l'influence du constructivisme. La composition est d'une densité exceptionnelle, organisée autour d'une grande diagonale jaune qui traverse le plan de part en part, créant une dynamique ascendante et une sensation de mouvement perpétuel.</p><p>Au centre de ce tourbillon de formes se trouve l'élément qui donne son titre à l'œuvre : une grille ou « trame » noire inclinée. Ce damier rigoureux agit comme un ancrage visuel au milieu d'un chaos apparent de cercles, de triangles et de lignes sinueuses. Kandinsky explore ici l'interaction des forces opposées, où la géométrie mathématique de la trame dialogue avec des formes plus organiques et flottantes. L'utilisation d'un fond bleu clair et nuancé donne l'impression que ces éléments évoluent dans un espace cosmique ou aquatique, renforcée par les formes blanches serpentines en bas à gauche qui rappellent des organismes cellulaires ou des ondes sonores.</p><p>La richesse chromatique de l'œuvre est caractéristique de la théorie de Kandinsky sur la synesthésie, cherchant à faire résonner les couleurs comme des instruments de musique. Le rouge vibrant d'un grand cercle en bas à droite s'oppose au jaune solaire et aux touches de rose poudré dans les angles, créant une polyphonie visuelle. Des éléments graphiques complexes, tels que des flèches, des segments de damiers et des lignes de force, s'entrecroisent pour construire une architecture abstraite d'une grande profondeur. <em>Trame noire</em> illustre parfaitement la quête de l'artiste pour une harmonie spirituelle née du contraste, où chaque forme contribue à une unité symphonique globale.</p>",
+    "narrative": "<p>Cette œuvre, intitulée <em>Trame noire</em>, a été réalisée en 1922 par Vassily Kandinsky. Elle marque une année charnière dans la carrière de l'artiste, correspondant à son arrivée au Bauhaus de Weimar après son retour de Russie. Ce tableau est emblématique de la transition vers un style plus lyrique et géométrique, où l'explosion des couleurs de sa période expressionniste commence à se structurer sous l'influence du constructivisme. La composition est d'une densité exceptionnelle, organisée autour d'une grande diagonale jaune qui traverse le plan de part en part, créant une dynamique ascendante et une sensation de mouvement perpétuel.</p><p>Au centre de ce tourbillon de formes se trouve l'élément qui donne son titre à l'œuvre : une grille ou « trame » noire inclinée. Ce damier rigoureux agit comme un ancrage visuel au milieu d'un chaos apparent de cercles, de triangles et de lignes sinueuses. Kandinsky explore ici l'interaction des forces opposées, où la géométrie mathématique de la trame dialogue avec des formes plus organiques et flottantes. L'utilisation d'un fond bleu clair et nuancé donne l'impression que ces éléments évoluent dans un espace cosmique ou aquatique, renforcée par les formes blanches serpentines en bas à gauche qui rappellent des organismes cellulaires ou des ondes sonores.</p><p>La richesse chromatique de l'œuvre est caractéristique de la théorie de Kandinsky sur la synesthésie, cherchant à faire résonner les couleurs comme des instruments de musique. Le rouge vibrant d'un grand cercle en bas à droite s'oppose au jaune solaire et aux touches de rose poudré dans les angles, créant une polyphonie visuelle. Des éléments graphiques complexes, tels que des flèches, des segments de damiers et des lignes de force, s'entrecroisent pour construire une architecture abstraite d'une grande profondeur. <em>Trame noire</em> illustre parfaitement la quête de l'artiste pour une harmonie spirituelle née du contraste, où chaque forme contribue à une unité symphonique globale.</p>",
+    "contemporaryArt": {
+      "title": "1922 • L'Arrivée de Kandinsky au Bauhaus de Weimar",
+      "events": [
+        "1919 : Walter Gropius fonde le Staatliches Bauhaus à Weimar.",
+        "1922 : Gropius nomme Kandinsky maître de l'atelier de peinture murale et professeur de théorie de la forme.",
+        "1922 : Publication du portfolio de gravures Kleine Welten (Petits Mondes) et exécution de Trame noire.",
+        "1923 : Première grande exposition du Bauhaus à Weimar."
+      ]
+    }
+  },
+  {
+    "id": "kandinsky_accords_opposes_nantes_1924",
+    "artistId": "kandinsky",
+    "artist": "Kandinsky Vassily",
+    "artistSort": "Kandinsky Vassily",
+    "civId": "occident",
+    "periodId": "occ_xxe_moderne",
+    "civName": "Occident : Art Moderne & Abstraction",
+    "civilization": "Russie / Allemagne / France",
+    "subpart": "L'analyse formelle au Bauhaus et le groupe des Quatre Bleus",
+    "title": "Accords opposés",
+    "date": "1924",
+    "dateDisplay": "1924",
+    "century": "XXe siècle",
+    "centuryDisplay": "XXe s. (1924)",
+    "centuryNumeric": 1924,
+    "period": "XXe siècle",
+    "domain": "peinture",
+    "type": "Peinture",
+    "artifactType": "Peinture à l'huile sur carton",
+    "category": "Abstraction géométrique à l'huile sur carton",
+    "medium": "Huile sur carton",
+    "dimensions": {
+      "h": 115,
+      "w": 91,
+      "display": "115 × 91 cm"
+    },
+    "location": "Musée d'arts de Nantes",
+    "currentLocation": "Musée d'arts de Nantes",
+    "site": "Musée d'arts de Nantes (Nantes, France)",
+    "originSite": "Weimar (Allemagne)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczN6InAjmAShntFhCg88yVIuEdIvbA1i2m27noacijmXhwmFE2OEUWoHRngpMVCdSXzLxY7YPd0c3AL1ZEY0yd4J3ToL4FjJ443qNLAh-c-eU3rBsGOjwwRHLM6sv6Ec2e1I0baec81Jza7ETs12J0NhXQ=w1681-h2140-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczN6InAjmAShntFhCg88yVIuEdIvbA1i2m27noacijmXhwmFE2OEUWoHRngpMVCdSXzLxY7YPd0c3AL1ZEY0yd4J3ToL4FjJ443qNLAh-c-eU3rBsGOjwwRHLM6sv6Ec2e1I0baec81Jza7ETs12J0NhXQ=w1681-h2140-s-no-gm?authuser=0",
+    "chips": [
+      "XXe s.",
+      "1924",
+      "Kandinsky",
+      "Bauhaus",
+      "Accords opposés",
+      "Musée d'arts de Nantes"
+    ],
+    "themes": [
+      "surrealisme_onirisme"
+    ],
+    "subthemes": [
+      "abstraction_matiere"
+    ],
+    "desc": "<p>Cette œuvre, intitulée <em>Accords opposés</em>, a été peinte en 1924 par Vassily Kandinsky, alors qu'il est pleinement investi dans ses fonctions d'enseignant au Bauhaus de Weimar. Cette période est marquée par une théorisation poussée de la forme et de la couleur, aboutissant à des compositions où chaque élément est placé avec une intention analytique. Le tableau se présente comme un vaste champ d'expérimentation où les contrastes ne sont pas seulement chromatiques, mais aussi structurels. Le fond, aux nuances pâles et mouchetées, offre une surface texturée qui semble vibrer sous l'accumulation des formes géométriques, créant une profondeur spatiale complexe et non linéaire.</p><p>La composition est rythmée par la confrontation de plusieurs pôles de force. En haut à gauche, un cercle noir parfait, dont l'intérieur est divisé par une diagonale séparant un bleu dense d'un gris bleuté, impose une présence gravitationnelle forte. À l'opposé, en bas à droite, un damier noir et blanc aux bords nets offre une stabilité rigoureuse, presque architecturale. Entre ces deux points, Kandinsky déploie une multitude de micro-événements : des triangles acérés, des segments de lignes courbes évoquant des arcs ou des instruments, et des zones de damiers multicolores plus petits. Une ligne noire diagonale traverse le centre, agissant comme un vecteur de tension qui relie et sépare simultanément ces différents groupes formels.</p><p>L'œuvre illustre parfaitement le concept d'« accord » cher à l'artiste, emprunté au vocabulaire musical. Les « opposés » ici ne sont pas en conflit, mais en dialogue : le cercle s'oppose au triangle, le damier aux formes organiques libres, et les tons froids aux éclats de jaune et de rouge. En bas de la toile, une forme dentelée rappelant des sommets montagneux ou des ondes de choc semble soutenir l'ensemble de la structure flottante. Par cette orchestration de signes abstraits, Kandinsky cherche à atteindre une résonance intérieure, transformant la toile en une partition visuelle où l'équilibre naît de la diversité radicale des éléments en présence.</p>",
+    "narrative": "<p>Cette œuvre, intitulée <em>Accords opposés</em>, a été peinte en 1924 par Vassily Kandinsky, alors qu'il est pleinement investi dans ses fonctions d'enseignant au Bauhaus de Weimar. Cette période est marquée par une théorisation poussée de la forme et de la couleur, aboutissant à des compositions où chaque élément est placé avec une intention analytique. Le tableau se présente comme un vaste champ d'expérimentation où les contrastes ne sont pas seulement chromatiques, mais aussi structurels. Le fond, aux nuances pâles et mouchetées, offre une surface texturée qui semble vibrer sous l'accumulation des formes géométriques, créant une profondeur spatiale complexe et non linéaire.</p><p>La composition est rythmée par la confrontation de plusieurs pôles de force. En haut à gauche, un cercle noir parfait, dont l'intérieur est divisé par une diagonale séparant un bleu dense d'un gris bleuté, impose une présence gravitationnelle forte. À l'opposé, en bas à droite, un damier noir et blanc aux bords nets offre une stabilité rigoureuse, presque architecturale. Entre ces deux points, Kandinsky déploie une multitude de micro-événements : des triangles acérés, des segments de lignes courbes évoquant des arcs ou des instruments, et des zones de damiers multicolores plus petits. Une ligne noire diagonale traverse le centre, agissant comme un vecteur de tension qui relie et sépare simultanément ces différents groupes formels.</p><p>L'œuvre illustre parfaitement le concept d'« accord » cher à l'artiste, emprunté au vocabulaire musical. Les « opposés » ici ne sont pas en conflit, mais en dialogue : le cercle s'oppose au triangle, le damier aux formes organiques libres, et les tons froids aux éclats de jaune et de rouge. En bas de la toile, une forme dentelée rappelant des sommets montagneux ou des ondes de choc semble soutenir l'ensemble de la structure flottante. Par cette orchestration de signes abstraits, Kandinsky cherche à atteindre une résonance intérieure, transformant la toile en une partition visuelle où l'équilibre naît de la diversité radicale des éléments en présence.</p>",
+    "contemporaryArt": {
+      "title": "1924 • Die Blaue Vier & L'Architecture Musicale",
+      "events": [
+        "1924 : Fondation à Weimar du groupe Die Blaue Vier (Les Quatre Bleus) réunissant Kandinsky, Klee, Feininger et Jawlensky.",
+        "1924 : Répression politique en Thuringe précipitant la décision de transférer le Bauhaus de Weimar à Dessau.",
+        "1925 : Début des travaux du nouveau complexe du Bauhaus à Dessau par Walter Gropius."
+      ]
+    }
+  },
+  {
+    "id": "kandinsky_evenement_doux_nantes_1928",
+    "artistId": "kandinsky",
+    "artist": "Kandinsky Vassily",
+    "artistSort": "Kandinsky Vassily",
+    "civId": "occident",
+    "periodId": "occ_xxe_moderne",
+    "civName": "Occident : Art Moderne & Abstraction",
+    "civilization": "Russie / Allemagne / France",
+    "subpart": "L'apogée du Bauhaus de Dessau et la sérénité aérienne",
+    "title": "Événement doux",
+    "date": "1928",
+    "dateDisplay": "1928",
+    "century": "XXe siècle",
+    "centuryDisplay": "XXe s. (1928)",
+    "centuryNumeric": 1928,
+    "period": "XXe siècle",
+    "domain": "peinture",
+    "type": "Peinture",
+    "artifactType": "Peinture à l'huile sur carton",
+    "category": "Abstraction géométrique et poétique à l'huile sur carton",
+    "medium": "Huile sur carton",
+    "dimensions": {
+      "h": 66,
+      "w": 110,
+      "display": "66 × 110 cm"
+    },
+    "location": "Musée d'arts de Nantes",
+    "currentLocation": "Musée d'arts de Nantes",
+    "site": "Musée d'arts de Nantes (Nantes, France)",
+    "originSite": "Dessau (Allemagne)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczO0nCQQTzGr5oUfZCCW33HjV9zTq1G0gxRup5ASYFBiBEw6QW8yJVjzD8jvOnCp9Bvxb48xr5fFP0rEFtLPSrlDkcAfB0H5iTFaS6g-DPP-QjJaSLI9m70nM0Gc61e-BPaVxC647IBZoo0r9RBLnVuOBg=w1681-h1006-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczO0nCQQTzGr5oUfZCCW33HjV9zTq1G0gxRup5ASYFBiBEw6QW8yJVjzD8jvOnCp9Bvxb48xr5fFP0rEFtLPSrlDkcAfB0H5iTFaS6g-DPP-QjJaSLI9m70nM0Gc61e-BPaVxC647IBZoo0r9RBLnVuOBg=w1681-h1006-s-no-gm?authuser=0",
+    "chips": [
+      "XXe s.",
+      "1928",
+      "Kandinsky",
+      "Bauhaus Dessau",
+      "Événement doux",
+      "Musée d'arts de Nantes"
+    ],
+    "themes": [
+      "surrealisme_onirisme"
+    ],
+    "subthemes": [
+      "abstraction_matiere"
+    ],
+    "desc": "<p>Cette œuvre intitulée <em>Événement doux</em>, peinte par Vassily Kandinsky en 1928 et conservée au Musée d’arts de Nantes, est une composition majeure de sa période au Bauhaus de Dessau. Le tableau se déploie sur un fond bleu azur clair et lumineux, qui confère à l’ensemble une atmosphère de sérénité et de légèreté aérienne. Contrairement aux fonds tourmentés ou sombres de certaines de ses recherches, Kandinsky privilégie ici une clarté diurne où chaque forme semble flotter en apesanteur. La toile est rythmée par une multitude de signes graphiques et de micro-structures qui s'organisent comme une partition visuelle complexe et joyeuse.</p><p>La composition s'articule autour de deux pôles verticaux principaux reliés par une structure horizontale à la base, évoquant une sorte de paysage imaginaire ou de cité flottante. À gauche, une forme ocre massive est surmontée d'un arc-en-ciel miniature et d'un soleil rayonnant, tandis que des flèches et des lignes jaillissent vers le centre. À droite, un cercle bleu translucide, traversé par des formes géométriques et surmonté d'un triangle orange, semble agir comme un contrepoids spirituel. Entre ces deux entités, une multitude d'éléments gravitent : des damiers multicolores, des demi-lunes, des courbes sinueuses rappelant des vagues et trois flèches noires pointées vers le bas qui introduisent une tension dynamique dans ce ciel paisible.</p><p>Le titre « Événement doux » souligne l'harmonie qui se dégage de cette profusion de détails. Kandinsky utilise une palette chromatique variée où les tons primaires (bleu, rouge, jaune) sont adoucis par des nuances de rose, de vert et de violet. Les textures sont délicates, certaines zones laissant apparaître un grain fin qui accroche la lumière. Les lignes, qu'elles soient rigides ou ondulées, ne sont jamais agressives mais participent à un mouvement fluide et continu. Par cette œuvre, l'artiste parvient à matérialiser une sensation pure, transformant la rigueur géométrique en une poésie visuelle vibrante où le spectateur est invité à déchiffrer une mélodie de formes et de couleurs.</p>",
+    "narrative": "<p>Cette œuvre intitulée <em>Événement doux</em>, peinte par Vassily Kandinsky en 1928 et conservée au Musée d’arts de Nantes, est une composition majeure de sa période au Bauhaus de Dessau. Le tableau se déploie sur un fond bleu azur clair et lumineux, qui confère à l’ensemble une atmosphère de sérénité et de légèreté aérienne. Contrairement aux fonds tourmentés ou sombres de certaines de ses recherches, Kandinsky privilégie ici une clarté diurne où chaque forme semble flotter en apesanteur. La toile est rythmée par une multitude de signes graphiques et de micro-structures qui s'organisent comme une partition visuelle complexe et joyeuse.</p><p>La composition s'articule autour de deux pôles verticaux principaux reliés par une structure horizontale à la base, évoquant une sorte de paysage imaginaire ou de cité flottante. À gauche, une forme ocre massive est surmontée d'un arc-en-ciel miniature et d'un soleil rayonnant, tandis que des flèches et des lignes jaillissent vers le centre. À droite, un cercle bleu translucide, traversé par des formes géométriques et surmonté d'un triangle orange, semble agir comme un contrepoids spirituel. Entre ces deux entités, une multitude d'éléments gravitent : des damiers multicolores, des demi-lunes, des courbes sinueuses rappelant des vagues et trois flèches noires pointées vers le bas qui introduisent une tension dynamique dans ce ciel paisible.</p><p>Le titre « Événement doux » souligne l'harmonie qui se dégage de cette profusion de détails. Kandinsky utilise une palette chromatique variée où les tons primaires (bleu, rouge, jaune) sont adoucis par des nuances de rose, de vert et de violet. Les textures sont délicates, certaines zones laissant apparaître un grain fin qui accroche la lumière. Les lignes, qu'elles soient rigides ou ondulées, ne sont jamais agressives mais participent à un mouvement fluide et continu. Par cette œuvre, l'artiste parvient à matérialiser une sensation pure, transformant la rigueur géométrique en une poésie visuelle vibrante où le spectateur est invité à déchiffrer une mélodie de formes et de couleurs.</p>",
+    "contemporaryArt": {
+      "title": "1928 • La Clarté de Dessau & Les Maîtres du Bauhaus",
+      "events": [
+        "1926 : Emménagement des professeurs dans les Maisons des Maîtres (Meisterhäuser) dessinées par Gropius à Dessau.",
+        "1928 : Hannes Meyer succède à Walter Gropius à la direction du Bauhaus.",
+        "1928 : Kandinsky obtient la nationalité allemande et signe les décors des Tableaux d'une exposition de Moussorgski au théâtre de Dessau."
+      ]
+    }
+  },
+  {
+    "id": "kandinsky_vers_le_bas_nantes_1929",
+    "artistId": "kandinsky",
+    "artist": "Kandinsky Vassily",
+    "artistSort": "Kandinsky Vassily",
+    "civId": "occident",
+    "periodId": "occ_xxe_moderne",
+    "civName": "Occident : Art Moderne & Abstraction",
+    "civilization": "Russie / Allemagne / France",
+    "subpart": "L'apogée du Bauhaus de Dessau et la pesanteur spirituelle",
+    "title": "Vers le bas",
+    "date": "1929",
+    "dateDisplay": "1929",
+    "century": "XXe siècle",
+    "centuryDisplay": "XXe s. (1929)",
+    "centuryNumeric": 1929,
+    "period": "XXe siècle",
+    "domain": "peinture",
+    "type": "Peinture",
+    "artifactType": "Peinture à l'huile sur carton",
+    "category": "Abstraction géométrique à l'huile sur carton",
+    "medium": "Huile sur carton",
+    "dimensions": {
+      "h": 100,
+      "w": 79,
+      "display": "100 × 79 cm"
+    },
+    "location": "Musée d'arts de Nantes",
+    "currentLocation": "Musée d'arts de Nantes",
+    "site": "Musée d'arts de Nantes (Nantes, France)",
+    "originSite": "Dessau (Allemagne)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczPPARQNIjQejpq8-P4qzQ0sGi14OhEDK1l-BkRlgF_429COV_XullK2EoNJkQPYQiJ9zOaDGW4JPItq_nZ-L2o8lSVQs6KUifrdxfBFcHyklL-HMvMGc3oUVs2fvXiIQRMhoaKJGGvuuBhyb095EgsCYQ=w1681-h1571-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczPPARQNIjQejpq8-P4qzQ0sGi14OhEDK1l-BkRlgF_429COV_XullK2EoNJkQPYQiJ9zOaDGW4JPItq_nZ-L2o8lSVQs6KUifrdxfBFcHyklL-HMvMGc3oUVs2fvXiIQRMhoaKJGGvuuBhyb095EgsCYQ=w1681-h1571-s-no-gm?authuser=0",
+    "chips": [
+      "XXe s.",
+      "1929",
+      "Kandinsky",
+      "Bauhaus Dessau",
+      "Vers le bas",
+      "Musée d'arts de Nantes"
+    ],
+    "themes": [
+      "surrealisme_onirisme"
+    ],
+    "subthemes": [
+      "abstraction_matiere"
+    ],
+    "desc": "<p>Cette œuvre intitulée <em>Vers le bas</em>, peinte par Vassily Kandinsky en 1929 et conservée au Musée d’arts de Nantes, est une composition emblématique de ses années d'enseignement au Bauhaus de Dessau. Le tableau se distingue immédiatement par son fond aquatique et vaporeux, mélange de nuances turquoise, émeraude et bleu outremer. Contrairement aux fonds unis de la période, Kandinsky travaille ici une matière fluide et nuancée qui semble en perpétuel mouvement, évoquant un milieu sous-marin ou une atmosphère gazeuse. Des halos rose poudré et violets viennent nimber certaines formes, créant des poches de chaleur au sein de cette étendue froide.</p><p>La structure centrale, qui donne son titre à l'œuvre, consiste en une série de rectangles verticaux de hauteurs décroissantes, évoquant un escalier inversé ou une chute rythmique. Ces piliers, déclinés dans des tons de brun terreux, de noir et d'ocre, sont surmontés de petits carrés clairs qui accentuent leur verticalité. Le mouvement est littéralement dirigé « vers le bas » par des flèches triangulaires placées à la base de ces colonnes, forçant le regard à suivre une gravité imaginaire. Ce jeu de poids est contrebalancé par la légèreté des éléments latéraux qui semblent flotter sans contrainte.</p><p>Sur la gauche, une forme en croissant de lune beige dialogue avec une fine ligne noire ponctuée de cercles, rappelant un instrument scientifique ou une notation musicale. À droite, une construction plus complexe mêle une grille verte, une croix fine et des arcs de cercle dynamiques sous un petit soleil rouge vif. Ces signes graphiques, chers au vocabulaire de Kandinsky, ne sont pas de simples ornements mais des vecteurs de forces contraires : là où le centre tombe, les côtés flottent ou s'élèvent. Par cette tension entre chute et apesanteur, l'artiste parvient à traduire une sensation physique et spirituelle de mouvement, faisant de la géométrie un organisme vivant et sensible.</p>",
+    "narrative": "<p>Cette œuvre intitulée <em>Vers le bas</em>, peinte par Vassily Kandinsky en 1929 et conservée au Musée d’arts de Nantes, est une composition emblématique de ses années d'enseignement au Bauhaus de Dessau. Le tableau se distingue immédiatement par son fond aquatique et vaporeux, mélange de nuances turquoise, émeraude et bleu outremer. Contrairement aux fonds unis de la période, Kandinsky travaille ici une matière fluide et nuancée qui semble en perpétuel mouvement, évoquant un milieu sous-marin ou une atmosphère gazeuse. Des halos rose poudré et violets viennent nimber certaines formes, créant des poches de chaleur au sein de cette étendue froide.</p><p>La structure centrale, qui donne son titre à l'œuvre, consiste en une série de rectangles verticaux de hauteurs décroissantes, évoquant un escalier inversé ou une chute rythmique. Ces piliers, déclinés dans des tons de brun terreux, de noir et d'ocre, sont surmontés de petits carrés clairs qui accentuent leur verticalité. Le mouvement est littéralement dirigé « vers le bas » par des flèches triangulaires placées à la base de ces colonnes, forçant le regard à suivre une gravité imaginaire. Ce jeu de poids est contrebalancé par la légèreté des éléments latéraux qui semblent flotter sans contrainte.</p><p>Sur la gauche, une forme en croissant de lune beige dialogue avec une fine ligne noire ponctuée de cercles, rappelant un instrument scientifique ou une notation musicale. À droite, une construction plus complexe mêle une grille verte, une croix fine et des arcs de cercle dynamiques sous un petit soleil rouge vif. Ces signes graphiques, chers au vocabulaire de Kandinsky, ne sont pas de simples ornements mais des vecteurs de forces contraires : là où le centre tombe, les côtés flottent ou s'élèvent. Par cette tension entre chute et apesanteur, l'artiste parvient à traduire une sensation physique et spirituelle de mouvement, faisant de la géométrie un organisme vivant et sensible.</p>",
+    "contemporaryArt": {
+      "title": "1929 • Gravité & Espace Ondoyant au Bauhaus",
+      "events": [
+        "1929 : Première grande rétrospective de Kandinsky en France à la Galerie Zak de Paris.",
+        "Octobre 1929 : Krach de Wall Street déclenchant la Grande Dépression mondiale.",
+        "1929 : Kandinsky approfondit ses recherches sur les gradations de matière et les textures sablonneuses."
+      ]
+    }
+  },
+  {
+    "id": "kandinsky_huit_fois_nantes_1929",
+    "artistId": "kandinsky",
+    "artist": "Kandinsky Vassily",
+    "artistSort": "Kandinsky Vassily",
+    "civId": "occident",
+    "periodId": "occ_xxe_moderne",
+    "civName": "Occident : Art Moderne & Abstraction",
+    "civilization": "Russie / Allemagne / France",
+    "subpart": "L'apogée du Bauhaus de Dessau et la scansion sérielle",
+    "title": "Huit fois",
+    "date": "1929",
+    "dateDisplay": "1929",
+    "century": "XXe siècle",
+    "centuryDisplay": "XXe s. (1929)",
+    "centuryNumeric": 1929,
+    "period": "XXe siècle",
+    "domain": "peinture",
+    "type": "Peinture",
+    "artifactType": "Peinture à l'huile sur carton",
+    "category": "Abstraction géométrique et texturée à l'huile sur carton",
+    "medium": "Huile sur carton",
+    "dimensions": {
+      "h": 49,
+      "w": 79,
+      "display": "49 × 79 cm"
+    },
+    "location": "Musée d'arts de Nantes",
+    "currentLocation": "Musée d'arts de Nantes",
+    "site": "Musée d'arts de Nantes (Nantes, France)",
+    "originSite": "Dessau (Allemagne)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczO3MUDsvfx0vImCBZOia7nYhvOICAYkeY6sYtMQNl1qtDoyjpAhu9J5xFjKQVYILSBffLN3487xFMwE73tKZnP2Av0TDNe1zKqYKUgKOpi-ce0GEq08IOBQxBjEfJMqF0AtqpXPyeeG6-N-IRH8NuDyKg=w1681-h1057-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczO3MUDsvfx0vImCBZOia7nYhvOICAYkeY6sYtMQNl1qtDoyjpAhu9J5xFjKQVYILSBffLN3487xFMwE73tKZnP2Av0TDNe1zKqYKUgKOpi-ce0GEq08IOBQxBjEfJMqF0AtqpXPyeeG6-N-IRH8NuDyKg=w1681-h1057-s-no-gm?authuser=0",
+    "chips": [
+      "XXe s.",
+      "1929",
+      "Kandinsky",
+      "Bauhaus Dessau",
+      "Huit fois",
+      "Musée d'arts de Nantes"
+    ],
+    "themes": [
+      "surrealisme_onirisme"
+    ],
+    "subthemes": [
+      "abstraction_matiere"
+    ],
+    "desc": "<p>Cette œuvre, intitulée <em>Huit fois</em>, a été peinte en 1929 par Vassily Kandinsky. Elle s'inscrit dans la période de Dessau, où l'artiste approfondit ses recherches sur la corrélation entre les formes géométriques élémentaires et les sensations psychologiques. Le tableau frappe par sa texture sablonneuse et granuleuse, presque minérale, qui donne au support une présence physique inhabituelle. Le fond est organisé en une gradation de tons ocres, beiges et bruns, s'assombrissant vers le sommet pour finir sur une bande noire intense. Cette organisation spatiale évoque un paysage désertique ou une atmosphère crépusculaire, où la lumière semble émaner de la base de la composition.</p><p>Le titre de l'œuvre fait explicitement référence aux huit formes losangiques alignées sur une fine ligne d'horizon noire. Ces losanges, évoquant des cerfs-volants ou des cristaux en croissance, sont de tailles variées, créant une impression de rythme et de mouvement saccadé, comme une suite de notes sur une partition. Chaque figure est tracée avec une précision graphique rigoureuse, mais leur remplissage léger et inégal leur confère une certaine fragilité. Cette répétition du même motif avec des variations d'échelle illustre la fascination de Kandinsky pour les séries et la manière dont la multiplicité d'un objet simple peut engendrer une complexité visuelle et émotionnelle.</p><p>Dans la partie supérieure du tableau, une fine barre horizontale rose flotte isolée dans la zone sombre. Cet élément, par sa couleur contrastée et sa position solitaire, agit comme un contrepoint aux huit formes du bas, équilibrant la composition tout en ajoutant une note de mystère. Il pourrait symboliser un dernier rayon de soleil ou une présence abstraite surplombant la procession géométrique inférieure. À travers cette œuvre, Kandinsky parvient à instaurer un dialogue silencieux entre la rigueur de la géométrie et la poésie d'un espace infini, transformant une simple répétition numérique en une méditation visuelle sur l'ordre et l'existence.</p>",
+    "narrative": "<p>Cette œuvre, intitulée <em>Huit fois</em>, a été peinte en 1929 par Vassily Kandinsky. Elle s'inscrit dans la période de Dessau, où l'artiste approfondit ses recherches sur la corrélation entre les formes géométriques élémentaires et les sensations psychologiques. Le tableau frappe par sa texture sablonneuse et granuleuse, presque minérale, qui donne au support une présence physique inhabituelle. Le fond est organisé en une gradation de tons ocres, beiges et bruns, s'assombrissant vers le sommet pour finir sur une bande noire intense. Cette organisation spatiale évoque un paysage désertique ou une atmosphère crépusculaire, où la lumière semble émaner de la base de la composition.</p><p>Le titre de l'œuvre fait explicitement référence aux huit formes losangiques alignées sur une fine ligne d'horizon noire. Ces losanges, évoquant des cerfs-volants ou des cristaux en croissance, sont de tailles variées, créant une impression de rythme et de mouvement saccadé, comme une suite de notes sur une partition. Chaque figure est tracée avec une précision graphique rigoureuse, mais leur remplissage léger et inégal leur confère une certaine fragilité. Cette répétition du même motif avec des variations d'échelle illustre la fascination de Kandinsky pour les séries et la manière dont la multiplicité d'un objet simple peut engendrer une complexité visuelle et émotionnelle.</p><p>Dans la partie supérieure du tableau, une fine barre horizontale rose flotte isolée dans la zone sombre. Cet élément, par sa couleur contrastée et sa position solitaire, agit comme un contrepoint aux huit formes du bas, équilibrant la composition tout en ajoutant une note de mystère. Il pourrait symboliser un dernier rayon de soleil ou une présence abstraite surplombant la procession géométrique inférieure. À travers cette œuvre, Kandinsky parvient à instaurer un dialogue silencieux entre la rigueur de la géométrie et la poésie d'un espace infini, transformant une simple répétition numérique en une méditation visuelle sur l'ordre et l'existence.</p>",
+    "contemporaryArt": {
+      "title": "1929 • Sérialité Rythmique & Matière Minérale",
+      "events": [
+        "1929 : Kandinsky introduit de la poudre de sable dans ses pigments pour enrichir la texture tactile de ses fonds.",
+        "1929 : Rencontre avec Christian Zervos et publication d'articles sur son travail dans la revue Cahiers d'art.",
+        "1930 : Ludwig Mies van der Rohe prend la direction du Bauhaus à Dessau."
+      ]
+    }
+  },
+  {
+    "id": "kandinsky_treize_rectangles_nantes_1930",
+    "artistId": "kandinsky",
+    "artist": "Kandinsky Vassily",
+    "artistSort": "Kandinsky Vassily",
+    "civId": "occident",
+    "periodId": "occ_xxe_moderne",
+    "civName": "Occident : Art Moderne & Abstraction",
+    "civilization": "Russie / Allemagne / France",
+    "subpart": "L'apogée du Bauhaus de Dessau et l'épure formelle",
+    "title": "Treize rectangles",
+    "date": "1930",
+    "dateDisplay": "1930",
+    "century": "XXe siècle",
+    "centuryDisplay": "XXe s. (1930)",
+    "centuryNumeric": 1930,
+    "period": "XXe siècle",
+    "domain": "peinture",
+    "type": "Peinture",
+    "artifactType": "Peinture à l'huile sur carton",
+    "category": "Abstraction géométrique à l'huile sur carton",
+    "medium": "Huile sur carton",
+    "dimensions": {
+      "h": 100,
+      "w": 80,
+      "display": "100 × 80 cm"
+    },
+    "location": "Musée d'arts de Nantes",
+    "currentLocation": "Musée d'arts de Nantes",
+    "site": "Musée d'arts de Nantes (Nantes, France)",
+    "originSite": "Dessau (Allemagne)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczPyYfRcbLgnNDdxkGWgJB_tD4XNw5HVlc8OXhdZKrzmYKqFLzQqE1vbRs_aCOcTvli1VzKNaEMhZ7j2RX0luqbH8zkk-X2M1Y1_M78Fw4WA_A91gfJdtiMcs5XR4PipJFxaj9EtLFJxI3TpbQWQLVyitw=w1681-h1980-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczPyYfRcbLgnNDdxkGWgJB_tD4XNw5HVlc8OXhdZKrzmYKqFLzQqE1vbRs_aCOcTvli1VzKNaEMhZ7j2RX0luqbH8zkk-X2M1Y1_M78Fw4WA_A91gfJdtiMcs5XR4PipJFxaj9EtLFJxI3TpbQWQLVyitw=w1681-h1980-s-no-gm?authuser=0",
+    "chips": [
+      "XXe s.",
+      "1930",
+      "Kandinsky",
+      "Bauhaus Dessau",
+      "Treize rectangles",
+      "Musée d'arts de Nantes"
+    ],
+    "themes": [
+      "surrealisme_onirisme"
+    ],
+    "subthemes": [
+      "abstraction_matiere"
+    ],
+    "desc": "<p>Cette œuvre intitulée <em>Treize rectangles</em>, peinte par Vassily Kandinsky en 1930 et conservée au Musée d'arts de Nantes, appartient à la période du Bauhaus, durant laquelle l'artiste pousse ses recherches sur la géométrie des formes et la grammaire des couleurs vers un dépouillement extrême. Contrairement à la densité de certaines de ses compositions antérieures, ce tableau joue sur l'isolement des éléments sur un fond neutre, un beige grisâtre uniforme qui permet de focaliser l'attention sur les rapports de force et de poids entre les entités colorées. La structure semble régie par une tension dynamique où les rectangles, de tailles et d'orientations variées, paraissent flotter ou être en suspension dans un vide atmosphérique.</p><p>La composition s'organise autour d'un grand carré central d'un rouge carmin vibrant, dont la texture nuancée laisse deviner les passages du pinceau. Ce noyau central est entouré de rectangles satellites qui créent un mouvement de balancier visuel. À gauche, des blocs de bleu d'outremer et de bleu azur apportent une sensation de profondeur et de froideur, tandis qu'à droite et au-dessus, des touches de jaune citron et de rose poudré offrent un contrepoint lumineux et aérien. L'artiste explore également les effets de transparence et de superposition : à certains endroits, les formes se chevauchent, créant de nouveaux tons à leur intersection, ce qui confère une dimension spatiale et temporelle à l'abstraction.</p><p>L'équilibre de l'ensemble est minutieusement calculé. En bas à droite, un grand rectangle brun sombre et un petit carré d'un bleu très pâle ancrent la composition, évitant que les formes supérieures ne semblent s'échapper du cadre. Kandinsky utilise ici le rectangle non pas comme une forme rigide, mais comme un vecteur d'émotion pure, chaque couleur possédant, selon ses théories, une sonorité intérieure spécifique. La sobriété du fond accentue le caractère « musical » de l'œuvre, où chaque rectangle agit comme une note ou un accord au sein d'une partition silencieuse. Cette peinture témoigne de la maîtrise absolue de Kandinsky dans l'art de traduire la complexité de l'esprit humain par la simplicité radicale de la forme géométrique.</p>",
+    "narrative": "<p>Cette œuvre intitulée <em>Treize rectangles</em>, peinte par Vassily Kandinsky en 1930 et conservée au Musée d'arts de Nantes, appartient à la période du Bauhaus, durant laquelle l'artiste pousse ses recherches sur la géométrie des formes et la grammaire des couleurs vers un dépouillement extrême. Contrairement à la densité de certaines de ses compositions antérieures, ce tableau joue sur l'isolement des éléments sur un fond neutre, un beige grisâtre uniforme qui permet de focaliser l'attention sur les rapports de force et de poids entre les entités colorées. La structure semble régie par une tension dynamique où les rectangles, de tailles et d'orientations variées, paraissent flotter ou être en suspension dans un vide atmosphérique.</p><p>La composition s'organise autour d'un grand carré central d'un rouge carmin vibrant, dont la texture nuancée laisse deviner les passages du pinceau. Ce noyau central est entouré de rectangles satellites qui créent un mouvement de balancier visuel. À gauche, des blocs de bleu d'outremer et de bleu azur apportent une sensation de profondeur et de froideur, tandis qu'à droite et au-dessus, des touches de jaune citron et de rose poudré offrent un contrepoint lumineux et aérien. L'artiste explore également les effets de transparence et de superposition : à certains endroits, les formes se chevauchent, créant de nouveaux tons à leur intersection, ce qui confère une dimension spatiale et temporelle à l'abstraction.</p><p>L'équilibre de l'ensemble est minutieusement calculé. En bas à droite, un grand rectangle brun sombre et un petit carré d'un bleu très pâle ancrent la composition, évitant que les formes supérieures ne semblent s'échapper du cadre. Kandinsky utilise ici le rectangle non pas comme une forme rigide, mais comme un vecteur d'émotion pure, chaque couleur possédant, selon ses théories, une sonorité intérieure spécifique. La sobriété du fond accentue le caractère « musical » de l'œuvre, où chaque rectangle agit comme une note ou un accord au sein d'une partition silencieuse. Cette peinture témoigne de la maîtrise absolue de Kandinsky dans l'art de traduire la complexité de l'esprit humain par la simplicité radicale de la forme géométrique.</p>",
+    "contemporaryArt": {
+      "title": "1930 • L'Épure Radicale du Bauhaus de Dessau",
+      "events": [
+        "1930 : Rétrospective Kandinsky à la Galerie de France à Paris.",
+        "1930 : Les pressions politiques des nazis s'intensifient en Saxe-Anhalt contre le Bauhaus de Dessau.",
+        "1930 : Kandinsky compose Treize rectangles et explore les sonorités intérieures du plan beige neutre."
+      ]
+    }
+  },
+  {
+    "id": "kandinsky_vide_vert_nantes_1930",
+    "artistId": "kandinsky",
+    "artist": "Kandinsky Vassily",
+    "artistSort": "Kandinsky Vassily",
+    "civId": "occident",
+    "periodId": "occ_xxe_moderne",
+    "civName": "Occident : Art Moderne & Abstraction",
+    "civilization": "Russie / Allemagne / France",
+    "subpart": "L'apogée du Bauhaus de Dessau et la méditation spatiale",
+    "title": "Vide vert",
+    "date": "1930",
+    "dateDisplay": "1930",
+    "century": "XXe siècle",
+    "centuryDisplay": "XXe s. (1930)",
+    "centuryNumeric": 1930,
+    "period": "XXe siècle",
+    "domain": "peinture",
+    "type": "Peinture",
+    "artifactType": "Peinture à l'huile sur carton",
+    "category": "Abstraction géométrique et méditative à l'huile sur carton",
+    "medium": "Huile sur carton",
+    "dimensions": {
+      "h": 80,
+      "w": 100,
+      "display": "80 × 100 cm"
+    },
+    "location": "Musée d'arts de Nantes",
+    "currentLocation": "Musée d'arts de Nantes",
+    "site": "Musée d'arts de Nantes (Nantes, France)",
+    "originSite": "Dessau (Allemagne)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczOOldTnSxMU5H8dMSbdGNenrJzjTcXd0Yrt2DWDr2S-KVZy-J87M37lKyGFWyW63iloY6OwaBkLHgn_jydtcZEuzHfQz8zknEcHxNYkHbf-C5VCNVQsL1HJnkMnoG1IlfpIs4HtJF7HS36uxtGjvCrjyQ=w1681-h1244-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczOOldTnSxMU5H8dMSbdGNenrJzjTcXd0Yrt2DWDr2S-KVZy-J87M37lKyGFWyW63iloY6OwaBkLHgn_jydtcZEuzHfQz8zknEcHxNYkHbf-C5VCNVQsL1HJnkMnoG1IlfpIs4HtJF7HS36uxtGjvCrjyQ=w1681-h1244-s-no-gm?authuser=0",
+    "chips": [
+      "XXe s.",
+      "1930",
+      "Kandinsky",
+      "Bauhaus Dessau",
+      "Vide vert",
+      "Musée d'arts de Nantes"
+    ],
+    "themes": [
+      "surrealisme_onirisme"
+    ],
+    "subthemes": [
+      "abstraction_matiere"
+    ],
+    "desc": "<p>Cette œuvre, intitulée <em>Vide vert</em>, a été réalisée en 1930 par Vassily Kandinsky, figure de proue de l'art abstrait. Elle s'inscrit dans la période de maturité de l'artiste, alors qu'il enseignait au Bauhaus de Dessau. À cette époque, sa peinture évolue vers une géométrie plus stricte et une réflexion profonde sur l'équilibre des forces et la psychologie des couleurs. Le tableau présente une vaste étendue de vert turquoise qui domine la majeure partie de la composition, créant une atmosphère de calme suspendu, presque méditative. Ce fond, bien que d'apparence uniforme, est travaillé avec une texture subtile qui lui donne une profondeur vibrante, évoquant un espace infini ou une dimension spirituelle libérée de la pesanteur.</p><p>La composition est structurée par un contraste marqué entre la zone supérieure éthérée et une base horizontale rose intense. Cette bande inférieure semble ancrer l'image, offrant un contrepoint chromatique chaud au froid du « vide » dominant. Sur le côté droit, une forme arquée s'élève, rappelant une porte ou une fenêtre. Elle est divisée en registres colorés horizontaux : orange, blanc, jaune et vert. Ce motif évoque un passage symbolique ou un sanctuaire de lumière, apportant une structure architecturale à l'immatérialité du fond. Il agit comme un point focal qui guide l'œil et équilibre la masse chromatique du vert.</p><p>Dans le coin supérieur gauche, un groupe de lignes angulaires et de formes en « M » inversés flottent avec une légèreté aérienne. Ces éléments graphiques, caractéristiques de la période tardive de Kandinsky, semblent interagir comme des notes de musique sur une portée invisible. Peints dans des tons de bleu et de rouge, ils introduisent une tension dynamique et une rythmique visuelle dans l'immensité statique du tableau. L'œuvre témoigne de la volonté de l'artiste de traduire des émotions intérieures par des agencements purement abstraits, où chaque ligne et chaque nuance possède sa propre sonorité spirituelle.</p>",
+    "narrative": "<p>Cette œuvre, intitulée <em>Vide vert</em>, a été réalisée en 1930 par Vassily Kandinsky, figure de proue de l'art abstrait. Elle s'inscrit dans la période de maturité de l'artiste, alors qu'il enseignait au Bauhaus de Dessau. À cette époque, sa peinture évolue vers une géométrie plus stricte et une réflexion profonde sur l'équilibre des forces et la psychologie des couleurs. Le tableau présente une vaste étendue de vert turquoise qui domine la majeure partie de la composition, créant une atmosphère de calme suspendu, presque méditative. Ce fond, bien que d'apparence uniforme, est travaillé avec une texture subtile qui lui donne une profondeur vibrante, évoquant un espace infini ou une dimension spirituelle libérée de la pesanteur.</p><p>La composition est structurée par un contraste marqué entre la zone supérieure éthérée et une base horizontale rose intense. Cette bande inférieure semble ancrer l'image, offrant un contrepoint chromatique chaud au froid du « vide » dominant. Sur le côté droit, une forme arquée s'élève, rappelant une porte ou une fenêtre. Elle est divisée en registres colorés horizontaux : orange, blanc, jaune et vert. Ce motif évoque un passage symbolique ou un sanctuaire de lumière, apportant une structure architecturale à l'immatérialité du fond. Il agit comme un point focal qui guide l'œil et équilibre la masse chromatique du vert.</p><p>Dans le coin supérieur gauche, un groupe de lignes angulaires et de formes en « M » inversés flottent avec une légèreté aérienne. Ces éléments graphiques, caractéristiques de la période tardive de Kandinsky, semblent interagir comme des notes de musique sur une portée invisible. Peints dans des tons de bleu et de rouge, ils introduisent une tension dynamique et une rythmique visuelle dans l'immensité statique du tableau. L'œuvre témoigne de la volonté de l'artiste de traduire des émotions intérieures par des agencements purement abstraits, où chaque ligne et chaque nuance possède sa propre sonorité spirituelle.</p>",
+    "contemporaryArt": {
+      "title": "1930 • Le Vide Méditatif & Les Portails Lumineux",
+      "events": [
+        "1930 : Kandinsky élabore sa théorie du vert : couleur du repos bourgeois et du calme absolu.",
+        "1930 : Le Bauhaus fête les dix ans de présence professorale de Kandinsky et Klee.",
+        "1931 : Menaces grandissantes du parti nazi au conseil municipal de Dessau."
+      ]
+    }
+  },
+  {
+    "id": "kandinsky_degagement_ralenti_nantes_1931",
+    "artistId": "kandinsky",
+    "artist": "Kandinsky Vassily",
+    "artistSort": "Kandinsky Vassily",
+    "civId": "occident",
+    "periodId": "occ_xxe_moderne",
+    "civName": "Occident : Art Moderne & Abstraction",
+    "civilization": "Russie / Allemagne / France",
+    "subpart": "Les dernières années au Bauhaus et les fonds minéraux",
+    "title": "Dégagement ralenti",
+    "date": "1931",
+    "dateDisplay": "1931",
+    "century": "XXe siècle",
+    "centuryDisplay": "XXe s. (1931)",
+    "centuryNumeric": 1931,
+    "period": "XXe siècle",
+    "domain": "peinture",
+    "type": "Peinture",
+    "artifactType": "Peinture à l'huile sur carton",
+    "category": "Abstraction géométrique et texturée à l'huile sur carton",
+    "medium": "Huile sur carton",
+    "dimensions": {
+      "h": 80,
+      "w": 70,
+      "display": "80 × 70 cm"
+    },
+    "location": "Musée d'arts de Nantes",
+    "currentLocation": "Musée d'arts de Nantes",
+    "site": "Musée d'arts de Nantes (Nantes, France)",
+    "originSite": "Dessau (Allemagne)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczNkM-0AUDTCMcvPIZfPhBDWMumvoOwJN4BKUlSl0jfZbXjJsh9R3lo0gW_06WyESXxM-1NPt4pfInmXz4cJIuJiVHBrMQmaSB92WHEhqReRj5d4cD38fIHsQh00OvQGcEOrJrA4YR74tz8X5hMbSBef9w=w1681-h1379-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczNkM-0AUDTCMcvPIZfPhBDWMumvoOwJN4BKUlSl0jfZbXjJsh9R3lo0gW_06WyESXxM-1NPt4pfInmXz4cJIuJiVHBrMQmaSB92WHEhqReRj5d4cD38fIHsQh00OvQGcEOrJrA4YR74tz8X5hMbSBef9w=w1681-h1379-s-no-gm?authuser=0",
+    "chips": [
+      "XXe s.",
+      "1931",
+      "Kandinsky",
+      "Bauhaus Dessau",
+      "Dégagement ralenti",
+      "Musée d'arts de Nantes"
+    ],
+    "themes": [
+      "surrealisme_onirisme"
+    ],
+    "subthemes": [
+      "abstraction_matiere"
+    ],
+    "desc": "<p>Cette œuvre intitulée <em>Dégagement ralenti</em>, réalisée par Vassily Kandinsky en 1931 et conservée au Musée d’arts de Nantes, s'inscrit dans la période de maturité de l'artiste au sein du Bauhaus. À cette époque, Kandinsky explore avec une rigueur croissante la relation entre la géométrie pure et la vibration spirituelle des couleurs. Contrairement à ses compositions précédentes sur fonds lisses, cette peinture se distingue par son support sombre et extrêmement texturé. Le fond gris-noir, parsemé de mouchetures claires et de traces de frottement, évoque une surface minérale, une ardoise ancienne ou un ciel nocturne chargé de matière, offrant un contraste saisissant avec la netteté des formes qui y sont déposées.</p><p>La composition est une savante orchestration de formes géométriques qui semblent flotter dans un espace multidimensionnel. Au centre et sur la gauche, de grands rectangles vert amande, bleu pétrole et turquoise dominent la scène, apportant une certaine stabilité verticale. Ces masses colorées sont ponctuées par de petits accents de rouge et de pourpre, qui agissent comme des dissonances calculées dans une harmonie de tons froids. Sur la droite, trois formes en arc de cercle, ou demi-lunes, dégradées du blanc au gris bleuté, introduisent une dynamique de répétition et de mouvement doux, suggérant une progression temporelle — ce fameux « dégagement ralenti » évoqué par le titre.</p><p>Dans la partie inférieure du tableau, Kandinsky déploie un vocabulaire de signes plus légers et pointus : des triangles effilés, des lignes horizontales parallèles et de petits carrés isolés. On y distingue également une forme hybride, sorte de barque abstraite surmontée d'une voile triangulaire bleue, qui semble naviguer sur le fond tourmenté de la toile. L'œuvre joue sur une impression de transparence et de superposition, où chaque élément semble posséder sa propre vitesse et son propre poids. Par ce travail sur la matière et le signe, Kandinsky parvient à créer une cosmogonie abstraite où la géométrie devient le langage d'une poésie métaphysique silencieuse.</p>",
+    "narrative": "<p>Cette œuvre intitulée <em>Dégagement ralenti</em>, réalisée par Vassily Kandinsky en 1931 et conservée au Musée d’arts de Nantes, s'inscrit dans la période de maturité de l'artiste au sein du Bauhaus. À cette époque, Kandinsky explore avec une rigueur croissante la relation entre la géométrie pure et la vibration spirituelle des couleurs. Contrairement à ses compositions précédentes sur fonds lisses, cette peinture se distingue par son support sombre et extrêmement texturé. Le fond gris-noir, parsemé de mouchetures claires et de traces de frottement, évoque une surface minérale, une ardoise ancienne ou un ciel nocturne chargé de matière, offrant un contraste saisissant avec la netteté des formes qui y sont déposées.</p><p>La composition est une savante orchestration de formes géométriques qui semblent flotter dans un espace multidimensionnel. Au centre et sur la gauche, de grands rectangles vert amande, bleu pétrole et turquoise dominent la scène, apportant une certaine stabilité verticale. Ces masses colorées sont ponctuées par de petits accents de rouge et de pourpre, qui agissent comme des dissonances calculées dans une harmonie de tons froids. Sur la droite, trois formes en arc de cercle, ou demi-lunes, dégradées du blanc au gris bleuté, introduisent une dynamique de répétition et de mouvement doux, suggérant une progression temporelle — ce fameux « dégagement ralenti » évoqué par le titre.</p><p>Dans la partie inférieure du tableau, Kandinsky déploie un vocabulaire de signes plus légers et pointus : des triangles effilés, des lignes horizontales parallèles et de petits carrés isolés. On y distingue également une forme hybride, sorte de barque abstraite surmontée d'une voile triangulaire bleue, qui semble naviguer sur le fond tourmenté de la toile. L'œuvre joue sur une impression de transparence et de superposition, où chaque élément semble posséder sa propre vitesse et son propre poids. Par ce travail sur la matière et le signe, Kandinsky parvient à créer une cosmogonie abstraite où la géométrie devient le langage d'une poésie métaphysique silencieuse.</p>",
+    "contemporaryArt": {
+      "title": "1931 • Ardoises Célestes & Progression Ralentie",
+      "events": [
+        "1931 : Décoration murale monumentale en céramique conçue par Kandinsky pour le Salon de musique de l'Exposition du bâtiment à Berlin.",
+        "1931 : Le parti nazi remporte les élections municipales à Dessau et vote la suppression des subventions au Bauhaus.",
+        "1932 : Fermeture du Bauhaus de Dessau et repli éphémère de l'école dans une ancienne usine de Berlin-Steglitz."
+      ]
+    }
+  },
+  {
+    "id": "kandinsky_fragile_nantes_1931",
+    "artistId": "kandinsky",
+    "artist": "Kandinsky Vassily",
+    "artistSort": "Kandinsky Vassily",
+    "civId": "occident",
+    "periodId": "occ_xxe_moderne",
+    "civName": "Occident : Art Moderne & Abstraction",
+    "civilization": "Russie / Allemagne / France",
+    "subpart": "Les dernières années au Bauhaus et l'équilibre suspendu",
+    "title": "Fragile",
+    "date": "1931",
+    "dateDisplay": "1931",
+    "century": "XXe siècle",
+    "centuryDisplay": "XXe s. (1931)",
+    "centuryNumeric": 1931,
+    "period": "XXe siècle",
+    "domain": "peinture",
+    "type": "Peinture",
+    "artifactType": "Peinture à l'huile sur carton",
+    "category": "Abstraction géométrique et nocturne à l'huile sur carton",
+    "medium": "Huile sur carton",
+    "dimensions": {
+      "h": 70,
+      "w": 90,
+      "display": "70 × 90 cm"
+    },
+    "location": "Musée d'arts de Nantes",
+    "currentLocation": "Musée d'arts de Nantes",
+    "site": "Musée d'arts de Nantes (Nantes, France)",
+    "originSite": "Dessau (Allemagne)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczNJYqnZL-skTKJNDKs3G_UFF3vHzfU91SNXFgEOtcXJ9WWEzSB1NNmd2jtEy9QcOLsoqlZZdw-sBvi8XmaYK6e2VWZ6zbWkySzbELTjwaGe1jJwNXjQXk1jFvdrOrB6WHNUsp6yxRDln4G-7YZFzq711A=w1681-h1201-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczNJYqnZL-skTKJNDKs3G_UFF3vHzfU91SNXFgEOtcXJ9WWEzSB1NNmd2jtEy9QcOLsoqlZZdw-sBvi8XmaYK6e2VWZ6zbWkySzbELTjwaGe1jJwNXjQXk1jFvdrOrB6WHNUsp6yxRDln4G-7YZFzq711A=w1681-h1201-s-no-gm?authuser=0",
+    "chips": [
+      "XXe s.",
+      "1931",
+      "Kandinsky",
+      "Bauhaus Dessau",
+      "Fragile",
+      "Musée d'arts de Nantes"
+    ],
+    "themes": [
+      "surrealisme_onirisme"
+    ],
+    "subthemes": [
+      "abstraction_matiere"
+    ],
+    "desc": "<p>Cette œuvre, intitulée <em>Fragile</em>, a été peinte en 1931 par Vassily Kandinsky. Réalisée durant ses dernières années au Bauhaus, cette composition témoigne de la maîtrise absolue de l'artiste sur l'équilibre instable des formes géométriques. Le tableau se distingue par son fond d'un bleu profond et texturé, qui évoque une nuit cosmique ou un espace abyssal. Cette surface n'est pas plate ; elle présente des variations de matière et des jeux de lumière qui donnent à l'ensemble une dimension organique, contrastant avec la rigueur des tracés linéaires qui semblent flotter à sa surface.</p><p>L'élément central de la composition est une structure arquée, semblable à un pont ou à une portion de circomplément de circonférence, qui traverse la partie inférieure du tableau. Ce segment de cercle, finement gradué par de petits traits perpendiculaires, sert de socle précaire à une série de figures géométriques complexes. L'agencement de ces triangles, cercles et lignes suggère une architecture en équilibre, dont la stabilité paraît menacée par la finesse des points de contact. Kandinsky joue ici sur la tension entre la pesanteur et l'ascension, créant une impression de suspension poétique où chaque élément semble prêt à basculer au moindre souffle.</p><p>À gauche de l'axe central, un grand disque lunaire, barré d'une bande plus sombre, semble veiller sur cette scène silencieuse. À droite, des lignes horizontales étirées suggèrent un mouvement de dérive ou de vitesse, tandis que de petits cercles et des formes angulaires s'éparpillent avec une précision chirurgicale. L'utilisation d'une palette restreinte, dominée par le bleu, le blanc et quelques touches de jaune et de rose pâle, renforce l'aspect éthéré de l'œuvre. Le titre même, « Fragile », souligne cette vulnérabilité intrinsèque de la forme, capturée dans un instant d'harmonie parfaite mais éphémère au milieu du vide.</p>",
+    "narrative": "<p>Cette œuvre, intitulée <em>Fragile</em>, a été peinte en 1931 par Vassily Kandinsky. Réalisée durant ses dernières années au Bauhaus, cette composition témoigne de la maîtrise absolue de l'artiste sur l'équilibre instable des formes géométriques. Le tableau se distingue par son fond d'un bleu profond et texturé, qui évoque une nuit cosmique ou un espace abyssal. Cette surface n'est pas plate ; elle présente des variations de matière et des jeux de lumière qui donnent à l'ensemble une dimension organique, contrastant avec la rigueur des tracés linéaires qui semblent flotter à sa surface.</p><p>L'élément central de la composition est une structure arquée, semblable à un pont ou à une portion de circonférence, qui traverse la partie inférieure du tableau. Ce segment de cercle, finement gradué par de petits traits perpendiculaires, sert de socle précaire à une série de figures géométriques complexes. L'agencement de ces triangles, cercles et lignes suggère une architecture en équilibre, dont la stabilité paraît menacée par la finesse des points de contact. Kandinsky joue ici sur la tension entre la pesanteur et l'ascension, créant une impression de suspension poétique où chaque élément semble prêt à basculer au moindre souffle.</p><p>À gauche de l'axe central, un grand disque lunaire, barré d'une bande plus sombre, semble veiller sur cette scène silencieuse. À droite, des lignes horizontales étirées suggèrent un mouvement de dérive ou de vitesse, tandis que de petits cercles et des formes angulaires s'éparpillent avec une précision chirurgicale. L'utilisation d'une palette restreinte, dominée par le bleu, le blanc et quelques touches de jaune et de rose pâle, renforce l'aspect éthéré de l'œuvre. Le titre même, « Fragile », souligne cette vulnérabilité intrinsèque de la forme, capturée dans un instant d'harmonie parfaite mais éphémère au milieu du vide.</p>",
+    "contemporaryArt": {
+      "title": "1931 • L'Équilibre Précaire Avant la Tourmente",
+      "events": [
+        "1931 : Kandinsky peint Fragile, métaphore poétique de l'équilibre menacé de la culture démocratique de Weimar.",
+        "1931 : Paul Klee quitte le Bauhaus pour enseigner à l'Académie des beaux-arts de Düsseldorf.",
+        "1932 : Perquisitions policières et fermeture définitive du site de Dessau."
+      ]
+    }
+  },
+  {
+    "id": "kandinsky_compensation_rose_nantes_1933",
+    "artistId": "kandinsky",
+    "artist": "Kandinsky Vassily",
+    "artistSort": "Kandinsky Vassily",
+    "civId": "occident",
+    "periodId": "occ_xxe_moderne",
+    "civName": "Occident : Art Moderne & Abstraction",
+    "civilization": "Russie / Allemagne / France",
+    "subpart": "L'ultime année en Allemagne, la fermeture du Bauhaus et l'exil vers la France",
+    "title": "Compensation rose",
+    "date": "1933",
+    "dateDisplay": "1933",
+    "century": "XXe siècle",
+    "centuryDisplay": "XXe s. (1933)",
+    "centuryNumeric": 1933,
+    "period": "XXe siècle",
+    "domain": "peinture",
+    "type": "Peinture",
+    "artifactType": "Peinture à l'huile sur carton",
+    "category": "Abstraction géométrique et architecturale à l'huile sur carton",
+    "medium": "Huile sur carton",
+    "dimensions": {
+      "h": 100,
+      "w": 80,
+      "display": "100 × 80 cm"
+    },
+    "location": "Musée d'arts de Nantes",
+    "currentLocation": "Musée d'arts de Nantes",
+    "site": "Musée d'arts de Nantes (Nantes, France)",
+    "originSite": "Berlin (Allemagne)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczM-zotAAtDco5qlkb4UEfABzs8OIycPEiwBOBqNLfR9IIKO2M969hoyt_PG-c8VHlIPoKgeWrjzlhPBF9xF6jYfqRNd1FzFemk_zSGUxVLmQKeTW3L2hTgpanBSPD8CbW6rgY7GHz9VaDTbJ-ueJogwDQ=w1681-h1982-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczM-zotAAtDco5qlkb4UEfABzs8OIycPEiwBOBqNLfR9IIKO2M969hoyt_PG-c8VHlIPoKgeWrjzlhPBF9xF6jYfqRNd1FzFemk_zSGUxVLmQKeTW3L2hTgpanBSPD8CbW6rgY7GHz9VaDTbJ-ueJogwDQ=w1681-h1982-s-no-gm?authuser=0",
+    "chips": [
+      "XXe s.",
+      "1933",
+      "Kandinsky",
+      "Bauhaus Berlin",
+      "Compensation rose",
+      "Musée d'arts de Nantes"
+    ],
+    "themes": [
+      "surrealisme_onirisme"
+    ],
+    "subthemes": [
+      "abstraction_matiere"
+    ],
+    "desc": "<p>Cette œuvre intitulée <em>Compensation rose</em>, peinte par Vassily Kandinsky en 1933 et conservée au Musée d'arts de Nantes, marque une étape charnière dans la vie de l'artiste : celle de son départ d'Allemagne pour la France suite à la fermeture du Bauhaus. La composition se présente comme une grille complexe et rythmée, où s'imbriquent des formes géométriques rigoureuses — rectangles, carrés et trapèzes — créant une structure presque architecturale. Contrairement aux explosions lyriques de ses premières abstractions, Kandinsky privilégie ici une organisation spatiale compartimentée, où chaque micro-structure semble posséder sa propre logique interne tout en participant à l'équilibre global de la toile.</p><p>Le titre attire l'attention sur l'élément central du tableau : un carré d'un rose vif et saturé qui semble agir comme le cœur énergétique ou le pivot de la composition. Autour de lui, une multitude de motifs graphiques se déploient, tels des signes d'un alphabet mystérieux ou des partitions musicales visuelles. On observe des alternances de rayures verticales et horizontales, des damiers rouges et bleus, ainsi que des formes en « U » inversé rappelant des portiques. La palette chromatique est dominée par des tons de terre, d'ocre et de brun, qui confèrent à l'ensemble une certaine stabilité, tandis que des accents de bleu ciel, de vert amande et de violet apportent une légèreté bienvenue à cette mosaïque abstraite.</p><p>La profondeur est suggérée non par la perspective traditionnelle, mais par le chevauchement des plans colorés et la variation des intensités lumineuses. Certaines zones présentent une texture plus granuleuse, révélant la trame de la toile, ce qui souligne la matérialité de l'objet d'art. En bas à gauche, la signature discrète de l'artiste sous forme de monogramme s'intègre parfaitement à la structure géométrique. <em>Compensation rose</em> illustre la quête de Kandinsky pour une harmonie spirituelle et mathématique, où la couleur « compense » la rigueur de la forme pour créer une résonance intérieure, propre à sa théorie de la synesthésie.</p>",
+    "narrative": "<p>Cette œuvre intitulée <em>Compensation rose</em>, peinte par Vassily Kandinsky en 1933 et conservée au Musée d'arts de Nantes, marque une étape charnière dans la vie de l'artiste : celle de son départ d'Allemagne pour la France suite à la fermeture du Bauhaus. La composition se présente comme une grille complexe et rythmée, où s'imbriquent des formes géométriques rigoureuses — rectangles, carrés et trapèzes — créant une structure presque architecturale. Contrairement aux explosions lyriques de ses premières abstractions, Kandinsky privilégie ici une organisation spatiale compartimentée, où chaque micro-structure semble posséder sa propre logique interne tout en participant à l'équilibre global de la toile.</p><p>Le titre attire l'attention sur l'élément central du tableau : un carré d'un rose vif et saturé qui semble agir comme le cœur énergétique ou le pivot de la composition. Autour de lui, une multitude de motifs graphiques se déploient, tels des signes d'un alphabet mystérieux ou des partitions musicales visuelles. On observe des alternances de rayures verticales et horizontales, des damiers rouges et bleus, ainsi que des formes en « U » inversé rappelant des portiques. La palette chromatique est dominée par des tons de terre, d'ocre et de brun, qui confèrent à l'ensemble une certaine stabilité, tandis que des accents de bleu ciel, de vert amande et de violet apportent une légèreté bienvenue à cette mosaïque abstraite.</p><p>La profondeur est suggérée non par la perspective traditionnelle, mais par le chevauchement des plans colorés et la variation des intensités lumineuses. Certaines zones présentent une texture plus granuleuse, révélant la trame de la toile, ce qui souligne la matérialité de l'objet d'art. En bas à gauche, la signature discrète de l'artiste sous forme de monogramme s'intègre parfaitement à la structure géométrique. <em>Compensation rose</em> illustre la quête de Kandinsky pour une harmonie spirituelle et mathématique, où la couleur « compense » la rigueur de la forme pour créer une résonance intérieure, propre à sa théorie de la synesthésie.</p>",
+    "contemporaryArt": {
+      "title": "1933 • La Fin du Bauhaus & Le Départ pour Paris",
+      "events": [
+        "Janvier 1933 : Nomination d'Adolf Hitler au poste de chancelier d'Allemagne.",
+        "Avril 1933 : La police et les SA encerclent le Bauhaus de Berlin-Steglitz ; Ludwig Mies van der Rohe et les maîtres votent sa dissolution en juillet.",
+        "Décembre 1933 : Wassily et Nina Kandinsky quittent l'Allemagne et s'installent à Neuilly-sur-Seine en France."
+      ]
+    }
+  },
+  {
+    "id": "kandinsky_molle_rudesse_nantes_1933",
+    "artistId": "kandinsky",
+    "artist": "Kandinsky Vassily",
+    "artistSort": "Kandinsky Vassily",
+    "civId": "occident",
+    "periodId": "occ_xxe_moderne",
+    "civName": "Occident : Art Moderne & Abstraction",
+    "civilization": "Russie / Allemagne / France",
+    "subpart": "L'ultime année en Allemagne, la fermeture du Bauhaus et l'exil vers la France",
+    "title": "Molle rudesse",
+    "date": "1933",
+    "dateDisplay": "1933",
+    "century": "XXe siècle",
+    "centuryDisplay": "XXe s. (1933)",
+    "centuryNumeric": 1933,
+    "period": "XXe siècle",
+    "domain": "peinture",
+    "type": "Peinture",
+    "artifactType": "Peinture à l'huile sur carton",
+    "category": "Abstraction géométrique et texturée à l'huile sur carton",
+    "medium": "Huile sur carton",
+    "dimensions": {
+      "h": 100,
+      "w": 80,
+      "display": "100 × 80 cm"
+    },
+    "location": "Musée d'arts de Nantes",
+    "currentLocation": "Musée d'arts de Nantes",
+    "site": "Musée d'arts de Nantes (Nantes, France)",
+    "originSite": "Berlin (Allemagne)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczNKkIbg-nU8ayuw_oUyPTGhEssyVm2utrnLwTu_gdnUrQ6xfcmJCOsbYD11vhWO9MQeE7ppge7o1TTqSdHdyUeibFBW3S7Nc2Btqh_PmMre1p55YGp6LRAzTObRRmAL_DiWk29vAII682ByLZ3H0Wd7ag=w1681-h2264-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczNKkIbg-nU8ayuw_oUyPTGhEssyVm2utrnLwTu_gdnUrQ6xfcmJCOsbYD11vhWO9MQeE7ppge7o1TTqSdHdyUeibFBW3S7Nc2Btqh_PmMre1p55YGp6LRAzTObRRmAL_DiWk29vAII682ByLZ3H0Wd7ag=w1681-h2264-s-no-gm?authuser=0",
+    "chips": [
+      "XXe s.",
+      "1933",
+      "Kandinsky",
+      "Bauhaus Berlin",
+      "Molle rudesse",
+      "Musée d'arts de Nantes"
+    ],
+    "themes": [
+      "surrealisme_onirisme"
+    ],
+    "subthemes": [
+      "abstraction_matiere"
+    ],
+    "desc": "<p>Cette œuvre intitulée <em>Molle rudesse</em>, peinte par Vassily Kandinsky en 1933 et conservée au Musée d’arts de Nantes, est une réalisation majeure de sa dernière année passée en Allemagne, juste avant son exil définitif vers la France. Le titre oxymorique reflète parfaitement la dualité esthétique que l'artiste explore ici : l'opposition entre la douceur des teintes et la rugosité de la matière. Le fond, d'un brun terreux et profond, présente une texture granuleuse et mouchetée qui évoque une paroi murale ou une surface organique oxydée, s'éloignant des aplats lisses pour embrasser une matérialité tactile presque primitive.</p><p>La composition s'articule autour de deux grandes masses rectangulaires dominantes qui semblent s'affronter et se compléter au centre de la toile. À gauche, une forme blanche à la surface irrégulière accueille des signes noirs horizontaux et une petite sphère rouge suspendue à une ligne fine, rappelant un instrument de mesure ou un élément de ponctuation musicale. À droite, un large rectangle rose poudré, dont le bord gauche est découpé en dents de scie, introduit une tension dynamique. Cette forme est ornée de trois petits carrés violets alignés et de barres horizontales brunes, créant un rythme interne qui évoque une écriture idéogrammatique ou une architecture simplifiée.</p><p>L'équilibre de l'œuvre repose sur le contraste entre ces blocs clairs et le fond sombre, ainsi que sur l'insertion de formes secondaires comme le rectangle vertical gris anthracite à l'arrière-plan ou les petits éléments géométriques roses qui gravitent autour des masses principales. Chaque zone de couleur est traitée avec des nuances et des épaisseurs de peinture variables, renforçant cette sensation de « rudesse » matérielle. Par cette économie de formes et cette richesse de textures, Kandinsky parvient à une synthèse où la rigueur géométrique du Bauhaus se charge d'une sensibilité nouvelle, annonçant les formes plus biomorphiques et libres de sa période parisienne.</p>",
+    "narrative": "<p>Cette œuvre intitulée <em>Molle rudesse</em>, peinte par Vassily Kandinsky en 1933 et conservée au Musée d’arts de Nantes, est une réalisation majeure de sa dernière année passée en Allemagne, juste avant son exil définitif vers la France. Le titre oxymorique reflète parfaitement la dualité esthétique que l'artiste explore ici : l'opposition entre la douceur des teintes et la rugosité de la matière. Le fond, d'un brun terreux et profond, présente une texture granuleuse et mouchetée qui évoque une paroi murale ou une surface organique oxydée, s'éloignant des aplats lisses pour embrasser une matérialité tactile presque primitive.</p><p>La composition s'articule autour de deux grandes masses rectangulaires dominantes qui semblent s'affronter et se compléter au centre de la toile. À gauche, une forme blanche à la surface irrégulière accueille des signes noirs horizontaux et une petite sphère rouge suspendue à une ligne fine, rappelant un instrument de mesure ou un élément de ponctuation musicale. À droite, un large rectangle rose poudré, dont le bord gauche est découpé en dents de scie, introduit une tension dynamique. Cette forme est ornée de trois petits carrés violets alignés et de barres horizontales brunes, créant un rythme interne qui évoque une écriture idéogrammatique ou une architecture simplifiée.</p><p>L'équilibre de l'œuvre repose sur le contraste entre ces blocs clairs et le fond sombre, ainsi que sur l'insertion de formes secondaires comme le rectangle vertical gris anthracite à l'arrière-plan ou les petits éléments géométriques roses qui gravitent autour des masses principales. Chaque zone de couleur est traitée avec des nuances et des épaisseurs de peinture variables, renforçant cette sensation de « rudesse » matérielle. Par cette économie de formes et cette richesse de textures, Kandinsky parvient à une synthèse où la rigueur géométrique du Bauhaus se charge d'une sensibilité nouvelle, annonçant les formes plus biomorphiques et libres de sa période parisienne.</p>",
+    "contemporaryArt": {
+      "title": "1933 • Oxymores Visuels & Transition Biomorphe",
+      "events": [
+        "1933 : Peinte à Berlin dans les derniers mois avant la fermeture brutale du Bauhaus.",
+        "1934 : Arrivée à Paris ; Marcel Duchamp et Jean Arp accueillent chaleureusement Kandinsky dans les cercles d'avant-garde.",
+        "1939 : Kandinsky obtient la nationalité française."
+      ]
+    }
+  },
+  {
     "id": "jordaens_la_sainte_famille_1620_1628",
     "artistId": "jordaens",
     "artist": "Jordaens Jacob",

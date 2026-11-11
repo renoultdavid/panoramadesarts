@@ -675,6 +675,169 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
         }
       ]
     }
+  },
+  "kandinsky": {
+    "id": "kandinsky",
+    "name": "Kandinsky Vassily",
+    "sortName": "Kandinsky Vassily",
+    "sortLetter": "K",
+    "dates": "1866 – 1944",
+    "movement": "Art abstrait, Abstraction lyrique, Der Blaue Reiter & Bauhaus",
+    "nationality": "Russe (naturalisé allemand puis français)",
+    "techniques": "Huile sur toile, huile sur carton, détrempe, aquarelle, gouache, gravure sur bois",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczMTYRJVhhoKUW-nO90_10fnwOCiq1PwKSZGOTC3mh7VIPZ-3hLHaqjqCvXi18CToJzSX1iRbIO0pWdK2-Xcokm060iBfAmKgLrgeu08-XF49QNRF-z25Kkrbz0dkx5qxyb3wCfdtlyRsFJwMoEFHD9fAg=w1681-h713-s-no-gm?authuser=0",
+    "portraitImg": "https://lh3.googleusercontent.com/pw/AP1GczMjKPk5w6FGLev8UJ_f2tQNsL8xpDvJWNe3tWKSzN8Jz_1WV039gkFiD0KXWGHvMijY_jnkPJvj1ug-14YyHd1U0PBTzbo8PnSbMoW-_v2N8Un3WbNvFa8rTGI6LGd6uTPrO-K0-Lb_x_5RmduMr_--Eg=w1681-h1615-s-no-gm?authuser=0",
+    "bio": `
+      <p><strong>Pionnier universel de l'art abstrait et de la nécessité intérieure</strong><br>
+      Wassily Kandinsky (1866 – 1944), peintre d'origine russe naturalisé allemand puis français, est considéré comme le principal pionnier de l'art abstrait en Occident. Juriste de formation, il délaisse une carrière universitaire pour la peinture après avoir été bouleversé par un tableau de Monet et un opéra de Wagner, entamant une quête spirituelle pour libérer la peinture de la représentation du monde physique.</p>
+      <p><strong>Synesthésie sonore, vibrations chromatiques et résonance de l'âme</strong><br>
+      Son genre pictural repose sur la synesthésie et la correspondance entre les sons et les couleurs. Pour Kandinsky, chaque couleur possède une résonance psychologique et chaque forme une direction intérieure. Son style se définit par l'utilisation de lignes, de points et de taches colorées agencés selon une « nécessité intérieure », visant à provoquer une émotion pure, semblable à celle ressentie à l'écoute d'une composition musicale sans paroles.</p>
+      <p><strong>Du lyrisme du Cavalier Bleu à la géométrie du Bauhaus et aux formes biomorphes</strong><br>
+      L'évolution de son style est une marche progressive vers le détachement total de la figure. L'Expressionnisme lyrique (Munich) : Au sein du groupe <em>Le Cavalier bleu</em> (<em>Der Blaue Reiter</em>), il peint d'abord des paysages aux couleurs fauves qui se simplifient jusqu'à l'abstraction. Ses premières « Improvisations » conservent des traces de silhouettes (chevaux, coupoles) noyées dans des explosions de couleurs vibrantes. La période Géométrique (Bauhaus) : Durant les années 1920, sous l'influence du constructivisme russe et de son enseignement au Bauhaus, son style devient plus rigoureux. Il privilégie alors les formes primaires (cercles, triangles, carrés) et les lignes droites, créant des compositions architecturales d'une grande précision mathématique. La période Biomorphe (Paris) : À la fin de sa vie, exilé en France, ses formes s'assouplissent. Il intègre des motifs organiques rappelant des micro-organismes, des amibes ou des embryons, utilisant une palette de couleurs plus douces et pastels, témoignant d'une vision plus apaisée et cosmique de l'univers.</p>
+    `,
+    "corpus": {
+      "total": 1160,
+      "seen": 12,
+      "paintingsCount": 1160,
+      "details": [
+        {
+          "label": "Peintures à l'huile (toile, carton, panneau — cat. Roethel & Benjamin)",
+          "count": 1160,
+          "icon": "🎨",
+          "color": "#d4af37",
+          "seen": 12
+        }
+      ],
+      "sourceTitle": "Catalogue raisonné Hans K. Roethel & Jean K. Benjamin (1982–1984)",
+      "sourceNotes": "L'inventaire scientifique mondial repose sur le monumental catalogue raisonné en deux volumes dressé par les historiens de l'art Hans K. Roethel et Jean K. Benjamin (Kandinsky : Catalogue Raisonné of the Oil-Paintings, 1982-1984). En excluant délibérément ses milliers d'aquarelles (qui ont fait l'objet d'un catalogue distinct par Vivian Endicott Barnett), ses gouaches et son œuvre gravé, leur répertoire fixe le corpus officiel de ses peintures (huiles sur toile, sur carton ou sur panneau) à environ 1 160 œuvres."
+    },
+    "biographyTimeline": {
+      "birth": {
+        "year": 1866,
+        "place": "Moscou (Empire russe)",
+        "title": "Naissance à Moscou & Formation juridique",
+        "desc": "Naît le 4 décembre 1866 à Moscou au sein d'une famille bourgeoise cultivée. Diplômé en droit et en économie politique à l'Université de Moscou, il refuse une chaire de professeur à Tartu pour se vouer à la peinture après le choc des Meules de Monet et de Lohengrin de Wagner."
+      },
+      "death": {
+        "year": 1944,
+        "place": "Neuilly-sur-Seine (France)",
+        "title": "Mort à Neuilly-sur-Seine & Triomphe de l'art abstrait",
+        "desc": "S'éteint le 13 décembre 1944 à 78 ans dans son atelier de Neuilly-sur-Seine. Son épouse Nina Kandinsky léguera l'inestimable fonds d'atelier au Musée national d'art moderne (Centre Pompidou) à Paris."
+      },
+      "periods": [
+        {
+          "title": "Munich, Le Cavalier Bleu & La Naissance de l'Abstraction Lyrique",
+          "years": "1896 – 1914",
+          "color": "#0284c7",
+          "summary": "Élève d'Anton Ažbe et de Franz von Stuck à Munich, il explore les paysages bavarois de Murnau avant de fonder Der Blaue Reiter et de signer la première aquarelle abstraite de l'histoire.",
+          "events": [
+            {
+              "year": 1911,
+              "title": "Fondation de Der Blaue Reiter (Le Cavalier Bleu) avec Franz Marc",
+              "desc": "Crée le groupe d'avant-garde à Munich et publie l'Almanach du Cavalier Bleu, célébrant les arts populaires, primitifs et l'expression spirituelle pure.",
+              "icon": "🐎"
+            },
+            {
+              "year": 1912,
+              "title": "Publication du traité fondateur « Du spirituel dans l'art »",
+              "desc": "Théorise la « nécessité intérieure », la synesthésie et la valeur psychologique des couleurs (le bleu mystique, le jaune matériel).",
+              "icon": "📖"
+            },
+            {
+              "year": 1913,
+              "title": "Improvisation rêvée (Munich, Pinakothek der Moderne)",
+              "desc": "Toile fondamentale marquant le basculement définitif vers l'abstraction : masses chromatiques en expansion et contrepoint de lignes musicales.",
+              "type": "masterpiece",
+              "artworkId": "kandinsky_improvisation_revee_munich_1913"
+            }
+          ]
+        },
+        {
+          "title": "L'Ère du Bauhaus : Weimar, Dessau & La Rigueur Géométrique",
+          "years": "1922 – 1932",
+          "color": "#d97706",
+          "summary": "Appelé par Walter Gropius au Bauhaus, Kandinsky structure sa vision abstraite au contact du constructivisme, théorisant le point, la ligne et le plan.",
+          "events": [
+            {
+              "year": 1922,
+              "title": "Installation au Bauhaus de Weimar & Trame noire",
+              "desc": "Rejoint Walter Gropius et Paul Klee au Bauhaus ; peint Trame noire où la géométrie d'un damier s'impose au milieu d'un cosmos fluide.",
+              "type": "masterpiece",
+              "artworkId": "kandinsky_trame_noire_nantes_1922"
+            },
+            {
+              "year": 1924,
+              "title": "Accords opposés & Fondation du groupe « Les Quatre Bleus »",
+              "desc": "Forme Die Blaue Vier avec Klee, Feininger et Jawlensky ; compose Accords opposés comme une symphonie de forces contraires.",
+              "type": "masterpiece",
+              "artworkId": "kandinsky_accords_opposes_nantes_1924"
+            },
+            {
+              "year": 1926,
+              "title": "Publication du traité « Point et ligne sur plan »",
+              "desc": "Publié dans la collection des livres du Bauhaus à Dessau, ce traité codifie la grammaire géométrique et rythmique de la forme abstraite.",
+              "icon": "📐"
+            },
+            {
+              "year": 1928,
+              "title": "Événement doux (Nantes, Musée d'arts)",
+              "desc": "Harmonie aérienne diurne sur fond bleu azur où flèches, damiers et courbes s'organisent en apesanteur.",
+              "type": "masterpiece",
+              "artworkId": "kandinsky_evenement_doux_nantes_1928"
+            },
+            {
+              "year": 1929,
+              "title": "Vers le bas & Huit fois (Nantes)",
+              "desc": "Compositions maîtresses de Dessau jouant sur la gravité inversée et la scansion sérielle de losanges comme des notes de musique.",
+              "type": "masterpiece",
+              "artworkId": "kandinsky_vers_le_bas_nantes_1929"
+            },
+            {
+              "year": 1930,
+              "title": "Treize rectangles & Vide vert (Nantes)",
+              "desc": "Dépouillement extrême et méditation spatiale sur la tension des aplats géométriques et la vibration méditative du vide.",
+              "type": "masterpiece",
+              "artworkId": "kandinsky_treize_rectangles_nantes_1930"
+            },
+            {
+              "year": 1931,
+              "title": "Dégagement ralenti & Fragile (Nantes)",
+              "desc": "Recherches sur fond sombre texturé et architectures suspendues en équilibre précaire au-dessus de l'abîme cosmique.",
+              "type": "masterpiece",
+              "artworkId": "kandinsky_degagement_ralenti_nantes_1931"
+            }
+          ]
+        },
+        {
+          "title": "Fermeture du Bauhaus, Exil Français & La Période Biomorphe",
+          "years": "1933 – 1944",
+          "color": "#dc2626",
+          "summary": "Fuyant le régime nazi qui ferme le Bauhaus et confisque ses toiles comme « art dégénéré », il s'installe à Paris et invente un univers organique apaisé.",
+          "events": [
+            {
+              "year": 1933,
+              "title": "Fermeture du Bauhaus à Berlin, Compensation rose & Molle rudesse",
+              "desc": "Dernières toiles magistrales peintes en Allemagne avant l'exil vers la France, conjuguant texture sablonneuse et tension rythmique.",
+              "type": "masterpiece",
+              "artworkId": "kandinsky_compensation_rose_nantes_1933"
+            },
+            {
+              "year": 1937,
+              "title": "57 œuvres confisquées dans les musées allemands pour l'exposition « Entartete Kunst »",
+              "desc": "Le régime hitlérien fustige l'abstraction de Kandinsky dans l'exposition munichoise de l'Art dégénéré ; plusieurs toiles majeures sont vendues aux enchères à Lucerne.",
+              "icon": "⚡"
+            },
+            {
+              "year": 1940,
+              "title": "Bleu de ciel & Le microcosme biomorphe de Neuilly",
+              "desc": "Sous l'Occupation, dans son appartement de Neuilly-sur-Seine, il peint sur des fonds pastel des myriades d'embryons et d'animalcules flottant dans l'éther cosmique.",
+              "type": "masterpiece",
+              "icon": "🌌"
+            }
+          ]
+        }
+      ]
+    }
   }
 });
 

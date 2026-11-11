@@ -1359,6 +1359,14 @@ window.MOVEMENTS_DATA = {
         "icon": "📐"
       },
       {
+        "name": "Wassily Kandinsky",
+        "dates": "1866 – 1944",
+        "role": "Maître de la forme et de la couleur au Bauhaus (Weimar et Dessau)",
+        "desc": "Auteur de Point et ligne sur plan (1926), il dirige l'atelier de peinture murale et explore la synthèse de la géométrie et de la résonance intérieure.",
+        "artistId": "kandinsky",
+        "icon": "🎨"
+      },
+      {
         "name": "Le Corbusier (Charles-Édouard Jeanneret)",
         "dates": "1887 – 1965",
         "role": "Père des Cinq points de l'architecture moderne et du Modulor",

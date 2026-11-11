@@ -1181,7 +1181,7 @@ const ART_MOVEMENTS = [
     yearEnd: 1975,
     tier: 1,
     color: "#10b981",
-    keyArtists: "Le Corbusier, Walter Gropius, Ludwig Mies van der Rohe, Frank Lloyd Wright",
+    keyArtists: "Walter Gropius, Wassily Kandinsky, Ludwig Mies van der Rohe, Le Corbusier, Frank Lloyd Wright",
     definition: "« La forme suit la fonction » : rejet de tout ornement superflu, plan libre, béton armé, pilotis et façades rideaux en verre qui ont redéfini l'urbanisme et l'habitat contemporain.",
     filterKeyword: "corbusier"
   },
