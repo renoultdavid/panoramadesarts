@@ -10251,3 +10251,9 @@ body {
   line-height: 1.28;
 }
 
+
+/* Filtre par thème et intitulé « Œuvres au catalogue » retirés : seules les options A, B, C subsistent */
+#artist-hero-collection-title,
+#artist-theme-filter-pills {
+  display: none !important;
+}

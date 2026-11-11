@@ -5459,6 +5459,17 @@ function renderArtistThemeFilterPills(artistRecord, themes, allArts) {
   const collectionTitle = document.getElementById('artist-hero-collection-title');
   if (!pillsBox) return;
 
+  // Le filtre par thème a été retiré de la galerie : seules les options A, B et C subsistent.
+  // L'Option C (Sujets & Thèmes) reste la seule entrée thématique.
+  if (collectionTitle) collectionTitle.style.display = 'none';
+  pillsBox.style.display = 'none';
+  pillsBox.innerHTML = '';
+  window.activeArtistThemeId = null;
+  window.activeArtistThemeSet = null;
+  window.activeArtistThemeLabel = '';
+  return;
+
+  // eslint-disable-next-line no-unreachable
   if (!themes || themes.length <= 1 || allArts.length < 3) {
     pillsBox.style.display = 'none';
     pillsBox.innerHTML = '';
@@ -5551,32 +5562,7 @@ function renderArtistThemesShowcase(artistRecord, themes, allArts) {
     titleWrap.appendChild(h4);
     titleWrap.appendChild(countSpan);
 
-    const btnFilter = document.createElement('button');
-    btnFilter.type = 'button';
-    btnFilter.className = 'btn-artist-theme-filter-all';
-    btnFilter.textContent = `Filtrer ces ${th.items.length} œuvres →`;
-
-    const activateThemeFilter = (e) => {
-      e.stopPropagation();
-      window.activeArtistThemeId = th.id;
-      window.activeArtistThemeSet = new Set(th.items.map(i => i.id));
-      window.activeArtistThemeLabel = th.title;
-      const btnDecades = document.getElementById('btn-mode-decades');
-      if (btnDecades) btnDecades.click();
-      const collectionTitle = document.getElementById('artist-hero-collection-title');
-      if (collectionTitle) {
-        collectionTitle.innerHTML = `<span>${th.icon} THÈME SÉLECTIONNÉ : ${escapeHtmlAttr(th.title.toUpperCase())} (${th.items.length} ŒUVRE${th.items.length > 1 ? 'S' : ''})</span>`;
-        collectionTitle.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      }
-      renderArtistThemeFilterPills(artistRecord, themes, allArts);
-      renderSearchGallery();
-    };
-
-    h4.onclick = activateThemeFilter;
-    btnFilter.onclick = activateThemeFilter;
-
     top.appendChild(titleWrap);
-    top.appendChild(btnFilter);
     block.appendChild(top);
 
     const samplesRow = document.createElement('div');
@@ -6075,7 +6061,9 @@ function openMonographForArtistRecord(artistRecord) {
     if (corpusDashboard) {
       if (artistRecord.corpus && artistRecord.corpus.total) {
         const totalCorpus = artistRecord.corpus.total;
-        const seenCorpus = artistRecord.corpus.seen !== undefined ? artistRecord.corpus.seen : 0;
+        const seenCorpus = artistRecord.corpus.seen !== undefined
+          ? artistRecord.corpus.seen
+          : getArtworksForArtistRecord(artistRecord, window.ART_OBJECTS || []).length;
         const percent = totalCorpus > 0 ? ((seenCorpus / totalCorpus) * 100).toFixed(1) : "0.0";
 
         if (corpusStatTotal) corpusStatTotal.textContent = `~ ${totalCorpus.toLocaleString('fr-FR')}`;
