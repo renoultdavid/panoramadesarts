@@ -7,6 +7,128 @@
 
 window.ART_OBJECTS = [
   {
+    "id": "klee_pleine_lune_munich_1919",
+    "artistId": "klee",
+    "artist": "Klee Paul",
+    "artistSort": "Klee Paul",
+    "civId": "occident",
+    "periodId": "occ_xxe_moderne",
+    "civName": "Occident : Art Moderne & Abstraction Poétique",
+    "civilization": "Allemagne / Suisse",
+    "subpart": "Période post-expressionniste et damier cosmique (1919)",
+    "title": "Pleine lune",
+    "date": "1919",
+    "dateDisplay": "1919",
+    "century": "XXe siècle",
+    "centuryDisplay": "XXe s. (1919)",
+    "centuryNumeric": 1919,
+    "period": "XXe siècle",
+    "domain": "peinture",
+    "type": "Peinture",
+    "artifactType": "Peinture à l'huile et plume sur carton préparé au plâtre",
+    "category": "Paysage poétique et damier abstrait sur carton",
+    "medium": "Huile et plume sur carton préparé au plâtre",
+    "dimensions": {
+      "h": 50,
+      "w": 40,
+      "display": "50 × 40 cm"
+    },
+    "location": "Pinakothek der Moderne, Munich",
+    "currentLocation": "Pinakothek der Moderne, Munich",
+    "site": "Pinakothek der Moderne (Munich, Allemagne)",
+    "originSite": "Munich (Allemagne)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczN6fiLFJxDFOguyScuNm7rif4szQZVUFjpAlW_N1D7CuXzWKe2rbT8F03LULlUK0h-CylhwQB44hFrVfuxOunb4rb1gjBqw3hRQBEiHxU_4wObI14humnbIyTCGCLDQKY_agzBnea_hOA3LrESHerxB5w=w1681-h2119-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczN6fiLFJxDFOguyScuNm7rif4szQZVUFjpAlW_N1D7CuXzWKe2rbT8F03LULlUK0h-CylhwQB44hFrVfuxOunb4rb1gjBqw3hRQBEiHxU_4wObI14humnbIyTCGCLDQKY_agzBnea_hOA3LrESHerxB5w=w1681-h2119-s-no-gm?authuser=0",
+    "chips": [
+      "XXe s.",
+      "1919",
+      "Paul Klee",
+      "Pleine lune",
+      "Paysage nocturne",
+      "Pinakothek der Moderne"
+    ],
+    "themes": [
+      "surrealisme_onirisme",
+      "paysages_nature"
+    ],
+    "subthemes": [
+      "onirisme_metamorphoses",
+      "abstraction_matiere",
+      "villes_architecture_piscines"
+    ],
+    "desc": "<p>Cette œuvre envoûtante de Paul Klee, conservée à la Pinakothek der Moderne de Munich, est un exemple emblématique de sa période post-expressionniste. Peinte en 1919, l'année où Klee commence à s'imposer comme une figure centrale de l'art moderne avant de rejoindre le Bauhaus, <em>Pleine lune</em> illustre sa capacité unique à mêler abstraction géométrique et poésie cosmique.</p><p>La toile se présente comme un damier de formes colorées qui s'imbriquent pour suggérer un paysage nocturne. Le tableau est dominé par un disque jaune éclatant, la pleine lune, qui semble irradier sur l'ensemble de la composition. Sa forme ronde et parfaite contraste avec les structures anguleuses qui l'entourent. Sous la lune, on devine des silhouettes de maisons, de clochers et de sapins stylisés. Klee utilise une perspective éclatée, typique de son approche influencée par le cubisme, où les objets sont réduits à leur essence graphique. La répétition de petits carrés et rectangles crée une vibration lumineuse qui évoque la réfraction de la lumière lunaire dans l'obscurité.</p><p>Klee déploie ici une palette d'une grande richesse chromatique, caractéristique de son travail sur la théorie des couleurs. Les rouges sombres, les violets profonds et les verts terreux dominent, créant une atmosphère de mystère et de recueillement. L'artiste applique la couleur avec une légèreté qui laisse transparaître les couches inférieures, donnant au tableau une profondeur presque spirituelle. Malgré le désordre apparent des formes, l'œuvre dégage une harmonie sereine, orchestrée par le placement stratégique de la lune qui agit comme un point d'ancrage visuel.</p><p><em>Pleine lune</em> est une œuvre charnière car elle montre comment Klee transforme la réalité en un système de signes personnels. Pour lui, peindre n'est pas « reproduire le visible », mais « rendre visible » les forces invisibles de la nature et de l'âme. Ce paysage n'est pas un lieu physique, mais un état d'esprit, une méditation sur l'univers. L'œuvre de Munich témoigne du génie d'un artiste qui a su créer un langage universel à partir d'une vision intime et poétique du monde.</p>",
+    "narrative": "<p>Cette œuvre envoûtante de Paul Klee, conservée à la Pinakothek der Moderne de Munich, est un exemple emblématique de sa période post-expressionniste. Peinte en 1919, l'année où Klee commence à s'imposer comme une figure centrale de l'art moderne avant de rejoindre le Bauhaus, <em>Pleine lune</em> illustre sa capacité unique à mêler abstraction géométrique et poésie cosmique.</p><p>La toile se présente comme un damier de formes colorées qui s'imbriquent pour suggérer un paysage nocturne. Le tableau est dominé par un disque jaune éclatant, la pleine lune, qui semble irradier sur l'ensemble de la composition. Sa forme ronde et parfaite contraste avec les structures anguleuses qui l'entourent. Sous la lune, on devine des silhouettes de maisons, de clochers et de sapins stylisés. Klee utilise une perspective éclatée, typique de son approche influencée par le cubisme, où les objets sont réduits à leur essence graphique. La répétition de petits carrés et rectangles crée une vibration lumineuse qui évoque la réfraction de la lumière lunaire dans l'obscurité.</p><p>Klee déploie ici une palette d'une grande richesse chromatique, caractéristique de son travail sur la théorie des couleurs. Les rouges sombres, les violets profonds et les verts terreux dominent, créant une atmosphère de mystère et de recueillement. L'artiste applique la couleur avec une légèreté qui laisse transparaître les couches inférieures, donnant au tableau une profondeur presque spirituelle. Malgré le désordre apparent des formes, l'œuvre dégage une harmonie sereine, orchestrée par le placement stratégique de la lune qui agit comme un point d'ancrage visuel.</p><p><em>Pleine lune</em> est une œuvre charnière car elle montre comment Klee transforme la réalité en un système de signes personnels. Pour lui, peindre n'est pas « reproduire le visible », mais « rendre visible » les forces invisibles de la nature et de l'âme. Ce paysage n'est pas un lieu physique, mais un état d'esprit, une méditation sur l'univers. L'œuvre de Munich témoigne du génie d'un artiste qui a su créer un langage universel à partir d'une vision intime et poétique du monde.</p>",
+    "contemporaryArt": {
+      "title": "1919 • La Révélation de Munich Avant le Bauhaus",
+      "events": [
+        "1919 : Signature du contrat avec le galeriste Hans Goltz à Munich qui consacre le triomphe critique de Paul Klee.",
+        "1919 : Walter Gropius fonde le Bauhaus à Weimar.",
+        "1920 : Klee publie sa célèbre profession de foi créatrice (Schöpferische Konfession) : « L'art ne reproduit pas le visible, il rend visible ».",
+        "1920 : Walter Gropius invite Paul Klee à rejoindre le corps professoral du Bauhaus."
+      ]
+    }
+  },
+  {
+    "id": "klein_triptyque_madrid_reina_sofia_1960",
+    "artistId": "klein",
+    "artist": "Klein Yves",
+    "artistSort": "Klein Yves",
+    "civId": "occident",
+    "periodId": "occ_xxe_moderne",
+    "civName": "Occident : Nouveau Réalisme & Art Conceptuel",
+    "civilization": "France",
+    "subpart": "La triade chromatique fondamentale : Bleu IKB, Rose et Or (1960)",
+    "title": "Triptyque (Bleu, Rose, Or)",
+    "date": "1960",
+    "dateDisplay": "vers 1960",
+    "century": "XXe siècle",
+    "centuryDisplay": "XXe s. (vers 1960)",
+    "centuryNumeric": 1960,
+    "period": "XXe siècle",
+    "domain": "peinture",
+    "type": "Peinture",
+    "artifactType": "Triptyque monochrome à l'IKB, pigment rose et feuille d'or",
+    "category": "Monochrome du Nouveau Réalisme en triptyque",
+    "medium": "Pigment pur et résine synthétique (IKB) sur toile, feuille d'or sur bois",
+    "dimensions": {
+      "h": 199,
+      "w": 459,
+      "display": "199 × 459 cm (trois panneaux)"
+    },
+    "location": "Museo Nacional Centro de Arte Reina Sofía, Madrid",
+    "currentLocation": "Museo Nacional Centro de Arte Reina Sofía, Madrid",
+    "site": "Museo Nacional Centro de Arte Reina Sofía (Madrid, Espagne)",
+    "originSite": "Paris (France)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczPn6FkTcx0tY5lb1WiCvNHT4ecKoPAeTU4sSv65pS_ygQ0yzaRkGIv9p5neuQQ2oxkEfzf943X1-MqamwyWC37DRqYzOnFoYa1hE9qbbROjV6fK0BgDWLQ53Zmd4fUGB9icBRIxy7KvJx8wkk0jhrZrzQ=w1681-h1121-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczPn6FkTcx0tY5lb1WiCvNHT4ecKoPAeTU4sSv65pS_ygQ0yzaRkGIv9p5neuQQ2oxkEfzf943X1-MqamwyWC37DRqYzOnFoYa1hE9qbbROjV6fK0BgDWLQ53Zmd4fUGB9icBRIxy7KvJx8wkk0jhrZrzQ=w1681-h1121-s-no-gm?authuser=0",
+    "chips": [
+      "XXe s.",
+      "1960",
+      "Yves Klein",
+      "Triptyque",
+      "IKB",
+      "Monochrome",
+      "Nouveau Réalisme",
+      "Reina Sofía Madrid"
+    ],
+    "themes": [
+      "surrealisme_onirisme"
+    ],
+    "subthemes": [
+      "abstraction_matiere"
+    ],
+    "desc": "<p>Réalisé autour de 1960, ce triptyque d'Yves Klein est une œuvre emblématique du Nouveau Réalisme, conservée au Musée National Centre d'Art Reina Sofía à Madrid. À travers ces trois panneaux, Klein pousse à son paroxysme la quête du « vide » et de la « pureté » picturale en se libérant totalement de la ligne, du dessin et de la représentation figurative. L'artiste français ne cherche pas ici à peindre un sujet, mais à présenter la couleur comme une force autonome, une présence vibrante capable d'engager le spectateur dans une expérience spirituelle et sensorielle totale.</p><p>Le triptyque repose sur la triade chromatique fondamentale de l'univers de Klein : le bleu, le rose (ou rouge) et l'or. À gauche, on retrouve le célèbre International Klein Blue (IKB), un bleu outremer d'une profondeur hypnotique dont Klein a breveté la formule chimique. Au centre, un panneau d'un rouge vibrant évoque la chair, le sang ou le feu, tandis qu'à droite, le panneau doré (souvent réalisé à la feuille d'or) symbolise l'immatérialité et le sacré. La texture de chaque panneau est travaillée avec soin ; loin d'être parfaitement lisse, elle présente des irrégularités, des grains et des reliefs qui captent la lumière de manière changeante, donnant à l'œuvre une dimension presque tactile.</p><p>L'intérêt majeur de cette disposition réside dans le dialogue entre les trois panneaux et l'espace qui les sépare. Pour Klein, la couleur est un champ d'énergie qui se propage au-delà des limites physiques du cadre. En présentant ces trois monocolores côte à côte, il crée un rythme visuel qui alterne entre la profondeur infinie du bleu, la vitalité terrestre du rouge et l'éclat métaphysique de l'or. Cette structure en triptyque, héritée de la tradition religieuse médiévale et de la Renaissance, réinvestit le format sacré pour célébrer une modernité où la sensibilité pure remplace l'image pieuse.</p><p>Yves Klein considérait ses monocolores comme des fenêtres ouvertes sur l'invisible. En supprimant tout obstacle narratif, il force le spectateur à se confronter à l'immensité de sa propre perception. Cette œuvre du Reina Sofía illustre parfaitement sa volonté de « libérer la couleur de la prison de la ligne ». Par leur simplicité apparente, ces trois panneaux constituent l'une des réflexions les plus radicales de l'art du XXe siècle sur la nature de la peinture et la capacité de l'art à transcender la matière pour atteindre l'absolu.</p>",
+    "narrative": "<p>Réalisé autour de 1960, ce triptyque d'Yves Klein est une œuvre emblématique du Nouveau Réalisme, conservée au Musée National Centre d'Art Reina Sofía à Madrid. À travers ces trois panneaux, Klein pousse à son paroxysme la quête du « vide » et de la « pureté » picturale en se libérant totalement de la ligne, du dessin et de la représentation figurative. L'artiste français ne cherche pas ici à peindre un sujet, mais à présenter la couleur comme une force autonome, une présence vibrante capable d'engager le spectateur dans une expérience spirituelle et sensorielle totale.</p><p>Le triptyque repose sur la triade chromatique fondamentale de l'univers de Klein : le bleu, le rose (ou rouge) et l'or. À gauche, on retrouve le célèbre International Klein Blue (IKB), un bleu outremer d'une profondeur hypnotique dont Klein a breveté la formule chimique. Au centre, un panneau d'un rouge vibrant évoque la chair, le sang ou le feu, tandis qu'à droite, le panneau doré (souvent réalisé à la feuille d'or) symbolise l'immatérialité et le sacré. La texture de chaque panneau est travaillée avec soin ; loin d'être parfaitement lisse, elle présente des irrégularités, des grains et des reliefs qui captent la lumière de manière changeante, donnant à l'œuvre une dimension presque tactile.</p><p>L'intérêt majeur de cette disposition réside dans le dialogue entre les trois panneaux et l'espace qui les sépare. Pour Klein, la couleur est un champ d'énergie qui se propage au-delà des limites physiques du cadre. En présentant ces trois monocolores côte à côte, il crée un rythme visuel qui alterne entre la profondeur infinie du bleu, la vitalité terrestre du rouge et l'éclat métaphysique de l'or. Cette structure en triptyque, héritée de la tradition religieuse médiévale et de la Renaissance, réinvestit le format sacré pour célébrer une modernité où la sensibilité pure remplace l'image pieuse.</p><p>Yves Klein considérait ses monocolores comme des fenêtres ouvertes sur l'invisible. En supprimant tout obstacle narratif, il force le spectateur à se confronter à l'immensité de sa propre perception. Cette œuvre du Reina Sofía illustre parfaitement sa volonté de « libérer la couleur de la prison de la ligne ». Par leur simplicité apparente, ces trois panneaux constituent l'une des réflexions les plus radicales de l'art du XXe siècle sur la nature de la peinture et la capacité de l'art à transcender la matière pour atteindre l'absolu.</p>",
+    "contemporaryArt": {
+      "title": "1960 • La Triade Cosmique & Le Nouveau Réalisme",
+      "events": [
+        "1960 : Déclaration constitutive du Nouveau Réalisme à Paris rédigée par Pierre Restany et signée par Yves Klein et ses confrères.",
+        "1960 : Création des premières Anthropométries publiques et de la célèbre triade Bleu-Rose-Or.",
+        "1961 : Grande rétrospective Monochrome und Feuer à Krefeld (Allemagne), seule grande exposition muséale du vivant de l'artiste."
+      ]
+    }
+  },
+  {
     "id": "kandinsky_improvisation_revee_munich_1913",
     "artistId": "kandinsky",
     "artist": "Kandinsky Vassily",

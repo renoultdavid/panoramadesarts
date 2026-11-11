@@ -838,6 +838,280 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
         }
       ]
     }
+  },
+  "klee": {
+    "id": "klee",
+    "name": "Klee Paul",
+    "sortName": "Klee Paul",
+    "sortLetter": "K",
+    "dates": "1879 – 1940",
+    "movement": "Art moderne, Der Blaue Reiter, Bauhaus & Abstraction poétique",
+    "nationality": "Germano-suisse",
+    "techniques": "Huile sur toile, huile et plume sur carton préparé au plâtre, aquarelle, détrempe, gouache, gravure",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczMMQ4YxHxLmYgc_vWS1pPwmHUnvahXylMtMww3rUvrgRiJWGto55U0qAiZ3Lfh289HSICVxZ2-fRFqklvRfsk9aYIpDQUclrG_FtEzIegPSRxoTUchB5g034rGsFZ3wBp9T3RyxUB32R1Dt5Fy6QkDx5A=w1681-h713-s-no-gm?authuser=0",
+    "portraitImg": "https://lh3.googleusercontent.com/pw/AP1GczN6fiLFJxDFOguyScuNm7rif4szQZVUFjpAlW_N1D7CuXzWKe2rbT8F03LULlUK0h-CylhwQB44hFrVfuxOunb4rb1gjBqw3hRQBEiHxU_4wObI14humnbIyTCGCLDQKY_agzBnea_hOA3LrESHerxB5w=w1681-h2119-s-no-gm?authuser=0",
+    "bio": `
+      <p><strong>Le maître de la ligne poétique et de l'imaginaire cosmique</strong><br>
+      Paul Klee (1879 – 1940), artiste germano-suisse, est l'un des théoriciens et créateurs les plus inventifs du XXe siècle. Musicien de formation et membre éminent du mouvement <em>Der Blaue Reiter</em> (Le Cavalier bleu), il a enseigné au Bauhaus, où il a développé une réflexion profonde sur la ligne et la couleur. Son œuvre, inclassable, navigue entre l'abstraction et une figuration poétique teintée d'humour.</p>
+      <p><strong>Rendre visible l'invisible : rigueur mathématique et improvisation psychique</strong><br>
+      Son genre pictural est celui de l'improvisation psychique et de la rigueur mathématique. Pour Klee, « l'art ne reproduit pas le visible, il rend visible ». Son style se caractérise par une économie de moyens, l'utilisation de signes graphiques (flèches, lettres, notes de musique) et une maîtrise absolue des dégradés de couleurs. Ses tableaux, souvent de petit format, sont de véritables microcosmes où la géométrie rencontre le rêve.</p>
+      <p><strong>De la révélation tunisienne aux hiéroglyphes tragiques du style tardif</strong><br>
+      L'évolution de son style est une quête de l'essentiel, marquée par ses voyages et ses recherches théoriques. La révélation de la couleur : Son voyage en Tunisie en 1914 marque un tournant définitif. Il déclare : « La couleur me possède. Je suis peintre ». Il abandonne alors le noir et blanc pour des compositions en damiers colorés. L'enseignement au Bauhaus : Durant les années 1920, son style devient plus structurel. Il explore les rythmes optiques, les superpositions de plans et les constructions architecturales, tout en gardant une légèreté ludique. Le style tardif et hiéroglyphique : À la fin de sa vie, alors qu'il est atteint d'une maladie dégénérative et exilé en Suisse, sa manière change radicalement. Ses traits deviennent larges, noirs et rugueux, ressemblant à des idéogrammes ou des runes. Ses compositions se simplifient à l'extrême, dégageant une puissance tragique et spirituelle nouvelle.</p>
+    `,
+    "corpus": {
+      "total": 900,
+      "seen": 1,
+      "paintingsCount": 900,
+      "details": [
+        {
+          "label": "Peintures majeures (Tafelbilder & techniques mixtes — Zentrum Paul Klee)",
+          "count": 900,
+          "icon": "🎨",
+          "color": "#d4af37",
+          "seen": 1
+        }
+      ],
+      "sourceTitle": "Catalogue Raisonné Paul Klee Foundation (Zentrum Paul Klee, Berne, 1998–2004)",
+      "sourceNotes": "L'inventaire de référence mondiale repose sur deux socles : le propre Œuvre-Katalog manuscrit minutieusement tenu par l'artiste dès 1911, et le monumental Catalogue Raisonné en 9 volumes édité par la Fondation Paul Klee (Zentrum Paul Klee à Berne). Si ce catalogue exhaustif recense environ 9 600 œuvres (en incluant dessins, croquis et gravures), le consensus scientifique isole strictement environ 900 peintures sur panneau, sur toile (Tafelbilder) et techniques mixtes achevées."
+    },
+    "biographyTimeline": {
+      "birth": {
+        "year": 1879,
+        "place": "Münchenbuchsee (près de Berne, Suisse)",
+        "title": "Naissance dans une famille de musiciens à Berne",
+        "desc": "Naît le 18 décembre 1879 près de Berne, fils d'un professeur de musique allemand et d'une cantatrice suisse. Violoniste prodige, il choisit les beaux-arts et part étudier à Munich auprès de Franz von Stuck."
+      },
+      "death": {
+        "year": 1940,
+        "place": "Muralto-Locarno (canton du Tessin, Suisse)",
+        "title": "Mort en exil suisse & Postérité du Zentrum Paul Klee",
+        "desc": "S'éteint le 29 juin 1940 à 60 ans des suites de la sclérodermie. Ses chefs-d'œuvre et archives d'atelier sont aujourd'hui rassemblés au Zentrum Paul Klee de Berne, conçu par l'architecte Renzo Piano."
+      },
+      "periods": [
+        {
+          "title": "Munich, Le Cavalier Bleu & Le Voyage Fondateur en Tunisie",
+          "years": "1900 – 1920",
+          "color": "#0284c7",
+          "summary": "D'abord dessinateur et graveur satirique, il rejoint Kandinsky et Macke au sein du Blaue Reiter avant d'avoir l'éblouissement de la lumière et de la couleur à Kairouan en 1914.",
+          "events": [
+            {
+              "year": 1911,
+              "title": "Rencontre de Kandinsky et adhésion au Blaue Reiter",
+              "desc": "Se lie d'amitié avec Vassily Kandinsky et Franz Marc à Munich, participant aux expositions d'avant-garde du Cavalier Bleu.",
+              "type": "peer",
+              "linkedArtist": "Kandinsky Vassily"
+            },
+            {
+              "year": 1914,
+              "title": "Voyage initiatique en Tunisie avec August Macke",
+              "desc": "Ébloui par la lumière de Tunis, Hammamet et Kairouan, il écrit dans son journal : « La couleur me possède. Je suis peintre ».",
+              "icon": "☀️"
+            },
+            {
+              "year": 1919,
+              "title": "Pleine lune (Munich, Pinakothek der Moderne)",
+              "desc": "Chef-d'œuvre de damier poétique où la lune irradie au-dessus d'un paysage nocturne fragmenté de clochers et de toits.",
+              "type": "masterpiece",
+              "artworkId": "klee_pleine_lune_munich_1919"
+            }
+          ]
+        },
+        {
+          "title": "L'Ère du Bauhaus : Weimar, Dessau & La Pédagogie de la Forme",
+          "years": "1921 – 1931",
+          "color": "#d97706",
+          "summary": "Nommé maître au Bauhaus par Walter Gropius, il théorise la mécanique picturale dans ses cours célèbres et déploie des architectures polychromes d'une virtuosité sans égale.",
+          "events": [
+            {
+              "year": 1921,
+              "title": "Nomination comme maître au Bauhaus de Weimar",
+              "desc": "Prend en charge l'atelier de reliure puis de vitrail et de peinture murale ; il dispense ses cours d'analyse de la forme (Beiträge zur bildnerischen Formlehre).",
+              "icon": "🏛️"
+            },
+            {
+              "year": 1924,
+              "title": "Fondation de Die Blaue Vier avec Kandinsky, Feininger et Jawlensky",
+              "desc": "Expose aux États-Unis avec ses confrères du Bauhaus sous la bannière des Quatre Bleus.",
+              "type": "peer",
+              "linkedArtist": "Kandinsky Vassily"
+            },
+            {
+              "year": 1925,
+              "title": "Publication des « Carnets d'esquisses pédagogiques » (Pädagogisches Skizzenbuch)",
+              "desc": "Deuxième volume de la collection des livres du Bauhaus, codifiant la dynamique de la ligne, du point et des forces gravitationnelles.",
+              "icon": "📐"
+            }
+          ]
+        },
+        {
+          "title": "La Persécution Nazie, L'Exil à Berne & Les Signes du Destin",
+          "years": "1932 – 1940",
+          "color": "#dc2626",
+          "summary": "Chassé de l'Académie de Düsseldorf par les nazis, il se réfugie en Suisse et peint avec une frénésie héroïque des toiles aux traits noirs épais hantées par la maladie et la guerre.",
+          "events": [
+            {
+              "year": 1933,
+              "title": "Destitution par le régime nazi & Exil en Suisse",
+              "desc": "Qualifié d'artiste « judéo-marxiste dégénéré », son atelier est perquisitionné par la Gestapo ; il quitte l'Allemagne pour s'installer à Berne.",
+              "icon": "⚡"
+            },
+            {
+              "year": 1937,
+              "title": "102 œuvres de Klee confisquées pour l'exposition « Entartete Kunst »",
+              "desc": "Visite de Picasso et de Braque dans son atelier bernois ; les autorités nazies retirent toutes ses œuvres des musées allemands.",
+              "type": "peer",
+              "linkedArtist": "Picasso Pablo"
+            },
+            {
+              "year": 1940,
+              "title": "Nature morte (Le Crépuscule et les Anges)",
+              "desc": "Au cours de sa dernière année, il réalise plus de 1 200 œuvres, dont ses célèbres figures d'anges énigmatiques (Angelus Novus) et de visages hiéroglyphiques.",
+              "type": "masterpiece",
+              "icon": "👼"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "klein": {
+    "id": "klein",
+    "name": "Klein Yves",
+    "sortName": "Klein Yves",
+    "sortLetter": "K",
+    "dates": "1928 – 1962",
+    "movement": "Nouveau Réalisme, Monochrome, Art Conceptuel & Performance",
+    "nationality": "Français",
+    "techniques": "Pigment pur et résine synthétique (IKB) sur toile, éponge et plâtre, feuille d'or sur bois, empreintes corporelles (anthropométries), feu sur carton",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczNYJDjE-SPqICummnWrYk1DJagjtxJl7wgldjGxIxoIOhGJJZmayHM6190VJ6-ywzIFfv7_Fs3vxu_FUpIS5-wRVwVr9_2HTUID_qK0jkm7Bj03QuxGsAnQWWLWfcL3t8oINo13uxj-XziAd7LC4e0EFA=w1681-h713-s-no-gm?authuser=0",
+    "portraitImg": "https://lh3.googleusercontent.com/pw/AP1GczPn6FkTcx0tY5lb1WiCvNHT4ecKoPAeTU4sSv65pS_ygQ0yzaRkGIv9p5neuQQ2oxkEfzf943X1-MqamwyWC37DRqYzOnFoYa1hE9qbbROjV6fK0BgDWLQ53Zmd4fUGB9icBRIxy7KvJx8wkk0jhrZrzQ=w1681-h1121-s-no-gm?authuser=0",
+    "bio": `
+      <p><strong>La fulgurance du Nouveau Réalisme et la capture de la sensibilité pure</strong><br>
+      Yves Klein (1928 – 1962) est l'une des figures les plus fulgurantes de l'art du XXe siècle et le principal représentant du Nouveau Réalisme. Pour Klein, l'art ne consiste pas à représenter le monde, mais à capturer la « sensibilité picturale » à l'état pur. Il a cherché à libérer la couleur de la forme pour atteindre l'immatériel, transformant l'acte artistique en une quête spirituelle et spectaculaire.</p>
+      <p><strong>L'International Klein Blue, le vide énergétique et la vibration du pigment</strong><br>
+      Son genre pictural se définit par le monochrome, la performance et l'art conceptuel. Son style se caractérise par l'invention du célèbre IKB (<em>International Klein Blue</em>), un bleu outremer profond et mat dont il a fait sa signature. Il utilise la couleur comme un vide chargé d'énergie, supprimant toute trace de pinceau pour que le spectateur soit littéralement absorbé par la vibration du pigment.</p>
+      <p><strong>De l'Époque bleue aux Anthropométries et aux Cosmogonies de l'immatériel</strong><br>
+      L'évolution de son style marque une dématérialisation progressive de l'objet d'art. L'époque bleue et le Monochrome (années 1950) : Après avoir exploré d'autres couleurs, il se concentre sur le bleu. Son style est alors d'une radicalité totale : des toiles uniformes qui ne sont plus des fenêtres sur le monde, mais des « champs de force » de pure sensibilité. Les Anthropométries (1960) : Il réintroduit la figure humaine de manière révolutionnaire. Utilisant des femmes comme des « pinceaux vivants » qui s'enduisent de peinture bleue et s'impriment sur la toile, il crée des empreintes corporelles dynamiques, capturant le mouvement et la vie sans passer par la main de l'artiste. L'Immatériel et les Cosmogonies (fin de carrière) : À la fin de sa brève vie, il utilise les éléments naturels (le vent, la pluie, le feu) pour marquer ses toiles. Il pousse sa logique jusqu'au bout avec le <em>Saut dans le vide</em> ou la vente de <em>Zones de sensibilité picturale immatérielle</em>, où l'art n'existe plus que dans la pensée et l'espace.</p>
+    `,
+    "corpus": {
+      "total": 1077,
+      "seen": 1,
+      "paintingsCount": 1077,
+      "details": [
+        {
+          "label": "Œuvres picturales et plastiques uniques (Catalogue Paul Wember)",
+          "count": 1077,
+          "icon": "🎨",
+          "color": "#d4af37",
+          "seen": 1
+        }
+      ],
+      "sourceTitle": "Catalogue raisonné Paul Wember (Yves Klein: Monographies, Krefeld, 1969)",
+      "sourceNotes": "En regroupant toutes les pièces picturales et plastiques uniques (toiles, panneaux, reliefs et sculptures, que l'artiste codifiait lui-même avec des lettres et numéros), le catalogue de référence de Paul Wember fixe le corpus officiel à très exactement 1 077 œuvres."
+    },
+    "biographyTimeline": {
+      "birth": {
+        "year": 1928,
+        "place": "Nice (Alpes-Maritimes, France)",
+        "title": "Naissance à Nice dans une famille d'artistes",
+        "desc": "Naît le 28 avril 1928 à Nice, fils du peintre figuratif Fred Klein et de la peintre abstraite Marie Raymond. Dès sa jeunesse, il se lie avec Armand Fernandez (Arman) et le poète Claude Pascal, partageant le monde en trois : la terre à Arman, les mots à Pascal, et le ciel bleu à Klein."
+      },
+      "death": {
+        "year": 1962,
+        "place": "Paris (France)",
+        "title": "Mort fulgurante à 34 ans & Mythe solaire de l'immatériel",
+        "desc": "S'éteint le 6 juin 1962 à Paris, terrassé à seulement 34 ans par une crise cardiaque après avoir révolutionné l'art contemporain en moins d'une décennie. Il est inhumé au cimetière de La Colle-sur-Loup."
+      },
+      "periods": [
+        {
+          "title": "Judo au Japon, Rosicrucianisme & La Révélation du Monochrome",
+          "years": "1947 – 1956",
+          "color": "#0284c7",
+          "summary": "Ceinture noire 4e dan de judo au Kodokan de Tokyo et initié aux doctrines rosicruciennes, il peint ses premiers monochromes de différentes couleurs avant de vouer sa vie au bleu pur.",
+          "events": [
+            {
+              "year": 1952,
+              "title": "Séjour au Japon et maîtrise du Judo (4e Dan Kodokan)",
+              "desc": "Séjourne un an et demi à Tokyo, obtient son brevet de maître de judo au prestigieux institut Kodokan et publie Les Fondements du judo.",
+              "icon": "🥋"
+            },
+            {
+              "year": 1955,
+              "title": "Refus du Salon des Réalités Nouvelles à Paris",
+              "desc": "Son panneau monochrome orange (Expression de l'univers de la couleur plomb orange) est refusé par le jury qui lui demande d'ajouter au moins une ligne ou un point.",
+              "icon": "⚡"
+            },
+            {
+              "year": 1956,
+              "title": "Brevet de l'IKB (International Klein Blue)",
+              "desc": "Met au point avec le chimiste Édouard Adam une résine synthétique (Rhodopas M) qui préserve la luminescence mate et la vibration du pigment d'outremer pur sans l'altérer.",
+              "icon": "🧪"
+            }
+          ]
+        },
+        {
+          "title": "L'Époque Bleue, La Galerie Iris Clert & La Déclaration du Nouveau Réalisme",
+          "years": "1957 – 1960",
+          "color": "#2563eb",
+          "summary": "L'« Époque Bleue » embrase l'Europe ; Klein signe l'exposition du Vide chez Iris Clert et fonde le Nouveau Réalisme avec Pierre Restany, Arman et Tinguely.",
+          "events": [
+            {
+              "year": 1957,
+              "title": "Proclamation de l'Époque Bleue (Milan & Paris)",
+              "desc": "Expose onze toiles IKB identiques à la galerie Apollinaire de Milan : les toiles se vendent à des prix différents, prouvant que la valeur réside dans la sensibilité immatérielle.",
+              "icon": "🔷"
+            },
+            {
+              "year": 1958,
+              "title": "L'Exposition du « Vide » (La Spécialisation de la sensibilité)",
+              "desc": "Trois mille personnes se pressent à la galerie Iris Clert de Paris, entièrement repeinte en blanc et vidée de tout objet : Klein expose la sensibilité picturale à l'état brut.",
+              "icon": "🏛️"
+            },
+            {
+              "year": 1960,
+              "title": "Triptyque (Bleu, Rose, Or) (Madrid, Museo Reina Sofía)",
+              "desc": "Grand triptyque sacré orchestrant la triade fondamentale de l'artiste : l'IKB hypnotique, le rose charnel et la feuille d'or métaphysique.",
+              "type": "masterpiece",
+              "artworkId": "klein_triptyque_madrid_reina_sofia_1960"
+            },
+            {
+              "year": 1960,
+              "title": "Fondation du groupe des Nouveaux Réalistes",
+              "desc": "Signe le 27 octobre 1960 chez lui à Paris la déclaration constitutive du Nouveau Réalisme avec Pierre Restany, Arman, Hains, Raysse et Tinguely.",
+              "type": "peer",
+              "linkedArtist": "Arman"
+            }
+          ]
+        },
+        {
+          "title": "Les Anthropométries, Les Peintures de Feu & Le Saut dans le Vide",
+          "years": "1960 – 1962",
+          "color": "#dc2626",
+          "summary": "Il utilise le corps des modèles comme pinceaux vivants au son de sa Symphonie Monotone-Silence, défie la pesanteur et peint avec des lance-flammes industriels.",
+          "events": [
+            {
+              "year": 1960,
+              "title": "Performance des Anthropométries de l'Époque Bleue",
+              "desc": "Devant un public en habit de soirée à la galerie internationale d'art contemporain, trois modèles nus enduits de bleu s'impriment sur papier au son de sa Symphonie Monotone-Silence.",
+              "type": "masterpiece",
+              "icon": "💃"
+            },
+            {
+              "year": 1960,
+              "title": "Le Saut dans le vide (Fontenay-aux-Roses)",
+              "desc": "Photomontage historique publié dans le faux journal Dimanche 27 novembre 1960, où l'artiste s'élance les bras ouverts depuis le mur d'un pavillon.",
+              "icon": "🕊️"
+            },
+            {
+              "year": 1961,
+              "title": "Peintures de Feu au Centre d'essais du Gaz de France",
+              "desc": "Dirige un lance-flammes industriel crachant un feu de plusieurs mètres pour brûler le carton suédois ignifugé et capturer la trace incandescente de la combustion.",
+              "icon": "🔥"
+            }
+          ]
+        }
+      ]
+    }
   }
 });
 

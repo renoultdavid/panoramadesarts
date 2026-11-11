@@ -943,7 +943,7 @@ window.MOVEMENTS_DATA = {
         "dates": "1928 – 1962",
         "role": "Génie de l'immatériel et créateur du bleu IKB (International Klein Blue)",
         "desc": "Monochromes bleus, Anthropométries et Saut dans le vide.",
-        "artistId": "",
+        "artistId": "klein",
         "icon": "🔷"
       },
       {
@@ -1364,6 +1364,14 @@ window.MOVEMENTS_DATA = {
         "role": "Maître de la forme et de la couleur au Bauhaus (Weimar et Dessau)",
         "desc": "Auteur de Point et ligne sur plan (1926), il dirige l'atelier de peinture murale et explore la synthèse de la géométrie et de la résonance intérieure.",
         "artistId": "kandinsky",
+        "icon": "🎨"
+      },
+      {
+        "name": "Paul Klee",
+        "dates": "1879 – 1940",
+        "role": "Maître de la théorie picturale et poète de la ligne au Bauhaus",
+        "desc": "Auteur des Écrits sur l'art, il enseigne à Weimar et Dessau, alliant rigueur géométrique et rêverie cosmique.",
+        "artistId": "klee",
         "icon": "🎨"
       },
       {

@@ -1181,7 +1181,7 @@ const ART_MOVEMENTS = [
     yearEnd: 1975,
     tier: 1,
     color: "#10b981",
-    keyArtists: "Walter Gropius, Wassily Kandinsky, Ludwig Mies van der Rohe, Le Corbusier, Frank Lloyd Wright",
+    keyArtists: "Walter Gropius, Wassily Kandinsky, Paul Klee, Ludwig Mies van der Rohe, Le Corbusier, Frank Lloyd Wright",
     definition: "« La forme suit la fonction » : rejet de tout ornement superflu, plan libre, béton armé, pilotis et façades rideaux en verre qui ont redéfini l'urbanisme et l'habitat contemporain.",
     filterKeyword: "corbusier"
   },
@@ -2031,7 +2031,7 @@ const MODERN_MOVEMENTS_DATA = {
     artists: [
       { name: "Andy Warhol", dates: "1928 – 1987", role: "Pape du Pop Art & icône de la culture de masse", desc: "Désacralise l'unicité de l'œuvre d'art par la sérigraphie sérielle et érige la célébrité et la marchandise en nouveaux mythes.", artistId: "", icon: "🥫" },
       { name: "Roy Lichtenstein", dates: "1923 – 1997", role: "Détournement des comic books & points Ben-Day", desc: "Agrandit à l'échelle monumentale les vignettes de bande dessinée populaire avec leurs trames d'imprimerie.", artistId: "", icon: "💥" },
-      { name: "Yves Klein", dates: "1928 – 1962", role: "L'inventeur de l'IKB (Bleu Klein) & anthropométries", desc: "Pionnier du Nouveau Réalisme, il brevète son bleu outremer pur et utilise le corps de modèles nus comme pinceaux vivants.", artistId: "", icon: "🟦" },
+      { name: "Yves Klein", dates: "1928 – 1962", role: "L'inventeur de l'IKB (Bleu Klein) & anthropométries", desc: "Pionnier du Nouveau Réalisme, il brevète son bleu outremer pur et utilise le corps de modèles nus comme pinceaux vivants.", artistId: "klein", icon: "🟦" },
       { name: "Arman", dates: "1928 – 2005", role: "Accumulations d'objets & colères", desc: "Accumule en vitrines et résines des objets sériels du quotidien, témoin critique de la société d'abondance.", artistId: "arman", icon: "📦" }
     ],
     concurrentHtml: `
