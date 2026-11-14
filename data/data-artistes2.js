@@ -2127,6 +2127,243 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
         }
       ]
     }
+  },
+  "le_nain_louis": {
+    "id": "le_nain_louis",
+    "name": "Le Nain Louis",
+    "sortName": "Le Nain Louis",
+    "sortLetter": "L",
+    "dates": "v. 1593 – 1648",
+    "century": "XVIIe siècle",
+    "nationality": "Français",
+    "movement": "Réalisme classique & Scène de genre paysanne du Grand Siècle",
+    "techniques": "Huile sur toile, huile sur bois et sur cuivre",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczMXqgzPeN0pRh2M63yN9v1jADWl41GZWkXMMb20xtRau_0qJ6BoJpXUOPY2LyFHo6vzbLFDDyBg-ODO4l3uz1RJuyu7HYsuru7dUw6GcwWv_UZvVEjdxnhVPy_uvYHS3zk08Z4VF_f5m5rGQTL6NRMwCg=w2153-h913-s-no-gm?authuser=0",
+    "portraitImg": "",
+    "bio": `
+      <p><strong>Le maître de la dignité paysanne et de la vérité française</strong><br>
+      Louis Le Nain (v. 1593 – 1648) est le plus célèbre de la fratrie des trois frères Le Nain (avec Antoine et Mathieu). Redécouvert au XIXe siècle par Champfleury, il est devenu l'emblème d'une certaine "vérité" française en peinture. Contrairement aux scènes de genre flamandes souvent truculentes, Louis a apporté une dignité monumentale et un silence presque sacré à la représentation du monde paysan.</p>
+      <p><strong>Gravité, lumière claire et noblesse du regard</strong><br>
+      Son genre pictural se définit par le réalisme social et la scène de genre paysanne. Son style se caractérise par une palette de couleurs sobres (tons de terre, gris, bruns), une lumière claire et froide, et surtout une attitude particulière des personnages : ils ne sont pas représentés en train de travailler, mais souvent de face, immobiles, regardant le spectateur avec une gravité et une noblesse qui imposent le respect.</p>
+      <p><strong>Des Bamboccianti au réalisme monumental</strong><br>
+      L'évolution de son style, bien que difficile à distinguer précisément de celui de ses frères tant leurs mains se confondent, montre une maîtrise de l'espace et de la psychologie :<br>
+      <em>L'influence des Bamboccianti :</em> Bien qu'il n'ait probablement pas voyagé en Italie, son style s'inscrit dans le courant des peintres de la vie populaire romaine, mais il en évite la caricature pour privilégier une observation sincère.<br>
+      <em>Le réalisme monumental (années 1640) :</em> C'est l'apogée de son art avec des chefs-d'œuvre comme La Famille de paysans ou Le Repas des paysans. Les compositions sont simples, presque géométriques, conférant aux scènes quotidiennes la solennité d'une Cène biblique.<br>
+      <em>Le paysage et la lumière :</em> Dans ses œuvres de maturité, le paysage prend une place importante. Il peint la campagne française sous un ciel gris perle, avec une lumière diffuse qui unifie les figures et le décor dans une même atmosphère de recueillement.</p>
+    `,
+    "corpus": {
+      "total": 28,
+      "seen": 1,
+      "paintingsCount": 28,
+      "details": [
+        {
+          "label": "Grandes compositions autographes attribuées à Louis",
+          "count": 28,
+          "icon": "🎨",
+          "color": "#d4af37",
+          "seen": 1
+        }
+      ],
+      "sourceTitle": "Consensus critique et scientifique (Champfleury, Blunt, Rosenberg)",
+      "sourceNotes": "Si la production globale de l'atelier des trois frères culmine à environ 75 tableaux, la critique scientifique s'efforce d'isoler la main de Louis, universellement considéré comme le Titan de la fratrie. En écartant les petites scènes sur cuivre d'Antoine (le miniaturiste) et les portraits mondains ou militaires de Mathieu, le corpus des grandes compositions strictement attribuées à Louis Le Nain se fixe à environ 25 à 30 peintures."
+    },
+    "biographyTimeline": {
+      "birth": {
+        "year": 1593,
+        "place": "Laon (Aisne, France)",
+        "title": "Naissance de Louis Le Nain à Laon",
+        "desc": "Naît vers 1593 à Laon. Issu d'une famille de sergents royaux, il se forme à la peinture avant de s'établir dans la capitale avec ses deux frères Antoine et Mathieu."
+      },
+      "death": {
+        "year": 1648,
+        "place": "Paris (France)",
+        "title": "Mort à Paris & Fondation de l'Académie royale",
+        "desc": "Élu membre fondateur de l'Académie royale de peinture et de sculpture au printemps 1648, il meurt subitement le 23 mai 1648 à Paris, deux jours avant son frère aîné Antoine."
+      },
+      "periods": [
+        {
+          "title": "L'Atelier fraternel de Saint-Germain-des-Prés",
+          "years": "v. 1593 – 1639",
+          "color": "#0284c7",
+          "summary": "Établis dans le quartier franc de Saint-Germain-des-Prés, les trois frères collaborent étroitement, peignant des portraits et des scènes populaires empreintes de retenue.",
+          "events": [
+            {
+              "year": 1629,
+              "title": "Atelier commun rue du Four à Paris",
+              "desc": "Les frères Le Nain ouvrent leur atelier collectif à Saint-Germain-des-Prés, signant ensemble leurs toiles sans préciser leur prénom respectif.",
+              "icon": "🎨"
+            }
+          ]
+        },
+        {
+          "title": "L'Apogée du Réalisme monumental & La Dignité paysanne",
+          "years": "1640 – 1648",
+          "color": "#d97706",
+          "summary": "Période de pleine maturité où Louis peint ses chefs-d'œuvre les plus émouvants, conférant aux paysans français une gravité et une noblesse universelles.",
+          "events": [
+            {
+              "year": 1642,
+              "title": "Famille de paysans dans un intérieur (Louvre)",
+              "desc": "Sommet de la peinture française du XVIIe siècle : neuf personnages réunis dans une humble pièce, baignés d'un silence méditatif et d'une souveraine noblesse.",
+              "type": "masterpiece",
+              "artworkId": "le_nain_louis_famille_de_paysans_interieur_louvre_1642"
+            },
+            {
+              "year": 1648,
+              "title": "Fondation de l'Académie royale & Mort prématurée",
+              "desc": "Les frères Le Nain sont reçus parmi les membres fondateurs de l'Académie royale. Louis s'éteint le 23 mai 1648.",
+              "icon": "🏛️"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "perugin": {
+    "id": "perugin",
+    "name": "Pérugin (Le)",
+    "sortName": "Pérugin (Le)",
+    "sortLetter": "P",
+    "dates": "v. 1448 – 1523",
+    "century": "XVe – XVIe siècle",
+    "nationality": "Italien (Ombrie)",
+    "movement": "Haute Renaissance, École ombrienne & Classicisme de la « Manière douce »",
+    "techniques": "Fresque, détrempe (tempera) et huile sur panneau de bois",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczNleHPulcXPgo4luAe9kzvgEMjI_WAgIKTTECFWls4ni9BLxR27s748-7jvgvqFrHixtoJJy4UH2-y37IOoYCADg2k5htfMvd-YJJLWmYs_A6pT66-fDGaQmRrULJwFSYuNuoYv_FjC6Kj4tpmcI8aqHw=w2153-h913-s-no-gm?authuser=0",
+    "portraitImg": "",
+    "bio": `
+      <p><strong>Le maître incontesté de l'école ombrienne et le formateur de Raphaël</strong><br>
+      Pietro Vannucci, dit Le Pérugin, né vers 1448 en Ombrie et mort en 1523, est l'un des plus grands maîtres de la Renaissance italienne et le chef de file de l'école ombrienne. Formé probablement à Florence dans l'atelier de Verrocchio aux côtés de Léonard de Vinci, il a acquis une renommée immense qui l'a mené à travailler sur les chantiers les plus prestigieux de Rome, notamment la Chapelle Sixtine. Son succès fut tel qu'il dirigea deux ateliers simultanés, à Florence et à Pérouse, devenant l'artiste le plus riche et le plus sollicité d'Italie avant l'éclosion de la génération de Raphaël, dont il fut le maître déterminant.</p>
+      <p><strong>Sérénité absolue, clarté spatiale et la « manière douce »</strong><br>
+      Son genre pictural se caractérise par une recherche de sérénité absolue et une clarté spatiale rigoureuse. Le style du Pérugin se reconnaît à ses paysages collinaires doux, ses ciels limpides qui s'éclaircissent vers l'horizon et ses figures à l'élégance mélancolique, souvent représentées dans des poses contemplatives. Il a perfectionné l'art de la perspective symétrique, plaçant ses personnages dans des architectures aérées qui respirent le calme et l'équilibre. Cette "manière douce", faite de visages ovales aux traits fins et de gestes mesurés, visait à susciter chez le spectateur une piété tranquille et une harmonie spirituelle.</p>
+      <p><strong>De la rigueur florentine à la plénitude atmosphérique</strong><br>
+      L'évolution de son style montre un passage d'une précision graphique un peu sèche, héritée de sa formation florentine, vers une fusion plus atmosphérique des formes. Sa maturité est marquée par une maîtrise exceptionnelle de la lumière diffuse, qui unifie les personnages et le décor dans une unité tonale apaisante. Cependant, victime de son propre succès, il a fini par se figer dans des formules répétitives et des compositions stéréotypées à la fin de sa vie, ce qui lui valut les critiques de Michel-Ange. Malgré cette fin de carrière en demi-teinte, il reste celui qui a théorisé et diffusé un idéal de beauté classique qui servira de fondement direct au génie de Raphaël.</p>
+    `,
+    "corpus": {
+      "total": 115,
+      "seen": 10,
+      "paintingsCount": 115,
+      "details": [
+        {
+          "label": "Retables, toiles et grands cycles autographes",
+          "count": 115,
+          "icon": "🎨",
+          "color": "#d4af37",
+          "seen": 10
+        }
+      ],
+      "sourceTitle": "Consensus critique et scientifique (F. Todini, P. Scarpellini)",
+      "sourceNotes": "En écartant rigoureusement ces travaux d'élèves (et ceux de ses suiveurs comme le Pinturicchio) pour ne conserver que ses retables autographes, ses toiles de dévotion et ses grands cycles muraux (comptés par chantiers), le consensus scientifique fixe son corpus officiel à environ 115 œuvres."
+    },
+    "biographyTimeline": {
+      "birth": {
+        "year": 1448,
+        "place": "Città della Pieve (Ombrie, Italie)",
+        "title": "Naissance de Pietro Vannucci en Ombrie",
+        "desc": "Naît vers 1448 à Città della Pieve près de Pérouse. Il s'initie à l'art en Ombrie avant de parfaire sa formation à Florence."
+      },
+      "death": {
+        "year": 1523,
+        "place": "Fontignano (Ombrie, Italie)",
+        "title": "Mort de la peste à Fontignano",
+        "desc": "S'éteint en février 1523 de la peste à Fontignano près de Pérouse, alors qu'il continuait de peindre à fresque à l'âge de 75 ans."
+      },
+      "periods": [
+        {
+          "title": "Formation florentine & L'Atelier de Verrocchio",
+          "years": "v. 1470 – 1480",
+          "color": "#0284c7",
+          "summary": "Élève à Florence chez Verrocchio aux côtés de Léonard de Vinci, il assimile la maîtrise graphique et le modelé novateur.",
+          "events": [
+            {
+              "year": 1475,
+              "title": "Saint Sébastien et un saint franciscain (Nantes)",
+              "desc": "Tempera sur bois de jeunesse à fond d'or gravé : Sébastien sous les traits d'un éphèbe contemporain élégant face au recueillement franciscain.",
+              "type": "masterpiece",
+              "artworkId": "perugin_saint_sebastien_saint_franciscain_nantes_1475"
+            }
+          ]
+        },
+        {
+          "title": "La Chapelle Sixtine & La Gloire Romaine",
+          "years": "1480 – 1490",
+          "color": "#10b981",
+          "summary": "Appelé à Rome par le pape Sixte IV, il réalise les fresques fondatrices de la Sixtine et conquiert une renommée européenne.",
+          "events": [
+            {
+              "year": 1481,
+              "title": "Chantier de la Chapelle Sixtine à Rome",
+              "desc": "Peint La Remise des clés à saint Pierre, manifeste insurpassable de la perspective linéaire classique qui marquera toute la Renaissance.",
+              "icon": "🏛️"
+            },
+            {
+              "year": 1490,
+              "title": "La Vierge et l'Enfant entourés de deux anges, sainte Rose et sainte Catherine (Louvre)",
+              "desc": "Tondo de dévotion privée florentine d'une harmonie parfaite : ovale doux des visages, drapés somptueux et paysage vaporeux ombrien.",
+              "type": "masterpiece",
+              "artworkId": "perugin_vierge_enfant_anges_rose_catherine_louvre_1490"
+            }
+          ]
+        },
+        {
+          "title": "La Maturité Triomphale : Le Retable de San Pietro & La « Manière Douce »",
+          "years": "1491 – 1500",
+          "color": "#d97706",
+          "summary": "À la tête de deux ateliers prolifiques à Florence et Pérouse, maître de Raphaël, il crée le grand polyptyque de San Pietro et diffuse son idéal classique.",
+          "events": [
+            {
+              "year": 1495,
+              "title": "La Vierge à l'Enfant entre saint Jean-Baptiste et sainte Catherine (Louvre)",
+              "desc": "Sacra Conversazione intime à fond sombre, inspirée de Léonard de Vinci, avec un modelé subtil annonçant le sfumato.",
+              "type": "masterpiece",
+              "artworkId": "perugin_vierge_enfant_jean_baptiste_catherine_louvre_1495"
+            },
+            {
+              "year": 1495,
+              "title": "Saint Sébastien (Louvre)",
+              "desc": "Méditation humaniste sous une loggia classique : le saint éphèbe lié à une colonne de marbre, en extase sereine face à la nature ombrienne.",
+              "type": "masterpiece",
+              "artworkId": "perugin_saint_sebastien_louvre_1495"
+            },
+            {
+              "year": 1497,
+              "title": "Polyptyque de San Pietro : Les Prophètes David et Isaïe (Nantes)",
+              "desc": "Deux tondi monumentaux couronnant le retable de Pérouse, déployant leurs phylactères latins dans une remarquable vision en contre-plongée.",
+              "type": "masterpiece",
+              "artworkId": "perugin_prophete_david_nantes_1497"
+            },
+            {
+              "year": 1497,
+              "title": "Polyptyque de San Pietro : La Prédelle narrative (Rouen)",
+              "desc": "Les trois panneaux narratifs de prédelle (L'Adoration des Mages, La Résurrection, Le Baptême du Christ) démontrant une rigueur géométrique et une poésie lumineuse suprêmes.",
+              "type": "masterpiece",
+              "artworkId": "perugin_adoration_des_mages_rouen_1497"
+            }
+          ]
+        },
+        {
+          "title": "Les Dernières Années : Naples et l'Ombrie",
+          "years": "1501 – 1523",
+          "color": "#8b5cf6",
+          "summary": "Poursuite des commandes prestigieuses dans toute l'Italie, dont l'Assomption de Naples pour le cardinal Carafa.",
+          "events": [
+            {
+              "year": 1506,
+              "title": "L'Assomption de la Vierge (Cathédrale de Naples)",
+              "desc": "Huile sur bois monumentale pour la chapelle des Illustrissimi, synthèse magistrale de piété céleste, anges musiciens et paysage infini.",
+              "type": "masterpiece",
+              "artworkId": "perugin_assomption_de_la_vierge_naples_1506"
+            },
+            {
+              "year": 1523,
+              "title": "Mort à Fontignano",
+              "desc": "S'éteint en Ombrie au terme d'une carrière qui aura posé les bases classiques du génie de son élève Raphaël.",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+    }
   }
 });
 
