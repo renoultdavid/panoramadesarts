@@ -13713,7 +13713,7 @@ Other open documents:
     site: "Collection particulière / Pyrénées",
     originSite: "Pyrénées (France)",
     locationType: "museum",
-    currentLocation: "Collection particulière",
+    currentLocation: "Tokyo National Museum Western Art",
     category: "Peinture de chevalet (huile sur toile)",
     isHighlight: true,
     chips: ["1887", "Rosa Bonheur", "La Traite", "L'Heure de la traite", "Pyrénées", "Réalisme animalier", "XIXe siècle"],
