@@ -2192,6 +2192,12 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
               "title": "Atelier commun rue du Four à Paris",
               "desc": "Les frères Le Nain ouvrent leur atelier collectif à Saint-Germain-des-Prés, signant ensemble leurs toiles sans préciser leur prénom respectif.",
               "icon": "🎨"
+            },
+            {
+              "year": 1632,
+              "title": "Un atelier en bonne entente : trois mains, une signature",
+              "desc": "Antoine (petits formats et portraits en miniature), Louis (grandes scènes paysannes) et Mathieu (portraits et sujets militaires) se partagent les commandes. Ne signant que « Le Nain », ils rendent aujourd'hui les attributions très délicates.",
+              "icon": "👥"
             }
           ]
         },
@@ -2202,6 +2208,18 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
           "summary": "Période de pleine maturité où Louis peint ses chefs-d'œuvre les plus émouvants, conférant aux paysans français une gravité et une noblesse universelles.",
           "events": [
             {
+              "year": 1641,
+              "title": "La Charrette et Le Retour de la fenaison (Louvre)",
+              "desc": "Deux grands paysages paysans peints la même année : des campagnards de la plaine de Laon, figés dans une lumière argentée, sans la moindre anecdote pittoresque.",
+              "icon": "🌾"
+            },
+            {
+              "year": 1641,
+              "title": "Vénus dans la forge de Vulcain (Reims)",
+              "desc": "Sujet mythologique, rare chez Louis : la déesse quitte l'Olympe pour s'inviter dans une forge très réaliste, signe de sa manière de rapprocher le monde antique de la vie quotidienne.",
+              "icon": "🔥"
+            },
+            {
               "year": 1642,
               "title": "Famille de paysans dans un intérieur (Louvre)",
               "desc": "Sommet de la peinture française du XVIIe siècle : neuf personnages réunis dans une humble pièce, baignés d'un silence méditatif et d'une souveraine noblesse.",
@@ -2209,10 +2227,36 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
               "artworkId": "le_nain_louis_famille_de_paysans_interieur_louvre_1642"
             },
             {
+              "year": 1642,
+              "title": "Le Repas des paysans (Louvre)",
+              "desc": "Autour d'une table sobre, du pain et du vin : la scène emprunte à la gravité d'une Cène sacrée. Les regards frontaux et le silence des convives sont la signature de Louis.",
+              "icon": "🍷"
+            },
+            {
+              "year": 1645,
+              "title": "La Forge et le Portrait dans un intérieur (Louvre)",
+              "desc": "Dans sa maturité, Louis étend sa manière à la forge de village et au portrait de groupe familial, toujours dans la même tonalité de gris et de bruns.",
+              "icon": "⚒️"
+            },
+            {
               "year": 1648,
               "title": "Fondation de l'Académie royale & Mort prématurée",
               "desc": "Les frères Le Nain sont reçus parmi les membres fondateurs de l'Académie royale. Louis s'éteint le 23 mai 1648.",
               "icon": "🏛️"
+            }
+          ]
+        },
+        {
+          "title": "L'Oubli, puis la Redécouverte par Champfleury",
+          "years": "1648 – XIXe siècle",
+          "color": "#8b5cf6",
+          "summary": "Longtemps oubliés, les Le Nain reviennent au premier plan avec le courant réaliste : leur vérité paysanne séduit Courbet et ses amis.",
+          "events": [
+            {
+              "year": 1850,
+              "title": "Champfleury redécouvre les frères Le Nain",
+              "desc": "Le critique Champfleury publie un essai sur la vie et l'œuvre des Le Nain et en fait des précurseurs du réalisme ; l'année même où Courbet expose L'Enterrement à Ornans, Louis devient l'emblème d'une « vérité » française en peinture.",
+              "icon": "📖"
             }
           ]
         }
