@@ -3902,7 +3902,454 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       ]
     }
   }
-
+,
+"mantegna": {
+    "id": "mantegna",
+    "name": "Mantegna Andrea",
+    "sortName": "Mantegna Andrea",
+    "sortLetter": "M",
+    "dates": "v. 1431 – 1506",
+    "movement": "Renaissance italienne (Quattrocento padouan & mantouan)",
+    "nationality": "Italien (Padoue, Mantoue)",
+    "techniques": "Détrempe (tempera) sur toile et sur bois, fresques monumentales, perspective sotto in sù, gravure au burin",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczMl5Is2Xj0TVcYD6X74kaCZb08eWAgB3SPvLzI71CwcYTpXVJstZgEOlDqoqZj98W3z-dXSI7w3qqQm8UA0vxwewBRTSXg7McpM7tHGwhiKt5bw65X0rjmIU7vs6J0Ko6WEujCRIPXcyPSKRR5Xh3Tw-A=w1589-h675-s-no-gm?authuser=0",
+    "portraitImg": "",
+    "bio": `
+      <p><strong>Le géant de la Renaissance septentrionale et le culte de l'Antiquité romaine</strong><br>
+      Andrea Mantegna, né vers 1431 près de Padoue et mort en 1506 à Mantoue, est le géant de la Renaissance septentrionale italienne. Humaniste passionné d'archéologie, il a consacré sa vie à ressusciter la grandeur de la Rome antique à travers une peinture d'une précision sculpturale. Gendre de Jacopo Bellini et beau-frère de Giovanni Bellini, il s'est imposé comme le peintre de cour officiel des Gonzague à Mantoue pendant près de cinquante ans. Son œuvre est une fusion parfaite entre la rigueur mathématique de la perspective florentine et un goût quasi obsessionnel pour le détail antique et la dureté de la pierre.</p>
+      <p><strong>L'héroïsme sévère, la perspective <em>sotto in sù</em> et le trait sculptural</strong><br>
+      Son genre pictural se définit par un héroïsme sévère et une maîtrise absolue de l'illusion spatiale. Le style de Mantegna se reconnaît à son trait incisif et « métallique » : ses personnages semblent taillés dans le marbre ou le bronze plutôt que peints. Il est le maître incontesté des raccourcis audacieux et de la perspective vue de dessous (<em>sotto in sù</em>), qu'il utilise pour donner une stature monumentale à ses figures. Ses paysages sont souvent constitués de roches stratifiées et d'architectures romaines reconstituées avec une précision de savant, créant un univers minéral et intellectuel d'une puissance unique.</p>
+      <p><strong>Des fresques de Padoue au premier trompe-l'œil de l'histoire de l'art</strong><br>
+      L'évolution de son travail montre une ambition croissante pour l'illusionnisme total. Ses débuts à Padoue, avec les fresques de la chapelle Ovetari, révèlent déjà son génie pour la perspective dramatique. Sa maturité culmine à Mantoue avec la Chambre des Époux (<em>Camera degli Sposi</em>), où il réalise le premier plafond en trompe-l'œil de l'histoire de l'art, ouvrant un oculus feint sur un ciel peuplé de chérubins. Vers la fin de sa vie, son style se fait encore plus complexe et allégorique, comme dans ses toiles pour le studiolo d'Isabelle d'Este. En imposant la dignité de l'antique et la rigueur de la ligne sur la couleur, il a marqué durablement tout l'art européen, de Dürer à Poussin.</p>
+    `,
+    "corpus": {
+      "total": 90,
+      "seen": 4,
+      "paintingsCount": 90,
+      "details": [
+        {
+          "label": "Temperas sur bois, toiles et cycles de fresques autographes",
+          "count": 90,
+          "icon": "🏛️",
+          "color": "#d4af37",
+          "seen": 4,
+          "note": "Consensus scientifique fixé à environ 90 œuvres autographes (cat. Lightbown 1986, revu par Lucco 2013)"
+        }
+      ],
+      "sourceTitle": "Catalogue raisonné Ronald Lightbown (1986) & Mauro Lucco (2013)",
+      "sourceNotes": "L'inventaire scientifique de référence s'appuie sur le monumental catalogue raisonné de l'historien de l'art britannique Ronald Lightbown (1986), magistralement complété et révisé par l'Italien Mauro Lucco en 2013 (Andrea Mantegna : L'opera completa). Le destin de son œuvre fut tragiquement amputé lors de la Seconde Guerre mondiale avec la destruction sous les bombes de la mythique chapelle Ovetari de Padoue. En écartant son œuvre gravé, et en regroupant ses immenses cycles de fresques subsistants (comme la Chambre des Époux ou les Triomphes) sous forme de chantiers globaux, le consensus scientifique fixe aujourd'hui le corpus de ses temperas (sur bois et sur toile) et fresques autographes à environ 90 œuvres."
+    },
+    "timeline": {
+      "periods": [
+        {
+          "title": "Padoue & la Révolution Archéologique",
+          "years": "1431 – 1459",
+          "color": "#38bdf8",
+          "summary": "Formation auprès de Squarcione, découverte de l'Antiquité romaine, alliance avec les Bellini et retable de San Zeno.",
+          "events": [
+            {
+              "year": 1431,
+              "title": "Naissance à Isola di Carturo",
+              "desc": "Naissance près de Padoue ; entre dès l'enfance dans l'atelier de Francesco Squarcione où il se passionne pour la statuaire et l'archéologie romaines.",
+              "type": "life",
+              "icon": "🏛️"
+            },
+            {
+              "year": 1448,
+              "title": "Les fresques de la chapelle Ovetari",
+              "desc": "Entreprend avec Niccolò Pizzolo la décoration de l'église des Érémitiques à Padoue, imposant des perspectives en raccourci d'une audace inouïe.",
+              "type": "milestone",
+              "icon": "🎨"
+            },
+            {
+              "year": 1453,
+              "title": "Mariage avec Nicolosia Bellini",
+              "desc": "Épouse la fille de Jacopo Bellini et sœur de Giovanni Bellini, scellant une alliance capitale entre le dessin padouan et la couleur vénitienne.",
+              "type": "life",
+              "icon": "💍"
+            },
+            {
+              "year": 1456,
+              "title": "Crucifixion (Retable de San Zeno, Vérone / Louvre)",
+              "desc": "Panneau central de la prédelle du retable de San Zeno, drame sacré magistral à la perspective implacable sur sol calcaire veiné.",
+              "type": "masterpiece",
+              "artworkId": "mantegna_crucifixion_louvre_1456"
+            }
+          ]
+        },
+        {
+          "title": "Mantoue, Peintre de Cour des Gonzague & la Chambre des Époux",
+          "years": "1460 – 1485",
+          "color": "#10b981",
+          "summary": "Service prestigieux auprès de Ludovico Gonzague, commandes d'apparat et révolution du trompe-l'œil.",
+          "events": [
+            {
+              "year": 1460,
+              "title": "Installation à la cour de Mantoue",
+              "desc": "Devient peintre attitré de Ludovico Gonzague, marquis de Mantoue, avec un statut honorifique et financier exceptionnel.",
+              "type": "life",
+              "icon": "👑"
+            },
+            {
+              "year": 1463,
+              "title": "Triptyque des Offices (Florence)",
+              "desc": "Ensemble d'une somptuosité miniaturiste réalisé pour la chapelle privée du château Saint-Georges de Mantoue (Adoration des Mages, Circoncision, Ascension).",
+              "type": "masterpiece",
+              "artworkId": "mantegna_triptyque_des_offices_florence_1463"
+            },
+            {
+              "year": 1465,
+              "title": "La Chambre des Époux (Camera degli Sposi)",
+              "desc": "Entreprend le décor illusionniste du château de Mantoue, achevé en 1474 avec le premier oculus zénithal en trompe-l'œil de la peinture européenne.",
+              "type": "milestone",
+              "icon": "✨"
+            },
+            {
+              "year": 1480,
+              "title": "Saint Sébastien (Louvre)",
+              "desc": "Monumentale figure sculpturale liée à une colonne antique en ruine, contemplant le ciel d'un regard héroïque au-dessus d'un pavage archéologique brisé.",
+              "type": "masterpiece",
+              "artworkId": "mantegna_saint_sebastien_louvre_1480"
+            }
+          ]
+        },
+        {
+          "title": "Les Triomphes de César, Isabelle d'Este & le Studiolo",
+          "years": "1486 – 1506",
+          "color": "#d97706",
+          "summary": "Cycles triomphaux monumentaux, séjour à Rome au Vatican, allégories d'Isabelle d'Este et testament artistique.",
+          "events": [
+            {
+              "year": 1486,
+              "title": "Les Triomphes de César",
+              "desc": "Commence la série de neuf toiles monumentales célébrant la gloire impériale antique romaine (conservées au château de Hampton Court).",
+              "type": "milestone",
+              "icon": "🎺"
+            },
+            {
+              "year": 1488,
+              "title": "Séjour romain au Vatican",
+              "desc": "Appelé à Rome par le pape Innocent VIII pour peindre la chapelle du Belvédère (détruite au XVIIIe siècle), fasciné par les ruines de l'Urbs.",
+              "type": "voyage",
+              "icon": "🏛️"
+            },
+            {
+              "year": 1495,
+              "title": "La Vierge de la Victoire (Louvre)",
+              "desc": "Commandée par François II Gonzague pour célébrer la bataille de Fornoue : la Vierge et l'Enfant sous une tonnelle végétale exubérante bénissant le marquis à genoux.",
+              "type": "masterpiece",
+              "artworkId": "mantegna_la_vierge_de_la_victoire_louvre_1495"
+            },
+            {
+              "year": 1497,
+              "title": "Le Studiolo d'Isabelle d'Este",
+              "desc": "Réalise pour la marquise humaniste Le Parnasse et Minerve chassant les Vices du jardin de la Vertu, sommets de poésie mythologique.",
+              "type": "masterpiece",
+              "icon": "🌿"
+            },
+            {
+              "year": 1506,
+              "title": "Mort à Mantoue",
+              "desc": "S'éteint le 13 septembre 1506 à Mantoue à 75 ans ; inhumé dans sa propre chapelle de la basilique Sant'Andrea.",
+              "type": "life",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+    }
+  },
+"manzoni": {
+    "id": "manzoni",
+    "name": "Manzoni Piero",
+    "sortName": "Manzoni Piero",
+    "sortLetter": "M",
+    "dates": "1933 – 1963",
+    "movement": "Art Conceptuel, Nouveau Réalisme, Avant-garde italienne",
+    "nationality": "Italien (Soncino, Milan)",
+    "techniques": "Achromes (kaolin, toile plissée, ouate, feutre), ready-mades scellés (boîtes, cylindres de carton), sculptures vivantes, empreintes digitales",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczPZJAYP5MttNgj6WXgZXa0A1GBdijTwDu7yFDOWAK_sB6-QGdse6JnVFdBjMNpWo9OsWoVxKshJeE37o0zDVq8AjHv3ghbolU-Swb_F05kLWlasVacZ3UmFC2TVe0aC_xEwXCsWH05GEiACMnX_3PQ6Jw=w1589-h675-s-no-gm?authuser=0",
+    "portraitImg": "",
+    "bio": `
+      <p><strong>Le météore radical de l'avant-garde européenne</strong><br>
+      Piero Manzoni (1933 – 1963) est l'un des artistes les plus provocateurs, lucides et radicaux de l'après-guerre européen, pionnier de l'art conceptuel, de l'art corporel et de l'arte povera. Disparu prématurément à l'âge de 29 ans, il a poussé la dématérialisation de l'œuvre d'art et la critique du fétichisme marchand à leurs limites ultimes, transformant le statut même de l'artiste en générateur absolu de valeur esthétique.</p>
+      <p><strong>L'absence de couleur, l'Achrome et la dérision marchande</strong><br>
+      Son genre pictural et plastique se définit par la peinture monochrome achrome, la sculpture conceptuelle et relationnelle, l'objet ready-made provocateur et la performance d'artiste. Son style se caractérise par l'absence totale de couleur (recherche de la neutralité absolue de la matière), l'emploi de matériaux non conventionnels (plâtre, kaolin, coton, paille, ouate, fibre de verre), une présentation rigoureuse presque industrielle, et une ironie corrosive dirigée contre le marché de l'art.</p>
+      <p><strong>De la neutralité du kaolin à la sacralisation de la Terre entière</strong><br>
+      L'évolution de son style marque un passage fulgurant de la remise en cause du support pictural à la sacralisation du corps et de l'univers : la rupture avec l'Informel et les premiers Achromes (1957–1959) en kaolin liquide ; les Lignes scellées en cylindres de carton (1959–1960) ; puis les gestes ultimes d'incorporation sacrée (Sculptures vivantes, Souffle d'artiste, Merda d'artista en 1961) et le Socle du monde (1961) transformant la Terre entière en œuvre d'art.</p>
+    `,
+    "corpus": {
+      "total": 1229,
+      "seen": 0,
+      "paintingsCount": 0,
+      "details": [
+        {
+          "label": "Achromes, sculptures conceptuelles, éditions limitées & reliques d'artiste",
+          "count": 1229,
+          "icon": "🥫",
+          "color": "#ec4899",
+          "seen": 0,
+          "note": "Corpus scientifique complet répertorié par Germano Celant (Éditions Skira, 2004)"
+        }
+      ],
+      "sourceTitle": "Catalogue général Germano Celant (Éditions Skira, 2004, 2 volumes)",
+      "sourceNotes": "L'inventaire scientifique de référence mondiale est le monumental Piero Manzoni : Catalogo generale établi par le grand historien de l'art Germano Celant (publié aux éditions Skira en 2004 en deux volumes). Ce travail de titan a permis de purger et de consolider les précédents inventaires (notamment le catalogue Battino-Palazzoli de 1991). En compilant la totalité de ses toiles incolores, ses sculptures conceptuelles, ses éditions limitées et ses reliques organiques, le consensus scientifique fixe aujourd'hui le corpus officiel et définitif de Piero Manzoni à très exactement 1 229 œuvres."
+    },
+    "timeline": {
+      "periods": [
+        {
+          "title": "Rupture avec l'Informel & les Achromes",
+          "years": "1956 – 1959",
+          "color": "#94a3b8",
+          "summary": "Rejet du geste subjectif, invention des toiles auto-plissées au kaolin et fondation de la galerie Azimuth.",
+          "events": [
+            {
+              "year": 1956,
+              "title": "Débuts à Milan et manifestes",
+              "desc": "Participe aux manifestations d'avant-garde milanaises et signe des manifestes contre l'art figuratif et l'expressionnisme abstrait.",
+              "type": "milestone",
+              "icon": "📄"
+            },
+            {
+              "year": 1957,
+              "title": "Invention des Achromes",
+              "desc": "Conçoit ses premières toiles trempées dans du kaolin liquide et du plâtre, séchées sans pigment pour faire du tableau un pur fait matériel neutre.",
+              "type": "masterpiece",
+              "icon": "⬜"
+            },
+            {
+              "year": 1958,
+              "title": "Diversification des matériaux achromes",
+              "desc": "Explore de nouveaux matériaux industriels bruts et incolores : ouate, feutre, paille, chlorure de cobalt et fibre de verre.",
+              "type": "milestone",
+              "icon": "🧵"
+            },
+            {
+              "year": 1959,
+              "title": "Fondation de la revue et galerie Azimuth",
+              "desc": "Crée à Milan avec Enrico Castellani la revue d'avant-garde Azimuth et l'espace d'exposition éponyme, carrefour du groupe Zéro européen.",
+              "type": "life",
+              "icon": "🏛️"
+            }
+          ]
+        },
+        {
+          "title": "Les Lignes & l'Art Conceptuel Dématérialisé",
+          "years": "1959 – 1960",
+          "color": "#3b82f6",
+          "summary": "Lignes scellées en cylindres, confiance conceptuelle et consommation rituelle de l'art.",
+          "events": [
+            {
+              "year": 1959,
+              "title": "Les Lignes (Linee)",
+              "desc": "Trace de longues lignes à l'encre sur des bandes de papier qu'il enferme dans des cylindres en carton noir scellés et étiquetés.",
+              "type": "masterpiece",
+              "icon": "📏"
+            },
+            {
+              "year": 1960,
+              "title": "Ligne de 7 200 mètres à Herning",
+              "desc": "Trace sur le rouleau d'une rotative d'imprimerie au Danemark une ligne ininterrompue de 7,2 kilomètres scellée dans un cylindre de zinc.",
+              "type": "milestone",
+              "icon": "📦"
+            },
+            {
+              "year": 1960,
+              "title": "Consommation de l'art dynamique",
+              "desc": "Expose et fait consommer au public 71 œufs durs marqués de son empreinte digitale, communion profane transformant le spectateur en œuvre vivante.",
+              "type": "masterpiece",
+              "icon": "🥚"
+            },
+            {
+              "year": 1960,
+              "title": "Corps d'air & Souffle d'artiste",
+              "desc": "Commercialise des ballons gonflés de son propre souffle (Fiato d'artista) sur trépieds en bois.",
+              "type": "masterpiece",
+              "icon": "🎈"
+            }
+          ]
+        },
+        {
+          "title": "Sacralisation du Corps, Merda d'Artista & le Socle du Monde",
+          "years": "1961 – 1963",
+          "color": "#ef4444",
+          "summary": "Gestes subversifs ultimes, marchandisation provocatrice, sacralisation du cosmos et mort prématurée.",
+          "events": [
+            {
+              "year": 1961,
+              "title": "Les Sculptures vivantes",
+              "desc": "Signe le corps de personnes vivantes et leur remet un certificat officiel d'authenticité les consacrant comme chefs-d'œuvre de l'art.",
+              "type": "milestone",
+              "icon": "✍️"
+            },
+            {
+              "year": 1961,
+              "title": "Merde d'artiste (Merda d'artista)",
+              "desc": "Conditionne 90 boîtes de conserve de 30 grammes de ses propres excréments scellées et numérotées, vendues au gramme pour le prix de l'or pur.",
+              "type": "masterpiece",
+              "icon": "🥫"
+            },
+            {
+              "year": 1961,
+              "title": "Le Socle du Monde (Base del Mondo)",
+              "desc": "Installe à Herning (Danemark) un socle en bronze gravé à l'envers, transformant la planète Terre entière en sculpture permanente.",
+              "type": "masterpiece",
+              "icon": "🌍"
+            },
+            {
+              "year": 1963,
+              "title": "Mort prématurée à Milan",
+              "desc": "Succombe à un arrêt cardiaque dans son atelier milanais le 6 février 1963, à l'âge de 29 ans.",
+              "type": "life",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+    }
+  },
+"martini_simone": {
+    "id": "martini_simone",
+    "name": "Martini Simone",
+    "sortName": "Martini Simone",
+    "sortLetter": "M",
+    "dates": "v. 1284 – 1344",
+    "movement": "Gothique international (École de Sienne & Cour papale d'Avignon)",
+    "nationality": "Italien (Sienne, Avignon)",
+    "techniques": "Détrempe (tempera) sur panneau de bois, feuille d'or repoussée et poinçonnée, fresques à la détrempe",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczMD5j-GJ4u8lY-JIlVsTgw11lfJgv1oq1cdrcyOQzwz3JzKFPdk0XKEylzQxeub869HR9lyKoJExWI49YLPEsyYu8xCWKnSBVDOfDHiWXXGaqbmmB0n3YJNJb6pU4DqqxlFVu0daut1eA9RcLQT6Qgghw=w1589-h675-s-no-gm?authuser=0",
+    "portraitImg": "",
+    "bio": `
+      <p><strong>L'apogée de l'élégance gothique siennoise et le rayonnement européen</strong><br>
+      Simone Martini, né vers 1284 à Sienne et mort en 1344 à Avignon, est le plus grand maître de l'école siennoise et l'un des peintres les plus influents du XIVe siècle européen. Disciple probable de Duccio, il a su s'émanciper de la tradition byzantine pour inventer un langage d'une élégance suprême, mêlant la spiritualité italienne au raffinement du gothique français. Sa renommée l'a conduit à la cour papale d'Avignon, où il se liera d'amitié avec le poète Pétrarque, devenant ainsi l'un des premiers artistes de stature véritablement internationale.</p>
+      <p><strong>La ligne mélodieuse, les poinçons d'or et la grâce aristocratique</strong><br>
+      Son genre pictural est l'apogée du style gothique : il privilégie la ligne sinueuse, la préciosité décorative et une harmonie de couleurs aristocratique. Le style de Simone Martini se distingue par une linéarité mélodieuse et un usage magistral de l'or, qu'il travaille avec des poinçons pour créer des textures vibrantes. Contrairement à la monumentalité massive d'un Giotto à Florence, Simone cherche la grâce et la distinction. Ses personnages possèdent des silhouettes allongées, des mains effilées et des visages d'une douceur mélancolique, évoluant dans des espaces où le luxe des étoffes et la précision des détails architecturaux créent une atmosphère de cour idéale.</p>
+      <p><strong>De la Maestà de Sienne à l'Annonciation des Offices et l'exil d'Avignon</strong><br>
+      L'évolution de son travail montre un passage de la majesté civique à un lyrisme de plus en plus éthéré. Sa <em>Maestà</em> du Palais Public de Sienne témoigne encore d'une certaine rigueur structurelle. Cependant, avec l'<em>Annonciation</em> des Offices (1333), il atteint un sommet de spiritualité où le mouvement de la Vierge, reculant de surprise, est rendu par une courbe d'une souplesse inégalée. Son séjour final à Avignon marque la naissance du Gothique International : son art se fait plus intimiste et narratif, influençant durablement les peintres du Nord de l'Europe. Il a réussi l'exploit de transformer la peinture religieuse en un art de cour d'un raffinement absolu, où la beauté formelle devient le reflet de la divinité.</p>
+    `,
+    "corpus": {
+      "total": 45,
+      "seen": 1,
+      "paintingsCount": 45,
+      "details": [
+        {
+          "label": "Temperas sur bois à fond d'or & cycles de fresques autographes",
+          "count": 45,
+          "icon": "✨",
+          "color": "#38bdf8",
+          "seen": 1,
+          "note": "Consensus scientifique fixé à environ 40-45 œuvres autographes (cat. Andrew Martindale 1988, mis à jour par Pierluigi Leone de Castris 2003)"
+        }
+      ],
+      "sourceTitle": "Catalogue raisonné Andrew Martindale (1988) & Pierluigi Leone de Castris (2003)",
+      "sourceNotes": "L'inventaire scientifique de référence s'appuie sur le catalogue raisonné du grand spécialiste britannique Andrew Martindale (1988), magistralement actualisé par l'Italien Pierluigi Leone de Castris dans sa monographie définitive (Simone Martini : Catalogo completo, publiée en 2003). En écartant scrupuleusement les travaux de son vaste atelier (et ceux de son inséparable beau-frère et collaborateur Lippo Memmi) et en comptant ses grands cycles de fresques comme des chantiers globaux, le consensus scientifique fixe aujourd'hui le corpus de ses temperas sur bois et de ses fresques autographes à environ 40 à 45 œuvres."
+    },
+    "timeline": {
+      "periods": [
+        {
+          "title": "Les Débuts Siennois & la Gloire de la Maestà",
+          "years": "1284 – 1320",
+          "color": "#38bdf8",
+          "summary": "Formation auprès de Duccio, commande civique suprême de la Maestà et chefs-d'œuvre pour les cours d'Italie.",
+          "events": [
+            {
+              "year": 1284,
+              "title": "Naissance à Sienne",
+              "desc": "Naissance dans la cité toscane ; se forme probablement dans l'atelier du patriarche de la peinture siennoise Duccio di Buoninsegna.",
+              "type": "life",
+              "icon": "🎨"
+            },
+            {
+              "year": 1315,
+              "title": "La Maestà du Palazzo Pubblico de Sienne",
+              "desc": "Peint la gigantesque fresque de la Vierge sous un dais de cour au Palazzo Pubblico, manifeste de l'idéal civique et aristocratique siennois.",
+              "type": "masterpiece",
+              "icon": "👑"
+            },
+            {
+              "year": 1317,
+              "title": "Saint Louis de Toulouse couronnant Robert d'Anjou (Naples)",
+              "desc": "Commandé par le roi Robert d'Anjou à Naples, premier grand retable profane et dynastique de la peinture italienne.",
+              "type": "masterpiece",
+              "icon": "⚜️"
+            },
+            {
+              "year": 1320,
+              "title": "Polyptyque de Santa Caterina à Pise",
+              "desc": "Vaste polyptyque à multiples registres pour le couvent des dominicains de Pise, affirmant la pureté de sa ligne musicale.",
+              "type": "milestone",
+              "icon": "🏛️"
+            }
+          ]
+        },
+        {
+          "title": "Les Grands Chantiers d'Assise & la Maturité Siennoise",
+          "years": "1321 – 1335",
+          "color": "#10b981",
+          "summary": "Cycle chevaleresque de la basilique d'Assise, portrait équestre de Guidoriccio et sommet de l'Annonciation.",
+          "events": [
+            {
+              "year": 1321,
+              "title": "Fresques de la chapelle Saint-Martin à Assise",
+              "desc": "Peint dans l'église inférieure de la basilique Saint-François le cycle de la vie de saint Martin, chef-d'œuvre de grâce courtoise et de préciosité des détails.",
+              "type": "milestone",
+              "icon": "🗡️"
+            },
+            {
+              "year": 1328,
+              "title": "Guidoriccio da Fogliano au siège de Montemassi",
+              "desc": "Fresque monumentale du Palazzo Pubblico de Sienne célébrant la victoire du condottiere face aux forteresses ennemies.",
+              "type": "masterpiece",
+              "icon": "🏰"
+            },
+            {
+              "year": 1333,
+              "title": "L'Annonciation et deux saints (Offices, Florence)",
+              "desc": "Chef-d'œuvre absolu du gothique international pour le dôme de Sienne : la Vierge reculant de pudeur et l'archange Gabriel aux paroles d'or en relief.",
+              "type": "masterpiece",
+              "artworkId": "martini_simone_annonciation_offices_1433"
+            }
+          ]
+        },
+        {
+          "title": "La Cour Papale d'Avignon & le Gothique International",
+          "years": "1336 – 1344",
+          "color": "#d97706",
+          "summary": "Service auprès des papes en exil, amitié fraternelle avec Pétrarque et influence majeure sur l'art transalpin.",
+          "events": [
+            {
+              "year": 1336,
+              "title": "Installation à la cour pontificale d'Avignon",
+              "desc": "Rejoint la cour papale en Avignon avec son épouse Giovanna et son frère Donato sous le pontificat de Benoît XII.",
+              "type": "voyage",
+              "icon": "🏛️"
+            },
+            {
+              "year": 1338,
+              "title": "Amitié avec Pétrarque",
+              "desc": "Peint le portrait de Laure célébré dans les sonnets du poète et illumine le frontispice du manuscrit de Virgile de Pétrarque.",
+              "type": "life",
+              "icon": "📖"
+            },
+            {
+              "year": 1342,
+              "title": "Le Retour de Jésus du Temple (Liverpool)",
+              "desc": "Panneau intime et psychologique d'un raffinement extrême représentant la réprimande affectueuse de Marie et Joseph à l'Enfant Jésus.",
+              "type": "masterpiece",
+              "icon": "📜"
+            },
+            {
+              "year": 1344,
+              "title": "Mort à Avignon",
+              "desc": "S'éteint en juillet 1344 à Avignon ; son corps est rapatrié à Sienne où il est inhumé dans l'église San Francesco.",
+              "type": "life",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+    }
+  }
 });
 
 
@@ -3910,4 +4357,6 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
 // Alias de confort pour la recherche
 window.ARTISTS_REGISTRY["fra_filippo_lippi"] = window.ARTISTS_REGISTRY["lippi_filippo"];
 
-
+window.ARTISTS_REGISTRY["andrea_mantegna"] = window.ARTISTS_REGISTRY["mantegna"];
+window.ARTISTS_REGISTRY["piero_manzoni"] = window.ARTISTS_REGISTRY["manzoni"];
+window.ARTISTS_REGISTRY["simone_martini"] = window.ARTISTS_REGISTRY["martini_simone"];

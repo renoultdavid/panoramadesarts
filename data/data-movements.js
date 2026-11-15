@@ -30,7 +30,7 @@ window.MOVEMENTS_DATA = {
         "dates": "1284 – 1344",
         "role": "Maître de la grâce gothique siennoise",
         "desc": "Harmonie musicale de la ligne et du fond d'or (Annonciation des Offices, Avignon).",
-        "artistId": "",
+        "artistId": "martini_simone",
         "icon": "✨"
       },
       {
@@ -103,7 +103,7 @@ window.MOVEMENTS_DATA = {
         "dates": "1431 – 1506",
         "role": "Virtuose de la perspective raccourcie et de l'Antiquité",
         "desc": "La Chambre des Époux à Mantoue et Le Christ mort.",
-        "artistId": "",
+        "artistId": "mantegna",
         "icon": "🏛️"
       },
       {
@@ -1055,7 +1055,7 @@ window.MOVEMENTS_DATA = {
         "dates": "1933 – 1963",
         "role": "Enfant terrible de l'avant-garde italienne & provocation satirique",
         "desc": "Achromes et Merde d'artiste (1961), poussant à l'extrême la critique de la valeur marchande.",
-        "artistId": "",
+        "artistId": "manzoni",
         "icon": "🥫"
       }
     ],

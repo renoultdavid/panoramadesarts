@@ -1847,7 +1847,7 @@ const MODERN_MOVEMENTS_DATA = {
         dates: "1933 – 1963",
         role: "Enfant terrible de l'avant-garde italienne & provocation satirique",
         desc: "Créateur des Achromes (toiles blanches immaculées sans pigment) et de la Merde d'artiste (1961), poussant à l'extrême la critique de la valeur marchande de l'art.",
-        artistId: "",
+        artistId: "manzoni",
         icon: "🥫"
       }
     ],
