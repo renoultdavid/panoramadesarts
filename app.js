@@ -1975,7 +1975,7 @@ const MODERN_MOVEMENTS_DATA = {
       <p>Les Fauves libèrent la couleur de toute obligation imitative : un arbre peut être écarlate, un ciel jaune d'or, une ombre violette. La couleur devient une force expressive autonome, posée en aplats éclatants sortis du tube, traduisant l'ivresse sensorielle des artistes face au soleil du Midi (Collioure) ou aux bords de Seine.</p>
     `,
     artists: [
-      { name: "Henri Matisse", dates: "1869 – 1954", role: "Chef de file du fauvisme & maître du dessin et de la couleur", desc: "Auteur de La Femme au chapeau et de La Joie de vivre, il subordonne toute la composition au rythme joyeux de la couleur.", artistId: "", icon: "🎨" },
+      { name: "Henri Matisse", dates: "1869 – 1954", role: "Chef de file du fauvisme & maître du dessin et de la couleur", desc: "Auteur de La Femme au chapeau et de La Joie de vivre, il subordonne toute la composition au rythme joyeux de la couleur.", artistId: "matisse", icon: "🎨" },
       { name: "André Derain", dates: "1880 – 1954", role: "Virtuose des scènes de port et de Collioure", desc: "Partageant l'été 1905 avec Matisse à Collioure, il peint des marines et des vues de Londres aux tonalités flamboyantes.", artistId: "", icon: "⛵" },
       { name: "Maurice de Vlaminck", dates: "1876 – 1958", role: "Tempérament fougueux et passion van goghienne", desc: "Autodidacte révolté, il revendique peindre « avec son cœur et ses tripes » dans une pâte épaisse aux couleurs incandescentes.", artistId: "", icon: "🔥" }
     ],

@@ -4349,7 +4349,547 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
         }
       ]
     }
-  }
+  },
+"masaccio": {
+    "id": "masaccio",
+    "name": "Masaccio (Tommaso di Giovanni Cassai)",
+    "sortName": "Masaccio",
+    "sortLetter": "M",
+    "dates": "1401 – 1428",
+    "movement": "Renaissance florentine (Quattrocento)",
+    "nationality": "Italien (Florence, San Giovanni Valdarno)",
+    "techniques": "Fresques monumentales (affresco), tempera sur panneau de bois à fond d'or, perspective centrale à point de fuite unique, clair-obscur sculptural",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczNgwNjlnAa88OSr9dY6fRN6PDCcZWizhjFp2fBV9RqIhbMETO3J2-tjQfxSQl4fjpXRvmwZJJDifucz_Zfbfq3Xv1Key8H2X0dehoGF3vxM_VzNS4r-UQ-vfawvJCil5lkluGhqAXBz9vLaQfP96rYuLQ=w1589-h675-s-no-gm?authuser=0",
+    "portraitImg": "",
+    "bio": `
+      <p><strong>Le père fondateur de la Renaissance et l'invention de l'espace moderne</strong><br>
+      Tommaso di Giovanni Cassai, dit Masaccio, né en 1401 et mort prématurément à l'âge de 26 ans en 1428 à Rome, est le véritable fondateur de la peinture de la Renaissance. En seulement six années d'activité, il a accompli une révolution radicale qui a mis fin à l'esthétique médiévale. Ami de l'architecte Brunelleschi et du sculpteur Donatello, il a été le premier à appliquer en peinture les lois de la perspective mathématique et à donner aux figures humaines une dignité et un poids physique inspirés de l'Antiquité. Vasari disait de lui que, par rapport à ses prédécesseurs, ses œuvres étaient enfin « vivantes, vraies et naturelles ».</p>
+      <p><strong>Réalisme austère, monumentalité dramatique et modelé sculptural</strong><br>
+      Son genre pictural est marqué par un réalisme austère et une monumentalité dramatique. Le style de Masaccio se distingue par l'utilisation de la lumière pour sculpter les corps : il abandonne les contours nets du gothique pour le clair-obscur, créant un modelé qui donne l'illusion de la ronde-bosse. Ses personnages ne flottent plus sur des fonds d'or, mais sont solidement ancrés au sol, avec une anatomie cohérente et des expressions d'une intensité psychologique bouleversante. Pour Masaccio, l'espace n'est plus un décor mais un volume réel où l'air semble circuler entre les protagonistes.</p>
+      <p><strong>De la chapelle Brancacci au trompe-l'œil magistral de la Trinité</strong><br>
+      L'évolution de son travail, bien que fulgurante, montre un dépouillement progressif de tout ornement inutile au profit de la vérité humaine. Dans ses premières œuvres, comme le Triptyque de San Giovenale, il cherche encore ses marques spatiales. Son génie éclate véritablement dans la Chapelle Brancacci à Florence, où il traite des sujets bibliques comme des drames sociaux contemporains, et dans sa fresque de La Trinité, première œuvre à utiliser une perspective géométrique parfaite pour créer un trompe-l'œil architectural. Sa mort brutale à Rome a laissé ses contemporains sous le choc, mais son héritage est immense : de Fra Angelico à Michel-Ange, tous les grands maîtres sont venus étudier ses fresques pour apprendre l'art de représenter l'homme dans sa vérité la plus nue.</p>
+    `,
+    "corpus": {
+      "total": 20,
+      "seen": 1,
+      "paintingsCount": 20,
+      "details": [
+        {
+          "label": "Fresques autographes et panneaux de retables subsistants",
+          "count": 20,
+          "icon": "🏛️",
+          "color": "#d4af37",
+          "seen": 1,
+          "note": "Consensus scientifique fixé à environ 15 à 20 œuvres autographes (cat. Luciano Berti 1964 & John T. Spike 1995)"
+        }
+      ],
+      "sourceTitle": "Monographies Luciano Berti (1964) & Catalogue raisonné John T. Spike (1995)",
+      "sourceNotes": "L'inventaire scientifique de référence mondiale s'appuie sur les monographies fondatrices de Luciano Berti (1964) et le catalogue raisonné de l'historien américain John T. Spike (1995, Masaccio). Le défi d'attribution a longtemps consisté à démêler sa main de celle de son maître et collaborateur, Masolino da Panicale (beaucoup plus gothique et délicat). En comptabilisant ses très rares retables (dont les panneaux survivants du fameux polyptyque de Pise, aujourd'hui dispersés dans le monde entier) et les scènes magistrales qu'il a personnellement exécutées à fresque, le consensus scientifique fixe son corpus autographe à environ 15 à 20 œuvres."
+    },
+    "timeline": {
+      "periods": [
+        {
+          "title": "Jeunesse, San Giovenale & Collaboration avec Masolino",
+          "years": "1401 – 1424",
+          "color": "#38bdf8",
+          "summary": "Naissance en Toscane, inscription à la corporation florentine des médecins et apothicaires, premier triptyque daté et alliance avec Masolino.",
+          "events": [
+            {
+              "year": 1401,
+              "title": "Naissance à San Giovanni Valdarno",
+              "desc": "Naissance le 21 décembre 1401 près d'Arezzo ; orphelin de père très jeune, il s'installe à Florence à la fin des années 1410.",
+              "type": "life",
+              "icon": "🏛️"
+            },
+            {
+              "year": 1422,
+              "title": "Triptyque de San Giovenale",
+              "desc": "Première œuvre datée (23 avril 1422), montrant déjà une intuition précoce de la perspective albertienne et la rupture avec le gothique international.",
+              "type": "masterpiece",
+              "icon": "🎨"
+            },
+            {
+              "year": 1424,
+              "title": "Sainte Anne trinitaire (Offices, Florence)",
+              "desc": "Collaboration avec Masolino da Panicale : Masaccio peint la Vierge à l'Enfant et un ange, manifestant une puissance plastique sculpturale qui éclipse son aîné.",
+              "type": "masterpiece",
+              "icon": "✨"
+            }
+          ]
+        },
+        {
+          "title": "L'Apothéose de la Chapelle Brancacci & le Polyptyque de Pise",
+          "years": "1424 – 1426",
+          "color": "#10b981",
+          "summary": "Fresques révolutionnaires de l'église Sainte-Marie-du-Carmel et chef-d'œuvre du polyptyque carmélitain de Pise.",
+          "events": [
+            {
+              "year": 1424,
+              "title": "Chantier de la chapelle Brancacci",
+              "desc": "Entreprend avec Masolino la décoration de la chapelle Brancacci à Florence ; il peint seul Le Tribut de saint Pierre, La Résurrection du fils de Théophile et la terrifiante Expulsion d'Adam et Ève du Paradis.",
+              "type": "milestone",
+              "icon": "🖌️"
+            },
+            {
+              "year": 1426,
+              "title": "Polyptyque de Pise pour l'église du Carmine",
+              "desc": "Grand retable polyptyque commandé par le notaire Giuliano di Colino (panneaux aujourd'hui dispersés entre Londres, Naples, Pise et Berlin), chef-d'œuvre de gravité antique.",
+              "type": "masterpiece",
+              "icon": "👑"
+            }
+          ]
+        },
+        {
+          "title": "La Trinité de Santa Maria Novella & Mort Prématurée à Rome",
+          "years": "1425 – 1428",
+          "color": "#d97706",
+          "summary": "Invention du trompe-l'œil architectural en perspective centrale, départ pour Rome et disparition tragique à 26 ans.",
+          "events": [
+            {
+              "year": 1425,
+              "title": "La Trinité (Santa Maria Novella, Florence)",
+              "desc": "Première application rigoureuse de la perspective linéaire de Brunelleschi sur un mur d'église : une voûte à caissons feinte ouvrant l'espace vers l'infini divin.",
+              "type": "masterpiece",
+              "artworkId": "masaccio_la_trinite_florence_1425"
+            },
+            {
+              "year": 1428,
+              "title": "Départ pour Rome avec Masolino",
+              "desc": "Rejoint Masolino à Rome pour travailler à la basilique Saint-Clément sur invitation du cardinal Branda Castiglione.",
+              "type": "voyage",
+              "icon": "🏛️"
+            },
+            {
+              "year": 1428,
+              "title": "Mort subite à 26 ans",
+              "desc": "Meurt mystérieusement à Rome à l'automne 1428 à 26 ans. Brunelleschi s'écrie à l'annonce de sa mort : « Nous avons fait en Masaccio une très grande perte ».",
+              "type": "life",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+    }
+  },
+"matisse": {
+    "id": "matisse",
+    "name": "Matisse Henri",
+    "sortName": "Matisse Henri",
+    "sortLetter": "M",
+    "dates": "1869 – 1954",
+    "movement": "Fauvisme & Modernisme européen",
+    "nationality": "Français (Cateau-Cambrésis, Nice)",
+    "techniques": "Huile sur toile, gouaches découpées (papiers collés), gravure, lithographie, sculpture en bronze, vitrail",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczMUSKHd35abPP7K46vrspzDd6O9p1kvOOusZdApx43o2nCcmZoejQpgAIYuiTeqp_1Ca8ZkVMZoH57dz5apdq-hyN36tWQWM1Tb0al5TJ3-VhkUVI0AI6OGJ-V4GyzoLPQt1JI-EPcC7No3GPWzeWfMzQ=w1589-h675-s-no-gm?authuser=0",
+    "portraitImg": "",
+    "bio": `
+      <p><strong>Le maître absolu de la couleur et chef de file du Fauvisme</strong><br>
+      Henri Matisse (1869 – 1954) est le maître incontesté de la couleur et le chef de file du Fauvisme. Grand rival et ami de Picasso, il a cherché tout au long de sa vie à atteindre une forme de simplification et de sérénité, affirmant que l'art devait être « comme un bon fauteuil » pour le spectateur.</p>
+      <p><strong>L'expressivité de la couleur pure et l'émotion affranchie du mimétisme</strong><br>
+      Son genre pictural se définit par l'expressivité de la couleur et la primauté de l'émotion sur la ressemblance. Matisse libère la couleur de sa fonction descriptive : un visage peut être vert, un ciel peut être rouge. Son style se caractérise par des aplats de couleurs vives, des cernes noirs marqués et une construction de l'espace par les contrastes chromatiques plutôt que par la perspective traditionnelle.</p>
+      <p><strong>De l'explosion fauve de Collioure aux gouaches découpées de Nice</strong><br>
+      L'évolution de son style est une quête permanente de l'essentiel, allant de l'explosion fauve à l'épure absolue : La période Fauve (1904 – 1908) où il scandalise le public avec des œuvres aux couleurs arbitraires et violentes (<em>La Femme au chapeau</em>) ; L'influence de l'Orient et la décoration (années 1910–1920) avec ses voyages au Maroc et ses odalisques niçoises ; enfin La synthèse et les gouaches découpées à la fin de sa vie, où il « dessine dans la couleur » avec la série des <em>Nus bleus</em> et le chef-d'œuvre de la Chapelle de Vence.</p>
+    `,
+    "corpus": {
+      "total": 1413,
+      "seen": 1,
+      "paintingsCount": 1413,
+      "details": [
+        {
+          "label": "Peintures à l'huile autographes répertoriées",
+          "count": 1413,
+          "icon": "🎨",
+          "color": "#ec4899",
+          "seen": 1,
+          "note": "Premier catalogue complet de l'œuvre peint par François Blondel et Hélène Ivanoff (janvier 2025)"
+        }
+      ],
+      "sourceTitle": "Catalogue de l'œuvre peint de Henri Matisse (François Blondel & Hélène Ivanoff, 2025)",
+      "sourceNotes": "En janvier 2025, profitant de l'entrée de l'œuvre de Matisse dans le domaine public, les historiens François Blondel et Hélène Ivanoff ont publié le tout premier Catalogue de l'œuvre peint de Henri Matisse. En écartant ses sculptures, ses milliers de dessins et surtout ses célébrissimes gouaches découpées (qui relèvent d'une technique mixte sur papier inventée à la fin de sa vie), cette somme d'investigation inédite fixe aujourd'hui le corpus très précis de ses peintures à l'huile à exactement 1 413 œuvres."
+    },
+    "timeline": {
+      "periods": [
+        {
+          "title": "Formation, Réalisme & Découverte de la Lumière",
+          "years": "1869 – 1903",
+          "color": "#94a3b8",
+          "summary": "Apprentissage auprès de Gustave Moreau, copies de maîtres au Louvre, natures mortes intimes et influence impressionniste.",
+          "events": [
+            {
+              "year": 1869,
+              "title": "Naissance au Cateau-Cambrésis",
+              "desc": "Naissance dans le Nord de la France ; entame d'abord des études de droit avant de découvrir sa vocation pour la peinture lors d'une convalescence en 1890.",
+              "type": "life",
+              "icon": "🏛️"
+            },
+            {
+              "year": 1895,
+              "title": "Atelier de Gustave Moreau",
+              "desc": "Entre aux Beaux-Arts dans l'atelier libéral de Gustave Moreau, qui encourage ses élèves à « rêver la couleur » et à étudier au Louvre.",
+              "type": "milestone",
+              "icon": "🎓"
+            },
+            {
+              "year": 1896,
+              "title": "Nature morte aux couteaux noirs (Montpellier)",
+              "desc": "Toile magistrale de formation conservée au musée Fabre, explorant la densité de la matière et la structure géométrique dans la tradition de Chardin.",
+              "type": "masterpiece",
+              "artworkId": "matisse_nature_morte_aux_couteaux_noirs_1896"
+            },
+            {
+              "year": 1898,
+              "title": "Voyage en Corse et découverte du Sud",
+              "desc": "Découvre à Ajaccio l'éblouissement de la lumière méditerranéenne qui transforme sa palette vers des couleurs solaires.",
+              "type": "voyage",
+              "icon": "☀️"
+            }
+          ]
+        },
+        {
+          "title": "Le Scandale Fauve, Collioure & la Danse",
+          "years": "1904 – 1916",
+          "color": "#ef4444",
+          "summary": "Séjour décisif à Collioure avec Derain, scandale de la cage aux fauves au Salon d'Automne de 1905 et commandes Chtchoukine.",
+          "events": [
+            {
+              "year": 1905,
+              "title": "L'été fauve à Collioure & Le Salon d'Automne",
+              "desc": "Passe l'été 1905 à Collioure avec Derain et expose au Salon d'Automne La Femme au chapeau, provoquant l'exclamation de Vauxcelles : « Donatello parmi les fauves ! ».",
+              "type": "milestone",
+              "icon": "🦁"
+            },
+            {
+              "year": 1906,
+              "title": "Le Bonheur de vivre",
+              "desc": "Grande composition arcadienne exposée aux Indépendants, célébrant une vision sensuelle et harmonieuse de l'humanité dans la nature pure.",
+              "type": "masterpiece",
+              "icon": "🌿"
+            },
+            {
+              "year": 1910,
+              "title": "La Danse et La Musique (Ermitage)",
+              "desc": "Deux panneaux décoratifs monumentaux peints pour l'hôtel particulier moscovite du mécène Sergueï Chtchoukine, triomphe de la trilogie bleu-vert-rouge.",
+              "type": "masterpiece",
+              "icon": "💃"
+            },
+            {
+              "year": 1912,
+              "title": "Séjours au Maroc",
+              "desc": "Deux voyages à Tanger où il découvre la grâce des étoffes orientales, l'architecture islamique et l'accord apaisé des bleus et des roses.",
+              "type": "voyage",
+              "icon": "🕌"
+            }
+          ]
+        },
+        {
+          "title": "L'Époque Niçoise, les Odalisques & les Gouaches Découpées",
+          "years": "1917 – 1954",
+          "color": "#f59e0b",
+          "summary": "Installation à Nice, intérieurs décoratifs foisonnants, odalisques et invention finale du dessin dans la couleur.",
+          "events": [
+            {
+              "year": 1917,
+              "title": "Installation sur la Côte d'Azur",
+              "desc": "S'établit à Nice à l'hôtel Beau-Rivage puis au Régina à Cimiez, peignant des fenêtres ouvertes sur la Baie des Anges et des intérieurs chatoyants.",
+              "type": "life",
+              "icon": "🌴"
+            },
+            {
+              "year": 1921,
+              "title": "Le cycle des Odalisques",
+              "desc": "Série somptueuse de figures féminines costumées entourées de paravents mauresques, de tapis d'Orient et de tissus à motifs répétitifs.",
+              "type": "masterpiece",
+              "icon": "🛋️"
+            },
+            {
+              "year": 1941,
+              "title": "Invention des gouaches découpées",
+              "desc": "Après une lourde opération chirurgicale, immobilisé, il invente sa technique de papier gouaché découpé aux ciseaux : « découper à vif dans la couleur ».",
+              "type": "milestone",
+              "icon": "✂️"
+            },
+            {
+              "year": 1951,
+              "title": "Inauguration de la Chapelle du Rosaire de Vence",
+              "desc": "Considère la Chapelle de Vence comme l'aboutissement de toute son existence : architecture, vitraux aux trois couleurs pures et céramiques murales.",
+              "type": "masterpiece",
+              "icon": "⛪"
+            },
+            {
+              "year": 1954,
+              "title": "Mort à Nice",
+              "desc": "S'éteint le 3 novembre 1954 à l'âge de 84 ans à Nice ; repose au cimetière de Cimiez face aux collines de la Méditerranée.",
+              "type": "life",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+    }
+  },
+"meissonier": {
+    "id": "meissonier",
+    "name": "Meissonier Ernest",
+    "sortName": "Meissonier Ernest",
+    "sortLetter": "M",
+    "dates": "1815 – 1891",
+    "movement": "Peinture académique française, Réalisme militaire & Second Empire",
+    "nationality": "Français (Lyon, Paris, Poissy)",
+    "techniques": "Huile sur bois (formats réduits de cabinet) et sur toile, précision microscopique hollandaise, statuettes préparatoires en cire, aquarelle",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczMsj7l4LXEtukiSCTU8DUUyL3FhbPOqCY0a_jjGtJ-c1mIF_V1Rp-uDs3BRbtN_CtPlKpPj00XGzSx9z-8r-CAbG-CpU5XWPAN8U6YUK56LA2FUIKSEJskjdvD_SVNyX-nOokNNSbfOlztw9Lyzr16gMA=w1589-h675-s-no-gm?authuser=0",
+    "portraitImg": "",
+    "bio": `
+      <p><strong>Le maître incontesté de l'épopée napoléonienne et du détail historique</strong><br>
+      Ernest Meissonier (1815 – 1891) est l'une des figures les plus célébrées, médaillées et fortunées de la peinture académique française du Second Empire et de la IIIe République. Peintre méticuleux à l'extrême, rivalisant avec la précision des maîtres hollandais du Siècle d'or, il est devenu le chantre incontesté de l'épopée napoléonienne et des scènes de genre d'Ancien Régime, portant le souci du détail documentaire et de la fidélité historique à un degré de virtuosité rarement égalé.</p>
+      <p><strong>Facture microscopique, érudition maniaque et rendu tactile des matières</strong><br>
+      Son genre pictural se définit par la peinture d'histoire militaire, la scène de genre historiciste en format réduit (peinture de cabinet) et le portrait d'apparat. Son style se caractérise par une facture microscopique et lisse, un rendu virtuose des matières (soieries, cuirs, métaux astiqués, pelages des chevaux), une reconstitution archéologique maniaque des uniformes et de l'armement, ainsi qu'une maîtrise impeccable du dessin anatomique et de la perspective linéaire.</p>
+      <p><strong>Des scènes de genre d'Ancien Régime à la gloire de 1814 et 1807</strong><br>
+      L'évolution de son style marque un passage des scènes d'intimité rétrograde vers l'apothéose monumentale du mythe napoléonien : Les scènes de genre et le succès des petits formats (années 1830–1850) inspirés de Gabriel Metsu et Pieter de Hooch (<em>Le Liseur</em>, <em>La Partie d'échecs</em>) ; Le peintre officiel de l'armée et la campagne d'Italie (1859–1860) où il assiste à la bataille de Solférino ; et enfin Le cycle monumental de l'épopée napoléonienne (années 1860–1880) avec <em>1814, Campagne de France</em> et <em>1807, Friedland</em>, devenant le premier artiste à recevoir la grand-croix de la Légion d'honneur.</p>
+    `,
+    "corpus": {
+      "total": 425,
+      "seen": 0,
+      "paintingsCount": 425,
+      "details": [
+        {
+          "label": "Peintures à l'huile achevées répertoriées",
+          "count": 425,
+          "icon": "🎖️",
+          "color": "#3b82f6",
+          "seen": 0,
+          "note": "Consensus scientifique fixé à environ 400-450 peintures achevées (monographie Constance Cain Hungerford 1999 & rétrospective MBA Lyon 1993)"
+        }
+      ],
+      "sourceTitle": "Monographie Constance Cain Hungerford (1999) & Rétrospective MBA Lyon (1993)",
+      "sourceNotes": "L'inventaire de référence moderne s'appuie sur le travail monumental de l'historienne de l'art américaine Constance Cain Hungerford (auteur de la monographie définitive Ernest Meissonier: Master in his Genre, 1999) ainsi que sur le catalogue de la grande rétrospective historique tenue au musée des Beaux-Arts de Lyon en 1993. Le peintre n'ayant pas fait l'objet d'un catalogue raisonné historique absolu validant cliniquement chaque numéro, la recherche a dû faire le tri dans ses ventes posthumes (notamment la titanesque vente de son atelier à Drouot en 1893). En écartant ses innombrables aquarelles, ses illustrations et ses statuettes en cire, le consensus scientifique fixe le corpus de ses toiles achevées à environ 400 à 450 peintures."
+    },
+    "timeline": {
+      "periods": [
+        {
+          "title": "Jeunesse, Débuts Illustrateur & Petits Formats d'Ancien Régime",
+          "years": "1815 – 1858",
+          "color": "#94a3b8",
+          "summary": "Enfance lyonnaise, illustrateur de livres romantiques, triomphe des scènes de cabinet hollandaises et succès au Salon.",
+          "events": [
+            {
+              "year": 1815,
+              "title": "Naissance à Lyon",
+              "desc": "Naissance à Lyon le 21 février 1815 dans une famille de marchands drapiers ; monte à Paris et se forme auprès de Léon Cogniet.",
+              "type": "life",
+              "icon": "🏛️"
+            },
+            {
+              "year": 1840,
+              "title": "Le Liseur (Salon de 1840)",
+              "desc": "Présente au Salon un petit panneau précieux figurant un gentilhomme du XVIIIe siècle absorbé dans sa lecture, acheté par le duc d'Orléans.",
+              "type": "masterpiece",
+              "icon": "📖"
+            },
+            {
+              "year": 1855,
+              "title": "Grande Médaille d'honneur à l'Exposition Universelle",
+              "desc": "Triomphe à l'Exposition universelle de Paris avec La Rixe, tableau acquis par Napoléon III pour l'offrir au prince Albert de Grande-Bretagne.",
+              "type": "milestone",
+              "icon": "🏅"
+            }
+          ]
+        },
+        {
+          "title": "Peintre Militaire Impérial & la Campagne d'Italie",
+          "years": "1859 – 1870",
+          "color": "#ef4444",
+          "summary": "Témoin de la bataille de Solférino, renouvellement du reportage militaire documentaire et début du cycle napoléonien.",
+          "events": [
+            {
+              "year": 1859,
+              "title": "Campagne d'Italie avec Napoléon III",
+              "desc": "Attaché à l'état-major impérial, il assiste aux combats sanglants de Solférino pour en consigner les détails topographiques réels.",
+              "type": "voyage",
+              "icon": "⚔️"
+            },
+            {
+              "year": 1863,
+              "title": "Napoléon III à la bataille de Solférino",
+              "desc": "Présente au Salon de 1864 cette vision moderne et presque photographique du champ de bataille, conservée au musée d'Orsay.",
+              "type": "masterpiece",
+              "icon": "🎖️"
+            },
+            {
+              "year": 1864,
+              "title": "1814, Campagne de France (Musée d'Orsay)",
+              "desc": "Chef-d'œuvre absolu de l'épopée napoléonienne montrant l'Empereur sombre et résigné avançant dans la boue et la neige avec son état-major.",
+              "type": "masterpiece",
+              "icon": "❄️"
+            }
+          ]
+        },
+        {
+          "title": "La IIIe République, 1807 Friedland & la Gloire Internationale",
+          "years": "1871 – 1891",
+          "color": "#d97706",
+          "summary": "Engagement patriotique durant le Siège de Paris, vente record de Friedland et grand-croix de la Légion d'honneur.",
+          "events": [
+            {
+              "year": 1870,
+              "title": "Le Siège de Paris",
+              "desc": "Colonel de la Garde nationale pendant la guerre franco-prussienne, il peint Le Siège de Paris, allégorie patriotique dramatique.",
+              "type": "milestone",
+              "icon": "🛡️"
+            },
+            {
+              "year": 1875,
+              "title": "1807, Friedland (Metropolitan Museum, New York)",
+              "desc": "Après quatorze ans de travail acharné, il achève cette charge héroïque de cuirassiers acclamant Napoléon, vendue pour la somme record de 300 000 francs au mécène américain Stewart.",
+              "type": "masterpiece",
+              "icon": "🐎"
+            },
+            {
+              "year": 1889,
+              "title": "Grand-croix de la Légion d'honneur",
+              "desc": "Premier artiste de l'histoire à être élevé à la dignité suprême de grand-croix de la Légion d'honneur.",
+              "type": "milestone",
+              "icon": "🎖️"
+            },
+            {
+              "year": 1891,
+              "title": "Mort à Paris",
+              "desc": "S'éteint le 31 janvier 1891 à 75 ans ; obsèques nationales à la Madeleine célébrées avec les honneurs militaires.",
+              "type": "life",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+    }
+  },
+"memling": {
+    "id": "memling",
+    "name": "Memling Hans",
+    "sortName": "Memling Hans",
+    "sortLetter": "M",
+    "dates": "v. 1430 – 1494",
+    "movement": "Primitifs flamands (École de Bruges)",
+    "nationality": "Flamand / Allemand (Seligenstadt, Bruxelles, Bruges)",
+    "techniques": "Huile sur panneau de bois, retables polyptiques et triptyques de dévotion, perspective atmosphérique, miniatures à l'huile",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczP3NmU4HWj3GT5vsEOOm1_4gbSZgRBbzZ1cRMVJ2bKaSHoCToOkqB1Bow1FtZLMMtPevfdvhqDK06YMcay6_k-y0iaTrvwqO8ahnmcsEsq40VTorxqB49OJR-yHk4CspafUxti70cnTrEY6bf42sNLfoA=w1589-h675-s-no-gm?authuser=0",
+    "portraitImg": "",
+    "bio": `
+      <p><strong>L'apogée de la sérénité flamande et la gloire de Bruges</strong><br>
+      Hans Memling, né vers 1430 en Allemagne et mort à Bruges en 1494, est l'un des plus grands maîtres de la peinture flamande du XVe siècle. Formé probablement à Bruxelles dans l'atelier de Rogier van der Weyden, il s'établit à Bruges dont il devient l'artiste le plus prospère et le plus sollicité. Memling incarne l'apogée de la Renaissance nordique, réussissant à synthétiser l'héritage de ses prédécesseurs, comme Jan van Eyck, pour créer une œuvre d'une sérénité et d'une clarté exceptionnelles, parfaitement adaptée au goût de la riche bourgeoisie et des ordres religieux de l'époque.</p>
+      <p><strong>Harmonie chromatique, paysages poétiques et grâce des Vierges</strong><br>
+      Son genre pictural repose sur un équilibre parfait entre le réalisme minutieux des détails et une idéalisation empreinte de douceur. Maître des retables polyptiques et du portrait, Memling se distingue par la création de paysages d'arrière-plan d'une grande poésie, intégrant ses personnages dans des décors domestiques ou naturels baignés d'une lumière cristalline. Son style est caractérisé par une harmonie chromatique et une élégance tranquille, loin de la tension dramatique de son maître Van der Weyden. Ses Vierges à l'enfant, entourées d'anges musiciens, sont devenues des modèles de grâce et de piété domestique pour toute l'Europe.</p>
+      <p><strong>De la Châsse de sainte Ursule au rayonnement européen</strong><br>
+      L'évolution de son style montre une continuité remarquable vers une maîtrise spatiale toujours plus aboutie. S'il reste fidèle à la technique de la peinture à l'huile sur bois typique des Primitifs flamands, il innove en introduisant des compositions plus ouvertes et des points de vue novateurs. Sa maturité est marquée par des chefs-d'œuvre narratifs monumentaux, comme la Châsse de sainte Ursule, où il déploie un talent de miniaturiste à grande échelle. Jusqu'à la fin de sa vie, il a su maintenir une précision technique absolue tout en adoucissant les traits de ses modèles, influençant durablement la peinture de portrait en Italie, notamment chez de jeunes maîtres comme Léonard de Vinci ou Raphaël.</p>
+    `,
+    "corpus": {
+      "total": 93,
+      "seen": 2,
+      "paintingsCount": 93,
+      "details": [
+        {
+          "label": "Retables, triptyques, diptyques et panneaux autographes",
+          "count": 93,
+          "icon": "🎨",
+          "color": "#10b981",
+          "seen": 2,
+          "note": "Catalogue raisonné exhaustif établi par Dirk De Vos (1994, 93 numéros autographes)"
+        }
+      ],
+      "sourceTitle": "Catalogue raisonné Dirk De Vos (Hans Memling : L'œuvre complet, 1994)",
+      "sourceNotes": "L'inventaire scientifique de référence mondiale est le monumental catalogue raisonné publié par le grand historien de l'art belge Dirk De Vos en 1994 (Hans Memling : L'œuvre complet). En regroupant les immenses retables démembrés, en comptant les fameux diptyques et triptyques comme des ensembles organiques, et en écartant les innombrables copies générées par le succès phénoménal de son atelier à Bruges, ce catalogue exhaustif fixe le corpus officiel et autographe de Memling à très exactement 93 œuvres."
+    },
+    "timeline": {
+      "periods": [
+        {
+          "title": "Formation rhénane & Séjour chez Van der Weyden à Bruxelles",
+          "years": "1430 – 1464",
+          "color": "#94a3b8",
+          "summary": "Origines allemandes de Seligenstadt, apprentissage à Cologne et formation auprès du maître Rogier van der Weyden.",
+          "events": [
+            {
+              "year": 1430,
+              "title": "Naissance à Seligenstadt",
+              "desc": "Naissance près de Francfort-sur-le-Main ; se forme dans la tradition rhénane à Mayence et Cologne avant de gagner les Flandres.",
+              "type": "life",
+              "icon": "🏛️"
+            },
+            {
+              "year": 1455,
+              "title": "Atelier de Rogier van der Weyden à Bruxelles",
+              "desc": "Travaille comme principal collaborateur dans l'atelier bruxellois de Van der Weyden jusqu'à la mort de ce dernier en 1464.",
+              "type": "milestone",
+              "icon": "🎨"
+            }
+          ]
+        },
+        {
+          "title": "Citoyenneté de Bruges, Mariage & Retables Célèbres",
+          "years": "1465 – 1480",
+          "color": "#38bdf8",
+          "summary": "Installation à Bruges, accession à la citoyenneté bourgeoise, commandes des marchands italiens et espagnols et Le Jugement dernier.",
+          "events": [
+            {
+              "year": 1465,
+              "title": "Installation et droit de bourgeoisie à Bruges",
+              "desc": "S'inscrit comme bourgeois de Bruges le 30 janvier 1465 et installe son atelier florissant dans le quartier des peintres.",
+              "type": "life",
+              "icon": "📜"
+            },
+            {
+              "year": 1467,
+              "title": "Le Triptyque du Jugement dernier (Gdańsk)",
+              "desc": "Commandé par le banquier florentin Angelo Tani pour l'église des Médicis, capturé en mer par des corsaires hanséatiques en 1473 et installé à Gdańsk.",
+              "type": "masterpiece",
+              "icon": "⚖️"
+            },
+            {
+              "year": 1475,
+              "title": "Vierge à l'Enfant dans un paysage (Cathédrale de Burgos)",
+              "desc": "Triptyque de dévotion privée aux volets calligraphiés en latin témoignant des liens commerciaux intenses entre les marchands de Castille et Bruges.",
+              "type": "masterpiece",
+              "artworkId": "memling_vierge_enfant_cathedrale_burgos_1475"
+            },
+            {
+              "year": 1479,
+              "title": "Le Mariage mystique de sainte Catherine (Hôpital Saint-Jean)",
+              "desc": "Monumental retable polyptyque commandé pour le maître-autel de l'Hôpital Saint-Jean à Bruges, apogée de sa sérénité limpide.",
+              "type": "masterpiece",
+              "icon": "👑"
+            }
+          ]
+        },
+        {
+          "title": "La Châsse de sainte Ursule, Lisbonne & l'Héritage Européen",
+          "years": "1481 – 1494",
+          "color": "#10b981",
+          "summary": "Miniatures sur bois de la châsse de sainte Ursule, portraits de donateurs et fin de vie prospère à Bruges.",
+          "events": [
+            {
+              "year": 1485,
+              "title": "Vierge à l'Enfant à la pomme (Lisbonne)",
+              "desc": "Panneau intime et harmonieux montrant l'Enfant tenant la pomme du péché originel sur un luxueux tapis d'Orient devant une fenêtre ouverte.",
+              "type": "masterpiece",
+              "artworkId": "memling_vierge_enfant_lisbonne_1485"
+            },
+            {
+              "year": 1489,
+              "title": "La Châsse de sainte Ursule (Bruges)",
+              "desc": "Reliquaire en bois doré en forme de chapelle gothique peint de six scènes miniatures narrant la légende de la sainte avec une virtuosité stupéfiante.",
+              "type": "masterpiece",
+              "icon": "✨"
+            },
+            {
+              "year": 1494,
+              "title": "Mort à Bruges",
+              "desc": "S'éteint le 11 août 1494 à Bruges, universellement reconnu comme l'un des peintres les plus riches et illustres de son siècle.",
+              "type": "life",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+    }
+  },
 });
 
 
@@ -4360,3 +4900,7 @@ window.ARTISTS_REGISTRY["fra_filippo_lippi"] = window.ARTISTS_REGISTRY["lippi_fi
 window.ARTISTS_REGISTRY["andrea_mantegna"] = window.ARTISTS_REGISTRY["mantegna"];
 window.ARTISTS_REGISTRY["piero_manzoni"] = window.ARTISTS_REGISTRY["manzoni"];
 window.ARTISTS_REGISTRY["simone_martini"] = window.ARTISTS_REGISTRY["martini_simone"];
+
+window.ARTISTS_REGISTRY["henri_matisse"] = window.ARTISTS_REGISTRY["matisse"];
+window.ARTISTS_REGISTRY["ernest_meissonier"] = window.ARTISTS_REGISTRY["meissonier"];
+window.ARTISTS_REGISTRY["hans_memling"] = window.ARTISTS_REGISTRY["memling"];

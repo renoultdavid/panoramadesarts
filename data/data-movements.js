@@ -79,7 +79,7 @@ window.MOVEMENTS_DATA = {
         "dates": "1401 – 1428",
         "role": "Pionnier absolu de la perspective monumentale",
         "desc": "Fresques de la chapelle Brancacci (Le Tribut) et Trinité de Santa Maria Novella.",
-        "artistId": "",
+        "artistId": "masaccio",
         "icon": "📐"
       },
       {
@@ -160,7 +160,7 @@ window.MOVEMENTS_DATA = {
         "dates": "1435 – 1494",
         "role": "Peintre de la piété sereine et des portraits bourgeois",
         "desc": "Châsse de sainte Ursule et Triptyque Donne (Bruges).",
-        "artistId": "",
+        "artistId": "memling",
         "icon": "🕊️"
       }
     ]
@@ -731,7 +731,7 @@ window.MOVEMENTS_DATA = {
         "dates": "1869 – 1954",
         "role": "Maître absolu de la couleur émancipée et du dessin fluide",
         "desc": "La Danse, La Joie de vivre, La Raie verte et papiers gouachés découpés.",
-        "artistId": "",
+        "artistId": "matisse",
         "icon": "🎨"
       },
       {
@@ -1493,7 +1493,7 @@ window.MOVEMENTS_DATA = {
         "dates": "1401 – 1428",
         "role": "Premier peintre appliquant la perspective géométrique rigoureuse",
         "desc": "La Trinité de Santa Maria Novella.",
-        "artistId": "",
+        "artistId": "masaccio",
         "icon": "✝️"
       }
     ]
