@@ -2885,7 +2885,23 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       <p><strong>De Vence à New York : l'échelle monumentale et l'espace public</strong><br>
       Installé entre Vence et New York à partir des années 1960, Arman étend progressivement son travail à l'échelle monumentale et investit l'espace public à travers le monde, comme en témoignent <em>L'Heure de tous</em> devant la gare Saint-Lazare à Paris ou <em>Long Term Parking</em> à Jouy-en-Josas. Jusqu'à sa disparition en 2005, il n'a cessé d'explorer la frontière entre l'art, l'industrie et la mémoire collective. Son œuvre, à la fois ludique, critique et profondément plastique, demeure une référence incontournable pour comprendre la mutation du regard artistique face à l'ère industrielle.</p>
     `,
-    "biographyTimeline": {
+        "corpus": {
+      "total": 10000,
+      "seen": 1,
+      "paintingsCount": 10000,
+      "details": [
+        {
+          "label": "Œuvres originales et sculptures numérotées",
+          "count": 10000,
+          "icon": "📦",
+          "color": "#d4af37",
+          "seen": 1
+        }
+      ],
+      "sourceTitle": "Catalogue raisonné Denyse Durand-Ruel & Arman Studio Archives",
+      "sourceNotes": "L'inventaire de référence repose sur le colossal travail d'archivage initié par Denyse Durand-Ruel (qui a publié les premiers volumes du Catalogue raisonné) et aujourd'hui poursuivi par les Arman Studio Archives. Arman travaillait avec une frénésie stakhanoviste, s'appropriant le principe même de la production à la chaîne qu'il dénonçait et célébrait à la fois. Si l'on écarte ses estampes et ses lithographies, la base de données des seules œuvres originales uniques et des sculptures numérotées de Denyse Durand-Ruel atteint des numéros d'inventaire dépassant la cote 9 900, frôlant ainsi très officiellement les 10 000 pièces."
+    },
+"biographyTimeline": {
       "birth": {
         "year": 1928,
         "place": "Nice (Alpes-Maritimes, France)",
@@ -3016,9 +3032,527 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
         }
       ]
     }
+  },
+  "lorenzetti_ambrogio": {
+    "id": "lorenzetti_ambrogio",
+    "name": "Lorenzetti Ambrogio",
+    "sortName": "Lorenzetti Ambrogio",
+    "sortLetter": "L",
+    "dates": "v. 1290 – 1348",
+    "century": "XIVe siècle",
+    "nationality": "Italien (Sienne)",
+    "movement": "Trecento siennois & Pré-Renaissance italienne",
+    "techniques": "Fresque murale, tempera et fond d'or sur panneau de bois, allégorie profane, perspective intuitive",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczNoAk9kG5SGzKIRb8kfnsCe5U_sUkzaLK6168JyS5y9fG6e-d_ahriMGWoXveBfQgaIpC-BoJzEpf6ZtcfLXVViJ7GCk3LzwzhFQFQbGqJWwW1uvWadfW6xUSwDB-RNBk5LxQJRJrP8luRRMULmdvb-Kg=w1589-h675-s-no-gm?authuser=0",
+    "portraitImg": "",
+    "bio": `
+      <p><strong>L'innovateur de Sienne et le père du paysage politique moderne</strong><br>
+      Ambrogio Lorenzetti (v. 1290 – 1348) est l'un des plus grands innovateurs de l'école de Sienne au XIVe siècle. Frère cadet de Pietro Lorenzetti, il a transcendé la tradition byzantine pour inventer un langage pictural d'une modernité stupéfiante, mêlant une observation naturaliste du monde à une réflexion intellectuelle et politique profonde.</p>
+      <p><strong>Allégorie politique, perspective cavalière et portraits de territoires</strong><br>
+      Son genre pictural se définit par l'allégorie politique et le paysage topographique. Son style se caractérise par une maîtrise précoce de la perspective cavalière, un sens aigu du détail quotidien et une capacité unique à représenter l'espace urbain et rural de manière réaliste. Il est l'un des premiers à peindre des paysages qui ne sont plus des fonds symboliques, mais des portraits de territoires réels.</p>
+      <p><strong>L'apogée de l'humanisme siennois avant la Peste Noire</strong><br>
+      L'évolution de son style marque le sommet de la peinture toscane du Trecento :<br>
+      <em>L'influence de Giotto et la plasticité (débuts) :</em> Tout en conservant l'élégance linéaire de Sienne, il intègre la monumentalité et le volume des figures de Giotto. Ses madones possèdent une présence physique et une tendresse humaine nouvelles.<br>
+      <em>Le naturalisme et l'espace (années 1330) :</em> Il commence à explorer des compositions spatiales complexes. Dans ses petites scènes narratives, il s'attache à rendre la lumière et les textures avec une précision qui annonce presque la Renaissance nordique.<br>
+      <em>Le sommet : Le cycle du Palais Public (1338 – 1339) :</em> Dans la « Salle des Neuf » à Sienne, il peint les fresques des <em>Effets du Bon et du Mauvais Gouvernement</em>. Son style y devient encyclopédique : il représente la ville de Sienne et sa campagne avec une profusion de détails (artisans au travail, paysans aux champs) qui constituent le premier grand paysage profane de l'histoire de l'art occidental.</p>
+    `,
+    "corpus": {
+      "total": 45,
+      "seen": 1,
+      "paintingsCount": 45,
+      "details": [
+        {
+          "label": "Panneaux autographes & cycles de fresques",
+          "count": 45,
+          "icon": "🎨",
+          "color": "#d4af37",
+          "seen": 1
+        }
+      ],
+      "sourceTitle": "Exposition monographique Santa Maria della Scala, Sienne (2017-2018)",
+      "sourceNotes": "L'inventaire scientifique de référence a été brillamment mis à jour et épuré lors de la gigantesque exposition monographique qui lui a été consacrée à Sienne (au complexe Santa Maria della Scala) en 2017-2018, sous la direction des éminents historiens de l'art Alessandro Bagnoli et Roberto Bartalini. Si l'on ne compte historiquement que six œuvres strictement signées et datées de sa main, le travail moderne d'attribution permet de reconstituer un corpus bien plus vaste. En regroupant les panneaux isolés issus de polyptyques dispersés et en comptant ses grands cycles de fresques comme des entités majeures, le consensus scientifique fixe aujourd'hui son œuvre autographe survivant à environ 45 œuvres."
+    },
+    "biographyTimeline": {
+      "birth": {
+        "year": 1290,
+        "place": "Sienne (Toscane)",
+        "title": "Naissance d'Ambrogio Lorenzetti",
+        "desc": "Naît à Sienne dans une illustre famille de peintres, frère cadet de Pietro Lorenzetti."
+      },
+      "death": {
+        "year": 1348,
+        "place": "Sienne (Toscane)",
+        "title": "Mort durant la Peste Noire",
+        "desc": "Disparaît en 1348 lors de la terrible épidémie de peste noire qui ravage Sienne et emporte également son frère Pietro."
+      },
+      "periods": [
+        {
+          "title": "Les Débuts et l'affirmation plastique",
+          "years": "1319 – 1330",
+          "color": "#38bdf8",
+          "summary": "Formation siennoise émancipée de Duccio et assimilation précoce de la leçon sculpturale de Giotto et d'Arnolfo di Cambio.",
+          "events": [
+            {
+              "year": 1319,
+              "title": "La Vierge et l'Enfant (Musée du Louvre)",
+              "desc": "Panneau central de polyptyque d'une saisissante humanité montrant un Enfant Jésus gigotant et attentif, conservé au Louvre.",
+              "type": "masterpiece",
+              "artworkId": "lorenzetti_ambrogio_vierge_enfant_louvre_1319"
+            },
+            {
+              "year": 1319,
+              "title": "Madone de Vico l'Abate",
+              "desc": "Première œuvre datée avec certitude, imposant une monumentalité hiératique puissante et des volumes denses.",
+              "type": "milestone",
+              "icon": "🏛️"
+            },
+            {
+              "year": 1327,
+              "title": "Séjour à Florence et Arte dei Medici e Speziali",
+              "desc": "S'inscrit à la corporation des peintres florentins, s'imprégnant des recherches perspectives et naturalistes de la cité de l'Arno.",
+              "type": "life",
+              "icon": "📜"
+            }
+          ]
+        },
+        {
+          "title": "Maturité siennoise et cycles religieux",
+          "years": "1331 – 1337",
+          "color": "#d4af37",
+          "summary": "Réalisation de grands retables et de fresques monastiques où l'espace architectural et la lumière s'approfondissent.",
+          "events": [
+            {
+              "year": 1332,
+              "title": "Triptyque de San Procolo à Florence",
+              "desc": "Cycle peint pour l'église San Procolo, illustrant des scènes de la vie de saint Nicolas avec une précision narrative stupéfiante.",
+              "type": "milestone",
+              "icon": "✨"
+            },
+            {
+              "year": 1335,
+              "title": "Fresques de Santa Maria della Scala",
+              "desc": "Collabore avec son frère Pietro sur la façade de l'hôpital de Sienne pour des scènes mariales aujourd'hui perdues.",
+              "type": "milestone",
+              "icon": "🎨"
+            },
+            {
+              "year": 1337,
+              "title": "Fresques de San Francesco à Sienne",
+              "desc": "Peint le Martyre des Franciscains et saint Louis de Toulouse devant le pape Boniface VIII, déployant une dramaturgie spatiale complexe.",
+              "type": "milestone",
+              "icon": "⛪"
+            }
+          ]
+        },
+        {
+          "title": "Le Chef-d'œuvre du Palais Public : Le Bon Gouvernement",
+          "years": "1338 – 1340",
+          "color": "#10b981",
+          "summary": "Création monumentale au cœur de la république siennoise du premier grand cycle de paysage profane de l'Occident.",
+          "events": [
+            {
+              "year": 1338,
+              "title": "Commande des Neuf à la Sala della Pace",
+              "desc": "Le gouvernement des Neuf lui confie la décoration de la salle des délibérations du Palazzo Pubblico de Sienne.",
+              "type": "life",
+              "icon": "🏛️"
+            },
+            {
+              "year": 1339,
+              "title": "Achèvement des Effets du Bon et du Mauvais Gouvernement",
+              "desc": "Fresque encyclopédique immortalisant la ville médiévale vivante, les danseuses, les marchands et les travaux des champs dans les collines toscanes.",
+              "type": "masterpiece",
+              "icon": "👑"
+            }
+          ]
+        },
+        {
+          "title": "Les Dernières Années et l'Annonciation",
+          "years": "1340 – 1348",
+          "color": "#8b5cf6",
+          "summary": "Derniers chefs-d'œuvre perspectives pour la cathédrale de Sienne avant la catastrophe démographique de 1348.",
+          "events": [
+            {
+              "year": 1342,
+              "title": "La Présentation au Temple (Galerie des Offices)",
+              "desc": "Retable pour l'autel Saint-Crépin de la cathédrale de Sienne, modèle de convergence spatiale et de colonnades fuyantes.",
+              "type": "masterpiece",
+              "icon": "⛪"
+            },
+            {
+              "year": 1344,
+              "title": "L'Annonciation (Pinacothèque nationale de Sienne)",
+              "desc": "Dernière œuvre signée et datée, célèbre pour son carrelage au sol convergent vers un point de fuite central rigoureux.",
+              "type": "masterpiece",
+              "icon": "🕊️"
+            },
+            {
+              "year": 1348,
+              "title": "Testament et Peste Noire",
+              "desc": "Rédige son testament le 9 juin 1348 avant de succomber avec toute sa famille à l'épidémie dévastatrice.",
+              "type": "life",
+              "icon": "⚰️"
+            }
+          ]
+        }
+      ]
+    }
+  },
+
+  "lorenzetti_pietro": {
+    "id": "lorenzetti_pietro",
+    "name": "Lorenzetti Pietro",
+    "sortName": "Lorenzetti Pietro",
+    "sortLetter": "L",
+    "dates": "v. 1280 – 1348",
+    "century": "XIVe siècle",
+    "nationality": "Italien (Sienne)",
+    "movement": "Trecento siennois & Pré-Renaissance italienne",
+    "techniques": "Fresque murale, tempera et fond d'or sur panneau de bois, retables polyptyques, dramaturgie sacrée",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczMRqki6YckhmMezUyXOmtkDXVlMqOYDq6vIpry6fpChnVNbN6DnSZ1Gm-A_wOW68DbrRAmWc6KKBGCTwR4TX7rR8lfRiW8LYgB1AKg2dCadckzKC6fDGLWiGimghBO7KqPhsSlBnD4ONDR50hRRK56Arg=w1589-h675-s-no-gm?authuser=0",
+    "portraitImg": "",
+    "bio": `
+      <p><strong>Le maître de la dramaturgie sacrée et de l'espace illusionniste</strong><br>
+      Pietro Lorenzetti (v. 1280 – 1348) est, aux côtés de son frère cadet Ambrogio et de Simone Martini, l'un des maîtres incontournables du Trecento siennois. Tout en s'inscrivant dans le raffinement décoratif hérité de Duccio, Pietro se singularise par une intensité dramatique bouleversante et une recherche spatiale novatrice, opérant une synthèse magistrale entre le lyrisme siennois et la puissance plastique et émotionnelle de Giotto et de Giovanni Pisano.</p>
+      <p><strong>Polyptyques d'autel, expressivité tragique et perspective architecturale</strong><br>
+      Son genre pictural se définit par le polyptyque d'autel sur fond d'or, le grand décor à fresque narratif et le panneau de dévotion sacrée. Son style se caractérise par des figures au modelé puissant, des regards perçants d'une gravité tragique, une gestion hardie des raccourcis et des perspectives architecturales intérieures, ainsi qu'une attention aiguë aux effets d'ombres portées et de lumière naturelle ou nocturne.</p>
+      <p><strong>De la rigueur plastique à l'espace intérieur continu</strong><br>
+      L'évolution de son style marque un passage de l'expressivité plastique vers une illusion spatiale et architecturale révolutionnaire :<br>
+      <em>La formation et le polyptyque Tarlati (années 1310 – 1320) :</em> Formé dans le sillage de Duccio, il s'en émancipe rapidement sous l'impact de la sculpture expressive de Giovanni Pisano. Son Polyptyque de Pieve di Santa Maria à Arezzo (1320) affirme déjà des figures solides, sculptées dans l'espace, unies par des liens psychologiques et des regards d'une intensité inédite entre les saints.<br>
+      <em>Le sommet tragique d'Assise (vers 1320 – 1330) :</em> Dans le transept sud de l'église inférieure de Saint-François d'Assise, il réalise un cycle magistral sur la Passion du Christ. Sa <em>Déposition de la Croix</em> frappe par son dépouillement douloureux, le corps brisé du Christ formant un arc tendu, tandis que son <em>Arrestation du Christ</em> met en scène un ciel étoilé et des éclairages nocturnes aux lanternes qui bouleversent la convention du fond d'or.<br>
+      <em>La maturité spatiale et la Nativité de la Vierge (années 1330 – 1348) :</em> De retour à Sienne, il peint en 1342 son chef-d'œuvre absolu pour la cathédrale : <em>La Nativité de la Vierge</em>. Il y accomplit une révolution perspective en transformant le triptyque gothique en un espace intérieur domestique unifié et continu, les piliers réels du cadre en bois coïncidant avec les colonnes peintes de la chambre d'Anne. Il disparaît probablement lors de la terrible épidémie de peste noire de 1348.</p>
+    `,
+    "corpus": {
+      "total": 65,
+      "seen": 0,
+      "paintingsCount": 65,
+      "details": [
+        {
+          "label": "Panneaux autographes & chantiers de fresques",
+          "count": 65,
+          "icon": "🎨",
+          "color": "#d4af37",
+          "seen": 0
+        }
+      ],
+      "sourceTitle": "Monographie Carlo Volpe (1989) & consensus Hayden B.J. Maginnis",
+      "sourceNotes": "Le catalogue scientifique de référence de Pietro Lorenzetti a été établi par Carlo Volpe (1989) et affiné par les études critiques de Hayden B.J. Maginnis (The World of the Early Sienese Painter). Le destin de Pietro a été marqué par le démembrement de ses immenses polyptyques (comme le célèbre retable des Carmes, dont les fragments sont aujourd'hui dispersés entre Sienne, Yale et Pasadena). En regroupant ces panneaux isolés par ensembles d'origine et en comptant ses immenses cycles de fresques (notamment à Assise) comme des chantiers globaux, le consensus scientifique fixe aujourd'hui le corpus de ses œuvres autographes survivantes à environ 65 oeuvres."
+    },
+    "biographyTimeline": {
+      "birth": {
+        "year": 1280,
+        "place": "Sienne (Toscane)",
+        "title": "Naissance de Pietro Lorenzetti",
+        "desc": "Naît à Sienne vers 1280, aîné de la célèbre fratrie des Lorenzetti."
+      },
+      "death": {
+        "year": 1348,
+        "place": "Sienne (Toscane)",
+        "title": "Mort durant la Peste Noire",
+        "desc": "Disparaît à Sienne lors de l'épidémie dévastatrice de peste noire de 1348."
+      },
+      "periods": [
+        {
+          "title": "Les Débuts et le Polyptyque Tarlati",
+          "years": "1310 – 1320",
+          "color": "#38bdf8",
+          "summary": "Émancipation de la tradition ducciesque et assimilation dramatique de Giovanni Pisano.",
+          "events": [
+            {
+              "year": 1315,
+              "title": "Vierge à l'Enfant de Cortone",
+              "desc": "Première grande madone d'autel affirmant une intensité de regard et une monumentalité novatrice.",
+              "type": "masterpiece",
+              "icon": "✨"
+            },
+            {
+              "year": 1320,
+              "title": "Le Polyptyque Tarlati d'Arezzo",
+              "desc": "Retable majeur pour la Pieve di Santa Maria d'Arezzo, commandé par l'évêque Guido Tarlati, unissant les saints dans un dialogue psychologique intense.",
+              "type": "masterpiece",
+              "icon": "⛪"
+            }
+          ]
+        },
+        {
+          "title": "Le Cycle Magistral d'Assise",
+          "years": "1320 – 1330",
+          "color": "#e63946",
+          "summary": "Création au transept sud de l'église inférieure de Saint-François d'Assise d'un sommet de la peinture dramatique européenne.",
+          "events": [
+            {
+              "year": 1325,
+              "title": "Fresques de la Passion à Assise",
+              "desc": "Peint la Déposition de la Croix au pathos bouleversant et l'Entrée à Jérusalem avec une vertigineuse vérité perspective.",
+              "type": "masterpiece",
+              "icon": "🎨"
+            },
+            {
+              "year": 1326,
+              "title": "L'Arrestation du Christ au ciel étoilé",
+              "desc": "Invention d'un nocturne saisissant éclairé à la lanterne sous une voûte d'étoiles, défiant le fond d'or médiéval.",
+              "type": "milestone",
+              "icon": "🌌"
+            },
+            {
+              "year": 1329,
+              "title": "Le Retable des Carmes (Pala del Carmine)",
+              "desc": "Polyptyque colossal pour San Niccolò al Carmine de Sienne, aujourd'hui démembré entre Sienne, Yale et Pasadena.",
+              "type": "milestone",
+              "icon": "🏛️"
+            }
+          ]
+        },
+        {
+          "title": "Maturité et Espace Unifié",
+          "years": "1330 – 1348",
+          "color": "#d4af37",
+          "summary": "Accomplissement de l'illusion spatiale continue à la cathédrale de Sienne jusqu'à la rupture tragique de 1348.",
+          "events": [
+            {
+              "year": 1335,
+              "title": "Fresques de Santa Maria della Scala avec Ambrogio",
+              "desc": "Chantier commun des deux frères pour la façade de l'hôpital de Sienne, unissant leurs deux visions artistiques.",
+              "type": "milestone",
+              "icon": "🤝"
+            },
+            {
+              "year": 1340,
+              "title": "La Vierge en majesté entre saint Antoine et saint Jean",
+              "desc": "Chef-d'œuvre de maturité pour l'église des Pieve de Cortone.",
+              "type": "milestone",
+              "icon": "📜"
+            },
+            {
+              "year": 1342,
+              "title": "La Nativité de la Vierge (Cathédrale de Sienne)",
+              "desc": "Révolution spatiale absolue intégrant les trois volets gothiques dans une chambre bourgeoise continue en perspective unifiée.",
+              "type": "masterpiece",
+              "icon": "👑"
+            },
+            {
+              "year": 1348,
+              "title": "Fin tragique dans la Peste Noire",
+              "desc": "Succombe avec son frère lors de l'épidémie qui met un terme brutal au grand Trecento siennois.",
+              "type": "life",
+              "icon": "⚰️"
+            }
+          ]
+        }
+      ]
+    }
+  },
+
+  "magritte": {
+    "id": "magritte",
+    "name": "Magritte René",
+    "sortName": "Magritte René",
+    "sortLetter": "M",
+    "dates": "1898 – 1967",
+    "century": "XXe siècle",
+    "nationality": "Belge",
+    "movement": "Surréalisme belge & Réalisme magique",
+    "techniques": "Huile sur toile, gouache, dessin, peinture académique subversive, trompe-l'œil conceptuel, rébus visuel",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczMDyV3RO5Qd8tsfPHxohk_lkoxANO0IT0fzpsosqvaNZM2rrMIeWqs-CwCHq62B4mJqRBIFIhqksdEMOiC1A_NcidHT0Mk9iEQ9xH2QUAEJY6uuRNsqLi3qpjFWqL-zDd_I1OilrxHEJvou6Lu6gHNNpg=w1589-h675-s-no-gm?authuser=0",
+    "portraitImg": "",
+    "bio": `
+      <p><strong>La figure de proue du surréalisme belge et le philosophe des images</strong><br>
+      René Magritte (1898 – 1967) est la figure de proue du surréalisme belge. Contrairement aux surréalistes parisiens qui explorent l'inconscient et le rêve, Magritte s'attache à interroger la relation entre l'objet, son image et son nom. Menant une vie d'une apparence banale et bourgeoise à Bruxelles, il détourne cette normalité pour créer des images qui bousculent nos certitudes logiques.</p>
+      <p><strong>Le réalisme magique et le détournement de l'objet quotidien</strong><br>
+      Son genre pictural se définit par un style volontairement neutre, presque publicitaire, qu'il qualifie de « réalisme magique ». Il utilise une technique académique et lisse pour représenter des objets du quotidien (pipes, chapeaux melons, pommes, grelots, nuages) placés dans des contextes impossibles. Son art ne cherche pas à exprimer des sentiments, mais à susciter le mystère par des associations d'idées contradictoires ou des jeux de mots visuels, comme dans sa célèbre série sur la trahison des images.</p>
+      <p><strong>De la rupture surréaliste à l'icône universelle</strong><br>
+      L'évolution de son style est marquée par une grande cohérence, malgré quelques parenthèses expérimentales :<br>
+      <em>Les débuts et l'affirmation surréaliste (1926 – 1930) :</em> Après une phase de recherche influencée par le cubisme et le futurisme, il trouve sa voix dès 1926 avec des toiles énigmatiques et sombres (<em>Le Jockey perdu</em>, <em>Souvenir de voyage</em>). Installé près de Paris au Perreux-sur-Marne, il côtoie Breton et peint ses premiers « tableaux-mots » révolutionnaires, dont <em>La Clef des songes</em> et <em>La Trahison des images</em>.<br>
+      <em>Période Renoir et Période Vache (1940 – 1948) :</em> Face aux horreurs de la guerre, il adopte par défi une palette impressionniste lumineuse (« période Renoir »), puis réalise en 1948 pour son exposition parisienne une série provocante, agressive et colorée (« période vache ») qui déstabilise la critique.<br>
+      <em>L'apogée conceptuelle et la consécration mondiale (1949 – 1967) :</em> Revenu à sa manière précise, lisse et froide, il peint ses chefs-d'œuvre les plus universels : les déclinaisons de <em>L'Empire des lumières</em>, <em>Le Fils de l'homme</em> ou <em>Golconde</em>, imposant une poésie silencieuse qui a profondément marqué l'art conceptuel et la culture populaire contemporaine.</p>
+    `,
+    "corpus": {
+      "total": 1094,
+      "seen": 5,
+      "paintingsCount": 1094,
+      "details": [
+        {
+          "label": "Peintures autographes",
+          "count": 1094,
+          "icon": "🎨",
+          "color": "#d4af37",
+          "seen": 5
+        }
+      ],
+      "sourceTitle": "Catalogue raisonné David Sylvester & Sarah Whitfield (Menil Foundation)",
+      "sourceNotes": "L'inventaire scientifique de référence mondiale est le monumental René Magritte Catalogue Raisonné, édité sous la direction du grand critique d'art britannique David Sylvester et de Sarah Whitfield (publié par la Menil Foundation entre 1992 et 1997). Ce travail de titan a nécessité cinq volumes pour embrasser toute la production de l'artiste. En isolant scrupuleusement les trois premiers volumes, consacrés exclusivement à ses peintures à l'huile (sur toile ou sur panneau) et à ses quelques objets peints (comme ses fameuses bouteilles), le catalogue arrête une numérotation d'une précision clinique. Le consensus scientifique fixe ainsi le corpus officiel des peintures de Magritte à très exactement 1 094 œuvres."
+    },
+    "biographyTimeline": {
+      "birth": {
+        "year": 1898,
+        "place": "Lessines (Belgique)",
+        "title": "Naissance de René Magritte",
+        "desc": "Naît dans le Hainaut belge le 21 novembre 1898, aîné de trois frères d'une famille de marchands."
+      },
+      "death": {
+        "year": 1967,
+        "place": "Bruxelles (Belgique)",
+        "title": "Mort à Schaerbeek",
+        "desc": "S'éteint le 15 août 1967 à son domicile bruxellois au sommet d'une gloire planétaire."
+      },
+      "periods": [
+        {
+          "title": "Les Débuts et le Séjour Parisien",
+          "years": "1926 – 1930",
+          "color": "#38bdf8",
+          "summary": "Éclosion du style surréaliste, installation près de Paris et création des tableaux-mots fondateurs.",
+          "events": [
+            {
+              "year": 1926,
+              "title": "Souvenir de voyage (MAMCS Strasbourg)",
+              "desc": "Huile sur toile inaugurale d'une poésie énigmatique et sombre, marquant son entrée définitive dans le surréalisme.",
+              "type": "masterpiece",
+              "artworkId": "magritte_souvenir_de_voyage_strasbourg_1926"
+            },
+            {
+              "year": 1926,
+              "title": "Le Jockey perdu",
+              "desc": "Première œuvre que l'artiste considère lui-même comme pleinement surréaliste, avec ses rideaux de bilboquets dans une forêt de papiers découpés.",
+              "type": "milestone",
+              "icon": "🏇"
+            },
+            {
+              "year": 1927,
+              "title": "La Clef des songes (Pinakothek der Moderne, Munich)",
+              "desc": "Tableau manifeste divisé en compartiments associant images d'objets banals et faux noms inscrits en lettres d'écolier.",
+              "type": "masterpiece",
+              "artworkId": "magritte_la_clef_des_songes_munich_1927"
+            },
+            {
+              "year": 1927,
+              "title": "Le Secret du cortège (Musée Reina Sofía, Madrid)",
+              "desc": "Composition de sa période parisienne confrontant des structures géométriques et des corps énigmatiques dans un espace illusionniste.",
+              "type": "masterpiece",
+              "artworkId": "magritte_le_secret_du_cortege_madrid_1927"
+            },
+            {
+              "year": 1928,
+              "title": "Les Idées de l'acrobate (Pinakothek der Moderne, Munich)",
+              "desc": "Déconstruction plastique et contorsion onirique des corps et d'un instrument à vent réalisée durant son séjour au Perreux-sur-Marne.",
+              "type": "masterpiece",
+              "artworkId": "magritte_les_idees_de_lacrobate_munich_1928"
+            },
+            {
+              "year": 1929,
+              "title": "La Trahison des images (Ceci n'est pas une pipe)",
+              "desc": "Chef-d'œuvre philosophique absolu interrogeant la frontière entre le mot, la peinture et la réalité de l'objet.",
+              "type": "masterpiece",
+              "icon": "🖋️"
+            },
+            {
+              "year": 1930,
+              "title": "Grelots roses, ciels en lambeaux (Musée Reina Sofía, Madrid)",
+              "desc": "Diptyque troublant confrontant un ciel découpé et des grelots flottants sur fond rose saumon avant son retour à Bruxelles.",
+              "type": "masterpiece",
+              "artworkId": "magritte_grelots_roses_ciels_en_lambeaux_madrid_1930"
+            }
+          ]
+        },
+        {
+          "title": "L'Enracinement Bruxellois et les Séries Majeures",
+          "years": "1931 – 1942",
+          "color": "#d4af37",
+          "summary": "Vie paisible dans sa maison de Jette à Bruxelles et développement méthodique de la poétique des objets.",
+          "events": [
+            {
+              "year": 1933,
+              "title": "La Condition humaine",
+              "desc": "Invention du tableau sur chevalet dissimulant et révélant simultanément le paysage extérieur par la fenêtre.",
+              "type": "masterpiece",
+              "icon": "🖼️"
+            },
+            {
+              "year": 1936,
+              "title": "Exposition personnelle à New York (Julien Levy Gallery)",
+              "desc": "Première reconnaissance majeure aux États-Unis, suivie par son inclusion dans la mythique exposition Fantastic Art, Dada, Surrealism au MoMA.",
+              "type": "milestone",
+              "icon": "🇺🇸"
+            },
+            {
+              "year": 1938,
+              "title": "Conférence « La Ligne de vie » à Anvers",
+              "desc": "Présentation théorique de sa méthode consistant à traquer le mystère inhérent aux objets du réel.",
+              "type": "milestone",
+              "icon": "📖"
+            }
+          ]
+        },
+        {
+          "title": "Les Ruptures Stylistiques : Période Renoir et Période Vache",
+          "years": "1943 – 1948",
+          "color": "#f59e0b",
+          "summary": "Expérimentations picturales provocatrices en réaction au drame de la guerre et au conformisme du marché de l'art.",
+          "events": [
+            {
+              "year": 1943,
+              "title": "Le Plein Soleil (Période Renoir)",
+              "desc": "Adopte délibérément une touche lumineuse impressionniste et une palette ensoleillée pour narguer la noirceur de l'Occupation nazie.",
+              "type": "milestone",
+              "icon": "☀️"
+            },
+            {
+              "year": 1948,
+              "title": "La Période Vache à Paris",
+              "desc": "Expose à la Galerie du Faubourg une série délibérément grossière, criarde et potache, pied de nez mémorable à l'intelligentsia parisienne.",
+              "type": "milestone",
+              "icon": "🐄"
+            }
+          ]
+        },
+        {
+          "title": "L'Apothéose Poétique et la Gloire Internationale",
+          "years": "1949 – 1967",
+          "color": "#8b5cf6",
+          "summary": "Retour au style lisse et précis, création des plus grandes icônes universelles et consécration mondiale.",
+          "events": [
+            {
+              "year": 1949,
+              "title": "Première version de L'Empire des lumières",
+              "desc": "Inauguration du paradoxe visuel saisissant juxtaposant un ciel diurne éclatant et une maison dans la pénombre nocturne.",
+              "type": "masterpiece",
+              "icon": "💡"
+            },
+            {
+              "year": 1953,
+              "title": "Golconde & Le Domaine enchanté",
+              "desc": "Pluie d'hommes au chapeau melon flottant dans l'atmosphère et fresque panoramique monumentale pour le Casino de Knokke.",
+              "type": "masterpiece",
+              "icon": "🎩"
+            },
+            {
+              "year": 1964,
+              "title": "Le Fils de l'homme",
+              "desc": "L'homme au pardessus et chapeau melon au visage masqué par une pomme verte, devenu une icône absolue de la culture mondiale.",
+              "type": "masterpiece",
+              "icon": "🍏"
+            },
+            {
+              "year": 1965,
+              "title": "Rétrospective triomphale au MoMA de New York",
+              "desc": "Couronnement institutionnel mondial au Museum of Modern Art, pour lequel Magritte effectue son unique traversée de l'Atlantique.",
+              "type": "life",
+              "icon": "🏛️"
+            },
+            {
+              "year": 1967,
+              "title": "Disparition à Bruxelles",
+              "desc": "Meurt le 15 août 1967, laissant une œuvre monumentale qui irriguera le Pop Art, le Nouveau Réalisme et l'art conceptuel.",
+              "type": "life",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+    }
   }
 
 });
+
 
 // Alias de confort pour la recherche
 window.ARTISTS_REGISTRY["fra_filippo_lippi"] = window.ARTISTS_REGISTRY["lippi_filippo"];

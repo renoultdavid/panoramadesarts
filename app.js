@@ -1886,7 +1886,7 @@ const MODERN_MOVEMENTS_DATA = {
         dates: "1898 – 1967",
         role: "Poète du paradoxe visuel & de la trahison des images",
         desc: "Maître du surréalisme belge (Ceci n'est pas une pipe, Le Fils de l'homme), questionnant le rapport entre le mot, la pensée et la réalité visuelle.",
-        artistId: "",
+        artistId: "magritte",
         icon: "🍏"
       },
       {
@@ -10481,7 +10481,7 @@ function initSearchEngine() {
       'de la fosse', 'charles de la fosse', 'la fosse',
       'rigaud', 'hyacinthe rigaud', 'rigaud hyacinthe',
       'settevecchi', 'ludovico settevecchi', 'settevecchi ludovico',
-      'lello da orvieto', 'hans von wendelstorf', 'fra jacopo', 'arman'
+      'lello da orvieto', 'hans von wendelstorf', 'fra jacopo'
     ];
 
     // Décompte aligné sur la fiche artiste (même logique : artistId strict en priorité)
@@ -11428,31 +11428,28 @@ function renderSearchGallery() {
     }
 
     // Si une fiche peintre est ouverte, verrouiller strictement sur les œuvres de ce peintre
-    if (isArtistView && (activeArtistRecord || activeArtistName)) {
-      const targetRecord = activeArtistRecord || window.currentActiveArtistRecord;
-      const itemArtistId = (item.artistId || '').toLowerCase().trim();
-      const recId = targetRecord ? (targetRecord.id || '').toLowerCase().trim() : '';
-
-      if (recId && itemArtistId) {
-        if (itemArtistId !== recId) return false;
-      } else {
-        const itemArtist = (item.artist || '').toLowerCase().trim();
-        const recName = targetRecord ? (targetRecord.name || '').toLowerCase().trim() : activeArtistName;
-        const recSort = targetRecord ? (targetRecord.sortName || '').toLowerCase().trim() : '';
-        const recClean = recName.replace(/\(.*?\)/g, '').trim();
-
-        // Séparation stricte pour Robert et Sonia Delaunay ou tout homonyme
-        if (recId === 'delaunay' && (itemArtist.includes('sonia') || itemArtistId === 'sonia_delaunay')) return false;
-        if (recId === 'sonia_delaunay' && (itemArtist.includes('robert') || itemArtistId === 'delaunay')) return false;
-
-        if (!itemArtist) return false;
-        let matches = false;
-        if (itemArtist === recName || itemArtist === recSort || itemArtist === recClean || itemArtist === activeArtistName) {
-          matches = true;
-        } else if (targetRecord && recClean.length >= 4 && itemArtist === recClean) {
-          matches = true;
+    if (isArtistView) {
+      const targetRecord = activeArtistRecord || window.currentActiveArtistRecord || (artistHero && artistHero.dataset.artistId && registry[artistHero.dataset.artistId]);
+      if (targetRecord) {
+        if (typeof getArtworksForArtistRecord === 'function') {
+          if (getArtworksForArtistRecord(targetRecord, [item]).length === 0) return false;
+        } else {
+          const itemArtistId = (item.artistId || '').toLowerCase().trim();
+          const recId = (targetRecord.id || '').toLowerCase().trim();
+          if (recId && itemArtistId && itemArtistId !== recId) return false;
+          const itemArtist = (item.artist || '').toLowerCase().trim();
+          if (!itemArtist) return false;
         }
-        if (!matches) return false;
+      } else if (activeArtistName) {
+        const itemArtist = (item.artist || '').toLowerCase().trim();
+        const itemArtistId = (item.artistId || '').toLowerCase().trim();
+        const cleanActive = activeArtistName.replace(/\(.*?\)/g, '').trim();
+        if (!itemArtist && !itemArtistId) return false;
+        if (!itemArtist.includes(cleanActive) && !cleanActive.includes(itemArtist) && !itemArtistId.includes(cleanActive)) {
+          return false;
+        }
+      } else {
+        return false;
       }
 
       // Filtre thématique actif au sein de la monographie du peintre

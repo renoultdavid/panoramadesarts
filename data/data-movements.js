@@ -38,8 +38,16 @@ window.MOVEMENTS_DATA = {
         "dates": "1290 – 1348",
         "role": "Pionnier du paysage urbain et de l'allégorie politique",
         "desc": "Fresques du Bon et du Mauvais Gouvernement au Palazzo Pubblico de Sienne.",
-        "artistId": "",
+        "artistId": "lorenzetti_ambrogio",
         "icon": "🏛️"
+      },
+      {
+        "name": "Pietro Lorenzetti",
+        "dates": "v. 1280 – 1348",
+        "role": "Dramaturgie sacrée & révolution spatiale siennoise",
+        "desc": "Fresques de la Passion à Assise et Nativité de la Vierge à l'espace domestique unifié.",
+        "artistId": "lorenzetti_pietro",
+        "icon": "🕯️"
       },
       {
         "name": "Buffalmacco",
@@ -885,7 +893,7 @@ window.MOVEMENTS_DATA = {
         "dates": "1898 – 1967",
         "role": "Philosophe du mystère visuel et de la trahison des images",
         "desc": "La Trahison des images (Ceci n'est pas une pipe), Le Fils de l'homme.",
-        "artistId": "",
+        "artistId": "magritte",
         "icon": "🍏"
       },
       {
