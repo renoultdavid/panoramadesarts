@@ -527,7 +527,7 @@ window.MOVEMENTS_DATA = {
         "dates": "1840 – 1926",
         "role": "Père et chef de file absolu de l'Impressionnisme",
         "desc": "Impression soleil levant, Meules, Cathédrales de Rouen et Nymphéas.",
-        "artistId": "",
+        "artistId": "monet",
         "icon": "🌊"
       },
       {

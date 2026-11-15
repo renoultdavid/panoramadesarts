@@ -6119,6 +6119,310 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
         }
       ]
     }
+  },
+"monet": {
+    "id": "monet",
+    "name": "Monet Claude",
+    "sortName": "Monet Claude",
+    "sortLetter": "M",
+    "dates": "1840 – 1926",
+    "movement": "Impressionnisme (Chef de file fondateur)",
+    "nationality": "Française (Paris, Le Havre, Argenteuil, Vétheuil, Giverny)",
+    "techniques": "Huile sur toile, peinture en plein air sur le motif, travail par séries atmosphériques (Meules, Peupliers, Cathédrales, Nymphéas), division et juxtaposition de la touche pure, dissolution des formes dans la lumière",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczNr43RTS_ALB1GfKWbRlWIPymFW851Ydys94CSycoYgTrOz8GG8vS8I9i6oO5ZEdsb3DTaPzGdtwIj3H3sbQokQpW07wXCHfz74pvwThobkRanTffnUsxLimOfDtmFY8xGBV1Xq0UE_zCV1_RDnatLCKw=w1589-h675-s-no-gm?authuser=0",
+    "portraitImg": "",
+    "bio": `
+      <p><strong>Chef de file incontesté de l'Impressionnisme et révolutionnaire de la vision</strong><br>
+      Claude Monet (1840 – 1926) est le chef de file incontesté de l'Impressionnisme, mouvement auquel il a donné son nom grâce à sa toile <em>Impression, soleil levant</em>. Formé au Havre auprès d'Eugène Boudin et de Jongkind, il consacre sa vie à la capture des variations éphémères de la lumière et de l'atmosphère, révolutionnant durablement l'art moderne par son refus intransigeant des conventions académiques.</p>
+      <p><strong>Plein air, division de la touche et primauté de la sensation optique</strong><br>
+      Son genre pictural repose sur la peinture en plein air et l'étude des phénomènes optiques. Plutôt que de dessiner des contours précis, Monet utilise des touches de couleur pures et juxtaposées pour traduire ses sensations visuelles. Il délaisse les sujets historiques ou mythologiques pour se concentrer sur les paysages, les gares, la mer et les scènes de la vie quotidienne, considérant que le véritable sujet est la lumière elle-même.</p>
+      <p><strong>De la touche fragmentée aux Nymphéas monumentaux de Giverny</strong><br>
+      L'évolution de son style est marquée par une radicalisation progressive. Ses premières œuvres conservent une certaine structure réaliste, mais ses recherches le mènent rapidement aux séries (les <em>Meules</em>, les <em>Peupliers</em>, la <em>Cathédrale de Rouen</em>), où il peint le même motif à différentes heures de la journée. À la fin de sa vie, dans son jardin d'eau de Giverny, son style frôle l'abstraction avec le cycle monumental des <em>Nymphéas</em> : les formes se dissolvent dans la couleur et les reflets, ouvrant la voie à la peinture contemporaine et à l'abstraction lyrique.</p>
+    `,
+    "corpus": {
+      "total": 2050,
+      "seen": 29,
+      "paintingsCount": 2050,
+      "details": [
+        {
+          "label": "Peintures à l'huile autographes documentées (Catalogue Wildenstein)",
+          "count": 2050,
+          "icon": "🌊",
+          "color": "#8b5cf6",
+          "seen": 29,
+          "note": "Corpus officiel établi par le catalogue raisonné de Daniel Wildenstein (Wildenstein Institute, 1974-1996)"
+        }
+      ],
+      "sourceTitle": "Catalogue Raisonné Daniel Wildenstein (1974–1991, rév. 1996) & Wildenstein Plattner Institute",
+      "sourceNotes": "L'inventaire scientifique de référence mondiale est le titanesque Catalogue raisonné établi par l'historien Daniel Wildenstein (publié initialement entre 1974 et 1991 par le Wildenstein Institute, puis révisé dans sa grande édition de 1996 en 4 volumes). Ce travail encyclopédique, qui exclut ses très nombreux pastels (dont le catalogue a d'ailleurs été récemment mis à jour numériquement) et ses dessins, fixe le corpus officiel et documenté de ses peintures à l'huile à environ 2 050 œuvres authentifiées avec certitude."
+    },
+    "timeline": {
+      "periods": [
+        {
+          "title": "Jeunesse, Honfleur & les Débuts du Plein Air",
+          "years": "1861 – 1871",
+          "color": "#3b82f6",
+          "summary": "Formation normande au Havre aux côtés de Boudin et Jongkind, natures mortes de jeunesse, marines poétiques et premiers effets de neige.",
+          "events": [
+            {
+              "year": 1861,
+              "title": "Nature morte au faisan (Musée des Beaux-Arts de Rouen)",
+              "desc": "Nature morte de jeunesse aux accents flamands et chardinesques, affirmant une observation minutieuse des textures et des reflets de lumière.",
+              "type": "masterpiece",
+              "artworkId": "monet_nature_morte_faisan_rouen_1861"
+            },
+            {
+              "year": 1864,
+              "title": "Une marine, clair de lune (National Gallery of Scotland, Édimbourg)",
+              "desc": "Marine nocturne dramatique peinte à Honfleur, où la touche vigoureuse saisit le miroitement d'argent de l'astre lunaire sur la houle.",
+              "type": "masterpiece",
+              "artworkId": "monet_marine_clair_de_lune_edimbourg_1864"
+            },
+            {
+              "year": 1864,
+              "title": "La route de la ferme Saint-Siméon (Tokyo, NMWA)",
+              "desc": "Cadrage vertical vigoureux sur le chemin de l'auberge de la mère Toutain à Honfleur, vibrant d'ombres violacées et de lumière filtrante.",
+              "type": "masterpiece",
+              "artworkId": "monet_route_ferme_saint_simeon_tokyo_1864"
+            },
+            {
+              "year": 1869,
+              "title": "Neige au soleil couchant (Musée des Beaux-Arts de Rouen)",
+              "desc": "Jalon capital où la neige cesse d'être blanche pour devenir un réceptacle d'ombres mauves et de reflets dorés sous la lumière rasante.",
+              "type": "masterpiece",
+              "artworkId": "monet_neige_soleil_couchant_rouen_1869"
+            },
+            {
+              "year": 1869,
+              "title": "L'émulation de La Grenouillère avec Renoir",
+              "desc": "Travaille côte à côte avec Renoir sur l'île de Croissy, inventant la touche rapide en virgule qui dissout les reflets de l'eau.",
+              "type": "life",
+              "icon": "🎨"
+            }
+          ]
+        },
+        {
+          "title": "Argenteuil, Vétheuil & le Cœur de l'Impressionnisme",
+          "years": "1872 – 1882",
+          "color": "#10b981",
+          "summary": "Éclosion triomphale d'Impression soleil levant, le bateau-atelier d'Argenteuil, les fêtes républicaines et l'épreuve dramatique de Vétheuil.",
+          "events": [
+            {
+              "year": 1874,
+              "title": "Première exposition impressionniste chez Nadar",
+              "desc": "Présente Impression, soleil levant qui donne ironiquement son nom au mouvement, scellant la rupture avec le Salon officiel.",
+              "type": "movement",
+              "icon": "🌅"
+            },
+            {
+              "year": 1875,
+              "title": "Neige à Argenteuil (Tokyo, NMWA)",
+              "desc": "Chef-d'œuvre de la série hivernale d'Argenteuil, captant la clarté laiteuse et les ornières boueuses d'un faubourg ouaté.",
+              "type": "masterpiece",
+              "artworkId": "monet_neige_argenteuil_tokyo_1875"
+            },
+            {
+              "year": 1878,
+              "title": "La Rue Saint-Denis, fête du 30 juin 1878 (Musée des Beaux-Arts de Rouen)",
+              "desc": "Plongée vertigineuse dans l'effervescence patriotique de l'Exposition universelle, symphonie vibrante d'étendards tricolores au vent.",
+              "type": "masterpiece",
+              "artworkId": "monet_rue_saint_denis_fete_rouen_1878"
+            },
+            {
+              "year": 1879,
+              "title": "Vétheuil (Musée des Beaux-Arts de Rouen)",
+              "desc": "Vue panoramique de l'église Notre-Dame et du village depuis la rive opposée, dont les façades se dissolvent dans le miroir de la Seine.",
+              "type": "masterpiece",
+              "artworkId": "monet_vetheuil_rouen_1879"
+            },
+            {
+              "year": 1879,
+              "title": "La Seine à Vétheuil (Musée des Beaux-Arts de Rouen)",
+              "desc": "Format vertical immersif où l'eau mouvante et les frondaisons sombres absorbent la lumière argentée de la vallée normande.",
+              "type": "masterpiece",
+              "artworkId": "monet_seine_a_vetheuil_rouen_1879"
+            },
+            {
+              "year": 1880,
+              "title": "Blanche Hoschedé enfant (Musée des Beaux-Arts de Rouen)",
+              "desc": "Portrait intimiste de sa future belle-fille et unique élève, alliant la délicatesse des carnations enfantines à un fond japonisant.",
+              "type": "masterpiece",
+              "artworkId": "monet_blanche_hoschede_enfant_rouen_1880"
+            },
+            {
+              "year": 1880,
+              "title": "La Route de La Roche-Guyon (Tokyo, NMWA)",
+              "desc": "Contre-plongée lumineuse le long des falaises de craie du Vexin, associant touches pâteuses et ombres d'azur froid.",
+              "type": "masterpiece",
+              "artworkId": "monet_route_roche_guyon_tokyo_1880"
+            },
+            {
+              "year": 1881,
+              "title": "La Seine, vue des hauteurs de Chantemesle (Musée des Beaux-Arts de Rouen)",
+              "desc": "Surplomb panoramique sur la boucle du fleuve, structuré par des virgules de vert tendre et une lumière d'été frémissante.",
+              "type": "masterpiece",
+              "artworkId": "monet_seine_hauteurs_chantemesle_rouen_1881"
+            },
+            {
+              "year": 1881,
+              "title": "Les Coteaux près de Vétheuil (Musée des Beaux-Arts de Rouen)",
+              "desc": "Sentier serpentant parmi les collines sauvages, où la touche saccadée et les ombres violettes traduisent la chaleur estivale.",
+              "type": "masterpiece",
+              "artworkId": "monet_coteaux_pres_vetheuil_rouen_1881"
+            }
+          ]
+        },
+        {
+          "title": "Installation à Giverny & la Révolution des Séries",
+          "years": "1883 – 1900",
+          "color": "#f59e0b",
+          "summary": "Ancrage définitif à Giverny, aménagement du jardin d'eau, invention magistrale du principe des séries (Peupliers, Cathédrales, Nymphéas).",
+          "events": [
+            {
+              "year": 1885,
+              "title": "Champ de coquelicots, environs de Giverny (Musée des Beaux-Arts de Rouen)",
+              "desc": "Nappe incandescente de rouge pur brossée en empâtements vibrants contrastant avec les collines bleutées de l'Epte.",
+              "type": "masterpiece",
+              "artworkId": "monet_champ_coquelicots_giverny_rouen_1885"
+            },
+            {
+              "year": 1887,
+              "title": "Jeunes filles en barque (Tokyo, NMWA)",
+              "desc": "Vue en plongée cadrée à la japonaise sur la barque norvégienne portant Suzanne et Blanche Hoschedé sur l'onde scintillante.",
+              "type": "masterpiece",
+              "artworkId": "monet_jeunes_filles_en_barque_tokyo_1887"
+            },
+            {
+              "year": 1890,
+              "title": "Champ d'avoine aux coquelicots (MAMCS, Strasbourg)",
+              "desc": "Vibration sensorielle pure d'un champ sauvage de Giverny sans présence humaine, annonçant l'émancipation totale de la couleur.",
+              "type": "masterpiece",
+              "artworkId": "monet_champ_avoine_coquelicots_strasbourg_1890"
+            },
+            {
+              "year": 1891,
+              "title": "Peupliers au soleil (Tokyo, NMWA)",
+              "desc": "Rythme géométrique des troncs s'élevant vers l'azur, peints depuis son bateau-atelier avant leur abattage programmé.",
+              "type": "masterpiece",
+              "artworkId": "monet_peupliers_au_soleil_tokyo_1891"
+            },
+            {
+              "year": 1891,
+              "title": "Peupliers sur l'Epte (National Gallery of Scotland, Édimbourg)",
+              "desc": "Courbe sinueuse des grands arbres se mirant dans l'eau calme, symétrie liquide et poésie décorative de l'instant fugace.",
+              "type": "masterpiece",
+              "artworkId": "monet_peupliers_sur_lepte_edimbourg_1891"
+            },
+            {
+              "year": 1892,
+              "title": "Vue générale de Rouen (Musée des Beaux-Arts de Rouen)",
+              "desc": "Perspective en surplomb depuis la colline Sainte-Catherine où la cité normande et sa flèche se noient dans une brume pastel.",
+              "type": "masterpiece",
+              "artworkId": "monet_vue_generale_rouen_1892"
+            },
+            {
+              "year": 1894,
+              "title": "Portrait de la Cathédrale de Rouen, temps gris (Musée des Beaux-Arts de Rouen)",
+              "desc": "Façade occidentale gothique traitée comme un bas-relief de pierre de Caen poreuse sous une atmosphère humide et cotonneuse.",
+              "type": "masterpiece",
+              "artworkId": "monet_cathedrale_rouen_temps_gris_1894"
+            },
+            {
+              "year": 1894,
+              "title": "La Seine à Port-Villez (Musée des Beaux-Arts de Rouen)",
+              "desc": "Méditation atmosphérique aux limites de l'abstraction, où colline mauve, ciel nacré et nappe fluviale fusionnent dans le calme plat.",
+              "type": "masterpiece",
+              "artworkId": "monet_seine_port_villez_rouen_1894"
+            },
+            {
+              "year": 1897,
+              "title": "Nymphéas (Tokyo, NMWA)",
+              "desc": "Toute première exploration autonome du bassin d'eau de Giverny, cadrée en plongée rapprochée sans rives ni ligne d'horizon.",
+              "type": "masterpiece",
+              "artworkId": "monet_nympheas_tokyo_1897"
+            },
+            {
+              "year": 1898,
+              "title": "Matinée sur la Seine (Tokyo, NMWA)",
+              "desc": "Série des dix-huit aubes peintes à 3 h 30 du matin depuis son bateau-atelier, fusionnant frondaisons ouatées et clarté orientale.",
+              "type": "masterpiece",
+              "artworkId": "monet_matinee_sur_la_seine_tokyo_1898"
+            },
+            {
+              "year": 1899,
+              "title": "Le Bassin aux nymphéas, harmonie verte (National Gallery, Londres)",
+              "desc": "Le célèbre pont japonais enjambant le foisonnement végétal du jardin d'eau dans une symphonie de verts et de nénuphars lumineux.",
+              "type": "masterpiece",
+              "artworkId": "monet_bassin_aux_nympheas_harmonie_verte_londres_1899"
+            }
+          ]
+        },
+        {
+          "title": "Venise, le Jardin d'Eau & l'Épopée des Nymphéas",
+          "years": "1901 – 1926",
+          "color": "#8b5cf6",
+          "summary": "Éblouissement vénitien, altération de la vision due à la cataracte, gestuelle quasi abstraite et grand legs des Décorations de l'Orangerie.",
+          "events": [
+            {
+              "year": 1902,
+              "title": "Vétheuil (Tokyo, NMWA)",
+              "desc": "Retour émouvant sur le motif de Vétheuil depuis Lavacourt, où le clocher et la colline se dissolvent en camaïeux chatoyants.",
+              "type": "masterpiece",
+              "artworkId": "monet_vetheuil_tokyo_1902"
+            },
+            {
+              "year": 1908,
+              "title": "Gondole à Venise (Musée d'arts de Nantes)",
+              "desc": "Silhouette sombre d'une gondole frôlant l'abstraction sur les eaux nacrées de la lagune, hommage à la lumière unique de Venise.",
+              "type": "masterpiece",
+              "artworkId": "monet_gondole_a_venise_nantes_1908"
+            },
+            {
+              "year": 1914,
+              "title": "Les Iris jaunes (Tokyo, NMWA)",
+              "desc": "Immersion végétale monumentale aux empâtements vigoureux, prélude physique aux Grandes Décorations de l'Orangerie.",
+              "type": "masterpiece",
+              "artworkId": "monet_iris_jaunes_tokyo_1914"
+            },
+            {
+              "year": 1915,
+              "title": "Nymphéas (Munich, Pinakothek der Moderne)",
+              "desc": "Méditation mystique sur le temps au milieu du chaos de la Grande Guerre, fusionnant corolles flottantes et reflets des saules.",
+              "type": "masterpiece",
+              "artworkId": "monet_nympheas_munich_1915"
+            },
+            {
+              "year": 1916,
+              "title": "Nymphéas (Tokyo, NMWA)",
+              "desc": "Grand format presque carré plongeant dans l'infini liquide, où les frottis gestuels préfigurent l'expressionnisme abstrait américain.",
+              "type": "masterpiece",
+              "artworkId": "monet_nympheas_tokyo_1916"
+            },
+            {
+              "year": 1917,
+              "title": "Le Bassin aux nymphéas (Musée d'arts de Nantes)",
+              "desc": "Immersion totale sans repères terrestres, où la lumière émane de la matière picturale elle-même dans une liberté de touche absolue.",
+              "type": "masterpiece",
+              "artworkId": "monet_bassin_aux_nympheas_nantes_1917"
+            },
+            {
+              "year": 1918,
+              "title": "Donation des Grandes Décorations à la France",
+              "desc": "Au lendemain de l'Armistice, offre le cycle des Nymphéas à l'État sous l'impulsion de son ami Georges Clemenceau pour célébrer la paix.",
+              "type": "life",
+              "icon": "🏛️"
+            },
+            {
+              "year": 1926,
+              "title": "Mort à Giverny",
+              "desc": "S'éteint le 5 décembre 1926 à 86 ans dans sa propriété de Giverny, laissant un héritage révolutionnaire qui ouvre la modernité picturale.",
+              "type": "life",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+    }
   }
 });
 
@@ -6148,3 +6452,5 @@ window.ARTISTS_REGISTRY["joan_mitchell"] = window.ARTISTS_REGISTRY["mitchell"];
 
 window.ARTISTS_REGISTRY["amedeo_modigliani"] = window.ARTISTS_REGISTRY["modigliani"];
 window.ARTISTS_REGISTRY["piet_mondrian"] = window.ARTISTS_REGISTRY["mondrian"];
+
+window.ARTISTS_REGISTRY["claude_monet"] = window.ARTISTS_REGISTRY["monet"];
