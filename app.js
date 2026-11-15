@@ -11445,6 +11445,7 @@ function renderSearchGallery() {
         if (recId === 'delaunay' && (itemArtist.includes('sonia') || itemArtistId === 'sonia_delaunay')) return false;
         if (recId === 'sonia_delaunay' && (itemArtist.includes('robert') || itemArtistId === 'delaunay')) return false;
 
+        if (!itemArtist) return false;
         let matches = false;
         if (itemArtist === recName || itemArtist === recSort || itemArtist === recClean || itemArtist === activeArtistName) {
           matches = true;
