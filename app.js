@@ -1361,10 +1361,24 @@ const ART_MOVEMENTS = [
 function getArtworksForMovement(mov) {
   const catalog = window.ART_OBJECTS || [];
   const normKw = normalizeSearchStr(mov.filterKeyword || mov.name);
-  const artistsList = (mov.keyArtists || '')
-    .split(',')
-    .map(a => normalizeSearchStr(a.replace(/\(.*?\)/g, '')))
-    .filter(Boolean);
+
+  // 1. Récupération des artistId et noms clés du mouvement (depuis MOVEMENTS_DATA et mov.keyArtists)
+  const movData = (window.MOVEMENTS_DATA && window.MOVEMENTS_DATA[mov.id]) ||
+                  (typeof MODERN_MOVEMENTS_DATA !== 'undefined' && MODERN_MOVEMENTS_DATA[mov.id]) || {};
+  const movArtistIds = new Set();
+  const movArtistNames = [];
+
+  if (Array.isArray(movData.artists)) {
+    movData.artists.forEach(a => {
+      if (a.artistId) movArtistIds.add(a.artistId.toLowerCase().trim());
+      if (a.name) movArtistNames.push(normalizeSearchStr(a.name));
+    });
+  }
+
+  (mov.keyArtists || '').split(',').forEach(a => {
+    const clean = normalizeSearchStr(a.replace(/\(.*?\)/g, ''));
+    if (clean) movArtistNames.push(clean);
+  });
 
   const marginYears = 35;
   const minYear = mov.yearStart - marginYears;
@@ -1393,38 +1407,29 @@ function getArtworksForMovement(mov) {
       }
     }
 
-    // 3. IDENTIFICATION DU MOUVEMENT OU DE L'ARTISTE (sans recherche dans le corps du texte narratif)
-    // a. Artiste clé
+    // 3. IDENTIFICATION DU MOUVEMENT OU DE L'ARTISTE
+    // a. Correspondance par artistId unique
+    if (art.artistId && movArtistIds.has(art.artistId.toLowerCase().trim())) {
+      return true;
+    }
+
+    // b. Correspondance par nom d'artiste (robuste à l'inversion Prénom Nom / Nom Prénom)
     if (art.artist || art.creator) {
       const artArtist = normalizeSearchStr(art.artist || art.creator);
-      if (artistsList.some(a => a && (artArtist.includes(a) || a.includes(artArtist)))) {
-        return true;
-      }
+      const artTokens = artArtist.split(/\s+/).filter(Boolean);
+
+      const nameMatch = movArtistNames.some(targetName => {
+        if (!targetName) return false;
+        if (artArtist.includes(targetName) || targetName.includes(artArtist)) return true;
+        const targetTokens = targetName.split(/\s+/).filter(Boolean);
+        if (targetTokens.length >= 2 && targetTokens.every(t => artArtist.includes(t))) return true;
+        if (artTokens.length >= 2 && artTokens.every(t => targetName.includes(t))) return true;
+        return false;
+      });
+      if (nameMatch) return true;
     }
 
-    // b. Chips / Tags spécifiques de l'œuvre
-    if (art.chips && art.chips.some(c => {
-      const normC = normalizeSearchStr(c);
-      return normC.includes(normKw) ||
-             (normKw === 'symbolisme' && normC.includes('nabis')) ||
-             (normKw === 'réalisme' && normC.includes('realisme')) ||
-             (normKw === 'quattrocento' && normC.includes('quattrocento')) ||
-             (normKw === 'maniérisme' && normC.includes('fontainebleau'));
-    })) {
-      return true;
-    }
-
-    // c. Titre de l'œuvre
-    if (art.title && normalizeSearchStr(art.title).includes(normKw)) {
-      return true;
-    }
-
-    // d. Catégorie stylistique
-    if (art.category && normalizeSearchStr(art.category).includes(normKw)) {
-      return true;
-    }
-
-    // e. Périodes spécifiques
+    // c. Périodes spécifiques Égypte
     if (normKw === 'amarna') {
       const inChips = art.chips && art.chips.some(c => normalizeSearchStr(c).includes('amarna') || normalizeSearchStr(c).includes('akhenaton') || normalizeSearchStr(c).includes('nefertiti'));
       const inTit = art.title && (normalizeSearchStr(art.title).includes('amarna') || normalizeSearchStr(art.title).includes('akhenaton') || normalizeSearchStr(art.title).includes('nefertiti'));
@@ -1440,7 +1445,20 @@ function getArtworksForMovement(mov) {
       return Boolean(inChips);
     }
 
-    return false;
+    // d. Chips, Tags, Titre, Période stylistique, Subpart et Catégorie
+    let textFields = [art.title, art.category, art.period, art.subpart];
+    if (Array.isArray(art.chips)) textFields = textFields.concat(art.chips);
+    if (Array.isArray(art.tags)) textFields = textFields.concat(art.tags);
+
+    return textFields.some(f => {
+      if (!f) return false;
+      const normF = normalizeSearchStr(f);
+      return normF.includes(normKw) ||
+             (normKw === 'symbolisme' && normF.includes('nabis')) ||
+             (normKw === 'realisme' && (normF.includes('realisme') || normF.includes('barbizon'))) ||
+             (normKw === 'quattrocento' && normF.includes('quattrocento')) ||
+             (normKw === 'manierisme' && (normF.includes('manierisme') || normF.includes('fontainebleau')));
+    });
   });
 }
 
