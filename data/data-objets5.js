@@ -257,9 +257,9 @@ window.ART_OBJECTS = [
     "w": 104,
     "display": "192 × 104 cm"
   },
-  "location": "Collection privée",
-  "currentLocation": "Collection privée (Paris / Tokyo)",
-  "site": "Collection privée",
+  "location": "Musée national de l'Art occidental, Tokyo",
+  "currentLocation": "Musée national de l'Art occidental (Tokyo, Japon)",
+  "site": "NMWA (Tokyo, Japon)",
   "originSite": "Bellevue / Paris (France)",
   "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczMYD1_p05riGVukEBZoQHA408cRSagT-ys_Pzpi1zw5QNuTyz9qloGgG1JeyqFUSUZxFtP6m8mHUpL1yhsFUHmTmsemY-Qffuc0hTUQRyiPO_txM7P1yWiygin3RJN_By3VMhH5EiZntzCiMGrxvRdeNg=w1589-h2277-s-no-gm?authuser=0",
   "chips": [
