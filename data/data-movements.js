@@ -185,7 +185,7 @@ window.MOVEMENTS_DATA = {
         "dates": "1475 – 1564",
         "role": "Le Divin sculpteur, peintre et architecte de l'absolu",
         "desc": "Voûte et Jugement dernier de la Sixtine, David et Pietà de Saint-Pierre.",
-        "artistId": "",
+        "artistId": "michel_ange",
         "icon": "⚡"
       },
       {
@@ -1114,7 +1114,7 @@ window.MOVEMENTS_DATA = {
         "dates": "1475 – 1564",
         "role": "Le démiurge absolu de la taille directe dans le marbre de Carrare",
         "desc": "David de Florence, Pietà de Saint-Pierre, Moïse et Esclaves du Louvre.",
-        "artistId": "",
+        "artistId": "michel_ange",
         "icon": "⚡"
       },
       {

@@ -4890,6 +4890,547 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       ]
     }
   },
+"metsu": {
+    "id": "metsu",
+    "name": "Metsu Gabriel",
+    "sortName": "Metsu Gabriel",
+    "sortLetter": "M",
+    "dates": "1629 – 1667",
+    "movement": "Âge d'or néerlandais & Peintres fins de Leyde (Fijnschilders)",
+    "nationality": "Hollandais (Leyde, Amsterdam)",
+    "techniques": "Huile sur panneau de bois et sur toile, fini microscopique (fijnschilder), rendu virtuose des étoffes et du satin, contrastes chromatiques",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczPL8TgrE-PLe1zdh3NdLKqV3pLUFl_BIzjN9UzzK3VMtSU_7wgEJ2ISFlimODsqUXoS2nBa2hCYqzU8So3NbkUEzMocWGNxj8LXut3Nmt2UxwrppuTlNaoocB3_44NofCJA7m4Z_5EkRGvA0l6ZOR7zJw=w1589-h675-s-no-gm?authuser=0",
+    "portraitImg": "",
+    "bio": `
+      <p><strong>Le maître polyvalent et raffiné de l'Âge d'or néerlandais</strong><br>
+      Gabriel Metsu (1629 – 1667) est l'un des peintres de genre les plus polyvalents et raffinés de l'Âge d'or néerlandais. Bien qu'il soit mort jeune, il a laissé une œuvre d'une grande diversité, capable de rivaliser avec la précision de Ter Borch pour les tissus ou la poésie de Vermeer pour la lumière, tout en conservant une chaleur humaine et une observation narrative qui lui sont propres.</p>
+      <p><strong>Virtuosité des matières, éclat du satin et intimité narrative</strong><br>
+      Son genre pictural se définit par la scène de genre élégante et la nature morte. Metsu est un virtuose du rendu des matières : le lustre d'un satin, la douceur d'une fourrure ou le poli d'un plat en argent. Son style se caractérise par une touche souple, une palette de couleurs souvent vives (avec un goût marqué pour le rouge) et une grande finesse dans l'expression des sentiments, qu'il s'agisse de la mélancolie d'une lettre ou de la malice d'un marchand.</p>
+      <p><strong>De l'école fine de Leyde au raffinement suprême d'Amsterdam</strong><br>
+      L'évolution de son style montre une assimilation brillante des différents courants de son époque : L'influence de Leyde (débuts) où, élève probable de Gerard Dou, il commence par des scènes de marché ou d'intérieur aux formats modestes avec l'attention méticuleuse des Peintres fins (<em>Fijnschilders</em>) ; La maturité à Amsterdam (années 1650) où il élargit ses cadrages au contact de Rembrandt et De Hooch ; et enfin L'intimisme et le raffinement (années 1660) avec ses leçons de musique et lectrices de lettres baignées d'une lumière douce préfigurant Vermeer.</p>
+    `,
+    "corpus": {
+      "total": 133,
+      "seen": 1,
+      "paintingsCount": 133,
+      "details": [
+        {
+          "label": "Peintures de chevalet autographes répertoriées",
+          "count": 133,
+          "icon": "🎨",
+          "color": "#d4af37",
+          "seen": 1,
+          "note": "Catalogue raisonné exhaustif établi par Adriaan E. Waiboer (Yale University Press, 2012)"
+        }
+      ],
+      "sourceTitle": "Catalogue raisonné Adriaan E. Waiboer (Yale University Press, 2012)",
+      "sourceNotes": "L'inventaire scientifique de référence mondiale est le monumental catalogue raisonné publié en 2012 par l'historien de l'art néerlandais Adriaan E. Waiboer (Gabriel Metsu: Life and Work: A Catalogue Raisonné, Yale University Press). En rejetant de nombreuses œuvres autrefois acceptées (l'ancien catalogue du XIXe siècle de John Smith lui en prêtait des centaines) et en classant séparément les œuvres potentiellement authentiques ou perdues, ce travail d'une précision clinique fixe aujourd'hui le corpus des peintures de chevalet autographes de Metsu à exactement 133 œuvres."
+    },
+    "timeline": {
+      "periods": [
+        {
+          "title": "Les Débuts à Leyde & l'École des Peintres Fins",
+          "years": "1629 – 1654",
+          "color": "#94a3b8",
+          "summary": "Naissance à Leyde, apprentissage probable auprès de Gerard Dou, fondation de la guilde de Saint-Luc et petites scènes de genre.",
+          "events": [
+            {
+              "year": 1629,
+              "title": "Naissance à Leyde",
+              "desc": "Naissance dans le grand foyer universitaire et artistique de Leyde ; fils du peintre flamand Jacques Metsu.",
+              "type": "life",
+              "icon": "🏛️"
+            },
+            {
+              "year": 1648,
+              "title": "Cofondateur de la guilde de Saint-Luc de Leyde",
+              "desc": "Participe à 19 ans à la création de la nouvelle guilde des peintres de Leyde aux côtés de Jan Steen.",
+              "type": "milestone",
+              "icon": "📜"
+            },
+            {
+              "year": 1653,
+              "title": "Le Marché aux herbes de Leyde",
+              "desc": "Scènes animées de marché et d'artisanat populaire traitées avec la précision miniature des Fijnschilders.",
+              "type": "masterpiece",
+              "icon": "🥕"
+            }
+          ]
+        },
+        {
+          "title": "L'Installation à Amsterdam & les Grandes Scènes Bourgeoises",
+          "years": "1655 – 1662",
+          "color": "#38bdf8",
+          "summary": "Établissement dans la métropole commerçante d'Amsterdam, mariage avec Isabella de Wolff et triomphe du satin blanc.",
+          "events": [
+            {
+              "year": 1657,
+              "title": "Installation définitive à Amsterdam",
+              "desc": "Rejoint la capitale financière des Provinces-Unies sur les bords du canal Prinsengracht, élargissant sa clientèle patricienne.",
+              "type": "voyage",
+              "icon": "⛵"
+            },
+            {
+              "year": 1658,
+              "title": "Mariage avec Isabella de Wolff",
+              "desc": "Épouse la fille d'une famille d'artistes d'Enkhuizen, qui lui sert souvent de modèle pour ses somptueuses figures féminines.",
+              "type": "life",
+              "icon": "💍"
+            },
+            {
+              "year": 1659,
+              "title": "La Leçon de musique (Musée du Louvre)",
+              "desc": "Chef-d'œuvre de délicatesse montrant une jeune femme au virginal en corsage rouge et jupe de satin blanc chatoyant face à son tuteur.",
+              "type": "masterpiece",
+              "artworkId": "metsu_la_lecon_de_musique_louvre_1659"
+            }
+          ]
+        },
+        {
+          "title": "L'Intimisme Raffiné & la Grâce Vermeerienne",
+          "years": "1663 – 1667",
+          "color": "#10b981",
+          "summary": "Épure psychologique suprême, chefs-d'œuvre des lettres d'amour en pendants et disparition précoce à 38 ans.",
+          "events": [
+            {
+              "year": 1665,
+              "title": "L'Homme écrivant une lettre & La Femme lisant une lettre",
+              "desc": "Paire célèbre de chefs-d'œuvre conservée à Dublin (National Gallery of Ireland), rivalisant avec la poésie spatiale et lumineuse de Vermeer.",
+              "type": "masterpiece",
+              "icon": "✉️"
+            },
+            {
+              "year": 1667,
+              "title": "Mort prématurée à Amsterdam",
+              "desc": "Opéré pour un calcul rénal, il succombe en octobre 1667 à seulement 38 ans ; inhumé dans la Nieuwe Kerk d'Amsterdam.",
+              "type": "life",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+    }
+  },
+"metsys": {
+    "id": "metsys",
+    "name": "Metsys Quentin (Matsys / Massys)",
+    "sortName": "Metsys Quentin",
+    "sortLetter": "M",
+    "dates": "v. 1466 – 1530",
+    "movement": "Renaissance flamande & École d'Anvers",
+    "nationality": "Flamand (Louvain, Anvers)",
+    "techniques": "Huile sur panneau de bois, grands retables d'autel, sfumato léonardesque nordique, scènes de genre satiriques et morales",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczNqg1fEkWV4XOCczcc24caJvNkCQsX-shW4m4JWY651esIkifOTBDsXvMeU3i6Yi_l3Xuj_JDncRSpiZwRwN08yzrVtnHYKfaLEARpEp5l5Mjb9F8Xz7ZWHhpUldpgQeyHV5nfMOcn778WjwiVDL7tuqw=w1589-h675-s-no-gm?authuser=0",
+    "portraitImg": "",
+    "bio": `
+      <p><strong>Le père fondateur de l'école d'Anvers et le passeur de la Renaissance</strong><br>
+      Quentin Metsys (ou Matsys / Massys, v. 1466 – 1530) est le père fondateur de l'école d'Anvers et l'un des passeurs majeurs de la Renaissance dans les anciens Pays-Bas. Actif au moment où Anvers supplante Bruges comme métropole financière et marchande d'Europe, il a su concilier la minutie illusionniste des Primitifs flamands (Van Eyck, Rogier van der Weyden) avec les innovations spatiales, les modelés vaporeux et l'humanisme de la Renaissance italienne, tout en inventant la scène de genre profane à portée morale.</p>
+      <p><strong>Sfumato léonardesque, satire sociale et humanisme érasmien</strong><br>
+      Son genre pictural se définit par le grand retable d'autel, le portrait humaniste psychologique, la scène de genre satirique et morale et la peinture de dévotion intime. Son style se caractérise par la fusion d'un rendu tactile des textures (verre, velours, pièces métalliques) et d'un modelé adouci influencé par le <em>sfumato</em> de Léonard de Vinci, alternant entre une délicatesse mélancolique pour le sacré et une verve caricaturale mordante pour la satire sociale.</p>
+      <p><strong>Des grands retables au Prêteur et sa femme et aux portraits d'Érasme</strong><br>
+      L'évolution de son style marque l'émancipation progressive de la tradition flamande vers l'humanisme de la Renaissance : L'enracinement et les grands retables anversois (1491 – 1510) comme le <em>Triptyque de la confrérie Sainte-Anne</em> ; L'invention de la scène de genre morale (années 1510–1520) avec <em>Le Prêteur et sa femme</em> (1514) et <em>Une vieille femme grotesque</em> ; et Le portrait humaniste et la maturité internationale (après 1517) en dialogue étroit avec Érasme, Thomas More et Albrecht Dürer.</p>
+    `,
+    "corpus": {
+      "total": 70,
+      "seen": 0,
+      "paintingsCount": 70,
+      "details": [
+        {
+          "label": "Retables documentés et panneaux autographes répertoriés",
+          "count": 70,
+          "icon": "⚖️",
+          "color": "#10b981",
+          "seen": 0,
+          "note": "Consensus scientifique fixé à environ 70 œuvres autographes (cat. Larry Silver, Phaidon, 1984)"
+        }
+      ],
+      "sourceTitle": "Catalogue raisonné Larry Silver (The Paintings of Quinten Massys, Phaidon, 1984)",
+      "sourceNotes": "L'inventaire scientifique de référence mondiale est le catalogue raisonné de l'historien de l'art américain Larry Silver (The Paintings of Quinten Massys with Catalogue Raisonné, Phaidon, 1984). En écartant les répliques d'atelier tardives (notamment les innombrables versions des percepteurs d'impôts ou des Vierges en prière) pour ne conserver que les grands retables documentés et les panneaux de chevalet strictement autographes, le consensus scientifique fixe le corpus de ses peintures à environ 70 œuvres."
+    },
+    "timeline": {
+      "periods": [
+        {
+          "title": "Origines à Louvain & les Grands Retables Anversois",
+          "years": "1466 – 1510",
+          "color": "#94a3b8",
+          "summary": "Jeunesse de forgeron à Louvain, maîtrise à Anvers et grands polyptyques monumentaux pour les corporations.",
+          "events": [
+            {
+              "year": 1466,
+              "title": "Naissance à Louvain",
+              "desc": "Naissance dans le Brabant ; selon la légende rapportée par Van Mander, il pratique la ferronnerie d'art avant de se tourner vers la peinture par amour.",
+              "type": "life",
+              "icon": "🔨"
+            },
+            {
+              "year": 1491,
+              "title": "Maître à la guilde de Saint-Luc d'Anvers",
+              "desc": "S'établit à Anvers dont le port est en pleine explosion économique et devient franc-maître de la guilde des peintres.",
+              "type": "milestone",
+              "icon": "🏛️"
+            },
+            {
+              "year": 1509,
+              "title": "Triptyque de la confrérie Sainte-Anne (Bruxelles)",
+              "desc": "Chef-d'œuvre de jeunesse exécuté pour l'église Saint-Pierre de Louvain, unissant monumentalité spatiale et harmonie chromatique.",
+              "type": "masterpiece",
+              "icon": "👑"
+            }
+          ]
+        },
+        {
+          "title": "L'Invention de la Scène de Genre Morale & la Satire",
+          "years": "1511 – 1516",
+          "color": "#f59e0b",
+          "summary": "Le Prêteur et sa femme au Louvre, miroirs convexes, satire de l'avarice et figures caricaturales.",
+          "events": [
+            {
+              "year": 1511,
+              "title": "Triptyque de saint Jean (Anvers)",
+              "desc": "Polyptyque commandé par la guilde des charpentiers pour la cathédrale Notre-Dame d'Anvers, aujourd'hui au musée royal des Beaux-Arts.",
+              "type": "masterpiece",
+              "icon": "🎨"
+            },
+            {
+              "year": 1514,
+              "title": "Le Prêteur et sa femme (Musée du Louvre)",
+              "desc": "Sommet absolu de la peinture de genre moralisante : la pesée minutieuse des pièces d'or confrontée à la lecture délaissée du livre de piété.",
+              "type": "masterpiece",
+              "icon": "⚖️"
+            },
+            {
+              "year": 1515,
+              "title": "Une vieille femme grotesque (La Duchesse très laide)",
+              "desc": "Satire féroce de la vanité humaine (National Gallery de Londres), inspirée de dessins de Léonard de Vinci et des textes satiriques d'Érasme.",
+              "type": "masterpiece",
+              "icon": "🎭"
+            }
+          ]
+        },
+        {
+          "title": "L'Amitié avec Érasme, Thomas More & la Reconnaissance Européenne",
+          "years": "1517 – 1530",
+          "color": "#10b981",
+          "summary": "Portraits humanistes d'apparat, rencontre avec Albrecht Dürer à Anvers et apogée de la Renaissance septentrionale.",
+          "events": [
+            {
+              "year": 1517,
+              "title": "Le Diptyque d'amitié : Érasme et Pierre Gilles",
+              "desc": "Peint les portraits des deux humanistes à destination de leur ami commun Thomas More à Londres, marquant l'apogée du portrait intellectuel.",
+              "type": "masterpiece",
+              "icon": "📖"
+            },
+            {
+              "year": 1520,
+              "title": "Visite d'Albrecht Dürer à Anvers",
+              "desc": "Accueille Dürer lors de son voyage aux Pays-Bas, qui note dans son journal son admiration pour la maison et le génie de Metsys.",
+              "type": "life",
+              "icon": "🤝"
+            },
+            {
+              "year": 1530,
+              "title": "Mort à Anvers",
+              "desc": "S'éteint au couvent des Chartreux du Kiel à Anvers en 1530 pendant une épidémie de suette anglaise ; inhumé près de la cathédrale Notre-Dame.",
+              "type": "life",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+    }
+  },
+"michel_ange": {
+    "id": "michel_ange",
+    "name": "Michel-Ange (Michelangelo Buonarroti)",
+    "sortName": "Michel-Ange",
+    "sortLetter": "M",
+    "dates": "1475 – 1564",
+    "movement": "Haute Renaissance & Précurseur du Maniérisme",
+    "nationality": "Italien (Florence, Rome, Caprese)",
+    "techniques": "Taille directe dans le marbre de Carrare, fresques monumentales (affresco), tempera et huile sur bois, cartons monumentaux (fusain et pierre noire)",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczOnWQ17BW808W-48Md8ZSLqFG7RznNp8Q9Rl8x7Rajozo7i2g2lB3LZS6Emds0FI4vHbBF1OLWMnyFEm1UlGUmTs9L7S190ws6CAGgUms67Q8ZnocsZYkaHuClGMOsMtTOCxnZwRep7Axz6ftNKX_hwPA=w1589-h675-s-no-gm?authuser=0",
+    "portraitImg": "",
+    "bio": `
+      <p><strong>Le titan divin de la Haute Renaissance et sculpteur de l'absolu</strong><br>
+      Michelangelo Buonarroti, né en 1475 à Caprese et mort en 1564 à Rome, est l'un des géants de l'histoire de l'art, dont le génie a dominé la Haute Renaissance et ouvert la voie au maniérisme. Bien qu'il se soit toujours considéré avant tout comme un sculpteur — affirmant que la peinture n'était pas son art — il a réalisé des fresques qui figurent parmi les plus célèbres et les plus influentes de l'humanité. Protégé des Médicis à Florence puis appelé à Rome par les papes successifs, il a incarné la figure de l'artiste tourmenté, solitaire et divin, dont la force créatrice semble défier les limites de la nature humaine.</p>
+      <p><strong>La « terribilità », l'anatomie titanique et les couleurs du « cangiante »</strong><br>
+      Son genre pictural est centré de manière presque exclusive sur le corps humain, qu'il traite avec une puissance sculpturale sans précédent. Pour Michel-Ange, l'anatomie est le véhicule suprême de l'expression spirituelle et émotionnelle. Son style se caractérise par la <em>terribilità</em> : une force dramatique et une tension monumentale qui se manifestent dans des poses complexes et musclées, souvent appelées <em>figura serpentinata</em>. Contrairement à la douceur d'un Raphaël, il utilise des couleurs acides et changeantes (le <em>cangiante</em>) et une lumière crue qui souligne le relief des formes, transformant chaque personnage en une architecture de chair et de muscles.</p>
+      <p><strong>De la voûte de la Sixtine au chaos tragique du Jugement Dernier</strong><br>
+      L'évolution de son style est une trajectoire qui va de l'équilibre classique vers une rupture expressive radicale : Dans les fresques de la voûte de la Chapelle Sixtine, il célèbre encore une beauté héroïque et ordonnée, reflet de la perfection divine ; Près de trente ans plus tard, son <em>Jugement dernier</em> sur le mur d'autel marque un tournant vers une vision beaucoup plus sombre et tourmentée où les corps s'entassent dans un chaos tragique ; Vers la fin de sa vie, sa peinture délaisse la virtuosité pour une forme de dépouillement et de tension abstraite, laissant un héritage qui a brisé les codes de la Renaissance pour inventer un langage fondé sur l'émotion pure.</p>
+    `,
+    "corpus": {
+      "total": 50,
+      "seen": 3,
+      "paintingsCount": 7,
+      "details": [
+        {
+          "label": "Sculptures autographes en marbre et bronze",
+          "count": 43,
+          "icon": "🗿",
+          "color": "#d4af37",
+          "seen": 0,
+          "note": "43 sculptures achevées ou inachevées répertoriées (catalogue Umberto Baldini)"
+        },
+        {
+          "label": "Peintures sur bois, cartons d'envergure & cycles de fresques",
+          "count": 7,
+          "icon": "🎨",
+          "color": "#ec4899",
+          "seen": 3,
+          "note": "Tondo Doni, voûte Sixtine, Jugement dernier, chapelle Pauline et cartons maîtres"
+        }
+      ],
+      "sourceTitle": "Catalogues raisonnés Umberto Baldini, Ettore Camesasca & Frank Zöllner",
+      "sourceNotes": "L'inventaire scientifique de référence s'appuie sur les catalogues historiques d'Umberto Baldini (pour la sculpture) et Ettore Camesasca (pour la peinture), dont les données ont été magistralement synthétisées par l'historien Frank Zöllner dans ses éditions complètes. Michel-Ange a laissé environ 43 sculptures (achevées ou inachevées) et seulement 3 peintures sur panneau (dont une seule parfaitement terminée). Si l'on ajoute ses immenses chantiers de fresques comptés comme des entités globales (la voûte de la chapelle Sixtine, le Jugement dernier, et les deux fresques de la chapelle Pauline) ainsi que ses grands cartons autonomes, le consensus scientifique fixe son corpus de peintures et sculptures à environ 50 œuvres."
+    },
+    "timeline": {
+      "periods": [
+        {
+          "title": "Jeunesse Florentine, la Pietà de Rome & le Tondo Doni",
+          "years": "1475 – 1507",
+          "color": "#38bdf8",
+          "summary": "Jardins de Saint-Marc chez Laurent le Magnifique, Pietà de Saint-Pierre, David colossal et Sainte Famille Doni.",
+          "events": [
+            {
+              "year": 1475,
+              "title": "Naissance à Caprese",
+              "desc": "Naissance en Toscane près d'Arezzo ; placé en nourrice chez une famille de tailleurs de pierre de Settignano.",
+              "type": "life",
+              "icon": "🏛️"
+            },
+            {
+              "year": 1499,
+              "title": "La Pietà (Basilique Saint-Pierre, Rome)",
+              "desc": "Chef-d'œuvre absolu sculpté à 24 ans pour le cardinal de Bilhères, seule œuvre qu'il ait jamais signée (sur le baudrier de Marie).",
+              "type": "masterpiece",
+              "icon": "✝️"
+            },
+            {
+              "year": 1504,
+              "title": "Le David colossal (Florence)",
+              "desc": "Taille dans un bloc de marbre réputé gâté le colosse de David, symbole civique invincible de la République florentine.",
+              "type": "masterpiece",
+              "icon": "🗿"
+            },
+            {
+              "year": 1506,
+              "title": "Tondo Doni - Sainte Famille à la tribune (Offices, Florence)",
+              "desc": "Seule peinture sur panneau de bois achevée et documentée de Michel-Ange, révolutionnant la torsion anatomique et les couleurs irisées du cangiante.",
+              "type": "masterpiece",
+              "artworkId": "michel_ange_tondo_doni_offices_1506"
+            }
+          ]
+        },
+        {
+          "title": "Le Plafond de la Sixtine & les Tombeaux des Médicis",
+          "years": "1508 – 1534",
+          "color": "#10b981",
+          "summary": "Épopée surhumaine de la voûte sixtine pour Jules II, Moïse et la nouvelle sacristie de San Lorenzo.",
+          "events": [
+            {
+              "year": 1508,
+              "title": "Chantier de la voûte de la Chapelle Sixtine",
+              "desc": "Peint seul pendant quatre ans, juché sur des échafaudages à vingt mètres de hauteur, la Création d'Adam et l'histoire de la Genèse.",
+              "type": "milestone",
+              "icon": "⚡"
+            },
+            {
+              "year": 1515,
+              "title": "Le Moïse & les Esclaves du tombeau de Jules II",
+              "desc": "Sculpture d'une ferveur titanesque pour le mausolée paputé, incarnant la terribilità michelangelesque.",
+              "type": "masterpiece",
+              "icon": "📜"
+            },
+            {
+              "year": 1524,
+              "title": "La Chapelle des Médicis à Florence",
+              "desc": "Conçoit l'architecture et les allégories sculptées du Jour, de la Nuit, de l'Aurore et du Crépuscule pour les ducs de Nemours et d'Urbin.",
+              "type": "masterpiece",
+              "icon": "⏳"
+            }
+          ]
+        },
+        {
+          "title": "Le Jugement Dernier, Vittoria Colonna & les Cartons Sacrés",
+          "years": "1535 – 1564",
+          "color": "#d97706",
+          "summary": "Mur d'autel de la Sixtine, dévotion spirituelle avec Vittoria Colonna, dôme de Saint-Pierre et testament artistique.",
+          "events": [
+            {
+              "year": 1536,
+              "title": "Le Jugement dernier (Chapelle Sixtine)",
+              "desc": "Fresque monumentale achevée en 1541 : vision terrifiante de la résurrection et de la damnation où les corps nus s'entassent dans le vertige.",
+              "type": "masterpiece",
+              "icon": "🎺"
+            },
+            {
+              "year": 1540,
+              "title": "Pietà et deux putti (Musée Fesch, Ajaccio)",
+              "desc": "Panneau de dévotion intime conçu d'après la célèbre composition pour sa muse spirituelle Vittoria Colonna.",
+              "type": "masterpiece",
+              "artworkId": "michel_ange_pieta_deux_putti_ajaccio_1540"
+            },
+            {
+              "year": 1546,
+              "title": "Architecte en chef de la Basilique Saint-Pierre",
+              "desc": "Nommé par le pape Paul III, il redéfinit le plan centré et dessine la gigantesque coupole dominant la Ville Éternelle.",
+              "type": "milestone",
+              "icon": "🏛️"
+            },
+            {
+              "year": 1550,
+              "title": "L'Épiphanie (British Museum, Londres)",
+              "desc": "Carton monumental de 26 feuilles assemblées, chef-d'œuvre testamentaire de fusain et de pierre noire à la présence sculpturale saisissante.",
+              "type": "masterpiece",
+              "artworkId": "michel_ange_epiphanie_carton_londres_1550"
+            },
+            {
+              "year": 1564,
+              "title": "Mort à Rome & Obsèques grandioses à Florence",
+              "desc": "S'éteint le 18 février 1564 à l'âge de 88 ans en travaillant jusqu'à ses derniers jours sur la Pietà Rondanini ; son corps est rapatrié en secret à Florence pour reposer à Santa Croce.",
+              "type": "life",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+    }
+  },
+"millais": {
+    "id": "millais",
+    "name": "Millais John Everett",
+    "sortName": "Millais John Everett",
+    "sortLetter": "M",
+    "dates": "1829 – 1896",
+    "movement": "Confrérie préraphaélite & Peinture victorienne",
+    "nationality": "Britannique (Southampton, Londres, Écosse)",
+    "techniques": "Huile sur toile, glacis purs sur fond blanc frais (technique préraphaélite), pleinairisme rigoureux, portraits de commande",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczPhAYeJxhcMHWtRYF9gfompZ9coVSjS9ZmMMd5Ex2Ddxe9jBi7fdSnzblTKLXORkjXRtxGvw-vAXow7w1_6GhDrfTYp-c7kMCNAf_5eODvBybCUgies-mtDJ2zwBhgU4-b3GjnXUZcXThijBYI7hIf3LA=w1584-h672-s-no-gm?authuser=0",
+    "portraitImg": "",
+    "bio": `
+      <p><strong>L'enfant prodige victorien et le fondateur de la Confrérie préraphaélite</strong><br>
+      John Everett Millais (1829 – 1896) est l'enfant prodige de la peinture victorienne et l'un des trois membres fondateurs de la Confrérie préraphaélite (avec Dante Gabriel Rossetti et William Holman Hunt). Révoltés contre les formules académiques héritées de Raphaël, Millais et ses compagnons ont prôné un retour à la pureté, à la ferveur et à la précision de l'art médiéval, avant de devenir l'un des peintres les plus acclamés et officiels de l'Empire britannique.</p>
+      <p><strong>Clarté cristalline, pleinairisme scientifique et intensité poétique</strong><br>
+      Son genre pictural se définit par le préraphaélisme, la peinture d'histoire littéraire et le grand portrait. Son style se caractérise à ses débuts par une clarté absolue, un refus du clair-obscur traditionnel, des couleurs éclatantes obtenues en peignant sur un fond blanc encore frais, et une fidélité quasi obsessionnelle à la nature, où chaque brin d'herbe et chaque tissu sont reproduits avec une minutie scientifique.</p>
+      <p><strong>Du scandale d'Ophélie aux honneurs de la Royal Academy</strong><br>
+      L'évolution de son style marque un passage de l'avant-garde radicale vers une virtuosité académique et populaire : La révolution préraphaélite (1848 – 1853) où il passe des mois au bord de la rivière Hogsmill pour peindre sur le motif la végétation de son chef-d'œuvre <em>Ophélie</em> ; La transition esthétique (années 1850-1860) avec des thèmes plus mélancoliques et atmosphériques ; et Le succès officiel (fin de carrière) où, fait baronnet et élu président de la Royal Academy, il adopte une touche libre inspirée de Velázquez pour peindre la haute société britannique.</p>
+    `,
+    "corpus": {
+      "total": 375,
+      "seen": 1,
+      "paintingsCount": 375,
+      "details": [
+        {
+          "label": "Huiles sur toile et sur panneau répertoriées",
+          "count": 375,
+          "icon": "🌸",
+          "color": "#10b981",
+          "seen": 1,
+          "note": "Consensus scientifique fixé à environ 350-400 toiles achevées (inventaire John Guille Millais 1899, Malcolm Warner & Jason Rosenfeld)"
+        }
+      ],
+      "sourceTitle": "Inventaire John Guille Millais (1899), Malcolm Warner & Jason Rosenfeld",
+      "sourceNotes": "L'inventaire historique de référence s'appuie sur la liste chronologique dressée par son fils, John Guille Millais, dans la monumentale biographie de 1899 (The Life and Letters of Sir John Everett Millais), magistralement complétée par les travaux modernes des historiens de l'art britanniques Malcolm Warner (auteur d'un catalogue raisonné de sa première période) et Jason Rosenfeld. En écartant les centaines de dessins préparatoires et d'illustrations en noir et blanc, le consensus scientifique fixe le corpus de ses huiles sur toile et sur panneau (incluant son énorme production tardive de portraits mondains) à environ 350 à 400 peintures."
+    },
+    "timeline": {
+      "periods": [
+        {
+          "title": "L'Enfant Prodige & la Révolution Préraphaélite",
+          "years": "1829 – 1853",
+          "color": "#38bdf8",
+          "summary": "Plus jeune élève des écoles de la Royal Academy à 11 ans, fondation de la Confrérie PRB et création d'Ophélie.",
+          "events": [
+            {
+              "year": 1829,
+              "title": "Naissance à Southampton",
+              "desc": "Naissance dans le Hampshire ; fait preuve d'un talent de dessinateur si précoce qu'il intègre la Royal Academy à 11 ans.",
+              "type": "life",
+              "icon": "🏛️"
+            },
+            {
+              "year": 1848,
+              "title": "Fondation de la Confrérie préraphaélite",
+              "desc": "Fonde avec Rossetti et Holman Hunt la Confrérie PRB, signant leurs œuvres de ces initiales mystérieuses en rejet de l'académisme.",
+              "type": "milestone",
+              "icon": "🌿"
+            },
+            {
+              "year": 1850,
+              "title": "Le Christ dans la maison de ses parents",
+              "desc": "Scandale retentissant au Salon de la Royal Academy ; Charles Dickens fustige le réalisme prolétaire de l'atelier du menuisier.",
+              "type": "masterpiece",
+              "icon": "🪵"
+            },
+            {
+              "year": 1851,
+              "title": "Ophélie (Tate Britain, Londres)",
+              "desc": "Chef-d'œuvre universel du préraphaélisme : la noyade tragique d'Ophélie parmi les fleurs symboliques au bord de la rivière Hogsmill.",
+              "type": "masterpiece",
+              "artworkId": "millais_ophelie_tate_londres_1851"
+            }
+          ]
+        },
+        {
+          "title": "La Transition Esthétique & la Vie de Famille",
+          "years": "1854 – 1869",
+          "color": "#f59e0b",
+          "summary": "Mariage avec Effie Gray après l'annulation de son union avec John Ruskin, assouplissement de la touche et poésie crépusculaire.",
+          "events": [
+            {
+              "year": 1855,
+              "title": "Mariage avec Effie Gray",
+              "desc": "Épouse Effie Gray en Écosse après l'annulation médiatique de son mariage avec le critique John Ruskin.",
+              "type": "life",
+              "icon": "💍"
+            },
+            {
+              "year": 1856,
+              "title": "Feuilles d'automne (Manchester)",
+              "desc": "Scène crépusculaire et mélancolique de jeunes filles brûlant des feuilles mortes, saluée par Ruskin comme le premier chef-d'œuvre poétique pur sans sujet historique.",
+              "type": "masterpiece",
+              "icon": "🍂"
+            },
+            {
+              "year": 1863,
+              "title": "Élu académicien royal",
+              "desc": "Élu membre à part entière de la Royal Academy de Londres, s'orientant vers une facture picturale plus ample inspirée de Velázquez.",
+              "type": "milestone",
+              "icon": "👑"
+            }
+          ]
+        },
+        {
+          "title": "La Consécration Officielle, Baronnet & Présidence de la Royal Academy",
+          "years": "1870 – 1896",
+          "color": "#d97706",
+          "summary": "Grands portraits de la société victorienne, paysages écossais somptueux, titre héréditaire de baronnet et honneurs suprêmes.",
+          "events": [
+            {
+              "year": 1870,
+              "title": "Le Sommeil glacial (Chill October)",
+              "desc": "Grand paysage écossais d'une poésie désolée, inaugurant une célèbre série de paysages d'automne et d'hiver.",
+              "type": "masterpiece",
+              "icon": "🌲"
+            },
+            {
+              "year": 1885,
+              "title": "Créé baronnet par la reine Victoria",
+              "desc": "Premier artiste britannique à recevoir un titre héréditaire de noblesse (Baronet of Palace Gate).",
+              "type": "milestone",
+              "icon": "🎖️"
+            },
+            {
+              "year": 1896,
+              "title": "Président de la Royal Academy & Mort",
+              "desc": "Élu à l'unanimité président de la Royal Academy après la mort de Lord Leighton ; s'éteint le 13 août 1896 et repose dans la cathédrale Saint-Paul.",
+              "type": "life",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+    }
+  },
 });
 
 
@@ -4904,3 +5445,10 @@ window.ARTISTS_REGISTRY["simone_martini"] = window.ARTISTS_REGISTRY["martini_sim
 window.ARTISTS_REGISTRY["henri_matisse"] = window.ARTISTS_REGISTRY["matisse"];
 window.ARTISTS_REGISTRY["ernest_meissonier"] = window.ARTISTS_REGISTRY["meissonier"];
 window.ARTISTS_REGISTRY["hans_memling"] = window.ARTISTS_REGISTRY["memling"];
+
+window.ARTISTS_REGISTRY["gabriel_metsu"] = window.ARTISTS_REGISTRY["metsu"];
+window.ARTISTS_REGISTRY["quentin_metsys"] = window.ARTISTS_REGISTRY["metsys"];
+window.ARTISTS_REGISTRY["quinten_massys"] = window.ARTISTS_REGISTRY["metsys"];
+window.ARTISTS_REGISTRY["michelangelo"] = window.ARTISTS_REGISTRY["michel_ange"];
+window.ARTISTS_REGISTRY["michelangelo_buonarroti"] = window.ARTISTS_REGISTRY["michel_ange"];
+window.ARTISTS_REGISTRY["john_everett_millais"] = window.ARTISTS_REGISTRY["millais"];
