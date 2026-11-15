@@ -2408,6 +2408,465 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
         }
       ]
     }
+  },
+  "lichtenstein": {
+    "id": "lichtenstein",
+    "name": "Lichtenstein Roy",
+    "sortName": "Lichtenstein Roy",
+    "sortLetter": "L",
+    "dates": "1923 – 1997",
+    "century": "XXe siècle",
+    "nationality": "Américain (New York)",
+    "movement": "Pop Art américain",
+    "techniques": "Huile et résine acrylique Magna sur toile, sérigraphie, points Ben-Day, sculpture peinte",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczOy3b9hK0WDtukQjJBQtQ0frqsLh592T8I6DebPikKeclNJTUzf2VfoghnvStG_WxSRBls5ShCbehl2YUeLWlsTPqJ7We27hW90AbAYH8fCcWkc9CJIjGhaGLV95F6y2zMVTDuezdSdXx-pdOaI_IdGzA=w1553-h666-s-no-gm?authuser=0",
+    "portraitImg": "",
+    "bio": `
+      <p><strong>L'architecte du Pop Art et le maître de la trame mécanique</strong><br>
+      Roy Lichtenstein (1923 – 1997) est, aux côtés d'Andy Warhol, l'architecte central du Pop Art américain. En s'emparant des images standardisées de la culture de masse — bandes dessinées d'amour à deux sous (romance comics), récits de guerre héroïques et publicités sur papier glacé —, il a court-circuité la frontière entre l'art noble (high art) et la sous-culture populaire (low art). Son génie repose sur un paradoxe : copier à la main, avec une minutie artisanale extrême, des procédés d'impression mécanique pour interroger les mécanismes visuels de la société de consommation.</p>
+      <p><strong>Points Ben-Day, contours noirs et couleurs primaires pures</strong><br>
+      Son genre pictural se définit par le tableau narratif d'après bande dessinée, le paysage stylisé, la réinterprétation de chefs-d'œuvre de l'histoire de l'art et la sculpture monumentale peinte. Son style se caractérise par l'usage systématique de la trame de points mécaniques (les points Benday), de contours noirs épais et acérés, de phylactères (bulles de dialogue ou de pensée), ainsi que d'une gamme chromatique réduite aux couleurs primaires pures (jaune, rouge, bleu) associées au noir et au blanc.</p>
+      <p><strong>De la subversion des comics à la déconstruction des maîtres</strong><br>
+      L'évolution de son style marque un passage de la subversion figurative à une réflexion théorique sur le langage pictural :<br>
+      <em>La rupture pop et les icônes de comics (1961 – 1965) :</em> Rompant avec ses débuts néo-cubistes et expressionnistes, il peint <em>Look Mickey</em> en 1961. Il enchaîne alors avec ses toiles les plus célèbres, agrandissant démesurément des vignettes de mélodrames larmoyants (<em>Drowning Girl</em>) ou de combats aériens explosifs (<em>Whaam!</em>), détachant l'image de son contexte narratif d'origine pour en faire des icônes froides et monumentales.<br>
+      <em>La série des « Coups de pinceau » et la déconstruction des maîtres (fin des années 1960 – années 1970) :</em> Avec sa série des <em>Brushstrokes</em>, il parodie avec ironie la touche gestuelle spontanée de l'expressionnisme abstrait en la figeant sous forme de bandes graphiques plates et tramées. Il s'attaque également aux maîtres du modernisme (Cézanne, Picasso, Mondrian, Monet) qu'il « retraduit » intégralement dans son vocabulaire de bande dessinée.<br>
+      <em>Les miroirs, les intérieurs et les hommages à l'architecture (années 1980 – 1990) :</em> Son vocabulaire graphique s'élargit à des compositions d'intérieurs bourgeois aseptisés (<em>Interiors</em>), à des jeux de reflets sur des surfaces de verre (<em>Mirrors</em>) et à des toiles explorant la peinture chinoise classique à travers ses fameux points de trame, poussant la stylisation mécanique jusqu'à une abstraction quasi méditative.</p>
+    `,
+    "corpus": {
+      "total": 850,
+      "seen": 0,
+      "paintingsCount": 850,
+      "details": [
+        {
+          "label": "Peintures de chevalet autographes (huile et Magna)",
+          "count": 850,
+          "icon": "🎨",
+          "color": "#d4af37",
+          "seen": 0
+        }
+      ],
+      "sourceTitle": "Roy Lichtenstein Foundation Catalogue Raisonné Project",
+      "sourceNotes": "En n'isolant que ses peintures de chevalet (exécutées à l'huile et surtout au Magna, une résine acrylique permettant un séchage ultra-rapide et un fini parfaitement lisse), le corpus de ses toiles majeures s'établit à environ 850 œuvres."
+    },
+    "biographyTimeline": {
+      "birth": {
+        "year": 1923,
+        "place": "Manhattan, New York (États-Unis)",
+        "title": "Naissance de Roy Lichtenstein à Manhattan",
+        "desc": "Naît le 27 octobre 1923 à New York dans une famille bourgeoise cultivée. Très tôt passionné de jazz et de dessin, il suit les cours de la Parsons School of Design."
+      },
+      "death": {
+        "year": 1997,
+        "place": "Manhattan, New York (États-Unis)",
+        "title": "Mort à New York & Postérité muséale",
+        "desc": "S'éteint le 29 septembre 1997 à Manhattan à l'âge de 73 ans. La Roy Lichtenstein Foundation perpétue la conservation et l'étude de son œuvre universelle."
+      },
+      "periods": [
+        {
+          "title": "Formation, Seconde Guerre mondiale & Débuts Expressionnistes",
+          "years": "1923 – 1960",
+          "color": "#0284c7",
+          "summary": "Élève de Hoyt L. Sherman dans l'Ohio, mobilisé en Europe pendant la guerre, il explore le cubisme et l'expressionnisme abstrait avant de trouver sa voie.",
+          "events": [
+            {
+              "year": 1940,
+              "title": "Études d'art à l'Ohio State University",
+              "desc": "Formé auprès de Hoyt L. Sherman, qui lui enseigne la théorie du flash optique et le détachement de la perception visuelle.",
+              "icon": "🎓"
+            },
+            {
+              "year": 1943,
+              "title": "Mobilisation en Europe (1943-1946)",
+              "desc": "Sert dans les troupes du génie américain en Angleterre, en France et en Belgique durant la Libération.",
+              "icon": "🪖"
+            },
+            {
+              "year": 1951,
+              "title": "Première exposition à New York",
+              "desc": "Expose à la Carlebach Gallery des compositions d'inspiration médiévale et expressionniste, tout en travaillant comme dessinateur industriel.",
+              "icon": "🎨"
+            }
+          ]
+        },
+        {
+          "title": "La Déflagration Pop & Les Icônes de Comics",
+          "years": "1961 – 1965",
+          "color": "#ea580c",
+          "summary": "La rupture décisive : il isole les vignettes de bandes dessinées populaires, introduisant la trame de points mécaniques Ben-Day qui bouleverse l'art mondial.",
+          "events": [
+            {
+              "year": 1961,
+              "title": "Look Mickey : acte de naissance du style Lichtenstein",
+              "desc": "Peinte pour ses fils, cette toile empruntée à un livre d'images Disney introduit le contour noir épais et la trame régulière de points Ben-Day.",
+              "icon": "💥"
+            },
+            {
+              "year": 1962,
+              "title": "Exposition historique chez Leo Castelli",
+              "desc": "Le galeriste new-yorkais Leo Castelli expose ses premières toiles de comics : tout est acquis avant l'inauguration, suscitant polémique et admiration.",
+              "icon": "🏛️"
+            },
+            {
+              "year": 1963,
+              "title": "Whaam! et Drowning Girl : sommets pop dramatiques",
+              "desc": "Crée ses deux toiles les plus emblématiques, monumentalisant l'angoisse sentimentale et l'embrasement du combat aérien sous le vernis glacé de l'imprimerie.",
+              "icon": "🌊"
+            }
+          ]
+        },
+        {
+          "title": "Les Brushstrokes & La Réinterprétation des Maîtres",
+          "years": "1965 – 1979",
+          "color": "#d97706",
+          "summary": "Il parodie la touche gestuelle de l'expressionnisme abstrait et retraduit Monet, Cézanne, Picasso et Mondrian dans sa grammaire mécanique.",
+          "events": [
+            {
+              "year": 1965,
+              "title": "Série des Brushstrokes : ironie sur le geste abstrait",
+              "desc": "Fige le geste spontané de la peinture gestuelle en aplats froids bordés de noir et tramés de points mécaniques.",
+              "icon": "🖌️"
+            },
+            {
+              "year": 1969,
+              "title": "Rétrospective au Musée Guggenheim de New York",
+              "desc": "Premier peintre américain vivant de sa génération à bénéficier d'une grande rétrospective monographique au Guggenheim.",
+              "icon": "🏛️"
+            },
+            {
+              "year": 1973,
+              "title": "Hommages à Picasso, Monet et Mondrian",
+              "desc": "Réinterprète les Cathédrales de Monet et les figures de Picasso à travers le prisme de la culture de masse et de la reproduction mécanique.",
+              "icon": "🎨"
+            }
+          ]
+        },
+        {
+          "title": "Miroirs, Grands Intérieurs & Épures Chinoises",
+          "years": "1980 – 1997",
+          "color": "#8b5cf6",
+          "summary": "Jeux de reflets vides, intérieurs bourgeois monumentaux et paysages à la chinoise épurés marquent l'ultime décennie du maître.",
+          "events": [
+            {
+              "year": 1980,
+              "title": "Séries des Mirrors et des Interiors",
+              "desc": "Développe d'immenses toiles représentant des intérieurs déserts et des miroirs froids où seule la trame de points capture la lumière.",
+              "icon": "🪞"
+            },
+            {
+              "year": 1995,
+              "title": "Série Landscapes in the Chinese Style",
+              "desc": "Revisite la peinture des Song à travers des brumes de points Ben-Day d'une sérénité quasi contemplative.",
+              "icon": "⛰️"
+            },
+            {
+              "year": 1997,
+              "title": "Mort à Manhattan",
+              "desc": "Disparaît le 29 septembre 1997, laissant un héritage monumental qui a redéfini le rapport entre l'art et les médias modernes.",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "lippi_filippino": {
+    "id": "lippi_filippino",
+    "name": "Lippi Filippino",
+    "sortName": "Lippi Filippino",
+    "sortLetter": "L",
+    "dates": "v. 1457 – 1504",
+    "century": "XVe siècle",
+    "nationality": "Italien (Florence)",
+    "movement": "Renaissance florentine tardive & Pré-Maniérisme",
+    "techniques": "Fresque sur enduit à la chaux, détrempe (tempera) et huile sur panneau de bois",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczN4kzW91e9nEB_K36UeDebN3EXYe39PbyfDLId3swzj1yTJpj54NFW1ZhS0pd10SzesRJn4rqW3rqojwzG5r4m3aO8Y9hnmK8drqnHTT8DHeb5ocLivw-kiN48jhc-xqN1f5LY8JpWYnzETEWzuXU5uOQ=w1553-h659-s-no-gm?authuser=0",
+    "portraitImg": "",
+    "bio": `
+      <p><strong>L'inventeur visionnaire et le pionnier du maniérisme florentin</strong><br>
+      Filippino Lippi (v. 1457 – 1504) est l'une des personnalités les plus inventives et singulières de la Renaissance florentine tardive. Fils du maître Fra Filippo Lippi et de la religieuse Lucrezia Buti, élève et collaborateur privilégié de Sandro Botticelli, il a su dépasser l'harmonie linéaire et l'idéalisme néo-platonicien de son temps pour élaborer un langage visionnaire, nerveux et foisonnant, qui annonce directement les tensions et les extravagances du Maniérisme florentin.</p>
+      <p><strong>Ligne fébrile, drapés tourmentés et vertige archéologique</strong><br>
+      Son genre pictural se définit par le grand décor à fresque, le retable d'autel sur panneau et la peinture d'histoire sacrée. Son style se caractérise par une ligne serpentine et fébrile, des drapés tourmentés aux cassures complexes, une palette aux reflets changeants et métalliques, ainsi qu'une fascination érudite et quasi obsessionnelle pour l'archéologie romaine, peuplant ses arrière-plans de trophées militaires, de grotesques, d'autels païens et d'architectures fantastiques saturées d'ornements.</p>
+      <p><strong>De la grâce botticellienne aux visions pré-maniéristes</strong><br>
+      L'évolution de son style marque un passage de l'élégance botticellienne vers une théâtralité dramatique et antiquisante :<br>
+      <em>La formation chez Botticelli et l'achèvement de la chapelle Brancacci (années 1470 – 1485) :</em> Après la mort de son père, il entre dans l'atelier de Botticelli, dont il assimile la grâce poétique et la pureté du dessin. Au début des années 1480, on lui confie la tâche prestigieuse d'achever les fresques de Masaccio et Masolino dans la chapelle Brancacci à Florence. Il s'y plie avec une rigueur spatiale remarquable tout en introduisant des portraits contemporains d'une finesse psychologique nouvelle (<em>L'Apparition de la Vierge à saint Bernard</em>).<br>
+      <em>Le séjour romain et la chapelle Carafa (1488 – 1493) :</em> Appelé à Rome pour décorer la chapelle du cardinal Carafa à Santa Maria sopra Minerva, il subit le choc des ruines antiques et des fresques de la Domus Aurea récemment redécouvertes. Dans l'<em>Assomption</em> et le <em>Triomphe de saint Thomas d'Aquin</em>, son style explose en une scénographie grandiose, où les figures gesticulantes évoluent au milieu d'un répertoire architectural gréco-romain exubérant.<br>
+      <em>La chapelle Strozzi et les fièvres pré-maniéristes (1493 – 1504) :</em> De retour à Florence, il livre son chef-d'œuvre ultime à Santa Maria Novella pour la famille Strozzi (<em>Vie de saint Philippe et de saint Jean l'Évangéliste</em>). Rompant avec la mesure classique, il met en scène des scènes d'exorcisme et de martyre d'une violence hallucinée, dominées par un autel païen démesuré crachant un monstre infernal. La tension expressive et la saturation décorative ouvrent alors la voie à la génération de Pontormo et Rosso Fiorentino.</p>
+    `,
+    "corpus": {
+      "total": 110,
+      "seen": 0,
+      "paintingsCount": 110,
+      "details": [
+        {
+          "label": "Panneaux, toiles et grands cycles de fresques autographes",
+          "count": 110,
+          "icon": "🎨",
+          "color": "#d4af37",
+          "seen": 0
+        }
+      ],
+      "sourceTitle": "Catalogue raisonné Patrizia Zambrano & Jonathan Katz Nelson (2004)",
+      "sourceNotes": "L'inventaire de référence mondiale s'appuie sur le monumental catalogue raisonné de Patrizia Zambrano et Jonathan Katz Nelson (2004, Electa). En écartant les travaux d'atelier, les nombreuses erreurs historiques d'attribution (jadis confondues avec celles de l'anonyme 'Amico di Sandro') et l'œuvre graphique, le consensus scientifique fixe le corpus de ses panneaux de bois, toiles et grands cycles de fresques autographes à environ 110 œuvres."
+    },
+    "biographyTimeline": {
+      "birth": {
+        "year": 1457,
+        "place": "Prato (Toscane, Italie)",
+        "title": "Naissance de Filippino Lippi à Prato",
+        "desc": "Fils naturel du célèbre moine-peintre Fra Filippo Lippi et de Lucrezia Buti. Il apprend les premiers rudiments du métier dès l'enfance aux côtés de son père."
+      },
+      "death": {
+        "year": 1504,
+        "place": "Florence (Italie)",
+        "title": "Mort à Florence & Deuil des artistes",
+        "desc": "S'éteint brutalement le 18 avril 1504 à Florence à l'âge de 47 ans. En hommage à son immense prestige, tous les ateliers de peinture florentins ferment le jour de ses funérailles."
+      },
+      "periods": [
+        {
+          "title": "L'Héritage Paternel & L'Atelier de Botticelli",
+          "years": "v. 1457 – 1485",
+          "color": "#0284c7",
+          "summary": "Formé après la mort de son père par Sandro Botticelli, il assimile le dessin florentin et achève les célèbres fresques de la chapelle Brancacci.",
+          "events": [
+            {
+              "year": 1469,
+              "title": "Mort de Fra Filippo Lippi à Spolète",
+              "desc": "À douze ans, il participe à l'achèvement des fresques de l'abside de Spolète avant de regagner Florence sous la tutelle de Fra Diamante.",
+              "icon": "⛪"
+            },
+            {
+              "year": 1472,
+              "title": "Collaboration avec Sandro Botticelli",
+              "desc": "Entre dans l'atelier florentin de Sandro Botticelli (ancien élève de son père), dont il devient le plus proche et brillant disciple.",
+              "icon": "🤝",
+              "linkedArtist": "Sandro Botticelli"
+            },
+            {
+              "year": 1482,
+              "title": "Achèvement de la chapelle Brancacci",
+              "desc": "Reçoit la mission d'achever les fresques de Masaccio et Masolino à Santa Maria del Carmine, restaurant l'harmonie spatiale avec des portraits vivants.",
+              "icon": "🏛️"
+            },
+            {
+              "year": 1486,
+              "title": "L'Apparition de la Vierge à saint Bernard (Badia)",
+              "desc": "Chef-d'œuvre de dévotion : la Vierge entourée d'anges visite le saint docteur dans un paysage rocheux peuplé de monstres et d'érudition.",
+              "icon": "✨"
+            }
+          ]
+        },
+        {
+          "title": "Le Triomphe Romain & La Chapelle Carafa",
+          "years": "1488 – 1493",
+          "color": "#10b981",
+          "summary": "Mandaté à Rome par le cardinal Carafa, il s'émerveille des ruines antiques et des fresques de la Domus Aurea, dynamisant sa scénographie.",
+          "events": [
+            {
+              "year": 1488,
+              "title": "Commande de la chapelle Carafa à Rome",
+              "desc": "Recommandé par Laurent de Médicis au cardinal Oliviero Carafa pour peindre sa chapelle à Santa Maria sopra Minerva.",
+              "icon": "🏛️"
+            },
+            {
+              "year": 1493,
+              "title": "Triomphe de saint Thomas & Découverte des grotesques",
+              "desc": "Achève un cycle grandiose mêlant théologie dominicaine, trompe-l'œil virtuose et trophées militaires antiques.",
+              "icon": "📜"
+            }
+          ]
+        },
+        {
+          "title": "La Chapelle Strozzi & L'Éveil du Pré-Maniérisme",
+          "years": "1494 – 1504",
+          "color": "#d97706",
+          "summary": "De retour à Florence, il signe à Santa Maria Novella son cycle le plus dramatique et novateur, ouvrant la voie à Pontormo.",
+          "events": [
+            {
+              "year": 1497,
+              "title": "Chantier des fresques Strozzi à Santa Maria Novella",
+              "desc": "Décore la chapelle de Filippo Strozzi d'une scénographie fiévreuse : Saint Philippe chassant le dragon et Saint Jean ressuscitant Drusienne.",
+              "icon": "🔥"
+            },
+            {
+              "year": 1503,
+              "title": "La Déposition pour la Santissima Annunziata",
+              "desc": "Entame un immense retable pour les Servites de Marie, que sa mort prématurée laissera inachevé (terminé par Le Pérugin).",
+              "icon": "✝️"
+            },
+            {
+              "year": 1504,
+              "title": "Disparition à Florence",
+              "desc": "Meurt en pleine gloire créatrice, célébré par ses pairs comme l'un des esprits les plus inventifs et audacieux de son siècle.",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "lippi_filippo": {
+    "id": "lippi_filippo",
+    "name": "Lippi Filippo (Fra Filippo Lippi)",
+    "sortName": "Lippi Filippo",
+    "sortLetter": "L",
+    "dates": "v. 1406 – 1469",
+    "century": "XVe siècle",
+    "nationality": "Italien (Florence)",
+    "movement": "Première Renaissance florentine (Quattrocento)",
+    "techniques": "Détrempe (tempera) et or sur panneau de bois, fresque sur enduit à la chaux",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczPnYGGb9il9kBFjbxh1kiRgvcg9qkE4FXh-wpO04CBo4GVR7BZ4UlZoCi_raHY0LFAowKr5YxsfILxd94_HZlEAd32gEkYR2htTGfx978uV6LjT3-Yor-MOKKWXgSTowdlVdT2l7i5jkI_wdrHd0lfORA=w1553-h659-s-no-gm?authuser=0",
+    "portraitImg": "",
+    "bio": `
+      <p><strong>Le moine-peintre romanesque et l'inventeur de la grâce mariale</strong><br>
+      Fra Filippo Lippi, né vers 1406 à Florence et mort en 1469 à Spolète, est l'une des figures les plus romanesques et novatrices du Quattrocento. Moine carme malgré lui, sa vie fut jalonnée de scandales — notamment sa fuite avec la religieuse Lucrezia Buti, qui devint sa compagne et son modèle. Protégé indéfectible des Médicis, il a su transformer la rigueur monastique en une célébration de la beauté terrestre. Maître de Botticelli, il a transmis à ce dernier ce goût pour la ligne mélodieuse et la mélancolie gracieuse qui définissent l'idéal florentin.</p>
+      <p><strong>Lumière douce, réalisme des traits et tendresse maternelle</strong><br>
+      Son genre pictural est essentiellement religieux, mais il y insère une humanité et une tendresse domestique inédites. Son style se caractérise par une maîtrise exceptionnelle du dessin linéaire et une utilisation de la lumière qui souligne le modelé des visages sans en durcir les traits. Filippo Lippi est le premier à donner aux Madones des visages de femmes réelles, élégantes et parées comme des patriciennes florentines. Il utilise des paysages rocheux et des architectures complexes pour créer une profondeur qui reste toujours au service de la figure humaine, privilégiant une palette de couleurs douces et lumineuses.</p>
+      <p><strong>De la monumentalité de Masaccio au lyrisme des fresques de Prato</strong><br>
+      L'évolution de son travail montre un affranchissement progressif de la masse sculpturale de Masaccio (son premier maître spirituel) vers un style plus ornemental et fluide. À ses débuts, ses figures sont imposantes et pesantes ; avec le temps, elles gagnent en légèreté et en transparence. Son cycle de fresques à la cathédrale de Prato marque le sommet de son art, où il déploie des compositions dynamiques et des jeux de drapés virtuoses qui préfigurent déjà la liberté de la Haute Renaissance. Il a réussi la fusion parfaite entre la piété chrétienne et le nouvel humanisme, faisant de la figure de la Vierge une icône de tendresse maternelle.</p>
+    `,
+    "corpus": {
+      "total": 85,
+      "seen": 2,
+      "paintingsCount": 85,
+      "details": [
+        {
+          "label": "Panneaux autographes et cycles de fresques",
+          "count": 85,
+          "icon": "🎨",
+          "color": "#d4af37",
+          "seen": 2
+        }
+      ],
+      "sourceTitle": "Catalogue raisonné Jeffrey Ruda (Fra Filippo Lippi: Life and Work, 1993, Phaidon)",
+      "sourceNotes": "L'inventaire de référence mondiale est le catalogue raisonné de Jeffrey Ruda (1993, Phaidon). En écartant rigoureusement les copies d'époque, les travaux d'élèves (Fra Diamante, Pesellino) et en considérant ses grands cycles de fresques comme des chantiers globaux, le consensus scientifique fixe le corpus de ses panneaux autographes et fresques à environ 85 œuvres."
+    },
+    "biographyTimeline": {
+      "birth": {
+        "year": 1406,
+        "place": "Florence (Toscane, Italie)",
+        "title": "Naissance de Filippo Lippi à Florence",
+        "desc": "Naît vers 1406 dans le quartier populeux du Carmine à Florence. Orphelin très jeune, il est recueilli par les frères carmes qui pourvoient à son éducation."
+      },
+      "death": {
+        "year": 1469,
+        "place": "Spolète (Ombrie, Italie)",
+        "title": "Mort à Spolète & Tombeau de Laurent le Magnifique",
+        "desc": "Meurt le 8 octobre 1469 à Spolète alors qu'il peignait l'abside de la cathédrale. Laurent de Médicis fait ériger à ses frais un splendide tombeau de marbre conçu par Filippino Lippi."
+      },
+      "periods": [
+        {
+          "title": "Le Couvent des Carmes & Le Choc de Masaccio",
+          "years": "v. 1406 – 1437",
+          "color": "#0284c7",
+          "summary": "Vœux monastiques chez les Carmes, découverte éblouie des fresques de Masaccio et premiers panneaux marqués par une robuste monumentalité.",
+          "events": [
+            {
+              "year": 1421,
+              "title": "Prononciation des vœux monastiques",
+              "desc": "Reçoit l'habit de l'ordre du Carmel à Santa Maria del Carmine de Florence et commence son apprentissage du dessin.",
+              "icon": "⛪"
+            },
+            {
+              "year": 1425,
+              "title": "Découverte des fresques de Masaccio",
+              "desc": "Assiste à la réalisation des fresques de la chapelle Brancacci par Masaccio, assimilant d'emblée la force du modelé et la perspective.",
+              "icon": "🎨"
+            },
+            {
+              "year": 1437,
+              "title": "La Madone de Tarquinia",
+              "desc": "Première œuvre datée conservée : la Vierge et l'Enfant trônant dans un intérieur domestique florentin baigné de lumière réelle.",
+              "icon": "✨"
+            }
+          ]
+        },
+        {
+          "title": "La Protection des Médicis & L'Atelier Florentin",
+          "years": "1438 – 1451",
+          "color": "#10b981",
+          "summary": "Devenu le protégé intime de Cosme l'Ancien, il installe son atelier indépendant et forme le jeune Sandro Botticelli.",
+          "events": [
+            {
+              "year": 1438,
+              "title": "Mécénat de Cosme de Médicis l'Ancien",
+              "desc": "Cosme l'Ancien le prend sous son aile protectrice, lui commandant de multiples retables pour ses palais et couvents.",
+              "icon": "👑"
+            },
+            {
+              "year": 1441,
+              "title": "Le Couronnement de la Vierge (Offices)",
+              "desc": "Peint pour les moniales de Sant'Ambrogio un grand retable foisonnant où il glisse son propre autoportrait en moine contemplatif.",
+              "icon": "👑"
+            },
+            {
+              "year": 1445,
+              "title": "Arrivée du jeune Sandro Botticelli",
+              "desc": "Accueille Sandro Botticelli comme apprenti, lui transmettant le sens de la ligne ondulante, des voiles transparents et des carnations douces.",
+              "icon": "🤝",
+              "linkedArtist": "Sandro Botticelli"
+            }
+          ]
+        },
+        {
+          "title": "Les Fresques de Prato, Lucrezia Buti & Les Chefs-d'œuvre",
+          "years": "1452 – 1466",
+          "color": "#d97706",
+          "summary": "Chantier magistral du dôme de Prato, liaison passionnée avec Lucrezia Buti et création de la légendaire « Lippina ».",
+          "events": [
+            {
+              "year": 1452,
+              "title": "Cycle des fresques de la cathédrale de Prato",
+              "desc": "Entreprend la monumentale décoration du chœur (Vie de saint Jean-Baptiste et saint Étienne), déployant une liberté de mouvement et de drapé pré-renaissante.",
+              "icon": "🏛️"
+            },
+            {
+              "year": 1456,
+              "title": "Rencontre et fuite avec Lucrezia Buti",
+              "desc": "S'éprend de la jeune religieuse Lucrezia Buti venue poser pour lui ; de leur union naît Filippino Lippi en 1457.",
+              "icon": "❤️"
+            },
+            {
+              "year": 1465,
+              "title": "La Vierge à l'Enfant avec deux anges (La Lippina, Offices)",
+              "desc": "Chef-d'œuvre absolu de tendresse et d'intimité chrétienne sous les traits idéalisés de Lucrezia Buti devant une fenêtre toscane.",
+              "type": "masterpiece",
+              "artworkId": "lippi_filippo_vierge_enfant_deux_anges_offices_1465"
+            },
+            {
+              "year": 1466,
+              "title": "La Vierge à l'Enfant du Palais Medici-Riccardi",
+              "desc": "Madone de la tendresse en cadrage serré appuyée sur un parapet de marbre, peinte pour la famille Médicis.",
+              "type": "masterpiece",
+              "artworkId": "lippi_filippo_vierge_enfant_palais_medici_riccardi_1466"
+            }
+          ]
+        },
+        {
+          "title": "L'Ultime Chantier de Spolète & Postérité",
+          "years": "1467 – 1469",
+          "color": "#8b5cf6",
+          "summary": "Dernières fresques mariales à Spolète avant son trépas, laissant à son fils Filippino et à Botticelli un flambeau éclatant.",
+          "events": [
+            {
+              "year": 1467,
+              "title": "Fresques de la cathédrale de Spolète",
+              "desc": "Peint l'abside du Duomo de Spolète avec les scènes de la Vie de la Vierge, assisté par Fra Diamante et son jeune fils Filippino.",
+              "icon": "⛪"
+            },
+            {
+              "year": 1469,
+              "title": "Mort à Spolète",
+              "desc": "S'éteint le 8 octobre 1469. Ses recherches plastiques sur la tendresse mariale et le dynamisme du drapé marqueront toute l'Europe.",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+    }
   }
 });
+
+// Alias de confort pour la recherche
+window.ARTISTS_REGISTRY["fra_filippo_lippi"] = window.ARTISTS_REGISTRY["lippi_filippo"];
+
 

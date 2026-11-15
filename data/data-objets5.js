@@ -7,6 +7,109 @@
 
 window.ART_OBJECTS = [
   {
+    "id": "lippi_filippo_vierge_enfant_deux_anges_offices_1465",
+    "artistId": "lippi_filippo",
+    "artist": "Lippi Filippo (Fra Filippo Lippi)",
+    "artistSort": "Lippi Filippo",
+    "civId": "occident",
+    "periodId": "occ_renaissance",
+    "civName": "Occident : Première Renaissance & École Florentine",
+    "civilization": "Italie",
+    "subpart": "La Lippina & L'Idéal humaniste florentin (1465)",
+    "title": "La Vierge à l'Enfant avec deux anges (La Lippina)",
+    "date": "1465",
+    "dateDisplay": "vers 1465",
+    "century": "XVe siècle",
+    "centuryDisplay": "XVe s. (1465)",
+    "centuryNumeric": 1465,
+    "period": "XVe siècle",
+    "domain": "peinture",
+    "type": "Détrempe sur bois (tempera)",
+    "artifactType": "Tableau de dévotion privée",
+    "category": "peinture",
+    "medium": "Détrempe sur panneau de peuplier",
+    "dimensions": {
+      "h": 95,
+      "w": 62,
+      "display": "95 × 62 cm"
+    },
+    "location": "Galerie des Offices, Florence",
+    "currentLocation": "Galerie des Offices (Florence, Italie)",
+    "site": "Galerie des Offices (Florence, Italie)",
+    "originSite": "Palais Médicis, Florence (Italie)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczNjugZnEyKLoX4V0MkrSQDblKEYeFdNlse8---kLqvAuTEAI-wXYjuB3Za-F21QUfw2IHDimzUj-XmOcYLWnb-8LYoobvIfpffk2Wq52TecTAypZLlMemVLwfBnL0aynWK2jU15AH4vLlakDV3U57_2GA=w1553-h2282-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczNjugZnEyKLoX4V0MkrSQDblKEYeFdNlse8---kLqvAuTEAI-wXYjuB3Za-F21QUfw2IHDimzUj-XmOcYLWnb-8LYoobvIfpffk2Wq52TecTAypZLlMemVLwfBnL0aynWK2jU15AH4vLlakDV3U57_2GA=w1553-h2282-s-no-gm?authuser=0",
+    "chips": [
+      "XVe s.",
+      "1465",
+      "Filippo Lippi",
+      "Offices Florence",
+      "La Lippina",
+      "Vierge à l'Enfant",
+      "Médicis",
+      "Renaissance florentine"
+    ],
+    "themes": [
+      "sacre_religion"
+    ],
+    "subthemes": [
+      "vierge_nativite"
+    ],
+    "desc": "<p>L'œuvre la plus célèbre de Fra Filippo Lippi, la Vierge à l'Enfant avec deux anges, souvent surnommée la Lippina, constitue l'un des sommets de la peinture de la Renaissance italienne. Réalisée vers 1465 pour la demeure des Médicis, cette détrempe sur panneau de peuplier marque une rupture avec la hiératicité médiévale en introduisant une dimension humaine et intime sans précédent dans l'iconographie chrétienne. Le visage de la Vierge, d'une beauté mélancolique, est traditionnellement identifié comme celui de Lucrezia Buti, la religieuse dont le peintre s'éprit, conférant à l'œuvre une charge émotionnelle et personnelle unique.</p><p>La composition est remarquable par sa structure en trompe-l'œil : Marie est assise de profil sur un siège précieux placé devant une fenêtre qui s'ouvre sur un paysage rocheux et lointain, rappelant les côtes de la Toscane. Ce cadre architectural crée une profondeur spatiale où l'Enfant Jésus, porté par deux anges facétieux, semble projeté vers le spectateur. L'ange au premier plan, qui nous regarde avec un sourire complice, brise la barrière entre le divin et l'humain, une innovation majeure qui influencera durablement le jeune Sandro Botticelli, alors élève dans l'atelier de Lippi.</p><p>La maîtrise technique de Lippi se manifeste dans le rendu virtuose des matières : la transparence du voile de soie qui couronne la coiffure complexe de la Vierge, les perles brodées sur ses vêtements et la douceur de la carnation des enfants. La lumière, diffuse et naturelle, modèle les formes avec une tendresse qui atténue la rigueur du dessin. Cette œuvre incarne l'idéal de l'humanisme florentin, où la dévotion religieuse s'exprime à travers la célébration de la beauté terrestre et de l'affection maternelle, faisant de ce panneau l'un des trésors les plus admirés de la Galerie des Offices.</p>",
+    "narrative": "<p>L'œuvre la plus célèbre de Fra Filippo Lippi, la Vierge à l'Enfant avec deux anges, souvent surnommée la Lippina, constitue l'un des sommets de la peinture de la Renaissance italienne. Réalisée vers 1465 pour la demeure des Médicis, cette détrempe sur panneau de peuplier marque une rupture avec la hiératicité médiévale en introduisant une dimension humaine et intime sans précédent dans l'iconographie chrétienne. Le visage de la Vierge, d'une beauté mélancolique, est traditionnellement identifié comme celui de Lucrezia Buti, la religieuse dont le peintre s'éprit, conférant à l'œuvre une charge émotionnelle et personnelle unique.</p><p>La composition est remarquable par sa structure en trompe-l'œil : Marie est assise de profil sur un siège précieux placé devant une fenêtre qui s'ouvre sur un paysage rocheux et lointain, rappelant les côtes de la Toscane. Ce cadre architectural crée une profondeur spatiale où l'Enfant Jésus, porté par deux anges facétieux, semble projeté vers le spectateur. L'ange au premier plan, qui nous regarde avec un sourire complice, brise la barrière entre le divin et l'humain, une innovation majeure qui influencera durablement le jeune Sandro Botticelli, alors élève dans l'atelier de Lippi.</p><p>La maîtrise technique de Lippi se manifeste dans le rendu virtuose des matières : la transparence du voile de soie qui couronne la coiffure complexe de la Vierge, les perles brodées sur ses vêtements et la douceur de la carnation des enfants. La lumière, diffuse et naturelle, modèle les formes avec une tendresse qui atténue la rigueur du dessin. Cette œuvre incarne l'idéal de l'humanisme florentin, où la dévotion religieuse s'exprime à travers la célébration de la beauté terrestre et de l'affection maternelle, faisant de ce panneau l'un des trésors les plus admirés de la Galerie des Offices.</p>"
+  },
+  {
+    "id": "lippi_filippo_vierge_enfant_palais_medici_riccardi_1466",
+    "artistId": "lippi_filippo",
+    "artist": "Lippi Filippo (Fra Filippo Lippi)",
+    "artistSort": "Lippi Filippo",
+    "civId": "occident",
+    "periodId": "occ_renaissance",
+    "civName": "Occident : Première Renaissance & École Florentine",
+    "civilization": "Italie",
+    "subpart": "La Madonna della Tenerezza des Médicis (1466)",
+    "title": "La Vierge à l'Enfant",
+    "date": "1466",
+    "dateDisplay": "vers 1466 – 1469",
+    "century": "XVe siècle",
+    "centuryDisplay": "XVe s. (1466)",
+    "centuryNumeric": 1466,
+    "period": "XVe siècle",
+    "domain": "peinture",
+    "type": "Détrempe sur bois (tempera)",
+    "artifactType": "Tableau de dévotion",
+    "category": "peinture",
+    "medium": "Détrempe sur bois",
+    "dimensions": {
+      "h": 115,
+      "w": 71,
+      "display": "115 × 71 cm"
+    },
+    "location": "Palais Medici-Riccardi, Florence",
+    "currentLocation": "Palais Medici-Riccardi (Florence, Italie)",
+    "site": "Palais Medici-Riccardi (Florence, Italie)",
+    "originSite": "Palais Médicis, Florence (Italie)",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczOLQntpiJsyAyPkvKchwzQiillW1UyIdN0xiE3P_K6aJduBuGwi699wcGSfNI1Snoz5VANdOHy0zdmFAXyjE3ROu2qNzxZa3yLjBCOWtbcc8cT7PVWxPW0HTNMXBx7cLVAQHMBw3GBRlLcNG9AJQ2WvYA=w1553-h2331-s-no-gm?authuser=0",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczOLQntpiJsyAyPkvKchwzQiillW1UyIdN0xiE3P_K6aJduBuGwi699wcGSfNI1Snoz5VANdOHy0zdmFAXyjE3ROu2qNzxZa3yLjBCOWtbcc8cT7PVWxPW0HTNMXBx7cLVAQHMBw3GBRlLcNG9AJQ2WvYA=w1553-h2331-s-no-gm?authuser=0",
+    "chips": [
+      "XVe s.",
+      "1466",
+      "Filippo Lippi",
+      "Palais Medici-Riccardi Florence",
+      "Madonna della Tenerezza",
+      "Vierge à l'Enfant",
+      "Médicis"
+    ],
+    "themes": [
+      "sacre_religion"
+    ],
+    "subthemes": [
+      "vierge_nativite"
+    ],
+    "desc": "<p>Cette œuvre majeure du Quattrocento florentin, intitulée la Vierge à l'Enfant et conservée au Palais Medici-Riccardi à Florence, est universellement attribuée à Fra Filippo Lippi, qui l'aurait réalisée vers 1466-1469. Peinte à la détrempe sur bois, elle constitue l'un des sommets de la maturité de l'artiste, illustrant la transition stylistique entre la rigueur de la première Renaissance et le lyrisme plus souple qui caractérisera la fin du XVe siècle. La composition se distingue par son cadrage serré et intime, où la Vierge est représentée à mi-corps, émergeant d'une niche architecturale dont les motifs de coquille en relief témoignent du goût de l'époque pour l'ornementation classique.</p><p>L'enfant Jésus, debout sur un parapet de marbre qui marque la limite entre l'espace sacré et celui du spectateur, est saisi dans un élan de tendresse naturelle, pressant sa joue contre celle de sa mère et entourant son cou de ses bras. Cette iconographie, dite de la Madonna della Tenerezza (Vierge de la tendresse), rompt avec la hiératicité médiévale pour privilégier une émotion humaine palpable. La maîtrise technique de Lippi s'exprime ici par la finesse du dessin et la richesse des matières : le voile de soie transparente de la Vierge, aux plis minutieusement étudiés, contraste avec le brocart luxueux de sa robe rouge rehaussée d'or, reflétant le prestige des commanditaires probables, la famille Médicis.</p><p>La lumière, douce et directionnelle, modèle les visages avec une grande délicatesse, accentuant la mélancolie pensive du regard de Marie qui semble préfigurer la Passion de son fils. Au revers du panneau se trouve un dessin préparatoire représentant une tête de saint ou de prophète, soulignant l'importance de ce support dans le processus créatif de l'atelier du peintre. Cette œuvre demeure un témoignage exceptionnel de l'idéal de beauté florentin, alliant élégance linéaire, profondeur psychologique et virtuosité décorative.</p>",
+    "narrative": "<p>Cette œuvre majeure du Quattrocento florentin, intitulée la Vierge à l'Enfant et conservée au Palais Medici-Riccardi à Florence, est universellement attribuée à Fra Filippo Lippi, qui l'aurait réalisée vers 1466-1469. Peinte à la détrempe sur bois, elle constitue l'un des sommets de la maturité de l'artiste, illustrant la transition stylistique entre la rigueur de la première Renaissance et le lyrisme plus souple qui caractérisera la fin du XVe siècle. La composition se distingue par son cadrage serré et intime, où la Vierge est représentée à mi-corps, émergeant d'une niche architecturale dont les motifs de coquille en relief témoignent du goût de l'époque pour l'ornementation classique.</p><p>L'enfant Jésus, debout sur un parapet de marbre qui marque la limite entre l'espace sacré et celui du spectateur, est saisi dans un élan de tendresse naturelle, pressant sa joue contre celle de sa mère et entourant son cou de ses bras. Cette iconographie, dite de la Madonna della Tenerezza (Vierge de la tendresse), rompt avec la hiératicité médiévale pour privilégier une émotion humaine palpable. La maîtrise technique de Lippi s'exprime ici par la finesse du dessin et la richesse des matières : le voile de soie transparente de la Vierge, aux plis minutieusement étudiés, contraste avec le brocart luxueux de sa robe rouge rehaussée d'or, reflétant le prestige des commanditaires probables, la famille Médicis.</p><p>La lumière, douce et directionnelle, modèle les visages avec une grande délicatesse, accentuant la mélancolie pensive du regard de Marie qui semble préfigurer la Passion de son fils. Au revers du panneau se trouve un dessin préparatoire représentant une tête de saint ou de prophète, soulignant l'importance de ce support dans le processus créatif de l'atelier du peintre. Cette œuvre demeure un témoignage exceptionnel de l'idéal de beauté florentin, alliant élégance linéaire, profondeur psychologique et virtuosité décorative.</p>"
+  },
+  {
     "id": "le_nain_louis_famille_de_paysans_interieur_louvre_1642",
     "artistId": "le_nain_louis",
     "artist": "Le Nain Louis",

@@ -983,7 +983,7 @@ window.MOVEMENTS_DATA = {
         "dates": "1923 – 1997",
         "role": "Maître du détournement des comics et des trames Benday",
         "desc": "Whaam!, Drowning Girl, compositions graphiques aux couleurs primaires.",
-        "artistId": "",
+        "artistId": "lichtenstein",
         "icon": "💥"
       },
       {

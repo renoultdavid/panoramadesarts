@@ -2030,7 +2030,7 @@ const MODERN_MOVEMENTS_DATA = {
     `,
     artists: [
       { name: "Andy Warhol", dates: "1928 – 1987", role: "Pape du Pop Art & icône de la culture de masse", desc: "Désacralise l'unicité de l'œuvre d'art par la sérigraphie sérielle et érige la célébrité et la marchandise en nouveaux mythes.", artistId: "", icon: "🥫" },
-      { name: "Roy Lichtenstein", dates: "1923 – 1997", role: "Détournement des comic books & points Ben-Day", desc: "Agrandit à l'échelle monumentale les vignettes de bande dessinée populaire avec leurs trames d'imprimerie.", artistId: "", icon: "💥" },
+      { name: "Roy Lichtenstein", dates: "1923 – 1997", role: "Détournement des comic books & points Ben-Day", desc: "Agrandit à l'échelle monumentale les vignettes de bande dessinée populaire avec leurs trames d'imprimerie.", artistId: "lichtenstein", icon: "💥" },
       { name: "Yves Klein", dates: "1928 – 1962", role: "L'inventeur de l'IKB (Bleu Klein) & anthropométries", desc: "Pionnier du Nouveau Réalisme, il brevète son bleu outremer pur et utilise le corps de modèles nus comme pinceaux vivants.", artistId: "klein", icon: "🟦" },
       { name: "Arman", dates: "1928 – 2005", role: "Accumulations d'objets & colères", desc: "Accumule en vitrines et résines des objets sériels du quotidien, témoin critique de la société d'abondance.", artistId: "arman", icon: "📦" }
     ],
