@@ -1910,7 +1910,7 @@ const MODERN_MOVEMENTS_DATA = {
         dates: "1893 – 1983",
         role: "Automatisme poétique, signes célestes et constellations",
         desc: "Qualifié par Breton du « plus surréaliste de tous », il invente un alphabet visuel féerique fait d'astres, de femmes, d'oiseaux et de lignes dansantes.",
-        artistId: "",
+        artistId: "miro",
         icon: "⭐"
       }
     ],

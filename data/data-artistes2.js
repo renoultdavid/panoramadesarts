@@ -5431,6 +5431,425 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       ]
     }
   },
+"millet": {
+    "id": "millet",
+    "name": "Millet Jean-François",
+    "sortName": "Millet Jean-François",
+    "sortLetter": "M",
+    "dates": "1814 – 1875",
+    "movement": "Réalisme français & École de Barbizon",
+    "nationality": "Français (Gréville-Hague, Barbizon)",
+    "techniques": "Huile sur toile, pastel, fusain, réalisme rural, tons de terre et d'ocre, éclairage crépusculaire",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczPziEvFCHviDpe_oKiT52pOYZjLv_DG_coB4AJq_KzQxiN5gvuz1ENUC8P2R7ep5Cv0ZUixziGNNjmUyxzCaV479Nky-ebbAdIs7iPYcgtaWK4D26RtAcMpS-atnHaYch_0RHhoQBNBa58Si4PPi49s8g=w1589-h675-s-no-gm?authuser=0",
+    "portraitImg": "",
+    "bio": `
+      <p><strong>Le chantre de la dignité rurale et le maître de Barbizon</strong><br>
+      Jean-François Millet (1814 – 1875) est l'une des figures centrales du réalisme français du XIXe siècle et l'un des fondateurs de l'école de Barbizon. Issu d'une famille de paysans normands, il s'installe à Barbizon en 1849 pour fuir l'agitation parisienne et le choléra. Il consacre alors son œuvre à la célébration du monde rural, transformant le paysan, jusque-là sujet mineur ou pittoresque, en une figure héroïque et intemporelle.</p>
+      <p><strong>Naturalisme poétique, solennité des gestes et lumière de la terre</strong><br>
+      Son genre pictural se définit par un naturalisme poétique et grave. Contrairement à Courbet, dont le réalisme est souvent perçu comme une provocation politique, Millet cherche à exprimer la dimension spirituelle et quasi religieuse du travail de la terre. Ses compositions sont simples, monumentales, et baignées d'une lumière crépusculaire qui confère une dignité solennelle aux gestes les plus humbles, comme le glanage ou la prière.</p>
+      <p><strong>De la manière fleurie au grand réalisme agreste et au paysage pur</strong><br>
+      L'évolution de son style témoigne d'une quête de synthèse et de dépouillement : Les débuts parisiens où il peint des portraits et des scènes mythologiques dans une manière académique sensuelle (sa « manière fleurie ») ; Le tournant paysan dès 1848 avec <em>Le Vanneur</em>, réduisant sa palette aux ocres, bruns et gris bleutés couleur de terre ; et enfin La maturité et le paysage pur où sa touche vibrante, presque pré-impressionniste, capture la force sauvage des phénomènes atmosphériques (<em>Le Printemps</em>).</p>
+    `,
+    "corpus": {
+      "total": 400,
+      "seen": 2,
+      "paintingsCount": 400,
+      "details": [
+        {
+          "label": "Peintures de chevalet autographes répertoriées",
+          "count": 400,
+          "icon": "🌾",
+          "color": "#d4af37",
+          "seen": 2,
+          "note": "Consensus scientifique fixé à environ 400 peintures de chevalet (inventaires Étienne Moreau-Nélaton, Robert L. Herbert & Alexandra Murphy)"
+        }
+      ],
+      "sourceTitle": "Inventaires Étienne Moreau-Nélaton, Robert L. Herbert & Alexandra Murphy",
+      "sourceNotes": "L'inventaire de référence s'appuie sur les travaux historiques d'Étienne Moreau-Nélaton, puis sur les recherches modernes des spécialistes de l'artiste tels que Robert L. Herbert et Alexandra Murphy. Contrairement à son œuvre graphique (qui dépasse les 3 000 feuilles), sa production picturale est restée relativement mesurée, freinée par une pauvreté chronique et un travail extrêmement lent et méditatif. En écartant les esquisses inachevées et les innombrables copies ou faux qui ont inondé le marché après sa mort, le consensus scientifique fixe le corpus de ses peintures de chevalet (portraits de jeunesse, scènes de genre rurales et paysages) à environ 400 œuvres."
+    },
+    "timeline": {
+      "periods": [
+        {
+          "title": "Jeunesse Normande, Paris & la Manière Fleurie",
+          "years": "1814 – 1848",
+          "color": "#94a3b8",
+          "summary": "Enfance dans la Hague, apprentissage à Cherbourg et Paris chez Paul Delaroche, portraits de commande et scènes mythologiques.",
+          "events": [
+            {
+              "year": 1814,
+              "title": "Naissance à Gruchy",
+              "desc": "Naissance dans le hameau normand de Gruchy (Gréville-Hague) au sein d'une famille de paysans pieux et cultivés.",
+              "type": "life",
+              "icon": "🏛️"
+            },
+            {
+              "year": 1837,
+              "title": "Atelier de Paul Delaroche à Paris",
+              "desc": "Boursier de la ville de Cherbourg, il intègre les Beaux-Arts de Paris mais préfère étudier seul les maîtres au musée du Louvre.",
+              "type": "milestone",
+              "icon": "🎓"
+            },
+            {
+              "year": 1848,
+              "title": "Le Vanneur (Salon de 1848)",
+              "desc": "Présente au Salon républicain Le Vanneur, acquis par le ministre Ledru-Rollin, marquant sa rupture définitive avec les sujets frivoles.",
+              "type": "masterpiece",
+              "icon": "🌾"
+            }
+          ]
+        },
+        {
+          "title": "L'Installation à Barbizon & les Chefs-d'œuvre du Monde Rural",
+          "years": "1849 – 1864",
+          "color": "#d97706",
+          "summary": "Fuite du choléra parisien, installation à l'orée de Fontainebleau, amitié avec Théodore Rousseau et icônes paysannes.",
+          "events": [
+            {
+              "year": 1849,
+              "title": "Installation à Barbizon",
+              "desc": "S'installe avec sa famille dans une humble maisonnette de Barbizon où il cultive son potager tout en peignant dans son atelier rustique.",
+              "type": "life",
+              "icon": "🏡"
+            },
+            {
+              "year": 1850,
+              "title": "Le Semeur (Boston)",
+              "desc": "Figure héroïque et biblique avançant à grands pas sur la terre meuble, ovationnée par les critiques progressistes.",
+              "type": "masterpiece",
+              "icon": "🌱"
+            },
+            {
+              "year": 1855,
+              "title": "Paysan greffant un arbre (Munich, Alte Pinakothek)",
+              "desc": "Chef-d'œuvre de noblesse familiale et de transmission rurale présenté à l'Exposition universelle de 1855, admiré par Théodore Rousseau.",
+              "type": "masterpiece",
+              "artworkId": "millet_paysan_greffant_un_arbre_munich_1855"
+            },
+            {
+              "year": 1857,
+              "title": "Des glaneuses (Musée d'Orsay)",
+              "desc": "Trois paysannes courbées sur les chaumes au crépuscule, incarnant la majesté tragique du prolétariat des campagnes.",
+              "type": "masterpiece",
+              "icon": "🌾"
+            },
+            {
+              "year": 1859,
+              "title": "L'Angélus (Musée d'Orsay)",
+              "desc": "Prière silencieuse au son de la cloche lointaine de Chailly-en-Bière, devenue l'une des toiles les plus célèbres du monde.",
+              "type": "masterpiece",
+              "icon": "🔔"
+            }
+          ]
+        },
+        {
+          "title": "Le Cycle des Saisons, le Paysage Pur & l'Apogée",
+          "years": "1865 – 1875",
+          "color": "#10b981",
+          "summary": "Cycle pastoral Hartmann, reconnaissance universelle, fascination pour la nature cosmique et derniers paysages pré-impressionnistes.",
+          "events": [
+            {
+              "year": 1865,
+              "title": "Le Printemps - Daphnis et Chloé (Tokyo, NMWA)",
+              "desc": "Grande pastorale mythologique peinte pour le cycle des Saisons du banquier Frédéric Hartmann, célébrant l'amour naissant et la sève printanière.",
+              "type": "masterpiece",
+              "artworkId": "millet_le_printemps_daphnis_et_chloe_tokyo_1865"
+            },
+            {
+              "year": 1868,
+              "title": "Chevalier de la Légion d'honneur",
+              "desc": "Consécration officielle de l'Empire récompensant son statut de maître incontesté de l'école réaliste.",
+              "type": "milestone",
+              "icon": "🎖️"
+            },
+            {
+              "year": 1873,
+              "title": "Le Printemps (Musée d'Orsay)",
+              "desc": "Paysage d'orage pur aux pommiers en fleurs baignés d'un arc-en-ciel vibrant, salué comme précurseur direct de l'impressionnisme.",
+              "type": "masterpiece",
+              "icon": "🌈"
+            },
+            {
+              "year": 1875,
+              "title": "Mort à Barbizon",
+              "desc": "S'éteint le 20 janvier 1875 à 60 ans à Barbizon ; inhumé dans le cimetière de Chailly-en-Bière aux côtés de son frère d'armes Théodore Rousseau.",
+              "type": "life",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+    }
+  },
+"miro": {
+    "id": "miro",
+    "name": "Miró Joan",
+    "sortName": "Miró Joan",
+    "sortLetter": "M",
+    "dates": "1893 – 1983",
+    "movement": "Surréalisme & Avant-garde catalane",
+    "nationality": "Espagnol / Catalan (Barcelone, Paris, Palma de Majorque)",
+    "techniques": "Huile sur toile, peintures de rêve, écriture-poésie, eau-forte, aquatinte au carborundum, céramique monumentale, sculpture",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczOV2krTkniro-JE5IynIROLGvLftFtFbmtv0PRUnMoWGdR_I851LdvmFEfv2F21eDPy4t7gjiBeYCjbinX4VPy2B4Fom7EtNBHFkirMz3uNMxGPy189SOilBjrT4KqdOpvtarg-IAHEyKE1rU8aZEoggg=w1589-h675-s-no-gm?authuser=0",
+    "portraitImg": "",
+    "bio": `
+      <p><strong>L'inventeur d'un alphabet visuel magique et le poète de l'art moderne</strong><br>
+      Joan Miró (1893 – 1983), artiste catalan né à Barcelone, est l'un des inventeurs majeurs de l'art moderne. Bien qu'associé au Surréalisme, il a toujours farouchement préservé son indépendance, refusant de s'enfermer dans un système théorique. Son œuvre, qui englobe la peinture, la sculpture, la céramique et la gravure, est habitée par une quête constante de liberté et un désir de « poursuivre la peinture jusqu'à son épuisement ».</p>
+      <p><strong>Économie de moyens, signes biomorphiques et résonance cosmique</strong><br>
+      Son genre pictural se caractérise par une économie de moyens et l'utilisation d'un alphabet de signes récurrents. Il délaisse la perspective classique pour créer un espace plat, onirique, où flottent des formes biomorphiques, des étoiles, des oiseaux et des figures féminines stylisées. Son style repose sur un équilibre subtil entre un automatisme spontané et un contrôle rigoureux du trait, visant à retrouver la pureté et la force de l'expression enfantine ou primitive.</p>
+      <p><strong>De la précision détaillée aux Constellations et au dépouillement zen</strong><br>
+      L'évolution de son style est marquée par une simplification croissante et une radicalité gestuelle : La précision poétique des débuts (période « détailliste ») puis l'immersion surréaliste à Paris dans les « peintures de rêves » vaporeuses (<em>Homme à la pipe</em>) ; L'agressivité et la matière durant les années 1930 face aux tragédies de la guerre civile (<em>Hirondelle</em>) et le cycle féerique des <em>Constellations</em> ; et enfin L'épure finale à Palma de Majorque, atteignant une ascèse monumentale où le noir, les couleurs primaires pures et les fresques publiques en céramique transfigurent l'espace urbain.</p>
+    `,
+    "corpus": {
+      "total": 2040,
+      "seen": 6,
+      "paintingsCount": 2040,
+      "details": [
+        {
+          "label": "Peintures sur toile, carton et panneau répertoriées",
+          "count": 2040,
+          "icon": "⭐",
+          "color": "#ef4444",
+          "seen": 6,
+          "note": "Catalogue raisonné exhaustif établi par Jacques Dupin & Ariane Lelong-Mainaud (6 volumes, Daniel Lelong & Successió Miró)"
+        }
+      ],
+      "sourceTitle": "Catalogue raisonné Jacques Dupin & Ariane Lelong-Mainaud (6 volumes, 1999–2004)",
+      "sourceNotes": "L'inventaire scientifique de référence mondiale est le monumental catalogue raisonné de ses peintures, initié de son vivant par son ami intime et biographe Jacques Dupin, puis achevé sous la direction d'Ariane Lelong-Mainaud (édité en six volumes par Daniel Lelong et la Successió Miró entre 1999 et 2004). En écartant rigoureusement son immense production graphique (lithographies, eaux-fortes cataloguées par ailleurs) et ses sculptures, ce travail exhaustif fixe le corpus officiel et définitif de ses peintures sur toile, carton et panneau à très exactement 2 040 œuvres."
+    },
+    "timeline": {
+      "periods": [
+        {
+          "title": "La Période Détailliste & les Peintures de Rêve",
+          "years": "1893 – 1929",
+          "color": "#38bdf8",
+          "summary": "Formation à Barcelone, Mont-roig, arrivée à Paris chez André Masson, contact surréaliste et invention de l'espace onirique.",
+          "events": [
+            {
+              "year": 1893,
+              "title": "Naissance à Barcelone",
+              "desc": "Naissance dans le quartier gothique de Barcelone d'un père orfèvre et horloger, développant très tôt un lien viscéral avec la terre catalane.",
+              "type": "life",
+              "icon": "🏛️"
+            },
+            {
+              "year": 1921,
+              "title": "La Ferme (Washington, NGA)",
+              "desc": "Chef-d'œuvre de sa période détailliste à Mont-roig, acquis par Ernest Hemingway qui le considérait comme le tableau catalan absolu.",
+              "type": "masterpiece",
+              "icon": "🏡"
+            },
+            {
+              "year": 1924,
+              "title": "Le Carnaval d'Arlequin (Buffalo)",
+              "desc": "Découverte des hallucinations de la faim dans son atelier de la rue Blomet à Paris, salué par André Breton comme le plus surréaliste de tous.",
+              "type": "masterpiece",
+              "icon": "🎭"
+            },
+            {
+              "year": 1925,
+              "title": "Homme à la pipe (Madrid, Reine Sofia)",
+              "desc": "Peinture de rêve fondatrice réduisant la présence humaine à une apparition spectrale blanche flottant sur un champ de brume bleutée.",
+              "type": "masterpiece",
+              "artworkId": "miro_homme_a_la_pipe_madrid_1925"
+            }
+          ]
+        },
+        {
+          "title": "L'Assassinat de la Peinture, la Guerre & les Constellations",
+          "years": "1930 – 1955",
+          "color": "#f59e0b",
+          "summary": "Expérimentations sur supports sauvages, engagement antifasciste lors de la guerre d'Espagne et évasion spirituelle des Constellations.",
+          "events": [
+            {
+              "year": 1930,
+              "title": "« L'assassinat de la peinture »",
+              "desc": "Remise en cause radicale de l'esthétisme bourgeois par des collages d'objets trouvés, du papier de verre et des matériaux bruts.",
+              "type": "milestone",
+              "icon": "🔨"
+            },
+            {
+              "year": 1937,
+              "title": "Hirondelle / Amour (Madrid, Reine Sofia)",
+              "desc": "Toile majeure mêlant calligraphie poétique cursive et signes de couleur pure, créée en pleine guerre civile espagnole.",
+              "type": "masterpiece",
+              "artworkId": "miro_hirondelle_madrid_1937"
+            },
+            {
+              "year": 1940,
+              "title": "La série des Constellations",
+              "desc": "Réfugié à Varengeville-sur-Mer puis à Majorque, il peint 23 gouaches sur papier frotté à l'essence, poème visuel d'une grâce absolue face à la tragédie mondiale.",
+              "type": "masterpiece",
+              "icon": "🌌"
+            }
+          ]
+        },
+        {
+          "title": "L'Atelier Sert à Majorque, les Grands Formats & l'Art Public",
+          "years": "1956 – 1983",
+          "color": "#10b981",
+          "summary": "Installation dans l'atelier conçu par Josep Lluís Sert à Palma, triptyques contemplatifs, gravure au carborundum et murales de céramique.",
+          "events": [
+            {
+              "year": 1956,
+              "title": "Installation définitive à Palma de Majorque",
+              "desc": "Réalise son rêve d'un grand atelier lumineux à Son Boter, dominant la Méditerranée, conçu sur mesure par son ami l'architecte Josep Lluís Sert.",
+              "type": "life",
+              "icon": "☀️"
+            },
+            {
+              "year": 1975,
+              "title": "Les Philosophes II (Madrid, Reine Sofia)",
+              "desc": "Grande composition anthropomorphe aux couleurs primaires franches et fond d'azur profond, célébrant la sagesse du jeu et de l'instinct.",
+              "type": "masterpiece",
+              "artworkId": "miro_les_philosophes_ii_madrid_1975"
+            },
+            {
+              "year": 1978,
+              "title": "Gaudí 36 & Els Gossos 71 (Cáceres)",
+              "desc": "Sommets de l'estampe tardive à l'aquatinte et carborundum rendant hommage au trencadís de Gaudí et à l'énergie instinctive.",
+              "type": "masterpiece",
+              "artworkId": "miro_gaudi_36_caceres_1978"
+            },
+            {
+              "year": 1978,
+              "title": "Fresque monumentale en céramique pour IBM (Barcelone)",
+              "desc": "Murale monumentale réalisée avec Josep Llorens Artigas, unissant la terre cuite catalane ancestrale à l'architecture moderne de verre.",
+              "type": "masterpiece",
+              "artworkId": "miro_fresque_ibm_barcelone_1978"
+            },
+            {
+              "year": 1983,
+              "title": "Mort à Palma de Majorque",
+              "desc": "S'éteint le 25 décembre 1983 à 90 ans à Palma de Majorque ; repose à Barcelone au cimetière de Montjuïc face à sa Fondation.",
+              "type": "life",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+    }
+  },
+"mitchell": {
+    "id": "mitchell",
+    "name": "Mitchell Joan",
+    "sortName": "Mitchell Joan",
+    "sortLetter": "M",
+    "dates": "1925 – 1992",
+    "movement": "Expressionnisme abstrait & Action Painting",
+    "nationality": "Américaine (Chicago, New York, Vétheuil)",
+    "techniques": "Huile sur toile monumentale, Action Painting, polyptyques (diptyques, triptyques), travail gestuel athlétique, fonds blancs respirants",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczObHKknZnVNtlDisyO6o-jsDSMk27bpq2gmU92CIFT4rSSq_8U-S5n1jq3lB-2S-BJ4BdTx-1E1wEMA1SH8n8vRz02Gjm8Xpq8iOFFBY4tvmqfX4WA9tlgbojDGOiViwK_H-JVP6MBrOXaIcYDvSpWZ4w=w1589-h680-s-no-gm?authuser=0",
+    "portraitImg": "",
+    "bio": `
+      <p><strong>La force tellurique de la seconde génération de l'Expressionnisme Abstrait</strong><br>
+      Joan Mitchell (1925 – 1992) est l'une des figures de proue de la seconde génération de l'Expressionnisme abstrait. Américaine de naissance mais établie en France (à Vétheuil, près de la demeure de Monet) la majeure partie de sa vie, elle a développé une peinture d'une intensité physique et émotionnelle rare, cherchant à traduire non pas le paysage lui-même, mais le « sentiment » laissé par celui-ci dans sa mémoire.</p>
+      <p><strong>Action painting athlétique, tension gestuelle et clarté de la lumière</strong><br>
+      Son genre pictural se définit par l'abstraction gestuelle (<em>Action Painting</em>) et le paysage mémoriel. Son style se caractérise par des compositions souvent monumentales (polyptyques), une touche athlétique, saccadée et vigoureuse, et une utilisation magistrale de la couleur. Elle laisse souvent des zones de toile blanche pour faire respirer ses amas de pigments, créant un équilibre précaire entre le chaos des traits et la clarté de la lumière.</p>
+      <p><strong>De la fureur new-yorkaise aux symphonies végétales de Vétheuil</strong><br>
+      L'évolution de son style marque une fusion entre la fureur new-yorkaise et la tradition paysagère française : La période de New York (années 1950) où, proche de Pollock et De Kooning, son trait linéaire dense explose vers les bords ; L'installation à Vétheuil et la couleur (années 1960–1970) où la Seine, les tournesols et les arbres transfigurent sa palette en champs de force solaires ; et Les grandes séries finales (années 1980–1990) avec des œuvres immersives magistrales comme <em>No Daisies</em> et <em>La Grande Vallée</em>.</p>
+    `,
+    "corpus": {
+      "total": 900,
+      "seen": 1,
+      "paintingsCount": 900,
+      "details": [
+        {
+          "label": "Huiles sur toile et polyptyques autographes répertoriés",
+          "count": 900,
+          "icon": "🌊",
+          "color": "#8b5cf6",
+          "seen": 1,
+          "note": "Corpus global estimé à environ 800-1 000 peintures (Joan Mitchell Foundation, galeries Cheim & Read et David Zwirner)"
+        }
+      ],
+      "sourceTitle": "Joan Mitchell Foundation & Catalogues d'exposition (Cheim & Read, David Zwirner)",
+      "sourceNotes": "L'inventaire de référence est toujours en cours d'élaboration. La Joan Mitchell Foundation mène actuellement le projet colossal du Catalogue Raisonné de ses peintures, visant à documenter l'intégralité de son travail sur toile. En excluant sa très vaste production d'œuvres sur papier, ses lithographies, ses gravures et ses pastels, les estimations actuelles du marché et des historiens de l'art (notamment via les archives de la Fondation et les galeries historiques comme Cheim & Read ou David Zwirner) fixent le corpus global de ses huiles sur toile à environ 800 à 1 000 peintures."
+    },
+    "timeline": {
+      "periods": [
+        {
+          "title": "Jeunesse à Chicago, New York & l'École de New York",
+          "years": "1925 – 1958",
+          "color": "#38bdf8",
+          "summary": "Formation à l'Art Institute of Chicago, The Club à Greenwich Village et reconnaissance parmi les géants de l'Action Painting.",
+          "events": [
+            {
+              "year": 1925,
+              "title": "Naissance à Chicago",
+              "desc": "Naissance dans une famille bourgeoise de Chicago ; fille d'un médecin amateur d'art et d'une poétesse cofondatrice de Poetry Magazine.",
+              "type": "life",
+              "icon": "🏛️"
+            },
+            {
+              "year": 1951,
+              "title": "La Ninth Street Show à New York",
+              "desc": "Participe à l'exposition historique du 9th Street Show organisée par Leo Castelli, s'imposant d'emblée parmi l'avant-garde new-yorkaise.",
+              "type": "milestone",
+              "icon": "🎨"
+            },
+            {
+              "year": 1955,
+              "title": "Premiers séjours parisiens",
+              "desc": "Voyage régulièrement entre Paris et New York et rencontre le peintre canadien Jean-Paul Riopelle, son compagnon durant près de 25 ans.",
+              "type": "voyage",
+              "icon": "⛵"
+            }
+          ]
+        },
+        {
+          "title": "L'Installation à Vétheuil & l'Expansion du Format",
+          "years": "1959 – 1979",
+          "color": "#10b981",
+          "summary": "Établissement sur les bords de la Seine à Vétheuil, diptyques et triptyques solaires et dialogue avec Monet.",
+          "events": [
+            {
+              "year": 1967,
+              "title": "Acquisition de la propriété de Vétheuil",
+              "desc": "Achète la propriété de La Tour dominant la Seine à Vétheuil, village où Claude Monet vécut et peignit entre 1878 et 1881.",
+              "type": "life",
+              "icon": "🏡"
+            },
+            {
+              "year": 1974,
+              "title": "Rétrospective au Whitney Museum",
+              "desc": "Grande exposition personnelle au Whitney Museum of American Art à New York, consacrant son statut de figure internationale majeure.",
+              "type": "milestone",
+              "icon": "🏛️"
+            }
+          ]
+        },
+        {
+          "title": "Les Grands Polyptyques, No Daisies & la Grande Vallée",
+          "years": "1980 – 1992",
+          "color": "#ef4444",
+          "summary": "Sommets de la maturité tardive, cycle mémorial de La Grande Vallée, No Daisies et testament vital.",
+          "events": [
+            {
+              "year": 1980,
+              "title": "No Daisies (Musée d'Arts de Nantes)",
+              "desc": "Chef-d'œuvre de tension gestuelle et d'énergie physique : entrelacs noirs vibrants sur fond de bleus lavande et violets profonds.",
+              "type": "masterpiece",
+              "artworkId": "mitchell_no_daisies_nantes_1980"
+            },
+            {
+              "year": 1983,
+              "title": "Le cycle de La Grande Vallée",
+              "desc": "Série monumentale de 21 toiles inspirée par le souvenir d'un vallon perdu de l'enfance, symphonie immersive de lumière pure.",
+              "type": "masterpiece",
+              "icon": "🌿"
+            },
+            {
+              "year": 1992,
+              "title": "Mort à Paris",
+              "desc": "S'éteint à l'Hôpital américain de Neuilly-sur-Seine le 30 octobre 1992 à 67 ans, peignant jusqu'aux dernières limites de ses forces.",
+              "type": "life",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+    }
+  },
 });
 
 
@@ -5452,3 +5871,7 @@ window.ARTISTS_REGISTRY["quinten_massys"] = window.ARTISTS_REGISTRY["metsys"];
 window.ARTISTS_REGISTRY["michelangelo"] = window.ARTISTS_REGISTRY["michel_ange"];
 window.ARTISTS_REGISTRY["michelangelo_buonarroti"] = window.ARTISTS_REGISTRY["michel_ange"];
 window.ARTISTS_REGISTRY["john_everett_millais"] = window.ARTISTS_REGISTRY["millais"];
+
+window.ARTISTS_REGISTRY["jean_francois_millet"] = window.ARTISTS_REGISTRY["millet"];
+window.ARTISTS_REGISTRY["joan_miro"] = window.ARTISTS_REGISTRY["miro"];
+window.ARTISTS_REGISTRY["joan_mitchell"] = window.ARTISTS_REGISTRY["mitchell"];

@@ -641,7 +641,7 @@ window.MOVEMENTS_DATA = {
         "dates": "1814 – 1875",
         "role": "Poète de la dignité paysanne et de la terre nourricière",
         "desc": "L'Angélus, Des glaneuses et Le Semeur.",
-        "artistId": "",
+        "artistId": "millet",
         "icon": "🌾"
       },
       {
@@ -901,7 +901,7 @@ window.MOVEMENTS_DATA = {
         "dates": "1893 – 1983",
         "role": "Poète céleste des signes magiques et de l'enfance primordiale",
         "desc": "Le Carnaval d'Arlequin, Constellations, Bleu I, II, III.",
-        "artistId": "",
+        "artistId": "miro",
         "icon": "⭐"
       },
       {
