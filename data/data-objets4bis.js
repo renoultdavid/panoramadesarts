@@ -87,7 +87,7 @@ window.ART_OBJECTS = [
       "Musée des Beaux-Arts de Rouen"
     ],
     "narrative": "",
-    "desc": "<p>Cette œuvre singulière conservée au Musée des Beaux-Arts de Rouen (inv. 818.1, acquise en 1818) illustre la veine allégorique et philosophique de Jean-Honoré Fragonard, trop souvent réduit à ses scènes galantes. Inspiré par les écrits de l'historien et moraliste grec Plutarque de Chéronée, l'artiste met en scène le savant antique en robe de chambre, méditant devant un lourd manuscrit ouvert d'où s'élève une vision onirique.</p><p>Dans la nuée vaporeuse surgit une balance allégorique où s'opposent deux destins : d'un côté la « Médiocrité » couronnée de roses douces, de l'autre la « Grandeur » ceinte d'épines douloureuses. Par une touche rapide, fluide et vibrante, Fragonard traduit la rêverie intellectuelle et le vertige moral du philosophe avec une intensité lumineuse caractéristique de sa maturité.</p>",
+    "desc": "",
     "contemporaryArt": {
       "title": "XVIIIe siècle • L'Âge des Lumières et l'effervescence des Fêtes galantes",
       "events": [
