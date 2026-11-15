@@ -1586,7 +1586,7 @@ window.MOVEMENTS_DATA = {
         "dates": "1832 – 1883",
         "role": "Père de la modernité et héros du Salon des Refusés",
         "desc": "Le Déjeuner sur l'herbe (1863), Olympia et Un bar aux Folies Bergère.",
-        "artistId": "",
+        "artistId": "manet",
         "icon": "☕"
       },
       {

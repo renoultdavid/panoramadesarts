@@ -3549,9 +3549,362 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
         }
       ]
     }
+  },
+  "malevitch": {
+    "id": "malevitch",
+    "name": "Malevitch Kazimir",
+    "sortName": "Malevitch Kazimir",
+    "sortLetter": "M",
+    "dates": "1879 – 1935",
+    "century": "XXe siècle",
+    "nationality": "Russe puis Soviétique (Kiev / Moscou / Léningrad / Vitebsk)",
+    "movement": "Suprématisme & Avant-garde russe",
+    "techniques": "Huile sur toile et panneau, gouache, dessin, architectones (sculptures plâtre), géométrie pure, non-objectivité",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczMEakBW9wrqZoIga9Bk2AlgQpPWY63V5n5W1qs7iFzqCknNw7r95pfE1VDd_yX5f_RS2KVcDd3hrLWB9ZdxPVmbKXxeTspnFaOIALxK7W41CQPCfrIf2q4IA3_a0r-DE3tJKOtoLLjhpA5u7zA-pNTcmw=w1589-h675-s-no-gm?authuser=0",
+    "portraitImg": "",
+    "bio": `
+      <p><strong>Le créateur du Suprématisme et le degré zéro de la peinture</strong><br>
+      Kazimir Malevitch (1879 – 1935) est le créateur du Suprématisme et l'un des théoriciens les plus radicaux de l'avant-garde russe. En affirmant la suprématie de la sensibilité pure sur toute imitation de la nature ou du monde objectif, il a poussé l'aventure de l'abstraction jusqu'à son point de non-retour métaphysique, faisant de la forme géométrique pure sur fond blanc le « degré zéro » de la peinture.</p>
+      <p><strong>L'abstraction géométrique pure et la non-objectivité</strong><br>
+      Son genre pictural se définit par l'abstraction géométrique suprématiste, le cubo-futurisme et la peinture paysanne post-suprématiste. Son style se caractérise d'abord par le primat de formes géométriques élémentaires (carrés, cercles, croix, rectangles) en aplats denses, flottant en apesanteur dans un espace infini et lumineux, libéré de la pesanteur terrestre.</p>
+      <p><strong>De l'assimilation des avant-gardes au silence métaphysique</strong><br>
+      L'évolution de son style marque un passage de l'assimilation fulgurante des avant-gardes vers le silence radical de l'abstraction, suivi d'un retour contraint mais subversif à la figure :<br>
+      <em>La traversée des avant-gardes et le cubo-futurisme (1904 – 1914) :</em> Après des débuts impressionnistes et fauves, il s'imprègne de l'art populaire russe (loubok) et fusionne la fragmentation spatiale cubiste avec le dynamisme futuriste. Ses personnages d'ouvriers et de bûcherons se transforment en blocs métalliques tubulaires (<em>Le Bûcheron</em>, <em>Un Anglais à Moscou</em>), avant sa collaboration décisive aux décors et costumes de l'opéra futuriste <em>Victoire sur le soleil</em> (1913).<br>
+      <em>L'apothéose suprématiste (1915 – 1919) :</em> Présenté en 1915 à Petrograd lors de l'exposition « 0,10 », son <em>Carré noir sur fond blanc</em> est accroché dans l'angle réservé traditionnellement aux icônes orthodoxes. Il conçoit ensuite des ballets de formes polychromes dynamiques avant d'atteindre l'absolu du dépouillement en 1918 avec <em>Carré blanc sur fond blanc</em>, dissolvant la couleur dans la lumière pure.<br>
+      <em>L'enseignement, l'architecture et le post-suprématisme figuratif (après 1920) :</em> Considérant la peinture de chevalet dépassée, il se tourne vers l'enseignement (à Vitebsk avec l'Ounovis) et des maquettes d'architectures utopiques (architectones). Face au durcissement idéologique stalinien imposant le réalisme socialiste, il revient dans les années 1930 à des figures de paysans sans visages, silhouettes hiératiques et anonymes aux aplats géométriques, métaphores tragiques de la collectivisation forcée.</p>
+    `,
+    "corpus": {
+      "total": 360,
+      "seen": 0,
+      "paintingsCount": 360,
+      "details": [
+        {
+          "label": "Huiles sur toile et sur panneau",
+          "count": 360,
+          "icon": "🎨",
+          "color": "#d4af37",
+          "seen": 0
+        }
+      ],
+      "sourceTitle": "Catalogue raisonné Andréi Nakov (2002, Éditions Adam Biro)",
+      "sourceNotes": "L'inventaire de référence mondiale est le monumental Kazimir Malewicz : Catalogue raisonné publié par l'historien de l'art Andréi Nakov (éditions Adam Biro, 2002). Ce travail titanesque recense 1 423 numéros au total (englobant ses très nombreux dessins préparatoires, gouaches et ses maquettes architecturales en plâtre nommées architectones). Cependant, en purgeant ce catalogue pour n'isoler strictement que les huiles sur toile et sur panneau (dont beaucoup ont malheureusement été détruites, confisquées ou perdues sous la censure stalinienne), le consensus scientifique et muséal fixe aujourd'hui le corpus de ses peintures officielles à environ 350 à 360 œuvres."
+    },
+    "biographyTimeline": {
+      "birth": {
+        "year": 1879,
+        "place": "Kiev (Empire russe / Ukraine)",
+        "title": "Naissance de Kazimir Malevitch",
+        "desc": "Naît près de Kiev de parents d'origine polonaise, aîné d'une nombreuse fratrie."
+      },
+      "death": {
+        "year": 1935,
+        "place": "Léningrad (URSS)",
+        "title": "Mort à Léningrad",
+        "desc": "S'éteint le 15 mai 1935 à Léningrad des suites d'un cancer ; ses funérailles suprématistes marquent l'adieu des avant-gardes russes."
+      },
+      "periods": [
+        {
+          "title": "Les Débuts, le Fauvisme et le Cubo-Futurisme",
+          "years": "1904 – 1914",
+          "color": "#38bdf8",
+          "summary": "Assimilation fulgurante de l'art populaire russe, de Cézanne, du fauvisme et du cubo-futurisme.",
+          "events": [
+            {
+              "year": 1904,
+              "title": "Arrivée à Moscou et atelier Rerberg",
+              "desc": "S'installe à Moscou, découvre les impressionnistes et fauves dans la collection Chtchoukine et affine sa maîtrise chromatique.",
+              "type": "life",
+              "icon": "🏛️"
+            },
+            {
+              "year": 1912,
+              "title": "Période cubo-futuriste : Le Bûcheron",
+              "desc": "Peint des figures paysannes aux formes métalliques et tubulaires influencées par le futurisme et l'imagerie populaire du loubok.",
+              "type": "masterpiece",
+              "icon": "🪓"
+            },
+            {
+              "year": 1913,
+              "title": "L'Opéra Victoire sur le soleil",
+              "desc": "Conçoit décors et costumes de l'opéra cubo-futuriste à Saint-Pétersbourg, esquissant sur le rideau de scène le premier carré noir embryonnaire.",
+              "type": "milestone",
+              "icon": "🎭"
+            }
+          ]
+        },
+        {
+          "title": "L'Invention du Suprématisme et le Degré Zéro",
+          "years": "1915 – 1919",
+          "color": "#e63946",
+          "summary": "Rupture totale avec l'art figuratif, fondation du Suprématisme et exploration de l'espace cosmique.",
+          "events": [
+            {
+              "year": 1915,
+              "title": "Exposition Dernier tableau futuriste 0,10 à Petrograd",
+              "desc": "Présente pour la première fois le Carré noir sur fond blanc, accroché dans le « beau coin » traditionnellement dévolu aux icônes orthodoxes.",
+              "type": "masterpiece",
+              "icon": "⬛"
+            },
+            {
+              "year": 1916,
+              "title": "Manifeste du Suprématisme",
+              "desc": "Publie Du cubisme et du futurisme au suprématisme, proclamant la libération de la peinture de toute fonction mimétique.",
+              "type": "milestone",
+              "icon": "📖"
+            },
+            {
+              "year": 1918,
+              "title": "Carré blanc sur fond blanc (MoMA, New York)",
+              "desc": "Sommet du dépouillement conceptuel où la géométrie se dissout dans l'infini de la lumière blanche sans limites.",
+              "type": "masterpiece",
+              "icon": "⬜"
+            }
+          ]
+        },
+        {
+          "title": "L'Enseignement à Vitebsk et les Architectones",
+          "years": "1920 – 1928",
+          "color": "#10b981",
+          "summary": "Direction pédagogique à Vitebsk, fondation de l'Ounovis et recherches spatiales architecturales.",
+          "events": [
+            {
+              "year": 1920,
+              "title": "Fondation de l'Ounovis à Vitebsk",
+              "desc": "Prend la tête de l'Institut artistique de Vitebsk invité par Chagall et fonde avec El Lissitzky les Affirmateurs du nouvel art.",
+              "type": "life",
+              "icon": "🎓"
+            },
+            {
+              "year": 1923,
+              "title": "Les Architectones en plâtre",
+              "desc": "Conçoit des maquettes d'architectures spatiales et tridimensionnelles pures, préfigurant le design et l'architecture moderne.",
+              "type": "milestone",
+              "icon": "🏗️"
+            },
+            {
+              "year": 1927,
+              "title": "Voyage à Berlin et visite au Bauhaus",
+              "desc": "Expose à la Grande exposition de Berlin et visite le Bauhaus de Dessau, laissant en Allemagne les toiles qui forment aujourd'hui le fonds du Stedelijk d'Amsterdam.",
+              "type": "milestone",
+              "icon": "🇩🇪"
+            }
+          ]
+        },
+        {
+          "title": "Le Post-Suprématisme et les Paysans sans Visage",
+          "years": "1929 – 1935",
+          "color": "#8b5cf6",
+          "summary": "Résistance silencieuse face à l'imposition du réalisme socialiste stalinien et portraits tragiques.",
+          "events": [
+            {
+              "year": 1930,
+              "title": "Arrestation et censure stalinienne",
+              "desc": "Brièvement arrêté par le NKVD sous l'accusation d'espionnage et de formalisme bourgeois antisoviétique.",
+              "type": "life",
+              "icon": "⛓️"
+            },
+            {
+              "year": 1932,
+              "title": "Les Silhouettes paysannes sans visages",
+              "desc": "Retour subversif à la figure humaine : des paysans anonymes et hiératiques aux aplats géométriques, poignante métaphore de la collectivisation forcée.",
+              "type": "masterpiece",
+              "icon": "🌾"
+            },
+            {
+              "year": 1935,
+              "title": "Obsèques suprématistes à Léningrad",
+              "desc": "S'éteint le 15 mai 1935 ; ses amis et élèves portent son cercueil noir et blanc frappé du Carré noir, défiant une dernière fois le conformisme d'État.",
+              "type": "life",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+    }
+  },
+
+  "manet": {
+    "id": "manet",
+    "name": "Manet Édouard",
+    "sortName": "Manet Édouard",
+    "sortLetter": "M",
+    "dates": "1832 – 1883",
+    "century": "XIXe siècle",
+    "nationality": "Français (Paris)",
+    "movement": "Peinture moderne & Précurseur de l'Impressionnisme",
+    "techniques": "Huile sur toile, pastel, lavis d'encre, dessin, gravure, peinture alla prima, aplats francs, contrastes noir/blanc",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczPAbcZbFqO0uCFjCrAw-dkvAFXWZ_VMqugiDXNs3BPeczxlPP8IFoyRoS_6zL1u99QLmfmcAoJy_i2uaOsjfBm3t9aaqL2xZx5nED_twuA9aeDnbS8XS_3CVCdaMTmOed1Um4wkVl3TKkToC1zhw-ByiA=w1589-h675-s-no-gm?authuser=0",
+    "portraitImg": "",
+    "bio": `
+      <p><strong>Le père de la peinture moderne et le héros du Salon des Refusés</strong><br>
+      Édouard Manet (1832 – 1883) est le peintre de la « vie moderne » et le pivot indispensable entre l'art académique et l'impressionnisme. Bien qu'il n'ait jamais accepté d'exposer avec les impressionnistes, il en fut le chef de file spirituel. Issu de la haute bourgeoisie parisienne, il a bousculé les codes de la peinture par son refus de l'idéalisation et ses sujets jugés scandaleux à l'époque, comme <em>Le Déjeuner sur l'herbe</em>.</p>
+      <p><strong>Simplification des formes, contrastes tranchés et vie urbaine</strong><br>
+      Son genre pictural se définit par une simplification des formes et un usage audacieux de la couleur. Influencé par les maîtres espagnols (Velázquez, Goya), Manet utilise des contrastes violents, notamment des noirs profonds et des blancs éclatants, délaissant le modelé traditionnel par dégradés pour des aplats de couleurs plus francs. Il se concentre sur la figure humaine dans son environnement urbain contemporain, saisissant la réalité sociale de Paris sans sentimentalisme.</p>
+      <p><strong>De l'hommage aux maîtres espagnols à la vibration lumineuse</strong><br>
+      L'évolution de son style montre un passage de l'hommage aux classiques vers une luminosité de plus en plus libre :<br>
+      <em>La période hispanisante :</em> Ses débuts sont marqués par une fascination pour l'Espagne, avec une facture solide et des sujets de corridas ou de musiciens.<br>
+      <em>Le choc de la modernité :</em> Dans les années 1860, son style se radicalise avec des compositions frontales et une touche qui s'affirme, provoquant la rupture avec le Salon officiel.<br>
+      <em>L'éclaircissement final :</em> Sous l'influence de son amitié avec Monet, sa palette devient plus claire et sa touche plus vibrante dans ses dernières années. Atteint par la maladie, il se consacre à des portraits au pastel et à des natures mortes de fleurs d'une élégance et d'une économie de moyens admirables.</p>
+    `,
+    "corpus": {
+      "total": 430,
+      "seen": 5,
+      "paintingsCount": 430,
+      "details": [
+        {
+          "label": "Huiles sur toile et sur panneau",
+          "count": 430,
+          "icon": "🎨",
+          "color": "#d4af37",
+          "seen": 5
+        }
+      ],
+      "sourceTitle": "Catalogue raisonné Denis Rouart & Daniel Wildenstein (Lausanne, 1975)",
+      "sourceNotes": "L'inventaire scientifique de référence mondiale est le Catalogue raisonné en deux volumes dressé par les historiens de l'art Denis Rouart et Daniel Wildenstein (publié à Lausanne en 1975). En écartant scrupuleusement le second volume (consacré à ses 88 pastels et à ses centaines d'aquarelles et dessins) pour ne retenir que le premier volume dédié exclusivement aux huiles sur toile et sur panneau, le consensus scientifique fixe le corpus officiel des peintures de Manet à très exactement 430 œuvres."
+    },
+    "biographyTimeline": {
+      "birth": {
+        "year": 1832,
+        "place": "Paris",
+        "title": "Naissance d'Édouard Manet",
+        "desc": "Naît à Paris dans une famille bourgeoise fortunée, rue Bonaparte près de l'Académie des Beaux-Arts."
+      },
+      "death": {
+        "year": 1883,
+        "place": "Paris",
+        "title": "Mort à Paris",
+        "desc": "S'éteint le 30 avril 1883 à 51 ans ; ses amis Claude Monet, Émile Zola et Edgar Degas accompagnent sa dépouille."
+      },
+      "periods": [
+        {
+          "title": "La Formation, les Maîtres Anciens et l'Espagne",
+          "years": "1850 – 1862",
+          "color": "#38bdf8",
+          "summary": "Apprentissage chez Couture, copie assidue des maîtres au Louvre et révélation de la peinture espagnole.",
+          "events": [
+            {
+              "year": 1850,
+              "title": "Entrée dans l'atelier de Thomas Couture",
+              "desc": "Rejoint l'atelier de Couture tout en passant des journées entières au Louvre à copier Titien, Vélasquez et Rembrandt.",
+              "type": "life",
+              "icon": "🏛️"
+            },
+            {
+              "year": 1853,
+              "title": "La Vierge au lapin (Musée du Louvre)",
+              "desc": "Copie d'étude d'après Titien, où le jeune peintre affirme déjà une touche directe et des contrastes francs sans transitions artificielles.",
+              "type": "masterpiece",
+              "artworkId": "manet_la_vierge_au_lapin_louvre_1853"
+            },
+            {
+              "year": 1860,
+              "title": "Le Chanteur espagnol au Salon",
+              "desc": "Remporte sa première mention honorable au Salon de 1861, chaleureusement salué par Théophile Gautier et Charles Baudelaire.",
+              "type": "milestone",
+              "icon": "🎸"
+            }
+          ]
+        },
+        {
+          "title": "Le Choc de la Modernité et le Scandale des Refusés",
+          "years": "1863 – 1870",
+          "color": "#e63946",
+          "summary": "Rupture fracassante avec l'académisme, scandales d'Olympia et du Déjeuner sur l'herbe.",
+          "events": [
+            {
+              "year": 1863,
+              "title": "Le Déjeuner sur l'herbe au Salon des Refusés",
+              "desc": "Scandale fondateur de l'art moderne confrontant une femme nue contemporaine à deux bourgeois habillés sans alibi mythologique.",
+              "type": "masterpiece",
+              "icon": "🧺"
+            },
+            {
+              "year": 1865,
+              "title": "L'ouragan d'Olympia au Salon",
+              "desc": "Expose sa courtisane au regard frontal et désinvolte, déclenchant l'une des plus violentes controverses critiques du XIXe siècle.",
+              "type": "masterpiece",
+              "icon": "🐱"
+            },
+            {
+              "year": 1868,
+              "title": "Le Déjeuner dans l'atelier (Alte Pinakothek, Munich)",
+              "desc": "Chef-d'œuvre de composition réunissant Léon Leenhoff et Auguste Rousselin dans une atmosphère feutrée aux contrastes de noir et de lumière tranchés.",
+              "type": "masterpiece",
+              "artworkId": "manet_le_dejeuner_dans_latelier_munich_1868"
+            }
+          ]
+        },
+        {
+          "title": "Le Plein Air, Argenteuil et la Fraternité Impressionniste",
+          "years": "1871 – 1878",
+          "color": "#10b981",
+          "summary": "Peinture sur le motif au bord de la Seine, amitié fraternelle avec Monet et illumination de la palette.",
+          "events": [
+            {
+              "year": 1874,
+              "title": "La Barque - Claude Monet peignant dans son atelier flottant (Munich)",
+              "desc": "Peint Monet et son épouse Camille sur leur barque à Argenteuil, hommage éclatant au travail sur le motif et aux reflets de l'eau.",
+              "type": "masterpiece",
+              "artworkId": "manet_la_barque_munich_1874"
+            },
+            {
+              "year": 1874,
+              "title": "Première exposition impressionniste chez Nadar",
+              "desc": "Refuse d'exposer pour maintenir sa stratégie de conquête du Salon officiel, tout en restant le grand frère protecteur du groupe.",
+              "type": "life",
+              "icon": "🤝"
+            },
+            {
+              "year": 1876,
+              "title": "Garçon dans les fleurs - Jacques Hoschedé (Tokyo)",
+              "desc": "Immersion lumineuse de l'enfance dans le parc du château de Montgeron, aux cadrages novateurs influencés par l'estampe japonaise.",
+              "type": "masterpiece",
+              "artworkId": "manet_garcon_dans_les_fleurs_tokyo_1876"
+            }
+          ]
+        },
+        {
+          "title": "L'Élégance Parisienne, les Natures Mortes et le Testament",
+          "years": "1879 – 1883",
+          "color": "#8b5cf6",
+          "summary": "Portraits mondains en plein air, somptueux bouquets de fleurs et le chef-d'œuvre ultime des Folies Bergère.",
+          "events": [
+            {
+              "year": 1879,
+              "title": "Portrait de Monsieur Brun",
+              "desc": "Portrait en pied en plein air du député républicain Jules Brun, quintessence de l'élégance désinvolte du dandy parisien sous la Troisième République.",
+              "type": "masterpiece",
+              "artworkId": "manet_portrait_de_monsieur_brun_1879"
+            },
+            {
+              "year": 1881,
+              "title": "La Légion d'honneur",
+              "desc": "Reçoit la Légion d'honneur grâce à l'intervention de son ami d'enfance Antonin Proust, alors ministre des Beaux-Arts.",
+              "type": "life",
+              "icon": "🎖️"
+            },
+            {
+              "year": 1882,
+              "title": "Un bar aux Folies Bergère (Courtauld Gallery, Londres)",
+              "desc": "Testament pictural absolu avec sa serveuse au regard mélancolique et le mystère spatial vertigineux de son reflet dans le miroir.",
+              "type": "masterpiece",
+              "icon": "🍸"
+            },
+            {
+              "year": 1883,
+              "title": "Disparition à Paris",
+              "desc": "S'éteint le 30 avril 1883 à 51 ans, salué par Degas : « Il était plus grand que nous ne pensions ».",
+              "type": "life",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+    }
   }
 
 });
+
 
 
 // Alias de confort pour la recherche
