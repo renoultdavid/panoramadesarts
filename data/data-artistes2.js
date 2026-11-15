@@ -2864,6 +2864,160 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       ]
     }
   }
+
+  ,"arman": {
+    "id": "arman",
+    "name": "Arman (Armand Fernandez)",
+    "sortName": "Arman",
+    "sortLetter": "A",
+    "dates": "1928 – 2005",
+    "century": "XXe siècle",
+    "nationality": "Français puis Américain (Nice, Vence & New York)",
+    "movement": "Nouveau Réalisme & Art contemporain",
+    "techniques": "Accumulations, Poubelles, Colères et Coupes d'objets en plexiglas, résine ou béton ; sculpture monumentale",
+    "bannerImg": "https://lh3.googleusercontent.com/d/1nzIeuDqahAIzxmI2BbHycOW_epblDEQh",
+    "portraitImg": "",
+    "bio": `
+      <p><strong>Le grand accumulateur du Nouveau Réalisme et poète de l'objet</strong><br>
+      Né à Nice en 1928 sous le nom d'Armand Fernandez, Arman s'est imposé comme l'une des figures majeures de l'art contemporain de la seconde moitié du XXe siècle. Cofondateur en 1960 du mouvement du Nouveau Réalisme aux côtés de Pierre Restany, Yves Klein et César, il développe une œuvre résolument ancrée dans l'appropriation du réel et la critique de la société de consommation naissante. Dès la fin des années 1950, il abandonne la peinture traditionnelle pour faire de l'objet manufacturé, usé ou produit en série, le matériau central de sa création, interrogeant ainsi notre rapport matériel et affectif aux choses du quotidien.</p>
+      <p><strong>Accumulations, Poubelles, Colères et Coupes : le geste radical</strong><br>
+      La démarche artistique d'Arman s'articule autour de gestes radicaux et immédiatement identifiables qui bouleversent le statut de l'objet. Avec ses célèbres Accumulations, il rassemble en grand nombre des éléments identiques — montres, cafetières, tubes de peinture ou instruments de musique — dans des caissons en plexiglas ou du béton, transformant la quantité en qualité esthétique. Parallèlement, ses Poubelles figent les déchets domestiques sous verre comme autant de portraits sociologiques de nos modes de vie, tandis que ses Colères et ses Coupes consistent à briser, brûler ou trancher des objets, notamment des violons et des pianos, afin d'en révéler la structure interne et la beauté cachée dans la destruction.</p>
+      <p><strong>De Vence à New York : l'échelle monumentale et l'espace public</strong><br>
+      Installé entre Vence et New York à partir des années 1960, Arman étend progressivement son travail à l'échelle monumentale et investit l'espace public à travers le monde, comme en témoignent <em>L'Heure de tous</em> devant la gare Saint-Lazare à Paris ou <em>Long Term Parking</em> à Jouy-en-Josas. Jusqu'à sa disparition en 2005, il n'a cessé d'explorer la frontière entre l'art, l'industrie et la mémoire collective. Son œuvre, à la fois ludique, critique et profondément plastique, demeure une référence incontournable pour comprendre la mutation du regard artistique face à l'ère industrielle.</p>
+    `,
+    "biographyTimeline": {
+      "birth": {
+        "year": 1928,
+        "place": "Nice (Alpes-Maritimes, France)",
+        "title": "Naissance d'Armand Fernandez à Nice",
+        "desc": "Naît le 17 novembre 1928 à Nice, fils d'un antiquaire et brocanteur passionné de peinture. Il grandit au milieu des objets d'occasion et de curiosités, terreau de sa future esthétique de l'accumulation."
+      },
+      "death": {
+        "year": 2005,
+        "place": "New York (États-Unis)",
+        "title": "Mort à New York",
+        "desc": "S'éteint le 22 octobre 2005 à New York, où il vivait depuis les années 1960, laissant une œuvre monumentale présente dans les collections et l'espace public du monde entier."
+      },
+      "periods": [
+        {
+          "title": "Nice, le Judo & La Rencontre avec Yves Klein",
+          "years": "1928 – 1957",
+          "color": "#0284c7",
+          "summary": "Formé à l'École des arts décoratifs de Nice puis à l'École du Louvre, il se lie d'une amitié décisive avec Yves Klein et Claude Pascal sur les tatamis niçois.",
+          "events": [
+            {
+              "year": 1946,
+              "title": "Amitié fondatrice avec Yves Klein au club de judo de Nice",
+              "desc": "Rencontre Yves Klein et Claude Pascal au club de judo : trio d'amis qui discute d'art, de philosophie orientale et de la nécessité de réinventer le regard.",
+              "icon": "🥋",
+              "type": "peer",
+              "linkedArtist": "Yves Klein"
+            },
+            {
+              "year": 1949,
+              "title": "Études à l'École nationale des arts décoratifs puis à l'École du Louvre",
+              "desc": "Formation artistique et muséale à Nice et à Paris, nourrie de peinture moderne et de l'influence de Schwitters, Pollock et Duchamp.",
+              "icon": "🎓"
+            },
+            {
+              "year": 1955,
+              "title": "Les Cachets : premières empreintes d'objets",
+              "desc": "Imprime sur papier et toile des tampons d'encre multipliés en séries, première manifestation de sa fascination pour la répétition mécanique.",
+              "icon": "🖋️"
+            }
+          ]
+        },
+        {
+          "title": "Naissance du Nouveau Réalisme & Premières Accumulations",
+          "years": "1958 – 1962",
+          "color": "#ea580c",
+          "summary": "Il adopte le nom d'Arman, invente les Accumulations et les Poubelles, et signe en 1960 la déclaration constitutive du Nouveau Réalisme.",
+          "events": [
+            {
+              "year": 1958,
+              "title": "Naissance du pseudonyme « Arman » & Allures d'objets",
+              "desc": "Une coquille d'imprimeur sur un catalogue supprime le « d » de son prénom : l'artiste adopte définitivement le nom d'Arman et expose ses premières traces d'objets.",
+              "icon": "✍️"
+            },
+            {
+              "year": 1960,
+              "title": "Le Plein à la galerie Iris Clert, réponse au Vide de Klein",
+              "desc": "Remplit entièrement de détritus la galerie parisienne qu'Yves Klein avait vidée deux ans plus tôt : un geste de saturation matérielle qui inverse celui du Vide.",
+              "icon": "🗑️"
+            },
+            {
+              "year": 1960,
+              "title": "Déclaration constitutive du Nouveau Réalisme",
+              "desc": "Cosigne le 27 octobre 1960 chez Yves Klein, avec Pierre Restany, César, Hains, Raysse, Spoerri, Tinguely et Villeglé, le manifeste du « recyclage poétique du réel urbain, industriel et publicitaire ».",
+              "icon": "📜",
+              "type": "peer",
+              "linkedArtist": "Yves Klein"
+            },
+            {
+              "year": 1961,
+              "title": "Les Colères : détruire pour révéler",
+              "desc": "Brise et fracasse des objets (chaises, violons, pianos) puis les fige sur un support, transformant la destruction en geste créateur d'une extrême violence plastique.",
+              "icon": "🔥"
+            }
+          ]
+        },
+        {
+          "title": "Installation à New York & Triomphe des Séries",
+          "years": "1963 – 1979",
+          "color": "#d97706",
+          "summary": "Installé entre New York et Vence, il élargit son répertoire d'Accumulations et de Coupes d'instruments de musique, et devient une figure internationale.",
+          "events": [
+            {
+              "year": 1963,
+              "title": "Installation à New York",
+              "desc": "S'établit à New York où il entre en dialogue avec les artistes du Pop Art et du Minimalisme, tout en conservant son atelier de Vence.",
+              "icon": "🗽"
+            },
+            {
+              "year": 1965,
+              "title": "Les Coupes : trancher la structure des objets",
+              "desc": "Sectionne violons, pianos et mobilier en tranches pour révéler leur structure interne, créant des compositions de fragments d'une grande beauté plastique.",
+              "icon": "🔪"
+            },
+            {
+              "year": 1974,
+              "title": "Hommage au cubisme (MAMCS, Strasbourg)",
+              "desc": "Vitrine verticale de guitares découpées en tranches : la leçon de Picasso et de Braque, qui montre l'objet sous plusieurs angles, transposée dans le volume réel.",
+              "type": "masterpiece",
+              "artworkId": "occ_concept_arman_hommage_cubisme"
+            }
+          ]
+        },
+        {
+          "title": "L'Échelle Monumentale & L'Espace Public",
+          "years": "1980 – 2005",
+          "color": "#8b5cf6",
+          "summary": "Il investit l'espace urbain avec des sculptures d'objets accumulés dans le béton ou le bronze, devenues des repères du paysage public.",
+          "events": [
+            {
+              "year": 1982,
+              "title": "Long Term Parking à Jouy-en-Josas",
+              "desc": "Tour monumentale de soixante voitures coulées dans le béton armé, dans le parc de la Fondation Cartier : une vanitas de l'ère automobile.",
+              "icon": "🚗"
+            },
+            {
+              "year": 1985,
+              "title": "L'Heure de tous devant la gare Saint-Lazare à Paris",
+              "desc": "Accumulation monumentale de pendules et d'horloges, emblème du temps collectif des voyageurs de la gare parisienne.",
+              "icon": "⏰"
+            },
+            {
+              "year": 2005,
+              "title": "Disparition à New York",
+              "desc": "Meurt le 22 octobre 2005, laissant un héritage décisif pour la compréhension de l'art face à l'ère industrielle et à la société de consommation.",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+    }
+  }
+
 });
 
 // Alias de confort pour la recherche

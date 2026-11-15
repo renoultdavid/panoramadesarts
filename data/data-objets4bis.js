@@ -14065,6 +14065,9 @@ narrative: `<p>Réalisé vers 1610 par Michelangelo Merisi da Caravaggio, dit Le
   },
   {
     "id": "occ_concept_arman_hommage_cubisme",
+    "artistId": "arman",
+    "artist": "Arman (Armand Fernandez)",
+    "artistSort": "Arman",
     "civId": "occident",
     "periodId": "occ_xxe_moderne",
     "civName": "Occident : XXe Siècle & Avant-Gardes",
