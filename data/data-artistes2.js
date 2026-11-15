@@ -6159,263 +6159,172 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
     "timeline": {
       "periods": [
         {
-          "title": "Jeunesse, Honfleur & les Débuts du Plein Air",
-          "years": "1861 – 1871",
+          "title": "Jeunesse au Havre, l'Éveil au Plein Air & les Années Bohème",
+          "years": "1840 – 1871",
           "color": "#3b82f6",
-          "summary": "Formation normande au Havre aux côtés de Boudin et Jongkind, natures mortes de jeunesse, marines poétiques et premiers effets de neige.",
+          "summary": "Des caricatures havraises d'adolescent à l'initiation au plein air par Boudin, la bohème parisienne et la rupture décisive de La Grenouillère.",
           "events": [
             {
-              "year": 1861,
-              "title": "Nature morte au faisan (Musée des Beaux-Arts de Rouen)",
-              "desc": "Nature morte de jeunesse aux accents flamands et chardinesques, affirmant une observation minutieuse des textures et des reflets de lumière.",
-              "type": "masterpiece",
-              "artworkId": "monet_nature_morte_faisan_rouen_1861"
+              "year": 1858,
+              "title": "La rencontre décisive avec Eugène Boudin au Havre",
+              "desc": "Adolescent prodige de la caricature à 15 ans au Havre, il est repéré par Eugène Boudin qui l'emmène peindre en plein air face à la mer : « Si je suis devenu peintre, c'est à Eugène Boudin que je le dois. »",
+              "type": "life",
+              "icon": "⛵"
             },
             {
-              "year": 1864,
-              "title": "Une marine, clair de lune (National Gallery of Scotland, Édimbourg)",
-              "desc": "Marine nocturne dramatique peinte à Honfleur, où la touche vigoureuse saisit le miroitement d'argent de l'astre lunaire sur la houle.",
-              "type": "masterpiece",
-              "artworkId": "monet_marine_clair_de_lune_edimbourg_1864"
+              "year": 1862,
+              "title": "L'Atelier Gleyre à Paris et la fraternité d'avant-garde",
+              "desc": "Rejoint l'atelier parisien de Charles Gleyre où il se lie d'une amitié indéfectible avec Pierre-Auguste Renoir, Frédéric Bazille et Alfred Sisley, formant le noyau dur de la future révolution impressionniste.",
+              "type": "life",
+              "icon": "🤝"
             },
             {
               "year": 1864,
               "title": "La route de la ferme Saint-Siméon (Tokyo, NMWA)",
-              "desc": "Cadrage vertical vigoureux sur le chemin de l'auberge de la mère Toutain à Honfleur, vibrant d'ombres violacées et de lumière filtrante.",
+              "desc": "Séjour estival à Honfleur à l'auberge de la mère Toutain avec Boudin et Jongkind, affirmant sa maîtrise naissante des ombres colorées et de la lumière rasante sur le chemin forestier.",
               "type": "masterpiece",
               "artworkId": "monet_route_ferme_saint_simeon_tokyo_1864"
             },
             {
               "year": 1869,
-              "title": "Neige au soleil couchant (Musée des Beaux-Arts de Rouen)",
-              "desc": "Jalon capital où la neige cesse d'être blanche pour devenir un réceptacle d'ombres mauves et de reflets dorés sous la lumière rasante.",
-              "type": "masterpiece",
-              "artworkId": "monet_neige_soleil_couchant_rouen_1869"
-            },
-            {
-              "year": 1869,
-              "title": "L'émulation de La Grenouillère avec Renoir",
-              "desc": "Travaille côte à côte avec Renoir sur l'île de Croissy, inventant la touche rapide en virgule qui dissout les reflets de l'eau.",
+              "title": "L'été fondateur de La Grenouillère avec Renoir",
+              "desc": "Installé dans la misère à Bougival, il peint côte à côte avec Renoir sur l'île de Croissy ; ils y inventent la fameuse touche en virgule rapide qui fragmente les reflets de la Seine.",
               "type": "life",
               "icon": "🎨"
+            },
+            {
+              "year": 1870,
+              "title": "Exil à Londres & Découverte de Turner",
+              "desc": "Fuyant la guerre franco-prussienne, il se réfugie à Londres où il découvre les brumes atmosphériques de Turner et Constable et rencontre son futur marchand providentiel, Paul Durand-Ruel.",
+              "type": "life",
+              "icon": "🇬🇧"
             }
           ]
         },
         {
-          "title": "Argenteuil, Vétheuil & le Cœur de l'Impressionnisme",
+          "title": "L'Épopée d'Argenteuil, le Scandale Impressionniste & le Drame de Vétheuil",
           "years": "1872 – 1882",
           "color": "#10b981",
-          "summary": "Éclosion triomphale d'Impression soleil levant, le bateau-atelier d'Argenteuil, les fêtes républicaines et l'épreuve dramatique de Vétheuil.",
+          "summary": "L'invention du bateau-atelier, le scandale fondateur d'Impression soleil levant chez Nadar et le deuil déchirant de Camille à Vétheuil.",
           "events": [
+            {
+              "year": 1872,
+              "title": "Le Bateau-Atelier d'Argenteuil",
+              "desc": "Aménage une barque en atelier flottant sur la Seine à Argenteuil pour traquer les reflets de l'eau au ras des flots, immortalisé au travail par son ami Édouard Manet.",
+              "type": "life",
+              "icon": "🛶"
+            },
             {
               "year": 1874,
               "title": "Première exposition impressionniste chez Nadar",
-              "desc": "Présente Impression, soleil levant qui donne ironiquement son nom au mouvement, scellant la rupture avec le Salon officiel.",
+              "desc": "Présente dans les anciens ateliers de Nadar Impression, soleil levant (peint au Havre) ; le critique Louis Leroy forge par moquerie le mot « impressionnistes », consacrant l'acte de naissance du mouvement.",
               "type": "movement",
               "icon": "🌅"
             },
             {
               "year": 1875,
               "title": "Neige à Argenteuil (Tokyo, NMWA)",
-              "desc": "Chef-d'œuvre de la série hivernale d'Argenteuil, captant la clarté laiteuse et les ornières boueuses d'un faubourg ouaté.",
+              "desc": "Lors d'un hiver d'une rigueur exceptionnelle, il révolutionne la peinture de paysage en démontrant que la neige n'est pas blanche mais vibre de reflets dorés, lilas et bleutés.",
               "type": "masterpiece",
               "artworkId": "monet_neige_argenteuil_tokyo_1875"
             },
             {
               "year": 1878,
               "title": "La Rue Saint-Denis, fête du 30 juin 1878 (Musée des Beaux-Arts de Rouen)",
-              "desc": "Plongée vertigineuse dans l'effervescence patriotique de l'Exposition universelle, symphonie vibrante d'étendards tricolores au vent.",
+              "desc": "Depuis une fenêtre en plongée, il capture la liesse républicaine de l'Exposition universelle dans un tourbillon frénétique d'oriflammes tricolores claquant au vent.",
               "type": "masterpiece",
               "artworkId": "monet_rue_saint_denis_fete_rouen_1878"
             },
             {
               "year": 1879,
-              "title": "Vétheuil (Musée des Beaux-Arts de Rouen)",
-              "desc": "Vue panoramique de l'église Notre-Dame et du village depuis la rive opposée, dont les façades se dissolvent dans le miroir de la Seine.",
-              "type": "masterpiece",
-              "artworkId": "monet_vetheuil_rouen_1879"
-            },
-            {
-              "year": 1879,
-              "title": "La Seine à Vétheuil (Musée des Beaux-Arts de Rouen)",
-              "desc": "Format vertical immersif où l'eau mouvante et les frondaisons sombres absorbent la lumière argentée de la vallée normande.",
-              "type": "masterpiece",
-              "artworkId": "monet_seine_a_vetheuil_rouen_1879"
-            },
-            {
-              "year": 1880,
-              "title": "Blanche Hoschedé enfant (Musée des Beaux-Arts de Rouen)",
-              "desc": "Portrait intimiste de sa future belle-fille et unique élève, alliant la délicatesse des carnations enfantines à un fond japonisant.",
-              "type": "masterpiece",
-              "artworkId": "monet_blanche_hoschede_enfant_rouen_1880"
-            },
-            {
-              "year": 1880,
-              "title": "La Route de La Roche-Guyon (Tokyo, NMWA)",
-              "desc": "Contre-plongée lumineuse le long des falaises de craie du Vexin, associant touches pâteuses et ombres d'azur froid.",
-              "type": "masterpiece",
-              "artworkId": "monet_route_roche_guyon_tokyo_1880"
-            },
-            {
-              "year": 1881,
-              "title": "La Seine, vue des hauteurs de Chantemesle (Musée des Beaux-Arts de Rouen)",
-              "desc": "Surplomb panoramique sur la boucle du fleuve, structuré par des virgules de vert tendre et une lumière d'été frémissante.",
-              "type": "masterpiece",
-              "artworkId": "monet_seine_hauteurs_chantemesle_rouen_1881"
-            },
-            {
-              "year": 1881,
-              "title": "Les Coteaux près de Vétheuil (Musée des Beaux-Arts de Rouen)",
-              "desc": "Sentier serpentant parmi les collines sauvages, où la touche saccadée et les ombres violettes traduisent la chaleur estivale.",
-              "type": "masterpiece",
-              "artworkId": "monet_coteaux_pres_vetheuil_rouen_1881"
+              "title": "Mort tragique de Camille et Débâcle de la Seine",
+              "desc": "Son épouse et muse Camille Doncieux meurt à 32 ans à Vétheuil. Dévasté par le chagrin et les dettes, Monet peint son portrait sur son lit de mort, puis transcende sa douleur lors de la débâcle spectaculaire des glaces de la Seine.",
+              "type": "life",
+              "icon": "💔"
             }
           ]
         },
         {
-          "title": "Installation à Giverny & la Révolution des Séries",
+          "title": "L'Oasis de Giverny & le Triomphe Mondial des Séries",
           "years": "1883 – 1900",
           "color": "#f59e0b",
-          "summary": "Ancrage définitif à Giverny, aménagement du jardin d'eau, invention magistrale du principe des séries (Peupliers, Cathédrales, Nymphéas).",
+          "summary": "Ancrage définitif à Giverny, aménagement du jardin d'eau, invention des séries systématiques (Meules, Peupliers, Cathédrales).",
           "events": [
             {
-              "year": 1885,
-              "title": "Champ de coquelicots, environs de Giverny (Musée des Beaux-Arts de Rouen)",
-              "desc": "Nappe incandescente de rouge pur brossée en empâtements vibrants contrastant avec les collines bleutées de l'Epte.",
-              "type": "masterpiece",
-              "artworkId": "monet_champ_coquelicots_giverny_rouen_1885"
-            },
-            {
-              "year": 1887,
-              "title": "Jeunes filles en barque (Tokyo, NMWA)",
-              "desc": "Vue en plongée cadrée à la japonaise sur la barque norvégienne portant Suzanne et Blanche Hoschedé sur l'onde scintillante.",
-              "type": "masterpiece",
-              "artworkId": "monet_jeunes_filles_en_barque_tokyo_1887"
+              "year": 1883,
+              "title": "Installation au Pressoir de Giverny",
+              "desc": "Découvre depuis la fenêtre d'un train le village de Giverny au confluent de l'Epte et s'installe dans la maison du Pressoir avec Alice Hoschedé et leurs huit enfants réunis.",
+              "type": "life",
+              "icon": "🏡"
             },
             {
               "year": 1890,
-              "title": "Champ d'avoine aux coquelicots (MAMCS, Strasbourg)",
-              "desc": "Vibration sensorielle pure d'un champ sauvage de Giverny sans présence humaine, annonçant l'émancipation totale de la couleur.",
-              "type": "masterpiece",
-              "artworkId": "monet_champ_avoine_coquelicots_strasbourg_1890"
-            },
-            {
-              "year": 1891,
-              "title": "Peupliers au soleil (Tokyo, NMWA)",
-              "desc": "Rythme géométrique des troncs s'élevant vers l'azur, peints depuis son bateau-atelier avant leur abattage programmé.",
-              "type": "masterpiece",
-              "artworkId": "monet_peupliers_au_soleil_tokyo_1891"
+              "title": "Achat du domaine & La Révolution sérielle des Meules",
+              "desc": "Rachetant enfin la propriété de Giverny grâce au succès commercial chez Durand-Ruel, il invente le concept révolutionnaire de la série en peignant les Meules de blé à toutes les heures du jour et saisons.",
+              "type": "theory",
+              "icon": "🌾"
             },
             {
               "year": 1891,
               "title": "Peupliers sur l'Epte (National Gallery of Scotland, Édimbourg)",
-              "desc": "Courbe sinueuse des grands arbres se mirant dans l'eau calme, symétrie liquide et poésie décorative de l'instant fugace.",
+              "desc": "Apprenant la mise aux enchères des arbres de la commune de Limetz, il paie le marchand de bois de sa poche pour différer l'abattage le temps d'achever sur son bateau-atelier sa magistrale série.",
               "type": "masterpiece",
               "artworkId": "monet_peupliers_sur_lepte_edimbourg_1891"
             },
             {
-              "year": 1892,
-              "title": "Vue générale de Rouen (Musée des Beaux-Arts de Rouen)",
-              "desc": "Perspective en surplomb depuis la colline Sainte-Catherine où la cité normande et sa flèche se noient dans une brume pastel.",
-              "type": "masterpiece",
-              "artworkId": "monet_vue_generale_rouen_1892"
-            },
-            {
               "year": 1894,
               "title": "Portrait de la Cathédrale de Rouen, temps gris (Musée des Beaux-Arts de Rouen)",
-              "desc": "Façade occidentale gothique traitée comme un bas-relief de pierre de Caen poreuse sous une atmosphère humide et cotonneuse.",
+              "desc": "Installé au premier étage d'une boutique face au portail gothique de Rouen, il brosse la pierre comme un bas-relief vivant sous la brume cotonneuse d'un temps gris normand.",
               "type": "masterpiece",
               "artworkId": "monet_cathedrale_rouen_temps_gris_1894"
             },
             {
-              "year": 1894,
-              "title": "La Seine à Port-Villez (Musée des Beaux-Arts de Rouen)",
-              "desc": "Méditation atmosphérique aux limites de l'abstraction, où colline mauve, ciel nacré et nappe fluviale fusionnent dans le calme plat.",
-              "type": "masterpiece",
-              "artworkId": "monet_seine_port_villez_rouen_1894"
-            },
-            {
-              "year": 1897,
-              "title": "Nymphéas (Tokyo, NMWA)",
-              "desc": "Toute première exploration autonome du bassin d'eau de Giverny, cadrée en plongée rapprochée sans rives ni ligne d'horizon.",
-              "type": "masterpiece",
-              "artworkId": "monet_nympheas_tokyo_1897"
-            },
-            {
-              "year": 1898,
-              "title": "Matinée sur la Seine (Tokyo, NMWA)",
-              "desc": "Série des dix-huit aubes peintes à 3 h 30 du matin depuis son bateau-atelier, fusionnant frondaisons ouatées et clarté orientale.",
-              "type": "masterpiece",
-              "artworkId": "monet_matinee_sur_la_seine_tokyo_1898"
-            },
-            {
               "year": 1899,
               "title": "Le Bassin aux nymphéas, harmonie verte (National Gallery, Londres)",
-              "desc": "Le célèbre pont japonais enjambant le foisonnement végétal du jardin d'eau dans une symphonie de verts et de nénuphars lumineux.",
+              "desc": "Après avoir détourné le bras de l'Epte pour créer son jardin d'eau japonisant et bâti son pont de bois, il peint son premier grand chef-d'œuvre aquatique, symphonie close de verdure et de fleurs flottantes.",
               "type": "masterpiece",
               "artworkId": "monet_bassin_aux_nympheas_harmonie_verte_londres_1899"
             }
           ]
         },
         {
-          "title": "Venise, le Jardin d'Eau & l'Épopée des Nymphéas",
+          "title": "Venise, le Bras de Fer avec la Cataracte & le Legs des Nymphéas",
           "years": "1901 – 1926",
           "color": "#8b5cf6",
-          "summary": "Éblouissement vénitien, altération de la vision due à la cataracte, gestuelle quasi abstraite et grand legs des Décorations de l'Orangerie.",
+          "summary": "Éblouissement vénitien, altération visuelle héroïque, amitié indéfectible avec Clemenceau et donation suprême des Grandes Décorations.",
           "events": [
-            {
-              "year": 1902,
-              "title": "Vétheuil (Tokyo, NMWA)",
-              "desc": "Retour émouvant sur le motif de Vétheuil depuis Lavacourt, où le clocher et la colline se dissolvent en camaïeux chatoyants.",
-              "type": "masterpiece",
-              "artworkId": "monet_vetheuil_tokyo_1902"
-            },
             {
               "year": 1908,
               "title": "Gondole à Venise (Musée d'arts de Nantes)",
-              "desc": "Silhouette sombre d'une gondole frôlant l'abstraction sur les eaux nacrées de la lagune, hommage à la lumière unique de Venise.",
+              "desc": "Séjour ébloui à Venise avec Alice : fasciné par la lumière unique de la lagune, il pousse la silhouette de la gondole et les reflets du Grand Canal aux frontières de la pure abstraction.",
               "type": "masterpiece",
               "artworkId": "monet_gondole_a_venise_nantes_1908"
             },
             {
               "year": 1914,
-              "title": "Les Iris jaunes (Tokyo, NMWA)",
-              "desc": "Immersion végétale monumentale aux empâtements vigoureux, prélude physique aux Grandes Décorations de l'Orangerie.",
-              "type": "masterpiece",
-              "artworkId": "monet_iris_jaunes_tokyo_1914"
-            },
-            {
-              "year": 1915,
-              "title": "Nymphéas (Munich, Pinakothek der Moderne)",
-              "desc": "Méditation mystique sur le temps au milieu du chaos de la Grande Guerre, fusionnant corolles flottantes et reflets des saules.",
-              "type": "masterpiece",
-              "artworkId": "monet_nympheas_munich_1915"
+              "title": "La tragédie de la guerre & Le grand atelier de Giverny",
+              "desc": "Malgré le deuil de son fils aîné Jean et les grondements du canon de 14-18 audibles depuis son jardin, il fait bâtir un vaste atelier de 24 mètres pour entreprendre son legs suprême à l'humanité.",
+              "type": "life",
+              "icon": "⚔️"
             },
             {
               "year": 1916,
               "title": "Nymphéas (Tokyo, NMWA)",
-              "desc": "Grand format presque carré plongeant dans l'infini liquide, où les frottis gestuels préfigurent l'expressionnisme abstrait américain.",
+              "desc": "Panneau carré monumental peint en pleine guerre où l'horizon et les rives disparaissent au profit d'un continuum liquide vertigineux, devançant d'un demi-siècle l'Action Painting et l'expressionnisme abstrait.",
               "type": "masterpiece",
               "artworkId": "monet_nympheas_tokyo_1916"
             },
             {
-              "year": 1917,
-              "title": "Le Bassin aux nymphéas (Musée d'arts de Nantes)",
-              "desc": "Immersion totale sans repères terrestres, où la lumière émane de la matière picturale elle-même dans une liberté de touche absolue.",
-              "type": "masterpiece",
-              "artworkId": "monet_bassin_aux_nympheas_nantes_1917"
-            },
-            {
               "year": 1918,
-              "title": "Donation des Grandes Décorations à la France",
-              "desc": "Au lendemain de l'Armistice, offre le cycle des Nymphéas à l'État sous l'impulsion de son ami Georges Clemenceau pour célébrer la paix.",
+              "title": "Le Pacte sacré avec Georges Clemenceau",
+              "desc": "Au lendemain de l'Armistice du 11 novembre 1918, sous l'impulsion de son vieil ami Georges Clemenceau, Monet offre officiellement à la nation française les panneaux monumentaux des Nymphéas pour célébrer la paix.",
               "type": "life",
-              "icon": "🏛️"
+              "icon": "🤝"
             },
             {
               "year": 1926,
-              "title": "Mort à Giverny",
-              "desc": "S'éteint le 5 décembre 1926 à 86 ans dans sa propriété de Giverny, laissant un héritage révolutionnaire qui ouvre la modernité picturale.",
+              "title": "Dernier souffle à Giverny : « Pas de noir pour Monet ! »",
+              "desc": "S'éteint le 5 décembre 1926 à 86 ans. Lors de ses obsèques intimes, Georges Clemenceau arrache en larmes le drap mortuaire noir recouvrant le cercueil pour le remplacer par une cotonnade aux couleurs chatoyantes : « Non ! Pas de noir pour Monet ! Le noir n'est pas une couleur ! »",
               "type": "life",
               "icon": "🕊️"
             }
