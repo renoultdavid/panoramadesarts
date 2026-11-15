@@ -5850,6 +5850,276 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       ]
     }
   },
+"modigliani": {
+    "id": "modigliani",
+    "name": "Modigliani Amedeo",
+    "sortName": "Modigliani Amedeo",
+    "sortLetter": "M",
+    "dates": "1884 – 1920",
+    "movement": "École de Paris & Modernisme sculptural",
+    "nationality": "Italienne (Livourne, Paris, Montmartre, Montparnasse)",
+    "techniques": "Huile sur toile, portrait psychologique, nu féminin, sculpture sur calcaire (taille directe), dessin à la mine de plomb et à la craie, cernes sombres et étirements maniéristes",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczMSMuETuZVO5gXHPTm8IdiUJDhU2d4wtl94LXBd3_qv67IksKkCgJKwckW8tV9Fo3aGpFY-VHmXeVS5hsfzdUyhJjw-mxLMhMA66cjZkmWaEg6zB3ua8CvY7uCMR2En_fIf02fx1ZgK2r-lADkwa2z1Yw=w1589-h675-s-no-gm?authuser=0",
+    "portraitImg": "",
+    "bio": `
+      <p><strong>La figure tragique de l'École de Paris et la quête de l'âme humaine</strong><br>
+      Amedeo Modigliani (1884 – 1920) est la figure tragique par excellence de l'École de Paris. Artiste maudit, d'une santé fragile et d'une exigence absolue, il a créé un style immédiatement reconnaissable, au croisement de la tradition de la Renaissance italienne et des révolutions de l'art moderne. Son œuvre est une quête incessante de la ligne pure et de l'âme humaine.</p>
+      <p><strong>Portrait psychologique, cous étirés et regards intérieurs</strong><br>
+      Son genre pictural se définit par le portrait psychologique et le nu féminin. Son style se caractérise par l'élongation des formes — cous interminables, visages en amande, nez effilés — et par des yeux souvent sans pupilles, comme des regards tournés vers l'intérieur. Sa peinture utilise une palette chaude, des cernes sombres et une matière lisse qui rappelle la sculpture.</p>
+      <p><strong>De la taille directe sous l'égide de Brancusi à l'apothéose picturale</strong><br>
+      L'évolution de son style marque un passage de la sculpture vers une peinture profondément sculpturale : passionné par la taille directe sous l'influence de Brancusi (1909-1914), il doit abandonner la poussière de la pierre pour des raisons pulmonaires et transpose cette monumentalité stylisée sur la toile. Soutenu par le Dr Paul Alexandre puis par Léopold Zborowski, il peint avec une fièvre croissante jusqu'à sa mort prématurée à 35 ans de méningite tuberculeuse, suivie du suicide tragique de sa compagne Jeanne Hébuterne.</p>
+    `,
+    "corpus": {
+      "total": 337,
+      "seen": 5,
+      "paintingsCount": 337,
+      "details": [
+        {
+          "label": "Peintures à l'huile autographes répertoriées (Catalogue Ceroni)",
+          "count": 337,
+          "icon": "🎨",
+          "color": "#8b5cf6",
+          "seen": 5,
+          "note": "Corpus strict des peintures authentifiées par le catalogue raisonné d'Ambrogio Ceroni (1958, rev. 1970)"
+        }
+      ],
+      "sourceTitle": "Catalogue Raisonné Ambrogio Ceroni (1958, rev. 1970) & Archives Modigliani",
+      "sourceNotes": "Pour la peinture de Modigliani, le corpus fait l'objet de vifs débats historiques en raison du nombre considérable de faux apparus après sa mort. Le catalogue de référence le plus rigoureux et universellement accepté par les musées et le marché international demeure celui d'Ambrogio Ceroni (publié en 1958 et révisé en 1970). Selon l'inventaire Ceroni, le corpus autographe de Modigliani comprend exactement 337 peintures à l'huile authentifiées avec certitude (sans compter ses sculptures sur pierre et un vaste ensemble de dessins sur papier). Ce corpus très resserré s'explique par sa vie foudroyée (mort à 35 ans) et par sa période de production picturale majeure concentrée sur moins d'une décennie (1914-1920)."
+    },
+    "timeline": {
+      "periods": [
+        {
+          "title": "Arrivée à Paris, Montmartre et le Dr Paul Alexandre",
+          "years": "1906 – 1909",
+          "color": "#3b82f6",
+          "summary": "Premiers pas parisiens au Bateau-Lavoir, rencontre décisive avec son mécène le Dr Paul Alexandre et toiles post-impressionnistes intimistes.",
+          "events": [
+            {
+              "year": 1906,
+              "title": "Tête de femme de profil (Musée des Beaux-Arts de Rouen)",
+              "desc": "Huile sur carton peinte peu après son arrivée à Paris, témoignant de ses premières explorations montmartroises et de l'influence de Toulouse-Lautrec.",
+              "type": "masterpiece",
+              "artworkId": "modigliani_tete_de_femme_profil_rouen_1906"
+            },
+            {
+              "year": 1907,
+              "title": "Rencontre avec le Dr Paul Alexandre",
+              "desc": "Rencontre cruciale avec le jeune médecin Paul Alexandre, qui devient son premier acheteur régulier, mécène et ami fraternel à la clinique du Delta.",
+              "type": "life",
+              "icon": "🤝"
+            },
+            {
+              "year": 1909,
+              "title": "Jean-Baptiste Alexandre au crucifix (Musée des Beaux-Arts de Rouen)",
+              "desc": "Portrait poignant et spirituel du père du Dr Paul Alexandre tenant un crucifix, inspiré par Cézanne et la ferveur toscane.",
+              "type": "masterpiece",
+              "artworkId": "modigliani_jean_baptiste_alexandre_crucifix_rouen_1909"
+            },
+            {
+              "year": 1909,
+              "title": "Jean-Baptiste Alexandre (Étude au crayon, Musée des Beaux-Arts de Rouen)",
+              "desc": "Dessin préparatoire incisif à la mine de plomb captant la fatigue et la bonhomie méditative du patriarche.",
+              "type": "masterpiece",
+              "artworkId": "modigliani_jean_baptiste_alexandre_dessin_rouen_1909"
+            }
+          ]
+        },
+        {
+          "title": "La passion de la sculpture, Brancusi & la Cité Falguière",
+          "years": "1909 – 1914",
+          "color": "#f59e0b",
+          "summary": "Période sculpturale sous l'égide de Brancusi, recherche éperdue de la ligne pure, têtes en calcaire et dessins de cariatides.",
+          "events": [
+            {
+              "year": 1910,
+              "title": "Étude de nu féminin couché (Musée des Beaux-Arts de Rouen)",
+              "desc": "Superbe étude graphique issue du fonds Paul Alexandre où le trait continu sculpte le corps féminin avec une souveraine élégance.",
+              "type": "masterpiece",
+              "artworkId": "modigliani_nu_feminin_couche_dessin_rouen_1910"
+            },
+            {
+              "year": 1912,
+              "title": "Exposition des Têtes sculptées au Salon d'Automne",
+              "desc": "Expose sept têtes en pierre calcaire allongées au Salon d'Automne, inspirées par l'art cycladique et les masques africains.",
+              "type": "exhibition",
+              "icon": "🗿"
+            },
+            {
+              "year": 1913,
+              "title": "Paul Alexandre devant un vitrage (Musée des Beaux-Arts de Rouen)",
+              "desc": "Portrait monumental de son mécène debout devant une verrière géométrique, synthèse parfaite entre sculpture, cubisme et élégance maniériste.",
+              "type": "masterpiece",
+              "artworkId": "modigliani_paul_alexandre_devant_vitrage_rouen_1913"
+            }
+          ]
+        },
+        {
+          "title": "Montparnasse, les Grands Nus, Jeanne Hébuterne & Destin foudroyé",
+          "years": "1914 – 1920",
+          "color": "#ef4444",
+          "summary": "Retour forcé à la peinture, série mythique des grands nus sensuels chez Berthe Weill, portraits des amis de Montparnasse et fin tragique.",
+          "events": [
+            {
+              "year": 1916,
+              "title": "Alliance avec le marchand Léopold Zborowski",
+              "desc": "Le poète polonais Zborowski devient son nouveau marchand, lui fournissant un atelier et des modèles pour ses grands nus à l'huile.",
+              "type": "life",
+              "icon": "🤝"
+            },
+            {
+              "year": 1917,
+              "title": "Scandale des Nus à la galerie Berthe Weill",
+              "desc": "Seule exposition personnelle de sa vie : le commissaire de police fait décrocher les toiles pour « outrage à la pudeur » en raison des poils pubiens apparents.",
+              "type": "exhibition",
+              "icon": "🎨"
+            },
+            {
+              "year": 1917,
+              "title": "Rencontre passionnée avec Jeanne Hébuterne",
+              "desc": "Coup de foudre avec la jeune étudiante en art Jeanne Hébuterne qui devient son égérie, sa muse absolue et la mère de sa fille Giovanna.",
+              "type": "life",
+              "icon": "❤️"
+            },
+            {
+              "year": 1920,
+              "title": "Mort prématurée à l'Hôpital de la Charité",
+              "desc": "Emporté le 24 janvier 1920 à 35 ans par une méningite tuberculeuse. Au lendemain de sa mort, Jeanne Hébuterne, enceinte de neuf mois, se défenestre.",
+              "type": "life",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+    }
+  },
+"mondrian": {
+    "id": "mondrian",
+    "name": "Mondrian Piet",
+    "sortName": "Mondrian Piet",
+    "sortLetter": "M",
+    "dates": "1872 – 1944",
+    "movement": "Néoplasticisme & De Stijl (Abstraction géométrique)",
+    "nationality": "Néerlandaise (Amersfoort, Amsterdam, Paris, Londres, New York)",
+    "techniques": "Huile sur toile, abstraction géométrique pure (Néoplasticisme), grilles orthogonales noires asymétriques, trois couleurs primaires pures (rouge, bleu, jaune) et non-couleurs (blanc, gris)",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczPoVFLuCDNR9JqKWsdMroHGXNPjR4Fv-Ry1AxeFpUP9I65mk7bmNeRoadxHEfOpxHvR1AaF4HsAV2axTP-jpwpNVljDdf4L7iuTTS5OiL5Pwvu2m_ErvYPk-nhKVW_eyFCh15Jcra0P8rN3Nw9Jc8OGyg=w1589-h675-s-no-gm?authuser=0",
+    "portraitImg": "",
+    "bio": `
+      <p><strong>Pionnier absolu de l'abstraction et théoricien visionnaire du Néoplasticisme</strong><br>
+      Piet Mondrian (1872 – 1944) est l'un des pionniers absolus de l'abstraction et le théoricien visionnaire du Néoplasticisme. Convaincu que l'art doit révéler l'harmonie universelle et la structure spirituelle sous-jacente du monde, il a progressivement dépouillé sa peinture de toute illusion figurative pour n'en retenir que la quintessence : la ligne droite orthogonale et les trois couleurs primaires.</p>
+      <p><strong>Grille orthogonale, couleurs primaires et équilibre dynamique</strong><br>
+      Son genre pictural se définit par l'abstraction géométrique néoplastique, après être passé par le réalisme naturaliste néerlandais, le luminisme et le cubisme analytique. Son style de la maturité se caractérise par une grille rigoureuse de lignes noires asymétriques délimitant des rectangles blancs ou teintés des trois couleurs primaires (rouge, bleu, jaune). L'équilibre n'est jamais symétrique mais dynamique, fondé sur la tension des oppositions.</p>
+      <p><strong>De la déconstruction cubiste aux rythmes syncopés de New York</strong><br>
+      L'évolution de son style est une trajectoire exemplaire de purification : des paysages hollandais aux moulins et arbres du début du siècle, il passe par la déconstruction cubiste à Paris (1911-1914), fonde la revue De Stijl en 1917 avec Theo van Doesburg, atteint l'orthodoxie néoplastique dans les années 1920-1930, puis redécouvre le rythme syncopé du jazz et l'énergie new-yorkaise à la fin de sa vie (<em>Broadway Boogie Woogie</em>, 1942-1944).</p>
+    `,
+    "corpus": {
+      "total": 750,
+      "seen": 1,
+      "paintingsCount": 750,
+      "details": [
+        {
+          "label": "Peintures à l'huile autographes répertoriées (Catalogue Welsh & Joosten)",
+          "count": 750,
+          "icon": "📐",
+          "color": "#8b5cf6",
+          "seen": 1,
+          "note": "Corpus strict des peintures autographes issues des 2 volumes du catalogue raisonné de Robert P. Welsh et Joop M. Joosten (1998)"
+        }
+      ],
+      "sourceTitle": "Catalogue Raisonné Robert P. Welsh & Joop M. Joosten (1998)",
+      "sourceNotes": "Le catalogue raisonné de référence pour l'œuvre de Piet Mondrian est l'ouvrage monumental de Robert P. Welsh et Joop M. Joosten, Piet Mondrian: Catalogue Raisonné (publié en 1998 en deux volumes par les éditions Bløndal / V+K Publishing). Le volume I (par Welsh) recense la période naturaliste et luministe primitive jusqu'en 1911, tandis que le volume II (par Joosten) documente la période cubiste et l'apogée néoplastique de 1911 à 1944. Si l'inventaire complet recense environ 1 280 numéros incluant dessins, gouaches, carnets et études préparatoires, le corpus strict des peintures sur toile ou panneaux autographes s'établit à environ 750 œuvres peintes de premier plan."
+    },
+    "timeline": {
+      "periods": [
+        {
+          "title": "Paysages hollandais, Luminisme & Découverte du Cubisme",
+          "years": "1892 – 1914",
+          "color": "#3b82f6",
+          "summary": "Des paysages figuratifs brumeux aux pommiers stylisés et à la révélation du cubisme parisien au contact de Picasso et Braque.",
+          "events": [
+            {
+              "year": 1908,
+              "title": "Période luministe à Dombourg et théosophie",
+              "desc": "Adhère à la Société théosophique et peint des paysages et phares aux couleurs pures et intenses sous le ciel zélandais.",
+              "type": "life",
+              "icon": "✨"
+            },
+            {
+              "year": 1911,
+              "title": "Arrivée à Paris et choc du Cubisme",
+              "desc": "S'installe à Montparnasse après avoir découvert les toiles de Braque et Picasso au Salon des Indépendants d'Amsterdam.",
+              "type": "exhibition",
+              "icon": "🎨"
+            },
+            {
+              "year": 1912,
+              "title": "L'Arbre argenté et déconstruction de l'espace",
+              "desc": "Décompose la structure des branches d'arbres en une trame de demi-cercles et d'arcs cubistes monochromatiques.",
+              "type": "masterpiece",
+              "icon": "🌳"
+            }
+          ]
+        },
+        {
+          "title": "De Stijl & L'Orthodoxie du Néoplasticisme",
+          "years": "1914 – 1937",
+          "color": "#f59e0b",
+          "summary": "Fondation de la revue De Stijl avec Theo van Doesburg, invention de la grille orthogonale et recherche de l'harmonie universelle.",
+          "events": [
+            {
+              "year": 1917,
+              "title": "Fondation de la revue De Stijl",
+              "desc": "Cofonde à Leyde la revue d'avant-garde De Stijl avec Theo van Doesburg, Bart van der Leck et Vilmos Huszár.",
+              "type": "movement",
+              "icon": "📐"
+            },
+            {
+              "year": 1920,
+              "title": "Manifeste Le Néo-plasticisme",
+              "desc": "Publie à Paris son grand traité théorique définissant la plastique pure comme le principe suprême d'équivalence universelle.",
+              "type": "theory",
+              "icon": "📖"
+            },
+            {
+              "year": 1932,
+              "title": "Composition avec bleu, rouge et jaune (Composition D)",
+              "desc": "Chef-d'œuvre néoplastique épuré conservé au Musée des Beaux-Arts de Rennes, quintessence de l'équilibre asymétrique des primaires.",
+              "type": "masterpiece",
+              "artworkId": "mondrian_composition_d_rennes_1932"
+            }
+          ]
+        },
+        {
+          "title": "Londres, l'Exil à New York & le Rythme du Boogie-Woogie",
+          "years": "1938 – 1944",
+          "color": "#ef4444",
+          "summary": "Fuite de la guerre en Europe, arrivée jubilatoire à New York, abandon de la ligne noire et apothéose syncopée inspirée du jazz américain.",
+          "events": [
+            {
+              "year": 1940,
+              "title": "Installation à New York",
+              "desc": "Quitte Londres bombardée pour New York, accueilli par Harry Holtzman et Peggy Guggenheim.",
+              "type": "life",
+              "icon": "🗽"
+            },
+            {
+              "year": 1942,
+              "title": "Broadway Boogie Woogie",
+              "desc": "Supprime les lignes noires pour tisser des rubans de carrés jaunes, rouges et bleus pulsant comme les néons et le jazz de Manhattan.",
+              "type": "masterpiece",
+              "icon": "🎶"
+            },
+            {
+              "year": 1944,
+              "title": "Mort à New York",
+              "desc": "S'éteint des suites d'une pneumonie à 71 ans, laissant inachevée sa dernière toile visionnaire Victory Boogie Woogie.",
+              "type": "life",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+    }
+  }
 });
 
 
@@ -5875,3 +6145,6 @@ window.ARTISTS_REGISTRY["john_everett_millais"] = window.ARTISTS_REGISTRY["milla
 window.ARTISTS_REGISTRY["jean_francois_millet"] = window.ARTISTS_REGISTRY["millet"];
 window.ARTISTS_REGISTRY["joan_miro"] = window.ARTISTS_REGISTRY["miro"];
 window.ARTISTS_REGISTRY["joan_mitchell"] = window.ARTISTS_REGISTRY["mitchell"];
+
+window.ARTISTS_REGISTRY["amedeo_modigliani"] = window.ARTISTS_REGISTRY["modigliani"];
+window.ARTISTS_REGISTRY["piet_mondrian"] = window.ARTISTS_REGISTRY["mondrian"];
