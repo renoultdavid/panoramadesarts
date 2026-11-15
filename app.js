@@ -10484,30 +10484,15 @@ function initSearchEngine() {
       'lello da orvieto', 'hans von wendelstorf', 'fra jacopo', 'arman'
     ];
 
-    catalog.forEach(item => {
-      if (!item.artist) return;
-      const rawArtist = item.artist.trim().toLowerCase();
-      if (EXCLUDED_DECORATIVE_ARTISTS.some(exc => rawArtist === exc || rawArtist.includes(exc))) return;
-
-      // On recherche uniquement parmi les artistes enregistrés
-      const regMatch = Object.values(registry).find(r => {
-        if (r.id && item.artistId && r.id.toLowerCase() === item.artistId.toLowerCase()) return true;
-        const rName = (r.name || '').toLowerCase().trim();
-        const rSort = (r.sortName || '').toLowerCase().trim();
-        return rName === rawArtist || rSort === rawArtist ||
-               rName.split(' ')[0] === rawArtist.split(' ')[0] ||
-               (rawArtist.length > 4 && rName.includes(rawArtist));
-      });
-
-      if (regMatch && regMatch.name) {
-        const canonicalName = regMatch.name.trim();
-        let sortKey = (regMatch.sortLetter || regMatch.sortName || canonicalName).normalize('NFD').replace(/[̀-ͯ]/g, '').toUpperCase();
-        let firstChar = sortKey.charAt(0);
-        if (!/[A-Z]/.test(firstChar)) firstChar = '#';
-
-        if (directory[firstChar] && directory[firstChar][canonicalName]) {
-          directory[firstChar][canonicalName].count++;
-        }
+    // Décompte aligné sur la fiche artiste (même logique : artistId strict en priorité)
+    Object.values(registry).forEach(reg => {
+      if (!reg || !reg.name) return;
+      const artName = reg.name.trim();
+      let sortKey = (reg.sortLetter || reg.sortName || artName).normalize('NFD').replace(/[̀-ͯ]/g, '').toUpperCase();
+      let firstChar = sortKey.charAt(0);
+      if (!/[A-Z]/.test(firstChar)) firstChar = '#';
+      if (directory[firstChar] && directory[firstChar][artName]) {
+        directory[firstChar][artName].count = getArtworksForArtistRecord(reg, catalog).length;
       }
     });
 
@@ -10781,7 +10766,7 @@ function initSearchEngine() {
         // 1. Récupérer la fiche peintre correspondante dans le registre
         const registry = window.ARTISTS_REGISTRY || {};
         const cleanName = (art.name || '').replace(/\(.*?\)/g, '').toLowerCase().trim();
-        const artistRecord = Object.values(registry).find(a => {
+        const artistRecord = (art.artistId && Object.values(registry).find(a => a.id && a.id.toLowerCase() === art.artistId.toLowerCase())) || Object.values(registry).find(a => {
           if (art.artistId && a.id && a.id.toLowerCase() === art.artistId.toLowerCase()) return true;
           const aName = (a.name || '').toLowerCase().trim();
           const aSort = (a.sortName || '').toLowerCase().trim();
