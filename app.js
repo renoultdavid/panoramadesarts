@@ -12696,7 +12696,7 @@ const CURIOSITY_ROULETTE_EPOCHS = [
         title: "Le Scribe accroupi de Saqqarah",
         desc: "Chef-d'œuvre du réalisme memphite en calcaire peint et yeux de cristal incrustés (IVe-Ve dynastie, Musée du Louvre).",
         icon: "📜",
-        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczODWJq91eKzX1jI_gW7eKov1b4u_x4Xn38p7J7zK3z9_P2Fz1mJ3vG0K4bU8zX0bN1K9c_P8n_1_dK4m6A7hQ=w1008-h1344-s-no-gm?authuser=0"
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOLXBqZ8wDTWRT74bAjKYENOSQ_ZZ7xvxJvow7jJrXpSLZRUI3N9dMh12MBYkeA-q6XINhTuaYOME2Q1HHqoUJ85beYF_okEtstxmW8CVvNAX6TW7AwZnks45wHO7VUVvoWn1AvIIB-kF36UQFwoX4bJA=w1200-h1600-s-no-gm?authuser=0"
       },
       {
         region: "Élam & Suse / Acropole",
@@ -12717,7 +12717,7 @@ const CURIOSITY_ROULETTE_EPOCHS = [
         title: "Palette commémorative du roi Narmer",
         desc: "Bas-relief fondateur célébrant l'unification de la Haute et de la Basse-Égypte (Hierakonpolis, Musée du Caire).",
         icon: "👑",
-        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP1kH6G7w8v9u1n2m3l4k5j6h7g8f9d0s1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p7q8r9s0t1u2v3w4x5y6z=w1008-h1344-s-no-gm?authuser=0"
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNicB1AcSFTTRnI7NSSG3b-G_THRXiLJnlpFcfZpVHtZZwrioDwOPkSvhZ2mc9yQWk5s3yiss8N56WJS-_lZThkbX_hUAcaIq5chFEvYydsT5Cr8MPbLHowfMVTvNm1zMiim7PYYdX0GdmDnYhMiV7BBg=w1611-h2416-s-no-gm?authuser=0"
       }
     ]
   },
@@ -12727,32 +12727,32 @@ const CURIOSITY_ROULETTE_EPOCHS = [
     subtitle: "Le Moyen Empire égyptien, la grandeur thébaine et la Babylonie amorrite.",
     peers: [
       {
-        region: "Égypte / Moyen Empire",
-        title: "Sphinx royal d'Amenemhat III",
-        desc: "Sculpture colossale en granit rose manifestant l'autorité inébranlable du souverain de la XIIe dynastie (Musée du Caire).",
+        region: "Égypte / Assiout (XIIe dynastie)",
+        title: "Statue du nomarque Hâpydjefaï",
+        desc: "Sculpture monumentale en bois sous le règne de Sésostris Ier, apogée de la statuaire provinciale (Musée du Louvre).",
         icon: "🗿",
-        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPX3Z6W_1n2m3l4k5j6h7g8f9d0s1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p7q8r9s0t1u2v3w4x5y6z=w1379-h919-s-no-gm?authuser=0"
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMeNj9j_MG5GKB7C8j_ZclzK0F6h5Qv7qDubyKfTvQjxUSGSAgcJo9HxA5qFWqqpom3Uge8oS5d7GBOG7Jmvgn7m7GLw8aXw2uWYO1YigxEvZ_jwj4tYE4HcmG3rzq3Nw4K6AbNesOSHXTi7g4LkHFAyQ=w692-h919-s-no-gm?authuser=0"
       },
       {
-        region: "Égypte / Thèbes",
-        title: "Statue osirienne de Montouhotep II",
-        desc: "Figure royale momiforme peinte en grès sombre, symbole de la résurrection pharaonique (Deir el-Bahari, Musée du Caire).",
-        icon: "👑",
-        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczO2X3Y4Z5W6V7U8T9S0R1Q2P3O4N5M6L7K8J9I0H1G2F3E4D5C6B7A8=w1008-h1344-s-no-gm?authuser=0"
+        region: "Égypte / Moyen Empire",
+        title: "Cercueil au catalogue d'offrandes",
+        desc: "Paroi de cercueil rectangulaire en bois stuqué et peint avec frises rituelles et hiéroglyphes funéraires (Musée du Louvre).",
+        icon: "📜",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczM1122qmLvBuNCPi6vEhgfLzvR0Psoi8_TB7QQ5GYACOlISFcjj1Yb0KZHWI1mw4dLrFxyKXSHElX8hNqSLe-_oXtC5Xn-cWAxlnjWLxRB-sW0tcwjTWJWKU3RTvYmZCkre0qOWDIn5p6_DSo8p-bMheQ=w1221-h919-s-no-gm?authuser=0"
       },
       {
-        region: "Égypte / Nécropole d'Assiout",
-        title: "Statuette féminine de la tombe de Nakhti",
-        desc: "Porteuse d'offrandes en bois stuqué et peint témoignant de la virtuosité des ateliers provinciaux du Moyen Empire.",
+        region: "Égypte / Tombe de Nakhti",
+        title: "Statuette féminine de Nakhti",
+        desc: "Figure votive d'une porteuse d'offrandes en bois précieux taillé d'une exceptionnelle finesse (Musée du Louvre).",
         icon: "🏺",
-        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczN9M8L7K6J5I4H3G2F1E0D9C8B7A6Z5Y4X3W2V1U0T9S8R7Q6P5O4=w1008-h1344-s-no-gm?authuser=0"
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMBEVTzlfcy5B1rAIF9YPnkhEyUy638zRehdKoi_8XmNCoG_EJDV4dWNeYZwLSI82hoqPAjtpF4p31S04bUB3ai4GNxGgQkYnnKDQg0cgOoxvd03lCiqESUt5o5qg9FZVVjbkLzlLQiY_kcw3nqZOnF5g=w1818-h2416-s-no-gm?authuser=0"
       },
       {
-        region: "Égypte / Arts funéraires",
-        title: "Masque funéraire en cartonnage de Senu",
-        desc: "Visage idéalisé en toile stuquée et dorée garantissant la préservation de l'âme dans l'au-delà (XIIe dynastie).",
+        region: "Égypte / Règne de Sésostris III",
+        title: "Table d'offrandes à deux bassins",
+        desc: "Calcaire sculpté avec bec verseur dédié aux libations sacrées du culte osirien (Musée du Louvre).",
         icon: "✨",
-        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczL8K7J6I5H4G3F2E1D0C9B8A7Z6Y5X4W3V2U1T0S9R8Q7P6O5N4=w1008-h1344-s-no-gm?authuser=0"
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNAjZikQQINgpgskvyTLR6PJrh0LfQUPZH551bgKT05efEBFznSDeew5f7hmgW2ec_fT4bnJvbz4xF1KdBCfVvfKT_o4gHrAj_FHK0ZokmysHXggp7eLgCUWOCJ8hf3ciGkB6gypGCKGLdWAp3WtTVaFA=w1221-h919-s-no-gm?authuser=0"
       }
     ]
   },
@@ -12801,14 +12801,14 @@ const CURIOSITY_ROULETTE_EPOCHS = [
         title: "Taureau ailé androcéphale (Lamassu)",
         desc: "Génie protecteur monumental à cinq pattes sculpté pour les portes du palais de Sargon II (Musée du Louvre).",
         icon: "🐂",
-        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczM3N4O5P6Q7R8S9T0U1V2W3X4Y5Z6A7B8C9D0E1F2G3H4I5J6K7L8=w1759-h1325-s-no-gm?authuser=0"
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMmOj_RjeWamijWzzJ4bdNfMYDIW1KieTQarEDESAoZ9by2mVJZjvzla1pIXYh12wDPnmfzbYOl89-mAQmKzEX2Ny_jFUre48LlsslAVTDvyW3M1IXrYSVgQdKwT8fSXO9p2FRFa2D1rQPP4LePe6eSPQ=w1759-h2336-s-no-gm?authuser=0"
       },
       {
         region: "Assyrie / Ninive & Khorsabad",
         title: "Orthostate du Héros maîtrisant le lion",
         desc: "Bas-relief colossal en albâtre gypseux figurant l'épopée de Gilgamesh maîtrisant la force brute (Musée du Louvre).",
         icon: "🦁",
-        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczK8J7I6H5G4F3E2D1C0B9A8Z7Y6X5W4V3U2T1S0R9Q8P7O6N5M4=w1813-h2408-s-no-gm?authuser=0"
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMjgdzRiiFcj2-XyWkepJlEr2A9wEEKO2axSHimRiGeL2Pq4bRmkGEf1weyu0MIAU4FaBwFWByRLwDbQRhkkyUHeIktSV7mxWmfXfw5dnQ8UByBsUNA7WXySvzmUHBRaU8Lw9tpdxhkX38_if1xHIw4uA=w1759-h2336-s-no-gm?authuser=0"
       },
       {
         region: "Égypte / Troisième Période intermédiaire",
@@ -12906,21 +12906,21 @@ const CURIOSITY_ROULETTE_EPOCHS = [
         title: "Portrait de momie dit « L'Européenne »",
         desc: "Peinture funéraire à l'encaustique sur bois saisissante d'intensité psychologique (Antinoopolis, Musée du Louvre).",
         icon: "🎨",
-        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNZ8M7L6K5J4I3H2G1F0E9D8C7B6A5Z4Y3X2W1V0U9T8S7R6Q5P4O=w1008-h1344-s-no-gm?authuser=0"
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNA57Wxb_jnCxME_A7efN4jSiUhoLWqhIgPHIbJS-E7HvXvUFDZSn9eh02fF67Oe_NI4pT8O8reBV6Q8nNyeAo3oF4EMzfAsleKkrkhC2KyhZ_g1uZlBBGLgpA5VVwhca3OE9c9NslsZgEDirRzom3hLg=w692-h919-s-no-gm?authuser=0"
       },
       {
         region: "Égypte romaine / Fayoum",
         title: "Portraits de momies du Musée d'Athènes",
         desc: "Ensemble de portraits à la tempera sur bois illustrant la fusion stylistique gréco-romaine et les rites d'Osiris.",
         icon: "🖼️",
-        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczY7X6W5V4U3T2S1R0Q9P8O7N6M5L4K3J2I1H0G9F8E7D6C5B4A3=w1379-h919-s-no-gm?authuser=0"
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP_qiLCew8IPy5xZKi2aMb_Kjctpwh69kRc5dx5Wi2R2Ts4SnxXt15q7SWR4NEMfk_Q1WHCudntrUPV5xjvVsYDfrx-uIEK-Qc_w3yz6MtsfWpolo7HT6ID7GOiez7PH1RG_jou3HW0B5EX-9I6ELrzhQ=w1379-h919-s-no-gm?authuser=0"
       },
       {
         region: "Empire romain / Mosaïque",
         title: "Grand pavement de la basilique d'Aquilée",
         desc: "Compositions allégoriques chrétiennes, scènes pastorales et portraits de donateurs en tesselles polychromes.",
         icon: "🏛️",
-        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczM3OGYDI6ySVU1lCXx-CW6kMl5-CY1UbmgQy7F6u09Uep6EhC6upUsmZyU_mp7R8quHIUDByhXQQdY3fxtPqMtPbgMBqq-Y9y697vQYo8YvRq6J8OqBzHbdR4H7PO4ur1-4Fi21YUcQdobR5unnXj82Ew=w613-h919-s-no-gm?authuser=0"
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPY6Qlidao9q30nS9vL6eVSS5tDTpHhXcs_l2Ej0LHT7lqT5VujqwgkBPHG_-h-RwuxgPQVN8drF7DRY4hdH4skIn_OYYqHPp98lJW0r1MOiEUoov5KAe89WNLHRRsea9Z21A8mI-af57RkfFL6MXpUbg=w1724-h1150-s-no-gm?authuser=0"
       },
       {
         region: "Égypte romaine / Kôm Ombo",
@@ -12941,7 +12941,7 @@ const CURIOSITY_ROULETTE_EPOCHS = [
         title: "Le Christ guerrier de la Chapelle archiépiscopale",
         desc: "Mosaïque byzantine figurant le Christ victorieux foulant aux pieds le lion et le serpent (Ravenne).",
         icon: "✨",
-        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczM9N8O7P6Q5R4S3T2U1V0W9X8Y7Z6A5B4C3D2E1F0G9H8I7J6K5=w1008-h1344-s-no-gm?authuser=0"
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPY6Qlidao9q30nS9vL6eVSS5tDTpHhXcs_l2Ej0LHT7lqT5VujqwgkBPHG_-h-RwuxgPQVN8drF7DRY4hdH4skIn_OYYqHPp98lJW0r1MOiEUoov5KAe89WNLHRRsea9Z21A8mI-af57RkfFL6MXpUbg=w1724-h1150-s-no-gm?authuser=0"
       },
       {
         region: "Italie / Ravenne",
@@ -13011,28 +13011,28 @@ const CURIOSITY_ROULETTE_EPOCHS = [
         title: "Frans Hals : Le Bouffon au luth",
         desc: "Touche enlevée et éclat de rire instantané capturés avec une liberté gestuelle préfigurant la modernité (Musée du Louvre).",
         icon: "🎵",
-        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNY0Z1A2B3C4D5E6F7G8H9I0J1K2L3M4N5O6P7Q8R9S0T1U2V3W4X=w1589-h1919-s-no-gm?authuser=0"
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPZZ4egk1gK_556o5aQ8ETUB1taIHanAW_4oylQh0fKmD63ssQvDOMJ46KL19cMbwUihW2X1pI4vydDpf0eMcgAz8b4UMB2Ozx8B4XE8_18hGrNy0aP6HWQ59itlTc1QrhkFmXzIAfiAaXLPXWXsBhbVg=w1681-h2090-s-no-gm?authuser=0"
       },
       {
         region: "Hollande / Haarlem",
         title: "Frans Hals : Paulus van Beresteyn",
         desc: "Portrait bourgeois d'une sobriété magistrale, noir profond de la soie et blancheur éclatante de la fraise tuyautée (Musée du Louvre).",
         icon: "🎩",
-        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczM1N2O3P4Q5R6S7T8U9V0W1X2Y3Z4A5B6C7D8E9F0G1H2I3J4K5=w1589-h2100-s-no-gm?authuser=0"
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPTtTA_4V2k12G2ufIoSDO9OWQGOEovQ0keIatNrzI_cTF-amor9Jy-aow2CUg4IzOZp_ZW87aZ3zM6bpu4fkNrlgn8cl4fi2UUjceIkYkLxgn66Mc56VeRKZUivU-B0erHQbmMekKyOr4F-BHWcOomWQ=w1942-h1384-s-no-gm?authuser=0"
       },
       {
         region: "France / Lorraine",
         title: "Georges de La Tour : La Madeleine Terff",
         desc: "Méditation silencieuse sur la vanité du monde à la lueur d'une unique flamme de bougie (Musée du Louvre).",
         icon: "🕯️",
-        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczO3P4Q5R6S7T8U9V0W1X2Y3Z4A5B6C7D8E9F0G1H2I3J4K5L6M7=w1589-h2000-s-no-gm?authuser=0"
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP2tzi-zD3MfLf9ZmFgRSRSFh0AS4QK_wg99zrTWfdP9ANgyLJFraDKhdAWncgtpjt2-hYwSvLhqMFkC1O8PFxZeLE9OEEYfbiIU9RQ0jdx5A9nRikdZjvbxpEjX0UDWXP4nZF9tEFCZK0VLRQMRPwihQ=w1863-h2416-s-no-gm?authuser=0"
       },
       {
         region: "Hollande / Amsterdam",
         title: "Gabriel Metsu : La Leçon de musique",
         desc: "Scène de genre raffinée, chatoiement du satin rouge et intimité chaleureuse du Siècle d'Or néerlandais (Musée du Louvre).",
         icon: "🎻",
-        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPL8TgrE-PLe1zdh3NdLKqV3pLUFl_BIzjN9UzzK3VMtSU_7wgEJ2ISFlimODsqUXoS2nBa2hCYqzU8So3NbkUEzMocWGNxj8LXut3Nmt2UxwrppuTlNaoocB3_44NofCJA7m4Z_5EkRGvA0l6ZOR7zJw=w1589-h675-s-no-gm?authuser=0"
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMmfM6MMacaCum8Yrsy5Z1TmmhiCyUBh_bwfsF1rHSOriZAGDN5nHMjCSeGvKQVeSzC_3VqAzfeMcgmkuqw-5AT73psbPrzOKOUNBfh2QtZcv8kOy_y02e5svE0ja-RO9uHrPlu8eD1DfRh2xoRlywXMQ=w1589-h1919-s-no-gm?authuser=0"
       }
     ]
   },
@@ -13046,28 +13046,28 @@ const CURIOSITY_ROULETTE_EPOCHS = [
         title: "Jacques-Louis David : Le Serment des Horaces",
         desc: "Manifeste du Néoclassicisme civique : géométrie austère, lumière froide et sacrifice républicain (Musée du Louvre).",
         icon: "⚔️",
-        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP0O1N2M3L4K5J6I7H8G9F0E1D2C3B4A5Z6Y7X8W9V0U1T2S3R4=w1681-h1300-s-no-gm?authuser=0"
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMEz3T1ChqD2P2xcTZiQvLRycf1y50tq_W6VMY8wAgw9jDO5gLGM-73CHI27SlqFLEBUJBckSgFklOErZhhaECOravfsovesJVi6bxzb46MNblIcgsRqP3I1icDIYR28K9mk8G6TQnTNhC4v1N-oMOm3w=w1681-h2129-s-no-gm?authuser=0"
       },
       {
         region: "France / Paris",
         title: "Jean Siméon Chardin : La Raie",
         desc: "Morceau de réception à l'Académie : matière grasse, viscères nacrés et transcendance de la nature morte (Musée du Louvre).",
         icon: "🐟",
-        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczN9O8P7Q6R5S4T3U2V1W0X9Y8Z7A6B5C4D3E2F1G0H9I8J7K6L5=w1681-h1400-s-no-gm?authuser=0"
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNaOjCpCscSl4eiCNLEMaqD-vAw4dhYbKm-umXYCkxpIoZfZPCRngQJRpKKGJTUwz21QJuQJDhXC5JB_vLbUG4qmO1tQhI_tXZBc_1LlCECJ0yaXsYGoeiTVtCAD7Wqdb1v8DyOzviHl3SUy_Iuw5TOVg=w1795-h1435-s-no-gm?authuser=0"
       },
       {
         region: "France / Paris",
         title: "François Boucher : Diane sortant du bain",
         desc: "Apogée du rococo gracieux : carnations nacrées, draperies soyeuses et mythologie galante (Musée du Louvre).",
         icon: "🌸",
-        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczM8L7K6J5I4H3G2F1E0D9C8B7A6Z5Y4X3W2V1U0T9S8R7Q6P5O4=w1681-h1350-s-no-gm?authuser=0"
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPjf02ykfiMA2k7A5qa40D8JQK4ODctcMAzmk3pApiBa5PSQToOHn8JZ41u0kchEsVprF1u0xPVxUfr7lLshhIN4PtQgBlW8NRTgC9bNOZa9XCSXFwt6XGjqMOltBJgenTHeJwgucLxkAsv_v3rzLSqmQ=w1660-h1217-s-no-gm?authuser=0"
       },
       {
         region: "France / Rome",
         title: "J.-A.-D. Ingres : Œdipe et le Sphinx",
         desc: "La victoire de la raison humaine sur la monstruosité animale, pureté néoclassique de la ligne (Musée du Louvre).",
         icon: "🏛️",
-        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczK7J6I5H4G3F2E1D0C9B8A7Z6Y5X4W3V2U1T0S9R8Q7P6O5N4M3=w1589-h2100-s-no-gm?authuser=0"
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMEz3T1ChqD2P2xcTZiQvLRycf1y50tq_W6VMY8wAgw9jDO5gLGM-73CHI27SlqFLEBUJBckSgFklOErZhhaECOravfsovesJVi6bxzb46MNblIcgsRqP3I1icDIYR28K9mk8G6TQnTNhC4v1N-oMOm3w=w1681-h2129-s-no-gm?authuser=0"
       }
     ]
   },
@@ -13081,14 +13081,14 @@ const CURIOSITY_ROULETTE_EPOCHS = [
         title: "Delacroix : La Liberté guidant le peuple",
         desc: "Allégorie enflammée des Trois Glorieuses de 1830 : drapeaux tricolores, barricades et fougue romantique (Musée du Louvre).",
         icon: "🚩",
-        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczI6H5G4F3E2D1C0B9A8Z7Y6X5W4V3U2T1S0R9Q8P7O6N5M4L3K2=w1681-h1330-s-no-gm?authuser=0"
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMz1ScbbactSBPUdImMMASpvXZvcmXeihXvBhjwHiWyrel-vIAG2VZlPCdR4IL7W86uxYqH9llu5Mo1w7J8BDku5jpYaIdYppoOQJMWU6CpE5pEDYUKYGpv2hyx0TrI7yy7_gjWVIrwLMwZTZlohwnd7Q=w1942-h1764-s-no-gm?authuser=0"
       },
       {
         region: "France / Paris",
         title: "Gustave Courbet : L'Homme à la pipe",
         desc: "Autoportrait de jeunesse d'une troublante sincérité réaliste, fumée bleue et regard hypnotique (Musée Fabre, Montpellier).",
         icon: "🚬",
-        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczH5G4F3E2D1C0B9A8Z7Y6X5W4V3U2T1S0R9Q8P7O6N5M4L3K2J1=w1589-h1900-s-no-gm?authuser=0"
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNaKhI5vNXaqz5em-TNODAeRNhmD8jsTHbtqjLO8_K9LPqXfZGfYK1WRJQiiJ_IyhuS794Up-e0Nlh3qQ_45kgPooXFnyheNWBiayJXg96ws6cDRsn4ISFpVJeQGGL6HX8kJXF-YqmKgY2ZYuU0I1jrjA=w1476-h1814-s-no-gm?authuser=0"
       },
       {
         region: "France / Barbizon",

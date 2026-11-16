@@ -547,6 +547,14 @@ window.MOVEMENTS_DATA = {
         "icon": "🌸"
       },
       {
+        "name": "Berthe Morisot",
+        "dates": "1841 – 1895",
+        "role": "Figure fondatrice de l'Impressionnisme et virtuose de l'intimité",
+        "desc": "Le Berceau, Jeune femme assise devant la fenêtre (L'Été) et scènes domestiques.",
+        "artistId": "morisot",
+        "icon": "🌿"
+      },
+      {
         "name": "Eugène Boudin",
         "dates": "1824 – 1898",
         "role": "Le 'Roi des ciels' et mentor de Claude Monet",
@@ -708,6 +716,22 @@ window.MOVEMENTS_DATA = {
         "desc": "Nus au bain, intérieurs baignés de soleil et jardins du Cannet.",
         "artistId": "bonnard",
         "icon": "🛁"
+      },
+      {
+        "name": "Gustave Moreau",
+        "dates": "1826 – 1898",
+        "role": "Maître incontesté du Symbolisme et visionnaire du sacré",
+        "desc": "Œdipe et le Sphinx, Diomède dévoré par ses chevaux et Salomé à la prison.",
+        "artistId": "moreau",
+        "icon": "✨"
+      },
+      {
+        "name": "Edvard Munch",
+        "dates": "1863 – 1944",
+        "role": "Figure fondatrice de l'expressionnisme moderne",
+        "desc": "L'Enfant malade, Le Cri, La Frise de la Vie et fresques de l'Aula d'Oslo.",
+        "artistId": "munch",
+        "icon": "😱"
       },
       {
         "name": "Gustav Klimt",

@@ -6332,6 +6332,399 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
         }
       ]
     }
+  },
+  "moreau": {
+    "id": "moreau",
+    "name": "Moreau Gustave",
+    "sortName": "Moreau Gustave",
+    "sortLetter": "M",
+    "dates": "1826 – 1898",
+    "movement": "Symbolisme français (Maître incontesté)",
+    "nationality": "Française (Paris)",
+    "techniques": "Huile sur toile et sur panneau, grandes aquarelles de Salon, technique du grattage et incisions dans la pâte, rehauts d'or et émaux byzantins, colorisme onirique",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczMnn3HLPpXcOBSO235yOjtWPPoyXHdUXVLEMVg8nG5uBJqAHjU1g2oYIML6XV0XjqJQbLY7JZxQGtazTrNutshj2jXw0vv2nR-I7Iy9EkAvDWKiK7CITXHWqyg1XmebW0Nv3NrYh7gylUwrAxyHmSGq-Q=w1877-h796-s-no-gm?authuser=0",
+    "portraitImg": "",
+    "bio": `
+      <p><strong>Le maître incontesté du Symbolisme et visionnaire du sacré</strong><br>
+      Gustave Moreau (1826 – 1898) est le maître incontesté du Symbolisme français. Peintre d'une culture immense et d'une imagination mystique, il a transformé les sujets mythologiques et religieux en visions intérieures, complexes et saturées de symboles. Pour lui, la peinture ne doit pas copier la nature mais exprimer le « rêve » et la spiritualité.</p>
+      <p><strong>Orfèvrerie picturale, figures hiératiques et incisions</strong><br>
+      Son genre pictural se définit par la peinture d'histoire mythologique et l'allégorie. Son style se caractérise par une richesse ornementale inouïe, où les corps sont parés de bijoux ciselés et les architectures d'un luxe byzantin ou oriental. Il utilise souvent une technique de « grattage » ou de traits incisés dans la peinture pour créer des effets de lumière et de texture qui rappellent l'orfèvrerie ou l'émail.</p>
+      <p><strong>Des formes sculptées aux ébauches pré-abstraites</strong><br>
+      L'évolution de son style marque un passage d'une clarté académique vers une saturation onirique :<br>
+      • <em>La période classique et le succès (années 1860) :</em> Il s'impose au Salon avec <em>Œdipe et le Sphinx</em>. Le dessin est alors net et les figures ont une solidité sculpturale, mais l'atmosphère est déjà empreinte d'un étrange mystère.<br>
+      • <em>L'exploration des mythes et de la Femme (années 1870) :</em> C'est l'époque de ses compositions les plus célèbres sur Salomé. Son style devient plus complexe, avec une accumulation de détails décoratifs et une lumière surnaturelle. Les figures féminines y sont représentées comme des idoles fascinantes et fatales.<br>
+      • <em>Le testament mystique et l'abstraction (fin de carrière) :</em> Dans ses dernières œuvres monumentales comme <em>Jupiter et Sémélé</em>, il pousse l'ornementation à son paroxysme. Parallèlement, il réalise des ébauches d'une liberté totale, presque abstraites, où la couleur pure devient le seul vecteur de l'émotion.</p>
+    `,
+    "catalogInfo": {
+      "scientificCorpus": "473 œuvres répertoriées",
+      "totalEstimated": "473 huiles et grandes aquarelles achevées",
+      "historicalContext": "L'inventaire scientifique de référence mondiale est le Catalogue raisonné de l'œuvre achevé établi par le grand historien de l'art Pierre-Louis Mathieu (publié initialement en 1976 puis révisé en 1998). En écartant les quelque 4 800 dessins, calques et aquarelles préparatoires conservés dans son ancien atelier parisien pour ne retenir que les huiles sur toile et sur panneau (ainsi que ses très grandes aquarelles de Salon qu'il considérait comme des œuvres complètes), ce catalogue exhaustif fixe le corpus officiel de ses peintures achevées à très exactement 473 œuvres."
+    },
+    "timeline": {
+      "title": "Repères biographiques & Jalons créateurs",
+      "periods": [
+        {
+          "period": "1826 – 1860",
+          "label": "Jeunesse, formation néoclassique et révélation italienne",
+          "color": "#c5a059",
+          "events": [
+            {
+              "year": "1826",
+              "title": "Naissance à Paris",
+              "desc": "Fils de Louis Moreau, architecte de la ville de Paris, qui lui transmet une immense culture classique et soutient précocement sa vocation artistique.",
+              "type": "life",
+              "icon": "🌱"
+            },
+            {
+              "year": "1846",
+              "title": "École des Beaux-Arts & Atelier de Picot",
+              "desc": "Entre dans l'atelier de François-Édouard Picot, acquérant une technique académique rigoureuse avant de subir la fascination décisive de Théodore Chassériau.",
+              "type": "education",
+              "icon": "🏛️"
+            },
+            {
+              "year": "1857 – 1859",
+              "title": "Le Grand Voyage initiatique en Italie",
+              "desc": "Séjourne deux ans à Rome, Florence et Venise. Il copie inlassablement Michel-Ange, Carpaccio et les mosaïques byzantines, matrice de son futur univers visuel.",
+              "type": "milestone",
+              "icon": "🇮🇹"
+            }
+          ]
+        },
+        {
+          "period": "1864 – 1879",
+          "label": "Triomphes aux Salons, mythes tragiques et cycle de Salomé",
+          "color": "#8a6d3b",
+          "events": [
+            {
+              "year": "1864",
+              "title": "Le coup d'éclat : Œdipe et le Sphinx",
+              "desc": "Triomphe retentissant au Salon de 1864, salué par les princes et la critique comme le renouveau de la grande peinture d'histoire poétique.",
+              "type": "creation",
+              "icon": "👑"
+            },
+            {
+              "year": "1865",
+              "title": "Diomède dévoré par ses chevaux",
+              "desc": "Exécute ce sommet dramatique où la sauvagerie mythologique s'allie à une architecture antique théâtrale (Musée des Beaux-Arts de Rouen).",
+              "type": "artwork",
+              "artId": "moreau_diomede_devore_par_ses_chevaux_rouen_1865",
+              "icon": "🎨"
+            },
+            {
+              "year": "1876",
+              "title": "Salomé dansant & L'Apparition",
+              "desc": "Présente ses Salomé envoûtantes au Salon de 1876, créant l'archétype symboliste de la femme fatale ornée d'émaux et de joyaux incandescents.",
+              "type": "creation",
+              "icon": "✨"
+            },
+            {
+              "year": "1873 – 1876",
+              "title": "Salomé à la prison",
+              "desc": "Méditation silencieuse et crépusculaire dans les cachots de Macheronte, travaillée avec une préciosité d'orfèvre.",
+              "type": "artwork",
+              "artId": "moreau_salome_a_la_prison_1873_1876",
+              "icon": "🎨"
+            }
+          ]
+        },
+        {
+          "period": "1880 – 1898",
+          "label": "Maître vénéré, legs républicain et atelier visionnaire",
+          "color": "#4a6b82",
+          "events": [
+            {
+              "year": "1892",
+              "title": "Professeur légendaire à l'École des Beaux-Arts",
+              "desc": "Nommé chef d'atelier, il devient un pédagogue génial et vénéré, révélant la personnalité de futurs maîtres comme Matisse, Marquet et Rouault.",
+              "type": "teaching",
+              "icon": "🎓"
+            },
+            {
+              "year": "1895",
+              "title": "Jupiter et Sémélé",
+              "desc": "Achève son grand testament mystique où le divin et la matière se fondent dans une apothéose d'or et de lumière cosmique.",
+              "type": "creation",
+              "icon": "⚡"
+            },
+            {
+              "year": "1898",
+              "title": "Mort et donation du Musée Gustave Moreau",
+              "desc": "S'éteint à Paris en léguant à l'État français son hôtel particulier de la rue de La Rochefoucauld avec toutes ses œuvres, devenu l'actuel musée national.",
+              "type": "death",
+              "icon": "🏛️"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "morisot": {
+    "id": "morisot",
+    "name": "Morisot Berthe",
+    "sortName": "Morisot Berthe",
+    "sortLetter": "M",
+    "dates": "1841 – 1895",
+    "movement": "Impressionnisme (Figure fondatrice & pionnière)",
+    "nationality": "Française (Bourges, Paris)",
+    "techniques": "Huile sur toile, pastel, aquarelle, touche fragmentée et tourbillonnante en virgules libres, intégration du blanc du support, dissolution des contours",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczPIdvQEOdmroS6L_ur3h3p0ZmLkZBNBHRm5ZlpYNYGoHKH8ha_imNPHsSz8mlyH-MjUes2K9COFo2JZJKkRV50ZfcyTECd2b8DJZbbclrTbEvztYYi8gA9EW2z2DxEnbVeBHWFHBDRQ5luoQXGCcpgioQ=w1877-h796-s-no-gm?authuser=0",
+    "portraitImg": "",
+    "bio": `
+      <p><strong>Figure centrale et pionnière fondatrice de l'Impressionnisme</strong><br>
+      Berthe Morisot (1841 – 1895) est l'une des figures centrales et fondatrices du mouvement impressionniste. Issue d'une famille de la haute bourgeoisie, elle a dû braver les conventions sociales de son époque pour s'imposer comme une artiste professionnelle dans un monde masculin. Membre active du groupe des « Indépendants » dès sa création en 1874, elle expose à presque toutes leurs manifestations. Sa proximité avec Édouard Manet, dont elle devient la belle-sœur, nourrit une influence artistique mutuelle, bien qu'elle ait su préserver une voix et une esthétique profondément originales.</p>
+      <p><strong>Intimité domestique, touches tourbillonnantes et fugacité lumineuse</strong><br>
+      Son genre pictural se concentre principalement sur les scènes de la vie privée, l'intimité domestique et les paysages, qu'elle traite avec une délicatesse qui ne sacrifie jamais la force du trait. Elle excelle à capturer des moments suspendus : une femme à sa toilette, un enfant au jardin ou une lecture au bord de l'eau. Son style se caractérise par une touche extrêmement libre, rapide et fragmentée, qui semble parfois laisser l'œuvre à l'état d'ébauche. Cette audace technique lui permet de traduire avec une justesse rare la fugacité de la lumière et la vibration de l'atmosphère, faisant d'elle l'une des interprètes les plus radicales des principes impressionnistes.</p>
+      <p><strong>Du réalisme poétique vers la vibration pure des formes</strong><br>
+      L'évolution de son art marque un passage progressif d'un réalisme influencé par Corot vers une dissolution de plus en plus marquée des formes. Au fil des années, sa palette s'éclaircit et ses coups de pinceau deviennent plus larges et tourbillonnants, intégrant souvent le blanc du support comme une source de lumière en soi. Vers la fin de sa vie, son travail gagne en fluidité, presque jusqu'à l'abstraction, préfigurant certaines recherches de l'art moderne. Malgré sa disparition précoce, elle laisse derrière elle une œuvre qui a su transformer la représentation du quotidien féminin en une exploration poétique de la modernité et de la sensation pure.</p>
+    `,
+    "catalogInfo": {
+      "scientificCorpus": "423 œuvres répertoriées",
+      "totalEstimated": "423 peintures à l'huile",
+      "historicalContext": "L'inventaire scientifique de référence mondiale est le Catalogue raisonné de l'œuvre peint établi en 1997 par Alain Clairet, Delphine Montalant et Yves Rouart (qui vient actualiser et compléter l'historique catalogue Bataille-Wildenstein de 1961). En excluant strictement son œuvre graphique sur papier, ce travail d'une précision clinique fixe aujourd'hui le corpus officiel des peintures (huiles sur toile et sur panneau) de Berthe Morisot à très exactement 423 œuvres."
+    },
+    "timeline": {
+      "title": "Repères biographiques & Jalons créateurs",
+      "periods": [
+        {
+          "period": "1841 – 1873",
+          "label": "Jeunesse bourgeoise, enseignement de Corot et rencontre avec Manet",
+          "color": "#c5a059",
+          "events": [
+            {
+              "year": "1841",
+              "title": "Naissance à Bourges",
+              "desc": "Issue d'une famille cultivée et aisée, arrière-petite-nièce de Fragonard, elle reçoit avec ses sœurs une éducation artistique d'élite.",
+              "type": "life",
+              "icon": "🌱"
+            },
+            {
+              "year": "1861",
+              "title": "L'enseignement en plein air de Camille Corot",
+              "desc": "Corot l'initie au paysage sur le motif et au sens des valeurs de lumière argentée qui imprègnera pour toujours ses arrière-plans champêtres.",
+              "type": "education",
+              "icon": "🌳"
+            },
+            {
+              "year": "1868",
+              "title": "Rencontre avec Édouard Manet au Louvre",
+              "desc": "Rencontre décisive qui débouche sur une émulation artistique réciproque. Elle pose pour le célèbre tableau Le Balcon au Salon de 1869.",
+              "type": "encounter",
+              "icon": "🤝"
+            },
+            {
+              "year": "1872",
+              "title": "Le Berceau",
+              "desc": "Chef-d'œuvre de tendresse maternelle où le voile transparent du berceau annonce son génie pour les matières diaphanes (Musée d'Orsay).",
+              "type": "creation",
+              "icon": "👶"
+            }
+          ]
+        },
+        {
+          "period": "1874 – 1886",
+          "label": "Le groupe des Impressionnistes, mariage avec Eugène Manet et apogée",
+          "color": "#4a6b82",
+          "events": [
+            {
+              "year": "1874",
+              "title": "Première exposition impressionniste chez Nadar",
+              "desc": "Seule femme à participer à la fondation du groupe des Indépendants en refusant le Salon officiel, affirmant un courage plastique total.",
+              "type": "exhibition",
+              "icon": "🖼️"
+            },
+            {
+              "year": "1874",
+              "title": "Mariage avec Eugène Manet",
+              "desc": "Épouse Eugène Manet, frère du peintre, qui sera son plus fervent soutien logistique et artistique tout au long de sa carrière.",
+              "type": "life",
+              "icon": "💍"
+            },
+            {
+              "year": "1878",
+              "title": "Naissance de sa fille Julie Manet",
+              "desc": "La venue au monde de Julie lui inspire d'innombrables toiles intimistes décrivant l'enfance, le jeu et l'éveil sensible au jardin.",
+              "type": "family",
+              "icon": "👧"
+            },
+            {
+              "year": "1879",
+              "title": "Jeune femme assise devant la fenêtre (L'Été)",
+              "desc": "Virtuosité fulgurante de la touche tourbillonnante et jeux de lumière filtrée présentés à la 5e exposition impressionniste (Musée Fabre).",
+              "type": "artwork",
+              "artId": "morisot_jeune_femme_assise_devant_la_fenetre_lete_montpellier_1879",
+              "icon": "🎨"
+            }
+          ]
+        },
+        {
+          "period": "1887 – 1895",
+          "label": "Maturité lyrique, fidélité aux Indépendants et disparition précoce",
+          "color": "#8a6d3b",
+          "events": [
+            {
+              "year": "1886",
+              "title": "Dernière exposition collective impressionniste",
+              "desc": "Participe activement à la 8e et dernière manifestation historique du groupe, dont elle a été l'un des piliers les plus constants.",
+              "type": "exhibition",
+              "icon": "⭐"
+            },
+            {
+              "year": "1892",
+              "title": "Première grande exposition personnelle chez Boussod et Valadon",
+              "desc": "Organisée par Stéphane Mallarmé et ses amis peintres, cette rétrospective consacre son statut de maître incontesté de la modernité.",
+              "type": "milestone",
+              "icon": "🏆"
+            },
+            {
+              "year": "1895",
+              "title": "Mort prématurée à Paris",
+              "desc": "Succombe à une pneumonie en soignant sa fille Julie. Sa tombe au cimetière de Passy porte la sobre mention 'Berthe Morisot, veuve d'Eugène Manet'.",
+              "type": "death",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "munch": {
+    "id": "munch",
+    "name": "Munch Edvard",
+    "sortName": "Munch Edvard",
+    "sortLetter": "M",
+    "dates": "1863 – 1944",
+    "movement": "Expressionnisme moderne (Père fondateur)",
+    "nationality": "Norvégienne (Løten, Christiania/Oslo, Berlin, Ekely)",
+    "techniques": "Huile, tempera, caséine et pastel sur toile ou carton, gravure sur bois et lithographie, surface picturale scarifiée et frottée, distorsion ondulante de l'espace, palette discordante et crépusculaire",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczPVWOwl-xj8vTeiW35f1vEOUw613Bu0sWBxHlrSBlEbMR2vZG5C4fBbHHEjf5YzW4WMGvQs9tWxkhTx14-Zbn6_u2aIvGK-rIPbFhHNZDsNKzjf7GnWRprA1-kI35wvgLArAi0ZEh-w0Y9_CbehYdcK_Q=w1877-h796-s-no-gm?authuser=0",
+    "portraitImg": "",
+    "bio": `
+      <p><strong>Figure fondatrice de l'expressionnisme moderne et explorateur des abîmes de l'âme</strong><br>
+      Edvard Munch (1863 – 1944) est la figure fondatrice de l'expressionnisme moderne et l'un des artistes les plus influents de l'histoire occidentale. Hanté dès son enfance par la maladie, la folie et la mort qui décimèrent sa famille, ce peintre norvégien a transformé ses angoisses existentielles, la jalousie et la solitude en un langage pictural incandescent. Il a rompu avec l'imitation de la réalité extérieure pour donner forme aux traumatismes intérieurs de la psyché humaine, concevant l'art comme une confession nécessaire et cathartique.</p>
+      <p><strong>Lignes sinueuses, cadrages oppressants et palettes discordantes</strong><br>
+      Son genre pictural se définit par le portrait psychologique, la scène de drame intime, le paysage d'état d'âme (<em>stimmungslandschaft</em>) et la peinture allégorique et monumentale. Son style se caractérise par des lignes sinueuses et ondulantes qui distordent l'espace, une simplification radicale des figures réduites à des silhouettes spectrales, des cadrages oppressants et une palette discordante, saturée de rouges sang, d'ocres acides, de bleus nocturnes et de noirs profonds.</p>
+      <p><strong>De la bohème scandinave à la Frise de la Vie et à l'apaisement d'Ekely</strong><br>
+      L'évolution de son style marque un passage de la bohème naturaliste vers le symbolisme angoissé, avant un apaisement lumineux et monumental :<br>
+      • <em>Les débuts réalistes et le scandale de la maladie (années 1880) :</em> Formé à Christiania (Oslo) dans le cercle de la bohème naturaliste, il choque la critique dès 1886 avec <em>L'Enfant malade</em>, inspiré de la mort précoce de sa sœur Sophie. La surface picturale grattée, lacérée et frottée traduit la douleur physique et le deuil avec une intensité émotionnelle inédite pour l'époque.<br>
+      • <em>Le choc parisien, Berlin et la Frise de la Vie (années 1890 – 1908) :</em> Après avoir découvert Gauguin, Van Gogh et Toulouse-Lautrec à Paris, il s'installe à Berlin où son exposition de 1892 fait scandale. Il élabore son grand cycle thématique, la <em>Frise de la Vie</em>, méditation universelle sur l'amour, l'angoisse et la mort. C'est la période de ses chefs-d'œuvre absolus : <em>Le Cri</em> (1893), <em>Madone</em>, <em>Vampire</em>, <em>Le Sommeil</em> et <em>Mélancolie</em>, où la nature entière semble entrer en résonance avec la terreur psychologique de l'individu.<br>
+      • <em>La crise nerveuse, le retour en Norvège et la lumière (après 1909) :</em> Après une grave crise dépressive soignée à Copenhague en 1908, il rentre définitivement en Norvège et s'installe à Ekely. Son style s'apaise : sa touche devient plus fluide et énergique, sa palette s'éclaircit sous la lumière nordique (fresques de l'Aula de l'université d'Oslo avec <em>Le Soleil</em>). Il continue jusqu'à sa mort d'explorer le passage du temps à travers une poignante série d'autoportraits vieillissants.</p>
+    `,
+    "catalogInfo": {
+      "scientificCorpus": "1 789 œuvres répertoriées",
+      "totalEstimated": "1 789 peintures officielles",
+      "historicalContext": "L'inventaire scientifique absolu et définitif est le Catalogue Raisonné de ses peintures, publié en 2008 en quatre volumes monumentaux par l'historienne de l'art norvégienne Gerd Woll (ancienne conservatrice du musée Munch). En purgeant le catalogue de ses estampes, de ses dessins et de ses très nombreuses photographies expérimentales, ce travail d'une exhaustivité clinique fixe le corpus officiel de ses peintures (huiles, tempera et pastels sur toile ou carton assimilés à des tableaux) à très exactement 1 789 œuvres."
+    },
+    "timeline": {
+      "title": "Repères biographiques & Jalons créateurs",
+      "periods": [
+        {
+          "period": "1863 – 1889",
+          "label": "Jeunesse tragique, bohème de Christiania et L'Enfant malade",
+          "color": "#c5a059",
+          "events": [
+            {
+              "year": "1863",
+              "title": "Naissance à Løten",
+              "desc": "Fils d'un médecin militaire pieux et tourmenté. La mort de sa mère (1868) puis de sa sœur chérie Sophie (1877) de la tuberculose le marque à jamais.",
+              "type": "life",
+              "icon": "🌱"
+            },
+            {
+              "year": "1881",
+              "title": "École Royale de Dessin de Christiania",
+              "desc": "Rejoint les cours de sculpture et peinture sous l'égide de Christian Krohg, s'intégrant au milieu littéraire radical de la Bohème de Hans Jæger.",
+              "type": "education",
+              "icon": "🎨"
+            },
+            {
+              "year": "1886",
+              "title": "Le scandale de L'Enfant malade",
+              "desc": "Expose cette toile poignante à la touche lacérée et frottée qui indigne les partisans du réalisme académique mais consacre son génie expressif.",
+              "type": "creation",
+              "icon": "⚡"
+            },
+            {
+              "year": "1889",
+              "title": "Manifeste de Saint-Cloud & Bourse d'études à Paris",
+              "desc": "Rédige son célèbre journal : 'On ne doit plus peindre d'intérieurs avec des gens qui lisent et des femmes qui tricotent. On doit peindre des êtres vivants qui respirent, sentent, souffrent et aiment.'",
+              "type": "milestone",
+              "icon": "📜"
+            }
+          ]
+        },
+        {
+          "period": "1890 – 1908",
+          "label": "L'Affaire Munch à Berlin, La Frise de la Vie et Le Cri",
+          "color": "#8a6d3b",
+          "events": [
+            {
+              "year": "1892",
+              "title": "Le scandale de l'exposition de Berlin",
+              "desc": "Son exposition est fermée de force au bout d'une semaine par l'Académie prussienne, provoquant une scission historique qui donne naissance à la Sécession berlinoise.",
+              "type": "scandal",
+              "icon": "💥"
+            },
+            {
+              "year": "1893",
+              "title": "Le Cri (Skrik)",
+              "desc": "Crée le chef-d'œuvre iconique de la terreur existentielle moderne, où le ciel rouge sang et le fjord ondulant font écho au hurlement infini de la nature.",
+              "type": "creation",
+              "icon": "😱"
+            },
+            {
+              "year": "1894 – 1895",
+              "title": "Madone & Vampire",
+              "desc": "Développe son cycle universel de l'amour vénéneux, de la maternité tragique et de l'emprise féminine au sein du cercle du 'Pourceau Noir' à Berlin avec Strindberg.",
+              "type": "creation",
+              "icon": "🖤"
+            },
+            {
+              "year": "1902",
+              "title": "Présentation intégrale de La Frise de la Vie",
+              "desc": "Expose à la Sécession de Berlin son ensemble monumental de 22 toiles structurées autour du Réveil de l'Amour, de l'Angoisse et de la Mort.",
+              "type": "exhibition",
+              "icon": "🏛️"
+            }
+          ]
+        },
+        {
+          "period": "1909 – 1944",
+          "label": "Renaissance à Ekely, L'Aula d'Oslo et résistance silencieuse",
+          "color": "#4a6b82",
+          "events": [
+            {
+              "year": "1908 – 1909",
+              "title": "Cure à Copenhague et retour en Norvège",
+              "desc": "Après un effondrement psychique et alcoolique soigné chez le Dr Jacobson, il retrouve la sérénité et réoriente sa palette vers la lumière vive.",
+              "type": "life",
+              "icon": "🌿"
+            },
+            {
+              "year": "1916",
+              "title": "Inauguration des fresques de l'Aula de l'Université d'Oslo",
+              "desc": "Achève la monumentale fresque du Soleil irradiant et de L'Histoire, glorifiant l'énergie vitale et la transmission intellectuelle.",
+              "type": "creation",
+              "icon": "☀️"
+            },
+            {
+              "year": "1937",
+              "title": "Condamnation comme 'Art dégénéré' par les nazis",
+              "desc": "82 de ses toiles sont confisquées dans les musées allemands par le régime hitlérien, mais il refuse toute collaboration lors de l'occupation de la Norvège.",
+              "type": "history",
+              "icon": "🛡️"
+            },
+            {
+              "year": "1944",
+              "title": "Mort à Ekely et legs universel à la ville d'Oslo",
+              "desc": "S'éteint paisiblement dans sa propriété d'Ekely, léguant à la municipalité d'Oslo la totalité de sa collection personnelle (plus de 1 000 peintures et 15 000 gravures), fondant le Musée Munch.",
+              "type": "death",
+              "icon": "🏛️"
+            }
+          ]
+        }
+      ]
+    }
   }
 });
 
@@ -6363,3 +6756,7 @@ window.ARTISTS_REGISTRY["amedeo_modigliani"] = window.ARTISTS_REGISTRY["modiglia
 window.ARTISTS_REGISTRY["piet_mondrian"] = window.ARTISTS_REGISTRY["mondrian"];
 
 window.ARTISTS_REGISTRY["claude_monet"] = window.ARTISTS_REGISTRY["monet"];
+
+window.ARTISTS_REGISTRY["gustave_moreau"] = window.ARTISTS_REGISTRY["moreau"];
+window.ARTISTS_REGISTRY["berthe_morisot"] = window.ARTISTS_REGISTRY["morisot"];
+window.ARTISTS_REGISTRY["edvard_munch"] = window.ARTISTS_REGISTRY["munch"];

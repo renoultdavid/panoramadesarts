@@ -7,6 +7,172 @@
 
 window.ART_OBJECTS = [
 {
+  "id": "moreau_diomede_devore_par_ses_chevaux_rouen_1865",
+  "artistId": "moreau",
+  "artist": "Moreau Gustave",
+  "artistSort": "Moreau Gustave",
+  "civId": "occident",
+  "periodId": "occ_xix",
+  "civName": "Occident chrétien & moderne",
+  "civilization": "France",
+  "subpart": "La période classique et le succès (années 1860)",
+  "title": "Diomède dévoré par ses chevaux",
+  "date": "1865",
+  "dateDisplay": "1865",
+  "century": "XIXe siècle",
+  "centuryDisplay": "XIXe s. (1865)",
+  "centuryNumeric": 1865,
+  "period": "Symbolisme français & Mythes antiques",
+  "domain": "peinture",
+  "type": "Huile sur toile",
+  "artifactType": "Peinture d'histoire mythologique",
+  "category": "peinture",
+  "medium": "Huile sur toile",
+  "dimensions": {
+    "h": 138.5,
+    "w": 96.5,
+    "display": "138,5 × 96,5 cm"
+  },
+  "location": "Musée des Beaux-Arts, Rouen",
+  "currentLocation": "Musée des Beaux-Arts (Rouen, France)",
+  "site": "Musée des Beaux-Arts (Rouen, France)",
+  "originSite": "Paris (France)",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczM6bId5fntudc-eNvu7tM5v2Swy0fGEa14hkE4E2P1qL1ySRUSdZ3Cb5ornJTrmmg-9yd5LCJOsP2v0j55oLDPPl4CsD5DFWITo_j2VqaHALZrFuHSii8ljtcRel2eUYHTCs_8P4soWyaA5-g7hn5WRXw=w1688-h2416-s-no-gm?authuser=0",
+  "chips": [
+    "1865",
+    "XIXe siècle",
+    "Gustave Moreau",
+    "Diomède",
+    "Chevaux",
+    "Rouen",
+    "Symbolisme",
+    "Mythologie"
+  ],
+  "tags": [
+    "Symbolisme",
+    "Mythologie grecque",
+    "Hercule",
+    "Chevaux de Diomède",
+    "Musée des Beaux-Arts de Rouen",
+    "Supplice"
+  ],
+  "themes": [
+    "mythologie_legendes",
+    "animaux_bestiaire"
+  ],
+  "narrative": "<p>Cette huile sur toile, conservée au Musée des Beaux-Arts de Rouen, constitue l'une des œuvres les plus emblématiques de Gustave Moreau. Elle illustre l'un des Douze Travaux d'Hercule, précisément le moment où le héros punit le tyran de Thrace, Diomède. Ce dernier avait pour coutume de nourrir ses chevaux de chair humaine. En représailles, Hercule livre le roi à ses propres bêtes. L'œuvre frappe par sa verticalité oppressante et son atmosphère dramatique, typique du symbolisme naissant où la cruauté mythologique se mêle à une esthétique du détail presque byzantine.</p><p>La composition est dominée par une architecture antique monumentale et délabrée qui semble emprisonner la scène. À gauche, un mur de pierre sombre et massif s'élève sur toute la hauteur du tableau, plongeant une partie de l'arène dans une ombre inquiétante. Au second plan, une galerie à colonnes corinthiennes et des arcades en ruines suggèrent la splendeur passée d'un palais devenu un lieu de supplice. Un personnage solitaire, probablement Hercule lui-même, est assis avec détachement sur un entablement élevé, observant froidement l'exécution de sa sentence depuis les hauteurs, ce qui accentue l'isolement tragique de la victime.</p><p>Au premier plan, le chaos éclate dans une lumière crue. Trois chevaux à la musculature puissante et aux yeux exorbités se jettent sur Diomède avec une sauvagerie effrayante. Le cheval blanc au centre, cabré, saisit le bras du roi dans sa mâchoire, tandis que les autres bêtes s'agglutinent pour déchiqueter leur maître. La posture de Diomède est une étude de l'agonie : son corps dénudé est projeté vers l'arrière, les bras levés dans un geste de défense inutile, soulignant sa vulnérabilité totale face à la force brute qu'il a lui-même déchaînée.</p><p>La palette chromatique joue sur des contrastes saisissants entre les tons terreux des pierres, le blanc spectral du cheval principal et l'éclat rubis des étoffes et du sang. La technique de Moreau, caractérisée par une touche vibrante et l'utilisation de grattages ou d'empâtements, donne à la surface une qualité de joyau précieux malgré l'horreur du sujet. On aperçoit au sol, dans le coin inférieur droit, des restes humains et des cadavres, témoignages silencieux des victimes précédentes de Diomède, bouclant ainsi le cycle de la violence par une justice poétique et barbare.</p>"
+},
+{
+  "id": "moreau_salome_a_la_prison_1873_1876",
+  "artistId": "moreau",
+  "artist": "Moreau Gustave",
+  "artistSort": "Moreau Gustave",
+  "civId": "occident",
+  "periodId": "occ_xix",
+  "civName": "Occident chrétien & moderne",
+  "civilization": "France",
+  "subpart": "L'exploration des mythes et de la Femme (années 1870)",
+  "title": "Salomé à la prison",
+  "date": "1873 – 1876",
+  "dateDisplay": "1873 – 1876",
+  "century": "XIXe siècle",
+  "centuryDisplay": "XIXe s. (1873–1876)",
+  "centuryNumeric": 1873,
+  "period": "Symbolisme français & Visions sacrées",
+  "domain": "peinture",
+  "type": "Huile sur toile",
+  "artifactType": "Peinture biblique & allégorie symboliste",
+  "category": "peinture",
+  "medium": "Huile sur toile",
+  "dimensions": {
+    "h": 40,
+    "w": 32,
+    "display": "40 × 32 cm"
+  },
+  "location": "Collection particulière / Musée Gustave Moreau",
+  "currentLocation": "Paris (France)",
+  "site": "Musée Gustave Moreau (Paris, France)",
+  "originSite": "Paris (France)",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczN4JtXNJb6Wlc7Hy2rgE8mikcB8sFgpR2TVxoqUWqMv_qjGQlF93d0tIYOsoBu4lmCnFJ43b8zRcnzY5RbRuDvhU8_B6R4Dv-PN-Z2kgzgE1mged0KdtasUdv2ibTZ4LhhKOLJ5FrvoBBVSdUrNhSyq8Q=w1877-h2264-s-no-gm?authuser=0",
+  "chips": [
+    "1873-1876",
+    "XIXe siècle",
+    "Gustave Moreau",
+    "Salomé",
+    "Saint Jean-Baptiste",
+    "Symbolisme",
+    "Précieux"
+  ],
+  "tags": [
+    "Symbolisme",
+    "Salomé",
+    "Saint Jean-Baptiste",
+    "Idole byzantine",
+    "Femme fatale",
+    "Orfèvrerie picturale"
+  ],
+  "themes": [
+    "sacre_religion",
+    "portraits_figures"
+  ],
+  "narrative": "<p>Au cœur des années 1870, Gustave Moreau fait de la figure biblique de Salomé le réceptacle privilégié de ses obsessions esthétiques et spirituelles. S'écartant de la mise en scène éclatante de la danse devant Hérode ou de la théâtralité sanglante du supplice, cette toile resserre l'action dans l'intimité claustrophobique et silencieuse des cachots du palais de Macheronte. La princesse se tient debout, adossée à un monumental pilier de pierre taillée qui barre la composition de toute sa hauteur, matérialisant l'atmosphère d'oppression et d'attente funèbre.</p><p>Salomé apparaît parée comme une idole byzantine hiératique. Sa silhouette élancée est enveloppée d'une robe somptueuse et lourde brodée d'or, d'émaux et de pierreries aux rehauts rouge rubis, vert émeraude et bleu nuit, surmontée d'un voile diaphane et d'un diadème étincelant. Portant une main gantée à son menton dans une attitude pensive et presque mélancolique, elle attend l'issue fatale, indifférente aux joyaux abandonnés à même le dallage sombre à ses pieds.</p><p>Dans l'échappée obscure sur la gauche, à l'entrée d'un corridor bas, saint Jean-Baptiste agenouillé et ceint d'un nimbe lumineux prie avant son exécution, surveillé par un garde vêtu d'une tunique écarlate. À droite, une arcade en plein cintre ouvre sur une salle souterraine baignée d'une lueur dorée et mystique, éclairée par une lampe votive suspendue au-dessus d'un escalier de pierre. La matière picturale, précieuse et travaillée à la manière d'un orfèvre, superpose des glacis transparents et des empâtements grattés, conférant à ce drame sacré la dimension d'un songe symboliste halluciné.</p>"
+},
+{
+  "id": "morisot_jeune_femme_assise_devant_la_fenetre_lete_montpellier_1879",
+  "artistId": "morisot",
+  "artist": "Morisot Berthe",
+  "artistSort": "Morisot Berthe",
+  "civId": "occident",
+  "periodId": "occ_xix",
+  "civName": "Occident chrétien & moderne",
+  "civilization": "France",
+  "subpart": "L'intimité domestique et la touche fragmentée",
+  "title": "Jeune femme assise devant la fenêtre, dit l'Été",
+  "date": "1879",
+  "dateDisplay": "1879",
+  "century": "XIXe siècle",
+  "centuryDisplay": "XIXe s. (1879)",
+  "centuryNumeric": 1879,
+  "period": "Impressionnisme",
+  "domain": "peinture",
+  "type": "Huile sur toile",
+  "artifactType": "Scène d'intimité féminine & portrait en intérieur",
+  "category": "peinture",
+  "medium": "Huile sur toile",
+  "dimensions": {
+    "h": 76,
+    "w": 61,
+    "display": "76 × 61 cm"
+  },
+  "location": "Musée Fabre, Montpellier",
+  "currentLocation": "Musée Fabre (Montpellier, France)",
+  "site": "Musée Fabre (Montpellier, France)",
+  "originSite": "Paris (France)",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczMoMUVytarghJfcBu8xOh8_rxMCdAtAlnKqk-qq-nAwYun0aKRy1cI59EmSfHmpOvU8YuNsEmyeFfEPi4PRdfc5OxLvNP4VwBpvXBqISzQQ9mCC58UdOlNAx7P5Z06C3BFy0BX2ZZhB083oLhAFFYvqOA=w1791-h2416-s-no-gm?authuser=0",
+  "chips": [
+    "1879",
+    "XIXe siècle",
+    "Berthe Morisot",
+    "L'Été",
+    "Fenêtre",
+    "Montpellier",
+    "Impressionnisme"
+  ],
+  "tags": [
+    "Impressionnisme",
+    "Femme à la fenêtre",
+    "Lumière estivale",
+    "Musée Fabre",
+    "Touche tourbillonnante",
+    "Intimité domestique"
+  ],
+  "themes": [
+    "portraits_figures",
+    "vie_quotidienne_genre"
+  ],
+  "narrative": "<p>Réalisée durant l'été 1879 et conservée au musée Fabre de Montpellier, cette huile sur toile de Berthe Morisot est une œuvre manifeste de l'impressionnisme qui capture l'instant fugace d'une matinée ensoleillée. Le tableau représente une jeune femme, probablement un modèle professionnel nommé Mademoiselle Pasquini, assise dans un intérieur baigné de lumière, le regard tourné vers le spectateur tandis que l'arrière-plan s'ouvre sur la verdure d'un jardin à travers une fenêtre ouverte. La composition se distingue par une touche d'une liberté exceptionnelle, où les coups de pinceau rapides et tourbillonnants semblent dissoudre les formes dans une vibration lumineuse, une technique qui vaudra à l'artiste d'être saluée par la critique pour son audace picturale. La palette, dominée par des blancs nacrés, des gris bleutés et des verts tendres, traduit avec subtilité les jeux de reflets et la sensation de chaleur estivale filtrée par les rideaux. Morisot explore ici le thème de prédilection des impressionnistes : la frontière entre l'espace privé de l'intérieur et le monde extérieur, traitée sans aucune hiérarchie entre le sujet humain et son environnement végétal. Présentée à la cinquième exposition impressionniste de 1880, l'œuvre témoigne de la maîtrise de l'artiste à saisir la « modernité » à travers une scène de la vie quotidienne, privilégiant l'émotion visuelle et la fluidité de l'air sur la précision du dessin classique.</p>"
+},
+{
   "id": "monet_nature_morte_faisan_rouen_1861",
   "artistId": "monet",
   "artist": "Monet Claude",
