@@ -6364,8 +6364,8 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       "title": "Repères biographiques & Jalons créateurs",
       "periods": [
         {
-          "period": "1826 – 1860",
-          "label": "Jeunesse, formation néoclassique et révélation italienne",
+          "years": "1826 – 1860",
+          "title": "Jeunesse, formation néoclassique et révélation italienne",
           "color": "#c5a059",
           "events": [
             {
@@ -6392,8 +6392,8 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
           ]
         },
         {
-          "period": "1864 – 1879",
-          "label": "Triomphes aux Salons, mythes tragiques et cycle de Salomé",
+          "years": "1864 – 1879",
+          "title": "Triomphes aux Salons, mythes tragiques et cycle de Salomé",
           "color": "#8a6d3b",
           "events": [
             {
@@ -6408,7 +6408,7 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
               "title": "Diomède dévoré par ses chevaux",
               "desc": "Exécute ce sommet dramatique où la sauvagerie mythologique s'allie à une architecture antique théâtrale (Musée des Beaux-Arts de Rouen).",
               "type": "artwork",
-              "artId": "moreau_diomede_devore_par_ses_chevaux_rouen_1865",
+              "artworkId": "moreau_diomede_devore_par_ses_chevaux_rouen_1865",
               "icon": "🎨"
             },
             {
@@ -6423,14 +6423,14 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
               "title": "Salomé à la prison",
               "desc": "Méditation silencieuse et crépusculaire dans les cachots de Macheronte, travaillée avec une préciosité d'orfèvre.",
               "type": "artwork",
-              "artId": "moreau_salome_a_la_prison_1873_1876",
+              "artworkId": "moreau_salome_a_la_prison_1873_1876",
               "icon": "🎨"
             }
           ]
         },
         {
-          "period": "1880 – 1898",
-          "label": "Maître vénéré, legs républicain et atelier visionnaire",
+          "years": "1880 – 1898",
+          "title": "Maître vénéré, legs républicain et atelier visionnaire",
           "color": "#4a6b82",
           "events": [
             {
@@ -6487,8 +6487,8 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       "title": "Repères biographiques & Jalons créateurs",
       "periods": [
         {
-          "period": "1841 – 1873",
-          "label": "Jeunesse bourgeoise, enseignement de Corot et rencontre avec Manet",
+          "years": "1841 – 1873",
+          "title": "Jeunesse bourgeoise, enseignement de Corot et rencontre avec Manet",
           "color": "#c5a059",
           "events": [
             {
@@ -6522,8 +6522,8 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
           ]
         },
         {
-          "period": "1874 – 1886",
-          "label": "Le groupe des Impressionnistes, mariage avec Eugène Manet et apogée",
+          "years": "1874 – 1886",
+          "title": "Le groupe des Impressionnistes, mariage avec Eugène Manet et apogée",
           "color": "#4a6b82",
           "events": [
             {
@@ -6552,14 +6552,14 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
               "title": "Jeune femme assise devant la fenêtre (L'Été)",
               "desc": "Virtuosité fulgurante de la touche tourbillonnante et jeux de lumière filtrée présentés à la 5e exposition impressionniste (Musée Fabre).",
               "type": "artwork",
-              "artId": "morisot_jeune_femme_assise_devant_la_fenetre_lete_montpellier_1879",
+              "artworkId": "morisot_jeune_femme_assise_devant_la_fenetre_lete_montpellier_1879",
               "icon": "🎨"
             }
           ]
         },
         {
-          "period": "1887 – 1895",
-          "label": "Maturité lyrique, fidélité aux Indépendants et disparition précoce",
+          "years": "1887 – 1895",
+          "title": "Maturité lyrique, fidélité aux Indépendants et disparition précoce",
           "color": "#8a6d3b",
           "events": [
             {
@@ -6619,8 +6619,8 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       "title": "Repères biographiques & Jalons créateurs",
       "periods": [
         {
-          "period": "1863 – 1889",
-          "label": "Jeunesse tragique, bohème de Christiania et L'Enfant malade",
+          "years": "1863 – 1889",
+          "title": "Jeunesse tragique, bohème de Christiania et L'Enfant malade",
           "color": "#c5a059",
           "events": [
             {
@@ -6654,8 +6654,8 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
           ]
         },
         {
-          "period": "1890 – 1908",
-          "label": "L'Affaire Munch à Berlin, La Frise de la Vie et Le Cri",
+          "years": "1890 – 1908",
+          "title": "L'Affaire Munch à Berlin, La Frise de la Vie et Le Cri",
           "color": "#8a6d3b",
           "events": [
             {
@@ -6689,8 +6689,8 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
           ]
         },
         {
-          "period": "1909 – 1944",
-          "label": "Renaissance à Ekely, L'Aula d'Oslo et résistance silencieuse",
+          "years": "1909 – 1944",
+          "title": "Renaissance à Ekely, L'Aula d'Oslo et résistance silencieuse",
           "color": "#4a6b82",
           "events": [
             {
@@ -6720,6 +6720,367 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
               "desc": "S'éteint paisiblement dans sa propriété d'Ekely, léguant à la municipalité d'Oslo la totalité de sa collection personnelle (plus de 1 000 peintures et 15 000 gravures), fondant le Musée Munch.",
               "type": "death",
               "icon": "🏛️"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "murillo": {
+    "id": "murillo",
+    "name": "Murillo Bartolomé Esteban",
+    "sortName": "Murillo Bartolomé Esteban",
+    "sortLetter": "M",
+    "dates": "1617 – 1682",
+    "movement": "Siècle d'or espagnol (Dernier grand maître sévillan)",
+    "nationality": "Espagnole (Séville)",
+    "techniques": "Huile sur toile, passaggio du ténébrisme au « style vaporeux » (estilo vaporoso), sfumato lumineux, glacis dorés, douceur des modelés, peinture de genre populaire et iconographie mariale",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczNovtoKOOSHj_BnSMuw0iTMNI3B4kk3ZgT1QW1DodctUSdixYnJOqSgIOI7o-nBYAUuV5YWC3UJlF0bx7CuWEJ8DtjS3JAZIaWeiR6_y3EXLRO0NIn5bGeZb6hM5vgMH5D8JWa8h3d7SRsXkN-iuw7K8Q=w1877-h796-s-no-gm?authuser=0",
+    "portraitImg": "",
+    "bio": `
+      <p><strong>Le maître de la grâce sévillane et du Siècle d'or espagnol</strong><br>
+      Bartolomé Esteban Murillo, né en 1617 et mort en 1682 à Séville, est le dernier grand maître du Siècle d'or espagnol. Contrairement à son aîné Zurbarán, dont le style était marqué par une austérité rigide, Murillo a su conquérir le public et l'Église par une approche plus humaine et accessible de la spiritualité. Fondateur et premier président de l'Académie de peinture de Séville, il a dominé la scène artistique de sa ville natale, devenant l'artiste espagnol le plus célèbre à l'étranger avant l'ascension de Velázquez, grâce à une œuvre qui allie douceur flamande et lumière vénitienne.</p>
+      <p><strong>Vierges vaporeuses et enfants de la rue</strong><br>
+      Son genre pictural se divise en deux versants majeurs : la peinture religieuse et la peinture de genre. Il est le peintre par excellence de l'Immaculée Conception, créant un type iconographique de la Vierge, jeune et gracieuse, qui deviendra le modèle absolu de la dévotion espagnole. Parallèlement, il a révolutionné la peinture de rue en représentant des enfants mendiants, des vendeurs de fruits et des scènes de la vie quotidienne avec un mélange de réalisme et de tendresse. Son style se caractérise par des compositions équilibrées, des visages d'une grande douceur et une touche qui devient, avec le temps, de plus en plus vaporeuse.</p>
+      <p><strong>De la rigueur ténébriste au style vaporeux (estilo vaporoso)</strong><br>
+      L'évolution de son style est marquée par une recherche constante de fluidité lumineuse, passant d'un certain naturalisme vers ce que les historiens de l'art appellent son « style vaporeux » (<em>estilo vaporoso</em>) :<br>
+      • <em>La période initiale et l'influence caravagesque (années 1640) :</em> Ses premières œuvres montrent des contours nets et des contrastes de lumière hérités du caravagisme et de Ribera, comme dans ses scènes d'enfants des rues où le réalisme se teinte d'une profonde humanité.<br>
+      • <em>La maturité et la fondation de l'Académie (années 1650 – 1660) :</em> Il s'en détache rapidement pour adopter une palette plus claire et des transitions chromatiques extrêmement fondues. Il conçoit d'immenses cycles dévotionnels pour les franciscains, les augustins et les capucins.<br>
+      • <em>L'apothéose vaporeuse (années 1670 – 1682) :</em> Les formes semblent se dissoudre dans une atmosphère dorée et éthérée, créant une impression de légèreté et de joie mystique. Ce passage de la précision tactile à l'effusion lumineuse a fait de lui l'un des précurseurs de la sensibilité rococo du XVIIIe siècle.</p>
+    `,
+    "catalogInfo": {
+      "scientificCorpus": "400 œuvres répertoriées",
+      "totalEstimated": "400 peintures autographes",
+      "historicalContext": "L'inventaire scientifique de référence mondiale absolue est le monumental Catálogo razonado de pinturas publié en 2010 par le grand spécialiste espagnol Enrique Valdivieso (qui vient moderniser et corriger l'ancien catalogue historique de Diego Angulo Íñiguez de 1981). En purgeant impitoyablement les répliques d'atelier et les tableaux autrefois qualifiés 'd'entourage', ce travail d'une exhaustivité clinique fixe le corpus des peintures autographes de Murillo à très exactement 400 œuvres."
+    },
+    "timeline": {
+      "title": "Repères biographiques & Jalons créateurs",
+      "periods": [
+        {
+          "years": "1617 – 1649",
+          "title": "Jeunesse sévillane, apprentissage chez Castillo et scènes de genre",
+          "color": "#c5a059",
+          "events": [
+            {
+              "year": "1617",
+              "title": "Naissance et baptême à Séville",
+              "desc": "Baptisé le 1er janvier 1618 en l'église Sainte-Marie-Madeleine de Séville. Orphelin précoce, il est élevé par sa sœur aînée et son beau-frère.",
+              "type": "life",
+              "icon": "🌱"
+            },
+            {
+              "year": "1633 – 1638",
+              "title": "Formation dans l'atelier de Juan del Castillo",
+              "desc": "Apprend les principes du maniérisme tardif et de la peinture florentine auprès de Castillo avant d'ouvrir son propre atelier indépendant à Séville.",
+              "type": "education",
+              "icon": "🎨"
+            },
+            {
+              "year": "1645",
+              "title": "Les Mangeurs de raisins et de melon",
+              "desc": "Chef-d'œuvre fondateur de la scène de genre populaire : réalisme cru des haillons et célébration lumineuse de la fraternité enfantine (Alte Pinakothek, Munich).",
+              "type": "artwork",
+              "artworkId": "murillo_les_mangeurs_de_raisins_et_de_melon_munich_1645",
+              "icon": "🍇"
+            },
+            {
+              "year": "1645 – 1646",
+              "title": "Cycle du cloître des Franciscains de Séville",
+              "desc": "Série de onze toiles (dont La Cuisine des anges) qui établit d'un coup sa réputation éclatante de nouveau prodige de la peinture sacrée.",
+              "type": "creation",
+              "icon": "✨"
+            }
+          ]
+        },
+        {
+          "years": "1650 – 1669",
+          "title": "Fondation de l'Académie de Séville et apogée dévotionnel",
+          "color": "#4a6b82",
+          "events": [
+            {
+              "year": "1660",
+              "title": "Fondation et présidence de l'Académie de peinture",
+              "desc": "Fonde avec Francisco de Herrera le Jeune la prestigieuse Académie de dessin de Séville dont il est élu tout premier président.",
+              "type": "milestone",
+              "icon": "🏛️"
+            },
+            {
+              "year": "1665",
+              "title": "Les Saintes Juste et Rufine",
+              "desc": "Étude enlevée et gracieuse pour le maître-autel des Capucins, protectrices légendaires de la Giralda de Séville (Tokyo, NMWA).",
+              "type": "artwork",
+              "artworkId": "murillo_les_saintes_juste_et_rufine_tokyo_1665",
+              "icon": "🎨"
+            },
+            {
+              "year": "1665 – 1669",
+              "title": "Le retable monumental des Capucins de Séville",
+              "desc": "Exécute plus de vingt chefs-d'œuvre pour l'église conventuelle des Capucins, affirmant sa suprématie absolue sur la scène andalouse.",
+              "type": "creation",
+              "icon": "👑"
+            }
+          ]
+        },
+        {
+          "years": "1670 – 1682",
+          "title": "L'Hôpital de la Charité, estilo vaporoso et mort à l'échafaudage",
+          "color": "#8a6d3b",
+          "events": [
+            {
+              "year": "1670 – 1674",
+              "title": "Cycle de l'Hôpital de la Charité (La Caridad)",
+              "desc": "Réalise pour Miguel Mañara les grandes allégories de la Miséricorde (Moïse faisant jaillir l'eau du rocher, Le Miracle des pains).",
+              "type": "creation",
+              "icon": "🕊️"
+            },
+            {
+              "year": "1680 – 1682",
+              "title": "Mariage mystique de Sainte Catherine",
+              "desc": "Sommet du style vaporeux (estilo vaporoso) où les formes divines s'unissent dans une effusion de lumière dorée et feutrée (Musée d'art ancien de Lisbonne).",
+              "type": "artwork",
+              "artworkId": "murillo_mariage_mystique_de_sainte_catherine_lisbonne_1680",
+              "icon": "💍"
+            },
+            {
+              "year": "1682",
+              "title": "Chute de l'échafaudage à Cadix et mort",
+              "desc": "Alors qu'il peint le retable des Capucins de Cadix, il fait une violente chute d'échafaudage. Rapatrié à Séville, il y meurt le 3 avril 1682.",
+              "type": "death",
+              "icon": "✝️"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "panini": {
+    "id": "panini",
+    "name": "Panini Giovanni Paolo",
+    "sortName": "Panini Giovanni Paolo",
+    "sortLetter": "P",
+    "dates": "1691 – 1765",
+    "movement": "Védutisme romain & Capriccio des Lumières",
+    "nationality": "Italienne (Plaisance, Rome)",
+    "techniques": "Huile sur toile, quadratura, scénographie théâtrale et perspective linéaire mathématique, lumière dorée romaine, animation de macchiette, galeries imaginaires",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczOUHV0lOOc2bmfhDLkFYyWBIac_is-rX9_q-ywJGSYOK-lMzjyBLFda4l9Feg7Mz4tbnHorCHRvR06FkUb80iTsAo9Uy43LZW1BggiidjGWReO8O7sdQHUoOEBnZtI8uUN_T7fmpaJQgRttPailu-NQLw=w1877-h796-s-no-gm?authuser=0",
+    "portraitImg": "",
+    "bio": `
+      <p><strong>Le maître absolu du védutisme romain et le peintre des ruines antiques</strong><br>
+      Giovanni Paolo Panini (ou Pannini, 1691 – 1765) est le maître incontesté du védutisme romain et de la peinture de ruines au XVIIIe siècle. Figure centrale de la vie artistique romaine des Lumières, professeur à l'Académie de France à Rome et membre de l'Académie de Saint-Luc, il est l'artiste qui a fixé pour l'aristocratie européenne du Grand Tour la mémoire visuelle, monumentale et festive de la Ville éternelle, exerçant une influence déterminante sur des créateurs comme Canaletto, Piranèse et Hubert Robert.</p>
+      <p><strong>Perspective scénographique, fêtes diplomatiques et capricci</strong><br>
+      Son genre pictural se définit par la veduta (vue urbaine topographique ou idéale), le capriccio (fantaisie architecturale combinant des ruines antiques éparses), la peinture de fête publique et de cérémonie papale et la galerie imaginaire de tableaux. Son style se caractérise par une maîtrise géométrique parfaite de la perspective linéaire héritée de sa formation de scénographe, une lumière claire et dorée typiquement romaine, un pinceau vif qui anime les compositions d'une multitude de petites silhouettes élégantes (<em>macchiette</em>), et un sens aigu de la mise en scène théâtrale.</p>
+      <p><strong>De la scénographie émilienne aux galeries encyclopédiques</strong><br>
+      L'évolution de son style marque un passage de la scénographie baroque vers la rigueur pré-néoclassique et le vertige encyclopédique :<br>
+      • <em>La formation émilienne et l'installation romaine (1711 – années 1720) :</em> Formé à Plaisance auprès des peintres de trompe-l'œil et de scénographie théâtrale (les Bibiena), il s'installe à Rome où il étudie auprès de Benedetto Luti. Il débute par des décors à fresque d'architectures feintes (quadratura) avant de se consacrer à la peinture de chevalet, attirant rapidement les mécènes français, notamment le cardinal de Polignac.<br>
+      • <em>L'apogée des fêtes diplomatiques et des vues de Rome (années 1730 – 1740) :</em> Devenu le peintre officiel des grands événements de la papauté et des ambassades (mariages princiers, réceptions d'ambassadeurs, cérémonies à la basilique Saint-Pierre), il peint des toiles foisonnantes où l'espace grandiose des places romaines sert d'écrin à une foule chamarrée. Parallèlement, il popularise le capriccio, associant sur une même toile le Colisée, le Panthéon et la statue de l'Hercule Farnèse dans une nature idéalisée.<br>
+      • <em>Les galeries encyclopédiques et la transmission (années 1750 – 1765) :</em> À la demande du duc de Choiseul, il réalise ses chefs-d'œuvre les plus virtuoses : de gigantesques galeries imaginaires tapissées de reproductions miniatures de ses propres toiles (Galerie de vues de la Rome antique et Galerie de vues de la Rome moderne). Enseignant à l'Académie de France à Rome, il forme toute une génération d'architectes et de peintres français, transmettant sa passion pour la poésie des ruines à son plus brillant élève, Hubert Robert.</p>
+    `,
+    "catalogInfo": {
+      "scientificCorpus": "Environ 500 œuvres répertoriées",
+      "totalEstimated": "500 peintures autographes",
+      "historicalContext": "L'inventaire scientifique absolu et définitif est le monumental Catalogue raisonné de l'historien de l'art Ferdinando Arisi (Gian Paolo Panini e i fasti della Roma del '700, 1986). En purgeant le catalogue des innombrables copies d'atelier, ce travail d'une précision clinique fixe le corpus officiel de ses peintures autographes (vedute, capricci et scènes de fêtes) à très exactement environ 500 œuvres (le catalogue s'arrêtant légèrement au-delà du numéro 500)."
+    },
+    "timeline": {
+      "title": "Repères biographiques & Jalons créateurs",
+      "periods": [
+        {
+          "years": "1691 – 1725",
+          "title": "Formation scénographique à Plaisance et débuts romains",
+          "color": "#c5a059",
+          "events": [
+            {
+              "year": "1691",
+              "title": "Naissance à Plaisance",
+              "desc": "Grandit dans le duché de Parme et Plaisance, s'initiant dès son jeune âge aux traités de perspective et au décor théâtral.",
+              "type": "life",
+              "icon": "🌱"
+            },
+            {
+              "year": "1711",
+              "title": "Installation à Rome & Atelier de Benedetto Luti",
+              "desc": "S'installe dans la Ville éternelle pour parfaire sa formation de peintre figuratif dans l'atelier réputé de Benedetto Luti.",
+              "type": "education",
+              "icon": "🏛️"
+            },
+            {
+              "year": "1719",
+              "title": "Admission à la Congregazione dei Virtuosi & Académie de Saint-Luc",
+              "desc": "Reçu à l'Académie de Saint-Luc, il se fait remarquer par les papes Clément XI et Innocent XIII pour ses décors en trompe-l'œil du palais du Quirinal.",
+              "type": "milestone",
+              "icon": "🏆"
+            }
+          ]
+        },
+        {
+          "years": "1726 – 1749",
+          "title": "Le peintre des fastes du Grand Tour et des fêtes papales",
+          "color": "#4a6b82",
+          "events": [
+            {
+              "year": "1729",
+              "title": "Fêtes pour la naissance du Dauphin de France",
+              "desc": "Le cardinal de Polignac lui commande la représentation grandiose des réjouissances et du feu d'artifice de la place Navone, immortalisée au Louvre.",
+              "type": "creation",
+              "icon": "🎆"
+            },
+            {
+              "year": "1732",
+              "title": "Professeur à l'Académie de France à Rome",
+              "desc": "Nommé professeur de perspective à l'Académie royale de France (au palais Mancini), il forme l'élite des pensionnaires architectes et peintres français.",
+              "type": "teaching",
+              "icon": "🎓"
+            },
+            {
+              "year": "1744",
+              "title": "Charles III visitant la basilique Saint-Pierre",
+              "desc": "Peint la venue solennelle du roi de Naples devant le pape Benoît XIV dans une nef somptueuse grouillante de carrosses et de dignitaires (Musée de Capodimonte).",
+              "type": "creation",
+              "icon": "👑"
+            }
+          ]
+        },
+        {
+          "years": "1750 – 1765",
+          "title": "Les Galeries encyclopédiques de Choiseul et postérité",
+          "color": "#8a6d3b",
+          "events": [
+            {
+              "year": "1754 – 1757",
+              "title": "Galeries de vues de la Rome antique et moderne",
+              "desc": "Exécute pour Étienne-François de Choiseul ses immenses galeries idéales tapissées de tableaux miniatures, sommet absolu de la veduta réflexive (Louvre / Met).",
+              "type": "masterpiece",
+              "icon": "🖼️"
+            },
+            {
+              "year": "1755",
+              "title": "Prince de l'Académie de Saint-Luc",
+              "desc": "Élu à la tête de la prestigieuse institution romaine, consacrant son statut de figure tutélaire des arts de la péninsule.",
+              "type": "milestone",
+              "icon": "⭐"
+            },
+            {
+              "year": "1765",
+              "title": "Mort à Rome et transmission à Hubert Robert",
+              "desc": "S'éteint à Rome le 21 octobre 1765. Son art de la ruine poétique est perpétué et magnifié par son disciple français le plus brillant, Hubert Robert.",
+              "type": "death",
+              "icon": "🏛️"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "parmigiano": {
+    "id": "parmigiano",
+    "name": "Parmigiano (Le Parmesan)",
+    "sortName": "Parmigiano (Le Parmesan)",
+    "sortLetter": "P",
+    "dates": "1503 – 1540",
+    "movement": "Maniérisme italien (Maître absolu de la grâce)",
+    "nationality": "Italienne (Parme, Rome, Bologne)",
+    "techniques": "Huile sur panneau et sur toile, fresque illusionniste (quadratura), eau-forte pionnière, figura serpentinata, élongation aristocratique des proportions, reflets métalliques et glacis nacrés",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczOaA0TKpYXOhkHJgEgkSbd7Ku-niepe1LrblXrz-rWWx6oPnzFYDJwJiN-dB_sVM3uq0Nw4vs2Qly9PthNn7Y5N2jowdQprtFxbY-YrfVsD85THKXtC8AeE7tIHImYLhk--WcY7Ge8EeJR71eSvDrFSXw=w1877-h796-s-no-gm?authuser=0",
+    "portraitImg": "",
+    "bio": `
+      <p><strong>L'icône du Maniérisme et l'alchimiste de la grâce aristocratique</strong><br>
+      Le Parmesan (Girolamo Francesco Maria Mazzola, dit Il Parmigianino, 1503 – 1540) est l'une des figures les plus brillantes et singulières du Maniérisme italien. Élevé à Parme dans le sillage de Corrège, puis confronté à Rome aux chefs-d'œuvre de Raphaël et de Michel-Ange, il s'est affranchi de l'idéal d'équilibre classique de la Haute Renaissance pour inventer une esthétique d'un raffinement aristocratique extrême, fondée sur l'élongation des formes, l'artifice élégant et une sensualité troublante.</p>
+      <p><strong>Figura serpentinata, portraits glacés et innovation de l'eau-forte</strong><br>
+      Son genre pictural se définit par le retable d'autel maniériste, le portrait aristocratique psychologique, le décor mythologique à fresque et l'eau-forte (dont il fut un pionnier majeur en Italie). Son style se caractérise par la célèbre ligne serpentine (<em>figura serpentinata</em>), des proportions volontairement étirées (cous allongés, doigts fuselés, silhouettes graciles), des drapés mouillés aux reflets métalliques ou nacrés, et un sens aigu de la perspective distordue.</p>
+      <p><strong>De l'illusionnisme optique à la Vierge au long cou et à l'alchimie</strong><br>
+      L'évolution de son style marque un passage de la grâce émilienne vers une stylisation intellectuelle et tourmentée :<br>
+      • <em>Les débuts parmesans et l'illusionnisme (jusqu'en 1524) :</em> Formé auprès de son oncle puis influencé par la douceur vaporeuse de Corrège, il démontre une virtuosité précoce avec les fresques du château de Fontanellato (<em>Histoire de Diane et Actéon</em>). Avant son départ pour Rome, il peint son stupéfiant <em>Autoportrait dans un miroir convexe</em> (1524), exploitant la déformation optique pour prouver sa maîtrise technique et conceptuelle au pape Clément VII.<br>
+      • <em>Le séjour romain et le traumatisme du Sac (1524 – 1527) :</em> À Rome, la critique le salue comme « l'âme de Raphaël réincarnée ». Il y peint <em>La Vision de saint Jérôme</em>, où les figures gagnent en monumentalité tout en affirmant des poses contournées et une tension nerveuse. La légende veut qu'il peignait cette toile avec une telle concentration que les soldats impériaux pénétrant dans son atelier lors du Sac de Rome en 1527 en furent pétrifiés d'admiration.<br>
+      • <em>Bologne, le retour à Parme et la quête alchimique (1527 – 1540) :</em> Réfugié à Bologne puis de retour à Parme, il réalise des portraits inoubliables (<em>Antea</em>) et commence son chef-d'œuvre ultime, <em>La Vierge au long cou</em>. Les figures y atteignent une perfection stylisée et glacée, avec un Enfant Jésus au sommeil prémonitoire et une mystérieuse colonne sans chapiteau. Ses dernières années sont assombries par une passion obsessionnelle pour l'alchimie, qui lui vaut des retards dans le décor de l'église de la Steccata, des poursuites judiciaires et une mort prématurée à seulement 37 ans.</p>
+    `,
+    "catalogInfo": {
+      "scientificCorpus": "50 à 60 œuvres répertoriées",
+      "totalEstimated": "50 à 60 peintures autographes",
+      "historicalContext": "L'inventaire scientifique de référence mondiale s'appuie sur le Catalogo completo dei dipinti établi par l'historien de l'art italien Mario Di Giampaolo (1991), magistralement complété par les monographies modernes de David Ekserdjian et Mary Vaccaro. En écartant son impressionnante production graphique (les centaines de dessins et d'estampes qui ont fait sa renommée à travers l'Europe) pour ne retenir que ses fresques, ses huiles sur panneau et sur toile, le consensus scientifique fixe le corpus de ses peintures autographes à environ 50 à 60 œuvres."
+    },
+    "timeline": {
+      "title": "Repères biographiques & Jalons créateurs",
+      "periods": [
+        {
+          "years": "1503 – 1523",
+          "title": "Jeunesse parmesane, sillage de Corrège et Fontanellato",
+          "color": "#c5a059",
+          "events": [
+            {
+              "year": "1503",
+              "title": "Naissance à Parme",
+              "desc": "Fils du peintre Filippo Mazzola. Orphelin à deux ans, il est élevé par ses oncles paternels Michele et Pier Ilario, peintres artisans modestes.",
+              "type": "life",
+              "icon": "🌱"
+            },
+            {
+              "year": "1521",
+              "title": "Émulation avec Corrège à San Giovanni Evangelista",
+              "desc": "Travaille aux chapelles latérales de l'église abbatiale pendant que Corrège peint la coupole, s'imprégnant de son sfumato et de son colorisme sensuel.",
+              "type": "education",
+              "icon": "🎨"
+            },
+            {
+              "year": "1523 – 1524",
+              "title": "Fresques de Fontanellato & Autoportrait au miroir convexe",
+              "desc": "Décore la chambrette de Diane et Actéon à la Rocca Sanvitale puis réalise son célèbre autoportrait déformé sur bois hémisphérique (Vienne, KHM).",
+              "type": "masterpiece",
+              "icon": "🪞"
+            }
+          ]
+        },
+        {
+          "years": "1524 – 1530",
+          "title": "Le séjour romain, le Sac de 1527 et le refuge bolonais",
+          "color": "#8a6d3b",
+          "events": [
+            {
+              "year": "1524",
+              "title": "Présentation au pape Clément VII à Rome",
+              "desc": "Offre au souverain pontife son Autoportrait au miroir convexe ; le pape et la cour médicis sont éblouis par cette audace conceptuelle.",
+              "type": "milestone",
+              "icon": "👑"
+            },
+            {
+              "year": "1527",
+              "title": "Le Sac de Rome & La Vision de saint Jérôme",
+              "desc": "Pendant le pillage sanguinaire de Rome par les troupes de Charles Quint, il achève impassible son retable avant d'être capturé puis libéré sous rançon.",
+              "type": "history",
+              "icon": "⚔️"
+            },
+            {
+              "year": "1527 – 1530",
+              "title": "Séjour fécond à Bologne & Révolution de l'eau-forte",
+              "desc": "Réfugié à Bologne, il peint la Vierge à la rose et expérimente intensivement la gravure à l'eau-forte, diffusant ses inventions dans toute l'Europe.",
+              "type": "creation",
+              "icon": "✒️"
+            }
+          ]
+        },
+        {
+          "years": "1531 – 1540",
+          "title": "Retour à Parme, La Vierge au long cou et dérive alchimique",
+          "color": "#4a6b82",
+          "events": [
+            {
+              "year": "1531",
+              "title": "Contrat colossal de la Madonna della Steccata",
+              "desc": "S'engage à peindre la voûte et l'abside de la basilique de la Steccata à Parme (Vierges sages et Vierges folles).",
+              "type": "creation",
+              "icon": "🏛️"
+            },
+            {
+              "year": "1534 – 1535",
+              "title": "La Vierge au long cou (Madonna dal collo lungo)",
+              "desc": "Commence son chef-d'œuvre absolu pour l'église des Servites de Parme, manifeste indépassable de l'élégance serpentine maniériste (Offices, Florence).",
+              "type": "masterpiece",
+              "icon": "⭐"
+            },
+            {
+              "year": "1539 – 1540",
+              "title": "Prison pour rupture de contrat, fuite et mort à 37 ans",
+              "desc": "Obsédé par la recherche de la pierre philosophale, il néglige la Steccata et est emprisonné. Réfugié à Casalmaggiore, il y meurt prématurément de fièvre à 37 ans.",
+              "type": "death",
+              "icon": "✝️"
             }
           ]
         }
@@ -6760,3 +7121,10 @@ window.ARTISTS_REGISTRY["claude_monet"] = window.ARTISTS_REGISTRY["monet"];
 window.ARTISTS_REGISTRY["gustave_moreau"] = window.ARTISTS_REGISTRY["moreau"];
 window.ARTISTS_REGISTRY["berthe_morisot"] = window.ARTISTS_REGISTRY["morisot"];
 window.ARTISTS_REGISTRY["edvard_munch"] = window.ARTISTS_REGISTRY["munch"];
+
+window.ARTISTS_REGISTRY["bartolome_esteban_murillo"] = window.ARTISTS_REGISTRY["murillo"];
+window.ARTISTS_REGISTRY["giovanni_paolo_panini"] = window.ARTISTS_REGISTRY["panini"];
+window.ARTISTS_REGISTRY["giovanni_paolo_pannini"] = window.ARTISTS_REGISTRY["panini"];
+window.ARTISTS_REGISTRY["pannini"] = window.ARTISTS_REGISTRY["panini"];
+window.ARTISTS_REGISTRY["parmigianino"] = window.ARTISTS_REGISTRY["parmigiano"];
+window.ARTISTS_REGISTRY["le_parmesan"] = window.ARTISTS_REGISTRY["parmigiano"];

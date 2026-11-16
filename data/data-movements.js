@@ -258,7 +258,7 @@ window.MOVEMENTS_DATA = {
         "dates": "1503 – 1540",
         "role": "Virtuose de la grâce allongée et de l'illusion",
         "desc": "La Vierge au long cou et Autoportrait au miroir convexe.",
-        "artistId": "",
+        "artistId": "parmigiano",
         "icon": "🪞"
       },
       {
@@ -341,6 +341,14 @@ window.MOVEMENTS_DATA = {
         "desc": "La Buveuse, Femme préparant des légumes, Joueurs de cartes.",
         "artistId": "de_hooch",
         "icon": "🚪"
+      },
+      {
+        "name": "Bartolomé Esteban Murillo",
+        "dates": "1617 – 1682",
+        "role": "Dernier grand maître du Siècle d'or espagnol et chantre du style vaporeux",
+        "desc": "Les Mangeurs de raisins et de melon, Les Saintes Juste et Rufine et Mariage mystique.",
+        "artistId": "murillo",
+        "icon": "✨"
       },
       {
         "name": "Georges de La Tour",
@@ -471,6 +479,14 @@ window.MOVEMENTS_DATA = {
         "desc": "La Raie, Le Buffet, Lièvre mort, Le Singe peintre et scènes intimistes.",
         "artistId": "chardin",
         "icon": "🍑"
+      },
+      {
+        "name": "Giovanni Paolo Panini",
+        "dates": "1691 – 1765",
+        "role": "Maître absolu du védutisme romain et des galeries imaginaires",
+        "desc": "Galeries de vues de la Rome antique et moderne, fêtes papales et capricci.",
+        "artistId": "panini",
+        "icon": "🏛️"
       }
     ]
   },

@@ -7,6 +7,172 @@
 
 window.ART_OBJECTS = [
 {
+  "id": "murillo_les_mangeurs_de_raisins_et_de_melon_munich_1645",
+  "artistId": "murillo",
+  "artist": "Murillo Bartolomé Esteban",
+  "artistSort": "Murillo Bartolomé Esteban",
+  "civId": "occident",
+  "periodId": "occ_xvii",
+  "civName": "Occident chrétien & moderne",
+  "civilization": "Espagne (Séville)",
+  "subpart": "Le naturalisme populaire et la peinture de genre sévillane",
+  "title": "Les Mangeurs de raisins et de melon",
+  "date": "1645",
+  "dateDisplay": "vers 1645",
+  "century": "XVIIe siècle",
+  "centuryDisplay": "XVIIe s. (vers 1645)",
+  "centuryNumeric": 1645,
+  "period": "Siècle d'or espagnol & Réalisme baroque",
+  "domain": "peinture",
+  "type": "Huile sur toile",
+  "artifactType": "Scène de genre / Vie quotidienne",
+  "category": "peinture",
+  "medium": "Huile sur toile",
+  "dimensions": {
+    "h": 145.9,
+    "w": 103.6,
+    "display": "145,9 × 103,6 cm"
+  },
+  "location": "Alte Pinakothek, Munich",
+  "currentLocation": "Alte Pinakothek (Munich, Allemagne)",
+  "site": "Alte Pinakothek (Munich, Allemagne)",
+  "originSite": "Séville (Espagne)",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczNdZ7ntHYIQ0y2MMn3GsfrWymjkKxlPALbWD6-DAguaqx8yHPLoh9wO8yklqm7LRTvYCJGLEjrrmtTtZkidM4tGIz5tX6w5DGzhjU_dxAm4I4PBC1LuIas1RTLGRS0J-iJhDXB56yiiqjpkCATidfzEqQ=w1611-h2416-s-no-gm?authuser=0",
+  "chips": [
+    "1645",
+    "XVIIe siècle",
+    "Bartolomé Esteban Murillo",
+    "Mangeurs de raisins",
+    "Alte Pinakothek",
+    "Munich",
+    "Siècle d'or espagnol",
+    "Enfance"
+  ],
+  "tags": [
+    "Siècle d'or espagnol",
+    "Scène de genre",
+    "Enfants mendiants",
+    "Alte Pinakothek",
+    "Clair-obscur",
+    "Séville"
+  ],
+  "themes": [
+    "scenes_de_genre",
+    "vie_quotidienne"
+  ],
+  "narrative": "<p>Cette œuvre emblématique de Bartolomé Esteban Murillo, conservée à l'Alte Pinakothek de Munich, est l'un des exemples les plus célèbres de la peinture de genre du Siècle d'or espagnol. Peinte vers 1645, elle illustre un tournant dans la carrière de l'artiste sévillan qui, parallèlement à ses grandes commandes religieuses, commence à représenter avec un naturalisme saisissant la vie quotidienne des rues de Séville. Loin de l'idéalisation, Murillo porte ici un regard à la fois cru et empreint d'humanité sur la précarité de l'enfance, transformant une scène de dénuement en un moment de plaisir partagé.</p><p>La composition met en scène deux jeunes garçons assis sur le sol, entourés d'un décor de ruines qui suggère la pauvreté de leur condition. L'un d'eux, à gauche, lève une grappe de raisins au-dessus de sa bouche dans un geste d'une grande spontanéité, tandis que son compagnon, à droite, entame un melon avec un couteau tout en gardant une bouchée dans sa joue. L'interaction entre les deux personnages est saisissante de naturel : le garçon de droite semble surveiller le partage ou simplement profiter de la compagnie de son ami. À leurs pieds, un panier rempli de raisins et les écorces de melon jetées au sol ancrent la scène dans une réalité matérielle immédiate.</p><p>Sur le plan technique, Murillo fait preuve d'une maîtrise exceptionnelle du clair-obscur, héritée de l'influence de Caravage et de Ribera. La lumière, venant de la gauche, frappe violemment les visages et les haillons des enfants, laissant l'arrière-plan dans une pénombre protectrice. Le rendu des textures est prodigieux : on peut presque sentir le velouté des grains de raisin, la pulpe juteuse du melon et la rugosité des tissus élimés. La palette, dominée par des tons terreux, des bruns et des ocres, est relevée par la luminosité des chairs et l'éclat des fruits, créant un contraste entre la misère sociale et la richesse sensorielle de la nature.</p><p>L'importance de ce tableau réside dans sa capacité à élever un sujet « bas » au rang de grande peinture. Pour les collectionneurs de l'époque, souvent étrangers et notamment flamands, ces scènes de rue représentaient une forme de réalisme pittoresque très prisée. Cependant, Murillo dépasse le simple constat social pour célébrer la dignité et la joie de vivre qui persistent malgré la pauvreté. Par sa tendresse et sa virtuosité, Les Mangeurs de raisins et de melon a durablement marqué l'iconographie de l'enfance en Europe, faisant de Murillo le peintre par excellence de la grâce populaire sévillane.</p>"
+},
+{
+  "id": "murillo_les_saintes_juste_et_rufine_tokyo_1665",
+  "artistId": "murillo",
+  "artist": "Murillo Bartolomé Esteban",
+  "artistSort": "Murillo Bartolomé Esteban",
+  "civId": "occident",
+  "periodId": "occ_xvii",
+  "civName": "Occident chrétien & moderne",
+  "civilization": "Espagne (Séville)",
+  "subpart": "Le grand décor sacré des Capucins de Séville",
+  "title": "Les Saintes Juste et Rufine",
+  "date": "1665",
+  "dateDisplay": "vers 1665",
+  "century": "XVIIe siècle",
+  "centuryDisplay": "XVIIe s. (vers 1665)",
+  "centuryNumeric": 1665,
+  "period": "Siècle d'or espagnol & Art sacré",
+  "domain": "peinture",
+  "type": "Huile sur toile",
+  "artifactType": "Esquisse peinte / Retable religieux",
+  "category": "peinture",
+  "medium": "Huile sur toile",
+  "dimensions": {
+    "h": 46.5,
+    "w": 36.5,
+    "display": "46,5 × 36,5 cm"
+  },
+  "location": "Musée national d'art occidental, Tokyo",
+  "currentLocation": "Musée national d'art occidental (Tokyo, Japon)",
+  "site": "Musée national d'art occidental (Tokyo, Japon)",
+  "originSite": "Séville (Espagne)",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczMd3Tb_A81hwZ3OVrEAP8Y6oLyMZEC8mXiPdatOBWlSeXhzaqqw3j1BVFKVhpMq32gBBI-1i7iukjqdWhgnjysaE3rf-61dT8VpxbMrDmGgqWUUHLWyCxergPTAfiwex_tfGZbJRCsrNpTutrhapstZ_g=w1877-h2394-s-no-gm?authuser=0",
+  "chips": [
+    "1665",
+    "XVIIe siècle",
+    "Bartolomé Esteban Murillo",
+    "Saintes Juste et Rufine",
+    "Giralda",
+    "Tokyo",
+    "Séville"
+  ],
+  "tags": [
+    "Art sacré",
+    "Sainte Juste",
+    "Sainte Rufine",
+    "Giralda de Séville",
+    "Martyres",
+    "Musée d'art occidental Tokyo"
+  ],
+  "themes": [
+    "sacre_religion",
+    "portraits_figures"
+  ],
+  "narrative": "<p>Cette esquisse peinte à la touche libre et enlevée constitue l'étude préparatoire directe pour le monumental retable destiné au couvent des Capucins de Séville, aujourd'hui conservé au musée des Beaux-Arts de Séville. Les deux saintes patronnes de la cité andalouse, martyrisées sous Dioclétien pour avoir refusé de sacrifier aux idoles païennes, sont représentées en pied, encadrant et soutenant la Giralda. Selon la tradition locale, leur intercession miraculeuse sauva le célèbre minaret devenu clocher de la cathédrale lors des violents tremblements de terre de 1504.</p><p>À gauche, sainte Juste se tient de face, le visage tourné vers le spectateur avec une douceur pensive, coiffée d'un voile clair. Elle est vêtue d'une robe aux reflets roses et mauves enveloppée d'un ample manteau ocre doré au drapé bouillonnant. À droite, sainte Rufine est montrée dans un léger mouvement de recul, la tête levée vers le ciel dans une prière fervente, drapée dans un lourd manteau pourpre posé sur une tunique émeraude et jaune. Toutes deux tiennent délicatement de la main extérieure une palme végétale, attribut incontournable de leur glorieux martyre, tandis que leurs mains intérieures maintiennent fermement la maquette architecturale de la tour.</p><p>Au sol, entre leurs pieds chaussés de sandales, reposent plusieurs vases et bols en terre cuite brisés ou ébréchés, rappelant leur modeste métier de potières dans le quartier de Triana ainsi que l'épisode où elles brisèrent l'effigie en argile de la déesse Salambo. Le fond sombre et vaporeux, brossé rapidement dans des tonalités bleu gris et terreuses, laisse deviner une atmosphère orageuse. Le style fluide, les contrastes adoucis et le fondu chromatique illustrent magistralement la maturité du peintre sévillan et sa maîtrise du clair-obscur atmosphérique.</p>"
+},
+{
+  "id": "murillo_mariage_mystique_de_sainte_catherine_lisbonne_1680",
+  "artistId": "murillo",
+  "artist": "Murillo Bartolomé Esteban",
+  "artistSort": "Murillo Bartolomé Esteban",
+  "civId": "occident",
+  "periodId": "occ_xvii",
+  "civName": "Occident chrétien & moderne",
+  "civilization": "Espagne (Séville)",
+  "subpart": "Le style vaporeux (estilo vaporoso) et la dévotion tardive",
+  "title": "Mariage mystique de Sainte Catherine",
+  "date": "1680 – 1682",
+  "dateDisplay": "vers 1680 – 1682",
+  "century": "XVIIe siècle",
+  "centuryDisplay": "XVIIe s. (vers 1680–1682)",
+  "centuryNumeric": 1680,
+  "period": "Siècle d'or espagnol & Style vaporeux",
+  "domain": "peinture",
+  "type": "Huile sur toile",
+  "artifactType": "Tableau de dévotion sacrée",
+  "category": "peinture",
+  "medium": "Huile sur toile",
+  "dimensions": {
+    "h": 74,
+    "w": 90,
+    "display": "74 × 90 cm"
+  },
+  "location": "Museu Nacional de Arte Antiga, Lisbonne",
+  "currentLocation": "Museu Nacional de Arte Antiga (Lisbonne, Portugal)",
+  "site": "Museu Nacional de Arte Antiga (Lisbonne, Portugal)",
+  "originSite": "Séville (Espagne)",
+  "imgSrc": "https://lh3.googleusercontent.com/d/1go2rv8i1W7MiS_iTwTX_oIRBP9efmYIV",
+  "chips": [
+    "1680-1682",
+    "XVIIe siècle",
+    "Bartolomé Esteban Murillo",
+    "Mariage mystique",
+    "Sainte Catherine",
+    "Lisbonne",
+    "Style vaporeux"
+  ],
+  "tags": [
+    "Style vaporeux",
+    "Sainte Catherine d'Alexandrie",
+    "Vierge à l'Enfant",
+    "Musée d'art ancien Lisbonne",
+    "Baroque espagnol",
+    "Dévotion"
+  ],
+  "themes": [
+    "sacre_religion",
+    "portraits_figures"
+  ],
+  "narrative": "<p>Cette huile sur toile, peinte vers 1680-1682, est l'une des dernières œuvres de Bartolomé Esteban Murillo, l'un des maîtres incontestés de l'âge d'or espagnol. Elle illustre un thème iconographique populaire dans la piété chrétienne, symbolisant l'union spirituelle indéfectible entre sainte Catherine d'Alexandrie et le Christ. La scène est imprégnée de cette « douceur » (le vaporoso) qui caractérise la manière tardive de l'artiste, où les contours s'estompent au profit d'une atmosphère lumineuse et sereine.</p><p>La composition pyramidale réunit trois figures baignées dans une lumière chaude et diffuse sur un fond sombre et sobre. À droite, la Vierge Marie, drapée dans un manteau bleu et une robe pourpre, soutient avec une grâce maternelle l'Enfant Jésus nu, assis sur ses genoux. À gauche, sainte Catherine est représentée comme une jeune femme noble, tenant une palme, symbole de son martyre. L'instant capturé est celui du dialogue silencieux et sacré : l'Enfant tend la main vers celle de la sainte pour y glisser l'anneau nuptial symbolique, tandis que les regards convergent vers ce point d'union avec une expression de dévotion calme et profonde.</p><p>Sur le plan technique, Murillo fait preuve d'une maîtrise exceptionnelle du clair-obscur, mais d'une manière moins dramatique que celle du Caravage, préférant des transitions délicates qui soulignent la tendresse de la chair et la fluidité des étoffes. Le rendu du voile transparent de la Vierge et des boucles blondes de l'Enfant témoigne de la virtuosité de son pinceau. Ce tableau n'est pas seulement une image religieuse de dévotion ; il incarne l'idéal esthétique du baroque espagnol tardif, où le divin est rendu accessible par une humanité familière, tendre et d'une grande beauté formelle.</p>"
+},
+{
   "id": "moreau_diomede_devore_par_ses_chevaux_rouen_1865",
   "artistId": "moreau",
   "artist": "Moreau Gustave",
