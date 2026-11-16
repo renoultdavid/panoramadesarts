@@ -21,7 +21,7 @@
     href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;900&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap"
     rel="stylesheet">
 
-  <link rel="stylesheet" href="style.css?v=7.3">
+  <link rel="stylesheet" href="style.css?v=7.4">
 
   <!-- Icônes pour l'application mobile et tablette -->
   <link rel="icon" type="image/jpeg" sizes="512x512" href="icon-512.jpeg">
@@ -69,15 +69,31 @@
   </header>
 
   <!-- =========================================================================
-       VUE 1 : LE HUB D'ACCUEIL À 2 VOLETS (PORTAIL PRINCIPAL)
+       VUE 1 : LE HUB D'ACCUEIL À 3 VOLETS (PORTAIL PRINCIPAL)
        ========================================================================= -->
   <section id="view-hub" class="spa-view active">
-    <!-- Volet Gauche : Moteur de Recherche -->
+    <!-- Volet 1 : Cabinet des Curiosités (Laissez-vous surprendre) -->
+    <div class="portal-panel panel-curiosities" data-open-view="view-curiosities">
+      <div class="portal-panel-bg bg-curiosities"></div>
+      <div class="portal-panel-content">
+        <span class="portal-badge">MODULE 01</span>
+        <h2 class="portal-title">Cabinet des Curiosités</h2>
+        <p class="portal-desc">Laissez-vous surprendre : quatuor aléatoire, face-à-face inattendu, loupe mystère, roulette temporelle et micro-galeries insolites.</p>
+        <button class="portal-cta-btn">
+          <span>Entrer dans le cabinet</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M5 12h14M12 5l7 7-7 7" />
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Volet 2 : Moteur de Recherche -->
     <div class="portal-panel panel-search" data-open-view="view-search">
       <div class="portal-panel-bg bg-search"></div>
       <div class="portal-panel-content">
-        <span class="portal-badge">MODULE 01</span>
-        <h2 class="portal-title">Moteur & Galerie d'Objets</h2>
+        <span class="portal-badge">MODULE 02</span>
+        <h2 class="portal-title">Moteur &amp; Galerie d'Objets</h2>
         <p class="portal-desc">Explorer par filtres multicritères : civilisation, siècle, typologie et recherche
           textuelle de l'ensemble des collections photographiées.</p>
         <button class="portal-cta-btn">
@@ -89,12 +105,12 @@
       </div>
     </div>
 
-    <!-- Volet Droit : Atlas & Frise Synchronique -->
+    <!-- Volet 3 : Atlas & Frise Synchronique -->
     <div class="portal-panel panel-timeline" data-open-view="view-timeline">
       <div class="portal-panel-bg bg-timeline"></div>
       <div class="portal-panel-content">
-        <span class="portal-badge">MODULE 02</span>
-        <h2 class="portal-title">Atlas & Frise Chronologique</h2>
+        <span class="portal-badge">MODULE 03</span>
+        <h2 class="portal-title">Atlas &amp; Frise Chronologique</h2>
         <p class="portal-desc">Navigation spatio-temporelle interactive : cartographie mondiale, synchronisme mondial et
           déploiement chronologique des foyers d'art.</p>
         <button class="portal-cta-btn">
@@ -104,6 +120,307 @@
           </svg>
         </button>
       </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       VUE 0 : CABINET DES CURIOSITÉS & SÉRENDIPITÉ (LAISSEZ-VOUS SURPRENDRE)
+       ========================================================================= -->
+  <section id="view-curiosities" class="spa-view" hidden>
+    <div class="curiosities-viewport">
+
+      <!-- EN-TÊTE & CONTRÔLES SUPÉRIEURS -->
+      <header class="curiosities-header">
+        <div class="curiosities-header-titles">
+          <div class="curiosities-badge-tag">✦ SÉRENDIPITÉ &amp; EXPLORATION ÉMERVEILLÉE ✦</div>
+          <h1 class="curiosities-main-title">Cabinet des Curiosités</h1>
+          <p class="curiosities-tagline">Voyages impromptus, analogies secrètes et découvertes fortuites à travers 5 000 ans d'histoire des arts.</p>
+        </div>
+
+        <div class="curiosities-controls-bar">
+          <!-- Indicateur de compte à rebours 10s -->
+          <div class="curiosities-timer-indicator" id="curiosities-timer-container" title="Renouvellement automatique toutes les 10 secondes">
+            <div class="timer-pie-wrap">
+              <svg class="timer-svg" viewBox="0 0 36 36">
+                <path class="timer-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                <path id="curiosities-timer-progress" class="timer-progress" stroke-dasharray="100, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+              </svg>
+              <span id="curiosities-timer-num" class="timer-num">10s</span>
+            </div>
+            <span class="timer-label" id="curiosities-timer-label">Auto-rotation</span>
+          </div>
+
+          <!-- Bouton Pause / Reprendre -->
+          <button type="button" class="btn-curio-ctrl" id="btn-curiosities-pause" title="Mettre en pause ou relancer la rotation">
+            <span class="ctrl-icon" id="curiosities-pause-icon">⏸</span>
+            <span class="ctrl-text" id="curiosities-pause-text">Pause</span>
+          </button>
+
+          <!-- Bouton Tout Relancer -->
+          <button type="button" class="btn-curio-ctrl btn-curio-primary" id="btn-curiosities-reroll-all" title="Renouveler immédiatement tous les modules">
+            <span class="ctrl-icon">🎲</span>
+            <span class="ctrl-text">Tout Relancer</span>
+          </button>
+
+          <!-- Bouton Retour au Hub -->
+          <button type="button" class="btn-curio-ctrl btn-curio-back" id="btn-curiosities-back-hub" title="Revenir au portail d'accueil">
+            <span class="ctrl-icon">↩</span>
+            <span class="ctrl-text">Portail</span>
+          </button>
+        </div>
+      </header>
+
+      <!-- MODULE 1 : LE QUATUOR ALÉATOIRE TOURNANT -->
+      <section class="curiosities-section">
+        <div class="section-title-row">
+          <div class="section-heading">
+            <span class="sec-badge">MODULE INTERACTIF 01</span>
+            <h2 class="sec-title">Le Quatuor Aléatoire Tournant</h2>
+            <p class="sec-desc">Quatre regards simultanés sur la collection, renouvelés automatiquement toutes les 10 secondes ou au clic individuel.</p>
+          </div>
+        </div>
+
+        <div class="curio-quartet-grid" id="curio-quartet-grid">
+          <!-- Carte 1 : Œuvre Mystère -->
+          <article class="curio-card curio-card-art" id="curio-card-art">
+            <div class="curio-card-header">
+              <span class="curio-card-pill">✦ ŒUVRE EN LUMIÈRE</span>
+              <button type="button" class="curio-dice-btn" id="btn-reroll-art" title="Tirer une autre œuvre">🎲</button>
+            </div>
+            <div class="curio-card-media-wrap">
+              <img id="curio-art-img" src="" alt="Œuvre" class="curio-card-img" />
+              <div class="curio-media-overlay"></div>
+            </div>
+            <div class="curio-card-body">
+              <h3 id="curio-art-title" class="curio-card-title">Chargement...</h3>
+              <p id="curio-art-author" class="curio-card-author"></p>
+              <p id="curio-art-meta" class="curio-card-meta"></p>
+              <button type="button" class="curio-card-action-btn" id="btn-open-curio-art">
+                <span>Contempler l'œuvre</span>
+                <span class="action-arrow">→</span>
+              </button>
+            </div>
+          </article>
+
+          <!-- Carte 2 : Maître en Vedette -->
+          <article class="curio-card curio-card-artist" id="curio-card-artist">
+            <div class="curio-card-header">
+              <span class="curio-card-pill">✦ MAÎTRE &amp; VISIONNAIRE</span>
+              <button type="button" class="curio-dice-btn" id="btn-reroll-artist" title="Tirer un autre artiste">🎲</button>
+            </div>
+            <div class="curio-card-media-wrap">
+              <img id="curio-artist-img" src="" alt="Artiste" class="curio-card-img" />
+              <div class="curio-media-overlay"></div>
+            </div>
+            <div class="curio-card-body">
+              <h3 id="curio-artist-name" class="curio-card-title">Chargement...</h3>
+              <p id="curio-artist-dates" class="curio-card-dates"></p>
+              <p id="curio-artist-bio" class="curio-card-meta"></p>
+              <button type="button" class="curio-card-action-btn" id="btn-open-curio-artist">
+                <span>Consulter la notice</span>
+                <span class="action-arrow">→</span>
+              </button>
+            </div>
+          </article>
+
+          <!-- Carte 3 : Civilisation Oubliée -->
+          <article class="curio-card curio-card-civ" id="curio-card-civ">
+            <div class="curio-card-header">
+              <span class="curio-card-pill">✦ CIVILISATION DU MONDE</span>
+              <button type="button" class="curio-dice-btn" id="btn-reroll-civ" title="Tirer une autre civilisation">🎲</button>
+            </div>
+            <div class="curio-card-media-wrap">
+              <img id="curio-civ-img" src="" alt="Civilisation" class="curio-card-img" />
+              <div class="curio-media-overlay"></div>
+            </div>
+            <div class="curio-card-body">
+              <h3 id="curio-civ-name" class="curio-card-title">Chargement...</h3>
+              <p id="curio-civ-epoch" class="curio-card-dates"></p>
+              <p id="curio-civ-desc" class="curio-card-meta"></p>
+              <button type="button" class="curio-card-action-btn" id="btn-open-curio-civ">
+                <span>Explorer le pavillon</span>
+                <span class="action-arrow">→</span>
+              </button>
+            </div>
+          </article>
+
+          <!-- Carte 4 : Courant ou Avant-Garde -->
+          <article class="curio-card curio-card-mov" id="curio-card-mov">
+            <div class="curio-card-header">
+              <span class="curio-card-pill">✦ COURANT &amp; AVANT-GARDE</span>
+              <button type="button" class="curio-dice-btn" id="btn-reroll-mov" title="Tirer un autre mouvement">🎲</button>
+            </div>
+            <div class="curio-card-media-wrap">
+              <img id="curio-mov-img" src="" alt="Mouvement" class="curio-card-img" />
+              <div class="curio-media-overlay"></div>
+            </div>
+            <div class="curio-card-body">
+              <h3 id="curio-mov-name" class="curio-card-title">Chargement...</h3>
+              <p id="curio-mov-century" class="curio-card-dates"></p>
+              <p id="curio-mov-desc" class="curio-card-meta"></p>
+              <button type="button" class="curio-card-action-btn" id="btn-open-curio-mov">
+                <span>Découvrir le mouvement</span>
+                <span class="action-arrow">→</span>
+              </button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- MODULE 2 : LE GRAND FACE-À-FACE INATTENDU -->
+      <section class="curiosities-section curio-versus-section">
+        <div class="section-title-row">
+          <div class="section-heading">
+            <span class="sec-badge">MODULE INTERACTIF 02</span>
+            <h2 class="sec-title">Le Grand Face-à-Face Inattendu</h2>
+            <p class="sec-desc">Deux œuvres, deux époques ou continents distincts, mis en résonance autour d'une affinité visuelle ou poétique secrète.</p>
+          </div>
+          <button type="button" class="btn-curio-ctrl" id="btn-curiosities-reroll-versus">
+            <span class="ctrl-icon">🎲</span>
+            <span class="ctrl-text">Nouveau Face-à-Face</span>
+          </button>
+        </div>
+
+        <div class="curio-versus-arena">
+          <!-- Œuvre A (Gauche) -->
+          <div class="curio-versus-side side-left" id="curio-vs-card-left">
+            <div class="vs-media-box">
+              <img id="curio-vs-img-a" src="" alt="Face A" class="vs-img" />
+            </div>
+            <div class="vs-caption">
+              <span class="vs-label">✦ ŒUVRE 1</span>
+              <h4 id="curio-vs-title-a" class="vs-title">...</h4>
+              <p id="curio-vs-author-a" class="vs-author">...</p>
+              <p id="curio-vs-date-a" class="vs-date">...</p>
+              <button type="button" class="btn-vs-inspect" id="btn-open-vs-a">Inspecter ➔</button>
+            </div>
+          </div>
+
+          <!-- Badge Central Résonance & VS -->
+          <div class="curio-versus-center">
+            <div class="vs-emblem">VS</div>
+            <div class="vs-resonance-box">
+              <span class="vs-res-title">RÉSONANCE THÉMATIQUE</span>
+              <p id="curio-vs-theme-label" class="vs-res-text">Clairs-obscurs &amp; Dramaturgie</p>
+              <div id="curio-vs-gap-tag" class="vs-gap-tag">Écart : ~250 ans</div>
+            </div>
+          </div>
+
+          <!-- Œuvre B (Droite) -->
+          <div class="curio-versus-side side-right" id="curio-vs-card-right">
+            <div class="vs-media-box">
+              <img id="curio-vs-img-b" src="" alt="Face B" class="vs-img" />
+            </div>
+            <div class="vs-caption">
+              <span class="vs-label">✦ ŒUVRE 2</span>
+              <h4 id="curio-vs-title-b" class="vs-title">...</h4>
+              <p id="curio-vs-author-b" class="vs-author">...</p>
+              <p id="curio-vs-date-b" class="vs-date">...</p>
+              <button type="button" class="btn-vs-inspect" id="btn-open-vs-b">Inspecter ➔</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- MODULE 3 : L'ŒIL DU CONSERVATEUR (DÉTAIL MYSTÈRE) -->
+      <section class="curiosities-section curio-mystery-section">
+        <div class="section-title-row">
+          <div class="section-heading">
+            <span class="sec-badge">MODULE INTERACTIF 03</span>
+            <h2 class="sec-title">L'Œil du Conservateur : Le Détail Mystère</h2>
+            <p class="sec-desc">Sauriez-vous identifier le chef-d'œuvre à partir d'un détail microscopique extrait de la toile ?</p>
+          </div>
+          <button type="button" class="btn-curio-ctrl" id="btn-curiosities-reroll-mystery">
+            <span class="ctrl-icon">🎲</span>
+            <span class="ctrl-text">Autre Défi</span>
+          </button>
+        </div>
+
+        <div class="curio-mystery-arena" id="curio-mystery-arena">
+          <!-- Vue Macro / Loupe -->
+          <div class="mystery-lens-stage">
+            <div class="mystery-lens-frame" id="mystery-lens-frame">
+              <img id="mystery-macro-img" src="" alt="Détail Mystère" class="mystery-macro-img" />
+              <div class="lens-crosshair"></div>
+              <div class="lens-magnifier-ring"></div>
+            </div>
+            <div class="mystery-status-tag" id="mystery-status-tag">LOUPE MACRO : ZOOM 350%</div>
+          </div>
+
+          <!-- Panneau d'indices et Révélation -->
+          <div class="mystery-clues-panel">
+            <div class="mystery-clues-box">
+              <span class="mystery-clue-title">✦ INDICES DU RESTAURATEUR</span>
+              <ul class="mystery-clues-list">
+                <li><span class="clue-tag">Technique :</span> <span id="mystery-clue-tech">Peinture sur toile</span></li>
+                <li><span class="clue-tag">Époque :</span> <span id="mystery-clue-period">XVIIe siècle</span></li>
+                <li><span class="clue-tag">Foyer d'art :</span> <span id="mystery-clue-region">Europe occidentale</span></li>
+              </ul>
+            </div>
+
+            <!-- Bouton pour Révéler -->
+            <button type="button" class="btn-reveal-mystery" id="btn-reveal-mystery">
+              <span class="reveal-icon">👁️</span>
+              <span class="reveal-text">Révéler le Chef-d'œuvre</span>
+            </button>
+
+            <!-- Résultat Révélé (initialement masqué) -->
+            <div class="mystery-revealed-box" id="mystery-revealed-box" style="display: none;">
+              <span class="revealed-badge">✦ IDENTITÉ RÉVÉLÉE</span>
+              <h4 id="mystery-revealed-title" class="revealed-title">La Jeune Fille à la perle</h4>
+              <p id="mystery-revealed-author" class="revealed-author">Johannes Vermeer (1665)</p>
+              <p id="mystery-revealed-desc" class="revealed-desc">...</p>
+              <button type="button" class="btn-revealed-open" id="btn-open-mystery-art">Consulter la fiche complète ➔</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- MODULE 4 : LA ROULETTE TEMPORELLE (SYNCHRONISME MONDIAL) -->
+      <section class="curiosities-section curio-roulette-section">
+        <div class="section-title-row">
+          <div class="section-heading">
+            <span class="sec-badge">MODULE INTERACTIF 04</span>
+            <h2 class="sec-title">La Roulette Temporelle : Synchronisme Mondial</h2>
+            <p class="sec-desc">Choisissez une année au hasard et découvrez ce que les civilisations du monde créaient simultanément.</p>
+          </div>
+          <button type="button" class="btn-curio-ctrl" id="btn-curiosities-spin-year">
+            <span class="ctrl-icon">🎲</span>
+            <span class="ctrl-text">Tourner la Roue du Temps</span>
+          </button>
+        </div>
+
+        <div class="curio-roulette-card">
+          <div class="roulette-year-banner">
+            <div class="roulette-year-counter" id="roulette-year-val">AN 1508</div>
+            <div class="roulette-year-subtitle" id="roulette-year-subtitle">L'aube de la Haute Renaissance &amp; le monde aux grandes découvertes</div>
+            <button type="button" class="btn-teleport-timeline" id="btn-curiosities-goto-timeline">
+              <span>⏱️ Téléporter la Frise Chronologique à cette date</span>
+              <span class="action-arrow">➔</span>
+            </button>
+          </div>
+
+          <div class="roulette-contemporaries-grid" id="roulette-contemporaries-grid">
+            <!-- Rempli dynamiquement avec 3-4 créations simultanées à travers le globe -->
+          </div>
+        </div>
+      </section>
+
+      <!-- MODULE 5 : MICRO-GALERIES THÉMATIQUES INSOLITES -->
+      <section class="curiosities-section curio-galleries-section">
+        <div class="section-title-row">
+          <div class="section-heading">
+            <span class="sec-badge">MODULE INTERACTIF 05</span>
+            <h2 class="sec-title">Micro-Galeries Thématiques Insolites</h2>
+            <p class="sec-desc">Parcourez des séries photographiques transversales à travers les siècles.</p>
+          </div>
+        </div>
+
+        <div class="curio-thematic-stacks" id="curio-thematic-stacks">
+          <!-- Les rubans horizontaux défilants seront injectés ici -->
+        </div>
+      </section>
+
     </div>
   </section>
 
@@ -1145,7 +1462,7 @@
   <script src="data/data-objets5.js?v=3.0"></script>
 
   <!-- SCRIPT MAÎTRE -->
-  <script src="app.js?v=10.5"></script>
+  <script src="app.js?v=10.6"></script>
 </body>
 
 </html>

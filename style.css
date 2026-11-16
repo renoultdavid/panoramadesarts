@@ -147,6 +147,7 @@ body {
 [hidden="true"],
 .spa-view[hidden],
 #view-hub[hidden],
+#view-curiosities[hidden],
 #view-search[hidden],
 #view-timeline[hidden],
 .btn-header-nav[hidden],
@@ -158,7 +159,7 @@ body {
 }
 
 /* =========================================================
-   VUE 1 : PORTAIL À 2 VOLETS (STYLE NATURE)
+   VUE 1 : PORTAIL PRINCIPAL À 3 VOLETS
    ========================================================= */
 #view-hub {
   display: flex;
@@ -166,14 +167,14 @@ body {
 }
 
 .portal-panel {
-  flex: 1 1 50%;
-  width: 50%;
+  flex: 1 1 33.333%;
+  width: 33.333%;
   position: relative;
   cursor: pointer;
   overflow: hidden;
   display: flex;
   align-items: flex-end;
-  padding: 3rem 2.5rem;
+  padding: 3rem 1.8rem;
   border-right: 1px solid rgba(212, 175, 55, 0.2);
 }
 
@@ -182,7 +183,7 @@ body {
 }
 
 .portal-panel:hover {
-  flex: 1 1 50%;
+  flex: 1 1 33.333%;
 }
 
 .portal-panel-bg {
@@ -193,6 +194,11 @@ body {
   opacity: 0.45;
   transition: opacity 0.3s ease;
   z-index: 1;
+}
+
+.bg-curiosities {
+  background-image: radial-gradient(circle at center, rgba(14, 17, 24, 0.25) 0%, rgba(5, 6, 8, 0.92) 90%), url('https://lh3.googleusercontent.com/d/1zZuFrSSMbYJyOP3PDA-M1Q2XiNh6r4Gp');
+  background-position: center center;
 }
 
 .bg-search {
@@ -10466,4 +10472,1102 @@ body {
 #artist-hero-collection-title,
 #artist-theme-filter-pills {
   display: none !important;
+}
+
+/* ==========================================================================
+   VUE 0 : CABINET DES CURIOSITÉS & SÉRENDIPITÉ
+   ========================================================================== */
+#view-curiosities.active:not([hidden]) {
+  display: block !important;
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+  height: calc(100vh - 48px) !important;
+  height: calc(100dvh - 48px) !important;
+  background: radial-gradient(circle at 50% 0%, #151a24 0%, #080a0f 70%, #040507 100%);
+  color: #e2e8f0;
+}
+
+.curiosities-viewport {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 2.2rem 2.5rem 6rem;
+}
+
+/* EN-TÊTE DU CABINET */
+.curiosities-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 2rem;
+  padding-bottom: 2rem;
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid rgba(212, 175, 55, 0.25);
+  background: linear-gradient(180deg, rgba(212, 175, 55, 0.05) 0%, transparent 100%);
+  border-radius: 8px 8px 0 0;
+  padding: 1.8rem 2rem 1.8rem;
+}
+
+.curiosities-badge-tag {
+  font-family: 'Cinzel', serif;
+  font-size: 0.72rem;
+  letter-spacing: 3px;
+  color: var(--gold-pure);
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.curiosities-main-title {
+  font-family: 'Cinzel', serif;
+  font-size: 2.3rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  color: #fff;
+  margin: 0 0 0.5rem;
+  text-shadow: 0 2px 14px rgba(0, 0, 0, 0.8), 0 0 30px rgba(212, 175, 55, 0.2);
+}
+
+.curiosities-tagline {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.15rem;
+  font-style: italic;
+  color: #c5a059;
+  margin: 0;
+  max-width: 720px;
+  line-height: 1.45;
+}
+
+.curiosities-controls-bar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+/* COMPTE À REBOURS 10S */
+.curiosities-timer-indicator {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: rgba(10, 13, 20, 0.85);
+  border: 1px solid rgba(212, 175, 55, 0.35);
+  padding: 6px 14px;
+  border-radius: 30px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.timer-pie-wrap {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timer-svg {
+  width: 100%;
+  height: 100%;
+  transform: rotate(-90deg);
+}
+
+.timer-bg {
+  fill: none;
+  stroke: rgba(255, 255, 255, 0.1);
+  stroke-width: 3.5;
+}
+
+.timer-progress {
+  fill: none;
+  stroke: var(--gold-pure);
+  stroke-width: 3.5;
+  stroke-linecap: round;
+  transition: stroke-dasharray 0.3s ease;
+}
+
+.timer-num {
+  position: absolute;
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: var(--gold-pure);
+  font-family: 'Cinzel', serif;
+}
+
+.timer-label {
+  font-size: 0.72rem;
+  color: #cbd5e1;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  font-family: 'Cinzel', serif;
+}
+
+/* BOUTONS DE CONTRÔLE */
+.btn-curio-ctrl {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  background: rgba(15, 20, 28, 0.85);
+  border: 1px solid rgba(212, 175, 55, 0.35);
+  border-radius: 4px;
+  color: #e2e8f0;
+  font-family: 'Cinzel', serif;
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.btn-curio-ctrl:hover {
+  background: rgba(25, 33, 46, 0.95);
+  border-color: var(--gold-pure);
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.7), 0 0 12px rgba(212, 175, 55, 0.25);
+}
+
+.btn-curio-primary {
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.25) 0%, rgba(180, 130, 30, 0.15) 100%);
+  border-color: var(--gold-pure);
+  color: #fce8a6;
+  font-weight: 700;
+}
+
+.btn-curio-primary:hover {
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.45) 0%, rgba(180, 130, 30, 0.3) 100%);
+  color: #fff;
+}
+
+.btn-curio-back {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+/* SECTIONS UNIFIÉES DU CABINET */
+.curiosities-section {
+  margin-bottom: 4rem;
+  background: rgba(12, 16, 23, 0.65);
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  border-radius: 8px;
+  padding: 2.2rem 2.2rem;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(8px);
+}
+
+.section-title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 2rem;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.sec-badge {
+  font-family: 'Cinzel', serif;
+  font-size: 0.65rem;
+  letter-spacing: 2px;
+  color: var(--gold-pure);
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.sec-title {
+  font-family: 'Cinzel', serif;
+  font-size: 1.55rem;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 1px;
+  margin: 0 0 6px;
+}
+
+.sec-desc {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.05rem;
+  font-style: italic;
+  color: #94a3b8;
+  margin: 0;
+  line-height: 1.4;
+}
+
+/* MODULE 1 : BENTO GRID DU QUATUOR */
+.curio-quartet-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.6rem;
+}
+
+.curio-card {
+  background: rgba(9, 12, 18, 0.95);
+  border: 1px solid rgba(212, 175, 55, 0.25);
+  border-radius: 6px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+  position: relative;
+}
+
+.curio-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--gold-pure);
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.85), 0 0 25px rgba(212, 175, 55, 0.25);
+}
+
+.curio-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 14px;
+  background: rgba(14, 18, 26, 0.95);
+  border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+}
+
+.curio-card-pill {
+  font-family: 'Cinzel', serif;
+  font-size: 0.62rem;
+  letter-spacing: 1.5px;
+  color: var(--gold-pure);
+  font-weight: 700;
+}
+
+.curio-dice-btn {
+  background: transparent;
+  border: none;
+  color: #cbd5e1;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 2px 6px;
+  border-radius: 4px;
+  transition: transform 0.35s ease, color 0.2s ease;
+}
+
+.curio-dice-btn:hover {
+  transform: rotate(180deg) scale(1.2);
+  color: var(--gold-pure);
+}
+
+.curio-card-media-wrap {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+  background: #000;
+}
+
+.curio-card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  transition: transform 0.6s ease, filter 0.3s ease;
+}
+
+.curio-card:hover .curio-card-img {
+  transform: scale(1.05);
+}
+
+.curio-media-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, transparent 40%, rgba(9, 12, 18, 0.95) 100%);
+  pointer-events: none;
+}
+
+.curio-card-body {
+  padding: 1.2rem 1.4rem 1.4rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.curio-card-title {
+  font-family: 'Cinzel', serif;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 0 6px;
+  line-height: 1.35;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.curio-card-author,
+.curio-card-dates {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 0.95rem;
+  color: #fce8a6;
+  font-weight: 600;
+  margin: 0 0 8px;
+}
+
+.curio-card-meta {
+  font-size: 0.8rem;
+  color: #94a3b8;
+  line-height: 1.45;
+  margin: 0 0 1.2rem;
+  flex: 1;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.curio-card-action-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 8px 14px;
+  background: rgba(212, 175, 55, 0.12);
+  border: 1px solid rgba(212, 175, 55, 0.35);
+  border-radius: 4px;
+  color: #fce8a6;
+  font-family: 'Cinzel', serif;
+  font-size: 0.7rem;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  margin-top: auto;
+}
+
+.curio-card-action-btn:hover {
+  background: var(--gold-pure);
+  color: #000;
+  font-weight: 700;
+  border-color: var(--gold-pure);
+}
+
+.curio-card-action-btn .action-arrow {
+  transition: transform 0.2s ease;
+}
+
+.curio-card-action-btn:hover .action-arrow {
+  transform: translateX(4px);
+}
+
+/* MODULE 2 : LE GRAND FACE-À-FACE INATTENDU */
+.curio-versus-arena {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.curio-versus-side {
+  flex: 1;
+  background: rgba(9, 12, 18, 0.9);
+  border: 1px solid rgba(212, 175, 55, 0.25);
+  border-radius: 6px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: border-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.7);
+  max-width: 520px;
+}
+
+.curio-versus-side:hover {
+  border-color: var(--gold-pure);
+  transform: translateY(-4px);
+}
+
+.vs-media-box {
+  width: 100%;
+  height: 380px;
+  background: #000;
+  overflow: hidden;
+  position: relative;
+}
+
+.vs-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.5s ease;
+}
+
+.curio-versus-side:hover .vs-img {
+  transform: scale(1.04);
+}
+
+.vs-caption {
+  padding: 1.4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.vs-label {
+  font-family: 'Cinzel', serif;
+  font-size: 0.65rem;
+  letter-spacing: 2px;
+  color: var(--gold-pure);
+  margin-bottom: 6px;
+}
+
+.vs-title {
+  font-family: 'Cinzel', serif;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 0 6px;
+  line-height: 1.35;
+}
+
+.vs-author {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fce8a6;
+  margin: 0 0 4px;
+}
+
+.vs-date {
+  font-size: 0.8rem;
+  color: #94a3b8;
+  margin: 0 0 1rem;
+}
+
+.btn-vs-inspect {
+  align-self: flex-start;
+  padding: 6px 14px;
+  background: transparent;
+  border: 1px solid rgba(212, 175, 55, 0.35);
+  border-radius: 3px;
+  color: #fce8a6;
+  font-family: 'Cinzel', serif;
+  font-size: 0.7rem;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-vs-inspect:hover {
+  background: var(--gold-pure);
+  color: #000;
+  font-weight: 700;
+}
+
+.curio-versus-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-width: 220px;
+  max-width: 260px;
+}
+
+.vs-emblem {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #251d10 0%, #0d0f15 100%);
+  border: 2px solid var(--gold-pure);
+  color: var(--gold-pure);
+  font-family: 'Cinzel', serif;
+  font-size: 1.35rem;
+  font-weight: 900;
+  letter-spacing: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 25px rgba(212, 175, 55, 0.4), inset 0 0 15px rgba(212, 175, 55, 0.2);
+  margin-bottom: 1.2rem;
+  animation: pulse-emblem 3s infinite ease-in-out;
+}
+
+@keyframes pulse-emblem {
+  0%, 100% { transform: scale(1); box-shadow: 0 0 25px rgba(212, 175, 55, 0.4); }
+  50% { transform: scale(1.06); box-shadow: 0 0 35px rgba(212, 175, 55, 0.7); }
+}
+
+.vs-resonance-box {
+  background: rgba(14, 18, 26, 0.95);
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  border-radius: 6px;
+  padding: 1.2rem 1rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+.vs-res-title {
+  font-family: 'Cinzel', serif;
+  font-size: 0.62rem;
+  letter-spacing: 2px;
+  color: var(--gold-pure);
+  display: block;
+  margin-bottom: 8px;
+}
+
+.vs-res-text {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.15rem;
+  font-style: italic;
+  color: #fff;
+  margin: 0 0 10px;
+  line-height: 1.35;
+}
+
+.vs-gap-tag {
+  display: inline-block;
+  padding: 4px 10px;
+  background: rgba(212, 175, 55, 0.15);
+  border: 1px solid rgba(212, 175, 55, 0.35);
+  border-radius: 20px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: #fce8a6;
+  font-family: 'Cinzel', serif;
+}
+
+/* MODULE 3 : L'ŒIL DU CONSERVATEUR (DÉTAIL MYSTÈRE) */
+.curio-mystery-arena {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  background: rgba(9, 12, 18, 0.85);
+  border: 1px solid rgba(212, 175, 55, 0.25);
+  border-radius: 8px;
+  padding: 2rem 2.5rem;
+}
+
+.mystery-lens-stage {
+  flex: 0 0 420px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mystery-lens-frame {
+  position: relative;
+  width: 380px;
+  height: 380px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid var(--gold-pure);
+  box-shadow: 0 15px 45px rgba(0, 0, 0, 0.9), 0 0 35px rgba(212, 175, 55, 0.3);
+  background: #000;
+}
+
+.mystery-macro-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 1.2s cubic-bezier(0.19, 1, 0.22, 1), filter 0.6s ease;
+  transform: scale(3.5);
+  transform-origin: 50% 50%;
+}
+
+.mystery-lens-frame.is-revealed .mystery-macro-img {
+  transform: scale(1) !important;
+  object-fit: contain;
+}
+
+.lens-crosshair {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(to right, transparent calc(50% - 0.5px), rgba(212, 175, 55, 0.35) 50%, transparent calc(50% + 0.5px)),
+    linear-gradient(to bottom, transparent calc(50% - 0.5px), rgba(212, 175, 55, 0.35) 50%, transparent calc(50% + 0.5px));
+  opacity: 0.6;
+  transition: opacity 0.5s ease;
+}
+
+.mystery-lens-frame.is-revealed .lens-crosshair {
+  opacity: 0;
+}
+
+.lens-magnifier-ring {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.8), inset 0 0 20px rgba(212, 175, 55, 0.4);
+  pointer-events: none;
+}
+
+.mystery-status-tag {
+  margin-top: 1.2rem;
+  font-family: 'Cinzel', serif;
+  font-size: 0.72rem;
+  letter-spacing: 2px;
+  color: var(--gold-pure);
+  background: rgba(14, 18, 26, 0.95);
+  border: 1px solid rgba(212, 175, 55, 0.35);
+  padding: 4px 14px;
+  border-radius: 20px;
+}
+
+.mystery-clues-panel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.mystery-clues-box {
+  background: rgba(14, 18, 26, 0.9);
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  border-radius: 6px;
+  padding: 1.5rem 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.mystery-clue-title {
+  font-family: 'Cinzel', serif;
+  font-size: 0.68rem;
+  letter-spacing: 2px;
+  color: var(--gold-pure);
+  display: block;
+  margin-bottom: 12px;
+}
+
+.mystery-clues-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.mystery-clues-list li {
+  font-size: 0.92rem;
+  color: #cbd5e1;
+}
+
+.clue-tag {
+  color: #fce8a6;
+  font-weight: 600;
+  font-family: 'Cinzel', serif;
+  font-size: 0.78rem;
+  margin-right: 6px;
+}
+
+.btn-reveal-mystery {
+  align-self: flex-start;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 24px;
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.3) 0%, rgba(180, 130, 30, 0.2) 100%);
+  border: 1px solid var(--gold-pure);
+  border-radius: 4px;
+  color: #fff;
+  font-family: 'Cinzel', serif;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6), 0 0 15px rgba(212, 175, 55, 0.25);
+  margin-bottom: 1.5rem;
+}
+
+.btn-reveal-mystery:hover {
+  background: var(--gold-pure);
+  color: #000;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.8), 0 0 25px rgba(212, 175, 55, 0.4);
+}
+
+.mystery-revealed-box {
+  background: rgba(20, 26, 38, 0.95);
+  border: 1px solid var(--gold-pure);
+  border-radius: 6px;
+  padding: 1.5rem 1.8rem;
+  animation: fadeInRevealed 0.6s ease;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.7);
+}
+
+@keyframes fadeInRevealed {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.revealed-badge {
+  font-family: 'Cinzel', serif;
+  font-size: 0.65rem;
+  letter-spacing: 2px;
+  color: var(--gold-pure);
+  display: block;
+  margin-bottom: 6px;
+}
+
+.revealed-title {
+  font-family: 'Cinzel', serif;
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 0 4px;
+}
+
+.revealed-author {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #fce8a6;
+  margin: 0 0 8px;
+}
+
+.revealed-desc {
+  font-size: 0.88rem;
+  color: #cbd5e1;
+  line-height: 1.5;
+  margin: 0 0 1.2rem;
+}
+
+.btn-revealed-open {
+  padding: 8px 18px;
+  background: rgba(212, 175, 55, 0.15);
+  border: 1px solid var(--gold-pure);
+  border-radius: 3px;
+  color: #fce8a6;
+  font-family: 'Cinzel', serif;
+  font-size: 0.72rem;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-revealed-open:hover {
+  background: var(--gold-pure);
+  color: #000;
+  font-weight: 700;
+}
+
+/* MODULE 4 : LA ROULETTE TEMPORELLE */
+.curio-roulette-card {
+  background: rgba(9, 12, 18, 0.9);
+  border: 1px solid rgba(212, 175, 55, 0.25);
+  border-radius: 8px;
+  padding: 2.2rem 2.5rem;
+  box-shadow: 0 15px 45px rgba(0, 0, 0, 0.7);
+}
+
+.roulette-year-banner {
+  text-align: center;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+}
+
+.roulette-year-counter {
+  font-family: 'Cinzel', serif;
+  font-size: 3rem;
+  font-weight: 900;
+  letter-spacing: 3px;
+  color: var(--gold-pure);
+  text-shadow: 0 4px 20px rgba(212, 175, 55, 0.4);
+  margin-bottom: 0.5rem;
+}
+
+.roulette-year-subtitle {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.25rem;
+  font-style: italic;
+  color: #e2e8f0;
+  margin-bottom: 1.5rem;
+}
+
+.btn-teleport-timeline {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 22px;
+  background: rgba(212, 175, 55, 0.15);
+  border: 1px solid var(--gold-pure);
+  border-radius: 30px;
+  color: #fff;
+  font-family: 'Cinzel', serif;
+  font-size: 0.78rem;
+  letter-spacing: 1.2px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.btn-teleport-timeline:hover {
+  background: var(--gold-pure);
+  color: #000;
+  font-weight: 700;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(212, 175, 55, 0.35);
+}
+
+.roulette-contemporaries-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.roulette-card-item {
+  background: rgba(14, 18, 26, 0.95);
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  border-radius: 6px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: border-color 0.25s ease, transform 0.25s ease;
+  cursor: pointer;
+}
+
+.roulette-card-item:hover {
+  border-color: var(--gold-pure);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+}
+
+.roulette-item-media {
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+  background: #000;
+}
+
+.roulette-item-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.roulette-card-item:hover .roulette-item-img {
+  transform: scale(1.05);
+}
+
+.roulette-item-caption {
+  padding: 1rem 1.2rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.roulette-item-region {
+  font-family: 'Cinzel', serif;
+  font-size: 0.62rem;
+  letter-spacing: 1.5px;
+  color: var(--gold-pure);
+  margin-bottom: 4px;
+}
+
+.roulette-item-title {
+  font-family: 'Cinzel', serif;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 0 4px;
+  line-height: 1.35;
+}
+
+.roulette-item-desc {
+  font-size: 0.78rem;
+  color: #94a3b8;
+  line-height: 1.4;
+  margin: 0;
+}
+
+/* MODULE 5 : MICRO-GALERIES THÉMATIQUES INSOLITES */
+.curio-thematic-stacks {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.thematic-ribbon-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.thematic-ribbon-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.thematic-ribbon-title {
+  font-family: 'Cinzel', serif;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #fce8a6;
+  letter-spacing: 1px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.thematic-ribbon-tag {
+  font-family: 'Cinzel', serif;
+  font-size: 0.65rem;
+  letter-spacing: 1.5px;
+  color: var(--gold-pure);
+  background: rgba(212, 175, 55, 0.12);
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+.thematic-scroll-track {
+  display: flex;
+  gap: 1.2rem;
+  overflow-x: auto;
+  padding-bottom: 1rem;
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(212, 175, 55, 0.4) transparent;
+}
+
+.thematic-scroll-track::-webkit-scrollbar {
+  height: 6px;
+}
+
+.thematic-scroll-track::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 3px;
+}
+
+.thematic-scroll-track::-webkit-scrollbar-thumb {
+  background: rgba(212, 175, 55, 0.4);
+  border-radius: 3px;
+}
+
+.thematic-thumb-card {
+  flex: 0 0 230px;
+  background: rgba(9, 12, 18, 0.95);
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  border-radius: 6px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.thematic-thumb-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--gold-pure);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.75), 0 0 15px rgba(212, 175, 55, 0.25);
+}
+
+.thematic-thumb-media {
+  width: 100%;
+  height: 200px;
+  background: #000;
+  overflow: hidden;
+}
+
+.thematic-thumb-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.thematic-thumb-card:hover .thematic-thumb-img {
+  transform: scale(1.08);
+}
+
+.thematic-thumb-caption {
+  padding: 10px 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.thematic-thumb-title {
+  font-family: 'Cinzel', serif;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 0 4px;
+  line-height: 1.3;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.thematic-thumb-meta {
+  font-size: 0.72rem;
+  color: #94a3b8;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* RESPONSIVE TABLETTE & MOBILE POUR LE CABINET */
+@media (max-width: 1200px) {
+  .curio-quartet-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .curio-versus-arena {
+    flex-direction: column;
+  }
+
+  .curio-versus-center {
+    margin: 1rem 0;
+  }
+
+  .curio-mystery-arena {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .mystery-lens-stage {
+    flex: auto;
+  }
+
+  .btn-reveal-mystery {
+    align-self: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .curiosities-viewport {
+    padding: 1.4rem 1rem 4rem;
+  }
+
+  .curiosities-header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1.2rem 1rem;
+    gap: 1.2rem;
+  }
+
+  .curiosities-main-title {
+    font-size: 1.7rem;
+  }
+
+  .curio-quartet-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .curiosities-section {
+    padding: 1.4rem 1rem;
+  }
+
+  .mystery-lens-frame {
+    width: 280px;
+    height: 280px;
+  }
+
+  .roulette-year-counter {
+    font-size: 2.2rem;
+  }
+
+  .thematic-thumb-card {
+    flex: 0 0 180px;
+  }
+
+  .thematic-thumb-media {
+    height: 150px;
+  }
 }

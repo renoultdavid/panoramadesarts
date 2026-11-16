@@ -2,6 +2,7 @@
    GESTION DES VUES SPA & PLEIN ÉCRAN PERMANENT
    ========================================================================== */
 const viewHub = document.getElementById('view-hub');
+const viewCuriosities = document.getElementById('view-curiosities');
 const viewSearch = document.getElementById('view-search');
 const viewTimeline = document.getElementById('view-timeline');
 const btnBackHub = document.getElementById('btn-back-hub');
@@ -11,11 +12,13 @@ const btnFullscreen = document.getElementById('btn-fullscreen-toggle');
 function switchView(targetViewId) {
   const views = {
     'view-hub': viewHub,
+    'view-curiosities': viewCuriosities,
     'view-search': viewSearch,
     'view-timeline': viewTimeline
   };
 
   Object.entries(views).forEach(([id, el]) => {
+    if (!el) return;
     if (id === targetViewId) {
       el.hidden = false;
       el.classList.add('active');
@@ -37,13 +40,20 @@ function switchView(targetViewId) {
   if (targetViewId === 'view-hub') {
     btnBackHub.hidden = true;
     insigniaSubtitle.textContent = "Portail & Archives Photographiques";
+    if (typeof stopCuriositiesAutoRotation === 'function') stopCuriositiesAutoRotation();
+  } else if (targetViewId === 'view-curiosities') {
+    btnBackHub.hidden = false;
+    insigniaSubtitle.textContent = "Cabinet des Curiosités & Sérendipité";
+    if (typeof openCuriositiesView === 'function') openCuriositiesView();
   } else if (targetViewId === 'view-search') {
     btnBackHub.hidden = false;
     insigniaSubtitle.textContent = "Moteur de Recherche & Galerie";
+    if (typeof stopCuriositiesAutoRotation === 'function') stopCuriositiesAutoRotation();
     renderSearchGallery();
   } else if (targetViewId === 'view-timeline') {
     btnBackHub.hidden = false;
     insigniaSubtitle.textContent = "Parcours Synchronique & Archives in situ";
+    if (typeof stopCuriositiesAutoRotation === 'function') stopCuriositiesAutoRotation();
     if (typeof initMapBeacons === 'function') initMapBeacons();
     if (typeof updateSynchronousState === 'function') {
       setTimeout(() => updateSynchronousState(window.innerWidth * 0.35), 100);
@@ -51,7 +61,7 @@ function switchView(targetViewId) {
   }
 }
 
-// Clics sur les 2 grands volets du portail
+// Clics sur les 3 grands volets du portail
 document.querySelectorAll('[data-open-view]').forEach(panel => {
   panel.addEventListener('click', () => {
     switchView(panel.dataset.openView);
@@ -12418,4 +12428,870 @@ function initGlossaryPopoverSystem() {
   window.addEventListener('scroll', () => {
     if (!popover.hidden) scheduleHidePopover(0);
   }, { passive: true, capture: true });
+}
+
+/* ==========================================================================
+   MODULE OFFICIEL : CABINET DES CURIOSITÉS & SÉRENDIPITÉ (VUE 0)
+   ========================================================================== */
+
+// État global du Cabinet des Curiosités
+let curioTimerInterval = null;
+let curioTimerSeconds = 10;
+let curioIsPaused = false;
+let curioCurrentArt = null;
+let curioCurrentArtist = null;
+let curioCurrentCiv = null;
+let curioCurrentMov = null;
+let curioVersusIndex = 0;
+let curioMysteryIndex = 0;
+let curioRouletteIndex = 0;
+let curioInitialized = false;
+
+/* --------------------------------------------------------------------------
+   1. BANQUE DE DONNÉES DU FACE-À-FACE INATTENDU
+   -------------------------------------------------------------------------- */
+const CURATED_VERSUS_PAIRS = [
+  {
+    theme: "Le Visage stylisé : De l'éternité funéraire au masque moderne",
+    gap: "Écart : ~3 240 ans",
+    searchA: "masque",
+    fallbackA: {
+      title: "Masque funéraire de Toutânkhamon",
+      author: "Égypte antique (XVIIIe dynastie)",
+      date: "v. 1323 av. J.-C.",
+      img: "https://lh3.googleusercontent.com/pw/AP1GczMAT50JMxUk9wZrLgtZzzmgLYblBV2omlc2kfnrISwvRrOXzPwb0zhlDEl46cUOnWQ0vkg-dQarHFX3L98jzvHvD-tekEWVlF5SOnJ7Em7czgXoWQkAD7stVTM4K1SxFets3MbY-cgsZ8dG1eL5kZb4xw=w1008-h1344-s-no-gm?authuser=0"
+    },
+    searchB: "modigliani",
+    fallbackB: {
+      title: "Portrait de Jeanne Hébuterne",
+      author: "Amedeo Modigliani",
+      date: "1918",
+      img: "https://lh3.googleusercontent.com/pw/AP1GczMSMuETuZVO5gXHPTm8IdiUJDhU2d4wtl94LXBd3_qv67IksKkCgJKwckW8tV9Fo3aGpFY-VHmXeVS5hsfzdUyhJjw-mxLMhMA66cjZkmWaEg6zB3ua8CvY7uCMR2En_fIf02fx1ZgK2r-lADkwa2z1Yw=w1589-h675-s-no-gm?authuser=0"
+    }
+  },
+  {
+    theme: "La Poétique de l'Eau & du Ciel : Entre Estampe et Plein Air",
+    gap: "Écart : ~42 ans",
+    searchA: "vague",
+    fallbackA: {
+      title: "La Grande Vague de Kanagawa",
+      author: "Katsushika Hokusai",
+      date: "v. 1831",
+      img: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Tsunami_by_hokusai_19th_century.jpg/1280px-Tsunami_by_hokusai_19th_century.jpg"
+    },
+    searchB: "soleil levant",
+    fallbackB: {
+      title: "Impression, soleil levant",
+      author: "Claude Monet",
+      date: "1872",
+      img: "https://lh3.googleusercontent.com/pw/AP1GczNr43RTS_ALB1GfKWbRlWIPymFW851Ydys94CSycoYgTrOz8GG8vS8I9i6oO5ZEdsb3DTaPzGdtwIj3H3sbQokQpW07wXCHfz74pvwThobkRanTffnUsxLimOfDtmFY8xGBV1Xq0UE_zCV1_RDnatLCKw=w1589-h675-s-no-gm?authuser=0"
+    }
+  },
+  {
+    theme: "Le Drame de la Nuit : Du Clair-obscur baroque au Réalisme tellurique",
+    gap: "Écart : ~250 ans",
+    searchA: "caravage",
+    fallbackA: {
+      title: "La Diseuse de bonne aventure / Le Martyre",
+      author: "Le Caravage",
+      date: "v. 1600",
+      img: "https://lh3.googleusercontent.com/d/17yL13LMthgpe8R3Uuzx9kHevgMU6Oloj"
+    },
+    searchB: "glaneuses",
+    fallbackB: {
+      title: "Des glaneuses",
+      author: "Jean-François Millet",
+      date: "1857",
+      img: "https://lh3.googleusercontent.com/pw/AP1GczPziEvFCHviDpe_oKiT52pOYZjLv_DG_coB4AJq_KzQxiN5gvuz1ENUC8P2R7ep5Cv0ZUixziGNNjmUyxzCaV479Nky-ebbAdIs7iPYcgtaWK4D26RtAcMpS-atnHaYch_0RHhoQBNBa58Si4PPi49s8g=w1589-h675-s-no-gm?authuser=0"
+    }
+  },
+  {
+    theme: "La Géométrie Pure : De la Perspective florentine au Néoplasticisme",
+    gap: "Écart : ~500 ans",
+    searchA: "masaccio",
+    fallbackA: {
+      title: "Le Paiement du tribut / La Trinité",
+      author: "Masaccio",
+      date: "1425 – 1427",
+      img: "https://lh3.googleusercontent.com/pw/AP1GczNgwNjlnAa88OSr9dY6fRN6PDCcZWizhjFp2fBV9RqIhbMETO3J2-tjQfxSQl4fjpXRvmwZJJDifucz_Zfbfq3Xv1Key8H2X0dehoGF3vxM_VzNS4r-UQ-vfawvJCil5lkluGhqAXBz9vLaQfP96rYuLQ=w1589-h675-s-no-gm?authuser=0"
+    },
+    searchB: "composition",
+    fallbackB: {
+      title: "Composition avec rouge, jaune et bleu",
+      author: "Piet Mondrian",
+      date: "1930",
+      img: "https://lh3.googleusercontent.com/d/1Bf8T5611J1h7fF4zK4b"
+    }
+  },
+  {
+    theme: "L'Intimité du Quotidien : Scène de genre flamande vs Lumière impressionniste",
+    gap: "Écart : ~210 ans",
+    searchA: "metsu",
+    fallbackA: {
+      title: "La Lettre d'amour / Scène de musique",
+      author: "Gabriel Metsu",
+      date: "v. 1665",
+      img: "https://lh3.googleusercontent.com/pw/AP1GczPL8TgrE-PLe1zdh3NdLKqV3pLUFl_BIzjN9UzzK3VMtSU_7wgEJ2ISFlimODsqUXoS2nBa2hCYqzU8So3NbkUEzMocWGNxj8LXut3Nmt2UxwrppuTlNaoocB3_44NofCJA7m4Z_5EkRGvA0l6ZOR7zJw=w1589-h675-s-no-gm?authuser=0"
+    },
+    searchB: "caillebotte",
+    fallbackB: {
+      title: "Les Raboteurs de parquet",
+      author: "Gustave Caillebotte",
+      date: "1875",
+      img: "https://lh3.googleusercontent.com/d/1zZuFrSSMbYJyOP3PDA-M1Q2XiNh6r4Gp"
+    }
+  }
+];
+
+/* --------------------------------------------------------------------------
+   2. BANQUE DE DONNÉES DU DÉTAIL MYSTÈRE (L'ŒIL DU CONSERVATEUR)
+   -------------------------------------------------------------------------- */
+const CURIOSITY_MYSTERY_CHALLENGES = [
+  {
+    title: "Impression, soleil levant",
+    author: "Claude Monet",
+    year: "1872",
+    tech: "Huile sur toile",
+    period: "XIXe siècle (1872)",
+    region: "Le Havre / Normandie (France)",
+    desc: "Ce cercle orangé incandescent, posé en virgules brutes et non fondues sur la grisaille vaporeuse de l'estuaire du Havre, donna par dérision son nom à tout le mouvement impressionniste.",
+    searchKey: "soleil levant",
+    cropOrigin: "52% 44%",
+    zoomScale: "3.8"
+  },
+  {
+    title: "Le Vanneur / Des glaneuses",
+    author: "Jean-François Millet",
+    year: "1848 – 1857",
+    tech: "Huile sur toile",
+    period: "XIXe siècle (Réalisme & École de Barbizon)",
+    region: "Barbizon, Forêt de Fontainebleau (France)",
+    desc: "Ces doigts noueux ramassant patiemment les brins d'épi oubliés après la moisson incarnent la noblesse grave, monumentale et quasi sacrée conférée par Millet au travail de la terre.",
+    searchKey: "glaneuses",
+    cropOrigin: "42% 58%",
+    zoomScale: "3.6"
+  },
+  {
+    title: "La Laitière / Intérieur de Delft",
+    author: "Johannes Vermeer",
+    year: "v. 1658 – 1660",
+    tech: "Huile sur toile",
+    period: "XVIIe siècle (Siècle d'Or néerlandais)",
+    region: "Delft, Provinces-Unies",
+    desc: "Le mince filet de lait blanc coulant de la cruche de terre cuite, figé dans une suspension temporelle absolue, constitue l'un des sommets de la poésie silencieuse de Vermeer.",
+    searchKey: "laitière",
+    cropOrigin: "48% 52%",
+    zoomScale: "3.5"
+  },
+  {
+    title: "Portrait de Jeanne Hébuterne",
+    author: "Amedeo Modigliani",
+    year: "1918",
+    tech: "Huile sur toile",
+    period: "XXe siècle (1918 - École de Paris)",
+    region: "Montparnasse, Paris",
+    desc: "Ces yeux d'azur dépourvus de pupilles, tels des miroirs tournés vers l'âme et le silence intérieur, signent l'art élégiaque et la ligne mélodique pure de Modigliani.",
+    searchKey: "modigliani",
+    cropOrigin: "50% 32%",
+    zoomScale: "3.4"
+  },
+  {
+    title: "Composition avec rouge, jaune et bleu",
+    author: "Piet Mondrian",
+    year: "1930",
+    tech: "Huile sur toile",
+    period: "XXe siècle (1930 - De Stijl / Néoplasticisme)",
+    region: "Paris / Amsterdam",
+    desc: "L'intersection rigoureuse d'un trait noir orthogonal et d'une vibration de rouge primaire pur illustre la quête spirituelle d'un équilibre universel et absolu.",
+    searchKey: "composition",
+    cropOrigin: "35% 35%",
+    zoomScale: "3.7"
+  }
+];
+
+/* --------------------------------------------------------------------------
+   3. BANQUE DE DONNÉES DE LA ROULETTE TEMPORELLE (SYNCHRONISME MONDIAL)
+   -------------------------------------------------------------------------- */
+const CURIOSITY_ROULETTE_EPOCHS = [
+  {
+    year: -1330,
+    label: "v. 1330 av. J.-C.",
+    subtitle: "L'hérésie amarnienne en Égypte, l'Âge du Bronze mycénien et les bronzes rituels Shang en Chine.",
+    peers: [
+      { region: "Égypte & Nil", title: "Révolution Amarnienne & Toutânkhamon", desc: "Le règne du pharaon Akhenaton et les trésors de Toutânkhamon révolutionnent l'esthétique royale avec une sensualité inédite.", icon: "🏺", img: "https://lh3.googleusercontent.com/pw/AP1GczMAT50JMxUk9wZrLgtZzzmgLYblBV2omlc2kfnrISwvRrOXzPwb0zhlDEl46cUOnWQ0vkg-dQarHFX3L98jzvHvD-tekEWVlF5SOnJ7Em7czgXoWQkAD7stVTM4K1SxFets3MbY-cgsZ8dG1eL5kZb4xw=w1008-h1344-s-no-gm?authuser=0" },
+      { region: "Grèce Égéenne", title: "Citadelles Mycéniennes & Masques d'or", desc: "L'apogée des palais mycéniens de Tirynthe et Mycènes, gardés par la Porte des Lionnes.", icon: "🏛️", img: "https://lh3.googleusercontent.com/d/17yL13LMthgpe8R3Uuzx9kHevgMU6Oloj" },
+      { region: "Chine Antique", title: "Dynastie Shang & Vases de bronze", desc: "Fonte virtuose de chaudrons rituels 'Ding' et inscriptions divinatoires sur os oraculaires.", icon: "🐉", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Houmuwu_ding.jpg/640px-Houmuwu_ding.jpg" },
+      { region: "Proche-Orient", title: "Empire Hittite d'Anatolie", desc: "Les sculpteurs hittites gravent les falaises de Hattusa et défient les armées de Ramsès II.", icon: "⚡", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Yazilikaya_reliefs.jpg/640px-Yazilikaya_reliefs.jpg" }
+    ]
+  },
+  {
+    year: -450,
+    label: "450 av. J.-C.",
+    subtitle: "Le Siècle de Périclès à Athènes, l'Empire Perse achéménide et la fondation de Rome.",
+    peers: [
+      { region: "Grèce Classique", title: "Chantier du Parthénon à Athènes", desc: "Phidias, Ictinos et Callicratès sculptent les marbres de l'Acropole, hissant l'idéal classique à son apogée.", icon: "🏛️", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/The_Parthenon_in_Athens.jpg/640px-The_Parthenon_in_Athens.jpg" },
+      { region: "Perse & Orient", title: "Palais de Persépolis", desc: "Les bas-reliefs de l'Apadana célèbrent la procession des vingt-trois nations de l'Empire Achéménide.", icon: "👑", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Persepolis_stairs.jpg/640px-Persepolis_stairs.jpg" },
+      { region: "Italie & Étrurie", title: "Cités Étrusques & Tombes peintes", desc: "Tarquinia et Véies ornent leurs hypogées de banquets dansants aux couleurs vives.", icon: "🏺", img: "https://lh3.googleusercontent.com/d/17yL13LMthgpe8R3Uuzx9kHevgMU6Oloj" },
+      { region: "Chine des Royaumes", title: "Période des Royaumes Combattants", desc: "Essor de la philosophie confucéenne et taoïste, laques somptueuses du royaume de Chu.", icon: "🐉", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Houmuwu_ding.jpg/640px-Houmuwu_ding.jpg" }
+    ]
+  },
+  {
+    year: 1434,
+    label: "An 1434",
+    subtitle: "La Renaissance géométrique à Florence, les Primitifs flamands et la Cité Interdite des Ming.",
+    peers: [
+      { region: "Toscane / Florence", title: "Masaccio, Brunelleschi & Donatello", desc: "La perspective mathématique et la coupole de Santa Maria del Fiore bouleversent l'art occidental.", icon: "🎨", img: "https://lh3.googleusercontent.com/pw/AP1GczNgwNjlnAa88OSr9dY6fRN6PDCcZWizhjFp2fBV9RqIhbMETO3J2-tjQfxSQl4fjpXRvmwZJJDifucz_Zfbfq3Xv1Key8H2X0dehoGF3vxM_VzNS4r-UQ-vfawvJCil5lkluGhqAXBz9vLaQfP96rYuLQ=w1589-h675-s-no-gm?authuser=0" },
+      { region: "Flandres / Bruges", title: "Jan van Eyck : Les Époux Arnolfini", desc: "Perfectionnement de la peinture à l'huile, rendu virtuose des étoffes et miroir convexe révélateur.", icon: "🖼️", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Van_Eyck_-_Arnolfini_Portrait.jpg/640px-Van_Eyck_-_Arnolfini_Portrait.jpg" },
+      { region: "Chine des Ming", title: "Apogée des Porcelaines Bleu et Blanc", desc: "Les fours impériaux de Jingdezhen créent les plus purs vases en porcelaine au cobalt.", icon: "🏺", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Ming_dynasty_porcelain_vase.jpg/640px-Ming_dynasty_porcelain_vase.jpg" },
+      { region: "Amériques", title: "Empire Aztèque & Tenochtitlan", desc: "Fondation de la Triple Alliance aztèque et expansion du grand temple Mayor au Mexique.", icon: "☀️", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Piedra_del_Sol.jpg/640px-Piedra_del_Sol.jpg" }
+    ]
+  },
+  {
+    year: 1508,
+    label: "An 1508",
+    subtitle: "L'apogée de la Haute Renaissance : Michel-Ange à la Sixtine, Raphaël, Giorgione et Dürer.",
+    peers: [
+      { region: "Rome & Vatican", title: "Michel-Ange peint la Chapelle Sixtine", desc: "Sur son échafaudage sous la voûte vaticane, Buonarroti peint la Genèse et la Création d'Adam.", icon: "🎨", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Michelangelo_-_Creation_of_Adam_%28cropped%29.jpg/640px-Michelangelo_-_Creation_of_Adam_%28cropped%29.jpg" },
+      { region: "Rome / Palais", title: "Raphaël aux Chambres vaticanes", desc: "Le jeune prodige d'Urbino peint L'École d'Athènes, synthèse suprême de la philosophie et de la grâce.", icon: "🏛️", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg/640px-%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg" },
+      { region: "Allemagne du Sud", title: "Albrecht Dürer à Nuremberg", desc: "Le maître humaniste grave les Passions et perfectionne l'autoportrait et le paysage à l'aquarelle.", icon: "✒️", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Albrecht_D%C3%BCrer_-_Self-Portrait_-_Google_Art_Project.jpg/640px-Albrecht_D%C3%BCrer_-_Self-Portrait_-_Google_Art_Project.jpg" },
+      { region: "Venise", title: "Giorgione & Le Jeune Titien", desc: "L'art vénitien invente la poésie atmosphérique du paysage avec La Tempête.", icon: "🌅", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Giorgione_-_La_tempesta.jpg/640px-Giorgione_-_La_tempesta.jpg" }
+    ]
+  },
+  {
+    year: 1665,
+    label: "An 1665",
+    subtitle: "Le Siècle d'Or de Vermeer et Rembrandt, le Versailles de Louis XIV et Le Bernin.",
+    peers: [
+      { region: "Provinces-Unies", title: "Vermeer peint La Jeune Fille à la perle", desc: "À Delft, Vermeer capture la lumière cristalline et le mystère d'un regard suspendu.", icon: "💎", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/1665_Girl_with_a_Pearl_Earring.jpg/640px-1665_Girl_with_a_Pearl_Earring.jpg" },
+      { region: "France Royale", title: "Chantier de Versailles sous Louis XIV", desc: "Le Brun, Le Vau et Le Nôtre orchestrent l'harmonie grandiose du Classicisme français.", icon: "👑", img: "https://lh3.googleusercontent.com/d/1zZuFrSSMbYJyOP3PDA-M1Q2XiNh6r4Gp" },
+      { region: "Amsterdam", title: "La Solitude magistrale de Rembrandt", desc: "Le vieux maître modèle la pâte picturale et peint des autoportraits d'une sincérité déchirante.", icon: "🕯️", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Rembrandt_van_Rijn_-_Self-Portrait_1659.jpg/640px-Rembrandt_van_Rijn_-_Self-Portrait_1659.jpg" },
+      { region: "Italie Baroque", title: "Le Bernin & L'Extase baroque", desc: "Le marbre semble respirer et se draper sous le ciseau du génie de Rome.", icon: "🏛️", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Ecstasy_of_Saint_Teresa_September_2015-2a.jpg/640px-Ecstasy_of_Saint_Teresa_September_2015-2a.jpg" }
+    ]
+  },
+  {
+    year: 1874,
+    label: "An 1874",
+    subtitle: "La première exposition impressionniste à Paris, le plein air et l'essor du Japonisme.",
+    peers: [
+      { region: "France / Paris", title: "Première Exposition Impressionniste", desc: "Dans les ateliers de Nadar, Monet, Renoir, Degas et Pissarro brisent les codes académiques.", icon: "🎨", img: "https://lh3.googleusercontent.com/pw/AP1GczNr43RTS_ALB1GfKWbRlWIPymFW851Ydys94CSycoYgTrOz8GG8vS8I9i6oO5ZEdsb3DTaPzGdtwIj3H3sbQokQpW07wXCHfz74pvwThobkRanTffnUsxLimOfDtmFY8xGBV1Xq0UE_zCV1_RDnatLCKw=w1589-h675-s-no-gm?authuser=0" },
+      { region: "France / Barbizon", title: "Derniers chefs-d'œuvre de Millet", desc: "À Barbizon, Millet termine ses pastorales crépusculaires qui marqueront profondément Van Gogh.", icon: "🌾", img: "https://lh3.googleusercontent.com/pw/AP1GczPziEvFCHviDpe_oKiT52pOYZjLv_DG_coB4AJq_KzQxiN5gvuz1ENUC8P2R7ep5Cv0ZUixziGNNjmUyxzCaV479Nky-ebbAdIs7iPYcgtaWK4D26RtAcMpS-atnHaYch_0RHhoQBNBa58Si4PPi49s8g=w1589-h675-s-no-gm?authuser=0" },
+      { region: "Japon Meiji", title: "Ouverture et triomphe du Japonisme", desc: "L'art nippon fascine l'Occident et renouvelle la mise en page, l'aplat et la perspective en Europe.", icon: "🌊", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Tsunami_by_hokusai_19th_century.jpg/640px-Tsunami_by_hokusai_19th_century.jpg" },
+      { region: "Russie", title: "Les Ambulants (Peredvizhniki)", desc: "Répine et les peintres russes quittent l'Académie de Saint-Pétersbourg pour peindre le peuple.", icon: "❄️", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Ilya_Repin_Barge_Haulers_on_the_Volga.jpg/640px-Ilya_Repin_Barge_Haulers_on_the_Volga.jpg" }
+    ]
+  },
+  {
+    year: 1913,
+    label: "An 1913",
+    subtitle: "L'explosion des Avant-Gardes : Cubisme, Abstraction, Modigliani et le Sacre du Printemps.",
+    peers: [
+      { region: "France / Paris", title: "Le Sacre du Printemps & Cubisme", desc: "Stravinsky et Nijinsky scandalisent Paris ; Picasso et Braque déconstruisent l'espace cubiste.", icon: "⚡", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Pablo_Picasso%2C_1909-10%2C_Figure_dans_un_Fauteuil_%28Seated_Nude%29.jpg/640px-Pablo_Picasso%2C_1909-10%2C_Figure_dans_un_Fauteuil_%28Seated_Nude%29.jpg" },
+      { region: "Pays-Bas / Paris", title: "Mondrian vers l'Abstraction pure", desc: "Piet Mondrian élimine la courbe et réduit la réalité à l'angle droit et aux couleurs pures.", icon: "🟥", img: "https://lh3.googleusercontent.com/d/1Bf8T5611J1h7fF4zK4b" },
+      { region: "Montparnasse", title: "Modigliani taille ses têtes de pierre", desc: "Amedeo Modigliani sculpte des têtes hiératiques inspirées des masques d'Afrique et des Cyclades.", icon: "🗿", img: "https://lh3.googleusercontent.com/pw/AP1GczMSMuETuZVO5gXHPTm8IdiUJDhU2d4wtl94LXBd3_qv67IksKkCgJKwckW8tV9Fo3aGpFY-VHmXeVS5hsfzdUyhJjw-mxLMhMA66cjZkmWaEg6zB3ua8CvY7uCMR2En_fIf02fx1ZgK2r-lADkwa2z1Yw=w1589-h675-s-no-gm?authuser=0" },
+      { region: "Russie / Moscou", title: "Malevitch & Le Suprématisme", desc: "Kasimir Malevitch conçoit le Carré noir, degré zéro de la peinture et rupture absolue.", icon: "⬛", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Kazimir_Malevich%2C_1915%2C_Black_Suprematic_Square%2C_oil_on_linen_canvas%2C_79.5_x_79.5_cm%2C_Tretyakov_Gallery%2C_Moscow.jpg/640px-Kazimir_Malevich%2C_1915%2C_Black_Suprematic_Square%2C_oil_on_linen_canvas%2C_79.5_x_79.5_cm%2C_Tretyakov_Gallery%2C_Moscow.jpg" }
+    ]
+  }
+];
+
+/* --------------------------------------------------------------------------
+   4. FONCTION UTILITAIRE : RECHERCHE D'ŒUVRE DANS LE CATALOGUE
+   -------------------------------------------------------------------------- */
+function curioFindArtByKeyword(kw) {
+  if (!kw) return null;
+  const list = window.ART_OBJECTS || [];
+  const lower = kw.toLowerCase();
+  return list.find(a =>
+    a.img &&
+    ((a.title && a.title.toLowerCase().includes(lower)) ||
+     (a.author && a.author.toLowerCase().includes(lower)) ||
+     (a.desc && a.desc.toLowerCase().includes(lower)))
+  );
+}
+
+/* --------------------------------------------------------------------------
+   5. NAVIGATION DIRECTE VERS UNE ANNÉE SUR LA FRISE CHRONOLOGIQUE
+   -------------------------------------------------------------------------- */
+function jumpTimelineToYear(targetYear) {
+  if (typeof switchView === 'function') {
+    switchView('view-timeline');
+  }
+
+  // Choix automatique de l'ère chronologique
+  if (typeof switchTimelineEra === 'function') {
+    switchTimelineEra(targetYear >= 1000 ? 'modern' : 'ancient');
+  }
+
+  const container = document.getElementById('master-drag-container');
+  const containerWidth = container ? container.clientWidth : window.innerWidth;
+  const targetPixel = typeof yearToPixel === 'function' ? yearToPixel(targetYear) : 0;
+  const totalRibbonW = typeof getRibbonWidth === 'function' ? getRibbonWidth() : 50000;
+  const minX = -(totalRibbonW - containerWidth);
+
+  curRibbonX = Math.max(minX, Math.min(0, (containerWidth / 2) - targetPixel));
+  prevRibbonX = curRibbonX;
+
+  const mRibbon = document.getElementById('master-ribbon');
+  const rTrack = document.getElementById('ruler-ticks-track');
+  const rEvents = document.getElementById('ruler-events-layer');
+  const rSparks = document.getElementById('ruler-sparks-layer');
+
+  if (mRibbon) mRibbon.style.transform = `translateX(${curRibbonX}px)`;
+  if (rTrack) rTrack.style.transform = `translateX(${curRibbonX}px)`;
+  if (rEvents) rEvents.style.transform = `translateX(${curRibbonX}px)`;
+  if (rSparks) rSparks.style.transform = `translateX(${curRibbonX}px)`;
+
+  if (typeof updateSynchronousState === 'function') {
+    setTimeout(() => updateSynchronousState(containerWidth / 2), 120);
+  }
+}
+
+/* --------------------------------------------------------------------------
+   6. GESTION DU QUATUOR ALÉATOIRE TOURNANT (MODULE 1)
+   -------------------------------------------------------------------------- */
+function renderCurioArtCard(art) {
+  if (!art) {
+    const catalog = (window.ART_OBJECTS || []).filter(a => a.img && a.title && a.img.startsWith('http'));
+    if (!catalog.length) return;
+    art = catalog[Math.floor(Math.random() * catalog.length)];
+  }
+  curioCurrentArt = art;
+
+  const imgEl = document.getElementById('curio-art-img');
+  const titleEl = document.getElementById('curio-art-title');
+  const authorEl = document.getElementById('curio-art-author');
+  const metaEl = document.getElementById('curio-art-meta');
+
+  if (imgEl) {
+    imgEl.src = art.img;
+    imgEl.alt = art.title || "Œuvre";
+  }
+  if (titleEl) titleEl.textContent = art.title || "Sans titre";
+  if (authorEl) authorEl.textContent = art.author ? `${art.author} (${art.date || art.century || ''})` : (art.date || art.century || "Collection officielle");
+  if (metaEl) metaEl.textContent = art.desc ? art.desc.slice(0, 160) + '...' : "Œuvre majeure conservée dans les collections photographiques de l'Atlas.";
+}
+
+function renderCurioArtistCard(rec) {
+  if (!rec) {
+    const list = Object.values(window.ARTISTS_REGISTRY || {}).filter(a => a && a.name && (a.img || a.bannerImg));
+    if (!list.length) return;
+    rec = list[Math.floor(Math.random() * list.length)];
+  }
+  curioCurrentArtist = rec;
+
+  const imgEl = document.getElementById('curio-artist-img');
+  const nameEl = document.getElementById('curio-artist-name');
+  const datesEl = document.getElementById('curio-artist-dates');
+  const bioEl = document.getElementById('curio-artist-bio');
+
+  if (imgEl) {
+    imgEl.src = rec.img || rec.bannerImg || '';
+    imgEl.alt = rec.name || "Artiste";
+  }
+  if (nameEl) nameEl.textContent = rec.name || "Maître";
+  if (datesEl) datesEl.textContent = rec.dates || rec.lifespan || "Figure historique de l'art";
+  if (bioEl) bioEl.textContent = rec.role || rec.genre || (rec.bio && rec.bio.slice(0, 160) + '...') || "Créateur d'avant-garde ayant révolutionné la vision esthétique.";
+}
+
+function renderCurioCivCard(civ) {
+  if (!civ) {
+    const list = (Array.isArray(CIVILISATIONS_REGISTRY) ? CIVILISATIONS_REGISTRY : []).filter(c => c && c.name && !c.isMovement && !c.id.startsWith('mod_'));
+    if (!list.length) return;
+    civ = list[Math.floor(Math.random() * list.length)];
+  }
+  curioCurrentCiv = civ;
+
+  const imgEl = document.getElementById('curio-civ-img');
+  const nameEl = document.getElementById('curio-civ-name');
+  const epochEl = document.getElementById('curio-civ-epoch');
+  const descEl = document.getElementById('curio-civ-desc');
+
+  if (imgEl) {
+    const banner = civ.bannerImg || (civ.artifacts && civ.artifacts[0] && civ.artifacts[0].img) || 'https://lh3.googleusercontent.com/d/17yL13LMthgpe8R3Uuzx9kHevgMU6Oloj';
+    imgEl.src = banner;
+    imgEl.alt = civ.name || "Civilisation";
+  }
+  if (nameEl) nameEl.textContent = civ.name || "Foyer Antique";
+  if (epochEl) epochEl.textContent = civ.epoch || `${civ.yearStart || ''} à ${civ.yearEnd || ''}`;
+  if (descEl) descEl.textContent = civ.desc ? civ.desc.slice(0, 160) + '...' : "Haut foyer de création artistique ayant façonné l'histoire universelle des formes.";
+}
+
+function renderCurioMovCard(mov) {
+  if (!mov) {
+    const list = (Array.isArray(ART_MOVEMENTS) ? ART_MOVEMENTS : []).filter(m => m && m.name);
+    if (!list.length) return;
+    mov = list[Math.floor(Math.random() * list.length)];
+  }
+  curioCurrentMov = mov;
+
+  const movData = (window.MOVEMENTS_DATA && window.MOVEMENTS_DATA[mov.id]) ||
+                  (typeof MODERN_MOVEMENTS_DATA !== 'undefined' && MODERN_MOVEMENTS_DATA[mov.id]) || {};
+
+  const imgEl = document.getElementById('curio-mov-img');
+  const nameEl = document.getElementById('curio-mov-name');
+  const centEl = document.getElementById('curio-mov-century');
+  const descEl = document.getElementById('curio-mov-desc');
+
+  if (imgEl) {
+    const banner = movData.bannerImg || mov.bannerImg || (movData.keyArtworks && movData.keyArtworks[0] && movData.keyArtworks[0].img) || 'https://lh3.googleusercontent.com/d/1zZuFrSSMbYJyOP3PDA-M1Q2XiNh6r4Gp';
+    imgEl.src = banner;
+    imgEl.alt = mov.name || "Mouvement";
+  }
+  if (nameEl) nameEl.textContent = mov.name || "Courant pictural";
+  if (centEl) centEl.textContent = mov.century || mov.epoch || "Période moderne";
+  if (descEl) descEl.textContent = movData.essence || movData.desc || mov.desc || "Révolution formelle et émancipation du regard au tournant de l'histoire des arts.";
+}
+
+function rotateCuriositiesQuartet() {
+  renderCurioArtCard();
+  renderCurioArtistCard();
+  renderCurioCivCard();
+  renderCurioMovCard();
+}
+
+/* --------------------------------------------------------------------------
+   7. GESTION DU FACE-À-FACE INATTENDU (MODULE 2)
+   -------------------------------------------------------------------------- */
+function renderCuriositiesVersus() {
+  const pair = CURATED_VERSUS_PAIRS[curioVersusIndex % CURATED_VERSUS_PAIRS.length];
+  if (!pair) return;
+
+  const artA = curioFindArtByKeyword(pair.searchA) || pair.fallbackA;
+  const artB = curioFindArtByKeyword(pair.searchB) || pair.fallbackB;
+
+  // Face A
+  const imgA = document.getElementById('curio-vs-img-a');
+  const titleA = document.getElementById('curio-vs-title-a');
+  const authA = document.getElementById('curio-vs-author-a');
+  const dateA = document.getElementById('curio-vs-date-a');
+  if (imgA) imgA.src = artA.img;
+  if (titleA) titleA.textContent = artA.title;
+  if (authA) authA.textContent = artA.author;
+  if (dateA) dateA.textContent = artA.date || artA.century || '';
+
+  // Face B
+  const imgB = document.getElementById('curio-vs-img-b');
+  const titleB = document.getElementById('curio-vs-title-b');
+  const authB = document.getElementById('curio-vs-author-b');
+  const dateB = document.getElementById('curio-vs-date-b');
+  if (imgB) imgB.src = artB.img;
+  if (titleB) titleB.textContent = artB.title;
+  if (authB) authB.textContent = artB.author;
+  if (dateB) dateB.textContent = artB.date || artB.century || '';
+
+  // Centre Résonance
+  const themeEl = document.getElementById('curio-vs-theme-label');
+  const gapEl = document.getElementById('curio-vs-gap-tag');
+  if (themeEl) themeEl.textContent = pair.theme;
+  if (gapEl) gapEl.textContent = pair.gap;
+
+  // Liens d'inspection
+  const btnA = document.getElementById('btn-open-vs-a');
+  if (btnA) {
+    btnA.onclick = () => {
+      if (typeof openCuratorModal === 'function') openCuratorModal(artA, [artA], true);
+    };
+  }
+  const btnB = document.getElementById('btn-open-vs-b');
+  if (btnB) {
+    btnB.onclick = () => {
+      if (typeof openCuratorModal === 'function') openCuratorModal(artB, [artB], true);
+    };
+  }
+}
+
+function rerollCuriositiesVersus() {
+  curioVersusIndex++;
+  renderCuriositiesVersus();
+}
+
+/* --------------------------------------------------------------------------
+   8. GESTION DU DÉTAIL MYSTÈRE (MODULE 3)
+   -------------------------------------------------------------------------- */
+let curioCurrentMysteryArt = null;
+
+function renderCuriositiesMystery() {
+  const challenge = CURIOSITY_MYSTERY_CHALLENGES[curioMysteryIndex % CURIOSITY_MYSTERY_CHALLENGES.length];
+  if (!challenge) return;
+
+  const foundArt = curioFindArtByKeyword(challenge.searchKey);
+  const finalArt = foundArt || {
+    title: challenge.title,
+    author: challenge.author,
+    date: challenge.year,
+    img: challenge.img || 'https://lh3.googleusercontent.com/pw/AP1GczNr43RTS_ALB1GfKWbRlWIPymFW851Ydys94CSycoYgTrOz8GG8vS8I9i6oO5ZEdsb3DTaPzGdtwIj3H3sbQokQpW07wXCHfz74pvwThobkRanTffnUsxLimOfDtmFY8xGBV1Xq0UE_zCV1_RDnatLCKw=w1589-h675-s-no-gm?authuser=0',
+    desc: challenge.desc
+  };
+  curioCurrentMysteryArt = finalArt;
+
+  // Réinitialiser la loupe macro
+  const frame = document.getElementById('mystery-lens-frame');
+  const imgEl = document.getElementById('mystery-macro-img');
+  const statusEl = document.getElementById('mystery-status-tag');
+  const revealedBox = document.getElementById('mystery-revealed-box');
+  const revealBtn = document.getElementById('btn-reveal-mystery');
+
+  if (frame) frame.classList.remove('is-revealed');
+  if (statusEl) statusEl.textContent = `LOUPE MACRO : ZOOM ${Math.round(parseFloat(challenge.zoomScale) * 100)}%`;
+  if (revealedBox) revealedBox.style.display = 'none';
+  if (revealBtn) revealBtn.style.display = 'inline-flex';
+
+  if (imgEl) {
+    imgEl.src = finalArt.img;
+    imgEl.style.transformOrigin = challenge.cropOrigin || '50% 50%';
+    imgEl.style.transform = `scale(${challenge.zoomScale || 3.5})`;
+  }
+
+  // Indices
+  const techEl = document.getElementById('mystery-clue-tech');
+  const periodEl = document.getElementById('mystery-clue-period');
+  const regionEl = document.getElementById('mystery-clue-region');
+  if (techEl) techEl.textContent = challenge.tech;
+  if (periodEl) periodEl.textContent = challenge.period;
+  if (regionEl) regionEl.textContent = challenge.region;
+
+  // Boîte révélée
+  const rTitle = document.getElementById('mystery-revealed-title');
+  const rAuthor = document.getElementById('mystery-revealed-author');
+  const rDesc = document.getElementById('mystery-revealed-desc');
+  if (rTitle) rTitle.textContent = finalArt.title;
+  if (rAuthor) rAuthor.textContent = `${finalArt.author || challenge.author} (${finalArt.date || challenge.year})`;
+  if (rDesc) rDesc.textContent = challenge.desc;
+
+  const openBtn = document.getElementById('btn-open-mystery-art');
+  if (openBtn) {
+    openBtn.onclick = () => {
+      if (typeof openCuratorModal === 'function') openCuratorModal(curioCurrentMysteryArt, [curioCurrentMysteryArt], true);
+    };
+  }
+}
+
+function revealCuriositiesMystery() {
+  const frame = document.getElementById('mystery-lens-frame');
+  const statusEl = document.getElementById('mystery-status-tag');
+  const revealedBox = document.getElementById('mystery-revealed-box');
+  const revealBtn = document.getElementById('btn-reveal-mystery');
+
+  if (frame) frame.classList.add('is-revealed');
+  if (statusEl) statusEl.textContent = "CHEF-D'ŒUVRE RÉVÉLÉ (VUE GLOBALE)";
+  if (revealedBox) revealedBox.style.display = 'block';
+  if (revealBtn) revealBtn.style.display = 'none';
+}
+
+function rerollCuriositiesMystery() {
+  curioMysteryIndex++;
+  renderCuriositiesMystery();
+}
+
+/* --------------------------------------------------------------------------
+   9. GESTION DE LA ROULETTE TEMPORELLE (MODULE 4)
+   -------------------------------------------------------------------------- */
+let curioCurrentEpochData = null;
+
+function renderCuriositiesRoulette() {
+  const epoch = CURIOSITY_ROULETTE_EPOCHS[curioRouletteIndex % CURIOSITY_ROULETTE_EPOCHS.length];
+  if (!epoch) return;
+  curioCurrentEpochData = epoch;
+
+  const yearEl = document.getElementById('roulette-year-val');
+  const subEl = document.getElementById('roulette-year-subtitle');
+  const gridEl = document.getElementById('roulette-contemporaries-grid');
+
+  if (yearEl) yearEl.textContent = epoch.label.toUpperCase();
+  if (subEl) subEl.textContent = epoch.subtitle;
+
+  if (gridEl) {
+    gridEl.innerHTML = '';
+    epoch.peers.forEach(peer => {
+      const card = document.createElement('article');
+      card.className = 'roulette-card-item';
+      card.innerHTML = `
+        <div class="roulette-item-media">
+          <img src="${peer.img}" alt="${escapeHtmlAttr(peer.title)}" class="roulette-item-img" />
+        </div>
+        <div class="roulette-item-caption">
+          <span class="roulette-item-region">${peer.icon} ${peer.region}</span>
+          <h4 class="roulette-item-title">${peer.title}</h4>
+          <p class="roulette-item-desc">${peer.desc}</p>
+        </div>
+      `;
+      card.onclick = () => {
+        jumpTimelineToYear(epoch.year);
+      };
+      gridEl.appendChild(card);
+    });
+  }
+}
+
+function spinCuriositiesRoulette() {
+  curioRouletteIndex++;
+  renderCuriositiesRoulette();
+}
+
+/* --------------------------------------------------------------------------
+   10. GESTION DES MICRO-GALERIES THÉMATIQUES INSOLITES (MODULE 5)
+   -------------------------------------------------------------------------- */
+function renderCuriositiesThematicGalleries() {
+  const container = document.getElementById('curio-thematic-stacks');
+  if (!container) return;
+
+  const catalog = window.ART_OBJECTS || [];
+  if (!catalog.length) return;
+
+  const themes = [
+    {
+      title: "Nuits, Flammes & Clairs-Obscurs",
+      icon: "🕯️",
+      tag: "Dramaturgie nocturne",
+      keywords: ['nuit', 'nocturne', 'flamme', 'feu', 'bougie', 'veilleuse', 'sombre', 'clair-obscur', 'obscur', 'lumière']
+    },
+    {
+      title: "Miroirs, Reflets & Ondes Aquatiques",
+      icon: "🌊",
+      tag: "Jeux optiques & reflets",
+      keywords: ['miroir', 'reflet', 'eau', 'mer', 'vague', 'rivière', 'nénuphar', 'nymphéa', 'bassin', 'étang', 'glace']
+    },
+    {
+      title: "Neiges, Brumes & Silences d'Hiver",
+      icon: "❄️",
+      tag: "Saisons silencieuses",
+      keywords: ['neige', 'hiver', 'givre', 'glace', 'brume', 'brouillard', 'froid']
+    },
+    {
+      title: "Le Bestiaire & les Créatures Fabuleuses",
+      icon: "🐎",
+      tag: "Monde animal & mythes",
+      keywords: ['animal', 'cheval', 'chien', 'chat', 'lion', 'oiseau', 'dragon', 'bœuf', 'taureau', 'cygne', 'cerf', 'serpent']
+    }
+  ];
+
+  container.innerHTML = '';
+
+  themes.forEach(th => {
+    // Filtrage des œuvres correspondant aux mots-clés du thème
+    const matchingArts = catalog.filter(a => {
+      if (!a.img || !a.img.startsWith('http')) return false;
+      const haystack = `${a.title || ''} ${a.desc || ''} ${a.author || ''} ${(a.tags || []).join(' ')}`.toLowerCase();
+      return th.keywords.some(kw => haystack.includes(kw));
+    }).slice(0, 16);
+
+    if (matchingArts.length < 3) return;
+
+    const block = document.createElement('div');
+    block.className = 'thematic-ribbon-block';
+
+    block.innerHTML = `
+      <div class="thematic-ribbon-header">
+        <h3 class="thematic-ribbon-title">${th.icon} ${th.title}</h3>
+        <span class="thematic-ribbon-tag">${th.tag} (${matchingArts.length} chefs-d'œuvre)</span>
+      </div>
+      <div class="thematic-scroll-track"></div>
+    `;
+
+    const track = block.querySelector('.thematic-scroll-track');
+    matchingArts.forEach(art => {
+      const item = document.createElement('article');
+      item.className = 'thematic-thumb-card';
+      item.innerHTML = `
+        <div class="thematic-thumb-media">
+          <img src="${art.img}" alt="${escapeHtmlAttr(art.title)}" class="thematic-thumb-img" loading="lazy" />
+        </div>
+        <div class="thematic-thumb-caption">
+          <h4 class="thematic-thumb-title">${art.title || "Sans titre"}</h4>
+          <p class="thematic-thumb-meta">${art.author || art.date || ''}</p>
+        </div>
+      `;
+      item.onclick = () => {
+        if (typeof openCuratorModal === 'function') openCuratorModal(art, matchingArts, true);
+      };
+      track.appendChild(item);
+    });
+
+    container.appendChild(block);
+  });
+}
+
+/* --------------------------------------------------------------------------
+   11. COMPTE À REBOURS ET ROTATION AUTOMATIQUE 10S
+   -------------------------------------------------------------------------- */
+function startCuriositiesAutoRotation() {
+  if (curioTimerInterval) clearInterval(curioTimerInterval);
+  curioTimerSeconds = 10;
+  updateCuriositiesTimerDisplay();
+
+  curioTimerInterval = setInterval(() => {
+    if (curioIsPaused) return;
+
+    curioTimerSeconds--;
+    if (curioTimerSeconds <= 0) {
+      curioTimerSeconds = 10;
+      rotateCuriositiesQuartet();
+    }
+    updateCuriositiesTimerDisplay();
+  }, 1000);
+}
+
+function stopCuriositiesAutoRotation() {
+  if (curioTimerInterval) {
+    clearInterval(curioTimerInterval);
+    curioTimerInterval = null;
+  }
+}
+
+function updateCuriositiesTimerDisplay() {
+  const numEl = document.getElementById('curiosities-timer-num');
+  const progressEl = document.getElementById('curiosities-timer-progress');
+  if (numEl) numEl.textContent = `${curioTimerSeconds}s`;
+  if (progressEl) {
+    const fraction = (curioTimerSeconds / 10) * 100;
+    progressEl.setAttribute('stroke-dasharray', `${fraction}, 100`);
+  }
+}
+
+function toggleCuriositiesPause() {
+  curioIsPaused = !curioIsPaused;
+  const iconEl = document.getElementById('curiosities-pause-icon');
+  const textEl = document.getElementById('curiosities-pause-text');
+  const labelEl = document.getElementById('curiosities-timer-label');
+
+  if (curioIsPaused) {
+    if (iconEl) iconEl.textContent = "▶";
+    if (textEl) textEl.textContent = "Reprendre";
+    if (labelEl) labelEl.textContent = "En pause";
+  } else {
+    if (iconEl) iconEl.textContent = "⏸";
+    if (textEl) textEl.textContent = "Pause";
+    if (labelEl) labelEl.textContent = "Auto-rotation";
+  }
+}
+
+function rerollAllCuriosities() {
+  rotateCuriositiesQuartet();
+  rerollCuriositiesVersus();
+  rerollCuriositiesMystery();
+  spinCuriositiesRoulette();
+  curioTimerSeconds = 10;
+  updateCuriositiesTimerDisplay();
+}
+
+/* --------------------------------------------------------------------------
+   12. INITIALISATION ET ENTRÉE DANS LA VUE DU CABINET
+   -------------------------------------------------------------------------- */
+function initCuriositiesView() {
+  if (curioInitialized) return;
+  curioInitialized = true;
+
+  // Contrôles supérieurs
+  const btnPause = document.getElementById('btn-curiosities-pause');
+  if (btnPause) btnPause.onclick = toggleCuriositiesPause;
+
+  const btnRerollAll = document.getElementById('btn-curiosities-reroll-all');
+  if (btnRerollAll) btnRerollAll.onclick = rerollAllCuriosities;
+
+  const btnBackHubCurio = document.getElementById('btn-curiosities-back-hub');
+  if (btnBackHubCurio) btnBackHubCurio.onclick = () => switchView('view-hub');
+
+  // Relances individuelles du quatuor
+  const btnRerollArt = document.getElementById('btn-reroll-art');
+  if (btnRerollArt) btnRerollArt.onclick = (e) => { e.stopPropagation(); renderCurioArtCard(); };
+
+  const btnRerollArtist = document.getElementById('btn-reroll-artist');
+  if (btnRerollArtist) btnRerollArtist.onclick = (e) => { e.stopPropagation(); renderCurioArtistCard(); };
+
+  const btnRerollCiv = document.getElementById('btn-reroll-civ');
+  if (btnRerollCiv) btnRerollCiv.onclick = (e) => { e.stopPropagation(); renderCurioCivCard(); };
+
+  const btnRerollMov = document.getElementById('btn-reroll-mov');
+  if (btnRerollMov) btnRerollMov.onclick = (e) => { e.stopPropagation(); renderCurioMovCard(); };
+
+  // Actions au clic sur les cartes du quatuor
+  const cardArt = document.getElementById('curio-card-art');
+  if (cardArt) {
+    cardArt.onclick = () => {
+      if (curioCurrentArt && typeof openCuratorModal === 'function') {
+        openCuratorModal(curioCurrentArt, [curioCurrentArt], true);
+      }
+    };
+  }
+
+  const cardArtist = document.getElementById('curio-card-artist');
+  if (cardArtist) {
+    cardArtist.onclick = () => {
+      if (curioCurrentArtist && typeof openMonographForArtistRecord === 'function') {
+        openMonographForArtistRecord(curioCurrentArtist);
+      }
+    };
+  }
+
+  const cardCiv = document.getElementById('curio-card-civ');
+  if (cardCiv) {
+    cardCiv.onclick = () => {
+      if (curioCurrentCiv) {
+        switchView('view-timeline');
+        setTimeout(() => {
+          if (typeof openCivilisationPavilion === 'function') {
+            openCivilisationPavilion(curioCurrentCiv, 'panoramic');
+          }
+        }, 150);
+      }
+    };
+  }
+
+  const cardMov = document.getElementById('curio-card-mov');
+  if (cardMov) {
+    cardMov.onclick = () => {
+      if (curioCurrentMov) {
+        switchView('view-timeline');
+        setTimeout(() => {
+          if (typeof openCivilisationPavilion === 'function') {
+            openCivilisationPavilion(curioCurrentMov._civObject || { id: curioCurrentMov.id, name: curioCurrentMov.name, isMovement: true, _mov: curioCurrentMov }, 'panoramic');
+          }
+        }, 150);
+      }
+    };
+  }
+
+  // Pause au survol du quatuor
+  const quartetGrid = document.getElementById('curio-quartet-grid');
+  if (quartetGrid) {
+    quartetGrid.addEventListener('mouseenter', () => { curioIsPaused = true; });
+    quartetGrid.addEventListener('mouseleave', () => {
+      const btnP = document.getElementById('curiosities-pause-text');
+      if (btnP && btnP.textContent === "Pause") {
+        curioIsPaused = false;
+      }
+    });
+  }
+
+  // Contrôles Face-à-face
+  const btnRerollVs = document.getElementById('btn-curiosities-reroll-versus');
+  if (btnRerollVs) btnRerollVs.onclick = rerollCuriositiesVersus;
+
+  // Contrôles Détail Mystère
+  const btnRevealMystery = document.getElementById('btn-reveal-mystery');
+  if (btnRevealMystery) btnRevealMystery.onclick = revealCuriositiesMystery;
+
+  const btnRerollMystery = document.getElementById('btn-curiosities-reroll-mystery');
+  if (btnRerollMystery) btnRerollMystery.onclick = rerollCuriositiesMystery;
+
+  // Contrôles Roulette Temporelle
+  const btnSpinYear = document.getElementById('btn-curiosities-spin-year');
+  if (btnSpinYear) btnSpinYear.onclick = spinCuriositiesRoulette;
+
+  const btnTeleportTimeline = document.getElementById('btn-curiosities-goto-timeline');
+  if (btnTeleportTimeline) {
+    btnTeleportTimeline.onclick = () => {
+      if (curioCurrentEpochData) {
+        jumpTimelineToYear(curioCurrentEpochData.year);
+      }
+    };
+  }
+}
+
+function openCuriositiesView() {
+  initCuriositiesView();
+  rotateCuriositiesQuartet();
+  renderCuriositiesVersus();
+  renderCuriositiesMystery();
+  renderCuriositiesRoulette();
+  renderCuriositiesThematicGalleries();
+  startCuriositiesAutoRotation();
 }
