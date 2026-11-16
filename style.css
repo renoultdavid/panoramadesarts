@@ -10493,18 +10493,17 @@ body {
   padding: 2.2rem 2.5rem 6rem;
 }
 
-/* EN-TÊTE DU CABINET */
+/* EN-TÊTE DU CABINET (COMPACT & SUR UNE SEULE LIGNE) */
 .curiosities-header {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
-  gap: 2rem;
-  padding-bottom: 2rem;
-  margin-bottom: 2.5rem;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
   border-bottom: 1px solid rgba(212, 175, 55, 0.25);
   background: linear-gradient(180deg, rgba(212, 175, 55, 0.05) 0%, transparent 100%);
   border-radius: 8px 8px 0 0;
-  padding: 1.8rem 2rem 1.8rem;
+  padding: 1.1rem 1.6rem;
 }
 
 .curiosities-badge-tag {
@@ -10521,47 +10520,48 @@ body {
 
 .curiosities-main-title {
   font-family: 'Cinzel', serif;
-  font-size: 2.3rem;
+  font-size: 1.85rem;
   font-weight: 700;
-  letter-spacing: 1.5px;
+  letter-spacing: 1.2px;
   color: #fff;
-  margin: 0 0 0.5rem;
+  margin: 0 0 0.25rem;
   text-shadow: 0 2px 14px rgba(0, 0, 0, 0.8), 0 0 30px rgba(212, 175, 55, 0.2);
 }
 
 .curiosities-tagline {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 1.15rem;
+  font-size: 1.05rem;
   font-style: italic;
   color: #c5a059;
   margin: 0;
-  max-width: 720px;
-  line-height: 1.45;
+  max-width: 680px;
+  line-height: 1.35;
 }
 
 .curiosities-controls-bar {
   display: flex;
   align-items: center;
-  gap: 12px;
-  flex-wrap: wrap;
+  gap: 8px;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
 }
 
-/* COMPTE À REBOURS 10S */
+/* COMPTE À REBOURS */
 .curiosities-timer-indicator {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 6px;
   background: rgba(10, 13, 20, 0.85);
   border: 1px solid rgba(212, 175, 55, 0.35);
-  padding: 6px 14px;
-  border-radius: 30px;
+  padding: 5px 10px;
+  border-radius: 20px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
 }
 
 .timer-pie-wrap {
   position: relative;
-  width: 32px;
-  height: 32px;
+  width: 26px;
+  height: 26px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10589,33 +10589,34 @@ body {
 
 .timer-num {
   position: absolute;
-  font-size: 0.65rem;
+  font-size: 0.62rem;
   font-weight: 700;
   color: var(--gold-pure);
   font-family: 'Cinzel', serif;
 }
 
 .timer-label {
-  font-size: 0.72rem;
+  font-size: 0.68rem;
   color: #cbd5e1;
   letter-spacing: 0.5px;
   text-transform: uppercase;
   font-family: 'Cinzel', serif;
 }
 
-/* BOUTONS DE CONTRÔLE */
+/* BOUTONS DE CONTRÔLE COMPACTS */
 .btn-curio-ctrl {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
-  padding: 8px 16px;
+  gap: 6px;
+  padding: 6px 12px;
   background: rgba(15, 20, 28, 0.85);
   border: 1px solid rgba(212, 175, 55, 0.35);
   border-radius: 4px;
   color: #e2e8f0;
   font-family: 'Cinzel', serif;
-  font-size: 0.75rem;
-  letter-spacing: 1px;
+  font-size: 0.72rem;
+  letter-spacing: 0.8px;
+  white-space: nowrap;
   cursor: pointer;
   transition: all 0.25s ease;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
@@ -10643,6 +10644,7 @@ body {
 
 .btn-curio-back {
   border-color: rgba(255, 255, 255, 0.2);
+}
 }
 
 /* SECTIONS UNIFIÉES DU CABINET */

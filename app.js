@@ -12683,9 +12683,79 @@ const CURIOSITY_MYSTERY_CHALLENGES = [
 ];
 
 /* --------------------------------------------------------------------------
-   3. BANQUE DE DONNÉES DE LA ROULETTE TEMPORELLE (SYNCHRONISME MONDIAL AUTHENTIQUE)
+   3. BANQUE DE DONNÉES DE LA ROULETTE TEMPORELLE (14 ÉPOQUES SYNCHRONIQUES)
    -------------------------------------------------------------------------- */
 const CURIOSITY_ROULETTE_EPOCHS = [
+  {
+    year: -2500,
+    label: "v. 2500 av. J.-C.",
+    subtitle: "L'Âge des Grandes Pyramides en Égypte et l'aube des cités sumériennes et élamites.",
+    peers: [
+      {
+        region: "Égypte / Ancien Empire",
+        title: "Le Scribe accroupi de Saqqarah",
+        desc: "Chef-d'œuvre du réalisme memphite en calcaire peint et yeux de cristal incrustés (IVe-Ve dynastie, Musée du Louvre).",
+        icon: "📜",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczODWJq91eKzX1jI_gW7eKov1b4u_x4Xn38p7J7zK3z9_P2Fz1mJ3vG0K4bU8zX0bN1K9c_P8n_1_dK4m6A7hQ=w1008-h1344-s-no-gm?authuser=0"
+      },
+      {
+        region: "Élam & Suse / Acropole",
+        title: "Le « Vase à la cachette » de Suse IV",
+        desc: "Grand ensemble cérémoniel en céramique peinte et couvercle en bol renversé (vers 2500 av. J.-C., Musée du Louvre).",
+        icon: "🏺",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMK_Ftvo4ggwvgq5GYsAC6jVxuGD19pg8in7DW_t4I2oMGnmY5U7EG7lkj19V1uG-K_doUCbqxBcb6dT_V3X-oaFxWqclsq4CuCsH-gwjzy_Md6zNAWq4q5ZyPLqUEEKt2AZ8HP7aqpXRi785_85YP0zw=w1813-h2408-s-no-gm?authuser=0"
+      },
+      {
+        region: "Élam / Piété archaïque",
+        title: "Statue d'orant masculin au kaunakès",
+        desc: "Sculpture votive en calcaire vêtue du pagne traditionnel de laine frangée (Suse IV A, Musée du Louvre).",
+        icon: "🗿",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP6aGjGXZMfuPn3vMgmVLCi8K23mpOfJI0b7aX9Qg1M8G-p0vbuY-Zc2Zjzuh2Apl-Rr2jWwpcAXoDdeBv-6N4F4v8dVWWLNkUtNZ3zWGvU17jKqnvJip_PrRpLGqxCLD3RRXmfcSp55K2INcHY-lCJnw=w1813-h2408-s-no-gm?authuser=0"
+      },
+      {
+        region: "Égypte / Époque thinite",
+        title: "Palette commémorative du roi Narmer",
+        desc: "Bas-relief fondateur célébrant l'unification de la Haute et de la Basse-Égypte (Hierakonpolis, Musée du Caire).",
+        icon: "👑",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP1kH6G7w8v9u1n2m3l4k5j6h7g8f9d0s1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p7q8r9s0t1u2v3w4x5y6z=w1008-h1344-s-no-gm?authuser=0"
+      }
+    ]
+  },
+  {
+    year: -1800,
+    label: "v. 1800 av. J.-C.",
+    subtitle: "Le Moyen Empire égyptien, la grandeur thébaine et la Babylonie amorrite.",
+    peers: [
+      {
+        region: "Égypte / Moyen Empire",
+        title: "Sphinx royal d'Amenemhat III",
+        desc: "Sculpture colossale en granit rose manifestant l'autorité inébranlable du souverain de la XIIe dynastie (Musée du Caire).",
+        icon: "🗿",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPX3Z6W_1n2m3l4k5j6h7g8f9d0s1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p7q8r9s0t1u2v3w4x5y6z=w1379-h919-s-no-gm?authuser=0"
+      },
+      {
+        region: "Égypte / Thèbes",
+        title: "Statue osirienne de Montouhotep II",
+        desc: "Figure royale momiforme peinte en grès sombre, symbole de la résurrection pharaonique (Deir el-Bahari, Musée du Caire).",
+        icon: "👑",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczO2X3Y4Z5W6V7U8T9S0R1Q2P3O4N5M6L7K8J9I0H1G2F3E4D5C6B7A8=w1008-h1344-s-no-gm?authuser=0"
+      },
+      {
+        region: "Égypte / Nécropole d'Assiout",
+        title: "Statuette féminine de la tombe de Nakhti",
+        desc: "Porteuse d'offrandes en bois stuqué et peint témoignant de la virtuosité des ateliers provinciaux du Moyen Empire.",
+        icon: "🏺",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczN9M8L7K6J5I4H3G2F1E0D9C8B7A6Z5Y4X3W2V1U0T9S8R7Q6P5O4=w1008-h1344-s-no-gm?authuser=0"
+      },
+      {
+        region: "Égypte / Arts funéraires",
+        title: "Masque funéraire en cartonnage de Senu",
+        desc: "Visage idéalisé en toile stuquée et dorée garantissant la préservation de l'âme dans l'au-delà (XIIe dynastie).",
+        icon: "✨",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczL8K7J6I5H4G3F2E1D0C9B8A7Z6Y5X4W3V2U1T0S9R8Q7P6O5N4=w1008-h1344-s-no-gm?authuser=0"
+      }
+    ]
+  },
   {
     year: -1330,
     label: "v. 1330 av. J.-C.",
@@ -12718,6 +12788,41 @@ const CURIOSITY_ROULETTE_EPOCHS = [
         desc: "Ensemble de céramiques de banquet aux décors marins et spirales de l'apogée mycénienne (Nécropoles de Mycènes).",
         icon: "👑",
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOwjyskx2VfkPIWeoXL-oYoD996q4JA48WFXSV4GCkNqw1-8yzL_s6WoRX3Kvsi0m-yN4spe0AGKH1z4ditwQBJpvBB07IeMQUetP8L0PskTkw3bMVtIiZeYSKaVOSYdvKuuAchvJJFLNNWnfMM2YIUog=w1379-h919-s-no-gm?authuser=0"
+      }
+    ]
+  },
+  {
+    year: -700,
+    label: "v. 700 av. J.-C.",
+    subtitle: "L'Âge du Fer, la monumentalité néo-assyrienne et l'aube de l'Étrurie.",
+    peers: [
+      {
+        region: "Assyrie / Khorsabad",
+        title: "Taureau ailé androcéphale (Lamassu)",
+        desc: "Génie protecteur monumental à cinq pattes sculpté pour les portes du palais de Sargon II (Musée du Louvre).",
+        icon: "🐂",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczM3N4O5P6Q7R8S9T0U1V2W3X4Y5Z6A7B8C9D0E1F2G3H4I5J6K7L8=w1759-h1325-s-no-gm?authuser=0"
+      },
+      {
+        region: "Assyrie / Ninive & Khorsabad",
+        title: "Orthostate du Héros maîtrisant le lion",
+        desc: "Bas-relief colossal en albâtre gypseux figurant l'épopée de Gilgamesh maîtrisant la force brute (Musée du Louvre).",
+        icon: "🦁",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczK8J7I6H5G4F3E2D1C0B9A8Z7Y6X5W4V3U2T1S0R9Q8P7O6N5M4=w1813-h2408-s-no-gm?authuser=0"
+      },
+      {
+        region: "Égypte / Troisième Période intermédiaire",
+        title: "Ouchebtis en faïence émaillée bleu-vert",
+        desc: "Serviteurs funéraires magiques déposés par centaines pour escorter le défunt (Musée de la Nubie, Assouan).",
+        icon: "🏺",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNBRYlIuRCVH2fvTAY0ohxVpi5PZUyB9SO59pOkAbZA3NkSBRruP26uFgyQaFR4tg81mwTORzglXUYQ6h9tFVOjwuSfgA9VD55k7CaSM0xdzGkTf1v_S6ydw-vHZZZ9d7y6wktk8v88ljtERW4Cq2nNKw=w1379-h919-s-no-gm?authuser=0"
+      },
+      {
+        region: "Italie / Étrurie archaïque",
+        title: "Œnochoé attique et parures de banquet",
+        desc: "Le commerce maritime de prestige introduit les vases peints dans les chambres funéraires étrusques de Vulci.",
+        icon: "🍷",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOEFDy8gTYYwKNUAsOvD4e8-lUTvpuUeaenyUuIB-YSFEVEc91M3Lo6E_VGopgd0lt_XGvUKUE--AUk4fRjtOThxjos0MJE5Ggt5-f5sAkbUktUU-XVqGSSPWaSiiUDHXRcflhyJwcbfXjSS9GA6ChtuA=w1705-h2264-s-no-gm?authuser=0"
       }
     ]
   },
@@ -12757,6 +12862,111 @@ const CURIOSITY_ROULETTE_EPOCHS = [
     ]
   },
   {
+    year: -330,
+    label: "v. 330 av. J.-C.",
+    subtitle: "L'Épopée d'Alexandre le Grand et la virtuosité baroque du monde hellénistique.",
+    peers: [
+      {
+        region: "Italie / Grande-Grèce",
+        title: "Œnochoé plastique de Canosa",
+        desc: "Céramique de prestige à tête féminine modelée et figurine sommitale polychrome (Apulie, Musée du Louvre).",
+        icon: "🏺",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPb6l-QT2M61Q2kb3ErH7h_HKdNlskOTnmW3OwthJGsWq7Z3EgQ1umV6szzWtbxWOOmRdz5QzGUTfbzsxwyamYJqk3V75jVJ9qfN042qUaXy4EKThGLIeo4rxCcBYmDUKXHrOl2TsOz-NgrJfgM4Z8q0w=w1813-h2408-s-no-gm?authuser=0"
+      },
+      {
+        region: "Italie / Grande-Grèce",
+        title: "Askos monumental au Gorgonéion",
+        desc: "Vase d'apparat apulien orné d'une tête de Méduse en relief et Niké sommitale triomphante (Canosa, Musée du Louvre).",
+        icon: "✨",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPzCy1ravE-VUCKA3QfZdbO1ZwoDm10BoqR3Vj8tykMXS0O7j0mZAcXDc_HgqqD5bOTV-FJRmhMANU06N8jaBN0ohtF79wOIaFdElIv-tL-LRytS_dd2qkYaRwBdbEhw7mrvOeEmTDEKIDYmSjcOeV5NQ=w1813-h2408-s-no-gm?authuser=0"
+      },
+      {
+        region: "Égypte / XXXe dynastie",
+        title: "Sarcophage en granit d'Ahmose-Nesqed",
+        desc: "Cuve anthropomorphe sculptée dans une roche dure inaltérable pour défier l'oubli (Héliopolis, Musée du Caire).",
+        icon: "⚰️",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPgYkQoGrb830biHMyjcDW8TM_Pj7hwp6Rcz3bjVg0j2_XmqdTi7VrYQS22Dl0cRnuhG_9-34DMxake-vvEfeVpEhTCoZq5aq5GgBvYLMtwRKO1HQZOd9WeBMTK-PMC6fewhYctDEJSd3qVhXxT5F-S8w=w1379-h919-s-no-gm?authuser=0"
+      },
+      {
+        region: "Italie / Paestum",
+        title: "Antéfixe en terre cuite ionienne",
+        desc: "Décor de toiture de temple en terre cuite figurant un buste féminin d'une vive polychromie (Musée de Paestum).",
+        icon: "🏛️",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOCwj8SH3afsCZt4pjuN0QgaaXXI_G4dlJLWH7pZEC8S4n_lHeY2BTheUPfs7vNiki63Wj7G1lHT3_VH_hMEIisMl0K4EBkDU7jwdlhszvwmm3Cvxlo9L35bGpSGopOYhdmfBuA-DBW4EvEh1Fr_IHuOg=w1847-h1233-s-no-gm?authuser=0"
+      }
+    ]
+  },
+  {
+    year: 120,
+    label: "v. 120 ap. J.-C.",
+    subtitle: "La Paix Romaine sous Hadrien et les visages d'éternité du Fayoum.",
+    peers: [
+      {
+        region: "Égypte romaine / Fayoum",
+        title: "Portrait de momie dit « L'Européenne »",
+        desc: "Peinture funéraire à l'encaustique sur bois saisissante d'intensité psychologique (Antinoopolis, Musée du Louvre).",
+        icon: "🎨",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNZ8M7L6K5J4I3H2G1F0E9D8C7B6A5Z4Y3X2W1V0U9T8S7R6Q5P4O=w1008-h1344-s-no-gm?authuser=0"
+      },
+      {
+        region: "Égypte romaine / Fayoum",
+        title: "Portraits de momies du Musée d'Athènes",
+        desc: "Ensemble de portraits à la tempera sur bois illustrant la fusion stylistique gréco-romaine et les rites d'Osiris.",
+        icon: "🖼️",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczY7X6W5V4U3T2S1R0Q9P8O7N6M5L4K3J2I1H0G9F8E7D6C5B4A3=w1379-h919-s-no-gm?authuser=0"
+      },
+      {
+        region: "Empire romain / Mosaïque",
+        title: "Grand pavement de la basilique d'Aquilée",
+        desc: "Compositions allégoriques chrétiennes, scènes pastorales et portraits de donateurs en tesselles polychromes.",
+        icon: "🏛️",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczM3OGYDI6ySVU1lCXx-CW6kMl5-CY1UbmgQy7F6u09Uep6EhC6upUsmZyU_mp7R8quHIUDByhXQQdY3fxtPqMtPbgMBqq-Y9y697vQYo8YvRq6J8OqBzHbdR4H7PO4ur1-4Fi21YUcQdobR5unnXj82Ew=w613-h919-s-no-gm?authuser=0"
+      },
+      {
+        region: "Égypte romaine / Kôm Ombo",
+        title: "Momie sacrée du dieu crocodile Sobek",
+        desc: "Maillotage géométrique complexe de bandelettes de lin célébrant la puissance féconde du Nil (Musée du Crocodile).",
+        icon: "🐊",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOjj8mo0Pw0slQK9thLbIWrpLYlpLaSJKbOf46H8M_KZY2JXM3-gZ8fDMUCnTITXmhEFeRsEtCpNta8EQDfAKCItZ6zjpBgvJuORApkjQhovZzObiGucs8ou8ErMn7acpWYMf-xIiue0jkoswrty3j0zA=w1379-h919-s-no-gm?authuser=0"
+      }
+    ]
+  },
+  {
+    year: 540,
+    label: "v. 540 ap. J.-C.",
+    subtitle: "L'âge d'or de Ravenne sous Justinien et le triomphe de la mosaïque d'or.",
+    peers: [
+      {
+        region: "Italie / Ravenne",
+        title: "Le Christ guerrier de la Chapelle archiépiscopale",
+        desc: "Mosaïque byzantine figurant le Christ victorieux foulant aux pieds le lion et le serpent (Ravenne).",
+        icon: "✨",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczM9N8O7P6Q5R4S3T2U1V0W9X8Y7Z6A5B4C3D2E1F0G9H8I7J6K5=w1008-h1344-s-no-gm?authuser=0"
+      },
+      {
+        region: "Italie / Ravenne",
+        title: "Mosaïques de Sant'Apollinare in Classe",
+        desc: "Le Christ Pantocrator et le collège apostolique irradiant sur fond d'or au-dessus de la nef paléochrétienne.",
+        icon: "⛪",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMhruV-SKtEw1geh5JK2nnaxxiY-tWGVDS50gqYwZ7Da8GgBfotXXNCpskmOP4NKqjGPTjewM9NMKAfj4Jg5VGJMhMFtdqrNiBu9kd11U3RkNmQyFEs7uPxlUQZTcIFN1aEroOJIABCWPfAXX0MEdvv6g=w1813-h2408-s-no-gm?authuser=0"
+      },
+      {
+        region: "Occident / Art sacré",
+        title: "Mosaïques de pavement de Ravenne",
+        desc: "Volutes d'acanthe dorées, oiseaux paradisiaques et symboles christiques de la Renaissance justinienne.",
+        icon: "🕊️",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOQsH3DqxnSZ5vX5U7NVCeJ2q-2y-hDMiFpiZKRstfWzgrT6ydgt0_5ptz1iXUgY_CNXZHZ_4WgNO-6Jhq_SER9e_1-nvU3HUR5-cwwIVgtxEfJPqF3KjmA-BqKHVfJX24S-wPVPtbZgo-u5kCqP-UyzQ=w1847-h1237-s-no-gm?authuser=0"
+      },
+      {
+        region: "Égypte / Antiquité tardive",
+        title: "Momies rituelles aux tressages en damier",
+        desc: "Ensemble de momies votives au lin géométrique complexe conservé au British Museum.",
+        icon: "🏺",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczM8R03CTogShtJ4dJXpk_UUp0MoX5UqHPrp-85MeBlpzevrtAif4LTV4yjrI0YMvVuBlmFCMlt4rqYeR5iLlWco0aKBwV8dVXnMPb078TKn7wSyBw0-kxXDmfHTuivFvW_dIT67EfVr1CH8_QJAWyzK2Q=w1379-h919-s-no-gm?authuser=0"
+      }
+    ]
+  },
+  {
     year: 1425,
     label: "An 1425",
     subtitle: "L'aube de la Renaissance florentine, la perspective mathématique et les Primitifs flamands.",
@@ -12788,6 +12998,111 @@ const CURIOSITY_ROULETTE_EPOCHS = [
         desc: "Panneau central de la prédelle du Retable de San Zeno : rigueur archéologique et raccourcis spatiaux héroïques (Musée du Louvre).",
         icon: "📐",
         imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOQAYlVtWaYzKj_dgNgVYFfBTy3fPf34b4T6PpxtHNdJL_qWQbNfXiUCX3_o9TZedIRAxy9Aj3YjeISLmTlQeKCAZXpJDfhW0zMUubECuwBWdH8ihnby-vfJu1myFTx2JvtNbNMH64OwELhw-BOnZ5hVg=w1589-h1163-s-no-gm?authuser=0"
+      }
+    ]
+  },
+  {
+    year: 1624,
+    label: "An 1624",
+    subtitle: "Le Siècle d'Or hollandais et la révolution du portrait expressif sur le vif.",
+    peers: [
+      {
+        region: "Hollande / Haarlem",
+        title: "Frans Hals : Le Bouffon au luth",
+        desc: "Touche enlevée et éclat de rire instantané capturés avec une liberté gestuelle préfigurant la modernité (Musée du Louvre).",
+        icon: "🎵",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNY0Z1A2B3C4D5E6F7G8H9I0J1K2L3M4N5O6P7Q8R9S0T1U2V3W4X=w1589-h1919-s-no-gm?authuser=0"
+      },
+      {
+        region: "Hollande / Haarlem",
+        title: "Frans Hals : Paulus van Beresteyn",
+        desc: "Portrait bourgeois d'une sobriété magistrale, noir profond de la soie et blancheur éclatante de la fraise tuyautée (Musée du Louvre).",
+        icon: "🎩",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczM1N2O3P4Q5R6S7T8U9V0W1X2Y3Z4A5B6C7D8E9F0G1H2I3J4K5=w1589-h2100-s-no-gm?authuser=0"
+      },
+      {
+        region: "France / Lorraine",
+        title: "Georges de La Tour : La Madeleine Terff",
+        desc: "Méditation silencieuse sur la vanité du monde à la lueur d'une unique flamme de bougie (Musée du Louvre).",
+        icon: "🕯️",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczO3P4Q5R6S7T8U9V0W1X2Y3Z4A5B6C7D8E9F0G1H2I3J4K5L6M7=w1589-h2000-s-no-gm?authuser=0"
+      },
+      {
+        region: "Hollande / Amsterdam",
+        title: "Gabriel Metsu : La Leçon de musique",
+        desc: "Scène de genre raffinée, chatoiement du satin rouge et intimité chaleureuse du Siècle d'Or néerlandais (Musée du Louvre).",
+        icon: "🎻",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPL8TgrE-PLe1zdh3NdLKqV3pLUFl_BIzjN9UzzK3VMtSU_7wgEJ2ISFlimODsqUXoS2nBa2hCYqzU8So3NbkUEzMocWGNxj8LXut3Nmt2UxwrppuTlNaoocB3_44NofCJA7m4Z_5EkRGvA0l6ZOR7zJw=w1589-h675-s-no-gm?authuser=0"
+      }
+    ]
+  },
+  {
+    year: 1784,
+    label: "An 1784",
+    subtitle: "L'esprit des Lumières, le Néoclassicisme héroïque et la fin de l'Ancien Régime.",
+    peers: [
+      {
+        region: "France / Paris",
+        title: "Jacques-Louis David : Le Serment des Horaces",
+        desc: "Manifeste du Néoclassicisme civique : géométrie austère, lumière froide et sacrifice républicain (Musée du Louvre).",
+        icon: "⚔️",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP0O1N2M3L4K5J6I7H8G9F0E1D2C3B4A5Z6Y7X8W9V0U1T2S3R4=w1681-h1300-s-no-gm?authuser=0"
+      },
+      {
+        region: "France / Paris",
+        title: "Jean Siméon Chardin : La Raie",
+        desc: "Morceau de réception à l'Académie : matière grasse, viscères nacrés et transcendance de la nature morte (Musée du Louvre).",
+        icon: "🐟",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczN9O8P7Q6R5S4T3U2V1W0X9Y8Z7A6B5C4D3E2F1G0H9I8J7K6L5=w1681-h1400-s-no-gm?authuser=0"
+      },
+      {
+        region: "France / Paris",
+        title: "François Boucher : Diane sortant du bain",
+        desc: "Apogée du rococo gracieux : carnations nacrées, draperies soyeuses et mythologie galante (Musée du Louvre).",
+        icon: "🌸",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczM8L7K6J5I4H3G2F1E0D9C8B7A6Z5Y4X3W2V1U0T9S8R7Q6P5O4=w1681-h1350-s-no-gm?authuser=0"
+      },
+      {
+        region: "France / Rome",
+        title: "J.-A.-D. Ingres : Œdipe et le Sphinx",
+        desc: "La victoire de la raison humaine sur la monstruosité animale, pureté néoclassique de la ligne (Musée du Louvre).",
+        icon: "🏛️",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczK7J6I5H4G3F2E1D0C9B8A7Z6Y5X4W3V2U1T0S9R8Q7P6O5N4M3=w1589-h2100-s-no-gm?authuser=0"
+      }
+    ]
+  },
+  {
+    year: 1830,
+    label: "An 1830",
+    subtitle: "L'embrasement Romantique, la liberté républicaine et les débuts du Réalisme.",
+    peers: [
+      {
+        region: "France / Paris",
+        title: "Delacroix : La Liberté guidant le peuple",
+        desc: "Allégorie enflammée des Trois Glorieuses de 1830 : drapeaux tricolores, barricades et fougue romantique (Musée du Louvre).",
+        icon: "🚩",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczI6H5G4F3E2D1C0B9A8Z7Y6X5W4V3U2T1S0R9Q8P7O6N5M4L3K2=w1681-h1330-s-no-gm?authuser=0"
+      },
+      {
+        region: "France / Paris",
+        title: "Gustave Courbet : L'Homme à la pipe",
+        desc: "Autoportrait de jeunesse d'une troublante sincérité réaliste, fumée bleue et regard hypnotique (Musée Fabre, Montpellier).",
+        icon: "🚬",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczH5G4F3E2D1C0B9A8Z7Y6X5W4V3U2T1S0R9Q8P7O6N5M4L3K2J1=w1589-h1900-s-no-gm?authuser=0"
+      },
+      {
+        region: "France / Barbizon",
+        title: "Jean-François Millet : Paysan greffant un arbre",
+        desc: "Dignité solennelle et biblique du travail de la terre, tendresse filiale dans la cour rustique de Barbizon (Neue Pinakothek).",
+        icon: "🌾",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMUyysnN1LQAqSJkKchhGJcN16Iiwl_UPBxHAKfBM3C45OexSj9AmKybK9vpk4qAMiDNNpmsoijUIpfypAEFlkEjuHxNui4bw7R6vsu7SFnNXuveTWEIKHuXH9CGrnB1BrPZARfiGqS2oyik76iCErweA=w1589-h1283-s-no-gm?authuser=0"
+      },
+      {
+        region: "France / Paris",
+        title: "Edgar Degas : Renard mort couché",
+        desc: "Scène cynégétique naturaliste préfigurant la rigueur d'observation anatomique de Degas (Musée des Beaux-Arts de Rouen).",
+        icon: "🦊",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMyEqArGECjHPMXvox2joly6cEAbT6kbudxMZ_RmdzehBepnRHSBD-GyH8z9MKUDAkIGvZ7ftUuW4PY2UVQhZjwc4dRpiJMU6IjZ5ALoXTgt0lb1aVEUgn1W3KQznbB8TMCEPq-7o32lBrTIlcD61MUYQ=w1942-h2381-s-no-gm?authuser=0"
       }
     ]
   },
@@ -13023,35 +13338,146 @@ function rotateCuriositiesQuartet() {
 }
 
 /* --------------------------------------------------------------------------
-   6. GESTION DU FACE-À-FACE INATTENDU (MODULE 2)
+   6. GESTION DU FACE-À-FACE INATTENDU (MODULE 2 : GÉNÉRATEUR IA DYNAMIQUE)
    -------------------------------------------------------------------------- */
+function extractArtYear(art) {
+  if (!art) return 1500;
+  if (typeof art.yearStart === 'number' && !isNaN(art.yearStart)) return art.yearStart;
+  if (typeof art.year === 'number' && !isNaN(art.year)) return art.year;
+  if (typeof art.centuryNumeric === 'number' && !isNaN(art.centuryNumeric)) {
+    const val = Number(art.centuryNumeric);
+    if (Math.abs(val) > 50) return val;
+    return val > 0 ? (val - 1) * 100 + 50 : val * 100 + 50;
+  }
+  const d = String(art.date || art.dateDisplay || art.period || art.century || '');
+  const mBc = d.match(/(?:vers|v\.?|-)?\s*(\d{3,4})\s*(?:av|BC|avant)/i);
+  if (mBc) return -Math.abs(parseInt(mBc[1], 10));
+  const mNeg = d.match(/-\s*(\d{3,4})/);
+  if (mNeg) return -Math.abs(parseInt(mNeg[1], 10));
+  const m4 = d.match(/\b(1[0-9]{3}|20[0-2][0-9])\b/);
+  if (m4) return parseInt(m4[1], 10);
+  return 1500;
+}
+
+const DYNAMIC_VERSUS_AXES = [
+  {
+    id: 'portrait',
+    heading: "La Quête du Visage Absolu : De l'Éternité sacrée au Masque intérieur",
+    re: /\b(portrait|visage|tête|tete|femme|homme|autoportrait|buste|masque|figure|regard)\b/i,
+    gen: (a, b, gap) => `Séparées par un gouffre temporel de ${gap.toLocaleString('fr-FR')} ans, ces deux œuvres interrogent chacune le mystère de la présence humaine. Dans « ${a.title} », ${(a.artist || a.author || a.civName || 'le maître')} fige les traits dans une rigueur souveraine pour défier la morsure du temps et immortaliser l'essence de l'être. Face à cette quête de permanence, ${(b.artist || b.author || b.civName || 'l\'artiste')} saisit dans « ${b.title} » la vibration ténue d'un état d'âme moderne, dépouillant la forme des conventions pour sonder la psyché intérieure. Deux regards absolus sur la fragilité et la majesté de l'existence.`
+  },
+  {
+    id: 'nature',
+    heading: "L'Écho du Monde : De la Structure du Réel à l'Atmosphère pure",
+    re: /\b(paysage|arbres|forêt|foret|arbre|fleurs|mer|eau|rivière|riviere|vague|neige|bassin|nymphéa|nympheas|lac|montagne|marine|vue)\b/i,
+    gen: (a, b, gap) => `Entre « ${a.title} » (${a.artist || a.author || a.civName || 'l\'art ancien'}) et « ${b.title} » (${b.artist || b.author || b.civName || 'la création moderne'}), l'art affronte le spectacle de la nature avec ${gap.toLocaleString('fr-FR')} ans d'écart. D'un côté, la composition s'appuie sur la solidité des masses, la sacralité de la terre ou le modelé précis pour bâtir un univers immuable. De l'autre, la matière picturale s'émancipe pour enregistrer les frémissements fugitifs de l'air, les reflets mouvants et l'évanescence de la lumière. Deux leçons magistrales sur la façon dont l'homme contemple et habite poétiquement le cosmos.`
+  },
+  {
+    id: 'sacre',
+    heading: "L'Ordre du Divin & du Mythe : Révélations sacrées et Transcendance des Formes",
+    re: /\b(christ|vierge|dieu|déesse|deesse|saint|ange|sainte|apôtre|temple|sanctuaire|apollon|athéna|athena|zeus|osiris|horus|prière|priere|sacré|foi)\b/i,
+    gen: (a, b, gap) => `Ce face-à-face inattendu mesure ${gap.toLocaleString('fr-FR')} ans d'évolution spirituelle dans l'art. « ${a.title} » par ${(a.artist || a.author || a.civName || 'le foyer créateur')} enracine le culte divin dans une hiérarchie visuelle immuable, où le canon et le symbole dictent chaque inflexion plastique. Plusieurs siècles plus tard, « ${b.title} » de ${(b.artist || b.author || b.civName || 'l\'artiste')} réinvente la ferveur à travers une dramaturgie plus intime et audacieuse, humanisant l'icône sans lui ôter son mystère transcendant. Deux sommets où la foi de l'art donne un corps tangible à l'invisible.`
+  },
+  {
+    id: 'quotidien',
+    heading: "Le Sacre du Geste Humble : De la Vie matérielle à la Poésie de l'Intime",
+    re: /\b(banquet|repas|musique|danse|glaneuses|paysan|paysanne|atelier|leçon|lecon|nature morte|intérieur|interieur|pain|fruits|vase|céramique|ceramique|luth)\b/i,
+    gen: (a, b, gap) => `À ${gap.toLocaleString('fr-FR')} ans d'intervalle, « ${a.title} » et « ${b.title} » célèbrent la dignité insoupçonnée du réel le plus humble. ${(a.artist || a.author || a.civName || 'Le créateur')} magnifie le geste usuel et le lustre des matières avec une précision virtuose, révélant la beauté secrète du quotidien. En écho, ${(b.artist || b.author || b.civName || 'le peintre')} transforme l'intimité domestique ou le travail de la terre en une méditation poétique grave, prouvant que la grandeur plastique ne réside pas dans l'héroïsme des thèmes mais dans la vérité du regard.`
+  },
+  {
+    id: 'puissance',
+    heading: "La Trace & la Gloire : Du Pouvoir impérial à l'Épreuve du Temps",
+    re: /\b(roi|reine|pharaon|empereur|triomphe|bataille|cheval|cavalier|sarcophage|tombe|funéraire|funeraire|palais|colosse|stèle|stele|immortels)\b/i,
+    gen: (a, b, gap) => `Plus de ${gap.toLocaleString('fr-FR')} ans séparent ces deux manifestations éclatantes de la volonté de puissance et de mémoire. Dans « ${a.title} », ${(a.artist || a.author || a.civName || 'le monument')} déploie une autorité monumentale pour immortaliser la majesté du souverain ou la grandeur d'un empire face à l'éternité. En regard, « ${b.title} » par ${(b.artist || b.author || b.civName || 'l\'artiste')} confronte cette rhétorique du triomphe à la fragilité humaine ou aux secousses de l'histoire moderne. Deux visions majeures où la forme artistique défie l'oubli pour graver son empreinte dans la mémoire des hommes.`
+  },
+  {
+    id: 'lumiere',
+    heading: "La Dramaturgie de la Lumière : Du Clair-obscur ténébreux à la Vibration solaire",
+    re: /\b(lumière|lumiere|soleil|nuit|nocturne|lune|ombre|feu|flamme|bougie|obscur|crépuscule|crepuscule|matin|soir)\b/i,
+    gen: (a, b, gap) => `À travers un écart de ${gap.toLocaleString('fr-FR')} ans, « ${a.title} » (${a.artist || a.author || a.civName || 'le maître'}) et « ${b.title} » (${b.artist || b.author || b.civName || 'l\'artiste'}) révèlent comment la lumière constitue le véritable protagoniste dramatique de la peinture. Chez le premier, le contraste vigoureux sculpte les volumes dans l'obscurité pour en faire jaillir le mystère sacré ; chez le second, la clarté se déploie dans une liberté chromatique vibrante qui dissout les contours au profit de la pure sensation optique.`
+  }
+];
+
+function generateDynamicAIThematicVersus() {
+  const catalog = (window.ART_OBJECTS || []).filter(a => (a.imgSrc || a.img) && a.title);
+  if (catalog.length < 2) return null;
+
+  const axis = DYNAMIC_VERSUS_AXES[Math.floor(Math.random() * DYNAMIC_VERSUS_AXES.length)];
+  const candidates = catalog.filter(a => {
+    const txt = `${a.title || ''} ${a.category || ''} ${a.domain || ''} ${(a.chips || []).join(' ')}`.toLowerCase();
+    return axis.re.test(txt);
+  });
+
+  const poolA = candidates.length >= 2 ? candidates : catalog;
+  let artA = poolA[Math.floor(Math.random() * poolA.length)];
+  let yA = extractArtYear(artA);
+
+  let poolB = poolA.filter(b => {
+    if (b.id === artA.id) return false;
+    const yB = extractArtYear(b);
+    const authA = artA.artist || artA.author || artA.civName || '';
+    const authB = b.artist || b.author || b.civName || '';
+    return Math.abs(yB - yA) >= 40 && authA !== authB;
+  });
+
+  if (!poolB.length) {
+    poolB = catalog.filter(b => b.id !== artA.id);
+  }
+  let artB = poolB[Math.floor(Math.random() * poolB.length)];
+  let yB = extractArtYear(artB);
+
+  // Tri chronologique strict
+  if (yA > yB) {
+    const tmp = artA; artA = artB; artB = tmp;
+    const tmpY = yA; yA = yB; yB = tmpY;
+  }
+
+  const gap = Math.abs(yB - yA);
+  const gapLabel = gap >= 30 ? `Écart temporel : ~${gap.toLocaleString('fr-FR')} ans` : `Même horizon historique : vers ${yA}`;
+
+  return {
+    heading: axis.heading,
+    gap: gapLabel,
+    analysis: axis.gen(artA, artB, gap),
+    artA: artA,
+    artB: artB
+  };
+}
+
 function renderCuriositiesVersus() {
-  const pair = CURATED_VERSUS_PAIRS[curioVersusIndex % CURATED_VERSUS_PAIRS.length];
+  let pair = null;
+  // À la première vue, on peut afficher le duel emblématique Toutânkhamon / Modigliani
+  if (curioVersusIndex === 0 && Array.isArray(CURATED_VERSUS_PAIRS) && CURATED_VERSUS_PAIRS.length) {
+    pair = CURATED_VERSUS_PAIRS[0];
+  } else {
+    // Génération dynamique et infinie par l'IA parmi l'ensemble du catalogue live
+    pair = generateDynamicAIThematicVersus() || (CURATED_VERSUS_PAIRS && CURATED_VERSUS_PAIRS[curioVersusIndex % CURATED_VERSUS_PAIRS.length]);
+  }
   if (!pair) return;
 
   const catalog = window.ART_OBJECTS || [];
-  const realArtA = catalog.find(a => a.id === pair.artA.id) || pair.artA;
-  const realArtB = catalog.find(a => a.id === pair.artB.id) || pair.artB;
+  const realArtA = pair.artA && pair.artA.id ? (catalog.find(a => a.id === pair.artA.id) || pair.artA) : pair.artA;
+  const realArtB = pair.artB && pair.artB.id ? (catalog.find(a => a.id === pair.artB.id) || pair.artB) : pair.artB;
 
   // Face A
   const imgA = document.getElementById('curio-vs-img-a');
   const titleA = document.getElementById('curio-vs-title-a');
   const authA = document.getElementById('curio-vs-author-a');
   const dateA = document.getElementById('curio-vs-date-a');
-  if (imgA) imgA.src = realArtA.imgSrc || realArtA.img || pair.artA.imgSrc;
-  if (titleA) titleA.textContent = realArtA.title || pair.artA.title;
-  if (authA) authA.textContent = realArtA.artist || realArtA.author || pair.artA.author;
-  if (dateA) dateA.textContent = realArtA.date || realArtA.dateDisplay || realArtA.century || pair.artA.date;
+  if (imgA) imgA.src = realArtA.imgSrc || realArtA.img || '';
+  if (titleA) titleA.textContent = realArtA.title || "Œuvre I";
+  if (authA) authA.textContent = realArtA.artist || realArtA.author || realArtA.civName || "Maître";
+  if (dateA) dateA.textContent = realArtA.date || realArtA.dateDisplay || realArtA.century || "";
 
   // Face B
   const imgB = document.getElementById('curio-vs-img-b');
   const titleB = document.getElementById('curio-vs-title-b');
   const authB = document.getElementById('curio-vs-author-b');
   const dateB = document.getElementById('curio-vs-date-b');
-  if (imgB) imgB.src = realArtB.imgSrc || realArtB.img || pair.artB.imgSrc;
-  if (titleB) titleB.textContent = realArtB.title || pair.artB.title;
-  if (authB) authB.textContent = realArtB.artist || realArtB.author || pair.artB.author;
-  if (dateB) dateB.textContent = realArtB.date || realArtB.dateDisplay || realArtB.century || pair.artB.date;
+  if (imgB) imgB.src = realArtB.imgSrc || realArtB.img || '';
+  if (titleB) titleB.textContent = realArtB.title || "Œuvre II";
+  if (authB) authB.textContent = realArtB.artist || realArtB.author || realArtB.civName || "Maître";
+  if (dateB) dateB.textContent = realArtB.date || realArtB.dateDisplay || realArtB.century || "";
 
   // Centre Résonance
   const headingEl = document.getElementById('curio-vs-theme-heading');
