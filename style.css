@@ -10854,15 +10854,19 @@ body {
 
 /* MODULE 2 : LE GRAND FACE-À-FACE INATTENDU */
 .curio-versus-arena {
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-  justify-content: center;
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: stretch !important;
+  gap: 1.6rem !important;
+  justify-content: center !important;
+  width: 100% !important;
 }
 
 .curio-versus-side {
-  flex: 1;
-  background: rgba(9, 12, 18, 0.9);
+  flex: 1 1 0 !important;
+  min-width: 0 !important;
+  max-width: 480px;
+  background: rgba(9, 12, 18, 0.95);
   border: 1px solid rgba(212, 175, 55, 0.25);
   border-radius: 6px;
   overflow: hidden;
@@ -10870,7 +10874,6 @@ body {
   flex-direction: column;
   transition: border-color 0.3s ease, transform 0.3s ease;
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.7);
-  max-width: 520px;
 }
 
 .curio-versus-side:hover {
@@ -10902,6 +10905,7 @@ body {
   padding: 1.4rem;
   display: flex;
   flex-direction: column;
+  flex: 1;
 }
 
 .vs-label {
@@ -10947,6 +10951,7 @@ body {
   letter-spacing: 1px;
   cursor: pointer;
   transition: all 0.2s ease;
+  margin-top: auto;
 }
 
 .btn-vs-inspect:hover {
@@ -10956,12 +10961,14 @@ body {
 }
 
 .curio-versus-center {
+  flex: 0 0 380px !important;
+  max-width: 440px !important;
+  min-width: 280px !important;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   text-align: center;
-  min-width: 220px;
-  max-width: 260px;
 }
 
 .vs-emblem {
@@ -10989,35 +10996,55 @@ body {
 }
 
 .vs-resonance-box {
-  background: rgba(14, 18, 26, 0.95);
-  border: 1px solid rgba(212, 175, 55, 0.3);
+  background: rgba(14, 18, 26, 0.98);
+  border: 1px solid var(--gold-pure);
   border-radius: 6px;
-  padding: 1.2rem 1rem;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  padding: 1.5rem 1.4rem;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.8), 0 0 20px rgba(212, 175, 55, 0.2);
+  width: 100%;
 }
 
 .vs-res-title {
   font-family: 'Cinzel', serif;
-  font-size: 0.62rem;
+  font-size: 0.65rem;
   letter-spacing: 2px;
   color: var(--gold-pure);
   display: block;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
+  text-transform: uppercase;
 }
 
-.vs-res-text {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 1.15rem;
-  font-style: italic;
+.vs-res-heading {
+  font-family: 'Cinzel', serif;
+  font-size: 1.05rem;
+  font-weight: 700;
   color: #fff;
-  margin: 0 0 10px;
+  margin: 0 0 8px;
   line-height: 1.35;
 }
 
 .vs-gap-tag {
   display: inline-block;
-  padding: 4px 10px;
+  padding: 4px 12px;
   background: rgba(212, 175, 55, 0.15);
+  border: 1px solid rgba(212, 175, 55, 0.4);
+  border-radius: 20px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: #fce8a6;
+  font-family: 'Cinzel', serif;
+  margin-bottom: 12px;
+}
+
+.vs-res-text {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.02rem;
+  font-style: italic;
+  color: #cbd5e1;
+  margin: 0;
+  line-height: 1.55;
+  text-align: justify;
+}
   border: 1px solid rgba(212, 175, 55, 0.35);
   border-radius: 20px;
   font-size: 0.72rem;
@@ -11508,14 +11535,6 @@ body {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .curio-versus-arena {
-    flex-direction: column;
-  }
-
-  .curio-versus-center {
-    margin: 1rem 0;
-  }
-
   .curio-mystery-arena {
     flex-direction: column;
     text-align: center;
@@ -11570,4 +11589,18 @@ body {
   .thematic-thumb-media {
     height: 150px;
   }
+}
+
+/* BOUTON GLOBAL DE RETOUR VERS LE CABINET DES CURIOSITÉS */
+.btn-header-curiosities {
+  background: rgba(212, 175, 55, 0.18) !important;
+  border: 1px solid var(--gold-pure) !important;
+  color: #fff !important;
+  font-weight: 700 !important;
+  box-shadow: 0 0 10px rgba(212, 175, 55, 0.3) !important;
+}
+
+.btn-header-curiosities:hover {
+  background: var(--gold-pure) !important;
+  color: #000 !important;
 }

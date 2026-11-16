@@ -21,7 +21,7 @@
     href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;900&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap"
     rel="stylesheet">
 
-  <link rel="stylesheet" href="style.css?v=7.4">
+  <link rel="stylesheet" href="style.css?v=7.5">
 
   <!-- Icônes pour l'application mobile et tablette -->
   <link rel="icon" type="image/jpeg" sizes="512x512" href="icon-512.jpeg">
@@ -54,6 +54,14 @@
           <rect x="14" y="3" width="7" height="18" rx="1" />
         </svg>
         <span>Hub</span>
+      </button>
+
+      <!-- Bouton Revenir au Cabinet des Curiosités -->
+      <button id="btn-nav-return-curiosities" class="btn-header-nav btn-header-curiosities" title="Revenir au Cabinet des Curiosités" style="display: none;">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+        </svg>
+        <span>Cabinet</span>
       </button>
 
       <div class="insignia-title">Atlas Visuel des Arts</div>
@@ -132,20 +140,19 @@
       <!-- EN-TÊTE & CONTRÔLES SUPÉRIEURS -->
       <header class="curiosities-header">
         <div class="curiosities-header-titles">
-          <div class="curiosities-badge-tag">✦ SÉRENDIPITÉ &amp; EXPLORATION ÉMERVEILLÉE ✦</div>
           <h1 class="curiosities-main-title">Cabinet des Curiosités</h1>
           <p class="curiosities-tagline">Voyages impromptus, analogies secrètes et découvertes fortuites à travers 5 000 ans d'histoire des arts.</p>
         </div>
 
         <div class="curiosities-controls-bar">
-          <!-- Indicateur de compte à rebours 10s -->
-          <div class="curiosities-timer-indicator" id="curiosities-timer-container" title="Renouvellement automatique toutes les 10 secondes">
+          <!-- Indicateur de compte à rebours 30s -->
+          <div class="curiosities-timer-indicator" id="curiosities-timer-container" title="Renouvellement automatique toutes les 30 secondes">
             <div class="timer-pie-wrap">
               <svg class="timer-svg" viewBox="0 0 36 36">
                 <path class="timer-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
                 <path id="curiosities-timer-progress" class="timer-progress" stroke-dasharray="100, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
               </svg>
-              <span id="curiosities-timer-num" class="timer-num">10s</span>
+              <span id="curiosities-timer-num" class="timer-num">30s</span>
             </div>
             <span class="timer-label" id="curiosities-timer-label">Auto-rotation</span>
           </div>
@@ -176,7 +183,7 @@
           <div class="section-heading">
             <span class="sec-badge">MODULE INTERACTIF 01</span>
             <h2 class="sec-title">Le Quatuor Aléatoire Tournant</h2>
-            <p class="sec-desc">Quatre regards simultanés sur la collection, renouvelés automatiquement toutes les 10 secondes ou au clic individuel.</p>
+            <p class="sec-desc">Quatre regards simultanés sur la collection, renouvelés automatiquement toutes les 30 secondes ou au clic individuel.</p>
           </div>
         </div>
 
@@ -300,9 +307,10 @@
           <div class="curio-versus-center">
             <div class="vs-emblem">VS</div>
             <div class="vs-resonance-box">
-              <span class="vs-res-title">RÉSONANCE THÉMATIQUE</span>
-              <p id="curio-vs-theme-label" class="vs-res-text">Clairs-obscurs &amp; Dramaturgie</p>
+              <span class="vs-res-title">RÉSONANCE THÉMATIQUE &amp; REGARD CROISÉ</span>
+              <h4 id="curio-vs-theme-heading" class="vs-res-heading">...</h4>
               <div id="curio-vs-gap-tag" class="vs-gap-tag">Écart : ~250 ans</div>
+              <p id="curio-vs-theme-label" class="vs-res-text">...</p>
             </div>
           </div>
 
@@ -433,6 +441,10 @@
       <button type="button" id="btn-gallery-return-timeline" class="btn-gallery-return-timeline">
         <span class="return-arrow">↩</span>
         <span id="gallery-return-timeline-label">Revenir à la Frise Chronologique</span>
+      </button>
+      <button type="button" id="btn-gallery-return-curiosities" class="btn-gallery-return-timeline" style="display: none; background: rgba(212, 175, 55, 0.25); border-color: var(--gold-pure); color: #fff;">
+        <span class="return-arrow">↩</span>
+        <span>Revenir au Cabinet des Curiosités</span>
       </button>
     </div>
 
@@ -635,6 +647,10 @@
       <div class="artist-monograph-hero" id="artist-monograph-hero" hidden>
         <div class="artist-hero-banner" id="artist-hero-banner">
           <div class="artist-hero-actions-top">
+            <button class="btn-return-curiosities-artist" id="btn-return-curiosities-artist" type="button"
+              title="Revenir au Cabinet des Curiosités" style="display: none; background: rgba(212, 175, 55, 0.25); border-color: var(--gold-pure); color: #fff;">
+              ◀ Revenir au Cabinet
+            </button>
             <button class="btn-return-timeline-artist" id="btn-return-timeline-artist" type="button"
               title="Revenir à la frise chronologique">
               ◀ Revenir à la Frise
@@ -866,6 +882,11 @@
             </div>
 
             <div class="pavilion-header-right">
+              <button type="button" class="btn-close-pavilion btn-return-curiosities" id="btn-return-curiosities-pavilion"
+                title="Fermer et revenir au Cabinet des Curiosités" style="display: none; background: rgba(212, 175, 55, 0.25); border-color: var(--gold-pure); color: #fff; margin-right: 8px;">
+                <span class="close-icon">↩</span>
+                <span>Revenir au Cabinet</span>
+              </button>
               <button type="button" class="btn-pavilion-gallery" id="btn-pavilion-gallery"
                 title="Voir toute la collection de cette civilisation dans la Galerie">
                 <span class="btn-civ-icon">🏛️</span>
@@ -1462,7 +1483,7 @@
   <script src="data/data-objets5.js?v=3.0"></script>
 
   <!-- SCRIPT MAÎTRE -->
-  <script src="app.js?v=10.6"></script>
+  <script src="app.js?v=10.7"></script>
 </body>
 
 </html>
