@@ -12689,23 +12689,71 @@ const CURIOSITY_ROULETTE_EPOCHS = [
   {
     year: -1330,
     label: "v. 1330 av. J.-C.",
-    subtitle: "L'hérésie amarnienne en Égypte, l'apogée thébaine et l'Âge du Bronze égéen.",
+    subtitle: "L'apogée thébaine du Nouvel Empire, l'Âge du Bronze égéen et les citadelles mycéniennes.",
     peers: [
-      { region: "Égypte / Vallée des Rois", title: "Trésor & Masque d'or de Toutânkhamon", desc: "Le masque funéraire d'or massif, chef-d'œuvre de l'orfèvrerie thébaine du Nouvel Empire.", icon: "🏺", imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMAT50JMxUk9wZrLgtZzzmgLYblBV2omlc2kfnrISwvRrOXzPwb0zhlDEl46cUOnWQ0vkg-dQarHFX3L98jzvHvD-tekEWVlF5SOnJ7Em7czgXoWQkAD7stVTM4K1SxFets3MbY-cgsZ8dG1eL5kZb4xw=w1008-h1344-s-no-gm?authuser=0" },
-      { region: "Égypte / Nécropole thébaine", title: "Tombe de Khaemhat & Bas-reliefs", desc: "Perfection du relief en creux sous Amenhotep III avant la rupture artistique d'Akhenaton.", icon: "🏛️", imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMm_GdxzsAly4PLK2BBvWjs9Tv11LBaaCH5ap_jLdKEpqokdwLbMnn583cGew7mma-zFYydMYdRelSQ5pN9TcILkXp_FTWl5JSUBjuU4rdbrm7Y2nZEfA5mPqRXP-NBZfq_TX_mIT3_xjHRfE-JUcwD3Q=w1998-h1332-s-no-gm?authuser=0" },
-      { region: "Monde Égéen / Mycènes", title: "Citadelles Mycéniennes & Bronzes", desc: "L'essor de l'Helladique récent, orfèvrerie de prestige et palais fortifiés d'Argolide.", icon: "⚡", imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0" },
-      { region: "Levant & Phénicie", title: "Sculptures d'ivoire & Métallurgie", desc: "Carrefour commercial entre Mésopotamie et Nil, essor des cités côtières d'Ougarit et Byblos.", icon: "👑", imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczO8qJ9X0EbRPQwscIwqRQ7qhHKFuIShIpHCnkgDOrlDhzkMaCikMa0w9FILsuc5tAZ-IWaE9qllZEWwIzzDZbeSjQjh5IibmJDU6ycWvWpMiAnZ6BLpdVvNv-BAnPU-5_tcFcndUrfxL9yLT0soFPSQrQ=w1649-h700-s-no-gm?authuser=0" }
+      {
+        region: "Égypte / Vallée des Rois",
+        title: "Masque d'or de Toutânkhamon",
+        desc: "Masque funéraire en or massif et lapis-lazuli, chef-d'œuvre de l'orfèvrerie thébaine (XVIIIe dynastie, Musée égyptien du Caire).",
+        icon: "🏺",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMAT50JMxUk9wZrLgtZzzmgLYblBV2omlc2kfnrISwvRrOXzPwb0zhlDEl46cUOnWQ0vkg-dQarHFX3L98jzvHvD-tekEWVlF5SOnJ7Em7czgXoWQkAD7stVTM4K1SxFets3MbY-cgsZ8dG1eL5kZb4xw=w1008-h1344-s-no-gm?authuser=0"
+      },
+      {
+        region: "Égypte / Nécropole thébaine",
+        title: "Tombe de Khaemhat & Bas-reliefs",
+        desc: "Perfection du relief en creux sous Amenhotep III avant la rupture artistique d'Akhenaton (Nécropole de Thèbes).",
+        icon: "🏛️",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMm_GdxzsAly4PLK2BBvWjs9Tv11LBaaCH5ap_jLdKEpqokdwLbMnn583cGew7mma-zFYydMYdRelSQ5pN9TcILkXp_FTWl5JSUBjuU4rdbrm7Y2nZEfA5mPqRXP-NBZfq_TX_mIT3_xjHRfE-JUcwD3Q=w1998-h1332-s-no-gm?authuser=0"
+      },
+      {
+        region: "Grèce égéenne / Mycènes",
+        title: "Trésor d'or des tombes royales de Mycènes",
+        desc: "Diadèmes et disques d'or des tombes à fosse IV et V de Mycènes, apogée de l'Helladique récent (Musée national archéologique d'Athènes).",
+        icon: "⚡",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMSx3QKTlAhsSFYPtAV-XLogf7SZmwnrWg10fhvOQWBe2wKi4SY4gNHx_9O6XY_uNSOLqffyOdY_bxVVEZbGsi8Y_nGNNuGM8NbOZq0M5nQ2SGg4VY5RGQ9UU3pw8wkolf8iwC1Bv3Ez7go37gs1UWJKQ=w1379-h919-s-no-gm?authuser=0"
+      },
+      {
+        region: "Grèce égéenne / Mycènes",
+        title: "Céramiques palatiales de banquet de Mycènes",
+        desc: "Ensemble de céramiques de banquet aux décors marins et spirales de l'apogée mycénienne (Nécropoles de Mycènes).",
+        icon: "👑",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOwjyskx2VfkPIWeoXL-oYoD996q4JA48WFXSV4GCkNqw1-8yzL_s6WoRX3Kvsi0m-yN4spe0AGKH1z4ditwQBJpvBB07IeMQUetP8L0PskTkw3bMVtIiZeYSKaVOSYdvKuuAchvJJFLNNWnfMM2YIUog=w1379-h919-s-no-gm?authuser=0"
+      }
     ]
   },
   {
     year: -450,
     label: "450 av. J.-C.",
-    subtitle: "Le Siècle d'Or de Périclès à Athènes, l'Empire Perse et l'Étrurie centrale.",
+    subtitle: "Le Siècle d'Or de Périclès à Athènes, l'Italie antique et l'Empire perse achéménide.",
     peers: [
-      { region: "Grèce Classique / Athènes", title: "Chantier du Parthénon & Phidias", desc: "Ictinos et Callicratès érigent le temple dorique sur l'Acropole sous la conduite de Phidias.", icon: "🏛️", imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMMXJvRRZVAeWd9JSSWDqiDhQ_2STSUtOM8Axi_a8rjqIA5CU7-ZSWDL16QjeGL1HJmwZIRc7zktR477DwV7IngJ9RSaTalO7EnXivdgT9fpR1rrnLNjopwEFq79jP4Scy5ndgpRyEAqiDyvdrEvTdBtQ=w1847-h1231-s-no-gm?authuser=0" },
-      { region: "Italie / Étrurie", title: "Tombes peintes & Statuaire de terre cuite", desc: "Tarquinia et Véies célèbrent le banquet funéraire dans une polychromie lumineuse.", icon: "🏺", imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNbMJbH-TPeRjM8CATv3cX-6wNTygJp4CuLGHLkYp9Lw7K2HSL_YPi_Gkirn6zjnCsllq7E7MCpEg8ZXdTLLh4NXMkLwA0H0hWduZncQRhVQ-zr2QIqgzU8dKsBtaPzdnFVQxhZdW0mDsqJLL31RQojYA=w1589-h1872-s-no-gm?authuser=0" },
-      { region: "Empire Perse / Persépolis", title: "Apadana & Bas-reliefs achéménides", desc: "Les rois Artaxerxès et Darius immortalisent la garde des Immortels et le tribut des nations.", icon: "👑", imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOcwi3C2wEupvoPBTWfj8vuMtjl9QTy9BdE6xEGFj-HUvzxiF_gdRHBhGasi_o-32NCFfKxi7paY877xr6hthkM8YlnWA-09CU21OoeoauiT9WdHywJExPGfoTU7yG5hBNg0ItVG-nlWjNC-N9pW7R53w=w1589-h2385-s-no-gm?authuser=0" },
-      { region: "Égypte / Basse Époque", title: "Statuaire de basalte & Renaissance saïte", desc: "L'art des pharaons revient aux canons classiques de l'Ancien Empire dans un modelé sobre.", icon: "🗿", imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMAT50JMxUk9wZrLgtZzzmgLYblBV2omlc2kfnrISwvRrOXzPwb0zhlDEl46cUOnWQ0vkg-dQarHFX3L98jzvHvD-tekEWVlF5SOnJ7Em7czgXoWQkAD7stVTM4K1SxFets3MbY-cgsZ8dG1eL5kZb4xw=w1008-h1344-s-no-gm?authuser=0" }
+      {
+        region: "Grèce classique / Athènes",
+        title: "Chantier du Parthénon & Phidias",
+        desc: "Frise des Panathénées sculptée sous la conduite de Phidias : cavalcade des cavaliers athéniens (v. 445-438 av. J.-C., British Museum).",
+        icon: "🏛️",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNNufeLHBvYBAbJ34QtqsDKKYngsqd6Mlp1PN75RWSEnpC5IPZRXqEQI9KiQmO8EKXvbfYKT6vFvEriRh9_b-zerErPAxStjg2qEhjpiskZ17d4zJLSKOovL9X7tHgcmAv4BDwMnwR0Jq_KWhs6CTLkrw=w1847-h1231-s-no-gm?authuser=0"
+      },
+      {
+        region: "Grande-Grèce & Italie antique",
+        title: "Fresque de la Tombe du Plongeur",
+        desc: "Le banquet aristocratique (symposion), joueur d'aulos et jeu du cottabe : sommet de la peinture murale antique (v. 470 av. J.-C., Paestum).",
+        icon: "🏺",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOdVMn7OP-0i4IXIAhoCihG228adnkQ4AzvlFRcG2tKHqHyA8gG7cJoTjJOHYOB0LKu3b1qF7xsVV2ygecuHcOXh7-bEmTcV6o0sByJnIzxTla3m6QG5otCpJbMoDJ84also8hpm8n4mLdTjbD8UEpWkA=w1847-h1237-s-no-gm?authuser=0"
+      },
+      {
+        region: "Empire perse / Persépolis",
+        title: "Apadana & Bas-reliefs achéménides",
+        desc: "Relief des escaliers de l'Apadana : serviteur mède portant un chevreau en tribut sous Darius Ier et Xerxès Ier (Musée du Louvre).",
+        icon: "👑",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOiwqRSOtnG3W_NSZI_L5G_2KnWsnlK6beCb0SOmTRNeTHox5sMMH_Xmw4j8hXo0CdS-C5lEXZk4KRnGyfoVI8WZ8w9xpCml2gplSxm8REuPGUZgu_V6CSVhYg7bvr-4yAZWSZMTr-8Ea3HTLdlmSoJEg=w1813-h2408-s-no-gm?authuser=0"
+      },
+      {
+        region: "Égypte / Basse Époque & Saïte",
+        title: "Statuaire saïte en calcaire fin",
+        desc: "Statuette assise d'un dignitaire ou du roi Psammétique Ier : retour aux canons épurés de l'Ancien Empire (Musée Imhotep, Saqqarah).",
+        icon: "🗿",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczP_eL09Gi1PGZbxq-TAPLHvvbYQKxvC917fC3Q2ce0aom8OdvjA8gtqMDLJBiD0b6H_dlIp3A-teTgo1u6vxa1Wsg5p-gfmvtUPtAucDTLv3bVXfMDa2sU5IEFIQo5GFvKGAN64y4lo8Z7lbb_0jb4mCg=w613-h919-s-no-gm?authuser=0"
+      }
     ]
   },
   {
@@ -12713,32 +12761,104 @@ const CURIOSITY_ROULETTE_EPOCHS = [
     label: "An 1425",
     subtitle: "L'aube de la Renaissance florentine, la perspective mathématique et les Primitifs flamands.",
     peers: [
-      { region: "Italie / Florence", title: "Masaccio : La Révolution de la Perspective", desc: "La Trinité et la Chapelle Brancacci fondent la peinture moderne en appliquant les lois de l'espace.", icon: "🎨", imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOcwi3C2wEupvoPBTWfj8vuMtjl9QTy9BdE6xEGFj-HUvzxiF_gdRHBhGasi_o-32NCFfKxi7paY877xr6hthkM8YlnWA-09CU21OoeoauiT9WdHywJExPGfoTU7yG5hBNg0ItVG-nlWjNC-N9pW7R53w=w1589-h2385-s-no-gm?authuser=0" },
-      { region: "Flandres / Gand & Bruges", title: "Primitifs flamands & Peinture à l'huile", desc: "L'illusion optique de la lumière et la minutie des étoffes révolutionnent le Nord de l'Europe.", icon: "🖼️", imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMmfM6MMacaCum8Yrsy5Z1TmmhiCyUBh_bwfsF1rHSOriZAGDN5nHMjCSeGvKQVeSzC_3VqAzfeMcgmkuqw-5AT73psbPrzOKOUNBfh2QtZcv8kOy_y02e5svE0ja-RO9uHrPlu8eD1DfRh2xoRlywXMQ=w1589-h1919-s-no-gm?authuser=0" },
-      { region: "France / Val de Loire", title: "Enluminures & Gothique international", desc: "Les ateliers princiers ornent les livres d'heures de paysages poétiques et d'or fin.", icon: "📜", imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMUyysnN1LQAqSJkKchhGJcN16Iiwl_UPBxHAKfBM3C45OexSj9AmKybK9vpk4qAMiDNNpmsoijUIpfypAEFlkEjuHxNui4bw7R6vsu7SFnNXuveTWEIKHuXH9CGrnB1BrPZARfiGqS2oyik76iCErweA=w1589-h1283-s-no-gm?authuser=0" },
-      { region: "Mondes d'Asie / Chine Ming", title: "Cité Interdite de Pékin & Porcelaine", desc: "Achèvement du palais impérial des Ming et triomphe universel du bleu et blanc au cobalt.", icon: "🏺", imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNsaFOMD7K6TTguEmMnwfRTcAI4CPtgp1m3cZo99aVJ82MEzYvz4ApNn_Dmpe93KvbP-jfziE9TJUbVnkJbPsHEYuAv-zDBKtu-X5pluDwNNAzrKnnyXYKCvsOZ-FPoDUNc5PMjjOg5ayyfVkumiTWP1A=w1589-h1867-s-no-gm?authuser=0" }
+      {
+        region: "Italie / Florence",
+        title: "Masaccio : La Trinité",
+        desc: "La Trinité de Santa Maria Novella (1425-1428) fonde la peinture moderne en appliquant les lois mathématiques de l'espace.",
+        icon: "🎨",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOcwi3C2wEupvoPBTWfj8vuMtjl9QTy9BdE6xEGFj-HUvzxiF_gdRHBhGasi_o-32NCFfKxi7paY877xr6hthkM8YlnWA-09CU21OoeoauiT9WdHywJExPGfoTU7yG5hBNg0ItVG-nlWjNC-N9pW7R53w=w1589-h2385-s-no-gm?authuser=0"
+      },
+      {
+        region: "Flandres / Bruges",
+        title: "Hans Memling : Les Primitifs flamands",
+        desc: "Vierge à l'Enfant dans un paysage : éclat des glacis à l'huile, miniaturisme et dévotion fervente du Siècle de Bourgogne.",
+        icon: "🖼️",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPrI7uwE-ucE9BUf1Y1nfs6q77UHx37vp00tkB6xYGUyEXv71STzkI1Ui0CvSzN-v5N117F9tAXFcQMNfzDekOYTPIbZ5nqOmc99N5jrjuYrbmWDTOEA5Q3pJux5GZ5yh17GyrAsiANL6v58INjwJ0eSw=w1589-h1103-s-no-gm?authuser=0"
+      },
+      {
+        region: "Italie / Florence",
+        title: "Fra Angelico : Le Couronnement de la Vierge",
+        desc: "Chef-d'œuvre du couvent San Domenico de Fiesole : pureté mystique de la lumière et harmonies célestes (Musée du Louvre).",
+        icon: "✨",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOIHkdbHNHvnlkp9Gllwedj5omHw3d2I5BWrr2dkynagh0KV4_C-FAgBWF3bQ6RhVcUFbkZcI53ulywS3ultzKbUqi1SZafiZWmefotNiE_jvao5Oa9udmB4TIdj7V-Hi9Rb3ZRDESfkSyHqDFJKuD-0g=w1681-h2061-s-no-gm?authuser=0"
+      },
+      {
+        region: "Italie / Padoue & Mantoue",
+        title: "Andrea Mantegna : Crucifixion",
+        desc: "Panneau central de la prédelle du Retable de San Zeno : rigueur archéologique et raccourcis spatiaux héroïques (Musée du Louvre).",
+        icon: "📐",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOQAYlVtWaYzKj_dgNgVYFfBTy3fPf34b4T6PpxtHNdJL_qWQbNfXiUCX3_o9TZedIRAxy9Aj3YjeISLmTlQeKCAZXpJDfhW0zMUubECuwBWdH8ihnby-vfJu1myFTx2JvtNbNMH64OwELhw-BOnZ5hVg=w1589-h1163-s-no-gm?authuser=0"
+      }
     ]
   },
   {
     year: 1878,
     label: "An 1878",
-    subtitle: "L'Impressionnisme triomphant, la modernité urbaine et la ferveur industrielle.",
+    subtitle: "L'Impressionnisme triomphant, la ville moderne et la capture de l'instant lumineux.",
     peers: [
-      { region: "France / Paris", title: "Monet : La Rue Saint-Denis en fête", desc: "La marée humaine de drapeaux tricolores capturée en touches de lumière pures.", icon: "🎨", imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMEJoK8Q_L0CFVcUcDXItvc7HM4XdbZI73_pHPy_NnDU6kIjWCkcdmkBNvdR9h_ZfeRXAnCPFGH-WzIXSHa7SizU9qzAWw1H6U-d2hlxKDdAYb1PY86y6Kt9kenEXinZteVoPS7tyIp_KjRKHjE88jx4w=w1589-h2075-s-no-gm?authuser=0" },
-      { region: "France / Paris", title: "Caillebotte : Le Pont de l'Europe", desc: "L'armature de fer rivetée surplombant les voies ferrées de la gare Saint-Lazare.", icon: "📐", imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOEBPt98vPEVY2lm572qmpr9OJIxa9o3ziSW0zv786kwe5lrm9G7rGkMngQaZwmbg6Krq-Bof0r8jREUslkGq5aNCJ8479BI_RGZwB29-y_dOJdCPUOBpxBzeGZY0-c-fwZD7AqU1-8XQCQ3dQE_LVbNg=w1660-h1175-s-no-gm?authuser=0" },
-      { region: "Royaume-Uni / Londres", title: "Préraphaélites & Arts and Crafts", desc: "La quête d'un retour aux valeurs médiévales et à la sincérité poétique face à l'usine.", icon: "🌺", imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOQJc2DAsGAakWOqdHtTHe4ouLTPdYo5gjaD_NeIyGkylLawA_QGRV8hRis_pkqcY7Z9XS0OEnMGHQ5NdLXlUZnD0vIwfWBocVKL83NM1fwtHM8ia3qrZ4U4Yeu0dgvsPuUlQ_IRANOvKPUEfgpKJKHmQ=w1589-h1060-s-no-gm?authuser=0" },
-      { region: "Japon / Ère Meiji", title: "Le Japonisme fascine l'Occident", desc: "Les estampes d'Edo renouvellent le cadrage, l'aplat de couleur et la vision des peintres européens.", icon: "🌊", imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNTc_V1qkZJCfsuMJeJpcuYrFTbMzVcwjRn3IQcoAbaJzT8TGO0OWkWwqr4agULy9HILXtd3rspuCMaztkjB1-EJBuMYuYoyIb6ts0quy-2bPmY0CUaNVb4coRFm6QpqTFZdCgAv1hQJ6kTPV4jhw_P3Q=w1589-h1586-s-no-gm?authuser=0" }
+      {
+        region: "France / Paris",
+        title: "Monet : La Rue Saint-Denis en fête",
+        desc: "La marée humaine et les drapeaux tricolores du 30 juin 1878 peints en virgules de lumière pure (Musée des Beaux-Arts de Rouen).",
+        icon: "🎨",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMEJoK8Q_L0CFVcUcDXItvc7HM4XdbZI73_pHPy_NnDU6kIjWCkcdmkBNvdR9h_ZfeRXAnCPFGH-WzIXSHa7SizU9qzAWw1H6U-d2hlxKDdAYb1PY86y6Kt9kenEXinZteVoPS7tyIp_KjRKHjE88jx4w=w1589-h2075-s-no-gm?authuser=0"
+      },
+      {
+        region: "France / Paris",
+        title: "Caillebotte : Le Pont de l'Europe",
+        desc: "La monumentale charpente de fer surplombant la gare Saint-Lazare : géométrie urbaine et perspective moderne audacieuse.",
+        icon: "📐",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOEBPt98vPEVY2lm572qmpr9OJIxa9o3ziSW0zv786kwe5lrm9G7rGkMngQaZwmbg6Krq-Bof0r8jREUslkGq5aNCJ8479BI_RGZwB29-y_dOJdCPUOBpxBzeGZY0-c-fwZD7AqU1-8XQCQ3dQE_LVbNg=w1660-h1175-s-no-gm?authuser=0"
+      },
+      {
+        region: "France / Argenteuil",
+        title: "Manet : Claude Monet dans son atelier flottant",
+        desc: "Édouard Manet portraiture son ami Monet peignant sur la Seine à Argenteuil : manifeste de la peinture en plein air (Neue Pinakothek, Munich).",
+        icon: "⛵",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczPjmpZwvdfGqnitkMtG3HvrKcCrJ5x3VP81uhYyk9GRa8pyM1DsCZzzT3Ivg3pFWxfgtmCMcMir_Uwtdc9FGQAqLHHE7IMH3ejIajb2IstKsVXx0IyQ9a86v4DE-QTB2LNoJCvG881VnZjg89ee7KIkXQ=w1589-h1220-s-no-gm?authuser=0"
+      },
+      {
+        region: "France / Paris",
+        title: "Degas : Trois danseuses dans les coulisses",
+        desc: "Cadrage asymétrique audacieux inspiré du japonisme et instantanéité des gestes de l'Opéra (Musée d'Art Bridgestone, Tokyo).",
+        icon: "🩰",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMjP5f68_rZP5regvQm6Ox7o2XKnGe9nXOtiE1K6FudlnvWV9ZtrVYlBgE9Lwf92dLr7j5qrpkKe0eOPmDJ74foAZ5VQoONMnuydiWXAWmZMSurpy4RQ8kJWVXx6KV0jc1T9wNHOuMNwxoyHcvJx3UD-g=w1942-h1593-s-no-gm?authuser=0"
+      }
     ]
   },
   {
     year: 1914,
     label: "An 1914",
-    subtitle: "Le tournant des Avant-Gardes : Cubisme, Abstraction géométrique et Nymphéas.",
+    subtitle: "Le tournant des Avant-Gardes : l'éveil de l'Abstraction, l'École de Paris et le Cubisme.",
     peers: [
-      { region: "France / Montparnasse", title: "Modigliani : Sculptures & Portraits", desc: "La ligne pure inspirée des masques traditionnels africains et de la statuaire grecque.", icon: "🗿", imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNbMJbH-TPeRjM8CATv3cX-6wNTygJp4CuLGHLkYp9Lw7K2HSL_YPi_Gkirn6zjnCsllq7E7MCpEg8ZXdTLLh4NXMkLwA0H0hWduZncQRhVQ-zr2QIqgzU8dKsBtaPzdnFVQxhZdW0mDsqJLL31RQojYA=w1589-h1872-s-no-gm?authuser=0" },
-      { region: "Pays-Bas / De Stijl", title: "Mondrian : Vers l'Angle Droit pur", desc: "Élimination progressive de la courbe au profit de la grille orthogonale et des primaires.", icon: "🟥", imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNsaFOMD7K6TTguEmMnwfRTcAI4CPtgp1m3cZo99aVJ82MEzYvz4ApNn_Dmpe93KvbP-jfziE9TJUbVnkJbPsHEYuAv-zDBKtu-X5pluDwNNAzrKnnyXYKCvsOZ-FPoDUNc5PMjjOg5ayyfVkumiTWP1A=w1589-h1867-s-no-gm?authuser=0" },
-      { region: "France / Giverny", title: "Monet : Le Cycle terminal des Nymphéas", desc: "La dissolution de l'horizon dans la couleur vibrante préfigurant l'abstraction lyrique.", icon: "💧", imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNTc_V1qkZJCfsuMJeJpcuYrFTbMzVcwjRn3IQcoAbaJzT8TGO0OWkWwqr4agULy9HILXtd3rspuCMaztkjB1-EJBuMYuYoyIb6ts0quy-2bPmY0CUaNVb4coRFm6QpqTFZdCgAv1hQJ6kTPV4jhw_P3Q=w1589-h1586-s-no-gm?authuser=0" },
-      { region: "Barbizon / Héritage", title: "La Postérité spirituelle de Millet", desc: "La célébration de la dignité humaine inspire profondément la nouvelle génération moderne.", icon: "🌾", imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMUyysnN1LQAqSJkKchhGJcN16Iiwl_UPBxHAKfBM3C45OexSj9AmKybK9vpk4qAMiDNNpmsoijUIpfypAEFlkEjuHxNui4bw7R6vsu7SFnNXuveTWEIKHuXH9CGrnB1BrPZARfiGqS2oyik76iCErweA=w1589-h1283-s-no-gm?authuser=0" }
+      {
+        region: "Allemagne / Munich",
+        title: "Kandinsky : Improvisation rêvée (1913)",
+        desc: "L'émancipation absolue de la forme et de la couleur au sein du Cavalier Bleu (Lenbachhaus, Munich).",
+        icon: "🎨",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczMjKPk5w6FGLev8UJ_f2tQNsL8xpDvJWNe3tWKSzN8Jz_1WV039gkFiD0KXWGHvMijY_jnkPJvj1ug-14YyHd1U0PBTzbo8PnSbMoW-_v2N8Un3WbNvFa8rTGI6LGd6uTPrO-K0-Lb_x_5RmduMr_--Eg=w1681-h1615-s-no-gm?authuser=0"
+      },
+      {
+        region: "France / Montparnasse",
+        title: "Modigliani : Tête de femme de profil",
+        desc: "La ligne mélodique pure influencée par la statuaire archaïque et les masques africains (Musée des Beaux-Arts de Rouen).",
+        icon: "🗿",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNbMJbH-TPeRjM8CATv3cX-6wNTygJp4CuLGHLkYp9Lw7K2HSL_YPi_Gkirn6zjnCsllq7E7MCpEg8ZXdTLLh4NXMkLwA0H0hWduZncQRhVQ-zr2QIqgzU8dKsBtaPzdnFVQxhZdW0mDsqJLL31RQojYA=w1589-h1872-s-no-gm?authuser=0"
+      },
+      {
+        region: "France / Giverny",
+        title: "Monet : Les Iris jaunes (1914)",
+        desc: "Touches amples et gestuelles préfigurant l'abstraction lyrique dans le jardin d'eau de Giverny (Musée Bridgestone, Tokyo).",
+        icon: "🌿",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNYc3sPLh9Qv5p_nmmT15-4hGRRN0lTJF32PnPlHUvWHdzCCyjndEhmbL8koFEF3mdEBhB1XUfr_U5WEzpwf90xHwuwn-HKL6ADfGbEaBuI8u3IGu0coabTd7FQtpNASDFF1GIMzds0OBc6lv5fBbWEOA=w1348-h2416-s-no-gm?authuser=0"
+      },
+      {
+        region: "Pays-Bas / De Stijl",
+        title: "Mondrian : Vers l'équilibre néoplastique",
+        desc: "Rigueur de l'angle droit, grille orthogonale et couleurs primaires pures pour révéler l'ordre cosmique universel.",
+        icon: "🟥",
+        imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczNsaFOMD7K6TTguEmMnwfRTcAI4CPtgp1m3cZo99aVJ82MEzYvz4ApNn_Dmpe93KvbP-jfziE9TJUbVnkJbPsHEYuAv-zDBKtu-X5pluDwNNAzrKnnyXYKCvsOZ-FPoDUNc5PMjjOg5ayyfVkumiTWP1A=w1589-h1867-s-no-gm?authuser=0"
+      }
     ]
   }
 ];
@@ -12840,7 +12960,7 @@ function renderCurioArtistCard(rec) {
 
 function renderCurioCivCard(civ) {
   if (!civ) {
-    const list = (Array.isArray(CIVILISATIONS_REGISTRY) ? CIVILISATIONS_REGISTRY : []).filter(c => c && c.name && !c.isMovement && !c.id.startsWith('mod_'));
+    const list = (Array.isArray(CIVILISATIONS_REGISTRY) ? CIVILISATIONS_REGISTRY : []).filter(c => c && c.name && !c.isMovement && !c.id.startsWith('mod_') && c.bannerImg);
     if (!list.length) return;
     civ = list[Math.floor(Math.random() * list.length)];
   }
@@ -12851,19 +12971,21 @@ function renderCurioCivCard(civ) {
   const epochEl = document.getElementById('curio-civ-epoch');
   const descEl = document.getElementById('curio-civ-desc');
 
-  if (imgEl) {
-    const banner = civ.bannerImg || (civ.artifacts && civ.artifacts[0] && (civ.artifacts[0].imgSrc || civ.artifacts[0].img)) || 'https://lh3.googleusercontent.com/d/17yL13LMthgpe8R3Uuzx9kHevgMU6Oloj';
-    imgEl.src = banner;
+  if (imgEl && civ.bannerImg) {
+    imgEl.src = civ.bannerImg;
     imgEl.alt = civ.name || "Civilisation";
   }
   if (nameEl) nameEl.textContent = civ.name || "Foyer Antique";
   if (epochEl) epochEl.textContent = civ.epoch || `${civ.yearStart || ''} à ${civ.yearEnd || ''}`;
-  if (descEl) descEl.textContent = civ.desc ? civ.desc.slice(0, 150) + '...' : "Haut foyer de création artistique ayant façonné l'histoire universelle des formes.";
+  if (descEl) {
+    const rawDesc = civ.desc || (civ.presentationHtml ? civ.presentationHtml.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim() : "Haut foyer de création artistique ayant façonné l'histoire universelle des formes.");
+    descEl.textContent = rawDesc.slice(0, 150) + '...';
+  }
 }
 
 function renderCurioMovCard(mov) {
   if (!mov) {
-    const list = (Array.isArray(ART_MOVEMENTS) ? ART_MOVEMENTS : []).filter(m => m && m.name);
+    const list = (Array.isArray(ART_MOVEMENTS) ? ART_MOVEMENTS : []).filter(m => m && m.name && m.lane && m.lane.startsWith('mod_') && (m.bannerImg || (window.MOVEMENTS_DATA && window.MOVEMENTS_DATA[m.id] && window.MOVEMENTS_DATA[m.id].bannerImg)));
     if (!list.length) return;
     mov = list[Math.floor(Math.random() * list.length)];
   }
@@ -12877,14 +12999,20 @@ function renderCurioMovCard(mov) {
   const centEl = document.getElementById('curio-mov-century');
   const descEl = document.getElementById('curio-mov-desc');
 
-  if (imgEl) {
-    const banner = movData.bannerImg || mov.bannerImg || (movData.keyArtworks && movData.keyArtworks[0] && (movData.keyArtworks[0].imgSrc || movData.keyArtworks[0].img)) || 'https://lh3.googleusercontent.com/d/1zZuFrSSMbYJyOP3PDA-M1Q2XiNh6r4Gp';
+  const banner = mov.bannerImg || movData.bannerImg || (movData.keyArtworks && movData.keyArtworks[0] && (movData.keyArtworks[0].imgSrc || movData.keyArtworks[0].img));
+  if (imgEl && banner) {
     imgEl.src = banner;
     imgEl.alt = mov.name || "Mouvement";
   }
   if (nameEl) nameEl.textContent = mov.name || "Courant pictural";
-  if (centEl) centEl.textContent = mov.century || mov.epoch || "Période moderne";
-  if (descEl) descEl.textContent = movData.essence || movData.desc || mov.desc || "Révolution formelle et émancipation du regard au tournant de l'histoire des arts.";
+  if (centEl) {
+    const period = (mov.yearStart && mov.yearEnd) ? `${mov.yearStart} – ${mov.yearEnd}` : (mov.century || mov.epoch || "Période moderne");
+    centEl.textContent = period;
+  }
+  if (descEl) {
+    const rawDesc = mov.definition || movData.essence || movData.desc || (movData.noticeHtml ? movData.noticeHtml.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim() : "Révolution formelle et émancipation du regard au tournant de l'histoire des arts.");
+    descEl.textContent = rawDesc.slice(0, 150) + '...';
+  }
 }
 
 function rotateCuriositiesQuartet() {
@@ -13095,39 +13223,70 @@ function renderCuriositiesThematicGalleries() {
     {
       title: "Nuits, Flammes & Clairs-Obscurs",
       icon: "🕯️",
-      tag: "Dramaturgie nocturne & ombres",
-      keywords: ['nuit', 'nocturne', 'flamme', 'feu', 'bougie', 'veilleuse', 'sombre', 'clair-obscur', 'obscur', 'lumière', 'crépuscule', 'lune', 'fanal', 'torche']
+      tag: "Dramaturgie nocturne, chandelles & lunes",
+      matcher: (a) => {
+        const t = (a.title || '').toLowerCase();
+        const cat = (a.category || '').toLowerCase();
+        return /\b(nuit|nocturne|clair de lune|lune|flambeau|flambeaux|bougie|veilleuse|chandelle|crépuscule|crepuscule|étoilé|étoiles|incendie)\b/i.test(t) ||
+               /\b(nocturne|clair-obscur|nuit)\b/i.test(cat);
+      }
     },
     {
       title: "Miroirs, Reflets & Ondes Aquatiques",
       icon: "🌊",
-      tag: "Jeux optiques & surfaces d'eau",
-      keywords: ['miroir', 'reflet', 'eau', 'mer', 'vague', 'rivière', 'nénuphar', 'nympheas', 'nymphéa', 'bassin', 'étang', 'glace', 'maritime', 'barque']
+      tag: "Nénuphars, vagues & surfaces miroitantes",
+      matcher: (a) => {
+        const t = (a.title || '').toLowerCase();
+        const cat = (a.category || '').toLowerCase();
+        return /\b(nénuphar|nenuphar|nymphéas|nympheas|vague|vagues|cascade|torrent|marée|maree|reflet|reflets|onde|ondes|ruisseau|étang|etang)\b/i.test(t) ||
+               /\b(reflets aquatiques|nymphéas)\b/i.test(cat);
+      }
     },
     {
       title: "Neiges, Brumes & Silences d'Hiver",
       icon: "❄️",
-      tag: "Saisons blanches & ciels vaporeux",
-      keywords: ['neige', 'hiver', 'givre', 'glace', 'brume', 'brouillard', 'froid', 'glacé', 'neigeux', 'flocon', 'route sous la neige']
+      tag: "Saisons blanches, givres & brumes",
+      matcher: (a) => {
+        const t = (a.title || '').toLowerCase();
+        const cat = (a.category || '').toLowerCase();
+        const isWinter = /\b(neige|hiver|givre|glace|glacé|glacée|gelé|gelée|brouillard|brume|brumes|flocon|flocons)\b/i.test(t) || /\b(hiver|neige)\b/i.test(cat);
+        const notSpringSummer = !/\b(été|printemps|fête-sed|djoser)\b/i.test(t);
+        return isWinter && notSpringSummer;
+      }
     },
     {
       title: "Le Bestiaire & les Créatures Fabuleuses",
       icon: "🐎",
-      tag: "Faune sacrée, monstres & allégories",
-      keywords: ['animal', 'cheval', 'chevaux', 'chien', 'chat', 'lion', 'oiseau', 'dragon', 'bœuf', 'taureau', 'cygne', 'cerf', 'serpent', 'faisan', 'chasse', 'sphinx', 'anubis']
+      tag: "Faune sacrée, monstres & animaux héroïques",
+      matcher: (a) => {
+        const t = (a.title || '').toLowerCase();
+        const cat = (a.category || '').toLowerCase();
+        const isAnimal = /\b(lion|lions|lionne|taureau|taureaux|chat|chats|cheval|chevaux|chacal|faucon|bélier|belier|serpent|serpents|ibis|singe|babouin|sphinx|sphinge|chimère|chimere|griffon|dragon|cerf|cerfs|biche|oiseau|oiseaux|aigle|faon|loup|renard|panthère|panthere|léopard|leopard|ours|croco|crocodile|hippopotame|faisan|chouette|bœuf|boeuf|zebu|zébu|chèvre|chevre|pégase|pegase|minotaure|salukis|bouquetin|bouquetins)\b/i.test(t) || cat.includes('zoomorphe');
+        return isAnimal;
+      }
     }
   ];
 
   container.innerHTML = '';
 
   themes.forEach(th => {
-    // Filtrage robuste basé sur imgSrc / img et l'ensemble des métadonnées
-    const matchingArts = catalog.filter(a => {
-      const imgUrl = a.imgSrc || a.img;
-      if (!imgUrl || !imgUrl.startsWith('http')) return false;
-      const haystack = `${a.title || ''} ${a.narrative || a.desc || ''} ${a.artist || a.author || ''} ${(a.chips || []).join(' ')} ${(a.tags || []).join(' ')}`.toLowerCase();
-      return th.keywords.some(kw => haystack.includes(kw));
-    }).slice(0, 20);
+    // Filtrage avec diversité stricte (maximum 2 œuvres par créateur/foyer)
+    const seenCreators = {};
+    const matchingArts = [];
+
+    for (let i = 0; i < catalog.length; i++) {
+      const art = catalog[i];
+      const imgUrl = art.imgSrc || art.img;
+      if (!imgUrl || !imgUrl.startsWith('http')) continue;
+      if (!th.matcher(art)) continue;
+
+      const creator = art.artist || art.author || art.civName || art.civilization || 'Anonyme';
+      if ((seenCreators[creator] || 0) >= 2) continue;
+
+      seenCreators[creator] = (seenCreators[creator] || 0) + 1;
+      matchingArts.push(art);
+      if (matchingArts.length >= 20) break;
+    }
 
     if (matchingArts.length < 2) return;
 
