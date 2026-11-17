@@ -75,6 +75,22 @@ window.MOVEMENTS_DATA = {
     "geographyHtml": "<div class='mov-focal-card'><div class='mov-focal-top'><span class='mov-focal-icon'>🏛️</span><div class='mov-focal-title'>Foyers Créateurs du Quattrocento</div></div><p class='mov-focal-desc'>Florence (Palais Médicis, Santa Maria Novella, Offices), Urbin (Palais ducal de Federico da Montefeltro), Padoue (Chapelle Ovetari), Mantoue (Palais Ducal, Chambre des Époux) et Venise.</p><div class='mov-focal-tags'><span class='mov-focal-tag'>📍 Florence</span><span class='mov-focal-tag'>📍 Urbin</span><span class='mov-focal-tag'>📍 Mantoue</span><span class='mov-focal-tag'>📍 Padoue</span><span class='mov-focal-tag'>📍 Venise</span></div></div>",
     "artists": [
       {
+        "name": "Pinturicchio (Bernardino di Betto)",
+        "dates": "v. 1454 – 1513",
+        "role": "Virtuose du faste décoratif ombrien et des fresques de cour",
+        "desc": "Appartements Borgia au Vatican, bibliothèque Piccolomini à Sienne et chapelle Bufalini.",
+        "artistId": "pinturicchio",
+        "icon": "👑"
+      },
+      {
+        "name": "Niccolò Pizzolo",
+        "dates": "v. 1421 – 1453",
+        "role": "Émule tragique de Mantegna et maître du relief illusionniste",
+        "desc": "Fresques de la chapelle Ovetari à Padoue (Docteurs de l'Église) et retables en terre cuite.",
+        "artistId": "pizzolo",
+        "icon": "🏛️"
+      },
+      {
         "name": "Masaccio",
         "dates": "1401 – 1428",
         "role": "Pionnier absolu de la perspective monumentale",
@@ -498,6 +514,14 @@ window.MOVEMENTS_DATA = {
     "geographyHtml": "<div class='mov-focal-card'><div class='mov-focal-top'><span class='mov-focal-icon'>🏛️</span><div class='mov-focal-title'>Foyers du Néoclassicisme</div></div><p class='mov-focal-desc'>Paris (Musée du Louvre, Panthéon, Église de la Madeleine, Arc de Triomphe), Rome (Académie de France, ateliers de Canova et Thorvaldsen) et Londres (British Museum).</p><div class='mov-focal-tags'><span class='mov-focal-tag'>📍 Paris</span><span class='mov-focal-tag'>📍 Rome</span><span class='mov-focal-tag'>📍 Londres</span><span class='mov-focal-tag'>📍 Berlin</span></div></div>",
     "artists": [
       {
+        "name": "Giovanni Battista Piranesi (Piranèse)",
+        "dates": "1720 – 1778",
+        "role": "Visionnaire du sublime romain et architecte du vertige",
+        "desc": "Carceri d'Invenzione (Prisons imaginaires), Vedute di Roma et Antichità Romane.",
+        "artistId": "piranesi",
+        "icon": "⛓️"
+      },
+      {
         "name": "Jacques-Louis David",
         "dates": "1748 – 1825",
         "role": "Chef de file du néoclassicisme et peintre de l'Empire",
@@ -538,6 +562,14 @@ window.MOVEMENTS_DATA = {
     "concurrentHtml": "<p><strong>Pendant ce temps-là... Commune de Paris, Belle Époque et révolution industrielle</strong></p><p><strong>France :</strong> Chute du Second Empire après la défaite contre la Prusse (1870). Insurrection de la <strong>Commune de Paris (1871)</strong> et proclamation de la IIIe République. Transformation haussmannienne de Paris avec ses grands boulevards, ses parcs et ses grands magasins.</p><p><strong>Europe & Monde :</strong> Essor fulgurant de la seconde révolution industrielle (chemin de fer, électricité, téléphone d'Alexander Graham Bell en 1876, ampoule d'Edison en 1879). Progrès de la photographie qui libère définitivement la peinture de l'obligation de copier le réel.</p><p><strong>Arts & Lettres :</strong> Émile Zola publie la saga des <em>Rougon-Macquart</em> et défend ardemment ses amis peintres (Manet, Cézanne). Essor du japonisme avec l'ouverture des ports japonais sous l'ère Meiji.</p>",
     "geographyHtml": "<div class='mov-focal-card'><div class='mov-focal-top'><span class='mov-focal-icon'>🏛️</span><div class='mov-focal-title'>Foyers de l'Impressionnisme</div></div><p class='mov-focal-desc'>Paris (Boulevards, Gare Saint-Lazare, Buttes-Montmartre, Opéra Garnier), Bougival et Argenteuil (Bords de Seine), Giverny (Jardins et nymphéas de Monet) et la Côte normande (Honfleur, Étretat, Le Havre).</p><div class='mov-focal-tags'><span class='mov-focal-tag'>📍 Paris</span><span class='mov-focal-tag'>📍 Argenteuil</span><span class='mov-focal-tag'>📍 Honfleur</span><span class='mov-focal-tag'>📍 Giverny</span><span class='mov-focal-tag'>📍 Étretat</span></div></div>",
     "artists": [
+      {
+        "name": "Camille Pissarro",
+        "dates": "1830 – 1903",
+        "role": "Doyen, mentor et figure paternelle de l'Impressionnisme",
+        "desc": "L'orage approchant, La Moisson, Chemin montant à Osny et séries des boulevards parisiens.",
+        "artistId": "pissarro",
+        "icon": "🌾"
+      },
       {
         "name": "Claude Monet",
         "dates": "1840 – 1926",

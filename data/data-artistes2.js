@@ -7241,6 +7241,468 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
         }
       ]
     }
+  },
+  "pinturicchio": {
+    "id": "pinturicchio",
+    "name": "Pinturicchio (Bernardino di Betto)",
+    "sortName": "Pinturicchio (Bernardino di Betto)",
+    "sortLetter": "P",
+    "dates": "v. 1454 – 1513",
+    "movement": "Renaissance italienne & Quattrocento ombrien",
+    "nationality": "Italienne (Pérouse, Rome, Sienne)",
+    "techniques": "Fresque monumentale, détrempe et huile sur panneau, reliefs en stuc doré (pastiglia), orfèvrerie peinte, grotesques antiquisants, perspective spatiale ombrienne",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczP9sy6YlusI2E2XK4tfs4zA_NvNmgxek0dFQNDCoGffF62Ja9wwKURXursEqOw42JQgFDp43ewjVouKN0EPc49ovLJzzmzrIWWkAJqIeG9XtQoYaorWRQZqmaa645SnEQUDMG2AVU5gcTyiPw03OyVABw=w1708-h725-s-no-gm?authuser=0",
+    "portraitImg": "",
+    "bio": `
+      <p><strong>Le maître de la féerie visuelle et du faste décoratif ombrien</strong><br>
+      Bernardino di Betto, dit Pinturicchio ou Pintoricchio (« le petit peintre », v. 1454 – 1513), est l'un des maîtres les plus virtuoses et décoratifs de l'école ombrienne du Quattrocento. Longtemps collaborateur du Pérugin, il s'est imposé comme le peintre favori de la papauté humaniste et des grandes familles princières de la Renaissance italienne, célèbre pour son sens inégalé de la féerie visuelle, la profusion de ses ornements dorés et sa maîtrise novatrice du décor à fresque.</p>
+      <p><strong>Pastiglia dorée, grotesques antiques et verve narrative de cour</strong><br>
+      Son genre pictural se définit par le grand cycle monumental à fresque, le retable d'autel sur panneau, la Madone de dévotion et le décor de grotesques antiquisants. Son style se caractérise par une palette vive et émaillée, l'emploi généreux de reliefs en stuc rehaussés d'or (pastiglia) pour faire briller armures et joyaux sous la lumière, des architectures ouvertes sur de vastes paysages ombriens vaporeux, et une verve narrative raffinée qui transforme les récits sacrés ou historiques en d'élégantes fêtes de cour.</p>
+      <p><strong>De la chapelle Sixtine à la bibliothèque Piccolomini</strong><br>
+      L'évolution de son style marque un passage de la rigueur spatiale partagée avec Le Pérugin vers un luxe narratif et archéologique éblouissant :<br>
+      • <em>La chapelle Sixtine et la chapelle Bufalini (années 1480) :</em> Associé au Pérugin sur le chantier papal de la chapelle Sixtine à Rome (1481 – 1482), il participe à la conception des fresques murales. Peu après, il réalise à Santa Maria in Aracoeli les fresques de la chapelle Bufalini (Vie de saint Bernardin de Sienne), où il démontre une maîtrise précoce de la perspective mathématique et un goût prononcé pour le réalisme des costumes contemporains.<br>
+      • <em>Le faste pontifical des appartements Borgia (1492 – 1494) :</em> Au Vatican, le pape Alexandre VI Borgia lui confie la décoration complète de ses appartements privés. Pinturicchio y déploie un faste sans précédent, mêlant théologie chrétienne, mythes égyptiens (le taureau Apis, emblème des Borgia) et motifs de « grotesques » inspirés directement de la Domus Aurea antique qu'il explore parmi les premiers à Rome.<br>
+      • <em>Le chef-d'œuvre de la bibliothèque Piccolomini (1502 – 1508) :</em> Commandé par le cardinal Francesco Piccolomini (futur Pie III) pour la cathédrale de Sienne, ce cycle retrace la vie du pape humaniste Pie II en dix grandes scènes lumineuses. Pinturicchio y collabore notamment avec le tout jeune Raphaël pour certains dessins préparatoires. L'état de conservation exceptionnel des fresques en fait le témoignage le plus éclatant de son génie narratif et de son chromatisme chatoyant.</p>
+    `,
+    "catalogInfo": {
+      "scientificCorpus": "environ 65 œuvres répertoriées",
+      "totalEstimated": "environ 65 peintures et cycles de fresques autographes",
+      "historicalContext": "L'inventaire scientifique de référence s'appuie sur la monographie fondamentale d'Enzo Carli (1960), magistralement actualisée par le catalogue complet de Pietro Scarpellini et Maria Rita Silvestrelli (Pintoricchio, 2003). En regroupant les fresques monumentales par cycles (Vatican, Spello, Sienne) et en isolant ses retables et ses panneaux de dévotion autographes (qui sont infiniment moins nombreux que ceux de son compatriote Le Pérugin), le consensus scientifique fixe le corpus officiel de ses peintures à environ 65 œuvres."
+    },
+    "timeline": {
+      "title": "Repères biographiques & Jalons créateurs",
+      "periods": [
+        {
+          "years": "v. 1454 – 1489",
+          "title": "Formation pérousine, collaboration avec Le Pérugin et chapelle Sixtine",
+          "color": "#c5a059",
+          "events": [
+            {
+              "year": "v. 1454",
+              "title": "Naissance à Pérouse",
+              "desc": "Fils de Benedetto di Biagio. Reçoit une formation de miniaturiste et de peintre auprès des ateliers ombriens et de Bartolomeo Caporali.",
+              "type": "life",
+              "icon": "🌱"
+            },
+            {
+              "year": "1481 – 1482",
+              "title": "Chantier papal de la chapelle Sixtine à Rome",
+              "desc": "Collabore étroitement avec Le Pérugin pour les fresques murales (Baptême du Christ, Moïse et Séphora), assimilant la perspective monumentale.",
+              "type": "creation",
+              "icon": "🏛️"
+            },
+            {
+              "year": "v. 1485 – 1486",
+              "title": "Fresques de la chapelle Bufalini à Santa Maria in Aracoeli",
+              "desc": "Peint le cycle consacré à saint Bernardin de Sienne, triomphe de perspective architecturée et de raffinement des costumes d'époque.",
+              "type": "masterpiece",
+              "icon": "⭐"
+            }
+          ]
+        },
+        {
+          "years": "1490 – 1501",
+          "title": "L'apogée romain, les appartements Borgia et la chapelle Baglioni",
+          "color": "#8a6d3b",
+          "events": [
+            {
+              "year": "1492 – 1494",
+              "title": "Décoration monumentale des appartements Borgia au Vatican",
+              "desc": "Alexandre VI Borgia lui confie le décor de six grandes salles papales : faste d'or en pastiglia, grotesques inspirés de la Domus Aurea et mythe d'Isis et Osiris.",
+              "type": "masterpiece",
+              "icon": "👑"
+            },
+            {
+              "year": "1500 – 1501",
+              "title": "Fresques de la chapelle Baglioni à Spello",
+              "desc": "Réalise la fresque de l'Annonciation dans l'église Santa Maria Maggiore, incluant son célèbre autoportrait suspendu en trompe-l'œil.",
+              "type": "creation",
+              "icon": "🎨"
+            }
+          ]
+        },
+        {
+          "years": "1502 – 1513",
+          "title": "La bibliothèque Piccolomini à Sienne et derniers feux",
+          "color": "#4a6b82",
+          "events": [
+            {
+              "year": "1502 – 1508",
+              "title": "Le cycle de la vie de Pie II à la bibliothèque Piccolomini",
+              "desc": "Chef-d'œuvre absolu de dix fresques lumineuses dans le Duomo de Sienne, réalisé en collaboration avec le jeune Raphaël pour les cartons.",
+              "type": "masterpiece",
+              "icon": "📖"
+            },
+            {
+              "year": "1513",
+              "title": "Mort à Sienne",
+              "desc": "S'éteint le 11 décembre 1513 à Sienne, laissant l'un des corpus à fresque les plus fastueux et préservés du Quattrocento italien.",
+              "type": "death",
+              "icon": "✝️"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "piranesi": {
+    "id": "piranesi",
+    "name": "Piranesi Giovanni Battista (Piranèse)",
+    "sortName": "Piranesi Giovanni Battista (Piranèse)",
+    "sortLetter": "P",
+    "dates": "1720 – 1778",
+    "movement": "Védutisme monumental, Romantisme noir & Archéologie visionnaire",
+    "nationality": "Italienne (Venise, Rome)",
+    "techniques": "Eau-forte et burin, morsure profonde à l'acide, perspectives en contre-plongée vertigineuse, contrastes lumineux violents (chiaroscuro noir), relevés archéologiques rigoureux",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczNK7GY6bdJuN1BhqhmpRQoYAXn3hPZQ8S-Ef2OJkxrMNYrCdEGKCpn3yOCg5ECZsjrNEBYPt1w92Wvdz54hur4VnlzpIhcCqVYvFNpzYLVrsDxqBZ-RXCX-zrT4E3dyDUAj7jbOtgu52Nibt6PpHv53SQ=w1708-h725-s-no-gm?authuser=0",
+    "portraitImg": "",
+    "bio": `
+      <p><strong>Le visionnaire de la Rome sublime et l'architecte du vertige</strong><br>
+      Giovanni Battista Piranesi, dit Piranèse (1720 – 1778), est un graveur à l'eau-forte, architecte, théoricien et archéologue vénitien dont l'œuvre a profondément bouleversé l'imaginaire européen du XVIIIe siècle. Établi à Rome, ce visionnaire habité par la grandeur de la civilisation romaine a réinventé le védutisme et la restitution archéologique en leur insufflant une dimension monumentale, sublime et fantastique, posant ainsi les jalons du romantisme noir et de l'architecture utopique.</p>
+      <p><strong>Carceri d'Invenzione, maçonneries cyclopéennes et morsure du cuivre</strong><br>
+      Son genre d'expression se définit par la veduta archéologique monumentale, le capriccio architectural fantastique et la planche d'architecture théorique et de relevé antique. Son style se caractérise par des perspectives en contre-plongée vertigineuses, un contraste violent d'ombres et de lumières rendu par des morsures profondes du cuivre à l'acide, une échelle démesurée des maçonneries cyclopéennes écrasant de minuscules silhouettes humaines agitées, et une minutie technique extrême dans la description des blocs de travertin fissurés et envahis de végétation.</p>
+      <p><strong>De la scénographie vénitienne au labyrinthe carcéral et aux Vedute di Roma</strong><br>
+      L'évolution de son style marque un passage de la scénographie théâtrale vers l'exploration du labyrinthe mental, puis vers le combat archéologique et polémique :<br>
+      • <em>La formation vénitienne et les premiers Capricci (1740 – 1745) :</em> Formé à Venise auprès d'architectes et de décorateurs de théâtre (la tradition des Bibiena), il s'installe à Rome en 1740. Il assimile la leçon de Giovanni Paolo Panini et publie en 1743 la Prima Parte di Architetture e Prospettive, où se manifeste déjà son goût pour les ruines inventées, les arcs colossaux et les escaliers suspendus dans le vide.<br>
+      • <em>Les Prisons imaginaires (Carceri d'Invenzione) et l'angoisse spatiale (vers 1745 – 1761) :</em> C'est son coup de génie le plus célèbre. Il imagine des architectures carcérales labyrinthiques, infinies et oppressantes, peuplées d'arches cyclopéennes, de passerelles branlantes, de chaînes titanesques et d'instruments de torture démesurés. Dans la réédition de 1761, il retravaille ses cuivres avec des noirs d'une profondeur d'encre absolue, créant une métaphore pré-romantique du vertige de l'esprit humain.<br>
+      • <em>L'apologie de la Rome antique et les grandes suites de Vues (années 1750 – 1778) :</em> Avec les Antichità Romane (1756) et son entreprise colossale des Vedute di Roma (135 planches réalisées tout au long de sa vie), il prend passionnément parti dans la querelle intellectuelle européenne, affirmant la supériorité du génie constructeur romain sur l'art grec (défendu par Winckelmann). Ses gravures, largement achetées par les voyageurs fortunés du Grand Tour, fixent pour des générations le mythe d'une Rome antique colossale et tragique.</p>
+    `,
+    "catalogInfo": {
+      "scientificCorpus": "1 018 estampes répertoriées",
+      "totalEstimated": "1 018 eaux-fortes autographes",
+      "historicalContext": "L'inventaire scientifique de référence mondiale est le Catalogue raisonné du grand historien de l'art français Henri Focillon (1918), magistralement actualisé par John Wilton-Ely en 1994 (The Complete Etchings). En excluant ses dessins préparatoires, ce consensus scientifique fixe le corpus officiel et définitif de ses gravures (eaux-fortes) à très exactement 1 018 estampes."
+    },
+    "timeline": {
+      "title": "Repères biographiques & Jalons créateurs",
+      "periods": [
+        {
+          "years": "1720 – 1744",
+          "title": "Jeunesse vénitienne, installation à Rome et premiers Capricci",
+          "color": "#8a6d3b",
+          "events": [
+            {
+              "year": "1720",
+              "title": "Naissance à Mogliano Veneto près de Venise",
+              "desc": "Fils d'un tailleur de pierre. Se forme à l'architecture, à la scénographie théâtrale et à la gravure au sein du milieu vénitien.",
+              "type": "life",
+              "icon": "🌱"
+            },
+            {
+              "year": "1740",
+              "title": "Arrivée à Rome dans la suite de l'ambassadeur de Venise",
+              "desc": "Subjugué par les ruines antiques de la Ville éternelle, il étudie la gravure avec Giuseppe Vasi et rencontre Giovanni Paolo Panini.",
+              "type": "education",
+              "icon": "🏛️"
+            },
+            {
+              "year": "1743",
+              "title": "Publication de la Prima Parte di Architetture e Prospettive",
+              "desc": "Premier recueil de planches manifestant son génie de l'illusion spatiale et de la ruine monumentale recomposée.",
+              "type": "creation",
+              "icon": "📐"
+            }
+          ]
+        },
+        {
+          "years": "1745 – 1761",
+          "title": "Les Prisons imaginaires (Carceri d'Invenzione) et le sublime",
+          "color": "#4a4a5a",
+          "events": [
+            {
+              "year": "v. 1745 – 1750",
+              "title": "Première édition des Carceri d'Invenzione",
+              "desc": "Crée la célèbre suite de quatorze eaux-fortes de prisons fantasmagoriques aux architectures cyclopéennes infinies.",
+              "type": "masterpiece",
+              "icon": "⛓️"
+            },
+            {
+              "year": "1756",
+              "title": "Publication magistrale des Antichità Romane",
+              "desc": "Quatre volumes monumentaux consacrés aux vestiges de Rome, consacrant sa réputation d'archéologue visionnaire dans toute l'Europe.",
+              "type": "creation",
+              "icon": "📚"
+            },
+            {
+              "year": "1761",
+              "title": "Seconde édition retravaillée des Carceri",
+              "desc": "Retravaille profondément ses cuivres à l'eau-forte, assombrissant dramatiquement les contrastes et inventant l'archétype du Romantisme noir.",
+              "type": "masterpiece",
+              "icon": "🖤"
+            }
+          ]
+        },
+        {
+          "years": "1762 – 1778",
+          "title": "Les Vedute di Roma, la défense du génie romain et apothéose",
+          "color": "#9e5338",
+          "events": [
+            {
+              "year": "1764 – 1766",
+              "title": "Restauration de Santa Maria del Priorato sur l'Aventin",
+              "desc": "Réalise son unique chef-d'œuvre architectural bâti pour l'Ordre de Malte, orné d'un répertoire iconographique antiquisant d'une originalité stupéfiante.",
+              "type": "creation",
+              "icon": "⛪"
+            },
+            {
+              "year": "1748 – 1778",
+              "title": "L'épopée des 135 planches des Vedute di Roma",
+              "desc": "Suite gravée célébrissime acquise par les amateurs du Grand Tour, forgeant la vision monumentale de Rome pour les siècles futurs.",
+              "type": "masterpiece",
+              "icon": "⭐"
+            },
+            {
+              "year": "1778",
+              "title": "Mort à Rome",
+              "desc": "Meurt le 9 novembre 1778 après une ultime expédition de relevés sur les temples grecs de Paestum. Inhumé à Santa Maria del Priorato.",
+              "type": "death",
+              "icon": "🏛️"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "pissarro": {
+    "id": "pissarro",
+    "name": "Pissarro Camille",
+    "sortName": "Pissarro Camille",
+    "sortLetter": "P",
+    "dates": "1830 – 1903",
+    "movement": "Impressionnisme, Néo-impressionnisme (Divisionnisme) & Plein air",
+    "nationality": "Française (Saint-Thomas aux Antilles, Pontoise, Éragny, Paris)",
+    "techniques": "Huile sur toile, détrempe, gouache et pastel, touche vibrante fragmentée, divisionnisme optique, atmosphères climatiques et séries urbaines plongeantes",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczNTHGgSDFVJ_Mpl0uKjx4ideAdE_WgkUYdbqP8ia7qPew1o-H91nGxInuQUCbkldtI5NK6odvEZVEcRdV6moypGBRdDMkLHXfBTL0eKW4mhe7Kh763r910S4A3lTV-04WSo14BA-nz0rO925ucYWhgleA=w1708-h725-s-no-gm?authuser=0",
+    "portraitImg": "",
+    "bio": `
+      <p><strong>Le doyen humaniste et la figure tutélaire de l'Impressionnisme</strong><br>
+      Camille Pissarro, né en 1830 à Saint-Thomas aux Antilles et mort à Paris en 1903, occupe une place unique en tant que doyen et figure paternelle de l'Impressionnisme. Seul artiste à avoir exposé aux huit expositions du groupe entre 1874 et 1886, il a joué un rôle de mentor crucial pour des génies tels que Cézanne et Gauguin. Anarchiste de conviction et humaniste, il a dédié sa vie à une observation sincère de la nature et de la vie rurale, préférant la simplicité des champs et des paysans de Pontoise ou d'Éragny au luxe mondain de l'époque.</p>
+      <p><strong>Solidité constructive du paysage, dignité rurale et vibration lumineuse</strong><br>
+      Son genre pictural se concentre sur le paysage et la vie quotidienne, qu'il traite avec une sensibilité particulière pour la structure et la lumière. Contrairement à Monet qui se focalise parfois sur la dissolution des formes dans l'atmosphère, Pissarro conserve toujours un souci de la composition et de la solidité des volumes. Son travail se caractérise par une touche vibrante et une palette terreuse mais lumineuse, capturant avec une grande justesse les effets de la neige, de la brume ou du soleil printanier sur la terre travaillée.</p>
+      <p><strong>De l'épopée impressionniste à l'aventure pointilliste et aux boulevards parisiens</strong><br>
+      L'évolution de son style témoigne d'une remise en question permanente et d'une ouverture d'esprit exceptionnelle pour un artiste de son âge. Après avoir pratiqué un impressionnisme classique, il traverse au milieu des années 1880 une phase de transition radicale vers le néo-impressionnisme sous l'influence de Seurat. Il adopte alors la technique pointilliste, cherchant une plus grande rigueur scientifique dans le mélange des couleurs. Finalement, il revient à une manière plus libre et fluide dans ses dernières années, se tournant vers de grandes séries urbaines représentant les boulevards parisiens ou les ports normands, peints avec une vivacité et une maîtrise spatiale renouvelées.</p>
+    `,
+    "catalogInfo": {
+      "scientificCorpus": "1 528 peintures répertoriées",
+      "totalEstimated": "1 528 peintures à l'huile autographes",
+      "historicalContext": "L'inventaire scientifique de référence mondiale est le titanesque Catalogue critique des peintures (Critical Catalogue of Paintings) établi par son arrière-petit-fils, l'historien Joachim Pissarro, et Claire Durand-Ruel Snollaerts. Publié en 2005 par le Wildenstein Institute en trois volumes monumentaux (supplantant l'ancien catalogue de Ludovic-Rodo Pissarro de 1939), ce travail de titan a écarté son immense œuvre sur papier (pastels, gouaches, dessins et estampes) pour fixer le corpus officiel et définitif de ses peintures à l'huile à très exactement 1 528 œuvres."
+    },
+    "timeline": {
+      "title": "Repères biographiques & Jalons créateurs",
+      "periods": [
+        {
+          "years": "1830 – 1873",
+          "title": "Des Antilles à Louveciennes, formation avec Corot et débuts du plein air",
+          "color": "#8a7d4a",
+          "events": [
+            {
+              "year": "1830",
+              "title": "Naissance à Saint-Thomas aux Antilles",
+              "desc": "Fils d'un commerçant français d'origine juive marrane. Arrive en France en 1855 pour se consacrer entièrement à la peinture.",
+              "type": "life",
+              "icon": "🌴"
+            },
+            {
+              "year": "1855 – 1860",
+              "title": "Conseils de Corot et Académie Suisse",
+              "desc": "Reçoit les précieux conseils de Jean-Baptiste Camille Corot sur le travail sur le motif et rencontre Monet, Cézanne et Guillaumin.",
+              "type": "education",
+              "icon": "🎨"
+            },
+            {
+              "year": "1870 – 1871",
+              "title": "Exil à Londres avec Monet pendant la guerre",
+              "desc": "Fuit l'invasion prussienne, découvre Constable et Turner à Londres et rencontre le marchand d'art Paul Durand-Ruel.",
+              "type": "milestone",
+              "icon": "🇬🇧"
+            }
+          ]
+        },
+        {
+          "years": "1874 – 1884",
+          "title": "Le cœur héroïque de l'Impressionnisme à Pontoise et Osny",
+          "color": "#5b7552",
+          "events": [
+            {
+              "year": "1874",
+              "title": "Première exposition impressionniste chez Nadar",
+              "desc": "Participe activement à la fondation de la société anonyme des artistes peintres et expose 5 toiles lors de l'acte de naissance du mouvement.",
+              "type": "milestone",
+              "icon": "🖼️"
+            },
+            {
+              "year": "1877",
+              "title": "L'orage approchant et émulation avec Cézanne",
+              "desc": "Peint sa magistrale étude météorologique (Palazzo Pitti) et travaille côte à côte avec Cézanne à Pontoise.",
+              "type": "artwork",
+              "artworkId": "pissarro_l_orage_approchant_1877",
+              "icon": "⛈️"
+            },
+            {
+              "year": "1882",
+              "title": "La Moisson à la septième exposition impressionniste",
+              "desc": "Présente sa grande détrempe panoramique célébrant la noblesse du travail paysan (NMWA, Tokyo).",
+              "type": "artwork",
+              "artworkId": "pissarro_la_moisson_1882",
+              "icon": "🌾"
+            },
+            {
+              "year": "1883",
+              "title": "Séjour fécond à Osny",
+              "desc": "Brosse avec une touche vibrante et hachée les chemins de terre et la vie quotidienne d'Osny (Musée de Valenciennes).",
+              "type": "artwork",
+              "artworkId": "pissarro_chemin_montant_a_osny_1883",
+              "icon": "🏡"
+            }
+          ]
+        },
+        {
+          "years": "1885 – 1890",
+          "title": "L'aventure néo-impressionniste et le divisionnisme",
+          "color": "#4a6b82",
+          "events": [
+            {
+              "year": "1885 – 1886",
+              "title": "Rencontre avec Seurat et Signac & 8e exposition impressionniste",
+              "desc": "Seul impressionniste historique à embrasser la théorie du divisionnisme et du pointillisme scientifique.",
+              "type": "creation",
+              "icon": "🔬"
+            },
+            {
+              "year": "1884 – 1890",
+              "title": "Installation à Éragny-sur-Epte",
+              "desc": "Établit son foyer familial et son atelier définitif à Éragny, peignant pommiers, prés et paysannes avec une rigueur optique neuve.",
+              "type": "life",
+              "icon": "🍎"
+            }
+          ]
+        },
+        {
+          "years": "1891 – 1903",
+          "title": "Les grandes séries urbaines, Paris sous la neige et les ports",
+          "color": "#8c6b4b",
+          "events": [
+            {
+              "year": "1897 – 1900",
+              "title": "Les séries plongeantes des boulevards parisiens et des Tuileries",
+              "desc": "Depuis sa fenêtre de la rue de Rivoli, peint les Tuileries sous la neige (Musée de Rouen), l'Avenue de l'Opéra et les grands boulevards.",
+              "type": "artwork",
+              "artworkId": "pissarro_jardin_des_tuileries_effet_de_neige_1900",
+              "icon": "❄️"
+            },
+            {
+              "year": "1901 – 1903",
+              "title": "Les ports normands (Dieppe, Le Havre) et mort à Paris",
+              "desc": "Termine sa vie en peignant la mer et l'activité des bassins portuaires avant de s'éteindre à Paris le 13 novembre 1903 à 73 ans.",
+              "type": "death",
+              "icon": "⛵"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "pizzolo": {
+    "id": "pizzolo",
+    "name": "Pizzolo Niccolò",
+    "sortName": "Pizzolo Niccolò",
+    "sortLetter": "P",
+    "dates": "v. 1421 – 1453",
+    "movement": "Renaissance padouane (Quattrocento septentrional)",
+    "nationality": "Italienne (Padoue, Vénétie)",
+    "techniques": "Fresque monumentale illusionniste, di sotto in sù, relief en terre cuite polylobée, retable en terre cuite dorée, perspective linéaire rigoureuse, anatomie sculpturale influencée par Donatello",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczOu9aJtepHyeRXytrokQU4aXMxiKUoEw0kqVxtMTaTQJsx61zR9SseOByGD-fqmbvn9r_Bv6lzSK64fcV0ECNW5LiJGNzf9IXp-ydJu1tEY-HjzW1ifEk5u8HUvBImQm7Z77HkxLHFTSuuQvZ5PtgW73A=w1708-h725-s-no-gm?authuser=0",
+    "portraitImg": "",
+    "bio": `
+      <p><strong>L'émule tragique de Mantegna et le sculpteur-peintre du Quattrocento padouan</strong><br>
+      Niccolò Pizzolo (ou Niccolò di Pietro da Villaganzerla, v. 1421 – 1453) est une figure clé mais tragiquement éphémère de la Renaissance padouane. Émule et rival direct du jeune Andrea Mantegna, formé comme lui au sein du foyer humaniste de Francesco Squarcione à Padoue, il a joué un rôle déterminant dans l'assimilation précoce de la perspective florentine et du renouveau antiquisant en Italie du Nord, avant d'être assassiné lors d'une rixe nocturne à une trentaine d'années seulement.</p>
+      <p><strong>Le choc de Donatello, perspective en contre-plongée et terre cuite</strong><br>
+      Son genre pictural et plastique se définit par la fresque monumentale en perspective, le relief sculpté en terre cuite polylobée et le retable d'autel. Son style se caractérise par une monumentalité sculpturale directement inspirée des séjours de Donatello à Padoue, une géométrie perspective implacable avec des vues en contre-plongée audacieuses (<em>di sotto in sù</em>), un rendu métallique des draperies aux plis anguleux, et un goût archéologique marqué pour les guirlandes de fruits, les putti et les motifs architecturaux romains.</p>
+      <p><strong>De l'atelier de Squarcione au chef-d'œuvre brisé de la chapelle Ovetari</strong><br>
+      L'évolution de son style marque un passage de l'atelier squarcionesque vers une maturité plastique puissante, brutalement interrompue :<br>
+      • <em>La formation squarcionesque et le contact avec Donatello (années 1430 – 1445) :</em> Il fréquente l'atelier de Francesco Squarcione, véritable pépinière d'humanistes où l'on étudie les moulages antiques et les règles géométriques. Dès 1443, la présence de Donatello à Padoue (qui travaille au maître-autel de la basilique Saint-Antoine) bouleverse sa pratique : il en tire un sens exceptionnel du relief, de la gravure des formes dans l'espace et une maîtrise de la terre cuite qui le distingue de ses pairs peintres.<br>
+      • <em>Le chantier capital de la chapelle Ovetari (1448 – 1453) :</em> En 1448, il est chargé aux côtés d'Andrea Mantegna de peindre le décor monumental de la chapelle Ovetari dans l'église des Érémitiques à Padoue. Pizzolo se voit attribuer les fresques de l'abside, de la voûte et le retable en terre cuite. Dans ses fresques des Docteurs de l'Église et du Père éternel bénissant, il réalise des trompe-l'œil magistraux où les figures semblent s'échapper de cadres circulaires en relief illusionniste, rivalisant d'audace optique avec Mantegna.<br>
+      • <em>Le retable en terre cuite et la mort brutale (vers 1450 – 1453) :</em> Pour le maître-autel de cette même chapelle Ovetari, il sculpte une imposante Conversation sacrée en terre cuite peinte et dorée, associant rigueur classique donatellienne et sens du drame expressif. Enclin à un tempérament querelleur et violent, souvent mêlé à des démêlés judiciaires, il est poignardé à mort en 1453 avant d'avoir achevé sa part des fresques, laissant à Mantegna le monopole et la gloire de ce chantier fondateur du Quattrocento septentrional.</p>
+    `,
+    "catalogInfo": {
+      "scientificCorpus": "4 à 5 œuvres authentifiées",
+      "totalEstimated": "4 à 5 fresques autographes (abside de la chapelle Ovetari)",
+      "historicalContext": "L'inventaire scientifique se heurte à une double tragédie : sa mort prématurée (tué lors d'une rixe de rue à Padoue vers l'âge de 33 ans) et l'anéantissement presque total de son chef-d'œuvre lors de la Seconde Guerre mondiale. En se basant sur les archives padouanes et les études des spécialistes de la Renaissance du Nord de l'Italie (comme Keith Christiansen), et en excluant ses quelques rares terres cuites pour ne retenir que ses interventions documentées en fresque, le consensus scientifique fixe son corpus pictural authentifié à seulement 4 à 5 œuvres (principalement les grands registres de l'abside de la chapelle Ovetari)."
+    },
+    "timeline": {
+      "title": "Repères biographiques & Jalons créateurs",
+      "periods": [
+        {
+          "years": "v. 1421 – 1443",
+          "title": "Jeunesse padouane, atelier de Squarcione et passion pour l'antique",
+          "color": "#8a6d3b",
+          "events": [
+            {
+              "year": "v. 1421",
+              "title": "Naissance à Padoue (ou Villaganzerla)",
+              "desc": "Fils de Pietro da Villaganzerla. Évolue dans le milieu artisanal et artistique padouan.",
+              "type": "life",
+              "icon": "🌱"
+            },
+            {
+              "year": "v. 1435 – 1442",
+              "title": "Formation chez Francesco Squarcione à Padoue",
+              "desc": "Fréquente l'atelier réputé de Squarcione, étudiant les statues antiques, les bas-reliefs et le dessin en perspective géométrique.",
+              "type": "education",
+              "icon": "🏛️"
+            }
+          ]
+        },
+        {
+          "years": "1443 – 1447",
+          "title": "Le choc des créations de Donatello à Padoue et la terre cuite",
+          "color": "#5a6b7c",
+          "events": [
+            {
+              "year": "1443 – 1446",
+              "title": "Présence de Donatello à la basilique Saint-Antoine",
+              "desc": "Donatello réalise le maître-autel du Santo ; Pizzolo est profondément marqué par le relief sculptural et apprend le travail de la terre cuite.",
+              "type": "milestone",
+              "icon": "🗿"
+            },
+            {
+              "year": "1446 – 1447",
+              "title": "Premiers retables et réputation de sculpteur-peintre",
+              "desc": "Acquiert une autonomie professionnelle, combinant maîtrise picturale de la fresque et modelage sculpté de la terre cuite.",
+              "type": "creation",
+              "icon": "🎨"
+            }
+          ]
+        },
+        {
+          "years": "1448 – 1453",
+          "title": "Le chantier héroïque de la chapelle Ovetari avec Mantegna et mort tragique",
+          "color": "#9e4338",
+          "events": [
+            {
+              "year": "1448",
+              "title": "Commande colossale de la chapelle Ovetari aux Érémitiques",
+              "desc": "Signe le contrat pour décorer la chapelle avec Mantegna, Giovanni d'Alemagna et Antonio Vivarini.",
+              "type": "creation",
+              "icon": "📜"
+            },
+            {
+              "year": "1449 – 1452",
+              "title": "Fresques des Docteurs de l'Église et retable en terre cuite",
+              "desc": "Peint les écoinçons et l'abside en trompe-l'œil magistral (di sotto in sù) et sculpte la Conversation sacrée du maître-autel.",
+              "type": "masterpiece",
+              "icon": "⭐"
+            },
+            {
+              "year": "1453",
+              "title": "Assassinat lors d'une rixe à Padoue",
+              "desc": "Poignardé à mort lors d'une violente querelle nocturne à Padoue vers l'âge de 32 ans, laissant son œuvre inachevée reprise par Mantegna.",
+              "type": "death",
+              "icon": "⚔️"
+            }
+          ]
+        }
+      ]
+    }
   }
 });
 
@@ -7285,3 +7747,14 @@ window.ARTISTS_REGISTRY["parmigianino"] = window.ARTISTS_REGISTRY["parmigiano"];
 window.ARTISTS_REGISTRY["le_parmesan"] = window.ARTISTS_REGISTRY["parmigiano"];
 
 window.ARTISTS_REGISTRY["pablo_picasso"] = window.ARTISTS_REGISTRY["picasso"];
+
+window.ARTISTS_REGISTRY["pintoricchio"] = window.ARTISTS_REGISTRY["pinturicchio"];
+window.ARTISTS_REGISTRY["bernardino_di_betto"] = window.ARTISTS_REGISTRY["pinturicchio"];
+
+window.ARTISTS_REGISTRY["piranese"] = window.ARTISTS_REGISTRY["piranesi"];
+window.ARTISTS_REGISTRY["giovanni_battista_piranesi"] = window.ARTISTS_REGISTRY["piranesi"];
+
+window.ARTISTS_REGISTRY["camille_pissarro"] = window.ARTISTS_REGISTRY["pissarro"];
+
+window.ARTISTS_REGISTRY["niccolo_pizzolo"] = window.ARTISTS_REGISTRY["pizzolo"];
+window.ARTISTS_REGISTRY["niccolo_di_pietro_da_villaganzerla"] = window.ARTISTS_REGISTRY["pizzolo"];
