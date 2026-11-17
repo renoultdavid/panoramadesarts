@@ -411,8 +411,8 @@ window.MOVEMENTS_DATA = {
         "name": "Nicolas Poussin",
         "dates": "1594 – 1665",
         "role": "Le peintre philosophe et législateur du classicisme",
-        "desc": "Et in Arcadia ego, L'Enlèvement des Sabines et Les Saisons du Louvre.",
-        "artistId": "",
+        "desc": "Et in Arcadia ego, Bacchanales, Saint Denis, Paysages héroïques et Les Saisons.",
+        "artistId": "poussin",
         "icon": "📜"
       },
       {
@@ -1021,8 +1021,8 @@ window.MOVEMENTS_DATA = {
         "name": "Jackson Pollock",
         "dates": "1912 – 1956",
         "role": "Le démiurge du dripping et figure mythique de l'Action Painting",
-        "desc": "Number 1A (1948), Autumn Rhythm (Number 30), Blue Poles.",
-        "artistId": "",
+        "desc": "Number 1A (1948), Autumn Rhythm (Number 30), Number 8 (1951), Blue Poles.",
+        "artistId": "pollock",
         "icon": "🖌️"
       },
       {

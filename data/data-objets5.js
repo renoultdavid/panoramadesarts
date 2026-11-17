@@ -7,6 +7,294 @@
 
 window.ART_OBJECTS = [
 {
+  "id": "pollock_number_8_1951",
+  "artistId": "pollock",
+  "artist": "Pollock Jackson",
+  "artistSort": "Pollock Jackson",
+  "civId": "occident",
+  "periodId": "occ_xx",
+  "civName": "Occident chrétien & moderne",
+  "civilization": "États-Unis (Expressionnisme abstrait)",
+  "subpart": "La série des Black Pourings & la rémanence du symbole",
+  "title": "Number 8",
+  "date": "1951",
+  "dateDisplay": "1951",
+  "century": "XXe siècle",
+  "centuryDisplay": "XXe s. (1951)",
+  "centuryNumeric": 1951,
+  "period": "Expressionnisme abstrait & Action Painting (Black Pourings)",
+  "domain": "peinture",
+  "type": "Émail et laque industrielle sur toile de coton écru brute",
+  "artifactType": "Action painting / Peinture gestuelle",
+  "category": "peinture",
+  "medium": "Émail et laque industrielle sur toile de coton écru brute",
+  "dimensions": {
+    "h": 142.2,
+    "w": 182.9,
+    "display": "142,2 × 182,9 cm"
+  },
+  "location": "National Museum of Western Art (NMWA), Tokyo",
+  "currentLocation": "National Museum of Western Art (Tokyo, Japon)",
+  "site": "NMWA (Tokyo, Japon)",
+  "originSite": "Springs, Long Island (New York, États-Unis)",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczOCMmudPRJxr2wgKtdkWThqVwfdODI22dQQWRMSKqsWxMFSa12zOEe6ao-bpoKLklSIhF3rVNHXI_diXbdScUz07BMgF_-b3lj-klaZ_xEz4ZMMpwXziY27IGWZLGzvV_tQJg1kNqSFmSpm--cEdKAqEA=w1708-h1287-s-no-gm?authuser=0",
+  "chips": [
+    "1951",
+    "XXe siècle",
+    "Jackson Pollock",
+    "Number 8",
+    "NMWA",
+    "Tokyo",
+    "Action Painting",
+    "Dripping",
+    "Black Pouring"
+  ],
+  "tags": [
+    "Action painting",
+    "Black Pouring",
+    "Expressionnisme abstrait",
+    "Tokyo NMWA",
+    "Laque industrielle",
+    "Dripping"
+  ],
+  "themes": [
+    "abstraction",
+    "formes_et_couleurs"
+  ],
+  "narrative": "<p>Réalisée au cours de l'année 1951 dans sa grange-atelier de Springs à Long Island, cette œuvre s'inscrit au cœur de la célèbre série des Black Pourings (peintures noires). Après avoir mené le dripping polychrome et le all-over à leur apogée entre 1947 et 1950, Pollock opère une rupture radicale en réduisant sa palette à la seule laque industrielle noire appliquée directement sur une toile grège brute, sans sous-couche ni apprêt. Ce dépouillement chromatique total lui permet de réintroduire, par la libre association et le geste automatique, des résurgences figuratives et totémiques enfouies dans son inconscient.</p><p>Disposée à même le sol, la toile reçoit la peinture noire liquide versée, giclée ou projetée à l'aide de bâtons, de pinceaux durs séchés ou de seringues. La laque industrielle pénètre profondément les fibres du coton écru, créant une dialectique tactile entre des aplats lisses et brillants en surface et des zones où le pigment sombre fuse en bordures diffuses et soyeuses. Le graphisme alterne des coulées fluides et calligraphiques avec des éclaboussures rageuses et des empâtements denses.</p><p>À travers ce lacis gestuel dynamique émergent des formes cryptiques qui rappellent l'intérêt de Pollock pour les mythes primitifs, la psychanalyse jungienne et le cubisme picassien : profils d'yeux stylisés, masques hybrides, fragments anatomiques et boucles biomorphes semblent surgir puis se dissoudre instantanément dans le flux abstrait. Signée et datée en bas à droite (« Jackson Pollock 51 »), cette composition témoigne de la virtuosité avec laquelle le chef de file de l'expressionnisme abstrait américain réarticule l'énergie brute de l'action painting et la rémanence du symbole figuratif.</p>"
+},
+{
+  "id": "poussin_saint_denis_1620",
+  "artistId": "poussin",
+  "artist": "Poussin Nicolas",
+  "artistSort": "Poussin Nicolas",
+  "civId": "occident",
+  "periodId": "occ_xvii",
+  "civName": "Occident chrétien & moderne",
+  "civilization": "France & Italie (Classicisme)",
+  "subpart": "La jeunesse parisienne & l'héritage maniériste bellifontain",
+  "title": "Saint Denis l'Aréopagite couronné par un ange",
+  "date": "1620",
+  "dateDisplay": "vers 1620 – 1621",
+  "century": "XVIIe siècle",
+  "centuryDisplay": "XVIIe s. (vers 1620 – 1621)",
+  "centuryNumeric": 1620,
+  "period": "Jeunesse parisienne de Nicolas Poussin (1612 – 1623)",
+  "domain": "peinture",
+  "type": "Huile sur toile",
+  "artifactType": "Retable d'autel / Tableau d'histoire sacrée",
+  "category": "peinture",
+  "medium": "Huile sur toile",
+  "dimensions": {
+    "h": 173.0,
+    "w": 108.0,
+    "display": "173 × 108 cm"
+  },
+  "location": "Musée des Beaux-Arts, Rouen",
+  "currentLocation": "Musée des Beaux-Arts (Rouen, France)",
+  "site": "Musée des Beaux-Arts (Rouen, France)",
+  "originSite": "Église Saint-Germain-l'Auxerrois, Paris (France)",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczOVmPwjPzNChsOjiDKoEjTPsyjUWrUQs2O1O5hOA8AsZ8gwkVez_RkwEf2vRDFL6xw-w_BoAsnFSZE4nGVs2zPbcsGGTzK8_dcfrUX6VLDtFCKVCyQDthUpFS6PsE5uaUuuRPT9dZ2lSxMHxYbVnPi8JA=w1553-h2416-s-no-gm?authuser=0",
+  "chips": [
+    "1620",
+    "XVIIe siècle",
+    "Nicolas Poussin",
+    "Saint Denis l'Aréopagite",
+    "Musée des Beaux-Arts de Rouen",
+    "Rouen",
+    "Classicisme",
+    "Maniérisme"
+  ],
+  "tags": [
+    "Nicolas Poussin",
+    "Saint Denis",
+    "Retable",
+    "Musée de Rouen",
+    "Paris",
+    "Classicisme naissant",
+    "Martyre"
+  ],
+  "themes": [
+    "histoire_et_pouvoir",
+    "peinture_d_histoire"
+  ],
+  "narrative": "<p>Peint vers 1620-1621 à Paris, quelques années avant le départ décisif de Nicolas Poussin pour Rome, <em>Saint Denis l’Aréopagite couronné par un ange</em>, aujourd’hui conservé au musée des Beaux-Arts de Rouen, compte parmi les très rares œuvres conservées de la jeunesse française du maître. Réalisé pour l’église parisienne Saint-Germain-l’Auxerrois, ce tableau d’autel opère une fusion savante entre deux figures traditionnellement associées au XVIIe siècle : le philosophe athénien converti par saint Paul sur l’Aréopage et le premier évêque de Paris martyrisé à Montmartre. L’iconographie célèbre ainsi conjointement l’érudition antique mise au service de la foi, la prédication évangélique et la gloire du sacrifice.</p><p>La composition, conçue pour un cadre à décrochements dans sa partie supérieure, s’organise autour d’un contraste net entre un massif architectural sombre à droite et une large ouverture sur un paysage lumineux à gauche. Campé au premier plan avec une autorité monumentale, le saint vieillard à la longue barbe grise porte l’aube blanche, le pallium noir orné de croix bleues et un ample manteau rouge corail, tout en serrant contre lui un livre où se distinguent des caractères grecs désignant l’Évangile du Christ. À sa droite, une sphère armillaire posée sur un piédestal rappelle ses recherches astronomiques, tandis qu’un ange surgissant du ciel azur lui tend la palme du martyre et dépose sur sa tête une couronne de roses blanches et rouges. En contrebas à gauche, au-delà de vestiges d’entablement antique sculpté et de deux blasons de commanditaires peints dans les angles inférieurs, se déroule le miracle céphalophore : le saint décapité s’avance en tenant sa tête entre ses mains devant des témoins saisis d’effroi.</p><p>Cette réalisation précoce montre un Poussin encore nourri de l’héritage maniériste et des enseignements de la seconde école de Fontainebleau, perceptibles dans l’élongation noble de la figure, le raccourci souple de l’ange et le dessin incisif des plis cassants de l’étoffe rouge. L’attention portée aux détails archéologiques, visibles dans les frises architecturales brisées du premier plan comme dans la précision de l’instrument scientifique, annonce déjà son goût futur pour l’érudition historique. Par la franchise de sa palette, où l’éclat du vermillon et de l’outremer répond aux tonalités minérales de la pierre, le jeune artiste pose les premiers jalons d’une peinture religieuse à la fois narrative, théâtrale et profondément méditée.</p>"
+},
+{
+  "id": "poussin_paysage_satyre_1625",
+  "artistId": "poussin",
+  "artist": "Poussin Nicolas",
+  "artistSort": "Poussin Nicolas",
+  "civId": "occident",
+  "periodId": "occ_xvii",
+  "civName": "Occident chrétien & moderne",
+  "civilization": "France & Italie (Classicisme)",
+  "subpart": "Le premier séjour romain & l'empreinte titianesque",
+  "title": "Paysage au satyre endormi",
+  "date": "1625",
+  "dateDisplay": "vers 1625",
+  "century": "XVIIe siècle",
+  "centuryDisplay": "XVIIe s. (vers 1625)",
+  "centuryNumeric": 1625,
+  "period": "Première période romaine & Lyrisme vénitien (1624 – 1630)",
+  "domain": "peinture",
+  "type": "Huile sur toile",
+  "artifactType": "Fable mythologique & Pastorale antique",
+  "category": "peinture",
+  "medium": "Huile sur toile",
+  "dimensions": {
+    "h": 97.0,
+    "w": 133.0,
+    "display": "97 × 133 cm"
+  },
+  "location": "Musée Fabre, Montpellier",
+  "currentLocation": "Musée Fabre (Montpellier, France)",
+  "site": "Musée Fabre (Montpellier, France)",
+  "originSite": "Rome (Italie)",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczMnRp72V_pnP4xiNzoGfzFbpxEHkm8Zh7Sk1IS__CvlDnXg0G6PGp65TBUkyxdxB0udjzuw0j3To1Fdr_h6Tf5YyB-vA77Cs8kBaVcCBI96udhTeWmWDbaMYTLWP3zZkjIyLF2zac9xZElWxq5li2Pl2g=w1708-h1303-s-no-gm?authuser=0",
+  "chips": [
+    "1625",
+    "XVIIe siècle",
+    "Nicolas Poussin",
+    "Paysage au satyre endormi",
+    "Musée Fabre",
+    "Montpellier",
+    "Classicisme",
+    "Mythologie"
+  ],
+  "tags": [
+    "Nicolas Poussin",
+    "Satyre",
+    "Mythologie",
+    "Musée Fabre",
+    "Montpellier",
+    "Paysage héroïque",
+    "Titien"
+  ],
+  "themes": [
+    "nature_et_paysages",
+    "peinture_d_histoire"
+  ],
+  "narrative": "<p>Cette œuvre, intitulée <em>Paysage au satyre endormi</em> (parfois associée à la figure de Vénus et un satyre), est une huile sur toile réalisée vers 1625 par Nicolas Poussin. Conservée au Musée Fabre de Montpellier, elle appartient à la première période romaine de l'artiste, marquée par une profonde influence de la peinture vénitienne, notamment celle de Titien. Poussin délaisse ici la rigueur géométrique de ses œuvres futures pour une approche plus sensuelle et poétique de la mythologie, où le paysage et les corps s'unissent dans une harmonie crépusculaire.</p><p>La composition s'articule autour d'un sous-bois dense et mystérieux. Au premier plan, la disposition des figures crée un rythme horizontal qui guide l'œil de gauche à droite. À gauche, une figure allongée semble observer la scène, tandis qu'au centre, un personnage drapé d'un bleu profond est assis contre un rocher, le corps baigné par une lumière latérale. À droite, le satyre endormi, figure de la pulsion naturelle et de la vie sauvage, repose dans l'ombre des grands arbres. La présence d'un petit amour (putto) entre les personnages centraux renforce la thématique érotique et sentimentale, suggérant une méditation sur le désir et le repos.</p><p>Le paysage n'est pas un simple décor, mais un acteur à part entière de la narration. Les frondaisons sombres des chênes et des lauriers occupent une grande partie de l'espace, créant une atmosphère d'intimité protégée. À l'arrière-plan, une ouverture lumineuse révèle une chaîne de montagnes bleutées sous un ciel chargé de nuages, typique des campagnes romaines que Poussin aimait parcourir. Cette perspective atmosphérique apporte une respiration nécessaire à la densité du premier plan et souligne le caractère sauvage et intemporel du site.</p><p>Techniquement, cette toile témoigne de la liberté de pinceau du jeune Poussin. Les coloris sont riches, dominés par des terres d'ombre, des verts profonds et l'éclat du bleu outremer, répondant aux teintes ambrées des carnations. Le traitement de la lumière, qui accroche le feuillage et les reliefs musculaires, rappelle le clair-obscur vénitien avant que l'artiste ne se tourne vers un classicisme plus solaire. Cette œuvre préfigure le génie de Poussin à transformer une fable antique en une vision philosophique de l'homme au sein d'une nature souveraine.</p>"
+},
+{
+  "id": "poussin_bacchanale_joueuse_guitare_1625",
+  "artistId": "poussin",
+  "artist": "Poussin Nicolas",
+  "artistSort": "Poussin Nicolas",
+  "civId": "occident",
+  "periodId": "occ_xvii",
+  "civName": "Occident chrétien & moderne",
+  "civilization": "France & Italie (Classicisme)",
+  "subpart": "La célébration dionysiaque & la lumière chaude de Rome",
+  "title": "Bacchanale à la joueuse de guitare",
+  "date": "1625",
+  "dateDisplay": "vers 1627 – 1628",
+  "century": "XVIIe siècle",
+  "centuryDisplay": "XVIIe s. (vers 1627 – 1628)",
+  "centuryNumeric": 1625,
+  "period": "Première période romaine (1624 – 1630)",
+  "domain": "peinture",
+  "type": "Huile sur toile",
+  "artifactType": "Bacchanale antique & Allégorie musicale",
+  "category": "peinture",
+  "medium": "Huile sur toile",
+  "dimensions": {
+    "h": 121.0,
+    "w": 175.0,
+    "display": "121 × 175 cm"
+  },
+  "location": "Musée du Louvre, Paris",
+  "currentLocation": "Musée du Louvre (Paris, France)",
+  "site": "Musée du Louvre (Paris, France)",
+  "originSite": "Rome (Italie)",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczPusv3nCGUb-7xIxpz8qb_cXCEEsWOP1dt_Ori9f2YDM9e2yf-YmctJDQubevJsgKUjXxwwcUuwkzBLYAPlLIp7yuYAjDBo_3YrKULlz5WTxyFJwiYrqjuMSfrK1wb9XMVmg1KScjAu-mGgxiDBXtUFbw=w1708-h1291-s-no-gm?authuser=0",
+  "chips": [
+    "1625",
+    "XVIIe siècle",
+    "Nicolas Poussin",
+    "Bacchanale à la joueuse de guitare",
+    "Musée du Louvre",
+    "Paris",
+    "Bacchanale",
+    "Bacchus",
+    "Musique"
+  ],
+  "tags": [
+    "Nicolas Poussin",
+    "Bacchanale",
+    "Musée du Louvre",
+    "Bacchus",
+    "Guitare",
+    "Musique",
+    "Classicisme vénitien"
+  ],
+  "themes": [
+    "musique",
+    "peinture_d_histoire"
+  ],
+  "narrative": "<p>Réalisée vers 1627-1628 (peu après l'arrivée de l'artiste à Rome), cette œuvre témoigne de la fascination du jeune Nicolas Poussin pour la peinture vénitienne, et plus particulièrement pour Titien. Avant de se tourner vers la rigueur sévère de son classicisme de maturité, Poussin explore ici un univers de plaisirs sensoriels, de lumière dorée et de mouvement libéré. Cette bacchanale célèbre le culte de Bacchus, dieu du vin et de l'extase, dans une atmosphère de fête antique où la musique et le vin unissent les mortels, les nymphes et les satyres.</p><p>La composition est centrée sur une nymphe assise de face, vêtue d'un drapé d'un bleu intense, qui joue de la guitare. Elle incarne l'harmonie musicale au milieu de l'ivresse. Autour d'elle, la scène s'anime : à droite, un satyre verse du vin dans une coupe tenue par un putto, tandis qu'un homme couronné de lierre, vu de dos, semble participer à cette conversation galante en levant lui aussi sa coupe. À gauche, l'ivresse est plus marquée avec des figures chancelantes ou endormies, dont un satyre soutenu par un compagnon, rappelant le caractère parfois pesant des excès bacchiques. Au premier plan, un petit enfant (putto) dort paisiblement, symbole de l'abandon total aux sens.</p><p>Le paysage baigne dans une lumière chaude de fin de journée, caractéristique de l'influence vénitienne. Les arbres aux feuillages vaporeux à gauche et les masses rocheuses à droite encadrent une ouverture vers un horizon bleuté sous un ciel chargé de nuages moutonneux. Poussin utilise ici une touche plus libre et une matière plus riche que dans ses œuvres ultérieures, cherchant à rendre la vibration de l'air et la chaleur de la peau. La couleur joue un rôle structurel : le bleu de la joueuse de guitare et l'ocre-orangé du drapé d'homme à droite créent un équilibre chromatique qui stabilise le tumulte de la fête.</p><p>L'équilibre du tableau repose sur une savante organisation des corps en une série de triangles entrelacés, une méthode que Poussin ne cessera de perfectionner. Bien que le sujet soit profane et joyeux, on y devine déjà le goût de l'artiste pour l'étude des attitudes et de la statuaire antique. Par cette œuvre, Poussin s'affirme comme un héritier des maîtres de la Renaissance tout en imposant sa propre vision de l'Antiquité : un âge d'or où la nature et l'homme communient dans une liberté retrouvée.</p>"
+},
+{
+  "id": "poussin_midas_pactole_1626",
+  "artistId": "poussin",
+  "artist": "Poussin Nicolas",
+  "artistSort": "Poussin Nicolas",
+  "civId": "occident",
+  "periodId": "occ_xvii",
+  "civName": "Occident chrétien & moderne",
+  "civilization": "France & Italie (Classicisme)",
+  "subpart": "La méditation sur les Métamorphoses d'Ovide & la vanité des richesses",
+  "title": "Midas à la source du fleuve Pactole",
+  "date": "1626",
+  "dateDisplay": "vers 1626 – 1627",
+  "century": "XVIIe siècle",
+  "centuryDisplay": "XVIIe s. (vers 1626 – 1627)",
+  "centuryNumeric": 1626,
+  "period": "Première période romaine (1624 – 1630)",
+  "domain": "peinture",
+  "type": "Huile sur toile",
+  "artifactType": "Fable ovidienne & Allégorie morale",
+  "category": "peinture",
+  "medium": "Huile sur toile",
+  "dimensions": {
+    "h": 50.0,
+    "w": 66.0,
+    "display": "50 × 66 cm"
+  },
+  "location": "Musée Fesch, Ajaccio",
+  "currentLocation": "Musée Fesch (Ajaccio, France)",
+  "site": "Musée Fesch (Ajaccio, France)",
+  "originSite": "Rome (Italie)",
+  "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczNlyF112LrqNLC1KxE2GEnJqjNV1p89qk-g5BmC7bzn8d95UkXQwKkiN98H9OVXaatU44pEDhqeozJAmeBk7j5o75ji-A2G7chW1OtdukRZPJ6TB_acnE01IE89V8mktVQd-232ja0asIrj7vPq-5e2KA=w1708-h1291-s-no-gm?authuser=0",
+  "chips": [
+    "1626",
+    "XVIIe siècle",
+    "Nicolas Poussin",
+    "Midas à la source du fleuve Pactole",
+    "Musée Fesch",
+    "Ajaccio",
+    "Midas",
+    "Ovide",
+    "Pactole"
+  ],
+  "tags": [
+    "Nicolas Poussin",
+    "Midas",
+    "Ovide",
+    "Musée Fesch",
+    "Ajaccio",
+    "Métamorphoses",
+    "Pactole",
+    "Philosophie"
+  ],
+  "themes": [
+    "histoire_et_pouvoir",
+    "peinture_d_histoire"
+  ],
+  "narrative": "<p>Cette huile sur toile, peinte vers 1626-1627, appartient à la première période romaine de Nicolas Poussin. À cette époque, le jeune peintre normand est profondément imprégné par la poésie d'Ovide et par le colorisme vénitien du Titien. L'œuvre illustre un épisode des Métamorphoses : le roi de Phrygie, Midas, ayant obtenu de Dionysos le don funeste de transformer tout ce qu'il touche en or, supplie le dieu de le délivrer de ce pouvoir qui l'empêche de se nourrir. Dionysos lui ordonne alors de se purifier dans les eaux du fleuve Pactole.</p><p>La composition se divise en deux pôles narratifs et psychologiques. À droite, le roi Midas, coiffé de sa couronne, est assis dans une pose mélancolique. Son vêtement aux reflets dorés rappelle son épreuve passée, tandis que son regard semble tourné vers une réflexion intérieure sur la vanité des richesses. À gauche, un jeune homme nu, personnification du fleuve ou serviteur, est agenouillé au bord de l'eau. Il se penche pour recueillir l'eau qui, au contact du roi, commence à charrier les célèbres paillettes d'or du Pactole. L'arrière-plan, traité avec une touche vaporeuse et des tons chauds, évoque une nature arcadienne typique des premières élégies de Poussin.</p><p>Sur le plan technique, ce tableau témoigne du génie de Poussin pour l'harmonie des couleurs et la clarté de l'expression (le costume). La lumière sculpte les corps avec une douceur qui atténue la rigueur classique, créant une atmosphère de poésie rêveuse. Cette toile, entrée dans les collections du cardinal Fesch, est un jalon essentiel pour comprendre l'évolution du « peintre-philosophe » : elle marque le passage d'une peinture sensuelle et lyrique vers une réflexion plus austère sur la condition humaine et la morale.</p>"
+},
+{
   "id": "pissarro_l_orage_approchant_1877",
   "artistId": "pissarro",
   "artist": "Pissarro Camille",
@@ -290,7 +578,7 @@ window.ART_OBJECTS = [
     "portraits",
     "visages"
   ],
-  "narrative": "<p>Peint en 1901 à Paris, lors de l'année charnière où Pablo Picasso expose pour la première fois chez Ambroise Vollard et subit le traumatisme du suicide de son ami Carlos Casagemas, <em>Buste de femme souriante</em> se situe au seuil même de sa célèbre Période Bleue. Conservée au Musée National Centre d'Art Reina Sofía de Madrid, cette toile capture avec vivacité l'énergie de la vie nocturne et des cafés-concerts parisiens que le jeune peintre de vingt ans dévore avec passion.</p><p>La touche vive, fragmentée et héritée des leçons de Toulouse-Lautrec et de van Gogh, modèle les traits d'une jeune femme au regard malicieux et au sourire esquissé. Les tonalités sourdes de bleu, d'ocre et de vert sombre qui enveloppent la figure annoncent déjà l'inflexion mélancolique qui va envahir sa palette dans les mois suivants, faisant de ce portrait un témoignage précieux de sa transition esthétique.</p>"
+  "narrative": "<p>Cette huile sur carton, peinte par Pablo Picasso en 1901, est une œuvre vibrante conservée au Musée National Centre d'Art Reina Sofía. Elle appartient à une période de transition capitale pour l'artiste, alors qu'il s'installe à Paris et commence à se faire un nom. Réalisée juste avant l'immersion totale dans la mélancolie de sa Période Bleue, cette toile témoigne de l'influence profonde du post-impressionnisme et du climat bouillonnant de la vie nocturne parisienne. Picasso y capture l'essence d'une femme de la Belle Époque avec une énergie et une liberté de touche qui annoncent déjà son génie futur.</p><p>Le portrait se concentre sur le buste d'une femme arborant un sourire malicieux et direct, un trait d'expression assez rare dans l'œuvre souvent plus grave de l'artiste. Elle est coiffée d'un immense chapeau noir orné de détails clairs, accessoire emblématique de la mode de l'époque, qui encadre son visage et accentue sa présence imposante dans la composition. La technique utilisée par Picasso est ici très libre : les coups de pinceau sont larges, rapides et fragmentés, rappelant le divisionnisme. Le fond vert émeraude, parsemé de touches plus claires, crée une atmosphère lumineuse et presque printanière qui fait ressortir la figure centrale.</p><p>Le travail chromatique est audacieux et repose sur des contrastes saisissants. Le vêtement blanc de la femme est traité avec des reflets rosés et bleutés, tandis que le noir profond de son chapeau et de sa chevelure structure l'ensemble. On perçoit dans cette œuvre l'admiration du jeune Picasso pour des artistes comme Toulouse-Lautrec ou Van Gogh, notamment dans la manière de cerner les formes et d'utiliser la couleur pour traduire une émotion immédiate. \"Buste de femme souriante\" n'est pas seulement le portrait d'une inconnue, c'est le témoignage de la vitalité d'un artiste de vingt ans qui absorbe toutes les innovations de son temps pour forger son propre langage plastique. //</p>"
 },
 {
   "id": "femme_au_violon_1911",
@@ -346,7 +634,7 @@ window.ART_OBJECTS = [
     "musique",
     "portraits"
   ],
-  "narrative": "<p>Chef-d'œuvre du cubisme analytique peint en 1911, <em>Femme au violon</em> (conservée à la Pinakothek der Moderne de Munich) illustre le moment où Picasso et Georges Braque, travaillant ensemble à Céret dans une symbiose intellectuelle absolue, poussent la déconstruction de la réalité visible jusqu'aux limites de l'abstraction hermétique.</p><p>Le sujet traditionnel du musicien et de son instrument est ici pulvérisé en une infinité de facettes planes et géométriques, baignées d'une lumière cristalline quasi monochrome de beiges, de gris argentés et d'ocres sourds. Seuls quelques indices figuratifs subsistent comme des clés de déchiffrement pour le regardeur : la volute et les ouïes en F du violon, la tension des cordes, l'arc d'une épaule ou la courbe d'un bras, réinventant l'espace pictural selon les principes d'une quatrième dimension purement mentale.</p>"
+  "narrative": "<p>Conservée à la Pinakothek der Moderne de Munich, cette œuvre est un exemple magistral du cubisme analytique, la phase la plus radicale et intellectuelle de la collaboration entre Picasso et Georges Braque. Peinte en 1911, elle marque le moment où l'objet et la figure humaine sont si fragmentés qu'ils deviennent presque méconnaissables, frôlant l'abstraction pure. Picasso ne cherche plus à représenter l'apparence physique de son modèle, mais à en donner une analyse structurelle complète sous plusieurs angles simultanés.</p><p>Le tableau se présente comme un entrelacs complexe de plans géométriques et de facettes :</p><p>La structure pyramidale : On devine encore la masse du corps de la femme qui occupe le centre de la composition, s'élargissant vers le bas.</p><p>Les signes graphiques : Pour aider le spectateur à décoder l'image, Picasso sème des indices visuels. On peut identifier les volutes et les cordes du violon sur la droite, ainsi que des lignes suggérant les mains du modèle ou les plis d'un vêtement.</p><p>La profondeur : Bien que l'espace semble plat, la superposition des plans et l'utilisation d'ombres légères créent une profondeur \"sculpturale\" à l'intérieur de la surface de la toile.</p><p>Technique et Palette Fidèle à l'esthétique du cubisme analytique, Picasso réduit ses moyens d'expression pour se concentrer sur la forme :</p><p>Monochromie : La palette est extrêmement sobre, dominée par des gris, des ocres, des bruns et des blancs cassés. Cette austérité évite toute distraction émotionnelle liée à la couleur et souligne la rigueur de la déconstruction.</p><p>La touche : La peinture est appliquée par petites touches hachurées, créant une vibration lumineuse qui donne à l'œuvre une qualité presque diaphane ou cristalline.</p><p>La grille : L'ensemble est organisé selon une grille de verticales et d'horizontales qui ancrent les facettes éclatées dans une structure stable.</p><p>Importance de l'œuvre Femme au violon représente un sommet de l'aventure cubiste. En brisant l'unité du point de vue héritée de la Renaissance, Picasso révolutionne la perception de l'espace en peinture. L'œuvre n'est plus une fenêtre ouverte sur le monde, mais un objet autonome qui exige une participation active du spectateur pour être \"reconstruit\" mentalement. Ce tableau de Munich est un jalon essentiel qui a ouvert la voie à toutes les abstractions du XXe siècle, prouvant que l'art pouvait se libérer de la copie du réel pour inventer son propre système de signes. //</p>"
 },
 {
   "id": "oiseaux_morts_1912",
@@ -402,7 +690,7 @@ window.ART_OBJECTS = [
     "nature_morte",
     "animaux"
   ],
-  "narrative": "<p>Peinte au printemps 1912 à Paris, <em>Oiseaux morts</em> (Reina Sofía, Madrid) revisite le thème classique de la nature morte au gibier à travers le prisme novateur de la déconstruction cubiste. À une époque où Picasso s'apprête à introduire des éléments réels collés sur la toile, il explore ici la rugosité tactile du plumage et la géométrie des dépouilles d'oiseaux reposant sur une table de travail.</p><p>Les formes anguleuses des ailes déployées, les becs effilés et les volumes imbriqués se fondent dans une structure architecturée de plans superposés. La palette sobre, dominée par les gris ardoise, les terres de Sienne et les bruns profonds, confère à cette composition une austérité dramatique qui transcende le simple exercice de style pour toucher à une méditation sur la fragilité de la vie organique.</p>"
+  "narrative": "<p>Cette huile sur toile, peinte par Pablo Picasso en 1912, est une pièce emblématique de sa période cubiste analytique, aujourd'hui conservée au Musée National Centre d'Art Reina Sofía. À cette époque, Picasso et Georges Braque poussent la déconstruction de la forme à son paroxysme, cherchant à représenter les objets non pas tels qu'on les voit, mais tels qu'on les pense, sous plusieurs angles simultanément. \"Oiseaux morts\" s'inscrit dans cette recherche radicale où la nature morte traditionnelle est passée au crible d'une géométrie complexe, transformant des éléments du quotidien en un puzzle visuel fascinant.</p><p>La composition est un enchevêtrement de plans fragmentés et de facettes imbriquées qui occupent la majeure partie de l'espace central. On peut y deviner les formes stylisées de petits volatiles, dont les plumes et les corps sont suggérés par des hachures et des lignes brisées. Picasso intègre également des éléments de typographie, comme les lettres \"JOU\" (référence au journal Le Journal, mais aussi au verbe \"jouer\"), ainsi que des fragments d'objets de café. Ces signes graphiques servent de points d'ancrage au spectateur dans un espace qui tend vers l'abstraction, rappelant la réalité matérielle tout en la déstructurant.</p><p>La palette chromatique est volontairement restreinte, dominée par des gris, des ocres et des bruns terreux, caractéristiques de cette phase du cubisme où la couleur est sacrifiée au profit de l'analyse structurelle. Cependant, deux grandes zones circulaires d'un rouge-orangé vibrant encadrent la composition, apportant une chaleur inhabituelle et une dynamique visuelle qui rompt la sévérité du camaïeu. La touche est dense, avec des jeux de transparence et de superposition qui créent une profondeur spatiale ambiguë. À travers cette œuvre, Picasso ne se contente pas de représenter la mort de quelques oiseaux ; il met à mort la perspective classique pour inventer un nouveau langage plastique qui révolutionnera l'art moderne. //</p>"
 },
 {
   "id": "nu_a_mi_corps_1923",
@@ -458,7 +746,7 @@ window.ART_OBJECTS = [
     "le_nu",
     "portraits"
   ],
-  "narrative": "<p>Conservé au Musée des Beaux-Arts de Rennes, <em>Nu à mi-corps</em> (1923) est un témoignage remarquable de la période dite « néoclassique » ou du « retour à l'ordre » traversée par Picasso au lendemain de la Première Guerre mondiale. Après avoir brisé l'espace avec le cubisme, l'artiste revient avec une virtuosité stupéfiante à la pureté de la ligne et à la monumentalité des maîtres du passé, particulièrement Ingres et la statuaire gréco-romaine.</p><p>Le corps féminin, sculpté par un modelé ample et des ombres douces, dégage une puissance sereine et tellurique. La monumentalité des membres, la pose noble et la franchise du regard confèrent à ce nu une présence intemporelle, prouvant que chez Picasso la tradition n'est jamais un carcan mais une source perpétuelle de réinvention formelle.</p>"
+  "narrative": "<p>Cette œuvre sur papier de Pablo Picasso, réalisée en 1923 et conservée au Musée des Beaux-Arts de Rennes, est un témoignage précieux de sa période dite « néoclassique » ou du « retour à l'ordre ». Après les déconstructions radicales du cubisme, Picasso revient, au début des années 1920, à une figuration monumentale inspirée par l'Antiquité, la Renaissance italienne et les dessins d'Ingres. Ce nu à mi-corps représente une femme dans une attitude pensive, le bras replié derrière la tête, une pose classique qui évoque la statuaire antique tout en conservant une modernité graphique saisissante.</p><p>La technique employée, un lavis de bistre ou d'encre brune sur papier, permet à l'artiste de jouer sur la transparence et la profondeur sans utiliser une palette de couleurs complexe. Picasso définit les formes par des lignes fluides et assurées, tandis que les larges aplats de lavis modèlent le corps avec une douceur presque vaporeuse. On observe une recherche de monumentalité : bien que le format soit intime, la figure semble posséder une présence physique imposante, une « pesanteur » caractéristique des femmes de cette période, souvent représentées avec des membres larges et des traits simplifiés.</p><p>L'intérêt de ce dessin réside dans l'équilibre parfait entre la rigueur du trait et la liberté de la tache. Le visage, esquissé avec une économie de moyens remarquable, dégage une expression de sérénité mélancolique. Cette œuvre illustre parfaitement comment Picasso, loin de renier ses découvertes cubistes, les intègre dans une vision plus charnelle et humaniste du corps. En 1923, alors qu'il fréquente les milieux mondains et s'installe dans une vie de famille plus stable, il réinvente le classicisme en lui insufflant une énergie nouvelle, faisant de ce simple nu une méditation sur la permanence de la beauté formelle à travers les âges. //</p>"
 },
 {
   "id": "femme_a_la_guitare_1924",
@@ -515,7 +803,7 @@ window.ART_OBJECTS = [
     "musique",
     "portraits"
   ],
-  "narrative": "<p>Fleuron des collections d'art moderne du Musée d'Art Moderne et Contemporain de Strasbourg (MAMCS), <em>Femme à la guitare</em> (1924) incarne l'épanouissement du « cubisme curviligne » élaboré par Picasso au cœur des Années folles. La composition fusionne l'anatomie de l'instrument à cordes et les courbes souples du corps de la musicienne dans une harmonie plastique magistrale.</p><p>Les aplats chromatiques contrastés — bruns chaleureux, blancs éclatants, noirs d'encre et touches de bleu — rythment l'espace avec une élégance musicale. En s'affranchissant de l'austérité géométrique des années 1910 sans renier la synthèse spatiale du cubisme, Picasso confère à cette figure une vitalité joyeuse et une modernité décorative qui dialoguent avec les créations scéniques et les Ballets Russes de l'époque.</p>"
+  "narrative": "<p>Cette œuvre intitulée Femme à la guitare, peinte par Pablo Picasso au printemps 1924 à Paris, occupe une place de choix au Musée d’Art moderne et contemporain de Strasbourg, où elle est en dépôt depuis 1990 suite à la dation Jacqueline Picasso. Cette toile de 114 x 87,5 cm témoigne d'une période de transition fascinante où Picasso, tout en conservant les acquis du cubisme, s'aventure vers une simplification graphique qui annonce le surréalisme. La figure féminine est ici traitée par une silhouette noire massive qui se détache vigoureusement sur un fond ocre lumineux, créant un contraste dramatique et une présence quasi sculpturale. Les formes sont réduites à des lignes de force sinueuses et à des aplats radicaux, où l'instrument et le corps fusionnent dans une construction géométrique d'une grande économie de moyens.</p><p>Dans cette composition, la guitare — objet fétiche du répertoire cubiste — est suggérée par une forme blanche découpée qui semble flotter sur le torse sombre du personnage, tandis que les détails du visage sont résumés par quelques traits fins et élégants. Cette manière de \"dessiner dans la peinture\" souligne la recherche de Picasso pour un langage universel, débarrassé des contraintes du naturalisme pour atteindre une essence poétique. La posture du personnage, tenant l'instrument contre lui, dégage une mélancolie douce et une introspection qui contrastent avec la violence graphique de la silhouette. Œuvre charnière, elle illustre la capacité de l'artiste à réinventer sans cesse ses thèmes classiques, transformant le motif traditionnel du musicien en une icône moderne de la déconstruction formelle, tout en conservant une harmonie plastique rigoureuse qui a profondément marqué ses contemporains et les générations suivantes. //</p>"
 },
 {
   "id": "livre_compotier_mandoline_1924",
@@ -571,7 +859,7 @@ window.ART_OBJECTS = [
     "nature_morte",
     "musique"
   ],
-  "narrative": "<p>Peint en 1924 et conservé à la Pinakothek der Moderne de Munich, <em>Livre, compotier et mandoline</em> est l'un des sommets des grandes natures mortes d'atelier de Picasso dans les années 1920. L'artiste y réunit ses attributs fétiches — la mandoline, les fruits dans leur coupe et le livre ouvert — dans un agencement d'une rigueur monumentale.</p><p>La surface de la table bascule frontalement vers le spectateur, tandis que les contours noirs puissants et les aplats rythmés structurent la composition avec une autorité souveraine. Par ce mariage entre la clarté architecturale et la sensualité des formes incurvées, Picasso transcende le quotidien de son atelier en une fête visuelle ordonnée par l'intelligence pure.</p>"
+  "narrative": "<p>Conservée à la Pinakothek der Moderne de Munich, cette œuvre magistrale de Pablo Picasso s'inscrit dans sa période de retour à l'ordre et de dialogue avec le cubisme synthétique des années 1920. Peinte en 1924, cette nature morte illustre la capacité unique de l'artiste à déconstruire les objets du quotidien pour les réorganiser dans une composition d'une grande rigueur géométrique et d'une force décorative remarquable. Le titre énumère les éléments classiques du répertoire picassien — le livre, le compotier et la mandoline — qui servent ici de prétexte à une exploration pure de la forme et de la couleur.</p><p>La composition est structurée par une table qui semble basculer vers le spectateur, une technique héritée des recherches cubistes pour abolir la perspective traditionnelle. Les objets sont simplifiés à l'extrême : le compotier blanc s'élève au centre, supportant des formes circulaires suggérant des fruits, tandis que la mandoline à droite est réduite à sa silhouette caractéristique et à son manche strié. Le livre ouvert à gauche apporte une dynamique de lignes brisées qui répond aux courbes de l'instrument de musique. L'ensemble est unifié par un jeu de plans superposés qui créent une profondeur spatiale nouvelle, non plus basée sur le vide, mais sur la juxtaposition de surfaces colorées.</p><p>Sur le plan technique, Picasso utilise une palette restreinte mais puissante, dominée par des bruns profonds, des ocres, le blanc pur des objets centraux et un bleu azur en arrière-plan qui évoque peut-être une fenêtre ouverte ou simplement un espace mental. La touche est large et assurée, avec des contours noirs marqués qui isolent chaque élément et renforcent le caractère sculptural de la nature morte. L'artiste joue sur les contrastes de textures et de densités, donnant à chaque objet une présence matérielle forte tout en les maintenant dans un état de stylisation poussée.</p><p>L'importance de cette œuvre réside dans son équilibre entre abstraction et figuration. À cette époque, Picasso ne cherche plus à briser l'objet comme au temps du cubisme analytique, mais à en extraire l'architecture essentielle pour créer une icône moderne. Livre, compotier et mandoline témoigne de la liberté souveraine d'un artiste qui, ayant assimilé toutes les révolutions visuelles du début du siècle, s'autorise une peinture d'une sérénité classique. C'est un jalon essentiel pour comprendre l'évolution de la nature morte au XXe siècle, influençant durablement les générations futures par sa clarté et sa puissance de synthèse. //</p>"
 },
 {
   "id": "buste_de_femme_1926",
@@ -627,7 +915,7 @@ window.ART_OBJECTS = [
     "portraits",
     "visages"
   ],
-  "narrative": "<p>Conservée au MAMCS de Strasbourg, cette toile saisissante de 1926 témoigne du tournant psychologique et formel violent qui s'empare de l'art de Picasso au contact de l'effervescence surréaliste lancée par André Breton. <em>Buste de femme</em> rompt brutalement avec la sérénité classique des années précédentes pour sonder les tensions pulsionnelles et les gouffres de l'inconscient.</p><p>Le visage féminin est soumis à une dislocation anatomique radicale : yeux décalés sur des plans opposés, bouche dentée prête à mordre, télescopage simultané de la face et du profil. Cette dramatisation convulsive de la figure annonce les métamorphoses monstrueuses et pathétiques qui traverseront son œuvre jusqu'aux portraits angoissés des années de guerre.</p>"
+  "narrative": "<p>Cette œuvre intitulée Buste de femme (ou parfois Buste de jeune fille), peinte par Pablo Picasso en 1926, constitue une pièce majeure des collections du Musée d'Art moderne et contemporain de Strasbourg, où elle est conservée en dépôt permanent depuis 1990 grâce à la dation Jacqueline Picasso. Réalisée au fusain et à l'huile sur une toile de 81 x 65 cm, cette composition monochrome s'inscrit dans la période du « cubisme curviligne » de l'artiste. Elle témoigne d'une transition stylistique cruciale, à la charnière entre les recherches géométriques antérieures et une approche plus organique, presque sculpturale, qui caractérise ses travaux du milieu des années 1920. Le portrait, dont un dessin préparatoire daté du 20 mars 1926 atteste de la rapidité d'exécution finale, présente des formes amples et sinueuses qui annoncent déjà les déformations expressives de ses bustes ultérieurs.</p><p>La structure de l'œuvre repose sur un jeu subtil de lignes fluides et de zones ombrées qui décomposent le visage et le buste en plusieurs plans superposés, créant une impression de volume malgré la palette restreinte. Cette figure féminine, souvent associée à Marie-Thérèse Walter, est représentée avec une économie de moyens qui privilégie la puissance du signe sur la ressemblance naturaliste. Les motifs de hachures et de rayures sur le vêtement apportent un rythme graphique qui contraste avec la douceur des courbes du visage, tandis que le traitement des yeux et du nez en visions simultanées rappelle les fondements du cubisme tout en s'ouvrant à une sensibilité plus onirique. Par sa rigueur plastique et son audace formelle, ce tableau incarne parfaitement le génie de Picasso à réinventer le portrait traditionnel, faisant de cette effigie une icône de la modernité où le dessin et la peinture fusionnent pour explorer de nouvelles dimensions psychologiques. //</p>"
 },
 {
   "id": "baigneuse_a_dinard_1928",
@@ -684,7 +972,7 @@ window.ART_OBJECTS = [
     "le_nu",
     "mer_et_rivages"
   ],
-  "narrative": "<p>Peint lors de l'été 1928 à Dinard sur la côte bretonne, ce petit format d'une extraordinaire concentration plastique fait partie du cycle mythique des « Baigneuses » conservé au Musée des Beaux-Arts de Rennes. En villégiature avec sa femme Olga et leur fils Paulo, Picasso dissimule sa passion naissante pour la très jeune Marie-Thérèse Walter sous des métamorphoses sculpturales vertigineuses.</p><p>Sur le sable blond baigné par l'azur marin et les cabines de bain, le corps de la baigneuse se transforme en une architecture d'ossements et de formes biomorphes gonflées de désir. Les articulations nouées et les volumes polis comme des galets préfigurent les recherches de Picasso en sculpture métallique et incarnent l'une des inventions formelles les plus poétiques et érotiques du siècle.</p>"
+  "narrative": "<p>Cette huile sur toile de Pablo Picasso, peinte en 1928 et conservée au Musée des Beaux-Arts de Rennes, appartient à une série emblématique réalisée lors de ses séjours estivaux sur la côte bretonne. Durant cette période, Picasso s'éloigne du classicisme des années précédentes pour explorer une esthétique proche du surréalisme. Le tableau représente une baigneuse sur une plage, mais le corps est ici radicalement déconstruit : les membres sont étirés comme des lanières de caoutchouc et les formes anatomiques sont réduites à des signes géométriques d'une grande liberté. Cette œuvre capte l'essence du mouvement et de la joie balnéaire à travers une distorsion ludique et audacieuse de la réalité.</p><p>La technique se caractérise par une grande économie de moyens et une mise en page très structurée. La composition est divisée horizontalement en deux zones de couleurs franches : le bleu profond de la mer et le gris-bleu clair du ciel. Sur ce fond minimaliste, la silhouette ocre de la baigneuse se détache vigoureusement, soulignée par des cernes noirs épais qui rappellent le travail de Picasso sur la sculpture en fil de fer à la même époque. Le dynamisme de la scène est accentué par la position acrobatique du personnage qui semble jouer avec un ballon, créant un rythme de lignes courbes et anguleuses qui occupent tout l'espace de la toile.</p><p>L'intérêt de cette \"Baigneuse à Dinard\" réside dans la capacité de Picasso à suggérer une présence physique et un mouvement intense à partir de formes quasi abstraites. Cette série marque un tournant où l'artiste exprime ses tensions personnelles et ses recherches sur la métamorphose du corps humain. Derrière l'aspect ensoleillé et graphique de la scène se cache une exploration profonde de la plasticité : le corps n'est plus une enveloppe fixe, mais une structure malléable soumise à l'imagination. C'est une œuvre charnière qui préfigure les grandes recherches sur le volume et la fragmentation qui jalonneront la suite de sa production artistique. //</p>"
 },
 {
   "id": "femme_1930",
@@ -740,7 +1028,7 @@ window.ART_OBJECTS = [
     "portraits",
     "le_nu"
   ],
-  "narrative": "<p>Réalisée en 1930 à l'orée de son acquisition du château de Boisgeloup où il installe un vaste atelier de sculpture, <em>Femme</em> (Pinakothek der Moderne, Munich) témoigne de l'interaction constante entre peinture et modelage tridimensionnel chez Picasso. La figure féminine, inspirée par la silhouette opulente et radieuse de sa muse Marie-Thérèse Walter, s'élève comme un monument de calcaire ou de plâtre taillé.</p><p>Les formes voluptueuses s'emboîtent avec une puissance plastique singulière, rehaussées par des lignes incisives et un jeu d'ombres prononcé. Picasso réussit le tour de force de conférer à une surface plane la monumentalité écrasante d'un monolithe antique habité par une sensualité souveraine.</p>"
+  "narrative": "<p>Conservée à la Pinakothek der Moderne de Munich, cette œuvre de Pablo Picasso, peinte en 1930, illustre une période de profonde mutation et d'expérimentation radicale. Après sa phase de \"retour à l'ordre\", Picasso s'engage dans une exploration des formes qui flirte avec le surréalisme. Cette Femme est une représentation sculpturale et biomorphe qui s'éloigne radicalement de l'anatomie classique pour privilégier une expression symbolique et psychologique de la figure féminine.</p><p>La composition se concentre sur une forme unique et monumentale qui se détache avec force sur un fond jaune acide et uniforme. La figure est réduite à un assemblage de volumes organiques et curvilignes qui suggèrent un buste, une tête et une chevelure. La structure est dominée par une large courbe en crochet qui semble s'ouvrir comme une mâchoire ou une pince, conférant à la figure une dimension à la fois fascinante et inquiétante. Cette simplification extrême, où les traits du visage sont remplacés par des formes géométriques simples (deux petits cercles pour les yeux), transforme le portrait en une sorte de totem moderne.</p><p>Techniquement, Picasso joue sur les contrastes de couleurs et de textures. La figure est traitée dans des tonalités de rose chair et de brun terreux, soulignées par des ombres marquées qui lui donnent un aspect tridimensionnel, presque comme s'il s'agissait d'une sculpture peinte. Le fond jaune vif annule toute profondeur spatiale, projetant la figure vers le spectateur et accentuant son caractère agressif et iconique. La touche est précise et les contours sont nets, renforçant la solidité de cette \"femme-objet\" dont la présence physique est indéniable.</p><p>L'importance de cette œuvre réside dans sa capacité à traduire les tensions intérieures de l'artiste, alors en pleine crise conjugale avec Olga Khokhlova. Cette Femme incarne une vision de la féminité perçue comme une force de la nature, à la fois créatrice et destructrice. En utilisant un langage formel qui annonce ses futures sculptures monumentales et ses recherches sur la déformation du corps humain, Picasso livre ici une icône de l'art moderne. Il démontre que la vérité d'un être ne réside pas dans sa ressemblance physique, mais dans la puissance plastique et émotionnelle que l'artiste parvient à en extraire. //</p>"
 },
 {
   "id": "guernica_1937",
@@ -799,7 +1087,7 @@ window.ART_OBJECTS = [
     "histoire_et_pouvoir",
     "peinture_d_histoire"
   ],
-  "narrative": "<p>Peint en quelques semaines d'une intensité fiévreuse entre mai et juin 1937 dans son atelier parisien de la rue des Grands-Augustins, <em>Guernica</em> est sans conteste le tableau politique et pacifiste le plus célèbre de l'histoire universelle. Commandée par la République espagnole pour son Pavillon de l'Exposition universelle de Paris, la toile monumentale répond au bombardement dévastateur perpétré le 26 avril 1937 contre la cité sainte basque de Guernica par l'aviation nazie (Légion Condor) au service de Franco.</p><p>Refusant l'illustration anecdotique, Picasso choisit une grisaille tragique — noir, blanc et nuances de gris — évoquant l'encre des journaux et la cendre des ruines. Dans un espace intérieur-extérieur claustrophobique, il déploie un panthéon d'allégories universelles : le cheval agonisant représentant le peuple supplicié, le taureau impassible incarnant la brutalité obscure, la mère hurlant de douleur son enfant mort dans les bras (véritable Piétà moderne), le guerrier démembré brandissant une épée brisée d'où germe une fragile fleur, et l'ampoule électrique crue symbolisant la violence technique aveugle.</p><p>Conservée au Musée Reina Sofía de Madrid après un long exil protecteur au MoMA de New York jusqu'au rétablissement de la démocratie en Espagne, <em>Guernica</em> transcende le conflit espagnol pour demeurer le cri éternel de l'art contre la barbarie et la terreur infligée aux innocents.</p>"
+  "narrative": "<p>Monument incontournable de l'histoire de l'art du XXe siècle, Guernica est une huile sur toile monumentale peinte par Pablo Picasso en 1937, aujourd'hui conservée au Musée National Centre d'Art Reina Sofía à Madrid. Réalisée en un temps record pour le pavillon de la République espagnole à l'Exposition internationale de Paris, l'œuvre répond au bombardement de la ville basque de Guernica par l'aviation nazie et fasciste. Plus qu'une simple peinture d'histoire, Picasso livre ici un réquisitoire universel contre la barbarie, la guerre et la souffrance infligée aux innocents, refusant toute couleur pour ne laisser place qu'à la vérité brutale du noir et blanc.</p><p>La description de cette fresque de près de huit mètres de long révèle un chaos organisé où les figures hurlantes s'entremêlent dans un espace fragmenté. À gauche, une mère éplorée tient son enfant mort dans ses bras sous le regard d'un taureau impassible, symbole de la brutalité ou de l'Espagne éternelle. Au centre, un cheval agonisant, dont la langue est une pointe acérée, semble pousser un cri de douleur insoutenable, tandis qu'au sol gît un soldat démembré, tenant encore une épée brisée d'où sort une fleur fragile. À droite, des figures féminines fuient les flammes ou entrent dans la scène avec une lampe à pétrole, cherchant à éclairer l'horreur.</p><p>L'absence de couleur, réduite à un camaïeu de gris, de noir et de blanc, confère au tableau une dimension journalistique évoquant les photographies de presse de l'époque, tout en accentuant le caractère funèbre de la scène. Les formes sont découpées de manière cubiste, multipliant les points de vue et créant une sensation d'enfermement et de suffocation. La lumière crue d'une ampoule électrique, en haut au centre, évoque l'œil du monde ou une bombe qui explose, illuminant sans pitié les corps suppliciés. Guernica demeure le symbole le plus puissant de la résistance culturelle face à l'oppression et l'un des cris les plus éloquents de l'humanité blessée. //</p>"
 },
 {
   "id": "femme_assise_fauteuil_dora_maar_1941",
@@ -857,7 +1145,7 @@ window.ART_OBJECTS = [
     "portraits",
     "visages"
   ],
-  "narrative": "<p>Peinte en 1941 dans le Paris occupé par les troupes allemandes, cette grande toile de la Pinakothek der Moderne de Munich représente la photographe et artiste intellectuelle Dora Maar, compagne de Picasso depuis 1936. Surveillé par la Gestapo et interdit d'exposition publique, l'artiste demeure confiné dans son atelier glacial de la rue des Grands-Augustins, où il transmue la suffocation de l'Occupation en chefs-d'œuvre d'une intensité dramatique inouïe.</p><p>Le corps de Dora Maar est enserré dans le cadre rigide d'un fauteuil comme dans une cellule. Son visage dédoublé, fendu par des contrastes chromatiques vifs et des plans anguleux, exprime toute la tension nerveuse et la douleur d'une époque en ruines, incarnant la figure légendaire de la « femme qui pleure ».</p>"
+  "narrative": "<p>Pablo Picasso : Femme assise dans un fauteuil (Dora Maar) – 1941 Conservée à la Pinakothek der Moderne de Munich, cette œuvre de 1941 est un portrait saisissant de Dora Maar, photographe surréaliste et muse de Pablo Picasso durant les années sombres de l'Occupation. Peint en pleine Seconde Guerre mondiale, ce tableau illustre la manière dont Picasso transpose les tensions du conflit et les complexités de sa relation amoureuse dans un langage visuel fragmenté, où le visage devient le miroir d'une angoisse à la fois intime et universelle.</p><p>Composition et Déconstruction La toile montre Dora Maar assise dans un fauteuil noir aux barreaux rigides qui évoquent une forme d'enfermement. La figure est traitée selon les principes du cubisme tardif :</p><p>La perspective multiple : Le visage est présenté simultanément de face et de profil, une technique permettant de saisir la totalité de l'expression tout en créant une distorsion déroutante.</p><p>Les lignes de force : Une ligne verticale jaune et des rayons colorés partent des yeux, barrant le visage comme pour suggérer une vision éclatée ou un tourment intérieur.</p><p>Le contraste des formes : Le corps est anguleux, presque architectural, contrastant avec le chapeau bleu orné d'une plume, symbole d'une élégance qui persiste malgré la tragédie ambiante.</p><p>Technique et Couleur Picasso utilise une palette dominée par des gris et des blancs froids en arrière-plan, ce qui fait ressortir le bleu électrique du vêtement et le teint violacé du visage. La touche est énergique, laissant apparaître les coups de pinceau et les contours noirs marqués qui structurent la figure. Les mains, croisées au bas du tableau, sont représentées avec des doigts déformés, presque griffus, une caractéristique fréquente chez Picasso pour exprimer la tension nerveuse de ses modèles.</p><p>Importance de l'œuvre Ce portrait est emblématique de la série des \"femmes pleurantes\" ou tourmentées, dont Dora Maar fut la figure centrale. Elle n'est plus ici seulement une femme, mais l'incarnation de la souffrance de l'époque. En brisant l'unité du visage, Picasso rend compte de la décomposition du monde extérieur. L'œuvre de Munich témoigne de la puissance politique de l'art de Picasso : même dans un portrait privé, il parvient à capturer le climat d'oppression et la résistance psychologique d'un individu face à l'histoire. //</p>"
 },
 {
   "id": "femme_au_petit_chapeau_rond_1942",
@@ -913,7 +1201,7 @@ window.ART_OBJECTS = [
     "portraits",
     "visages"
   ],
-  "narrative": "<p>Chef-d'œuvre de la prestigieuse collection Matsukata conservée au National Museum of Western Art de Tokyo, <em>Femme au petit chapeau rond, assise</em> (1942) offre une variation saisissante sur la figure de Dora Maar durant les heures les plus sombres de la guerre. Les chapeaux extravagants, éléments emblématiques de l'élégance parisienne de Dora, deviennent sous le pinceau de Picasso des emblèmes de résistance dérisoire et d'affirmation vitale.</p><p>L'agencement des traits du visage combine profil acéré et face hallucinée, cernés de contours noirs fermes et illuminés par une palette contrastée de verts acides, de jaunes et de violets sourds. L'œuvre capte avec une acuité foudroyante la psychologie tourmentée de son modèle tout en transcendant le genre du portrait mondain.</p>"
+  "narrative": "<p>Exécutée à Paris sous l'Occupation dans l'atelier de la rue des Grands-Augustins, cette œuvre majeure condense le climat d'oppression et d'angoisse des années de guerre à travers les traits de la photographe et compagne de l'artiste, Dora Maar. Devenue pour Picasso le symbole tragique de cette époque troublée, la figure féminine est représentée assise dans un fauteuil rigide à dossier violet, prisonnière d'un espace resserré et sombre. La composition réactive la déconstruction cubiste de l'anatomie pour traduire une tension psychologique aiguë, loin de toute recherche de séduction académique.</p><p>Le visage de Dora Maar concentre la célèbre dissociation des plans chère à l'artiste : le profil aux lignes acérées et au nez crochu s'imbrique frontalement avec le masque blanc-grisâtre de la face. Les deux yeux écarquillés, inégaux et cernés d'un trait noir vigoureux, fixent le spectateur avec une lucidité mélancolique et fiévreuse. Au sommet d'une chevelure brune et noire étirée vers le haut, un petit chapeau rond grisâtre, posé en équilibre précaire comme une soucoupe, confère à la silhouette une élégance incongrue et dérisoire au milieu de l'austérité ambiante.</p><p>Le corps est géométrisé en facettes anguleuses et facettées. Le buste, sanglé dans un vêtement sombre souligné d'un col blanc pointu et d'un corsage bleu clair aux boutons noirs losangiques, s'articule avec un avant-bras et une main étirés horizontalement sur les genoux. La palette, d'une grande sobriété, est dominée par un fond brun-noir bistre et des accords froids de bleu ardoise, de blanc crayeux et de pourpre sourd sur le dossier du siège. Par cette écriture nerveuse et tranchante, Picasso monumentalise la détresse intérieure et la dignité d'une époque prise au piège de l'histoire. //</p>"
 },
 {
   "id": "la_poule_1952",
@@ -970,7 +1258,7 @@ window.ART_OBJECTS = [
     "animaux",
     "estampes"
   ],
-  "narrative": "<p>Créée en 1952 et conservée dans le prestigieux département des estampes du British Museum à Londres, <em>La Poule</em> illustre l'inventivité technique prodigieuse de Picasso dans le domaine de la gravure au sucre (procédé mis au point avec le maître imprimeur Roger Lacourière). Établi alors sur la Côte d'Azur à Vallauris, Picasso réinvente le bestiaire méditerranéen avec un humour savoureux et une liberté graphique éblouissante.</p><p>Le volatile est rendu avec une économie de moyens souveraine : lavis granuleux d'aquatinte, griffures incisives pour les plumes hérissées, crête fièrement dressée et pattes solides ancrées dans la feuille. Cette feuille démontre que pour Picasso, l'estampe était un terrain d'expérimentation égal en noblesse à la peinture sur toile.</p>"
+  "narrative": "<p>Cette lithographie de Pablo Picasso, intitulée \"La Poule\" et réalisée en 1952, illustre l'intérêt constant de l'artiste pour le monde animal et sa capacité à capturer l'essence d'une créature par une observation quasi sculpturale du détail. Dans cette œuvre, Picasso délaisse la simplification extrême pour s'attacher à la texture et à la densité de l'oiseau. La poule est représentée de profil, campée solidement sur ses ergots, dégageant une présence à la fois familière et imposante. Le traitement du plumage témoigne d'une virtuosité graphique remarquable, où l'artiste utilise la pierre lithographique pour créer une infinité de motifs mouchetés et de contrastes de gris et de noirs profonds.</p><p>La description poussée de l'animal révèle un travail minutieux sur la matière. Le corps de la poule est recouvert d'une succession de taches sombres qui imitent le plumage ocellé, tandis que le cou et le poitrail présentent des zones de lavis plus denses, suggérant un volume rebondi. La tête, petite par rapport au corps massif, est surmontée d'une crête sombre et se termine par un bec acéré, conférant à l'oiseau une expression de vigilance. Un soin particulier a été apporté aux pattes : les écailles et les griffes sont tracées avec une précision nerveuse, ancrant l'animal dans le sol avec un réalisme saisissant qui contraste avec la liberté de traitement des plumes de la queue, plus floues et aériennes.</p><p>L'œuvre s'inscrit dans une période de production intense à Vallauris, où Picasso explore les thèmes de la vie quotidienne et de la nature avec une curiosité renouvelée. En jouant sur les réserves de blanc du papier pour souligner la courbe de l'aile et les reflets du cou, il parvient à donner une vie organique à cette estampe. La signature de l'artiste apparaît discrètement en bas à droite, tandis que la date, inversée lors du processus de tirage, est visible en haut à gauche. Cette poule n'est pas seulement un sujet de basse-cour, mais devient, sous le trait de Picasso, une étude magistrale sur le rythme visuel, la répétition des motifs naturels et la force de la présence animale. //</p>"
 },
 {
   "id": "la_repetition_1954",
@@ -1027,7 +1315,7 @@ window.ART_OBJECTS = [
     "scenes_de_genre",
     "estampes"
   ],
-  "narrative": "<p>Tirée en 1954 dans les ateliers de Fernand Mourlot à Paris et conservée au British Museum, la lithographie <em>La Répétition</em> replonge dans l'univers du spectacle, de la comédie et de la répétition théâtrale qui a fasciné Picasso depuis sa jeunesse montmartroise et ses collaborations avec Jean Cocteau et Serge Diaghilev.</p><p>Le trait de craie lithographique, fluide et spontané, croque les figures dans un mouvement suspendu. Par un jeu subtil de contrastes entre réserves blanches et noirs veloutés, Picasso saisit la vérité brute des corps au travail dans l'intimité de l'espace créatif.</p>"
+  "narrative": "<p>Cette lithographie de Pablo Picasso, intitulée « La Répétition » et datée du 21 février 1954, appartient à une période de réflexion intense sur le monde du spectacle, du cirque et de la comédie humaine. Dans cette composition complexe, l'artiste met en scène une troupe de comédiens ou de saltimbanques dans un moment de préparation, où le jeu et la réalité se confondent. Picasso utilise ici un trait extrêmement varié, alternant entre des contours nets et linéaires et des zones de hachures denses au lavis lithographique, créant une dynamique visuelle qui guide l'œil à travers les différents groupes de personnages.</p><p>Au centre de l'œuvre, une femme nue, parée d'un chapeau orné de fleurs, tient devant son visage un masque de théâtre, illustrant le thème du double et de l'artifice. À sa gauche, un homme musclé, à la carrure athlétique évoquant les figures classiques ou les hercules de foire, manipule un objet circulaire, peut-être un tambourin ou un accessoire de scène, dans une pose de tension physique. Sur la droite, un groupe de femmes observe la scène, l'une d'elles tenant un instrument de musique, tandis qu'en arrière-plan, un musicien joue de la trompette. Cette accumulation de figures crée une atmosphère de joyeux désordre, typique des coulisses d'un théâtre itinérant.</p><p>La description technique révèle un contraste marqué entre la partie gauche, plus sombre et travaillée dans les volumes par des ombrages profonds, et la partie droite, où le dessin se fait plus léger et aérien. Dans l'angle inférieur gauche, deux visages plus sombres semblent observer la répétition depuis l'ombre, agissant comme des spectateurs internes à l'œuvre. Cette pièce témoigne de l'obsession de Picasso pour le dialogue entre l'art grec antique — visible dans les proportions des corps — et la spontanéité du trait moderne. La date précise « 21.2.54 » est inscrite en haut à droite, marquant l'immédiateté de la création dans ce carnet de scènes de vie artistique. //</p>"
 },
 {
   "id": "portrait_de_kahnweiler_1957",
@@ -1084,7 +1372,7 @@ window.ART_OBJECTS = [
     "portraits",
     "visages"
   ],
-  "narrative": "<p>Près d'un demi-siècle après son célèbre portrait cubiste analytique de 1910, Picasso revient en 1957 à la figure de son ami et marchand historique Daniel-Henry Kahnweiler (1884 – 1979) à travers cette magistrale lithographie conservée au British Museum. Kahnweiler avait été le premier à reconnaître le génie des <em>Demoiselles d'Avignon</em> en 1907 et à soutenir inconditionnellement l'épopée cubiste.</p><p>Dans ce portrait tardif réalisé à la villa La Californie à Cannes, le visage vénérable du galeriste est restitué par des lignes synthétiques d'une acuité psychologique poignante. Le regard attentif, le front haut et les mains croisées témoignent d'une complicité fraternelle inaltérée par le temps.</p>"
+  "narrative": "<p>Ce portrait lithographique de Daniel-Henry Kahnweiler, réalisé par Pablo Picasso en juin 1957, témoigne de la relation indéfectible entre l'artiste et son marchand historique. Bien loin des déconstructions cubistes de leur première collaboration en 1910, Picasso livre ici une interprétation plus immédiate et psychologique. Kahnweiler est représenté de face, le menton appuyé sur son poing fermé dans une posture de réflexion profonde. Le trait, vigoureux et charbonneux, capture l'essence d'un homme qui a traversé les tempêtes artistiques du XXe siècle, soulignant la structure osseuse d'un crâne chauve et imposant, devenu une véritable architecture intellectuelle.</p><p>La description technique met en avant un jeu de contrastes saisissant. Picasso utilise des hachures denses et sombres pour modeler le côté gauche du visage et le vêtement, créant une ombre portée qui donne une grande profondeur au regard. Les yeux, cernés de rides d'expression, conservent une intensité scrutatrice, presque mélancolique. Le front haut est parcouru de lignes horizontales qui témoignent de l'âge et de l'expérience du modèle. Cette économie de moyens, caractéristique des travaux graphiques tardifs de Picasso, permet de se concentrer sur l'expressivité pure, où chaque coup de crayon semble chercher à atteindre la vérité intérieure de son ami.</p><p>L'œuvre se distingue également par son équilibre entre la masse sombre du buste et la clarté du visage et de la main, qui ressortent vigoureusement sur le fond clair du papier. On note la présence de la date « 3.6.57 » en haut à droite et la signature de l'artiste en bas à gauche, éléments qui ancrent ce portrait dans un moment précis de leur amitié. Ce dessin n'est pas seulement une ressemblance physique, mais un hommage à la lucidité et à la ténacité de celui qui fut le premier à soutenir le cubisme. Il s'inscrit dans la longue série de portraits de Kahnweiler, formant un cycle biographique et artistique majeur dans l'œuvre de Picasso. //</p>"
 },
 {
   "id": "personnage_cueillant_des_fleurs_1958",
@@ -1141,7 +1429,7 @@ window.ART_OBJECTS = [
     "nature_et_paysages",
     "scenes_de_genre"
   ],
-  "narrative": "<p>Peint en 1958 à Cannes dans l'atelier lumineux de la villa La Californie et conservé au Musée d'Art Moderne et Contemporain de Strasbourg, <em>Personnage cueillant des fleurs</em> célèbre l'éternelle jeunesse créatrice de Picasso sous la lumière bienfaisante du Midi de la France. Le motif archaïque et pastoral de la cueillette est régénéré par une audace formelle jubilatoire.</p><p>La silhouette est construite par de grands aplats géométrisés et colorés où les jaunes éclatants, les verts végétaux et les ocres solaires se répondent. La gestuelle libre, presque enfantine dans son apparente spontanéité, dissimule une science infaillible de l'équilibre des masses et de la modulation de l'espace.</p>"
+  "narrative": "<p>Cette œuvre intitulée Personnage cueillant des fleurs, peinte par Pablo Picasso en 1958, constitue une pièce majeure de la collection du Musée d’Art moderne et contemporain de Strasbourg, illustrant une période de synthèse et de simplification extrême dans le travail de l'artiste. Dans cette composition monumentale, Picasso s'éloigne des détails anatomiques pour privilégier une silhouette schématique, presque archétypale, qui s'inscrit dans sa recherche constante de l'essentiel et son intérêt pour les formes d'art dites primitives. Le personnage est représenté par une large forme ocre-orangé aux contours blancs affirmés, dont la posture courbée crée un dynamisme graphique saisissant qui occupe la quasi-totalité de l'espace pictural. Cette silhouette semble littéralement plier sous le poids de son action, le corps se transformant en un signe calligraphique qui dialogue avec le fond sombre, d'un vert profond, évoquant une nature réduite à sa plus simple expression chromatique.</p><p>L'année 1958 correspond à une époque où Picasso, installé à la villa La Californie puis au château de Vauvenargues, explore des thématiques liées à la vie pastorale et à la simplicité bucolique, tout en radicalisant son langage formel. Ici, le geste de cueillir des fleurs devient un prétexte à une exploration des aplats de couleur et de la structure biface, le personnage étant divisé par une ligne verticale centrale qui fragmente la vision et rappelle ses expérimentations cubistes antérieures. La tête, réduite à un simple cercle, et les bras, traités comme des segments géométriques, confèrent à l'ensemble une dimension poétique et ludique, évoquant parfois la spontanéité du dessin d'enfant que Picasso a cherché à retrouver toute sa vie. L'œuvre frappe par sa puissance visuelle immédiate et sa capacité à transformer un moment de quotidienneté en une icône de la modernité, où le sujet et le fond se répondent dans un équilibre parfait entre figuration et abstraction. //</p>"
 },
 {
   "id": "le_peintre_et_son_modele_1963",
@@ -1197,7 +1485,7 @@ window.ART_OBJECTS = [
     "portraits",
     "scenes_de_genre"
   ],
-  "narrative": "<p>Point d'orgue de l'interrogation métaphysique de Picasso sur son propre art, la monumentale composition <em>Le Peintre et son modèle</em> (1963), conservée à la Pinakothek der Moderne de Munich, s'inscrit au cœur d'une série obsessionnelle entreprise dans son refuge du Mas Notre-Dame-de-Vie à Mougins. À plus de quatre-vingts ans, Picasso ausculte le mystère du regard créateur tendu entre l'œil, la main et la toile.</p><p>Le peintre, assis devant son chevalet la palette à la main, scrute le corps nu du modèle alanguie. La touche nerveuse, empâtée et véhémente traduit l'urgence d'un dialogue charnel et intellectuel où l'acte de peindre devient l'ultime rempart contre l'érosion du temps et l'oubli.</p>"
+  "narrative": "<p>Conservée à la Pinakothek der Moderne de Munich, cette œuvre tardive de Pablo Picasso appartient à une série obsessionnelle que l'artiste a explorée durant les dernières années de sa vie. Peinte en 1963, alors que Picasso a plus de 80 ans, elle illustre sa réflexion profonde sur la création artistique, le regard du peintre et la relation entre l'artiste et son sujet. Dans cette toile, Picasso déploie un style graphique d'une liberté totale, marqué par une spontanéité qui confine parfois à la brutalité.</p><p>Composition et Confrontation Le tableau est divisé verticalement par le chevalet, qui sépare et unit à la fois les deux protagonistes :</p><p>Le Peintre (à gauche) : Représenté de profil, assis devant sa toile. Sa figure est traitée dans des tonalités de bleu et de gris. Son œil, immense et fixe, symbolise le regard dévorant de l'artiste. Il tient sa palette et ses pinceaux, concentré sur l'acte physique de peindre.</p><p>Le Modèle (à droite) : Une figure féminine monumentale, traitée dans des blancs éclatants et des verts vifs. Ses formes sont simplifiées, presque sculpturales. Contrairement au peintre, elle semble passive, offerte au regard, mais sa présence chromatique domine la partie droite de la composition.</p><p>L'espace : Le décor est réduit à l'essentiel, créant une atmosphère d'atelier intime et claustrophobe où seule compte la tension entre le créateur et sa muse.</p><p>Technique et Style Tardif Picasso utilise ici une touche très directe, presque \"brute\" :</p><p>Le tracé : Les lignes sont tracées avec une rapidité nerveuse. On sent l'urgence de l'artiste à jeter ses idées sur la toile sans s'encombrer de finitions académiques.</p><p>La couleur : La palette est dominée par des contrastes primaires (bleus, verts, ocres sur fond blanc). La peinture est parfois appliquée en couches épaisses, tandis qu'à d'autres endroits, la toile reste apparente, soulignant le caractère inachevé et vivant de l'œuvre.</p><p>Déformation : Les corps sont violemment distordus, non plus pour une analyse cubiste, mais pour une expression pure de la force vitale.</p><p>Importance de l'œuvre Le Peintre et son modèle est un jalon essentiel car il montre un Picasso qui, à la fin de sa vie, se réapproprie les grands thèmes de l'histoire de l'art (comme chez Rembrandt ou Vélasquez) pour les passer au crible de son propre génie. C'est une mise en abyme de sa propre existence : le peintre n'existe que par son regard et son œuvre. Cette toile de Munich témoigne de la vitalité créatrice inépuisable de l'artiste, qui continue de bousculer les conventions jusqu'à ses derniers jours. //</p>"
 },
 {
   "id": "couple_1967",
@@ -1253,7 +1541,7 @@ window.ART_OBJECTS = [
     "portraits",
     "le_nu"
   ],
-  "narrative": "<p>Toile monumentale de près de deux mètres de hauteur acquise par le Musée d'arts de Nantes, <em>Couple</em> (1967) est une déflagration de matière et de passion amoureuse peinte à Mougins. À ce stade de sa vie, Picasso balaye toute retenue académique pour laisser jaillir une peinture sauvage, physique et dionysiaque.</p><p>Les corps enlacés de l'homme et de la femme fusionnent dans une étreinte fiévreuse où les bouches, les regards et les membres se mêlent indissociablement. La liberté furieuse du geste, les coulures assumées et la vivacité de la pâte témoignent d'une jeunesse picturale absolue qui scandalisa les tenants du bon goût lors de la grande exposition du Palais des Papes d'Avignon.</p>"
+  "narrative": "<p>Cette peinture de Pablo Picasso, intitulée Couple et datée du 30 octobre 1967, appartient à la période tardive du maître espagnol. Conservée au Musée d'Arts de Nantes, elle témoigne de la fureur créatrice qui anime l'artiste dans ses dernières années, où il explore avec une liberté totale le thème de l'étreinte amoureuse. L'œuvre se distingue par une palette restreinte et terreuse, dominée par des gris, des ocres et des blancs, loin de la polychromie éclatante de ses périodes antérieures. La touche est rapide, presque gestuelle, laissant apparaître par endroits la spontanéité du trait et l'urgence de l'exécution.</p><p>La description de la scène révèle une imbrication complexe des corps, caractéristique de la volonté de Picasso de fusionner les amants en une seule entité plastique. Les visages des deux personnages sont étroitement rapprochés, leurs profils se superposant et se confondant dans un jeu de lignes courbes et anguleuses. Les yeux, grands et fixes, semblent capturer l'intensité de l'instant. Le traitement des membres est volontairement disproportionné et schématique, avec des mains et des pieds aux doigts lourdement marqués, ancrant les figures dans une réalité charnelle et monumentale. Cette déformation expressive souligne la force vitale et l'érotisme brut qui se dégagent de la rencontre.</p><p>L'espace de la toile est entièrement saturé par le couple, ne laissant que peu de place à un décor environnant, ce qui renforce l'intimité et la puissance de la scène. Les contrastes de valeurs, notamment l'utilisation du blanc pur pour souligner certaines parties des visages, créent un dynamisme visuel au sein de cette composition tourbillonnante. À travers cette œuvre, Picasso réaffirme son obsession pour le désir et la figure humaine, utilisant un langage pictural dépouillé de tout artifice pour atteindre une forme de vérité émotionnelle immédiate et universelle. //</p>"
 },
 {
   "id": "couple_1969",
@@ -1309,7 +1597,7 @@ window.ART_OBJECTS = [
     "portraits",
     "le_nu"
   ],
-  "narrative": "<p>Conservée au National Museum of Western Art de Tokyo, cette vigoureuse composition de 1969 réaffirme l'obsession de Picasso pour le thème universel de l'étreinte et de la communion amoureuse dans les dernières années de sa vie. Travaillant à un rythme effréné au Mas Notre-Dame-de-Vie, l'artiste peint avec une fougue sans précédent.</p><p>Les deux visages se heurtent et s'imbriquent dans un baiser vorace, traduisant la fusion indissoluble des êtres. Les contrastes primaires et la texture généreuse de la peinture affirment une joie de vivre solaire face au crépuscule inéluctable de l'existence.</p>"
+  "narrative": "<p>Peinte au mas Notre-Dame-de-Vie à Mougins en 1969, cette œuvre monumentale appartient à la fulgurante période tardive de Picasso, marquée par une rage créatrice et une liberté d'exécution totale. Âgé de près de quatre-vingt-huit ans, l'artiste revient de manière obsessionnelle sur le thème de l'étreinte amoureuse, confrontant le désir vital à la vieillesse et à la mort imminente. La composition précipite deux corps nus enchevêtrés dans un corps-à-corps sensuel et tumultueux qui occupe toute la hauteur de la toile.</p><p>L'homme et la femme fusionnent dans un entrelacs anatomique où les membres se démultiplient et se confondent. À gauche, la figure féminine déploie un visage vert franc vu simultanément de face et de profil, orné d'une chevelure bouclée noire et dense, la poitrine offerte et les cuisses ouvertes. L'homme, à droite, la tête renversée et le crâne coiffé de mèches sombres, presse son visage grisâtre contre le sien tandis que ses bras et ses mains aux doigts déployés enserrent le torse ocre-rouge de sa compagne. Les pieds nus, gigantesques et stylisés avec leurs orteils ronds cernés de noir, ancrent ce ballet érotique dans une puissante matérialité tellurique.</p><p>Picasso peint avec une urgence souveraine : le cerne noir calligraphique s'affirme sur de larges aplats de couleur pure, sans modelé académique ni repentir dissimulé. La palette fait claquer des verts émeraude, un ocre brun brûlé et un jaune éclatant sur des blancs crayeux et un pan de ciel bleu azur en haut à droite. Longtemps méprisée par la critique de son époque qui n'y voyait qu'un relâchement sénile, cette période des « mousquetaires » et des grands couples tardifs est aujourd'hui célébrée comme l'un des sommets du néo-expressionnisme moderne par sa vitalité sauvage et son audace gestuelle sans concession. //</p>"
 },
 {
   "id": "femme_assise_sur_un_banc_1970",
@@ -1365,7 +1653,7 @@ window.ART_OBJECTS = [
     "portraits",
     "visages"
   ],
-  "narrative": "<p>Enrichissant la remarquable collection Picasso du MAMCS de Strasbourg, <em>Femme assise sur un banc</em> (1970) évoque la présence tutélaire de Jacqueline Roque, dernière épouse et ultime muse du maître, qui veilla sur sa vieillesse féconde à Mougins. La femme assise, motif séculaire de la peinture européenne, est réinvestie d'une monumentalité souveraine.</p><p>Les jambes repliées, les yeux immenses en amande et la coiffure haute typique de Jacqueline s'organisent en arabesques expressives tracées avec une vélocité fulgurante. L'œuvre rayonne d'une tendresse protectrice et d'une force plastique intacte à la veille de son quatre-vingt-dixième anniversaire.</p>"
+  "narrative": "<p>Cette œuvre intitulée Femme assise sur un banc, réalisée par Pablo Picasso le 16 mars 1970, constitue un témoignage flamboyant de la période ultime de l'artiste, conservée au Musée d’Art moderne et contemporain de Strasbourg. Dans cette huile sur toile monumentale, Picasso déploie une esthétique de l'urgence et de la liberté sauvage qui caractérise ses dernières années, où la nécessité de peindre semble l'emporter sur la recherche de la perfection formelle. La figure féminine, sujet central et obsessionnel de toute sa carrière, est ici déconstruite avec une violence expressive qui confine à l’abstraction tout en conservant une présence physique massive. Le corps de la femme est structuré par des larges bandes de vert acide et de noir, évoquant les lattes d'un banc public ou d'une chaise de jardin, qui s'entremêlent aux formes anatomiques de manière indissociable.</p><p>La palette chromatique est volontairement restreinte et vigoureuse, dominée par des contrastes crus entre le vert végétal, le noir profond et des rehauts de blanc qui soulignent les volumes du visage et des membres. On y retrouve la signature stylistique des années 1970 : des coups de pinceau larges, parfois chargés d'empâtements, et des coulures assumées qui témoignent de la rapidité d'exécution. Le visage, traité en une vision simultanée typique du cubisme tardif, présente des yeux exorbités et des traits distordus, exprimant une vitalité presque monstrueuse et une sensualité brute. Cette œuvre s'inscrit dans la série des « grands autoportraits déguisés » ou des figures archétypales où Picasso, conscient de sa propre finitude, projette une force créatrice inépuisable. L'espace pictural est saturé, ne laissant aucun repos à l'œil, traduisant ainsi une tension psychologique entre l'immobilité du sujet assis et le dynamisme graphique de la composition. Par cette toile, Picasso réaffirme sa position de précurseur d'un nouveau langage pictural qui influencera durablement le néo-expressionnisme européen, prouvant qu'à l'aube de ses quatre-vingt-dix ans, son génie restait résolument tourné vers la modernité la plus radicale. //</p>"
 },
 {
   "id": "le_mousquetaire_1970",
@@ -1423,7 +1711,7 @@ window.ART_OBJECTS = [
     "portraits",
     "peinture_d_histoire"
   ],
-  "narrative": "<p>Conservé au Musée des Beaux-Arts de Rennes, <em>Le Mousquetaire</em> (1970) appartient à la célèbre série finale entreprise par Picasso à la fin des années 1960. Passionné par les toiles de Rembrandt, de Frans Hals et de Vélasquez qu'il projette sur des diapositives dans son atelier, l'artiste réinvente la figure du gentilhomme espagnol du Siècle d'or coiffé d'un chapeau à panache, paré d'une fraise et armé d'une épée.</p><p>Ce personnage théâtral et bravache est à la fois un double carnavalesque de l'artiste et une allégorie virile défiant le déclin physique. D'un geste magistral, Picasso brosse la silhouette avec une liberté graphique éblouissante, où l'humour, la maestria technique et l'énergie vitale triomphent de la vieillesse.</p>"
+  "narrative": "<p>Cette œuvre tardive de Pablo Picasso, peinte en 1970 et conservée au Musée des Beaux-Arts de Rennes, appartient à la célèbre série des « Mousquetaires » qui occupa l'artiste durant les dernières années de sa vie. Dans un jaillissement de couleurs et de formes nerveuses, Picasso réinvente la figure du cavalier du XVIIe siècle, s'appropriant les codes de la peinture classique (le chapeau à plumes, la fraise, les moustaches) pour les soumettre à sa propre déconstruction formelle. Le personnage, traité avec une liberté quasi enfantine, s'impose avec une vitalité brute, témoignant du désir du vieux maître de peindre « comme on pisse », de manière instinctive et sans aucune contrainte académique.</p><p>La technique employée ici est celle du Picasso ultime : une application rapide de la peinture, souvent directement au tube, laissant apparaître les coulures et le grain de la toile. Les couleurs sont vives, dominées par les ocres, les verts et les rouges, structurées par de larges cernes noirs qui délimitent le corps et le visage. Le portrait présente cette simultanéité de points de vue typique de l'esthétique picassienne, où le profil et la face s'entremêlent, tandis que les mains, démesurées et simplifiées, semblent s'accrocher au cadre. On note également la présence de deux dates sur la toile (4.11.70 et 24.11.70), révélant l'urgence de la création et les reprises successives d'une œuvre exécutée en quelques séances seulement.</p><p>L'intérêt historique de ce « Mousquetaire » réside dans le dialogue que Picasso entretient avec les grands maîtres du passé, notamment Vélasquez, Rembrandt et Greco. En se projetant dans ces figures d'aventuriers et de gentilshommes d'un autre temps, Picasso exorcise sa propre vieillesse et affirme sa place dans la lignée des géants de la peinture. Cette toile, longtemps mal comprise par une critique qui y voyait un déclin, est aujourd'hui célébrée comme l'expression d'un génie libéré, où la simplification formelle n'est pas une perte de savoir-faire, mais une conquête de la liberté absolue. C'est une œuvre puissante, presque agressive dans sa modernité, qui clôt de manière flamboyante l'une des carrières les plus révolutionnaires de l'histoire de l'art. //</p>"
 },
 {
   "id": "homme_assis_a_la_canne_1971",
@@ -1479,7 +1767,7 @@ window.ART_OBJECTS = [
     "portraits",
     "visages"
   ],
-  "narrative": "<p>Joyau du Musée d'arts de Nantes, <em>Homme assis à la canne</em> (1971) est l'un des ultimes et plus poignants chefs-d'œuvre de Picasso, peint à quatre-vingt-dix ans passés. L'homme assis, appuyé sur sa canne, fixe le spectateur avec des yeux démesurés, hagards et indomptables, où se lit la lucidité tragique de l'artiste face à l'approche de la mort.</p><p>La rapidité d'exécution, la violence des touches d'ocre, de blanc et de rouge sang, ainsi que la dislocation anatomique confèrent à cette œuvre la dimension d'un testament existentiel. Refusant toute complaisance, Picasso y réaffirme avec une grandeur héroïque que l'art est le seul langage capable de regarder la mort en face sans baisser les yeux.</p>"
+  "narrative": "<p>Cette peinture de Pablo Picasso, intitulée Homme assis à la canne, a été réalisée le 1er novembre 1971. Conservée au Musée d’Arts de Nantes, elle appartient à la toute dernière période de création de l'artiste, marquée par une série de portraits d'hommes barbus, souvent coiffés de chapeaux, que l'on interprète comme des figures de mousquetaires ou des projections de l'artiste lui-même face à la vieillesse. L'œuvre frappe par son exécution extrêmement libre, presque sauvage, où Picasso semble vouloir aller à l'essentiel du mouvement et de la présence humaine. La palette est dominée par des tonalités de blanc, de gris et d'ocre, avec des touches de rose pâle qui viennent animer la chair du personnage.</p><p>Le sujet est représenté de face, occupant la majeure partie de la surface picturale. Le visage est traité avec une déformation expressive typique : les yeux sont asymétriques et exorbités, tandis que la barbe est suggérée par des spirales de peinture noire tracées directement sur le fond gris. Le personnage porte un large chapeau à bords plats, esquissé d'un trait circulaire rapide qui semble encore frais. Le corps est synthétisé en de larges masses de couleurs ; les mains, nouées sur le pommeau de la canne, sont rendues par des empâtements charnus, soulignant la force physique de cette figure malgré son apparente vulnérabilité. La canne elle-même est figurée par un bâton strié de noir et de blanc, agissant comme un pivot vertical dans la composition.</p><p>La technique utilisée ici révèle une grande économie de moyens et une rapidité gestuelle assumée. Picasso laisse les traces du pinceau bien visibles, avec des coulures et des zones où la préparation de la toile transparaît, donnant à l'ensemble un aspect inachevé et vibrant. Ce dépouillement formel n'enlève rien à la monumentalité de l'homme assis, qui semble fixer le spectateur avec une intensité presque tragique. L'espace environnant est réduit à des aplats de couleurs claires et lumineuses, isolant le personnage dans une éternité picturale. C'est une œuvre testamentaire qui illustre la capacité de l'artiste à réinventer sans cesse son langage, même au soir de sa vie. // </USER_REQUEST> <ADDITIONAL_METADATA> The current local time is: 2026-11-17T23:03:31+01:00.</p><p>The user's current state is as follows: Active Document: /Users/renoult/Desktop/monportailweb/panoramadesarts/data/data-objets5.js (LANGUAGE_UNSPECIFIED) Cursor is on line: 1 Other open documents: - /Users/renoult/Desktop/monportailweb/panoramadesarts/data/data-artistes2.js (LANGUAGE_UNSPECIFIED) - /Users/renoult/Desktop/monportailweb/panoramadesarts/style.css (LANGUAGE_UNSPECIFIED) - /Users/renoult/Desktop/monportailweb/panoramadesarts/index.html (LANGUAGE_UNSPECIFIED) - /Users/renoult/Desktop/monportailweb/panoramadesarts/data/data-objets2.js (LANGUAGE_UNSPECIFIED) - /Users/renoult/Desktop/monportailweb/GEMINI.md (LANGUAGE_UNSPECIFIED) </ADDITIONAL_METADATA></p>"
 },
 {
   "id": "murillo_les_mangeurs_de_raisins_et_de_melon_munich_1645",

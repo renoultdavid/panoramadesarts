@@ -7703,6 +7703,248 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
         }
       ]
     }
+  },
+  "pollock": {
+    "id": "pollock",
+    "name": "Pollock Jackson",
+    "sortName": "Pollock Jackson",
+    "sortLetter": "P",
+    "dates": "1912 – 1956",
+    "movement": "Expressionnisme abstrait & Action Painting",
+    "nationality": "Américaine (Cody, Wyoming - New York - Springs, Long Island)",
+    "techniques": "Dripping et pouring (égouttement et projection directe), laque industrielle et émail sur toile libre au sol (all-over), gestuelle dynamique sans chevalet",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczP6jCPIus1mV2u3bVXPu29DMumVP_WwtVc4TY97PizqxLCwiboagufX-_5QASBuZgWeHrlIMH4Q8d-1fRAD9voeWQ7LFwB_vua8ulaD8CIhc71Bk6CwmckkS7MzFcbugsBp35U1824gWqbiS15TOOgdDQ=w1708-h725-s-no-gm?authuser=0",
+    "portraitImg": "",
+    "bio": `
+      <p><strong>Le géant de l'Expressionnisme abstrait et le pionnier de l'Action Painting</strong><br>
+      Jackson Pollock (1912 – 1956) est le géant de l'Expressionnisme abstrait américain et le pionnier de l'Action Painting. En posant la toile directement sur le sol de son atelier de Long Island et en tournant autour comme dans une danse chamanique, il a aboli le chevalet classique. Pour Pollock, le tableau n'est plus la représentation d'un objet ou d'une idée, mais l'arène physique d'un acte pictural pur où l'inconscient s'exprime sans entrave.</p>
+      <p><strong>Dripping, pouring et révolution du All-Over</strong><br>
+      Son genre pictural se définit par l'abstraction gestuelle et le dripping / pouring. Son style se caractérise par la projection, l'égouttement et le déversement direct de laque industrielle à l'aide de bâtons usés, de truelles ou de pots troués. Il crée des toiles « all-over », sans centre de gravité ni point focal, saturées d'un entrelacs arachnéen de lignes rythmiques où le geste physique du peintre reste imprimé dans la matière.</p>
+      <p><strong>De la mythologie totémique aux Black Pourings</strong><br>
+      L'évolution de son style marque un passage de la mythologie intérieure vers le geste pur, puis vers une introspection dramatique :<br>
+      • <em>Les mythes totémiques et le surréalisme (années 1940 – 1946) :</em> Marqué par la psychanalyse jungienne, l'art des Indiens Navajos et le muralisme mexicain, il peint des formes hybrides, des symboles totémiques et des créatures primitives aux contours encore reconnaissables.<br>
+      • <em>L'apogée du Dripping (1947 – 1950) :</em> C'est sa période la plus célèbre, celle qui révolutionne l'art mondial. Abandonnant tout motif figuratif et tout pinceau, il réalise des toiles denses et monumentales aux couches enchevêtrées de couleurs (<em>Autumn Rhythm</em>, <em>Number 1</em>), capturant une énergie cinétique continue.<br>
+      • <em>Les Black Pourings et le retour du motif (1951 – 1953) :</em> Correspondant exactement au tableau <em>Number 8</em> (1951), cette série marque une rupture brutale. Pollock renonce à la polychromie pour n'utiliser que de l'émail noir pur sur toile de coton écru brute, non préparée. Le pigment pénètre directement la fibre, et sous les éclaboussures et les coulées fluides, des têtes fantomatiques, des masques et des fragments de corps ressurgissent de manière spectrale.</p>
+    `,
+    "catalogInfo": {
+      "scientificCorpus": "environ 382 œuvres répertoriées",
+      "totalEstimated": "environ 382 peintures autographes",
+      "historicalContext": "L'inventaire scientifique de référence mondiale est le Catalogue raisonné en quatre volumes établi par Francis Valentine O'Connor et Eugene Victor Thaw, publié en 1978. Ce travail exhaustif, qui a nécessité de classer et d'authentifier chaque geste du peintre de Cody (Wyoming), fixe le corpus officiel de ses peintures (huiles, laques, émaux et peintures industrielles sur toile ou panneau) à environ 382 œuvres."
+    },
+    "timeline": {
+      "title": "Repères biographiques & Jalons créateurs",
+      "periods": [
+        {
+          "years": "1912 – 1946",
+          "title": "Jeunesse, mythes totémiques et surréalisme",
+          "color": "#8c734b",
+          "events": [
+            {
+              "year": "1912",
+              "title": "Naissance à Cody (Wyoming)",
+              "desc": "Grandit dans l'Ouest américain, étudie à Los Angeles puis à la Art Students League de New York auprès de Thomas Hart Benton.",
+              "type": "life",
+              "icon": "🌱"
+            },
+            {
+              "year": "1943",
+              "title": "Mural pour Peggy Guggenheim et première exposition",
+              "desc": "Peggy Guggenheim lui commande la monumentale fresque Mural pour son appartement new-yorkais et organise sa première exposition solo.",
+              "type": "milestone",
+              "icon": "🏛️"
+            },
+            {
+              "year": "1945",
+              "title": "Mariage avec Lee Krasner et installation à Springs",
+              "desc": "Épouse l'artiste Lee Krasner et s'installe à The Springs sur l'East End de Long Island, transformant la grange en atelier révolutionnaire.",
+              "type": "life",
+              "icon": "🏡"
+            }
+          ]
+        },
+        {
+          "years": "1947 – 1950",
+          "title": "L'apogée du Dripping et la révolution de l'Action Painting",
+          "color": "#4a6b82",
+          "events": [
+            {
+              "year": "1947",
+              "title": "Invention historique du Dripping sur toile au sol",
+              "desc": "Pose la toile non tendue sur le sol et projette la peinture industrielle avec des bâtons, inventant le all-over et l'Action Painting.",
+              "type": "milestone",
+              "icon": "⚡"
+            },
+            {
+              "year": "1949",
+              "title": "Consécration mondiale dans le magazine Life",
+              "desc": "Life publie un article retentissant demandant s'il est 'le plus grand peintre vivant des États-Unis'.",
+              "type": "milestone",
+              "icon": "📰"
+            },
+            {
+              "year": "1950",
+              "title": "Création des chefs-d'œuvre Autumn Rhythm et One",
+              "desc": "Peint ses toiles all-over monumentales les plus célèbres, conservées au Metropolitan Museum et au MoMA de New York.",
+              "type": "masterpiece",
+              "icon": "⭐"
+            }
+          ]
+        },
+        {
+          "years": "1951 – 1956",
+          "title": "Les Black Pourings, retour spectral du motif et fin tragique",
+          "color": "#333333",
+          "events": [
+            {
+              "year": "1951",
+              "title": "La série des Black Pourings et Number 8",
+              "desc": "Rupture radicale avec la couleur : projette de la laque noire sur coton brut, révélant des têtes et formes totémiques (NMWA, Tokyo).",
+              "type": "artwork",
+              "artworkId": "pollock_number_8_1951",
+              "icon": "🖤"
+            },
+            {
+              "year": "1952 – 1953",
+              "title": "Blue Poles et The Deep",
+              "desc": "Derniers grands chefs-d'œuvre où s'affrontent des structures totémiques et des gouffres d'abîme blanc.",
+              "type": "masterpiece",
+              "icon": "🌊"
+            },
+            {
+              "year": "1956",
+              "title": "Mort accidentelle à Springs",
+              "desc": "Se tue au volant de son cabriolet Oldsmobile le 11 août 1956 à 44 ans près de Springs, entrant dans la légende de l'art mondial.",
+              "type": "death",
+              "icon": "✝️"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "poussin": {
+    "id": "poussin",
+    "name": "Poussin Nicolas",
+    "sortName": "Poussin Nicolas",
+    "sortLetter": "P",
+    "dates": "1594 – 1665",
+    "movement": "Classicisme français (Peintre-philosophe)",
+    "nationality": "Française (Les Andelys, Paris, Rome)",
+    "techniques": "Huile sur toile, primauté absolue du dessin et de l'ordonnance géométrique, composition étagée en frise, perspective linéaire rationnelle, paysages héroïques et philosophiques",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczMOyMaXvJ25xENwZvLPAjXAc-K-tijQ_hNdn09L5AUKe0NQd7F4CPWOFjyi_6w_H3uaOeshk8zNIruViODUc4Yjf0caIn-AgMJ4cDTQGp81fX6z2YcHJHKRN310wRag7N6YkXgkTnHeEPRN246W400llg=w1708-h725-s-no-gm?authuser=0",
+    "portraitImg": "",
+    "bio": `
+      <p><strong>Le peintre-philosophe et le législateur du classicisme français</strong><br>
+      Nicolas Poussin, né en 1594 en Normandie et mort à Rome en 1665, est considéré comme le plus grand représentant du classicisme français. Bien qu'il ait passé la quasi-totalité de sa carrière en Italie, son influence sur l'art français a été monumentale, jetant les bases de l'académisme. Artiste intellectuel et érudit, il concevait la peinture comme une forme de poésie muette destinée à l'esprit plutôt qu'aux sens, privilégiant la clarté, l'ordre et la mesure au détriment de l'exubérance baroque qui dominait alors Rome.</p>
+      <p><strong>Raison cartésienne, composition réfléchie et méditation morale</strong><br>
+      Son genre pictural se concentre principalement sur les thèmes historiques, mythologiques et religieux, traités avec une rigueur philosophique. Poussin est le maître de la composition réfléchie : chaque figure, chaque geste et chaque élément du décor est soigneusement placé pour servir la narration et exprimer une émotion précise. Il accordait une importance primordiale au dessin et à la structure linéaire, considérant que la couleur ne devait être qu'un complément à la forme. Ses œuvres, telles que <em>Et in Arcadia ego</em>, sont de véritables méditations sur la morale, la mort et l'héroïsme antique.</p>
+      <p><strong>Du lyrisme titianesque à l'architecture cosmique du paysage héroïque</strong><br>
+      L'évolution de son style marque un passage d'un lyrisme influencé par Titien vers une austérité de plus en plus géométrique et intellectuelle. Dans sa maturité, il s'éloigne des effets de lumière dramatiques pour adopter des formes sculpturales et des paysages « héroïques ». Ses paysages de fin de carrière ne sont plus de simples décors, mais des architectures naturelles où l'homme s'intègre dans un ordre cosmique immuable. Cette recherche constante de perfection rationnelle a fait de lui le modèle absolu pour des générations d'artistes, des académiciens du XVIIe siècle jusqu'aux néoclassiques comme David.</p>
+    `,
+    "catalogInfo": {
+      "scientificCorpus": "252 peintures répertoriées",
+      "totalEstimated": "252 peintures à l'huile autographes",
+      "historicalContext": "L'inventaire scientifique d'autorité mondiale et définitive est le monumental catalogue raisonné publié en 2015 par l'ancien président-directeur du Louvre et académicien Pierre Rosenberg (Nicolas Poussin, Les tableaux). Ce travail titanesque, qui vient couronner et affiner les recherches historiques antérieures d'Anthony Blunt et de Jacques Thuillier, écarte son œuvre dessiné pour fixer le corpus officiel et incontesté de ses peintures à l'huile à très exactement 252 œuvres."
+    },
+    "timeline": {
+      "title": "Repères biographiques & Jalons créateurs",
+      "periods": [
+        {
+          "years": "1594 – 1623",
+          "title": "Jeunesse normande, Paris et l'influence maniériste",
+          "color": "#8c6b4b",
+          "events": [
+            {
+              "year": "1594",
+              "title": "Naissance aux Andelys en Normandie",
+              "desc": "Fils d'un noble désargenté. Se forme auprès de Quentin Varin avant de rejoindre Paris vers 1612.",
+              "type": "life",
+              "icon": "🌱"
+            },
+            {
+              "year": "1620 – 1621",
+              "title": "Saint Denis l'Aréopagite couronné par un ange",
+              "desc": "Peint son grand tableau d'autel pour l'église Saint-Germain-l'Auxerrois, témoignant de l'héritage bellifontain (Musée de Rouen).",
+              "type": "artwork",
+              "artworkId": "poussin_saint_denis_1620",
+              "icon": "👑"
+            },
+            {
+              "year": "1622 – 1623",
+              "title": "Rencontre avec le poète Cavalier Marin",
+              "desc": "Dessine les Métamorphoses d'Ovide pour Giambattista Marino, qui l'encourage à partir pour Rome.",
+              "type": "education",
+              "icon": "📖"
+            }
+          ]
+        },
+        {
+          "years": "1624 – 1639",
+          "title": "Premier séjour romain, le lyrisme vénitien et la bacchanale",
+          "color": "#5b7552",
+          "events": [
+            {
+              "year": "1624",
+              "title": "Arrivée définitive à Rome",
+              "desc": "S'établit dans la Ville éternelle, étudie la statuaire antique et l'anatomie avec le sculpteur François Duquesnoy.",
+              "type": "milestone",
+              "icon": "🏛️"
+            },
+            {
+              "year": "1625 – 1627",
+              "title": "Paysage au satyre endormi et Midas au Pactole",
+              "desc": "Explore la sensualité du colorisme vénitien sous l'égide de Titien (Musée Fabre de Montpellier et Musée Fesch d'Ajaccio).",
+              "type": "artwork",
+              "artworkId": "poussin_paysage_satyre_1625",
+              "icon": "🍇"
+            },
+            {
+              "year": "1627 – 1628",
+              "title": "Bacchanale à la joueuse de guitare",
+              "desc": "Célèbre l'ivresse bacchique et l'harmonie musicale dans une fête antique baignée de lumière dorée (Musée du Louvre).",
+              "type": "artwork",
+              "artworkId": "poussin_bacchanale_joueuse_guitare_1625",
+              "icon": "🎸"
+            },
+            {
+              "year": "1637 – 1638",
+              "title": "Et in Arcadia ego (Les Bergers d'Arcadie)",
+              "desc": "Chef-d'œuvre absolu de méditation stoïcienne et philosophique sur la présence de la mort au cœur même de la beauté pastorale.",
+              "type": "masterpiece",
+              "icon": "⭐"
+            }
+          ]
+        },
+        {
+          "years": "1640 – 1665",
+          "title": "Bref retour à Paris, maturité romaine et paysages héroïques",
+          "color": "#4a6b82",
+          "events": [
+            {
+              "year": "1640 – 1642",
+              "title": "Premier peintre du roi Louis XIII à Paris",
+              "desc": "Rappelé par Richelieu, il séjourne deux ans à la cour avant de fuir les intrigues parisiennes pour regagner son havre romain.",
+              "type": "history",
+              "icon": "👑"
+            },
+            {
+              "year": "1648 – 1655",
+              "title": "L'apogée du Paysage héroïque et philosophique",
+              "desc": "Peint les Paysages avec Polyphème, Diogène et Phocion, où la nature devient le temple de l'ordre géométrique et de la raison.",
+              "type": "masterpiece",
+              "icon": "🌳"
+            },
+            {
+              "year": "1660 – 1664",
+              "title": "Le cycle des Quatre Saisons et mort à Rome",
+              "desc": "Achève son testament pictural pour le duc de Richelieu (Musée du Louvre) et s'éteint à Rome le 19 novembre 1665 à 71 ans.",
+              "type": "death",
+              "icon": "✝️"
+            }
+          ]
+        }
+      ]
+    }
   }
 });
 
@@ -7758,3 +8000,6 @@ window.ARTISTS_REGISTRY["camille_pissarro"] = window.ARTISTS_REGISTRY["pissarro"
 
 window.ARTISTS_REGISTRY["niccolo_pizzolo"] = window.ARTISTS_REGISTRY["pizzolo"];
 window.ARTISTS_REGISTRY["niccolo_di_pietro_da_villaganzerla"] = window.ARTISTS_REGISTRY["pizzolo"];
+
+window.ARTISTS_REGISTRY["jackson_pollock"] = window.ARTISTS_REGISTRY["pollock"];
+window.ARTISTS_REGISTRY["nicolas_poussin"] = window.ARTISTS_REGISTRY["poussin"];
