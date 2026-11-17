@@ -811,7 +811,7 @@ window.MOVEMENTS_DATA = {
         "dates": "1881 – 1973",
         "role": "Génie universel, démiurge et cofondateur du Cubisme",
         "desc": "Les Demoiselles d'Avignon, Guernica, natures mortes aux papiers collés.",
-        "artistId": "",
+        "artistId": "picasso",
         "icon": "🎨"
       },
       {
@@ -920,6 +920,14 @@ window.MOVEMENTS_DATA = {
     "concurrentHtml": "<p><strong>Pendant ce temps-là... La montée des totalitarismes et l'exil américain</strong></p><p><strong>Économie & Crise :</strong> Le Krach de Wall Street d'octobre 1929 plonge le monde occidental dans la Grande Dépression des années 1930. Chômage de masse, paupérisation et montée des extrêmes en Europe.</p><p><strong>Totalitarismes :</strong> Adolf Hitler accède au pouvoir en Allemagne en 1933 et persécute l'« art dégénéré » (exposition de 1937 à Munich). Guerre civile espagnole (1936-1939) : le bombardement de Guernica inspire à Picasso son chef-d'œuvre. Procès staliniens de Moscou.</p><p><strong>Exil à New York :</strong> Dès 1940, Breton, Ernst, Dalí, Tanguy, Masson et Léger fuient la France occupée vers New York grâce au réseau de sauvetage de Varian Fry. Leur présence sur le sol américain féconde directement l'expressionnisme abstrait new-yorkais.</p>",
     "geographyHtml": "<div class='mov-focal-card'><div class='mov-focal-top'><span class='mov-focal-icon'>🏛️</span><div class='mov-focal-title'>Foyers Créateurs du Surréalisme</div></div><p class='mov-focal-desc'>Paris (Rue Fontaine, Galerie Pierre, cafés de Montparnasse), Cadaqués et Figueres (Dalí), Bruxelles (René Magritte), New York (Exil pendant la guerre, Galerie Art of This Century de Peggy Guggenheim) et Mexico (Frida Kahlo).</p><div class='mov-focal-tags'><span class='mov-focal-tag'>📍 Paris</span><span class='mov-focal-tag'>📍 Bruxelles</span><span class='mov-focal-tag'>📍 Cadaqués</span><span class='mov-focal-tag'>📍 New York</span><span class='mov-focal-tag'>📍 Mexico</span></div></div>",
     "artists": [
+      {
+        "name": "Pablo Picasso",
+        "dates": "1881 – 1973",
+        "role": "L'inclassable démiurge des métamorphoses et de la convulsion tragique",
+        "desc": "Baigneuses biomorphes, Guernica, figures distordues et affinités avec Breton.",
+        "artistId": "picasso",
+        "icon": "⚡"
+      },
       {
         "name": "Salvador Dalí",
         "dates": "1904 – 1989",

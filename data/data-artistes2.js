@@ -7086,6 +7086,161 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
         }
       ]
     }
+  },
+  "picasso": {
+    "id": "picasso",
+    "name": "Picasso Pablo",
+    "sortName": "Picasso Pablo",
+    "sortLetter": "P",
+    "dates": "1881 – 1973",
+    "movement": "Cubisme, Avant-gardes du XXe siècle & Modernisme",
+    "nationality": "Espagnole (Malaga, Barcelone, Paris, Mougins)",
+    "techniques": "Huile sur toile, collage et papiers collés, déconstruction cubiste des plans, sculpture métallique et céramique, gravure et lithographie, synthèse graphique libre",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczPFOKfBgs4FGet---_NfJbbLLv5YMsVHFtug8vOM8sGN690i6vbCwd5lL1S3O58UI4YasGrEh_14q0olQKg8dV-I69KVRPJiIoWmkAES1hvG7h4jCm4a4Ypd-nPZuAQ41kMwTMMVf8z2RR3cHxpeHWJZQ=w1584-h672-s-no-gm?authuser=0",
+    "portraitImg": "",
+    "bio": `
+      <p><strong>Le titan moderne et le démiurge du XXe siècle</strong><br>
+      Pablo Picasso (1881 – 1973), né à Malaga et formé aux Beaux-Arts de Barcelone et de Madrid, est sans doute l'artiste le plus prolifique, influent et révolutionnaire du XXe siècle. Installé définitivement à Paris en 1904 au Bateau-Lavoir, il n'a cessé, tout au long d'une trajectoire créatrice de plus de soixante-dix ans, de bousculer les conventions esthétiques occidentales, inventant de nouvelles formes et de nouveaux langages avec une liberté plastique absolue.</p>
+      <p><strong>Déconstruction de l'espace, pluralité des médiums et engagement</strong><br>
+      Créateur du Cubisme aux côtés de Georges Braque, il pulvérise le dogme de la perspective monofocale hérité de la Renaissance en décomposant les volumes sur un même plan. Tour à tour peintre, sculpteur, graveur, céramiste et poète, son art conjugue une virtuosité technique prodigieuse à une puissance expressive brute. Qu'il s'agisse de l'intimité mélancolique de ses débuts, des métamorphoses sculpturales de l'entre-deux-guerres ou du cri pacifiste universel lancé dans <em>Guernica</em>, son œuvre reflète avec acuité les tourments et les espoirs de son époque.</p>
+      <p><strong>Une trajectoire en métamorphose perpétuelle</strong><br>
+      L'évolution de son style est une succession de ruptures décisives :<br>
+      • <em>Périodes Bleue et Rose (1901 – 1906) :</em> Marquée par le deuil de son ami Casagemas, la Période Bleue dépeint la misère, la solitude et les marginaux dans un chromatisme spectral. La Période Rose réintroduit la tendresse et la chaleur à travers le monde forain, les acrobates et les saltimbanques.<br>
+      • <em>La Révolution Cubiste (1907 – 1918) :</em> Le choc des <em>Demoiselles d'Avignon</em> (1907), fécondé par les arts premiers et Cézanne, inaugure le cubisme. Avec Braque, il élabore le cubisme analytique (décomposition facettaire quasi monochrome) puis le cubisme synthétique, créant les premiers collages et papiers collés de l'histoire de l'art.<br>
+      • <em>Classicisme ingresque et convulsion surréaliste (1919 – 1939) :</em> Dans les années 1920, il réinvente un classicisme monumental aux formes sculptées, avant d'explorer les résonances oniriques et pulsionnelles du surréalisme (baigneuses biomorphes, figures déchiquetées). En 1937, le martyre de la ville basque de Guernica lui inspire son chef-d'œuvre monumental contre la barbarie fasciste.<br>
+      • <em>L'après-guerre, Vallauris et l'apothéose de Mougins (1940 – 1973) :</em> Après les sombres années de l'Occupation parisienne (portraits de Dora Maar), il s'établit sur la Côte d'Azur. À Vallauris puis Mougins, il explore la céramique, revisite avec insolence les maîtres anciens (Vélasquez, Manet, Delacroix) et peint avec une urgence juvénile ses mousquetaires et autoportraits ultimes bravant la mort.</p>
+    `,
+    "catalogInfo": {
+      "scientificCorpus": "1 885 peintures répertoriées",
+      "totalEstimated": "1 885 peintures (huiles sur toile, bois et panneau)",
+      "historicalContext": "L'inventaire scientifique de référence mondiale est le légendaire Catalogue raisonné initié par son ami l'éditeur Christian Zervos. Publié par les Éditions « Cahiers d'Art » en 34 volumes entre 1932 et 1978 (puis complété), il recense plus de 16 000 œuvres (dessins, pastels, gouaches, sculptures et peintures). Concernant strictement les peintures (huiles sur toile, sur bois et sur panneau), le corpus scientifique établi dénombre très exactement 1 885 peintures."
+    },
+    "timeline": {
+      "title": "Repères biographiques & Jalons créateurs",
+      "periods": [
+        {
+          "years": "1881 – 1906",
+          "title": "Jeunesse, Bohème parisienne et Périodes Bleue & Rose",
+          "color": "#4a6984",
+          "events": [
+            {
+              "year": "1881",
+              "title": "Naissance à Malaga",
+              "desc": "Fils de Don José Ruiz y Blasco, professeur de dessin. Précocité artistique prodigieuse dès l'enfance en Andalousie puis à La Corogne et Barcelone.",
+              "type": "life",
+              "icon": "🌱"
+            },
+            {
+              "year": "1901",
+              "title": "Première exposition chez Vollard & Période Bleue",
+              "desc": "Expose à Paris chez Ambroise Vollard. Le suicide de Carlos Casagemas plonge Picasso dans le deuil et inaugure sa Période Bleue consacrée aux déshérités.",
+              "type": "artwork",
+              "artworkId": "buste_femme_souriante_1901",
+              "icon": "💙"
+            },
+            {
+              "year": "1904 – 1905",
+              "title": "Le Bateau-Lavoir et la Période Rose",
+              "desc": "S'installe au Bateau-Lavoir à Montmartre, rencontre Fernande Olivier, Apollinaire et Max Jacob. Les tons ocre et rose habillent arlequins et saltimbanques.",
+              "type": "milestone",
+              "icon": "🎪"
+            }
+          ]
+        },
+        {
+          "years": "1907 – 1918",
+          "title": "La Révolution Cubiste & Déconstruction de la perspective",
+          "color": "#8c734b",
+          "events": [
+            {
+              "year": "1907",
+              "title": "Le choc des Demoiselles d'Avignon",
+              "desc": "Achève dans son atelier du Bateau-Lavoir la toile fondatrice de la modernité, intégrant l'influence des sculptures ibériques et des masques africains.",
+              "type": "milestone",
+              "icon": "💥"
+            },
+            {
+              "year": "1911",
+              "title": "Apogée du Cubisme analytique avec Braque",
+              "desc": "En cordée fraternelle avec Braque à Céret, il décompose le réel en facettes géométriques lumineuses jusqu'aux lisières de l'abstraction.",
+              "type": "artwork",
+              "artworkId": "femme_au_violon_1911",
+              "icon": "🎻"
+            },
+            {
+              "year": "1912",
+              "title": "Invention du collage et Cubisme synthétique",
+              "desc": "Crée la première nature morte intégrant de la toile cirée puis les premiers papiers collés, réintroduisant la matière tangible dans le tableau.",
+              "type": "artwork",
+              "artworkId": "oiseaux_morts_1912",
+              "icon": "✂️"
+            }
+          ]
+        },
+        {
+          "years": "1919 – 1939",
+          "title": "Retour à l'ordre, Surréalisme et le cri de Guernica",
+          "color": "#9e4738",
+          "events": [
+            {
+              "year": "1923",
+              "title": "Classicisme monumental et retour à la ligne",
+              "desc": "Poursuivant son dialogue avec les Ballets Russes et Olga Khokhlova, il réinterprète la statuaire antique et le dessin ingresque.",
+              "type": "artwork",
+              "artworkId": "nu_a_mi_corps_1923",
+              "icon": "🏛️"
+            },
+            {
+              "year": "1928",
+              "title": "Métamorphoses biomorphes à Dinard",
+              "desc": "Durant l'été en Bretagne, il peint des corps féminins transformés en architectures organiques et totémiques flirtant avec le surréalisme.",
+              "type": "artwork",
+              "artworkId": "baigneuse_a_dinard_1928",
+              "icon": "🏖️"
+            },
+            {
+              "year": "1937",
+              "title": "Guernica et le Pavillon de la République",
+              "desc": "Bouleversé par le bombardement nazi de la ville basque, il peint en quelques semaines la magistrale toile en grisaille pour l'Exposition universelle.",
+              "type": "artwork",
+              "artworkId": "guernica_1937",
+              "icon": "⚡"
+            }
+          ]
+        },
+        {
+          "years": "1940 – 1973",
+          "title": "Guerre, Les années Vallauris et le testament de Mougins",
+          "color": "#5b6b52",
+          "events": [
+            {
+              "year": "1941 – 1944",
+              "title": "L'Occupation à Paris et les portraits de Dora Maar",
+              "desc": "Confiné dans son atelier des Grands-Augustins sous la surveillance allemande, il traduit l'oppression et l'angoisse dans des visages disloqués.",
+              "type": "artwork",
+              "artworkId": "femme_assise_fauteuil_dora_maar_1941",
+              "icon": "🕯️"
+            },
+            {
+              "year": "1948 – 1955",
+              "title": "Vallauris, la céramique et La Colombe de la paix",
+              "desc": "S'installe dans le Midi, réinvente l'art de la poterie à l'atelier Madoura et diffuse son dessin de colombe comme emblème mondial de paix.",
+              "type": "artwork",
+              "artworkId": "la_poule_1952",
+              "icon": "🕊️"
+            },
+            {
+              "year": "1970 – 1973",
+              "title": "Le cycle des Mousquetaires et mort à Mougins",
+              "desc": "Dans une fièvre créatrice indomptable, il peint ses cavaliers bravaches et autoportraits ultimes au Mas Notre-Dame-de-Vie avant de s'éteindre à 91 ans.",
+              "type": "artwork",
+              "artworkId": "le_mousquetaire_1970",
+              "icon": "⚔️"
+            }
+          ]
+        }
+      ]
+    }
   }
 });
 
@@ -7128,3 +7283,5 @@ window.ARTISTS_REGISTRY["giovanni_paolo_pannini"] = window.ARTISTS_REGISTRY["pan
 window.ARTISTS_REGISTRY["pannini"] = window.ARTISTS_REGISTRY["panini"];
 window.ARTISTS_REGISTRY["parmigianino"] = window.ARTISTS_REGISTRY["parmigiano"];
 window.ARTISTS_REGISTRY["le_parmesan"] = window.ARTISTS_REGISTRY["parmigiano"];
+
+window.ARTISTS_REGISTRY["pablo_picasso"] = window.ARTISTS_REGISTRY["picasso"];
