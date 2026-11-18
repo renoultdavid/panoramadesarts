@@ -9783,6 +9783,293 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
         }
       ]
     }
+  },
+  "rubens": {
+  "id": "rubens",
+  "name": "Rubens Pierre Paul",
+  "sortName": "Rubens Pierre Paul",
+  "dates": "1577 – 1640",
+  "birth": 1577,
+  "death": 1640,
+  "nationality": "Flamand",
+  "movement": "Baroque flamand",
+  "heroImage": "https://lh3.googleusercontent.com/pw/AP1GczM8EpF1OUVXvqKvCQvukh6DE9rCJhj0JlfuEg01Mng8GirTDGRd9ZqaguvvDmLIEUJFkCXv82SUBxJSFjQAYNgqRy76cKDV9m75lFN0pmd_BUlHoDF9MioP1jw3opwXgllK0FHGGO882gAYfC9V53kIsw=w1942-h824-s-no-gm?authuser=0",
+  "bio": "Pierre Paul Rubens (1577 – 1640) est le maître incontesté du Baroque flamand et l’un des artistes les plus polyvalents de son temps. À la fois peintre de cour, décorateur de génie et diplomate de haut rang, il a dirigé à Anvers l'un des ateliers les plus productifs d'Europe, influençant durablement l'art occidental par son sens du mouvement, de la couleur et de la grandeur.\n\nSon genre pictural se définit par l'énergie vitale et la sensualité. Rubens fusionne l'héritage de la Renaissance italienne (le dessin de Michel-Ange et la couleur de Titien) avec le réalisme flamand. Son style se caractérise par des compositions dynamiques en diagonale, des musculatures puissantes, des chairs nacrées et une utilisation magistrale de la lumière. Qu'il traite de mythologie, de religion ou de portraits, son art célèbre la vie dans toute sa luxuriance et son mouvement.\n\nL'évolution de son style témoigne d'une maîtrise technique totale au service de la monarchie et de l'Église : après sa période italienne et la vigueur baroque des années 1610, il atteint le sommet de l'art décoratif avec le cycle Marie de Médicis dans les années 1620, avant de s'épanouir dans un lyrisme tardif poétique et vibrant dans son château de Steen.",
+  "corpus": {
+    "totalOfficial": 1400,
+    "seenCount": 39,
+    "coveragePercent": 2.8,
+    "officialNote": "L'inventaire scientifique de référence mondiale est le monumental Corpus Rubenianum Ludwig Burchard, publié par le Centrum voor de Vlaamse Primitieven et l'Institut Royal du Patrimoine Artistique de Bruxelles. Ce projet encyclopédique en plusieurs dizaines de volumes distingue strictement les œuvres entièrement autographes de celles issues de l'atelier. Le consensus scientifique muséal et universitaire fixe le corpus officiel des peintures strictement de la main de Rubens à environ 1 400 œuvres.",
+    "corpusUrl": "https://www.corpusrubenianum.eu/"
+  },
+  "timeline": {
+    "periods": [
+      {
+        "name": "1600 – 1619 : Le voyage en Italie et la vigueur baroque anversoise",
+        "title": "1600 – 1619 : Le voyage en Italie et la vigueur baroque anversoise",
+        "years": "1600 – 1619",
+        "color": "#c67a32",
+        "summary": "Après huit années décisives en Italie au service du duc de Mantoue, où il absorbe la leçon de Michel-Ange, Titien et Caravage, Rubens regagne Anvers en 1608. Nommé peintre de cour des archiducs Albert et Isabelle, il impose au Nord un baroque monumental, athlétique et flamboyant.",
+        "events": [
+          {
+            "year": "1600 – 1608",
+            "title": "Séjour en Italie et révélation de la Renaissance vénitienne et romaine",
+            "desc": "Au service de Vincent de Gonzague à Mantoue, il voyage à Rome, Venise et Gênes, assimilant la plastique antique, le coloris de Titien et le chiaroscuro caravagesque.",
+            "type": "turning_point",
+            "badge": "FORMATION ITALIENNE",
+            "icon": "🏛️"
+          },
+          {
+            "year": "1602 – 1605",
+            "title": "Hercule et Omphale (Musée du Louvre)",
+            "desc": "Peinte à Rome pour un commanditaire génois, cette toile illustre l'inversion carnavalesque des rôles où le héros herculéen file la laine sous le regard moqueur d'Omphale.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE ITALIEN",
+            "icon": "🦁",
+            "artworkId": "peinture_rubens_hercule_et_omphale_louvre_1602"
+          },
+          {
+            "year": "1609",
+            "title": "Nomination comme peintre de cour des archiducs Albert et Isabelle",
+            "desc": "Établi à Anvers, il épouse Isabelle Brant et obtient le privilège exceptionnel de résider hors de la cour de Bruxelles tout en bénéficiant de franchises fiscales.",
+            "type": "turning_point",
+            "badge": "PEINTRE DE COUR",
+            "icon": "👑"
+          },
+          {
+            "year": "1610 – 1614",
+            "title": "Les grands retables anversois : L'Érection de la Croix et La Descente de Croix",
+            "desc": "Manifestes éclatants de la Contre-Réforme catholique à la cathédrale Notre-Dame d'Anvers, déployant une anatomie herculéenne et une diagonale pathétique colossale.",
+            "type": "masterpiece",
+            "badge": "TRIOMPHE DU BAROQUE",
+            "icon": "✝️"
+          },
+          {
+            "year": "1612",
+            "title": "Deux enfants endormis (Tokyo, National Museum of Western Art)",
+            "desc": "Étude intime et touchante sur le vif, traditionnellement identifiée aux fils de l'artiste Albert et Nicolas, peinte sur panneau avec une liberté de touche remarquable.",
+            "type": "masterpiece",
+            "badge": "INTIMITÉ FAMILIALE",
+            "icon": "👶",
+            "artworkId": "peinture_rubens_deux_enfants_endormis_tokyo_1612"
+          },
+          {
+            "year": "1614 – 1618",
+            "title": "Paysage avec les ruines du mont Palatin à Rome (Musée du Louvre)",
+            "desc": "Méditation nostalgique sur la grandeur déchue de la Ville éternelle, où la végétation luxuriante reconquiert les voûtes cyclopéennes des palais impériaux.",
+            "type": "masterpiece",
+            "badge": "MÉDITATION ANTIQUE",
+            "icon": "🏛️",
+            "artworkId": "peinture_rubens_paysage_ruines_mont_palatin_louvre_1614"
+          },
+          {
+            "year": "1615",
+            "title": "Ixion trompé par Junon (Musée du Louvre)",
+            "desc": "Allégorie de la démesure et de l'illusion des sens : Ixion étreint la nuée feinte créée par Jupiter sous le regard triomphal de la reine des dieux.",
+            "type": "masterpiece",
+            "badge": "MYTHOLOGIE MORALISÉE",
+            "icon": "🦚",
+            "artworkId": "peinture_rubens_ixion_roi_des_lapithes_trompe_par_junon_louvre_1615"
+          },
+          {
+            "year": "1615",
+            "title": "L'Adoration des Bergers (Musée des Beaux-Arts de Rouen)",
+            "desc": "Clair-obscur magistral où l'Enfant Jésus devient l'unique source de lumière incandescente, illuminant les visages dévots des paysans et les ailes d'anges.",
+            "type": "masterpiece",
+            "badge": "CLAIR-OBSCUR SACRÉ",
+            "icon": "🌟",
+            "artworkId": "peinture_rubens_adoration_des_bergers_rouen_1615"
+          },
+          {
+            "year": "1615",
+            "title": "Portrait du peintre Frans Francken l'Ancien (Musée Fabre, Montpellier)",
+            "desc": "Hommage vibrant à son confrère peintre d'histoire de la guilde de Saint-Luc, alliant austérité de la fraise flamande et vivacité psychologique du regard.",
+            "type": "masterpiece",
+            "badge": "PORTRAIT ANVERSOIS",
+            "icon": "🎨",
+            "artworkId": "peinture_rubens_portrait_peintre_frans_francken_ancien_montpellier_1615"
+          },
+          {
+            "year": "1616",
+            "title": "La Chasse aux tigres (Musée des Beaux-Arts de Rennes)",
+            "desc": "Commandée par le duc Maximilien de Bavière pour son château de Schleissheim : furieux corps-à-corps en spirale entre cavaliers orientaux, fauves et chevaux terrifiés.",
+            "type": "masterpiece",
+            "badge": "CHOC BAROQUE",
+            "icon": "🐅",
+            "artworkId": "peinture_rubens_la_chasse_aux_tigres_rennes_1616"
+          }
+        ]
+      },
+      {
+        "name": "1620 – 1630 : Le cycle Marie de Médicis, la diplomatie européenne et la pleine maturité",
+        "title": "1620 – 1630 : Le cycle Marie de Médicis, la diplomatie européenne et la pleine maturité",
+        "years": "1620 – 1630",
+        "color": "#4a7c59",
+        "summary": "Dans les années 1620, Rubens atteint le zénith de son prestige international. Marie de Médicis lui confie la monumentale Galerie du Luxembourg à Paris, qu'il transforme en le plus grandiose ensemble allégorique de l'art européen. Parallèlement, il œuvre comme négociateur et diplomate pour sceller la paix entre l'Espagne et l'Angleterre.",
+        "events": [
+          {
+            "year": "1620 – 1623",
+            "title": "Thomyris fait plonger la tête de Cyrus dans le sang (Musée du Louvre)",
+            "desc": "Grand tableau d'histoire inspiré d'Hérodote, illustrant le châtiment impitoyable de la reine scythe infligé au conquérant perse insatiable de conquêtes.",
+            "type": "masterpiece",
+            "badge": "HISTOIRE SACRÉE & PROFANE",
+            "icon": "⚔️",
+            "artworkId": "peinture_rubens_thomyris_reine_scythes_tete_cyrus_sang_louvre_1620"
+          },
+          {
+            "year": "1620",
+            "title": "Allégorie de l'Autriche catholique (Musée Fabre, Montpellier)",
+            "desc": "Modello sur panneau commandé à l'aube de la guerre de Trente Ans, figurant la foi habsbourgeoise défendue par la force de Minerve contre l'hérésie réformée.",
+            "type": "masterpiece",
+            "badge": "MODELLO POLITIQUE",
+            "icon": "🛡️",
+            "artworkId": "peinture_rubens_allegorie_autriche_catholique_attaquee_princes_protestants_montpellier_1620"
+          },
+          {
+            "year": "1621 – 1625",
+            "title": "La Galerie Médicis au Palais du Luxembourg (Musée du Louvre)",
+            "desc": "Vingt-quatre toiles colossales achevées pour le mariage d'Henriette de France, fusionnant histoire contemporaine et théophanie mythologique gréco-romaine.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE MONUMENTAL",
+            "icon": "👑",
+            "artworkId": "peinture_rubens_debarquement_reine_marseille_louvre_1622"
+          },
+          {
+            "year": "1622 – 1625",
+            "title": "Les Épousailles de la reine & Le Couronnement à Saint-Denis",
+            "desc": "Évocations souveraines des deux temps forts rituels de la souveraine, unissant le faste des brocarts florentins et l'onction monarchique française.",
+            "type": "masterpiece",
+            "badge": "CYCLE DU LUXEMBOURG",
+            "icon": "⚜️",
+            "artworkId": "peinture_rubens_couronnement_reine_abbaye_saint_denis_louvre_1622"
+          },
+          {
+            "year": "1622 – 1625",
+            "title": "L'Apothéose de Henri IV et La Félicité de la Régence",
+            "desc": "Sommet de rhétorique visuelle où le Bien-Aimé s'élève parmi les dieux tandis que la Reine mère assume la conduite du navire de l'État dans l'Abondance.",
+            "type": "masterpiece",
+            "badge": "RHÉTORIQUE VISUELLE",
+            "icon": "✨",
+            "artworkId": "peinture_rubens_apotheose_henri_iv_proclamation_regence_louvre_1622"
+          },
+          {
+            "year": "1626 – 1627",
+            "title": "L'Adoration des Mages (Musée du Louvre)",
+            "desc": "Somptueuse composition commandée pour le couvent des Annonciades d'Anvers, remarquable par la cascade de pourpre, d'or et d'encens qui entoure la Vierge à l'Enfant.",
+            "type": "masterpiece",
+            "badge": "FASTES D'ANVERS",
+            "icon": "🐪",
+            "artworkId": "peinture_rubens_adoration_des_mages_louvre_1626"
+          },
+          {
+            "year": "1628 – 1630",
+            "title": "Missions diplomatiques à Madrid et Londres, anoblissement par Charles Ier",
+            "desc": "Négocie avec succès la paix anglo-espagnole. À Madrid, il se lie d'amitié avec le jeune Velázquez et copie les chefs-d'œuvre de Titien de la collection royale.",
+            "type": "turning_point",
+            "badge": "PEINTRE & DIPLOMATE",
+            "icon": "📜"
+          },
+          {
+            "year": "1630",
+            "title": "L'Abondance - Abundantia (Modello)",
+            "desc": "Étude à l'huile d'une légèreté vaporeuse pour les décors plafonnants de la Banqueting House de Whitehall, allégorie de la prospérité féconde de la paix.",
+            "type": "masterpiece",
+            "badge": "ALLÉGORIE DE WHITEHALL",
+            "icon": "🌾",
+            "artworkId": "peinture_rubens_l_abondance_abundantia_1630"
+          }
+        ]
+      },
+      {
+        "name": "1631 – 1640 : Le château de Steen, la félicité domestique et le lyrisme tardif",
+        "title": "1631 – 1640 : Le château de Steen, la félicité domestique et le lyrisme tardif",
+        "years": "1631 – 1640",
+        "color": "#8b4513",
+        "summary": "À la fin de sa vie, retiré dans sa propriété champêtre de Het Steen à Elewijt avec sa jeune épouse Hélène Fourment, Rubens peint pour son propre plaisir. Sa palette s'allège, sa touche devient aérienne et vibrante, célébrant l'amour conjugal, la fertilité de la terre et des paysages crépusculaires qui annoncent Watteau et le siècle des Lumières.",
+        "events": [
+          {
+            "year": "1630",
+            "title": "Mariage avec Hélène Fourment et renouveau créateur",
+            "desc": "À 53 ans, il épouse la jeune Hélène Fourment âgée de seize ans, qui devient son inspiratrice suprême et l'incarnation de la beauté féminine radieuse.",
+            "type": "turning_point",
+            "badge": "MUSE & INSPIRATION",
+            "icon": "💍"
+          },
+          {
+            "year": "1633 – 1634",
+            "title": "L'Adoration des Mages (King's College Chapel, Cambridge)",
+            "desc": "Retable monumental de plus de quatre mètres de haut peint pour le couvent des Dames blanches de Louvain, chef-d'œuvre de dynamisme ascensionnel et de coloris vénitien.",
+            "type": "masterpiece",
+            "badge": "RETABLE GÉANT",
+            "icon": "👑",
+            "artworkId": "peinture_rubens_adoration_des_mages_kings_college_cambridge_1633"
+          },
+          {
+            "year": "1634",
+            "title": "Le Triomphe de Judas Macchabée (Musée d'Arts de Nantes)",
+            "desc": "Commandé par la cathédrale de Tournai, ce retable monumental illustre l'offrande sacrificielle pour le repos des guerriers tombés au combat.",
+            "type": "masterpiece",
+            "badge": "ÉPOPÉE BIBLIQUE",
+            "icon": "⚔️",
+            "artworkId": "peinture_rubens_triomphe_de_judas_macchabee_nantes_1634"
+          },
+          {
+            "year": "1635",
+            "title": "Achat du château seigneurial de Het Steen à Elewijt",
+            "desc": "Rubens acquiert ce domaine du Brabant et passe ses étés à peindre des paysages champêtres d'une liberté absolue, libéré de toute commande officielle.",
+            "type": "turning_point",
+            "badge": "SEIGNEUR DE STEEN",
+            "icon": "🏰"
+          },
+          {
+            "year": "1635",
+            "title": "La Mort de Didon, reine de Carthage (Musée du Louvre)",
+            "desc": "Tragédie virgilienne d'un pathétique bouleversant : Didon abandonnée sur le bûcher transperce sa poitrine, peinte avec une sensualité charnelle poignante.",
+            "type": "masterpiece",
+            "badge": "TRAGÉDIE ANTIQUE",
+            "icon": "🗡️",
+            "artworkId": "peinture_rubens_mort_de_didon_reine_carthage_louvre_1635"
+          },
+          {
+            "year": "1635 – 1637",
+            "title": "Tournoi près des fossés du château de Steen (Musée du Louvre)",
+            "desc": "Joute chevaleresque médiévale brossée avec une fougue étourdissante dans un paysage brabançon mordoré baigné d'une atmosphère crépusculaire.",
+            "type": "masterpiece",
+            "badge": "FOUCUE CHEVALERESQUE",
+            "icon": "🛡️",
+            "artworkId": "peinture_rubens_tournoi_fosses_chateau_de_steen_louvre_1635"
+          },
+          {
+            "year": "1635 – 1640",
+            "title": "Paysage du soir à l'oiseleur, avec pleine lune (Musée du Louvre)",
+            "desc": "Morceau de pure poésie atmosphérique où le disque d'argent de la lune se reflète dans les étangs sombres d'Elewijt, annonçant le paysage romantique.",
+            "type": "masterpiece",
+            "badge": "POÉSIE NOCTURNE",
+            "icon": "🌕",
+            "artworkId": "peinture_rubens_paysage_soir_oiseleur_pleine_lune_louvre_1635"
+          },
+          {
+            "year": "1639",
+            "title": "Hélène Fourment au carrosse (Musée du Louvre)",
+            "desc": "Portrait d'apparat intime où sa jeune épouse s'apprête à monter dans un carrosse doré devant son manoir, symbole d'une noblesse heureuse et comblée.",
+            "type": "masterpiece",
+            "badge": "FÉLICITÉ CONJUGALE",
+            "icon": "🐎",
+            "artworkId": "peinture_rubens_helene_fourment_au_carrosse_louvre_1639"
+          },
+          {
+            "year": "1639",
+            "title": "Les trois Grâces (Musée du Prado, Madrid)",
+            "desc": "Testament esthétique conservé dans sa collection personnelle jusqu'à sa mort : ode panthéiste aux chairs opulentes et à l'harmonieuse pulsation du vivant.",
+            "type": "masterpiece",
+            "badge": "TESTAMENT ÉTERNEL",
+            "icon": "🌸",
+            "artworkId": "peinture_rubens_les_trois_graces_madrid_prado_1639"
+          }
+        ]
+      }
+    ]
+  }
   }
 });
 
@@ -9870,3 +10157,8 @@ window.ARTISTS_REGISTRY["henri_rousseau"] = window.ARTISTS_REGISTRY["rousseau"];
 window.ARTISTS_REGISTRY["le_douanier_rousseau"] = window.ARTISTS_REGISTRY["rousseau"];
 window.ARTISTS_REGISTRY["douanier_rousseau"] = window.ARTISTS_REGISTRY["rousseau"];
 
+
+
+window.ARTISTS_REGISTRY["pierre_paul_rubens"] = window.ARTISTS_REGISTRY["rubens"];
+window.ARTISTS_REGISTRY["peter_paul_rubens"] = window.ARTISTS_REGISTRY["rubens"];
+window.ARTISTS_REGISTRY["pietro_paolo_rubens"] = window.ARTISTS_REGISTRY["rubens"];
