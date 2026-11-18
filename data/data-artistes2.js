@@ -6355,11 +6355,22 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       • <em>L'exploration des mythes et de la Femme (années 1870) :</em> C'est l'époque de ses compositions les plus célèbres sur Salomé. Son style devient plus complexe, avec une accumulation de détails décoratifs et une lumière surnaturelle. Les figures féminines y sont représentées comme des idoles fascinantes et fatales.<br>
       • <em>Le testament mystique et l'abstraction (fin de carrière) :</em> Dans ses dernières œuvres monumentales comme <em>Jupiter et Sémélé</em>, il pousse l'ornementation à son paroxysme. Parallèlement, il réalise des ébauches d'une liberté totale, presque abstraites, où la couleur pure devient le seul vecteur de l'émotion.</p>
     `,
-    "catalogInfo": {
-      "scientificCorpus": "473 œuvres répertoriées",
-      "totalEstimated": "473 huiles et grandes aquarelles achevées",
-      "historicalContext": "L'inventaire scientifique de référence mondiale est le Catalogue raisonné de l'œuvre achevé établi par le grand historien de l'art Pierre-Louis Mathieu (publié initialement en 1976 puis révisé en 1998). En écartant les quelque 4 800 dessins, calques et aquarelles préparatoires conservés dans son ancien atelier parisien pour ne retenir que les huiles sur toile et sur panneau (ainsi que ses très grandes aquarelles de Salon qu'il considérait comme des œuvres complètes), ce catalogue exhaustif fixe le corpus officiel de ses peintures achevées à très exactement 473 œuvres."
-    },
+    "corpus": {
+      "total": 473,
+      "paintingsCount": 473,
+      "details": [
+            {
+                  "label": "Peintures achevées & huiles de Salon",
+                  "count": 473,
+                  "icon": "🎨",
+                  "color": "#d4af37"
+            }
+      ],
+      "sourceTitle": "Catalogue raisonné Pierre-Louis Mathieu (1976/1998)",
+      "sourceNotes": "L'inventaire scientifique de référence mondiale est le Catalogue raisonné de l'œuvre achevé établi par Pierre-Louis Mathieu (1976, révisé en 1998). En écartant les quelque 4 800 dessins, calques et aquarelles préparatoires pour ne retenir que les huiles sur toile et sur panneau (ainsi que les très grandes aquarelles de Salon), ce travail d'une précision clinique fixe le corpus officiel de ses peintures achevées à très exactement 473 œuvres."
+},
+    "totalOeuvresEstimees": "environ 473 peintures achevées",
+    "oeuvresConsensusNotice": "L'inventaire scientifique de référence mondiale est le Catalogue raisonné de l'œuvre achevé établi par Pierre-Louis Mathieu (1976, révisé en 1998). En écartant les 4 800 dessins et aquarelles d'atelier pour ne retenir que les toiles achevées, le corpus officiel de ses peintures est fixé à 473 œuvres.",
     "timeline": {
       "title": "Repères biographiques & Jalons créateurs",
       "periods": [
@@ -6478,11 +6489,22 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       <p><strong>Du réalisme poétique vers la vibration pure des formes</strong><br>
       L'évolution de son art marque un passage progressif d'un réalisme influencé par Corot vers une dissolution de plus en plus marquée des formes. Au fil des années, sa palette s'éclaircit et ses coups de pinceau deviennent plus larges et tourbillonnants, intégrant souvent le blanc du support comme une source de lumière en soi. Vers la fin de sa vie, son travail gagne en fluidité, presque jusqu'à l'abstraction, préfigurant certaines recherches de l'art moderne. Malgré sa disparition précoce, elle laisse derrière elle une œuvre qui a su transformer la représentation du quotidien féminin en une exploration poétique de la modernité et de la sensation pure.</p>
     `,
-    "catalogInfo": {
-      "scientificCorpus": "423 œuvres répertoriées",
-      "totalEstimated": "423 peintures à l'huile",
-      "historicalContext": "L'inventaire scientifique de référence mondiale est le Catalogue raisonné de l'œuvre peint établi en 1997 par Alain Clairet, Delphine Montalant et Yves Rouart (qui vient actualiser et compléter l'historique catalogue Bataille-Wildenstein de 1961). En excluant strictement son œuvre graphique sur papier, ce travail d'une précision clinique fixe aujourd'hui le corpus officiel des peintures (huiles sur toile et sur panneau) de Berthe Morisot à très exactement 423 œuvres."
-    },
+    "corpus": {
+      "total": 423,
+      "paintingsCount": 423,
+      "details": [
+            {
+                  "label": "Peintures (huiles sur toile et panneau)",
+                  "count": 423,
+                  "icon": "🎨",
+                  "color": "#d4af37"
+            }
+      ],
+      "sourceTitle": "Catalogue raisonné Clairet, Montalant & Rouart (1997)",
+      "sourceNotes": "L'inventaire scientifique de référence mondiale est le Catalogue raisonné de l'œuvre peint établi en 1997 par Alain Clairet, Delphine Montalant et Yves Rouart (actualisant le catalogue Bataille-Wildenstein de 1961). En excluant strictement son œuvre graphique sur papier, ce travail fixe le corpus officiel des peintures (huiles sur toile et panneau) de Berthe Morisot à très exactement 423 œuvres."
+},
+    "totalOeuvresEstimees": "423 peintures à l'huile",
+    "oeuvresConsensusNotice": "Catalogue raisonné de l'œuvre peint établi en 1997 par Alain Clairet, Delphine Montalant et Yves Rouart (actualisant le catalogue historique Bataille-Wildenstein). Fixe le corpus officiel de ses peintures à très exactement 423 œuvres.",
     "timeline": {
       "title": "Repères biographiques & Jalons créateurs",
       "periods": [
@@ -6610,11 +6632,22 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       • <em>Le choc parisien, Berlin et la Frise de la Vie (années 1890 – 1908) :</em> Après avoir découvert Gauguin, Van Gogh et Toulouse-Lautrec à Paris, il s'installe à Berlin où son exposition de 1892 fait scandale. Il élabore son grand cycle thématique, la <em>Frise de la Vie</em>, méditation universelle sur l'amour, l'angoisse et la mort. C'est la période de ses chefs-d'œuvre absolus : <em>Le Cri</em> (1893), <em>Madone</em>, <em>Vampire</em>, <em>Le Sommeil</em> et <em>Mélancolie</em>, où la nature entière semble entrer en résonance avec la terreur psychologique de l'individu.<br>
       • <em>La crise nerveuse, le retour en Norvège et la lumière (après 1909) :</em> Après une grave crise dépressive soignée à Copenhague en 1908, il rentre définitivement en Norvège et s'installe à Ekely. Son style s'apaise : sa touche devient plus fluide et énergique, sa palette s'éclaircit sous la lumière nordique (fresques de l'Aula de l'université d'Oslo avec <em>Le Soleil</em>). Il continue jusqu'à sa mort d'explorer le passage du temps à travers une poignante série d'autoportraits vieillissants.</p>
     `,
-    "catalogInfo": {
-      "scientificCorpus": "1 789 œuvres répertoriées",
-      "totalEstimated": "1 789 peintures officielles",
-      "historicalContext": "L'inventaire scientifique absolu et définitif est le Catalogue Raisonné de ses peintures, publié en 2008 en quatre volumes monumentaux par l'historienne de l'art norvégienne Gerd Woll (ancienne conservatrice du musée Munch). En purgeant le catalogue de ses estampes, de ses dessins et de ses très nombreuses photographies expérimentales, ce travail d'une exhaustivité clinique fixe le corpus officiel de ses peintures (huiles, tempera et pastels sur toile ou carton assimilés à des tableaux) à très exactement 1 789 œuvres."
-    },
+    "corpus": {
+      "total": 1789,
+      "paintingsCount": 1789,
+      "details": [
+            {
+                  "label": "Peintures (huiles, tempera et pastels)",
+                  "count": 1789,
+                  "icon": "🎨",
+                  "color": "#d4af37"
+            }
+      ],
+      "sourceTitle": "Catalogue Raisonné Gerd Woll / Munch Museet (2008)",
+      "sourceNotes": "L'inventaire scientifique absolu et définitif est le Catalogue Raisonné de ses peintures, publié en 2008 en quatre volumes monumentaux par Gerd Woll (Munch Museet). En purgeant le catalogue de ses estampes, dessins et photographies expérimentales, ce travail fixe le corpus officiel de ses peintures à très exactement 1 789 œuvres."
+},
+    "totalOeuvresEstimees": "1 789 peintures officielles",
+    "oeuvresConsensusNotice": "Catalogue raisonné en 4 volumes par Gerd Woll (2008, Munch Museet). Fixe le corpus officiel de ses peintures autographes à très exactement 1 789 œuvres.",
     "timeline": {
       "title": "Repères biographiques & Jalons créateurs",
       "periods": [
@@ -6748,11 +6781,22 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       • <em>La maturité et la fondation de l'Académie (années 1650 – 1660) :</em> Il s'en détache rapidement pour adopter une palette plus claire et des transitions chromatiques extrêmement fondues. Il conçoit d'immenses cycles dévotionnels pour les franciscains, les augustins et les capucins.<br>
       • <em>L'apothéose vaporeuse (années 1670 – 1682) :</em> Les formes semblent se dissoudre dans une atmosphère dorée et éthérée, créant une impression de légèreté et de joie mystique. Ce passage de la précision tactile à l'effusion lumineuse a fait de lui l'un des précurseurs de la sensibilité rococo du XVIIIe siècle.</p>
     `,
-    "catalogInfo": {
-      "scientificCorpus": "400 œuvres répertoriées",
-      "totalEstimated": "400 peintures autographes",
-      "historicalContext": "L'inventaire scientifique de référence mondiale absolue est le monumental Catálogo razonado de pinturas publié en 2010 par le grand spécialiste espagnol Enrique Valdivieso (qui vient moderniser et corriger l'ancien catalogue historique de Diego Angulo Íñiguez de 1981). En purgeant impitoyablement les répliques d'atelier et les tableaux autrefois qualifiés 'd'entourage', ce travail d'une exhaustivité clinique fixe le corpus des peintures autographes de Murillo à très exactement 400 œuvres."
-    },
+    "corpus": {
+      "total": 400,
+      "paintingsCount": 400,
+      "details": [
+            {
+                  "label": "Peintures autographes",
+                  "count": 400,
+                  "icon": "🎨",
+                  "color": "#d4af37"
+            }
+      ],
+      "sourceTitle": "Catálogo razonado de pinturas Enrique Valdivieso (2010)",
+      "sourceNotes": "L'inventaire scientifique de référence mondiale absolue est le monumental Catálogo razonado de pinturas publié en 2010 par Enrique Valdivieso (modernisant le catalogue historique de Diego Angulo Íñiguez de 1981). En purgeant impitoyablement les répliques d'atelier et tableaux d'entourage, ce travail fixe le corpus des peintures autographes de Murillo à très exactement 400 œuvres."
+},
+    "totalOeuvresEstimees": "environ 400 peintures autographes",
+    "oeuvresConsensusNotice": "Catálogo razonado de pinturas d'Enrique Valdivieso (2010), modernisant le travail de Diego Angulo Íñiguez. Fixe le corpus des peintures autographes à très exactement 400 œuvres.",
     "timeline": {
       "title": "Repères biographiques & Jalons créateurs",
       "periods": [
@@ -6875,11 +6919,22 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       • <em>L'apogée des fêtes diplomatiques et des vues de Rome (années 1730 – 1740) :</em> Devenu le peintre officiel des grands événements de la papauté et des ambassades (mariages princiers, réceptions d'ambassadeurs, cérémonies à la basilique Saint-Pierre), il peint des toiles foisonnantes où l'espace grandiose des places romaines sert d'écrin à une foule chamarrée. Parallèlement, il popularise le capriccio, associant sur une même toile le Colisée, le Panthéon et la statue de l'Hercule Farnèse dans une nature idéalisée.<br>
       • <em>Les galeries encyclopédiques et la transmission (années 1750 – 1765) :</em> À la demande du duc de Choiseul, il réalise ses chefs-d'œuvre les plus virtuoses : de gigantesques galeries imaginaires tapissées de reproductions miniatures de ses propres toiles (Galerie de vues de la Rome antique et Galerie de vues de la Rome moderne). Enseignant à l'Académie de France à Rome, il forme toute une génération d'architectes et de peintres français, transmettant sa passion pour la poésie des ruines à son plus brillant élève, Hubert Robert.</p>
     `,
-    "catalogInfo": {
-      "scientificCorpus": "Environ 500 œuvres répertoriées",
-      "totalEstimated": "500 peintures autographes",
-      "historicalContext": "L'inventaire scientifique absolu et définitif est le monumental Catalogue raisonné de l'historien de l'art Ferdinando Arisi (Gian Paolo Panini e i fasti della Roma del '700, 1986). En purgeant le catalogue des innombrables copies d'atelier, ce travail d'une précision clinique fixe le corpus officiel de ses peintures autographes (vedute, capricci et scènes de fêtes) à très exactement environ 500 œuvres (le catalogue s'arrêtant légèrement au-delà du numéro 500)."
-    },
+    "corpus": {
+      "total": 500,
+      "paintingsCount": 500,
+      "details": [
+            {
+                  "label": "Peintures autographes (vedute, capricci, fêtes)",
+                  "count": 500,
+                  "icon": "🎨",
+                  "color": "#d4af37"
+            }
+      ],
+      "sourceTitle": "Catalogue raisonné Ferdinando Arisi (1986)",
+      "sourceNotes": "L'inventaire scientifique absolu et définitif est le monumental Catalogue raisonné de l'historien de l'art Ferdinando Arisi (Gian Paolo Panini e i fasti della Roma del '700, 1986). En purgeant le catalogue des innombrables copies d'atelier, ce travail d'une précision clinique fixe le corpus officiel de ses peintures autographes (vedute, capricci et scènes de fêtes) à très exactement environ 500 œuvres."
+},
+    "totalOeuvresEstimees": "environ 500 peintures autographes",
+    "oeuvresConsensusNotice": "Catalogue raisonné de Ferdinando Arisi (1986). En purgeant les copies d'atelier, fixe le corpus officiel de ses peintures autographes à environ 500 œuvres.",
     "timeline": {
       "title": "Repères biographiques & Jalons créateurs",
       "periods": [
@@ -6992,11 +7047,22 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       • <em>Le séjour romain et le traumatisme du Sac (1524 – 1527) :</em> À Rome, la critique le salue comme « l'âme de Raphaël réincarnée ». Il y peint <em>La Vision de saint Jérôme</em>, où les figures gagnent en monumentalité tout en affirmant des poses contournées et une tension nerveuse. La légende veut qu'il peignait cette toile avec une telle concentration que les soldats impériaux pénétrant dans son atelier lors du Sac de Rome en 1527 en furent pétrifiés d'admiration.<br>
       • <em>Bologne, le retour à Parme et la quête alchimique (1527 – 1540) :</em> Réfugié à Bologne puis de retour à Parme, il réalise des portraits inoubliables (<em>Antea</em>) et commence son chef-d'œuvre ultime, <em>La Vierge au long cou</em>. Les figures y atteignent une perfection stylisée et glacée, avec un Enfant Jésus au sommeil prémonitoire et une mystérieuse colonne sans chapiteau. Ses dernières années sont assombries par une passion obsessionnelle pour l'alchimie, qui lui vaut des retards dans le décor de l'église de la Steccata, des poursuites judiciaires et une mort prématurée à seulement 37 ans.</p>
     `,
-    "catalogInfo": {
-      "scientificCorpus": "50 à 60 œuvres répertoriées",
-      "totalEstimated": "50 à 60 peintures autographes",
-      "historicalContext": "L'inventaire scientifique de référence mondiale s'appuie sur le Catalogo completo dei dipinti établi par l'historien de l'art italien Mario Di Giampaolo (1991), magistralement complété par les monographies modernes de David Ekserdjian et Mary Vaccaro. En écartant son impressionnante production graphique (les centaines de dessins et d'estampes qui ont fait sa renommée à travers l'Europe) pour ne retenir que ses fresques, ses huiles sur panneau et sur toile, le consensus scientifique fixe le corpus de ses peintures autographes à environ 50 à 60 œuvres."
-    },
+    "corpus": {
+      "total": 55,
+      "paintingsCount": 55,
+      "details": [
+            {
+                  "label": "Peintures autographes (fresques, panneaux, toiles)",
+                  "count": 55,
+                  "icon": "🎨",
+                  "color": "#d4af37"
+            }
+      ],
+      "sourceTitle": "Catalogo completo dei dipinti Mario Di Giampaolo (1991)",
+      "sourceNotes": "L'inventaire scientifique de référence mondiale s'appuie sur le Catalogo completo dei dipinti établi par Mario Di Giampaolo (1991), magistralement complété par les monographies de David Ekserdjian et Mary Vaccaro. En écartant la production graphique pour ne retenir que fresques et huiles, le consensus fixe le corpus officiel à environ 50 à 60 œuvres."
+},
+    "totalOeuvresEstimees": "environ 50 à 60 peintures autographes",
+    "oeuvresConsensusNotice": "Catalogo completo dei dipinti de Mario Di Giampaolo (1991), complété par David Ekserdjian et Mary Vaccaro. Corpus établi à environ 50 à 60 peintures autographes.",
     "timeline": {
       "title": "Repères biographiques & Jalons créateurs",
       "periods": [
@@ -7110,11 +7176,22 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       • <em>Classicisme ingresque et convulsion surréaliste (1919 – 1939) :</em> Dans les années 1920, il réinvente un classicisme monumental aux formes sculptées, avant d'explorer les résonances oniriques et pulsionnelles du surréalisme (baigneuses biomorphes, figures déchiquetées). En 1937, le martyre de la ville basque de Guernica lui inspire son chef-d'œuvre monumental contre la barbarie fasciste.<br>
       • <em>L'après-guerre, Vallauris et l'apothéose de Mougins (1940 – 1973) :</em> Après les sombres années de l'Occupation parisienne (portraits de Dora Maar), il s'établit sur la Côte d'Azur. À Vallauris puis Mougins, il explore la céramique, revisite avec insolence les maîtres anciens (Vélasquez, Manet, Delacroix) et peint avec une urgence juvénile ses mousquetaires et autoportraits ultimes bravant la mort.</p>
     `,
-    "catalogInfo": {
-      "scientificCorpus": "1 885 peintures répertoriées",
-      "totalEstimated": "1 885 peintures (huiles sur toile, bois et panneau)",
-      "historicalContext": "L'inventaire scientifique de référence mondiale est le légendaire Catalogue raisonné initié par son ami l'éditeur Christian Zervos. Publié par les Éditions « Cahiers d'Art » en 34 volumes entre 1932 et 1978 (puis complété), il recense plus de 16 000 œuvres (dessins, pastels, gouaches, sculptures et peintures). Concernant strictement les peintures (huiles sur toile, sur bois et sur panneau), le corpus scientifique établi dénombre très exactement 1 885 peintures."
-    },
+    "corpus": {
+      "total": 1885,
+      "paintingsCount": 1885,
+      "details": [
+            {
+                  "label": "Tableaux (huiles sur toile, bois et panneau)",
+                  "count": 1885,
+                  "icon": "🎨",
+                  "color": "#d4af37"
+            }
+      ],
+      "sourceTitle": "Catalogue raisonné Christian Zervos / Cahiers d'Art",
+      "sourceNotes": "L'inventaire scientifique de référence mondiale est le légendaire Catalogue raisonné initié par Christian Zervos (Cahiers d'Art, 34 volumes, plus de 16 000 œuvres). En appliquant une purge stricte pour écarter ses innombrables dessins, pastels, gouaches sur papier et carnets, le consensus scientifique fixe le corpus officiel de ses stricts tableaux à très exactement 1 885 peintures."
+},
+    "totalOeuvresEstimees": "1 885 peintures (huiles sur toile et bois)",
+    "oeuvresConsensusNotice": "Catalogue raisonné de Christian Zervos (Cahiers d'Art, 34 volumes). En isolant les huiles sur toile et panneau, le consensus scientifique fixe le corpus officiel des tableaux à très exactement 1 885 peintures.",
     "timeline": {
       "title": "Repères biographiques & Jalons créateurs",
       "periods": [
@@ -7264,11 +7341,22 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       • <em>Le faste pontifical des appartements Borgia (1492 – 1494) :</em> Au Vatican, le pape Alexandre VI Borgia lui confie la décoration complète de ses appartements privés. Pinturicchio y déploie un faste sans précédent, mêlant théologie chrétienne, mythes égyptiens (le taureau Apis, emblème des Borgia) et motifs de « grotesques » inspirés directement de la Domus Aurea antique qu'il explore parmi les premiers à Rome.<br>
       • <em>Le chef-d'œuvre de la bibliothèque Piccolomini (1502 – 1508) :</em> Commandé par le cardinal Francesco Piccolomini (futur Pie III) pour la cathédrale de Sienne, ce cycle retrace la vie du pape humaniste Pie II en dix grandes scènes lumineuses. Pinturicchio y collabore notamment avec le tout jeune Raphaël pour certains dessins préparatoires. L'état de conservation exceptionnel des fresques en fait le témoignage le plus éclatant de son génie narratif et de son chromatisme chatoyant.</p>
     `,
-    "catalogInfo": {
-      "scientificCorpus": "environ 65 œuvres répertoriées",
-      "totalEstimated": "environ 65 peintures et cycles de fresques autographes",
-      "historicalContext": "L'inventaire scientifique de référence s'appuie sur la monographie fondamentale d'Enzo Carli (1960), magistralement actualisée par le catalogue complet de Pietro Scarpellini et Maria Rita Silvestrelli (Pintoricchio, 2003). En regroupant les fresques monumentales par cycles (Vatican, Spello, Sienne) et en isolant ses retables et ses panneaux de dévotion autographes (qui sont infiniment moins nombreux que ceux de son compatriote Le Pérugin), le consensus scientifique fixe le corpus officiel de ses peintures à environ 65 œuvres."
-    },
+    "corpus": {
+      "total": 65,
+      "paintingsCount": 65,
+      "details": [
+            {
+                  "label": "Cycles de fresques & retables autographes",
+                  "count": 65,
+                  "icon": "🎨",
+                  "color": "#d4af37"
+            }
+      ],
+      "sourceTitle": "Catalogue Pietro Scarpellini & Maria Rita Silvestrelli (2003)",
+      "sourceNotes": "L'inventaire scientifique de référence s'appuie sur la monographie fondamentale d'Enzo Carli (1960), actualisée par le catalogue complet de Pietro Scarpellini et Maria Rita Silvestrelli (2003). Regroupant les fresques monumentales par cycles et isolant retables et panneaux de dévotion autographes, le consensus scientifique fixe le corpus officiel à environ 65 œuvres."
+},
+    "totalOeuvresEstimees": "environ 65 peintures autographes",
+    "oeuvresConsensusNotice": "Monographie d'Enzo Carli (1960) actualisée par Pietro Scarpellini et Maria Rita Silvestrelli (2003). Corpus officiel fixé à environ 65 œuvres.",
     "timeline": {
       "title": "Repères biographiques & Jalons créateurs",
       "periods": [
@@ -7367,11 +7455,22 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       • <em>Les Prisons imaginaires (Carceri d'Invenzione) et l'angoisse spatiale (vers 1745 – 1761) :</em> C'est son coup de génie le plus célèbre. Il imagine des architectures carcérales labyrinthiques, infinies et oppressantes, peuplées d'arches cyclopéennes, de passerelles branlantes, de chaînes titanesques et d'instruments de torture démesurés. Dans la réédition de 1761, il retravaille ses cuivres avec des noirs d'une profondeur d'encre absolue, créant une métaphore pré-romantique du vertige de l'esprit humain.<br>
       • <em>L'apologie de la Rome antique et les grandes suites de Vues (années 1750 – 1778) :</em> Avec les Antichità Romane (1756) et son entreprise colossale des Vedute di Roma (135 planches réalisées tout au long de sa vie), il prend passionnément parti dans la querelle intellectuelle européenne, affirmant la supériorité du génie constructeur romain sur l'art grec (défendu par Winckelmann). Ses gravures, largement achetées par les voyageurs fortunés du Grand Tour, fixent pour des générations le mythe d'une Rome antique colossale et tragique.</p>
     `,
-    "catalogInfo": {
-      "scientificCorpus": "1 018 estampes répertoriées",
-      "totalEstimated": "1 018 eaux-fortes autographes",
-      "historicalContext": "L'inventaire scientifique de référence mondiale est le Catalogue raisonné du grand historien de l'art français Henri Focillon (1918), magistralement actualisé par John Wilton-Ely en 1994 (The Complete Etchings). En excluant ses dessins préparatoires, ce consensus scientifique fixe le corpus officiel et définitif de ses gravures (eaux-fortes) à très exactement 1 018 estampes."
-    },
+    "corpus": {
+      "total": 1018,
+      "paintingsCount": 1018,
+      "details": [
+            {
+                  "label": "Gravures & estampes autographes (eaux-fortes)",
+                  "count": 1018,
+                  "icon": "🏛️",
+                  "color": "#d4af37"
+            }
+      ],
+      "sourceTitle": "Catalogue raisonné Henri Focillon (1918) / John Wilton-Ely (1994)",
+      "sourceNotes": "L'inventaire scientifique de référence mondiale est le Catalogue raisonné d'Henri Focillon (1918), actualisé par John Wilton-Ely en 1994 (The Complete Etchings). En excluant ses dessins préparatoires, ce consensus scientifique fixe le corpus officiel et définitif de ses gravures (eaux-fortes) à très exactement 1 018 estampes."
+},
+    "totalOeuvresEstimees": "1 018 gravures autographes (eaux-fortes)",
+    "oeuvresConsensusNotice": "Catalogue raisonné d'Henri Focillon (1918) actualisé par John Wilton-Ely (1994). Fixe le corpus officiel de ses gravures à très exactement 1 018 estampes.",
     "timeline": {
       "title": "Repères biographiques & Jalons créateurs",
       "periods": [
@@ -7481,11 +7580,22 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       <p><strong>De l'épopée impressionniste à l'aventure pointilliste et aux boulevards parisiens</strong><br>
       L'évolution de son style témoigne d'une remise en question permanente et d'une ouverture d'esprit exceptionnelle pour un artiste de son âge. Après avoir pratiqué un impressionnisme classique, il traverse au milieu des années 1880 une phase de transition radicale vers le néo-impressionnisme sous l'influence de Seurat. Il adopte alors la technique pointilliste, cherchant une plus grande rigueur scientifique dans le mélange des couleurs. Finalement, il revient à une manière plus libre et fluide dans ses dernières années, se tournant vers de grandes séries urbaines représentant les boulevards parisiens ou les ports normands, peints avec une vivacité et une maîtrise spatiale renouvelées.</p>
     `,
-    "catalogInfo": {
-      "scientificCorpus": "1 528 peintures répertoriées",
-      "totalEstimated": "1 528 peintures à l'huile autographes",
-      "historicalContext": "L'inventaire scientifique de référence mondiale est le titanesque Catalogue critique des peintures (Critical Catalogue of Paintings) établi par son arrière-petit-fils, l'historien Joachim Pissarro, et Claire Durand-Ruel Snollaerts. Publié en 2005 par le Wildenstein Institute en trois volumes monumentaux (supplantant l'ancien catalogue de Ludovic-Rodo Pissarro de 1939), ce travail de titan a écarté son immense œuvre sur papier (pastels, gouaches, dessins et estampes) pour fixer le corpus officiel et définitif de ses peintures à l'huile à très exactement 1 528 œuvres."
-    },
+    "corpus": {
+      "total": 1528,
+      "paintingsCount": 1528,
+      "details": [
+            {
+                  "label": "Peintures à l'huile autographes",
+                  "count": 1528,
+                  "icon": "🎨",
+                  "color": "#d4af37"
+            }
+      ],
+      "sourceTitle": "Catalogue critique Joachim Pissarro & Claire Durand-Ruel (2005)",
+      "sourceNotes": "L'inventaire scientifique de référence mondiale est le titanesque Catalogue critique des peintures (Critical Catalogue of Paintings) établi par Joachim Pissarro et Claire Durand-Ruel Snollaerts (Wildenstein Institute, 2005, 3 volumes). Écartant l'œuvre sur papier, ce travail fixe le corpus officiel et définitif de ses peintures à l'huile à très exactement 1 528 œuvres."
+},
+    "totalOeuvresEstimees": "1 528 peintures à l'huile autographes",
+    "oeuvresConsensusNotice": "Catalogue critique des peintures par Joachim Pissarro et Claire Durand-Ruel Snollaerts (Wildenstein Institute, 2005, 3 volumes). Fixe le corpus officiel à très exactement 1 528 peintures à l'huile.",
     "timeline": {
       "title": "Repères biographiques & Jalons créateurs",
       "periods": [
@@ -7623,11 +7733,22 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       • <em>Le chantier capital de la chapelle Ovetari (1448 – 1453) :</em> En 1448, il est chargé aux côtés d'Andrea Mantegna de peindre le décor monumental de la chapelle Ovetari dans l'église des Érémitiques à Padoue. Pizzolo se voit attribuer les fresques de l'abside, de la voûte et le retable en terre cuite. Dans ses fresques des Docteurs de l'Église et du Père éternel bénissant, il réalise des trompe-l'œil magistraux où les figures semblent s'échapper de cadres circulaires en relief illusionniste, rivalisant d'audace optique avec Mantegna.<br>
       • <em>Le retable en terre cuite et la mort brutale (vers 1450 – 1453) :</em> Pour le maître-autel de cette même chapelle Ovetari, il sculpte une imposante Conversation sacrée en terre cuite peinte et dorée, associant rigueur classique donatellienne et sens du drame expressif. Enclin à un tempérament querelleur et violent, souvent mêlé à des démêlés judiciaires, il est poignardé à mort en 1453 avant d'avoir achevé sa part des fresques, laissant à Mantegna le monopole et la gloire de ce chantier fondateur du Quattrocento septentrional.</p>
     `,
-    "catalogInfo": {
-      "scientificCorpus": "4 à 5 œuvres authentifiées",
-      "totalEstimated": "4 à 5 fresques autographes (abside de la chapelle Ovetari)",
-      "historicalContext": "L'inventaire scientifique se heurte à une double tragédie : sa mort prématurée (tué lors d'une rixe de rue à Padoue vers l'âge de 33 ans) et l'anéantissement presque total de son chef-d'œuvre lors de la Seconde Guerre mondiale. En se basant sur les archives padouanes et les études des spécialistes de la Renaissance du Nord de l'Italie (comme Keith Christiansen), et en excluant ses quelques rares terres cuites pour ne retenir que ses interventions documentées en fresque, le consensus scientifique fixe son corpus pictural authentifié à seulement 4 à 5 œuvres (principalement les grands registres de l'abside de la chapelle Ovetari)."
-    },
+    "corpus": {
+      "total": 5,
+      "paintingsCount": 5,
+      "details": [
+            {
+                  "label": "Fresques monumentales documentées",
+                  "count": 5,
+                  "icon": "🎨",
+                  "color": "#d4af37"
+            }
+      ],
+      "sourceTitle": "Archives padouanes & études Keith Christiansen",
+      "sourceNotes": "En se basant sur les archives padouanes et les études de spécialistes comme Keith Christiansen, et en excluant les quelques rares terres cuites pour ne retenir que ses interventions documentées en fresque, le consensus scientifique fixe son corpus pictural authentifié à seulement 4 à 5 œuvres (abside de la chapelle Ovetari)."
+},
+    "totalOeuvresEstimees": "4 à 5 œuvres documentées",
+    "oeuvresConsensusNotice": "Archives padouanes et études critiques de Keith Christiansen. En raison de sa mort prématurée à 33 ans et des destructions de 1944, corpus authentifié à 4 à 5 œuvres en fresque.",
     "timeline": {
       "title": "Repères biographiques & Jalons créateurs",
       "periods": [
@@ -7726,11 +7847,22 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       • <em>L'apogée du Dripping (1947 – 1950) :</em> C'est sa période la plus célèbre, celle qui révolutionne l'art mondial. Abandonnant tout motif figuratif et tout pinceau, il réalise des toiles denses et monumentales aux couches enchevêtrées de couleurs (<em>Autumn Rhythm</em>, <em>Number 1</em>), capturant une énergie cinétique continue.<br>
       • <em>Les Black Pourings et le retour du motif (1951 – 1953) :</em> Correspondant exactement au tableau <em>Number 8</em> (1951), cette série marque une rupture brutale. Pollock renonce à la polychromie pour n'utiliser que de l'émail noir pur sur toile de coton écru brute, non préparée. Le pigment pénètre directement la fibre, et sous les éclaboussures et les coulées fluides, des têtes fantomatiques, des masques et des fragments de corps ressurgissent de manière spectrale.</p>
     `,
-    "catalogInfo": {
-      "scientificCorpus": "environ 382 œuvres répertoriées",
-      "totalEstimated": "environ 382 peintures autographes",
-      "historicalContext": "L'inventaire scientifique de référence mondiale est le Catalogue raisonné en quatre volumes établi par Francis Valentine O'Connor et Eugene Victor Thaw, publié en 1978. Ce travail exhaustif, qui a nécessité de classer et d'authentifier chaque geste du peintre de Cody (Wyoming), fixe le corpus officiel de ses peintures (huiles, laques, émaux et peintures industrielles sur toile ou panneau) à environ 382 œuvres."
-    },
+    "corpus": {
+      "total": 382,
+      "paintingsCount": 382,
+      "details": [
+            {
+                  "label": "Peintures (huiles, laques, émaux et industrielles)",
+                  "count": 382,
+                  "icon": "🎨",
+                  "color": "#d4af37"
+            }
+      ],
+      "sourceTitle": "Catalogue raisonné Francis V. O'Connor & Eugene V. Thaw (1978)",
+      "sourceNotes": "L'inventaire scientifique de référence mondiale est le Catalogue raisonné en quatre volumes établi par Francis Valentine O'Connor et Eugene Victor Thaw (1978). Ce travail fixe le corpus officiel de ses peintures (huiles, laques, émaux et peintures industrielles sur toile ou panneau) à environ 382 œuvres."
+},
+    "totalOeuvresEstimees": "environ 382 peintures",
+    "oeuvresConsensusNotice": "Catalogue raisonné en 4 volumes par Francis Valentine O'Connor et Eugene Victor Thaw (1978). Fixe le corpus officiel de ses peintures à environ 382 œuvres.",
     "timeline": {
       "title": "Repères biographiques & Jalons créateurs",
       "periods": [
@@ -7841,11 +7973,22 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       <p><strong>Du lyrisme titianesque à l'architecture cosmique du paysage héroïque</strong><br>
       L'évolution de son style marque un passage d'un lyrisme influencé par Titien vers une austérité de plus en plus géométrique et intellectuelle. Dans sa maturité, il s'éloigne des effets de lumière dramatiques pour adopter des formes sculpturales et des paysages « héroïques ». Ses paysages de fin de carrière ne sont plus de simples décors, mais des architectures naturelles où l'homme s'intègre dans un ordre cosmique immuable. Cette recherche constante de perfection rationnelle a fait de lui le modèle absolu pour des générations d'artistes, des académiciens du XVIIe siècle jusqu'aux néoclassiques comme David.</p>
     `,
-    "catalogInfo": {
-      "scientificCorpus": "252 peintures répertoriées",
-      "totalEstimated": "252 peintures à l'huile autographes",
-      "historicalContext": "L'inventaire scientifique d'autorité mondiale et définitive est le monumental catalogue raisonné publié en 2015 par l'ancien président-directeur du Louvre et académicien Pierre Rosenberg (Nicolas Poussin, Les tableaux). Ce travail titanesque, qui vient couronner et affiner les recherches historiques antérieures d'Anthony Blunt et de Jacques Thuillier, écarte son œuvre dessiné pour fixer le corpus officiel et incontesté de ses peintures à l'huile à très exactement 252 œuvres."
-    },
+    "corpus": {
+      "total": 252,
+      "paintingsCount": 252,
+      "details": [
+            {
+                  "label": "Peintures à l'huile autographes",
+                  "count": 252,
+                  "icon": "🎨",
+                  "color": "#d4af37"
+            }
+      ],
+      "sourceTitle": "Catalogue raisonné Pierre Rosenberg (2015)",
+      "sourceNotes": "L'inventaire scientifique d'autorité mondiale et définitive est le monumental catalogue raisonné publié en 2015 par Pierre Rosenberg (Nicolas Poussin, Les tableaux). Écarte son œuvre dessiné pour fixer le corpus officiel et incontesté de ses peintures à l'huile à très exactement 252 œuvres."
+},
+    "totalOeuvresEstimees": "252 peintures à l'huile autographes",
+    "oeuvresConsensusNotice": "Catalogue raisonné définitif par Pierre Rosenberg (2015). Écarte l'œuvre dessiné pour fixer le corpus officiel de ses peintures à l'huile à très exactement 252 œuvres.",
     "timeline": {
       "title": "Repères biographiques & Jalons créateurs",
       "periods": [

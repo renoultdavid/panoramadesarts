@@ -8266,7 +8266,15 @@ window.addEventListener('keydown', (e) => {
   if (!modal || !modal.classList.contains('open')) return;
   if (e.key === 'ArrowLeft' && btnModalPrev) btnModalPrev.click();
   if (e.key === 'ArrowRight' && btnModalNext) btnModalNext.click();
-  if (e.key === 'Escape' && btnModalClose) btnModalClose.click();
+  if (e.key === 'Escape') {
+    const sDrawer = document.getElementById('artwork-story-drawer');
+    if (sDrawer && !sDrawer.hidden) {
+      sDrawer.hidden = true;
+      sDrawer.setAttribute('hidden', '');
+      return;
+    }
+    if (btnModalClose) btnModalClose.click();
+  }
 });
 
 function populateModalData(art) {
@@ -8453,6 +8461,9 @@ function populateModalData(art) {
 
   // Encart d'Échelle Humaine intégrée dans la notice (colonne droite, référence homme 1,75 m)
   renderScaleStamp(art);
+
+  // Pendant en bas à droite : Récit du mythe / contexte historique sous-jacent
+  renderStoryTrigger(art);
 
   // Génération dynamique du ruban transversal "Au même moment dans le monde"
   renderContemporaneousRibbon(art);
@@ -9233,6 +9244,64 @@ function renderScaleStamp(art) {
   stampEl.style.display = 'block';
 }
 
+function renderStoryTrigger(art) {
+  const triggerEl = document.getElementById('artwork-story-stamp');
+  const drawerEl = document.getElementById('artwork-story-drawer');
+  if (!triggerEl) return;
+
+  // Réinitialiser l'état du volet lors du changement d'œuvre
+  if (drawerEl) {
+    drawerEl.hidden = true;
+    drawerEl.setAttribute('hidden', '');
+  }
+
+  if (art && art.storyContext && art.storyContext.text) {
+    triggerEl.style.display = 'block';
+    const titleEl = document.getElementById('story-drawer-title');
+    const bodyEl = document.getElementById('story-drawer-body');
+    if (titleEl) titleEl.textContent = art.storyContext.title || "Contexte mythologique & historique";
+    if (bodyEl) bodyEl.innerHTML = art.storyContext.text;
+  } else {
+    triggerEl.style.display = 'none';
+  }
+}
+
+// Initialisation des écouteurs pour le volet du récit mythologique / historique
+const btnStoryTrigger = document.getElementById('btn-artwork-story-trigger');
+const btnStoryClose = document.getElementById('btn-story-drawer-close');
+const storyDrawerEl = document.getElementById('artwork-story-drawer');
+
+if (btnStoryTrigger && storyDrawerEl) {
+  btnStoryTrigger.addEventListener('click', (e) => {
+    e.stopPropagation();
+    const isHidden = storyDrawerEl.hidden || storyDrawerEl.hasAttribute('hidden');
+    if (isHidden) {
+      storyDrawerEl.hidden = false;
+      storyDrawerEl.removeAttribute('hidden');
+    } else {
+      storyDrawerEl.hidden = true;
+      storyDrawerEl.setAttribute('hidden', '');
+    }
+  });
+}
+
+if (btnStoryClose && storyDrawerEl) {
+  btnStoryClose.addEventListener('click', (e) => {
+    e.stopPropagation();
+    storyDrawerEl.hidden = true;
+    storyDrawerEl.setAttribute('hidden', '');
+  });
+}
+
+document.addEventListener('click', (e) => {
+  if (storyDrawerEl && !storyDrawerEl.hidden) {
+    if (!storyDrawerEl.contains(e.target) && (!btnStoryTrigger || !btnStoryTrigger.contains(e.target))) {
+      storyDrawerEl.hidden = true;
+      storyDrawerEl.setAttribute('hidden', '');
+    }
+  }
+});
+
 btnModalClose.addEventListener('click', () => {
   modal.classList.remove('open');
   modal.setAttribute('hidden', 'true');
@@ -9242,6 +9311,9 @@ btnModalClose.addEventListener('click', () => {
   if (btnModalHistoryBack) btnModalHistoryBack.style.display = 'none';
   const stamp = document.getElementById('artwork-scale-stamp');
   if (stamp) stamp.style.display = 'none';
+  const storyTrigger = document.getElementById('artwork-story-stamp');
+  if (storyTrigger) storyTrigger.style.display = 'none';
+  if (storyDrawerEl) { storyDrawerEl.hidden = true; storyDrawerEl.setAttribute('hidden', ''); }
 });
 
 modal.addEventListener('click', (e) => {
@@ -9254,6 +9326,9 @@ modal.addEventListener('click', (e) => {
     if (btnModalHistoryBack) btnModalHistoryBack.style.display = 'none';
     const stamp = document.getElementById('artwork-scale-stamp');
     if (stamp) stamp.style.display = 'none';
+    const storyTrigger = document.getElementById('artwork-story-stamp');
+    if (storyTrigger) storyTrigger.style.display = 'none';
+    if (storyDrawerEl) { storyDrawerEl.hidden = true; storyDrawerEl.setAttribute('hidden', ''); }
   }
 });
 

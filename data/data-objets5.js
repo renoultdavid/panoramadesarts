@@ -8,6 +8,10 @@
 window.ART_OBJECTS = [
 {
   "id": "poussin_le_triomphe_de_flore_1627",
+  "storyContext": {
+    "title": "Le Triomphe de Flore et la métamorphose des fleurs (Ovide, Fastes)",
+    "text": "<p>Dans les <em>Fastes</em> d'Ovide, la nymphe Chloris raconte comment, un jour de printemps, le souffle impétueux de Zéphyr la surprit et la viola. Pour réparer cet outrage, le dieu du vent d'ouest en fit son épouse légitime et lui fit don d'un empire éternel : celui des fleurs, des semailles et des bourgeons, la consacrant sous le nom romain de Flore. Dans ses jardins divins où règne un printemps perpétuel, la déesse recueille les âmes des héros et des amants dont le destin funeste fut transformé par la compassion des dieux en corolles immortelles.</p><p>Sur un char triomphal doré tiré par des amours ailés, Flore s'avance couronnée de roses au milieu d'un cortège bachique enivrant. Autour d'elle se pressent les figures mythiques nées de la douleur et métamorphosées en beauté végétale : le beau Narcisse contemplant la coupe de fleurs blanches offerte par Écho ; Hyacinthe, amant d'Apollon blessé à mort par un disque égaré, effleurant la fleur pourpre née de son sang ; Adonis, transpercé par le sanglier et changé en anémone éphémère ; et le grand Ajax, qui s'étant jeté sur son épée après l'affront d'Ulysse, voit germer de sa blessure un œillet pourpre gravé des lettres de sa plainte.</p><p>Poussin célèbre ici le triomphe de la vie sur la mort et la renaissance universelle de la nature sous l'égide de la poésie. Marqué par la volupté chromatique de Titien et l'élégance de Raphaël, le tableau fait rayonner une sensualité païenne rayonnante où le deuil tragique des mythes antiques est transfiguré en une fête printanière éternelle.</p>"
+},
   "artistId": "poussin",
   "artist": "Poussin Nicolas",
   "artistSort": "Poussin Nicolas",
@@ -114,6 +118,10 @@ window.ART_OBJECTS = [
 },
 {
   "id": "poussin_echo_et_narcisse_1629",
+  "storyContext": {
+    "title": "Le mythe d'Écho et Narcisse (Ovide, Métamorphoses)",
+    "text": "<p>Dans les <em>Métamorphoses</em> d'Ovide, Narcisse est un jeune éphèbe d'une beauté si éclatante que nymphes et mortels s'éprennent de lui, mais dont le cœur demeure insensible et orgueilleux. Parmi ses prétendantes, la nymphe Écho, condamnée par Junon à ne pouvoir répéter que les derniers mots entendus pour avoir couvert les infidélités de Jupiter, s'éprend éperdument de lui. Rejetée avec mépris par Narcisse qui lui lance « Mourir plutôt que de me donner à toi ! », la nymphe blessée s'étiole dans la solitude des forêts, jusqu'à ce que sa chair disparaisse et que seule sa voix subsiste dans le vent.</p><p>Témoin de tant de cruauté, Némésis, déesse de la vengeance divine, punit le bel orgueilleux. Mené au bord d'une source limpide et inviolée par une chaude journée de chasse, Narcisse se penche pour apaiser sa soif et aperçoit son propre reflet. Fasciné par cette apparition qu'il ne reconnaît pas comme sienne, il s'enflamme pour son image : « Il admire ce qui le rend admirable, il brûle pour ce qui brûle, il poursuit et est poursuivi ». Incapable d'étreindre l'ombre fugitive qui se trouble à chaque larme, il s'épuise dans la contemplation de sa propre beauté.</p><p>Poussin immortalise ici l'instant tragique de l'évanouissement final : Narcisse gît au sol, la pâleur de la mort envahissant ses membres, tandis qu'auprès de ses cheveux d'or naît la fleur blanche du narcisse au cœur de pourpre. À l'arrière-plan, fondue dans la roche, Écho le contemple impuissante, le regard pétrifié de douleur, sous la garde d'un petit Amour funéraire qui brandit une torche allumée, célébrant le triomphe de la passion fatale et la réversibilité cosmique entre amour, illusion et trépas.</p>"
+},
   "artistId": "poussin",
   "artist": "Poussin Nicolas",
   "artistSort": "Poussin Nicolas",
@@ -326,6 +334,10 @@ window.ART_OBJECTS = [
 },
 {
   "id": "poussin_enlevement_des_sabines_1636",
+  "storyContext": {
+    "title": "L'Enlèvement des Sabines et la fondation de Rome (Tite-Live)",
+    "text": "<p>À l'aube de son histoire, vers 753 avant J.-C., la cité fondée par Romulus sur le mont Palatin n'est qu'un refuge précaire composé de bergers, de bannis et d'aventuriers sans femmes. Rebutés par la pauvreté des nouveaux colons, les peuples voisins, en particulier les fiers Sabins, refusent obstinément de leur accorder le droit de mariage (<em>conubium</em>). Face au risque d'extinction de sa jeune communauté en l'espace d'une seule génération, Romulus décide de dissimuler son dessein sous le couvert de la piété et de la fête civique.</p><p>Il fait proclamer dans toute la région de somptueux jeux en l'honneur de Neptune équestre (les Consualia). Attirés par la curiosité et la magnificence promise, les Sabins accourent en foule avec leurs épouses et leurs filles sans armes dans l'enceinte romaine. Au moment culminant de la célébration, debout sur une tribune monumentale drapé dans sa toge pourpre, Romulus donne le signal convenu en rabattant un pan de son manteau sur son épaule. Aussitôt, les jeunes guerriers romains dégainent leurs glaives et se précipitent dans la foule pour arracher de force les jeunes filles vierges à leurs pères et leurs mères terrifiés.</p><p>Poussin organise ce rapt collectif en une chorégraphie d'une violence grandiose et rigoureusement géométrisée. Les blocs d'action s'articulent selon les passions de l'âme : la fuite éperdue des vieillards, la supplication désespérée des mères, le corps-à-corps héroïque des guerriers et la résistance pathétique des Sabines. Cet acte fondateur barbare, justifié par la raison d'État républicaine, donnera naissance par le métissage forcé à la plus puissante nation de l'Antiquité.</p>"
+},
   "artistId": "poussin",
   "artist": "Poussin Nicolas",
   "artistSort": "Poussin Nicolas",
@@ -1068,6 +1080,10 @@ window.ART_OBJECTS = [
 },
 {
   "id": "poussin_paysage_orphee_et_eurydice_1650",
+  "storyContext": {
+    "title": "La mort d'Eurydice et le drame d'Orphée (Virgile & Ovide)",
+    "text": "<p>Fils de la muse Calliope et d'Apollon, Orphée est le poète suprême dont la lyre sacrée enchante les bêtes féroces, suspend le cours des fleuves et meut les rochers. Tout juste uni à la nymphe Eurydice au cours d'un hymen marqué par des présages funestes, le jeune époux célèbre son bonheur dans la splendeur pastorale de la Thrace, chantant au milieu de ses compagnons et des divinités champêtres.</p><p>Mais le destin veille dans l'ombre. Poursuivie à travers les hautes herbes par le berger Aristée qui cherche à la violenter, la jeune Eurydice foule par mégarde un serpent venimeux dissimulé sous la ramure. Le reptile darde son venin mortel dans son talon. Dans un cri étouffé, la nymphe s'effondre sans vie sur la rive, alors même qu'à quelques pas de là, absorbé par son art, Orphée continue d'accorder sa cithare dans une parfaite béatitude, ignorant encore le gouffre qui vient de s'ouvrir sous ses pieds.</p><p>Poussin traite ce mythe tragique avec un stoïcisme philosophique admirable. Loin du tumulte mélodramatique, la mort foudroyante d'Eurydice s'inscrit comme un détail infime et silencieux dans l'immensité sereine de la nature romaine. Les pêcheurs continuent de jeter leurs filets, les fumées s'élèvent paisiblement au-dessus du château Saint-Ange réinventé, et le soleil dore les feuillages. L'œuvre rappelle que le cosmos et l'ordre éternel de la nature demeurent imperturbables face à la tragédie éphémère de l'existence humaine.</p>"
+},
   "artistId": "poussin",
   "artist": "Poussin Nicolas",
   "artistSort": "Poussin Nicolas",
@@ -1174,6 +1190,10 @@ window.ART_OBJECTS = [
 },
 {
   "id": "poussin_diogene_jetant_son_ecuelle_1654",
+  "storyContext": {
+    "title": "Diogène jetant son écuelle (Diogène Laërce, Vies des philosophes)",
+    "text": "<p>Figure emblématique de l'école cynique à Athènes, Diogène de Sinope est le maître absolu du dénuement volontaire et de la liberté radicale. Vivant dans une jarre de terre cuite (le <em>pithos</em>) sur l'agora, vêtu d'un manteau élimé et ne possédant qu'une besace et un bol de bois, il professe que le sage n'a besoin de rien d'artificiel pour atteindre la félicité, dénonçant sans répit les illusions du luxe, de la vanité sociale et des conventions citadines.</p><p>Un jour, observant aux abords d'une fontaine un jeune garçon des champs qui, ne disposant d'aucun récipient, creuse le creux de ses deux mains pour y recueillir l'eau claire et la boire, le philosophe est frappé d'une illumination foudroyante. Se reprochant à lui-même de ne pas être allé au bout de son propre idéal de dépouillement, il s'exclame : « Cet enfant m'apprend que je conservais encore un superflu inutile ! » Sur-le-champ, Diogène retire de son sac son écuelle de bois — son dernier bien matériel sur terre — et la projette au sol pour n'obéir désormais qu'aux seules lois de la nature pure.</p><p>Dans cette toile monumentale peinte pour le duc de Créqui, Poussin illustre le sommet de la morale stoïcienne et cynique. La scène se déroule au bord de l'Ilissos, sous les murailles d'Athènes et le monument de Lysicrate. La grandeur du geste philosophique de Diogène se fond en harmonie totale avec un paysage classique sublime et ordonné, incarnant l'accord parfait entre la raison humaine libérée des faux désirs et la magnificence immuable de l'univers.</p>"
+},
   "artistId": "poussin",
   "artist": "Poussin Nicolas",
   "artistSort": "Poussin Nicolas",
@@ -1492,6 +1512,10 @@ window.ART_OBJECTS = [
 },
 {
   "id": "poussin_apollon_amoureux_de_daphne_1663",
+  "storyContext": {
+    "title": "Apollon et Daphné (Ovide, Métamorphoses, Livre I)",
+    "text": "<p>Premier grand amour d'Apollon, cette légende trouve son origine dans l'orgueil du dieu du Soleil. Vainqueur du redoutable serpent Python, Phébus-Apollon raille le jeune Cupidon et son arc d'enfant. Vexé, le dieu de l'Amour décoche alors deux flèches aux vertus contraires : la première, dorée et acérée, enflamme d'un désir inextinguible celui qu'elle frappe ; la seconde, plombée et émoussée, inspire le dégoût et la fuite de l'amour. La flèche d'or atteint Apollon en plein cœur, tandis que la flèche de plomb transperce la nymphe Daphné, chaste fille du fleuve Pénée vouée au culte de Diane.</p><p>Éperdument épris, le dieu solaire se lance à la poursuite de la nymphe apeurée à travers les fourrés de Thessalie, lui criant : « Nymphe du Pénée, je t'en supplie, arrête-toi ! Ce n'est pas un ennemi qui te poursuit ! C'est l'Amour ! » Épuisée par la course effrénée et sentant déjà le souffle brûlant d'Apollon effleurer sa nuque, Daphné implore son père : « Ô père, secours-moi ! Ouvre la terre ou détruis cette beauté qui cause ma perte ! » À peine sa prière achevée, une lourde torpeur engourdit ses membres : son corps délicat s'enveloppe d'une écorce subtile, ses cheveux se muent en feuillage vert, ses bras s'élèvent en branches frémissantes et ses pieds s'enracinent dans la terre humide.</p><p>Daphné devient le laurier. Étreignant le tronc encore tiède dont le cœur bat sous l'écorce, Apollon dévasté décrète : « Puisque tu ne peux être mon épouse, tu seras du moins mon arbre éternel ! » Les feuilles de laurier ceindront désormais la chevelure du dieu, ses cithares et le front des triomphateurs. Peinte à la fin de sa vie pour le cardinal Massimi, cette toile ultime de Poussin est une méditation crépusculaire sur l'inaccessibilité du désir et la contemplation stoïcienne de la nature.</p>"
+},
   "artistId": "poussin",
   "artist": "Poussin Nicolas",
   "artistSort": "Poussin Nicolas",
@@ -1774,6 +1798,10 @@ window.ART_OBJECTS = [
 },
 {
   "id": "poussin_midas_pactole_1626",
+  "storyContext": {
+    "title": "Le supplice du roi Midas à la source du Pactole (Ovide, Métamorphoses)",
+    "text": "<p>Souverain de Phrygie et fervent dévot de Bacchus, Midas recueille avec faste le vieux Silène, père adoptif du dieu de l'ivresse, égaré par des paysans après des libations. Pour récompenser son hospitalité bienveillante, Dionysos accorde au monarque le vœu de son choix. Aveuglé par la cupidité, Midas formule sans hésiter sa funeste requête : que tout ce que son corps touchera se transforme instantanément en or pur.</p><p>Le miracle tourne bientôt au cauchemar le plus absolu. Cueillant un rameau d'olivier, celui-ci devient or massif ; touchant une motte de terre, elle se durcit en pépite étincelante. Mais assis à son banquet royal, le souverain réalise l'horreur de sa malédiction : le pain qu'il porte à ses lèvres se mue en métal réfractaire, les viandes rôties se pétrifient en lingots et le vin versé dans sa gorge coule comme de l'or en fusion. Mourant de soif et de faim au milieu de ses richesses infernales, écrasé par la splendeur vénéneuse de son pouvoir, le roi supplie Bacchus d'avoir pitié de sa détresse et de lever le charme.</p><p>Ému par son repentir, le dieu l'envoie se purifier au mont Tmolos : « Va vers le fleuve qui baigne Sardes, remonte son cours jusqu'à sa source la plus vive, et plonge ta tête dans les eaux écumantes pour y laver ton péché ». Poussin capte l'instant salvateur où le roi déchu, agenouillé humblement dans le paysage baigné de soleil vénitien, s'incline pour baigner ses lèvres dans l'onde régénératrice. Le prodige s'accomplit : la puissance de transmutation quitte le corps du roi pour s'écouler dans le courant, transmettant aux sables du fleuve Pactole ses fabuleuses paillettes d'or éternelles.</p>"
+},
   "artistId": "poussin",
   "artist": "Poussin Nicolas",
   "artistSort": "Poussin Nicolas",
@@ -3474,6 +3502,10 @@ window.ART_OBJECTS = [
 },
 {
   "id": "moreau_diomede_devore_par_ses_chevaux_rouen_1865",
+  "storyContext": {
+    "title": "Les Juments de Diomède (Apollodore, Les Travaux d'Héraclès)",
+    "text": "<p>Fils du dieu de la guerre Arès et roi tyrannique des féroces Bistones en Thrace, Diomède régnait par la terreur grâce à ses quatre juments monstrueuses — Déinos, Lampon, Podargos et Xanthos. Liées par d'épaisses chaînes de bronze à des auges de fer forgé, ces créatures surnaturelles ne se nourrissaient pas d'herbe ni d'avoine, mais de la chair vive des étrangers naufragés et des voyageurs égarés jetés en pâture par le roi sanguinaire.</p><p>Pour son huitième travail, Eurysthée ordonne à Héraclès de capturer ces juments anthropophages et de les ramener vivantes à Mycènes. Accompagné de quelques volontaires dont son jeune amant Abdéros, le héros dompte les gardiens et s'empare des coursiers. Mais assailli par l'armée des Bistones furieux, Héraclès confie la garde des bêtes à Abdéros le temps de repousser les assaillants. Malheureusement, le jeune homme est submergé et déchiqueté par les montures déchaînées. Fou de rage et de douleur, Héraclès terrasse Diomède et réserve au tyran le plus juste des châtiments : il le livre en pâture à ses propres montures.</p><p>Gustave Moreau fige l'instant atroce où la justice mythique s'abat sur le monarque. Suspendu dans les airs, Diomède est dévoré vivant par ses chevaux aux regards d'un feu démoniaque, tandis qu'au sommet des ruines colossales d'un palais d'Orient, Héraclès, silhouette impassible et marmoréenne appuyée sur sa massue, contemple avec la froideur d'un dieu vengeur l'accomplissement inexorable du destin.</p>"
+},
   "artistId": "moreau",
   "artist": "Moreau Gustave",
   "artistSort": "Moreau Gustave",
