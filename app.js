@@ -3831,9 +3831,15 @@ window.addEventListener('DOMContentLoaded', () => {
         art.image = art.imgSrc;
       }
       if (!art.domain && (art.type || art.medium)) {
-        art.domain = 'peinture';
+        art.domain = 'peinture_mosaique';
       }
-      if (!art.artifactType || (art.artifactType === 'Peinture' && art.medium)) {
+      if (art.domain === 'peinture') {
+        art.domain = 'peinture_mosaique';
+      }
+      if (typeof isPainting === 'function' && isPainting(art)) {
+        art.artifactType = 'Peinture';
+        art.domain = 'peinture_mosaique';
+      } else if (!art.artifactType || (art.artifactType === 'Peinture' && art.medium)) {
         art.artifactType = art.medium || art.type || 'Peinture';
       }
       if (!art.currentLocation && art.location) {
@@ -8283,7 +8289,7 @@ window.addEventListener('keydown', (e) => {
 function populateModalData(art) {
   modalDeptBannerImg.src = getArtworkBanner(art);
 
-  const badgeLabel = (art.artifactType && art.artifactType !== 'Peinture' ? art.artifactType : '') || art.medium || art.artifactType || art.category || 'ŒUVRE D\'ART';
+  const badgeLabel = (typeof isPainting === 'function' && isPainting(art)) ? 'Peinture' : ((art.artifactType && art.artifactType !== 'Peinture' ? art.artifactType : '') || art.medium || art.artifactType || art.category || 'ŒUVRE D\'ART');
   const lexEntry = (typeof getTypologyLexiconEntry === 'function')
     ? (getTypologyLexiconEntry(badgeLabel) || getTypologyLexiconEntry(art.artifactType) || getTypologyLexiconEntry(art.category) || getTypologyLexiconEntry(art.medium))
     : null;
@@ -10495,10 +10501,9 @@ const TAXONOMY_DOMAINS = {
       "Mosaïque de pavement (opus tessellatum & sectile)",
       "Mosaïque de pavement / murale",
       "Mosaïque murale, d'abside & de voûte",
+      "Peinture",
       "Peinture murale / Fresque",
-      "Peinture pariétale rupestre",
-      "Peinture sur panneau de bois",
-      "Peinture sur toile (chevalet)"
+      "Peinture pariétale rupestre"
     ]
   },
   "sculpture_statuaire": {
@@ -11574,6 +11579,41 @@ function getArtworkYearNumeric(art) {
 }
 
 // Formate une date courte et lisible pour la bulle en haut à droite de la miniature
+
+// Détection universelle et stricte d'une œuvre de peinture (tableau de chevalet, panneau, toile, carton, etc.)
+function isPainting(art) {
+  if (!art) return false;
+  const aType = (art.artifactType || '').toLowerCase();
+  const med = (art.medium || '').toLowerCase();
+  const cat = (art.category || '').toLowerCase();
+  const d = (art.domain || '').toLowerCase();
+  const t = (art.type || '').toLowerCase();
+  const tit = (art.title || '').toLowerCase();
+
+  // Exclusion stricte des autres médiums : mosaïques, fresques murales, pariétal, architecture, sculpture, manuscrits, artisanat
+  if (/mosa[iï]que|tessell|opus sectile/.test(aType + ' ' + med + ' ' + tit)) return false;
+  if (/fresque|peinture murale/.test(aType + ' ' + med)) return false;
+  if (/pariétal|parietal|rupestre/.test(aType + ' ' + med)) return false;
+  if (/nef|cloître|cloitre|plafond|voûte|voute|coupole|cuve|vitrail|retable/.test(aType)) return false;
+  if (/sculpture|statue|bas-relief|haut-relief|ronde-bosse|figurine|idole|menhir|dolmen|stèle|stele|monolithe/.test(aType)) return false;
+  if (/manuscrit|enluminure|codex|incunable|partition|ostracon/.test(aType)) return false;
+  if (/monnaie|orfevrerie|orfèvrerie|bijou|parure|torque|bracelet|épée|epee|casque|vase|céramique|ceramique/.test(aType)) return false;
+
+  if (t === 'peinture' || aType === 'peinture' || aType.startsWith('peinture') || aType.startsWith('tableau') || aType.startsWith('huile') || aType.startsWith('détrempe') || aType.startsWith('tempera')) return true;
+  if (med.startsWith('peinture') || med.startsWith('huile') || med.startsWith('détrempe') || med.startsWith('tempera') || med.startsWith('acrylique') || med.startsWith('gouache') || med.startsWith('pastel') || med.startsWith('aquarelle')) return true;
+  if (cat.startsWith('peinture') || cat.startsWith('tableau') || cat.startsWith('huile sur') || cat.startsWith('tempera sur') || cat.startsWith('détrempe sur') || cat.startsWith('acrylique sur')) return true;
+
+  if (d === 'peinture' || d === 'peinture_mosaique') {
+    if (/huile|toile|panneau|bois|carton|cuivre|tempera|détrempe|acrylique|gouache|aquarelle|pastel/.test(aType + ' ' + med + ' ' + cat)) {
+      return true;
+    }
+    if (!/nef|cloître|cloitre|vitrail|retable|statue|sculpture|chapiteau|stèle|stele|monument/.test(aType + ' ' + cat)) {
+      return true;
+    }
+  }
+  return false;
+}
+
 function formatCardBadgeDate(art) {
   const raw = (art.centuryDisplay || art.century || '').trim();
   if (!raw && typeof art.centuryNumeric !== 'number') return '';
@@ -11602,7 +11642,7 @@ function createGalleryCardElement(art, modalList) {
 
   const hasFocus = art.hotspots && art.hotspots.length > 0;
   const badgeDate = formatCardBadgeDate(art);
-  const tagText = (art.artifactType && art.artifactType !== 'Peinture' ? art.artifactType : '') || art.medium || art.artifactType || art.category || art.type || 'Peinture à l\'huile sur toile';
+  const tagText = (typeof isPainting === 'function' && isPainting(art)) ? 'Peinture' : ((art.artifactType && art.artifactType !== 'Peinture' ? art.artifactType : '') || art.medium || art.artifactType || art.category || art.type || 'Peinture');
   const lexEntry = (typeof getTypologyLexiconEntry === 'function')
     ? (getTypologyLexiconEntry(tagText) || getTypologyLexiconEntry(art.artifactType) || getTypologyLexiconEntry(art.category) || getTypologyLexiconEntry(art.medium) || getTypologyLexiconEntry(art.type))
     : null;
@@ -11802,7 +11842,11 @@ function renderSearchGallery() {
       } else if (selectedDomain === 'ceramique') {
         if (d ? d !== 'ceramique' : (!aType.includes('céramique') && !aType.includes('vase'))) return false;
       } else if (selectedDomain === 'peinture_mosaique') {
-        if (d ? d !== 'peinture_mosaique' : (!aType.includes('peinture') && !aType.includes('fresque') && !aType.includes('mosaïque'))) return false;
+        if (d) {
+          if (d !== 'peinture_mosaique' && d !== 'peinture') return false;
+        } else if (!aType.includes('peinture') && !aType.includes('fresque') && !aType.includes('mosaïque') && !(typeof isPainting === 'function' && isPainting(item))) {
+          return false;
+        }
       } else if (selectedDomain === 'parures_metaux') {
         if (d ? d !== 'parures_metaux' : (!aType.includes('orfèvrerie') && !aType.includes('métallurgie') && !aType.includes('dépôt'))) return false;
       } else if (selectedDomain === 'espace_sacre') {
@@ -11828,71 +11872,57 @@ function renderSearchGallery() {
     // 4. Filtre Typologie
     if (selectedType !== 'all') {
       const target = selectedType.toLowerCase();
-      const aType = (item.artifactType || '').toLowerCase();
-      const cat = (item.category || '').toLowerCase();
-      const tit = (item.title || '').toLowerCase();
-      const chips = (item.chips || []).join(' ').toLowerCase();
-      const full = `${aType} ${cat} ${tit} ${chips}`;
+      let matched = false;
 
-      // Supports picturaux : test strict sur la technique (artifactType + category), jamais sur le titre ni les chips
-      const techTxt = `${aType} ${cat}`;
-      const isMosaicItem = /mosa[iï]que|tessell|opus sectile/.test(aType);
-      const isPaintingTarget = target.startsWith('peinture sur') || target.includes('fresque') || target.includes('pariétale');
-      let matched = isPaintingTarget ? false : full.includes(target);
-
-      if (target.includes('mosaïque')) {
-        // Typologies de mosaïque : correspondance exacte sur le type, sinon toute mosaïque du même genre
+      if (target === 'peinture') {
+        matched = (typeof isPainting === 'function') && isPainting(item);
+      } else if (target.includes('mosaïque')) {
+        const aType = (item.artifactType || '').toLowerCase();
+        const isMosaicItem = /mosa[iï]que|tessell|opus sectile/.test(aType);
         matched = aType === target ||
                   (isMosaicItem && ((target.includes('pavement') && aType.includes('pavement')) ||
                                     (target.includes('abside') && (aType.includes('abside') || aType.includes('voûte') || aType.includes('murale'))) ||
                                     (target.includes('façade') && (aType.includes('façade') || aType.includes('lunette'))) ||
                                     (target.includes('cuve') && aType.includes('cuve'))));
-      } else if (isPaintingTarget) {
-        if (isMosaicItem) {
-          matched = false;
-        } else if (target.includes('toile') || target.includes('chevalet')) {
-          matched = /toile|chevalet|canvas/.test(aType) || (!/bois|panneau|fresque|mural/.test(aType) && /sur toile|huile sur toile/.test(cat));
-        } else if (target.includes('panneau') || target.includes('bois')) {
-          const notPanelPainting = /brique|papier|ipad|toile|fresque|mural/.test(aType);
-          const isPaintDomain = (item.domain || '') === 'peinture_mosaique' || /portrait/.test(aType);
-          matched = !notPanelPainting && (/panneau de (bois|chêne|peuplier)|sur panneau|sur bois|bois \(|tempera|encaustique/.test(aType) ||
-                    (isPaintDomain && /sur (panneau|bois)|panneau de (bois|chêne|peuplier)/.test(cat)));
-        } else if (target.includes('fresque') || target.includes('murale')) {
-          matched = /fresque|peinture murale/.test(techTxt);
-        } else {
-          matched = /pariétal|parietal|rupestre/.test(techTxt);
-        }
-      }
-
-      // Correspondances intelligentes pour espaces sacrés, cloîtres, mégalithes et variantes
-      if (!matched && !isPaintingTarget && !target.includes('mosaïque')) {
-        if (false) {
-        } else if (target.includes('pariétale') || target.includes('parietale') || target.includes('rupestre')) {
-          matched = full.includes('pariétal') || full.includes('parietal') || full.includes('rupestre') || full.includes('grotte');
-        } else if (target.includes('cloître') || target.includes('cloitre')) {
-          matched = full.includes('cloître') || full.includes('cloitre');
-        } else if (target.includes('nef')) {
-          matched = full.includes('nef');
-        } else if (target.includes('plafond') || target.includes('voûte') || target.includes('voute')) {
-          matched = full.includes('plafond') || full.includes('voûte') || full.includes('voute');
-        } else if (target.includes('portail') || target.includes('tympan')) {
-          matched = full.includes('portail') || full.includes('tympan');
-        } else if (target.includes('dolmen')) {
-          matched = full.includes('dolmen');
-        } else if (target.includes('allée couverte') || target.includes('allee couverte')) {
-          matched = full.includes('allée couverte') || full.includes('allee couverte');
-        } else if (target.includes('statue-menhir')) {
-          matched = full.includes('statue-menhir') || full.includes('statues-menhir') || full.includes('stèle anthropomorphe');
-        } else if (target.includes('menhir') || target.includes('monolithe')) {
-          matched = (full.includes('menhir') || full.includes('monolithe')) && !full.includes('statue-menhir') && !full.includes('statues-menhir');
-        } else if (target.includes('alignement')) {
-          matched = full.includes('alignement');
-        } else if (target.includes('cromlech') || target.includes('enceinte')) {
-          matched = full.includes('cromlech') || full.includes('enceinte');
-        } else if (target.includes('tumulus') || target.includes('cairn')) {
-          matched = full.includes('tumulus') || full.includes('cairn');
-        } else if (target === 'alabatre' || target === 'alabastre') {
-          matched = full.includes('alabatre') || full.includes('alabastre') || full.includes('alabastron');
+      } else if (target.includes('fresque') || target.includes('murale')) {
+        const techTxt = ((item.artifactType || '') + ' ' + (item.category || '')).toLowerCase();
+        matched = /fresque|peinture murale/.test(techTxt);
+      } else if (target.includes('pariétale') || target.includes('parietale') || target.includes('rupestre')) {
+        const techTxt = ((item.artifactType || '') + ' ' + (item.category || '')).toLowerCase();
+        matched = /pariétal|parietal|rupestre/.test(techTxt);
+      } else {
+        const aType = (item.artifactType || '').toLowerCase();
+        const cat = (item.category || '').toLowerCase();
+        const tit = (item.title || '').toLowerCase();
+        const chips = (item.chips || []).join(' ').toLowerCase();
+        const full = `${aType} ${cat} ${tit} ${chips}`;
+        matched = full.includes(target);
+        if (!matched) {
+          if (target.includes('cloître') || target.includes('cloitre')) {
+            matched = full.includes('cloître') || full.includes('cloitre');
+          } else if (target.includes('nef')) {
+            matched = full.includes('nef');
+          } else if (target.includes('plafond') || target.includes('voûte') || target.includes('voute')) {
+            matched = full.includes('plafond') || full.includes('voûte') || full.includes('voute');
+          } else if (target.includes('portail') || target.includes('tympan')) {
+            matched = full.includes('portail') || full.includes('tympan');
+          } else if (target.includes('dolmen')) {
+            matched = full.includes('dolmen');
+          } else if (target.includes('allée couverte') || target.includes('allee couverte')) {
+            matched = full.includes('allée couverte') || full.includes('allee couverte');
+          } else if (target.includes('statue-menhir')) {
+            matched = full.includes('statue-menhir') || full.includes('statues-menhir') || full.includes('stèle anthropomorphe');
+          } else if (target.includes('menhir') || target.includes('monolithe')) {
+            matched = (full.includes('menhir') || full.includes('monolithe')) && !full.includes('statue-menhir') && !full.includes('statues-menhir');
+          } else if (target.includes('alignement')) {
+            matched = full.includes('alignement');
+          } else if (target.includes('cromlech') || target.includes('enceinte')) {
+            matched = full.includes('cromlech') || full.includes('enceinte');
+          } else if (target.includes('tumulus') || target.includes('cairn')) {
+            matched = full.includes('tumulus') || full.includes('cairn');
+          } else if (target === 'alabatre' || target === 'alabastre') {
+            matched = full.includes('alabatre') || full.includes('alabastre') || full.includes('alabastron');
+          }
         }
       }
 

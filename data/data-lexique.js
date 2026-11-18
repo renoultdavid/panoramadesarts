@@ -470,6 +470,12 @@ window.ART_TYPOLOGY_DEFINITIONS = {
     domain: "Art préhistorique & protohistorique",
     def: "Peinture ou gravure exécutée directement sur la paroi rocheuse naturelle d'une grotte ou d'un abri sous roche à l'aide de pigments minéraux (ocres rouges et jaunes, oxyde de manganèse, charbon)."
   },
+  "Peinture": {
+    title: "Peinture",
+    etymology: "Du latin pictura, dérivé de pingere (« peindre »)",
+    domain: "Peinture de chevalet, Tableaux & Panneaux",
+    def: "Œuvre picturale autonome exécutée sur un support mobile (toile tendue sur châssis, panneau de bois, carton, papier ou cuivre) à l'aide de pigments minéraux ou organiques liés par un médium (huile de lin, tempera à l'œuf, détrempe, gouache, aquarelle ou acrylique)."
+  },
   "Peinture sur panneau de bois": {
     title: "Peinture sur panneau de bois",
     etymology: "Support de peuplier (Italie) ou de chêne (Europe du Nord)",
