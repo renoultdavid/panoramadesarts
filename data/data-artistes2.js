@@ -8100,6 +8100,307 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
         }
       ]
     }
+  },
+
+  "pozzo": {
+    "id": "pozzo",
+    "name": "Pozzo Andrea",
+    "sortName": "Pozzo Andrea",
+    "sortLetter": "P",
+    "dates": "1642 – 1709",
+    "movement": "Baroque romain, Trompe-l'œil & Quadratura (Compagnie de Jésus)",
+    "nationality": "Italienne (Trente, Milan, Rome, Vienne)",
+    "techniques": "Fresque plafonnante en quadratura, perspective sous-jacente (di sotto in sù), anamorphose, huile sur toile, scénographie éphémère (quarantore)",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczMEAIxdw0C0hmB6IhGy1szzMlwElo8wohCdR-hx9tRs163buttAXWgQanZ4n6QVTG8GvjNRDb-mmZ2Am_Uq8c3Rz-6iSiC-2amUCXZxuokQfLQ1MSpg9oxdEoRdRhyOQI7i4o-xAf0ryu1whqKhsDzUWA=w1708-h725-s-no-gm?authuser=0",
+    "portraitImg": "",
+    "bio": `
+        <p><strong>Le maître absolu du trompe-l'œil baroque et de l'apothéose jésuite</strong><br>
+        Andrea Pozzo (1642 – 1709) est le théoricien suprême et le maître incontesté du trompe-l'œil baroque et de la quadratura. Frère jésuite, peintre, architecte et mathématicien originaire du Trentin, il a porté l'illusionnisme perspectif à un niveau de vertige inégalé au service de la Contre-Réforme, transformant les voûtes de pierre en ciels ouverts infinis où l'architecture terrestre s'élance vers la gloire divine.</p>
+        <p><strong>Projection anamorphique, quadratura et fusion des arts</strong><br>
+        Son genre d'expression se définit par le décor plafonnant à fresque en trompe-l'œil (quadratura), la scénographie sacrée éphémère (quarantore), l'architecture jésuite et le traité théorique de perspective. Son style se caractérise par la projection anamorphique rigoureuse d'architectures feintes (colonnes torses, arcs colossaux, corniches en encorbellement) vues depuis un point de vue unique au sol, un dynamisme ascensionnel spectaculaire où des nuées d'anges et d'allégories tourbillonnent dans une lumière dorée, et une fusion totale entre peinture, sculpture et espace réel.</p>
+        <p><strong>De la Lombardie à Sant'Ignazio de Rome et aux palais de Vienne</strong><br>
+        L'évolution de son style marque un perfectionnement continu de la géométrie optique au service de l'ordre des Jésuites :<br>
+        • <em>La formation lombarde et l'entrée dans la Compagnie de Jésus (1665 – 1680) :</em> Après s'être formé à Trente, Venise et Milan auprès des maîtres du baroque septentrional et des décorateurs de théâtre, il entre comme frère laïc chez les Jésuites en 1665. Il réalise des décors à fresque à Milan, Gênes et Mondovì, où il perfectionne la maîtrise des raccourcis anatomiques et des perspectives scénographiques.<br>
+        • <em>Le triomphe romain et le chef-d'œuvre de Sant'Ignazio (1681 – 1702) :</em> Appelé à Rome par le père général de la Compagnie, il accomplit son coup d'éclat à l'église Sant'Ignazio. Faute de fonds pour élever une vraie coupole en pierre, il peint en trompe-l'œil sur une toile plate de dix-sept mètres de diamètre une fausse coupole d'un réalisme saisissant. Dans la foulée, il peint la voûte de la nef avec <em>La Gloire de saint Ignace</em> (1691 – 1694), manifeste absolu de la quadratura baroque figurant l'évangélisation des quatre continents. Il consigne ses méthodes dans son célèbre traité illustré <em>Perspectiva pictorum et architectorum</em> (1693 – 1700), traduit et diffusé dans toute l'Europe.<br>
+        • <em>L'appel impérial à Vienne et le rayonnement européen (1702 – 1709) :</em> Invité à Vienne par l'empereur Léopold Ier, il passe ses dernières années à décorer l'église des Jésuites de Vienne (Universitätskirche) et le palais Liechtenstein (<em>Les Travaux d'Hercule</em>). Il y diffuse le modèle du plafond baroque illusionniste, qui fécondera l'art rococo et les grands décors des églises d'Europe centrale et d'Allemagne du Sud tout au long du XVIIIe siècle.</p>
+      `,
+    "corpus": {
+      "total": 75,
+      "paintingsCount": 75,
+      "details": [
+        {
+          "label": "Fresques monumentales, modelli & retables",
+          "count": 75,
+          "icon": "🏛️",
+          "color": "#d4af37"
+        }
+      ],
+      "sourceTitle": "Monographies jésuites & Richard Bösel / Perspectiva pictorum",
+      "sourceNotes": "L'inventaire scientifique de son œuvre s'appuie sur les monographies des spécialistes de l'art jésuite et du baroque romain (notamment les travaux de Vittorio De Feo, Heinrich Pfeiffer ou Richard Bösel), ainsi que sur son propre traité monumental (Perspectiva pictorum et architectorum). En regroupant chaque gigantesque cycle de fresques comme une œuvre matricielle et en y ajoutant ses toiles (modelli, portraits de saints, retables) et ses fausses architectures peintes sur toile, le consensus scientifique fixe le corpus pictural du maître à environ 70 à 80 œuvres majeures."
+    },
+    "totalOeuvresEstimees": "environ 70 à 80 œuvres majeures",
+    "oeuvresConsensusNotice": "L'inventaire scientifique de son œuvre s'appuie sur les monographies des spécialistes de l'art jésuite et du baroque romain (notamment Vittorio De Feo, Heinrich Pfeiffer ou Richard Bösel), ainsi que sur son traité Perspectiva pictorum et architectorum. En regroupant chaque cycle monumental et en y ajoutant toiles et architectures peintes, le consensus fixe son corpus à environ 70 à 80 œuvres majeures.",
+    "timeline": {
+      "title": "Repères biographiques & Jalons créateurs",
+      "periods": [
+        {
+          "years": "1665 – 1680",
+          "title": "La formation lombarde et l'entrée dans la Compagnie de Jésus",
+          "color": "#c5a059",
+          "summary": "Formation en Italie du Nord, entrée comme frère laïc jésuite et premières fresques illusionnistes à Milan, Gênes et Mondovì.",
+          "events": [
+            {
+              "year": "1642",
+              "title": "Naissance à Trente",
+              "desc": "Fils de menuisier décorateur, formé aux mathématiques et à l'art de la perspective.",
+              "type": "milestone",
+              "icon": "📍"
+            },
+            {
+              "year": "1665",
+              "title": "Entrée chez les Jésuites à Milan",
+              "desc": "Prononce ses vœux de frère coadjuteur laïc et met son génie géométrique au service de l'apostolat de la Compagnie.",
+              "type": "milestone",
+              "icon": "✝️"
+            },
+            {
+              "year": "1676 – 1679",
+              "title": "Fresques de Mondovì",
+              "desc": "Décore l'église Saint-François-Xavier de Mondovì en Piémont avec une maîtrise pionnière de la quadratura feinte.",
+              "type": "masterpiece",
+              "icon": "🎨"
+            }
+          ]
+        },
+        {
+          "years": "1681 – 1702",
+          "title": "Le triomphe romain et le chef-d'œuvre de Sant'Ignazio",
+          "color": "#d4af37",
+          "summary": "À Rome, réalisation de la fausse coupole en toile et de la voûte universelle de Sant'Ignazio, puis publication du traité fondateur.",
+          "events": [
+            {
+              "year": "1685",
+              "title": "La fausse coupole en trompe-l'œil de Sant'Ignazio",
+              "desc": "Sur une immense toile plate de 17 mètres, il peint une coupole en perspective illusionniste parfaite visible depuis un disque de marbre au sol.",
+              "type": "masterpiece",
+              "icon": "🏛️"
+            },
+            {
+              "year": "1691 – 1694",
+              "title": "La Gloire de saint Ignace",
+              "desc": "Apothéose de la fresque baroque : la voûte s'ouvre vers le ciel infini où saint Ignace est accueilli par le Christ, entouré des quatre continents évangélisés.",
+              "type": "masterpiece",
+              "icon": "⭐"
+            },
+            {
+              "year": "1693 – 1700",
+              "title": "Publication de Perspectiva pictorum et architectorum",
+              "desc": "Traité monumental en deux volumes codifiant les règles géométriques de la quadratura, traduit en latin, français, allemand et chinois.",
+              "type": "milestone",
+              "icon": "📖"
+            }
+          ]
+        },
+        {
+          "years": "1702 – 1709",
+          "title": "L'appel impérial à Vienne et le rayonnement européen",
+          "color": "#38bdf8",
+          "summary": "Invité par l'empereur Léopold Ier, il décore les églises et palais viennois et féconde le rococo d'Europe centrale.",
+          "events": [
+            {
+              "year": "1702",
+              "title": "Arrivée triomphale à Vienne",
+              "desc": "L'empereur Léopold Ier l'appelle à sa cour pour magnifier la capitale des Habsbourg.",
+              "type": "milestone",
+              "icon": "👑"
+            },
+            {
+              "year": "1704 – 1708",
+              "title": "Plafonds de l'Universitätskirche et du palais Liechtenstein",
+              "desc": "Peint le cycle des Travaux d'Hercule pour le prince Johann Adam Andreas de Liechtenstein et sublime l'église universitaire de Vienne.",
+              "type": "masterpiece",
+              "icon": "🎨"
+            },
+            {
+              "year": "1709",
+              "title": "Mort à Vienne",
+              "desc": "S'éteint à 67 ans alors qu'il s'apprêtait à rejoindre Venise. Inhumé avec les plus grands honneurs dans l'Universitätskirche de Vienne.",
+              "type": "milestone",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+    }
+  },
+
+  "raphael": {
+    "id": "raphael",
+    "name": "Raphaël (Raffaello Sanzio)",
+    "sortName": "Raphael (Raffaello Sanzio)",
+    "sortLetter": "R",
+    "dates": "1483 – 1520",
+    "movement": "Haute Renaissance italienne (Trinité classique avec Léonard et Michel-Ange)",
+    "nationality": "Italienne (Urbino, Pérouse, Florence, Rome)",
+    "techniques": "Huile sur panneau de peuplier, fresque monumentale à buon fresco, détrempe, sanguine, composition pyramidale, sfumato lumineux",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczM0_StS0KgfhGUkFRtXUkuvH8tMo-e4jL0YjEWiNjjTpO-t64qhnPTFS2XsBUbk7gEGoeqmi-H0IMVQXYjargtys2RlP61sxwvXOAltkG6PvMbPLfbFlkm9dTC0khqf0KtCSYZYvKobxK9cTP7pMM6BSQ=w1708-h725-s-no-gm?authuser=0",
+    "portraitImg": "",
+    "bio": `
+        <p><strong>Le prince de la grâce et de l'harmonie classique souveraine</strong><br>
+        Raffaello Sanzio, dit Raphaël, né en 1483 à Urbino et mort prématurément à 37 ans en 1520, incarne l'apogée de la Haute Renaissance italienne. Prodige précoce formé auprès du Pérugin, il a su assimiler les influences de ses plus grands contemporains, comme Léonard de Vinci et Michel-Ange, pour créer une synthèse artistique parfaite. Rapidement appelé à Rome par le pape Jules II, il y devient le peintre le plus courtisé de son temps, dirigeant un immense atelier et supervisant de prestigieux chantiers qui ont durablement marqué l'histoire de l'art occidental.</p>
+        <p><strong>Composition pyramidale, tendresse mariale et portraits psychologiques</strong><br>
+        Son genre pictural se définit par une quête d'équilibre, de grâce et d'harmonie idéale. Maître de la composition pyramidale et de la clarté spatiale, il est mondialement célèbre pour ses représentations de la Vierge, où il parvient à une tendresse et une sérénité inégalées. Son talent s'exprime également dans le portrait, où il allie réalisme psychologique et élégance aristocratique, ainsi que dans les grandes fresques historiques et philosophiques. Il a su porter le classicisme à un niveau de perfection où la beauté plastique devient le reflet de l'ordre divin et intellectuel.</p>
+        <p><strong>De la douceur ombrienne aux Chambres du Vatican et à La Transfiguration</strong><br>
+        L'évolution de son style est marquée par une progression rapide vers une complexité de plus en plus dramatique :<br>
+        • <em>La jeunesse ombrienne et l'héritage du Pérugin (1483 – 1504) :</em> Ses premières œuvres, délicates et inspirées par la manière douce du Pérugin (<em>Le Mariage de la Vierge</em>, prédelle Mond de <em>Saint Eusèbe</em>, <em>Saint Michel</em> et <em>Saint Georges</em>), démontrent déjà une maîtrise supérieure de l'espace et du rythme poétique.<br>
+        • <em>La période florentine et la révolution des Madones (1504 – 1508) :</em> À Florence, confronté à la <em>Joconde</em> de Léonard et à la vigueur plastique de Michel-Ange, il sublime la formule pyramidale dans une série de chefs-d'œuvre universels : les portraits d'Agnolo et Maddalena Doni, <em>La Belle Jardinière</em>, <em>La Vierge au chardonneret</em>, <em>La Sainte Famille Canigiani</em> et la <em>Madone Tempi</em>.<br>
+        • <em>Le triomphe romain, les Stanze et la maturité tragique (1508 – 1520) :</em> Appelé au Vatican par Jules II, il peint les fresques de la Chambre de la Signature (<em>L'École d'Athènes</em>), les tentures de la Sixtine, des retables colossaux pour François Ier (<em>Le Grand Saint Michel</em>, <em>La Sainte Famille</em>) et des portraits d'une liberté moderne saisissante (<em>Autoportrait avec un ami</em>). Son chef-d'œuvre ultime, <em>La Transfiguration</em>, brise l'harmonie classique au profit d'un clair-obscur dramatique annonçant le maniérisme et le baroque.</p>
+      `,
+    "corpus": {
+      "total": 120,
+      "paintingsCount": 120,
+      "details": [
+        {
+          "label": "Peintures autographes & cycles monumentaux",
+          "count": 120,
+          "icon": "🎨",
+          "color": "#d4af37"
+        }
+      ],
+      "sourceTitle": "Catalogue raisonné Jürg Meyer zur Capellen (2001-2008)",
+      "sourceNotes": "L'inventaire scientifique d'autorité absolue s'appuie sur le catalogue raisonné de Jürg Meyer zur Capellen (publié entre 2001 et 2008 en trois volumes monumentaux) et les recherches de Sylvia Ferino-Pagden. En regroupant ses immenses cycles de fresques par salles ou entités (les Chambres du Vatican, la Villa Farnésine) au même titre que ses toiles et panneaux sur chevalet, et en retranchant les œuvres exécutées majoritairement par son atelier après 1515, le consensus scientifique fixe le corpus de ses peintures strictement autographes à environ 120 œuvres (ou 120 numéros majeurs)."
+    },
+    "totalOeuvresEstimees": "environ 120 peintures strictement autographes",
+    "oeuvresConsensusNotice": "L'inventaire scientifique d'autorité absolue s'appuie sur le catalogue raisonné de Jürg Meyer zur Capellen (2001-2008 en trois volumes monumentaux) et les recherches de Sylvia Ferino-Pagden. En regroupant ses immenses cycles de fresques par entités et en retranchant les productions d'atelier après 1515, le consensus scientifique fixe le corpus de ses peintures autographes à environ 120 œuvres.",
+    "timeline": {
+      "title": "Repères biographiques & Jalons créateurs",
+      "periods": [
+        {
+          "years": "1483 – 1504",
+          "title": "Jeunesse à Urbino et apprentissage chez Le Pérugin",
+          "color": "#c5a059",
+          "summary": "Fils du peintre Giovanni Santi, il assimile la grâce ombrienne auprès du Pérugin et signe ses premiers retables virtuoses à Città di Castello et Pérouse.",
+          "events": [
+            {
+              "year": "1483",
+              "title": "Naissance à Urbino",
+              "desc": "Né le Vendredi saint à Urbino, fils du peintre et poète Giovanni Santi qui lui transmet l'amour des arts et l'atmosphère humaniste de la cour des Montefeltro.",
+              "type": "milestone",
+              "icon": "📍"
+            },
+            {
+              "year": "1502 – 1503",
+              "title": "Saint Eusèbe ressuscitant trois hommes",
+              "desc": "Panneau de prédelle du retable Mond pour Città di Castello, illustrant la résurrection miraculeuse par la chape de saint Jérôme dans un paysage ombrien serein.",
+              "type": "masterpiece",
+              "artworkId": "raphael_saint_eusebe_resurrection_lisbonne_1502",
+              "icon": "✨"
+            },
+            {
+              "year": "1503 – 1505",
+              "title": "Saint Michel et Saint Georges terrassant le dragon",
+              "desc": "Diptyque de chevalet de format intime pour la cour d'Urbino, alliant précision miniaturiste et ferveur chevaleresque.",
+              "type": "masterpiece",
+              "artworkId": "raphael_saint_michel_et_le_dragon_louvre_1503",
+              "icon": "⚔️"
+            },
+            {
+              "year": "1504",
+              "title": "Le Mariage de la Vierge (Lo Sposalizio)",
+              "desc": "Chef-d'œuvre achevant sa période ombrienne, surpassant son maître Le Pérugin par une perspective circulaire magistrale devant un temple idéal.",
+              "type": "masterpiece",
+              "icon": "🏛️"
+            }
+          ]
+        },
+        {
+          "years": "1504 – 1508",
+          "title": "La période florentine : Madones sereines et émulation léonardesque",
+          "color": "#d4af37",
+          "summary": "À Florence, au contact de Léonard de Vinci et Michel-Ange, il sublime la composition pyramidale dans des séries de madones universelles et le grand portrait Doni.",
+          "events": [
+            {
+              "year": "1506",
+              "title": "Portraits des époux Doni & La Vierge au chardonneret",
+              "desc": "Immortalisant Agnolo et Maddalena Doni dans l'esprit de la Joconde, il peint la même année la célèbre Madonna del cardellino pour Lorenzo Nasi.",
+              "type": "masterpiece",
+              "artworkId": "raphael_portrait_des_epoux_doni_offices_1506",
+              "icon": "🎨"
+            },
+            {
+              "year": "1506",
+              "title": "La Sainte Famille au palmier",
+              "desc": "Tondo circulaire d'une harmonie parfaite centré sur la figure paternelle protectrice de saint Joseph.",
+              "type": "masterpiece",
+              "artworkId": "raphael_sainte_famille_au_palmier_edimbourg_1506",
+              "icon": "🌴"
+            },
+            {
+              "year": "1507",
+              "title": "Sainte Famille Canigiani, Madone Tempi & Madone de Bridgewater",
+              "desc": "Triomphe de la tendresse maternelle et de la rigueur plastique pyramidale réconciliant humanisme et sacré.",
+              "type": "masterpiece",
+              "artworkId": "raphael_sainte_famille_canigiani_munich_1507",
+              "icon": "👑"
+            },
+            {
+              "year": "1507 – 1508",
+              "title": "La Belle Jardinière",
+              "desc": "Sommet de la période florentine acquis par François Ier, unissant la Vierge, l'Enfant et saint Jean-Baptiste dans un paysage bucolique fleuri.",
+              "type": "masterpiece",
+              "artworkId": "raphael_la_belle_jardiniere_louvre_1507",
+              "icon": "🌿"
+            }
+          ]
+        },
+        {
+          "years": "1508 – 1520",
+          "title": "L'apogée romain, les Chambres du Vatican et la Transfiguration",
+          "color": "#38bdf8",
+          "summary": "Appelé à Rome par Jules II, il peint les Stanze vaticanes, dirige le chantier de Saint-Pierre et livre ses grands chefs-d'œuvre ultimes pour la papauté et les cours d'Europe.",
+          "events": [
+            {
+              "year": "1509 – 1511",
+              "title": "Chambre de la Signature : L'École d'Athènes & Le Parnasse",
+              "desc": "Manifeste absolu de l'humanisme de la Renaissance réconciliant foi chrétienne, philosophie antique et poésie universelle.",
+              "type": "masterpiece",
+              "icon": "🏛️"
+            },
+            {
+              "year": "1510",
+              "title": "La Madone Aldobrandini & La Vierge du voile",
+              "desc": "Compositions de dévotion intime romaine marquées par le don prémonitoire de l'œillet de la Passion.",
+              "type": "masterpiece",
+              "artworkId": "raphael_la_madone_aldobrandini_londres_1510",
+              "icon": "🌸"
+            },
+            {
+              "year": "1518",
+              "title": "Le Grand Saint Michel & Sainte Marguerite pour François Ier",
+              "desc": "Chefs-d'œuvre monumentaux envoyés en présent diplomatique au roi de France par le pape Léon X.",
+              "type": "masterpiece",
+              "artworkId": "raphael_le_grand_saint_michel_louvre_1518",
+              "icon": "⚔️"
+            },
+            {
+              "year": "1518 – 1520",
+              "title": "Autoportrait avec un ami & Sainte Famille sous un chêne",
+              "desc": "Toiles de pleine maturité explorant le clair-obscur sculptural et l'intimité complice d'un dialogue capté sur le vif.",
+              "type": "masterpiece",
+              "artworkId": "raphael_autoportrait_avec_un_ami_louvre_1518",
+              "icon": "🤝"
+            },
+            {
+              "year": "1520",
+              "title": "Mort prématurée le Vendredi saint et inhumation au Panthéon",
+              "desc": "Emporté par une fièvre brutale à 37 ans le jour de son anniversaire. Rome entière prend le deuil et sa dépouille est déposée sous la coupole du Panthéon.",
+              "type": "milestone",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+    }
   }
 });
 
@@ -8158,3 +8459,10 @@ window.ARTISTS_REGISTRY["niccolo_di_pietro_da_villaganzerla"] = window.ARTISTS_R
 
 window.ARTISTS_REGISTRY["jackson_pollock"] = window.ARTISTS_REGISTRY["pollock"];
 window.ARTISTS_REGISTRY["nicolas_poussin"] = window.ARTISTS_REGISTRY["poussin"];
+
+window.ARTISTS_REGISTRY["andrea_pozzo"] = window.ARTISTS_REGISTRY["pozzo"];
+window.ARTISTS_REGISTRY["fra_andrea_pozzo"] = window.ARTISTS_REGISTRY["pozzo"];
+
+window.ARTISTS_REGISTRY["raffaello"] = window.ARTISTS_REGISTRY["raphael"];
+window.ARTISTS_REGISTRY["raffaello_sanzio"] = window.ARTISTS_REGISTRY["raphael"];
+window.ARTISTS_REGISTRY["raffaello_santi"] = window.ARTISTS_REGISTRY["raphael"];

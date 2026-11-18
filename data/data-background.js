@@ -107,5 +107,64 @@ window.BACKGROUNDS_REGISTRY = {
       "juments de diomede"
     ],
     "text": "<p>Roi sanguinaire des Bistones en Thrace et fils du farouche dieu de la guerre Arès, Diomède régnait par la terreur grâce à quatre montures féroces aux allures titanesques — Déinos, Lampon, Podargos et Xanthos. Liées à des mangeoires de bronze par de lourdes chaînes de fer forgé, ces créatures surnaturelles refusaient tout foin terrestre et n'étaient nourries que de la chair vivante des étrangers naufragés et des voyageurs égarés que le tyran leur jetait en pâture.</p>\n<p>Pour l'accomplissement de son huitième travail, le roi de Mycènes Eurysthée ordonne à Héraclès d'arracher ces juments anthropophages à leur maître et de les ramener vivantes en Argolide.secondé par une troupe d'audacieux parmi lesquels figure son jeune compagnon Abdéros, le demi-dieu pénètre dans la citadelle thrace, maîtrise les gardiens et s'empare des coursiers. Mais assailli sur le rivage par une contre-attaque de l'armée bistone, Héraclès confie la garde des bêtes à Abdéros le temps de mener le combat.</p>\n<p>Le temps que le héros mette en déroute les assaillants, les créatures déchaînées brisent leurs liens et mettent en pièces le malheureux jeune homme. Découvrant avec une douleur indicible les restes de son ami bien-aimé, Héraclès déploie une fureur vengeresse sans égale : après avoir terrassé Diomède, il applique la justice du talion en jetant le corps du roi à ses propres bêtes affamées. Aussitôt gavées de la chair de leur maître, les juments retrouvent une douceur docile et peuvent être ramenées sans encombre vers les cités grecques, scellant le triomphe héroïque de la justice sur la barbarie tyrannique.</p>"
+  },
+  "saint_michel_dragon": {
+    "id": "saint_michel_dragon",
+    "badge": "RÉCIT BIBLIQUE / APOCALYPSE",
+    "title": "L'Archange Michel et la Défaite du Dragon",
+    "sources": "Apocalypse de saint Jean (Chapitre XII)",
+    "keywords": [
+      "saint michel",
+      "dragon",
+      "grand saint michel",
+      "archange michel"
+    ],
+    "text": "<p>Au cœur de l'Apocalypse de saint Jean se déploie la vision grandiose du combat céleste : « Il y eut un combat dans le ciel. Michel et ses anges combattirent contre le Dragon. Et le Dragon et ses anges combattirent, mais ils ne furent pas les plus forts, et leur place ne fut plus trouvée dans le ciel. » Archange souverain et chef des armées divines, saint Michel est la figure de la justice incorruptible et de la fidélité absolue au Créateur.</p>\n<p>Face à lui se dresse Lucifer, le prince déchu, métamorphosé en un gigantesque Dragon rouge écarlate à sept têtes et dix cornes, dont la queue balaye le tiers des étoiles du firmament. Incarnation du mal primordial, de l'orgueil et du mensonge universel, le monstre tente de dévorer l'Enfant divin dès sa naissance avant d'être précipité par les légions célestes dans les abîmes de la terre et des enfers.</p>\n<p>Ce combat fondateur symbolise la victoire inéluctable de la Lumière sur les Ténèbres, de la pureté spirituelle sur la bestialité, et de l'ordre transcendant sur le chaos. L'archange y apparaît armé du glaive de la parole divine ou de la lance triomphale, foulant aux pieds le démon sans que la paix de son visage ne soit altérée par la furie de la bête terrassée.</p>"
+  },
+  "saint_georges_dragon": {
+    "id": "saint_georges_dragon",
+    "badge": "LÉGENDE CHRÉTIENNE & CHEVALERIE",
+    "title": "La Légende de saint Georges et le Dragon de Silène",
+    "sources": "Jacques de Voragine, La Légende dorée (XIIIe siècle)",
+    "keywords": [
+      "saint georges",
+      "georges et le dragon"
+    ],
+    "text": "<p>Originaire de Cappadoce et officier dans l'armée romaine sous Dioclétien, saint Georges est la figure par excellence du chevalier chrétien, immortalisé au XIIIe siècle par Jacques de Voragine dans <em>La Légende dorée</em>. Le récit se déroule près de la cité de Silène en Libye, terrorisée par un monstrueux dragon surgi des profondeurs d'un vaste marais fétide, dont le souffle empesté empoisonne quiconque s'en approche.</p>\n<p>Pour apaiser la créature et préserver leur ville, les habitants sont contraints de lui offrir chaque jour deux brebis, puis, le bétail venant à manquer, de lui livrer par tirage au sort des enfants de la cité. Le sort finit par désigner la jeune et gracieuse princesse, fille unique du roi. Vêtue de ses habits royaux et marchant en larmes vers le lac pour être dévorée, la jeune fille voit surgir saint Georges chevauchant un destrier blanc étincelant.</p>\n<p>Après s'être signé du signe de la croix et au nom du Christ, le preux chevalier charge le monstre à bride abattue, transperçant la gorge du reptile de sa lance divine. Blessé et dompté, le dragon est conduit par la princesse à l'aide de sa ceinture virginale jusque sur la grand-place de la ville, amenant la conversion enthousiaste du roi et de tout son peuple avant que Georges ne décapite la bête immonde, scellant l'avènement du bien sur les forces obscures du paganisme.</p>"
+  },
+  "sainte_marguerite_dragon": {
+    "id": "sainte_marguerite_dragon",
+    "badge": "HAGIOGRAPHIE & MARTYRE CHRÉTIEN",
+    "title": "Le Triomphe de sainte Marguerite d'Antioche sur le Démon",
+    "sources": "Jacques de Voragine, La Légende dorée",
+    "keywords": [
+      "sainte marguerite",
+      "marguerite d'antioche"
+    ],
+    "text": "<p>Fille d'un prêtre païen d'Antioche de Pisidie au IIIe siècle, sainte Marguerite (ou Marine en Orient) fut élevée dans la foi chrétienne par sa nourrice avant d'être rejetée par son père. Remarquée pour sa beauté éclatante par le gouverneur romain Olybrius qui cherchait à en faire son épouse ou sa concubine, la jeune vierge refusa toute avance en proclamant son allégeance exclusive au Christ, ce qui lui valut d'être jetée dans un cachot obscur et soumise à la torture.</p>\n<p>C'est au fond de cette geôle que se produit l'épisode le plus célèbre de sa légende : le prince des ténèbres lui apparaît sous la forme terrifiante d'un gigantesque dragon crachant des flammes, qui ouvre sa gueule béante et engloutit la sainte tout entière. Mais alors qu'elle descend dans les entrailles du monstre, Marguerite trace avec ferveur le signe de la croix avec la petite croix pectorale qu'elle tenait en main : sous la puissance divine, le ventre du dragon se déchire miraculeusement, libérant la jeune fille indemne et triomphante.</p>\n<p>Par cette victoire prodigieuse sur la gueule du Léviathan infernal, sainte Marguerite devint dans toute la chrétienté médiévale et renaissante la protectrice des parturientes et des femmes en couches, invoquée pour que la délivrance et la naissance s'accomplissent saines et sauves hors des ténèbres de la chair.</p>"
+  },
+  "deucalion_pyrrha": {
+    "id": "deucalion_pyrrha",
+    "badge": "MYTHOLOGIE GRECQUE",
+    "title": "Le Déluge Antique : Deucalion et Pyrrha",
+    "sources": "Ovide, Métamorphoses (Livre I)",
+    "keywords": [
+      "deucalion",
+      "pyrrha",
+      "doni"
+    ],
+    "text": "<p>Indigné par la barbarie et l'impiété des hommes de l'Âge de fer, Zeus résolut d'anéantir l'humanité sous un déluge diluvien. Pendant neuf jours et neuf nuits, les cataractes du ciel s'ouvrirent et les flots des mers engloutirent les cités, les forêts et les montagnes du monde entier. Seul un esquif de bois flottait encore sur l'abîme infini, portant les deux êtres les plus vertueux et pieux de la terre : Deucalion, fils de Prométhée, et son épouse Pyrrha, fille d'Épiméthée et de Pandore.</p>\n<p>Lorsque les eaux se retirèrent enfin, l'arche s'échoua sur les cimes du mont Parnasse. Contemplant avec désolation une terre silencieuse et déserte jonchée de débris, les deux époux se prosternèrent devant l'autel de la déesse Thémis, la suppliant de leur enseigner le moyen de faire renaître la race humaine disparue. L'oracle répondit d'une voix énigmatique : « Voilez vos têtes, dénouez vos ceintures, et jetez derrière vous les os de votre grande mère ! »</p>\n<p>Tandis que Pyrrha frémissait à l'idée de troubler le repos des morts, Deucalion comprit le sens allégorique de l'énigme : la terre est notre mère commune, et ses os sont les pierres rocheuses disséminées dans les ravins. Avançant pas à pas, ils ramassèrent les pierres et les jetèrent par-dessus leur épaule : les cailloux projetés par Deucalion s'assouplirent et devinrent des hommes vigoureux, tandis que les roches jetées par Pyrrha s'adoucirent pour former la première lignée des femmes nouvelles, régénérant l'humanité à partir du cœur même de la pierre vivante.</p>"
+  },
+  "eusebe_cremone": {
+    "id": "eusebe_cremone",
+    "badge": "HAGIOGRAPHIE CHRÉTIENNE",
+    "title": "Le Miracle de saint Eusèbe de Crémone et la Chape de saint Jérôme",
+    "sources": "Actes apocryphes de saint Jérôme & Tradition des Pères du désert",
+    "keywords": [
+      "eusèbe",
+      "eusebe",
+      "eusebe de cremone"
+    ],
+    "text": "<p>Disciple fidèle, compagnon de solitude et successeur de saint Jérôme au monastère de Bethléem au IVe siècle, saint Eusèbe de Crémone est vénéré dans la tradition chrétienne pour son dévouement absolu envers le grand docteur traducteur de la Vulgate. À la mort de Jérôme, Eusèbe recueillit avec piété ses reliques sacrées, au premier rang desquelles son manteau liturgique (la chape), imprégné de la sainteté et des rigueurs spirituelles de son maître spirituel.</p>\n<p>Selon le récit miraculeux rapporté dans les traditions médiévales, trois jeunes hommes pleins d'avenir vinrent à mourir subitement et prématurément, plongeant leurs familles et toute leur communauté dans un deuil inconsolable. Porté par une foi inébranlable dans la communion des saints et dans l'intercession de son vénéré précepteur, saint Eusèbe fit apporter le vêtement sacré de Jérôme au chevet des trois défunts étendus sur le sol.</p>\n<p>Au moment où le saint abaisse la sainte chape sur les corps glacés en implorant la miséricorde du Seigneur, le souffle vital réintègre la chair des jeunes gens : sous les yeux pétrifiés d'admiration de l'assistance et des fidèles recueillis, les défunts rouvrent les yeux, se redressent vivants et rendent grâce à Dieu. Cet épisode célèbre la victoire divine sur la mort et la puissance salvatrice des saints compagnons de la première chrétienté.</p>"
   }
 };

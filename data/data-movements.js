@@ -209,7 +209,7 @@ window.MOVEMENTS_DATA = {
         "dates": "1483 – 1520",
         "role": "Prince de la grâce classique et de l'harmonie spatiale",
         "desc": "L'École d'Athènes, La Transfiguration et Madones florentines.",
-        "artistId": "",
+        "artistId": "raphael",
         "icon": "🏛️"
       },
       {
@@ -397,6 +397,14 @@ window.MOVEMENTS_DATA = {
         "desc": "L'Aurore (Villa Ludovisi), La Visitation (Rouen), Salomé (Rennes), Le Roi David (Rouen).",
         "artistId": "guerchin",
         "icon": "🌅"
+      },
+      {
+        "name": "Andrea Pozzo",
+        "dates": "1642 – 1709",
+        "role": "Théoricien suprême et maître incontesté du trompe-l'œil baroque et de la quadratura",
+        "desc": "La Gloire de saint Ignace (Sant'Ignazio à Rome), fausse coupole en trompe-l'œil et Perspectiva pictorum.",
+        "artistId": "pozzo",
+        "icon": "🏛️"
       }
     ]
   },
