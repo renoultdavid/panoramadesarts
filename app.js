@@ -9281,12 +9281,18 @@ function findBackgroundForArtwork(art) {
   }
 
   // 2. Détection intelligente automatique par mots-clés dans le titre de l'œuvre
-  const title = (art.title || '').toLowerCase();
-  if (title) {
+  const normTitle = (art.title || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+  if (normTitle) {
     for (const key in registry) {
       const entry = registry[key];
       if (entry && entry.keywords && Array.isArray(entry.keywords)) {
-        const matches = entry.keywords.some(kw => title.includes(kw.toLowerCase()));
+        const matches = entry.keywords.some(kw => {
+          const normKw = (kw || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim();
+          if (!normKw) return false;
+          if (normKw.includes(' ')) return normTitle.includes(normKw);
+          const regex = new RegExp('(?:^|[^a-z0-9])' + normKw + '(?:$|[^a-z0-9])');
+          return regex.test(normTitle);
+        });
         if (matches) return entry;
       }
     }
@@ -11879,6 +11885,8 @@ function renderSearchGallery() {
     // 5. Filtrage transversal par mouvement, étiquette (chip) ou recherche libre
     if (activeMovSet && !isArtistView) {
       if (!activeMovSet.has(item.id)) return false;
+    } else if (activeBackgroundFilter) {
+      // Filtrage par éclairage culturel exclusif déjà validé en 4bis !
     } else if (query && !isArtistView) {
       const normQuery = normalizeSearchStr(query);
       const isChipMode = activeChipExactFilter && normalizeSearchStr(activeChipExactFilter) === normQuery;

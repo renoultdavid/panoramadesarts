@@ -82,19 +82,6 @@ window.BACKGROUNDS_REGISTRY = {
     ],
     "text": "<p>Figure la plus radicale et provocatrice de l'école cynique à Athènes au IVe siècle avant J.-C., Diogène de Sinope a fait du refus des faux besoins et de l'indépendance intérieure la règle suprême de son existence. Refusant le confort citadin, l'hypocrisie des honneurs et l'esclavage des conventions matérielles, le philosophe vit dans une jarre de céramique (le <em>pithos</em>) adossée au temple de la Mère des dieux sur l'agora, n'ayant pour tout vêtement qu'un manteau grossier et pour bagage qu'une besace et une écuelle de bois pour se nourrir.</p>\n<p>Un jour qu'il chemine près d'un ruisseau aux portes d'Athènes, Diogène observe un jeune berger qui, pour étancher sa soif, plonge simplement ses deux mains jointes dans l'eau vive et boit dans le creux de ses paumes. Cette vision dépouillée frappe le penseur comme une illumination et un reproche moral : constatant que la nature pourvoit d'elle-même à tous les besoins fondamentaux sans le secours de l'artifice humain, Diogène s'exclame avec humilité : « Un enfant me donne une leçon de philosophie et m'apprend que je conservais encore un superflu inutile ! »</p>\n<p>Sur-le-champ, le philosophe tire de son bissac son écuelle de bois — son ultime possession matérielle — et la brise ou la jette au fil de l'eau. Par ce geste d'ascèse absolue, Diogène consomme sa libération intégrale des dépendances superflues : l'homme libre n'attend rien des biens extérieurs et trouve dans l'harmonie avec la nature et la maîtrise de sa raison le secret de la véritable félicité.</p>"
   },
-  "orphee_eurydice": {
-    "id": "orphee_eurydice",
-    "badge": "MYTHOLOGIE GRECQUE",
-    "title": "Le Destin d'Eurydice et le Drame d'Orphée",
-    "sources": "Virgile, Géorgiques (Livre IV) & Ovide, Métamorphoses (Livre X)",
-    "keywords": [
-      "orphée",
-      "orphee",
-      "eurydice",
-      "orphee et eurydice"
-    ],
-    "text": "<p>Fils de la muse Calliope et du roi de Thrace Œagre (ou du dieu Apollon lui-même), Orphée est le chantre suprême de l'Antiquité. Lorsque ses doigts effleurent les cordes de sa lyre d'or, sa mélodie sacrée charme les fauves féroces, suspend le cours impétueux des fleuves et incline les chênes centenaires. Uni à la ravissante nymphe Eurydice dans un bonheur sans nuage, le poète célèbre l'harmonie de l'univers au cœur des prairies ensoleillées de Thrace.</p>\n<p>Mais la fatalité veille sous le couvert des herbes folles. Convoitée par le berger Aristée qui la poursuit à travers les prés champêtres, la jeune Eurydice tente d'échapper à son étreinte et foule par mégarde une vipère venimeuse cachée dans la verdure. Mordue au talon, la nymphe pousse un cri étranglé et s'effondre sans vie sur la berge, alors même qu'à quelques pas de là, ravi par ses propres chants, Orphée continue d'accorder sa lyre en toute innocence, inconscient du malheur irréparable qui vient de faucher sa compagne.</p>\n<p>Ce drame inaugural marque le point de départ d'une des descentes aux enfers les plus poignantes de l'humanité : brisé par le deuil, Orphée franchira les portes du Tartare pour fléchir Pluton et Proserpine par son chant lyrique. Ce mythe demeure la méditation universelle par excellence sur la fragilité de la jeunesse, la puissance rédemptrice de l'art et l'inéluctable souveraineté de la mort sur les amours humaines.</p>"
-  },
   "juments_diomede": {
     "id": "juments_diomede",
     "badge": "MYTHOLOGIE GRECQUE / ÉPOPÉE D'HÉRACLÈS",
@@ -224,9 +211,15 @@ window.BACKGROUNDS_REGISTRY = {
     "keywords": [
       "orphée",
       "orphee",
+      "eurydice",
       "chant d'orphée",
-      "tête d'orphée"
+      "tête d'orphée",
+      "lyre d'orphée",
+      "orphee et eurydice"
     ],
-    "text": "<p>Fils de la muse Calliope et du roi thrace Œagre (ou du dieu Apollon lui-même, qui lui fit don de sa première lyre à sept cordes), Orphée est le prince des poètes et des musiciens de l'Antiquité grecque. Doué d'une voix enchanteresse et d'une virtuosité divine, il possédait le don surnaturel de charmer non seulement les hommes et les bêtes fauves qui venaient se coucher à ses pieds, mais aussi les arbres, les fleuves suspendus dans leur cours et les rochers immobiles qui s'émouvaient à ses accords.</p>\n<p>Inconsolable après la disparition de son épouse la nymphe Eurydice, Orphée osa descendre vivant jusqu'au royaume ténébreux des Enfers (l'Hadès). Par la seule grâce de sa plainte musicale, il fléchit le cœur d'airain de Pluton et de Proserpine, arrachant la promesse de ramener sa bien-aimée à la lumière du jour, avant que son regard impatient ne la perde à jamais au seuil du monde des vivants.</p>\n<p>Retiré dans les forêts sauvages de Thrace, le poète fut finalement mis en pièces par les Ménades en furie lors d'un rituel dionysiaque. Mais le mythe d'Orphée triomphe de la violence : jetée dans les flots du fleuve Hèbre, sa tête coupée continua de chanter tandis que sa lyre sacrée, flottant sur les eaux, continuait de faire résonner une mélodie immortelle jusqu'à l'île de Lesbos, consacrant l'éternité de la création poétique et la survie de l'esprit sur la mort physique.</p>"
+    "text": "<p>Fils de la muse Calliope et du roi thrace Œagre (ou du dieu Apollon lui-même, qui lui fit don de sa première lyre à sept cordes), Orphée est le prince des poètes et des musiciens de l'Antiquité grecque. Doué d'une voix enchanteresse et d'une virtuosité divine, il possédait le don surnaturel de charmer non seulement les hommes et les bêtes fauves qui venaient se coucher à ses pieds, mais aussi les arbres, les fleuves suspendus dans leur cours et les rochers immobiles qui s'émouvaient à ses accords.</p>\n<p>Uni à la ravissante nymphe Eurydice dans un bonheur sans nuage, son destin bascule le jour où celle-ci, fuyant le berger Aristée à travers les herbes folles, foule une vipère venimeuse et périt mordue au talon. Inconsolable, Orphée ose descendre vivant jusqu'au royaume ténébreux des Enfers (l'Hadès). Par la seule grâce de sa plainte musicale, il fléchit le cœur d'airain de Pluton et de Proserpine, arrachant la promesse de ramener sa bien-aimée à la lumière du jour, avant que son regard impatient ne la perde à jamais au seuil du monde des vivants.</p>\n<p>Retiré dans les forêts sauvages de Thrace, le poète fut finalement mis en pièces par les Ménades en furie lors d'un rituel dionysiaque. Mais le mythe d'Orphée triomphe de la violence : jetée dans les flots du fleuve Hèbre, sa tête coupée continua de chanter tandis que sa lyre sacrée, flottant sur les eaux, continuait de faire résonner une mélodie immortelle jusqu'à l'île de Lesbos, consacrant l'éternité de la création poétique et la survie de l'esprit sur la mort physique.</p>"
   }
 };
+
+// Alias de compatibilité
+window.BACKGROUNDS_REGISTRY["orphee_eurydice"] = window.BACKGROUNDS_REGISTRY["orphee_lyre"];

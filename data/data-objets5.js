@@ -2730,7 +2730,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "poussin_paysage_orphee_et_eurydice_1650",
-    "backgroundId": "orphee_eurydice",
+    "backgroundId": "orphee_lyre",
     "artistId": "poussin",
     "artist": "Poussin Nicolas",
     "artistSort": "Poussin Nicolas",
