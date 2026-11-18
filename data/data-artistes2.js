@@ -8911,6 +8911,538 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
         }
       ]
     }
+  },
+  "reni": {
+    "id": "reni",
+    "name": "Reni Guido",
+    "sortName": "Reni Guido",
+    "sortLetter": "R",
+    "dates": "1575 – 1642",
+    "movement": "Classicisme bolonais du Seicento, Baroque italien & Peinture idéale",
+    "nationality": "Italien (Bologne & Rome)",
+    "techniques": "Huile sur toile, fresque, détrempe, dessin à la pierre noire et sanguine, eau-forte",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczOWqtJTqpfLQePLCXHKWIbf2_GEnsZ9JQrcSjwowf7ad9dpYtaZYHCFYg6ytvTa01Te_FZIs2fM_Oxiw_tVNMMcb_MEbu-V8QswCWCFiCNiEnZ3EaFKArMh5rYreZlX8sx3bzgMdsMETxFCMShI-OV2ag=w1708-h725-s-no-gm?authuser=0",
+    "portraitImg": "",
+    "bio": `
+      <p><strong>Le « Divin Guido » et l'apogée du classicisme bolonais</strong><br>
+      Guido Reni (1575 – 1642) est le représentant le plus célèbre et célébré du classicisme bolonais du Seicento. Surnommé de son vivant « le Divin Guido » par ses contemporains, il a incarné pour l'Europe du XVIIe et du XVIIIe siècle le sommet de la grâce idéale et de la beauté formelle, rivalisant avec Raphaël. Formé dans l'orbite de l'académie des Carrache, il a développé une synthèse singulière entre la puissance dramatique issue du caravagisme et une aspiration néo-platonicienne à une harmonie pure, mesurée et céleste.</p>
+      <p><strong>Noblesse sculpturale, regards vers le ciel et tonalités nacrées</strong><br>
+      Son genre d'expression se définit par le retable d'autel monumental, la peinture d'histoire sacrée et profane, la fresque de plafond et le tableau de dévotion intime (notamment les figures de saints en extase). Son style se caractérise par une noblesse sculpturale des attitudes, une maîtrise souveraine du dessin anatomique, des regards mélancoliques tournés vers le ciel, des drapés amples aux plis aériens et une palette qui s'éclaircit progressivement vers des tonalités argentées, nacrées et presque immatérielles.</p>
+      <p><strong>Du choc ténébriste à la dissolution fluide de la « manière claire »</strong><br>
+      L'évolution de son style marque un passage de la vigueur ténébriste vers une clarté lumineuse et une dissolution poétique de la matière : après la formation chez Calvaert, les Carrache et la confrontation féconde avec Caravage à Rome, son classicisme monumental s'épanouit dans les chefs-d'œuvre du <em>Massacre des Innocents</em> et du <em>Char de l'Aurore</em>. Dans sa dernière décennie (années 1630 – 1642), sa « manière claire » transforme la peinture en une matière fluide et translucide aux accords gris perle et blanc éthéré, atteignant un <em>non finito</em> spirituel d'une modernité bouleversante.</p>
+    `,
+    "corpus": {
+      "total": 260,
+      "paintingsCount": 260,
+      "drawingsCount": null,
+      "engravingsCount": null,
+      "sculpturesCount": null,
+      "seenCount": 0,
+      "source": "Catalogue raisonné de Stephen Pepper (Guido Reni: A Complete Catalogue of His Works, 1984, éd. revue 1988)",
+      "totalOeuvresEstimees": "~260 peintures strictement autographes répertoriées",
+      "oeuvresConsensusNotice": "L'inventaire scientifique d'autorité mondiale est le monumental Catalogue raisonné du grand spécialiste américain Stephen Pepper (Guido Reni: A Complete Catalogue of His Works, 1984, revu et corrigé en 1988). En écartant scrupuleusement les innombrables répliques exécutées par ses élèves (notamment ses 'têtes de Christ' et 'Madeleines pénitentes'), ce travail exhaustif fixe le corpus officiel et définitif de ses peintures strictement autographes à environ 260 œuvres."
+    },
+    "timeline": {
+      "birth": {
+        "year": "1575",
+        "place": "Bologne",
+        "title": "Naissance de Guido Reni à Bologne",
+        "desc": "Né le 4 novembre 1575 à Bologne. Fils du musicien Daniele Reni, il délaisse la musique pour entrer dès l'âge de neuf ans dans l'atelier du peintre flamand Denys Calvaert."
+      },
+      "death": {
+        "year": "1642",
+        "place": "Bologne",
+        "title": "Mort de Guido Reni à Bologne",
+        "desc": "S'éteint le 18 août 1642 à Bologne à 66 ans. Célébré comme le 'Divin Guido', il est inhumé en grande pompe dans la chapelle du Rosaire de la basilique San Domenico."
+      },
+      "periods": [
+        {
+          "years": "1595 – 1610",
+          "title": "1595 – 1610 : La formation chez Calvaert, les Carrache et le choc caravagesque",
+          "name": "La formation chez Calvaert, les Carrache et le choc caravagesque (1595 – 1610)",
+          "color": "#854d0e",
+          "summary": "Après un apprentissage chez le Flamand Denys Calvaert, il rejoint l'académie des Carrache à Bologne. Installé à Rome dès 1601, il se mesure au naturalisme violent de Caravage. Il en retient la force des contrastes lumineux, visible dans son célèbre Crucifiement de saint Pierre (1604 – 1605), tout en conservant une rigueur dans l'agencement géométrique et la retenue morale des personnages.",
+          "events": [
+            {
+              "year": "1595",
+              "title": "Entrée à l'Académie des Incamminati des Carrache",
+              "desc": "Quitte Calvaert pour rejoindre l'académie novatrice de Ludovico, Agostino et Annibale Carrache, fondant sa pratique sur le dessin d'après nature et l'étude des maîtres de la Renaissance.",
+              "type": "turning_point",
+              "badge": "FORMATION MAJEURE",
+              "icon": "⚡"
+            },
+            {
+              "year": "1601",
+              "title": "Installation à Rome et commandes pontificales",
+              "desc": "S'établit à Rome dans le sillage d'Annibale Carrache. Il travaille au palais Farnèse et reçoit la protection du cardinal Paolo Emilio Sfondrati.",
+              "type": "turning_point",
+              "badge": "VOYAGE FONDATEUR",
+              "icon": "🏛️"
+            },
+            {
+              "year": "1604 – 1605",
+              "title": "Le Crucifiement de saint Pierre (Pinacothèque vaticane)",
+              "desc": "Répond magistralement au défi caravagesque : puissants contrastes d'ombre et de lumière alliés à une géométrie équilibrée et une noble retenue expressive.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "✨"
+            },
+            {
+              "year": "1608 – 1609",
+              "title": "Fresques de l'oratoire Sant'Andrea à San Gregorio al Celio",
+              "desc": "Confrontation directe avec Le Dominiquin sous les auspices du cardinal Scipione Borghese ; affirmation de son style classique et majestueux.",
+              "type": "masterpiece",
+              "badge": "DÉCOR MONUMENTAL",
+              "icon": "🎨"
+            }
+          ]
+        },
+        {
+          "years": "1611 – 1629",
+          "title": "1611 – 1629 : Le classicisme monumental et le chef-d'œuvre de l'Aurore",
+          "name": "Le classicisme monumental et le chef-d'œuvre de l'Aurore (1611 – 1629)",
+          "color": "#d97706",
+          "summary": "Rompant avec le ténébrisme, il peint en 1611 Le Massacre des Innocents, manifeste tragique où l'horreur du récit est contenue par une perfection formelle et symétrique absolue. En 1614, il livre au casino Borghèse de Rome sa célèbre fresque du Char de l'Aurore, célébration de la lumière dorée inspirée des bas-reliefs antiques. De retour à Bologne, il devient le chef incontesté de l'école bolonaise, inondant les cours européennes de ses toiles mythologiques (Atalante et Hippomène).",
+          "events": [
+            {
+              "year": "1611",
+              "title": "Le Massacre des Innocents (Bologne, Pinacothèque nationale)",
+              "desc": "Manifeste suprême de la tragédie classique : la terreur des mères et la violence des bourreaux sont transfigurées par une rigoureuse symétrie pyramidale.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE ABSOLU",
+              "icon": "👑"
+            },
+            {
+              "year": "1614",
+              "title": "Le Char de l'Aurore au Casino Rospigliosi-Pallavicini",
+              "desc": "Chef-d'œuvre absolu de la fresque romaine : Apollon guidant son quadrige précédé par l'Aurore et entouré des Heures, inspiré des bas-reliefs antiques et de Raphaël.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE UNIVERSEL",
+              "icon": "☀️"
+            },
+            {
+              "year": "1616",
+              "title": "Retour triomphal à Bologne et la Pietà dei Mendicanti",
+              "desc": "Après des querelles d'honoraires à Rome, il s'établit définitivement à Bologne où il règne sans partage sur la scène artistique émilienne.",
+              "type": "turning_point",
+              "badge": "TOURNANT DE VIE",
+              "icon": "⚜️"
+            },
+            {
+              "year": "1620 – 1625",
+              "title": "Atalante et Hippomène & le cycle d'Hercule pour Mantoue",
+              "desc": "Apogée de ses grands formats profanes : ballet chorégraphique des corps nus sous un ciel nocturne et commandes princières pour les Gonzague.",
+              "type": "masterpiece",
+              "badge": "MYTHOLOGIE MAJEURE",
+              "icon": "🏹"
+            }
+          ]
+        },
+        {
+          "years": "1630 – 1642",
+          "title": "1630 – 1642 : La « manière claire » et la dissolution finale",
+          "name": "La « manière claire » et la dissolution finale (1630 – 1642)",
+          "color": "#60a5fa",
+          "summary": "Dans sa dernière décennie, son style subit une mutation radicale. Sa touche se libère, la matière devient fluide et translucide, presque liquide. Les fonds sombres disparaissent au profit d'harmonies froides de gris perle, de bleus pâles et de blancs éthérés (Saint Sébastien, La Flagellation). Ces toiles tardives, parfois laissées à l'état de non finito en raison de ses dettes de jeu compulsives, atteignent une spiritualité et une modernité plastique bouleversantes.",
+          "events": [
+            {
+              "year": "1631",
+              "title": "La Peste de Bologne et la Pala del Voto (Madonna del Voto)",
+              "desc": "Peinte sur soie pour conjurer l'épidémie dévastatrice de peste à Bologne ; consécration civique et religieuse suprême du peintre.",
+              "type": "turning_point",
+              "badge": "VŒU SOLENNEL",
+              "icon": "🙏"
+            },
+            {
+              "year": "1635",
+              "title": "L'Archange Saint Michel terrassant le démon (Rome)",
+              "desc": "Commandé pour l'église des Capucins de Rome ; l'archange d'une beauté angélique et immaculée devient l'une des icônes dévotionnelles les plus célèbres du monde.",
+              "type": "masterpiece",
+              "badge": "ICÔNE DU SEICENTO",
+              "icon": "⚔️"
+            },
+            {
+              "year": "1638 – 1640",
+              "title": "La Flagellation et Saint Sébastien : la révolution de la matière claire",
+              "desc": "La pâte se fluidifie en glacis argentés diaphanes ; abandon du clair-obscur au profit d'une lumière céleste spectrale et méditative.",
+              "type": "masterpiece",
+              "badge": "INNOVATION PLASTIQUE",
+              "icon": "🕊️"
+            },
+            {
+              "year": "1642",
+              "title": "Les toiles inachevées et le non finito spirituel",
+              "desc": "Reni laisse à sa mort de nombreuses toiles à l'état d'ébauches diaphanes, préfigurant avec trois siècles d'avance la dissolution moderne de la forme picturale.",
+              "type": "turning_point",
+              "badge": "TESTAMENT PICTURAL",
+              "icon": "🕯️"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "renoir": {
+    "id": "renoir",
+    "name": "Renoir Pierre-Auguste",
+    "sortName": "Renoir Pierre-Auguste",
+    "sortLetter": "R",
+    "dates": "1841 – 1919",
+    "movement": "Impressionnisme, Période ingresque / sèche & Période nacrée",
+    "nationality": "Français (Limoges, actif à Paris et Cagnes-sur-Mer)",
+    "techniques": "Huile sur toile, pastel, peinture sur porcelaine, détrempe, sculpture en bronze (avec Richard Guino)",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczMd4ZObrqoitQNie9G-iz0JEzZqiAC4H85vP0DOslAYONSn1GSKTTd67-lvgsIc7iMoB06Wjcjqx-8YHexrWaRCgZUknjOckaFZuH5HidAjvQ3QsZsM7x0kxuhoCpndx7wvJRuG_utLnR1xp4IYtjsC0w=w1708-h725-s-no-gm?authuser=0",
+    "portraitImg": "",
+    "bio": `
+      <p><strong>Le chantre du bonheur, de la grâce féminine et de la clarté solaire</strong><br>
+      Auguste Renoir (1841 – 1919) est l'un des piliers de l'impressionnisme, célèbre pour sa célébration du bonheur, de la beauté féminine et de la lumière. Ancien peintre sur porcelaine, il a conservé de cette formation un goût pour les couleurs pures et la luminosité. Contrairement à certains de ses contemporains plus tourmentés, Renoir a cherché à peindre un monde où le plaisir et la douceur de vivre sont omniprésents.</p>
+      <p><strong>Touche fragmentée, sensualité des matières et chair lumineuse</strong><br>
+      Son genre pictural se définit par la touche fragmentée et une attention particulière portée aux reflets lumineux sur la peau et les tissus. Son style se caractérise par des contours flous, une palette chaude et une capacité unique à capturer l'instantanéité des interactions sociales. Il est avant tout le peintre de la figure humaine, qu'il traite avec une sensualité et une tendresse caractéristiques, même lorsqu'il peint des scènes de foule.</p>
+      <p><strong>De la vibration impressionniste au classicisme nacré de Cagnes</strong><br>
+      L'évolution de son style marque un passage de l'expérimentation collective vers une forme de classicisme personnel : après la décennie triomphale de l'impressionnisme de plein air (années 1870), il traverse une crise profonde suite à son voyage en Italie en 1881. Sa période « ingresque » ou « sèche » (années 1880) réaffirme la primauté du dessin linéaire et de la discipline plastique. Enfin, sa période « nacrée » et « rouge », épanouie dans la lumière méditerranéenne de Cagnes-sur-Mer, fond le dessin et la couleur dans une apothéose de chairs voluptueuses et de sensualité pastorale.</p>
+    `,
+    "corpus": {
+      "total": 4019,
+      "paintingsCount": 4019,
+      "drawingsCount": null,
+      "engravingsCount": null,
+      "sculpturesCount": null,
+      "seenCount": 6,
+      "source": "Catalogue raisonné de l'œuvre peint par François Daulte et le Wildenstein Institute (Guy-Patrice & Michel Dauberville, 5 vol., 2007-2014)",
+      "totalOeuvresEstimees": "4 019 peintures autographes répertoriées (huiles sur toile)",
+      "oeuvresConsensusNotice": "L'inventaire scientifique de référence mondiale est le monumental Catalogue raisonné de l'œuvre peint initié par François Daulte et achevé par le Wildenstein Institute (Guy-Patrice et Michel Dauberville, publié en plusieurs volumes entre 2007 et 2014). En écartant son œuvre graphique et ses sculptures tardives (réalisées avec l'aide de Richard Guino), ce travail d'une exhaustivité titanesque fixe le corpus officiel et définitif de ses peintures (huiles sur toile) à très exactement 4 019 œuvres."
+    },
+    "timeline": {
+      "birth": {
+        "year": "1841",
+        "place": "Limoges",
+        "title": "Naissance de Pierre-Auguste Renoir",
+        "desc": "Né le 25 février 1841 à Limoges dans une famille d'artisans tailleurs. Arrivé enfant à Paris, il commence dès l'âge de treize ans comme apprenti peintre sur porcelaine chez Lévy Frères."
+      },
+      "death": {
+        "year": "1919",
+        "place": "Cagnes-sur-Mer",
+        "title": "Mort de Pierre-Auguste Renoir aux Collettes",
+        "desc": "S'éteint le 3 décembre 1919 à Cagnes-sur-Mer à l'âge de 78 ans. Jusqu'au dernier souffle, malgré des rhumatismes déformants, il peignait avec un pinceau fixé entre ses doigts ankylosés."
+      },
+      "periods": [
+        {
+          "years": "1862 – 1880",
+          "title": "1862 – 1880 : L'atelier Gleyre, la bohème montmartroise et la fête impressionniste",
+          "name": "L'atelier Gleyre, la bohème montmartroise et la fête impressionniste (1862 – 1880)",
+          "color": "#2563eb",
+          "summary": "Formé aux côtés de Monet, Bazille et Sisley à l'atelier Gleyre, il invente la peinture de plein air et la dissolution des formes dans la lumière naturelle. C'est l'époque des grands chefs-d'œuvre de sociabilité moderne comme le Bal du moulin de la Galette et le Déjeuner des canotiers.",
+          "events": [
+            {
+              "year": "1867",
+              "title": "Frédéric Bazille peignant la Nature morte au héron",
+              "desc": "Portrait fraternel de Frédéric Bazille dans leur atelier commun de la rue Visconti à Paris, témoignage capital de la naissance du groupe impressionniste.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "artworkId": "renoir_frederic_bazille_peignant_heron_montpellier_1867",
+              "icon": "🎨"
+            },
+            {
+              "year": "1868",
+              "title": "Le Garçon au chat : l'audace du nu masculin",
+              "desc": "Subversion magistrale des codes traditionnels du nu féminin appliquée à une figure masculine juvénile à la pose serpentine et féline.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "artworkId": "renoir_garcon_au_chat_orsay_1868",
+              "icon": "✨"
+            },
+            {
+              "year": "1869",
+              "title": "La Grenouillère avec Claude Monet à Bougival",
+              "desc": "En peignant côte à côte sur l'île de Croissy, Renoir et Monet inventent la touche fragmentée et la vibration optique de l'eau scintillante.",
+              "type": "turning_point",
+              "badge": "NAISSANCE IMPRESSIONNISME",
+              "icon": "🌊"
+            },
+            {
+              "year": "1872",
+              "title": "Parisiennes habillées en Algériennes : hommage à Delacroix",
+              "desc": "Refusée au Salon de 1872, cette fête optique monumentale transpose Les Femmes d'Alger de Delacroix dans l'ambiance bohème d'un atelier montmartrois.",
+              "type": "masterpiece",
+              "badge": "SALON REFUSÉ",
+              "artworkId": "renoir_parisiennes_algeriennes_tokyo_1872",
+              "icon": "🕌"
+            },
+            {
+              "year": "1874",
+              "title": "Première exposition impressionniste chez Nadar",
+              "desc": "Participe activement à la première exposition du groupe boulevard des Capucines et y triomphe avec La Loge.",
+              "type": "turning_point",
+              "badge": "RÉVOLUTION ARTISTIQUE",
+              "icon": "⚡"
+            },
+            {
+              "year": "1876",
+              "title": "Bal du moulin de la Galette à Montmartre",
+              "desc": "Chef-d'œuvre absolu de l'impressionnisme moderne célébrant la liesse populaire, la jeunesse et la lumière filtrant à travers le feuillage des acacias.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE ABSOLU",
+              "icon": "👑"
+            }
+          ]
+        },
+        {
+          "years": "1881 – 1889",
+          "title": "1881 – 1889 : Le voyage en Italie et la crise ingresque (« manière sèche »)",
+          "name": "Le voyage en Italie et la crise ingresque (« manière sèche ») (1881 – 1889)",
+          "color": "#059669",
+          "summary": "Après son voyage en Italie où il découvre Raphaël et Pompéi, Renoir doute de l'impressionnisme : 'J'étais allé au bout de l'impressionnisme et j'arrivais à ce constat que je ne savais ni peindre ni dessiner'. Il durcit ses contours, assagit sa pâte et privilégie la rigueur géométrique des volumes (Les Grandes Baigneuses).",
+          "events": [
+            {
+              "year": "1881",
+              "title": "Voyage en Italie : le choc de Raphaël et des fresques de Pompéi",
+              "desc": "Découverte éblouie de Rome, Naples et Venise. Ce contact avec la grande tradition classique déclenche sa rupture esthétique avec le flou impressionniste.",
+              "type": "turning_point",
+              "badge": "VOYAGE FONDATEUR",
+              "icon": "🇮🇹"
+            },
+            {
+              "year": "1884",
+              "title": "Bouquet de Chrysanthèmes : la sensualité florale au cœur de la rigueur",
+              "desc": "Tour de force chromatique brossé par petites virgules de peinture superposées, célébrant la vitalité éphémère de la nature.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "artworkId": "renoir_bouquet_chrysanthemes_rouen_1884",
+              "icon": "💐"
+            },
+            {
+              "year": "1887",
+              "title": "Les Grandes Baigneuses (Philadelphie) : manifeste ingresque",
+              "desc": "Aboutissement de trois années d'études rigoureuses : corps sculpturaux aux contours nets dessinés avec une précision d'émailleur.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE ABSOLU",
+              "icon": "🏛️"
+            }
+          ]
+        },
+        {
+          "years": "1890 – 1919",
+          "title": "1890 – 1919 : La période nacrée, le rayonnement du Midi et la sensualité tardive",
+          "name": "La période nacrée, le rayonnement du Midi et la sensualité tardive (1890 – 1919)",
+          "color": "#e11d48",
+          "summary": "À la fin de sa vie, installé dans le Midi aux Collettes à Cagnes-sur-Mer, son style s'épanouit dans une synthèse de ses recherches. Les formes deviennent amples et sculpturales, la touche se fait plus onctueuse et fluide, et sa palette se réchauffe de tons rouges et orangés. Malgré ses rhumatismes déformants, il continue de peindre jusqu'à son dernier souffle, célébrant la chair et la nature avec une liberté totale.",
+          "events": [
+            {
+              "year": "1891",
+              "title": "Femme au chapeau : l'épanouissement de la touche nacrée",
+              "desc": "Rêverie intimiste et portrait magistral baigné de reflets pastel irisés, marquant le retour triomphal à une touche souple et vaporeuse.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "artworkId": "renoir_femme_au_chapeau_tokyo_1891",
+              "icon": "👒"
+            },
+            {
+              "year": "1907",
+              "title": "Installation définitive aux Collettes à Cagnes-sur-Mer",
+              "desc": "Pour soulager ses douleurs articulaires, il acquiert le domaine des Collettes entouré d'oliviers centenaires, qui devient son sanctuaire créateur.",
+              "type": "turning_point",
+              "badge": "TERRE PROMISE",
+              "icon": "🌿"
+            },
+            {
+              "year": "1913 – 1918",
+              "title": "Collaboration sculpturale avec Richard Guino",
+              "desc": "Guidant les mains du jeune sculpteur catalan par ses indications verbales et son bâton, il donne naissance à des bronzes monumentaux comme la Vénus Victrix.",
+              "type": "masterpiece",
+              "badge": "SCULPTURE MONUMENTALE",
+              "icon": "🗿"
+            },
+            {
+              "year": "1915",
+              "title": "Jeune Femme au miroir : la splendeur de la chair crépusculaire",
+              "desc": "Hymne solaire à la beauté féminine intemporelle, peinte avec une palette incandescente de tons rouges, orangés et nacrés.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "artworkId": "renoir_jeune_femme_au_miroir_rouen_1915",
+              "icon": "🪞"
+            },
+            {
+              "year": "1919",
+              "title": "Ultime visite au Musée du Louvre et consécration suprême",
+              "desc": "Quelques mois avant sa mort, il est transporté en fauteuil roulant au Louvre pour contempler son Portrait de Madame Charpentier exposé parmi les maîtres anciens.",
+              "type": "turning_point",
+              "badge": "APOTHÉOSE",
+              "icon": "🏛️"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "romano": {
+    "id": "romano",
+    "name": "Giulio Romano (Giulio Pippi)",
+    "sortName": "Romano Giulio",
+    "sortLetter": "R",
+    "dates": "v. 1499 – 1546",
+    "movement": "Maniérisme italien, Haute Renaissance & Architecture palatiale",
+    "nationality": "Italien (Rome & Mantoue)",
+    "techniques": "Fresque monumentale, huile et tempera sur bois et toile, stucs, architecture, dessin d'orfèvrerie",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczOnPQXxzOGa_f8qE3l66TGvQpbOrXZH0xeOZWWWlFiFWG5hZ8I-tS1uWKx3eXYKxjA3KNFDcKIJne6WZibdJaNjMFjTzrFS2_6624EhJG3dSVHD_7ndl3f8hn2HP64k8zOR6atiPc-sFbcH1Ap9of5aAg=w1708-h725-s-no-gm?authuser=0",
+    "portraitImg": "",
+    "bio": `
+      <p><strong>L'héritier subversif de Raphaël et le génie théâtral du Maniérisme</strong><br>
+      Giulio Romano (Giulio Pippi de' Jannuzzi, v. 1499 – 1546) est l'élève favori et le principal héritier d'atelier de Raphaël, ainsi que l'un des protagonistes les plus audacieux et subversifs du Maniérisme italien. Échappant à l'influence écrasante du classicisme romain après la mort de son maître, il est appelé à la cour de Mantoue par le marquis Frédéric II Gonzague. Il y déploie une créativité débridée en tant qu'architecte en chef, peintre, décorateur et urbaniste, bouleversant les règles de l'harmonie classique au profit d'un art théâtral, sensuel et volontiers provocateur.</p>
+      <p><strong>Anatomies athlétiques, raccourcis vertigineux et fantaisie des ordres</strong><br>
+      Son genre d'expression se définit par le décor à fresque illusionniste total, le retable d'autel maniériste, la scène mythologique et érotique, l'architecture palatiale et le dessin d'orfèvrerie et de costume. Son style se caractérise par une musculature puissante et athlétique héritée de Michel-Ange, des raccourcis perspectives extrêmes, une matière chromatique dense aux contrastes vigoureux, un goût prononcé pour l'hybridation fantastique (grotesques, monstres, masques) et une ironie savante qui joue avec l'effondrement apparent des règles architecturales et des ordres classiques.</p>
+      <p><strong>Du Vatican au Palais Te : l'invention de l'illusion totale</strong><br>
+      L'évolution de son style marque un passage de la fidélité au canon de Raphaël vers une frénésie spatiale et décorative monumentale : bras droit du maître pour les Loges et les Chambres du Vatican, il s'émancipe brillamment à Mantoue. Le chantier titanesque du Palais Te (Palazzo Te) devient son chef-d'œuvre absolu, culminant dans le cataclysme peint de la <em>Chambre des Géants</em> où la foudre de Jupiter pulvérise les titans sous un effondrement d'architectures colossales. Devenu surintendant des Gonzague, il redessine la cité mantouane et diffuse le langage maniériste à toute l'Europe.</p>
+    `,
+    "corpus": {
+      "total": 75,
+      "paintingsCount": 75,
+      "drawingsCount": 1500,
+      "engravingsCount": null,
+      "sculpturesCount": null,
+      "seenCount": 0,
+      "source": "Monographie fondatrice de Frederick Hartt (1958), affinée par Konrad Oberhuber et Sylvia Ferino-Pagden",
+      "totalOeuvresEstimees": "~75 ensembles peints majeurs et retables autographes (+ 1 500 dessins recensés)",
+      "oeuvresConsensusNotice": "L'inventaire scientifique de référence mondiale s'appuie sur la monographie fondatrice de l'historien de l'art américain Frederick Hartt (Giulio Romano, 1958), magistralement affinée par les travaux de Konrad Oberhuber et Sylvia Ferino-Pagden (notamment lors des rétrospectives majeures de Mantoue et du Louvre). En écartant son immense fonds graphique (plus de 1 500 dessins recensés) et en regroupant ses colossaux décors muraux par salles ou ensembles cohérents au même titre que ses tableaux sur bois et sur toile, le consensus scientifique fixe son corpus pictural autographe à environ 75 œuvres (oscillant entre 70 et 80 numéros majeurs)."
+    },
+    "timeline": {
+      "birth": {
+        "year": "v. 1499",
+        "place": "Rome",
+        "title": "Naissance de Giulio Pippi à Rome",
+        "desc": "Né à Rome vers 1499 dans le quartier de Santa Maria in Via Lata. Il entre très jeune comme apprenti dans l'atelier effervescent de Raphaël Sanzio."
+      },
+      "death": {
+        "year": "1546",
+        "place": "Mantoue",
+        "title": "Mort de Giulio Romano à Mantoue",
+        "desc": "S'éteint subitement le 1er novembre 1546 à Mantoue à environ 47 ans, alors qu'il venait d'être désigné architecte en chef de la basilique Saint-Pierre de Rome par le pape Paul III pour succéder à Antonio da Sangallo."
+      },
+      "periods": [
+        {
+          "years": "1515 – 1524",
+          "title": "1515 – 1524 : L'atelier de Raphaël et l'achèvement des grands chantiers romains",
+          "name": "L'atelier de Raphaël et l'achèvement des grands chantiers romains (1515 – 1524)",
+          "color": "#ca8a04",
+          "summary": "Bras droit de Raphaël aux côtés de Giovanni Francesco Penni, il exécute une grande part des fresques des Loges du Vatican, de la villa Farnésine (Loge de Psyché) et prend la tête de l'atelier à la mort brutale du maître en 1520. Il mène à terme le monumental décor de la Salle de Constantin au Vatican et peint la Transfiguration. Compromis à Rome par ses dessins préparatoires licencieux pour les gravures érotiques des Modi (accompagnés des sonnets de l'Arétin), il accepte avec empressement l'invitation des Gonzague.",
+          "events": [
+            {
+              "year": "1518 – 1519",
+              "title": "Fresques de la Loge de Psyché à la Villa Farnésine",
+              "desc": "Participe activement sous la conduite de Raphaël à l'éblouissant décor de la villa d'Agostino Chigi, révélant sa vigueur plastique et son goût pour le nu athlétique.",
+              "type": "masterpiece",
+              "badge": "HAUTE RENAISSANCE",
+              "icon": "🏛️"
+            },
+            {
+              "year": "1520",
+              "title": "Mort brutale de Raphaël et succession d'atelier",
+              "desc": "À 21 ans, désigné légataire universel avec Penni, il hérite des carnets, dessins et chantiers inachevés du maître d'Urbino.",
+              "type": "turning_point",
+              "badge": "TOURNANT MAJEUR",
+              "icon": "⚡"
+            },
+            {
+              "year": "1520 – 1524",
+              "title": "Achèvement de la Salle de Constantin au Vatican",
+              "desc": "Conçoit et peint à fresque La Bataille du pont Milvius et La Donation de Rome, affirmant un gigantisme épique qui annonce le Maniérisme.",
+              "type": "masterpiece",
+              "badge": "COMMANDE PAPALE",
+              "icon": "⚔️"
+            },
+            {
+              "year": "1524",
+              "title": "Le scandale des Modi gravés par Marcantonio Raimondi",
+              "desc": "Ses 16 dessins de positions amoureuses illustrés par les sonnets luxurieux de Pierre l'Arétin déclenchent la fureur du Vatican et précipitent son départ pour Mantoue.",
+              "type": "turning_point",
+              "badge": "SCANDALE ÉROTIQUE",
+              "icon": "🔥"
+            }
+          ]
+        },
+        {
+          "years": "1524 – 1534",
+          "title": "1524 – 1534 : L'apogée mantouan et le chantier du Palais Te",
+          "name": "L'apogée mantouan et le chantier du Palais Te (1524 – 1534)",
+          "color": "#dc2626",
+          "summary": "À Mantoue, il conçoit pour Frédéric II Gonzague une œuvre d'art totale : le Palais Te (Palazzo Te), villa de plaisance dont il signe l'architecture insolite (triglyphes qui semblent glisser de l'entablement) et l'intégralité du décor peint. Dans la Chambre de Psyché, il célèbre un érotisme somptueux et païen. Dans la Chambre des Géants (Sala dei Giganti), il abolit toute frontière architecturale : les murs et la voûte s'unifient en une catastrophe peinte où la foudre de Jupiter écrase des titans sous des colonnes et des blocs de pierre titanesques qui semblent s'écrouler directement sur le spectateur.",
+          "events": [
+            {
+              "year": "1524",
+              "title": "Arrivée à Mantoue auprès du marquis Frédéric II Gonzague",
+              "desc": "Accueilli avec de grands honneurs, il est nommé préfet des fabriques ducales et commence les plans de la villa de plaisance de l'île du Te.",
+              "type": "turning_point",
+              "badge": "VOYAGE FONDATEUR",
+              "icon": "⚜️"
+            },
+            {
+              "year": "1526 – 1528",
+              "title": "Décor somptueux de la Chambre de Psyché au Palais Te",
+              "desc": "Célébration du Banquet des dieux et des noces de Cupidon et Psyché, apogée de la sensualité païenne et de la fête mythologique mantouane.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "👑"
+            },
+            {
+              "year": "1530",
+              "title": "Réception triomphale de l'empereur Charles Quint",
+              "desc": "Organise des décors éphémères grandioses pour l'entrée impériale ; l'empereur érige Mantoue en duché en récompense de ce faste incomparable.",
+              "type": "turning_point",
+              "badge": "TRIOMPHE IMPÉRIAL",
+              "icon": "🦅"
+            },
+            {
+              "year": "1532 – 1534",
+              "title": "La Chambre des Géants (Sala dei Giganti) : l'illusionnisme absolu",
+              "desc": "Abolition totale de l'architecture : la foudre de Jupiter foudroie les titans rebelles sous des décombres peints s'effondrant sur le visiteur terrifié.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE UNIVERSEL",
+              "icon": "⚡"
+            }
+          ]
+        },
+        {
+          "years": "1535 – 1546",
+          "title": "1535 – 1546 : Le renouveau ducal de Mantoue et l'activité d'urbaniste",
+          "name": "Le renouveau ducal de Mantoue et l'activité d'urbaniste (1535 – 1546)",
+          "color": "#7c3aed",
+          "summary": "Devenu intendant général des bâtiments ducaux, il transforme Mantoue, concevant l'appartement de Troie au Palais Ducal, la cathédrale San Pietro et assainissant le réseau urbain de la ville. Ses dessins de pièces d'argenterie, de tapisseries et de fêtes princières diffusent le répertoire maniériste à travers toute l'Europe, inspirant directement la Première École de Fontainebleau en France.",
+          "events": [
+            {
+              "year": "1536 – 1539",
+              "title": "L'Appartement de Troie au Palais Ducal de Mantoue",
+              "desc": "Conçoit pour le duc Frédéric II une suite monumentale retraçant la guerre de Troie avec une virtuosité guerrière et tragique impressionnante.",
+              "type": "masterpiece",
+              "badge": "FRESQUE DUCALE",
+              "icon": "🛡️"
+            },
+            {
+              "year": "1540",
+              "title": "Reconstruction de la cathédrale San Pietro de Mantoue",
+              "desc": "Rénove l'intérieur de la cathédrale après un incendie, concevant un plan basilical grandiose inspiré des églises paléochrétiennes de Rome.",
+              "type": "masterpiece",
+              "badge": "ARCHITECTURE SACRÉE",
+              "icon": "⛪"
+            },
+            {
+              "year": "1544 – 1545",
+              "title": "Maison de maître de Giulio Romano (Casa Pippi)",
+              "desc": "Construit son propre palais citadin à Mantoue, véritable manifeste d'architecture maniériste au portail rustique couronné d'un fronton brisé.",
+              "type": "masterpiece",
+              "badge": "ARCHITECTURE CIVILE",
+              "icon": "🏛️"
+            },
+            {
+              "year": "1546",
+              "title": "Appel de Rome pour Saint-Pierre et décès prématuré",
+              "desc": "Nommé architecte de la basilique Saint-Pierre de Rome par le pape Paul III, il s'éteint subitement à Mantoue avant de pouvoir rejoindre la ville éternelle.",
+              "type": "turning_point",
+              "badge": "DESTIN BRISÉ",
+              "icon": "🕯️"
+            }
+          ]
+        }
+      ]
+    }
   }
 });
 
@@ -8981,3 +9513,13 @@ window.ARTISTS_REGISTRY["martial_raysse"] = window.ARTISTS_REGISTRY["raysse"];
 window.ARTISTS_REGISTRY["odilon_redon"] = window.ARTISTS_REGISTRY["redon"];
 window.ARTISTS_REGISTRY["rembrandt_van_rijn"] = window.ARTISTS_REGISTRY["rembrandt"];
 window.ARTISTS_REGISTRY["rembrandt_harmenszoon_van_rijn"] = window.ARTISTS_REGISTRY["rembrandt"];
+
+window.ARTISTS_REGISTRY["guido_reni"] = window.ARTISTS_REGISTRY["reni"];
+window.ARTISTS_REGISTRY["le_guide"] = window.ARTISTS_REGISTRY["reni"];
+
+window.ARTISTS_REGISTRY["pierre_auguste_renoir"] = window.ARTISTS_REGISTRY["renoir"];
+window.ARTISTS_REGISTRY["auguste_renoir"] = window.ARTISTS_REGISTRY["renoir"];
+
+window.ARTISTS_REGISTRY["giulio_pippi"] = window.ARTISTS_REGISTRY["romano"];
+window.ARTISTS_REGISTRY["jules_romain"] = window.ARTISTS_REGISTRY["romano"];
+
