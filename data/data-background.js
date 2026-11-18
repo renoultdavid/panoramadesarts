@@ -19,6 +19,325 @@ window.BACKGROUNDS_REGISTRY = {
     ],
     "text": "<p>Dans les <em>Fastes</em> d'Ovide, la déesse Flore elle-même conte son origine : autrefois nymphe des îles Fortunées sous le nom de Chloris, elle fut surprise par le souffle fougueux de Zéphyr, le vent du printemps. Épris de sa beauté, Zéphyr en fit son épouse légitime et lui offrit un don souverain : l'empire éternel des fleurs, des bourgeons, des semailles et des prés verdoyants.</p>\n<p>Dans ses jardins divins où règne un printemps immuable, la déesse recueille et veille sur les âmes des héros et des amants dont le destin tragique fut transfiguré par la pitié des dieux en corolles immortelles. Autour de son char triomphal dorénavant paré de guirlandes, les figures brisées du mythe renaissent sous forme végétale : Narcisse, consumé par son propre reflet et devenu fleur immaculée au cœur pourpre ; Hyacinthe, favori d'Apollon mortellement frappé par un disque et changé en fleur étoilée ; Adonis, transpercé par le sanglier sauvage et métamorphosé en anémone fragile ; ou encore le fier Ajax qui, s'étant jeté sur son glaive, voit son sang irriguer l'œillet dont les pétales portent gravées les lettres de sa douleur.</p>\n<p>Ce récit est une allégorie cosmique de la victoire perpétuelle du renouveau sur la mort : par la grâce de la poésie et de l'amour, la souffrance terrestre et la brièveté de la vie mortelle sont absorbées dans le cycle infini de la nature féconde.</p>"
   },
+   "symbolique_coupole_voute_celeste": {
+    "id": "symbolique_coupole_voute_celeste",
+    "badge": "THÉOLOGIE & SYMBOLIQUE ARCHITECTURALE",
+    "title": "La Voûte Céleste et la Coupole : L'Architecture comme Imago Mundi",
+    "sources": "Saint Maxime le Confesseur, Mystagogie & Guillaume Durand, Rational des divins offices",
+    "keywords": [
+      "ciel étoilé",
+      "ciel etoile",
+      "coupole",
+      "voûte céleste",
+      "voute celeste",
+      "pendentifs",
+      "firmament"
+    ],
+    "text": "<p>Dans la pensée sacrée de l'Antiquité tardive et du Moyen Âge, l'édifice cultuel n'est pas un simple abri matériel : il est conçu comme une <em>imago mundi</em>, une représentation symbolique de l'univers tout entier. Tandis que le sol carré ou rectangulaire et les murs massifs incarnent la terre et le monde sensible régi par les quatre points cardinaux, la voûte et la coupole hémisphérique figurent le ciel spirituel, sphère parfaite sans début ni fin où réside la divinité.</p>\n<p>Le passage géométrique du carré terrestre au cercle céleste — assuré techniquement par des pendentifs ou des trompes d'angle — revêt une signification mystique profonde : les quatre angles de l'espace accueillent traditionnellement les symboles des quatre Évangélistes ou les Pères de l'Église, piliers spirituels qui soutiennent la révélation divine.</p>\n<p>Parée d'un bleu profond semé d'étoiles d'or ou ouverte en son sommet par un oculus laissant descendre la lumière zénithale, la voûte transforme le sanctuaire en un firmament vivant où le fidèle contemple déjà la demeure céleste.</p>"
+  },
+  "arianisme_orthodoxie_niceenne_antiquite_tardive": {
+    "id": "arianisme_orthodoxie_niceenne_antiquite_tardive",
+    "badge": "HISTOIRE & THÉOLOGIE DE L'ANTIQUITÉ TARDIVE",
+    "title": "Le Concile de Nicée, l'Arianisme et le Rôle Fondateur du Baptême",
+    "sources": "Symbole de Nicée-Constantinople (325 / 381) & Tertullien, De Baptismo",
+    "keywords": [
+      "baptistère",
+      "baptistere",
+      "orthodoxes",
+      "ariens",
+      "arianisme",
+      "baptême du christ",
+      "bapteme du christ",
+      "hétimasie",
+      "hetimasie"
+    ],
+    "text": "<p>Aux IVe et Ve siècles, alors que le christianisme devient la religion officielle de l'Empire romain tandis que les royaumes germaniques s'installent en Occident, le monde méditerranéen est traversé par une controverse théologique majeure opposant l'orthodoxie nicéenne à l'arianisme. Formulée par le prêtre alexandrin Arius et condamnée au concile de Nicée en 325, la doctrine arienne considérait le Fils comme subordonné au Père et non consubstantiel à lui, entraînant dans les cités d'Occident la coexistence de deux clergés et de deux lieux de culte distincts.</p>\n<p>Au cœur de cette affirmation doctrinale se trouve le sacrement du Baptême, rite d'initiation unique par lequel le catéchumène meurt au péché et renaît à la vie divine. Les baptistères octogonaux — chiffre symbolique du huitième jour, celui de la Résurrection et de l'éternité — déploient au sommet de leur coupole la scène fondatrice du Baptême du Christ dans les eaux du Jourdain, entourée de la procession des douze Apôtres.</p>\n<p>Convergeant vers le trône vide de l'<em>Hétimasie</em> — le trône préparé portant la croix gemmée et le livre des Évangiles dans l'attente du retour glorieux du Christ à la fin des temps —, l'iconographie baptismale célèbre l'entrée du croyant dans l'Église universelle.</p>"
+  },
+  "tetramorphe_chrisme_agnus_dei": {
+    "id": "tetramorphe_chrisme_agnus_dei",
+    "badge": "SYMBOLIQUE BIBLIQUE & APOCALYPSE",
+    "title": "Le Chrisme, l'Agneau Mystique (Agnus Dei) et le Tétramorphe",
+    "sources": "Livre d'Ézéchiel (I, 4-14) & Apocalypse de saint Jean (IV, 6-8 ; V, 6-12)",
+    "keywords": [
+      "chrisme",
+      "tétramorphe",
+      "tetramorphe",
+      "agnus dei",
+      "agneau de dieu",
+      "évangélistes",
+      "evangelistes"
+    ],
+    "text": "<p>Dans l'iconographie chrétienne primitive, trois symboles majeurs concentrent le mystère de la souveraineté divine : le Chrisme, l'Agneau de Dieu et le Tétramorphe. Le Chrisme — formé des deux premières lettres grecques du nom du Christ, <em>Khi</em> (X) et <em>Rhô</em> (P), souvent flanquées de l'Alpha et de l'Oméga — proclame que le Christ est le commencement et la fin de toute création.</p>\n<p>Au sommet des voûtes surplombant l'autel trône fréquemment l'<em>Agnus Dei</em>, l'Agneau mystique auréolé de gloire évoqué dans l'Apocalypse : immolé mais debout, il incarne le sacrifice eucharistique qui rachète le monde et ouvre le livre scellé des desseins divins.</p>\n<p>Autour du trône céleste veillent les quatre Vivants décrits par le prophète Ézéchiel puis par saint Jean, identifiés par les Pères de l'Église aux quatre Évangélistes sous le nom de Tétramorphe : l'Homme ailé (Matthieu, qui ouvre son récit par la généalogie humaine du Christ), le Lion (Marc, voix rugissante au désert), le Taureau (Luc, évoquant le sacrifice sacerdotal au Temple) et l'Aigle (Jean, qui s'élève d'emblée vers les hauteurs du Verbe divin).</p>"
+  },
+  "jugement_dernier_parousie_apocalypse": {
+    "id": "jugement_dernier_parousie_apocalypse",
+    "badge": "ESCHATOLOGIE & RÉCIT BIBLIQUE",
+    "title": "La Parousie, le Jugement Dernier et la Vision de Patmos",
+    "sources": "Évangile selon saint Matthieu (XXV, 31-46) & Apocalypse de saint Jean",
+    "keywords": [
+      "jugement dernier",
+      "jugement dernier",
+      "pantocrator",
+      "apocalypse",
+      "patmos",
+      "vieillards de l'apocalypse",
+      "parousie"
+    ],
+    "text": "<p>Point d'aboutissement de l'histoire sacrée dans la théologie chrétienne, la Parousie désigne le retour glorieux du Christ à la fin des temps pour juger les vivants et les morts et instaurer le Royaume éternel. Exilé sur l'île rocheuse de Patmos, l'apôtre Jean en reçoit la révélation prophétique dans le livre de l'Apocalypse : les cieux s'ouvrent, dévoilant le trône divin entouré des vingt-quatre Vieillards vêtus de blanc et des hiérarchies angéliques.</p>\n<p>Selon le discours eschatologique de l'Évangile de Matthieu, lorsque le Fils de l'homme apparaît dans sa gloire accompagné de tous les anges, toutes les nations sont rassemblées devant lui pour la séparation ultime : à sa droite sont accueillis les élus qui ont pratiqué la charité et la miséricorde, tandis qu'à sa gauche les impies sont précipités dans les ténèbres et les tourments infernaux.</p>\n<p>Déployée sur les immenses coupoles ou les tympans des sanctuaires, cette vision cosmique embrasse l'ensemble de la destinée humaine, depuis la création et les patriarches jusqu'à la victoire définitive de la justice divine sur le mal et la mort.</p>"
+  },
+  "theologie_lumiere_jerusalem_celeste": {
+    "id": "theologie_lumiere_jerusalem_celeste",
+    "badge": "ESTHÉTIQUE & THÉOLOGIE MÉDIÉVALE",
+    "title": "La Théologie de la Lumière (Lux Continua) et la Jérusalem Céleste",
+    "sources": "Pseudo-Denys l'Aréopagite, La Hiérarchie céleste & Apocalypse (XXI, 10-27)",
+    "keywords": [
+      "lumière",
+      "lumiere",
+      "vitraux",
+      "verrières",
+      "verrieres",
+      "jérusalem céleste",
+      "jerusalem celeste",
+      "lux continua",
+      "lanterne"
+    ],
+    "text": "<p>Au XIIe siècle, nourrie par les écrits néoplatoniciens attribués à Denys l'Aréopagite, une véritable métaphysique de la lumière transforme l'architecture sacrée occidentale. Selon cette doctrine, Dieu est Lumière absolue, et toute lumière sensible qui pénètre dans le monde matériel est un reflet de la clarté incréée permettant à l'esprit humain de s'élever par degrés (<em>anagogie</em>) du visible vers l'invisible.</p>\n<p>Pour matérialiser cette illumination continue (<em>lux continua</em>), les bâtisseurs allègent les parois de pierre grâce à l'arc brisé, la croisée d'ogives et les tours-lanternes zénithales, remplaçant les murs opaques par de vastes verrières polychromes qui transfigurent la lumière solaire en une clarté surnaturelle.</p>\n<p>Le sanctuaire devient ainsi la préfiguration terrestre de la Jérusalem céleste décrite à la fin de l'Apocalypse : cité radieuse descendue du ciel, bâtie d'or pur et de pierres précieuses étincelantes, où il n'y a plus ni nuit ni ombre car la gloire de Dieu l'illumine éternellement.</p>"
+  },
+  "stereotomie_voute_ogives_etoile_eventail": {
+    "id": "stereotomie_voute_ogives_etoile_eventail",
+    "badge": "ART DES BÂTISSEURS & GÉOMÉTRIE SACRÉE",
+    "title": "La Stéréotomie : De la Croisée d'Ogives aux Voûtes en Étoile et en Éventail",
+    "sources": "Villard de Honnecourt, Carnet & Traités de stéréotomie médiévale",
+    "keywords": [
+      "croisée d'ogives",
+      "croisee d'ogives",
+      "liernes",
+      "tiercerons",
+      "voûte en étoile",
+      "voute en etoile",
+      "voûte en éventail",
+      "voute en eventail",
+      "fan vaulting",
+      "clés pendantes",
+      "cles pendantes",
+      "stéréotomie",
+      "stereotomie"
+    ],
+    "text": "<p>Sommet de la science des maîtres maçons médiévaux, la stéréotomie — l'art géométrique de tracer et de tailler chaque bloc de pierre pour l'assembler en voûtes autoportantes — révolutionne l'architecture sacrée à partir du XIIe siècle. En substituant à la lourde voûte en berceau continue un squelette élastique d'arcs diagonaux (les ogives), de doubleaux et de formerets, les bâtisseurs concentrent les poussées sur des piliers fasciculés et des arcs-boutants extérieurs, libérant des hauteurs vertigineuses.</p>\n<p>À la fin du Moyen Âge, cette maîtrise technique s'épanouit en une virtuosité ornementale éblouissante. La multiplication des nervures secondaires — les <em>tiercerons</em> et les <em>liernes</em> — tisse au sommet des nefs de véritables résilles stellaires et des fleurs minérales ponctuées de clés de voûte sculptées ou pendantes qui semblent défier les lois de la pesanteur.</p>\n<p>Dans l'architecture insulaire britannique naît parallèlement la voûte en éventail (<em>fan vaulting</em>), où des cônes inversés de pierre finement nervurée s'évasent depuis les supports muraux comme des palmes ouvertes, transformant la couverture minérale en une dentelle céleste.</p>"
+  },
+  "reforme_cistercienne_depouillement_bernard": {
+    "id": "reforme_cistercienne_depouillement_bernard",
+    "badge": "SPIRITUALITÉ & MONACHISME MÉDIÉVAL",
+    "title": "La Réforme Cistercienne et l'Esthétique du Dépouillement",
+    "sources": "Saint Bernard de Clairvaux, Apologie à Guillaume de Saint-Thierry (1125)",
+    "keywords": [
+      "cistercien",
+      "cistercienne",
+      "saint bernard",
+      "dépouillement",
+      "depouillement",
+      "austérité",
+      "austerite"
+    ],
+    "text": "<p>Fondé à la fin du XIe siècle en réaction contre le relâchement et l'opulence décorative des grands monastères traditionnels, l'ordre cistercien prône un retour rigoureux à la lettre de la Règle de saint Benoît : pauvreté, silence, travail manuel et prière contemplative dans la solitude des vallées boisées.</p>\n<p>Sous l'impulsion spirituelle de saint Bernard de Clairvaux, cette ascèse donne naissance à une esthétique architecturale radicalement épurée. Rejetant les sculptures historiées, les peintures chatoyantes et l'orfèvrerie somptueuse jugées propres à distraire l'esprit du moine de la méditation intérieure, les bâtisseurs cisterciens font de la proportion mathématique et de la nudité de la pierre appareillée les seuls vecteurs du sacré.</p>\n<p>Rythmés par la succession régulière des arcs brisés et baignés d'une lumière blanche filtrée par des verrières en grisaille, ces sanctuaires dépouillés diffusent à travers toute l'Europe les principes rationnels du premier art gothique.</p>"
+  },
+  "ordres_mendiants_francois_dominique": {
+    "id": "ordres_mendiants_francois_dominique",
+    "badge": "SPIRITUALITÉ MÉDIÉVALE & PRÉDICATION",
+    "title": "Les Ordres Mendiants : Saint François, Saint Dominique et l'Architecture de la Parole",
+    "sources": "Règle de saint François (1223) & Constitutions de l'Ordre des Prêcheurs",
+    "keywords": [
+      "franciscain",
+      "franciscains",
+      "dominicain",
+      "dominicains",
+      "ordres mendiants",
+      "saint françois",
+      "saint dominique",
+      "thomas d'aquin"
+    ],
+    "text": "<p>Au début du XIIIe siècle, face à l'essor des villes et aux bouleversements sociaux de l'Occident médiéval, l'émergence des ordres mendiants — les Frères Mineurs fondés par saint François d'Assise et les Frères Prêcheurs institués par saint Dominique — renouvelle profondément la vie spirituelle chrétienne. Renonçant aux vastes domaines ruraux des abbayes anciennes, ces religieux s'établissent au cœur des cités pour vivre dans la pauvreté évangélique et annoncer l'Évangile aux foules urbaines.</p>\n<p>Cette vocation missionnaire et intellectuelle — illustrée chez les Dominicains par l'œuvre théologique de saint Thomas d'Aquin — transforme directement la conception de l'espace sacré. Pour que des assemblées nombreuses puissent entendre clairement la prédication et voir l'autel sans obstacle, les églises mendiantes privilégient les vastes nefs uniques décloisonnées ou les églises-halles aux piliers élancés.</p>\n<p>Alliant la sobriété structurelle des volumes à la richesse didactique des cycles peints et des chapelles civiques, ces sanctuaires urbains deviennent le foyer spirituel et culturel de la bourgeoisie et de l'aristocratie citadines.</p>"
+  },
+  "regle_saint_benoit_monachisme_occidental": {
+    "id": "regle_saint_benoit_monachisme_occidental",
+    "badge": "HISTOIRE & SPIRITUALITÉ MONASTIQUE",
+    "title": "Saint Benoît de Nursie, la Règle Monastique et les Ordres Contemplatifs",
+    "sources": "Règle de saint Benoît (VIe siècle) & Saint Grégoire le Grand, Dialogues (Livre II)",
+    "keywords": [
+      "saint benoît",
+      "saint benoit",
+      "bénédictin",
+      "benedictin",
+      "bénédictins",
+      "benedictins",
+      "chartreux",
+      "cartusien",
+      "saint bruno"
+    ],
+    "text": "<p>Né en Ombrie à la fin du Ve siècle au moment de l'effondrement de l'Empire romain d'Occident, Benoît de Nursie se retire d'abord en ermite dans une grotte de Subiaco avant de fonder au Mont-Cassin une communauté régie par sa célèbre <em>Règle</em>. Résumée par la devise <em>Ora et Labora</em> (« Prie et travaille »), cette charte équilibrée organise la vie quotidienne du moine entre l'Office divin chanté en chœur, la lecture méditative des Écritures (<em>lectio divina</em>) et le travail manuel ou intellectuel.</p>\n<p>Devenus les grands foyers de sauvegarde des manuscrits antiques, d'enseignement et d'hospitalité à travers l'Europe médiévale, les monastères bénédictins — ainsi que les ordres érémitiques plus austères tels que les Chartreux fondés par saint Bruno au XIe siècle — placent la louange liturgique au centre de leur architecture.</p>\n<p>À l'époque moderne, cette tradition millénaire s'exprime tantôt par l'austérité silencieuse de la clôture, tantôt par de grandioses apothéoses célestes célébrant la gloire de saint Benoît accueilli dans les cieux.</p>"
+  },
+  "pelerinages_medievaux_reliques_compostelle": {
+    "id": "pelerinages_medievaux_reliques_compostelle",
+    "badge": "PIÉTÉ & ROUTES DE L'OCCIDENT MÉDIÉVAL",
+    "title": "Les Grands Pèlerinages, le Culte des Reliques et les Ex-Voto Marins",
+    "sources": "Codex Calixtinus (XIIe siècle) & Tradition des sanctuaires de pèlerinage",
+    "keywords": [
+      "pèlerinage",
+      "pelerinage",
+      "pèlerins",
+      "pelerins",
+      "reliques",
+      "compostelle",
+      "saint-jacques",
+      "ex-voto marin",
+      "pardon"
+    ],
+    "text": "<p>Dès le haut Moyen Âge, la vénération des tombeaux des apôtres et des reliques des martyrs suscite un vaste mouvement de pèlerinage à travers toute la chrétienté, vers Jérusalem, Rome, Saint-Jacques-de-Compostelle ainsi que vers d'innombrables sanctuaires régionaux nichés dans les montagnes ou sur les promontoires côtiers.</p>\n<p>Pour accueillir le flot continu des pèlerins venus implorer la guérison, le pardon des péchés ou la protection divine sans interrompre les offices monastiques, les bâtisseurs conçoivent des nefs spacieuses prolongées par un déambulatoire à chapelles rayonnantes permettant de circuler autour des reliquaires sacrés.</p>\n<p>Dans les sanctuaires maritimes et les pardons bretons ou méditerranéens, cette piété populaire se manifeste par l'offrande d'<em>ex-voto</em> — maquettes de navires finement gréées suspendues aux voûtes ou plaques commémoratives — témoignant de la gratitude des marins et des voyageurs sauvés des tempêtes et des périls.</p>"
+  },
+  "assomption_couronnement_vierge_marie": {
+    "id": "assomption_couronnement_vierge_marie",
+    "badge": "THÉOLOGIE & TRADITION MARIALE",
+    "title": "L'Assomption de la Vierge Marie, le Couronnement Céleste et le Rosaire",
+    "sources": "Tradition patristique du Transitus Mariae & Jacques de Voragine, La Légende dorée",
+    "keywords": [
+      "assomption",
+      "vierge noire",
+      "moreneta",
+      "rosaire",
+      "immaculée conception",
+      "immaculee conception",
+      "couronnement de la vierge",
+      "salve regina"
+    ],
+    "text": "<p>Au cœur de la dévotion chrétienne, la Vierge Marie occupe une place singulière en tant que Mère de Dieu (<em>Theotokos</em>) et médiatrice bienveillante intercédant auprès de son Fils pour le salut de l'humanité. Selon la tradition ancienne du <em>Transitus Mariae</em> recueillie dans <em>La Légende dorée</em>, au terme de sa vie terrestre en présence des Apôtres miraculeusement rassemblés, Marie fut élevée corps et âme dans la gloire céleste par les anges.</p>\n<p>Accueillie dans les cieux par la Trinité et couronnée Reine des anges et des saints, l'Assomption de la Vierge est devenue l'un des thèmes majeurs des coupoles et des grands retables d'autel, offrant aux fidèles une vision triomphante de l'espérance chrétienne par-delà la mort.</p>\n<p>Cette ferveur mariale s'exprime également à travers la vénération séculaire des Vierges noires des sanctuaires de montagne, la méditation des quinze mystères du Rosaire et le dogme de l'Immaculée Conception.</p>"
+  },
+  "contre_reforme_concile_trente_theatre_sacre": {
+    "id": "contre_reforme_concile_trente_theatre_sacre",
+    "badge": "HISTOIRE RELIGIEUSE & ART BAROQUE",
+    "title": "La Contre-Réforme, le Concile de Trente et l'Esthétique du Théâtre Sacré",
+    "sources": "Décrets du Concile de Trente (XXVe session, 1563) & Traités d'architecture sacrée",
+    "keywords": [
+      "contre-réforme",
+      "contre-reforme",
+      "concile de trente",
+      "baroque",
+      "rococo",
+      "quadratura",
+      "di sotto in su",
+      "gesamtkunstwerk",
+      "talha dourada",
+      "jésuites",
+      "jesuites",
+      "théatins",
+      "theatins"
+    ],
+    "text": "<p>En réponse à la Réforme protestante qui remettait en cause le culte des saints, des images et la présence réelle dans l'Eucharistie, l'Église catholique réunie lors du concile de Trente (1545-1563) réaffirme solennellement la valeur pédagogique et spirituelle de l'art sacré. Porté par les nouveaux ordres religieux — au premier rang desquels la Compagnie de Jésus et les Théatins —, ce renouveau donne naissance à l'esthétique baroque puis rococo.</p>\n<p>Conçu comme une œuvre d'art totale (<em>Gesamtkunstwerk</em>) unissant architecture, sculpture, stuc, marbres polychromes et peinture illusionniste, le sanctuaire devient un véritable théâtre sacré destiné à émouvoir les sens et à élever l'âme vers Dieu.</p>\n<p>Grâce à la perspective plafonnante (<em>di sotto in sù</em> et <em>quadratura</em>), les voûtes et les coupoles semblent s'ouvrir sur un ciel infini peuplé d'anges et de saints en gloire, tandis que les retables sculptés et dorés (<em>talha dourada</em>) magnifient le tabernacle eucharistique dans un rayonnement d'or et de lumière.</p>"
+  },
+  "humanisme_renaissance_cite_ideale_proportions": {
+    "id": "humanisme_renaissance_cite_ideale_proportions",
+    "badge": "PHILOSOPHIE & ARCHITECTURE DE LA RENAISSANCE",
+    "title": "L'Humanisme de la Renaissance, l'Ordre Classique et la Cité Idéale",
+    "sources": "Vitruve, De Architectura & Leon Battista Alberti, De Re Aedificatoria (1452)",
+    "keywords": [
+      "renaissance",
+      "néoclassicisme",
+      "neoclassicisme",
+      "ordre corinthien",
+      "ordre ionique",
+      "ordre dorique",
+      "cité idéale",
+      "cite ideale",
+      "palladien",
+      "palladianisme",
+      "caissons"
+    ],
+    "text": "<p>À partir du XVe siècle en Italie puis dans toute l'Europe, la redécouverte des traités de Vitruve et des monuments de l'Antiquité gréco-romaine transforme profondément la conception de l'espace sacré. Pour les théoriciens humanistes tels que Leon Battista Alberti, la beauté architecturale réside dans l'harmonie mathématique des proportions, reflet direct de l'ordre rationnel voulu par le Créateur pour l'univers.</p>\n<p>Rompant avec la verticalité mystique et l'asymétrie du Moyen Âge, l'architecture classique et néoclassique privilégie la clarté géométrique, la symétrie rigoureuse, le plan centré ou basilical lumineux et la grammaire des ordres antiques — dorique, ionique et corinthien — couronnés de coupoles hémisphériques et de voûtes à caissons.</p>\n<p>Inondé d'une lumière blanche et sereine symbolisant la raison et la vérité divine, l'édifice sacré réalise l'idéal humaniste de la Cité idéale où la mesure humaine s'accorde à l'harmonie cosmique.</p>"
+  },
+  "tradition_mudejare_charpenterie_navale": {
+    "id": "tradition_mudejare_charpenterie_navale",
+    "badge": "SAVOIR-FAIRE & MÉTISSAGES CULTURELS",
+    "title": "L'Art Mudéjar (Artesonado) et les Voûtes en Carène de Navire",
+    "sources": "Traités de charpenterie espagnole (Carpintería de lo blanco) & Tradition maritime",
+    "keywords": [
+      "mudéjar",
+      "mudejar",
+      "artesonado",
+      "alfarje",
+      "carène",
+      "carene",
+      "coque de navire",
+      "charpente",
+      "lambris"
+    ],
+    "text": "<p>Dans la péninsule Ibérique médiévale et jusqu'aux archipels atlantiques, la coexistence séculaire des cultures chrétienne et islamique donne naissance à un courant artistique singulier : l'art mudéjar. Les maîtres charpentiers formés aux traditions géométriques d'al-Andalus mettent leur virtuosité au service des édifices chrétiens, concevant de somptueux plafonds en bois sculpté et assemblé sans clous — les <em>artesonados</em> et <em>alfarjes</em> — aux entrelacs étoilés rehaussés de polychromie.</p>\n<p>Parallèlement, dans les régions maritimes et forestières d'Europe occidentale, les charpentiers de marine transposent directement les techniques de construction navale au couvrement des sanctuaires, édifiant de hautes voûtes lambrissées en forme de carène de navire renversée maintenues par des entraits et des poinçons apparents.</p>\n<p>Au-delà de leur légèreté structurelle et de leurs qualités acoustiques, ces charpentes en coque de vaisseau revêtent une forte portée symbolique : elles rappellent que l'Église est la nef de salut traversant les flots du monde vers le port de l'éternité.</p>"
+  },
+  "memento_mori_vanites_meditation_mort": {
+    "id": "memento_mori_vanites_meditation_mort",
+    "badge": "SPIRITUALITÉ & PHILOSOPHIE BAROQUE",
+    "title": "Memento Mori : La Méditation sur la Vanité et la Fragilité Humaine",
+    "sources": "Livre de l'Ecclésiaste (I, 2) & Spiritualité franciscaine de la Contre-Réforme",
+    "keywords": [
+      "memento mori",
+      "chapelle des os",
+      "ossements",
+      "crânes",
+      "vanité",
+      "vanite",
+      "macabre"
+    ],
+    "text": "<p>Inspirée par la sentence célèbre du livre biblique de l'Ecclésiaste — « Vanité des vanités, tout est vanité » —, la méditation sur la brièveté de la vie terrestre et l'égalité de tous les êtres humains devant la mort occupe une place centrale dans la spiritualité médiévale puis baroque.</p>\n<p>Loin d'exprimer un désespoir morbide, le thème du <em>Memento mori</em> (« Souviens-toi que tu vas mourir ») invite le visiteur à se détacher des illusions de la richesse, de l'orgueil et du pouvoir éphémère pour orienter son existence vers les valeurs spirituelles impérissables.</p>\n<p>Dans certaines chapelles ossuaires édifiées par les ordres mendiants, les ossements et les crânes exhumés des cimetières saturés deviennent eux-mêmes la matière première de l'architecture, composant une leçon silencieuse et saisissante sur la condition mortelle partagée par toute l'humanité.</p>"
+  },
+  "ordres_militaires_templiers_hospitaliers": {
+    "id": "ordres_militaires_templiers_hospitaliers",
+    "badge": "HISTOIRE DES CROISADES & ORDRE MILITAIRE",
+    "title": "Les Ordres Militaires (Templiers, Hospitaliers) et l'Archétype du Saint-Sépulcre",
+    "sources": "Règle du Temple (1129) & Chroniques des Croisades",
+    "keywords": [
+      "templiers",
+      "templier",
+      "hospitaliers",
+      "ordre du christ",
+      "saint-sépulcre",
+      "saint-sepulcre",
+      "rotonde",
+      "charola"
+    ],
+    "text": "<p>Nés à Jérusalem au XIIe siècle dans le sillage des croisades pour protéger les pèlerins sur les routes de Terre sainte et défendre les États latins d'Orient, les ordres religieux et militaires — au premier rang desquels l'Ordre du Temple et l'Ordre de Saint-Jean de Jérusalem (Hospitaliers) — unissent dans une même vocation l'idéal monastique de pauvreté et la chevalerie armée.</p>\n<p>D'un bout à l'autre de l'Europe et jusqu'aux confins de la Reconquête ibérique (où l'Ordre du Christ recueillit l'héritage templier), leurs commanderies et leurs sanctuaires adoptent deux formes architecturales emblématiques : d'une part des églises fortifiées aux murs épais servant de refuge aux populations rurales, d'autre part des oratoires en rotonde polygonale.</p>\n<p>Ce plan centré circulaire ou octogonal reproduit symboliquement l'architecture de l'Anastasis (la rotonde du Saint-Sépulcre de Jérusalem), inscrivant au cœur de l'Occident le mémorial sacré du tombeau vide et de la Résurrection du Christ.</p>"
+  },
+  "reforme_protestante_simultaneum_liturgie": {
+    "id": "reforme_protestante_simultaneum_liturgie",
+    "badge": "HISTOIRE RELIGIEUSE & RÉFORME",
+    "title": "La Réforme Protestante, la Centralité de la Parole et le Simultaneum",
+    "sources": "Confession d'Augsbourg (1530) & Paix d'Augsbourg (1555)",
+    "keywords": [
+      "réforme",
+      "reforme",
+      "protestante",
+      "protestant",
+      "luthérienne",
+      "lutherienne",
+      "presbytérienne",
+      "simultaneum",
+      "prédication"
+    ],
+    "text": "<p>Au XVIe siècle, la Réforme impulsée par Martin Luther en Allemagne puis par Jean Calvin et John Knox transforme profondément la liturgie et l'aménagement des sanctuaires en Europe du Nord et dans le monde rhénan. Plaçant l'Écriture sainte, la prédication de la Parole et le chant communautaire des psaumes au cœur du culte, les communautés réformées privilégient la lisibilité spatiale, la lumière naturelle et la mise en valeur de la chaire et de l'orgue.</p>\n<p>Si de nombreux édifices médiévaux furent alors dépouillés de leurs images jugées contraires au commandement biblique, d'autres conservèrent leur patrimoine sculpté et peint comme témoignage historique.</p>\n<p>Dans les régions biconfessionnelles d'Alsace et d'Allemagne du Sud s'instaura en outre l'usage singulier du <em>simultaneum</em> : un même édifice sacré était partagé entre les cultes catholique et protestant, témoignant d'un fragile équilibre de coexistence civique et religieuse.</p>"
+  },
+  "gnomon_meridienne_astronomie_sanctuaires": {
+    "id": "gnomon_meridienne_astronomie_sanctuaires",
+    "badge": "SCIENCES, ASTRONOMIE & LITURGIE",
+    "title": "Les Méridiennes et les Gnomons : L'Astronomie au Cœur des Sanctuaires",
+    "sources": "Traités de gnomonique des XVIIe et XVIIIe siècles & Calcul de l'équinoxe pascal",
+    "keywords": [
+      "méridienne",
+      "meridienne",
+      "gnomon",
+      "astronomie",
+      "solstice",
+      "équinoxe",
+      "equinoxe"
+    ],
+    "text": "<p>Bien avant la création des observatoires astronomiques modernes, les grandes églises et cathédrales d'Europe servirent de véritables instruments scientifiques de haute précision grâce à l'installation de méridiennes solaires et de gnomons sur le dallage de leur nef.</p>\n<p>À travers un petit orifice percé très haut dans la voûte ou la paroi méridionale, un rayon de soleil projetait chaque jour à midi vrai une tache lumineuse sur une règle de laiton ou de marbre incrustée dans le sol selon l'axe nord-sud, entourée des signes du Zodiaque.</p>\n<p>Ce dispositif permettait aux astronomes et aux mathématiciens de mesurer l'obliquité de l'écliptique, de déterminer avec exactitude les solstices et l'équinoxe de printemps — date indispensable pour fixer chaque année le calendrier mobile de la fête de Pâques — et de régler l'heure légale des cités.</p>"
+  },
    "renaissance_saite_xxvie_dynastie": {
     "id": "renaissance_saite_xxvie_dynastie",
     "badge": "HISTOIRE & ART DE L'ÉGYPTE TARDIVE",
