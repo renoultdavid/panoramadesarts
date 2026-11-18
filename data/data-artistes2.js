@@ -7891,27 +7891,28 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
               "icon": "🏛️"
             },
             {
-              "year": "1625 – 1627",
-              "title": "Paysage au satyre endormi et Midas au Pactole",
-              "desc": "Explore la sensualité du colorisme vénitien sous l'égide de Titien (Musée Fabre de Montpellier et Musée Fesch d'Ajaccio).",
+              "year": "1627 – 1628",
+              "title": "Le Triomphe de Flore & Bacchanales",
+              "desc": "Célèbre l'ivresse païenne, le renouveau de la nature et l'harmonie des Métamorphoses d'Ovide (Musée du Louvre).",
               "type": "artwork",
-              "artworkId": "poussin_paysage_satyre_1625",
-              "icon": "🍇"
+              "artworkId": "poussin_le_triomphe_de_flore_1627",
+              "icon": "🌸"
             },
             {
-              "year": "1627 – 1628",
-              "title": "Bacchanale à la joueuse de guitare",
-              "desc": "Célèbre l'ivresse bacchique et l'harmonie musicale dans une fête antique baignée de lumière dorée (Musée du Louvre).",
+              "year": "1630 – 1631",
+              "title": "La Peste d'Asdod",
+              "desc": "Transforme un châtiment biblique en une tragédie ordonnée et inaugure son esthétique dramatique de l'histoire (Musée du Louvre).",
               "type": "artwork",
-              "artworkId": "poussin_bacchanale_joueuse_guitare_1625",
-              "icon": "🎸"
+              "artworkId": "poussin_la_peste_d_asdod_louvre_1630",
+              "icon": "🏛️"
             },
             {
               "year": "1637 – 1638",
-              "title": "Et in Arcadia ego (Les Bergers d'Arcadie)",
-              "desc": "Chef-d'œuvre absolu de méditation stoïcienne et philosophique sur la présence de la mort au cœur même de la beauté pastorale.",
-              "type": "masterpiece",
-              "icon": "⭐"
+              "title": "L'Enlèvement des Sabines",
+              "desc": "Manifeste de la composition classique géométrique et de la peinture d'expression des passions de l'âme (Musée du Louvre).",
+              "type": "artwork",
+              "artworkId": "poussin_enlevement_des_sabines_1636",
+              "icon": "⚔️"
             }
           ]
         },
@@ -7923,23 +7924,34 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
             {
               "year": "1640 – 1642",
               "title": "Premier peintre du roi Louis XIII à Paris",
-              "desc": "Rappelé par Richelieu, il séjourne deux ans à la cour avant de fuir les intrigues parisiennes pour regagner son havre romain.",
-              "type": "history",
+              "desc": "Rappelé par Richelieu pour le Palais-Cardinal et Saint-Germain-en-Laye, avant de regagner son havre romain.",
+              "type": "artwork",
+              "artworkId": "poussin_temps_soustrait_la_verite_1641",
               "icon": "👑"
             },
             {
-              "year": "1648 – 1655",
-              "title": "L'apogée du Paysage héroïque et philosophique",
-              "desc": "Peint les Paysages avec Polyphème, Diogène et Phocion, où la nature devient le temple de l'ordre géométrique et de la raison.",
-              "type": "masterpiece",
-              "icon": "🌳"
+              "year": "1648 – 1649",
+              "title": "Le Jugement de Salomon & Diogène",
+              "desc": "Apothéose de la Raison géométrique et invention du paysage philosophique (Musée du Louvre).",
+              "type": "artwork",
+              "artworkId": "poussin_le_jugement_de_salomon_1649",
+              "icon": "⚖️"
             },
             {
-              "year": "1660 – 1664",
-              "title": "Le cycle des Quatre Saisons et mort à Rome",
-              "desc": "Achève son testament pictural pour le duc de Richelieu (Musée du Louvre) et s'éteint à Rome le 19 novembre 1665 à 71 ans.",
-              "type": "death",
-              "icon": "✝️"
+              "year": "1650",
+              "title": "Autoportrait pour Chantelou",
+              "desc": "Le manifeste indépassable de l'artiste-philosophe et de la peinture conçue comme Cosa Mentale (Musée du Louvre).",
+              "type": "artwork",
+              "artworkId": "poussin_autoportrait_1650",
+              "icon": "🪞"
+            },
+            {
+              "year": "1660 – 1665",
+              "title": "Le cycle des Quatre Saisons et Apollon amoureux de Daphné",
+              "desc": "Testament cosmique ultime pour Richelieu et le cardinal Massimi avant de s'éteindre à Rome le 19 novembre 1665.",
+              "type": "artwork",
+              "artworkId": "poussin_le_printemps_jardin_d_eden_1660",
+              "icon": "🌿"
             }
           ]
         }
