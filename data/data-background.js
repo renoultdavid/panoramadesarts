@@ -19,6 +19,608 @@ window.BACKGROUNDS_REGISTRY = {
     ],
     "text": "<p>Dans les <em>Fastes</em> d'Ovide, la déesse Flore elle-même conte son origine : autrefois nymphe des îles Fortunées sous le nom de Chloris, elle fut surprise par le souffle fougueux de Zéphyr, le vent du printemps. Épris de sa beauté, Zéphyr en fit son épouse légitime et lui offrit un don souverain : l'empire éternel des fleurs, des bourgeons, des semailles et des prés verdoyants.</p>\n<p>Dans ses jardins divins où règne un printemps immuable, la déesse recueille et veille sur les âmes des héros et des amants dont le destin tragique fut transfiguré par la pitié des dieux en corolles immortelles. Autour de son char triomphal dorénavant paré de guirlandes, les figures brisées du mythe renaissent sous forme végétale : Narcisse, consumé par son propre reflet et devenu fleur immaculée au cœur pourpre ; Hyacinthe, favori d'Apollon mortellement frappé par un disque et changé en fleur étoilée ; Adonis, transpercé par le sanglier sauvage et métamorphosé en anémone fragile ; ou encore le fier Ajax qui, s'étant jeté sur son glaive, voit son sang irriguer l'œillet dont les pétales portent gravées les lettres de sa douleur.</p>\n<p>Ce récit est une allégorie cosmique de la victoire perpétuelle du renouveau sur la mort : par la grâce de la poésie et de l'amour, la souffrance terrestre et la brièveté de la vie mortelle sont absorbées dans le cycle infini de la nature féconde.</p>"
   },
+   "demeter_kore_persephone_eleusis": {
+    "id": "demeter_kore_persephone_eleusis",
+    "badge": "MYTHOLOGIE & MYSTÈRES GRECS",
+    "title": "Déméter, Koré-Perséphone et les Cultes Chthoniens de Sicile et d'Éleusis",
+    "sources": "Hymne homérique à Déméter & Diodore de Sicile, Bibliothèque historique (Livre V)",
+    "keywords": [
+      "déméter",
+      "demeter",
+      "koré",
+      "kore",
+      "perséphone",
+      "persephone",
+      "éleusis",
+      "eleusis",
+      "chthoniens"
+    ],
+    "text": "<p>Déesse de l'agriculture, des moissons et de la fertilité de la terre nourricière, Déméter vit sa fille bien-aimée Koré enlevée sur les prairies fleuries d'Enna, en Sicile, par Hadès, souverain des Enfers. Plongée dans un deuil inconsolable, la déesse quitta l'Olympe et frappa la terre d'une stérilité totale, menaçant l'humanité de famine jusqu'à ce que Zeus négocie un compromis : Koré — devenue Perséphone, reine des morts — passerait une partie de l'année dans le royaume souterrain et remonterait chaque printemps auprès de sa mère, ramenant avec elle la floraison et les récoltes.</p>\n<p>Ce mythe fondateur du cycle des saisons et de la renaissance par-delà la mort donna naissance aux célèbres Mystères d'Éleusis, qui promettaient aux initiés une destinée bienheureuse dans l'au-delà.</p>\n<p>En Grande-Grèce et tout particulièrement en Sicile — terre consacrée aux deux déesses (« les Deux Déesses ») comme en témoigne l'ampleur des sanctuaires d'Agrigente, de Géla et de Paestum —, le culte chthonien de Déméter et Koré occupait le cœur de la piété civique et funéraire.</p>"
+  },
+  "mythe_niobides_apollon_artemis": {
+    "id": "mythe_niobides_apollon_artemis",
+    "badge": "MYTHOLOGIE GRECQUE",
+    "title": "L'Hybris de Niobé et le Massacre des Niobides par Apollon et Artémis",
+    "sources": "Ovide, Métamorphoses (Livre VI) & Apollodore, Bibliothèque (Livre III)",
+    "keywords": [
+      "niobides",
+      "niobé",
+      "niobe",
+      "léto",
+      "leto"
+    ],
+    "text": "<p>Reine de Thèbes et épouse du roi Amphion, Niobé jouissait d'une félicité exceptionnelle, mère de quatorze enfants — sept fils et sept filles — dont la beauté faisait son orgueil. Enivrée par sa prospérité, elle commit le péché suprême d'<em>hybris</em> (démesure) lors d'une fête en l'honneur de Léto : elle interdit aux Thébaines de sacrifier à la déesse, proclamant sa supériorité sur celle qui n'avait enfanté que deux enfants, Apollon et Artémis.</p>\n<p>Outragée par cet affront, Léto appela ses deux enfants divins à venger son honneur. Descendant sur Thèbes armés de leurs arcs d'argent et d'or, Apollon abattit de ses flèches infaillibles les sept fils de Niobé qui s'exerçaient au gymnase, tandis qu'Artémis perçait de ses traits les sept filles réunies dans le palais royal.</p>\n<p>Foudroyée par la douleur devant les dépouilles de tous ses enfants, Niobé fut transportée par les vents sur le mont Sipyle, en Lydie, où elle fut métamorphosée en un rocher de pierre d'où continuent de couler éternellement ses larmes.</p>"
+  },
+  "grande_grece_cites_occidentales": {
+    "id": "grande_grece_cites_occidentales",
+    "badge": "HISTOIRE DU MONDE GREC OCCIDENTAL",
+    "title": "La Grande-Grèce (Magna Graecia) : Le Rayonnement des Cités Grecques d'Italie et de Sicile",
+    "sources": "Strabon, Géographie (Livres V & VI) & Thucydide, Histoire de la guerre du Péloponnèse",
+    "keywords": [
+      "grande-grèce",
+      "grande grece",
+      "tarente",
+      "apulie",
+      "apulien",
+      "apulienne",
+      "campanie",
+      "campanienne",
+      "agrigente",
+      "akragas",
+      "paestum",
+      "poseidonia",
+      "sybaris",
+      "canosa",
+      "sicéliote"
+    ],
+    "text": "<p>À partir du VIIIe siècle avant J.-C., poussées par l'essor démographique et la recherche de terres fertiles et de comptoirs commerciaux, les cités de Grèce continentale et d'Ionie fondent une constellation de colonies prospères sur les rivages de l'Italie méridionale et de la Sicile : Cumes, Sybaris, Crotone, Tarente, Poséidonia (Paestum), Syracuse, Géla et Akragas (Agrigente).</p>\n<p>La richesse agricole de leurs plaines, l'intensité de leurs échanges maritimes et la puissance de leurs aristocraties valurent à cet ensemble le nom prestigieux de <em>Magna Graecia</em> — la Grande-Grèce —, dont les temples doriques colossaux rivalisaient de splendeur avec ceux de la mère patrie.</p>\n<p>Aux Ve et IVe siècles avant J.-C., les ateliers d'Apulie, de Campanie et de Sicile développèrent une céramique à figures rouges d'une virtuosité spectaculaire — le « style orné » — produisant d'immenses cratères à volutes et loutrophores funéraires qui témoignent du dialogue fécond entre la culture hellénique et les élites italiques indigènes.</p>"
+  },
+  "royaume_pergame_attalides_baroque": {
+    "id": "royaume_pergame_attalides_baroque",
+    "badge": "HISTOIRE & ART HELLÉNISTIQUE",
+    "title": "Le Royaume de Pergame, la Dynastie des Attalides et le « Baroque Hellénistique »",
+    "sources": "Strabon, Géographie (Livre XIII) & Pline l'Ancien, Histoire naturelle",
+    "keywords": [
+      "pergame",
+      "attalides",
+      "vase de pergame"
+    ],
+    "text": "<p>Au IIIe et au IIe siècle avant J.-C., dans le sillage du partage de l'empire d'Alexandre le Grand, la cité escarpée de Pergame, en Mysie (Asie Mineure), s'impose sous la dynastie des Attalides comme l'une des capitales culturelles et artistiques les plus brillantes du monde hellénistique.</p>\n<p>Vainqueurs des redoutables Celtes Galates qui menaçaient l'Asie Mineure, les souverains Attale Ier et Eumène II se posent en héritiers et défenseurs de l'hellénisme face à la barbarie, dotant leur acropole d'une bibliothèque rivale de celle d'Alexandrie (où fut perfectionné le parchemin, la <em>pergamena</em>) et de monuments d'une théâtralité sans précédent tel le Grand Autel de Zeus.</p>\n<p>Dans les ateliers royaux de Pergame s'épanouit le style dit « baroque hellénistique », caractérisé par le goût de la démesure monumentale, le souffle pathétique, les musculatures exacerbées et les drapés tourmentés qui animent aussi bien les grands groupes sculptés que les vases colossaux en marbre.</p>"
+  },
+  "gymnase_palestre_kalokagathia": {
+    "id": "gymnase_palestre_kalokagathia",
+    "badge": "SOCIÉTÉ & CITOYENNETÉ GRECQUE",
+    "title": "Le Gymnase, la Palestre et l'Idéal Grec de la Kalokagathia",
+    "sources": "Platon, La République & Lucien de Samosate, Anacharsis",
+    "keywords": [
+      "gymnase",
+      "palestre",
+      "strigile",
+      "strigiles",
+      "kalokagathia",
+      "discobole",
+      "athlète",
+      "athlètes",
+      "aryballe",
+      "aryballes"
+    ],
+    "text": "<p>Au cœur de la cité grecque, le gymnase et la palestre constituent bien plus que de simples terrains d'entraînement sportif : ce sont des institutions civiques et éducatives fondamentales où les jeunes citoyens (les <em>éphèbes</em>) forgent à la fois leur corps par les exercices physiques et leur esprit par les entretiens philosophiques et musicaux.</p>\n<p>Cette éducation globale incarne l'idéal suprême de la <em>kalokagathia</em> — l'alliance indissociable du Beau (<em>kalos</em>) et du Bon (<em>agathos</em>) — selon lequel l'harmonie et la maîtrise du corps reflètent l'excellence morale et le courage du citoyen-soldat.</p>\n<p>S'exerçant nus (<em>gymnoi</em>) après s'être enduits le corps d'huile d'olive parfumée conservée dans un petit <em>aryballe</em> suspendu au poignet, les athlètes pratiquaient la lutte, la course, le saut et le lancer du disque, avant de se racler la peau mêlée d'huile et de sable de la palestre à l'aide d'un racloir métallique recourbé, le <em>strigile</em>.</p>"
+  },
+  "rites_funeraires_grece_prothesis": {
+    "id": "rites_funeraires_grece_prothesis",
+    "badge": "RITES & CROYANCES DE LA GRÈCE ANTIQUE",
+    "title": "Les Rites Funéraires en Grèce Antique : Prothesis, Déploration et Offrandes",
+    "sources": "Homère, Iliade (Chant XXIII) & Lois funéraires de Solon",
+    "keywords": [
+      "prothesis",
+      "loutrophore",
+      "pleureuses",
+      "lécythe",
+      "lecythe",
+      "déploration"
+    ],
+    "text": "<p>Dans la Grèce antique, l'accomplissement scrupuleux des rites funéraires constituait un devoir sacré indispensable pour permettre à l'âme du défunt (la <em>psyché</em>) de franchir le fleuve Styx et de trouver le repos dans le royaume d'Hadès, sans errer éternellement entre deux mondes.</p>\n<p>Le cérémonial s'ouvrait par la <em>prothesis</em> : après la toilette rituelle et l'onction d'huiles parfumées par les femmes de la famille, le corps enveloppé d'un linceul était exposé sur un lit de parade (<em>kliné</em>) au sein de la demeure, entouré de proches et de pleureuses entonnant les chants de lamentation (le <em>thrène</em>). Avant l'aube du troisième jour avait lieu l'<em>ekphora</em>, le cortège funèbre conduisant le défunt hors des remparts jusqu'à la nécropole.</p>\n<p>Sur la tombe, signalée dès l'époque géométrique par de grands vases monumentaux ou des <em>loutrophores</em> (réservées aux jeunes gens morts avant le mariage), les familles déposaient des <em>lécythes</em> remplis d'huile parfumée et versaient des libations de vin, d'eau et de miel pour honorer la mémoire du disparu.</p>"
+  },
+  "heracles_enfers_cerbere_busiris": {
+    "id": "heracles_enfers_cerbere_busiris",
+    "badge": "MYTHOLOGIE GRECQUE",
+    "title": "Héraclès aux Enfers et en Égypte : La Capture de Cerbère et le Roi Busiris",
+    "sources": "Apollodore, Bibliothèque (Livre II) & Hérodote, Histoires (Livre II)",
+    "keywords": [
+      "cerbère",
+      "cerbere",
+      "eurysthée",
+      "eurysthee",
+      "busiris",
+      "hydre",
+      "iolaos"
+    ],
+    "text": "<p>Pour son douzième et ultime travail, le roi Eurysthée imposa à Héraclès l'épreuve la plus périlleuse jamais tentée par un mortel : descendre vivant dans les profondeurs des Enfers et en ramener à mains nues Cerbère, le chien monstrueux à trois têtes, à la queue de dragon et à l'échine hérissée de serpents qui gardait les portes du royaume d'Hadès.</p>\n<p>Guidé par Hermès et Athéna, le héros obtint d'Hadès l'autorisation d'emmener le molosse à condition de le dompter sans armes : protégé par sa peau de lion (la <em>léonté</em>), Héraclès saisit la bête à la gorge et la traîna jusqu'au palais de Mycènes, où Eurysthée, frappé d'épouvante à la vue du monstre, se réfugia au fond d'une grande jarre de bronze enterrée (un <em>pithos</em>).</p>\n<p>Au cours de ses pérégrinations vers le jardin des Hespérides, Héraclès traversa également l'Égypte gouvernée par le cruel roi Busiris, qui sacrifiait chaque étranger sur l'autel de Zeus pour conjurer une sécheresse : conduit lui-même à l'autel comme victime, le héros brisa ses liens et terrassa le tyran et ses prêtres.</p>"
+  },
+  "geranomachie_pygmees_grues": {
+    "id": "geranomachie_pygmees_grues",
+    "badge": "MYTHOLOGIE & IMAGINAIRE ANTIQUE",
+    "title": "La Géranomachie : Le Combat Mythique des Pygmées et des Grues",
+    "sources": "Homère, Iliade (Chant III, 3-6) & Pline l'Ancien, Histoire naturelle (Livre VII)",
+    "keywords": [
+      "géranomachie",
+      "geranomachie",
+      "pygmée",
+      "pygmee",
+      "pygmées",
+      "grue",
+      "grues"
+    ],
+    "text": "<p>Dès les premiers vers du chant III de l'<em>Iliade</em>, Homère compare les clameurs des guerriers troyens marchant au combat aux cris stridents des grues qui, fuyant l'hiver et les pluies glacées du Nord, s'envolent vers les courants du fleuve Océan en portant le carnage et la mort au peuple légendaire des Pygmées.</p>\n<p>Selon la tradition antique, les Pygmées — peuple minuscule haut d'une seule coudée vivant aux confins méridionaux de la terre, près des sources du Nil — étaient engagés chaque année à l'automne dans une guerre sans merci contre les nuées de grues migratrices qui venaient ravager leurs moissons et piller leurs champs.</p>\n<p>Sujet très apprécié des peintres de vases attiques, italiotes et étrusques, la <em>Géranomachie</em> mettait en scène ces petits guerriers armés en hoplites miniatures affrontant héroïquement des échassiers plus grands qu'eux, offrant aux convives du banquet une variation pleine de verve et d'humour sur les thèmes épiques du courage et de la guerre.</p>"
+  },
+  "civilisation_etrusque_bucchero_commerce": {
+    "id": "civilisation_etrusque_bucchero_commerce",
+    "badge": "CIVILISATION ÉTRUSQUE",
+    "title": "La Civilisation Étrusque : Cités-États, Bucchero Nero et Maîtrise de la Mer Tyrrhénienne",
+    "sources": "Tite-Live, Histoire romaine (Livre V) & Denys d'Halicarnasse",
+    "keywords": [
+      "étrusque",
+      "etrusque",
+      "étrurie",
+      "etrurie",
+      "bucchero",
+      "caeré",
+      "caere",
+      "cerveteri",
+      "vulci",
+      "chiusi",
+      "volterra",
+      "aléria",
+      "aleria",
+      "nicosthénienne"
+    ],
+    "text": "<p>Entre le VIIIe et le Ier siècle avant J.-C., l'Étrurie — correspondant à l'actuelle Toscane et au nord du Latium — fut le foyer de la première grande civilisation urbaine de la péninsule Italique. Organisés en une confédération religieuse et politique de douze cités-États souveraines (la Dodécapole, réunissant notamment Caeré, Tarquinia, Vulci, Véies, Chiusi et Volterra), les Étrusques bâtirent leur prospérité sur l'exploitation des riches gisements métallifères d'Étrurie et de l'île d'Elbe.</p>\n<p>Grands navigateurs et commerçants contrôlant la mer Tyrrhénienne jusqu'aux comptoirs de Corse comme Aléria, les princes étrusques importaient massivement les vases précieux de Corinthe et d'Athènes — au point que les potiers athéniens comme Nicosthénès créèrent des formes spécialement adaptées à leur goût.</p>\n<p>Parallèlement, les ateliers étrusques développèrent leur céramique nationale emblématique, le <em>bucchero nero</em> : cuite en atmosphère réductrice pour obtenir une pâte noire brillante imitant l'éclat des vases d'argent et de bronze, elle fut exportée sur tous les rivages de la Méditerranée.</p>"
+  },
+  "banquet_etrusque_femme_tarquinia": {
+    "id": "banquet_etrusque_femme_tarquinia",
+    "badge": "SOCIÉTÉ & ART ÉTRUSQUE",
+    "title": "Le Banquet Étrusque, le Statut de la Femme et les Fresques de Tarquinia",
+    "sources": "Théopompe, Histoires philippiques & Athénée, Deipnosophistes",
+    "keywords": [
+      "tarquinia",
+      "sarcophage des époux",
+      "banqueteur",
+      "banqueteuse",
+      "lionnes",
+      "léopards",
+      "jongleurs",
+      "bacchants",
+      "klinai"
+    ],
+    "text": "<p>Contrairement aux usages de la Grèce classique où les épouses légitimes étaient exclues du banquet masculin, la société étrusque accordait aux femmes de l'aristocratie une liberté et une dignité exceptionnelles qui surprenaient profondément les auteurs grecs et romains. Conservant leur nom propre et participant pleinement à la vie sociale, l'épouse étrusque prenait place aux côtés de son mari sur le lit de banquet (<em>kliné</em>), comme l'illustre avec tendresse le célèbre <em>Sarcophage des Époux</em> de Cerveteri.</p>\n<p>Dans les tombes peintes de la nécropole de Tarquinia (Tombes des Léopards, des Lionnes, des Jongleurs ou des Bacchants), les fresques célèbrent la joie de vivre terrestre projetée dans l'éternité : entourés de musiciens jouant de la double flûte (<em>subulo</em>) et de la cithare, de danseurs en transe et d'acrobates, les époux banquettent sous des pavillons fleuris, tenant l'œuf symbolique de la renaissance.</p>\n<p>Jusqu'à l'époque hellénistique, les défunts continuèrent de se faire représenter sur les couvercles de leurs urnes cinéraires dans cette même posture de banqueteur couronné tenant la coupe à libation ou l'éventail.</p>"
+  },
+  "au_dela_etrusque_charun_vanth": {
+    "id": "au_dela_etrusque_charun_vanth",
+    "badge": "RELIGION & ESCHATOLOGIE ÉTRUSQUE",
+    "title": "L'Au-Delà Étrusque : Les Démons Charun et Vanth et le Voyage vers les Enfers",
+    "sources": "Disciplina Etrusca & Fresques funéraires de Tarquinia et Orvieto",
+    "keywords": [
+      "charun",
+      "charons",
+      "vanth",
+      "carpentum",
+      "bomarzo",
+      "fausse porte"
+    ],
+    "text": "<p>À partir du IVe siècle avant J.-C., alors que les cités étrusques subissent la pression militaire croissante de Rome, la vision sereine de l'au-delà comme un banquet joyeux laisse progressivement place à une eschatologie plus grave et dramatique, centrée sur le voyage périlleux de l'âme vers le royaume souterrain d'Aita (Hadès).</p>\n<p>Sur les bas-reliefs des urnes cinéraires de Volterra et de Chiusi, le défunt entreprend son ultime trajet à cheval ou dans un chariot couvert (le <em>carpentum</em>), escorté par deux divinités psychopompes propres au panthéon étrusque : la douce Vanth, déesse féminine ailée portant souvent un flambeau pour éclairer la route des ombres et un rouleau où est inscrit le destin, et le redoutable Charun.</p>\n<p>Bien différent du vieux nocher grec Charon, le Charun étrusque est un démon infernal ailé au nez crochu et à la peau bleuâtre qui brandit un lourd maillet : loin d'être un bourreau, ce gardien du seuil frappe les verrous de la fausse porte des Enfers pour ouvrir au défunt le passage vers l'éternité.</p>"
+  },
+  "pantheon_etrusque_lasas_turms": {
+    "id": "pantheon_etrusque_lasas_turms",
+    "badge": "RELIGION & MYTHOLOGIE ÉTRUSQUE",
+    "title": "Le Panthéon Étrusque et les Lasas : Tinia, Uni, Turan, Fufluns et Turms",
+    "sources": "Foie de Plaisance & Martianus Capella, De Nuptiis",
+    "keywords": [
+      "lasa",
+      "lasas",
+      "turms",
+      "fufluns",
+      "turan",
+      "tinia",
+      "uni",
+      "plaques campana"
+    ],
+    "text": "<p>Profondément attachés à la divination et à l'interprétation de la volonté céleste consignée dans les livres sacrés de la <em>Disciplina Etrusca</em>, les Étrusques vénéraient un panthéon complexe dans lequel leurs divinités indigènes s'identifièrent précocement aux grands dieux de l'Olympe grec.</p>\n<p>Au sommet régnait la triade suprême composée de Tinia (Zeus), maître de la foudre, de son épouse Uni (Héra) et de Menrva (Athéna), entourés de Turan (Aphrodite), déesse de l'amour et de la beauté, de Fufluns (Dionysos), dieu du vin et de la régénération mystique, et de Turms (Hermès), messager divin coiffé du pétase et guide des âmes.</p>\n<p>Autour de Turan évoluaient les <em>Lasas</em>, gracieuses divinités féminines ailées propres à l'imaginaire étrusque : incarnations de la jeunesse, de la parure et du destin individuel, elles accompagnent la toilette des nobles dames sur les miroirs en bronze gravés et veillent sur le repos des défunts sur les vases funéraires.</p>"
+  },
+  "cycle_thebain_eteocle_polynice": {
+    "id": "cycle_thebain_eteocle_polynice",
+    "badge": "MYTHOLOGIE GRECQUE & ÉTRUSQUE",
+    "title": "Le Cycle Thébain : La Malédiction d'Œdipe et le Duel d'Étéocle et Polynice",
+    "sources": "Eschyle, Les Sept contre Thèbes & Euripide, Les Phéniciennes",
+    "keywords": [
+      "étéocle",
+      "eteocle",
+      "polynice",
+      "œdipe",
+      "oedipe",
+      "thébain"
+    ],
+    "text": "<p>Après qu'Œdipe eut découvert l'horreur de son parricide et de son mariage incestueux avec sa mère Jocaste, il se creva les yeux et maudit ses deux fils, Étéocle et Polynice, qui l'avaient abandonné à son sort : il leur prédit qu'ils partageraient leur héritage royal non par la paix, mais par le fer.</p>\n<p>Pour conjurer l'oracle, les deux frères convinrent d'exercer le pouvoir sur Thèbes à tour de rôle, une année chacun. Mais au terme de la première année, Étéocle refusa de céder le trône et chassa son frère. Réfugié à Argos, Polynice leva une puissante armée conduite par sept chefs — l'expédition des <em>Sept contre Thèbes</em> — et vint assiéger sa propre patrie.</p>\n<p>L'assaut s'acheva devant la septième porte de la cité par un duel fratricide au cours duquel Étéocle et Polynice s'entre-tuèrent mutuellement d'un même coup d'épée. Ce thème tragique de la fatalité inéluctable fut l'un des sujets favoris des urnes cinéraires étrusques de Chiusi et de Volterra.</p>"
+  },
+  "achille_troilos_guerre_troie": {
+    "id": "achille_troilos_guerre_troie",
+    "badge": "ÉPOPÉE & CYCLE TROYEN",
+    "title": "La Guerre de Troie : L'Embuscade d'Achille contre le Jeune Prince Troïlos",
+    "sources": "Chants Cypriens & Virgile, Énéide (Chant I, 474-478)",
+    "keywords": [
+      "troïlos",
+      "troilos",
+      "achille",
+      "cycle troyen",
+      "guerre de troie"
+    ],
+    "text": "<p>Selon les récits du Cycle épique complétant l'<em>Iliade</em> d'Homère, un oracle solennel avait annoncé aux Grecs que la cité de Troie demeurerait imprenable si le plus jeune fils du roi Priam et de la reine Hécube, l'adolescent Troïlos, parvenait à atteindre l'âge de vingt ans.</p>\n<p>Informé de cette prophétie, le héros grec Achille dressa une embuscade au pied des remparts de Troie, près du sanctuaire d'Apollon Thymbréen, à l'heure où le jeune prince venait abreuver ses chevaux à la fontaine sacrée en compagnie de sa sœur Polyxène. Surgissant de derrière un autel ou un pilier avec la vitesse qui lui valait le surnom d'« Achille aux pieds légers », le guerrier achéen poursuivit le jeune cavalier jusqu'au seuil du temple d'Apollon et l'immola sur l'autel même du dieu.</p>\n<p>Cet acte sacrilège scella à la fois la perte future de Troie et le destin tragique d'Achille lui-même, condamné à périr sous les flèches guidées par la vengeance d'Apollon, thème que les peintres étrusques aimaient réunir sur un même vase.</p>"
+  },
+  "orfevrerie_bronze_etrusque_preneste": {
+    "id": "orfevrerie_bronze_etrusque_preneste",
+    "badge": "SAVOIR-FAIRE & ARTS DU MÉTAL",
+    "title": "L'Orfèvrerie et le Bronze en Étrurie et à Préneste : Granulation, Miroirs et Cistes",
+    "sources": "Pline l'Ancien, Histoire naturelle (Livre XXXIV) & Archéologie de Préneste",
+    "keywords": [
+      "granulation",
+      "filigrane",
+      "ciste",
+      "préneste",
+      "preneste",
+      "palestrina",
+      "miroir en bronze",
+      "achéloos",
+      "acheloos"
+    ],
+    "text": "<p>Réputés dans toute la Méditerranée antique pour leur maîtrise incomparable des arts du métal, les orfèvres et bronziers d'Étrurie et du Latium portèrent à un degré de perfection inégalé la technique de la <em>granulation</em>. Ce procédé virtuose consistait à souder à chaud des milliers de microbilles d'or — parfois inférieures à un cinquième de millimètre — sur une feuille d'or, dessinant des motifs géométriques, des têtes de lion ou le visage cornu du dieu-fleuve protecteur Achéloos sans jamais altérer la finesse du métal.</p>\n<p>Dans le domaine du bronze, les ateliers de Vulci produisaient des trônes princiers en tôle repoussée et des trépieds exportés jusqu'à Athènes, tandis que la cité latine de Préneste (l'actuelle Palestrina) s'illustrait au IVe siècle avant J.-C. par ses célèbres <em>cistes</em> cylindriques.</p>\n<p>Ces luxueux coffrets de toilette féminins en bronze gravé au burin de scènes mythologiques, posés sur des pieds en griffes de lion et couronnés de figurines en ronde-bosse, renfermaient les miroirs en bronze poli au revers finement ciselé offerts lors des noces aristocratiques.</p>"
+  },
+  "ka_ba_akh_ame_egyptienne": {
+    "id": "ka_ba_akh_ame_egyptienne",
+    "badge": "RELIGION & ESCHATOLOGIE ÉGYPTIENNE",
+    "title": "Le Ka, le Ba et l'Akh : Les Composantes de l'Être et les Serviteurs d'Éternité",
+    "sources": "Textes des Pyramides & Textes des Sarcophages",
+    "keywords": [
+      "ka",
+      "statue du ka",
+      "hor ier",
+      "barque funéraire",
+      "maquette",
+      "servante",
+      "serviteur funéraire",
+      "abydos"
+    ],
+    "text": "<p>Dans l'anthropologie spirituelle de l'Égypte antique, l'être humain ne se résume pas à son corps physique (<em>Djet</em>), mais réunit plusieurs principes immatériels indispensables à sa survie dans l'au-delà : le <em>Ka</em>, double spirituel et force vitale créatrice figurée par le hiéroglyphe de deux bras levés ; le <em>Ba</em>, personnalité mobile représentée par un oiseau à tête humaine ; et l'<em>Akh</em>, esprit lumineux transfiguré parmi les étoiles.</p>\n<p>Pour que le <em>Ka</em> demeure actif après la mort et puisse recevoir les offrandes rituelles, on déposait dans la chapelle funéraire (le <em>serdab</em>) une statue du défunt — ou du souverain, telle la célèbre statue du Ka du roi Hor Ier à Dahshour — servant de demeure éternelle à son énergie vitale.</p>\n<p>À l'Ancien et au Moyen Empire, des statuettes de serviteurs (boulangers, brasseuses de bière, porteurs) ainsi que des maquettes de barques en bois peint entouraient le cercueil afin d'assurer magiquement au mort sa subsistance quotidienne et le voyage sacré vers la ville sainte d'Osiris à Abydos.</p>"
+  },
+  "psousennes_ier_tresor_tanis": {
+    "id": "psousennes_ier_tresor_tanis",
+    "badge": "HISTOIRE & ARCHÉOLOGIE ÉGYPTIENNE",
+    "title": "Psousennès Ier, le « Pharaon d'Argent », et le Trésor Royal de Tanis",
+    "sources": "Fouilles de Pierre Montet à Tanis (1939-1940)",
+    "keywords": [
+      "psousennès",
+      "psousennes",
+      "tanis",
+      "pharaon d'argent",
+      "montet",
+      "xxie dynastie"
+    ],
+    "text": "<p>Au XIe siècle avant J.-C., au début de la Troisième Période intermédiaire, l'Égypte se divise politiquement entre le clergé thébain d'Amon au sud et les rois de la XXIe dynastie établis au nord dans leur nouvelle capitale du delta du Nil, Tanis (la « Thèbes du Nord »).</p>\n<p>C'est dans cette métropole que l'égyptologue français Pierre Montet mit au jour en février 1940, à l'ombre de la Seconde Guerre mondiale, le caveau royal intact du pharaon Psousennès Ier (vers 1039-991 av. J.-C.), seule sépulture royale inviolée découverte en Égypte aux côtés de celle de Toutânkhamon.</p>\n<p>Surnommé le « Pharaon d'Argent » en raison de son somptueux sarcophage anthropomorphe en argent massif — métal plus rare et plus précieux encore que l'or en Égypte antique, assimilé aux os des dieux —, Psousennès Ier reposait paré d'un masque d'or, de lourds colliers cérémoniels (<em>mankhet</em>), de sandales et de doigtiers d'or, entouré de ses vases canopes royaux en albâtre et or.</p>"
+  },
+  "scribes_vizirs_sagesse_ancien_empire": {
+    "id": "scribes_vizirs_sagesse_ancien_empire",
+    "badge": "SOCIÉTÉ & ADMINISTRATION ÉGYPTIENNE",
+    "title": "Les Scribes, les Vizirs et les Enseignements de Sagesse de l'Ancien Empire",
+    "sources": "Maximes de Ptahhotep & Satire des Métiers",
+    "keywords": [
+      "scribe",
+      "scribes",
+      "ptahhotep",
+      "vizir",
+      "tailleur",
+      "papyrus"
+    ],
+    "text": "<p>Dans l'Égypte pharaonique, l'écriture hiéroglyphique — littéralement les « paroles du dieu » (<em>médou-néter</em>), inventées par le dieu Thot — constituait le socle sacré du pouvoir et de l'administration de l'État. Maîtrisée par une élite restreinte formée dès l'enfance dans la « Maison de Vie », l'art du scribe ouvrait l'accès aux plus hautes charges du royaume, jusqu'à la fonction suprême de vizir (<em>tjaty</em>).</p>\n<p>Représentés assis en tailleur, le pagne tendu sur les genoux pour soutenir le rouleau de papyrus déroulé et le regard concentré dans l'attente de la parole à consigner, les scribes incarnent la pérennité de l'ordre administratif et intellectuel de l'Ancien Empire.</p>\n<p>À l'image du célèbre vizir memphite Ptahhotep sous la Ve dynastie, ces grands lettrés rédigèrent des <em>Enseignements</em> (<em>Sebayt</em>) transmis de génération en génération, exaltant l'écoute attentive, la mesure dans la parole, l'équité envers les humbles et le respect de la <em>Maât</em>.</p>"
+  },
+  "medecine_chirurgie_egypte_antique": {
+    "id": "medecine_chirurgie_egypte_antique",
+    "badge": "SCIENCES & MÉDECINE ANTIQUE",
+    "title": "La Médecine, la Chirurgie et les Sept Huiles Sacrées en Égypte Antique",
+    "sources": "Papyrus chirurgical Edwin Smith & Papyrus médical Ebers",
+    "keywords": [
+      "chirurgicaux",
+      "chirurgie",
+      "qar",
+      "médecin",
+      "medecin",
+      "sept huiles",
+      "onguents",
+      "scalpels"
+    ],
+    "text": "<p>Réputée dans tout le monde antique — au point que les souverains étrangers sollicitaient l'envoi de praticiens égyptiens à leur cour —, la médecine pharaonique associait étroitement l'observation clinique rigoureuse et les invocations magico-religieuses placées sous le patronage de Thot, d'Isis, de Sekhmet et du sage divinisé Imhotep.</p>\n<p>Comme en témoignent les célèbres papyrus médicaux (Edwin Smith et Ebers) et la trousse d'instruments chirurgicaux en bronze retrouvée dans la tombe du médecin royal Qar à Saqqarah sous la VIe dynastie, les praticiens (<em>sounou</em>) maîtrisaient la réduction des fractures, la suture des plaies, la cautérisation ainsi qu'une riche pharmacopée à base de plantes, de miel et de minéraux.</p>\n<p>Indissociables des soins thérapeutiques et des rites funéraires d'onction, les « sept huiles sacrées » — conservées dans des palettes en albâtre à cupules nommées — assuraient la purification, la souplesse et la régénération du corps vivant comme du défunt.</p>"
+  },
+   "empire_perse_achemenide_cyrus_darius": {
+    "id": "empire_perse_achemenide_cyrus_darius",
+    "badge": "HISTOIRE DE LA PERSE ANTIQUE",
+    "title": "L'Empire Perse Achéménide : Cyrus le Grand, Darius Ier et la Pax Persica",
+    "sources": "Cylindre de Cyrus, Inscription de Behistun & Hérodote, Histoires",
+    "keywords": [
+      "achéménide",
+      "achemenide",
+      "achéménides",
+      "darius ier",
+      "cyrus le grand",
+      "cylindre de cyrus",
+      "apadana",
+      "immortels",
+      "mélophores",
+      "faravahar",
+      "ahura mazda"
+    ],
+    "text": "<p>Au VIe siècle avant J.-C., Cyrus le Grand fonde la dynastie achéménide et bâtit en quelques décennies le premier empire universel de l'histoire, s'étendant des rives de l'Indus jusqu'à l'Égypte et la mer Égée. Rompant avec la brutalité des empires mésopotamiens antérieurs, le souverain perse instaure un modèle politique fondé sur la tolérance religieuse et le respect des coutumes locales : lors de sa prise de Babylone en 539 avant J.-C., il restaure les cultes ancestraux et autorise les peuples déportés à regagner leurs terres et rebâtir leurs sanctuaires.</p>\n<p>Sous le règne de Darius Ier, l'empire atteint son apogée administratif et architectural. Organisé en satrapies reliées par un vaste réseau de routes royales, doté d'une monnaie unifiée et d'une chancellerie trilingue (vieux-perse, élamite et babylonien), le royaume incarne l'ordre cosmique (<em>Arta</em>) voulu par le dieu suprême Ahura Mazda, figuré sous les traits du disque ailé du Faravahar.</p>\n<p>Dans les capitales cérémonielles de Suse et de Persépolis, l'art impérial achéménide fusionne le savoir-faire de tous les peuples soumis — tailleurs de pierre ioniens, céramistes babyloniens, charpentiers libanais et orfèvres égyptiens — pour célébrer la <em>Pax Persica</em> sous la garde silencieuse des dix mille lanciers d'élite de la garde royale.</p>"
+  },
+  "astronomie_islamique_astrolabe_sciences": {
+    "id": "astronomie_islamique_astrolabe_sciences",
+    "badge": "SCIENCES & SAVOIRS DE L'ISLAM",
+    "title": "L'Âge d'Or des Sciences Arabes : L'Astrolabe et la Mesure du Monde",
+    "sources": "Traités d'Al-Khwarizmi, Al-Battani & Al-Biruni",
+    "keywords": [
+      "astrolabe",
+      "astronomie arabe",
+      "muhtasib",
+      "poids monétaire",
+      "poids monétaires"
+    ],
+    "text": "<p>Entre le VIIIe et le XIIIe siècle, les grands foyers intellectuels du monde musulman — de Bagdad à Kairouan et Cordoue — deviennent le creuset d'un essor scientifique sans précédent. Héritiers des traditions mathématiques et astronomiques grecques, indiennes et persanes, les savants arabes traduisent, commentent et dépassent les traités anciens par l'observation expérimentale systématique et le perfectionnement des instruments de mesure.</p>\n<p>Joyau de cette science appliquée, l'astrolabe planisphérique constitue un véritable calculateur analogique portatif : grâce à ses disques gravés interchangeables (les tympans) et à son araignée céleste ajourée, il permet de mesurer la hauteur des astres au-dessus de l'horizon, de déterminer l'heure de jour comme de nuit, d'orienter les voyageurs et de fixer avec une précision mathématique l'heure des prières rituelles ainsi que la direction de La Mecque (la <em>qibla</em>).</p>\n<p>Cette même exigence de rigueur scientifique régit la vie civique et économique des cités : sous l'autorité du <em>muhtasib</em>, magistrat garant de la loyauté des marchés, des poids étalons en verre estampillé et en pierre assurent l'exactitude des échanges et la justice sociale au cœur de la cité médiévale.</p>"
+  },
+  "al_andalus_califat_cordoue_omeyyades": {
+    "id": "al_andalus_califat_cordoue_omeyyades",
+    "badge": "HISTOIRE & ARTS D'AL-ANDALUS",
+    "title": "Al-Andalus et la Splendeur du Califat Omeyyade de Cordoue",
+    "sources": "Chroniques d'Ibn Hayyan & Al-Maqqari, Nafh al-Tib",
+    "keywords": [
+      "madinat al-zahra",
+      "cordoue",
+      "hicham ii",
+      "omeyyade",
+      "omeyyades",
+      "califat de cordoue",
+      "ataurique",
+      "atauriques"
+    ],
+    "text": "<p>En 929, l'émir Abd al-Rahman III proclame le califat de Cordoue, ouvrant l'âge d'or d'Al-Andalus. Métropole la plus peuplée et la plus brillante d'Europe occidentale au Xe siècle, Cordoue rayonne par ses bibliothèques, ses écoles de médecine et de philosophie ainsi que par le raffinement inouï de ses ateliers palatins, où artistes musulmans, chrétiens et juifs collaborent à l'élaboration d'un langage décoratif d'une somptuosité inégalée.</p>\n<p>À quelques kilomètres de la capitale, la cité palatine de Madinat al-Zahra — la « Ville Brillante » — incarne la majesté souveraine des Omeyyades d'Occident : ses salles de réception aux marbres polychromes, ses jardins irrigués et ses bassins alimentés par des sculptures animalières en bronze doré célèbrent la maîtrise de l'eau et de la nature.</p>\n<p>Dans les manufactures royales s'épanouit l'art de l'<em>ataurique</em> — rinceaux végétaux stylisés d'acanthes et de palmettes d'une symétrie mathématique — qui habille les coffrets d'ivoire sculpté et d'argent doré niellé destinés aux princes, objets d'un tel prestige qu'ils furent conservés pendant des siècles comme reliquaires dans les trésors des cathédrales chrétiennes.</p>"
+  },
+  "gigantomachie_dieux_geants": {
+    "id": "gigantomachie_dieux_geants",
+    "badge": "MYTHOLOGIE GRECQUE",
+    "title": "La Gigantomachie : Le Combat des Dieux de l'Olympe contre les Géants",
+    "sources": "Apollodore, Bibliothèque (Livre I) & Hésiode, Théogonie",
+    "keywords": [
+      "gigantomachie",
+      "alcyonée",
+      "alcyonee",
+      "géants",
+      "lions de cybèle"
+    ],
+    "text": "<p>Irritée par le châtiment infligé aux Titans précipités dans le Tartare, Gaïa, la Terre primordiale, enfanta les Géants, créatures titanesques à la force prodigieuse, coiffées d'épaisses crinières et dotées de jambes terminées en queues de serpents. Armés de quartiers de roche et de troncs d'arbres enflammés, ils entreprirent d'escalader le mont Olympe en empilant les montagnes de Thessalie les unes sur les autres pour renverser le règne de Zeus.</p>\n<p>Un oracle révéla aux Olympiens que les Géants ne pourraient périr sous les coups des dieux seuls, mais uniquement grâce à l'alliance d'un mortel. Athéna fit alors appel au héros Héraclès, qui décocha ses flèches infaillibles trempées dans le venin de l'Hydre : tandis que Zeus foudroyait ses adversaires, qu'Athéna terrassait Encelade sous l'île de Sicile et que les lions attelés au char de Cybèle dévoraient les assaillants, Héraclès abattit le redoutable Alcyonée après l'avoir traîné hors de sa terre natale qui le rendait immortel.</p>\n<p>Dans l'imaginaire civique des Grecs, la Gigantomachie incarne le mythe fondateur par excellence : la victoire décisive de l'ordre olympien, de la loi et de la civilisation sur les forces telluriques aveugles de la barbarie et du chaos.</p>"
+  },
+  "centauromachie_lapithes_thesee": {
+    "id": "centauromachie_lapithes_thesee",
+    "badge": "MYTHOLOGIE GRECQUE",
+    "title": "La Centauromachie : Les Noces de Pirithoos et le Triomphe de la Mesure",
+    "sources": "Ovide, Métamorphoses (Livre XII) & Plutarque, Vie de Thésée",
+    "keywords": [
+      "centauromachie",
+      "centaure",
+      "centaures",
+      "lapithes",
+      "lapithe",
+      "pirithoos",
+      "déidamie",
+      "deidamie",
+      "eurytion"
+    ],
+    "text": "<p>Lors de ses noces célébrées en Thessalie avec la belle Déidamie, Pirithoos, roi du peuple civilisé des Lapithes, convia aux festivités son ami fidèle le héros athénien Thésée ainsi que ses voisins sauvages du mont Pélion, les Centaures, créatures hybrides mi-hommes mi-chevaux. Peu habitués à la boisson des cités, les Centaures s'enivrèrent rapidement de vin pur et cédèrent à leurs instincts brutaux : le centaure Eurytion se jeta sur la jeune mariée Déidamie pour l'enlever, déclenchant aussitôt une mêlée générale d'une violence inouïe.</p>\n<p>Armés des coupes du banquet, de candélabres et de leurs glaives, Thésée, Pirithoos et les guerriers lapithes livrèrent un combat acharné pour arracher les femmes aux mains des agresseurs, sous le regard souverain du dieu Apollon qui étendit son bras pacificateur pour rétablir l'ordre au cœur du tumulte. Vaincus et chassés de Thessalie, les Centaures payèrent de leur exil leur transgression des lois sacrées de l'hospitalité.</p>\n<p>Pour la Grèce classique, la Centauromachie symbolise l'affrontement éternel entre la maîtrise de soi (<em>sophrosyne</em>) et la démesure animale (<em>hybris</em>), offrant une allégorie transparente de la victoire des cités grecques face aux invasions barbares.</p>"
+  },
+  "douze_travaux_heracles": {
+    "id": "douze_travaux_heracles",
+    "badge": "MYTHOLOGIE GRECQUE",
+    "title": "Les Douze Travaux d'Héraclès et l'Épopée du Héros Civilisateur",
+    "sources": "Apollodore, Bibliothèque (Livre II) & Diodore de Sicile",
+    "keywords": [
+      "héraclès",
+      "heracles",
+      "douze travaux",
+      "taureau de crète",
+      "stymphale",
+      "augias",
+      "cercopes"
+    ],
+    "text": "<p>Fils de Zeus et de la mortelle Alcmène, Héraclès fut poursuivi dès sa naissance par la haine implacable d'Héra. Frappé par la déesse d'un accès de folie meurtrière qui le conduisit à massacrer sa propre famille, le héros consulta l'oracle de Delphes pour expier son crime : la Pythie lui ordonna de se mettre pendant douze ans au service de son cousin Eurysthée, roi de Tirynthe et de Mycènes, et d'accomplir les épreuves surhumaines qu'il lui imposerait.</p>\n<p>Guidé par la sagesse protectrice d'Athéna, Héraclès purgea la terre des fléaux qui la menaçaient : il étouffa le lion invincible de Némée, trancha les têtes renaissantes de l'Hydre de Lerne, nettoya en un seul jour les immenses écuries du roi Augias en détournant le cours de deux fleuves, dispersa les oiseaux monstrueux du lac Stymphale aux plumes d'airain et dompta à mains nues le taureau furieux de Crète avant de descendre jusqu'aux Enfers enchaîner le chien Cerbère.</p>\n<p>Au terme de ses travaux et de ses aventures — où il châtia même les brigands facétieux Cercopes —, le héros souffrant accéda à l'immortalité sur le mont Olympe, incarnant pour toute l'Antiquité le modèle suprême de la vertu héroïque (<em>arété</em>) triomphant de la mort par l'effort.</p>"
+  },
+  "naissance_athena_parthenon_panathenees": {
+    "id": "naissance_athena_parthenon_panathenees",
+    "badge": "MYTHOLOGIE & CITÉ D'ATHÈNES",
+    "title": "La Naissance d'Athéna et la Procession des Grandes Panathénées",
+    "sources": "Hésiode, Théogonie & Pausanias, Description de la Grèce (Livre I)",
+    "keywords": [
+      "naissance d'athéna",
+      "naissance d'athena",
+      "panathénées",
+      "panathenees",
+      "ergastines",
+      "parthénon",
+      "parthenon",
+      "péplos",
+      "peplos"
+    ],
+    "text": "<p>Averti par un oracle que l'enfant à naître de sa première épouse Métis — déesse de l'intelligence rusée — le surpasserait en puissance, Zeus engloutit la déesse enceinte. Pris quelque temps plus tard d'une douleur insoutenable à la tête, le roi des dieux demanda à Héphaïstos de lui fendre le crâne d'un coup de hache : de la blessure divine jaillit Athéna tout armée, brandissant sa lance et poussant un cri de guerre qui fit trembler l'univers, tandis que le char du Soleil s'élevait des flots et que celui de la Lune plongeait dans l'océan.</p>\n<p>Devenue déesse tutélaire d'Athènes après avoir offert aux citoyens l'olivier nourricier face au cheval sauvage de Poséidon, Athéna était honorée tous les quatre ans lors des Grandes Panathénées. Au terme des concours gymniques et musicaux, le corps civique tout entier — magistrats, jeunes cavaliers athéniens, musiciens et jeunes filles nobles appelées Ergastines — gravissait l'Acropole en une procession solennelle.</p>\n<p>Ce cortège civique venait remettre solennellement à la statue vénérable d'Athéna Polias le <em>péplos</em> sacré, voile safran tissé pendant des mois par les Ergastines et brodé des exploits des dieux lors de la Gigantomachie.</p>"
+  },
+  "amazonomachie_guerrieres_mythiques": {
+    "id": "amazonomachie_guerrieres_mythiques",
+    "badge": "MYTHOLOGIE GRECQUE",
+    "title": "L'Amazonomachie : Les Guerrières Mythiques face aux Héros Grecs",
+    "sources": "Apollodore, Bibliothèque & Plutarque, Vie de Thésée",
+    "keywords": [
+      "amazonomachie",
+      "amazones",
+      "amazone",
+      "penthésilée",
+      "penthesilee",
+      "hippolyte"
+    ],
+    "text": "<p>Filles du dieu de la guerre Arès et de la nymphe Harmonie, les Amazones formaient une nation légendaire de femmes guerrières établie aux confins du monde connu, sur les rives du fleuve Thermodon près de la mer Noire. Cavalières redoutables maniant l'arc, la hache double et le bouclier échancré en croissant (la <em>pelta</em>), elles vivaient en marge des lois de la cité grecque, refusant le mariage et élevant exclusivement leurs filles pour le combat.</p>\n<p>Leur destin croisa à plusieurs reprises celui des plus grands héros hellènes : Héraclès affronta leur reine Hippolyte pour s'emparer de son baudrier d'or ; Thésée repoussa leur invasion jusqu'au cœur même d'Athènes sur la colline de l'Aréopage ; et sous les remparts de Troie, Achille livra un duel tragique à la reine Penthésilée, s'éprenant d'elle au moment même où sa lance lui ôtait la vie.</p>\n<p>Dans l'art grec classique, l'Amazonomachie constitue le pendant mythique des guerres médiques : à travers le choc violent entre les hoplites et ces farouches cavalières orientales, les cités grecques célébraient le triomphe de l'ordre civique sur l'altérité sauvage venue d'Asie.</p>"
+  },
+  "mythe_sisyphe_tartare": {
+    "id": "mythe_sisyphe_tartare",
+    "badge": "MYTHOLOGIE GRECQUE",
+    "title": "La Ruse de Sisyphe et son Supplice Éternel dans le Tartare",
+    "sources": "Homère, Odyssée (Chant XI) & Apollodore, Bibliothèque (Livre I)",
+    "keywords": [
+      "sisyphe",
+      "tartare"
+    ],
+    "text": "<p>Fondateur et roi légendaire de Corinthe, Sisyphe passait auprès des anciens pour le plus rusé et le plus audacieux des mortels. Ayant osé révéler au dieu-fleuve Asopos que Zeus avait enlevé sa fille Égine, il s'attira la colère du maître de l'Olympe, qui dépêcha Thanatos, le génie de la Mort, pour l'enchaîner. Loin de se soumettre, Sisyphe trompa la vigilance de Thanatos et le lia de ses propres chaînes, suspendant ainsi la mort sur toute la terre jusqu'à ce qu'Arès vienne délivrer le trépas.</p>\n<p>Contraint finalement de descendre aux Enfers, Sisyphe usa d'un ultime stratagème : ayant ordonné à son épouse de ne lui rendre aucun honneur funèbre, il obtint d'Hadès et de Perséphone la permission de remonter brièvement parmi les vivants pour châtier cette impiété, et refusa ensuite de regagner le royaume des ombres jusqu'à un âge avancé.</p>\n<p>Pour punir cette démesure (<em>hybris</em>) et cet affront répété aux lois des dieux, les juges des Enfers le condamnèrent dans le Tartare à hisser sans relâche un rocher colossal jusqu'au sommet d'une montagne escarpée, d'où le bloc retombait inexorablement par son propre poids à chaque fois qu'il touchait la cime.</p>"
+  },
+  "mythe_alceste_thanatos_hermes": {
+    "id": "mythe_alceste_thanatos_hermes",
+    "badge": "MYTHOLOGIE GRECQUE",
+    "title": "Le Sacrifice d'Alceste, Thanatos et Hermès Psychopompe",
+    "sources": "Euripide, Alceste & Apollodore, Bibliothèque (Livre I)",
+    "keywords": [
+      "alceste",
+      "thanatos",
+      "psychopompe",
+      "hermès",
+      "hermes"
+    ],
+    "text": "<p>Roi hospitalier de Phères en Thessalie, Admète avait obtenu des Moires — grâce à l'intercession du dieu Apollon qui avait gardé ses troupeaux — le privilège d'échapper à la mort au jour fixé par le destin, à la condition expresse qu'un autre mortel acceptât de descendre volontairement aux Enfers à sa place. Lorsque l'heure fatale sonna et que ses vieux parents eux-mêmes refusèrent ce sacrifice, seule sa jeune épouse Alceste consentit à offrir sa vie par amour conjugal.</p>\n<p>Au seuil du palais endeuillé se présentèrent alors deux figures divines du passage : Thanatos, personnification ailée de la Mort venue trancher de son glaive une mèche de cheveux de la reine pour la consacrer aux divinités infernales, et Hermès Psychopompe, le messager divin au caducée chargé de guider les âmes défuntes jusqu'aux rives du Styx.</p>\n<p>Selon la tragédie d'Euripide, l'héroïsme d'Alceste fut récompensé : touché par l'accueil généreux d'Admète, Héraclès affronta Thanatos à mains nues auprès du tombeau royal et arracha la reine à l'emprise de la mort pour la rendre vivante à son époux.</p>"
+  },
+  "mythe_pelops_oenomaos_jeux_olympiques": {
+    "id": "mythe_pelops_oenomaos_jeux_olympiques",
+    "badge": "MYTHOLOGIE GRECQUE & OLYMPIE",
+    "title": "Le Serment de Pélops et Œnomaos et l'Origine des Jeux Olympiques",
+    "sources": "Pindare, Première Olympique & Pausanias, Description de la Grèce (Livre V)",
+    "keywords": [
+      "pélops",
+      "pelops",
+      "œnomaos",
+      "oenomaos",
+      "hippodamie",
+      "myrtilos"
+    ],
+    "text": "<p>Roi cruel de Pise, cité voisine du sanctuaire d'Olympie, Œnomaos refusait de marier sa fille unique Hippodamie, averti par un oracle qu'il périrait de la main de son gendre. Pour écarter les prétendants, il les défiait à une course de chars mortelle depuis Pise jusqu'à l'autel de Poséidon sur l'isthme de Corinthe : le vainqueur obtiendrait la main de la princesse, mais tout vaincu était transpercé de la lance du roi, dont les coursiers divins étaient plus rapides que le vent.</p>\n<p>Treize princes avaient déjà payé de leur vie leur audace lorsque se présenta le jeune héros lydien Pélops. Avant de prêter le serment solennel devant l'autel de Zeus, Pélops invoqua Poséidon qui lui fit don d'un char d'or attelé de chevaux ailés infatigables, tandis qu'Hippodamie, éprise du jeune homme, convainquit le cocher royal Myrtilos de remplacer les clavettes de bronze des essieux d'Œnomaos par des chevilles de cire.</p>\n<p>En pleine course, les roues du roi se disloquèrent, entraînant sa mort ; victorieux, Pélops épousa Hippodamie, donna son nom au Péloponnèse et institua à Olympie des jeux funèbres solennels en l'honneur du défunt, acte fondateur des concours olympiques.</p>"
+  },
+  "mythe_zeus_ganymede": {
+    "id": "mythe_zeus_ganymede",
+    "badge": "MYTHOLOGIE GRECQUE",
+    "title": "L'Enlèvement de Ganymède par Zeus, Échanson des Dieux",
+    "sources": "Homère, Iliade (Chant XX) & Hymne homérique à Aphrodite",
+    "keywords": [
+      "ganymède",
+      "ganymede"
+    ],
+    "text": "<p>Fils du roi Tros de Dardanie et prince de la maison royale de Troie, le jeune Ganymède passait pour le plus beau de tous les mortels. Tandis qu'il gardait les troupeaux de son père sur les pentes verdoyantes du mont Ida, en Phrygie, sa grâce éclatante attira le regard souverain de Zeus depuis les hauteurs de l'Olympe.</p>\n<p>Épris de l'adolescent, le maître des dieux descendit sur terre — tantôt sous son apparence majestueuse, tantôt métamorphosé en aigle royal aux ailes immenses — et enleva Ganymède à travers les airs jusque dans le palais céleste des immortels. Pour consoler le roi Tros affligé par la disparition de son fils, Zeus lui offrit en compensation des coursiers divins aussi rapides que la tempête.</p>\n<p>Comblé du don d'éternelle jeunesse, Ganymède devint sur l'Olympe l'échanson des dieux, versant le nectar d'immortalité dans la coupe d'or de Zeus lors des banquets célestes avant d'être placé parmi les étoiles sous la forme de la constellation du Verseau.</p>"
+  },
+  "mythe_alphee_arethuse": {
+    "id": "mythe_alphee_arethuse",
+    "badge": "MYTHOLOGIE GRECQUE",
+    "title": "La Nymphe Aréthuse et la Poursuite du Dieu-Fleuve Alphée",
+    "sources": "Ovide, Métamorphoses (Livre V) & Pausanias, Description de la Grèce",
+    "keywords": [
+      "aréthuse",
+      "arethuse",
+      "alphée",
+      "alphee"
+    ],
+    "text": "<p>Compagne fidèle de la déesse chasseresse Artémis, la nymphe Aréthuse ne songeait qu'aux courses dans les forêts d'Arcadie et fuyait tout commerce amoureux. Un jour d'été accablant, au retour de la chasse, elle découvrit une rivière aux eaux cristallines si limpides qu'on pouvait en compter chaque caillou : l'Alphée, grand fleuve du Péloponnèse qui baigne la plaine d'Olympie.</p>\n<p>S'étant dévêtue pour se baigner dans la fraîcheur de l'onde, la nymphe entendit soudain un murmure monter des profondeurs : le dieu-fleuve Alphée lui-même, épris de sa beauté, émergea des eaux et s'élança à sa poursuite. Épouvantée, Aréthuse s'enfuit à travers monts et vallées mais, sentant l'ombre du dieu la rattraper, elle implora le secours de sa maîtresse Artémis.</p>\n<p>La déesse l'enveloppa d'un nuage épais et la métamorphosa en une source d'eau pure qui s'enfonça sous terre, traversa les abîmes sous-marins de la mer Ionienne et jaillit en Sicile, sur l'île d'Ortygie à Syracuse — où, selon la légende, les eaux fidèles de l'Alphée vinrent mêler leur courant aux siennes.</p>"
+  },
+  "cleobis_biton_piete_filiale": {
+    "id": "cleobis_biton_piete_filiale",
+    "badge": "LÉGENDE & SAGESSE GRECQUE",
+    "title": "Cléobis et Biton : La Piété Filiale Récompensée par Héra",
+    "sources": "Hérodote, Histoires (Livre I, 31)",
+    "keywords": [
+      "cléobis",
+      "cleobis",
+      "biton",
+      "polymédès",
+      "polymedes"
+    ],
+    "text": "<p>Interrogé par le fastueux roi Crésus de Lydie sur l'identité des hommes les plus heureux qu'il ait jamais rencontrés, le sage athénien Solon cita en second exemple deux jeunes frères d'Argos, Cléobis et Biton. Dotés d'une vigueur athlétique remarquable et vainqueurs à plusieurs reprises dans les concours gymniques, ils menaient une vie honorable au sein d'une famille estimée.</p>\n<p>Lors d'une grande fête en l'honneur d'Héra, leur mère, prêtresse de la déesse, devait impérativement se rendre en char au grand sanctuaire de l'Héraion, distant de quarante-cinq stades (plus de huit kilomètres). Les bœufs de l'attelage tardant à revenir des champs, Cléobis et Biton se placèrent eux-mêmes sous le joug et tirèrent le lourd chariot sur toute la distance jusqu'au temple, sous les acclamations de la foule admirative.</p>\n<p>Émue par cette piété filiale exemplaire, leur mère pria devant la statue d'Héra d'accorder à ses fils le plus grand bonheur qu'un mortel puisse recevoir. Après le sacrifice et le banquet rituel, les deux jeunes gens s'endormirent dans le temple et ne se réveillèrent jamais, la déesse leur ayant offert une mort douce et glorieuse au sommet de leur jeunesse.</p>"
+  },
+  "persee_meduse_gorgones": {
+    "id": "persee_meduse_gorgones",
+    "badge": "MYTHOLOGIE GRECQUE",
+    "title": "Persée, la Décapitation de Méduse et la Poursuite des Gorgones",
+    "sources": "Hésiode, Théogonie & Apollodore, Bibliothèque (Livre II)",
+    "keywords": [
+      "persée",
+      "persee",
+      "méduse",
+      "meduse",
+      "gorgone",
+      "gorgones",
+      "gorgonéion",
+      "gorgoneion"
+    ],
+    "text": "<p>Au bout du monde occidental, près du royaume de la Nuit, vivaient les trois Gorgones — Sthéno, Euryale et Méduse —, monstres ailés aux mains de bronze, aux défenses de sanglier et à la chevelure hérissée de serpents sifflants, dont le regard foudroyant pétrifiait quiconque osait croiser leurs yeux. Seule d'entre elles, Méduse était mortelle.</p>\n<p>Chargé par le roi Polydectès de rapporter la tête du monstre, le jeune héros Persée reçut l'assistance décisive des dieux : les nymphes lui confièrent les sandales ailées, la besace magique (<em>kibisis</em>) et le casque d'Hadès qui rend invisible, tandis qu'Hermès lui remit une serpe d'acier tranchante et qu'Athéna lui prêta son bouclier de bronze poli comme un miroir. Guidant sa main grâce au reflet du bouclier sans jamais regarder Méduse en face, Persée trancha la tête de la Gorgone endormie, d'où jaillirent aussitôt le cheval ailé Pégase et le géant Chrysaor.</p>\n<p>Enfermant le trophée dans sa besace, le héros s'envola vers les cieux, échappant de justesse à la poursuite furieuse des deux Gorgones immortelles, avant d'offrir à Athéna la tête de Méduse — le <em>Gorgonéion</em> — qui orna désormais son égide comme talisman apotropaïque invaincu.</p>"
+  },
+  "asklepios_hygie_medecine_grecque": {
+    "id": "asklepios_hygie_medecine_grecque",
+    "badge": "MYTHOLOGIE & MÉDECINE ANTIQUE",
+    "title": "Asclépios, Hygie et la Médecine Sacrée dans les Sanctuaires Grecs",
+    "sources": "Pausanias, Description de la Grèce (Livre II) & Serment d'Hippocrate",
+    "keywords": [
+      "asclépios",
+      "asklepios",
+      "hygie",
+      "asclépiéion",
+      "asclepieion",
+      "épidaure",
+      "epidaure",
+      "ex-voto anatomiques",
+      "incubation"
+    ],
+    "text": "<p>Fils du dieu Apollon et de la mortelle Coronis, Asclépios fut confié dès l'enfance au sage centaure Chiron, qui lui enseigna sur le mont Pélion les secrets des plantes médicinales, des incantations et de la chirurgie. Devenu un médecin d'une science prodigieuse, Asclépios ne se contentait plus de guérir toutes les maladies : ayant reçu d'Athéna le sang recueilli des veines de la Gorgone Méduse, il parvint à ressusciter les morts, suscitant le courroux d'Hadès et de Zeus qui le foudroya pour préserver l'ordre naturel du monde avant de le placer parmi les dieux.</p>\n<p>Vénéré dans tout le monde méditerranéen — d'Épidaure à Pergame, Athènes, Corinthe et Empúries — avec son bâton autour duquel s'enroule la couleuvre sacrée, symbole de mue et de régénération, Asclépios était assisté de sa fille Hygie, déesse de la santé préventive et de l'hygiène.</p>\n<p>Dans les grands sanctuaires guérisseurs (les <em>Asclépiéia</em>), les malades purifiés par l'eau des sources pratiquaient le rite de l'<em>incubation</em> : endormis sous les portiques sacrés, ils recevaient en songe la visite du dieu qui leur révélait le remède ou opérait leur guérison, laissant en remerciement des ex-voto reproduisant en terre cuite ou en marbre le membre guéri.</p>"
+  },
+  "dionysos_symposion_banquet_grec": {
+    "id": "dionysos_symposion_banquet_grec",
+    "badge": "CULTURE & MYTHOLOGIE GRECQUE",
+    "title": "Dionysos, le Thiasos et les Rites du Symposion Grec",
+    "sources": "Euripide, Les Bacchantes & Platon, Le Banquet",
+    "keywords": [
+      "dionysos",
+      "satyre",
+      "satyres",
+      "symposion",
+      "banquet",
+      "cottabe",
+      "lagynos",
+      "nébride",
+      "nebride",
+      "thyrse",
+      "tombe du plongeur"
+    ],
+    "text": "<p>Né deux fois — de la mortelle Sémélé foudroyée par la gloire de Zeus, puis cousu dans la cuisse du roi des dieux jusqu'à sa venue au monde —, Dionysos est le dieu de la vigne, du vin, de l'extase mystique et du théâtre. Escorté de son cortège tumultueux (le <em>thiasos</em>) composé de Ménades en transe et de Satyres facétieux à oreilles pointues et queue de cheval, le dieu brandit le <em>thyrse</em> entouré de lierre et revêt la peau de faon tachetée (la <em>nébride</em>).</p>\n<p>Au cœur de la cité grecque, le don civilisateur de Dionysos s'exprime dans le rituel codifié du <em>symposion</em>, le banquet aristocratique où les convives couronnés de feuillage s'étendent sur des lits de parade (<em>klinai</em>). Après les libations d'ouverture aux dieux, un maître de banquet fixe les proportions selon lesquelles le vin pur sera mélangé à l'eau fraîche dans le grand cratère avant d'être puisé et servi dans les coupes (<em>kylikes</em>).</p>\n<p>Rythmé par le son de la lyre et de la double flûte (<em>aulos</em>), par les chants poétiques et par le jeu d'adresse du <em>cottabe</em>, le symposion célèbre l'amitié civique, la mémoire des ancêtres et la promesse d'une félicité dionysiaque prolongée jusque dans l'au-delà.</p>"
+  },
+  "oracle_delphes_jeux_panhelleniques": {
+    "id": "oracle_delphes_jeux_panhelleniques",
+    "badge": "SANCTUAIRES & JEUX PANHELLÉNIQUES",
+    "title": "L'Oracle d'Apollon à Delphes et les Grands Jeux Panhelléniques",
+    "sources": "Pausanias, Description de la Grèce (Livres V & X) & Pindare, Odes",
+    "keywords": [
+      "oracle",
+      "pythie",
+      "omphalos",
+      "aurige",
+      "jeux pythiques",
+      "jeux olympiques",
+      "trépied",
+      "trepied",
+      "anticythère",
+      "anticythere"
+    ],
+    "text": "<p>Accroché aux pentes escarpées du mont Parnasse, le sanctuaire d'Apollon à Delphes était considéré par les Grecs comme l'<em>Omphalos</em> — le nombril et centre sacré du monde — depuis que le dieu solaire y avait terrassé de ses flèches le serpent primordial Python. Au fond du temple, assise sur le trépied sacré au-dessus d'une faille rocheuse, la prêtresse Pythie transmettait les oracles d'Apollon, consultés aussi bien par les simples pèlerins que par les cités-États avant toute fondation de colonie ou décision de guerre.</p>\n<p>Tout au long de la Voie Sacrée s'élevaient les somptueux « Trésors » bâtis par les cités rivales et d'innombrables offrandes de bronze — trépieds monumentaux, statues d'athlètes et quadriges royaux — célébrant la piété des donateurs et leurs victoires dans les grands concours.</p>\n<p>Rythmés par un cycle astronomique précis que mesuraient les savants hellénistiques, les quatre grands Jeux panhelléniques — Olympie, Delphes (Jeux pythiques), Némée et l'Isthme de Corinthe — imposaient une trêve sacrée à travers tout le monde grec, unissant les cités divisées autour du culte commun des dieux, de l'exploit athlétique et de la poésie.</p>"
+  },
    "guerre_troie_agamemnon_mycenes": {
     "id": "guerre_troie_agamemnon_mycenes",
     "badge": "ÉPOPÉE HOMÉRIQUE & ÂGE DU BRONZE",
