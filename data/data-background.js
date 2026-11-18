@@ -615,9 +615,7 @@ window.BACKGROUNDS_REGISTRY = {
       "jeux pythiques",
       "jeux olympiques",
       "trépied",
-      "trepied",
-      "anticythère",
-      "anticythere"
+      "trepied"
     ],
     "text": "<p>Accroché aux pentes escarpées du mont Parnasse, le sanctuaire d'Apollon à Delphes était considéré par les Grecs comme l'<em>Omphalos</em> — le nombril et centre sacré du monde — depuis que le dieu solaire y avait terrassé de ses flèches le serpent primordial Python. Au fond du temple, assise sur le trépied sacré au-dessus d'une faille rocheuse, la prêtresse Pythie transmettait les oracles d'Apollon, consultés aussi bien par les simples pèlerins que par les cités-États avant toute fondation de colonie ou décision de guerre.</p>\n<p>Tout au long de la Voie Sacrée s'élevaient les somptueux « Trésors » bâtis par les cités rivales et d'innombrables offrandes de bronze — trépieds monumentaux, statues d'athlètes et quadriges royaux — célébrant la piété des donateurs et leurs victoires dans les grands concours.</p>\n<p>Rythmés par un cycle astronomique précis que mesuraient les savants hellénistiques, les quatre grands Jeux panhelléniques — Olympie, Delphes (Jeux pythiques), Némée et l'Isthme de Corinthe — imposaient une trêve sacrée à travers tout le monde grec, unissant les cités divisées autour du culte commun des dieux, de l'exploit athlétique et de la poésie.</p>"
   },

@@ -4,6 +4,7 @@
 window.ART_OBJECTS = [
   {
     id: "sculpture_mecanisme_anticythere_calculateur_astronomique_bronze_athenes",
+    backgroundId: false,
     civId: "grece",
     periodId: "grece_hellenistique",
     civName: "Grèce antique",
@@ -1636,6 +1637,7 @@ window.ART_OBJECTS = [
   },
   {
     id: "sculpture_buste_philosophe_epave_anticythere_bronze_athenes",
+    backgroundId: false,
     civId: "grece",
     periodId: "grece_hellenistique",
     civName: "Grèce antique",
@@ -2296,6 +2298,7 @@ window.ART_OBJECTS = [
   },
   {
     id: "sculpture_fronton_est_parthenon_cheval_selene_marbre_british_museum",
+    backgroundId: false,
     civId: "grece",
     periodId: "grece_classique",
     civName: "Grèce antique",
@@ -2318,6 +2321,7 @@ window.ART_OBJECTS = [
   },
   {
     id: "sculpture_fronton_est_parthenon_chevaux_helios_marbre_british_museum",
+    backgroundId: false,
     civId: "grece",
     periodId: "grece_classique",
     civName: "Grèce antique",
@@ -2436,14 +2440,14 @@ window.ART_OBJECTS = [
     centuryNumeric: -460,
     domain: "sculpture_statuaire",
     artifactType: "Décor architectural (fronton, frise, métope, chapiteau)",
-    title: "Métope d'Olympie : Héraclès nettoyant les écuries d'Augias assisté d'Athéna",
+    title: "Métope d'Olympie : Héraclès et le taureau de Crète",
     site: "Musée archéologique d'Olympie (Grèce)",
     originSite: "Frise de l'opisthodome du temple de Zeus, Olympie (Grèce)",
     locationType: "museum",
     currentLocation: "Musée archéologique d'Olympie (Grèce)",
     category: "Haut-relief architectural en marbre de Paros (métope dorique)",
     isHighlight: true,
-    chips: ["Ve s. av. J.-C.", "Grèce antique", "Style sévère", "Douze Travaux d'Héraclès", "Écuries d'Augias", "Athéna", "Olympie", "Musée d'Olympie"],
+    chips: ["Ve s. av. J.-C.", "Grèce antique", "Style sévère", "Douze Travaux d'Héraclès", "Taureau de Crète", "Olympie", "Musée d'Olympie"],
     deptBanner: "https://lh3.googleusercontent.com/pw/AP1GczO4CxZYNGIcejhJlLsbE8NEpmlxRZzLAirCafy0E7MMosZplNNbBnYjDcMCcOLR_k7PyqagxP3tUGE6lqhcMG1fTomgP1PYN3_CLF5UpZD8A8uqmONiO5_n8LUmTXwbNupUuLb-LeFfHHAKGZdCu8OlAw=w2252-h956-s-no-gm?authuser=0",
     imgSrc: "https://lh3.googleusercontent.com/pw/AP1GczOEVMU0K3J27vjh9WwdzdR3HI7EtMuaeGnKtejzVQmuUtVZ0VZ5_lu0HErZS4hTwvb9QhvEUksaL7X-QTRbmDUZHC0z_FONsT2rswvHisxY7tF-Vqsk_jLMTah8whR93Bzk2ZgjPbKmMuq0Pq1xkmLcYQ=w1847-h1231-s-no-gm?authuser=0",
     narrative: `<p>Cette métope en marbre de Paros, sculptée vers 460 avant notre ère, appartient au cycle des douze travaux d'Héraclès qui ornait les frises intérieures du temple de Zeus à Olympie. Elle représente l'un des exploits les plus célèbres du héros : la capture du taureau de Crète. Dans cette composition emblématique du Style Sévère, le sculpteur parvient à instaurer un équilibre dynamique et puissant entre les deux protagonistes. Héraclès est représenté dans un mouvement de torsion vigoureux, saisissant l'animal pour le dompter, tandis que le taureau, dont la tête est tournée vers le spectateur, semble opposer une résistance farouche.</p><p>L'œuvre se distingue par une économie de moyens et une force plastique caractéristiques de cette période de transition vers le classicisme. Le corps d'Héraclès témoigne d'une maîtrise anatomique remarquable, où chaque muscle saillant souligne l'effort physique intense, sans pour autant tomber dans l'exagération. Le visage du héros, bien que marqué par la concentration, conserve cette gravité calme et cette intériorité propres aux sculptures de l'époque, contrastant avec la violence de l'action. Les lignes de force s'entrecroisent, créant une tension qui occupe tout l'espace de la plaque quadrangulaire, typique de la recherche de composition des maîtres d'Olympie.</p><p>Sur le plan narratif et symbolique, cette métope illustre la mission civilisatrice d'Héraclès, fils de Zeus et ancêtre mythique des Péloponnésiens, qui purge le monde de ses monstres et du chaos. Contrairement aux sculptures du fronton, les métopes offrent des scènes isolées, plus intimes, permettant une observation détaillée de la progression psychologique du héros à travers ses travaux. Aujourd'hui préservée au musée archéologique d'Olympie, cette pièce constitue un témoignage exceptionnel de la statuaire grecque du Vème siècle, où la puissance brute de l'époque archaïque laisse place à une harmonie nouvelle entre la forme, le mouvement et l'expression humaine. Olympie miusee archeo</p><p><strong>Siècle :</strong> Ve s. av. J.-C. | <strong>Civilisation :</strong> Grèce antique | <strong>Lieu de conservation :</strong> Musée archéologique d'Olympie (Grèce)</p>`
@@ -2670,6 +2674,7 @@ window.ART_OBJECTS = [
   },
   {
     id: "sculpture_sima_antefixes_palmettes_stoa_echo_olympie_terre_cuite",
+    backgroundId: false,
     civId: "grece",
     periodId: "grece_classique",
     civName: "Grèce antique",

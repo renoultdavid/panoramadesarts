@@ -9443,6 +9443,346 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
         }
       ]
     }
+  },
+  "rothko": {
+    "id": "rothko",
+    "name": "Rothko Mark (Marcus Rothkowitz)",
+    "sortName": "Rothko Mark",
+    "sortLetter": "R",
+    "dates": "1903 – 1970",
+    "movement": "Expressionnisme abstrait américain, Color Field painting & Abstraction méditative",
+    "nationality": "Américain (né dans l'Empire russe, actuelle Lettonie ; actif à New York)",
+    "techniques": "Huile sur toile, acrylique, tempera, glacis dilués superposés, pigments purs, cycles monumentaux in situ",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczPgUGDA2OvYtPTUocxpFkM5BmF6oQUUkeahrqPFbZncupy3tp2Nmaem8_Ot_tKf-Nl1QBrUKuZrnX0s0iT5QnHaAdcDOOnUmsTAwvyoZK1tSccEehYIEhw1YYDA2cuxkPj0m1spxKYyIHCbMi1pbbeokw=w1942-h824-s-no-gm?authuser=0",
+    "portraitImg": "",
+    "bio": `
+      <p><strong>Le maître absolu du Color Field painting et de l'espace métaphysique</strong><br>
+      Mark Rothko (Marcus Rothkowitz, 1903 – 1970) est l'un des géants de l'expressionnisme abstrait américain et le maître absolu du Color Field painting (peinture des champs de couleur). Né dans l'Empire russe (actuelle Lettonie) et émigré aux États-Unis, cet esprit profondément imprégné de tragédie grecque, de philosophie nietzschéenne et de musique a dépouillé la peinture de tout élément anecdotique ou figuratif pour en faire un espace purement spirituel, émotionnel et transcendant, destiné à confronter le spectateur aux émotions humaines fondamentales : l'extase, le destin et le deuil.</p>
+      <p><strong>Champs de couleur pulsants, glacis diaphanes et respiration du plan pictural</strong><br>
+      Son genre d'expression se définit par la peinture abstraite méditative sur très grand format, le cycle monumental in situ et l'environnement immersif. Son style de maturité se caractérise par la superposition verticale de deux à trois blocs rectangulaires de couleur aux contours vaporeux et flottants, peints sur de vastes toiles non encadrées. Utilisant des glacis extrêmement dilués appliqués en couches successives transparentes, il crée une impression de pulsation lumineuse interne et de profondeur insondable où le plan pictural semble respirer.</p>
+      <p><strong>De la figuration biomorphique au silence tragique de la Rothko Chapel</strong><br>
+      L'évolution de son style marque un passage de la figuration expressionniste et du mythe vers la pure présence métaphysique de la couleur, s'achevant dans l'obscurité tragique : après les scènes urbaines du métro new-yorkais et les expérimentations biomorphiques surréalistes des années 1940 nourries par Eschyle et Jung, il invente les « Multiformes » puis fixe en 1949 sa formule classique de rectangles flottants saturés de rouges ardents, d'ocres solaires et de jaunes incandescents. Dans sa dernière décennie, des <em>Seagram Murals</em> à la célèbre <em>Rothko Chapel</em> de Houston, sa palette s'enfonce dans des accords austères de bordeaux, de prune et de noir d'encre, transformant la peinture en une chambre d'écho de la solitude humaine face à l'infini.</p>
+    `,
+    "corpus": {
+      "total": 839,
+      "paintingsCount": 839,
+      "drawingsCount": null,
+      "engravingsCount": null,
+      "sculpturesCount": null,
+      "seenCount": 0,
+      "source": "Catalogue raisonné des peintures par David Anfam (National Gallery of Art, Washington & Yale University Press, 1998)",
+      "totalOeuvresEstimees": "839 peintures autographes répertoriées (huiles sur toile et sur panneau)",
+      "oeuvresConsensusNotice": "L'inventaire scientifique de référence mondiale est le monumental Catalogue raisonné des peintures (Mark Rothko: A Catalogue Raisonné of Works on Canvas) établi par David Anfam, publié en 1998 par la National Gallery of Art de Washington et Yale University Press. Ce travail encyclopédique d'une rigueur absolue recense l'intégralité des huiles sur toile et sur panneau, depuis ses scènes urbaines et ses nus expressionnistes de jeunesse jusqu'aux célèbres rectangles flottants de sa maturité. Il fixe le corpus officiel et définitif de ses peintures à 839 œuvres."
+    },
+    "timeline": {
+      "birth": {
+        "year": "1903",
+        "place": "Dvinsk (Empire russe, actuelle Lettonie)",
+        "title": "Naissance de Marcus Rothkowitz",
+        "desc": "Né le 25 septembre 1903 à Dvinsk dans une famille juive cultivée. Face à la montée de l'antisémitisme dans l'Empire tsariste, la famille émigre aux États-Unis en 1913 et s'établit à Portland (Oregon)."
+      },
+      "death": {
+        "year": "1970",
+        "place": "New York",
+        "title": "Mort tragique de Mark Rothko dans son atelier",
+        "desc": "S'éteint le 25 février 1970 à New York à 66 ans. Terrassé par la dépression et la maladie, il met fin à ses jours dans son atelier de la 69e Rue, quelques mois avant l'inauguration de la chapelle de Houston."
+      },
+      "periods": [
+        {
+          "years": "1930 – 1946",
+          "title": "1930 – 1946 : Les scènes urbaines et la phase biomorphique-surréaliste",
+          "name": "Les scènes urbaines et la phase biomorphique-surréaliste (1930 – 1946)",
+          "color": "#78716c",
+          "summary": "Ses débuts new-yorkais s'ancrent dans un réalisme expressionniste mélancolique représentant des usagers isolés dans le métro (Subway). Durant la Seconde Guerre mondiale, fasciné par la mythologie archaïque, Jung et Eschyle, il adopte un vocabulaire surréaliste peuplé de formes hybrides, aquatiques et embryonnaires suspendues dans des espaces indéterminés (Slow Swirl at the Edge of the Sea).",
+          "events": [
+            {
+              "year": "1935",
+              "title": "Cofondateur du groupe d'avant-garde expressionniste The Ten",
+              "desc": "Rejoint Adolph Gottlieb et Joseph Solman pour défendre un art figuratif tragique et dissident face au régionalisme américain dominant.",
+              "type": "turning_point",
+              "badge": "AVANT-GARDE",
+              "icon": "⚡"
+            },
+            {
+              "year": "1938",
+              "title": "La série du métro new-yorkais (Subway) : la solitude urbaine",
+              "desc": "Représente des silhouettes effilées et solitaires dans les couloirs souterrains du métro, métaphore de l'aliénation humaine dans la métropole moderne.",
+              "type": "masterpiece",
+              "badge": "EXPRESSIONNISME URBAIN",
+              "icon": "🚇"
+            },
+            {
+              "year": "1943",
+              "title": "Manifeste avec Adolph Gottlieb : la primauté du mythe et du tragique",
+              "desc": "Publie dans le New York Times une lettre manifeste proclamant que 'seul l'art tragique et intemporel a une valeur spirituelle dans un monde en guerre'.",
+              "type": "turning_point",
+              "badge": "MANIFESTE HISTORIQUE",
+              "icon": "📜"
+            },
+            {
+              "year": "1945",
+              "title": "Slow Swirl at the Edge of the Sea : apogée de la période biomorphique",
+              "desc": "Toile magistrale peinte pour son mariage avec Mell Beistle, où des créatures hybrides et arabesques dansent sur un rivage liminal d'aquarelle et d'huile.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE SURRÉALISTE",
+              "icon": "🌊"
+            }
+          ]
+        },
+        {
+          "years": "1946 – 1957",
+          "title": "1946 – 1957 : Les Multiformes et la découverte de la formule classique",
+          "name": "Les Multiformes et la découverte de la formule classique (1946 – 1957)",
+          "color": "#ea580c",
+          "summary": "Vers 1946-1947, il élimine tout symbole graphique résiduel pour créer les « Multiformes », toiles où des masses informes de pigments purs s'agencent librement. Dès 1949, il met au point sa signature visuelle définitive : de larges rectangles aux bords effrangés saturés de rouges ardents, de jaunes solaires, d'orangés flamboyants ou de mauves intenses. Il exige que ses toiles soient vues de près, sous un éclairage tamisé, pour engloutir le regard du spectateur dans un face-à-face viscéral.",
+          "events": [
+            {
+              "year": "1947",
+              "title": "Les Multiformes (Multiforms) : rupture définitive avec la figuration",
+              "desc": "Élimine tout contour linéaire au profit de nappes flottantes de couleurs pures s'interpénétrant sur la toile sans aucun point focal.",
+              "type": "turning_point",
+              "badge": "INNOVATION RADICALE",
+              "icon": "🎨"
+            },
+            {
+              "year": "1949 – 1950",
+              "title": "Naissance de la formule classique des rectangles flottants",
+              "desc": "Aboutit à sa signature universelle : deux ou trois rectangles nébuleux superposés en lévitation au sein d'un champ coloré monochrome.",
+              "type": "turning_point",
+              "badge": "SIGNATURE VISUELLE",
+              "icon": "✨"
+            },
+            {
+              "year": "1952",
+              "title": "Exposition 15 Americans au MoMA de New York et consécration",
+              "desc": "Consécration muséale majeure aux côtés de Pollock et De Kooning ; il impose ses conditions d'accrochage à ras du sol sous lumière tamisée.",
+              "type": "masterpiece",
+              "badge": "CONSÉCRATION CRITIQUE",
+              "icon": "🏛️"
+            },
+            {
+              "year": "1954 – 1957",
+              "title": "Symphonies chromatiques : No. 1 (Royal Red and Blue) et toiles solaires",
+              "desc": "Apogée des toiles lumineuses saturées de jaunes d'or, d'orangés ardents et de rouges vermillons pulsant comme une source intérieure d'énergie.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE ABSOLU",
+              "icon": "☀️"
+            }
+          ]
+        },
+        {
+          "years": "1958 – 1970",
+          "title": "1958 – 1970 : Les grands cycles d'immersion et l'assombrissement final",
+          "name": "Les grands cycles d'immersion et l'assombrissement final (1958 – 1970)",
+          "color": "#450a0a",
+          "summary": "À la fin des années 1950, sa palette s'assombrit nettement. Après avoir renoncé à installer ses toiles monumentales dans le luxueux restaurant du Four Seasons à New York (Seagram Murals, aujourd'hui en partie à la Tate), il reçoit en 1964 la commande de la chapelle non confessionnelle de Houston (la célèbre Rothko Chapel). Il y livre d'immenses panneaux de marron sombre, de bordeaux et de noir d'encre qui forment une clôture contemplative d'une gravité austère. Miné par la dépression et la maladie, il met fin à ses jours dans son atelier en 1970.",
+          "events": [
+            {
+              "year": "1958 – 1959",
+              "title": "Le cycle des Seagram Murals pour le Four Seasons (Tate Modern)",
+              "desc": "Commande monumentale pour le Seagram Building ; refusant de servir de décor aux riches convives, il résilie le contrat et fait don des toiles à la Tate.",
+              "type": "masterpiece",
+              "badge": "CYCLE MONUMENTAL",
+              "icon": "🏛️"
+            },
+            {
+              "year": "1961",
+              "title": "Rétrospective majeure au Museum of Modern Art (MoMA) de New York",
+              "desc": "Première rétrospective individuelle consacrée par le MoMA à un artiste de sa génération, confirmant son statut de maître incontesté de l'art mondial.",
+              "type": "turning_point",
+              "badge": "TRIOMPHE MONDIAL",
+              "icon": "👑"
+            },
+            {
+              "year": "1964 – 1967",
+              "title": "La Rothko Chapel à Houston pour John et Dominique de Ménil",
+              "desc": "Conçoit un sanctuaire œcuménique octogonal de quatorze toiles monumentales bordeaux et noires, chef-d'œuvre suprême de l'art méditatif universel.",
+              "type": "masterpiece",
+              "badge": "SANCTUAIRE CONTEMPLATIF",
+              "icon": "🕯️"
+            },
+            {
+              "year": "1969 – 1970",
+              "title": "La série ultime Black on Gray : l'austérité crépusculaire",
+              "desc": "Ses ultimes toiles séparent la toile en deux zones horizontales austères d'acrylique noire et grise, méditation poignante au seuil du néant.",
+              "type": "turning_point",
+              "badge": "TESTAMENT SPIRITUEL",
+              "icon": "🌑"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "rousseau": {
+    "id": "rousseau",
+    "name": "Rousseau Henri (Le Douanier Rousseau)",
+    "sortName": "Rousseau Henri",
+    "sortLetter": "R",
+    "dates": "1844 – 1910",
+    "movement": "Art naïf (Art primitif moderne), Postimpressionnisme & Précurseur du Surréalisme",
+    "nationality": "Français (Laval, actif à Paris)",
+    "techniques": "Huile sur toile, étagement en aplats sans perspective atmosphérique, camaïeux de cinquante nuances de vert",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczMTtFzq_pLrBSDG4-vrVl0aQ9kCSOf4Jn1wl13J7Lc6F8dL2i1rVAA_CjqE4CALT7xzNzLULg3ewd7hKeQfMiQyvEE-MLVH7vNuJhAJrSdN6hn1FmYd_ASV962lX70mV98fxZaY8-J7eT4bksaBsKZ6Jg=w1942-h824-s-no-gm?authuser=0",
+    "portraitImg": "",
+    "bio": `
+      <p><strong>La figure tutélaire de l'art naïf et le prophète des avant-gardes</strong><br>
+      Henri Rousseau, dit Le Douanier Rousseau (1844 – 1910), est la figure tutélaire et le génie souverain de l'art naïf (ou art primitif moderne). Peintre autodidacte ayant exercé comme commis à l'Octroi de Paris — d'où son surnom attribué par Alfred Jarry —, il a été longtemps la risée des salons académiques avant d'être érigé en maître prophétique par les avant-gardes du début du XXe siècle (Picasso, Apollinaire, Delaunay, Kandinsky). En ignorant délibérément ou instinctivement les règles académiques de la perspective et de l'anatomie, il a inventé un réalisme magique d'une poésie onirique et intemporelle sans équivalent.</p>
+      <p><strong>Jungles luxuriantes, portrait-paysage et étagement décoratif des plans</strong><br>
+      Son genre d'expression se définit par la scène de jungle exotique, le portrait-paysage, la scène allégorique ou patriotique et le paysage urbain des faubourgs parisiens. Son style se caractérise par un dessin cerné aux contours nets, une absence de perspective atmosphérique au profit d'un étagement vertical des plans en aplats décoratifs, un hiératisme monumental des figures et une palette aux infinies nuances de verts (parfois plus de cinquante teintes distinctes sur une même toile pour décrire le feuillage), baignant dans une lumière frontale et mystérieuse.</p>
+      <p><strong>De l'octroi de Paris au grand banquet de Picasso et au chef-d'œuvre du Rêve</strong><br>
+      L'évolution de son style marque un passage des paysages parisiens d'allure populaire vers l'apothéose fantastique des jungles visionnaires : prenant sa retraite anticipée pour se vouer à son art, il expose dès 1886 aux Indépendants et crée le « portrait-paysage » avant d'éblouir en 1891 avec <em>Surpris !</em>, sa première jungle nourrie des serres du Jardin des Plantes. Érigé en icône lors du célèbre banquet organisé par Picasso au Bateau-Lavoir en 1908, il couronne son œuvre en 1910 avec <em>Le Rêve</em>, testament poétique suprême où la belle Yadwigha s'éveille nue au son de la flûte enchantée d'un charmeur de serpents.</p>
+    `,
+    "corpus": {
+      "total": 250,
+      "paintingsCount": 250,
+      "drawingsCount": null,
+      "engravingsCount": null,
+      "sculpturesCount": null,
+      "seenCount": 0,
+      "source": "Catalogue raisonné de l'œuvre peint par Dora Vallier (Flammarion, 1970)",
+      "totalOeuvresEstimees": "~250 peintures autographes répertoriées (huiles sur toile et sur panneau)",
+      "oeuvresConsensusNotice": "L'inventaire scientifique de référence mondiale est le monumental Catalogue raisonné de l'œuvre peint établi par la grande spécialiste Dora Vallier (publié en 1970 aux éditions Flammarion). En écartant ses quelques dessins préparatoires et en se concentrant strictement sur ses huiles sur toile et sur panneau, le consensus scientifique fixe le corpus officiel et définitif de ses peintures à environ 250 œuvres."
+    },
+    "timeline": {
+      "birth": {
+        "year": "1844",
+        "place": "Laval",
+        "title": "Naissance d'Henri Rousseau à Laval",
+        "desc": "Né le 21 mai 1844 à Laval dans la tour de la porte Beucheresse, au sein d'une famille d'artisans ferblantiers. Après son service militaire, il s'installe à Paris."
+      },
+      "death": {
+        "year": "1910",
+        "place": "Paris",
+        "title": "Mort d'Henri Rousseau à l'hôpital Necker",
+        "desc": "S'éteint le 2 septembre 1910 à Paris à 66 ans des suites d'une gangrène à la jambe. Brancusi et Robert Delaunay font graver sur sa tombe l'épitaphe poétique rédigée par Guillaume Apollinaire."
+      },
+      "periods": [
+        {
+          "years": "1885 – 1890",
+          "title": "1885 – 1890 : L'apprentissage solitaire et les débuts aux Indépendants",
+          "name": "L'apprentissage solitaire et les débuts aux Indépendants (1885 – 1890)",
+          "color": "#16a34a",
+          "summary": "Prenant sa retraite anticipée de l'octroi pour se consacrer corps et âme à la peinture, il expose régulièrement au Salon des Indépendants à partir de 1886. Il invente alors le genre du « portrait-paysage », comme dans son Moi-même, portrait-paysage (1890), où il se représente debout en habit noir et béret d'artiste, palette et pinceau à la main, devant un quai de Seine flanqué d'un ballon dirigeable et de la tour Eiffel flambant neuve.",
+          "events": [
+            {
+              "year": "1885",
+              "title": "Première participation au Salon des Champs-Élysées",
+              "desc": "Présente deux tableaux au Salon officiel grâce aux encouragements de Félix Clément, peintre académique et ami d'enfance.",
+              "type": "turning_point",
+              "badge": "DÉBUTS OFFICIELS",
+              "icon": "🎨"
+            },
+            {
+              "year": "1886",
+              "title": "Entrée aux Artistes Indépendants aux côtés de Seurat et Signac",
+              "desc": "Expose quatre toiles sans jury au deuxième Salon des Indépendants, qui deviendra son bastion d'exposition annuel jusqu'à sa mort.",
+              "type": "turning_point",
+              "badge": "SALON HISTORIQUE",
+              "icon": "⚡"
+            },
+            {
+              "year": "1889",
+              "title": "Visite éblouie de l'Exposition universelle de Paris et de la Tour Eiffel",
+              "desc": "Fasciné par les pavillons exotiques et le modernisme triomphant de la tour Eiffel, il écrit même une pièce de théâtre comique en trois actes.",
+              "type": "turning_point",
+              "badge": "ÉMERVEILLEMENT MODERNE",
+              "icon": "🗼"
+            },
+            {
+              "year": "1890",
+              "title": "Moi-même, portrait-paysage (Prague, Galerie nationale)",
+              "desc": "Manifeste fondateur du genre 'portrait-paysage' : il s'érige en peintre national au cœur de Paris, sa palette portant les noms de Clémence et Joséphine.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE MANIFESTE",
+              "icon": "👑"
+            }
+          ]
+        },
+        {
+          "years": "1891 – 1904",
+          "title": "1891 – 1904 : Le surgissement de l'onirisme et les jungles fondatrices",
+          "name": "Le surgissement de l'onirisme et les jungles fondatrices (1891 – 1904)",
+          "color": "#047857",
+          "summary": "En 1891, il fait sensation avec Surpris ! (Tigre dans une tempête tropicale), sa toute première jungle. Contrairement au mythe qu'il entretenait d'un voyage au Mexique, ses jungles sont nées de ses visites assidues au Jardin des Plantes et aux serres tropicales du Muséum d'histoire naturelle de Paris, ainsi que de gravures de magazines illustrés pour enfants. En 1897, il peint La Bohémienne endormie, chef-d'œuvre de silence énigmatique où un lion immobile s'approche d'une femme noire endormie en plein désert sous une lune pâle.",
+          "events": [
+            {
+              "year": "1891",
+              "title": "Surpris ! (Tigre dans une tempête tropicale) à Londres",
+              "desc": "Première vision de jungle : un tigre aux yeux écarquillés bondissant sous des trombes d'eau striant une végétation luxuriante et fantastique.",
+              "type": "masterpiece",
+              "badge": "PREMIÈRE JUNGLE",
+              "icon": "🐯"
+            },
+            {
+              "year": "1893",
+              "title": "Départ définitif de l'Octroi de Paris pour peindre à plein temps",
+              "desc": "Prend sa retraite de gabelou pour survivre modestement de leçons de solfège et de peinture dans son atelier de la rue Perrel à Montparnasse.",
+              "type": "turning_point",
+              "badge": "TOURNANT DE VIE",
+              "icon": "🚪"
+            },
+            {
+              "year": "1894",
+              "title": "La Guerre (La Chevauchée de la discorde) au Musée d'Orsay",
+              "desc": "Allégorie féroce inspirée de la guerre de 1870 : un monstre féminin échevelé galopant sur un cheval noir au-dessus d'un champ de cadavres.",
+              "type": "masterpiece",
+              "badge": "ALLÉGORIE MONUMENTALE",
+              "icon": "⚔️"
+            },
+            {
+              "year": "1897",
+              "title": "La Bohémienne endormie (New York, MoMA)",
+              "desc": "Sommet du silence mystique universel : un lion immobile renifle une mandoliniste endormie sous la clarté irréelle de la pleine lune.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE UNIVERSEL",
+              "icon": "🦁"
+            }
+          ]
+        },
+        {
+          "years": "1905 – 1910",
+          "title": "1905 – 1910 : Le banquet de Picasso et les grandes toiles ultimes",
+          "name": "Le banquet de Picasso et les grandes toiles ultimes (1905 – 1910)",
+          "color": "#065f46",
+          "summary": "Célébré en 1908 par Picasso et ses amis lors du légendaire « banquet Rousseau » au Bateau-Lavoir, il est reconnu comme un précurseur direct du surréalisme. Ses dernières toiles de jungle déploient un gigantisme luxuriant : Le Lion ayant faim se jette sur l'antilope, Les Joyeux Farceurs et enfin son chef-d'œuvre testamentaire, Le Rêve (1910), où la belle Yadwigha nue sur un divan Louis-Philippe écoute, au cœur d'une forêt vierge impénétrable, les mélodies d'un charmeur de serpents.",
+          "events": [
+            {
+              "year": "1905",
+              "title": "Le Lion ayant faim se jette sur l'antilope au Salon d'Automne",
+              "desc": "Accroché dans la même salle que Matisse et Derain, le tableau partage le scandale des 'Fauves' et attire l'attention des jeunes collectionneurs.",
+              "type": "masterpiece",
+              "badge": "SALON D'AUTOMNE",
+              "icon": "🌿"
+            },
+            {
+              "year": "1907",
+              "title": "La Charmeuse de serpents (Musée d'Orsay)",
+              "desc": "Commandée par la comtesse de Delaunay : Ève noire aux yeux phosphorescents hypnotisant serpents et oiseaux aquatiques sous une lune d'or.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE ABSOLU",
+              "icon": "🐍"
+            },
+            {
+              "year": "1908",
+              "title": "Le légendaire banquet Rousseau au Bateau-Lavoir",
+              "desc": "Picasso, Apollinaire, Fernande Olivier, Max Jacob et Gertrude Stein fêtent solennellement le Douanier sous des guirlandes et des poèmes.",
+              "type": "turning_point",
+              "badge": "HOMMAGE DES AVANT-GARDES",
+              "icon": "🍷"
+            },
+            {
+              "year": "1910",
+              "title": "Le Rêve (The Dream) au MoMA de New York : apothéose testamentaire",
+              "desc": "Son chef-d'œuvre suprême : Yadwigha étendue nue sur un divan rouge au milieu d'une jungle de fleurs géantes, écoutant le charmeur de serpents.",
+              "type": "masterpiece",
+              "badge": "TESTAMENT POÉTIQUE",
+              "icon": "🌺"
+            }
+          ]
+        }
+      ]
+    }
   }
 });
 
@@ -9522,4 +9862,11 @@ window.ARTISTS_REGISTRY["auguste_renoir"] = window.ARTISTS_REGISTRY["renoir"];
 
 window.ARTISTS_REGISTRY["giulio_pippi"] = window.ARTISTS_REGISTRY["romano"];
 window.ARTISTS_REGISTRY["jules_romain"] = window.ARTISTS_REGISTRY["romano"];
+
+window.ARTISTS_REGISTRY["mark_rothko"] = window.ARTISTS_REGISTRY["rothko"];
+window.ARTISTS_REGISTRY["marcus_rothkowitz"] = window.ARTISTS_REGISTRY["rothko"];
+
+window.ARTISTS_REGISTRY["henri_rousseau"] = window.ARTISTS_REGISTRY["rousseau"];
+window.ARTISTS_REGISTRY["le_douanier_rousseau"] = window.ARTISTS_REGISTRY["rousseau"];
+window.ARTISTS_REGISTRY["douanier_rousseau"] = window.ARTISTS_REGISTRY["rousseau"];
 
