@@ -19,6 +19,428 @@ window.BACKGROUNDS_REGISTRY = {
     ],
     "text": "<p>Dans les <em>Fastes</em> d'Ovide, la déesse Flore elle-même conte son origine : autrefois nymphe des îles Fortunées sous le nom de Chloris, elle fut surprise par le souffle fougueux de Zéphyr, le vent du printemps. Épris de sa beauté, Zéphyr en fit son épouse légitime et lui offrit un don souverain : l'empire éternel des fleurs, des bourgeons, des semailles et des prés verdoyants.</p>\n<p>Dans ses jardins divins où règne un printemps immuable, la déesse recueille et veille sur les âmes des héros et des amants dont le destin tragique fut transfiguré par la pitié des dieux en corolles immortelles. Autour de son char triomphal dorénavant paré de guirlandes, les figures brisées du mythe renaissent sous forme végétale : Narcisse, consumé par son propre reflet et devenu fleur immaculée au cœur pourpre ; Hyacinthe, favori d'Apollon mortellement frappé par un disque et changé en fleur étoilée ; Adonis, transpercé par le sanglier sauvage et métamorphosé en anémone fragile ; ou encore le fier Ajax qui, s'étant jeté sur son glaive, voit son sang irriguer l'œillet dont les pétales portent gravées les lettres de sa douleur.</p>\n<p>Ce récit est une allégorie cosmique de la victoire perpétuelle du renouveau sur la mort : par la grâce de la poésie et de l'amour, la souffrance terrestre et la brièveté de la vie mortelle sont absorbées dans le cycle infini de la nature féconde.</p>"
   },
+   "guerre_troie_agamemnon_mycenes": {
+    "id": "guerre_troie_agamemnon_mycenes",
+    "badge": "ÉPOPÉE HOMÉRIQUE & ÂGE DU BRONZE",
+    "title": "Mycènes « Riche en Or », Agamemnon et la Mémoire de la Guerre de Troie",
+    "sources": "Homère, Iliade & Pausanias, Description de la Grèce (Livre II)",
+    "keywords": [
+      "agamemnon",
+      "mycènes",
+      "mycenes",
+      "cercle funéraire a",
+      "bouclier en forme de huit",
+      "masque funéraire en or"
+    ],
+    "text": "<p>Dominant la plaine d'Argolide derrière ses remparts cyclopéens et sa célèbre Porte des Lionnes, la citadelle de Mycènes rayonna sur l'ensemble du monde égéen entre le XVIe et le XIIe siècle avant J.-C. Qualifiée par Homère de cité « riche en or », elle était gouvernée par un souverain suprême — le <em>Wanax</em> — entouré d'une aristocratie guerrière dont la puissance s'affirmait jusque dans la mort par l'enfouissement de somptueux trésors d'orfèvrerie et de masques funéraires en feuille d'or repoussé.</p>\n<p>Dans la mémoire épique des Grecs, Mycènes demeure à jamais le royaume d'Agamemnon, chef suprême de la coalition achéenne qui rassembla mille navires pour assiéger Troie afin de venger l'enlèvement d'Hélène. Au-delà de la légende poétique fixée par l'<em>Iliade</em>, l'archéologie a révélé le souvenir transfiguré de ces princes de l'âge du Bronze : les grands boucliers en forme de huit évoquant l'égide d'Ajax, les casques en défenses de sanglier et la vaisselle d'apparat en or et argent témoignent de cet univers héroïque où le prestige martial et les banquets rituels fondaient l'autorité royale.</p>\n<p>L'effondrement brutal des palais mycéniens au XIIe siècle avant J.-C. plongea la Grèce dans les siècles obscurs, mais le souvenir de ces rois légendaires nourrit pendant des siècles l'imaginaire tragique et fondateur de la civilisation hellénique.</p>"
+  },
+  "religion_mycenienne_potnia_idoles": {
+    "id": "religion_mycenienne_potnia_idoles",
+    "badge": "RELIGION DU MONDE ÉGÉEN",
+    "title": "La Religion Mycénienne : La Grande Déesse Potnia et les Cultes Chthoniens",
+    "sources": "Tablettes en Linéaire B (Pylos, Mycènes, Cnossos)",
+    "keywords": [
+      "dame de mycènes",
+      "kourotrophos",
+      "figurines en phi",
+      "figurines psi",
+      "serpents en terre cuite",
+      "centre cultuel"
+    ],
+    "text": "<p>Longtemps connue uniquement par ses vestiges matériels avant le déchiffrement des tablettes administratives en écriture linéaire B, la religion mycénienne révèle un panthéon complexe où coexistent les ancêtres des grands dieux olympiens (Zeus, Poséidon, Héra, Athéna ou Hermès) et des divinités féminines archaïques héritées du substrat crétois et égéen. Au sommet de cette piété figure la <em>Potnia</em> — « La Maîtresse » ou « La Souveraine » —, grande déesse protectrice du palais, de la nature sauvage et de la fécondité.</p>\n<p>Les sanctuaires des citadelles et les sépultures livrent une abondante coroplastie votive, dominée par de petites idoles féminines stylisées en terre cuite peinte adoptant la forme des lettres grecques <em>Phi</em> (bras repliés sur le buste) ou <em>Psi</em> (bras levés vers le ciel en signe d'épiphanie), ainsi que des figures maternelles (<em>kourotrophoi</em>) portant un enfant.</p>\n<p>Dans les chapelles cultuelles plus secrètes, des statues monumentales au regard saisissant côtoyaient des serpents en terre cuite enroulés : lié aux puissances souterraines et au renouveau perpétuel de la terre par sa mue, le serpent incarnait l'esprit tutélaire du foyer et du sanctuaire, veillant sur l'harmonie entre le monde des vivants et les forces chtoniennes.</p>"
+  },
+  "idoles_cycladiques_age_bronze": {
+    "id": "idoles_cycladiques_age_bronze",
+    "badge": "CULTURE ÉGÉENNE PRÉHISTORIQUE",
+    "title": "Les Idoles Cycladiques de l'Âge du Bronze et les Rites Insulaires",
+    "sources": "Archéologie des Cyclades (Culture de Kéros-Syros, IIIe millénaire av. J.-C.)",
+    "keywords": [
+      "cycladique",
+      "idole féminine",
+      "idoles féminines",
+      "harpiste de kéros",
+      "spedos",
+      "syros",
+      "dokathismata",
+      "violon"
+    ],
+    "text": "<p>Au IIIe millénaire avant notre ère, les marins et sculpteurs de l'archipel des Cyclades développèrent un art du marbre blanc d'une pureté géométrique fascinante. Exploité à Paros et à Naxos puis patiemment poli à l'émeri, le marbre insulaire donna naissance aux célèbres idoles cycladiques, allant des silhouettes schématiques en forme de violon jusqu'au type canonique féminin aux bras croisés sur l'abdomen et à la tête en forme de lyre rejetée en arrière.</p>\n<p>Loin de l'austérité monochrome que nous contemplons aujourd'hui, ces figures étaient à l'origine rehaussées de pigments minéraux vifs — rouge cinabre et bleu azurite — dessinant les yeux grands ouverts, les diadèmes, les colliers et des tatouages rituels. Incapables de tenir debout en raison de leurs pieds inclinés vers le bas, ces statuettes étaient déposées à plat dans les tombes à ciste ou portées en procession lors des cérémonies communautaires, incarnant sans doute la déesse protectrice de la régénération ou des compagnes spirituelles guidant le défunt.</p>\n<p>À côté de ces effigies hiératiques apparaissent de rares sculptures masculines en action, tels les joueurs de harpe et de double flûte, attestant le rôle sacré de la musique et du chant cérémoniel dans les rituels funéraires et les banquets des îles égéennes.</p>"
+  },
+  "culte_taureau_crete_minoenne_minotaure": {
+    "id": "culte_taureau_crete_minoenne_minotaure",
+    "badge": "MYTHOLOGIE & CIVILISATION MINOENNE",
+    "title": "Le Culte du Taureau en Crète Minoenne et le Mythe du Minotaure",
+    "sources": "Plutarque, Vie de Thésée & Ovide, Métamorphoses (Livre VIII)",
+    "keywords": [
+      "taureau",
+      "taureaux",
+      "vaphio",
+      "larnax",
+      "minoen",
+      "double hache",
+      "labrys"
+    ],
+    "text": "<p>Au cœur de la civilisation palatiale de la Crète minoenne au IIe millénaire avant J.-C., le taureau occupe une place religieuse et symbolique souveraine. Incarnation de la force tellurique indomptable, de la fertilité et de la puissance royale, l'animal sacré est omniprésent dans les sanctuaires : ses cornes de consécration couronnent les architectures, sa tête façonnée en rhyton sert aux libations rituelles associées à la double hache sacrée (<em>labrys</em>), et de jeunes acrobates exécutent au-dessus de son échine les périlleux sauts de la taurokathapsia.</p>\n<p>Dans la mémoire mythologique des Grecs du continent, cette fascination crétoise pour le taureau et l'architecture complexe aux multiples détours du palais de Cnossos donnèrent naissance à la légende du Minotaure. Selon le mythe, le roi Minos ayant refusé de sacrifier à Poséidon un taureau blanc prodigieux surgi des flots, le dieu de la mer frappa la reine Pasiphaé d'une passion contre nature dont naquit Astérion, monstre hybride à corps d'homme et tête de taureau.</p>\n<p>Enfermé au cœur du Labyrinthe conçu par l'architecte Dédale et nourri d'un tribut annuel de jeunes Athéniens, le monstre fut finalement terrassé par le héros Thésée grâce au fil conducteur offert par Ariane, scellant symboliquement la fin de l'hégémonie maritime crétoise sur le monde égéen.</p>"
+  },
+  "grande_deesse_chypre_astarte_aphrodite": {
+    "id": "grande_deesse_chypre_astarte_aphrodite",
+    "badge": "MYTHOLOGIE MÉDITERRANÉENNE",
+    "title": "La Grande Déesse de Chypre : D'Astarté à la Naissance d'Aphrodite",
+    "sources": "Hésiode, Théogonie & Homère, Odyssée (Chant VIII)",
+    "keywords": [
+      "chypre",
+      "chypriote",
+      "astarte",
+      "astarté",
+      "colombe",
+      "trikomo",
+      "kition",
+      "amathonte"
+    ],
+    "text": "<p>Carrefour maritime entre l'Orient levantin, l'Égypte et le monde égéen, l'île de Chypre fut dès la haute Antiquité le foyer d'un culte fervent rendu à une grande divinité féminine de la fécondité, de l'amour et de la protection de la vie. Avec l'implantation des comptoirs phéniciens comme Kition au début du Ier millénaire avant J.-C., cette déesse insulaire s'identifia étroitement à la grande déesse orientale Astarté — elle-même assimilée à l'Hathor égyptienne —, dont les sanctuaires recevaient d'innombrables ex-voto, des statuettes de prêtresses portant la colombe sacrée et d'immenses cuves de libation.</p>\n<p>Pour les Grecs, cette souveraine orientale des rivages chypriotes devint Aphrodite, la déesse d'or de l'amour et de la beauté, surnommée « la Cypris » ou « la Paphienne ». Selon la <em>Théogonie</em> d'Hésiode, lorsque Cronos trancha le sexe de son père Ouranos et le jeta dans la mer, l'écume blanche bouillonnante qui se forma autour de la chair immortelle donna naissance à la déesse, portée par les flots et le souffle de Zéphyr jusqu'au rivage rocheux de Paphos, à Chypre.</p>\n<p>Accueillie par les Heures qui la parèrent de bijoux d'or et d'ambroisie avant de la conduire sur l'Olympe, Aphrodite conserva dans ses grands sanctuaires chypriotes de Paphos, d'Amathonte et d'Idalion la majesté solennelle et le faste oriental de ses origines millénaires.</p>"
+  },
+  "bataille_issos_alexandre_darius": {
+    "id": "bataille_issos_alexandre_darius",
+    "badge": "HISTOIRE ANTIQUE & CONQUÊTES",
+    "title": "La Bataille d'Issos (-333) : Alexandre le Grand face à Darius III",
+    "sources": "Arrien, Anabase d'Alexandre (Livre II) & Quinte-Curce",
+    "keywords": [
+      "issus",
+      "issos",
+      "alexandre",
+      "darius"
+    ],
+    "text": "<p>En novembre 333 avant J.-C., au fond du golfe d'Alexandrette, dans l'étroite plaine côtière d'Issos coincée entre la mer Méditerranée et les monts Amanus, se joue le destin de l'Asie. Lancé à la conquête de l'Empire perse achéménide à la tête de l'armée gréco-macédonienne, le jeune roi Alexandre le Grand se heurte pour la première fois en personne au Grand Roi Darius III Codoman, venu à sa rencontre avec une armée immense.</p>\n<p>Exploitant l'étroitesse du terrain qui empêche la cavalerie perse de déployer sa supériorité numérique, Alexandre conduit lui-même la charge fulgurante de ses cavaliers Compagnons sur l'aile droite, enfonce les lignes adverses et fonce directement vers le char royal de Darius III. Pris de panique face à l'irrésistible percée macédonienne et voyant sa garde décimée, le souverain achéménide abandonne son char, son arc et son manteau royal pour prendre la fuite à cheval vers l'Euphrate.</p>\n<p>Victoire stratégique décisive ouvrant à Alexandre les portes de la Phénicie, de l'Égypte et de la Mésopotamie, la bataille d'Issos est devenue dans la tradition historique et philosophique le symbole cosmique du basculement des empires entre l'Orient et l'Occident.</p>"
+  },
+  "unification_egypte_palette_narmer": {
+    "id": "unification_egypte_palette_narmer",
+    "badge": "HISTOIRE DE L'ÉGYPTE ANTIQUE",
+    "title": "La Palette de Narmer et la Naissance de l'État Pharaonique",
+    "sources": "Annales de l'Époque Thinite & Pierre de Palerme",
+    "keywords": [
+      "narmer",
+      "palette commémorative",
+      "unification royale",
+      "hiérakonpolis"
+    ],
+    "text": "<p>Vers 3100 avant notre ère, au terme d'un long processus de concentration politique entre les royaumes prédynastiques de la vallée du Nil, l'Égypte bascule de la préhistoire dans l'histoire avec l'unification de la Haute-Égypte (le Sud, royaume du Jonc et de la couronne blanche <em>Hedjet</em>) et de la Basse-Égypte (le delta du Nord, royaume de l'Abeille et de la couronne rouge <em>Decheret</em>).</p>\n<p>Ce moment fondateur est immortalisé par le roi Narmer, souverain issu de la cité méridionale d'Hiérakonpolis et premier monarque de la Ière dynastie. Sur la grande palette votive en grauwacke dédiée au dieu faucon Horus, le roi apparaît tour à tour coiffé des deux couronnes, brandissant sa massue pour abattre l'ennemi du Nord tandis que le faucon Horus tient en laisse les marais de papyrus du Delta vaincu.</p>\n<p>Ce monument codifie pour trois millénaires l'ensemble du langage visuel et théologique de la royauté pharaonique : la perspective hiérarchique, le massacre rituel des forces du chaos, le entrelacement des félins au long cou et le rôle du pharaon comme garant unique de l'unité des Deux Terres.</p>"
+  },
+  "pharaons_noirs_koush_divines_adoratrices": {
+    "id": "pharaons_noirs_koush_divines_adoratrices",
+    "badge": "HISTOIRE DE L'ÉGYPTE & DE LA NUBIE",
+    "title": "Les Pharaons Noirs de Koush et les Divines Adoratrices d'Amon",
+    "sources": "Stèle de la Victoire de Piânkhy (Gebel Barkal)",
+    "keywords": [
+      "aménirdis",
+      "amenirdis",
+      "divine adoratrice",
+      "xxve dynastie",
+      "koushite",
+      "pharaons noirs"
+    ],
+    "text": "<p>Au VIIIe siècle avant J.-C., alors que l'Égypte est morcelée entre de multiples principautés rivales durant la Troisième Période intermédiaire, une puissance souveraine émerge au sud de la vallée du Nil, dans le royaume nubien de Koush (actuel Soudan), autour de la montagne sainte du Gebel Barkal. Fervent adorateur du dieu thébain Amon, le roi koushite Kashta puis son fils Piânkhy remontent le Nil, soumettent les princes du Delta et fondent la XXVe dynastie — celle des « Pharaons Noirs » —, réunifiant l'empire des cataractes jusqu'à la Méditerranée.</p>\n<p>Pour gouverner pacifiquement la puissante cité religieuse de Thèbes sans heurter son clergé, ces souverains nubiens confient l'autorité suprême du domaine d'Amon à leurs propres filles et sœurs, revêtues du titre prestigieux de « Divine Adoratrice d'Amon » et « Épouse du Dieu » — à l'image de la princesse Aménirdis Ière. Vouées au célibat et adoptant leur successeure de génération en génération, ces reines-prêtresses exerçaient des prérogatives quasi pharaoniques, célébrant les rites dans le sanctuaire et inscrivant leur nom dans un cartouche royal.</p>\n<p>Loin d'être perçus comme des envahisseurs étrangers, les souverains koushites impulsèrent une véritable renaissance artistique et spirituelle, restaurant les temples anciens et renouant avec l'austère pureté des modèles de l'Ancien et du Moyen Empire.</p>"
+  },
+  "pierre_rosette_dechiffrement_champollion": {
+    "id": "pierre_rosette_dechiffrement_champollion",
+    "badge": "ARCHÉOLOGIE & HISTOIRE DES SAVOIRS",
+    "title": "La Pierre de Rosette et le Déchiffrement des Hiéroglyphes",
+    "sources": "Décret de Memphis (-196) & Lettre à M. Dacier (1822)",
+    "keywords": [
+      "pierre de rosette",
+      "rosette",
+      "champollion",
+      "naucratis",
+      "thonis",
+      "héracléion"
+    ],
+    "text": "<p>À la fin de l'Antiquité, avec la fermeture des derniers temples païens d'Égypte au Ve siècle de notre ère, le secret de l'écriture hiéroglyphique se perdit totalement. Pendant plus de mille ans, les érudits européens crurent à tort que ces signes figuratifs n'étaient que des symboles purement allégoriques et mystiques, rendant muette la mémoire de trois millénaires de civilisation pharaonique.</p>\n<p>La découverte fortuite en juillet 1799, lors des travaux de fortification menés par l'expédition de Bonaparte dans le delta du Nil à Rachid (Rosette), d'une stèle de granodiorite sombre portant un même décret sacerdotal de 196 avant J.-C. gravé en trois écritures — hiéroglyphique, démotique et grec ancien — offrit la clé tant espérée.</p>\n<p>En comparant les cartouches royaux de Ptolémée et de Cléopâtre, le jeune savant français Jean-François Champollion comprit en septembre 1822 que le système hiéroglyphique combinait à la fois des signes phonétiques (représentant des sons) et des déterminatifs sémantiques, redonnant ainsi la parole aux pharaons, aux scribes et aux dieux de l'Égypte antique.</p>"
+  },
+  "epopee_roi_idrimi_alalakh": {
+    "id": "epopee_roi_idrimi_alalakh",
+    "badge": "HISTOIRE DU PROCHE-ORIENT ANTIQUE",
+    "title": "L'Épopée du Roi Idrimi d'Alalakh et le Royaume du Mittani",
+    "sources": "Inscription autobiographique d'Idrimi (Tell Atchana, XVe s. av. J.-C.)",
+    "keywords": [
+      "idrimi",
+      "alalakh",
+      "tell atchana",
+      "amorrite"
+    ],
+    "text": "<p>Au XVe siècle avant J.-C., la Syrie antique est une mosaïque de principautés citadines disputées entre les grandes puissances de l'âge du Bronze récent : l'Égypte des pharaons thoutmosides, l'Empire hittite d'Anatolie et le puissant royaume hourrite du Mittani en haute Mésopotamie. L'inscription cunéiforme gravée à même la statue du roi Idrimi d'Alalakh livre l'un des récits autobiographiques les plus vivants et singuliers de tout le Proche-Orient ancien.</p>\n<p>Chassé du trône d'Alep à la suite d'une révolte qui contraint sa famille à l'exil, le jeune prince Idrimi quitte ses proches et erre dans le désert avant de trouver refuge pendant sept longues années parmi les guerriers nomades Hapirou au pays de Canaan. Scrutant les présages par le vol des oiseaux et l'examen des entrailles, il rassemble une troupe de partisans, arme une flottille et débarque sur la côte syrienne pour reconquérir la cité d'Alalakh.</p>\n<p>Reconnu comme vassal légitime par le Grand Roi du Mittani après avoir prêté un serment solennel, Idrimi restaure les sanctuaires, partage le butin de ses campagnes avec ses soldats et fait sculpter son effigie couverte de son récit, placée sous la malédiction des dieux contre quiconque oserait effacer sa mémoire.</p>"
+  },
+  "anciens_canariens_cueva_pintada": {
+    "id": "anciens_canariens_cueva_pintada",
+    "badge": "ARCHÉOLOGIE DES ÎLES CANARIES",
+    "title": "Les Anciens Canariens de Grande Canarie et la Cueva Pintada",
+    "sources": "Chroniques de la conquête des Canaries & Archéologie de Gáldar",
+    "keywords": [
+      "canarien",
+      "canariens",
+      "cueva pintada",
+      "gáldar",
+      "galdar",
+      "caserones",
+      "caletilla"
+    ],
+    "text": "<p>Avant la conquête castillane achevée à la fin du XVe siècle, l'archipel volcanique des îles Canaries abritait une civilisation insulaire singulière d'origine nord-africaine et amazighe (berbère), installée dès le Ier millénaire avant notre ère et demeurée isolée du continent pendant plus de mille ans. À Grande Canarie, cette société fortement hiérarchisée était dirigée par des chefs suprêmes — les <em>Guanartemes</em> — résidant notamment dans la cité troglodytique et agricole d'Agáldar (l'actuelle Gáldar).</p>\n<p>Développant une culture matérielle originale sans recours à la métallurgie ni au tour de potier, les anciens Canariens excellaient dans le modelage manuel de céramiques polies, de statuettes votives liées aux cultes de fécondité et d'ancêtres, ainsi que dans le creusement d'habitations et de greniers fortifiés au cœur du tuf volcanique.</p>\n<p>Chef-d'œuvre de cet art rupestre insulaire, la chambre peinte de Gáldar (la <em>Cueva Pintada</em>) déploie sur ses parois des frises géométriques complexes de carrés, triangles et cercles rouges, blancs et noirs qui fonctionnaient vraisemblablement comme un calendrier astronomique et agricole rythmant les cycles de la vie communautaire.</p>"
+  },
+   "dieu_ptah_demiurge_memphis": {
+    "id": "dieu_ptah_demiurge_memphis",
+    "badge": "MYTHOLOGIE ÉGYPTIENNE",
+    "title": "Ptah, le Dieu Démiurge de Memphis et Patron des Artisans",
+    "sources": "Pierre de Chabaka (Théologie memphite)",
+    "keywords": [
+      "ptah",
+      "grand prêtre de ptah",
+      "ptah-sokar"
+    ],
+    "text": "<p>Divinité tutélaire de l'ancienne capitale royale de Memphis, Ptah occupe une place singulière dans le panthéon égyptien en tant que créateur intellectuel et spirituel de l'univers. Selon la théologie memphite gravée sur la pierre de Chabaka, Ptah existait avant toute chose : il conçut d'abord la création tout entière dans son cœur — siège de la pensée — avant de la faire advenir à l'existence par la puissance de sa langue, en prononçant le nom de chaque être, de chaque dieu et de chaque matière.</p>\n<p>Contrairement aux autres divinités représentées sous des formes animales ou hybrides, Ptah apparaît sous les traits d'un homme enveloppé dans un étroit linceul momiforme blanc, la tête couverte d'une calotte bleue serrée et le menton orné de la barbe postiche divine droite. De son suaire émergent uniquement ses deux mains tenant un sceptre composite associant les trois principes fondamentaux de l'ordre divin : la vie (<em>ânkh</em>), la stabilité (<em>djed</em>) et la puissance (<em>ouas</em>).</p>\n<p>Maître de la matière façonnée par le verbe, Ptah est le patron vénéré des sculpteurs, des architectes, des orfèvres et de tous les artisans — notamment les bâtisseurs des tombes royales de Thèbes — qui voient en lui l'inspirateur suprême de leur savoir-faire.</p>"
+  },
+  "quatre_fils_horus_canopes": {
+    "id": "quatre_fils_horus_canopes",
+    "badge": "MYTHOLOGIE & RITES FUNÉRAIRES",
+    "title": "Les Quatre Fils d'Horus et la Protection des Vases Canopes",
+    "sources": "Livre des Morts (Chapitre CLI) & Textes des Pyramides",
+    "keywords": [
+      "fils d'horus",
+      "douamoutef",
+      "kébehsénouf",
+      "kebehsenouf",
+      "amset",
+      "hâpi",
+      "canopes"
+    ],
+    "text": "<p>Lors de la momification, afin d'assurer la conservation parfaite du corps pour l'éternité, les embaumeurs extrayaient les viscères périssables du défunt — le foie, les poumons, l'estomac et les intestins — pour les purifier, les envelopper dans des bandelettes imprégnées de résine et les déposer dans quatre réceptacles sacrés appelés vases canopes.</p>\n<p>Chacun de ces organes vitaux était placé sous la garde indéfectible de l'un des quatre fils d'Horus, eux-mêmes placés sous l'égide des quatre grandes déesses protectrices : Amset, à tête humaine, protège le foie avec Isis ; Hâpi, à tête de babouin, veille sur les poumons avec Nephthys ; Douamoutef, à tête de chacal, garde l'estomac avec Neith ; et Kébehsénouf, à tête de faucon, préserve les intestins avec Serket.</p>\n<p>Réunis autour de la momie aux quatre points cardinaux du caveau ou émergeant de la fleur de lotus primordiale devant le trône d'Osiris, ces quatre génies funéraires conjurent la faim et la soif dans l'au-delà et garantissent la reconstitution intégrale de l'enveloppe charnelle du défunt au jour de sa résurrection.</p>"
+  },
+  "oiseau_benou_ame_ba": {
+    "id": "oiseau_benou_ame_ba",
+    "badge": "MYTHOLOGIE & ESCHATOLOGIE",
+    "title": "L'Oiseau Bénou et les Métamorphoses de l'Âme Ba",
+    "sources": "Livre des Morts (Chapitres LXXVII - LXXXVIII)",
+    "keywords": [
+      "bénou",
+      "benou",
+      "bennou",
+      "oiseau-ba",
+      "oiseaux-ba",
+      "phénix"
+    ],
+    "text": "<p>Dans la cosmogonie d'Héliopolis, l'oiseau Bénou — représenté sous les traits d'un grand héron cendré au long bec et à l'aigrette élégante, parfois coiffé de la couronne <em>Atef</em> — est l'oiseau primordial qui poussa le premier cri au-dessus des eaux inertes du Noun, inaugurant la création et le cycle du temps. Manifestation vivante de l'âme de Rê et symbole de la résurrection d'Osiris, il inspira directement aux auteurs grecs le mythe célèbre du Phénix renaissant de ses cendres.</p>\n<p>À l'image de cet oiseau sacré, l'âme mobile du défunt — appelée le <em>Ba</em> et figurée sous l'apparence d'un oiseau à tête humaine — acquiert après la mort la faculté de se métamorphoser en diverses créatures célestes ou terrestres (faucon d'or, héron, hirondelle ou fleur de lotus) grâce aux formules magiques du <em>Livre des Morts</em>.</p>\n<p>Libéré des entraves du caveau, le <em>Ba</em> peut ainsi quitter le monde souterrain à l'aube pour venir contempler la lumière du soleil, respirer la brise fraîche du nord et se poser dans les branches des arbres sacrés avant de rejoindre la momie au crépuscule.</p>"
+  },
+  "oeil_oudjat_horus_protection": {
+    "id": "oeil_oudjat_horus_protection",
+    "badge": "MYTHOLOGIE ÉGYPTIENNE",
+    "title": "Le Mythe de l'Œil Oudjat, Talisman de Guérison et d'Intégrité",
+    "sources": "Textes des Pyramides & Mythe d'Horus et de Seth",
+    "keywords": [
+      "oudjat",
+      "œil oudjat",
+      "oeil oudjat",
+      "yeux oudjat"
+    ],
+    "text": "<p>Lors des combats acharnés opposant le jeune dieu faucon Horus à son oncle Seth pour la souveraineté légitime sur l'Égypte, Seth arracha l'œil gauche d'Horus — assimilé à la Lune — et le déchira en six morceaux qu'il dispersa. Le dieu de la sagesse Thot retrouva les fragments épars, les rassembla par sa science magique et rendit à l'œil son intégrité parfaite, lui donnant le nom d'<em>Oudjat</em>, qui signifie littéralement « Le Sain », « Le Complet » ou « Le Préservé ».</p>\n<p>Devenu le talisman protecteur le plus puissant de toute la civilisation égyptienne, l'œil <em>Oudjat</em> synthétise l'œil humain fardé de khôl et les marques caractéristiques du faucon pèlerin. Il incarne la victoire de l'ordre sur la mutilation, la guérison miraculeuse, la clairvoyance spirituelle et l'abondance des offrandes funéraires.</p>\n<p>Peint sur les proues des barques sacrées, sur les flancs des sarcophages et au sommet des stèles funéraires, l'œil <em>Oudjat</em> permet au défunt de voir par-delà les parois de pierre, de repousser les forces du chaos et d'accéder à la plénitude éternelle.</p>"
+  },
+  "deesse_thoueris_protection_naissance": {
+    "id": "deesse_thoueris_protection_naissance",
+    "badge": "MYTHOLOGIE ÉGYPTIENNE",
+    "title": "Thouéris, la Déesse Hippopotame Protectrice des Mères et des Enfants",
+    "sources": "Textes des Sarcophages & Hymnes de piété populaire",
+    "keywords": [
+      "thouéris",
+      "thoueris",
+      "hippopotame"
+    ],
+    "text": "<p>Vénérée avec une ferveur particulière dans les foyers de toute l'Égypte antique, Thouéris — dont le nom signifie « La Grande » — est la divinité protectrice de la maternité, de l'accouchement et de la petite enfance. Son apparence composite associe la redoutable férocité des animaux du Nil à une vocation profondément bienveillante : elle possède la tête et le ventre rebondi d'une femelle hippopotame gravide, les pattes d'un lion et la queue d'un crocodile.</p>\n<p>En adoptant l'aspect des créatures les plus dangereuses du fleuve, Thouéris retourne leur puissance destructrice contre les démons et les forces obscures qui menacent les femmes en couches et les nouveau-nés. S'appuyant sur le nœud protecteur <em>Sa</em> — hiéroglyphe de la sauvegarde magique —, elle veille sur le seuil de la naissance comme sur celui de la renaissance dans l'au-delà.</p>\n<p>Dans la religion funéraire, Thouéris accompagne également le défunt au sortir du monde souterrain, l'aidant à renaître à une vie nouvelle à l'image du soleil enfanté chaque matin à l'horizon oriental.</p>"
+  },
+  "taureaux_sacres_apis_buchis": {
+    "id": "taureaux_sacres_apis_buchis",
+    "badge": "CULTES & RELIGION ÉGYPTIENNE",
+    "title": "Le Culte des Taureaux Sacrés : Apis, Buchis et Mnévis",
+    "sources": "Hérodote, Histoires (Livre III) & Diodore de Sicile",
+    "keywords": [
+      "buchis",
+      "taureau sacré",
+      "apis",
+      "mnévis",
+      "bucheum"
+    ],
+    "text": "<p>Dans la religion de l'Égypte antique, les animaux sacrés ne sont pas adorés pour eux-mêmes, mais vénérés comme les réceptacles vivants et visibles (les <em>Ba</em>) des grandes divinités cosmiques. Parmi eux, les taureaux sacrés occupent un rang suprême, incarnant la puissance créatrice, la fertilité royale et la vigueur solaire : le taureau Apis à Memphis (manifestation vivante de Ptah puis d'Osiris-Apis), Mnévis à Héliopolis (héraut du dieu Rê) et Buchis à Hermonthis, près de Thèbes, incarnation du dieu guerrier Montou et de Rê.</p>\n<p>Reconnu dès sa naissance par des marques spécifiques sur son pelage — telle qu'une robe blanche à tête noire pour Buchis —, l'animal élu était intronisé en grande pompe dans un sanctuaire dédié où il vivait entouré d'honneurs royaux et rendait des oracles.</p>\n<p>À sa mort, le taureau sacré faisait l'objet d'un deuil national, était momifié selon les rites réservés aux pharaons et inhumé dans de vastes catacombes souterraines — le Sérapéum ou le Bucheum —, sa disparition marquant l'attente fervente de la naissance de son successeur divin.</p>"
+  },
+  "textes_pyramides_ascension_stellaire": {
+    "id": "textes_pyramides_ascension_stellaire",
+    "badge": "TEXTES SACRÉS DE L'ANCIEN EMPIRE",
+    "title": "Les Textes des Pyramides et l'Ascension Stellaire du Pharaon",
+    "sources": "Textes des Pyramides (Ve - VIe dynasties, Saqqarah)",
+    "keywords": [
+      "textes des pyramides",
+      "étoiles impérissables",
+      "teti",
+      "téti",
+      "ounas"
+    ],
+    "text": "<p>Gravés à partir de la fin de la Ve dynastie sur les parois calcaires des appartements funéraires royaux de Saqqarah, les <em>Textes des Pyramides</em> constituent le plus ancien corpus religieux et funéraire de l'humanité. Exclusivement réservés au pharaon à l'Ancien Empire, ces centaines de chapitres incantatoires en colonnes de hiéroglyphes forment un bouclier magique destiné à accompagner le souverain défunt dans sa métamorphose posthume.</p>\n<p>Contrairement aux époques ultérieures centrées sur le monde souterrain, l'eschatologie des pyramides est résolument céleste et stellaire. Les formules rituelles purifient le roi, éloignent les serpents et les dangers du caveau, et lui ouvrent les battants du ciel afin qu'il s'élève sur une échelle de lumière ou sur les ailes d'un faucon vers le firmament.</p>\n<p>Sous la voûte étoilée du caveau, le souverain transfiguré en esprit lumineux (<em>Akh</em>) rejoint Rê dans sa barque solaire ainsi que les « Étoiles Impérissables » — les étoiles circumpolaires qui ne se couchent jamais —, échappant définitivement à l'emprise de la mort.</p>"
+  },
+  "decrets_trilingues_conquete_romaine": {
+    "id": "decrets_trilingues_conquete_romaine",
+    "badge": "HISTOIRE PTOLÉMAÏQUE & ROMAINE",
+    "title": "Les Décrets Trilingues Lagides et l'Avènement de Rome en Égypte",
+    "sources": "Décret de Canope (-238) & Stèle de Cornelius Gallus (-29)",
+    "keywords": [
+      "trilingue",
+      "canope",
+      "cornelius gallus",
+      "démotique"
+    ],
+    "text": "<p>Sous la dynastie macédonienne des Ptolémées, l'Égypte devient un carrefour culturel où coexistent deux traditions : l'administration royale hellénistique de langue grecque et l'institution millénaire des grands sanctuaires égyptiens. Pour sceller leur alliance avec le clergé indigène et légitimer leur souveraineté, les rois lagides font graver des stèles synodales trilingues — dont le célèbre décret de Canope précède la pierre de Rosette — réunissant l'écriture sacrée hiéroglyphique, l'écriture courante démotique et le grec.</p>\n<p>Ces monuments témoignent de l'ouverture scientifique de l'époque, le décret de Canope instituant dès 238 avant J.-C. la réforme du calendrier solaire par l'ajout d'un jour intercalaire tous les quatre ans, ancêtre direct de notre année bissextile.</p>\n<p>Deux siècles plus tard, après la chute d'Alexandrie en 30 avant J.-C., une ultime stèle trilingue en hiéroglyphes, grec et latin — érigée à Philae par le premier préfet Cornelius Gallus au nom d'Auguste — consacre la fin de l'indépendance pharaonique et l'intégration de la vallée du Nil dans l'Empire romain.</p>"
+  },
+   "bataille_qadesh_peuples_mer": {
+    "id": "bataille_qadesh_peuples_mer",
+    "badge": "HISTOIRE MILITAIRE DE L'ÉGYPTE",
+    "title": "La Bataille de Qadesh et la Résistance face aux Peuples de la Mer",
+    "sources": "Poème de Pentaour & Chroniques ramessides du Nouvel Empire",
+    "keywords": [
+      "qadesh",
+      "peuples de la mer",
+      "hittites",
+      "massacre des ennemis",
+      "char de combat",
+      "char de guerre"
+    ],
+    "text": "<p>À l'apogée du Nouvel Empire, la défense des frontières égyptiennes face aux grands empires du Proche-Orient et aux migrations méditerranéennes constitue le devoir sacré du pharaon, garant de l'ordre cosmique (<em>Maât</em>) contre le chaos extérieur (<em>Isfet</em>). Au XIIIe siècle avant J.-C., le choc frontal entre l'Égypte de Ramsès II et l'Empire hittite culmine lors de la célèbre bataille de Qadesh, sur les rives de l'Oronte en Syrie. Pris dans une embuscade par la charrerie ennemie alors que ses divisions étaient dispersées, le souverain égyptien galvanisa sa garde rapprochée et chargea seul au cœur des lignes adverses, renversant le cours du combat avant de conclure le premier grand traité de paix de l'histoire.</p>\n<p>Un siècle plus tard, le bassin oriental de la Méditerranée est bouleversé par l'irruption soudaine d'une coalition de peuples migrateurs venus des îles et des côtes égéennes, désignés par les scribes égyptiens sous le nom de « Peuples de la Mer ». Après avoir anéanti l'Empire hittite et ravagé le Levant, ces envahisseurs tentent de forcer le delta du Nil par la terre et par les flots, mais se heurtent aux armées et à la flotte de Ramsès III qui brise leur assaut lors de batailles décisives.</p>\n<p>Dans l'idéologie pharaonique, ces affrontements historiques dépassent la simple chronique militaire : représenté sur son char de guerre ou brandissant sa masse d'armes au-dessus des captifs ligotés, le roi incarne le triomphe éternel de la lumière et de la civilisation sur les forces de désagrégation du monde.</p>"
+  },
+  "dieu_amon_re_thebes": {
+    "id": "dieu_amon_re_thebes",
+    "badge": "MYTHOLOGIE ÉGYPTIENNE",
+    "title": "Amon-Rê, le Dieu Caché, Roi des Dieux et la Fête d'Opet",
+    "sources": "Hymnes à Amon-Rê (Papyrus Boulaq 17) & Rituels thébains",
+    "keywords": [
+      "amon-rê",
+      "amon-re",
+      "amon",
+      "fête d'opet",
+      "fete d'opet",
+      "barque d'amon"
+    ],
+    "text": "<p>Originellement divinité locale de Thèbes associée au souffle invisible de l'air et du vent — son nom signifie littéralement « Le Caché » —, Amon connaît une ascension prodigieuse au Nouvel Empire pour devenir le dieu dynastique suprême de l'Égypte impériale. Fusionné avec le démiurge héliopolitain sous le nom d'Amon-Rê, « Roi des Dieux », il réunit en lui le mystère de la transcendance invisible et le rayonnement visible du soleil créateur, coiffé de deux hautes plumes d'autruche et associé au bélier aux cornes recourbées.</p>\n<p>Par le mystère de la théogamie, Amon-Rê est reconnu comme le père divin du pharaon régnant, légitimant directement son accession au trône et lui accordant l'investiture suprême ainsi que la victoire sur les nations étrangères. En échange des richesses et des encensements offerts dans ses sanctuaires, le dieu insuffle au souverain le signe de vie (<em>ânkh</em>) et la puissance souveraine (<em>ouas</em>).</p>\n<p>Chaque année lors de la crue du Nil, la grande fête d'Opet célébrait cette alliance sacrée : portée sur les épaules des prêtres dans sa barque processionnelle à proue de bélier, la statue cachée d'Amon-Rê quittait son sanctuaire pour rejoindre son harem méridional au milieu des acclamations, régénérant ainsi le <em>Ka</em> royal et l'harmonie de l'univers.</p>"
+  },
+  "dieu_horus_royaute_faucon": {
+    "id": "dieu_horus_royaute_faucon",
+    "badge": "MYTHOLOGIE ÉGYPTIENNE",
+    "title": "Horus, le Dieu Faucon, Rê-Horakhty et la Légitimité Royale",
+    "sources": "Textes des Pyramides & Mythe d'Horus et de Seth",
+    "keywords": [
+      "horus",
+      "rê-horakhty",
+      "re-horakhty",
+      "haroëris",
+      "haroeris",
+      "faucon"
+    ],
+    "text": "<p>Fils posthume d'Osiris et d'Isis, Horus est le dieu faucon céleste dont les deux yeux incarnent le Soleil et la Lune. Élevé en secret par sa mère dans les marais de papyrus du Delta pour échapper à la fureur de son oncle Seth, l'usurpateur du trône d'Égypte, le jeune dieu affronta son rival au terme de combats titanesques devant le tribunal des dieux. Bien qu'il y perdît un œil — l'œil <em>Oudjat</em>, guéri par Thot et devenu le talisman suprême d'intégrité et de protection —, Horus fut proclamé héritier légitime des Deux Terres.</p>\n<p>Dès les origines de la civilisation pharaonique, chaque souverain régnant est considéré comme l'incarnation terrestre d'Horus vivant, portant la double couronne unifiée (le <em>Pschent</em>) et perpétuant sur terre la victoire de l'ordre dynastique sur la discorde. Sous la forme syncrétique de Rê-Horakhty (« Horus des deux horizons »), le faucon coiffé du disque solaire fusionne la royauté légitime avec la course triomphante de l'astre du jour à travers le firmament.</p>\n<p>Protecteur infaillible du monarque qu'il purifie et couronne, Horus veille également sur l'âme des défunts, guidant les justes vers la présence d'Osiris afin qu'ils renaissent dans la lumière solaire.</p>"
+  },
+  "dieu_anubis_embaumement_necropoles": {
+    "id": "dieu_anubis_embaumement_necropoles",
+    "badge": "MYTHOLOGIE ÉGYPTIENNE",
+    "title": "Anubis, Maître des Embaumeurs et Gardien des Nécropoles",
+    "sources": "Textes des Sarcophages & Rituel de l'Embaumement",
+    "keywords": [
+      "anubis",
+      "chacal",
+      "canidé",
+      "embaumement"
+    ],
+    "text": "<p>Figuré sous les traits d'un canidé noir élancé couché sur un édicule sacré ou d'un homme à tête de chacal, Anubis est le protecteur tutélaire des nécropoles et le maître incontesté des rites funéraires. Sa couleur noire intense n'évoque pas le deuil, mais la teinte du limon fertile déposé par le Nil et celle des chairs traitées par les résines sacrées, promesse d'une renaissance future par-delà la mort.</p>\n<p>Selon la tradition mythologique, Anubis assista Isis et Nephthys lors de la reconstitution du corps démembré d'Osiris, inventant ainsi les techniques de la momification et enveloppant le premier la dépouille divine dans les bandelettes de lin. Depuis lors, chaque prêtre-embaumeur officie sous le masque du dieu chacal pour préserver l'intégrité physique du défunt, condition indispensable à la survie éternelle de son âme.</p>\n<p>Guide psychopompe bienveillant sur les chemins obscurs de l'au-delà, Anubis prend le défunt par la main pour l'introduire devant le tribunal divin, veille à l'exactitude de la balance lors de la pesée du cœur et monte une garde vigilante aux portes des tombes pour repousser les forces du chaos.</p>"
+  },
+  "livres_funeraires_souterrains_douat": {
+    "id": "livres_funeraires_souterrains_douat",
+    "badge": "COSMOGONIE & TEXTES FUNÉRAIRES",
+    "title": "Les Livres de l'Au-delà : Le Voyage Nocturne du Soleil dans la Douât",
+    "sources": "Livre de l'Amdouat, Livre des Portes & Livre de la Terre",
+    "keywords": [
+      "livre de la terre",
+      "livre des portes",
+      "amduat",
+      "amdouat",
+      "khépri",
+      "khepri",
+      "douat",
+      "douât",
+      "méhen",
+      "mehen",
+      "champs d'ialou"
+    ],
+    "text": "<p>Dans la pensée ésotérique du Nouvel Empire, la mort n'est pas une fin mais une traversée initiatique calquée sur la course nocturne du soleil. Réservés aux chambres funéraires royales, des traités cosmographiques complexes — tels que le <em>Livre de l'Amdouat</em>, le <em>Livre des Portes</em> et le <em>Livre de la Terre</em> — décrivent heure par heure la navigation périlleuse de la barque solaire à travers les douze régions souterraines de la Douât.</p>\n<p>Au fil de la nuit, le dieu solaire vieillissant doit franchir des portes gardées par des génies redoutables armés de couteaux et déjouer les attaques d'Apophis, le serpent géant du chaos qui tente d'engloutir la barque divine, protégée par les anneaux du serpent bienveillant Méhen. Au cœur de la nuit la plus profonde, l'astre solaire s'unit mystiquement à la momie d'Osiris dans les entrailles de la terre, opérant une fusion alchimique qui régénère simultanément le dieu des morts et l'énergie du soleil.</p>\n<p>À la douzième heure, soutenu par les bras primordiaux émergeant des profondeurs, le soleil renaît à l'horizon oriental sous la forme du scarabée Khépri, entraînant avec lui le pharaon ressuscité vers la lumière éternelle et les champs bienheureux d'Ialou.</p>"
+  },
+  "rituel_ouverture_bouche_culte_ka": {
+    "id": "rituel_ouverture_bouche_culte_ka",
+    "badge": "RITES FUNÉRAIRES ÉGYPTIENS",
+    "title": "L'Ouverture de la Bouche, la Fausse-Porte et la Survie du Ka",
+    "sources": "Rituel de l'Ouverture de la Bouche & Textes des Pyramides",
+    "keywords": [
+      "ouverture de la bouche",
+      "fausse-porte",
+      "fausse porte",
+      "repas funéraire"
+    ],
+    "text": "<p>Pour les anciens Égyptiens, l'être humain se compose de plusieurs principes complémentaires : le corps physique momifié, le <em>Ba</em> (l'âme mobile figurée sous les traits d'un oiseau à tête humaine) et le <em>Ka</em>, force vitale créatrice transmise à la naissance qui nécessite d'être continuellement nourrie après la mort. Avant de sceller le caveau, les prêtres accomplissaient devant la momie dressée ou la statue du défunt la cérémonie capitale de l'Ouverture de la Bouche.</p>\n<p>À l'aide d'herminettes rituelles, de ciseaux de fer météoritique et de vases à libation, l'officiant touchait symboliquement la bouche et les yeux de l'effigie afin de restaurer l'usage de ses sens — la vue, l'ouïe, la parole et la respiration — et de rendre le monument apte à accueillir l'esprit du mort.</p>\n<p>Dans la chapelle accessible aux vivants, la stèle fausse-porte servait de seuil magique entre les deux mondes : le <em>Ka</em> du défunt franchissait cette porte de pierre pour venir consommer l'essence spirituelle des offrandes déposées sur l'autel, tandis que les scènes sculptées sur les parois garantissaient par la magie de l'image un approvisionnement inépuisable pour l'éternité.</p>"
+  },
+  "expedition_pays_pount_hatchepsout": {
+    "id": "expedition_pays_pount_hatchepsout",
+    "badge": "HISTOIRE DE L'ÉGYPTE ANTIQUE",
+    "title": "Hatchepsout et l'Expédition Maritime vers le Pays de Pount",
+    "sources": "Annales de la XVIIIe dynastie & Inscriptions thébaines",
+    "keywords": [
+      "pount",
+      "pays de pount",
+      "arbres à encens",
+      "myrrhe",
+      "hatchepsout",
+      "hatshepsout"
+    ],
+    "text": "<p>Au début du XVe siècle avant J.-C., la reine Hatchepsout accomplit un acte politique sans précédent dans l'histoire de l'Égypte : régente de son jeune neveu Thoutmôsis III, elle assume pleinement la titulature pharaonique, revêtant le pagne royal, le <em>némès</em> et la barbe postiche pour gouverner les Deux Terres pendant plus de vingt ans dans une ère de paix et de prospérité architecturale.</p>\n<p>Pour affermir sa légitimité face au clergé d'Amon, la souveraine proclame sa naissance divine et organise vers la huitième année de son règne une grandiose expédition maritime vers le mythique Pays de Pount — la « Terre des Dieux », située sur les rives méridionales de la mer Rouge. Cinq grands navires de haute mer franchissent les flots pour rapporter à Thèbes des trésors fabuleux : de l'or pur, de l'ivoire, de l'ébène, des peaux de panthère, des babouins vivants et surtout trente et un arbres à encens et à myrrhe déracinés avec leur motte de terre afin d'être replantés dans les jardins sacrés d'Amon.</p>\n<p>Malgré la campagne de proscription menée des décennies plus tard pour effacer son nom et marteler ses cartouches des monuments officiels, le règne d'Hatchepsout demeure l'un des sommets du raffinement artistique et diplomatique du Nouvel Empire.</p>"
+  },
+  "arbre_sacre_ished_jubile_heb_sed": {
+    "id": "arbre_sacre_ished_jubile_heb_sed",
+    "badge": "THÉOLOGIE & RITUELS ROYAUX",
+    "title": "L'Arbre Sacré Ished, la Déesse Seshat et le Jubilé Royal Heb-Sed",
+    "sources": "Rituels du Jubilé royal & Liturgies du Nouvel Empire",
+    "keywords": [
+      "arbre ished",
+      "ished",
+      "seshat",
+      "heb-sed",
+      "fête-sed",
+      "fete-sed"
+    ],
+    "text": "<p>Garant de la fertilité du sol et de la régularité des cycles cosmiques, le pharaon devait périodiquement régénérer sa vigueur physique et spirituelle afin que la vieillesse du souverain n'entraîne pas le déclin du royaume. Célébrée théoriquement après trente ans de règne puis tous les trois ans, la fête jubilaire du <em>Heb-Sed</em> constituait un rituel de renaissance totale : drapé dans un manteau blanc archaïque, le monarque renouvelait son couronnement et accomplissait une course rituelle symbolisant sa maîtrise intacte sur l'ensemble du territoire égyptien.</p>\n<p>Cette promesse d'immortalité trouvait sa consécration céleste au pied de l'arbre sacré <em>Ished</em> (le perséa), arbre cosmique lié au lever du soleil à Héliopolis. Au cœur du sanctuaire, Thot, le dieu scribe à tête d'ibis, et Seshat — déesse de l'écriture, de l'astronomie, des archives et de l'arpentage, reconnaissable à la fleur à sept pétales surmontant sa tête et à sa peau de panthère — inscrivaient de leur calame les noms de couronnement du souverain sur les feuilles de l'arbre divin.</p>\n<p>Chaque feuille gravée scellait le décret des dieux accordant au roi des « millions d'années » de règne et une mémoire impérissable au sein de l'éternité solaire.</p>"
+  },
+  "dieu_min_fertilite_fete": {
+    "id": "dieu_min_fertilite_fete",
+    "badge": "MYTHOLOGIE ÉGYPTIENNE",
+    "title": "Min, Dieu Primordial de la Fertilité, et la Fête de la Moisson",
+    "sources": "Textes des Pyramides & Liturgies de la fête de Min",
+    "keywords": [
+      "amon-min",
+      "dieu min",
+      "fête de min",
+      "fete de min",
+      "laitues",
+      "ithyphallique"
+    ],
+    "text": "<p>Vénéré depuis les temps prédynastiques dans la région de Coptos et d'Akhmîm, Min est l'une des plus anciennes divinités du panthéon égyptien. Incarnation de la puissance génératrice de la nature, de la fécondité des troupeaux et de l'abondance des moissons, il est représenté sous une forme humaine momiforme et ithyphallique, coiffé de deux hautes plumes droites, le bras droit levé derrière la tête pour brandir le flagellum de souveraineté.</p>\n<p>Protecteur des pistes caravanières du désert Oriental et des expéditions minières vers la mer Rouge, Min fut très tôt associé au dieu thébain sous la forme syncrétique d'Amon-Min, unissant la force créatrice primordiale à la royauté solaire. Son attribut végétal privilégié est la laitue romaine dressée, dont la sève laiteuse blanche était réputée stimuler la fertilité et la régénération vitale.</p>\n<p>Lors de la grande fête annuelle de la moisson, le pharaon coupait symboliquement la première gerbe d'épeautre à la faucille d'or devant l'effigie du dieu portée en procession, célébrant ainsi le renouveau de la terre d'Égypte et la continuité de la lignée dynastique.</p>"
+  },
+  "famine_nil_steles_disette": {
+    "id": "famine_nil_steles_disette",
+    "badge": "HISTOIRE & SOCIÉTÉ ANTIQUE",
+    "title": "Le Fléau de la Famine et le Devoir Nourricier du Pharaon",
+    "sources": "Stèle de la Famine (Sehel) & Autobiographies de l'Ancien Empire",
+    "keywords": [
+      "famine",
+      "bédouins de la famine",
+      "disette"
+    ],
+    "text": "<p>Dans une civilisation entièrement suspendue à l'inondation annuelle du Nil, une crue insuffisante ou trop tardive entraînait inexorablement l'assèchement des terres cultivables, la perte des récoltes et le spectre redouté de la disette. Les textes anciens et les récits autobiographiques des grands gouverneurs évoquent avec gravité ces années dramatiques où le fleuve ne sortait plus de son lit, contraignant les populations nomades des confins désertiques à franchir les frontières de la vallée en quête de survie.</p>\n<p>Face à ce dérèglement de la nature perçu comme une menace directe du chaos sur la création, le pharaon et ses hauts administrateurs des greniers royaux incarnaient le rempart suprême contre le fléau. Ouvrir les réserves de grains de l'État, redistribuer les céréales aux provinces éprouvées et apaiser les divinités des sources du Nil par des offrandes solennelles relevaient du devoir sacré de <em>Maât</em>.</p>\n<p>La représentation saisissante des nomades décharnés implorant secours magnifie ainsi par contraste l'ordre bienfaisant de l'Égypte pharaonique, terre d'abondance et de refuge placée sous la protection nourricière du souverain.</p>"
+  },
    "mythe_osiris_isis_resurrection": {
     "id": "mythe_osiris_isis_resurrection",
     "badge": "MYTHOLOGIE ÉGYPTIENNE",
