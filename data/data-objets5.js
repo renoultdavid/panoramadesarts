@@ -141,7 +141,6 @@ window.ART_OBJECTS = [
       "w": 90.0,
       "display": "63 × 45 cm (chaque volet)"
     },
-    "backgroundId": "deucalion_pyrrha",
     "location": "Galerie des Offices, Florence, Italie",
     "currentLocation": "Galerie des Offices (Florence, Italie)",
     "site": "Galerie des Offices (Florence, Italie)",
