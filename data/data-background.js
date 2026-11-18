@@ -19,6 +19,359 @@ window.BACKGROUNDS_REGISTRY = {
     ],
     "text": "<p>Dans les <em>Fastes</em> d'Ovide, la déesse Flore elle-même conte son origine : autrefois nymphe des îles Fortunées sous le nom de Chloris, elle fut surprise par le souffle fougueux de Zéphyr, le vent du printemps. Épris de sa beauté, Zéphyr en fit son épouse légitime et lui offrit un don souverain : l'empire éternel des fleurs, des bourgeons, des semailles et des prés verdoyants.</p>\n<p>Dans ses jardins divins où règne un printemps immuable, la déesse recueille et veille sur les âmes des héros et des amants dont le destin tragique fut transfiguré par la pitié des dieux en corolles immortelles. Autour de son char triomphal dorénavant paré de guirlandes, les figures brisées du mythe renaissent sous forme végétale : Narcisse, consumé par son propre reflet et devenu fleur immaculée au cœur pourpre ; Hyacinthe, favori d'Apollon mortellement frappé par un disque et changé en fleur étoilée ; Adonis, transpercé par le sanglier sauvage et métamorphosé en anémone fragile ; ou encore le fier Ajax qui, s'étant jeté sur son glaive, voit son sang irriguer l'œillet dont les pétales portent gravées les lettres de sa douleur.</p>\n<p>Ce récit est une allégorie cosmique de la victoire perpétuelle du renouveau sur la mort : par la grâce de la poésie et de l'amour, la souffrance terrestre et la brièveté de la vie mortelle sont absorbées dans le cycle infini de la nature féconde.</p>"
   },
+   "uruk_naissance_ecriture_roi_pretre": {
+    "id": "uruk_naissance_ecriture_roi_pretre",
+    "badge": "HISTOIRE DE LA MÉSOPOTAMIE ANTIQUE",
+    "title": "L'Époque d'Uruk : La Naissance de l'Écriture, de la Cité et du Roi-Prêtre",
+    "sources": "Archives archaïques de l'Eanna (IVe millénaire av. J.-C.)",
+    "keywords": [
+      "uruk",
+      "roi-prêtre",
+      "roi-pretre",
+      "eanna",
+      "pictographique",
+      "proto-cunéiforme",
+      "proto-cuneiforme",
+      "shuruppak"
+    ],
+    "text": "<p>Au IVe millénaire avant notre ère, en Basse-Mésopotamie, le développement de l'agriculture irriguée entraîne une mutation décisive de l'histoire humaine : la révolution urbaine, dont la cité d'Uruk incarne le foyer le plus rayonnant. Autour des grands sanctuaires monumentaux dédiés au dieu céleste An et à la déesse Inanna s'organise une société hiérarchisée administrée par une figure souveraine réunissant les pouvoirs temporel et sacerdotal : le « roi-prêtre ».</p>\n<p>Représenté vêtu d'un pagne épais ou en nudité rituelle lors des cérémonies d'offrande, le crâne ceint d'un large bandeau et les mains jointes sur la poitrine en signe de piété, ce souverain veille à l'ordre cosmique, à l'entretien des canaux et à la prospérité des troupeaux sacrés.</p>\n<p>Pour gérer les immenses richesses des temples, les rations des travailleurs et les échanges commerciaux, les administrateurs d'Uruk inventent vers 3300 avant J.-C. les premiers systèmes de notation comptable sur tablettes d'argile : d'abord pictographiques, ces signes stylisés au calame donnent naissance à l'écriture cunéiforme.</p>"
+  },
+  "cites_etats_sumer_lagash_umma_reformes": {
+    "id": "cites_etats_sumer_lagash_umma_reformes",
+    "badge": "HISTOIRE & DROIT DE SUMER",
+    "title": "Les Cités-États de Sumer : Le Conflit Lagash-Umma et les Réformes d'Uruinimgina",
+    "sources": "Inscriptions royales de Lagash (Eannatum & Uruinimgina, XXIVe s. av. J.-C.)",
+    "keywords": [
+      "lagash",
+      "umma",
+      "eannatum",
+      "uruinimgina",
+      "urukagina",
+      "stèle des vautours",
+      "stele des vautours",
+      "ningirsu",
+      "lugalzagesi",
+      "lugal-zagesi"
+    ],
+    "text": "<p>Au IIIe millénaire avant J.-C., le pays de Sumer est constitué d'une mosaïque de cités-États souveraines — Ur, Uruk, Lagash, Umma, Kish — placées chacune sous la protection d'une divinité tutélaire dont le prince (<em>Ensi</em> ou <em>Lugal</em>) est le vicaire terrestre. Le contrôle des canaux d'irrigation et des terres fertiles suscite de longs conflits frontaliers, au premier rang desquels la guerre séculaire opposant Lagash à sa voisine Umma.</p>\n<p>Dans l'idéologie sumérienne, la guerre est avant tout un jugement divin : lorsque le roi Eannatum de Lagash triomphe d'Umma, sa victoire est attribuée au dieu guerrier Ningirsu qui capture les ennemis dans son immense filet sacré, tandis que l'incendie des sanctuaires perpétré plus tard par Lugal-zagesi est dénoncé comme un sacrilège inexpiable devant le dieu suprême Enlil.</p>\n<p>Face aux abus d'une administration devenue prédatrice, le roi Uruinimgina de Lagash promulgue vers 2350 avant J.-C. les plus anciens décrets de réforme sociale connus de l'humanité, abolissant les taxes abusives et proclamant le devoir sacré du roi de protéger l'orphelin et la veuve contre l'arbitraire des puissants.</p>"
+  },
+  "orants_sumeriens_piete_kaunakes": {
+    "id": "orants_sumeriens_piete_kaunakes",
+    "badge": "RELIGION & SOCIÉTÉ SUMÉRIENNE",
+    "title": "Les Orants de Sumer et de Mari : Le Kaunakès et la Prière Perpétuelle",
+    "sources": "Dépôts votifs des sanctuaires d'Ishtar à Mari et de la vallée de la Diyala",
+    "keywords": [
+      "orant",
+      "orants",
+      "kaunakès",
+      "kaunakes",
+      "ebih-il",
+      "mari",
+      "lupad",
+      "ginak",
+      "diyala"
+    ],
+    "text": "<p>Dans la spiritualité de la Mésopotamie archaïque, le temple est la demeure terrestre du dieu, un espace sacré réservé au clergé et aux souverains. Pour demeurer en permanence sous le regard bienveillant de la divinité et prolonger leur prière au-delà de leur présence physique, les rois, les hauts administrateurs et les nobles faisaient déposer dans le sanctuaire leur propre effigie votive : une statue d'orant.</p>\n<p>Figurés debout ou assis sur un tabouret de vannerie tressée, le crâne rasé ou paré d'une longue barbe bouclée, les mains jointes sur la poitrine dans un geste d'humilité recueillie, ces fidèles arborent de grands yeux largement ouverts, incrustés de coquille et de lapis-lazuli : ce regard intense symbolise l'éveil spirituel constant et la contemplation perpétuelle du divin.</p>\n<p>Ils sont revêtus du vêtement cérémoniel emblématique des élites mésopotamiennes du IIIe millénaire avant J.-C., le <em>kaunakès</em>, jupe ou manteau épais tissé en rangées superposées de mèches laineuses imitant une toison animale.</p>"
+  },
+  "cimetiere_royal_ur_civilisation_sumerienne": {
+    "id": "cimetiere_royal_ur_civilisation_sumerienne",
+    "badge": "HISTOIRE & ARCHÉOLOGIE DE SUMER",
+    "title": "La Splendeur Royale d'Ur : Orfèvrerie, Lapis-Lazuli et Rites de la Première Dynastie",
+    "sources": "Fouilles de la nécropole royale d'Ur (IIIe millénaire av. J.-C.)",
+    "keywords": [
+      "étendard d'ur",
+      "etendard d'ur",
+      "bélier dans un fourré",
+      "belier dans un fourre",
+      "cimetière royal d'ur",
+      "cimetiere royal d'ur",
+      "lapis-lazuli",
+      "nacre"
+    ],
+    "text": "<p>Vers 2500 avant notre ère, la cité-État d'Ur, établie près de l'embouchure de l'Euphrate en Basse-Mésopotamie, rayonne par sa puissance maritime et commerciale. Ses souverains et ses grandes prêtresses furent inhumés dans de fastueux caveaux souterrains entourés d'un mobilier funéraire d'un luxe inouï et d'une suite de serviteurs, de musiciens et de gardes accompagnant le monarque dans l'au-delà.</p>\n<p>Les œuvres mises au jour dans ces sépultures royales témoignent de l'étendue prodigieuse des routes commerciales du IIIe millénaire avant J.-C. : les orfèvres d'Ur associaient l'or martelé, l'argent, la nacre découpée dans les coquillages du golfe Persique, la cornaline rouge de la vallée de l'Indus et le lapis-lazuli bleu profond acheminé depuis les montagnes du Badakhshan, en Afghanistan.</p>\n<p>Sur les panneaux marquetés comme dans les statuettes animales dressées contre des arbustes fleuris s'exprime toute la cosmologie royale d'Ur : la victoire ordonnée des chars de guerre et des phalanges sur le chaos extérieur, suivie du banquet d'abondance célébrant la paix et la fertilité garanties par le souverain.</p>"
+  },
+  "empire_akkad_sargon_naram_sin": {
+    "id": "empire_akkad_sargon_naram_sin",
+    "badge": "HISTOIRE DE LA MÉSOPOTAMIE ANTIQUE",
+    "title": "L'Empire d'Akkad : Sargon, Manishtusu et la Divinisation de Naram-Sin",
+    "sources": "Inscriptions royales d'Akkad & Épopée du Roi du Combat (XXIVe - XXIIIe s. av. J.-C.)",
+    "keywords": [
+      "akkad",
+      "akkadien",
+      "sargon d'akkad",
+      "manishtusu",
+      "naram-sin",
+      "tiare à cornes",
+      "tiare a cornes",
+      "lullubi",
+      "roi des quatre régions"
+    ],
+    "text": "<p>Au XXIVe siècle avant J.-C., Sargon d'Akkad unifie pour la première fois sous un même sceptre l'ensemble des cités-États de Sumer et de Haute-Mésopotamie, fondant le premier empire territorial de l'histoire. S'appuyant sur une administration centralisée, un cadastre rigoureux consigné sur pierre dure et l'usage officiel de la langue akkadienne sémitique, ses successeurs étendent leur hégémonie de la Méditerranée jusqu'au golfe Persique.</p>\n<p>Sous le règne de son petit-fils Naram-Sin (vers 2254-2218 av. J.-C.), cette idéologie impériale franchit un seuil sans précédent : proclamé « Roi des quatre régions du monde », le souverain accède de son vivant au statut divin, faisant précéder son nom du déterminatif des dieux et coiffant la tiare à cornes jusqu'alors réservée aux seuls immortels.</p>\n<p>Dans l'art monumental, cette conception héroïque rompt avec les registres figés du passé pour exalter la figure solitaire et athlétique du monarque gravissant les montagnes sous le regard favorable des astres divins Shamash et Ishtar.</p>"
+  },
+  "gudea_lagash_renaissance_sumerienne_ur_iii": {
+    "id": "gudea_lagash_renaissance_sumerienne_ur_iii",
+    "badge": "HISTOIRE & ART DE LA MÉSOPOTAMIE",
+    "title": "Gudea de Lagash et la Renaissance Néo-Sumérienne (Dynastie d'Ur III)",
+    "sources": "Cylindres A et B de Gudea & Code d'Ur-Nammu (XXIIe - XXIe s. av. J.-C.)",
+    "keywords": [
+      "gudea",
+      "néo-sumérienne",
+      "neo-sumerienne",
+      "ur iii",
+      "amar-sin",
+      "shu-sin",
+      "eninnu",
+      "architecte au plan",
+      "mines"
+    ],
+    "text": "<p>Au XXIIe siècle avant J.-C., après l'effondrement de l'Empire d'Akkad sous les coups des montagnards Gutis, la Basse-Mésopotamie connaît un brillant renouveau culturel et spirituel connu sous le nom de « Renaissance néo-sumérienne ». À Lagash, le prince-gouverneur (<em>Ensi</em>) Gudea incarne l'idéal du souverain pieux, lettré et bâtisseur : renonçant à l'exaltation guerrière, il consacre son règne à la reconstruction des temples — au premier rang desquels l'Eninnu, sanctuaire du dieu Ningirsu dont le plan lui fut révélé en songe — et fait sculpter son effigie dans la diorite noire importée de Magan.</p>\n<p>Dans le sillage d'Ur-Nammu, fondateur de la Troisième dynastie d'Ur (Ur III), l'État mésopotamien atteint un degré inégalé d'organisation administrative, juridique et économique.</p>\n<p>Sous les règnes d'Amar-Sin et de Shu-Sin, des milliers de tablettes comptables enregistrent quotidiennement les mouvements de grains, de troupeaux et de métaux, tandis que des poids étalons officiels en pierre dure — calibrés en mines et certifiés au nom du « Roi des quatre régions » — garantissent la loyauté des échanges dans tout l'empire.</p>"
+  },
+  "code_hammurabi_justice_babylone": {
+    "id": "code_hammurabi_justice_babylone",
+    "badge": "DROIT, HISTOIRE & RELIGION BABYLONIENNE",
+    "title": "Hammurabi de Babylone, le Dieu Shamash et les Tables de la Loi",
+    "sources": "Stèle du Code d'Hammurabi (XVIIIe siècle av. J.-C.)",
+    "keywords": [
+      "hammurabi",
+      "code d'hammurabi",
+      "babylone",
+      "shamash",
+      "loi du talion",
+      "babylonie",
+      "babylonien"
+    ],
+    "text": "<p>Au XVIIIe siècle avant J.-C., le roi Hammurabi élève la cité de Babylone au rang de capitale impériale de toute la Mésopotamie. Pour unifier les populations diverses de son royaume sous une même autorité morale et juridique, il fait graver sur une stèle monumentale de basalte noir l'un des plus célèbres recueils législatifs de l'Antiquité : les 282 articles de son Code de lois.</p>\n<p>Au sommet de ce monument, le souverain se tient debout, la main levée en signe de respect devant le dieu-soleil Shamash, maître de la justice et de l'équité dont les rayons dissipent toute fraude. Assise sur un trône en forme de façade de temple et coiffée de la tiare à cornes, la divinité remet au roi l'anneau et le bâton — symboles de la mesure droite et de l'autorité légitime —, attestant que la loi humaine émane directement de l'ordre divin.</p>\n<p>Régissant le commerce, l'agriculture, la famille, les salaires et les peines selon le principe du talion et le statut social des personnes, ce texte fondateur consacre la mission suprême du monarque mésopotamien : empêcher le fort d'opprimer le faible.</p>"
+  },
+  "porte_ishtar_nabuchodonosor_babylone": {
+    "id": "porte_ishtar_nabuchodonosor_babylone",
+    "badge": "HISTOIRE & ART NÉO-BABYLONIEN",
+    "title": "La Babylone de Nabuchodonosor II : La Voie Processionnelle et la Porte d'Ishtar",
+    "sources": "Inscriptions de fondation de Nabuchodonosor II & Hérodote, Histoires (Livre I)",
+    "keywords": [
+      "nabuchodonosor",
+      "porte d'ishtar",
+      "porte d'ichtar",
+      "voie processionnelle",
+      "voie de procession",
+      "briques émaillées",
+      "briques glazurees",
+      "marduk"
+    ],
+    "text": "<p>Au VIe siècle avant J.-C., sous le règne prestigieux de Nabuchodonosor II, l'Empire néo-babylonien porte la métropole de Babylone à un degré de splendeur architecturale légendaire. Protégée par une double enceinte fortifiée et traversée par l'Euphrate, la ville sainte du dieu Marduk s'ordonne autour de la majestueuse Voie Processionnelle qui franchit le rempart nord par la célèbre Porte d'Ishtar.</p>\n<p>Pour conférer aux façades de brique crue un éclat impérissable, les artisans babyloniens perfectionnent la technique des briques moulées en relief et recouvertes d'émaux vitrifiés polychromes : sur un fond bleu intense évoquant le lapis-lazuli défilent en files solennelles les animaux sacrés des grandes divinités tutélaires.</p>\n<p>Tandis que les taureaux du dieu de l'Orage Adad et les dragons-serpents (<em>Mushhushshu</em>) de Marduk veillent sur la porte, cent vingt lions rugissants — animaux attributs d'Ishtar, déesse de la guerre et de l'amour — escortent le cortège sacré lors de la grande fête du Nouvel An (<em>Akitu</em>), repoussant magiquement tout ennemi loin de la cité.</p>"
+  },
+  "empire_assyrien_palais_lamassu_sargon_assurbanipal": {
+    "id": "empire_assyrien_palais_lamassu_sargon_assurbanipal",
+    "badge": "HISTOIRE & ART DE L'EMPIRE ASSYRIEN",
+    "title": "L'Empire Néo-Assyrien : Les Palais Royaux, les Génies Lamassu et la Propagande Impériale",
+    "sources": "Annales royales d'Assurnasirpal II, Sargon II, Sennachérib et Assurbanipal",
+    "keywords": [
+      "assyrien",
+      "assyrienne",
+      "lamassu",
+      "khorsabad",
+      "dur-sharrukin",
+      "sargon ii",
+      "assurnasirpal",
+      "assurbanipal",
+      "sennachérib",
+      "ninive",
+      "nimroud",
+      "orthostate",
+      "til barsip"
+    ],
+    "text": "<p>Entre le IXe et le VIIe siècle avant J.-C., l'Empire néo-assyrien impose son hégémonie militaire, administrative et commerciale sur l'ensemble du Proche-Orient, depuis le golfe Persique jusqu'à l'Égypte et aux côtes phéniciennes. Dans leurs capitales monumentales de Kalkhu (Nimroud), Dur-Sharrukin (Khorsabad) et Ninive, les souverains — Assurnasirpal II, Sargon II, Sennachérib et Assurbanipal — édifient d'immenses palais dont chaque espace glorifie la toute-puissance du roi, vicaire terrestre du dieu national Assur.</p>\n<p>Aux portes monumentales des résidences royales veillent par paires les colosses <em>Lamassu</em>, taureaux ou lions ailés à tête humaine coiffée de la tiare divine à cornes, dotés de cinq pattes afin d'apparaître à la fois immobiles de face et en marche de profil pour foudroyer d'effroi tout visiteur malintentionné.</p>\n<p>Le long des couloirs et des salles d'apparat, des kilomètres d'orthostates sculptés en bas-relief et de peintures murales déploient les fastes de la cour, les génies ailés purificateurs, l'acheminement maritime des cèdres du Liban, le défilé des tributaires étrangers et les annales militaires détaillées des campagnes impériales.</p>"
+  },
+  "revolution_neolithique_levant_culte_ancetres": {
+    "id": "revolution_neolithique_levant_culte_ancetres",
+    "badge": "PRÉHISTOIRE & ARCHÉOLOGIE DU PROCHE-ORIENT",
+    "title": "La Révolution Néolithique au Levant : Sédentarisation et Culte des Ancêtres",
+    "sources": "Archéologie du Néolithique précéramique B (Aïn Ghazal & Jéricho, VIIIe - VIIe mill. av. J.-C.)",
+    "keywords": [
+      "aïn ghazal",
+      "ain ghazal",
+      "néolithique précéramique",
+      "neolithique preceramique",
+      "plâtre de chaux",
+      "platre de chaux",
+      "ancêtres",
+      "ancetres"
+    ],
+    "text": "<p>Entre le Xe et le VIIe millénaire avant notre ère, dans le Croissant fertile du Proche-Orient, l'humanité accomplit l'une des mutations les plus décisives de son histoire : la révolution néolithique. Abandonnant progressivement le mode de vie exclusivement nomade de chasseurs-cueilleurs, les communautés domestiquent les céréales et les troupeaux et fondent les premiers grands villages sédentaires, tels que Jéricho et Aïn Ghazal en Jordanie.</p>\n<p>Cette nouvelle organisation sociale et territoriale s'accompagne d'une vie symbolique et religieuse d'une profondeur saisissante, centrée sur le lien avec la terre nourricière et la mémoire des ancêtres fondateurs du lignage.</p>\n<p>À l'aide d'armatures de roseaux recouvertes de plâtre de chaux modelé et rehaussées de bitume pour souligner l'intensité du regard, les artisans du Néolithique précéramique façonnent les toutes premières statues monumentales à figure humaine de l'histoire, inhumées rituellement sous le sol des habitations comme protectrices tutélaires de la communauté.</p>"
+  },
+  "megalithisme_neolithique_menhirs_alignements_cromlechs": {
+    "id": "megalithisme_neolithique_menhirs_alignements_cromlechs",
+    "badge": "PRÉHISTOIRE & ARCHÉOLOGIE EUROPÉENNE",
+    "title": "Le Mégalithisme Néolithique : Menhirs, Alignements et Enceintes Sacrées",
+    "sources": "Archéologie du mégalithisme atlantique et méditerranéen (Ve - IIIe mill. av. J.-C.)",
+    "keywords": [
+      "menhir",
+      "menhirs",
+      "alignement",
+      "alignements",
+      "cromlech",
+      "cromlechs",
+      "carnac",
+      "er grah",
+      "mégalithique",
+      "megalithique",
+      "pierre dressée",
+      "pierre dressee"
+    ],
+    "text": "<p>À partir du Ve millénaire avant notre ère, le long de la façade atlantique européenne comme sur les îles de Méditerranée occidentale, les premières sociétés sédentaires d'agriculteurs-éleveurs développent une architecture monumentale de pierre brute : le mégalithisme. Extrayant, transportant et dressant des monolithes de granite, de grès ou de quartzite pesant parfois plusieurs centaines de tonnes, ces communautés impriment durablement leur empreinte spirituelle sur le paysage.</p>\n<p>Qu'ils soient érigés en stèles solitaires marquant un point haut du littoral ou un carrefour territorial, déployés en immenses files parallèles sur des kilomètres ou disposés en enceintes circulaires et quadrangulaires (<em>cromlechs</em>), les menhirs structurent l'espace sacré à ciel ouvert.</p>\n<p>Loin d'être de simples pierres inertes, ces monuments — souvent orientés selon les levers et couchers solsticiaux du soleil ou ornés de gravures symboliques de crosses, de haches et de serpents — témoignent d'une organisation sociale collective complexe et d'une cosmologie reliant la terre, l'océan et les astres.</p>"
+  },
+  "dolmens_cairns_tumulus_rites_funeraires_neolithiques": {
+    "id": "dolmens_cairns_tumulus_rites_funeraires_neolithiques",
+    "badge": "PRÉHISTOIRE & RITES FUNÉRAIRES",
+    "title": "Dolmens, Cairns et Grands Tumulus : Les Demeures d'Éternité du Néolithique",
+    "sources": "Archéologie funéraire néolithique (Armorique, Val de Loire, Corse & Écosse)",
+    "keywords": [
+      "dolmen",
+      "dolmens",
+      "allée couverte",
+      "allee couverte",
+      "tumulus",
+      "cairn",
+      "cairns",
+      "orthostates",
+      "clava",
+      "locmariaquer",
+      "gavrinis"
+    ],
+    "text": "<p>Au cœur de la spiritualité des bâtisseurs néolithiques réside le culte rendu aux morts et aux ancêtres, matérialisé par la construction de sépultures monumentales en pierre. Qu'il s'agisse de dolmens à couloir ouvrant sur une chambre polygonale, de longues allées couvertes destinées aux inhumations collectives d'un clan ou de grands tumulus fermés réservés à une élite princière, l'architecture funéraire traduit la permanence du lien entre les vivants et leurs défunts.</p>\n<p>À l'origine, les lourdes tables de couverture reposant sur des piliers verticaux (<em>orthostates</em>) n'étaient pas visibles à l'air libre : elles formaient l'ossature intérieure d'imposants tertres de terre et de pierres sèches parementées — les <em>cairns</em> et <em>tumulus</em> — qui se dressaient comme des collines artificielles sacrées au-dessus de l'horizon.</p>\n<p>Souvent orientés vers le soleil levant ou le coucher du solstice d'hiver et gravés de motifs symboliques (écussons, crosses, haches emmanchées, signes naviformes ou cupules), ces monuments accompagnaient les défunts parés de haches polies en jadéite et de perles rares dans leur passage vers l'au-delà.</p>"
+  },
+  "statues_menhirs_civilisation_torreenne_corse": {
+    "id": "statues_menhirs_civilisation_torreenne_corse",
+    "badge": "PRÉHISTOIRE & PROTOHISTOIRE MÉDITERRANÉENNE",
+    "title": "Les Statues-Menhirs et la Civilisation Torréenne de Corse",
+    "sources": "Archéologie préhistorique et protohistorique de la Corse (IIIe - IIe mill. av. J.-C.)",
+    "keywords": [
+      "statue-menhir",
+      "statues-menhirs",
+      "filitosa",
+      "torréen",
+      "torreen",
+      "torre",
+      "i stantari",
+      "cauria",
+      "nebbiu"
+    ],
+    "text": "<p>Entre la fin du Néolithique et l'Âge du Bronze, la Corse voit s'épanouir l'une des expressions sculpturales les plus saisissantes du monde méditerranéen : la statue-menhir. Abandonnant la pierre dressée aniconique, les sculpteurs insulaires façonnent le granite et le schiste pour dégager une silhouette humaine hiératique au visage modelé, aux épaules marquées et à l'anatomie esquissée au revers.</p>\n<p>Au IIe millénaire avant notre ère, l'apparition de la métallurgie du bronze et l'intensification des tensions territoriales transforment cette statuaire : les monolithes deviennent des effigies de guerriers héroïsés, portant sculptés en bas-relief sur leur poitrine un baudrier en bandoulière, une longue épée rectiligne et un poignard triangulaire.</p>\n<p>Vers 1400-1000 avant J.-C., l'essor de la civilisation torréenne — caractérisée par ses forteresses circulaires en appareil cyclopéen appelées <em>torre</em> — entraîne un bouleversement culturel majeur : de nombreuses statues-menhirs sont alors abattues, brisées et remployées comme simples pierres de construction au sein des murailles des nouveaux maîtres de l'île.</p>"
+  },
+  "lycie_antique_dynastes_tombeaux_xanthe": {
+    "id": "lycie_antique_dynastes_tombeaux_xanthe",
+    "badge": "CIVILISATION D'ASIE MINEURE ANTIQUE",
+    "title": "La Lycie Antique : Les Dynastes de Xanthe et l'Architecture Funéraire",
+    "sources": "Hérodote, Histoires (Livre I) & Archéologie de Xanthe (Ve - IVe s. av. J.-C.)",
+    "keywords": [
+      "lycie",
+      "lycien",
+      "lycienne",
+      "xanthe",
+      "payava",
+      "néréides",
+      "nereides",
+      "erbinna",
+      "toit en carène"
+    ],
+    "text": "<p>Région montagneuse et escarpée du sud-ouest de l'Anatolie (actuelle Turquie), la Lycie antique a développé entre le VIe et le IVe siècle avant J.-C. une civilisation originale à la croisée des mondes grec et perse achéménide. Gouvernées par des princes locaux — les dynastes, dont les plus puissants régnaient sur la capitale Xanthe —, les cités lyciennes conservèrent leur langue propre, leurs institutions et un culte funéraire d'une monumentalité exceptionnelle.</p>\n<p>Convaincus que l'âme des défunts s'élevait vers le ciel sur les ailes de génies psychopompes, les Lyciens plaçaient leurs tombeaux en hauteur, au cœur même des cités, sur de hauts piliers ou sous la forme de grands sarcophages monolithiques couronnés d'un toit en carène (ogive brisée) imitant dans la pierre l'assemblage des charpentes de bois locales.</p>\n<p>Au IVe siècle avant J.-C., l'art dynastique lycien opère une synthèse éblouissante : les sculpteurs grecs appelés à la cour des princes de Xanthe célèbrent les victoires militaires et les audiences royales de style perse à travers la grâce du « drapé mouillé » et la forme du temple ionique grec.</p>"
+  },
+  "peuples_italiques_pre_romains_falisques_dauniens_messapiens": {
+    "id": "peuples_italiques_pre_romains_falisques_dauniens_messapiens",
+    "badge": "ITALIE PRÉROMAINE & CULTURES INDIGÈNES",
+    "title": "Les Peuples de l'Italie Préromaine : Falisques, Dauniens, Peucétiens et Messapiens",
+    "sources": "Strabon, Géographie (Livres V & VI) & Tite-Live, Histoire romaine",
+    "keywords": [
+      "falisque",
+      "falisques",
+      "falerii",
+      "narce",
+      "messapie",
+      "messapien",
+      "trozzella",
+      "nestoris",
+      "daunie",
+      "daunien",
+      "peucétien",
+      "peucetien",
+      "impasto",
+      "gnathia"
+    ],
+    "text": "<p>Avant l'unification de la péninsule Italique par Rome, l'Italie antique abritait une riche mosaïque de peuples indigènes — Falisques au nord du Latium, Sabins, Samnites, Lucaniens, Dauniens, Peucétiens et Messapiens en Apulie — qui développèrent des traditions artistiques originales au contact des cités étrusques et des colonies grecques de Grande-Grèce.</p>\n<p>À Falerii et Narce, en pays falisque, les potiers passent des urnes cinéraires biconiques en <em>impasto</em> gravé aux grands vases à figures rouges d'une verve décorative exubérante. En Apulie et en Messapie, les ateliers indigènes créent des formes céramiques uniques au monde, telles que la <em>trozzella</em> (ou <em>nestoris</em>) aux hautes anses rubanées ornées de rouelles rotatives et les grands vases polychromes à décor plastique de Canosa.</p>\n<p>À travers cette vaisselle de banquet et ces offrandes funéraires s'exprime la capacité des élites italiques à s'approprier les mythes et les techniques de la Grèce tout en affirmant fièrement leurs propres codes culturels et identitaires.</p>"
+  },
+  "paestum_lucanien_tombes_peintes_jeux_funebres": {
+    "id": "paestum_lucanien_tombes_peintes_jeux_funebres",
+    "badge": "ITALIE PRÉROMAINE & PEINTURE ANTIQUE",
+    "title": "Paestum Lucanien : Les Tombes Peintes, les Jeux Funèbres et l'Héroïsation du Guerrier",
+    "sources": "Archéologie des nécropoles d'Andriuolo et du Gaudo à Paestum (IVe s. av. J.-C.)",
+    "keywords": [
+      "paestum",
+      "lucanien",
+      "lucanienne",
+      "lucanie",
+      "samnite",
+      "quadrige",
+      "bige",
+      "gladiateurs",
+      "andriuolo",
+      "tombe peinte"
+    ],
+    "text": "<p>Fondée vers 600 avant J.-C. par des colons grecs sous le nom de Posidonia, la cité de Paestum passe à la fin du Ve siècle avant J.-C. sous le contrôle des Lucaniens, peuple italique de langue osque issu des montagnes de l'Apennin. Tout en préservant les grands temples doriques et les traditions artisanales de la cité, la nouvelle aristocratie lucanienne développe au IVe siècle avant J.-C. un art funéraire d'une vitalité extraordinaire : les tombes en caisson peintes.</p>\n<p>Réalisées à la détrempe sur les dalles de calcaire revêtues d'enduit blanc qui ferment la sépulture, ces fresques célèbrent les valeurs héroïques et les rites de passage de l'élite : l'exposition solennelle du défunt pleuré par les femmes (<em>prothesis</em>), le retour du cavalier victorieux accueilli par l'offrande de la patère et la conduite de l'âme par une divinité ailée psychopompe.</p>\n<p>Sur les parois latérales se déploient les jeux funèbres célébrés en l'honneur du mort — courses effrénées de biges et de quadriges autour de la borne et duels sanglants de guerriers armés du bouclier rond et de la cuirasse à trois disques —, ancêtres directs des combats de gladiateurs romains.</p>"
+  },
+   "cloitre_monastique_jardin_eden_lavabo": {
+    "id": "cloitre_monastique_jardin_eden_lavabo",
+    "badge": "ARCHITECTURE & VIE MONASTIQUE MÉDIÉVALE",
+    "title": "Le Cloître Monastique : Le Paradis Terrestre Retrouvé et la Vie Cénobitique",
+    "sources": "Honorius Augustodunensis, Gemma Animae & Règle de saint Benoît",
+    "keywords": [
+      "cloître",
+      "cloitre",
+      "chiostro",
+      "préau",
+      "preau",
+      "lavabo",
+      "salle capitulaire",
+      "colonnettes géminées",
+      "colonnettes germinees"
+    ],
+    "text": "<p>Cœur battant du monastère médiéval et des chapitres canoniaux, le cloître constitue un espace clos à ciel ouvert conçu comme la préfiguration terrestre du Paradis céleste et du jardin d'Éden originel. Articulé autour d'un préau verdoyant souvent divisé en quatre allées évoquant les quatre fleuves du Paradis, il abrite en son centre un puits ou une fontaine — parfois surmontée d'un édicule lavabo placé face au réfectoire — où les religieux accomplissent leurs ablutions rituelles avant les repas et la prière.</p>\n<p>Entouré de quatre galeries couvertes rythmées par des arcades sur colonnettes géminées et des piliers d'angle sculptés, le cloître assure la circulation silencieuse entre l'église abbatiale, la salle capitulaire, le scriptorium et le réfectoire.</p>\n<p>Sous ses galeries protégées des intempéries, les moines pratiquent la <em>lectio divina</em> (lecture méditative à voix basse des Écritures) tout en contemplant les chapiteaux historiés et les reliefs sculptés qui déploient, sur la pierre, l'histoire du Salut et le combat spirituel de l'âme contre les forces du mal.</p>"
+  },
+  "syncretisme_arabo_normand_sicile": {
+    "id": "syncretisme_arabo_normand_sicile",
+    "badge": "HISTOIRE & ART DE LA MÉDITERRANÉE MÉDIÉVALE",
+    "title": "La Sicile Arabo-Normande : La Rencontre de l'Occident Latin, de Byzance et de l'Islam",
+    "sources": "Chroniques d'Ibn Jubayr (1184) & Hugo Falcandus, Liber de Regno Sicilie",
+    "keywords": [
+      "arabo-normand",
+      "arabo-normande",
+      "monreale",
+      "cefalù",
+      "cefalu",
+      "chapelle palatine",
+      "roger ii",
+      "guillaume ii",
+      "opus sectile"
+    ],
+    "text": "<p>Au XIIe siècle, après avoir conquis la Sicile sur les émirs musulmans, les souverains normands de la maison de Hauteville — au premier rang desquels Roger II et son petit-fils Guillaume II — fondent à Palerme un royaume méditerranéen singulier où cohabitent les traditions latines, grecques byzantines et arabo-musulmanes.</p>\n<p>Dans leurs grands sanctuaires royaux, les bâtisseurs fusionnent avec une harmonie inédite les trois langages artistiques de la Méditerranée : le plan basilical latin à colonnes antiques de réemploi hérité de Rome, les arcs brisés outrepassés, les fontaines hydrauliques et les plafonds à caissons peints d'inspiration fatimide, et l'éblouissant revêtement de mosaïques sur fond d'or réalisé par les maîtres mosaïstes venus de Constantinople.</p>\n<p>Dominés au cul-de-four des absides par la figure colossale du Christ Pantocrator bénissant sous lequel trône le souverain légitimé par Dieu, ces sanctuaires célèbrent la concorde d'un royaume carrefour entre Orient et Occident.</p>"
+  },
+  "cathedrales_imperiales_saint_empire_ottonien": {
+    "id": "cathedrales_imperiales_saint_empire_ottonien",
+    "badge": "HISTOIRE & ARCHITECTURE DU SAINT-EMPIRE",
+    "title": "Les Cathédrales Impériales du Saint-Empire : La Majesté Ottonienne et Salienne",
+    "sources": "Chroniques de Thietmar de Mersebourg & Annales de l'Empire salien (XIe - XIIe siècles)",
+    "keywords": [
+      "cathédrale impériale",
+      "cathedrale imperiale",
+      "kaiserdom",
+      "double chœur",
+      "double choeur",
+      "salien",
+      "salienne",
+      "ottonien",
+      "hohenstaufen",
+      "frédéric barberousse"
+    ],
+    "text": "<p>Dans le Saint-Empire romain germanique des XIe et XIIe siècles, sous les dynasties ottonienne, salienne et des Hohenstaufen, l'architecture religieuse atteint une échelle monumentale destinée à manifester le caractère sacré de la dignité impériale, conçue comme l'héritière directe de Charlemagne et de l'Empire romain chrétien.</p>\n<p>Édifiées en grès rouge ou en calcaire massif le long des grands fleuves impériaux, les cathédrales impériales (<em>Kaiserdome</em>) et les chapelles palatines doubles adoptent fréquemment un plan grandiose à double chœur opposé — l'un dédié au pouvoir spirituel de l'évêque, l'autre à la majesté temporelle de l'empereur — soutenu par des cryptes souterraines servant de nécropole dynastique.</p>\n<p>Rythmées par l'alternance puissante des piles massives et des colonnes, ces nefs solennelles incarnent l'alliance indissoluble du Sacerdoce et de l'Empire dans l'ordre chrétien médiéval.</p>"
+  },
    "symbolique_coupole_voute_celeste": {
     "id": "symbolique_coupole_voute_celeste",
     "badge": "THÉOLOGIE & SYMBOLIQUE ARCHITECTURALE",
