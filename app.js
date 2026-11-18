@@ -11793,16 +11793,18 @@ function renderSearchGallery() {
                       fullText.includes('allée couverte') || fullText.includes('tumulus');
         if (!isFun) return false;
       } else if (selectedDomain === 'sculpture_statuaire') {
-        const isSculpt = d === 'sculpture_statuaire' || d === 'sculpture' || fullText.includes('statue') ||
-                         fullText.includes('sculpture') || fullText.includes('bas-relief') || fullText.includes('relief') ||
-                         fullText.includes('menhir') || fullText.includes('alignement') || fullText.includes('cromlech');
+        // Domaine explicite prioritaire : une peinture (ex. « Académie de peinture et de sculpture ») n'est jamais une sculpture
+        const typeTxt = `${aType} ${tit}`;
+        const isSculpt = d === 'sculpture_statuaire' || d === 'sculpture' ||
+                         (d === 'megalithes' && (typeTxt.includes('menhir') || typeTxt.includes('alignement') || typeTxt.includes('cromlech'))) ||
+                         (!d && (typeTxt.includes('statue') || typeTxt.includes('sculpture') || typeTxt.includes('relief')));
         if (!isSculpt) return false;
       } else if (selectedDomain === 'ceramique') {
-        if (d !== 'ceramique' && !fullText.includes('céramique') && !fullText.includes('vase')) return false;
+        if (d ? d !== 'ceramique' : (!aType.includes('céramique') && !aType.includes('vase'))) return false;
       } else if (selectedDomain === 'peinture_mosaique') {
-        if (d !== 'peinture_mosaique' && !fullText.includes('peinture') && !fullText.includes('fresque') && !fullText.includes('mosaïque')) return false;
+        if (d ? d !== 'peinture_mosaique' : (!aType.includes('peinture') && !aType.includes('fresque') && !aType.includes('mosaïque'))) return false;
       } else if (selectedDomain === 'parures_metaux') {
-        if (d !== 'parures_metaux' && !fullText.includes('orfèvrerie') && !fullText.includes('métallurgie') && !fullText.includes('dépôt')) return false;
+        if (d ? d !== 'parures_metaux' : (!aType.includes('orfèvrerie') && !aType.includes('métallurgie') && !aType.includes('dépôt'))) return false;
       } else if (selectedDomain === 'espace_sacre') {
         const isSacre = d === 'espace_sacre' || fullText.includes('cloître') || fullText.includes('cloitre') ||
                         fullText.includes('nef') || fullText.includes('portail') || fullText.includes('tympan') ||
@@ -11832,16 +11834,39 @@ function renderSearchGallery() {
       const chips = (item.chips || []).join(' ').toLowerCase();
       const full = `${aType} ${cat} ${tit} ${chips}`;
 
-      let matched = full.includes(target);
+      // Supports picturaux : test strict sur la technique (artifactType + category), jamais sur le titre ni les chips
+      const techTxt = `${aType} ${cat}`;
+      const isMosaicItem = /mosa[iï]que|tessell|opus sectile/.test(aType);
+      const isPaintingTarget = target.startsWith('peinture sur') || target.includes('fresque') || target.includes('pariétale');
+      let matched = isPaintingTarget ? false : full.includes(target);
 
-      // Correspondances intelligentes pour les peintures sur toile, bois, fresques, espaces sacrés, cloîtres, mégalithes et variantes
-      if (!matched) {
-        if (target.includes('toile') || target.includes('chevalet')) {
-          matched = full.includes('toile') || full.includes('chevalet') || full.includes('canvas');
+      if (target.includes('mosaïque')) {
+        // Typologies de mosaïque : correspondance exacte sur le type, sinon toute mosaïque du même genre
+        matched = aType === target ||
+                  (isMosaicItem && ((target.includes('pavement') && aType.includes('pavement')) ||
+                                    (target.includes('abside') && (aType.includes('abside') || aType.includes('voûte') || aType.includes('murale'))) ||
+                                    (target.includes('façade') && (aType.includes('façade') || aType.includes('lunette'))) ||
+                                    (target.includes('cuve') && aType.includes('cuve'))));
+      } else if (isPaintingTarget) {
+        if (isMosaicItem) {
+          matched = false;
+        } else if (target.includes('toile') || target.includes('chevalet')) {
+          matched = /toile|chevalet|canvas/.test(aType) || (!/bois|panneau|fresque|mural/.test(aType) && /sur toile|huile sur toile/.test(cat));
         } else if (target.includes('panneau') || target.includes('bois')) {
-          matched = full.includes('panneau') || full.includes('bois');
+          const notPanelPainting = /brique|papier|ipad|toile|fresque|mural/.test(aType);
+          const isPaintDomain = (item.domain || '') === 'peinture_mosaique' || /portrait/.test(aType);
+          matched = !notPanelPainting && (/panneau de (bois|chêne|peuplier)|sur panneau|sur bois|bois \(|tempera|encaustique/.test(aType) ||
+                    (isPaintDomain && /sur (panneau|bois)|panneau de (bois|chêne|peuplier)/.test(cat)));
         } else if (target.includes('fresque') || target.includes('murale')) {
-          matched = full.includes('fresque') || full.includes('mural');
+          matched = /fresque|peinture murale/.test(techTxt);
+        } else {
+          matched = /pariétal|parietal|rupestre/.test(techTxt);
+        }
+      }
+
+      // Correspondances intelligentes pour espaces sacrés, cloîtres, mégalithes et variantes
+      if (!matched && !isPaintingTarget && !target.includes('mosaïque')) {
+        if (false) {
         } else if (target.includes('pariétale') || target.includes('parietale') || target.includes('rupestre')) {
           matched = full.includes('pariétal') || full.includes('parietal') || full.includes('rupestre') || full.includes('grotte');
         } else if (target.includes('cloître') || target.includes('cloitre')) {
