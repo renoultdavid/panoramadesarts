@@ -19,6 +19,374 @@ window.BACKGROUNDS_REGISTRY = {
     ],
     "text": "<p>Dans les <em>Fastes</em> d'Ovide, la déesse Flore elle-même conte son origine : autrefois nymphe des îles Fortunées sous le nom de Chloris, elle fut surprise par le souffle fougueux de Zéphyr, le vent du printemps. Épris de sa beauté, Zéphyr en fit son épouse légitime et lui offrit un don souverain : l'empire éternel des fleurs, des bourgeons, des semailles et des prés verdoyants.</p>\n<p>Dans ses jardins divins où règne un printemps immuable, la déesse recueille et veille sur les âmes des héros et des amants dont le destin tragique fut transfiguré par la pitié des dieux en corolles immortelles. Autour de son char triomphal dorénavant paré de guirlandes, les figures brisées du mythe renaissent sous forme végétale : Narcisse, consumé par son propre reflet et devenu fleur immaculée au cœur pourpre ; Hyacinthe, favori d'Apollon mortellement frappé par un disque et changé en fleur étoilée ; Adonis, transpercé par le sanglier sauvage et métamorphosé en anémone fragile ; ou encore le fier Ajax qui, s'étant jeté sur son glaive, voit son sang irriguer l'œillet dont les pétales portent gravées les lettres de sa douleur.</p>\n<p>Ce récit est une allégorie cosmique de la victoire perpétuelle du renouveau sur la mort : par la grâce de la poésie et de l'amour, la souffrance terrestre et la brièveté de la vie mortelle sont absorbées dans le cycle infini de la nature féconde.</p>"
   },
+   "deesse_bastet_culte_chats_bubastis": {
+    "id": "deesse_bastet_culte_chats_bubastis",
+    "badge": "MYTHOLOGIE & CULTES ÉGYPTIENS",
+    "title": "Bastet, la Déesse Féline de Bubastis, et la Vénération des Chats Sacrés",
+    "sources": "Hérodote, Histoires (Livre II, 59-67) & Textes des Sarcophages",
+    "keywords": [
+      "bastet",
+      "bubastis",
+      "bubasteion",
+      "boubasteion",
+      "chat",
+      "chats",
+      "chatte"
+    ],
+    "text": "<p>Vénérée dès l'Ancien Empire dans le delta du Nil autour de sa cité sainte de Bubastis, Bastet incarne la douceur bienveillante, la joie, la musique, la fécondité et la protection du foyer maternel. D'abord figurée sous les traits d'une lionne, elle adopte progressivement l'apparence gracieuse d'une chatte ou d'une femme à tête de chatte tenant le sistre sacré et l'égide protectrice, incarnant ainsi l'aspect apaisé et lumineux de l'Œil de Rê face à la fureur destructrice de Sekhmet.</p>\n<p>À partir de la Troisième Période intermédiaire et surtout durant la Basse Époque, la dévotion populaire envers Bastet connaît un essor prodigieux. Des foules immenses de pèlerins affluaient lors de ses fêtes annuelles pour déposer dans les sanctuaires — tels que les grands Bubasteia de Bubastis, de Saqqarah ou d'Alexandrie — des statuettes de bronze et des ex-voto implorant la santé des enfants et la sauvegarde de la famille.</p>\n<p>Considérés comme les réceptacles vivants (les <em>Ba</em>) de l'énergie divine de la déesse, les chats élevés dans l'enceinte des temples recevaient après leur mort des funérailles solennelles : embaumés avec soin dans des bandelettes de lin tressées de motifs géométriques ou enfermés dans des sarcophages reliquaires en bois et en bronze, ils devenaient d'éternels intercesseurs entre le fidèle et la déesse.</p>"
+  },
+  "momification_animaux_sacres_egypte": {
+    "id": "momification_animaux_sacres_egypte",
+    "badge": "RITES & PIÉTÉ DE L'ÉGYPTE TARDIVE",
+    "title": "La Momification des Animaux Sacrés et les Ex-Voto des Catacombes",
+    "sources": "Hérodote, Histoires (Livre II) & Diodore de Sicile (Livre I)",
+    "keywords": [
+      "momie animale",
+      "momies animales",
+      "momies de chats",
+      "momies de crocodiles",
+      "momie de vache",
+      "catacombes",
+      "ex-voto"
+    ],
+    "text": "<p>Dans la pensée religieuse de l'Égypte antique, les animaux ne sont pas adorés en tant que simples espèces biologiques, mais vénérés comme les hypostases visibles à travers lesquelles les puissances divines se manifestent sur terre. À partir de la Basse Époque et tout au long des périodes ptolémaïque et romaine, cette théologie donne naissance à une pratique dévotionnelle d'une ampleur considérable : la momification de millions d'animaux sacrés — chats de Bastet, crocodiles de Sobek, ibis et babouins de Thot, faucons d'Horus ou taureaux d'Hathor.</p>\n<p>Après avoir été desséchées au natron et enduites de résines aromatiques et de bitume, les dépouilles animales faisaient l'objet d'un maillotage textile d'une virtuosité remarquable. Les embaumeurs entrecroisaient des bandelettes de lin de teintes contrastées pour composer de savants réseaux en damiers, en chevrons ou en losanges, modelant parfois le museau, les oreilles ou des yeux artificiels en stuc afin de restituer à l'animal une présence vivante et sacralisée.</p>\n<p>Achetées par les pèlerins auprès du clergé des temples, ces momies étaient déposées en ex-voto dans d'immenses galeries souterraines creusées dans le roc, où chaque offrande perpétuait indéfiniment la prière du fidèle auprès de la divinité tutélaire.</p>"
+  },
+  "portraits_fayoum_rite_funeraire_romain": {
+    "id": "portraits_fayoum_rite_funeraire_romain",
+    "badge": "ART FUNÉRAIRE DE L'ÉGYPTE ROMAINE",
+    "title": "Les Portraits du Fayoum, les Masques en Stuc et la Survie du Ba",
+    "sources": "Archéologie d'Hawara, d'Antinoopolis et d'Akhmîm (Ier - IIIe s. ap. J.-C.)",
+    "keywords": [
+      "fayoum",
+      "portrait du fayoum",
+      "portraits du fayoum",
+      "encaustique",
+      "antinoopolis",
+      "akhmîm",
+      "akhmim",
+      "masque en plâtre",
+      "cartonnage"
+    ],
+    "text": "<p>Durant les trois premiers siècles de notre ère, sous la domination romaine, l'Égypte demeure fidèle aux croyances millénaires de la momification tout en renouvelant profondément l'apparence extérieure des défunts. Au sein des communautés cosmopolites du bassin du Fayoum, d'Antinoopolis ou d'Akhmîm — réunissant descendants de colons grecs, notables égyptiens et citoyens romains —, le masque funéraire pharaonique se transforme au contact de l'art du portrait hellénistique et impérial.</p>\n<p>Sur de minces panneaux de bois de tilleul ou de sycomore insérés directement dans les bandelettes à hauteur du visage, ou sur des masques modelés en stuc peint et doré, les artistes peignent à l'encaustique (pigments liés à la cire d'abeille chaude) ou à la détrempe des visages d'une présence saisissante. Coiffures à la mode impériale, bijoux de perles, couronnes florales et tuniques ornées de <em>clavi</em> témoignent du rang social du disparu, tandis que les grands yeux sombres fixent l'éternité.</p>\n<p>Loin d'être de simples souvenirs profanes, ces portraits assumaient une fonction liturgique vitale : ils offraient à l'âme mobile du défunt (le <em>Ba</em>) un visage individualisé et incorruptible lui permettant de reconnaître son enveloppe charnelle au retour de ses voyages célestes.</p>"
+  },
+  "syncretisme_greco_romain_egypte_alexandrie": {
+    "id": "syncretisme_greco_romain_egypte_alexandrie",
+    "badge": "HISTOIRE & RELIGIONS DE L'ÉGYPTE GRÉCO-ROMAINE",
+    "title": "Alexandrie et le Syncrétisme Gréco-Romain : Isis, Sérapis et Anubis Légionnaire",
+    "sources": "Plutarque, Isis et Osiris & Archéologie des catacombes d'Alexandrie",
+    "keywords": [
+      "kôm el-chouqafa",
+      "kom el-chouqafa",
+      "anubis légionnaire",
+      "nœud d'isis",
+      "noeud d'isis",
+      "boucles libyennes",
+      "phare d'alexandrie",
+      "ras el-souda",
+      "sérapéum",
+      "serapeum",
+      "sôter",
+      "soter"
+    ],
+    "text": "<p>Fondée par Alexandre le Grand en 331 avant J.-C. et élevée au rang de capitale intellectuelle et maritime de la Méditerranée par la dynastie lagide des Ptolémées, Alexandrie devient le creuset d'un dialogue fécond entre les traditions grecques, romaines et pharaoniques. Pour unir leurs sujets grecs et égyptiens dans une même piété civique, les souverains ptolémaïques encouragent l'essor de cultes syncrétiques associant Osiris et le taureau Apis sous les traits de Sérapis, tandis que les reines lagides s'assimilent à Isis, déesse universelle protectrice des marins et des cités.</p>\n<p>Sous l'Empire romain, cette fusion culturelle atteint une expression visuelle saisissante dans les sanctuaires et les hypogées funéraires alexandrins. Dans les catacombes souterraines de Kôm el-Chouqafa, les guirlandes végétales, les bucranes et les frises architecturales gréco-romaines encadrent directement les scènes sacrées de la momification d'Osiris et de l'adoration du taureau Apis.</p>\n<p>Dans ce langage iconographique hybride, les empereurs romains revêtent le pagne et la double couronne des pharaons pour offrir aux dieux du Nil, tandis que le dieu chacal Anubis, gardien séculaire des nécropoles, endosse la cuirasse, le bouclier et la lance d'un légionnaire romain pour monter la garde au seuil des tombeaux.</p>"
+  },
+  "dieu_bes_protecteur_foyer": {
+    "id": "dieu_bes_protecteur_foyer",
+    "badge": "MYTHOLOGIE & PIÉTÉ POPULAIRE ÉGYPTIENNE",
+    "title": "Bès, le Génie Nain Léonin Protecteur du Foyer, des Mères et des Enfants",
+    "sources": "Textes magico-médicaux du Nouvel Empire & Amulettes domestiques",
+    "keywords": [
+      "bès",
+      "bes",
+      "dieu bès",
+      "dieu bes"
+    ],
+    "text": "<p>Contrairement aux grandes divinités cosmiques vénérées dans le secret des sanctuaires officiels, Bès est par excellence le dieu familier et bienveillant de la piété quotidienne en Égypte et en Nubie. Toujours représenté de face — privilège rarissime dans l'iconographie égyptienne qui le met en contact visuel direct avec le spectateur —, il apparaît sous les traits d'un génie nain trapu aux jambes arquées, au ventre rebondi et à la face léonine encadrée d'une crinière touffue et d'oreilles de fauve.</p>\n<p>Son apparence volontairement grotesque, accentuée par sa langue tirée, ses grimaces et sa haute couronne de plumes d'autruche, possède une puissante vertu apotropaïque : par le rire, la danse et le fracas des tambourins qu'il agite, Bès effraie et met en fuite les scorpions, les serpents et les démons nocturnes qui menacent la quiétude de la maison.</p>\n<p>Gardien attentif du sommeil, de l'amour conjugal, de la grossesse et de l'accouchement, Bès veillait sur les femmes et les nouveau-nés depuis les chevets de lits, les miroirs, les flacons à khôl et les figurines domestiques conservées dans chaque demeure de la vallée du Nil.</p>"
+  },
+  "dieu_nefertoum_lotus_primordial": {
+    "id": "dieu_nefertoum_lotus_primordial",
+    "badge": "MYTHOLOGIE ÉGYPTIENNE",
+    "title": "Néfertoum, le Dieu du Lotus Primordial et du Parfum Solaire",
+    "sources": "Textes des Pyramides (§ 266) & Théologie memphite",
+    "keywords": [
+      "néfertoum",
+      "nefertoum"
+    ],
+    "text": "<p>Dans la cosmogonie égyptienne, avant que le monde n'existe, seul s'étendait l'océan primordial et obscur du Noun. De ces eaux inertes émergea au premier matin une fleur de lotus bleu éclatante dont les pétales, en s'ouvrant, libérèrent le soleil enfant et emplirent l'univers d'une fragrance divine : cette fleur sacrée est incarnée par le dieu Néfertoum, célébré dans les textes sacrés comme « le lotus au nez de Rê ».</p>\n<p>Associé à Memphis à Ptah et à la déesse lionne Sekhmet dont il forme le fils au sein de la triade memphite, Néfertoum est figuré sous les traits d'un jeune homme élancé portant au sommet de sa perruque une fleur de lotus épanouie surmontée de deux hautes plumes droites et flanquée de contrepoids rituels (<em>ménat</em>). Il incarne la beauté, la jeunesse éternelle, les onguents parfumés et le renouveau perpétuel de la vie.</p>\n<p>À l'image du lotus qui se referme chaque soir sous les eaux du Nil pour renaître intact à l'aube, Néfertoum symbolise la promesse de résurrection offerte aux défunts, qui invoquaient sa puissance régénératrice pour renaître dans la lumière solaire.</p>"
+  },
+  "imhotep_architecte_sage_divinise": {
+    "id": "imhotep_architecte_sage_divinise",
+    "badge": "HISTOIRE & SAGESSE DE L'ÉGYPTE ANTIQUE",
+    "title": "Imhotep : De l'Architecte de Djéser au Dieu Guérisseur et Patron des Scribes",
+    "sources": "Inscriptions de Saqqarah & Tradition tardive memphite",
+    "keywords": [
+      "imhotep",
+      "djéser",
+      "djeser",
+      "pyramide à degrés",
+      "chambre bleue",
+      "chambres bleues"
+    ],
+    "text": "<p>Personnage historique majeur du début de l'Ancien Empire sous le règne du pharaon Djéser (IIIe dynastie, XXVIIe siècle av. J.-C.), Imhotep exerça les plus hautes charges de l'État en tant que chancelier royal, grand prêtre d'Héliopolis et maître d'œuvre génial du complexe funéraire de Saqqarah. En substituant la pierre de taille calcaire aux constructions traditionnelles en brique crue et en roseaux — tout en reproduisant dans la pierre et les carreaux de faïence bleue l'architecture végétale des palais royaux —, il inventa la première pyramide à degrés et fonda l'architecture monumentale en pierre.</p>\n<p>Au fil des siècles, la mémoire de son génie universel d'architecte, d'astronome, de lettré et de médecin prit une dimension légendaire. À la Basse Époque, Imhotep fut pleinement divinisé comme fils du dieu démiurge Ptah, devenant l'un des très rares mortels non royaux d'Égypte à accéder au rang de dieu à part entière.</p>\n<p>Vénéré sous les traits d'un sage au crâne rasé assis un rouleau de papyrus déroulé sur les genoux, il était invoqué par les scribes qui lui versaient une goutte d'eau de leur godet avant d'écrire, et par les malades venant chercher la guérison dans ses sanctuaires, au point que les Grecs l'identifièrent directement à leur dieu de la médecine, Asclépios.</p>"
+  },
+  "statues_cubes_temples_appel_vivants": {
+    "id": "statues_cubes_temples_appel_vivants",
+    "badge": "ART & PIÉTÉ DES TEMPLES ÉGYPTIENS",
+    "title": "Les Statues-Cubes des Temples et la Formule de l'« Appel aux Vivants »",
+    "sources": "Épigraphie privée du Moyen et du Nouvel Empire",
+    "keywords": [
+      "statue-cube",
+      "statues-cubes",
+      "naophore",
+      "théophore",
+      "theophore",
+      "appel aux vivants"
+    ],
+    "text": "<p>Apparue au Moyen Empire et largement adoptée par les hauts dignitaires du Nouvel Empire et de la Basse Époque, la statue-cube représente le défunt assis à même le sol, les genoux ramenés contre la poitrine et les bras croisés par-dessus, le corps entièrement enveloppé dans un long manteau lisse d'où n'émergent que la tête, les mains et parfois les pieds. Cette synthèse plastique audacieuse réduit l'anatomie humaine à un volume géométrique compact et indestructible.</p>\n<p>Déposées avec l'autorisation du roi dans les cours publiques des grands temples — à Karnak, Memphis ou Abydos —, ces effigies permettaient aux fonctionnaires et aux prêtres de demeurer éternellement présents au cœur de l'espace sacré. Souvent qualifiées de <em>naophores</em> ou <em>théophores</em> lorsque le personnage tient devant lui un petit naos abritant l'image d'Osiris, de Thot ou d'Amon, elles plaçaient leur propriétaire sous la sauvegarde directe de la divinité.</p>\n<p>Les larges parois planes du bloc de pierre servaient de support à de longues colonnes de hiéroglyphes gravant l'« Appel aux vivants » : cette formule invitait les prêtres et les passants de l'enceinte sacrée à prononcer à voix haute le nom du défunt et à partager avec lui le surplus des offrandes divines afin d'assurer la survie perpétuelle de son <em>Ka</em>.</p>"
+  },
+  "piete_personnelle_oreilles_votives": {
+    "id": "piete_personnelle_oreilles_votives",
+    "badge": "RELIGION & DÉVOTION POPULAIRE ÉGYPTIENNE",
+    "title": "La Piété Personnelle au Nouvel Empire et les Oreilles Votives",
+    "sources": "Stèles votives et ex-voto de Deir el-Médineh et Memphis",
+    "keywords": [
+      "oreilles votives",
+      "oreille votive",
+      "piété personnelle",
+      "piete personnelle",
+      "écoute les prières"
+    ],
+    "text": "<p>Durant le Nouvel Empire, parallèlement aux grands rituels d'État célébrés dans le secret des sanctuaires par le pharaon et le haut clergé, se développe un mouvement profond de piété personnelle. Les artisans, les soldats et les simples fidèles aspirent désormais à une relation directe, intime et confiante avec la divinité, perçue comme un protecteur attentif aux épreuves, aux maladies et aux inquiétudes de la vie quotidienne.</p>\n<p>Pour matérialiser leur supplique et s'assurer que leur voix parviendrait jusqu'au dieu, les croyants déposaient dans les chapelles votives des ex-voto singuliers représentant une ou plusieurs oreilles sculptées en pierre, en bois ou en terre cuite, ou faisaient graver des dizaines d'oreilles sur des stèles dédiées à Ptah, Amon ou Hathor.</p>\n<p>Invoqué sous l'épithète touchante de « Celui qui écoute les prières » (<em>Sedjem-nehet</em>), le dieu était ainsi magiquement sollicité pour prêter une attention bienveillante à l'imploration du fidèle, transformant une prière fugace en une présence durable au seuil du sacré.</p>"
+  },
+  "deir_el_medineh_artisans_cultes_royaux": {
+    "id": "deir_el_medineh_artisans_cultes_royaux",
+    "badge": "SOCIÉTÉ & RELIGION DU NOUVEL EMPIRE",
+    "title": "Deir el-Médineh, la « Place de Vérité », et le Culte d'Amenhotep Ier et d'Iahmès-Néfertari",
+    "sources": "Archives et ostraca de Deir el-Médineh (XVIIIe - XXe dynasties)",
+    "keywords": [
+      "deir el-médineh",
+      "deir el-medineh",
+      "deir el-medina",
+      "iahmès-néfertari",
+      "iahmes-nefertari",
+      "amenhotep ier",
+      "place de vérité"
+    ],
+    "text": "<p>Isolé dans un vallon désertique de la rive occidentale de Thèbes, à mi-chemin entre la Vallée des Rois et la Vallée des Reines, le village de Deir el-Médineh abritait la communauté fermée des « Serviteurs dans la Place de Vérité » : tailleurs de pierre, dessinateurs, sculpteurs et peintres chargés d'excaver et de décorer les demeures d'éternité des pharaons du Nouvel Empire.</p>\n<p>Dotée d'un statut privilégié et d'un niveau d'alphabétisation exceptionnel, cette confrérie d'artisans vouait un culte fervent à deux souverains fondateurs de la XVIIIe dynastie, le roi Amenhotep Ier et sa mère la reine Iahmès-Néfertari, vénérés des siècles après leur mort comme les saints patrons et protecteurs de la nécropole thébaine.</p>\n<p>Portées en procession lors des fêtes locales pour rendre des oracles et trancher les litiges du village, les effigies divinisées d'Amenhotep Ier et d'Iahmès-Néfertari — souvent représentée la peau peinte en noir, couleur du limon fertile et de la régénération osirienne — veillaient sur la vie quotidienne comme sur le repos funéraire des artisans du roi.</p>"
+  },
+  "ramses_ii_sema_taouy_abou_simbel": {
+    "id": "ramses_ii_sema_taouy_abou_simbel",
+    "badge": "HISTOIRE & THÉOLOGIE ROYALE ÉGYPTIENNE",
+    "title": "Ramsès II, l'Unification des Deux Terres (Séma-Taouy) et les Sanctuaires de Nubie",
+    "sources": "Inscriptions d'Abou Simbel, du Ramesseum et de Louxor (XIXe dynastie)",
+    "keywords": [
+      "ramsès ii",
+      "ramses ii",
+      "séma-taouy",
+      "sema-taouy",
+      "abou simbel",
+      "ramesseum",
+      "ozymandias",
+      "néfertari",
+      "nefertari",
+      "gerf hussein",
+      "médinet habou",
+      "medinet habou"
+    ],
+    "text": "<p>Durant un règne exceptionnel de soixante-six ans au XIIIe siècle avant J.-C., Ramsès II porte l'architecture monumentale et la théologie royale du Nouvel Empire à leur apogée. Garant de l'ordre cosmique (<em>Maât</em>) et de la cohésion du royaume, le pharaon fait graver sur les flancs de ses trônes l'emblème fondamental du <em>Séma-Taouy</em> : les deux génies androgynes de la crue du Nil, Hâpy, nouant ensemble autour du hiéroglyphe de l'union le lotus de Haute-Égypte et le papyrus du Delta.</p>\n<p>Dans son grand temple funéraire de Thèbes-Ouest — le Ramesseum, dont les colosses de granit inspirèrent plus tard le mythe d'Ozymandias — comme à Karnak et à Louxor, la statuaire colossale affirme la fusion du souverain vivant avec les grands dieux dynastiques et avec Osiris, seigneur de la régénération éternelle.</p>\n<p>En Basse-Nubie, sur le site d'Abou Simbel, cette idéologie atteint une dimension cosmique : creusé à même la falaise de grès selon un axe astronomique précis permettant aux rayons du soleil levant d'illuminer deux fois l'an les statues divines du sanctuaire intérieur, le Grand Temple associe Ramsès II aux dieux d'Empire, tandis que le Petit Temple voisin élève fait rarissime la Grande Épouse Royale Néfertari à l'égalité monumentale du roi sous les traits de la déesse Hathor.</p>"
+  },
+  "naissance_venus_aphrodite": {
+    "id": "naissance_venus_aphrodite",
+    "badge": "MYTHOLOGIE GRÉCO-ROMAINE",
+    "title": "La Naissance de Vénus (Aphrodite Anadyomène) et l'Arrivée à Chypre",
+    "sources": "Hésiode, Théogonie (188-206) & Hymnes homériques à Aphrodite",
+    "keywords": [
+      "naissance de vénus",
+      "naissance de venus",
+      "anadyomène",
+      "anadyomene",
+      "conque",
+      "écume",
+      "venus pudica"
+    ],
+    "text": "<p>Selon la <em>Théogonie</em> d'Hésiode, la naissance de la déesse de l'Amour et de la Beauté surgit d'un drame cosmique primordial. Lorsque le Titan Cronos trancha de sa faucille d'acier le sexe de son père Ouranos (le Ciel) et le précipita dans les flots de la mer, l'écume blanche et immortelle (<em>aphros</em>) qui se forma autour de la chair divine donna naissance à une jeune déesse d'une splendeur éblouissante : Aphrodite, que les Romains nommèrent Vénus.</p>\n<p>Portée sur une conque marine par le souffle doux et humide des vents Zéphyr et Aura qui firent éclore les premières roses dans son sillage, la déesse surgie des eaux — l'<em>Anadyomène</em> — aborda sur les rivages fleuris de l'île de Chypre, près de Paphos.</p>\n<p>Accueillie dès son premier pas sur la terre ferme par les Heures (<em>Horai</em>), divinités des saisons et de l'harmonie naturelle, qui la revêtirent d'un manteau pourpre brodé de fleurs printanières avant de la conduire dans l'assemblée des dieux de l'Olympe, Vénus incarne pour la philosophie humaniste la naissance de la Beauté spirituelle et de l'Harmonie universelle au sein de la matière.</p>"
+  },
+  "venus_trois_graces_neoplatonisme": {
+    "id": "venus_trois_graces_neoplatonisme",
+    "badge": "MYTHOLOGIE & PHILOSOPHIE HUMANISTE",
+    "title": "Vénus, les Trois Grâces (Charites) et l'Harmonie du Don",
+    "sources": "Hésiode, Théogonie & Sénèque, Des Bienfaits (Livre I, 3)",
+    "keywords": [
+      "trois grâces",
+      "trois graces",
+      "charites",
+      "le printemps",
+      "primavera",
+      "mercure",
+      "néoplatonisme",
+      "neoplatonisme"
+    ],
+    "text": "<p>Filles de Zeus et de l'Océanide Eurynomé, les Trois Grâces — Aglaé (« la Brillante »), Euphrosyne (« la Joie de l'âme ») et Thalie (« la Florissante ») — forment le cortège inséparable d'Aphrodite-Vénus. Divinités de la beauté, du charme, de la concorde et de l'épanouissement artistique, elles sont traditionnellement figurées enlacées dans une ronde harmonieuse, deux d'entre elles tournées vers le spectateur et la troisième vue de dos.</p>\n<p>Dans la philosophie antique commentée par Sénèque puis réinterprétée par l'humanisme néoplatonicien de la Renaissance, cette chorégraphie circulaire incarne la loi sacrée de la libéralité et du bienfait : le don offert librement circule, est reçu avec gratitude et revient multiplié vers celui qui l'a donné, liant les êtres humains et le cosmos dans une même harmonie.</p>\n<p>Présidant au réveil du jardin printanier aux côtés de Flore et de Mercure qui dissipe les nuages de l'ignorance, Vénus et les Trois Grâces élèvent l'âme humaine de la contemplation de la beauté terrestre vers l'amour spirituel et la sagesse céleste.</p>"
+  },
+  "pallas_athena_sagesse_centaure": {
+    "id": "pallas_athena_sagesse_centaure",
+    "badge": "ALLÉGORIE & PHILOSOPHIE HUMANISTE",
+    "title": "Pallas Athéna et le Centaure : Le Triomphe de la Raison sur les Passions",
+    "sources": "Platon, Phèdre & Tradition allégorique de la Renaissance",
+    "keywords": [
+      "pallas",
+      "pallas et le centaure",
+      "minerve",
+      "sagesse",
+      "raison"
+    ],
+    "text": "<p>Dans la mythologie et la pensée philosophique de l'Antiquité grecque, le Centaure — créature hybride au buste d'homme et au corps fougueux d'étalon — incarne la dualité fondamentale de la nature humaine, partagée entre l'aspiration intellectuelle et le déchaînement des instincts animaux, de la colère et des appétits sensuels.</p>\n<p>Face à cette fougue sauvage se dresse Pallas Athéna (Minerve), déesse de la Sagesse, de l'intelligence stratégique, des arts et de la paix civique, couronnée de rameaux d'olivier et armée de la lance de la connaissance. Loin de terrasser le monstre par la violence brute, la déesse apaise le Centaure d'un geste serein, saisissant doucement sa chevelure pour dompter ses élans désordonnés et le ramener à la mesure.</p>\n<p>Chère à l'humanisme néoplatonicien, cette rencontre allégorique célèbre la victoire pacificatrice de la Raison et de la Vertu sur l'<em>hybris</em> et les passions aveugles, condition indispensable à l'harmonie de l'âme individuelle comme à la concorde de la cité.</p>"
+  },
+  "sept_arts_liberaux_trivium_quadrivium": {
+    "id": "sept_arts_liberaux_trivium_quadrivium",
+    "badge": "PHILOSOPHIE & SAVOIRS MÉDIÉVAUX",
+    "title": "Les Sept Arts Libéraux : Le Trivium et le Quadrivium sur le Chemin de la Sagesse",
+    "sources": "Martianus Capella, Les Noces de Philologie et de Mercure & Boèce",
+    "keywords": [
+      "arts libéraux",
+      "arts liberaux",
+      "trivium",
+      "quadrivium",
+      "grammaire",
+      "rhétorique",
+      "dialectique"
+    ],
+    "text": "<p>Hérités de l'encyclopédisme antique et codifiés au seuil du Moyen Âge par Boèce et Martianus Capella, les Sept Arts libéraux constituent le socle de toute formation intellectuelle et morale digne d'un homme libre (<em>artes liberales</em>, par opposition aux arts mécaniques manuels). Ils forment l'échelle symbolique permettant à l'esprit humain de s'élever de la maîtrise du langage et du monde sensible vers la contemplation de la Philosophie et de la Vérité.</p>\n<p>Ce cursus s'articule en deux degrés complémentaires. Le premier cycle, le <em>Trivium</em> (« les trois voies »), rassemble les sciences de la parole et du raisonnement : la Grammaire, mère de toutes les disciplines qui enseigne la justesse des lettres ; la Dialectique (ou Logique), qui forge la rigueur de l'argumentation ; et la Rhétorique, art de persuader avec éloquence.</p>\n<p>Le second cycle, le <em>Quadrivium</em> (« les quatre voies »), ouvre l'esprit à l'harmonie mathématique de l'univers à travers l'Arithmétique (science des nombres purs), la Géométrie (mesure de l'espace), la Musique (science des proportions sonores) et l'Astronomie (mouvement des sphères célestes).</p>"
+  },
+  "nativite_christ_incarnation": {
+    "id": "nativite_christ_incarnation",
+    "badge": "RÉCIT ÉVANGÉLIQUE",
+    "title": "La Nativité du Christ et l'Adoration dans l'Étable de Bethléem",
+    "sources": "Évangile selon saint Luc (II, 1-20) & Évangile du Pseudo-Matthieu",
+    "keywords": [
+      "nativité",
+      "nativite",
+      "crèche",
+      "creche",
+      "bethléem",
+      "bethleem",
+      "adoration de l'enfant"
+    ],
+    "text": "<p>Selon l'Évangile de saint Luc, lors du recensement ordonné par l'empereur Auguste, Joseph et Marie quittent Nazareth pour gagner Bethléem en Judée, cité d'origine de la lignée du roi David. Ne trouvant aucune place dans la salle commune de l'auberge, Marie met au monde son fils premier-né, l'emmaillote et le couche dans une mangeoire d'étable, tandis que les anges annoncent aux bergers veillant dans les champs la naissance du Sauveur.</p>\n<p>La tradition chrétienne et les textes apocryphes enrichissent rapidement ce récit dépouillé de détails hautement symboliques : le bœuf et l'âne réchauffant de leur souffle l'Enfant nouveau-né accomplissent la prophétie d'Isaïe (« Le bœuf connaît son propriétaire et l'âne la crèche de son maître »), tandis que les ruines antiques d'un édifice effondré au-dessus de l'étable signifient la chute de l'ordre païen ancien devant l'avènement d'une ère nouvelle.</p>\n<p>Dans la contemplation silencieuse de la Vierge agenouillée devant l'Enfant endormi — sommeil innocent qui préfigure déjà le repos de la Passion — se révèle le mystère chrétien de l'Incarnation : la grandeur divine choisissant l'humilité et le dénuement de la condition humaine.</p>"
+  },
+  "vierge_enfant_magnificat_conversation_sacree": {
+    "id": "vierge_enfant_magnificat_conversation_sacree",
+    "badge": "THÉOLOGIE & ICONOGRAPHIE CHRÉTIENNE",
+    "title": "La Vierge à l'Enfant, le Cantique du Magnificat et la Conversation Sacrée",
+    "sources": "Évangile selon saint Luc (I, 46-55) & Tradition liturgique médiévale",
+    "keywords": [
+      "vierge à l'enfant",
+      "vierge a l'enfant",
+      "magnificat",
+      "conversation sacrée",
+      "conversation sacree",
+      "sainte conversation",
+      "madone",
+      "retable"
+    ],
+    "text": "<p>Figure centrale de la piété chrétienne en tant que Mère de Dieu (<em>Theotokos</em>), la Vierge Marie est célébrée dans l'Évangile de saint Luc lors de sa visite à sa cousine Élisabeth, moment où elle entonne le cantique prophétique du <em>Magnificat</em> (« Mon âme exalte le Seigneur... »), hymne d'action de grâce exaltant l'abaissement des puissants et l'élévation des humbles.</p>\n<p>Autour de la Vierge tenant l'Enfant Jésus s'est élaboré tout un langage symbolique où chaque détail annonce le destin rédempteur du Christ : la grenade ouverte aux grains pourpres évoque le sang versé et la Résurrection, le voile transparent préfigure le suaire, tandis que la présence du jeune saint Jean-Baptiste tenant sa croix de roseau rappelle l'annonce de l'Agneau de Dieu.</p>\n<p>Dans la composition dite de la « Conversation sacrée » (<em>Sacra Conversazione</em>), la Vierge trônant avec l'Enfant réunit autour d'elle, dans un même espace intemporel et silencieux, des saints d'époques différentes — apôtres, martyrs et docteurs de l'Église — qui dialoguent spirituellement et intercèdent pour le salut des fidèles.</p>"
+  },
+  "crucifixion_lamentation_passion_christ": {
+    "id": "crucifixion_lamentation_passion_christ",
+    "badge": "RÉCIT ÉVANGÉLIQUE & PASSION",
+    "title": "La Crucifixion, la Déploration et le Mystère de l'Homme de Douleurs",
+    "sources": "Évangiles synoptiques & Évangile selon saint Jean (XIX, 17-42)",
+    "keywords": [
+      "crucifixion",
+      "lamentation",
+      "christ mort",
+      "christ bénissant",
+      "christ benissant",
+      "golgotha",
+      "pietà",
+      "pieta"
+    ],
+    "text": "<p>Point culminant des récits évangéliques de la Passion, la Crucifixion se déroule hors des remparts de Jérusalem sur la colline rocheuse du Golgotha — littéralement le « lieu du Crâne », où la tradition chrétienne situe la sépulture du premier homme, Adam, afin que le sang du Christ rachète la faute originelle. Tandis que les ténèbres couvrent la terre à l'heure de la mort de Jésus, seuls demeurent au pied de la croix la Vierge Marie, l'apôtre Jean et les saintes femmes, dont Marie-Madeleine.</p>\n<p>Après la descente de croix prend place la scène pathétique de la Lamentation (ou Déploration) : avant la mise au tombeau dans le sépulcre neuf creusé dans le roc, le corps supplicié du Christ est étendu sur les genoux de sa mère effondrée de douleur, entouré des proches pleurant et oignant ses plaies d'aromates.</p>\n<p>De cette méditation sur la souffrance rédemptrice est également née la figure mystique de l'<em>Imago Pietatis</em> (le Christ de douleurs ou Christ bénissant), montrant le Ressuscité debout à mi-corps, vivant au-delà de la mort mais présentant toujours les stigmates des clous et la plaie du flanc comme gages éternels de son amour pour l'humanité.</p>"
+  },
+  "jardin_eden_chute_adam_eve": {
+    "id": "jardin_eden_chute_adam_eve",
+    "badge": "RÉCIT BIBLIQUE (GENÈSE & APOCALYPSE)",
+    "title": "Le Jardin d'Éden, la Chute Originelle et le Jugement des Vanités Terrestres",
+    "sources": "Livre de la Genèse (II - III) & Apocalypse de saint Jean",
+    "keywords": [
+      "jardin des délices",
+      "jardin des delices",
+      "chariot de foin",
+      "la meule",
+      "éden",
+      "eden",
+      "adam et ève",
+      "adam et eve",
+      "péché originel",
+      "enfer"
+    ],
+    "text": "<p>Dans les premiers chapitres du <em>Livre de la Genèse</em>, Dieu façonne l'homme à son image et plante en Orient le jardin d'Éden, paradis d'abondance et d'harmonie où coule une source fécondante et où l'homme et la femme vivent nus sans éprouver ni honte ni souffrance. Un seul interdit scelle leur liberté : ne pas goûter au fruit de l'arbre de la connaissance du bien et du mal.</p>\n<p>Séduits par la promesse trompeuse du serpent de devenir semblables à des dieux, Ève puis Adam transgressent le commandement divin. Aussitôt leurs yeux s'ouvrent, l'harmonie originelle se brise et l'humanité est chassée du Paradis vers une terre d'exil marquée par le labeur, la convoitise et la mort.</p>\n<p>Dans la tradition morale médiévale et renaissante, l'histoire humaine se déploie ainsi comme un triptyque cosmique entre l'innocence perdue de l'Éden, l'aveuglement des hommes s'entre-déchirant pour les plaisirs charnels et les richesses éphémères — semblables à un chariot de foin qui passe et se disperse au vent —, et l'abîme infernal où chaque vice subit le châtiment même de son excès.</p>"
+  },
+  "tentation_saint_antoine_ermite": {
+    "id": "tentation_saint_antoine_ermite",
+    "badge": "HAGIOGRAPHIE & PÈRES DU DÉSERT",
+    "title": "La Tentation de saint Antoine Abbé et le Combat Spirituel au Désert",
+    "sources": "Saint Athanase d'Alexandrie, Vie de saint Antoine (IVe siècle)",
+    "keywords": [
+      "saint antoine",
+      "tentation de saint antoine",
+      "antoine le grand",
+      "antoine abbé",
+      "ergotisme"
+    ],
+    "text": "<p>Né en Haute-Égypte au milieu du IIIe siècle dans une famille aisée, Antoine entend un jour dans une église l'appel évangélique (« Si tu veux être parfait, va, vends ce que tu possèdes, donne-le aux pauvres... »). Distribuant tous ses biens, il se retire dans la solitude absolue du désert oriental, près de la mer Rouge, devenant le père fondateur du monachisme chrétien et des Pères du désert.</p>\n<p>Selon le récit célèbre rédigé par saint Athanase d'Alexandrie, le démon, furieux de voir le désert peuplé d'ascètes, soumet l'ermite à des assauts terrifiants : après l'avoir tourmenté par les souvenirs de la richesse et les visions séduisantes de la luxure, les puissances infernales surgissent sous l'apparence d'une horde de bêtes monstrueuses, de chimères hybrides et de spectres hurlants qui le rouent de coups jusqu'à le laisser pour mort.</p>\n<p>Soutenu par une lumière céleste qui dissipe les ténèbres et relève son corps brisé, Antoine triomphe de chaque épreuve par la prière et l'humilité, devenant au Moyen Âge le saint patron invoqué contre le « feu de saint Antoine » (l'ergotisme), fléau qui embrasait les membres et l'esprit des malades.</p>"
+  },
+  "quatre_saisons_ages_homme_microcosme": {
+    "id": "quatre_saisons_ages_homme_microcosme",
+    "badge": "PHILOSOPHIE NATURELLE & HUMANISME",
+    "title": "Le Cycle des Quatre Saisons, les Éléments et les Âges de la Vie",
+    "sources": "Ovide, Métamorphoses (Livre XV, 199-236) & Philosophie naturelle de la Renaissance",
+    "keywords": [
+      "quatre saisons",
+      "cycle des saisons",
+      "l'été",
+      "l'ete",
+      "l'hiver",
+      "l'automne",
+      "microcosme",
+      "tête composée"
+    ],
+    "text": "<p>Dès l'Antiquité pythagoricienne et stoïcienne, puis dans la philosophie naturelle de la Renaissance, l'univers est conçu comme un organisme vivant régulé par la correspondance parfaite entre le <em>macrocosme</em> (l'ordre du monde) et le <em>microcosme</em> (l'être humain). Tout comme la matière se compose de quatre éléments — l'Air, le Feu, la Terre et l'Eau — et le corps de quatre humeurs, le temps terrestre s'articule selon le cycle perpétuel des quatre saisons.</p>\n<p>Dans le discours célèbre de Pythagore au livre XV des <em>Métamorphoses</em> d'Ovide, chaque saison reflète directement un âge de l'existence humaine : le Printemps fleuri et tendre correspond à la jeunesse pleine de sève et d'espérance ; l'Été ardent et riche en moissons incarne la force mature de l'âge adulte ; l'Automne tempéré et vendangeur annonce le déclin apaisé ; et l'Hiver dépouillé, glacé et noueux figure la vieillesse chenue au seuil du renouveau.</p>\n<p>Cette harmonie cyclique fondait également une allégorie politique majeure des cours impériales européennes : en régnant sur le retour régulier des fleurs, des fruits et des récoltes, le souverain manifestait la pérennité de son empire accordé aux lois éternelles de la nature.</p>"
+  },
+  "jean_ii_le_bon_guerre_cent_ans": {
+    "id": "jean_ii_le_bon_guerre_cent_ans",
+    "badge": "HISTOIRE DE FRANCE (MOYEN ÂGE)",
+    "title": "Jean II le Bon, l'Idéal Chevaleresque et les Épreuves de la Guerre de Cent Ans",
+    "sources": "Jean Froissart, Chroniques (Livre I)",
+    "keywords": [
+      "jean ii le bon",
+      "jean le bon",
+      "poitiers",
+      "valois",
+      "guerre de cent ans"
+    ],
+    "text": "<p>Fils de Philippe VI de Valois, Jean II — surnommé « le Bon » non pour sa mansuétude mais dans le sens médiéval de « preux » et « vaillant » — monte sur le trône de France en 1350, au cœur de la tourmente de la guerre de Cent Ans et au lendemain des ravages de la Peste noire. Passionné par les tournois, le faste des cours et les codes de l'honneur courtois, il fonde l'Ordre de l'Étoile pour rassembler autour de lui la fleur de la chevalerie française.</p>\n<p>En septembre 1356, lors de la désastreuse bataille de Poitiers face à l'armée anglo-gasconne du Prince Noir, le souverain refuse de fuir le champ de bataille et combat vaillamment à pied, la hache d'armes à la main, entouré de son jeune fils Philippe le Hardi jusqu'à sa capture.</p>\n<p>Prisonnier en Angleterre où il est traité avec les plus grands égards royaux, Jean II le Bon incarna jusqu'à sa mort à Londres en 1364 l'idéal exigeant de la parole donnée et de l'honneur chevaleresque, revenant volontairement se constituer prisonnier lorsque l'un de ses fils, otage garant du traité de Brétigny, s'enfuit sans autorisation.</p>"
+  },
+  "gabrielle_estrees_henri_iv_guerres_religion": {
+    "id": "gabrielle_estrees_henri_iv_guerres_religion",
+    "badge": "HISTOIRE DE FRANCE (RENAISSANCE)",
+    "title": "Henri IV, Gabrielle d'Estrées et l'Espoir d'une Paix Dynastique",
+    "sources": "Mémoires de Sully & Chroniques du règne d'Henri IV (fin du XVIe siècle)",
+    "keywords": [
+      "gabrielle d'estrées",
+      "gabrielle d'estrees",
+      "henri iv",
+      "duchesse de villars",
+      "édit de nantes",
+      "vendôme"
+    ],
+    "text": "<p>À la fin du XVIe siècle, après plus de trente années de guerres de Religion qui ont déchiré le royaume de France, l'avènement d'Henri IV — premier roi de la dynastie des Bourbons — ouvre une ère décisive de réconciliation nationale couronnée par la promulgation de l'édit de Nantes en 1598. Au côté du souverain s'impose alors une figure majeure de la cour : sa favorite bien-aimée, Gabrielle d'Estrées, marquise de Monceaux puis duchesse de Beaufort.</p>\n<p>Issu d'une grande famille de la noblesse picarde, Gabrielle d'Estrées exerce une influence politique et diplomatique considérable sur le roi, l'accompagnant dans ses campagnes, soutenant l'édit de pacification religieuse et lui donnant trois enfants naturels légitimés, dont César, duc de Vendôme.</p>\n<p>Alors que le mariage stérile d'Henri IV avec Marguerite de Valois est sur le point d'être annulé et que le roi envisage sérieusement d'épouser sa favorite pour fonder une descendance royale directe — promesse symbolisée par l'anneau nuptial et l'annonce d'une nouvelle maternité —, la mort subite et tragique de Gabrielle d'Estrées en avril 1599 brise ce destin royal et ouvre la voie au mariage du souverain avec Marie de Médicis.</p>"
+  }
    "demeter_kore_persephone_eleusis": {
     "id": "demeter_kore_persephone_eleusis",
     "badge": "MYTHOLOGIE & MYSTÈRES GRECS",
