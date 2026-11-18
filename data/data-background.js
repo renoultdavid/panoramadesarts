@@ -19,6 +19,218 @@ window.BACKGROUNDS_REGISTRY = {
     ],
     "text": "<p>Dans les <em>Fastes</em> d'Ovide, la déesse Flore elle-même conte son origine : autrefois nymphe des îles Fortunées sous le nom de Chloris, elle fut surprise par le souffle fougueux de Zéphyr, le vent du printemps. Épris de sa beauté, Zéphyr en fit son épouse légitime et lui offrit un don souverain : l'empire éternel des fleurs, des bourgeons, des semailles et des prés verdoyants.</p>\n<p>Dans ses jardins divins où règne un printemps immuable, la déesse recueille et veille sur les âmes des héros et des amants dont le destin tragique fut transfiguré par la pitié des dieux en corolles immortelles. Autour de son char triomphal dorénavant paré de guirlandes, les figures brisées du mythe renaissent sous forme végétale : Narcisse, consumé par son propre reflet et devenu fleur immaculée au cœur pourpre ; Hyacinthe, favori d'Apollon mortellement frappé par un disque et changé en fleur étoilée ; Adonis, transpercé par le sanglier sauvage et métamorphosé en anémone fragile ; ou encore le fier Ajax qui, s'étant jeté sur son glaive, voit son sang irriguer l'œillet dont les pétales portent gravées les lettres de sa douleur.</p>\n<p>Ce récit est une allégorie cosmique de la victoire perpétuelle du renouveau sur la mort : par la grâce de la poésie et de l'amour, la souffrance terrestre et la brièveté de la vie mortelle sont absorbées dans le cycle infini de la nature féconde.</p>"
   },
+   "siecle_or_hollandais_tronie_alla_prima": {
+    "id": "siecle_or_hollandais_tronie_alla_prima",
+    "badge": "HISTOIRE DE L'ART DU XVIIe SIÈCLE",
+    "title": "Le Siècle d'Or Hollandais : Les Portraits Civiques, les Tronies et la Touche Alla Prima",
+    "sources": "Traités de peinture des Provinces-Unies (Karel van Mander, Schilder-boeck, 1604)",
+    "keywords": [
+      "siècle d'or",
+      "siecle d'or",
+      "tronie",
+      "tronies",
+      "alla prima",
+      "provinces-unies",
+      "bourgeoisie",
+      "fraise"
+    ],
+    "text": "<p>Au XVIIe siècle, les Provinces-Unies connaissent un essor économique, maritime et culturel sans précédent. Dans cette société républicaine et calviniste où les commandes ecclésiastiques s'effacent au profit du mécénat privé des marchands, des magistrats et des corporations civiques, le portrait devient le genre pictural dominant.</p>\n<p>Parallèlement aux portraits officiels exaltant la probité bourgeoise à travers le contraste austère des étoffes noires et des fraises de dentelle blanche, les ateliers hollandais inventent le genre de la <em>tronie</em> : étude de caractère, d'expression fugace ou de type populaire (musiciens, joyeux buveurs, figures pittoresques) saisie sur le vif.</p>\n<p>Pour capturer l'éclat fugitif d'un rire ou d'un regard, les maîtres de Haarlem révolutionnent la technique picturale par la touche <em>alla prima</em> (« au premier coup »), déposant directement sur la toile ou le panneau des coups de brosse larges, nerveux et apparents qui donnent à la figure une présence vivante immédiate.</p>"
+  },
+  "cubisme_synthetique_architecture_picturale": {
+    "id": "cubisme_synthetique_architecture_picturale",
+    "badge": "AVANT-GARDES DU XXe SIÈCLE",
+    "title": "Le Cubisme Synthétique : L'Architecture des Plans et la Poétique de l'Objet",
+    "sources": "Conférences et écrits théoriques sur le Cubisme (1912–1925)",
+    "keywords": [
+      "cubisme",
+      "cubisme synthétique",
+      "cubisme synthetique",
+      "plans géométriques",
+      "plans geometriques",
+      "nature morte",
+      "avant-garde"
+    ],
+    "text": "<p>À partir de 1912, après la phase analytique qui avait fragmenté les volumes en facettes monochromes jusqu'aux limites de la lisibilité, le cubisme entre dans sa phase synthétique. Renversant la démarche traditionnelle d'imitation du réel, le peintre part désormais d'une architecture abstraite de plans géométriques colorés qui s'imbriquent sur la surface plane pour faire naître l'objet quotidien — livre ouvert, pipe, encrier, guitare ou carafe.</p>\n<p>Cette méthode déductive réintroduit la richesse chromatique et la diversité des textures tactiles au cœur de la composition : les aplats francs de terre cuite, d'ocre et de blanc lumineux dialoguent avec le veinage simulé du bois ou le grain du papier.</p>\n<p>Au cours des années 1920, ce cubisme apaisé atteint une sérénité quasi classique où les objets familiers de l'atelier accèdent à une stabilité monumentale et poétique.</p>"
+  },
+  "lumieres_drame_bourgeois_tetes_expression": {
+    "id": "lumieres_drame_bourgeois_tetes_expression",
+    "badge": "PHILOSOPHIE & ESTHÉTIQUE DES LUMIÈRES",
+    "title": "Le Siècle des Lumières, le Drame Bourgeois et les Têtes d'Expression",
+    "sources": "Denis Diderot, Salons (1759–1781) & Essais sur la peinture",
+    "keywords": [
+      "lumières",
+      "lumieres",
+      "diderot",
+      "drame bourgeois",
+      "peinture morale",
+      "têtes d'expression",
+      "tetes d'expression",
+      "sensibilité",
+      "sensibilite"
+    ],
+    "text": "<p>Dans la seconde moitié du XVIIIe siècle, sous l'impulsion des philosophes des Lumières et notamment de Denis Diderot, la critique d'art condamne la frivolité mythologique du style rococo pour appeler de ses vœux une peinture morale capable d'émouvoir l'âme et d'élever les mœurs.</p>\n<p>Inspiré par le « drame bourgeois » au théâtre, ce nouveau genre pictural met en scène avec une dignité solennelle les vertus domestiques des familles rurales et citadines — la piété filiale, le contrat de mariage, la charité et la dévotion intime — orchestrées comme de véritables tableaux vivants où chaque geste et chaque regard exprime un sentiment précis.</p>\n<p>Parallèlement s'épanouit le genre prisé des « têtes d'expression », études resserrées sur de jeunes visages aux yeux levés vers le ciel, où la douceur veloutée des carnations traduit le culte préromantique de la sensibilité et de l'épanchement intérieur.</p>"
+  },
+  "goya_lumieres_guerre_espagne_peintures_noires": {
+    "id": "goya_lumieres_guerre_espagne_peintures_noires",
+    "badge": "HISTOIRE & ART DE L'ESPAGNE MODERNE",
+    "title": "L'Espagne des Lumières, la Guerre d'Indépendance et les Visions Noires",
+    "sources": "Chroniques de la Guerre d'Indépendance espagnole (1808–1814) & Esthétique du sublime sombre",
+    "keywords": [
+      "tres de mayo",
+      "dos de mayo",
+      "peintures noires",
+      "quinta del sordo",
+      "guerre d'espagne",
+      "mantille",
+      "saturne",
+      "cronos"
+    ],
+    "text": "<p>À la charnière des XVIIIe et XIXe siècles, l'Espagne traverse de profonds bouleversements historiques et moraux, passant du raffinement éclairé de la cour des Bourbons au traumatisme sanglant de l'invasion napoléonienne de 1808 et à la répression absolutiste qui suivit.</p>\n<p>Bouleversant les conventions de la peinture d'histoire qui idéalisait traditionnellement la gloire des batailles, l'art espagnol moderne dévoile pour la première fois l'horreur nue de la guerre moderne : face à la mécanique anonyme et implacable des pelotons d'exécution, les victimes civiles incarnent le martyre universel de l'innocence.</p>\n<p>Dans la solitude de la surdité et du désenchantement politique naissent enfin des visions crépusculaires saisissantes, où le clair-obscur violent, la touche nerveuse et les mythes tragiques — tel le titan dévorant sa propre progéniture — sondent les abîmes de la folie humaine et du temps destructeur.</p>"
+  },
+  "revolution_giottesque_trecento_humanisation_sacre": {
+    "id": "revolution_giottesque_trecento_humanisation_sacre",
+    "badge": "HISTOIRE DE L'ART MÉDIÉVAL & PRÉ-RENAISSANCE",
+    "title": "La Révolution du Trecento : L'Humanisation du Sacré et la Conquête de l'Espace",
+    "sources": "Cennino Cennini, Il Libro dell'Arte & Chroniques florentines du XIVe siècle",
+    "keywords": [
+      "trecento",
+      "christus patiens",
+      "maestà",
+      "maesta",
+      "maniera greca",
+      "tempera",
+      "détrempe",
+      "stigmates",
+      "prédelle",
+      "predelle"
+    ],
+    "text": "<p>À la fin du XIIIe et au début du XIVe siècle en Toscane, portée par la spiritualité incarnée des ordres franciscain et dominicain, la peinture occidentale accomplit une mutation décisive en rompant avec le hiératisme abstrait de la tradition byzantine (<em>maniera greca</em>).</p>\n<p>Dans les grands crucifix peints comme sur les retables d'autel, le Christ n'est plus figuré triomphant et impassible sur la croix, mais comme un homme souffrant (<em>Christus patiens</em>) dont le corps pesant obéit aux lois de la gravité, tandis que la Vierge et les saints acquièrent un volume sculptural modelé par la lumière et l'ombre.</p>\n<p>Grâce à une perspective intuitive qui creuse des niches architecturales tridimensionnelles devant les fonds d'or, le récit sacré s'ancre dans un espace terrestre crédible où les gestes, les larmes et les regards expriment pour la première fois toute la vérité des émotions humaines.</p>"
+  },
+  "existentialisme_apres_guerre_figure_humaine": {
+    "id": "existentialisme_apres_guerre_figure_humaine",
+    "badge": "PHILOSOPHIE & ART DU XXe SIÈCLE",
+    "title": "L'Existentialisme d'Après-Guerre et la Quête de la Présence Humaine",
+    "sources": "Jean-Paul Sartre, Essais esthétiques & Philosophie existentialiste (1945–1965)",
+    "keywords": [
+      "existentialisme",
+      "montparnasse",
+      "cage spatiale",
+      "présence",
+      "presence",
+      "solitude",
+      "apparition"
+    ],
+    "text": "<p>Au lendemain de la Seconde Guerre mondiale, dans l'effervescence intellectuelle du Paris existentialiste, la représentation de la figure humaine est traversée par une interrogation radicale sur l'être, la solitude et la fragilité de l'existence.</p>\n<p>Refusant aussi bien l'abstraction pure que le réalisme académique qui fige l'apparence extérieure, le peintre engage un combat acharné dans le silence de l'atelier pour saisir l'étincelle vivante et insaisissable du modèle assis face à lui.</p>\n<p>Enfermée au centre de cadres tracés à même la toile comme une cage spatiale, façonnée par une accumulation vertigineuse de traits nerveux, de griffures et de repentirs dans une palette ascétique d'ocres, de gris et de noirs, la figure semble émerger du vide telle une apparition saisissante.</p>"
+  },
+  "academisme_neo_grec_orientalisme_xixe": {
+    "id": "academisme_neo_grec_orientalisme_xixe",
+    "badge": "HISTOIRE DE L'ART DU XIXe SIÈCLE",
+    "title": "L'Académisme, le Courant Néo-Grec et l'Orientalisme du XIXe Siècle",
+    "sources": "Salons parisiens du Second Empire & Récits de voyages en Orient",
+    "keywords": [
+      "académisme",
+      "academisme",
+      "néo-grec",
+      "neo-grec",
+      "orientalisme",
+      "orientaliste",
+      "manière lisse",
+      "maniere lisse",
+      "tondo",
+      "nil"
+    ],
+    "text": "<p>Sous le Second Empire et la Troisième République, la peinture académique française porte la maîtrise du dessin, la précision archéologique et le fini de la « manière lisse » — effaçant toute trace de pinceau au profit d'une illusion quasi photographique — à un degré de virtuosité inégalé.</p>\n<p>À travers le courant « néo-grec », les artistes revisitent l'Antiquité gréco-romaine sous un angle intimiste, érudit et poétique, s'attachant aux détails des parures, des camées et des cultes anciens.</p>\n<p>Parallèlement, les expéditions en Égypte, au Levant et en Afrique du Nord nourrissent l'essor de l'orientalisme : captant la lumière crue et zénithale du désert, les ruines monumentales des bords du Nil et les scènes de la vie quotidienne orientale, ces œuvres mêlent rigueur documentaire et fascination mélancolique pour des civilisations immémoriales.</p>"
+  },
+  "romantisme_francais_epopee_sublim_noir": {
+    "id": "romantisme_francais_epopee_sublim_noir",
+    "badge": "HISTOIRE DE L'ART DU XIXe SIÈCLE",
+    "title": "Le Romantisme Français : Épopée Héroïque, Fougue Équestre et Sublime Tragique",
+    "sources": "Manifestes du Romantisme & Salons de Paris (1812–1824)",
+    "keywords": [
+      "romantisme français",
+      "romantisme francais",
+      "radeau de la méduse",
+      "radeau de la meduse",
+      "chasseur",
+      "cuirassier",
+      "carabinier",
+      "anatomie",
+      "barberi"
+    ],
+    "text": "<p>À la charnière de l'épopée napoléonienne et de la Restauration, le romantisme français bouleverse l'ordre froid et statuaire du néoclassicisme en plaçant la passion, le mouvement impétueux et le drame humain au cœur de la création picturale.</p>\n<p>Qu'il s'agisse de la fougue indomptable des chevaux cabrés, de la gloire fulgurante des charges de cavalerie ou de la gravité désenchantée des soldats blessés quittant le champ de bataille, la touche devient grasse, nerveuse et vibrante, portée par un clair-obscur dramatique hérité des maîtres baroques.</p>\n<p>En élevant un fait divers contemporain — tel le naufrage tragique d'une frégate royale — à l'échelle monumentale de la peinture d'histoire et en sondant sans fard la vérité anatomique de la mort et de la souffrance, le romantisme impose une vision moderne, engagée et profondément humaine de l'art.</p>"
+  },
+  "post_impressionnisme_synthetisme_cloisonnisme": {
+    "id": "post_impressionnisme_synthetisme_cloisonnisme",
+    "badge": "HISTOIRE DE L'ART DE LA FIN DU XIXe SIÈCLE",
+    "title": "Post-Impressionnisme, Synthétisme et Cloisonnisme : De la Bretagne aux Mers du Sud",
+    "sources": "Écrits et correspondances de l'École de Pont-Aven (1888–1903)",
+    "keywords": [
+      "post-impressionnisme",
+      "synthétisme",
+      "synthetisme",
+      "cloisonnisme",
+      "pont-aven",
+      "le pouldu",
+      "tahiti",
+      "polynésie",
+      "polynesie",
+      "primitivisme"
+    ],
+    "text": "<p>À la fin des années 1880, cherchant à dépasser l'impressionnisme jugé trop attaché à l'enregistrement fugitif des sensations rétiniennes, les artistes réunis en Bretagne autour de Pont-Aven et du Pouldu fondent le synthétisme et le cloisonnisme.</p>\n<p>Inspirés par les estampes japonaises, les vitraux médiévaux et les calvaires de granit bretons, ils simplifient radicalement les formes en de larges aplats de couleurs pures et arbitraires cernés d'un trait sombre vigoureux, subordonnant la perspective traditionnelle à l'harmonie décorative et symbolique de la toile.</p>\n<p>Prolongée sous les tropiques de Polynésie, cette quête d'une pureté originelle fusionne les mythes chrétiens et les traditions maories en une peinture monumentale et énigmatique qui ouvre directement la voie au fauvisme et à l'art moderne du XXe siècle.</p>"
+  },
+  "romantisme_allemand_paysage_metaphysique": {
+    "id": "romantisme_allemand_paysage_metaphysique",
+    "badge": "PHILOSOPHIE & ESTHÉTIQUE DU XIXe SIÈCLE",
+    "title": "Le Romantisme Allemand : Le Paysage Intérieur et la Contemplation de l'Infini",
+    "sources": "Esthétique romantique d'Iéna et de Dresde (Novalis, Schlegel & Friedrich)",
+    "keywords": [
+      "romantisme allemand",
+      "nocturne",
+      "clair de lune",
+      "baltique",
+      "rügen",
+      "rugen",
+      "infini",
+      "chêne",
+      "chene"
+    ],
+    "text": "<p>Au début du XIXe siècle en Allemagne, le romantisme élève le paysage au rang de révélation spirituelle et métaphysique : la nature n'est plus un simple décor pittoresque, mais le miroir sensible de l'âme humaine et le lieu où se manifeste la présence silencieuse du divin.</p>\n<p>Baignées par la lueur diaphane du clair de lune sur les rivages de la mer Baltique ou dominées par la silhouette torturée d'un chêne solitaire dépouillé de ses feuilles au crépuscule, ces compositions privilégient le recueillement, le silence et le sentiment du sublime.</p>\n<p>À travers une facture lisse qui efface toute trace matérielle du pinceau et des horizons bas ouvrant sur l'immensité du ciel, le tableau devient un sanctuaire contemplatif invitant le spectateur à méditer sur la solitude, la finitude et l'éternité.</p>"
+  },
+  "rococo_anglais_conversation_piece_nature": {
+    "id": "rococo_anglais_conversation_piece_nature",
+    "badge": "HISTOIRE DE L'ART DU XVIIIe SIÈCLE",
+    "title": "Le Rococo Anglais, la Conversation Piece et l'Idéal du Jardin Paysager",
+    "sources": "Esthétique britannique du XVIIIe siècle & Histoire des jardins anglais",
+    "keywords": [
+      "rococo anglais",
+      "conversation piece",
+      "parc anglais",
+      "gentry",
+      "fêtes galantes",
+      "fetes galantes"
+    ],
+    "text": "<p>Au XVIIIe siècle en Grande-Bretagne, l'essor d'une aristocratie terrienne éclairée et d'une prospère <em>gentry</em> favorise l'éclosion d'un genre pictural intime et raffiné : la <em>conversation piece</em>, portrait de couple ou de famille saisi dans une attitude de nonchalance naturelle au cœur de son domaine.</p>\n<p>Influencés par la légèreté poétique des fêtes galantes françaises tout en affirmant un attachement profond à la campagne anglaise, les peintres unissent étroitement le portrait et le paysage.</p>\n<p>Au sein de parcs pittoresques aux frondaisons vaporeuses qui rompent avec la symétrie rigide des jardins classiques, la nature devient le prolongement harmonieux de la sensibilité humaine et de l'élégance morale des modèles.</p>"
+  },
+  "art_copte_byzantin_iconographie_orient_chretien": {
+    "id": "art_copte_byzantin_iconographie_orient_chretien",
+    "badge": "ART CHRÉTIEN D'ORIENT & HAUT MOYEN ÂGE",
+    "title": "L'Art Copte et Byzantin : Monachisme du Désert et Théophanie Céleste",
+    "sources": "Apophtegmes des Pères du désert & Tradition iconographique orientale (VIe – XIe s.)",
+    "keywords": [
+      "copte",
+      "byzantin",
+      "byzantine",
+      "pères du désert",
+      "peres du desert",
+      "galaktotrophousa",
+      "blachernitissa",
+      "baouit",
+      "saqqarah",
+      "hosios loukas",
+      "crypte"
+    ],
+    "text": "<p>Entre l'Antiquité tardive et le Moyen Âge central, les grands foyers monastiques d'Égypte — tels Baouit et Saqqarah — et de Grèce byzantine développent un art sacré d'une puissance spirituelle saisissante, nourri par la tradition des Pères du désert et la théologie de l'icône.</p>\n<p>Dans les chapelles, les niches de prière et les cryptes funéraires, la peinture murale déploie une hiérarchie céleste rigoureuse : le Christ Pantocrator trônant en gloire au milieu du Tétramorphe, la Vierge allaitante (<em>Galaktotrophousa</em>) ou orante, et les processions frontales des saints fondateurs et des cavaliers protecteurs.</p>\n<p>Portées par une linéarité graphique affirmée, des pigments minéraux chaleureux et d'immenses yeux grands ouverts fixant le fidèle, ces images abolissent l'espace terrestre pour ouvrir une fenêtre directe sur la liturgie éternelle du ciel.</p>"
+  },
    "pop_art_britannique_swinging_london": {
     "id": "pop_art_britannique_swinging_london",
     "badge": "HISTOIRE DE L'ART DU XXe SIÈCLE",
