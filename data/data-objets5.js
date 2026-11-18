@@ -139,7 +139,7 @@ window.ART_OBJECTS = [
     "dimensions": {
       "h": 63.0,
       "w": 90.0,
-      "display": "63 × 45 cm (chaque volet)"
+      "display": "63 × 45 cm (chaque volet)" 
     },
     "location": "Galerie des Offices, Florence, Italie",
     "currentLocation": "Galerie des Offices (Florence, Italie)",
